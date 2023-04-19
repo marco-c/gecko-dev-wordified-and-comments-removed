@@ -62,6 +62,15 @@ h
 #
 include
 "
+api
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 modules
 /
 video_coding
@@ -96,6 +105,10 @@ VCMJitterEstimator
 Clock
 *
 clock
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 virtual

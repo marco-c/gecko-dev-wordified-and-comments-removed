@@ -57,6 +57,15 @@ include
 "
 test
 /
+scoped_key_value_config
+.
+h
+"
+#
+include
+"
+test
+/
 time_controller
 /
 simulated_time_controller
@@ -792,6 +801,8 @@ AV1
 )
 }
 }
+&
+field_trials_
 )
 {
 video_stream_decoder_
@@ -808,6 +819,12 @@ Millis
 )
 ;
 }
+test
+:
+:
+ScopedKeyValueConfig
+field_trials_
+;
 NiceMock
 <
 MockVideoStreamDecoderCallbacks

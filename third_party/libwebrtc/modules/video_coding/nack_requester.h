@@ -49,6 +49,15 @@ h
 #
 include
 "
+api
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 modules
 /
 include
@@ -306,6 +315,10 @@ nack_sender
 KeyFrameRequestSender
 *
 keyframe_request_sender
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 ~
@@ -420,6 +433,10 @@ BackoffSettings
 >
 ParseFromFieldTrials
 (
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 const

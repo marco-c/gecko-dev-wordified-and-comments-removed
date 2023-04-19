@@ -132,6 +132,15 @@ gtest
 .
 h
 "
+#
+include
+"
+test
+/
+scoped_key_value_config
+.
+h
+"
 namespace
 webrtc
 {
@@ -307,6 +316,7 @@ timing_
 (
 &
 clock_
+field_trials_
 )
 task_queue_factory_
 (
@@ -328,6 +338,7 @@ vcm_callback_
 timing_
 &
 clock_
+field_trials_
 )
 generic_decoder_
 (
@@ -396,6 +407,12 @@ settings
 )
 ;
 }
+test
+:
+:
+ScopedKeyValueConfig
+field_trials_
+;
 SimulatedClock
 clock_
 ;

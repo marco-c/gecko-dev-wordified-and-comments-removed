@@ -210,6 +210,10 @@ TimeDelta
 max_wait_for_keyframe
 TimeDelta
 max_wait_for_frame
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 :
 max_wait_for_keyframe_
@@ -225,6 +229,7 @@ frame_buffer_
 clock
 timing
 stats_proxy
+field_trials
 )
 decode_queue_
 (
@@ -901,6 +906,10 @@ WebRtcKeyValueConfig
 field_trials
 )
 :
+field_trials_
+(
+field_trials
+)
 max_wait_for_keyframe_
 (
 max_wait_for_keyframe
@@ -946,6 +955,7 @@ frame_decode_scheduler
 jitter_estimator_
 (
 clock_
+field_trials
 )
 buffer_
 (
@@ -959,6 +969,7 @@ FrameBuffer
 (
 kMaxFramesBuffered
 kMaxFramesHistory
+field_trials
 )
 )
 decode_timing_
@@ -1200,6 +1211,7 @@ FrameBuffer
 (
 kMaxFramesBuffered
 kMaxFramesHistory
+field_trials_
 )
 ;
 frame_decode_scheduler_
@@ -2590,6 +2602,11 @@ SequenceChecker
 worker_sequence_checker_
 ;
 const
+WebRtcKeyValueConfig
+&
+field_trials_
+;
+const
 TimeDelta
 max_wait_for_keyframe_
 ;
@@ -3111,6 +3128,7 @@ decode_queue
 receiver
 max_wait_for_keyframe
 max_wait_for_frame
+field_trials
 )
 ;
 }

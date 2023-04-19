@@ -6062,6 +6062,9 @@ VCMTiming
 >
 (
 clock_
+trials
+(
+)
 )
 &
 nack_periodic_processor_

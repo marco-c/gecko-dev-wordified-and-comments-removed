@@ -47,7 +47,7 @@ include
 "
 test
 /
-field_trial
+gtest
 .
 h
 "
@@ -56,7 +56,7 @@ include
 "
 test
 /
-gtest
+scoped_key_value_config
 .
 h
 "
@@ -132,6 +132,7 @@ get
 )
 this
 this
+field_trial_
 )
 keyframes_requested_
 (
@@ -223,7 +224,7 @@ clock_
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trial_
 ;
 DEPRECATED_NackModule
@@ -2179,6 +2180,7 @@ get
 )
 this
 this
+nack_delay_field_trial_
 )
 keyframes_requested_
 (
@@ -2240,7 +2242,7 @@ keyframes_requested_
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 nack_delay_field_trial_
 ;
 std

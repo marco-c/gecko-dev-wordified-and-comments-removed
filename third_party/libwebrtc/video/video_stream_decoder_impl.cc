@@ -88,8 +88,16 @@ int
 >
 >
 decoder_settings
+const
+WebRtcKeyValueConfig
+*
+field_trials
 )
 :
+field_trials_
+(
+field_trials
+)
 timing_
 (
 Clock
@@ -98,6 +106,8 @@ Clock
 GetRealTimeClock
 (
 )
+*
+field_trials_
 )
 decode_callbacks_
 (
@@ -144,6 +154,8 @@ GetRealTimeClock
 &
 timing_
 nullptr
+*
+field_trials_
 )
 bookkeeping_queue_
 (

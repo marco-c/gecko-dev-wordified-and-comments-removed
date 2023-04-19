@@ -66,6 +66,15 @@ h
 #
 include
 "
+api
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 modules
 /
 video_coding
@@ -90,6 +99,10 @@ int
 max_size
 int
 max_decode_history
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 FrameBuffer

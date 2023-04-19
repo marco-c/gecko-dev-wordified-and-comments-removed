@@ -148,6 +148,10 @@ clock
 VCMTiming
 *
 timing
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 :
 clock_
@@ -162,6 +166,7 @@ decodedFrameCallback_
 (
 timing_
 clock_
+field_trials
 )
 codecDataBase_
 (

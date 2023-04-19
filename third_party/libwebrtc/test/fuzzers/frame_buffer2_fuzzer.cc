@@ -25,6 +25,15 @@ include
 "
 test
 /
+scoped_key_value_config
+.
+h
+"
+#
+include
+"
+test
+/
 time_controller
 /
 simulated_time_controller
@@ -305,6 +314,12 @@ NORMAL
 )
 )
 ;
+test
+:
+:
+ScopedKeyValueConfig
+field_trials
+;
 VCMTiming
 timing
 (
@@ -313,6 +328,7 @@ time_controller
 GetClock
 (
 )
+field_trials
 )
 ;
 video_coding
@@ -329,6 +345,7 @@ GetClock
 &
 timing
 nullptr
+field_trials
 )
 ;
 bool

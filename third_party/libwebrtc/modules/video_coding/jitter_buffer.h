@@ -32,6 +32,15 @@ vector
 #
 include
 "
+api
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 modules
 /
 include
@@ -348,6 +357,10 @@ unique_ptr
 EventWrapper
 >
 event
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 ~

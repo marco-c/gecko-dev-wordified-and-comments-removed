@@ -658,6 +658,11 @@ new
 VCMTiming
 (
 clock_
+fake_call_
+.
+trials
+(
+)
 )
 ;
 video_receive_stream_
@@ -1931,6 +1936,11 @@ new
 VCMTiming
 (
 clock_
+fake_call_
+.
+trials
+(
+)
 )
 ;
 video_receive_stream_
@@ -3660,6 +3670,11 @@ time_controller_
 GetClock
 (
 )
+fake_call_
+.
+trials
+(
+)
 )
 &
 nack_periodic_processor_
@@ -4732,6 +4747,11 @@ new
 VCMTiming
 (
 clock_
+fake_call_
+.
+trials
+(
+)
 )
 ;
 video_receive_stream_

@@ -63,6 +63,10 @@ int
 >
 >
 decoder_settings
+const
+WebRtcKeyValueConfig
+*
+field_trials
 )
 {
 return
@@ -84,6 +88,7 @@ move
 (
 decoder_settings
 )
+field_trials
 )
 ;
 }

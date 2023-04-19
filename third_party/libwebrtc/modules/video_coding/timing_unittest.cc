@@ -47,7 +47,7 @@ include
 "
 test
 /
-field_trial
+gtest
 .
 h
 "
@@ -56,7 +56,7 @@ include
 "
 test
 /
-gtest
+scoped_key_value_config
 .
 h
 "
@@ -96,6 +96,12 @@ ReceiverTimingTest
 JitterDelay
 )
 {
+test
+:
+:
+ScopedKeyValueConfig
+field_trials
+;
 SimulatedClock
 clock
 (
@@ -107,6 +113,7 @@ timing
 (
 &
 clock
+field_trials
 )
 ;
 timing
@@ -710,6 +717,12 @@ Millis
 1337
 )
 ;
+test
+:
+:
+ScopedKeyValueConfig
+field_trials
+;
 SimulatedClock
 clock
 (
@@ -721,6 +734,7 @@ timing
 (
 &
 clock
+field_trials
 )
 ;
 constexpr
@@ -877,11 +891,18 @@ clock
 kStartTimeUs
 )
 ;
+test
+:
+:
+ScopedKeyValueConfig
+field_trials
+;
 VCMTiming
 timing
 (
 &
 clock
+field_trials
 )
 ;
 timing
@@ -1056,8 +1077,8 @@ Millis
 test
 :
 :
-ScopedFieldTrials
-override_field_trials
+ScopedKeyValueConfig
+field_trials
 (
 "
 WebRTC
@@ -1115,6 +1136,7 @@ timing
 (
 &
 clock
+field_trials
 )
 ;
 timing
@@ -1301,8 +1323,8 @@ DefaultMaxWaitingTimeUnaffectedByPacingExperiment
 test
 :
 :
-ScopedFieldTrials
-override_field_trials
+ScopedKeyValueConfig
+field_trials
 (
 "
 WebRTC
@@ -1353,6 +1375,7 @@ timing
 (
 &
 clock
+field_trials
 )
 ;
 timing
@@ -1480,8 +1503,8 @@ Millis
 test
 :
 :
-ScopedFieldTrials
-override_field_trials
+ScopedKeyValueConfig
+field_trials
 (
 "
 WebRTC
@@ -1543,6 +1566,7 @@ timing
 (
 &
 clock
+field_trials
 )
 ;
 timing

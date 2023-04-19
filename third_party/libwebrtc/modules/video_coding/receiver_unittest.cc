@@ -122,6 +122,15 @@ gtest
 .
 h
 "
+#
+include
+"
+test
+/
+scoped_key_value_config
+.
+h
+"
 namespace
 webrtc
 {
@@ -150,6 +159,7 @@ timing_
 (
 &
 clock_
+field_trials_
 )
 receiver_
 (
@@ -157,6 +167,7 @@ receiver_
 timing_
 &
 clock_
+field_trials_
 )
 stream_generator_
 (
@@ -387,6 +398,12 @@ return
 true
 ;
 }
+test
+:
+:
+ScopedKeyValueConfig
+field_trials_
+;
 SimulatedClock
 clock_
 ;
@@ -1842,6 +1859,7 @@ timing_
 (
 &
 clock_
+field_trials_
 )
 receiver_
 (
@@ -1881,6 +1899,7 @@ clock_
 true
 )
 )
+field_trials_
 )
 {
 }
@@ -1891,6 +1910,12 @@ SetUp
 )
 {
 }
+test
+:
+:
+ScopedKeyValueConfig
+field_trials_
+;
 SimulatedClockWithFrames
 clock_
 ;
