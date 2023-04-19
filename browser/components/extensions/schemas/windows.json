@@ -2068,13 +2068,6 @@ type
 "
 string
 "
-"
-format
-"
-:
-"
-relativeUrl
-"
 }
 {
 "
@@ -2095,13 +2088,6 @@ type
 :
 "
 string
-"
-"
-format
-"
-:
-"
-relativeUrl
 "
 }
 }
