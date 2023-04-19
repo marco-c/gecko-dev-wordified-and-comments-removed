@@ -90,6 +90,11 @@ ScriptLoader
 h
 "
 "
+ScriptLoadHandler
+.
+h
+"
+"
 ScriptSettings
 .
 h

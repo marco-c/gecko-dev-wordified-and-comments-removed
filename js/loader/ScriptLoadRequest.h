@@ -751,6 +751,11 @@ reset
 )
 ;
 }
+bool
+IsUTF8ParsingEnabled
+(
+)
+;
 void
 SetTextSource
 (
@@ -772,13 +777,7 @@ eTextSource
 ;
 if
 (
-mozilla
-:
-:
-StaticPrefs
-:
-:
-dom_script_loader_external_scripts_utf8_parsing_enabled
+IsUTF8ParsingEnabled
 (
 )
 )
