@@ -183,6 +183,32 @@ kwargs
 )
     
 def
+__setstate__
+(
+self
+state
+)
+:
+        
+self
+.
+__dict__
+=
+state
+    
+def
+__getstate__
+(
+self
+)
+:
+        
+return
+self
+.
+__dict__
+    
+def
 write
 (
 self
@@ -294,7 +320,10 @@ stream
 closed
         
 except
+(
 AttributeError
+ValueError
+)
 :
             
 return
