@@ -1469,9 +1469,14 @@ currentUIState
 .
 splitterHeight
 )
+Math
+.
+round
+(
 currentUIState
 .
 containerHeight
+)
 "
 Everything
 adds
