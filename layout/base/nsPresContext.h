@@ -1063,6 +1063,7 @@ nsAtom
 Medium
 (
 )
+const
 {
 MOZ_ASSERT
 (
