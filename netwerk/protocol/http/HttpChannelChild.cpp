@@ -8580,6 +8580,7 @@ mLoadInfo
 GetRequestBlockingReason
 (
 )
+mCanceledReason
 logOnParent
 )
 ;

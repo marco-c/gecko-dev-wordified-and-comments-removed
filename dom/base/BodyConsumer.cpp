@@ -3366,9 +3366,16 @@ mConsumeBodyPump
 mConsumeBodyPump
 -
 >
-Cancel
+CancelWithReason
 (
 NS_BINDING_ABORTED
+"
+BodyConsumer
+:
+:
+ShutDownMainThreadConsuming
+"
+_ns
 )
 ;
 mConsumeBodyPump

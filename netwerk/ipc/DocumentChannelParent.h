@@ -89,6 +89,10 @@ const
 nsresult
 &
 aStatus
+const
+nsCString
+&
+aReason
 )
 {
 if
@@ -102,6 +106,7 @@ mDocumentLoadListener
 Cancel
 (
 aStatus
+aReason
 )
 ;
 }
@@ -130,6 +135,13 @@ mDocumentLoadListener
 Cancel
 (
 NS_BINDING_ABORTED
+"
+DocumentChannelParent
+:
+:
+ActorDestroy
+"
+_ns
 )
 ;
 }

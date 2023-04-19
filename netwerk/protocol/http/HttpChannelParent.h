@@ -702,6 +702,10 @@ uint32_t
 &
 requestBlockingReason
 const
+nsACString
+&
+reason
+const
 mozilla
 :
 :
