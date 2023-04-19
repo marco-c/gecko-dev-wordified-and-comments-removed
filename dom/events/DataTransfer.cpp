@@ -3031,6 +3031,7 @@ kURLMime
 kURLDataMime
 kUnicodeMime
 kPNGImageMime
+kPDFJSMime
 }
 ;
 void
@@ -4333,6 +4334,7 @@ kMozTextInternal
 kHTMLContext
 kHTMLInfo
 kImageRequestMime
+kPDFJSMime
 }
 ;
 do
