@@ -4006,11 +4006,6 @@ synchronization
 mutex
 "
 "
-synchronization
-:
-sequence_checker
-"
-"
 system
 :
 no_unique_address
