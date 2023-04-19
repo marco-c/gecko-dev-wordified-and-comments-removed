@@ -9461,14 +9461,6 @@ test
 test_support
 "
 "
-.
-.
-/
-rtp_rtcp
-:
-rtp_rtcp_format
-"
-"
 /
 /
 testing
