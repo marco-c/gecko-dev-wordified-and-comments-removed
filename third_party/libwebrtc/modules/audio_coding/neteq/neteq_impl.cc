@@ -9625,6 +9625,8 @@ num_channels
 }
 size_t
 samples_removed
+=
+0
 ;
 Accelerate
 :
@@ -10004,6 +10006,8 @@ num_channels
 }
 size_t
 samples_added
+=
+0
 ;
 PreemptiveExpand
 :
