@@ -1130,6 +1130,12 @@ NewObjectKind
 newKind
 )
 {
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 CompileOptions
 dummyOptions
 (
@@ -1143,6 +1149,8 @@ DummyTokenStream
 dummyTokenStream
 (
 cx
+&
+ec
 dummyOptions
 )
 ;
@@ -6417,6 +6425,12 @@ CHECK_THREAD
 cx
 )
 ;
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 CompileOptions
 dummyOptions
 (
@@ -6430,6 +6444,8 @@ DummyTokenStream
 dummyTokenStream
 (
 cx
+&
+ec
 dummyOptions
 )
 ;

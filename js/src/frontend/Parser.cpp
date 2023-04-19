@@ -945,6 +945,7 @@ Parser
 anyChars
 (
 cx
+ec
 options
 this
 )

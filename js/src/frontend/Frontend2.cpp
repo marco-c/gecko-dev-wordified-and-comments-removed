@@ -1453,6 +1453,12 @@ return
 false
 ;
 }
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 for
 (
 size_t
@@ -1697,6 +1703,8 @@ TokenStreamAnyChars
 ts
 (
 cx
+&
+ec
 compilationState
 .
 input

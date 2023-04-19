@@ -4009,7 +4009,7 @@ stencilInput_
 return
 ;
 }
-GeneralErrorContext
+OffThreadErrorContext
 ec
 (
 cx

@@ -1695,6 +1695,12 @@ tempLifoAlloc
 )
 )
 ;
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 CompileOptions
 options
 (
@@ -1708,6 +1714,8 @@ DummyTokenStream
 dummyTokenStream
 (
 cx
+&
+ec
 options
 )
 ;
