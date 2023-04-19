@@ -318,6 +318,8 @@ networkMenu
 sizeMB
 "
 2
+.
+1
 )
 "
 Transferred
@@ -343,6 +345,8 @@ networkMenu
 sizeMB
 "
 2
+.
+1
 )
 "
 Size

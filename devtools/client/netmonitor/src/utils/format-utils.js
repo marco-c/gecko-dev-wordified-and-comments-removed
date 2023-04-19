@@ -28,7 +28,7 @@ l10n
 const
 BYTES_IN_KB
 =
-1024
+1000
 ;
 const
 BYTES_IN_MB
@@ -219,7 +219,9 @@ getFormatStr
 "
 networkMenu
 .
-sizeKB
+size
+.
+kB
 "
 getSizeWithDecimals
 (

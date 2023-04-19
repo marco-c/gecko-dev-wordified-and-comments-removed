@@ -404,7 +404,9 @@ getFormatStr
 "
 networkMenu
 .
-sizeKB
+size
+.
+kB
 "
 L10N
 .
@@ -412,7 +414,7 @@ numberWithDecimals
 (
 85975
 /
-1024
+1000
 2
 )
 )
