@@ -206,9 +206,6 @@ true
 if
 (
 valid_queue_
-|
-|
-current_queue
 )
 {
 return
