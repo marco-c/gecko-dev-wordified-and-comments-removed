@@ -26986,12 +26986,6 @@ ShouldFixedAndStickyContentGetAnimationIds
 )
 const
 {
-#
-if
-defined
-(
-MOZ_WIDGET_ANDROID
-)
 return
 mFrame
 -
@@ -27005,13 +26999,6 @@ IsRootContentDocumentCrossProcess
 (
 )
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 bool
 nsDisplayOwnLayer

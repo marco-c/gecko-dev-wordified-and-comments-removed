@@ -1366,12 +1366,6 @@ positionedNode
 )
 ;
 }
-#
-if
-defined
-(
-MOZ_WIDGET_ANDROID
-)
 if
 (
 hit
@@ -1456,8 +1450,6 @@ fixed
 )
 ;
 }
-#
-endif
 }
 hit
 .
