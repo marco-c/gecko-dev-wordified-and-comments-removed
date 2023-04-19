@@ -788,6 +788,7 @@ new_revision
 )
         
 except
+Exception
 :
             
 _replace_in_file
