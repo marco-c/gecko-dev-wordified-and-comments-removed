@@ -7,14 +7,6 @@ TestFileSystemHashSource
 cpp
 "
 ]
-TEST_DIRS
-+
-=
-[
-"
-datamodel
-"
-]
 include
 (
 "

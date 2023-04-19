@@ -34,11 +34,6 @@ ContentType
 nsString
 ;
 using
-DatabaseVersion
-=
-int32_t
-;
-using
 EntryId
 =
 nsCString
@@ -56,7 +51,7 @@ nsCString
 using
 PageNumber
 =
-int32_t
+uint32_t
 ;
 using
 Path
