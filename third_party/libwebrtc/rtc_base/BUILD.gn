@@ -948,10 +948,6 @@ atomicops
 "
 "
 :
-criticalsection
-"
-"
-:
 logging
 "
 "
@@ -1473,10 +1469,6 @@ deps
 "
 :
 checks
-"
-"
-:
-criticalsection
 "
 "
 :
@@ -2560,10 +2552,6 @@ checks
 "
 "
 :
-criticalsection
-"
-"
-:
 logging
 "
 "
@@ -2795,10 +2783,6 @@ checks
 "
 "
 :
-criticalsection
-"
-"
-:
 logging
 "
 "
@@ -2896,10 +2880,6 @@ deps
 "
 :
 checks
-"
-"
-:
-criticalsection
 "
 "
 :
@@ -5591,10 +5571,6 @@ deps
 [
 "
 :
-criticalsection
-"
-"
-:
 gunit_helpers
 "
 "
@@ -6669,6 +6645,10 @@ bounded_inline_vector
 "
 :
 checks
+"
+"
+:
+criticalsection
 "
 "
 :

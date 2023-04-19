@@ -75,17 +75,6 @@ include
 "
 rtc_base
 /
-deprecated
-/
-recursive_critical_section
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 event
 .
 h
