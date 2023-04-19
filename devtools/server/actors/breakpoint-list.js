@@ -239,6 +239,10 @@ getSessionDataForType
 (
 EVENT_BREAKPOINTS
 )
+|
+|
+[
+]
 ;
 const
 addIds

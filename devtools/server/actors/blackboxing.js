@@ -208,6 +208,7 @@ length
 const
 existingRanges
 =
+(
 this
 .
 watcherActor
@@ -215,6 +216,11 @@ watcherActor
 getSessionDataForType
 (
 BLACKBOXING
+)
+|
+|
+[
+]
 )
 .
 filter

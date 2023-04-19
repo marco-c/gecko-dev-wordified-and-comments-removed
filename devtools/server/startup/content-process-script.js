@@ -665,6 +665,7 @@ sessionData
 if
 (
 targets
+?
 .
 includes
 (

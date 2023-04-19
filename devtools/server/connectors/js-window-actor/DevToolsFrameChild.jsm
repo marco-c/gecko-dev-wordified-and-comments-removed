@@ -421,6 +421,7 @@ if
 sessionData
 .
 targets
+?
 .
 includes
 (
