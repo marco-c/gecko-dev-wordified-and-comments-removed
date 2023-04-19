@@ -1,13 +1,4 @@
 var
-checkUrls
-=
-[
-]
-;
-var
-checkExpect
-;
-var
 chunk1Urls
 =
 [
