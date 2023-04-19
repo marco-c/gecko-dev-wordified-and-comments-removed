@@ -3085,8 +3085,8 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
-nsresult
-SplitParagraph
+SplitNodeResult
+SplitParagraphWithTransaction
 (
 Element
 &
@@ -3095,9 +3095,12 @@ const
 EditorDOMPoint
 &
 aStartOfRightNode
-nsIContent
+dom
+:
+:
+HTMLBRElement
 *
-aBRNode
+aMayBecomeVisibleBRElement
 )
 ;
 [
