@@ -1869,6 +1869,14 @@ pendingRunListenerPromisesCount
 }
 )
 ;
+extension
+.
+backgroundContext
+.
+clearPendingRunListenerPromises
+(
+)
+;
 return
 ;
 }
