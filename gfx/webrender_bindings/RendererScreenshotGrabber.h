@@ -107,11 +107,6 @@ RendererOGL
 aRenderer
 )
 ;
-bool
-HaveScreenshotsToFlush
-(
-)
-;
 private
 :
 void

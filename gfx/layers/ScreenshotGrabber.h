@@ -125,11 +125,6 @@ MaybeProcessQueue
 (
 )
 ;
-bool
-HaveScreenshotsToFlush
-(
-)
-;
 void
 NotifyEmptyFrame
 (
