@@ -43,6 +43,15 @@ kMaxTemporalStreams
 4
 }
 ;
+enum
+:
+int
+{
+kMaxPreferredPixelFormats
+=
+5
+}
+;
 }
 #
 endif
