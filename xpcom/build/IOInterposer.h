@@ -379,7 +379,7 @@ Operation
 aOp
 IOInterposeObserver
 *
-aObserver
+aStaticObserver
 )
 ;
 void
@@ -392,7 +392,7 @@ Operation
 aOp
 IOInterposeObserver
 *
-aObserver
+aStaticObserver
 )
 ;
 void
