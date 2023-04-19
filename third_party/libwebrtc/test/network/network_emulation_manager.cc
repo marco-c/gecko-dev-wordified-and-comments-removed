@@ -588,6 +588,9 @@ EmulatedEndpointImpl
 next_node_id_
 +
 +
+config
+.
+name
 *
 ip
 config
