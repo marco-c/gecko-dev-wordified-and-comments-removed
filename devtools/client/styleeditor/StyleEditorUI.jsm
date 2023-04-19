@@ -1103,12 +1103,17 @@ uiAbortController
 signal
 }
 ;
+for
+(
+const
+el
+of
 this
 .
 #
 root
 .
-querySelector
+querySelectorAll
 (
 "
 .
@@ -1119,6 +1124,9 @@ editor
 newButton
 "
 )
+)
+{
+el
 .
 addEventListener
 (
@@ -1164,6 +1172,7 @@ clearFilterInput
 eventListenersConfig
 )
 ;
+}
 this
 .
 #
