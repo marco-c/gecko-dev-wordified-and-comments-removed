@@ -2486,8 +2486,11 @@ mDoc
 }
 virtual
 void
-SetInitialPrincipalToSubject
+SetInitialPrincipal
 (
+nsIPrincipal
+*
+aNewWindowPrincipal
 nsIContentSecurityPolicy
 *
 aCSP
