@@ -498,12 +498,6 @@ case
 StyleCssRuleType
 :
 :
-FontPaletteValues
-:
-case
-StyleCssRuleType
-:
-:
 Viewport
 :
 break
@@ -761,12 +755,6 @@ StyleCssRuleType
 :
 :
 FontFeatureValues
-:
-case
-StyleCssRuleType
-:
-:
-FontPaletteValues
 :
 case
 StyleCssRuleType

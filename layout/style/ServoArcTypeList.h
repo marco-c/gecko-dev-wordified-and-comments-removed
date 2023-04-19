@@ -90,11 +90,6 @@ RawServoFontFeatureValuesRule
 )
 SERVO_ARC_TYPE
 (
-FontPaletteValuesRule
-RawServoFontPaletteValuesRule
-)
-SERVO_ARC_TYPE
-(
 FontFaceRule
 RawServoFontFaceRule
 )

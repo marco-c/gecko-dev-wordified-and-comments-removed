@@ -260,10 +260,6 @@ FontFeatureValues
 )
 BASIC_RULE_FUNCS
 (
-FontPaletteValues
-)
-BASIC_RULE_FUNCS
-(
 FontFace
 )
 BASIC_RULE_FUNCS
