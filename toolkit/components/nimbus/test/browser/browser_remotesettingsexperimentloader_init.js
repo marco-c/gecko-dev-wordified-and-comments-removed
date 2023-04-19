@@ -171,7 +171,6 @@ let
 doExperimentCleanup
 }
 =
-await
 ExperimentFakes
 .
 enrollmentHelper
