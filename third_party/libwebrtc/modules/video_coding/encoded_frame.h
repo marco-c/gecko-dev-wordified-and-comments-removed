@@ -77,7 +77,7 @@ class
 RTC_EXPORT
 VCMEncodedFrame
 :
-protected
+public
 EncodedImage
 {
 public

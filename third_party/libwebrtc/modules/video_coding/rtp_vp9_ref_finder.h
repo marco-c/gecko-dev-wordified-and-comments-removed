@@ -246,11 +246,13 @@ pid_ref
 )
 ;
 void
-UnwrapPictureIds
+FlattenFrameIdAndRefs
 (
 RtpFrameObject
 *
 frame
+bool
+inter_layer_predicted
 )
 ;
 int
