@@ -198,11 +198,8 @@ RecvBufferMap
 (
 RawId
 aBufferId
-ffi
-:
-:
-WGPUHostMap
-aHostMap
+uint32_t
+aMode
 uint64_t
 aOffset
 uint64_t
