@@ -83,15 +83,11 @@ DISTRIBUTION_ID_CHINA_REPACK
 MozillaOnline
 "
 ;
-const
+import
 {
 XPCOMUtils
 }
-=
-ChromeUtils
-.
-importESModule
-(
+from
 "
 resource
 :
@@ -107,7 +103,6 @@ sys
 .
 mjs
 "
-)
 ;
 const
 {

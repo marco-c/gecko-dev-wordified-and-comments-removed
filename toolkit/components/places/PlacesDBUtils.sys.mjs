@@ -141,15 +141,11 @@ MAINTENANCE_INTERVAL_SECONDS
 *
 86400
 ;
-const
+import
 {
 XPCOMUtils
 }
-=
-ChromeUtils
-.
-importESModule
-(
+from
 "
 resource
 :
@@ -165,7 +161,6 @@ sys
 .
 mjs
 "
-)
 ;
 const
 lazy

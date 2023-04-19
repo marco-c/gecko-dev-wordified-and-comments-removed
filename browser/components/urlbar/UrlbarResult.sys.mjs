@@ -130,15 +130,11 @@ types
 .
 *
 /
-const
+import
 {
 XPCOMUtils
 }
-=
-ChromeUtils
-.
-importESModule
-(
+from
 "
 resource
 :
@@ -154,7 +150,6 @@ sys
 .
 mjs
 "
-)
 ;
 const
 lazy
