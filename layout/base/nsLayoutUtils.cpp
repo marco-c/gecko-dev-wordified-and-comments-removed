@@ -35694,9 +35694,11 @@ StyleAppearance
 :
 MozWinGlass
 )
+{
 return
 eTransparencyGlass
 ;
+}
 if
 (
 appearance
@@ -35707,9 +35709,11 @@ StyleAppearance
 :
 MozWinBorderlessGlass
 )
+{
 return
 eTransparencyBorderlessGlass
 ;
+}
 nsITheme
 :
 :
@@ -35727,6 +35731,7 @@ IsThemed
 transparency
 )
 )
+{
 return
 transparency
 =
@@ -35740,6 +35745,7 @@ eTransparencyTransparent
 :
 eTransparencyOpaque
 ;
+}
 if
 (
 aBackgroundFrame
@@ -35767,6 +35773,7 @@ return
 eTransparencyOpaque
 ;
 }
+const
 ComputedStyle
 *
 bgSC
