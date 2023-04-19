@@ -134,7 +134,7 @@ height
 ;
 }
 int
-I422Rotate
+webrtcI422Rotate
 (
 const
 uint8_t
@@ -596,7 +596,7 @@ return
 ;
 }
 int
-I422Scale
+webrtcI422Scale
 (
 const
 uint8_t
@@ -1435,10 +1435,7 @@ rotated_height
 RTC_CHECK_EQ
 (
 0
-webrtc
-:
-:
-I422Rotate
+webrtcI422Rotate
 (
 src
 .
@@ -2028,10 +2025,7 @@ uv_offset_x
 int
 res
 =
-webrtc
-:
-:
-I422Scale
+webrtcI422Scale
 (
 y_plane
 src
