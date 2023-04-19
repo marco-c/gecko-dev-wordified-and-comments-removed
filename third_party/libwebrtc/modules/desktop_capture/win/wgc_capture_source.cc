@@ -680,8 +680,7 @@ GetMonitorRect
 *
 hmonitor_
 )
--
->
+.
 top_left
 (
 )

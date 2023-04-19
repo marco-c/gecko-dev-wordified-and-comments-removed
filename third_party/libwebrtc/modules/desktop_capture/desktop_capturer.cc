@@ -254,6 +254,13 @@ RTC_ENABLE_WIN_WGC
 )
 if
 (
+options
+.
+allow_wgc_capturer
+(
+)
+&
+&
 rtc
 :
 :
@@ -390,6 +397,13 @@ RTC_ENABLE_WIN_WGC
 )
 if
 (
+options
+.
+allow_wgc_capturer
+(
+)
+&
+&
 rtc
 :
 :
