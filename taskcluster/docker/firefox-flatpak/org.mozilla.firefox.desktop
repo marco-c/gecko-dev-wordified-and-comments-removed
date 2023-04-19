@@ -411,7 +411,7 @@ window
 ;
 StartupWMClass
 =
-Firefox
+firefox
 [
 Desktop
 Action
