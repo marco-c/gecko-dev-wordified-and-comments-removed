@@ -17,7 +17,7 @@ include
 "
 mozilla
 /
-Preferences
+LookAndFeel
 .
 h
 "
@@ -26,7 +26,7 @@ include
 "
 mozilla
 /
-LookAndFeel
+StaticPrefs_svg
 .
 h
 "
@@ -153,6 +153,14 @@ return
 }
 if
 (
+StaticPrefs
+:
+:
+svg_embedder_prefers_color_scheme_content_enabled
+(
+)
+|
+|
 aPresContext
 .
 Document
