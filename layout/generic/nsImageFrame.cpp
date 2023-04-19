@@ -13594,16 +13594,12 @@ nsCOMPtr
 nsIURI
 >
 uri
-;
+=
 currentRequest
 -
 >
 GetURI
 (
-getter_AddRefs
-(
-uri
-)
 )
 ;
 nsAutoCString
