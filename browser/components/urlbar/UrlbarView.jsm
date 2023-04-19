@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserWindowTracker
 :
@@ -200,7 +206,7 @@ XPCOMUtils
 .
 defineLazyServiceGetter
 (
-this
+lazy
 "
 styleSheetService
 "
@@ -468,6 +474,8 @@ this
 _l10nCache
 =
 new
+lazy
+.
 L10nCache
 (
 this
@@ -529,6 +537,8 @@ this
 _oneOffSearchButtons
 =
 new
+lazy
+.
 UrlbarSearchOneOffs
 (
 this
@@ -1367,6 +1377,8 @@ _announceTabToSearchOnSelection
 userPressedTab
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2548,6 +2560,8 @@ trimmedSearchString
 ]
 !
 =
+lazy
+.
 UrlbarTokenizer
 .
 RESTRICT
@@ -2695,6 +2709,8 @@ TabToSearch
 "
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -3093,6 +3109,8 @@ for
 let
 window
 of
+lazy
+.
 BrowserWindowTracker
 .
 orderedWindows
@@ -3157,6 +3175,8 @@ for
 let
 window
 of
+lazy
+.
 BrowserWindowTracker
 .
 orderedWindows
@@ -3373,6 +3393,8 @@ given
 return
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -3390,6 +3412,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -3414,6 +3438,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -3656,6 +3682,8 @@ row
 visibleSpanCount
 +
 =
+lazy
+.
 UrlbarUtils
 .
 getSpanForResult
@@ -3819,6 +3847,8 @@ row
 visibleSpanCount
 +
 =
+lazy
+.
 UrlbarUtils
 .
 getSpanForResult
@@ -3958,6 +3988,8 @@ newVisibleSpanCount
 =
 visibleSpanCount
 +
+lazy
+.
 UrlbarUtils
 .
 getSpanForResult
@@ -4549,6 +4581,8 @@ UrlbarProviderQuickSuggest
 "
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -4951,6 +4985,8 @@ payload
 let
 provider
 =
+lazy
+.
 UrlbarProvidersManager
 .
 getProvider
@@ -5578,6 +5614,8 @@ bottom
 ;
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -5845,6 +5883,8 @@ type
 let
 provider
 =
+lazy
+.
 UrlbarProvidersManager
 .
 getProvider
@@ -5897,6 +5937,8 @@ undefined
 oldResultType
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -5911,6 +5953,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -5923,6 +5967,8 @@ TIP
 oldResultType
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -5937,6 +5983,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -5949,6 +5997,8 @@ DYNAMIC
 oldResultType
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -5961,6 +6011,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -6025,6 +6077,8 @@ result
 isBestMatch
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -6065,6 +6119,8 @@ UrlbarProviderQuickSuggest
 "
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -6178,6 +6234,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -6203,6 +6261,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -6272,6 +6332,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -6316,6 +6378,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -6344,6 +6408,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -6372,6 +6438,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -6410,6 +6478,8 @@ result
 source
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -6438,6 +6508,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -6558,6 +6630,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -6570,6 +6644,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -6602,6 +6678,8 @@ payload
 icon
 |
 |
+lazy
+.
 UrlbarUtils
 .
 ICON
@@ -6888,6 +6966,8 @@ type
 )
 {
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -6932,6 +7012,8 @@ true
 break
 ;
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -6971,6 +7053,8 @@ true
 break
 ;
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -7216,6 +7300,8 @@ engine
 break
 ;
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -7244,6 +7330,8 @@ keyword
 break
 ;
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -7407,6 +7495,8 @@ result
 type
 !
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -7830,6 +7920,8 @@ result
 source
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -7843,6 +7935,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -7855,6 +7949,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -7863,6 +7959,8 @@ KEYWORD
 )
 &
 &
+lazy
+.
 UrlbarUtils
 .
 ICON
@@ -7888,6 +7986,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -7900,6 +8000,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -7908,6 +8010,8 @@ KEYWORD
 )
 &
 &
+lazy
+.
 UrlbarUtils
 .
 ICON
@@ -7916,6 +8020,8 @@ SEARCH_GLASS
 )
 |
 |
+lazy
+.
 UrlbarUtils
 .
 ICON
@@ -7955,6 +8061,8 @@ payload
 icon
 |
 |
+lazy
+.
 UrlbarUtils
 .
 ICON
@@ -8363,6 +8471,8 @@ highlights
 let
 provider
 =
+lazy
+.
 UrlbarProvidersManager
 .
 getProvider
@@ -9057,6 +9167,8 @@ label
 {
 if
 (
+lazy
+.
 ObjectUtils
 .
 deepEqual
@@ -9254,6 +9366,8 @@ currentLabel
 {
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -9317,6 +9431,8 @@ type
 )
 {
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -9324,6 +9440,8 @@ RESULT_TYPE
 KEYWORD
 :
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -9331,6 +9449,8 @@ RESULT_TYPE
 REMOTE_TAB
 :
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -9338,6 +9458,8 @@ RESULT_TYPE
 TAB_SWITCH
 :
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -9360,6 +9482,8 @@ suggest
 }
 ;
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -9465,6 +9589,8 @@ result
 type
 !
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -9479,6 +9605,8 @@ result
 type
 !
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -9949,6 +10077,8 @@ result
 let
 provider
 =
+lazy
+.
 UrlbarProvidersManager
 .
 getProvider
@@ -10973,6 +11103,8 @@ result
 type
 !
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -11149,6 +11281,8 @@ visit
 ;
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -11182,6 +11316,8 @@ suggest
 ;
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -11192,6 +11328,8 @@ bestMatchEnabled
 )
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -11227,6 +11365,8 @@ match
 }
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -11237,6 +11377,8 @@ quickSuggestEnabled
 )
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -11464,6 +11606,8 @@ name
 }
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -11751,6 +11895,8 @@ source
 {
 localSearchMode
 =
+lazy
+.
 UrlbarUtils
 .
 LOCAL_SEARCH_MODES
@@ -11813,6 +11959,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -11825,6 +11973,8 @@ result
 source
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -12004,6 +12154,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -12153,6 +12305,8 @@ localSearchMode
 let
 name
 =
+lazy
+.
 UrlbarUtils
 .
 getResultSourceName
@@ -12284,6 +12438,8 @@ payload
 icon
 |
 |
+lazy
+.
 UrlbarUtils
 .
 ICON
@@ -12353,6 +12509,8 @@ engine
 {
 iconOverride
 =
+lazy
+.
 UrlbarUtils
 .
 ICON
@@ -12407,6 +12565,8 @@ event
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -12763,6 +12923,8 @@ _topSitesContext
 null
 )
 ;
+lazy
+.
 UrlbarProviderTopSites
 .
 addTopSitesListener
@@ -12841,6 +13003,8 @@ results
 providerName
 =
 =
+lazy
+.
 UrlbarProviderTopSites
 .
 name
@@ -12991,6 +13155,8 @@ let
 sheet
 =
 await
+lazy
+.
 styleSheetService
 .
 preloadSheetAsync

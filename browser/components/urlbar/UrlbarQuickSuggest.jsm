@@ -87,11 +87,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserWindowTracker
 :
@@ -211,6 +217,8 @@ QuickSuggest
 "
 maxLogLevel
 :
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -381,6 +389,8 @@ init
 (
 )
 {
+lazy
+.
 UrlbarPrefs
 .
 addObserver
@@ -388,6 +398,8 @@ addObserver
 this
 )
 ;
+lazy
+.
 NimbusFeatures
 .
 urlbar
@@ -662,6 +674,8 @@ score
 DEFAULT_SUGGESTION_SCORE
 source
 :
+lazy
+.
 QUICK_SUGGEST_SOURCE
 .
 REMOTE_SETTINGS
@@ -715,6 +729,8 @@ idleDispatchToMainThread
 )
 =
 >
+lazy
+.
 NimbusFeatures
 .
 urlbar
@@ -893,6 +909,8 @@ maybeShowOnboardingDialog
 )
 {
 await
+lazy
+.
 UrlbarPrefs
 .
 firefoxSuggestScenarioStartupPromise
@@ -900,6 +918,8 @@ firefoxSuggestScenarioStartupPromise
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -908,6 +928,8 @@ FEATURE_AVAILABLE
 )
 |
 |
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -916,6 +938,8 @@ SEEN_DIALOG_PREF
 )
 |
 |
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -937,6 +961,8 @@ false
 let
 restartsSeen
 =
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -948,6 +974,8 @@ if
 (
 restartsSeen
 <
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -958,6 +986,8 @@ quickSuggestShowOnboardingDialogAfterNRestarts
 )
 )
 {
+lazy
+.
 UrlbarPrefs
 .
 set
@@ -975,6 +1005,8 @@ false
 let
 win
 =
+lazy
+.
 BrowserWindowTracker
 .
 getTopWindow
@@ -1007,6 +1039,8 @@ false
 }
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1033,6 +1067,8 @@ ensureExposureEventRecorded
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1054,6 +1090,8 @@ try
 {
 variationType
 =
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1096,6 +1134,8 @@ ONBOARDING_URI
 params
 )
 ;
+lazy
+.
 UrlbarPrefs
 .
 set
@@ -1104,6 +1144,8 @@ SEEN_DIALOG_PREF
 true
 )
 ;
+lazy
+.
 UrlbarPrefs
 .
 set
@@ -1136,6 +1178,8 @@ ONBOARDING_CHOICE
 .
 ACCEPT_2
 ;
+lazy
+.
 UrlbarPrefs
 .
 set
@@ -1171,6 +1215,8 @@ win
 .
 openTrustedLinkIn
 (
+lazy
+.
 UrlbarProviderQuickSuggest
 .
 helpUrl
@@ -1229,6 +1275,8 @@ DISMISS_1
 break
 ;
 }
+lazy
+.
 UrlbarPrefs
 .
 set
@@ -1311,6 +1359,8 @@ null
 _settingsTaskQueue
 =
 new
+lazy
+.
 TaskQueue
 (
 )
@@ -1349,6 +1399,8 @@ queue
 let
 enabled
 =
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1358,6 +1410,8 @@ FEATURE_AVAILABLE
 &
 &
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1372,6 +1426,8 @@ nonsponsored
 )
 |
 |
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1423,6 +1479,8 @@ this
 .
 _rs
 =
+lazy
+.
 RemoteSettings
 (
 RS_COLLECTION
@@ -1578,6 +1636,8 @@ entry
 let
 dataType
 =
+lazy
+.
 UrlbarPrefs
 .
 get

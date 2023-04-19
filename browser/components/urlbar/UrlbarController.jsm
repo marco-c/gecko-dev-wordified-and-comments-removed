@@ -84,11 +84,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserSearchTelemetry
 :
@@ -429,6 +435,8 @@ options
 manager
 |
 |
+lazy
+.
 UrlbarProvidersManager
 ;
 this
@@ -1462,6 +1470,8 @@ KeyEvent
 .
 DOM_VK_PAGE_UP
 ?
+lazy
+.
 UrlbarUtils
 .
 PAGE_UP_DOWN_DELTA
@@ -1770,6 +1780,8 @@ let
 url
 }
 =
+lazy
+.
 UrlbarUtils
 .
 getUrlFromResult
@@ -1829,6 +1841,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -1838,6 +1852,8 @@ SEARCH
 {
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1850,6 +1866,8 @@ searches
 )
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1882,6 +1900,8 @@ payload
 engine
 )
 ;
+lazy
+.
 UrlbarUtils
 .
 setupSpeculativeConnection
@@ -1902,6 +1922,8 @@ result
 autofill
 )
 {
+lazy
+.
 UrlbarUtils
 .
 setupSpeculativeConnection
@@ -1935,6 +1957,8 @@ http
 )
 )
 {
+lazy
+.
 UrlbarUtils
 .
 setupSpeculativeConnection
@@ -2053,6 +2077,8 @@ resultIndex
 1
 ;
 }
+lazy
+.
 BrowserSearchTelemetry
 .
 recordSearchSuggestionSelectionMethod
@@ -2092,6 +2118,8 @@ UrlbarProviderTopSites
 topsite
 "
 :
+lazy
+.
 UrlbarUtils
 .
 telemetryTypeFromResult
@@ -2274,6 +2302,8 @@ false
 let
 provider
 =
+lazy
+.
 UrlbarProvidersManager
 .
 getProvider
@@ -2331,6 +2361,8 @@ result
 source
 !
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -2418,6 +2450,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -2442,6 +2476,8 @@ let
 url
 }
 =
+lazy
+.
 UrlbarUtils
 .
 getUrlFromResult
@@ -2449,6 +2485,8 @@ getUrlFromResult
 result
 )
 ;
+lazy
+.
 PlacesUtils
 .
 history
@@ -2465,6 +2503,8 @@ Cu
 reportError
 )
 ;
+lazy
+.
 FormHistory
 .
 update
@@ -2516,6 +2556,8 @@ return
 true
 ;
 }
+lazy
+.
 PlacesUtils
 .
 history
@@ -2837,6 +2879,8 @@ input
 {
 interactionType
 =
+lazy
+.
 UrlbarUtils
 .
 isPasteEvent
@@ -3281,6 +3325,8 @@ interactionType
 let
 recordingEnabled
 =
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -3355,6 +3401,8 @@ trim
 .
 split
 (
+lazy
+.
 UrlbarTokenizer
 .
 REGEXP_SPACES
@@ -3493,6 +3541,8 @@ autofill
 const
 type
 =
+lazy
+.
 UrlbarUtils
 .
 telemetryTypeFromResult
@@ -3641,6 +3691,8 @@ result
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -3682,6 +3734,8 @@ block
 }
 }
 return
+lazy
+.
 UrlbarUtils
 .
 telemetryTypeFromResult

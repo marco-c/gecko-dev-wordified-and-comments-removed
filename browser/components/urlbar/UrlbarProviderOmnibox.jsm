@@ -61,11 +61,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 ExtensionSearchHandler
 :
@@ -169,6 +175,8 @@ value
 length
 &
 &
+lazy
+.
 ExtensionSearchHandler
 .
 isKeywordRegistered
@@ -208,6 +216,8 @@ true
 }
 if
 (
+lazy
+.
 ExtensionSearchHandler
 .
 hasActiveInputSession
@@ -215,6 +225,8 @@ hasActiveInputSession
 )
 )
 {
+lazy
+.
 ExtensionSearchHandler
 .
 handleInputCancelled
@@ -264,6 +276,8 @@ value
 let
 description
 =
+lazy
+.
 ExtensionSearchHandler
 .
 getDescription
@@ -275,6 +289,8 @@ let
 heuristicResult
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -289,6 +305,8 @@ RESULT_SOURCE
 OTHER_NETWORK
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -381,6 +399,8 @@ this
 .
 _resultsPromise
 =
+lazy
+.
 ExtensionSearchHandler
 .
 handleSearch
@@ -449,6 +469,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -463,6 +485,8 @@ RESULT_SOURCE
 OTHER_NETWORK
 .
 .
+.
+lazy
 .
 UrlbarResult
 .

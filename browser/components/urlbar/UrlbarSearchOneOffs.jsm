@@ -83,11 +83,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 UrlbarPrefs
 :
@@ -163,6 +169,8 @@ view
 .
 input
 ;
+lazy
+.
 UrlbarPrefs
 .
 addObserver
@@ -656,6 +664,8 @@ searchMode
 source
 !
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -1034,6 +1044,8 @@ willHide
 ;
 if
 (
+lazy
+.
 UrlbarUtils
 .
 LOCAL_SEARCH_MODES
@@ -1043,6 +1055,8 @@ some
 m
 =
 >
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1072,6 +1086,8 @@ if
 [
 .
 .
+.
+lazy
 .
 UrlbarUtils
 .
@@ -1135,6 +1151,8 @@ pref
 restrict
 }
 of
+lazy
+.
 UrlbarUtils
 .
 LOCAL_SEARCH_MODES
@@ -1143,6 +1161,8 @@ LOCAL_SEARCH_MODES
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1157,6 +1177,8 @@ continue
 let
 name
 =
+lazy
+.
 UrlbarUtils
 .
 getResultSourceName

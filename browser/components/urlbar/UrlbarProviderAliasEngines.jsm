@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 UrlbarResult
 :
@@ -159,6 +165,8 @@ queryContext
 restrictSource
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 RESTRICT
@@ -212,6 +220,8 @@ let
 engine
 =
 await
+lazy
+.
 UrlbarSearchUtils
 .
 engineForAlias
@@ -256,6 +266,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -270,6 +282,8 @@ RESULT_SOURCE
 SEARCH
 .
 .
+.
+lazy
 .
 UrlbarResult
 .

@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 KeywordUtils
 :
@@ -160,6 +166,8 @@ queryContext
 restrictSource
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 RESTRICT
@@ -227,6 +235,8 @@ postData
 }
 =
 await
+lazy
+.
 KeywordUtils
 .
 getBindableKeyword
@@ -324,6 +334,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -338,6 +350,8 @@ RESULT_SOURCE
 BOOKMARKS
 .
 .
+.
+lazy
 .
 UrlbarResult
 .

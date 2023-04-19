@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PlacesUtils
 :
@@ -224,6 +230,8 @@ userContextId
 static
 promiseDBPopulated
 =
+lazy
+.
 PlacesUtils
 .
 largeCacheDBConnDeferred
@@ -455,6 +463,8 @@ let
 conn
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseLargeCacheDBConnection
@@ -506,6 +516,8 @@ addCallback
 (
 this
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -568,6 +580,8 @@ return
 ;
 }
 await
+lazy
+.
 UrlbarProvidersManager
 .
 runInCriticalSection
@@ -582,6 +596,8 @@ let
 conn
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseLargeCacheDBConnection
@@ -662,6 +678,8 @@ return
 ;
 }
 await
+lazy
+.
 UrlbarProvidersManager
 .
 runInCriticalSection
@@ -676,6 +694,8 @@ let
 conn
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseLargeCacheDBConnection

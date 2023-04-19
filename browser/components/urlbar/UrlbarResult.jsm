@@ -36,11 +36,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 BrowserUIUtils
 :
@@ -127,6 +133,8 @@ Object
 .
 values
 (
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -163,6 +171,8 @@ Object
 .
 values
 (
+lazy
+.
 UrlbarUtils
 .
 RESULT_SOURCE
@@ -351,6 +361,8 @@ type
 )
 {
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -358,6 +370,8 @@ RESULT_TYPE
 KEYWORD
 :
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -365,6 +379,8 @@ RESULT_TYPE
 TAB_SWITCH
 :
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -372,6 +388,8 @@ RESULT_TYPE
 URL
 :
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -379,6 +397,8 @@ RESULT_TYPE
 OMNIBOX
 :
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -460,6 +480,8 @@ url
 ]
 ;
 case
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -607,6 +629,8 @@ payload
 let
 schema
 =
+lazy
+.
 UrlbarUtils
 .
 getPayloadSchema
@@ -641,6 +665,8 @@ type
 let
 result
 =
+lazy
+.
 JsonSchemaValidator
 .
 validate
@@ -661,6 +687,8 @@ this
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
@@ -782,6 +810,8 @@ title
 [
 "
 "
+lazy
+.
 UrlbarUtils
 .
 HIGHLIGHT
@@ -854,6 +884,8 @@ if
 url
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -866,6 +898,8 @@ trimURLs
 {
 url
 =
+lazy
+.
 BrowserUIUtils
 .
 removeSingleTrailingSlashFromURL
@@ -929,6 +963,8 @@ displayUrl
 0
 ]
 =
+lazy
+.
 UrlbarUtils
 .
 unEscapeURIForUI
@@ -992,6 +1028,8 @@ val
 substring
 (
 0
+lazy
+.
 UrlbarUtils
 .
 MAX_TEXT_LENGTH
@@ -1077,6 +1115,8 @@ isArray
 val
 )
 ?
+lazy
+.
 UrlbarUtils
 .
 getTokenMatches
@@ -1097,6 +1137,8 @@ map
 subval
 =
 >
+lazy
+.
 UrlbarUtils
 .
 getTokenMatches

@@ -85,11 +85,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 UrlbarResult
 :
@@ -190,6 +196,8 @@ queryContext
 {
 return
 (
+lazy
+.
 UrlbarSearchUtils
 .
 separatePrivateDefaultUIEnabled
@@ -239,6 +247,8 @@ t
 type
 =
 =
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -278,6 +288,8 @@ t
 type
 !
 =
+lazy
+.
 UrlbarTokenizer
 .
 TYPE
@@ -344,6 +356,8 @@ getDefaultPrivate
 let
 isPrivateEngine
 =
+lazy
+.
 UrlbarSearchUtils
 .
 separatePrivateDefault
@@ -416,6 +430,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -430,6 +446,8 @@ RESULT_SOURCE
 SEARCH
 .
 .
+.
+lazy
 .
 UrlbarResult
 .

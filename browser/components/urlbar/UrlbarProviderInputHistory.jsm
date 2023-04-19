@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PlacesUtils
 :
@@ -431,6 +437,8 @@ queryContext
 return
 (
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -443,6 +451,8 @@ history
 )
 |
 |
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -455,6 +465,8 @@ bookmark
 )
 |
 |
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -493,6 +505,8 @@ let
 conn
 =
 await
+lazy
+.
 PlacesUtils
 .
 promiseLargeCacheDBConnection
@@ -657,6 +671,8 @@ openPageCount
 0
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -686,6 +702,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -700,6 +718,8 @@ RESULT_SOURCE
 TABS
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -758,6 +778,8 @@ if
 bookmarked
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -789,6 +811,8 @@ historyTitle
 else
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -884,6 +908,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -894,6 +920,8 @@ URL
 resultSource
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -964,6 +992,8 @@ SQL_ADAPTIVE_QUERY
 {
 parent
 :
+lazy
+.
 PlacesUtils
 .
 tagsFolderId
@@ -985,6 +1015,8 @@ mozIPlacesAutoComplete
 MATCH_ANYWHERE
 searchBehavior
 :
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -995,6 +1027,8 @@ defaultBehavior
 )
 userContextId
 :
+lazy
+.
 UrlbarProviderOpenTabs
 .
 getUserContextIdForOpenPagesTable

@@ -84,11 +84,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 UrlbarView
 :
@@ -407,6 +413,8 @@ initializeDynamicResult
 (
 )
 {
+lazy
+.
 UrlbarResult
 .
 addDynamicResultType
@@ -414,6 +422,8 @@ addDynamicResultType
 DYNAMIC_RESULT_TYPE
 )
 ;
+lazy
+.
 UrlbarView
 .
 addDynamicViewTemplate
@@ -509,6 +519,8 @@ queryContext
 searchMode
 &
 &
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -726,6 +738,8 @@ now
 let
 interactionsLeft
 =
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -746,6 +760,8 @@ interactionsLeft
 0
 )
 {
+lazy
+.
 UrlbarPrefs
 .
 set
@@ -825,6 +841,8 @@ regular
 let
 scalarKey
 =
+lazy
+.
 UrlbarSearchUtils
 .
 getSearchModeScalarKey
@@ -869,6 +887,8 @@ onboarding
 let
 scalarKey
 =
+lazy
+.
 UrlbarSearchUtils
 .
 getSearchModeScalarKey
@@ -1038,6 +1058,8 @@ true
 if
 (
 !
+lazy
+.
 UrlbarTokenizer
 .
 looksLikeOrigin
@@ -1083,6 +1105,8 @@ let
 engines
 =
 await
+lazy
+.
 UrlbarSearchUtils
 .
 enginesForDomainPrefix
@@ -1112,6 +1136,8 @@ return
 const
 onboardingInteractionsLeft
 =
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1300,6 +1326,8 @@ let
 host
 =
 await
+lazy
+.
 UrlbarProviderAutofill
 .
 getTopHostOverThreshold
@@ -1420,6 +1448,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -1525,6 +1555,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -1539,6 +1571,8 @@ RESULT_SOURCE
 SEARCH
 .
 .
+.
+lazy
 .
 UrlbarResult
 .

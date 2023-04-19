@@ -84,11 +84,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 clearTimeout
 :
@@ -141,7 +147,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
+lazy
 "
 logger
 "
@@ -149,6 +155,8 @@ logger
 )
 =
 >
+lazy
+.
 UrlbarUtils
 .
 getLogger
@@ -317,6 +325,8 @@ this
 _deferringTimeout
 )
 {
+lazy
+.
 clearTimeout
 (
 this
@@ -408,6 +418,8 @@ blur
 "
 )
 {
+lazy
+.
 logger
 .
 debug
@@ -435,6 +447,8 @@ this
 _deferringTimeout
 )
 {
+lazy
+.
 clearTimeout
 (
 this
@@ -537,6 +551,8 @@ deferred
 )
 ;
 }
+lazy
+.
 logger
 .
 debug
@@ -620,6 +636,8 @@ this
 .
 _deferringTimeout
 =
+lazy
+.
 setTimeout
 (
 (

@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 UrlbarPrefs
 :
@@ -242,6 +248,8 @@ this
 _engines
 =
 await
+lazy
+.
 UrlbarSearchUtils
 .
 tokenAliasEngines
@@ -293,6 +301,8 @@ true
 }
 if
 (
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -446,6 +456,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -460,6 +472,8 @@ RESULT_SOURCE
 SEARCH
 .
 .
+.
+lazy
 .
 UrlbarResult
 .
@@ -631,6 +645,8 @@ alias
 )
 &
 &
+lazy
+.
 UrlbarTokenizer
 .
 REGEXP_SPACES_START
@@ -682,6 +698,8 @@ let
 result
 =
 new
+lazy
+.
 UrlbarResult
 (
 UrlbarUtils
@@ -696,6 +714,8 @@ RESULT_SOURCE
 SEARCH
 .
 .
+.
+lazy
 .
 UrlbarResult
 .

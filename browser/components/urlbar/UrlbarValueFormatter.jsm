@@ -60,11 +60,17 @@ jsm
 "
 )
 ;
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyModuleGetters
 (
-this
+lazy
 {
 PrivateBrowsingUtils
 :
@@ -631,6 +637,8 @@ FIXUP_FLAG_ALLOW_KEYWORD_LOOKUP
 ;
 if
 (
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate
@@ -1138,6 +1146,8 @@ urlMetaData
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1204,6 +1214,8 @@ urlMetaData
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -1734,6 +1746,8 @@ _formatSearchAlias
 if
 (
 !
+lazy
+.
 UrlbarPrefs
 .
 get
@@ -2067,6 +2081,8 @@ _selectedResult
 type
 =
 =
+lazy
+.
 UrlbarUtils
 .
 RESULT_TYPE
