@@ -84,6 +84,13 @@ nsIConsoleService
 console
 "
 "
+nsICookieBannerService
+"
+:
+"
+cookieBanners
+"
+"
 nsICookieManager
 "
 :
