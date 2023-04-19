@@ -60,7 +60,7 @@ DIRS
 arm
 '
 ]
-elif
+if
 CONFIG
 [
 '
@@ -91,6 +91,11 @@ SOURCES
 +
 =
 [
+'
+avsscanf
+.
+c
+'
 '
 avstring
 .

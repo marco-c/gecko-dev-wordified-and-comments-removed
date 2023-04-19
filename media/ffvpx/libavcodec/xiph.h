@@ -6,13 +6,11 @@ define
 AVCODEC_XIPH_H
 #
 include
-"
-libavutil
-/
-common
+<
+stdint
 .
 h
-"
+>
 int
 avpriv_split_xiph_headers
 (

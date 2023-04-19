@@ -11319,7 +11319,7 @@ x0
 16
 .
 endr
-br
+ret
 x14
 1
 :
@@ -11570,7 +11570,7 @@ v31
 v19
 .
 16b
-br
+ret
 x14
 endfunc
 /
@@ -11763,7 +11763,7 @@ v30
 v31
 .
 4s
-br
+ret
 x14
 endfunc
 .
@@ -12357,7 +12357,7 @@ sp
 0x10
 .
 endif
-br
+ret
 x15
 endfunc
 function
@@ -12735,7 +12735,7 @@ x0
 ]
 #
 16
-br
+ret
 x14
 endfunc
 function
@@ -12863,7 +12863,7 @@ v30
 v31
 .
 4s
-br
+ret
 x14
 endfunc
 function
@@ -13018,7 +13018,7 @@ x0
 16
 .
 endr
-br
+ret
 x14
 1
 :
@@ -13269,7 +13269,7 @@ v23
 v19
 .
 16b
-br
+ret
 x14
 endfunc
 function
@@ -13376,7 +13376,7 @@ v30
 v31
 .
 4s
-br
+ret
 x14
 endfunc
 .
@@ -13515,7 +13515,7 @@ d9
 sp
 ]
 0x10
-br
+ret
 x15
 endfunc
 .
@@ -16718,7 +16718,7 @@ v24
 .
 purgem
 store_rev
-br
+ret
 x14
 endfunc
 /
@@ -17612,7 +17612,7 @@ v31
 .
 purgem
 load_acc_store
-br
+ret
 x14
 endfunc
 .
@@ -18072,7 +18072,7 @@ d9
 sp
 ]
 0x10
-br
+ret
 x15
 endfunc
 function
@@ -18392,7 +18392,7 @@ d9
 sp
 ]
 0x10
-br
+ret
 x15
 endfunc
 .

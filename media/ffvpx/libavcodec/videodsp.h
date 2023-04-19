@@ -63,10 +63,6 @@ EMULATED_EDGE
 (
 8
 )
-EMULATED_EDGE
-(
-16
-)
 typedef
 struct
 VideoDSPContext
@@ -172,6 +168,16 @@ bpc
 ;
 void
 ff_videodsp_init_mips
+(
+VideoDSPContext
+*
+ctx
+int
+bpc
+)
+;
+void
+ff_videodsp_init_loongarch
 (
 VideoDSPContext
 *

@@ -169,6 +169,8 @@ ff_prefetch_aarch64
 export
 =
 1
+1
+:
 subs
 w2
 w2
@@ -195,9 +197,6 @@ lsl
 b
 .
 gt
-X
-(
-ff_prefetch_aarch64
-)
+1b
 ret
 endfunc

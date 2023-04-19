@@ -12,13 +12,6 @@ stdint
 h
 >
 #
-include
-"
-version
-.
-h
-"
-#
 define
 AV_DICT_MATCH_CASE
 1

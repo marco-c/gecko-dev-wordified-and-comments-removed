@@ -1,14 +1,7 @@
 #
 include
 <
-stdlib
-.
-h
->
-#
-include
-<
-stdio
+stdint
 .
 h
 >
@@ -17,7 +10,7 @@ include
 "
 libavutil
 /
-common
+attributes
 .
 h
 "
