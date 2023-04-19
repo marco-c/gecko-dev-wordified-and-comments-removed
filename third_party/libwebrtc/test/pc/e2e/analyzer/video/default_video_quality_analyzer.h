@@ -1183,6 +1183,14 @@ dropped
 true
 ;
 }
+bool
+IsDropped
+(
+size_t
+peer
+)
+const
+;
 void
 SetPrevFrameRenderedTime
 (
