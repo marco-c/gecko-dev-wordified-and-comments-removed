@@ -2932,7 +2932,7 @@ EXPECT_FALSE
 channel1_
 -
 >
-srtp_active
+SrtpActiveForTesting
 (
 )
 )
@@ -5330,7 +5330,7 @@ EXPECT_FALSE
 channel1_
 -
 >
-srtp_active
+SrtpActiveForTesting
 (
 )
 )
@@ -5380,7 +5380,7 @@ EXPECT_FALSE
 channel1_
 -
 >
-srtp_active
+SrtpActiveForTesting
 (
 )
 )
@@ -5608,7 +5608,7 @@ EXPECT_TRUE
 channel1_
 -
 >
-rtp_transport
+RtpTransportForTesting
 (
 )
 -
@@ -5623,7 +5623,7 @@ EXPECT_TRUE
 channel2_
 -
 >
-rtp_transport
+RtpTransportForTesting
 (
 )
 -
@@ -5746,7 +5746,7 @@ EXPECT_FALSE
 channel1_
 -
 >
-srtp_active
+SrtpActiveForTesting
 (
 )
 )
@@ -5756,7 +5756,7 @@ EXPECT_FALSE
 channel2_
 -
 >
-srtp_active
+SrtpActiveForTesting
 (
 )
 )
@@ -5804,7 +5804,7 @@ EXPECT_TRUE
 channel1_
 -
 >
-srtp_active
+SrtpActiveForTesting
 (
 )
 )
@@ -5814,7 +5814,7 @@ EXPECT_TRUE
 channel2_
 -
 >
-srtp_active
+SrtpActiveForTesting
 (
 )
 )
@@ -5906,7 +5906,7 @@ EXPECT_TRUE
 channel1_
 -
 >
-srtp_active
+SrtpActiveForTesting
 (
 )
 )
@@ -5916,7 +5916,7 @@ EXPECT_TRUE
 channel2_
 -
 >
-srtp_active
+SrtpActiveForTesting
 (
 )
 )
@@ -5926,7 +5926,7 @@ EXPECT_TRUE
 channel1_
 -
 >
-rtp_transport
+RtpTransportForTesting
 (
 )
 -
@@ -5941,7 +5941,7 @@ EXPECT_TRUE
 channel2_
 -
 >
-rtp_transport
+RtpTransportForTesting
 (
 )
 -
@@ -6009,7 +6009,7 @@ EXPECT_TRUE
 channel1_
 -
 >
-srtp_active
+SrtpActiveForTesting
 (
 )
 )
@@ -6019,7 +6019,7 @@ EXPECT_TRUE
 channel2_
 -
 >
-srtp_active
+SrtpActiveForTesting
 (
 )
 )
@@ -6202,7 +6202,7 @@ EXPECT_TRUE
 channel1_
 -
 >
-rtp_transport
+RtpTransportForTesting
 (
 )
 -
@@ -6217,7 +6217,7 @@ EXPECT_TRUE
 channel2_
 -
 >
-rtp_transport
+RtpTransportForTesting
 (
 )
 -
