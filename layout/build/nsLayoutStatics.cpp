@@ -1446,13 +1446,6 @@ InitializeStatics
 (
 )
 ;
-TimelineConsumers
-:
-:
-Init
-(
-)
-;
 nsWindowMemoryReporter
 :
 :
