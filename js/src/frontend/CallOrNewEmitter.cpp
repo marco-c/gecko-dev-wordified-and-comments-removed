@@ -1533,9 +1533,6 @@ lineNum
 bce_
 -
 >
-parser
--
->
 errorReporter
 (
 )
