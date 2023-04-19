@@ -7,11 +7,6 @@ mozilla_layout_InlineTranslator_h
 #
 include
 <
-istream
->
-#
-include
-<
 string
 >
 #

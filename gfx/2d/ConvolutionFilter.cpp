@@ -1,13 +1,6 @@
 #
 include
 "
-2D
-.
-h
-"
-#
-include
-"
 ConvolutionFilter
 .
 h
