@@ -69,6 +69,14 @@ ModuleObject
 module
 )
 ;
+void
+clearModules
+(
+JSContext
+*
+cx
+)
+;
 private
 :
 static
