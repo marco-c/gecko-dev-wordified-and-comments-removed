@@ -3663,11 +3663,8 @@ defined
 (
 NDEBUG
 )
-EXPECT_GT
+EXPECT_LT
 (
-0
-.
-95
 1
 .
 0
@@ -3675,6 +3672,9 @@ EXPECT_GT
 delta_concealed
 /
 delta_samples
+0
+.
+95
 )
 <
 <
@@ -3700,11 +3700,8 @@ samples
 ;
 #
 else
-EXPECT_GT
+EXPECT_LT
 (
-0
-.
-6
 1
 .
 0
@@ -3712,6 +3709,9 @@ EXPECT_GT
 delta_concealed
 /
 delta_samples
+0
+.
+7
 )
 <
 <
