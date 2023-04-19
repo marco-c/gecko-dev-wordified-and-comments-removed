@@ -106,7 +106,7 @@ if
 (
 helpers
 .
-getIsTopLevelScript
+getIsGlobalScope
 (
 context
 .
