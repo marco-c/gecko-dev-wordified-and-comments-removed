@@ -816,7 +816,7 @@ video_coding
 /
 svc
 /
-scalability_structure_s2t1
+scalability_structure_simulcast
 .
 cc
 "
