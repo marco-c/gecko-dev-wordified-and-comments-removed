@@ -700,6 +700,14 @@ tmp
 0
 )
 {
+DOUBLE_CONVERSION_ASSERT
+(
+tmp
+<
+=
+kBigitMask
+)
+;
 RawBigit
 (
 used_bigits_
@@ -707,7 +715,11 @@ used_bigits_
 +
 )
 =
+(
 tmp
+&
+kBigitMask
+)
 ;
 }
 Clamp
