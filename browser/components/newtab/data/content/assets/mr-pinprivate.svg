@@ -64,7 +64,7 @@ svg
 width
 =
 "
-287
+337
 "
 height
 =
@@ -96,6 +96,15 @@ svg
 >
 <
 g
+transform
+=
+"
+translate
+(
+50
+0
+)
+"
 clip
 -
 path
