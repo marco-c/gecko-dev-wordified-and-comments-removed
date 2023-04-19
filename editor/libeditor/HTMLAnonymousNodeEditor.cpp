@@ -2584,9 +2584,9 @@ rv
 ;
 rv
 =
-mCSSEditUtils
--
->
+CSSEditUtils
+:
+:
 SetCSSPropertyPixelsWithoutTransaction
 (
 aStyledElement
@@ -2658,9 +2658,9 @@ ignored
 ;
 rv
 =
-mCSSEditUtils
--
->
+CSSEditUtils
+:
+:
 SetCSSPropertyPixelsWithoutTransaction
 (
 aStyledElement
