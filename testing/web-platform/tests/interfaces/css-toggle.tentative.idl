@@ -194,6 +194,8 @@ toggle
 ;
 dictionary
 CSSToggleEventInit
+:
+EventInit
 {
 DOMString
 toggleName
