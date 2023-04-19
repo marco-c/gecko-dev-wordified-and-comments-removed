@@ -12,15 +12,8 @@ test_overwrite_cache
 )
 {
 await
-BrowserTestUtils
-.
-withNewTab
+withFullyLoadedAboutHome
 (
-"
-about
-:
-home
-"
 async
 browser
 =

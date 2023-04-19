@@ -17,15 +17,8 @@ test_no_cache
 )
 {
 await
-BrowserTestUtils
-.
-withNewTab
+withFullyLoadedAboutHome
 (
-"
-about
-:
-home
-"
 async
 browser
 =

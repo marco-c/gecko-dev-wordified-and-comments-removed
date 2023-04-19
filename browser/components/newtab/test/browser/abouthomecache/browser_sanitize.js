@@ -50,15 +50,8 @@ CLEAR_SESSION_HISTORY
 ]
 ;
 await
-BrowserTestUtils
-.
-withNewTab
+withFullyLoadedAboutHome
 (
-"
-about
-:
-home
-"
 async
 browser
 =

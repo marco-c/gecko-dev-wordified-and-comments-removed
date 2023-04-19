@@ -12,15 +12,8 @@ test_no_startup_actions
 )
 {
 await
-BrowserTestUtils
-.
-withNewTab
+withFullyLoadedAboutHome
 (
-"
-about
-:
-home
-"
 async
 browser
 =

@@ -12,15 +12,8 @@ test_same_consumer
 )
 {
 await
-BrowserTestUtils
-.
-withNewTab
+withFullyLoadedAboutHome
 (
-"
-about
-:
-home
-"
 async
 browser
 =
