@@ -629,6 +629,10 @@ GainParameters
 explicit
 GainParameters
 (
+int
+last_lf_band
+int
+first_hf_band
 const
 EchoCanceller3Config
 :
