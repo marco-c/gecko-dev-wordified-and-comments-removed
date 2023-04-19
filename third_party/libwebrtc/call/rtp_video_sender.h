@@ -672,6 +672,16 @@ mutex_
 override
 ;
 void
+OnVideoLayersAllocationUpdated
+(
+const
+VideoLayersAllocation
+&
+layers
+)
+override
+;
+void
 OnTransportOverheadChanged
 (
 size_t
