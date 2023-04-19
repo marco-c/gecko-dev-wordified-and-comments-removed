@@ -25479,9 +25479,9 @@ Maybe
 <
 uint32_t
 >
-removingContentIndex
+keepingContentExIndex
 =
-aContentToRemove
+aContentToKeep
 .
 ComputeIndexInParentNode
 (
@@ -26100,7 +26100,7 @@ if
 (
 MOZ_LIKELY
 (
-removingContentIndex
+keepingContentExIndex
 .
 isSome
 (
@@ -26139,7 +26139,7 @@ Length
 )
 aContentToRemove
 *
-removingContentIndex
+keepingContentExIndex
 GetJoinNodesDirection
 (
 )

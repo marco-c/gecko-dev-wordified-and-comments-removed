@@ -904,7 +904,7 @@ nsIContent
 &
 aRemovedContent
 uint32_t
-aOffsetOfRemovedContent
+aOffsetOfJoinedContent
 JoinNodesDirection
 aJoinNodesDirection
 )
