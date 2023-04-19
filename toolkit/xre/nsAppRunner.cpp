@@ -22407,7 +22407,7 @@ rv
 BackgroundTasks
 :
 :
-CreateTemporaryProfileDirectory
+CreateEphemeralProfileDirectory
 (
 NS_LossyConvertUTF16toASCII
 (

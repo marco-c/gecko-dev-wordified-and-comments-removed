@@ -619,10 +619,10 @@ a
 temporary
 profile
 (
-located
-inside
+sibling
+to
 the
-transient
+ephemeral
 temporary
 profile
 the
@@ -630,9 +630,6 @@ background
 task
 itself
 creates
-for
-historical
-reasons
 .
 )
 The
@@ -707,6 +704,7 @@ Background
 tasks
 run
 in
+ephemeral
 temporary
 profiles
 Background
@@ -745,12 +743,13 @@ sessions
 they
 run
 with
-a
+an
+ephemeral
 temporary
 profile
 .
 This
-temporary
+ephemeral
 profile
 is
 deleted

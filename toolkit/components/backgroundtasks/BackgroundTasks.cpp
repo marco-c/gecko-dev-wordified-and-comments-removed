@@ -514,7 +514,7 @@ nsresult
 BackgroundTasks
 :
 :
-CreateTemporaryProfileDirectory
+CreateEphemeralProfileDirectory
 (
 const
 nsCString
@@ -546,7 +546,7 @@ GetSingleton
 )
 -
 >
-CreateTemporaryProfileDirectoryImpl
+CreateEphemeralProfileDirectoryImpl
 (
 aInstallHash
 aFile
@@ -578,7 +578,7 @@ Warning
 Failed
 to
 create
-temporary
+ephemeral
 profile
 directory
 !
@@ -644,7 +644,7 @@ Info
 (
 "
 Created
-temporary
+ephemeral
 profile
 directory
 :
@@ -673,7 +673,7 @@ bool
 BackgroundTasks
 :
 :
-IsUsingTemporaryProfile
+IsEphemeralProfile
 (
 )
 {
@@ -821,7 +821,7 @@ nsresult
 BackgroundTasks
 :
 :
-CreateTemporaryProfileDirectoryImpl
+CreateEphemeralProfileDirectoryImpl
 (
 const
 nsCString
@@ -933,7 +933,7 @@ get
 ;
 rv
 =
-RemoveStaleTemporaryProfileDirectories
+RemoveStaleEphemeralProfileDirectories
 (
 file
 profilePrefix
@@ -966,7 +966,7 @@ Error
 cleaning
 up
 stale
-temporary
+ephemeral
 profile
 directories
 .
@@ -1046,7 +1046,7 @@ nsresult
 BackgroundTasks
 :
 :
-RemoveStaleTemporaryProfileDirectories
+RemoveStaleEphemeralProfileDirectories
 (
 nsIFile
 *
@@ -1750,7 +1750,7 @@ Warning
 Error
 removing
 stale
-temporary
+ephemeral
 profile
 directory
 :
@@ -1819,7 +1819,7 @@ Info
 "
 Removed
 stale
-temporary
+ephemeral
 profile
 directory
 :

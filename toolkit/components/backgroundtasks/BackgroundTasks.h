@@ -141,7 +141,7 @@ IsBackgroundTaskMode
 ;
 static
 nsresult
-CreateTemporaryProfileDirectory
+CreateEphemeralProfileDirectory
 (
 const
 nsCString
@@ -155,7 +155,7 @@ aFile
 ;
 static
 bool
-IsUsingTemporaryProfile
+IsEphemeralProfile
 (
 )
 ;
@@ -204,7 +204,7 @@ nsIFile
 mProfD
 ;
 nsresult
-CreateTemporaryProfileDirectoryImpl
+CreateEphemeralProfileDirectoryImpl
 (
 const
 nsCString
@@ -218,7 +218,7 @@ aFile
 ;
 static
 nsresult
-RemoveStaleTemporaryProfileDirectories
+RemoveStaleEphemeralProfileDirectories
 (
 nsIFile
 *
