@@ -1022,6 +1022,17 @@ common_video
 /
 rtc_base
 :
+bitstream_reader
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 checks
 "
 "
