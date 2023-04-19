@@ -434,6 +434,7 @@ virtual
 nsresult
 GetContentForEvent
 (
+const
 mozilla
 :
 :

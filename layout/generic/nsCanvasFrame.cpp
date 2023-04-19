@@ -4766,6 +4766,7 @@ nsCanvasFrame
 :
 GetContentForEvent
 (
+const
 WidgetEvent
 *
 aEvent
