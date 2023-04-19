@@ -3830,8 +3830,6 @@ IsSecureURI
 (
 aURI
 aOriginAttributes
-nullptr
-nullptr
 &
 hsts
 )

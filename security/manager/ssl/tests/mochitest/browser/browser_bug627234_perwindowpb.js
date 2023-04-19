@@ -199,11 +199,6 @@ age
 1000
 "
 secInfo
-Ci
-.
-nsISiteSecurityService
-.
-SOURCE_ORGANIC_REQUEST
 originAttributes
 (
 aIsPrivateMode

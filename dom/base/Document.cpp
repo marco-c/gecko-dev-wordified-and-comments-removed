@@ -11102,8 +11102,6 @@ IsSecureURI
 (
 aURI
 attrs
-nullptr
-nullptr
 &
 aInfo
 .

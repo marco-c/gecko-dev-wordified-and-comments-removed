@@ -1543,8 +1543,6 @@ IsSecureURI
 (
 uri
 aOriginAttributes
-nullptr
-nullptr
 &
 strictTransportSecurityEnabled
 )

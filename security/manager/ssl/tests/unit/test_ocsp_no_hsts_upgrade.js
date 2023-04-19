@@ -270,11 +270,6 @@ age
 10000
 "
 secInfo
-Ci
-.
-nsISiteSecurityService
-.
-SOURCE_ORGANIC_REQUEST
 )
 ;
 ok

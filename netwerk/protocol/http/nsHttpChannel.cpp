@@ -9065,14 +9065,6 @@ NS_ERROR_FAILURE
 uint32_t
 failureResult
 ;
-uint32_t
-headerSource
-=
-nsISiteSecurityService
-:
-:
-SOURCE_ORGANIC_REQUEST
-;
 rv
 =
 sss
@@ -9083,7 +9075,6 @@ ProcessHeader
 mURI
 securityHeader
 aSecInfo
-headerSource
 originAttributes
 nullptr
 nullptr
