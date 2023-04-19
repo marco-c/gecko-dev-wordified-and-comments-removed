@@ -283,8 +283,8 @@ optional
 VideoFrame
 >
 rendered
-bool
-dropped
+FrameComparisonType
+type
 FrameStats
 frame_stats
 )
@@ -312,8 +312,8 @@ optional
 VideoFrame
 >
 rendered
-bool
-dropped
+FrameComparisonType
+type
 FrameStats
 frame_stats
 )
@@ -393,8 +393,8 @@ optional
 VideoFrame
 >
 rendered
-bool
-dropped
+FrameComparisonType
+type
 FrameStats
 frame_stats
 )

@@ -232,8 +232,8 @@ optional
 VideoFrame
 >
 rendered
-bool
-dropped
+FrameComparisonType
+type
 FrameStats
 frame_stats
 OverloadReason
@@ -270,9 +270,9 @@ move
 rendered
 )
 )
-dropped
+type
 (
-dropped
+type
 )
 frame_stats
 (

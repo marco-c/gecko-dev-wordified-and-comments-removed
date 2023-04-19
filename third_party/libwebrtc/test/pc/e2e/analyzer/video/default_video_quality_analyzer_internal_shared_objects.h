@@ -320,6 +320,15 @@ kCpu
 kMemory
 }
 ;
+enum
+class
+FrameComparisonType
+{
+kRegular
+kDroppedFrame
+kFrameInFlight
+}
+;
 struct
 FrameComparison
 {
@@ -343,8 +352,8 @@ optional
 VideoFrame
 >
 rendered
-bool
-dropped
+FrameComparisonType
+type
 FrameStats
 frame_stats
 OverloadReason
@@ -372,8 +381,8 @@ VideoFrame
 >
 rendered
 ;
-bool
-dropped
+FrameComparisonType
+type
 ;
 FrameStats
 frame_stats
