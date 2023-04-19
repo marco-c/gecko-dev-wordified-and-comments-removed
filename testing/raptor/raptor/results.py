@@ -151,6 +151,10 @@ fission
 =
 True
         
+perfstats
+=
+False
+        
 *
 *
 kwargs
@@ -256,6 +260,12 @@ self
 chimera
 =
 chimera
+        
+self
+.
+perfstats
+=
+perfstats
     
 abstractmethod
     
@@ -3477,6 +3487,58 @@ retval
 {
 }
                     
+)
+                
+if
+self
+.
+perfstats
+:
+                    
+for
+cycle
+in
+raw_result
+[
+"
+geckoPerfStats
+"
+]
+:
+                        
+for
+metric
+in
+cycle
+:
+                            
+bt_result
+[
+"
+measurements
+"
+]
+.
+setdefault
+(
+                                
+"
+perfstat
+-
+"
++
+metric
+[
+]
+                            
+)
+.
+append
+(
+cycle
+[
+metric
+]
 )
                 
 if
