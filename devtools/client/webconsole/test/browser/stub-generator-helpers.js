@@ -1621,7 +1621,15 @@ IOUtils
 write
 (
 filePath
+new
+TextEncoder
+(
+)
+.
+encode
+(
 fileContent
+)
 )
 ;
 }
