@@ -206,8 +206,13 @@ AddTrack
 TrackVector
 *
 Tracks
+rtc
+:
+:
+scoped_refptr
+<
 Track
-*
+>
 track
 )
 ;
