@@ -1007,8 +1007,6 @@ recipe
 manager
 }
 )
-.
-enrollmentPromise
 ;
 Assert
 .
