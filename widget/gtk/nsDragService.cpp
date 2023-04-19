@@ -846,6 +846,10 @@ mTempFileTimerID
 =
 0
 ;
+mEventLoopDepth
+=
+0
+;
 }
 nsDragService
 :
