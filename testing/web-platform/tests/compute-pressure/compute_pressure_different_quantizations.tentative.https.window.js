@@ -477,6 +477,10 @@ all
 other
 active
 observers
+in
+the
+same
+frame
 '
 )
 ;
