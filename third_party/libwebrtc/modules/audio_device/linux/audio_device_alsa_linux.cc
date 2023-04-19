@@ -1928,9 +1928,6 @@ volume
 )
 )
 ;
-return
-0
-;
 }
 int32_t
 AudioDeviceLinuxALSA
@@ -3266,9 +3263,6 @@ return
 1
 ;
 }
-return
-0
-;
 }
 int32_t
 AudioDeviceLinuxALSA
@@ -3874,9 +3868,6 @@ return
 1
 ;
 }
-return
-0
-;
 }
 int32_t
 AudioDeviceLinuxALSA
