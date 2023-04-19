@@ -156,8 +156,6 @@ kind
 const
 override
 ;
-private
-:
 AudioSourceInterface
 *
 GetSource
@@ -184,6 +182,8 @@ sink
 )
 override
 ;
+private
+:
 void
 OnChanged
 (
