@@ -4006,14 +4006,14 @@ Shutdown
 (
 )
 ;
-RemoteTextureMap
+CompositorThreadHolder
 :
 :
 Shutdown
 (
 )
 ;
-CompositorThreadHolder
+RemoteTextureMap
 :
 :
 Shutdown

@@ -160,6 +160,12 @@ WebRenderImageHost
 {
 MOZ_ASSERT
 (
+!
+mRemoteTextureConsumer
+)
+;
+MOZ_ASSERT
+(
 mWrBridges
 .
 empty
