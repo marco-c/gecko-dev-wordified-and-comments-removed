@@ -1263,6 +1263,7 @@ base64_content
 [
 0
 ]
+)
 .
 decode
 (
@@ -1271,7 +1272,6 @@ utf
 -
 8
 '
-)
 )
 def
 ReadRemoteCrFile
