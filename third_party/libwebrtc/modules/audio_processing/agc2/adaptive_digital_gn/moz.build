@@ -230,7 +230,7 @@ audio_processing
 /
 agc2
 /
-adaptive_agc
+adaptive_digital_gain_applier
 .
 cc
 "
@@ -246,7 +246,7 @@ audio_processing
 /
 agc2
 /
-adaptive_digital_gain_applier
+adaptive_digital_gain_controller
 .
 cc
 "
