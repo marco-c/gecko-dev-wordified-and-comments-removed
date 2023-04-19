@@ -93,6 +93,11 @@ network2_timestamp_delta_ms
 ;
 uint8_t
 flags
+=
+TimingFrameFlags
+:
+:
+kInvalid
 ;
 }
 ;

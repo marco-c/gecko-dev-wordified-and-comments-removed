@@ -547,6 +547,7 @@ break
 case
 kRtpExtensionVideoTiming
 :
+{
 VideoSendTiming
 timing
 ;
@@ -563,6 +564,7 @@ timing
 ;
 break
 ;
+}
 case
 kRtpExtensionRtpStreamId
 :
