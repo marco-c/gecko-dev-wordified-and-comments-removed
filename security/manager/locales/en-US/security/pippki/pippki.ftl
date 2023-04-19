@@ -291,7 +291,7 @@ primary
 -
 password
 -
-window
+window2
 =
 .
 title
@@ -302,6 +302,8 @@ Password
 .
 style
 =
+min
+-
 width
 :
 40em
@@ -399,7 +401,7 @@ download
 -
 cert
 -
-window
+window2
 =
 .
 title
@@ -409,6 +411,8 @@ Certificate
 .
 style
 =
+min
+-
 width
 :
 46em

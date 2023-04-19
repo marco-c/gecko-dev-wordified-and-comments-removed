@@ -184,7 +184,7 @@ edit
 -
 ca
 -
-cert
+cert2
 =
 .
 title
@@ -197,6 +197,8 @@ settings
 .
 style
 =
+min
+-
 width
 :
 48em
@@ -258,7 +260,7 @@ certmgr
 -
 delete
 -
-cert
+cert2
 =
 .
 title
@@ -268,10 +270,14 @@ Certificate
 .
 style
 =
+min
+-
 width
 :
 48em
 ;
+min
+-
 height
 :
 24em

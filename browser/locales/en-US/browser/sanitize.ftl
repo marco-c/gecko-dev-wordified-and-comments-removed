@@ -55,7 +55,7 @@ MPL
 .
 sanitize
 -
-prefs
+prefs2
 =
 .
 title
@@ -67,6 +67,8 @@ History
 .
 style
 =
+min
+-
 width
 :
 34em

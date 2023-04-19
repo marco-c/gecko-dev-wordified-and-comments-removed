@@ -61,6 +61,8 @@ for
 device
 manager
 devmgr
+-
+window
 =
 .
 title
@@ -70,10 +72,14 @@ Manager
 .
 style
 =
+min
+-
 width
 :
 67em
 ;
+min
+-
 height
 :
 32em

@@ -779,7 +779,7 @@ forget
 Forget
 places
 -
-library
+library2
 =
 .
 title
@@ -788,10 +788,14 @@ Library
 .
 style
 =
+min
+-
 width
 :
 700px
 ;
+min
+-
 height
 :
 500px

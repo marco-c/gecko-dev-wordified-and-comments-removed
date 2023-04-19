@@ -55,7 +55,7 @@ MPL
 .
 profiledowngrade
 -
-window
+window2
 =
 .
 title
@@ -78,6 +78,8 @@ name
 .
 style
 =
+min
+-
 width
 :
 490px

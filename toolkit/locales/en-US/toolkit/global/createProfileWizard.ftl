@@ -57,7 +57,7 @@ create
 -
 profile
 -
-window
+window2
 =
 .
 title
@@ -68,10 +68,14 @@ Wizard
 .
 style
 =
+min
+-
 width
 :
 45em
 ;
+min
+-
 height
 :
 32em
@@ -89,7 +93,7 @@ first
 -
 page
 -
-header
+header2
 =
 {
 PLATFORM
@@ -113,7 +117,7 @@ create
 -
 profile
 -
-window
+window2
 .
 title
 }
@@ -317,7 +321,7 @@ last
 -
 page
 -
-header
+header2
 =
 {
 PLATFORM
@@ -340,7 +344,7 @@ create
 -
 profile
 -
-window
+window2
 .
 title
 }
