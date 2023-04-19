@@ -169,13 +169,13 @@ packets_lost
 =
 0
 ;
-uint32_t
-nacks_sent
+uint64_t
+packets_discarded
 =
 0
 ;
-uint64_t
-packets_discarded
+uint32_t
+nacks_sent
 =
 0
 ;
