@@ -107,6 +107,12 @@ HasEnoughRawData
 const
 override
 ;
+nsTArray
+<
+BYTE
+>
+mAACUserData
+;
 }
 ;
 }
