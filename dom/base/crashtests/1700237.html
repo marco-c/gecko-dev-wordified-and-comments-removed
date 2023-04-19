@@ -57,6 +57,9 @@ backward
 line
 "
 )
+const
+interval
+=
 setInterval
 (
 (
@@ -101,6 +104,8 @@ optgroup
 "
 )
 )
+try
+{
 x
 .
 comparePoint
@@ -110,6 +115,18 @@ document
 activeElement
 1
 )
+}
+catch
+(
+error
+)
+{
+clearInterval
+(
+interval
+)
+return
+}
 }
 )
 m
