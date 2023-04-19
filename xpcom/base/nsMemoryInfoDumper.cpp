@@ -1610,6 +1610,7 @@ aSuffix
 }
 class
 GZWriterWrapper
+final
 :
 public
 JSONWriteFunc
@@ -1642,7 +1643,7 @@ char
 &
 aStr
 )
-override
+final
 {
 Unused
 <

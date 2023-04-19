@@ -742,7 +742,7 @@ char
 &
 aStr
 )
-override
+final
 {
 if
 (

@@ -246,7 +246,7 @@ char
 &
 aStr
 )
-override
+final
 {
 MOZ_ASSERT
 (
@@ -857,7 +857,7 @@ char
 &
 aStr
 )
-override
+final
 {
 std
 :
