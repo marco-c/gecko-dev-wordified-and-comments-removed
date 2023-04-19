@@ -3854,17 +3854,6 @@ has_value
 )
 )
 {
-constexpr
-int64_t
-kNtpJan1970Millisecs
-=
-2208988800
-*
-rtc
-:
-:
-kNumMillisecsPerSec
-;
 stats
 .
 last_sender_report_timestamp_ms
@@ -3878,6 +3867,9 @@ ToMs
 (
 )
 -
+rtc
+:
+:
 kNtpJan1970Millisecs
 ;
 stats
@@ -3893,6 +3885,9 @@ ToMs
 (
 )
 -
+rtc
+:
+:
 kNtpJan1970Millisecs
 ;
 stats

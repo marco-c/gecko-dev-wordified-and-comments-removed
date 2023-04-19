@@ -3486,17 +3486,6 @@ last_sr
 (
 )
 ;
-constexpr
-int64_t
-kNtpJan1970Millisecs
-=
-2208988800
-*
-rtc
-:
-:
-kNumMillisecsPerSec
-;
 report_block_data
 -
 >
@@ -3511,6 +3500,9 @@ CurrentNtpInMilliseconds
 (
 )
 -
+rtc
+:
+:
 kNtpJan1970Millisecs
 )
 *
