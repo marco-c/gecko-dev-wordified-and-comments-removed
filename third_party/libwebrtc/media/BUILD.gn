@@ -455,16 +455,6 @@ rtp_source
 /
 api
 /
-units
-:
-time_delta
-"
-"
-.
-.
-/
-api
-/
 video
 :
 video_bitrate_allocation
