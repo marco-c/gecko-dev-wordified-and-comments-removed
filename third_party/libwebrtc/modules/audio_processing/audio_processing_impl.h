@@ -1882,6 +1882,9 @@ bool
 capture_output_used
 ;
 bool
+capture_output_used_last_frame
+;
+bool
 key_pressed
 ;
 std
