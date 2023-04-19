@@ -252,8 +252,6 @@ rtc
 PacketSocketFactory
 *
 packet_socket_factory
-=
-nullptr
 )
 :
 components_
