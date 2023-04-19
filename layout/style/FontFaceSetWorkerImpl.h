@@ -96,6 +96,12 @@ GetURLExtraData
 )
 override
 ;
+void
+FlushUserFontSet
+(
+)
+override
+;
 nsresult
 StartLoad
 (
