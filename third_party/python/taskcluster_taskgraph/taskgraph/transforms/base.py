@@ -246,6 +246,9 @@ attr
 .
 ib
 (
+type
+=
+dict
 )
     
 graph_config

@@ -14,7 +14,7 @@ Version
 :
 3
 .
-0
+2
 .
 0
 Summary
@@ -193,6 +193,15 @@ e
 .
 7
 )
+Requires
+-
+Dist
+:
+mozilla
+-
+repo
+-
+urls
 Requires
 -
 Dist

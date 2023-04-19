@@ -1252,6 +1252,35 @@ prefix
             
 ]
             
+base_revision
+=
+parameters
+[
+                
+"
+{
+}
+base_rev
+"
+.
+format
+(
+graph_config
+[
+"
+project
+-
+repo
+-
+param
+-
+prefix
+"
+]
+)
+            
+]
+            
 push
 =
 {
@@ -1287,6 +1316,12 @@ revision
 "
 :
 revision
+                
+"
+base_revision
+"
+:
+base_revision
             
 }
             

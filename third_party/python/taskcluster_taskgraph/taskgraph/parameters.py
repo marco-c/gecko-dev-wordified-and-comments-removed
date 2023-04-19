@@ -37,6 +37,10 @@ request
 import
 urlopen
 from
+mozilla_repo_urls
+import
+parse
+from
 voluptuous
 import
 ALLOW_EXTRA
@@ -119,6 +123,24 @@ Required
 (
 "
 base_repository
+"
+)
+:
+str
+        
+Required
+(
+"
+base_ref
+"
+)
+:
+str
+        
+Required
+(
+"
+base_rev
 "
 )
 :
@@ -463,20 +485,18 @@ get_url
 (
 )
         
+parsed_url
+=
+parse
+(
+repo_url
+)
+        
 project
 =
-repo_url
+parsed_url
 .
-rsplit
-(
-"
-/
-"
-1
-)
-[
-1
-]
+repo_name
     
 except
 (
@@ -495,6 +515,12 @@ project
 "
 "
     
+default_base_ref
+=
+repo
+.
+default_branch
+    
 return
 {
         
@@ -503,6 +529,26 @@ base_repository
 "
 :
 repo_url
+        
+"
+base_ref
+"
+:
+default_base_ref
+        
+"
+base_rev
+"
+:
+repo
+.
+find_latest_common_revision
+(
+default_base_ref
+repo
+.
+head_rev
+)
         
 "
 build_date
@@ -553,7 +599,11 @@ head_ref
 :
 repo
 .
-head_ref
+branch
+or
+repo
+.
+head_rev
         
 "
 head_repository
@@ -567,7 +617,7 @@ head_rev
 :
 repo
 .
-head_ref
+head_rev
         
 "
 head_tag
