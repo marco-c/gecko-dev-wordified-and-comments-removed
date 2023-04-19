@@ -9073,6 +9073,17 @@ api
 /
 peerconnection
 /
+RTCStatisticsReport
+.
+h
+"
+"
+objc
+/
+api
+/
+peerconnection
+/
 RTCTracing
 .
 h
