@@ -3231,13 +3231,6 @@ TransportFeedback
 feedback
 )
 {
-feedback_demuxer_
-.
-OnTransportFeedback
-(
-feedback
-)
-;
 auto
 feedback_time
 =
@@ -3270,6 +3263,13 @@ RTC_DCHECK_RUN_ON
 (
 &
 task_queue_
+)
+;
+feedback_demuxer_
+.
+OnTransportFeedback
+(
+feedback
 )
 ;
 absl
