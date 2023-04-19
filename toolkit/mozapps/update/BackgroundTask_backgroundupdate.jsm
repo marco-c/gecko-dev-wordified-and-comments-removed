@@ -1331,6 +1331,7 @@ BackgroundTasksUtils
 .
 readFirefoxMessagingSystemTargetingSnapshot
 (
+lock
 )
 ;
 }
