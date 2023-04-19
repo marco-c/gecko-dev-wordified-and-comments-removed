@@ -2278,6 +2278,11 @@ ErrorResult
 aError
 )
 ;
+void
+OnSetDescriptionError
+(
+)
+;
 bool
 IsClosed
 (

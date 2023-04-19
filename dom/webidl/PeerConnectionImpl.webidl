@@ -522,6 +522,11 @@ boolean
 remote
 )
 ;
+void
+onSetDescriptionError
+(
+)
+;
 /
 *
 Attributes
