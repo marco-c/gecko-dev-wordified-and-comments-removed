@@ -352,7 +352,7 @@ hr
 RPC_E_CHANGED_MODE
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -1248,7 +1248,7 @@ if
 deviceNameLength
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )

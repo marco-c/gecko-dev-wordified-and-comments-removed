@@ -670,7 +670,7 @@ CoreAudioIsSupported
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -1522,7 +1522,7 @@ _outputDeviceIndex
 0
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -1928,7 +1928,7 @@ AudioDeviceWindowsCore
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -4928,7 +4928,7 @@ maxVolume
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -14229,7 +14229,7 @@ EDataFlow
 dir
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -14350,7 +14350,7 @@ EDataFlow
 dir
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -14473,7 +14473,7 @@ int
 bufferLen
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -14613,7 +14613,7 @@ int
 bufferLen
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -14739,7 +14739,7 @@ int
 bufferLen
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -14879,7 +14879,7 @@ int
 bufferLen
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -15004,7 +15004,7 @@ int
 index
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -15356,7 +15356,7 @@ int
 bufferLen
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -15707,7 +15707,7 @@ int
 bufferLen
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -15829,7 +15829,7 @@ IMMDevice
 ppDevice
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -16006,7 +16006,7 @@ dataFlow
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )

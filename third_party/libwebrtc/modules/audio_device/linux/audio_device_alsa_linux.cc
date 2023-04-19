@@ -441,7 +441,7 @@ _oldKeyState
 )
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -463,7 +463,7 @@ AudioDeviceLinuxALSA
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )

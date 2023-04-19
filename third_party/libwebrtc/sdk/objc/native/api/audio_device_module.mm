@@ -56,7 +56,7 @@ bool
 bypass_voice_processing
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )

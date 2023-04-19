@@ -54,7 +54,7 @@ CreateNetworkMonitorFactory
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )

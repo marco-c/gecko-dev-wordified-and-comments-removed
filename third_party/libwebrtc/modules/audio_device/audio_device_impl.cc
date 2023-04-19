@@ -443,7 +443,7 @@ TaskQueueFactory
 task_queue_factory
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -481,7 +481,7 @@ TaskQueueFactory
 task_queue_factory
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -629,7 +629,7 @@ audio_device_buffer_
 task_queue_factory
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -646,7 +646,7 @@ CheckPlatform
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )

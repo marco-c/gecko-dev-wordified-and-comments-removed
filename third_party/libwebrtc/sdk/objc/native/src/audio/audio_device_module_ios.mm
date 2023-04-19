@@ -211,7 +211,7 @@ AttachAudioBuffer
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -243,7 +243,7 @@ AudioDeviceModuleIOS
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -264,7 +264,7 @@ audioLayer
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -312,7 +312,7 @@ Init
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -464,7 +464,7 @@ Terminate
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -516,7 +516,7 @@ Initialized
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -544,7 +544,7 @@ InitSpeaker
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -573,7 +573,7 @@ InitMicrophone
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -605,7 +605,7 @@ bool
 available
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -647,7 +647,7 @@ available
 =
 isAvailable
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -675,7 +675,7 @@ uint32_t
 volume
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -722,7 +722,7 @@ volume
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -764,7 +764,7 @@ volume
 =
 level
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -792,7 +792,7 @@ SpeakerIsInitialized
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -814,7 +814,7 @@ SpeakerIsInitialized
 (
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -841,7 +841,7 @@ MicrophoneIsInitialized
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -863,7 +863,7 @@ MicrophoneIsInitialized
 (
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -992,7 +992,7 @@ bool
 available
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1034,7 +1034,7 @@ available
 =
 isAvailable
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1062,7 +1062,7 @@ bool
 enable
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1109,7 +1109,7 @@ enabled
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1151,7 +1151,7 @@ enabled
 =
 muted
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1180,7 +1180,7 @@ bool
 available
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1222,7 +1222,7 @@ available
 =
 isAvailable
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1250,7 +1250,7 @@ bool
 enable
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1299,7 +1299,7 @@ enabled
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1341,7 +1341,7 @@ enabled
 =
 muted
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1370,7 +1370,7 @@ bool
 available
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1412,7 +1412,7 @@ available
 =
 isAvailable
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1440,7 +1440,7 @@ uint32_t
 volume
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1489,7 +1489,7 @@ volume
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1531,7 +1531,7 @@ volume
 =
 level
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1562,7 +1562,7 @@ available
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1604,7 +1604,7 @@ available
 =
 isAvailable
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1632,7 +1632,7 @@ bool
 enable
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1695,7 +1695,7 @@ enabled
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1737,7 +1737,7 @@ enabled
 =
 stereo
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1767,7 +1767,7 @@ available
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1809,7 +1809,7 @@ available
 =
 isAvailable
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1837,7 +1837,7 @@ bool
 enable
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1970,7 +1970,7 @@ enabled
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2012,7 +2012,7 @@ enabled
 =
 stereo
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2041,7 +2041,7 @@ bool
 available
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2083,7 +2083,7 @@ available
 =
 isAvailable
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2112,7 +2112,7 @@ bool
 available
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2154,7 +2154,7 @@ available
 =
 isAvailable
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2282,7 +2282,7 @@ PlayoutDevices
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2304,7 +2304,7 @@ PlayoutDevices
 (
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2337,7 +2337,7 @@ uint16_t
 index
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2382,7 +2382,7 @@ WindowsDeviceType
 device
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2424,7 +2424,7 @@ kAdmMaxGuidSize
 ]
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2495,7 +2495,7 @@ name
 NULL
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2520,7 +2520,7 @@ guid
 NULL
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2561,7 +2561,7 @@ kAdmMaxGuidSize
 ]
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2632,7 +2632,7 @@ name
 NULL
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2657,7 +2657,7 @@ guid
 NULL
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2686,7 +2686,7 @@ RecordingDevices
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2708,7 +2708,7 @@ RecordingDevices
 (
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2739,7 +2739,7 @@ uint16_t
 index
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2784,7 +2784,7 @@ WindowsDeviceType
 device
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2814,7 +2814,7 @@ InitPlayout
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2847,7 +2847,7 @@ InitPlayout
 (
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2894,7 +2894,7 @@ InitRecording
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2927,7 +2927,7 @@ InitRecording
 (
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -2975,7 +2975,7 @@ PlayoutIsInitialized
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3005,7 +3005,7 @@ RecordingIsInitialized
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3034,7 +3034,7 @@ StartPlayout
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3078,7 +3078,7 @@ StartPlayout
 (
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3125,7 +3125,7 @@ StopPlayout
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3158,7 +3158,7 @@ StopPlayout
 (
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3206,7 +3206,7 @@ Playing
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3235,7 +3235,7 @@ StartRecording
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3279,7 +3279,7 @@ StartRecording
 (
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3326,7 +3326,7 @@ StopRecording
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3359,7 +3359,7 @@ StopRecording
 (
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3407,7 +3407,7 @@ Recording
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3439,7 +3439,7 @@ AudioTransport
 audioCallback
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3535,7 +3535,7 @@ BuiltInAECIsAvailable
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3557,7 +3557,7 @@ BuiltInAECIsAvailable
 (
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3585,7 +3585,7 @@ bool
 enable
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3621,7 +3621,7 @@ EnableBuiltInAEC
 enable
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3648,7 +3648,7 @@ BuiltInAGCIsAvailable
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3670,7 +3670,7 @@ BuiltInAGCIsAvailable
 (
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3698,7 +3698,7 @@ bool
 enable
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3734,7 +3734,7 @@ EnableBuiltInAGC
 enable
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3761,7 +3761,7 @@ BuiltInNSIsAvailable
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3783,7 +3783,7 @@ BuiltInNSIsAvailable
 (
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3811,7 +3811,7 @@ bool
 enable
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3847,7 +3847,7 @@ EnableBuiltInNS
 enable
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3910,7 +3910,7 @@ params
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3929,7 +3929,7 @@ GetPlayoutAudioParameters
 params
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3959,7 +3959,7 @@ params
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -3978,7 +3978,7 @@ GetRecordAudioParameters
 params
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )

@@ -106,7 +106,7 @@ initialized_
 false
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -156,7 +156,7 @@ audioLayer
 const
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -178,7 +178,7 @@ Init
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -294,7 +294,7 @@ Terminate
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -361,7 +361,7 @@ Initialized
 const
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -388,7 +388,7 @@ PlayoutDevices
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -406,7 +406,7 @@ RecordingDevices
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -472,7 +472,7 @@ index
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -508,7 +508,7 @@ index
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -545,7 +545,7 @@ available
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -567,7 +567,7 @@ InitPlayout
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -590,7 +590,7 @@ PlayoutIsInitialized
 const
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -615,7 +615,7 @@ available
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -637,7 +637,7 @@ InitRecording
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -660,7 +660,7 @@ RecordingIsInitialized
 const
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -682,7 +682,7 @@ StartPlayout
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -743,7 +743,7 @@ Playing
 return
 0
 ;
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -793,7 +793,7 @@ StartRecording
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -844,7 +844,7 @@ StopRecording
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -896,7 +896,7 @@ InitSpeaker
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -915,7 +915,7 @@ SpeakerIsInitialized
 const
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -933,7 +933,7 @@ InitMicrophone
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -952,7 +952,7 @@ MicrophoneIsInitialized
 const
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -973,7 +973,7 @@ available
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -998,7 +998,7 @@ volume
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1025,7 +1025,7 @@ volume
 const
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1052,7 +1052,7 @@ maxVolume
 const
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1079,7 +1079,7 @@ minVolume
 const
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1269,7 +1269,7 @@ available
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1298,7 +1298,7 @@ enable
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1362,7 +1362,7 @@ available
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1391,7 +1391,7 @@ enable
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1433,7 +1433,7 @@ enabled
 const
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1494,7 +1494,7 @@ audioBuffer
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1524,7 +1524,7 @@ BuiltInAECIsAvailable
 const
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1549,7 +1549,7 @@ enable
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1602,7 +1602,7 @@ BuiltInAGCIsAvailable
 const
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1627,7 +1627,7 @@ enable
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1680,7 +1680,7 @@ BuiltInNSIsAvailable
 const
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )
@@ -1705,7 +1705,7 @@ enable
 )
 override
 {
-RTC_LOG
+RTC_DLOG
 (
 INFO
 )

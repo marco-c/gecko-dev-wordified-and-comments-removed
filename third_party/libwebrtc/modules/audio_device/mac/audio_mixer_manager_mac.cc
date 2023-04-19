@@ -220,7 +220,7 @@ _noOutputChannels
 0
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -242,7 +242,7 @@ AudioMixerManagerMac
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -268,7 +268,7 @@ Close
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -324,7 +324,7 @@ CloseSpeakerLocked
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -373,7 +373,7 @@ CloseMicrophoneLocked
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -887,7 +887,7 @@ SpeakerIsInitialized
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -913,7 +913,7 @@ MicrophoneIsInitialized
 )
 const
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )

@@ -853,7 +853,7 @@ prev_key_state_
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -929,7 +929,7 @@ AudioDeviceMac
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
