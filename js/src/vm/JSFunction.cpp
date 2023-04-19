@@ -9644,10 +9644,11 @@ return
 proto
 ;
 }
+#
+ifdef
+DEBUG
+static
 bool
-js
-:
-:
 CanReuseScriptForClone
 (
 JS
@@ -9755,6 +9756,8 @@ NonSyntactic
 )
 ;
 }
+#
+endif
 static
 inline
 JSFunction
