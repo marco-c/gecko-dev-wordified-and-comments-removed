@@ -14254,6 +14254,7 @@ test
 )
                 
 if
+(
 test
 .
 failCount
@@ -14264,6 +14265,24 @@ test
 .
 passCount
 <
+=
+0
+)
+and
+os
+.
+environ
+.
+get
+(
+                    
+"
+MOZ_AUTOMATION
+"
+0
+                
+)
+!
 =
 0
 :
