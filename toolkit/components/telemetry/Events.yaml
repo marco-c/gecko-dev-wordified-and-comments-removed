@@ -2497,6 +2497,8 @@ customize
 pageAction
 -
 doorhanger
+-
+unifiedExtensions
 extra_keys
 :
 action
@@ -2684,6 +2686,7 @@ bug_numbers
 1699225
 1714251
 1749878
+1780746
 ]
 release_channel_collection
 :
@@ -2736,6 +2739,8 @@ amo
 menu
 -
 toolbar_context_menu
+-
+unified_context_menu
 -
 uninstall
 extra_keys
@@ -2840,6 +2845,7 @@ bug_numbers
 1672570
 1714251
 1749878
+1780746
 ]
 release_channel_collection
 :

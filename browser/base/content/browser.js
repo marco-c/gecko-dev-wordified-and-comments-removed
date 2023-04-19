@@ -32492,6 +32492,9 @@ BrowserAddonUI
 manageAddon
 (
 id
+"
+browserAction
+"
 )
 ;
 }

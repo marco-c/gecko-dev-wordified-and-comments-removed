@@ -5096,6 +5096,7 @@ async
 manageAddon
 (
 addonId
+eventObject
 )
 {
 let
@@ -5149,9 +5150,7 @@ recordActionEvent
 {
 object
 :
-"
-browserAction
-"
+eventObject
 action
 :
 "
@@ -6339,6 +6338,9 @@ BrowserAddonUI
 manageAddon
 (
 id
+"
+unifiedExtensions
+"
 )
 ;
 }
@@ -6372,7 +6374,7 @@ removeAddon
 (
 id
 "
-browserAction
+unifiedExtensions
 "
 )
 ;
@@ -6407,7 +6409,7 @@ reportAddon
 (
 id
 "
-toolbar_context_menu
+unified_context_menu
 "
 )
 ;

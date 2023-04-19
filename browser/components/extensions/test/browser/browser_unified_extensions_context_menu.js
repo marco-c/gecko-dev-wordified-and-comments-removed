@@ -1210,7 +1210,7 @@ assertEvents
 object
 :
 "
-browserAction
+unifiedExtensions
 "
 value
 :
@@ -1472,7 +1472,7 @@ report
 .
 reportEntryPoint
 "
-toolbar_context_menu
+unified_context_menu
 "
 "
 abuse
@@ -1725,7 +1725,7 @@ assertEvents
 object
 :
 "
-browserAction
+unifiedExtensions
 "
 value
 :
@@ -2003,7 +2003,7 @@ assertEvents
 object
 :
 "
-browserAction
+unifiedExtensions
 "
 value
 :
