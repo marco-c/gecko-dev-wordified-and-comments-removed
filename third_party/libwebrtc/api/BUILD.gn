@@ -572,6 +572,11 @@ media_stream_interface
 h
 "
 "
+media_stream_track
+.
+h
+"
+"
 notifier
 .
 h
