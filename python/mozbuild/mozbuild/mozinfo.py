@@ -9,6 +9,8 @@ json
 import
 os
 import
+platform
+import
 re
 import
 six
@@ -1255,6 +1257,23 @@ substs
 MOZ_ANDROID_MIN_SDK_VERSION
 "
 ]
+    
+d
+[
+"
+is_ubuntu
+"
+]
+=
+"
+Ubuntu
+"
+in
+platform
+.
+version
+(
+)
     
 return
 d
