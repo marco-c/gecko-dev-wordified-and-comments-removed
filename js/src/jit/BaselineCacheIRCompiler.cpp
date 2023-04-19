@@ -2066,9 +2066,8 @@ EqualStringsHelperPure
 ;
 masm
 .
-mov
+storeCallPointerResult
 (
-ReturnReg
 scratch
 )
 ;
@@ -3795,9 +3794,8 @@ masm
 ;
 masm
 .
-mov
+storeCallPointerResult
 (
-ReturnReg
 scratch
 )
 ;
@@ -4044,9 +4042,8 @@ masm
 ;
 masm
 .
-mov
+storeCallPointerResult
 (
-ReturnReg
 scratch
 )
 ;
@@ -4533,9 +4530,8 @@ growSlotsPure
 ;
 masm
 .
-mov
+storeCallPointerResult
 (
-ReturnReg
 scratch1
 )
 ;
@@ -6701,9 +6697,8 @@ masm
 ;
 masm
 .
-mov
+storeCallPointerResult
 (
-ReturnReg
 scratch
 )
 ;
@@ -15492,9 +15487,8 @@ masm
 ;
 masm
 .
-mov
+storeCallPointerResult
 (
-ReturnReg
 result
 )
 ;
@@ -15773,9 +15767,8 @@ masm
 ;
 masm
 .
-mov
+storeCallPointerResult
 (
-ReturnReg
 obj
 )
 ;

@@ -7189,9 +7189,8 @@ growSlotsPure
 ;
 masm
 .
-mov
+storeCallPointerResult
 (
-ReturnReg
 scratch1
 )
 ;
