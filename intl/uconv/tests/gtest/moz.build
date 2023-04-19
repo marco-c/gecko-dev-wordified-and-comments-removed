@@ -1,0 +1,17 @@
+UNIFIED_SOURCES
++
+=
+[
+"
+TestShortRead
+.
+cpp
+"
+]
+FINAL_LIBRARY
+=
+"
+xul
+-
+gtest
+"
