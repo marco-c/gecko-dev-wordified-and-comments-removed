@@ -436,7 +436,7 @@ socket
 {
 RTC_LOG_ERR
 (
-LERROR
+LS_ERROR
 )
 <
 <
@@ -2049,7 +2049,7 @@ rtp_socket_
 {
 RTC_LOG_ERR
 (
-LERROR
+LS_ERROR
 )
 <
 <
@@ -2114,7 +2114,7 @@ rtcp_socket_
 {
 RTC_LOG_ERR
 (
-LERROR
+LS_ERROR
 )
 <
 <

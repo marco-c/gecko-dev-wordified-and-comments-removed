@@ -779,7 +779,7 @@ kPlatformNotSupported
 {
 RTC_LOG
 (
-LERROR
+LS_ERROR
 )
 <
 <
@@ -3059,7 +3059,7 @@ RecordingIsInitialized
 {
 RTC_LOG
 (
-LERROR
+LS_ERROR
 )
 <
 <
@@ -3338,7 +3338,7 @@ PlayoutIsInitialized
 {
 RTC_LOG
 (
-LERROR
+LS_ERROR
 )
 <
 <
@@ -4933,7 +4933,7 @@ delay
 {
 RTC_LOG
 (
-LERROR
+LS_ERROR
 )
 <
 <

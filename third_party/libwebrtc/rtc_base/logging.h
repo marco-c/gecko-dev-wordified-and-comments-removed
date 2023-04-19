@@ -209,6 +209,17 @@ WARNING
 =
 LS_WARNING
 LERROR
+[
+[
+deprecated
+(
+"
+Use
+LS_ERROR
+"
+)
+]
+]
 =
 LS_ERROR
 }

@@ -823,7 +823,7 @@ else
 {
 RTC_LOG
 (
-LERROR
+LS_ERROR
 )
 <
 <

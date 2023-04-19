@@ -3249,7 +3249,7 @@ options
 {
 RTC_LOG_ERR_EX
 (
-LERROR
+LS_ERROR
 socket_
 -
 >
