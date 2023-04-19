@@ -100,6 +100,10 @@ import
 os
 import
 sys
+import
+google
+.
+protobuf
 def
 _CreateParser
 (
