@@ -7,7 +7,7 @@ video_coding
 /
 utility
 /
-framerate_controller
+framerate_controller_deprecated
 .
 h
 "
@@ -32,7 +32,7 @@ webrtc
 {
 TEST
 (
-FramerateController
+FramerateControllerDeprecated
 KeepTargetFramerate
 )
 {
@@ -72,7 +72,7 @@ input_duration_secs
 *
 input_framerate_fps
 ;
-FramerateController
+FramerateControllerDeprecated
 framerate_controller
 (
 target_framerate_fps
@@ -167,7 +167,7 @@ max_abs_framerate_error_fps
 }
 TEST
 (
-FramerateController
+FramerateControllerDeprecated
 DoNotDropAnyFramesIfTargerEqualsInput
 )
 {
@@ -191,7 +191,7 @@ input_duration_secs
 *
 input_framerate_fps
 ;
-FramerateController
+FramerateControllerDeprecated
 framerate_controller
 (
 input_framerate_fps
@@ -269,11 +269,11 @@ num_dropped_frames
 }
 TEST
 (
-FramerateController
+FramerateControllerDeprecated
 DoNotDropFrameWhenTimestampJumpsBackward
 )
 {
-FramerateController
+FramerateControllerDeprecated
 framerate_controller
 (
 30
@@ -309,11 +309,11 @@ DropFrame
 }
 TEST
 (
-FramerateController
+FramerateControllerDeprecated
 DropFrameIfItIsTooCloseToPreviousFrame
 )
 {
-FramerateController
+FramerateControllerDeprecated
 framerate_controller
 (
 30
@@ -349,7 +349,7 @@ DropFrame
 }
 TEST
 (
-FramerateController
+FramerateControllerDeprecated
 FrameDroppingStartsFromSecondInputFrame
 )
 {
@@ -379,7 +379,7 @@ uint32_t
 input_framerate_fps
 )
 ;
-FramerateController
+FramerateControllerDeprecated
 framerate_controller
 (
 target_framerate_fps

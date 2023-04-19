@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_VIDEO_CODING_UTILITY_FRAMERATE_CONTROLLER_H_
+MODULES_VIDEO_CODING_UTILITY_FRAMERATE_CONTROLLER_DEPRECATED_H_
 #
 define
-MODULES_VIDEO_CODING_UTILITY_FRAMERATE_CONTROLLER_H_
+MODULES_VIDEO_CODING_UTILITY_FRAMERATE_CONTROLLER_DEPRECATED_H_
 #
 include
 <
@@ -35,12 +35,12 @@ namespace
 webrtc
 {
 class
-FramerateController
+FramerateControllerDeprecated
 {
 public
 :
 explicit
-FramerateController
+FramerateControllerDeprecated
 (
 float
 target_framerate_fps

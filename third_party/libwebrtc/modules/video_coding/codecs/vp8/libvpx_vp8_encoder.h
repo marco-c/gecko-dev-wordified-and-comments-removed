@@ -137,7 +137,7 @@ video_coding
 /
 utility
 /
-framerate_controller
+framerate_controller_deprecated
 .
 h
 "
@@ -684,7 +684,7 @@ string
 group_name
 )
 ;
-FramerateController
+FramerateControllerDeprecated
 framerate_controller_
 ;
 int

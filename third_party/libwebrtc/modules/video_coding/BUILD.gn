@@ -2370,14 +2370,14 @@ h
 "
 utility
 /
-framerate_controller
+framerate_controller_deprecated
 .
 cc
 "
 "
 utility
 /
-framerate_controller
+framerate_controller_deprecated
 .
 h
 "
@@ -7373,7 +7373,7 @@ cc
 "
 utility
 /
-framerate_controller_unittest
+framerate_controller_deprecated_unittest
 .
 cc
 "

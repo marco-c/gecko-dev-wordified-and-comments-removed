@@ -118,7 +118,7 @@ video_coding
 /
 utility
 /
-framerate_controller
+framerate_controller_deprecated
 .
 h
 "
@@ -463,7 +463,7 @@ std
 :
 unique_ptr
 <
-FramerateController
+FramerateControllerDeprecated
 >
 framerate_controller
 int
@@ -720,7 +720,7 @@ std
 :
 unique_ptr
 <
-FramerateController
+FramerateControllerDeprecated
 >
 framerate_controller_
 ;

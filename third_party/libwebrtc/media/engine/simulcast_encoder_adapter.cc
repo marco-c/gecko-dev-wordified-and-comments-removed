@@ -1033,7 +1033,7 @@ std
 :
 unique_ptr
 <
-FramerateController
+FramerateControllerDeprecated
 >
 framerate_controller
 int
@@ -2153,7 +2153,7 @@ std
 :
 make_unique
 <
-FramerateController
+FramerateControllerDeprecated
 >
 (
 stream_codec
