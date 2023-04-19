@@ -263,6 +263,11 @@ mHonorPageRuleMargins
 true
 ;
 bool
+mIgnoreUnwriteableMargins
+=
+false
+;
+bool
 mPrintSelectionOnly
 =
 false

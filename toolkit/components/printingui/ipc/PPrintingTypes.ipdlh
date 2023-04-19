@@ -75,6 +75,9 @@ bool
 honorPageRuleMargins
 ;
 bool
+ignoreUnwriteableMargins
+;
+bool
 showMarginGuides
 ;
 bool

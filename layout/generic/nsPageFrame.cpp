@@ -569,6 +569,17 @@ computed
 =
 =
 0
+|
+|
+mPD
+-
+>
+mPrintSettings
+-
+>
+GetIgnoreUnwriteableMargins
+(
+)
 )
 {
 mPageContentMargin
@@ -578,7 +589,7 @@ Side
 side
 )
 =
-0
+computed
 ;
 }
 else

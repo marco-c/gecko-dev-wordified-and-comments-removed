@@ -512,6 +512,13 @@ infallible
 ]
 attribute
 boolean
+ignoreUnwriteableMargins
+;
+[
+infallible
+]
+attribute
+boolean
 showMarginGuides
 ;
 [
