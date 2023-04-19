@@ -3501,7 +3501,7 @@ windowSeparation
 .
 enabled
 "
-false
+true
 )
 ;
 pref
