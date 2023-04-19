@@ -7113,6 +7113,10 @@ AutoRangeArray
 ;
 friend
 class
+CaretPoint
+;
+friend
+class
 CompositionTransaction
 ;
 friend
@@ -7170,15 +7174,6 @@ WhiteSpaceVisibilityKeeper
 friend
 class
 nsIEditor
-;
-template
-<
-typename
-NodeType
->
-friend
-class
-CreateNodeResultBase
 ;
 }
 ;

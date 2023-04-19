@@ -9262,10 +9262,6 @@ ListItemElementSelectionState
 ;
 friend
 class
-MoveNodeResult
-;
-friend
-class
 MoveNodeTransaction
 ;
 friend
@@ -9278,15 +9274,7 @@ SlurpBlobEventListener
 ;
 friend
 class
-SplitNodeResult
-;
-friend
-class
 SplitNodeTransaction
-;
-friend
-class
-SplitRangeOffFromNodeResult
 ;
 friend
 class

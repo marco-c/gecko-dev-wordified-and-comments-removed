@@ -202,6 +202,9 @@ class
 AutoSelectionRangeArray
 ;
 class
+CaretPoint
+;
+class
 ChangeStyleTransaction
 ;
 class
