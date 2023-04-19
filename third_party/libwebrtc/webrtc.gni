@@ -3465,6 +3465,17 @@ deps
 +
 =
 [
+"
+/
+/
+build
+/
+android
+/
+gtest_apk
+:
+native_test_instrumentation_test_runner_java
+"
 webrtc_root
 +
 "

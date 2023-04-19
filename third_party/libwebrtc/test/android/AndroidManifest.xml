@@ -458,7 +458,9 @@ org
 .
 chromium
 .
-native_test
+build
+.
+gtest_apk
 .
 NativeTestInstrumentationTestRunner
 "
