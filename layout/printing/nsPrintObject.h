@@ -76,6 +76,7 @@ eIFrame
 ;
 class
 nsPrintObject
+final
 {
 public
 :
