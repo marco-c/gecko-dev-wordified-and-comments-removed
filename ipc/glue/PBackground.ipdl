@@ -62,6 +62,10 @@ PBackgroundDataBridge
 ;
 include
 protocol
+PBackgroundFileSystem
+;
+include
+protocol
 PBackgroundIDBFactory
 ;
 include
@@ -399,6 +403,9 @@ manages
 PBackgroundDataBridge
 ;
 manages
+PBackgroundFileSystem
+;
+manages
 PBackgroundIDBFactory
 ;
 manages
@@ -557,6 +564,11 @@ PBackgroundTest
 (
 nsCString
 testArg
+)
+;
+async
+PBackgroundFileSystem
+(
 )
 ;
 async
