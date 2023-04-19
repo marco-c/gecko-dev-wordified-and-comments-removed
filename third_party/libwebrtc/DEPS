@@ -76,7 +76,7 @@ chromium_revision
 '
 :
 '
-23141e38f154d85283f7afca60d889ff03e7b8ed
+b7f0a0c1117de7119bd087283f9fea8da1e4d481
 '
 }
 deps
@@ -131,7 +131,7 @@ chromium
 src
 /
 base
-cff6aa74fa572b7923cb77b7c5bf33106ebec24b
+ce392ef26f7afca6c0efbf4e25fb99e4f6b0a4b0
 '
 '
 src
@@ -155,7 +155,7 @@ chromium
 src
 /
 build
-100ae19f9952606f0be47eac6a71c0edd2fa8cb9
+120a8d610c9db0d98a4318c153f4d7bf2c44cc38
 '
 '
 src
@@ -275,7 +275,7 @@ chromium
 src
 /
 ios
-e84bee050b7e88af67a68b70bbb7fcadbbc4c533
+e4c6cd619abe9400859a1f95d6a1e417d4242151
 '
 '
 condition
@@ -307,7 +307,7 @@ chromium
 src
 /
 testing
-55b74c093bb386317f84741932095008d399bd14
+38ceae6941960b79aa93adf147b6a004f58fac8c
 '
 '
 src
@@ -331,7 +331,7 @@ chromium
 src
 /
 third_party
-e90289cdba9854727e712b01e81c1a94633745c4
+0819985359cf098a954d117ff08538edd5052104
 '
 '
 src
@@ -964,7 +964,7 @@ com
 catapult
 .
 git
-c730daef7584945290b923a0b72c4ddccf66301b
+999f35f30e7ed72d640fea1b86f74d54a41896ed
 '
 '
 src
@@ -1060,7 +1060,7 @@ tools
 depot_tools
 .
 git
-e7c058174054c97f05a1c4b009f5226bee5983e5
+392c407b551a98190b2431947469bca505e5bc50
 '
 '
 src
@@ -1832,7 +1832,7 @@ third_party
 libunwindstack
 .
 git
-11659d420a71e7323b379ea8781f07c6f384bc7e
+aab2c874731396232739889ebe8d9e122b9bc448
 '
 '
 condition
@@ -1868,7 +1868,7 @@ external
 perfetto
 .
 git
-f22dda154476440b55903604748f82246303c56c
+024ea24c78533030a3faec9a5583af3175f07712
 '
 '
 src
@@ -2394,7 +2394,7 @@ chromium
 src
 /
 tools
-57aabd656c377af1fa72493720333db43a4c78d0
+53c3bb6e60bf9d0e0002d0abf55f7e2670670774
 '
 '
 src
@@ -2906,7 +2906,7 @@ version
 '
 :
 '
-HrObtBeHuh5R3OZF1qqHNjQl38HI9tJTa3qDEcySZVoC
+qVuvMdiLCD8N4Fl_eGCJnsGXwtgHVnJEdUbokvTqvssC
 '
 }
 ]
@@ -3581,7 +3581,7 @@ version
 '
 git_revision
 :
-ea8dc31395c76b2990112b29b02386628d795d2d
+e567b4580a0854199f30444e583c17ee65abcc10
 '
 }
 {
@@ -3611,7 +3611,7 @@ version
 '
 git_revision
 :
-ea8dc31395c76b2990112b29b02386628d795d2d
+e567b4580a0854199f30444e583c17ee65abcc10
 '
 }
 {
@@ -3641,7 +3641,7 @@ version
 '
 git_revision
 :
-ea8dc31395c76b2990112b29b02386628d795d2d
+e567b4580a0854199f30444e583c17ee65abcc10
 '
 }
 ]
