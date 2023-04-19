@@ -359,6 +359,14 @@ uint32_t
 sActiveGCs
 ;
 static
+bool
+sRecordGCTelemetry
+;
+static
+uint32_t
+sNumWaitingGC
+;
+static
 uint32_t
 sChildProcessesRunningPrioritizedOperation
 ;
