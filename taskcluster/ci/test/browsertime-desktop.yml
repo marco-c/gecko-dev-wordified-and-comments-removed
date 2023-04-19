@@ -281,6 +281,15 @@ run
 -
 time
 :
+by
+-
+subtest
+:
+imgur
+:
+4800
+default
+:
 4000
 mozharness
 :
