@@ -1114,7 +1114,7 @@ Initialize
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-void
+nsresult
 ResizeReflow
 (
 nscoord
@@ -1130,7 +1130,7 @@ NoOption
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-bool
+nsresult
 ResizeReflowIgnoreOverride
 (
 nscoord
@@ -1138,11 +1138,6 @@ aWidth
 nscoord
 aHeight
 ResizeReflowOptions
-=
-ResizeReflowOptions
-:
-:
-NoOption
 )
 ;
 void
@@ -1175,13 +1170,14 @@ RefreshZoomConstraintsForScreenSizeChange
 ;
 private
 :
-bool
+void
 SimpleResizeReflow
 (
 nscoord
 aWidth
 nscoord
 aHeight
+ResizeReflowOptions
 )
 ;
 public

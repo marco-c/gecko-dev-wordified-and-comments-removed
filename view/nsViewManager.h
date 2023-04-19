@@ -206,6 +206,8 @@ false
 void
 FlushDelayedResize
 (
+bool
+aDoReflow
 )
 ;
 void
@@ -689,6 +691,8 @@ nscoord
 aWidth
 nscoord
 aHeight
+bool
+aDoReflow
 )
 ;
 bool

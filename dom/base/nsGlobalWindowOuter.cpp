@@ -15570,8 +15570,6 @@ return
 NS_OK
 ;
 }
-if
-(
 RefPtr
 <
 nsViewManager
@@ -15584,6 +15582,10 @@ presShell
 GetViewManager
 (
 )
+;
+if
+(
+viewManager
 )
 {
 viewManager
@@ -15591,6 +15593,7 @@ viewManager
 >
 FlushDelayedResize
 (
+false
 )
 ;
 }
