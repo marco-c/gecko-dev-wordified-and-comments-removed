@@ -1511,6 +1511,12 @@ case
 InlinableNative
 :
 :
+StringEndsWith
+:
+case
+InlinableNative
+:
+:
 StringToLowerCase
 :
 case

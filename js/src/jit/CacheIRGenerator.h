@@ -2595,6 +2595,11 @@ tryAttachStringStartsWith
 )
 ;
 AttachDecision
+tryAttachStringEndsWith
+(
+)
+;
+AttachDecision
 tryAttachStringToLowerCase
 (
 )
