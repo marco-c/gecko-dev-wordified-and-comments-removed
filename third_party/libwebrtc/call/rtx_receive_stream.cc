@@ -353,11 +353,11 @@ true
 ;
 media_packet
 .
-set_arrival_time_ms
+set_arrival_time
 (
 rtx_packet
 .
-arrival_time_ms
+arrival_time
 (
 )
 )
