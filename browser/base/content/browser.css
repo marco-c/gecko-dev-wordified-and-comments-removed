@@ -7686,6 +7686,13 @@ panel
 /
 #
 statuspanel
+:
+not
+(
+[
+hidden
+]
+)
 {
 display
 :
