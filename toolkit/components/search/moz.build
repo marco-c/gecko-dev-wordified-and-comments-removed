@@ -61,6 +61,11 @@ OpenSearchEngine
 jsm
 "
 "
+PolicySearchEngine
+.
+jsm
+"
+"
 SearchEngine
 .
 jsm
