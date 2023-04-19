@@ -1,6 +1,6 @@
 static
 const
-FFCodec
+AVCodec
 *
 const
 codec_list

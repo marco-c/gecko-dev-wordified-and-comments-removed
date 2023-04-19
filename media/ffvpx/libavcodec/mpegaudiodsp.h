@@ -23,7 +23,7 @@ include
 "
 libavutil
 /
-macros
+common
 .
 h
 "

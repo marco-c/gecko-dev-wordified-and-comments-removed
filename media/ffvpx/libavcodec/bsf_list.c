@@ -1,13 +1,6 @@
-#
-include
-"
-config_components
-.
-h
-"
 static
 const
-FFBitStreamFilter
+AVBitStreamFilter
 *
 const
 bitstream_filters

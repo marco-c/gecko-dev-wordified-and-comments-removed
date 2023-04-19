@@ -187,13 +187,6 @@ USA
 #
 include
 "
-config_components
-.
-h
-"
-#
-include
-"
 libavutil
 /
 aarch64

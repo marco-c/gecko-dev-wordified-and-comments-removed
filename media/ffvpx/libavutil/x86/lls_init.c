@@ -3,15 +3,6 @@ include
 "
 libavutil
 /
-attributes
-.
-h
-"
-#
-include
-"
-libavutil
-/
 lls
 .
 h

@@ -14,7 +14,7 @@ h
 #
 include
 "
-attributes
+common
 .
 h
 "

@@ -21,6 +21,13 @@ h
 #
 include
 "
+internal
+.
+h
+"
+#
+include
+"
 buffer
 .
 h
@@ -41,15 +48,6 @@ BUFFER_FLAG_REALLOCATABLE
 <
 0
 )
-#
-define
-BUFFER_FLAG_NO_FREE
-(
-1
-<
-<
-1
-)
 struct
 AVBuffer
 {
@@ -57,7 +55,7 @@ uint8_t
 *
 data
 ;
-size_t
+buffer_size_t
 size
 ;
 atomic_uint
@@ -124,9 +122,6 @@ BufferPoolEntry
 *
 next
 ;
-AVBuffer
-buffer
-;
 }
 BufferPoolEntry
 ;
@@ -143,7 +138,7 @@ pool
 atomic_uint
 refcount
 ;
-size_t
+buffer_size_t
 size
 ;
 void
@@ -157,7 +152,7 @@ AVBufferRef
 alloc
 )
 (
-size_t
+buffer_size_t
 size
 )
 ;
@@ -171,7 +166,7 @@ alloc2
 void
 *
 opaque
-size_t
+buffer_size_t
 size
 )
 ;

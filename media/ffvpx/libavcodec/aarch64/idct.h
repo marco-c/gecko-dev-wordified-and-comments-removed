@@ -7,13 +7,6 @@ AVCODEC_AARCH64_IDCT_H
 #
 include
 <
-stddef
-.
-h
->
-#
-include
-<
 stdint
 .
 h

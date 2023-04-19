@@ -19,7 +19,14 @@ h
 #
 include
 "
-threadframe
+avcodec
+.
+h
+"
+#
+include
+"
+internal
 .
 h
 "

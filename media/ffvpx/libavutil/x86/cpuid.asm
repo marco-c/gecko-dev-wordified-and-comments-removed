@@ -363,10 +363,6 @@ USA
 %
 include
 "
-libavutil
-/
-x86
-/
 x86util
 .
 asm

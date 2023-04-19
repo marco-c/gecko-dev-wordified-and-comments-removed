@@ -25,6 +25,13 @@ attributes
 .
 h
 "
+#
+include
+"
+version
+.
+h
+"
 typedef
 uint32_t
 AVCRC

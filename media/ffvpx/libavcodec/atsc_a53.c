@@ -282,7 +282,10 @@ size
 3
 )
 return
-AVERROR_INVALIDDATA
+AVERROR
+(
+EINVAL
+)
 ;
 ret
 =
@@ -388,7 +391,10 @@ gb
 )
 )
 return
-AVERROR_INVALIDDATA
+AVERROR
+(
+EINVAL
+)
 ;
 new_size
 =
@@ -407,7 +413,10 @@ new_size
 INT_MAX
 )
 return
-AVERROR_INVALIDDATA
+AVERROR
+(
+EINVAL
+)
 ;
 ret
 =

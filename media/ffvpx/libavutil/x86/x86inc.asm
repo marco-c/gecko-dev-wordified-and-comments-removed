@@ -5479,17 +5479,6 @@ DQ
 VL
 %
 assign
-cpuflags_avx512icl
-(
-1
-<
-<
-25
-)
-|
-cpuflags_avx512
-%
-assign
 cpuflags_cache32
 (
 1
