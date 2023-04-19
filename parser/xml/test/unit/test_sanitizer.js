@@ -72,7 +72,7 @@ PlacesUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -85,7 +85,9 @@ modules
 /
 PlacesUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
