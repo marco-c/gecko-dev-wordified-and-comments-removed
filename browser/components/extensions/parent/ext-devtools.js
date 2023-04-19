@@ -93,6 +93,8 @@ descriptorFront
 }
 =
 toolbox
+.
+commands
 ;
 if
 (
@@ -601,6 +603,8 @@ canAccessWindow
 (
 toolbox
 .
+commands
+.
 descriptorFront
 .
 localTab
@@ -774,6 +778,8 @@ target
 {
 toolbox
 .
+commands
+.
 descriptorFront
 .
 url
@@ -876,6 +882,8 @@ if
 !
 toolbox
 .
+commands
+.
 descriptorFront
 .
 isLocalTab
@@ -889,6 +897,8 @@ extension
 canAccessWindow
 (
 toolbox
+.
+commands
 .
 descriptorFront
 .
@@ -1458,6 +1468,8 @@ if
 !
 toolbox
 .
+commands
+.
 descriptorFront
 .
 isLocalTab
@@ -1471,6 +1483,8 @@ extension
 canAccessWindow
 (
 toolbox
+.
+commands
 .
 descriptorFront
 .
@@ -1551,6 +1565,8 @@ if
 (
 !
 toolbox
+.
+commands
 .
 descriptorFront
 .
