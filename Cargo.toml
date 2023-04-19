@@ -1778,6 +1778,7 @@ git
 uniffi
 =
 "
+=
 0
 .
 19
@@ -1787,6 +1788,7 @@ uniffi
 uniffi_bindgen
 =
 "
+=
 0
 .
 19
@@ -1796,6 +1798,7 @@ uniffi_bindgen
 uniffi_build
 =
 "
+=
 0
 .
 19
@@ -1805,6 +1808,7 @@ uniffi_build
 uniffi_macros
 =
 "
+=
 0
 .
 19
@@ -1814,6 +1818,7 @@ uniffi_macros
 weedle2
 =
 "
+=
 3
 .
 0
