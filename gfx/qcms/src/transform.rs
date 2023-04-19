@@ -180,7 +180,6 @@ feature
 "
 neon
 "
-std_arch
 )
 )
 ]
@@ -209,7 +208,6 @@ feature
 "
 neon
 "
-std_arch
 )
 )
 ]
