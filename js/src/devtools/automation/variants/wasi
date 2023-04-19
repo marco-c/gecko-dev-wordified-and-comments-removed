@@ -81,6 +81,11 @@ disable
 debug
 -
 symbols
+-
+-
+enable
+-
+jitspew
 "
 "
 optimize
