@@ -244,17 +244,6 @@ CompileError
 err
 )
 {
-if
-(
-!
-cx_
--
->
-isHelperThreadContext
-(
-)
-)
-{
 err
 -
 >
@@ -263,7 +252,6 @@ throwError
 cx_
 )
 ;
-}
 }
 bool
 MainThreadErrorContext
@@ -518,7 +506,6 @@ n
 )
 ;
 }
-return
 addPendingOutOfMemory
 (
 )
