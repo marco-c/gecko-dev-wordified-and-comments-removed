@@ -1755,7 +1755,10 @@ isGCFinished
 TimeStamp
 startTime
 =
-ReallyNow
+TimeStamp
+:
+:
+Now
 (
 )
 ;
@@ -1862,7 +1865,10 @@ lock
 TimeStamp
 endTime
 =
-ReallyNow
+TimeStamp
+:
+:
+Now
 (
 )
 ;
