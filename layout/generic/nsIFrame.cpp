@@ -48949,6 +48949,13 @@ TextOverflow
 CanHaveOverflowMarkers
 (
 block
+TextOverflow
+:
+:
+BeforeReflow
+:
+:
+Yes
 )
 )
 {
