@@ -9124,7 +9124,7 @@ packet_info
 ;
 packet_info
 .
-media_ssrc
+ssrc
 =
 rtp_packet
 .

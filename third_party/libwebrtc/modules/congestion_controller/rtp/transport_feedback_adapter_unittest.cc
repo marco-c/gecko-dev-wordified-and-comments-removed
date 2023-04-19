@@ -132,13 +132,10 @@ namespace
 webrtc
 {
 namespace
+webrtc_cc
 {
-constexpr
-uint32_t
-kSsrc
-=
-8492
-;
+namespace
+{
 const
 PacedPacketInfo
 kPacingInfo0
@@ -470,6 +467,10 @@ return
 res
 ;
 }
+}
+namespace
+test
+{
 class
 MockStreamFeedbackObserver
 :
@@ -502,7 +503,6 @@ override
 ;
 }
 ;
-}
 class
 TransportFeedbackAdapterTest
 :
@@ -601,7 +601,7 @@ packet_info
 ;
 packet_info
 .
-media_ssrc
+ssrc
 =
 kSsrc
 ;
@@ -705,6 +705,13 @@ PacketInfo
 )
 ;
 }
+static
+constexpr
+uint32_t
+kSsrc
+=
+8492
+;
 SimulatedClock
 clock_
 ;
@@ -2537,7 +2544,7 @@ packet_info
 ;
 packet_info
 .
-media_ssrc
+ssrc
 =
 kSsrc
 ;
@@ -2700,5 +2707,7 @@ has_value
 )
 )
 ;
+}
+}
 }
 }
