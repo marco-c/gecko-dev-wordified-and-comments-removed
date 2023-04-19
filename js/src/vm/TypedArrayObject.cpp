@@ -11638,6 +11638,9 @@ Nothing
 ToCStringBuf
 cbuf
 ;
+size_t
+cstrlen
+;
 const
 char
 *
@@ -11651,6 +11654,8 @@ NumberToCString
 &
 cbuf
 result
+&
+cstrlen
 )
 ;
 MOZ_ASSERT
@@ -11667,10 +11672,7 @@ length
 )
 !
 =
-strlen
-(
-cstr
-)
+cstrlen
 |
 |
 !
@@ -11682,11 +11684,7 @@ get
 (
 )
 cstr
-s
-.
-length
-(
-)
+cstrlen
 )
 )
 {

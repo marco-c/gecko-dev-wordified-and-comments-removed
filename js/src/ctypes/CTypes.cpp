@@ -20468,6 +20468,10 @@ ToCStringBuf
 cbuf
 ;
 \
+size_t
+strLength
+;
+\
 char
 *
 str
@@ -20477,6 +20481,8 @@ NumberToCString
 &
 cbuf
 fp
+&
+strLength
 )
 ;
 \
@@ -20494,10 +20500,7 @@ result
 append
 (
 str
-strlen
-(
-str
-)
+strLength
 )
 )
 {

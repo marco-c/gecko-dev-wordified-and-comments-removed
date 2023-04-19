@@ -335,6 +335,11 @@ ToCStringBuf
 cbuf
 double
 d
+size_t
+*
+length
+=
+nullptr
 )
 ;
 extern
@@ -347,6 +352,11 @@ Int32ToCStringBuf
 cbuf
 int32_t
 value
+size_t
+*
+length
+=
+nullptr
 )
 ;
 extern
@@ -359,6 +369,11 @@ Int32ToCStringBuf
 cbuf
 uint32_t
 value
+size_t
+*
+length
+=
+nullptr
 )
 ;
 extern
@@ -371,6 +386,11 @@ Int32ToCStringBuf
 cbuf
 uint32_t
 value
+size_t
+*
+length
+=
+nullptr
 )
 ;
 constexpr
