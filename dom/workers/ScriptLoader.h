@@ -214,8 +214,11 @@ mIsMainScript
 WorkerScriptType
 mWorkerScriptType
 ;
-bool
-mCanceledMainThread
+Maybe
+<
+nsresult
+>
+mCancelMainThread
 ;
 ErrorResult
 &
@@ -424,7 +427,11 @@ IsCancelled
 )
 {
 return
-mCanceledMainThread
+mCancelMainThread
+.
+isSome
+(
+)
 ;
 }
 void
@@ -437,6 +444,8 @@ aCancelResult
 void
 DeleteCache
 (
+nsresult
+aReason
 )
 ;
 nsresult
