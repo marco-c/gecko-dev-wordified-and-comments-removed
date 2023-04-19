@@ -148,6 +148,7 @@ mAttribute
 nsString
 mAttributeValueOrCSSValue
 ;
+const
 SpecifiedStyle
 mSpecifiedStyle
 =
@@ -174,6 +175,13 @@ const
 nsAString
 &
 aValue
+SpecifiedStyle
+aSpecifiedStyle
+=
+SpecifiedStyle
+:
+:
+Preserve
 )
 :
 mTag
@@ -197,6 +205,10 @@ nullptr
 mAttributeValueOrCSSValue
 (
 aValue
+)
+mSpecifiedStyle
+(
+aSpecifiedStyle
 )
 {
 MOZ_COUNT_CTOR
@@ -499,6 +511,13 @@ aProp
 nsAtom
 *
 aAttr
+SpecifiedStyle
+aSpecifiedStyle
+=
+SpecifiedStyle
+:
+:
+Preserve
 )
 ;
 void
