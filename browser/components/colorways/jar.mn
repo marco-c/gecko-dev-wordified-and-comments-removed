@@ -61,6 +61,8 @@ content
 /
 browser
 /
+colorways
+/
 colorwaycloset
 .
 html
@@ -68,12 +70,16 @@ content
 /
 browser
 /
+colorways
+/
 colorwaycloset
 .
 css
 content
 /
 browser
+/
+colorways
 /
 colorwaycloset
 .
@@ -83,6 +89,8 @@ content
 browser
 /
 colorways
+/
+assets
 /
 (
 assets

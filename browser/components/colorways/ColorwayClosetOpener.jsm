@@ -85,6 +85,8 @@ browser
 /
 content
 /
+colorways
+/
 colorwaycloset
 .
 html

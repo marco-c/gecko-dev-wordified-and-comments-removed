@@ -1368,6 +1368,8 @@ content
 /
 colorways
 /
+assets
+/
 independent
 -
 voices
@@ -1457,6 +1459,8 @@ content
 /
 colorways
 /
+assets
+/
 independent
 -
 voices
@@ -1546,6 +1550,8 @@ content
 /
 colorways
 /
+assets
+/
 independent
 -
 voices
@@ -1635,6 +1641,8 @@ content
 /
 colorways
 /
+assets
+/
 independent
 -
 voices
@@ -1724,6 +1732,8 @@ content
 /
 colorways
 /
+assets
+/
 independent
 -
 voices
@@ -1813,6 +1823,8 @@ content
 /
 colorways
 /
+assets
+/
 independent
 -
 voices
@@ -1902,6 +1914,8 @@ content
 /
 colorways
 /
+assets
+/
 independent
 -
 voices
@@ -1991,6 +2005,8 @@ content
 /
 colorways
 /
+assets
+/
 independent
 -
 voices
@@ -2080,6 +2096,8 @@ content
 /
 colorways
 /
+assets
+/
 independent
 -
 voices
@@ -2169,6 +2187,8 @@ content
 /
 colorways
 /
+assets
+/
 independent
 -
 voices
@@ -2258,6 +2278,8 @@ content
 /
 colorways
 /
+assets
+/
 independent
 -
 voices
@@ -2347,6 +2369,8 @@ content
 /
 colorways
 /
+assets
+/
 independent
 -
 voices
@@ -2436,6 +2460,8 @@ content
 /
 colorways
 /
+assets
+/
 independent
 -
 voices
@@ -2525,6 +2551,8 @@ content
 /
 colorways
 /
+assets
+/
 independent
 -
 voices
@@ -2613,6 +2641,8 @@ browser
 content
 /
 colorways
+/
+assets
 /
 independent
 -
@@ -2703,6 +2733,8 @@ content
 /
 colorways
 /
+assets
+/
 independent
 -
 voices
@@ -2792,6 +2824,8 @@ content
 /
 colorways
 /
+assets
+/
 independent
 -
 voices
@@ -2880,6 +2914,8 @@ browser
 content
 /
 colorways
+/
+assets
 /
 independent
 -
@@ -3061,6 +3097,8 @@ content
 /
 colorways
 /
+assets
+/
 independent
 -
 voices
@@ -3083,6 +3121,8 @@ browser
 content
 /
 colorways
+/
+assets
 /
 independent
 -
