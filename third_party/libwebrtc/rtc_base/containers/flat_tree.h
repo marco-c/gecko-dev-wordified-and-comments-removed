@@ -5678,7 +5678,6 @@ args
 )
 ;
 }
-}
 template
 <
 class
@@ -5732,7 +5731,16 @@ container
 end
 (
 )
+std
+:
+:
+forward
+<
+Predicate
+>
+(
 pred
+)
 )
 ;
 size_t
@@ -5766,6 +5774,7 @@ end
 return
 removed
 ;
+}
 }
 }
 #
