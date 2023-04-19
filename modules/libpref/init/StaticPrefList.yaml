@@ -55679,7 +55679,7 @@ mirror
 always
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 #
 Use
 VA
@@ -55713,7 +55713,7 @@ always
 #
 endif
 #
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 #
 endif
 #
