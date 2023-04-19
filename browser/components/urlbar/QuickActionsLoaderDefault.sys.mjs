@@ -298,6 +298,7 @@ currentPageIsWebContentFilter
 )
 =
 >
+!
 currentBrowser
 (
 )
