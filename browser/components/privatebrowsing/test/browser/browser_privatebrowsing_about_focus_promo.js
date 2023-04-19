@@ -410,7 +410,7 @@ private
 -
 browsing
 -
-vpn
+promo
 -
 link
 "
