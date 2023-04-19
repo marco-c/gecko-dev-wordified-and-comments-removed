@@ -30715,6 +30715,12 @@ tryCompileGlobalScriptToExtensibleStencil
 cx
 &
 ec
+cx
+-
+>
+stackLimitForCurrentPrincipal
+(
+)
 input
 .
 get

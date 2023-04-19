@@ -59,6 +59,15 @@ include
 "
 js
 /
+Stack
+.
+h
+"
+#
+include
+"
+js
+/
 UniquePtr
 .
 h
@@ -122,6 +131,11 @@ cx
 ErrorContext
 *
 ec
+JS
+:
+:
+NativeStackLimit
+stackLimit
 CompilationInput
 &
 input

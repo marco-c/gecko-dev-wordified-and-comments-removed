@@ -943,6 +943,11 @@ cx
 ErrorContext
 *
 ec
+JS
+:
+:
+NativeStackLimit
+stackLimit
 CompilationInput
 &
 input
@@ -1012,6 +1017,7 @@ tryCompileGlobalScriptToExtensibleStencil
 (
 cx
 ec
+stackLimit
 input
 srcBuf
 stencilOut
@@ -1124,6 +1130,11 @@ cx
 ErrorContext
 *
 ec
+JS
+:
+:
+NativeStackLimit
+stackLimit
 CompilationInput
 &
 input
@@ -1243,6 +1254,7 @@ TrySmoosh
 (
 cx
 ec
+stackLimit
 input
 srcBuf
 extensibleStencil
