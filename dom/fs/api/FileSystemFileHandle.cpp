@@ -281,12 +281,14 @@ return
 nullptr
 ;
 }
-promise
+mRequestHandler
 -
 >
-MaybeReject
+GetFile
 (
-NS_ERROR_NOT_IMPLEMENTED
+mManager
+mMetadata
+promise
 )
 ;
 return
