@@ -72,6 +72,11 @@ changed
 "
 ;
 const
+MAX_SESSION_RESULTS
+=
+25
+;
+const
 getRecentlyClosed
 =
 (
@@ -627,10 +632,9 @@ filter
 maxResults
 =
 =
-undefined
+=
+null
 ?
-this
-.
 MAX_SESSION_RESULTS
 :
 filter
