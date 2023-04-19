@@ -303,11 +303,10 @@ seq_num_
 ;
 mock_frame_decryptor_
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 MockFrameDecryptor
 >

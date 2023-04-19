@@ -664,11 +664,10 @@ AudioChannel
 >
 channel
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 AudioChannel
 >

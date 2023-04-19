@@ -4426,11 +4426,10 @@ absolute_capture_timestamp_ms
 ;
 frame_transformer_delegate_
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 ChannelSendFrameTransformerDelegate
 >

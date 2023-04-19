@@ -450,11 +450,10 @@ AudioDecoderFactory
 >
 factory
 (
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 audio_decoder_factory_template_impl
 :

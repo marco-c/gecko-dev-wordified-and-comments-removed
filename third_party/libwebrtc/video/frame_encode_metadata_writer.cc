@@ -1109,11 +1109,10 @@ encoded_image
 >
 SetEncodedData
 (
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 EncodedImageBufferWrapper
 >

@@ -6125,11 +6125,10 @@ VideoFrameBuffer
 >
 buffer
 (
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 FakeNativeBufferI420
 >
@@ -6410,11 +6409,10 @@ VideoFrameBuffer
 >
 buffer
 (
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 FakeNativeBufferI420
 >

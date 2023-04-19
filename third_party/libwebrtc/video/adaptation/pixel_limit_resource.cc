@@ -97,11 +97,10 @@ input_state_provider
 )
 {
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 PixelLimitResource
 >

@@ -121,11 +121,10 @@ size
 )
 {
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 EncodedImageBuffer
 >
@@ -155,11 +154,10 @@ size
 )
 {
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 EncodedImageBuffer
 >

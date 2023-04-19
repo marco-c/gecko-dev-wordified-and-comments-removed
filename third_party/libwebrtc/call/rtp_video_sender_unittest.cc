@@ -5788,11 +5788,10 @@ MockFrameTransformer
 >
 transformer
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 MockFrameTransformer
 >

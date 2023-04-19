@@ -352,11 +352,10 @@ nullptr
 )
 resource_listener_delegate_
 (
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 ResourceListenerDelegate
 >

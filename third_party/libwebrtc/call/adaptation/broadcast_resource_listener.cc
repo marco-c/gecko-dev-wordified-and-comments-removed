@@ -377,11 +377,10 @@ AdapterResource
 >
 adapter
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 AdapterResource
 >

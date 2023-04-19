@@ -1519,11 +1519,10 @@ header
 ;
 frame_transformer_delegate_
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 ChannelReceiveFrameTransformerDelegate
 >

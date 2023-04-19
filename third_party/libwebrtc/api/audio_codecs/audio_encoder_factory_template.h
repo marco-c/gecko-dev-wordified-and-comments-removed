@@ -574,16 +574,7 @@ return
 rtc
 :
 :
-scoped_refptr
-<
-AudioEncoderFactory
->
-(
-new
-rtc
-:
-:
-RefCountedObject
+make_ref_counted
 <
 audio_encoder_factory_template_impl
 :
@@ -597,7 +588,6 @@ Ts
 >
 >
 (
-)
 )
 ;
 }

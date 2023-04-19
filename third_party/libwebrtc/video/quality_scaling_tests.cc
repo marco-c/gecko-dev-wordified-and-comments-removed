@@ -194,11 +194,10 @@ encoder_config
 >
 encoder_specific_settings
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 VideoEncoderConfig
 :
@@ -246,11 +245,10 @@ encoder_config
 >
 encoder_specific_settings
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 VideoEncoderConfig
 :
