@@ -130,7 +130,7 @@ to
 display
 export
 const
-nowThresholdMs
+NOW_THRESHOLD_MS
 =
 91000
 ;
@@ -158,6 +158,9 @@ convertTimestamp
 (
 timestamp
 fluentStrings
+_nowThresholdMs
+=
+NOW_THRESHOLD_MS
 )
 {
 const
@@ -194,7 +197,7 @@ if
 elapsed
 <
 =
-nowThresholdMs
+_nowThresholdMs
 )
 {
 /
