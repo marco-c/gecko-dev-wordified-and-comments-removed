@@ -3473,6 +3473,9 @@ AndroidManifest
 .
 xml
 "
+use_raw_android_executable
+=
+false
 min_sdk_version
 =
 21
