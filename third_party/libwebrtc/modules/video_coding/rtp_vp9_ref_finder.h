@@ -170,6 +170,8 @@ GofInfoVP9
 gof
 uint16_t
 last_picture_id
+uint16_t
+last_seq_num
 )
 :
 gof
@@ -180,6 +182,10 @@ last_picture_id
 (
 last_picture_id
 )
+last_seq_num
+(
+last_seq_num
+)
 {
 }
 GofInfoVP9
@@ -188,6 +194,9 @@ gof
 ;
 uint16_t
 last_picture_id
+;
+uint16_t
+last_seq_num
 ;
 }
 ;
