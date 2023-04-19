@@ -198,11 +198,8 @@ clear
 )
 ;
 packet_iat_stopwatch_
-=
-tick_timer_
--
->
-GetNewStopwatch
+.
+reset
 (
 )
 ;
