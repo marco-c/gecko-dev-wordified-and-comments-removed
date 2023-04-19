@@ -926,11 +926,7 @@ src
 /
 +
 /
-refs
-/
-heads
-/
-master
+main
 /
 docs
 /
@@ -969,7 +965,7 @@ src
 /
 +
 /
-master
+main
 /
 sdk
 /
@@ -996,7 +992,7 @@ src
 /
 +
 /
-master
+main
 /
 examples
 /
@@ -1058,11 +1054,7 @@ src
 /
 +
 /
-refs
-/
-heads
-/
-master
+main
 /
 docs
 /

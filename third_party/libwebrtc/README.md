@@ -294,11 +294,7 @@ src
 /
 +
 /
-refs
-/
-heads
-/
-master
+main
 /
 docs
 /

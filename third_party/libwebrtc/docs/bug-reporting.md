@@ -1793,7 +1793,7 @@ src
 /
 +
 /
-master
+main
 /
 docs
 /
@@ -1824,7 +1824,7 @@ src
 /
 +
 /
-master
+main
 /
 docs
 /

@@ -195,7 +195,7 @@ src
 /
 +
 /
-HEAD
+main
 /
 styleguide
 /
@@ -1788,7 +1788,7 @@ src
 /
 +
 /
-HEAD
+main
 /
 styleguide
 /
@@ -1845,7 +1845,7 @@ src
 /
 +
 /
-HEAD
+main
 /
 styleguide
 /
