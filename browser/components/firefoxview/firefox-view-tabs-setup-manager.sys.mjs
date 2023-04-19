@@ -369,7 +369,7 @@ service
 :
 sync
 :
-finished
+finish
 "
 ;
 function
