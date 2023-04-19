@@ -152,16 +152,7 @@ safe
 -
 mode
 "
-static_cast
-<
-const
-CharT
-*
-*
->
-(
 nullptr
-)
 checkArgFlags
 )
 ;
