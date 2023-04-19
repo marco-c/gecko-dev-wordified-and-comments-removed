@@ -59,15 +59,6 @@ aec3_common
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-constructor_magic
-.
-h
-"
 namespace
 webrtc
 {

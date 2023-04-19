@@ -42,15 +42,6 @@ include
 "
 rtc_base
 /
-constructor_magic
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 ignore_wundef
 .
 h

@@ -39,15 +39,6 @@ multiend_call
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-constructor_magic
-.
-h
-"
 namespace
 webrtc
 {
