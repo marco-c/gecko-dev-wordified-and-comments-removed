@@ -36,6 +36,9 @@ SPONSORED
 BOOKMARKED
 :
 2075
+SEARCHED
+:
+100
 }
 ;
 const
@@ -1126,7 +1129,7 @@ frecency
 :
 FRECENCY
 .
-ORGANIC
+SEARCHED
 }
 }
 {

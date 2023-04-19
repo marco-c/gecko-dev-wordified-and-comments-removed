@@ -31,7 +31,7 @@ const
 FRECENCY
 =
 {
-TYPED
+SEARCHED
 :
 100
 BOOKMARKED
@@ -342,7 +342,7 @@ frecency
 :
 FRECENCY
 .
-TYPED
+SEARCHED
 }
 }
 {
@@ -778,7 +778,7 @@ frecency
 :
 FRECENCY
 .
-TYPED
+SEARCHED
 }
 }
 )
