@@ -986,10 +986,15 @@ values
 )
 :
                 
-raise
-Exception
-(
+if
+is_extra_profiler_run
+:
                     
+LOG
+.
+info
+(
+                        
 "
 Could
 not
@@ -1002,7 +1007,41 @@ in
 the
 artifacts
 "
+                        
+"
+for
+the
+extra
+profiler
+run
+"
+                    
+)
+                    
+return
+[
+]
                 
+else
+:
+                    
+raise
+Exception
+(
+                        
+"
+Could
+not
+find
+any
+browsertime
+result
+JSONs
+in
+the
+artifacts
+"
+                    
 )
             
 profile_locations
