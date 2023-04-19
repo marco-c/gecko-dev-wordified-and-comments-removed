@@ -667,11 +667,6 @@ conditioned
 -
 profile
 "
-replace
-:
-chunks
-:
-8
 socketprocess
 :
 description
