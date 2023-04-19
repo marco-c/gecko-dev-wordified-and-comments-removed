@@ -1278,14 +1278,6 @@ mozilla
 :
 :
 Module
-kPowerManagerModule
-;
-extern
-const
-mozilla
-:
-:
-Module
 kContentProcessWidgetModule
 ;
 #
@@ -1750,12 +1742,6 @@ GetSingleton
 SuppressNotifications
 (
 true
-)
-;
-RegisterModule
-(
-&
-kPowerManagerModule
 )
 ;
 RegisterModule
