@@ -368,8 +368,15 @@ platform
 android
 .
 *
+/
+debug
 :
-16
+32
+android
+.
+*
+:
+24
 linux
 .
 *
