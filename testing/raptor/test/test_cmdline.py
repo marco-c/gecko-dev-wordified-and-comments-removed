@@ -144,6 +144,10 @@ fission_mobile
 =
 False
         
+webext
+=
+False
+        
 extra_prefs
 =
 [
@@ -289,6 +293,10 @@ fission_mobile
 =
 False
         
+webext
+=
+False
+        
 extra_prefs
 =
 [
@@ -396,6 +404,10 @@ fission
 True
         
 fission_mobile
+=
+False
+        
+webext
 =
 False
         
@@ -509,6 +521,10 @@ fission_mobile
 =
 False
         
+webext
+=
+False
+        
 extra_prefs
 =
 [
@@ -615,6 +631,10 @@ fission_mobile
 =
 False
         
+webext
+=
+False
+        
 extra_prefs
 =
 [
@@ -712,6 +732,10 @@ fission
 True
         
 fission_mobile
+=
+False
+        
+webext
 =
 False
         

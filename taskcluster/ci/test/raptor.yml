@@ -284,6 +284,10 @@ logging
 enabled
 =
 true
+-
+-
+-
+webext
 fetches
 :
 fetch

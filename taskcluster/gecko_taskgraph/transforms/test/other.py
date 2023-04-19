@@ -2373,9 +2373,8 @@ or
 "
 -
 -
-browsertime
+webext
 "
-not
 in
 extra_options
 :

@@ -395,10 +395,6 @@ extra
 -
 options
 :
--
--
--
-browsertime
 #
 Bug
 1635749
@@ -2250,10 +2246,6 @@ extra
 -
 options
 :
--
--
--
-browsertime
 -
 -
 -

@@ -220,10 +220,6 @@ options
 -
 -
 -
-browsertime
--
--
--
 conditioned
 -
 profile
@@ -320,10 +316,6 @@ chimera
 -
 browsertime
 -
--
--
-browsertime
--
 no
 -
 ffwindowrecorder
@@ -341,10 +333,6 @@ default
 -
 -
 chimera
--
--
--
-browsertime
 -
 -
 -
@@ -718,10 +706,6 @@ cold
 -
 browsertime
 -
--
--
-browsertime
--
 no
 -
 ffwindowrecorder
@@ -739,10 +723,6 @@ default
 -
 -
 cold
--
--
--
-browsertime
 -
 -
 -
