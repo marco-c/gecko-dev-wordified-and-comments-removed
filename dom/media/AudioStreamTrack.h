@@ -213,10 +213,7 @@ nsPtrHashKey
 <
 void
 >
-UniquePtr
-<
 CrossGraphPort
->
 >
 mCrossGraphs
 ;
