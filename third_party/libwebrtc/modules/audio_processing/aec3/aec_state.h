@@ -1077,15 +1077,6 @@ false
 FilterAnalyzer
 filter_analyzer_
 ;
-absl
-:
-:
-optional
-<
-DelayEstimate
->
-external_delay_
-;
 EchoAudibility
 echo_audibility_
 ;

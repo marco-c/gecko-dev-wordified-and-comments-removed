@@ -742,7 +742,7 @@ EchoPathVariability
 DelayAdjustment
 :
 :
-kBufferReadjustment
+kNewDetectedDelay
 false
 )
 )
