@@ -452,6 +452,12 @@ this
 #
 ifdef
 MOZ_APPLEMEDIA
+[
+[
+fallthrough
+]
+]
+;
 case
 ipc
 :
@@ -466,6 +472,12 @@ endif
 #
 ifdef
 XP_WIN
+[
+[
+fallthrough
+]
+]
+;
 case
 ipc
 :

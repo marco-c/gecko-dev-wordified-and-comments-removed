@@ -180,6 +180,14 @@ AudioDecoder_WMF
 MfMediaEngineCDM
 }
 ;
+nsCString
+GetUtilityActorName
+(
+const
+UtilityActorName
+aActorName
+)
+;
 int
 GetCycleTimeFrequencyMHz
 (
