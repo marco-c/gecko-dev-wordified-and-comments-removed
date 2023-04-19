@@ -37,11 +37,11 @@ webrtc
 bool
 FrameHasBadRenderTiming
 (
-int64_t
-render_time_ms
-int64_t
-now_ms
-int
+Timestamp
+render_time
+Timestamp
+now
+TimeDelta
 target_video_delay
 )
 ;
