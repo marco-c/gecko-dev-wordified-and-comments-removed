@@ -113,15 +113,6 @@ python
 l10n
 /
 fluent_migrations
-python
-/
-mozbuild
-/
-mozbuild
-/
-fork_interpose
-.
-py
 security
 /
 manager
