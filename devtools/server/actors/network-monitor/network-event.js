@@ -292,6 +292,11 @@ channelId
 this
 .
 _channelId
+chromeContext
+:
+this
+.
+_isFromSystemPrincipal
 }
 ;
 }
@@ -459,6 +464,14 @@ _channelId
 networkEvent
 .
 channelId
+;
+this
+.
+_isFromSystemPrincipal
+=
+networkEvent
+.
+isFromSystemPrincipal
 ;
 this
 .
