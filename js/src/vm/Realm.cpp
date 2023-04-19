@@ -1925,6 +1925,12 @@ purge
 (
 )
 ;
+newPlainObjectWithPropsCache
+.
+purge
+(
+)
+;
 objects_
 .
 iteratorCache
