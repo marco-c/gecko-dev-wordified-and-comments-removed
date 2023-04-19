@@ -90,8 +90,12 @@ FakeVoiceMediaChannel
 {
 public
 :
+explicit
 FakeVoiceMediaChannelForStats
 (
+TaskQueueBase
+*
+network_thread
 )
 :
 cricket
@@ -106,6 +110,7 @@ cricket
 AudioOptions
 (
 )
+network_thread
 )
 {
 }
@@ -186,8 +191,12 @@ FakeVideoMediaChannel
 {
 public
 :
+explicit
 FakeVideoMediaChannelForStats
 (
+TaskQueueBase
+*
+network_thread
 )
 :
 cricket
@@ -202,6 +211,7 @@ cricket
 VideoOptions
 (
 )
+network_thread
 )
 {
 }
@@ -866,6 +876,7 @@ make_unique
 FakeVoiceMediaChannelForStats
 >
 (
+network_thread_
 )
 ;
 auto
@@ -975,6 +986,7 @@ make_unique
 FakeVideoMediaChannelForStats
 >
 (
+network_thread_
 )
 ;
 auto
