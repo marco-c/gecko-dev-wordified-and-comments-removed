@@ -840,7 +840,7 @@ x11_config
 ]
 if
 (
-rtc_use_pipewire
+is_linux
 )
 {
 public_configs
@@ -852,6 +852,11 @@ public_configs
 pipewire_config
 "
 ]
+if
+(
+rtc_use_pipewire
+)
+{
 configs
 +
 =
@@ -891,6 +896,7 @@ deps
 pipewire_stubs
 "
 ]
+}
 }
 }
 }
