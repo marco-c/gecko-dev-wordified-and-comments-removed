@@ -78,6 +78,16 @@ max_send_buffer_size
 1024
 ;
 DurationMs
+rtt_max
+=
+DurationMs
+(
+8
+'
+000
+)
+;
+DurationMs
 rto_initial
 =
 DurationMs
