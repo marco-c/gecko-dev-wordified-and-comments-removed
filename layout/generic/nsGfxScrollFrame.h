@@ -1619,11 +1619,6 @@ const
 ScrollSnapInfo
 ComputeScrollSnapInfo
 (
-SnapTargetSet
-*
-aSnapTargets
-=
-nullptr
 )
 ;
 bool

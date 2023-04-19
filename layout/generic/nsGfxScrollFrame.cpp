@@ -37304,9 +37304,6 @@ ScrollFrameHelper
 :
 ComputeScrollSnapInfo
 (
-SnapTargetSet
-*
-aSnapTargets
 )
 {
 ScrollSnapInfo
@@ -37421,7 +37418,8 @@ GetScrolledRect
 scrollPadding
 writingMode
 result
-aSnapTargets
+&
+mSnapTargets
 )
 ;
 return
@@ -37482,8 +37480,6 @@ GetSnapPointForDestination
 (
 ComputeScrollSnapInfo
 (
-&
-mSnapTargets
 )
 aUnit
 aFlags
@@ -37541,8 +37537,6 @@ GetSnapPointForResnap
 (
 ComputeScrollSnapInfo
 (
-&
-mSnapTargets
 )
 GetLayoutScrollRange
 (
