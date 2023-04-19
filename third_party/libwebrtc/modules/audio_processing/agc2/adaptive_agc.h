@@ -130,9 +130,9 @@ AudioFrameView
 <
 float
 >
-float_frame
+frame
 float
-last_audio_level
+limiter_envelope
 )
 ;
 void
