@@ -1287,6 +1287,11 @@ GetVideoThreshold
 (
 )
 ;
+bool
+ShouldRunEngineUpdateForRequest
+(
+)
+;
 UniquePtr
 <
 ExternalPlaybackEngine
