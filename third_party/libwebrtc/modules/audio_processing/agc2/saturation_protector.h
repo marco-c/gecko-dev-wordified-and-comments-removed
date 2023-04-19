@@ -59,8 +59,6 @@ ApmDataDumper
 apm_data_dumper
 float
 initial_saturation_margin_db
-float
-extra_saturation_margin_db
 )
 ;
 void
@@ -78,11 +76,15 @@ speech_level_dbfs
 )
 ;
 float
-GetMarginDb
+margin_db
 (
 )
 const
+{
+return
+margin_db_
 ;
+}
 void
 DebugDumpEstimate
 (
@@ -157,10 +159,6 @@ apm_data_dumper_
 const
 float
 initial_saturation_margin_db_
-;
-const
-float
-extra_saturation_margin_db_
 ;
 float
 margin_db_
