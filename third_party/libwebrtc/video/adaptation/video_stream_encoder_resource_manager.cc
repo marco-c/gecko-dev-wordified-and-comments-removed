@@ -1532,7 +1532,7 @@ void
 VideoStreamEncoderResourceManager
 :
 :
-EnsureEncodeUsageResourceStarted
+ConfigureEncodeUsageResource
 (
 )
 {

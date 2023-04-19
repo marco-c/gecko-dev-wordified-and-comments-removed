@@ -5944,7 +5944,7 @@ pending_encoder_creation_
 {
 stream_resource_manager_
 .
-EnsureEncodeUsageResourceStarted
+ConfigureEncodeUsageResource
 (
 )
 ;
@@ -8411,6 +8411,12 @@ info
 )
 {
 OnEncoderSettingsChanged
+(
+)
+;
+stream_resource_manager_
+.
+ConfigureEncodeUsageResource
 (
 )
 ;
