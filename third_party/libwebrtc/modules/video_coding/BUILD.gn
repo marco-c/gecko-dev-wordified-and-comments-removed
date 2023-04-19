@@ -7050,6 +7050,11 @@ rtp_frame_reference_finder_unittest
 cc
 "
 "
+rtp_vp9_ref_finder_unittest
+.
+cc
+"
+"
 session_info_unittest
 .
 cc
