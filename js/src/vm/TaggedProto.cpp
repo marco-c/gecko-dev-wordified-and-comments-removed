@@ -21,15 +21,6 @@ include
 "
 vm
 /
-JSFunction
-.
-h
-"
-#
-include
-"
-vm
-/
 JSObject
 .
 h

@@ -37,11 +37,6 @@ endif
 #
 include
 <
-algorithm
->
-#
-include
-<
 string
 .
 h

@@ -45,13 +45,16 @@ include
 "
 vm
 /
-Stack
+NativeObject
 .
 h
 "
 namespace
 js
 {
+class
+ArrayObject
+;
 class
 PlainObject
 ;

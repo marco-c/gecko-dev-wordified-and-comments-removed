@@ -21,6 +21,15 @@ include
 "
 js
 /
+String
+.
+h
+"
+#
+include
+"
+js
+/
 Symbol
 .
 h

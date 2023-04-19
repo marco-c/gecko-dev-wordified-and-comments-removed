@@ -23,13 +23,16 @@ include
 "
 vm
 /
-Stack
+JSObject
 .
 h
 "
 namespace
 js
 {
+class
+InterpreterFrame
+;
 namespace
 probes
 {

@@ -78,6 +78,15 @@ include
 "
 js
 /
+Conversions
+.
+h
+"
+#
+include
+"
+js
+/
 ErrorReport
 .
 h
@@ -816,6 +825,9 @@ ret
 if
 (
 !
+JS
+:
+:
 ToInt32
 (
 gCx

@@ -87,6 +87,15 @@ h
 #
 include
 "
+vm
+/
+Scope
+.
+h
+"
+#
+include
+"
 gc
 /
 Marking

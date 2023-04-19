@@ -64,15 +64,6 @@ include
 "
 gc
 /
-Marking
-.
-h
-"
-#
-include
-"
-gc
-/
 MaybeRooted
 .
 h
@@ -131,7 +122,7 @@ include
 "
 vm
 /
-JSObject
+JSAtom
 .
 h
 "
@@ -140,7 +131,7 @@ include
 "
 vm
 /
-PropertyResult
+JSObject
 .
 h
 "
@@ -166,7 +157,7 @@ namespace
 js
 {
 class
-Shape
+PropertyResult
 ;
 class
 TenuringTracer
@@ -1751,12 +1742,6 @@ AutoCheckShapeConsistency
 class
 GCMarker
 ;
-class
-Shape
-;
-class
-NewObjectCache
-;
 enum
 class
 DenseElementResult
@@ -2782,10 +2767,6 @@ GCMarker
 friend
 class
 Shape
-;
-friend
-class
-NewObjectCache
 ;
 void
 invalidateSlotRange

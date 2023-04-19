@@ -48,6 +48,15 @@ include
 "
 vm
 /
+BigIntType
+.
+h
+"
+#
+include
+"
+vm
+/
 GlobalObject
 .
 h

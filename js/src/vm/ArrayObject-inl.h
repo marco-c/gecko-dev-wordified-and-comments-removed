@@ -36,15 +36,6 @@ include
 "
 vm
 /
-StringType
-.
-h
-"
-#
-include
-"
-vm
-/
 JSObject
 -
 inl
@@ -56,7 +47,7 @@ include
 "
 vm
 /
-ObjectOperations
+NativeObject
 -
 inl
 .

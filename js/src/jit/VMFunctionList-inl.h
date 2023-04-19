@@ -27,6 +27,15 @@ include
 "
 builtin
 /
+Object
+.
+h
+"
+#
+include
+"
+builtin
+/
 Promise
 .
 h
