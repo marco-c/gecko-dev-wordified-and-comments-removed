@@ -1109,9 +1109,8 @@ containAxes
 ContainIntrinsicSize
 (
 intrinsicSize
-GetWritingMode
-(
-)
+*
+this
 )
 ;
 }

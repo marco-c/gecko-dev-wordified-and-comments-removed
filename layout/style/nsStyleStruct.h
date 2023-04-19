@@ -335,9 +335,9 @@ nsSize
 &
 aUncontainedSize
 const
-WritingMode
+nsIFrame
 &
-aWM
+aFrame
 )
 const
 ;
@@ -349,9 +349,9 @@ IntrinsicSize
 &
 aUncontainedSize
 const
-WritingMode
+nsIFrame
 &
-aWM
+aFrame
 )
 const
 ;

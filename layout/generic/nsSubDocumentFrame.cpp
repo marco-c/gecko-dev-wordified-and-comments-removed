@@ -2986,9 +2986,8 @@ ContainIntrinsicSize
 (
 *
 size
-GetWritingMode
-(
-)
+*
+this
 )
 ;
 }
@@ -3030,9 +3029,8 @@ IntrinsicSize
 (
 kFallbackIntrinsicSize
 )
-GetWritingMode
-(
-)
+*
+this
 )
 ;
 }

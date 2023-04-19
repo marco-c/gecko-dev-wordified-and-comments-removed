@@ -3610,10 +3610,6 @@ ContainIntrinsicSize
 (
 intrinsicSize
 aFrame
-.
-GetWritingMode
-(
-)
 )
 ;
 }
@@ -3650,10 +3646,6 @@ defaultLength
 defaultLength
 )
 aFrame
-.
-GetWritingMode
-(
-)
 )
 ;
 }
@@ -3698,10 +3690,6 @@ edgeLengthToUse
 edgeLengthToUse
 )
 aFrame
-.
-GetWritingMode
-(
-)
 )
 ;
 }
