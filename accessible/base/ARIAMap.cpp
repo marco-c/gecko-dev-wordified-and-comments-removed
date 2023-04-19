@@ -2580,8 +2580,6 @@ nsGkAtoms
 :
 :
 aria_relevant
-ATTR_BYPASSOBJ
-|
 ATTR_GLOBAL
 }
 {
