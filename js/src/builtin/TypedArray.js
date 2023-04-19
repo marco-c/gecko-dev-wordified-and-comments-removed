@@ -3998,11 +3998,9 @@ beginByteOffset
 =
 srcByteOffset
 +
-(
 beginIndex
 *
 elementSize
-)
 ;
 return
 TypedArraySpeciesCreateWithBuffer
