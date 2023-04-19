@@ -184,6 +184,7 @@ nsIAsyncOutputStream
 /
 [
 scriptable
+builtinclass
 uuid
 (
 beb632d3
