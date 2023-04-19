@@ -138,6 +138,14 @@ MEDIA_HAS_AUDIO
 <
 1
 )
+MEDIA_HAS_COLOR_DEPTH_ABOVE_8
+=
+(
+1
+<
+<
+2
+)
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
@@ -258,6 +266,12 @@ OnDecodeResumed
 ;
 double
 GetTotalVideoPlayTimeInSeconds
+(
+)
+const
+;
+double
+GetTotalVideoHDRPlayTimeInSeconds
 (
 )
 const
@@ -582,6 +596,9 @@ mOwner
 ;
 TimeDurationAccumulator
 mTotalVideoPlayTime
+;
+TimeDurationAccumulator
+mTotalVideoHDRPlayTime
 ;
 TimeDurationAccumulator
 mTotalAudioPlayTime
