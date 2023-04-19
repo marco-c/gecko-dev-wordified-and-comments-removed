@@ -638,6 +638,13 @@ third_party
 /
 python
 /
+looseversion
+vendored
+:
+third_party
+/
+python
+/
 MarkupSafe
 /
 src
