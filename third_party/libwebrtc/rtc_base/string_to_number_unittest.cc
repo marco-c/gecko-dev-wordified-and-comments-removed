@@ -804,7 +804,10 @@ StringToNumber
 T
 >
 (
+{
 nullptr
+0
+}
 )
 )
 ;
@@ -903,6 +906,7 @@ absl
 string_view
 (
 nullptr
+0
 )
 )
 )
