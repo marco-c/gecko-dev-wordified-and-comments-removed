@@ -1729,7 +1729,7 @@ max_delta_frame_delay_sec
 =
 MaxDelaySec
 (
-key_frame_size_bytes
+delta_frame_size_bytes
 )
 ;
 video_stat
