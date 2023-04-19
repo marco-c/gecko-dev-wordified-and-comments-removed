@@ -45,6 +45,8 @@ FoldConstants
 JSContext
 *
 cx
+uintptr_t
+stackLimit
 ParserAtomsTable
 &
 parserAtoms
@@ -69,6 +71,8 @@ FoldConstants
 JSContext
 *
 cx
+uintptr_t
+stackLimit
 ParserAtomsTable
 &
 parserAtoms

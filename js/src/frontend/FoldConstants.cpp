@@ -173,6 +173,9 @@ JSContext
 *
 cx
 ;
+uintptr_t
+stackLimit
+;
 ParserAtomsTable
 &
 parserAtoms
@@ -257,9 +260,9 @@ static
 bool
 ContainsHoistedDeclaration
 (
-JSContext
-*
-cx
+FoldInfo
+&
+info
 ParseNode
 *
 node
@@ -272,9 +275,9 @@ static
 bool
 ListContainsHoistedDeclaration
 (
-JSContext
-*
-cx
+FoldInfo
+&
+info
 ListNode
 *
 list
@@ -302,7 +305,7 @@ if
 !
 ContainsHoistedDeclaration
 (
-cx
+info
 node
 result
 )
@@ -336,9 +339,9 @@ static
 bool
 ContainsHoistedDeclaration
 (
-JSContext
-*
-cx
+FoldInfo
+&
+info
 ParseNode
 *
 node
@@ -350,6 +353,8 @@ result
 AutoCheckRecursionLimit
 recursion
 (
+info
+.
 cx
 )
 ;
@@ -360,7 +365,12 @@ recursion
 .
 check
 (
+info
+.
 cx
+info
+.
+stackLimit
 )
 )
 {
@@ -739,7 +749,7 @@ DoWhileStmt
 return
 ContainsHoistedDeclaration
 (
-cx
+info
 node
 -
 >
@@ -771,7 +781,7 @@ WithStmt
 return
 ContainsHoistedDeclaration
 (
-cx
+info
 node
 -
 >
@@ -797,7 +807,7 @@ LabelStmt
 return
 ContainsHoistedDeclaration
 (
-cx
+info
 node
 -
 >
@@ -852,7 +862,7 @@ if
 !
 ContainsHoistedDeclaration
 (
-cx
+info
 consequent
 result
 )
@@ -963,7 +973,7 @@ if
 !
 ContainsHoistedDeclaration
 (
-cx
+info
 tryBlock
 result
 )
@@ -1054,7 +1064,7 @@ if
 !
 ContainsHoistedDeclaration
 (
-cx
+info
 catchStatements
 result
 )
@@ -1092,7 +1102,7 @@ kid3
 return
 ContainsHoistedDeclaration
 (
-cx
+info
 finallyBlock
 result
 )
@@ -1132,7 +1142,7 @@ SwitchStatement
 return
 ContainsHoistedDeclaration
 (
-cx
+info
 &
 switchNode
 -
@@ -1169,7 +1179,7 @@ CaseClause
 return
 ContainsHoistedDeclaration
 (
-cx
+info
 caseClause
 -
 >
@@ -1383,7 +1393,7 @@ body
 return
 ContainsHoistedDeclaration
 (
-cx
+info
 loopBody
 result
 )
@@ -1450,7 +1460,7 @@ FunctionNode
 return
 ContainsHoistedDeclaration
 (
-cx
+info
 expr
 result
 )
@@ -1473,7 +1483,7 @@ StatementList
 return
 ListContainsHoistedDeclaration
 (
-cx
+info
 &
 scope
 -
@@ -1502,7 +1512,7 @@ StatementList
 return
 ListContainsHoistedDeclaration
 (
-cx
+info
 &
 node
 -
@@ -4848,8 +4858,6 @@ if
 ContainsHoistedDeclaration
 (
 info
-.
-cx
 discarded
 &
 containsHoistedDecls
@@ -6999,6 +7007,7 @@ return
 FoldInfo
 {
 cx_
+stackLimit_
 parserAtoms
 handler
 }
@@ -7006,12 +7015,13 @@ handler
 }
 public
 :
-explicit
 FoldVisitor
 (
 JSContext
 *
 cx
+uintptr_t
+stackLimit
 ParserAtomsTable
 &
 parserAtoms
@@ -7023,6 +7033,7 @@ handler
 RewritingParseNodeVisitor
 (
 cx
+stackLimit
 )
 parserAtoms
 (
@@ -8487,6 +8498,8 @@ Fold
 JSContext
 *
 cx
+uintptr_t
+stackLimit
 ParserAtomsTable
 &
 parserAtoms
@@ -8503,6 +8516,7 @@ FoldVisitor
 visitor
 (
 cx
+stackLimit
 parserAtoms
 handler
 )
@@ -8537,6 +8551,9 @@ info
 cx
 info
 .
+stackLimit
+info
+.
 parserAtoms
 info
 .
@@ -8554,6 +8571,8 @@ FoldConstants
 JSContext
 *
 cx
+uintptr_t
+stackLimit
 ParserAtomsTable
 &
 parserAtoms
@@ -8570,6 +8589,7 @@ return
 Fold
 (
 cx
+stackLimit
 parserAtoms
 handler
 pnp

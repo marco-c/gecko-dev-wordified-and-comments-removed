@@ -2202,12 +2202,13 @@ pn
 )
 ;
 }
-explicit
 NameResolver
 (
 JSContext
 *
 cx
+uintptr_t
+stackLimit
 ParserAtomsTable
 &
 parserAtoms
@@ -2216,6 +2217,7 @@ parserAtoms
 ParseNodeVisitor
 (
 cx
+stackLimit
 )
 parserAtoms_
 (
@@ -2358,6 +2360,8 @@ NameFunctions
 JSContext
 *
 cx
+uintptr_t
+stackLimit
 ParserAtomsTable
 &
 parserAtoms
@@ -2370,6 +2374,7 @@ NameResolver
 nr
 (
 cx
+stackLimit
 parserAtoms
 )
 ;
