@@ -472,8 +472,10 @@ menu
 {
 padding
 :
-0
-4px
+.
+3em
+.
+4em
 ;
 }
 menubar
@@ -485,6 +487,10 @@ lwtheme
 >
 menu
 {
+appearance
+:
+none
+;
 text
 -
 shadow
