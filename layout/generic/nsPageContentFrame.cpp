@@ -407,9 +407,12 @@ padding
 0
 )
 ;
-kidReflowInput
-.
-mStylePadding
+frame
+-
+>
+StylePadding
+(
+)
 -
 >
 GetPadding
