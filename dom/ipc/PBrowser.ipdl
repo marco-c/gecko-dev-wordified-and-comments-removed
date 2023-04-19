@@ -2979,15 +2979,6 @@ aContentPolicyType
 )
 ;
 async
-ActivateFrameEvent
-(
-nsString
-aType
-bool
-capture
-)
-;
-async
 LoadRemoteScript
 (
 nsString
