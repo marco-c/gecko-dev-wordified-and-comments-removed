@@ -257,6 +257,13 @@ template
 struct
 StyleStrong
 <
+RawServoFontPaletteValuesRule
+>
+;
+template
+struct
+StyleStrong
+<
 RawServoFontFaceRule
 >
 ;
