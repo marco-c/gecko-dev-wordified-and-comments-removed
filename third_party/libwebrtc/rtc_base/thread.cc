@@ -4866,10 +4866,7 @@ NDEBUG
 )
 |
 |
-defined
-(
-RTC_DCHECK_ALWAYS_ON
-)
+RTC_DCHECK_IS_ON
 )
 if
 (
@@ -4942,10 +4939,7 @@ NDEBUG
 )
 |
 |
-defined
-(
-RTC_DCHECK_ALWAYS_ON
-)
+RTC_DCHECK_IS_ON
 )
 if
 (
@@ -5062,10 +5056,7 @@ NDEBUG
 )
 |
 |
-defined
-(
-RTC_DCHECK_ALWAYS_ON
-)
+RTC_DCHECK_IS_ON
 )
 RTC_DCHECK_RUN_ON
 (

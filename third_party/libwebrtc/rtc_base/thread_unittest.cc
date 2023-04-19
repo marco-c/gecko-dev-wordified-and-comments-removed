@@ -66,6 +66,15 @@ include
 "
 rtc_base
 /
+checks
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 event
 .
 h
@@ -1837,10 +1846,7 @@ NDEBUG
 )
 |
 |
-defined
-(
-RTC_DCHECK_ALWAYS_ON
-)
+RTC_DCHECK_IS_ON
 )
 TEST
 (
