@@ -6335,7 +6335,7 @@ rt
 >
 addTelemetry
 (
-JS_TELEMETRY_GC_NURSERY_BYTES
+JS_TELEMETRY_GC_NURSERY_BYTES_2
 committed
 (
 )

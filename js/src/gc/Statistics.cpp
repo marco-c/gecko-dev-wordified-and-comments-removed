@@ -6304,7 +6304,7 @@ runtime
 >
 addTelemetry
 (
-JS_TELEMETRY_GC_IS_ZONE_GC
+JS_TELEMETRY_GC_IS_COMPARTMENTAL
 !
 runtime
 -
@@ -7303,7 +7303,7 @@ runtime
 >
 addTelemetry
 (
-JS_TELEMETRY_GC_REASON
+JS_TELEMETRY_GC_REASON_2
 uint32_t
 (
 reason
