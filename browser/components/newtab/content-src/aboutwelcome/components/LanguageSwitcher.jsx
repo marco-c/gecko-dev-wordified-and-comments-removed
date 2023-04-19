@@ -1092,6 +1092,9 @@ secondary
 text
 -
 link
+arrow
+-
+icon
 "
 onClick
 =
