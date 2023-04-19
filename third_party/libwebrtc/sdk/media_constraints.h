@@ -324,13 +324,6 @@ kEnableDtlsSrtp
 static
 const
 char
-kEnableRtpDataChannels
-[
-]
-;
-static
-const
-char
 kEnableDscp
 [
 ]
