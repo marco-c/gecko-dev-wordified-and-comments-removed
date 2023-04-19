@@ -5356,6 +5356,15 @@ aChildFrame
 GetAspectRatio
 (
 )
+|
+|
+aChildFrame
+-
+>
+IsFrameOfType
+(
+eReplacedSizing
+)
 )
 {
 styleFlexBaseSize
