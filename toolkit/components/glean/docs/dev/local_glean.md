@@ -205,7 +205,9 @@ core
 rlb
 "
 }
-glean_core
+glean
+-
+core
 =
 {
 path
