@@ -13995,8 +13995,9 @@ nsIWidget
 aParentWindow
 )
 {
-if
+MOZ_ASSERT
 (
+!
 gfxPlatform
 :
 :
@@ -14004,10 +14005,7 @@ IsHeadless
 (
 )
 )
-{
-return
 ;
-}
 nsCOMPtr
 <
 nsINodeList
@@ -14734,6 +14732,17 @@ false
 #
 ifdef
 USE_NATIVE_MENUS
+if
+(
+!
+gfxPlatform
+:
+:
+IsHeadless
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIContentViewer
@@ -14799,6 +14808,7 @@ menubarDoc
 mWindow
 )
 ;
+}
 }
 }
 }
