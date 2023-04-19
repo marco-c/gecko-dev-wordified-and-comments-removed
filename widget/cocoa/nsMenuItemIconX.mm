@@ -689,6 +689,18 @@ mIconImage
 nil
 ;
 }
+RefPtr
+<
+nsPresContext
+>
+pc
+=
+mPresContext
+.
+get
+(
+)
+;
 mIconImage
 =
 [
@@ -706,7 +718,7 @@ kIconSize
 )
 presContext
 :
-mPresContext
+pc
 computedStyle
 :
 mComputedStyle
