@@ -9428,7 +9428,6 @@ DEBUG
 JitContext
 jitContext
 (
-&
 tempAlloc
 )
 ;

@@ -331,10 +331,8 @@ cx
 nullptr
 ;
 TempAllocator
-*
+&
 temp
-=
-nullptr
 ;
 CompileRuntime
 *
@@ -348,7 +346,7 @@ JSContext
 *
 cx
 TempAllocator
-*
+&
 temp
 )
 ;
@@ -361,7 +359,7 @@ CompileRealm
 *
 realm
 TempAllocator
-*
+&
 temp
 )
 ;
@@ -369,12 +367,8 @@ explicit
 JitContext
 (
 TempAllocator
-*
+&
 temp
-)
-;
-JitContext
-(
 )
 ;
 ~

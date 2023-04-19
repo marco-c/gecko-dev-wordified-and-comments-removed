@@ -3034,6 +3034,9 @@ linkCompiledCode
 ;
 JitContext
 jcx
+(
+masmAlloc_
+)
 ;
 if
 (
