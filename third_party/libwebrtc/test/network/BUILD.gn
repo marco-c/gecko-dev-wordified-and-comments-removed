@@ -627,17 +627,6 @@ synchronization
 :
 mutex
 "
-"
-.
-.
-/
-.
-.
-/
-system_wrappers
-:
-system_wrappers
-"
 ]
 }
 rtc_library
