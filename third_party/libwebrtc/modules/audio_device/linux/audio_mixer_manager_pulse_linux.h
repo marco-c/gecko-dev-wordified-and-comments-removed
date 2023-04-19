@@ -25,7 +25,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -461,10 +463,7 @@ _paChannels
 bool
 _paObjectsSet
 ;
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 }

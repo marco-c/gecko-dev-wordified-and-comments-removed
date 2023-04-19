@@ -117,7 +117,9 @@ include
 "
 rtc_base
 /
-thread_annotations
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -126,7 +128,7 @@ include
 "
 rtc_base
 /
-thread_checker
+thread_annotations
 .
 h
 "
@@ -1224,10 +1226,7 @@ _recChannels
 uint8_t
 _playChannels
 ;
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 bool

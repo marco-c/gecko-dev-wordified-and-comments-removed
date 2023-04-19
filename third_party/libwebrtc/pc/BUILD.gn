@@ -3710,6 +3710,16 @@ rtc_base
 :
 thread_checker
 "
+"
+.
+.
+/
+rtc_base
+/
+synchronization
+:
+sequence_checker
+"
 ]
 }
 rtc_library

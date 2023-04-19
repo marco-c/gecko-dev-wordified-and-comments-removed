@@ -79,7 +79,9 @@ include
 "
 rtc_base
 /
-thread
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -88,7 +90,7 @@ include
 "
 rtc_base
 /
-thread_checker
+thread
 .
 h
 "
@@ -849,10 +851,10 @@ Thread
 *
 thread_
 ;
-rtc
+webrtc
 :
 :
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 }

@@ -35,7 +35,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -114,10 +116,7 @@ factory_
 =
 nullptr
 ;
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 }

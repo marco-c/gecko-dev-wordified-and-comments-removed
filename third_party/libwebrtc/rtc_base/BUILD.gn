@@ -1240,6 +1240,11 @@ thread_checker
 :
 timeutils
 "
+"
+synchronization
+:
+sequence_checker
+"
 ]
 absl_deps
 =

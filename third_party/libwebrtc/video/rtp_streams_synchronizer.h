@@ -36,7 +36,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -167,10 +169,7 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 process_thread_checker_
 ;
 int64_t

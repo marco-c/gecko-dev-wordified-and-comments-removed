@@ -59,7 +59,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -432,10 +434,7 @@ max_incomplete_time_ms
 }
 private
 :
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 construction_thread_
 ;
 const

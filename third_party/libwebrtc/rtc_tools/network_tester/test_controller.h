@@ -138,15 +138,6 @@ h
 #
 include
 "
-rtc_base
-/
-thread_checker
-.
-h
-"
-#
-include
-"
 rtc_tools
 /
 network_tester
@@ -327,10 +318,7 @@ int64_t
 packet_time_us
 )
 ;
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 test_controller_thread_checker_
 ;
 SequenceChecker

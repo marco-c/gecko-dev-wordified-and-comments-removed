@@ -117,7 +117,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -385,10 +387,7 @@ jint
 input_buffer_size
 )
 ;
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 JvmThreadConnector

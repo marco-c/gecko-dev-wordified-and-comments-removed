@@ -98,7 +98,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -268,10 +270,7 @@ timestamp
 ;
 private
 :
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 construction_thread_
 ;
 Clock

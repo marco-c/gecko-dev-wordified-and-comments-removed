@@ -122,7 +122,7 @@ rtc_base
 /
 synchronization
 /
-yield_policy
+sequence_checker
 .
 h
 "
@@ -131,7 +131,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+yield_policy
 .
 h
 "

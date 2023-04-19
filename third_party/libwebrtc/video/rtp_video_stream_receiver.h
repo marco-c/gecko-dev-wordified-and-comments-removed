@@ -375,15 +375,6 @@ h
 #
 include
 "
-rtc_base
-/
-thread_checker
-.
-h
-"
-#
-include
-"
 video
 /
 buffered_frame_decryptor
@@ -1581,10 +1572,7 @@ RTC_GUARDED_BY
 sync_info_lock_
 )
 ;
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 network_tc_
 ;
 std

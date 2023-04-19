@@ -51,7 +51,9 @@ include
 "
 rtc_base
 /
-task_queue_for_test
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -60,7 +62,7 @@ include
 "
 rtc_base
 /
-thread_checker
+task_queue_for_test
 .
 h
 "

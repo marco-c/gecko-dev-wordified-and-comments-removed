@@ -374,15 +374,6 @@ thread_annotations
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-thread_checker
-.
-h
-"
 namespace
 cricket
 {

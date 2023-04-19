@@ -104,7 +104,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -419,10 +421,7 @@ rtc
 RecursiveCriticalSection
 lock_
 ;
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 rtc

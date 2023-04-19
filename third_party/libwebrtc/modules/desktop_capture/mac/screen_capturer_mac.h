@@ -155,7 +155,9 @@ include
 "
 rtc_base
 /
-thread_checker
+synchronization
+/
+sequence_checker
 .
 h
 "
@@ -370,10 +372,7 @@ display_streams_
 DesktopFrameProvider
 desktop_frame_provider_
 ;
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 bool

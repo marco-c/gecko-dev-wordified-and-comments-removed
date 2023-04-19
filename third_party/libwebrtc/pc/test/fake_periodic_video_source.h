@@ -420,10 +420,7 @@ reset
 }
 private
 :
-rtc
-:
-:
-ThreadChecker
+SequenceChecker
 thread_checker_
 ;
 rtc

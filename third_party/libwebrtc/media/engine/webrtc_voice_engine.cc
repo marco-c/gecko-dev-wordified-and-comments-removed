@@ -6365,10 +6365,10 @@ const
 AdaptivePtimeConfig
 adaptive_ptime_config_
 ;
-rtc
+webrtc
 :
 :
-ThreadChecker
+SequenceChecker
 worker_thread_checker_
 ;
 rtc
@@ -7577,10 +7577,10 @@ config_
 )
 ;
 }
-rtc
+webrtc
 :
 :
-ThreadChecker
+SequenceChecker
 worker_thread_checker_
 ;
 webrtc
