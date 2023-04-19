@@ -26,7 +26,7 @@ kDataCodecClockrate
 ;
 const
 int
-kDataMaxBandwidth
+kRtpDataMaxBandwidth
 =
 30720
 ;

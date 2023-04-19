@@ -6989,7 +6989,7 @@ EXPECT_EQ
 cricket
 :
 :
-kDataMaxBandwidth
+kRtpDataMaxBandwidth
 dcd
 -
 >
@@ -18371,7 +18371,7 @@ EXPECT_EQ
 cricket
 :
 :
-kDataMaxBandwidth
+kRtpDataMaxBandwidth
 dcd
 -
 >
@@ -21195,7 +21195,7 @@ EXPECT_EQ
 cricket
 :
 :
-kDataMaxBandwidth
+kRtpDataMaxBandwidth
 dcd
 -
 >

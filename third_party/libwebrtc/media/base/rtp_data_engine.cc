@@ -298,7 +298,7 @@ rtc
 :
 DataRateLimiter
 (
-kDataMaxBandwidth
+kRtpDataMaxBandwidth
 /
 8
 1
@@ -1391,7 +1391,7 @@ bps
 {
 bps
 =
-kDataMaxBandwidth
+kRtpDataMaxBandwidth
 ;
 }
 send_limiter_
