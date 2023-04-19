@@ -660,6 +660,11 @@ timeStamp
 =
 0
 ;
+double
+microSecondTimeStamp
+=
+0
+;
 sequence
 <
 any

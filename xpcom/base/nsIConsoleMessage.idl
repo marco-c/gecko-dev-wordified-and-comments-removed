@@ -60,6 +60,12 @@ long
 long
 timeStamp
 ;
+readonly
+attribute
+long
+long
+microSecondTimeStamp
+;
 [
 binaryname
 (
