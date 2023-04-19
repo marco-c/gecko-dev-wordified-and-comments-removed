@@ -56,6 +56,13 @@ h
 #
 include
 "
+TLSFilterTransaction
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Mutex
