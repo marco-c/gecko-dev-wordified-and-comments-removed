@@ -4279,8 +4279,9 @@ ptr_
 ptr
 )
 {
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+ptr
 !
 IsInsideNursery
 (
