@@ -825,6 +825,13 @@ JSString
 aSpecifier
 )
 {
+RootedString
+urlString
+(
+aCx
+)
+;
+{
 RefPtr
 <
 ModuleScript
@@ -1021,7 +1028,10 @@ url
 )
 )
 ;
-return
+urlString
+.
+set
+(
 JS_NewStringCopyZ
 (
 aCx
@@ -1031,6 +1041,11 @@ get
 (
 )
 )
+)
+;
+}
+return
+urlString
 ;
 }
 bool
