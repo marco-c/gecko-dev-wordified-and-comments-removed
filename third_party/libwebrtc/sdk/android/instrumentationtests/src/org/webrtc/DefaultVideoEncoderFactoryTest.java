@@ -460,7 +460,7 @@ name
 assertEquals
 (
 "
-AV1
+AV1X
 "
 videoCodecs
 [
@@ -620,7 +620,7 @@ name
 assertEquals
 (
 "
-AV1
+AV1X
 "
 videoCodecs
 [
@@ -743,7 +743,7 @@ name
 assertEquals
 (
 "
-AV1
+AV1X
 "
 videoCodecs
 [

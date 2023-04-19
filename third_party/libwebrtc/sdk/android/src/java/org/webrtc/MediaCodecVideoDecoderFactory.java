@@ -156,7 +156,7 @@ type
 =
 VideoCodecMimeType
 .
-valueOf
+fromSdpCodecName
 (
 codecType
 .
@@ -295,7 +295,7 @@ name
 =
 type
 .
-name
+toSdpCodecName
 (
 )
 ;
