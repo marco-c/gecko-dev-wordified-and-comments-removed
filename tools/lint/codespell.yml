@@ -213,12 +213,11 @@ debug
 /
 ui
 /
-locale
+content
 /
-en
--
-US
-/
+layoutdebug
+.
+ftl
 -
 mobile
 /
