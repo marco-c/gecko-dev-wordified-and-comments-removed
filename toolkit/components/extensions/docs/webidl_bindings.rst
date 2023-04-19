@@ -760,14 +760,13 @@ components
 /
 extensions
 /
-tests
+test
 /
 xpcshell
 /
 webidl
 -
 api
-^
 ^
 ^
 ^
@@ -1045,7 +1044,7 @@ components
 /
 extensions
 /
-tests
+test
 /
 xpcshell
 /
@@ -1054,7 +1053,6 @@ xpcshell
 serviceworker
 .
 ini
-^
 ^
 ^
 ^
@@ -1583,7 +1581,7 @@ components
 /
 extensions
 /
-tests
+test
 /
 mochitest
 /
@@ -1592,7 +1590,6 @@ mochitest
 serviceworker
 .
 ini
-^
 ^
 ^
 ^
