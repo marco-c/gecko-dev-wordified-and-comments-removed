@@ -7458,6 +7458,15 @@ nsGkAtoms
 :
 :
 aria_controls
+|
+|
+aAttribute
+=
+=
+nsGkAtoms
+:
+:
+aria_flowto
 )
 {
 mDoc
