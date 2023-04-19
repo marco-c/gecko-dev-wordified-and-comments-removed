@@ -701,6 +701,7 @@ function
 createSourceActor
 (
 sourceResource
+sourceObject
 )
 {
 const
@@ -743,6 +744,7 @@ makeSourceId
 (
 sourceResource
 )
+sourceObject
 sourceMapBaseURL
 :
 sourceResource
