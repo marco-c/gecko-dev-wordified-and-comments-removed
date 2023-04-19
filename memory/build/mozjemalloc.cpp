@@ -4303,6 +4303,15 @@ return
 true
 ;
 #
+elif
+defined
+(
+NIGHTLY_BUILD
+)
+return
+true
+;
+#
 else
 if
 (
