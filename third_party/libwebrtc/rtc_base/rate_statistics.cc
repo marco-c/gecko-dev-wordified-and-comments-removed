@@ -267,6 +267,12 @@ first_timestamp_
 =
 -
 1
+|
+|
+num_samples_
+=
+=
+0
 )
 {
 first_timestamp_
