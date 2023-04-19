@@ -647,10 +647,8 @@ internal
 )
 -
 >
-SetChannel
+ClearChannel
 (
-nullptr
-nullptr
 )
 ;
 }

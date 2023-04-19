@@ -523,10 +523,8 @@ Return
 transceiver
 -
 >
-SetChannel
+ClearChannel
 (
-nullptr
-nullptr
 )
 ;
 }
@@ -739,10 +737,8 @@ channel
 transceiver
 -
 >
-SetChannel
+ClearChannel
 (
-nullptr
-nullptr
 )
 ;
 EXPECT_EQ
@@ -1464,10 +1460,8 @@ Return
 transceiver_
 -
 >
-SetChannel
+ClearChannel
 (
-nullptr
-nullptr
 )
 ;
 }
