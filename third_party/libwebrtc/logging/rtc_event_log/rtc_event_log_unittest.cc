@@ -6513,6 +6513,12 @@ kStartTimeSeconds
 )
 )
 ;
+int64_t
+start_time_us
+utc_start_time_us
+stop_time_us
+;
+{
 auto
 task_queue_factory
 =
@@ -6599,7 +6605,6 @@ Millis
 )
 ;
 }
-int64_t
 start_time_us
 =
 rtc
@@ -6609,7 +6614,6 @@ TimeMicros
 (
 )
 ;
-int64_t
 utc_start_time_us
 =
 rtc
@@ -6651,7 +6655,6 @@ Millis
 )
 )
 ;
-int64_t
 stop_time_us
 =
 rtc
@@ -6668,6 +6671,7 @@ StopLogging
 (
 )
 ;
+}
 ParsedRtcEventLog
 parsed_log
 ;
