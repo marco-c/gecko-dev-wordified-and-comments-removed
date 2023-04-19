@@ -66,11 +66,6 @@ TimeStamp
 =
 int64_t
 ;
-using
-Usage
-=
-int64_t
-;
 }
 #
 endif

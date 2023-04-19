@@ -50,12 +50,6 @@ FileSystemDirectoryHandle
 nsIGlobalObject
 *
 aGlobal
-RefPtr
-<
-FileSystemActorHolder
->
-&
-aActor
 const
 fs
 :
@@ -76,12 +70,6 @@ FileSystemDirectoryHandle
 nsIGlobalObject
 *
 aGlobal
-RefPtr
-<
-FileSystemActorHolder
->
-&
-aActor
 const
 fs
 :
