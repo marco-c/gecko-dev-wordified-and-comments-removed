@@ -2880,7 +2880,7 @@ const
 &
 iter
 :
-adapter_type_by_name_
+vpn_underlying_adapter_type_by_name_
 )
 {
 if
