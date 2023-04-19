@@ -617,8 +617,7 @@ aProperty
 )
 ;
 mWriter
--
->
+.
 Write
 (
 aJSON
