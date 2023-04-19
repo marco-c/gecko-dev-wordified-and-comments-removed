@@ -1020,11 +1020,6 @@ url
 source
 .
 url
-relativeUrl
-:
-source
-.
-relativeUrl
 id
 :
 source

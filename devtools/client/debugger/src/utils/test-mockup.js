@@ -89,9 +89,6 @@ thread
 isPrettyPrinted
 :
 false
-relativeUrl
-:
-url
 isWasm
 :
 false
@@ -353,11 +350,6 @@ FakeThread
 isPrettyPrinted
 :
 false
-relativeUrl
-:
-"
-url
-"
 isWasm
 :
 true

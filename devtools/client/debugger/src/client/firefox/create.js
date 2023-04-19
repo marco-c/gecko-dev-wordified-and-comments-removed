@@ -638,9 +638,6 @@ url
 extensionName
 )
 thread
-relativeUrl
-:
-url
 extensionName
 isExtension
 isWasm
