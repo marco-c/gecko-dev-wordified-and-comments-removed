@@ -221,6 +221,7 @@ contributing
 test
 -
 list
+metrics
 .
 .
 contents
