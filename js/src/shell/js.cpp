@@ -31503,10 +31503,6 @@ string
 "
 1
 )
-.
-setDeferDebugMetadata
-(
-)
 ;
 if
 (
