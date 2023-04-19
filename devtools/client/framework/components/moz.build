@@ -1,6 +1,11 @@
 DevToolsModules
 (
 "
+ChromeDebugToolbar
+.
+js
+"
+"
 DebugTargetErrorPage
 .
 js
