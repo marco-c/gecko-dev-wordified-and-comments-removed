@@ -335,9 +335,7 @@ as
 an
 alternative
 to
-|
 filename
-|
 .
   
 Compile
@@ -361,9 +359,7 @@ enough
 approximation
 for
 building
-|
 filename
-|
 .
   
 Args
@@ -503,9 +499,7 @@ inputs
 and
 outputs
 of
-|
 filename
-|
 .
 This
 list
@@ -571,9 +565,7 @@ return
 [
 ]
 if
-|
 filename
-|
 doesn
 '
 t
@@ -762,9 +754,7 @@ command
 line
 for
 building
-|
 build_target
-|
   
 Asks
 ninja
@@ -776,9 +766,7 @@ commands
 used
 to
 build
-|
 filename
-|
 and
 returns
 the
@@ -958,9 +946,7 @@ line
 used
 to
 build
-|
 filename
-|
 .
   
 The
@@ -1066,9 +1052,7 @@ for
 Clang
 invocation
 using
-|
 filename
-|
 as
 a
         
@@ -1140,9 +1124,7 @@ command
 line
 options
 from
-|
 clang_commandline
-|
   
 Args
 :
@@ -1179,9 +1161,7 @@ line
 are
 relative
 to
-|
 out_dir
-|
 .
     
 additional_flags
@@ -1361,6 +1341,7 @@ DWFfmO
 :
             
 if
+(
 flag
 =
 =
@@ -1373,6 +1354,7 @@ deprecated
 register
 '
 or
+                
 flag
 =
 =
@@ -1384,6 +1366,7 @@ header
 -
 guard
 '
+)
 :
                 
 continue
@@ -1540,9 +1523,7 @@ options
 needed
 for
 building
-|
 filename
-|
 .
   
 Command
@@ -1559,14 +1540,10 @@ ninja
 for
 building
   
-|
 filename
-|
 .
 If
-|
 filename
-|
 is
 a
 .
@@ -1602,9 +1579,7 @@ t
 know
 about
   
-|
 filename
-|
 then
 uses
 default
