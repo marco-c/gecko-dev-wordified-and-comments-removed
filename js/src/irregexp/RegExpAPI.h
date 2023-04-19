@@ -342,6 +342,16 @@ size_t
 byteLength
 )
 ;
+bool
+IsCharacterInRangeArray
+(
+uint32_t
+c
+ByteArrayData
+*
+ranges
+)
+;
 #
 ifdef
 DEBUG

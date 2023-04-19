@@ -518,6 +518,17 @@ _
 js
 :
 :
+irregexp
+:
+:
+IsCharacterInRangeArray
+)
+\
+_
+(
+js
+:
+:
 jit
 :
 :
