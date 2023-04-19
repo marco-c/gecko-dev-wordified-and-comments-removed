@@ -294,6 +294,14 @@ aBlobImpl
 =
 0
 ;
+virtual
+bool
+CanBeDeletedOnAnyThread
+(
+)
+=
+0
+;
 protected
 :
 virtual
