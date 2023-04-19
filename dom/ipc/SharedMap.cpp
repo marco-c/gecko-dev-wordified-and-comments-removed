@@ -90,6 +90,17 @@ mozilla
 /
 dom
 /
+RootedDictionary
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ScriptSettings
 .
 h
