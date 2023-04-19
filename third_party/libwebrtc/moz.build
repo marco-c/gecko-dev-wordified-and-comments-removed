@@ -1377,6 +1377,16 @@ libwebrtc
 /
 call
 /
+version_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+call
+/
 video_stream_api_gn
 "
 "
