@@ -5810,10 +5810,8 @@ parsed_log
 first_timestamp
 (
 )
-.
-ms
-(
-)
+/
+1000
 )
 ;
 EXPECT_EQ
@@ -5824,10 +5822,8 @@ parsed_log
 last_timestamp
 (
 )
-.
-ms
-(
-)
+/
+1000
 )
 ;
 EXPECT_EQ

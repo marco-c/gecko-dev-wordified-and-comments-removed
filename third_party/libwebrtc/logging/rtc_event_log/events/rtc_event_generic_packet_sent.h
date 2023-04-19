@@ -141,16 +141,6 @@ ms
 )
 ;
 }
-Timestamp
-log_time
-(
-)
-const
-{
-return
-timestamp
-;
-}
 size_t
 packet_length
 (
