@@ -48,6 +48,10 @@ moduleNameMapper
 {
 "
 ^
+resource
+:
+/
+/
 devtools
 /
 shared
