@@ -5111,7 +5111,15 @@ imgIRequest
 aRequest
 )
 const
+{
+return
+UsedImageOrientation
+(
+aRequest
+mImageOrientation
+)
 ;
+}
 static
 mozilla
 :
