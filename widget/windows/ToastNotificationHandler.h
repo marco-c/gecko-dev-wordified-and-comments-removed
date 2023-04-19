@@ -388,6 +388,9 @@ mBackend
 nsString
 mAumid
 ;
+nsString
+mWindowsTag
+;
 nsCOMPtr
 <
 nsICancelable
@@ -482,6 +485,11 @@ OnWriteBitmapSuccess
 ;
 void
 SendFinished
+(
+)
+;
+nsresult
+InitWindowsTag
 (
 )
 ;
