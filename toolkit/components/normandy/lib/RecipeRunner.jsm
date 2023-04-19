@@ -1673,6 +1673,11 @@ gRemoteSettingsClient
 .
 get
 (
+{
+emptyListFallback
+:
+false
+}
 )
 ;
 }
