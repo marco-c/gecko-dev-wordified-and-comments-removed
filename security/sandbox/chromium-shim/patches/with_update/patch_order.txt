@@ -91,3 +91,6 @@ patch
 allow_reparse_points
 .
 patch
+mingw_fix_PROCESS_MITIGATION_DYNAMIC_CODE_POLICY
+.
+patch
