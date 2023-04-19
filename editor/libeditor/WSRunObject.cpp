@@ -3467,6 +3467,7 @@ const
 EditorDOMPoint
 &
 aPointToInsert
+const
 Element
 &
 aEditingHost
