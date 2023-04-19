@@ -20,11 +20,6 @@ h
 >
 #
 include
-<
-vector
->
-#
-include
 "
 api
 /
@@ -68,15 +63,6 @@ packet_id
 =
 -
 1
-;
-std
-:
-:
-vector
-<
-uint8_t
->
-application_data
 ;
 rtc
 :
