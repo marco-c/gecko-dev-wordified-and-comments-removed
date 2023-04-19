@@ -197,8 +197,8 @@ Eyedropper
 under
 the
 "
-Web
-Developer
+Browser
+Tools
 "
 menu
 -

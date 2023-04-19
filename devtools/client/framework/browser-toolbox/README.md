@@ -87,8 +87,8 @@ via
 the
 Tools
 >
-Web
-Developer
+Browser
+Tools
 >
 Browser
 Toolbox

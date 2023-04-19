@@ -351,8 +351,8 @@ the
 Firefox
 menu
 choosing
-Web
-Developer
+Browser
+Tools
 and
 then
 Browser

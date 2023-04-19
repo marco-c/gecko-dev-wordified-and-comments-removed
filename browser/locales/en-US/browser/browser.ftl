@@ -4320,7 +4320,7 @@ devtools
 -
 popup
 -
-description
+description2
 =
 To
 use
@@ -4332,8 +4332,8 @@ open
 DevTools
 via
 the
-Web
-Developer
+Browser
+Tools
 menu
 .
 #

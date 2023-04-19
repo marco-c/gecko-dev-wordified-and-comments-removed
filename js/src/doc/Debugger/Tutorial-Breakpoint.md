@@ -317,8 +317,8 @@ the
 Firefox
 menu
 choosing
-Web
-Developer
+Browser
+Tools
 and
 then
 Browser
@@ -334,8 +334,8 @@ t
 appear
 in
 the
-Web
-Developer
+Browser
+Tools
 menu
 make
 sure

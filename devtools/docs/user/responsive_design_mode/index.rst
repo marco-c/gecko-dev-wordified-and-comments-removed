@@ -220,8 +220,8 @@ from
 the
 *
 *
-Web
-Developer
+Browser
+Tools
 *
 *
 submenu

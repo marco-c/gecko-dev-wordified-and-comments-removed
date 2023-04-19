@@ -162,8 +162,8 @@ Tools
 >
 *
 *
-Web
-Developer
+Browser
+Tools
 *
 *
 menu
