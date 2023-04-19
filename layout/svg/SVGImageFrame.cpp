@@ -3196,15 +3196,6 @@ clipRect
 )
 ;
 }
-nsDisplayItemGenericImageGeometry
-:
-:
-UpdateDrawResult
-(
-aItem
-drawResult
-)
-;
 }
 return
 true
