@@ -208,7 +208,7 @@ central
 See
 their
 [
-CONTRIBUTING
+contributing
 .
 md
 ]
@@ -685,6 +685,17 @@ add
 new
 test
 skips
+(
+especially
+for
+these
+tests
+as
+designed
+for
+Chrome
+only
+)
 or
 fix
 some
@@ -773,8 +784,6 @@ master
 /
 test
 [
-re
--
 install
 the
 project
@@ -796,7 +805,9 @@ blob
 /
 main
 /
-CONTRIBUTING
+docs
+/
+contributing
 .
 md
 #
@@ -870,7 +881,7 @@ expected
 .
 json
 [
-CONTRIBUTING
+contributing
 .
 md
 ]
@@ -891,7 +902,9 @@ blob
 /
 main
 /
-CONTRIBUTING
+docs
+/
+contributing
 .
 md
 [
