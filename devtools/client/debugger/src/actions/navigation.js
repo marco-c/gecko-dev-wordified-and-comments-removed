@@ -153,7 +153,6 @@ connect
 (
 url
 actor
-isWebExtension
 )
 {
 return
@@ -177,7 +176,6 @@ CONNECT
 mainThreadActorID
 :
 actor
-isWebExtension
 }
 )
 ;

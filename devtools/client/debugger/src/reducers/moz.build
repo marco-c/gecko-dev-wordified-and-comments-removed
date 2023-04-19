@@ -162,13 +162,6 @@ blackbox
 js
 "
 "
-source
--
-tree
-.
-js
-"
-"
 sources
 .
 js
@@ -177,6 +170,13 @@ js
 sources
 -
 content
+.
+js
+"
+"
+sources
+-
+tree
 .
 js
 "

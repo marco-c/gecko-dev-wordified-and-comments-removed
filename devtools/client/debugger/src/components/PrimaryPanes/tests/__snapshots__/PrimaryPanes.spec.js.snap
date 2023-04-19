@@ -182,13 +182,6 @@ Connect
 (
 SourcesTree
 )
-threads
-=
-{
-Array
-[
-]
-}
 /
 >
 <
@@ -486,13 +479,6 @@ Connect
 (
 SourcesTree
 )
-threads
-=
-{
-Array
-[
-]
-}
 /
 >
 <

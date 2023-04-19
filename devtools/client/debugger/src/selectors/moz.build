@@ -180,7 +180,7 @@ blackbox
 js
 "
 "
-source
+sources
 -
 tree
 .
