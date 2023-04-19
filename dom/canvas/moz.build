@@ -390,6 +390,11 @@ WebGLParent
 h
 "
 "
+WebGLTexelConversions
+.
+h
+"
+"
 WebGLTypes
 .
 h
