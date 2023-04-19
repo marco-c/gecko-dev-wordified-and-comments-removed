@@ -26,9 +26,6 @@ FontFace
 class
 FontFaceSet
 ;
-class
-FontFaceSetImpl
-;
 }
 namespace
 fontlist
@@ -163,7 +160,7 @@ DispatchFontFaceSetCheckLoadingFinishedAfterDelay
 dom
 :
 :
-FontFaceSetImpl
+FontFaceSet
 *
 aFontFaceSet
 )
