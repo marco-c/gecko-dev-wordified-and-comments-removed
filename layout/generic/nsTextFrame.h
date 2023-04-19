@@ -1361,6 +1361,12 @@ TextFragment
 )
 ;
 }
+bool
+IsEntirelyWhitespace
+(
+)
+const
+;
 ContentOffsets
 CalcContentOffsetsFromFramePoint
 (
