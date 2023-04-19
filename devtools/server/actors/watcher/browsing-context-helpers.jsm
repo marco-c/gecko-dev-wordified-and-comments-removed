@@ -159,6 +159,16 @@ nodePrincipal
 ;
 if
 (
+!
+principal
+)
+{
+return
+null
+;
+}
+if
+(
 principal
 .
 addonId
@@ -178,6 +188,7 @@ isParent
 windowGlobal
 .
 documentURI
+?
 .
 displaySpec
 :
