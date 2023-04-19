@@ -271,6 +271,7 @@ condprof
 util
 import
 get_current_platform
+get_version
     
 if
 platform
@@ -298,16 +299,35 @@ mkdtemp
 (
 )
     
+version
+=
+get_version
+(
+command_context
+.
+get_binary_path
+(
+)
+)
+    
 get_profile
 (
         
 target_dir
+        
 platform
+        
 scenario
+        
 customization
+        
 task_id
+        
 download_cache
+        
 repo
+        
+version
     
 )
 Command
