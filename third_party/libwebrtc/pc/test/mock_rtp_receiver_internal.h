@@ -276,7 +276,7 @@ override
 MOCK_METHOD
 (
 void
-StopAndEndTrack
+SetSourceEnded
 (
 )
 (

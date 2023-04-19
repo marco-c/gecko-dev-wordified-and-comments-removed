@@ -200,7 +200,7 @@ Stop
 ;
 virtual
 void
-StopAndEndTrack
+SetSourceEnded
 (
 )
 =

@@ -2305,8 +2305,9 @@ return
 audio_rtp_receiver_
 -
 >
-Stop
+SetMediaChannel
 (
+nullptr
 )
 ;
 audio_rtp_receiver_
@@ -2335,6 +2336,14 @@ video_rtp_receiver_
 >
 Stop
 (
+)
+;
+video_rtp_receiver_
+-
+>
+SetMediaChannel
+(
+nullptr
 )
 ;
 video_rtp_receiver_
@@ -9235,8 +9244,9 @@ GetFrameDecryptor
 audio_rtp_receiver_
 -
 >
-Stop
+SetMediaChannel
 (
+nullptr
 )
 ;
 audio_rtp_receiver_
@@ -9475,8 +9485,9 @@ GetFrameDecryptor
 video_rtp_receiver_
 -
 >
-Stop
+SetMediaChannel
 (
+nullptr
 )
 ;
 video_rtp_receiver_
