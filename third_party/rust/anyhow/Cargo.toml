@@ -123,7 +123,7 @@ version
 .
 0
 .
-61
+62
 "
 authors
 =
@@ -227,11 +227,6 @@ com
 dtolnay
 /
 anyhow
-"
-resolver
-=
-"
-1
 "
 [
 package

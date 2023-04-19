@@ -21,7 +21,7 @@ return
 crate
 :
 :
-private
+__private
 :
 :
 Err
@@ -52,7 +52,7 @@ return
 crate
 :
 :
-private
+__private
 :
 :
 Err
@@ -86,7 +86,7 @@ return
 crate
 :
 :
-private
+__private
 :
 :
 Err
@@ -141,7 +141,7 @@ return
 crate
 :
 :
-private
+__private
 :
 :
 Err
@@ -157,7 +157,7 @@ msg
 crate
 :
 :
-private
+__private
 :
 :
 concat
@@ -171,7 +171,7 @@ failed
 crate
 :
 :
-private
+__private
 :
 :
 stringify
@@ -210,7 +210,7 @@ return
 crate
 :
 :
-private
+__private
 :
 :
 Err
@@ -250,7 +250,7 @@ return
 crate
 :
 :
-private
+__private
 :
 :
 Err
@@ -293,7 +293,7 @@ return
 crate
 :
 :
-private
+__private
 :
 :
 Err
@@ -557,7 +557,7 @@ literal
 crate
 :
 :
-private
+__private
 :
 :
 must_use
@@ -569,7 +569,7 @@ error
 crate
 :
 :
-private
+__private
 :
 :
 format_err
@@ -577,7 +577,7 @@ format_err
 crate
 :
 :
-private
+__private
 :
 :
 format_args
@@ -606,7 +606,7 @@ expr
 crate
 :
 :
-private
+__private
 :
 :
 must_use
@@ -616,7 +616,7 @@ use
 crate
 :
 :
-private
+__private
 :
 :
 kind
@@ -678,7 +678,7 @@ msg
 crate
 :
 :
-private
+__private
 :
 :
 format
@@ -727,7 +727,7 @@ error
 crate
 :
 :
-private
+__private
 :
 :
 format_err
@@ -735,7 +735,7 @@ format_err
 crate
 :
 :
-private
+__private
 :
 :
 format_args
@@ -765,7 +765,7 @@ use
 crate
 :
 :
-private
+__private
 :
 :
 kind
@@ -826,7 +826,7 @@ msg
 crate
 :
 :
-private
+__private
 :
 :
 format
