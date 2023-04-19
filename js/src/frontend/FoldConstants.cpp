@@ -8592,16 +8592,6 @@ FullParseHandler
 handler
 )
 {
-AutoTraceLog
-traceLog
-(
-TraceLoggerForCurrentThread
-(
-cx
-)
-TraceLogger_BytecodeFoldConstants
-)
-;
 return
 Fold
 (
