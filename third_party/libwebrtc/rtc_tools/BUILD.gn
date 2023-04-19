@@ -1754,6 +1754,16 @@ rtc_internal_video_codecs
 /
 modules
 /
+rtp_rtcp
+:
+rtp_rtcp_format
+"
+"
+.
+.
+/
+modules
+/
 video_coding
 :
 video_coding_utility
