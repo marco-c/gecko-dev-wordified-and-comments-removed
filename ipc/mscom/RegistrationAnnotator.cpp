@@ -1993,7 +1993,7 @@ annotationKey
 static_cast
 <
 CStringWriter
-*
+&
 >
 (
 json
@@ -2002,8 +2002,7 @@ WriteFunc
 (
 )
 )
--
->
+.
 Get
 (
 )
@@ -2178,7 +2177,7 @@ annotationKey
 static_cast
 <
 CStringWriter
-*
+&
 >
 (
 json
@@ -2187,8 +2186,7 @@ WriteFunc
 (
 )
 )
--
->
+.
 Get
 (
 )
