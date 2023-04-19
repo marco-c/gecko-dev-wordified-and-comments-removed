@@ -3,18 +3,6 @@ use
 strict
 "
 ;
-const
-{
-components
-}
-=
-require
-(
-"
-chrome
-"
-)
-;
 function
 ConsoleReflowListener
 (
@@ -88,7 +76,7 @@ interruptible
 const
 frame
 =
-components
+Components
 .
 stack
 .

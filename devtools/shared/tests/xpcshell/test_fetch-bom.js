@@ -4,13 +4,6 @@ strict
 "
 ;
 const
-CC
-=
-Components
-.
-Constructor
-;
-const
 {
 HttpServer
 }
@@ -37,7 +30,9 @@ js
 const
 BinaryOutputStream
 =
-CC
+Components
+.
+Constructor
 (
 "
 mozilla

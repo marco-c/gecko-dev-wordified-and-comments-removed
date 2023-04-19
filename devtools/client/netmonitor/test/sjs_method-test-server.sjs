@@ -62,16 +62,11 @@ strict
 "
 ;
 const
-CC
+BinaryInputStream
 =
 Components
 .
 Constructor
-;
-const
-BinaryInputStream
-=
-CC
 (
 "
 mozilla

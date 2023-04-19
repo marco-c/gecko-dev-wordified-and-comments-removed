@@ -3,19 +3,6 @@ use
 strict
 "
 ;
-const
-{
-Cu
-components
-}
-=
-require
-(
-"
-chrome
-"
-)
-;
 function
 getNthPathExcluding
 (
@@ -26,7 +13,7 @@ substr
 let
 stack
 =
-components
+Components
 .
 stack
 .
@@ -155,7 +142,7 @@ getStack
 )
 {
 return
-components
+Components
 .
 stack
 .
