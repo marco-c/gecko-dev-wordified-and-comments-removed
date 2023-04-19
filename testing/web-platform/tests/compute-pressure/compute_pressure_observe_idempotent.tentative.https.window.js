@@ -104,6 +104,9 @@ assert_equals
 (
 typeof
 update
+[
+0
+]
 .
 state
 '
@@ -114,6 +117,9 @@ string
 assert_in_array
 (
 update
+[
+0
+]
 .
 state
 [

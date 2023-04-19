@@ -277,6 +277,9 @@ update3
 assert_in_array
 (
 update
+[
+0
+]
 .
 state
 [

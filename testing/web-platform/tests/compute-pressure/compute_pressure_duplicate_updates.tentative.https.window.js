@@ -150,6 +150,9 @@ pressureUpdates
 [
 0
 ]
+[
+0
+]
 .
 state
 '
@@ -162,6 +165,9 @@ assert_equals
 pressureUpdates
 [
 1
+]
+[
+0
 ]
 .
 state
