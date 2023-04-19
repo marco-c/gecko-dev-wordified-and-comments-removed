@@ -5690,9 +5690,10 @@ FontCallbackData
 aCallbackData
 )
 {
-auto
-face
-(
+hb_face_t
+*
+hbFace
+=
 aFont
 -
 >
@@ -5704,7 +5705,6 @@ GetFontEntry
 GetHBFace
 (
 )
-)
 ;
 hb_font_t
 *
@@ -5712,7 +5712,12 @@ result
 =
 hb_font_create
 (
-face
+hbFace
+)
+;
+hb_face_destroy
+(
+hbFace
 )
 ;
 if
