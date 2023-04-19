@@ -393,9 +393,9 @@ ArrayExpr
 }
 FullParseHandler
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 CompilationState
 &
 compilationState
@@ -403,7 +403,7 @@ compilationState
 :
 allocator
 (
-cx
+ec
 compilationState
 .
 parserAllocScope
