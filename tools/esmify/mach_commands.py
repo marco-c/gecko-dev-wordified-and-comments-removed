@@ -3304,8 +3304,9 @@ ESM
 info
 (
 "
-Rewriting
-exports
+Converting
+to
+ESM
 .
 .
 .
@@ -3314,7 +3315,7 @@ exports
         
 jsms
 =
-rewrite_exports
+convert_module
 (
 command_context
 jsms
@@ -4722,7 +4723,7 @@ check
 True
 )
 def
-rewrite_exports
+convert_module
 (
 command_context
 jsms
@@ -4737,13 +4738,25 @@ EXPORTED_SYMBOLS
 with
 export
 declarations
+and
+replace
+    
+ChromeUtils
 .
-And
+importESModule
+with
+static
+import
+as
+much
+as
+possible
+    
+and
 return
 the
 list
 of
-    
 successfully
 rewritten
 files
@@ -4819,7 +4832,7 @@ run
 "
         
 "
-rewrite_exports
+convert_module
 "
         
 "
