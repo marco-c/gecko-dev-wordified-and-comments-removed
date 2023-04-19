@@ -10200,7 +10200,7 @@ aBoxLayoutState
 )
 ;
 virtual
-int32_t
+nscoord
 GetXULFlex
 (
 )
@@ -10442,12 +10442,15 @@ aHeightSet
 )
 ;
 static
-int32_t
-ComputeXULFlex
+bool
+AddXULFlex
 (
 nsIFrame
 *
 aBox
+nscoord
+&
+aFlex
 )
 ;
 void

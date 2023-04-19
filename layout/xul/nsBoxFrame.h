@@ -217,7 +217,7 @@ aBoxLayoutState
 override
 ;
 virtual
-int32_t
+nscoord
 GetXULFlex
 (
 )

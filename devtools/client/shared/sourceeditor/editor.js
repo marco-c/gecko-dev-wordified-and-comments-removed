@@ -1572,15 +1572,9 @@ XUL_NS
 {
 env
 .
-setAttribute
-(
-"
 flex
-"
-"
+=
 1
-"
-)
 ;
 }
 }
