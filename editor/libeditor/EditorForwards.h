@@ -309,6 +309,9 @@ struct
 EditorInlineStyle
 ;
 struct
+EditorInlineStyleAndValue
+;
+struct
 PropItem
 ;
 struct
