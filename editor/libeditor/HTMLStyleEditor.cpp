@@ -5770,10 +5770,9 @@ SplitNodeResult
 NotHandled
 (
 aPointToSplit
-SplitNodeDirection
-:
-:
-LeftNodeIsNewOne
+GetSplitNodeDirection
+(
+)
 )
 ;
 MOZ_ASSERT
