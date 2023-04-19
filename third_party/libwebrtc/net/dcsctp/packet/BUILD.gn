@@ -2057,6 +2057,13 @@ cc
 "
 parameter
 /
+add_outgoing_streams_request_parameter_test
+.
+cc
+"
+"
+parameter
+/
 forward_tsn_supported_parameter_test
 .
 cc
