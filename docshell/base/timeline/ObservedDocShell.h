@@ -100,7 +100,7 @@ AbstractTimelineMarker
 >
 >
 mOffTheMainThreadTimelineMarkers
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )

@@ -68,7 +68,7 @@ namespace
 detail
 {
 class
-CAPABILITY
+MOZ_CAPABILITY
 BaseProfilerMutex
 :
 private
@@ -239,7 +239,7 @@ AssertCurrentThreadOwns
 (
 )
 const
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 this
 )
@@ -256,7 +256,7 @@ void
 Lock
 (
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 )
 {
@@ -346,7 +346,7 @@ bool
 TryLock
 (
 )
-TRY_ACQUIRE
+MOZ_TRY_ACQUIRE
 (
 true
 )
@@ -443,7 +443,7 @@ void
 Unlock
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
@@ -770,7 +770,7 @@ AssertCurrentThreadOwns
 #
 endif
 }
-PUSH_IGNORE_THREAD_SAFETY
+MOZ_PUSH_IGNORE_THREAD_SAFETY
 void
 Lock
 (
@@ -813,7 +813,7 @@ Unlock
 ;
 }
 }
-POP_THREAD_SAFETY
+MOZ_POP_THREAD_SAFETY
 private
 :
 Maybe

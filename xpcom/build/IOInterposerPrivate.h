@@ -34,7 +34,7 @@ namespace
 IOInterposer
 {
 class
-CAPABILITY
+MOZ_CAPABILITY
 Monitor
 {
 public
@@ -86,7 +86,7 @@ void
 Lock
 (
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 )
 {
@@ -100,7 +100,7 @@ void
 Unlock
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
@@ -118,7 +118,7 @@ aTimeout
 =
 PR_INTERVAL_NO_TIMEOUT
 )
-REQUIRES
+MOZ_REQUIRES
 (
 this
 )
@@ -162,7 +162,7 @@ mCondVar
 }
 ;
 class
-SCOPED_CAPABILITY
+MOZ_SCOPED_CAPABILITY
 MonitorAutoLock
 {
 public
@@ -174,7 +174,7 @@ Monitor
 &
 aMonitor
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 aMonitor
 )
@@ -195,7 +195,7 @@ Lock
 MonitorAutoLock
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
@@ -215,7 +215,7 @@ mMonitor
 }
 ;
 class
-SCOPED_CAPABILITY
+MOZ_SCOPED_CAPABILITY
 MonitorAutoUnlock
 {
 public
@@ -227,7 +227,7 @@ Monitor
 &
 aMonitor
 )
-SCOPED_UNLOCK_RELEASE
+MOZ_SCOPED_UNLOCK_RELEASE
 (
 aMonitor
 )
@@ -248,7 +248,7 @@ Unlock
 MonitorAutoUnlock
 (
 )
-SCOPED_UNLOCK_REACQUIRE
+MOZ_SCOPED_UNLOCK_REACQUIRE
 (
 )
 {
@@ -268,7 +268,7 @@ mMonitor
 }
 ;
 class
-CAPABILITY
+MOZ_CAPABILITY
 Mutex
 {
 public
@@ -304,7 +304,7 @@ void
 Lock
 (
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 )
 {
@@ -318,7 +318,7 @@ void
 Unlock
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {
@@ -337,7 +337,7 @@ mPRLock
 }
 ;
 class
-SCOPED_CAPABILITY
+MOZ_SCOPED_CAPABILITY
 AutoLock
 {
 public
@@ -349,7 +349,7 @@ Mutex
 &
 aLock
 )
-CAPABILITY_ACQUIRE
+MOZ_CAPABILITY_ACQUIRE
 (
 aLock
 )
@@ -370,7 +370,7 @@ Lock
 AutoLock
 (
 )
-CAPABILITY_RELEASE
+MOZ_CAPABILITY_RELEASE
 (
 )
 {

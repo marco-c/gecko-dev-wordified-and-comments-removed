@@ -288,7 +288,7 @@ nsTArray
 nsWifiListener
 >
 mListeners
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mReentrantMonitor
 )

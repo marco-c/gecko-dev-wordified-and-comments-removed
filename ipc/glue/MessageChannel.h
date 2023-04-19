@@ -201,12 +201,12 @@ RefCountedMonitor
 aOther
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 *
 this
 )
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 aOther
 )
@@ -627,7 +627,7 @@ void
 NotifyImpendingShutdown
 (
 )
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -637,7 +637,7 @@ void
 Close
 (
 )
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -647,7 +647,7 @@ void
 CloseWithError
 (
 )
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -657,7 +657,7 @@ void
 CloseWithTimeout
 (
 )
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -669,7 +669,7 @@ SetAbortOnError
 bool
 abort
 )
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -707,7 +707,7 @@ aMsg
 &
 aInvoke
 )
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -763,7 +763,7 @@ Message
 >
 aMsg
 )
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -796,7 +796,7 @@ RejectCallback
 &
 aReject
 )
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -907,7 +907,7 @@ char
 *
 aParentBuildID
 )
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -917,7 +917,7 @@ bool
 DoBuildIDsMatch
 (
 )
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -949,7 +949,7 @@ Message
 *
 aReply
 )
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -960,7 +960,7 @@ CanSend
 (
 )
 const
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -1020,7 +1020,7 @@ void
 CancelCurrentTransaction
 (
 )
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -1030,7 +1030,7 @@ bool
 IsClosed
 (
 )
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -1054,7 +1054,7 @@ IsClosedLocked
 (
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1108,7 +1108,7 @@ IsCrossProcess
 (
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1120,7 +1120,7 @@ SetIsCrossProcess
 bool
 aIsCrossProcess
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1315,7 +1315,7 @@ void
 PostErrorNotifyTask
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1325,7 +1325,7 @@ void
 OnNotifyMaybeChannelError
 (
 )
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -1343,7 +1343,7 @@ uint32_t
 aMsgTyp
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1358,7 +1358,7 @@ char
 channelName
 )
 const
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -1378,7 +1378,7 @@ char
 *
 channelName
 )
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -1388,7 +1388,7 @@ void
 Clear
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1398,7 +1398,7 @@ bool
 HasPendingEvents
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1414,7 +1414,7 @@ AutoEnterTransaction
 &
 aTransaction
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1432,7 +1432,7 @@ Message
 >
 aUrgent
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1442,7 +1442,7 @@ void
 EnqueuePendingMessages
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1460,7 +1460,7 @@ Message
 >
 aMsg
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1483,7 +1483,7 @@ Message
 &
 aReply
 )
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -1500,7 +1500,7 @@ Message
 &
 aMsg
 )
-EXCLUDES
+MOZ_EXCLUDES
 (
 *
 mMonitor
@@ -1512,7 +1512,7 @@ WaitForSyncNotify
 bool
 aHandleWindowsMessages
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1529,7 +1529,7 @@ bool
 ShouldContinueFromTimeout
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1539,7 +1539,7 @@ void
 EndTimeout
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1551,7 +1551,7 @@ CancelTransaction
 int
 transaction
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1561,7 +1561,7 @@ void
 RepostAllMessages
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1615,7 +1615,7 @@ reply
 =
 false
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1634,7 +1634,7 @@ aMessage
 MessageDirection
 aDirection
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1675,7 +1675,7 @@ Connected
 (
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1687,7 +1687,7 @@ void
 NotifyWorkerThread
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1701,7 +1701,7 @@ Message
 &
 aMsg
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1711,7 +1711,7 @@ void
 SynchronouslyClose
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1736,7 +1736,7 @@ Message
 >
 aMsg
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1757,7 +1757,7 @@ Message
 &
 aMsg
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1772,7 +1772,7 @@ Message
 >
 aMsg
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1782,7 +1782,7 @@ void
 OnChannelErrorFromLink
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1797,7 +1797,7 @@ ReleasableMonitorAutoLock
 &
 aLock
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1810,7 +1810,7 @@ ReleasableMonitorAutoLock
 &
 aLock
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1936,7 +1936,7 @@ void
 Post
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1947,7 +1947,7 @@ IsScheduled
 (
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -1972,7 +1972,7 @@ Message
 Msg
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -2002,7 +2002,7 @@ Msg
 (
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -2030,11 +2030,11 @@ RefCountedMonitor
 &
 aMonitor
 )
-REQUIRES
+MOZ_REQUIRES
 (
 aMonitor
 )
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 *
 mMonitor
@@ -2061,7 +2061,7 @@ MessageChannel
 Channel
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -2102,7 +2102,7 @@ UniquePtr
 Message
 >
 mMessage
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 *
 mMonitor
@@ -2116,7 +2116,7 @@ bool
 mScheduled
 :
 1
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 *
 mMonitor
@@ -2131,7 +2131,7 @@ mIsFuzzMsg
 ;
 bool
 mFuzzStopped
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 *
 mMonitor
@@ -2149,7 +2149,7 @@ Message
 &
 aMsg
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -2165,7 +2165,7 @@ MessageTask
 &
 aTask
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -2281,7 +2281,7 @@ mMonitor
 ;
 ChannelState
 mChannelState
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 *
 mMonitor
@@ -2296,7 +2296,7 @@ UnknownSide
 ;
 bool
 mIsCrossProcess
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 *
 mMonitor
@@ -2309,7 +2309,7 @@ UniquePtr
 MessageLink
 >
 mLink
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 *
 mMonitor
@@ -2320,7 +2320,7 @@ RefPtr
 CancelableRunnable
 >
 mChannelErrorTask
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 *
 mMonitor
@@ -2337,7 +2337,7 @@ RefPtr
 WorkerTargetShutdownTask
 >
 mShutdownTask
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 *
 mMonitor
@@ -2460,7 +2460,7 @@ AutoEnterTransaction
 AutoEnterTransaction
 *
 mTransactionStack
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 *
 mMonitor
@@ -2473,7 +2473,7 @@ CurrentNestedInsideSyncTransaction
 (
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -2484,7 +2484,7 @@ AwaitingSyncReply
 (
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -2495,7 +2495,7 @@ AwaitingSyncReplyNestedLevel
 (
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -2506,7 +2506,7 @@ DispatchingSyncMessage
 (
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -2517,7 +2517,7 @@ DispatchingSyncMessageNestedLevel
 (
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -2530,7 +2530,7 @@ void
 AssertMaybeDeferredCountCorrect
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -2542,7 +2542,7 @@ void
 AssertMaybeDeferredCountCorrect
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 mMonitor
@@ -2553,7 +2553,7 @@ mMonitor
 endif
 int32_t
 mTimedOutMessageSeqno
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 *
 mMonitor
@@ -2563,7 +2563,7 @@ mMonitor
 ;
 int
 mTimedOutMessageNestedLevel
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 *
 mMonitor
@@ -2573,7 +2573,7 @@ mMonitor
 ;
 MessageQueue
 mPending
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 *
 mMonitor
@@ -2581,7 +2581,7 @@ mMonitor
 ;
 size_t
 mMaybeDeferredPendingCount
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 *
 mMonitor
@@ -2607,7 +2607,7 @@ mEvent
 endif
 bool
 mAbortOnError
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 *
 mMonitor
@@ -2617,7 +2617,7 @@ false
 ;
 bool
 mNotifiedChannelDone
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 *
 mMonitor
@@ -2632,7 +2632,7 @@ REQUIRE_DEFAULT
 ;
 bool
 mBuildIDsConfirmedMatch
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 *
 mMonitor

@@ -152,7 +152,7 @@ void
 StartTimer
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -161,7 +161,7 @@ void
 CancelTimer
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -174,7 +174,7 @@ RLBoxSandboxDataBase
 >
 >
 mPool
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -182,7 +182,7 @@ mMutex
 const
 size_t
 mDelaySeconds
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -192,7 +192,7 @@ nsCOMPtr
 nsITimer
 >
 mTimer
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )

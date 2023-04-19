@@ -137,7 +137,7 @@ nsStorageStream
 nsSegmentedBuffer
 *
 mSegmentedBuffer
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -146,7 +146,7 @@ nullptr
 ;
 uint32_t
 mSegmentSize
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -155,7 +155,7 @@ mMutex
 ;
 uint32_t
 mSegmentSizeLog2
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -164,7 +164,7 @@ mMutex
 ;
 bool
 mWriteInProgress
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -173,7 +173,7 @@ false
 ;
 int32_t
 mLastSegmentNum
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -184,7 +184,7 @@ mMutex
 char
 *
 mWriteCursor
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -194,7 +194,7 @@ nullptr
 char
 *
 mSegmentEnd
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -203,7 +203,7 @@ nullptr
 ;
 uint32_t
 mLogicalLength
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -212,7 +212,7 @@ mMutex
 ;
 uint32_t
 mActiveSegmentBorrows
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -225,7 +225,7 @@ SetLengthLocked
 uint32_t
 aLength
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -236,7 +236,7 @@ Seek
 int32_t
 aPosition
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -247,7 +247,7 @@ SegNum
 uint32_t
 aPosition
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -265,7 +265,7 @@ SegOffset
 uint32_t
 aPosition
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )

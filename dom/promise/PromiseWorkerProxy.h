@@ -223,7 +223,7 @@ GetWorkerPrivate
 (
 )
 const
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 ;
 Promise
 *
@@ -242,7 +242,7 @@ Mutex
 Lock
 (
 )
-RETURN_CAPABILITY
+MOZ_RETURN_CAPABILITY
 (
 mCleanUpLock
 )
@@ -256,7 +256,7 @@ CleanedUp
 (
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 mCleanUpLock
 )
@@ -450,7 +450,7 @@ mWorkerPromise
 ;
 bool
 mCleanedUp
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mCleanUpLock
 )

@@ -161,14 +161,14 @@ mscom
 :
 AgileReference
 mJumpListMgr
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMonitor
 )
 ;
 uint32_t
 mMaxItems
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMonitor
 )

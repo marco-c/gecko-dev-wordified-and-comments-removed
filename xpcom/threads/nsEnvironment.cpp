@@ -354,7 +354,7 @@ static
 EnvHashType
 *
 gEnvHash
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 gEnvHashMutex
 )
@@ -367,7 +367,7 @@ EnvHashType
 EnsureEnvHash
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 gEnvHashMutex
 )

@@ -390,7 +390,7 @@ nsCStringHashKey
 SubstitutionEntry
 >
 mSubstitutions
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mSubstitutionsLock
 )

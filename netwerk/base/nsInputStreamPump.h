@@ -246,7 +246,7 @@ nsresult
 CreateBufferedStreamIfNeeded
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -258,7 +258,7 @@ AssertOnThread
 )
 const
 {
-PUSH_IGNORE_THREAD_SAFETY
+MOZ_PUSH_IGNORE_THREAD_SAFETY
 if
 (
 mOffMainThread
@@ -285,11 +285,11 @@ NS_IsMainThread
 )
 ;
 }
-POP_THREAD_SAFETY
+MOZ_POP_THREAD_SAFETY
 }
 uint32_t
 mState
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -302,7 +302,7 @@ nsCOMPtr
 nsILoadGroup
 >
 mLoadGroup
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -312,7 +312,7 @@ nsCOMPtr
 nsIStreamListener
 >
 mListener
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -322,7 +322,7 @@ nsCOMPtr
 nsIEventTarget
 >
 mTargetThread
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -332,7 +332,7 @@ nsCOMPtr
 nsIEventTarget
 >
 mLabeledMainThreadTarget
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -342,7 +342,7 @@ nsCOMPtr
 nsIInputStream
 >
 mStream
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -352,14 +352,14 @@ nsCOMPtr
 nsIAsyncInputStream
 >
 mAsyncStream
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
 ;
 uint64_t
 mStreamOffset
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -369,7 +369,7 @@ mMutex
 ;
 uint64_t
 mStreamLength
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -379,7 +379,7 @@ mMutex
 ;
 uint32_t
 mSegSize
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -389,7 +389,7 @@ mMutex
 ;
 uint32_t
 mSegCount
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -399,7 +399,7 @@ mMutex
 ;
 nsresult
 mStatus
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -409,7 +409,7 @@ NS_OK
 ;
 uint32_t
 mSuspendCount
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -419,7 +419,7 @@ mMutex
 ;
 uint32_t
 mLoadFlags
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -429,7 +429,7 @@ LOAD_NORMAL
 ;
 bool
 mIsPending
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -439,7 +439,7 @@ false
 ;
 bool
 mProcessingCallbacks
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -449,7 +449,7 @@ false
 ;
 bool
 mWaitingForInputStreamReady
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -459,7 +459,7 @@ false
 ;
 bool
 mCloseWhenDone
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -469,7 +469,7 @@ false
 ;
 bool
 mRetargeting
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -479,7 +479,7 @@ false
 ;
 bool
 mAsyncStreamIsBuffered
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )

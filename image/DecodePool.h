@@ -203,7 +203,7 @@ nsCOMPtr
 nsIThread
 >
 mIOThread
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
