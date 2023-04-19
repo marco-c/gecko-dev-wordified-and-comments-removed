@@ -117,6 +117,9 @@ class
 Http2StreamBase
 ;
 class
+Http2StreamTunnel
+;
+class
 nsHttpTransaction
 ;
 enum
@@ -1845,14 +1848,14 @@ nsIInterfaceRequestor
 void
 RegisterTunnel
 (
-Http2StreamBase
+Http2StreamTunnel
 *
 )
 ;
 void
 UnRegisterTunnel
 (
-Http2StreamBase
+Http2StreamTunnel
 *
 )
 ;
