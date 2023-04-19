@@ -43,17 +43,6 @@ media
 /
 sctp
 /
-sctp_transport
-.
-h
-"
-#
-include
-"
-media
-/
-sctp
-/
 sctp_transport_internal
 .
 h
