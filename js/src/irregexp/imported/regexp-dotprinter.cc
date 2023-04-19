@@ -1017,9 +1017,15 @@ TextElement
 ATOM
 :
 {
+base
+:
+:
 Vector
 <
 const
+base
+:
+:
 uc16
 >
 data
@@ -1038,11 +1044,11 @@ data
 for
 (
 int
-i
+j
 =
 0
 ;
-i
+j
 <
 data
 .
@@ -1050,7 +1056,7 @@ length
 (
 )
 ;
-i
+j
 +
 +
 )
@@ -1065,7 +1071,7 @@ char
 (
 data
 [
-i
+j
 ]
 )
 ;

@@ -21,6 +21,9 @@ namespace
 internal
 {
 const
+base
+:
+:
 uc32
 UnicodePropertySequences
 :
@@ -808,6 +811,9 @@ kEmojiFlagSequences
 }
 ;
 const
+base
+:
+:
 uc32
 UnicodePropertySequences
 :
@@ -845,6 +851,9 @@ kEmojiTagSequences
 }
 ;
 const
+base
+:
+:
 uc32
 UnicodePropertySequences
 :
