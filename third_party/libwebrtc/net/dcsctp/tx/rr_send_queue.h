@@ -230,7 +230,7 @@ max_size
 )
 override
 ;
-void
+bool
 Discard
 (
 IsUnordered
@@ -335,7 +335,7 @@ buffered_amount
 )
 const
 ;
-void
+bool
 Discard
 (
 IsUnordered

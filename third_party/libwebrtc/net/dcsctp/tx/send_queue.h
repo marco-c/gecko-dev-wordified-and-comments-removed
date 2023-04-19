@@ -163,7 +163,7 @@ max_size
 0
 ;
 virtual
-void
+bool
 Discard
 (
 IsUnordered

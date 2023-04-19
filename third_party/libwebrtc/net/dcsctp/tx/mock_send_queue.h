@@ -120,7 +120,7 @@ override
 ;
 MOCK_METHOD
 (
-void
+bool
 Discard
 (
 IsUnordered

@@ -844,7 +844,7 @@ return
 bytes
 ;
 }
-void
+bool
 RRSendQueue
 :
 :
@@ -915,8 +915,14 @@ pop_front
 (
 )
 ;
+return
+true
+;
 }
 }
+return
+false
+;
 }
 void
 RRSendQueue
@@ -1579,7 +1585,7 @@ absl
 nullopt
 ;
 }
-void
+bool
 RRSendQueue
 :
 :
@@ -1593,6 +1599,7 @@ MID
 message_id
 )
 {
+return
 GetOrCreateStreamInfo
 (
 stream_id
