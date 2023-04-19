@@ -100,7 +100,7 @@ package
 edition
 =
 "
-2018
+2021
 "
 rust
 -
@@ -109,7 +109,7 @@ version
 "
 1
 .
-46
+56
 "
 name
 =
@@ -123,7 +123,7 @@ version
 .
 8
 .
-24
+26
 "
 authors
 =
@@ -178,6 +178,13 @@ yaml
 serde
 "
 ]
+categories
+=
+[
+"
+encoding
+"
+]
 license
 =
 "
@@ -205,6 +212,11 @@ dtolnay
 serde
 -
 yaml
+"
+resolver
+=
+"
+2
 "
 [
 package

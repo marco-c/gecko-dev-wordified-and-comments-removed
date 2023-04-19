@@ -10,6 +10,10 @@ decimal_literal_representation
 clippy
 :
 :
+derive_partial_eq_without_eq
+clippy
+:
+:
 unreadable_literal
 clippy
 :

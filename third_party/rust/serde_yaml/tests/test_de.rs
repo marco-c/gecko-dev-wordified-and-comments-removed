@@ -11,6 +11,10 @@ clippy
 :
 :
 cast_possible_wrap
+clippy
+:
+:
+derive_partial_eq_without_eq
 )
 ]
 use
