@@ -28103,12 +28103,6 @@ PREF_LIST_ENTRY
 "
 ui
 .
--
-moz
--
-fieldtext
-.
-dark
 "
 )
 }
