@@ -1974,7 +1974,6 @@ num_channels
 false
 16
 JXL_BIG_ENDIAN
-false
 nullptr
 &
 io

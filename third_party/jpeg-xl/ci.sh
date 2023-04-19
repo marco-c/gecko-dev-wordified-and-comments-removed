@@ -5606,6 +5606,8 @@ llvm_root
 "
 {
 LLVM_ROOT
+:
+-
 }
 "
 if

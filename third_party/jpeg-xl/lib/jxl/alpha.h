@@ -254,6 +254,8 @@ float
 JXL_RESTRICT
 rgba
 size_t
+num_color
+size_t
 num_pixels
 )
 ;

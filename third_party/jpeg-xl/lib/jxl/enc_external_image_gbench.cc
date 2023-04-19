@@ -159,7 +159,6 @@ SRGB
 false
 8
 JXL_NATIVE_ENDIAN
-false
 nullptr
 &
 ib

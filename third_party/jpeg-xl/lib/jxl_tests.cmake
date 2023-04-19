@@ -709,12 +709,6 @@ target_link_libraries
 TESTNAME
 }
 box
-jxl
--
-static
-jxl_threads
--
-static
 jxl_extras
 -
 static

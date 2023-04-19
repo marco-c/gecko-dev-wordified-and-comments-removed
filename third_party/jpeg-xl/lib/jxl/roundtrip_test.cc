@@ -632,7 +632,6 @@ bitdepth
 pixel_format
 .
 endianness
-false
 nullptr
 &
 io

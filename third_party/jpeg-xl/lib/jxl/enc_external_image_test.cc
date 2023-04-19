@@ -174,7 +174,6 @@ SRGB
 false
 16
 JXL_BIG_ENDIAN
-false
 nullptr
 &
 ib
@@ -213,7 +212,6 @@ SRGB
 false
 16
 JXL_BIG_ENDIAN
-false
 nullptr
 &
 ib
@@ -250,7 +248,6 @@ SRGB
 false
 16
 JXL_BIG_ENDIAN
-false
 nullptr
 &
 ib
@@ -339,7 +336,6 @@ SRGB
 false
 8
 JXL_BIG_ENDIAN
-false
 nullptr
 &
 ib
