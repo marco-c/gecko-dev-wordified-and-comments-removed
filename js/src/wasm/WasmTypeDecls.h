@@ -401,6 +401,16 @@ UniqueChars
 SystemAllocPolicy
 >
 ;
+using
+RenumberVector
+=
+Vector
+<
+uint32_t
+0
+SystemAllocPolicy
+>
+;
 }
 }
 #
