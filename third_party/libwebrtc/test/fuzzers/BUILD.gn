@@ -324,6 +324,9 @@ webrtc_fuzzer_test
 "
 )
 {
+configs
+=
+rtc_add_configs
 absl_deps
 =
 [
@@ -361,6 +364,12 @@ fuzz_data_helper
 webrtc_fuzzer_main
 "
 ]
+configs
++
+=
+invoker
+.
+configs
 #
 If
 absl_deps
