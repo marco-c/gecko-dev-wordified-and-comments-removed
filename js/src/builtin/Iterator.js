@@ -718,6 +718,7 @@ IsObject
 result
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_OBJECT_REQUIRED
@@ -728,6 +729,7 @@ result
 )
 )
 ;
+}
 return
 result
 ;
