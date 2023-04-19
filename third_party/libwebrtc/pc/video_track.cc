@@ -707,7 +707,16 @@ Current
 (
 )
 worker_thread
+rtc
+:
+:
+scoped_refptr
+<
+VideoTrackSourceInterface
+>
+(
 source
+)
 )
 ;
 return

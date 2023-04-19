@@ -1824,8 +1824,13 @@ Create
 signaling_thread
 (
 )
-new
+rtc
+:
+:
+make_ref_counted
+<
 RtpTransceiver
+>
 (
 sender
 receiver

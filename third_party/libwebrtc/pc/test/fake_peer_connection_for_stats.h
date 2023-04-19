@@ -2116,8 +2116,13 @@ RtpTransceiver
 Create
 (
 signaling_thread_
-new
+rtc
+:
+:
+make_ref_counted
+<
 RtpTransceiver
+>
 (
 media_type
 &
