@@ -272,7 +272,7 @@ constexpr
 size_t
 kSctpMtu
 =
-1200
+1191
 ;
 ABSL_CONST_INIT
 int
