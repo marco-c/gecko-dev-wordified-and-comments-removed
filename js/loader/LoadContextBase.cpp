@@ -242,7 +242,7 @@ mozilla
 dom
 :
 :
-ScriptLoadInfo
+WorkerLoadContext
 *
 LoadContextBase
 :
@@ -267,7 +267,7 @@ mozilla
 dom
 :
 :
-ScriptLoadInfo
+WorkerLoadContext
 *
 >
 (

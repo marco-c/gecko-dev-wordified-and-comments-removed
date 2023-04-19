@@ -153,7 +153,7 @@ WorkerPrivate
 const
 mWorkerPrivate
 ;
-ScriptLoadInfo
+WorkerLoadContext
 *
 mLoadContext
 ;

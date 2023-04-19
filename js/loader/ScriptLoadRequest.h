@@ -209,7 +209,7 @@ class
 ScriptLoadContext
 ;
 class
-ScriptLoadInfo
+WorkerLoadContext
 ;
 }
 namespace
@@ -1188,7 +1188,7 @@ mozilla
 dom
 :
 :
-ScriptLoadInfo
+WorkerLoadContext
 *
 GetWorkerLoadContext
 (

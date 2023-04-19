@@ -2301,12 +2301,12 @@ aScriptURLs
 {
 RefPtr
 <
-ScriptLoadInfo
+WorkerLoadContext
 >
 loadContext
 =
 new
-ScriptLoadInfo
+WorkerLoadContext
 (
 aScriptURL
 )
@@ -2620,7 +2620,7 @@ AssertIsOnMainThread
 (
 )
 ;
-ScriptLoadInfo
+WorkerLoadContext
 *
 loadContext
 =
@@ -2699,7 +2699,7 @@ AssertIsOnMainThread
 (
 )
 ;
-ScriptLoadInfo
+WorkerLoadContext
 *
 loadContext
 =
@@ -2752,7 +2752,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-ScriptLoadInfo
+WorkerLoadContext
 *
 loadContext
 =
@@ -2999,7 +2999,7 @@ StealFirst
 (
 )
 ;
-ScriptLoadInfo
+WorkerLoadContext
 *
 loadInfo
 =
@@ -3265,7 +3265,7 @@ getNext
 )
 )
 {
-ScriptLoadInfo
+WorkerLoadContext
 *
 loadInfo
 =
@@ -3418,7 +3418,7 @@ IsDebuggerScript
 )
 )
 ;
-ScriptLoadInfo
+WorkerLoadContext
 *
 loadContext
 =
@@ -4075,7 +4075,7 @@ loadContext
 mCacheStatus
 !
 =
-ScriptLoadInfo
+WorkerLoadContext
 :
 :
 ToBeCached
@@ -4120,7 +4120,7 @@ loadContext
 >
 mCacheStatus
 =
-ScriptLoadInfo
+WorkerLoadContext
 :
 :
 Cancel
@@ -4321,7 +4321,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-ScriptLoadInfo
+WorkerLoadContext
 *
 loadContext
 =

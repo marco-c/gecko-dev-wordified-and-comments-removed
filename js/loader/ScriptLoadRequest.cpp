@@ -586,7 +586,7 @@ mozilla
 dom
 :
 :
-ScriptLoadInfo
+WorkerLoadContext
 *
 ScriptLoadRequest
 :
