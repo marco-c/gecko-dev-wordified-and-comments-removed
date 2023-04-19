@@ -141,9 +141,7 @@ reset
 -
 align
 :
-space
--
-between
+start
 ;
 }
 media
@@ -1327,12 +1325,6 @@ reset
 column
 )
 ;
-text
--
-align
-:
-end
-;
 }
 .
 reset
@@ -1450,6 +1442,7 @@ container
 success
 -
 prompt
+>
 span
 :
 :
