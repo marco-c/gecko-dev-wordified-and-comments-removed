@@ -294,8 +294,6 @@ if
 all
 .
 length
->
-0
 )
 {
 return

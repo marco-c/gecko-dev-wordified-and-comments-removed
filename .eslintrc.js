@@ -3764,12 +3764,6 @@ dom
 *
 "
 "
-docshell
-/
-*
-*
-"
-"
 editor
 /
 libeditor
