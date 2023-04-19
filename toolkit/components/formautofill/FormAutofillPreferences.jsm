@@ -203,17 +203,6 @@ EDIT_CREDITCARD_KEYWORDS
 =
 FormAutofillUtils
 ;
-FormAutofill
-.
-defineLazyLogGetter
-(
-lazy
-EXPORTED_SYMBOLS
-[
-0
-]
-)
-;
 const
 HTML_NS
 =
