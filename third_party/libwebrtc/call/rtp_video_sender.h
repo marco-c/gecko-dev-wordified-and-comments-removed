@@ -870,6 +870,10 @@ const
 bool
 simulate_generic_structure_
 ;
+RTC_NO_UNIQUE_ADDRESS
+SequenceChecker
+transport_checker_
+;
 mutable
 Mutex
 mutex_
