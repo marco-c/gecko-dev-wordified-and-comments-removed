@@ -1444,15 +1444,6 @@ e
 x
 }
 )
-StyleOptional
-<
-StylePercentage
->
-:
-:
-None
-(
-)
 }
 )
 ;
