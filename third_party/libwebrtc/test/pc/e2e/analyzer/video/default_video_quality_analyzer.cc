@@ -4747,9 +4747,7 @@ stream_to_receivers
 )
 ;
 }
-const
 FrameCounters
-&
 DefaultVideoQualityAnalyzer
 :
 :
