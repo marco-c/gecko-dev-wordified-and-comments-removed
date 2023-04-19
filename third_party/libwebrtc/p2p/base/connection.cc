@@ -6658,16 +6658,6 @@ if
 error_code
 =
 =
-STUN_ERROR_STALE_CREDENTIALS
-)
-{
-}
-else
-if
-(
-error_code
-=
-=
 STUN_ERROR_ROLE_CONFLICT
 )
 {

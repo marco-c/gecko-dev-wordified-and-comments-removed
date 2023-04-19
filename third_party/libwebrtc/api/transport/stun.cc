@@ -362,17 +362,6 @@ Forbidden
 ;
 const
 char
-STUN_ERROR_REASON_STALE_CREDENTIALS
-[
-]
-=
-"
-Stale
-Credentials
-"
-;
-const
-char
 STUN_ERROR_REASON_ALLOCATION_MISMATCH
 [
 ]
