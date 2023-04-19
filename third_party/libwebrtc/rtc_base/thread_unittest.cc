@@ -2813,7 +2813,7 @@ static
 void
 AsyncInvokeSetAndWait
 (
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 *
 invoker
 Thread
@@ -2874,7 +2874,7 @@ Get
 }
 }
 ;
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 invoker
 ;
 LockedBool
@@ -4027,7 +4027,7 @@ AsyncInvokeTest
 FireAndForget
 )
 {
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 invoker
 ;
 auto
@@ -4094,7 +4094,7 @@ AsyncInvokeTest
 NonCopyableFunctor
 )
 {
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 invoker
 ;
 auto
@@ -4253,7 +4253,7 @@ Set
 ;
 }
 ;
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 invoker
 ;
 invoker
@@ -4350,7 +4350,7 @@ Start
 )
 ;
 {
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 invoker
 ;
 auto
@@ -4448,7 +4448,7 @@ AsyncInvokeTest
 Flush
 )
 {
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 invoker
 ;
 AtomicBool
@@ -4554,7 +4554,7 @@ AsyncInvokeTest
 FlushWithIds
 )
 {
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 invoker
 ;
 AtomicBool

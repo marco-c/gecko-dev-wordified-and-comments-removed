@@ -28,10 +28,10 @@ h
 namespace
 rtc
 {
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 :
 :
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 (
 )
 :
@@ -54,11 +54,11 @@ false
 )
 {
 }
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 :
 :
 ~
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 (
 )
 {
@@ -123,7 +123,7 @@ kForever
 }
 }
 void
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 :
 :
 OnMessage
@@ -171,7 +171,7 @@ data
 ;
 }
 void
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 :
 :
 Flush
@@ -305,7 +305,7 @@ pdata
 }
 }
 void
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 :
 :
 Clear
@@ -322,7 +322,7 @@ this
 ;
 }
 void
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 :
 :
 DoInvoke
@@ -405,7 +405,7 @@ closure
 ;
 }
 void
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 :
 :
 DoInvokeDelayed
@@ -495,7 +495,7 @@ AsyncClosure
 :
 AsyncClosure
 (
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 *
 invoker
 )

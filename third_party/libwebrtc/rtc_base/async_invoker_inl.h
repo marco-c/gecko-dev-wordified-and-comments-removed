@@ -75,7 +75,7 @@ namespace
 rtc
 {
 class
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 ;
 class
 AsyncClosure
@@ -85,7 +85,7 @@ public
 explicit
 AsyncClosure
 (
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 *
 invoker
 )
@@ -106,7 +106,7 @@ Execute
 ;
 protected
 :
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 *
 invoker_
 ;
@@ -140,7 +140,7 @@ public
 explicit
 FireAndForgetAsyncClosure
 (
-AsyncInvoker
+DEPRECATED_AsyncInvoker
 *
 invoker
 FunctorT
