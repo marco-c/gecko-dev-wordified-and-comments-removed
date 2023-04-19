@@ -448,6 +448,7 @@ GetPresContext
 nullptr
 ;
 }
+virtual
 void
 RefreshStandardFontLoadPrincipal
 (
@@ -757,18 +758,6 @@ TimeStamp
 GetNavigationStartTimeStamp
 (
 )
-=
-0
-;
-virtual
-already_AddRefed
-<
-gfxFontSrcPrincipal
->
-CreateStandardFontLoadPrincipal
-(
-)
-const
 =
 0
 ;
