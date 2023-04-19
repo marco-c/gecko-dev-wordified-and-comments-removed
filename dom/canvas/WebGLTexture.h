@@ -357,12 +357,6 @@ mBaseMipmapLevel
 uint32_t
 mMaxMipmapLevel
 ;
-bool
-mBaseMipmapLevelDirty
-;
-bool
-mMaxMipmapLevelDirty
-;
 webgl
 :
 :
