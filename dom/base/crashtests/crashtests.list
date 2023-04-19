@@ -1743,6 +1743,13 @@ load
 1766472
 .
 html
+pref
+(
+dom
+.
+enable_web_task_scheduling
+true
+)
 load
 1780790
 .
