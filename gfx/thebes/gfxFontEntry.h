@@ -280,13 +280,6 @@ struct
 Family
 ;
 }
-namespace
-gfx
-{
-struct
-DeviceColor
-;
-}
 }
 typedef
 struct
