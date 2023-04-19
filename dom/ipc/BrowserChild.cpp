@@ -2902,12 +2902,13 @@ mIPCOpen
 true
 ;
 if
-constexpr
 (
-SessionStoreUtils
+StaticPrefs
 :
 :
-NATIVE_LISTENER
+browser_sessionstore_platform_collection_AtStartup
+(
+)
 )
 {
 mSessionStoreChild
