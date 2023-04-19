@@ -459,10 +459,9 @@ Saw
 -
 -
 debug
-not
-showing
-any
-alerts
+making
+logging
+verbose
 "
 )
 ;
