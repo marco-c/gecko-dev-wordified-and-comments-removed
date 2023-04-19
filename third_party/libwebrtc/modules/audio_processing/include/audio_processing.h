@@ -545,16 +545,6 @@ enable_limiter
 =
 true
 ;
-int
-analog_level_minimum
-=
-0
-;
-int
-analog_level_maximum
-=
-255
-;
 struct
 AnalogGainController
 {
