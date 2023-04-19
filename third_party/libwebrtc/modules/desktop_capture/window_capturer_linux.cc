@@ -141,10 +141,13 @@ IsRunningUnderWayland
 )
 {
 return
+std
+:
+:
+make_unique
+<
 BaseCapturerPipeWire
-:
-:
-CreateRawCapturer
+>
 (
 options
 )
