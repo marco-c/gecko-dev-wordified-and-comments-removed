@@ -562,6 +562,15 @@ false
 \
 _
 (
+CodecSupportInfo
+nsCString
+nsCString
+(
+)
+)
+\
+_
+(
 WebRenderRequiresHardwareDriver
 bool
 false
