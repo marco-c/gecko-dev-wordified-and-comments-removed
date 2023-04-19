@@ -170,5 +170,15 @@ CSSContainerRule
 :
 CSSConditionRule
 {
+readonly
+attribute
+UTF8String
+containerName
+;
+readonly
+attribute
+UTF8String
+containerQuery
+;
 }
 ;
