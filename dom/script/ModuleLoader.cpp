@@ -719,15 +719,6 @@ if
 aRequest
 -
 >
-IsDynamicImport
-(
-)
-|
-|
-(
-aRequest
--
->
 GetScriptLoadContext
 (
 )
@@ -750,7 +741,6 @@ GetParserCreated
 =
 =
 NOT_FROM_PARSER
-)
 )
 {
 GetScriptLoader
