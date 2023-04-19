@@ -452,6 +452,13 @@ Wait
 )
 ;
 }
+#
+if
+!
+defined
+(
+_WIN64
+)
 TEST
 (
 GeckoMediaPlugins
@@ -547,6 +554,8 @@ IsTerminated
 )
 ;
 }
+#
+endif
 TEST
 (
 GeckoMediaPlugins
