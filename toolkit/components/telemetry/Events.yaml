@@ -12985,8 +12985,9 @@ ContextMenu
 HamburgerMenu
 KeyShortcut
 SessionRestore
-or
 SystemMenu
+or
+SlowScript
 first_panel
 :
 The

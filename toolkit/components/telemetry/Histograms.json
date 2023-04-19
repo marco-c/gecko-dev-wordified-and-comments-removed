@@ -105432,6 +105432,9 @@ CommandLine
 "
 SessionRestore
 "
+"
+SlowScript
+"
 ]
 "
 releaseChannelCollection
