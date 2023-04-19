@@ -795,13 +795,6 @@ JsepTransportController
 :
 :
 Observer
-public
-sigslot
-:
-:
-has_slots
-<
->
 {
 public
 :
@@ -2038,6 +2031,7 @@ void
 NoteDataAddedEvent
 (
 )
+override
 {
 NoteUsageEvent
 (
@@ -2108,6 +2102,7 @@ DataChannelInterface
 *
 channel
 )
+override
 ;
 bool
 ShouldFireNegotiationNeededEvent
