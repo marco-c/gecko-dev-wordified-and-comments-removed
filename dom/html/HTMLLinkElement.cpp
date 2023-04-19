@@ -2755,9 +2755,8 @@ GetModuleLoader
 )
 -
 >
-SetAcquiringImportMaps
+DisallowImportMaps
 (
-false
 )
 ;
 return
