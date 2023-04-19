@@ -334,7 +334,7 @@ debug_name_
 debug_name
 ;
 }
-int
+void
 InjectDataOrNotificationFromSctpForTesting
 (
 const
@@ -608,7 +608,7 @@ CopyOnWriteBuffer
 buffer
 )
 ;
-int
+void
 OnDataOrNotificationFromSctp
 (
 const
