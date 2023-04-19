@@ -722,8 +722,10 @@ ShadowRealmObject
 )
 ;
 }
-static
 void
+js
+:
+:
 ReportPotentiallyDetailedMessage
 (
 JSContext
