@@ -709,6 +709,11 @@ extra_saturation_margin_db
 .
 f
 ;
+int
+gain_applier_adjacent_speech_frames_threshold
+=
+1
+;
 }
 adaptive_digital
 ;
