@@ -1455,6 +1455,7 @@ const
 bool
 enable_dscp_
 ;
+const
 rtc
 :
 :
