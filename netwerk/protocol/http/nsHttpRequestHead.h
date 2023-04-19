@@ -72,6 +72,14 @@ nsHttpRequestHead
 aRequestHead
 )
 ;
+nsHttpRequestHead
+(
+nsHttpRequestHead
+&
+&
+aRequestHead
+)
+;
 ~
 nsHttpRequestHead
 (
