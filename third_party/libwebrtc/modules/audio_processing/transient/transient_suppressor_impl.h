@@ -77,7 +77,7 @@ TransientSuppressorImpl
 )
 override
 ;
-int
+void
 Initialize
 (
 int
@@ -89,7 +89,7 @@ num_channels
 )
 override
 ;
-int
+void
 Suppress
 (
 float
