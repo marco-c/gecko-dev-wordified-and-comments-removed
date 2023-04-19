@@ -550,6 +550,11 @@ return
 NS_OK
 ;
 }
+void
+TryShutdown
+(
+)
+;
 nsTArray
 <
 WorkerLoadContext
