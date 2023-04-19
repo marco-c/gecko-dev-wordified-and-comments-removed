@@ -305,7 +305,7 @@ track_id
 )
 ;
 void
-ClearUpdateStatsCacheForTest
+InvalidateCache
 (
 )
 ;
@@ -768,6 +768,15 @@ pc_
 ;
 int64_t
 cache_timestamp_ms_
+RTC_GUARDED_BY
+(
+pc_
+-
+>
+signaling_thread
+(
+)
+)
 =
 0
 ;

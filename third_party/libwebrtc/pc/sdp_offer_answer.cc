@@ -6663,12 +6663,8 @@ stats
 )
 -
 >
-UpdateStats
+InvalidateCache
 (
-PeerConnectionInterface
-:
-:
-kStatsOutputLevelStandard
 )
 ;
 const
@@ -8123,12 +8119,8 @@ stats
 )
 -
 >
-UpdateStats
+InvalidateCache
 (
-PeerConnectionInterface
-:
-:
-kStatsOutputLevelStandard
 )
 ;
 const
