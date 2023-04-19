@@ -1732,14 +1732,6 @@ packet_buffer_lock_
 ;
 }
 ;
-using
-OnCompleteFrameCallback
-=
-RtpVideoStreamReceiver
-:
-:
-OnCompleteFrameCallback
-;
 }
 #
 endif
