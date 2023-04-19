@@ -2314,7 +2314,7 @@ javascript
 let
 regs
 =
-getLanguageDisplayNames
+getRegionDisplayNames
 (
 [
 "
@@ -2434,7 +2434,7 @@ javascript
 let
 locs
 =
-getLanguageDisplayNames
+getLocaleDisplayNames
 (
 [
 "
