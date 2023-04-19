@@ -547,6 +547,15 @@ T
 RefCountInterface
 *
 >
+&
+&
+std
+:
+:
+is_abstract_v
+<
+T
+>
 T
 >
 :

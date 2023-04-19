@@ -1744,13 +1744,7 @@ class
 FakeSetLocalDescriptionObserver
 :
 public
-rtc
-:
-:
-RefCountedObject
-<
 SetLocalDescriptionObserverInterface
->
 {
 public
 :
@@ -1824,13 +1818,7 @@ class
 FakeSetRemoteDescriptionObserver
 :
 public
-rtc
-:
-:
-RefCountedObject
-<
 SetRemoteDescriptionObserverInterface
->
 {
 public
 :

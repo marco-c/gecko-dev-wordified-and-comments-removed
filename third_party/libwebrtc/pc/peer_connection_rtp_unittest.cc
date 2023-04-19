@@ -460,16 +460,10 @@ class
 OnSuccessObserver
 :
 public
-rtc
-:
-:
-RefCountedObject
-<
 webrtc
 :
 :
 SetRemoteDescriptionObserverInterface
->
 {
 public
 :
