@@ -496,6 +496,10 @@ Wait
 }
 )
 }
+pub
+(
+crate
+)
 fn
 done
 (

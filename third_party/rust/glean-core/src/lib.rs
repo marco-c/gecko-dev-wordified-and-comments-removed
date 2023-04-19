@@ -3619,7 +3619,7 @@ PingUploadTask
 core
 :
 :
-with_glean
+with_opt_glean
 (
 |
 glean
@@ -3629,6 +3629,14 @@ glean
 get_upload_task
 (
 )
+)
+.
+unwrap_or_else
+(
+PingUploadTask
+:
+:
+done
 )
 }
 pub
