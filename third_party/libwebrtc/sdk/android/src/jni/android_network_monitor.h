@@ -690,7 +690,6 @@ network_thread_
 =
 true
 ;
-const
 rtc
 :
 :
@@ -703,6 +702,8 @@ RTC_PT_GUARDED_BY
 (
 network_thread_
 )
+=
+nullptr
 ;
 }
 ;
