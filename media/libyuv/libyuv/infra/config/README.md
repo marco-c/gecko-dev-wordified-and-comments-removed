@@ -1,9 +1,14 @@
 This
-directory
+folder
 contains
-configuration
-files
+libyuv
+project
+-
+wide
+configurations
 for
+chrome
+-
 infra
 services
 .
