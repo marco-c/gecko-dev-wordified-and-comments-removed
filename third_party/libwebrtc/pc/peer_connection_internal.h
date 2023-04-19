@@ -52,15 +52,6 @@ include
 "
 pc
 /
-data_channel_controller
-.
-h
-"
-#
-include
-"
-pc
-/
 jsep_transport_controller
 .
 h
@@ -104,6 +95,9 @@ h
 namespace
 webrtc
 {
+class
+DataChannelController
+;
 class
 StatsCollector
 ;
