@@ -1686,11 +1686,6 @@ indicator
 className
 }
 }
-role
-=
-"
-presentation
-"
 /
 >
 )
