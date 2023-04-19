@@ -974,16 +974,6 @@ uint32_t
 generation
 )
 ;
-sigslot
-:
-:
-signal1
-<
-PortAllocatorSession
-*
->
-SignalDestroyed
-;
 protected
 :
 virtual
