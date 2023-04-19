@@ -72,9 +72,6 @@ MANAGE_ADDRESSES_KEYWORDS
 =
 [
 "
-manageAddressesTitle
-"
-"
 addNewAddressTitle
 "
 ]
@@ -128,9 +125,6 @@ const
 MANAGE_CREDITCARDS_KEYWORDS
 =
 [
-"
-manageCreditCardsTitle
-"
 "
 addNewCreditCardTitle
 "
