@@ -317,10 +317,7 @@ self
 .
 version
 =
-int
-(
 version
-)
         
 self
 .
@@ -345,13 +342,42 @@ self
 COMMON_PACKAGES
 )
         
-if
-self
-.
+try
+:
+            
+version_number
+=
+int
+(
 version
+)
+        
+except
+ValueError
+:
+            
+version_number
+=
+None
+        
+if
+(
+version_number
+and
+(
+version_number
 >
 =
 11
+)
+)
+or
+version
+=
+=
+"
+unstable
+"
 :
             
 self
