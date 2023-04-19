@@ -1049,6 +1049,11 @@ stereo_detection_threshold
 .
 0f
 ;
+int
+stereo_detection_timeout_threshold_seconds
+=
+300
+;
 }
 multi_channel
 ;

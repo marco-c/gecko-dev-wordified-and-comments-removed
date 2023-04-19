@@ -4635,6 +4635,15 @@ active_config
 multi_channel
 .
 stereo_detection_threshold
+config_selector_
+.
+active_config
+(
+)
+.
+multi_channel
+.
+stereo_detection_timeout_threshold_seconds
 )
 output_framer_
 (
