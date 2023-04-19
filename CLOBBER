@@ -205,12 +205,7 @@ libwebrtc
 Bug
 1766646
 -
-pretend
-we
-retroactively
-knew
-to
-fork
-base_capturer_pipewire
-.
-cc
+Vendor
+libwebrtc
+from
+c0a4316825a
