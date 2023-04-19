@@ -53,6 +53,17 @@ ref_counted_object
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+synchronization
+/
+sequence_checker
+.
+h
+"
 namespace
 webrtc
 {

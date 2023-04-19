@@ -49,6 +49,15 @@ session_description
 .
 h
 "
+#
+include
+"
+pc
+/
+simulcast_description
+.
+h
+"
 namespace
 webrtc
 {

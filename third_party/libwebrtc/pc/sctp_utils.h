@@ -40,6 +40,15 @@ media_channel
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+copy_on_write_buffer
+.
+h
+"
 namespace
 rtc
 {

@@ -21,6 +21,11 @@ cstdint
 >
 #
 include
+<
+memory
+>
+#
+include
 "
 absl
 /

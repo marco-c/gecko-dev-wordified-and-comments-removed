@@ -4,6 +4,15 @@ PC_USAGE_PATTERN_H_
 #
 define
 PC_USAGE_PATTERN_H_
+#
+include
+"
+api
+/
+peer_connection_interface
+.
+h
+"
 namespace
 webrtc
 {
