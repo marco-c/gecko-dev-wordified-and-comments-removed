@@ -568,7 +568,7 @@ anything
 .
 addDebuggerToGlobal
 (
-this
+globalThis
 )
 ;
 /

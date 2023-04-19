@@ -66,7 +66,7 @@ allow_eval_with_system_principal
 ;
 addDebuggerToGlobal
 (
-this
+globalThis
 )
 ;
 var

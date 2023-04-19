@@ -1,6 +1,6 @@
 addDebuggerToGlobal
 (
-this
+globalThis
 )
 ;
 Debugger
