@@ -304,7 +304,7 @@ catapult
 )
 ;
 #
-else
+endif
 ABSL_FLAG
 (
 std
@@ -378,8 +378,6 @@ catapult
 "
 )
 ;
-#
-endif
 constexpr
 char
 kPlotAllMetrics
