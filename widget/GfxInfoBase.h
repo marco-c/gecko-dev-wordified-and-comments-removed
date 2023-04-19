@@ -202,7 +202,13 @@ cx
 JS
 :
 :
-MutableHandleValue
+MutableHandle
+<
+JS
+:
+:
+Value
+>
 _retval
 )
 override
@@ -554,7 +560,11 @@ cx
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 array
 )
 ;
