@@ -281,16 +281,6 @@ total_encoded_images_payload
 =
 0
 ;
-int64_t
-dropped_by_encoder
-=
-0
-;
-int64_t
-dropped_before_encoder
-=
-0
-;
 std
 :
 :
