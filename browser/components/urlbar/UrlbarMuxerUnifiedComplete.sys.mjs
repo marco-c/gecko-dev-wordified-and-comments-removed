@@ -8007,6 +8007,15 @@ choice
 .
 if
 (
+!
+Services
+.
+search
+.
+separatePrivateDefaultUrlbarResultEnabled
+|
+|
+(
 state
 .
 canShowPrivateSearch
@@ -8043,6 +8052,7 @@ result
 payload
 .
 keyword
+)
 )
 )
 )
