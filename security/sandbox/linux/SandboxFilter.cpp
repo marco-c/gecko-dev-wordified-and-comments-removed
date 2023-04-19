@@ -9167,6 +9167,13 @@ Error
 EPERM
 )
 ;
+CASES_FOR_fstatfs
+:
+return
+Allow
+(
+)
+;
 default
 :
 return
