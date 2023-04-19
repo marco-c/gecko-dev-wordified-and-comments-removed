@@ -252,12 +252,12 @@ aStdDev
 #
 ifdef
 MOZ_WIDGET_ANDROID
-uint32_t
+int32_t
 AndroidGetAudioOutputSampleRate
 (
 )
 ;
-uint32_t
+int32_t
 AndroidGetAudioOutputFramesPerBuffer
 (
 )
