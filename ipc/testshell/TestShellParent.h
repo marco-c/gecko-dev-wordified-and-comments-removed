@@ -32,15 +32,6 @@ include
 "
 js
 /
-TypeDecls
-.
-h
-"
-#
-include
-"
-js
-/
 RootingAPI
 .
 h
