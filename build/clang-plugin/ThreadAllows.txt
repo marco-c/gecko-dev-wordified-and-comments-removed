@@ -22,6 +22,7 @@ I
 O
 Cameras
 IPC
+CanvasRenderer
 ChainedPipePump
 ChainedPipeRecv
 Checker

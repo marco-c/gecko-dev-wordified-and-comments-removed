@@ -624,6 +624,13 @@ ReuseDecoderDevice
 bool
 false
 )
+\
+_
+(
+UseCanvasRenderThread
+bool
+false
+)
 class
 gfxVars
 final
