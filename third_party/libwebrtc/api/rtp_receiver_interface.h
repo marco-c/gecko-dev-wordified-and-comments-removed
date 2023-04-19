@@ -368,14 +368,14 @@ default
 ;
 }
 ;
-BEGIN_PRIMARY_PROXY_MAP
+BEGIN_PROXY_MAP
 (
 RtpReceiver
 )
 PROXY_PRIMARY_THREAD_DESTRUCTOR
 (
 )
-PROXY_CONSTMETHOD0
+BYPASS_PROXY_CONSTMETHOD0
 (
 rtc
 :
@@ -444,7 +444,7 @@ std
 string
 id
 )
-PROXY_CONSTMETHOD0
+PROXY_SECONDARY_CONSTMETHOD0
 (
 RtpParameters
 GetParameters
@@ -456,7 +456,7 @@ SetObserver
 RtpReceiverObserverInterface
 *
 )
-PROXY_METHOD1
+PROXY_SECONDARY_METHOD1
 (
 void
 SetJitterBufferMinimumDelay
@@ -468,7 +468,7 @@ optional
 double
 >
 )
-PROXY_CONSTMETHOD0
+PROXY_SECONDARY_CONSTMETHOD0
 (
 std
 :
@@ -479,7 +479,7 @@ RtpSource
 >
 GetSources
 )
-PROXY_METHOD1
+PROXY_SECONDARY_METHOD1
 (
 void
 SetFrameDecryptor
@@ -491,7 +491,7 @@ scoped_refptr
 FrameDecryptorInterface
 >
 )
-PROXY_CONSTMETHOD0
+PROXY_SECONDARY_CONSTMETHOD0
 (
 rtc
 :
@@ -502,7 +502,7 @@ FrameDecryptorInterface
 >
 GetFrameDecryptor
 )
-PROXY_METHOD1
+PROXY_SECONDARY_METHOD1
 (
 void
 SetDepacketizerToDecoderFrameTransformer
