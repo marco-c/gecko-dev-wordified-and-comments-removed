@@ -7633,12 +7633,6 @@ webrtc_cng
 .
 .
 :
-module_api
-"
-"
-.
-.
-:
 module_api_public
 "
 "
@@ -10632,12 +10626,6 @@ audio_coding_deps
 api
 :
 scoped_refptr
-"
-"
-.
-.
-:
-module_api
 "
 "
 :

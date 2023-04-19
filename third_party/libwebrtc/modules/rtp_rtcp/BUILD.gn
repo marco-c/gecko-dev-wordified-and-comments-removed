@@ -3545,12 +3545,6 @@ rtp_rtcp_format
 "
 .
 .
-:
-module_api
-"
-"
-.
-.
 /
 .
 .
