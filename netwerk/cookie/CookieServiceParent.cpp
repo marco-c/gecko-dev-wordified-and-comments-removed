@@ -769,7 +769,11 @@ requireAHostMatch
 =
 false
 ;
-MOZ_ALWAYS_SUCCEEDS
+if
+(
+NS_WARN_IF
+(
+NS_FAILED
 (
 CookieCommons
 :
@@ -782,7 +786,12 @@ baseDomain
 requireAHostMatch
 )
 )
+)
+)
+{
+return
 ;
+}
 CookieKey
 cookieKey
 (
