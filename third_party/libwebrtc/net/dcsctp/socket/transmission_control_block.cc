@@ -635,6 +635,13 @@ packet_idx
 options_
 .
 max_burst
+&
+&
+retransmission_queue_
+.
+can_send_data
+(
+)
 ;
 +
 +

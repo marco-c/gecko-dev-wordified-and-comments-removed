@@ -190,6 +190,11 @@ cwnd_mtus_min
 =
 4
 ;
+size_t
+avoid_fragmentation_cwnd_mtus
+=
+6
+;
 int
 max_burst
 =
