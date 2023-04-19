@@ -750,10 +750,11 @@ cpp
 "
 ]
 if
+not
 CONFIG
 [
 "
-MOZ_JS_STREAMS
+MOZ_DOM_STREAMS
 "
 ]
 :

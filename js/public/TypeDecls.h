@@ -640,8 +640,8 @@ __VA_ARGS__
 #
 endif
 #
-ifdef
-MOZ_JS_STREAMS
+ifndef
+MOZ_DOM_STREAMS
 #
 define
 IF_JS_STREAMS
