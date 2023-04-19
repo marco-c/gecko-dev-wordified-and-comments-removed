@@ -4277,6 +4277,16 @@ libwebrtc
 /
 rtc_base
 /
+rate_tracker_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+rtc_base
+/
 refcount_gn
 "
 "
