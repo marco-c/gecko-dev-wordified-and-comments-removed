@@ -5275,12 +5275,6 @@ event
 )
 )
 {
-mCompositor
-.
-blockSurfaceControl
-(
-)
-;
 final
 GeckoBundle
 ptBundle
@@ -5413,12 +5407,6 @@ event
 )
 )
 {
-mCompositor
-.
-allowSurfaceControl
-(
-)
-;
 GeckoSession
 .
 this
