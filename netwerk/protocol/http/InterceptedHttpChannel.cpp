@@ -1081,13 +1081,6 @@ mProxyResolveFlags
 mProxyURI
 mChannelId
 contentPolicyType
-)
-;
-newChannel
--
->
-SetLoadInfo
-(
 redirectLoadInfo
 )
 ;

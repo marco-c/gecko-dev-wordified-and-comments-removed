@@ -4648,6 +4648,7 @@ nullptr
 nullptr
 channelId
 contentPolicyType
+loadInfo
 )
 )
 |
@@ -4675,18 +4676,6 @@ nsIHttpChannelInternal
 :
 :
 REDIRECT_MODE_ERROR
-)
-)
-|
-|
-NS_FAILED
-(
-chan
--
->
-SetLoadInfo
-(
-loadInfo
 )
 )
 |

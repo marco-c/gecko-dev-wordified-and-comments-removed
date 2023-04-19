@@ -1810,6 +1810,9 @@ uint64_t
 aChannelId
 ExtContentPolicyType
 aContentPolicyType
+nsILoadInfo
+*
+aLoadInfo
 )
 {
 LOG1
@@ -1869,6 +1872,10 @@ aProxyURI
 mChannelId
 =
 aChannelId
+;
+mLoadInfo
+=
+aLoadInfo
 ;
 nsAutoCString
 host
