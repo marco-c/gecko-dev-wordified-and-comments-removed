@@ -19,9 +19,7 @@ MediaSource
 (
 )
 .
-getHandle
-(
-)
+handle
 ;
 postMessage
 (

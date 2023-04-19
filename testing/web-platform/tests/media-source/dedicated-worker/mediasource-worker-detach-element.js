@@ -173,9 +173,7 @@ util
 .
 mediaSource
 .
-getHandle
-(
-)
+handle
 ;
 postMessage
 (

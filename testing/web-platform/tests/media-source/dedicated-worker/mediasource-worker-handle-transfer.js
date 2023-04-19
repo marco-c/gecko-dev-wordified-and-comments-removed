@@ -24,9 +24,7 @@ MediaSource
 (
 )
 .
-getHandle
-(
-)
+handle
 ;
 assert_true
 (
@@ -86,9 +84,7 @@ MediaSource
 (
 )
 .
-getHandle
-(
-)
+handle
 ;
 assert_true
 (
