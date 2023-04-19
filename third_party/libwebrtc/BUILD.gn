@@ -841,6 +841,7 @@ is_component_build
 )
 {
 defines
++
 =
 [
 "
@@ -854,6 +855,7 @@ rtc_enable_objc_symbol_export
 )
 {
 defines
++
 =
 [
 "
