@@ -182,6 +182,13 @@ ScriptLoadInfo
 >
 mLoadInfos
 ;
+nsTArray
+<
+ScriptLoadInfo
+*
+>
+mLoadingRequests
+;
 RefPtr
 <
 CacheCreator
