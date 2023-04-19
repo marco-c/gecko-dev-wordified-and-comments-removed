@@ -625,6 +625,8 @@ arg
 name
 (
 )
+|
+var_name
 }
 }
 :
@@ -754,6 +756,8 @@ func
 name
 (
 )
+|
+fn_name
 }
 }
 (

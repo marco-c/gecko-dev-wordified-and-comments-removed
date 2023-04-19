@@ -24,6 +24,9 @@ Int64
 Float32
 Float64
 RustArcPtr
+(
+String
+)
 RustBuffer
 ForeignBytes
 ForeignCallback
