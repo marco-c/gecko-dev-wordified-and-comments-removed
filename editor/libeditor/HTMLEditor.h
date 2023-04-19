@@ -2205,13 +2205,9 @@ SplitRangeOffResult
 SplitAncestorStyledInlineElementsAtRangeEdges
 (
 const
-EditorDOMPoint
+EditorDOMRange
 &
-aStartPoint
-const
-EditorDOMPoint
-&
-aEndPoint
+aRange
 nsAtom
 *
 aProperty
