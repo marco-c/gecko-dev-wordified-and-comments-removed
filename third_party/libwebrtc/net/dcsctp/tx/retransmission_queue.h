@@ -22,6 +22,11 @@ map
 #
 include
 <
+set
+>
+#
+include
+<
 string
 >
 #
@@ -1050,6 +1055,15 @@ UnwrappedTSN
 TxData
 >
 outstanding_data_
+;
+std
+:
+:
+set
+<
+UnwrappedTSN
+>
+to_be_retransmitted_
 ;
 size_t
 outstanding_bytes_
