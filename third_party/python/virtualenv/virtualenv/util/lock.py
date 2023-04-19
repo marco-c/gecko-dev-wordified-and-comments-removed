@@ -137,7 +137,7 @@ self
 timeout
 =
 None
-poll_intervall
+poll_interval
 =
 0
 .
@@ -169,11 +169,7 @@ self
 acquire
 (
 timeout
-=
-timeout
-poll_intervall
-=
-poll_intervall
+poll_interval
 )
             
 self
@@ -511,15 +507,15 @@ lock
 )
 :
         
-with
-_store_lock
-:
-            
 if
 lock
 is
 not
 None
+:
+            
+with
+_store_lock
 :
                 
 with
@@ -607,6 +603,21 @@ self
 .
 _lock
 )
+        
+self
+.
+_del_lock
+(
+self
+.
+_lock
+)
+        
+self
+.
+_lock
+=
+None
     
 def
 _lock_file
@@ -766,6 +777,10 @@ _del_lock
 (
 lock
 )
+            
+lock
+=
+None
     
 contextmanager
     

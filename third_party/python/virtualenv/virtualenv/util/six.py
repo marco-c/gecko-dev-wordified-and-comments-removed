@@ -16,7 +16,7 @@ used
 to
 avoid
 virtualenv
-requring
+requiring
 a
 version
 of

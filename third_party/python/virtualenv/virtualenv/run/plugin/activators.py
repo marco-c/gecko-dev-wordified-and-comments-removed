@@ -358,6 +358,8 @@ prompt
             
 help
 =
+(
+                
 "
 provides
 an
@@ -368,6 +370,23 @@ for
 this
 environment
 "
+                
+"
+(
+value
+of
+.
+means
+name
+of
+the
+current
+working
+directory
+)
+"
+            
+)
             
 default
 =

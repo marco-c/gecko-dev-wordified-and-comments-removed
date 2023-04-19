@@ -25,6 +25,11 @@ import
 FishActivator
 from
 .
+nushell
+import
+NushellActivator
+from
+.
 powershell
 import
 PowerShellActivator
@@ -59,5 +64,9 @@ BatchActivator
     
 "
 FishActivator
+"
+    
+"
+NushellActivator
 "
 ]

@@ -111,7 +111,12 @@ none
 -
 any
 embed
-1
+3
+-
+>
+json
+format
+versioning
 *
 .
 json
@@ -632,7 +637,7 @@ embed
 "
 /
 "
-1
+3
 "
 distribution
 )
