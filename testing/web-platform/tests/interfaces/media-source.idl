@@ -96,6 +96,14 @@ constructor
 (
 )
 ;
+[
+SameObject
+]
+readonly
+attribute
+MediaSourceHandle
+handle
+;
 readonly
 attribute
 SourceBufferList
@@ -170,11 +178,6 @@ clearLiveSeekableRange
 (
 )
 ;
-MediaSourceHandle
-getHandle
-(
-)
-;
 static
 boolean
 isTypeSupported
@@ -186,6 +189,7 @@ type
 }
 ;
 [
+Transferable
 Exposed
 =
 (

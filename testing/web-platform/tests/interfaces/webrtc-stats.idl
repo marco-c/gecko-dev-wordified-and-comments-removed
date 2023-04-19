@@ -515,6 +515,9 @@ pliCount
 DOMString
 encoderImplementation
 ;
+boolean
+active
+;
 }
 ;
 enum

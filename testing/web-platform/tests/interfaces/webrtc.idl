@@ -1357,13 +1357,6 @@ rid
 }
 ;
 dictionary
-RTCRtpDecodingParameters
-:
-RTCRtpCodingParameters
-{
-}
-;
-dictionary
 RTCRtpEncodingParameters
 :
 RTCRtpCodingParameters

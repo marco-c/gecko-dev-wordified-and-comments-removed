@@ -66,6 +66,9 @@ interface
 CropTarget
 {
 [
+Exposed
+=
+Window
 SecureContext
 ]
 static

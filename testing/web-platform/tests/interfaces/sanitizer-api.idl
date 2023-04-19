@@ -117,6 +117,9 @@ sanitizer
 ;
 }
 ;
+[
+SecureContext
+]
 partial
 interface
 Element
@@ -165,6 +168,9 @@ dropAttributes
 ;
 boolean
 allowCustomElements
+;
+boolean
+allowUnknownMarkup
 ;
 boolean
 allowComments

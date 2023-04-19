@@ -109,7 +109,7 @@ nonce
 }
 ;
 dictionary
-IdentityCredentialLogoutRpsRequest
+IdentityCredentialLogoutRPsRequest
 {
 required
 USVString
@@ -140,7 +140,7 @@ logoutRPs
 (
 sequence
 <
-IdentityCredentialLogoutRpsRequest
+IdentityCredentialLogoutRPsRequest
 >
 logoutRequests
 )

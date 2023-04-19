@@ -225,6 +225,9 @@ persist
 (
 )
 ;
+[
+CEReactions
+]
 undefined
 commitStyles
 (
@@ -297,16 +300,6 @@ timing
 dictionary
 EffectTiming
 {
-double
-delay
-=
-0
-;
-double
-endDelay
-=
-0
-;
 FillMode
 fill
 =

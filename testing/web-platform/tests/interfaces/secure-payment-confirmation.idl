@@ -68,7 +68,7 @@ USVString
 rpId
 ;
 required
-FrozenArray
+sequence
 <
 BufferSource
 >

@@ -419,7 +419,7 @@ options
 )
 ;
 undefined
-restoreScroll
+scroll
 (
 )
 ;
@@ -486,8 +486,8 @@ handler
 NavigationFocusReset
 focusReset
 ;
-NavigationScrollRestoration
-scrollRestoration
+NavigationScrollBehavior
+scroll
 ;
 }
 ;
@@ -505,7 +505,7 @@ manual
 }
 ;
 enum
-NavigationScrollRestoration
+NavigationScrollBehavior
 {
 "
 after

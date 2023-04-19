@@ -108,6 +108,10 @@ boolean
 ?
 chromaticAberrationCorrection
 ;
+attribute
+float
+opacity
+;
 readonly
 attribute
 unsigned

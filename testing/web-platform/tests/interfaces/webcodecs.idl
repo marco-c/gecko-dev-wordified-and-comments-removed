@@ -79,6 +79,10 @@ unsigned
 long
 decodeQueueSize
 ;
+attribute
+EventHandler
+ondequeue
+;
 undefined
 configure
 (
@@ -175,6 +179,10 @@ unsigned
 long
 decodeQueueSize
 ;
+attribute
+EventHandler
+ondequeue
+;
 undefined
 configure
 (
@@ -270,6 +278,10 @@ attribute
 unsigned
 long
 encodeQueueSize
+;
+attribute
+EventHandler
+ondequeue
 ;
 undefined
 configure
@@ -380,6 +392,10 @@ attribute
 unsigned
 long
 encodeQueueSize
+;
+attribute
+EventHandler
+ondequeue
 ;
 undefined
 configure
@@ -2111,8 +2127,6 @@ DedicatedWorker
 ]
 interface
 ImageTrack
-:
-EventTarget
 {
 readonly
 attribute
@@ -2130,10 +2144,6 @@ attribute
 unrestricted
 float
 repetitionCount
-;
-attribute
-EventHandler
-onchange
 ;
 attribute
 boolean

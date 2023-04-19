@@ -8867,6 +8867,9 @@ preventScroll
 =
 false
 ;
+boolean
+focusVisible
+;
 }
 ;
 interface

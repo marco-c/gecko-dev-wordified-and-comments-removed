@@ -179,6 +179,12 @@ dictionary
 EffectTiming
 {
 double
+delay
+;
+double
+endDelay
+;
+double
 playbackRate
 =
 1
