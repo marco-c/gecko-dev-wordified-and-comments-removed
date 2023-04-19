@@ -1070,6 +1070,16 @@ audio_encoder_opus
 /
 api
 /
+crypto
+:
+frame_decryptor_interface
+"
+"
+.
+.
+/
+api
+/
 rtc_event_log
 "
 "
