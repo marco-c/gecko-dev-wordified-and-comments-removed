@@ -2178,7 +2178,7 @@ isSharedMemory
 }
 MOZ_ALWAYS_INLINE
 bool
-setShapeAndUpdateSlots
+setShapeAndAddNewSlots
 (
 JSContext
 *
@@ -2186,6 +2186,10 @@ cx
 Shape
 *
 newShape
+uint32_t
+oldSpan
+uint32_t
+newSpan
 )
 ;
 MOZ_ALWAYS_INLINE
