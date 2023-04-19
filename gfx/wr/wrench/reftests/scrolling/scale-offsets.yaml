@@ -42,6 +42,9 @@ type
 scroll
 -
 frame
+id
+:
+2
 bounds
 :
 [
@@ -89,4 +92,11 @@ bounds
 100
 260
 260
+]
+clip
+-
+chain
+:
+[
+2
 ]

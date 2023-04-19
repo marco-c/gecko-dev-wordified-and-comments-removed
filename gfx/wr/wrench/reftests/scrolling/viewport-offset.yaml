@@ -47,6 +47,9 @@ type
 scroll
 -
 frame
+id
+:
+2
 bounds
 :
 0
@@ -107,3 +110,10 @@ bounds
 color
 :
 red
+clip
+-
+chain
+:
+[
+2
+]

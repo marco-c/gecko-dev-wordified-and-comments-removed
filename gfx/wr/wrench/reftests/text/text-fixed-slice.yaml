@@ -72,6 +72,13 @@ bounds
 color
 :
 white
+clip
+-
+chain
+:
+[
+2
+]
 -
 type
 :
