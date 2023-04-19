@@ -275,10 +275,12 @@ WINDOW_OCCLUSION
 \
 _
 (
-HARDWARE_VIDEO_DECODING
+VAAPI
 Feature
 "
-Hardware
+VA
+-
+API
 video
 decoding
 "

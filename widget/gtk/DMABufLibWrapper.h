@@ -1068,6 +1068,11 @@ IsDMABufTexturesEnabled
 )
 ;
 bool
+IsDMABufVAAPIEnabled
+(
+)
+;
+bool
 IsDMABufWebGLEnabled
 (
 )
