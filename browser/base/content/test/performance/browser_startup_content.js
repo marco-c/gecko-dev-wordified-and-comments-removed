@@ -108,7 +108,9 @@ actors
 /
 AboutReaderChild
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
