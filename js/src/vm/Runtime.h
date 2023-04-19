@@ -3133,15 +3133,6 @@ gc
 GCRuntime
 gc
 ;
-js
-:
-:
-WriteOnceData
-<
-bool
->
-gcInitialized
-;
 bool
 hasZealMode
 (
