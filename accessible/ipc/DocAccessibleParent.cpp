@@ -4211,6 +4211,9 @@ if
 e
 )
 {
+#
+ifndef
+FUZZING_SNAPSHOT
 MOZ_DIAGNOSTIC_ASSERT
 (
 false
@@ -4223,6 +4226,8 @@ proxy
 "
 )
 ;
+#
+endif
 return
 IPC_FAIL
 (
@@ -4300,6 +4305,9 @@ IsDoc
 )
 )
 {
+#
+ifndef
+FUZZING_SNAPSHOT
 MOZ_DIAGNOSTIC_ASSERT
 (
 false
@@ -4318,6 +4326,8 @@ OuterDoc
 "
 )
 ;
+#
+endif
 return
 IPC_FAIL
 (
