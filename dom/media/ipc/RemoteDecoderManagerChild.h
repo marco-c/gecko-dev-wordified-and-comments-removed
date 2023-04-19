@@ -374,15 +374,6 @@ return
 mLocation
 ;
 }
-layers
-:
-:
-VideoBridgeSource
-GetSource
-(
-)
-const
-;
 static
 RefPtr
 <
