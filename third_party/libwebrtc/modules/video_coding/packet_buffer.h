@@ -163,8 +163,6 @@ RTPVideoHeader
 &
 video_header
 int64_t
-ntp_time_ms
-int64_t
 receive_time_ms
 )
 ;
@@ -301,12 +299,6 @@ uint32_t
 timestamp
 =
 0
-;
-int64_t
-ntp_time_ms
-=
--
-1
 ;
 int
 times_nacked
