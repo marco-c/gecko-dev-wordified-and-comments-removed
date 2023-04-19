@@ -3397,7 +3397,7 @@ codecs
 /
 av1
 /
-libaom_av1_encoder_gn
+libaom_av1_encoder_if_supported_gn
 "
 "
 /
