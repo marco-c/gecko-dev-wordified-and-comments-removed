@@ -15,7 +15,7 @@ description
 "
 "
 from
-gecko_taskgraph
+taskgraph
 .
 transforms
 .

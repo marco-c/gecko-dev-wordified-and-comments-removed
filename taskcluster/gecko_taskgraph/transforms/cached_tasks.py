@@ -5,7 +5,7 @@ deque
 import
 taskgraph
 from
-gecko_taskgraph
+taskgraph
 .
 transforms
 .

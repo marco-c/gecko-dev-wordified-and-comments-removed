@@ -23,6 +23,14 @@ mozpath
 from
 taskgraph
 .
+transforms
+.
+base
+import
+TransformSequence
+from
+taskgraph
+.
 util
 .
 schema
@@ -46,11 +54,6 @@ Optional
 Required
 import
 gecko_taskgraph
-from
-.
-base
-import
-TransformSequence
 from
 .
 .

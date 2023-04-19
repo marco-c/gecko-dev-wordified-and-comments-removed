@@ -5,6 +5,14 @@ deepcopy
 from
 taskgraph
 .
+transforms
+.
+base
+import
+TransformSequence
+from
+taskgraph
+.
 util
 .
 schema
@@ -32,14 +40,6 @@ Required
     
 Extra
 )
-from
-gecko_taskgraph
-.
-transforms
-.
-base
-import
-TransformSequence
 from
 gecko_taskgraph
 .
