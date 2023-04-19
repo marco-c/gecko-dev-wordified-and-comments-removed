@@ -62,7 +62,7 @@ aIter
 explicit
 Relation
 (
-LocalAccessible
+Accessible
 *
 aAcc
 )
@@ -226,7 +226,7 @@ inline
 void
 AppendTarget
 (
-LocalAccessible
+Accessible
 *
 aAcc
 )
