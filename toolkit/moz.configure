@@ -717,6 +717,7 @@ target
 )
 :
 return
+(
 target
 .
 kernel
@@ -734,6 +735,16 @@ os
 "
 Android
 "
+and
+target
+.
+cpu
+!
+=
+"
+riscv64
+"
+)
 depends
 (
 target
