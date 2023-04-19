@@ -9862,13 +9862,6 @@ send_codec_spec_
 >
 nack_enabled
 ;
-enable_non_sender_rtt_
-=
-send_codec_spec_
--
->
-enable_non_sender_rtt
-;
 for
 (
 auto
