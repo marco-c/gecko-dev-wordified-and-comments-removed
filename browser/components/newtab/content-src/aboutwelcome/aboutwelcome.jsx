@@ -513,6 +513,14 @@ props
 .
 screens
 }
+updateHistory
+=
+{
+!
+props
+.
+disableHistoryUpdates
+}
 metricsFlowUri
 =
 {
