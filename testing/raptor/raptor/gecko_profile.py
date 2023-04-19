@@ -622,7 +622,8 @@ symbolication
 "
 )
             
-raise
+return
+profile
     
 def
 collect_profiles
