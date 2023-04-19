@@ -689,9 +689,11 @@ strategy_override
 "
 argument
 in
-gecko_taskgraph
+taskgraph
 .
 optimize
+.
+base
 .
 optimize_task_graph
 .

@@ -17,6 +17,14 @@ main
 from
 taskgraph
 .
+optimize
+.
+base
+import
+registry
+from
+taskgraph
+.
 task
 import
 Task
@@ -26,7 +34,6 @@ gecko_taskgraph
 optimize
 import
 project
-registry
 from
 gecko_taskgraph
 .

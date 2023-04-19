@@ -25,6 +25,14 @@ Graph
 from
 taskgraph
 .
+optimize
+.
+base
+import
+optimize_task_graph
+from
+taskgraph
+.
 parameters
 import
 parameters_loader
@@ -70,11 +78,6 @@ from
 morph
 import
 morph
-from
-.
-optimize
-import
-optimize_task_graph
 from
 .
 util
