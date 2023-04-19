@@ -3115,6 +3115,14 @@ HandleInsertParagraphInParagraph
 Element
 &
 aParentDivOrP
+const
+EditorDOMPoint
+&
+aCandidatePointToSplit
+const
+Element
+&
+aEditingHost
 )
 ;
 [
