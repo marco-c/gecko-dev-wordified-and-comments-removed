@@ -35,6 +35,15 @@ FloatingPoint
 h
 "
 #
+include
+"
+vm
+/
+ErrorContext
+.
+h
+"
+#
 ifdef
 JS_HAS_INTL_API
 #
