@@ -33275,7 +33275,7 @@ NodePrincipal
 )
 -
 >
-EqualsConsideringDomain
+Equals
 (
 aNewDocument
 -
