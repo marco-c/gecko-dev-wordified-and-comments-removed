@@ -125,6 +125,11 @@ test
 test_main
 "
 "
+common
+:
+dcsctp_common_unittests
+"
+"
 packet
 :
 dcsctp_packet_unittests
