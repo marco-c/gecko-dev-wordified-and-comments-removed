@@ -1203,12 +1203,10 @@ run_next_test
 {
 if
 (
+!
 TESTS
 .
 length
-=
-=
-0
 )
 {
 Services
