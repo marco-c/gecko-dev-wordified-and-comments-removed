@@ -201,7 +201,10 @@ NS_WARNING_ASSERTION
 (
 pointToInsert
 .
-GetContainerAsText
+GetContainerAs
+<
+Text
+>
 (
 )
 =

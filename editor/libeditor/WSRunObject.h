@@ -204,7 +204,10 @@ mContent
 (
 aPoint
 .
-GetContainerAsContent
+GetContainerAs
+<
+nsIContent
+>
 (
 )
 )

@@ -3835,7 +3835,7 @@ if
 (
 atNewStartOfSelection
 .
-GetContainerAsContent
+IsInContentNode
 (
 )
 )
@@ -3850,7 +3850,7 @@ MOZ_KnownLive
 *
 atNewStartOfSelection
 .
-GetContainerAsContent
+ContainerAsContent
 (
 )
 )
@@ -4084,7 +4084,7 @@ if
 (
 startPoint
 .
-GetContainerAsContent
+IsInContentNode
 (
 )
 )
@@ -4102,7 +4102,7 @@ aHTMLEditor
 *
 startPoint
 .
-GetContainerAsContent
+ContainerAsContent
 (
 )
 )
@@ -5355,7 +5355,7 @@ if
 (
 startPoint
 .
-GetContainerAsContent
+IsInContentNode
 (
 )
 )
@@ -5381,7 +5381,7 @@ aHTMLEditor
 *
 startPoint
 .
-GetContainerAsContent
+ContainerAsContent
 (
 )
 )
@@ -8765,7 +8765,7 @@ visibleTextNode
 *
 aPointToDelete
 .
-GetContainerAsText
+ContainerAsText
 (
 )
 ;
@@ -10745,7 +10745,10 @@ mRightContent
 =
 aCaretPoint
 .
-GetContainerAsContent
+GetContainerAs
+<
+nsIContent
+>
 (
 )
 ;
@@ -10774,7 +10777,10 @@ mLeftContent
 =
 aCaretPoint
 .
-GetContainerAsContent
+GetContainerAs
+<
+nsIContent
+>
 (
 )
 ;
@@ -12518,7 +12524,10 @@ mRightContent
 =
 aCaretPoint
 .
-GetContainerAsContent
+GetContainerAs
+<
+nsIContent
+>
 (
 )
 ;
@@ -12546,7 +12555,10 @@ mLeftContent
 =
 aCaretPoint
 .
-GetContainerAsContent
+GetContainerAs
+<
+nsIContent
+>
 (
 )
 ;
@@ -16664,7 +16676,7 @@ textNode
 *
 rangeStart
 .
-GetContainerAsText
+ContainerAsText
 (
 )
 ;
@@ -16767,7 +16779,7 @@ textNode
 *
 rangeEnd
 .
-GetContainerAsText
+ContainerAsText
 (
 )
 ;
@@ -22745,7 +22757,10 @@ pointInParent
 (
 startPoint
 .
-GetContainerAsContent
+GetContainerAs
+<
+nsIContent
+>
 (
 )
 )
@@ -22827,7 +22842,10 @@ pointInParent
 (
 endPoint
 .
-GetContainerAsContent
+GetContainerAs
+<
+nsIContent
+>
 (
 )
 )

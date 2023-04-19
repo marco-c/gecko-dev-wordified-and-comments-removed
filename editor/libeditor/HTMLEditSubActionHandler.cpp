@@ -5180,7 +5180,10 @@ NS_WARN_IF
 !
 pointToInsert
 .
-GetContainerParentAsContent
+GetContainerParentAs
+<
+nsIContent
+>
 (
 )
 )
@@ -11555,7 +11558,7 @@ NS_WARN_IF
 !
 pointToSplit
 .
-GetContainerAsContent
+IsInContentNode
 (
 )
 )
@@ -14773,7 +14776,7 @@ if
 !
 aPointToInsert
 .
-GetContainerAsContent
+IsInContentNode
 (
 )
 )
@@ -17623,7 +17626,10 @@ curList
 =
 atContent
 .
-GetContainerAsElement
+GetContainerAs
+<
+Element
+>
 (
 )
 ;
@@ -30442,7 +30448,7 @@ MOZ_KnownLive
 *
 pointToInsertTextNode
 .
-GetContainerAsText
+ContainerAsText
 (
 )
 )
@@ -30784,7 +30790,7 @@ MOZ_KnownLive
 *
 pointToPutCaret
 .
-GetContainerAsContent
+ContainerAsContent
 (
 )
 )
@@ -35864,7 +35870,7 @@ ComputeEditingHost
 *
 pointToPutCaret
 .
-GetContainerAsContent
+ContainerAsContent
 (
 )
 )
@@ -37501,7 +37507,10 @@ container
 =
 aCandidatePointToSplit
 .
-GetContainerAsContent
+GetContainerAs
+<
+nsIContent
+>
 (
 )
 ;
@@ -37600,7 +37609,10 @@ container
 =
 aCandidatePointToSplit
 .
-GetContainerAsContent
+GetContainerAs
+<
+nsIContent
+>
 (
 )
 ;

@@ -2378,7 +2378,10 @@ IsSet
 return
 mGivenSplitPoint
 .
-GetContainerAsContent
+GetContainerAs
+<
+nsIContent
+>
 (
 )
 ;
