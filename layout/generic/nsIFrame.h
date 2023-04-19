@@ -12102,6 +12102,8 @@ const
 nsDisplayListSet
 &
 aLists
+bool
+aForceBackground
 )
 ;
 void
@@ -12114,6 +12116,10 @@ const
 nsDisplayListSet
 &
 aLists
+bool
+aForceBackground
+=
+false
 )
 ;
 void

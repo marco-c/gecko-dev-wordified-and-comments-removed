@@ -151,6 +151,11 @@ nsRepeatService
 cpp
 "
 "
+nsRootBoxFrame
+.
+cpp
+"
+"
 nsScrollbarButtonFrame
 .
 cpp
