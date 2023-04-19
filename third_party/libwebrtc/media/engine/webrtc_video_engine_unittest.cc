@@ -12726,7 +12726,7 @@ plis_sent
 ;
 EXPECT_EQ
 (
-0
+0U
 info
 .
 receivers
@@ -43581,15 +43581,6 @@ stats
 rtcp_packet_type_counts
 .
 nack_packets
-rtc
-:
-:
-checked_cast
-<
-unsigned
-int
->
-(
 info
 .
 receivers
@@ -43598,7 +43589,6 @@ receivers
 ]
 .
 nacks_sent
-)
 )
 ;
 EXPECT_EQ

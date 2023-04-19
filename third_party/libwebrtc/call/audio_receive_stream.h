@@ -169,6 +169,11 @@ packets_lost
 =
 0
 ;
+uint32_t
+nacks_sent
+=
+0
+;
 uint64_t
 packets_discarded
 =

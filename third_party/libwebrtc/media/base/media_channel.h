@@ -1998,6 +1998,15 @@ packets_lost
 =
 0
 ;
+absl
+:
+:
+optional
+<
+uint32_t
+>
+nacks_sent
+;
 double
 jitter_buffer_delay_seconds
 =
@@ -2633,11 +2642,6 @@ firs_sent
 ;
 int
 plis_sent
-=
-0
-;
-int
-nacks_sent
 =
 0
 ;

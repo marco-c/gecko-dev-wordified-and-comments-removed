@@ -252,6 +252,11 @@ header_and_padding_bytes_rcvd
 int
 packetsReceived
 ;
+uint32_t
+nacks_sent
+=
+0
+;
 int64_t
 capture_start_ntp_time_ms_
 ;
