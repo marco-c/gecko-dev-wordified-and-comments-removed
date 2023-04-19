@@ -4631,6 +4631,27 @@ cc
 NOTIFY_EMAIL
 ]
 )
+        
+cmd
+.
+extend
+(
+[
+'
+-
+o
+'
+'
+label
+=
+Bot
+-
+Commit
++
+1
+'
+]
+)
     
 elif
 commit_queue_mode
