@@ -389,6 +389,17 @@ TimerOptions
 options
 .
 rto_initial
+TimerBackoffAlgorithm
+:
+:
+kExponential
+absl
+:
+:
+nullopt
+options
+.
+max_timer_backoff_duration
 )
 )
 )
