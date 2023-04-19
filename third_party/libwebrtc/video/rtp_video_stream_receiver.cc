@@ -1442,7 +1442,7 @@ frames_decryptable_
 (
 false
 )
-absolute_capture_time_receiver_
+absolute_capture_time_interpolator_
 (
 clock
 )
@@ -3571,11 +3571,11 @@ packet_info
 .
 set_absolute_capture_time
 (
-absolute_capture_time_receiver_
+absolute_capture_time_interpolator_
 .
 OnReceivePacket
 (
-AbsoluteCaptureTimeReceiver
+AbsoluteCaptureTimeInterpolator
 :
 :
 GetSource
@@ -5929,7 +5929,7 @@ has_value
 )
 )
 {
-absolute_capture_time_receiver_
+capture_clock_offset_updater_
 .
 SetRemoteToLocalClockOffset
 (
