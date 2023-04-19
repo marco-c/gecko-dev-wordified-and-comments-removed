@@ -838,6 +838,7 @@ headers
 derive
 (
 PartialEq
+Eq
 Debug
 Clone
 )

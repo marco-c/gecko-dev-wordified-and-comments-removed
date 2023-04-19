@@ -27,7 +27,6 @@ types
 :
 :
 {
-IterTypes
 Type
 TypeIterator
 }
@@ -144,12 +143,7 @@ collect
 (
 )
 }
-}
-impl
-IterTypes
-for
-Record
-{
+pub
 fn
 iter_types
 (
@@ -179,7 +173,7 @@ iter
 .
 flat_map
 (
-IterTypes
+Field
 :
 :
 iter_types
@@ -403,12 +397,7 @@ clone
 (
 )
 }
-}
-impl
-IterTypes
-for
-Field
-{
+pub
 fn
 iter_types
 (
@@ -701,7 +690,7 @@ assert_eq
 (
 ci
 .
-iter_record_definitions
+record_definitions
 (
 )
 .
@@ -1243,7 +1232,7 @@ assert_eq
 (
 ci
 .
-iter_record_definitions
+record_definitions
 (
 )
 .
@@ -1333,7 +1322,7 @@ iter_types
 (
 )
 .
-len
+count
 (
 )
 4
@@ -1345,10 +1334,6 @@ assert
 ci
 .
 iter_types
-(
-)
-.
-iter
 (
 )
 .
@@ -1379,10 +1364,6 @@ iter_types
 (
 )
 .
-iter
-(
-)
-.
 any
 (
 |
@@ -1410,10 +1391,6 @@ iter_types
 (
 )
 .
-iter
-(
-)
-.
 any
 (
 |
@@ -1438,10 +1415,6 @@ assert
 ci
 .
 iter_types
-(
-)
-.
-iter
 (
 )
 .

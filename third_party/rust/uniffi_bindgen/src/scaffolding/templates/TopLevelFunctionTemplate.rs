@@ -19,6 +19,8 @@ extern
 C
 "
 fn
+r
+#
 {
 {
 func

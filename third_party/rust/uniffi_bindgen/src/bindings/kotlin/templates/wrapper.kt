@@ -357,7 +357,7 @@ func
 in
 ci
 .
-iter_function_definitions
+function_definitions
 (
 )
 %

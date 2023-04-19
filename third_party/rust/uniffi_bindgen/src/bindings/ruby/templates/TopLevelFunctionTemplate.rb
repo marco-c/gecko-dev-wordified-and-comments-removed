@@ -96,7 +96,6 @@ end
 %
 when
 None
--
 %
 }
 def

@@ -255,6 +255,8 @@ Send
 )
 ;
 impl
+r
+#
 {
 {
 trait_name
@@ -288,6 +290,8 @@ declaration
 #
 }
 fn
+r
+#
 {
 {
 meth
@@ -500,6 +504,8 @@ ffi_converter
 :
 write
 (
+r
+#
 {
 {
 arg
@@ -762,6 +768,8 @@ RustType
 Box
 <
 dyn
+r
+#
 {
 {
 trait_name
