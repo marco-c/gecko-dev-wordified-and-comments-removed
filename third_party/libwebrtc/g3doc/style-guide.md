@@ -243,7 +243,7 @@ in
 C
 +
 +
-14
+17
 but
 with
 some
@@ -259,7 +259,7 @@ of
 C
 +
 +
-14
+17
 (
 language
 and
@@ -303,7 +303,7 @@ of
 C
 +
 +
-14
+17
 that
 is
 also
@@ -311,7 +311,7 @@ valid
 C
 +
 +
-17
+20
 ;
 otherwise
 users
@@ -326,7 +326,7 @@ in
 C
 +
 +
-17
+20
 mode
 .
 [
