@@ -14,15 +14,6 @@ include
 "
 mozilla
 /
-ArrayUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DebugOnly
 .
 h
@@ -362,12 +353,6 @@ endif
 using
 namespace
 js
-;
-using
-mozilla
-:
-:
-ArrayEqual
 ;
 using
 mozilla
@@ -6109,7 +6094,7 @@ hasTwoByteChars
 )
 {
 return
-ArrayEqual
+EqualChars
 (
 str1
 -
@@ -6161,7 +6146,7 @@ hasLatin1Chars
 )
 {
 return
-ArrayEqual
+EqualChars
 (
 str1
 -
@@ -6287,7 +6272,7 @@ hasLatin1Chars
 )
 {
 return
-ArrayEqual
+EqualChars
 (
 textChars
 pat
@@ -6342,7 +6327,7 @@ hasTwoByteChars
 )
 {
 return
-ArrayEqual
+EqualChars
 (
 textChars
 pat
@@ -7106,7 +7091,7 @@ hasLatin1Chars
 (
 )
 ?
-ArrayEqual
+EqualChars
 (
 latin1
 str
@@ -10751,7 +10736,7 @@ len
 MaxLengthForCharComparison
 &
 &
-ArrayEqual
+EqualChars
 (
 chars
 strChars

@@ -2356,10 +2356,7 @@ hasLatin1Chars
 )
 ;
 return
-mozilla
-:
-:
-ArrayEqual
+EqualChars
 (
 key
 -
