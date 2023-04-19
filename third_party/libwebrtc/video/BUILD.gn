@@ -4246,6 +4246,13 @@ cc
 "
 end_to_end_tests
 /
+resolution_bitrate_limits_tests
+.
+cc
+"
+"
+end_to_end_tests
+/
 retransmission_tests
 .
 cc
