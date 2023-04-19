@@ -301,6 +301,16 @@ mMappedStride
 =
 0
 ;
+#
+ifdef
+MOZ_WAYLAND
+bool
+mRequestFullRender
+=
+false
+;
+#
+endif
 void
 ClearMappedBuffer
 (
