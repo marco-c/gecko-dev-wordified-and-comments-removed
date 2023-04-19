@@ -1919,6 +1919,8 @@ catch
 CameraAccessException
 |
 IllegalArgumentException
+|
+SecurityException
 e
 )
 {
