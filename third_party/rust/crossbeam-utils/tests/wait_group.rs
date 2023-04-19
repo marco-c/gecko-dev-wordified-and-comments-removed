@@ -185,6 +185,14 @@ unwrap
 [
 test
 ]
+#
+[
+cfg_attr
+(
+miri
+ignore
+)
+]
 fn
 wait_and_drop
 (

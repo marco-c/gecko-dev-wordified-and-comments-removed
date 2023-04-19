@@ -2967,7 +2967,7 @@ utils
 .
 8
 .
-8
+11
 "
 "
 libc
@@ -3275,7 +3275,7 @@ utils
 .
 8
 .
-8
+11
 "
 "
 jobserver
@@ -3832,7 +3832,7 @@ utils
 .
 8
 .
-8
+11
 "
 "
 cstr
@@ -5703,7 +5703,7 @@ utils
 .
 8
 .
-8
+11
 "
 ]
 [
@@ -5864,7 +5864,7 @@ utils
 .
 8
 .
-8
+11
 "
 ]
 [
@@ -6035,7 +6035,7 @@ utils
 .
 8
 .
-8
+11
 "
 "
 memoffset
@@ -6269,7 +6269,7 @@ version
 .
 8
 .
-8
+11
 "
 source
 =
@@ -6297,7 +6297,7 @@ index
 checksum
 =
 "
-0bf124c720b7686e3c2663cf54062ab0f68a88af2fb6a030e87e30bf721fcb38
+51887d4adc7b564537b15adcfb307936f8075dfcd5f00dde9a9f1d29383682bc
 "
 dependencies
 =
@@ -6313,7 +6313,7 @@ if
 0
 "
 "
-lazy_static
+once_cell
 "
 ]
 [
@@ -16297,7 +16297,7 @@ utils
 .
 8
 .
-8
+11
 "
 "
 cstr
@@ -24683,7 +24683,7 @@ utils
 .
 8
 .
-8
+11
 "
 "
 num_cpus
@@ -35572,7 +35572,7 @@ utils
 .
 8
 .
-8
+11
 "
 "
 cstr
@@ -35802,7 +35802,7 @@ utils
 .
 8
 .
-8
+11
 "
 "
 flate2
