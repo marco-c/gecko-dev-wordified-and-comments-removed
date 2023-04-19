@@ -134,14 +134,6 @@ CreateCompositable
 override
 ;
 void
-EnsurePipeline
-(
-bool
-aIsAsync
-)
-override
-;
-void
 ClearCachedResources
 (
 )
@@ -177,11 +169,6 @@ wr
 PipelineId
 >
 mPipelineId
-;
-bool
-mIsAsync
-=
-false
 ;
 }
 ;

@@ -382,7 +382,8 @@ TransactionBuilder
 aTxn
 )
 ;
-const
+protected
+:
 RefPtr
 <
 TextureHost
