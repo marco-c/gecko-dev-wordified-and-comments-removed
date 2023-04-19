@@ -1428,7 +1428,7 @@ sizeInBytes
 ReportResult
 (
 "
-packets_discarded_no_recevier
+packets_discarded_no_receiver
 "
 pc_label
 network_layer_stats
