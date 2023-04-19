@@ -1297,11 +1297,14 @@ IsCurrent
 worker_thread_
 -
 >
-PostTask
+Invoke
+<
+void
+>
 (
+RTC_FROM_HERE
 [
-this
-channel
+&
 ]
 {
 DestroyChannel
