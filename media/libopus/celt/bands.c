@@ -8513,6 +8513,9 @@ return
 cm
 ;
 }
+#
+ifndef
+DISABLE_UPDATE_DRAFT
 static
 void
 special_hybrid_folding
@@ -8635,6 +8638,8 @@ n1
 )
 ;
 }
+#
+endif
 void
 quant_all_bands
 (

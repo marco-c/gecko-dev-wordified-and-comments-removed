@@ -333,7 +333,7 @@ sum
 =
 silk_RSHIFT_ROUND
 (
-silk_ADD_LSHIFT
+silk_ADD_LSHIFT32
 (
 mid
 [
@@ -415,7 +415,7 @@ sum
 =
 silk_RSHIFT_ROUND
 (
-silk_ADD_LSHIFT
+silk_ADD_LSHIFT32
 (
 side
 [
@@ -1367,7 +1367,7 @@ sum
 =
 silk_LSHIFT
 (
-silk_ADD_LSHIFT
+silk_ADD_LSHIFT32
 (
 mid
 [
@@ -1498,7 +1498,7 @@ sum
 =
 silk_LSHIFT
 (
-silk_ADD_LSHIFT
+silk_ADD_LSHIFT32
 (
 mid
 [

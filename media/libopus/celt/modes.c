@@ -1110,8 +1110,17 @@ allocVectors
 =
 NULL
 )
+{
+mode
+-
+>
+allocVectors
+=
+NULL
+;
 return
 ;
+}
 if
 (
 mode

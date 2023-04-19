@@ -72,6 +72,10 @@ NLSF_Q15
 [
 MAX_LPC_ORDER
 ]
+=
+{
+0
+}
 ;
 const
 silk_float

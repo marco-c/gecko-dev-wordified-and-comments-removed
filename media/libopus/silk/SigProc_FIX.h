@@ -3457,7 +3457,7 @@ if
 !
 defined
 (
-OPUS_X86_MAY_HAVE_SSE4_1
+OVERRIDE_silk_burg_modified
 )
 #
 define
@@ -3493,6 +3493,15 @@ nb_subfr
 D
 arch
 )
+)
+#
+endif
+#
+if
+!
+defined
+(
+OVERRIDE_silk_inner_prod16
 )
 #
 define
