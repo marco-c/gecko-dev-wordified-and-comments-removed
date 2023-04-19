@@ -10140,6 +10140,7 @@ browsers
 )
 &
 &
+(
 lazy
 .
 InsecurePasswordUtils
@@ -10147,6 +10148,15 @@ InsecurePasswordUtils
 isFormSecure
 (
 form
+)
+|
+|
+!
+lazy
+.
+LoginHelper
+.
+showInsecureFieldWarning
 )
 )
 {

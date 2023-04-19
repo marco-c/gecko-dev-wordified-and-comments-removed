@@ -1465,6 +1465,13 @@ if
 (
 !
 isSecure
+&
+&
+lazy
+.
+LoginHelper
+.
+showInsecureFieldWarning
 )
 {
 this
