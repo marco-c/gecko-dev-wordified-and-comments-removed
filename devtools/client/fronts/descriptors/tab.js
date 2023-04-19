@@ -11,6 +11,10 @@ tabDescriptorSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -20,6 +24,8 @@ specs
 descriptors
 /
 tab
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ DESCRIPTOR_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ descriptors
 descriptor
 -
 types
+.
+js
 "
 )
 ;
@@ -96,11 +108,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -112,6 +130,10 @@ DescriptorMixin
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +145,8 @@ descriptors
 descriptor
 -
 mixin
+.
+js
 "
 )
 ;

@@ -12,11 +12,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -28,6 +34,10 @@ symbolIteratorSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -37,6 +47,8 @@ specs
 symbol
 -
 iterator
+.
+js
 "
 )
 ;
@@ -48,6 +60,10 @@ getAdHocFrontOrPrimitiveGrip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -55,6 +71,8 @@ client
 fronts
 /
 object
+.
+js
 "
 )
 ;

@@ -11,6 +11,10 @@ getCSSLexer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -18,6 +22,8 @@ shared
 css
 /
 lexer
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ unescapeCSSComment
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -41,6 +51,8 @@ css
 parsing
 -
 utils
+.
+js
 "
 )
 ;

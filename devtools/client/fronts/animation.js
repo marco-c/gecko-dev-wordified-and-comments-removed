@@ -12,11 +12,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ animationsSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -36,6 +46,8 @@ shared
 specs
 /
 animation
+.
+js
 "
 )
 ;

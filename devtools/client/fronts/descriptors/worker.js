@@ -11,6 +11,10 @@ workerDescriptorSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -20,6 +24,8 @@ specs
 descriptors
 /
 worker
+.
+js
 "
 )
 ;
@@ -32,11 +38,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -48,6 +60,10 @@ TargetMixin
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -59,6 +75,8 @@ targets
 target
 -
 mixin
+.
+js
 "
 )
 ;
@@ -70,6 +88,10 @@ DescriptorMixin
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +103,8 @@ descriptors
 descriptor
 -
 mixin
+.
+js
 "
 )
 ;
@@ -90,6 +114,10 @@ DESCRIPTOR_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +129,8 @@ descriptors
 descriptor
 -
 types
+.
+js
 "
 )
 ;

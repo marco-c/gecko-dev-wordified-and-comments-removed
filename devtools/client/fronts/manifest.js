@@ -12,11 +12,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -28,6 +34,10 @@ manifestSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -35,6 +45,8 @@ shared
 specs
 /
 manifest
+.
+js
 "
 )
 ;

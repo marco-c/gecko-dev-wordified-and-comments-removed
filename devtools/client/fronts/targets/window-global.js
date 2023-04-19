@@ -11,6 +11,10 @@ windowGlobalTargetSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -22,6 +26,8 @@ targets
 window
 -
 global
+.
+js
 "
 )
 ;
@@ -34,11 +40,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -50,6 +62,10 @@ TargetMixin
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -61,6 +77,8 @@ targets
 target
 -
 mixin
+.
+js
 "
 )
 ;

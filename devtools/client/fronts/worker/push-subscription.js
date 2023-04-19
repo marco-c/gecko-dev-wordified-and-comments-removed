@@ -11,6 +11,10 @@ pushSubscriptionSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -22,6 +26,8 @@ worker
 push
 -
 subscription
+.
+js
 "
 )
 ;
@@ -34,11 +40,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;

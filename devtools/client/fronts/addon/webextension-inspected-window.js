@@ -11,6 +11,10 @@ webExtensionInspectedWindowSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -24,6 +28,8 @@ webextension
 inspected
 -
 window
+.
+js
 "
 )
 ;
@@ -36,11 +42,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;

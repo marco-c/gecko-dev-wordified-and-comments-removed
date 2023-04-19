@@ -11,6 +11,10 @@ watcherSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -18,6 +22,8 @@ shared
 specs
 /
 watcher
+.
+js
 "
 )
 ;
@@ -30,11 +36,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;

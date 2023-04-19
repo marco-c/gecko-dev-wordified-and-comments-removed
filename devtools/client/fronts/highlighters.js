@@ -12,11 +12,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -28,6 +34,10 @@ customHighlighterSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -35,6 +45,8 @@ shared
 specs
 /
 highlighters
+.
+js
 "
 )
 ;
@@ -46,6 +58,10 @@ safeAsyncMethod
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -53,6 +69,8 @@ shared
 async
 -
 utils
+.
+js
 "
 )
 ;

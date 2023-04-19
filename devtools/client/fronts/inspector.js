@@ -9,6 +9,10 @@ Telemetry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -16,6 +20,8 @@ client
 shared
 /
 telemetry
+.
+js
 "
 )
 ;
@@ -28,6 +34,10 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -46,6 +56,10 @@ inspectorSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -53,6 +67,8 @@ shared
 specs
 /
 inspector
+.
+js
 "
 )
 ;

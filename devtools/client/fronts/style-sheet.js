@@ -12,11 +12,17 @@ registerFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -28,6 +34,10 @@ styleSheetSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -37,6 +47,8 @@ specs
 style
 -
 sheet
+.
+js
 "
 )
 ;
