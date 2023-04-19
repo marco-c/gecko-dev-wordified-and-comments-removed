@@ -339,8 +339,11 @@ override
 ;
 private
 :
-void
-SendPacket
+dcsctp
+:
+:
+SendPacketStatus
+SendPacketWithStatus
 (
 rtc
 :

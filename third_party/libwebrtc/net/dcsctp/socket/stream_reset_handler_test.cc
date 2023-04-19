@@ -1191,7 +1191,7 @@ ChunkWithNoParametersReturnsError
 EXPECT_CALL
 (
 callbacks_
-SendPacket
+SendPacketWithStatus
 )
 .
 Times
@@ -1286,7 +1286,7 @@ StreamID
 EXPECT_CALL
 (
 callbacks_
-SendPacket
+SendPacketWithStatus
 )
 .
 Times
@@ -2835,7 +2835,7 @@ Times
 EXPECT_CALL
 (
 callbacks_
-SendPacket
+SendPacketWithStatus
 )
 .
 Times
@@ -3028,7 +3028,7 @@ Times
 EXPECT_CALL
 (
 callbacks_
-SendPacket
+SendPacketWithStatus
 )
 .
 Times
@@ -3228,7 +3228,7 @@ Times
 EXPECT_CALL
 (
 callbacks_
-SendPacket
+SendPacketWithStatus
 )
 .
 Times
@@ -3252,7 +3252,7 @@ response_reconfig
 EXPECT_CALL
 (
 callbacks_
-SendPacket
+SendPacketWithStatus
 )
 .
 Times
@@ -3639,7 +3639,7 @@ Times
 EXPECT_CALL
 (
 callbacks_
-SendPacket
+SendPacketWithStatus
 )
 .
 Times

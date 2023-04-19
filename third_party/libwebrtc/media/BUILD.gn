@@ -2997,6 +2997,14 @@ rtc_base_approved
 /
 rtc_base
 :
+socket
+"
+"
+.
+.
+/
+rtc_base
+:
 threading
 "
 "

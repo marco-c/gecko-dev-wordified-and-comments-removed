@@ -180,8 +180,8 @@ underlying_
 ;
 }
 }
-void
-SendPacket
+SendPacketStatus
+SendPacketWithStatus
 (
 rtc
 :
@@ -195,9 +195,10 @@ data
 )
 override
 {
+return
 underlying_
 .
-SendPacket
+SendPacketWithStatus
 (
 data
 )
