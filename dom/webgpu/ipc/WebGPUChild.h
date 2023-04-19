@@ -261,6 +261,10 @@ dom
 GPUBufferDescriptor
 &
 aDesc
+MaybeShmem
+&
+&
+aShmem
 )
 ;
 RawId
