@@ -68,6 +68,12 @@ gdebi
 \
 git
 \
+glib
+-
+networking
+-
+services
+\
 gstreamer1
 .
 0
@@ -85,6 +91,12 @@ gl
 libosmesa6
 -
 dev
+\
+libproxy1
+-
+plugin
+-
+webkit
 \
 libvirt
 -
