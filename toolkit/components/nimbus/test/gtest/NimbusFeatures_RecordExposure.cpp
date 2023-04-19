@@ -285,7 +285,13 @@ bar
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 eventsSnapshot
 (
 cx
