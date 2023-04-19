@@ -35,16 +35,4 @@ id_token
 .
 py
 "
-"
-revocation_endpoint
-"
-:
-"
-.
-.
-/
-revoke
-.
-py
-"
 }
