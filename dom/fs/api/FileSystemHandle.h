@@ -104,9 +104,6 @@ ErrorResult
 namespace
 dom
 {
-class
-DOMString
-;
 enum
 class
 FileSystemHandleKind

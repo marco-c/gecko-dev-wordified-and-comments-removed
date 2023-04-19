@@ -27,6 +27,11 @@ FileSystemChildFactory
 cpp
 "
 "
+FileSystemDirectoryIteratorFactory
+.
+cpp
+"
+"
 FileSystemRequestHandler
 .
 cpp
