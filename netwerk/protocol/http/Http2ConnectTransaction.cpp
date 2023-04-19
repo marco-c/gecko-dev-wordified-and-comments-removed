@@ -966,6 +966,9 @@ trans
 mRequestHead
 mConnectString
 mIsWebsocket
+mCaps
+&
+NS_HTTP_USE_RFP
 )
 ;
 MOZ_ASSERT

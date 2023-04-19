@@ -416,6 +416,15 @@ NS_HTTP_DISALLOW_ECH
 )
 #
 define
+NS_HTTP_USE_RFP
+(
+1
+<
+<
+26
+)
+#
+define
 NS_HTTP_TRR_FLAGS_FROM_MODE
 (
 x
