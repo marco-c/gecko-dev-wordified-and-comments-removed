@@ -1096,6 +1096,15 @@ MediaResult
 aError
 )
 ;
+bool
+IsFormatSupportedByExternalEngine
+(
+const
+MediaInfo
+&
+aInfo
+)
+;
 void
 OnLoadedFirstFrame
 (
