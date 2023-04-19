@@ -3764,6 +3764,10 @@ VideoEncoderConfig
 :
 ContentType
 content_type
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 :
 SendStatisticsProxy
@@ -3771,6 +3775,7 @@ SendStatisticsProxy
 clock
 config
 content_type
+field_trials
 )
 {
 }
@@ -4467,6 +4472,7 @@ ContentType
 :
 :
 kRealtimeVideo
+field_trials_
 )
 ;
 std
@@ -4859,6 +4865,7 @@ ContentType
 :
 :
 kRealtimeVideo
+field_trials_
 )
 )
 sink_
@@ -5080,6 +5087,7 @@ GetClock
 (
 )
 encoder_queue_ptr
+field_trials_
 )
 ;
 video_stream_encoder_
@@ -52205,6 +52213,12 @@ false
 }
 }
 ;
+test
+:
+:
+ScopedKeyValueConfig
+field_trials
+;
 GlobalSimulatedTimeController
 time_controller
 (
@@ -52250,6 +52264,7 @@ ContentType
 :
 :
 kRealtimeVideo
+field_trials
 )
 ;
 SimpleVideoStreamEncoderFactory
@@ -52371,12 +52386,6 @@ SuperLazyTaskQueue
 (
 )
 )
-;
-test
-:
-:
-ScopedKeyValueConfig
-field_trials
 ;
 auto
 encoder
@@ -54139,6 +54148,7 @@ encoder_queue
 get
 (
 )
+field_trials
 )
 ;
 FrameCadenceAdapterInterface

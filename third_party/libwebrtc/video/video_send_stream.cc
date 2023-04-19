@@ -136,17 +136,6 @@ h
 #
 include
 "
-system_wrappers
-/
-include
-/
-field_trial
-.
-h
-"
-#
-include
-"
 video
 /
 adaptation
@@ -348,6 +337,10 @@ VideoSendStream
 Config
 &
 config
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 {
 if
@@ -410,9 +403,8 @@ kVideoLayersAllocation
 }
 if
 (
-field_trial
-:
-:
+field_trials
+.
 IsEnabled
 (
 "
@@ -670,6 +662,7 @@ Create
 (
 clock
 encoder_queue_ptr
+field_trials
 )
 std
 :
@@ -781,6 +774,7 @@ config
 encoder_config
 .
 content_type
+field_trials
 )
 config_
 (
@@ -813,6 +807,7 @@ encoder_settings
 GetBitrateAllocationCallbackType
 (
 config_
+field_trials
 )
 field_trials
 )
@@ -930,6 +925,7 @@ encoder_config
 .
 content_type
 rtp_video_sender_
+field_trials
 )
 {
 RTC_DCHECK

@@ -69,6 +69,15 @@ h
 #
 include
 "
+api
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 call
 /
 video_receive_stream
@@ -245,6 +254,10 @@ clock
 TaskQueueBase
 *
 worker_thread
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 ~

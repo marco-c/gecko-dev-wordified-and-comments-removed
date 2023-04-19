@@ -1372,9 +1372,10 @@ TestExtendedReportsWithoutRrtrWithTargetBitrateExplicitlySet
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 field_trials
 (
+field_trials_
 "
 WebRTC
 -

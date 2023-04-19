@@ -390,6 +390,16 @@ key_value_map_
 s
 )
 ;
+if
+(
+!
+s
+.
+empty
+(
+)
+)
+{
 scoped_field_trials_
 =
 std
@@ -403,6 +413,7 @@ ScopedFieldTrials
 s
 )
 ;
+}
 if
 (
 parent

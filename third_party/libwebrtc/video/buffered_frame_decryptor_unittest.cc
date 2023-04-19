@@ -82,6 +82,15 @@ gtest
 .
 h
 "
+#
+include
+"
+test
+/
+scoped_key_value_config
+.
+h
+"
 using
 :
 :
@@ -325,6 +334,7 @@ BufferedFrameDecryptor
 (
 this
 this
+field_trials_
 )
 ;
 buffered_frame_decryptor_
@@ -340,6 +350,12 @@ static
 const
 size_t
 kMaxStashedFrames
+;
+test
+:
+:
+ScopedKeyValueConfig
+field_trials_
 ;
 std
 :

@@ -134,7 +134,7 @@ include
 "
 test
 /
-field_trial
+gtest
 .
 h
 "
@@ -143,7 +143,7 @@ include
 "
 test
 /
-gtest
+scoped_key_value_config
 .
 h
 "
@@ -377,6 +377,7 @@ ContentType
 :
 :
 kRealtimeVideo
+override_field_trials_
 )
 )
 ;
@@ -1260,7 +1261,7 @@ jitter
 test
 :
 :
-ScopedFieldTrials
+ScopedKeyValueConfig
 override_field_trials_
 ;
 SimulatedClock
@@ -11889,6 +11890,12 @@ SendStatisticsProxyTest
 VerifyQpHistogramStats_Vp8OneSsrc
 )
 {
+test
+:
+:
+ScopedKeyValueConfig
+field_trials
+;
 VideoSendStream
 :
 :
@@ -11926,6 +11933,7 @@ ContentType
 :
 :
 kRealtimeVideo
+field_trials
 )
 )
 ;
@@ -12241,6 +12249,12 @@ SendStatisticsProxyTest
 VerifyQpHistogramStats_Vp9OneSpatialLayer
 )
 {
+test
+:
+:
+ScopedKeyValueConfig
+field_trials
+;
 VideoSendStream
 :
 :
@@ -12278,6 +12292,7 @@ ContentType
 :
 :
 kRealtimeVideo
+field_trials
 )
 )
 ;
@@ -15689,6 +15704,12 @@ SendStatisticsProxyTest
 GetStatsReportsIsFlexFec
 )
 {
+test
+:
+:
+ScopedKeyValueConfig
+field_trials
+;
 statistics_proxy_
 .
 reset
@@ -15708,6 +15729,7 @@ ContentType
 :
 :
 kRealtimeVideo
+field_trials
 )
 )
 ;
@@ -15821,6 +15843,12 @@ SendStatisticsProxyTest
 SendBitratesAreReportedWithFlexFecEnabled
 )
 {
+test
+:
+:
+ScopedKeyValueConfig
+field_trials
+;
 statistics_proxy_
 .
 reset
@@ -15840,6 +15868,7 @@ ContentType
 :
 :
 kRealtimeVideo
+field_trials
 )
 )
 ;
@@ -17270,6 +17299,12 @@ SendStatisticsProxyTest
 RtxBitrateNotReportedWhenNotEnabled
 )
 {
+test
+:
+:
+ScopedKeyValueConfig
+field_trials
+;
 VideoSendStream
 :
 :
@@ -17307,6 +17342,7 @@ ContentType
 :
 :
 kRealtimeVideo
+field_trials
 )
 )
 ;
@@ -17586,6 +17622,12 @@ SendStatisticsProxyTest
 FecBitrateNotReportedWhenNotEnabled
 )
 {
+test
+:
+:
+ScopedKeyValueConfig
+field_trials
+;
 VideoSendStream
 :
 :
@@ -17623,6 +17665,7 @@ ContentType
 :
 :
 kRealtimeVideo
+field_trials
 )
 )
 ;

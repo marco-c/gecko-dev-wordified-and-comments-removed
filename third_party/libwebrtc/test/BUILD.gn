@@ -4930,6 +4930,10 @@ mock_transport
 "
 "
 :
+scoped_key_value_config
+"
+"
+:
 test_support
 "
 "

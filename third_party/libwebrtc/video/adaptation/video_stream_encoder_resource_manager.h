@@ -850,6 +850,11 @@ VideoAdaptationCounters
 active_counts
 )
 ;
+const
+WebRtcKeyValueConfig
+&
+field_trials_
+;
 DegradationPreferenceProvider
 *
 const

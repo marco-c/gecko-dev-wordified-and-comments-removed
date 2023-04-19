@@ -292,7 +292,10 @@ config
 event_log
 )
 ;
-FieldTrialBasedConfig
+test
+:
+:
+ScopedKeyValueConfig
 field_trials
 ;
 config

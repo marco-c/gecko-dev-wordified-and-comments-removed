@@ -961,6 +961,10 @@ PacingConfig
 :
 PacingConfig
 (
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 :
 pacing_factor
@@ -995,10 +999,9 @@ pacing_factor
 &
 max_pacing_delay
 }
-field_trial
-:
-:
-FindFullName
+field_trials
+.
+Lookup
 (
 "
 WebRTC
@@ -1078,6 +1081,10 @@ content_type
 RtpVideoSenderInterface
 *
 rtp_video_sender
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 :
 clock_
@@ -1101,6 +1108,7 @@ pacing_config_
 (
 PacingConfig
 (
+field_trials
 )
 )
 stats_proxy_

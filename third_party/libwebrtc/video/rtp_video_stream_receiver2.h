@@ -535,6 +535,10 @@ scoped_refptr
 FrameTransformerInterface
 >
 frame_transformer
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 ~
@@ -1187,6 +1191,11 @@ RTC_RUN_ON
 (
 packet_sequence_checker_
 )
+;
+const
+WebRtcKeyValueConfig
+&
+field_trials_
 ;
 Clock
 *

@@ -1106,6 +1106,11 @@ RTC_RUN_ON
 encoder_queue_
 )
 ;
+const
+WebRtcKeyValueConfig
+&
+field_trials_
+;
 TaskQueueBase
 *
 const
