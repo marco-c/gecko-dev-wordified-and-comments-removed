@@ -167,6 +167,15 @@ Nightly
 -
 brand
 -
+shortcut
+-
+name
+=
+Firefox
+Nightly
+-
+brand
+-
 full
 -
 name

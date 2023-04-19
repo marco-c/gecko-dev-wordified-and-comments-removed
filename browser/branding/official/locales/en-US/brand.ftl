@@ -167,6 +167,14 @@ Firefox
 -
 brand
 -
+shortcut
+-
+name
+=
+Firefox
+-
+brand
+-
 full
 -
 name

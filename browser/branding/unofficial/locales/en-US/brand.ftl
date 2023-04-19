@@ -167,6 +167,14 @@ Nightly
 -
 brand
 -
+shortcut
+-
+name
+=
+Nightly
+-
+brand
+-
 full
 -
 name

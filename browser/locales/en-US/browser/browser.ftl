@@ -521,12 +521,14 @@ browsing
 shortcut
 -
 text
+-
+2
 =
 {
 -
 brand
 -
-short
+shortcut
 -
 name
 }

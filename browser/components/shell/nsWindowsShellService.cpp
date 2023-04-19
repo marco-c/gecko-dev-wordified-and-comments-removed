@@ -5741,6 +5741,8 @@ browsing
 shortcut
 -
 text
+-
+2
 "
 _ns
 {
@@ -7442,6 +7444,8 @@ browsing
 shortcut
 -
 text
+-
+2
 "
 _ns
 {
@@ -8990,6 +8994,8 @@ browsing
 shortcut
 -
 text
+-
+2
 "
 _ns
 {

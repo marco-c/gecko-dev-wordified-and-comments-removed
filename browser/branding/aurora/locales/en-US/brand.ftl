@@ -169,6 +169,16 @@ Edition
 -
 brand
 -
+shortcut
+-
+name
+=
+Firefox
+Developer
+Edition
+-
+brand
+-
 full
 -
 name
