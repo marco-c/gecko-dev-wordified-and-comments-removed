@@ -18719,7 +18719,10 @@ function
 <
 void
 (
+Maybe
+<
 int32_t
+>
 &
 &
 )
@@ -18776,6 +18779,8 @@ ResponseRejectReason
 }
 else
 {
+aResolver
+(
 Canonical
 (
 )
@@ -18816,12 +18821,6 @@ ChildID
 Nothing
 (
 )
-std
-:
-:
-move
-(
-aResolver
 )
 )
 ;
