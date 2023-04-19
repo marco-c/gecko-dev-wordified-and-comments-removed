@@ -8830,6 +8830,13 @@ MaybeSendShutdownOrAck
 tcb_
 -
 >
+MaybeSendFastRetransmit
+(
+)
+;
+tcb_
+-
+>
 SendBufferedPackets
 (
 now

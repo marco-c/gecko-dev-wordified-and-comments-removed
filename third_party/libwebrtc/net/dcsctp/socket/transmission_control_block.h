@@ -942,6 +942,11 @@ has_value
 ;
 }
 void
+MaybeSendFastRetransmit
+(
+)
+;
+void
 SendBufferedPackets
 (
 SctpPacket
