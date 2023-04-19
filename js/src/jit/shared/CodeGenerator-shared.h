@@ -555,8 +555,8 @@ slot
 const
 ;
 inline
-uint32_t
-StackOffsetOfPassedArg
+Address
+AddressOfPassedArg
 (
 uint32_t
 slot
