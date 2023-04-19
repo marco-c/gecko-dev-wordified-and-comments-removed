@@ -23794,6 +23794,8 @@ nsIFrame
 SizeProperty
 aProperty
 nscoord
+aContentBoxToBoxSizingDiff
+nscoord
 &
 aResult
 )
@@ -24002,6 +24004,11 @@ aRenderingContext
 )
 ;
 }
+aResult
++
+=
+aContentBoxToBoxSizingDiff
+;
 return
 true
 ;
@@ -24035,6 +24042,8 @@ nsIFrame
 :
 SizeProperty
 aProperty
+nscoord
+aContentBoxToBoxSizingDiff
 nscoord
 &
 aResult
@@ -24070,6 +24079,7 @@ aRenderingContext
 aFrame
 aInlineSizeFromAspectRatio
 aProperty
+aContentBoxToBoxSizingDiff
 aResult
 )
 ;
@@ -24270,6 +24280,11 @@ coordOutsideSize
 =
 0
 ;
+nscoord
+contentBoxToBoxSizingDiff
+=
+0
+;
 if
 (
 !
@@ -24309,6 +24324,10 @@ StyleBoxSizing
 Border
 )
 {
+contentBoxToBoxSizingDiff
+=
+coordOutsideSize
+;
 min
 +
 =
@@ -24408,6 +24427,16 @@ aRenderingContext
 )
 ;
 }
+minContent
++
+=
+contentBoxToBoxSizingDiff
+;
+maxContent
++
+=
+contentBoxToBoxSizingDiff
+;
 }
 nscoord
 size
@@ -24463,6 +24492,7 @@ SizeProperty
 :
 :
 Size
+contentBoxToBoxSizingDiff
 size
 )
 )
@@ -24561,6 +24591,7 @@ SizeProperty
 :
 :
 MaxSize
+contentBoxToBoxSizingDiff
 maxSize
 )
 )
@@ -24666,6 +24697,7 @@ SizeProperty
 :
 :
 MinSize
+contentBoxToBoxSizingDiff
 minSize
 )
 )
