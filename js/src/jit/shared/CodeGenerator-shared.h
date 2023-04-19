@@ -565,6 +565,15 @@ const
 ;
 inline
 uint32_t
+UnusedStackBytesForCall
+(
+uint32_t
+numArgSlots
+)
+const
+;
+inline
+uint32_t
 ToStackOffset
 (
 LAllocation
