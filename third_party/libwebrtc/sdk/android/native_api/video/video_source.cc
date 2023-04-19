@@ -84,11 +84,10 @@ align_timestamps
 :
 android_video_track_source_
 (
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 jni
 :
@@ -456,11 +455,10 @@ align_timestamps
 )
 {
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 JavaVideoTrackSourceImpl
 >

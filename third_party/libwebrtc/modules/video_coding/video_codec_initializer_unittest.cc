@@ -408,11 +408,10 @@ config_
 .
 encoder_specific_settings
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 webrtc
 :
@@ -465,11 +464,10 @@ config_
 .
 encoder_specific_settings
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 webrtc
 :

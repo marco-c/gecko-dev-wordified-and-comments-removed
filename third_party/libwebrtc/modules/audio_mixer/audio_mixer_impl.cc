@@ -748,16 +748,7 @@ return
 rtc
 :
 :
-scoped_refptr
-<
-AudioMixerImpl
->
-(
-new
-rtc
-:
-:
-RefCountedObject
+make_ref_counted
 <
 AudioMixerImpl
 >
@@ -770,7 +761,6 @@ move
 output_rate_calculator
 )
 use_limiter
-)
 )
 ;
 }

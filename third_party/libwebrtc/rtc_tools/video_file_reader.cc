@@ -1568,11 +1568,10 @@ frames
 "
 ;
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 VideoFile
 >
@@ -1851,11 +1850,10 @@ frames
 "
 ;
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 VideoFile
 >

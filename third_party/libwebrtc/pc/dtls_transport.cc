@@ -213,11 +213,10 @@ internal
 )
 ice_transport_
 (
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 IceTransportWithPointer
 >

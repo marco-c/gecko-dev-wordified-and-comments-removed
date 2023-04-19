@@ -196,11 +196,10 @@ receiver_id
 )
 source_
 (
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 RemoteAudioSource
 >
@@ -286,11 +285,10 @@ Current
 (
 )
 worker_thread_
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 JitterBufferDelay
 >

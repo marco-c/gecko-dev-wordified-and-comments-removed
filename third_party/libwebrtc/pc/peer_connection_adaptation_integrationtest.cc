@@ -279,11 +279,10 @@ FakePeriodicVideoTrackSource
 >
 periodic_track_source
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 FakePeriodicVideoTrackSource
 >
@@ -449,11 +448,10 @@ PeerConnectionTestWrapper
 >
 pc_wrapper
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 PeerConnectionTestWrapper
 >

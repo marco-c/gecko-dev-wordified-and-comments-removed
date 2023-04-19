@@ -1368,11 +1368,10 @@ submodules_
 .
 echo_detector
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 ResidualEchoDetector
 >

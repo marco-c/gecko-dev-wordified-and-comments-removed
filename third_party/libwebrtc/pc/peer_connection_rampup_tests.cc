@@ -727,11 +727,10 @@ video_track_sources_
 .
 emplace_back
 (
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 FrameGeneratorCapturerVideoTrackSource
 >

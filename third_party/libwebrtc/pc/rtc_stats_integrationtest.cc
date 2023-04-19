@@ -651,11 +651,10 @@ Start
 ;
 caller_
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 PeerConnectionTestWrapper
 >
@@ -677,11 +676,10 @@ get
 ;
 callee_
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 PeerConnectionTestWrapper
 >

@@ -308,11 +308,10 @@ init
 override
 {
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 cricket
 :
