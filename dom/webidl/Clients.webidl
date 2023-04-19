@@ -145,7 +145,11 @@ NewObject
 ]
 Promise
 <
-any
+(
+Client
+or
+undefined
+)
 >
 get
 (

@@ -213,7 +213,11 @@ NewObject
 ]
 Promise
 <
-any
+(
+ServiceWorkerRegistration
+or
+undefined
+)
 >
 getRegistration
 (

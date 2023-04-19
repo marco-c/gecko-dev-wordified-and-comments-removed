@@ -873,7 +873,11 @@ enabled
 ]
 readonly
 attribute
-any
+(
+Event
+or
+undefined
+)
 event
 ;
 /

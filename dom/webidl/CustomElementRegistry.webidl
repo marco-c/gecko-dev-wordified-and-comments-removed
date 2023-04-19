@@ -117,7 +117,11 @@ CustomElementCreationCallback
 callback
 )
 ;
-any
+(
+CustomElementConstructor
+or
+undefined
+)
 get
 (
 DOMString
