@@ -472,12 +472,13 @@ log
 Password
 rules
 for
+origin
+:
 {
 currentRecord
 .
 Domain
 }
-:
 {
 currentRecord
 [
@@ -488,7 +489,6 @@ rules
 "
 ]
 }
-.
 )
 ;
 let
@@ -557,8 +557,9 @@ No
 password
 rules
 for
-specified
-origin
+{
+uri
+}
 generating
 standard
 password
