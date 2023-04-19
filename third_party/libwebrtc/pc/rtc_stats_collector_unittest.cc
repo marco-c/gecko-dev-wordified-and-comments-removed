@@ -364,7 +364,7 @@ pc
 /
 test
 /
-fake_data_channel_provider
+fake_data_channel_controller
 .
 h
 "
@@ -12124,8 +12124,8 @@ RTCPeerConnectionStats
 )
 ;
 }
-FakeDataChannelProvider
-provider
+FakeDataChannelController
+controller
 ;
 rtc
 :
@@ -12142,7 +12142,7 @@ SctpDataChannel
 Create
 (
 &
-provider
+controller
 "
 DummyChannelA
 "
@@ -12198,7 +12198,7 @@ SctpDataChannel
 Create
 (
 &
-provider
+controller
 "
 DummyChannelB
 "

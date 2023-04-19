@@ -112,7 +112,7 @@ pc
 /
 test
 /
-fake_data_channel_provider
+fake_data_channel_controller
 .
 h
 "
@@ -347,10 +347,10 @@ SctpDataChannelTest
 (
 )
 :
-provider_
+controller_
 (
 new
-FakeDataChannelProvider
+FakeDataChannelController
 (
 )
 )
@@ -361,7 +361,7 @@ SctpDataChannel
 :
 Create
 (
-provider_
+controller_
 .
 get
 (
@@ -397,7 +397,7 @@ SetChannelReady
 (
 )
 {
-provider_
+controller_
 -
 >
 set_transport_available
@@ -433,7 +433,7 @@ SetSctpSid
 )
 ;
 }
-provider_
+controller_
 -
 >
 set_ready_to_send
@@ -481,9 +481,9 @@ std
 :
 unique_ptr
 <
-FakeDataChannelProvider
+FakeDataChannelController
 >
-provider_
+controller_
 ;
 std
 :
@@ -584,7 +584,7 @@ SctpDataChannelTest
 ConnectedToTransportOnCreated
 )
 {
-provider_
+controller_
 -
 >
 set_transport_available
@@ -606,7 +606,7 @@ SctpDataChannel
 :
 Create
 (
-provider_
+controller_
 .
 get
 (
@@ -637,7 +637,7 @@ Current
 ;
 EXPECT_TRUE
 (
-provider_
+controller_
 -
 >
 IsConnected
@@ -652,7 +652,7 @@ get
 ;
 EXPECT_FALSE
 (
-provider_
+controller_
 -
 >
 IsSendStreamAdded
@@ -668,7 +668,7 @@ id
 ;
 EXPECT_FALSE
 (
-provider_
+controller_
 -
 >
 IsRecvStreamAdded
@@ -692,7 +692,7 @@ SetSctpSid
 ;
 EXPECT_TRUE
 (
-provider_
+controller_
 -
 >
 IsSendStreamAdded
@@ -708,7 +708,7 @@ id
 ;
 EXPECT_TRUE
 (
-provider_
+controller_
 -
 >
 IsRecvStreamAdded
@@ -731,7 +731,7 @@ ConnectedAfterTransportBecomesAvailable
 {
 EXPECT_FALSE
 (
-provider_
+controller_
 -
 >
 IsConnected
@@ -744,7 +744,7 @@ get
 )
 )
 ;
-provider_
+controller_
 -
 >
 set_transport_available
@@ -761,7 +761,7 @@ OnTransportChannelCreated
 ;
 EXPECT_TRUE
 (
-provider_
+controller_
 -
 >
 IsConnected
@@ -954,7 +954,7 @@ closed_count
 ;
 EXPECT_FALSE
 (
-provider_
+controller_
 -
 >
 IsConnected
@@ -1031,7 +1031,7 @@ on_buffered_amount_change_count
 )
 )
 ;
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -1103,7 +1103,7 @@ on_buffered_amount_change_count
 )
 )
 ;
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -1164,7 +1164,7 @@ abcd
 "
 )
 ;
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -1194,7 +1194,7 @@ on_buffered_amount_change_count
 )
 )
 ;
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -1254,7 +1254,7 @@ abcd
 "
 )
 ;
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -1314,7 +1314,7 @@ on_buffered_amount_change_count
 )
 )
 ;
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -1462,7 +1462,7 @@ bytes_sent
 )
 )
 ;
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -1576,7 +1576,7 @@ bytes_sent
 )
 )
 ;
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -1689,7 +1689,7 @@ bytes_sent
 )
 )
 ;
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -1779,7 +1779,7 @@ DataMessageType
 :
 :
 kControl
-provider_
+controller_
 -
 >
 last_send_data_params
@@ -1791,7 +1791,7 @@ type
 ;
 EXPECT_EQ
 (
-provider_
+controller_
 -
 >
 last_sid
@@ -1812,7 +1812,7 @@ SctpDataChannelTest
 QueuedOpenMessageSent
 )
 {
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -1824,7 +1824,7 @@ SetChannelReady
 (
 )
 ;
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -1841,7 +1841,7 @@ DataMessageType
 :
 :
 kControl
-provider_
+controller_
 -
 >
 last_send_data_params
@@ -1853,7 +1853,7 @@ type
 ;
 EXPECT_EQ
 (
-provider_
+controller_
 -
 >
 last_sid
@@ -1904,7 +1904,7 @@ SctpDataChannel
 :
 Create
 (
-provider_
+controller_
 .
 get
 (
@@ -2013,7 +2013,7 @@ SctpDataChannel
 :
 Create
 (
-provider_
+controller_
 .
 get
 (
@@ -2085,7 +2085,7 @@ buffer
 ;
 EXPECT_TRUE
 (
-provider_
+controller_
 -
 >
 last_send_data_params
@@ -2158,7 +2158,7 @@ buffer
 ;
 EXPECT_FALSE
 (
-provider_
+controller_
 -
 >
 last_send_data_params
@@ -2211,7 +2211,7 @@ SctpDataChannel
 :
 Create
 (
-provider_
+controller_
 .
 get
 (
@@ -2319,7 +2319,7 @@ buffer
 ;
 EXPECT_FALSE
 (
-provider_
+controller_
 -
 >
 last_send_data_params
@@ -2347,7 +2347,7 @@ foo
 "
 )
 ;
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -2376,7 +2376,7 @@ state
 )
 )
 ;
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -2411,7 +2411,7 @@ DataMessageType
 :
 :
 kControl
-provider_
+controller_
 -
 >
 last_send_data_params
@@ -2439,7 +2439,7 @@ foo
 "
 )
 ;
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -2468,7 +2468,7 @@ state
 )
 )
 ;
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -2494,7 +2494,7 @@ state
 1000
 )
 ;
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -2517,7 +2517,7 @@ Close
 (
 )
 ;
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -2566,7 +2566,7 @@ DataMessageType
 :
 :
 kText
-provider_
+controller_
 -
 >
 last_send_data_params
@@ -2620,7 +2620,7 @@ buffer
 EXPECT_EQ
 (
 1
-provider_
+controller_
 -
 >
 last_sid
@@ -2819,7 +2819,7 @@ SctpDataChannel
 :
 Create
 (
-provider_
+controller_
 .
 get
 (
@@ -2869,7 +2869,7 @@ state
 EXPECT_EQ
 (
 0
-provider_
+controller_
 -
 >
 last_sid
@@ -3309,7 +3309,7 @@ SctpDataChannel
 :
 Create
 (
-provider_
+controller_
 .
 get
 (
@@ -3361,7 +3361,7 @@ EXPECT_EQ
 config
 .
 id
-provider_
+controller_
 -
 >
 last_sid
@@ -3378,7 +3378,7 @@ DataMessageType
 :
 :
 kControl
-provider_
+controller_
 -
 >
 last_send_data_params
@@ -3508,7 +3508,7 @@ buffer
 true
 )
 ;
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -3606,7 +3606,7 @@ abcd
 "
 )
 ;
-provider_
+controller_
 -
 >
 set_transport_error
@@ -3928,7 +3928,7 @@ SctpDataChannelTest
 NeverOpened
 )
 {
-provider_
+controller_
 -
 >
 set_transport_available
@@ -3995,7 +3995,7 @@ buffer
 true
 )
 ;
-provider_
+controller_
 -
 >
 set_send_blocked
@@ -4052,7 +4052,7 @@ OnTransportChannelClosed
 error
 )
 ;
-provider_
+controller_
 .
 reset
 (
@@ -4204,7 +4204,7 @@ OnTransportChannelClosed
 error
 )
 ;
-provider_
+controller_
 .
 reset
 (

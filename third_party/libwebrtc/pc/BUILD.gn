@@ -15761,6 +15761,10 @@ pc_test_utils
 peer_connection_internal
 "
 "
+:
+sctp_data_channel
+"
+"
 .
 .
 /
@@ -16786,7 +16790,7 @@ h
 "
 test
 /
-fake_data_channel_provider
+fake_data_channel_controller
 .
 h
 "
