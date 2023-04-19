@@ -2367,6 +2367,10 @@ finishAtoms
 (
 )
 ;
+restoreSharedAtomsZone
+(
+)
+;
 rootsHash
 .
 ref
