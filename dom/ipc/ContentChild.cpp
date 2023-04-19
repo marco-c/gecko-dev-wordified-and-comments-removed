@@ -16072,7 +16072,7 @@ RecvShutdownConfirmedHP
 CrashReporter
 :
 :
-AppendToCrashReportAnnotation
+AnnotateCrashReport
 (
 CrashReporter
 :
@@ -16111,7 +16111,7 @@ RecvShutdown
 CrashReporter
 :
 :
-AppendToCrashReportAnnotation
+AnnotateCrashReport
 (
 CrashReporter
 :
@@ -16159,7 +16159,7 @@ os
 CrashReporter
 :
 :
-AppendToCrashReportAnnotation
+AnnotateCrashReport
 (
 CrashReporter
 :
@@ -16224,7 +16224,7 @@ ShutdownInternal
 CrashReporter
 :
 :
-AppendToCrashReportAnnotation
+AnnotateCrashReport
 (
 CrashReporter
 :
@@ -16368,7 +16368,7 @@ os
 CrashReporter
 :
 :
-AppendToCrashReportAnnotation
+AnnotateCrashReport
 (
 CrashReporter
 :
@@ -16719,7 +16719,7 @@ CollectLocalPerfStatsJSON
 CrashReporter
 :
 :
-AppendToCrashReportAnnotation
+AnnotateCrashReport
 (
 CrashReporter
 :
@@ -16741,7 +16741,7 @@ StartForceKillTimer
 CrashReporter
 :
 :
-AppendToCrashReportAnnotation
+AnnotateCrashReport
 (
 CrashReporter
 :
@@ -16769,7 +16769,7 @@ SendFinishShutdown
 CrashReporter
 :
 :
-AppendToCrashReportAnnotation
+AnnotateCrashReport
 (
 CrashReporter
 :

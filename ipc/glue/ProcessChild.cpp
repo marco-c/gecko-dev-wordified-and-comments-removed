@@ -419,7 +419,7 @@ true
 CrashReporter
 :
 :
-AppendToCrashReportAnnotation
+AnnotateCrashReport
 (
 CrashReporter
 :
