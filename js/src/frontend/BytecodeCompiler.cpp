@@ -3458,7 +3458,6 @@ emitter
 .
 emplace
 (
-nullptr
 parser
 sc
 compilationState
@@ -6005,7 +6004,6 @@ false
 BytecodeEmitter
 bce
 (
-nullptr
 &
 parser
 pn
