@@ -3525,13 +3525,6 @@ IToastDismissedEventArgs
 aArgs
 )
 {
-notification
--
->
-AddRef
-(
-)
-;
 ComPtr
 <
 IToastNotification
