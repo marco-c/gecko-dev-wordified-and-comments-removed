@@ -2123,9 +2123,6 @@ release_bot
 '
 x64
 '
-'
-no_rtc_tests
-'
 ]
 #
 Windows
