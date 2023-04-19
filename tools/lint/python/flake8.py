@@ -621,6 +621,13 @@ application
 import
 Application
     
+from
+flake8
+import
+__version__
+as
+flake8_version
+    
 log
 =
 lintargs
@@ -674,9 +681,7 @@ version
 .
 format
 (
-app
-.
-version
+flake8_version
 )
 )
     
@@ -1011,27 +1016,35 @@ exclude
         
 self
 .
-args
+options
+.
+filenames
 =
 self
 .
-args
+options
+.
+filenames
 +
 list
 (
+            
 expand_exclusions
 (
 filtered
 config
 root
 )
+        
 )
         
 if
 not
 self
 .
-args
+options
+.
+filenames
 :
             
 raise
