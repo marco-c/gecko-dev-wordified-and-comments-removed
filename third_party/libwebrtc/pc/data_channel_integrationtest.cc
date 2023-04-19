@@ -178,6 +178,11 @@ GetParam
 }
 }
 ;
+GTEST_ALLOW_UNINSTANTIATED_PARAMETERIZED_TEST
+(
+DataChannelIntegrationTest
+)
+;
 class
 FakeClockForTest
 :
@@ -253,6 +258,11 @@ kPlanB
 {
 }
 }
+;
+GTEST_ALLOW_UNINSTANTIATED_PARAMETERIZED_TEST
+(
+DataChannelIntegrationTestWithFakeClock
+)
 ;
 class
 DataChannelIntegrationTestUnifiedPlan
