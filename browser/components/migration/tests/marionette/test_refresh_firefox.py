@@ -4062,12 +4062,12 @@ marionette
 .
 restart
 (
-clean
-=
-True
 in_app
 =
 False
+clean
+=
+True
 )
         
 self

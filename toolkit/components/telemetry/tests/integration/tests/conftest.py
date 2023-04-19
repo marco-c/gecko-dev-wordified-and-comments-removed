@@ -1643,7 +1643,7 @@ quit
 self
 in_app
 =
-False
+True
 )
 :
         
