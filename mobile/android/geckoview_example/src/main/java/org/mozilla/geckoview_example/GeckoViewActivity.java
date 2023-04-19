@@ -4218,7 +4218,9 @@ GeckoViewActivity
 this
 mLastID
 clickIntent
-0
+PendingIntent
+.
+FLAG_IMMUTABLE
 )
 ;
 NotificationCompat
