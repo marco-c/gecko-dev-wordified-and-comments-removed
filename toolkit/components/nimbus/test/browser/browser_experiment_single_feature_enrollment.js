@@ -77,9 +77,6 @@ branches
 feature
 :
 {
-enabled
-:
-true
 featureId
 :
 "
@@ -91,6 +88,9 @@ true
 value
 :
 {
+enabled
+:
+true
 quickSuggestEnabled
 :
 false
@@ -123,9 +123,6 @@ control
 feature
 :
 {
-enabled
-:
-true
 featureId
 :
 "
@@ -137,6 +134,9 @@ true
 value
 :
 {
+enabled
+:
+true
 quickSuggestEnabled
 :
 true

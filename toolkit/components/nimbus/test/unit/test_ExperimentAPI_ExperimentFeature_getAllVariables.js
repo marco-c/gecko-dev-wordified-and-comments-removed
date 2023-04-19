@@ -347,9 +347,6 @@ featureId
 "
 aboutwelcome
 "
-enabled
-:
-true
 value
 :
 {

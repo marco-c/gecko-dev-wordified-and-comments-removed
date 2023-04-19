@@ -1245,8 +1245,11 @@ equal
 (
 feature
 .
-isEnabled
+getVariable
 (
+"
+enabled
+"
 )
 true
 "
@@ -1279,8 +1282,11 @@ ok
 !
 feature
 .
-isEnabled
+getVariable
 (
+"
+enabled
+"
 )
 "
 Feature

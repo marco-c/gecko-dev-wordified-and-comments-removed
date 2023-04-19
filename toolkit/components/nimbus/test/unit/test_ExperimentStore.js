@@ -145,9 +145,6 @@ featureId
 "
 purple
 "
-enabled
-:
-true
 }
 ]
 }
@@ -531,9 +528,6 @@ featureId
 "
 purple
 "
-enabled
-:
-true
 }
 ]
 }
@@ -649,9 +643,6 @@ featureId
 "
 green
 "
-enabled
-:
-true
 }
 }
 }
@@ -686,9 +677,6 @@ featureId
 "
 yellow
 "
-enabled
-:
-true
 }
 }
 }
@@ -726,9 +714,6 @@ featureId
 "
 purple
 "
-enabled
-:
-true
 }
 }
 }
@@ -1517,9 +1502,6 @@ featureId
 "
 cfr
 "
-enabled
-:
-true
 }
 ]
 ;
@@ -1695,11 +1677,6 @@ featureId
 "
 newtab
 "
-enabled
-:
-"
-true
-"
 }
 ]
 }
@@ -1871,9 +1848,6 @@ featureId
 "
 aboutwelcome
 "
-enabled
-:
-true
 }
 ]
 }
@@ -1919,9 +1893,6 @@ featureId
 "
 aboutwelcome
 "
-enabled
-:
-true
 value
 :
 {
@@ -1930,6 +1901,9 @@ bar
 "
 bar
 "
+enabled
+:
+true
 }
 }
 ]
@@ -1987,6 +1961,9 @@ bar
 "
 bar
 "
+enabled
+:
+true
 }
 "
 Got
@@ -2039,9 +2016,6 @@ featureId
 "
 cfr
 "
-enabled
-:
-true
 }
 ]
 }
@@ -2136,9 +2110,6 @@ featureId
 "
 cfr
 "
-enabled
-:
-true
 isEarlyStartup
 :
 true
@@ -2265,9 +2236,6 @@ featureId
 "
 aboutwelcome
 "
-enabled
-:
-true
 }
 ]
 active
@@ -2381,9 +2349,6 @@ featureId
 "
 newtab
 "
-enabled
-:
-true
 }
 ]
 }
@@ -2409,9 +2374,6 @@ featureId
 "
 aboutwelcome
 "
-enabled
-:
-true
 }
 ]
 }
@@ -3291,9 +3253,6 @@ featureId
 "
 aboutwelcome
 "
-enabled
-:
-true
 value
 :
 {
@@ -3547,9 +3506,6 @@ featureId
 "
 aboutwelcome
 "
-enabled
-:
-true
 value
 }
 ]
@@ -3694,9 +3650,6 @@ featureId
 "
 purple
 "
-enabled
-:
-true
 }
 ]
 }
@@ -4631,9 +4584,6 @@ featureId
 "
 purple
 "
-enabled
-:
-true
 }
 ]
 }
@@ -4668,9 +4618,6 @@ featureId
 "
 purple
 "
-enabled
-:
-true
 }
 ]
 }
@@ -4705,9 +4652,6 @@ featureId
 "
 purple
 "
-enabled
-:
-true
 }
 ]
 }
@@ -4742,9 +4686,6 @@ featureId
 "
 purple
 "
-enabled
-:
-true
 }
 ]
 }

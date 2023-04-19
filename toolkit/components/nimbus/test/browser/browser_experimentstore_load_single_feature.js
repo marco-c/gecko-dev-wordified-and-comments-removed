@@ -115,9 +115,6 @@ branch
 feature
 :
 {
-enabled
-:
-true
 featureId
 :
 "

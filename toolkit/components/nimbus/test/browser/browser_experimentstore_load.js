@@ -309,9 +309,6 @@ featureId
 "
 green
 "
-enabled
-:
-true
 }
 ]
 }

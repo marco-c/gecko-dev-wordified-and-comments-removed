@@ -1037,9 +1037,6 @@ featureId
 "
 cfr
 "
-enabled
-:
-true
 value
 :
 null
@@ -2117,12 +2114,13 @@ featureId
 "
 backwardsCompat
 "
+value
+:
+{
 enabled
 :
 true
-value
-:
-null
+}
 }
 ;
 RECIPE
@@ -2375,9 +2373,6 @@ featureId
 "
 purple
 "
-enabled
-:
-true
 value
 :
 null
@@ -2624,9 +2619,6 @@ featureId
 "
 purple
 "
-enabled
-:
-true
 value
 :
 null
@@ -2881,9 +2873,6 @@ featureId
 "
 purple
 "
-enabled
-:
-true
 value
 :
 null
@@ -3121,9 +3110,6 @@ featureId
 "
 green
 "
-enabled
-:
-true
 value
 :
 null
@@ -3348,9 +3334,6 @@ featureId
 "
 green
 "
-enabled
-:
-true
 }
 ]
 }
@@ -3521,9 +3504,6 @@ featureId
 "
 green
 "
-enabled
-:
-true
 }
 ]
 }

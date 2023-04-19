@@ -2483,11 +2483,6 @@ getVariable
 newtab
 :
 {
-isEnabled
-(
-)
-{
-}
 getVariable
 (
 )
@@ -2512,11 +2507,6 @@ off
 pocketNewtab
 :
 {
-isEnabled
-(
-)
-{
-}
 getVariable
 (
 )

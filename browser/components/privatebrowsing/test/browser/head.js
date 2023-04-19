@@ -798,9 +798,6 @@ featureId
 "
 pbNewtab
 "
-enabled
-:
-true
 value
 :
 message

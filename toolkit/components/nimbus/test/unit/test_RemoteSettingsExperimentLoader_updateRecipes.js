@@ -722,9 +722,6 @@ featureId
 "
 spotlight
 "
-enabled
-:
-true
 value
 :
 {
@@ -761,9 +758,6 @@ featureId
 "
 spotlight
 "
-enabled
-:
-true
 value
 :
 {

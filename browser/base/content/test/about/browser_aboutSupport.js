@@ -399,9 +399,6 @@ ExperimentFakes
 enrollWithFeatureConfig
 (
 {
-enabled
-:
-true
 featureId
 :
 "
@@ -409,7 +406,11 @@ aboutwelcome
 "
 value
 :
-null
+{
+enabled
+:
+true
+}
 }
 )
 ;
