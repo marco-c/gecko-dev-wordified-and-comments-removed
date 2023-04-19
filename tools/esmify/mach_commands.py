@@ -1540,11 +1540,12 @@ hg
 files
 "
 f
-"
+'
 set
 :
 glob
 :
+"
 {
 path
 }
@@ -1556,6 +1557,7 @@ path
 .
 jsm
 "
+'
 ]
         
 for
@@ -1622,6 +1624,8 @@ EXPORTED_SYMBOLS
 and
 glob
 :
+\
+"
 {
 path
 }
@@ -1632,6 +1636,8 @@ path
 *
 .
 js
+\
+"
 "
         
 ]
@@ -1698,11 +1704,12 @@ hg
 files
 "
 f
-"
+'
 set
 :
 glob
 :
+"
 {
 path
 }
@@ -1714,6 +1721,7 @@ path
 .
 jsm
 "
+'
 ]
         
 for
@@ -1762,11 +1770,12 @@ hg
 files
 "
 f
-"
+'
 set
 :
 glob
 :
+"
 {
 path
 }
@@ -1778,6 +1787,7 @@ path
 .
 js
 "
+'
 ]
         
 for
@@ -1826,11 +1836,12 @@ hg
 files
 "
 f
-"
+'
 set
 :
 glob
 :
+"
 {
 path
 }
@@ -1844,6 +1855,7 @@ sys
 .
 mjs
 "
+'
 ]
         
 for
