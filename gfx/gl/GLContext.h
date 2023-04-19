@@ -13043,10 +13043,13 @@ GLContext
 >
 mSharedContext
 ;
-const
+public
+:
 PlatformThreadId
 mOwningThreadId
 ;
+protected
+:
 GLContextSymbols
 mSymbols
 =
