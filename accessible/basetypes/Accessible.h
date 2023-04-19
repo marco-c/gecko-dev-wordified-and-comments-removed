@@ -1226,10 +1226,9 @@ IsTable
 const
 {
 return
-HasGenericType
-(
+mGenericTypes
+&
 eTable
-)
 ;
 }
 bool
