@@ -1,10 +1,3 @@
-var
-Cm
-=
-Components
-.
-manager
-;
 const
 {
 EventEmitter

@@ -18,9 +18,6 @@ ril
 "
 ;
 var
-server
-;
-var
 step
 =
 0

@@ -1,8 +1,3 @@
-let
-global
-=
-this
-;
 Services
 .
 prefs

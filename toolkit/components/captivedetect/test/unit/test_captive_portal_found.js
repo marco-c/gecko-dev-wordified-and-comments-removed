@@ -11,9 +11,6 @@ wifi
 "
 ;
 var
-server
-;
-var
 step
 =
 0
