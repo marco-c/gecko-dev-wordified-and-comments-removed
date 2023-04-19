@@ -564,12 +564,15 @@ aKeyJSVal
 >
 setNumber
 (
+double
+(
 JS_GetStringLength
 (
 currentVal
 .
 toString
 (
+)
 )
 )
 )
