@@ -1604,8 +1604,9 @@ cameraId
 }
 catch
 (
-final
 CameraAccessException
+|
+IllegalArgumentException
 e
 )
 {
