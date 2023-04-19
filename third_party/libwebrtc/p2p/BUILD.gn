@@ -1943,6 +1943,14 @@ rtc_p2p
 /
 api
 :
+array_view
+"
+"
+.
+.
+/
+api
+:
 packet_socket_factory
 "
 "

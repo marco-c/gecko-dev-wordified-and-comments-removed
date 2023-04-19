@@ -390,6 +390,11 @@ Size
 return
 hex_encode
 (
+absl
+:
+:
+string_view
+(
 output
 .
 get
@@ -400,6 +405,7 @@ digest
 >
 Size
 (
+)
 )
 )
 ;
@@ -982,6 +988,11 @@ Size
 return
 hex_encode
 (
+absl
+:
+:
+string_view
+(
 output
 .
 get
@@ -992,6 +1003,7 @@ digest
 >
 Size
 (
+)
 )
 )
 ;

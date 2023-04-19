@@ -49,6 +49,17 @@ h
 #
 include
 "
+absl
+/
+strings
+/
+string_view
+.
+h
+"
+#
+include
+"
 api
 /
 array_view
@@ -2771,6 +2782,11 @@ rtc
 :
 hex_encode_with_delimiter
 (
+absl
+:
+:
+string_view
+(
 (
 const
 char
@@ -2778,6 +2794,7 @@ char
 )
 buf
 len
+)
 '
 '
 )
