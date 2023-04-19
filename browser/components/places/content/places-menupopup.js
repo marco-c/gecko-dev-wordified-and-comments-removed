@@ -2186,7 +2186,9 @@ y
 -
 this
 .
-scrollBox
+_indicatorBar
+.
+parentNode
 .
 getBoundingClientRect
 (
