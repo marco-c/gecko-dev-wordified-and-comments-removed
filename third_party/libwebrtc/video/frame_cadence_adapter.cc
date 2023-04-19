@@ -1612,6 +1612,10 @@ return
 true
 ;
 }
+ResetQualityConvergenceInfo
+(
+)
+;
 if
 (
 !
@@ -1793,6 +1797,14 @@ const
 bool
 quality_converged
 =
+!
+layer_trackers_
+.
+empty
+(
+)
+&
+&
 absl
 :
 :
