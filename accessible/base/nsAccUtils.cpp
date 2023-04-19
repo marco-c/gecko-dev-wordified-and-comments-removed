@@ -2677,6 +2677,16 @@ AsDoc
 )
 )
 {
+if
+(
+!
+aID
+)
+{
+return
+aDoc
+;
+}
 return
 doc
 -

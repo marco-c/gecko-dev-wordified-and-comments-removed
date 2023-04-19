@@ -450,6 +450,12 @@ const
 override
 {
 return
+IsDoc
+(
+)
+?
+0
+:
 reinterpret_cast
 <
 uintptr_t
