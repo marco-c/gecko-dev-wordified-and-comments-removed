@@ -137,8 +137,9 @@ resolve
 {
 result
 :
-[
-]
+testInternal
+.
+addCallReturnValue
 }
 )
 ;
@@ -203,6 +204,10 @@ null
 serviceResultCode
 :
 0
+addCallReturnValue
+:
+[
+]
 }
 class
 SubAppsServiceTestChromium
@@ -222,6 +227,7 @@ this
 initialize
 (
 service_result_code
+add_call_return_value
 )
 {
 if
@@ -247,9 +253,13 @@ true
 serviceResultCode
 :
 service_result_code
+addCallReturnValue
+:
+add_call_return_value
 }
 ;
 }
+;
 }
 async
 reset
@@ -283,6 +293,10 @@ false
 serviceResultCode
 :
 0
+addCallReturnValue
+:
+[
+]
 }
 ;
 await
