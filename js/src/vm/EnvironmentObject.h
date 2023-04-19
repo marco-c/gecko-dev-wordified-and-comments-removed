@@ -1665,8 +1665,6 @@ JSContext
 cx
 HandleFunction
 callee
-HandleFunction
-replacement
 HandleObject
 enclosing
 gc

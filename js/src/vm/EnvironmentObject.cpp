@@ -5897,8 +5897,6 @@ JSContext
 cx
 HandleFunction
 callee
-HandleFunction
-func
 HandleObject
 enclosing
 gc
@@ -6074,7 +6072,7 @@ lambdaSlot
 ObjectValue
 (
 *
-func
+callee
 )
 )
 ;
@@ -6112,7 +6110,6 @@ return
 create
 (
 cx
-callee
 callee
 nullptr
 heap
@@ -6159,7 +6156,6 @@ return
 create
 (
 cx
-fun
 fun
 enclosing
 gc
