@@ -22,4 +22,9 @@ test_basics_worker
 .
 js
 "
+"
+test_fileSystemDirectoryHandle_worker
+.
+js
+"
 ]
