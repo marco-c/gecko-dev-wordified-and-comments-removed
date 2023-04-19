@@ -249,14 +249,14 @@ estimate_dtx_delay_
 "
 estimate_dtx_delay
 "
-true
+false
 )
 time_stretch_cn_
 (
 "
 time_stretch_cn
 "
-true
+false
 )
 target_level_window_ms_
 (
