@@ -1865,8 +1865,10 @@ AppUnitsPerDevPixel
 (
 )
 ;
+RefPtr
+<
 gfxFont
-*
+>
 mathFont
 =
 fm
