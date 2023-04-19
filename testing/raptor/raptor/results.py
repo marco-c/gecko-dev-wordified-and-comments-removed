@@ -77,6 +77,12 @@ cold
 "
 webrender
 "
+    
+"
+bytecode
+-
+cached
+"
 ]
 six
 .
@@ -152,6 +158,10 @@ fission
 True
         
 perfstats
+=
+False
+        
+test_bytecode_cache
 =
 False
         
@@ -266,6 +276,12 @@ self
 perfstats
 =
 perfstats
+        
+self
+.
+test_bytecode_cache
+=
+test_bytecode_cache
         
 self
 .
@@ -427,6 +443,23 @@ cold
 "
 )
             
+if
+self
+.
+test_bytecode_cache
+:
+                
+extra_options
+.
+append
+(
+"
+bytecode
+-
+cached
+"
+)
+            
 extra_options
 .
 append
@@ -551,6 +584,27 @@ remove
 (
 "
 fission
+"
+)
+            
+if
+"
+bytecode
+-
+cached
+"
+in
+extra_options
+:
+                
+extra_options
+.
+remove
+(
+"
+bytecode
+-
+cached
 "
 )
         
