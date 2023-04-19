@@ -1470,6 +1470,13 @@ frontend
 :
 RuntimeScopeBindingCache
 ;
+friend
+struct
+gc
+:
+:
+CellAllocator
+;
 protected
 :
 BaseScopeData
