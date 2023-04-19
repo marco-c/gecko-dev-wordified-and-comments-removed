@@ -155,7 +155,7 @@ store_incoming
 (
 &
 self
-incoming_cleartexts
+incoming_payloads
 :
 &
 [
@@ -425,7 +425,7 @@ Option
 <
 u32
 >
-cleartext
+payload
 :
 String
 }
@@ -460,7 +460,7 @@ from_str
 &
 self
 .
-cleartext
+payload
 )
 ?
 ;
@@ -542,7 +542,7 @@ OutgoingEnvelope
 id
 :
 Guid
-cleartext
+payload
 :
 String
 sortindex
@@ -616,7 +616,7 @@ sortindex
 OutgoingEnvelope
 {
 id
-cleartext
+payload
 :
 payload
 .
