@@ -9158,6 +9158,17 @@ ProfileBufferChunk
 Header
 :
 :
+mStartTimeStamp
+)
++
+sizeof
+(
+ProfileBufferChunk
+:
+:
+Header
+:
+:
 mDoneTimeStamp
 )
 +

@@ -8084,6 +8084,17 @@ Double
 ;
 EXPECT_HAS_JSON
 (
+meta
+[
+"
+contentEarliestTime
+"
+]
+Double
+)
+;
+EXPECT_HAS_JSON
+(
 aRoot
 [
 "
