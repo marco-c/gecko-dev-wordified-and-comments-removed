@@ -95,8 +95,6 @@ const
 EncodedImage
 &
 source
-int
-coding_entity_id
 )
 {
 RTC_CHECK
@@ -320,8 +318,6 @@ const
 EncodedImage
 &
 source
-int
-coding_entity_id
 )
 {
 size_t

@@ -105,8 +105,6 @@ const
 EncodedImage
 &
 source
-int
-coding_entity_id
 )
 override
 ;
@@ -143,8 +141,6 @@ const
 EncodedImage
 &
 source
-int
-coding_entity_id
 )
 override
 ;

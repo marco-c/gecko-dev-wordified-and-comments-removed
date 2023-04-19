@@ -288,8 +288,6 @@ QualityAnalyzingVideoEncoder
 :
 QualityAnalyzingVideoEncoder
 (
-int
-id
 absl
 :
 :
@@ -331,10 +329,6 @@ VideoQualityAnalyzerInterface
 analyzer
 )
 :
-id_
-(
-id
-)
 peer_name_
 (
 peer_name
@@ -1332,7 +1326,6 @@ InjectData
 frame_id
 discard
 encoded_image
-id_
 )
 ;
 {
@@ -1664,12 +1657,6 @@ int
 >
 >
 stream_required_spatial_index
-IdGenerator
-<
-int
->
-*
-id_generator
 EncodedImageDataInjector
 *
 injector
@@ -1705,10 +1692,6 @@ move
 (
 stream_required_spatial_index
 )
-)
-id_generator_
-(
-id_generator
 )
 injector_
 (
@@ -1807,12 +1790,6 @@ make_unique
 QualityAnalyzingVideoEncoder
 >
 (
-id_generator_
--
->
-GetNextId
-(
-)
 peer_name_
 delegate_
 -

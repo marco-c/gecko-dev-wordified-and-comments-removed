@@ -56,8 +56,6 @@ const
 EncodedImage
 &
 source
-int
-coding_entity_id
 )
 =
 0
@@ -117,8 +115,6 @@ const
 EncodedImage
 &
 source
-int
-coding_entity_id
 )
 =
 0

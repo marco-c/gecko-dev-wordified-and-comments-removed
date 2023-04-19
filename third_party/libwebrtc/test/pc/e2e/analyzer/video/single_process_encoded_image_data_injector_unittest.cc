@@ -197,9 +197,7 @@ InjectData
 512
 false
 source
-1
 )
-2
 )
 ;
 EXPECT_EQ
@@ -328,9 +326,7 @@ InjectData
 512
 true
 source
-1
 )
-2
 )
 ;
 EXPECT_EQ
@@ -421,7 +417,6 @@ InjectData
 512
 false
 source
-1
 )
 ;
 intermediate
@@ -439,7 +434,6 @@ injector
 ExtractData
 (
 intermediate
-2
 )
 ;
 EXPECT_EQ
@@ -598,7 +592,6 @@ InjectData
 512
 false
 source
-1
 )
 ;
 intermediate
@@ -640,7 +633,6 @@ injector
 ExtractData
 (
 intermediate
-2
 )
 ;
 EXPECT_EQ
@@ -831,7 +823,6 @@ InjectData
 510
 false
 source1
-1
 )
 ;
 EncodedImage
@@ -844,7 +835,6 @@ InjectData
 520
 true
 source2
-1
 )
 ;
 EncodedImage
@@ -857,7 +847,6 @@ InjectData
 520
 false
 source3
-1
 )
 ;
 EncodedImageExtractionResult
@@ -868,7 +857,6 @@ injector
 ExtractData
 (
 intermediate3
-2
 )
 ;
 EncodedImageExtractionResult
@@ -879,7 +867,6 @@ injector
 ExtractData
 (
 intermediate1
-2
 )
 ;
 EncodedImageExtractionResult
@@ -890,7 +877,6 @@ injector
 ExtractData
 (
 intermediate2
-2
 )
 ;
 EXPECT_EQ
@@ -1171,7 +1157,6 @@ InjectData
 512
 false
 source1
-1
 )
 ;
 EncodedImage
@@ -1184,7 +1169,6 @@ InjectData
 512
 true
 source2
-1
 )
 ;
 EncodedImage
@@ -1197,7 +1181,6 @@ InjectData
 512
 false
 source3
-1
 )
 ;
 size_t
@@ -1347,7 +1330,6 @@ injector
 ExtractData
 (
 concatenated
-2
 )
 ;
 EXPECT_EQ
@@ -1578,7 +1560,6 @@ InjectData
 512
 true
 source1
-1
 )
 ;
 EncodedImage
@@ -1591,7 +1572,6 @@ InjectData
 512
 true
 source2
-1
 )
 ;
 EncodedImage
@@ -1604,7 +1584,6 @@ InjectData
 512
 true
 source3
-1
 )
 ;
 size_t
@@ -1754,7 +1733,6 @@ injector
 ExtractData
 (
 concatenated
-2
 )
 ;
 EXPECT_EQ
@@ -1883,9 +1861,7 @@ InjectData
 512
 false
 source
-1
 )
-2
 )
 ;
 EXPECT_EQ
@@ -1980,9 +1956,7 @@ InjectData
 512
 false
 source
-1
 )
-2
 )
 ;
 EXPECT_EQ
@@ -2107,7 +2081,6 @@ InjectData
 512
 false
 source
-1
 )
 ;
 injector
@@ -2124,7 +2097,6 @@ injector
 ExtractData
 (
 modified_image
-2
 )
 ;
 EXPECT_EQ
@@ -2249,7 +2221,6 @@ InjectData
 512
 false
 source
-1
 )
 ;
 injector
@@ -2257,7 +2228,6 @@ injector
 ExtractData
 (
 modified_image
-2
 )
 ;
 injector
@@ -2271,7 +2241,6 @@ injector
 ExtractData
 (
 modified_image
-2
 )
 ;
 EncodedImageExtractionResult
@@ -2282,7 +2251,6 @@ injector
 ExtractData
 (
 modified_image
-2
 )
 ;
 EXPECT_EQ
@@ -2460,7 +2428,6 @@ InjectData
 512
 false
 source
-1
 )
 ;
 injector
@@ -2471,7 +2438,6 @@ DeepCopyEncodedImage
 (
 modified
 )
-2
 )
 ;
 injector
@@ -2482,7 +2448,6 @@ DeepCopyEncodedImage
 (
 modified
 )
-2
 )
 ;
 EXPECT_DEATH
@@ -2495,7 +2460,6 @@ DeepCopyEncodedImage
 (
 modified
 )
-2
 )
 "
 Unknown

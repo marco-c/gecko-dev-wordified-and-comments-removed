@@ -118,8 +118,6 @@ QualityAnalyzingVideoDecoder
 :
 QualityAnalyzingVideoDecoder
 (
-int
-id
 absl
 :
 :
@@ -141,10 +139,6 @@ VideoQualityAnalyzerInterface
 analyzer
 )
 :
-id_
-(
-id
-)
 peer_name_
 (
 peer_name
@@ -262,7 +256,6 @@ extractor_
 ExtractData
 (
 input_image
-id_
 )
 ;
 if
@@ -1092,12 +1085,6 @@ unique_ptr
 VideoDecoderFactory
 >
 delegate
-IdGenerator
-<
-int
->
-*
-id_generator
 EncodedImageDataExtractor
 *
 extractor
@@ -1119,10 +1106,6 @@ move
 (
 delegate
 )
-)
-id_generator_
-(
-id_generator
 )
 extractor_
 (
@@ -1212,12 +1195,6 @@ make_unique
 QualityAnalyzingVideoDecoder
 >
 (
-id_generator_
--
->
-GetNextId
-(
-)
 peer_name_
 std
 :
@@ -1283,12 +1260,6 @@ make_unique
 QualityAnalyzingVideoDecoder
 >
 (
-id_generator_
--
->
-GetNextId
-(
-)
 peer_name_
 std
 :
