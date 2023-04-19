@@ -624,6 +624,7 @@ url
 '
 /
 uploads
+/
 '
 +
 upload_token
@@ -653,6 +654,17 @@ r
 %
 content
         
+if
+response
+.
+status
+!
+=
+200
+:
+            
+break
+        
 resp_json
 =
 json
@@ -663,15 +675,6 @@ content
 )
         
 if
-(
-response
-.
-status
-!
-=
-200
-or
-            
 resp_json
 [
 '
@@ -684,7 +687,6 @@ state
 COMPLETED
 '
 or
-            
 resp_json
 [
 '
@@ -696,7 +698,6 @@ state
 '
 FAILED
 '
-)
 :
             
 break
