@@ -15666,7 +15666,6 @@ false
 else
 if
 (
-!
 mStrokeOptions
 )
 {
