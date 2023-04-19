@@ -900,15 +900,6 @@ feed
 {
 feed
 }
-border
-=
-{
-this
-.
-props
-.
-border
-}
 type
 =
 {
