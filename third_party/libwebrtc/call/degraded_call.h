@@ -507,6 +507,17 @@ transport_overhead_per_packet
 override
 ;
 void
+OnLocalSsrcUpdated
+(
+AudioReceiveStream
+&
+stream
+uint32_t
+local_ssrc
+)
+override
+;
+void
 OnSentPacket
 (
 const
