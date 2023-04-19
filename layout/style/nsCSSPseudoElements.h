@@ -39,15 +39,6 @@ PseudoStyleType
 h
 "
 #
-include
-"
-mozilla
-/
-StaticPrefs_layout
-.
-h
-"
-#
 define
 CSS_PSEUDO_ELEMENT_IS_CSS2
 (

@@ -56,6 +56,15 @@ nsTArray
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticPrefs_layout
+.
+h
+"
 namespace
 mozilla
 {
