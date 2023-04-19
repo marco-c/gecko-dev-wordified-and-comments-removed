@@ -7,6 +7,7 @@ RTC_BASE_SYSTEM_NO_UNIQUE_ADDRESS_H_
 #
 if
 (
+(
 defined
 (
 __clang__
@@ -32,6 +33,14 @@ WEBRTC_IOS
 __cplusplus
 >
 201703L
+)
+&
+&
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 #
 define
 RTC_NO_UNIQUE_ADDRESS
