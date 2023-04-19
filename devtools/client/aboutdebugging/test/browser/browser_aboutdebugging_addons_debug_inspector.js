@@ -169,7 +169,6 @@ addon
 ;
 const
 {
-devtoolsTab
 devtoolsWindow
 }
 =
@@ -400,10 +399,9 @@ hidden
 )
 ;
 await
-closeAboutDevtoolsToolbox
+closeWebExtAboutDevtoolsToolbox
 (
-document
-devtoolsTab
+devtoolsWindow
 window
 )
 ;

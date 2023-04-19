@@ -210,7 +210,6 @@ document
 ;
 const
 {
-devtoolsTab
 devtoolsWindow
 }
 =
@@ -478,10 +477,9 @@ appear
 )
 ;
 await
-closeAboutDevtoolsToolbox
+closeWebExtAboutDevtoolsToolbox
 (
-document
-devtoolsTab
+devtoolsWindow
 window
 )
 ;

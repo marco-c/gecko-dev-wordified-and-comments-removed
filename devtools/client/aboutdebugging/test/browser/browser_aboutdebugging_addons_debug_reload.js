@@ -195,7 +195,6 @@ document
 const
 {
 devtoolsDocument
-devtoolsTab
 devtoolsWindow
 }
 =
@@ -665,10 +664,9 @@ waitForLoadedPanelsReload
 )
 ;
 await
-closeAboutDevtoolsToolbox
+closeWebExtAboutDevtoolsToolbox
 (
-document
-devtoolsTab
+devtoolsWindow
 window
 )
 ;
