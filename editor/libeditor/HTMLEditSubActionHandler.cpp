@@ -23068,7 +23068,7 @@ if
 NS_WARN_IF
 (
 !
-pointToPutCaret
+pointToInsertDivElement
 .
 IsSet
 (
