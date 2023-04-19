@@ -5681,13 +5681,14 @@ received_message_count
 ;
 if
 (
+!
 webrtc
 :
 :
 field_trial
 :
 :
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
