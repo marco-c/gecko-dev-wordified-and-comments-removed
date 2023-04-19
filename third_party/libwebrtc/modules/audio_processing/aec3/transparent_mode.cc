@@ -133,6 +133,8 @@ any_filter_consistent
 bool
 any_filter_converged
 bool
+any_coarse_filter_converged
+bool
 all_filters_diverged
 bool
 active_render
@@ -162,7 +164,7 @@ kConvergedNormal
 =
 0
 .
-03f
+01f
 ;
 constexpr
 float
@@ -170,7 +172,7 @@ kConvergedTransparent
 =
 0
 .
-005f
+001f
 ;
 constexpr
 float
@@ -265,7 +267,13 @@ const
 int
 out
 =
-any_filter_converged
+static_cast
+<
+int
+>
+(
+any_coarse_filter_converged
+)
 ;
 const
 float
@@ -445,6 +453,8 @@ bool
 any_filter_consistent
 bool
 any_filter_converged
+bool
+any_coarse_filter_converged
 bool
 all_filters_diverged
 bool
