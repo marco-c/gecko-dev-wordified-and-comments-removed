@@ -695,6 +695,16 @@ int64_t
 aOffset
 )
 ;
+dom
+:
+:
+HTMLMediaElement
+*
+MediaElement
+(
+)
+const
+;
 nsresult
 OpenChannel
 (
