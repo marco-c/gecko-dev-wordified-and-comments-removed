@@ -283,7 +283,7 @@ remaining_bytes
 const
 {
 return
-max_size_bytes_
+watermark_bytes_
 -
 queued_bytes_
 ;
