@@ -334,6 +334,16 @@ kParamValueTrue
 kRedCodecName
 48000
 2
+{
+{
+kCodecParamNotInNameValueFormat
+"
+111
+/
+111
+"
+}
+}
 }
 63
 }
