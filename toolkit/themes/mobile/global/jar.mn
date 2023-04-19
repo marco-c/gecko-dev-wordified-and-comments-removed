@@ -113,16 +113,3 @@ global
 aboutSupport
 .
 css
-#
-XUL
-support
-:
-skin
-/
-classic
-/
-global
-/
-tooltip
-.
-css
