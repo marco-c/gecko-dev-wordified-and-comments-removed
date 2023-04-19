@@ -1991,12 +1991,6 @@ case
 ValType
 :
 :
-Rtt
-:
-case
-ValType
-:
-:
 Ref
 :
 needRef
@@ -2347,12 +2341,6 @@ fpr
 }
 break
 ;
-case
-ValType
-:
-:
-Rtt
-:
 case
 ValType
 :

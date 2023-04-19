@@ -178,12 +178,6 @@ ValType
 :
 V128
 :
-case
-ValType
-:
-:
-Rtt
-:
 return
 ;
 case
