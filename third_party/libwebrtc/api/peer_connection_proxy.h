@@ -607,7 +607,7 @@ void
 SetAudioRecording
 bool
 )
-PROXY_METHOD1
+PROXY_WORKER_METHOD1
 (
 rtc
 :
