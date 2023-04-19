@@ -21054,6 +21054,15 @@ bytesized
 mozilla
 .
 com
+-
+telemetry
+-
+client
+-
+dev
+thunderbird
+.
+net
 release_channel_collection
 :
 opt
@@ -21064,6 +21073,10 @@ products
 -
 '
 firefox
+'
+-
+'
+thunderbird
 '
 record_in_processes
 :
