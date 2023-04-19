@@ -216,10 +216,10 @@ aIsSync
 ;
 static
 void
-SetRecordMarkers
+SetCaptureStacks
 (
 bool
-aRecordMarkers
+aCaptureStacks
 )
 ;
 bool
