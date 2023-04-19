@@ -46,11 +46,6 @@ addons
 .
 json
 "
-"
-gfx
-.
-json
-"
 ]
 else
 :
