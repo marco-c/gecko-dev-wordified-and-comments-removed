@@ -3008,7 +3008,6 @@ dummy
 stun
 .
 server
-/
 "
 }
 ;
@@ -3034,7 +3033,6 @@ dummy
 turn
 .
 server
-/
 "
 }
 ;
@@ -3169,7 +3167,6 @@ dummy
 stun
 .
 server
-/
 "
 }
 ;
@@ -3195,7 +3192,6 @@ dummy
 turn
 .
 server
-/
 "
 }
 ;
