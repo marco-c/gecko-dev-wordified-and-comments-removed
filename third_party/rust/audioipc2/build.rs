@@ -36,6 +36,10 @@ file
 "
 src
 /
+sys
+/
+unix
+/
 cmsghdr
 .
 c
