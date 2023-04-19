@@ -526,7 +526,11 @@ gfxFontEntry
 {
 MOZ_ASSERT
 (
-NS_IsMainThread
+!
+gfxFontUtils
+:
+:
+IsInServoTraversal
 (
 )
 )

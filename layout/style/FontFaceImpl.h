@@ -873,6 +873,11 @@ DoLoad
 (
 )
 ;
+void
+UpdateOwnerPromise
+(
+)
+;
 bool
 SetDescriptor
 (
