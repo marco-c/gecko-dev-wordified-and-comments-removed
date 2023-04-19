@@ -1704,9 +1704,7 @@ local_content_direction_
 )
 &
 &
-was_ever_writable
-(
-)
+was_ever_writable_
 ;
 }
 bool
