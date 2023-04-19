@@ -2258,7 +2258,7 @@ unicode
 :
 IsIdentifierStart
 (
-uint32_t
+char32_t
 (
 c
 )
@@ -2285,7 +2285,7 @@ unicode
 :
 IsIdentifierPart
 (
-uint32_t
+char32_t
 (
 c
 )

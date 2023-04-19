@@ -1519,7 +1519,7 @@ OneUcs4ToUtf8Char
 uint8_t
 *
 utf8Buffer
-uint32_t
+char32_t
 ucs4Char
 )
 ;

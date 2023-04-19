@@ -1105,7 +1105,7 @@ chars
 )
 ;
 JS_PUBLIC_API
-uint32_t
+char32_t
 Utf8ToOneUcs4Char
 (
 const

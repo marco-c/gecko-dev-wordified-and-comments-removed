@@ -204,19 +204,19 @@ TrailSurrogateMax
 0xDFFF
 ;
 const
-uint32_t
+char32_t
 UTF16Max
 =
 0xFFFF
 ;
 const
-uint32_t
+char32_t
 NonBMPMin
 =
 0x10000
 ;
 const
-uint32_t
+char32_t
 NonBMPMax
 =
 0x10FFFF
@@ -431,7 +431,7 @@ ch
 bool
 IsIdentifierStartNonBMP
 (
-uint32_t
+char32_t
 codePoint
 )
 ;
@@ -439,7 +439,7 @@ inline
 bool
 IsIdentifierStart
 (
-uint32_t
+char32_t
 codePoint
 )
 {
@@ -534,7 +534,7 @@ ch
 bool
 IsIdentifierPartNonBMP
 (
-uint32_t
+char32_t
 codePoint
 )
 ;
@@ -542,7 +542,7 @@ inline
 bool
 IsIdentifierPart
 (
-uint32_t
+char32_t
 codePoint
 )
 {
@@ -595,7 +595,7 @@ isUnicodeIDStart
 bool
 IsUnicodeIDStartNonBMP
 (
-uint32_t
+char32_t
 codePoint
 )
 ;
@@ -603,7 +603,7 @@ inline
 bool
 IsUnicodeIDStart
 (
-uint32_t
+char32_t
 codePoint
 )
 {
@@ -1565,7 +1565,7 @@ inline
 bool
 IsSupplementary
 (
-uint32_t
+char32_t
 codePoint
 )
 {
@@ -1586,7 +1586,7 @@ inline
 bool
 IsLeadSurrogate
 (
-uint32_t
+char32_t
 codePoint
 )
 {
@@ -1607,7 +1607,7 @@ inline
 bool
 IsTrailSurrogate
 (
-uint32_t
+char32_t
 codePoint
 )
 {
@@ -1628,7 +1628,7 @@ inline
 bool
 IsSurrogate
 (
-uint32_t
+char32_t
 codePoint
 )
 {
@@ -1649,7 +1649,7 @@ inline
 char16_t
 LeadSurrogate
 (
-uint32_t
+char32_t
 codePoint
 )
 {
@@ -1688,7 +1688,7 @@ inline
 char16_t
 TrailSurrogate
 (
-uint32_t
+char32_t
 codePoint
 )
 {
@@ -1717,7 +1717,7 @@ inline
 void
 UTF16Encode
 (
-uint32_t
+char32_t
 codePoint
 char16_t
 *
@@ -1756,7 +1756,7 @@ inline
 void
 UTF16Encode
 (
-uint32_t
+char32_t
 codePoint
 char16_t
 *
@@ -1826,7 +1826,7 @@ codePoint
 }
 }
 inline
-uint32_t
+char32_t
 UTF16Decode
 (
 char16_t
