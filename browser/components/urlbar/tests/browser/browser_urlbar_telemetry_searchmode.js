@@ -378,6 +378,11 @@ search
 setDefault
 (
 suggestionEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 await
@@ -486,6 +491,11 @@ search
 setDefault
 (
 originalEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 await

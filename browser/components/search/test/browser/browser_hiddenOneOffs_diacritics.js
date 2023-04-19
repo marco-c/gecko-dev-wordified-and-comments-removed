@@ -140,6 +140,11 @@ search
 setDefault
 (
 defaultEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 Services

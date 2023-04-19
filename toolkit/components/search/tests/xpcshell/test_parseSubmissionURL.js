@@ -237,6 +237,11 @@ search
 setDefault
 (
 engine1
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 for

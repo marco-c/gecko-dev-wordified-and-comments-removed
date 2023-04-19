@@ -4792,6 +4792,11 @@ getEngineByName
 (
 kSearchEngineID
 )
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 await
@@ -4809,6 +4814,11 @@ getEngineByName
 (
 kPrivateSearchEngineID
 )
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 }
@@ -4952,6 +4962,11 @@ getEngineByName
 (
 kPostSearchEngineID
 )
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 await

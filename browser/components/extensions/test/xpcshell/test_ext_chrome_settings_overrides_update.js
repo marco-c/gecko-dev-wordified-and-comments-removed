@@ -2586,6 +2586,11 @@ search
 setDefault
 (
 initialEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 let

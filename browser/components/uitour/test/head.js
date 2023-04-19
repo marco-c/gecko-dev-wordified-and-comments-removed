@@ -255,6 +255,13 @@ reason
 =
 >
 {
+console
+.
+error
+(
+reason
+)
+;
 ok
 (
 false

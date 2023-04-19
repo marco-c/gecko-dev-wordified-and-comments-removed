@@ -112,6 +112,11 @@ getEngineByName
 MozSearch
 "
 )
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 registerCleanupFunction
@@ -129,6 +134,11 @@ search
 setDefault
 (
 originalEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 await
@@ -554,6 +564,11 @@ search
 setDefaultPrivate
 (
 engine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 registerCleanupFunction
@@ -580,6 +595,11 @@ search
 setDefaultPrivate
 (
 originalEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 }

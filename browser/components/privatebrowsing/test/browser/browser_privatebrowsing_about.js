@@ -255,6 +255,11 @@ search
 setDefaultPrivate
 (
 privateEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 expectedEngineAlias
@@ -290,6 +295,11 @@ search
 setDefaultPrivate
 (
 originalPrivateDefault
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UNKNOWN
 )
 ;
 }

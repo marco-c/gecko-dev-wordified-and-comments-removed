@@ -2848,8 +2848,8 @@ Services
 .
 search
 .
-defaultEngine
-=
+setDefault
+(
 Services
 .
 search
@@ -2857,6 +2857,12 @@ search
 getEngineByName
 (
 data
+)
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_USER_SEARCHBAR
 )
 ;
 }

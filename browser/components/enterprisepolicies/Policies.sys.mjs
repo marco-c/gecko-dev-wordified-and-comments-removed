@@ -11136,6 +11136,11 @@ search
 setDefault
 (
 defaultEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_ENTERPRISE
 )
 ;
 }
@@ -11288,6 +11293,11 @@ search
 setDefaultPrivate
 (
 defaultPrivateEngine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_ENTERPRISE
 )
 ;
 }

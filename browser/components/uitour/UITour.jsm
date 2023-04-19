@@ -9800,6 +9800,11 @@ search
 setDefault
 (
 engine
+Ci
+.
+nsISearchService
+.
+CHANGE_REASON_UITOUR
 )
 .
 finally
