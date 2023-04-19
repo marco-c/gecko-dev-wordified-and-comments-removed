@@ -150,7 +150,7 @@ time_in_ms_since_last_estimate_
 AdaptiveModeLevelEstimator
 level_estimator_
 ;
-VadWithLevel
+VadLevelAnalyzer
 agc2_vad_
 ;
 float

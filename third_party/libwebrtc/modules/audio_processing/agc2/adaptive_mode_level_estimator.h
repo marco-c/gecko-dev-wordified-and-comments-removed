@@ -153,12 +153,12 @@ void
 UpdateEstimation
 (
 const
-VadWithLevel
+VadLevelAnalyzer
 :
 :
-LevelAndProbability
+Result
 &
-vad_data
+vad_level
 )
 ;
 float

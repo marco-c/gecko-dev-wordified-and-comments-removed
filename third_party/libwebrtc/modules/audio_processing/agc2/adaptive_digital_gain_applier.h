@@ -97,10 +97,10 @@ input_noise_level_dbfs
 .
 f
 ;
-VadWithLevel
+VadLevelAnalyzer
 :
 :
-LevelAndProbability
+Result
 vad_result
 ;
 float

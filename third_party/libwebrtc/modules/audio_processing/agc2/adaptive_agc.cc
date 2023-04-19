@@ -222,7 +222,7 @@ signal_with_levels
 .
 vad_result
 .
-speech_rms_dbfs
+rms_dbfs
 )
 ;
 apm_data_dumper_
@@ -237,7 +237,7 @@ signal_with_levels
 .
 vad_result
 .
-speech_peak_dbfs
+peak_dbfs
 )
 ;
 speech_level_estimator_
