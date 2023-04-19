@@ -544,6 +544,16 @@ EqualsLiteral
 flac
 "
 )
+|
+|
+codec
+.
+EqualsLiteral
+(
+"
+fLaC
+"
+)
 )
 {
 NS_ConvertUTF16toUTF8
