@@ -560,6 +560,12 @@ nss
 policy
 -
 check
+-
+f
+identifier
+-
+f
+value
 "
 POLICY_FILE
 "
