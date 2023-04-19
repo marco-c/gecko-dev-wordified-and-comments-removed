@@ -4631,14 +4631,6 @@ inbound
 rtp
 "
 &
-ssrc
-&
-kind
-&
-transport_id
-&
-codec_id
-&
 local_id
 &
 round_trip_time
