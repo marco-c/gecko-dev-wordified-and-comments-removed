@@ -49,12 +49,6 @@ absl
 gni
 "
 )
-if
-(
-!
-moz_webrtc_build
-)
-{
 absl_source_set
 (
 "
@@ -145,6 +139,12 @@ utility
 "
 ]
 }
+if
+(
+!
+moz_webrtc_build
+)
+{
 absl_source_set
 (
 "
