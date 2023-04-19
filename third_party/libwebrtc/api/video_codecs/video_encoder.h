@@ -641,6 +641,15 @@ kMaxPreferredPixelFormats
 >
 preferred_pixel_formats
 ;
+absl
+:
+:
+optional
+<
+bool
+>
+is_qp_trusted
+;
 }
 ;
 struct
