@@ -489,7 +489,7 @@ GetOurCurrentDoc
 ;
 nsIFrame
 *
-GetOurPrimaryImageFrame
+GetOurPrimaryFrame
 (
 )
 ;
