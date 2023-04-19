@@ -784,6 +784,16 @@ rtc_base
 /
 task_utils
 :
+pending_task_safety_flag
+"
+"
+.
+.
+/
+rtc_base
+/
+task_utils
+:
 to_queued_task
 "
 "
