@@ -4960,13 +4960,7 @@ GetSingleton
 >
 SendDisableNotifications
 (
-IPC
-:
-:
-Principal
-(
 mPrincipal
-)
 )
 ;
 return
@@ -5013,13 +5007,7 @@ GetSingleton
 >
 SendOpenNotificationSettings
 (
-IPC
-:
-:
-Principal
-(
 mPrincipal
-)
 )
 ;
 return

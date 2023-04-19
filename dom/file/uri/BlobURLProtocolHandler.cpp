@@ -742,13 +742,7 @@ nsCString
 aURI
 )
 ipcBlob
-IPC
-:
-:
-Principal
-(
 aPrincipal
-)
 aAgentClusterId
 )
 )
@@ -829,13 +823,7 @@ cc
 SendUnstoreAndBroadcastBlobURLUnregistration
 (
 aURI
-IPC
-:
-:
-Principal
-(
 aPrincipal
-)
 )
 )
 ;

@@ -188,13 +188,7 @@ SendSetClipboard
 (
 ipcDataTransfer
 isPrivateData
-IPC
-:
-:
-Principal
-(
 requestingPrincipal
-)
 contentPolicyType
 aWhichClipboard
 )

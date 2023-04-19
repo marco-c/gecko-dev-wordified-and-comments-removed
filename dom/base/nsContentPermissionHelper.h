@@ -68,13 +68,6 @@ class
 nsContentPermissionRequestProxy
 ;
 namespace
-IPC
-{
-class
-Principal
-;
-}
-namespace
 mozilla
 :
 :
