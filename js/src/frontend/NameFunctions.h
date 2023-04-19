@@ -9,6 +9,15 @@ include
 "
 js
 /
+Stack
+.
+h
+"
+#
+include
+"
+js
+/
 TypeDecls
 .
 h
@@ -42,7 +51,10 @@ cx
 ErrorContext
 *
 ec
-uintptr_t
+JS
+:
+:
+NativeStackLimit
 stackLimit
 ParserAtomsTable
 &

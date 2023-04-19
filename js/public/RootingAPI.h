@@ -143,6 +143,15 @@ include
 "
 js
 /
+Stack
+.
+h
+"
+#
+include
+"
+js
+/
 TypeDecls
 .
 h
@@ -4415,7 +4424,10 @@ zone_
 ;
 public
 :
-uintptr_t
+JS
+:
+:
+NativeStackLimit
 nativeStackLimit
 [
 StackKindCount

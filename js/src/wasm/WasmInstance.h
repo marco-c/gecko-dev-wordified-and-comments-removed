@@ -45,6 +45,15 @@ include
 "
 js
 /
+Stack
+.
+h
+"
+#
+include
+"
+js
+/
 TypeDecls
 .
 h
@@ -184,7 +193,10 @@ pendingExceptionTag_
 ;
 Atomic
 <
-uintptr_t
+JS
+:
+:
+NativeStackLimit
 mozilla
 :
 :
