@@ -107,12 +107,6 @@ TRI_TRUE
 TriStateBool
 ;
 const
-uint32_t
-kMaxClassNameLength
-=
-40
-;
-const
 wchar_t
 kClassNameHidden
 [
