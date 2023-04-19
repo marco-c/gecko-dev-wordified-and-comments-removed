@@ -139,6 +139,11 @@ CallStats
 (
 )
 ;
+void
+EnsureStarted
+(
+)
+;
 RtcpRttStats
 *
 AsRtcpRttStats

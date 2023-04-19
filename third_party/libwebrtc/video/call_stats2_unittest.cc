@@ -178,6 +178,12 @@ CallStats2Test
 (
 )
 {
+call_stats_
+.
+EnsureStarted
+(
+)
+;
 process_thread_
 -
 >

@@ -3494,6 +3494,13 @@ is_started_
 =
 true
 ;
+call_stats_
+-
+>
+EnsureStarted
+(
+)
+;
 transport_send_ptr_
 -
 >
