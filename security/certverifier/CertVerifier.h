@@ -579,6 +579,11 @@ bool
 isBuiltChainRootBuiltInRoot
 =
 nullptr
+bool
+*
+madeOCSPRequests
+=
+nullptr
 )
 ;
 mozilla
@@ -717,6 +722,11 @@ nullptr
 bool
 *
 isBuiltChainRootBuiltInRoot
+=
+nullptr
+bool
+*
+madeOCSPRequests
 =
 nullptr
 )

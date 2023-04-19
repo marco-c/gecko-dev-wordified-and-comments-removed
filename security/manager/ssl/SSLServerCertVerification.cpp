@@ -2344,6 +2344,9 @@ certificateTransparencyInfo
 bool
 &
 aIsBuiltCertChainRootBuiltInRoot
+bool
+&
+aMadeOCSPRequests
 )
 {
 CertVerifier
@@ -2467,6 +2470,8 @@ pinningTelemetryInfo
 certificateTransparencyInfo
 &
 aIsBuiltCertChainRootBuiltInRoot
+&
+aMadeOCSPRequests
 )
 ;
 CollectCertTelemetry
@@ -3155,6 +3160,11 @@ isCertChainRootBuiltInRoot
 =
 false
 ;
+bool
+madeOCSPRequests
+=
+false
+;
 nsTArray
 <
 nsTArray
@@ -3204,6 +3214,7 @@ builtChainBytesArray
 evStatus
 certificateTransparencyInfo
 isCertChainRootBuiltInRoot
+madeOCSPRequests
 )
 ;
 if
@@ -3282,6 +3293,7 @@ OverridableErrorCategory
 ERROR_UNSET
 isCertChainRootBuiltInRoot
 mProviderFlags
+madeOCSPRequests
 )
 ;
 return
@@ -3394,6 +3406,7 @@ finalError
 overridableErrorCategory
 false
 mProviderFlags
+madeOCSPRequests
 )
 ;
 return
@@ -4507,6 +4520,8 @@ bool
 aIsBuiltCertChainRootBuiltInRoot
 uint32_t
 aProviderFlags
+bool
+aMadeOCSPRequests
 )
 {
 mBuiltChain
@@ -4556,6 +4571,10 @@ aIsBuiltCertChainRootBuiltInRoot
 mProviderFlags
 =
 aProviderFlags
+;
+mMadeOCSPRequests
+=
+aMadeOCSPRequests
 ;
 if
 (
@@ -4776,6 +4795,14 @@ mBuiltChain
 )
 ;
 }
+mInfoObject
+-
+>
+SetMadeOCSPRequest
+(
+mMadeOCSPRequests
+)
+;
 if
 (
 mSucceeded

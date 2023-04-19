@@ -32,6 +32,8 @@ uint8_t
 aEVStatus
 bool
 isBuiltCertChainRootBuiltInRoot
+bool
+aMadeOCSPRequests
 )
 ;
 async
@@ -41,6 +43,8 @@ int32_t
 aFinalError
 uint32_t
 aOverridableErrorCategory
+bool
+aMadeOCSPRequests
 )
 ;
 async
