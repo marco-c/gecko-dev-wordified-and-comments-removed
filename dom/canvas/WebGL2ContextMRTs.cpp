@@ -542,6 +542,10 @@ float
 data
 .
 data
+.
+data
+(
+)
 )
 )
 ;
@@ -573,6 +577,10 @@ int32_t
 data
 .
 data
+.
+data
+(
+)
 )
 )
 ;
@@ -604,6 +612,10 @@ uint32_t
 data
 .
 data
+.
+data
+(
+)
 )
 )
 ;
