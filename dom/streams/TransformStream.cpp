@@ -490,7 +490,7 @@ aRv
 {
 RefPtr
 <
-TransformerAlgorithms
+TransformerAlgorithmsBase
 >
 algorithms
 =
@@ -1206,7 +1206,7 @@ Controller
 ;
 RefPtr
 <
-TransformerAlgorithms
+TransformerAlgorithmsBase
 >
 algorithms
 =
