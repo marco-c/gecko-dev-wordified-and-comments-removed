@@ -857,9 +857,9 @@ static
 NotificationPermission
 GetPermissionInternal
 (
-nsISupports
+nsPIDOMWindowInner
 *
-aGlobal
+aWindow
 ErrorResult
 &
 rv
