@@ -3590,6 +3590,10 @@ PROTOCOLS_WITHOUT_AUTHORITY
 includes
 (
 prefix
+.
+toLowerCase
+(
+)
 )
 )
 {
