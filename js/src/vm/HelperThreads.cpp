@@ -2961,16 +2961,6 @@ options
 lock
 )
 ;
-JS_SetNativeStackQuota
-(
-cx
-HelperThreadState
-(
-)
-.
-stackQuota
-)
-;
 }
 AutoSetHelperThreadContext
 :
