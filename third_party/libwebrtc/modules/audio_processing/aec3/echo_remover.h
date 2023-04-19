@@ -206,6 +206,16 @@ leakage_detected
 =
 0
 ;
+virtual
+void
+SetCaptureOutputUsage
+(
+bool
+capture_output_used
+)
+=
+0
+;
 }
 ;
 }
