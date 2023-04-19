@@ -4281,7 +4281,7 @@ test_filterWhitespace
 (
 )
 {
-var
+let
 url
 =
 stringToURL
@@ -4400,7 +4400,6 @@ hash
 "
 )
 ;
-var
 url
 =
 stringToURL
@@ -5440,7 +5439,7 @@ t
 continue
 ;
 }
-var
+let
 url
 =
 stringToURL
@@ -5550,7 +5549,7 @@ sh
 )
 ;
 }
-var
+let
 url
 =
 stringToURL
@@ -5977,7 +5976,7 @@ map
 stringToURL
 )
 ;
-var
+let
 url
 ;
 for
@@ -6239,7 +6238,6 @@ spec
 )
 ;
 }
-var
 url
 =
 stringToURL

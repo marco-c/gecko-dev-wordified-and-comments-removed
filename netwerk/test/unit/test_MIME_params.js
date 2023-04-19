@@ -3313,7 +3313,7 @@ i
 ;
 try
 {
-var
+let
 result
 ;
 if
@@ -3457,7 +3457,7 @@ i
 ;
 try
 {
-var
+let
 result
 ;
 if

@@ -779,7 +779,7 @@ gre
 ;
 for
 (
-var
+let
 spec
 of
 specs
@@ -853,7 +853,7 @@ greRoot
 }
 for
 (
-var
+let
 spec
 of
 error_specs

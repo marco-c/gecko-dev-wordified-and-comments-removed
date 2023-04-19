@@ -522,6 +522,12 @@ metadata
 response
 )
 {
+let
+authorization
+;
+let
+authPrefix
+;
 switch
 (
 requestsMade
@@ -563,7 +569,6 @@ break
 case
 1
 :
-var
 authorization
 =
 metadata
@@ -577,7 +582,6 @@ Authorization
 "
 )
 ;
-var
 authPrefix
 =
 authorization
@@ -634,7 +638,6 @@ break
 case
 2
 :
-var
 authorization
 =
 metadata
@@ -648,7 +651,6 @@ Authorization
 "
 )
 ;
-var
 authPrefix
 =
 authorization
@@ -691,7 +693,6 @@ break
 ;
 default
 :
-var
 authorization
 =
 metadata
@@ -738,6 +739,12 @@ metadata
 response
 )
 {
+let
+authorization
+;
+let
+authPrefix
+;
 switch
 (
 requestsMade
@@ -779,7 +786,6 @@ break
 case
 1
 :
-var
 authorization
 =
 metadata
@@ -793,7 +799,6 @@ Authorization
 "
 )
 ;
-var
 authPrefix
 =
 authorization
@@ -850,7 +855,6 @@ break
 case
 2
 :
-var
 authorization
 =
 metadata
@@ -864,7 +868,6 @@ Authorization
 "
 )
 ;
-var
 authPrefix
 =
 authorization
@@ -964,6 +967,12 @@ metadata
 response
 )
 {
+let
+authorization
+;
+let
+authPrefix
+;
 switch
 (
 requestsMade
@@ -1005,7 +1014,6 @@ break
 case
 1
 :
-var
 authorization
 =
 metadata
@@ -1019,7 +1027,6 @@ Authorization
 "
 )
 ;
-var
 authPrefix
 =
 authorization
@@ -1080,7 +1087,6 @@ break
 case
 2
 :
-var
 authorization
 =
 metadata
@@ -1094,7 +1100,6 @@ Authorization
 "
 )
 ;
-var
 authPrefix
 =
 authorization
