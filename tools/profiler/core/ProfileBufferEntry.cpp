@@ -1299,12 +1299,7 @@ MakeUnique
 UniqueJSONStrings
 >
 (
-FailureLatchInfallibleSource
-:
-:
-Singleton
-(
-)
+mLocalFailureLatchSource
 *
 aOther
 .
@@ -2792,10 +2787,9 @@ SpliceableJSONWriter
 writer
 (
 jw
-FailureLatchInfallibleSource
-:
-:
-Singleton
+aUniqueStrings
+.
+SourceFailureLatch
 (
 )
 )
