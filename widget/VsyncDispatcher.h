@@ -355,6 +355,11 @@ VsyncSource
 >
 mCurrentVsyncSource
 ;
+int32_t
+mVsyncSkipCounter
+=
+0
+;
 bool
 mIsObservingVsync
 =
@@ -367,11 +372,6 @@ DataMutex
 State
 >
 mState
-;
-int32_t
-mVsyncSkipCounter
-=
-0
 ;
 }
 ;
