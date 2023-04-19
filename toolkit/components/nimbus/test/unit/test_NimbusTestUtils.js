@@ -161,10 +161,10 @@ onStartup
 ;
 let
 {
+enrollmentPromise
 doExperimentCleanup
 }
 =
-await
 ExperimentFakes
 .
 enrollmentHelper
@@ -175,9 +175,12 @@ manager
 }
 )
 ;
+await
+enrollmentPromise
+;
 Assert
 .
-equal
+ok
 (
 manager
 .
@@ -188,6 +191,9 @@ getAllActive
 )
 .
 length
+=
+=
+=
 1
 "
 Enrolled
