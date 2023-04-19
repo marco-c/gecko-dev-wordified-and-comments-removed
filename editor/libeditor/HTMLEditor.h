@@ -2702,9 +2702,14 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
+Result
+<
+EditorDOMPoint
 nsresult
+>
 SplitTextNodesAtRangeEnd
 (
+const
 nsTArray
 <
 OwningNonNull
