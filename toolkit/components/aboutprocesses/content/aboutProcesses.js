@@ -5308,6 +5308,9 @@ default
 "
 ipcmessages
 "
+"
+power
+"
 ]
 [
 "
