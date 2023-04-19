@@ -473,7 +473,9 @@ search
 mode
 .
 -
-urlbar_handoff
+urlbar
+-
+handoff
 Used
 when
 searching
