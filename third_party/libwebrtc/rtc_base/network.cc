@@ -2392,13 +2392,14 @@ AllowMACBasedIPv6
 )
 bind_using_ifname_
 (
+!
 webrtc
 :
 :
 field_trial
 :
 :
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
