@@ -63,6 +63,13 @@ urlbar
 index
 BrowserUsageTelemetry
 CommandLineParameters
+app
+/
+pbproxy
+/
+docs
+/
+index
 components
 /
 enterprisepolicies

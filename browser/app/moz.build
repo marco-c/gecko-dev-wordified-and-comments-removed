@@ -447,6 +447,9 @@ DIRS
 =
 [
 "
+pbproxy
+"
+"
 winlauncher
 "
 ]
