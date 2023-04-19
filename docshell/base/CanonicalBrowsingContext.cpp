@@ -9020,7 +9020,7 @@ initialPrincipal
 NullPrincipal
 :
 :
-CreateWithInheritedAttributes
+Create
 (
 target
 -
@@ -9028,7 +9028,6 @@ target
 OriginAttributesRef
 (
 )
-false
 )
 ;
 WindowGlobalInit
