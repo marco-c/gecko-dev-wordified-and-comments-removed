@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-ed828a5477ef02c6f6ef0672784f72bd118baec3
+598b93304b1e8c8506a9ee1572ae28ddecb33f97
 '
 #
 Keep
@@ -165,7 +165,7 @@ chromium
 src
 /
 base
-27f8abf71a6c56dce6dc891331ad2de661d79654
+1fb3d1d7303ee743f6b01d04d2db34cc69a351d7
 '
 '
 src
@@ -309,7 +309,7 @@ chromium
 src
 /
 ios
-769482653f2d532d88586c6be24f122a0f87b328
+78de2e463b1569301867c05fa9c4724591731be5
 '
 '
 condition
@@ -341,7 +341,7 @@ chromium
 src
 /
 testing
-b363f6a41fd61f836250bab0d3203203acafaabf
+1295d94c884a81b92ceef142ece62d9376427c22
 '
 '
 src
@@ -365,7 +365,7 @@ chromium
 src
 /
 third_party
-871459b1cfba558ba0ccec2d93cb4ba39df535ff
+655473b8ace9efb6998737d21af163e942eaaad5
 '
 '
 src
@@ -700,7 +700,7 @@ project
 libunwind
 .
 git
-3d54d41c27afba1e3a83303c1bc005d303d40eb6
+3e0d3ec5851c065a401dfe1bb5161da6a1edb192
 '
 '
 src
@@ -942,7 +942,7 @@ com
 boringssl
 .
 git
-735a86834c375c0fc153e32127d7594a7573c924
+227ff6e6425283b83594a91a1aa81cc78f1a88df
 '
 '
 src
@@ -2006,7 +2006,7 @@ external
 perfetto
 .
 git
-fbdedcfb33db2b18f8679550a31e2a062f466dab
+1de2530cbbe478a28578869e82d2bee70db0396c
 '
 '
 src
@@ -2219,7 +2219,7 @@ com
 cisco
 /
 openh264
-b52786888ddce9d6bc06b7825ba9bffc65924e0c
+fac04ceb3e966f613ed17e98178e9d690280bba6
 '
 '
 src
@@ -2500,7 +2500,7 @@ chromium
 src
 /
 tools
-1288a08a71f1218d977481cd26cf874a77a1fe56
+e3a84ba0771f6114107917ce469903f71ad63e18
 '
 '
 src
@@ -2932,9 +2932,7 @@ version
 '
 :
 '
-N11h90BOkwT_ErtH
--
-6ZmLb5ptpWC7xllgXt3TDEphj0C
+9EARqDo1HNj2IE6F5pbKWOUSN2acBpBu04AW3SP7qAEC
 '
 }
 ]
