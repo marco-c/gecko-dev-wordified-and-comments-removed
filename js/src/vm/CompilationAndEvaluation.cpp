@@ -67,6 +67,15 @@ include
 "
 frontend
 /
+BytecodeCompiler
+.
+h
+"
+#
+include
+"
+frontend
+/
 CompilationStencil
 .
 h

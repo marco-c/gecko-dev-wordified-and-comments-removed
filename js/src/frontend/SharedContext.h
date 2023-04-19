@@ -93,15 +93,6 @@ include
 "
 vm
 /
-ErrorContext
-.
-h
-"
-#
-include
-"
-vm
-/
 FunctionFlags
 .
 h
@@ -169,6 +160,9 @@ WasmModule
 namespace
 js
 {
+class
+ErrorContext
+;
 namespace
 frontend
 {

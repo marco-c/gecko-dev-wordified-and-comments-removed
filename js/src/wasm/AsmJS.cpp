@@ -101,6 +101,15 @@ include
 "
 frontend
 /
+BytecodeCompiler
+.
+h
+"
+#
+include
+"
+frontend
+/
 FunctionSyntaxKind
 .
 h
