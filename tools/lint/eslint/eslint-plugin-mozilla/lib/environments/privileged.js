@@ -14,6 +14,9 @@ globals
 Intl
 :
 false
+WebAssembly
+:
+false
 APZHitResultFlags
 :
 false
