@@ -1068,6 +1068,14 @@ const
 0
 ;
 virtual
+void
+OnPacketSendingThreadSwitched
+(
+)
+=
+0
+;
+virtual
 RtcpMode
 RTCP
 (

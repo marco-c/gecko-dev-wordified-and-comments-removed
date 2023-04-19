@@ -379,6 +379,13 @@ end
 )
 )
 ;
+rtp_module
+-
+>
+OnPacketSendingThreadSwitched
+(
+)
+;
 if
 (
 rtp_module
@@ -564,6 +571,13 @@ last_send_module_
 nullptr
 ;
 }
+rtp_module
+-
+>
+OnPacketSendingThreadSwitched
+(
+)
+;
 }
 void
 PacketRouter
