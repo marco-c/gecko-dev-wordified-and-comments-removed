@@ -423,7 +423,7 @@ type
 {
 for
 (
-let
+const
 [
 id
 inputSource
@@ -510,7 +510,7 @@ mouse
 {
 for
 (
-let
+const
 mouseId
 of
 [
@@ -5406,7 +5406,7 @@ Map
 ;
 for
 (
-let
+const
 cls
 of
 [
@@ -6018,7 +6018,7 @@ async
 {
 for
 (
-let
+const
 tickActions
 of
 this
@@ -6105,7 +6105,7 @@ this
 ;
 for
 (
-let
+const
 actionSequence
 of
 actions
@@ -6199,7 +6199,7 @@ max
 ;
 for
 (
-let
+const
 action
 of
 this
@@ -6552,7 +6552,7 @@ this
 ;
 for
 (
-let
+const
 actionItem
 of
 actions
@@ -6777,7 +6777,7 @@ inputSource
 {
 for
 (
-let
+const
 [
 otherInputSource
 ]
