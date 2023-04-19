@@ -3020,6 +3020,9 @@ cx
 void
 *
 pc
+void
+*
+sp
 )
 {
 if
@@ -3124,6 +3127,10 @@ lastProfilingFrame
 (
 )
 ;
+endStackAddress_
+=
+fp_
+;
 MOZ_ASSERT
 (
 cx
@@ -3142,6 +3149,10 @@ pc
 )
 )
 {
+endStackAddress_
+=
+sp
+;
 return
 ;
 }
@@ -3176,6 +3187,10 @@ false
 )
 )
 {
+endStackAddress_
+=
+sp
+;
 return
 ;
 }
@@ -3335,6 +3350,10 @@ CommonFrameLayout
 fp
 )
 {
+endStackAddress_
+=
+fp
+;
 moveToNextFrame
 (
 fp

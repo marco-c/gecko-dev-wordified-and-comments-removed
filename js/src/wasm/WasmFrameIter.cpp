@@ -4582,6 +4582,10 @@ void
 )
 fp
 ;
+endStackAddress_
+=
+stackAddress_
+;
 code_
 =
 LookupCode
@@ -6461,6 +6465,12 @@ unwindState
 codeRange
 ;
 stackAddress_
+=
+state
+.
+sp
+;
+endStackAddress_
 =
 state
 .
