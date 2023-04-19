@@ -392,7 +392,7 @@ EPSILON
 =
 0
 .
-02
+01
 ;
 ParentLayerPoint
 paintedOffset
