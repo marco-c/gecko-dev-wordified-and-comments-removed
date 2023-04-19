@@ -216,10 +216,10 @@ expectedKeys
 push
 (
 "
-groupBy
+group
 "
 "
-groupByToMap
+groupToMap
 "
 )
 ;
