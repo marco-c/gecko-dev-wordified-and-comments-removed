@@ -571,6 +571,8 @@ firefoxview
 -
 tabpickup
 -
+generic
+-
 sync
 -
 error
@@ -589,6 +591,7 @@ can
 t
 reach
 the
+syncing
 service
 right
 now
