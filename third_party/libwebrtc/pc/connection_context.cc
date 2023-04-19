@@ -581,6 +581,14 @@ network_monitor_factory_
 get
 (
 )
+network_thread
+(
+)
+-
+>
+socketserver
+(
+)
 )
 ;
 default_socket_factory_
