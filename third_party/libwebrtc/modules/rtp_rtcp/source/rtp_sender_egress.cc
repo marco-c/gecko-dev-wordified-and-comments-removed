@@ -489,12 +489,6 @@ Disabled
 "
 )
 )
-deferred_sequencing_
-(
-config
-.
-use_deferred_sequencing
-)
 clock_
 (
 config
@@ -718,11 +712,6 @@ packet
 ;
 if
 (
-deferred_sequencing_
-)
-{
-if
-(
 packet
 -
 >
@@ -841,7 +830,6 @@ SequenceNumber
 (
 )
 ;
-}
 }
 RTC_DCHECK
 (

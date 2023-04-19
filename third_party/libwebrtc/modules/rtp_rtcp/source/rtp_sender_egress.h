@@ -694,10 +694,6 @@ const
 bool
 send_side_bwe_with_overhead_
 ;
-const
-bool
-deferred_sequencing_
-;
 Clock
 *
 const
