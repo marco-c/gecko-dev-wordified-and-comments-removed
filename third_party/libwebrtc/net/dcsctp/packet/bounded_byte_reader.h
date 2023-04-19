@@ -145,7 +145,7 @@ data_
 data
 )
 {
-RTC_DCHECK
+RTC_CHECK
 (
 data
 .
@@ -347,7 +347,7 @@ variable_offset
 )
 const
 {
-RTC_DCHECK
+RTC_CHECK
 (
 FixedSize
 +
