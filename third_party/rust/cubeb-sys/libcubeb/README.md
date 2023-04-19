@@ -73,7 +73,7 @@ github
 .
 com
 /
-mozilla
+kinetiknz
 /
 cubeb
 /

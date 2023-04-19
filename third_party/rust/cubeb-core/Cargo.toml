@@ -111,7 +111,7 @@ version
 .
 10
 .
-1
+0
 "
 authors
 =
@@ -130,8 +130,6 @@ com
 description
 =
 "
-"
-"
 Common
 types
 and
@@ -149,8 +147,8 @@ for
 direct
 use
 .
-"
-"
+\
+n
 "
 homepage
 =
@@ -163,7 +161,7 @@ github
 .
 com
 /
-mozilla
+djg
 /
 cubeb
 -
@@ -201,7 +199,7 @@ github
 .
 com
 /
-mozilla
+djg
 /
 cubeb
 -
@@ -235,7 +233,7 @@ version
 .
 10
 .
-1
+0
 "
 [
 features
@@ -269,7 +267,7 @@ ci
 repository
 =
 "
-mozilla
+djg
 /
 cubeb
 -

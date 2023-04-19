@@ -111,7 +111,7 @@ version
 .
 10
 .
-1
+0
 "
 authors
 =
@@ -165,7 +165,7 @@ github
 .
 com
 /
-mozilla
+djg
 /
 cubeb
 -
@@ -224,7 +224,7 @@ ci
 repository
 =
 "
-mozilla
+djg
 /
 cubeb
 -
