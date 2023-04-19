@@ -10444,6 +10444,13 @@ observer_
 =
 nullptr
 ;
+sdp_handler_
+-
+>
+PrepareForShutdown
+(
+)
+;
 }
 void
 PeerConnection
