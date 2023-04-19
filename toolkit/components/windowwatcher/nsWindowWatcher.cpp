@@ -2739,13 +2739,13 @@ RefPtr
 <
 BrowsingContext
 >
-newBC
+targetBC
 ;
 nsCOMPtr
 <
 nsPIDOMWindowOuter
 >
-parentWindow
+parentOuterWin
 =
 aParent
 ?
@@ -2794,12 +2794,12 @@ NS_ERROR_FAILURE
 }
 if
 (
-parentWindow
+parentOuterWin
 )
 {
 parentTreeOwner
 =
-parentWindow
+parentOuterWin
 -
 >
 GetTreeOwner
@@ -2937,9 +2937,9 @@ BrowsingContext
 >
 parentBC
 (
-parentWindow
+parentOuterWin
 ?
-parentWindow
+parentOuterWin
 -
 >
 GetBrowsingContext
@@ -2984,7 +2984,7 @@ return
 NS_ERROR_ABORT
 ;
 }
-newBC
+targetBC
 =
 GetBrowsingContextByName
 (
@@ -3003,7 +3003,7 @@ parentBC
 >
 IsSandboxedFrom
 (
-newBC
+targetBC
 )
 )
 {
@@ -3013,12 +3013,12 @@ NS_ERROR_DOM_INVALID_ACCESS_ERR
 }
 if
 (
-newBC
+targetBC
 &
 &
 NS_WARN_IF
 (
-newBC
+targetBC
 -
 >
 GetPendingInitialization
@@ -3048,7 +3048,7 @@ Document
 *
 doc
 =
-parentWindow
+parentOuterWin
 -
 >
 GetDoc
@@ -3492,7 +3492,7 @@ newWindowPrincipal
 if
 (
 !
-newBC
+targetBC
 )
 {
 if
@@ -3604,7 +3604,7 @@ openWindowInfo
 if
 (
 !
-newBC
+targetBC
 &
 &
 !
@@ -3745,7 +3745,7 @@ coepToInheritForAboutBlank
 if
 (
 !
-newBC
+targetBC
 )
 {
 windowNeedsName
@@ -3763,7 +3763,7 @@ Document
 *
 doc
 =
-parentWindow
+parentOuterWin
 -
 >
 GetDoc
@@ -3908,7 +3908,7 @@ aLoadState
 windowIsNew
 getter_AddRefs
 (
-newBC
+targetBC
 )
 )
 ;
@@ -3920,7 +3920,7 @@ rv
 )
 &
 &
-newBC
+targetBC
 )
 {
 nsCOMPtr
@@ -3929,7 +3929,7 @@ nsIDocShell
 >
 newDocShell
 =
-newBC
+targetBC
 -
 >
 GetDocShell
@@ -3954,7 +3954,7 @@ newDocShell
 )
 )
 {
-newBC
+targetBC
 =
 nullptr
 ;
@@ -3994,7 +3994,7 @@ false
 if
 (
 !
-newBC
+targetBC
 )
 {
 if
@@ -4202,7 +4202,7 @@ parentTopInnerWindow
 ;
 if
 (
-parentWindow
+parentOuterWin
 )
 {
 nsCOMPtr
@@ -4211,7 +4211,7 @@ nsPIDOMWindowOuter
 >
 parentTopWindow
 =
-parentWindow
+parentOuterWin
 -
 >
 GetInProcessTop
@@ -4336,7 +4336,7 @@ rv
 NS_ERROR_FAILURE
 ;
 }
-newBC
+targetBC
 =
 newDocShellItem
 -
@@ -4351,7 +4351,7 @@ GetBrowsingContext
 if
 (
 !
-newBC
+targetBC
 )
 {
 return
@@ -4368,7 +4368,7 @@ parentBC
 {
 MOZ_ALWAYS_SUCCEEDS
 (
-newBC
+targetBC
 -
 >
 SetOnePermittedSandboxedNavigator
@@ -4392,7 +4392,7 @@ if
 windowIsNew
 &
 &
-newBC
+targetBC
 -
 >
 IsContent
@@ -4412,7 +4412,7 @@ IsDiscarded
 {
 MOZ_RELEASE_ASSERT
 (
-newBC
+targetBC
 -
 >
 GetOpenerId
@@ -4428,7 +4428,7 @@ Id
 )
 |
 |
-newBC
+targetBC
 -
 >
 GetOpenerId
@@ -4444,7 +4444,7 @@ else
 {
 MOZ_RELEASE_ASSERT
 (
-newBC
+targetBC
 -
 >
 GetOpenerId
@@ -4462,7 +4462,7 @@ Id
 ;
 MOZ_RELEASE_ASSERT
 (
-newBC
+targetBC
 -
 >
 HadOriginalOpener
@@ -4474,7 +4474,7 @@ HadOriginalOpener
 }
 else
 {
-newBC
+targetBC
 -
 >
 SetOpener
@@ -4488,14 +4488,14 @@ RefPtr
 <
 nsDocShell
 >
-newDocShell
+targetDocShell
 (
 nsDocShell
 :
 :
 Cast
 (
-newBC
+targetBC
 -
 >
 GetDocShell
@@ -4510,7 +4510,7 @@ MOZ_DIAGNOSTIC_ASSERT
 windowIsNew
 |
 |
-newDocShell
+targetDocShell
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -4519,7 +4519,7 @@ MOZ_DIAGNOSTIC_ASSERT
 isNewToplevelWindow
 |
 |
-newDocShell
+targetDocShell
 )
 ;
 if
@@ -4545,7 +4545,7 @@ windows
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-newBC
+targetBC
 -
 >
 SetSandboxFlags
@@ -4556,12 +4556,12 @@ activeDocsSandboxFlags
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-newBC
+targetBC
 -
 >
 SetInitialSandboxFlags
 (
-newBC
+targetBC
 -
 >
 GetSandboxFlags
@@ -4575,14 +4575,14 @@ RefPtr
 <
 nsGlobalWindowOuter
 >
-win
+targetOuterWin
 (
 nsGlobalWindowOuter
 :
 :
 Cast
 (
-newBC
+targetBC
 -
 >
 GetDOMWindow
@@ -4596,7 +4596,7 @@ ifdef
 DEBUG
 if
 (
-win
+targetOuterWin
 &
 &
 windowIsNew
@@ -4608,7 +4608,7 @@ nsIChannel
 >
 chan
 ;
-newDocShell
+targetDocShell
 -
 >
 GetDocumentChannel
@@ -4642,7 +4642,7 @@ Document
 >
 doc
 =
-win
+targetOuterWin
 -
 >
 GetExtantDoc
@@ -4678,7 +4678,7 @@ document
 endif
 MOZ_ASSERT
 (
-win
+targetOuterWin
 |
 |
 !
@@ -4700,7 +4700,7 @@ aResult
 =
 do_AddRef
 (
-newBC
+targetBC
 )
 .
 take
@@ -4718,7 +4718,7 @@ nsIDocShellTreeOwner
 >
 newTreeOwner
 ;
-newDocShell
+targetDocShell
 -
 >
 GetTreeOwner
@@ -4746,18 +4746,18 @@ aArgv
 {
 MOZ_ASSERT
 (
-win
+targetOuterWin
 )
 ;
 NS_ENSURE_TRUE
 (
-win
+targetOuterWin
 NS_ERROR_UNEXPECTED
 )
 ;
 MOZ_TRY
 (
-win
+targetOuterWin
 -
 >
 SetArguments
@@ -4790,7 +4790,7 @@ _blank
 {
 MOZ_ALWAYS_SUCCEEDS
 (
-newBC
+targetBC
 -
 >
 SetName
@@ -4804,7 +4804,7 @@ else
 {
 MOZ_ALWAYS_SUCCEEDS
 (
-newBC
+targetBC
 -
 >
 SetName
@@ -4826,7 +4826,7 @@ windowIsNew
 MOZ_DIAGNOSTIC_ASSERT
 (
 !
-newBC
+targetBC
 -
 >
 IsContent
@@ -4843,7 +4843,7 @@ OriginAttributesRef
 .
 EqualsIgnoringFPD
 (
-newBC
+targetBC
 -
 >
 OriginAttributesRef
@@ -4887,7 +4887,7 @@ CHROME_NON_PRIVATE_WINDOW
 {
 if
 (
-newBC
+targetBC
 -
 >
 IsChrome
@@ -4895,7 +4895,7 @@ IsChrome
 )
 )
 {
-newBC
+targetBC
 -
 >
 SetUsePrivateBrowsing
@@ -4907,7 +4907,7 @@ false
 MOZ_DIAGNOSTIC_ASSERT
 (
 !
-newBC
+targetBC
 -
 >
 UsePrivateBrowsing
@@ -4942,7 +4942,7 @@ CHROME_PRIVATE_WINDOW
 {
 if
 (
-newBC
+targetBC
 -
 >
 IsChrome
@@ -4950,7 +4950,7 @@ IsChrome
 )
 )
 {
-newBC
+targetBC
 -
 >
 SetUsePrivateBrowsing
@@ -4961,7 +4961,7 @@ true
 }
 MOZ_DIAGNOSTIC_ASSERT
 (
-newBC
+targetBC
 -
 >
 UsePrivateBrowsing
@@ -4982,10 +4982,10 @@ window
 }
 NS_ASSERTION
 (
-win
+targetOuterWin
 =
 =
-newDocShell
+targetDocShell
 -
 >
 GetWindow
@@ -5001,7 +5001,7 @@ windows
 ;
 if
 (
-win
+targetOuterWin
 )
 {
 MOZ_ASSERT
@@ -5012,7 +5012,7 @@ windowIsNew
 MOZ_ASSERT
 (
 !
-win
+targetOuterWin
 -
 >
 GetSameProcessOpener
@@ -5020,7 +5020,7 @@ GetSameProcessOpener
 )
 |
 |
-win
+targetOuterWin
 -
 >
 GetSameProcessOpener
@@ -5031,7 +5031,7 @@ GetSameProcessOpener
 aParent
 )
 ;
-win
+targetOuterWin
 -
 >
 SetInitialPrincipal
@@ -5049,7 +5049,7 @@ aIsPopupSpam
 MOZ_ASSERT
 (
 !
-newBC
+targetBC
 -
 >
 GetIsPopupSpam
@@ -5072,7 +5072,7 @@ already
 if
 (
 !
-newBC
+targetBC
 -
 >
 GetIsPopupSpam
@@ -5082,7 +5082,7 @@ GetIsPopupSpam
 {
 MOZ_ALWAYS_SUCCEEDS
 (
-newBC
+targetBC
 -
 >
 SetIsPopupSpam
@@ -5097,7 +5097,7 @@ true
 }
 MOZ_DIAGNOSTIC_ASSERT
 (
-newBC
+targetBC
 -
 >
 UseRemoteTabs
@@ -5119,7 +5119,7 @@ CHROME_REMOTE_WINDOW
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-newBC
+targetBC
 -
 >
 UseRemoteSubframes
@@ -5143,11 +5143,11 @@ nsCOMPtr
 <
 nsPIDOMWindowInner
 >
-pInnerWin
+parentInnerWin
 =
-parentWindow
+parentOuterWin
 ?
-parentWindow
+parentOuterWin
 -
 >
 GetCurrentInnerWindow
@@ -5201,9 +5201,9 @@ WindowContext
 >
 context
 =
-pInnerWin
+parentInnerWin
 ?
-pInnerWin
+parentInnerWin
 -
 >
 GetWindowContext
@@ -5323,12 +5323,12 @@ if
 doc
 &
 &
-parentWindow
+parentOuterWin
 )
 {
 doc
 =
-parentWindow
+parentOuterWin
 -
 >
 GetExtantDoc
@@ -5445,7 +5445,7 @@ NotifyObservers
 (
 ToSupports
 (
-win
+targetOuterWin
 )
 "
 toplevel
@@ -5461,10 +5461,10 @@ nullptr
 }
 MOZ_ASSERT_IF
 (
-newDocShell
+targetDocShell
 CheckUserContextCompatibility
 (
-newDocShell
+targetDocShell
 )
 )
 ;
@@ -5557,7 +5557,7 @@ createdTabDocShell
 _ns
 ToSupports
 (
-newDocShell
+targetDocShell
 )
 )
 ;
@@ -5648,7 +5648,7 @@ SetFirstParty
 true
 )
 ;
-newBC
+targetBC
 -
 >
 LoadURI
@@ -5669,7 +5669,7 @@ subjectPrincipal
 parentDocShell
 &
 &
-newDocShell
+targetDocShell
 )
 {
 const
@@ -5698,7 +5698,7 @@ SessionStorageManager
 >
 newStorageManager
 =
-newDocShell
+targetDocShell
 -
 >
 GetBrowsingContext
@@ -5729,10 +5729,10 @@ parentStorageManager
 >
 GetStorage
 (
-pInnerWin
+parentInnerWin
 subjectPrincipal
 subjectPrincipal
-newBC
+targetBC
 -
 >
 UsePrivateBrowsing
@@ -5771,7 +5771,7 @@ nsIDocShellTreeOwner
 >
 newTreeOwner
 ;
-newDocShell
+targetDocShell
 -
 >
 GetTreeOwner
@@ -5798,7 +5798,7 @@ windowIsModal
 {
 NS_ENSURE_TRUE
 (
-newDocShell
+targetDocShell
 NS_ERROR_NOT_IMPLEMENTED
 )
 ;
@@ -5808,7 +5808,7 @@ nsIDocShellTreeOwner
 >
 newTreeOwner
 ;
-newDocShell
+targetDocShell
 -
 >
 GetTreeOwner
@@ -5840,7 +5840,7 @@ NS_ERROR_NOT_AVAILABLE
 nsAutoWindowStateHelper
 windowStateHelper
 (
-parentWindow
+parentOuterWin
 )
 ;
 if
@@ -5987,7 +5987,7 @@ hasChromeParent
 isCallerChrome
 &
 &
-parentWindow
+parentOuterWin
 )
 {
 Document
@@ -5995,7 +5995,7 @@ Document
 :
 AsyncExitFullscreen
 (
-parentWindow
+parentOuterWin
 -
 >
 GetDoc
