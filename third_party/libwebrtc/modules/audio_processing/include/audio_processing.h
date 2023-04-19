@@ -772,6 +772,11 @@ crest_factor_margin
 .
 0f
 ;
+bool
+use_predicted_step
+=
+true
+;
 }
 clipping_predictor
 ;

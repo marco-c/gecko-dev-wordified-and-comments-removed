@@ -156,6 +156,10 @@ clipping_predictor
 "
 "
 :
+clipping_predictor_evaluator
+"
+"
+:
 gain_control_interface
 "
 "
