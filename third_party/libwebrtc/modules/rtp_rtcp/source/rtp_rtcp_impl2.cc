@@ -259,7 +259,16 @@ Current
 )
 rtcp_sender_
 (
+RTCPSender
+:
+:
+Configuration
+:
+:
+FromRtpRtcpConfiguration
+(
 configuration
+)
 )
 rtcp_receiver_
 (
