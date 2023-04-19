@@ -264,7 +264,7 @@ defineModuleGetter
 (
 globalThis
 "
-Services
+AppConstants
 "
 "
 resource
@@ -275,7 +275,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 jsm
 "
@@ -290,7 +290,7 @@ defineESMGetters
 (
 globalThis
 {
-Services
+AppConstants
 :
 "
 resource
@@ -301,7 +301,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 sys
 .
@@ -319,7 +319,7 @@ defineLazyModuleGetter
 (
 globalThis
 "
-Services
+AppConstants
 "
 "
 resource
@@ -330,7 +330,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 jsm
 "
@@ -345,7 +345,7 @@ defineLazyModuleGetters
 (
 globalThis
 {
-Services
+AppConstants
 :
 "
 resource
@@ -356,7 +356,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 jsm
 "

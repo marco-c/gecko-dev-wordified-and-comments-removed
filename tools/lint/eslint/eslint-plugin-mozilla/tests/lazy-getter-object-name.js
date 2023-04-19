@@ -114,7 +114,7 @@ defineESModuleGetters
 (
 lazy
 {
-Services
+AppConstants
 :
 "
 resource
@@ -125,7 +125,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 sys
 .
@@ -146,7 +146,7 @@ defineESModuleGetters
 (
 obj
 {
-Services
+AppConstants
 :
 "
 resource
@@ -157,7 +157,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 sys
 .
@@ -175,7 +175,7 @@ defineESModuleGetters
 (
 this
 {
-Services
+AppConstants
 :
 "
 resource
@@ -186,7 +186,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 sys
 .
@@ -204,7 +204,7 @@ defineESModuleGetters
 (
 window
 {
-Services
+AppConstants
 :
 "
 resource
@@ -215,7 +215,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 sys
 .
