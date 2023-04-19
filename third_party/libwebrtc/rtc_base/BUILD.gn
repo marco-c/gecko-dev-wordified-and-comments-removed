@@ -1102,6 +1102,14 @@ deps
 :
 macromagic
 "
+"
+.
+.
+/
+api
+:
+scoped_refptr
+"
 ]
 }
 rtc_library
