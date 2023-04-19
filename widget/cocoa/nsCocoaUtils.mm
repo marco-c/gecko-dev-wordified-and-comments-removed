@@ -2246,10 +2246,7 @@ MOZ_ASSERT
 context
 )
 ;
-Maybe
-<
 SVGImageContext
->
 svgContext
 ;
 if

@@ -1982,15 +1982,8 @@ TYPE_VECTOR
 )
 {
 const
-Maybe
-<
 SVGImageContext
->
 context
-(
-Some
-(
-SVGImageContext
 (
 Some
 (
@@ -2012,8 +2005,6 @@ mPreserveAspectRatio
 .
 GetAnimValue
 (
-)
-)
 )
 )
 )
@@ -2109,7 +2100,7 @@ aDirtyRect
 dirtyRect
 :
 nullptr
-Nothing
+SVGImageContext
 (
 )
 flags
@@ -3011,10 +3002,7 @@ align
 }
 }
 }
-Maybe
-<
 SVGImageContext
->
 svgContext
 ;
 if
@@ -3054,7 +3042,7 @@ FLAG_RECORD_BLOB
 }
 svgContext
 .
-emplace
+SetViewportSize
 (
 Some
 (
@@ -3067,6 +3055,12 @@ width
 height
 )
 )
+)
+;
+svgContext
+.
+SetPreserveAspectRatio
+(
 Some
 (
 imgElem

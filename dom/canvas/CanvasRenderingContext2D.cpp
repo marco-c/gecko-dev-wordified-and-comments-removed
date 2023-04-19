@@ -27011,10 +27011,7 @@ SamplingFilter
 :
 :
 GOOD
-Some
-(
 svgContext
-)
 modifiedFlags
 CurrentState
 (

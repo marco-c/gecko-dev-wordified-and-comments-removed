@@ -2422,10 +2422,7 @@ IntSize
 &
 aSize
 const
-Maybe
-<
 SVGImageContext
->
 &
 aSVGContext
 const
@@ -5747,10 +5744,7 @@ aWhichFrame
 SamplingFilter
 aSamplingFilter
 const
-Maybe
-<
 SVGImageContext
->
 &
 uint32_t
 aFlags

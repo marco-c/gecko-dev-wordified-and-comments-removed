@@ -4452,10 +4452,7 @@ const
 mozilla
 :
 :
-Maybe
-<
 SVGImageContext
->
 &
 aSVGContext
 uint32_t
@@ -4495,10 +4492,7 @@ const
 mozilla
 :
 :
-Maybe
-<
 SVGImageContext
->
 &
 aSVGContext
 uint32_t
@@ -4602,10 +4596,7 @@ aFlags
 mozilla
 :
 :
-Maybe
-<
 SVGImageContext
->
 &
 aSVGContext
 mozilla

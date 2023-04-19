@@ -8803,7 +8803,7 @@ this
 )
 dest
 aDirtyRect
-Nothing
+SVGImageContext
 (
 )
 aFlags
@@ -9765,10 +9765,7 @@ factor
 )
 )
 ;
-Maybe
-<
 SVGImageContext
->
 svgContext
 ;
 Maybe
@@ -11198,10 +11195,7 @@ factor
 )
 )
 ;
-Maybe
-<
 SVGImageContext
->
 svgContext
 ;
 Maybe
@@ -11606,10 +11600,7 @@ StylePosition
 anchorPoint
 )
 ;
-Maybe
-<
 SVGImageContext
->
 svgContext
 ;
 SVGImageContext
