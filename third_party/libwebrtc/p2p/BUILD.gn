@@ -794,6 +794,14 @@ network_constants
 /
 rtc_base
 :
+rate_tracker
+"
+"
+.
+.
+/
+rtc_base
+:
 refcount
 "
 "
