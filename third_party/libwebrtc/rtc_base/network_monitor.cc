@@ -7,6 +7,15 @@ network_monitor
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+checks
+.
+h
+"
 namespace
 rtc
 {
@@ -47,6 +56,11 @@ NOT_PREFERRED
 "
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 NetworkMonitorInterface
 :

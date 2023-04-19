@@ -200,5 +200,10 @@ VideoRtpDepacketizerGeneric
 )
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 }

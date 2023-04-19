@@ -8921,6 +8921,11 @@ return
 audio_recv_codecs_
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 const
 AudioCodecs
@@ -8995,6 +9000,11 @@ return
 audio_recv_codecs_
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 const
 VideoCodecs
@@ -9056,6 +9066,11 @@ return
 video_recv_codecs_
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 const
 VideoCodecs
@@ -9130,6 +9145,11 @@ return
 video_recv_codecs_
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 void
 MergeCodecsFromDescription

@@ -293,6 +293,11 @@ cpu
 "
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 }
 class

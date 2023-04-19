@@ -111,6 +111,11 @@ flexfec
 "
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 }
 VideoSendStream

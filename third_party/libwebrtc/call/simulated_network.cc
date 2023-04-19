@@ -339,6 +339,11 @@ return
 false
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 SimulatedNetwork
 :

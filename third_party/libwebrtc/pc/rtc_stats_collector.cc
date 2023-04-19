@@ -1258,6 +1258,11 @@ RTCQualityLimitationReason
 kOther
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 double
 DoubleAudioLevelFromIntAudioLevel

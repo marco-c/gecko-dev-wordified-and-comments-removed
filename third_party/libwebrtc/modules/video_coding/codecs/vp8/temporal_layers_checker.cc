@@ -122,6 +122,11 @@ num_temporal_layers
 )
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 TemporalLayersChecker
 :

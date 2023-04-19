@@ -818,6 +818,11 @@ get
 )
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 void
 PrimeEncoder
@@ -1610,6 +1615,11 @@ frame_types
 )
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 int32_t
 VideoEncoderSoftwareFallbackWrapper

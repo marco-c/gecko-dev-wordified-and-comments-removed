@@ -604,6 +604,11 @@ return
 false
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 bool
 HasBweExtension

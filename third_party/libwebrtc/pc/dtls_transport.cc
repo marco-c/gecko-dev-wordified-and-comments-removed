@@ -102,6 +102,11 @@ DtlsTransportState
 kFailed
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 }
 DtlsTransport

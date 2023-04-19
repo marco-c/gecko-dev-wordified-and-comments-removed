@@ -1627,6 +1627,11 @@ Unknown
 "
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 RtpPacketType
 InferRtpPacketType

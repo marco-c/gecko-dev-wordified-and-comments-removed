@@ -571,6 +571,11 @@ return
 kPayloadNameGeneric
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 VideoCodecType
 PayloadStringToCodecType

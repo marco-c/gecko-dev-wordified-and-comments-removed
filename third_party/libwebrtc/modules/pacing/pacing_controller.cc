@@ -389,6 +389,11 @@ kFirstPriority
 4
 ;
 }
+RTC_CHECK
+(
+false
+)
+;
 }
 }
 const
