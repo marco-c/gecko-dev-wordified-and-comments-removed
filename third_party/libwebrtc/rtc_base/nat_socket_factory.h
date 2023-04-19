@@ -354,7 +354,7 @@ internal_factory
 )
 {
 return
-internal_factory_
+internal_server_
 .
 get
 (
@@ -462,9 +462,9 @@ std
 :
 unique_ptr
 <
-SocketFactory
+SocketServer
 >
-internal_factory_
+internal_server_
 ;
 std
 :

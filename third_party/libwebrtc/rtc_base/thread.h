@@ -1247,14 +1247,6 @@ doomed
 ;
 }
 }
-sigslot
-:
-:
-signal0
-<
->
-SignalQueueDestroyed
-;
 bool
 IsCurrent
 (
