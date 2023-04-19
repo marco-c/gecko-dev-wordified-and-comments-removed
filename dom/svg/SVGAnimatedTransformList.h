@@ -34,10 +34,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
 SVGTransformList
 .
 h

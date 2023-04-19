@@ -14,10 +14,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
 SVGAnimatedLength
 .
 h
@@ -25,10 +21,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
 SVGAnimatedString
 .
 h
@@ -36,10 +28,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
 SVGGeometryElement
 .
 h
@@ -47,10 +35,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
 SVGAnimatedPreserveAspectRatio
 .
 h
