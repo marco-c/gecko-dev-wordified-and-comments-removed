@@ -250,6 +250,8 @@ std
 string
 >
 stream_ids
+bool
+is_unified_plan
 )
 ;
 AudioRtpReceiver
@@ -283,6 +285,8 @@ MediaStreamInterface
 >
 &
 streams
+bool
+is_unified_plan
 )
 ;
 virtual
