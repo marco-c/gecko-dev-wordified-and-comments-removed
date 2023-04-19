@@ -357,7 +357,7 @@ Entry
 256
 >
 mEntries
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )

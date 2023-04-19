@@ -382,7 +382,7 @@ nsCOMPtr
 nsIEventTarget
 >
 mTarget
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mQueueMonitor
 )
@@ -392,7 +392,7 @@ UniquePtr
 TaskQueueTrackerEntry
 >
 mTrackerEntry
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mQueueMonitor
 )
@@ -421,7 +421,7 @@ Queue
 TaskStruct
 >
 mTasks
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mQueueMonitor
 )
@@ -434,7 +434,7 @@ nsITargetShutdownTask
 >
 >
 mShutdownTasks
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mQueueMonitor
 )
@@ -609,14 +609,14 @@ mTailDispatcher
 ;
 bool
 mIsRunning
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mQueueMonitor
 )
 ;
 bool
 mIsShutdown
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mQueueMonitor
 )
@@ -626,7 +626,7 @@ MozPromiseHolder
 ShutdownPromise
 >
 mShutdownPromise
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mQueueMonitor
 )
@@ -762,7 +762,7 @@ LinkedList
 TaskQueueTrackerEntry
 >
 mEntries
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )

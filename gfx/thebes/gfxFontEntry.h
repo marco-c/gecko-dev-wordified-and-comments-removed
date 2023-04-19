@@ -1856,7 +1856,7 @@ gfxFont
 *
 >
 mFontsUsingSVGGlyphs
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -1885,7 +1885,7 @@ bool
 >
 >
 mSupportedFeatures
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mFeatureInfoLock
 )
@@ -1903,7 +1903,7 @@ hb_set_t
 >
 >
 mFeatureInputs
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mFeatureInfoLock
 )
@@ -2425,7 +2425,7 @@ bool
 ParseTrakTable
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -3192,7 +3192,7 @@ gfxFontEntry
 GetFontList
 (
 )
-REQUIRES_SHARED
+MOZ_REQUIRES_SHARED
 (
 mLock
 )
@@ -3205,7 +3205,7 @@ void
 ReadLock
 (
 )
-ACQUIRE_SHARED
+MOZ_ACQUIRE_SHARED
 (
 mLock
 )
@@ -3221,7 +3221,7 @@ void
 ReadUnlock
 (
 )
-RELEASE_SHARED
+MOZ_RELEASE_SHARED
 (
 mLock
 )
@@ -3290,7 +3290,7 @@ gfxFontEntry
 >
 aFontEntry
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -3564,7 +3564,7 @@ aFontInfoData
 =
 nullptr
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -3669,7 +3669,7 @@ void
 ResetCharacterMap
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -3749,7 +3749,7 @@ void
 SortAvailableFonts
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -3758,7 +3758,7 @@ void
 CheckForSimpleFamily
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -3909,7 +3909,7 @@ void
 SetBadUnderlineFonts
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -3949,14 +3949,14 @@ gfxFontEntry
 >
 >
 mAvailableFonts
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
 ;
 gfxSparseBitSet
 mFamilyCharacterMap
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -4029,7 +4029,7 @@ bool
 mIsSimpleFamily
 :
 1
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )

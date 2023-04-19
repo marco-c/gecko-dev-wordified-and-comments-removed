@@ -347,7 +347,7 @@ void
 ClearMessages
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -360,14 +360,14 @@ LinkedList
 MessageElement
 >
 mMessages
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
 ;
 uint32_t
 mCurrentSize
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -381,7 +381,7 @@ mDeliveringMessage
 ;
 ListenerHash
 mListeners
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )

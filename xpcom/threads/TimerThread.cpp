@@ -840,7 +840,7 @@ ArenaAllocator
 4096
 >
 mPool
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMonitor
 )
@@ -848,7 +848,7 @@ mMonitor
 FreeEntry
 *
 mFirstFree
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMonitor
 )

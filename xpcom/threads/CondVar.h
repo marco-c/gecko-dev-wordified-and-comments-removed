@@ -201,7 +201,7 @@ AssertCurrentThreadOwnsMutex
 (
 )
 const
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 mLock
 )
@@ -219,7 +219,7 @@ AssertNotCurrentThreadOwnsMutex
 (
 )
 const
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 !
 mLock
@@ -240,7 +240,7 @@ AssertCurrentThreadOwnsMutex
 (
 )
 const
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 mLock
 )
@@ -251,7 +251,7 @@ AssertNotCurrentThreadOwnsMutex
 (
 )
 const
-ASSERT_CAPABILITY
+MOZ_ASSERT_CAPABILITY
 (
 !
 mLock

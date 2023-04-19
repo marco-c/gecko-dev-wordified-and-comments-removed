@@ -869,7 +869,7 @@ GCLocked
 GCKind
 aKind
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -883,7 +883,7 @@ AtomsSizes
 &
 aSizes
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -897,7 +897,7 @@ AtomTableKey
 aKey
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -933,7 +933,7 @@ AtomTableKey
 &
 aKey
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )

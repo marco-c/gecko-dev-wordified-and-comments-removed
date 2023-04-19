@@ -134,7 +134,7 @@ InternalInit
 ;
 HWND
 hwnd_
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 cs_
 )
@@ -143,7 +143,7 @@ nullptr
 ;
 UINT_PTR
 timerid_
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 cs_
 )
@@ -153,7 +153,7 @@ cs_
 unsigned
 int
 timeout_
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 cs_
 )
@@ -171,7 +171,7 @@ STOPPED
 ;
 State
 state_
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 cs_
 )

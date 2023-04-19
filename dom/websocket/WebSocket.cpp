@@ -1103,7 +1103,7 @@ mMutex
 ;
 bool
 mWorkerShuttingDown
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )

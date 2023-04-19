@@ -84,7 +84,7 @@ TEST
 Synchronization
 Sanity
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 Mutex
 lock
@@ -475,7 +475,7 @@ MonitorContention2_thread
 void
 *
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 for
 (
@@ -627,7 +627,7 @@ MonitorSyncSanity_thread
 void
 *
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 gMon3
 -
@@ -1019,7 +1019,7 @@ TEST
 Synchronization
 AutoTryLock
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 Mutex
 l1
@@ -1204,7 +1204,7 @@ TEST
 Synchronization
 AutoMonitor
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 ReentrantMonitor
 m1

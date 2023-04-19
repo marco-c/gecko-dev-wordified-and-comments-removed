@@ -749,7 +749,7 @@ mozilla
 OffTheBooksMutexAutoLock
 &
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mMutex
 )
@@ -858,7 +858,7 @@ cache
 ;
 unsigned
 mSize
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -870,7 +870,7 @@ mLRUArray
 [
 LRUCapacity
 ]
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
@@ -885,7 +885,7 @@ LRUCapacity
 +
 1
 ]
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )

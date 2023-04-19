@@ -1506,7 +1506,7 @@ nsresult
 WriteCache
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mSaveMonitor
 )
@@ -1773,7 +1773,7 @@ false
 ;
 bool
 mCacheInvalidated
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mSaveMonitor
 )
@@ -1815,7 +1815,7 @@ nullptr
 ;
 bool
 mFinishDecodeRunnablePending
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMonitor
 )
@@ -1824,7 +1824,7 @@ false
 ;
 bool
 mWaitingForDecode
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMonitor
 )
@@ -1888,7 +1888,7 @@ mMonitor
 ;
 MonitorSingleWriter
 mSaveMonitor
-ACQUIRED_BEFORE
+MOZ_ACQUIRED_BEFORE
 (
 mMonitor
 )

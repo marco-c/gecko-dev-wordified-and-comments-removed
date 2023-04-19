@@ -20561,7 +20561,7 @@ _malloc_prefork
 (
 void
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 gArenas
 .
@@ -20612,7 +20612,7 @@ _malloc_postfork_parent
 (
 void
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 huge_mtx
 .
