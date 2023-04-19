@@ -4071,13 +4071,13 @@ background
 -
 color
 :
-SelectedItem
+SelectedItemText
 ;
 border
 :
 1px
 solid
-SelectedItemText
+SelectedItem
 ;
 }
 .
@@ -4097,7 +4097,7 @@ background
 -
 color
 :
-SelectedItemText
+SelectedItem
 ;
 }
 }
