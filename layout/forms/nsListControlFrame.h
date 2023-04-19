@@ -1008,12 +1008,6 @@ mForceSelection
 :
 1
 ;
-nscoord
-mLastDropdownComputedBSize
-;
-nscolor
-mLastDropdownBackstopColor
-;
 RefPtr
 <
 mozilla
