@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 run_test
 (
@@ -69,7 +74,7 @@ addDebuggerToGlobal
 globalThis
 )
 ;
-var
+const
 g
 =
 testGlobal
@@ -79,7 +84,7 @@ test1
 "
 )
 ;
-var
+const
 dbg
 =
 new
@@ -100,18 +105,15 @@ onDebuggerStatement
 =
 function
 (
-aFrame
+frame
 )
 {
-let
+const
 args
 =
-aFrame
-[
-"
+frame
+.
 arguments
-"
-]
 ;
 try
 {
@@ -160,6 +162,7 @@ debugger
 "
 )
 ;
+const
 g2
 =
 testGlobal
@@ -199,7 +202,7 @@ DOMParser
 ]
 )
 ;
-let
+const
 parser
 =
 new
@@ -207,7 +210,7 @@ DOMParser
 (
 )
 ;
-let
+const
 doc
 =
 parser
