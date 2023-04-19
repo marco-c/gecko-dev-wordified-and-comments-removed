@@ -15948,6 +15948,7 @@ AutoBuildingDisplayList
 aAutoBuildingDisplayList
 )
 {
+const
 ComputedStyle
 *
 bgSC

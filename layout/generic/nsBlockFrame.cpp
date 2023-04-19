@@ -1053,6 +1053,7 @@ GetParent
 )
 )
 {
+const
 auto
 *
 style
