@@ -2,7 +2,7 @@ use
 serial_test
 :
 :
-local_serial_core
+serial_core
 ;
 #
 [
@@ -13,7 +13,7 @@ test_empty_serial_call
 (
 )
 {
-local_serial_core
+serial_core
 (
 "
 beta
