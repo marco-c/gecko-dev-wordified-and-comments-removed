@@ -5410,9 +5410,6 @@ psrlw
 m10
 m8
 4
-pand
-m10
-m1
 %
 ifidn
 %
