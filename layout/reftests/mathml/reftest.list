@@ -5197,12 +5197,6 @@ Android
 &
 emulator
 )
-fails
--
-if
-(
-OSX
-)
 =
 =
 mathvariant
@@ -5218,8 +5212,7 @@ ref
 .
 html
 #
-Bugs
-1010678
+Bug
 1010679
 =
 =
