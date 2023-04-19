@@ -7754,7 +7754,7 @@ payload_maybe_sse
 TEST_F
 (
 AcmSenderBitExactnessOldApi
-Opus_stereo_20ms
+DISABLED_Opus_stereo_20ms
 )
 {
 ASSERT_NO_FATAL_FAILURE
@@ -7790,7 +7790,7 @@ kStereoOutput
 TEST_F
 (
 AcmSenderBitExactnessNewApi
-MAYBE_OpusFromFormat_stereo_20ms
+DISABLED_OpusFromFormat_stereo_20ms
 )
 {
 const

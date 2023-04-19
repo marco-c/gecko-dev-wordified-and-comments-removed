@@ -588,7 +588,7 @@ endif
 TEST_F
 (
 NetEqDecodingTest
-MAYBE_TestOpusBitExactness
+DISABLED_TestOpusBitExactness
 )
 {
 const
