@@ -138,8 +138,6 @@ uint32_t
 aOverridableErrorCategory
 bool
 aIsBuiltCertChainRootBuiltInRoot
-bool
-aMadeOCSPRequests
 )
 {
 AssertIsOnBackgroundThread
@@ -171,7 +169,6 @@ aBuiltCertChain
 aCertificateTransparencyStatus
 aEVStatus
 aIsBuiltCertChainRootBuiltInRoot
-aMadeOCSPRequests
 )
 ;
 }
@@ -184,7 +181,6 @@ SendOnVerifiedSSLServerCertFailure
 (
 aFinalError
 aOverridableErrorCategory
-aMadeOCSPRequests
 )
 ;
 }
@@ -273,8 +269,6 @@ bool
 aIsBuiltCertChainRootBuiltInRoot
 uint32_t
 aProviderFlags
-bool
-aMadeOCSPRequests
 )
 override
 ;
@@ -344,8 +338,6 @@ bool
 aIsBuiltCertChainRootBuiltInRoot
 uint32_t
 aProviderFlags
-bool
-aMadeOCSPRequests
 )
 {
 nsTArray
@@ -420,7 +412,6 @@ aSucceeded
 aFinalError
 aOverridableErrorCategory
 aIsBuiltCertChainRootBuiltInRoot
-aMadeOCSPRequests
 aProviderFlags
 ]
 (
@@ -507,7 +498,6 @@ uint32_t
 aOverridableErrorCategory
 )
 aIsBuiltCertChainRootBuiltInRoot
-aMadeOCSPRequests
 )
 ;
 }

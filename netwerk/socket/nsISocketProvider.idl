@@ -224,17 +224,5 @@ IS_RETRY
 11
 )
 ;
-const
-unsigned
-long
-USED_PRIVATE_DNS
-=
-(
-1
-<
-<
-12
-)
-;
 }
 ;

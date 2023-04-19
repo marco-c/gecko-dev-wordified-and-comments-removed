@@ -118,10 +118,6 @@ const
 bool
 &
 aIsBuiltCertChainRootBuiltInRoot
-const
-bool
-&
-aMadeOCSPRequests
 )
 ;
 ipc
@@ -138,10 +134,6 @@ const
 uint32_t
 &
 aOverridableErrorCategory
-const
-bool
-&
-aMadeOCSPRequests
 )
 ;
 private
