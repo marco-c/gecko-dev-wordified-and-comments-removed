@@ -11390,6 +11390,14 @@ break
 if
 (
 allNonDirectProxiesDisabled
+&
+&
+StaticPrefs
+:
+:
+network_proxy_retry_failed_proxies
+(
+)
 )
 {
 LOG
