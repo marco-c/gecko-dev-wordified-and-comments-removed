@@ -42,6 +42,10 @@ nsISupports
 {
 attribute
 ACString
+id
+;
+attribute
+ACString
 domain
 ;
 readonly

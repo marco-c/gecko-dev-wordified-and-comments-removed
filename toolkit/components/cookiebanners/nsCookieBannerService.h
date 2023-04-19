@@ -117,6 +117,16 @@ nsICookieBannerRule
 >
 mRules
 ;
+nsTHashMap
+<
+nsCStringHashKey
+nsCOMPtr
+<
+nsICookieBannerRule
+>
+>
+mGlobalRules
+;
 static
 void
 OnPrefChange

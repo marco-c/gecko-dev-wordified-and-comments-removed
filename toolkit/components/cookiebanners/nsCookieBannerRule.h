@@ -80,6 +80,9 @@ nsCookieBannerRule
 default
 ;
 nsCString
+mId
+;
+nsCString
 mDomain
 ;
 nsTArray
