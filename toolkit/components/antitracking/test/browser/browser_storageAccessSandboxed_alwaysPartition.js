@@ -126,12 +126,16 @@ true
 ]
 [
 APS_PREF
-false
+true
 ]
 ]
 false
 false
-0
+Ci
+.
+nsIWebProgressListener
+.
+STATE_COOKIES_BLOCKED_TRACKER
 false
 "
 allow
@@ -315,7 +319,7 @@ true
 ]
 [
 APS_PREF
-false
+true
 ]
 ]
 false
@@ -427,7 +431,7 @@ true
 ]
 [
 APS_PREF
-false
+true
 ]
 ]
 false
@@ -565,7 +569,7 @@ true
 ]
 [
 APS_PREF
-false
+true
 ]
 ]
 false
@@ -667,7 +671,7 @@ true
 ]
 [
 APS_PREF
-false
+true
 ]
 ]
 false
@@ -802,7 +806,7 @@ true
 ]
 [
 APS_PREF
-false
+true
 ]
 ]
 false
@@ -911,7 +915,7 @@ true
 ]
 [
 APS_PREF
-false
+true
 ]
 ]
 false
