@@ -3124,6 +3124,14 @@ encoder_settings
 /
 test
 :
+explicit_key_value_config
+"
+"
+.
+.
+/
+test
+:
 fake_video_codecs
 "
 "
