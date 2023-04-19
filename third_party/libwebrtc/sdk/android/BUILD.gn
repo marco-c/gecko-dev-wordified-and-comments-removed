@@ -5731,17 +5731,6 @@ media_stream_observer
 /
 pc
 :
-peerconnection
-"
-"
-.
-.
-/
-.
-.
-/
-pc
-:
 webrtc_sdp
 "
 "

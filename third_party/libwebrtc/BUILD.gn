@@ -2878,12 +2878,6 @@ libjingle_peerconnection
 "
 pc
 :
-peerconnection
-"
-#
-"
-pc
-:
 rtc_pc
 "
 "
