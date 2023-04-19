@@ -35,17 +35,6 @@ modules
 /
 audio_processing
 /
-common
-.
-h
-"
-#
-include
-"
-modules
-/
-audio_processing
-/
 include
 /
 audio_processing

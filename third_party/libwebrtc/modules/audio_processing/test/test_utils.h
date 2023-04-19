@@ -666,16 +666,6 @@ num_channels
 )
 ;
 }
-AudioProcessing
-:
-:
-ChannelLayout
-LayoutFromChannels
-(
-size_t
-num_channels
-)
-;
 template
 <
 typename

@@ -821,15 +821,6 @@ const
 ;
 }
 ;
-enum
-ChannelLayout
-{
-kMono
-kStereo
-kMonoAndKeyboard
-kStereoAndKeyboard
-}
-;
 class
 RuntimeSetting
 {
