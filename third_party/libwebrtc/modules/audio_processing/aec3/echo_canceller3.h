@@ -481,6 +481,14 @@ delay_ms
 )
 override
 ;
+void
+SetCaptureOutputUsage
+(
+bool
+capture_output_used
+)
+override
+;
 bool
 ActiveProcessing
 (

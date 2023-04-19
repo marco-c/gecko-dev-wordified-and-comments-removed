@@ -114,6 +114,15 @@ delay_ms
 0
 ;
 virtual
+void
+SetCaptureOutputUsage
+(
+bool
+capture_output_used
+)
+{
+}
+virtual
 bool
 ActiveProcessing
 (

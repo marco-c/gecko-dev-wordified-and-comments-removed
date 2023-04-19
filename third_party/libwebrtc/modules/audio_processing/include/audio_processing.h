@@ -1008,7 +1008,7 @@ RuntimeSetting
 CreateCaptureOutputUsedSetting
 (
 bool
-payload
+capture_output_used
 )
 {
 return
@@ -1017,7 +1017,7 @@ Type
 :
 :
 kCaptureOutputUsed
-payload
+capture_output_used
 }
 ;
 }

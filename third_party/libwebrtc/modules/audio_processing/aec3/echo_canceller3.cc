@@ -5450,6 +5450,17 @@ delay_ms
 )
 ;
 }
+void
+EchoCanceller3
+:
+:
+SetCaptureOutputUsage
+(
+bool
+capture_output_used
+)
+{
+}
 bool
 EchoCanceller3
 :

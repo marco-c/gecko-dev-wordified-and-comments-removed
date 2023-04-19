@@ -1501,6 +1501,15 @@ RTC_EXCLUSIVE_LOCKS_REQUIRED
 mutex_capture_
 )
 ;
+void
+HandleOverrunInCaptureRuntimeSettingsQueue
+(
+)
+RTC_EXCLUSIVE_LOCKS_REQUIRED
+(
+mutex_capture_
+)
+;
 std
 :
 :
