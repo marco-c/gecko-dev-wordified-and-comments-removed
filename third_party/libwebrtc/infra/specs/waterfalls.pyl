@@ -1420,7 +1420,7 @@ mixins
 :
 [
 '
-mac11
+mac_12_x64
 '
 '
 chromium
@@ -1484,7 +1484,7 @@ mixins
 :
 [
 '
-mac11
+mac_12_x64
 '
 '
 chromium
@@ -1550,7 +1550,7 @@ mixins
 :
 [
 '
-mac11
+mac_12_x64
 '
 '
 chromium
@@ -2723,7 +2723,7 @@ mixins
 :
 [
 '
-mac11
+mac_12_x64
 '
 '
 chromium
@@ -2781,7 +2781,7 @@ mixins
 :
 [
 '
-mac11
+mac_12_x64
 '
 '
 chromium
@@ -2839,7 +2839,7 @@ mixins
 :
 [
 '
-mac11
+mac_12_x64
 '
 '
 chromium
