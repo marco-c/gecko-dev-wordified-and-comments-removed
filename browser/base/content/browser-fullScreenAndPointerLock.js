@@ -3122,7 +3122,7 @@ this
 _isChromeCollapsed
 ;
 }
-getAutohide
+updateAutohideMenuitem
 (
 aItem
 )
