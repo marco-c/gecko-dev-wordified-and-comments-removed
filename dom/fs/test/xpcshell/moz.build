@@ -1,3 +1,11 @@
+TEST_DIRS
++
+=
+[
+"
+worker
+"
+]
 XPCSHELL_TESTS_MANIFESTS
 +
 =
