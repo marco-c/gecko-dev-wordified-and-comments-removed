@@ -627,6 +627,15 @@ plugin
 -
 mozilla
 /
+valid
+-
+lazy
+eslint
+-
+plugin
+-
+mozilla
+/
 var
 -
 only
