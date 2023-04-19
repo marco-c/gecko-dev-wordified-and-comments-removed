@@ -290,7 +290,7 @@ TimeToNextFrameRelease
 ;
 incoming_render_queue_
 .
-PostDelayedTask
+PostDelayedHighPrecisionTask
 (
 [
 this

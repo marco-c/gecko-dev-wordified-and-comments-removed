@@ -290,7 +290,7 @@ next_process_time
 ;
 task_queue_
 .
-PostDelayedTask
+PostDelayedHighPrecisionTask
 (
 [
 this
