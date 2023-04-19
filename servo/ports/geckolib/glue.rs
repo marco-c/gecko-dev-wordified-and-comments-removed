@@ -14332,6 +14332,9 @@ url_data
 :
 &
 url_data
+for_supports_rule
+:
+false
 }
 ;
 let

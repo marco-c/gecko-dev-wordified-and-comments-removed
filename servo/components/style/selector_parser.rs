@@ -294,6 +294,10 @@ url_data
 '
 a
 UrlExtraData
+pub
+for_supports_rule
+:
+bool
 }
 impl
 <
@@ -366,6 +370,9 @@ namespaces
 &
 namespaces
 url_data
+for_supports_rule
+:
+false
 }
 ;
 let
