@@ -1507,13 +1507,6 @@ no_capture_stdio
 "
 ]
                           
-run_test_kwargs
-[
-"
-restart_on_new_group
-"
-]
-                          
 recording
 =
 recording

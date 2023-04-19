@@ -54,7 +54,11 @@ org
 [
 Exposed
 =
-*
+(
+Window
+Worker
+Worklet
+)
 ]
 namespace
 console

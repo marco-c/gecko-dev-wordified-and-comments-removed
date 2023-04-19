@@ -883,16 +883,6 @@ ssl
 OPENSSL_VERSION_INFO
     
 return
-(
-ssl_v
-[
-0
-]
->
-1
-or
-            
-(
 ssl_v
 [
 0
@@ -901,7 +891,6 @@ ssl_v
 =
 1
 and
-             
 (
 ssl_v
 [
@@ -911,7 +900,6 @@ ssl_v
 =
 1
 or
-              
 (
 ssl_v
 [
@@ -928,7 +916,5 @@ ssl_v
 >
 =
 2
-)
-)
 )
 )
