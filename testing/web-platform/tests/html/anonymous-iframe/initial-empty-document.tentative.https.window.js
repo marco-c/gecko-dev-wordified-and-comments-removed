@@ -113,7 +113,7 @@ child
 .
 contentWindow
 .
-isAnonymouslyFramed
+anonymouslyFramed
 )
 ;
 }
@@ -237,7 +237,7 @@ child
 .
 contentWindow
 .
-isAnonymouslyFramed
+anonymouslyFramed
 )
 ;
 }
