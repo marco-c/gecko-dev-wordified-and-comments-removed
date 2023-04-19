@@ -32,17 +32,6 @@ geolocation
 =
 null
 ;
-var
-success
-=
-false
-;
-var
-watchId
-=
--
-1
-;
 function
 geoHandler
 (

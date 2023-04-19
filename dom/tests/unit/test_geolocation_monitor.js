@@ -28,11 +28,6 @@ geolocation
 null
 ;
 let
-numRequests
-=
-0
-;
-let
 locations
 =
 [
@@ -57,10 +52,6 @@ metadata
 response
 )
 {
-numRequests
-+
-+
-;
 let
 [
 lat
