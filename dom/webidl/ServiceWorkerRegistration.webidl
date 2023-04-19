@@ -149,10 +149,14 @@ org
 *
 /
 [
-Func
+Pref
 =
 "
-ServiceWorkerVisible
+dom
+.
+serviceWorkers
+.
+enabled
 "
 Exposed
 =

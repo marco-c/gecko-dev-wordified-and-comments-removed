@@ -238,10 +238,14 @@ Exposed
 Window
 Worker
 )
-Func
+Pref
 =
 "
-ServiceWorkerVisible
+dom
+.
+push
+.
+enabled
 "
 ]
 interface
