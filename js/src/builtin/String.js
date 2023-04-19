@@ -32,9 +32,11 @@ StringProto
 ObjectProto
 )
 )
+{
 return
 false
 ;
+}
 return
 !
 (
@@ -137,6 +139,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -145,6 +148,7 @@ match
 this
 )
 ;
+}
 var
 isPatternString
 =
@@ -208,6 +212,7 @@ matcher
 =
 undefined
 )
+{
 return
 callContentFunction
 (
@@ -216,6 +221,7 @@ regexp
 this
 )
 ;
+}
 }
 var
 S
@@ -252,9 +258,11 @@ flatResult
 =
 undefined
 )
+{
 return
 flatResult
 ;
+}
 }
 var
 rx
@@ -270,6 +278,7 @@ IsStringMatchOptimizable
 (
 )
 )
+{
 return
 RegExpMatcher
 (
@@ -278,6 +287,7 @@ S
 0
 )
 ;
+}
 return
 callContentFunction
 (
@@ -317,6 +327,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -325,6 +336,7 @@ matchAll
 this
 )
 ;
+}
 if
 (
 regexp
@@ -426,6 +438,7 @@ matcher
 =
 undefined
 )
+{
 return
 callContentFunction
 (
@@ -434,6 +447,7 @@ regexp
 this
 )
 ;
+}
 }
 var
 string
@@ -495,6 +509,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 padEnd
@@ -509,6 +524,7 @@ padStart
 this
 )
 ;
+}
 let
 str
 =
@@ -539,9 +555,11 @@ intMaxLength
 =
 strLen
 )
+{
 return
 str
 ;
+}
 assert
 (
 fillString
@@ -576,20 +594,24 @@ filler
 "
 "
 )
+{
 return
 str
 ;
+}
 if
 (
 intMaxLength
 >
 MAX_STRING_LENGTH
 )
+{
 ThrowRangeError
 (
 JSMSG_RESULTING_STRING_TOO_LARGE
 )
 ;
+}
 let
 fillLen
 =
@@ -637,11 +659,13 @@ padEnd
 =
 true
 )
+{
 return
 str
 +
 truncatedStringFiller
 ;
+}
 return
 truncatedStringFiller
 +
@@ -724,9 +748,11 @@ StringProto
 ObjectProto
 )
 )
+{
 return
 false
 ;
+}
 return
 !
 (
@@ -853,6 +879,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -861,6 +888,7 @@ replace
 this
 )
 ;
+}
 if
 (
 !
@@ -917,6 +945,7 @@ replacer
 =
 undefined
 )
+{
 return
 callContentFunction
 (
@@ -926,6 +955,7 @@ this
 replaceValue
 )
 ;
+}
 }
 var
 string
@@ -1004,9 +1034,11 @@ pos
 -
 1
 )
+{
 return
 string
 ;
+}
 var
 replStr
 =
@@ -1042,12 +1074,15 @@ pos
 =
 0
 )
+{
 newString
 =
 "
 "
 ;
+}
 else
+{
 newString
 =
 Substring
@@ -1057,6 +1092,7 @@ string
 pos
 )
 ;
+}
 newString
 +
 =
@@ -1075,6 +1111,7 @@ tailPos
 <
 stringLength
 )
+{
 newString
 +
 =
@@ -1087,6 +1124,7 @@ stringLength
 tailPos
 )
 ;
+}
 return
 newString
 ;
@@ -1113,6 +1151,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -1121,6 +1160,7 @@ replaceAll
 this
 )
 ;
+}
 if
 (
 searchValue
@@ -1441,9 +1481,11 @@ StringProto
 ObjectProto
 )
 )
+{
 return
 false
 ;
+}
 return
 !
 (
@@ -1525,6 +1567,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -1533,6 +1576,7 @@ search
 this
 )
 ;
+}
 var
 isPatternString
 =
@@ -1596,6 +1640,7 @@ searcher
 =
 undefined
 )
+{
 return
 callContentFunction
 (
@@ -1604,6 +1649,7 @@ regexp
 this
 )
 ;
+}
 }
 var
 string
@@ -1641,9 +1687,11 @@ flatResult
 -
 2
 )
+{
 return
 flatResult
 ;
+}
 }
 var
 rx
@@ -1705,9 +1753,11 @@ StringProto
 ObjectProto
 )
 )
+{
 return
 false
 ;
+}
 return
 !
 (
@@ -1744,6 +1794,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -1752,6 +1803,7 @@ split
 this
 )
 ;
+}
 if
 (
 typeof
@@ -1858,6 +1910,7 @@ splitter
 =
 undefined
 )
+{
 return
 callContentFunction
 (
@@ -1867,6 +1920,7 @@ this
 limit
 )
 ;
+}
 }
 var
 S
@@ -1912,10 +1966,12 @@ lim
 =
 0
 )
+{
 return
 [
 ]
 ;
+}
 if
 (
 separator
@@ -1924,11 +1980,13 @@ separator
 =
 undefined
 )
+{
 return
 [
 S
 ]
 ;
+}
 return
 StringSplitStringLimit
 (
@@ -1953,11 +2011,13 @@ separator
 =
 undefined
 )
+{
 return
 [
 S
 ]
 ;
+}
 return
 StringSplitString
 (
@@ -1988,6 +2048,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -1996,6 +2057,7 @@ substring
 this
 )
 ;
+}
 var
 str
 =
@@ -2138,6 +2200,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -2146,6 +2209,7 @@ substr
 this
 )
 ;
+}
 var
 str
 =
@@ -2193,6 +2257,7 @@ intStart
 <
 0
 )
+{
 intStart
 =
 std_Math_max
@@ -2203,6 +2268,7 @@ size
 0
 )
 ;
+}
 var
 resultLength
 =
@@ -2225,10 +2291,12 @@ resultLength
 =
 0
 )
+{
 return
 "
 "
 ;
+}
 return
 SubstringKernel
 (
@@ -2268,6 +2336,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -2276,6 +2345,7 @@ concat
 this
 )
 ;
+}
 var
 str
 =
@@ -2419,6 +2489,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -2427,6 +2498,7 @@ slice
 this
 )
 ;
+}
 var
 str
 =
@@ -2564,6 +2636,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -2572,6 +2645,7 @@ codePointAt
 this
 )
 ;
+}
 var
 S
 =
@@ -2607,9 +2681,11 @@ position
 =
 size
 )
+{
 return
 undefined
 ;
+}
 var
 first
 =
@@ -2640,9 +2716,11 @@ position
 =
 size
 )
+{
 return
 first
 ;
+}
 var
 second
 =
@@ -2666,9 +2744,11 @@ second
 >
 0xDFFF
 )
+{
 return
 first
 ;
+}
 return
 (
 first
@@ -2708,6 +2788,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -2716,6 +2797,7 @@ repeat
 this
 )
 ;
+}
 var
 S
 =
@@ -2738,11 +2820,13 @@ n
 <
 0
 )
+{
 ThrowRangeError
 (
 JSMSG_NEGATIVE_REPETITION_COUNT
 )
 ;
+}
 if
 (
 !
@@ -2757,11 +2841,13 @@ length
 MAX_STRING_LENGTH
 )
 )
+{
 ThrowRangeError
 (
 JSMSG_RESULTING_STRING_TOO_LARGE
 )
 ;
+}
 assert
 (
 TO_INT32
@@ -2846,11 +2932,13 @@ n
 &
 1
 )
+{
 T
 +
 =
 S
 ;
+}
 n
 >
 >
@@ -2861,14 +2949,18 @@ if
 (
 n
 )
+{
 S
 +
 =
 S
 ;
+}
 else
+{
 break
 ;
+}
 }
 return
 T
@@ -3188,6 +3280,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -3196,6 +3289,7 @@ localeCompare
 this
 )
 ;
+}
 var
 S
 =
@@ -3340,6 +3434,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -3348,6 +3443,7 @@ toLocaleLowerCase
 this
 )
 ;
+}
 var
 string
 =
@@ -3447,10 +3543,12 @@ length
 =
 0
 )
+{
 return
 "
 "
 ;
+}
 if
 (
 requestedLocale
@@ -3459,12 +3557,14 @@ requestedLocale
 =
 undefined
 )
+{
 requestedLocale
 =
 DefaultLocale
 (
 )
 ;
+}
 return
 intl_toLocaleLowerCase
 (
@@ -3493,6 +3593,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -3501,6 +3602,7 @@ toLocaleUpperCase
 this
 )
 ;
+}
 var
 string
 =
@@ -3600,10 +3702,12 @@ length
 =
 0
 )
+{
 return
 "
 "
 ;
+}
 if
 (
 requestedLocale
@@ -3612,12 +3716,14 @@ requestedLocale
 =
 undefined
 )
+{
 requestedLocale
 =
 DefaultLocale
 (
 )
 ;
+}
 return
 intl_toLocaleUpperCase
 (
@@ -3673,10 +3779,12 @@ literalSegments
 =
 0
 )
+{
 return
 "
 "
 ;
+}
 if
 (
 literalSegments
@@ -3685,6 +3793,7 @@ literalSegments
 =
 1
 )
+{
 return
 ToString
 (
@@ -3694,6 +3803,7 @@ raw
 ]
 )
 ;
+}
 var
 resultString
 =
@@ -3729,6 +3839,7 @@ arguments
 .
 length
 )
+{
 resultString
 +
 =
@@ -3740,6 +3851,7 @@ nextIndex
 ]
 )
 ;
+}
 resultString
 +
 =
@@ -3777,6 +3889,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -3785,6 +3898,7 @@ at
 this
 )
 ;
+}
 var
 string
 =
@@ -3877,6 +3991,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -3885,6 +4000,7 @@ big
 this
 )
 ;
+}
 return
 "
 <
@@ -3925,6 +4041,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -3933,6 +4050,7 @@ blink
 this
 )
 ;
+}
 return
 "
 <
@@ -3973,6 +4091,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -3981,6 +4100,7 @@ bold
 this
 )
 ;
+}
 return
 "
 <
@@ -4021,6 +4141,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -4029,6 +4150,7 @@ fixed
 this
 )
 ;
+}
 return
 "
 <
@@ -4069,6 +4191,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -4077,6 +4200,7 @@ italics
 this
 )
 ;
+}
 return
 "
 <
@@ -4117,6 +4241,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -4125,6 +4250,7 @@ small
 this
 )
 ;
+}
 return
 "
 <
@@ -4165,6 +4291,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -4173,6 +4300,7 @@ strike
 this
 )
 ;
+}
 return
 "
 <
@@ -4213,6 +4341,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -4221,6 +4350,7 @@ sub
 this
 )
 ;
+}
 return
 "
 <
@@ -4261,6 +4391,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -4269,6 +4400,7 @@ sup
 this
 )
 ;
+}
 return
 "
 <
@@ -4339,6 +4471,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -4347,6 +4480,7 @@ anchor
 this
 )
 ;
+}
 var
 S
 =
@@ -4405,6 +4539,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -4413,6 +4548,7 @@ fontcolor
 this
 )
 ;
+}
 var
 S
 =
@@ -4471,6 +4607,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -4479,6 +4616,7 @@ fontsize
 this
 )
 ;
+}
 var
 S
 =
@@ -4537,6 +4675,7 @@ this
 =
 null
 )
+{
 ThrowIncompatibleMethod
 (
 "
@@ -4545,6 +4684,7 @@ link
 this
 )
 ;
+}
 var
 S
 =
