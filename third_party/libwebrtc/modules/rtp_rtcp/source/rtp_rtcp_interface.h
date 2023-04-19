@@ -707,6 +707,16 @@ const
 0
 ;
 virtual
+void
+SetNonSenderRttMeasurement
+(
+bool
+enabled
+)
+=
+0
+;
+virtual
 uint32_t
 SSRC
 (

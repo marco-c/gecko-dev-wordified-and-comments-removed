@@ -527,6 +527,14 @@ GetRtxState
 const
 override
 ;
+void
+SetNonSenderRttMeasurement
+(
+bool
+enabled
+)
+override
+;
 uint32_t
 SSRC
 (
