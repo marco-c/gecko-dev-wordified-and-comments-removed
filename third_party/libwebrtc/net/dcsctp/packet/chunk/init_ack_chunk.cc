@@ -450,7 +450,7 @@ initiate_tag
 initial_tsn
 =
 %
-d
+u
 "
 *
 initiate_tag
