@@ -138,14 +138,6 @@ True
 DEFINES
 [
 "
-RTC_SUPPORTS_METAL
-"
-]
-=
-True
-DEFINES
-[
-"
 WEBRTC_ENABLE_AVX2
 "
 ]
