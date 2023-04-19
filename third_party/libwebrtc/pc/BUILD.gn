@@ -264,6 +264,11 @@ sources
 "
 bundle_manager
 .
+cc
+"
+"
+bundle_manager
+.
 h
 "
 "
