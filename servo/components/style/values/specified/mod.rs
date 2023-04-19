@@ -1114,7 +1114,7 @@ ui
 :
 {
 Cursor
-MozForceBrokenImageIcon
+BoolInteger
 UserSelect
 }
 ;

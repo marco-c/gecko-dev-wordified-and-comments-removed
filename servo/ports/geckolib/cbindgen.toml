@@ -524,6 +524,9 @@ BreakWithin
 BorderStyle
 "
 "
+BoolInteger
+"
+"
 OutlineStyle
 "
 "

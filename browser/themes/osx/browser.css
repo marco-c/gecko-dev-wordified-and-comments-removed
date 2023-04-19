@@ -2832,6 +2832,14 @@ tabbrowser
 -
 tabs
 {
+/
+*
+overriding
+tabbox
+.
+css
+*
+/
 -
 moz
 -
@@ -2850,6 +2858,12 @@ bottom
 position
 :
 static
+;
+z
+-
+index
+:
+auto
 ;
 }
 /

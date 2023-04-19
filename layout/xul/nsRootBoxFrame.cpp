@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsStackLayout
-.
-h
-"
-#
-include
-"
 nsIPopupContainer
 .
 h
