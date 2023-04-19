@@ -1053,7 +1053,7 @@ bin
 tox
 -
 e
-py36
+py39
 -
 hg5
 .
