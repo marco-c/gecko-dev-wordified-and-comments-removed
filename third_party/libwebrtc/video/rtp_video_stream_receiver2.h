@@ -1239,6 +1239,10 @@ video_coding
 :
 PacketBuffer
 packet_buffer_
+RTC_GUARDED_BY
+(
+worker_task_checker_
+)
 ;
 UniqueTimestampCounter
 frame_counter_
