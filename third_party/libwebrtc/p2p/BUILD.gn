@@ -854,16 +854,6 @@ weak_ptr
 /
 rtc_base
 /
-memory
-:
-fifo_buffer
-"
-"
-.
-.
-/
-rtc_base
-/
 network
 :
 sent_packet
