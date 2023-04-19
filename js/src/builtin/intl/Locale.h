@@ -14,15 +14,6 @@ h
 #
 include
 "
-builtin
-/
-SelfHostingDefines
-.
-h
-"
-#
-include
-"
 js
 /
 Class
