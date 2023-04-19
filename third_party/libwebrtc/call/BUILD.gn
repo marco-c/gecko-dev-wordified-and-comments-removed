@@ -3761,14 +3761,6 @@ perf_test
 /
 test
 :
-rtp_test_utils
-"
-"
-.
-.
-/
-test
-:
 test_common
 "
 "

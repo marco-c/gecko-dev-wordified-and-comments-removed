@@ -159,16 +159,6 @@ field_trial
 .
 /
 :
-rtp_test_utils
-"
-"
-.
-.
-/
-.
-.
-/
-:
 test_support
 "
 "

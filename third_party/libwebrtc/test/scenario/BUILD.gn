@@ -444,13 +444,6 @@ fileutils
 .
 /
 :
-rtp_test_utils
-"
-"
-.
-.
-/
-:
 test_common
 "
 "

@@ -91,15 +91,6 @@ peer_scenario
 .
 h
 "
-#
-include
-"
-test
-/
-rtp_header_parser
-.
-h
-"
 namespace
 webrtc
 {
