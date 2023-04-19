@@ -161,7 +161,7 @@ allocKind
 =
 kind
 ;
-isNewlyCreated
+isNewlyCreated_
 =
 1
 ;
