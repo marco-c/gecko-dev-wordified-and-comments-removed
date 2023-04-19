@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIChannel
-.
-h
-"
-#
-include
-"
 nsIRequest
 .
 h
@@ -67,9 +60,6 @@ ScriptLoadRequest
 .
 h
 "
-class
-nsIChannel
-;
 class
 nsIReferrerInfo
 ;
@@ -190,12 +180,6 @@ nsCOMPtr
 nsIInputStream
 >
 mCacheReadStream
-;
-nsCOMPtr
-<
-nsIChannel
->
-mChannel
 ;
 nsresult
 mLoadResult
@@ -374,10 +358,6 @@ mLoadingFinished
 &
 !
 mCachePromise
-&
-&
-!
-mChannel
 ;
 }
 }

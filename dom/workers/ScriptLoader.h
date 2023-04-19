@@ -154,6 +154,10 @@ CacheLoadHandler
 ;
 friend
 class
+CacheCreator
+;
+friend
+class
 NetworkLoadHandler
 ;
 WorkerPrivate
