@@ -844,6 +844,8 @@ rtc
 :
 BasicNetworkManager
 (
+&
+socket_server
 )
 )
 ;
