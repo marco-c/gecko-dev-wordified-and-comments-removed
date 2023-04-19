@@ -1068,10 +1068,16 @@ capturer_thread_
 ;
 #
 else
+std
+:
+:
+unique_ptr
+<
 rtc
 :
 :
 PlatformThread
+>
 capturer_thread_
 ;
 #
