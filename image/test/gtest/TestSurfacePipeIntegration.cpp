@@ -516,12 +516,9 @@ false
 }
 )
 ;
-ASSERT_TRUE
-(
-NS_SUCCEEDED
+ASSERT_NS_SUCCEEDED
 (
 rv
-)
 )
 ;
 pipe

@@ -371,9 +371,7 @@ size_t
 aLength
 )
 {
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 mSourceBuffer
 -
@@ -382,7 +380,6 @@ Append
 (
 aData
 aLength
-)
 )
 )
 ;
@@ -1041,9 +1038,7 @@ Iterator
 (
 )
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 mSourceBuffer
 -
@@ -1053,7 +1048,6 @@ ExpectLength
 sizeof
 (
 mData
-)
 )
 )
 )
@@ -1135,9 +1129,7 @@ MaximumCapacity
 +
 1
 ;
-EXPECT_TRUE
-(
-NS_FAILED
+EXPECT_NS_FAILED
 (
 mSourceBuffer
 -
@@ -1146,7 +1138,6 @@ Append
 (
 mData
 hugeSize
-)
 )
 )
 ;
@@ -1211,9 +1202,7 @@ nullptr
 uint64_t
 length
 ;
-ASSERT_TRUE
-(
-NS_SUCCEEDED
+ASSERT_NS_SUCCEEDED
 (
 inputStream
 -
@@ -1222,7 +1211,6 @@ Available
 (
 &
 length
-)
 )
 )
 ;
@@ -1276,9 +1264,7 @@ Iterator
 (
 )
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 mSourceBuffer
 -
@@ -1288,7 +1274,6 @@ ExpectLength
 sizeof
 (
 mData
-)
 )
 )
 )
@@ -1329,9 +1314,7 @@ mData
 )
 )
 ;
-EXPECT_TRUE
-(
-NS_FAILED
+EXPECT_NS_FAILED
 (
 mSourceBuffer
 -
@@ -1342,7 +1325,6 @@ mData
 sizeof
 (
 mData
-)
 )
 )
 )
@@ -1466,9 +1448,7 @@ Iterator
 (
 )
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 mSourceBuffer
 -
@@ -1476,7 +1456,6 @@ mSourceBuffer
 ExpectLength
 (
 1
-)
 )
 )
 ;
@@ -1560,9 +1539,7 @@ SourceBuffer
 :
 MIN_CHUNK_CAPACITY
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 mSourceBuffer
 -
@@ -1570,7 +1547,6 @@ mSourceBuffer
 ExpectLength
 (
 length
-)
 )
 )
 ;
@@ -1657,9 +1633,7 @@ MaximumCapacity
 +
 1
 ;
-EXPECT_TRUE
-(
-NS_FAILED
+EXPECT_NS_FAILED
 (
 mSourceBuffer
 -
@@ -1667,7 +1641,6 @@ mSourceBuffer
 ExpectLength
 (
 hugeSize
-)
 )
 )
 ;

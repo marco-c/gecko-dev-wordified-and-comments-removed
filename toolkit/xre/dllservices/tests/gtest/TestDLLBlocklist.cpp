@@ -49,6 +49,17 @@ h
 #
 include
 "
+mozilla
+/
+gtest
+/
+MozAssertions
+.
+h
+"
+#
+include
+"
 nsDirectoryServiceDefs
 .
 h
@@ -112,9 +123,7 @@ f
 )
 )
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 f
 -
@@ -122,7 +131,6 @@ f
 Append
 (
 aLeaf
-)
 )
 )
 ;
@@ -150,9 +158,7 @@ exists
 nsString
 ret
 ;
-EXPECT_TRUE
-(
-NS_SUCCEEDED
+EXPECT_NS_SUCCEEDED
 (
 f
 -
@@ -160,7 +166,6 @@ f
 GetPath
 (
 ret
-)
 )
 )
 ;

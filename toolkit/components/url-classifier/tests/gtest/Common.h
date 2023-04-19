@@ -34,6 +34,17 @@ gtest
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gtest
+/
+MozAssertions
+.
+h
+"
 using
 namespace
 mozilla

@@ -23,6 +23,17 @@ h
 #
 include
 "
+mozilla
+/
+gtest
+/
+MozAssertions
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h
@@ -3429,9 +3440,7 @@ nsIURI
 >
 baseURI
 ;
-ASSERT_TRUE
-(
-NS_SUCCEEDED
+ASSERT_NS_SUCCEEDED
 (
 NS_NewURI
 (
@@ -3442,7 +3451,6 @@ baseURI
 test
 .
 baseURI
-)
 )
 )
 ;

@@ -938,12 +938,9 @@ SyncApplyUpdates
 tableUpdates
 )
 ;
-ASSERT_TRUE
-(
-NS_FAILED
+ASSERT_NS_FAILED
 (
 rv
-)
 )
 ;
 }

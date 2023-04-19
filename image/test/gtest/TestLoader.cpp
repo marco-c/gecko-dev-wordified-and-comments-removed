@@ -83,12 +83,9 @@ if
 aExpected
 )
 {
-ASSERT_TRUE
-(
-NS_SUCCEEDED
+ASSERT_NS_SUCCEEDED
 (
 rv
-)
 )
 ;
 EXPECT_TRUE
@@ -104,12 +101,9 @@ aExpected
 }
 else
 {
-ASSERT_TRUE
-(
-NS_FAILED
+ASSERT_NS_FAILED
 (
 rv
-)
 )
 ;
 EXPECT_TRUE
