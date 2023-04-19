@@ -536,6 +536,9 @@ namespace
 dom
 {
 struct
+CheckVisibilityOptions
+;
+struct
 CustomElementData
 ;
 struct
@@ -4356,6 +4359,15 @@ isSome
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
+bool
+CheckVisibility
+(
+const
+CheckVisibilityOptions
+&
+)
+;
 private
 :
 MOZ_CAN_RUN_SCRIPT
