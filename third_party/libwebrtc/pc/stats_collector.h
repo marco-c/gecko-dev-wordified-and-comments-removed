@@ -498,6 +498,11 @@ PeerConnectionInternal
 const
 pc_
 ;
+int64_t
+cache_timestamp_ms_
+=
+0
+;
 double
 stats_gathering_started_
 ;
