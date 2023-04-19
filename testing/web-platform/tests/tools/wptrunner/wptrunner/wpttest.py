@@ -1351,6 +1351,10 @@ test_type
 =
 None
     
+pac
+=
+None
+    
 default_timeout
 =
 10
@@ -1383,6 +1387,9 @@ http
 subdomain
 =
 False
+pac
+=
+None
 )
 :
         
@@ -1468,6 +1475,30 @@ self
 .
 prefs
 }
+        
+if
+pac
+is
+not
+None
+:
+            
+self
+.
+environment
+[
+"
+pac
+"
+]
+=
+urljoin
+(
+self
+.
+url
+pac
+)
     
 def
 __eq__
@@ -2709,6 +2740,9 @@ None
 subdomain
 =
 False
+pac
+=
+None
 )
 :
         
@@ -2727,6 +2761,7 @@ timeout
 path
 protocol
 subdomain
+pac
 )
         
 self
@@ -2781,6 +2816,12 @@ else
 cls
 .
 default_timeout
+        
+pac
+=
+manifest_item
+.
+pac
         
 testdriver
 =
@@ -2866,6 +2907,10 @@ test_metadata
 timeout
 =
 timeout
+                   
+pac
+=
+pac
                    
 path
 =

@@ -2517,6 +2517,13 @@ timeout
 "
 long
 "
+pac
+=
+"
+proxy
+.
+pac
+"
 )
     
 tree
@@ -2605,6 +2612,15 @@ timeout
 :
 '
 long
+'
+'
+pac
+'
+:
+'
+proxy
+.
+pac
 '
 }
 )

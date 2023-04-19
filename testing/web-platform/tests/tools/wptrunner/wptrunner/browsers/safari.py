@@ -1094,6 +1094,10 @@ port
 =
 None
                          
+supports_pac
+=
+False
+                         
 env
 =
 env
