@@ -480,7 +480,7 @@ rtc_base
 and
 rtc_base_approved
 .
-rtc_library
+rtc_source_set
 (
 "
 rtc_base_approved
