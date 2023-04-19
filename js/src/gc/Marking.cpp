@@ -13329,14 +13329,14 @@ count
 EphemeronEdgeTable
 :
 :
-Range
+MutableRange
 r
 =
 gcEphemeronEdges
 (
 )
 .
-all
+mutableAll
 (
 )
 ;
