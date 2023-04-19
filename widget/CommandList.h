@@ -385,11 +385,6 @@ cmd_ul
 )
 NS_DEFINE_COMMAND
 (
-GetHTML
-cmd_getContents
-)
-NS_DEFINE_COMMAND
-(
 FormatRemove
 cmd_removeStyles
 )
