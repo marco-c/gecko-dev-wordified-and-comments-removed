@@ -99,6 +99,16 @@ GeckoViewAutoFillParent
 jsm
 "
 "
+GeckoViewClipboardPermissionChild
+.
+jsm
+"
+"
+GeckoViewClipboardPermissionParent
+.
+jsm
+"
+"
 GeckoViewContentChild
 .
 jsm
