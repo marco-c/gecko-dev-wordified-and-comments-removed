@@ -775,6 +775,7 @@ deprecated
 =
 kPlanB_DEPRECATED
 kUnifiedPlan
+kNotSpecified
 }
 ;
 class
@@ -1795,7 +1796,7 @@ sdp_semantics
 SdpSemantics
 :
 :
-kPlanB_DEPRECATED
+kNotSpecified
 ;
 bool
 active_reset_srtp_params

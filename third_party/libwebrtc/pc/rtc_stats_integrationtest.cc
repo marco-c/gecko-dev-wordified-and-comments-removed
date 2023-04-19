@@ -711,6 +711,15 @@ PeerConnectionInterface
 RTCConfiguration
 config
 ;
+config
+.
+sdp_semantics
+=
+SdpSemantics
+:
+:
+kUnifiedPlan
+;
 PeerConnectionInterface
 :
 :
