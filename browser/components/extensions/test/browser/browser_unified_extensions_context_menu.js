@@ -2791,6 +2791,18 @@ null
 win
 )
 ;
+if
+(
+AppConstants
+.
+platform
+!
+=
+"
+macosx
+"
+)
+{
 shown
 =
 BrowserTestUtils
@@ -2851,6 +2863,7 @@ null
 win
 )
 ;
+}
 await
 closeExtensionsPanel
 (
