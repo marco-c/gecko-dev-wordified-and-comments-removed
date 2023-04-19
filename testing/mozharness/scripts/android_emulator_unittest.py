@@ -116,16 +116,6 @@ CodeCoverageMixin
     
 code_coverage_config_options
 )
-PY2
-=
-sys
-.
-version_info
-.
-major
-=
-=
-2
 SUITE_DEFAULT_E10S
 =
 [
@@ -3005,29 +2995,6 @@ _query_suites
 )
         
 if
-PY2
-:
-            
-wspb_requirements
-=
-"
-websocketprocessbridge_requirements
-.
-txt
-"
-        
-else
-:
-            
-wspb_requirements
-=
-"
-websocketprocessbridge_requirements_3
-.
-txt
-"
-        
-if
 (
 "
 mochitest
@@ -3064,7 +3031,11 @@ abs_mochitest_dir
 websocketprocessbridge
 "
                 
-wspb_requirements
+"
+websocketprocessbridge_requirements_3
+.
+txt
+"
             
 )
         
