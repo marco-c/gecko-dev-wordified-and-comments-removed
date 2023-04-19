@@ -609,6 +609,11 @@ non_sender_rtt_measurement
 false
 ;
 bool
+reply_to_non_sender_rtt_measurement
+=
+false
+;
+bool
 send_remb_on_change
 =
 false
