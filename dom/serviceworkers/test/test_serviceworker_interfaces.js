@@ -788,7 +788,13 @@ true
 TextDecoder
 "
 "
+TextDecoderStream
+"
+"
 TextEncoder
+"
+"
+TextEncoderStream
 "
 "
 TextMetrics
