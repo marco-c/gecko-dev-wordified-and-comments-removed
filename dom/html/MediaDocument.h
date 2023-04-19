@@ -347,14 +347,6 @@ MediaDocument
 aDocument
 )
 ;
-void
-SetStreamListener
-(
-nsIStreamListener
-*
-aListener
-)
-;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
