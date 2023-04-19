@@ -1746,6 +1746,11 @@ perf
 pool
 '
 '
+perf
+-
+output
+'
+'
 timeout
 -
 3h
@@ -1798,6 +1803,11 @@ devices
 perf
 -
 pool
+'
+'
+perf
+-
+output
 '
 '
 timeout
@@ -1854,6 +1864,11 @@ perf
 pool
 '
 '
+perf
+-
+output
+'
+'
 timeout
 -
 3h
@@ -1908,6 +1923,11 @@ pool
 timeout
 -
 3h
+'
+'
+perf
+-
+output
 '
 '
 has_native_resultdb_integration
