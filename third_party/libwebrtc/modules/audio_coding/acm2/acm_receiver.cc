@@ -1118,14 +1118,6 @@ audio_frame
 num_channels_
 )
 ;
-{
-MutexLock
-lock
-(
-&
-mutex_
-)
-;
 call_stats_
 .
 DecodedByNetEq
@@ -1138,7 +1130,6 @@ speech_type_
 muted
 )
 ;
-}
 return
 0
 ;
