@@ -2070,12 +2070,10 @@ return
 {
 same
 :
+!
 changed
 .
 length
-=
-=
-0
 changed
 }
 ;
@@ -3493,8 +3491,6 @@ setQuery
 args
 .
 length
->
-0
 ?
 "
 ?

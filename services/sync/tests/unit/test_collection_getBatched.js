@@ -1087,11 +1087,11 @@ records
 {
 ok
 (
+!
+!
 records
 .
 length
->
-0
 )
 ;
 for

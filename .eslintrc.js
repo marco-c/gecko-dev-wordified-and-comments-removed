@@ -3870,12 +3870,6 @@ manager
 *
 "
 "
-services
-/
-*
-*
-"
-"
 storage
 /
 test

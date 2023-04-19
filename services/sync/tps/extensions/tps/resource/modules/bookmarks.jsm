@@ -1848,8 +1848,6 @@ if
 tags
 .
 length
->
-0
 )
 {
 PlacesUtils

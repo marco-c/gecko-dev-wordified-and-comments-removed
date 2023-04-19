@@ -233,6 +233,8 @@ lastModified_summary_is_correct
 {
 ok
 (
+!
+!
 Object
 .
 keys
@@ -243,8 +245,6 @@ _dumpStats
 )
 .
 length
->
-0
 "
 Contains
 summary

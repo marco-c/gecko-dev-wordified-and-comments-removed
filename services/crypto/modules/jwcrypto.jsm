@@ -474,11 +474,11 @@ reject
 ;
 if
 (
+!
+!
 cek
 .
 length
->
-0
 |
 |
 header

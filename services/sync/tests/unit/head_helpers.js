@@ -1312,14 +1312,13 @@ shutdown
 "
 |
 |
+!
+!
 record
 .
 syncs
 .
 length
-!
-=
-0
 )
 )
 {

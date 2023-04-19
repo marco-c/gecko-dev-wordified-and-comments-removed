@@ -570,12 +570,11 @@ guid
 )
 ;
 return
+!
+!
 results
 .
 length
-!
-=
-0
 ;
 }
 async

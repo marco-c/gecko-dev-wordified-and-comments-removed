@@ -719,8 +719,6 @@ if
 toRemove
 .
 length
->
-0
 )
 {
 for

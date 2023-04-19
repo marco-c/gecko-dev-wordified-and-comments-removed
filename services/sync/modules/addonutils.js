@@ -1177,8 +1177,6 @@ ourResult
 errors
 .
 length
->
-0
 )
 {
 throw

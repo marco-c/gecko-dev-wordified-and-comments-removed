@@ -449,6 +449,8 @@ event
 )
 &
 &
+!
+!
 this
 .
 _listeners
@@ -459,8 +461,6 @@ event
 )
 .
 length
->
-0
 ;
 }
 on
@@ -2979,12 +2979,10 @@ this
 verifySignature
 &
 &
+!
 importedFromDump
 .
 length
-=
-=
-0
 )
 {
 lazy
@@ -3019,12 +3017,10 @@ metadata
 }
 if
 (
+!
 importedFromDump
 .
 length
-=
-=
-0
 )
 {
 return

@@ -615,12 +615,10 @@ timestamp
 }
 if
 (
+!
 records
 .
 length
-=
-=
-0
 )
 {
 return
