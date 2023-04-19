@@ -494,6 +494,10 @@ deps
 [
 "
 :
+atomicops
+"
+"
+:
 checks
 "
 "
@@ -1016,10 +1020,6 @@ webrtc
 :
 8603
 )
-"
-:
-atomicops
-"
 "
 :
 logging
@@ -6864,6 +6864,10 @@ deps
 [
 "
 :
+atomicops
+"
+"
+:
 bitstream_reader
 "
 "
@@ -7547,6 +7551,10 @@ cc
 deps
 =
 [
+"
+:
+atomicops
+"
 "
 :
 checks

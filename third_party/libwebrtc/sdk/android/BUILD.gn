@@ -6568,6 +6568,17 @@ generated_native_api_jni
 internal_jni
 "
 "
+.
+.
+/
+.
+.
+/
+rtc_base
+:
+atomicops
+"
+"
 /
 /
 api
