@@ -3805,6 +3805,16 @@ libwebrtc
 /
 rtc_base
 /
+byte_buffer_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+rtc_base
+/
 byte_order_gn
 "
 "
