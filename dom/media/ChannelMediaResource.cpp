@@ -3626,7 +3626,7 @@ principal
 secMan
 -
 >
-GetChannelResultPrincipal
+GetChannelResultPrincipalIfNotSandboxed
 (
 mChannel
 getter_AddRefs
