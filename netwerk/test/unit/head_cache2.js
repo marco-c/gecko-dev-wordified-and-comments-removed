@@ -311,7 +311,7 @@ inputStream
 true
 )
 ;
-let
+var
 data
 =
 "
@@ -447,7 +447,7 @@ data
 }
 else
 {
-let
+var
 data
 =
 read_stream
@@ -973,7 +973,7 @@ WAITFORWRITE
 return
 ;
 }
-let
+var
 self
 =
 this
@@ -1083,7 +1083,7 @@ state
 ;
 try
 {
-let
+var
 os
 =
 entry
@@ -1175,7 +1175,7 @@ openOutputStream
 offset
 )
 ;
-let
+var
 os
 =
 entry
@@ -1324,7 +1324,7 @@ true
 )
 ;
 }
-let
+var
 self
 =
 this

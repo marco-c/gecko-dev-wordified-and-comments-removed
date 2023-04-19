@@ -1546,10 +1546,7 @@ error
 >
 {
 throw
-new
-Error
-(
-Unexpected
+Unxpected
 error
 when
 conneting
@@ -1573,7 +1570,6 @@ handling
 error
 }
 '
-)
 ;
 }
 )

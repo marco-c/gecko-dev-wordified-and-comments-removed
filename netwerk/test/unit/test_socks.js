@@ -224,7 +224,7 @@ binary
 ;
 }
 var
-file
+script
 =
 do_get_file
 (
@@ -241,10 +241,10 @@ bin
 )
 ;
 var
-procArgs
+args
 =
 [
-file
+script
 .
 path
 ]
@@ -259,8 +259,8 @@ proc
 run
 (
 false
-procArgs
-procArgs
+args
+args
 .
 length
 )
@@ -2302,9 +2302,6 @@ id
 +
 id
 )
-;
-return
-null
 ;
 }
 testCompleted

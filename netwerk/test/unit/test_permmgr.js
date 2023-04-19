@@ -351,7 +351,7 @@ return
 }
 for
 (
-let
+var
 i
 =
 0
@@ -419,7 +419,7 @@ i
 }
 for
 (
-let
+var
 i
 =
 0
@@ -537,7 +537,7 @@ length
 ;
 for
 (
-let
+var
 j
 =
 0
@@ -566,7 +566,7 @@ j
 }
 for
 (
-let
+var
 i
 =
 0
@@ -584,7 +584,7 @@ i
 {
 for
 (
-let
+var
 j
 =
 0

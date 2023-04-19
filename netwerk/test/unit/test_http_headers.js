@@ -185,7 +185,7 @@ baz
 ;
 for
 (
-let
+var
 i
 =
 0
@@ -215,7 +215,7 @@ false
 }
 for
 (
-let
+var
 i
 =
 0

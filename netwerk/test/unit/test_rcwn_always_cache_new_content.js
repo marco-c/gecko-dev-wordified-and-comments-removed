@@ -435,7 +435,7 @@ testSteps
 (
 )
 {
-let
+var
 channel
 =
 make_channel
@@ -478,6 +478,7 @@ gRequestCounter
 1
 )
 ;
+var
 channel
 =
 make_channel
@@ -548,6 +549,7 @@ gRequestCounter
 2
 )
 ;
+var
 channel
 =
 make_channel

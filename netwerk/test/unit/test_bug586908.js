@@ -377,13 +377,12 @@ failed
 =
 true
 ;
+return
 pac
 (
 metadata
 response
 )
-;
-return
 ;
 }
 called

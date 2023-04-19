@@ -151,11 +151,9 @@ etag1
 "
 )
 ;
-let
-etag
-;
 try
 {
+var
 etag
 =
 metadata
@@ -177,6 +175,7 @@ catch
 ex
 )
 {
+var
 etag
 =
 "
@@ -560,7 +559,7 @@ microseconds
 }
 )
 ;
-let
+var
 channel
 =
 make_channel
@@ -629,6 +628,7 @@ responses
 "
 )
 ;
+var
 channel
 =
 make_channel
@@ -697,6 +697,7 @@ responses
 "
 )
 ;
+var
 channel
 =
 make_channel
@@ -807,6 +808,7 @@ responses
 "
 )
 ;
+var
 channel
 =
 make_channel
@@ -912,6 +914,7 @@ responses
 "
 )
 ;
+var
 channel
 =
 make_channel
@@ -1008,6 +1011,7 @@ responses
 "
 )
 ;
+var
 channel
 =
 make_channel
@@ -1137,6 +1141,7 @@ responses
 "
 )
 ;
+var
 channel
 =
 make_channel
@@ -1256,6 +1261,7 @@ responses
 "
 )
 ;
+var
 channel
 =
 make_channel
@@ -1324,6 +1330,7 @@ responses
 "
 )
 ;
+var
 channel
 =
 make_channel
@@ -1396,6 +1403,7 @@ gIsFromCache
 =
 0
 ;
+var
 channel
 =
 make_channel
@@ -1505,6 +1513,7 @@ responses
 "
 )
 ;
+var
 channel
 =
 make_channel
@@ -1664,6 +1673,7 @@ i
 +
 )
 {
+var
 channel
 =
 make_channel

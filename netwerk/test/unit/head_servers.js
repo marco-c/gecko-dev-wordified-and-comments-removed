@@ -121,9 +121,6 @@ end
 response
 )
 ;
-return
-undefined
-;
 }
 }
 class
