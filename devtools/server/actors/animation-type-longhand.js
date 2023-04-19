@@ -319,6 +319,11 @@ override
 "
 font
 -
+palette
+"
+"
+font
+-
 style
 "
 "
