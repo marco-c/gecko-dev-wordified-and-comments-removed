@@ -972,6 +972,9 @@ Length
 )
 )
 aNewContent
+GetSplitNodeDirection
+(
+)
 )
 ;
 NS_WARNING_ASSERTION

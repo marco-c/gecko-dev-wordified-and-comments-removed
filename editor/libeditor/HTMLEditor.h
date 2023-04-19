@@ -2356,6 +2356,8 @@ aStartOfRightNode
 nsIContent
 &
 aNewNode
+SplitNodeDirection
+aDirection
 )
 ;
 [
