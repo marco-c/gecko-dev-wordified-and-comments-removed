@@ -2774,17 +2774,6 @@ rtc_p2p
 /
 rtc_base
 "
-"
-.
-.
-/
-.
-.
-/
-rtc_base
-:
-threading
-"
 ]
 }
 rtc_library
