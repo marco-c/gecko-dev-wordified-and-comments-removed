@@ -1380,7 +1380,9 @@ hostname
 ;
 if
 (
-socket_
+GetSocket
+(
+)
 -
 >
 GetState
@@ -1545,7 +1547,9 @@ bio
 {
 BIO_new_socket
 (
-socket_
+GetSocket
+(
+)
 )
 :
 :
@@ -2679,7 +2683,9 @@ addr
 {
 if
 (
-socket_
+GetSocket
+(
+)
 -
 >
 GetState
@@ -2696,7 +2702,9 @@ CS_CONNECTED
 addr
 =
 =
-socket_
+GetSocket
+(
+)
 -
 >
 GetRemoteAddress
@@ -2941,7 +2949,9 @@ timestamp
 {
 if
 (
-socket_
+GetSocket
+(
+)
 -
 >
 GetState
@@ -3025,7 +3035,9 @@ const
 ConnState
 state
 =
-socket_
+GetSocket
+(
+)
 -
 >
 GetState

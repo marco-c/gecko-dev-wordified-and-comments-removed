@@ -183,9 +183,6 @@ if
 buffering_
 )
 {
-socket_
--
->
 SetError
 (
 EWOULDBLOCK
@@ -228,9 +225,6 @@ if
 buffering_
 )
 {
-socket_
--
->
 SetError
 (
 EWOULDBLOCK
@@ -395,7 +389,9 @@ RTC_DCHECK
 socket
 =
 =
-socket_
+GetSocket
+(
+)
 )
 ;
 if
@@ -447,9 +443,9 @@ data_len_
 int
 len
 =
-socket_
--
->
+AsyncSocketAdapter
+:
+:
 Recv
 (
 buffer_
@@ -769,7 +765,9 @@ RTC_DCHECK
 socket
 =
 =
-socket_
+GetSocket
+(
+)
 )
 ;
 const
