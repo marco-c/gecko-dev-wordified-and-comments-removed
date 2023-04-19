@@ -4,6 +4,10 @@ Utils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -19,6 +23,8 @@ inspector
 utils
 /
 index
+.
+js
 "
 )
 ;
@@ -48,6 +54,10 @@ gripMapStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -67,6 +77,8 @@ reps
 grip
 -
 map
+.
+js
 "
 )
 ;
@@ -76,6 +88,10 @@ gripArrayStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -95,6 +111,8 @@ reps
 grip
 -
 array
+.
+js
 "
 )
 ;
@@ -104,6 +122,10 @@ gripStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -121,6 +143,8 @@ stubs
 reps
 /
 grip
+.
+js
 "
 )
 ;

@@ -4,6 +4,10 @@ ObjectInspector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -19,6 +23,8 @@ inspector
 components
 /
 ObjectInspector
+.
+js
 "
 )
 ;
@@ -28,6 +34,10 @@ utils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ inspector
 utils
 /
 index
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ reducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ object
 inspector
 /
 reducer
+.
+js
 "
 )
 ;
@@ -74,6 +92,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +109,8 @@ object
 inspector
 /
 actions
+.
+js
 "
 )
 ;

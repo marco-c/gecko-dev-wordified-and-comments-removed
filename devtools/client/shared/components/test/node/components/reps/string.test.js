@@ -24,6 +24,10 @@ ELLIPSIS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -39,6 +43,8 @@ reps
 rep
 -
 utils
+.
+js
 "
 )
 ;
@@ -50,6 +56,10 @@ REPS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -63,6 +73,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;

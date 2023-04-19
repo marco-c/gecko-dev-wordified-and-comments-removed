@@ -8,6 +8,10 @@ nodeSupportsNumericalBucketing
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -23,6 +27,8 @@ inspector
 utils
 /
 node
+.
+js
 "
 )
 ;
@@ -56,6 +62,10 @@ gripArrayStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -75,6 +85,8 @@ reps
 grip
 -
 array
+.
+js
 "
 )
 ;
@@ -84,6 +96,10 @@ gripMapStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -103,6 +119,8 @@ reps
 grip
 -
 map
+.
+js
 "
 )
 ;

@@ -29,7 +29,11 @@ factory
 exports
 require
 (
-'
+"
+resource
+:
+/
+/
 devtools
 /
 client
@@ -39,7 +43,9 @@ shared
 vendor
 /
 react
-'
+.
+js
+"
 )
 )
 :

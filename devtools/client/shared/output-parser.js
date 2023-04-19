@@ -11,6 +11,10 @@ angleUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 css
 -
 angle
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ colorUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -38,6 +48,8 @@ shared
 css
 /
 color
+.
+js
 "
 )
 ;
@@ -49,6 +61,10 @@ getCSSLexer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -56,6 +72,8 @@ shared
 css
 /
 lexer
+.
+js
 "
 )
 ;
@@ -65,6 +83,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -72,6 +94,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -83,6 +107,10 @@ appendText
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -92,6 +120,8 @@ inspector
 shared
 /
 utils
+.
+js
 "
 )
 ;
@@ -118,11 +148,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;

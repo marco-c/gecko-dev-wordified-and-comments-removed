@@ -13,6 +13,10 @@ getUnicodeHostname
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ shared
 unicode
 -
 url
+.
+js
 "
 )
 ;

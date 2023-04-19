@@ -4,6 +4,10 @@ client
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -19,6 +23,8 @@ inspector
 utils
 /
 client
+.
+js
 "
 )
 ;
@@ -28,6 +34,10 @@ loadProperties
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -45,6 +55,8 @@ utils
 load
 -
 properties
+.
+js
 "
 )
 ;
@@ -54,6 +66,10 @@ node
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -69,6 +85,8 @@ inspector
 utils
 /
 node
+.
+js
 "
 )
 ;
@@ -88,6 +106,10 @@ selection
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -103,6 +125,8 @@ inspector
 utils
 /
 selection
+.
+js
 "
 )
 ;
@@ -114,6 +138,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +155,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;
@@ -143,6 +173,10 @@ Grip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -156,6 +190,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;

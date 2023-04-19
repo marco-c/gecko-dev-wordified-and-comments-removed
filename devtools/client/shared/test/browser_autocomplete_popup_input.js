@@ -65,6 +65,10 @@ AutocompletePopup
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -74,6 +78,8 @@ shared
 autocomplete
 -
 popup
+.
+js
 "
 )
 ;

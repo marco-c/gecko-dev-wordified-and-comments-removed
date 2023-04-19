@@ -9,6 +9,10 @@ mod
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ codemirror
 lib
 /
 codemirror
+.
+js
 "
 )
 )

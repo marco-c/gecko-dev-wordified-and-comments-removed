@@ -9,6 +9,10 @@ wasmparser
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ shared
 vendor
 /
 WasmParser
+.
+js
 "
 )
 ;
@@ -27,6 +33,10 @@ wasmdis
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -36,6 +46,8 @@ shared
 vendor
 /
 WasmDis
+.
+js
 "
 )
 ;

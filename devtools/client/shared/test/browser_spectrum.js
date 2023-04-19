@@ -9,6 +9,10 @@ Spectrum
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ shared
 widgets
 /
 Spectrum
+.
+js
 "
 )
 ;
@@ -39,11 +45,17 @@ AA
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;

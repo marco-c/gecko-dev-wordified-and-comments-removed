@@ -12,6 +12,10 @@ createElement
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -41,6 +51,8 @@ shared
 components
 /
 VisibilityHandler
+.
+js
 "
 )
 )
@@ -53,6 +65,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -64,6 +80,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;

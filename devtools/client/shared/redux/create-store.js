@@ -13,6 +13,10 @@ applyMiddleware
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ shared
 vendor
 /
 redux
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ thunk
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -44,6 +54,8 @@ redux
 middleware
 /
 thunk
+.
+js
 "
 )
 ;
@@ -55,6 +67,10 @@ waitUntilService
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -68,6 +84,8 @@ middleware
 wait
 -
 service
+.
+js
 "
 )
 ;
@@ -79,6 +97,10 @@ task
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -90,6 +112,8 @@ redux
 middleware
 /
 task
+.
+js
 "
 )
 ;
@@ -101,6 +125,10 @@ promise
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -112,6 +140,8 @@ redux
 middleware
 /
 promise
+.
+js
 "
 )
 ;
@@ -121,11 +151,17 @@ flags
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 flags
+.
+js
 "
 )
 ;

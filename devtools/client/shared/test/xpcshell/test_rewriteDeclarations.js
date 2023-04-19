@@ -9,6 +9,10 @@ RuleRewriter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ inspector
 rule
 -
 rewriter
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ isCssPropertyKnown
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -40,6 +50,8 @@ actors
 css
 -
 properties
+.
+js
 "
 )
 ;

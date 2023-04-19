@@ -4,6 +4,10 @@ ObjectFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ __mocks__
 object
 -
 front
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ mountObjectInspector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -53,6 +63,8 @@ inspector
 test
 -
 utils
+.
+js
 "
 )
 ;

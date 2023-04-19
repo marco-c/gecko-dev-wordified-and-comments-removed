@@ -11,6 +11,10 @@ colorUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -18,6 +22,8 @@ shared
 css
 /
 color
+.
+js
 "
 )
 ;
@@ -27,6 +33,10 @@ Spectrum
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -36,6 +46,8 @@ shared
 widgets
 /
 Spectrum
+.
+js
 "
 )
 ;
@@ -45,6 +57,10 @@ SwatchBasedEditorTooltip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -56,6 +72,8 @@ widgets
 tooltip
 /
 SwatchBasedEditorTooltip
+.
+js
 "
 )
 ;
@@ -67,11 +85,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;
@@ -102,6 +126,10 @@ openDocLink
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +137,8 @@ client
 shared
 /
 link
+.
+js
 "
 )
 ;
@@ -120,6 +150,10 @@ A11Y_CONTRAST_LEARN_MORE_LINK
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +161,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;

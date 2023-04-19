@@ -9,6 +9,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -16,6 +20,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -27,11 +33,17 @@ dumpn
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -67,6 +79,10 @@ adbProcess
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +98,8 @@ adb
 adb
 -
 process
+.
+js
 "
 )
 ;
@@ -91,6 +109,10 @@ client
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -106,6 +128,8 @@ adb
 adb
 -
 client
+.
+js
 "
 )
 ;

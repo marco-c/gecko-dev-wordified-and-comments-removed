@@ -9,6 +9,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -16,6 +20,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -25,6 +31,10 @@ KeyShortcuts
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -34,6 +44,8 @@ shared
 key
 -
 shortcuts
+.
+js
 "
 )
 ;
@@ -45,6 +57,10 @@ HTMLTooltip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -56,6 +72,8 @@ widgets
 tooltip
 /
 HTMLTooltip
+.
+js
 "
 )
 ;

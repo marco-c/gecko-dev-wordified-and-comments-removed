@@ -24,6 +24,10 @@ getRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -37,6 +41,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;
@@ -55,6 +61,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -68,6 +78,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;
@@ -1767,6 +1779,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1784,6 +1800,8 @@ stubs
 reps
 /
 attribute
+.
+js
 "
 )
 ;
@@ -1831,6 +1849,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1850,6 +1872,8 @@ reps
 comment
 -
 node
+.
+js
 "
 )
 ;
@@ -1897,6 +1921,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1916,6 +1944,8 @@ reps
 date
 -
 time
+.
+js
 "
 )
 ;
@@ -1963,6 +1993,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1980,6 +2014,8 @@ stubs
 reps
 /
 document
+.
+js
 "
 )
 ;
@@ -2027,6 +2063,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2046,6 +2086,8 @@ reps
 element
 -
 node
+.
+js
 "
 )
 ;
@@ -2093,6 +2135,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2110,6 +2156,8 @@ stubs
 reps
 /
 error
+.
+js
 "
 )
 ;
@@ -2157,6 +2205,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2174,6 +2226,8 @@ stubs
 reps
 /
 event
+.
+js
 "
 )
 ;
@@ -2221,6 +2275,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2238,6 +2296,8 @@ stubs
 reps
 /
 function
+.
+js
 "
 )
 ;
@@ -2285,6 +2345,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2304,6 +2368,8 @@ reps
 grip
 -
 array
+.
+js
 "
 )
 ;
@@ -2351,6 +2417,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2370,6 +2440,8 @@ reps
 grip
 -
 map
+.
+js
 "
 )
 ;
@@ -2417,6 +2489,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2434,6 +2510,8 @@ stubs
 reps
 /
 grip
+.
+js
 "
 )
 ;
@@ -2481,6 +2559,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2498,6 +2580,8 @@ stubs
 reps
 /
 infinity
+.
+js
 "
 )
 ;
@@ -2545,6 +2629,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2564,6 +2652,8 @@ reps
 long
 -
 string
+.
+js
 "
 )
 ;
@@ -2611,6 +2701,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2628,6 +2722,8 @@ stubs
 reps
 /
 nan
+.
+js
 "
 )
 ;
@@ -2675,6 +2771,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2692,6 +2792,8 @@ stubs
 reps
 /
 null
+.
+js
 "
 )
 ;
@@ -2739,6 +2841,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2756,6 +2862,8 @@ stubs
 reps
 /
 number
+.
+js
 "
 )
 ;
@@ -2803,6 +2911,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2824,6 +2936,8 @@ object
 with
 -
 text
+.
+js
 "
 )
 ;
@@ -2871,6 +2985,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2892,6 +3010,8 @@ object
 with
 -
 url
+.
+js
 "
 )
 ;
@@ -2939,6 +3059,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2956,6 +3080,8 @@ stubs
 reps
 /
 promise
+.
+js
 "
 )
 ;
@@ -3003,6 +3129,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -3020,6 +3150,8 @@ stubs
 reps
 /
 regexp
+.
+js
 "
 )
 ;
@@ -3067,6 +3199,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -3084,6 +3220,8 @@ stubs
 reps
 /
 stylesheet
+.
+js
 "
 )
 ;
@@ -3131,6 +3269,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -3148,6 +3290,8 @@ stubs
 reps
 /
 symbol
+.
+js
 "
 )
 ;
@@ -3195,6 +3339,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -3214,6 +3362,8 @@ reps
 text
 -
 node
+.
+js
 "
 )
 ;
@@ -3261,6 +3411,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -3278,6 +3432,8 @@ stubs
 reps
 /
 undefined
+.
+js
 "
 )
 ;
@@ -3325,6 +3481,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -3342,6 +3502,8 @@ stubs
 reps
 /
 window
+.
+js
 "
 )
 ;

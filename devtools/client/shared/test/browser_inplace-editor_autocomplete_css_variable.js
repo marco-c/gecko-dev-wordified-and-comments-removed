@@ -9,6 +9,10 @@ AutocompletePopup
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ shared
 autocomplete
 -
 popup
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ InplaceEditor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -38,6 +48,8 @@ shared
 inplace
 -
 editor
+.
+js
 "
 )
 ;

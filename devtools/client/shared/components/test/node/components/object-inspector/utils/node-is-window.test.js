@@ -4,6 +4,10 @@ gripWindowStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ stubs
 reps
 /
 window
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ nodeIsWindow
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -48,6 +58,8 @@ inspector
 utils
 /
 node
+.
+js
 "
 )
 ;

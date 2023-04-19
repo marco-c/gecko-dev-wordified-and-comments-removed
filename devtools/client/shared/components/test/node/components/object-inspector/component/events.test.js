@@ -6,6 +6,10 @@ mountObjectInspector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -27,6 +31,8 @@ inspector
 test
 -
 utils
+.
+js
 "
 )
 ;
@@ -36,6 +42,10 @@ gripRepStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -53,6 +63,8 @@ stubs
 reps
 /
 grip
+.
+js
 "
 )
 ;
@@ -62,6 +74,10 @@ ObjectFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +95,8 @@ __mocks__
 object
 -
 front
+.
+js
 "
 )
 ;

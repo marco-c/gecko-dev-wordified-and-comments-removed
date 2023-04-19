@@ -11,6 +11,10 @@ CSSFilterEditorWidget
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 widgets
 /
 FilterWidget
+.
+js
 "
 )
 ;
@@ -31,11 +37,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;

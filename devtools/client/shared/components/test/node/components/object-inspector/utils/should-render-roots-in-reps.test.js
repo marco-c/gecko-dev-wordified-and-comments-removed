@@ -4,6 +4,10 @@ Utils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -19,6 +23,8 @@ inspector
 utils
 /
 index
+.
+js
 "
 )
 ;
@@ -35,6 +41,10 @@ nullStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -52,6 +62,8 @@ stubs
 reps
 /
 null
+.
+js
 "
 )
 ;
@@ -61,6 +73,10 @@ numberStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +94,8 @@ stubs
 reps
 /
 number
+.
+js
 "
 )
 ;
@@ -87,6 +105,10 @@ undefinedStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -104,6 +126,8 @@ stubs
 reps
 /
 undefined
+.
+js
 "
 )
 ;
@@ -113,6 +137,10 @@ gripStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -130,6 +158,8 @@ stubs
 reps
 /
 grip
+.
+js
 "
 )
 ;
@@ -139,6 +169,10 @@ gripArrayStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -158,6 +192,8 @@ reps
 grip
 -
 array
+.
+js
 "
 )
 ;
@@ -167,6 +203,10 @@ symbolStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -184,6 +224,8 @@ stubs
 reps
 /
 symbol
+.
+js
 "
 )
 ;
@@ -193,6 +235,10 @@ errorStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -210,6 +256,8 @@ stubs
 reps
 /
 error
+.
+js
 "
 )
 ;
@@ -219,6 +267,10 @@ bigIntStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -238,6 +290,8 @@ reps
 big
 -
 int
+.
+js
 "
 )
 ;

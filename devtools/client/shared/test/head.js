@@ -45,6 +45,10 @@ DOMHelpers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -52,6 +56,8 @@ shared
 dom
 -
 helpers
+.
+js
 "
 )
 ;
@@ -63,6 +69,10 @@ Hosts
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -72,6 +82,8 @@ framework
 toolbox
 -
 hosts
+.
+js
 "
 )
 ;

@@ -12,6 +12,10 @@ applyMiddleware
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 redux
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ task
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ redux
 middleware
 /
 task
+.
+js
 "
 )
 ;

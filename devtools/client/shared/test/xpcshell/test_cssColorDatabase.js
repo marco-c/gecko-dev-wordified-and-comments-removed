@@ -11,6 +11,10 @@ colorUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -18,6 +22,8 @@ shared
 css
 /
 color
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ cssColors
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -38,6 +48,8 @@ css
 color
 -
 db
+.
+js
 "
 )
 ;

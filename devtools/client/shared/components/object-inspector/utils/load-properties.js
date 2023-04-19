@@ -15,6 +15,10 @@ getCustomFormatterBody
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -30,6 +34,8 @@ inspector
 utils
 /
 client
+.
+js
 "
 )
 ;
@@ -57,6 +63,10 @@ nodeIsLongString
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -72,6 +82,8 @@ inspector
 utils
 /
 node
+.
+js
 "
 )
 ;

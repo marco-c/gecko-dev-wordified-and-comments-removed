@@ -4,6 +4,10 @@ accessorStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ stubs
 reps
 /
 accessor
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ performanceStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -49,6 +59,8 @@ object
 inspector
 /
 performance
+.
+js
 "
 )
 ;
@@ -58,6 +70,10 @@ gripMapStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -77,6 +93,8 @@ reps
 grip
 -
 map
+.
+js
 "
 )
 ;
@@ -86,6 +104,10 @@ gripArrayStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -105,6 +127,8 @@ reps
 grip
 -
 array
+.
+js
 "
 )
 ;
@@ -114,6 +138,10 @@ gripEntryStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -133,6 +161,8 @@ reps
 grip
 -
 entry
+.
+js
 "
 )
 ;
@@ -142,6 +172,10 @@ gripStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -159,6 +193,8 @@ stubs
 reps
 /
 grip
+.
+js
 "
 )
 ;
@@ -173,6 +209,10 @@ makeNodesForProperties
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -188,6 +228,8 @@ inspector
 utils
 /
 node
+.
+js
 "
 )
 ;

@@ -13,6 +13,10 @@ createElement
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -34,6 +40,10 @@ Provider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -45,6 +55,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -77,6 +89,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -90,6 +106,8 @@ object
 inspector
 /
 actions
+.
+js
 "
 )
 ;
@@ -106,6 +124,10 @@ reducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -119,6 +141,8 @@ object
 inspector
 /
 reducer
+.
+js
 "
 )
 ;
@@ -130,6 +154,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -139,6 +167,8 @@ shared
 components
 /
 Tree
+.
+js
 "
 )
 )
@@ -151,6 +181,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -166,6 +200,8 @@ inspector
 components
 /
 ObjectInspectorItem
+.
+js
 "
 )
 )
@@ -176,6 +212,10 @@ Utils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -191,6 +231,8 @@ inspector
 utils
 /
 index
+.
+js
 "
 )
 ;

@@ -11,6 +11,10 @@ gDevTools
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ client
 framework
 /
 devtools
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ TabDescriptorFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ tab
 descriptor
 -
 factory
+.
+js
 "
 )
 ;

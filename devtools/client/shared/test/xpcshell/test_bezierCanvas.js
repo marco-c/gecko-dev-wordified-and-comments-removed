@@ -12,6 +12,10 @@ BezierCanvas
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 widgets
 /
 CubicBezierWidget
+.
+js
 "
 )
 ;

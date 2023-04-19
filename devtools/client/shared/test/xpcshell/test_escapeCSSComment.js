@@ -12,6 +12,10 @@ unescapeCSSComment
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -21,6 +25,8 @@ css
 parsing
 -
 utils
+.
+js
 "
 )
 ;

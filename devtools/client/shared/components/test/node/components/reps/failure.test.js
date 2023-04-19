@@ -23,6 +23,10 @@ REPS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -36,6 +40,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;
@@ -52,6 +58,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -69,6 +79,8 @@ stubs
 reps
 /
 failure
+.
+js
 "
 )
 ;

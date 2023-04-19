@@ -12,6 +12,10 @@ findMostRelevantCssPropertyIndex
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 suggestion
 -
 picker
+.
+js
 "
 )
 ;

@@ -11,6 +11,10 @@ remoteClientManager
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -26,6 +30,8 @@ remote
 client
 -
 manager
+.
+js
 "
 )
 ;
@@ -37,6 +43,10 @@ CONNECTION_TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -48,6 +58,8 @@ remote
 debugging
 /
 constants
+.
+js
 "
 )
 ;
@@ -644,6 +656,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -651,6 +667,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;

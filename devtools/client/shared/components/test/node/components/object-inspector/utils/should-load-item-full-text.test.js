@@ -4,6 +4,10 @@ Utils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -19,6 +23,8 @@ inspector
 utils
 /
 index
+.
+js
 "
 )
 ;
@@ -46,6 +52,10 @@ longStringStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +75,8 @@ reps
 long
 -
 string
+.
+js
 "
 )
 ;
@@ -74,6 +86,10 @@ symbolStubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -91,6 +107,8 @@ stubs
 reps
 /
 symbol
+.
+js
 "
 )
 ;

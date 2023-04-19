@@ -42,6 +42,10 @@ gDevTools
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -49,6 +53,8 @@ client
 framework
 /
 devtools
+.
+js
 "
 )
 ;
@@ -60,6 +66,10 @@ appendStyleSheet
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -69,6 +79,8 @@ shared
 stylesheet
 -
 utils
+.
+js
 "
 )
 ;
@@ -83,6 +95,10 @@ removeThemeObserver
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -90,6 +106,8 @@ client
 shared
 /
 theme
+.
+js
 "
 )
 ;

@@ -11,6 +11,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -42,6 +52,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -51,6 +63,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -64,6 +80,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -73,6 +91,10 @@ throttlingProfiles
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -84,6 +106,8 @@ components
 throttling
 /
 profiles
+.
+js
 "
 )
 ;
@@ -93,6 +117,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -104,6 +132,8 @@ components
 throttling
 /
 types
+.
+js
 "
 )
 ;
@@ -115,11 +145,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;

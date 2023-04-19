@@ -24,6 +24,10 @@ getRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -37,6 +41,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;
@@ -56,6 +62,10 @@ getSelectableInInspectorGrips
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -75,6 +85,8 @@ reps
 test
 -
 helpers
+.
+js
 "
 )
 ;
@@ -86,6 +98,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -99,6 +115,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;
@@ -108,6 +126,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -125,6 +147,8 @@ stubs
 reps
 /
 event
+.
+js
 "
 )
 ;

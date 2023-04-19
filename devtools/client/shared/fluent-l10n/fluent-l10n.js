@@ -9,6 +9,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;

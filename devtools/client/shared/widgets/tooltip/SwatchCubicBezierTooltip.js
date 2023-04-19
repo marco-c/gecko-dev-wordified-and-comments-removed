@@ -11,6 +11,10 @@ CubicBezierWidget
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 widgets
 /
 CubicBezierWidget
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ SwatchBasedEditorTooltip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ widgets
 tooltip
 /
 SwatchBasedEditorTooltip
+.
+js
 "
 )
 ;

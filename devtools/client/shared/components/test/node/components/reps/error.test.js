@@ -24,6 +24,10 @@ getRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -37,6 +41,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;
@@ -48,6 +54,10 @@ expectActorAttribute
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -67,6 +77,8 @@ reps
 test
 -
 helpers
+.
+js
 "
 )
 ;
@@ -85,6 +97,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -98,6 +114,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;
@@ -107,6 +125,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -124,6 +146,8 @@ stubs
 reps
 /
 error
+.
+js
 "
 )
 ;
@@ -133,6 +157,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -146,6 +174,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;

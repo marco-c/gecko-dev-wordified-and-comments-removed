@@ -204,6 +204,10 @@ react
 '
 with
 '
+resource
+:
+/
+/
 devtools
 /
 client
@@ -213,6 +217,8 @@ shared
 vendor
 /
 react
+.
+js
 '
 (
 including
@@ -230,6 +236,10 @@ redux
 '
 with
 '
+resource
+:
+/
+/
 devtools
 /
 client
@@ -239,6 +249,8 @@ shared
 vendor
 /
 redux
+.
+js
 '
 (
 including

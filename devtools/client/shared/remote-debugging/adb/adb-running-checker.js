@@ -9,6 +9,10 @@ client
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -24,6 +28,8 @@ adb
 adb
 -
 client
+.
+js
 "
 )
 ;
@@ -35,11 +41,17 @@ dumpn
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;

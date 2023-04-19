@@ -9,6 +9,10 @@ curl
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -16,6 +20,8 @@ client
 shared
 /
 curl
+.
+js
 "
 )
 ;

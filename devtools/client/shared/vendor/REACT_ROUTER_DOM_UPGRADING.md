@@ -188,6 +188,10 @@ for
 require
 (
 '
+resource
+:
+/
+/
 devtools
 /
 client
@@ -197,6 +201,8 @@ shared
 vendor
 /
 react
+.
+js
 '
 )
 6

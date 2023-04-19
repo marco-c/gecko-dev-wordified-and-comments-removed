@@ -61,6 +61,10 @@ gDevTools
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -68,6 +72,8 @@ client
 framework
 /
 devtools
+.
+js
 "
 )
 ;
@@ -107,6 +113,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -114,6 +124,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -125,6 +137,10 @@ DevToolsClient
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -132,6 +148,8 @@ client
 devtools
 -
 client
+.
+js
 "
 )
 ;
@@ -141,11 +159,17 @@ DevToolsUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -157,6 +181,10 @@ Toolbox
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -164,6 +192,8 @@ client
 framework
 /
 toolbox
+.
+js
 "
 )
 ;

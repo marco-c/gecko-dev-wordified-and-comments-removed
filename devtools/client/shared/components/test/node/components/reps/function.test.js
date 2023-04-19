@@ -23,6 +23,10 @@ REPS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -36,6 +40,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;
@@ -47,6 +53,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -60,6 +70,8 @@ reps
 reps
 /
 constants
+.
+js
 "
 )
 ;
@@ -83,6 +95,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +116,8 @@ stubs
 reps
 /
 function
+.
+js
 "
 )
 ;
@@ -111,6 +129,10 @@ expectActorAttribute
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -130,6 +152,8 @@ reps
 test
 -
 helpers
+.
+js
 "
 )
 ;

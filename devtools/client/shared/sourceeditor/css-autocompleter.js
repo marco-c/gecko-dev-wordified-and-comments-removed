@@ -12,6 +12,10 @@ cssTokenizerWithLineColumn
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -21,6 +25,8 @@ css
 parsing
 -
 utils
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ getClientCssProperties
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -41,6 +51,8 @@ fronts
 css
 -
 properties
+.
+js
 "
 )
 ;

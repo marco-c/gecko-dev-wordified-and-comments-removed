@@ -11,6 +11,10 @@ listDevices
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -28,6 +32,8 @@ commands
 list
 -
 devices
+.
+js
 "
 )
 ;
@@ -39,6 +45,10 @@ prepareTCPConnection
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -58,6 +68,8 @@ prepare
 tcp
 -
 connection
+.
+js
 "
 )
 ;
@@ -69,6 +81,10 @@ runCommand
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -86,6 +102,8 @@ commands
 run
 -
 command
+.
+js
 "
 )
 ;
@@ -97,6 +115,10 @@ shell
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -112,6 +134,8 @@ adb
 commands
 /
 shell
+.
+js
 "
 )
 ;
@@ -123,6 +147,10 @@ TrackDevicesCommand
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -140,6 +168,8 @@ commands
 track
 -
 devices
+.
+js
 "
 )
 ;

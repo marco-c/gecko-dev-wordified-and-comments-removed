@@ -24,6 +24,10 @@ getRep
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -37,6 +41,8 @@ reps
 reps
 /
 rep
+.
+js
 "
 )
 ;
@@ -48,6 +54,10 @@ ELLIPSIS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -63,6 +73,8 @@ reps
 rep
 -
 utils
+.
+js
 "
 )
 ;
@@ -74,6 +86,10 @@ expectActorAttribute
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -93,6 +109,8 @@ reps
 test
 -
 helpers
+.
+js
 "
 )
 ;
@@ -109,6 +127,10 @@ stubs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +150,8 @@ reps
 long
 -
 string
+.
+js
 "
 )
 ;

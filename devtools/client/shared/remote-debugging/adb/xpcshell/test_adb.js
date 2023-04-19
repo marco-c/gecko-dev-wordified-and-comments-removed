@@ -59,6 +59,10 @@ getFileForBinary
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -74,6 +78,8 @@ adb
 adb
 -
 binary
+.
+js
 "
 )
 ;
@@ -85,6 +91,10 @@ check
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -102,6 +112,8 @@ adb
 running
 -
 checker
+.
+js
 "
 )
 ;
@@ -113,6 +125,10 @@ adbProcess
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +144,8 @@ adb
 adb
 -
 process
+.
+js
 "
 )
 ;
@@ -139,6 +157,10 @@ TrackDevicesCommand
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -154,6 +176,8 @@ adb
 commands
 /
 index
+.
+js
 "
 )
 ;

@@ -9,6 +9,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -16,6 +20,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -27,11 +33,17 @@ MultiLocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;
