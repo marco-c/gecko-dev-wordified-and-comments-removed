@@ -1611,9 +1611,9 @@ nodiscard
 bool
 init
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 )
 ;
 GCThingList

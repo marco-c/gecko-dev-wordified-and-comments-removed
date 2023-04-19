@@ -1150,7 +1150,7 @@ sc
 )
 -
 >
-cx_
+ec_
 )
 )
 {
@@ -1877,16 +1877,16 @@ return
 false
 ;
 }
-JSContext
+ErrorContext
 *
-cx
+ec
 =
 sc
 (
 )
 -
 >
-cx_
+ec_
 ;
 if
 (
@@ -2004,7 +2004,7 @@ positionalFormalParameterNames_
 .
 acquire
 (
-cx
+ec
 )
 )
 {
@@ -2020,7 +2020,7 @@ closedOverBindingsForLazy_
 .
 acquire
 (
-cx
+ec
 )
 )
 {
