@@ -1237,13 +1237,6 @@ AdvanceTimeMilliseconds
 28
 )
 ;
-rtp_rtcp_module_
--
->
-Process
-(
-)
-;
 timestamp
 +
 =
@@ -1476,13 +1469,6 @@ fake_clock
 AdvanceTimeMilliseconds
 (
 33
-)
-;
-rtp_rtcp_module_
--
->
-Process
-(
 )
 ;
 }

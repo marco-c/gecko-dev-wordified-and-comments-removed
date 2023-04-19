@@ -405,9 +405,6 @@ class
 PacketRouter
 ;
 class
-ProcessThread
-;
-class
 ReceiveStatistics
 ;
 class
@@ -508,9 +505,6 @@ rtcp_cname_callback
 VCMReceiveStatisticsCallback
 *
 vcm_receive_statistics
-ProcessThread
-*
-process_thread
 NackSender
 *
 nack_sender
@@ -1193,11 +1187,6 @@ PacketRouter
 *
 const
 packet_router_
-;
-ProcessThread
-*
-const
-process_thread_
 ;
 RemoteNtpTimeEstimator
 ntp_estimator_

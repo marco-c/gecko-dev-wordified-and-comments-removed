@@ -127,9 +127,6 @@ class
 FrameEncryptorInterface
 ;
 class
-ProcessThread
-;
-class
 RtcEventLog
 ;
 class
@@ -541,9 +538,6 @@ clock
 TaskQueueFactory
 *
 task_queue_factory
-ProcessThread
-*
-module_process_thread
 Transport
 *
 rtp_transport

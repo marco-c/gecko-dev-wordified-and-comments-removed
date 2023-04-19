@@ -730,9 +730,6 @@ audio_state
 TaskQueueFactory
 *
 task_queue_factory
-ProcessThread
-*
-module_process_thread
 RtpTransportControllerSendInterface
 *
 rtp_transport
@@ -774,7 +771,6 @@ CreateChannelSend
 (
 clock
 task_queue_factory
-module_process_thread
 config
 .
 send_transport

@@ -276,9 +276,6 @@ audio_state
 TaskQueueFactory
 *
 task_queue_factory
-ProcessThread
-*
-module_process_thread
 RtpTransportControllerSendInterface
 *
 rtp_transport

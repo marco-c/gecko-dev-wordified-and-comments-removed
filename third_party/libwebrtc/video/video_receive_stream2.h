@@ -240,9 +240,6 @@ namespace
 webrtc
 {
 class
-ProcessThread
-;
-class
 RtpStreamReceiverInterface
 ;
 class
@@ -425,9 +422,6 @@ VideoReceiveStream
 :
 Config
 config
-ProcessThread
-*
-process_thread
 CallStats
 *
 call_stats
@@ -852,10 +846,6 @@ UpdateHistograms
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 worker_sequence_checker_
-;
-RTC_NO_UNIQUE_ADDRESS
-SequenceChecker
-module_process_sequence_checker_
 ;
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker

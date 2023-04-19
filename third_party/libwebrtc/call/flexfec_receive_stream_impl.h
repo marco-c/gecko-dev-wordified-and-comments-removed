@@ -69,9 +69,6 @@ class
 FlexfecReceiver
 ;
 class
-ProcessThread
-;
-class
 ReceiveStatistics
 ;
 class
@@ -115,9 +112,6 @@ recovered_packet_receiver
 RtcpRttStats
 *
 rtt_stats
-ProcessThread
-*
-process_thread
 )
 ;
 ~
@@ -210,11 +204,6 @@ unique_ptr
 ModuleRtpRtcpImpl2
 >
 rtp_rtcp_
-;
-ProcessThread
-*
-const
-process_thread_
 ;
 std
 :
