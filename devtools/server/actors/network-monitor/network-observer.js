@@ -3,6 +3,15 @@ use
 strict
 "
 ;
+console
+.
+log
+(
+"
+hello
+"
+)
+;
 const
 DEBUG_PLATFORM_EVENTS
 =
