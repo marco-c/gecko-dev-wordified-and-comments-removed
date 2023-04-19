@@ -285,6 +285,9 @@ cricket
 class
 ChannelManager
 ;
+class
+MediaEngineInterface
+;
 }
 namespace
 webrtc
@@ -1206,6 +1209,16 @@ void
 )
 >
 on_negotiation_needed_
+;
+cricket
+:
+:
+MediaEngineInterface
+*
+media_engine
+(
+)
+const
 ;
 }
 ;
