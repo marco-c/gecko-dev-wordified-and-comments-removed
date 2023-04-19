@@ -255,7 +255,6 @@ paced_sender
 :
 &
 non_paced_sender
-nullptr
 )
 {
 }
