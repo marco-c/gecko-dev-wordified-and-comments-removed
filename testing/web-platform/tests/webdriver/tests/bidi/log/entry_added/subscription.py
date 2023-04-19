@@ -214,6 +214,7 @@ current_session
 inline
 wait_for_event
 log_type
+top_context
 )
 :
     
@@ -442,13 +443,29 @@ events
 text
 =
 expected_text
+context
+=
+top_context
+[
+"
+context
+"
+]
 )
     
+new_window_handle
+=
 current_session
 .
 new_window
 (
 )
+    
+current_session
+.
+window_handle
+=
+new_window_handle
     
 on_entry_added
 =
@@ -494,6 +511,9 @@ events
 text
 =
 expected_text
+context
+=
+new_window_handle
 )
     
 remove_listener

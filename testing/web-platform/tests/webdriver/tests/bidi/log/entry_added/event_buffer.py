@@ -40,6 +40,7 @@ current_session
 wait_for_event
 inline
 log_type
+top_context
 )
 :
     
@@ -164,6 +165,14 @@ events
 text
 =
 expected_text
+context
+=
+top_context
+[
+"
+context
+"
+]
 )
     
 await
@@ -265,6 +274,14 @@ events
 text
 =
 expected_text
+context
+=
+top_context
+[
+"
+context
+"
+]
 )
     
 await
@@ -347,6 +364,14 @@ events
 text
 =
 expected_text
+context
+=
+top_context
+[
+"
+context
+"
+]
 )
     
 remove_listener

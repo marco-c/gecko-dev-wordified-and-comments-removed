@@ -405,6 +405,15 @@ cheese
 stacktrace
 =
 expected_stack
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
     
 )
     
@@ -678,6 +687,15 @@ cheese
 stacktrace
 =
 expected_stack
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
     
 )
     
