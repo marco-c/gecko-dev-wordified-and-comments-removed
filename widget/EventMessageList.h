@@ -1025,6 +1025,10 @@ NS_EVENT_MESSAGE
 (
 eMarqueeFinish
 )
+NS_EVENT_MESSAGE
+(
+eScrollend
+)
 #
 ifdef
 UNDEF_NS_EVENT_MESSAGE_FIRST_LAST
