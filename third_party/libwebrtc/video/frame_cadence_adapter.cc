@@ -2431,10 +2431,11 @@ queue
 )
 zero_hertz_screenshare_enabled_
 (
+!
 field_trial
 :
 :
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
