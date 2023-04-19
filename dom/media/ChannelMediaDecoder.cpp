@@ -1093,7 +1093,7 @@ init
 ;
 #
 ifdef
-MOZ_WMF
+MOZ_WMF_MEDIA_ENGINE
 if
 (
 StaticPrefs

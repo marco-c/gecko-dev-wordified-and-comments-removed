@@ -14,7 +14,7 @@ h
 "
 #
 ifdef
-MOZ_WMF
+MOZ_WMF_MEDIA_ENGINE
 #
 include
 "
@@ -754,7 +754,7 @@ IsInitEngine
 ;
 #
 ifdef
-MOZ_WMF
+MOZ_WMF_MEDIA_ENGINE
 mEngine
 .
 reset
@@ -1430,7 +1430,7 @@ IsReadingMetadata
 ;
 #
 ifdef
-MOZ_WMF
+MOZ_WMF_MEDIA_ENGINE
 const
 bool
 audioSupported
