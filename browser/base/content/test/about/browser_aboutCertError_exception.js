@@ -1169,11 +1169,10 @@ exceptionButton
 =
 doc
 .
-querySelector
+getElementById
 (
 "
-.
-exceptionDialogButtonContainer
+exceptionDialogButton
 "
 )
 ;

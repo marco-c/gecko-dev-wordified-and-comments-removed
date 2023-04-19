@@ -142,7 +142,7 @@ doc
 getElementById
 (
 "
-errorShortDescText
+errorShortDesc
 "
 )
 ;

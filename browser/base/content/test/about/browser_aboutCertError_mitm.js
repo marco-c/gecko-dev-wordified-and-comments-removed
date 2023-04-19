@@ -323,7 +323,7 @@ querySelector
 (
 "
 #
-errorShortDescText
+errorShortDesc
 "
 )
 ;
