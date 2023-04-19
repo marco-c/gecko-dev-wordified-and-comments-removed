@@ -1254,7 +1254,9 @@ tight_clip_rect
 =
 visibility
 .
-combined_local_clip_rect
+clip_chain
+.
+local_clip_rect
 .
 intersection
 (

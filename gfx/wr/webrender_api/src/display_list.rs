@@ -9891,9 +9891,6 @@ di
 :
 :
 ClipId
-:
-:
-Clip
 (
 self
 .
