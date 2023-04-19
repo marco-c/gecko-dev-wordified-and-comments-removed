@@ -96,6 +96,11 @@ Instance
 WrapCurrentThread
 (
 )
+-
+>
+socketserver
+(
+)
 )
 config_file_path_
 (
