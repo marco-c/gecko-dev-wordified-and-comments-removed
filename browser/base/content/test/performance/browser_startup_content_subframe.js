@@ -280,7 +280,9 @@ actors
 /
 MarionetteEventsChild
 .
-jsm
+sys
+.
+mjs
 "
 "
 chrome

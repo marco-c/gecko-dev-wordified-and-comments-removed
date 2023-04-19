@@ -10,7 +10,7 @@ modal
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -25,7 +25,9 @@ marionette
 /
 modal
 .
-js
+sys
+.
+mjs
 "
 )
 ;

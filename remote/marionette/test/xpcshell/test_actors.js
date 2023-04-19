@@ -12,7 +12,7 @@ unregisterCommandsActor
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -29,7 +29,9 @@ actors
 /
 MarionetteCommandsParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -41,7 +43,7 @@ disableEventsActor
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -58,7 +60,9 @@ actors
 /
 MarionetteEventsParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

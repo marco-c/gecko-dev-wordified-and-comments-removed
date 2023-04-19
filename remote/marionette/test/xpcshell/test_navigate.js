@@ -5,7 +5,7 @@ navigate
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -20,7 +20,9 @@ marionette
 /
 navigate
 .
-js
+sys
+.
+mjs
 "
 )
 ;

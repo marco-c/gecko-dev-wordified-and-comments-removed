@@ -9,7 +9,7 @@ WebWindow
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -24,7 +24,9 @@ marionette
 /
 element
 .
-js
+sys
+.
+mjs
 "
 )
 ;

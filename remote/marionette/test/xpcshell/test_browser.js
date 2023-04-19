@@ -5,7 +5,7 @@ Context
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -20,7 +20,9 @@ marionette
 /
 browser
 .
-js
+sys
+.
+mjs
 "
 )
 ;

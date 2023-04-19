@@ -6,7 +6,7 @@ WebElementEventTarget
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -21,7 +21,9 @@ marionette
 /
 dom
 .
-js
+sys
+.
+mjs
 "
 )
 ;

@@ -37,7 +37,7 @@ Response
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -52,7 +52,9 @@ marionette
 /
 message
 .
-js
+sys
+.
+mjs
 "
 )
 ;

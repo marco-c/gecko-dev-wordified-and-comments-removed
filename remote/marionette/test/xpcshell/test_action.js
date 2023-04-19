@@ -10,7 +10,7 @@ action
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -25,7 +25,9 @@ marionette
 /
 action
 .
-js
+sys
+.
+mjs
 "
 )
 ;

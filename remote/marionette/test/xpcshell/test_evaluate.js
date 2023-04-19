@@ -6,7 +6,7 @@ WebReference
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -21,7 +21,9 @@ marionette
 /
 element
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -32,7 +34,7 @@ evaluate
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -47,7 +49,9 @@ marionette
 /
 evaluate
 .
-js
+sys
+.
+mjs
 "
 )
 ;
