@@ -7049,6 +7049,13 @@ DeliverRtcp
 "
 )
 ;
+#
+if
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 RTC_DCHECK_EQ
 (
 media_type
@@ -7058,6 +7065,8 @@ MediaType
 ANY
 )
 ;
+#
+endif
 if
 (
 received_bytes_per_second_counter_
