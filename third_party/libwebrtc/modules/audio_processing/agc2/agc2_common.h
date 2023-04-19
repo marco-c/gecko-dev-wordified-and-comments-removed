@@ -98,15 +98,6 @@ kHeadroomDbfs
 ;
 constexpr
 float
-kMaxNoiseLevelDbfs
-=
--
-50
-.
-f
-;
-constexpr
-float
 kVadConfidenceThreshold
 =
 0

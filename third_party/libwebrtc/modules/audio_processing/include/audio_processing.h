@@ -740,6 +740,14 @@ max_gain_change_db_per_second
 .
 f
 ;
+float
+max_output_noise_level_dbfs
+=
+-
+50
+.
+f
+;
 }
 adaptive_digital
 ;
