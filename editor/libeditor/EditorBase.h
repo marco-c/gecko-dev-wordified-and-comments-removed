@@ -2058,12 +2058,6 @@ AutoEditActionDataSetter
 ;
 RefPtr
 <
-Element
->
-mNewBlockElement
-;
-RefPtr
-<
 RangeItem
 >
 mSelectedRange
@@ -2226,10 +2220,6 @@ mSelectedRange
 return
 ;
 }
-mNewBlockElement
-=
-nullptr
-;
 mSelectedRange
 -
 >
