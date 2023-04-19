@@ -11079,6 +11079,17 @@ rtc_base
 .
 /
 rtc_base
+:
+threading
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
 /
 synchronization
 :

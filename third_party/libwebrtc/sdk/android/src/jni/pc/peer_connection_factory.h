@@ -60,6 +60,17 @@ unique_ptr
 rtc
 :
 :
+SocketFactory
+>
+socket_factory
+std
+:
+:
+unique_ptr
+<
+rtc
+:
+:
 Thread
 >
 network_thread
