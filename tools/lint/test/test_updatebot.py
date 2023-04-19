@@ -66,8 +66,9 @@ relpath
     
 assert
 "
-was
-not
+wasn
+'
+t
 found
 in
 Cargo
