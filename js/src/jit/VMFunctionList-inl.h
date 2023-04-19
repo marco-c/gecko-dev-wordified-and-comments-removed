@@ -779,7 +779,7 @@ BindVarOperation
 \
 _
 (
-BlockLexicalEnvironmentObjectCreateTemplateObject
+BlockLexicalEnvironmentObjectCreateWithoutEnclosing
 \
 js
 :
@@ -787,7 +787,7 @@ js
 BlockLexicalEnvironmentObject
 :
 :
-createTemplateObject
+createWithoutEnclosing
 )
 \
 _
@@ -933,7 +933,7 @@ CheckPrivateFieldOperation
 \
 _
 (
-ClassBodyLexicalEnvironmentObjectCreateTemplateObject
+ClassBodyLexicalEnvironmentObjectCreateWithoutEnclosing
 \
 js
 :
@@ -941,7 +941,7 @@ js
 ClassBodyLexicalEnvironmentObject
 :
 :
-createTemplateObject
+createWithoutEnclosing
 )
 \
 _
@@ -1911,7 +1911,7 @@ MutatePrototype
 \
 _
 (
-NamedLambdaObjectCreateTemplateObject
+NamedLambdaObjectCreateWithoutEnclosing
 \
 js
 :
@@ -1919,7 +1919,7 @@ js
 NamedLambdaObject
 :
 :
-createTemplateObject
+createWithoutEnclosing
 )
 \
 _
@@ -2762,7 +2762,7 @@ ValueToIterator
 \
 _
 (
-VarEnvironmentObjectCreateTemplateObject
+VarEnvironmentObjectCreateWithoutEnclosing
 \
 js
 :
@@ -2770,7 +2770,7 @@ js
 VarEnvironmentObject
 :
 :
-createTemplateObject
+createWithoutEnclosing
 )
 #
 define

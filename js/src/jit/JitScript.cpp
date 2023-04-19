@@ -2363,10 +2363,6 @@ createTemplateObject
 (
 cx
 fun
-gc
-:
-:
-TenuredHeap
 )
 ;
 if
@@ -2400,10 +2396,6 @@ createTemplateObject
 cx
 script
 templateEnv
-gc
-:
-:
-TenuredHeap
 )
 ;
 if

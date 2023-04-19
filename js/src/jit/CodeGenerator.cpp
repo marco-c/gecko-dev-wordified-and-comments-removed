@@ -23250,10 +23250,6 @@ Handle
 LexicalScope
 *
 >
-gc
-:
-:
-InitialHeap
 )
 ;
 auto
@@ -23266,7 +23262,7 @@ Fn
 BlockLexicalEnvironmentObject
 :
 :
-createTemplateObject
+createWithoutEnclosing
 >
 (
 lir
@@ -23275,10 +23271,6 @@ ArgList
 ImmGCPtr
 (
 scope
-)
-Imm32
-(
-initialHeap
 )
 )
 StoreRegisterTo
@@ -23420,10 +23412,6 @@ Handle
 ClassBodyScope
 *
 >
-gc
-:
-:
-InitialHeap
 )
 ;
 auto
@@ -23436,7 +23424,7 @@ Fn
 ClassBodyLexicalEnvironmentObject
 :
 :
-createTemplateObject
+createWithoutEnclosing
 >
 (
 lir
@@ -23445,10 +23433,6 @@ ArgList
 ImmGCPtr
 (
 scope
-)
-Imm32
-(
-initialHeap
 )
 )
 StoreRegisterTo
@@ -23597,10 +23581,6 @@ Handle
 VarScope
 *
 >
-gc
-:
-:
-InitialHeap
 )
 ;
 auto
@@ -23613,7 +23593,7 @@ Fn
 VarEnvironmentObject
 :
 :
-createTemplateObject
+createWithoutEnclosing
 >
 (
 lir
@@ -23622,10 +23602,6 @@ ArgList
 ImmGCPtr
 (
 scope
-)
-Imm32
-(
-initialHeap
 )
 )
 StoreRegisterTo
@@ -42035,10 +42011,6 @@ NamedLambdaObject
 JSContext
 *
 HandleFunction
-gc
-:
-:
-InitialHeap
 )
 ;
 OutOfLineCode
@@ -42051,7 +42023,7 @@ Fn
 NamedLambdaObject
 :
 :
-createTemplateObject
+createWithoutEnclosing
 >
 (
 lir
@@ -42061,13 +42033,6 @@ info
 .
 funMaybeLazy
 (
-)
-Imm32
-(
-gc
-:
-:
-DefaultHeap
 )
 )
 StoreRegisterTo

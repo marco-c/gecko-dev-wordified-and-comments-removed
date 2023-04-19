@@ -2497,10 +2497,6 @@ createTemplateObject
 (
 cx_
 scope
-gc
-:
-:
-TenuredHeap
 )
 ;
 if
@@ -2612,10 +2608,6 @@ createTemplateObject
 (
 cx_
 scope
-gc
-:
-:
-TenuredHeap
 )
 ;
 if
@@ -2715,10 +2707,6 @@ createTemplateObject
 (
 cx_
 scope
-gc
-:
-:
-TenuredHeap
 )
 ;
 if
