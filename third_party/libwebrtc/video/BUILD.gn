@@ -3118,6 +3118,16 @@ api
 /
 video
 :
+render_resolution
+"
+"
+.
+.
+/
+api
+/
+video
+:
 video_adaptation
 "
 "
