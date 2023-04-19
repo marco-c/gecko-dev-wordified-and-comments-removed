@@ -1754,6 +1754,12 @@ GcOp
 :
 ArrayNewData
 :
+case
+GcOp
+:
+:
+ArrayNewElem
+:
 WASM_GC_OP
 (
 OpKind
