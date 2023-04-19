@@ -583,11 +583,7 @@ rtp_data_channel
 (
 )
 const
-{
-return
-rtp_data_channel_
 ;
-}
 void
 set_rtp_data_channel
 (
@@ -598,12 +594,7 @@ RtpDataChannel
 *
 channel
 )
-{
-rtp_data_channel_
-=
-channel
 ;
-}
 DataChannelTransportInterface
 *
 data_channel_transport
