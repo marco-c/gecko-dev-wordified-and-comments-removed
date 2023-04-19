@@ -645,6 +645,11 @@ string
 >
 input_dump_file_name
 ;
+int
+input_dump_sampling_modulo
+=
+1
+;
 absl
 :
 :
@@ -656,6 +661,11 @@ std
 string
 >
 output_dump_file_name
+;
+int
+output_dump_sampling_modulo
+=
+1
 ;
 bool
 show_on_screen
