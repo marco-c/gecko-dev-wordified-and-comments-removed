@@ -74,6 +74,13 @@ new
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 jstypes
 .
 h
