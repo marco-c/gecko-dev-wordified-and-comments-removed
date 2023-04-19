@@ -1489,6 +1489,14 @@ synchronization
 :
 mutex
 "
+"
+.
+.
+/
+test
+:
+fileutils
+"
 ]
 absl_deps
 =
