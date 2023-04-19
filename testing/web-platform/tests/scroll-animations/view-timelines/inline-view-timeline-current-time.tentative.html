@@ -981,7 +981,7 @@ assert_percents_equal
 timeline
 .
 currentTime
-0
+50
 "
 Timeline
 '
@@ -999,7 +999,7 @@ assert_percents_equal
 anim
 .
 currentTime
-0
+50
 "
 Animation
 '
@@ -1023,7 +1023,7 @@ opacity
 "
 0
 .
-3
+5
 "
 '
 Effect
@@ -1058,7 +1058,7 @@ assert_percents_equal
 timeline
 .
 currentTime
-50
+75
 "
 Timeline
 '
@@ -1076,7 +1076,7 @@ assert_percents_equal
 anim
 .
 currentTime
-50
+75
 "
 Animation
 '
@@ -1100,7 +1100,7 @@ opacity
 '
 0
 .
-5
+6
 '
 '
 Effect
@@ -1216,7 +1216,7 @@ assert_percents_equal
 timeline
 .
 currentTime
-400
+250
 "
 Timeline
 '
@@ -1274,12 +1274,14 @@ phase
 '
 View
 timeline
-clamps
+does
+not
+clamp
 starting
 scroll
 offset
 at
-0px
+0
 '
 )
 ;
@@ -1396,7 +1398,7 @@ timeline
 .
 currentTime
 -
-300
+150
 "
 Timeline
 '
@@ -1415,7 +1417,7 @@ anim
 .
 currentTime
 -
-300
+150
 "
 Animation
 '
@@ -1551,7 +1553,7 @@ assert_percents_equal
 timeline
 .
 currentTime
-50
+25
 "
 Timeline
 '
@@ -1569,7 +1571,7 @@ assert_percents_equal
 anim
 .
 currentTime
-50
+25
 "
 Animation
 '
@@ -1593,7 +1595,7 @@ opacity
 '
 0
 .
-5
+4
 '
 '
 Effect
@@ -1630,7 +1632,7 @@ assert_percents_equal
 timeline
 .
 currentTime
-100
+50
 "
 Timeline
 '
@@ -1648,7 +1650,7 @@ assert_percents_equal
 anim
 .
 currentTime
-100
+50
 "
 Animation
 '
@@ -1672,7 +1674,7 @@ opacity
 "
 0
 .
-7
+5
 "
 '
 Effect
@@ -1688,7 +1690,9 @@ phase
 '
 View
 timeline
-clamps
+does
+not
+clamp
 end
 scroll
 offset
