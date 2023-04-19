@@ -3820,16 +3820,6 @@ browser_image
 js
 "
 "
-js
-/
-src
-/
-builtin
-/
-*
-*
-"
-"
 layout
 /
 *

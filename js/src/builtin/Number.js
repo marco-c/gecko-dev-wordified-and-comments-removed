@@ -28,8 +28,6 @@ locales
 arguments
 .
 length
->
-0
 ?
 arguments
 [

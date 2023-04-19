@@ -3464,8 +3464,6 @@ locales
 arguments
 .
 length
->
-0
 ?
 arguments
 [
@@ -3528,8 +3526,6 @@ requestedLocale
 requestedLocales
 .
 length
->
-0
 ?
 requestedLocales
 [
@@ -3623,8 +3619,6 @@ locales
 arguments
 .
 length
->
-0
 ?
 arguments
 [
@@ -3687,8 +3681,6 @@ requestedLocale
 requestedLocales
 .
 length
->
-0
 ?
 requestedLocales
 [
