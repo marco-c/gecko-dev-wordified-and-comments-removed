@@ -185,6 +185,13 @@ mValueModeFlag
 =
 eModeDefault
 ;
+const
+nsAutoString
+currentDefaultValue
+(
+mDefaultValue
+)
+;
 return
 nsContentUtils
 :
@@ -192,7 +199,7 @@ nsContentUtils
 SetNodeTextContent
 (
 this
-mDefaultValue
+currentDefaultValue
 true
 )
 ;
