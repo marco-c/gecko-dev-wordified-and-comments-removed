@@ -868,6 +868,13 @@ API
 -
 name
 :
+JS_Wasm
+label
+:
+Wasm
+-
+name
+:
 GCCC
 label
 :
