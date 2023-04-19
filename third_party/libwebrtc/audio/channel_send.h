@@ -84,6 +84,15 @@ h
 #
 include
 "
+api
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 modules
 /
 rtp_rtcp
@@ -577,6 +586,10 @@ frame_transformer
 TransportFeedbackObserver
 *
 feedback_observer
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 }

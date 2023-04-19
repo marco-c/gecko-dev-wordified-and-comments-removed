@@ -4789,6 +4789,9 @@ AsRtcpRttStats
 (
 )
 suspended_rtp_state
+trials
+(
+)
 )
 ;
 RTC_DCHECK
