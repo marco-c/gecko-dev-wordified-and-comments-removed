@@ -20345,7 +20345,7 @@ while
 (
 current_size
 <
-16
+8
 )
 {
 for
