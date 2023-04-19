@@ -107,8 +107,13 @@ Create
 )
 {
 return
-new
+rtc
+:
+:
+make_ref_counted
+<
 MockPeerConnectionInterface
+>
 (
 )
 ;

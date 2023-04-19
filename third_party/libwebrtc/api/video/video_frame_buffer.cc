@@ -492,7 +492,16 @@ ToI420
 )
 {
 return
+rtc
+:
+:
+scoped_refptr
+<
+I420BufferInterface
+>
+(
 this
+)
 ;
 }
 const
