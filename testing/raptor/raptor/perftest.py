@@ -2884,6 +2884,17 @@ config
 gecko_profile
 "
 ]
+or
+self
+.
+config
+.
+get
+(
+"
+extra_profiler_run
+"
+)
 :
             
 self
