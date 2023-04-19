@@ -996,10 +996,6 @@ uniqueIds_
 (
 this
 )
-tenuredAllocsSinceMinorGC_
-(
-0
-)
 gcWeakMapList_
 (
 this

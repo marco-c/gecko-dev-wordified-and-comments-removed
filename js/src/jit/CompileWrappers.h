@@ -194,12 +194,6 @@ mainContextPtr
 (
 )
 ;
-uint32_t
-*
-addressOfTenuredAllocCount
-(
-)
-;
 const
 void
 *
@@ -296,6 +290,12 @@ const
 uint32_t
 *
 addressOfNeedsIncrementalBarrier
+(
+)
+;
+uint32_t
+*
+addressOfTenuredAllocCount
 (
 )
 ;

@@ -2127,9 +2127,7 @@ uint32_t
 *
 countAddress
 =
-runtime
-(
-)
+zone
 -
 >
 addressOfTenuredAllocCount
