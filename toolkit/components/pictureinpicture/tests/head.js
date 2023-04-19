@@ -10,7 +10,7 @@ TOGGLE_POLICIES
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 PictureInPictureControls
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1260,7 +1262,7 @@ TOGGLE_POLICY_STRINGS
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1273,7 +1275,9 @@ modules
 /
 PictureInPictureControls
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1545,7 +1549,7 @@ PictureInPictureToggleChild
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1558,7 +1562,9 @@ actors
 /
 PictureInPictureChild
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

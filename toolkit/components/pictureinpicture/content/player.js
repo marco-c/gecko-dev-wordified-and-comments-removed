@@ -5,7 +5,7 @@ PictureInPicture
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ modules
 /
 PictureInPicture
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
