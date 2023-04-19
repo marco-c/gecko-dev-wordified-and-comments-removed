@@ -12603,8 +12603,9 @@ dl
 .
 define_clip_image_mask
 (
-&
 space_and_clip
+.
+spatial_id
 image_mask
 &
 [

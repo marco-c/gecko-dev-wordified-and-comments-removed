@@ -13572,10 +13572,9 @@ state
 &
 mut
 WrState
-parent
+space
 :
-&
-WrSpaceAndClipChain
+WrSpatialId
 mask
 :
 ImageMask
@@ -13651,8 +13650,7 @@ dl_builder
 .
 define_clip_image_mask
 (
-&
-parent
+space
 .
 to_webrender
 (

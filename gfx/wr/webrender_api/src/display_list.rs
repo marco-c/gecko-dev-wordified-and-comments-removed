@@ -10219,13 +10219,12 @@ define_clip_image_mask
 &
 mut
 self
-parent_space_and_clip
+spatial_id
 :
-&
 di
 :
 :
-SpaceAndClipInfo
+SpatialId
 image_mask
 :
 di
@@ -10268,8 +10267,6 @@ self
 .
 current_offset
 (
-parent_space_and_clip
-.
 spatial_id
 )
 ;
@@ -10313,10 +10310,7 @@ di
 ImageMaskClipDisplayItem
 {
 id
-parent_space_and_clip
-:
-*
-parent_space_and_clip
+spatial_id
 image_mask
 fill_rule
 }

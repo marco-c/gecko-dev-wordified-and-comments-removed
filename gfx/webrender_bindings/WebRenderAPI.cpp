@@ -5627,8 +5627,9 @@ clipId
 wr_dp_define_image_mask_clip_with_parent_clip_chain
 (
 mWrState
-&
 mCurrentSpaceAndClipChain
+.
+space
 aMask
 aPoints
 .
