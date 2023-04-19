@@ -305,7 +305,7 @@ state
 >
 selectors
 .
-hasSymbols
+getSymbols
 (
 state
 base
@@ -471,7 +471,7 @@ state
 >
 selectors
 .
-hasSymbols
+getSymbols
 (
 state
 base

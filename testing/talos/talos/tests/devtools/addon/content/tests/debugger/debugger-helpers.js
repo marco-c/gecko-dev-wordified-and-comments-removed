@@ -566,7 +566,7 @@ dbg
 .
 selectors
 .
-hasSymbols
+getSymbols
 (
 state
 source
@@ -1025,7 +1025,7 @@ dbg
 .
 selectors
 .
-hasSymbols
+getSymbols
 (
 state
 source

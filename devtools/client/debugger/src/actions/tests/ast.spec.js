@@ -35,7 +35,6 @@ readFixture
 const
 {
 getSymbols
-isSymbolsLoading
 }
 =
 selectors
@@ -394,8 +393,7 @@ store
 state
 =
 >
-!
-isSymbolsLoading
+getSymbols
 (
 state
 base
