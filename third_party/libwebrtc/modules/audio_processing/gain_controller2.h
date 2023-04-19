@@ -191,6 +191,9 @@ Limiter
 limiter_
 ;
 int
+calls_since_last_limiter_log_
+;
+int
 analog_level_
 =
 -
