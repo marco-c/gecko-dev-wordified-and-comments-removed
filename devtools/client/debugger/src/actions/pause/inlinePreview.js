@@ -125,6 +125,7 @@ inlinePreview
 )
 {
 return
+null
 ;
 }
 const
@@ -149,6 +150,7 @@ id
 )
 {
 return
+null
 ;
 }
 const
@@ -211,6 +213,7 @@ bindings
 )
 {
 return
+null
 ;
 }
 const
@@ -230,6 +233,7 @@ selectedLocation
 )
 {
 return
+null
 ;
 }
 const
@@ -258,6 +262,7 @@ originalAstScopes
 )
 {
 return
+null
 ;
 }
 const

@@ -678,6 +678,7 @@ location
 )
 {
 return
+null
 ;
 }
 return

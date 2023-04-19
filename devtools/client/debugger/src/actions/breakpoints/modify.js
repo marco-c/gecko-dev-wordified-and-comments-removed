@@ -349,6 +349,7 @@ disabled
 )
 {
 return
+null
 ;
 }
 dispatch
@@ -506,6 +507,7 @@ position
 )
 {
 return
+null
 ;
 }
 const
@@ -549,6 +551,7 @@ generatedSource
 )
 {
 return
+null
 ;
 }
 const
@@ -638,6 +641,7 @@ shouldCancel
 )
 {
 return
+null
 ;
 }
 dispatch
@@ -733,6 +737,7 @@ breakpoint
 )
 {
 return
+null
 ;
 }
 dispatch
@@ -988,6 +993,7 @@ disabled
 )
 {
 return
+null
 ;
 }
 dispatch

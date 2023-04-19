@@ -100,7 +100,6 @@ stack
 "
 )
 {
-return
 dispatch
 (
 selectLocation
@@ -111,6 +110,8 @@ frame
 location
 )
 )
+;
+return
 ;
 }
 dispatch

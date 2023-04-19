@@ -142,6 +142,7 @@ cx
 )
 {
 return
+null
 ;
 }
 const
@@ -168,6 +169,7 @@ frame
 )
 {
 return
+null
 ;
 }
 const
@@ -197,6 +199,7 @@ originalAstScopes
 )
 {
 return
+null
 ;
 }
 const
@@ -219,6 +222,7 @@ source
 )
 {
 return
+null
 ;
 }
 const
@@ -239,6 +243,7 @@ symbols
 )
 {
 return
+null
 ;
 }
 if
@@ -250,6 +255,7 @@ callExpressions
 )
 {
 return
+null
 ;
 }
 const

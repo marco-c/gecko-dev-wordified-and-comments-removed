@@ -90,6 +90,7 @@ input
 )
 {
 return
+null
 ;
 }
 const
@@ -171,6 +172,9 @@ newExpression
 )
 ;
 }
+return
+null
+;
 }
 ;
 }
@@ -524,6 +528,7 @@ empty
 )
 ;
 return
+null
 ;
 }
 let

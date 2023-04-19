@@ -472,7 +472,6 @@ if
 source
 )
 {
-return
 dispatch
 (
 clearSelectedLocation
@@ -480,6 +479,8 @@ clearSelectedLocation
 cx
 )
 )
+;
+return
 ;
 }
 const
@@ -846,6 +847,7 @@ client
 )
 {
 return
+null
 ;
 }
 const

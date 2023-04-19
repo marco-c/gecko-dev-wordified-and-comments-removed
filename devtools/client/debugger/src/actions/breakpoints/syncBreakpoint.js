@@ -211,6 +211,7 @@ generatedSource
 )
 {
 return
+null
 ;
 }
 const
@@ -356,6 +357,7 @@ sourceGeneratedLocation
 ;
 }
 return
+null
 ;
 }
 const

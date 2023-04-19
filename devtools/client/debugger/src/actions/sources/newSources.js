@@ -307,6 +307,10 @@ error
 ;
 }
 }
+return
+[
+]
+;
 }
 ;
 }
@@ -604,7 +608,6 @@ id
 )
 )
 ;
-return
 dispatch
 (
 checkPendingBreakpoints
@@ -615,6 +618,8 @@ prettySource
 id
 )
 )
+;
+return
 ;
 }
 await
