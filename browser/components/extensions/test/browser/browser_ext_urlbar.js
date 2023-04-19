@@ -43,6 +43,15 @@ sys
 .
 mjs
 "
+}
+)
+;
+XPCOMUtils
+.
+defineLazyModuleGetters
+(
+this
+{
 UrlbarProvidersManager
 :
 "
@@ -55,9 +64,7 @@ modules
 /
 UrlbarProvidersManager
 .
-sys
-.
-mjs
+jsm
 "
 UrlbarTestUtils
 :
@@ -72,9 +79,7 @@ common
 /
 UrlbarTestUtils
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

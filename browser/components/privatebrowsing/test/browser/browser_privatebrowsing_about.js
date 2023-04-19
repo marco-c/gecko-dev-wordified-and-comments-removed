@@ -1,6 +1,6 @@
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 this
 {
@@ -16,9 +16,7 @@ modules
 /
 UrlbarUtils
 .
-sys
-.
-mjs
+jsm
 "
 }
 )
@@ -45,7 +43,7 @@ module
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -58,9 +56,7 @@ common
 /
 UrlbarTestUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

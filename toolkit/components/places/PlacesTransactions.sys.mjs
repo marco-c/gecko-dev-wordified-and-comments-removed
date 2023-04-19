@@ -2101,11 +2101,15 @@ sys
 mjs
 "
 ;
-import
+const
 {
 XPCOMUtils
 }
-from
+=
+ChromeUtils
+.
+importESModule
+(
 "
 resource
 :
@@ -2121,6 +2125,7 @@ sys
 .
 mjs
 "
+)
 ;
 function
 setTimeout

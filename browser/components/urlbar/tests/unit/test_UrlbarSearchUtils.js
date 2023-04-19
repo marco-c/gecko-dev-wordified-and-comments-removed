@@ -5,7 +5,7 @@ UrlbarSearchUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -17,9 +17,7 @@ modules
 /
 UrlbarSearchUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
