@@ -2268,7 +2268,6 @@ ConstantOrRegister
 &
 MIRType
 T
-MIRType
 )
 {
 MOZ_CRASH

@@ -22630,10 +22630,6 @@ storeUnboxedValue
 value
 valueType
 dest
-MIRType
-:
-:
-Value
 )
 ;
 }
@@ -69890,10 +69886,6 @@ storeUnboxedValue
 v
 valueType
 dest
-MIRType
-:
-:
-Value
 )
 ;
 }
@@ -69916,10 +69908,6 @@ storeUnboxedValue
 v
 valueType
 dest
-MIRType
-:
-:
-Value
 )
 ;
 }

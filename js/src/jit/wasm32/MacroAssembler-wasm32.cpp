@@ -948,8 +948,6 @@ const
 Address
 &
 dest
-MIRType
-slotType
 )
 ;
 template
@@ -969,8 +967,6 @@ const
 BaseObjectElementIndex
 &
 dest
-MIRType
-slotType
 )
 ;
 template
@@ -994,8 +990,6 @@ const
 T
 &
 dest
-MIRType
-slotType
 )
 {
 MOZ_CRASH

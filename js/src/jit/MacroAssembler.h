@@ -9356,8 +9356,6 @@ const
 T
 &
 dest
-MIRType
-slotType
 )
 PER_ARCH
 ;
