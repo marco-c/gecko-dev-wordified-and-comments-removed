@@ -76,26 +76,6 @@ RecursiveMake
 None
     
 "
-GnConfigGen
-"
-:
-"
-mozbuild
-.
-gn_processor
-"
-    
-"
-GnMozbuildWriter
-"
-:
-"
-mozbuild
-.
-gn_processor
-"
-    
-"
 RecursiveMake
 "
 :
