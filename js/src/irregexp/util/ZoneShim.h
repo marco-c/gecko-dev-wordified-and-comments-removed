@@ -637,6 +637,9 @@ return
 capacity_
 ;
 }
+base
+:
+:
 Vector
 <
 T
@@ -647,6 +650,9 @@ ToVector
 const
 {
 return
+base
+:
+:
 Vector
 <
 T
@@ -657,6 +663,9 @@ length_
 )
 ;
 }
+base
+:
+:
 Vector
 <
 T
@@ -671,6 +680,9 @@ length
 const
 {
 return
+base
+:
+:
 Vector
 <
 T
@@ -692,6 +704,9 @@ length
 )
 ;
 }
+base
+:
+:
 Vector
 <
 const
@@ -703,6 +718,9 @@ ToConstVector
 const
 {
 return
+base
+:
+:
 Vector
 <
 const
@@ -789,8 +807,12 @@ void
 AddAll
 (
 const
+base
+:
+:
 Vector
 <
+const
 T
 >
 &

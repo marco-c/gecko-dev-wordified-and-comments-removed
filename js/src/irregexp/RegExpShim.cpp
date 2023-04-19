@@ -227,6 +227,9 @@ AsUC16
 c
 )
 {
+base
+:
+:
 uc16
 v
 =
@@ -1593,6 +1596,9 @@ Isolate
 InternalizeString
 (
 const
+base
+:
+:
 Vector
 <
 const
@@ -1677,6 +1683,9 @@ Isolate
 InternalizeString
 (
 const
+base
+:
+:
 Vector
 <
 const
@@ -1697,6 +1706,9 @@ Isolate
 InternalizeString
 (
 const
+base
+:
+:
 Vector
 <
 const
