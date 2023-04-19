@@ -6532,6 +6532,16 @@ nodiscard
 ]
 ]
 bool
+emitArrayCopy
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+bool
 emitRefTest
 (
 )

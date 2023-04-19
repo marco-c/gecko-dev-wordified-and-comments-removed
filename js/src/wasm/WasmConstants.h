@@ -1087,6 +1087,9 @@ ArraySet
 ArrayLen
 =
 0x17
+ArrayCopy
+=
+0x18
 RefTest
 =
 0x44

@@ -1971,6 +1971,14 @@ mustWrite64
 const
 ;
 void
+readFromHeapLocation
+(
+void
+*
+loc
+)
+;
+void
 writeToHeapLocation
 (
 void
