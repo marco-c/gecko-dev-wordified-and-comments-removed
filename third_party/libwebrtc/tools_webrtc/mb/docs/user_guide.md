@@ -2364,7 +2364,7 @@ gyp_defines
 use_goma
 =
 1
-dcheck_always_on
+rtc_dcheck_always_on
 =
 0
 '
@@ -2376,7 +2376,7 @@ gn_args
 use_goma
 =
 true
-dcheck_always_on
+rtc_dcheck_always_on
 =
 false
 '
@@ -2480,7 +2480,7 @@ gyp_defines
 '
 :
 '
-dcheck_always_on
+rtc_dcheck_always_on
 =
 1
 '
@@ -2489,7 +2489,7 @@ gn_args
 '
 :
 '
-dcheck_always_on
+rtc_dcheck_always_on
 =
 true
 '
@@ -2528,10 +2528,10 @@ to
 use_goma
 =
 true
-dcheck_always_on
+rtc_dcheck_always_on
 =
 false
-dcheck_always_on
+rtc_dcheck_always_on
 =
 true
 "
