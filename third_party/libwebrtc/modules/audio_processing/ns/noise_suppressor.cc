@@ -2836,6 +2836,15 @@ signal_spectrum
 ;
 }
 }
+if
+(
+!
+capture_output_used_
+)
+{
+return
+;
+}
 std
 :
 :
