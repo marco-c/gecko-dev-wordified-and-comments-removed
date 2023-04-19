@@ -638,10 +638,6 @@ pace_audio_
 ;
 const
 bool
-small_first_probe_packet_
-;
-const
-bool
 ignore_transport_overhead_
 ;
 const
