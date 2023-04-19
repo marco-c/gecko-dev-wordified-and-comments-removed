@@ -21728,8 +21728,6 @@ const
 TemplateNativeObject
 &
 templateObj
-bool
-initContents
 )
 ;
 public
