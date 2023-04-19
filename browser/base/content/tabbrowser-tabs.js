@@ -4758,7 +4758,7 @@ autostart
 "
 tabs
 .
-emptyPrivateTabTitle
+emptyPrivateTabTitle2
 "
 :
 "
