@@ -10,7 +10,7 @@ runOnce
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -24,7 +24,9 @@ policies
 /
 Policies
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
