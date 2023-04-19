@@ -2277,6 +2277,11 @@ IsWaitingForCompositorResume
 (
 )
 ;
+void
+ClearRenderingQueue
+(
+)
+;
 protected
 :
 virtual
