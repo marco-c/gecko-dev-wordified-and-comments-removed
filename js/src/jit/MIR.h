@@ -23855,7 +23855,11 @@ canRecoverOnBailout
 )
 const
 override
+{
+return
+true
 ;
+}
 ALLOW_CLONE
 (
 MMathFunction
