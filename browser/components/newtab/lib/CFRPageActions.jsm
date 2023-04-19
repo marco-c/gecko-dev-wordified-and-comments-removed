@@ -2823,6 +2823,13 @@ content
 heading_text
 )
 ;
+if
+(
+content
+.
+info_icon
+)
+{
 headerLink
 .
 setAttribute
@@ -2862,6 +2869,7 @@ tooltiptext
 )
 )
 ;
+}
 headerLink
 .
 onclick
