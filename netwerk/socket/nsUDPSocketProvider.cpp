@@ -52,10 +52,10 @@ PRFileDesc
 *
 *
 aFileDesc
-nsISupports
+nsISSLSocketControl
 *
 *
-aSecurityInfo
+aTLSSocketControl
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -118,10 +118,10 @@ struct
 PRFileDesc
 *
 aFileDesc
-nsISupports
+nsISSLSocketControl
 *
 *
-aSecurityInfo
+aTLSSocketControl
 )
 {
 MOZ_ASSERT_UNREACHABLE

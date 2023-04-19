@@ -48,10 +48,6 @@ tlsFlags
 PRFileDesc
 *
 fd
-nsISupports
-*
-*
-info
 )
 ;
 bool

@@ -1304,10 +1304,10 @@ PRFileDesc
 *
 *
 fd
-nsISupports
+nsISSLSocketControl
 *
 *
-securityInfo
+tlsSocketControl
 bool
 forSTARTTLS
 uint32_t
@@ -1337,10 +1337,10 @@ originAttributes
 PRFileDesc
 *
 fd
-nsISupports
+nsISSLSocketControl
 *
 *
-securityInfo
+tlsSocketControl
 bool
 forSTARTTLS
 uint32_t
