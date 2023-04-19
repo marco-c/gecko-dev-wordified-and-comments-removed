@@ -333,10 +333,6 @@ buffered_frame_decryptor_
 SetFrameDecryptor
 (
 mock_frame_decryptor_
-.
-get
-(
-)
 )
 ;
 }
@@ -1135,10 +1131,6 @@ buffered_frame_decryptor_
 SetFrameDecryptor
 (
 mock_frame_decryptor_
-.
-get
-(
-)
 )
 ;
 buffered_frame_decryptor_
