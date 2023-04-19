@@ -392,6 +392,10 @@ cookie
 unsigned
 int
 cookieLen
+const
+PRUint8
+*
+cookieGreaseEchSignal
 sslBuffer
 *
 buffer

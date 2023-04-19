@@ -16,7 +16,7 @@ nodejs
 FROM
 ubuntu
 :
-18
+20
 .
 04
 LABEL
@@ -47,9 +47,13 @@ apt
 -
 get
 update
+&
+&
 \
-&
-&
+DEBIAN_FRONTEND
+=
+noninteractive
+\
 apt
 -
 get
