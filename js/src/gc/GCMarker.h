@@ -1211,7 +1211,7 @@ markColor
 const
 {
 return
-color
+markColor_
 ;
 }
 bool
@@ -1881,7 +1881,7 @@ gc
 :
 MarkColor
 >
-color
+markColor_
 ;
 MainThreadOrGCTaskData
 <

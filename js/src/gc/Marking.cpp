@@ -9567,7 +9567,7 @@ grayPosition
 (
 0
 )
-color
+markColor_
 (
 MarkColor
 :
@@ -9707,7 +9707,7 @@ MarkingState
 :
 RegularMarking
 ;
-color
+markColor_
 =
 MarkColor
 :
@@ -9984,7 +9984,7 @@ reset
 (
 )
 {
-color
+markColor_
 =
 MarkColor
 :
@@ -10097,7 +10097,7 @@ newColor
 {
 if
 (
-color
+markColor_
 =
 =
 newColor
@@ -10114,13 +10114,13 @@ hasBlackEntries
 )
 )
 ;
-color
+markColor_
 =
 newColor
 ;
 if
 (
-color
+markColor_
 =
 =
 MarkColor
@@ -10747,7 +10747,9 @@ TraceKindCanBeMarkedGray
 kind
 )
 ?
-color
+markColor
+(
+)
 :
 MarkColor
 :
@@ -10810,7 +10812,9 @@ getAllocKind
 ;
 MOZ_ASSERT_IF
 (
-color
+markColor
+(
+)
 =
 =
 MarkColor
@@ -10852,7 +10856,9 @@ cell
 >
 isMarked
 (
-color
+markColor
+(
+)
 )
 )
 {
