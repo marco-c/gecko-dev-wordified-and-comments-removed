@@ -2631,6 +2631,8 @@ ExpireAtSessionEnd
 undefined
 )
 {
+lazy
+.
 log
 .
 error
