@@ -127,7 +127,7 @@ if
 regex
 :
         
-contents
+newcontents
 =
 re
 .
@@ -141,7 +141,7 @@ contents
 else
 :
         
-contents
+newcontents
 =
 contents
 .
@@ -149,6 +149,41 @@ replace
 (
 pattern
 replacement
+)
+    
+if
+newcontents
+=
+=
+contents
+:
+        
+raise
+Exception
+(
+            
+"
+Could
+not
+find
+%
+s
+in
+%
+s
+to
+replace
+with
+%
+s
+"
+%
+(
+pattern
+file
+replacement
+)
+        
 )
     
 with
@@ -167,7 +202,7 @@ f
 .
 write
 (
-contents
+newcontents
 )
 class
 VendorManifest
@@ -742,10 +777,27 @@ toml
 "
 )
         
+try
+:
+            
 _replace_in_file
 (
 cargo_file
 old_revision
+new_revision
+)
+        
+except
+:
+            
+_replace_in_file
+(
+cargo_file
+old_revision
+[
+:
+8
+]
 new_revision
 )
         
