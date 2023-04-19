@@ -220,11 +220,11 @@ reader
 variable_data_size
 (
 )
+/
+kMissingParameterSize
 !
 =
 count
-*
-kMissingParameterSize
 )
 {
 RTC_DLOG
@@ -266,7 +266,7 @@ count
 ;
 for
 (
-size_t
+uint32_t
 i
 =
 0
