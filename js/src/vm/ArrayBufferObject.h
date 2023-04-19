@@ -68,7 +68,7 @@ include
 "
 vm
 /
-JSObject
+JSFunction
 .
 h
 "
@@ -77,7 +77,7 @@ include
 "
 vm
 /
-Runtime
+JSObject
 .
 h
 "
@@ -104,6 +104,9 @@ js
 {
 class
 ArrayBufferViewObject
+;
+class
+AutoSetNewObjectMetadata
 ;
 class
 WasmArrayRawBuffer

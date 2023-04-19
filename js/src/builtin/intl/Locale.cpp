@@ -192,6 +192,15 @@ include
 "
 vm
 /
+Compartment
+.
+h
+"
+#
+include
+"
+vm
+/
 GlobalObject
 .
 h

@@ -36,7 +36,7 @@ include
 "
 gc
 /
-Allocator
+AllocKind
 .
 h
 "

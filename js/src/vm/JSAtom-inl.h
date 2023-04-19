@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-FloatingPoint
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RangedPtr
 .
 h
@@ -52,7 +43,7 @@ include
 "
 vm
 /
-JSContext
+JSAtomState
 .
 h
 "
@@ -61,7 +52,7 @@ include
 "
 vm
 /
-Runtime
+JSContext
 .
 h
 "

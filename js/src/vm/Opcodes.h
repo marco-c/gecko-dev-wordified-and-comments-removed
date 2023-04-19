@@ -19,6 +19,15 @@ stdint
 h
 >
 #
+include
+"
+js
+/
+TypeDecls
+.
+h
+"
+#
 define
 FOR_EACH_OPCODE
 (

@@ -7,9 +7,9 @@ vm_RegExpStatics_h
 #
 include
 "
-gc
+js
 /
-Marking
+RegExpFlags
 .
 h
 "
@@ -36,15 +36,6 @@ include
 "
 vm
 /
-RegExpShared
-.
-h
-"
-#
-include
-"
-vm
-/
 Runtime
 .
 h
@@ -52,9 +43,6 @@ h
 namespace
 js
 {
-class
-GlobalObject
-;
 class
 RegExpStatics
 {
