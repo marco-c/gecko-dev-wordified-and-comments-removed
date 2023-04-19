@@ -592,8 +592,6 @@ fmt
 (
 Lite
 (
-&
-*
 self
 .
 value

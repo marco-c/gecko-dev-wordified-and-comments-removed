@@ -20,7 +20,7 @@ syn
 .
 0
 .
-96
+99
 "
 )
 ]
@@ -60,6 +60,10 @@ cast_possible_truncation
 clippy
 :
 :
+cast_ptr_alignment
+clippy
+:
+:
 default_trait_access
 clippy
 :
@@ -69,6 +73,10 @@ clippy
 :
 :
 expl_impl_clone_on_copy
+clippy
+:
+:
+explicit_auto_deref
 clippy
 :
 :
@@ -254,16 +262,8 @@ parsing
 ]
 #
 [
-doc
-(
-hidden
-)
-]
-#
-[
 macro_use
 ]
-pub
 mod
 group
 ;

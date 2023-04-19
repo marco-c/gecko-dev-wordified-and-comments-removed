@@ -6,6 +6,10 @@ allow
 clippy
 :
 :
+assertions_on_result_states
+clippy
+:
+:
 too_many_lines
 )
 ]

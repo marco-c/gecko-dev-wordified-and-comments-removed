@@ -123,7 +123,7 @@ version
 .
 0
 .
-96
+99
 "
 authors
 =
@@ -223,6 +223,16 @@ README
 .
 md
 "
+keywords
+=
+[
+"
+macros
+"
+"
+syn
+"
+]
 categories
 =
 [
@@ -237,6 +247,11 @@ procedural
 macro
 -
 helpers
+"
+"
+parser
+-
+implementations
 "
 ]
 license

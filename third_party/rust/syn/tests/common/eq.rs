@@ -205,6 +205,15 @@ rustc_ast
 ast
 :
 :
+ClosureBinder
+;
+use
+rustc_ast
+:
+:
+ast
+:
+:
 Const
 ;
 use
@@ -1251,6 +1260,9 @@ impl
 <
 T
 :
+?
+Sized
++
 SpanlessEq
 >
 SpanlessEq
@@ -3894,6 +3906,19 @@ Ref
 spanless_eq_enum
 !
 (
+ClosureBinder
+;
+NotPresent
+For
+(
+span
+generic_params
+)
+)
+;
+spanless_eq_enum
+!
+(
 Const
 ;
 Yes
@@ -3922,9 +3947,13 @@ Extern
 ;
 None
 Implicit
+(
+0
+)
 Explicit
 (
 0
+1
 )
 )
 ;
@@ -4351,6 +4380,7 @@ TokenTree
 Token
 (
 0
+1
 )
 Delimited
 (
@@ -4596,6 +4626,7 @@ Closure
 3
 4
 5
+6
 )
 Block
 (
@@ -5501,6 +5532,7 @@ TokenTree
 Token
 (
 this
+_
 )
 TokenTree
 :
@@ -5508,6 +5540,7 @@ TokenTree
 Token
 (
 other
+_
 )
 )
 =
@@ -5709,6 +5742,7 @@ span
 :
 _
 }
+_spacing
 )
 )
 =
@@ -5797,6 +5831,7 @@ span
 :
 _
 }
+_spacing
 )
 )
 if
@@ -5844,6 +5879,7 @@ span
 :
 _
 }
+_spacing
 )
 )
 =
@@ -5871,6 +5907,7 @@ TokenTree
 Token
 (
 token
+_spacing
 )
 )
 =
