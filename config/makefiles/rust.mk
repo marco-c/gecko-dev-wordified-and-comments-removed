@@ -1808,12 +1808,6 @@ RUSTDOC
 export
 RUSTFMT
 export
-MOZ_SRC
-=
-(
-topsrcdir
-)
-export
 LIBCLANG_PATH
 =
 (
