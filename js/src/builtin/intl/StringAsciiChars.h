@@ -42,15 +42,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-TextUtils
-.
-h
-"
-#
-include
 <
 stddef
 .
