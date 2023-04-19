@@ -1752,10 +1752,6 @@ if
 (
 !
 isTargetSwitching
-&
-&
-!
-isModeSwitching
 )
 {
 this

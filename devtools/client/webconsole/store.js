@@ -566,7 +566,6 @@ PERSIST
 )
 showContentMessages
 :
-(
 webConsoleUI
 .
 isBrowserConsole
@@ -575,13 +574,6 @@ isBrowserConsole
 webConsoleUI
 .
 isBrowserToolboxConsole
-)
-&
-&
-!
-webConsoleUI
-.
-fissionSupport
 ?
 getBoolPref
 (

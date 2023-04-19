@@ -349,9 +349,6 @@ supportedResources
 supportsClearResources
 :
 true
-supportsSwitchingMode
-:
-true
 workerConsoleApiMessagesDispatchedToMainThread
 :
 Services
