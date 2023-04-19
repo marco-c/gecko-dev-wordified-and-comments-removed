@@ -3855,6 +3855,16 @@ wgc_desktop_frame
 h
 "
 ]
+libs
++
+=
+[
+"
+dwmapi
+.
+lib
+"
+]
 deps
 +
 =

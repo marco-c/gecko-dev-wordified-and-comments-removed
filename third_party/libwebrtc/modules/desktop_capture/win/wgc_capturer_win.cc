@@ -1270,6 +1270,12 @@ forward_as_tuple
 (
 d3d11_device_
 item
+capture_source_
+-
+>
+GetSize
+(
+)
 )
 )
 ;
