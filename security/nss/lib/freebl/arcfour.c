@@ -78,12 +78,6 @@ AIX
 |
 defined
 (
-OSF1
-)
-|
-|
-defined
-(
 NSS_BEVAND_ARCFOUR
 )
 #

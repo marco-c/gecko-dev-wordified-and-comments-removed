@@ -7649,6 +7649,12 @@ for
 (
 session
 =
+(
+slot
+-
+>
+head
+?
 slot
 -
 >
@@ -7656,6 +7662,9 @@ head
 [
 i
 ]
+:
+NULL
+)
 ;
 session
 ;
@@ -8212,6 +8221,8 @@ handle
 SFTKSession
 *
 session
+=
+NULL
 ;
 PZLock
 *
@@ -8238,6 +8249,14 @@ PZ_Lock
 lock
 )
 ;
+if
+(
+slot
+-
+>
+head
+)
+{
 sftkqueue_find
 (
 session
@@ -8252,6 +8271,7 @@ slot
 sessHashSize
 )
 ;
+}
 PZ_Unlock
 (
 lock
