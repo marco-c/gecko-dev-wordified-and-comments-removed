@@ -1318,14 +1318,6 @@ kWidgetModule
 ;
 #
 endif
-extern
-const
-mozilla
-:
-:
-Module
-kXREModule
-;
 static
 nsTArray
 <
@@ -1812,12 +1804,6 @@ kWidgetModule
 ;
 #
 endif
-RegisterModule
-(
-&
-kXREModule
-)
-;
 for
 (
 uint32_t
