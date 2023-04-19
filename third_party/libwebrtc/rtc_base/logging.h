@@ -2407,8 +2407,8 @@ params
 )
 {
 }
-inline
 static
+constexpr
 bool
 IsNoop
 (
