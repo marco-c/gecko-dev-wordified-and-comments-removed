@@ -804,7 +804,7 @@ const
 int
 kLastDynamicPayloadTypeLowerRange
 =
-65
+63
 ;
 static
 const
@@ -1077,7 +1077,7 @@ payload
 types
 [
 35
-65
+63
 ]
 skipping
 the
@@ -1214,7 +1214,7 @@ payload
 types
 [
 35
-65
+63
 ]
 skipping
 rtx
