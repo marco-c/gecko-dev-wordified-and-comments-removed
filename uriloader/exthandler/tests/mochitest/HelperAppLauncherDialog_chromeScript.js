@@ -465,7 +465,7 @@ FAKE_CID
 HELPERAPP_DIALOG_CONTRACT
 ComponentUtils
 .
-_getFactory
+generateSingletonFactory
 (
 HelperAppLauncherDialog
 )

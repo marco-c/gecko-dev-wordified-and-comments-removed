@@ -236,7 +236,7 @@ factory
 =
 ComponentUtils
 .
-_getFactory
+generateSingletonFactory
 (
 TabSwitchAboutModule
 )

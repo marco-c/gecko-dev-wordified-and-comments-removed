@@ -15677,9 +15677,6 @@ newValue
 classID
 :
 UPDATESERVICE_CID
-_xpcom_factory
-:
-UpdateServiceFactory
 QueryInterface
 :
 ChromeUtils

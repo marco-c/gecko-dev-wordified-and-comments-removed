@@ -247,7 +247,7 @@ mockHelperAppService
 =
 ComponentUtils
 .
-_getFactory
+generateSingletonFactory
 (
 HelperAppLauncherDialog
 )

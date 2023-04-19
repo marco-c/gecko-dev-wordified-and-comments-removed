@@ -220,7 +220,7 @@ factory
 :
 ComponentUtils
 .
-_getFactory
+generateSingletonFactory
 (
 TalosPowersService
 )
