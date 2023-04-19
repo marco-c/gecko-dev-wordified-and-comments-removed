@@ -211,11 +211,6 @@ mElement
 aElement
 )
 {
-MOZ_ASSERT
-(
-mTriggeringPrincipal
-)
-;
 }
 ScriptFetchOptions
 :
