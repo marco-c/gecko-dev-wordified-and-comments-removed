@@ -2146,6 +2146,12 @@ IsLastScrollUpdateAnimating
 )
 const
 ;
+bool
+IsLastScrollUpdateTriggeredByScriptAnimating
+(
+)
+const
+;
 mozilla
 :
 :
@@ -2817,6 +2823,11 @@ mProcessingScrollEvent
 ;
 bool
 mApzAnimationRequested
+:
+1
+;
+bool
+mApzAnimationTriggeredByScriptRequested
 :
 1
 ;

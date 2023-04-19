@@ -829,6 +829,7 @@ MainThread
 APZPending
 APZRequested
 APZInProgress
+TriggeredByScript
 }
 ;
 virtual
