@@ -1,7 +1,9 @@
 from
-gecko_taskgraph
+taskgraph
 .
 optimize
+.
+base
 import
 All
 OptimizationStrategy
