@@ -806,7 +806,6 @@ CallUnloadFuncs
 )
 {
 }
-static
 nsresult
 CreateInstanceImpl
 (
