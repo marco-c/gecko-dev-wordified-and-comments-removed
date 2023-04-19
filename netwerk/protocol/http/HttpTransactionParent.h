@@ -396,6 +396,16 @@ nsCString
 aValue
 )
 ;
+virtual
+mozilla
+:
+:
+TimeStamp
+GetPendingTime
+(
+)
+override
+;
 already_AddRefed
 <
 nsIEventTarget

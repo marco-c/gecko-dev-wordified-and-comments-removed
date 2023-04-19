@@ -87,6 +87,9 @@ cacheReadStart
 TimeStamp
 cacheReadEnd
 ;
+TimeStamp
+connectionPending
+;
 }
 ;
 }
