@@ -140,7 +140,7 @@ document
 getElementById
 (
 "
-tabs
+tab
 -
 pickup
 -
