@@ -206,6 +206,10 @@ nsJSON
 .
 dll
 \
+PinToTaskbar
+.
+dll
+\
 ServicesHelper
 .
 dll
