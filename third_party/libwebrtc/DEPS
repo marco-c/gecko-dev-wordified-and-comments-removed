@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-30d0edac7551598eb981a220360c1ea8d4c9cc27
+6f6d42e1df0f86b22d071784a9bed9ad5dde2cb0
 '
 #
 Keep
@@ -165,7 +165,7 @@ chromium
 src
 /
 base
-78f2e2150b782d6b60fab1f7ddc4979ba60098a0
+94f5ba8cd5a8e4ae50a8cef9f1fd0222f5285b58
 '
 '
 src
@@ -189,7 +189,7 @@ chromium
 src
 /
 build
-beda32040e364b297e3c4b7441cbb3141175c3bb
+fdb3611477b4a29905d777b68aa1beb0af535108
 '
 '
 src
@@ -309,7 +309,7 @@ chromium
 src
 /
 ios
-0213de3876e2ca6f36c4909f42bb47ef18df8fd9
+d5c8012cf51f262c18afd403c0ee32fa5127ea98
 '
 '
 condition
@@ -341,7 +341,7 @@ chromium
 src
 /
 testing
-ba40f25dfcb663423816b21691a4b8c97cbd9f52
+a78ed44be9e498a5a85a49a10de3c67627cbb1a3
 '
 '
 src
@@ -365,7 +365,7 @@ chromium
 src
 /
 third_party
-08b92f779b349921955f187977eb8a44143ed3ea
+112a990ec10d0f81c3f66b42b09a185c968e5710
 '
 '
 src
@@ -1372,7 +1372,7 @@ harfbuzz
 harfbuzz
 .
 git
-77507a1d8d872d8cd4f62b807e933cd3e2cdb110
+b8c2c1ab3778755a23ea449ba334959693388687
 '
 '
 src
@@ -2546,7 +2546,7 @@ chromium
 src
 /
 tools
-d005da4982b6d0d2db47e899812143983a17c9f5
+a35a477395f33325848e888acbacd821248c094f
 '
 '
 src
@@ -3028,7 +3028,7 @@ version
 '
 :
 '
-yFvftcNOlZZJaFm5vRn6OVKPs5whEChqCg3ESP47ycIC
+kbDXkyz0Cat6aywgnFl4onZ4E8LXiWFZPcSwBSi4ip4C
 '
 }
 ]
