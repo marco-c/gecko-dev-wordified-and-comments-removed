@@ -932,6 +932,11 @@ ClearOverscroll
 (
 )
 ;
+void
+ClearPhysicalOverscroll
+(
+)
+;
 bool
 HasScrollgrab
 (
