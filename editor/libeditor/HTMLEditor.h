@@ -2616,7 +2616,7 @@ HandleInsertBRElement
 const
 EditorDOMPoint
 &
-aInsertToBreak
+aPointToBreak
 const
 Element
 &
