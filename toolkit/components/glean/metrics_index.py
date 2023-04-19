@@ -27,6 +27,18 @@ yaml
 "
 browser
 /
+components
+/
+newtab
+/
+metrics
+.
+yaml
+"
+    
+"
+browser
+/
 modules
 /
 metrics
@@ -171,6 +183,18 @@ yaml
 pings_yamls
 =
 [
+    
+"
+browser
+/
+components
+/
+newtab
+/
+pings
+.
+yaml
+"
     
 "
 toolkit
