@@ -178,6 +178,13 @@ input_file
 "
 r
 "
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 yaml_input
@@ -606,6 +613,13 @@ open
 input_file
 "
 r
+"
+encoding
+=
+"
+utf
+-
+8
 "
 )
 as
