@@ -1372,13 +1372,6 @@ self
 )
 :
         
-verifications
-(
-"
-initial
-"
-)
-        
 logger
 .
 info
@@ -1412,6 +1405,13 @@ graph_config
 .
 register
 (
+)
+        
+verifications
+(
+"
+initial
+"
 )
         
 if
