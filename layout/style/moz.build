@@ -771,6 +771,11 @@ FontFaceSetIterator
 h
 "
 "
+FontFaceSetWorkerImpl
+.
+h
+"
+"
 MediaList
 .
 h
@@ -1006,6 +1011,11 @@ cpp
 "
 "
 FontFaceSetIterator
+.
+cpp
+"
+"
+FontFaceSetWorkerImpl
 .
 cpp
 "
