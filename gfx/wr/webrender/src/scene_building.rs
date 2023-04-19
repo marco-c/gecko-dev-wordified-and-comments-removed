@@ -6715,10 +6715,9 @@ add_rounded_rect_clip_node
 info
 .
 id
-&
 info
 .
-parent_space_and_clip
+spatial_id
 &
 info
 .
@@ -10432,10 +10431,9 @@ self
 new_node_id
 :
 ClipId
-space_and_clip
+spatial_id
 :
-&
-SpaceAndClipInfo
+SpatialId
 clip
 :
 &
@@ -10449,8 +10447,6 @@ self
 .
 get_space
 (
-space_and_clip
-.
 spatial_id
 )
 ;
@@ -10546,12 +10542,7 @@ clip_store
 register_clip_template
 (
 new_node_id
-Some
-(
-space_and_clip
-.
-clip_id
-)
+None
 &
 [
 instance

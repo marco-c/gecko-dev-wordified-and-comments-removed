@@ -8570,8 +8570,9 @@ builder
 .
 define_clip_rounded_rect
 (
-&
 space_and_clip
+.
+spatial_id
 make_rounded_complex_clip
 (
 &
@@ -8654,8 +8655,9 @@ builder
 .
 define_clip_rounded_rect
 (
-&
 space_and_clip
+.
+spatial_id
 make_rounded_complex_clip
 (
 &

@@ -10456,13 +10456,12 @@ define_clip_rounded_rect
 &
 mut
 self
-parent_space_and_clip
+spatial_id
 :
-&
 di
 :
 :
-SpaceAndClipInfo
+SpatialId
 clip
 :
 di
@@ -10493,8 +10492,6 @@ self
 .
 current_offset
 (
-parent_space_and_clip
-.
 spatial_id
 )
 ;
@@ -10538,10 +10535,7 @@ di
 RoundedRectClipDisplayItem
 {
 id
-parent_space_and_clip
-:
-*
-parent_space_and_clip
+spatial_id
 clip
 }
 )

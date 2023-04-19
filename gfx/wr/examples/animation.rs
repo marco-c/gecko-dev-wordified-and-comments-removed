@@ -359,8 +359,9 @@ builder
 .
 define_clip_rounded_rect
 (
-&
 space_and_clip
+.
+spatial_id
 complex_clip
 )
 ;
