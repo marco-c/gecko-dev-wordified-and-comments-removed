@@ -895,15 +895,6 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-bool
-registered_for_feedback_
-RTC_GUARDED_BY
-(
-transport_checker_
-)
-=
-false
-;
 const
 std
 :
