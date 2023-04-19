@@ -450,11 +450,6 @@ on
 projects
 :
 [
-'
-mozilla
--
-central
-'
 ]
 fetches
 :
@@ -755,11 +750,6 @@ on
 projects
 :
 [
-'
-mozilla
--
-central
-'
 ]
 fetches
 :
