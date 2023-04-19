@@ -2530,6 +2530,8 @@ ClassifierDummyChannel
 :
 GetResponseEmbedderPolicy
 (
+bool
+aIsOriginTrialCoepCredentiallessEnabled
 nsILoadInfo
 :
 :

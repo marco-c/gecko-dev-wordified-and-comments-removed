@@ -1974,6 +1974,8 @@ override
 NS_IMETHOD
 GetResponseEmbedderPolicy
 (
+bool
+aIsOriginTrialCoepCredentiallessEnabled
 nsILoadInfo
 :
 :
