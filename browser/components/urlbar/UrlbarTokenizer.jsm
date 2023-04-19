@@ -502,6 +502,9 @@ RESTRICT_TITLE
 RESTRICT_URL
 :
 10
+RESTRICT_ACTION
+:
+11
 }
 RESTRICT
 :
@@ -540,6 +543,11 @@ URL
 :
 "
 "
+ACTION
+:
+"
+>
+"
 }
 get
 SEARCH_MODE_RESTRICT
@@ -571,6 +579,11 @@ this
 RESTRICT
 .
 SEARCH
+this
+.
+RESTRICT
+.
+ACTION
 ]
 )
 ;

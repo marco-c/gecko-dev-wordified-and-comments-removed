@@ -96,6 +96,11 @@ EXTRA_JS_MODULES
 =
 [
 "
+QuickActionsLoaderDefault
+.
+jsm
+"
+"
 UrlbarController
 .
 jsm
@@ -187,6 +192,11 @@ jsm
 "
 "
 UrlbarProviderPrivateSearch
+.
+jsm
+"
+"
+UrlbarProviderQuickActions
 .
 jsm
 "
