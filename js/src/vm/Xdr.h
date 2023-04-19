@@ -894,6 +894,9 @@ validateResultCode
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 JS
 :
 :
@@ -1103,6 +1106,9 @@ MOZ_ASSERT
 validateResultCode
 (
 cx
+(
+)
+ec
 (
 )
 code
