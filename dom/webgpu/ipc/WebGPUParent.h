@@ -117,7 +117,7 @@ IPCResult
 RecvAdapterRequestDevice
 (
 RawId
-aSelfId
+aAdapterId
 const
 ipc
 :
@@ -126,7 +126,7 @@ ByteBuf
 &
 aByteBuf
 RawId
-aNewId
+aDeviceId
 AdapterRequestDeviceResolver
 &
 &
@@ -140,7 +140,7 @@ IPCResult
 RecvAdapterDestroy
 (
 RawId
-aSelfId
+aAdapterId
 )
 ;
 ipc
@@ -150,7 +150,7 @@ IPCResult
 RecvDeviceDestroy
 (
 RawId
-aSelfId
+aDeviceId
 )
 ;
 ipc
@@ -160,7 +160,7 @@ IPCResult
 RecvCreateBuffer
 (
 RawId
-aSelfId
+aDeviceId
 RawId
 aBufferId
 dom
@@ -179,7 +179,7 @@ IPCResult
 RecvBufferReturnShmem
 (
 RawId
-aSelfId
+aBufferId
 Shmem
 &
 &
@@ -193,7 +193,7 @@ IPCResult
 RecvBufferMap
 (
 RawId
-aSelfId
+aBufferId
 ffi
 :
 :
@@ -216,7 +216,7 @@ IPCResult
 RecvBufferUnmap
 (
 RawId
-aSelfId
+aBufferId
 Shmem
 &
 &
@@ -234,7 +234,7 @@ IPCResult
 RecvBufferDestroy
 (
 RawId
-aSelfId
+aBufferId
 )
 ;
 ipc
@@ -244,7 +244,7 @@ IPCResult
 RecvTextureDestroy
 (
 RawId
-aSelfId
+aTextureId
 )
 ;
 ipc
@@ -254,7 +254,7 @@ IPCResult
 RecvTextureViewDestroy
 (
 RawId
-aSelfId
+aTextureViewId
 )
 ;
 ipc
@@ -264,7 +264,7 @@ IPCResult
 RecvSamplerDestroy
 (
 RawId
-aSelfId
+aSamplerId
 )
 ;
 ipc
@@ -274,7 +274,7 @@ IPCResult
 RecvCommandEncoderFinish
 (
 RawId
-aSelfId
+aEncoderId
 RawId
 aDeviceId
 const
@@ -293,7 +293,7 @@ IPCResult
 RecvCommandEncoderDestroy
 (
 RawId
-aSelfId
+aEncoderId
 )
 ;
 ipc
@@ -303,7 +303,7 @@ IPCResult
 RecvCommandBufferDestroy
 (
 RawId
-aSelfId
+aCommandBufferId
 )
 ;
 ipc
@@ -313,7 +313,7 @@ IPCResult
 RecvRenderBundleDestroy
 (
 RawId
-aSelfId
+aBundleId
 )
 ;
 ipc
@@ -323,7 +323,7 @@ IPCResult
 RecvQueueSubmit
 (
 RawId
-aSelfId
+aQueueId
 RawId
 aDeviceId
 const
@@ -342,7 +342,7 @@ IPCResult
 RecvQueueWriteAction
 (
 RawId
-aSelfId
+aQueueId
 RawId
 aDeviceId
 const
@@ -365,7 +365,7 @@ IPCResult
 RecvBindGroupLayoutDestroy
 (
 RawId
-aSelfId
+aBindGroupLayoutId
 )
 ;
 ipc
@@ -375,7 +375,7 @@ IPCResult
 RecvPipelineLayoutDestroy
 (
 RawId
-aSelfId
+aPipelineLayoutId
 )
 ;
 ipc
@@ -385,7 +385,7 @@ IPCResult
 RecvBindGroupDestroy
 (
 RawId
-aSelfId
+aBindGroupId
 )
 ;
 ipc
@@ -395,7 +395,7 @@ IPCResult
 RecvShaderModuleDestroy
 (
 RawId
-aSelfId
+aModuleId
 )
 ;
 ipc
@@ -405,7 +405,7 @@ IPCResult
 RecvComputePipelineDestroy
 (
 RawId
-aSelfId
+aPipelineId
 )
 ;
 ipc
@@ -415,7 +415,7 @@ IPCResult
 RecvRenderPipelineDestroy
 (
 RawId
-aSelfId
+aPipelineId
 )
 ;
 ipc
@@ -442,7 +442,7 @@ IPCResult
 RecvDeviceCreateSwapChain
 (
 RawId
-aSelfId
+aDeviceId
 RawId
 aQueueId
 const
@@ -472,7 +472,7 @@ IPCResult
 RecvDeviceCreateShaderModule
 (
 RawId
-aSelfId
+aDeviceId
 RawId
 aModuleId
 const
@@ -524,7 +524,7 @@ IPCResult
 RecvDeviceAction
 (
 RawId
-aSelf
+aDeviceId
 const
 ipc
 :
@@ -541,7 +541,7 @@ IPCResult
 RecvDeviceActionWithAck
 (
 RawId
-aSelf
+aDeviceId
 const
 ipc
 :
@@ -562,7 +562,7 @@ IPCResult
 RecvTextureAction
 (
 RawId
-aSelf
+aTextureId
 RawId
 aDevice
 const
@@ -581,9 +581,9 @@ IPCResult
 RecvCommandEncoderAction
 (
 RawId
-aSelf
+aEncoderId
 RawId
-aDevice
+aDeviceId
 const
 ipc
 :
@@ -616,7 +616,7 @@ IPCResult
 RecvDevicePushErrorScope
 (
 RawId
-aSelfId
+aDeviceId
 )
 ;
 ipc
@@ -626,7 +626,7 @@ IPCResult
 RecvDevicePopErrorScope
 (
 RawId
-aSelfId
+aDeviceId
 DevicePopErrorScopeResolver
 &
 &
@@ -699,7 +699,7 @@ bool
 ForwardError
 (
 RawId
-aDeviceID
+aDeviceId
 ErrorBuffer
 &
 aError

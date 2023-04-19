@@ -1969,7 +1969,7 @@ WebGPUParent
 RecvAdapterRequestDevice
 (
 RawId
-aSelfId
+aAdapterId
 const
 ipc
 :
@@ -1978,7 +1978,7 @@ ByteBuf
 &
 aByteBuf
 RawId
-aNewId
+aDeviceId
 AdapterRequestDeviceResolver
 &
 &
@@ -1998,13 +1998,13 @@ mContext
 get
 (
 )
-aSelfId
+aAdapterId
 ToFFI
 (
 &
 aByteBuf
 )
-aNewId
+aDeviceId
 error
 .
 ToFFI
@@ -2034,7 +2034,7 @@ mErrorScopeMap
 insert
 (
 {
-aSelfId
+aAdapterId
 ErrorScopeStack
 (
 )
@@ -2063,7 +2063,7 @@ WebGPUParent
 RecvAdapterDestroy
 (
 RawId
-aSelfId
+aAdapterId
 )
 {
 ffi
@@ -2076,7 +2076,7 @@ mContext
 get
 (
 )
-aSelfId
+aAdapterId
 )
 ;
 return
@@ -2095,7 +2095,7 @@ WebGPUParent
 RecvDeviceDestroy
 (
 RawId
-aSelfId
+aDeviceId
 )
 {
 ffi
@@ -2108,14 +2108,14 @@ mContext
 get
 (
 )
-aSelfId
+aDeviceId
 )
 ;
 mErrorScopeMap
 .
 erase
 (
-aSelfId
+aDeviceId
 )
 ;
 return
@@ -2134,7 +2134,7 @@ WebGPUParent
 RecvCreateBuffer
 (
 RawId
-aSelfId
+aDeviceId
 RawId
 aBufferId
 dom
@@ -2170,7 +2170,7 @@ mContext
 get
 (
 )
-aSelfId
+aDeviceId
 aBufferId
 label
 .
@@ -2195,7 +2195,7 @@ ToFFI
 ;
 ForwardError
 (
-aSelfId
+aDeviceId
 error
 )
 ;
@@ -2215,7 +2215,7 @@ WebGPUParent
 RecvBufferReturnShmem
 (
 RawId
-aSelfId
+aBufferId
 Shmem
 &
 &
@@ -2239,13 +2239,13 @@ PRIu64
 \
 n
 "
-aSelfId
+aBufferId
 )
 )
 ;
 mSharedMemoryMap
 [
-aSelfId
+aBufferId
 ]
 =
 aShmem
@@ -2524,7 +2524,7 @@ WebGPUParent
 RecvBufferMap
 (
 RawId
-aSelfId
+aBufferId
 ffi
 :
 :
@@ -2569,7 +2569,7 @@ PRIu64
 \
 n
 "
-aSelfId
+aBufferId
 aOffset
 aSize
 )
@@ -2581,7 +2581,7 @@ shmem
 =
 mSharedMemoryMap
 [
-aSelfId
+aBufferId
 ]
 ;
 if
@@ -2644,7 +2644,7 @@ mContext
 get
 (
 )
-aSelfId
+aBufferId
 aHostMap
 aOffset
 std
@@ -2692,7 +2692,7 @@ mContext
 get
 (
 )
-aSelfId
+aBufferId
 aOffset
 aSize
 aHostMap
@@ -2715,7 +2715,7 @@ WebGPUParent
 RecvBufferUnmap
 (
 RawId
-aSelfId
+aBufferId
 Shmem
 &
 &
@@ -2745,7 +2745,7 @@ mContext
 get
 (
 )
-aSelfId
+aBufferId
 0
 aShmem
 .
@@ -2797,7 +2797,7 @@ mContext
 get
 (
 )
-aSelfId
+aBufferId
 )
 ;
 MOZ_LOG
@@ -2821,7 +2821,7 @@ d
 \
 n
 "
-aSelfId
+aBufferId
 aFlush
 )
 )
@@ -2834,7 +2834,7 @@ mSharedMemoryMap
 .
 find
 (
-aSelfId
+aBufferId
 )
 ;
 if
@@ -2865,7 +2865,7 @@ aKeepShmem
 {
 mSharedMemoryMap
 [
-aSelfId
+aBufferId
 ]
 =
 aShmem
@@ -2895,7 +2895,7 @@ WebGPUParent
 RecvBufferDestroy
 (
 RawId
-aSelfId
+aBufferId
 )
 {
 ffi
@@ -2908,7 +2908,7 @@ mContext
 get
 (
 )
-aSelfId
+aBufferId
 )
 ;
 MOZ_LOG
@@ -2928,7 +2928,7 @@ PRIu64
 \
 n
 "
-aSelfId
+aBufferId
 )
 )
 ;
@@ -2940,7 +2940,7 @@ mSharedMemoryMap
 .
 find
 (
-aSelfId
+aBufferId
 )
 ;
 if
@@ -2987,7 +2987,7 @@ WebGPUParent
 RecvTextureDestroy
 (
 RawId
-aSelfId
+aTextureId
 )
 {
 ffi
@@ -3000,7 +3000,7 @@ mContext
 get
 (
 )
-aSelfId
+aTextureId
 )
 ;
 return
@@ -3019,7 +3019,7 @@ WebGPUParent
 RecvTextureViewDestroy
 (
 RawId
-aSelfId
+aTextureViewId
 )
 {
 ffi
@@ -3032,7 +3032,7 @@ mContext
 get
 (
 )
-aSelfId
+aTextureViewId
 )
 ;
 return
@@ -3051,7 +3051,7 @@ WebGPUParent
 RecvSamplerDestroy
 (
 RawId
-aSelfId
+aSamplerId
 )
 {
 ffi
@@ -3064,7 +3064,7 @@ mContext
 get
 (
 )
-aSelfId
+aSamplerId
 )
 ;
 return
@@ -3083,7 +3083,7 @@ WebGPUParent
 RecvCommandEncoderFinish
 (
 RawId
-aSelfId
+aEncoderId
 RawId
 aDeviceId
 const
@@ -3143,7 +3143,7 @@ mContext
 get
 (
 )
-aSelfId
+aEncoderId
 &
 desc
 error
@@ -3175,7 +3175,7 @@ WebGPUParent
 RecvCommandEncoderDestroy
 (
 RawId
-aSelfId
+aEncoderId
 )
 {
 ffi
@@ -3188,7 +3188,7 @@ mContext
 get
 (
 )
-aSelfId
+aEncoderId
 )
 ;
 return
@@ -3207,7 +3207,7 @@ WebGPUParent
 RecvCommandBufferDestroy
 (
 RawId
-aSelfId
+aCommandBufferId
 )
 {
 ffi
@@ -3220,7 +3220,7 @@ mContext
 get
 (
 )
-aSelfId
+aCommandBufferId
 )
 ;
 return
@@ -3239,7 +3239,7 @@ WebGPUParent
 RecvRenderBundleDestroy
 (
 RawId
-aSelfId
+aBundleId
 )
 {
 ffi
@@ -3252,7 +3252,7 @@ mContext
 get
 (
 )
-aSelfId
+aBundleId
 )
 ;
 return
@@ -3271,7 +3271,7 @@ WebGPUParent
 RecvQueueSubmit
 (
 RawId
-aSelfId
+aQueueId
 RawId
 aDeviceId
 const
@@ -3296,7 +3296,7 @@ mContext
 get
 (
 )
-aSelfId
+aQueueId
 aCommandBuffers
 .
 Elements
@@ -3336,7 +3336,7 @@ WebGPUParent
 RecvQueueWriteAction
 (
 RawId
-aSelfId
+aQueueId
 RawId
 aDeviceId
 const
@@ -3365,7 +3365,7 @@ mContext
 get
 (
 )
-aSelfId
+aQueueId
 ToFFI
 (
 &
@@ -3421,7 +3421,7 @@ WebGPUParent
 RecvBindGroupLayoutDestroy
 (
 RawId
-aSelfId
+aBindGroupId
 )
 {
 ffi
@@ -3434,7 +3434,7 @@ mContext
 get
 (
 )
-aSelfId
+aBindGroupId
 )
 ;
 return
@@ -3453,7 +3453,7 @@ WebGPUParent
 RecvPipelineLayoutDestroy
 (
 RawId
-aSelfId
+aLayoutId
 )
 {
 ffi
@@ -3466,7 +3466,7 @@ mContext
 get
 (
 )
-aSelfId
+aLayoutId
 )
 ;
 return
@@ -3485,7 +3485,7 @@ WebGPUParent
 RecvBindGroupDestroy
 (
 RawId
-aSelfId
+aBindGroupId
 )
 {
 ffi
@@ -3498,7 +3498,7 @@ mContext
 get
 (
 )
-aSelfId
+aBindGroupId
 )
 ;
 return
@@ -3517,7 +3517,7 @@ WebGPUParent
 RecvShaderModuleDestroy
 (
 RawId
-aSelfId
+aModuleId
 )
 {
 ffi
@@ -3530,7 +3530,7 @@ mContext
 get
 (
 )
-aSelfId
+aModuleId
 )
 ;
 return
@@ -3549,7 +3549,7 @@ WebGPUParent
 RecvComputePipelineDestroy
 (
 RawId
-aSelfId
+aPipelineId
 )
 {
 ffi
@@ -3562,7 +3562,7 @@ mContext
 get
 (
 )
-aSelfId
+aPipelineId
 )
 ;
 return
@@ -3581,7 +3581,7 @@ WebGPUParent
 RecvRenderPipelineDestroy
 (
 RawId
-aSelfId
+aPipelineId
 )
 {
 ffi
@@ -3594,7 +3594,7 @@ mContext
 get
 (
 )
-aSelfId
+aPipelineId
 )
 ;
 return
@@ -3676,7 +3676,7 @@ WebGPUParent
 RecvDeviceCreateSwapChain
 (
 RawId
-aSelfId
+aDeviceId
 RawId
 aQueueId
 const
@@ -3985,7 +3985,7 @@ textureHostData
 {
 ReportError
 (
-aSelfId
+aDeviceId
 "
 Error
 in
@@ -4120,7 +4120,7 @@ MakeRefPtr
 PresentationData
 >
 (
-aSelfId
+aDeviceId
 aQueueId
 imageHost
 .
@@ -4194,9 +4194,9 @@ WebGPUParent
 RecvDeviceCreateShaderModule
 (
 RawId
-aSelfId
+aDeviceId
 RawId
-aBufferId
+aModuleId
 const
 nsString
 &
@@ -4259,8 +4259,8 @@ mContext
 get
 (
 )
-aSelfId
-aBufferId
+aDeviceId
+aModuleId
 label
 &
 aCode
@@ -5992,7 +5992,7 @@ WebGPUParent
 RecvDeviceAction
 (
 RawId
-aSelf
+aDeviceId
 const
 ipc
 :
@@ -6015,7 +6015,7 @@ mContext
 get
 (
 )
-aSelf
+aDeviceId
 ToFFI
 (
 &
@@ -6030,7 +6030,7 @@ ToFFI
 ;
 ForwardError
 (
-aSelf
+aDeviceId
 error
 )
 ;
@@ -6050,7 +6050,7 @@ WebGPUParent
 RecvDeviceActionWithAck
 (
 RawId
-aSelf
+aDeviceId
 const
 ipc
 :
@@ -6077,7 +6077,7 @@ mContext
 get
 (
 )
-aSelf
+aDeviceId
 ToFFI
 (
 &
@@ -6092,7 +6092,7 @@ ToFFI
 ;
 ForwardError
 (
-aSelf
+aDeviceId
 error
 )
 ;
@@ -6117,9 +6117,9 @@ WebGPUParent
 RecvTextureAction
 (
 RawId
-aSelf
+aTextureId
 RawId
-aDevice
+aDeviceId
 const
 ipc
 :
@@ -6142,7 +6142,7 @@ mContext
 get
 (
 )
-aSelf
+aTextureId
 ToFFI
 (
 &
@@ -6157,7 +6157,7 @@ ToFFI
 ;
 ForwardError
 (
-aDevice
+aDeviceId
 error
 )
 ;
@@ -6177,9 +6177,9 @@ WebGPUParent
 RecvCommandEncoderAction
 (
 RawId
-aSelf
+aEncoderId
 RawId
-aDevice
+aDeviceId
 const
 ipc
 :
@@ -6202,7 +6202,7 @@ mContext
 get
 (
 )
-aSelf
+aEncoderId
 ToFFI
 (
 &
@@ -6217,7 +6217,7 @@ ToFFI
 ;
 ForwardError
 (
-aDevice
+aDeviceId
 error
 )
 ;
@@ -6320,7 +6320,7 @@ WebGPUParent
 RecvDevicePushErrorScope
 (
 RawId
-aSelfId
+aDeviceId
 )
 {
 const
@@ -6332,7 +6332,7 @@ mErrorScopeMap
 .
 find
 (
-aSelfId
+aDeviceId
 )
 ;
 if
@@ -6394,7 +6394,7 @@ WebGPUParent
 RecvDevicePopErrorScope
 (
 RawId
-aSelfId
+aDeviceId
 DevicePopErrorScopeResolver
 &
 &
@@ -6410,7 +6410,7 @@ mErrorScopeMap
 .
 find
 (
-aSelfId
+aDeviceId
 )
 ;
 if
