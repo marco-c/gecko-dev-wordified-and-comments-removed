@@ -9637,6 +9637,17 @@ checks
 /
 rtc_base
 :
+histogram_percentile_counter
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 location
 "
 "
