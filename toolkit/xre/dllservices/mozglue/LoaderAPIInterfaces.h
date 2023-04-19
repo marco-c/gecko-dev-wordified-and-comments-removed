@@ -175,6 +175,8 @@ HANDLE
 const
 IMAGE_THUNK_DATA
 *
+const
+bool
 )
 ;
 using

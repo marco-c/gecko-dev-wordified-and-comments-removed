@@ -36,6 +36,9 @@ const
 IMAGE_THUNK_DATA
 *
 aCachedNtdllThunk
+const
+bool
+aIsUtilityProcess
 )
 ;
 LauncherVoidResultWithLineInfo

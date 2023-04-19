@@ -1466,3 +1466,17 @@ dll
 )
 )
 ]
+UTILITY_PROCESSES
++
+=
+[
+DllBlocklistEntry
+(
+"
+cyinjct
+.
+dll
+"
+ALL_VERSIONS
+)
+]

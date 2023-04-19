@@ -86,6 +86,9 @@ eDllBlocklistInitFlagIsChildProcess
 eDllBlocklistInitFlagWasBootstrapped
 =
 2
+eDllBlocklistInitFlagIsUtilityProcess
+=
+4
 }
 ;
 #

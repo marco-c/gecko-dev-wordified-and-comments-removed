@@ -141,6 +141,9 @@ aChildProcess
 const
 IMAGE_THUNK_DATA
 *
+const
+bool
+aIsUtilityProcess
 )
 {
 return
@@ -192,6 +195,9 @@ const
 IMAGE_THUNK_DATA
 *
 aCachedNtdllThunk
+const
+bool
+aIsUtilityProcess
 )
 {
 CrossProcessDllInterceptor
@@ -570,6 +576,17 @@ newFlags
 eDllBlocklistInitFlagIsChildProcess
 ;
 }
+if
+(
+aIsUtilityProcess
+)
+{
+newFlags
+|
+=
+eDllBlocklistInitFlagIsUtilityProcess
+;
+}
 LauncherVoidResult
 writeResult
 =
@@ -623,6 +640,9 @@ const
 IMAGE_THUNK_DATA
 *
 aCachedNtdllThunk
+const
+bool
+aIsUtilityProcess
 )
 {
 nt
@@ -702,6 +722,7 @@ InitializeDllBlocklistOOPInternal
 aFullImagePath
 transferMgr
 aCachedNtdllThunk
+aIsUtilityProcess
 )
 ;
 }
@@ -834,6 +855,7 @@ InitializeDllBlocklistOOPInternal
 aFullImagePath
 transferMgr
 nullptr
+false
 )
 ;
 }
