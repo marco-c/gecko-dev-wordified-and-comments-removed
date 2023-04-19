@@ -271,7 +271,7 @@ aError
 self
 -
 >
-DecodeError
+NotifyErrorInternal
 (
 aError
 )
@@ -973,6 +973,15 @@ NotifyEventInternal
 (
 ExternalEngineEvent
 aEvent
+)
+;
+void
+NotifyErrorInternal
+(
+const
+MediaResult
+&
+aError
 )
 ;
 RefPtr
