@@ -126,13 +126,11 @@ input
 :
 Array
 .
-from
+of
 (
-[
 1
 2
 3
-]
 )
 .
 reduce
