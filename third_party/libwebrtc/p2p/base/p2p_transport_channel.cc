@@ -8779,6 +8779,15 @@ GetIceRole
 (
 )
 ;
+ice_transport_stats
+-
+>
+ice_local_username_fragment
+=
+ice_parameters_
+.
+ufrag
+;
 return
 true
 ;

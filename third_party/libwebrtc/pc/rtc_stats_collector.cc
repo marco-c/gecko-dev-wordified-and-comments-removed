@@ -11966,6 +11966,17 @@ ice_transport_stats
 ice_role
 )
 ;
+transport_stats
+-
+>
+ice_local_username_fragment
+=
+channel_stats
+.
+ice_transport_stats
+.
+ice_local_username_fragment
+;
 for
 (
 const

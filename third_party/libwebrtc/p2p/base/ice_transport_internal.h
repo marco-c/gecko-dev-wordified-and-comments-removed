@@ -189,6 +189,12 @@ ice_role
 =
 ICEROLE_UNKNOWN
 ;
+std
+:
+:
+string
+ice_local_username_fragment
+;
 }
 ;
 typedef

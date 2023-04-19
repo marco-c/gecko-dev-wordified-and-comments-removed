@@ -5639,6 +5639,8 @@ srtp_cipher
 selected_candidate_pair_changes
 &
 ice_role
+&
+ice_local_username_fragment
 )
 RTCTransportStats
 :
@@ -5786,6 +5788,12 @@ ice_role
 iceRole
 "
 )
+ice_local_username_fragment
+(
+"
+iceLocalUsernameFragment
+"
+)
 {
 }
 RTCTransportStats
@@ -5901,6 +5909,12 @@ ice_role
 other
 .
 ice_role
+)
+ice_local_username_fragment
+(
+other
+.
+ice_local_username_fragment
 )
 {
 }
