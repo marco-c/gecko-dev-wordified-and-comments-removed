@@ -439,8 +439,6 @@ absolute_capture_time_
 ;
 Timestamp
 receive_time_
-=
-0
 ;
 }
 ;
