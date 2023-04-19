@@ -185,6 +185,14 @@ OnDiscardedFrame
 =
 0
 ;
+virtual
+void
+RequestRefreshFrame
+(
+)
+=
+0
+;
 }
 ;
 static
@@ -279,8 +287,7 @@ enabled
 0
 ;
 virtual
-ABSL_MUST_USE_RESULT
-bool
+void
 ProcessKeyFrameRequest
 (
 )
