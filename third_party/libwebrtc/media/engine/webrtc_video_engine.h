@@ -2311,7 +2311,7 @@ RecreateWebRtcVideoStream
 (
 )
 ;
-void
+bool
 ConfigureCodecs
 (
 const
