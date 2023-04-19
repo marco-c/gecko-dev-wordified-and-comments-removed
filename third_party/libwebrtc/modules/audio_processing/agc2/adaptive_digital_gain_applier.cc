@@ -557,6 +557,10 @@ GainController2
 AdaptiveDigital
 &
 config
+int
+sample_rate_hz
+int
+num_channels
 )
 :
 apm_data_dumper_
@@ -643,8 +647,8 @@ max_output_noise_level_dbfs
 ;
 Initialize
 (
-48000
-1
+sample_rate_hz
+num_channels
 )
 ;
 }

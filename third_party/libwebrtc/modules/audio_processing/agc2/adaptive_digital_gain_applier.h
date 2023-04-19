@@ -100,6 +100,10 @@ GainController2
 AdaptiveDigital
 &
 config
+int
+sample_rate_hz
+int
+num_channels
 )
 ;
 AdaptiveDigitalGainApplier
