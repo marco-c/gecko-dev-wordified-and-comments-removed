@@ -463,9 +463,9 @@ const
 NetAddr
 *
 aAddr
-nsISupports
+nsIInterfaceRequestor
 *
-aSecInfo
+aCallbacks
 )
 ;
 #
