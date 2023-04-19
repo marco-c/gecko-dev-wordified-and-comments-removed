@@ -1865,7 +1865,7 @@ kNumNativeSampleRates
 ]
 ;
 static
-const
+constexpr
 int
 kChunkSizeMs
 =
