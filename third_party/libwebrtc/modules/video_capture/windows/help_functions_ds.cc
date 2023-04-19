@@ -249,9 +249,6 @@ REFGUID
 Category
 )
 {
-HRESULT
-hr
-;
 IPin
 *
 pin
@@ -285,8 +282,6 @@ return
 NULL
 ;
 }
-hr
-=
 pPinEnum
 -
 >
