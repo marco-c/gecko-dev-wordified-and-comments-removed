@@ -452,7 +452,7 @@ mTiming
 ;
 Maybe
 <
-ComputedTimingFunction
+StyleComputedTimingFunction
 >
 mTimingFunction
 ;

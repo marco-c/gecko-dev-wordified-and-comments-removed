@@ -4935,7 +4935,7 @@ nsAtom
 *
 aName
 const
-nsTimingFunction
+StyleComputedTimingFunction
 &
 aTimingFunction
 nsTArray

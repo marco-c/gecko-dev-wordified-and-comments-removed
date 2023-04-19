@@ -20,15 +20,6 @@ include
 "
 mozilla
 /
-ComputedTimingFunction
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layers
 /
 AnimationStorageData
@@ -98,8 +89,8 @@ unordered_map
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 layers
 {
 class
@@ -253,7 +244,6 @@ aClipRect
 ;
 }
 ;
-}
 }
 #
 endif

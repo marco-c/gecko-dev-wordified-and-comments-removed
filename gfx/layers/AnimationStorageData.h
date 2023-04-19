@@ -20,7 +20,7 @@ include
 "
 mozilla
 /
-ComputedTimingFunction
+ServoStyleConsts
 .
 h
 "
@@ -117,7 +117,7 @@ Maybe
 mozilla
 :
 :
-ComputedTimingFunction
+StyleComputedTimingFunction
 >
 mFunction
 ;

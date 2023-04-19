@@ -136,13 +136,6 @@ h
 "
 mozilla
 /
-ComputedTimingFunction
-.
-h
-"
-"
-mozilla
-/
 CORSMode
 .
 h
@@ -1308,12 +1301,6 @@ mozilla
 :
 :
 ComputedTiming
-"
-"
-mozilla
-:
-:
-ComputedTimingFunction
 "
 "
 mozilla

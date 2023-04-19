@@ -3398,7 +3398,7 @@ AnimationPropertySegment
 aSegment
 double
 aProgress
-StyleEasingBeforeFlag
+bool
 aBeforeFlag
 )
 {
@@ -3455,7 +3455,7 @@ mFromKey
 )
 ;
 return
-ComputedTimingFunction
+StyleComputedTimingFunction
 :
 :
 GetPortion
@@ -6033,7 +6033,7 @@ aKeyframes
 float
 aOffset
 const
-nsTimingFunction
+StyleComputedTimingFunction
 *
 aTimingFunction
 const
@@ -6247,7 +6247,7 @@ if
 aTimingFunction
 -
 >
-IsLinear
+IsLinearKeyword
 (
 )
 )
@@ -6288,7 +6288,7 @@ aKeyframes
 float
 aOffset
 const
-nsTimingFunction
+StyleComputedTimingFunction
 *
 aTimingFunction
 const
@@ -6377,7 +6377,7 @@ Keyframe
 *
 aKeyframes
 const
-nsTimingFunction
+StyleComputedTimingFunction
 *
 aTimingFunction
 const
@@ -6415,7 +6415,7 @@ Keyframe
 *
 aKeyframes
 const
-nsTimingFunction
+StyleComputedTimingFunction
 *
 aTimingFunction
 const

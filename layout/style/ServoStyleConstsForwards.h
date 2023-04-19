@@ -199,9 +199,6 @@ imgRequestProxy
 struct
 nsCSSValueSharedList
 ;
-struct
-nsTimingFunction
-;
 class
 gfxFontFeatureValueSet
 ;

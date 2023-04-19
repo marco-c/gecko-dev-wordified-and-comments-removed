@@ -10,7 +10,7 @@ include
 "
 mozilla
 /
-ComputedTimingFunction
+ServoStyleConsts
 .
 h
 "
@@ -86,7 +86,7 @@ FromMilliseconds
 extern
 StaticAutoPtr
 <
-ComputedTimingFunction
+StyleComputedTimingFunction
 >
 gVelocityCurveFunction
 ;
@@ -612,13 +612,10 @@ funcOutput
 gVelocityCurveFunction
 -
 >
-GetValue
+At
 (
 funcInput
-StyleEasingBeforeFlag
-:
-:
-Unset
+false
 )
 ;
 float

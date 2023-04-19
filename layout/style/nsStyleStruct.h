@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsTimingFunction
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -5297,7 +5290,7 @@ SetInitialValues
 )
 ;
 const
-nsTimingFunction
+StyleComputedTimingFunction
 &
 GetTimingFunction
 (
@@ -5386,7 +5379,7 @@ aOther
 }
 private
 :
-nsTimingFunction
+StyleComputedTimingFunction
 mTimingFunction
 ;
 float
@@ -5429,7 +5422,7 @@ SetInitialValues
 )
 ;
 const
-nsTimingFunction
+StyleComputedTimingFunction
 &
 GetTimingFunction
 (
@@ -5607,7 +5600,7 @@ aOther
 }
 private
 :
-nsTimingFunction
+StyleComputedTimingFunction
 mTimingFunction
 ;
 float
@@ -8460,7 +8453,10 @@ GetDuration
 ;
 }
 const
-nsTimingFunction
+mozilla
+:
+:
+StyleComputedTimingFunction
 &
 GetTransitionTimingFunction
 (
@@ -8687,7 +8683,10 @@ GetIterationCount
 ;
 }
 const
-nsTimingFunction
+mozilla
+:
+:
+StyleComputedTimingFunction
 &
 GetAnimationTimingFunction
 (

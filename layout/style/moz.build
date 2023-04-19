@@ -373,11 +373,6 @@ nsStyleUtil
 .
 h
 "
-"
-nsTimingFunction
-.
-h
-"
 ]
 EXPORTS
 .

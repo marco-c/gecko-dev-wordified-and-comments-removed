@@ -448,13 +448,10 @@ result
 }
 Maybe
 <
-ComputedTimingFunction
+StyleComputedTimingFunction
 >
 easing
 =
-TimingParams
-:
-:
 ParseEasing
 (
 aEffectTiming
@@ -546,7 +543,13 @@ result
 .
 mFunction
 =
+std
+:
+:
+move
+(
 easing
+)
 ;
 result
 .
@@ -733,7 +736,7 @@ result
 }
 Maybe
 <
-ComputedTimingFunction
+StyleComputedTimingFunction
 >
 easing
 ;
@@ -750,9 +753,6 @@ WasPassed
 {
 easing
 =
-TimingParams
-:
-:
 ParseEasing
 (
 aEffectTiming
@@ -983,7 +983,7 @@ result
 }
 Maybe
 <
-ComputedTimingFunction
+StyleComputedTimingFunction
 >
 TimingParams
 :
@@ -999,7 +999,7 @@ ErrorResult
 aRv
 )
 {
-nsTimingFunction
+StyleComputedTimingFunction
 timingFunction
 ;
 if
@@ -1038,7 +1038,7 @@ if
 (
 timingFunction
 .
-IsLinear
+IsLinearKeyword
 (
 )
 )
@@ -1052,7 +1052,10 @@ Nothing
 return
 Some
 (
-ComputedTimingFunction
+std
+:
+:
+move
 (
 timingFunction
 )
