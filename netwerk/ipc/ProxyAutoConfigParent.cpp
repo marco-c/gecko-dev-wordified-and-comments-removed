@@ -16,13 +16,6 @@ Endpoint
 .
 h
 "
-#
-include
-"
-nsIConsoleService
-.
-h
-"
 namespace
 mozilla
 :

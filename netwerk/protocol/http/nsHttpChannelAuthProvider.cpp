@@ -19,15 +19,6 @@ include
 "
 mozilla
 /
-Preferences
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StoragePrincipalHelper
 .
 h

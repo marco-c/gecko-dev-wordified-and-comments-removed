@@ -25,15 +25,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsAuthSASL
 final
