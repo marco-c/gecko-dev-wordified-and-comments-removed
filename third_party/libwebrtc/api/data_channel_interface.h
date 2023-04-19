@@ -584,6 +584,12 @@ buffer
 =
 0
 ;
+static
+uint64_t
+MaxSendQueueSize
+(
+)
+;
 protected
 :
 ~
