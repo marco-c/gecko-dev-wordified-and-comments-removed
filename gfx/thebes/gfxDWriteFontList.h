@@ -206,7 +206,7 @@ aFontInfoData
 =
 nullptr
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1405,7 +1405,7 @@ nsresult
 InitFontListForPlatform
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1415,7 +1415,7 @@ void
 InitSharedFontListForPlatform
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1486,7 +1486,7 @@ aFamily
 bool
 aNeedFullnamePostscriptNames
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1655,7 +1655,7 @@ aDevToCssSize
 .
 0
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1718,7 +1718,7 @@ aLanguage
 =
 nullptr
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1744,7 +1744,7 @@ FontFamily
 &
 aMatchedFamily
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1760,7 +1760,7 @@ nsresult
 GetFontSubstitutes
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1769,7 +1769,7 @@ void
 GetDirectWriteSubstitutes
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1791,7 +1791,7 @@ IDWriteFontCollection
 *
 aCollection
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )
@@ -1827,7 +1827,7 @@ aForceClassicFams
 =
 nullptr
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )

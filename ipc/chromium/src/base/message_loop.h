@@ -984,7 +984,7 @@ thread_name_
 ;
 TaskQueue
 incoming_queue_
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 incoming_queue_lock_
 )

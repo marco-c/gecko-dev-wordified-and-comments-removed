@@ -200,7 +200,7 @@ Maybe
 WaitClosureOnly
 >
 mWaitClosureOnly
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -210,14 +210,14 @@ RefPtr
 AsyncWaitRunnable
 >
 mAsyncWaitCallback
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
 ;
 bool
 mClosed
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )

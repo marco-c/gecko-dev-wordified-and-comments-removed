@@ -471,7 +471,7 @@ aTransactionID
 int
 aNestedLevel
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 aChan
@@ -544,7 +544,7 @@ Message
 &
 aMessage
 )
-REQUIRES
+MOZ_REQUIRES
 (
 *
 aChan
@@ -1396,7 +1396,7 @@ static
 CountTable
 *
 sChannelCounts
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 sChannelCountMutex
 )

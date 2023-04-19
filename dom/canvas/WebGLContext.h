@@ -1082,7 +1082,7 @@ Reset
 mutable
 LruPosition
 mLruPosition
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 sLruMutex
 )
@@ -3409,7 +3409,7 @@ WebGLContext
 *
 >
 sLru
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 sLruMutex
 )

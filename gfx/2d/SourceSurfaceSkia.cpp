@@ -760,7 +760,7 @@ MappedSurface
 *
 aMappedSurface
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 mChangeMutex
 .
@@ -813,11 +813,11 @@ Unlock
 )
 ;
 }
-PUSH_IGNORE_THREAD_SAFETY
+MOZ_PUSH_IGNORE_THREAD_SAFETY
 return
 isMapped
 ;
-POP_THREAD_SAFETY
+MOZ_POP_THREAD_SAFETY
 }
 void
 SourceSurfaceSkia
@@ -826,7 +826,7 @@ SourceSurfaceSkia
 Unmap
 (
 )
-NO_THREAD_SAFETY_ANALYSIS
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 mChangeMutex
 .

@@ -672,7 +672,7 @@ TimeUnit
 aFuzz
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -693,7 +693,7 @@ TimeUnit
 &
 aFuzz
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -782,7 +782,7 @@ void
 ScheduleSegmentParserLoop
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -791,7 +791,7 @@ void
 SegmentParserLoop
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -800,7 +800,7 @@ void
 InitializationSegmentReceived
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -809,7 +809,7 @@ void
 ShutdownDemuxers
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -818,7 +818,7 @@ void
 CreateDemuxerforMIMEType
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -827,7 +827,7 @@ void
 ResetDemuxingState
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -836,7 +836,7 @@ void
 NeedMoreData
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -853,7 +853,7 @@ char
 *
 aName
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -865,7 +865,7 @@ CodedFrameProcessingPromise
 CodedFrameProcessing
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -874,7 +874,7 @@ void
 CompleteCodedFrameProcessing
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -883,7 +883,7 @@ void
 CompleteResetParserState
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -900,7 +900,7 @@ media
 TimeInterval
 aInterval
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -914,7 +914,7 @@ media
 TimeInterval
 aInterval
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -923,7 +923,7 @@ void
 RemoveAllCodedFrames
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -937,7 +937,7 @@ SourceBufferAttributes
 AppendState
 aAppendState
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -975,7 +975,7 @@ Maybe
 MediaSpan
 >
 mInputBuffer
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mTaskQueueCapability
 )
@@ -988,35 +988,35 @@ mBufferFull
 ;
 bool
 mFirstInitializationSegmentReceived
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mTaskQueueCapability
 )
 ;
 bool
 mChangeTypeReceived
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mTaskQueueCapability
 )
 ;
 bool
 mNewMediaSegmentStarted
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mTaskQueueCapability
 )
 ;
 bool
 mActiveTrack
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mTaskQueueCapability
 )
 ;
 MediaContainerType
 mType
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mTaskQueueCapability
 )
@@ -1027,7 +1027,7 @@ RecreateParser
 bool
 aReuseInitData
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -1046,7 +1046,7 @@ MediaSpan
 &
 aData
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -1056,7 +1056,7 @@ RefPtr
 MediaByteBuffer
 >
 mInitData
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mTaskQueueCapability
 )
@@ -1070,7 +1070,7 @@ MediaInfo
 aNewMediaInfo
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -1080,7 +1080,7 @@ Maybe
 MediaSpan
 >
 mPendingInputBuffer
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mTaskQueueCapability
 )
@@ -1090,7 +1090,7 @@ RefPtr
 SourceBufferResource
 >
 mCurrentInputBuffer
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mTaskQueueCapability
 )
@@ -1100,14 +1100,14 @@ RefPtr
 MediaDataDemuxer
 >
 mInputDemuxer
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mTaskQueueCapability
 )
 ;
 uint64_t
 mProcessedInput
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mTaskQueueCapability
 )
@@ -1120,7 +1120,7 @@ media
 TimeUnit
 >
 mLastParsedEndTime
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mTaskQueueCapability
 )
@@ -1151,7 +1151,7 @@ MediaResult
 &
 aResult
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -1175,7 +1175,7 @@ MediaResult
 &
 aError
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -1184,7 +1184,7 @@ void
 DoDemuxVideo
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -1240,7 +1240,7 @@ void
 DoDemuxAudio
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -1320,7 +1320,7 @@ aPlaybackTime
 int64_t
 aSizeToEvict
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -1336,7 +1336,7 @@ TrackBuffersManagerDebugInfo
 aInfo
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -1703,7 +1703,7 @@ TimeUnit
 &
 aPresentationTime
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -1718,7 +1718,7 @@ TrackData
 &
 aTrackData
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -1735,7 +1735,7 @@ TrackBuffer
 aSamples
 )
 const
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -1754,7 +1754,7 @@ TimeUnit
 &
 aSampleTime
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -1776,7 +1776,7 @@ TrackData
 &
 aTrackData
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -1795,7 +1795,7 @@ TimeUnit
 &
 aHighestTime
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mTaskQueueCapability
 )
@@ -2162,7 +2162,7 @@ RefPtr
 SourceBufferTask
 >
 mCurrentTask
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mTaskQueueCapability
 )
@@ -2172,7 +2172,7 @@ UniquePtr
 SourceBufferAttributes
 >
 mSourceBufferAttributes
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mTaskQueueCapability
 )
@@ -2182,7 +2182,7 @@ media
 :
 TimeInterval
 mAppendWindow
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mTaskQueueCapability
 )

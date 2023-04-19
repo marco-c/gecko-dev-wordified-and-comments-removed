@@ -427,7 +427,7 @@ mFiles
 [
 ZIP_TABSIZE
 ]
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -445,14 +445,14 @@ void
 )
 >
 mArena
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
 ;
 bool
 mBuiltSynthetics
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mLock
 )
@@ -464,7 +464,7 @@ nsZipItem
 CreateZipItem
 (
 )
-REQUIRES
+MOZ_REQUIRES
 (
 mLock
 )

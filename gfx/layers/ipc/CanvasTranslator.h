@@ -685,7 +685,7 @@ DescriptorMap
 ;
 DescriptorMap
 mSurfaceDescriptors
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mSurfaceDescriptorsMonitor
 )

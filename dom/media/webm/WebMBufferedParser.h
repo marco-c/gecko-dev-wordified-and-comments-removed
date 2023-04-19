@@ -633,14 +633,14 @@ nsTArray
 WebMTimeDataOffset
 >
 mTimeMapping
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
 ;
 int64_t
 mLastBlockOffset
-GUARDED_BY
+MOZ_GUARDED_BY
 (
 mMutex
 )
