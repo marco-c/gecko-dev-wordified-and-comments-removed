@@ -506,6 +506,17 @@ config
 .
 show_spocs
 }
+mayHaveRecentSaves
+=
+{
+this
+.
+props
+.
+DiscoveryStream
+.
+recentSavesEnabled
+}
 dispatch
 =
 {
