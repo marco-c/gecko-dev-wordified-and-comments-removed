@@ -45,7 +45,6 @@ add_task
 (
 async
 function
-init
 (
 )
 {

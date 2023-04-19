@@ -22,11 +22,10 @@ TEST_ENGINE_NUM_EXPECTED_RESULTS
 =
 2
 ;
-add_task
+add_setup
 (
 async
 function
-init
 (
 )
 {

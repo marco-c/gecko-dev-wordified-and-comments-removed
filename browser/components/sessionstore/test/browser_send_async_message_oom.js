@@ -5,11 +5,10 @@ HISTOGRAM_NAME
 FX_SESSION_RESTORE_SEND_UPDATE_CAUSED_OOM
 "
 ;
-add_task
+add_setup
 (
 async
 function
-init
 (
 )
 {
