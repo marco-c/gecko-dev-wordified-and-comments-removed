@@ -578,6 +578,10 @@ const
 size_t
 num_capture_channels_
 ;
+const
+bool
+use_coarse_filter_reset_hangover_
+;
 std
 :
 :
@@ -655,6 +659,15 @@ vector
 size_t
 >
 poor_coarse_filter_counters_
+;
+std
+:
+:
+vector
+<
+int
+>
+coarse_filter_reset_hangover_
 ;
 std
 :

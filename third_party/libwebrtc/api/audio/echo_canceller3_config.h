@@ -340,6 +340,11 @@ initial_state_seconds
 .
 5f
 ;
+int
+coarse_reset_hangover_blocks
+=
+25
+;
 bool
 conservative_initial_phase
 =

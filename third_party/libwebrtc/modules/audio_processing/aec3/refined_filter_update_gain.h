@@ -166,6 +166,8 @@ size_t
 size_partitions
 bool
 saturated_capture_signal
+bool
+disallow_leakage_diverged
 FftData
 *
 gain_fft
