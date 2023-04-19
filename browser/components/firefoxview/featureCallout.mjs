@@ -2539,11 +2539,6 @@ _createContainer
 (
 )
 ;
-_observeRender
-(
-container
-)
-;
 /
 /
 This
@@ -2555,6 +2550,11 @@ Feature
 Callout
 await
 _addScriptsAndRender
+(
+container
+)
+;
+_observeRender
 (
 container
 )
