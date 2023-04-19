@@ -181,6 +181,15 @@ egl_initialized_
 private
 :
 bool
+GetClientExtensions
+(
+EGLDisplay
+dpy
+EGLint
+name
+)
+;
+bool
 egl_initialized_
 =
 false
