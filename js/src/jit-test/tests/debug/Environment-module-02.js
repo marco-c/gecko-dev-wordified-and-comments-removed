@@ -46,10 +46,9 @@ foo
 ;
 )
 ;
-m
-.
-declarationInstantiation
+moduleLink
 (
+m
 )
 ;
 let
@@ -72,10 +71,9 @@ callee
 ;
 }
 ;
-m
-.
-evaluation
+moduleEvaluate
 (
+m
 )
 ;
 assertEq

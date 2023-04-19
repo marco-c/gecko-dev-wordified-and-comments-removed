@@ -59,9 +59,8 @@ __proto__
 1337
 }
 ;
-b
-.
-declarationInstantiation
+moduleLink
 (
+b
 )
 ;

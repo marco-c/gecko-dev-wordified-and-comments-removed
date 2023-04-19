@@ -56,6 +56,8 @@ s
 )
 )
 ;
+moduleLink
+(
 parseModule
 (
 "
@@ -69,8 +71,5 @@ a
 '
 "
 )
-.
-declarationInstantiation
-(
 )
 ;

@@ -11,10 +11,9 @@ parseModule
 (
 )
 ;
-m
-.
-declarationInstantiation
+moduleLink
 (
+m
 )
 ;
 }

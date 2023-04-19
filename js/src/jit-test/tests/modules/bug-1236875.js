@@ -13,9 +13,8 @@ x
 }
 )
 ;
-m
-.
-declarationInstantiation
+moduleLink
 (
+m
 )
 ;

@@ -123,10 +123,9 @@ assertThrowsInstanceOf
 )
 =
 >
-a
-.
-declarationInstantiation
+moduleLink
 (
+a
 )
 SyntaxError
 )
