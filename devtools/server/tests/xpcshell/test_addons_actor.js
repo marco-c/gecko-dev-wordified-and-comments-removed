@@ -133,6 +133,7 @@ addons
 installTemporaryAddon
 (
 addonPath
+false
 )
 ;
 equal
@@ -281,6 +282,7 @@ existant
 -
 path
 "
+false
 )
 /
 Could

@@ -274,6 +274,9 @@ type
 installTemporaryAddon
 "
 addonPath
+openDevTools
+:
+false
 }
 )
 ;
