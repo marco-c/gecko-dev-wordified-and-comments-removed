@@ -4590,7 +4590,7 @@ answer
 AutoCheckRecursionLimit
 recursion
 (
-cx
+ec
 )
 ;
 if
@@ -34541,7 +34541,7 @@ oe
 AutoCheckRecursionLimit
 recursion
 (
-cx
+ec
 )
 ;
 if
@@ -37783,7 +37783,7 @@ valueUsage
 AutoCheckRecursionLimit
 recursion
 (
-cx
+ec
 )
 ;
 if
@@ -50149,7 +50149,7 @@ emitLineNote
 AutoCheckRecursionLimit
 recursion
 (
-cx
+ec
 )
 ;
 if

@@ -52,10 +52,6 @@ ParseNodeVisitor
 {
 public
 :
-JSContext
-*
-cx_
-;
 ErrorContext
 *
 ec_
@@ -65,9 +61,6 @@ stackLimit_
 ;
 ParseNodeVisitor
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -75,10 +68,6 @@ uintptr_t
 stackLimit
 )
 :
-cx_
-(
-cx
-)
 ec_
 (
 ec
@@ -105,7 +94,7 @@ pn
 AutoCheckRecursionLimit
 recursion
 (
-cx_
+ec_
 )
 ;
 if
@@ -265,10 +254,6 @@ RewritingParseNodeVisitor
 {
 public
 :
-JSContext
-*
-cx_
-;
 ErrorContext
 *
 ec_
@@ -278,9 +263,6 @@ stackLimit_
 ;
 RewritingParseNodeVisitor
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -288,10 +270,6 @@ uintptr_t
 stackLimit
 )
 :
-cx_
-(
-cx
-)
 ec_
 (
 ec
@@ -319,7 +297,7 @@ pn
 AutoCheckRecursionLimit
 recursion
 (
-cx_
+ec_
 )
 ;
 if

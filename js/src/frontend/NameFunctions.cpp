@@ -113,6 +113,10 @@ MaxParents
 =
 100
 ;
+JSContext
+*
+cx_
+;
 ParserAtomsTable
 &
 parserAtoms_
@@ -2219,9 +2223,12 @@ parserAtoms
 :
 ParseNodeVisitor
 (
-cx
 ec
 stackLimit
+)
+cx_
+(
+cx
 )
 parserAtoms_
 (

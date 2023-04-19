@@ -55,9 +55,6 @@ public
 :
 ParseNodeVerifier
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -71,7 +68,6 @@ alloc
 :
 Base
 (
-cx
 ec
 stackLimit
 )
@@ -192,9 +188,6 @@ frontend
 :
 CheckParseTree
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -212,7 +205,6 @@ pn
 ParseNodeVerifier
 verifier
 (
-cx
 ec
 stackLimit
 alloc
