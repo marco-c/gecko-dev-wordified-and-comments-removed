@@ -117,13 +117,6 @@ IntSize
 &
 aSize
 const
-gfx
-:
-:
-ColorDepth
-&
-aColorDepth
-const
 layers
 :
 :
@@ -239,12 +232,6 @@ gfx
 :
 IntSize
 mSize
-;
-gfx
-:
-:
-ColorDepth
-mColorDepth
 ;
 Maybe
 <

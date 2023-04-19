@@ -1591,14 +1591,6 @@ ChromeOnly
 readonly
 attribute
 double
-totalVideoHDRPlayTime
-;
-[
-ChromeOnly
-]
-readonly
-attribute
-double
 visiblePlayTime
 ;
 [
