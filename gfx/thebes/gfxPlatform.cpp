@@ -13836,7 +13836,7 @@ status
 nsIGfxInfo
 :
 :
-FEATURE_ALLOW_ALWAYS
+FEATURE_STATUS_OK
 )
 {
 FeatureState
@@ -14038,7 +14038,7 @@ status
 nsIGfxInfo
 :
 :
-FEATURE_ALLOW_ALWAYS
+FEATURE_STATUS_OK
 )
 {
 FeatureState

@@ -1958,7 +1958,7 @@ case
 DeviceFamily
 :
 :
-RadeonBlockNoVideoCopy
+RadeonBlockZeroVideoCopy
 :
 APPEND_DEVICE
 (
@@ -4615,7 +4615,7 @@ case
 DeviceFamily
 :
 :
-RadeonBlockNoVideoCopy
+RadeonBlockZeroVideoCopy
 :
 case
 DeviceFamily
