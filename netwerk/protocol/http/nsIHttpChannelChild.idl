@@ -75,7 +75,6 @@ interface
 nsIURI
 ;
 [
-builtinclass
 uuid
 (
 d02b96ed

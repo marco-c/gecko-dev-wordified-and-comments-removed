@@ -282,7 +282,6 @@ JAREntry
 }
 ;
 [
-builtinclass
 uuid
 (
 d66df117
@@ -306,7 +305,7 @@ nsISupports
 *
 *
 Will
-initalize
+initialize
 a
 URI
 using

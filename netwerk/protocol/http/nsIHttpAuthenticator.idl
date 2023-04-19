@@ -15,7 +15,6 @@ interface
 nsICancelable
 ;
 [
-builtinclass
 uuid
 (
 fef7db8a

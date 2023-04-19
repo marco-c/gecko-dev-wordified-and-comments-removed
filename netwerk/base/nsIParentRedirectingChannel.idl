@@ -73,7 +73,6 @@ interface
 nsIAsyncVerifyRedirectCallback
 ;
 [
-builtinclass
 uuid
 (
 01987690

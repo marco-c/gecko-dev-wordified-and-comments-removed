@@ -245,7 +245,6 @@ XPC_SCRIPTABLE_DONT_REFLECT_INTERFACE_NAMES
 %
 }
 [
-builtinclass
 uuid
 (
 19b70b26

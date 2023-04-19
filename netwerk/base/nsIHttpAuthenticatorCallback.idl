@@ -64,7 +64,6 @@ nsISupports
 idl
 "
 [
-builtinclass
 uuid
 (
 d989cb03

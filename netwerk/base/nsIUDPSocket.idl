@@ -2184,8 +2184,6 @@ getDataAsTArray
 }
 ;
 [
-noscript
-builtinclass
 uuid
 (
 99f3d085
