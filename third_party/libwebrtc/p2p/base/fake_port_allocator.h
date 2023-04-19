@@ -129,6 +129,13 @@ std
 string
 &
 password
+const
+std
+:
+:
+string
+&
+origin
 bool
 emit_localhost_for_anyaddress
 )
@@ -147,6 +154,7 @@ min_port
 max_port
 username
 password
+origin
 emit_localhost_for_anyaddress
 )
 ;
@@ -213,6 +221,13 @@ std
 string
 &
 password
+const
+std
+:
+:
+string
+&
+origin
 bool
 emit_localhost_for_anyaddress
 )
@@ -226,6 +241,7 @@ min_port
 max_port
 username
 password
+origin
 emit_localhost_for_anyaddress
 )
 {
@@ -463,6 +479,12 @@ username
 (
 )
 password
+(
+)
+std
+:
+:
+string
 (
 )
 false

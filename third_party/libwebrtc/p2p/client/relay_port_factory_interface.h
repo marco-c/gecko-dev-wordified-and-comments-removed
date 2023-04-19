@@ -119,6 +119,12 @@ std
 string
 password
 ;
+std
+:
+:
+string
+origin
+;
 webrtc
 :
 :
