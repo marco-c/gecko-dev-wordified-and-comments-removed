@@ -36186,6 +36186,9 @@ Auto
 :
 if
 (
+aPresContext
+&
+&
 aStyleFont
 -
 >
