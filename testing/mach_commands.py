@@ -6244,7 +6244,7 @@ bugs
         
 buglist
 .
-append
+extend
 (
 data
 [
@@ -7044,12 +7044,6 @@ print
 l
 )
         
-print
-(
-"
-"
-)
-        
 for
 job
 in
@@ -7102,6 +7096,12 @@ s
 job
 count
 )
+)
+        
+print
+(
+"
+"
 )
 Command
 (
