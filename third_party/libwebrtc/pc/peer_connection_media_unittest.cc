@@ -1798,7 +1798,7 @@ pc
 )
 -
 >
-RemoveTrack
+RemoveTrackOrError
 (
 caller_audio_track
 )
@@ -1811,7 +1811,7 @@ pc
 )
 -
 >
-RemoveTrack
+RemoveTrackOrError
 (
 caller_video_track
 )
@@ -2595,7 +2595,7 @@ pc
 )
 -
 >
-RemoveTrack
+RemoveTrackOrError
 (
 callee_audio_track
 )
@@ -2608,7 +2608,7 @@ pc
 )
 -
 >
-RemoveTrack
+RemoveTrackOrError
 (
 callee_video_track
 )
@@ -6941,7 +6941,7 @@ pc
 )
 -
 >
-RemoveTrack
+RemoveTrackOrError
 (
 callee_video_track
 )
@@ -7400,7 +7400,7 @@ pc
 )
 -
 >
-RemoveTrack
+RemoveTrackOrError
 (
 callee_audio_track
 )
