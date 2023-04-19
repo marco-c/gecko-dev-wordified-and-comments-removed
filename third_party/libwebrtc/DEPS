@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-97fa68dda69c5e10875c5d4a6a3188f039fab7b5
+6656b1d6b01ed10c7df7af414d58cad9ac9700f0
 '
 #
 Keep
@@ -165,7 +165,7 @@ chromium
 src
 /
 base
-241fb0e0fc7b3fa8da0ec39ec29252c72c9dc8ec
+1ba2b38b512a20eb8bc0d1b701d0863d242ed4e3
 '
 '
 src
@@ -189,7 +189,7 @@ chromium
 src
 /
 build
-47daaa3cef1272beaf659b716322e136a84fa16a
+70c4909d8e5fae0a9bbcbe9cddbcf5bd1030ec9f
 '
 '
 src
@@ -309,7 +309,7 @@ chromium
 src
 /
 ios
-3a66471639a75c5734e0edc15c23c03fc1725dc3
+4682ef8a35d5ce40c1be9b2f6f2c4393b6d1fce0
 '
 '
 condition
@@ -341,7 +341,7 @@ chromium
 src
 /
 testing
-7a93fae3beae967e6cce473f3825b8e691426594
+5bc0a386be26ece20e4c2ea03e9996fdd0cd7c3d
 '
 '
 src
@@ -365,7 +365,7 @@ chromium
 src
 /
 third_party
-873b8799ff5e43bab75c67ada5d6c64257299fe1
+36c16990fae5bf0f731d1233b2cbc1202d70f229
 '
 '
 src
@@ -402,7 +402,7 @@ version
 '
 git_revision
 :
-fc295f3ac7ca4fe7acc6cb5fb052d22909ef3a8f
+2e56c317bd8e2bf152cfa2ead6ac5fa476fe28b4
 '
 }
 ]
@@ -460,7 +460,7 @@ version
 '
 git_revision
 :
-fc295f3ac7ca4fe7acc6cb5fb052d22909ef3a8f
+2e56c317bd8e2bf152cfa2ead6ac5fa476fe28b4
 '
 }
 ]
@@ -514,7 +514,7 @@ version
 '
 git_revision
 :
-fc295f3ac7ca4fe7acc6cb5fb052d22909ef3a8f
+2e56c317bd8e2bf152cfa2ead6ac5fa476fe28b4
 '
 }
 ]
@@ -660,7 +660,7 @@ project
 libcxxabi
 .
 git
-58799ca24f08088ab1db9cdf7d67ee8b1f4bc605
+603d9d1067d178ee2dbd1ba8028413baa876a771
 '
 '
 src
@@ -1054,7 +1054,7 @@ com
 catapult
 .
 git
-45fc896c3e1c8c9f135ba10ef019d778e6bc2ab7
+1ba82f650c64340d5f581522efa511ceea415c0b
 '
 '
 src
@@ -1212,7 +1212,7 @@ third_party
 ffmpeg
 .
 git
-d151785b5b0ef367e225f8a5702c36d2dccc8bb3
+53de560ab9b797efa43c7e2643cde1be5dcc2450
 '
 '
 src
@@ -1340,7 +1340,7 @@ third_party
 freetype2
 .
 git
-012b00f3e67d8d17d411ec1c777b8672e4dffad5
+0da2a1155ed576646d44ac5f7602e625800abe42
 '
 '
 src
@@ -2026,7 +2026,7 @@ external
 perfetto
 .
 git
-44638d7a4268725ad5c5153f537caae7448c6fad
+86b18b837a45380f1b9070cb765ec5864994942c
 '
 '
 src
@@ -2550,7 +2550,7 @@ chromium
 src
 /
 tools
-76ee54275a54c8fcb45aeda896b1d5df32ee44b8
+cc8d7fe66c84119a11397739c59e37e28aa8c699
 '
 '
 src
@@ -3032,7 +3032,9 @@ version
 '
 :
 '
-ZwN1FJVBOl4Uffy4fDLOpuNkz2AqPE9BKdRfZAw6IW0C
+ii2JADPHSlhVAF0MiMM_l3jpeHy8oz
+-
+P17QozjnyGr0C
 '
 }
 ]
@@ -3540,9 +3542,7 @@ version
 '
 :
 '
-mlH0GH_teB71nsyjwL_if7NtARJdHnf6
--
-4VXRFyGujgC
+RGxvdzLaS73gQOXCTgq7CWKsqCgrXDPPL0Pcxz6oGbQC
 '
 }
 ]
