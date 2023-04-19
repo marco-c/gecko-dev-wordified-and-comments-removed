@@ -29,6 +29,9 @@ items
 type
 :
 clip
+id
+:
+2
 bounds
 :
 [
@@ -37,8 +40,6 @@ bounds
 100
 100
 ]
-items
-:
 -
 image
 :
@@ -48,6 +49,13 @@ checkerboard
 16
 16
 )
+clip
+-
+chain
+:
+[
+2
+]
 bounds
 :
 [

@@ -20,6 +20,9 @@ items
 type
 :
 clip
+id
+:
+2
 bounds
 :
 [
@@ -75,8 +78,6 @@ tile
 size
 :
 37
-items
-:
 -
 type
 :
@@ -92,3 +93,10 @@ bounds
 color
 :
 blue
+clip
+-
+chain
+:
+[
+2
+]

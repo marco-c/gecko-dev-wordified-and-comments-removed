@@ -38,8 +38,6 @@ clip
 id
 :
 2
-items
-:
 -
 bounds
 :
@@ -55,6 +53,13 @@ rect
 color
 :
 red
+clip
+-
+chain
+:
+[
+2
+]
 -
 bounds
 :
@@ -108,6 +113,13 @@ rect
 color
 :
 green
+clip
+-
+chain
+:
+[
+2
+]
 id
 :
 [

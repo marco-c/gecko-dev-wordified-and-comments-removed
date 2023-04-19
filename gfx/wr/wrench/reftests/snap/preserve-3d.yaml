@@ -132,6 +132,9 @@ bounds
 type
 :
 clip
+id
+:
+2
 complex
 :
 -
@@ -149,8 +152,6 @@ radius
 12
 12
 ]
-items
-:
 -
 bounds
 :
@@ -166,6 +167,13 @@ rect
 color
 :
 black
+clip
+-
+chain
+:
+[
+2
+]
 -
 bounds
 :
@@ -178,6 +186,9 @@ bounds
 type
 :
 clip
+id
+:
+3
 complex
 :
 -
@@ -195,8 +206,6 @@ radius
 12
 12
 ]
-items
-:
 -
 bounds
 :
@@ -212,6 +221,13 @@ rect
 color
 :
 black
+clip
+-
+chain
+:
+[
+3
+]
 -
 bounds
 :
@@ -224,6 +240,9 @@ bounds
 type
 :
 clip
+id
+:
+4
 complex
 :
 -
@@ -241,8 +260,6 @@ radius
 12
 12
 ]
-items
-:
 -
 bounds
 :
@@ -258,3 +275,10 @@ rect
 color
 :
 black
+clip
+-
+chain
+:
+[
+4
+]

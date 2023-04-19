@@ -124,6 +124,9 @@ items
 type
 :
 clip
+id
+:
+2
 bounds
 :
 [
@@ -132,8 +135,6 @@ bounds
 0
 0
 ]
-items
-:
 -
 bounds
 :
@@ -150,3 +151,10 @@ rect
 color
 :
 green
+clip
+-
+chain
+:
+[
+2
+]

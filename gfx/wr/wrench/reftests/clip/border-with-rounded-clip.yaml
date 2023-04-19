@@ -62,7 +62,7 @@ clip
 chain
 id
 :
-3
+12
 clips
 :
 [
@@ -77,11 +77,6 @@ bounds
 100
 200
 ]
-clip
--
-chain
-:
-3
 type
 :
 border
@@ -104,3 +99,8 @@ green
 style
 :
 solid
+clip
+-
+chain
+:
+12

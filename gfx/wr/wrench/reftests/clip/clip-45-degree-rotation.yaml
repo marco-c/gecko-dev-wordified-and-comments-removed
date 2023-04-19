@@ -124,7 +124,7 @@ clip
 chain
 id
 :
-6
+10
 clips
 :
 [
@@ -151,11 +151,6 @@ rect
 0
 0
 ]
-clip
--
-chain
-:
-6
 type
 :
 "
@@ -175,6 +170,11 @@ translate
 300
 0
 )
+clip
+-
+chain
+:
+10
 items
 :
 -

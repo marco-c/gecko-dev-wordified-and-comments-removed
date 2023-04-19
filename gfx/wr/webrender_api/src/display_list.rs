@@ -6262,13 +6262,6 @@ zero
 }
 }
 }
-#
-[
-derive
-(
-Clone
-)
-]
 pub
 struct
 DisplayListBuilder

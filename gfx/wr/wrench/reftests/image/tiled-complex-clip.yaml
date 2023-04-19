@@ -25,6 +25,9 @@ items
 type
 :
 clip
+id
+:
+2
 bounds
 :
 [
@@ -47,8 +50,6 @@ rect
 radius
 :
 32
-items
-:
 -
 image
 :
@@ -58,6 +59,13 @@ checkerboard
 16
 16
 )
+clip
+-
+chain
+:
+[
+2
+]
 bounds
 :
 [

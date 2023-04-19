@@ -53,6 +53,9 @@ context
 items
 :
 -
+id
+:
+2
 bounds
 :
 [
@@ -412,3 +415,10 @@ rect
 color
 :
 green
+clip
+-
+chain
+:
+[
+2
+]

@@ -9,6 +9,9 @@ items
 type
 :
 clip
+id
+:
+2
 bounds
 :
 [
@@ -35,8 +38,6 @@ rect
 radius
 :
 16
-items
-:
 -
 type
 :
@@ -54,6 +55,13 @@ bounds
 color
 :
 red
+clip
+-
+chain
+:
+[
+2
+]
 -
 type
 :

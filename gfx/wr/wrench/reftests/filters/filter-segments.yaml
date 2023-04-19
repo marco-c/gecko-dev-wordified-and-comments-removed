@@ -48,6 +48,9 @@ items
 type
 :
 clip
+id
+:
+2
 bounds
 :
 [
@@ -70,8 +73,6 @@ rect
 radius
 :
 16
-items
-:
 -
 type
 :
@@ -100,6 +101,13 @@ bounds
 10
 512
 512
+]
+clip
+-
+chain
+:
+[
+2
 ]
 -
 type

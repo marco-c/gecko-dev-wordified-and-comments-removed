@@ -48,6 +48,9 @@ items
 type
 :
 clip
+id
+:
+2
 bounds
 :
 [
@@ -78,8 +81,6 @@ rect
 repeat
 :
 false
-items
-:
 -
 type
 :
@@ -95,3 +96,10 @@ bounds
 color
 :
 blue
+clip
+-
+chain
+:
+[
+2
+]
