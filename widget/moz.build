@@ -1481,11 +1481,6 @@ nsGUIEventIPC
 .
 h
 "
-"
-nsTransferableIPC
-.
-h
-"
 ]
 if
 CONFIG
