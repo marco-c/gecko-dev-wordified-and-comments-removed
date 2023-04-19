@@ -222,7 +222,7 @@ agc2
 /
 rnn_vad
 /
-features_extraction
+spectral_features
 .
 cc
 "
@@ -240,7 +240,7 @@ agc2
 /
 rnn_vad
 /
-rnn
+spectral_features_internal
 .
 cc
 "
@@ -1416,6 +1416,6 @@ True
 Library
 (
 "
-rnn_vad_gn
+rnn_vad_spectral_features_gn
 "
 )
