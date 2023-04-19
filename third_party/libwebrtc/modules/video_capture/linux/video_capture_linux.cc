@@ -1527,7 +1527,17 @@ CaptureThread
 rtc
 :
 :
+ThreadAttributes
+(
+)
+.
+SetPriority
+(
+rtc
+:
+:
 kHighPriority
+)
 )
 )
 ;

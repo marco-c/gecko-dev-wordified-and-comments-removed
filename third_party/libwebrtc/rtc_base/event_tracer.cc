@@ -341,7 +341,14 @@ this
 "
 EventTracingThread
 "
+ThreadAttributes
+(
+)
+.
+SetPriority
+(
 kLowPriority
+)
 )
 {
 }

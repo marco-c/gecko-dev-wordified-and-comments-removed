@@ -527,7 +527,17 @@ TaskQueueStdlib
 ThreadMain
 this
 queue_name
+rtc
+:
+:
+ThreadAttributes
+(
+)
+.
+SetPriority
+(
 priority
+)
 )
 {
 thread_

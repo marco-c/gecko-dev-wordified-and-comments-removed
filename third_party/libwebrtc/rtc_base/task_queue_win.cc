@@ -827,7 +827,17 @@ PlatformThread
 func
 obj
 thread_name
+rtc
+:
+:
+ThreadAttributes
+(
+)
+.
+SetPriority
+(
 priority
+)
 )
 {
 }
