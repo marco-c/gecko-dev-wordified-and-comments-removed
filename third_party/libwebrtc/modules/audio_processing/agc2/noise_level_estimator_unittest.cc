@@ -123,8 +123,10 @@ data_dumper
 0
 )
 ;
-NoiseLevelEstimator
+auto
 estimator
+=
+CreateNoiseLevelEstimator
 (
 &
 data_dumper
@@ -213,7 +215,8 @@ sample_generator
 ;
 }
 estimator
-.
+-
+>
 Analyze
 (
 frame_view
@@ -222,7 +225,8 @@ frame_view
 }
 return
 estimator
-.
+-
+>
 Analyze
 (
 signal

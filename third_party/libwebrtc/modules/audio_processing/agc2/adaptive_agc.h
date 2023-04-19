@@ -6,6 +6,11 @@ define
 MODULES_AUDIO_PROCESSING_AGC2_ADAPTIVE_AGC_H_
 #
 include
+<
+memory
+>
+#
+include
 "
 modules
 /
@@ -156,7 +161,13 @@ ApmDataDumper
 const
 apm_data_dumper_
 ;
+std
+:
+:
+unique_ptr
+<
 NoiseLevelEstimator
+>
 noise_level_estimator_
 ;
 }

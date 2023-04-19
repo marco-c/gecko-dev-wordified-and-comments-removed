@@ -291,7 +291,10 @@ apm_data_dumper
 )
 noise_level_estimator_
 (
+CreateNoiseLevelEstimator
+(
 apm_data_dumper
+)
 )
 {
 RTC_DCHECK
@@ -388,7 +391,10 @@ apm_data_dumper
 )
 noise_level_estimator_
 (
+CreateNoiseLevelEstimator
+(
 apm_data_dumper
+)
 )
 {
 RTC_DCHECK
@@ -490,7 +496,8 @@ info
 input_noise_level_dbfs
 =
 noise_level_estimator_
-.
+-
+>
 Analyze
 (
 frame
