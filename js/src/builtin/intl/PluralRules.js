@@ -292,9 +292,11 @@ if
 (
 internalProps
 )
+{
 return
 internalProps
 ;
+}
 internalProps
 =
 resolvePluralRulesInternals
@@ -388,6 +390,7 @@ options
 =
 undefined
 )
+{
 options
 =
 std_Object_create
@@ -395,7 +398,9 @@ std_Object_create
 null
 )
 ;
+}
 else
+{
 options
 =
 ToObject
@@ -403,6 +408,7 @@ ToObject
 options
 )
 ;
+}
 let
 opt
 =
@@ -982,6 +988,7 @@ i
 +
 +
 )
+{
 DefineDataProperty
 (
 pluralCategories
@@ -992,6 +999,7 @@ i
 ]
 )
 ;
+}
 DefineDataProperty
 (
 result
