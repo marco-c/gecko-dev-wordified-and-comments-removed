@@ -11,6 +11,8 @@ animated
 color
 :
 :
+RGBA
+as
 AnimatedRGBA
 ;
 use
