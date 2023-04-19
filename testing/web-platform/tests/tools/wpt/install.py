@@ -358,6 +358,9 @@ chromium
 '
 servo
 '
+'
+safari
+'
 ]
                         
 help
