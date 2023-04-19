@@ -2765,6 +2765,10 @@ visibility
 =
 [
 "
+:
+threading
+"
+"
 .
 .
 /
@@ -4134,6 +4138,10 @@ deps
 +
 =
 [
+"
+:
+rtc_task_queue_gcd
+"
 "
 system
 :
