@@ -4940,6 +4940,8 @@ candidate
 candidate_stats
 .
 candidate
+(
+)
 ;
 StatsReport
 :
@@ -5132,6 +5134,8 @@ local
 candidate_stats
 .
 stun_stats
+(
+)
 .
 has_value
 (
@@ -5146,6 +5150,8 @@ stun_stats
 candidate_stats
 .
 stun_stats
+(
+)
 .
 value
 (
