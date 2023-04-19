@@ -2471,6 +2471,46 @@ max
 }
             
 }
+            
+"
+geckoPerfStats
+"
+:
+[
+              
+{
+                
+"
+Compositing
+"
+:
+71
+                
+"
+MajorGC
+"
+:
+144
+              
+}
+              
+{
+                
+"
+Compositing
+"
+:
+13
+                
+"
+MajorGC
+"
+:
+126
+              
+}
+            
+]
           
 }
         
