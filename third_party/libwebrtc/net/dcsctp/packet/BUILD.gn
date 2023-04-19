@@ -438,6 +438,13 @@ rtc_base
 :
 rtc_base_approved
 "
+"
+/
+/
+third_party
+/
+crc32c
+"
 ]
 sources
 =
