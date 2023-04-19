@@ -154,6 +154,16 @@ mPtr
 )
 ;
 }
+size_t
+size
+(
+)
+override
+{
+return
+mLimit
+;
+}
 auto
 forget
 (
