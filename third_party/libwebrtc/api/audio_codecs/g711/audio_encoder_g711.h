@@ -131,6 +131,15 @@ num_channels
 >
 =
 1
+&
+&
+num_channels
+<
+=
+AudioEncoder
+:
+:
+kMaxNumberOfChannels
 ;
 }
 Type

@@ -405,6 +405,13 @@ const
 =
 0
 ;
+static
+constexpr
+int
+kMaxNumberOfChannels
+=
+24
+;
 protected
 :
 static

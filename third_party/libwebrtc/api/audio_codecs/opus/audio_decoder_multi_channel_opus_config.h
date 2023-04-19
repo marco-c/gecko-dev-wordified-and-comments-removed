@@ -44,7 +44,15 @@ if
 (
 num_channels
 <
-0
+1
+|
+|
+num_channels
+>
+AudioDecoder
+:
+:
+kMaxNumberOfChannels
 |
 |
 num_streams

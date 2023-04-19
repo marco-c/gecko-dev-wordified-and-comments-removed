@@ -118,6 +118,15 @@ num_channels
 1
 &
 &
+num_channels
+<
+=
+AudioEncoder
+:
+:
+kMaxNumberOfChannels
+&
+&
 frame_size_ms
 >
 0
