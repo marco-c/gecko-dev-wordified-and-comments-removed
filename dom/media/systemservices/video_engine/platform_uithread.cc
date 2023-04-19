@@ -385,7 +385,7 @@ RTC_DCHECK
 (
 thread_checker_
 .
-CalledOnValidThread
+IsCurrent
 (
 )
 )
