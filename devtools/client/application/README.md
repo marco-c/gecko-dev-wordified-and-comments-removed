@@ -313,13 +313,11 @@ mozilla
 .
 org
 /
-intl
-/
 l10n
 /
-l10n
+fluent
 /
-fluent_tutorial
+tutorial
 .
 html
 )

@@ -1791,10 +1791,8 @@ Developers
 :
 .
 /
-l10n
+fluent
 /
-l10n
-/
-fluent_tutorial
+tutorial
 .
 html
