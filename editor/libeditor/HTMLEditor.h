@@ -2921,6 +2921,10 @@ const
 EditorDOMPoint
 &
 aStartOfDeepestRightNode
+const
+Element
+&
+aEditingHost
 )
 ;
 enum
