@@ -2447,7 +2447,9 @@ iconUri
 spec
 canStoreIcon
 :
-true
+iconInfo
+.
+beforePageShow
 }
 )
 ;
