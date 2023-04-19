@@ -180,7 +180,6 @@ cricket
 {
 class
 ChannelManager
-final
 :
 public
 ChannelFactoryInterface
@@ -496,7 +495,7 @@ StopAecDump
 (
 )
 ;
-private
+protected
 :
 ChannelManager
 (
@@ -540,6 +539,8 @@ VideoChannel
 video_channel
 )
 ;
+private
+:
 const
 std
 :
