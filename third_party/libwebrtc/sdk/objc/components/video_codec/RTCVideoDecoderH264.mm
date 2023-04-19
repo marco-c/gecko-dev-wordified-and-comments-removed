@@ -990,6 +990,13 @@ defined
 (
 WEBRTC_MAC
 )
+&
+&
+!
+defined
+(
+WEBRTC_ARCH_ARM64
+)
 (
 NSString
 *
