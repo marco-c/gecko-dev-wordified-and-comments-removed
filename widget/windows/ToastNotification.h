@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsIWindowsAlertsService
+.
+h
+"
+#
+include
+"
 nsRefPtrHashtable
 .
 h
@@ -46,7 +53,7 @@ ToastNotification
 final
 :
 public
-nsIAlertsService
+nsIWindowsAlertsService
 public
 nsIAlertsDoNotDisturb
 public
@@ -55,6 +62,7 @@ nsIObserver
 public
 :
 NS_DECL_NSIALERTSSERVICE
+NS_DECL_NSIWINDOWSALERTSSERVICE
 NS_DECL_NSIALERTSDONOTDISTURB
 NS_DECL_NSIOBSERVER
 NS_DECL_ISUPPORTS
