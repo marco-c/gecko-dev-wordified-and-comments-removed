@@ -1290,6 +1290,12 @@ defined
 (
 WEBRTC_MAC
 )
+|
+|
+defined
+(
+CHROMEOS
+)
 const
 float
 scale

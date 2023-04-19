@@ -618,6 +618,12 @@ defined
 (
 WEBRTC_MAC
 )
+|
+|
+defined
+(
+CHROMEOS
+)
 if
 (
 !
