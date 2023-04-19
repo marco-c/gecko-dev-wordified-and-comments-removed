@@ -4366,7 +4366,7 @@ predicate
 ;
 }
 var
-T
+thisArg
 =
 arguments
 .
@@ -4413,7 +4413,7 @@ if
 callContentFunction
 (
 predicate
-T
+thisArg
 kValue
 k
 O
@@ -4499,7 +4499,7 @@ predicate
 ;
 }
 var
-T
+thisArg
 =
 arguments
 .
@@ -4546,7 +4546,7 @@ if
 callContentFunction
 (
 predicate
-T
+thisArg
 kValue
 k
 O
