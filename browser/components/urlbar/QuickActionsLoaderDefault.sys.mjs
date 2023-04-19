@@ -1585,10 +1585,6 @@ BrowserUpdater
 isReadyForRestart
 onPick
 :
-(
-)
-=
->
 restartBrowser
 }
 viewsource
