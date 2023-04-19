@@ -6294,7 +6294,7 @@ mem
 .
 gc_balanced_heap_limits
 "
-false
+true
 )
 ;
 pref
