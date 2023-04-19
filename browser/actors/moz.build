@@ -409,16 +409,6 @@ LinkHandlerParent
 jsm
 "
 "
-NetErrorChild
-.
-jsm
-"
-"
-NetErrorParent
-.
-jsm
-"
-"
 PageInfoChild
 .
 sys

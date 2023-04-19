@@ -2021,9 +2021,9 @@ global
 /
 content
 /
-netError
+license
 .
-xhtml
+html
 "
 :
 "
@@ -2035,11 +2035,9 @@ browser
 /
 content
 /
-certerror
-/
-aboutNetError
+license
 .
-xhtml
+html
 "
             
 }
@@ -2182,11 +2180,9 @@ content
 /
 browser
 /
-certerror
-/
-aboutNetError
+license
 .
-xhtml
+html
 "
 :
 [
@@ -2198,11 +2194,9 @@ base
 /
 content
 /
-certerror
-/
-aboutNetError
+license
 .
-xhtml
+html
 "
                     
 None
@@ -2674,9 +2668,9 @@ global
 /
 content
 /
-netError
+license
 .
-xhtml
+html
 "
                 
 (
@@ -2687,11 +2681,9 @@ base
 /
 content
 /
-certerror
-/
-aboutNetError
+license
 .
-xhtml
+html
 "
 None
 )

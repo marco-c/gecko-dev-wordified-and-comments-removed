@@ -341,7 +341,7 @@ version
 -
 nightly
 #
-aboutCertError
+certError
 .
 ftl
 :
@@ -878,7 +878,7 @@ ftl
 -
 trademarkInfo
 #
-browser
+toolkit
 /
 locales
 /
@@ -886,9 +886,11 @@ en
 -
 US
 /
-browser
+toolkit
 /
-aboutCertError
+neterror
+/
+certError
 .
 ftl
 -

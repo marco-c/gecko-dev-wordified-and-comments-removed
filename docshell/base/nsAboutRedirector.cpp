@@ -705,7 +705,7 @@ global
 /
 content
 /
-netError
+aboutNetError
 .
 xhtml
 "
