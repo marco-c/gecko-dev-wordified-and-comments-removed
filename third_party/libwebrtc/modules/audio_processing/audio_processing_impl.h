@@ -1275,6 +1275,8 @@ mutex_capture_
 void
 InitializeGainController2
 (
+bool
+config_has_changed
 )
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
