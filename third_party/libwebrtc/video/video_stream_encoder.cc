@@ -1520,6 +1520,14 @@ si
 ]
 .
 maxFramerate
+rtc
+:
+:
+saturated_cast
+<
+uint8_t
+>
+(
 (
 current_rate
 .
@@ -1535,6 +1543,7 @@ EncoderInfo
 :
 :
 kMaxFramerateFraction
+)
 )
 ;
 }
@@ -1967,6 +1976,14 @@ si
 ]
 .
 maxFramerate
+rtc
+:
+:
+saturated_cast
+<
+uint8_t
+>
+(
 (
 current_rate
 .
@@ -1982,6 +1999,7 @@ EncoderInfo
 :
 :
 kMaxFramerateFraction
+)
 )
 ;
 }
