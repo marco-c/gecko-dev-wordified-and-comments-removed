@@ -190,8 +190,6 @@ CharT
 buf
 capacity
 length
-+
-1
 )
 ;
 if
