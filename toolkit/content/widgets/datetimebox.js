@@ -3226,6 +3226,16 @@ Escape
 "
 &
 &
+aEvent
+.
+key
+!
+=
+"
+Enter
+"
+&
+&
 this
 .
 shouldOpenDateTimePickerOnKeyPress
