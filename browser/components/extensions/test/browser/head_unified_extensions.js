@@ -497,11 +497,6 @@ synthesizeMouseAtCenter
 (
 button
 {
-type
-:
-"
-contextmenu
-"
 }
 win
 )
