@@ -3029,6 +3029,16 @@ test
 test_support
 "
 "
+.
+.
+/
+test
+/
+logging
+:
+log_writer
+"
+"
 /
 /
 testing
