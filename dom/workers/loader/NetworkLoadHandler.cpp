@@ -186,7 +186,13 @@ NetworkLoadHandler
 WorkerScriptLoader
 *
 aLoader
-ScriptLoadInfo
+JS
+:
+:
+loader
+:
+:
+ScriptLoadRequest
 *
 aRequest
 )
@@ -202,9 +208,14 @@ aLoader
 >
 mWorkerPrivate
 )
-mRequest
+mLoadContext
 (
 aRequest
+-
+>
+GetWorkerLoadContext
+(
+)
 )
 {
 MOZ_ASSERT
@@ -252,6 +263,9 @@ mLoader
 >
 OnStreamComplete
 (
+mLoadContext
+-
+>
 mRequest
 rv
 )
@@ -536,7 +550,7 @@ principal
 }
 #
 endif
-mRequest
+mLoadContext
 -
 >
 mMutedErrorFlag
@@ -687,7 +701,7 @@ sourceMapURL
 )
 )
 {
-mRequest
+mLoadContext
 -
 >
 mSourceMapURL
@@ -723,7 +737,7 @@ dom_worker_script_loader_utf8_parsing_enabled
 )
 )
 {
-mRequest
+mLoadContext
 -
 >
 InitUTF8Script
@@ -748,13 +762,13 @@ UTF
 "
 _ns
 parentDoc
-mRequest
+mLoadContext
 -
 >
 mScript
 .
 mUTF8
-mRequest
+mLoadContext
 -
 >
 mScriptLength
@@ -763,7 +777,7 @@ mScriptLength
 }
 else
 {
-mRequest
+mLoadContext
 -
 >
 InitUTF16Script
@@ -788,13 +802,13 @@ UTF
 "
 _ns
 parentDoc
-mRequest
+mLoadContext
 -
 >
 mScript
 .
 mUTF16
-mRequest
+mLoadContext
 -
 >
 mScriptLength
@@ -815,7 +829,7 @@ rv
 }
 if
 (
-mRequest
+mLoadContext
 -
 >
 ScriptTextIsNull
@@ -825,7 +839,7 @@ ScriptTextIsNull
 {
 if
 (
-mRequest
+mLoadContext
 -
 >
 mScriptLength
@@ -925,7 +939,7 @@ IsEmpty
 )
 )
 {
-mRequest
+mLoadContext
 -
 >
 mURL
@@ -1320,7 +1334,7 @@ NS_ConvertUTF8toUTF16
 (
 mimeType
 )
-mRequest
+mLoadContext
 -
 >
 mURL
@@ -1367,7 +1381,7 @@ ir
 >
 SetBody
 (
-mRequest
+mLoadContext
 -
 >
 mCacheReadStream
@@ -1377,7 +1391,7 @@ InternalResponse
 UNKNOWN_BODY_SIZE
 )
 ;
-mRequest
+mLoadContext
 -
 >
 mCacheReadStream
@@ -1509,7 +1523,7 @@ dom
 :
 Response
 (
-mRequest
+mLoadContext
 -
 >
 GetCacheCreator
@@ -1542,7 +1556,7 @@ request
 MOZ_ASSERT
 (
 !
-mRequest
+mLoadContext
 -
 >
 mFullURL
@@ -1560,7 +1574,7 @@ SetAsUSVString
 .
 ShareOrDependUpon
 (
-mRequest
+mLoadContext
 -
 >
 mFullURL
@@ -1584,7 +1598,7 @@ Promise
 >
 cachePromise
 =
-mRequest
+mLoadContext
 -
 >
 GetCacheCreator
@@ -1646,6 +1660,9 @@ new
 CachePromiseHandler
 (
 mLoader
+mLoadContext
+-
+>
 mRequest
 )
 ;
@@ -1657,7 +1674,7 @@ AppendNativeHandler
 promiseHandler
 )
 ;
-mRequest
+mLoadContext
 -
 >
 mCachePromise
@@ -1667,7 +1684,7 @@ swap
 cachePromise
 )
 ;
-mRequest
+mLoadContext
 -
 >
 mCacheStatus

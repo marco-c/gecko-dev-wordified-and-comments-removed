@@ -54,7 +54,13 @@ NetworkLoadHandler
 WorkerScriptLoader
 *
 aLoader
-ScriptLoadInfo
+JS
+:
+:
+loader
+:
+:
+ScriptLoadRequest
 *
 aRequest
 )
@@ -149,7 +155,7 @@ mWorkerPrivate
 ;
 ScriptLoadInfo
 *
-mRequest
+mLoadContext
 ;
 }
 ;
