@@ -76,7 +76,7 @@ chromium_revision
 '
 :
 '
-3fcf4b3884478c438d8a104fb5288a1b21807620
+b41cc040678abf15d50b1ec7fa1a9614420fdb5e
 '
 }
 deps
@@ -131,7 +131,7 @@ chromium
 src
 /
 base
-5e6f75709035cf563a78e854c4105b76a2f2d50b
+44bff8ca76b434cf496f5aeeeb98c6e3ccc05766
 '
 '
 src
@@ -155,7 +155,7 @@ chromium
 src
 /
 build
-eae219f9f1c47f76482b05e6934f166860d88701
+f3f876312475dc13ce5151f8059f54c89355827c
 '
 '
 src
@@ -275,7 +275,7 @@ chromium
 src
 /
 ios
-468e1607dcc96a2f63a897cb49dd3a80ea4c5295
+eefa7936f52a07324c8e08f3b1d614754da2d276
 '
 '
 condition
@@ -307,7 +307,7 @@ chromium
 src
 /
 testing
-cbf481cd42245b065f733523442279c34d54bef1
+459ac36d449fcdbf6966b7095960d200a34e3176
 '
 '
 src
@@ -331,7 +331,7 @@ chromium
 src
 /
 third_party
-7dabd46d8a8d210e6cf2f4c6d146d1905f4e809e
+1f4896ca1db9f1756e50764670818b2bbe31803c
 '
 '
 src
@@ -626,7 +626,7 @@ project
 libcxxabi
 .
 git
-2f2a4e507a34e8ff682d221f20cbecc81782d4ee
+f6a8e55d6e7719b835f3bdbe082245b8dd86cc4d
 '
 '
 src
@@ -912,7 +912,7 @@ com
 boringssl
 .
 git
-15961379e6b2682d73c3cb8f8016a09d04257c77
+354cd48f51ea6c6d5c1b1d76ae0585107f8a868e
 '
 '
 src
@@ -964,7 +964,7 @@ com
 catapult
 .
 git
-9cf09f1e1b01f81e70289b56c66419c9ef7637d8
+0cfa2c068604d31cc110728dde632ddaeeabfa97
 '
 '
 src
@@ -1094,7 +1094,7 @@ tools
 depot_tools
 .
 git
-61bf6e8d69c4cb084b1541a996fc3f4990cd2535
+c91f5f62e284fa45ab7da18e91d3eedd96a38459
 '
 '
 src
@@ -1250,7 +1250,7 @@ third_party
 freetype2
 .
 git
-8a459e5172dbb54b42d7b8247c98627d5cefb98d
+270ff52f62ecf6b38744fa5f6b95808dd7dc49d9
 '
 '
 src
@@ -1495,7 +1495,7 @@ deps
 icu
 .
 git
-d25bdc013cb0d0d9b1b7c53beb1ab2a30323341c
+cd9f9a9495b1978ded709c248e467e7f5a74ea0a
 '
 }
 '
@@ -1902,7 +1902,7 @@ external
 perfetto
 .
 git
-7653b6f2efb670f740b45178aac4f58258776b6e
+7dadfe6bd3985045d21280ebbc9ba336df6dedd9
 '
 '
 src
@@ -2148,7 +2148,9 @@ version
 '
 :
 '
-h1H8tuKYpnoPW2uwLMSaHgD_vVy9_8E6n4UZ5nwbMRkC
+9JovxpDv8ZqFl60_eHo4hT
+-
+Ez0CelcMCoM9Cv5UJMz4C
 '
 }
 ]
@@ -2426,7 +2428,7 @@ chromium
 src
 /
 tools
-d78b7e0049b37751bd7cd40fd24fae79820a35cd
+9684ce5eaa0f92be925e482830f1afcb37894b12
 '
 '
 src
@@ -3563,7 +3565,7 @@ version
 '
 git_revision
 :
-7ad561e001cdb13c858e065ef0bb3019aae49601
+173195137e006c3bbbd2394409e3d752f8b3c62f
 '
 }
 {
@@ -3593,7 +3595,7 @@ version
 '
 git_revision
 :
-7ad561e001cdb13c858e065ef0bb3019aae49601
+173195137e006c3bbbd2394409e3d752f8b3c62f
 '
 }
 {
@@ -3623,7 +3625,7 @@ version
 '
 git_revision
 :
-7ad561e001cdb13c858e065ef0bb3019aae49601
+173195137e006c3bbbd2394409e3d752f8b3c62f
 '
 }
 ]
