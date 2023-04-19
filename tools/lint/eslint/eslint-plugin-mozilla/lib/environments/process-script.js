@@ -44,13 +44,10 @@ false
 sendSyncMessage
 :
 false
-content
+initialProcessData
 :
 false
-docShell
-:
-false
-tabEventTarget
+sharedData
 :
 false
 }
