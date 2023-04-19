@@ -28,11 +28,6 @@ nsIFactory
 idl
 "
 "
-nsIModule
-.
-idl
-"
-"
 nsIServiceManager
 .
 idl

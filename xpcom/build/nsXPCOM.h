@@ -86,11 +86,6 @@ nsISupports
 ;
 DECL_CLASS
 (
-nsIModule
-)
-;
-DECL_CLASS
-(
 nsIComponentManager
 )
 ;
