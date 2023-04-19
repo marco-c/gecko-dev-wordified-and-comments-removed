@@ -2587,6 +2587,13 @@ framework
 "
 ]
 }
+defines
+=
+[
+"
+GLES_SILENCE_DEPRECATION
+"
+]
 deps
 =
 [
@@ -2803,6 +2810,13 @@ opengl
 RTCEAGLVideoView
 .
 m
+"
+]
+defines
+=
+[
+"
+GLES_SILENCE_DEPRECATION
 "
 ]
 }

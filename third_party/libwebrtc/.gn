@@ -417,7 +417,7 @@ mac_sdk_min
 ios_deployment_target
 =
 "
-10
+12
 .
 0
 "

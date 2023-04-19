@@ -185,7 +185,7 @@ x86
 IOS_DEPLOYMENT_TARGET
 =
 '
-10
+12
 .
 0
 '
