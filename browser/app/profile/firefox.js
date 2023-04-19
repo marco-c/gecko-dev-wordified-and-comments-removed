@@ -3552,7 +3552,7 @@ preferences
 .
 show
 "
-true
+false
 )
 ;
 pref
