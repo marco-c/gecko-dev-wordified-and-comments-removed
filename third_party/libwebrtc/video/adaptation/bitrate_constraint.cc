@@ -254,7 +254,7 @@ uint32_t
 >
 current_frame_size_px
 =
-VideoStreamEncoderResourceManager
+VideoStreamAdapter
 :
 :
 GetSingleActiveLayerPixels

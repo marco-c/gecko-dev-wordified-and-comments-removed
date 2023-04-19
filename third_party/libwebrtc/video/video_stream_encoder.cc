@@ -2105,7 +2105,7 @@ uint32_t
 >
 pixels
 =
-VideoStreamEncoderResourceManager
+VideoStreamAdapter
 :
 :
 GetSingleActiveLayerPixels
