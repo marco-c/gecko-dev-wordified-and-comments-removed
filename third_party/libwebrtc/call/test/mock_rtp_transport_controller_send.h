@@ -142,6 +142,7 @@ RtpVideoSenderInterface
 CreateRtpVideoSender
 (
 (
+const
 std
 :
 :
@@ -150,6 +151,7 @@ map
 uint32_t
 RtpState
 >
+&
 )
 (
 const
