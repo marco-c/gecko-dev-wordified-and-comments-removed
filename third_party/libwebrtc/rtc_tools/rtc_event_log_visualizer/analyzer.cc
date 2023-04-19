@@ -10497,11 +10497,6 @@ max
 (
 )
 ;
-int64_t
-prev_y
-=
-0
-;
 std
 :
 :
@@ -10616,10 +10611,6 @@ arrival_time_ms
 packet
 .
 send_time_ms
-;
-prev_y
-=
-y
 ;
 int64_t
 rtt_ms

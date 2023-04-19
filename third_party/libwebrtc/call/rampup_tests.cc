@@ -972,9 +972,6 @@ clear
 )
 ;
 bool
-remb
-;
-bool
 transport_cc
 ;
 if
@@ -988,10 +985,6 @@ RtpExtension
 kAbsSendTimeUri
 )
 {
-remb
-=
-true
-;
 transport_cc
 =
 false
@@ -1029,10 +1022,6 @@ RtpExtension
 kTransportSequenceNumberUri
 )
 {
-remb
-=
-false
-;
 transport_cc
 =
 true
@@ -1060,10 +1049,6 @@ kTransportSequenceNumberExtensionId
 }
 else
 {
-remb
-=
-true
-;
 transport_cc
 =
 false
