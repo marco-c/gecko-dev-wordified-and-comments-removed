@@ -421,9 +421,6 @@ range
 ;
 return
 (
-nsCSSProps
-:
-:
 kFlagsTable
 [
 aProperty
@@ -558,9 +555,6 @@ range
 )
 ;
 return
-nsCSSProps
-:
-:
 kSubpropertyTable
 [
 aProperty
