@@ -5992,6 +5992,11 @@ units_unittests
 "
 video
 :
+frame_buffer_unittest
+"
+"
+video
+:
 rtp_video_frame_assembler_unittests
 "
 "

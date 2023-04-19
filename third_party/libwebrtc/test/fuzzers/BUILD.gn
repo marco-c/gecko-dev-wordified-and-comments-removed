@@ -3987,7 +3987,7 @@ time_controller
 webrtc_fuzzer_test
 (
 "
-frame_buffer3_fuzzer
+frame_buffer_fuzzer
 "
 )
 {
@@ -3995,7 +3995,7 @@ sources
 =
 [
 "
-frame_buffer3_fuzzer
+frame_buffer_fuzzer
 .
 cc
 "
@@ -4038,9 +4038,9 @@ encoded_frame
 .
 .
 /
-modules
+api
 /
-video_coding
+video
 :
 frame_buffer
 "
