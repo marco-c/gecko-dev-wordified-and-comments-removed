@@ -89,6 +89,9 @@ md
 url_parsers
 .
 md
+captive_portals
+.
+md
 .
 .
 _HTTP
