@@ -92,9 +92,14 @@ currentAutocompleteInput
 ;
 if
 (
+!
 input
 )
 {
+return
+null
+;
+}
 return
 getAutocompleteMatches
 (
@@ -104,7 +109,6 @@ state
 input
 ]
 ;
-}
 }
 export
 const

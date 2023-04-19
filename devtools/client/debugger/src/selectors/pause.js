@@ -740,6 +740,7 @@ pending
 )
 {
 return
+null
 ;
 }
 let
