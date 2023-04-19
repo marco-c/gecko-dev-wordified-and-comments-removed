@@ -1104,7 +1104,7 @@ get_ui
 )
 ;
 let
-keyframes_or_timeline_could_have_changed
+keyframes_could_have_changed
 =
 context
 .
@@ -1121,7 +1121,7 @@ ForCSSRuleChanges
 )
 ;
 if
-keyframes_or_timeline_could_have_changed
+keyframes_could_have_changed
 {
 return
 true

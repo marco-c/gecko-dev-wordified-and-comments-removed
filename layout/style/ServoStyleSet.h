@@ -1099,16 +1099,6 @@ nsAtom
 aName
 )
 ;
-const
-RawServoScrollTimelineRule
-*
-ScrollTimelineRuleForName
-(
-nsAtom
-*
-aName
-)
-;
 already_AddRefed
 <
 gfxFontFeatureValueSet
