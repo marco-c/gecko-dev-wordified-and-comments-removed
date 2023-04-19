@@ -409,7 +409,6 @@ Incrementing
 derive
 (
 PartialEq
-Eq
 Debug
 )
 ]

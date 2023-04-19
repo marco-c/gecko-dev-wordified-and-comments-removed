@@ -158,10 +158,6 @@ NomErr
 error
 :
 :
-Error
-error
-:
-:
 ErrorKind
 }
 ;
@@ -228,10 +224,6 @@ NomErr
 :
 Error
 (
-Error
-:
-:
-new
 (
 i
 ErrorKind

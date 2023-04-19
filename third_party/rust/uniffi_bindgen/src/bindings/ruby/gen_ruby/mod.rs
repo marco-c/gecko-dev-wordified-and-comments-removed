@@ -670,9 +670,6 @@ FFIType
 :
 :
 RustArcPtr
-(
-_
-)
 =
 >
 "
