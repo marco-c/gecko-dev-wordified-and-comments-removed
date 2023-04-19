@@ -2520,7 +2520,7 @@ port
 )
 -
 >
-HasPendingRequest
+HasPendingRequestForTest
 (
 cricket
 :
@@ -2568,7 +2568,7 @@ port
 )
 -
 >
-HasPendingRequest
+HasPendingRequestForTest
 (
 cricket
 :

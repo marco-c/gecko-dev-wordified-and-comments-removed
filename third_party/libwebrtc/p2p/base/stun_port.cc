@@ -171,6 +171,15 @@ int64_t
 start_time
 )
 :
+StunRequest
+(
+port
+-
+>
+request_manager
+(
+)
+)
 port_
 (
 port
@@ -356,7 +365,7 @@ TimeMillis
 port_
 -
 >
-requests_
+request_manager_
 .
 SendDelayed
 (
@@ -547,7 +556,7 @@ RETRY_TIMEOUT
 port_
 -
 >
-requests_
+request_manager_
 .
 SendDelayed
 (
@@ -1049,7 +1058,7 @@ username
 password
 field_trials
 )
-requests_
+request_manager_
 (
 thread
 )
@@ -1147,7 +1156,7 @@ username
 password
 field_trials
 )
-requests_
+request_manager_
 (
 thread
 )
@@ -1332,7 +1341,7 @@ UDPPort
 OnLocalAddressReady
 )
 ;
-requests_
+request_manager_
 .
 SignalSendPacket
 .
@@ -1379,7 +1388,7 @@ PrepareAddress
 {
 RTC_DCHECK
 (
-requests_
+request_manager_
 .
 empty
 (
@@ -2143,7 +2152,7 @@ end
 )
 )
 {
-requests_
+request_manager_
 .
 CheckResponse
 (
@@ -2254,7 +2263,7 @@ SendStunBindingRequests
 {
 RTC_DCHECK
 (
-requests_
+request_manager_
 .
 empty
 (
@@ -2595,7 +2604,7 @@ stun_addr
 )
 )
 {
-requests_
+request_manager_
 .
 Send
 (

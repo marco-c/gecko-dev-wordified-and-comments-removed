@@ -244,9 +244,11 @@ StunRequest
 {
 public
 :
-explicit
 ConnectionRequest
 (
+StunRequestManager
+&
+manager
 Connection
 *
 connection

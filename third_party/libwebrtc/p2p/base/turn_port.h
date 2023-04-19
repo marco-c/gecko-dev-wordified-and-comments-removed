@@ -928,6 +928,16 @@ return
 socket_
 ;
 }
+StunRequestManager
+&
+request_manager
+(
+)
+{
+return
+request_manager_
+;
+}
 sigslot
 :
 :
@@ -989,7 +999,7 @@ int
 SignalCreatePermissionResult
 ;
 void
-FlushRequests
+FlushRequestsForTest
 (
 int
 msg_type
@@ -997,7 +1007,7 @@ msg_type
 {
 request_manager_
 .
-Flush
+FlushForTest
 (
 msg_type
 )

@@ -7084,7 +7084,7 @@ false
 turn_port_
 -
 >
-FlushRequests
+FlushRequestsForTest
 (
 TURN_REFRESH_REQUEST
 )
@@ -7099,7 +7099,7 @@ fake_clock_
 turn_port_
 -
 >
-FlushRequests
+FlushRequestsForTest
 (
 TURN_REFRESH_REQUEST
 )
@@ -7956,7 +7956,7 @@ bad_credentials
 turn_port_
 -
 >
-FlushRequests
+FlushRequestsForTest
 (
 kAllRequests
 )
@@ -7971,7 +7971,7 @@ fake_clock_
 turn_port_
 -
 >
-FlushRequests
+FlushRequestsForTest
 (
 kAllRequests
 )
