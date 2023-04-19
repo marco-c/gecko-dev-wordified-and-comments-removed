@@ -2050,6 +2050,7 @@ DrawTarget
 *
 aRefDrawTarget
 )
+const
 ;
 const
 GlyphRun
@@ -2472,6 +2473,12 @@ nsTextFrameUtils
 Flags
 aFlags2
 )
+;
+bool
+NeedsGlyphExtents
+(
+)
+const
 ;
 static
 void
