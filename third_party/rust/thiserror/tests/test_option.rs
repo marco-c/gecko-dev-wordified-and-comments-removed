@@ -1,6 +1,16 @@
 #
 !
 [
+cfg
+(
+any
+(
+)
+)
+]
+#
+!
+[
 cfg_attr
 (
 thiserror_nightly_testing

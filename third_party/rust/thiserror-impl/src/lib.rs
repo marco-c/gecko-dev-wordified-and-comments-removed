@@ -18,6 +18,10 @@ cast_possible_truncation
 clippy
 :
 :
+manual_find
+clippy
+:
+:
 manual_map
 clippy
 :
