@@ -8150,9 +8150,10 @@ n
 MaxDigitLength
 )
 {
-ReportAllocationOverflow
+ReportOversizedAllocation
 (
 cx
+JSMSG_BIGINT_TOO_LARGE
 )
 ;
 return
