@@ -372,10 +372,11 @@ const
 bool
 send_side_bwe_with_overhead_
 =
+!
 field_trial
 :
 :
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
