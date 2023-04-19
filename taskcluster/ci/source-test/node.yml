@@ -552,9 +552,6 @@ cwd
 checkout
 }
 '
-command
-:
->
 #
 Re
 -
@@ -574,6 +571,9 @@ nodejs
 servers
 for
 downloads
+command
+:
+>
 cp
 -
 r
@@ -786,9 +786,6 @@ cwd
 checkout
 }
 '
-command
-:
->
 #
 Re
 -
@@ -808,6 +805,9 @@ nodejs
 servers
 for
 downloads
+command
+:
+>
 cp
 -
 r
@@ -1157,9 +1157,6 @@ cwd
 checkout
 }
 '
-command
-:
->
 #
 Re
 -
@@ -1179,6 +1176,9 @@ nodejs
 servers
 for
 downloads
+command
+:
+>
 cp
 -
 r
