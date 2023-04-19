@@ -1274,6 +1274,13 @@ this
 .
 #
 resolveWhenStarted
+&
+&
+!
+this
+.
+#
+waitForExplicitStart
 )
 {
 return
