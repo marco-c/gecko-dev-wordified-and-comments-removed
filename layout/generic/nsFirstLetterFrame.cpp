@@ -1417,7 +1417,7 @@ overflow
 =
 mFrames
 .
-RemoveFramesAfter
+TakeFramesAfter
 (
 kid
 )

@@ -25128,7 +25128,7 @@ pushedFrames
 =
 mFrames
 .
-RemoveFramesAfter
+TakeFramesAfter
 (
 lineBeforeLastFrame
 )
