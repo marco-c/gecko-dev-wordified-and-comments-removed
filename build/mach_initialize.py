@@ -3351,6 +3351,27 @@ py
 "
         
 )
+        
+"
+storybook
+"
+:
+MachCommandReference
+(
+            
+"
+browser
+/
+components
+/
+storybook
+/
+mach_commands
+.
+py
+"
+        
+)
     
 }
     
