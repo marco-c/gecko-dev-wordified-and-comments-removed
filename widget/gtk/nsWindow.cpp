@@ -2124,6 +2124,10 @@ mRetryPointerGrab
 (
 false
 )
+mPanInProgress
+(
+false
+)
 mDrawToContainer
 (
 false
