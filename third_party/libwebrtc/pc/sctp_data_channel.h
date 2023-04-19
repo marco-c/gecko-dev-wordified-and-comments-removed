@@ -1035,15 +1035,6 @@ signaling_thread_
 =
 0
 ;
-uint64_t
-buffered_amount_
-RTC_GUARDED_BY
-(
-signaling_thread_
-)
-=
-0
-;
 SctpDataChannelProviderInterface
 *
 const
