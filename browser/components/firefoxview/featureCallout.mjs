@@ -2721,6 +2721,13 @@ ASRouter
 sendTriggerMessage
 (
 {
+browser
+:
+window
+.
+docShell
+.
+chromeEventHandler
 /
 /
 triggerId
