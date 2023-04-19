@@ -1251,8 +1251,16 @@ config
 RtpPacketHistory
 packet_history
 ;
+mutable
+Mutex
+sequencer_mutex
+;
 PacketSequencer
 sequencer_
+RTC_GUARDED_BY
+(
+sequencer_mutex
+)
 ;
 DEPRECATED_RtpSenderEgress
 packet_sender
