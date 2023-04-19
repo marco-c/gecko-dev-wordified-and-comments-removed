@@ -479,6 +479,17 @@ race_checker
 /
 rtc_base
 :
+rate_statistics
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 rtc_base_approved
 "
 "

@@ -466,6 +466,14 @@ race_checker
 /
 rtc_base
 :
+rate_statistics
+"
+"
+.
+.
+/
+rtc_base
+:
 refcount
 "
 "
