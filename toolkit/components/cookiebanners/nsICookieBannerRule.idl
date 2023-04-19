@@ -33,7 +33,6 @@ nsICookieBannerRule
 :
 nsISupports
 {
-readonly
 attribute
 ACString
 domain
