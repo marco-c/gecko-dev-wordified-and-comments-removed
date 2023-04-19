@@ -9,6 +9,8 @@ HTTPConnection
 def
 websocket_request
 (
+    
+remote_agent_host
 remote_agent_port
 host
 =
@@ -29,7 +31,9 @@ real_host
 =
 f
 "
-localhost
+{
+remote_agent_host
+}
 :
 {
 remote_agent_port
