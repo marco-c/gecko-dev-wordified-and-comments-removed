@@ -542,13 +542,7 @@ AddPeer
 network
 -
 >
-network_thread
-(
-)
-network
--
->
-network_manager
+network_dependencies
 (
 )
 configurer
