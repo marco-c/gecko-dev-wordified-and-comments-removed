@@ -421,6 +421,7 @@ window
 const
 tab
 =
+await
 tabBrowser
 .
 addTab
@@ -880,6 +881,13 @@ supportsTabs
 )
 {
 return
+lazy
+.
+AppInfo
+.
+isAndroid
+|
+|
 lazy
 .
 AppInfo
