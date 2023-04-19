@@ -82,16 +82,18 @@ test_command
 +
 =
 [
-        
 '
 -
 -
-isolated_script_test_output
+gtest_output
+=
+json
+:
 '
++
 args
 .
 isolated_script_test_output
-    
 ]
   
 if
