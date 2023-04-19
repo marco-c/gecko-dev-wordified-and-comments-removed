@@ -212,7 +212,7 @@ type
 "
 :
 "
-additional_compile_target
+console_test_launcher
 "
 }
 "
@@ -309,7 +309,7 @@ type
 "
 :
 "
-raw
+console_test_launcher
 "
 }
 "
@@ -435,7 +435,7 @@ type
 "
 :
 "
-additional_compile_target
+console_test_launcher
 "
 }
 "
@@ -714,7 +714,7 @@ type
 "
 :
 "
-raw
+console_test_launcher
 "
 }
 "
@@ -738,7 +738,7 @@ type
 "
 :
 "
-raw
+console_test_launcher
 "
 }
 "
