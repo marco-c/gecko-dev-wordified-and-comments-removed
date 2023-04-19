@@ -19,13 +19,6 @@ nsISupports
 h
 "
 #
-include
-"
-nsIContent
-.
-h
-"
-#
 define
 NS_INODELIST_IID
 \

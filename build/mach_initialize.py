@@ -3324,33 +3324,6 @@ mach_commands
 py
 "
 )
-        
-"
-uniffi
-"
-:
-MachCommandReference
-(
-            
-"
-toolkit
-/
-components
-/
-uniffi
--
-bindgen
--
-gecko
--
-js
-/
-mach_commands
-.
-py
-"
-        
-)
     
 }
     
