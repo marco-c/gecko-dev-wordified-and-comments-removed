@@ -1409,6 +1409,13 @@ mReplacedTransition
 -
 >
 mPlaybackRate
+Animation
+:
+:
+ProgressTimelinePosition
+:
+:
+NotBoundary
 )
 ;
 if

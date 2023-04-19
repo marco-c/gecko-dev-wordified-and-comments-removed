@@ -308,6 +308,11 @@ TimingParams
 aTiming
 double
 aPlaybackRate
+Animation
+:
+:
+ProgressTimelinePosition
+aProgressTimelinePosition
 )
 ;
 ComputedTiming
