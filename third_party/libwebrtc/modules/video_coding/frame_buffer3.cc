@@ -325,10 +325,11 @@ max_decode_history
 :
 legacy_frame_id_jump_behavior_
 (
+!
 field_trial
 :
 :
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
