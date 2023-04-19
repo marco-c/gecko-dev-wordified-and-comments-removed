@@ -20,9 +20,6 @@ false
 dump
 :
 false
-Intl
-:
-false
 WebAssembly
 :
 false
