@@ -474,7 +474,7 @@ Create
 (
 encoded_image
 .
-capacity
+size
 (
 )
 )
@@ -541,7 +541,7 @@ Create
 (
 encoded_image
 .
-capacity
+size
 (
 )
 )
@@ -5806,7 +5806,7 @@ Create
 (
 encoded_image
 .
-capacity
+size
 (
 )
 )
