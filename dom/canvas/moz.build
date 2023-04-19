@@ -769,6 +769,11 @@ WebGLTransformFeedback
 cpp
 "
 "
+WebGLTypes
+.
+cpp
+"
+"
 WebGLValidateStrings
 .
 cpp
