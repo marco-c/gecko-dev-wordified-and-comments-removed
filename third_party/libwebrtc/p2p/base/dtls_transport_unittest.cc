@@ -532,13 +532,6 @@ CryptoOptions
 (
 )
 nullptr
-)
-;
-dtls_transport_
--
->
-SetSslMaxProtocolVersion
-(
 ssl_max_version_
 )
 ;
