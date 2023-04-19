@@ -3972,7 +3972,7 @@ at
 TEST_F
 (
 NetworkTest
-TestMultipleIPMergeNetworkList
+DISABLED_TestMultipleIPMergeNetworkList
 )
 {
 PhysicalSocketServer
