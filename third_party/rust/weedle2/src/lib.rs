@@ -18,8 +18,8 @@ map
 many0
 opt
 recognize
-separated_list
-separated_nonempty_list
+separated_list0
+separated_list1
 terminated
 )
 ]
@@ -128,6 +128,10 @@ nom
 error
 :
 :
+Error
+error
+:
+:
 ErrorKind
 Err
 IResult
@@ -211,11 +215,11 @@ _
 >
 Err
 <
-(
+Error
+<
 &
 str
-ErrorKind
-)
+>
 >
 >
 {
