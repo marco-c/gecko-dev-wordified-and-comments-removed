@@ -5734,27 +5734,6 @@ version
 return
 None
         
-if
-uname
-[
-0
-]
-=
-=
-"
-Windows
-"
-:
-            
-return
-_get_fileversion
-(
-webdriver_binary
-self
-.
-logger
-)
-        
 try
 :
             
