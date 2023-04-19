@@ -1609,6 +1609,17 @@ nodeFrom
 {
 if
 (
+!
+nodeFrom
+.
+comments
+)
+{
+return
+;
+}
+if
+(
 nodeTo
 .
 comments
