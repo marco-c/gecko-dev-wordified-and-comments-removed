@@ -152,7 +152,11 @@ setProperty
 view
 prop
 null
+{
+blurNewProperty
+:
 false
+}
 )
 ;
 let
@@ -272,7 +276,11 @@ setProperty
 view
 prop
 null
+{
+blurNewProperty
+:
 false
+}
 )
 ;
 newValue
