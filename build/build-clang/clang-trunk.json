@@ -62,11 +62,6 @@ symlink
 patch
 "
 "
-D116995
-.
-diff
-"
-"
 revert
 -
 llvmorg
