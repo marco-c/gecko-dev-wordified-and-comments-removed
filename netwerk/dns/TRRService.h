@@ -598,7 +598,7 @@ mPrivateCred
 ;
 nsCString
 mConfirmationNS
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -613,7 +613,7 @@ _ns
 ;
 nsCString
 mBootstrapAddr
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -668,7 +668,7 @@ nsTHashSet
 nsCString
 >
 mExcludedDomains
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -678,7 +678,7 @@ nsTHashSet
 nsCString
 >
 mDNSSuffixDomains
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -688,7 +688,7 @@ nsTHashSet
 nsCString
 >
 mEtcHostsDomains
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )

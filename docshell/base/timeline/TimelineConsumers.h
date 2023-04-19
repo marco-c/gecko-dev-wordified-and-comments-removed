@@ -345,7 +345,7 @@ MarkersStorage
 MarkersStores
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 sMutex
 )
@@ -353,7 +353,7 @@ sMutex
 static
 uint32_t
 sActiveConsumers
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 sMutex
 )
@@ -367,7 +367,7 @@ MarkersStorage
 >
 >
 sMarkersStores
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 sMutex
 )

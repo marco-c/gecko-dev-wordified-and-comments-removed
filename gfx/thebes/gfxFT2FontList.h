@@ -672,7 +672,7 @@ nsresult
 InitFontListForPlatform
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -688,7 +688,7 @@ aFLE
 StandardFile
 aStdFile
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -713,7 +713,7 @@ aTimestamp
 uint32_t
 aFilesize
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -731,7 +731,7 @@ aCache
 StandardFile
 aStdFile
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -752,7 +752,7 @@ aCache
 bool
 aJarChanged
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -761,7 +761,7 @@ void
 InitSharedFontListForPlatform
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -825,7 +825,7 @@ aFaceList
 StandardFile
 aStdFile
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -848,7 +848,7 @@ nsCString
 &
 aFaceList
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -857,7 +857,7 @@ void
 FindFonts
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -869,7 +869,7 @@ FontNameCache
 *
 aCache
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -885,7 +885,7 @@ FontNameCache
 *
 aFNC
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -906,7 +906,7 @@ aLanguage
 =
 nullptr
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )

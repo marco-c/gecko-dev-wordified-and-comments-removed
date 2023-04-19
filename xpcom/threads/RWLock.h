@@ -53,7 +53,7 @@ namespace
 mozilla
 {
 class
-MOZ_CAPABILITY
+CAPABILITY
 RWLock
 :
 public
@@ -92,7 +92,7 @@ bool
 TryReadLock
 (
 )
-MOZ_SHARED_TRYLOCK_FUNCTION
+SHARED_TRYLOCK_FUNCTION
 (
 true
 )
@@ -101,7 +101,7 @@ void
 ReadLock
 (
 )
-MOZ_ACQUIRE_SHARED
+ACQUIRE_SHARED
 (
 )
 ;
@@ -109,7 +109,7 @@ void
 ReadUnlock
 (
 )
-MOZ_RELEASE_SHARED
+RELEASE_SHARED
 (
 )
 ;
@@ -122,7 +122,7 @@ bool
 TryWriteLock
 (
 )
-MOZ_TRY_ACQUIRE
+TRY_ACQUIRE
 (
 true
 )
@@ -131,7 +131,7 @@ void
 WriteLock
 (
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 )
 ;
@@ -139,7 +139,7 @@ void
 WriteUnlock
 (
 )
-MOZ_EXCLUSIVE_RELEASE
+EXCLUSIVE_RELEASE
 (
 )
 ;
@@ -154,7 +154,7 @@ bool
 TryReadLock
 (
 )
-MOZ_SHARED_TRYLOCK_FUNCTION
+SHARED_TRYLOCK_FUNCTION
 (
 true
 )
@@ -175,7 +175,7 @@ void
 ReadLock
 (
 )
-MOZ_ACQUIRE_SHARED
+ACQUIRE_SHARED
 (
 )
 {
@@ -194,7 +194,7 @@ void
 ReadUnlock
 (
 )
-MOZ_RELEASE_SHARED
+RELEASE_SHARED
 (
 )
 {
@@ -218,7 +218,7 @@ bool
 TryWriteLock
 (
 )
-MOZ_TRY_ACQUIRE
+TRY_ACQUIRE
 (
 true
 )
@@ -239,7 +239,7 @@ void
 WriteLock
 (
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 )
 {
@@ -258,7 +258,7 @@ void
 WriteUnlock
 (
 )
-MOZ_EXCLUSIVE_RELEASE
+EXCLUSIVE_RELEASE
 (
 )
 {
@@ -420,7 +420,7 @@ typename
 T
 >
 class
-MOZ_SCOPED_CAPABILITY
+SCOPED_CAPABILITY
 MOZ_RAII
 BaseAutoReadLock
 {
@@ -433,7 +433,7 @@ T
 &
 aLock
 )
-MOZ_ACQUIRE_SHARED
+ACQUIRE_SHARED
 (
 aLock
 )
@@ -465,7 +465,7 @@ ReadLock
 BaseAutoReadLock
 (
 )
-MOZ_RELEASE_GENERIC
+RELEASE_GENERIC
 (
 )
 {
@@ -617,7 +617,7 @@ typename
 T
 >
 class
-MOZ_SCOPED_CAPABILITY
+SCOPED_CAPABILITY
 MOZ_RAII
 BaseAutoWriteLock
 final
@@ -631,7 +631,7 @@ T
 &
 aLock
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 aLock
 )
@@ -663,7 +663,7 @@ WriteLock
 BaseAutoWriteLock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {
@@ -742,7 +742,7 @@ namespace
 detail
 {
 class
-MOZ_CAPABILITY
+CAPABILITY
 StaticRWLock
 {
 public
@@ -772,7 +772,7 @@ bool
 TryReadLock
 (
 )
-MOZ_SHARED_TRYLOCK_FUNCTION
+SHARED_TRYLOCK_FUNCTION
 (
 true
 )
@@ -792,7 +792,7 @@ void
 ReadLock
 (
 )
-MOZ_ACQUIRE_SHARED
+ACQUIRE_SHARED
 (
 )
 {
@@ -810,7 +810,7 @@ void
 ReadUnlock
 (
 )
-MOZ_RELEASE_SHARED
+RELEASE_SHARED
 (
 )
 {
@@ -833,7 +833,7 @@ bool
 TryWriteLock
 (
 )
-MOZ_TRY_ACQUIRE
+TRY_ACQUIRE
 (
 true
 )
@@ -853,7 +853,7 @@ void
 WriteLock
 (
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 )
 {
@@ -871,7 +871,7 @@ void
 WriteUnlock
 (
 )
-MOZ_EXCLUSIVE_RELEASE
+EXCLUSIVE_RELEASE
 (
 )
 {
@@ -897,7 +897,7 @@ RWLock
 Lock
 (
 )
-MOZ_RETURN_CAPABILITY
+RETURN_CAPABILITY
 (
 *
 mLock

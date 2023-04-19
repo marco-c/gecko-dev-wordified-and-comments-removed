@@ -1969,14 +1969,14 @@ sOriginKeyStore
 }
 OriginKeysLoader
 mOriginKeys
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 sOriginKeyStoreStsMutex
 )
 ;
 OriginKeysTable
 mPrivateBrowsingOriginKeys
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 sOriginKeyStoreStsMutex
 )

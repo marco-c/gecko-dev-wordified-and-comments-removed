@@ -802,14 +802,14 @@ default
 ;
 TimeDelta
 rollover_
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 sNowSingletonLock
 )
 ;
 DWORD
 last_seen_
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 sNowSingletonLock
 )

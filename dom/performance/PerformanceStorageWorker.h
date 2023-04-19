@@ -130,7 +130,7 @@ RefPtr
 WeakWorkerRef
 >
 mWorkerRef
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )

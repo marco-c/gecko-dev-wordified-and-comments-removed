@@ -1793,7 +1793,7 @@ nsIAsyncInputStream
 *
 aStream
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 AssertIsOnOwningThread
 (

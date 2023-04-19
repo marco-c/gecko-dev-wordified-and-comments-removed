@@ -238,14 +238,14 @@ Maybe
 IterationState
 >
 mIterationState
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMonitor
 )
 ;
 IterationResult
 mIterationResult
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMonitor
 )
@@ -261,7 +261,7 @@ Shutdown
 ;
 ThreadState
 mThreadState
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMonitor
 )

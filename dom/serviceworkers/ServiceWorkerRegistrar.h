@@ -266,7 +266,7 @@ ServiceWorkerRegistrationData
 &
 aData
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mMonitor
 )
@@ -350,7 +350,7 @@ nsCOMPtr
 nsIFile
 >
 mProfileDir
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMonitor
 )
@@ -360,14 +360,14 @@ nsTArray
 ServiceWorkerRegistrationData
 >
 mData
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMonitor
 )
 ;
 bool
 mDataLoaded
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMonitor
 )

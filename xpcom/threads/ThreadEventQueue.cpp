@@ -1290,7 +1290,7 @@ ThreadEventQueue
 GetObserverOnThread
 (
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 return
 do_AddRef

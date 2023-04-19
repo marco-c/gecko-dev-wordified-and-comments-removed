@@ -695,7 +695,7 @@ mBlocks
 ;
 GlyphWidths
 mContainedGlyphWidths
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -705,7 +705,7 @@ nsTHashtable
 HashEntry
 >
 mTightGlyphExtents
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )

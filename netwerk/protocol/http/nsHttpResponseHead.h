@@ -105,7 +105,7 @@ Enter
 (
 )
 const
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 mRecursiveMutex
 )
@@ -122,7 +122,7 @@ Exit
 (
 )
 const
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 mRecursiveMutex
 )
@@ -586,7 +586,7 @@ m
 =
 false
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mRecursiveMutex
 )
@@ -595,7 +595,7 @@ void
 AssignDefaultStatusText
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mRecursiveMutex
 )
@@ -607,7 +607,7 @@ const
 char
 *
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mRecursiveMutex
 )
@@ -619,7 +619,7 @@ const
 char
 *
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mRecursiveMutex
 )
@@ -631,7 +631,7 @@ const
 char
 *
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mRecursiveMutex
 )
@@ -644,7 +644,7 @@ nsACString
 &
 line
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mRecursiveMutex
 )
@@ -664,7 +664,7 @@ line
 bool
 originalFromNetHeaders
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mRecursiveMutex
 )
@@ -686,7 +686,7 @@ uint32_t
 result
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 mRecursiveMutex
 )
@@ -761,7 +761,7 @@ ExpiresInPast_locked
 (
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 mRecursiveMutex
 )
@@ -779,7 +779,7 @@ uint32_t
 result
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 mRecursiveMutex
 )
@@ -797,7 +797,7 @@ uint32_t
 result
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 mRecursiveMutex
 )
@@ -815,7 +815,7 @@ uint32_t
 result
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 mRecursiveMutex
 )
@@ -833,7 +833,7 @@ uint32_t
 result
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 mRecursiveMutex
 )
@@ -851,7 +851,7 @@ uint32_t
 result
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 mRecursiveMutex
 )
@@ -880,7 +880,7 @@ uint32_t
 result
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 mRecursiveMutex
 )
@@ -901,7 +901,7 @@ NoCache_locked
 (
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 mRecursiveMutex
 )
@@ -924,14 +924,14 @@ private
 :
 nsHttpHeaderArray
 mHeaders
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )
 ;
 HttpVersion
 mVersion
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )
@@ -944,7 +944,7 @@ v1_1
 ;
 uint16_t
 mStatus
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )
@@ -954,14 +954,14 @@ mRecursiveMutex
 ;
 nsCString
 mStatusText
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )
 ;
 int64_t
 mContentLength
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )
@@ -972,21 +972,21 @@ mRecursiveMutex
 ;
 nsCString
 mContentType
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )
 ;
 nsCString
 mContentCharset
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )
 ;
 bool
 mHasCacheControl
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )
@@ -996,7 +996,7 @@ false
 ;
 bool
 mCacheControlPublic
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )
@@ -1006,7 +1006,7 @@ false
 ;
 bool
 mCacheControlPrivate
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )
@@ -1016,7 +1016,7 @@ false
 ;
 bool
 mCacheControlNoStore
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )
@@ -1026,7 +1026,7 @@ false
 ;
 bool
 mCacheControlNoCache
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )
@@ -1036,7 +1036,7 @@ false
 ;
 bool
 mCacheControlImmutable
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )
@@ -1046,7 +1046,7 @@ false
 ;
 bool
 mCacheControlStaleWhileRevalidateSet
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )
@@ -1056,7 +1056,7 @@ false
 ;
 uint32_t
 mCacheControlStaleWhileRevalidate
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )
@@ -1066,7 +1066,7 @@ mRecursiveMutex
 ;
 bool
 mCacheControlMaxAgeSet
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )
@@ -1076,7 +1076,7 @@ false
 ;
 uint32_t
 mCacheControlMaxAge
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )
@@ -1086,7 +1086,7 @@ mRecursiveMutex
 ;
 bool
 mPragmaNoCache
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )
@@ -1107,7 +1107,7 @@ mRecursiveMutex
 ;
 bool
 mInVisitHeaders
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mRecursiveMutex
 )

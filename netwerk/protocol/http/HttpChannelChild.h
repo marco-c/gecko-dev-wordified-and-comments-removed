@@ -1217,7 +1217,7 @@ RefPtr
 HttpBackgroundChannelChild
 >
 mBgChild
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mBgChildMutex
 )
@@ -1227,7 +1227,7 @@ nsCOMPtr
 nsIRunnable
 >
 mBgInitFailCallback
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mBgChildMutex
 )
@@ -1242,7 +1242,7 @@ nsCOMPtr
 nsIEventTarget
 >
 mODATarget
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mEventTargetMutex
 )

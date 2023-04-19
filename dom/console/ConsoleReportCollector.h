@@ -313,7 +313,7 @@ nsTArray
 PendingReport
 >
 mPendingReports
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )

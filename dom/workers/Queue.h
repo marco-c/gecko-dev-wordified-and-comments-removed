@@ -244,7 +244,7 @@ Compact
 }
 ;
 class
-MOZ_CAPABILITY
+CAPABILITY
 LockingWithMutex
 {
 mozilla
@@ -274,7 +274,7 @@ void
 Lock
 (
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 )
 {
@@ -289,7 +289,7 @@ void
 Unlock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {
@@ -301,7 +301,7 @@ Unlock
 ;
 }
 class
-MOZ_SCOPED_CAPABILITY
+SCOPED_CAPABILITY
 AutoLock
 {
 LockingWithMutex
@@ -317,7 +317,7 @@ LockingWithMutex
 &
 aHost
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 aHost
 )
@@ -338,7 +338,7 @@ Lock
 AutoLock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {

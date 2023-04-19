@@ -390,7 +390,7 @@ m_threadLock
 PRThread
 *
 m_databaseLoaderThread
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 m_threadLock
 )

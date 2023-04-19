@@ -158,7 +158,7 @@ size
 #
 endif
 struct
-MOZ_CAPABILITY
+CAPABILITY
 Mutex
 {
 #
@@ -332,7 +332,7 @@ void
 Lock
 (
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 )
 {
@@ -401,7 +401,7 @@ void
 Unlock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {
@@ -500,7 +500,7 @@ void
 Lock
 (
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 )
 {
@@ -516,7 +516,7 @@ void
 Unlock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {
@@ -588,7 +588,7 @@ typename
 T
 >
 struct
-MOZ_SCOPED_CAPABILITY
+SCOPED_CAPABILITY
 MOZ_RAII
 AutoLock
 {
@@ -599,7 +599,7 @@ T
 &
 aMutex
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 aMutex
 )
@@ -620,7 +620,7 @@ Lock
 AutoLock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {
