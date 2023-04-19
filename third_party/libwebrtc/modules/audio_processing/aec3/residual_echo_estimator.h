@@ -304,10 +304,6 @@ const
 float
 late_reflections_general_gain_
 ;
-const
-bool
-model_reverb_in_nonlinear_mode_
-;
 std
 :
 :

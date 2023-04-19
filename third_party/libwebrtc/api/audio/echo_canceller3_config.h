@@ -615,6 +615,11 @@ render_post_window_size
 =
 1
 ;
+bool
+model_reverb_in_nonlinear_mode
+=
+true
+;
 }
 echo_model
 ;
