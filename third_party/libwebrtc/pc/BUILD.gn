@@ -309,6 +309,16 @@ rtp_media_utils
 h
 "
 "
+rtp_receiver_proxy
+.
+h
+"
+"
+rtp_sender_proxy
+.
+h
+"
+"
 rtp_transport
 .
 cc
