@@ -48,11 +48,9 @@ h
 #
 include
 "
-rtc_base
+api
 /
-synchronization
-/
-mutex
+sequence_checker
 .
 h
 "
@@ -63,7 +61,7 @@ rtc_base
 /
 synchronization
 /
-sequence_checker
+mutex
 .
 h
 "

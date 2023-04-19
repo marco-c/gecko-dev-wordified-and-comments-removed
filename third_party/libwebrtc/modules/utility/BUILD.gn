@@ -205,6 +205,17 @@ module_api
 .
 /
 api
+:
+sequence_checker
+"
+"
+.
+.
+/
+.
+.
+/
+api
 /
 task_queue
 "
