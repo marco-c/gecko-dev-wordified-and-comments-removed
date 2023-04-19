@@ -521,8 +521,7 @@ process_thread
 )
 use_task_queue_pacer_
 (
-!
-IsDisabled
+IsEnabled
 (
 trials
 "
