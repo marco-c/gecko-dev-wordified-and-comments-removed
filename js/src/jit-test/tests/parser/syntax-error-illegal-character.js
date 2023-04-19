@@ -9,6 +9,19 @@ js
 "
 )
 ;
+if
+(
+!
+getBuildConfiguration
+(
+)
+[
+'
+decorators
+'
+]
+)
+{
 function
 check_syntax_error_at
 (
@@ -64,6 +77,7 @@ check_syntax_error_at
 false
 )
 ;
+}
 function
 check_syntax_error_ellipsis
 (

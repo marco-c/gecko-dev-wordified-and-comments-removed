@@ -1,3 +1,14 @@
+load
+(
+libdir
++
+"
+asserts
+.
+js
+"
+)
+;
 Reflect
 .
 parse
