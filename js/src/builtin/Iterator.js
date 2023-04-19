@@ -17,7 +17,6 @@ value
 const
 result
 =
-(
 arguments
 .
 length
@@ -43,7 +42,6 @@ iteratorRecord
 .
 iterator
 value
-)
 )
 ;
 if
