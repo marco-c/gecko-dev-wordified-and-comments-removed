@@ -198,11 +198,6 @@ start
 insert_pos_
 ;
 }
-size_t
-count
-=
-0
-;
 std
 :
 :
@@ -274,10 +269,6 @@ ssrc
 )
 )
 {
-+
-+
-count
-;
 consumer
 (
 ssrc
