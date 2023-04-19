@@ -974,11 +974,6 @@ CSSOrderAwareFrameIterator
 cpp
 "
 "
-DetailsFrame
-.
-cpp
-"
-"
 FrameChildList
 .
 cpp
