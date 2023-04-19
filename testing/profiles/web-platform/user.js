@@ -479,3 +479,15 @@ enabled
 true
 )
 ;
+user_pref
+(
+"
+remote
+.
+experimental
+.
+enabled
+"
+true
+)
+;
