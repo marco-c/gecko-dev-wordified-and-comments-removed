@@ -11838,6 +11838,10 @@ const
 CSSPoint
 &
 aScrollPosition
+ScrollSnapTargetIds
+&
+&
+aLastSnapTargetIds
 )
 {
 nsPoint
@@ -11902,6 +11906,13 @@ ScrollOrigin
 :
 :
 Apz
+std
+:
+:
+move
+(
+aLastSnapTargetIds
+)
 }
 )
 ;
