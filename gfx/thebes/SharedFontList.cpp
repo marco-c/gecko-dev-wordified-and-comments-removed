@@ -6412,9 +6412,10 @@ aVal
 const
 {
 return
-mTarget
-.
 Compare
+(
+mTarget
+nsDependentCString
 (
 aVal
 .
@@ -6425,6 +6426,7 @@ Key
 BeginReading
 (
 mList
+)
 )
 )
 ;
@@ -6866,9 +6868,10 @@ aVal
 const
 {
 return
-mTarget
-.
 Compare
+(
+mTarget
+nsDependentCString
 (
 aVal
 .
@@ -6877,6 +6880,7 @@ mKey
 BeginReading
 (
 mList
+)
 )
 )
 ;

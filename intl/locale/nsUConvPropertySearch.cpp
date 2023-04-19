@@ -66,13 +66,15 @@ aProperty
 const
 {
 return
-mKey
-.
 Compare
+(
+mKey
+nsDependentCString
 (
 aProperty
 .
 mKey
+)
 )
 ;
 }
