@@ -641,12 +641,16 @@ Config
 &
 )
 ;
-explicit
 Config
 (
 Transport
 *
 rtcp_send_transport
+VideoDecoderFactory
+*
+decoder_factory
+=
+nullptr
 )
 ;
 Config

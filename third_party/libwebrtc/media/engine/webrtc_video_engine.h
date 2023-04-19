@@ -2085,12 +2085,6 @@ VideoReceiveStream
 :
 Config
 config
-webrtc
-:
-:
-VideoDecoderFactory
-*
-decoder_factory
 bool
 default_stream
 const
@@ -2394,14 +2388,6 @@ webrtc
 FlexfecReceiveStream
 *
 flexfec_stream_
-;
-webrtc
-:
-:
-VideoDecoderFactory
-*
-const
-decoder_factory_
 ;
 webrtc
 :
