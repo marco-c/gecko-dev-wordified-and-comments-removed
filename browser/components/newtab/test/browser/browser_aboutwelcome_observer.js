@@ -10,7 +10,7 @@ AboutWelcomeParent
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -22,9 +22,7 @@ actors
 /
 AboutWelcomeParent
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

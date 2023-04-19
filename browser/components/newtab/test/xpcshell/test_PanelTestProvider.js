@@ -5,7 +5,7 @@ PanelTestProvider
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -20,9 +20,7 @@ lib
 /
 PanelTestProvider
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

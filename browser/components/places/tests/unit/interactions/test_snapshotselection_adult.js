@@ -68,9 +68,9 @@ com
 /
 "
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 this
 {
@@ -89,9 +89,7 @@ lib
 /
 FilterAdult
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

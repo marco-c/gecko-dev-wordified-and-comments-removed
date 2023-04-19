@@ -5,7 +5,7 @@ ASRouter
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -20,9 +20,7 @@ lib
 /
 ASRouter
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -59,7 +57,7 @@ CFRMessageProvider
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -74,9 +72,7 @@ lib
 /
 CFRMessageProvider
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -87,7 +83,7 @@ CFRPageActions
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -102,9 +98,7 @@ lib
 /
 CFRPageActions
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

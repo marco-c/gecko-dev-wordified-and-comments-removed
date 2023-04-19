@@ -10,7 +10,7 @@ InfoBar
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -25,9 +25,7 @@ lib
 /
 InfoBar
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -38,7 +36,7 @@ CFRMessageProvider
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -53,9 +51,7 @@ lib
 /
 CFRMessageProvider
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -66,7 +62,7 @@ ASRouter
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -81,9 +77,7 @@ lib
 /
 ASRouter
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

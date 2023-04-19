@@ -78,11 +78,15 @@ keywords
 .
 *
 /
-import
+const
 {
 XPCOMUtils
 }
-from
+=
+ChromeUtils
+.
+importESModule
+(
 "
 resource
 :
@@ -98,6 +102,7 @@ sys
 .
 mjs
 "
+)
 ;
 import
 {

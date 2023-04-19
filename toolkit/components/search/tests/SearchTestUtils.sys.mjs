@@ -3,11 +3,15 @@ use
 strict
 "
 ;
-import
+const
 {
 XPCOMUtils
 }
-from
+=
+ChromeUtils
+.
+importESModule
+(
 "
 resource
 :
@@ -23,6 +27,7 @@ sys
 .
 mjs
 "
+)
 ;
 const
 {

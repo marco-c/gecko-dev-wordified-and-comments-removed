@@ -11,7 +11,7 @@ MessageLoaderUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -26,9 +26,7 @@ lib
 /
 ASRouter
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -39,7 +37,7 @@ PanelTestProvider
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -54,9 +52,7 @@ lib
 /
 PanelTestProvider
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -91,7 +87,7 @@ RemoteL10n
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -106,9 +102,7 @@ lib
 /
 RemoteL10n
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

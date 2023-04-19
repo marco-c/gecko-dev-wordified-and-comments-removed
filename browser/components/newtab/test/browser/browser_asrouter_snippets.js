@@ -10,7 +10,7 @@ ASRouter
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -25,9 +25,7 @@ lib
 /
 ASRouter
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -38,7 +36,7 @@ TelemetryFeed
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -53,9 +51,7 @@ lib
 /
 TelemetryFeed
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

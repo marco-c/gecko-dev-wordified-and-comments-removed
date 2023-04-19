@@ -54,9 +54,9 @@ lazy
 {
 }
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 lazy
 {
@@ -75,9 +75,7 @@ lib
 /
 ASRouterTargeting
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

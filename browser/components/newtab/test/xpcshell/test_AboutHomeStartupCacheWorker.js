@@ -144,7 +144,7 @@ PREFS_CONFIG
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -159,9 +159,7 @@ lib
 /
 ActivityStream
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

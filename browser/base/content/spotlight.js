@@ -19,9 +19,9 @@ browser
 .
 ownerGlobal
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 this
 {
@@ -37,9 +37,7 @@ actors
 /
 AboutWelcomeParent
 .
-sys
-.
-mjs
+jsm
 "
 RemoteL10n
 :
@@ -56,9 +54,7 @@ lib
 /
 RemoteL10n
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

@@ -5,7 +5,7 @@ ASRouterTriggerListeners
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -20,9 +20,7 @@ lib
 /
 ASRouterTriggerListeners
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

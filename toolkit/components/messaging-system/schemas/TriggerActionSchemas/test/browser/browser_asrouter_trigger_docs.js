@@ -40,7 +40,7 @@ ASRouterTriggerListeners
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -55,9 +55,7 @@ lib
 /
 ASRouterTriggerListeners
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -68,7 +66,7 @@ CFRMessageProvider
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -83,9 +81,7 @@ lib
 /
 CFRMessageProvider
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

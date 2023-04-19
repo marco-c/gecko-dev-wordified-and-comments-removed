@@ -5,7 +5,7 @@ PanelTestProvider
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -20,9 +20,7 @@ lib
 /
 PanelTestProvider
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -33,7 +31,7 @@ MomentsPageHub
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -48,9 +46,7 @@ lib
 /
 MomentsPageHub
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -87,7 +83,7 @@ ASRouter
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -102,9 +98,7 @@ lib
 /
 ASRouter
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

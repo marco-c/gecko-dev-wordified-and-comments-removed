@@ -6,7 +6,7 @@ QueryCache
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -21,9 +21,7 @@ lib
 /
 ASRouterTargeting
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -58,7 +56,7 @@ CFRMessageProvider
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -73,9 +71,7 @@ lib
 /
 CFRMessageProvider
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
