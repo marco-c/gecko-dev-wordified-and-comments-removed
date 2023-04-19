@@ -97,6 +97,7 @@ SocketAddress
 remote_address
 )
 ;
+explicit
 AsyncStunTCPSocket
 (
 rtc
@@ -105,8 +106,6 @@ rtc
 Socket
 *
 socket
-bool
-listen
 )
 ;
 int
