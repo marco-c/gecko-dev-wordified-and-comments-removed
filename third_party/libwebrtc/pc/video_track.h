@@ -321,7 +321,8 @@ ContentHint
 content_hint_
 RTC_GUARDED_BY
 (
-worker_thread_
+&
+signaling_thread_
 )
 ;
 bool

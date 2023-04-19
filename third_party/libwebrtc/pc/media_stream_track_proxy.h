@@ -164,12 +164,12 @@ bool
 set_enabled
 bool
 )
-PROXY_SECONDARY_CONSTMETHOD0
+PROXY_CONSTMETHOD0
 (
 ContentHint
 content_hint
 )
-PROXY_SECONDARY_METHOD1
+PROXY_METHOD1
 (
 void
 set_content_hint
