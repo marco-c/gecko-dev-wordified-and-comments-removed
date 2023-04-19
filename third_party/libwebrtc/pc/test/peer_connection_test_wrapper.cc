@@ -2147,10 +2147,6 @@ stream
 AddTrack
 (
 audio_track
-.
-get
-(
-)
 )
 ;
 }
@@ -2245,10 +2241,6 @@ stream
 AddTrack
 (
 video_track
-.
-get
-(
-)
 )
 ;
 }

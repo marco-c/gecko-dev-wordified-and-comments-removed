@@ -1435,10 +1435,6 @@ local_stream_
 AddTrack
 (
 video_track_
-.
-get
-(
-)
 )
 )
 ;
@@ -1488,10 +1484,6 @@ local_stream_
 AddTrack
 (
 audio_track_
-.
-get
-(
-)
 )
 )
 ;
@@ -4942,10 +4934,6 @@ local_stream_
 AddTrack
 (
 audio_track_
-.
-get
-(
-)
 )
 )
 ;
