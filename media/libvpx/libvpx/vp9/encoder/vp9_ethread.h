@@ -97,6 +97,15 @@ rows
 VP9RowMTSync
 ;
 void
+vp9_encode_free_mt_data
+(
+struct
+VP9_COMP
+*
+cpi
+)
+;
+void
 vp9_encode_tiles_mt
 (
 struct

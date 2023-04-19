@@ -448,6 +448,13 @@ pool
 int
 i
 ;
+if
+(
+!
+pool
+)
+return
+;
 for
 (
 i
@@ -665,6 +672,13 @@ VP9_COMMON
 cm
 )
 {
+if
+(
+cm
+-
+>
+free_mi
+)
 cm
 -
 >

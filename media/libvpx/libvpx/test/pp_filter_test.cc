@@ -610,7 +610,6 @@ flimits_
 )
 ;
 }
-;
 TEST_P
 (
 VpxPostProcDownAndAcrossMbRowTest
@@ -1073,7 +1072,6 @@ flimits_
 )
 ;
 }
-;
 class
 VpxMbPostProcAcrossIpTest
 :

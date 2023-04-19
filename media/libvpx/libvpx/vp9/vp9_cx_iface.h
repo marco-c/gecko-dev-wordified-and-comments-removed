@@ -49,6 +49,8 @@ int
 target_bitrate
 int
 encode_speed
+int
+target_level
 vpx_enc_pass
 enc_pass
 )

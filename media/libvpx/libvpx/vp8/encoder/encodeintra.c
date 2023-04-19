@@ -82,9 +82,6 @@ h
 int
 vp8_encode_intra
 (
-VP8_COMP
-*
-cpi
 MACROBLOCK
 *
 x
@@ -99,11 +96,6 @@ int
 intra_pred_var
 =
 0
-;
-(
-void
-)
-cpi
 ;
 if
 (

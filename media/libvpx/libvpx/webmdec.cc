@@ -1399,6 +1399,13 @@ delete
 ]
 buffer
 ;
+webm_ctx
+-
+>
+buffer
+=
+nullptr
+;
 get_first_cluster
 (
 webm_ctx

@@ -527,6 +527,9 @@ show_arf_as_gld
 int
 constrain_gf_key_freq_onepass_vbr
 ;
+int
+gop_global_index
+;
 }
 RATE_CONTROL
 ;

@@ -72,7 +72,7 @@ decoder
 )
 iter_
 (
-NULL
+nullptr
 )
 {
 }

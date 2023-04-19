@@ -9381,7 +9381,6 @@ src
 avx2
 0
 )
-;
 HIGH_FUN_CONV_1D
 (
 vert
@@ -9402,13 +9401,11 @@ num_taps
 avx2
 0
 )
-;
 HIGH_FUN_CONV_2D
 (
 avx2
 0
 )
-;
 highbd_filter8_1dfunction
 vpx_highbd_filter_block1d4_h8_avg_sse2
 ;
@@ -9452,7 +9449,6 @@ avg_
 avx2
 1
 )
-;
 HIGH_FUN_CONV_1D
 (
 avg_vert
@@ -9474,14 +9470,12 @@ avg_
 avx2
 1
 )
-;
 HIGH_FUN_CONV_2D
 (
 avg_
 avx2
 1
 )
-;
 #
 undef
 HIGHBD_FUNC

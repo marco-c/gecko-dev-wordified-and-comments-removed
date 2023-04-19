@@ -24,9 +24,6 @@ endif
 int
 vp8_encode_intra
 (
-VP8_COMP
-*
-cpi
 MACROBLOCK
 *
 x

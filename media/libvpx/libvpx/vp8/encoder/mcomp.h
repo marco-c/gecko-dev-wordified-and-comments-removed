@@ -192,12 +192,8 @@ vp8_find_best_half_pixel_step
 fractional_mv_step_fp
 vp8_skip_fractional_mv_step
 ;
-typedef
 int
-(
-*
-vp8_full_search_fn_t
-)
+vp8_full_search_sad
 (
 MACROBLOCK
 *

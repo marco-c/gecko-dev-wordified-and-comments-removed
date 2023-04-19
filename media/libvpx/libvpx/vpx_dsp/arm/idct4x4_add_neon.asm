@@ -117,12 +117,6 @@ Block
 CODE
 READONLY
 ;
-name
-this
-block
-of
-code
-;
 void
 vpx_idct4x4_16_add_neon
 (

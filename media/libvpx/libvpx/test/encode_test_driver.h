@@ -203,7 +203,7 @@ encoder
 )
 iter_
 (
-NULL
+nullptr
 )
 {
 }
@@ -1002,10 +1002,6 @@ frame_flags_
 (
 0
 )
-last_pts_
-(
-0
-)
 {
 cfg_
 .
@@ -1288,9 +1284,6 @@ init_flags_
 unsigned
 long
 frame_flags_
-;
-vpx_codec_pts_t
-last_pts_
 ;
 }
 ;

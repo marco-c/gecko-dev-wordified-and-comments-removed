@@ -283,16 +283,12 @@ mvcost
 2
 ]
 ;
-DECLARE_ALIGNED
-(
-16
 int
 *
 mvsadcost
 [
 2
 ]
-)
 ;
 int
 (

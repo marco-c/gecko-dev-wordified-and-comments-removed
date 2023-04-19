@@ -6604,10 +6604,7 @@ mv_row_max
 ;
 thissme
 =
-cpi
--
->
-full_search_sad
+vp8_full_search_sad
 (
 x
 c

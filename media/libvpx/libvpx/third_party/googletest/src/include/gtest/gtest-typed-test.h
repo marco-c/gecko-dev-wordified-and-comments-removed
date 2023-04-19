@@ -1,9 +1,9 @@
 #
 ifndef
-GTEST_INCLUDE_GTEST_GTEST_TYPED_TEST_H_
+GOOGLETEST_INCLUDE_GTEST_GTEST_TYPED_TEST_H_
 #
 define
-GTEST_INCLUDE_GTEST_GTEST_TYPED_TEST_H_
+GOOGLETEST_INCLUDE_GTEST_GTEST_TYPED_TEST_H_
 #
 if
 0
@@ -238,9 +238,6 @@ util
 .
 h
 "
-#
-if
-GTEST_HAS_TYPED_TEST
 #
 define
 GTEST_TYPE_PARAMS_
@@ -565,11 +562,6 @@ TypedTestCaseIsDeprecated
 TYPED_TEST_SUITE
 #
 endif
-#
-endif
-#
-if
-GTEST_HAS_TYPED_TEST_P
 #
 define
 GTEST_SUITE_NAMESPACE_
@@ -1074,8 +1066,6 @@ InstantiateTypedTestCase_P_IsDeprecated
 ;
 \
 INSTANTIATE_TYPED_TEST_SUITE_P
-#
-endif
 #
 endif
 #

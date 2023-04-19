@@ -30,12 +30,12 @@ h
 static
 INLINE
 void
-storeu_uint32
+storeu_int32
 (
 void
 *
 dst
-uint32_t
+int32_t
 v
 )
 {
@@ -53,8 +53,8 @@ v
 }
 static
 INLINE
-uint32_t
-loadu_uint32
+int32_t
+loadu_int32
 (
 const
 void
@@ -62,7 +62,7 @@ void
 src
 )
 {
-uint32_t
+int32_t
 v
 ;
 memcpy

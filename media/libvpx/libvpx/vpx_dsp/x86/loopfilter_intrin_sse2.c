@@ -1737,7 +1737,7 @@ ps1ps0
 x0
 )
 ;
-storeu_uint32
+storeu_int32
 (
 s
 +
@@ -1760,7 +1760,7 @@ ps1ps0
 4
 )
 ;
-storeu_uint32
+storeu_int32
 (
 s
 +
@@ -1783,7 +1783,7 @@ ps1ps0
 4
 )
 ;
-storeu_uint32
+storeu_int32
 (
 s
 +
@@ -1806,7 +1806,7 @@ ps1ps0
 4
 )
 ;
-storeu_uint32
+storeu_int32
 (
 s
 +
@@ -1821,7 +1821,7 @@ ps1ps0
 )
 )
 ;
-storeu_uint32
+storeu_int32
 (
 s
 +
@@ -1844,7 +1844,7 @@ qs1qs0
 4
 )
 ;
-storeu_uint32
+storeu_int32
 (
 s
 +
@@ -1867,7 +1867,7 @@ qs1qs0
 4
 )
 ;
-storeu_uint32
+storeu_int32
 (
 s
 +
@@ -1890,7 +1890,7 @@ qs1qs0
 4
 )
 ;
-storeu_uint32
+storeu_int32
 (
 s
 +

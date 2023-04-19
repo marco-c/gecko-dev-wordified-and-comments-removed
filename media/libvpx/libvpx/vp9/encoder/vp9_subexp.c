@@ -999,7 +999,7 @@ delp
 )
 ;
 }
-int
+int64_t
 vp9_prob_diff_update_savings_search
 (
 const
@@ -1017,7 +1017,7 @@ upd
 )
 {
 const
-int
+int64_t
 old_b
 =
 cost_branch256
@@ -1026,7 +1026,7 @@ ct
 oldp
 )
 ;
-int
+int64_t
 bestsavings
 =
 0
@@ -1098,7 +1098,7 @@ step
 )
 {
 const
-int
+int64_t
 new_b
 =
 cost_branch256
@@ -1108,7 +1108,7 @@ newp
 )
 ;
 const
-int
+int64_t
 update_b
 =
 prob_diff_update_cost
@@ -1120,7 +1120,7 @@ oldp
 upd_cost
 ;
 const
-int
+int64_t
 savings
 =
 old_b
@@ -1156,7 +1156,7 @@ return
 bestsavings
 ;
 }
-int
+int64_t
 vp9_prob_diff_update_savings_search_model
 (
 const
@@ -1176,7 +1176,7 @@ int
 stepsize
 )
 {
-int
+int64_t
 i
 old_b
 new_b
@@ -1184,11 +1184,11 @@ update_b
 savings
 bestsavings
 ;
-int
+int64_t
 newp
 ;
 const
-int
+int64_t
 step_sign
 =
 *
@@ -1202,7 +1202,7 @@ oldp
 1
 ;
 const
-int
+int64_t
 step
 =
 stepsize
@@ -1210,7 +1210,7 @@ stepsize
 step_sign
 ;
 const
-int
+int64_t
 upd_cost
 =
 vp9_cost_one
@@ -1369,6 +1369,9 @@ ct
 2
 *
 PIVOT_NODE
+(
+vpx_prob
+)
 newp
 )
 ;
@@ -1408,6 +1411,9 @@ update_b
 =
 prob_diff_update_cost
 (
+(
+vpx_prob
+)
 newp
 oldp
 )
@@ -1435,6 +1441,9 @@ savings
 ;
 bestnewp
 =
+(
+vpx_prob
+)
 newp
 ;
 }
@@ -1489,7 +1498,7 @@ ct
 )
 ;
 const
-int
+int64_t
 savings
 =
 vp9_prob_diff_update_savings_search

@@ -484,7 +484,6 @@ postproc
 )
 ;
 }
-;
 if
 (
 vpx_codec_decode

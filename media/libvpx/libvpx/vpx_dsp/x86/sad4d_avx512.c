@@ -43,7 +43,7 @@ ref_array
 int
 ref_stride
 uint32_t
-res
+sad_array
 [
 4
 ]
@@ -401,7 +401,7 @@ __m128i
 *
 )
 (
-res
+sad_array
 )
 sum128
 )

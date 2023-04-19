@@ -963,7 +963,6 @@ x87_orig_mode
 x87_set_double_precision
 (
 )
-;
 #
 define
 FLOATING_POINT_RESTORE

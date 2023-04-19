@@ -3442,7 +3442,6 @@ src
 ssse3
 0
 )
-;
 FUN_CONV_1D
 (
 vert
@@ -3463,7 +3462,6 @@ num_taps
 ssse3
 0
 )
-;
 FUN_CONV_1D
 (
 avg_horiz
@@ -3475,7 +3473,6 @@ avg_
 ssse3
 1
 )
-;
 FUN_CONV_1D
 (
 avg_vert
@@ -3497,7 +3494,6 @@ avg_
 ssse3
 1
 )
-;
 static
 void
 filter_horiz_w8_ssse3
@@ -5548,11 +5544,9 @@ FUN_CONV_2D
 ssse3
 0
 )
-;
 FUN_CONV_2D
 (
 avg_
 ssse3
 1
 )
-;

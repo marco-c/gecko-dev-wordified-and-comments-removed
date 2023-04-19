@@ -1069,7 +1069,7 @@ error_code
 ;
 }
 static
-void
+vpx_codec_err_t
 init_buffer_callbacks
 (
 vpx_codec_alg_priv_t
@@ -1206,6 +1206,7 @@ pool
 int_frame_buffers
 )
 )
+{
 vpx_internal_error
 (
 &
@@ -1224,6 +1225,10 @@ buffers
 "
 )
 ;
+return
+VPX_CODEC_MEM_ERROR
+;
+}
 pool
 -
 >
@@ -1236,6 +1241,9 @@ pool
 int_frame_buffers
 ;
 }
+return
+VPX_CODEC_OK
+;
 }
 static
 void
@@ -1639,13 +1647,11 @@ ctx
 postproc_cfg
 )
 ;
+return
 init_buffer_callbacks
 (
 ctx
 )
-;
-return
-VPX_CODEC_OK
 ;
 }
 static

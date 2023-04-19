@@ -161,6 +161,12 @@ num_frames_
 17
 ;
 const
+int
+target_level_
+=
+LEVEL_UNKNOWN
+;
+const
 std
 :
 :
@@ -198,6 +204,7 @@ frame_rate_num_
 frame_rate_den_
 target_bitrate_
 num_frames_
+target_level_
 in_file_path_str_
 .
 c_str
@@ -349,6 +356,7 @@ frame_rate_num_
 frame_rate_den_
 target_bitrate_
 num_frames_
+target_level_
 in_file_path_str_
 .
 c_str
@@ -565,6 +573,7 @@ frame_rate_num_
 frame_rate_den_
 target_bitrate_
 num_frames_
+target_level_
 in_file_path_str_
 .
 c_str
@@ -610,6 +619,7 @@ frame_rate_num_
 frame_rate_den_
 target_bitrate_
 num_frames_
+target_level_
 in_file_path_str_
 .
 c_str
@@ -871,6 +881,7 @@ frame_rate_num_
 frame_rate_den_
 target_bitrate_
 num_frames_
+target_level_
 in_file_path_str_
 .
 c_str
@@ -1056,6 +1067,7 @@ frame_rate_num_
 frame_rate_den_
 target_bitrate_
 num_frames_
+target_level_
 in_file_path_str_
 .
 c_str
@@ -1262,6 +1274,7 @@ frame_rate_num_
 frame_rate_den_
 target_bitrate_
 num_frames_
+target_level_
 in_file_path_str_
 .
 c_str
@@ -1413,6 +1426,7 @@ frame_rate_num_
 frame_rate_den_
 target_bitrate_
 num_frames_
+target_level_
 in_file_path_str_
 .
 c_str
@@ -1541,6 +1555,7 @@ frame_rate_num_
 frame_rate_den_
 target_bitrate_
 num_frames_
+target_level_
 in_file_path_str_
 .
 c_str
@@ -1733,6 +1748,7 @@ frame_rate_num_
 frame_rate_den_
 target_bitrate_
 num_frames_
+target_level_
 in_file_path_str_
 .
 c_str
@@ -1884,6 +1900,7 @@ frame_rate_num_
 frame_rate_den_
 target_bitrate_
 num_frames_
+target_level_
 in_file_path_str_
 .
 c_str
@@ -2339,6 +2356,7 @@ frame_rate_num_
 frame_rate_den_
 target_bitrate_
 num_frames_
+target_level_
 in_file_path_str_
 .
 c_str
@@ -2469,6 +2487,7 @@ frame_rate_num_
 frame_rate_den_
 target_bitrate_
 num_frames_
+target_level_
 in_file_path_str_
 .
 c_str
@@ -2753,6 +2772,7 @@ frame_rate_num_
 frame_rate_den_
 target_bitrate_
 num_frames_
+target_level_
 in_file_path_str_
 .
 c_str
@@ -2926,6 +2946,7 @@ frame_rate_num_
 frame_rate_den_
 target_bitrate_
 num_frames_
+target_level_
 in_file_path_str_
 .
 c_str
@@ -3086,6 +3107,7 @@ frame_rate_num_
 frame_rate_den_
 target_bitrate_
 num_frames_
+target_level_
 in_file_path_str_
 .
 c_str
@@ -3388,6 +3410,7 @@ frame_rate_num_
 frame_rate_den_
 target_bitrate_
 num_frames_
+target_level_
 in_file_path_str_
 .
 c_str
@@ -3496,6 +3519,7 @@ frame_rate_num_
 frame_rate_den_
 target_bitrate_
 num_frames_
+target_level_
 in_file_path_str_
 .
 c_str

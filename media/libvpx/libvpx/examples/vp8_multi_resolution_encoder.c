@@ -1707,9 +1707,9 @@ Invalid
 resolution
 :
 %
-ldx
+dx
 %
-ld
+d
 "
 width
 height
@@ -1941,6 +1941,9 @@ or
 n
 "
 num_temporal_layers
+[
+i
+]
 )
 ;
 }
@@ -2558,6 +2561,12 @@ Failed
 to
 allocate
 image
+(
+%
+dx
+%
+d
+)
 "
 cfg
 [

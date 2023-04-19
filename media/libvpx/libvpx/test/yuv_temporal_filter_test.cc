@@ -4855,13 +4855,11 @@ WRAP_HIGHBD_FUNC
 vp9_highbd_apply_temporal_filter_c
 10
 )
-;
 WRAP_HIGHBD_FUNC
 (
 vp9_highbd_apply_temporal_filter_c
 12
 )
-;
 INSTANTIATE_TEST_SUITE_P
 (
 C
@@ -4896,13 +4894,11 @@ WRAP_HIGHBD_FUNC
 vp9_highbd_apply_temporal_filter_sse4_1
 10
 )
-;
 WRAP_HIGHBD_FUNC
 (
 vp9_highbd_apply_temporal_filter_sse4_1
 12
 )
-;
 INSTANTIATE_TEST_SUITE_P
 (
 SSE4_1

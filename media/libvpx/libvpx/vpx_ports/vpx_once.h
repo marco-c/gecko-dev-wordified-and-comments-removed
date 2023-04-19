@@ -136,6 +136,7 @@ void
 )
 {
 static
+volatile
 int
 done
 ;
@@ -227,6 +228,7 @@ void
 )
 {
 static
+volatile
 int
 done
 ;

@@ -20,6 +20,10 @@ VPX_ARCH_PPC
 0
 %
 define
+VPX_ARCH_LOONGARCH
+0
+%
+define
 HAVE_NEON
 0
 %
@@ -85,6 +89,14 @@ HAVE_VSX
 %
 define
 HAVE_MMI
+0
+%
+define
+HAVE_LSX
+0
+%
+define
+HAVE_LASX
 0
 %
 define

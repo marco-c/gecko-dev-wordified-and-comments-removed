@@ -95,8 +95,7 @@ prob
 )
 static
 INLINE
-unsigned
-int
+uint64_t
 cost_branch256
 (
 const
@@ -111,6 +110,9 @@ p
 )
 {
 return
+(
+uint64_t
+)
 ct
 [
 0
@@ -121,6 +123,9 @@ vp9_cost_zero
 p
 )
 +
+(
+uint64_t
+)
 ct
 [
 1

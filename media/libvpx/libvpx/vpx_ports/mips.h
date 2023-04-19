@@ -1,9 +1,9 @@
 #
 ifndef
-VPX_PORTS_MIPS_H_
+VPX_VPX_PORTS_MIPS_H_
 #
 define
-VPX_PORTS_MIPS_H_
+VPX_VPX_PORTS_MIPS_H_
 #
 ifdef
 __cplusplus

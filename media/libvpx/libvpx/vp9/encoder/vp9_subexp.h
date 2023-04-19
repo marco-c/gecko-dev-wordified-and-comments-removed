@@ -58,7 +58,7 @@ ct
 ]
 )
 ;
-int
+int64_t
 vp9_prob_diff_update_savings_search
 (
 const
@@ -75,7 +75,7 @@ vpx_prob
 upd
 )
 ;
-int
+int64_t
 vp9_prob_diff_update_savings_search_model
 (
 const

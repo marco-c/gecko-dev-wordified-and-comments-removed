@@ -3769,8 +3769,10 @@ void
 vpx_int_pro_row_sse2
 (
 int16_t
-*
 hbuf
+[
+16
+]
 const
 uint8_t
 *

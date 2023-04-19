@@ -133,7 +133,6 @@ quantize_
 15
 coeff
 ncoeff
-skip
 round
 quant
 \
@@ -160,9 +159,6 @@ coeffmp
 movifnidn
 ncoeffq
 ncoeffmp
-mov
-r2
-dequantmp
 movifnidn
 roundq
 roundmp
@@ -187,6 +183,9 @@ quantq
 m2
 =
 quant
+mov
+r2
+dequantmp
 %
 ifidn
 %

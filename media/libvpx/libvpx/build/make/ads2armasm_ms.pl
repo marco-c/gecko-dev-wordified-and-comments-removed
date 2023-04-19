@@ -229,7 +229,6 @@ thumb
 FixThumbInstructions
 (
 _
-1
 )
 ;
 s

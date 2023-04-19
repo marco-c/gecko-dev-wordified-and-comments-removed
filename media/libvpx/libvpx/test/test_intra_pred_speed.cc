@@ -344,7 +344,7 @@ i
 <
 2
 *
-kBPS
+block_size
 ;
 +
 +

@@ -55,6 +55,16 @@ VPX_DISABLE_CTRL_TYPECHECKS
 include
 "
 .
+.
+/
+tools_common
+.
+h
+"
+#
+include
+"
+.
 /
 vpx_config
 .
@@ -428,6 +438,11 @@ internal
 ;
 }
 static
+VPX_TOOLS_FORMAT_PRINTF
+(
+3
+4
+)
 int
 svc_log
 (
@@ -1593,6 +1608,7 @@ reference
 frame
 but
 %
+d
 layers
 are
 enabled
@@ -3126,6 +3142,10 @@ layers
 *
 temporal
 layers
+(
+%
+d
+)
 exceeds
 the
 maximum

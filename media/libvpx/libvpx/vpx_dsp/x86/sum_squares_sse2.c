@@ -247,9 +247,11 @@ v_zext_mask_q
 _mm_set_epi32
 (
 0
-0xffffffff
+-
+1
 0
-0xffffffff
+-
+1
 )
 ;
 __m128i

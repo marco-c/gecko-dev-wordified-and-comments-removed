@@ -1056,7 +1056,6 @@ while
 (
 0
 )
-;
 static
 INLINE
 void

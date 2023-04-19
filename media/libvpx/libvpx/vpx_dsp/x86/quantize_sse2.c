@@ -68,8 +68,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -151,17 +149,6 @@ eob0
 void
 )
 scan
-;
-(
-void
-)
-skip_block
-;
-assert
-(
-!
-skip_block
-)
 ;
 load_b_values
 (

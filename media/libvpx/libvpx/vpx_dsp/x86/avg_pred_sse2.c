@@ -295,7 +295,7 @@ r
 =
 _mm_set_epi32
 (
-loadu_uint32
+loadu_int32
 (
 ref
 +
@@ -303,7 +303,7 @@ ref
 *
 ref_stride
 )
-loadu_uint32
+loadu_int32
 (
 ref
 +
@@ -311,13 +311,13 @@ ref
 *
 ref_stride
 )
-loadu_uint32
+loadu_int32
 (
 ref
 +
 ref_stride
 )
-loadu_uint32
+loadu_int32
 (
 ref
 )

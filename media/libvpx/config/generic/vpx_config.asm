@@ -39,6 +39,10 @@ VPX_ARCH_PPC
 0
 .
 equ
+VPX_ARCH_LOONGARCH
+0
+.
+equ
 HAVE_NEON
 0
 .
@@ -104,6 +108,14 @@ HAVE_VSX
 .
 equ
 HAVE_MMI
+0
+.
+equ
+HAVE_LSX
+0
+.
+equ
+HAVE_LASX
 0
 .
 equ

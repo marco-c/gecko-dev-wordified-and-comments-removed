@@ -275,6 +275,16 @@ API_SRCS
 yes
 +
 =
+internal
+/
+vpx_ratectrl_rtc
+.
+h
+API_SRCS
+-
+yes
++
+=
 src
 /
 vpx_codec

@@ -389,7 +389,7 @@ vpx_codec_vp8_dx_algo
 #
 else
 return
-NULL
+nullptr
 ;
 #
 endif
@@ -449,7 +449,7 @@ vpx_codec_vp8_cx_algo
 #
 else
 return
-NULL
+nullptr
 ;
 #
 endif
@@ -528,7 +528,7 @@ void
 flags
 ;
 return
-NULL
+nullptr
 ;
 #
 endif
@@ -589,7 +589,7 @@ void
 stats
 ;
 return
-NULL
+nullptr
 ;
 #
 endif
@@ -771,7 +771,7 @@ vpx_codec_vp9_dx_algo
 #
 else
 return
-NULL
+nullptr
 ;
 #
 endif
@@ -831,7 +831,7 @@ vpx_codec_vp9_cx_algo
 #
 else
 return
-NULL
+nullptr
 ;
 #
 endif
@@ -910,7 +910,7 @@ void
 flags
 ;
 return
-NULL
+nullptr
 ;
 #
 endif
@@ -971,7 +971,7 @@ void
 stats
 ;
 return
-NULL
+nullptr
 ;
 #
 endif

@@ -899,8 +899,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -958,8 +956,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -1185,6 +1181,7 @@ qw
 /
 vp9_fht4x4
 sse2
+neon
 /
 ;
 specialize
@@ -1192,6 +1189,7 @@ qw
 /
 vp9_fht8x8
 sse2
+neon
 /
 ;
 specialize
@@ -1199,6 +1197,7 @@ qw
 /
 vp9_fht16x16
 sse2
+neon
 /
 ;
 specialize
@@ -1317,6 +1316,7 @@ qw
 /
 vp9_diamond_search_sad
 avx
+neon
 /
 ;
 #
@@ -1555,8 +1555,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -1601,8 +1599,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 n_coeffs
-int
-skip_block
 const
 int16_t
 *

@@ -1096,10 +1096,10 @@ vp8_prob
 get_sub_mv_ref_prob
 (
 const
-int
+uint32_t
 left
 const
-int
+uint32_t
 above
 )
 {

@@ -74,6 +74,7 @@ dest
 src
 )
 \
+do
 {
 \
 assert
@@ -103,6 +104,10 @@ src
 ;
 \
 }
+while
+(
+0
+)
 #
 define
 vp9_copy_array

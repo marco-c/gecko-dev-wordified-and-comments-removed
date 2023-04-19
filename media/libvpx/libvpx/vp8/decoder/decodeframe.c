@@ -5258,7 +5258,8 @@ xd
 >
 fullpixel_mask
 =
-0xffffffff
+~
+0
 ;
 if
 (
@@ -5272,7 +5273,8 @@ xd
 >
 fullpixel_mask
 =
-0xfffffff8
+~
+7
 ;
 }
 int

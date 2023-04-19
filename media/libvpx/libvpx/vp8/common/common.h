@@ -38,6 +38,7 @@ Dest
 Src
 )
 \
+do
 {
 \
 assert
@@ -67,6 +68,10 @@ Src
 ;
 \
 }
+while
+(
+0
+)
 #
 define
 vp8_copy_array
@@ -76,6 +81,7 @@ Src
 N
 )
 \
+do
 {
 \
 assert
@@ -118,6 +124,10 @@ Src
 ;
 \
 }
+while
+(
+0
+)
 #
 define
 vp8_zero
@@ -136,7 +146,6 @@ sizeof
 Dest
 )
 )
-;
 #
 define
 vp8_zero_array
@@ -160,7 +169,6 @@ Dest
 )
 )
 )
-;
 #
 ifdef
 __cplusplus

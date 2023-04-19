@@ -2098,7 +2098,7 @@ shifted
 shifted
 )
 ;
-storeu_uint32
+storeu_int32
 (
 dst
 _mm_cvtsi128_si32
@@ -2120,7 +2120,7 @@ dst
 =
 stride
 ;
-storeu_uint32
+storeu_int32
 (
 dst
 _mm_cvtsi128_si32
