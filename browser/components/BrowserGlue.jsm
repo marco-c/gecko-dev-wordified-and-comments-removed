@@ -8939,8 +8939,11 @@ NimbusFeatures
 .
 tcpByDefault
 .
-isEnabled
+getVariable
 (
+"
+enabled
+"
 )
 &
 &
