@@ -7245,6 +7245,13 @@ return
 nullptr
 ;
 }
+enum
+ScanLineBreak
+{
+AtEndOfBlock
+BeforeBlock
+}
+;
 static
 nsIContent
 *
@@ -7254,6 +7261,8 @@ const
 Element
 &
 aBlockElement
+ScanLineBreak
+aScanLineBreak
 )
 ;
 static
