@@ -448,7 +448,7 @@ HasState
 ElementState
 :
 :
-MODAL_DIALOG
+MODAL
 )
 ;
 }
