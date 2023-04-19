@@ -1,5 +1,5 @@
 var
-AppConstants
+XPCOMUtils
 ;
 function
 run_test
@@ -28,7 +28,7 @@ gre
 /
 modules
 /
-AppConstants
+XPCOMUtils
 .
 jsm
 "
@@ -43,7 +43,7 @@ typeof
 (
 scope
 .
-AppConstants
+XPCOMUtils
 )
 "
 object
@@ -58,9 +58,9 @@ typeof
 (
 scope
 .
-AppConstants
+XPCOMUtils
 .
-isPlatformAndVersionAtLeast
+defineLazyGetter
 )
 "
 function
@@ -71,10 +71,10 @@ equal
 (
 scope
 .
-AppConstants
+XPCOMUtils
 exports
 .
-AppConstants
+XPCOMUtils
 )
 ;
 deepEqual
@@ -87,7 +87,7 @@ scope
 )
 [
 "
-AppConstants
+XPCOMUtils
 "
 ]
 )
@@ -102,7 +102,7 @@ exports
 )
 [
 "
-AppConstants
+XPCOMUtils
 "
 ]
 )
@@ -122,7 +122,7 @@ gre
 /
 modules
 /
-AppConstants
+XPCOMUtils
 .
 jsm
 "
@@ -132,10 +132,10 @@ equal
 (
 scope
 .
-AppConstants
+XPCOMUtils
 exports
 .
-AppConstants
+XPCOMUtils
 )
 ;
 deepEqual
@@ -148,7 +148,7 @@ exports
 )
 [
 "
-AppConstants
+XPCOMUtils
 "
 ]
 )
@@ -174,7 +174,7 @@ gre
 /
 modules
 /
-AppConstants
+XPCOMUtils
 .
 jsm
 "
@@ -200,7 +200,7 @@ function
 ;
 (
 {
-AppConstants
+XPCOMUtils
 }
 =
 ChromeUtils
@@ -216,7 +216,7 @@ gre
 /
 modules
 /
-AppConstants
+XPCOMUtils
 .
 jsm
 "
@@ -229,7 +229,7 @@ equal
 (
 typeof
 (
-AppConstants
+XPCOMUtils
 )
 "
 object
@@ -242,9 +242,9 @@ equal
 (
 typeof
 (
-AppConstants
+XPCOMUtils
 .
-isPlatformAndVersionAtLeast
+defineLazyGetter
 )
 "
 function
@@ -270,7 +270,7 @@ gre
 /
 modules
 /
-AppConstants
+XPCOMUtils
 .
 jsm
 "
@@ -285,7 +285,7 @@ typeof
 (
 scope2
 .
-AppConstants
+XPCOMUtils
 )
 "
 object
@@ -300,9 +300,9 @@ typeof
 (
 scope2
 .
-AppConstants
+XPCOMUtils
 .
-isPlatformAndVersionAtLeast
+defineLazyGetter
 )
 "
 function
@@ -315,12 +315,12 @@ ok
 (
 scope2
 .
-AppConstants
+XPCOMUtils
 =
 =
 scope
 .
-AppConstants
+XPCOMUtils
 )
 ;
 var
@@ -390,7 +390,7 @@ gre
 /
 modules
 /
-AppConstants
+XPCOMUtils
 .
 jsm
 "
@@ -476,7 +476,7 @@ gre
 /
 modules
 /
-AppConstants
+XPCOMUtils
 .
 jsm
 "

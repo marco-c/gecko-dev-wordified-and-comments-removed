@@ -81,9 +81,7 @@ modules
 /
 XPCOMUtils
 .
-sys
-.
-mjs
+jsm
 "
 "
 resource

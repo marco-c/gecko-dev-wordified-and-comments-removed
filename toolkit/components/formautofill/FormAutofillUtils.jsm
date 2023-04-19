@@ -227,7 +227,7 @@ XPCOMUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -240,9 +240,7 @@ modules
 /
 XPCOMUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
