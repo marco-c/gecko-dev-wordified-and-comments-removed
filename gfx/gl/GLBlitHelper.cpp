@@ -1466,6 +1466,10 @@ texTarget
 <
 texTarget
 ;
+MOZ_CRASH
+(
+)
+;
 }
 for
 (
