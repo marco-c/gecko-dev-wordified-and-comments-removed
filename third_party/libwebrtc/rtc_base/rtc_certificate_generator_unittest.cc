@@ -324,8 +324,7 @@ RTCCertificateGeneratorTest
 :
 fixture_
 (
-new
-RefCountedObject
+make_ref_counted
 <
 RTCCertificateGeneratorFixture
 >

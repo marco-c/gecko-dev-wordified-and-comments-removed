@@ -317,15 +317,7 @@ ToI420
 (
 )
 {
-rtc
-:
-:
-scoped_refptr
-<
-I420BufferInterface
->
-buffer
-=
+return
 rtc
 :
 :
@@ -339,9 +331,6 @@ frame_buffer_
 toI420
 ]
 )
-;
-return
-buffer
 ;
 }
 id
