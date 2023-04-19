@@ -660,6 +660,14 @@ function
 browser
 )
 {
+SpecialPowers
+.
+clipboardCopyString
+(
+"
+"
+)
+;
 await
 SpecialPowers
 .

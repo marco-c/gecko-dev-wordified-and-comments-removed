@@ -2978,9 +2978,6 @@ false
 isEmpty
 :
 true
-hasEmptyClipboard
-:
-true
 hasSomethingToUndo
 :
 false
