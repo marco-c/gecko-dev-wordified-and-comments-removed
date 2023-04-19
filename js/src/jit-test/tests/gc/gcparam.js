@@ -253,6 +253,13 @@ balancedHeapLimitsEnabled
 testChangeParam
 (
 "
+heapGrowthFactor
+"
+)
+;
+testChangeParam
+(
+"
 allocationThreshold
 "
 )
