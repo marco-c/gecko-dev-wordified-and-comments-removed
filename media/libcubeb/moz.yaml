@@ -182,6 +182,12 @@ cubeb_pulse
 .
 c
 -
+src
+/
+cubeb_tracing
+.
+h
+-
 subprojects
 -
 tools
@@ -235,6 +241,12 @@ src
 cubeb_osx_run_loop
 .
 c
+-
+src
+/
+cubeb_tracing
+.
+h
 -
 src
 /
