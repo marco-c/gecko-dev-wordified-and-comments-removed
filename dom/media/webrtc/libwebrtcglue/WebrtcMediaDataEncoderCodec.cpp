@@ -2787,12 +2787,6 @@ VideoFrameType
 :
 kVideoFrameDelta
 ;
-image
-.
-_completeFrame
-=
-true
-;
 GetVPXQp
 (
 mCodecSpecific

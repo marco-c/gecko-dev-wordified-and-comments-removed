@@ -3472,12 +3472,6 @@ ms
 ;
 unit
 .
-_completeFrame
-=
-true
-;
-unit
-.
 _encodedWidth
 =
 aEncodedFrame
@@ -4709,12 +4703,7 @@ frame
 >
 SetCompleteFrame
 (
-aDecodeData
--
->
-mImage
-.
-_completeFrame
+true
 )
 ;
 frame
