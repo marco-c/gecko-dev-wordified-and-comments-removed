@@ -7565,6 +7565,22 @@ sep
 test_logs
 '
                 
+test_results
+=
+'
+{
+ISOLATED_OUTDIR
+}
+'
++
+sep
++
+'
+gtest_output
+.
+json
+'
+                
 timeout
 =
 isolate_map
@@ -7613,6 +7629,17 @@ s
 '
 %
 output_dir
+                    
+'
+-
+-
+dump_json_test_results
+=
+%
+s
+'
+%
+test_results
                     
 '
 -
