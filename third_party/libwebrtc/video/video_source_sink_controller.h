@@ -145,6 +145,11 @@ HasSource
 const
 ;
 void
+RequestRefreshFrame
+(
+)
+;
+void
 PushSourceSinkSettings
 (
 )

@@ -275,6 +275,13 @@ sink
 =
 0
 ;
+virtual
+void
+RequestRefreshFrame
+(
+)
+{
+}
 }
 ;
 }
