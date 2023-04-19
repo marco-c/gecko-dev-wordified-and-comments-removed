@@ -618,7 +618,7 @@ kind
 (
 consult
 :
-doc
+ref
 :
 kinds
 )
@@ -833,7 +833,7 @@ into
 (
 consult
 :
-doc
+ref
 :
 kinds
 )
@@ -1693,12 +1693,9 @@ series
 of
 "
 :
-doc
+ref
 :
 transforms
-<
-transforms
->
 "
 that
 start

@@ -247,16 +247,12 @@ yml
 .
 See
 :
-doc
+ref
 :
 transforms
-:
 for
 more
 information
-on
-these
-transforms
 .
 *
 The
