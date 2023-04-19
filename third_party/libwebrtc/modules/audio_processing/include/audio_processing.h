@@ -681,9 +681,9 @@ false
 float
 vad_probability_attack
 =
-1
+0
 .
-f
+3f
 ;
 LevelEstimator
 level_estimator
@@ -693,7 +693,7 @@ kRms
 int
 level_estimator_adjacent_speech_frames_threshold
 =
-1
+6
 ;
 bool
 use_saturation_protector
@@ -710,14 +710,14 @@ f
 float
 extra_saturation_margin_db
 =
-2
+5
 .
 f
 ;
 int
 gain_applier_adjacent_speech_frames_threshold
 =
-1
+6
 ;
 float
 max_gain_change_db_per_second
@@ -730,7 +730,7 @@ float
 max_output_noise_level_dbfs
 =
 -
-50
+55
 .
 f
 ;
