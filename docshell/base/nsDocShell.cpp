@@ -2464,10 +2464,6 @@ mIsNavigating
 (
 false
 )
-mSuspendMediaWhenInactive
-(
-false
-)
 mForcedAutodetection
 (
 false

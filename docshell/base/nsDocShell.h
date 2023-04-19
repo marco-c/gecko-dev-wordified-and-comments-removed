@@ -3864,11 +3864,6 @@ mIsNavigating
 1
 ;
 bool
-mSuspendMediaWhenInactive
-:
-1
-;
-bool
 mForcedAutodetection
 :
 1
