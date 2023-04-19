@@ -143,6 +143,8 @@ name
 type
 RustType
 =
+r
+#
 {
 {
 name
@@ -248,6 +250,8 @@ name
 >
 {
 <
+r
+#
 {
 {
 name
@@ -359,6 +363,8 @@ uniffi
 :
 Result
 <
+r
+#
 {
 {
 name
