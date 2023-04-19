@@ -531,7 +531,6 @@ triggerBrowserActionWithKeyboard
 (
 extension
 "
-KEY_Enter
 "
 keypressEventData
 )
@@ -1026,7 +1025,6 @@ triggerBrowserActionWithKeyboard
 (
 extension
 "
-KEY_Enter
 "
 )
 ;
