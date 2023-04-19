@@ -11,11 +11,17 @@ debounce
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 debounce
+.
+js
 "
 )
 ;
@@ -27,6 +33,10 @@ lerp
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -34,6 +44,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;
@@ -43,6 +55,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -50,6 +66,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;

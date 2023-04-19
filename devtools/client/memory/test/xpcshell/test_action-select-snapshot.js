@@ -9,6 +9,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ memory
 actions
 /
 snapshot
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ states
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -38,6 +48,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;

@@ -11,6 +11,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -29,11 +35,17 @@ immutableUpdate
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;

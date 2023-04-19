@@ -11,6 +11,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ refresh
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -38,6 +48,8 @@ memory
 actions
 /
 refresh
+.
+js
 "
 )
 ;
@@ -49,11 +61,17 @@ debounce
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 debounce
+.
+js
 "
 )
 ;

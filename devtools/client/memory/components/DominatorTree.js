@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -76,11 +94,17 @@ assert
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -92,6 +116,10 @@ createParentMap
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -99,6 +127,8 @@ shared
 heapsnapshot
 /
 CensusUtils
+.
+js
 "
 )
 ;
@@ -110,6 +140,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -119,6 +153,8 @@ shared
 components
 /
 VirtualizedTree
+.
+js
 "
 )
 )
@@ -131,6 +167,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -140,6 +180,8 @@ memory
 components
 /
 DominatorTreeItem
+.
+js
 "
 )
 )
@@ -152,6 +194,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -159,6 +205,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;
@@ -171,6 +219,10 @@ dominatorTreeState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -178,6 +230,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -189,6 +243,10 @@ dominatorTreeModel
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -196,6 +254,8 @@ client
 memory
 /
 models
+.
+js
 "
 )
 ;
@@ -205,6 +265,10 @@ DominatorTreeLazyChildren
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -218,6 +282,8 @@ tree
 lazy
 -
 children
+.
+js
 "
 )
 ;

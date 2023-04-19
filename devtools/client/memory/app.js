@@ -11,11 +11,17 @@ assert
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -28,6 +34,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -37,6 +47,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -46,6 +58,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -59,6 +75,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -68,6 +86,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +103,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -92,6 +116,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -103,6 +131,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -118,6 +148,10 @@ viewState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -125,6 +159,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -136,6 +172,10 @@ toggleRecordingAllocationStacks
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -145,6 +185,8 @@ memory
 actions
 /
 allocations
+.
+js
 "
 )
 ;
@@ -156,6 +198,10 @@ setCensusDisplayAndRefresh
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -167,6 +213,8 @@ actions
 census
 -
 display
+.
+js
 "
 )
 ;
@@ -178,6 +226,10 @@ setLabelDisplayAndRefresh
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -189,6 +241,8 @@ actions
 label
 -
 display
+.
+js
 "
 )
 ;
@@ -200,6 +254,10 @@ setTreeMapDisplayAndRefresh
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -213,6 +271,8 @@ tree
 map
 -
 display
+.
+js
 "
 )
 ;
@@ -226,6 +286,10 @@ getCustomTreeMapDisplays
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -233,6 +297,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;
@@ -248,6 +314,10 @@ focusDiffingCensusNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -257,6 +327,8 @@ memory
 actions
 /
 diffing
+.
+js
 "
 )
 ;
@@ -268,6 +340,10 @@ setFilterStringAndRefresh
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -277,6 +353,8 @@ memory
 actions
 /
 filter
+.
+js
 "
 )
 ;
@@ -289,6 +367,10 @@ pickFileAndImportSnapshotAndCensus
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -298,6 +380,8 @@ memory
 actions
 /
 io
+.
+js
 "
 )
 ;
@@ -321,6 +405,10 @@ focusIndividual
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -330,6 +418,8 @@ memory
 actions
 /
 snapshot
+.
+js
 "
 )
 ;
@@ -342,6 +432,10 @@ popViewAndRefresh
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -351,6 +445,8 @@ memory
 actions
 /
 view
+.
+js
 "
 )
 ;
@@ -362,6 +458,10 @@ resizeShortestPaths
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -371,6 +471,8 @@ memory
 actions
 /
 sizes
+.
+js
 "
 )
 ;
@@ -382,6 +484,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -391,6 +497,8 @@ memory
 components
 /
 Toolbar
+.
+js
 "
 )
 )
@@ -403,6 +511,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -412,6 +524,8 @@ memory
 components
 /
 List
+.
+js
 "
 )
 )
@@ -424,6 +538,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -433,6 +551,8 @@ memory
 components
 /
 SnapshotListItem
+.
+js
 "
 )
 )
@@ -445,6 +565,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -454,6 +578,8 @@ memory
 components
 /
 Heap
+.
+js
 "
 )
 )
@@ -468,6 +594,10 @@ appModel
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -475,6 +605,8 @@ client
 memory
 /
 models
+.
+js
 "
 )
 ;

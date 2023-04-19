@@ -12,6 +12,10 @@ viewState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -19,6 +23,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ changeView
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -39,6 +49,8 @@ memory
 actions
 /
 view
+.
+js
 "
 )
 ;

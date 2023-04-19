@@ -9,6 +9,10 @@ CanvasUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -24,6 +28,8 @@ map
 canvas
 -
 utils
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ DragZoom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -48,6 +58,8 @@ map
 drag
 -
 zoom
+.
+js
 "
 )
 ;

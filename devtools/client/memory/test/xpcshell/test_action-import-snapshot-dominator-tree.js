@@ -14,6 +14,10 @@ treeMapState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ importSnapshotAndCensus
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -41,6 +51,8 @@ memory
 actions
 /
 io
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ changeViewAndRefresh
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -61,6 +77,8 @@ memory
 actions
 /
 view
+.
+js
 "
 )
 ;

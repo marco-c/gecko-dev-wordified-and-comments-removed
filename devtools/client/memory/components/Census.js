@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -54,6 +66,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -63,6 +79,8 @@ shared
 components
 /
 VirtualizedTree
+.
+js
 "
 )
 )
@@ -75,6 +93,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -84,6 +106,8 @@ memory
 components
 /
 CensusTreeItem
+.
+js
 "
 )
 )
@@ -96,6 +120,10 @@ TREE_ROW_HEIGHT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -103,6 +131,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -115,6 +145,10 @@ diffingModel
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +156,8 @@ client
 memory
 /
 models
+.
+js
 "
 )
 ;

@@ -11,11 +11,17 @@ isSavedFrame
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -28,6 +34,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -37,6 +47,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -46,6 +58,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -59,6 +75,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -68,6 +86,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +103,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -94,6 +118,10 @@ formatPercent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -101,6 +129,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;
@@ -112,6 +142,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -121,6 +155,8 @@ shared
 components
 /
 Frame
+.
+js
 "
 )
 )
@@ -133,6 +169,10 @@ TREE_ROW_HEIGHT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -140,6 +180,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -149,6 +191,10 @@ models
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -156,6 +202,8 @@ client
 memory
 /
 models
+.
+js
 "
 )
 ;

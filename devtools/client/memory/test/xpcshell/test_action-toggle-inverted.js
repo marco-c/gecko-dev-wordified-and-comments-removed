@@ -11,6 +11,10 @@ censusDisplays
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ setCensusDisplay
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ actions
 census
 -
 display
+.
+js
 "
 )
 ;

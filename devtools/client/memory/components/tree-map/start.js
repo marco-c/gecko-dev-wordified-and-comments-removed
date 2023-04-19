@@ -11,6 +11,10 @@ setupDraw
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -24,6 +28,8 @@ tree
 map
 /
 draw
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ DragZoom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -48,6 +58,8 @@ map
 drag
 -
 zoom
+.
+js
 "
 )
 ;
@@ -57,6 +69,10 @@ CanvasUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -72,6 +88,8 @@ map
 canvas
 -
 utils
+.
+js
 "
 )
 ;

@@ -11,6 +11,10 @@ toggleDiffing
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ memory
 actions
 /
 diffing
+.
+js
 "
 )
 ;

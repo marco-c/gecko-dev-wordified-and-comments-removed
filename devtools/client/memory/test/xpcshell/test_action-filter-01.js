@@ -11,6 +11,10 @@ setFilterString
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ memory
 actions
 /
 filter
+.
+js
 "
 )
 ;

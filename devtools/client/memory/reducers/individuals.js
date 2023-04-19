@@ -12,11 +12,17 @@ immutableUpdate
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ viewState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -37,6 +47,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;

@@ -12,6 +12,10 @@ clearSnapshots
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ memory
 actions
 /
 snapshot
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ treeMapState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;

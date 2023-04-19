@@ -12,6 +12,10 @@ treeMapState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -19,6 +23,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ computeAndFetchDominatorTree
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ memory
 actions
 /
 snapshot
+.
+js
 "
 )
 ;

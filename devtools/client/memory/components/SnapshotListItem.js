@@ -11,6 +11,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -42,6 +52,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -51,6 +63,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -64,6 +80,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -80,6 +98,10 @@ getSavedCensus
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +109,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;
@@ -98,6 +122,10 @@ diffingState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -105,6 +133,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -121,6 +151,10 @@ appModel
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +162,8 @@ client
 memory
 /
 models
+.
+js
 "
 )
 ;

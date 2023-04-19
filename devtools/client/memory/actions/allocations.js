@@ -12,6 +12,10 @@ ALLOCATION_RECORDING_OPTIONS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -19,6 +23,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;

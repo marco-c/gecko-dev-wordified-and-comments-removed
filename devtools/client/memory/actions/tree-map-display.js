@@ -11,11 +11,17 @@ assert
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -27,6 +33,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -34,6 +44,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -45,6 +57,10 @@ refresh
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -54,6 +70,8 @@ memory
 actions
 /
 refresh
+.
+js
 "
 )
 ;

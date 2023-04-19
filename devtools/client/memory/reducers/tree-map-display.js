@@ -12,6 +12,10 @@ treeMapDisplays
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -19,6 +23,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;

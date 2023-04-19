@@ -14,6 +14,10 @@ treeMapState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -39,6 +49,8 @@ memory
 actions
 /
 snapshot
+.
+js
 "
 )
 ;

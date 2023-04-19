@@ -13,6 +13,10 @@ TASK_ERROR_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -24,6 +28,8 @@ redux
 middleware
 /
 task
+.
+js
 "
 )
 ;

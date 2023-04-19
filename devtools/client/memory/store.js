@@ -9,6 +9,10 @@ createStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ redux
 create
 -
 store
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ reducers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -36,6 +46,8 @@ client
 memory
 /
 reducers
+.
+js
 "
 )
 ;

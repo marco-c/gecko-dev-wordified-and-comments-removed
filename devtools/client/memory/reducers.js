@@ -10,6 +10,10 @@ allocations
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -19,6 +23,8 @@ memory
 reducers
 /
 allocations
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ censusDisplay
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ reducers
 census
 -
 display
+.
+js
 "
 )
 ;
@@ -50,6 +62,10 @@ diffing
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -59,6 +75,8 @@ memory
 reducers
 /
 diffing
+.
+js
 "
 )
 ;
@@ -69,6 +87,10 @@ front
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +100,8 @@ memory
 reducers
 /
 front
+.
+js
 "
 )
 ;
@@ -88,6 +112,10 @@ individuals
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -97,6 +125,8 @@ memory
 reducers
 /
 individuals
+.
+js
 "
 )
 ;
@@ -107,6 +137,10 @@ labelDisplay
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -118,6 +152,8 @@ reducers
 label
 -
 display
+.
+js
 "
 )
 ;
@@ -128,6 +164,10 @@ treeMapDisplay
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -141,6 +181,8 @@ tree
 map
 -
 display
+.
+js
 "
 )
 ;
@@ -151,6 +193,10 @@ errors
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -160,6 +206,8 @@ memory
 reducers
 /
 errors
+.
+js
 "
 )
 ;
@@ -170,6 +218,10 @@ filter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -179,6 +231,8 @@ memory
 reducers
 /
 filter
+.
+js
 "
 )
 ;
@@ -189,6 +243,10 @@ sizes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -198,6 +256,8 @@ memory
 reducers
 /
 sizes
+.
+js
 "
 )
 ;
@@ -208,6 +268,10 @@ snapshots
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -217,6 +281,8 @@ memory
 reducers
 /
 snapshots
+.
+js
 "
 )
 ;
@@ -227,6 +293,10 @@ view
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -236,6 +306,8 @@ memory
 reducers
 /
 view
+.
+js
 "
 )
 ;

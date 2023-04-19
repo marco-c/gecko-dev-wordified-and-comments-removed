@@ -13,6 +13,10 @@ viewState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ selectSnapshotForDiffingAndRefresh
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -41,6 +51,8 @@ memory
 actions
 /
 diffing
+.
+js
 "
 )
 ;
@@ -53,6 +65,10 @@ readSnapshot
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -62,6 +78,8 @@ memory
 actions
 /
 snapshot
+.
+js
 "
 )
 ;
@@ -73,6 +91,10 @@ changeView
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +104,8 @@ memory
 actions
 /
 view
+.
+js
 "
 )
 ;

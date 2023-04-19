@@ -13,6 +13,10 @@ individualsState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ takeSnapshotAndCensus
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -41,6 +51,8 @@ memory
 actions
 /
 snapshot
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ changeView
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -61,6 +77,8 @@ memory
 actions
 /
 view
+.
+js
 "
 )
 ;

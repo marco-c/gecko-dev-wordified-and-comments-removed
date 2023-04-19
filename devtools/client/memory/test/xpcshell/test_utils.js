@@ -9,6 +9,10 @@ utils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -16,6 +20,8 @@ client
 memory
 /
 utils
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ viewState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -37,6 +47,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;

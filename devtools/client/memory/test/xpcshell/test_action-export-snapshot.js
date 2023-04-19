@@ -11,6 +11,10 @@ exportSnapshot
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ memory
 actions
 /
 io
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ takeSnapshotAndCensus
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ memory
 actions
 /
 snapshot
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ treeMapState
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -59,6 +75,8 @@ client
 memory
 /
 constants
+.
+js
 "
 )
 ;
