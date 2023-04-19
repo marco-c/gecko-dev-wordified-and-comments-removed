@@ -1845,7 +1845,6 @@ AxisLockMode
 FREE
 STANDARD
 STICKY
-DOMINANT_AXIS
 }
 ;
 static
@@ -1853,12 +1852,6 @@ AxisLockMode
 GetAxisLockMode
 (
 )
-;
-bool
-UsingStatefulAxisLock
-(
-)
-const
 ;
 enum
 PinchLockMode
