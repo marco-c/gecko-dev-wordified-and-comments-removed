@@ -483,12 +483,6 @@ return
 true
 ;
 }
-uint32_t
-GetLineClampValue
-(
-)
-const
-;
 bool
 DrainSelfOverflowList
 (
@@ -771,8 +765,6 @@ nscoord
 aMainGapSize
 nscoord
 aCrossGapSize
-bool
-aHasLineClampEllipsis
 nsTArray
 <
 StrutInfo
@@ -868,8 +860,6 @@ aAxisTracker
 const
 nscoord
 aTentativeContentBoxCrossSize
-bool
-aHasLineClampEllipsis
 )
 ;
 const
@@ -893,8 +883,6 @@ FlexItem
 aFlexItem
 bool
 aForceBResizeForMeasuringReflow
-bool
-aHasLineClampEllipsis
 const
 ReflowInput
 &
@@ -915,8 +903,6 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
-bool
-aHasLineClampEllipsis
 )
 ;
 bool
@@ -954,8 +940,6 @@ FlexboxAxisTracker
 aAxisTracker
 nscoord
 aMainGapSize
-bool
-aHasLineClampEllipsis
 nsTArray
 <
 nsIFrame
@@ -1144,8 +1128,6 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
-bool
-aHasLineClampEllipsis
 FlexLayoutResult
 &
 aFlr
@@ -1202,8 +1184,6 @@ const
 nsSize
 &
 aContainerSize
-bool
-aHasLineClampEllipsis
 )
 ;
 void

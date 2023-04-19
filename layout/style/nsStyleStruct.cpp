@@ -13204,16 +13204,8 @@ mWebkitLineClamp
 aNewData
 .
 mWebkitLineClamp
-)
-{
-hint
 |
-=
-NS_STYLE_HINT_REFLOW
-;
-}
-if
-(
+|
 mVerticalAlign
 !
 =

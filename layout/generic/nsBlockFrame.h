@@ -1796,6 +1796,12 @@ ClearLineClampEllipsis
 (
 )
 ;
+bool
+IsInLineClampContext
+(
+)
+const
+;
 protected
 :
 void

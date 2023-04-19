@@ -1769,16 +1769,6 @@ mBOffsetsNeedCSSAlign
 1
 ;
 bool
-mInsideLineClamp
-:
-1
-;
-bool
-mApplyLineClamp
-:
-1
-;
-bool
 mMovedBlockFragments
 :
 1

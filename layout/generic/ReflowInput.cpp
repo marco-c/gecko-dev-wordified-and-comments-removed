@@ -1060,12 +1060,6 @@ mBOffsetsNeedCSSAlign
 =
 false
 ;
-mFlags
-.
-mApplyLineClamp
-=
-false
-;
 if
 (
 aFlags
