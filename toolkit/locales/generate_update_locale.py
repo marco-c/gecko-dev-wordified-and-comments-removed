@@ -3,8 +3,6 @@ __future__
 import
 unicode_literals
 print_function
-import
-six
 def
 main
 (
@@ -20,15 +18,6 @@ locale
 is
 not
 None
-    
-locale
-=
-six
-.
-ensure_text
-(
-locale
-)
     
 print
 (

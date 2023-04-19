@@ -3,8 +3,6 @@ argparse
 import
 os
 import
-six
-import
 buildconfig
 from
 mozpack
@@ -392,13 +390,12 @@ for
 path
 log
 in
-six
-.
-iteritems
-(
 app1_finder
 .
 jarlogs
+.
+items
+(
 )
 :
             

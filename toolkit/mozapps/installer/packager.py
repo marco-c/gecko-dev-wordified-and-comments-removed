@@ -94,10 +94,8 @@ import
 os
 import
 plistlib
-import
-six
 from
-six
+io
 import
 StringIO
 import
@@ -247,7 +245,6 @@ GeneratedFile
 __init__
 (
 self
-b
 "
 "
 )
@@ -309,16 +306,9 @@ f
 self
 .
 content
-+
 =
-six
-.
-ensure_binary
-(
 f
-)
 +
-b
 "
 \
 n

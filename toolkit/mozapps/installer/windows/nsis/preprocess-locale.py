@@ -12,8 +12,6 @@ import
 join
 isfile
 import
-six
-import
 sys
 from
 optparse
