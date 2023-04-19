@@ -1050,6 +1050,7 @@ delete
 data
 ;
 }
+}
 if
 (
 server_
@@ -1069,7 +1070,6 @@ Clear
 this
 )
 ;
-}
 }
 state_
 =

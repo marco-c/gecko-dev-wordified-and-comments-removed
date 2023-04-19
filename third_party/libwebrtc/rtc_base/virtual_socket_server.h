@@ -961,7 +961,7 @@ VirtualSocket
 public
 AsyncSocket
 public
-MessageHandlerAutoCleanup
+MessageHandler
 public
 sigslot
 :
