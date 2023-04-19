@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-f8776f0d78fe5ad3a248340ddfc3346882524858
+35d97f39f30d556a3deb81ffc2aa1d1ea29048f4
 '
 #
 Keep
@@ -165,7 +165,7 @@ chromium
 src
 /
 base
-fad8a0b16e16727a25b713f0a2195d5c7978dbf9
+6a20a89ab69f4857a04908b6711bdfc9010ac654
 '
 '
 src
@@ -189,7 +189,7 @@ chromium
 src
 /
 build
-829065270e08adc7e68d6a94d914866c04238cdd
+b9feec1b66ae2ee65638a5204e0048a496a8df8c
 '
 '
 src
@@ -309,7 +309,7 @@ chromium
 src
 /
 ios
-d5ffd86948b3b827469a9c35fa38879961cdf257
+08b95d6c3c09045f161cd6b38d52118d01e693c7
 '
 '
 condition
@@ -341,7 +341,7 @@ chromium
 src
 /
 testing
-6713c8c1819fa7a10810efddc701bf1ccd236035
+ba85cc96b4c07e7848ea964de57f5168bf120031
 '
 '
 src
@@ -365,7 +365,7 @@ chromium
 src
 /
 third_party
-9e360d624963c20a9098ea157173fce70c6bee57
+97df40dd1fb254217ce3653d84b952ad2addce60
 '
 '
 src
@@ -660,7 +660,7 @@ project
 libcxxabi
 .
 git
-707d75f53eaa379222bf6debee78344cd790fc9a
+81212d29a245e262fc63fcd25e9512c1dc063d42
 '
 '
 src
@@ -1376,7 +1376,7 @@ harfbuzz
 harfbuzz
 .
 git
-9bd7ba5019381bb8584811ee63a0ba0cee7dca99
+64b29dbd5994a511acee69cb9b45ad650ef88359
 '
 '
 src
@@ -1992,7 +1992,7 @@ external
 perfetto
 .
 git
-f890ec27af91a43e1f0ca7795a902ef972590c5f
+406e7c3674a735f3fc4b751a90d21fd3d74f9511
 '
 '
 src
@@ -2238,9 +2238,7 @@ version
 '
 :
 '
-9q0e
--
-VLY3WNUFn48GeKkiokWeK656oswOvlPUuQbSM8C
+nqWomZTwNDoogX26WeCSoFGg6aQN1FrwzoU4hCS0duEC
 '
 }
 ]
@@ -2518,7 +2516,7 @@ chromium
 src
 /
 tools
-6e1149d9e50500354cbe3f17bf610d0897780858
+2f46b72b929e0696c40a9d2387dc1830a0e2a499
 '
 '
 src
@@ -3000,11 +2998,9 @@ version
 '
 :
 '
-GpsjLtmFq0wH_145hryWddxYQ
+wnPOPNFDdq5pVsm7Lj0o7NWefxqLo5x
 -
-dHC
--
-2cy5x8AoOf7pIC
+WUBlmrrO9_0C
 '
 }
 ]
