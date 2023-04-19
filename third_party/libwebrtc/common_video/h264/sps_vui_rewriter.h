@@ -129,7 +129,7 @@ rtc
 :
 :
 Buffer
-ParseOutgoingBitstreamAndRewriteSps
+ParseOutgoingBitstreamAndRewrite
 (
 rtc
 :
