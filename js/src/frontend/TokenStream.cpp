@@ -3047,6 +3047,7 @@ errorNumber
 .
 .
 )
+const
 {
 va_list
 args
@@ -3082,6 +3083,7 @@ va_list
 *
 args
 )
+const
 {
 ErrorMetadata
 metadata
@@ -7928,6 +7930,7 @@ ErrorMetadata
 *
 err
 )
+const
 {
 err
 -
@@ -7981,6 +7984,7 @@ err
 uint32_t
 offset
 )
+const
 {
 err
 -
@@ -8113,6 +8117,7 @@ size_t
 *
 utf16WindowLength
 )
+const
 {
 MOZ_ASSERT_UNREACHABLE
 (
@@ -8159,6 +8164,7 @@ size_t
 *
 utf16WindowLength
 )
+const
 {
 MOZ_ASSERT
 (
@@ -8367,6 +8373,7 @@ err
 uint32_t
 offset
 )
+const
 {
 size_t
 encodedOffset
@@ -8787,6 +8794,7 @@ ErrorOffset
 &
 errorOffset
 )
+const
 {
 if
 (

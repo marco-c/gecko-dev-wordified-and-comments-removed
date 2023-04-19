@@ -2087,6 +2087,7 @@ err
 uint32_t
 offset
 )
+const
 ;
 MOZ_ALWAYS_INLINE
 void
@@ -2329,6 +2330,7 @@ ErrorMetadata
 *
 err
 )
+const
 ;
 void
 reportErrorNoOffset
@@ -2339,6 +2341,7 @@ errorNumber
 .
 .
 )
+const
 ;
 void
 reportErrorNoOffsetVA
@@ -2349,6 +2352,7 @@ va_list
 *
 args
 )
+const
 ;
 const
 JS
@@ -4239,6 +4243,7 @@ size_t
 *
 utf16WindowLength
 )
+const
 ;
 }
 ;
@@ -4925,6 +4930,7 @@ err
 uint32_t
 offset
 )
+const
 ;
 }
 ;
@@ -6103,6 +6109,7 @@ err
 uint32_t
 offset
 )
+const
 {
 if
 (
@@ -6730,6 +6737,7 @@ err
 uint32_t
 offset
 )
+const
 {
 if
 (
@@ -8115,6 +8123,7 @@ ErrorOffset
 &
 errorOffset
 )
+const
 override
 ;
 private
