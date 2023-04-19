@@ -176,9 +176,9 @@ return
 GenericPromise
 :
 :
-CreateAndReject
+CreateAndResolve
 (
-NS_ERROR_FAILURE
+true
 __func__
 )
 ;
