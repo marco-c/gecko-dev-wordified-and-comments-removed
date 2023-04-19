@@ -231,7 +231,7 @@ nsresult
 Print
 (
 Document
-*
+&
 aSourceDoc
 nsIPrintSettings
 *
@@ -249,7 +249,7 @@ nsresult
 PrintPreview
 (
 Document
-*
+&
 aSourceDoc
 nsIPrintSettings
 *
@@ -600,7 +600,7 @@ nsIWebProgressListener
 *
 aWebProgressListener
 Document
-*
+&
 aSourceDoc
 )
 ;
@@ -617,7 +617,7 @@ nsIWebProgressListener
 *
 aWebProgressListener
 Document
-*
+&
 aSourceDoc
 )
 ;

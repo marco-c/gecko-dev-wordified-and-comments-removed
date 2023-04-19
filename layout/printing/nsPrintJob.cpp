@@ -1071,7 +1071,9 @@ childPO
 >
 Init
 (
+*
 docShell
+*
 doc
 aParentPO
 .
@@ -1667,7 +1669,7 @@ nsIWebProgressListener
 *
 aWebProgressListener
 Document
-*
+&
 aSourceDoc
 )
 {
@@ -1757,15 +1759,14 @@ nsIWebProgressListener
 *
 aWebProgressListener
 Document
-*
+&
 aDoc
 )
 {
 MOZ_ASSERT
 (
 aDoc
--
->
+.
 IsStaticDocument
 (
 )
@@ -1917,6 +1918,7 @@ mPrintObject
 >
 Init
 (
+*
 docShell
 aDoc
 )
@@ -2174,7 +2176,7 @@ nsPrintJob
 Print
 (
 Document
-*
+&
 aDoc
 nsIPrintSettings
 *
@@ -2208,7 +2210,7 @@ nsPrintJob
 PrintPreview
 (
 Document
-*
+&
 aDoc
 nsIPrintSettings
 *

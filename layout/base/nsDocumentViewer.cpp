@@ -11609,6 +11609,7 @@ printJob
 >
 Print
 (
+*
 mDocument
 aPrintSettings
 aRemotePrintJob
@@ -11829,6 +11830,7 @@ printJob
 >
 PrintPreview
 (
+*
 doc
 aPrintSettings
 aWebProgressListener
