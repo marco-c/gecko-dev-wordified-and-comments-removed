@@ -5138,6 +5138,10 @@ const
 HTMLBRElement
 *
 aPrecedingInvisibleBRElement
+const
+Element
+&
+aEditingHost
 )
 ;
 [
@@ -5178,6 +5182,10 @@ const
 HTMLBRElement
 *
 aPrecedingInvisibleBRElement
+const
+Element
+&
+aEditingHost
 )
 ;
 [
@@ -5211,6 +5219,10 @@ const
 HTMLBRElement
 *
 aPrecedingInvisibleBRElement
+const
+Element
+&
+aEditingHost
 )
 ;
 [
