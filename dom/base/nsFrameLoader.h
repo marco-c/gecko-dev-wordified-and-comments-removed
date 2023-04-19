@@ -640,6 +640,16 @@ bool
 aIsUnderHiddenEmbedderElement
 )
 ;
+void
+UpdateRemoteStyle
+(
+mozilla
+:
+:
+StyleImageRendering
+aImageRendering
+)
+;
 nsresult
 FinishStaticClone
 (
