@@ -287,7 +287,7 @@ true
 "
 dnsResolveSingleWordsAfterSearch
 "
-1
+0
 ]
 [
 "
