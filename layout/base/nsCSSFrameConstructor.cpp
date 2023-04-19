@@ -24989,6 +24989,9 @@ false
 ;
 if
 (
+aParentFrame
+&
+&
 aState
 .
 mPresContext
