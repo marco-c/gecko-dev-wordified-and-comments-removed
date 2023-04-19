@@ -370,6 +370,11 @@ EnsureDcompSurfaceHandle
 (
 )
 ;
+void
+UpdateStatisticsData
+(
+)
+;
 static
 inline
 uint64_t
@@ -498,6 +503,12 @@ mPlaybackRate
 1
 .
 0
+;
+StatisticData
+mCurrentPlaybackStatisticData
+;
+StatisticData
+mPrevPlaybackStatisticData
 ;
 }
 ;
