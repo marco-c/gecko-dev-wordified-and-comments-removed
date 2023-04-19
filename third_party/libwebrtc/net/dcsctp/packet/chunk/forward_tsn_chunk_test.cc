@@ -284,6 +284,14 @@ TSN
 new_cumulative_tsn
 =
 123
+skip
+1
+:
+23
+skip
+42
+:
+99
 "
 )
 ;
