@@ -2781,6 +2781,9 @@ enabled
 settings_
 .
 use_ts
+!
+=
+0
 ;
 }
 if
@@ -3361,6 +3364,9 @@ set_stream_key_pressed
 settings_
 .
 use_ts
+=
+=
+2
 )
 ;
 }

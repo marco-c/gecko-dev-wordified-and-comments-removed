@@ -1090,6 +1090,15 @@ if
 settings_
 .
 use_ts
+|
+|
+*
+settings_
+.
+use_ts
+=
+=
+1
 )
 {
 if
@@ -1126,6 +1135,9 @@ set_stream_key_pressed
 settings_
 .
 use_ts
+=
+=
+2
 )
 ;
 }
