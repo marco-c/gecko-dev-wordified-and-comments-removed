@@ -446,7 +446,6 @@ thread
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 &
 ]
@@ -468,7 +467,6 @@ thread
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 &
 ]
@@ -703,7 +701,6 @@ thread
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 &
 ]
@@ -832,7 +829,6 @@ thread
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 &
 ]
@@ -844,7 +840,6 @@ thread
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 &
 ]

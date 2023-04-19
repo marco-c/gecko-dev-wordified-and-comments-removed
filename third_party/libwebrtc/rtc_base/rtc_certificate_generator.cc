@@ -321,7 +321,6 @@ worker_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 key_params
 expires_ms
@@ -355,7 +354,6 @@ signaling_thread
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 cert
 =

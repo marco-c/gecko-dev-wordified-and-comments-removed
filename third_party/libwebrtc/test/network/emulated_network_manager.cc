@@ -192,7 +192,6 @@ network_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 endpoint
@@ -262,7 +261,6 @@ network_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 endpoint
@@ -316,7 +314,6 @@ network_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 ]
@@ -338,7 +335,6 @@ network_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 ]

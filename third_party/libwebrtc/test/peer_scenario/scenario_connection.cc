@@ -877,7 +877,6 @@ network_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 packet
@@ -975,7 +974,6 @@ network_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 packet
@@ -1276,7 +1274,6 @@ network_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 criteria

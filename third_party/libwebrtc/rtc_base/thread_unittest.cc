@@ -3804,7 +3804,6 @@ t
 >
 PostTask
 (
-RTC_FROM_HERE
 clearer
 )
 ;
@@ -3821,7 +3820,6 @@ Current
 >
 PostTask
 (
-RTC_FROM_HERE
 event_signaler
 )
 ;
@@ -4789,7 +4787,7 @@ event
 background_thread
 -
 >
-PostTask
+DEPRECATED_PostTask
 (
 RTC_FROM_HERE
 [
@@ -4874,7 +4872,7 @@ event
 background_thread
 -
 >
-PostTask
+DEPRECATED_PostTask
 (
 RTC_FROM_HERE
 functor
@@ -4964,7 +4962,7 @@ event
 background_thread
 -
 >
-PostTask
+DEPRECATED_PostTask
 (
 RTC_FROM_HERE
 std
@@ -5066,7 +5064,7 @@ functor
 background_thread
 -
 >
-PostTask
+DEPRECATED_PostTask
 (
 RTC_FROM_HERE
 functor_ref
@@ -5160,7 +5158,7 @@ event
 background_thread
 -
 >
-PostTask
+DEPRECATED_PostTask
 (
 RTC_FROM_HERE
 functor
@@ -5243,7 +5241,7 @@ event
 background_thread
 -
 >
-PostTask
+DEPRECATED_PostTask
 (
 RTC_FROM_HERE
 std
@@ -5338,7 +5336,7 @@ functor
 background_thread
 -
 >
-PostTask
+DEPRECATED_PostTask
 (
 RTC_FROM_HERE
 functor_ref
@@ -5417,7 +5415,7 @@ get
 background_thread
 -
 >
-PostTask
+DEPRECATED_PostTask
 (
 RTC_FROM_HERE
 [
@@ -5507,7 +5505,7 @@ event_set_by_background_thread
 background_thread
 -
 >
-PostTask
+DEPRECATED_PostTask
 (
 RTC_FROM_HERE
 [
@@ -5596,7 +5594,7 @@ fourth
 background_thread
 -
 >
-PostTask
+DEPRECATED_PostTask
 (
 RTC_FROM_HERE
 [
@@ -5620,7 +5618,7 @@ second
 background_thread
 -
 >
-PostTask
+DEPRECATED_PostTask
 (
 RTC_FROM_HERE
 [
@@ -5644,7 +5642,7 @@ third
 background_thread
 -
 >
-PostTask
+DEPRECATED_PostTask
 (
 RTC_FROM_HERE
 [
@@ -5727,7 +5725,7 @@ event_set_by_background_thread
 background_thread
 -
 >
-PostDelayedTask
+DEPRECATED_PostDelayedTask
 (
 RTC_FROM_HERE
 [
@@ -5820,7 +5818,7 @@ fourth
 background_thread
 -
 >
-PostDelayedTask
+DEPRECATED_PostDelayedTask
 (
 RTC_FROM_HERE
 [
@@ -5845,7 +5843,7 @@ fourth
 background_thread
 -
 >
-PostDelayedTask
+DEPRECATED_PostDelayedTask
 (
 RTC_FROM_HERE
 [
@@ -5870,7 +5868,7 @@ second
 background_thread
 -
 >
-PostDelayedTask
+DEPRECATED_PostDelayedTask
 (
 RTC_FROM_HERE
 [

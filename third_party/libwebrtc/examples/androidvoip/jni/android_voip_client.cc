@@ -269,8 +269,6 @@ voip_thread_
 PostTask
 (
 \
-RTC_FROM_HERE
-\
 std
 :
 :
@@ -1498,7 +1496,6 @@ voip_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 chosen_encoder
@@ -1741,7 +1738,6 @@ voip_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 chosen_decoders
@@ -1853,7 +1849,6 @@ voip_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 ip_address
@@ -1967,7 +1962,6 @@ voip_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 ip_address
@@ -2779,7 +2773,6 @@ voip_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 packet_copy
@@ -2910,7 +2903,6 @@ voip_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 packet_copy
@@ -3091,7 +3083,6 @@ voip_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 packet_copy
@@ -3269,7 +3260,6 @@ voip_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 packet_copy

@@ -2881,7 +2881,6 @@ thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 std
 :
 :
@@ -7766,7 +7765,6 @@ network_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 ]
@@ -7803,7 +7801,6 @@ network_thread_
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 this
 ]

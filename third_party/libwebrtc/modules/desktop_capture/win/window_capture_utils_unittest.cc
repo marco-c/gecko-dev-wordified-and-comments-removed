@@ -206,7 +206,6 @@ window_thread
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 &
 mtx
