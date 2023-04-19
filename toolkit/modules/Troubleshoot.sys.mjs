@@ -6244,7 +6244,7 @@ RemoteAgent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -6259,7 +6259,9 @@ components
 /
 RemoteAgent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

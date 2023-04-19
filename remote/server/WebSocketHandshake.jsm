@@ -95,15 +95,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-lazy
-{
 RemoteAgent
 :
 "
@@ -119,7 +110,9 @@ components
 /
 RemoteAgent
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
