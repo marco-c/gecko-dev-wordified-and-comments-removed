@@ -55,7 +55,7 @@ MPL
 .
 translation
 -
-window
+window2
 =
 .
 title
@@ -66,6 +66,8 @@ Translation
 .
 style
 =
+min
+-
 width
 :
 36em

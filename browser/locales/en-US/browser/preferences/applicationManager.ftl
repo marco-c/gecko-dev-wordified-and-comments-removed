@@ -57,7 +57,7 @@ app
 -
 manager
 -
-window
+window2
 =
 .
 title
@@ -67,6 +67,8 @@ details
 .
 style
 =
+min
+-
 width
 :
 30em

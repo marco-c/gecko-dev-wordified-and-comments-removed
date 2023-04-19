@@ -55,7 +55,7 @@ MPL
 .
 colors
 -
-dialog
+dialog2
 =
 .
 title
@@ -64,6 +64,8 @@ Colors
 .
 style
 =
+min
+-
 width
 :
 41em

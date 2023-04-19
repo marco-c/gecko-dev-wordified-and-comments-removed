@@ -65,7 +65,7 @@ site
 -
 notification
 -
-window
+window2
 "
 description
 :
@@ -117,7 +117,7 @@ site
 -
 location
 -
-window
+window2
 "
 description
 :
@@ -169,7 +169,7 @@ site
 -
 xr
 -
-window
+window2
 "
 description
 :
@@ -221,7 +221,7 @@ site
 -
 camera
 -
-window
+window2
 "
 description
 :
@@ -273,7 +273,7 @@ site
 -
 microphone
 -
-window
+window2
 "
 description
 :
@@ -329,7 +329,7 @@ site
 -
 autoplay
 -
-window
+window2
 "
 description
 :

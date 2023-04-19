@@ -6662,7 +6662,7 @@ to
 -
 sync
 -
-dialog
+dialog2
 =
 .
 title
@@ -6674,6 +6674,8 @@ Sync
 .
 style
 =
+min
+-
 width
 :
 36em

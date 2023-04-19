@@ -55,7 +55,7 @@ MPL
 .
 permissions
 -
-window
+window2
 =
 .
 title
@@ -64,6 +64,8 @@ Exceptions
 .
 style
 =
+min
+-
 width
 :
 45em
@@ -421,7 +423,7 @@ exceptions
 -
 etp
 -
-window
+window2
 =
 .
 title
@@ -437,7 +439,7 @@ style
 {
 permissions
 -
-window
+window2
 .
 style
 }
@@ -469,7 +471,7 @@ exceptions
 -
 cookie
 -
-window
+window2
 =
 .
 title
@@ -486,7 +488,7 @@ style
 {
 permissions
 -
-window
+window2
 .
 style
 }
@@ -552,7 +554,7 @@ https
 -
 only
 -
-window
+window2
 =
 .
 title
@@ -569,7 +571,7 @@ style
 {
 permissions
 -
-window
+window2
 .
 style
 }
@@ -638,7 +640,7 @@ exceptions
 -
 popup
 -
-window
+window2
 =
 .
 title
@@ -655,7 +657,7 @@ style
 {
 permissions
 -
-window
+window2
 .
 style
 }
@@ -711,7 +713,7 @@ saved
 -
 logins
 -
-window
+window2
 =
 .
 title
@@ -726,7 +728,7 @@ style
 {
 permissions
 -
-window
+window2
 .
 style
 }
@@ -762,7 +764,7 @@ exceptions
 -
 addons
 -
-window
+window2
 =
 .
 title
@@ -780,7 +782,7 @@ style
 {
 permissions
 -
-window
+window2
 .
 style
 }
@@ -833,7 +835,7 @@ site
 -
 autoplay
 -
-window
+window2
 =
 .
 title
@@ -847,7 +849,7 @@ style
 {
 permissions
 -
-window
+window2
 .
 style
 }
@@ -886,7 +888,7 @@ site
 -
 notification
 -
-window
+window2
 =
 .
 title
@@ -901,7 +903,7 @@ style
 {
 permissions
 -
-window
+window2
 .
 style
 }
@@ -1011,7 +1013,7 @@ site
 -
 location
 -
-window
+window2
 =
 .
 title
@@ -1026,7 +1028,7 @@ style
 {
 permissions
 -
-window
+window2
 .
 style
 }
@@ -1143,7 +1145,7 @@ site
 -
 xr
 -
-window
+window2
 =
 .
 title
@@ -1159,7 +1161,7 @@ style
 {
 permissions
 -
-window
+window2
 .
 style
 }
@@ -1287,7 +1289,7 @@ site
 -
 camera
 -
-window
+window2
 =
 .
 title
@@ -1302,7 +1304,7 @@ style
 {
 permissions
 -
-window
+window2
 .
 style
 }
@@ -1418,7 +1420,7 @@ site
 -
 microphone
 -
-window
+window2
 =
 .
 title
@@ -1433,7 +1435,7 @@ style
 {
 permissions
 -
-window
+window2
 .
 style
 }

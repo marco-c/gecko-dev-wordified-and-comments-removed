@@ -57,7 +57,7 @@ webpage
 -
 languages
 -
-window
+window2
 =
 .
 title
@@ -68,6 +68,8 @@ Settings
 .
 style
 =
+min
+-
 width
 :
 40em
@@ -332,7 +334,7 @@ browser
 -
 languages
 -
-window
+window2
 =
 .
 title
@@ -350,6 +352,8 @@ Settings
 .
 style
 =
+min
+-
 width
 :
 40em

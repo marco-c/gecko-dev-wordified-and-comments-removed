@@ -55,7 +55,7 @@ MPL
 .
 connection
 -
-window
+window2
 =
 .
 title
@@ -74,6 +74,8 @@ PLATFORM
 [
 macos
 ]
+min
+-
 width
 :
 44em
@@ -81,6 +83,8 @@ width
 [
 other
 ]
+min
+-
 width
 :
 49em

@@ -61,11 +61,13 @@ device
 -
 dialog
 -
-sync
+sync2
 =
 .
 style
 =
+min
+-
 width
 :
 32em

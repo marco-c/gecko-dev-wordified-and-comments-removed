@@ -57,7 +57,7 @@ add
 -
 engine
 -
-window
+window2
 =
 .
 title
@@ -68,6 +68,8 @@ Engine
 .
 style
 =
+min
+-
 width
 :
 32em

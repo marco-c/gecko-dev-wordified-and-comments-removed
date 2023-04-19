@@ -57,7 +57,7 @@ containers
 -
 window
 -
-new
+new2
 =
 .
 title
@@ -68,6 +68,8 @@ Container
 .
 style
 =
+min
+-
 width
 :
 45em
@@ -89,7 +91,7 @@ window
 -
 update
 -
-settings
+settings2
 =
 .
 title
@@ -102,6 +104,8 @@ Settings
 .
 style
 =
+min
+-
 width
 :
 45em

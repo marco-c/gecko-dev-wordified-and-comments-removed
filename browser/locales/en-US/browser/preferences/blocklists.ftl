@@ -55,7 +55,7 @@ MPL
 .
 blocklist
 -
-window
+window2
 =
 .
 title
@@ -65,6 +65,8 @@ Lists
 .
 style
 =
+min
+-
 width
 :
 55em

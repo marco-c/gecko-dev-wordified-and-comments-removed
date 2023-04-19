@@ -57,7 +57,7 @@ select
 -
 bookmark
 -
-window
+window2
 =
 .
 title
@@ -68,6 +68,8 @@ Page
 .
 style
 =
+min
+-
 width
 :
 32em

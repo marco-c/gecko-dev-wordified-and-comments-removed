@@ -59,7 +59,7 @@ site
 -
 data
 -
-window
+window2
 =
 .
 title
@@ -69,6 +69,8 @@ Data
 .
 style
 =
+min
+-
 width
 :
 35em
