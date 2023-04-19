@@ -2103,6 +2103,12 @@ WebRtcVoiceEngine
 Init
 "
 ;
+RTC_DCHECK
+(
+!
+low_priority_worker_queue_
+)
+;
 low_priority_worker_queue_
 .
 reset

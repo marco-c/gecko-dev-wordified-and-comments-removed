@@ -750,9 +750,6 @@ RTCCertificate
 >
 &
 certificate
-UniqueRandomIdGenerator
-*
-ssrc_generator
 std
 :
 :
@@ -786,7 +783,6 @@ session_desc_factory_
 channel_manager
 &
 transport_desc_factory_
-ssrc_generator
 )
 session_version_
 (

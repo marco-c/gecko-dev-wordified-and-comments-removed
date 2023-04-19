@@ -244,7 +244,7 @@ MEDIA_TYPE_AUDIO
 EXPECT_CALL
 (
 channel1
-content_name
+mid
 (
 )
 )
@@ -504,7 +504,7 @@ MEDIA_TYPE_VIDEO
 EXPECT_CALL
 (
 channel
-content_name
+mid
 (
 )
 )
@@ -2176,7 +2176,7 @@ nullptr
 EXPECT_CALL
 (
 mock_channel
-content_name
+mid
 (
 )
 )
@@ -2383,7 +2383,7 @@ nullptr
 EXPECT_CALL
 (
 mock_channel
-content_name
+mid
 (
 )
 )

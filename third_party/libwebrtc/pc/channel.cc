@@ -705,7 +705,7 @@ std
 :
 string
 &
-content_name
+mid
 bool
 srtp_required
 webrtc
@@ -779,7 +779,7 @@ media_channel
 )
 demuxer_criteria_
 (
-content_name
+mid
 )
 ssrc_generator_
 (
@@ -881,7 +881,7 @@ media_type
 s
 }
 "
-content_name
+mid
 (
 )
 .
@@ -3105,7 +3105,7 @@ old_stream
 first_ssrc
 (
 )
-content_name
+mid
 (
 )
 .
@@ -3279,7 +3279,7 @@ new_stream
 first_ssrc
 (
 )
-content_name
+mid
 (
 )
 .
@@ -3403,7 +3403,7 @@ new_stream
 first_ssrc
 (
 )
-content_name
+mid
 (
 )
 .
@@ -3719,7 +3719,7 @@ old_stream
 first_ssrc
 (
 )
-content_name
+mid
 (
 )
 .
@@ -3990,7 +3990,7 @@ s
 '
 .
 "
-content_name
+mid
 (
 )
 .
@@ -4235,7 +4235,7 @@ std
 :
 string
 &
-content_name
+mid
 bool
 srtp_required
 webrtc
@@ -4260,7 +4260,7 @@ move
 (
 media_channel
 )
-content_name
+mid
 srtp_required
 crypto_options
 ssrc_generator
@@ -4545,7 +4545,7 @@ s
 '
 .
 "
-content_name
+mid
 (
 )
 .
@@ -4787,7 +4787,7 @@ send_params
 .
 mid
 =
-content_name
+mid
 (
 )
 ;
@@ -4838,7 +4838,7 @@ s
 '
 .
 "
-content_name
+mid
 (
 )
 .
@@ -4901,7 +4901,7 @@ std
 :
 string
 &
-content_name
+mid
 bool
 srtp_required
 webrtc
@@ -4926,7 +4926,7 @@ move
 (
 media_channel
 )
-content_name
+mid
 srtp_required
 crypto_options
 ssrc_generator
@@ -5297,7 +5297,7 @@ s
 '
 .
 "
-content_name
+mid
 (
 )
 .
@@ -5355,7 +5355,7 @@ s
 '
 .
 "
-content_name
+mid
 (
 )
 .
@@ -5470,7 +5470,7 @@ s
 '
 .
 "
-content_name
+mid
 (
 )
 .
@@ -5662,7 +5662,7 @@ send_params
 .
 mid
 =
-content_name
+mid
 (
 )
 ;
@@ -5807,7 +5807,7 @@ s
 '
 .
 "
-content_name
+mid
 (
 )
 .
@@ -5865,7 +5865,7 @@ s
 '
 .
 "
-content_name
+mid
 (
 )
 .
@@ -5924,7 +5924,7 @@ s
 '
 .
 "
-content_name
+mid
 (
 )
 .
