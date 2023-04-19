@@ -7,6 +7,11 @@ MODULES_VIDEO_CODING_DECODING_STATE_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 map
 >
 #
