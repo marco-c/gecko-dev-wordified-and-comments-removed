@@ -179,8 +179,6 @@ type
 b
 -
 linux
--
-aws
 worker
 :
 docker
