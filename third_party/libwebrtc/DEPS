@@ -76,7 +76,7 @@ chromium_revision
 '
 :
 '
-3a758342bcaba2738ac00ee07d26cf32ebc2e108
+00f8185a562acde43f8629e2b8f07857d05236ef
 '
 }
 deps
@@ -155,7 +155,7 @@ chromium
 src
 /
 build
-52ccb296104e3a48444450f1007e67e5fb1c8038
+4ff4105cd868fb28100b596f7c20d34199789e51
 '
 '
 src
@@ -307,7 +307,7 @@ chromium
 src
 /
 testing
-4cc7c3398124e001abbeae1953272cefceb046ba
+40358cbd31610346a4272ce5670b96b1764eb1ee
 '
 '
 src
@@ -331,7 +331,7 @@ chromium
 src
 /
 third_party
-7878bc903ad97b4a7685582fc205bc518623e56f
+06692eaa9a56c97471f3296ed8c29edf7f7c7991
 '
 '
 src
@@ -1094,7 +1094,7 @@ tools
 depot_tools
 .
 git
-c499142087df4f7e473c411657a9fa2809e57114
+cb17bc602880062ea728a78449fb87d778791dc2
 '
 '
 src
@@ -1250,7 +1250,7 @@ third_party
 freetype2
 .
 git
-967a34eee3fd34f496366ed1283ab5268d23690a
+b070264521386666dd0cbbedec469c84b26489ba
 '
 '
 src
@@ -2428,7 +2428,7 @@ chromium
 src
 /
 tools
-e7be3dcba101d8741bfd2ceb0ae0e236dde1f3ea
+738af13ce7420678132756d11daebd2830c84023
 '
 '
 src
@@ -2940,9 +2940,7 @@ version
 '
 :
 '
-VYT
--
-kV9hO7iazLkZ6_B5NPXMxTwyjcFI3hHKKWdbRvIC
+WpOMGKPknIvtLmyme5NOnOsAJCTFE_iqJ3DPKH5DXv4C
 '
 }
 ]
