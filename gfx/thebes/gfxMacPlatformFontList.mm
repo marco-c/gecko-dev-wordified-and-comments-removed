@@ -9236,6 +9236,9 @@ bool
 aLoadFaceNames
 bool
 aLoadCmaps
+RecursiveMutex
+&
+aLock
 )
 :
 FontInfoData
@@ -9243,6 +9246,10 @@ FontInfoData
 aLoadOtherNames
 aLoadFaceNames
 aLoadCmaps
+)
+mLock
+(
+aLock
 )
 {
 }
@@ -9281,6 +9288,10 @@ nsACString
 aFamilyName
 )
 ;
+RecursiveMutex
+&
+mLock
+;
 }
 ;
 void
@@ -9309,6 +9320,12 @@ Annotation
 :
 FontName
 aFamilyName
+)
+;
+RecursiveMutexAutoLock
+lock
+(
+mLock
 )
 ;
 NSString
@@ -9844,6 +9861,7 @@ NeedFullnamePostscriptNames
 (
 )
 loadCmaps
+mLock
 )
 ;
 return
