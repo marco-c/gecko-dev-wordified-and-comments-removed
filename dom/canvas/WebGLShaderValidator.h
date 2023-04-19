@@ -163,6 +163,11 @@ mMaxVaryingVectors
 0
 ;
 bool
+mNeeds_webgl_gl_VertexID_Offset
+=
+false
+;
+bool
 CanLinkTo
 (
 const
@@ -207,6 +212,11 @@ mMaxVaryingVectors
 ;
 public
 :
+bool
+mIfNeeded_webgl_gl_VertexID_Offset
+=
+false
+;
 static
 std
 :
