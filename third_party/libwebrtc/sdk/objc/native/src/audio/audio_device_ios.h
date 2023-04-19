@@ -763,6 +763,11 @@ ConfigureAudioSession
 (
 )
 ;
+bool
+ConfigureAudioSessionLocked
+(
+)
+;
 void
 UnconfigureAudioSession
 (
