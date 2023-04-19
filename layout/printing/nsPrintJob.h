@@ -204,14 +204,9 @@ RemotePrintJobChild
 ;
 public
 :
-nsPrintJob
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIWEBPROGRESSLISTENER
-nsresult
-Initialize
+nsPrintJob
 (
 nsIDocumentViewerPrint
 &
