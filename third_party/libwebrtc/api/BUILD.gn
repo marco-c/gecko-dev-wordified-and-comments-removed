@@ -5936,6 +5936,14 @@ time_controller
 /
 rtc_base
 :
+buffer
+"
+"
+.
+.
+/
+rtc_base
+:
 checks
 "
 "
