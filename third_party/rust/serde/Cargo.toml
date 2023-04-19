@@ -118,7 +118,7 @@ version
 .
 0
 .
-143
+144
 "
 authors
 =
@@ -293,11 +293,6 @@ rs
 /
 serde
 "
-resolver
-=
-"
-1
-"
 [
 package
 .
@@ -350,7 +345,7 @@ version
 .
 0
 .
-143
+144
 "
 optional
 =
