@@ -1917,13 +1917,6 @@ ssrc
 inbound_stats
 -
 >
-is_remote
-=
-false
-;
-inbound_stats
--
->
 packets_received
 =
 static_cast
@@ -2915,13 +2908,6 @@ media_sender_info
 ssrc
 (
 )
-;
-outbound_stats
--
->
-is_remote
-=
-false
 ;
 outbound_stats
 -
