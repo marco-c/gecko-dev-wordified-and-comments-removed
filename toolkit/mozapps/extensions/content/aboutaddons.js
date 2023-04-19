@@ -20204,6 +20204,13 @@ ColorwayClosetOpener
 .
 openModal
 (
+{
+source
+:
+"
+aboutaddons
+"
+}
 )
 ;
 }
