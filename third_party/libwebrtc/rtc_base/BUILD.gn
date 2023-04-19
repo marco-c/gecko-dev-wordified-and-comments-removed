@@ -4404,6 +4404,14 @@ function_view
 /
 api
 :
+refcountedbase
+"
+"
+.
+.
+/
+api
+:
 scoped_refptr
 "
 "

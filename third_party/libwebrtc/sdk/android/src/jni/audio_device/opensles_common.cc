@@ -401,16 +401,6 @@ Detach
 )
 ;
 }
-OpenSLEngineManager
-:
-:
-~
-OpenSLEngineManager
-(
-)
-=
-default
-;
 SLObjectItf
 OpenSLEngineManager
 :

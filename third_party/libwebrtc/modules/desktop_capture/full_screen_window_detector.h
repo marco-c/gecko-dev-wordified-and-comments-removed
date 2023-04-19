@@ -77,7 +77,10 @@ public
 rtc
 :
 :
-RefCountedBase
+RefCountedNonVirtual
+<
+FullScreenWindowDetector
+>
 {
 public
 :

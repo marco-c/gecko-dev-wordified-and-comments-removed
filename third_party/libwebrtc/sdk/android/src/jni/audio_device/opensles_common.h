@@ -204,7 +204,10 @@ public
 rtc
 :
 :
-RefCountedBase
+RefCountedNonVirtual
+<
+OpenSLEngineManager
+>
 {
 public
 :
@@ -216,7 +219,8 @@ OpenSLEngineManager
 OpenSLEngineManager
 (
 )
-override
+=
+default
 ;
 SLObjectItf
 GetOpenSLEngine

@@ -52,7 +52,10 @@ public
 rtc
 :
 :
-RefCountedBase
+RefCountedNonVirtual
+<
+AddIceCandidateObserverJni
+>
 {
 public
 :
@@ -74,7 +77,6 @@ j_observer
 AddIceCandidateObserverJni
 (
 )
-override
 =
 default
 ;
