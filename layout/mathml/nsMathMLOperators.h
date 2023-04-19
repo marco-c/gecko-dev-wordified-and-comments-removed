@@ -222,7 +222,7 @@ CleanUp
 )
 ;
 static
-bool
+void
 LookupOperator
 (
 const
@@ -230,7 +230,7 @@ nsString
 &
 aOperator
 const
-nsOperatorFlags
+uint8_t
 aForm
 nsOperatorFlags
 *
