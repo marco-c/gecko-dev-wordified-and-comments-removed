@@ -715,13 +715,6 @@ AddSearch
 "
 {
 engine
-url
-:
-link
-.
-ownerDocument
-.
-documentURI
 }
 )
 ;

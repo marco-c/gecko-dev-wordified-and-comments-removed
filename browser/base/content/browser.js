@@ -17900,7 +17900,6 @@ addEngine
 (
 browser
 engine
-uri
 )
 {
 if
