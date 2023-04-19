@@ -3175,9 +3175,9 @@ selectedTab
 {
 if
 (
-TabDescriptorFactory
+gDevTools
 .
-isKnownTab
+hasToolboxForTab
 (
 tab
 )
