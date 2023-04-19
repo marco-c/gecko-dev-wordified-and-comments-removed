@@ -1958,7 +1958,7 @@ CheckSrtp
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 )
 ;
 client2_
@@ -1968,7 +1968,7 @@ CheckSrtp
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 )
 ;
 }
@@ -1981,7 +1981,7 @@ CheckSrtp
 rtc
 :
 :
-SRTP_INVALID_CRYPTO_SUITE
+kSrtpInvalidCryptoSuite
 )
 ;
 client2_
@@ -1991,7 +1991,7 @@ CheckSrtp
 rtc
 :
 :
-SRTP_INVALID_CRYPTO_SUITE
+kSrtpInvalidCryptoSuite
 )
 ;
 }

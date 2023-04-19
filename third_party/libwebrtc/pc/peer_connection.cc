@@ -15891,7 +15891,7 @@ srtp_crypto_suite
 rtc
 :
 :
-SRTP_INVALID_CRYPTO_SUITE
+kSrtpInvalidCryptoSuite
 &
 &
 ssl_cipher_suite
@@ -15900,7 +15900,7 @@ ssl_cipher_suite
 rtc
 :
 :
-TLS_NULL_WITH_NULL_NULL
+kTlsNullWithNullNull
 )
 {
 return
@@ -15914,7 +15914,7 @@ srtp_crypto_suite
 rtc
 :
 :
-SRTP_INVALID_CRYPTO_SUITE
+kSrtpInvalidCryptoSuite
 )
 {
 for
@@ -15954,7 +15954,7 @@ srtp_crypto_suite
 rtc
 :
 :
-SRTP_CRYPTO_SUITE_MAX_VALUE
+kSrtpCryptoSuiteMaxValue
 )
 ;
 break
@@ -15980,7 +15980,7 @@ srtp_crypto_suite
 rtc
 :
 :
-SRTP_CRYPTO_SUITE_MAX_VALUE
+kSrtpCryptoSuiteMaxValue
 )
 ;
 break
@@ -16006,7 +16006,7 @@ srtp_crypto_suite
 rtc
 :
 :
-SRTP_CRYPTO_SUITE_MAX_VALUE
+kSrtpCryptoSuiteMaxValue
 )
 ;
 break
@@ -16030,7 +16030,7 @@ ssl_cipher_suite
 rtc
 :
 :
-TLS_NULL_WITH_NULL_NULL
+kTlsNullWithNullNull
 )
 {
 for
@@ -16070,7 +16070,7 @@ ssl_cipher_suite
 rtc
 :
 :
-SSL_CIPHER_SUITE_MAX_VALUE
+kSslCipherSuiteMaxValue
 )
 ;
 break
@@ -16096,7 +16096,7 @@ ssl_cipher_suite
 rtc
 :
 :
-SSL_CIPHER_SUITE_MAX_VALUE
+kSslCipherSuiteMaxValue
 )
 ;
 break
@@ -16122,7 +16122,7 @@ ssl_cipher_suite
 rtc
 :
 :
-SSL_CIPHER_SUITE_MAX_VALUE
+kSslCipherSuiteMaxValue
 )
 ;
 break

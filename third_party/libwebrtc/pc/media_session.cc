@@ -1456,7 +1456,7 @@ push_back
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_32
+kSrtpAes128CmSha1_32
 )
 ;
 }
@@ -1468,7 +1468,7 @@ push_back
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 )
 ;
 if
@@ -1488,7 +1488,7 @@ push_back
 rtc
 :
 :
-SRTP_AEAD_AES_256_GCM
+kSrtpAeadAes256Gcm
 )
 ;
 crypto_suites
@@ -1499,7 +1499,7 @@ push_back
 rtc
 :
 :
-SRTP_AEAD_AES_128_GCM
+kSrtpAeadAes128Gcm
 )
 ;
 }
@@ -1565,7 +1565,7 @@ push_back
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 )
 ;
 if
@@ -1585,7 +1585,7 @@ push_back
 rtc
 :
 :
-SRTP_AEAD_AES_256_GCM
+kSrtpAeadAes256Gcm
 )
 ;
 crypto_suites
@@ -1596,7 +1596,7 @@ push_back
 rtc
 :
 :
-SRTP_AEAD_AES_128_GCM
+kSrtpAeadAes128Gcm
 )
 ;
 }
@@ -1662,7 +1662,7 @@ push_back
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 )
 ;
 if
@@ -1682,7 +1682,7 @@ push_back
 rtc
 :
 :
-SRTP_AEAD_AES_256_GCM
+kSrtpAeadAes256Gcm
 )
 ;
 crypto_suites
@@ -1693,7 +1693,7 @@ push_back
 rtc
 :
 :
-SRTP_AEAD_AES_128_GCM
+kSrtpAeadAes128Gcm
 )
 ;
 }
@@ -1812,7 +1812,7 @@ cipher_suite
 rtc
 :
 :
-CS_AES_CM_128_HMAC_SHA1_80
+kCsAesCm128HmacSha1_80
 =
 =
 crypto
@@ -1824,7 +1824,7 @@ cipher_suite
 rtc
 :
 :
-CS_AES_CM_128_HMAC_SHA1_32
+kCsAesCm128HmacSha1_32
 =
 =
 crypto

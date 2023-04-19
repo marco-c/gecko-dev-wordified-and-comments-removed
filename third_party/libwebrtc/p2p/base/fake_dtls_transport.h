@@ -1531,7 +1531,7 @@ crypto_suite_
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 ;
 absl
 :

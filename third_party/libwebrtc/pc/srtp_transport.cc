@@ -308,7 +308,7 @@ send_cipher_suite_
 rtc
 :
 :
-SRTP_INVALID_CRYPTO_SUITE
+kSrtpInvalidCryptoSuite
 )
 {
 return
@@ -578,7 +578,7 @@ recv_cipher_suite_
 rtc
 :
 :
-SRTP_INVALID_CRYPTO_SUITE
+kSrtpInvalidCryptoSuite
 )
 {
 return

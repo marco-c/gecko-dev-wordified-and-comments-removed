@@ -123,7 +123,7 @@ push_back
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_32
+kSrtpAes128CmSha1_32
 )
 ;
 }
@@ -141,7 +141,7 @@ push_back
 rtc
 :
 :
-SRTP_AES128_CM_SHA1_80
+kSrtpAes128CmSha1_80
 )
 ;
 }
@@ -159,7 +159,7 @@ push_back
 rtc
 :
 :
-SRTP_AEAD_AES_256_GCM
+kSrtpAeadAes256Gcm
 )
 ;
 crypto_suites
@@ -169,7 +169,7 @@ push_back
 rtc
 :
 :
-SRTP_AEAD_AES_128_GCM
+kSrtpAeadAes128Gcm
 )
 ;
 }

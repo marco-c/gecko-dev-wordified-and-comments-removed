@@ -11505,7 +11505,7 @@ ssl_cipher_suite
 rtc
 :
 :
-TLS_NULL_WITH_NULL_NULL
+kTlsNullWithNullNull
 &
 &
 rtc
@@ -11555,7 +11555,7 @@ srtp_crypto_suite
 rtc
 :
 :
-SRTP_INVALID_CRYPTO_SUITE
+kSrtpInvalidCryptoSuite
 &
 &
 rtc
