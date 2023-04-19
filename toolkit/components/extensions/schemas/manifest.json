@@ -1381,7 +1381,7 @@ ref
 "
 :
 "
-MatchPattern
+MatchPatternRestricted
 "
 }
 }
