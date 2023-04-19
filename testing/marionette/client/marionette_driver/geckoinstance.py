@@ -1941,6 +1941,14 @@ enabled
 "
 :
 True
+                    
+"
+devtools
+.
+testing
+"
+:
+True
                 
 }
             
