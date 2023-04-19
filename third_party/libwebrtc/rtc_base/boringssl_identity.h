@@ -1,9 +1,9 @@
 #
 ifndef
-RTC_BASE_OPENSSL_IDENTITY_H_
+RTC_BASE_BORINGSSL_IDENTITY_H_
 #
 define
-RTC_BASE_OPENSSL_IDENTITY_H_
+RTC_BASE_BORINGSSL_IDENTITY_H_
 #
 include
 <
@@ -33,7 +33,7 @@ include
 "
 rtc_base
 /
-constructor_magic
+boringssl_certificate
 .
 h
 "
@@ -42,7 +42,7 @@ include
 "
 rtc_base
 /
-openssl_certificate
+constructor_magic
 .
 h
 "
@@ -77,7 +77,7 @@ namespace
 rtc
 {
 class
-OpenSSLIdentity
+BoringSSLIdentity
 final
 :
 public
@@ -91,7 +91,7 @@ std
 :
 unique_ptr
 <
-OpenSSLIdentity
+BoringSSLIdentity
 >
 CreateWithExpiration
 (
@@ -116,7 +116,7 @@ std
 :
 unique_ptr
 <
-OpenSSLIdentity
+BoringSSLIdentity
 >
 CreateForTest
 (
@@ -179,13 +179,13 @@ certificate_chain
 )
 ;
 ~
-OpenSSLIdentity
+BoringSSLIdentity
 (
 )
 override
 ;
 const
-OpenSSLCertificate
+BoringSSLCertificate
 &
 certificate
 (
@@ -236,7 +236,7 @@ operator
 =
 (
 const
-OpenSSLIdentity
+BoringSSLIdentity
 &
 other
 )
@@ -248,7 +248,7 @@ operator
 =
 (
 const
-OpenSSLIdentity
+BoringSSLIdentity
 &
 other
 )
@@ -256,7 +256,7 @@ const
 ;
 private
 :
-OpenSSLIdentity
+BoringSSLIdentity
 (
 std
 :
@@ -271,12 +271,12 @@ std
 :
 unique_ptr
 <
-OpenSSLCertificate
+BoringSSLCertificate
 >
 certificate
 )
 ;
-OpenSSLIdentity
+BoringSSLIdentity
 (
 std
 :
@@ -315,7 +315,7 @@ std
 :
 unique_ptr
 <
-OpenSSLIdentity
+BoringSSLIdentity
 >
 CreateInternal
 (
@@ -345,7 +345,7 @@ cert_chain_
 ;
 RTC_DISALLOW_COPY_AND_ASSIGN
 (
-OpenSSLIdentity
+BoringSSLIdentity
 )
 ;
 }
