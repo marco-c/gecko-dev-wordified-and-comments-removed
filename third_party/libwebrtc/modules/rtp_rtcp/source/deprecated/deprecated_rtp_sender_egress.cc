@@ -1702,7 +1702,7 @@ packet_info
 ;
 packet_info
 .
-ssrc
+media_ssrc
 =
 ssrc_
 ;
