@@ -4061,6 +4061,16 @@ libwebrtc
 /
 rtc_base
 /
+histogram_percentile_counter_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+rtc_base
+/
 ignore_wundef_gn
 "
 "
