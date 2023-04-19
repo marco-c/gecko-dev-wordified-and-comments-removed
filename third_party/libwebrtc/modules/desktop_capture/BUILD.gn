@@ -1235,6 +1235,12 @@ true
 }
 #
 }
+if
+(
+!
+build_with_mozilla
+)
+{
 pkg_config
 (
 "
@@ -1306,6 +1312,7 @@ rtc_link_pipewire
 ignore_libs
 =
 true
+}
 }
 }
 if

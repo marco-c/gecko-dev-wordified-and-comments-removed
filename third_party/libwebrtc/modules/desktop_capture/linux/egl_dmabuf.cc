@@ -1,4 +1,11 @@
 #
+if
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
+#
 include
 "
 modules
@@ -3063,3 +3070,5 @@ render_node
 ;
 }
 }
+#
+endif
