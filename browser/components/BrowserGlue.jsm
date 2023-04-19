@@ -20354,7 +20354,7 @@ _maybeShowDefaultBrowserPrompt
 const
 dialogVersion
 =
-100
+106
 ;
 const
 dialogVersionPref
