@@ -2237,14 +2237,6 @@ enabled
 =
 true
 ;
-apm_config
-.
-level_estimation
-.
-enabled
-=
-true
-;
 apm_
 -
 >

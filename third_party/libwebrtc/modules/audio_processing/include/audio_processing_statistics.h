@@ -62,15 +62,6 @@ absl
 :
 optional
 <
-int
->
-output_rms_dbfs
-;
-absl
-:
-:
-optional
-<
 bool
 >
 voice_detected

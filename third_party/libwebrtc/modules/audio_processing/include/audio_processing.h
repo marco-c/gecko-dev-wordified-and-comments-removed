@@ -829,17 +829,6 @@ true
 }
 residual_echo_detector
 ;
-struct
-LevelEstimation
-{
-bool
-enabled
-=
-false
-;
-}
-level_estimation
-;
 std
 :
 :
