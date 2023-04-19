@@ -121,6 +121,10 @@ deps
 [
 "
 :
+pending_task_safety_flag
+"
+"
+:
 to_queued_task
 "
 "
