@@ -80,7 +80,7 @@ const
 ;
 virtual
 bool
-GetDirection
+IsLineIteratorFlowRTL
 (
 )
 =

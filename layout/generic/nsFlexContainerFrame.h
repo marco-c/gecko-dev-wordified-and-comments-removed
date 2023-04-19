@@ -722,7 +722,7 @@ const
 final
 ;
 bool
-GetDirection
+IsLineIteratorFlowRTL
 (
 )
 final

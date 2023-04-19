@@ -56272,7 +56272,7 @@ bool
 nsGridContainerFrame
 :
 :
-GetDirection
+IsLineIteratorFlowRTL
 (
 )
 {

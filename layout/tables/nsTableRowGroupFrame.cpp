@@ -8620,12 +8620,11 @@ bool
 nsTableRowGroupFrame
 :
 :
-GetDirection
+IsLineIteratorFlowRTL
 (
 )
 {
 return
-(
 StyleDirection
 :
 :
@@ -8643,7 +8642,6 @@ StyleVisibility
 -
 >
 mDirection
-)
 ;
 }
 Result
