@@ -104,9 +104,6 @@ IBaseFilter
 filter
 )
 {
-HRESULT
-hr
-;
 IPin
 *
 pin
@@ -140,8 +137,6 @@ return
 NULL
 ;
 }
-hr
-=
 pPinEnum
 -
 >
