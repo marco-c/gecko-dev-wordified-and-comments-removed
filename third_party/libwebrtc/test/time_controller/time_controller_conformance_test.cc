@@ -515,6 +515,10 @@ ElementsAreArray
 )
 )
 ;
+thread
+=
+nullptr
+;
 }
 TEST_P
 (
@@ -642,6 +646,10 @@ ElementsAreArray
 )
 )
 ;
+thread
+=
+nullptr
+;
 }
 TEST_P
 (
@@ -766,6 +774,10 @@ ElementsAreArray
 }
 )
 )
+;
+thread
+=
+nullptr
 ;
 }
 TEST_P
@@ -906,6 +918,10 @@ ElementsAreArray
 }
 )
 )
+;
+thread
+=
+nullptr
 ;
 }
 TEST_P
@@ -1063,6 +1079,10 @@ ElementsAreArray
 }
 )
 )
+;
+task_queue
+=
+nullptr
 ;
 }
 INSTANTIATE_TEST_SUITE_P
