@@ -28313,16 +28313,6 @@ false
 pref
 (
 "
-signon
-.
-showAutoCompleteOrigins
-"
-true
-)
-;
-pref
-(
-"
 browser
 .
 formfill
