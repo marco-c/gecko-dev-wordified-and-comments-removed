@@ -1128,6 +1128,14 @@ connections
 )
 const
 ;
+void
+RemoveConnectionForTest
+(
+Connection
+*
+connection
+)
+;
 PortAllocatorSession
 *
 allocator_session
