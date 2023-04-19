@@ -3690,15 +3690,6 @@ SandboxingKind
 :
 GENERIC_UTILITY
 :
-policy
-=
-GetUtilitySandboxPolicy
-(
-sBroker
-)
-;
-break
-;
 case
 ipc
 :
@@ -3710,7 +3701,7 @@ UTILITY_AUDIO_DECODING_GENERIC
 :
 policy
 =
-GetUtilityAudioDecoderSandboxPolicy
+GetUtilitySandboxPolicy
 (
 sBroker
 )
