@@ -15666,7 +15666,7 @@ endif
 TEST_P
 (
 PeerConnectionInterfaceTest
-SdesIgnored
+DtlsSdesFallbackNotSupported
 )
 {
 RTCConfiguration
@@ -15732,7 +15732,7 @@ nullptr
 )
 )
 ;
-EXPECT_TRUE
+EXPECT_FALSE
 (
 DoSetSessionDescription
 (
