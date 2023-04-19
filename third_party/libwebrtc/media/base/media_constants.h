@@ -461,14 +461,6 @@ RTC_EXPORT
 extern
 const
 char
-kAv1xCodecName
-[
-]
-;
-RTC_EXPORT
-extern
-const
-char
 kH264CodecName
 [
 ]

@@ -339,6 +339,16 @@ kNumMillisecsPerSec
 /
 2
 ;
+constexpr
+char
+kAv1xCodecName
+[
+]
+=
+"
+AV1X
+"
+;
 const
 char
 *

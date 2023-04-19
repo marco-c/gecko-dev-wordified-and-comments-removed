@@ -648,16 +648,6 @@ AV1
 ;
 const
 char
-kAv1xCodecName
-[
-]
-=
-"
-AV1X
-"
-;
-const
-char
 kH264CodecName
 [
 ]
