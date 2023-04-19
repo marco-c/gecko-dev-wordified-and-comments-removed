@@ -5011,6 +5011,14 @@ this
 toggleOptions
 )
 ;
+if
+(
+!
+this
+.
+isBrowserToolbox
+)
+{
 [
 [
 "
@@ -5103,6 +5111,7 @@ preventDefault
 }
 )
 ;
+}
 if
 (
 !
