@@ -2377,6 +2377,17 @@ eTouchMove
 :
 {
 return
+info
+.
+mTouch
+-
+>
+mMessage
+!
+=
+eTouchMove
+|
+|
 !
 aTouch
 -
