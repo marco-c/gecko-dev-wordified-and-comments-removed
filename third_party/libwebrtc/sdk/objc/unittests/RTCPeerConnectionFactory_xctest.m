@@ -710,6 +710,10 @@ crash
 )
 ;
 }
+#
+if
+!
+TARGET_IPHONE_SIMULATOR
 -
 (
 void
@@ -1136,6 +1140,8 @@ crash
 )
 ;
 }
+#
+endif
 -
 (
 void
