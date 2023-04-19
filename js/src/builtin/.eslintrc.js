@@ -119,6 +119,11 @@ allowContentIter
 "
 readonly
 "
+allowContentIterWith
+:
+"
+readonly
+"
 callContentFunction
 :
 "

@@ -155,6 +155,8 @@ emitInitialize
 (
 uint32_t
 forPos
+bool
+isIteratorMethodOnStack
 )
 {
 MOZ_ASSERT
@@ -185,6 +187,12 @@ IteratorKind
 Async
 )
 {
+MOZ_ASSERT
+(
+!
+isIteratorMethodOnStack
+)
+;
 if
 (
 !
@@ -213,6 +221,7 @@ bce_
 emitIterator
 (
 selfHostedIter_
+isIteratorMethodOnStack
 )
 )
 {

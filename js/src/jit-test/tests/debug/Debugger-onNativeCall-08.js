@@ -92,9 +92,6 @@ rv
 from
 "
 "
-IteratorMethod
-"
-"
 values
 "
 "
