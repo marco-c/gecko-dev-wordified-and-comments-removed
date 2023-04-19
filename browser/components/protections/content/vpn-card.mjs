@@ -63,9 +63,9 @@ eslint
 env
 mozilla
 /
-frame
+remote
 -
-script
+page
 *
 /
 export
