@@ -1196,11 +1196,6 @@ VideoSubscription
 {
 public
 :
-using
-Resolution
-=
-VideoResolution
-;
 static
 absl
 :
