@@ -76,6 +76,11 @@ num_temporal_layers
 =
 1
 ;
+bool
+uses_reference_scaling
+=
+true
+;
 int
 scaling_factor_num
 [

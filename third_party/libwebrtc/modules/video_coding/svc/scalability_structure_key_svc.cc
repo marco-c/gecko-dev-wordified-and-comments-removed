@@ -284,6 +284,12 @@ sid
 ]
 ;
 }
+result
+.
+uses_reference_scaling
+=
+true
+;
 return
 result
 ;

@@ -346,6 +346,12 @@ sid
 ]
 ;
 }
+result
+.
+uses_reference_scaling
+=
+false
+;
 return
 result
 ;
