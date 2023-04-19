@@ -2440,9 +2440,7 @@ marionette
 /
 PerTestCoverageUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
