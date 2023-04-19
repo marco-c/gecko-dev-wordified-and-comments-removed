@@ -333,9 +333,16 @@ builtinGlobal
 ref
 =
 =
+Cu
+.
+getGlobalForObject
+(
 builtinGlobal
 .
-internalSandbox
+modules
+.
+ChromeDebugger
+)
 )
 {
 accept
