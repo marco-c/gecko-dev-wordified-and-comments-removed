@@ -36,7 +36,7 @@ Region
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -49,7 +49,9 @@ modules
 /
 Region
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
