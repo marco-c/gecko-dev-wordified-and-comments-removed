@@ -402,14 +402,14 @@ listener
 Primarilly
 used
 in
-ParentChannelListener
+HttpChannelParent
 :
 :
 OnRedirectResult
 callback
-*
 to
 grab
+*
 the
 created
 parent
@@ -420,7 +420,6 @@ channel
 and
 forward
 notifications
-*
 to
 it
 .
@@ -482,7 +481,7 @@ id
 Primarilly
 used
 in
-ParentChannelListener
+HttpChannelParent
 :
 :
 OnRedirectResult

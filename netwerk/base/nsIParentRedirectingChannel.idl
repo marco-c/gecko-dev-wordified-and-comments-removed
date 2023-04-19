@@ -394,7 +394,7 @@ channel
 Primarilly
 used
 by
-ParentChannelListener
+HttpChannelParent
 :
 :
 OnRedirectResult
