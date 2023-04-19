@@ -347,13 +347,13 @@ DisableClippingPredictorDoesNotLowerVolume
 FRIEND_TEST_ALL_PREFIXES
 (
 AgcManagerDirectStandaloneTest
-EnableClippingPredictorWithUnusedPredictedStepDoesNotLowerVolume
+UsedClippingPredictionsProduceLowerAnalogLevels
 )
 ;
 FRIEND_TEST_ALL_PREFIXES
 (
 AgcManagerDirectStandaloneTest
-EnableClippingPredictorLowersVolume
+UnusedClippingPredictionsProduceEqualAnalogLevels
 )
 ;
 AgcManagerDirect
