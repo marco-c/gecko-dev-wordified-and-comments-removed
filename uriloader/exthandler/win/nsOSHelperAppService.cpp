@@ -127,11 +127,13 @@ h
 define
 LOG
 (
-args
+.
+.
+.
 )
 MOZ_LOG
 (
-mLog
+sLog
 mozilla
 :
 :
@@ -139,7 +141,9 @@ LogLevel
 :
 :
 Debug
-args
+(
+__VA_ARGS__
+)
 )
 static
 nsresult
@@ -2061,7 +2065,6 @@ APPLICATION_OCTET_STREAM
 ;
 LOG
 (
-(
 "
 Extension
 lookup
@@ -2111,7 +2114,6 @@ meaningful
 :
 "
 "
-)
 )
 ;
 RefPtr
@@ -2229,7 +2231,6 @@ extensionFromMimeType
 ;
 LOG
 (
-(
 "
 Now
 using
@@ -2271,7 +2272,6 @@ get
 )
 )
 )
-)
 ;
 }
 mi
@@ -2287,7 +2287,6 @@ get
 )
 ;
 LOG
-(
 (
 "
 Extension
@@ -2322,7 +2321,6 @@ mi
 .
 get
 (
-)
 )
 )
 ;
@@ -2373,7 +2371,6 @@ get
 ;
 LOG
 (
-(
 "
 Mime
 -
@@ -2410,7 +2407,6 @@ miFromMimeType
 .
 get
 (
-)
 )
 )
 ;
@@ -2479,7 +2475,6 @@ get
 ;
 LOG
 (
-(
 "
 Mime
 -
@@ -2516,7 +2511,6 @@ mi
 .
 get
 (
-)
 )
 )
 ;

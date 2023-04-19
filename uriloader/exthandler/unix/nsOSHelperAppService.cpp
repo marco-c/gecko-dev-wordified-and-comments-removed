@@ -213,11 +213,17 @@ mozilla
 define
 LOG
 (
-args
+.
+.
+.
 )
+\
 MOZ_LOG
 (
-mLog
+nsOSHelperAppService
+:
+:
+sLog
 mozilla
 :
 :
@@ -225,16 +231,22 @@ LogLevel
 :
 :
 Debug
-args
+(
+__VA_ARGS__
+)
 )
 #
 define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
-mLog
+nsOSHelperAppService
+:
+:
+sLog
 mozilla
 :
 :
@@ -350,17 +362,14 @@ aUnEscapedCommand
 {
 LOG
 (
-(
 "
 -
 -
 UnescapeCommand
 "
 )
-)
 ;
 LOG
-(
 (
 "
 Command
@@ -381,7 +390,6 @@ aEscapedCommand
 .
 get
 (
-)
 )
 )
 ;
@@ -418,7 +426,6 @@ aUnEscapedCommand
 ;
 LOG
 (
-(
 "
 Escaped
 command
@@ -437,7 +444,6 @@ aUnEscapedCommand
 .
 get
 (
-)
 )
 )
 ;
@@ -718,10 +724,8 @@ return
 NS_OK
 ;
 }
+static
 nsresult
-nsOSHelperAppService
-:
-:
 GetFileLocation
 (
 const
@@ -738,7 +742,6 @@ aFileLocation
 )
 {
 LOG
-(
 (
 "
 -
@@ -762,7 +765,6 @@ n
 "
 aPrefName
 aEnvVarName
-)
 )
 ;
 MOZ_ASSERT
@@ -954,7 +956,6 @@ aUserData
 {
 LOG
 (
-(
 "
 -
 -
@@ -975,7 +976,6 @@ aFileExtension
 .
 get
 (
-)
 )
 )
 ;
@@ -1126,13 +1126,11 @@ aMore
 {
 LOG
 (
-(
 "
 -
 -
 CreateInputStream
 "
-)
 )
 ;
 nsresult
@@ -1257,7 +1255,6 @@ rv
 {
 LOG
 (
-(
 "
 Interface
 trouble
@@ -1266,7 +1263,6 @@ stream
 land
 !
 "
-)
 )
 ;
 return
@@ -1364,7 +1360,6 @@ aDescription
 {
 LOG
 (
-(
 "
 -
 -
@@ -1373,10 +1368,8 @@ GetTypeAndDescriptionFromMimetypesFile
 n
 "
 )
-)
 ;
 LOG
-(
 (
 "
 Getting
@@ -1402,10 +1395,8 @@ get
 (
 )
 )
-)
 ;
 LOG
-(
 (
 "
 Using
@@ -1424,7 +1415,6 @@ aFileExtension
 .
 get
 (
-)
 )
 )
 ;
@@ -1588,7 +1578,6 @@ else
 {
 LOG
 (
-(
 "
 Current
 entry
@@ -1607,7 +1596,6 @@ entry
 .
 get
 (
-)
 )
 )
 ;
@@ -1640,7 +1628,6 @@ rv
 {
 LOG
 (
-(
 "
 Bogus
 entry
@@ -1653,7 +1640,6 @@ mode
 \
 n
 "
-)
 )
 ;
 rv
@@ -1698,7 +1684,6 @@ rv
 {
 LOG
 (
-(
 "
 Bogus
 entry
@@ -1711,7 +1696,6 @@ mode
 \
 n
 "
-)
 )
 ;
 rv
@@ -1866,7 +1850,6 @@ else
 {
 LOG
 (
-(
 "
 Failed
 to
@@ -1885,7 +1868,6 @@ entry
 .
 get
 (
-)
 )
 )
 ;
@@ -1967,7 +1949,6 @@ aDescription
 {
 LOG
 (
-(
 "
 -
 -
@@ -1999,7 +1980,6 @@ aMinorType
 .
 get
 (
-)
 )
 )
 ;
@@ -2151,7 +2131,6 @@ aDescription
 {
 LOG
 (
-(
 "
 -
 -
@@ -2160,10 +2139,8 @@ GetExtensionsAndDescriptionFromMimetypesFile
 n
 "
 )
-)
 ;
 LOG
-(
 (
 "
 Getting
@@ -2189,10 +2166,8 @@ get
 (
 )
 )
-)
 ;
 LOG
-(
 (
 "
 Using
@@ -2222,7 +2197,6 @@ aMinorType
 .
 get
 (
-)
 )
 )
 ;
@@ -2386,7 +2360,6 @@ else
 {
 LOG
 (
-(
 "
 Current
 entry
@@ -2405,7 +2378,6 @@ entry
 .
 get
 (
-)
 )
 )
 ;
@@ -2438,7 +2410,6 @@ rv
 {
 LOG
 (
-(
 "
 Bogus
 entry
@@ -2451,7 +2422,6 @@ mode
 \
 n
 "
-)
 )
 ;
 rv
@@ -2496,7 +2466,6 @@ rv
 {
 LOG
 (
-(
 "
 Bogus
 entry
@@ -2509,7 +2478,6 @@ mode
 \
 n
 "
-)
 )
 ;
 rv
@@ -2601,7 +2569,6 @@ rv
 {
 LOG
 (
-(
 "
 Failed
 to
@@ -2620,7 +2587,6 @@ entry
 .
 get
 (
-)
 )
 )
 ;
@@ -2731,7 +2697,6 @@ aDescriptionEnd
 {
 LOG
 (
-(
 "
 -
 -
@@ -2739,7 +2704,6 @@ ParseNetscapeMIMETypesEntry
 \
 n
 "
-)
 )
 ;
 NS_ASSERTION
@@ -3322,7 +3286,6 @@ aDescriptionEnd
 {
 LOG
 (
-(
 "
 -
 -
@@ -3330,7 +3293,6 @@ ParseNormalMIMETypesEntry
 \
 n
 "
-)
 )
 ;
 NS_ASSERTION
@@ -3790,7 +3752,6 @@ aUserData
 {
 LOG
 (
-(
 "
 -
 -
@@ -3822,7 +3783,6 @@ aMinorType
 .
 get
 (
-)
 )
 )
 ;
@@ -3944,7 +3904,6 @@ aMozillaFlags
 {
 LOG
 (
-(
 "
 -
 -
@@ -3953,10 +3912,8 @@ GetHandlerAndDescriptionFromMailcapFile
 n
 "
 )
-)
 ;
 LOG
-(
 (
 "
 Getting
@@ -3982,10 +3939,8 @@ get
 (
 )
 )
-)
 ;
 LOG
-(
 (
 "
 Using
@@ -4015,7 +3970,6 @@ aMinorType
 .
 get
 (
-)
 )
 )
 ;
@@ -4146,7 +4100,6 @@ rv
 {
 LOG
 (
-(
 "
 Interface
 trouble
@@ -4155,7 +4108,6 @@ stream
 land
 !
 "
-)
 )
 ;
 return
@@ -4292,7 +4244,6 @@ else
 {
 LOG
 (
-(
 "
 Current
 entry
@@ -4311,7 +4262,6 @@ entry
 .
 get
 (
-)
 )
 )
 ;
@@ -4449,7 +4399,6 @@ start_iter
 }
 LOG
 (
-(
 "
 The
 real
@@ -4474,7 +4423,6 @@ semicolon_iter
 .
 get
 (
-)
 )
 )
 ;
@@ -4908,7 +4856,6 @@ get
 ;
 LOG
 (
-(
 "
 Running
 Test
@@ -4922,7 +4869,6 @@ testCommand
 .
 get
 (
-)
 )
 )
 ;
@@ -4972,7 +4918,6 @@ continue
 ;
 LOG
 (
-(
 "
 Exit
 code
@@ -4983,7 +4928,6 @@ d
 n
 "
 exitValue
-)
 )
 ;
 if
@@ -5338,7 +5282,6 @@ aFile
 {
 LOG
 (
-(
 "
 -
 -
@@ -5361,7 +5304,6 @@ platformAppPath
 .
 get
 (
-)
 )
 )
 ;
@@ -5667,11 +5609,12 @@ IsEmpty
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 LOG
-(
 (
 "
 Here
@@ -5692,7 +5635,6 @@ aFileExt
 .
 get
 (
-)
 )
 )
 ;
@@ -5739,7 +5681,6 @@ ifdef
 MOZ_WIDGET_GTK
 LOG
 (
-(
 "
 Looking
 in
@@ -5748,7 +5689,6 @@ registry
 \
 n
 "
-)
 )
 ;
 RefPtr
@@ -5772,7 +5712,6 @@ gnomeInfo
 {
 LOG
 (
-(
 "
 Got
 MIMEInfo
@@ -5782,7 +5721,6 @@ registry
 \
 n
 "
-)
 )
 ;
 return
@@ -5817,9 +5755,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 nullptr
 ;
+}
 NS_LossyConvertUTF16toASCII
 asciiMajorType
 (
@@ -5833,7 +5773,6 @@ minorType
 )
 ;
 LOG
-(
 (
 "
 Type
@@ -5881,7 +5820,6 @@ mime_types_description
 .
 get
 (
-)
 )
 )
 ;
@@ -5951,7 +5889,6 @@ mozillaFlags
 ;
 LOG
 (
-(
 "
 Handler
 /
@@ -6004,7 +5941,6 @@ mozillaFlags
 .
 get
 (
-)
 )
 )
 ;
@@ -6218,11 +6154,12 @@ IsEmpty
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 LOG
-(
 (
 "
 Here
@@ -6243,7 +6180,6 @@ aMIMEType
 .
 get
 (
-)
 )
 )
 ;
@@ -6334,7 +6270,6 @@ true
 ;
 LOG
 (
-(
 "
 Private
 Handler
@@ -6372,7 +6307,6 @@ mailcap_description
 .
 get
 (
-)
 )
 )
 ;
@@ -6421,7 +6355,6 @@ gnomeInfo
 {
 LOG
 (
-(
 "
 Got
 MIMEInfo
@@ -6448,7 +6381,6 @@ extensions
 .
 get
 (
-)
 )
 )
 ;
@@ -6563,7 +6495,6 @@ false
 }
 LOG
 (
-(
 "
 Handler
 /
@@ -6616,7 +6547,6 @@ mozillaFlags
 .
 get
 (
-)
 )
 )
 ;

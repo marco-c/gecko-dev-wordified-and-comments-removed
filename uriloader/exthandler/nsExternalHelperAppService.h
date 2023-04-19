@@ -386,6 +386,13 @@ nsIURI
 aResult
 )
 ;
+static
+mozilla
+:
+:
+LazyLogModule
+sLog
+;
 protected
 :
 virtual
@@ -443,13 +450,6 @@ nsACString
 &
 aMIMEType
 )
-;
-static
-mozilla
-:
-:
-LazyLogModule
-mLog
 ;
 friend
 class
