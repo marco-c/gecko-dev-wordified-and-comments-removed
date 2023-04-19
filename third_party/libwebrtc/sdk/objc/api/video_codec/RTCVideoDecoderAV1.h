@@ -17,7 +17,7 @@ h
 #
 import
 "
-RTCVideoEncoder
+RTCVideoDecoder
 .
 h
 "
@@ -25,7 +25,7 @@ RTC_OBJC_EXPORT
 interface
 RTC_OBJC_TYPE
 (
-RTCVideoEncoderVP9
+RTCVideoDecoderAV1
 )
 :
 NSObject
@@ -35,11 +35,11 @@ id
 <
 RTC_OBJC_TYPE
 (
-RTCVideoEncoder
+RTCVideoDecoder
 )
 >
 )
-vp9Encoder
+av1Decoder
 ;
 +
 (

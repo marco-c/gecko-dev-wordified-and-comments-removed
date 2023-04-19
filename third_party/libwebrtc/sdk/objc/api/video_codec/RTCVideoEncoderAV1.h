@@ -25,7 +25,7 @@ RTC_OBJC_EXPORT
 interface
 RTC_OBJC_TYPE
 (
-RTCVideoEncoderVP9
+RTCVideoEncoderAV1
 )
 :
 NSObject
@@ -39,7 +39,7 @@ RTCVideoEncoder
 )
 >
 )
-vp9Encoder
+av1Encoder
 ;
 +
 (

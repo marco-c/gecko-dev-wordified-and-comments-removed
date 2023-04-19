@@ -40,3 +40,15 @@ cricket
 kVp9CodecName
 )
 ;
+NSString
+*
+const
+kRTCVideoCodecAv1Name
+=
+(
+cricket
+:
+:
+kAv1CodecName
+)
+;

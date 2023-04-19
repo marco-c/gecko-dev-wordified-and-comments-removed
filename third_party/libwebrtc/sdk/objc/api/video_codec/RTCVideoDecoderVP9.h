@@ -41,4 +41,10 @@ RTCVideoDecoder
 )
 vp9Decoder
 ;
++
+(
+bool
+)
+isSupported
+;
 end
