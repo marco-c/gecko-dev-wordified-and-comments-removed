@@ -17,17 +17,11 @@ parse
 import
 requests_unixsocket
 from
-taskgraph
-.
-util
 .
 archive
 import
 create_tar_gz_from_files
 from
-taskgraph
-.
-util
 .
 memoize
 import
@@ -2327,7 +2321,7 @@ in
 config
 [
 "
-tasks
+jobs
 "
 ]
 .

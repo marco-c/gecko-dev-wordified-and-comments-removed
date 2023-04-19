@@ -38,8 +38,6 @@ from
 taskgraph
 .
 optimize
-.
-base
 import
 optimize_task_graph
 from

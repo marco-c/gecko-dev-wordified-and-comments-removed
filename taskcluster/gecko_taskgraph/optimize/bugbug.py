@@ -13,11 +13,9 @@ parse
 import
 urlsplit
 from
-taskgraph
+gecko_taskgraph
 .
 optimize
-.
-base
 import
 register_strategy
 registry

@@ -339,32 +339,6 @@ git_branch
 run_on_git_branches
 )
 def
-filter_out_shipping_phase
-(
-task
-parameters
-)
-:
-    
-return
-task
-.
-attributes
-.
-get
-(
-"
-shipping_phase
-"
-)
-in
-(
-None
-"
-build
-"
-)
-def
 standard_filter
 (
 task
@@ -388,8 +362,6 @@ in
 (
             
 filter_out_cron
-            
-filter_out_shipping_phase
             
 filter_for_project
             
