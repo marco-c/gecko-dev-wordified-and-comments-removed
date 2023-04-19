@@ -130,6 +130,12 @@ expected_receivers_count_
 expected_receivers_count
 ;
 }
+void
+AddParticipantInCall
+(
+)
+override
+;
 EncodedImageExtractionResult
 ExtractData
 (

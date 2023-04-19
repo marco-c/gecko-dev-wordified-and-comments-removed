@@ -102,6 +102,14 @@ expected_receivers_count
 0
 ;
 virtual
+void
+AddParticipantInCall
+(
+)
+=
+0
+;
+virtual
 EncodedImageExtractionResult
 ExtractData
 (
