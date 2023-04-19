@@ -19,7 +19,7 @@ TRANSACTIONS_QUEUE_TIMEOUT_MS
 ;
 const
 {
-XPCOMUtils
+PlacesUtils
 }
 =
 ChromeUtils
@@ -35,7 +35,7 @@ gre
 /
 modules
 /
-XPCOMUtils
+PlacesUtils
 .
 jsm
 "
@@ -66,19 +66,14 @@ jsm
 )
 ;
 const
-lazy
-=
 {
+XPCOMUtils
 }
-;
+=
 ChromeUtils
 .
-defineModuleGetter
+import
 (
-lazy
-"
-PlacesUtils
-"
 "
 resource
 :
@@ -88,7 +83,7 @@ gre
 /
 modules
 /
-PlacesUtils
+XPCOMUtils
 .
 jsm
 "
@@ -460,6 +455,12 @@ _undoPosition
 }
 }
 }
+const
+lazy
+=
+{
+}
+;
 XPCOMUtils
 .
 defineLazyGetter
@@ -1965,8 +1966,6 @@ v
 v
 >
 =
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -2121,8 +2120,6 @@ obj
 type
 !
 =
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -3024,8 +3021,6 @@ newIndex
 DefineTransaction
 .
 indexValidate
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -3112,8 +3107,6 @@ item
 parentGuid
 index
 =
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -3149,8 +3142,6 @@ info
 .
 dateAdded
 =
-lazy
-.
 PlacesUtils
 .
 toDate
@@ -3164,8 +3155,6 @@ info
 .
 lastModified
 =
-lazy
-.
 PlacesUtils
 .
 toDate
@@ -3189,8 +3178,6 @@ type
 )
 {
 case
-lazy
-.
 PlacesUtils
 .
 TYPE_X_MOZ_PLACE
@@ -3230,8 +3217,6 @@ guid
 =
 (
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -3265,8 +3250,6 @@ postData
 item
 ;
 await
-lazy
-.
 PlacesUtils
 .
 keywords
@@ -3290,8 +3273,6 @@ in
 item
 )
 {
-lazy
-.
 PlacesUtils
 .
 tagging
@@ -3324,8 +3305,6 @@ break
 ;
 }
 case
-lazy
-.
 PlacesUtils
 .
 TYPE_X_MOZ_PLACE_CONTAINER
@@ -3335,8 +3314,6 @@ info
 .
 type
 =
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -3369,8 +3346,6 @@ guid
 =
 (
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -3425,8 +3400,6 @@ break
 ;
 }
 case
-lazy
-.
 PlacesUtils
 .
 TYPE_X_MOZ_PLACE_SEPARATOR
@@ -3436,8 +3409,6 @@ info
 .
 type
 =
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -3448,8 +3419,6 @@ guid
 =
 (
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -3474,8 +3443,6 @@ shouldResetLastModified
 let
 lastModified
 =
-lazy
-.
 PlacesUtils
 .
 toDate
@@ -3486,8 +3453,6 @@ lastModified
 )
 ;
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -3593,8 +3558,6 @@ length
 let
 currentTags
 =
-lazy
-.
 PlacesUtils
 .
 tagging
@@ -3641,8 +3604,6 @@ createItem
 info
 =
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -3659,8 +3620,6 @@ tags
 length
 )
 {
-lazy
-.
 PlacesUtils
 .
 tagging
@@ -3697,8 +3656,6 @@ function
 )
 {
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -3715,8 +3672,6 @@ tags
 length
 )
 {
-lazy
-.
 PlacesUtils
 .
 tagging
@@ -3823,8 +3778,6 @@ children
 {
 guid
 :
-lazy
-.
 PlacesUtils
 .
 history
@@ -3835,8 +3788,6 @@ makeGuid
 title
 type
 :
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -3880,8 +3831,6 @@ c
 .
 guid
 =
-lazy
-.
 PlacesUtils
 .
 history
@@ -3907,8 +3856,6 @@ let
 bmInfo
 =
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -3932,8 +3879,6 @@ if
 index
 !
 =
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -3953,8 +3898,6 @@ index
 bmInfo
 =
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -3984,8 +3927,6 @@ function
 )
 {
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4059,8 +4000,6 @@ info
 .
 type
 =
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4070,8 +4009,6 @@ TYPE_SEPARATOR
 info
 =
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4085,8 +4022,6 @@ this
 .
 undo
 =
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4095,8 +4030,6 @@ remove
 .
 bind
 (
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4107,8 +4040,6 @@ this
 .
 redo
 =
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4117,8 +4048,6 @@ insert
 .
 bind
 (
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4199,8 +4128,6 @@ let
 originalInfo
 =
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4241,8 +4168,6 @@ originalInfo
 ;
 }
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4272,8 +4197,6 @@ originalInfos
 )
 {
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4290,8 +4213,6 @@ this
 .
 redo
 =
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4300,8 +4221,6 @@ moveToFolder
 .
 bind
 (
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4357,8 +4276,6 @@ let
 originalInfo
 =
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4401,8 +4318,6 @@ title
 updateInfo
 =
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4416,8 +4331,6 @@ this
 .
 undo
 =
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4426,8 +4339,6 @@ update
 .
 bind
 (
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4438,8 +4349,6 @@ this
 .
 redo
 =
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4448,8 +4357,6 @@ update
 .
 bind
 (
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4500,8 +4407,6 @@ let
 originalInfo
 =
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4540,8 +4445,6 @@ originalInfo
 type
 !
 =
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4599,8 +4502,6 @@ href
 let
 originalTags
 =
-lazy
-.
 PlacesUtils
 .
 tagging
@@ -4632,8 +4533,6 @@ updateItem
 updatedInfo
 =
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4655,8 +4554,6 @@ if
 !
 (
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4674,8 +4571,6 @@ url
 )
 )
 {
-lazy
-.
 PlacesUtils
 .
 tagging
@@ -4690,8 +4585,6 @@ originalTags
 let
 currentNewURITags
 =
-lazy
-.
 PlacesUtils
 .
 tagging
@@ -4729,8 +4622,6 @@ newURIAdditionalTags
 length
 )
 {
-lazy
-.
 PlacesUtils
 .
 tagging
@@ -4759,8 +4650,6 @@ function
 )
 {
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4792,8 +4681,6 @@ length
 !
 (
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4807,8 +4694,6 @@ url
 )
 )
 {
-lazy
-.
 PlacesUtils
 .
 tagging
@@ -4820,8 +4705,6 @@ newURIAdditionalTags
 )
 ;
 }
-lazy
-.
 PlacesUtils
 .
 tagging
@@ -4917,8 +4800,6 @@ oldKeyword
 oldKeywordEntry
 =
 await
-lazy
-.
 PlacesUtils
 .
 keywords
@@ -4935,8 +4816,6 @@ oldKeywordEntry
 url
 ;
 await
-lazy
-.
 PlacesUtils
 .
 keywords
@@ -4962,8 +4841,6 @@ url
 =
 (
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -4978,8 +4855,6 @@ url
 ;
 }
 await
-lazy
-.
 PlacesUtils
 .
 keywords
@@ -5023,8 +4898,6 @@ keyword
 )
 {
 await
-lazy
-.
 PlacesUtils
 .
 keywords
@@ -5041,8 +4914,6 @@ oldKeywordEntry
 )
 {
 await
-lazy
-.
 PlacesUtils
 .
 keywords
@@ -5099,8 +4970,6 @@ node_b
 {
 if
 (
-lazy
-.
 PlacesUtils
 .
 nodeIsContainer
@@ -5110,8 +4979,6 @@ node_a
 &
 &
 !
-lazy
-.
 PlacesUtils
 .
 nodeIsContainer
@@ -5128,8 +4995,6 @@ return
 if
 (
 !
-lazy
-.
 PlacesUtils
 .
 nodeIsContainer
@@ -5138,8 +5003,6 @@ node_a
 )
 &
 &
-lazy
-.
 PlacesUtils
 .
 nodeIsContainer
@@ -5187,8 +5050,6 @@ preSepNodes
 let
 root
 =
-lazy
-.
 PlacesUtils
 .
 getFolderContents
@@ -5239,8 +5100,6 @@ bookmarkGuid
 ;
 if
 (
-lazy
-.
 PlacesUtils
 .
 nodeIsSeparator
@@ -5352,8 +5211,6 @@ bookmarkGuid
 ;
 }
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -5374,8 +5231,6 @@ function
 )
 {
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -5398,8 +5253,6 @@ function
 )
 {
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -5464,8 +5317,6 @@ removedItems
 push
 (
 await
-lazy
-.
 PlacesUtils
 .
 promiseBookmarksTree
@@ -5537,8 +5388,6 @@ length
 )
 {
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -5688,8 +5537,6 @@ if
 !
 (
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -5721,8 +5568,6 @@ url
 tags
 parentGuid
 :
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -5787,8 +5632,6 @@ href
 let
 currentTags
 =
-lazy
-.
 PlacesUtils
 .
 tagging
@@ -5824,8 +5667,6 @@ newTags
 length
 )
 {
-lazy
-.
 PlacesUtils
 .
 tagging
@@ -5845,8 +5686,6 @@ unshift
 =
 >
 {
-lazy
-.
 PlacesUtils
 .
 tagging
@@ -5869,8 +5708,6 @@ push
 =
 >
 {
-lazy
-.
 PlacesUtils
 .
 tagging
@@ -6011,8 +5848,6 @@ tagsToRemove
 let
 tagsSet
 =
-lazy
-.
 PlacesUtils
 .
 tagging
@@ -6061,8 +5896,6 @@ tagsToRemove
 length
 )
 {
-lazy
-.
 PlacesUtils
 .
 tagging
@@ -6090,8 +5923,6 @@ tagsToRemove
 length
 )
 {
-lazy
-.
 PlacesUtils
 .
 tagging
@@ -6122,8 +5953,6 @@ tagsToRemove
 length
 )
 {
-lazy
-.
 PlacesUtils
 .
 tagging
@@ -6243,8 +6072,6 @@ Set
 )
 ;
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
@@ -6411,8 +6238,6 @@ let
 db
 =
 await
-lazy
-.
 PlacesUtils
 .
 promiseDBConnection
@@ -6935,8 +6760,6 @@ try
 creationInfo
 =
 await
-lazy
-.
 PlacesUtils
 .
 promiseBookmarksTree
@@ -7026,8 +6849,6 @@ newItemInfo
 newItemInfo
 =
 await
-lazy
-.
 PlacesUtils
 .
 promiseBookmarksTree
@@ -7037,8 +6858,6 @@ newItemGuid
 ;
 }
 await
-lazy
-.
 PlacesUtils
 .
 bookmarks
