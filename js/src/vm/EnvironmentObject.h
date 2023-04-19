@@ -354,6 +354,14 @@ return
 ENCLOSING_ENV_SLOT
 ;
 }
+const
+char
+*
+typeString
+(
+)
+const
+;
 #
 if
 defined
