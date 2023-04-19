@@ -7750,12 +7750,7 @@ kNormal
 }
 timestamp_
 =
-sync_buffer_
--
->
 end_timestamp
-(
-)
 ;
 return
 0

@@ -254,8 +254,11 @@ Reset
 )
 ;
 resample_stopwatch_
-.
-reset
+=
+tick_timer_
+-
+>
+GetNewStopwatch
 (
 )
 ;
