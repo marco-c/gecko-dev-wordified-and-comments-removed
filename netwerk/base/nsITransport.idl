@@ -1044,15 +1044,6 @@ aStatus
 the
 transport
 status
-(
-resolvable
-to
-a
-string
-using
-*
-nsIErrorService
-)
 .
 See
 nsISocketTransport

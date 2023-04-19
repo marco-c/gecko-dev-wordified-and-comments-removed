@@ -649,17 +649,12 @@ string
 ID
 and
 *
-and
 used
 in
 the
 string
 lookup
 process
-(
-see
-nsIErrorService
-)
 .
 *
 param
