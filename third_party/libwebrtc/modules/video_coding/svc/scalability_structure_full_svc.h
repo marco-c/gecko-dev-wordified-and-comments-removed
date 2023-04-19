@@ -140,6 +140,7 @@ enum
 FramePattern
 {
 kNone
+kKey
 kDeltaT2A
 kDeltaT1
 kDeltaT2B
@@ -159,6 +160,9 @@ kFramePatternNames
 {
 "
 None
+"
+"
+Key
 "
 "
 DeltaT2A
