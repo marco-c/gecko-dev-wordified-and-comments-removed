@@ -24,8 +24,7 @@ freeze
 annotationEditorMode
 "
 :
--
-1
+0
 "
 annotationMode
 "

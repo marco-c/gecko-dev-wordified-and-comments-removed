@@ -8024,7 +8024,7 @@ apiVersion
 .
 0
 .
-60
+120
 '
 source
 :
@@ -17645,7 +17645,7 @@ version
 .
 0
 .
-60
+120
 '
 ;
 exports
@@ -17658,7 +17658,7 @@ const
 build
 =
 '
-493bb6500
+91bdcd8b2
 '
 ;
 exports
@@ -24181,7 +24181,7 @@ if
 this
 .
 #
-selectEditors
+selectedEditors
 .
 size
 =
@@ -88549,14 +88549,14 @@ pdfjsVersion
 .
 0
 .
-60
+120
 '
 ;
 const
 pdfjsBuild
 =
 '
-493bb6500
+91bdcd8b2
 '
 ;
 ;
