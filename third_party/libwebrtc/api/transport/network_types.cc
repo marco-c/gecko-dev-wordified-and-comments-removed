@@ -295,9 +295,7 @@ if
 (
 fb
 .
-receive_time
-.
-IsFinite
+IsReceived
 (
 )
 )
@@ -351,11 +349,10 @@ packet_feedbacks
 {
 if
 (
+!
 fb
 .
-receive_time
-.
-IsPlusInfinity
+IsReceived
 (
 )
 )
@@ -430,9 +427,7 @@ if
 (
 fb
 .
-receive_time
-.
-IsFinite
+IsReceived
 (
 )
 )

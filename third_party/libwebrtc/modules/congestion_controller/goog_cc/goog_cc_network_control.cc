@@ -2623,11 +2623,10 @@ PacketsWithFeedback
 {
 if
 (
+!
 packet_feedback
 .
-receive_time
-.
-IsInfinite
+IsReceived
 (
 )
 )
