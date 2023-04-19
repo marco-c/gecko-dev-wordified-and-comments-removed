@@ -1112,6 +1112,7 @@ max_output_noise_level_dbfs
 "
 }
 }
+}
 residual_echo_detector
 :
 {
@@ -1141,7 +1142,6 @@ enabled
 <
 <
 "
-}
 }
 }
 "
