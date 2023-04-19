@@ -1661,6 +1661,14 @@ then
 =
 >
 {
+if
+(
+!
+this
+.
+cleanupStarted
+)
+{
 this
 .
 send
@@ -1668,6 +1676,7 @@ send
 holder
 )
 ;
+}
 return
 responsePromise
 ;
