@@ -30479,7 +30479,7 @@ MOZ_KnownLive
 item
 -
 >
-tag
+mTag
 )
 MOZ_KnownLive
 (
@@ -30956,7 +30956,7 @@ MOZ_KnownLive
 item
 -
 >
-tag
+mTag
 )
 MOZ_KnownLive
 (
@@ -44767,6 +44767,7 @@ GetTypingState
 (
 typeInSet
 unused
+*
 tag
 attribute
 nullptr
@@ -44896,6 +44897,7 @@ AppendElement
 (
 StyleCache
 (
+*
 tag
 attribute
 value
@@ -45131,9 +45133,10 @@ IsComputedCSSEquivalentToHTMLInlineStyleSet
 startContainerContent
 MOZ_KnownLive
 (
+&
 styleCacheBeforeEdit
 .
-Tag
+TagRef
 (
 )
 )
@@ -45202,10 +45205,9 @@ GetInlinePropertyBase
 (
 MOZ_KnownLive
 (
-*
 styleCacheBeforeEdit
 .
-Tag
+TagRef
 (
 )
 )
@@ -45288,7 +45290,7 @@ IndexOf
 (
 styleCacheBeforeEdit
 .
-Tag
+TagRef
 (
 )
 styleCacheBeforeEdit
@@ -45335,7 +45337,7 @@ SetProp
 (
 styleCacheBeforeEdit
 .
-Tag
+TagRef
 (
 )
 styleCacheBeforeEdit

@@ -1380,8 +1380,8 @@ TypeInState
 :
 SetProp
 (
-nsAtom
-*
+nsStaticAtom
+&
 aProp
 nsAtom
 *
@@ -1400,6 +1400,7 @@ nsGkAtoms
 big
 =
 =
+&
 aProp
 )
 {
@@ -1418,6 +1419,7 @@ nsGkAtoms
 small
 =
 =
+&
 aProp
 )
 {
@@ -1462,6 +1464,7 @@ AppendElement
 new
 PropItem
 (
+&
 aProp
 aAttr
 aValue
@@ -1470,6 +1473,7 @@ aValue
 ;
 RemovePropFromClearedList
 (
+&
 aProp
 aAttr
 )
@@ -1496,7 +1500,7 @@ TypeInState
 :
 ClearProp
 (
-nsAtom
+nsStaticAtom
 *
 aProp
 nsAtom
@@ -1703,15 +1707,15 @@ isSet
 bool
 &
 theSetting
-nsAtom
-*
+nsStaticAtom
+&
 aProp
 nsAtom
 *
 aAttr
 nsString
 *
-aValue
+aOutValue
 )
 {
 if
@@ -1720,7 +1724,7 @@ IsPropSet
 (
 aProp
 aAttr
-aValue
+aOutValue
 )
 )
 {
@@ -1738,6 +1742,7 @@ if
 (
 IsPropCleared
 (
+&
 aProp
 aAttr
 )
@@ -1766,7 +1771,7 @@ TypeInState
 :
 RemovePropFromSetList
 (
-nsAtom
+nsStaticAtom
 *
 aProp
 nsAtom
@@ -1858,7 +1863,7 @@ TypeInState
 :
 RemovePropFromClearedList
 (
-nsAtom
+nsStaticAtom
 *
 aProp
 nsAtom
@@ -1902,8 +1907,8 @@ TypeInState
 :
 IsPropSet
 (
-nsAtom
-*
+nsStaticAtom
+&
 aProp
 nsAtom
 *
@@ -1932,8 +1937,8 @@ TypeInState
 :
 IsPropSet
 (
-nsAtom
-*
+nsStaticAtom
+&
 aProp
 nsAtom
 *
@@ -2001,9 +2006,10 @@ if
 item
 -
 >
-tag
+mTag
 =
 =
+&
 aProp
 &
 &
@@ -2049,7 +2055,7 @@ TypeInState
 :
 IsPropCleared
 (
-nsAtom
+nsStaticAtom
 *
 aProp
 nsAtom
@@ -2075,7 +2081,7 @@ TypeInState
 :
 IsPropCleared
 (
-nsAtom
+nsStaticAtom
 *
 aProp
 nsAtom
@@ -2128,7 +2134,7 @@ TypeInState
 :
 FindPropInList
 (
-nsAtom
+nsStaticAtom
 *
 aProp
 nsAtom
@@ -2205,7 +2211,7 @@ if
 item
 -
 >
-tag
+mTag
 =
 =
 aProp

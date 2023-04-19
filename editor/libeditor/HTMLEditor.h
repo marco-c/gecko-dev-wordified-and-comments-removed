@@ -1328,8 +1328,8 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 GetInlineProperty
 (
-nsAtom
-*
+nsStaticAtom
+&
 aHTMLProperty
 nsAtom
 *
@@ -1359,8 +1359,8 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 GetInlinePropertyWithAttrValue
 (
-nsAtom
-*
+nsStaticAtom
+&
 aHTMLProperty
 nsAtom
 *
@@ -2246,7 +2246,7 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 GetInlinePropertyBase
 (
-nsAtom
+nsStaticAtom
 &
 aHTMLProperty
 nsAtom
