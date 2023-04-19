@@ -3755,9 +3755,15 @@ CreateDefault
 )
 {
 return
+rtc
+:
+:
+scoped_refptr
+(
 new
 SharedScreenCastStream
 (
+)
 )
 ;
 }
