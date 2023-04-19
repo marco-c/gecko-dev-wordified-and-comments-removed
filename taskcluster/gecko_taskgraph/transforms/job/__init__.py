@@ -73,6 +73,14 @@ taskgraph
 .
 util
 .
+python_path
+import
+import_sibling_modules
+from
+taskgraph
+.
+util
+.
 taskcluster
 import
 get_artifact_prefix
@@ -118,14 +126,6 @@ validate_schema
     
 Schema
 )
-from
-gecko_taskgraph
-.
-util
-.
-python_path
-import
-import_sibling_modules
 from
 gecko_taskgraph
 .
