@@ -631,6 +631,16 @@ suppression_gain
 .
 h
 "
+"
+transparent_mode
+.
+cc
+"
+"
+transparent_mode
+.
+h
+"
 ]
 defines
 =
