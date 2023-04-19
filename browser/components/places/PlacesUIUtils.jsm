@@ -7198,13 +7198,15 @@ ex
 }
 getImageURL
 (
-icon
+aItem
 )
 {
 let
 iconURL
 =
-icon
+aItem
+.
+image
 ;
 if
 (
