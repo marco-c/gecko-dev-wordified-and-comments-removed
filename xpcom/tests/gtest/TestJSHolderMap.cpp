@@ -242,7 +242,7 @@ MultiZone
 ?
 FlagMultiZoneJSHolder
 :
-0
+FlagMaybeSingleZoneJSHolder
 ;
 }
 }

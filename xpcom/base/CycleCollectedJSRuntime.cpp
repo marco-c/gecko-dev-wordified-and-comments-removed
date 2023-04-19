@@ -2907,10 +2907,11 @@ aTracer
 ;
 if
 (
+!
 aTracer
 -
 >
-IsMultiZoneJSHolder
+IsSingleZoneJSHolder
 (
 )
 )
@@ -7787,11 +7788,10 @@ if
 checkSingleZoneHolders
 &
 &
-!
 tracer
 -
 >
-IsMultiZoneJSHolder
+IsSingleZoneJSHolder
 (
 )
 )
