@@ -3037,17 +3037,6 @@ if
 (
 ThreadSanitizer
 )
-pref
-(
-layers
-.
-low
--
-precision
--
-buffer
-false
-)
 load
 852293
 .
