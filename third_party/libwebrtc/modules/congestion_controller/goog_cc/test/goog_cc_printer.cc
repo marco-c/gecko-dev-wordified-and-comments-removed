@@ -611,7 +611,7 @@ controller_
 bandwidth_estimation_
 -
 >
-loss_based_bandwidth_estimation_
+loss_based_bandwidth_estimator_v1_
 ;
 }
 ;
