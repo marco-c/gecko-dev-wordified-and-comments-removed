@@ -818,9 +818,7 @@ the
 largest
 values
 of
-|
 score_weighting
-|
 applied
     
 to

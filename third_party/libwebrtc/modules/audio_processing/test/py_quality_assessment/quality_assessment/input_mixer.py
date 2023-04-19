@@ -257,18 +257,14 @@ happens
 .
     
 If
-|
 echo_filepath
-|
 is
 None
 nothing
 is
 done
 and
-|
 capture_input_filepath
-|
 is
     
 returned
