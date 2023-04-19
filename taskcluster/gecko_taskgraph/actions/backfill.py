@@ -2370,6 +2370,27 @@ opt
             
 continue
         
+if
+"
+android
+"
+in
+entry
+.
+attributes
+.
+get
+(
+"
+test_platform
+"
+"
+"
+)
+:
+            
+continue
+        
 exceptions
 =
 (
