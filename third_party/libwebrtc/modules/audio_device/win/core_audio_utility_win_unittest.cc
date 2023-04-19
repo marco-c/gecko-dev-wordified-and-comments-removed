@@ -36,6 +36,17 @@ rtc_base
 /
 win
 /
+scoped_com_initializer
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+win
+/
 windows_version
 .
 h
@@ -206,9 +217,6 @@ CoreAudioUtilityWinTest
 :
 com_init_
 (
-webrtc_win
-:
-:
 ScopedCOMInitializer
 :
 :

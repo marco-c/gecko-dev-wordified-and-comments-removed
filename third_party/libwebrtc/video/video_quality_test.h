@@ -174,6 +174,17 @@ core_audio_utility_win
 h
 "
 #
+include
+"
+rtc_base
+/
+win
+/
+scoped_com_initializer
+.
+h
+"
+#
 endif
 namespace
 webrtc
@@ -719,9 +730,6 @@ std
 :
 unique_ptr
 <
-webrtc_win
-:
-:
 ScopedCOMInitializer
 >
 com_initializer_

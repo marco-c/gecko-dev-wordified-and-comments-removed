@@ -86,6 +86,17 @@ rtc_base
 /
 win
 /
+scoped_com_initializer
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+win
+/
 windows_version
 .
 h
@@ -3928,7 +3939,6 @@ return
 S_OK
 ;
 }
-;
 *
 object
 =
