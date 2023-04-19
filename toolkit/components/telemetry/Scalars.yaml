@@ -28222,6 +28222,8 @@ bug_numbers
 :
 -
 1774305
+-
+1780188
 description
 :
 >
@@ -28259,7 +28261,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 products
 :
 -
@@ -28276,6 +28278,8 @@ bug_numbers
 :
 -
 1774305
+-
+1780188
 description
 :
 >
@@ -28312,7 +28316,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 products
 :
 -
@@ -28329,6 +28333,8 @@ bug_numbers
 :
 -
 1774305
+-
+1780188
 description
 :
 >
@@ -28364,7 +28370,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 products
 :
 -
@@ -28381,6 +28387,8 @@ bug_numbers
 :
 -
 1774305
+-
+1780188
 description
 :
 >
@@ -28416,7 +28424,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 products
 :
 -
@@ -28433,6 +28441,8 @@ bug_numbers
 :
 -
 1774305
+-
+1780188
 description
 :
 >
@@ -28469,7 +28479,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 products
 :
 -
@@ -28486,6 +28496,8 @@ bug_numbers
 :
 -
 1774305
+-
+1780188
 description
 :
 >
@@ -28521,7 +28533,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 products
 :
 -
