@@ -1913,7 +1913,7 @@ line
 :
 InspectorUtils
 .
-getRelativeRuleLine
+getRuleLine
 (
 rule
 )
