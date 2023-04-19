@@ -94,11 +94,6 @@ init
 (
 )
 ;
-const
-global
-=
-this
-;
 add_task
 (
 async

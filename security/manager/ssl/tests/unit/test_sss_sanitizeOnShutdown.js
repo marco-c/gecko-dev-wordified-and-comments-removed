@@ -47,9 +47,6 @@ onStartup
 (
 )
 ;
-const
-swm
-=
 Cc
 [
 "

@@ -18,14 +18,6 @@ gProfileDir
 =
 null
 ;
-const
-NON_ISSUED_KEY_HASH
-=
-"
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-=
-"
-;
 function
 checkStateWritten
 (
