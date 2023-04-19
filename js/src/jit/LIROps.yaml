@@ -7255,9 +7255,9 @@ NewLexicalEnvironmentObject
 result_type
 :
 WordSized
-call_instruction
+num_temps
 :
-true
+1
 mir_op
 :
 true
@@ -7286,9 +7286,9 @@ NewClassBodyEnvironmentObject
 result_type
 :
 WordSized
-call_instruction
+num_temps
 :
-true
+1
 mir_op
 :
 true
@@ -7299,9 +7299,9 @@ NewVarEnvironmentObject
 result_type
 :
 WordSized
-call_instruction
+num_temps
 :
-true
+1
 mir_op
 :
 true

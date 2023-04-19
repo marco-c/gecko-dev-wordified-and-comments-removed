@@ -119,6 +119,13 @@ const
 ;
 inline
 bool
+isBlockLexicalEnvironmentObject
+(
+)
+const
+;
+inline
+bool
 isPlainObject
 (
 )

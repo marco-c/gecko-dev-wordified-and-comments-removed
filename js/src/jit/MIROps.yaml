@@ -6291,9 +6291,6 @@ Object
 result_type
 :
 Object
-possibly_calls
-:
-true
 alias_set
 :
 none
@@ -6315,9 +6312,6 @@ Object
 result_type
 :
 Object
-possibly_calls
-:
-true
 alias_set
 :
 none
@@ -6366,9 +6360,6 @@ Object
 result_type
 :
 Object
-possibly_calls
-:
-true
 alias_set
 :
 none
