@@ -416,16 +416,6 @@ reason
 =
 0
 ;
-sigslot
-:
-:
-signal1
-<
-PortInterface
-*
->
-SignalDestroyed
-;
 virtual
 void
 SubscribePortDestroyed

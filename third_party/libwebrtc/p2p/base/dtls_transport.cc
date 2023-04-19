@@ -4186,11 +4186,6 @@ SSLHandshakeError
 error
 )
 {
-SignalDtlsHandshakeError
-(
-error
-)
-;
 SendDtlsHandshakeError
 (
 error
