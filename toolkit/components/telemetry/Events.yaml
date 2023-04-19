@@ -16743,6 +16743,8 @@ bug_numbers
 :
 -
 1722834
+-
+1777396
 description
 :
 >
@@ -16761,7 +16763,12 @@ displayed
 notification_emails
 :
 -
-barret
+omc
+mozilla
+.
+com
+-
+dmose
 mozilla
 .
 com
@@ -16787,7 +16794,7 @@ main
 expiry_version
 :
 "
-105
+112
 "
 login_button_pressed
 :
@@ -16802,6 +16809,8 @@ bug_numbers
 :
 -
 1722834
+-
+1777396
 description
 :
 >
@@ -16824,7 +16833,12 @@ clicked
 notification_emails
 :
 -
-barret
+omc
+mozilla
+.
+com
+-
+dmose
 mozilla
 .
 com
@@ -16850,7 +16864,7 @@ main
 expiry_version
 :
 "
-105
+112
 "
 login_successful
 :
@@ -16865,6 +16879,8 @@ bug_numbers
 :
 -
 1722834
+-
+1777396
 description
 :
 >
@@ -16892,7 +16908,12 @@ portal
 notification_emails
 :
 -
-barret
+omc
+mozilla
+.
+com
+-
+dmose
 mozilla
 .
 com
@@ -16918,7 +16939,7 @@ main
 expiry_version
 :
 "
-105
+112
 "
 security
 :
