@@ -86,6 +86,17 @@ mouse_cursor_monitor
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+no_unique_address
+.
+h
+"
 namespace
 webrtc
 {
