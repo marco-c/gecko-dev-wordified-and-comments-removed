@@ -1856,6 +1856,15 @@ FontFeatureValues
 CssRule
 :
 :
+FontPaletteValues
+(
+.
+.
+)
+|
+CssRule
+:
+:
 Viewport
 (
 .
