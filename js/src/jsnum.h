@@ -314,17 +314,6 @@ sbuf
 sbufSize
 ]
 ;
-char
-*
-dbuf
-=
-nullptr
-;
-~
-ToCStringBuf
-(
-)
-;
 }
 ;
 struct
