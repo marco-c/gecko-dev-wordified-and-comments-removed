@@ -456,16 +456,6 @@ retval
 )
 ;
 async
-GetSecurityInfo
-(
-)
-returns
-(
-nsITransportSecurityInfo
-securityInfo
-)
-;
-async
 DispatchSecurityPolicyViolation
 (
 nsString
