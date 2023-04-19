@@ -637,7 +637,9 @@ timeStamp
 :
 error
 .
-timeStamp
+microSecondTimeStamp
+/
+1000
 warning
 :
 !

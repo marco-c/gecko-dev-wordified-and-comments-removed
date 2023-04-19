@@ -796,6 +796,16 @@ timeStamp
 :
 message
 .
+microSecondTimeStamp
+?
+message
+.
+microSecondTimeStamp
+/
+1000
+:
+message
+.
 timeStamp
 sourceId
 :

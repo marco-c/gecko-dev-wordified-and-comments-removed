@@ -1025,6 +1025,27 @@ d
 /
 ;
 const
+FRACTIONAL_NUMBER_REGEX
+=
+/
+^
+\
+d
++
+(
+\
+.
+\
+d
+{
+1
+3
+}
+)
+?
+/
+;
+const
 mdnUrl
 =
 path
@@ -1100,7 +1121,7 @@ javascript
 "
 timeStamp
 :
-NUMBER_REGEX
+FRACTIONAL_NUMBER_REGEX
 error
 :
 true
@@ -1217,7 +1238,7 @@ javascript
 "
 timeStamp
 :
-NUMBER_REGEX
+FRACTIONAL_NUMBER_REGEX
 error
 :
 true
@@ -1354,7 +1375,7 @@ javascript
 "
 timeStamp
 :
-NUMBER_REGEX
+FRACTIONAL_NUMBER_REGEX
 error
 :
 true
@@ -1474,7 +1495,7 @@ javascript
 "
 timeStamp
 :
-NUMBER_REGEX
+FRACTIONAL_NUMBER_REGEX
 error
 :
 true
@@ -1598,7 +1619,7 @@ javascript
 "
 timeStamp
 :
-NUMBER_REGEX
+FRACTIONAL_NUMBER_REGEX
 error
 :
 true
@@ -1744,7 +1765,7 @@ javascript
 "
 timeStamp
 :
-NUMBER_REGEX
+FRACTIONAL_NUMBER_REGEX
 error
 :
 true
@@ -1887,7 +1908,7 @@ javascript
 "
 timeStamp
 :
-NUMBER_REGEX
+FRACTIONAL_NUMBER_REGEX
 error
 :
 true
@@ -2008,7 +2029,7 @@ javascript
 "
 timeStamp
 :
-NUMBER_REGEX
+FRACTIONAL_NUMBER_REGEX
 error
 :
 false
@@ -2118,7 +2139,7 @@ javascript
 "
 timeStamp
 :
-NUMBER_REGEX
+FRACTIONAL_NUMBER_REGEX
 error
 :
 true
@@ -2264,7 +2285,7 @@ javascript
 "
 timeStamp
 :
-NUMBER_REGEX
+FRACTIONAL_NUMBER_REGEX
 error
 :
 true
@@ -2371,7 +2392,7 @@ javascript
 "
 timeStamp
 :
-NUMBER_REGEX
+FRACTIONAL_NUMBER_REGEX
 error
 :
 true
@@ -2507,7 +2528,7 @@ javascript
 "
 timeStamp
 :
-NUMBER_REGEX
+FRACTIONAL_NUMBER_REGEX
 error
 :
 true
@@ -2663,7 +2684,7 @@ javascript
 "
 timeStamp
 :
-NUMBER_REGEX
+FRACTIONAL_NUMBER_REGEX
 error
 :
 true
@@ -2849,7 +2870,7 @@ javascript
 "
 timeStamp
 :
-NUMBER_REGEX
+FRACTIONAL_NUMBER_REGEX
 error
 :
 true
@@ -3023,7 +3044,7 @@ javascript
 "
 timeStamp
 :
-NUMBER_REGEX
+FRACTIONAL_NUMBER_REGEX
 error
 :
 true
@@ -3146,7 +3167,7 @@ javascript
 "
 timeStamp
 :
-NUMBER_REGEX
+FRACTIONAL_NUMBER_REGEX
 error
 :
 true
@@ -3269,7 +3290,7 @@ javascript
 "
 timeStamp
 :
-NUMBER_REGEX
+FRACTIONAL_NUMBER_REGEX
 error
 :
 true
@@ -3388,7 +3409,7 @@ javascript
 "
 timeStamp
 :
-NUMBER_REGEX
+FRACTIONAL_NUMBER_REGEX
 error
 :
 true
