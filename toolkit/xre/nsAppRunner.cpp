@@ -27166,6 +27166,15 @@ XRE_mainRun
 )
 ;
 #
+ifdef
+MOZ_X11
+XRE_CleanupX11ErrorHandler
+(
+)
+;
+#
+endif
+#
 if
 defined
 (

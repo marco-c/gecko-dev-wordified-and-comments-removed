@@ -4166,6 +4166,16 @@ InstallX11ErrorHandler
 )
 ;
 }
+void
+XRE_CleanupX11ErrorHandler
+(
+)
+{
+CleanupX11ErrorHandler
+(
+)
+;
+}
 #
 endif
 #

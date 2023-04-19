@@ -630,6 +630,11 @@ XRE_InstallX11ErrorHandler
 )
 ;
 void
+XRE_CleanupX11ErrorHandler
+(
+)
+;
+void
 XRE_TelemetryAccumulate
 (
 int

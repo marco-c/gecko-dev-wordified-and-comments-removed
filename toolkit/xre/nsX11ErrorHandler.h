@@ -22,6 +22,11 @@ InstallX11ErrorHandler
 (
 )
 ;
+void
+CleanupX11ErrorHandler
+(
+)
+;
 extern
 "
 C
