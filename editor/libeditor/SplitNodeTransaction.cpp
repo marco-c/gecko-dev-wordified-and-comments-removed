@@ -289,7 +289,11 @@ IsSplittableNode
 *
 aStartOfRightContent
 .
-ContainerAsContent
+template
+ContainerAs
+<
+nsIContent
+>
 (
 )
 )

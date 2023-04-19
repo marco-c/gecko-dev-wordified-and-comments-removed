@@ -1201,7 +1201,10 @@ StartRef
 (
 )
 .
-ContainerAsContent
+ContainerAs
+<
+nsIContent
+>
 (
 )
 )

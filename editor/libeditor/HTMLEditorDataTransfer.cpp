@@ -3563,7 +3563,10 @@ MOZ_KnownLive
 *
 pointToInsert
 .
-ContainerAsContent
+ContainerAs
+<
+nsIContent
+>
 (
 )
 )
@@ -4020,7 +4023,10 @@ GetInclusiveAncestorElement
 *
 pointToInsert
 .
-ContainerAsContent
+ContainerAs
+<
+nsIContent
+>
 (
 )
 HTMLEditUtils

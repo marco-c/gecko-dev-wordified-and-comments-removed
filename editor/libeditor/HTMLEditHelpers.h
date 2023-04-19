@@ -3493,7 +3493,10 @@ Succeeded
 return
 mJoinedPoint
 .
-ContainerAsContent
+ContainerAs
+<
+nsIContent
+>
 (
 )
 ;
@@ -3521,7 +3524,10 @@ EditorDOMPointType
 (
 mJoinedPoint
 .
-ContainerAsContent
+ContainerAs
+<
+nsIContent
+>
 (
 )
 )
