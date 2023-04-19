@@ -139,6 +139,12 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 FileSystemManagerParent
 override
 )
+void
+AssertIsOnIOTarget
+(
+)
+const
+;
 mozilla
 :
 :
