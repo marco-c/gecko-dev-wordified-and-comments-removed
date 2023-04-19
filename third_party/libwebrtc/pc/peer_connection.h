@@ -2703,6 +2703,9 @@ unique_ptr
 Call
 >
 call
+PeerConnectionDependencies
+&
+dependencies
 )
 ;
 ~
@@ -3451,6 +3454,7 @@ signaling_thread
 )
 )
 ;
+const
 std
 :
 :
@@ -3478,6 +3482,7 @@ PortAllocator
 >
 port_allocator_
 ;
+const
 std
 :
 :
@@ -3490,6 +3495,7 @@ IceTransportFactory
 >
 ice_transport_factory_
 ;
+const
 std
 :
 :
