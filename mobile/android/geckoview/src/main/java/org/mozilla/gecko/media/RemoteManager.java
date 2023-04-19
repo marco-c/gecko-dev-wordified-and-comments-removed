@@ -597,7 +597,6 @@ notify
 ;
 }
 }
-;
 RemoteConnection
 mConnection
 =
