@@ -63,6 +63,10 @@ Text
 }
 enum
 class
+CollectChildrenOption
+;
+enum
+class
 EditAction
 ;
 enum
@@ -98,6 +102,14 @@ JoinNodesDirection
 enum
 class
 SplitNodeDirection
+;
+using
+CollectChildrenOptions
+=
+EnumSet
+<
+CollectChildrenOption
+>
 ;
 using
 SuggestCaretOptions
