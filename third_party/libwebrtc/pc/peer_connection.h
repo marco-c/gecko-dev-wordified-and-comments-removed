@@ -73,6 +73,15 @@ include
 "
 api
 /
+async_dns_resolver
+.
+h
+"
+#
+include
+"
+api
+/
 async_resolver_factory
 .
 h
@@ -3476,9 +3485,9 @@ std
 :
 unique_ptr
 <
-AsyncResolverFactory
+AsyncDnsResolverFactoryInterface
 >
-async_resolver_factory_
+async_dns_resolver_factory_
 ;
 std
 :
