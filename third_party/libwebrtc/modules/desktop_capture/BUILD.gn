@@ -3106,14 +3106,6 @@ wgc_desktop_frame
 h
 "
 ]
-defines
-+
-=
-[
-"
-RTC_ENABLE_WIN_WGC
-"
-]
 }
 }
 if
