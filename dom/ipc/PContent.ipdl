@@ -556,23 +556,6 @@ h
 "
 ;
 using
-class
-IPC
-:
-:
-Principal
-from
-"
-mozilla
-/
-dom
-/
-PermissionMessageUtils
-.
-h
-"
-;
-using
 mozilla
 :
 :
@@ -4752,7 +4735,7 @@ Push
 (
 nsCString
 scope
-Principal
+nsIPrincipal
 principal
 nsString
 messageId
@@ -4783,7 +4766,7 @@ PushWithData
 (
 nsCString
 scope
-Principal
+nsIPrincipal
 principal
 nsString
 messageId
@@ -4816,7 +4799,7 @@ PushSubscriptionChange
 (
 nsCString
 scope
-Principal
+nsIPrincipal
 principal
 )
 ;
@@ -4836,7 +4819,7 @@ nsCString
 aURI
 IPCBlob
 aBlob
-Principal
+nsIPrincipal
 aPrincipal
 nsID
 ?
@@ -6223,7 +6206,7 @@ fd
 sync
 PURLClassifier
 (
-Principal
+nsIPrincipal
 principal
 )
 returns
@@ -6355,14 +6338,14 @@ name
 async
 DisableNotifications
 (
-Principal
+nsIPrincipal
 principal
 )
 ;
 async
 OpenNotificationSettings
 (
-Principal
+nsIPrincipal
 principal
 )
 ;
@@ -6843,7 +6826,7 @@ IPCDataTransfer
 aDataTransfer
 bool
 aIsPrivateData
-Principal
+nsIPrincipal
 aRequestingPrincipal
 nsContentPolicyType
 aContentPolicyType
@@ -7400,7 +7383,7 @@ html
 async
 SetOfflinePermission
 (
-Principal
+nsIPrincipal
 principal
 )
 ;
@@ -7542,9 +7525,9 @@ PermissionRequest
 [
 ]
 aRequests
-Principal
+nsIPrincipal
 aPrincipal
-Principal
+nsIPrincipal
 aTopLevelPrincipal
 bool
 aIsHandlingUserInput
@@ -9530,7 +9513,7 @@ nsIURI
 aURIToLoad
 nsCString
 aFeatures
-Principal
+nsIPrincipal
 aTriggeringPrincipal
 nsIContentSecurityPolicy
 aCsp
@@ -9633,7 +9616,7 @@ time
 sync
 RemovePermission
 (
-Principal
+nsIPrincipal
 principal
 nsCString
 permissionType
@@ -9706,7 +9689,7 @@ NotifyPushObservers
 (
 nsCString
 scope
-Principal
+nsIPrincipal
 principal
 nsString
 messageId
@@ -9734,7 +9717,7 @@ NotifyPushObserversWithData
 (
 nsCString
 scope
-Principal
+nsIPrincipal
 principal
 nsString
 messageId
@@ -9766,7 +9749,7 @@ NotifyPushSubscriptionChangeObservers
 (
 nsCString
 scope
-Principal
+nsIPrincipal
 principal
 )
 ;
@@ -9795,7 +9778,7 @@ nsCString
 url
 IPCBlob
 blob
-Principal
+nsIPrincipal
 principal
 nsID
 ?
@@ -9807,7 +9790,7 @@ UnstoreAndBroadcastBlobURLUnregistration
 (
 nsCString
 url
-Principal
+nsIPrincipal
 principal
 )
 ;
@@ -9988,7 +9971,7 @@ prompt
 async
 AutomaticStorageAccessPermissionCanBeGranted
 (
-Principal
+nsIPrincipal
 aPrincipal
 )
 returns
@@ -10033,7 +10016,7 @@ uint64_t
 aTopLevelWindowId
 MaybeDiscardedBrowsingContext
 aParentContext
-Principal
+nsIPrincipal
 aTrackingPrincipal
 nsCString
 aTrackingOrigin
@@ -10056,7 +10039,7 @@ MaybeDiscardedBrowsingContext
 aParentContext
 uint64_t
 aTopLevelWindowId
-Principal
+nsIPrincipal
 aTrackingPrincipal
 nsCString
 aTrackingOrigin
@@ -10103,7 +10086,7 @@ success
 async
 StoreUserInteractionAsPermission
 (
-Principal
+nsIPrincipal
 aPrincipal
 )
 ;
@@ -10112,7 +10095,7 @@ TestCookiePermissionDecided
 (
 MaybeDiscardedBrowsingContext
 aContext
-Principal
+nsIPrincipal
 aPrincipal
 )
 returns
@@ -10986,7 +10969,7 @@ NotifyPushSubscriptionModifiedObservers
 (
 nsCString
 scope
-Principal
+nsIPrincipal
 principal
 )
 ;
@@ -11018,7 +11001,7 @@ PushError
 (
 nsCString
 scope
-Principal
+nsIPrincipal
 principal
 nsString
 message
