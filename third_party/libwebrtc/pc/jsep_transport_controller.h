@@ -2096,8 +2096,16 @@ cricket
 :
 kIceGatheringNew
 ;
+const
 Config
 config_
+;
+bool
+active_reset_srtp_params_
+RTC_GUARDED_BY
+(
+network_thread_
+)
 ;
 const
 cricket
