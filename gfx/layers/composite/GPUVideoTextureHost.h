@@ -271,6 +271,12 @@ IsWrappingBufferTextureHost
 )
 override
 ;
+TextureHostType
+GetTextureHostType
+(
+)
+override
+;
 protected
 :
 GPUVideoTextureHost

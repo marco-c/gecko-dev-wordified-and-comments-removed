@@ -4221,6 +4221,16 @@ if
 mTextureHost
 )
 {
+gfxCriticalNoteOnce
+<
+<
+"
+ExternalImage
+is
+not
+RenderMacIOSurfaceTextureHost
+"
+;
 return
 ;
 }

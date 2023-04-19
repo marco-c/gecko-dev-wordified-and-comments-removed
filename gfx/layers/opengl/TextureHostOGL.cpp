@@ -2634,6 +2634,10 @@ aIgnoreTransform
 :
 TextureHost
 (
+TextureHostType
+:
+:
+AndroidSurfaceTexture
 aFlags
 )
 mSurfTex
@@ -3576,6 +3580,10 @@ aAndroidHardwareBuffer
 :
 TextureHost
 (
+TextureHostType
+:
+:
+AndroidHardwareBuffer
 aFlags
 )
 mAndroidHardwareBuffer
@@ -4667,6 +4675,10 @@ hasAlpha
 :
 TextureHost
 (
+TextureHostType
+:
+:
+EGLImage
 aFlags
 )
 mImage
@@ -5118,6 +5130,10 @@ aHasAlpha
 :
 TextureHost
 (
+TextureHostType
+:
+:
+GLTexture
 aFlags
 )
 mTexture

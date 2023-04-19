@@ -4218,6 +4218,10 @@ aDescriptor
 :
 TextureHost
 (
+TextureHostType
+:
+:
+DXGI
 aFlags
 )
 mGpuProcessTextureId
@@ -6114,6 +6118,10 @@ aDescriptor
 :
 TextureHost
 (
+TextureHostType
+:
+:
+DXGIYCbCr
 aFlags
 )
 mSize

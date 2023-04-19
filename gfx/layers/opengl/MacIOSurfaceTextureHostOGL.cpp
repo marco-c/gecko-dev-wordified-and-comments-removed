@@ -88,6 +88,10 @@ aDescriptor
 :
 TextureHost
 (
+TextureHostType
+:
+:
+MacIOSurface
 aFlags
 )
 {

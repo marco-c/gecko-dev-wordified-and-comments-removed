@@ -77,6 +77,10 @@ aDesc
 :
 TextureHost
 (
+TextureHostType
+:
+:
+DMABUF
 aFlags
 )
 {

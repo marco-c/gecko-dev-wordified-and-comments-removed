@@ -1949,6 +1949,8 @@ TextureHost
 :
 TextureHost
 (
+TextureHostType
+aType
 TextureFlags
 aFlags
 )
@@ -1958,6 +1960,10 @@ AtomicRefCountedWithFinalize
 "
 TextureHost
 "
+)
+mTextureHostType
+(
+aType
 )
 mActor
 (
@@ -2405,6 +2411,10 @@ aFlags
 :
 TextureHost
 (
+TextureHostType
+:
+:
+Buffer
 aFlags
 )
 mLocked
