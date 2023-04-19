@@ -253,6 +253,8 @@ Builder
 :
 Build
 (
+uint64_t
+random_seed
 )
 const
 {
@@ -265,6 +267,7 @@ return
 Build
 (
 net_
+random_seed
 )
 ;
 }
@@ -286,6 +289,8 @@ Build
 NetworkEmulationManager
 *
 net
+uint64_t
+random_seed
 )
 const
 {
@@ -323,6 +328,7 @@ SimulatedNetwork
 >
 (
 config_
+random_seed
 )
 ;
 res

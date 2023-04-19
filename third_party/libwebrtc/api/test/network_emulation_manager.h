@@ -466,6 +466,10 @@ max_queue_length_in_packets
 SimulatedNetworkNode
 Build
 (
+uint64_t
+random_seed
+=
+1
 )
 const
 ;
@@ -475,6 +479,10 @@ Build
 NetworkEmulationManager
 *
 net
+uint64_t
+random_seed
+=
+1
 )
 const
 ;
@@ -516,6 +524,10 @@ CreateEmulatedNode
 (
 BuiltInNetworkBehaviorConfig
 config
+uint64_t
+random_seed
+=
+1
 )
 =
 0
