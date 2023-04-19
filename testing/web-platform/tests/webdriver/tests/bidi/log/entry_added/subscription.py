@@ -34,10 +34,8 @@ async
 def
 test_subscribe_twice
 (
-    
 bidi_session
-current_session
-inline
+top_context
 wait_for_event
 log_type
 )
@@ -127,10 +125,11 @@ entryAdded
     
 expected_text
 =
+await
 create_log
 (
-current_session
-inline
+bidi_session
+top_context
 log_type
 "
 text1
@@ -208,13 +207,10 @@ async
 def
 test_subscribe_unsubscribe
 (
-    
 bidi_session
-current_session
-inline
+top_context
 wait_for_event
 log_type
-top_context
 )
 :
     
@@ -247,10 +243,11 @@ entryAdded
 "
 )
     
+await
 create_log
 (
-current_session
-inline
+bidi_session
+top_context
 log_type
 "
 text1
@@ -313,10 +310,11 @@ entryAdded
 on_event
 )
     
+await
 create_log
 (
-current_session
-inline
+bidi_session
+top_context
 log_type
 "
 text2
@@ -341,16 +339,43 @@ events
 =
 0
     
-current_session
+await
+bidi_session
 .
-refresh
+browsing_context
+.
+navigate
 (
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
+url
+=
+top_context
+[
+"
+url
+"
+]
+wait
+=
+"
+complete
+"
+    
 )
     
+await
 create_log
 (
-current_session
-inline
+bidi_session
+top_context
 log_type
 "
 text3
@@ -375,10 +400,36 @@ events
 =
 0
     
-current_session
+await
+bidi_session
 .
-refresh
+browsing_context
+.
+navigate
 (
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
+url
+=
+top_context
+[
+"
+url
+"
+]
+wait
+=
+"
+complete
+"
+    
 )
     
 await
@@ -412,10 +463,11 @@ entryAdded
     
 expected_text
 =
+await
 create_log
 (
-current_session
-inline
+bidi_session
+top_context
 log_type
 "
 text4
@@ -453,19 +505,21 @@ context
 ]
 )
     
-new_window_handle
+new_context
 =
-current_session
+await
+bidi_session
 .
-new_window
+browsing_context
+.
+create
 (
-)
-    
-current_session
-.
-window_handle
+type_hint
 =
-new_window_handle
+"
+tab
+"
+)
     
 on_entry_added
 =
@@ -480,10 +534,11 @@ entryAdded
     
 expected_text
 =
+await
 create_log
 (
-current_session
-inline
+bidi_session
+new_context
 log_type
 "
 text5
@@ -513,7 +568,12 @@ text
 expected_text
 context
 =
-new_window_handle
+new_context
+[
+"
+context
+"
+]
 )
     
 remove_listener

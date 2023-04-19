@@ -18,6 +18,7 @@ from
 .
 import
 assert_console_entry
+create_console_api_message_for_primitive_value
 pytest
 .
 mark
@@ -149,16 +150,10 @@ test_text_with_argument_variation
 (
     
 bidi_session
-    
-current_session
-    
-wait_for_event
-    
-log_argument
-    
-expected_text
-    
 top_context
+wait_for_event
+log_argument
+expected_text
 )
 :
     
@@ -191,21 +186,16 @@ entryAdded
 "
 )
     
-current_session
-.
-execute_script
+await
+create_console_api_message_for_primitive_value
 (
-f
+        
+bidi_session
+top_context
 "
-console
-.
 log
-(
-{
-log_argument
-}
-)
 "
+log_argument
 )
     
 event_data
@@ -327,7 +317,7 @@ test_level
 (
     
 bidi_session
-current_session
+top_context
 wait_for_event
 log_method
 expected_level
@@ -372,42 +362,37 @@ assert
 "
 :
         
-current_session
-.
-execute_script
+await
+create_console_api_message_for_primitive_value
 (
+            
+bidi_session
+top_context
 "
-console
-.
 assert
-(
+"
+"
 false
 '
 foo
 '
-)
 "
 )
     
 else
 :
         
-current_session
-.
-execute_script
+await
+create_console_api_message_for_primitive_value
 (
-f
-"
-console
-.
-{
+            
+bidi_session
+top_context
 log_method
-}
-(
+"
 '
 foo
 '
-)
 "
 )
     
@@ -443,9 +428,9 @@ def
 test_timestamp
 (
 bidi_session
-current_session
-current_time
+top_context
 wait_for_event
+current_time
 )
 :
     
@@ -484,24 +469,19 @@ current_time
 (
 )
     
-current_session
-.
-execute_async_script
+script
+=
+"
+"
+"
+new
+Promise
 (
-        
-"
-"
-"
-        
-const
 resolve
 =
-arguments
-[
-0
-]
-;
-        
+>
+{
+            
 setTimeout
 (
 (
@@ -509,7 +489,7 @@ setTimeout
 =
 >
 {
-            
+                
 console
 .
 log
@@ -519,20 +499,52 @@ foo
 '
 )
 ;
-            
+                
 resolve
 (
 )
 ;
-        
+            
 }
 100
 )
 ;
         
+}
+)
+;
+        
 "
 "
 "
+    
+await
+bidi_session
+.
+script
+.
+evaluate
+(
+        
+expression
+=
+script
+        
+await_promise
+=
+True
+        
+target
+=
+ContextTarget
+(
+top_context
+[
+"
+context
+"
+]
+)
     
 )
     
@@ -573,11 +585,9 @@ async
 def
 test_new_context_with_new_window
 (
-    
 bidi_session
-current_session
-wait_for_event
 top_context
+wait_for_event
 )
 :
     
@@ -610,19 +620,19 @@ entryAdded
 "
 )
     
-current_session
-.
-execute_script
+await
+create_console_api_message_for_primitive_value
 (
-"
-console
-.
+        
+bidi_session
+top_context
+'
 log
-(
+'
+"
 '
 foo
 '
-)
 "
 )
     
@@ -649,19 +659,21 @@ context
 ]
 )
     
-new_window_handle
+new_context
 =
-current_session
+await
+bidi_session
 .
-new_window
+browsing_context
+.
+create
 (
-)
-    
-current_session
-.
-window_handle
+type_hint
 =
-new_window_handle
+"
+tab
+"
+)
     
 on_entry_added
 =
@@ -674,19 +686,19 @@ entryAdded
 "
 )
     
-current_session
-.
-execute_script
+await
+create_console_api_message_for_primitive_value
 (
-"
-console
-.
+        
+bidi_session
+new_context
+'
 log
-(
+'
+"
 '
 foo_in_new_window
 '
-)
 "
 )
     
@@ -697,7 +709,6 @@ on_entry_added
     
 assert_console_entry
 (
-        
 event_data
 text
 =
@@ -706,8 +717,12 @@ foo_in_new_window
 "
 context
 =
-new_window_handle
-    
+new_context
+[
+"
+context
+"
+]
 )
 pytest
 .
@@ -718,11 +733,9 @@ async
 def
 test_new_context_with_refresh
 (
-    
 bidi_session
-current_session
-wait_for_event
 top_context
+wait_for_event
 )
 :
     
@@ -755,19 +768,19 @@ entryAdded
 "
 )
     
-current_session
-.
-execute_script
+await
+create_console_api_message_for_primitive_value
 (
-"
-console
-.
+        
+bidi_session
+top_context
+'
 log
-(
+'
+"
 '
 foo
 '
-)
 "
 )
     
@@ -794,10 +807,36 @@ context
 ]
 )
     
-current_session
+await
+bidi_session
 .
-refresh
+browsing_context
+.
+navigate
 (
+        
+context
+=
+top_context
+[
+"
+context
+"
+]
+url
+=
+top_context
+[
+"
+url
+"
+]
+wait
+=
+"
+complete
+"
+    
 )
     
 on_entry_added
@@ -811,19 +850,19 @@ entryAdded
 "
 )
     
-current_session
-.
-execute_script
+await
+create_console_api_message_for_primitive_value
 (
-"
-console
-.
+        
+bidi_session
+top_context
+'
 log
-(
+'
+"
 '
 foo_after_refresh
 '
-)
 "
 )
     
@@ -863,11 +902,11 @@ test_different_contexts
     
 bidi_session
     
+top_context
+    
 wait_for_event
     
 test_page_same_origin_frame
-    
-top_context
 )
 :
     
@@ -979,42 +1018,19 @@ entryAdded
 )
     
 await
-bidi_session
-.
-script
-.
-evaluate
+create_console_api_message_for_primitive_value
 (
         
-expression
-=
+bidi_session
+top_context
 "
-console
-.
 log
-(
+"
+"
 '
 foo
 '
-)
 "
-        
-target
-=
-ContextTarget
-(
-top_context
-[
-"
-context
-"
-]
-)
-        
-await_promise
-=
-True
-    
 )
     
 event_data
@@ -1052,42 +1068,19 @@ entryAdded
 )
     
 await
-bidi_session
-.
-script
-.
-evaluate
+create_console_api_message_for_primitive_value
 (
         
-expression
-=
+bidi_session
+frame_context
 "
-console
-.
 log
-(
+"
+"
 '
 bar
 '
-)
 "
-        
-target
-=
-ContextTarget
-(
-frame_context
-[
-"
-context
-"
-]
-)
-        
-await_promise
-=
-True
-    
 )
     
 event_data
