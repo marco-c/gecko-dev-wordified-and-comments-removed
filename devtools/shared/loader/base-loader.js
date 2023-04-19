@@ -2051,6 +2051,7 @@ components
 :
 Components
 ChromeWorker
+Services
 }
 }
 ;

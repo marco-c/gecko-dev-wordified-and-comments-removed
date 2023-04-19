@@ -52,17 +52,7 @@ requireLazy
 require
 (
 "
-resource
-:
-/
-/
-gre
-/
-modules
-/
 Services
-.
-jsm
 "
 )
 )
@@ -73,9 +63,7 @@ getActiveBrowserID
 )
 {
 const
-{
 Services
-}
 =
 lazyServices
 (
