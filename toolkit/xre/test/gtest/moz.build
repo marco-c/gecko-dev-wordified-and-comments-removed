@@ -8,6 +8,11 @@ UNIFIED_SOURCES
 =
 [
 "
+TestCmdLineAndEnvUtils
+.
+cpp
+"
+"
 TestCompatVersionCompare
 .
 cpp
