@@ -241,6 +241,8 @@ style
 guide
 ]
 (
+g3doc
+/
 style
 -
 guide

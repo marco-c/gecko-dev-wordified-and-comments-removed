@@ -21,6 +21,8 @@ guide
 .
 .
 /
+g3doc
+/
 style
 -
 guide
@@ -224,6 +226,8 @@ rules
 (
 .
 .
+/
+g3doc
 /
 style
 -
