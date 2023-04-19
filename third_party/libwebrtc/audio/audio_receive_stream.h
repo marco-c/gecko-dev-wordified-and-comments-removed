@@ -561,6 +561,9 @@ AudioState
 >
 audio_state_
 ;
+SourceTracker
+source_tracker_
+;
 const
 std
 :
@@ -573,9 +576,6 @@ voe
 ChannelReceiveInterface
 >
 channel_receive_
-;
-SourceTracker
-source_tracker_
 ;
 AudioSendStream
 *

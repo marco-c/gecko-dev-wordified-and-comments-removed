@@ -681,6 +681,16 @@ Times
 1
 )
 ;
+EXPECT_CALL
+(
+*
+channel_receive_
+SetSourceTracker
+(
+_
+)
+)
+;
 stream_config_
 .
 rtp
