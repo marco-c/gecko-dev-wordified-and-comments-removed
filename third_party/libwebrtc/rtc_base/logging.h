@@ -192,6 +192,17 @@ LS_WARNING
 LS_ERROR
 LS_NONE
 INFO
+[
+[
+deprecated
+(
+"
+Use
+LS_INFO
+"
+)
+]
+]
 =
 LS_INFO
 WARNING
