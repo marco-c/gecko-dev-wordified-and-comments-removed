@@ -2310,6 +2310,15 @@ supportFORMAT_VideoInfo
 true
 ;
 }
+FreeMediaType
+(
+pmt
+)
+;
+pmt
+=
+NULL
+;
 }
 }
 if
