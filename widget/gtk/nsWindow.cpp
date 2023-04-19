@@ -26312,7 +26312,7 @@ void
 LOG
 (
 "
-moz_container_wayland_add_initial_draw_callback
+moz_container_wayland_add_or_fire_initial_draw_callback
 "
 "
 ConfigureCompositor
@@ -26375,7 +26375,7 @@ GdkIsWaylandDisplay
 #
 ifdef
 MOZ_WAYLAND
-moz_container_wayland_add_initial_draw_callback
+moz_container_wayland_add_or_fire_initial_draw_callback
 (
 mContainer
 startCompositing
