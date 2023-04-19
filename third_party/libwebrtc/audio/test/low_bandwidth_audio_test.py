@@ -884,6 +884,15 @@ stdout
 write
 (
 line
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
 )
     
 android_prefix_re
