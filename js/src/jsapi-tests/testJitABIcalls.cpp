@@ -3739,6 +3739,7 @@ cx
 StackMacroAssembler
 masm
 (
+cx
 temp
 )
 ;

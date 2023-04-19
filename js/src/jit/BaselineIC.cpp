@@ -13516,6 +13516,7 @@ tempLifoAlloc
 StackMacroAssembler
 masm
 (
+cx
 temp
 )
 ;

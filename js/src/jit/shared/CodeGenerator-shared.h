@@ -159,6 +159,9 @@ masm
 TempAllocator
 &
 alloc
+CompileRealm
+*
+realm
 )
 ;
 mozilla
