@@ -103,6 +103,15 @@ getCurrentThread
 =
 dbg
 ;
+await
+waitForSourcesInSourceTree
+(
+dbg
+[
+WORKER_URL
+]
+)
+;
 const
 hud
 =

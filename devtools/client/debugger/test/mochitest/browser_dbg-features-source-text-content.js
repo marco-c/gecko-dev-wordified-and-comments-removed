@@ -1406,6 +1406,8 @@ url
 .
 js
 "
+BASE_URL
++
 "
 same
 -
