@@ -18734,7 +18734,6 @@ mOverscroll
 new
 OverscrollEdgeEffect
 (
-this
 )
 ;
 }
