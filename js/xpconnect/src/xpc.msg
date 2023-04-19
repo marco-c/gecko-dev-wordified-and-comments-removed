@@ -2609,17 +2609,6 @@ tracking
 )
 XPC_MSG_DEF
 (
-NS_ERROR_EMAILTRACKING_URI
-"
-The
-URI
-is
-email
-tracking
-"
-)
-XPC_MSG_DEF
-(
 NS_ERROR_DATABASE_CHANGED
 "
 Flushing

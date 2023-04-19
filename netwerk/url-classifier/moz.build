@@ -131,11 +131,6 @@ UrlClassifierFeatureCustomTables
 cpp
 "
 "
-UrlClassifierFeatureEmailTrackingProtection
-.
-cpp
-"
-"
 UrlClassifierFeatureFactory
 .
 cpp
