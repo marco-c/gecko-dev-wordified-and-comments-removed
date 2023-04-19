@@ -58,13 +58,6 @@ nsTextFormatter
 .
 h
 "
-#
-include
-"
-nsMemory
-.
-h
-"
 struct
 nsTextFormatter
 :

@@ -34,13 +34,6 @@ Logging
 .
 h
 "
-#
-include
-"
-nsMemory
-.
-h
-"
 class
 nsHtml5NamedCharactersAccel
 {

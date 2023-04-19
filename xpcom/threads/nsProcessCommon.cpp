@@ -24,13 +24,6 @@ h
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 nsProcess
 .
 h

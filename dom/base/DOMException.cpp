@@ -73,13 +73,6 @@ h
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 xpcprivate
 .
 h

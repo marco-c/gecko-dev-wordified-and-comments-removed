@@ -48,13 +48,6 @@ nsComponentManagerUtils
 h
 "
 #
-include
-"
-nsMemory
-.
-h
-"
-#
 define
 ZIP_METHOD_STORE
 0

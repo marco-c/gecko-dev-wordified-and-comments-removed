@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h

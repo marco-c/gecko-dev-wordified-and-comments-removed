@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 txXPathTreeWalker
 .
 h

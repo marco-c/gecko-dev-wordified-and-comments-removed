@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 nsGtkKeyUtils
 .
 h

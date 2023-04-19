@@ -82,13 +82,6 @@ h
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 nsIURL
 .
 h

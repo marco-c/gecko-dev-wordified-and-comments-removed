@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 nsBidiUtils
 .
 h
