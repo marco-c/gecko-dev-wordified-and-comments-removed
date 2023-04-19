@@ -531,15 +531,6 @@ at_time
 )
 ;
 DataRate
-MaybeRampupOrBackoff
-(
-DataRate
-new_bitrate
-Timestamp
-at_time
-)
-;
-DataRate
 GetUpperLimit
 (
 )
