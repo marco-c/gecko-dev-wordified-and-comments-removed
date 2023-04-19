@@ -775,6 +775,7 @@ return
 count
 ;
 }
+async
 removeTab
 (
 tab
@@ -800,6 +801,7 @@ getTabBrowser
 ownerWindow
 )
 ;
+await
 tabBrowser
 .
 removeTab

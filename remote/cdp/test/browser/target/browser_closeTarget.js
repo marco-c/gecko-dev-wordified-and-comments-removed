@@ -194,6 +194,7 @@ target
 "
 )
 ;
+await
 Target
 .
 closeTarget

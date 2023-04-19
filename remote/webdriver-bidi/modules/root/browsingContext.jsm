@@ -420,6 +420,7 @@ destroy
 )
 ;
 }
+async
 close
 (
 options
@@ -599,6 +600,7 @@ getTabForBrowser
 browser
 )
 ;
+await
 lazy
 .
 TabManager

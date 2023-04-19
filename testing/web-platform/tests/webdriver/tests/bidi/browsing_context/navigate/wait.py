@@ -42,6 +42,10 @@ asyncio
 wait_for
 (
                 
+asyncio
+.
+shield
+(
 bidi_session
 .
 browsing_context
@@ -60,7 +64,8 @@ wait
 wait
                 
 )
-              
+)
+                
 timeout
 =
 1

@@ -558,6 +558,7 @@ isPrivate
 )
 ;
 }
+async
 closeTab
 (
 )
@@ -630,6 +631,7 @@ AppInfo
 isAndroid
 )
 {
+await
 lazy
 .
 TabManager
@@ -667,6 +669,7 @@ TabClose
 "
 )
 ;
+await
 this
 .
 tabBrowser
