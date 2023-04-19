@@ -99,11 +99,6 @@ bounds
 0
 256
 256
-clip
--
-node
-:
-2
 filters
 :
 invert
