@@ -668,6 +668,9 @@ ChromeUtils
 defineModuleGetter
 :
 updateGlobalOrObject
+defineESModuleGetters
+:
+updateGlobalOrObject
 generateQI
 (
 )
