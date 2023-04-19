@@ -504,79 +504,12 @@ requires
 '
 )
   
-parser
-.
-add_argument
-(
-'
--
--
-extra
--
-test
--
-args
-'
-                      
-default
-=
-[
-]
-                      
-action
-=
-'
-append
-'
-                      
-help
-=
-'
-Extra
-args
-to
-path
-to
-the
-test
-binary
-.
-'
-)
-  
-parser
-.
-add_argument
-(
-'
--
--
-test
--
-launcher
--
-summary
--
-output
-'
-type
-=
-str
-default
-=
-None
-)
-  
-args
-=
-parser
-.
-parse_args
-(
-)
-  
 return
-args
+parser
+.
+parse_known_args
+(
+)
 def
 _GetPlatform
 (
@@ -599,7 +532,7 @@ return
 win
 '
   
-elif
+if
 sys
 .
 platform
@@ -615,7 +548,7 @@ return
 mac
 '
   
-elif
+if
 sys
 .
 platform
@@ -1797,13 +1730,6 @@ as
 e
 :
     
-logging
-.
-exception
-(
-e
-)
-    
 raise
 ImportError
 (
@@ -1848,6 +1774,8 @@ s
 %
 histogram_proto_path
 )
+from
+e
 def
 main
 (
@@ -1926,6 +1854,7 @@ argv
 )
   
 args
+extra_test_args
 =
 _ParseArgs
 (
@@ -2176,8 +2105,6 @@ name
     
 ]
 +
-args
-.
 extra_test_args
 )
                                     
