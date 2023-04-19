@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_VIDEO_CODING_CODECS_VP8_TEST_MOCK_LIBVPX_INTERFACE_H_
+MODULES_VIDEO_CODING_CODECS_INTERFACE_MOCK_LIBVPX_INTERFACE_H_
 #
 define
-MODULES_VIDEO_CODING_CODECS_VP8_TEST_MOCK_LIBVPX_INTERFACE_H_
+MODULES_VIDEO_CODING_CODECS_INTERFACE_MOCK_LIBVPX_INTERFACE_H_
 #
 include
 "
@@ -13,7 +13,7 @@ video_coding
 /
 codecs
 /
-vp8
+interface
 /
 libvpx_interface
 .
@@ -41,7 +41,7 @@ namespace
 webrtc
 {
 class
-MockLibvpxVp8Interface
+MockLibvpxInterface
 :
 public
 LibvpxInterface

@@ -92,11 +92,9 @@ video_coding
 /
 codecs
 /
-vp8
+interface
 /
-include
-/
-vp8
+libvpx_interface
 .
 h
 "
@@ -111,7 +109,9 @@ codecs
 /
 vp8
 /
-libvpx_interface
+include
+/
+vp8
 .
 h
 "
