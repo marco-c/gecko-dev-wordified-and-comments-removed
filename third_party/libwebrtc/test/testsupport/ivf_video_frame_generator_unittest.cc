@@ -328,6 +328,12 @@ defined
 (
 WEBRTC_IOS
 )
+|
+|
+defined
+(
+WEBRTC_ARCH_ARM64
+)
 constexpr
 double
 kExpectedMinPsnr
