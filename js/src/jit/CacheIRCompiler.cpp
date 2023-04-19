@@ -36665,7 +36665,7 @@ EmulatesUndefined
 ;
 masm
 .
-storeCallBoolResult
+storeCallPointerResult
 (
 scratch2
 )
@@ -36679,13 +36679,8 @@ volatileRegs
 ;
 masm
 .
-branchTest32
+branchIfTrueBool
 (
-Assembler
-:
-:
-NonZero
-scratch2
 scratch2
 &
 ifFalse
