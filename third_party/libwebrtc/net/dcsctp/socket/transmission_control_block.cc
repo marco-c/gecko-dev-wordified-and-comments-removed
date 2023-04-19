@@ -717,12 +717,6 @@ TimeMs
 now
 )
 {
-MaybeSendForwardTsn
-(
-builder
-now
-)
-;
 for
 (
 int
@@ -810,6 +804,12 @@ remaining_bytes
 )
 ;
 }
+MaybeSendForwardTsn
+(
+builder
+now
+)
+;
 absl
 :
 :
