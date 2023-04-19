@@ -1500,10 +1500,7 @@ aProgress
 mozilla
 :
 :
-ComputedTimingFunction
-:
-:
-BeforeFlag
+StyleEasingBeforeFlag
 aBeforeFlag
 )
 ;
