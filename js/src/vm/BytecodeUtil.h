@@ -1770,6 +1770,15 @@ op
 JSOp
 :
 :
+CallContentIter
+|
+|
+op
+=
+=
+JSOp
+:
+:
 StrictEval
 )
 ;

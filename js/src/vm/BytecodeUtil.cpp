@@ -10379,6 +10379,12 @@ JSOp
 :
 CallIter
 :
+case
+JSOp
+:
+:
+CallContentIter
+:
 {
 uint16_t
 argc

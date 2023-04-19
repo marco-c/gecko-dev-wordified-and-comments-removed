@@ -49946,6 +49946,12 @@ case
 JSOp
 :
 :
+CallContentIter
+:
+case
+JSOp
+:
+:
 SpreadCall
 :
 case
