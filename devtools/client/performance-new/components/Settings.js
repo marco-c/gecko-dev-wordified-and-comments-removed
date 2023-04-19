@@ -366,14 +366,12 @@ backend
 name
 :
 "
-PaintWorker
+Timer
 "
 id
 :
 "
-paint
--
-worker
+timer
 "
 l10nId
 :
@@ -382,9 +380,7 @@ perftools
 -
 thread
 -
-paint
--
-worker
+timer
 "
 }
 {
