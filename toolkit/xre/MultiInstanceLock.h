@@ -75,6 +75,17 @@ bool
 aResult
 )
 ;
+already_AddRefed
+<
+nsIFile
+>
+GetNormalizedAppFile
+(
+nsIFile
+*
+aAppFile
+)
+;
 }
 ;
 #
