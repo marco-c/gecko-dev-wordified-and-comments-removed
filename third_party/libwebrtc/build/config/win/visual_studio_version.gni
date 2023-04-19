@@ -277,6 +277,6 @@ path
 )
 visual_studio_runtime_dirs
 =
-"
-"
+[
+]
 }

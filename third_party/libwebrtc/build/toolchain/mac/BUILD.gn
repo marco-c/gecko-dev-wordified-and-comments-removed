@@ -167,7 +167,6 @@ symbols
 gni
 "
 )
-#
 assert
 (
 host_os
