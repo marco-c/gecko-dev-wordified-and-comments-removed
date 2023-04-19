@@ -802,13 +802,6 @@ autocomplete
 "
 )
 }
-clearMessagesCache
-:
-{
-oneway
-:
-true
-}
 clearMessagesCacheAsync
 :
 {
