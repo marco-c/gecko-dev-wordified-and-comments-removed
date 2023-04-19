@@ -2000,10 +2000,10 @@ PREFETCH_FINISHED_TOPIC
 ;
 const
 {
-enrollmentPromise
 doExperimentCleanup
 }
 =
+await
 ExperimentFakes
 .
 enrollmentHelper
@@ -2012,15 +2012,7 @@ recipe
 )
 ;
 await
-Promise
-.
-all
-(
-[
-enrollmentPromise
 prefetchFinished
-]
-)
 ;
 try
 {

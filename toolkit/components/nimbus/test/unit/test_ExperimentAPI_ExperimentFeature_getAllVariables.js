@@ -309,6 +309,7 @@ const
 doExperimentCleanup
 }
 =
+await
 ExperimentFakes
 .
 enrollmentHelper
@@ -539,6 +540,7 @@ const
 doExperimentCleanup
 }
 =
+await
 ExperimentFakes
 .
 enrollmentHelper
