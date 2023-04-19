@@ -792,7 +792,7 @@ nsIURI
 aBaseURI
 nsIPrincipal
 *
-aTriggeringPrincipal
+aPrincipal
 nsICookieJarSettings
 *
 aCookieJarSettings
@@ -952,7 +952,7 @@ GetEnumValue
 )
 )
 uri
-aTriggeringPrincipal
+aPrincipal
 corsMode
 aHeader
 .
@@ -1094,7 +1094,7 @@ earlyHintPreloader
 >
 OpenChannel
 (
-aTriggeringPrincipal
+aPrincipal
 securityFlags
 contentPolicyType
 referrerInfo
@@ -1132,7 +1132,7 @@ OpenChannel
 (
 nsIPrincipal
 *
-aTriggeringPrincipal
+aPrincipal
 nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
@@ -1202,7 +1202,7 @@ getter_AddRefs
 mChannel
 )
 mURI
-aTriggeringPrincipal
+aPrincipal
 aSecurityFlags
 aContentPolicyType
 aCookieJarSettings

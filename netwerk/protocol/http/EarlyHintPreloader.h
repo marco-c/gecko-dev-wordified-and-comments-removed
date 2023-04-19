@@ -193,7 +193,7 @@ nsIURI
 aBaseURI
 nsIPrincipal
 *
-aTriggeringPrincipal
+aPrincipal
 nsICookieJarSettings
 *
 aCookieJarSettings
@@ -263,7 +263,7 @@ OpenChannel
 (
 nsIPrincipal
 *
-aTriggeringPrincipal
+aPrincipal
 nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
