@@ -131,11 +131,6 @@ AntialiasOption
 kAntialiasDefault
 )
 ;
-~
-gfxDWriteFont
-(
-)
-;
 static
 bool
 InitDWriteSupport
@@ -324,6 +319,12 @@ override
 ;
 protected
 :
+~
+gfxDWriteFont
+(
+)
+override
+;
 const
 Metrics
 &

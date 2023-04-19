@@ -937,11 +937,11 @@ override
 ;
 private
 :
-virtual
 ~
 gfxFontconfigFont
 (
 )
+override
 ;
 RefPtr
 <
