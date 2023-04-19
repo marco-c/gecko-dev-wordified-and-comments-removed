@@ -307,6 +307,9 @@ break
 default
 :
 throw
+new
+Error
+(
 "
 Unexpected
 request
@@ -314,6 +317,7 @@ in
 the
 test
 "
+)
 ;
 }
 }
