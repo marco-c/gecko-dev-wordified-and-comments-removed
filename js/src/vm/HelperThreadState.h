@@ -2699,8 +2699,8 @@ frontend
 CompilationStencilMerger
 merger
 ;
-OffThreadFrontendErrors
-errors_
+OffThreadErrorContext
+ec_
 ;
 static
 UniquePtr

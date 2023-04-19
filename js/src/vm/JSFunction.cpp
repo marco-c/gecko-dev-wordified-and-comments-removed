@@ -328,6 +328,15 @@ include
 "
 vm
 /
+ErrorContext
+.
+h
+"
+#
+include
+"
+vm
+/
 FunctionFlags
 .
 h
@@ -7147,6 +7156,12 @@ return
 true
 ;
 }
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 if
 (
 !
@@ -7156,6 +7171,8 @@ frontend
 DelazifyCanonicalScriptedFunction
 (
 cx
+&
+ec
 fun
 )
 )
