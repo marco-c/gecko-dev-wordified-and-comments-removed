@@ -1545,6 +1545,8 @@ CreatePCDependencies
 MockPeerConnectionObserver
 *
 observer
+uint32_t
+port_allocator_extra_flags
 std
 :
 :
@@ -1588,6 +1590,8 @@ packet_socket_factory
 int
 flags
 =
+port_allocator_extra_flags
+|
 cricket
 :
 :
@@ -2169,6 +2173,10 @@ observer
 get
 (
 )
+params
+-
+>
+port_allocator_extra_flags
 std
 :
 :

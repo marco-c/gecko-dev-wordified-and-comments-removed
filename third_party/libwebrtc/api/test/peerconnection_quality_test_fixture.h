@@ -1198,6 +1198,17 @@ factory
 virtual
 PeerConfigurer
 *
+SetPortAllocatorExtraFlags
+(
+uint32_t
+extra_flags
+)
+=
+0
+;
+virtual
+PeerConfigurer
+*
 AddVideoConfig
 (
 VideoConfig
