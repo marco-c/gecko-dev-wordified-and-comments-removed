@@ -41,7 +41,7 @@ fission
 "
 ;
 const
-BROWSERTOOLBOX_SCOPE
+BROWSERTOOLBOX_SCOPE_PREF
 =
 "
 devtools
@@ -128,7 +128,7 @@ prefs
 .
 addObserver
 (
-BROWSERTOOLBOX_SCOPE
+BROWSERTOOLBOX_SCOPE_PREF
 this
 .
 _updateBrowserToolboxScope
@@ -401,7 +401,7 @@ prefs
 .
 getCharPref
 (
-BROWSERTOOLBOX_SCOPE
+BROWSERTOOLBOX_SCOPE_PREF
 )
 ;
 if
@@ -1676,7 +1676,7 @@ prefs
 .
 getCharPref
 (
-BROWSERTOOLBOX_SCOPE
+BROWSERTOOLBOX_SCOPE_PREF
 )
 ;
 if
@@ -3571,7 +3571,7 @@ prefs
 .
 removeObserver
 (
-BROWSERTOOLBOX_SCOPE
+BROWSERTOOLBOX_SCOPE_PREF
 this
 .
 _updateBrowserToolboxScope
