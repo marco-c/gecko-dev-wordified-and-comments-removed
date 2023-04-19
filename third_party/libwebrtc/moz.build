@@ -3785,6 +3785,16 @@ libwebrtc
 /
 rtc_base
 /
+buffer_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+rtc_base
+/
 callback_list_gn
 "
 "
