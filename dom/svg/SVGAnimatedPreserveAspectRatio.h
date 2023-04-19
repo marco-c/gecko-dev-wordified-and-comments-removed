@@ -21,6 +21,8 @@ h
 #
 include
 "
+mozilla
+/
 SVGPreserveAspectRatio
 .
 h
