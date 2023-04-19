@@ -27870,9 +27870,6 @@ gfx
 .
 blacklist
 .
-hardwarevideodecoding
-.
-failureid
 "
 )
 PREF_LIST_ENTRY
