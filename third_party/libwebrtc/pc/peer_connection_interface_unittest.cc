@@ -26421,7 +26421,7 @@ nullptr
 )
 )
 ;
-EXPECT_FALSE
+EXPECT_TRUE
 (
 offer
 -
@@ -26440,7 +26440,7 @@ config
 .
 offer_extmap_allow_mixed
 =
-true
+false
 ;
 CreatePeerConnection
 (
@@ -26463,7 +26463,7 @@ nullptr
 )
 )
 ;
-EXPECT_TRUE
+EXPECT_FALSE
 (
 offer
 -

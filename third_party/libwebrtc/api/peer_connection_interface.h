@@ -1510,7 +1510,7 @@ crypto_options
 bool
 offer_extmap_allow_mixed
 =
-false
+true
 ;
 std
 :

@@ -1333,7 +1333,7 @@ connection_address_
 ExtmapAllowMixed
 extmap_allow_mixed_enum_
 =
-kNo
+kMedia
 ;
 SimulcastDescription
 simulcast_
@@ -3215,7 +3215,7 @@ kMsidSignalingSsrcAttribute
 bool
 extmap_allow_mixed_
 =
-false
+true
 ;
 }
 ;

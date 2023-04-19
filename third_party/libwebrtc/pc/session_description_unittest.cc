@@ -38,7 +38,7 @@ EXPECT_EQ
 MediaContentDescription
 :
 :
-kNo
+kMedia
 video_desc
 .
 extmap_allow_mixed_enum
