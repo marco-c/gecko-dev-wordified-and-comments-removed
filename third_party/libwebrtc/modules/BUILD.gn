@@ -261,6 +261,10 @@ h
 if
 (
 rtc_include_tests
+&
+&
+!
+build_with_chromium
 )
 {
 modules_tests_resources

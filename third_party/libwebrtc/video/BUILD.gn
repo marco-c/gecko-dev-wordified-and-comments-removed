@@ -2409,6 +2409,12 @@ test_support
 "
 ]
 }
+if
+(
+!
+build_with_chromium
+)
+{
 rtc_library
 (
 "
@@ -4055,6 +4061,7 @@ types
 optional
 "
 ]
+}
 }
 #
 TODO

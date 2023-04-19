@@ -1783,6 +1783,12 @@ test_support
 "
 ]
 }
+if
+(
+!
+build_with_chromium
+)
+{
 group
 (
 "
@@ -2607,6 +2613,7 @@ cc
 ]
 }
 }
+}
 rtc_library
 (
 "
@@ -2835,6 +2842,10 @@ optional
 if
 (
 rtc_enable_protobuf
+&
+&
+!
+build_with_chromium
 )
 {
 rtc_library

@@ -2517,6 +2517,12 @@ optional
 "
 ]
 }
+if
+(
+!
+build_with_chromium
+)
+{
 rtc_executable
 (
 "
@@ -2693,6 +2699,7 @@ types
 optional
 "
 ]
+}
 }
 }
 }

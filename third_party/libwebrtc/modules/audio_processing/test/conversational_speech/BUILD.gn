@@ -101,6 +101,12 @@ webrtc
 gni
 "
 )
+if
+(
+!
+build_with_chromium
+)
+{
 group
 (
 "
@@ -211,6 +217,7 @@ flags
 parse
 "
 ]
+}
 }
 rtc_library
 (

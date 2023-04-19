@@ -3591,6 +3591,12 @@ h
 "
 ]
 }
+if
+(
+!
+build_with_chromium
+)
+{
 rtc_media_unittests_resources
 =
 [
@@ -4655,6 +4661,7 @@ third_party
 usrsctp
 "
 ]
+}
 }
 }
 }

@@ -101,6 +101,12 @@ webrtc
 gni
 "
 )
+if
+(
+!
+build_with_chromium
+)
+{
 group
 (
 "
@@ -1186,4 +1192,5 @@ source_file_part
 }
 "
 ]
+}
 }

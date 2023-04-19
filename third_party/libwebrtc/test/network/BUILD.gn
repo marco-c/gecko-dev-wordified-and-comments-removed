@@ -769,6 +769,10 @@ mutex
 if
 (
 rtc_include_tests
+&
+&
+!
+build_with_chromium
 )
 {
 rtc_library
@@ -1299,6 +1303,12 @@ test_feedback_generator
 "
 ]
 }
+if
+(
+!
+build_with_chromium
+)
+{
 rtc_library
 (
 "
@@ -1329,5 +1339,6 @@ network_emulation_pc_unittest
 network_emulation_unittest
 "
 ]
+}
 }
 }

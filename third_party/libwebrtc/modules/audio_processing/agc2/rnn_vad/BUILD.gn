@@ -2275,6 +2275,12 @@ unittests_bundle_data
 ]
 }
 }
+if
+(
+!
+build_with_chromium
+)
+{
 rtc_executable
 (
 "
@@ -2425,5 +2431,6 @@ flags
 parse
 "
 ]
+}
 }
 }

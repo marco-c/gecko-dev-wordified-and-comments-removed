@@ -2659,6 +2659,12 @@ if
 rtc_include_tests
 )
 {
+if
+(
+!
+build_with_chromium
+)
+{
 rtc_library
 (
 "
@@ -3658,6 +3664,7 @@ flags
 flag
 "
 ]
+}
 }
 #
 TODO

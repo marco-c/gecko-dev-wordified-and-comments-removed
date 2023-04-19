@@ -578,6 +578,12 @@ google_benchmark
 ]
 }
 }
+if
+(
+!
+build_with_chromium
+)
+{
 rtc_library
 (
 "
@@ -656,5 +662,6 @@ test
 test_support
 "
 ]
+}
 }
 }

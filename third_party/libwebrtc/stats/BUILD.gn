@@ -248,6 +248,10 @@ rtc_export
 if
 (
 rtc_include_tests
+&
+&
+!
+build_with_chromium
 )
 {
 rtc_test

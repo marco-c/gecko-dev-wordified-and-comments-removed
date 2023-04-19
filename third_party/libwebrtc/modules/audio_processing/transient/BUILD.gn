@@ -348,6 +348,12 @@ if
 rtc_include_tests
 )
 {
+if
+(
+!
+build_with_chromium
+)
+{
 rtc_executable
 (
 "
@@ -590,6 +596,7 @@ flags
 parse
 "
 ]
+}
 }
 rtc_library
 (

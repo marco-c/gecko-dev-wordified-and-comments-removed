@@ -696,6 +696,12 @@ test_support
 "
 ]
 }
+if
+(
+!
+build_with_chromium
+)
+{
 rtc_executable
 (
 "
@@ -786,5 +792,6 @@ flags
 parse
 "
 ]
+}
 }
 }

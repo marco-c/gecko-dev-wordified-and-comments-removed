@@ -164,6 +164,12 @@ test_support
 "
 ]
 }
+if
+(
+!
+build_with_chromium
+)
+{
 rtc_library
 (
 "
@@ -331,6 +337,7 @@ test
 test_support
 "
 ]
+}
 }
 rtc_library
 (

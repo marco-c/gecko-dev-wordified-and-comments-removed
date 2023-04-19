@@ -2220,6 +2220,12 @@ optional
 "
 ]
 }
+if
+(
+!
+build_with_chromium
+)
+{
 rtc_library
 (
 "
@@ -2640,5 +2646,6 @@ testing
 gmock
 "
 ]
+}
 }
 }

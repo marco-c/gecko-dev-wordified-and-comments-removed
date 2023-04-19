@@ -529,6 +529,10 @@ h
 if
 (
 rtc_include_tests
+&
+&
+!
+build_with_chromium
 )
 {
 common_video_resources
