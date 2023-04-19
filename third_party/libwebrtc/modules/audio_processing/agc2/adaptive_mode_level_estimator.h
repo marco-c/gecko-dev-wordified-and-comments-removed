@@ -178,6 +178,9 @@ s
 )
 ;
 }
+int
+time_to_confidence_ms
+;
 struct
 Ratio
 {
@@ -194,11 +197,6 @@ GetRatio
 const
 ;
 }
-;
-int
-time_to_confidence_ms
-;
-Ratio
 level_dbfs
 ;
 }
