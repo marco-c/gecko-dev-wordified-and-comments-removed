@@ -7354,20 +7354,6 @@ py
 use_x11
 =
 is_linux
-and
-not
-'
-use_ozone
-=
-true
-'
-in
-vals
-[
-'
-gn_args
-'
-]
       
 xvfb
 =
