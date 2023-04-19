@@ -3101,8 +3101,13 @@ mBorderStyle
 LayoutDeviceIntRect
 mBounds
 ;
+mozilla
+:
+:
+UniquePtr
+<
 LayoutDeviceIntRect
-*
+>
 mOriginalBounds
 ;
 bool

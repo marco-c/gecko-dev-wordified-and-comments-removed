@@ -836,10 +836,6 @@ mBounds
 0
 0
 )
-mOriginalBounds
-(
-nullptr
-)
 mIsTiled
 (
 false
@@ -1794,9 +1790,6 @@ gNumWidgets
 ;
 #
 endif
-delete
-mOriginalBounds
-;
 }
 void
 nsBaseWidget
@@ -3016,8 +3009,13 @@ mOriginalBounds
 {
 mOriginalBounds
 =
-new
+mozilla
+:
+:
+MakeUnique
+<
 LayoutDeviceIntRect
+>
 (
 )
 ;
