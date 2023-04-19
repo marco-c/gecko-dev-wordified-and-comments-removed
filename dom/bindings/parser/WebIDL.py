@@ -36,6 +36,8 @@ from
 itertools
 import
 chain
+import
+copy
 def
 parseInt
 (
@@ -27372,11 +27374,7 @@ location
 identifier
 keyType
 valueType
-=
-None
 scope
-=
-None
 )
 :
         
@@ -27662,23 +27660,64 @@ IDLMaplikeOrSetlikeOrIterableBase
 def
 __init__
 (
-        
 self
 location
 identifier
 keyType
 valueType
-=
-None
 argList
-=
-None
 scope
-=
-None
-    
 )
 :
+        
+for
+arg
+in
+argList
+:
+            
+if
+not
+arg
+.
+optional
+:
+                
+raise
+WebIDLError
+(
+                    
+"
+The
+arguments
+of
+the
+asynchronously
+iterable
+declaration
+on
+"
+                    
+"
+%
+s
+must
+all
+be
+optional
+arguments
+.
+"
+%
+identifier
+                    
+[
+arg
+.
+location
+]
+                
+)
         
 IDLMaplikeOrSetlikeOrIterableBase
 .
@@ -27718,36 +27757,6 @@ self
 argList
 =
 argList
-        
-if
-argList
-is
-not
-None
-:
-            
-raise
-WebIDLError
-(
-                
-"
-Arguments
-of
-async
-iterable
-are
-not
-supported
-yet
-.
-Please
-reference
-Bug
-1781730
-.
-"
-            
-)
     
 def
 __str__
@@ -27852,6 +27861,10 @@ self
 .
 iteratorType
             
+self
+.
+argList
+            
 affectsNothing
 =
 True
@@ -27884,6 +27897,22 @@ isPairIterator
             
 return
         
+def
+copyArgList
+(
+argList
+)
+:
+            
+return
+map
+(
+copy
+.
+copy
+argList
+)
+        
 self
 .
 addMethod
@@ -27900,6 +27929,13 @@ False
 self
 .
 iteratorType
+            
+copyArgList
+(
+self
+.
+argList
+)
             
 affectsNothing
 =
@@ -27931,6 +27967,13 @@ False
 self
 .
 iteratorType
+            
+copyArgList
+(
+self
+.
+argList
+)
             
 affectsNothing
 =
@@ -46010,7 +46053,8 @@ p
             
 argList
 =
-None
+[
+]
         
 else
 :
@@ -46028,7 +46072,8 @@ p
             
 argList
 =
-None
+[
+]
         
 p
 [

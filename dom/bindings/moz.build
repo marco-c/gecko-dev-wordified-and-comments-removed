@@ -633,6 +633,13 @@ h
 "
 test
 /
+TestInterfaceAsyncIterableSingleWithArgs
+.
+h
+"
+"
+test
+/
 TestInterfaceIterableDouble
 .
 h
@@ -744,6 +751,13 @@ cpp
 test
 /
 TestInterfaceAsyncIterableSingle
+.
+cpp
+"
+"
+test
+/
+TestInterfaceAsyncIterableSingleWithArgs
 .
 cpp
 "
