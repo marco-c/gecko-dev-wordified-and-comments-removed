@@ -161,7 +161,7 @@ context
 mSurfaceView
 =
 new
-SurfaceView
+MagnifiableSurfaceView
 (
 context
 )
