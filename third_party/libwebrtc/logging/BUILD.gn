@@ -1364,6 +1364,14 @@ network_control
 /
 rtc_base
 :
+bitstream_reader
+"
+"
+.
+.
+/
+rtc_base
+:
 checks
 "
 "
