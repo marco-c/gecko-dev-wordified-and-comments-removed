@@ -233,6 +233,9 @@ ArrayObject
 class
 PropertyName
 ;
+class
+StringBuffer
+;
 static
 const
 size_t
