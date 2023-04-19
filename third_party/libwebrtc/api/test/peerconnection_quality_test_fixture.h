@@ -1281,15 +1281,6 @@ run_duration
 TimeDelta
 run_duration
 ;
-std
-:
-:
-vector
-<
-VideoCodecConfig
->
-video_codecs
-;
 bool
 use_ulp_fec
 =
