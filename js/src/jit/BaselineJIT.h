@@ -605,11 +605,6 @@ debugTrapEntriesOffset_
 0
 ;
 Offset
-traceLoggerToggleOffsetsOffset_
-=
-0
-;
-Offset
 allocBytes_
 =
 0
@@ -710,16 +705,6 @@ const
 {
 return
 debugTrapEntriesOffset_
-;
-}
-Offset
-traceLoggerToggleOffsetsOffset
-(
-)
-const
-{
-return
-traceLoggerToggleOffsetsOffset_
 ;
 }
 Offset
@@ -900,7 +885,7 @@ DebugTrapEntry
 debugTrapEntriesOffset
 (
 )
-traceLoggerToggleOffsetsOffset
+endOffset
 (
 )
 )
@@ -930,8 +915,6 @@ size_t
 debugTrapEntries
 size_t
 resumeEntries
-size_t
-traceLoggerToggleOffsetEntries
 )
 ;
 static

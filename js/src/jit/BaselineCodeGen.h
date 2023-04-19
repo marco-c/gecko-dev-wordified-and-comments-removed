@@ -96,15 +96,6 @@ FrameInfoT
 &
 frame
 ;
-js
-:
-:
-Vector
-<
-CodeOffset
->
-traceLoggerToggleOffsets_
-;
 NonAssertingLabel
 return_
 ;
@@ -1613,9 +1604,6 @@ debugTrapEntries_
 ;
 CodeOffset
 profilerPushToggleOffset_
-;
-CodeOffset
-traceLoggerScriptTextIdOffset_
 ;
 #
 if
