@@ -38,17 +38,6 @@ api
 /
 test
 /
-mock_async_dns_resolver
-.
-h
-"
-#
-include
-"
-api
-/
-test
-/
 mock_audio_mixer
 .
 h
