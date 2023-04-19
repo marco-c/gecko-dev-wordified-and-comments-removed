@@ -14462,6 +14462,9 @@ handleFailureWithHandlerTail
 Label
 *
 profilerExitTail
+Label
+*
+bailoutTail
 )
 ;
 void
