@@ -279,6 +279,11 @@ return
 std
 :
 :
+min
+(
+std
+:
+:
 max
 (
 mDeadline
@@ -290,6 +295,10 @@ Now
 (
 )
 0
+.
+0
+)
+50
 .
 0
 )
