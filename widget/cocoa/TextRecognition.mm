@@ -476,6 +476,7 @@ requestHandler
 =
 [
 [
+[
 VNImageRequestHandler
 alloc
 ]
@@ -486,6 +487,8 @@ options
 :
 {
 }
+]
+autorelease
 ]
 ;
 [
