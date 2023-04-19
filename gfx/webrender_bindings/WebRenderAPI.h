@@ -334,6 +334,12 @@ mHitInfo
 SideBits
 mSideBits
 ;
+Maybe
+<
+uint64_t
+>
+mAnimationId
+;
 }
 ;
 class
@@ -2327,10 +2333,12 @@ ScrollableLayerGuid
 ViewID
 &
 aScrollId
+const
 gfx
 :
 :
 CompositorHitTestInfo
+&
 aHitInfo
 SideBits
 aSideBits

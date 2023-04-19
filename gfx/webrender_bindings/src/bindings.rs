@@ -18625,6 +18625,9 @@ WrPipelineId
 scroll_id
 :
 u64
+animation_id
+:
+u64
 hit_info
 :
 u16
@@ -18699,6 +18702,11 @@ item
 tag
 .
 0
+animation_id
+:
+item
+.
+animation_id
 hit_info
 :
 item
