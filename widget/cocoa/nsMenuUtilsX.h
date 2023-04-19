@@ -144,6 +144,10 @@ NSMenuItem
 aMenuItem
 )
 ;
+extern
+bool
+gIsSynchronouslyActivatingNativeMenuItemDuringTest
+;
 }
 #
 endif
