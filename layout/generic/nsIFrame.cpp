@@ -50968,16 +50968,7 @@ pseudo
 PseudoStyleType
 :
 :
-anonymousFlexItem
-|
-|
-pseudo
-=
-=
-PseudoStyleType
-:
-:
-anonymousGridItem
+anonymousItem
 )
 {
 return
