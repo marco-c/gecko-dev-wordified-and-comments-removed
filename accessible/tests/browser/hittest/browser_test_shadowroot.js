@@ -31,6 +31,7 @@ component1
 "
 )
 ;
+await
 testChildAtPoint
 (
 dpr
@@ -55,6 +56,7 @@ component2
 "
 )
 ;
+await
 testChildAtPoint
 (
 dpr
