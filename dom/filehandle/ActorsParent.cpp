@@ -4810,7 +4810,7 @@ forget
 }
 nsCOMPtr
 <
-nsIFileStream
+nsIRandomAccessStream
 >
 stream
 ;

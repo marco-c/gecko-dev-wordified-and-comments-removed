@@ -113,6 +113,11 @@ nsIPipe
 idl
 "
 "
+nsIRandomAccessStream
+.
+idl
+"
+"
 nsISafeOutputStream
 .
 idl

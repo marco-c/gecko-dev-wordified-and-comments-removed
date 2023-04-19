@@ -6395,7 +6395,7 @@ rv
 nsresult
 NS_NewLocalFileStream
 (
-nsIFileStream
+nsIRandomAccessStream
 *
 *
 result
@@ -6462,7 +6462,7 @@ Result
 <
 nsCOMPtr
 <
-nsIFileStream
+nsIRandomAccessStream
 >
 nsresult
 >
@@ -6481,7 +6481,7 @@ behaviorFlags
 {
 nsCOMPtr
 <
-nsIFileStream
+nsIRandomAccessStream
 >
 stream
 ;
