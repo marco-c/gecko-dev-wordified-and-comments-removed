@@ -2236,6 +2236,9 @@ getSourceClassnames
 source
 symbols
 isBlackBoxed
+hasPrettyTab
+=
+false
 )
 {
 const
@@ -2267,6 +2270,9 @@ isPretty
 (
 source
 )
+|
+|
+hasPrettyTab
 )
 {
 return
