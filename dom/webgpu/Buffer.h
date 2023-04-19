@@ -263,12 +263,6 @@ AbortMapRequest
 (
 )
 ;
-bool
-Mappable
-(
-)
-const
-;
 const
 BufferAddress
 mSize
