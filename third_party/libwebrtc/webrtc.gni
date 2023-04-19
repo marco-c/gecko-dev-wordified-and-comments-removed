@@ -2507,17 +2507,6 @@ webrtc_root
 :
 common_config
 "
-"
-/
-/
-build
-/
-config
-/
-compiler
-:
-no_size_t_to_int_warning
-"
 ]
 if
 (
