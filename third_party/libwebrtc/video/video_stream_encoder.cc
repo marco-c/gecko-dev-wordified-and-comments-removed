@@ -2087,6 +2087,9 @@ EncoderInfoSettings
 :
 GetDefaultSinglecastBitrateLimits
 (
+encoder_config
+.
+codec_type
 )
 ;
 return

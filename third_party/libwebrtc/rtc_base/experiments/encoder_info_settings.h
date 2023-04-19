@@ -144,6 +144,8 @@ ResolutionBitrateLimits
 >
 GetDefaultSinglecastBitrateLimits
 (
+VideoCodecType
+codec_type
 )
 ;
 static
@@ -159,6 +161,8 @@ ResolutionBitrateLimits
 >
 GetDefaultSinglecastBitrateLimitsForResolution
 (
+VideoCodecType
+codec_type
 int
 frame_size_pixels
 )

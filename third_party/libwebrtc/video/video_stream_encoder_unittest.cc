@@ -11786,6 +11786,7 @@ EncoderInfoSettings
 :
 GetDefaultSinglecastBitrateLimitsForResolution
 (
+kVideoCodecVP8
 480
 *
 270
@@ -11897,6 +11898,7 @@ EncoderInfoSettings
 :
 GetDefaultSinglecastBitrateLimitsForResolution
 (
+kVideoCodecVP8
 640
 *
 360
@@ -12084,6 +12086,7 @@ EncoderInfoSettings
 :
 GetDefaultSinglecastBitrateLimitsForResolution
 (
+kVideoCodecVP8
 960
 *
 540
@@ -32643,6 +32646,7 @@ EncoderInfoSettings
 :
 GetDefaultSinglecastBitrateLimitsForResolution
 (
+kVideoCodecVP9
 640
 *
 360
@@ -32836,6 +32840,7 @@ EncoderInfoSettings
 :
 GetDefaultSinglecastBitrateLimitsForResolution
 (
+kVideoCodecVP9
 480
 *
 270
@@ -33211,6 +33216,7 @@ EncoderInfoSettings
 :
 GetDefaultSinglecastBitrateLimitsForResolution
 (
+kVideoCodecVP9
 640
 *
 360
@@ -33257,9 +33263,6 @@ video_codec
 )
 .
 codecType
-VideoCodecType
-:
-:
 kVideoCodecVP9
 )
 ;
@@ -33401,6 +33404,7 @@ EncoderInfoSettings
 :
 GetDefaultSinglecastBitrateLimitsForResolution
 (
+kVideoCodecVP9
 1280
 *
 720
