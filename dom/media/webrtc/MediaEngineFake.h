@@ -1,9 +1,9 @@
 #
 ifndef
-MEDIAENGINEDEFAULT_H_
+MEDIAENGINEFAKE_H_
 #
 define
-MEDIAENGINEDEFAULT_H_
+MEDIAENGINEFAKE_H_
 #
 include
 "
@@ -32,14 +32,14 @@ class
 MediaEventProducer
 ;
 class
-MediaEngineDefault
+MediaEngineFake
 :
 public
 MediaEngine
 {
 public
 :
-MediaEngineDefault
+MediaEngineFake
 (
 )
 ;
@@ -110,7 +110,7 @@ true
 private
 :
 ~
-MediaEngineDefault
+MediaEngineFake
 (
 )
 ;

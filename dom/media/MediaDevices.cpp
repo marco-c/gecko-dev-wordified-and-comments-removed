@@ -26,7 +26,7 @@ h
 #
 include
 "
-MediaEngineDefault
+MediaEngineFake
 .
 h
 "
@@ -1470,7 +1470,7 @@ RefPtr
 fakeEngine
 =
 new
-MediaEngineDefault
+MediaEngineFake
 (
 )
 ;

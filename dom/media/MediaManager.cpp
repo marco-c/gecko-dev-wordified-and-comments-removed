@@ -469,7 +469,7 @@ h
 #
 include
 "
-MediaEngineDefault
+MediaEngineFake
 .
 h
 "
@@ -8712,7 +8712,7 @@ hasFakeMics
 fakeBackend
 =
 new
-MediaEngineDefault
+MediaEngineFake
 (
 )
 ;
@@ -15893,7 +15893,7 @@ else
 mBackend
 =
 new
-MediaEngineDefault
+MediaEngineFake
 (
 )
 ;
