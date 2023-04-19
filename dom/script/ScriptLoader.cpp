@@ -10490,7 +10490,7 @@ sourceLengthMin
 =
 100
 ;
-int32_t
+uint32_t
 fetchCountMin
 =
 4
@@ -10671,7 +10671,7 @@ if
 hasFetchCountMin
 )
 {
-int32_t
+uint32_t
 fetchCount
 =
 0

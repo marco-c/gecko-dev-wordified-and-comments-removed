@@ -3394,7 +3394,7 @@ globalDegradation
 )
 )
 ;
-int32_t
+uint32_t
 loadCount
 ;
 rv
@@ -7739,7 +7739,7 @@ NS_ENSURE_SUCCESS_VOID
 rv
 )
 ;
-int32_t
+uint32_t
 loadCount
 ;
 rv
@@ -8078,13 +8078,7 @@ min
 hitCount
 +
 1
-static_cast
-<
-uint32_t
->
-(
 loadCount
-)
 )
 ;
 }
@@ -9212,7 +9206,7 @@ nsACString
 idEnhance
 int64_t
 dataSize
-int32_t
+uint32_t
 fetchCount
 uint32_t
 lastModifiedTime

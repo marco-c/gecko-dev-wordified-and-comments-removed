@@ -4293,7 +4293,7 @@ InterceptedHttpChannel
 :
 GetCacheTokenFetchCount
 (
-int32_t
+uint32_t
 *
 _retval
 )

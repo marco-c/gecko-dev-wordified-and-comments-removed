@@ -338,7 +338,7 @@ opened
 /
 readonly
 attribute
-long
+uint32_t
 fetchCount
 ;
 /

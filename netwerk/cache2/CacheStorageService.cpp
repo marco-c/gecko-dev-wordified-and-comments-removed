@@ -1416,7 +1416,7 @@ nsACString
 aIdEnhance
 int64_t
 aDataSize
-int32_t
+uint32_t
 aFetchCount
 uint32_t
 aLastModifiedTime
@@ -1737,7 +1737,7 @@ mDataSize
 0
 }
 ;
-int32_t
+uint32_t
 mFetchCount
 {
 0
@@ -2100,7 +2100,7 @@ nsACString
 aIdEnhance
 int64_t
 aDataSize
-int32_t
+uint32_t
 aFetchCount
 uint32_t
 aLastModifiedTime
@@ -10017,7 +10017,7 @@ dataSize
 0
 ;
 }
-int32_t
+uint32_t
 fetchCount
 ;
 if

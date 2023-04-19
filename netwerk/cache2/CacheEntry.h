@@ -261,7 +261,7 @@ aPersistToDisk
 nsresult
 GetFetchCount
 (
-int32_t
+uint32_t
 *
 aFetchCount
 )
@@ -1783,7 +1783,7 @@ aPersistent
 NS_IMETHOD
 GetFetchCount
 (
-int32_t
+uint32_t
 *
 aFetchCount
 )

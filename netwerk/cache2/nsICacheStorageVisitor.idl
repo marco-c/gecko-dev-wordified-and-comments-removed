@@ -132,7 +132,7 @@ in
 int64_t
 aDataSize
 in
-long
+uint32_t
 aFetchCount
 in
 uint32_t

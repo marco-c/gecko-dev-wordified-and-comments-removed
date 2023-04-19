@@ -219,7 +219,7 @@ read
 /
 readonly
 attribute
-int32_t
+uint32_t
 cacheTokenFetchCount
 ;
 /
