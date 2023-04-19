@@ -49,8 +49,9 @@ skeleton
 namespace
 HWY_NAMESPACE
 {
-using
 namespace
+hn
+=
 hwy
 :
 :
@@ -103,6 +104,9 @@ size
 i
 +
 =
+hn
+:
+:
 Lanes
 (
 d
@@ -113,6 +117,9 @@ const
 auto
 mul
 =
+hn
+:
+:
 Load
 (
 d
@@ -125,6 +132,9 @@ const
 auto
 add
 =
+hn
+:
+:
 Load
 (
 d
@@ -136,6 +146,9 @@ i
 auto
 x
 =
+hn
+:
+:
 Load
 (
 d
@@ -146,6 +159,9 @@ i
 ;
 x
 =
+hn
+:
+:
 MulAdd
 (
 mul
@@ -153,6 +169,9 @@ x
 add
 )
 ;
+hn
+:
+:
 Store
 (
 x

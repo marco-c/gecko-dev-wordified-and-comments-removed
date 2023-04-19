@@ -279,6 +279,9 @@ std
 string
 frame_name
 ;
+JxlBitDepth
+image_bit_depth
+;
 bool
 frame_index_box
 =

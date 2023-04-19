@@ -366,16 +366,6 @@ set
 TESTLIB_FILES
 jxl
 /
-codec_y4m_testonly
-.
-cc
-jxl
-/
-codec_y4m_testonly
-.
-h
-jxl
-/
 dct_for_test
 .
 h

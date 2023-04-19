@@ -1535,7 +1535,7 @@ VerifyFrameEncoding
 129
 enc
 frame_settings
-2600
+2700
 false
 )
 ;
@@ -3159,7 +3159,7 @@ get
 (
 )
 frame_settings
-3700
+3720
 true
 )
 ;

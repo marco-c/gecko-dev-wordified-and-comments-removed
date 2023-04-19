@@ -141,6 +141,15 @@ unpremultiply_alpha
 =
 false
 ;
+JxlBitDepth
+output_bitdepth
+=
+{
+JXL_BIT_DEPTH_FROM_PIXEL_FORMAT
+0
+0
+}
+;
 }
 ;
 bool

@@ -26,13 +26,6 @@ HIGHWAY_HWY_CONTRIB_ALGO_COPY_INL_H_
 endif
 #
 include
-<
-string
-.
-h
->
-#
-include
 "
 hwy
 /

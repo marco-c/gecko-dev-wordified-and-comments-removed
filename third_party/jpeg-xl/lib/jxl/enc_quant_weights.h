@@ -101,6 +101,14 @@ ModularFrameEncoder
 encoder
 )
 ;
+void
+DequantMatricesRoundtrip
+(
+DequantMatrices
+*
+matrices
+)
+;
 }
 #
 endif

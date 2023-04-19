@@ -397,7 +397,7 @@ get
 ;
 const
 size_t
-kBlockSize
+block_size
 =
 HWY_MIN
 (
@@ -419,7 +419,7 @@ N8
 block
 +
 =
-kBlockSize
+block_size
 )
 {
 expected_bytes
@@ -439,7 +439,7 @@ block
 in_bytes
 +
 block
-kBlockSize
+block_size
 -
 1
 )
@@ -494,7 +494,7 @@ N8
 block
 +
 =
-kBlockSize
+block_size
 )
 {
 memcpy
@@ -507,7 +507,7 @@ in_bytes
 block
 +
 1
-kBlockSize
+block_size
 -
 1
 )
@@ -516,7 +516,7 @@ expected_bytes
 [
 block
 +
-kBlockSize
+block_size
 -
 1
 ]
@@ -1024,7 +1024,7 @@ D
 d
 )
 {
-const
+constexpr
 size_t
 kBlockSize
 =
@@ -1405,7 +1405,7 @@ uint8_t
 N8
 )
 ;
-const
+constexpr
 size_t
 kBlockSize
 =

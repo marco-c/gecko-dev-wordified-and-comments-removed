@@ -101,7 +101,7 @@ add_library
 pixbufloader
 -
 jxl
-SHARED
+MODULE
 pixbufloader
 -
 jxl
@@ -225,7 +225,6 @@ TARGETS
 pixbufloader
 -
 jxl
-LIBRARY
 DESTINATION
 "
 {

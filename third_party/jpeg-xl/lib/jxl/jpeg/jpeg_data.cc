@@ -3138,13 +3138,6 @@ tail_data_len
 4260096
 )
 {
-error
-=
-JPEGReadError
-:
-:
-TAIL_DATA_TOO_LARGE
-;
 return
 JXL_FAILURE
 (

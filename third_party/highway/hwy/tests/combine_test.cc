@@ -13,6 +13,13 @@ stdint
 h
 >
 #
+include
+<
+string
+.
+h
+>
+#
 undef
 HWY_TARGET_INCLUDE
 #
