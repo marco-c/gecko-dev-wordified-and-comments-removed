@@ -149,9 +149,6 @@ args
 )
 class
 MetaBuildWrapper
-(
-object
-)
 :
   
 def
@@ -4567,21 +4564,17 @@ file
 %
 s
 "
-:
-%
-s
 '
 %
                   
-(
 self
 .
 args
 .
 config_file
+)
+from
 e
-)
-)
     
 self
 .
@@ -4694,17 +4687,12 @@ file
 %
 s
 "
-:
-%
-s
 '
 %
-                  
-(
 isolate_map
+)
+from
 e
-)
-)
   
 def
 ConfigFromArgs
@@ -7582,22 +7570,6 @@ sep
 test_logs
 '
         
-test_results
-=
-'
-{
-ISOLATED_OUTDIR
-}
-'
-+
-sep
-+
-'
-gtest_output
-.
-json
-'
-        
 timeout
 =
 isolate_map
@@ -7646,17 +7618,6 @@ s
 '
 %
 output_dir
-            
-'
--
--
-dump_json_test_results
-=
-%
-s
-'
-%
-test_results
             
 '
 -
@@ -8999,8 +8960,6 @@ MBErr
 (
 '
 Error
-%
-s
 writing
 to
 the
@@ -9012,11 +8971,10 @@ s
 "
 '
 %
-(
-e
 path
 )
-)
+from
+e
   
 def
 PrintCmd
