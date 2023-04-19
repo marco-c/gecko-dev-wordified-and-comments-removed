@@ -1254,9 +1254,15 @@ HistogramSet
 )
   
 with
+open
+(
 options
 .
 input_results_file
+'
+rb
+'
+)
 as
 f
 :
@@ -1269,15 +1275,6 @@ f
 .
 read
 (
-)
-.
-decode
-(
-'
-utf
--
-8
-'
 )
 )
   
