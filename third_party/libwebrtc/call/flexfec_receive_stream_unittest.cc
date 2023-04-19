@@ -391,7 +391,9 @@ emplace_back
 TransportSequenceNumber
 :
 :
-kUri
+Uri
+(
+)
 7
 )
 ;

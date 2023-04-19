@@ -592,7 +592,9 @@ emplace_back
 RtpDependencyDescriptorExtension
 :
 :
-kUri
+Uri
+(
+)
 kDependencyDescriptorExtensionId
 )
 ;

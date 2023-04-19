@@ -1652,7 +1652,9 @@ RegisterRtpHeaderExtension
 TransportSequenceNumber
 :
 :
-kUri
+Uri
+(
+)
 kTransportSequenceNumberId
 )
 )
@@ -5396,7 +5398,9 @@ RegisterRtpHeaderExtension
 TransportSequenceNumber
 :
 :
-kUri
+Uri
+(
+)
 kTransportSequenceNumberId
 )
 )

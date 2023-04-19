@@ -167,7 +167,9 @@ uri
 TransportSequenceNumber
 :
 :
-kUri
+Uri
+(
+)
 )
 {
 map
@@ -194,7 +196,9 @@ uri
 AbsoluteSendTime
 :
 :
-kUri
+Uri
+(
+)
 )
 {
 map
@@ -221,7 +225,9 @@ uri
 TransmissionOffset
 :
 :
-kUri
+Uri
+(
+)
 )
 {
 map
@@ -248,7 +254,9 @@ uri
 RtpMid
 :
 :
-kUri
+Uri
+(
+)
 )
 {
 map
