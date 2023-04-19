@@ -4712,7 +4712,7 @@ ipc
 IPCResult
 RecvFindImageText
 (
-IPCImage
+ShmemImage
 &
 &
 nsTArray

@@ -26757,13 +26757,7 @@ remote
 >
 SendPasteTransferable
 (
-std
-:
-:
-move
-(
 ipcDataTransfer
-)
 isPrivateData
 requestingPrincipal
 contentPolicyType

@@ -17309,6 +17309,7 @@ aRequestingPrincipal
 aContentPolicyType
 true
 trans
+this
 )
 ;
 NS_ENSURE_SUCCESS
@@ -17920,13 +17921,7 @@ failed
 }
 aResolver
 (
-std
-:
-:
-move
-(
 ipcDataTransfer
-)
 )
 ;
 return
@@ -25896,7 +25891,7 @@ ContentParent
 :
 RecvFindImageText
 (
-IPCImage
+ShmemImage
 &
 &
 aImage
@@ -25931,6 +25926,7 @@ move
 (
 aImage
 )
+this
 )
 ;
 if
@@ -27429,13 +27425,7 @@ Unused
 SendInvokeDragSession
 (
 sourceWC
-std
-:
-:
-move
-(
 dataTransfers
-)
 action
 )
 ;
