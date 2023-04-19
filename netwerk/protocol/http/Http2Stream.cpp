@@ -172,11 +172,11 @@ ClearPushSource
 )
 ;
 }
-nsresult
+void
 Http2Stream
 :
 :
-Close
+CloseStream
 (
 nsresult
 reason
@@ -197,9 +197,6 @@ reason
 mSession
 =
 nullptr
-;
-return
-NS_OK
 ;
 }
 void

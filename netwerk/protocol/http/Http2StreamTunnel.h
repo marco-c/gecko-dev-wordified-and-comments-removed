@@ -163,6 +163,14 @@ return
 mCondition
 ;
 }
+void
+CloseStream
+(
+nsresult
+reason
+)
+override
+;
 protected
 :
 ~

@@ -7428,7 +7428,7 @@ aStream
 aStream
 -
 >
-Close
+CloseStream
 (
 aResult
 )

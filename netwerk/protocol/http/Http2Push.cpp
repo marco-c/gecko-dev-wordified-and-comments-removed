@@ -2130,11 +2130,11 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-nsresult
+void
 Http2PushedStream
 :
 :
-Close
+CloseStream
 (
 nsresult
 reason
@@ -2151,9 +2151,6 @@ reason
 mSession
 =
 nullptr
-;
-return
-NS_OK
 ;
 }
 NS_IMPL_ISUPPORTS0

@@ -334,8 +334,8 @@ nullptr
 ;
 }
 virtual
-nsresult
-Close
+void
+CloseStream
 (
 nsresult
 reason
