@@ -1529,6 +1529,11 @@ nukedIncomingWrappers
 =
 false
 ;
+bool
+isAsyncStackCapturingEnabled
+=
+false
+;
 private
 :
 void
