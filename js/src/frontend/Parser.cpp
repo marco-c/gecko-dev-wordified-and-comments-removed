@@ -51207,6 +51207,10 @@ irregexp
 CheckPatternSyntax
 (
 cx_
+this
+-
+>
+stackLimit_
 anyChars
 range
 flags
@@ -51480,6 +51484,10 @@ irregexp
 CheckPatternSyntax
 (
 cx_
+this
+-
+>
+stackLimit_
 anyChars
 source
 flags
