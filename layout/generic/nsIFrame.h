@@ -10190,15 +10190,6 @@ aBoxLayoutState
 )
 ;
 virtual
-nsSize
-GetXULMinSizeForScrollArea
-(
-nsBoxLayoutState
-&
-aBoxLayoutState
-)
-;
-virtual
 nscoord
 GetXULFlex
 (
