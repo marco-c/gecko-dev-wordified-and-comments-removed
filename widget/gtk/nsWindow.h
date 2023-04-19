@@ -2253,7 +2253,7 @@ COMPOSITOR_PAUSED_FLICKERING
 WindowCompositorState
 ;
 void
-ResumeCompositor
+ResumeCompositorFlickering
 (
 )
 ;
@@ -2263,7 +2263,7 @@ ResumeCompositorFromCompositorThread
 )
 ;
 void
-PauseCompositor
+PauseCompositorFlickering
 (
 )
 ;
