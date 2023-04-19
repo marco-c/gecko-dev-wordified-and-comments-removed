@@ -34,6 +34,10 @@ BytecodeEmitter
 class
 TaggedParserAtomIndex
 ;
+enum
+class
+ValueUsage
+;
 class
 MOZ_STACK_CLASS
 PropOpEmitter
@@ -448,6 +452,8 @@ emitIncDec
 (
 TaggedParserAtomIndex
 prop
+ValueUsage
+valueUsage
 )
 ;
 }

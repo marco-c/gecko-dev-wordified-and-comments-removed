@@ -49,6 +49,10 @@ frontend
 struct
 BytecodeEmitter
 ;
+enum
+class
+ValueUsage
+;
 class
 MOZ_STACK_CLASS
 NameOpEmitter
@@ -415,6 +419,8 @@ nodiscard
 bool
 emitIncDec
 (
+ValueUsage
+valueUsage
 )
 ;
 }

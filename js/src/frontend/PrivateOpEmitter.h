@@ -56,6 +56,10 @@ frontend
 struct
 BytecodeEmitter
 ;
+enum
+class
+ValueUsage
+;
 class
 MOZ_STACK_CLASS
 PrivateOpEmitter
@@ -472,6 +476,8 @@ nodiscard
 bool
 emitIncDec
 (
+ValueUsage
+valueUsage
 )
 ;
 [

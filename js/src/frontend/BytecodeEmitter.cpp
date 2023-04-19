@@ -8869,6 +8869,8 @@ emitPropIncDec
 UnaryNode
 *
 incDec
+ValueUsage
+valueUsage
 )
 {
 PropertyAccess
@@ -9074,6 +9076,7 @@ key
 atom
 (
 )
+valueUsage
 )
 )
 {
@@ -9094,6 +9097,8 @@ emitNameIncDec
 UnaryNode
 *
 incDec
+ValueUsage
+valueUsage
 )
 {
 MOZ_ASSERT
@@ -9219,6 +9224,7 @@ noe
 .
 emitIncDec
 (
+valueUsage
 )
 )
 {
@@ -9670,6 +9676,8 @@ emitElemIncDec
 UnaryNode
 *
 incDec
+ValueUsage
+valueUsage
 )
 {
 PropertyByValue
@@ -9780,6 +9788,7 @@ eoe
 .
 emitIncDec
 (
+valueUsage
 )
 )
 {
@@ -9932,6 +9941,8 @@ emitPrivateIncDec
 UnaryNode
 *
 incDec
+ValueUsage
+valueUsage
 )
 {
 PrivateMemberAccess
@@ -10024,6 +10035,7 @@ xoe
 .
 emitIncDec
 (
+valueUsage
 )
 )
 {
@@ -39269,6 +39281,8 @@ emitIncOrDec
 UnaryNode
 *
 incDec
+ValueUsage
+valueUsage
 )
 {
 switch
@@ -39296,6 +39310,7 @@ return
 emitPropIncDec
 (
 incDec
+valueUsage
 )
 ;
 case
@@ -39308,6 +39323,7 @@ return
 emitElemIncDec
 (
 incDec
+valueUsage
 )
 ;
 case
@@ -39320,6 +39336,7 @@ return
 emitPrivateIncDec
 (
 incDec
+valueUsage
 )
 ;
 case
@@ -39340,6 +39357,7 @@ return
 emitNameIncDec
 (
 incDec
+valueUsage
 )
 ;
 }
@@ -51496,6 +51514,7 @@ UnaryNode
 >
 (
 )
+valueUsage
 )
 )
 {
