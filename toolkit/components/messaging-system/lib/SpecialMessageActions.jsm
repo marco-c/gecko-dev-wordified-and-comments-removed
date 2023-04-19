@@ -388,6 +388,9 @@ e
 pinFirefoxToTaskbar
 (
 window
+privateBrowsing
+=
+false
 )
 {
 return
@@ -399,6 +402,7 @@ getShellService
 .
 pinToTaskbar
 (
+privateBrowsing
 )
 ;
 }
@@ -1075,6 +1079,12 @@ this
 pinFirefoxToTaskbar
 (
 window
+action
+.
+data
+?
+.
+privatePin
 )
 ;
 break
@@ -1090,6 +1100,12 @@ this
 pinFirefoxToTaskbar
 (
 window
+action
+.
+data
+?
+.
+privatePin
 )
 ;
 this
