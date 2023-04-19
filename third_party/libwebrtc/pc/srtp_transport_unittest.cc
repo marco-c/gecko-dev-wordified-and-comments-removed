@@ -407,10 +407,13 @@ demuxer_criteria
 demuxer_criteria
 .
 payload_types
-=
-{
+(
+)
+.
+insert
+(
 0x00
-}
+)
 ;
 srtp_transport1_
 -

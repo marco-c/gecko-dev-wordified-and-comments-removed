@@ -1205,6 +1205,8 @@ codecs
 criteria
 .
 payload_types
+(
+)
 .
 insert
 (
@@ -1256,6 +1258,8 @@ codecs
 criteria
 .
 payload_types
+(
+)
 .
 insert
 (
@@ -1464,12 +1468,9 @@ rtp_transport
 }
 RtpDemuxerCriteria
 criteria
-;
-criteria
-.
+(
 mid
-=
-mid
+)
 ;
 rtp_transport_
 -
