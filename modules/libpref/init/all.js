@@ -34317,6 +34317,8 @@ blob
 moz
 -
 extension
+|
+data
 "
 )
 ;

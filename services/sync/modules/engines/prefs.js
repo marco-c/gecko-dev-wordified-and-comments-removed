@@ -649,6 +649,10 @@ moz
 extension
 |
 blob
+|
+data
+|
+file
 )
 :
 /
