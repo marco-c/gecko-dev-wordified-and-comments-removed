@@ -2872,6 +2872,12 @@ CUBEB_ERROR_INVALID_PARAMETER
 ;
 if
 (
+context
+=
+=
+NULL
+|
+|
 collection
 =
 =
