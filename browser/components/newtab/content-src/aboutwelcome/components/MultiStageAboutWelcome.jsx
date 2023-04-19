@@ -185,7 +185,9 @@ setScreenIndex
 =
 useState
 (
-0
+props
+.
+startScreen
 )
 ;
 useEffect
