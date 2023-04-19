@@ -277,6 +277,16 @@ scoped_refptr
 AudioProcessing
 >
 audio_processing
+std
+:
+:
+unique_ptr
+<
+ProcessThread
+>
+process_thread
+=
+nullptr
 )
 ;
 VoipBase
