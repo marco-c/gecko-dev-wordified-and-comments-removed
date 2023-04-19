@@ -3184,9 +3184,6 @@ rtp_timestamp
 ;
 if
 (
-0
-!
-=
 rtp_rtcp_
 -
 >
@@ -3196,11 +3193,14 @@ RemoteNTP
 ntp_secs
 &
 ntp_frac
-NULL
-NULL
+nullptr
+nullptr
 &
 rtp_timestamp
 )
+!
+=
+0
 )
 {
 return
