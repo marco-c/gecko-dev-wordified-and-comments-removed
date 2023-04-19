@@ -144,16 +144,6 @@ scenario_connection
 h
 "
 "
-sdp_callbacks
-.
-cc
-"
-"
-sdp_callbacks
-.
-h
-"
-"
 signaling_route
 .
 cc
