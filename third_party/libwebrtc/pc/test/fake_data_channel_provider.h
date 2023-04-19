@@ -123,16 +123,6 @@ false
 if
 (
 transport_error_
-|
-|
-payload
-.
-size
-(
-)
-=
-=
-0
 )
 {
 *
