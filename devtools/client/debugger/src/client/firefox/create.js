@@ -857,6 +857,11 @@ isWebExtension
 targetFront
 .
 isWebExtension
+processID
+:
+targetFront
+.
+processID
 }
 ;
 }
