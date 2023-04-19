@@ -5,7 +5,7 @@ PlacesTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ common
 /
 PlacesTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

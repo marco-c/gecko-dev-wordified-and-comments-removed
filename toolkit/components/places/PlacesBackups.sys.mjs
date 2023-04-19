@@ -126,9 +126,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -145,7 +145,9 @@ modules
 /
 PlacesUtils
 .
-jsm
+sys
+.
+mjs
 "
 BookmarkJSONUtils
 :
@@ -160,7 +162,9 @@ modules
 /
 BookmarkJSONUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

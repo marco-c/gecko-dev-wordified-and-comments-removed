@@ -5,7 +5,7 @@ PlacesPreviews
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ modules
 /
 PlacesPreviews
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -29,7 +31,7 @@ PlacesTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -42,7 +44,9 @@ common
 /
 PlacesTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

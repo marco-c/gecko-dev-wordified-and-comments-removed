@@ -24,9 +24,9 @@ mjs
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -43,7 +43,9 @@ common
 /
 PlacesTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 PlacesUtils
 :
@@ -58,7 +60,9 @@ modules
 /
 PlacesUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
