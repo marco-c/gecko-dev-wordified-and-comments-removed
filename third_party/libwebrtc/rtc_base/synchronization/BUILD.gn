@@ -186,11 +186,6 @@ sources
 "
 mutex
 .
-cc
-"
-"
-mutex
-.
 h
 "
 "
