@@ -34,6 +34,10 @@ as
 slugid
 from
 taskgraph
+import
+create
+from
+taskgraph
 .
 optimize
 .
@@ -55,6 +59,8 @@ taskcluster
 import
 (
     
+CONCURRENCY
+    
 find_task_id
     
 get_artifact
@@ -66,21 +72,15 @@ get_task_definition
 list_tasks
     
 parse_time
-    
-CONCURRENCY
 )
-from
-gecko_taskgraph
-import
-create
 from
 gecko_taskgraph
 .
 decision
 import
 read_artifact
-write_artifact
 rename_artifact
+write_artifact
 from
 gecko_taskgraph
 .
