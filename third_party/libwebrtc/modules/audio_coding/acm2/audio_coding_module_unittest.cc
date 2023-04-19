@@ -6724,7 +6724,7 @@ PlatformChecksum
 2c9cb15d4ed55b5a0cadd04883bc73b0
 "
 "
-6f7f227f4e2ace7027257eecb7b17e08
+2c9cb15d4ed55b5a0cadd04883bc73b0
 "
 )
 AcmReceiverBitExactnessOldApi
@@ -6806,7 +6806,7 @@ ef75e900e6f375e3061163c53fd09a63
 1ad29139a04782a33daad8c2b9b35875
 "
 "
-8b4377f3048d946d69b771c1e5fa8839
+1ad29139a04782a33daad8c2b9b35875
 "
 )
 AcmReceiverBitExactnessOldApi
@@ -6921,7 +6921,7 @@ android_arm64_audio
 android_arm64_clang_audio
 "
 "
-c1858ba5d734df6fe52e715eb1b25f31
+5683b58da0fbf2063c7adc2e6bfb3fb8
 "
 )
 AcmReceiverBitExactnessOldApi
