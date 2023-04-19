@@ -7806,6 +7806,15 @@ TestMemberIsDefined
 (
 transport
 .
+dtls_role
+)
+;
+verifier
+.
+TestMemberIsDefined
+(
+transport
+.
 srtp_cipher
 )
 ;
