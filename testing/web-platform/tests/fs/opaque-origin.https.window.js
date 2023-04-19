@@ -90,7 +90,7 @@ remove
 }
 async
 function
-verify_does_not_exist_in_data_uri_iframe
+verify_does_exist_in_data_uri_iframe
 (
 test
 property_name
@@ -191,7 +191,7 @@ wait_for
 message
 '
 )
-assert_false
+assert_true
 (
 message_event
 .
@@ -202,7 +202,6 @@ Data
 URI
 iframes
 must
-not
 define
 '
 {
@@ -275,7 +274,7 @@ test
 >
 {
 await
-verify_does_not_exist_in_data_uri_iframe
+verify_does_exist_in_data_uri_iframe
 (
 test
 '
@@ -288,7 +287,7 @@ FileSystemDirectoryHandle
 FileSystemDirectoryHandle
 must
 be
-undefined
+defined
 for
 data
 URI
