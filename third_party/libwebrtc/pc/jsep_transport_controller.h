@@ -1726,10 +1726,6 @@ string
 mid
 )
 const
-RTC_RUN_ON
-(
-network_thread_
-)
 ;
 cricket
 :
@@ -1745,10 +1741,6 @@ std
 string
 &
 mid
-)
-RTC_RUN_ON
-(
-network_thread_
 )
 ;
 const
@@ -2318,10 +2310,6 @@ JsepTransport
 *
 >
 mid_to_transport_
-RTC_GUARDED_BY
-(
-network_thread_
-)
 ;
 std
 :
