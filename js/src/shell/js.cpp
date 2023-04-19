@@ -9127,6 +9127,7 @@ if
 (
 bytes
 <
+=
 0
 )
 {
@@ -9137,9 +9138,7 @@ cx
 Size
 must
 be
-non
--
-negative
+positive
 "
 )
 ;
