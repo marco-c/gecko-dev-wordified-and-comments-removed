@@ -150,6 +150,24 @@ json
 )
     
 "
+ToastNotification
+"
+:
+Path
+(
+"
+ToastNotification
+"
+"
+ToastNotification
+.
+schema
+.
+json
+"
+)
+    
+"
 ToolbarBadgeMessage
 "
 :
