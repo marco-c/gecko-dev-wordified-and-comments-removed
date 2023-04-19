@@ -1963,14 +1963,7 @@ packet_sender
 MediaHasBeenSent
 (
 )
-rtp_sender_
--
->
-sequencer_
-.
-CanSendPaddingOnMediaSsrc
-(
-)
+false
 )
 ;
 }
