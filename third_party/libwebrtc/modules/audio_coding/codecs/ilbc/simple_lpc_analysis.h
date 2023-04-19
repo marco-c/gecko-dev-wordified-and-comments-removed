@@ -6,6 +6,13 @@ define
 MODULES_AUDIO_CODING_CODECS_ILBC_MAIN_SOURCE_SIMPLE_LPC_ANALYSIS_H_
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 modules
 /

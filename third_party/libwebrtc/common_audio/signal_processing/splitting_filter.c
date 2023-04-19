@@ -55,6 +55,7 @@ WebRtcSpl_kAllPassFilter2
 63010
 }
 ;
+static
 void
 WebRtcSpl_AllPassQMF
 (

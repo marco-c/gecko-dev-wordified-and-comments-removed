@@ -9,7 +9,7 @@ codecs
 /
 ilbc
 /
-defines
+constants
 .
 h
 "
@@ -24,7 +24,7 @@ codecs
 /
 ilbc
 /
-constants
+defines
 .
 h
 "
