@@ -357,6 +357,10 @@ I420Buffer
 SetBlack
 (
 buffer
+.
+get
+(
+)
 )
 ;
 webrtc

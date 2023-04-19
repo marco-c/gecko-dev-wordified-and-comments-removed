@@ -775,6 +775,10 @@ event_log
 config
 .
 frame_encryptor
+.
+get
+(
+)
 config
 .
 crypto_options

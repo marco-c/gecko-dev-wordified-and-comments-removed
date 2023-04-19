@@ -1250,7 +1250,7 @@ config
 encoder_specific_settings
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -1440,7 +1440,7 @@ config
 encoder_specific_settings
 !
 =
-NULL
+nullptr
 ;
 encoder_config_
 =

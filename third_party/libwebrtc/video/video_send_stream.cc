@@ -462,6 +462,10 @@ config
 -
 >
 frame_encryptor
+.
+get
+(
+)
 ;
 frame_encryption_config
 .
