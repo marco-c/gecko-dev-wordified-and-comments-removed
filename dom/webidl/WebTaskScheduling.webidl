@@ -93,6 +93,9 @@ enable_web_task_scheduling
 interface
 Scheduler
 {
+[
+UseCounter
+]
 Promise
 <
 any
