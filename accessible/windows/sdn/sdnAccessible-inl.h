@@ -42,6 +42,11 @@ GetDocument
 )
 const
 {
+MOZ_ASSERT
+(
+mNode
+)
+;
 return
 GetExistingDocAccessible
 (
