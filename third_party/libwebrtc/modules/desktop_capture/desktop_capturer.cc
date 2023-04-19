@@ -96,12 +96,6 @@ windows_version
 .
 h
 "
-const
-bool
-kUseWinWgcCapturer
-=
-false
-;
 #
 endif
 #
@@ -260,9 +254,6 @@ RTC_ENABLE_WIN_WGC
 )
 if
 (
-kUseWinWgcCapturer
-&
-&
 rtc
 :
 :
@@ -399,9 +390,6 @@ RTC_ENABLE_WIN_WGC
 )
 if
 (
-kUseWinWgcCapturer
-&
-&
 rtc
 :
 :

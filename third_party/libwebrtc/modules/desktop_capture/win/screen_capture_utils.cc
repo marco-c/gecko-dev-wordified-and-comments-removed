@@ -122,9 +122,11 @@ monitor
 monitor_info
 )
 )
+{
 return
-FALSE
+TRUE
 ;
+}
 DesktopCapturer
 :
 :
