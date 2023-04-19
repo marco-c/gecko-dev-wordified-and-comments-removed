@@ -1909,7 +1909,7 @@ lazy
 .
 log
 .
-warning
+warn
 (
 {
 SLUG
