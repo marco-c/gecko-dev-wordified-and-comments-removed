@@ -4904,11 +4904,6 @@ ServiceWorkerRegistration
 webidl
 "
 "
-ShadowRealmGlobalScope
-.
-webidl
-"
-"
 ShadowRoot
 .
 webidl

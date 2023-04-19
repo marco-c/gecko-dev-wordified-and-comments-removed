@@ -99,11 +99,6 @@ ScriptTrace
 .
 h
 "
-"
-ShadowRealmGlobalScope
-.
-h
-"
 ]
 UNIFIED_SOURCES
 +
@@ -151,11 +146,6 @@ cpp
 "
 "
 ScriptSettings
-.
-cpp
-"
-"
-ShadowRealmGlobalScope
 .
 cpp
 "
