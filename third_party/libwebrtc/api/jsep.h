@@ -375,6 +375,7 @@ SessionDescriptionInterface
 Clone
 (
 )
+const
 {
 return
 nullptr
