@@ -576,6 +576,17 @@ js
 jit
 :
 :
+ArrayPushDensePure
+)
+\
+_
+(
+js
+:
+:
+jit
+:
+:
 AssertMapObjectHash
 )
 \

@@ -340,6 +340,9 @@ class
 OutOfLineBoxNonStrictThis
 ;
 class
+OutOfLineArrayPush
+;
+class
 CodeGenerator
 final
 :
@@ -878,6 +881,14 @@ void
 visitOutOfLineGuardNumberToIntPtrIndex
 (
 OutOfLineGuardNumberToIntPtrIndex
+*
+ool
+)
+;
+void
+visitOutOfLineArrayPush
+(
+OutOfLineArrayPush
 *
 ool
 )
