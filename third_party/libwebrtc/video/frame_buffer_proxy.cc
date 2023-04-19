@@ -1670,6 +1670,14 @@ frames
 )
 )
 ;
+timing_
+-
+>
+SetLastDecodeScheduledTimestamp
+(
+now_ms
+)
+;
 decoder_ready_for_new_frame_
 =
 false
