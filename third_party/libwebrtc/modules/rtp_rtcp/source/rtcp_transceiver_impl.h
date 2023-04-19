@@ -609,8 +609,8 @@ ReschedulePeriodicCompoundPackets
 void
 SchedulePeriodicCompoundPackets
 (
-int64_t
-delay_ms
+TimeDelta
+delay
 )
 ;
 struct
