@@ -3172,6 +3172,14 @@ macromagic
 /
 rtc_base
 :
+random
+"
+"
+.
+.
+/
+rtc_base
+:
 rtc_base_approved
 "
 "

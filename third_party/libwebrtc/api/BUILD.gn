@@ -3482,6 +3482,14 @@ rtc_base
 :
 macromagic
 "
+"
+.
+.
+/
+rtc_base
+:
+random
+"
 ]
 absl_deps
 =
