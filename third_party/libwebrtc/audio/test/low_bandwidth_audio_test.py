@@ -2273,10 +2273,13 @@ value
 units
 )
 in
+list
+(
 analyzer_results
 .
 items
 (
+)
 )
 :
           
@@ -2318,6 +2321,7 @@ name
 user_story
           
 print
+(
 '
 RESULT
 %
@@ -2337,6 +2341,7 @@ metric
 test_name
 value
 units
+)
 )
         
 if
