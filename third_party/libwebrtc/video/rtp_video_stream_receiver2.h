@@ -300,6 +300,17 @@ modules
 /
 video_coding
 /
+nack_module2
+.
+h
+"
+#
+include
+"
+modules
+/
+video_coding
+/
 packet_buffer
 .
 h
@@ -502,6 +513,9 @@ rtcp_packet_type_counter_observer
 RtcpCnameCallback
 *
 rtcp_cname_callback
+NackPeriodicProcessor
+*
+nack_periodic_processor
 VCMReceiveStatisticsCallback
 *
 vcm_receive_statistics

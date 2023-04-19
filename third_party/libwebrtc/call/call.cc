@@ -2193,6 +2193,9 @@ RTC_GUARDED_BY
 worker_thread_
 )
 ;
+NackPeriodicProcessor
+nack_periodic_processor_
+;
 std
 :
 :
@@ -5958,6 +5961,8 @@ VCMTiming
 (
 clock_
 )
+&
+nack_periodic_processor_
 )
 ;
 receive_stream
