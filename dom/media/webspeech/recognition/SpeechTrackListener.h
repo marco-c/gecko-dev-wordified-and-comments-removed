@@ -123,7 +123,7 @@ TrackRate
 aTrackRate
 )
 ;
-RefPtr
+nsMainThreadPtrHandle
 <
 SpeechRecognition
 >
