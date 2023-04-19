@@ -252,6 +252,15 @@ scrollbartrack
 -
 horizontal
 ;
+-
+moz
+-
+box
+-
+flex
+:
+1
+;
 }
 slider
 [
