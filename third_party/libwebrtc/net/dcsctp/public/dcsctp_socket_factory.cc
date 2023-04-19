@@ -87,6 +87,16 @@ h
 namespace
 dcsctp
 {
+DcSctpSocketFactory
+:
+:
+~
+DcSctpSocketFactory
+(
+)
+=
+default
+;
 std
 :
 :
