@@ -1698,6 +1698,17 @@ component
 .
 pocketButtonEnabled
 }
+recentSavesEnabled
+=
+{
+this
+.
+props
+.
+DiscoveryStream
+.
+recentSavesEnabled
+}
 /
 >
 )
