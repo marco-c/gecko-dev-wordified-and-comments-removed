@@ -469,6 +469,17 @@ nullptr
 ;
 }
 virtual
+already_AddRefed
+<
+URLExtraData
+>
+GetURLExtraData
+(
+)
+=
+0
+;
+virtual
 void
 EnsureReady
 (

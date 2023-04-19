@@ -531,15 +531,6 @@ nsresult
 aResult
 )
 ;
-already_AddRefed
-<
-URLExtraData
->
-GetURLExtraData
-(
-)
-const
-;
 private
 :
 explicit

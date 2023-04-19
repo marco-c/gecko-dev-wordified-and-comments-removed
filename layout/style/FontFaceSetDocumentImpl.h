@@ -89,6 +89,15 @@ return
 mDocument
 ;
 }
+already_AddRefed
+<
+URLExtraData
+>
+GetURLExtraData
+(
+)
+override
+;
 nsresult
 StartLoad
 (
