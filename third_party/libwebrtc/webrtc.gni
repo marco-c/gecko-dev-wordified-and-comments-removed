@@ -1125,6 +1125,9 @@ this
 to
 link
 PipeWire
+and
+required
+libraries
 directly
 instead
 of
