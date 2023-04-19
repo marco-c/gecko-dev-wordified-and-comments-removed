@@ -19674,6 +19674,12 @@ else
 if
 (
 data
+&
+&
+!
+GetNextInFlow
+(
+)
 )
 {
 RemoveProperty
