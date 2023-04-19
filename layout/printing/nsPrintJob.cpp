@@ -1069,7 +1069,7 @@ rv
 childPO
 -
 >
-InitAsNestedObject
+Init
 (
 docShell
 doc
@@ -1915,7 +1915,7 @@ rv
 mPrintObject
 -
 >
-InitAsRootObject
+Init
 (
 docShell
 aDoc
