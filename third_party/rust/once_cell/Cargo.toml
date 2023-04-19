@@ -112,9 +112,9 @@ version
 "
 1
 .
-12
+13
 .
-0
+1
 "
 authors
 =
@@ -397,8 +397,6 @@ polyfill
 version
 =
 "
-0
-.
 1
 "
 optional
