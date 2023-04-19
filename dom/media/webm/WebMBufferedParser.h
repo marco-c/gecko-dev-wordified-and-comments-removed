@@ -38,6 +38,13 @@ MediaResource
 .
 h
 "
+#
+include
+"
+MediaResult
+.
+h
+"
 namespace
 mozilla
 {
@@ -196,7 +203,7 @@ mGotTimecodeScale
 true
 ;
 }
-bool
+MediaResult
 Append
 (
 const
