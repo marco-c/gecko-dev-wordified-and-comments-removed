@@ -10900,6 +10900,7 @@ box
 margin
 :
 0
+3vw
 ;
 padding
 :
@@ -10952,6 +10953,10 @@ height
 width
 :
 100vw
+;
+margin
+:
+0
 ;
 }
 /
@@ -11299,6 +11304,10 @@ width
 height
 :
 100vh
+;
+margin
+:
+0
 ;
 }
 media
