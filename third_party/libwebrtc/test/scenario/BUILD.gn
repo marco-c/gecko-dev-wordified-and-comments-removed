@@ -238,6 +238,11 @@ yuv
 }
 if
 (
+rtc_include_tests
+)
+{
+if
+(
 is_ios
 )
 {
@@ -304,11 +309,6 @@ source_file_part
 ]
 }
 }
-if
-(
-rtc_include_tests
-)
-{
 rtc_library
 (
 "
