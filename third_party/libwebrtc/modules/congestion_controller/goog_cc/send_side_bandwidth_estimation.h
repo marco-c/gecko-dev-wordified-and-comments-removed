@@ -732,7 +732,7 @@ LossBasedBweV2
 loss_based_bandwidth_estimator_v2_
 ;
 FieldTrialFlag
-receiver_limit_caps_only_
+disable_receiver_limit_caps_only_
 ;
 }
 ;
