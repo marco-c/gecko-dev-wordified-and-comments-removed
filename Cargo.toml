@@ -1408,7 +1408,7 @@ services
 rev
 =
 "
-fb1c78b13c27b5db1fd5458b8c2d8f433855dd61
+d8503475f43dbf1d78eef4e23b0578d0fada3f39
 "
 }
 sql
@@ -1436,12 +1436,10 @@ services
 rev
 =
 "
-fb1c78b13c27b5db1fd5458b8c2d8f433855dd61
+d8503475f43dbf1d78eef4e23b0578d0fada3f39
 "
 }
 sync15
--
-traits
 =
 {
 git
@@ -1464,7 +1462,7 @@ services
 rev
 =
 "
-fb1c78b13c27b5db1fd5458b8c2d8f433855dd61
+d8503475f43dbf1d78eef4e23b0578d0fada3f39
 "
 }
 viaduct
@@ -1490,7 +1488,7 @@ services
 rev
 =
 "
-fb1c78b13c27b5db1fd5458b8c2d8f433855dd61
+d8503475f43dbf1d78eef4e23b0578d0fada3f39
 "
 }
 webext
@@ -1518,7 +1516,7 @@ services
 rev
 =
 "
-fb1c78b13c27b5db1fd5458b8c2d8f433855dd61
+d8503475f43dbf1d78eef4e23b0578d0fada3f39
 "
 }
 #

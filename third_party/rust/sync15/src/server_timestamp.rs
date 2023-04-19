@@ -15,6 +15,7 @@ Debug
 Copy
 Clone
 PartialEq
+Eq
 PartialOrd
 Default
 )

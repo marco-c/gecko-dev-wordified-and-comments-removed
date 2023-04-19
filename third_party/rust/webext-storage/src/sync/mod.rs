@@ -120,6 +120,7 @@ Debug
 Serialize
 Deserialize
 PartialEq
+Eq
 )
 ]
 #

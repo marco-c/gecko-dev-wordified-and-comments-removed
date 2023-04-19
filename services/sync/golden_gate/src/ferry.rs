@@ -11,12 +11,15 @@ storage_variant
 VariantType
 ;
 use
-sync15_traits
+sync15
 :
 :
 {
-Guid
+engine
+:
+:
 IncomingEnvelope
+Guid
 }
 ;
 use

@@ -78,6 +78,16 @@ settings
 :
 GLOBAL_SETTINGS
 ;
+#
+[
+allow
+(
+clippy
+:
+:
+derive_partial_eq_without_eq
+)
+]
 pub
 (
 crate
@@ -324,7 +334,6 @@ derive
 (
 Clone
 Debug
-PartialEq
 )
 ]
 pub
@@ -863,7 +872,6 @@ derive
 (
 Clone
 Debug
-PartialEq
 )
 ]
 pub

@@ -12,7 +12,6 @@ Duration
 derive
 (
 Debug
-PartialEq
 )
 ]
 #

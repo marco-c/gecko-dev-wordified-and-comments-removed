@@ -24,6 +24,7 @@ derive
 Clone
 Copy
 PartialEq
+Eq
 Debug
 )
 ]
@@ -45,6 +46,7 @@ derive
 (
 Debug
 PartialEq
+Eq
 Clone
 )
 ]

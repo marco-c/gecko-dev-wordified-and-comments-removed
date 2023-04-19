@@ -543,6 +543,7 @@ derive
 Clone
 Debug
 PartialEq
+Eq
 Default
 )
 ]

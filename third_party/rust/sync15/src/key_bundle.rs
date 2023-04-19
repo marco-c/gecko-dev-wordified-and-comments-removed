@@ -6,10 +6,8 @@ error
 :
 :
 {
-Result
-SyncTraitsError
-as
 Error
+Result
 }
 ;
 use

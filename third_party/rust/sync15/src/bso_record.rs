@@ -85,6 +85,7 @@ Clone
 Serialize
 Deserialize
 PartialEq
+Eq
 )
 ]
 pub
@@ -2902,7 +2903,7 @@ e
 error
 :
 :
-SyncTraitsError
+Error
 :
 :
 CryptoError

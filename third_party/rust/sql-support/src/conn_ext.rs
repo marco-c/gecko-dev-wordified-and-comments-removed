@@ -1212,8 +1212,6 @@ self
 &
 Connection
 {
-&
-*
 self
 }
 }
@@ -1245,8 +1243,6 @@ self
 &
 Connection
 {
-&
-*
 self
 }
 }
@@ -1739,8 +1735,6 @@ self
 &
 Connection
 {
-&
-*
 self
 }
 }
