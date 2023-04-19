@@ -3143,11 +3143,6 @@ delegate
 )
 override
 ;
-void
-CleanLayerManagerRecursive
-(
-)
-;
 int32_t
 RoundsWidgetCoordinatesTo
 (
