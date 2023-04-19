@@ -1085,6 +1085,14 @@ SurfaceTexture
 )
 ;
 MediaFormat
+inputFormat
+=
+new
+MediaFormat
+(
+)
+;
+MediaFormat
 outputFormat
 =
 new
@@ -1099,6 +1107,7 @@ spy
 new
 FakeMediaCodecWrapper
 (
+inputFormat
 outputFormat
 )
 )

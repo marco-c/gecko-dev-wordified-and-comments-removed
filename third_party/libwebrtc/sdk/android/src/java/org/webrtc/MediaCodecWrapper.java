@@ -124,6 +124,11 @@ render
 )
 ;
 MediaFormat
+getInputFormat
+(
+)
+;
+MediaFormat
 getOutputFormat
 (
 )
