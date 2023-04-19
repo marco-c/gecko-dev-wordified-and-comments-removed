@@ -10,7 +10,7 @@ GMPTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -25,7 +25,9 @@ addons
 /
 GMPProvider
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

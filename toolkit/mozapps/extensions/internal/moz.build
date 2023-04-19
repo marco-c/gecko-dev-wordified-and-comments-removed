@@ -62,7 +62,9 @@ addons
 "
 GMPProvider
 .
-jsm
+sys
+.
+mjs
 "
 ]
 TESTING_JS_MODULES

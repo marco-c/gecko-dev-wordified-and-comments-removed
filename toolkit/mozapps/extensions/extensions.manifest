@@ -56,7 +56,9 @@ addons
 /
 GMPProvider
 .
-jsm
+sys
+.
+mjs
 #
 endif
 #

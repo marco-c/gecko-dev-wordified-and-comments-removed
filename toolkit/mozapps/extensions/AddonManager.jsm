@@ -2681,7 +2681,7 @@ try
 {
 ChromeUtils
 .
-import
+importESModule
 (
 url
 )
