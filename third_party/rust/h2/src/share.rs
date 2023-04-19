@@ -44,12 +44,6 @@ http
 HeaderMap
 ;
 use
-crate
-:
-:
-PollExt
-;
-use
 std
 :
 :
@@ -319,7 +313,7 @@ poll_capacity
 cx
 )
 .
-map_ok_
+map_ok
 (
 |
 w
@@ -329,7 +323,7 @@ as
 usize
 )
 .
-map_err_
+map_err
 (
 Into
 :
@@ -703,7 +697,7 @@ poll_data
 cx
 )
 .
-map_err_
+map_err
 (
 Into
 :
