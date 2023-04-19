@@ -777,7 +777,7 @@ offset
 return
 buffer_
 .
-data
+MutableData
 (
 )
 +
@@ -795,7 +795,7 @@ byte
 {
 buffer_
 .
-data
+MutableData
 (
 )
 [

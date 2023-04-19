@@ -3388,7 +3388,7 @@ memset
 (
 buffer
 .
-data
+MutableData
 (
 )
 0
@@ -3622,7 +3622,7 @@ memset
 (
 buffer
 .
-data
+MutableData
 (
 )
 0
@@ -3875,7 +3875,7 @@ memset
 (
 buffer
 .
-data
+MutableData
 (
 )
 0

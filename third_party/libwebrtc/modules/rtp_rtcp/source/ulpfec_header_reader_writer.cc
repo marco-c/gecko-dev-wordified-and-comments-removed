@@ -197,7 +197,7 @@ pkt
 >
 data
 .
-data
+MutableData
 (
 )
 ;
@@ -441,7 +441,7 @@ fec_packet
 >
 data
 .
-data
+MutableData
 (
 )
 ;

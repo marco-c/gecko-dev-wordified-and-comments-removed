@@ -5285,6 +5285,7 @@ SctpTransport
 :
 InjectDataOrNotificationFromSctpForTesting
 (
+const
 void
 *
 data
@@ -5313,6 +5314,7 @@ SctpTransport
 :
 OnDataOrNotificationFromSctp
 (
+const
 void
 *
 data
@@ -5411,6 +5413,7 @@ notification
 (
 reinterpret_cast
 <
+const
 uint8_t
 *
 >
@@ -5717,6 +5720,7 @@ AppendData
 (
 reinterpret_cast
 <
+const
 uint8_t
 *
 >

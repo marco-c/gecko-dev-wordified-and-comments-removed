@@ -818,7 +818,7 @@ data
 packet
 -
 >
-data
+MutableData
 (
 )
 ;
@@ -1180,7 +1180,7 @@ data
 packet
 -
 >
-data
+MutableData
 (
 )
 ;
@@ -1358,7 +1358,7 @@ data
 =
 packet
 .
-data
+MutableData
 <
 char
 >
@@ -1584,7 +1584,7 @@ data
 =
 packet
 .
-data
+MutableData
 <
 char
 >

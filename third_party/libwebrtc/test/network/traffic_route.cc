@@ -466,10 +466,7 @@ fill_n
 (
 data
 .
-data
-<
-uint8_t
->
+MutableData
 (
 )
 data

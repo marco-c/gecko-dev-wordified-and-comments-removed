@@ -337,6 +337,7 @@ debug_name
 int
 InjectDataOrNotificationFromSctpForTesting
 (
+const
 void
 *
 data
@@ -610,6 +611,7 @@ buffer
 int
 OnDataOrNotificationFromSctp
 (
+const
 void
 *
 data

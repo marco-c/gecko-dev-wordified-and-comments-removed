@@ -2832,7 +2832,7 @@ int
 (
 buf
 .
-data
+MutableData
 (
 )
 )
@@ -2871,6 +2871,7 @@ packet_id
 =
 reinterpret_cast
 <
+const
 int
 *
 >

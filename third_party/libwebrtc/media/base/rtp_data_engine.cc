@@ -1820,7 +1820,7 @@ SetRtpHeader
 (
 packet
 .
-data
+MutableData
 (
 )
 packet

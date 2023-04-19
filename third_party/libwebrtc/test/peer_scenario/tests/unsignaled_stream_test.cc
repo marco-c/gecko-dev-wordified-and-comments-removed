@@ -701,15 +701,13 @@ uint32_t
 :
 WriteBigEndian
 (
-&
 updated_buffer
 .
-data
+MutableData
 (
 )
-[
++
 8
-]
 second_ssrc
 )
 ;

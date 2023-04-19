@@ -506,6 +506,7 @@ static
 uint16_t
 ParseSequenceNumber
 (
+const
 uint8_t
 *
 packet
@@ -515,6 +516,7 @@ static
 uint32_t
 ParseSsrc
 (
+const
 uint8_t
 *
 packet
