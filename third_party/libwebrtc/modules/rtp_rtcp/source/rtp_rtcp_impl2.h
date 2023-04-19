@@ -1224,8 +1224,16 @@ const
 bool
 deferred_sequencing_
 ;
+mutable
+Mutex
+mutex_sequencer_
+;
 PacketSequencer
 sequencer_
+RTC_GUARDED_BY
+(
+mutex_sequencer_
+)
 ;
 RtpSenderEgress
 packet_sender
