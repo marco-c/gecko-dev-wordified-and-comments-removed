@@ -3182,12 +3182,7 @@ libvpx
 ;
 codec_
 .
-VP8
-(
-)
--
->
-numberOfTemporalLayers
+numberOfSimulcastStreams
 =
 2
 ;
@@ -3217,12 +3212,7 @@ encoder
 ;
 codec_
 .
-VP8
-(
-)
--
->
-numberOfTemporalLayers
+numberOfSimulcastStreams
 =
 1
 ;
