@@ -299,7 +299,7 @@ SdpVideoFormat
 &
 h264_format
 :
-SupportedH264Codecs
+SupportedH264DecoderCodecs
 (
 )
 )
