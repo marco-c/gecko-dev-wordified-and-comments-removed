@@ -10889,6 +10889,9 @@ return
 MOZ_DIAGNOSTIC_ASSERT_IF
 (
 mChannelLoaded
+&
+&
+mChannel
 mType
 =
 =
