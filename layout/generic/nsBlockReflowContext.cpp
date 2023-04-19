@@ -1018,8 +1018,6 @@ nsCollapsingMargin
 aPrevMargin
 nscoord
 aClearance
-bool
-aIsAdjacentWithBStart
 nsLineBox
 *
 aLine
@@ -1065,7 +1063,11 @@ aSpace
 if
 (
 !
-aIsAdjacentWithBStart
+aState
+.
+IsAdjacentWithBStart
+(
+)
 )
 {
 aFrameRI

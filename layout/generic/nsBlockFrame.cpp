@@ -18875,11 +18875,6 @@ aState
 .
 mPrevBEndMargin
 clearance
-aState
-.
-IsAdjacentWithBStart
-(
-)
 aLine
 .
 get
@@ -32488,15 +32483,6 @@ aState
 mReflowInput
 )
 ;
-bool
-isAdjacentWithTop
-=
-aState
-.
-IsAdjacentWithBStart
-(
-)
-;
 nsIFrame
 *
 clearanceFrame
@@ -32568,7 +32554,6 @@ aAdjustedAvailableSpace
 true
 margin
 0
-isAdjacentWithTop
 nullptr
 floatRS
 aReflowStatus
