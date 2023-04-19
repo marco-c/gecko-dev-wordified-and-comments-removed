@@ -1455,13 +1455,13 @@ pseudoElement
 "
 &
 &
+!
+!
 rule
 .
 matchedSelectors
 .
 length
->
-0
 ;
 const
 isPseudoElementRule

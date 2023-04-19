@@ -250,6 +250,8 @@ waitForCondition
 >
 {
 return
+!
+!
 panelDoc
 .
 querySelectorAll
@@ -258,8 +260,6 @@ selector
 )
 .
 length
->
-0
 ;
 }
 Wait

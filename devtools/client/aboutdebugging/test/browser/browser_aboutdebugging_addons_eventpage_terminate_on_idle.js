@@ -727,11 +727,11 @@ warn
 )
 ;
 return
+!
+!
 consoleElements
 .
 length
->
-0
 ;
 }
 )

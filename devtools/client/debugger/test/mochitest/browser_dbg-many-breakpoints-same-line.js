@@ -567,6 +567,8 @@ async
 )
 =
 >
+!
+!
 findMessagesByType
 (
 hud
@@ -575,8 +577,6 @@ typeSelector
 )
 .
 length
->
-0
 )
 ;
 }

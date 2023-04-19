@@ -630,8 +630,6 @@ while
 content
 .
 length
->
-0
 )
 ;
 }

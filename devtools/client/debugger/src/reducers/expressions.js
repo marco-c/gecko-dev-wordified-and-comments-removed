@@ -341,12 +341,10 @@ expressions
 ;
 if
 (
+!
 exprs
 .
 length
-=
-=
-0
 )
 {
 return

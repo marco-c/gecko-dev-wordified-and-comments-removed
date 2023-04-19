@@ -234,6 +234,8 @@ element
 ;
 ok
 (
+!
+!
 stackTraceElement
 .
 querySelectorAll
@@ -247,8 +249,6 @@ title
 )
 .
 length
->
-0
 "
 Frames
 functions
@@ -259,6 +259,8 @@ displayed
 ;
 ok
 (
+!
+!
 stackTraceElement
 .
 querySelectorAll
@@ -272,8 +274,6 @@ location
 )
 .
 length
->
-0
 "
 Frames
 location

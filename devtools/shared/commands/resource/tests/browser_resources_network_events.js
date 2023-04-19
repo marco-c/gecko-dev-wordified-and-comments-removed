@@ -1102,12 +1102,10 @@ waitFor
 )
 =
 >
+!
 expectedAvailable
 .
 length
-=
-=
-0
 "
 Wait
 for
@@ -1125,12 +1123,10 @@ waitFor
 )
 =
 >
+!
 expectedUpdated
 .
 length
-=
-=
-0
 "
 Wait
 for

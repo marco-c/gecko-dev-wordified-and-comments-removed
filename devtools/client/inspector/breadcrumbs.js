@@ -4201,8 +4201,6 @@ this
 nodeHierarchy
 .
 length
->
-0
 )
 {
 const

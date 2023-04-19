@@ -1964,6 +1964,8 @@ doc
 )
 {
 return
+!
+!
 doc
 .
 querySelectorAll
@@ -1980,8 +1982,6 @@ filtered
 )
 .
 length
->
-0
 ;
 }
 function

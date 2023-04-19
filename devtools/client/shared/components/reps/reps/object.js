@@ -268,8 +268,6 @@ object
 )
 .
 length
->
-0
 ?
 ellipsisElement
 :

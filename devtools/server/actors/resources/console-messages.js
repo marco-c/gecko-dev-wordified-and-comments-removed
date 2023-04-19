@@ -931,8 +931,6 @@ message
 styles
 .
 length
->
-0
 )
 {
 result

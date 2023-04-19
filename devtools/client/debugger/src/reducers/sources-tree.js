@@ -154,12 +154,10 @@ isWebExtension
 ;
 if
 (
+!
 newSources
 .
 length
-=
-=
-0
 )
 {
 return
@@ -257,12 +255,10 @@ isWebExtension
 ;
 if
 (
+!
 newSourceActors
 .
 length
-=
-=
-0
 )
 {
 return

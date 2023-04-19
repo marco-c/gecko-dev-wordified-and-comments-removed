@@ -878,8 +878,6 @@ if
 expectedMessages
 .
 length
->
-0
 )
 {
 ok

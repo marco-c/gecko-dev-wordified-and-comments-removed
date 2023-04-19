@@ -1045,8 +1045,6 @@ if
 expandTo
 .
 length
->
-0
 )
 {
 ok

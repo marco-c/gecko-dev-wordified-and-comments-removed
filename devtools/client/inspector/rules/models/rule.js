@@ -1277,8 +1277,6 @@ if
 disabledProps
 .
 length
->
-0
 )
 {
 disabled

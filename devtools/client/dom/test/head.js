@@ -202,11 +202,11 @@ treeLabel
 ;
 ok
 (
+!
+!
 nodes
 .
 length
->
-0
 "
 The
 DOM

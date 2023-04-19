@@ -866,8 +866,6 @@ domRule
 ancestorData
 .
 length
->
-0
 )
 {
 const
@@ -3475,8 +3473,6 @@ rule
 textProps
 .
 length
->
-0
 )
 {
 this

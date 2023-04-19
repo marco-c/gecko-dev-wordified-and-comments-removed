@@ -386,14 +386,14 @@ waitFor
 )
 =
 >
+!
+!
 getObjectInspectorChildrenNodes
 (
 node
 )
 .
 length
->
-0
 )
 ;
 }

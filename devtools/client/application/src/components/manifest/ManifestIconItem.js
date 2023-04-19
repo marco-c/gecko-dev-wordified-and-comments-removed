@@ -192,8 +192,6 @@ sizes
 sizes
 .
 length
->
-0
 ?
 l10n
 .

@@ -234,8 +234,6 @@ highlighter
 _highlighters
 .
 length
->
-0
 )
 {
 highlighter

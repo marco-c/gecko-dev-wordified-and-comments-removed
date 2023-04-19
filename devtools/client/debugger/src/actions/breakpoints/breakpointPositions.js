@@ -96,12 +96,10 @@ sourceMaps
 {
 if
 (
+!
 generatedLocations
 .
 length
-=
-=
-0
 )
 {
 return

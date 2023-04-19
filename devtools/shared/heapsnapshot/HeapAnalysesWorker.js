@@ -1273,6 +1273,8 @@ node
 .
 moreChildrenAvailable
 =
+!
+!
 dominatorTree
 .
 getImmediatelyDominated
@@ -1281,8 +1283,6 @@ id
 )
 .
 length
->
-0
 ;
 return
 node

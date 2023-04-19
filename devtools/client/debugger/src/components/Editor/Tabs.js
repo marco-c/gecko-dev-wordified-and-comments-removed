@@ -1280,12 +1280,10 @@ if
 hiddenTabs
 |
 |
+!
 hiddenTabs
 .
 length
-=
-=
-0
 )
 {
 return

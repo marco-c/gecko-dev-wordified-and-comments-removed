@@ -377,8 +377,6 @@ lastSearched
 lastSearched
 .
 length
->
-0
 )
 {
 this

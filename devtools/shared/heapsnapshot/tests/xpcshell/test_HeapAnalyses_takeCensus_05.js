@@ -117,13 +117,13 @@ true
 ;
 ok
 (
+!
+!
 treeNode
 .
 children
 .
 length
->
-0
 "
 treeNode
 has

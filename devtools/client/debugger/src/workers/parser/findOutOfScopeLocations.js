@@ -239,12 +239,10 @@ locations
 {
 if
 (
+!
 locations
 .
 length
-=
-=
-0
 )
 {
 return

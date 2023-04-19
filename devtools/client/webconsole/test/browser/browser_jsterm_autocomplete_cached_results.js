@@ -569,6 +569,8 @@ d
 ;
 ok
 (
+!
+!
 popup
 .
 getItems
@@ -576,8 +578,6 @@ getItems
 )
 .
 length
->
-0
 "
 '
 dump

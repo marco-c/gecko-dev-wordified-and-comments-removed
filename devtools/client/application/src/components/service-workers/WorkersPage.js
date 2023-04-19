@@ -228,13 +228,13 @@ filter
 x
 =
 >
+!
+!
 x
 .
 workers
 .
 length
->
-0
 &
 &
 new

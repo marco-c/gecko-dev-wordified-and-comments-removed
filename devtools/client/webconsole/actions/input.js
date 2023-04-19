@@ -1155,8 +1155,6 @@ screenshotMessages
 screenshotMessages
 .
 length
->
-0
 )
 {
 dispatch

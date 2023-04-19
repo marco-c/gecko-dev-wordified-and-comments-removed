@@ -422,11 +422,11 @@ brackets
 =
 needSpace
 (
+!
+!
 items
 .
 length
->
-0
 )
 ;
 return

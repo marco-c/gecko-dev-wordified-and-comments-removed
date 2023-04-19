@@ -1886,6 +1886,8 @@ toggleableWebExtensions
 {
 ok
 (
+!
+!
 toolbox
 .
 listWebExtensions
@@ -1893,8 +1895,6 @@ listWebExtensions
 )
 .
 length
->
-0
 "
 There
 should

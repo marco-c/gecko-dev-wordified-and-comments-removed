@@ -2872,8 +2872,6 @@ if
 lineMatches
 .
 length
->
-0
 )
 {
 const

@@ -782,7 +782,8 @@ waitUntil
 >
 {
 return
-(
+!
+!
 findMessagesByType
 (
 hud
@@ -798,9 +799,6 @@ error
 )
 .
 length
->
-0
-)
 ;
 }
 )
@@ -851,6 +849,8 @@ waitUntil
 >
 {
 return
+!
+!
 findMessagesByType
 (
 hud
@@ -865,8 +865,6 @@ error
 )
 .
 length
->
-0
 ;
 }
 )
@@ -1742,6 +1740,8 @@ waitUntil
 >
 {
 return
+!
+!
 findMessagesByType
 (
 hud
@@ -1758,8 +1758,6 @@ error
 )
 .
 length
->
-0
 ;
 }
 )

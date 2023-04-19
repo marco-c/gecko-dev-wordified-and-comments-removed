@@ -532,8 +532,6 @@ props
 visibleMessages
 .
 length
->
-0
 )
 {
 this

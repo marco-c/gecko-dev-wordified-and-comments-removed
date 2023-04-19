@@ -3276,8 +3276,6 @@ parents
 parents
 .
 length
->
-0
 )
 {
 if
@@ -3363,8 +3361,6 @@ parentGroups
 parentGroups
 .
 length
->
-0
 )
 {
 groups
@@ -3727,8 +3723,6 @@ if
 frontsToRelease
 .
 length
->
-0
 )
 {
 state

@@ -1487,8 +1487,6 @@ if
 messages
 .
 length
->
-0
 )
 {
 this
@@ -1543,8 +1541,6 @@ if
 messages
 .
 length
->
-0
 )
 {
 this
@@ -1767,8 +1763,6 @@ this
 queuedMessageUpdates
 .
 length
->
-0
 )
 {
 await
@@ -1817,8 +1811,6 @@ this
 queuedRequestUpdates
 .
 length
->
-0
 )
 {
 await

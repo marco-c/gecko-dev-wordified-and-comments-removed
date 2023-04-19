@@ -808,8 +808,6 @@ operations
 added
 .
 length
->
-0
 )
 {
 console
@@ -844,8 +842,6 @@ operations
 updated
 .
 length
->
-0
 )
 {
 console
@@ -880,8 +876,6 @@ operations
 removed
 .
 length
->
-0
 )
 {
 console

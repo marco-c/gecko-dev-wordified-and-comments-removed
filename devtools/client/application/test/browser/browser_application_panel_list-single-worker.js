@@ -173,14 +173,14 @@ waitUntil
 )
 =
 >
+!
+!
 getWorkerContainers
 (
 doc
 )
 .
 length
->
-0
 )
 ;
 let

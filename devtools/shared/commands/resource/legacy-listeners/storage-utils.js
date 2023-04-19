@@ -84,8 +84,6 @@ filteredUpdate
 )
 .
 length
->
-0
 ?
 filteredUpdate
 :

@@ -159,11 +159,11 @@ target
 ;
 ok
 (
+!
+!
 paths
 .
 length
->
-0
 "
 We
 must
@@ -344,11 +344,11 @@ paths
 {
 ok
 (
+!
+!
 path2
 .
 length
->
-0
 "
 Cannot
 have

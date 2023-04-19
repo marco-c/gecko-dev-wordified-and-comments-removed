@@ -2584,8 +2584,6 @@ filters
 filters
 .
 length
->
-0
 )
 {
 for

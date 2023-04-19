@@ -1044,8 +1044,6 @@ formDataSections
 formDataSections
 .
 length
->
-0
 )
 {
 const

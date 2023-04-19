@@ -224,8 +224,6 @@ if
 filteredStatusCodes
 .
 length
->
-0
 )
 {
 flags
@@ -1185,8 +1183,6 @@ if
 responseCookies
 .
 length
->
-0
 )
 {
 const

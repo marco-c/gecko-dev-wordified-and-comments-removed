@@ -582,12 +582,11 @@ string
 "
 &
 &
+!
+!
 value
 .
 length
-!
-=
-0
 )
 )
 ;

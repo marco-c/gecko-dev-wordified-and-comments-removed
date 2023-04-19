@@ -767,12 +767,10 @@ entries
 )
 |
 |
+!
 entries
 .
 length
-=
-=
-0
 )
 {
 continue
@@ -2041,8 +2039,6 @@ if
 actors
 .
 length
->
-0
 )
 {
 this

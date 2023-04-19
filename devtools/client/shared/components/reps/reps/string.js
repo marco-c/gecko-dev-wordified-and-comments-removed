@@ -1016,8 +1016,6 @@ if
 text
 .
 length
->
-0
 )
 {
 if

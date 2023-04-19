@@ -796,12 +796,10 @@ file
 ;
 if
 (
+!
 columns
 .
 length
-=
-=
-0
 )
 {
 const

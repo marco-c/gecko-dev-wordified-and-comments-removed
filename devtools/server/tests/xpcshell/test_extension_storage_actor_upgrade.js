@@ -475,8 +475,6 @@ host
 ]
 .
 length
->
-0
 )
 {
 storageFront

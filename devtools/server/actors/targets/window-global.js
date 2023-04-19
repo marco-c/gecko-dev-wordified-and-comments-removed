@@ -2895,8 +2895,6 @@ if
 rootDocShells
 .
 length
->
-0
 )
 {
 const
@@ -3177,12 +3175,10 @@ docshells
 ;
 if
 (
+!
 windows
 .
 length
-=
-=
-0
 )
 {
 return

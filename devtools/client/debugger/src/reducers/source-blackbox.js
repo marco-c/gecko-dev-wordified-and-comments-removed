@@ -379,15 +379,13 @@ index
 ;
 if
 (
+!
 currentRanges
 [
 url
 ]
 .
 length
-=
-=
-0
 )
 {
 currentSet

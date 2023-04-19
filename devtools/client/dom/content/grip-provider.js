@@ -289,11 +289,11 @@ ArrayLike
 "
 &
 &
+!
+!
 preview
 .
 length
->
-0
 )
 ;
 }

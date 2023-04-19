@@ -130,12 +130,10 @@ i
 ;
 if
 (
+!
 data
 .
 length
-=
-=
-0
 )
 {
 continue

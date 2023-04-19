@@ -613,12 +613,10 @@ seen
 ;
 if
 (
+!
 lines
 .
 length
-=
-=
-0
 )
 {
 if

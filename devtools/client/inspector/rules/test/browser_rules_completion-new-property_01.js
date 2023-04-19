@@ -457,15 +457,13 @@ i
 {
 if
 (
+!
 testData
 [
 i
 ]
 .
 length
-=
-=
-0
 )
 {
 continue

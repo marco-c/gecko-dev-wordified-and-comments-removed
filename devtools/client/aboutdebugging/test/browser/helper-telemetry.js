@@ -168,11 +168,11 @@ method
 ;
 ok
 (
+!
+!
 sameMethodEvents
 .
 length
->
-0
 "
 Found
 event

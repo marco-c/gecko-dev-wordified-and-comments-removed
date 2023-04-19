@@ -6375,12 +6375,10 @@ checked
 {
 if
 (
+!
 arguments
 .
 length
-=
-=
-0
 )
 {
 id

@@ -1367,8 +1367,6 @@ markedSpans
 markedSpans
 .
 length
->
-0
 )
 {
 const
@@ -10462,8 +10460,6 @@ if
 missingElements
 .
 length
->
-0
 )
 {
 msg
@@ -10494,8 +10490,6 @@ if
 displayedSources
 .
 length
->
-0
 )
 {
 msg
@@ -11263,11 +11257,11 @@ msg
 )
 ;
 return
+!
+!
 messages
 .
 length
->
-0
 ;
 }
 )

@@ -1400,11 +1400,11 @@ resources
 ;
 ok
 (
+!
+!
 availableResources
 .
 length
->
-0
 "
 We
 get

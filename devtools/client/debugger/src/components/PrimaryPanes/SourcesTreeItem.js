@@ -1096,8 +1096,6 @@ if
 sourcesOutside
 .
 length
->
-0
 )
 {
 blackBoxOutsideMenuItemLabel
@@ -1161,8 +1159,6 @@ if
 sourcesOutside
 .
 length
->
-0
 )
 {
 blackBoxOutsideMenuItemLabel
@@ -1250,8 +1246,6 @@ if
 sourcesOutside
 .
 length
->
-0
 )
 {
 menuOptions

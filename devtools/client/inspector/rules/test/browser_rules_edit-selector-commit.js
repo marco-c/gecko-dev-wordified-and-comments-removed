@@ -579,8 +579,6 @@ rule
 textProps
 .
 length
->
-0
 )
 {
 is

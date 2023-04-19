@@ -1550,11 +1550,11 @@ isUnsafe
 {
 strictEqual
 (
+!
+!
 props
 .
 length
->
-0
 data
 .
 hasOwnPropertyNames
@@ -1711,11 +1711,11 @@ isUnsafe
 {
 strictEqual
 (
+!
+!
 props
 .
 length
->
-0
 data
 .
 hasOwnPropertySymbols

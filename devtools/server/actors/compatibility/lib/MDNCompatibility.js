@@ -1132,8 +1132,6 @@ for
 terms
 .
 length
->
-0
 ;
 terms
 .

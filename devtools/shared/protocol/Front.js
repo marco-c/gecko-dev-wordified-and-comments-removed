@@ -241,8 +241,6 @@ this
 _requests
 .
 length
->
-0
 )
 {
 const

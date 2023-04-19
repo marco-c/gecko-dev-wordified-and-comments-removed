@@ -423,6 +423,8 @@ this
 _connections
 &
 &
+!
+!
 Object
 .
 keys
@@ -433,8 +435,6 @@ _connections
 )
 .
 length
->
-0
 ;
 }
 hasConnectionForPrefix

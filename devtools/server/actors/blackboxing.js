@@ -135,12 +135,10 @@ ranges
 {
 if
 (
+!
 ranges
 .
 length
-=
-=
-0
 )
 {
 return
@@ -197,12 +195,10 @@ ranges
 {
 if
 (
+!
 ranges
 .
 length
-=
-=
-0
 )
 {
 const

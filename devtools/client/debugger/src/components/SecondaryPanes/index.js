@@ -1872,8 +1872,6 @@ props
 workers
 .
 length
->
-0
 )
 {
 items
@@ -2044,8 +2042,6 @@ props
 workers
 .
 length
->
-0
 )
 {
 items

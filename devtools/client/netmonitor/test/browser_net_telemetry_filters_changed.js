@@ -366,6 +366,7 @@ waitUntil
 )
 =
 >
+!
 getDisplayedRequests
 (
 store
@@ -376,9 +377,6 @@ getState
 )
 .
 length
-=
-=
-0
 )
 ;
 checkTelemetryEvent

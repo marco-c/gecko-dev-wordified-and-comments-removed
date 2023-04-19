@@ -292,8 +292,6 @@ info
 )
 .
 length
->
-0
 )
 {
 return

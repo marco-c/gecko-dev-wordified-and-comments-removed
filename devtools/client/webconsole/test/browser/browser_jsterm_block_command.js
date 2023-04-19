@@ -275,6 +275,8 @@ waitFor
 )
 =
 >
+!
+!
 nmStore
 .
 getState
@@ -286,8 +288,6 @@ requestBlocking
 blockedUrls
 .
 length
->
-0
 )
 ;
 const

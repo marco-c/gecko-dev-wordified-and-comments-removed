@@ -294,11 +294,11 @@ brackets
 =
 needSpace
 (
+!
+!
 items
 .
 length
->
-0
 )
 ;
 }

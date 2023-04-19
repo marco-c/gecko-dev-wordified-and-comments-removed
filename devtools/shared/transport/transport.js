@@ -469,8 +469,6 @@ this
 _outgoing
 .
 length
->
-0
 )
 {
 const

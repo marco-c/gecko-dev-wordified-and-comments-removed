@@ -3102,8 +3102,6 @@ editableFields
 editableFields
 .
 length
->
-0
 )
 {
 this
@@ -4068,8 +4066,6 @@ if
 names
 .
 length
->
-0
 )
 {
 const
@@ -4225,6 +4221,7 @@ host
 ]
 |
 |
+!
 changed
 [
 type
@@ -4234,9 +4231,6 @@ host
 ]
 .
 length
-=
-=
-0
 )
 {
 return
@@ -7909,8 +7903,6 @@ if
 path
 .
 length
->
-0
 )
 {
 name
@@ -7975,8 +7967,6 @@ name
 path
 .
 length
->
-0
 ?
 JSON
 .
@@ -8030,8 +8020,6 @@ name
 path
 .
 length
->
-0
 ?
 JSON
 .

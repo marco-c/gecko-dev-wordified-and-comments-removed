@@ -1510,12 +1510,10 @@ true
 )
 ;
 return
+!
 properties
 .
 length
-=
-=
-0
 ;
 }
 this
@@ -1796,8 +1794,6 @@ element
 style
 .
 length
->
-0
 )
 {
 const
@@ -3714,8 +3710,6 @@ this
 _matchedSelectors
 .
 length
->
-0
 &
 &
 this

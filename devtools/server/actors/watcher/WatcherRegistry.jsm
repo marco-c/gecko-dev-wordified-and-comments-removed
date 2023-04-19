@@ -476,14 +476,14 @@ dataType
 ]
 &
 &
+!
+!
 sessionData
 [
 dataType
 ]
 .
 length
->
-0
 )
 ;
 if

@@ -1408,11 +1408,11 @@ eEOFCharacters_DropBackslash
 0
 &
 &
+!
+!
 result
 .
 length
->
-0
 &
 &
 result

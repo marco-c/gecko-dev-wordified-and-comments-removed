@@ -625,11 +625,11 @@ false
 ;
 }
 return
+!
+!
 text
 .
 length
->
-0
 ;
 }
 start

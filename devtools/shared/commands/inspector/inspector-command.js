@@ -531,8 +531,6 @@ if
 nodeSelectors
 .
 length
->
-0
 )
 {
 if

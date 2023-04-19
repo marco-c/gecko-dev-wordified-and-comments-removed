@@ -1197,8 +1197,6 @@ if
 tabs
 .
 length
->
-0
 &
 &
 this

@@ -407,11 +407,11 @@ stacktrace
 stacktrace
 &
 &
+!
+!
 stacktrace
 .
 length
->
-0
 lastFrame
 :
 stacktrace
@@ -420,8 +420,6 @@ stacktrace
 stacktrace
 .
 length
->
-0
 ?
 stacktrace
 [

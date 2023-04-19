@@ -2839,6 +2839,8 @@ no
 -
 match
 "
+!
+!
 this
 .
 searchField
@@ -2846,8 +2848,6 @@ searchField
 value
 .
 length
->
-0
 &
 &
 !
@@ -3063,8 +3063,6 @@ searchField
 value
 .
 length
->
-0
 ?
 FILTER_CHANGED_TIMEOUT
 :
@@ -4244,6 +4242,8 @@ toLowerCase
 const
 isValidSearchTerm
 =
+!
+!
 searchTerm
 .
 trim
@@ -4251,8 +4251,6 @@ trim
 )
 .
 length
->
-0
 ;
 if
 (

@@ -534,12 +534,10 @@ runNextTest
 {
 if
 (
+!
 _tests
 .
 length
-=
-=
-0
 )
 {
 SimpleTest

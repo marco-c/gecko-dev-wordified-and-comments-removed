@@ -290,8 +290,6 @@ selectedIndex
 list
 .
 length
->
-0
 ?
 0
 :
@@ -508,11 +506,11 @@ state
 ;
 return
 (
+!
+!
 list
 .
 length
->
-0
 &
 &
 dom

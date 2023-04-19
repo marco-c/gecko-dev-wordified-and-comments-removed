@@ -719,6 +719,7 @@ store
 state
 =
 >
+!
 state
 .
 devices
@@ -726,9 +727,6 @@ devices
 custom
 .
 length
-=
-=
-0
 )
 once
 (

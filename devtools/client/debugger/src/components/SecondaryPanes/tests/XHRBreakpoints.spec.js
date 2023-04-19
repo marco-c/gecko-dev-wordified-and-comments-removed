@@ -1686,11 +1686,11 @@ xhrMethods
 ;
 expect
 (
+!
+!
 availableXHRMethods
 .
 length
->
-0
 )
 .
 toBeTruthy

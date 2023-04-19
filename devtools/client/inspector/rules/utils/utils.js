@@ -1173,8 +1173,6 @@ if
 insetClasses
 .
 length
->
-0
 )
 {
 point

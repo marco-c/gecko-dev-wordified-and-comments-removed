@@ -180,6 +180,8 @@ onRefresh
 ;
 ok
 (
+!
+!
 propertyViews
 .
 filter
@@ -193,8 +195,6 @@ visible
 )
 .
 length
->
-0
 "
 CSS
 properties
@@ -340,6 +340,8 @@ onRefresh
 ;
 ok
 (
+!
+!
 propertyViews
 .
 filter
@@ -353,8 +355,6 @@ visible
 )
 .
 length
->
-0
 "
 CSS
 properties

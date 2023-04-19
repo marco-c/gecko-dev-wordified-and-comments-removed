@@ -282,8 +282,6 @@ responseCookiesLength
 responseCookies
 .
 length
->
-0
 ?
 responseCookies
 .

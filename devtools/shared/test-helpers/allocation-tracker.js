@@ -662,8 +662,6 @@ if
 allocations
 .
 length
->
-0
 )
 {
 this

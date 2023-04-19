@@ -672,6 +672,7 @@ isEmpty
 )
 {
 return
+!
 this
 .
 getRoots
@@ -679,9 +680,6 @@ getRoots
 )
 .
 length
-=
-=
-0
 ;
 }
 renderEmptyElement

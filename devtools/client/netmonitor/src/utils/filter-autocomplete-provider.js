@@ -804,8 +804,6 @@ if
 availableValues
 .
 length
->
-0
 )
 {
 autocompleteList
@@ -875,8 +873,6 @@ if
 filteredStatusCodes
 .
 length
->
-0
 )
 {
 autocompleteList

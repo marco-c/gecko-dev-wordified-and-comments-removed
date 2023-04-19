@@ -1569,11 +1569,11 @@ resources
 {
 ok
 (
+!
+!
 resources
 .
 length
->
-0
 "
 onAvailable
 is

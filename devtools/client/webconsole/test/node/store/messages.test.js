@@ -7718,6 +7718,8 @@ getState
 ;
 expect
 (
+!
+!
 Object
 .
 keys
@@ -7726,8 +7728,6 @@ networkUpdates
 )
 .
 length
->
-0
 )
 .
 toBe

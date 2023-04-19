@@ -623,13 +623,13 @@ entry
 >
 {
 return
+!
+!
 entry
 .
 resources
 .
 length
->
-0
 ;
 }
 )
@@ -1120,8 +1120,6 @@ if
 pendingEvents
 .
 length
->
-0
 )
 {
 const
@@ -1443,8 +1441,6 @@ if
 existingResources
 .
 length
->
-0
 )
 {
 await

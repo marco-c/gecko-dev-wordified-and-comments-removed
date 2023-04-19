@@ -340,8 +340,6 @@ topLevelTargetIssuePane
 topLevelTargetIssues
 .
 length
->
-0
 |
 |
 !
