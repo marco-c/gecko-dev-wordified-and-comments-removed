@@ -1960,6 +1960,17 @@ loc
 )
 ;
 void
+initFromRootedLocation
+(
+ValType
+type
+const
+void
+*
+loc
+)
+;
+void
 writeToRootedLocation
 (
 void

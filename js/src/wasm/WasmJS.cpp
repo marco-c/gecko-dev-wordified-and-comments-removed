@@ -16920,15 +16920,6 @@ GCPtrVal
 (
 Val
 (
-value
-.
-get
-(
-)
-.
-type
-(
-)
 )
 )
 ;

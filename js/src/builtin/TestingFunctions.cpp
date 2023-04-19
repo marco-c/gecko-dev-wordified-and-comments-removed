@@ -6205,7 +6205,6 @@ RootedVal
 val
 (
 cx
-valType
 )
 ;
 val
@@ -6214,8 +6213,9 @@ get
 (
 )
 .
-readFromRootedLocation
+initFromRootedLocation
 (
+valType
 buffer
 -
 >
