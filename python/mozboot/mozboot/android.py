@@ -61,7 +61,7 @@ BUNDLETOOL_VERSION
 "
 1
 .
-8
+11
 .
 0
 "
