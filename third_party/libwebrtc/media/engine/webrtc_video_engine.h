@@ -1270,6 +1270,9 @@ flexfec_payload_type
 int
 rtx_payload_type
 ;
+int
+rtx_time
+;
 }
 ;
 struct
@@ -2159,6 +2162,8 @@ webrtc
 :
 RtcpMode
 rtcp_mode
+int
+rtx_time
 )
 ;
 void
