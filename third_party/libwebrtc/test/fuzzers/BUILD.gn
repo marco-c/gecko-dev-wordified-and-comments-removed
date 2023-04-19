@@ -4258,17 +4258,6 @@ libjingle_peerconnection
 /
 pc
 :
-rtc_pc_base
-"
-"
-.
-.
-/
-.
-.
-/
-pc
-:
 sctp_utils
 "
 "

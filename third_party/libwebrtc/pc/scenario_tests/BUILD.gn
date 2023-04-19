@@ -164,17 +164,6 @@ pc_test_utils
 .
 .
 /
-pc
-:
-rtc_pc_base
-"
-"
-.
-.
-/
-.
-.
-/
 test
 :
 field_trial
