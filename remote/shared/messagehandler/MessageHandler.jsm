@@ -255,6 +255,17 @@ this
 ;
 }
 get
+context
+(
+)
+{
+return
+this
+.
+_context
+;
+}
+get
 contextId
 (
 )
