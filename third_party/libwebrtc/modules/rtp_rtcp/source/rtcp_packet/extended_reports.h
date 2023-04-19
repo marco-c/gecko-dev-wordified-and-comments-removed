@@ -304,17 +304,6 @@ block_length
 )
 ;
 void
-ParseVoipMetricBlock
-(
-const
-uint8_t
-*
-block
-uint16_t
-block_length
-)
-;
-void
 ParseTargetBitrateBlock
 (
 const
