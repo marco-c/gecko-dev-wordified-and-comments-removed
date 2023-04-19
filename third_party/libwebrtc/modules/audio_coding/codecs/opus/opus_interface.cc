@@ -3073,7 +3073,8 @@ silk_frames
 0
 )
 return
-0
+-
+1
 ;
 const
 int
