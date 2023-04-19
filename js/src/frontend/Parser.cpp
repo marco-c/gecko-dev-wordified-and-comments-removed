@@ -919,6 +919,8 @@ cx
 ErrorContext
 *
 ec
+uintptr_t
+stackLimit
 const
 ReadOnlyCompileOptions
 &
@@ -960,6 +962,10 @@ foldConstants
 ec_
 (
 ec
+)
+stackLimit_
+(
+stackLimit
 )
 #
 ifdef
@@ -1042,6 +1048,8 @@ cx
 ErrorContext
 *
 ec
+uintptr_t
+stackLimit
 const
 ReadOnlyCompileOptions
 &
@@ -1060,6 +1068,7 @@ ParserBase
 (
 cx
 ec
+stackLimit
 options
 foldConstants
 compilationState
@@ -1115,6 +1124,8 @@ cx
 ErrorContext
 *
 ec
+uintptr_t
+stackLimit
 const
 ReadOnlyCompileOptions
 &
@@ -1139,6 +1150,7 @@ Base
 (
 cx
 ec
+stackLimit
 options
 foldConstants
 compilationState
