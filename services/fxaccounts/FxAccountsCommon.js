@@ -496,6 +496,16 @@ new_device_id
 ;
 exports
 .
+ON_DEVICELIST_UPDATED
+=
+"
+fxaccounts
+:
+devicelist_updated
+"
+;
+exports
+.
 COMMAND_PREFIX
 =
 "
