@@ -6490,6 +6490,10 @@ FAILED
 (
 hr
 )
+|
+|
+!
+folderItem
 )
 return
 NS_ERROR_FAILURE
