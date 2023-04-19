@@ -3479,7 +3479,7 @@ webrtc
 :
 Metronome
 >
-metronome_
+metronome
 ;
 }
 ;
