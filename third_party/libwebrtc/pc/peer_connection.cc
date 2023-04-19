@@ -23469,9 +23469,11 @@ SetRtpTransport
 rtp_transport
 )
 ;
-have_pending_rtp_data_channel_
-=
-true
+sdp_handler_
+.
+SetHavePendingRtpDataChannel
+(
+)
 ;
 return
 true
