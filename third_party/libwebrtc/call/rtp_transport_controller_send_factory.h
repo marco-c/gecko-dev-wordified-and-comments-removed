@@ -70,6 +70,13 @@ process_thread
 )
 override
 {
+RTC_CHECK
+(
+config
+.
+trials
+)
+;
 return
 std
 :
@@ -102,6 +109,7 @@ process_thread
 config
 .
 task_queue_factory
+*
 config
 .
 trials

@@ -343,7 +343,7 @@ IsEnabled
 (
 const
 WebRtcKeyValueConfig
-*
+&
 trials
 absl
 :
@@ -352,14 +352,6 @@ string_view
 key
 )
 {
-RTC_DCHECK
-(
-trials
-!
-=
-nullptr
-)
-;
 return
 absl
 :
@@ -367,8 +359,7 @@ absl
 StartsWith
 (
 trials
--
->
+.
 Lookup
 (
 key
@@ -384,7 +375,7 @@ IsDisabled
 (
 const
 WebRtcKeyValueConfig
-*
+&
 trials
 absl
 :
@@ -393,14 +384,6 @@ string_view
 key
 )
 {
-RTC_DCHECK
-(
-trials
-!
-=
-nullptr
-)
-;
 return
 absl
 :
@@ -408,8 +391,7 @@ absl
 StartsWith
 (
 trials
--
->
+.
 Lookup
 (
 key
@@ -462,7 +444,7 @@ PacerSettings
 (
 const
 WebRtcKeyValueConfig
-*
+&
 trials
 )
 :
@@ -502,8 +484,7 @@ holdback_window
 holdback_packets
 }
 trials
--
->
+.
 Lookup
 (
 "
@@ -552,7 +533,7 @@ TaskQueueFactory
 task_queue_factory
 const
 WebRtcKeyValueConfig
-*
+&
 trials
 )
 :
@@ -779,7 +760,6 @@ NORMAL
 )
 field_trials_
 (
-*
 trials
 )
 {
@@ -790,8 +770,7 @@ ParseFieldTrial
 relay_bandwidth_cap_
 }
 trials
--
->
+.
 Lookup
 (
 "
@@ -824,6 +803,7 @@ initial_config_
 .
 key_value_config
 =
+&
 trials
 ;
 RTC_DCHECK
@@ -867,8 +847,7 @@ absl
 StartsWith
 (
 trials
--
->
+.
 Lookup
 (
 "

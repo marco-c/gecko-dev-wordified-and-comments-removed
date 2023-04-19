@@ -76,15 +76,6 @@ include
 "
 test
 /
-field_trial
-.
-h
-"
-#
-include
-"
-test
-/
 gmock
 .
 h
@@ -381,7 +372,6 @@ clock_
 &
 callback_
 nullptr
-&
 trials_
 &
 process_thread_

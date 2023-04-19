@@ -794,17 +794,6 @@ system_wrappers
 .
 .
 /
-system_wrappers
-:
-field_trial
-"
-"
-.
-.
-/
-.
-.
-/
 test
 :
 explicit_key_value_config
@@ -818,7 +807,7 @@ explicit_key_value_config
 /
 test
 :
-field_trial
+scoped_key_value_config
 "
 "
 .

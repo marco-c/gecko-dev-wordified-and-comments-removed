@@ -81,15 +81,6 @@ include
 "
 test
 /
-field_trial
-.
-h
-"
-#
-include
-"
-test
-/
 gmock
 .
 h
@@ -100,6 +91,15 @@ include
 test
 /
 gtest
+.
+h
+"
+#
+include
+"
+test
+/
+scoped_key_value_config
 .
 h
 "
@@ -621,6 +621,9 @@ Millis
 MockPacketRouter
 packet_router
 ;
+ScopedKeyValueConfig
+trials
+;
 TaskQueuePacedSender
 pacer
 (
@@ -632,7 +635,7 @@ GetClock
 &
 packet_router
 nullptr
-nullptr
+trials
 time_controller
 .
 GetTaskQueueFactory
@@ -852,6 +855,9 @@ Millis
 MockPacketRouter
 packet_router
 ;
+ScopedKeyValueConfig
+trials
+;
 TaskQueuePacedSender
 pacer
 (
@@ -863,7 +869,7 @@ GetClock
 &
 packet_router
 nullptr
-nullptr
+trials
 time_controller
 .
 GetTaskQueueFactory
@@ -1199,6 +1205,9 @@ Millis
 MockPacketRouter
 packet_router
 ;
+ScopedKeyValueConfig
+trials
+;
 TaskQueuePacedSender
 pacer
 (
@@ -1210,7 +1219,7 @@ GetClock
 &
 packet_router
 nullptr
-nullptr
+trials
 time_controller
 .
 GetTaskQueueFactory
@@ -1409,6 +1418,9 @@ Millis
 MockPacketRouter
 packet_router
 ;
+ScopedKeyValueConfig
+trials
+;
 TaskQueuePacedSender
 pacer
 (
@@ -1420,7 +1432,7 @@ GetClock
 &
 packet_router
 nullptr
-nullptr
+trials
 time_controller
 .
 GetTaskQueueFactory
@@ -1625,6 +1637,9 @@ Millis
 MockPacketRouter
 packet_router
 ;
+ScopedKeyValueConfig
+trials
+;
 TaskQueuePacedSender
 pacer
 (
@@ -1636,7 +1651,7 @@ GetClock
 &
 packet_router
 nullptr
-nullptr
+trials
 time_controller
 .
 GetTaskQueueFactory
@@ -1797,7 +1812,7 @@ TaskQueuePacedSenderTest
 SchedulesProbeAtSetTime
 )
 {
-ScopedFieldTrials
+ScopedKeyValueConfig
 trials
 (
 "
@@ -1840,7 +1855,7 @@ GetClock
 &
 packet_router
 nullptr
-nullptr
+trials
 time_controller
 .
 GetTaskQueueFactory
@@ -2204,7 +2219,7 @@ Micros
 100
 )
 ;
-ScopedFieldTrials
+ScopedKeyValueConfig
 trials
 (
 "
@@ -2247,7 +2262,7 @@ GetClock
 &
 packet_router
 nullptr
-nullptr
+trials
 time_controller
 .
 GetTaskQueueFactory
@@ -2558,6 +2573,9 @@ Millis
 MockPacketRouter
 packet_router
 ;
+ScopedKeyValueConfig
+trials
+;
 TaskQueuePacedSender
 pacer
 (
@@ -2569,7 +2587,7 @@ GetClock
 &
 packet_router
 nullptr
-nullptr
+trials
 time_controller
 .
 GetTaskQueueFactory
@@ -2850,6 +2868,9 @@ Millis
 MockPacketRouter
 packet_router
 ;
+ScopedKeyValueConfig
+trials
+;
 TaskQueuePacedSender
 pacer
 (
@@ -2861,7 +2882,7 @@ GetClock
 &
 packet_router
 nullptr
-nullptr
+trials
 time_controller
 .
 GetTaskQueueFactory
@@ -3100,6 +3121,9 @@ kStartTime
 MockPacketRouter
 packet_router
 ;
+ScopedKeyValueConfig
+trials
+;
 TaskQueuePacedSender
 pacer
 (
@@ -3111,7 +3135,7 @@ GetClock
 &
 packet_router
 nullptr
-nullptr
+trials
 time_controller
 .
 GetTaskQueueFactory
