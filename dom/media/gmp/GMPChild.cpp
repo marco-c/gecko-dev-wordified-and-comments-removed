@@ -1128,6 +1128,12 @@ dll
 "
 u
 "
+oleaut32
+.
+dll
+"
+u
+"
 psapi
 .
 dll
