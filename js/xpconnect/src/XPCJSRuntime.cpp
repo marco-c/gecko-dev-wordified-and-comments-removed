@@ -14615,6 +14615,7 @@ define
 CASE_ACCUMULATE
 (
 NAME
+_
 )
 \
 case

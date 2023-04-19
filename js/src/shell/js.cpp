@@ -7068,6 +7068,7 @@ define
 LIT
 (
 NAME
+_
 )
 #
 NAME
@@ -7295,7 +7296,7 @@ true
 ;
 for
 (
-int
+size_t
 id
 =
 0
