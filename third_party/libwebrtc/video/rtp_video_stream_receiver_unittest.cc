@@ -3191,9 +3191,6 @@ kPayloadType
 =
 99
 ;
-VideoCodec
-codec
-;
 std
 :
 :
