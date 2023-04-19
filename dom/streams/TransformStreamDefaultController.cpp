@@ -528,9 +528,11 @@ MOZ_ASSERT
 backpressure
 )
 ;
-TransformStreamSetBackpressure
-(
 stream
+-
+>
+SetBackpressure
+(
 true
 aRv
 )
