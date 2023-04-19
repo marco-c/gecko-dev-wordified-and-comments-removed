@@ -5322,6 +5322,12 @@ getDomains
 )
 ;
 }
+SuppressLint
+(
+"
+ResourceType
+"
+)
 WrapForJNI
 (
 calledFrom
@@ -5481,10 +5487,6 @@ TypedArray
 appearance
 =
 contextThemeWrapper
-.
-getTheme
-(
-)
 .
 obtainStyledAttributes
 (
