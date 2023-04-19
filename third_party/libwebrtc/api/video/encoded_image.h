@@ -786,11 +786,6 @@ VideoContentType
 :
 UNSPECIFIED
 ;
-bool
-_completeFrame
-=
-false
-;
 int
 qp_
 =

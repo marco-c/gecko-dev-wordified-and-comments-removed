@@ -66,11 +66,6 @@ rotation
 _rotation
 ;
 synthesize
-completeFrame
-=
-_completeFrame
-;
-synthesize
 qp
 =
 _qp

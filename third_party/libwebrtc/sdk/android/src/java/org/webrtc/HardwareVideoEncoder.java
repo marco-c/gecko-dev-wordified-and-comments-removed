@@ -1640,11 +1640,6 @@ getTimestampNs
 )
 )
 .
-setCompleteFrame
-(
-true
-)
-.
 setEncodedWidth
 (
 videoFrame

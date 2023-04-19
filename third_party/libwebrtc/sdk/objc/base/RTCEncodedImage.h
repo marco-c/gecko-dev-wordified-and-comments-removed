@@ -157,14 +157,6 @@ rotation
 property
 (
 nonatomic
-assign
-)
-BOOL
-completeFrame
-;
-property
-(
-nonatomic
 strong
 )
 NSNumber
