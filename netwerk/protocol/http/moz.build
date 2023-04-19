@@ -593,6 +593,11 @@ InterceptedHttpChannel
 cpp
 "
 "
+MockHttpAuth
+.
+cpp
+"
+"
 NetworkMarker
 .
 cpp
