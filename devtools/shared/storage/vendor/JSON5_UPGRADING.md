@@ -86,9 +86,9 @@ git
 checkout
 v2
 .
-1
+2
 .
-0
+1
 #
 checkout
 the
@@ -155,9 +155,9 @@ file
 json5
 v2
 .
-1
+2
 .
-0
+1
 *
 /
 -
@@ -192,9 +192,9 @@ version
 is
 2
 .
-1
+2
 .
-0
+1
 .
 Update
 this
