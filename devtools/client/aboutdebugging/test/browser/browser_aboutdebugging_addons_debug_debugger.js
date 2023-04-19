@@ -175,7 +175,6 @@ document
 ;
 const
 {
-devtoolsTab
 devtoolsWindow
 }
 =
@@ -319,10 +318,9 @@ correctly
 )
 ;
 await
-closeAboutDevtoolsToolbox
+closeWebExtAboutDevtoolsToolbox
 (
-document
-devtoolsTab
+devtoolsWindow
 window
 )
 ;
