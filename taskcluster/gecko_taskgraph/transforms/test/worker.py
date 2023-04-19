@@ -2358,7 +2358,7 @@ t
 -
 linux
 -
-metal
+kvm
 "
         
 elif
