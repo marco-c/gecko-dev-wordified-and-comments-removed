@@ -180,6 +180,10 @@ None
 fix
 =
 None
+rules
+=
+[
+]
 setup
 =
 None
@@ -318,6 +322,26 @@ root
         
 )
     
+for
+rule
+in
+rules
+:
+        
+extra_args
+.
+extend
+(
+[
+"
+-
+-
+rule
+"
+rule
+]
+)
+    
 cmd_args
 =
 (
@@ -403,6 +427,9 @@ pattern
 "
         
 ]
+        
++
+rules
         
 +
 extra_args
