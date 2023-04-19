@@ -4041,6 +4041,20 @@ prototypeChain
 )
             
 )
+        
+self
+.
+hasOrdinaryObjectPrototype
+=
+desc
+.
+get
+(
+"
+hasOrdinaryObjectPrototype
+"
+False
+)
     
 def
 binaryNameFor
