@@ -5664,6 +5664,13 @@ prev_analog_mic_level
 =
 analog_mic_level
 ;
+analog_gain_stats_reporter_
+.
+UpdateStatistics
+(
+analog_mic_level
+)
+;
 if
 (
 submodules_
