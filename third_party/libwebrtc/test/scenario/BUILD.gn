@@ -156,9 +156,6 @@ log_writer
 }
 if
 (
-is_ios
-|
-|
 rtc_include_tests
 )
 {
@@ -235,12 +232,6 @@ foreman_cif
 yuv
 "
 ]
-}
-if
-(
-rtc_include_tests
-)
-{
 if
 (
 is_ios
