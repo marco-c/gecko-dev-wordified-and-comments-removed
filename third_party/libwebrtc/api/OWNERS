@@ -14,10 +14,6 @@ juberti
 webrtc
 .
 org
-kwiberg
-webrtc
-.
-org
 magjed
 webrtc
 .
@@ -50,15 +46,6 @@ file
 DEPS
 =
 mbonadei
-webrtc
-.
-org
-per
--
-file
-DEPS
-=
-kwiberg
 webrtc
 .
 org
