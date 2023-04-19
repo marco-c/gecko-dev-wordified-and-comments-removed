@@ -304,7 +304,7 @@ include
 "
 pc
 /
-peer_connection
+peer_connection_internal
 .
 h
 "
