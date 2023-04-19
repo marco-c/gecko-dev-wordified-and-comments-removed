@@ -351,6 +351,14 @@ aIsMainScript
 )
 ;
 bool
+DispatchLoadScript
+(
+ScriptLoadRequest
+*
+aRequest
+)
+;
+bool
 DispatchLoadScripts
 (
 )
