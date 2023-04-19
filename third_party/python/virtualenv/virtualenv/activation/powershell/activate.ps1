@@ -242,7 +242,9 @@ function
 _old_virtual_prompt
 (
 "
+(
 __VIRTUAL_PROMPT__
+)
 "
 +
 previous_prompt_value
