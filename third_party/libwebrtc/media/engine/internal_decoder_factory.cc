@@ -321,7 +321,7 @@ format
 {
 RTC_LOG
 (
-LS_ERROR
+LS_WARNING
 )
 <
 <
@@ -333,7 +333,15 @@ decoder
 for
 unsupported
 format
+.
 "
+<
+<
+format
+.
+ToString
+(
+)
 ;
 return
 nullptr
