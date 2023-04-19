@@ -2518,6 +2518,17 @@ one_time_event
 /
 rtc_base
 :
+race_checker
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 random
 "
 "

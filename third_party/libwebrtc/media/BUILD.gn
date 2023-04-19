@@ -2228,6 +2228,14 @@ macromagic
 /
 rtc_base
 :
+race_checker
+"
+"
+.
+.
+/
+rtc_base
+:
 rtc_task_queue
 "
 "

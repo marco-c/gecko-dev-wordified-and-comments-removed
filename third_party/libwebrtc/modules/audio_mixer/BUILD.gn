@@ -340,6 +340,17 @@ macromagic
 /
 rtc_base
 :
+race_checker
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 refcount
 "
 "
