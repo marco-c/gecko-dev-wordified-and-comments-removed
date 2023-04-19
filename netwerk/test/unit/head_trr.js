@@ -1692,13 +1692,14 @@ if
 handler
 )
 {
-return
 handler
 (
 req
 resp
 u
 )
+;
+return
 ;
 }
 let
@@ -2141,7 +2142,6 @@ length
 contentLength
 )
 {
-return
 processRequest
 (
 req
@@ -2212,7 +2212,6 @@ base64
 "
 )
 ;
-return
 processRequest
 (
 req
