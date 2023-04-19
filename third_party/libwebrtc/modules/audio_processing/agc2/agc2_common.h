@@ -171,6 +171,12 @@ kDefaultSmoothedVadProbabilityAttack
 f
 ;
 constexpr
+int
+kDefaultAdjacentSpeechFramesThreshold
+=
+1
+;
+constexpr
 bool
 kDefaultUseSaturationProtector
 =
