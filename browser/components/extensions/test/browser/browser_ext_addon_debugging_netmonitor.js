@@ -434,9 +434,9 @@ destroy
 )
 ;
 await
-client
+commands
 .
-close
+destroy
 (
 )
 ;
