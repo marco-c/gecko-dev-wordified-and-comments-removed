@@ -943,12 +943,12 @@ override
 ;
 private
 :
-void
-UpdateAndSerializeSecurityInfo
+already_AddRefed
+<
+nsITransportSecurityInfo
+>
+SecurityInfo
 (
-nsACString
-&
-aSerializedSecurityInfoOut
 )
 ;
 void
