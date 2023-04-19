@@ -3195,14 +3195,6 @@ googTimingFrameInfo
 "
 ;
 case
-kStatsValueNameTypingNoiseState
-:
-return
-"
-googTypingNoiseState
-"
-;
-case
 kStatsValueNameWritable
 :
 return

@@ -212,15 +212,6 @@ optional
 <
 bool
 >
-typing_detection
-;
-absl
-:
-:
-optional
-<
-bool
->
 residual_echo_detector
 ;
 absl

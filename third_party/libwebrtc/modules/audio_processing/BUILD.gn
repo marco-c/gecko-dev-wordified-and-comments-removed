@@ -846,16 +846,6 @@ render_queue_item_verifier
 .
 h
 "
-"
-typing_detection
-.
-cc
-"
-"
-typing_detection
-.
-h
-"
 ]
 defines
 =

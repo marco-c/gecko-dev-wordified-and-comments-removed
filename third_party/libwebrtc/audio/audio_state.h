@@ -199,12 +199,6 @@ get
 )
 ;
 }
-bool
-typing_noise_detected
-(
-)
-const
-;
 void
 AddReceivingStream
 (
