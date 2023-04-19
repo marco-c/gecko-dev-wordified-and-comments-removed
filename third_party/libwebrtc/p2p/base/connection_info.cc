@@ -43,6 +43,10 @@ rtt
 (
 0
 )
+sent_discarded_bytes
+(
+0
+)
 sent_total_bytes
 (
 0

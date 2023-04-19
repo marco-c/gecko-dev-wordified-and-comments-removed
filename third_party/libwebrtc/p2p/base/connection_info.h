@@ -82,6 +82,9 @@ size_t
 rtt
 ;
 size_t
+sent_discarded_bytes
+;
+size_t
 sent_total_bytes
 ;
 size_t

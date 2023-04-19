@@ -8137,6 +8137,13 @@ sent_discarded_packets
 +
 +
 ;
+stats_
+.
+sent_discarded_bytes
++
+=
+size
+;
 }
 else
 {
