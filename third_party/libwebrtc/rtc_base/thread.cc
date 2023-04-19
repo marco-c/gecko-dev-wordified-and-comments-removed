@@ -1699,6 +1699,16 @@ ScopedCountBlockingCalls
 (
 )
 {
+if
+(
+GetTotalBlockedCallCount
+(
+)
+>
+=
+min_blocking_calls_for_callback_
+)
+{
 result_callback_
 (
 GetBlockingCallCount
@@ -1709,6 +1719,7 @@ GetCouldBeBlockingCallCount
 )
 )
 ;
+}
 }
 uint32_t
 Thread
