@@ -590,6 +590,15 @@ fallthrough
 "
 cxx_compiler
 )
+check_and_add_warning
+(
+"
+-
+Wlogical
+-
+op
+"
+)
 with
 only_when
 (
