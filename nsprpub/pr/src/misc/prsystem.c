@@ -835,6 +835,18 @@ mib
 =
 CTL_HW
 ;
+#
+ifdef
+HW_NCPUONLINE
+mib
+[
+1
+]
+=
+HW_NCPUONLINE
+;
+#
+else
 mib
 [
 1
@@ -842,6 +854,8 @@ mib
 =
 HW_NCPU
 ;
+#
+endif
 rc
 =
 sysctl

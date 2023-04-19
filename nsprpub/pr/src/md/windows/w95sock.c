@@ -2065,6 +2065,9 @@ rv
 =
 GetOverlappedResult
 (
+(
+HANDLE
+)
 osfd
 &
 fd

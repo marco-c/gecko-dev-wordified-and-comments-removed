@@ -1380,6 +1380,9 @@ if
 (
 GetOverlappedResult
 (
+(
+HANDLE
+)
 osfd
 &
 fd
@@ -1542,6 +1545,9 @@ if
 (
 GetOverlappedResult
 (
+(
+HANDLE
+)
 osfd
 &
 fd
