@@ -66,6 +66,16 @@ int
 base_minimum_delay_ms
 int
 histogram_quantile
+absl
+:
+:
+optional
+<
+int
+>
+resample_interval_ms
+int
+max_history_ms
 const
 TickTimer
 *
@@ -85,6 +95,8 @@ DelayManager
 max_packets_in_buffer
 base_minimum_delay_ms
 histogram_quantile
+resample_interval_ms
+max_history_ms
 tick_timer
 std
 :
