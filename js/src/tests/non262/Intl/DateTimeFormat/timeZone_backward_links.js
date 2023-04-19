@@ -679,6 +679,17 @@ Etc
 UTC
 "
 "
+Europe
+/
+Kiev
+"
+:
+"
+Europe
+/
+Kyiv
+"
+"
 GB
 "
 :

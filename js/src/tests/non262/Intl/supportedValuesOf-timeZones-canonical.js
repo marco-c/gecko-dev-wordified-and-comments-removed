@@ -1974,12 +1974,12 @@ Kaliningrad
 "
 Europe
 /
-Kiev
+Kirov
 "
 "
 Europe
 /
-Kirov
+Kyiv
 "
 "
 Europe
