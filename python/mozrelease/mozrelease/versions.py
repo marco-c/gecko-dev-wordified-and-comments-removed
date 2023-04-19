@@ -8,6 +8,9 @@ distutils
 version
 import
 StrictVersion
+from
+looseversion
+import
 LooseVersion
 import
 re

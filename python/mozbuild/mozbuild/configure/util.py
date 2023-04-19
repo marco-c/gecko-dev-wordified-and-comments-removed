@@ -29,9 +29,7 @@ contextlib
 import
 contextmanager
 from
-distutils
-.
-version
+looseversion
 import
 LooseVersion
 def
@@ -109,9 +107,7 @@ A
 simple
 subclass
 of
-distutils
-.
-version
+looseversion
 .
 LooseVersion
 .
