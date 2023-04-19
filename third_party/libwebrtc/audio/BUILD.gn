@@ -983,6 +983,13 @@ nack_test
 .
 cc
 "
+"
+test
+/
+non_sender_rtt_test
+.
+cc
+"
 ]
 deps
 =
