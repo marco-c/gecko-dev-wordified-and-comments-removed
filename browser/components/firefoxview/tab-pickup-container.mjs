@@ -425,15 +425,9 @@ action
 "
 :
 {
-this
+TabsSetupFlowManager
 .
-getWindow
-(
-)
-.
-gBrowser
-.
-reload
+forceSyncTabs
 (
 )
 ;
