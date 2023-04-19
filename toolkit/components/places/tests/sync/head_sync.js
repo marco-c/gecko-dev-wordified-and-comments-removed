@@ -119,7 +119,7 @@ PlacesSyncUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -132,7 +132,9 @@ modules
 /
 PlacesSyncUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -143,7 +145,7 @@ SyncedBookmarksMirror
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -156,7 +158,9 @@ modules
 /
 SyncedBookmarksMirror
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

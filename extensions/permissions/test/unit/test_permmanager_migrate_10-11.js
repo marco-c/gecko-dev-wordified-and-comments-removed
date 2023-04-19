@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 PlacesTestUtils
-"
+:
 "
 resource
 :
@@ -17,8 +17,11 @@ common
 /
 PlacesTestUtils
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 var
