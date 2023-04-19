@@ -68,13 +68,6 @@ Assert
 assertTrue
 ;
 import
-androidx
-.
-annotation
-.
-Nullable
-;
-import
 android
 .
 support
@@ -82,6 +75,13 @@ support
 test
 .
 InstrumentationRegistry
+;
+import
+androidx
+.
+annotation
+.
+Nullable
 ;
 import
 androidx

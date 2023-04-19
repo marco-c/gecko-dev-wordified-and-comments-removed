@@ -2689,9 +2689,9 @@ base_java
 /
 third_party
 /
-android_deps
+androidx
 :
-com_android_support_support_annotations_java
+androidx_annotation_annotation_java
 "
 ]
 }

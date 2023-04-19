@@ -110,13 +110,6 @@ os
 Looper
 ;
 import
-androidx
-.
-annotation
-.
-Nullable
-;
-import
 android
 .
 support
@@ -146,6 +139,13 @@ test
 rule
 .
 UiThreadTestRule
+;
+import
+androidx
+.
+annotation
+.
+Nullable
 ;
 import
 androidx

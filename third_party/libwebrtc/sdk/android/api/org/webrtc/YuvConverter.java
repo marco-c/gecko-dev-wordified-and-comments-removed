@@ -25,9 +25,7 @@ opengl
 GLException
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .
