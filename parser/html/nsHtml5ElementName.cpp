@@ -5262,7 +5262,7 @@ nsGkAtoms
 :
 :
 keygen
-NS_NewHTMLElement
+NS_NewHTMLUnknownElement
 NS_NewSVGUnknownElement
 nsHtml5TreeBuilder
 :
