@@ -111,6 +111,11 @@ false
 )
 )
 ;
+await
+waitForAllNetworkUpdateEvents
+(
+)
+;
 Services
 .
 telemetry
@@ -158,6 +163,11 @@ waitForNetworkEvents
 (
 monitor
 1
+)
+;
+await
+waitForAllNetworkUpdateEvents
+(
 )
 ;
 await

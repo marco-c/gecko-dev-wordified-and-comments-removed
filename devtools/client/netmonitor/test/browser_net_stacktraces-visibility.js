@@ -150,6 +150,11 @@ length
 )
 ;
 await
+waitForAllNetworkUpdateEvents
+(
+)
+;
+await
 reloadBrowser
 (
 )
