@@ -131,6 +131,11 @@ UrlClassifierFeatureCustomTables
 cpp
 "
 "
+UrlClassifierFeatureEmailTrackingDataCollection
+.
+cpp
+"
+"
 UrlClassifierFeatureEmailTrackingProtection
 .
 cpp
