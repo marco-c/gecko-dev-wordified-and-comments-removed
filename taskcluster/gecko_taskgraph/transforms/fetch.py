@@ -703,8 +703,6 @@ task_expires
 2
 days
 "
-\
-            
 if
 attributes
 .
@@ -716,8 +714,6 @@ cached_task
 )
 is
 False
-\
-            
 else
 expires
         
