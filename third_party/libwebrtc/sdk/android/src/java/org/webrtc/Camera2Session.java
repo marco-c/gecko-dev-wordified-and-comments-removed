@@ -1919,6 +1919,8 @@ cameraThreadHandler
 catch
 (
 CameraAccessException
+|
+IllegalArgumentException
 e
 )
 {
