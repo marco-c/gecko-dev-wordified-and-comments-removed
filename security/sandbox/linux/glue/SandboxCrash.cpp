@@ -239,7 +239,7 @@ IsVoid
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 JS
@@ -359,7 +359,7 @@ aPC
 details
 )
 ;
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 frame
@@ -388,7 +388,7 @@ aFirstFramePC
 nullptr
 )
 ;
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 end
@@ -449,7 +449,7 @@ if
 dumped
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 crash

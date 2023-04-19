@@ -1847,7 +1847,7 @@ path
 '
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 unsupported
@@ -1985,7 +1985,7 @@ path
 '
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 unsupported
@@ -2141,7 +2141,7 @@ path
 '
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 unsupported
@@ -2386,7 +2386,7 @@ path
 '
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 unsupported
@@ -2444,7 +2444,7 @@ badFlags
 0
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 unsupported
@@ -2622,7 +2622,7 @@ path
 '
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 unsupported
@@ -2668,7 +2668,7 @@ flags
 0
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 unsupported
@@ -2863,7 +2863,7 @@ path2
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 unsupported
@@ -2916,7 +2916,7 @@ flags
 0
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 unsupported
@@ -3065,7 +3065,7 @@ path2
 '
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 unsupported
@@ -3245,7 +3245,7 @@ path2
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 unsupported
@@ -3389,7 +3389,7 @@ path
 '
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 unsupported
@@ -3549,7 +3549,7 @@ path
 '
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 unsupported
@@ -3600,7 +3600,7 @@ badFlags
 0
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 unsupported
@@ -3774,7 +3774,7 @@ path
 '
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 unsupported
@@ -7091,7 +7091,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 Allowing
@@ -8212,7 +8212,7 @@ O_ACCMODE
 O_RDONLY
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 non

@@ -691,7 +691,7 @@ MakeReportAndSend
 savedCtx
 )
 ;
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 seccomp
@@ -1011,7 +1011,7 @@ return
 false
 ;
 }
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 prctl
@@ -1059,7 +1059,7 @@ aProg
 0
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 thread
@@ -1111,7 +1111,7 @@ aProg
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 prctl
@@ -1490,7 +1490,7 @@ taskdp
 nullptr
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 opendir
@@ -1641,7 +1641,7 @@ errno
 ESRCH
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 Thread
@@ -1661,7 +1661,7 @@ true
 continue
 ;
 }
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 tgkill
@@ -1791,7 +1791,7 @@ errno
 EINTR
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 FUTEX_WAIT
@@ -1863,7 +1863,7 @@ errno
 ESRCH
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 Thread
@@ -1927,7 +1927,7 @@ tv_nsec
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 Thread
@@ -2000,7 +2000,7 @@ oldHandler
 SetThreadSandboxHandler
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 handler
@@ -2253,7 +2253,7 @@ tsyncSignum
 0
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 No
@@ -2349,7 +2349,7 @@ handler
 )
 ;
 }
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 signal
@@ -2614,7 +2614,7 @@ char
 aux
 )
 ;
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 Panic
@@ -2872,7 +2872,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 using
@@ -2904,7 +2904,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 no
@@ -3131,7 +3131,7 @@ IsOpen
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 failed

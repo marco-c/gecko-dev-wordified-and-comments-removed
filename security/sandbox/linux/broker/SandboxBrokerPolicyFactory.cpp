@@ -838,7 +838,7 @@ Assign
 aCwd
 )
 ;
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 Unjoinable
@@ -1473,7 +1473,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 Adding
@@ -1574,7 +1574,7 @@ kVerbose
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 Parent

@@ -59,7 +59,7 @@ SANDBOX_LOG_LEN
 256
 #
 define
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 fmt
 args

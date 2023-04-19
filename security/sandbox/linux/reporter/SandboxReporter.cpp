@@ -262,7 +262,7 @@ fds
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 SandboxReporter
@@ -312,7 +312,7 @@ mThread
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 SandboxReporter
@@ -1102,7 +1102,7 @@ EINTR
 continue
 ;
 }
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 SandboxReporter
@@ -1146,7 +1146,7 @@ rep
 )
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 SandboxReporter
@@ -1181,7 +1181,7 @@ msg_flags
 MSG_TRUNC
 )
 {
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 SandboxReporter

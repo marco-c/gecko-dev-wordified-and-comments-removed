@@ -438,7 +438,7 @@ sent
 1
 )
 ;
-SANDBOX_LOG_ERROR
+SANDBOX_LOG
 (
 "
 Failed
