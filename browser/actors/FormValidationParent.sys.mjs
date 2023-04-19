@@ -69,11 +69,6 @@ popup
 .
 *
 /
-"
-use
-strict
-"
-;
 const
 lazy
 =
