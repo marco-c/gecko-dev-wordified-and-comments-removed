@@ -137,15 +137,7 @@ key
 string
 >
 {
-IOS_BUNDLE_ID_PREFIX
-}
-.
-gtest
-.
-{
-GTEST_BUNDLE_ID_SUFFIX
-:
-rfc1034identifier
+BUNDLE_IDENTIFIER
 }
 <
 /
