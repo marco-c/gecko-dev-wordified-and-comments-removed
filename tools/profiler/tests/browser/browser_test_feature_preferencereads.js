@@ -212,7 +212,7 @@ features
 :
 [
 "
-js
+leaf
 "
 "
 preferencereads
@@ -348,7 +348,7 @@ features
 :
 [
 "
-js
+leaf
 "
 ]
 }

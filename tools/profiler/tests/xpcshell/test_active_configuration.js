@@ -96,6 +96,9 @@ features
 "
 js
 "
+"
+leaf
+"
 ]
 ;
 const

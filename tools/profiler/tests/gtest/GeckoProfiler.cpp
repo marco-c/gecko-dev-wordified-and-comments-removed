@@ -10676,7 +10676,7 @@ features
 ProfilerFeature
 :
 :
-CPUUtilization
+Leaf
 ;
 profiler_ensure_started
 (
@@ -24612,7 +24612,7 @@ features
 ProfilerFeature
 :
 :
-CPUUtilization
+Leaf
 ;
 GTestStackCollector
 collector
