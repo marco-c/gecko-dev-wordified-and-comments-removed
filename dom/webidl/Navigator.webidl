@@ -1955,6 +1955,11 @@ Func
 ServiceWorkersEnabled
 "
 SameObject
+BinaryName
+=
+"
+serviceWorkerJS
+"
 ]
 readonly
 attribute

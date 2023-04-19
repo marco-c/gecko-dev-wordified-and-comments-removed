@@ -928,6 +928,14 @@ ServiceWorker
 (
 )
 ;
+already_AddRefed
+<
+ServiceWorkerContainer
+>
+ServiceWorkerJS
+(
+)
+;
 mozilla
 :
 :
