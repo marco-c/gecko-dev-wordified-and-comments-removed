@@ -13,7 +13,9 @@ TESTING_JS_MODULES
 "
 PlacesTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCSHELL_TESTS_MANIFESTS

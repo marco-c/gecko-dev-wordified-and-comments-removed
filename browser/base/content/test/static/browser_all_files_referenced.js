@@ -1822,7 +1822,9 @@ modules
 /
 SnapshotSelector
 .
-jsm
+sys
+.
+mjs
 "
 }
 {
