@@ -1624,7 +1624,7 @@ const
 override
 ;
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 (
@@ -2228,7 +2228,7 @@ worker_thread_
 )
 ;
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials_
 ;
@@ -6692,7 +6692,7 @@ stats
 ;
 }
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 Call
 :

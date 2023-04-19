@@ -30,9 +30,7 @@ include
 "
 api
 /
-video_codecs
-/
-video_encoder
+field_trials_view
 .
 h
 "
@@ -41,7 +39,9 @@ include
 "
 api
 /
-webrtc_key_value_config
+video_codecs
+/
+video_encoder
 .
 h
 "
@@ -136,7 +136,7 @@ RtpPayloadState
 *
 state
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )

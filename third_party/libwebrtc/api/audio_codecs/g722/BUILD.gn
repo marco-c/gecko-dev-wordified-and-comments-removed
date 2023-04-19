@@ -220,7 +220,7 @@ audio_codecs_api
 /
 api
 :
-webrtc_key_value_config
+field_trials_view
 "
 "
 .
@@ -372,7 +372,7 @@ audio_codecs_api
 /
 api
 :
-webrtc_key_value_config
+field_trials_view
 "
 "
 .

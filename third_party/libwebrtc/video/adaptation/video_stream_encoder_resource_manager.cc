@@ -1362,7 +1362,7 @@ DegradationPreferenceProvider
 *
 degradation_preference_provider
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

@@ -34,7 +34,7 @@ include
 "
 api
 /
-sctp_transport_interface
+field_trials_view
 .
 h
 "
@@ -43,7 +43,7 @@ include
 "
 api
 /
-webrtc_key_value_config
+sctp_transport_interface
 .
 h
 "
@@ -1824,7 +1824,7 @@ override
 {
 }
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 (

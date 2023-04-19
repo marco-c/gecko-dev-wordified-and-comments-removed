@@ -76,7 +76,7 @@ OnDecryptionStatusChangeCallback
 *
 decryption_status_change_callback
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

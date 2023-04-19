@@ -121,7 +121,7 @@ Clock
 *
 clock
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

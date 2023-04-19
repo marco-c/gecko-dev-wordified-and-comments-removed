@@ -252,7 +252,7 @@ TransportControllerConfig
 transport
 ;
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 =

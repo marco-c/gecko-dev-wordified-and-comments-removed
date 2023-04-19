@@ -628,7 +628,7 @@ EventWrapper
 >
 event
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

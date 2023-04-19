@@ -16,7 +16,7 @@ include
 "
 api
 /
-network_state_predictor
+field_trials_view
 .
 h
 "
@@ -25,9 +25,7 @@ include
 "
 api
 /
-transport
-/
-webrtc_key_value_config
+network_state_predictor
 .
 h
 "
@@ -38,7 +36,7 @@ bool
 AdaptiveThresholdExperimentIsDisabled
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 key_value_config
 )
@@ -52,7 +50,7 @@ explicit
 OveruseDetector
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )
@@ -118,7 +116,7 @@ void
 InitializeExperiment
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 key_value_config
 )

@@ -748,7 +748,7 @@ RTPSender
 *
 rtp_sender
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -831,7 +831,7 @@ class
 FieldTrials
 :
 public
-WebRtcKeyValueConfig
+FieldTrialsView
 {
 public
 :

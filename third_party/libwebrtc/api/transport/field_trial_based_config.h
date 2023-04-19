@@ -25,9 +25,7 @@ include
 "
 api
 /
-transport
-/
-webrtc_key_value_config
+field_trials_view
 .
 h
 "
@@ -38,7 +36,7 @@ class
 FieldTrialBasedConfig
 :
 public
-WebRtcKeyValueConfig
+FieldTrialsView
 {
 public
 :

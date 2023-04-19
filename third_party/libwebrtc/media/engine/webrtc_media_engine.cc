@@ -110,7 +110,7 @@ unique_ptr
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 >
 fallback_trials
 (
@@ -133,7 +133,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 =
@@ -869,7 +869,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )

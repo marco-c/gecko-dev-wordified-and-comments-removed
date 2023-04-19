@@ -177,7 +177,7 @@ optional
 AudioCodecPairId
 >
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )

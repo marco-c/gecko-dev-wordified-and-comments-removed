@@ -14,7 +14,7 @@ include
 "
 api
 /
-webrtc_key_value_config
+field_trials_view
 .
 h
 "
@@ -90,7 +90,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

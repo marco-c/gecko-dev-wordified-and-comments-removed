@@ -19,7 +19,7 @@ include
 "
 api
 /
-webrtc_key_value_config
+field_trials_view
 .
 h
 "
@@ -116,7 +116,7 @@ Clock
 *
 clock
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -146,7 +146,7 @@ EventWrapper
 >
 jitter_buffer_event
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

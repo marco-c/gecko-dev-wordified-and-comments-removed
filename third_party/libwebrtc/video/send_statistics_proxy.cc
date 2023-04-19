@@ -583,7 +583,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -649,7 +649,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -733,7 +733,7 @@ VideoEncoderConfig
 ContentType
 content_type
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

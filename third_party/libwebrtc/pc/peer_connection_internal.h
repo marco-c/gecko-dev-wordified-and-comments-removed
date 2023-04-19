@@ -866,7 +866,7 @@ channel
 }
 virtual
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 (

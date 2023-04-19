@@ -147,7 +147,7 @@ bool
 AdaptiveThresholdExperimentIsDisabled
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 key_value_config
 )
@@ -201,7 +201,7 @@ bool
 ReadExperimentConstants
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 key_value_config
 double
@@ -293,7 +293,7 @@ OveruseDetector
 OveruseDetector
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )
@@ -721,7 +721,7 @@ OveruseDetector
 InitializeExperiment
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 key_value_config
 )

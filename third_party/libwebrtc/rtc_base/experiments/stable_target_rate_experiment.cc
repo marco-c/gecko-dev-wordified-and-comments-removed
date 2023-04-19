@@ -55,7 +55,7 @@ StableTargetRateExperiment
 StableTargetRateExperiment
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 const
 key_value_config
@@ -157,7 +157,7 @@ StableTargetRateExperiment
 ParseFromKeyValueConfig
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 const
 key_value_config

@@ -139,7 +139,7 @@ int64_t
 GetSendNackDelay
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -569,7 +569,7 @@ BackoffSettings
 ParseFromFieldTrials
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -735,7 +735,7 @@ KeyFrameRequestSender
 *
 keyframe_request_sender
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

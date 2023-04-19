@@ -183,7 +183,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )

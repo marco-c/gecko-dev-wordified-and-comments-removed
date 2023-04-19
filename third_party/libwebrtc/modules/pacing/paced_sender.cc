@@ -150,7 +150,7 @@ PacketRouter
 *
 packet_router
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 ProcessThread

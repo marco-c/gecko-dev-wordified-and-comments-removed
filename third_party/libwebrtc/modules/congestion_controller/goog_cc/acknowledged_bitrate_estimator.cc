@@ -62,7 +62,7 @@ AcknowledgedBitrateEstimator
 AcknowledgedBitrateEstimator
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )
@@ -98,7 +98,7 @@ AcknowledgedBitrateEstimator
 AcknowledgedBitrateEstimator
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 std

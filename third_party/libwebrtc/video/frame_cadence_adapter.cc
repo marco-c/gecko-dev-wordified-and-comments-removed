@@ -796,7 +796,7 @@ TaskQueueBase
 *
 queue
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -2413,7 +2413,7 @@ TaskQueueBase
 *
 queue
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -3502,7 +3502,7 @@ TaskQueueBase
 *
 queue
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

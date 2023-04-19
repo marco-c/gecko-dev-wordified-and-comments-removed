@@ -488,7 +488,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 absl
@@ -523,7 +523,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 absl
@@ -662,7 +662,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
@@ -964,7 +964,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
@@ -1924,7 +1924,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
@@ -3614,7 +3614,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
@@ -20572,7 +20572,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 trials
 )

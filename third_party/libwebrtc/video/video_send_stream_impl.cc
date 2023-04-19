@@ -962,7 +962,7 @@ PacingConfig
 PacingConfig
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -1082,7 +1082,7 @@ RtpVideoSenderInterface
 *
 rtp_video_sender
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

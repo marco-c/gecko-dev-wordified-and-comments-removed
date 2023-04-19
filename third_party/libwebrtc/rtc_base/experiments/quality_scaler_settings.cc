@@ -55,7 +55,7 @@ QualityScalerSettings
 QualityScalerSettings
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 const
 key_value_config

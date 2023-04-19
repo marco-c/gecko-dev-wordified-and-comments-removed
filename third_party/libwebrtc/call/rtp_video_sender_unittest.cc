@@ -667,7 +667,7 @@ FrameTransformerInterface
 >
 frame_transformer
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 =
@@ -906,7 +906,7 @@ FrameCountObserver
 *
 frame_count_observer
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 =
@@ -961,7 +961,7 @@ RtpPayloadState
 &
 suspended_payload_states
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 =

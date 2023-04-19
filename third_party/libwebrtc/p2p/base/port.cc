@@ -656,7 +656,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )
@@ -800,7 +800,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )

@@ -491,7 +491,7 @@ const
 override
 ;
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 (

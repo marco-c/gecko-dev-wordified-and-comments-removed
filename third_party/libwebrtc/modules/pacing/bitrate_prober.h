@@ -69,7 +69,7 @@ explicit
 BitrateProberConfig
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )
@@ -143,7 +143,7 @@ explicit
 BitrateProber
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

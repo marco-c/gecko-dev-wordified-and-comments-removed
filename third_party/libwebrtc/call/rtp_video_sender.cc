@@ -310,7 +310,7 @@ string
 &
 payload_name
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
@@ -389,7 +389,7 @@ RtpConfig
 &
 rtp_config
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
@@ -672,7 +672,7 @@ suspended_ssrcs
 int
 simulcast_index
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
@@ -1111,7 +1111,7 @@ FrameTransformerInterface
 >
 frame_transformer
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
@@ -2026,7 +2026,7 @@ FrameTransformerInterface
 >
 frame_transformer
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

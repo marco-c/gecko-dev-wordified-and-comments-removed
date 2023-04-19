@@ -1237,7 +1237,7 @@ GetStats
 ;
 }
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 DegradedCall
 :

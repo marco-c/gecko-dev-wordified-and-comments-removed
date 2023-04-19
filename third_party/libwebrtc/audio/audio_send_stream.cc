@@ -624,7 +624,7 @@ AudioAllocationConfig
 AudioAllocationConfig
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -745,7 +745,7 @@ RtpState
 &
 suspended_rtp_state
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -871,7 +871,7 @@ ChannelSendInterface
 >
 channel_send
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

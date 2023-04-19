@@ -320,7 +320,7 @@ ProbeControllerConfig
 ProbeControllerConfig
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )
@@ -575,7 +575,7 @@ ProbeController
 ProbeController
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 RtcEventLog

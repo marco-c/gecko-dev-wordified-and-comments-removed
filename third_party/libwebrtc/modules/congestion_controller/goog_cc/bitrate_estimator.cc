@@ -114,7 +114,7 @@ BitrateEstimator
 BitrateEstimator
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )

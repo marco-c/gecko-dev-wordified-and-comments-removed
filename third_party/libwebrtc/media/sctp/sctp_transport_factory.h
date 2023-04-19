@@ -14,9 +14,7 @@ include
 "
 api
 /
-transport
-/
-sctp_transport_factory_interface
+field_trials_view
 .
 h
 "
@@ -25,7 +23,9 @@ include
 "
 api
 /
-webrtc_key_value_config
+transport
+/
+sctp_transport_factory_interface
 .
 h
 "
@@ -87,7 +87,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

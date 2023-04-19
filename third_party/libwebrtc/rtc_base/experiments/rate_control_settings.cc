@@ -143,7 +143,7 @@ bool
 IsEnabled
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 const
 key_value_config
@@ -177,7 +177,7 @@ void
 ParseHysteresisFactor
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 const
 key_value_config
@@ -450,7 +450,7 @@ RateControlSettings
 RateControlSettings
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 const
 key_value_config
@@ -600,7 +600,7 @@ RateControlSettings
 ParseFromKeyValueConfig
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 const
 key_value_config

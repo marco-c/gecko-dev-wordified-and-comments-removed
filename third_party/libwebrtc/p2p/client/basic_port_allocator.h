@@ -24,7 +24,7 @@ include
 "
 api
 /
-turn_customizer
+field_trials_view
 .
 h
 "
@@ -33,7 +33,7 @@ include
 "
 api
 /
-webrtc_key_value_config
+turn_customizer
 .
 h
 "
@@ -345,7 +345,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 (
@@ -378,7 +378,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )
@@ -394,7 +394,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials_
 ;
@@ -406,7 +406,7 @@ unique_ptr
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 >
 owned_field_trials_
 ;
@@ -1487,7 +1487,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 =

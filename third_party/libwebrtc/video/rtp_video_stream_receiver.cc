@@ -70,7 +70,7 @@ include
 "
 api
 /
-webrtc_key_value_config
+field_trials_view
 .
 h
 "
@@ -451,7 +451,7 @@ int
 PacketBufferMaxSize
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -1204,7 +1204,7 @@ FrameTransformerInterface
 >
 frame_transformer
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )
@@ -1291,7 +1291,7 @@ FrameTransformerInterface
 >
 frame_transformer
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )

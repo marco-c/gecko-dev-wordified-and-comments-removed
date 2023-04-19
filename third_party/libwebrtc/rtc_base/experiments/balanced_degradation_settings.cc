@@ -2133,7 +2133,7 @@ BalancedDegradationSettings
 BalancedDegradationSettings
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

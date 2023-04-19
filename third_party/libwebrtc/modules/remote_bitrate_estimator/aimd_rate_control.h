@@ -27,9 +27,7 @@ include
 "
 api
 /
-transport
-/
-network_types
+field_trials_view
 .
 h
 "
@@ -40,7 +38,7 @@ api
 /
 transport
 /
-webrtc_key_value_config
+network_types
 .
 h
 "
@@ -115,7 +113,7 @@ explicit
 AimdRateControl
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )
@@ -123,7 +121,7 @@ key_value_config
 AimdRateControl
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 bool

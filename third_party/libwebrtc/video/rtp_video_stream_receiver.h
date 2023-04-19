@@ -572,7 +572,7 @@ FrameTransformerInterface
 >
 frame_transformer
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 =
@@ -638,7 +638,7 @@ FrameTransformerInterface
 >
 frame_transformer
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 =
@@ -1389,7 +1389,7 @@ worker_task_checker_
 )
 ;
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials_
 ;

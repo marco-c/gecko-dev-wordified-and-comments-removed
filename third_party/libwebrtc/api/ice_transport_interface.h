@@ -82,7 +82,7 @@ namespace
 webrtc
 {
 class
-WebRtcKeyValueConfig
+FieldTrialsView
 ;
 class
 IceTransportInterface
@@ -315,7 +315,7 @@ ice_controller_factory_
 ;
 }
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 (
@@ -329,7 +329,7 @@ void
 set_field_trials
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )
@@ -378,7 +378,7 @@ ice_controller_factory_
 nullptr
 ;
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials_
 =

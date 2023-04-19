@@ -72,7 +72,7 @@ ObjCNetworkMonitorFactory
 CreateNetworkMonitor
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

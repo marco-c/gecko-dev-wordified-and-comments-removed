@@ -217,7 +217,7 @@ BweSeparateAudioPacketsSettings
 BweSeparateAudioPacketsSettings
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )
@@ -323,7 +323,7 @@ DelayBasedBwe
 DelayBasedBwe
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 RtcEventLog

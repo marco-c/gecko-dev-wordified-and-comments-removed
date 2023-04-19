@@ -89,7 +89,7 @@ int
 >
 decoder_settings
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )

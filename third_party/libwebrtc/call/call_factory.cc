@@ -142,7 +142,7 @@ bool
 ParseConfigParam
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 absl
@@ -210,7 +210,7 @@ TimeScopedNetworkConfig
 ParseDegradationConfig
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 bool
@@ -441,7 +441,7 @@ TimeScopedNetworkConfig
 GetNetworkConfigs
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 bool

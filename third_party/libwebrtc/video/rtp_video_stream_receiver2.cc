@@ -425,7 +425,7 @@ int
 PacketBufferMaxSize
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -703,7 +703,7 @@ KeyFrameRequestSender
 *
 keyframe_request_sender
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -1188,7 +1188,7 @@ FrameTransformerInterface
 >
 frame_transformer
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

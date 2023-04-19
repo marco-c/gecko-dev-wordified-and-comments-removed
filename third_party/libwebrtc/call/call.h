@@ -565,7 +565,7 @@ preferences
 ;
 virtual
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 (

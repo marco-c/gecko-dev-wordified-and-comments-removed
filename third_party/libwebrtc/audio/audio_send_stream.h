@@ -24,7 +24,7 @@ include
 "
 api
 /
-sequence_checker
+field_trials_view
 .
 h
 "
@@ -33,7 +33,7 @@ include
 "
 api
 /
-webrtc_key_value_config
+sequence_checker
 .
 h
 "
@@ -229,7 +229,7 @@ explicit
 AudioAllocationConfig
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -313,7 +313,7 @@ RtpState
 &
 suspended_rtp_state
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -380,7 +380,7 @@ ChannelSendInterface
 >
 channel_send
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -787,7 +787,7 @@ Clock
 clock_
 ;
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials_
 ;

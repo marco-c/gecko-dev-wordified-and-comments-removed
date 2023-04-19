@@ -56,7 +56,7 @@ include
 "
 api
 /
-rtc_error
+field_trials_view
 .
 h
 "
@@ -65,7 +65,7 @@ include
 "
 api
 /
-webrtc_key_value_config
+rtc_error
 .
 h
 "
@@ -150,7 +150,7 @@ SrtpTransport
 bool
 rtcp_mux_enabled
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -694,7 +694,7 @@ decryption_failure_count_
 0
 ;
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials_
 ;

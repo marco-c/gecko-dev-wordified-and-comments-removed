@@ -30,9 +30,7 @@ include
 "
 api
 /
-transport
-/
-network_types
+field_trials_view
 .
 h
 "
@@ -43,7 +41,7 @@ api
 /
 transport
 /
-webrtc_key_value_config
+network_types
 .
 h
 "
@@ -98,7 +96,7 @@ public
 AcknowledgedBitrateEstimator
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 std
@@ -115,7 +113,7 @@ explicit
 AcknowledgedBitrateEstimator
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )

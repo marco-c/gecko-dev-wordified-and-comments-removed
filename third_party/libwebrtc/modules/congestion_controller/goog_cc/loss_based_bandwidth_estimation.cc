@@ -450,7 +450,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 key_value_config
 absl
@@ -485,7 +485,7 @@ LossBasedControlConfig
 LossBasedControlConfig
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )
@@ -764,7 +764,7 @@ LossBasedBandwidthEstimation
 LossBasedBandwidthEstimation
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )

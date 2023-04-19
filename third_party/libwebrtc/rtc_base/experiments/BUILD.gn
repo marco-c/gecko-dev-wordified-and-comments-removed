@@ -134,10 +134,8 @@ rtc_base_approved
 .
 /
 api
-/
-transport
 :
-field_trial_based_config
+field_trials_view
 "
 "
 .
@@ -150,7 +148,7 @@ api
 /
 transport
 :
-webrtc_key_value_config
+field_trial_based_config
 "
 ]
 absl_deps
@@ -402,10 +400,8 @@ rtc_base_approved
 .
 /
 api
-/
-transport
 :
-field_trial_based_config
+field_trials_view
 "
 "
 .
@@ -418,7 +414,7 @@ api
 /
 transport
 :
-webrtc_key_value_config
+field_trial_based_config
 "
 "
 .
@@ -495,10 +491,8 @@ rtc_base_approved
 .
 /
 api
-/
-transport
 :
-field_trial_based_config
+field_trials_view
 "
 "
 .
@@ -511,7 +505,7 @@ api
 /
 transport
 :
-webrtc_key_value_config
+field_trial_based_config
 "
 "
 .
@@ -588,10 +582,8 @@ rtc_base_approved
 .
 /
 api
-/
-transport
 :
-field_trial_based_config
+field_trials_view
 "
 "
 .
@@ -604,7 +596,7 @@ api
 /
 transport
 :
-webrtc_key_value_config
+field_trial_based_config
 "
 "
 .
@@ -821,7 +813,7 @@ rtc_base_approved
 /
 api
 :
-webrtc_key_value_config
+field_trials_view
 "
 "
 .
@@ -1197,10 +1189,8 @@ rtc_base_approved
 .
 /
 api
-/
-transport
 :
-field_trial_based_config
+field_trials_view
 "
 "
 .
@@ -1213,7 +1203,7 @@ api
 /
 transport
 :
-webrtc_key_value_config
+field_trial_based_config
 "
 "
 .
@@ -1322,10 +1312,8 @@ field_trial_parser
 .
 /
 api
-/
-transport
 :
-field_trial_based_config
+field_trials_view
 "
 "
 .
@@ -1338,7 +1326,7 @@ api
 /
 transport
 :
-webrtc_key_value_config
+field_trial_based_config
 "
 ]
 absl_deps
@@ -1401,10 +1389,8 @@ rate_control_settings
 .
 /
 api
-/
-transport
 :
-field_trial_based_config
+field_trials_view
 "
 "
 .
@@ -1417,7 +1403,7 @@ api
 /
 transport
 :
-webrtc_key_value_config
+field_trial_based_config
 "
 ]
 absl_deps

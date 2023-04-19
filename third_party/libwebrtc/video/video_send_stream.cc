@@ -338,7 +338,7 @@ Config
 &
 config
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -590,7 +590,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 bitrate_allocation_callback_type
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )
@@ -749,7 +749,7 @@ FecController
 >
 fec_controller
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

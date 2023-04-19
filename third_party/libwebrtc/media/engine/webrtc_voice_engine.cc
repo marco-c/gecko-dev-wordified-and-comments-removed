@@ -104,9 +104,7 @@ include
 "
 api
 /
-transport
-/
-webrtc_key_value_config
+field_trials_view
 .
 h
 "
@@ -856,7 +854,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )
@@ -1263,7 +1261,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 config
 absl
@@ -1403,7 +1401,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
@@ -1870,7 +1868,7 @@ const
 webrtc
 :
 :
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )

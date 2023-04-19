@@ -193,7 +193,7 @@ SrtpTransport
 bool
 rtcp_mux_enabled
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

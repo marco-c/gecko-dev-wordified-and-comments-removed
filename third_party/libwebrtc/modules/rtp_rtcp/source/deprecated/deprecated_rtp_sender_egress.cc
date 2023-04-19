@@ -126,7 +126,7 @@ absl
 string_view
 name
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 field_trials
 )

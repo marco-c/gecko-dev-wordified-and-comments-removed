@@ -41,7 +41,7 @@ include
 "
 api
 /
-webrtc_key_value_config
+field_trials_view
 .
 h
 "
@@ -134,7 +134,7 @@ OnDecryptionStatusChangeCallback
 *
 decryption_status_change_callback
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

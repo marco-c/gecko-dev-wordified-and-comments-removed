@@ -342,7 +342,7 @@ bool
 IsEnabled
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 absl
@@ -374,7 +374,7 @@ bool
 IsDisabled
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 absl
@@ -443,7 +443,7 @@ PacerSettings
 PacerSettings
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )
@@ -534,7 +534,7 @@ TaskQueueFactory
 *
 task_queue_factory
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 trials
 )

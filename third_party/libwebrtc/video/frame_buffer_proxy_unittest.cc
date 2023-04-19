@@ -1114,7 +1114,7 @@ bool
 IsFrameBuffer2Enabled
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 &
 field_trials
 )

@@ -19,7 +19,7 @@ field_trial
 .
 Instead
 use
-WebRtcKeyValueConfig
+FieldTrialsView
 .
 "
 -

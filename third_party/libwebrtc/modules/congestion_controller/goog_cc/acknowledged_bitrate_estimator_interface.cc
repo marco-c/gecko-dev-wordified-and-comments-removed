@@ -69,7 +69,7 @@ RobustThroughputEstimatorSettings
 RobustThroughputEstimatorSettings
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )
@@ -364,7 +364,7 @@ AcknowledgedBitrateEstimatorInterface
 Create
 (
 const
-WebRtcKeyValueConfig
+FieldTrialsView
 *
 key_value_config
 )
