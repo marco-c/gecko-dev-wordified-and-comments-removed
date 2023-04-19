@@ -3453,7 +3453,7 @@ TaskQueueFactory
 task_queue_factory
 TaskQueueBase
 *
-network_queue
+worker_queue
 BitrateAllocationCallbackType
 allocation_cb_type
 )
@@ -3466,10 +3466,6 @@ TaskQueueBase
 Current
 (
 )
-)
-network_queue_
-(
-network_queue
 )
 number_of_cores_
 (
@@ -3853,7 +3849,7 @@ VideoStreamEncoder
 "
 )
 ;
-RTC_DCHECK
+RTC_DCHECK_RUN_ON
 (
 worker_queue_
 )
@@ -7302,10 +7298,9 @@ VideoFrame
 video_frame
 )
 {
-RTC_DCHECK_RUNS_SERIALIZED
+RTC_DCHECK_RUN_ON
 (
-&
-incoming_frame_race_checker_
+worker_queue_
 )
 ;
 VideoFrame

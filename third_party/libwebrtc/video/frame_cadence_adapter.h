@@ -14,6 +14,17 @@ include
 "
 api
 /
+task_queue
+/
+task_queue_base
+.
+h
+"
+#
+include
+"
+api
+/
 video
 /
 video_frame
@@ -113,6 +124,9 @@ FrameCadenceAdapterInterface
 >
 Create
 (
+TaskQueueBase
+*
+worker_queue
 )
 ;
 virtual
