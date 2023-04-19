@@ -433,6 +433,7 @@ accumulatedResult
 ;
 }
 return
+(
 accumulatedResult
 +
 Substring
@@ -442,6 +443,7 @@ nextSourcePosition
 lengthS
 -
 nextSourcePosition
+)
 )
 ;
 }

@@ -1523,6 +1523,7 @@ accumulatedResult
 ;
 }
 return
+(
 accumulatedResult
 +
 Substring
@@ -1532,6 +1533,7 @@ nextSourcePosition
 lengthS
 -
 nextSourcePosition
+)
 )
 ;
 }
@@ -2262,6 +2264,7 @@ accumulatedResult
 ;
 }
 return
+(
 accumulatedResult
 +
 Substring
@@ -2271,6 +2274,7 @@ nextSourcePosition
 lengthS
 -
 nextSourcePosition
+)
 )
 ;
 }
@@ -3903,6 +3907,7 @@ RegExpCtor
 prototype
 ;
 return
+(
 RegExpPrototypeOptimizable
 (
 RegExpProto
@@ -3913,6 +3918,7 @@ RegExpInstanceOptimizable
 (
 rx
 RegExpProto
+)
 )
 ;
 }
@@ -4264,6 +4270,7 @@ RegExp
 )
 ;
 return
+(
 RegExpPrototypeOptimizable
 (
 RegExpProto
@@ -4277,6 +4284,7 @@ exec
 =
 =
 RegExp_prototype_Exec
+)
 ;
 }
 function
