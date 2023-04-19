@@ -10658,8 +10658,16 @@ PeerConnectionState
 :
 :
 kConnected
+&
+&
+!
+was_ever_connected_
 )
 {
+was_ever_connected_
+=
+true
+;
 BundlePolicyUsage
 policy
 =

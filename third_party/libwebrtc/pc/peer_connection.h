@@ -3727,6 +3727,17 @@ PeerConnection
 >
 weak_factory_
 ;
+bool
+was_ever_connected_
+RTC_GUARDED_BY
+(
+signaling_thread
+(
+)
+)
+=
+false
+;
 }
 ;
 }
