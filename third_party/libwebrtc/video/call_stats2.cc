@@ -428,10 +428,9 @@ RTC_DCHECK
 task_queue_
 )
 ;
-process_thread_checker_
-.
-Detach
+RTC_DCHECK_RUN_ON
 (
+task_queue_
 )
 ;
 repeating_task_
@@ -470,8 +469,7 @@ CallStats
 {
 RTC_DCHECK_RUN_ON
 (
-&
-construction_thread_checker_
+task_queue_
 )
 ;
 RTC_DCHECK
@@ -504,8 +502,7 @@ UpdateAndReport
 {
 RTC_DCHECK_RUN_ON
 (
-&
-construction_thread_checker_
+task_queue_
 )
 ;
 RemoveOldReports
@@ -594,8 +591,7 @@ observer
 {
 RTC_DCHECK_RUN_ON
 (
-&
-construction_thread_checker_
+task_queue_
 )
 ;
 if
@@ -631,8 +627,7 @@ observer
 {
 RTC_DCHECK_RUN_ON
 (
-&
-construction_thread_checker_
+task_queue_
 )
 ;
 observers_
@@ -654,8 +649,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-&
-construction_thread_checker_
+task_queue_
 )
 ;
 return
@@ -695,8 +689,7 @@ now_ms
 {
 RTC_DCHECK_RUN_ON
 (
-&
-construction_thread_checker_
+task_queue_
 )
 ;
 reports_
@@ -775,8 +768,7 @@ UpdateHistograms
 {
 RTC_DCHECK_RUN_ON
 (
-&
-construction_thread_checker_
+task_queue_
 )
 ;
 if
