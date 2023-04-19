@@ -53,9 +53,9 @@ mjs
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -71,7 +71,9 @@ modules
 /
 ScreenshotsUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

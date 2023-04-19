@@ -151,7 +151,9 @@ Files
 "
 ScreenshotsComponentChild
 .
-jsm
+sys
+.
+mjs
 "
 )
 :
@@ -453,7 +455,9 @@ jsm
 "
 ScreenshotsComponentChild
 .
-jsm
+sys
+.
+mjs
 "
 "
 SearchSERPTelemetryChild
