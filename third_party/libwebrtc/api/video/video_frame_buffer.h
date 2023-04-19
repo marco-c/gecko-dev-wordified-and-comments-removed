@@ -629,6 +629,7 @@ override
 }
 ;
 class
+RTC_EXPORT
 NV12BufferInterface
 :
 public
