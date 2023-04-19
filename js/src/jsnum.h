@@ -312,10 +312,8 @@ sbufSize
 char
 *
 dbuf
-;
-ToCStringBuf
-(
-)
+=
+nullptr
 ;
 ~
 ToCStringBuf
