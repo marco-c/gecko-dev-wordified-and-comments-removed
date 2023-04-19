@@ -28,6 +28,17 @@ PRUNE_BASED_ON_PRIORITY
 KEEP_FIRST_READY
 }
 ;
+enum
+class
+VpnPreference
+{
+kDefault
+kOnlyUseVpn
+kNeverUseVpn
+kPreferVpn
+kAvoidVpn
+}
+;
 }
 #
 endif

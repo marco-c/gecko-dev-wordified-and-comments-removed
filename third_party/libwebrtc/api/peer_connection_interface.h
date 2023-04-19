@@ -1691,6 +1691,14 @@ int
 >
 stable_writable_connection_ping_interval_ms
 ;
+VpnPreference
+vpn_preference
+=
+VpnPreference
+:
+:
+kDefault
+;
 }
 ;
 struct
