@@ -1247,6 +1247,12 @@ return
 false
 ;
 }
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 JS
 :
 :
@@ -1264,6 +1270,8 @@ char16_t
 parser
 (
 cx
+&
+ec
 options
 chars
 .

@@ -24614,6 +24614,12 @@ return
 false
 ;
 }
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 Parser
 <
 FullParseHandler
@@ -24622,6 +24628,8 @@ char16_t
 parser
 (
 cx
+&
+ec
 options
 chars
 .

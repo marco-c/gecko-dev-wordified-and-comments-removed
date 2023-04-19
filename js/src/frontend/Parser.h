@@ -479,8 +479,8 @@ foldConstants_
 ;
 protected
 :
-mutable
-GeneralErrorContext
+ErrorContext
+*
 ec_
 ;
 #
@@ -605,6 +605,9 @@ ParserBase
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :
@@ -718,7 +721,6 @@ const
 override
 {
 return
-&
 ec_
 ;
 }
@@ -1276,6 +1278,9 @@ PerHandlerParser
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :
@@ -1305,6 +1310,9 @@ PerHandlerParser
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :
@@ -1329,6 +1337,7 @@ syntaxParser
 PerHandlerParser
 (
 cx
+ec
 options
 foldConstants
 compilationState
@@ -2878,6 +2887,9 @@ GeneralParser
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :

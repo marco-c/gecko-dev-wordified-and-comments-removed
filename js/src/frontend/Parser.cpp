@@ -916,6 +916,9 @@ ParserBase
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 ReadOnlyCompileOptions
 &
@@ -955,7 +958,7 @@ foldConstants
 )
 ec_
 (
-cx
+ec
 )
 #
 ifdef
@@ -1035,6 +1038,9 @@ PerHandlerParser
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 ReadOnlyCompileOptions
 &
@@ -1052,6 +1058,7 @@ internalSyntaxParser
 ParserBase
 (
 cx
+ec
 options
 foldConstants
 compilationState
@@ -1104,6 +1111,9 @@ GeneralParser
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 ReadOnlyCompileOptions
 &
@@ -1127,6 +1137,7 @@ syntaxParser
 Base
 (
 cx
+ec
 options
 foldConstants
 compilationState
