@@ -152,8 +152,10 @@ DegradationPreference
 :
 :
 BALANCED
-&
-&
+)
+{
+if
+(
 !
 balanced_settings_
 .
@@ -226,6 +228,7 @@ value_or
 return
 false
 ;
+}
 }
 return
 true
