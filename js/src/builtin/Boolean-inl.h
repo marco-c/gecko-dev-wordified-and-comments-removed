@@ -18,15 +18,6 @@ include
 "
 vm
 /
-BooleanObject
-.
-h
-"
-#
-include
-"
-vm
-/
 JSContext
 .
 h

@@ -36,7 +36,7 @@ include
 "
 vm
 /
-ArgumentsObject
+ObjectOperations
 -
 inl
 .
