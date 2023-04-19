@@ -3094,9 +3094,13 @@ false
 ;
 uint16_t
 padding1
+=
+0
 ;
 uint32_t
 padding2
+=
+0
 ;
 auto
 MutTiedFields
