@@ -24,6 +24,7 @@ IsCallable
 adder
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -31,6 +32,7 @@ typeof
 adder
 )
 ;
+}
 for
 (
 var
@@ -41,6 +43,7 @@ allowContentIter
 iterable
 )
 )
+{
 callContentFunction
 (
 adder
@@ -48,4 +51,5 @@ set
 nextValue
 )
 ;
+}
 }

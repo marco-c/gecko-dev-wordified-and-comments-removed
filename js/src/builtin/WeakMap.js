@@ -24,6 +24,7 @@ IsCallable
 adder
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -31,6 +32,7 @@ typeof
 adder
 )
 ;
+}
 for
 (
 var
@@ -50,6 +52,7 @@ IsObject
 nextItem
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_INVALID_MAP_ITERABLE
@@ -58,6 +61,7 @@ WeakMap
 "
 )
 ;
+}
 callContentFunction
 (
 adder
