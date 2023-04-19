@@ -16293,7 +16293,7 @@ CodeOffset
 slowCallOffset
 )
 ;
-CodeOffset
+void
 wasmCallRef
 (
 const
@@ -16310,6 +16310,12 @@ wasm
 CalleeDesc
 &
 callee
+CodeOffset
+*
+fastCallOffset
+CodeOffset
+*
+slowCallOffset
 )
 ;
 CodeOffset
