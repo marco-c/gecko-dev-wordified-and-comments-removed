@@ -10239,11 +10239,11 @@ mRequestContextID
 ;
 openArgs
 .
-corsMode
+requestMode
 (
 )
 =
-mCorsMode
+mRequestMode
 ;
 openArgs
 .

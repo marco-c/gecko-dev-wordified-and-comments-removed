@@ -566,9 +566,12 @@ nsCString
 &
 aContentTypeHint
 const
-uint32_t
+dom
+:
+:
+RequestMode
 &
-aCorsMode
+aRequestMode
 const
 uint32_t
 &
