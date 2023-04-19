@@ -99,6 +99,9 @@ const
 FileSystemReadWriteOptions
 &
 aOptions
+ErrorResult
+&
+aRv
 )
 ;
 uint64_t
@@ -112,6 +115,9 @@ const
 FileSystemReadWriteOptions
 &
 aOptions
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
