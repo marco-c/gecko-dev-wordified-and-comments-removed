@@ -4283,6 +4283,11 @@ pending_task_safety_flag
 "
 task_utils
 :
+repeating_task
+"
+"
+task_utils
+:
 to_queued_task
 "
 "
@@ -7176,6 +7181,11 @@ mutex
 synchronization
 :
 synchronization_unittests
+"
+"
+task_utils
+:
+pending_task_safety_flag
 "
 "
 task_utils
