@@ -89,6 +89,11 @@ SetNotAlive
 (
 )
 ;
+void
+SetAlive
+(
+)
+;
 bool
 alive
 (
