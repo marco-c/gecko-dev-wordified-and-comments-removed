@@ -4937,6 +4937,26 @@ platform
             
 if
 "
+chrome
+-
+m
+"
+in
+try_name
+and
+"
+-
+a51
+"
+in
+platform
+:
+                
+return
+False
+            
+if
+"
 fennec
 "
 in
