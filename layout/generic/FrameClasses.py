@@ -189,17 +189,6 @@ NOT_LEAF
 Frame
 (
 "
-nsDeckFrame
-"
-"
-Deck
-"
-NOT_LEAF
-)
-    
-Frame
-(
-"
 nsDocElementBoxFrame
 "
 "

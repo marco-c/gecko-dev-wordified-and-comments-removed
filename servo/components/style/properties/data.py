@@ -2951,7 +2951,7 @@ MasonryAutoFlow
 "
                 
 "
-MozForceBrokenImageIcon
+BoolInteger
 "
                 
 "

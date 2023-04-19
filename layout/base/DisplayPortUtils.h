@@ -625,6 +625,9 @@ aBuilder
 nsIFrame
 *
 aScrollFrame
+nsIScrollableFrame
+*
+aScrollFrameAsScrollable
 RepaintMode
 aRepaintMode
 )
