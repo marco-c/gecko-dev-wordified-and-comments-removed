@@ -9711,6 +9711,15 @@ mBCoord
 +
 nonCarriedOutBDirMargin
 ;
+ApplyLineClamp
+(
+aState
+.
+mReflowInput
+this
+contentBSizeWithBStartBP
+)
+;
 finalSize
 .
 BSize
