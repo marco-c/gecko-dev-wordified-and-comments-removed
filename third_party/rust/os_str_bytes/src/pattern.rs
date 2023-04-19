@@ -1,4 +1,13 @@
 use
+std
+:
+:
+fmt
+:
+:
+Debug
+;
+use
 super
 :
 :
@@ -27,6 +36,7 @@ u8
 derive
 (
 Clone
+Debug
 )
 ]
 pub
@@ -49,10 +59,6 @@ Encoded
 for
 EncodedChar
 {
-#
-[
-inline
-]
 fn
 __get
 (
@@ -85,10 +91,6 @@ for
 &
 str
 {
-#
-[
-inline
-]
 fn
 __get
 (
@@ -147,6 +149,8 @@ type
 __Encoded
 :
 Clone
++
+Debug
 +
 Encoded
 ;
