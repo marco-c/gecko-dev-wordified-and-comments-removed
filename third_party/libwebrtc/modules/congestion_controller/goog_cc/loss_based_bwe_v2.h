@@ -656,6 +656,12 @@ TrendlineEsimateAllowBitrateIncrease
 const
 ;
 bool
+TrendlineEsimateAllowEmergencyBackoff
+(
+)
+const
+;
+bool
 PushBackObservation
 (
 rtc
