@@ -1575,8 +1575,6 @@ LAllocation
 value
 MIRType
 valueType
-MIRType
-elementType
 Register
 elements
 const
