@@ -7442,6 +7442,15 @@ edit
 !
 *
 /
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 js
 {
