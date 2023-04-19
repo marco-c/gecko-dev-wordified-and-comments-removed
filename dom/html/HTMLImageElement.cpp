@@ -5710,6 +5710,10 @@ DestroyContent
 (
 )
 {
+mPendingImageLoadTask
+=
+nullptr
+;
 mResponsiveSelector
 =
 nullptr
