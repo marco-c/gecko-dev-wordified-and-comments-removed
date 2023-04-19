@@ -24,6 +24,11 @@ FileSystemManagerParentFactory
 .
 h
 "
+"
+FileSystemQuotaClient
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -41,6 +46,11 @@ cpp
 "
 "
 FileSystemManagerParentFactory
+.
+cpp
+"
+"
+FileSystemQuotaClient
 .
 cpp
 "

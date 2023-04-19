@@ -117,6 +117,12 @@ sdb
 "
 #
 define
+FILESYSTEM_DIRECTORY_NAME
+"
+fs
+"
+#
+define
 LS_DIRECTORY_NAME
 "
 ls
@@ -184,6 +190,7 @@ IDB
 0
 DOMCACHE
 SDB
+FILESYSTEM
 LS
 TYPE_MAX
 }
