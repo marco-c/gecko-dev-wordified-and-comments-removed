@@ -176,14 +176,6 @@ void
 )
 ;
 void
-moz_container_unmap
-(
-GtkWidget
-*
-widget
-)
-;
-void
 moz_container_put
 (
 MozContainer
