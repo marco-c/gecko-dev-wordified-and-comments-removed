@@ -1310,7 +1310,7 @@ DataRate
 :
 KilobitsPerSec
 (
-12
+16
 )
 ;
 bool

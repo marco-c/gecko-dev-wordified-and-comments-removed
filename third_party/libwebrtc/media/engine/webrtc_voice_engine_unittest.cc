@@ -8132,7 +8132,7 @@ kSsrcX
 ;
 EXPECT_EQ
 (
-12000
+16000
 GetSendStreamConfig
 (
 kSsrcX
