@@ -12433,13 +12433,11 @@ src
 frame
 -
 >
-argv
+actualArgs
 (
 )
 +
 numFormals
-+
-1
 ;
 JSObject
 *

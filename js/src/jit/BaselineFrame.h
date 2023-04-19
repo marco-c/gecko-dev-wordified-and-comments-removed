@@ -717,12 +717,9 @@ framePrefix
 )
 -
 >
-argv
+thisv
 (
 )
-[
-0
-]
 ;
 }
 Value
@@ -738,11 +735,9 @@ framePrefix
 )
 -
 >
-argv
+actualArgs
 (
 )
-+
-1
 ;
 }
 [

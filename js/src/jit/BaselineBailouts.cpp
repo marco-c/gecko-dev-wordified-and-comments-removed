@@ -7623,11 +7623,9 @@ startFrame
 )
 -
 >
-argv
+actualArgs
 (
 )
-+
-1
 ;
 mozilla
 :
