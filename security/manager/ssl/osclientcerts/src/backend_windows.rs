@@ -7,10 +7,7 @@ non_camel_case_types
 )
 ]
 use
-pkcs11
-:
-:
-types
+pkcs11_bindings
 :
 :
 *

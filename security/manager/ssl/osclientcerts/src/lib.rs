@@ -66,7 +66,7 @@ log
 ;
 extern
 crate
-pkcs11
+pkcs11_bindings
 ;
 #
 [
@@ -96,10 +96,7 @@ crate
 winapi
 ;
 use
-pkcs11
-:
-:
-types
+pkcs11_bindings
 :
 :
 *
@@ -491,7 +488,7 @@ C_Initialize
 (
 _pInitArgs
 :
-CK_C_INITIALIZE_ARGS_PTR
+CK_VOID_PTR
 )
 -
 >
@@ -2506,7 +2503,7 @@ push
 (
 attr
 .
-attrType
+type_
 )
 ;
 }
@@ -2847,7 +2844,7 @@ unsafe_packed_field_access
 (
 attr
 .
-attrType
+type_
 )
 {
 CKA_CLASS
@@ -2988,7 +2985,7 @@ unsafe_packed_field_access
 (
 attr
 .
-attrType
+type_
 )
 )
 }
@@ -3031,7 +3028,7 @@ trace
 CK_ATTRIBUTE
 {
 {
-attrType
+type
 :
 {
 }
@@ -3192,7 +3189,7 @@ push
 (
 attr
 .
-attrType
+type_
 slice
 .
 to_owned

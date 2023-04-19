@@ -151,11 +151,13 @@ hack
 "
 }
 pkcs11
+-
+bindings
 =
 "
 0
 .
-4
+1
 "
 rsclientcerts
 =

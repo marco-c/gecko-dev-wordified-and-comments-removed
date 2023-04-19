@@ -88,10 +88,7 @@ Symbol
 }
 ;
 use
-pkcs11
-:
-:
-types
+pkcs11_bindings
 :
 :
 *
