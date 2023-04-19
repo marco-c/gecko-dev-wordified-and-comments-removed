@@ -171,8 +171,6 @@ await
 window
 .
 AWGetFxAMetricsFlowURI
-?
-.
 (
 )
 }
