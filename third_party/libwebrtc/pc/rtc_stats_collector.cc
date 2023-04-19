@@ -12167,11 +12167,17 @@ stats
 .
 transport_name
 =
+std
+:
+:
+string
+(
 channel
 -
 >
 transport_name
 (
+)
 )
 ;
 if

@@ -1267,15 +1267,6 @@ if
 rtp_transport_
 )
 {
-transport_name_
-=
-rtp_transport_
--
->
-transport_name
-(
-)
-;
 if
 (
 !
@@ -1943,7 +1934,9 @@ media_channel_
 >
 OnNetworkRouteChanged
 (
-transport_name_
+transport_name
+(
+)
 new_route
 )
 ;

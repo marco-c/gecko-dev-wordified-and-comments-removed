@@ -15479,14 +15479,12 @@ channel
 )
 )
 {
-const
 std
 :
 :
 string
-&
 transport_name
-=
+(
 transceiver
 -
 >
@@ -15502,6 +15500,7 @@ channel
 >
 transport_name
 (
+)
 )
 ;
 media_types_by_transport_name
@@ -16350,6 +16349,11 @@ flag
 this
 name
 =
+std
+:
+:
+string
+(
 dtls_transport
 -
 >
@@ -16360,6 +16364,7 @@ internal
 >
 transport_name
 (
+)
 )
 ]
 {

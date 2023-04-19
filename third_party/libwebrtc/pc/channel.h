@@ -622,12 +622,10 @@ return
 content_name_
 ;
 }
-const
-std
+absl
 :
 :
-string
-&
+string_view
 transport_name
 (
 )
@@ -654,7 +652,8 @@ transport_name
 )
 ;
 return
-transport_name_
+"
+"
 ;
 }
 bool
@@ -1474,12 +1473,6 @@ network_thread
 (
 )
 )
-;
-std
-:
-:
-string
-transport_name_
 ;
 webrtc
 :
