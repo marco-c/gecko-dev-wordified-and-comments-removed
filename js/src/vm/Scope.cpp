@@ -143,17 +143,6 @@ h
 #
 include
 "
-gc
-/
-TraceMethods
--
-inl
-.
-h
-"
-#
-include
-"
 wasm
 /
 WasmInstance

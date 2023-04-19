@@ -3467,10 +3467,6 @@ JS
 :
 :
 GCCellPtr
-const
-char
-*
-name
 )
 override
 {

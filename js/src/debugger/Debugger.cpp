@@ -19867,11 +19867,10 @@ isDebuggee
 ;
 if
 (
-!
 tracer
 -
 >
-isMarkingTracer
+isGenericTracer
 (
 )
 )

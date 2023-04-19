@@ -3475,10 +3475,6 @@ JS
 :
 GCCellPtr
 thing
-const
-char
-*
-name
 )
 override
 ;
@@ -4041,10 +4037,6 @@ JS
 :
 GCCellPtr
 thing
-const
-char
-*
-name
 )
 {
 if
@@ -4080,7 +4072,6 @@ context
 .
 getEdgeName
 (
-name
 buffer
 sizeof
 (

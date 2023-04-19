@@ -1272,10 +1272,6 @@ JS
 :
 GCCellPtr
 thing
-const
-char
-*
-name
 )
 override
 {
@@ -1375,7 +1371,6 @@ context
 .
 getEdgeName
 (
-name
 buffer
 sizeof
 (
@@ -1383,6 +1378,9 @@ buffer
 )
 )
 ;
+const
+char
+*
 name
 =
 buffer

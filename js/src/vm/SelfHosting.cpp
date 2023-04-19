@@ -14209,10 +14209,6 @@ JS
 :
 GCCellPtr
 thing
-const
-char
-*
-name
 )
 override
 {
