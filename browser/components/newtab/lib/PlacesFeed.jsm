@@ -1665,7 +1665,7 @@ https
 pocketSiteHost
 }
 /
-ff_signup
+signup
 )
 ;
 url
