@@ -414,6 +414,17 @@ video_codecs_api
 /
 svc
 :
+scalability_structures
+"
+"
+.
+.
+/
+.
+.
+/
+svc
+:
 scalable_video_controller
 "
 ]

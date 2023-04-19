@@ -245,17 +245,6 @@ SimulcastRateAllocatorTest
 (
 )
 {
-memset
-(
-&
-codec_
-0
-sizeof
-(
-VideoCodec
-)
-)
-;
 codec_
 .
 codecType
