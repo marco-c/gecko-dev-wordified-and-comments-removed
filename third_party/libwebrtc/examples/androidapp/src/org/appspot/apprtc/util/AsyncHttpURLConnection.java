@@ -200,6 +200,12 @@ start
 )
 ;
 }
+SuppressWarnings
+(
+"
+UseNetworkAnnotations
+"
+)
 private
 void
 sendHttpMessage

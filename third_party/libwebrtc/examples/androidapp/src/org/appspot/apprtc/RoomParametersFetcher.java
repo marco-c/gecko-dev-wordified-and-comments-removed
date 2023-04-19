@@ -998,6 +998,12 @@ toString
 ;
 }
 }
+SuppressWarnings
+(
+"
+UseNetworkAnnotations
+"
+)
 private
 List
 <
