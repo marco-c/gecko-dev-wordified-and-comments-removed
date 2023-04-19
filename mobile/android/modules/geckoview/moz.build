@@ -133,6 +133,11 @@ GeckoViewTelemetry
 jsm
 "
 "
+GeckoViewTestUtils
+.
+jsm
+"
+"
 GeckoViewUtils
 .
 jsm
