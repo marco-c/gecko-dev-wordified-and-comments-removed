@@ -274,6 +274,17 @@ reporting
 .
 md
 )
+*
+[
+Documentation
+]
+(
+g3doc
+/
+sitemap
+.
+md
+)
 [
 native
 -
