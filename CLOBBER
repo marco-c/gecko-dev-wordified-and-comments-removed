@@ -205,12 +205,7 @@ libwebrtc
 Bug
 1766646
 -
-(
-fix
--
-15a3c3fdca
-)
-restrict
-deps
-in
-windows_version_unittest
+Vendor
+libwebrtc
+from
+26d12fcc71
