@@ -286,7 +286,7 @@ tl
 :
 MulOverflowMask
 <
-4
+2
 *
 EltSize
 >
