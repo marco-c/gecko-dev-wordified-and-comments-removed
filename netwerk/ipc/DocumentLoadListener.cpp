@@ -858,6 +858,12 @@ aBrowsingContext
 aLoadState
 -
 >
+URI
+(
+)
+aLoadState
+-
+>
 TriggeringPrincipal
 (
 )

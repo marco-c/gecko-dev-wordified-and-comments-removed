@@ -2047,6 +2047,17 @@ LOAD_ANONYMOUS
 )
 ;
 }
+bool
+shouldResistFingerprinting
+=
+nsContentUtils
+:
+:
+ShouldResistFingerprinting
+(
+channel
+)
+;
 nsCOMPtr
 <
 nsICookieJarSettings
@@ -2102,6 +2113,7 @@ CookieJarSettings
 :
 :
 ePrivate
+shouldResistFingerprinting
 )
 ;
 }
@@ -2118,6 +2130,7 @@ CookieJarSettings
 :
 :
 eRegular
+shouldResistFingerprinting
 )
 ;
 }

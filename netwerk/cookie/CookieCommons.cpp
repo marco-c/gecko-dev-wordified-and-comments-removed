@@ -1937,6 +1937,17 @@ nsICookieJarSettings
 >
 cookieJarSettings
 ;
+bool
+shouldResistFingerprinting
+=
+nsContentUtils
+:
+:
+ShouldResistFingerprinting
+(
+aChannel
+)
+;
 if
 (
 aChannel
@@ -1987,6 +1998,7 @@ CookieJarSettings
 :
 GetBlockingAll
 (
+shouldResistFingerprinting
 )
 ;
 }
@@ -2004,6 +2016,7 @@ CookieJarSettings
 :
 :
 eRegular
+shouldResistFingerprinting
 )
 ;
 }

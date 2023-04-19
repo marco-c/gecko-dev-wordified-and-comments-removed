@@ -231,6 +231,9 @@ dom
 CanonicalBrowsingContext
 *
 aBrowsingContext
+nsIURI
+*
+aURI
 nsIPrincipal
 *
 aTriggeringPrincipal
@@ -372,6 +375,9 @@ LoadInfo
 nsPIDOMWindowOuter
 *
 aOuterWindow
+nsIURI
+*
+aURI
 nsIPrincipal
 *
 aTriggeringPrincipal
@@ -394,6 +400,9 @@ dom
 CanonicalBrowsingContext
 *
 aBrowsingContext
+nsIURI
+*
+aURI
 nsIPrincipal
 *
 aTriggeringPrincipal

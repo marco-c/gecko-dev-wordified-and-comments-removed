@@ -5675,6 +5675,17 @@ if
 cookieJarSettings
 )
 {
+bool
+shouldResistFingerprinting
+=
+nsContentUtils
+:
+:
+ShouldResistFingerprinting
+(
+aTriggeringPrincipal
+)
+;
 cookieJarSettings
 =
 aIsPrivate
@@ -5694,6 +5705,7 @@ CookieJarSettings
 :
 :
 ePrivate
+shouldResistFingerprinting
 )
 :
 net
@@ -5711,6 +5723,7 @@ CookieJarSettings
 :
 :
 eRegular
+shouldResistFingerprinting
 )
 ;
 }

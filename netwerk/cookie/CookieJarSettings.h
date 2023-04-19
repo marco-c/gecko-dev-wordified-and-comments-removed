@@ -94,6 +94,8 @@ nsICookieJarSettings
 >
 GetBlockingAll
 (
+bool
+aShouldResistFingerprinting
 )
 ;
 enum
@@ -112,6 +114,8 @@ Create
 (
 CreateMode
 aMode
+bool
+aShouldResistFingerprinting
 )
 ;
 static
@@ -152,6 +156,8 @@ bool
 aIsFirstPartyIsolated
 bool
 aIsOnContentBlockingAllowList
+bool
+aShouldResistFingerprinting
 )
 ;
 static
@@ -289,6 +295,8 @@ uint32_t
 aCookieBehavior
 bool
 aIsFirstPartyIsolated
+bool
+aShouldResistFingerprinting
 State
 aState
 )

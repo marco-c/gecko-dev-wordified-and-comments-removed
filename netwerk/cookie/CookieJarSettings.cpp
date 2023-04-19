@@ -439,6 +439,8 @@ CookieJarSettings
 :
 GetBlockingAll
 (
+bool
+aShouldResistFingerprinting
 )
 {
 MOZ_ASSERT
@@ -475,6 +477,7 @@ OriginAttributes
 IsFirstPartyEnabled
 (
 )
+aShouldResistFingerprinting
 eFixed
 )
 ;
@@ -502,6 +505,8 @@ Create
 (
 CreateMode
 aMode
+bool
+aShouldResistFingerprinting
 )
 {
 MOZ_ASSERT
@@ -549,6 +554,7 @@ OriginAttributes
 IsFirstPartyEnabled
 (
 )
+aShouldResistFingerprinting
 eProgressive
 )
 ;
@@ -596,6 +602,17 @@ NS_IsMainThread
 )
 )
 ;
+bool
+shouldResistFingerprinting
+=
+nsContentUtils
+:
+:
+ShouldResistFingerprinting
+(
+aPrincipal
+)
+;
 if
 (
 aPrincipal
@@ -617,6 +634,7 @@ return
 Create
 (
 ePrivate
+shouldResistFingerprinting
 )
 ;
 }
@@ -624,6 +642,7 @@ return
 Create
 (
 eRegular
+shouldResistFingerprinting
 )
 ;
 }
@@ -646,6 +665,8 @@ bool
 aIsFirstPartyIsolated
 bool
 aIsOnContentBlockingAllowList
+bool
+aShouldResistFingerprinting
 )
 {
 MOZ_ASSERT
@@ -666,6 +687,7 @@ CookieJarSettings
 (
 aCookieBehavior
 aIsFirstPartyIsolated
+aShouldResistFingerprinting
 eProgressive
 )
 ;
@@ -713,6 +735,7 @@ return
 Create
 (
 eRegular
+false
 )
 ;
 }
@@ -725,6 +748,8 @@ uint32_t
 aCookieBehavior
 bool
 aIsFirstPartyIsolated
+bool
+aShouldResistFingerprinting
 State
 aState
 )
@@ -755,7 +780,7 @@ false
 )
 mShouldResistFingerprinting
 (
-false
+aShouldResistFingerprinting
 )
 {
 MOZ_ASSERT
@@ -1834,6 +1859,11 @@ cookieBehavior
 aData
 .
 isFirstPartyIsolated
+(
+)
+aData
+.
+shouldResistFingerprinting
 (
 )
 aData

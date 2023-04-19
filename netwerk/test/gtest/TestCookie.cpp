@@ -528,6 +528,7 @@ CookieJarSettings
 :
 :
 eRegular
+false
 )
 :
 CookieJarSettings
@@ -535,6 +536,7 @@ CookieJarSettings
 :
 GetBlockingAll
 (
+false
 )
 ;
 MOZ_ASSERT
