@@ -37,6 +37,14 @@ endif
 namespace
 webrtc
 {
+enum
+class
+CaptureType
+{
+kWindow
+kScreen
+}
+;
 typedef
 intptr_t
 WindowId

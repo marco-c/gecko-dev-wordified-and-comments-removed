@@ -107,6 +107,13 @@ h
 namespace
 webrtc
 {
+bool
+IsWgcSupported
+(
+CaptureType
+capture_type
+)
+;
 class
 SourceEnumerator
 {
