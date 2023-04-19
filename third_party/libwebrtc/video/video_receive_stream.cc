@@ -890,8 +890,11 @@ clock_
 )
 stats_proxy_
 (
-&
 config_
+.
+rtp
+.
+remote_ssrc
 clock_
 )
 rtp_receive_statistics_
