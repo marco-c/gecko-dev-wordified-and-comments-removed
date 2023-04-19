@@ -14,6 +14,12 @@ import
 RequestsMock
 from
 taskgraph
+import
+target_tasks
+as
+target_tasks_mod
+from
+taskgraph
 .
 config
 import
@@ -36,10 +42,6 @@ generator
 optimize
 as
 optimize_mod
-    
-target_tasks
-as
-target_tasks_mod
 )
 from
 gecko_taskgraph
