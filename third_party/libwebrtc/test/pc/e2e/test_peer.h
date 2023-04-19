@@ -373,7 +373,7 @@ CreateOffer
 (
 observer
 .
-release
+get
 (
 )
 params_
