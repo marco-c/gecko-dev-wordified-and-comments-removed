@@ -182,6 +182,7 @@ messageHandlerEvent
 const
 {
 name
+contextInfo
 data
 sessionId
 }
@@ -293,6 +294,7 @@ emitEvent
 (
 name
 eventPayload
+contextInfo
 )
 ;
 break

@@ -1158,7 +1158,7 @@ is
 events2
 .
 length
-1
+0
 )
 ;
 await
@@ -1174,7 +1174,7 @@ is
 events1
 .
 length
-2
+1
 )
 ;
 is
@@ -1182,7 +1182,7 @@ is
 events2
 .
 length
-2
+1
 )
 ;
 await
@@ -1236,7 +1236,7 @@ is
 events1
 .
 length
-2
+1
 )
 ;
 is
@@ -1244,7 +1244,7 @@ is
 events2
 .
 length
-2
+1
 )
 ;
 await
@@ -1260,7 +1260,7 @@ is
 events1
 .
 length
-2
+1
 )
 ;
 is
@@ -1268,7 +1268,7 @@ is
 events2
 .
 length
-3
+2
 )
 ;
 await
@@ -1330,7 +1330,7 @@ is
 events1
 .
 length
-2
+1
 )
 ;
 is
@@ -1338,7 +1338,7 @@ is
 events2
 .
 length
-3
+2
 )
 ;
 root

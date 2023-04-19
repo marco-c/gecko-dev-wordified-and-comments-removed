@@ -202,6 +202,7 @@ emitEvent
 (
 name
 data
+contextInfo
 )
 {
 this
@@ -212,6 +213,7 @@ emitEvent
 (
 name
 data
+contextInfo
 )
 ;
 }
