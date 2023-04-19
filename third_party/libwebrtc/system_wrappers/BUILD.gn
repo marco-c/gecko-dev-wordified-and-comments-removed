@@ -287,6 +287,14 @@ logging
 .
 /
 rtc_base
+:
+safe_conversions
+"
+"
+.
+.
+/
+rtc_base
 /
 synchronization
 :

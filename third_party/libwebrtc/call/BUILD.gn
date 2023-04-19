@@ -3351,6 +3351,14 @@ rtc_event
 /
 rtc_base
 :
+safe_conversions
+"
+"
+.
+.
+/
+rtc_base
+:
 task_queue_for_test
 "
 "

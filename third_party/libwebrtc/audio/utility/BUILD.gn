@@ -224,6 +224,17 @@ rtc_base_approved
 .
 .
 /
+rtc_base
+:
+safe_conversions
+"
+"
+.
+.
+/
+.
+.
+/
 system_wrappers
 :
 field_trial

@@ -526,6 +526,10 @@ safe_compare
 "
 "
 :
+safe_conversions
+"
+"
+:
 type_traits
 "
 "
@@ -1043,10 +1047,6 @@ platform_thread
 "
 :
 platform_thread_types
-"
-"
-:
-safe_conversions
 "
 "
 :
@@ -4639,6 +4639,10 @@ rtc_task_queue
 "
 "
 :
+safe_conversions
+"
+"
+:
 socket
 "
 "
@@ -7666,6 +7670,10 @@ rtc_base_tests_utils
 "
 :
 rtc_event
+"
+"
+:
+safe_conversions
 "
 "
 :
