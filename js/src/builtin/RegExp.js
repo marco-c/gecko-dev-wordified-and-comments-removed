@@ -812,6 +812,7 @@ RegExp
 )
 ;
 return
+(
 RegExpPrototypeOptimizable
 (
 RegExpProto
@@ -832,6 +833,7 @@ exec
 =
 =
 RegExp_prototype_Exec
+)
 ;
 }
 function
@@ -2726,6 +2728,7 @@ RegExpCtor
 prototype
 ;
 return
+(
 RegExpPrototypeOptimizable
 (
 RegExpProto
@@ -2746,6 +2749,7 @@ exec
 =
 =
 RegExp_prototype_Exec
+)
 ;
 }
 function
