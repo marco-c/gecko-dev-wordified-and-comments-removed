@@ -108,7 +108,7 @@ void
 ReportInvalidType
 (
 int
-acutal_type
+actual_type
 int
 expected_type
 )
