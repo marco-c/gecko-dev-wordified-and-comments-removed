@@ -607,6 +607,17 @@ size
 1
 )
 {
+if
+(
+configs
+.
+size
+(
+)
+=
+=
+1
+)
 RTC_LOG
 (
 LS_WARNING
