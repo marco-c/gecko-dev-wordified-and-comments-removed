@@ -1,11 +1,11 @@
 const
 {
 ChromeWebElement
-ContentWebWindow
 element
 WebElement
 WebFrame
 WebReference
+WebWindow
 }
 =
 ChromeUtils
@@ -2810,7 +2810,7 @@ from
 domWin
 )
 instanceof
-ContentWebWindow
+WebWindow
 )
 ;
 ok
@@ -2984,7 +2984,7 @@ run_next_test
 add_test
 (
 function
-test_WebReference_fromJSON_ContentWebWindow
+test_WebReference_fromJSON_WebWindow
 (
 )
 {
@@ -2993,7 +2993,7 @@ ref
 =
 {
 [
-ContentWebWindow
+WebWindow
 .
 Identifier
 ]
@@ -3017,7 +3017,7 @@ ok
 (
 win
 instanceof
-ContentWebWindow
+WebWindow
 )
 ;
 equal
@@ -3369,7 +3369,7 @@ isReference
 (
 {
 [
-ContentWebWindow
+WebWindow
 .
 Identifier
 ]
@@ -3593,7 +3593,7 @@ run_next_test
 add_test
 (
 function
-test_ContentWebWindow_toJSON
+test_WebWindow_toJSON
 (
 )
 {
@@ -3601,7 +3601,7 @@ let
 win
 =
 new
-ContentWebWindow
+WebWindow
 (
 "
 foo
@@ -3619,7 +3619,7 @@ toJSON
 ;
 ok
 (
-ContentWebWindow
+WebWindow
 .
 Identifier
 in
@@ -3630,7 +3630,7 @@ equal
 (
 json
 [
-ContentWebWindow
+WebWindow
 .
 Identifier
 ]
@@ -3649,7 +3649,7 @@ run_next_test
 add_test
 (
 function
-test_ContentWebWindow_fromJSON
+test_WebWindow_fromJSON
 (
 )
 {
@@ -3658,7 +3658,7 @@ ref
 =
 {
 [
-ContentWebWindow
+WebWindow
 .
 Identifier
 ]
@@ -3671,7 +3671,7 @@ foo
 let
 win
 =
-ContentWebWindow
+WebWindow
 .
 fromJSON
 (
@@ -3682,7 +3682,7 @@ ok
 (
 win
 instanceof
-ContentWebWindow
+WebWindow
 )
 ;
 equal
