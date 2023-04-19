@@ -176,8 +176,13 @@ std
 string
 &
 label
+rtc
+:
+:
+scoped_refptr
+<
 VideoTrackSourceInterface
-*
+>
 source
 rtc
 :
