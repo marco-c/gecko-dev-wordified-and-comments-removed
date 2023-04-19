@@ -16172,7 +16172,7 @@ gaps
 "
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 applyState
 .
