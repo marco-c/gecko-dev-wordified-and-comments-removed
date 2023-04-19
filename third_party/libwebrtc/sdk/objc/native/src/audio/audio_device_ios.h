@@ -722,8 +722,6 @@ can_play_or_record
 void
 HandleSampleRateChange
 (
-float
-sample_rate
 )
 ;
 void
