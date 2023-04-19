@@ -593,7 +593,7 @@ Bug
 .
 return
 Site
-permissions
+Permissions
 for
 {
 this
