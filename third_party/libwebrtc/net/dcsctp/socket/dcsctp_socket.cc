@@ -8316,6 +8316,12 @@ restarted
 peer
 "
 ;
+send_queue_
+.
+Reset
+(
+)
+;
 tcb_
 =
 nullptr

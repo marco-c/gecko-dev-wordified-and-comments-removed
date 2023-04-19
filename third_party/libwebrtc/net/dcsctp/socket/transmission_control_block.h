@@ -598,12 +598,6 @@ this
 timer_manager_
 )
 {
-send_queue
-.
-Reset
-(
-)
-;
 }
 bool
 is_connection_established
