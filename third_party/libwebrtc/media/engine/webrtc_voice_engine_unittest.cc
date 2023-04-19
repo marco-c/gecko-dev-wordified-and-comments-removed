@@ -1304,6 +1304,7 @@ CreateUnusedFactory
 )
 nullptr
 apm
+nullptr
 trials
 )
 ;
@@ -1562,6 +1563,7 @@ encoder_factory
 decoder_factory
 nullptr
 apm_
+nullptr
 trials_config_
 )
 )
@@ -23305,6 +23307,7 @@ CreateUnusedFactory
 )
 nullptr
 apm
+nullptr
 field_trials
 )
 ;
@@ -23576,6 +23579,7 @@ CreateUnusedFactory
 )
 nullptr
 apm
+nullptr
 field_trials
 )
 ;
@@ -23830,6 +23834,7 @@ CreateUnusedFactory
 )
 nullptr
 apm
+nullptr
 field_trials
 )
 ;
@@ -24338,6 +24343,7 @@ CreateUnusedFactory
 )
 nullptr
 apm
+nullptr
 field_trials
 )
 ;
@@ -24639,6 +24645,7 @@ CreateBuiltinAudioDecoderFactory
 )
 nullptr
 apm
+nullptr
 field_trials
 )
 ;
@@ -25137,6 +25144,7 @@ unused_encoder_factory
 mock_decoder_factory
 nullptr
 apm
+nullptr
 field_trials
 )
 ;

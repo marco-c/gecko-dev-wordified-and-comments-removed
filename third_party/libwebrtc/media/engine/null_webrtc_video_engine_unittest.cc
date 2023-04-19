@@ -224,6 +224,7 @@ AudioProcessingBuilder
 Create
 (
 )
+nullptr
 trials
 )
 ;

@@ -222,6 +222,9 @@ scoped_refptr
 AudioProcessing
 >
 audio_processing
+AudioFrameProcessor
+*
+audio_frame_processor
 )
 {
 PeerConnectionFactoryDependencies
@@ -352,6 +355,12 @@ move
 (
 audio_decoder_factory
 )
+;
+media_dependencies
+.
+audio_frame_processor
+=
+audio_frame_processor
 ;
 if
 (

@@ -96,6 +96,9 @@ class
 AudioDeviceModule
 ;
 class
+AudioFrameProcessor
+;
+class
 AudioProcessing
 ;
 RTC_EXPORT
@@ -182,6 +185,11 @@ scoped_refptr
 AudioProcessing
 >
 audio_processing
+AudioFrameProcessor
+*
+audio_frame_processor
+=
+nullptr
 )
 ;
 }

@@ -130,6 +130,13 @@ audio_processing
 get
 (
 )
+config_
+.
+async_audio_processing_factory
+.
+get
+(
+)
 )
 {
 process_thread_checker_
