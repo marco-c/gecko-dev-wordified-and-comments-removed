@@ -915,6 +915,12 @@ marionette
 .
 quit
 (
+in_app
+=
+True
+clean
+=
+False
 )
             
 yield
@@ -1011,9 +1017,6 @@ marionette
 .
 restart
 (
-in_app
-=
-False
 clean
 =
 True
@@ -1181,9 +1184,6 @@ marionette
 .
 restart
 (
-in_app
-=
-False
 clean
 =
 True

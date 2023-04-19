@@ -30,9 +30,6 @@ marionette
 .
 quit
 (
-in_app
-=
-False
 clean
 =
 True

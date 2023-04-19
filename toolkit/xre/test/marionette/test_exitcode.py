@@ -78,6 +78,9 @@ marionette
 .
 quit
 (
+in_app
+=
+True
 callback
 =
 call_quit
@@ -169,6 +172,9 @@ marionette
 .
 quit
 (
+in_app
+=
+True
 callback
 =
 call_quit

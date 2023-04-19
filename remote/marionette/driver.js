@@ -9636,9 +9636,6 @@ forced
 cancelQuit
 .
 data
-in_app
-:
-true
 }
 ;
 }

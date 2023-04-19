@@ -24,7 +24,6 @@ from
 marionette_harness
 import
 MarionetteTestCase
-parameterized
 class
 BaseProfileManagement
 (
@@ -90,9 +89,6 @@ marionette
 .
 quit
 (
-in_app
-=
-False
 clean
 =
 True
@@ -353,27 +349,10 @@ BaseProfileManagement
 )
 :
     
-parameterized
-(
-"
-safe
-"
-True
-)
-    
-parameterized
-(
-"
-forced
-"
-False
-)
-    
 def
 test_quit_keeps_same_profile
 (
 self
-in_app
 )
 :
         
@@ -383,9 +362,6 @@ marionette
 .
 quit
 (
-in_app
-=
-in_app
 )
         
 self
@@ -437,9 +413,6 @@ marionette
 .
 quit
 (
-in_app
-=
-False
 clean
 =
 True
@@ -481,27 +454,10 @@ orig_profile_path
 )
 )
     
-parameterized
-(
-"
-safe
-"
-True
-)
-    
-parameterized
-(
-"
-forced
-"
-False
-)
-    
 def
 test_restart_keeps_same_profile
 (
 self
-in_app
 )
 :
         
@@ -511,9 +467,6 @@ marionette
 .
 restart
 (
-in_app
-=
-in_app
 )
         
 self
@@ -557,9 +510,6 @@ marionette
 .
 restart
 (
-in_app
-=
-False
 clean
 =
 True
@@ -599,27 +549,10 @@ WorkspaceProfileManagement
 )
 :
     
-parameterized
-(
-"
-safe
-"
-True
-)
-    
-parameterized
-(
-"
-forced
-"
-False
-)
-    
 def
 test_quit_keeps_same_profile
 (
 self
-in_app
 )
 :
         
@@ -629,9 +562,6 @@ marionette
 .
 quit
 (
-in_app
-=
-in_app
 )
         
 self
@@ -695,9 +625,6 @@ marionette
 .
 quit
 (
-in_app
-=
-False
 clean
 =
 True
@@ -751,27 +678,10 @@ orig_profile_path
 )
 )
     
-parameterized
-(
-"
-safe
-"
-True
-)
-    
-parameterized
-(
-"
-forced
-"
-False
-)
-    
 def
 test_restart_keeps_same_profile
 (
 self
-in_app
 )
 :
         
@@ -781,9 +691,6 @@ marionette
 .
 restart
 (
-in_app
-=
-in_app
 )
         
 self
@@ -839,9 +746,6 @@ marionette
 .
 restart
 (
-in_app
-=
-False
 clean
 =
 True

@@ -51,9 +51,6 @@ marionette
 .
 restart
 (
-in_app
-=
-False
 clean
 =
 True
@@ -184,6 +181,12 @@ marionette
 .
 quit
 (
+clean
+=
+False
+in_app
+=
+True
 )
         
 self
