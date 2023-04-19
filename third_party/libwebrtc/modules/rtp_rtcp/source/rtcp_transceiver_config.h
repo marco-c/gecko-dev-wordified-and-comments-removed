@@ -675,7 +675,12 @@ false
 bool
 reply_to_non_sender_rtt_measurement
 =
-false
+true
+;
+bool
+reply_to_non_sender_rtt_mesaurments_on_all_ssrcs
+=
+true
 ;
 bool
 send_remb_on_change
