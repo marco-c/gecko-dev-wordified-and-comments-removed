@@ -590,9 +590,6 @@ mEndedEvent
 bool
 mReceivedEOS
 ;
-bool
-mHasDispatchedEndEvent
-;
 }
 ;
 class
