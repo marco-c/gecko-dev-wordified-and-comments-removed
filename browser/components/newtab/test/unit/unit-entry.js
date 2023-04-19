@@ -639,6 +639,14 @@ return
 global
 ;
 }
+importESModule
+(
+)
+{
+return
+global
+;
+}
 }
 ClientEnvironment
 :
