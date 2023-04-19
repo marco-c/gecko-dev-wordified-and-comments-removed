@@ -1011,6 +1011,13 @@ GetCurrentConfiguredFramerate
 )
 ;
 }
+TaskQueueBase
+:
+:
+DelayPrecision
+:
+:
+kHigh
 )
 ;
 return
@@ -1316,6 +1323,13 @@ GetCurrentConfiguredFramerate
 )
 ;
 }
+TaskQueueBase
+:
+:
+DelayPrecision
+:
+:
+kHigh
 )
 ;
 }
