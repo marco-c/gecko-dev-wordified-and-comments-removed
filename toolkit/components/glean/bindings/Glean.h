@@ -141,6 +141,14 @@ nsString
 aNames
 )
 ;
+static
+void
+TestSetRuntimeMetricsComprehensive
+(
+bool
+aIsComprehensive
+)
+;
 protected
 :
 virtual
