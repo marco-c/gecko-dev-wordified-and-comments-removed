@@ -31,9 +31,9 @@ include
 "
 mozilla
 /
-ipc
+dom
 /
-PBackgroundSharedTypes
+POriginPrivateFileSystemParent
 .
 h
 "
@@ -42,9 +42,9 @@ include
 "
 mozilla
 /
-dom
+ipc
 /
-POriginPrivateFileSystemParent
+PBackgroundSharedTypes
 .
 h
 "
@@ -108,6 +108,12 @@ ipc
 IPCResult
 RecvGetRoot
 (
+mozilla
+:
+:
+ipc
+:
+:
 Endpoint
 <
 POriginPrivateFileSystemParent

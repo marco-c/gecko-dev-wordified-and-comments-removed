@@ -16,7 +16,7 @@ mozilla
 /
 ipc
 /
-ActorHolder
+ToplevelActorHolder
 .
 h
 "
@@ -35,7 +35,7 @@ mozilla
 ipc
 :
 :
-TopLevelActorHolder
+ToplevelActorHolder
 <
 OriginPrivateFileSystemChild
 >
