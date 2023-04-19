@@ -316,6 +316,9 @@ mValidTag
 RelationType
 mType
 ;
+RelationType
+mReverseType
+;
 }
 ;
 static
@@ -336,6 +339,10 @@ RelationType
 :
 :
 LABELLED_BY
+RelationType
+:
+:
+LABEL_FOR
 }
 {
 nsGkAtoms
@@ -350,6 +357,10 @@ RelationType
 :
 :
 LABEL_FOR
+RelationType
+:
+:
+LABELLED_BY
 }
 }
 ;
