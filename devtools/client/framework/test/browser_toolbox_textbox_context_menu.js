@@ -371,13 +371,6 @@ disabled
 "
 )
 ;
-if
-(
-isWindows
-(
-)
-)
-{
 is
 (
 cmdPaste
@@ -398,7 +391,6 @@ disabled
 "
 )
 ;
-}
 const
 onContextMenuHidden
 =
