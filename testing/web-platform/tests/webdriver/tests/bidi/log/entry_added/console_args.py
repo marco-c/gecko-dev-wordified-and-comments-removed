@@ -160,7 +160,6 @@ value
 "
 :
 "
-+
 Infinity
 "
 }
@@ -263,7 +262,6 @@ NaN
 "
     
 "
-+
 Infinity
 "
     

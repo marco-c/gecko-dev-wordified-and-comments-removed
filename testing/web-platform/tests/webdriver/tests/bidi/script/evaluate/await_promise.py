@@ -876,7 +876,6 @@ number
 Infinity
 "
 "
-+
 Infinity
 "
 "
