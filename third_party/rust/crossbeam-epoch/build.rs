@@ -181,6 +181,7 @@ crossbeam_no_atomic_cas
 ;
 }
 if
+!
 cfg
 .
 probe_rustc_version
@@ -199,7 +200,7 @@ rustc
 -
 cfg
 =
-crossbeam_const_fn_trait_bound
+crossbeam_no_const_fn_trait_bound
 "
 )
 ;

@@ -5854,7 +5854,7 @@ epoch
 .
 9
 .
-8
+10
 "
 "
 crossbeam
@@ -5981,7 +5981,7 @@ version
 .
 9
 .
-8
+10
 "
 source
 =
@@ -6009,7 +6009,7 @@ index
 checksum
 =
 "
-1145cf131a2c6ba0615079ab6a638f7e1973ac9c2634fcbeaaad6114246efe8c
+045ebe27666471bb549370b4b0b3e51b07f56325befa4284db65fc89c02511b1
 "
 dependencies
 =
@@ -6038,15 +6038,15 @@ utils
 8
 "
 "
-lazy_static
-"
-"
 memoffset
 0
 .
 6
 .
 5
+"
+"
+once_cell
 "
 "
 scopeguard
