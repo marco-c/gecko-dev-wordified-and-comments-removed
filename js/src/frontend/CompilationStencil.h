@@ -2198,8 +2198,6 @@ ParserAtomsTable
 parserAtoms
 TaggedParserAtomIndex
 name
-uint8_t
-hops
 )
 ;
 bool
