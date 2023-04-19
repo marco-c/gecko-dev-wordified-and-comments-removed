@@ -647,6 +647,7 @@ uri
 "
 ;
 }
+await
 checkLoadedScripts
 (
 {

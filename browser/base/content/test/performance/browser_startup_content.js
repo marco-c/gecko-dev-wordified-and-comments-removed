@@ -916,6 +916,7 @@ uri
 "
 ;
 }
+await
 checkLoadedScripts
 (
 {
