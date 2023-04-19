@@ -178,11 +178,11 @@ following
 cipher
 suites
 :
--
+*
 SRTP_AES128_CM_HMAC_SHA1_80
--
+*
 SRTP_AEAD_AES_128_GCM
--
+*
 SRTP_AEAD_AES_256_GCM
 The
 SRTP_AES128_CM_HMAC_SHA1_32
