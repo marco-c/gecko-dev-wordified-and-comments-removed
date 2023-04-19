@@ -5623,7 +5623,7 @@ GetWidget
 widget
 -
 >
-ClearCachedWebrenderResources
+ClearWebrenderAnimationResources
 (
 )
 ;
