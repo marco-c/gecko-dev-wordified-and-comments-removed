@@ -6181,11 +6181,11 @@ aInputType
 const
 nsAString
 &
-aInputMode
+aInputmode
 )
 {
 return
-aInputMode
+aInputmode
 .
 EqualsLiteral
 (
@@ -6358,7 +6358,7 @@ mInputContext
 mHTMLInputType
 mInputContext
 .
-mHTMLInputMode
+mHTMLInputInputmode
 )
 &
 &
@@ -6589,7 +6589,7 @@ aContext
 mHTMLInputType
 aContext
 .
-mHTMLInputMode
+mHTMLInputInputmode
 aContext
 .
 mActionHint

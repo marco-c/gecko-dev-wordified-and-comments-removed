@@ -8254,7 +8254,7 @@ aContext
 mHTMLInputType
 aContext
 .
-mHTMLInputMode
+mHTMLInputInputmode
 )
 ;
 if
@@ -20588,7 +20588,7 @@ aHTMLInputType
 const
 nsString
 &
-aHTMLInputMode
+aHTMLInputInputMode
 )
 {
 mInputScopes
@@ -20609,9 +20609,9 @@ mInputScopes
 IMEHandler
 :
 :
-AppendInputScopeFromInputMode
+AppendInputScopeFromInputmode
 (
-aHTMLInputMode
+aHTMLInputInputMode
 mInputScopes
 )
 ;
@@ -35770,7 +35770,7 @@ aContext
 mHTMLInputType
 aContext
 .
-mHTMLInputMode
+mHTMLInputInputmode
 )
 ;
 if

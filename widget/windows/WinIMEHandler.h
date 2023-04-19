@@ -289,12 +289,12 @@ CurrentKeyboardLayoutHasIME
 endif
 static
 void
-AppendInputScopeFromInputMode
+AppendInputScopeFromInputmode
 (
 const
 nsAString
 &
-aHTMLInputMode
+aInputmode
 nsTArray
 <
 InputScope
@@ -380,7 +380,7 @@ aHTMLInputType
 const
 nsAString
 &
-aHTMLInputMode
+aHTMLInputInputmode
 bool
 aInPrivateBrowsing
 )
