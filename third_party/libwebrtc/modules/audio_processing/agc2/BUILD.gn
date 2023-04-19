@@ -1081,6 +1081,11 @@ checks
 "
 rnn_vad
 "
+"
+rnn_vad
+:
+rnn_vad_common
+"
 ]
 }
 if
