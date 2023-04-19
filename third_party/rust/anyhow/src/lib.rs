@@ -20,7 +20,7 @@ anyhow
 .
 0
 .
-57
+61
 "
 )
 ]
@@ -87,6 +87,10 @@ clippy
 :
 :
 enum_glob_use
+clippy
+:
+:
+explicit_auto_deref
 clippy
 :
 :

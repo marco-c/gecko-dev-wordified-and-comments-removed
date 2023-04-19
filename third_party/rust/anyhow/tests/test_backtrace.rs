@@ -1,4 +1,14 @@
 #
+!
+[
+cfg
+(
+any
+(
+)
+)
+]
+#
 [
 rustversion
 :

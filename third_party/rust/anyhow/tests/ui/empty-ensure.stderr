@@ -58,6 +58,15 @@ crate
 :
 :
 __parse_ensure
+which
+comes
+from
+the
+expansion
+of
+the
+macro
+ensure
 (
 in
 Nightly
