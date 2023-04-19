@@ -418,6 +418,17 @@ rtc_pc_base
 /
 pc
 :
+rtp_transport_internal
+"
+"
+.
+.
+/
+.
+.
+/
+pc
+:
 session_description
 "
 "
