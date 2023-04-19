@@ -1152,6 +1152,17 @@ mRootLayerTreeID
 isSome
 (
 )
+&
+&
+layers
+:
+:
+CompositorThreadHolder
+:
+:
+IsActive
+(
+)
 )
 {
 self
