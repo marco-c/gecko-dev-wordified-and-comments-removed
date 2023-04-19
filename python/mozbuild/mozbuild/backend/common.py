@@ -76,8 +76,6 @@ FinalTargetFiles
     
 GeneratedFile
     
-GnProjectData
-    
 HostLibrary
     
 HostSources
@@ -1077,17 +1075,6 @@ objdir_files
             
 return
 False
-        
-elif
-isinstance
-(
-obj
-GnProjectData
-)
-:
-            
-return
-True
         
 else
 :
