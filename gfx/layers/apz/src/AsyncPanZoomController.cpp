@@ -15715,7 +15715,7 @@ residualVelocity
 mOverscrollEffect
 -
 >
-HandleFlingOverscroll
+RelieveOverscroll
 (
 residualVelocity
 aOverscrollSideBits

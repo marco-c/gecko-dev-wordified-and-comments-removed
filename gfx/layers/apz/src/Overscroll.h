@@ -729,14 +729,14 @@ ParentLayerPoint
 &
 aOverscroll
 ScrollDirections
-aOverscrolableDirections
+aOverscrollableDirections
 )
 =
 0
 ;
 virtual
 void
-HandleFlingOverscroll
+RelieveOverscroll
 (
 const
 ParentLayerPoint
@@ -779,7 +779,7 @@ ParentLayerPoint
 &
 aOverscroll
 ScrollDirections
-aOverscrolableDirections
+aOverscrollableDirections
 )
 override
 {
@@ -799,7 +799,7 @@ return
 }
 if
 (
-aOverscrolableDirections
+aOverscrollableDirections
 .
 contains
 (
@@ -830,7 +830,7 @@ x
 }
 if
 (
-aOverscrolableDirections
+aOverscrollableDirections
 .
 contains
 (
@@ -862,7 +862,7 @@ y
 if
 (
 !
-aOverscrolableDirections
+aOverscrollableDirections
 .
 isEmpty
 (
@@ -878,7 +878,7 @@ ScheduleComposite
 }
 }
 void
-HandleFlingOverscroll
+RelieveOverscroll
 (
 const
 ParentLayerPoint
@@ -949,7 +949,7 @@ ParentLayerPoint
 &
 aOverscroll
 ScrollDirections
-aOverscrolableDirections
+aOverscrollableDirections
 )
 override
 {
@@ -971,7 +971,7 @@ controller
 &
 &
 !
-aOverscrolableDirections
+aOverscrollableDirections
 .
 isEmpty
 (
@@ -1010,7 +1010,7 @@ ParentLayerPoint
 }
 }
 void
-HandleFlingOverscroll
+RelieveOverscroll
 (
 const
 ParentLayerPoint
