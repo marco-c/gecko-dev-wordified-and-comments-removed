@@ -37,11 +37,7 @@ ensureNoExistingProcess
 )
 {
 await
-utilityProcessTest
-(
-)
-.
-stopProcess
+killPendingUtilityProcess
 (
 )
 ;
