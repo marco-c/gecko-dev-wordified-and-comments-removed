@@ -6330,11 +6330,18 @@ SdpOfferAnswerHandler
 PeerConnectionSdpMethods
 *
 pc
+ConnectionContext
+*
+context
 )
 :
 pc_
 (
 pc
+)
+context_
+(
+context
 )
 local_streams_
 (
@@ -6453,6 +6460,9 @@ configuration
 PeerConnectionDependencies
 &
 dependencies
+ConnectionContext
+*
+context
 )
 {
 auto
@@ -6467,6 +6477,7 @@ new
 SdpOfferAnswerHandler
 (
 pc
+context
 )
 )
 ;
@@ -6757,7 +6768,7 @@ channel_manager
 const
 {
 return
-pc_
+context_
 -
 >
 channel_manager
@@ -7087,10 +7098,10 @@ signaling_thread
 const
 {
 return
-pc_
+context_
 -
 >
-signaling_thread_internal
+signaling_thread
 (
 )
 ;
@@ -8162,7 +8173,7 @@ dtls_transport
 =
 LookupDtlsTransportByMid
 (
-pc_
+context_
 -
 >
 network_thread
@@ -10476,7 +10487,7 @@ dtls_transport
 =
 LookupDtlsTransportByMid
 (
-pc_
+context_
 -
 >
 network_thread
@@ -11534,7 +11545,7 @@ RemoveStoppedTransceivers
 (
 )
 ;
-pc_
+context_
 -
 >
 network_thread
@@ -12641,7 +12652,7 @@ if
 was_answer
 )
 {
-pc_
+context_
 -
 >
 network_thread
@@ -20439,7 +20450,7 @@ session_options
 >
 pooled_ice_credentials
 =
-pc_
+context_
 -
 >
 network_thread
@@ -21830,7 +21841,7 @@ session_options
 >
 pooled_ice_credentials
 =
-pc_
+context_
 -
 >
 network_thread
@@ -24627,7 +24638,7 @@ error
 bool
 success
 =
-pc_
+context_
 -
 >
 worker_thread
@@ -27012,7 +27023,7 @@ signaling_thread
 if
 (
 !
-pc_
+context_
 -
 >
 network_thread
@@ -27034,7 +27045,7 @@ mid
 {
 RTC_DCHECK_RUN_ON
 (
-pc_
+context_
 -
 >
 network_thread
@@ -27117,7 +27128,7 @@ OnTransportChannelClosed
 error
 )
 ;
-pc_
+context_
 -
 >
 network_thread
@@ -27137,7 +27148,7 @@ this
 {
 RTC_DCHECK_RUN_ON
 (
-pc_
+context_
 -
 >
 network_thread
@@ -28693,7 +28704,7 @@ true
 ;
 }
 return
-pc_
+context_
 -
 >
 worker_thread

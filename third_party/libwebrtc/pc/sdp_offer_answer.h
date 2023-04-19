@@ -612,6 +612,9 @@ configuration
 PeerConnectionDependencies
 &
 dependencies
+ConnectionContext
+*
+context
 )
 ;
 void
@@ -1107,6 +1110,9 @@ SdpOfferAnswerHandler
 PeerConnectionSdpMethods
 *
 pc
+ConnectionContext
+*
+context
 )
 ;
 void
@@ -2703,6 +2709,11 @@ PeerConnectionSdpMethods
 *
 const
 pc_
+;
+ConnectionContext
+*
+const
+context_
 ;
 std
 :
