@@ -208,7 +208,7 @@ use_all_drop_reasons
 TEST
 (
 QualityScalingExperimentTest
-DefaultEnabledWithoutFieldTrial
+DisabledWithoutFieldTrial
 )
 {
 webrtc
@@ -224,7 +224,7 @@ field_trials
 "
 )
 ;
-EXPECT_TRUE
+EXPECT_FALSE
 (
 QualityScalingExperiment
 :
@@ -368,7 +368,7 @@ settings
 TEST
 (
 QualityScalingExperimentTest
-ParseSettingsUsesDefaultsWithoutFieldTrial
+ParseSettingsFailsWithoutFieldTrial
 )
 {
 webrtc
@@ -384,7 +384,7 @@ field_trials
 "
 )
 ;
-EXPECT_TRUE
+EXPECT_FALSE
 (
 QualityScalingExperiment
 :
