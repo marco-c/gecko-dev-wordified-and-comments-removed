@@ -557,6 +557,7 @@ init
 )
 override
 ;
+RTC_DEPRECATED
 std
 :
 :
@@ -571,6 +572,7 @@ GetRemoteAudioSSLCertificate
 (
 )
 ;
+RTC_DEPRECATED
 std
 :
 :
