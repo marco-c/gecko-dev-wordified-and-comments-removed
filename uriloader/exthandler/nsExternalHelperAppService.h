@@ -800,6 +800,9 @@ mShouldCloseWindow
 bool
 mHandleInternally
 ;
+bool
+mDialogShowing
+;
 uint32_t
 mReason
 ;
