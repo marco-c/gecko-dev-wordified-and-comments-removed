@@ -1375,16 +1375,6 @@ video_rtp_headers
 .
 .
 /
-api
-/
-video_codecs
-:
-video_codecs_api
-"
-"
-.
-.
-/
 call
 :
 call_interfaces
