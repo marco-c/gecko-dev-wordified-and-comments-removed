@@ -1638,6 +1638,12 @@ wasGCStarted
 )
 ;
 }
+GCState
+initialMarkingState
+(
+)
+const
+;
 bool
 shouldMarkInZone
 (
