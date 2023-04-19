@@ -114,14 +114,6 @@ Exposed
 Window
 Worker
 )
-Func
-=
-"
-IDBFactory
-:
-:
-IsEnabled
-"
 ]
 interface
 IDBKeyRange
