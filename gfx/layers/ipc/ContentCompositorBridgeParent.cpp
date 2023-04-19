@@ -416,7 +416,7 @@ dummyId
 ;
 const
 bool
-useWebRender
+connectedToWebRender
 =
 false
 ;
@@ -442,7 +442,7 @@ new
 APZUpdater
 (
 temp
-useWebRender
+connectedToWebRender
 )
 ;
 tempUpdater

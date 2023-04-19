@@ -129,7 +129,7 @@ APZCTreeManager
 &
 aApz
 bool
-aIsUsingWebRender
+aConnectedToWebRender
 )
 ;
 bool
@@ -399,7 +399,7 @@ APZUpdater
 )
 ;
 bool
-UsingWebRenderUpdaterThread
+IsConnectedToWebRender
 (
 )
 const
@@ -437,7 +437,7 @@ bool
 mDestroyed
 ;
 bool
-mIsUsingWebRender
+mConnectedToWebRender
 ;
 std
 :
