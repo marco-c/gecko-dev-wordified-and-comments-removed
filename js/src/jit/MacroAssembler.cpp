@@ -14247,10 +14247,6 @@ defined
 (
 JS_CODEGEN_ARM
 )
-initWithAllocator
-(
-)
-;
 m_buffer
 .
 id
@@ -14268,10 +14264,6 @@ defined
 (
 JS_CODEGEN_ARM64
 )
-initWithAllocator
-(
-)
-;
 armbuffer_
 .
 id
@@ -14336,10 +14328,6 @@ defined
 (
 JS_CODEGEN_ARM
 )
-initWithAllocator
-(
-)
-;
 m_buffer
 .
 id
@@ -14352,10 +14340,6 @@ defined
 (
 JS_CODEGEN_ARM64
 )
-initWithAllocator
-(
-)
-;
 SetStackPointer64
 (
 sp

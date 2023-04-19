@@ -263,15 +263,6 @@ include
 "
 jit
 /
-AutoJitContextAlloc
-.
-h
-"
-#
-include
-"
-jit
-/
 IonTypes
 .
 h
