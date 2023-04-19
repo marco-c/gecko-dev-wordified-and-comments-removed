@@ -130,10 +130,9 @@ getImageText
 targetIdentifier
 )
 {
-return
 this
 .
-sendQuery
+sendAsyncMessage
 (
 "
 ContextMenu

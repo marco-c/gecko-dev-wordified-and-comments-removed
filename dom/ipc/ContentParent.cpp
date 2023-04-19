@@ -25769,13 +25769,6 @@ ShmemImage
 &
 &
 aImage
-nsTArray
-<
-nsCString
->
-&
-&
-aLanguages
 FindImageTextResolver
 &
 &
@@ -25836,7 +25829,6 @@ FindText
 (
 *
 surf
-aLanguages
 )
 -
 >
