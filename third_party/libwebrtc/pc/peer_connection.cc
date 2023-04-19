@@ -16573,6 +16573,13 @@ RequestUsagePatternReportForTesting
 (
 )
 {
+RTC_DCHECK_RUN_ON
+(
+signaling_thread
+(
+)
+)
+;
 message_handler_
 .
 RequestUsagePatternReport
