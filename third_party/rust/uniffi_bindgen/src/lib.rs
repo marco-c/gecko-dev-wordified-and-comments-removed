@@ -1579,7 +1579,6 @@ Ok
 )
 )
 }
-pub
 fn
 guess_crate_root
 (
@@ -1900,6 +1899,7 @@ fs
 :
 create_dir_all
 (
+&
 s
 )
 ?
@@ -2564,7 +2564,7 @@ clap
 long
 )
 ]
-lib_file
+cdylib
 :
 Option
 <
@@ -2693,7 +2693,7 @@ language
 out_dir
 no_format
 config
-lib_file
+cdylib
 udl_file
 }
 =
@@ -2731,7 +2731,7 @@ out_dir
 as_deref
 (
 )
-lib_file
+cdylib
 .
 as_deref
 (

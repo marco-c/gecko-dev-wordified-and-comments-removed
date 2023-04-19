@@ -13,16 +13,6 @@ hidden
 [
 no_mangle
 ]
-#
-[
-allow
-(
-clippy
-:
-:
-let_unit_value
-)
-]
 pub
 extern
 "
