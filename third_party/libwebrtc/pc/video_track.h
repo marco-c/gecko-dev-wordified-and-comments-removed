@@ -193,6 +193,12 @@ sink
 )
 override
 ;
+void
+RequestRefreshFrame
+(
+)
+override
+;
 VideoTrackSourceInterface
 *
 GetSource

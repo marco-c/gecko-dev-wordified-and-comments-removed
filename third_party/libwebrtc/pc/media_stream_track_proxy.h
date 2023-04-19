@@ -207,6 +207,11 @@ VideoFrame
 >
 *
 )
+PROXY_SECONDARY_METHOD0
+(
+void
+RequestRefreshFrame
+)
 BYPASS_PROXY_CONSTMETHOD0
 (
 VideoTrackSourceInterface
