@@ -3219,12 +3219,10 @@ filename
 let
 complete
 =
+!
 _cleanupFunctions
 .
 length
-=
-=
-0
 ;
 let
 cleanupStartTime

@@ -782,12 +782,10 @@ true
 }
 if
 (
+!
 pages
 .
 length
-=
-=
-0
 )
 {
 dumpLine

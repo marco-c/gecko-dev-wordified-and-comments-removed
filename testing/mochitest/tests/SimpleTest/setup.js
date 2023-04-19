@@ -80,8 +80,6 @@ qstr
 encodedString
 .
 length
->
-0
 &
 &
 encodedString
@@ -1558,8 +1556,6 @@ if
 testList
 .
 length
->
-0
 )
 {
 gTestList

@@ -3194,8 +3194,6 @@ testScope
 __cleanupFunctions
 .
 length
->
-0
 )
 {
 let

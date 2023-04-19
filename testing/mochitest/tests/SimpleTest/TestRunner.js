@@ -4626,14 +4626,12 @@ curtest
 ;
 if
 (
+!
 table
 .
 rows
 .
 length
-=
-=
-0
 )
 {
 var

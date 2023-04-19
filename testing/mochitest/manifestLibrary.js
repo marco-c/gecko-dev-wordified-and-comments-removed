@@ -243,8 +243,6 @@ if
 paths
 .
 length
->
-0
 )
 {
 callback

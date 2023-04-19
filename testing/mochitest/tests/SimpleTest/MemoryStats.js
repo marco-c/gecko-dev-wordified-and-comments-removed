@@ -446,8 +446,6 @@ if
 statMessage
 .
 length
->
-0
 )
 {
 info
