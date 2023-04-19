@@ -537,6 +537,14 @@ never
 telemetry_mirror
 :
 WR_RENDERER_TIME
+send_in_pings
+:
+-
+metrics
+-
+pseudo
+-
+main
 renderer_time_no_sc
 :
 type
