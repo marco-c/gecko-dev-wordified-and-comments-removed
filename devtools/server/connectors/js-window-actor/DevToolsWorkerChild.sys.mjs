@@ -186,11 +186,17 @@ Loader
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 )
@@ -1648,6 +1654,10 @@ Loader
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -1655,6 +1665,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -2001,6 +2013,10 @@ Loader
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -2010,6 +2026,8 @@ connectors
 worker
 -
 connector
+.
+js
 "
 )
 ;

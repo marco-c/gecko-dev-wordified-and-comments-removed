@@ -187,6 +187,10 @@ worker
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -196,6 +200,8 @@ actors
 targets
 /
 worker
+.
+js
 "
 )
 ;
@@ -209,6 +215,10 @@ worker
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -216,6 +226,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;

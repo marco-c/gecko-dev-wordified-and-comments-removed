@@ -459,6 +459,10 @@ this
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -468,6 +472,8 @@ loader
 builtin
 -
 modules
+.
+js
 "
 )
 ;

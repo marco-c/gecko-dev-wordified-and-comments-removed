@@ -273,6 +273,10 @@ loader
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -280,6 +284,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -392,6 +398,10 @@ loader
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -403,6 +413,8 @@ targets
 content
 -
 process
+.
+js
 "
 )
 ;

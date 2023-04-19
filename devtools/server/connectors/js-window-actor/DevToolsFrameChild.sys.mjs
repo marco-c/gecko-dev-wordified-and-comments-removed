@@ -2492,6 +2492,10 @@ loader
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -2499,6 +2503,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -2514,6 +2520,10 @@ loader
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -2525,6 +2535,8 @@ targets
 window
 -
 global
+.
+js
 "
 )
 ;

@@ -913,6 +913,10 @@ loader
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -920,6 +924,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -936,6 +942,10 @@ loader
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -943,6 +953,8 @@ shared
 security
 /
 socket
+.
+js
 "
 )
 ;

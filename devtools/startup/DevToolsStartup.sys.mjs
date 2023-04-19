@@ -6704,6 +6704,10 @@ serverLoader
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -6711,6 +6715,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -6724,6 +6730,10 @@ serverLoader
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -6731,6 +6741,8 @@ shared
 security
 /
 socket
+.
+js
 "
 )
 ;

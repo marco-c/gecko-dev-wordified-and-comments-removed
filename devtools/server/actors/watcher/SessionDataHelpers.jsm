@@ -189,6 +189,10 @@ loader
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -200,6 +204,8 @@ utils
 event
 -
 breakpoints
+.
+js
 "
 )
 .

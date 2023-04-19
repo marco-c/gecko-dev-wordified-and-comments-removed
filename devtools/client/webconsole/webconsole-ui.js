@@ -2395,6 +2395,10 @@ window
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2404,6 +2408,8 @@ webconsole
 webconsole
 -
 wrapper
+.
+js
 "
 )
 ;
