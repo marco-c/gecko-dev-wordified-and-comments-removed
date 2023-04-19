@@ -4045,7 +4045,7 @@ aLists
 ;
 if
 (
-HidesContent
+IsContentHidden
 (
 )
 )

@@ -4190,7 +4190,7 @@ if
 f
 -
 >
-IsHiddenByContentVisibilityOnAnyAncestor
+AncestorHidesContent
 (
 )
 )

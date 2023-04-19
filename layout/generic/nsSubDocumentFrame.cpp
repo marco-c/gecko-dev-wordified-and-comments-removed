@@ -1842,7 +1842,7 @@ return
 }
 if
 (
-HidesContent
+IsContentHidden
 (
 )
 )
