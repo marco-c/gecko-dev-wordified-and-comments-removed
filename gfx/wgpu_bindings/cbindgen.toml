@@ -207,13 +207,6 @@ matters
 )
 *
 /
-#
-include
-"
-nsString
-.
-h
-"
 struct
 WGPUByteBuf
 ;
@@ -260,10 +253,6 @@ WGPUOption_SurfaceId
 typedef
 uint64_t
 WGPUOption_TextureViewId
-;
-typedef
-nsString
-WGPUnsString
 ;
 "
 "
