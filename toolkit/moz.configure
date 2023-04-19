@@ -6753,11 +6753,15 @@ linker
 [
 0
 ]
-=
-=
+in
+(
 "
 lld
 "
+"
+mold
+"
+)
 :
 return
 False
