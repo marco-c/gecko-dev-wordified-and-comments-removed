@@ -3660,6 +3660,12 @@ properties
 bucket
 =
 "
+perf
+"
+if
+perf_cat
+else
+"
 ci
 "
 service_account
