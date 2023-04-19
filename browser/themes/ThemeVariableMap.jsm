@@ -638,5 +638,8 @@ sidebar_highlight_text
 "
 sidebar_text
 "
+"
+zap_gradient
+"
 ]
 ;
