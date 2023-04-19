@@ -234,6 +234,10 @@ chromium
 "
                 
 "
+content_shell
+"
+                
+"
 edgechromium
 "
                 
