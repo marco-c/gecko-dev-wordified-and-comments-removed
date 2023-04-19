@@ -3,9 +3,9 @@ use
 strict
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -21,7 +21,9 @@ modules
 /
 UrlbarProvidersManager
 .
-jsm
+sys
+.
+mjs
 "
 UrlbarResult
 :
@@ -35,7 +37,9 @@ modules
 /
 UrlbarResult
 .
-jsm
+sys
+.
+mjs
 "
 UrlbarTestUtils
 :
@@ -50,7 +54,9 @@ common
 /
 UrlbarTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 UrlbarView
 :
@@ -64,7 +70,9 @@ modules
 /
 UrlbarView
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

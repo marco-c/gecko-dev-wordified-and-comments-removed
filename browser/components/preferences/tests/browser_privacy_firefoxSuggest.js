@@ -3,9 +3,9 @@ use
 strict
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -21,7 +21,9 @@ modules
 /
 UrlbarProviderQuickSuggest
 .
-jsm
+sys
+.
+mjs
 "
 UrlbarQuickSuggest
 :
@@ -35,7 +37,9 @@ modules
 /
 UrlbarQuickSuggest
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
@@ -62,7 +66,7 @@ module
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -75,7 +79,9 @@ common
 /
 QuickSuggestTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

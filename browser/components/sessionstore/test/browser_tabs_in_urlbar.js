@@ -64,7 +64,7 @@ UrlbarProviderOpenTabs
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -76,7 +76,9 @@ modules
 /
 UrlbarProviderOpenTabs
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -87,7 +89,7 @@ UrlbarTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -100,7 +102,9 @@ common
 /
 UrlbarTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
