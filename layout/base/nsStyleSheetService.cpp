@@ -1390,7 +1390,13 @@ aCx
 JS
 :
 :
-MutableHandleValue
+MutableHandle
+<
+JS
+:
+:
+Value
+>
 aRval
 )
 {
