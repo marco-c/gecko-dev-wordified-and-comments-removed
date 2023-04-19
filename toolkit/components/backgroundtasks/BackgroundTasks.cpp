@@ -1181,16 +1181,6 @@ aName
 EqualsLiteral
 (
 "
-message
-"
-)
-|
-|
-aName
-.
-EqualsLiteral
-(
-"
 not_ephemeral_profile
 "
 )
