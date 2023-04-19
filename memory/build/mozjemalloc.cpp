@@ -3951,6 +3951,9 @@ malloc_init_hard
 )
 ;
 #
+ifndef
+XP_WIN
+#
 ifdef
 XP_DARWIN
 #
@@ -3989,6 +3992,8 @@ _malloc_postfork_child
 void
 )
 ;
+#
+endif
 static
 inline
 bool
