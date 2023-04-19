@@ -390,12 +390,6 @@ MessageLoopForIO
 :
 :
 FileDescriptorWatcher
-server_listen_connection_watcher_
-;
-MessageLoopForIO
-:
-:
-FileDescriptorWatcher
 read_watcher_
 ;
 MessageLoopForIO
@@ -442,9 +436,6 @@ Maybe
 PartialWrite
 >
 partial_write_
-;
-int
-server_listen_pipe_
 ;
 int
 pipe_
@@ -549,9 +540,6 @@ input_overflow_fds_
 bool
 waiting_connect_
 ;
-bool
-processing_incoming_
-;
 std
 :
 :
@@ -620,12 +608,6 @@ other_task_
 ;
 #
 endif
-ScopedRunnableMethodFactory
-<
-ChannelImpl
->
-factory_
-;
 DISALLOW_COPY_AND_ASSIGN
 (
 ChannelImpl

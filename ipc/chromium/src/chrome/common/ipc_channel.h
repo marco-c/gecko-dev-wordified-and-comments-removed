@@ -250,11 +250,6 @@ kReadBufferSize
 4
 *
 1024
-kMaxCopySize
-=
-32
-*
-1024
 }
 ;
 Channel
