@@ -58,6 +58,10 @@ rpmconf
 "
 which
 "
+        
+"
+unzip
+"
     
 ]
     
