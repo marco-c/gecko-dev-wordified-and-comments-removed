@@ -6,13 +6,6 @@ webrtc
 import
 android
 .
-annotation
-.
-TargetApi
-;
-import
-android
-.
 media
 .
 MediaCodec
@@ -334,10 +327,6 @@ getOutputBuffers
 ;
 }
 Override
-TargetApi
-(
-18
-)
 public
 Surface
 createInputSurface
@@ -353,10 +342,6 @@ createInputSurface
 ;
 }
 Override
-TargetApi
-(
-19
-)
 public
 void
 setParameters

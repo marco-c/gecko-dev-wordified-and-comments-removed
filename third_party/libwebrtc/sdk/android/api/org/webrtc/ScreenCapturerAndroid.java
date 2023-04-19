@@ -6,13 +6,6 @@ webrtc
 import
 android
 .
-annotation
-.
-TargetApi
-;
-import
-android
-.
 app
 .
 Activity
@@ -81,10 +74,6 @@ annotation
 .
 Nullable
 ;
-TargetApi
-(
-21
-)
 public
 class
 ScreenCapturerAndroid

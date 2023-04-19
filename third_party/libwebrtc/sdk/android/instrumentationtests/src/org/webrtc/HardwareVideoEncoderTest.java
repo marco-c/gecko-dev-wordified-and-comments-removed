@@ -56,13 +56,6 @@ fail
 import
 android
 .
-annotation
-.
-TargetApi
-;
-import
-android
-.
 graphics
 .
 Matrix
@@ -244,10 +237,6 @@ runner
 .
 RunWith
 ;
-TargetApi
-(
-16
-)
 RunWith
 (
 ParameterizedRunner

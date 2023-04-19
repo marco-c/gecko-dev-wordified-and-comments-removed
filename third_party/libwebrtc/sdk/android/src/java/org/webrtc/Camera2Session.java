@@ -13,13 +13,6 @@ SuppressLint
 import
 android
 .
-annotation
-.
-TargetApi
-;
-import
-android
-.
 content
 .
 Context
@@ -156,10 +149,6 @@ CameraEnumerationAndroid
 .
 CaptureFormat
 ;
-TargetApi
-(
-21
-)
 class
 Camera2Session
 implements

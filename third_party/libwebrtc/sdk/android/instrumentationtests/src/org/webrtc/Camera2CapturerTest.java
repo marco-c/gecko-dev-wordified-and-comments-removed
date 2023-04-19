@@ -16,13 +16,6 @@ fail
 import
 android
 .
-annotation
-.
-TargetApi
-;
-import
-android
-.
 content
 .
 Context
@@ -161,10 +154,6 @@ runner
 .
 RunWith
 ;
-TargetApi
-(
-21
-)
 RunWith
 (
 BaseJUnit4ClassRunner

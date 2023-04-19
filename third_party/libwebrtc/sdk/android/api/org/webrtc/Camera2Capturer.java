@@ -6,13 +6,6 @@ webrtc
 import
 android
 .
-annotation
-.
-TargetApi
-;
-import
-android
-.
 content
 .
 Context
@@ -33,10 +26,6 @@ annotation
 .
 Nullable
 ;
-TargetApi
-(
-21
-)
 public
 class
 Camera2Capturer
