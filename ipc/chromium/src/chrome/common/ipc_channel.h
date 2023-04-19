@@ -430,8 +430,10 @@ private
 class
 ChannelImpl
 ;
+RefPtr
+<
 ChannelImpl
-*
+>
 channel_impl_
 ;
 enum
