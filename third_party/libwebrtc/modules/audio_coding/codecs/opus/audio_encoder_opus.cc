@@ -2104,14 +2104,13 @@ payload_type
 )
 send_side_bwe_with_overhead_
 (
-!
 webrtc
 :
 :
 field_trial
 :
 :
-IsDisabled
+IsEnabled
 (
 "
 WebRTC
