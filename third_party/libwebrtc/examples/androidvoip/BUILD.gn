@@ -228,7 +228,7 @@ video_java
 /
 third_party
 /
-android_deps
+androidx
 :
 androidx_core_core_java
 "
@@ -237,7 +237,7 @@ androidx_core_core_java
 /
 third_party
 /
-android_deps
+androidx
 :
 androidx_legacy_legacy_support_v4_java
 "
