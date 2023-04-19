@@ -575,6 +575,14 @@ SendableData
 aData
 )
 {
+NS_ENSURE_TRUE
+(
+mSocket
+IPC_OK
+(
+)
+)
+;
 ErrorResult
 rv
 ;
