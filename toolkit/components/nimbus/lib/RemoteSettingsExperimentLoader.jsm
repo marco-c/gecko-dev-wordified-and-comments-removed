@@ -2210,7 +2210,7 @@ properties
 }
 additionalProperties
 :
-true
+false
 }
 ;
 for
@@ -2274,7 +2274,7 @@ prop
 type
 =
 "
-number
+integer
 "
 ;
 break
@@ -2284,7 +2284,7 @@ case
 json
 "
 :
-continue
+break
 ;
 default
 :
@@ -2314,7 +2314,7 @@ type
 }
 )
 ;
-continue
+break
 ;
 }
 if
