@@ -228,6 +228,17 @@ aAnimation
 override
 ;
 void
+NotifyAnimationContentVisibilityChanged
+(
+Animation
+*
+aAnimation
+bool
+visible
+)
+override
+;
+void
 WillRefresh
 (
 TimeStamp

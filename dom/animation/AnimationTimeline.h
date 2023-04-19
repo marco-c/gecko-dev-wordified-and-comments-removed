@@ -291,6 +291,17 @@ aAnimation
 )
 ;
 virtual
+void
+NotifyAnimationContentVisibilityChanged
+(
+Animation
+*
+aAnimation
+bool
+visible
+)
+;
+virtual
 Document
 *
 GetDocument

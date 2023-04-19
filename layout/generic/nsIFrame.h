@@ -11496,6 +11496,11 @@ UpdateVisibleDescendantsState
 (
 )
 ;
+void
+UpdateAnimationVisibility
+(
+)
+;
 virtual
 bool
 RenumberFrameAndDescendants
