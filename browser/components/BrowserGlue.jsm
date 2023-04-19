@@ -20806,8 +20806,11 @@ NimbusFeatures
 .
 upgradeDialog
 .
-isEnabled
+getVariable
 (
+"
+enabled
+"
 )
 ?
 "
