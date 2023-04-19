@@ -114,17 +114,6 @@ constructor
 ;
 /
 /
-Layout
-properties
-[
-SetterThrows
-]
-attribute
-DOMString
-flex
-;
-/
-/
 Properties
 for
 hiding
