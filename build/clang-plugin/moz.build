@@ -321,16 +321,6 @@ tools
 /
 rewriting
 /
-Generated
-.
-txt
-"
-"
-/
-tools
-/
-rewriting
-/
 ThirdPartyPaths
 .
 txt
@@ -341,7 +331,7 @@ tools
 /
 rewriting
 /
-Unvalidated
+Generated
 .
 txt
 "
