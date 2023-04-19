@@ -160,13 +160,7 @@ max_threads_count
 {
 }
 virtual
-absl
-:
-:
-optional
-<
 uint16_t
->
 OnFrameCaptured
 (
 absl
