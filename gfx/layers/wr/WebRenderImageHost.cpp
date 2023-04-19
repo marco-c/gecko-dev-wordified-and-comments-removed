@@ -602,16 +602,6 @@ TextureFlags
 aFlags
 )
 {
-MOZ_ASSERT
-(
-bool
-(
-GetAsyncRef
-(
-)
-)
-)
-;
 RefPtr
 <
 WebRenderImageHost
