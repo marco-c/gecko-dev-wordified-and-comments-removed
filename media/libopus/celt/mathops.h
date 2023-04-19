@@ -724,6 +724,9 @@ res
 ;
 integer
 =
+(
+int
+)
 floor
 (
 x
