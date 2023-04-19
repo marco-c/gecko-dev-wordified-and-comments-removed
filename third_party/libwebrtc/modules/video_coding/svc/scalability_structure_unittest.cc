@@ -2101,6 +2101,13 @@ Values
 SvcTestParam
 {
 "
+NONE
+"
+3
+}
+SvcTestParam
+{
+"
 L1T2
 "
 4
