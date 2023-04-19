@@ -197,7 +197,7 @@ UnregisterAllTextureOwners
 )
 ;
 void
-PushTexure
+PushTexture
 (
 const
 RemoteTextureId
@@ -531,7 +531,7 @@ RemoteTextureMap
 )
 ;
 void
-PushTexure
+PushTexture
 (
 const
 RemoteTextureId

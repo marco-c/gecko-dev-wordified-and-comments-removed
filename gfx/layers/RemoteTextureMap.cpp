@@ -304,7 +304,7 @@ void
 RemoteTextureOwnerClient
 :
 :
-PushTexure
+PushTexture
 (
 const
 RemoteTextureId
@@ -350,7 +350,7 @@ Get
 )
 -
 >
-PushTexure
+PushTexture
 (
 aTextureId
 aOwnerId
@@ -760,7 +760,7 @@ void
 RemoteTextureMap
 :
 :
-PushTexure
+PushTexture
 (
 const
 RemoteTextureId
