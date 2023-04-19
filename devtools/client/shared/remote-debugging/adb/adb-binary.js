@@ -48,11 +48,11 @@ jsm
 "
 )
 ;
-loader
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 FileUtils
 "
@@ -69,14 +69,13 @@ FileUtils
 .
 jsm
 "
-true
 )
 ;
-loader
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 NetUtil
 "
@@ -93,7 +92,6 @@ NetUtil
 .
 jsm
 "
-true
 )
 ;
 loader
@@ -239,6 +237,8 @@ resolve
 =
 >
 {
+lazy
+.
 NetUtil
 .
 asyncFetch
@@ -260,6 +260,8 @@ try
 const
 string
 =
+lazy
+.
 NetUtil
 .
 readInputStreamToString
@@ -389,6 +391,8 @@ reject
 =
 >
 {
+lazy
+.
 NetUtil
 .
 asyncFetch
@@ -416,6 +420,8 @@ const
 outputFile
 =
 new
+lazy
+.
 FileUtils
 .
 File
@@ -426,6 +432,8 @@ filePath
 const
 output
 =
+lazy
+.
 FileUtils
 .
 openAtomicFileOutputStream
@@ -433,6 +441,8 @@ openAtomicFileOutputStream
 outputFile
 )
 ;
+lazy
+.
 NetUtil
 .
 asyncCopy
@@ -985,6 +995,8 @@ const
 file
 =
 new
+lazy
+.
 FileUtils
 .
 File

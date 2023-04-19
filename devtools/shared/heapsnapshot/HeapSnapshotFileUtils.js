@@ -3,11 +3,17 @@ use
 strict
 "
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 FileUtils
 "
@@ -24,7 +30,6 @@ FileUtils
 .
 jsm
 "
-true
 )
 ;
 function
@@ -64,6 +69,8 @@ const
 file
 =
 new
+lazy
+.
 FileUtils
 .
 File

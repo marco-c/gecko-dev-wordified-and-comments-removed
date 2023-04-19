@@ -70,11 +70,17 @@ true
 )
 ;
 }
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 Reflect
 "
@@ -91,7 +97,6 @@ reflect
 .
 jsm
 "
-true
 )
 ;
 loader
@@ -2004,6 +2009,8 @@ matches
 {
 try
 {
+lazy
+.
 Reflect
 .
 parse

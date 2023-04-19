@@ -41,11 +41,17 @@ browser
 true
 )
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 PrivateBrowsingUtils
 "
@@ -62,7 +68,6 @@ PrivateBrowsingUtils
 .
 jsm
 "
-true
 )
 ;
 const
@@ -1042,6 +1047,8 @@ if
 owner
 &
 &
+lazy
+.
 PrivateBrowsingUtils
 .
 isWindowPrivate

@@ -256,9 +256,9 @@ source
 true
 )
 ;
-loader
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
 lazy
 "
@@ -277,12 +277,11 @@ FileUtils
 .
 jsm
 "
-true
 )
 ;
-loader
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
 lazy
 "
@@ -301,7 +300,6 @@ NetUtil
 .
 jsm
 "
-true
 )
 ;
 loader

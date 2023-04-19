@@ -8,11 +8,17 @@ requestLongerTimeout
 2
 )
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 AppConstants
 "
@@ -29,7 +35,6 @@ AppConstants
 .
 jsm
 "
-true
 )
 ;
 const
@@ -5296,6 +5301,8 @@ ctrl
 ;
 if
 (
+lazy
+.
 AppConstants
 .
 platform
@@ -5394,6 +5401,8 @@ getSmallIncrementKey
 {
 if
 (
+lazy
+.
 AppConstants
 .
 platform

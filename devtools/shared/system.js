@@ -23,11 +23,17 @@ server
 true
 )
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 AppConstants
 "
@@ -44,7 +50,6 @@ AppConstants
 .
 jsm
 "
-true
 )
 ;
 loader
@@ -549,6 +554,8 @@ getProfileLocation
 )
 channel
 :
+lazy
+.
 AppConstants
 .
 MOZ_UPDATE_CHANNEL

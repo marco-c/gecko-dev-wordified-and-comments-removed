@@ -56,11 +56,17 @@ emitter
 "
 )
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 DeferredTask
 "
@@ -77,7 +83,6 @@ DeferredTask
 .
 jsm
 "
-true
 )
 ;
 loader
@@ -830,6 +835,8 @@ this
 _poller
 =
 new
+lazy
+.
 DeferredTask
 (
 this

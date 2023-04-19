@@ -312,11 +312,17 @@ provider
 true
 )
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyRequireGetter
+defineModuleGetter
 (
-this
+lazy
 "
 NetUtil
 "
@@ -333,7 +339,6 @@ NetUtil
 .
 jsm
 "
-true
 )
 ;
 loader
@@ -6224,6 +6229,8 @@ document
 const
 channel
 =
+lazy
+.
 NetUtil
 .
 newChannel
@@ -6231,6 +6238,8 @@ newChannel
 {
 uri
 :
+lazy
+.
 NetUtil
 .
 newURI
@@ -6437,6 +6446,8 @@ false
 )
 ;
 }
+lazy
+.
 NetUtil
 .
 asyncFetch
