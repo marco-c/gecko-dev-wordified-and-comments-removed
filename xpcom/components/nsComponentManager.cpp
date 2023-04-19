@@ -1763,12 +1763,6 @@ true
 RegisterModule
 (
 &
-kXPCOMModule
-)
-;
-RegisterModule
-(
-&
 kNeckoModule
 )
 ;
