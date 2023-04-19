@@ -1637,6 +1637,14 @@ UsingHttpsProxy
 )
 &
 &
+mConnInfo
+-
+>
+UsingConnect
+(
+)
+&
+&
 !
 mHasTLSTransportLayer
 ;
