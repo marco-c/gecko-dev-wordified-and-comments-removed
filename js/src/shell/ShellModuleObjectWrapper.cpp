@@ -1963,7 +1963,7 @@ IdentFilter
 DEFINE_GETTER_FUNCTIONS
 (
 ModuleObject
-evaluationError
+maybeEvaluationError
 Value
 IdentFilter
 )
@@ -2098,7 +2098,7 @@ JS_PSG
 "
 evaluationError
 "
-ShellModuleObjectWrapper_evaluationErrorGetter
+ShellModuleObjectWrapper_maybeEvaluationErrorGetter
 0
 )
 JS_PSG
