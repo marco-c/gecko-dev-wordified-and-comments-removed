@@ -1097,6 +1097,12 @@ targetURI
 ;
 url
 .
+title
+=
+targetURI
+;
+url
+.
 classList
 .
 add
