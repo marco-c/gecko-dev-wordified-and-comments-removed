@@ -25102,7 +25102,7 @@ TestCreatePeerConnection
 config
 )
 ;
-EXPECT_FALSE
+EXPECT_TRUE
 (
 media_config
 .

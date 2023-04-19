@@ -13,7 +13,7 @@ MediaConfig
 bool
 enable_dscp
 =
-false
+true
 ;
 struct
 Video
