@@ -125,7 +125,11 @@ ipc
 JS
 :
 :
-PersistentRootedObject
+PersistentRooted
+<
+JSObject
+*
+>
 global
 ;
 static
@@ -323,7 +327,13 @@ return
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 result
 (
 cx
