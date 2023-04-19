@@ -2016,6 +2016,9 @@ map_mode
 callback
 }
 ;
+let
+_
+=
 gfx_select
 !
 (
@@ -2035,10 +2038,6 @@ start
 size
 operation
 )
-)
-.
-unwrap
-(
 )
 ;
 }
