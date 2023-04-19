@@ -3771,6 +3771,7 @@ nsIContentSecurityPolicy
 :
 FORM_ACTION_DIRECTIVE
 true
+true
 &
 permitsFormAction
 )
