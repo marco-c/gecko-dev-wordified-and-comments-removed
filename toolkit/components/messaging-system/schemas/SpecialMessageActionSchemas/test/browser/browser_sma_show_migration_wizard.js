@@ -90,12 +90,6 @@ loaded
 "
 )
 ;
-executeSoon
-(
-(
-)
-=
->
 SMATestUtils
 .
 executeAndValidateAction
@@ -107,7 +101,6 @@ type
 SHOW_MIGRATION_WIZARD
 "
 }
-)
 )
 ;
 await
@@ -214,12 +207,6 @@ loaded
 "
 )
 ;
-executeSoon
-(
-(
-)
-=
->
 SMATestUtils
 .
 executeAndValidateAction
@@ -240,7 +227,6 @@ chrome
 "
 }
 }
-)
 )
 ;
 await
