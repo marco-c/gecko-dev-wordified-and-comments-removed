@@ -516,6 +516,12 @@ clipping_predictor_evaluator_
 int
 clipping_predictor_log_counter_
 ;
+float
+clipping_rate_log_
+;
+int
+clipping_rate_log_counter_
+;
 }
 ;
 class
