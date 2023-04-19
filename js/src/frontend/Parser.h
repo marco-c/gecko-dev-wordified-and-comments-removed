@@ -3495,7 +3495,7 @@ debuggerStatement
 (
 )
 ;
-ListNodeType
+DeclarationListNodeType
 variableStatement
 (
 YieldHandling
@@ -3530,7 +3530,7 @@ YieldHandling
 yieldHandling
 )
 ;
-ListNodeType
+DeclarationListNodeType
 lexicalDeclaration
 (
 YieldHandling
@@ -3712,7 +3712,7 @@ invoked
 PredictUninvoked
 )
 ;
-ListNodeType
+DeclarationListNodeType
 declarationList
 (
 YieldHandling
@@ -4146,7 +4146,7 @@ inline
 bool
 checkExportedNamesForDeclarationList
 (
-ListNodeType
+DeclarationListNodeType
 node
 )
 ;
@@ -5505,7 +5505,7 @@ inline
 bool
 checkExportedNamesForDeclarationList
 (
-ListNodeType
+DeclarationListNodeType
 node
 )
 ;
@@ -6146,7 +6146,7 @@ node
 bool
 checkExportedNamesForDeclarationList
 (
-ListNodeType
+DeclarationListNodeType
 node
 )
 ;

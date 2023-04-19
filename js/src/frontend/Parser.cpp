@@ -23129,7 +23129,7 @@ typename
 ParseHandler
 :
 :
-ListNodeType
+DeclarationListNodeType
 GeneralParser
 <
 ParseHandler
@@ -23245,7 +23245,7 @@ kind
 )
 ;
 }
-ListNodeType
+DeclarationListNodeType
 decl
 =
 handler_
@@ -23449,7 +23449,7 @@ typename
 ParseHandler
 :
 :
-ListNodeType
+DeclarationListNodeType
 GeneralParser
 <
 ParseHandler
@@ -23485,7 +23485,7 @@ DeclarationKind
 Let
 )
 ;
-ListNodeType
+DeclarationListNodeType
 decl
 =
 declarationList
@@ -26345,8 +26345,7 @@ Unit
 :
 checkExportedNamesForDeclarationList
 (
-ListNode
-*
+DeclarationListNodeType
 node
 )
 {
@@ -26446,7 +26445,7 @@ Unit
 :
 checkExportedNamesForDeclarationList
 (
-ListNodeType
+DeclarationListNodeType
 node
 )
 {
@@ -26479,7 +26478,7 @@ Unit
 :
 checkExportedNamesForDeclarationList
 (
-ListNodeType
+DeclarationListNodeType
 node
 )
 {
@@ -28433,7 +28432,7 @@ Var
 )
 )
 ;
-ListNodeType
+DeclarationListNodeType
 kid
 =
 declarationList
@@ -28925,7 +28924,7 @@ Let
 )
 )
 ;
-ListNodeType
+DeclarationListNodeType
 kid
 =
 lexicalDeclaration
@@ -42093,7 +42092,7 @@ typename
 ParseHandler
 :
 :
-ListNodeType
+DeclarationListNodeType
 GeneralParser
 <
 ParseHandler
@@ -42107,7 +42106,7 @@ YieldHandling
 yieldHandling
 )
 {
-ListNodeType
+DeclarationListNodeType
 vars
 =
 declarationList
