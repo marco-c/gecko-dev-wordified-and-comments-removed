@@ -689,6 +689,10 @@ verify
 ]
 ;
 }
+#
+if
+!
+TARGET_IPHONE_SIMULATOR
 -
 (
 void
@@ -1578,6 +1582,8 @@ verify
 ]
 ;
 }
+#
+endif
 -
 (
 void
