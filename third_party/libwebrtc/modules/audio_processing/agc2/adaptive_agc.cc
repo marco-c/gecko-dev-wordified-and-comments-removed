@@ -227,7 +227,6 @@ saturation_protector_
 CreateSaturationProtector
 (
 kSaturationProtectorInitialHeadroomDb
-kSaturationProtectorExtraHeadroomDb
 config
 .
 adjacent_speech_frames_threshold

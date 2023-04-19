@@ -71,8 +71,6 @@ CreateSaturationProtector
 (
 float
 initial_headroom_db
-float
-extra_headroom_db
 int
 adjacent_speech_frames_threshold
 ApmDataDumper
