@@ -2316,12 +2316,14 @@ n
 aPtr
 )
 ;
+PUSH_IGNORE_THREAD_SAFETY
 sMutex
 .
 Unlock
 (
 )
 ;
+POP_THREAD_SAFETY
 *
 static_cast
 <
@@ -2711,11 +2713,15 @@ nullptr
 }
 ;
 }
+#
+ifndef
+XP_WIN
 static
 void
 prefork
 (
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 sMutex
 .
@@ -2729,6 +2735,7 @@ void
 postfork_parent
 (
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 sMutex
 .
@@ -2750,6 +2757,8 @@ Init
 )
 ;
 }
+#
+endif
 void
 IncPageAllocHits
 (
