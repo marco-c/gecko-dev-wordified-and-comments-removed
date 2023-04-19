@@ -205,7 +205,13 @@ libwebrtc
 Bug
 1766646
 -
-Vendor
-libwebrtc
-from
+(
+fix
+-
 01b3e24a83
+)
+fix
+build
+failures
+on
+Windows
