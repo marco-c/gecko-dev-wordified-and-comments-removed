@@ -1325,6 +1325,16 @@ libwebrtc
 /
 call
 /
+receive_stream_interface_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+call
+/
 rtp_interfaces_gn
 "
 "
