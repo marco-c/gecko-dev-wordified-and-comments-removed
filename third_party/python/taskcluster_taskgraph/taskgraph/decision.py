@@ -44,6 +44,7 @@ taskgraph
 parameters
 import
 Parameters
+get_version
 from
 taskgraph
 .
@@ -794,15 +795,19 @@ options
     
 }
     
-repo
+repo_path
 =
-get_repository
-(
 os
 .
 getcwd
 (
 )
+    
+repo
+=
+get_repository
+(
+repo_path
 )
     
 try
@@ -868,6 +873,36 @@ do_not_optimize
 =
 [
 ]
+    
+parameters
+[
+"
+build_number
+"
+]
+=
+1
+    
+parameters
+[
+"
+version
+"
+]
+=
+get_version
+(
+repo_path
+)
+    
+parameters
+[
+"
+next_version
+"
+]
+=
+None
     
 if
 "

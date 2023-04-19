@@ -12,11 +12,11 @@ taskcluster
 taskgraph
 Version
 :
-1
+2
 .
-7
+0
 .
-1
+0
 Summary
 :
 Build
@@ -37,12 +37,6 @@ com
 taskcluster
 /
 taskgraph
-License
-:
-UNKNOWN
-Platform
-:
-UNKNOWN
 Classifier
 :
 Development
@@ -283,4 +277,3 @@ voluptuous
 .
 1
 )
-UNKNOWN
