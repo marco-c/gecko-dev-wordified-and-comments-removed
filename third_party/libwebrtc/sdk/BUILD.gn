@@ -2249,6 +2249,14 @@ rtc_pc_base
 .
 .
 /
+pc
+:
+video_track_source_proxy
+"
+"
+.
+.
+/
 rtc_base
 "
 "

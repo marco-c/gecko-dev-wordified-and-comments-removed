@@ -396,6 +396,17 @@ rtc_p2p
 /
 pc
 :
+jsep_transport_controller
+"
+"
+.
+.
+/
+.
+.
+/
+pc
+:
 pc_test_utils
 "
 "
