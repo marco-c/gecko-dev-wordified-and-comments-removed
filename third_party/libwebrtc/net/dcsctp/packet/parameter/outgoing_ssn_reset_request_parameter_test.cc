@@ -120,7 +120,7 @@ ReconfigRequestSN
 (
 1
 )
-ReconfigResponseSN
+ReconfigRequestSN
 (
 2
 )

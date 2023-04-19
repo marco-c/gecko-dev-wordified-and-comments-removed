@@ -76,16 +76,6 @@ uint32_t
 >
 ;
 using
-ReconfigResponseSN
-=
-StrongAlias
-<
-class
-ReconfigResponseSNTag
-uint32_t
->
-;
-using
 VerificationTag
 =
 StrongAlias

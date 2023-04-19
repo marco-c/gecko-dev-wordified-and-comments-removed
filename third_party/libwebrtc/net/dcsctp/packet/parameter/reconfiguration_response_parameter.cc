@@ -336,7 +336,7 @@ absl
 nullopt
 ;
 }
-ReconfigResponseSN
+ReconfigRequestSN
 response_sequence_number
 (
 reader

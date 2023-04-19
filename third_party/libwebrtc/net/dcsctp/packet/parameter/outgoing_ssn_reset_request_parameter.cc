@@ -217,7 +217,7 @@ Load32
 )
 )
 ;
-ReconfigResponseSN
+ReconfigRequestSN
 response_sequence_number
 (
 reader
