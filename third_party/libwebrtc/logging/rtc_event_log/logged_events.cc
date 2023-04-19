@@ -222,8 +222,8 @@ LoggedRtcpPacket
 :
 LoggedRtcpPacket
 (
-int64_t
-timestamp_us
+Timestamp
+timestamp
 const
 std
 :
@@ -236,9 +236,9 @@ uint8_t
 packet
 )
 :
-timestamp_us
+timestamp
 (
-timestamp_us
+timestamp
 )
 raw_data
 (
@@ -251,8 +251,8 @@ LoggedRtcpPacket
 :
 LoggedRtcpPacket
 (
-int64_t
-timestamp_us
+Timestamp
+timestamp
 const
 std
 :
@@ -262,9 +262,9 @@ string
 packet
 )
 :
-timestamp_us
+timestamp
 (
-timestamp_us
+timestamp
 )
 raw_data
 (

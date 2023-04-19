@@ -33,9 +33,11 @@ timestamp_us_
 rtc
 :
 :
-TimeMicros
+TimeMillis
 (
 )
+*
+1000
 )
 {
 }
