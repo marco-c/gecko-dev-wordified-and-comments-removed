@@ -67,7 +67,7 @@ public
 :
 BufferedReadAdapter
 (
-AsyncSocket
+Socket
 *
 socket
 size_t
@@ -156,7 +156,7 @@ len
 void
 OnReadEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -213,7 +213,7 @@ SslServerHello
 explicit
 AsyncSSLSocket
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -233,7 +233,7 @@ protected
 void
 OnConnectEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -268,7 +268,7 @@ public
 :
 AsyncHttpsProxySocket
 (
-AsyncSocket
+Socket
 *
 socket
 const
@@ -348,7 +348,7 @@ protected
 void
 OnConnectEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -357,7 +357,7 @@ override
 void
 OnCloseEvent
 (
-AsyncSocket
+Socket
 *
 socket
 int
@@ -482,7 +482,7 @@ public
 :
 AsyncSocksProxySocket
 (
-AsyncSocket
+Socket
 *
 socket
 const
@@ -543,7 +543,7 @@ protected
 void
 OnConnectEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )

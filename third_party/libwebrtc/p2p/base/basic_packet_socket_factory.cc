@@ -222,7 +222,7 @@ uint16_t
 max_port
 )
 {
-AsyncSocket
+Socket
 *
 socket
 =
@@ -231,7 +231,7 @@ socket_factory
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 address
 .
@@ -350,7 +350,7 @@ return
 NULL
 ;
 }
-AsyncSocket
+Socket
 *
 socket
 =
@@ -359,7 +359,7 @@ socket_factory
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 local_address
 .
@@ -556,7 +556,7 @@ PacketSocketTcpOptions
 tcp_options
 )
 {
-AsyncSocket
+Socket
 *
 socket
 =
@@ -565,7 +565,7 @@ socket_factory
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 local_address
 .
@@ -1073,7 +1073,7 @@ BasicPacketSocketFactory
 :
 BindSocket
 (
-AsyncSocket
+Socket
 *
 socket
 const

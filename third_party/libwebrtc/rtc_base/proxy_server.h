@@ -30,15 +30,6 @@ include
 "
 rtc_base
 /
-async_socket
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 constructor_magic
 .
 h
@@ -60,6 +51,15 @@ include
 rtc_base
 /
 server_socket_adapters
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+socket
 .
 h
 "
@@ -96,7 +96,7 @@ ProxyBinding
 AsyncProxyServerSocket
 *
 in_socket
-AsyncSocket
+Socket
 *
 out_socket
 )
@@ -134,7 +134,7 @@ addr
 void
 OnInternalRead
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -142,7 +142,7 @@ socket
 void
 OnInternalWrite
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -150,7 +150,7 @@ socket
 void
 OnInternalClose
 (
-AsyncSocket
+Socket
 *
 socket
 int
@@ -160,7 +160,7 @@ err
 void
 OnExternalConnect
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -168,7 +168,7 @@ socket
 void
 OnExternalRead
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -176,7 +176,7 @@ socket
 void
 OnExternalWrite
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -184,7 +184,7 @@ socket
 void
 OnExternalClose
 (
-AsyncSocket
+Socket
 *
 socket
 int
@@ -195,7 +195,7 @@ static
 void
 Read
 (
-AsyncSocket
+Socket
 *
 socket
 FifoBuffer
@@ -207,7 +207,7 @@ static
 void
 Write
 (
-AsyncSocket
+Socket
 *
 socket
 FifoBuffer
@@ -241,7 +241,7 @@ std
 :
 unique_ptr
 <
-AsyncSocket
+Socket
 >
 ext_socket_
 ;
@@ -308,7 +308,7 @@ protected
 void
 OnAcceptEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -318,7 +318,7 @@ AsyncProxyServerSocket
 *
 WrapSocket
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -339,7 +339,7 @@ std
 :
 unique_ptr
 <
-AsyncSocket
+Socket
 >
 server_socket_
 ;
@@ -406,7 +406,7 @@ AsyncProxyServerSocket
 *
 WrapSocket
 (
-AsyncSocket
+Socket
 *
 socket
 )

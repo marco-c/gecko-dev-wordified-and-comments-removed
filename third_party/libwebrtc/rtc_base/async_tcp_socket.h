@@ -30,15 +30,6 @@ include
 "
 rtc_base
 /
-async_socket
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 buffer
 .
 h
@@ -83,7 +74,7 @@ public
 :
 AsyncTCPSocketBase
 (
-AsyncSocket
+Socket
 *
 socket
 bool
@@ -137,7 +128,7 @@ virtual
 void
 HandleIncomingConnection
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -239,11 +230,11 @@ override
 protected
 :
 static
-AsyncSocket
+Socket
 *
 ConnectSocket
 (
-AsyncSocket
+Socket
 *
 socket
 const
@@ -306,7 +297,7 @@ private
 void
 OnConnectEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -314,7 +305,7 @@ socket
 void
 OnReadEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -322,7 +313,7 @@ socket
 void
 OnWriteEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -330,7 +321,7 @@ socket
 void
 OnCloseEvent
 (
-AsyncSocket
+Socket
 *
 socket
 int
@@ -342,7 +333,7 @@ std
 :
 unique_ptr
 <
-AsyncSocket
+Socket
 >
 socket_
 ;
@@ -381,7 +372,7 @@ AsyncTCPSocket
 *
 Create
 (
-AsyncSocket
+Socket
 *
 socket
 const
@@ -396,7 +387,7 @@ remote_address
 ;
 AsyncTCPSocket
 (
-AsyncSocket
+Socket
 *
 socket
 bool
@@ -444,7 +435,7 @@ override
 void
 HandleIncomingConnection
 (
-AsyncSocket
+Socket
 *
 socket
 )

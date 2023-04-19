@@ -30,15 +30,6 @@ include
 "
 rtc_base
 /
-async_socket
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 socket
 .
 h
@@ -77,7 +68,7 @@ AsyncUDPSocket
 *
 Create
 (
-AsyncSocket
+Socket
 *
 socket
 const
@@ -103,7 +94,7 @@ bind_address
 explicit
 AsyncUDPSocket
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -230,7 +221,7 @@ private
 void
 OnReadEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -238,7 +229,7 @@ socket
 void
 OnWriteEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -248,7 +239,7 @@ std
 :
 unique_ptr
 <
-AsyncSocket
+Socket
 >
 socket_
 ;

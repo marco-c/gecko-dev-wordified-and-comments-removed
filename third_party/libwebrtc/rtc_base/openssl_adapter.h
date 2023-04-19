@@ -47,15 +47,6 @@ include
 "
 rtc_base
 /
-async_socket
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 buffer
 .
 h
@@ -186,7 +177,7 @@ CleanupSSL
 explicit
 OpenSSLAdapter
 (
-AsyncSocket
+Socket
 *
 socket
 OpenSSLSessionCache
@@ -292,7 +283,7 @@ role
 )
 override
 ;
-AsyncSocket
+Socket
 *
 Accept
 (
@@ -406,7 +397,7 @@ protected
 void
 OnConnectEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -415,7 +406,7 @@ override
 void
 OnReadEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -424,7 +415,7 @@ override
 void
 OnWriteEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -433,7 +424,7 @@ override
 void
 OnCloseEvent
 (
-AsyncSocket
+Socket
 *
 socket
 int
@@ -806,7 +797,7 @@ OpenSSLAdapter
 *
 CreateAdapter
 (
-AsyncSocket
+Socket
 *
 socket
 )

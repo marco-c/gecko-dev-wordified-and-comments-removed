@@ -437,7 +437,7 @@ public
 :
 NATProxyServerSocket
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -685,7 +685,7 @@ AsyncProxyServerSocket
 *
 WrapSocket
 (
-AsyncSocket
+Socket
 *
 socket
 )

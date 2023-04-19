@@ -14,7 +14,7 @@ include
 "
 rtc_base
 /
-async_socket
+socket
 .
 h
 "
@@ -55,14 +55,14 @@ addr
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 =
 ss
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 addr
 .

@@ -775,7 +775,7 @@ it
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 =
@@ -859,7 +859,7 @@ AddInternalServerSocket
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 ProtocolType
@@ -958,7 +958,7 @@ OnNewInternalConnection
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 )
@@ -1000,7 +1000,7 @@ AcceptConnection
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 server_socket
 )
@@ -1014,7 +1014,7 @@ accept_addr
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 accepted_socket
 =

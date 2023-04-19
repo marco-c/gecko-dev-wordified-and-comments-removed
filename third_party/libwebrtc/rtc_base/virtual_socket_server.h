@@ -382,17 +382,6 @@ type
 )
 override
 ;
-AsyncSocket
-*
-CreateAsyncSocket
-(
-int
-family
-int
-type
-)
-override
-;
 void
 SetMessageQueue
 (
@@ -1051,7 +1040,7 @@ class
 VirtualSocket
 :
 public
-AsyncSocket
+Socket
 public
 MessageHandler
 public

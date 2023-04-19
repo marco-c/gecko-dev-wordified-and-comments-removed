@@ -26,7 +26,7 @@ public
 :
 AsyncProxyServerSocket
 (
-AsyncSocket
+Socket
 *
 socket
 size_t
@@ -79,7 +79,7 @@ public
 explicit
 AsyncSSLServerSocket
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -116,7 +116,7 @@ public
 explicit
 AsyncSocksProxyServerSocket
 (
-AsyncSocket
+Socket
 *
 socket
 )

@@ -556,7 +556,7 @@ PROTO_TLS
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 =
@@ -568,7 +568,7 @@ socketserver
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 AF_INET
 SOCK_STREAM

@@ -369,7 +369,7 @@ BIO_new_socket
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 )
@@ -487,7 +487,7 @@ return
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 =
@@ -496,7 +496,7 @@ static_cast
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 >
 (
@@ -584,7 +584,7 @@ return
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 =
@@ -593,7 +593,7 @@ static_cast
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 >
 (
@@ -721,7 +721,7 @@ BIO_CTRL_EOF
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 =
@@ -730,7 +730,7 @@ static_cast
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 >
 (
@@ -750,7 +750,7 @@ GetState
 rtc
 :
 :
-AsyncSocket
+Socket
 :
 :
 CS_CLOSED
@@ -945,7 +945,7 @@ OpenSSLAdapter
 :
 OpenSSLAdapter
 (
-AsyncSocket
+Socket
 *
 socket
 OpenSSLSessionCache
@@ -1252,7 +1252,7 @@ role_
 role
 ;
 }
-AsyncSocket
+Socket
 *
 OpenSSLAdapter
 :
@@ -1272,7 +1272,7 @@ role_
 SSL_SERVER
 )
 ;
-AsyncSocket
+Socket
 *
 socket
 =
@@ -3155,7 +3155,7 @@ OpenSSLAdapter
 :
 OnConnectEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -3231,7 +3231,7 @@ OpenSSLAdapter
 :
 OnReadEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -3325,7 +3325,7 @@ OpenSSLAdapter
 :
 OnWriteEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -3472,7 +3472,7 @@ OpenSSLAdapter
 :
 OnCloseEvent
 (
-AsyncSocket
+Socket
 *
 socket
 int
@@ -5158,7 +5158,7 @@ OpenSSLAdapterFactory
 :
 CreateAdapter
 (
-AsyncSocket
+Socket
 *
 socket
 )

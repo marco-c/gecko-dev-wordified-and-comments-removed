@@ -88,7 +88,7 @@ server_socket_
 int_factory
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 int_addr
 .
@@ -198,7 +198,7 @@ ProxyServer
 :
 OnAcceptEvent
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -218,7 +218,7 @@ get
 )
 )
 ;
-AsyncSocket
+Socket
 *
 int_socket
 =
@@ -239,14 +239,14 @@ WrapSocket
 int_socket
 )
 ;
-AsyncSocket
+Socket
 *
 ext_socket
 =
 ext_factory_
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 ext_ip_
 .
@@ -317,7 +317,7 @@ ProxyBinding
 AsyncProxyServerSocket
 *
 int_socket
-AsyncSocket
+Socket
 *
 ext_socket
 )
@@ -515,7 +515,7 @@ ProxyBinding
 :
 OnInternalRead
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -549,7 +549,7 @@ ProxyBinding
 :
 OnInternalWrite
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -572,7 +572,7 @@ ProxyBinding
 :
 OnInternalClose
 (
-AsyncSocket
+Socket
 *
 socket
 int
@@ -590,7 +590,7 @@ ProxyBinding
 :
 OnExternalConnect
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -628,7 +628,7 @@ ProxyBinding
 :
 OnExternalRead
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -662,7 +662,7 @@ ProxyBinding
 :
 OnExternalWrite
 (
-AsyncSocket
+Socket
 *
 socket
 )
@@ -685,7 +685,7 @@ ProxyBinding
 :
 OnExternalClose
 (
-AsyncSocket
+Socket
 *
 socket
 int
@@ -721,7 +721,7 @@ ProxyBinding
 :
 Read
 (
-AsyncSocket
+Socket
 *
 socket
 FifoBuffer
@@ -809,7 +809,7 @@ ProxyBinding
 :
 Write
 (
-AsyncSocket
+Socket
 *
 socket
 FifoBuffer
@@ -893,7 +893,7 @@ SocksProxyServer
 :
 WrapSocket
 (
-AsyncSocket
+Socket
 *
 socket
 )

@@ -86,7 +86,7 @@ kReconnectDelay
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 CreateClientSocket
 (
@@ -164,7 +164,7 @@ socketserver
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 family
 SOCK_STREAM
@@ -1300,7 +1300,7 @@ OnConnect
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 )
@@ -1363,7 +1363,7 @@ OnHangingGetConnect
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 )
@@ -1737,7 +1737,7 @@ ReadIntoBuffer
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 std
@@ -1998,7 +1998,7 @@ OnRead
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 )
@@ -2309,7 +2309,7 @@ OnHangingGetRead
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 )
@@ -2920,7 +2920,7 @@ OnClose
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 int

@@ -19,7 +19,7 @@ include
 "
 rtc_base
 /
-async_socket
+socket
 .
 h
 "
@@ -91,7 +91,7 @@ Monitor
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 )
@@ -170,7 +170,7 @@ Unmonitor
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 )
@@ -229,7 +229,7 @@ Check
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 StreamSinkEvent
@@ -260,7 +260,7 @@ map
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 int
 >
@@ -272,7 +272,7 @@ OnConnectEvent
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 )
@@ -290,7 +290,7 @@ OnReadEvent
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 )
@@ -308,7 +308,7 @@ OnWriteEvent
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 )
@@ -326,7 +326,7 @@ OnCloseEvent
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 int
@@ -355,7 +355,7 @@ AddEvents
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 obj
 int
@@ -420,7 +420,7 @@ DoCheck
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 obj
 StreamSinkEvent

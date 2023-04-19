@@ -42,7 +42,7 @@ SSLAdapter
 :
 Create
 (
-AsyncSocket
+Socket
 *
 socket
 )

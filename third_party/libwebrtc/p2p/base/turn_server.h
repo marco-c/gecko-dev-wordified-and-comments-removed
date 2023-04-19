@@ -1143,7 +1143,7 @@ AddInternalServerSocket
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 ProtocolType
@@ -1274,7 +1274,7 @@ OnNewInternalConnection
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 )
@@ -1285,7 +1285,7 @@ AcceptConnection
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 server_socket
 )
@@ -1609,7 +1609,7 @@ map
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 ProtocolType
 >

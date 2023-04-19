@@ -171,7 +171,7 @@ Create
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 const
@@ -215,7 +215,7 @@ AsyncStunTCPSocket
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 bool
@@ -528,7 +528,7 @@ HandleIncomingConnection
 rtc
 :
 :
-AsyncSocket
+Socket
 *
 socket
 )

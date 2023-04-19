@@ -4599,7 +4599,7 @@ std
 :
 unique_ptr
 <
-AsyncSocket
+Socket
 >
 socket
 (
@@ -4611,7 +4611,7 @@ socketserver
 )
 -
 >
-CreateAsyncSocket
+CreateSocket
 (
 family
 SOCK_DGRAM
