@@ -4555,6 +4555,14 @@ deps
 .
 /
 rtc_base
+:
+rtc_event
+"
+"
+.
+.
+/
+rtc_base
 /
 task_utils
 :
