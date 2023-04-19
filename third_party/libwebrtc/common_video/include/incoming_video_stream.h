@@ -76,6 +76,15 @@ include
 "
 rtc_base
 /
+thread_annotations
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 thread_checker
 .
 h
@@ -152,6 +161,11 @@ decoder_race_checker_
 ;
 VideoRenderFrames
 render_buffers_
+RTC_GUARDED_BY
+(
+&
+incoming_render_queue_
+)
 ;
 rtc
 :
