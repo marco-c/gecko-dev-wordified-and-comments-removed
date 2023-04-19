@@ -317,6 +317,16 @@ no_unique_address
 h
 "
 ]
+deps
+=
+[
+"
+.
+.
+:
+sanitizer
+"
+]
 }
 if
 (
