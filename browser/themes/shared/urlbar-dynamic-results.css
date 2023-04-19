@@ -1858,6 +1858,13 @@ not
 disabled
 ]
 )
+:
+not
+(
+[
+selected
+]
+)
 {
 background
 -
@@ -1871,7 +1878,7 @@ autocomplete
 -
 popup
 -
-highlight
+hover
 -
 background
 )
