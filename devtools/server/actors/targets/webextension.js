@@ -173,6 +173,10 @@ this
 getAddonIdForWindowGlobal
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
