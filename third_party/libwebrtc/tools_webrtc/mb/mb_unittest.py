@@ -2862,6 +2862,10 @@ command
 [
         
 '
+vpython
+'
+        
+'
 .
 .
 /
@@ -3215,6 +3219,10 @@ assertEqual
 (
 command
 [
+        
+'
+vpython
+'
         
 '
 .
@@ -3635,6 +3643,10 @@ assertEqual
 (
 command
 [
+        
+'
+vpython
+'
         
 '
 .
@@ -4394,6 +4406,10 @@ command
 [
         
 '
+vpython
+'
+        
+'
 .
 .
 /
@@ -4405,6 +4421,10 @@ tools_webrtc
 flags_compatibility
 .
 py
+'
+        
+'
+vpython
 '
         
 '
@@ -4797,6 +4817,10 @@ assertEqual
 (
 command
 [
+        
+'
+vpython
+'
         
 '
 .
@@ -5288,6 +5312,10 @@ assertEqual
 (
 command
 [
+        
+'
+vpython
+'
         
 '
 .
@@ -5826,6 +5854,10 @@ command
 [
         
 '
+vpython
+'
+        
+'
 .
 .
 /
@@ -6288,6 +6320,10 @@ assertEqual
 (
 command
 [
+        
+'
+vpython
+'
         
 '
 .
@@ -6781,6 +6817,10 @@ command
 [
         
 '
+vpython
+'
+        
+'
 .
 .
 /
@@ -6792,6 +6832,10 @@ tools_webrtc
 ensure_webcam_is_running
 .
 py
+'
+        
+'
+vpython
 '
         
 '
