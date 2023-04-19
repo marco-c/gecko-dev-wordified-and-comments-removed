@@ -9,6 +9,10 @@ Targets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -18,6 +22,8 @@ actors
 targets
 /
 index
+.
+js
 "
 )
 ;
@@ -27,6 +33,10 @@ Resources
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -36,6 +46,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;

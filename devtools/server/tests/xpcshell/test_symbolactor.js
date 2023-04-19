@@ -11,6 +11,10 @@ SymbolActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -20,6 +24,8 @@ actors
 object
 /
 symbol
+.
+js
 "
 )
 ;

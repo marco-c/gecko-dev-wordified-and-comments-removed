@@ -9,11 +9,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -25,6 +31,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -32,6 +42,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -50,6 +62,10 @@ NodeActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -59,6 +75,8 @@ actors
 inspector
 /
 node
+.
+js
 "
 )
 .
@@ -74,6 +92,10 @@ webExtensionInspectedWindowSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -87,6 +109,8 @@ webextension
 inspected
 -
 window
+.
+js
 "
 )
 ;

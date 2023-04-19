@@ -11,6 +11,10 @@ truncateString
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -18,6 +22,8 @@ shared
 inspector
 /
 utils
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ MAX_STRING_LENGTH
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -40,6 +50,8 @@ highlighters
 utils
 /
 accessibility
+.
+js
 "
 )
 ;

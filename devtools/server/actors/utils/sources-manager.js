@@ -9,11 +9,17 @@ DevToolsUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -38,6 +48,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -49,6 +61,10 @@ SourceLocation
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -56,6 +72,8 @@ server
 actors
 /
 common
+.
+js
 "
 )
 ;

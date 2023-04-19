@@ -9,11 +9,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ actorBridgeWithSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -40,6 +50,8 @@ server
 actors
 /
 common
+.
+js
 "
 )
 ;
@@ -51,6 +63,10 @@ perfSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -58,6 +74,8 @@ shared
 specs
 /
 perf
+.
+js
 "
 )
 ;
@@ -69,6 +87,10 @@ ActorReadyGeckoProfilerInterface
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -82,6 +104,8 @@ gecko
 profiler
 -
 interface
+.
+js
 "
 )
 ;

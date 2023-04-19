@@ -9,11 +9,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -25,6 +31,10 @@ walkerSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -32,6 +42,8 @@ shared
 specs
 /
 walker
+.
+js
 "
 )
 ;
@@ -43,6 +55,10 @@ LongStringActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -50,6 +66,8 @@ server
 actors
 /
 string
+.
+js
 "
 )
 ;
@@ -71,6 +89,10 @@ EXCLUDED_LISTENER
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -80,6 +102,8 @@ actors
 inspector
 /
 constants
+.
+js
 "
 )
 ;

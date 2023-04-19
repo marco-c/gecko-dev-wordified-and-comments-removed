@@ -9,11 +9,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ cssPropertiesSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -42,6 +52,8 @@ specs
 css
 -
 properties
+.
+js
 "
 )
 ;
@@ -53,6 +65,10 @@ cssColors
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -62,6 +78,8 @@ css
 color
 -
 db
+.
+js
 "
 )
 ;

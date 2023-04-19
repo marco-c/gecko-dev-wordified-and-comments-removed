@@ -11,6 +11,10 @@ RootActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -18,6 +22,8 @@ server
 actors
 /
 root
+.
+js
 "
 )
 ;
@@ -636,6 +642,10 @@ Actor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -643,6 +653,8 @@ shared
 protocol
 /
 Actor
+.
+js
 "
 )
 ;

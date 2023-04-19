@@ -11,6 +11,10 @@ BreakpointActorMap
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -24,6 +28,8 @@ breakpoint
 actor
 -
 map
+.
+js
 "
 )
 ;

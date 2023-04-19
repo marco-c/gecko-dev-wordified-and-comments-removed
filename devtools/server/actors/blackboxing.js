@@ -12,11 +12,17 @@ Actor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -28,6 +34,10 @@ blackboxingSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -35,6 +45,8 @@ shared
 specs
 /
 blackboxing
+.
+js
 "
 )
 ;

@@ -11,6 +11,10 @@ connectToFrame
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -20,6 +24,8 @@ connectors
 frame
 -
 connector
+.
+js
 "
 )
 ;
@@ -61,11 +67,17 @@ Actor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -77,6 +89,10 @@ tabDescriptorSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -86,6 +102,8 @@ specs
 descriptors
 /
 tab
+.
+js
 "
 )
 ;
@@ -121,6 +139,10 @@ createBrowserElementSessionContext
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -132,6 +154,8 @@ watcher
 session
 -
 context
+.
+js
 "
 )
 ;

@@ -11,6 +11,10 @@ CanvasFrameAnonymousContentHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -22,6 +26,8 @@ highlighters
 utils
 /
 markup
+.
+js
 "
 )
 ;

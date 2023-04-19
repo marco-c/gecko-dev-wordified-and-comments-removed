@@ -611,6 +611,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -618,6 +622,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -694,6 +700,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -701,6 +711,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;

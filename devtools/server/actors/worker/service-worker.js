@@ -9,11 +9,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -25,6 +31,10 @@ serviceWorkerSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -36,6 +46,8 @@ worker
 service
 -
 worker
+.
+js
 "
 )
 ;

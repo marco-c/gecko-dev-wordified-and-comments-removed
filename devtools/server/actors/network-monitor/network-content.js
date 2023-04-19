@@ -12,11 +12,17 @@ Actor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -28,6 +34,10 @@ networkContentSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -37,6 +47,8 @@ specs
 network
 -
 content
+.
+js
 "
 )
 ;
@@ -131,6 +143,10 @@ getResourceWatcher
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -140,6 +156,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;

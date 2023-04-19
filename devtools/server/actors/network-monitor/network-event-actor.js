@@ -15,6 +15,10 @@ NETWORK_EVENT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -24,6 +28,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;
@@ -33,11 +39,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -49,6 +61,10 @@ networkEventSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -58,6 +74,8 @@ specs
 network
 -
 event
+.
+js
 "
 )
 ;
@@ -69,6 +87,10 @@ LongStringActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -76,6 +98,8 @@ server
 actors
 /
 string
+.
+js
 "
 )
 ;

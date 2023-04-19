@@ -33,11 +33,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -49,6 +55,10 @@ LongStringActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -56,6 +66,8 @@ server
 actors
 /
 string
+.
+js
 "
 )
 ;
@@ -67,6 +79,10 @@ inspectorSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -74,6 +90,8 @@ shared
 specs
 /
 inspector
+.
+js
 "
 )
 ;

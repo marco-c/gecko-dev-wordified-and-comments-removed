@@ -85,6 +85,10 @@ getFontPreviewData
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -96,6 +100,8 @@ utils
 style
 -
 utils
+.
+js
 "
 )
 ;

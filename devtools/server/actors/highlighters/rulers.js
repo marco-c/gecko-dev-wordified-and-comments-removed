@@ -9,6 +9,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -16,6 +20,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -28,6 +34,10 @@ setIgnoreLayoutChanges
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -35,6 +45,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;
@@ -46,6 +58,10 @@ CanvasFrameAnonymousContentHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -57,6 +73,8 @@ highlighters
 utils
 /
 markup
+.
+js
 "
 )
 ;

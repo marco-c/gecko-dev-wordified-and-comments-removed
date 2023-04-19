@@ -11,6 +11,10 @@ isWindowIncluded
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -18,6 +22,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ WebConsoleUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -38,6 +48,8 @@ actors
 webconsole
 /
 utils
+.
+js
 "
 )
 ;

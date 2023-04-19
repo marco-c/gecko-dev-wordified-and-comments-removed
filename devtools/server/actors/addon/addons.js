@@ -33,11 +33,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -73,6 +79,10 @@ addonsSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -82,6 +92,8 @@ specs
 addon
 /
 addons
+.
+js
 "
 )
 ;
@@ -210,6 +222,10 @@ gDevTools
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -217,6 +233,8 @@ client
 framework
 /
 devtools
+.
+js
 "
 )
 ;

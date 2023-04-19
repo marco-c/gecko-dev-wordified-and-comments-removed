@@ -11,6 +11,10 @@ formatCommand
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server

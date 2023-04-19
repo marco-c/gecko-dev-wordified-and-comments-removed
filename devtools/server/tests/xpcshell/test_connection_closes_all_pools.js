@@ -11,6 +11,10 @@ Pool
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -18,6 +22,8 @@ shared
 protocol
 /
 Pool
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ DevToolsServerConnection
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -38,6 +48,8 @@ devtools
 server
 -
 connection
+.
+js
 "
 )
 ;
@@ -49,6 +61,10 @@ LocalDebuggerTransport
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -58,6 +74,8 @@ transport
 local
 -
 transport
+.
+js
 "
 )
 ;

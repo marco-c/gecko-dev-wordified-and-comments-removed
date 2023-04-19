@@ -9,6 +9,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -16,6 +20,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -27,6 +33,10 @@ isNodeValid
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -38,6 +48,8 @@ highlighters
 utils
 /
 markup
+.
+js
 "
 )
 ;
@@ -50,6 +62,10 @@ getWindowDimensions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -57,6 +73,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;

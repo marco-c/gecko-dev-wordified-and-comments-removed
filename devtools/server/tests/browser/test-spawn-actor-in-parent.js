@@ -9,11 +9,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ DevToolsServerConnection
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -41,6 +51,8 @@ devtools
 server
 -
 connection
+.
+js
 "
 )
 ;

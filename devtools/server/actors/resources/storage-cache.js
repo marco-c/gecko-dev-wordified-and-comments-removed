@@ -15,6 +15,10 @@ CACHE_STORAGE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -24,6 +28,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ ContentProcessStorage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -48,6 +58,8 @@ content
 process
 -
 storage
+.
+js
 "
 )
 ;

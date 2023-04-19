@@ -11,6 +11,10 @@ wildcardToRegExp
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -28,6 +32,8 @@ wildcard
 to
 -
 regexp
+.
+js
 "
 )
 ;

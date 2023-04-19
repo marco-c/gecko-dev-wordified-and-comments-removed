@@ -80,6 +80,10 @@ HighlighterEnvironment
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -87,6 +91,8 @@ server
 actors
 /
 highlighters
+.
+js
 "
 )
 ;
@@ -98,6 +104,10 @@ AccessibleHighlighter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -107,6 +117,8 @@ actors
 highlighters
 /
 accessible
+.
+js
 "
 )
 ;

@@ -11,6 +11,10 @@ setBreakpointAtEntryPoints
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -18,6 +22,8 @@ server
 actors
 /
 breakpoint
+.
+js
 "
 )
 ;
@@ -30,11 +36,17 @@ Actor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -46,6 +58,10 @@ sourceSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -53,6 +69,8 @@ shared
 specs
 /
 source
+.
+js
 "
 )
 ;
@@ -64,6 +82,10 @@ getSourcemapBaseURL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -77,6 +99,8 @@ source
 map
 -
 utils
+.
+js
 "
 )
 ;
@@ -88,6 +112,10 @@ getDebuggerSourceURL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -99,6 +127,8 @@ utils
 source
 -
 url
+.
+js
 "
 )
 ;

@@ -11,6 +11,10 @@ isNodeValid
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -22,6 +26,8 @@ highlighters
 utils
 /
 markup
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ BoxModelHighlighter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -44,6 +54,8 @@ highlighters
 box
 -
 model
+.
+js
 "
 )
 ;

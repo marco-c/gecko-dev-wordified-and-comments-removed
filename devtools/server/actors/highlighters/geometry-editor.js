@@ -11,6 +11,10 @@ AutoRefreshHighlighter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -22,6 +26,8 @@ highlighters
 auto
 -
 refresh
+.
+js
 "
 )
 ;
@@ -34,6 +40,10 @@ getComputedStyle
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -45,6 +55,8 @@ highlighters
 utils
 /
 markup
+.
+js
 "
 )
 ;
@@ -57,6 +69,10 @@ getAdjustedQuads
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -64,6 +80,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;
@@ -75,6 +93,10 @@ getCSSStyleRules
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -84,6 +106,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 )
 ;

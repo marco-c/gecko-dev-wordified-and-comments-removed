@@ -18,6 +18,10 @@ translate
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -29,6 +33,8 @@ dom
 matrix
 -
 2d
+.
+js
 "
 )
 ;
@@ -41,6 +47,10 @@ getViewportDimensions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -48,6 +58,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;
@@ -59,6 +71,10 @@ getComputedStyle
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -70,6 +86,8 @@ highlighters
 utils
 /
 markup
+.
+js
 "
 )
 ;

@@ -11,6 +11,10 @@ connectToFrame
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -20,6 +24,8 @@ connectors
 frame
 -
 connector
+.
+js
 "
 )
 ;
@@ -133,6 +139,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -140,6 +150,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -151,6 +163,10 @@ ActorRegistry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -162,6 +178,8 @@ utils
 actor
 -
 registry
+.
+js
 "
 )
 ;
@@ -179,6 +197,10 @@ Actor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -186,6 +208,8 @@ shared
 protocol
 /
 Actor
+.
+js
 "
 )
 ;

@@ -15,6 +15,10 @@ removeSheet
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -22,6 +26,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -38,6 +48,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;

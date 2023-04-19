@@ -12,11 +12,17 @@ ActorClassWithSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -28,6 +34,10 @@ eventSourceSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -35,6 +45,8 @@ shared
 specs
 /
 eventsource
+.
+js
 "
 )
 ;
@@ -46,6 +58,10 @@ LongStringActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -53,6 +69,8 @@ server
 actors
 /
 string
+.
+js
 "
 )
 ;

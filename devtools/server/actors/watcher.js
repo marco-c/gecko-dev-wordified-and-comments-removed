@@ -9,11 +9,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -25,6 +31,10 @@ watcherSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -32,6 +42,8 @@ shared
 specs
 /
 watcher
+.
+js
 "
 )
 ;
@@ -41,6 +53,10 @@ Resources
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -50,6 +66,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;
@@ -123,6 +141,10 @@ Targets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -132,6 +154,8 @@ actors
 targets
 /
 index
+.
+js
 "
 )
 ;

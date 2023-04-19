@@ -12,11 +12,17 @@ Actor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -28,6 +34,10 @@ threadConfigurationSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -37,6 +47,8 @@ specs
 thread
 -
 configuration
+.
+js
 "
 )
 ;

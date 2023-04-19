@@ -37,6 +37,10 @@ CommandsFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -46,6 +50,8 @@ commands
 commands
 -
 factory
+.
+js
 "
 )
 ;
@@ -57,6 +63,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -64,6 +74,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -101,6 +113,10 @@ _documentWalker
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -112,6 +128,8 @@ inspector
 document
 -
 walker
+.
+js
 "
 )
 ;

@@ -9,6 +9,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -16,6 +20,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -27,11 +33,17 @@ fetch
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -53,6 +65,10 @@ getSourcemapBaseURL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -66,6 +82,8 @@ source
 map
 -
 utils
+.
+js
 "
 )
 ;
@@ -77,6 +95,10 @@ TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -86,6 +108,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;

@@ -15,6 +15,10 @@ THREAD_STATE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -24,6 +28,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;
@@ -38,6 +44,10 @@ THREAD_STATES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -45,6 +55,8 @@ server
 actors
 /
 thread
+.
+js
 "
 )
 ;

@@ -35,11 +35,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -51,6 +57,10 @@ serviceWorkerRegistrationSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -64,6 +74,8 @@ service
 worker
 -
 registration
+.
+js
 "
 )
 ;
@@ -75,6 +87,10 @@ PushSubscriptionActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -86,6 +102,8 @@ worker
 push
 -
 subscription
+.
+js
 "
 )
 ;
@@ -97,6 +115,10 @@ ServiceWorkerActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -108,6 +130,8 @@ worker
 service
 -
 worker
+.
+js
 "
 )
 ;

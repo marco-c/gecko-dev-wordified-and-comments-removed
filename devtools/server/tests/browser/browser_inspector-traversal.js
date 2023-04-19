@@ -2056,6 +2056,10 @@ WalkerActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -2065,6 +2069,8 @@ actors
 inspector
 /
 walker
+.
+js
 "
 )
 ;
@@ -2137,6 +2143,10 @@ WalkerActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -2146,6 +2156,8 @@ actors
 inspector
 /
 walker
+.
+js
 "
 )
 ;

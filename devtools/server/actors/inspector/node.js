@@ -19,11 +19,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -35,6 +41,10 @@ PSEUDO_CLASSES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -42,6 +52,8 @@ shared
 css
 /
 constants
+.
+js
 "
 )
 ;
@@ -54,6 +66,10 @@ nodeListSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -61,6 +77,8 @@ shared
 specs
 /
 node
+.
+js
 "
 )
 ;

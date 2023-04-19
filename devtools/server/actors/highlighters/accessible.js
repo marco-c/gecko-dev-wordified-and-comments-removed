@@ -11,6 +11,10 @@ AutoRefreshHighlighter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -22,6 +26,8 @@ highlighters
 auto
 -
 refresh
+.
+js
 "
 )
 ;
@@ -34,6 +40,10 @@ isNodeValid
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -45,6 +55,8 @@ highlighters
 utils
 /
 markup
+.
+js
 "
 )
 ;
@@ -57,6 +69,10 @@ DOCUMENT_NODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -66,6 +82,8 @@ dom
 node
 -
 constants
+.
+js
 "
 )
 ;
@@ -78,6 +96,10 @@ setIgnoreLayoutChanges
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -85,6 +107,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;

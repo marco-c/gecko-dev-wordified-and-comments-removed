@@ -12,6 +12,10 @@ getThrownMessage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -21,6 +25,8 @@ actors
 utils
 /
 logEvent
+.
+js
 "
 )
 ;

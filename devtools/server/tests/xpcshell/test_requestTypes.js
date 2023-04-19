@@ -11,6 +11,10 @@ RootActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -18,6 +22,8 @@ server
 actors
 /
 root
+.
+js
 "
 )
 ;

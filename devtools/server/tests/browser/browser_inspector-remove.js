@@ -349,6 +349,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -356,6 +360,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;

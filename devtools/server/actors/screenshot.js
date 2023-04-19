@@ -9,11 +9,17 @@ protocol
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 ;
@@ -25,6 +31,10 @@ captureScreenshot
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -36,6 +46,8 @@ utils
 capture
 -
 screenshot
+.
+js
 "
 )
 ;
@@ -47,6 +59,10 @@ screenshotSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -54,6 +70,8 @@ shared
 specs
 /
 screenshot
+.
+js
 "
 )
 ;

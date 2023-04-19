@@ -109,11 +109,17 @@ DevToolsUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -125,6 +131,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -132,6 +142,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -270,6 +282,10 @@ WebExtensionTargetActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -279,6 +295,8 @@ actors
 targets
 /
 webextension
+.
+js
 "
 )
 ;
@@ -290,6 +308,10 @@ createWebExtensionSessionContext
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -301,6 +323,8 @@ watcher
 session
 -
 context
+.
+js
 "
 )
 ;
@@ -368,6 +392,10 @@ WindowGlobalTargetActor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -379,6 +407,8 @@ targets
 window
 -
 global
+.
+js
 "
 )
 ;
@@ -390,6 +420,10 @@ createBrowserElementSessionContext
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -401,6 +435,8 @@ watcher
 session
 -
 context
+.
+js
 "
 )
 ;

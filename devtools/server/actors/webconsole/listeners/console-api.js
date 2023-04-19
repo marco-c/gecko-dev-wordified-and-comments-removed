@@ -12,6 +12,10 @@ WebConsoleUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -21,6 +25,8 @@ actors
 webconsole
 /
 utils
+.
+js
 "
 )
 ;

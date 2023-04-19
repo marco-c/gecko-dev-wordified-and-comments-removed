@@ -11,6 +11,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -18,6 +22,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ windowGlobalTargetPrototype
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -42,6 +52,8 @@ targets
 window
 -
 global
+.
+js
 "
 )
 ;
@@ -51,6 +63,10 @@ makeDebugger
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -62,6 +78,8 @@ utils
 make
 -
 debugger
+.
+js
 "
 )
 ;
@@ -73,11 +91,17 @@ extend
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 extend
+.
+js
 "
 )
 ;
@@ -89,6 +113,10 @@ parentProcessTargetSpec
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -100,6 +128,8 @@ targets
 parent
 -
 process
+.
+js
 "
 )
 ;
@@ -109,6 +139,10 @@ Targets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -118,6 +152,8 @@ actors
 targets
 /
 index
+.
+js
 "
 )
 ;
@@ -127,6 +163,10 @@ TargetActorMixin
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -140,6 +180,8 @@ target
 actor
 -
 mixin
+.
+js
 "
 )
 ;
