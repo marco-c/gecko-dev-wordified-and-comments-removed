@@ -628,6 +628,13 @@ name
 "
 1
 "
+permissions
+:
+[
+"
+activeTab
+"
+]
 }
 useAddonManager
 :
