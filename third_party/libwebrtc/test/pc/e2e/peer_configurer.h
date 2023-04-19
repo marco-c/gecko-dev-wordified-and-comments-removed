@@ -246,6 +246,14 @@ rtc
 NetworkManager
 *
 network_manager
+rtc
+:
+:
+PacketSocketFactory
+*
+packet_socket_factory
+=
+nullptr
 )
 :
 components_
@@ -260,6 +268,7 @@ InjectableComponents
 (
 network_thread
 network_manager
+packet_socket_factory
 )
 )
 params_
