@@ -832,15 +832,12 @@ stream_label
 )
 {
 }
-const
 size_t
 width
 ;
-const
 size_t
 height
 ;
-const
 int32_t
 fps
 ;
