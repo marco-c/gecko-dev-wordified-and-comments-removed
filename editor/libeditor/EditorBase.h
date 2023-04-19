@@ -5352,13 +5352,6 @@ aRv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
-nsresult
-CollapseSelectionToEndOfLastLeafNode
-(
-)
-const
-;
 inline
 bool
 AllowsTransactionsToChangeSelection
