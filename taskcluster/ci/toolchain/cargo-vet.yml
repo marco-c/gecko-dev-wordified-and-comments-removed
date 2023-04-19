@@ -376,6 +376,10 @@ windows
 .
 61
 -
+linux64
+-
+liblowercase
+-
 win64
 -
 vs2017
