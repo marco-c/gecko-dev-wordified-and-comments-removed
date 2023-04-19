@@ -163,13 +163,6 @@ Release
 override
 RTC_NO_THREAD_SAFETY_ANALYSIS
 ;
-bool
-PrefersLateDecoding
-(
-)
-const
-override
-;
 const
 char
 *

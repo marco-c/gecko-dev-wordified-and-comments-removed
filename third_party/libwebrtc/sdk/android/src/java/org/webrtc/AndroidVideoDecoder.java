@@ -1383,17 +1383,6 @@ OK
 }
 Override
 public
-boolean
-getPrefersLateDecoding
-(
-)
-{
-return
-true
-;
-}
-Override
-public
 String
 getImplementationName
 (

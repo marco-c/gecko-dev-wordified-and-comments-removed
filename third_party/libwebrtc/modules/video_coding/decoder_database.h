@@ -148,12 +148,6 @@ VCMDecodedFrameCallback
 decoded_frame_callback
 )
 ;
-bool
-PrefersLateDecoding
-(
-)
-const
-;
 private
 :
 typedef

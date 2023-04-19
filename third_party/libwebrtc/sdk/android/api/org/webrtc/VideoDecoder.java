@@ -153,12 +153,16 @@ DecodeInfo
 info
 )
 ;
-CalledByNative
+default
 boolean
 getPrefersLateDecoding
 (
 )
+{
+return
+true
 ;
+}
 CalledByNative
 String
 getImplementationName
