@@ -2042,6 +2042,15 @@ toWait
 waitForEvent
 (
 event
+event
+=
+=
+EVENT_TABLE_STYLING_CHANGED
+?
+"
+table
+"
+:
 elem
 )
 ;
@@ -2089,7 +2098,7 @@ table
 id
 =
 "
-sampleTable
+table
 "
 summary
 =
@@ -2178,7 +2187,7 @@ getNativeInterface
 (
 accDoc
 "
-sampleTable
+table
 "
 )
 ;
@@ -2217,7 +2226,7 @@ testIsLayout
 (
 table
 "
-sampleTable
+table
 "
 EVENT_OBJECT_ATTRIBUTE_CHANGED
 async
@@ -2246,7 +2255,7 @@ document
 getElementById
 (
 "
-sampleTable
+table
 "
 )
 .
@@ -2650,7 +2659,7 @@ table
 id
 =
 "
-sampleTable
+table
 "
 >
 <
@@ -2728,7 +2737,7 @@ getNativeInterface
 (
 accDoc
 "
-sampleTable
+table
 "
 )
 ;

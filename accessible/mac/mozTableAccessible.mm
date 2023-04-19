@@ -606,15 +606,6 @@ nsIAccessibleEvent
 :
 :
 EVENT_OBJECT_ATTRIBUTE_CHANGED
-|
-|
-eventType
-=
-=
-nsIAccessibleEvent
-:
-:
-EVENT_TABLE_STYLING_CHANGED
 )
 {
 [
