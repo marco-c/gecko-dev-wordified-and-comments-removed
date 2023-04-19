@@ -658,7 +658,7 @@ quality_thresholds
 9
 31
 .
-55
+5
 0
 .
 925
