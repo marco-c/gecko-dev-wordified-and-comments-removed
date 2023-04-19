@@ -401,6 +401,13 @@ ini
 "
 test
 /
+mochitest_compat
+.
+ini
+"
+"
+test
+/
 mochitest_eme
 .
 ini
