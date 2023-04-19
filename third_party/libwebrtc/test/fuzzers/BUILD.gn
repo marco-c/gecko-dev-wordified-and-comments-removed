@@ -3977,6 +3977,17 @@ video_coding
 :
 frame_buffer
 "
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
+rtc_numerics
+"
 ]
 }
 webrtc_fuzzer_test
