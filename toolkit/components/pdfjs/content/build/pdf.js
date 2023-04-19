@@ -58428,7 +58428,7 @@ l10n
 get
 (
 "
-freetext_default_content
+free_text_default_content
 "
 )
 ;
