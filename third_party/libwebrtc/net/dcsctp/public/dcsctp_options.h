@@ -169,7 +169,7 @@ DurationMs
 bool
 slow_start_tcp_style
 =
-true
+false
 ;
 size_t
 cwnd_mtus_initial
