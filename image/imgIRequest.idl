@@ -63,14 +63,6 @@ unsigned
 long
 providerId
 ;
-[
-infallible
-]
-readonly
-attribute
-nsIPrincipal
-triggeringPrincipal
-;
 const
 long
 STATUS_NONE
@@ -133,9 +125,6 @@ attribute
 nsresult
 imageErrorCode
 ;
-[
-infallible
-]
 readonly
 attribute
 nsIURI
