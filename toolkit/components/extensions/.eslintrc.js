@@ -97,6 +97,17 @@ level
 error
 "
 "
+mozilla
+/
+reject
+-
+importGlobalProperties
+"
+:
+"
+off
+"
+"
 valid
 -
 jsdoc
