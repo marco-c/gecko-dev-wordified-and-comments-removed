@@ -106,9 +106,6 @@ browser
 .
 quit
 (
-in_app
-=
-True
 )
     
 browser
