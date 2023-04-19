@@ -2292,9 +2292,6 @@ SettingsType
 kDefaultApmDesktop
 :
 {
-Config
-config
-;
 apm_
 =
 AudioProcessingBuilderForTesting
@@ -2303,7 +2300,6 @@ AudioProcessingBuilderForTesting
 .
 Create
 (
-config
 )
 ;
 ASSERT_TRUE
@@ -2368,9 +2364,6 @@ SettingsType
 kDefaultApmDesktopWithoutDelayAgnostic
 :
 {
-Config
-config
-;
 apm_
 =
 AudioProcessingBuilderForTesting
@@ -2379,7 +2372,6 @@ AudioProcessingBuilderForTesting
 .
 Create
 (
-config
 )
 ;
 ASSERT_TRUE
@@ -2408,9 +2400,6 @@ SettingsType
 kDefaultApmDesktopWithoutExtendedFilter
 :
 {
-Config
-config
-;
 apm_
 =
 AudioProcessingBuilderForTesting
@@ -2419,7 +2408,6 @@ AudioProcessingBuilderForTesting
 .
 Create
 (
-config
 )
 ;
 ASSERT_TRUE

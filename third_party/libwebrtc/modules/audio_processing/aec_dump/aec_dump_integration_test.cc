@@ -111,12 +111,6 @@ CreateAudioProcessing
 (
 )
 {
-webrtc
-:
-:
-Config
-config
-;
 rtc
 :
 :
@@ -138,7 +132,6 @@ AudioProcessingBuilderForTesting
 .
 Create
 (
-config
 )
 )
 ;

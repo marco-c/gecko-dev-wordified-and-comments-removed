@@ -1043,9 +1043,6 @@ Config
 msg
 )
 {
-Config
-config
-;
 RTC_CHECK
 (
 msg
@@ -1082,7 +1079,6 @@ AudioProcessingBuilderForTesting
 .
 Create
 (
-config
 )
 ;
 }

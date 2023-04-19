@@ -17408,12 +17408,6 @@ ApmConfiguration
 EchoControlInjection
 )
 {
-webrtc
-:
-:
-Config
-webrtc_config
-;
 std
 :
 :
@@ -17455,7 +17449,6 @@ echo_control_factory
 .
 Create
 (
-webrtc_config
 )
 ;
 Int16FrameData
@@ -17611,9 +17604,6 @@ bool
 mobile_aec
 )
 {
-Config
-old_config
-;
 rtc
 :
 :
@@ -17629,7 +17619,6 @@ AudioProcessingBuilderForTesting
 .
 Create
 (
-old_config
 )
 ;
 if
