@@ -122,6 +122,11 @@ return
 mOwner
 ;
 }
+void
+Shutdown
+(
+)
+;
 already_AddRefed
 <
 Promise
