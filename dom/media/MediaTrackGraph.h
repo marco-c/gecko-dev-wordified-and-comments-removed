@@ -486,7 +486,6 @@ MediaTrackGraph
 aGraph
 )
 ;
-virtual
 void
 AddAudioOutput
 (
@@ -495,7 +494,6 @@ void
 aKey
 )
 ;
-virtual
 void
 SetAudioOutputVolume
 (
@@ -506,7 +504,6 @@ float
 aVolume
 )
 ;
-virtual
 void
 RemoveAudioOutput
 (
@@ -515,13 +512,11 @@ void
 aKey
 )
 ;
-virtual
 void
 Suspend
 (
 )
 ;
-virtual
 void
 Resume
 (
@@ -548,7 +543,6 @@ MediaTrackListener
 aListener
 )
 ;
-virtual
 void
 AddDirectListener
 (
@@ -557,7 +551,6 @@ DirectMediaTrackListener
 aListener
 )
 ;
-virtual
 void
 RemoveDirectListener
 (
