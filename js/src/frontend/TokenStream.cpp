@@ -5089,7 +5089,7 @@ ReportOutOfMemory
 (
 anyChars
 .
-cx
+ec
 )
 ;
 break
@@ -5204,7 +5204,7 @@ addNoteASCII
 (
 anyChars
 .
-cx
+ec
 anyChars
 .
 getFilename
@@ -8954,7 +8954,7 @@ anyCharsAccess
 (
 )
 .
-cx
+ec
 )
 ;
 return
