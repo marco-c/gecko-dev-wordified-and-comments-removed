@@ -227,6 +227,11 @@ x
 =
 2
 ;
+(
+void
+)
+x
+;
 }
 struct
 Base

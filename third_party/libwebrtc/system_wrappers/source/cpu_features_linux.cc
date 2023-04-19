@@ -322,6 +322,11 @@ defined
 (
 __aarch64__
 )
+(
+void
+)
+platform
+;
 architecture
 =
 8
