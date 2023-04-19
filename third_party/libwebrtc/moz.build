@@ -3891,6 +3891,16 @@ libwebrtc
 /
 rtc_base
 /
+copy_on_write_buffer_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+rtc_base
+/
 criticalsection_gn
 "
 "
