@@ -84,7 +84,7 @@ TypeError
 >
 {
 new
-ComputePressureObserver
+PressureObserver
 (
 callback
 options
@@ -94,7 +94,7 @@ options
 )
 ;
 }
-ComputePressureObserver
+PressureObserver
 constructor
 throws
 when
@@ -180,7 +180,7 @@ const
 observer
 =
 new
-ComputePressureObserver
+PressureObserver
 (
 callback
 options
@@ -190,11 +190,11 @@ assert_true
 (
 observer
 instanceof
-ComputePressureObserver
+PressureObserver
 )
 ;
 }
-ComputePressureObserver
+PressureObserver
 constructor
 accepts
 {
@@ -236,7 +236,7 @@ TypeError
 >
 {
 new
-ComputePressureObserver
+PressureObserver
 (
 callback
 {
@@ -258,7 +258,7 @@ cpuUtilizationThresholds
 ;
 }
 '
-ComputePressureObserver
+PressureObserver
 constructor
 throws
 when

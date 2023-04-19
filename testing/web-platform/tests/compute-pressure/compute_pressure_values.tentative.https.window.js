@@ -28,7 +28,7 @@ const
 observer
 =
 new
-ComputePressureObserver
+PressureObserver
 (
 resolve
 {
@@ -95,7 +95,7 @@ quantization
 ;
 }
 '
-ComputePressureObserver
+PressureObserver
 quantizes
 utilization
 and

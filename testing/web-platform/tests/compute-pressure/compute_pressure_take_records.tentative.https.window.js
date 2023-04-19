@@ -13,7 +13,7 @@ const
 observer
 =
 new
-ComputePressureObserver
+PressureObserver
 (
 t
 .
@@ -104,7 +104,7 @@ reject
 observer
 =
 new
-ComputePressureObserver
+PressureObserver
 (
 resolve
 {

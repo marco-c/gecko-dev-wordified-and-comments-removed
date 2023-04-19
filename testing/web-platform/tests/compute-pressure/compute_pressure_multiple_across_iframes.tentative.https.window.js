@@ -27,7 +27,7 @@ const
 observer
 =
 new
-ComputePressureObserver
+PressureObserver
 (
 resolve
 {
@@ -115,7 +115,7 @@ iframe2
 .
 contentWindow
 .
-ComputePressureObserver
+PressureObserver
 (
 resolve
 {
@@ -203,7 +203,7 @@ iframe3
 .
 contentWindow
 .
-ComputePressureObserver
+PressureObserver
 (
 resolve
 {
@@ -303,7 +303,7 @@ quantization
 }
 '
 Three
-ComputePressureObserver
+PressureObserver
 instances
 in
 different

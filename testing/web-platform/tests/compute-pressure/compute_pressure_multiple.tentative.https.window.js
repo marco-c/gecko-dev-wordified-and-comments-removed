@@ -27,7 +27,7 @@ const
 observer
 =
 new
-ComputePressureObserver
+PressureObserver
 (
 resolve
 {
@@ -90,7 +90,7 @@ const
 observer
 =
 new
-ComputePressureObserver
+PressureObserver
 (
 resolve
 {
@@ -153,7 +153,7 @@ const
 observer
 =
 new
-ComputePressureObserver
+PressureObserver
 (
 resolve
 {
@@ -253,7 +253,7 @@ quantization
 }
 '
 Three
-ComputePressureObserver
+PressureObserver
 instances
 with
 the

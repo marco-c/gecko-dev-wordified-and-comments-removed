@@ -20,7 +20,7 @@ const
 observer1
 =
 new
-ComputePressureObserver
+PressureObserver
 (
 update
 =
@@ -96,7 +96,7 @@ const
 observer2
 =
 new
-ComputePressureObserver
+PressureObserver
 (
 update
 =
@@ -224,7 +224,7 @@ const
 observer3
 =
 new
-ComputePressureObserver
+PressureObserver
 (
 update
 =
@@ -334,7 +334,7 @@ quantization
 }
 '
 Stopped
-ComputePressureObservers
+PressureObserver
 do
 not
 receive

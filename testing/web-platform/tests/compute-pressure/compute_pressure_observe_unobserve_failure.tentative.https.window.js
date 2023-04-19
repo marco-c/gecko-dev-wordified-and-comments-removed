@@ -14,7 +14,7 @@ const
 observer
 =
 new
-ComputePressureObserver
+PressureObserver
 (
 t
 .
@@ -75,7 +75,7 @@ random
 ;
 }
 '
-ComputePressureObserver
+PressureObserver
 .
 observe
 (
@@ -98,7 +98,7 @@ const
 observer
 =
 new
-ComputePressureObserver
+PressureObserver
 (
 t
 .
@@ -164,7 +164,7 @@ random
 ;
 }
 '
-ComputePressureObserver
+PressureObserver
 .
 unobserve
 (
