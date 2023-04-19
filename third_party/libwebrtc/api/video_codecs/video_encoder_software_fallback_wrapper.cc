@@ -263,7 +263,8 @@ NumberOfTemporalLayers
 codec
 0
 )
->
+!
+=
 1
 ;
 }
@@ -2296,7 +2297,8 @@ fps_allocation
 size
 (
 )
->
+!
+=
 1
 )
 {
@@ -2341,7 +2343,8 @@ fps_allocation
 size
 (
 )
->
+!
+=
 1
 )
 {
