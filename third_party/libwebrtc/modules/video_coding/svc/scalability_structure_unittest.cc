@@ -2185,6 +2185,13 @@ L2T2_KEY_SHIFT
 SvcTestParam
 {
 "
+L2T3_KEY
+"
+8
+}
+SvcTestParam
+{
+"
 L3T3_KEY
 "
 8
