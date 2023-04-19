@@ -106,8 +106,8 @@ RTPVideoHeader
 videoHeader
 int64_t
 ntp_time_ms
-int64_t
-receive_time_ms
+Timestamp
+receive_time
 )
 :
 payloadType
@@ -176,7 +176,7 @@ videoHeader
 packet_info
 (
 rtp_header
-receive_time_ms
+receive_time
 )
 {
 if

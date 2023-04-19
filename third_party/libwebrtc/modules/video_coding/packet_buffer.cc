@@ -199,8 +199,8 @@ const
 RTPVideoHeader
 &
 video_header
-int64_t
-receive_time_ms
+Timestamp
+receive_time
 )
 :
 marker_bit
@@ -273,7 +273,7 @@ AbsoluteCaptureTimeExtension
 >
 (
 )
-receive_time_ms
+receive_time
 )
 {
 }

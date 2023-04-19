@@ -653,7 +653,7 @@ red_packet
 .
 packet_info
 .
-receive_time_ms
+receive_time
 (
 )
 )

@@ -415,7 +415,7 @@ video_header
 clock_
 -
 >
-TimeInMilliseconds
+CurrentTime
 (
 )
 )
@@ -2956,7 +2956,7 @@ video_header
 clock_
 -
 >
-TimeInMilliseconds
+CurrentTime
 (
 )
 )

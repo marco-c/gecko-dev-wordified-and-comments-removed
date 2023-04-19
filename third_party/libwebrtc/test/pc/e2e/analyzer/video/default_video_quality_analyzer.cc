@@ -2303,7 +2303,7 @@ empty
 )
 )
 ;
-int64_t
+Timestamp
 last_receive_time
 =
 std
@@ -2345,13 +2345,13 @@ b
 return
 a
 .
-receive_time_ms
+receive_time
 (
 )
 <
 b
 .
-receive_time_ms
+receive_time
 (
 )
 ;
@@ -2359,7 +2359,7 @@ receive_time_ms
 )
 -
 >
-receive_time_ms
+receive_time
 (
 )
 ;
@@ -2371,13 +2371,7 @@ second
 OnFramePreDecode
 (
 peer_index
-Timestamp
-:
-:
-Millis
-(
 last_receive_time
-)
 Now
 (
 )

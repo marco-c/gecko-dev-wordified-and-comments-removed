@@ -1252,7 +1252,7 @@ video_header
 clock_
 -
 >
-TimeInMilliseconds
+CurrentTime
 (
 )
 )
