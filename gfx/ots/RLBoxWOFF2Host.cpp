@@ -474,6 +474,8 @@ size_t
 aLength
 size_t
 aSize
+size_t
+aLimit
 )
 {
 if
@@ -540,7 +542,7 @@ if
 (
 aSize
 >
-OTS_MAX_DECOMPRESSED_FILE_SIZE
+aLimit
 )
 {
 NS_WARNING
@@ -560,7 +562,7 @@ exceeds
 %
 gMB
 "
-OTS_MAX_DECOMPRESSED_FILE_SIZE
+aLimit
 /
 (
 1024
@@ -596,6 +598,8 @@ uint8_t
 aData
 size_t
 aLength
+size_t
+aLimit
 )
 {
 if
@@ -655,6 +659,7 @@ Woff2SizeValidator
 (
 aLength
 decompressedSize
+aLimit
 )
 )
 {
@@ -750,6 +755,26 @@ aLength
 false
 )
 ;
+size_t
+limit
+=
+std
+:
+:
+min
+(
+size_t
+(
+OTS_MAX_DECOMPRESSED_FILE_SIZE
+)
+aOutput
+-
+>
+size
+(
+)
+)
+;
 uint32_t
 expectedSize
 =
@@ -757,6 +782,7 @@ ComputeWOFF2FinalSize
 (
 aData
 aLength
+limit
 )
 ;
 NS_ENSURE_TRUE
@@ -1021,6 +1047,7 @@ Woff2SizeValidator
 (
 aLength
 val
+limit
 )
 ;
 return
