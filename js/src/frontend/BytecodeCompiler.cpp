@@ -1605,6 +1605,7 @@ GlobalSharedContext
 globalsc
 (
 cx
+ec
 scopeKind
 input
 .
@@ -2931,6 +2932,8 @@ EvalSharedContext
 evalsc
 (
 cx
+&
+ec
 compiler
 .
 compilationState
@@ -3185,6 +3188,9 @@ compile
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 )
 ;
 }
@@ -3991,6 +3997,9 @@ compile
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 )
 {
 MOZ_ASSERT
@@ -4080,6 +4089,7 @@ ModuleSharedContext
 modulesc
 (
 cx
+ec
 options
 builder
 extent
@@ -4661,6 +4671,7 @@ compiler
 compile
 (
 cx
+ec
 )
 )
 {
