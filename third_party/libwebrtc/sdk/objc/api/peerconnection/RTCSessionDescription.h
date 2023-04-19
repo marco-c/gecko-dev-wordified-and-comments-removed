@@ -62,6 +62,7 @@ NS_UNAVAILABLE
 ;
 -
 (
+nullable
 instancetype
 )
 initWithType
