@@ -1659,6 +1659,17 @@ findCaptureFormat
 (
 )
 ;
+if
+(
+captureFormat
+=
+=
+null
+)
+{
+return
+;
+}
 openCamera
 (
 )
