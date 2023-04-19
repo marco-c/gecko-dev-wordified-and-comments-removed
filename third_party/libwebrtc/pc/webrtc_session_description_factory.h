@@ -189,13 +189,6 @@ rtc
 :
 :
 RTCCertificateGeneratorCallback
-public
-sigslot
-:
-:
-has_slots
-<
->
 {
 public
 :
