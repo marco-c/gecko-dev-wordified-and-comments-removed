@@ -791,6 +791,14 @@ false
 }
 rtcp_xr
 ;
+KeyFrameReqMethod
+keyframe_method
+=
+KeyFrameReqMethod
+:
+:
+kPliRtcp
+;
 bool
 remb
 =
@@ -800,9 +808,6 @@ bool
 tmmbr
 =
 false
-;
-KeyFrameReqMethod
-keyframe_method
 ;
 LntfConfig
 lntf
