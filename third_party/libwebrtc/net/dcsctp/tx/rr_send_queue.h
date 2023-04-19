@@ -134,13 +134,6 @@ SendQueue
 {
 public
 :
-static
-constexpr
-size_t
-kMinimumFragmentedPayload
-=
-10
-;
 RRSendQueue
 (
 absl
@@ -547,13 +540,7 @@ SendOptions
 send_options
 )
 ;
-absl
-:
-:
-optional
-<
 DataToSend
->
 Produce
 (
 TimeMs
