@@ -75,6 +75,17 @@ sequence_checker
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+no_unique_address
+.
+h
+"
 namespace
 webrtc
 {
@@ -161,6 +172,7 @@ override
 ;
 private
 :
+RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 sequence_checker_
 ;

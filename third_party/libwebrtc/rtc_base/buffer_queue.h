@@ -55,6 +55,17 @@ include
 "
 rtc_base
 /
+system
+/
+no_unique_address
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 thread_annotations
 .
 h
@@ -164,6 +175,7 @@ empty
 }
 private
 :
+RTC_NO_UNIQUE_ADDRESS
 webrtc
 :
 :

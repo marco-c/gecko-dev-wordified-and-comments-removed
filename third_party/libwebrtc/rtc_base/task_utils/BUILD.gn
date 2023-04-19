@@ -277,6 +277,14 @@ synchronization
 :
 sequence_checker
 "
+"
+.
+.
+/
+system
+:
+no_unique_address
+"
 ]
 }
 rtc_source_set

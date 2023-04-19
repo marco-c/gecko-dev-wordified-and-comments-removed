@@ -94,6 +94,17 @@ include
 "
 rtc_base
 /
+system
+/
+no_unique_address
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 task_utils
 /
 repeating_task
@@ -425,6 +436,7 @@ CpuOveruseOptions
 options
 )
 ;
+RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 task_checker_
 ;

@@ -111,6 +111,17 @@ include
 "
 rtc_base
 /
+system
+/
+no_unique_address
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 task_queue
 .
 h
@@ -424,6 +435,7 @@ RTC_GUARDED_BY
 task_queue_
 )
 ;
+RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 logging_state_checker_
 ;

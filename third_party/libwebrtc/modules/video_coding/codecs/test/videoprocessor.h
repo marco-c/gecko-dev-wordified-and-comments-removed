@@ -243,6 +243,17 @@ include
 "
 rtc_base
 /
+system
+/
+no_unique_address
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 thread_annotations
 .
 h
@@ -1053,6 +1064,7 @@ RTC_GUARDED_BY
 sequence_checker_
 )
 ;
+RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 sequence_checker_
 ;
