@@ -192,7 +192,7 @@ S_FALSE
 {
 RTC_DLOG
 (
-WARNING
+LS_WARNING
 )
 <
 <

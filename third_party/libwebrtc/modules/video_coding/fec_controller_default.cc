@@ -319,7 +319,7 @@ overhead_threshold
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <

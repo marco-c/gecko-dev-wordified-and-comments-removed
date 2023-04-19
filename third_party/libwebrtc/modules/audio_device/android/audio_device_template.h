@@ -703,7 +703,7 @@ IsCommunicationModeEnabled
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -814,7 +814,7 @@ IsCommunicationModeEnabled
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <

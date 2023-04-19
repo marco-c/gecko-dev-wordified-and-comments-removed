@@ -906,7 +906,7 @@ Playing
 {
 RTC_DLOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -1293,7 +1293,7 @@ else
 {
 RTC_DLOG
 (
-WARNING
+LS_WARNING
 )
 <
 <

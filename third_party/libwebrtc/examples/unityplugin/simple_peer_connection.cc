@@ -1904,7 +1904,7 @@ session_description
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -2038,7 +2038,7 @@ get
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -2085,7 +2085,7 @@ get
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <

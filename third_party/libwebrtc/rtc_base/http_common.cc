@@ -2156,7 +2156,7 @@ ERROR_SUCCESS
 {
 RTC_LOG_F
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -2326,7 +2326,7 @@ max_steps
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <

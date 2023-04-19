@@ -807,7 +807,7 @@ aggregation_header
 {
 RTC_DLOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -846,7 +846,7 @@ expect_continues_obu
 {
 RTC_DLOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -895,7 +895,7 @@ num_expected_obus
 {
 RTC_DLOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -1016,7 +1016,7 @@ fragment_size
 {
 RTC_DLOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -1060,7 +1060,7 @@ Length
 {
 RTC_DLOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -1178,7 +1178,7 @@ expect_continues_obu
 {
 RTC_DLOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -1288,7 +1288,7 @@ empty
 {
 RTC_DLOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -1466,7 +1466,7 @@ size_of_obu_size_bytes
 {
 RTC_DLOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -1575,7 +1575,7 @@ payload_size
 {
 RTC_DLOG
 (
-WARNING
+LS_WARNING
 )
 <
 <

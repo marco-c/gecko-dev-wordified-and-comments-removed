@@ -168,7 +168,7 @@ else
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <

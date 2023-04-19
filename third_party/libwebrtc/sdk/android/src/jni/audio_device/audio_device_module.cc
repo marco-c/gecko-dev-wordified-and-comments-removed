@@ -2317,7 +2317,7 @@ available
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -2466,7 +2466,7 @@ available
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <

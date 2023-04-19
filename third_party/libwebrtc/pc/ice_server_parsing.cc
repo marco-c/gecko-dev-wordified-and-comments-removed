@@ -1158,7 +1158,7 @@ npos
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -1173,7 +1173,7 @@ uri_without_transport
 ;
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -1223,7 +1223,7 @@ port
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -1259,7 +1259,7 @@ port
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <

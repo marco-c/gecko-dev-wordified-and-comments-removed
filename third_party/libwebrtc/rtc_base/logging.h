@@ -206,6 +206,17 @@ LS_INFO
 =
 LS_INFO
 WARNING
+[
+[
+deprecated
+(
+"
+Use
+LS_WARNING
+"
+)
+]
+]
 =
 LS_WARNING
 LERROR

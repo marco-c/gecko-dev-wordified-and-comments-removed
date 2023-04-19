@@ -1316,7 +1316,7 @@ WEBRTC_ENABLE_LINUX_PULSE
 )
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -1456,7 +1456,7 @@ AudioDeviceLinuxALSA
 ;
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -3102,7 +3102,7 @@ enable
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
@@ -3373,7 +3373,7 @@ enable
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <
