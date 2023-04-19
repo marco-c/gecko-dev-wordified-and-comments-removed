@@ -222,13 +222,6 @@ must_use
 ]
 attribute
 boolean
-allowPipelining
-;
-[
-must_use
-]
-attribute
-boolean
 allowSTS
 ;
 [
