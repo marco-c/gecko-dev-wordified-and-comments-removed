@@ -2584,6 +2584,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 max
@@ -3674,6 +3676,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 max
@@ -3908,6 +3912,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 max
@@ -4117,6 +4123,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 max
@@ -4354,6 +4362,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 max
@@ -6424,6 +6434,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 env
@@ -6900,6 +6912,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 max

@@ -924,6 +924,8 @@ type
 b
 -
 linux
+-
+gcp
 use
 -
 pgo
@@ -1116,6 +1118,8 @@ type
 b
 -
 linux
+-
+gcp
 use
 -
 pgo
@@ -1313,6 +1317,8 @@ type
 b
 -
 linux
+-
+gcp
 attributes
 :
 shippable
@@ -2759,6 +2765,8 @@ type
 b
 -
 linux
+-
+gcp
 use
 -
 pgo
@@ -2931,6 +2939,8 @@ type
 b
 -
 linux
+-
+gcp
 use
 -
 pgo
@@ -3112,6 +3122,8 @@ type
 b
 -
 linux
+-
+gcp
 attributes
 :
 shippable
