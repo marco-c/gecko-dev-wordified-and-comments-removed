@@ -3645,7 +3645,7 @@ Content
 ;
 }
 }
-UniquePtr
+StaticAutoPtr
 <
 nsTHashMap
 <
@@ -3659,7 +3659,7 @@ ContentParent
 :
 sJSPluginContentParents
 ;
-UniquePtr
+StaticAutoPtr
 <
 LinkedList
 <
@@ -3692,7 +3692,7 @@ defined
 (
 MOZ_SANDBOX
 )
-UniquePtr
+StaticAutoPtr
 <
 SandboxBrokerPolicyFactory
 >
@@ -3715,7 +3715,7 @@ defined
 (
 MOZ_SANDBOX
 )
-UniquePtr
+StaticAutoPtr
 <
 std
 :
@@ -4009,10 +4009,8 @@ MOZ_SANDBOX
 )
 sSandboxBrokerPolicyFactory
 =
-MakeUnique
-<
+new
 SandboxBrokerPolicyFactory
->
 (
 )
 ;
@@ -4032,8 +4030,7 @@ MOZ_SANDBOX
 )
 sMacSandboxParams
 =
-MakeUnique
-<
+new
 std
 :
 :
@@ -4043,7 +4040,6 @@ std
 :
 :
 string
->
 >
 (
 )
@@ -6737,14 +6733,12 @@ else
 {
 sJSPluginContentParents
 =
-MakeUnique
-<
+new
 nsTHashMap
 <
 nsUint32HashKey
 ContentParent
 *
->
 >
 (
 )
@@ -14588,12 +14582,10 @@ sContentParents
 {
 sContentParents
 =
-MakeUnique
-<
+new
 LinkedList
 <
 ContentParent
->
 >
 (
 )
