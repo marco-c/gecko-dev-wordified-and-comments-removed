@@ -69,6 +69,15 @@ include
 "
 pc
 /
+channel_manager
+.
+h
+"
+#
+include
+"
+pc
+/
 stats_collector_interface
 .
 h

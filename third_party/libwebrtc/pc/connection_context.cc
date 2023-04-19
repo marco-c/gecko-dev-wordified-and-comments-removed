@@ -53,6 +53,15 @@ h
 #
 include
 "
+pc
+/
+channel_manager
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 helpers

@@ -123,15 +123,6 @@ include
 "
 pc
 /
-channel_manager
-.
-h
-"
-#
-include
-"
-pc
-/
 rtp_receiver
 .
 h
@@ -239,6 +230,13 @@ weak_ptr
 .
 h
 "
+namespace
+cricket
+{
+class
+ChannelManager
+;
+}
 namespace
 rtc
 {
@@ -1256,6 +1254,7 @@ rtc
 :
 Thread
 *
+const
 signaling_thread_
 ;
 rtc
@@ -1263,6 +1262,7 @@ rtc
 :
 Thread
 *
+const
 worker_thread_
 ;
 cricket
@@ -1270,6 +1270,7 @@ cricket
 :
 ChannelManager
 *
+const
 channel_manager_
 ;
 UsagePattern

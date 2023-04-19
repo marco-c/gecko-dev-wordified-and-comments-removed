@@ -85,15 +85,6 @@ include
 "
 pc
 /
-channel_manager
-.
-h
-"
-#
-include
-"
-pc
-/
 media_session
 .
 h

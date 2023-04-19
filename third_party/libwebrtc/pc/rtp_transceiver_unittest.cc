@@ -75,6 +75,15 @@ include
 "
 pc
 /
+channel_manager
+.
+h
+"
+#
+include
+"
+pc
+/
 test
 /
 mock_channel_interface
