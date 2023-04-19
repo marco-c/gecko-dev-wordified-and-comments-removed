@@ -143,10 +143,6 @@ useChildTargetToFetchChildren
 isEveryFrameTargetEnabled
 (
 )
-?
-true
-:
-undefined
 "
 useChildTargetToFetchChildren
 has
@@ -439,12 +435,11 @@ is
 iframeNodeFront
 .
 useChildTargetToFetchChildren
-undefined
+false
 "
 useChildTargetToFetchChildren
 is
-not
-defined
+false
 "
 )
 ;
