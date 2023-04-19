@@ -6675,6 +6675,12 @@ MOZ_ASSERT
 aImportMap
 )
 ;
+MOZ_ASSERT
+(
+!
+mImportMap
+)
+;
 mImportMap
 =
 std
