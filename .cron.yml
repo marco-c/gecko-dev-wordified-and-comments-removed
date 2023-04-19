@@ -1434,7 +1434,7 @@ minute
 -
 name
 :
-nightly
+daily
 -
 beta
 -
@@ -1450,7 +1450,7 @@ treeherder
 -
 symbol
 :
-n
+d
 -
 perf
 target
@@ -1459,7 +1459,7 @@ tasks
 -
 method
 :
-nightly_beta_perf
+daily_beta_perf
 include
 -
 push

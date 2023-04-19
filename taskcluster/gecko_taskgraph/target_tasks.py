@@ -7502,11 +7502,11 @@ return
 _target_task
 (
 "
-nightly_beta_perf
+daily_beta_perf
 "
 )
 def
-target_tasks_nightly_beta_perf
+target_tasks_daily_beta_perf
 (
 full_task_graph
 parameters
@@ -7528,7 +7528,7 @@ branch
 to
 be
 run
-nightly
+daily
     
 "
 "
