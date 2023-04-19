@@ -1301,7 +1301,9 @@ tracked
 -
 objects
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1328,7 +1330,7 @@ track
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1347,7 +1349,9 @@ tracked
 -
 objects
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
