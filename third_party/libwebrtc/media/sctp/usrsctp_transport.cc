@@ -6171,12 +6171,6 @@ rcv
 .
 rcv_ssn
 ;
-params
-.
-timestamp
-=
-0
-;
 partial_incoming_message_
 .
 AppendData

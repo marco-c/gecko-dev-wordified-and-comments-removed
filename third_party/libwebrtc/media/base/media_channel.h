@@ -3998,11 +3998,6 @@ seq_num
 =
 0
 ;
-int
-timestamp
-=
-0
-;
 }
 ;
 struct
