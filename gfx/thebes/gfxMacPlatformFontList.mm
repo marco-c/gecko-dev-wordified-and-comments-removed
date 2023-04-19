@@ -2150,6 +2150,11 @@ mHasVariations
 gfxPlatform
 :
 :
+GetPlatform
+(
+)
+-
+>
 HasVariationFontSupport
 (
 )
@@ -4138,6 +4143,11 @@ if
 gfxPlatform
 :
 :
+GetPlatform
+(
+)
+-
+>
 HasVariationFontSupport
 (
 )
@@ -7089,6 +7099,11 @@ MOZ_ASSERT
 gfxPlatform
 :
 :
+GetPlatform
+(
+)
+-
+>
 HasVariationFontSupport
 (
 )
