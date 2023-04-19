@@ -367,16 +367,8 @@ b
 Bounded
 {
 prog
-:
-prog
-input
-:
 input
 matches
-:
-matches
-slots
-:
 slots
 m
 :
@@ -977,8 +969,6 @@ inst
 .
 slot
 old_pos
-:
-old_pos
 }
 )
 ;
@@ -1034,8 +1024,6 @@ ip
 inst
 .
 goto2
-at
-:
 at
 }
 )

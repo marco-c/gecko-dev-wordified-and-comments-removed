@@ -741,8 +741,6 @@ HirKind
 :
 Empty
 info
-:
-info
 }
 }
 pub
@@ -882,8 +880,6 @@ Literal
 lit
 )
 info
-:
-info
 }
 }
 pub
@@ -1001,8 +997,6 @@ Class
 (
 class
 )
-info
-:
 info
 }
 }
@@ -1214,8 +1208,6 @@ Anchor
 anchor
 )
 info
-:
-info
 }
 }
 pub
@@ -1346,8 +1338,6 @@ WordBoundary
 (
 word_boundary
 )
-info
-:
 info
 }
 }
@@ -1556,8 +1546,6 @@ Repetition
 rep
 )
 info
-:
-info
 }
 }
 pub
@@ -1725,8 +1713,6 @@ Group
 (
 group
 )
-info
-:
 info
 }
 }
@@ -2202,8 +2188,6 @@ Concat
 exprs
 )
 info
-:
-info
 }
 }
 }
@@ -2592,8 +2576,6 @@ Alternation
 (
 exprs
 )
-info
-:
 info
 }
 }

@@ -981,8 +981,6 @@ fmter
 .
 pattern
 line_number_width
-:
-line_number_width
 by_line
 :
 vec
@@ -1580,10 +1578,6 @@ expected_msg
 :
 &
 str
-)
--
->
-(
 )
 {
 let

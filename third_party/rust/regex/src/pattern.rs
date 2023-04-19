@@ -124,8 +124,6 @@ t
 RegexSearcher
 {
 haystack
-:
-haystack
 it
 :
 self

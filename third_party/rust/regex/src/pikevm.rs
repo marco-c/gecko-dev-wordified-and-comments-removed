@@ -340,8 +340,6 @@ start
 Fsm
 {
 prog
-:
-prog
 stack
 :
 &
@@ -349,8 +347,6 @@ mut
 cache
 .
 stack
-input
-:
 input
 }
 .

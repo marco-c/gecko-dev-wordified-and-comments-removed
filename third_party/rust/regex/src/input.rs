@@ -761,8 +761,6 @@ pos
 :
 i
 c
-:
-c
 byte
 :
 None
@@ -1282,10 +1280,6 @@ t
 ByteInput
 {
 text
-:
-text
-only_utf8
-:
 only_utf8
 }
 }

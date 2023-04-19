@@ -604,7 +604,7 @@ as_slice
 (
 )
 .
-into_iter
+iter
 (
 )
 }
@@ -1853,7 +1853,7 @@ nbytes
 4
 =
 >
-0x10FFFF
+0x0010_FFFF
 _
 =
 >
@@ -2141,11 +2141,8 @@ in
 0x0
 .
 .
-(
-0x10FFFF
-+
-1
-)
+=
+0x0010_FFFF
 {
 let
 c

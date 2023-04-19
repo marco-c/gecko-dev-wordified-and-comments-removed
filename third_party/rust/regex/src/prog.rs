@@ -1178,14 +1178,10 @@ start
 ?
 ;
 }
-write
+writeln
 !
 (
 f
-"
-\
-n
-"
 )
 ?
 ;

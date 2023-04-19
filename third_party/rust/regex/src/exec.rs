@@ -1084,8 +1084,6 @@ Ok
 Parsed
 {
 exprs
-:
-exprs
 prefixes
 :
 prefixes
@@ -1108,8 +1106,6 @@ Literals
 :
 empty
 )
-bytes
-:
 bytes
 }
 )
@@ -1229,8 +1225,6 @@ Ok
 (
 Exec
 {
-ro
-:
 ro
 pool
 }
@@ -1466,13 +1460,7 @@ options
 .
 pats
 nfa
-:
-nfa
 dfa
-:
-dfa
-dfa_reverse
-:
 dfa_reverse
 suffixes
 :
@@ -1498,8 +1486,6 @@ literal
 "
 )
 ]
-ac
-:
 ac
 match_type
 :

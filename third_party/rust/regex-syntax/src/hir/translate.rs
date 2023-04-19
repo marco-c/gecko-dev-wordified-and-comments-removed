@@ -3590,10 +3590,6 @@ p
 TranslatorI
 {
 trans
-:
-trans
-pattern
-:
 pattern
 }
 }
@@ -3689,8 +3685,6 @@ Error
 Error
 {
 kind
-:
-kind
 pattern
 :
 self
@@ -3700,8 +3694,6 @@ pattern
 to_string
 (
 )
-span
-:
 span
 }
 }
@@ -4895,8 +4887,6 @@ hir
 Group
 {
 kind
-:
-kind
 hir
 :
 Box
@@ -5154,10 +5144,6 @@ hir
 Repetition
 {
 kind
-:
-kind
-greedy
-:
 greedy
 hir
 :
@@ -7860,8 +7846,6 @@ RepetitionKind
 :
 ZeroOrOne
 greedy
-:
-greedy
 hir
 :
 Box
@@ -7908,8 +7892,6 @@ RepetitionKind
 :
 ZeroOrMore
 greedy
-:
-greedy
 hir
 :
 Box
@@ -7955,8 +7937,6 @@ RepetitionKind
 :
 :
 OneOrMore
-greedy
-:
 greedy
 hir
 :
@@ -8012,8 +7992,6 @@ Range
 (
 range
 )
-greedy
-:
 greedy
 hir
 :

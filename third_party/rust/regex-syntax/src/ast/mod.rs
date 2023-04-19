@@ -1585,10 +1585,6 @@ Span
 Span
 {
 start
-:
-start
-end
-:
 end
 }
 }
@@ -1732,13 +1728,7 @@ Position
 Position
 {
 offset
-:
-offset
 line
-:
-line
-column
-:
 column
 }
 }

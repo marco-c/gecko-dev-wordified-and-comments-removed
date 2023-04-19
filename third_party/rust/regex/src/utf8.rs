@@ -575,7 +575,7 @@ cp
 .
 .
 =
-0x10FFFF
+0x0010_FFFF
 =
 >
 char
