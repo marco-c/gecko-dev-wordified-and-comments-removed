@@ -1468,13 +1468,12 @@ size_t
 size
 (
 )
-const
+override
 {
 return
 size_
 ;
 }
-virtual
 bool
 WriteRaw
 (
@@ -1485,6 +1484,7 @@ d
 size_t
 length
 )
+override
 {
 if
 (
