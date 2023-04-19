@@ -29,14 +29,6 @@ landmines
 "
 "
 "
-from
-__future__
-import
-absolute_import
-from
-__future__
-import
-print_function
 import
 os
 import
@@ -109,7 +101,7 @@ print_landmines
 (
 )
 :
-    
+  
 "
 "
 "
@@ -125,7 +117,7 @@ HERE
 "
 "
 "
-    
+  
 print
 (
 '
@@ -149,7 +141,7 @@ webrtc
 )
 '
 )
-    
+  
 if
 host_os
 (
@@ -160,7 +152,7 @@ host_os
 win
 '
 :
-        
+    
 print
 (
 '
@@ -179,7 +171,7 @@ bots
 .
 '
 )
-        
+    
 print
 (
 '
@@ -197,10 +189,9 @@ after
 )
 '
 )
-        
+    
 print
 (
-            
 '
 Clobber
 due
@@ -221,7 +212,7 @@ com
 )
 '
 )
-        
+    
 print
 (
 '
@@ -235,7 +226,7 @@ linking
 errors
 in
 '
-              
+          
 '
 https
 :
@@ -250,7 +241,7 @@ org
 2786603002
 '
 )
-        
+    
 print
 (
 '
@@ -263,7 +254,7 @@ linking
 errors
 in
 '
-              
+          
 '
 https
 :
@@ -279,7 +270,7 @@ org
 /
 '
 )
-        
+    
 print
 (
 '
@@ -296,7 +287,7 @@ files
 .
 '
 )
-    
+  
 if
 host_os
 (
@@ -307,7 +298,7 @@ host_os
 mac
 '
 :
-        
+    
 print
 (
 '
@@ -326,7 +317,7 @@ com
 )
 '
 )
-        
+    
 print
 (
 '
@@ -346,7 +337,7 @@ org
 2709573003
 '
 )
-        
+    
 print
 (
 '
@@ -366,12 +357,12 @@ org
 2709573003
 after
 '
-              
+          
 '
 landing
 '
 )
-        
+    
 print
 (
 '
@@ -391,7 +382,7 @@ org
 2767383005
 before
 '
-              
+          
 '
 landing
 (
@@ -405,7 +396,7 @@ iOS
 )
 '
 )
-        
+    
 print
 (
 '
@@ -425,7 +416,7 @@ org
 2767383005
 before
 '
-              
+          
 '
 landing
 (
@@ -439,7 +430,7 @@ iOS
 )
 '
 )
-        
+    
 print
 (
 '
@@ -454,7 +445,7 @@ webrtc
 )
 '
 )
-        
+    
 print
 (
 '
@@ -467,7 +458,7 @@ to
 executable
 '
 )
-        
+    
 print
 (
 '
@@ -480,7 +471,7 @@ files
 .
 '
 )
-        
+    
 print
 (
 '
@@ -497,7 +488,7 @@ take
 .
 '
 )
-        
+    
 print
 (
 '
@@ -512,11 +503,11 @@ main
 (
 )
 :
-    
+  
 print_landmines
 (
 )
-    
+  
 return
 0
 if
@@ -527,7 +518,7 @@ __name__
 __main__
 '
 :
-    
+  
 sys
 .
 exit

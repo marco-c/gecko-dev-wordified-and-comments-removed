@@ -24,7 +24,7 @@ PYTHONDONTWRITEBYTECODE
 =
 1
 call
-python
+vpython3
 "
 %
 ~

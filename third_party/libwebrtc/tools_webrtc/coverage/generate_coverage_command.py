@@ -115,7 +115,7 @@ main
 (
 )
 :
-    
+  
 cmd
 =
 (
@@ -136,7 +136,7 @@ py
 +
 TESTS
 +
-           
+         
 [
 '
 -
@@ -154,7 +154,7 @@ report
 '
 ]
 +
-           
+         
 [
 '
 -
@@ -188,7 +188,7 @@ test
 '
 ]
 +
-           
+         
 [
 '
 -
@@ -212,14 +212,14 @@ in
 TESTS
 ]
 )
-    
+  
 def
 WithXvfb
 (
 binary
 )
 :
-        
+    
 return
 '
 -
@@ -245,7 +245,7 @@ sys
 executable
 binary
 )
-    
+  
 modules_unittests
 =
 '
@@ -255,7 +255,7 @@ coverage
 /
 modules_unittests
 '
-    
+  
 cmd
 [
 cmd
@@ -273,7 +273,6 @@ s
 '
 '
 %
-                  
 modules_unittests
 )
 ]
@@ -282,8 +281,9 @@ WithXvfb
 (
 modules_unittests
 )
-    
+  
 print
+(
 '
 '
 .
@@ -291,7 +291,8 @@ join
 (
 cmd
 )
-    
+)
+  
 return
 0
 if
@@ -302,7 +303,7 @@ __name__
 __main__
 '
 :
-    
+  
 sys
 .
 exit

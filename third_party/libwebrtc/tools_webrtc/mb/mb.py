@@ -38,10 +38,6 @@ them
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 argparse
 import
@@ -68,17 +64,6 @@ import
 tempfile
 import
 traceback
-try
-:
-  
-from
-urllib2
-import
-urlopen
-except
-ImportError
-:
-  
 from
 urllib
 .
@@ -2331,12 +2316,15 @@ for
 builder_group
 builders
 in
+list
+(
 self
 .
 builder_groups
 .
 items
 (
+)
 )
 :
       
@@ -2403,10 +2391,13 @@ for
 k
 v
 in
+list
+(
 config
 .
 items
 (
+)
 )
           
 }
@@ -3644,6 +3635,8 @@ builder_groups
 for
 config
 in
+list
+(
 self
 .
 builder_groups
@@ -3653,6 +3646,7 @@ builder_group
 .
 values
 (
+)
 )
 :
         
@@ -3667,10 +3661,13 @@ dict
 for
 c
 in
+list
+(
 config
 .
 values
 (
+)
 )
 :
             
@@ -3695,10 +3692,13 @@ for
 config
 loc
 in
+list
+(
 all_configs
 .
 items
 (
+)
 )
 :
       
@@ -3834,12 +3834,15 @@ for
 config
 mixins
 in
+list
+(
 self
 .
 configs
 .
 items
 (
+)
 )
 :
       
@@ -9126,7 +9129,7 @@ cmd
 =
 [
 '
-python
+vpython3
 '
 ]
 +

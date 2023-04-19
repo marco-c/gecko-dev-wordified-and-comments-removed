@@ -341,7 +341,7 @@ converted
 into
 :
   
-python
+vpython3
 gtest
 -
 parallel
@@ -465,14 +465,14 @@ def
 _CatFiles
 (
 file_list
-output_file
+output_file_destination
 )
 :
   
 with
 open
 (
-output_file
+output_file_destination
 '
 w
 '
@@ -598,9 +598,6 @@ result
 )
 class
 ReconstructibleArgumentGroup
-(
-object
-)
 :
   
 "
@@ -1129,10 +1126,13 @@ k
 for
 k
 in
+list
+(
 webrtc_flags_to_change
 .
 keys
 (
+)
 )
 )
 :

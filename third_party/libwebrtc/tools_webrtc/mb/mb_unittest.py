@@ -14,17 +14,6 @@ import
 ast
 import
 json
-try
-:
-  
-from
-StringIO
-import
-StringIO
-except
-ImportError
-:
-  
 from
 io
 import
@@ -157,7 +146,7 @@ c
 python
 \
 \
-python
+vpython3
 .
 exe
 '
@@ -245,7 +234,7 @@ usr
 /
 bin
 /
-python
+vpython3
 '
       
 self
@@ -1454,10 +1443,13 @@ for
 path
 contents
 in
+list
+(
 files
 .
 items
 (
+)
 )
 :
         
@@ -7515,7 +7507,7 @@ txt
 (
 "
 #
-vpython
+vpython3
 \
 n
 "
@@ -7524,7 +7516,7 @@ n
 /
 some
 /
-vpython
+vpython3
 /
 pkg
 git_revision

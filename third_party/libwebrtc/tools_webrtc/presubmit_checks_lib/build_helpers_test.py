@@ -99,7 +99,7 @@ gn_output
     
 self
 .
-assertRegexpMatches
+assertRegex
 (
 gn_output
 [

@@ -158,11 +158,11 @@ subprocess
 "
 "
 import
-psutil
-import
 subprocess
 import
 sys
+import
+psutil
 WEBCAM_WIN
 =
 (
@@ -515,7 +515,7 @@ out
 =
 =
 '
-python
+vpython3
 '
 :
     
@@ -594,9 +594,6 @@ argv
 )
 )
   
-else
-:
-    
 return
 0
 if
