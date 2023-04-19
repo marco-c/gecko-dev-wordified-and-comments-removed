@@ -5153,6 +5153,12 @@ _positionPinnedTabs
 (
 )
 ;
+this
+.
+_updateCloseButtons
+(
+)
+;
 }
 true
 )
@@ -5208,6 +5214,12 @@ true
 this
 .
 _positionPinnedTabs
+(
+)
+;
+this
+.
+_updateCloseButtons
 (
 )
 ;
