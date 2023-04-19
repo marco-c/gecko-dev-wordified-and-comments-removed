@@ -40,13 +40,6 @@ cpuUtilizationThresholds
 .
 5
 ]
-cpuSpeedThresholds
-:
-[
-0
-.
-5
-]
 }
 )
 ;
@@ -127,13 +120,6 @@ cpuUtilizationThresholds
 0
 .
 1
-0
-.
-5
-]
-cpuSpeedThresholds
-:
-[
 0
 .
 5
