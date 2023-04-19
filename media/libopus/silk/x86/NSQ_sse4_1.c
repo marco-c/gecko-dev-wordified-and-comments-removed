@@ -3932,6 +3932,11 @@ NSQ
 prev_gain_Q16
 )
 {
+__m128i
+xmm_gain_adj_Q16
+xmm_sLTP_shp_Q14_x2x0
+xmm_sLTP_shp_Q14_x3x1
+;
 gain_adj_Q16
 =
 silk_DIV32_varQ
@@ -3946,11 +3951,6 @@ subfr
 ]
 16
 )
-;
-__m128i
-xmm_gain_adj_Q16
-xmm_sLTP_shp_Q14_x2x0
-xmm_sLTP_shp_Q14_x3x1
 ;
 xmm_gain_adj_Q16
 =

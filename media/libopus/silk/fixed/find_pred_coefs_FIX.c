@@ -65,6 +65,10 @@ NLSF_Q15
 [
 MAX_LPC_ORDER
 ]
+=
+{
+0
+}
 ;
 const
 opus_int16
