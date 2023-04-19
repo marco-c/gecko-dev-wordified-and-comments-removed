@@ -100,6 +100,9 @@ offset
 uint64_t
 size
 ;
+bool
+writable
+;
 }
 ;
 struct
