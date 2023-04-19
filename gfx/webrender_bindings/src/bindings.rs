@@ -331,6 +331,7 @@ api
 :
 :
 *
+create_webrender_instance
 render_api
 :
 :
@@ -354,7 +355,6 @@ PipelineInfo
 ProfilerHooks
 RecordedFrameHandle
 Renderer
-WebRenderOptions
 RendererStats
 SWGLCompositeSurfaceInfo
 SceneBuilderHooks
@@ -363,8 +363,8 @@ Shaders
 SharedShaders
 TextureCacheConfig
 UploadMethod
+WebRenderOptions
 WindowVisibility
-create_webrender_instance
 ONE_TIME_USAGE_HINT
 }
 ;
