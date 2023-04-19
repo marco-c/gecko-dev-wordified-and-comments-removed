@@ -1211,6 +1211,7 @@ GetAudio
 out_frame
 &
 muted
+nullptr
 ActionToOperations
 (
 next_action_

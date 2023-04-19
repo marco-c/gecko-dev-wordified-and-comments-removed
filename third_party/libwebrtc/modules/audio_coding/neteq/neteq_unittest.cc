@@ -5897,6 +5897,7 @@ GetAudio
 out_frame_
 &
 muted
+nullptr
 NetEq
 :
 :

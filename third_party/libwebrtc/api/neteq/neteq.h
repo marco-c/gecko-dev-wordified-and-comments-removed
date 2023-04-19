@@ -536,6 +536,11 @@ audio_frame
 bool
 *
 muted
+int
+*
+current_sample_rate_hz
+=
+nullptr
 absl
 :
 :
