@@ -147,7 +147,7 @@ test
 namespace
 {
 constexpr
-size_t
+int
 kFrameSize10ms48kHz
 =
 480
@@ -155,9 +155,9 @@ kFrameSize10ms48kHz
 void
 DumpPerfStats
 (
-size_t
+int
 num_samples
-size_t
+int
 sample_rate
 double
 average_us
@@ -342,7 +342,7 @@ CreateVadProbsReader
 )
 ;
 const
-size_t
+int
 num_frames
 =
 samples_reader
@@ -439,7 +439,7 @@ f
 ;
 for
 (
-size_t
+int
 i
 =
 0
@@ -621,7 +621,7 @@ kFrameSize10ms48kHz
 )
 ;
 const
-size_t
+int
 num_frames
 =
 samples_reader
@@ -665,7 +665,7 @@ kFrameSize10ms24kHz
 ;
 for
 (
-size_t
+int
 i
 =
 0
@@ -731,7 +731,7 @@ RnnBasedVad
 rnn_vad
 ;
 constexpr
-size_t
+int
 number_of_tests
 =
 100
@@ -752,7 +752,7 @@ number_of_tests
 ;
 for
 (
-size_t
+int
 k
 =
 0
@@ -786,7 +786,7 @@ StartTimer
 ;
 for
 (
-size_t
+int
 i
 =
 0

@@ -52,7 +52,7 @@ namespace
 rnn_vad
 {
 constexpr
-size_t
+int
 kOpusBands24kHz
 =
 20

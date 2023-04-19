@@ -202,7 +202,7 @@ kBufSize24kHz
 )
 ;
 const
-size_t
+int
 num_frames
 =
 std
@@ -213,13 +213,7 @@ min
 pitch_buf_24kHz_reader
 .
 second
-static_cast
-<
-size_t
->
-(
 300
-)
 )
 ;
 ASSERT_GE
@@ -233,7 +227,7 @@ num_frames
 {
 for
 (
-size_t
+int
 i
 =
 0

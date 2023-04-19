@@ -218,7 +218,7 @@ computed_output
 ;
 }
 constexpr
-size_t
+int
 kFrameSize20ms12kHz
 =
 kFrameSize20ms24kHz

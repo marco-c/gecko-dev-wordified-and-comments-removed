@@ -70,7 +70,7 @@ b
 {
 for
 (
-size_t
+int
 i
 =
 0
@@ -107,9 +107,9 @@ template
 <
 typename
 T
-size_t
+int
 S
-size_t
+int
 N
 >
 void
@@ -294,7 +294,7 @@ GetArrayView
 }
 for
 (
-size_t
+int
 delay
 =
 2
@@ -354,13 +354,13 @@ RingBufferArrayViews
 )
 {
 constexpr
-size_t
+int
 s
 =
 3
 ;
 constexpr
-size_t
+int
 n
 =
 4
@@ -392,7 +392,7 @@ fill
 ;
 for
 (
-size_t
+int
 k
 =
 0
@@ -414,7 +414,7 @@ k
 ;
 for
 (
-size_t
+int
 i
 =
 0
@@ -445,7 +445,7 @@ i
 ;
 for
 (
-size_t
+int
 j
 =
 i

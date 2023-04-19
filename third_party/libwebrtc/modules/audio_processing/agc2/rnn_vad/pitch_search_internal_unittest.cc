@@ -122,11 +122,11 @@ std
 :
 tuple
 <
-size_t
-size_t
-size_t
+int
+int
+int
 float
-size_t
+int
 float
 float
 >
@@ -149,7 +149,7 @@ GetParam
 )
 ;
 const
-size_t
+int
 candidate_pitch_period
 =
 std
@@ -164,7 +164,7 @@ params
 )
 ;
 const
-size_t
+int
 pitch_period_ratio
 =
 std
@@ -179,7 +179,7 @@ params
 )
 ;
 const
-size_t
+int
 initial_pitch_period
 =
 std
@@ -209,7 +209,7 @@ params
 )
 ;
 const
-size_t
+int
 prev_pitch_period
 =
 std

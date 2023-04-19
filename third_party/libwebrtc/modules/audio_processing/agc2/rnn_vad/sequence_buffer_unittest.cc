@@ -47,9 +47,9 @@ template
 <
 typename
 T
-size_t
+int
 S
-size_t
+int
 N
 >
 void
@@ -116,7 +116,7 @@ fill
 )
 ;
 constexpr
-size_t
+int
 required_push_ops
 =
 (
@@ -137,7 +137,7 @@ N
 ;
 for
 (
-size_t
+int
 i
 =
 0
@@ -240,7 +240,7 @@ N
 {
 for
 (
-size_t
+int
 i
 =
 0
@@ -288,7 +288,7 @@ N
 ;
 for
 (
-size_t
+int
 i
 =
 0
@@ -348,13 +348,13 @@ SequenceBufferGetters
 )
 {
 constexpr
-size_t
+int
 buffer_size
 =
 8
 ;
 constexpr
-size_t
+int
 chunk_size
 =
 8

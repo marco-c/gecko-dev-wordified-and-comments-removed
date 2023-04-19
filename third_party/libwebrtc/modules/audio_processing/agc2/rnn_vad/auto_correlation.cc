@@ -163,7 +163,7 @@ kMaxPitch12kHz
 )
 ;
 constexpr
-size_t
+int
 kFftFrameSize
 =
 1
@@ -172,7 +172,7 @@ kFftFrameSize
 kAutoCorrelationFftOrder
 ;
 constexpr
-size_t
+int
 kConvolutionLength
 =
 kBufSize12kHz
