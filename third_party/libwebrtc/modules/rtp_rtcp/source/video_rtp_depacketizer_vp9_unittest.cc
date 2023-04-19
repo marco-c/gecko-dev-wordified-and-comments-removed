@@ -1905,6 +1905,13 @@ video_header
 is_first_packet_in_frame
 )
 ;
+EXPECT_FALSE
+(
+video_header
+.
+is_last_packet_in_frame
+)
+;
 }
 TEST
 (
@@ -1958,6 +1965,13 @@ EXPECT_FALSE
 video_header
 .
 is_first_packet_in_frame
+)
+;
+EXPECT_TRUE
+(
+video_header
+.
+is_last_packet_in_frame
 )
 ;
 }
