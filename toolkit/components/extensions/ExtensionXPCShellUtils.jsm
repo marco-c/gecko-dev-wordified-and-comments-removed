@@ -1335,10 +1335,6 @@ unloaded
 }
 terminateBackground
 (
-.
-.
-.
-args
 )
 {
 return
@@ -1348,10 +1344,6 @@ extension
 .
 terminateBackground
 (
-.
-.
-.
-args
 )
 ;
 }
