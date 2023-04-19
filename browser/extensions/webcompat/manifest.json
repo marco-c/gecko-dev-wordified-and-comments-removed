@@ -35,7 +35,7 @@ version
 "
 103
 .
-1
+2
 .
 0
 "
@@ -649,6 +649,13 @@ js
 shims
 /
 blogger
+.
+js
+"
+"
+shims
+/
+bloggerAccount
 .
 js
 "
