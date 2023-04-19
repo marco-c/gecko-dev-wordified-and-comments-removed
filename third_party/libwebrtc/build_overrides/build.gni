@@ -190,7 +190,7 @@ tsan_suppressions_webrtc
 .
 cc
 "
-msan_blacklist_path
+msan_ignorelist_path
 =
 rebase_path
 (
@@ -207,7 +207,7 @@ txt
 "
 root_build_dir
 )
-ubsan_blacklist_path
+ubsan_ignorelist_path
 =
 rebase_path
 (
@@ -224,7 +224,7 @@ txt
 "
 root_build_dir
 )
-ubsan_vptr_blacklist_path
+ubsan_vptr_ignorelist_path
 =
 rebase_path
 (

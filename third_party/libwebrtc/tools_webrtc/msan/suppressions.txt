@@ -58,7 +58,7 @@ of
 Chromium
 '
 s
-blacklist
+ignorelist
 .
 txt
 to
@@ -68,7 +68,7 @@ adding
 WebRTC
 -
 specific
-blacklist
+ignorelist
 entries
 .
 #

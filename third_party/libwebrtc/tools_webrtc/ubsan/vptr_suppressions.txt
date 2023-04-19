@@ -78,7 +78,7 @@
 #
 UBSan
 vptr
-blacklist
+ignorelist
 .
 #
 Function
@@ -165,7 +165,7 @@ adding
 WebRTC
 -
 specific
-blacklist
+ignorelist
 entries
 .
 #

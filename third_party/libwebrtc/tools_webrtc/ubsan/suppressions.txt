@@ -77,7 +77,7 @@
 #
 #
 UBSan
-blacklist
+ignorelist
 .
 #
 #
@@ -92,7 +92,7 @@ of
 Chromium
 '
 s
-blacklist
+ignorelist
 .
 txt
 .
