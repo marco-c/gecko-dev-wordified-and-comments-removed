@@ -353,6 +353,14 @@ channelId
 ;
 this
 .
+_isFromSystemPrincipal
+=
+networkEvent
+.
+isFromSystemPrincipal
+;
+this
+.
 _browsingContextID
 =
 networkEvent
@@ -616,6 +624,11 @@ isNavigationRequest
 this
 .
 isNavigationRequest
+chromeContext
+:
+this
+.
+_isFromSystemPrincipal
 }
 ;
 }
