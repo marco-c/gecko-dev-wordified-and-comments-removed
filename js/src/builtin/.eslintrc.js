@@ -166,15 +166,6 @@ off
 "
 no
 -
-undef
-"
-:
-"
-off
-"
-"
-no
--
 redeclare
 "
 :
