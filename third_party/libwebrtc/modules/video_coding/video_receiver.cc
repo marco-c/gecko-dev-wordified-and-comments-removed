@@ -720,8 +720,8 @@ _codecDataBase
 .
 RegisterExternalDecoder
 (
-externalDecoder
 payloadType
+externalDecoder
 )
 ;
 }
@@ -1152,6 +1152,7 @@ _codecDataBase
 RegisterReceiveCodec
 (
 payload_type
+*
 receiveCodec
 numberOfCores
 )
