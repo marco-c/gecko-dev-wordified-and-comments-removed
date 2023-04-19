@@ -117,11 +117,6 @@ color_space_unittest
 cc
 "
 "
-i444_buffer_unittest
-.
-cc
-"
-"
 nv12_buffer_unittest
 .
 cc

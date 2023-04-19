@@ -54,7 +54,6 @@ kProfileBaseline
 kProfileMain
 kProfileConstrainedHigh
 kProfileHigh
-kProfilePredictiveHigh444
 }
 ;
 enum

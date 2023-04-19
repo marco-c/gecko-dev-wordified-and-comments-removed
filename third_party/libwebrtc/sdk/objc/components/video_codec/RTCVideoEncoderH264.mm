@@ -1289,15 +1289,6 @@ H264Profile
 :
 kProfileHigh
 :
-case
-webrtc
-:
-:
-H264Profile
-:
-:
-kProfilePredictiveHigh444
-:
 switch
 (
 profile_level_id
