@@ -203,7 +203,7 @@ cfg
 feature
 =
 "
-std_io
+std
 "
 )
 ]
