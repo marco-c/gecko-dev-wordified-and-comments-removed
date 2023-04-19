@@ -387,6 +387,28 @@ p
 ]
 )
             
+elif
+config
+.
+params
+[
+"
+project
+"
+]
+=
+=
+"
+toolchains
+"
+:
+                
+cache
+=
+None
+                
+break
+            
 else
 :
                 
@@ -422,6 +444,17 @@ p
 )
                 
 )
+        
+if
+cache
+is
+None
+:
+            
+yield
+task
+            
+continue
         
 digest_data
 =
