@@ -771,7 +771,7 @@ documentation
 *
 /
 async
-GetRootHandle
+GetRootHandleMsg
 (
 )
 returns
@@ -888,7 +888,7 @@ handle
 *
 /
 async
-GetDirectoryHandle
+GetDirectoryHandleMsg
 (
 FileSystemGetHandleRequest
 request
@@ -1007,7 +1007,7 @@ handle
 *
 /
 async
-GetFileHandle
+GetFileHandleMsg
 (
 FileSystemGetHandleRequest
 request
@@ -1122,7 +1122,7 @@ object
 *
 /
 async
-GetFile
+GetFileMsg
 (
 FileSystemGetFileRequest
 request
@@ -1218,7 +1218,7 @@ path
 *
 /
 async
-Resolve
+ResolveMsg
 (
 FileSystemResolveRequest
 request
@@ -1353,7 +1353,7 @@ iterator
 *
 /
 async
-GetEntries
+GetEntriesMsg
 (
 FileSystemGetEntriesRequest
 request
@@ -1457,7 +1457,7 @@ information
 *
 /
 async
-RemoveEntry
+RemoveEntryMsg
 (
 FileSystemRemoveEntryRequest
 request

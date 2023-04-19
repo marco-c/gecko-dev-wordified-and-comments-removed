@@ -505,11 +505,6 @@ childEndpoint
 Bind
 (
 child
--
->
-AsBindable
-(
-)
 )
 )
 {
