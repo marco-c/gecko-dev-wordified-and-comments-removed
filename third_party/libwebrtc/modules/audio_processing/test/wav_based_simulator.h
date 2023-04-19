@@ -100,6 +100,12 @@ Process
 )
 override
 ;
+void
+Analyze
+(
+)
+override
+;
 private
 :
 enum

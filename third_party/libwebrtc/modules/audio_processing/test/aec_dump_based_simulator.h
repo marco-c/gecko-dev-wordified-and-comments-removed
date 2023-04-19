@@ -159,6 +159,12 @@ Process
 )
 override
 ;
+void
+Analyze
+(
+)
+override
+;
 private
 :
 void
@@ -175,8 +181,11 @@ Event
 &
 event_msg
 int
-*
+&
 num_forward_chunks_processed
+int
+&
+init_index
 )
 ;
 void
@@ -192,6 +201,8 @@ audioproc
 Init
 &
 msg
+int
+init_index
 )
 ;
 void
@@ -361,6 +372,11 @@ std
 ofstream
 >
 call_order_output_file_
+;
+bool
+finished_processing_specified_init_block_
+=
+false
 ;
 }
 ;
