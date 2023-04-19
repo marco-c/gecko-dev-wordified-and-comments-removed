@@ -4019,7 +4019,6 @@ data
 =
 >
 (
-(
 data
 .
 r_func
@@ -4063,7 +4062,6 @@ to_int
 )
 as
 u16
-)
 SvgFilterInfo
 :
 :
