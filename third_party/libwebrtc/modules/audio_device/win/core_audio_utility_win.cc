@@ -1495,7 +1495,6 @@ Error
 )
 &
 &
-!
 audio_endpoint_device
 .
 Get
