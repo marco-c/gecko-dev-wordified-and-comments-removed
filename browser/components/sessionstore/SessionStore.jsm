@@ -3495,17 +3495,11 @@ __lastSessionWindowID
 )
 ;
 }
-if
-(
 state
 ?
 .
 windows
-)
-{
-state
-.
-windows
+?
 .
 forEach
 (
@@ -3519,8 +3513,10 @@ _maybeDontRestoreTabs
 )
 ;
 state
+?
 .
 _closedWindows
+?
 .
 forEach
 (
@@ -3533,7 +3529,6 @@ win
 _maybeDontRestoreTabs
 )
 ;
-}
 }
 catch
 (
