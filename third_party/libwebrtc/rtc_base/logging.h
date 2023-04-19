@@ -2712,11 +2712,6 @@ file
 line
 )
 \
-RTC_LOG_ENABLED
-(
-)
-&
-&
 !
 rtc
 :
