@@ -4293,16 +4293,6 @@ mSamplingFilter
 cairo_pattern_set_extend
 (
 pat
-cairo_surface_get_type
-(
-mSurface
-)
-=
-=
-CAIRO_SURFACE_TYPE_PDF
-?
-CAIRO_EXTEND_NONE
-:
 CAIRO_EXTEND_PAD
 )
 ;
