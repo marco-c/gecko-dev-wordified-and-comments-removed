@@ -614,12 +614,10 @@ run_next_test
 {
 if
 (
+!
 gTests
 .
 length
-=
-=
-0
 )
 {
 httpserver

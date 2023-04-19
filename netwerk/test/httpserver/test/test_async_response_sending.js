@@ -3027,8 +3027,6 @@ self
 _data
 .
 length
->
-0
 )
 {
 dumpn

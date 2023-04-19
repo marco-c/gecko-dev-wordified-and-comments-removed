@@ -116,12 +116,10 @@ n
 }
 if
 (
+!
 imgUrl
 .
 length
-=
-=
-0
 )
 {
 /

@@ -1148,9 +1148,6 @@ if
 data
 .
 length
-!
-=
-0
 )
 {
 do_throw

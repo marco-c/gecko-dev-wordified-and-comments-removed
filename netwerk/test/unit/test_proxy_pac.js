@@ -313,6 +313,8 @@ waitForCondition
 )
 =
 >
+!
+!
 consoleListener
 .
 messages
@@ -337,8 +339,6 @@ from
 )
 .
 length
->
-0
 "
 Wait
 for
@@ -680,6 +680,8 @@ CL_EXPECT_FAILURE
 ;
 ok
 (
+!
+!
 consoleListener
 .
 messages
@@ -707,8 +709,6 @@ false
 )
 .
 length
->
-0
 should
 have
 proper

@@ -5302,8 +5302,6 @@ if
 ret
 .
 length
->
-0
 )
 {
 return

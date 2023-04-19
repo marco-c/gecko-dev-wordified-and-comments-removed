@@ -1109,14 +1109,12 @@ checkSocksGreeting
 {
 if
 (
+!
 this
 .
 inbuf
 .
 length
-=
-=
-0
 )
 {
 return

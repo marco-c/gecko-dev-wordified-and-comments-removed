@@ -883,9 +883,6 @@ heads
 )
 .
 length
-!
-=
-0
 )
 {
 do_throw

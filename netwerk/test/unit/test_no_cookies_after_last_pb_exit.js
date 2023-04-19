@@ -526,12 +526,10 @@ next
 {
 if
 (
+!
 steps
 .
 length
-=
-=
-0
 )
 {
 do_test_finished

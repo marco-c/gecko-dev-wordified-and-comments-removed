@@ -88,12 +88,10 @@ length
 ;
 if
 (
+!
 bytes
 .
 length
-=
-=
-0
 )
 {
 do_throw

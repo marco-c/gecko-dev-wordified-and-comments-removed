@@ -526,12 +526,10 @@ shift
 ;
 if
 (
+!
 tests
 .
 length
-=
-=
-0
 )
 {
 httpServer

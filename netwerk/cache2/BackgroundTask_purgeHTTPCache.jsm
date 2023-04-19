@@ -141,12 +141,10 @@ if
 cacheDirName
 |
 |
+!
 cacheDirName
 .
 length
-=
-=
-0
 )
 {
 return
@@ -507,12 +505,10 @@ if
 otherFoldersSuffix
 |
 |
+!
 otherFoldersSuffix
 .
 length
-=
-=
-0
 )
 {
 return
