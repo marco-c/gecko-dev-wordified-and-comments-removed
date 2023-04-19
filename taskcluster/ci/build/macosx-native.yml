@@ -224,6 +224,10 @@ macosx64
 -
 rust
 -
+macosx64
+-
+sdk
+-
 sysroot
 -
 wasm32
@@ -360,6 +364,10 @@ node
 macosx64
 -
 rust
+-
+macosx64
+-
+sdk
 -
 sysroot
 -
@@ -501,6 +509,10 @@ macosx64
 -
 node
 -
+macosx64
+-
+sdk
+-
 sysroot
 -
 wasm32
@@ -640,6 +652,10 @@ nasm
 macosx64
 -
 node
+-
+macosx64
+-
+sdk
 -
 sysroot
 -

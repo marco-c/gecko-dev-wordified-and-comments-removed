@@ -130,15 +130,6 @@ clang
 /
 lib
 "
-CROSS_SYSROOT
-=
-MOZ_FETCHES_DIR
-/
-MacOSX11
-.
-3
-.
-sdk
 export
 CFLAGS
 =
@@ -238,10 +229,6 @@ x86_64
 apple
 -
 darwin
-export
-MACOS_SDK_DIR
-=
-CROSS_SYSROOT
 if
 [
 "
