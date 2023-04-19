@@ -2219,7 +2219,6 @@ s
 "
 strerror
 (
--
 rv
 )
 )
