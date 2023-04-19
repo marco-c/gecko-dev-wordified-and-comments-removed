@@ -1545,6 +1545,15 @@ int
 >
 report_usage_pattern_delay_ms
 ;
+absl
+:
+:
+optional
+<
+int
+>
+stable_writable_connection_ping_interval_ms
+;
 }
 ;
 struct
