@@ -528,7 +528,7 @@ ExpectationToString
 )
 ;
 #
-endif
+else
 return
 std
 :
@@ -537,6 +537,8 @@ string
 (
 )
 ;
+#
+endif
 }
 }
 }

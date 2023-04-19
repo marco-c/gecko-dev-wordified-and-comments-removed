@@ -347,8 +347,6 @@ rnnoise
 :
 TansigApproximated
 ;
-break
-;
 case
 ActivationFunction
 :
@@ -362,8 +360,6 @@ rnnoise
 :
 :
 SigmoidApproximated
-;
-break
 ;
 }
 }

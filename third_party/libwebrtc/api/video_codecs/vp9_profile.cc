@@ -197,12 +197,6 @@ absl
 nullopt
 ;
 }
-return
-absl
-:
-:
-nullopt
-;
 }
 absl
 :
