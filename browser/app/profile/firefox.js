@@ -18762,7 +18762,7 @@ snapshots
 .
 score
 .
-IsUsedRemoved
+IsUserRemoved
 "
 -
 10

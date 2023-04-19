@@ -1030,7 +1030,7 @@ NO
 0
 ;
 }
-_scoreIsUsedRemoved
+_scoreIsUserRemoved
 (
 snapshot
 )
