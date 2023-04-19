@@ -173,12 +173,6 @@ void
 )
 >
 on_total_buffered_amount_low
-const
-DcSctpSocketHandoverState
-*
-handover_state
-=
-nullptr
 )
 ;
 bool
