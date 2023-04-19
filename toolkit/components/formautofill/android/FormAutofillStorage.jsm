@@ -99,7 +99,7 @@ defineLazyModuleGetters
 (
 lazy
 {
-GeckoViewAutocomplete
+Address
 :
 "
 resource
@@ -129,7 +129,7 @@ GeckoViewAutocomplete
 .
 jsm
 "
-Address
+GeckoViewAutocomplete
 :
 "
 resource
