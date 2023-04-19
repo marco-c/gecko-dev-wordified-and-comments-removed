@@ -152,6 +152,11 @@ ScriptCacheActors
 .
 h
 "
+"
+SkipCheckForBrokenURLOrZeroSized
+.
+h
+"
 ]
 EXTRA_JS_MODULES
 +
