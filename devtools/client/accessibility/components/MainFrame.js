@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ div
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -46,6 +56,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -55,6 +67,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -68,6 +84,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -79,6 +97,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -90,6 +112,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -104,6 +128,10 @@ updateCanBeDisabled
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -113,6 +141,8 @@ accessibility
 actions
 /
 ui
+.
+js
 "
 )
 ;
@@ -122,6 +152,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -133,6 +167,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -155,6 +191,10 @@ PORTRAIT_MODE_WIDTH
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -162,6 +202,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;
@@ -173,6 +215,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -182,6 +228,8 @@ accessibility
 components
 /
 AccessibilityTree
+.
+js
 "
 )
 )
@@ -194,6 +242,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -203,6 +255,8 @@ accessibility
 components
 /
 AuditProgressOverlay
+.
+js
 "
 )
 )
@@ -215,6 +269,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -224,6 +282,8 @@ accessibility
 components
 /
 Description
+.
+js
 "
 )
 .
@@ -238,6 +298,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -247,6 +311,8 @@ accessibility
 components
 /
 RightSidebar
+.
+js
 "
 )
 )
@@ -259,6 +325,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -268,6 +338,8 @@ accessibility
 components
 /
 Toolbar
+.
+js
 "
 )
 .
@@ -282,6 +354,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -293,6 +369,8 @@ components
 splitter
 /
 SplitBox
+.
+js
 "
 )
 )

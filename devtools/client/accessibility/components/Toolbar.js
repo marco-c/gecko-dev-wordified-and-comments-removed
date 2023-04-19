@@ -11,6 +11,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ div
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -44,6 +54,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -55,6 +67,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -64,6 +80,8 @@ accessibility
 components
 /
 AccessibilityTreeFilter
+.
+js
 "
 )
 )
@@ -76,6 +94,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -85,6 +107,8 @@ accessibility
 components
 /
 AccessibilityPrefs
+.
+js
 "
 )
 )
@@ -107,6 +131,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -116,6 +144,8 @@ accessibility
 components
 /
 SimulationMenuButton
+.
+js
 "
 )
 )
@@ -131,6 +161,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -140,6 +174,8 @@ accessibility
 components
 /
 DisplayTabbingOrder
+.
+js
 "
 )
 )
@@ -152,6 +188,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -163,6 +203,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;

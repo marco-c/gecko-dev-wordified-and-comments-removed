@@ -23,6 +23,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -32,6 +36,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -43,6 +49,10 @@ span
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -56,6 +66,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -67,6 +79,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -76,6 +92,8 @@ accessibility
 components
 /
 AuditController
+.
+js
 "
 )
 )
@@ -88,6 +106,10 @@ mockAccessible
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -99,6 +121,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;

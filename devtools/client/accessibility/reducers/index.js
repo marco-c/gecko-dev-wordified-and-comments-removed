@@ -11,6 +11,10 @@ accessibles
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ accessibility
 reducers
 /
 accessibles
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ audit
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ accessibility
 reducers
 /
 audit
+.
+js
 "
 )
 ;
@@ -51,6 +63,10 @@ details
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -60,6 +76,8 @@ accessibility
 reducers
 /
 details
+.
+js
 "
 )
 ;
@@ -71,6 +89,10 @@ simulation
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +102,8 @@ accessibility
 reducers
 /
 simulation
+.
+js
 "
 )
 ;
@@ -91,6 +115,10 @@ ui
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +128,8 @@ accessibility
 reducers
 /
 ui
+.
+js
 "
 )
 ;

@@ -11,6 +11,10 @@ UPDATE_DETAILS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;

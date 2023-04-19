@@ -9,6 +9,10 @@ React
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -27,6 +33,10 @@ ReactDOM
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -49,6 +61,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -62,6 +78,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -73,6 +91,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -84,6 +106,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -95,6 +119,10 @@ PluralForm
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -102,6 +130,8 @@ shared
 plural
 -
 form
+.
+js
 "
 )
 ;
@@ -113,6 +143,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +156,8 @@ accessibility
 utils
 /
 l10n
+.
+js
 "
 )
 ;

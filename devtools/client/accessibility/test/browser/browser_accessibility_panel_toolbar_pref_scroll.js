@@ -61,6 +61,10 @@ SCROLL_INTO_VIEW
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -68,6 +72,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;

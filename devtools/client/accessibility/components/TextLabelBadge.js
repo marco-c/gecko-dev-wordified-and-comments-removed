@@ -12,6 +12,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -54,6 +66,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -63,6 +79,8 @@ accessibility
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -84,11 +102,17 @@ WARNING
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;
@@ -109,6 +133,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -118,6 +146,8 @@ accessibility
 components
 /
 Badge
+.
+js
 "
 )
 )

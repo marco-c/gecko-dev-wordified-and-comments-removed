@@ -23,6 +23,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -32,6 +36,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -41,6 +47,10 @@ TextLabelCheckClass
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -50,6 +60,8 @@ accessibility
 components
 /
 TextLabelCheck
+.
+js
 "
 )
 ;
@@ -67,6 +79,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +94,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -99,6 +117,10 @@ testCustomCheck
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -110,6 +132,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -149,11 +173,17 @@ WARNING
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;

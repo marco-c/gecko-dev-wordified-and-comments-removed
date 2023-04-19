@@ -23,6 +23,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -32,6 +36,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -43,6 +49,10 @@ span
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -56,6 +66,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -67,6 +79,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +94,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 .
@@ -90,6 +108,10 @@ ConnectedAuditFilterClass
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -99,6 +121,8 @@ accessibility
 components
 /
 AuditFilter
+.
+js
 "
 )
 ;
@@ -125,6 +149,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -136,6 +164,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -147,6 +177,10 @@ FILTERS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -154,6 +188,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;
@@ -169,11 +205,17 @@ SCORES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;

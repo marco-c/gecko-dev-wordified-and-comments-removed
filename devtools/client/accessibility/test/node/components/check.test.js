@@ -23,6 +23,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -32,6 +36,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -41,6 +47,10 @@ CheckClass
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -50,6 +60,8 @@ accessibility
 components
 /
 Check
+.
+js
 "
 )
 ;
@@ -67,6 +79,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +94,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -123,11 +141,17 @@ FAIL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;
@@ -139,6 +163,10 @@ testCheck
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -150,6 +178,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;

@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -54,6 +66,10 @@ span
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -67,6 +83,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -78,6 +96,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +109,8 @@ accessibility
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -102,11 +126,17 @@ AUDIT_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;
@@ -127,6 +157,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -136,6 +170,8 @@ accessibility
 components
 /
 ContrastBadge
+.
+js
 "
 )
 )
@@ -158,6 +194,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -167,6 +207,8 @@ accessibility
 components
 /
 KeyboardBadge
+.
+js
 "
 )
 )
@@ -189,6 +231,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -198,6 +244,8 @@ accessibility
 components
 /
 TextLabelBadge
+.
+js
 "
 )
 )

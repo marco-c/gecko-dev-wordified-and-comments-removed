@@ -12,6 +12,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -34,6 +40,10 @@ span
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -47,6 +57,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -56,6 +68,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -69,6 +85,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -80,6 +98,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -89,6 +111,8 @@ accessibility
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -110,6 +134,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -121,6 +149,8 @@ components
 menu
 /
 MenuButton
+.
+js
 "
 )
 )
@@ -146,6 +176,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -157,6 +191,8 @@ components
 menu
 /
 MenuItem
+.
+js
 "
 )
 )
@@ -182,6 +218,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -193,6 +233,8 @@ components
 menu
 /
 MenuList
+.
+js
 "
 )
 )
@@ -206,6 +248,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -215,6 +261,8 @@ accessibility
 actions
 /
 audit
+.
+js
 "
 )
 ;
@@ -226,6 +274,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -237,6 +289,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -248,6 +302,10 @@ FILTERS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -255,6 +313,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;

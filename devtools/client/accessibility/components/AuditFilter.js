@@ -9,6 +9,10 @@ React
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -27,6 +33,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -51,6 +63,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -62,6 +78,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -73,6 +91,10 @@ isFiltered
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +104,8 @@ accessibility
 utils
 /
 audit
+.
+js
 "
 )
 ;
@@ -93,6 +117,10 @@ FILTERS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +128,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;
@@ -122,11 +152,17 @@ WARNING
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;

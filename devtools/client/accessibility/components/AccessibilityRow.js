@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -54,6 +66,10 @@ findDOMNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -76,6 +94,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +109,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -96,6 +120,10 @@ TreeRow
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -107,6 +135,8 @@ components
 tree
 /
 TreeRow
+.
+js
 "
 )
 ;
@@ -118,6 +148,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +161,8 @@ accessibility
 components
 /
 AuditFilter
+.
+js
 "
 )
 )
@@ -139,6 +175,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -148,6 +188,8 @@ accessibility
 components
 /
 AuditController
+.
+js
 "
 )
 )
@@ -161,6 +203,10 @@ flashElementOff
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -170,6 +216,8 @@ inspector
 markup
 /
 utils
+.
+js
 "
 )
 ;
@@ -181,6 +229,10 @@ openDocLink
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -188,6 +240,8 @@ client
 shared
 /
 link
+.
+js
 "
 )
 ;
@@ -201,6 +255,10 @@ VALUE_HIGHLIGHT_DURATION
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -208,6 +266,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;
@@ -217,6 +277,10 @@ nodeConstants
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -226,6 +290,8 @@ dom
 node
 -
 constants
+.
+js
 "
 )
 ;
@@ -237,6 +303,10 @@ updateDetails
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -246,6 +316,8 @@ accessibility
 actions
 /
 details
+.
+js
 "
 )
 ;
@@ -257,6 +329,10 @@ unhighlight
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -266,6 +342,8 @@ accessibility
 actions
 /
 accessibles
+.
+js
 "
 )
 ;
@@ -277,6 +355,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -286,6 +368,8 @@ accessibility
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -337,6 +421,10 @@ scrollIntoView
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -344,6 +432,8 @@ client
 shared
 /
 scroll
+.
+js
 "
 )
 ;

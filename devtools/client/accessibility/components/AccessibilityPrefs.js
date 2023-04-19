@@ -12,6 +12,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -54,6 +66,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -63,6 +79,8 @@ accessibility
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -74,6 +92,10 @@ hr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +109,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -108,6 +132,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -119,6 +147,8 @@ components
 menu
 /
 MenuButton
+.
+js
 "
 )
 )
@@ -144,6 +174,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -155,6 +189,8 @@ components
 menu
 /
 MenuItem
+.
+js
 "
 )
 )
@@ -180,6 +216,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -191,6 +231,8 @@ components
 menu
 /
 MenuList
+.
+js
 "
 )
 )
@@ -206,6 +248,10 @@ A11Y_LEARN_MORE_LINK
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -213,6 +259,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;
@@ -224,6 +272,10 @@ openDocLink
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -231,6 +283,8 @@ client
 shared
 /
 link
+.
+js
 "
 )
 ;
@@ -242,6 +296,10 @@ updatePref
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -251,6 +309,8 @@ accessibility
 actions
 /
 ui
+.
+js
 "
 )
 ;
@@ -262,6 +322,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -273,6 +337,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -284,6 +350,10 @@ PREFS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -291,6 +361,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;

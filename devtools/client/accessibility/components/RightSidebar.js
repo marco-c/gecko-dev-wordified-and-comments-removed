@@ -11,6 +11,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ div
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -44,6 +54,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -55,6 +67,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -64,6 +80,8 @@ accessibility
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -75,6 +93,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -84,6 +106,8 @@ accessibility
 components
 /
 Accessible
+.
+js
 "
 )
 )
@@ -96,6 +120,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -105,6 +133,8 @@ shared
 components
 /
 Accordion
+.
+js
 "
 )
 )
@@ -117,6 +147,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -126,6 +160,8 @@ accessibility
 components
 /
 Checks
+.
+js
 "
 )
 )

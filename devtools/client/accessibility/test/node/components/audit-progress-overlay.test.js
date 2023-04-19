@@ -23,6 +23,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -32,6 +36,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -43,6 +49,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -54,6 +64,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 .
@@ -68,6 +80,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +95,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -94,11 +112,17 @@ AUDIT_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;
@@ -110,6 +134,10 @@ AUDIT_PROGRESS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -117,6 +145,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;
@@ -126,6 +156,10 @@ ConnectedAuditProgressOverlayClass
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -135,6 +169,8 @@ accessibility
 components
 /
 AuditProgressOverlay
+.
+js
 "
 )
 ;

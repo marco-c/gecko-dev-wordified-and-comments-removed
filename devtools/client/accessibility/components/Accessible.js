@@ -12,6 +12,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ span
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -46,6 +56,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -55,6 +67,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -68,6 +84,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -79,6 +97,10 @@ findDOMNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -90,6 +112,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -101,6 +125,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -112,6 +140,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -126,6 +156,10 @@ VALUE_FLASHING_DURATION
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -133,6 +167,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;
@@ -144,6 +180,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -153,6 +193,8 @@ accessibility
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -165,6 +207,10 @@ flashElementOff
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -174,6 +220,8 @@ inspector
 markup
 /
 utils
+.
+js
 "
 )
 ;
@@ -185,6 +233,10 @@ updateDetails
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -194,6 +246,8 @@ accessibility
 actions
 /
 details
+.
+js
 "
 )
 ;
@@ -206,6 +260,10 @@ unhighlight
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -215,6 +273,8 @@ accessibility
 actions
 /
 accessibles
+.
+js
 "
 )
 ;
@@ -226,6 +286,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -235,6 +299,8 @@ shared
 components
 /
 VirtualizedTree
+.
+js
 "
 )
 )
@@ -248,6 +314,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -259,6 +329,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 ;
@@ -282,6 +354,10 @@ translateNodeFrontToGrip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -291,6 +367,8 @@ inspector
 shared
 /
 utils
+.
+js
 "
 )
 ;

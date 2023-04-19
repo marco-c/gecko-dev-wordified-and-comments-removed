@@ -15,11 +15,17 @@ SIMULATION_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ SIMULATE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -38,6 +48,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;

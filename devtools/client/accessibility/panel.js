@@ -9,6 +9,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -16,6 +20,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -25,6 +31,10 @@ Telemetry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -32,6 +42,8 @@ client
 shared
 /
 telemetry
+.
+js
 "
 )
 ;
@@ -85,6 +97,10 @@ A11Y_SERVICE_DURATION
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -92,6 +108,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;

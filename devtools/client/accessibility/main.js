@@ -60,6 +60,10 @@ require
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

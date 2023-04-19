@@ -12,6 +12,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -34,6 +40,10 @@ div
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -47,6 +57,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -56,6 +68,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -69,6 +85,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -80,6 +98,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -89,6 +111,8 @@ accessibility
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -100,6 +124,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -111,6 +139,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -122,6 +152,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -133,6 +167,8 @@ components
 menu
 /
 MenuButton
+.
+js
 "
 )
 )
@@ -145,6 +181,10 @@ openDocLink
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -152,6 +192,8 @@ client
 shared
 /
 link
+.
+js
 "
 )
 ;
@@ -163,6 +205,10 @@ A11Y_SIMULATION_DOCUMENTATION_LINK
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -170,6 +216,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;
@@ -185,11 +233,17 @@ SIMULATION_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;
@@ -199,6 +253,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -208,6 +266,8 @@ accessibility
 actions
 /
 simulation
+.
+js
 "
 )
 ;
@@ -229,6 +289,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -240,6 +304,8 @@ components
 menu
 /
 MenuItem
+.
+js
 "
 )
 )
@@ -265,6 +331,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -276,6 +346,8 @@ components
 menu
 /
 MenuList
+.
+js
 "
 )
 )

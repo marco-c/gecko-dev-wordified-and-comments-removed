@@ -23,6 +23,10 @@ UPDATE_DISPLAY_TABBING_ORDER
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -30,6 +34,8 @@ client
 accessibility
 /
 constants
+.
+js
 "
 )
 ;
@@ -39,6 +45,10 @@ TreeView
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -50,6 +60,8 @@ components
 tree
 /
 TreeView
+.
+js
 "
 )
 ;

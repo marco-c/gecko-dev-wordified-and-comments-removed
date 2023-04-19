@@ -11,6 +11,10 @@ isWebRenderEnabled
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -20,6 +24,8 @@ actors
 utils
 /
 accessibility
+.
+js
 "
 )
 ;
