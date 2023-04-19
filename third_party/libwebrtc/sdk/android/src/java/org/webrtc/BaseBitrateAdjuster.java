@@ -14,7 +14,7 @@ targetBitrateBps
 ;
 protected
 int
-targetFps
+targetFramerateFps
 ;
 Override
 public
@@ -24,7 +24,7 @@ setTargets
 int
 targetBitrateBps
 int
-targetFps
+targetFramerateFps
 )
 {
 this
@@ -35,9 +35,9 @@ targetBitrateBps
 ;
 this
 .
-targetFps
+targetFramerateFps
 =
-targetFps
+targetFramerateFps
 ;
 }
 Override
@@ -64,12 +64,12 @@ targetBitrateBps
 Override
 public
 int
-getCodecConfigFramerate
+getAdjustedFramerateFps
 (
 )
 {
 return
-targetFps
+targetFramerateFps
 ;
 }
 }

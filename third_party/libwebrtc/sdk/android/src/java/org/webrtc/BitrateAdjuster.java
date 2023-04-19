@@ -12,7 +12,7 @@ setTargets
 int
 targetBitrateBps
 int
-targetFps
+targetFramerateFps
 )
 ;
 void
@@ -28,7 +28,7 @@ getAdjustedBitrateBps
 )
 ;
 int
-getCodecConfigFramerate
+getAdjustedFramerateFps
 (
 )
 ;
