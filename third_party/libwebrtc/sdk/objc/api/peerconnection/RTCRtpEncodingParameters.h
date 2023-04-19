@@ -130,6 +130,14 @@ assign
 RTCPriority
 networkPriority
 ;
+property
+(
+nonatomic
+assign
+)
+BOOL
+adaptiveAudioPacketTime
+;
 -
 (
 instancetype

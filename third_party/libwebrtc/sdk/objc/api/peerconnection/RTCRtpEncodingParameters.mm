@@ -73,6 +73,11 @@ networkPriority
 =
 _networkPriority
 ;
+synthesize
+adaptiveAudioPacketTime
+=
+_adaptiveAudioPacketTime
+;
 -
 (
 instancetype
@@ -289,6 +294,12 @@ nativeParameters
 .
 network_priority
 ]
+;
+_adaptiveAudioPacketTime
+=
+nativeParameters
+.
+adaptive_ptime
 ;
 }
 return
@@ -511,6 +522,12 @@ nativePriorityFromPriority
 :
 _networkPriority
 ]
+;
+parameters
+.
+adaptive_ptime
+=
+_adaptiveAudioPacketTime
 ;
 return
 parameters
