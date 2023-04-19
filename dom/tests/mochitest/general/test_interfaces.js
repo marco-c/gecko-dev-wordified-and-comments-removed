@@ -3163,6 +3163,9 @@ IDBFileHandle
 insecureContext
 :
 true
+disabled
+:
+true
 }
 {
 name
@@ -3171,6 +3174,9 @@ name
 IDBFileRequest
 "
 insecureContext
+:
+true
+disabled
 :
 true
 }
@@ -3201,6 +3207,9 @@ name
 IDBMutableFile
 "
 insecureContext
+:
+true
+disabled
 :
 true
 }
