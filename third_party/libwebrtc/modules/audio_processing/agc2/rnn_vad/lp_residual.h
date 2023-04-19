@@ -27,7 +27,7 @@ namespace
 rnn_vad
 {
 constexpr
-size_t
+int
 kNumLpcCoefficients
 =
 5
