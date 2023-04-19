@@ -112,6 +112,14 @@ clicking
 -
 finish
 "
+this
+.
+manager
+.
+documentPrincipal
+?
+.
+baseDomain
 )
 ;
 return

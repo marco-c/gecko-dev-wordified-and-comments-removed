@@ -794,6 +794,9 @@ DOMContentLoaded
 }
 }
 }
+allFrames
+:
+true
 enablePreference
 :
 "
