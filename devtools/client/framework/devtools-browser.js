@@ -1360,6 +1360,13 @@ processId
 )
 ;
 const
+descriptor
+=
+commands
+.
+descriptorFront
+;
+const
 toolbox
 =
 await
@@ -1367,7 +1374,7 @@ gDevTools
 .
 showToolbox
 (
-commands
+descriptor
 {
 hostType
 :

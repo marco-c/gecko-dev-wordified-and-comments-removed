@@ -398,6 +398,12 @@ _setupLocalTabListeners
 (
 )
 ;
+this
+.
+shouldCloseClient
+=
+true
+;
 }
 get
 isTabDescriptor
@@ -1014,7 +1020,7 @@ toolbox
 =
 gDevTools
 .
-getToolboxForDescriptorFront
+getToolboxForDescriptor
 (
 this
 )
