@@ -7261,6 +7261,15 @@ if
 m
 -
 >
+hadEvaluationError
+(
+)
+&
+&
+!
+m
+-
+>
 getCycleRoot
 (
 )
