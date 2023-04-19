@@ -46108,7 +46108,11 @@ IsText
 )
 )
 {
+Result
+<
 JoinNodesResult
+nsresult
+>
 joinNodesResult
 =
 JoinNodesWithTransaction
@@ -46123,7 +46127,7 @@ MOZ_UNLIKELY
 (
 joinNodesResult
 .
-Failed
+isErr
 (
 )
 )
@@ -46143,7 +46147,7 @@ failed
 return
 joinNodesResult
 .
-Rv
+unwrapErr
 (
 )
 ;
@@ -46153,6 +46157,10 @@ aNewFirstChildOfRightNode
 =
 joinNodesResult
 .
+inspect
+(
+)
+.
 AtJoinedPoint
 <
 EditorDOMPoint
@@ -46161,11 +46169,7 @@ EditorDOMPoint
 )
 ;
 return
-joinNodesResult
-.
-Rv
-(
-)
+NS_OK
 ;
 }
 nsCOMPtr
@@ -46237,7 +46241,11 @@ return
 NS_ERROR_FAILURE
 ;
 }
+Result
+<
 JoinNodesResult
+nsresult
+>
 joinNodesResult
 =
 JoinNodesWithTransaction
@@ -46252,7 +46260,7 @@ MOZ_UNLIKELY
 (
 joinNodesResult
 .
-Failed
+isErr
 (
 )
 )
@@ -46274,7 +46282,7 @@ failed
 return
 joinNodesResult
 .
-Rv
+unwrapErr
 (
 )
 ;
@@ -46352,6 +46360,10 @@ rv
 aNewFirstChildOfRightNode
 =
 joinNodesResult
+.
+inspect
+(
+)
 .
 AtJoinedPoint
 <
