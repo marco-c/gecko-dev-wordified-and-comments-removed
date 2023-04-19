@@ -1588,16 +1588,6 @@ ProcessId
 aForPid
 )
 {
-MOZ_ASSERT
-(
-CompositorThreadHolder
-:
-:
-IsInCompositorThread
-(
-)
-)
-;
 UniquePtr
 <
 TextureConsumer
