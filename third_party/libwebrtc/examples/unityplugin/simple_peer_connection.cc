@@ -1663,9 +1663,9 @@ return
 }
 if
 (
-OnIceCandiateReady
+OnIceCandidateReady
 )
-OnIceCandiateReady
+OnIceCandidateReady
 (
 sdp
 .
@@ -1816,13 +1816,13 @@ void
 SimplePeerConnection
 :
 :
-RegisterOnIceCandiateReadytoSend
+RegisterOnIceCandidateReadytoSend
 (
 ICECANDIDATEREADYTOSEND_CALLBACK
 callback
 )
 {
-OnIceCandiateReady
+OnIceCandidateReady
 =
 callback
 ;
