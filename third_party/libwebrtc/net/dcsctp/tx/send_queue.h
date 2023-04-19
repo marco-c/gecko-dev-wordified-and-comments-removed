@@ -239,6 +239,15 @@ const
 ;
 virtual
 size_t
+total_buffered_amount
+(
+)
+const
+=
+0
+;
+virtual
+size_t
 buffered_amount_low_threshold
 (
 StreamID
