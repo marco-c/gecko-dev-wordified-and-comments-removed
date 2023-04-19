@@ -1426,6 +1426,10 @@ mIsVisual
 (
 false
 )
+mUnused
+(
+false
+)
 mHasWarnedAboutTooLargeDashedOrDottedRadius
 (
 false

@@ -4027,6 +4027,11 @@ mIsVisual
 1
 ;
 unsigned
+mUnused
+:
+1
+;
+unsigned
 mHasWarnedAboutTooLargeDashedOrDottedRadius
 :
 1
