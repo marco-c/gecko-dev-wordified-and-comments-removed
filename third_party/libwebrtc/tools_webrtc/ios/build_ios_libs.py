@@ -1073,23 +1073,12 @@ false
 '
         
 '
-use_xcode_clang
-=
-true
-'
-'
 is_component_build
 =
 false
 '
-        
 '
 rtc_include_tests
-=
-false
-'
-'
-use_lld
 =
 false
 '
