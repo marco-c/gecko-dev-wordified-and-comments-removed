@@ -626,6 +626,11 @@ event_tracer
 h
 "
 "
+hash
+.
+h
+"
+"
 location
 .
 cc
@@ -6440,6 +6445,11 @@ cc
 "
 "
 event_unittest
+.
+cc
+"
+"
+hash_unittest
 .
 cc
 "
