@@ -7825,7 +7825,7 @@ ctx
 fontKerning
 =
 "
-Normal
+normal
 "
 ;
 assert
@@ -7857,7 +7857,7 @@ ctx
 fontKerning
 =
 "
-None
+none
 "
 ;
 assert
