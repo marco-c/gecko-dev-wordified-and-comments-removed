@@ -245,7 +245,7 @@ state_
 MediaSourceInterface
 :
 :
-kInitializing
+kLive
 )
 {
 RTC_DCHECK
