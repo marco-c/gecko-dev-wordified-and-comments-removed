@@ -456,6 +456,11 @@ non_sender_rtt_measurement
 =
 false
 ;
+bool
+use_deferred_sequencing
+=
+false
+;
 private
 :
 RTC_DISALLOW_COPY_AND_ASSIGN

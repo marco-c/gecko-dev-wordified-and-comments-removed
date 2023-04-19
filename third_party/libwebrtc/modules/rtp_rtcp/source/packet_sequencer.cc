@@ -353,7 +353,7 @@ void
 PacketSequencer
 :
 :
-PupulateRtpState
+PopulateRtpState
 (
 RtpState
 &

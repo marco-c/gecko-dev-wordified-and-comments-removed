@@ -110,7 +110,7 @@ state
 )
 ;
 void
-PupulateRtpState
+PopulateRtpState
 (
 RtpState
 &

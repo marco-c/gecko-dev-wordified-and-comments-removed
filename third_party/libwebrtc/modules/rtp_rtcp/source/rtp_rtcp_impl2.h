@@ -1220,6 +1220,10 @@ override
 RtpPacketHistory
 packet_history
 ;
+const
+bool
+deferred_sequencing_
+;
 PacketSequencer
 sequencer_
 ;
@@ -1313,6 +1317,10 @@ worker_queue_
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 packet_sequence_checker_
+;
+RTC_NO_UNIQUE_ADDRESS
+SequenceChecker
+pacer_thread_checker_
 ;
 std
 :
