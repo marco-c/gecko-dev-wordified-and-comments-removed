@@ -37179,9 +37179,8 @@ IsSetAndValid
 )
 )
 ;
-const
 EditorDOMPoint
-pointToSplitAvoidingEmptyNewLink
+pointToSplit
 =
 [
 &
@@ -37424,18 +37423,12 @@ HTMLBRElement
 >
 brElement
 ;
-EditorDOMPoint
-pointToSplit
-(
-pointToSplitAvoidingEmptyNewLink
-)
-;
 if
 (
 createNewParagraph
 &
 &
-pointToSplitAvoidingEmptyNewLink
+pointToSplit
 .
 GetContainer
 (
@@ -37454,7 +37447,7 @@ nullptr
 else
 if
 (
-pointToSplitAvoidingEmptyNewLink
+pointToSplit
 .
 IsInTextNode
 (
@@ -37463,7 +37456,7 @@ IsInTextNode
 {
 if
 (
-pointToSplitAvoidingEmptyNewLink
+pointToSplit
 .
 IsStartOfContainer
 (
@@ -37483,7 +37476,7 @@ HTMLEditUtils
 GetPreviousSibling
 (
 *
-pointToSplitAvoidingEmptyNewLink
+pointToSplit
 .
 ContainerAsText
 (
@@ -37540,7 +37533,7 @@ const
 EditorDOMPoint
 pointToInsertBR
 =
-pointToSplitAvoidingEmptyNewLink
+pointToSplit
 .
 ParentPoint
 (
@@ -37629,7 +37622,7 @@ GetNewNode
 else
 if
 (
-pointToSplitAvoidingEmptyNewLink
+pointToSplit
 .
 IsEndOfContainer
 (
@@ -37649,7 +37642,7 @@ HTMLEditUtils
 GetNextSibling
 (
 *
-pointToSplitAvoidingEmptyNewLink
+pointToSplit
 .
 ContainerAsText
 (
@@ -37712,7 +37705,7 @@ EditorDOMPoint
 After
 (
 *
-pointToSplitAvoidingEmptyNewLink
+pointToSplit
 .
 ContainerAsText
 (
@@ -38112,7 +38105,7 @@ HTMLEditUtils
 :
 GetPreviousContent
 (
-pointToSplitAvoidingEmptyNewLink
+pointToSplit
 {
 WalkTreeOption
 :
@@ -38162,7 +38155,7 @@ HTMLEditUtils
 :
 GetNextContent
 (
-pointToSplitAvoidingEmptyNewLink
+pointToSplit
 {
 WalkTreeOption
 :
@@ -38222,7 +38215,7 @@ WithTransaction
 :
 :
 Yes
-pointToSplitAvoidingEmptyNewLink
+pointToSplit
 )
 ;
 if
