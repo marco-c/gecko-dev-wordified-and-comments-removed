@@ -174,12 +174,12 @@ shared_frame_id
 ;
 static
 FrameDependencyStructure
-MinimalisticVp9Structure
+MinimalisticStructure
 (
-const
-CodecSpecificInfoVP9
-&
-vp9
+int
+num_spatial_layers
+int
+num_temporal_layers
 )
 ;
 uint32_t
