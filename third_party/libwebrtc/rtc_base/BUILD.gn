@@ -2526,6 +2526,14 @@ refcount
 /
 api
 :
+refcountedbase
+"
+"
+.
+.
+/
+api
+:
 scoped_refptr
 "
 "

@@ -565,6 +565,11 @@ args
 )
 {
 return
+scoped_refptr
+<
+T
+>
+(
 new
 RefCountedObject
 <
@@ -585,6 +590,7 @@ args
 .
 .
 )
+)
 ;
 }
 template
@@ -742,6 +748,14 @@ args
 )
 {
 return
+scoped_refptr
+<
+FinalRefCountedObject
+<
+T
+>
+>
+(
 new
 FinalRefCountedObject
 <
@@ -761,6 +775,7 @@ args
 .
 .
 .
+)
 )
 ;
 }
