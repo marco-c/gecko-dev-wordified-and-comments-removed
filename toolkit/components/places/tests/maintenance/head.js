@@ -40,9 +40,9 @@ this
 )
 ;
 }
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 this
 {
@@ -59,9 +59,7 @@ modules
 /
 PlacesDBUtils
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

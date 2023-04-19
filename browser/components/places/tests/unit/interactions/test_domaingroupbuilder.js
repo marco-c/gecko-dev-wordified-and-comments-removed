@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineESModuleGetters
+defineModuleGetter
 (
 this
-{
+"
 DomainGroupBuilder
-:
+"
 "
 resource
 :
@@ -16,11 +16,8 @@ modules
 /
 DomainGroupBuilder
 .
-sys
-.
-mjs
+jsm
 "
-}
 )
 ;
 const

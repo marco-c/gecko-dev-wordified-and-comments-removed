@@ -5,7 +5,7 @@ Interactions
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -17,9 +17,7 @@ modules
 /
 Interactions
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

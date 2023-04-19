@@ -5,7 +5,7 @@ BookmarkJSONUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -18,9 +18,7 @@ modules
 /
 BookmarkJSONUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

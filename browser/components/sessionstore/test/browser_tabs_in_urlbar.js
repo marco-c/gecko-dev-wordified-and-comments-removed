@@ -12,7 +12,7 @@ PlacesTestUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -25,9 +25,7 @@ common
 /
 PlacesTestUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -38,7 +36,7 @@ PlacesUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -51,9 +49,7 @@ modules
 /
 PlacesUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -64,7 +60,7 @@ UrlbarProviderOpenTabs
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -76,9 +72,7 @@ modules
 /
 UrlbarProviderOpenTabs
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -89,7 +83,7 @@ UrlbarTestUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -102,9 +96,7 @@ common
 /
 UrlbarTestUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
