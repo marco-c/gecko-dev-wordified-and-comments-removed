@@ -1030,6 +1030,11 @@ WrapNotNull
 (
 compositable
 )
+edit
+.
+compositable
+(
+)
 )
 )
 {
