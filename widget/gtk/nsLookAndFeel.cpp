@@ -5113,10 +5113,10 @@ aFontStyle
 size
 /
 =
-gfxPlatformGtk
+LookAndFeel
 :
 :
-GetFontScaleFactor
+GetTextScaleFactor
 (
 )
 ;
