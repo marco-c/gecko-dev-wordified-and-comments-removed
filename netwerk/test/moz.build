@@ -62,6 +62,13 @@ TESTING_JS_MODULES
 "
 browser
 /
+cookie_filtering_helper
+.
+jsm
+"
+"
+browser
+/
 early_hint_preload_test_helper
 .
 jsm
