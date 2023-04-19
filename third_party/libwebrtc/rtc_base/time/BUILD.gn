@@ -154,16 +154,4 @@ timestamp_extrapolator
 h
 "
 ]
-deps
-=
-[
-"
-.
-.
-/
-synchronization
-:
-rw_lock_wrapper
-"
-]
 }
