@@ -11802,15 +11802,6 @@ EXPECT_TRUE
 (
 encoder
 .
-WaitForEncoderInit
-(
-)
-)
-;
-EXPECT_TRUE
-(
-encoder
-.
 WaitBitrateChanged
 (
 true
