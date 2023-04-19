@@ -119,12 +119,6 @@ CurrentNtpTime
 )
 override
 ;
-int64_t
-CurrentNtpInMilliseconds
-(
-)
-override
-;
 private
 :
 TimeDelta
