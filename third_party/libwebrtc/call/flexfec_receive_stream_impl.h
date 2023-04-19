@@ -169,7 +169,7 @@ private
 :
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
-network_thread_checker_
+packet_sequence_checker_
 ;
 const
 Config
@@ -220,7 +220,7 @@ RtpStreamReceiverInterface
 rtp_stream_receiver_
 RTC_GUARDED_BY
 (
-network_thread_checker_
+packet_sequence_checker_
 )
 ;
 }

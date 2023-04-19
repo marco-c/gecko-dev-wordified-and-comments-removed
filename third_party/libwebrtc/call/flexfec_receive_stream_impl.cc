@@ -942,7 +942,7 @@ ToString
 (
 )
 ;
-network_thread_checker_
+packet_sequence_checker_
 .
 Detach
 (
@@ -1026,7 +1026,7 @@ receiver_controller
 RTC_DCHECK_RUN_ON
 (
 &
-network_thread_checker_
+packet_sequence_checker_
 )
 ;
 RTC_DCHECK
@@ -1067,7 +1067,7 @@ UnregisterFromTransport
 RTC_DCHECK_RUN_ON
 (
 &
-network_thread_checker_
+packet_sequence_checker_
 )
 ;
 rtp_stream_receiver_
