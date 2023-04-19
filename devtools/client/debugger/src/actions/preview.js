@@ -147,11 +147,6 @@ if
 (
 !
 symbols
-|
-|
-symbols
-.
-loading
 )
 {
 match

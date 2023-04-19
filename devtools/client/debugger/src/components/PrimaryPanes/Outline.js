@@ -536,12 +536,6 @@ functions
 if
 (
 symbols
-&
-&
-!
-symbols
-.
-loading
 )
 {
 (
@@ -1210,11 +1204,6 @@ if
 symbols
 |
 |
-symbols
-.
-loading
-|
-|
 klass
 =
 =
@@ -1778,11 +1767,6 @@ if
 (
 !
 symbols
-|
-|
-symbols
-.
-loading
 )
 {
 return

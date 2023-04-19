@@ -2290,12 +2290,6 @@ if
 symbols
 &
 &
-!
-symbols
-.
-loading
-&
-&
 symbols
 .
 framework

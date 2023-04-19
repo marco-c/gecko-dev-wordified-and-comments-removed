@@ -801,9 +801,6 @@ false
 hasTypes
 :
 false
-loading
-:
-false
 framework
 :
 undefined
@@ -1279,9 +1276,6 @@ false
 hasTypes
 :
 false
-loading
-:
-false
 framework
 :
 undefined
@@ -1480,9 +1474,6 @@ hasJsx
 :
 false
 hasTypes
-:
-false
-loading
 :
 false
 framework
@@ -2000,9 +1991,6 @@ hasJsx
 :
 false
 hasTypes
-:
-false
-loading
 :
 false
 framework
@@ -3751,9 +3739,6 @@ true
 hasTypes
 :
 false
-loading
-:
-false
 framework
 :
 undefined
@@ -4487,9 +4472,6 @@ false
 hasTypes
 :
 false
-loading
-:
-false
 framework
 :
 undefined
@@ -4597,9 +4579,6 @@ hasJsx
 :
 false
 hasTypes
-:
-false
-loading
 :
 false
 framework
@@ -6637,9 +6616,6 @@ false
 hasTypes
 :
 false
-loading
-:
-false
 framework
 :
 undefined
@@ -7336,9 +7312,6 @@ false
 hasTypes
 :
 false
-loading
-:
-false
 framework
 :
 undefined
@@ -7489,9 +7462,6 @@ false
 hasTypes
 :
 true
-loading
-:
-false
 framework
 :
 undefined
@@ -8161,9 +8131,6 @@ hasJsx
 :
 false
 hasTypes
-:
-false
-loading
 :
 false
 framework
@@ -9442,9 +9409,6 @@ false
 hasTypes
 :
 false
-loading
-:
-false
 framework
 :
 undefined
@@ -9540,9 +9504,6 @@ hasJsx
 :
 true
 hasTypes
-:
-false
-loading
 :
 false
 framework
@@ -9848,9 +9809,6 @@ hasJsx
 :
 false
 hasTypes
-:
-false
-loading
 :
 false
 framework
@@ -10471,9 +10429,6 @@ false
 hasTypes
 :
 false
-loading
-:
-false
 framework
 :
 undefined
@@ -10632,9 +10587,6 @@ hasJsx
 :
 false
 hasTypes
-:
-false
-loading
 :
 false
 framework
@@ -11253,9 +11205,6 @@ false
 hasTypes
 :
 false
-loading
-:
-false
 framework
 :
 undefined
@@ -11666,9 +11615,6 @@ false
 hasTypes
 :
 false
-loading
-:
-false
 framework
 :
 undefined
@@ -11778,9 +11724,6 @@ hasJsx
 :
 false
 hasTypes
-:
-false
-loading
 :
 false
 framework
@@ -12216,9 +12159,6 @@ hasJsx
 :
 false
 hasTypes
-:
-false
-loading
 :
 false
 framework
