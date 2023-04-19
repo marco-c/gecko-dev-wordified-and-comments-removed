@@ -554,8 +554,6 @@ IsTerminated
 )
 ;
 }
-#
-endif
 TEST
 (
 GeckoMediaPlugins
@@ -663,6 +661,8 @@ Wait
 )
 ;
 }
+#
+endif
 static
 StaticRefPtr
 <
