@@ -438,6 +438,16 @@ devtools
 }
 )
 ;
+this
+.
+loader
+.
+globals
+.
+Services
+=
+Services
+;
 const
 {
 modules
