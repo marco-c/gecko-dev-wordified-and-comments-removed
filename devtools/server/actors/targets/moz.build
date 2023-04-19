@@ -47,7 +47,9 @@ actor
 -
 registry
 .
-jsm
+sys
+.
+mjs
 "
 "
 webextension
