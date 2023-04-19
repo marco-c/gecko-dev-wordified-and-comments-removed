@@ -286,7 +286,7 @@ reference_hf
 ;
 EXPECT_NEAR
 (
-reference_lf
+kTrueErle
 erle_time_domain
 0
 .
@@ -1594,7 +1594,7 @@ k
 ;
 k
 <
-200
+1000
 ;
 +
 +
@@ -2156,7 +2156,7 @@ k
 ;
 k
 <
-200
+1000
 ;
 +
 +

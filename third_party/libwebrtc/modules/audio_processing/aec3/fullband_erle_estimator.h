@@ -467,7 +467,7 @@ min_erle_log2_
 ;
 const
 float
-max_erle_lf_log2
+max_erle_lf_log2_
 ;
 std
 :
@@ -476,7 +476,7 @@ vector
 <
 int
 >
-hold_counters_time_domain_
+hold_counters_instantaneous_erle_
 ;
 std
 :
