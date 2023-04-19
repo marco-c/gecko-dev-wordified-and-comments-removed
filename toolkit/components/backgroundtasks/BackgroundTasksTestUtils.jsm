@@ -420,6 +420,16 @@ stdin
 close
 (
 )
+.
+catch
+(
+(
+)
+=
+>
+{
+}
+)
 ;
 const
 dumpPipe
