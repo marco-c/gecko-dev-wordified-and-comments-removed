@@ -165,7 +165,7 @@ inherit
 from
 more
 than
-once
+one
 XPCOM
 interface
 meaning
