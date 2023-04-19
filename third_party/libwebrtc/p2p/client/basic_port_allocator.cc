@@ -4642,8 +4642,6 @@ port
 AllocationSequence
 *
 seq
-bool
-prepare_address
 )
 {
 RTC_DCHECK_RUN_ON
@@ -4877,10 +4875,6 @@ to
 allocator
 "
 ;
-if
-(
-prepare_address
-)
 port
 -
 >
@@ -7819,7 +7813,6 @@ release
 (
 )
 this
-true
 )
 ;
 }
@@ -7949,7 +7942,6 @@ release
 (
 )
 this
-true
 )
 ;
 }
@@ -8148,7 +8140,6 @@ release
 (
 )
 this
-true
 )
 ;
 }
@@ -8762,7 +8753,6 @@ release
 (
 )
 this
-true
 )
 ;
 }
