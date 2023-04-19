@@ -60,7 +60,7 @@ void
 SetTargetBufferLevel
 (
 int
-target_buffer_level_packets
+target_buffer_level_ms
 )
 ;
 virtual
