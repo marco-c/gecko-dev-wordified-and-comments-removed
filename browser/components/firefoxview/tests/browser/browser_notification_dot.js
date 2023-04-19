@@ -819,8 +819,6 @@ testNotificationDotOnMultipleWindows
 (
 )
 {
-return
-;
 const
 sandbox
 =
