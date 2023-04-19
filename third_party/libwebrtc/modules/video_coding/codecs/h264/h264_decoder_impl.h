@@ -265,7 +265,10 @@ ReportError
 )
 ;
 VideoFrameBufferPool
-pool_
+ffmpeg_buffer_pool_
+;
+VideoFrameBufferPool
+output_buffer_pool_
 ;
 std
 :
@@ -302,6 +305,13 @@ webrtc
 :
 H264BitstreamParser
 h264_bitstream_parser_
+;
+const
+VideoFrameBuffer
+:
+:
+Type
+preferred_output_format_
 ;
 }
 ;

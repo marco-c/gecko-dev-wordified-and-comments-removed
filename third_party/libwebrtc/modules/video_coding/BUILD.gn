@@ -4442,6 +4442,13 @@ rtp_rtcp
 :
 rtp_rtcp_format
 "
+"
+/
+/
+third_party
+/
+libyuv
+"
 ]
 absl_deps
 =
