@@ -19,6 +19,17 @@ mozilla
 /
 dom
 /
+FileSystemDataManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FileSystemTypes
 .
 h
@@ -119,9 +130,6 @@ aRootEntry
 mTaskQueue
 (
 aTaskQueue
-)
-mData
-(
 )
 mRootEntry
 (

@@ -102,9 +102,7 @@ fs
 data
 {
 class
-FileSystemDataManagerBase
-{
-}
+FileSystemDataManager
 ;
 }
 class
@@ -355,9 +353,9 @@ fs
 data
 :
 :
-FileSystemDataManagerBase
+FileSystemDataManager
 >
-mData
+mDataManager
 ;
 const
 EntryId
