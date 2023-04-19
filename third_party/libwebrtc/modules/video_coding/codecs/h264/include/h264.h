@@ -116,17 +116,6 @@ SupportedH264Codecs
 (
 )
 ;
-std
-:
-:
-vector
-<
-SdpVideoFormat
->
-SupportedH264DecoderCodecs
-(
-)
-;
 class
 RTC_EXPORT
 H264Encoder
