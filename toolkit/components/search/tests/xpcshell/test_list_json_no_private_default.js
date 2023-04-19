@@ -114,7 +114,7 @@ Services
 .
 search
 .
-originalDefaultEngine
+appDefaultEngine
 .
 name
 "
@@ -127,7 +127,7 @@ the
 expected
 engine
 as
-original
+app
 default
 "
 )
@@ -165,7 +165,7 @@ Services
 .
 search
 .
-originalPrivateDefaultEngine
+appPrivateDefaultEngine
 .
 name
 "
@@ -179,7 +179,7 @@ same
 engine
 for
 the
-original
+app
 private
 default
 "

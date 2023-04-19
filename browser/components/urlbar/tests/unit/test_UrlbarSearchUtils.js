@@ -68,7 +68,7 @@ Services
 .
 search
 .
-resetToOriginalDefaultEngine
+resetToAppDefaultEngine
 (
 )
 ;

@@ -3925,7 +3925,7 @@ Services
 .
 search
 .
-resetToOriginalDefaultEngine
+resetToAppDefaultEngine
 (
 )
 ;

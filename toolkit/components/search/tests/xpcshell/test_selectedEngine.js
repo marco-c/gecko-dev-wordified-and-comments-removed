@@ -216,7 +216,7 @@ Services
 .
 search
 .
-resetToOriginalDefaultEngine
+resetToAppDefaultEngine
 (
 )
 ;
@@ -507,7 +507,7 @@ Services
 .
 search
 .
-resetToOriginalDefaultEngine
+resetToAppDefaultEngine
 (
 )
 ;

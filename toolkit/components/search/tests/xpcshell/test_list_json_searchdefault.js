@@ -123,7 +123,7 @@ Services
 .
 search
 .
-originalDefaultEngine
+appDefaultEngine
 .
 name
 "
@@ -139,7 +139,8 @@ expected
 engine
 as
 the
-original
+app
+default
 "
 )
 ;
@@ -202,14 +203,14 @@ Services
 .
 search
 .
-originalPrivateDefaultEngine
+appPrivateDefaultEngine
 .
 name
 Services
 .
 search
 .
-originalDefaultEngine
+appDefaultEngine
 .
 name
 "
@@ -217,7 +218,7 @@ Should
 have
 the
 normal
-original
+app
 engine
 when
 separate
@@ -286,7 +287,7 @@ Services
 .
 search
 .
-originalPrivateDefaultEngine
+appPrivateDefaultEngine
 .
 name
 "
@@ -298,7 +299,7 @@ pref
 Should
 have
 the
-original
+app
 private
 engine
 set

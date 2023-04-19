@@ -109,7 +109,7 @@ searchTerms
 )
 ;
 const
-originalDefault
+defaultEngine
 =
 await
 Services
@@ -121,7 +121,7 @@ getDefault
 )
 ;
 const
-originalDefaultPrivate
+defaultPrivateEngine
 =
 await
 Services
@@ -147,7 +147,7 @@ search
 .
 setDefault
 (
-originalDefault
+defaultEngine
 )
 ;
 await
@@ -157,7 +157,7 @@ search
 .
 setDefaultPrivate
 (
-originalDefaultPrivate
+defaultPrivateEngine
 )
 ;
 }
