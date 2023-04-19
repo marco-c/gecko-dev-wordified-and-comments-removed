@@ -5025,6 +5025,16 @@ libwebrtc
 /
 video
 /
+frame_cadence_adapter_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+video
+/
 frame_dumping_decoder_gn
 "
 "
