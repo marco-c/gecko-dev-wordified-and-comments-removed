@@ -32504,7 +32504,10 @@ brc
 .
 ReflowBlock
 (
-aAdjustedAvailableSpace
+LogicalRect
+(
+wm
+)
 true
 margin
 0
