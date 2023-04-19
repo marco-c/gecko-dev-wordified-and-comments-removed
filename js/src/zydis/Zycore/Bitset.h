@@ -9,15 +9,6 @@ include
 "
 zydis
 /
-ZycoreExportConfig
-.
-h
-"
-#
-include
-"
-zydis
-/
 Zycore
 /
 Allocator
@@ -125,9 +116,9 @@ count
 ZyanAllocator
 *
 allocator
-float
+ZyanU8
 growth_factor
-float
+ZyanU8
 shrink_threshold
 )
 ;

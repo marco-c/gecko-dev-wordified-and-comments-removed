@@ -149,9 +149,9 @@ capacity
 ZyanAllocator
 *
 allocator
-float
+ZyanU8
 growth_factor
-float
+ZyanU8
 shrink_threshold
 )
 {
@@ -463,9 +463,9 @@ capacity
 ZyanAllocator
 *
 allocator
-float
+ZyanU8
 growth_factor
-float
+ZyanU8
 shrink_threshold
 )
 {
@@ -772,9 +772,9 @@ capacity
 ZyanAllocator
 *
 allocator
-float
+ZyanU8
 growth_factor
-float
+ZyanU8
 shrink_threshold
 )
 {

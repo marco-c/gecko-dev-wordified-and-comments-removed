@@ -257,7 +257,12 @@ imm
 }
 ZydisInstructionEncodingInfo
 ;
-ZYDIS_NO_EXPORT
+extern
+const
+ZydisDecoderTreeNode
+zydis_decoder_tree_root
+;
+ZYAN_INLINE
 const
 ZydisDecoderTreeNode
 *
@@ -265,7 +270,12 @@ ZydisDecoderTreeGetRootNode
 (
 void
 )
+{
+return
+&
+zydis_decoder_tree_root
 ;
+}
 ZYDIS_NO_EXPORT
 const
 ZydisDecoderTreeNode

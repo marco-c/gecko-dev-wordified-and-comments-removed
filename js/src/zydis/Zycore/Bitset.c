@@ -24,14 +24,10 @@ h
 define
 ZYAN_BITSET_GROWTH_FACTOR
 2
-.
-00f
 #
 define
 ZYAN_BITSET_SHRINK_THRESHOLD
-0
-.
-50f
+2
 #
 define
 ZYAN_BITSET_CEIL
@@ -88,8 +84,6 @@ x
 )
 /
 8
-.
-0f
 )
 #
 define
@@ -274,9 +268,9 @@ count
 ZyanAllocator
 *
 allocator
-float
+ZyanU8
 growth_factor
-float
+ZyanU8
 shrink_threshold
 )
 {

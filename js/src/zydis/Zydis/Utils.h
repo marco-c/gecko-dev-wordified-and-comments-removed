@@ -163,7 +163,7 @@ ZydisCPUFlags
 flags
 )
 ;
-ZYDIS_EXPORT
+ZYDIS_DEPRECATED_EXPORT
 ZyanStatus
 ZydisGetAccessedFlagsRead
 (
@@ -176,7 +176,7 @@ ZydisCPUFlags
 flags
 )
 ;
-ZYDIS_EXPORT
+ZYDIS_DEPRECATED_EXPORT
 ZyanStatus
 ZydisGetAccessedFlagsWritten
 (

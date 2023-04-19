@@ -9,15 +9,6 @@ include
 "
 zydis
 /
-ZycoreExportConfig
-.
-h
-"
-#
-include
-"
-zydis
-/
 Zycore
 /
 Status
