@@ -21,7 +21,10 @@ crate
 :
 *
 ;
+pub
+(
 crate
+)
 trait
 Sqrte
 {

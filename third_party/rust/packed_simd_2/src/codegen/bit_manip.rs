@@ -5,6 +5,10 @@ rustfmt
 :
 skip
 ]
+pub
+(
+crate
+)
 use
 crate
 :
@@ -1600,7 +1604,10 @@ u128x4
 u128x4
 ;
 }
+pub
+(
 crate
+)
 trait
 BitManip
 {

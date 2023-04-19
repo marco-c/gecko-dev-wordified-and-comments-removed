@@ -12,7 +12,10 @@ crate
 :
 *
 ;
+pub
+(
 crate
+)
 trait
 Ln
 {

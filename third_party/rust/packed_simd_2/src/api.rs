@@ -5,7 +5,10 @@ macro_use
 mod
 bitmask
 ;
+pub
+(
 crate
+)
 mod
 cast
 ;
@@ -132,7 +135,10 @@ into_bits
 "
 )
 ]
+pub
+(
 crate
+)
 mod
 into_bits
 ;

@@ -21928,7 +21928,7 @@ version
 .
 3
 .
-7
+8
 "
 source
 =
@@ -21949,9 +21949,9 @@ packed_simd
 ?
 rev
 =
-c149d0a519bf878567c7630096737669ec2ff15f
+90eebb82a107cbec1c8e406d9223819417e96de1
 #
-c149d0a519bf878567c7630096737669ec2ff15f
+90eebb82a107cbec1c8e406d9223819417e96de1
 "
 dependencies
 =
@@ -21965,6 +21965,9 @@ if
 0
 .
 0
+"
+"
+rustc_version
 "
 ]
 [

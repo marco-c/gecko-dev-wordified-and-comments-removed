@@ -4,7 +4,10 @@ crate
 :
 *
 ;
+pub
+(
 crate
+)
 trait
 MulAddE
 {

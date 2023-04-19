@@ -4,7 +4,10 @@ crate
 :
 *
 ;
+pub
+(
 crate
+)
 trait
 SwapBytes
 {
@@ -54,8 +57,6 @@ self
 >
 Self
 {
-unsafe
-{
 shuffle
 !
 (
@@ -65,7 +66,6 @@ self
 0
 ]
 )
-}
 }
 }
 )
