@@ -312,6 +312,14 @@ b
 "
 channel
 "
+b
+"
+responseToken
+"
+b
+"
+iframeToken
+"
 )
 :
         
@@ -697,6 +705,22 @@ params
 channel
 ;
     
+const
+responseToken
+=
+params
+.
+responseToken
+;
+    
+const
+iframeToken
+=
+params
+.
+iframeToken
+;
+    
 iframe
 .
 src
@@ -724,6 +748,8 @@ resources
 postback
 .
 html
++
+                 
 ?
 channel
 =
@@ -732,6 +758,22 @@ encodeURIComponent
 (
 channelName
 )
+}
++
+                 
+&
+responseToken
+=
+{
+responseToken
+}
++
+                 
+&
+iframeToken
+=
+{
+iframeToken
 }
 ;
     
