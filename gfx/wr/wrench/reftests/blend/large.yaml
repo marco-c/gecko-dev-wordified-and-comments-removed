@@ -17,6 +17,11 @@ bounds
 0
 2000
 2000
+blend
+-
+container
+:
+true
 items
 :
 -
