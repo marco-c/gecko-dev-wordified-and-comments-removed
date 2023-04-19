@@ -127,15 +127,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-lazy
-{
 WebSocketTransport
 :
 "
@@ -151,7 +142,9 @@ server
 /
 WebSocketTransport
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
