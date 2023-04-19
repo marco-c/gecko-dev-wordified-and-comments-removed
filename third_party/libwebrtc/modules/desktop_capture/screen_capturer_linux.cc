@@ -40,6 +40,8 @@ desktop_capture
 /
 linux
 /
+wayland
+/
 base_capturer_pipewire
 .
 h
@@ -60,6 +62,8 @@ modules
 desktop_capture
 /
 linux
+/
+x11
 /
 screen_capturer_x11
 .

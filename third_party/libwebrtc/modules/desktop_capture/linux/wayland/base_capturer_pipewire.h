@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_DESKTOP_CAPTURE_LINUX_BASE_CAPTURER_PIPEWIRE_H_
+MODULES_DESKTOP_CAPTURE_LINUX_WAYLAND_BASE_CAPTURER_PIPEWIRE_H_
 #
 define
-MODULES_DESKTOP_CAPTURE_LINUX_BASE_CAPTURER_PIPEWIRE_H_
+MODULES_DESKTOP_CAPTURE_LINUX_WAYLAND_BASE_CAPTURER_PIPEWIRE_H_
 #
 include
 <
@@ -54,6 +54,11 @@ h
 >
 #
 include
+<
+memory
+>
+#
+include
 "
 absl
 /
@@ -100,6 +105,8 @@ modules
 desktop_capture
 /
 linux
+/
+wayland
 /
 egl_dmabuf
 .

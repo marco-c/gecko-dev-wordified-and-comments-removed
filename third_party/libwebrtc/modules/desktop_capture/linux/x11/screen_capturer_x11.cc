@@ -7,6 +7,8 @@ desktop_capture
 /
 linux
 /
+x11
+/
 screen_capturer_x11
 .
 h
@@ -136,6 +138,8 @@ modules
 desktop_capture
 /
 linux
+/
+x11
 /
 x_server_pixel_buffer
 .

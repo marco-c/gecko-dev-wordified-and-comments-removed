@@ -7,6 +7,8 @@ desktop_capture
 /
 linux
 /
+x11
+/
 x_error_trap
 .
 h

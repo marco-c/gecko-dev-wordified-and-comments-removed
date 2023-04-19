@@ -7,6 +7,8 @@ desktop_capture
 /
 linux
 /
+x11
+/
 window_finder_x11
 .
 h
@@ -33,6 +35,8 @@ modules
 desktop_capture
 /
 linux
+/
+x11
 /
 window_list_utils
 .
