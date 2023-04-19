@@ -2126,7 +2126,8 @@ signaling_thread
 ;
 return
 sdp_handler_
-.
+-
+>
 signaling_state
 (
 )
@@ -3630,7 +3631,13 @@ network_thread
 )
 )
 ;
+std
+:
+:
+unique_ptr
+<
 SdpOfferAnswerHandler
+>
 sdp_handler_
 RTC_GUARDED_BY
 (
