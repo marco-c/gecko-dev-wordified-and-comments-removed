@@ -8,6 +8,12 @@ as
 taskgraph_config
 from
 taskgraph
+import
+morph
+as
+taskgraph_morph
+from
+taskgraph
 .
 util
 import
@@ -65,6 +71,12 @@ taskgraph_config
 graph_config_schema
 =
 graph_config_schema
+taskgraph_morph
+.
+registered_morphs
+=
+[
+]
 tc_util
 .
 PRODUCTION_TASKCLUSTER_ROOT_URL
@@ -157,6 +169,11 @@ import
 target_tasks
     
 )
+    
+from
+gecko_taskgraph
+import
+morph
     
 register_parameters
 (
