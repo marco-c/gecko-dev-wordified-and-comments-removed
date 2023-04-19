@@ -356,16 +356,6 @@ NVALGRIND
 ]
 =
 True
-DEFINES
-[
-"
-_FORTIFY_SOURCE
-"
-]
-=
-"
-2
-"
 if
 CONFIG
 [
