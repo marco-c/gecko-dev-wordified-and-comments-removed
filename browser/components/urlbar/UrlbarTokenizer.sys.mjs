@@ -134,9 +134,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -152,7 +152,9 @@ modules
 /
 UrlbarUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

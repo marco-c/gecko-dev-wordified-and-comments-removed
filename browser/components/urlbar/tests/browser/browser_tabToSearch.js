@@ -26,9 +26,9 @@ DYNAMIC_RESULT_TYPE
 onboardTabToSearch
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -44,7 +44,9 @@ modules
 /
 UrlbarProviderTabToSearch
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
