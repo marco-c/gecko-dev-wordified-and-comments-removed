@@ -293,7 +293,14 @@ components
 /
 newtab
 /
+content
+-
+src
+/
+asrouter
+/
 schemas
+/
 .
 .
 /
@@ -705,6 +712,12 @@ browser
 components
 /
 newtab
+/
+content
+-
+src
+/
+asrouter
 /
 schemas
 /
