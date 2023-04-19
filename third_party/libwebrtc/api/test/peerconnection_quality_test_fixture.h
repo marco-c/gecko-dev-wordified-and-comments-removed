@@ -1388,6 +1388,17 @@ string
 >
 subscribed_streams
 ;
+subscribed_streams
+.
+reserve
+(
+peers_resolution_
+.
+size
+(
+)
+)
+;
 for
 (
 const
