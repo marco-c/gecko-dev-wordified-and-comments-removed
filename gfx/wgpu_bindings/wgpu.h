@@ -7,6 +7,13 @@ WGPU_h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 mozilla
 /
 UniquePtr
