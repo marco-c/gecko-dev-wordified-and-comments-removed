@@ -75,6 +75,12 @@ kNetworkCostMin
 ;
 constexpr
 uint16_t
+kNetworkCostVpn
+=
+1
+;
+constexpr
+uint16_t
 kNetworkCostHigh
 =
 kNetworkCostCellular
