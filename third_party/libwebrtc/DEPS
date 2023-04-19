@@ -76,7 +76,7 @@ chromium_revision
 '
 :
 '
-5469e0bb11b5bbb957c658415f341d0fb71a27b6
+fb62f861d30247132050c03d5eda894bcba565e8
 '
 }
 deps
@@ -131,7 +131,7 @@ chromium
 src
 /
 base
-59242336d978e13ae629f23b1bcd38ec57fc4e4f
+1afbc09004856f054a7c028fada3b121f5195964
 '
 '
 src
@@ -275,7 +275,7 @@ chromium
 src
 /
 ios
-c2badb41eea8fd7b43175a55600e70b2e11372c9
+dfe29bbab263b7d8c770f6aad64097b099431a4e
 '
 '
 condition
@@ -307,7 +307,7 @@ chromium
 src
 /
 testing
-31a90015ddd2082b1ce8269962603fa244da9c7a
+743d6d5078b8a2064e2ed73bcdb626fc1071dae8
 '
 '
 src
@@ -331,7 +331,7 @@ chromium
 src
 /
 third_party
-d822e7cb3398b1d48862405db4f6ae4a989662a4
+c9b2cc4d2d0065ba5d4d051d06968862a9fa60d5
 '
 '
 src
@@ -912,7 +912,7 @@ com
 boringssl
 .
 git
-9b2cdb769ac420b0f98ff7ef5df61115bbddc3d8
+ddecaabdc8c950d1417ed69785ac17c3400bae4c
 '
 '
 src
@@ -1250,7 +1250,7 @@ third_party
 freetype2
 .
 git
-de15165774db6a0964635ab9186943cab8cad42d
+1bc801b0d6ae70683c0a7952e949d2b3edff76e2
 '
 '
 src
@@ -2351,7 +2351,7 @@ com
 sctplab
 /
 usrsctp
-acfce46e428cc084b4bd0164e1b019261a8dbeda
+22ba62ffe79c3881581ab430368bf3764d9533eb
 '
 #
 Dependency
@@ -2428,7 +2428,7 @@ chromium
 src
 /
 tools
-2b137a091c03dc651e7ff62483796efe6249969a
+9fd79ca06a6f5d7c30b9d4df34f5598c1ec02629
 '
 '
 src
