@@ -6154,8 +6154,7 @@ output_dir
 {
 ISOLATED_OUTDIR
 }
-\
-\
+/
 test_logs
 '
         
