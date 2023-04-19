@@ -10,8 +10,8 @@ heapsize
 :
 :
 {
-HeapSizeOf
 heap_size_of
+HeapSizeOf
 }
 ;
 use
@@ -22,14 +22,14 @@ hash
 :
 :
 {
-Hash
 BuildHasher
+Hash
 }
 ;
 use
 {
-LinkedHashMap
 KeyRef
+LinkedHashMap
 Node
 }
 ;
