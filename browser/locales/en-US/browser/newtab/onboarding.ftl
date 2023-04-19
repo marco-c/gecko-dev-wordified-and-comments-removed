@@ -3669,9 +3669,12 @@ primary
 button
 -
 label
+-
+continue
 =
 Set
-colorway
+and
+continue
 mr2022
 -
 onboarding

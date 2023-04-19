@@ -1683,6 +1683,8 @@ primary
 button
 -
 label
+-
+continue
 "
 }
 action
