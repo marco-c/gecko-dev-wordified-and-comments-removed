@@ -2642,7 +2642,7 @@ allow_receive_packets_with_different_dest_ip
 (
 config
 .
-allow_send_packet_with_different_source_ip
+allow_receive_packets_with_different_dest_ip
 )
 log_name
 (
@@ -3664,6 +3664,7 @@ task_queue_
 ;
 if
 (
+!
 options_
 .
 allow_receive_packets_with_different_dest_ip
