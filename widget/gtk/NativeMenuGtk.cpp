@@ -43,6 +43,15 @@ include
 "
 mozilla
 /
+WidgetUtilsGtk
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventDispatcher
 .
 h
@@ -2334,7 +2343,9 @@ win
 rect
 GDK_GRAVITY_NORTH_WEST
 GDK_GRAVITY_NORTH_WEST
-nullptr
+GetLastMousePressEvent
+(
+)
 )
 ;
 RefPtr
