@@ -530,6 +530,11 @@ ccNumber
 =
 0
 ;
+double
+ccName
+=
+0
+;
 }
 ;
 /
