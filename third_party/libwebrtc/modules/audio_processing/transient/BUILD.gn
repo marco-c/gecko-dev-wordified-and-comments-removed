@@ -126,10 +126,8 @@ visibility
 =
 [
 "
-.
-.
 :
-optionally_built_submodule_creators
+click_annotate
 "
 "
 :
@@ -140,8 +138,10 @@ transient_suppression_test
 transient_suppression_unittests
 "
 "
+.
+.
 :
-click_annotate
+optionally_built_submodule_creators
 "
 ]
 sources
