@@ -3266,6 +3266,9 @@ alloc
 ;
 StackMacroAssembler
 masm
+(
+alloc
+)
 ;
 AutoCreatedBy
 acb

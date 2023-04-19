@@ -13503,6 +13503,14 @@ cx
 {
 StackMacroAssembler
 masm
+(
+GetJitContext
+(
+)
+-
+>
+temp
+)
 ;
 AutoCreatedBy
 acb

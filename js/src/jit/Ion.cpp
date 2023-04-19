@@ -875,6 +875,14 @@ cx
 {
 StackMacroAssembler
 masm
+(
+GetJitContext
+(
+)
+-
+>
+temp
+)
 ;
 Label
 bailoutTail
