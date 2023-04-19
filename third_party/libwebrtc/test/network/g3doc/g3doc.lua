@@ -1,15 +1,7 @@
 config
 =
-require
+super
 (
-'
-/
-g3doc
-/
-g3doc
-.
-lua
-'
 )
 config
 .
