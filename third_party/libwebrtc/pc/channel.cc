@@ -2534,7 +2534,9 @@ OnDemuxerCriteriaUpdatePending
 (
 )
 ;
-return
+bool
+ret
+=
 network_thread_
 -
 >
@@ -2593,6 +2595,12 @@ previous_demuxer_criteria_
 }
 ;
 }
+return
+result
+;
+}
+)
+;
 media_channel_
 -
 >
@@ -2601,10 +2609,7 @@ OnDemuxerCriteriaUpdateComplete
 )
 ;
 return
-result
-;
-}
-)
+ret
 ;
 }
 void
