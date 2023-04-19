@@ -295,15 +295,6 @@ ToSensitiveString
 )
 const
 ;
-std
-:
-:
-string
-ToResolvedSensitiveString
-(
-)
-const
-;
 bool
 FromString
 (
