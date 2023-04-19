@@ -296,6 +296,13 @@ profile_path
 "
 r
 "
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 profile_file
