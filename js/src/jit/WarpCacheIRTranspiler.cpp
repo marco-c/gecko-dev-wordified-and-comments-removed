@@ -6495,7 +6495,7 @@ bool
 WarpCacheIRTranspiler
 :
 :
-emitGuardIndexGreaterThanDenseInitLength
+emitGuardIndexIsNotDenseElement
 (
 ObjOperandId
 objId
@@ -6525,7 +6525,7 @@ auto
 *
 ins
 =
-MGuardIndexGreaterThanDenseInitLength
+MGuardIndexIsNotDenseElement
 :
 :
 New

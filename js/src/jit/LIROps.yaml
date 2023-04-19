@@ -9915,7 +9915,7 @@ WordSized
 -
 name
 :
-GuardIndexGreaterThanDenseInitLength
+GuardIndexIsNotDenseElement
 operands
 :
 object

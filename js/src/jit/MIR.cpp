@@ -38619,7 +38619,7 @@ ObjectFields
 ;
 }
 AliasSet
-MGuardIndexGreaterThanDenseInitLength
+MGuardIndexIsNotDenseElement
 :
 :
 getAliasSet
@@ -38637,6 +38637,11 @@ AliasSet
 :
 :
 ObjectFields
+|
+AliasSet
+:
+:
+Element
 )
 ;
 }

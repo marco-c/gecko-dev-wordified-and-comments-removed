@@ -1950,7 +1950,7 @@ Int32Id
 -
 name
 :
-GuardIndexGreaterThanDenseInitLength
+GuardIndexIsNotDenseElement
 shared
 :
 true

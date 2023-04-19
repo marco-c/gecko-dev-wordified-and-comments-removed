@@ -44526,9 +44526,9 @@ void
 LIRGenerator
 :
 :
-visitGuardIndexGreaterThanDenseInitLength
+visitGuardIndexIsNotDenseElement
 (
-MGuardIndexGreaterThanDenseInitLength
+MGuardIndexIsNotDenseElement
 *
 ins
 )
@@ -44615,7 +44615,7 @@ alloc
 (
 )
 )
-LGuardIndexGreaterThanDenseInitLength
+LGuardIndexIsNotDenseElement
 (
 useRegister
 (
