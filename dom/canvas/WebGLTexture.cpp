@@ -5109,6 +5109,7 @@ clamped
 .
 isFloat
 )
+{
 mContext
 -
 >
@@ -5128,7 +5129,9 @@ clamped
 i
 )
 ;
+}
 else
+{
 mContext
 -
 >
@@ -5148,6 +5151,7 @@ clamped
 f
 )
 ;
+}
 }
 void
 WebGLTexture
