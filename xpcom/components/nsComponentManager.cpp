@@ -1324,14 +1324,6 @@ mozilla
 :
 :
 Module
-kKeyValueModule
-;
-extern
-const
-mozilla
-:
-:
-Module
 kXREModule
 ;
 static
@@ -1820,12 +1812,6 @@ kWidgetModule
 ;
 #
 endif
-RegisterModule
-(
-&
-kKeyValueModule
-)
-;
 RegisterModule
 (
 &
