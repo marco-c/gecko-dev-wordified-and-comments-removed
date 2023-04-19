@@ -551,6 +551,9 @@ next_node_id_
 ip
 config
 .
+stats_gathering_mode
+config
+.
 start_as_enabled
 config
 .
