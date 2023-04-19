@@ -41,16 +41,6 @@ yaml
 "
     
 "
-ipc
-/
-ipdl
-/
-metrics
-.
-yaml
-"
-    
-"
 netwerk
 /
 metrics
