@@ -397,7 +397,7 @@ rtc
 :
 TaskQueue
 *
-worker_queue
+rtp_transport_queue
 RtcpRttStats
 *
 call_stats
@@ -648,7 +648,7 @@ StopVideoSendStream
 )
 RTC_RUN_ON
 (
-worker_queue_
+rtp_transport_queue_
 )
 ;
 void
@@ -678,7 +678,7 @@ GetAllocationConfig
 const
 RTC_RUN_ON
 (
-worker_queue_
+rtp_transport_queue_
 )
 ;
 Clock
@@ -714,13 +714,13 @@ rtc
 TaskQueue
 *
 const
-worker_queue_
+rtp_transport_queue_
 ;
 RepeatingTaskHandle
 check_encoder_activity_task_
 RTC_GUARDED_BY
 (
-worker_queue_
+rtp_transport_queue_
 )
 ;
 std
@@ -733,7 +733,7 @@ bool
 timed_out_
 RTC_GUARDED_BY
 (
-worker_queue_
+rtp_transport_queue_
 )
 ;
 RtpTransportControllerSendInterface
@@ -833,7 +833,7 @@ VbaSendContext
 video_bitrate_allocation_context_
 RTC_GUARDED_BY
 (
-worker_queue_
+rtp_transport_queue_
 )
 ;
 const
