@@ -605,7 +605,6 @@ promiseSetToolbarVisibility
 (
 aToolbar
 aVisible
-aCallback
 )
 {
 if
