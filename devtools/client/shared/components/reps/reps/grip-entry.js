@@ -132,7 +132,7 @@ constants
 "
 )
 ;
-GripMapEntry
+GripEntry
 .
 propTypes
 =
@@ -173,7 +173,7 @@ func
 }
 ;
 function
-GripMapEntry
+GripEntry
 (
 props
 )
@@ -389,7 +389,7 @@ rep
 :
 wrapRender
 (
-GripMapEntry
+GripEntry
 )
 createGripMapEntry
 supportsObject

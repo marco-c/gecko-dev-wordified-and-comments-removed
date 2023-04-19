@@ -46,7 +46,7 @@ Utils
 loadProperties
 ;
 const
-GripMapEntryRep
+GripEntryRep
 =
 require
 (
@@ -64,8 +64,6 @@ reps
 reps
 /
 grip
--
-map
 -
 entry
 "
@@ -981,7 +979,7 @@ node
 const
 node
 =
-GripMapEntryRep
+GripEntryRep
 .
 createGripMapEntry
 (

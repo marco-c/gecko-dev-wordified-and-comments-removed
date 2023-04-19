@@ -42,7 +42,7 @@ rep
 ;
 const
 {
-GripMapEntry
+GripEntry
 }
 =
 REPS
@@ -52,7 +52,7 @@ const
 createGripMapEntry
 }
 =
-GripMapEntry
+GripEntry
 ;
 const
 {
@@ -132,8 +132,6 @@ reps
 /
 grip
 -
-map
--
 entry
 "
 )
@@ -208,7 +206,7 @@ props
 return
 shallow
 (
-GripMapEntry
+GripEntry
 .
 rep
 (
@@ -228,7 +226,7 @@ props
 describe
 (
 "
-GripMapEntry
+GripEntry
 -
 simple
 "
@@ -256,7 +254,7 @@ it
 Rep
 correctly
 selects
-GripMapEntry
+GripEntry
 Rep
 "
 (
@@ -274,7 +272,7 @@ stub
 .
 toBe
 (
-GripMapEntry
+GripEntry
 .
 rep
 )
@@ -285,7 +283,7 @@ rep
 it
 (
 "
-GripMapEntry
+GripEntry
 rep
 has
 expected
@@ -331,7 +329,7 @@ A
 describe
 (
 "
-GripMapEntry
+GripEntry
 -
 createGripMapEntry
 "
@@ -391,7 +389,7 @@ A
 describe
 (
 "
-GripMapEntry
+GripEntry
 -
 complex
 "
