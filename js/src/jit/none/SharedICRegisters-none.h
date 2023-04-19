@@ -43,17 +43,6 @@ jit
 {
 static
 constexpr
-Register
-BaselineStackReg
-{
-Registers
-:
-:
-invalid_reg
-}
-;
-static
-constexpr
 ValueOperand
 R0
 =
