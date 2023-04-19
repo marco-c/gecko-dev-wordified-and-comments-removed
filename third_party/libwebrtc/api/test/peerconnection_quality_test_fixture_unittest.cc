@@ -283,6 +283,13 @@ VideoSubscription
 :
 GetMaxResolution
 (
+std
+:
+:
+vector
+<
+VideoConfig
+>
 {
 }
 )
