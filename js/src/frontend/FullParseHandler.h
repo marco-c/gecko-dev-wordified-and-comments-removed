@@ -1953,6 +1953,13 @@ Node
 heritage
 LexicalScopeNodeType
 memberBlock
+#
+ifdef
+ENABLE_DECORATORS
+ListNodeType
+decorators
+#
+endif
 const
 TokenPos
 &
@@ -1968,6 +1975,12 @@ ClassNode
 name
 heritage
 memberBlock
+#
+ifdef
+ENABLE_DECORATORS
+decorators
+#
+endif
 pos
 )
 ;

@@ -989,6 +989,13 @@ Node
 heritage
 Node
 methodBlock
+#
+ifdef
+ENABLE_DECORATORS
+ListNodeType
+decorators
+#
+endif
 const
 TokenPos
 &
