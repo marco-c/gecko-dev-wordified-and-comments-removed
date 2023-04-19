@@ -771,7 +771,7 @@ size
 reduction
 trickery
 :
-Intead
+Instead
 of
 using
 rip

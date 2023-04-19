@@ -285,12 +285,10 @@ pal_pred
 pal_pred
 )
 ;
-COLD
+static
+ALWAYS_INLINE
 void
-bitfn
-(
-dav1d_intra_pred_dsp_init_x86
-)
+intra_pred_dsp_init_x86
 (
 Dav1dIntraPredDSPContext
 *

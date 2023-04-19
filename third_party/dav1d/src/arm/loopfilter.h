@@ -52,12 +52,10 @@ neon
 )
 )
 ;
-COLD
+static
+ALWAYS_INLINE
 void
-bitfn
-(
-dav1d_loop_filter_dsp_init_arm
-)
+loop_filter_dsp_init_arm
 (
 Dav1dLoopFilterDSPContext
 *

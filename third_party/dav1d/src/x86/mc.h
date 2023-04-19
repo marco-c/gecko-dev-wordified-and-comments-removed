@@ -523,12 +523,10 @@ resize
 dav1d_resize
 )
 ;
-COLD
+static
+ALWAYS_INLINE
 void
-bitfn
-(
-dav1d_mc_dsp_init_x86
-)
+mc_dsp_init_x86
 (
 Dav1dMCDSPContext
 *

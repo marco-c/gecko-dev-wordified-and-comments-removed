@@ -3493,7 +3493,11 @@ dst
 ;
 bench_new
 (
+alternate
+(
+c_dst
 a_dst
+)
 a_dst_stride
 tmp
 w
@@ -3789,7 +3793,11 @@ dst
 ;
 bench_new
 (
+alternate
+(
+c_dst
 a_dst
+)
 a_dst_stride
 tmp
 w
@@ -4084,7 +4092,11 @@ dst
 ;
 bench_new
 (
+alternate
+(
+c_dst
 a_dst
+)
 a_dst_stride
 tmp
 w

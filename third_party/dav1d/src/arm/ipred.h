@@ -187,12 +187,10 @@ neon
 )
 )
 ;
-COLD
+static
+ALWAYS_INLINE
 void
-bitfn
-(
-dav1d_intra_pred_dsp_init_arm
-)
+intra_pred_dsp_init_arm
 (
 Dav1dIntraPredDSPContext
 *

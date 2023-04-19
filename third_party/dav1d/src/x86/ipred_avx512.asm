@@ -1908,7 +1908,7 @@ tlq
 1
 ]
 vextracti32x4
-xmm2
+xm2
 ym0
 1
 vpdpbusd
@@ -1917,6 +1917,7 @@ xmm1
 xm3
 paddd
 xmm2
+xm2
 xm0
 punpckhqdq
 xmm0
@@ -2045,7 +2046,7 @@ tlq
 1
 ]
 vextracti32x4
-xmm2
+xm2
 ym0
 1
 vpdpbusd
@@ -2054,6 +2055,7 @@ xmm1
 xm3
 paddd
 xmm2
+xm2
 xm0
 punpckhqdq
 xmm0
@@ -2188,11 +2190,12 @@ ym0
 ym1
 ym3
 vextracti32x4
-xmm1
+xm1
 ym0
 1
 paddd
 xmm1
+xm1
 xm0
 punpckhqdq
 xmm0
@@ -2349,11 +2352,12 @@ ym0
 ym2
 ym3
 vextracti32x4
-xmm1
+xm1
 ym0
 1
 paddd
 xmm1
+xm1
 xm0
 punpckhqdq
 xmm0
@@ -3308,7 +3312,7 @@ jl
 .
 w4_ret
 vextracti32x4
-xmm0
+xm0
 m0
 1
 lea
@@ -3328,7 +3332,7 @@ strideq
 *
 0
 ]
-xmm0
+xm0
 pextrd
 [
 dstq
@@ -3337,7 +3341,7 @@ strideq
 *
 1
 ]
-xmm0
+xm0
 1
 pextrd
 [
@@ -3347,7 +3351,7 @@ strideq
 *
 2
 ]
-xmm0
+xm0
 2
 pextrd
 [
@@ -3355,7 +3359,7 @@ dstq
 +
 stride3q
 ]
-xmm0
+xm0
 3
 lea
 dstq
@@ -3416,15 +3420,15 @@ m4
 m9
 PAETH
 vextracti32x4
-xmm1
+xm1
 m0
 2
 vextracti32x4
-xmm2
+xm2
 ym0
 1
 vextracti32x4
-xmm3
+xm3
 m0
 3
 movq
@@ -3444,7 +3448,7 @@ strideq
 *
 1
 ]
-xmm1
+xm1
 movq
 [
 dstq
@@ -3453,14 +3457,14 @@ strideq
 *
 2
 ]
-xmm2
+xm2
 movq
 [
 dstq
 +
 stride3q
 ]
-xmm3
+xm3
 sub
 hd
 8
@@ -3493,7 +3497,7 @@ strideq
 *
 1
 ]
-xmm1
+xm1
 movhps
 [
 dstq
@@ -3502,14 +3506,14 @@ strideq
 *
 2
 ]
-xmm2
+xm2
 movhps
 [
 dstq
 +
 stride3q
 ]
-xmm3
+xm3
 lea
 dstq
 [
@@ -3910,7 +3914,7 @@ m0
 m6
 m0
 vextracti32x4
-xmm1
+xm1
 ym0
 1
 movd
@@ -3930,7 +3934,7 @@ strideq
 *
 1
 ]
-xmm1
+xm1
 pextrd
 [
 dstq
@@ -3947,7 +3951,7 @@ dstq
 +
 stride3q
 ]
-xmm1
+xm1
 2
 add
 hq
@@ -3982,7 +3986,7 @@ strideq
 *
 1
 ]
-xmm1
+xm1
 1
 pextrd
 [
@@ -4000,7 +4004,7 @@ dstq
 +
 stride3q
 ]
-xmm1
+xm1
 3
 lea
 dstq
@@ -4078,7 +4082,7 @@ m0
 m6
 m0
 vextracti32x4
-xmm1
+xm1
 ym0
 1
 movq
@@ -4098,7 +4102,7 @@ strideq
 *
 1
 ]
-xmm1
+xm1
 movhps
 [
 dstq
@@ -4114,7 +4118,7 @@ dstq
 +
 stride3q
 ]
-xmm1
+xm1
 lea
 dstq
 [
@@ -4618,7 +4622,7 @@ m0
 m8
 m0
 vextracti32x4
-xmm1
+xm1
 ym0
 1
 movd
@@ -4638,7 +4642,7 @@ strideq
 *
 1
 ]
-xmm1
+xm1
 pextrd
 [
 dstq
@@ -4655,7 +4659,7 @@ dstq
 +
 stride3q
 ]
-xmm1
+xm1
 2
 sub
 hd
@@ -4690,7 +4694,7 @@ strideq
 *
 1
 ]
-xmm1
+xm1
 1
 pextrd
 [
@@ -4708,7 +4712,7 @@ dstq
 +
 stride3q
 ]
-xmm1
+xm1
 3
 lea
 dstq
@@ -4792,7 +4796,7 @@ m0
 m8
 m0
 vextracti32x4
-xmm1
+xm1
 ym0
 1
 movq
@@ -4812,7 +4816,7 @@ strideq
 *
 1
 ]
-xmm1
+xm1
 movhps
 [
 dstq
@@ -4828,7 +4832,7 @@ dstq
 +
 stride3q
 ]
-xmm1
+xm1
 lea
 dstq
 [
@@ -5437,7 +5441,7 @@ m0
 m11
 m0
 vextracti32x4
-xmm1
+xm1
 ym0
 1
 movd
@@ -5457,7 +5461,7 @@ strideq
 *
 1
 ]
-xmm1
+xm1
 pextrd
 [
 dstq
@@ -5474,7 +5478,7 @@ dstq
 +
 stride3q
 ]
-xmm1
+xm1
 2
 sub
 hd
@@ -5509,7 +5513,7 @@ strideq
 *
 1
 ]
-xmm1
+xm1
 1
 pextrd
 [
@@ -5527,7 +5531,7 @@ dstq
 +
 stride3q
 ]
-xmm1
+xm1
 3
 lea
 dstq
@@ -5655,7 +5659,7 @@ m0
 m11
 m0
 vextracti32x4
-xmm1
+xm1
 ym0
 1
 movq
@@ -5675,7 +5679,7 @@ strideq
 *
 1
 ]
-xmm1
+xm1
 movhps
 [
 dstq
@@ -5691,7 +5695,7 @@ dstq
 +
 stride3q
 ]
-xmm1
+xm1
 lea
 dstq
 [

@@ -339,12 +339,10 @@ DEFINE_FILTER
 4
 8
 )
-COLD
+static
+ALWAYS_INLINE
 void
-bitfn
-(
-dav1d_cdef_dsp_init_arm
-)
+cdef_dsp_init_arm
 (
 Dav1dCdefDSPContext
 *

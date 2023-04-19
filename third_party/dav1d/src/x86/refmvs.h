@@ -31,9 +31,10 @@ decl_splat_mv_fn
 dav1d_splat_mv_avx512icl
 )
 ;
-COLD
+static
+ALWAYS_INLINE
 void
-dav1d_refmvs_dsp_init_x86
+refmvs_dsp_init_x86
 (
 Dav1dRefmvsDSPContext
 *

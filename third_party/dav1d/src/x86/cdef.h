@@ -103,12 +103,10 @@ ssse3
 )
 )
 ;
-COLD
+static
+ALWAYS_INLINE
 void
-bitfn
-(
-dav1d_cdef_dsp_init_x86
-)
+cdef_dsp_init_x86
 (
 Dav1dCdefDSPContext
 *
@@ -399,12 +397,6 @@ DAV1D_X86_CPU_FLAG_AVX512ICL
 )
 return
 ;
-#
-if
-BITDEPTH
-=
-=
-8
 c
 -
 >
@@ -447,8 +439,6 @@ dav1d_cdef_filter_4x4
 avx512icl
 )
 ;
-#
-endif
 #
 endif
 }

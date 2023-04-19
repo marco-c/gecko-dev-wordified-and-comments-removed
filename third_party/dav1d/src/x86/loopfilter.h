@@ -76,12 +76,10 @@ decl_loopfilter_sb_fns
 avx512icl
 )
 ;
-COLD
+static
+ALWAYS_INLINE
 void
-bitfn
-(
-dav1d_loop_filter_dsp_init_x86
-)
+loop_filter_dsp_init_x86
 (
 Dav1dLoopFilterDSPContext
 *
@@ -269,12 +267,6 @@ DAV1D_X86_CPU_FLAG_AVX512ICL
 )
 return
 ;
-#
-if
-BITDEPTH
-=
-=
-8
 c
 -
 >
@@ -343,8 +335,6 @@ dav1d_lpf_v_sb_uv
 avx512icl
 )
 ;
-#
-endif
 #
 endif
 }

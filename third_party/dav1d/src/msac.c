@@ -1205,7 +1205,7 @@ symbol_adapt16
 =
 dav1d_msac_decode_symbol_adapt_c
 ;
-dav1d_msac_init_x86
+msac_init_x86
 (
 s
 )
