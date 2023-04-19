@@ -3208,7 +3208,14 @@ BuiltInThemeConfig
 .
 findActiveColorwayCollection
 =
+(
 now
+=
+new
+Date
+(
+)
+)
 =
 >
 {
