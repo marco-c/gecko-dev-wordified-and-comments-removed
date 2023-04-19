@@ -248,7 +248,9 @@ inline
 -
 start
 :
-2em
+2
+.
+5em
 ;
 -
 -
@@ -660,9 +662,7 @@ center
 margin
 :
 1em
-1
-.
-5em
+0
 0
 ;
 min
