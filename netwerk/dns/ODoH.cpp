@@ -109,9 +109,14 @@ ODoHConfigs
 is
 not
 available
+mTriedDownloadODoHConfigs
+=
+%
+d
 \
 n
 "
+mTriedDownloadODoHConfigs
 )
 )
 ;
@@ -126,6 +131,10 @@ UpdateODoHConfig
 (
 )
 )
+&
+&
+!
+mTriedDownloadODoHConfigs
 )
 {
 gODoHService
@@ -135,6 +144,10 @@ AppendPendingODoHRequest
 (
 this
 )
+;
+mTriedDownloadODoHConfigs
+=
+true
 ;
 }
 else
