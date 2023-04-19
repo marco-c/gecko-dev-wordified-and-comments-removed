@@ -444,7 +444,7 @@ module
 extern
 JS_PUBLIC_API
 bool
-ModuleInstantiate
+ModuleLink
 (
 JSContext
 *

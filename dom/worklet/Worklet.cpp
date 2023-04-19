@@ -1932,7 +1932,7 @@ if
 JS
 :
 :
-ModuleInstantiate
+ModuleLink
 (
 aCx
 module

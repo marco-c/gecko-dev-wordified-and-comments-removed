@@ -7921,7 +7921,7 @@ return
 js
 :
 :
-ModuleInstantiate
+ModuleLink
 (
 cx
 module

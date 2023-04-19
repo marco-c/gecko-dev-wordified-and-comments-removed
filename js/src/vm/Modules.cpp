@@ -672,7 +672,7 @@ bool
 JS
 :
 :
-ModuleInstantiate
+ModuleLink
 (
 JSContext
 *
@@ -706,7 +706,7 @@ return
 js
 :
 :
-ModuleInstantiate
+ModuleLink
 (
 cx
 moduleArg
@@ -5007,7 +5007,7 @@ bool
 js
 :
 :
-ModuleInstantiate
+ModuleLink
 (
 JSContext
 *

@@ -137,7 +137,7 @@ module
 )
 ;
 bool
-ModuleInstantiate
+ModuleLink
 (
 JSContext
 *
