@@ -84,6 +84,17 @@ mozilla
 /
 dom
 /
+FontFaceImpl
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FontFaceSetBinding
 .
 h
