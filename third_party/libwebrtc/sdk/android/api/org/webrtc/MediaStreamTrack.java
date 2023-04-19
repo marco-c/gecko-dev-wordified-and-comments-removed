@@ -71,11 +71,11 @@ MediaType
 {
 MEDIA_TYPE_AUDIO
 (
-0
+1
 )
 MEDIA_TYPE_VIDEO
 (
-1
+2
 )
 ;
 private
