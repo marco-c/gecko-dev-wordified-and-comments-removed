@@ -1319,6 +1319,16 @@ track_media_info_map
 h
 "
 "
+transceiver_list
+.
+cc
+"
+"
+transceiver_list
+.
+h
+"
+"
 video_rtp_receiver
 .
 cc
