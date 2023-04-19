@@ -4659,6 +4659,9 @@ siblings
 if
 (
 mResponsiveSelector
+&
+&
+mResponsiveSelector
 -
 >
 Content
