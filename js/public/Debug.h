@@ -115,7 +115,7 @@ Debugger
 debugger
 ;
 #
-if
+ifdef
 DEBUG
 void
 assertBuilt
