@@ -1682,6 +1682,13 @@ double
 aDensity
 )
 ;
+void
+QueueImageLoadTask
+(
+bool
+aAlwaysLoad
+)
+;
 bool
 mInDocResponsiveContent
 ;
