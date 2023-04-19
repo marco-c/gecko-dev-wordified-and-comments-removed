@@ -402,6 +402,12 @@ AudioCodingModule
 >
 audio_coding_
 ;
+voe
+:
+:
+AudioLevel
+input_audio_level_
+;
 struct
 EncoderContext
 {
@@ -434,12 +440,6 @@ rtc
 :
 TaskQueue
 encoder_queue_
-;
-voe
-:
-:
-AudioLevel
-input_audio_level_
 ;
 }
 ;
