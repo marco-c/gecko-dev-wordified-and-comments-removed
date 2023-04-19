@@ -5687,10 +5687,9 @@ offset
 NS_ERROR_UNEXPECTED
 )
 ;
-hb_blob_t
-*
+AutoHBBlob
 nameBlob
-=
+(
 hb_blob_create
 (
 (
@@ -5709,6 +5708,7 @@ HB_MEMORY_MODE_READONLY
 nullptr
 nullptr
 )
+)
 ;
 nsresult
 rv
@@ -5717,11 +5717,6 @@ GetFullNameFromTable
 (
 nameBlob
 aFullName
-)
-;
-hb_blob_destroy
-(
-nameBlob
 )
 ;
 return
