@@ -285,7 +285,7 @@ LevelEstimator
 :
 :
 kRms
-kDefaultAdjacentSpeechFramesThreshold
+kDefaultLevelEstimatorAdjacentSpeechFramesThreshold
 kDefaultInitialSaturationMarginDb
 kDefaultExtraSaturationMarginDb
 )
@@ -320,7 +320,7 @@ AdaptiveModeLevelEstimator
 (
 apm_data_dumper
 level_estimator
-kDefaultAdjacentSpeechFramesThreshold
+kDefaultLevelEstimatorAdjacentSpeechFramesThreshold
 kDefaultInitialSaturationMarginDb
 extra_saturation_margin_db
 )
