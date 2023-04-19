@@ -238,6 +238,10 @@ audio_config
 .
 stream_label
 source
+.
+get
+(
+)
 )
 ;
 std
@@ -520,6 +524,10 @@ value
 (
 )
 source
+.
+get
+(
+)
 )
 ;
 if

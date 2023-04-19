@@ -1939,6 +1939,10 @@ CreateAudioTrack
 (
 track_id
 source
+.
+get
+(
+)
 )
 ;
 res
@@ -2067,6 +2071,10 @@ track_id
 res
 .
 source
+.
+get
+(
+)
 )
 ;
 res
@@ -2074,6 +2082,10 @@ res
 track
 =
 track
+.
+get
+(
+)
 ;
 res
 .
@@ -2091,6 +2103,10 @@ kCommonStreamId
 )
 .
 MoveValue
+(
+)
+.
+get
 (
 )
 ;
@@ -2278,6 +2294,10 @@ sdp_offer
 )
 ;
 }
+)
+.
+get
+(
 )
 PeerConnectionInterface
 :
@@ -2478,6 +2498,10 @@ sdp_answer
 )
 ;
 }
+)
+.
+get
+(
 )
 PeerConnectionInterface
 :

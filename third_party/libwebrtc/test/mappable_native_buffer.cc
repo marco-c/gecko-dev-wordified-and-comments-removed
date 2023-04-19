@@ -894,6 +894,10 @@ I420Buffer
 SetBlack
 (
 i420_buffer
+.
+get
+(
+)
 )
 ;
 mapped_buffer
