@@ -106,7 +106,7 @@ rtc
 ArrayView
 <
 float
-kNumInvertedLags12kHz
+kNumLags12kHz
 >
 auto_corr
 )
