@@ -134,7 +134,7 @@ Float64
 sample_rate
 )
 ;
-bool
+OSStatus
 Start
 (
 )
