@@ -470,6 +470,15 @@ override
 ;
 RTCStatsMember
 <
+std
+:
+:
+string
+>
+transport_id
+;
+RTCStatsMember
+<
 uint32_t
 >
 payload_type
