@@ -314,7 +314,7 @@ VideoFrame
 input_image
 )
 ;
-void
+bool
 PopulateCodecSpecific
 (
 CodecSpecificInfo
@@ -391,8 +391,7 @@ VideoBitrateAllocation
 bitrate_allocation
 )
 ;
-virtual
-int
+void
 GetEncodedLayerFrame
 (
 const
