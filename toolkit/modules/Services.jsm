@@ -1,3 +1,10 @@
+const
+Services
+=
+globalThis
+.
+Services
+;
 var
 EXPORTED_SYMBOLS
 =
@@ -6,13 +13,4 @@ EXPORTED_SYMBOLS
 Services
 "
 ]
-;
-var
-Services
-=
-Cu
-.
-createServicesCache
-(
-)
 ;
