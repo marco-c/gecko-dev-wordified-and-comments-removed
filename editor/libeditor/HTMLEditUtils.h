@@ -6519,7 +6519,7 @@ topMostInlineContent
 static
 Element
 *
-GetMostDistantAnscestorEditableEmptyInlineElement
+GetMostDistantAncestorEditableEmptyInlineElement
 (
 const
 nsIContent
