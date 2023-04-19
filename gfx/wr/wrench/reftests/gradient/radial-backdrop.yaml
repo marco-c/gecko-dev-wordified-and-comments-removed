@@ -55,13 +55,9 @@ bounds
 0
 800
 450
-"
-clip
+spatial
 -
-and
--
-scroll
-"
+id
 :
 2
 center

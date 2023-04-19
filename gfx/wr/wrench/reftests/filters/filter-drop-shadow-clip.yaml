@@ -128,15 +128,6 @@ color
 green
 clip
 -
-and
--
-scroll
+chain
 :
-[
-root
--
-scroll
--
-node
 5
-]
