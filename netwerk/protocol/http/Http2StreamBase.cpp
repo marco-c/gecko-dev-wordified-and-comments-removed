@@ -1804,7 +1804,7 @@ rv
 if
 (
 firstFrameFlags
-|
+&
 Http2Session
 :
 :
