@@ -40,6 +40,13 @@ StartDestroy
 =
 0
 ;
+virtual
+void
+NoteDeletedActor
+(
+)
+{
+}
 void
 SetWorkerRef
 (

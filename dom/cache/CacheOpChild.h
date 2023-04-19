@@ -90,6 +90,13 @@ friend
 class
 PCacheOpChild
 ;
+public
+:
+NS_INLINE_DECL_REFCOUNTING
+(
+CacheOpChild
+override
+)
 private
 :
 CacheOpChild
@@ -108,6 +115,9 @@ aParent
 Promise
 *
 aPromise
+ActorChild
+*
+aParentActor
 )
 ;
 ~
@@ -240,7 +250,10 @@ Promise
 >
 mPromise
 ;
-NS_DECL_OWNINGTHREAD
+ActorChild
+*
+mParentActor
+;
 }
 ;
 }

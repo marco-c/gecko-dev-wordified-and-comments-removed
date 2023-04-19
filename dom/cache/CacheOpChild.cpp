@@ -359,6 +359,9 @@ aParent
 Promise
 *
 aPromise
+ActorChild
+*
+aParentActor
 )
 :
 mGlobal
@@ -372,6 +375,10 @@ aParent
 mPromise
 (
 aPromise
+)
+mParentActor
+(
+aParentActor
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
@@ -473,6 +480,13 @@ mPromise
 nullptr
 ;
 }
+mParentActor
+-
+>
+NoteDeletedActor
+(
+)
+;
 RemoveWorkerRef
 (
 )

@@ -94,8 +94,10 @@ PCacheStreamControlParent
 aActor
 )
 ;
+already_AddRefed
+<
 PCacheStorageParent
-*
+>
 AllocPCacheStorageParent
 (
 mozilla
