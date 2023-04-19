@@ -80,10 +80,12 @@ sample_rate_hz
 ApmDataDumper
 *
 apm_data_dumper
+const
 std
 :
 :
 string
+&
 histogram_name_prefix
 )
 ;
