@@ -158,6 +158,15 @@ acn
 ;
 const
 char
+kCodecParamNotInNameValueFormat
+[
+]
+=
+"
+"
+;
+const
+char
 kOpusCodecName
 [
 ]

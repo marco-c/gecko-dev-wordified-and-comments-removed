@@ -126,6 +126,13 @@ kCodecParamAssociatedCodecName
 extern
 const
 char
+kCodecParamNotInNameValueFormat
+[
+]
+;
+extern
+const
+char
 kOpusCodecName
 [
 ]
