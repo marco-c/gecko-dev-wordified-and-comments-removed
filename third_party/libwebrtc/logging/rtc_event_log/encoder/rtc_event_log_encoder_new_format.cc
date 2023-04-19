@@ -2007,7 +2007,7 @@ UNKNOWN_CHECK_TYPE
 ;
 }
 size_t
-RemoveNonWhitelistedRtcpBlocks
+RemoveNonAllowlistedRtcpBlocks
 (
 const
 rtc
@@ -2329,7 +2329,7 @@ size
 size_t
 buffer_length
 =
-RemoveNonWhitelistedRtcpBlocks
+RemoveNonAllowlistedRtcpBlocks
 (
 base_event
 -
@@ -2598,7 +2598,7 @@ const
 size_t
 buffer_length
 =
-RemoveNonWhitelistedRtcpBlocks
+RemoveNonAllowlistedRtcpBlocks
 (
 event
 -
