@@ -332,7 +332,7 @@ renderApp
 {
 app
 store
-commands
+toolbox
 root
 }
 )
@@ -348,10 +348,14 @@ Provider
 {
 store
 }
+toolbox
+?
 createElement
 (
 createProvider
 (
+toolbox
+.
 commands
 .
 targetCommand
@@ -361,6 +365,8 @@ storeId
 {
 store
 :
+toolbox
+.
 commands
 .
 targetCommand
@@ -369,6 +375,8 @@ store
 }
 app
 )
+:
+app
 )
 root
 )
@@ -637,13 +645,11 @@ root
 this
 .
 parentNode
-commands
+toolbox
 :
 this
 .
-hud
-.
-commands
+toolbox
 }
 )
 ;

@@ -1466,13 +1466,11 @@ var
 -
 theme
 -
-body
--
-alternate
--
-emphasized
+selection
 -
 background
+-
+hover
 )
 ;
 border
