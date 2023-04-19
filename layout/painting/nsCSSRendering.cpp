@@ -9077,6 +9077,7 @@ PaintStyleImageLayer
 "
 )
 ;
+const
 ComputedStyle
 *
 sc
@@ -12013,6 +12014,7 @@ aParams
 gfxContext
 &
 aRenderingCtx
+const
 ComputedStyle
 *
 aBackgroundSC

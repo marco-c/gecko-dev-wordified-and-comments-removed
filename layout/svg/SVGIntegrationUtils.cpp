@@ -2001,6 +2001,7 @@ DrawTarget
 aMaskDT
 float
 aOpacity
+const
 ComputedStyle
 *
 aSC
@@ -2511,6 +2512,7 @@ PaintFramesParams
 aParams
 float
 aOpacity
+const
 ComputedStyle
 *
 aSC
