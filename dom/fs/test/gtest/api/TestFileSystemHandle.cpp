@@ -549,7 +549,7 @@ Promise
 PromiseState
 :
 :
-Rejected
+Resolved
 promise
 -
 >
@@ -575,7 +575,7 @@ ASSERT_STREQ
 (
 u
 "
-NS_ERROR_NOT_IMPLEMENTED
+false
 "
 _ns
 result
@@ -644,7 +644,7 @@ Promise
 PromiseState
 :
 :
-Rejected
+Resolved
 promise
 -
 >
@@ -670,7 +670,7 @@ ASSERT_STREQ
 (
 u
 "
-NS_ERROR_NOT_IMPLEMENTED
+true
 "
 _ns
 result
