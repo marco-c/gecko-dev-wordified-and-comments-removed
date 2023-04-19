@@ -2140,6 +2140,13 @@ test
 /
 frame_generator_interface
 .
+cc
+"
+"
+test
+/
+frame_generator_interface
+.
 h
 "
 ]

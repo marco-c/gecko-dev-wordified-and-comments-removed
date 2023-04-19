@@ -137,6 +137,16 @@ kI010
 kNV12
 }
 ;
+static
+const
+char
+*
+OutputTypeToString
+(
+OutputType
+type
+)
+;
 virtual
 ~
 FrameGeneratorInterface

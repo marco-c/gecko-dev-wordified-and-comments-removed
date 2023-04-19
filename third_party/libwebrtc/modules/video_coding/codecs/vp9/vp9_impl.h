@@ -396,6 +396,14 @@ int
 tid
 )
 ;
+void
+MaybeRewrapRawWithFormat
+(
+const
+vpx_img_fmt
+fmt
+)
+;
 EncodedImage
 encoded_image_
 ;
