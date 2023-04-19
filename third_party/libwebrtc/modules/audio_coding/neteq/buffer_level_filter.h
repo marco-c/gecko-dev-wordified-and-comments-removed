@@ -57,6 +57,14 @@ time_stretched_samples
 ;
 virtual
 void
+SetFilteredBufferLevel
+(
+int
+buffer_size_samples
+)
+;
+virtual
+void
 SetTargetBufferLevel
 (
 int
