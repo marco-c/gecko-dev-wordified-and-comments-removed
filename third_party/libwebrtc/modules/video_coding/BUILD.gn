@@ -880,6 +880,17 @@ macromagic
 /
 rtc_base
 :
+mod_ops
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 rtc_base_approved
 "
 "

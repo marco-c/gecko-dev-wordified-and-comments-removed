@@ -2507,6 +2507,17 @@ macromagic
 /
 rtc_base
 :
+mod_ops
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 one_time_event
 "
 "
