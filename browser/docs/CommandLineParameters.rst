@@ -144,11 +144,12 @@ are
 rejected
 unless
 they
-are
-of
-exactly
-the
-form
+have
+a
+very
+specific
+structure
+usually
 firefox
 .
 exe
