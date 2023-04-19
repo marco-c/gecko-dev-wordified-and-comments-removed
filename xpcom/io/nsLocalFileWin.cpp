@@ -1474,6 +1474,15 @@ fallthrough
 ]
 ;
 case
+ERROR_DEV_NOT_EXIST
+:
+[
+[
+fallthrough
+]
+]
+;
+case
 ERROR_IO_DEVICE
 :
 rv
