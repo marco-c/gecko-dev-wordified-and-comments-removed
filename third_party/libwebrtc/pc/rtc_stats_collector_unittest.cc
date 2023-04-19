@@ -13095,9 +13095,7 @@ receivers
 .
 audio_level
 =
-9
-.
-0
+14442
 ;
 voice_media_info
 .
@@ -13443,7 +13441,11 @@ expected_audio
 .
 audio_level
 =
-9
+14442
+.
+0
+/
+32767
 .
 0
 ;
