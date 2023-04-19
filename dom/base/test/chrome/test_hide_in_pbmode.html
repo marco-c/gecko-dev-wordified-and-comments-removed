@@ -284,7 +284,7 @@ function
 runWorkerTest
 (
 content
-expected
+inPrivateBrowsing
 )
 {
 return
@@ -343,7 +343,7 @@ worker
 postMessage
 (
 {
-expected
+inPrivateBrowsing
 }
 )
 ;
@@ -425,7 +425,7 @@ checkAll
 win
 .
 content
-true
+false
 )
 ;
 await
@@ -434,7 +434,7 @@ runWorkerTest
 win
 .
 content
-true
+false
 )
 ;
 win
@@ -461,7 +461,7 @@ checkAll
 win
 .
 content
-false
+true
 )
 ;
 await
@@ -470,7 +470,7 @@ runWorkerTest
 win
 .
 content
-false
+true
 )
 ;
 win

@@ -596,14 +596,6 @@ bug
 1776789
 [
 Throws
-Func
-=
-"
-IDBFactory
-:
-:
-IsEnabled
-"
 ]
 readonly
 attribute
