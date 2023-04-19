@@ -56,15 +56,9 @@ bin
 isysroot
 MOZ_FETCHES_DIR
 /
-MacOSX
-{
-SDK_VER
-:
--
-11
+MacOSX11
 .
-0
-}
+3
 .
 sdk
 \

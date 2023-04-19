@@ -204,10 +204,6 @@ toolchain
 macosx64
 -
 sdk
--
-11
-.
-0
 win64
 -
 gn

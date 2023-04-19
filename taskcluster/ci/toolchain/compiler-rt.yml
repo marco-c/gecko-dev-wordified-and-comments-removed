@@ -1118,10 +1118,6 @@ stage1
 macosx64
 -
 sdk
--
-11
-.
-0
 macosx64
 -
 aarch64
@@ -1245,10 +1241,6 @@ stage1
 macosx64
 -
 sdk
--
-11
-.
-0
 win32
 -
 compiler
@@ -2676,10 +2668,6 @@ stage1
 macosx64
 -
 sdk
--
-11
-.
-0
 macosx64
 -
 aarch64
@@ -2808,10 +2796,6 @@ stage1
 macosx64
 -
 sdk
--
-11
-.
-0
 win32
 -
 compiler

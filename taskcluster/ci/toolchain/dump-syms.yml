@@ -237,10 +237,6 @@ port
 macosx64
 -
 sdk
--
-11
-.
-0
 macosx64
 -
 aarch64
@@ -318,10 +314,6 @@ port
 macosx64
 -
 sdk
--
-11
-.
-0
 win64
 -
 dump_syms

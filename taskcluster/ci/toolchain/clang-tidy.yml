@@ -408,10 +408,6 @@ clang
 macosx64
 -
 sdk
--
-11
-.
-0
 macosx64
 -
 arch64
@@ -526,10 +522,6 @@ clang
 macosx64
 -
 sdk
--
-11
-.
-0
 win64
 -
 clang

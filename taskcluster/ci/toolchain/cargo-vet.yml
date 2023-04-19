@@ -253,10 +253,6 @@ macos
 macosx64
 -
 sdk
--
-11
-.
-0
 macosx64
 -
 aarch64
@@ -320,10 +316,6 @@ macos
 macosx64
 -
 sdk
--
-11
-.
-0
 win64
 -
 cargo

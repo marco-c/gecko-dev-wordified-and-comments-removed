@@ -727,10 +727,6 @@ macosx64
 -
 sdk
 -
-11
-.
-0
--
 wrench
 -
 deps
@@ -1155,10 +1151,6 @@ clang
 macosx64
 -
 sdk
--
-11
-.
-0
 -
 wrench
 -

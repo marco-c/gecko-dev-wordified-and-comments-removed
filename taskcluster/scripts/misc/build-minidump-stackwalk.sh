@@ -386,7 +386,7 @@ MOZ_FETCHES_DIR
 /
 MacOSX11
 .
-0
+3
 .
 sdk
 "
@@ -409,7 +409,7 @@ MOZ_FETCHES_DIR
 /
 MacOSX11
 .
-0
+3
 .
 sdk
 -
