@@ -4367,6 +4367,7 @@ mRequestedAttrs
 [
 NUM_OF_SUPPORTED_ATTRS
 ]
+=
 {
 false
 }
@@ -4409,6 +4410,8 @@ false
 ;
 bool
 mPendingDestroy
+=
+false
 ;
 bool
 mDeferClearingContentForTSF
