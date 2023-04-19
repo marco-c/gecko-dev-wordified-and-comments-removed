@@ -1919,6 +1919,16 @@ getPlatform
 "
 windows
 "
+&
+&
+getPlatform
+(
+)
+!
+=
+"
+linux
+"
 )
 {
 throw
