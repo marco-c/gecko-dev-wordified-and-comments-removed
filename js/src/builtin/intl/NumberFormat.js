@@ -720,7 +720,6 @@ undefined
 const
 needSignificantDigits
 =
-(
 roundingPriority
 !
 =
@@ -728,7 +727,6 @@ roundingPriority
 "
 auto
 "
-)
 |
 |
 hasSignificantDigits
@@ -736,7 +734,6 @@ hasSignificantDigits
 const
 needFractionalDigits
 =
-(
 roundingPriority
 !
 =
@@ -744,7 +741,6 @@ roundingPriority
 "
 auto
 "
-)
 |
 |
 !
@@ -1129,7 +1125,7 @@ c
 c
 <
 =
-0x7A
+0x7a
 ?
 callFunction
 (
