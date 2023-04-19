@@ -3973,7 +3973,6 @@ Current
 >
 PostTask
 (
-RTC_FROM_HERE
 [
 &
 checkpoint_reached
