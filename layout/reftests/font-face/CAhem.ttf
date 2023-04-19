@@ -1,4 +1,5 @@
 COLR
+_
 &
 "
 CPAL
@@ -23,6 +24,7 @@ glyf
 gvar
 .
 head
+"
 6hhea
 D
 hmtx
@@ -36,12 +38,11 @@ nameY
 "
 post
 B
-[
-1
+g
 _
 <
 o_Y
-+
+VEO
 8
 8
 2
