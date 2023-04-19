@@ -462,6 +462,13 @@ video_capture
 video_capture_internal_impl
 "
 "
+net
+/
+dcsctp
+:
+dcsctp_unittests
+"
+"
 pc
 :
 peerconnection_unittests
