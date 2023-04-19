@@ -76,7 +76,7 @@ chromium_revision
 '
 :
 '
-24c8af75a992523026279984102a742fc1fff90a
+e753f3f38ed4bad047cc79c59089b2ad9742f7e7
 '
 }
 deps
@@ -275,7 +275,7 @@ chromium
 src
 /
 ios
-f793fb384b57d63f12cb6ff77f785435dad97af2
+7bccac899365c55816f8512a4764fded8611205a
 '
 '
 condition
@@ -307,7 +307,7 @@ chromium
 src
 /
 testing
-6b292120dab1164623df0ea20b1b5c7bdf22c4da
+1be79fc37ce133b48a6d9edc8b60fbab2f6d56d2
 '
 '
 src
@@ -331,7 +331,7 @@ chromium
 src
 /
 third_party
-2af0e460ec45ef29d30c87fd37a9a3787c9bb151
+c6d479695483bc03204122be072a0e1504cd9fa7
 '
 '
 src
@@ -1060,7 +1060,7 @@ tools
 depot_tools
 .
 git
-8c9559500176334c21f96a22d9ce7b306df0538a
+8bb3513349f314da3001e0c3baac527a64a92e7f
 '
 '
 src
@@ -1461,7 +1461,7 @@ deps
 icu
 .
 git
-f4147b227f174e03f273053bb49fde33426d05bc
+df304fa5705b9a2b85fc5937c493e49412364046
 '
 }
 '
@@ -1836,7 +1836,7 @@ external
 perfetto
 .
 git
-55f3b57f8da0ae408cb0331891530760877920fb
+71a92399dcf1a54dad73b2ad476ba6fd3175faf3
 '
 '
 src
@@ -2362,7 +2362,7 @@ chromium
 src
 /
 tools
-73f1ba6c0bd8ab685de70a49a63a9538fedf4651
+1dee60d4c31a980774a998936d05973fa0c5f629
 '
 '
 src
