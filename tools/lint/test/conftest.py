@@ -1445,9 +1445,13 @@ SAMPLE_TEST
         
 SAMPLE_CONFIG
         
+SAMPLE_METRICS_CONFIG
+        
 DYNAMIC_SAMPLE_CONFIG
         
 SAMPLE_INI
+        
+SAMPLE_METRICS_INI
         
 temp_dir
         
@@ -1654,6 +1658,24 @@ temp_file
 (
             
 "
+raptor_example3
+.
+ini
+"
+tempdir
+=
+raptor_suitedir
+content
+=
+SAMPLE_METRICS_INI
+        
+)
+as
+tmpexample3manifest
+temp_file
+(
+            
+"
 perftest_sample
 .
 js
@@ -1686,6 +1708,24 @@ SAMPLE_CONFIG
 )
 as
 tmpconfig
+temp_file
+(
+            
+"
+config_metrics
+.
+yml
+"
+tempdir
+=
+perfdocs_dir
+content
+=
+SAMPLE_METRICS_CONFIG
+        
+)
+as
+tmpconfig_metrics
 temp_file
 (
             
@@ -1741,7 +1781,13 @@ tmpdir
 manifest
 "
 :
+{
+"
+path
+"
+:
 tmpmanifest
+}
                 
 "
 example1_manifest
@@ -1756,6 +1802,12 @@ example2_manifest
 tmpexample2manifest
                 
 "
+example3_manifest
+"
+:
+tmpexample3manifest
+                
+"
 test
 "
 :
@@ -1766,6 +1818,12 @@ config
 "
 :
 tmpconfig
+                
+"
+config_metrics
+"
+:
+tmpconfig_metrics
                 
 "
 config_2

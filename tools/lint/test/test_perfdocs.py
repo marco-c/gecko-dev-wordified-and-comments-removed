@@ -407,6 +407,27 @@ Example
 test_url
 =
 Example_url
+alert_on
+=
+fcp
+"
+"
+"
+SAMPLE_METRICS_INI
+=
+"
+"
+"
+[
+Example
+]
+test_url
+=
+Example_url
+alert_on
+=
+fcp
+SpeedIndex
 "
 "
 "
@@ -1973,6 +1994,11 @@ perfdocs_sample
 manifest
 "
 ]
+[
+"
+path
+"
+]
     
 setup_sample_logger
 (
@@ -2805,6 +2831,11 @@ perfdocs_sample
 [
 "
 manifest
+"
+]
+[
+"
+path
 "
 ]
             
