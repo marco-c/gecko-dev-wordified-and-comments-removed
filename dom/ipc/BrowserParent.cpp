@@ -19259,6 +19259,10 @@ LayoutDeviceIntPoint
 (
 )
 0
+nsIDragService
+:
+:
+DRAGDROP_ACTION_NONE
 )
 ;
 Manager

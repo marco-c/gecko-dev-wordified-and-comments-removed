@@ -4564,6 +4564,8 @@ LayoutDeviceIntPoint
 aDragEndPoint
 uint32_t
 aKeyModifiers
+uint32_t
+aDropEffect
 )
 ;
 async
