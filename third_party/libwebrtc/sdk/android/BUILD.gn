@@ -3469,10 +3469,6 @@ deps
 [
 "
 :
-dav1d_av1_jni
-"
-"
-:
 video_java
 "
 ]
