@@ -2427,7 +2427,7 @@ display
 .
 windows
 .
-native_menus
+non_native_menus
 "
 _ns
 }
