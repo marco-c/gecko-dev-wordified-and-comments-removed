@@ -109,6 +109,7 @@ derive
 (
 Clone
 PartialEq
+Eq
 Debug
 Copy
 )
@@ -172,6 +173,7 @@ derive
 Debug
 Clone
 PartialEq
+Eq
 )
 ]
 pub
@@ -224,6 +226,7 @@ Clone
 Debug
 Default
 PartialEq
+Eq
 )
 ]
 pub

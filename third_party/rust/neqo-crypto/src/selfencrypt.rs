@@ -520,8 +520,11 @@ cipher
 encrypt
 (
 0
-&
 extended_aad
+.
+as_ref
+(
+)
 plaintext
 &
 mut
@@ -838,8 +841,11 @@ aead
 decrypt
 (
 0
-&
 extended_aad
+.
+as_ref
+(
+)
 &
 ciphertext
 [

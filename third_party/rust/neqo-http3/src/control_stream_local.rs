@@ -224,8 +224,11 @@ stream
 .
 buffer
 (
-&
 enc
+.
+as_ref
+(
+)
 )
 ;
 }
@@ -453,8 +456,11 @@ stream
 send_atomic
 (
 conn
-&
 enc
+.
+as_ref
+(
+)
 )
 ?
 {

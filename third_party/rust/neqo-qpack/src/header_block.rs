@@ -955,6 +955,7 @@ derive
 (
 Debug
 PartialEq
+Eq
 )
 ]
 pub

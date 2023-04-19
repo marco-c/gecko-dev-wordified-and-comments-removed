@@ -60,6 +60,7 @@ u64
 derive
 (
 PartialEq
+Eq
 Debug
 )
 ]

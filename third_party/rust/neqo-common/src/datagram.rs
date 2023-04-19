@@ -27,6 +27,7 @@ hex_with_len
 derive
 (
 PartialEq
+Eq
 Clone
 )
 ]

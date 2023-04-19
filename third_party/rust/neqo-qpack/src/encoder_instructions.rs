@@ -71,6 +71,7 @@ derive
 (
 Debug
 PartialEq
+Eq
 )
 ]
 pub
@@ -353,6 +354,7 @@ derive
 (
 Debug
 PartialEq
+Eq
 )
 ]
 pub

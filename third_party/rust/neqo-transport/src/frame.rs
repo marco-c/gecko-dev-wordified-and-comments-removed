@@ -539,6 +539,7 @@ c
 derive
 (
 PartialEq
+Eq
 Debug
 Default
 Clone
@@ -568,6 +569,7 @@ u64
 derive
 (
 PartialEq
+Eq
 Debug
 Clone
 )
