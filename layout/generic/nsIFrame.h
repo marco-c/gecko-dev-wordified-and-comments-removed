@@ -10217,11 +10217,11 @@ nsBoxLayoutState
 aBoxLayoutState
 )
 ;
-virtual
 int32_t
 GetXULFlex
 (
 )
+const
 ;
 virtual
 nscoord
