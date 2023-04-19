@@ -382,13 +382,6 @@ return
 nullptr
 ;
 }
-sSnapshotContext
--
->
-mOwningThreadId
-=
-0
-;
 }
 if
 (
