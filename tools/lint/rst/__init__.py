@@ -406,6 +406,8 @@ get_rstcheck_binary
     
 rstcheck_options
 =
+[
+        
 "
 -
 -
@@ -416,6 +418,18 @@ language
 cpp
 json
 "
+        
+"
+-
+-
+ignore
+-
+roles
+=
+searchfox
+"
+    
+]
     
 while
 paths
@@ -431,8 +445,9 @@ python
 "
 )
 binary
-rstcheck_options
 ]
++
+rstcheck_options
 +
 paths
 [
