@@ -161,6 +161,15 @@ include
 "
 vm
 /
+ErrorContext
+.
+h
+"
+#
+include
+"
+vm
+/
 JSContext
 .
 h
@@ -2981,6 +2990,12 @@ return
 false
 ;
 }
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 if
 (
 !
@@ -2990,6 +3005,8 @@ ss
 setSourceMapURL
 (
 cx
+&
+ec
 std
 :
 :
