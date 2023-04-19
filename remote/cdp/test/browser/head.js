@@ -62,7 +62,7 @@ RemoteAgentError
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -77,7 +77,9 @@ cdp
 /
 Error
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

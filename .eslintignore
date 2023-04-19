@@ -1327,7 +1327,9 @@ cdp
 /
 Protocol
 .
-jsm
+sys
+.
+mjs
 remote
 /
 cdp

@@ -10,7 +10,7 @@ ContentProcessSession
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -27,7 +27,9 @@ sessions
 /
 ContentProcessSession
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

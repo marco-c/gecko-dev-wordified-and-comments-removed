@@ -42,7 +42,7 @@ streamRegistry
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -61,7 +61,9 @@ parent
 /
 IO
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
