@@ -861,6 +861,12 @@ is_component_build
 =
 false
 '
+        
+'
+rtc_include_tests
+=
+false
+'
     
 ]
     

@@ -3508,6 +3508,9 @@ target_cpu
 "
 x64
 "
+&
+&
+rtc_include_tests
 )
 {
 if
