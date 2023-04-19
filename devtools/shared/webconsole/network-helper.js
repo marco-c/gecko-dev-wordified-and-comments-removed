@@ -3,11 +3,17 @@ use
 strict
 "
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyImporter
+defineModuleGetter
 (
-this
+lazy
 "
 NetUtil
 "
@@ -314,6 +320,8 @@ try
 {
 text
 =
+lazy
+.
 NetUtil
 .
 readInputStreamToString
@@ -729,6 +737,8 @@ callback
 const
 channel
 =
+lazy
+.
 NetUtil
 .
 newChannel
@@ -765,6 +775,8 @@ nsICachingChannel
 .
 LOAD_BYPASS_LOCAL_CACHE_IF_BUSY
 ;
+lazy
+.
 NetUtil
 .
 asyncFetch

@@ -197,11 +197,17 @@ process
 true
 )
 ;
-loader
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
 .
-lazyImporter
+defineModuleGetter
 (
-this
+lazy
 "
 AddonManager
 "
@@ -2130,6 +2136,8 @@ const
 addons
 =
 await
+lazy
+.
 AddonManager
 .
 getAllAddons
@@ -2491,6 +2499,8 @@ this
 _onListChanged
 )
 {
+lazy
+.
 AddonManager
 .
 addAddonListener
@@ -2513,6 +2523,8 @@ size
 0
 )
 {
+lazy
+.
 AddonManager
 .
 removeAddonListener

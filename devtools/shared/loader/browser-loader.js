@@ -673,11 +673,6 @@ lazyGetter
 loader
 .
 lazyGetter
-lazyImporter
-:
-loader
-.
-lazyImporter
 lazyServiceGetter
 :
 loader
