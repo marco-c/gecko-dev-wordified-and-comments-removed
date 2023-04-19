@@ -2948,17 +2948,6 @@ sBrowserContentParents
 static
 UniquePtr
 <
-nsTArray
-<
-ContentParent
-*
->
->
-sPrivateContent
-;
-static
-UniquePtr
-<
 nsTHashMap
 <
 nsUint32HashKey
