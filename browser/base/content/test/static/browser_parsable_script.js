@@ -747,8 +747,6 @@ false
 }
 }
 await
-PerfTestHelpers
-.
 throttledMapPromises
 (
 uris

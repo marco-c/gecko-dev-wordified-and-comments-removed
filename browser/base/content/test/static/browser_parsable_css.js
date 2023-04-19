@@ -2711,8 +2711,6 @@ true
 )
 ;
 await
-PerfTestHelpers
-.
 throttledMapPromises
 (
 manifestURIs
@@ -3038,8 +3036,6 @@ kInContentCommonCSS
 ;
 }
 await
-PerfTestHelpers
-.
 throttledMapPromises
 (
 allPromises

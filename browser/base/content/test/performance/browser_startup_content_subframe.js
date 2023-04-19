@@ -647,7 +647,6 @@ uri
 "
 ;
 }
-await
 checkLoadedScripts
 (
 {

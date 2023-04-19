@@ -916,7 +916,6 @@ uri
 "
 ;
 }
-await
 checkLoadedScripts
 (
 {
