@@ -1360,6 +1360,7 @@ static
 bool
 IsNonListSingleLineContainer
 (
+const
 nsINode
 &
 aNode
@@ -1369,6 +1370,7 @@ static
 bool
 IsSingleLineContainer
 (
+const
 nsINode
 &
 aNode
@@ -1827,6 +1829,7 @@ static
 bool
 ShouldInsertLinefeedCharacter
 (
+const
 EditorDOMPoint
 &
 aPointToInsert

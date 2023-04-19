@@ -3387,6 +3387,7 @@ HTMLEditUtils
 :
 ShouldInsertLinefeedCharacter
 (
+const
 EditorDOMPoint
 &
 aPointToInsert
@@ -5337,6 +5338,7 @@ HTMLEditUtils
 :
 IsNonListSingleLineContainer
 (
+const
 nsINode
 &
 aNode
@@ -5404,6 +5406,7 @@ HTMLEditUtils
 :
 IsSingleLineContainer
 (
+const
 nsINode
 &
 aNode
