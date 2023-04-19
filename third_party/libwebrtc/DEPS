@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-955c4f2965664401c3d741108a2094f67319857e
+2da73dff1a950f9e403b3b3eccb58d5d5044f994
 '
 #
 Keep
@@ -165,7 +165,7 @@ chromium
 src
 /
 base
-64fab100403a6305f11dd64138dba9e5fee5edd0
+22e8efc6e8dc24bb3d333fba85bade848d252e3f
 '
 '
 src
@@ -189,7 +189,7 @@ chromium
 src
 /
 build
-472cc54e2b33574b108409cfecd3f5e7c711f2cd
+6b20164497b7adf69746437a0925ad11805d3524
 '
 '
 src
@@ -309,7 +309,7 @@ chromium
 src
 /
 ios
-73464e2fc6ae9556b701d94138fd7368dec9919a
+ae0c81e45a1baac79c0ca409faa69a769da1d4d3
 '
 '
 condition
@@ -341,7 +341,7 @@ chromium
 src
 /
 testing
-e2ab60013b1a160b88b5c9925d11d0bbfa6b7eac
+b17e15aa1a9d2c9dfa31f456e7a32a732c9bdd5d
 '
 '
 src
@@ -365,7 +365,7 @@ chromium
 src
 /
 third_party
-1eca7f51cce600cb85e737d79794945d7fe3b8fd
+af4ad38443628a33b7b5052a76f2b7c17f8ae644
 '
 '
 src
@@ -1050,7 +1050,7 @@ com
 catapult
 .
 git
-9a1137f8eed514f028da5ce4ed96df9e85ee9ff0
+1c33cd6890c82766fd66632c26c1844bab3a9bc9
 '
 '
 src
@@ -1180,7 +1180,7 @@ tools
 depot_tools
 .
 git
-8dd74d4f85a739ff883831960c665b0a3a24ec36
+98cf932814ca64260b9c1d36d9ae20b4286256ec
 '
 '
 src
@@ -1336,7 +1336,7 @@ third_party
 freetype2
 .
 git
-fa226478b1dc846ba86eb364c524fb3f4c3bcd0d
+946e1353eaa34872d0b138a13820fc03a782c545
 '
 '
 src
@@ -1548,7 +1548,7 @@ google
 googletest
 .
 git
-28e1da21d8d677bc98f12ccc7fc159ff19e8e817
+4517697675fc0d51c89aca61af5c77c4f1e4ee2d
 '
 '
 src
@@ -2022,7 +2022,7 @@ external
 perfetto
 .
 git
-045b467fafaa5b085a8d86a3a23c0585347814ea
+00b152a26effb7ba2ec1f2d1fdace9116ea470e4
 '
 '
 src
@@ -2550,7 +2550,7 @@ chromium
 src
 /
 tools
-8a3c99aebfd2d5064945e5f62a4d5f5da99d4d8d
+9400dbb63a45a97b0bfd35ff1d0c502cc0573743
 '
 '
 src
@@ -3032,7 +3032,9 @@ version
 '
 :
 '
-Qo3oi32JKnLwAeBGQyVax5FEUu97M2omI6yz5qDiMCwC
+3RcBXDFZuIJBL1I
+-
+gTWwvfRXm6fCwxFkV3tY3ZodF1YC
 '
 }
 ]
@@ -3606,7 +3608,7 @@ version
 '
 git_revision
 :
-9c88febc5ab63469baf5aae05a74f8e419970ef3
+d46a9c7ad4e38935bbacb01602fc1d09a162884b
 '
 }
 {
@@ -3636,7 +3638,7 @@ version
 '
 git_revision
 :
-9c88febc5ab63469baf5aae05a74f8e419970ef3
+d46a9c7ad4e38935bbacb01602fc1d09a162884b
 '
 }
 ]
