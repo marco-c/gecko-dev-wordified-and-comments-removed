@@ -551,16 +551,6 @@ props
 .
 backdrop
 }
-startScreen
-=
-{
-props
-.
-startScreen
-|
-|
-0
-}
 appAndSystemLocaleInfo
 =
 {
