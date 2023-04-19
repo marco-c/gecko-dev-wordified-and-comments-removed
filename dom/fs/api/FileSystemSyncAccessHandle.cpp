@@ -583,6 +583,11 @@ MutableFileDescPtr
 (
 )
 ;
+uint64_t
+at
+=
+0
+;
 if
 (
 aOptions
@@ -594,7 +599,6 @@ WasPassed
 )
 )
 {
-uint64_t
 at
 =
 aOptions
@@ -605,6 +609,7 @@ Value
 (
 )
 ;
+}
 LOG
 (
 (
@@ -712,7 +717,6 @@ where
 return
 0
 ;
-}
 }
 uint8_t
 *
@@ -962,6 +966,11 @@ MutableFileDescPtr
 (
 )
 ;
+uint64_t
+at
+=
+0
+;
 if
 (
 aOptions
@@ -973,7 +982,6 @@ WasPassed
 )
 )
 {
-uint64_t
 at
 =
 aOptions
@@ -984,6 +992,7 @@ Value
 (
 )
 ;
+}
 LOG
 (
 (
@@ -1091,7 +1100,6 @@ where
 return
 0
 ;
-}
 }
 const
 uint8_t
