@@ -133,12 +133,6 @@ logging
 .
 .
 :
-thread_checker
-"
-"
-.
-.
-:
 timeutils
 "
 "
@@ -251,12 +245,6 @@ checks
 .
 :
 refcount
-"
-"
-.
-.
-:
-thread_checker
 "
 "
 .

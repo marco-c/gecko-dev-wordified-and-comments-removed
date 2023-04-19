@@ -3697,14 +3697,6 @@ refcount
 .
 /
 rtc_base
-:
-thread_checker
-"
-"
-.
-.
-/
-rtc_base
 /
 synchronization
 :
