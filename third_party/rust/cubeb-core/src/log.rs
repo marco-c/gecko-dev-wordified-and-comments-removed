@@ -91,7 +91,9 @@ unsafe
 ffi
 :
 :
-g_cubeb_log_level
+cubeb_log_get_level
+(
+)
 !
 =
 LogLevel

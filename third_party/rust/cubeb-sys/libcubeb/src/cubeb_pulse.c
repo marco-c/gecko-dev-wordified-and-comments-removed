@@ -3921,6 +3921,9 @@ device_ids
 )
 ;
 }
+#
+ifndef
+DISABLE_LIBPULSE_DLOPEN
 if
 (
 ctx
@@ -3938,6 +3941,8 @@ libpulse
 )
 ;
 }
+#
+endif
 free
 (
 ctx
@@ -5045,7 +5050,9 @@ CUBEB_ERROR
 }
 if
 (
-g_cubeb_log_level
+cubeb_log_get_level
+(
+)
 )
 {
 if
@@ -7985,7 +7992,9 @@ PA_SUBSCRIPTION_EVENT_SINK
 :
 if
 (
-g_cubeb_log_level
+cubeb_log_get_level
+(
+)
 )
 {
 if

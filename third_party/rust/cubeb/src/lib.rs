@@ -8,13 +8,6 @@ context
 mod
 frame
 ;
-#
-[
-macro_use
-]
-mod
-log
-;
 mod
 sample
 ;
