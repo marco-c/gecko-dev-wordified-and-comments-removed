@@ -1313,16 +1313,6 @@ video_quality_observer
 .
 h
 "
-"
-video_stream_decoder
-.
-cc
-"
-"
-video_stream_decoder
-.
-h
-"
 ]
 deps
 =
