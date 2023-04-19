@@ -1056,14 +1056,6 @@ platform_thread
 :
 platform_thread_types
 "
-"
-.
-.
-/
-api
-:
-sequence_checker
-"
 ]
 }
 rtc_source_set
