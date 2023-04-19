@@ -470,6 +470,7 @@ mIsHandlingObservation
 =
 true
 ;
+const
 std
 :
 :
@@ -722,6 +723,7 @@ uint32_t
 aNewGeneration
 RefPtr
 <
+const
 ObserverLists
 >
 &
@@ -771,6 +773,7 @@ mCurrentGeneration
 ;
 RefPtr
 <
+const
 ObserverLists
 >
 mObserverLists
@@ -1732,6 +1735,7 @@ private
 :
 RefPtr
 <
+const
 ObserverLists
 >
 mObserverLists
