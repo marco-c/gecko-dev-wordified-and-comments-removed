@@ -137,7 +137,7 @@ Buffer
 tmp
 -
 >
-Cleanup
+Drop
 (
 )
 ;
@@ -275,7 +275,7 @@ Buffer
 (
 )
 {
-Cleanup
+Drop
 (
 )
 ;
@@ -639,7 +639,7 @@ void
 Buffer
 :
 :
-Cleanup
+Drop
 (
 )
 {
@@ -730,7 +730,7 @@ GetBridge
 )
 -
 >
-SendBufferDestroy
+SendBufferDrop
 (
 mId
 )

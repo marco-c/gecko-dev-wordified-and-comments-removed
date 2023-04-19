@@ -350,6 +350,13 @@ selfId
 )
 ;
 async
+BufferDrop
+(
+RawId
+selfId
+)
+;
+async
 TextureDestroy
 (
 RawId
