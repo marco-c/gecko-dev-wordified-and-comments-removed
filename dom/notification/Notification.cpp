@@ -208,17 +208,6 @@ mozilla
 /
 dom
 /
-RootedDictionary
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ServiceWorkerGlobalScopeBinding
 .
 h
