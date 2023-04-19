@@ -258,13 +258,6 @@ GetDecoderInfo
 const
 ;
 virtual
-bool
-PrefersLateDecoding
-(
-)
-const
-;
-virtual
 const
 char
 *

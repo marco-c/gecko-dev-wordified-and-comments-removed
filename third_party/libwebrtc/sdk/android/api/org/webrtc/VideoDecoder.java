@@ -153,16 +153,6 @@ DecodeInfo
 info
 )
 ;
-default
-boolean
-getPrefersLateDecoding
-(
-)
-{
-return
-true
-;
-}
 CalledByNative
 String
 getImplementationName
