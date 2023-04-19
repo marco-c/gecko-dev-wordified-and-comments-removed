@@ -13,9 +13,6 @@ register
 async
 test
 (
-_browser
-_window
-fileExt
 )
 {
 SimpleTest
@@ -34,9 +31,6 @@ registerWindowActor
 TestWindow
 "
 windowActorOptions
-[
-fileExt
-]
 )
 "
 Should

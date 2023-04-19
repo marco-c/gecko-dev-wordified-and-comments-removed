@@ -24,9 +24,7 @@ EXTRA_JS_MODULES
 "
 SimpleServices
 .
-sys
-.
-mjs
+jsm
 "
 ]
 EXTRA_JS_MODULES
