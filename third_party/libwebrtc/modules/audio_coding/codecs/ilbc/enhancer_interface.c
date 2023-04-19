@@ -989,9 +989,7 @@ tlag
 ;
 max16
 =
-regressor
-[
-WebRtcSpl_MaxAbsIndexW16
+WebRtcSpl_MaxAbsElementW16
 (
 regressor
 plc_blockl
@@ -1000,15 +998,12 @@ plc_blockl
 -
 1
 )
-]
 ;
 const
 int16_t
 max_target
 =
-target
-[
-WebRtcSpl_MaxAbsIndexW16
+WebRtcSpl_MaxAbsElementW16
 (
 target
 plc_blockl
@@ -1017,7 +1012,6 @@ plc_blockl
 -
 1
 )
-]
 ;
 const
 int64_t
