@@ -5066,8 +5066,8 @@ IN
 )
 OR
 last_visit_date
-<
->
+IS
+NOT
 (
 SELECT
 MAX
