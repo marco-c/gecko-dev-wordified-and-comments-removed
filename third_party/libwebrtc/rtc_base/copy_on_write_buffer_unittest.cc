@@ -1567,7 +1567,7 @@ cdata1
 TEST
 (
 CopyOnWriteBufferTest
-TestBacketRead
+SeveralReads
 )
 {
 CopyOnWriteBuffer
@@ -1630,7 +1630,7 @@ buf2
 TEST
 (
 CopyOnWriteBufferTest
-TestBacketReadConst
+SeveralConstReads
 )
 {
 CopyOnWriteBuffer
@@ -1700,7 +1700,7 @@ buf2
 TEST
 (
 CopyOnWriteBufferTest
-TestBacketWrite
+SeveralWrites
 )
 {
 CopyOnWriteBuffer
@@ -1741,6 +1741,10 @@ i
 )
 {
 buf1
+.
+MutableData
+(
+)
 [
 i
 ]
@@ -1934,6 +1938,10 @@ Slice
 )
 ;
 slice
+.
+MutableData
+(
+)
 [
 0
 ]
@@ -1998,6 +2006,10 @@ Slice
 )
 ;
 buf
+.
+MutableData
+(
+)
 [
 0
 ]
@@ -2154,6 +2166,10 @@ Slice
 )
 ;
 slice2
+.
+MutableData
+(
+)
 [
 0
 ]
