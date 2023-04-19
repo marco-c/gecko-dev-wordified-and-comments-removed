@@ -1402,6 +1402,11 @@ sources
 =
 [
 "
+async_dns_resolver
+.
+h
+"
+"
 async_resolver_factory
 .
 h
@@ -1430,6 +1435,14 @@ async_resolver_interface
 rtc_base
 :
 rtc_base
+"
+"
+.
+.
+/
+rtc_base
+:
+socket_address
 "
 "
 .
