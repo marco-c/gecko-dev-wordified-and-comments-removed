@@ -482,11 +482,10 @@ ep_
 {
 }
 ;
+const
 ErrorReporter
-*
+&
 errorReporter_
-=
-nullptr
 ;
 public
 :
@@ -551,6 +550,7 @@ AutoCheckUnstableEmitterScope
 ;
 #
 endif
+const
 ErrorReporter
 &
 errorReporter
@@ -559,7 +559,6 @@ errorReporter
 const
 {
 return
-*
 errorReporter_
 ;
 }
@@ -698,6 +697,10 @@ stackLimit
 SharedContext
 *
 sc
+const
+ErrorReporter
+&
+errorReporter
 CompilationState
 &
 compilationState
