@@ -1287,7 +1287,7 @@ main
 AW_STEP3
 "
 "
-div
+img
 .
 brand
 -
