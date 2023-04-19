@@ -441,6 +441,10 @@ const
 FeatureOptions
 &
 options
+bool
+reportOOM
+=
+false
 )
 ;
 explicit

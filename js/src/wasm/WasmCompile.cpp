@@ -816,6 +816,8 @@ const
 FeatureOptions
 &
 options
+bool
+reportOOM
 )
 {
 CompileArgsError
@@ -927,6 +929,17 @@ CompileArgsError
 OutOfMemory
 :
 {
+if
+(
+reportOOM
+)
+{
+ReportOutOfMemory
+(
+cx
+)
+;
+}
 break
 ;
 }
