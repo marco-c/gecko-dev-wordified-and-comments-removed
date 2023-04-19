@@ -230,6 +230,13 @@ INITIAL_STATE
 .
 Prefs
 }
+DiscoveryStream
+=
+{
+INITIAL_STATE
+.
+DiscoveryStream
+}
 /
 >
 )
@@ -589,6 +596,11 @@ Prefs
 INITIAL_STATE
 .
 Prefs
+DiscoveryStream
+:
+INITIAL_STATE
+.
+DiscoveryStream
 }
 ;
 wrapper

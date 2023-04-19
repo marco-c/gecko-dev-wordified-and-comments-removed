@@ -1771,6 +1771,7 @@ const
 {
 isRecentSave
 DiscoveryStream
+saveToPocketCard
 }
 =
 this
@@ -1780,7 +1781,6 @@ props
 const
 {
 pocketButtonEnabled
-saveToPocketCard
 hideDescriptions
 compactImages
 imageGradient
