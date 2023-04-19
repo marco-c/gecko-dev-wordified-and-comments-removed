@@ -424,6 +424,9 @@ argparse
 .
 FileType
 (
+'
+rb
+'
 )
                       
 required

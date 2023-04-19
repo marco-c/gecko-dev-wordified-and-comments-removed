@@ -1254,15 +1254,9 @@ HistogramSet
 )
   
 with
-open
-(
 options
 .
 input_results_file
-'
-rb
-'
-)
 as
 f
 :
