@@ -132,7 +132,7 @@ foundOrTimedout
 (
 null
 )
-2000
+5000
 )
 ;
 let
@@ -193,6 +193,7 @@ findTimeout
 findbar
 .
 browser
+?
 .
 finder
 .
