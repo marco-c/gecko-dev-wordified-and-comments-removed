@@ -173,7 +173,7 @@ deps
 [
 ]
 }
-rtc_library
+rtc_source_set
 (
 "
 mutex
@@ -183,11 +183,6 @@ mutex
 sources
 =
 [
-"
-mutex
-.
-cc
-"
 "
 mutex
 .
