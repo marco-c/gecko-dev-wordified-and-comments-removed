@@ -6086,6 +6086,14 @@ AddonManager
 PERM_CAN_UNINSTALL
 )
 ;
+ExtensionsUI
+.
+originControlsMenu
+(
+menu
+id
+)
+;
 }
 async
 manageExtension
