@@ -160,6 +160,11 @@ sendMessage
 "
 test
 .
+assertDeepEq
+"
+"
+test
+.
 assertEq
 "
 "
