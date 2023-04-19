@@ -236,6 +236,14 @@ Firefox
 "
 !
 define
+ToastAumidPrefix
+"
+MOZ_TOAST_APP_NAME
+Toast
+-
+"
+!
+define
 BrandProductName
 "
 Firefox
