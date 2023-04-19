@@ -25,7 +25,7 @@ pw_get_headers_version
 .
 3
 .
-13
+52
 "
 )
 const
@@ -55,7 +55,7 @@ PW_MINOR
 #
 define
 PW_MICRO
-13
+52
 #
 define
 PW_CHECK_VERSION

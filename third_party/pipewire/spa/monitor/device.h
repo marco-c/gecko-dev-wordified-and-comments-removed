@@ -1123,6 +1123,14 @@ profile
 set
 "
 #
+define
+SPA_KEY_DEVICE_STRING
+"
+device
+.
+string
+"
+#
 ifdef
 __cplusplus
 }

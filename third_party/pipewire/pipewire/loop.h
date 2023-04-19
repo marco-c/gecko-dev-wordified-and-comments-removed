@@ -112,6 +112,12 @@ l
 )
 spa_loop_update_source
 (
+(
+l
+)
+-
+>
+loop
 __VA_ARGS__
 )
 #
@@ -125,6 +131,12 @@ l
 )
 spa_loop_remove_source
 (
+(
+l
+)
+-
+>
+loop
 __VA_ARGS__
 )
 #

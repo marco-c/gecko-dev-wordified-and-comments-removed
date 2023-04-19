@@ -31,6 +31,7 @@ spa_node_event
 SPA_NODE_EVENT_Error
 SPA_NODE_EVENT_Buffering
 SPA_NODE_EVENT_RequestRefresh
+SPA_NODE_EVENT_RequestProcess
 }
 ;
 #
@@ -55,6 +56,12 @@ SPA_EVENT_INIT
 SPA_TYPE_EVENT_Node
 id
 )
+enum
+spa_event_node
+{
+SPA_EVENT_NODE_START
+}
+;
 #
 ifdef
 __cplusplus

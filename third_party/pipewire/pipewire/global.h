@@ -241,6 +241,7 @@ dict
 const
 char
 *
+const
 keys
 [
 ]
@@ -258,6 +259,15 @@ global
 ;
 uint32_t
 pw_global_get_id
+(
+struct
+pw_global
+*
+global
+)
+;
+uint64_t
+pw_global_get_serial
 (
 struct
 pw_global

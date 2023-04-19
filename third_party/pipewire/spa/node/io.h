@@ -157,6 +157,15 @@ max_size
 struct
 spa_io_clock
 {
+#
+define
+SPA_IO_CLOCK_FLAG_FREEWHEEL
+(
+1u
+<
+<
+0
+)
 uint32_t
 flags
 ;

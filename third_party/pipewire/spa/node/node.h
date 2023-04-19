@@ -17,6 +17,13 @@ endif
 #
 include
 <
+errno
+.
+h
+>
+#
+include
+<
 spa
 /
 utils
@@ -297,7 +304,7 @@ function
 might
 not
 *
-immediateley
+immediately
 produce
 or
 consume

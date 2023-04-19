@@ -280,6 +280,15 @@ Control
 NULL
 }
 {
+SPA_META_Busy
+SPA_TYPE_Pointer
+SPA_TYPE_INFO_META_BASE
+"
+Busy
+"
+NULL
+}
+{
 0
 0
 NULL

@@ -196,7 +196,7 @@ l0
 spa_memcpy
 (
 data
-SPA_MEMBER
+SPA_PTROFF
 (
 buffer
 offset
@@ -216,7 +216,7 @@ l1
 )
 spa_memcpy
 (
-SPA_MEMBER
+SPA_PTROFF
 (
 data
 l0
@@ -341,7 +341,7 @@ l0
 ;
 spa_memcpy
 (
-SPA_MEMBER
+SPA_PTROFF
 (
 buffer
 offset
@@ -363,7 +363,7 @@ l1
 spa_memcpy
 (
 buffer
-SPA_MEMBER
+SPA_PTROFF
 (
 data
 l0

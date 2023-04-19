@@ -621,7 +621,7 @@ b
 >
 metas
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 b
 sizeof
@@ -648,7 +648,7 @@ b
 >
 datas
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 b
 -
@@ -670,7 +670,7 @@ spa_data
 ;
 skel
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 b
 -
@@ -769,7 +769,7 @@ dp
 *
 dp
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 *
 dp
@@ -821,7 +821,7 @@ skel
 ;
 skel
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 skel
 size
@@ -842,7 +842,7 @@ data
 ;
 data
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 data
 size
@@ -967,7 +967,7 @@ dp
 *
 dp
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 *
 dp
@@ -1041,7 +1041,7 @@ data_mem
 ;
 skel_mem
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 skel_mem
 info
@@ -1053,7 +1053,7 @@ void
 ;
 data_mem
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 data_mem
 info
@@ -1174,7 +1174,7 @@ NULL
 ;
 skel
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 buffers
 sizeof

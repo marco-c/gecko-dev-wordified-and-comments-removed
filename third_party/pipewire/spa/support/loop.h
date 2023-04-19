@@ -154,6 +154,10 @@ mask
 uint32_t
 rmask
 ;
+void
+*
+priv
+;
 }
 ;
 typedef

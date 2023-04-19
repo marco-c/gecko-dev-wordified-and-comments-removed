@@ -189,7 +189,7 @@ core
 struct
 pw_protocol
 *
-prototol
+protocol
 struct
 pw_properties
 *

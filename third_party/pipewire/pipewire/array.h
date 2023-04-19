@@ -94,7 +94,7 @@ idx
 s
 t
 )
-SPA_MEMBER
+SPA_PTROFF
 (
 (
 a
@@ -200,7 +200,7 @@ pw_array_end
 (
 a
 )
-SPA_MEMBER
+SPA_PTROFF
 (
 (
 a
@@ -224,7 +224,7 @@ a
 p
 )
 (
-SPA_MEMBER
+SPA_PTROFF
 (
 p
 sizeof
@@ -353,7 +353,7 @@ p
 memmove
 (
 p
-SPA_MEMBER
+SPA_PTROFF
 (
 (
 p
@@ -442,6 +442,15 @@ arr
 data
 )
 ;
+pw_array_init
+(
+arr
+arr
+-
+>
+extend
+)
+;
 }
 static
 inline
@@ -518,6 +527,14 @@ arr
 -
 >
 extend
+)
+;
+spa_assert
+(
+alloc
+!
+=
+0
 )
 ;
 while
@@ -608,7 +625,7 @@ NULL
 ;
 p
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 arr
 -
@@ -679,7 +696,7 @@ NULL
 }
 p
 =
-SPA_MEMBER
+SPA_PTROFF
 (
 arr
 -

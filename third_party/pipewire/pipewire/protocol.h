@@ -414,7 +414,7 @@ client_demarshal
 }
 ;
 struct
-pw_protocol_implementaton
+pw_protocol_implementation
 {
 #
 define
@@ -616,7 +616,7 @@ protocol
 ;
 const
 struct
-pw_protocol_implementaton
+pw_protocol_implementation
 *
 pw_protocol_get_implementation
 (

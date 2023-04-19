@@ -192,6 +192,24 @@ pw_core_info
 update
 )
 ;
+struct
+pw_core_info
+*
+pw_core_info_merge
+(
+struct
+pw_core_info
+*
+info
+const
+struct
+pw_core_info
+*
+update
+bool
+reset
+)
+;
 void
 pw_core_info_free
 (
@@ -255,7 +273,7 @@ info
 (
 void
 *
-object
+data
 const
 struct
 pw_core_info
@@ -271,7 +289,7 @@ done
 (
 void
 *
-object
+data
 uint32_t
 id
 int
@@ -286,7 +304,7 @@ ping
 (
 void
 *
-object
+data
 uint32_t
 id
 int
@@ -301,7 +319,7 @@ error
 (
 void
 *
-object
+data
 uint32_t
 id
 int
@@ -322,7 +340,7 @@ remove_id
 (
 void
 *
-object
+data
 uint32_t
 id
 )
@@ -335,7 +353,7 @@ bound_id
 (
 void
 *
-object
+data
 uint32_t
 id
 uint32_t
@@ -350,7 +368,7 @@ add_mem
 (
 void
 *
-object
+data
 uint32_t
 id
 uint32_t
@@ -369,7 +387,7 @@ remove_mem
 (
 void
 *
-object
+data
 uint32_t
 id
 )
@@ -977,7 +995,7 @@ global
 (
 void
 *
-object
+data
 uint32_t
 id
 uint32_t
@@ -1003,7 +1021,7 @@ global_remove
 (
 void
 *
-object
+data
 uint32_t
 id
 )

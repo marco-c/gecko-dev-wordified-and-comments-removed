@@ -121,6 +121,17 @@ pipewire
 /
 impl
 -
+metadata
+.
+h
+>
+#
+include
+<
+pipewire
+/
+impl
+-
 module
 .
 h

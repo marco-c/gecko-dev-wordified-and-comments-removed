@@ -46,7 +46,8 @@ SPA_META_VideoDamage
 SPA_META_Bitmap
 SPA_META_Cursor
 SPA_META_Control
-SPA_META_LAST
+SPA_META_Busy
+_SPA_META_LAST
 }
 ;
 struct
@@ -84,7 +85,7 @@ spa_meta_end
 (
 m
 )
-SPA_MEMBER
+SPA_PTROFF
 (
 (
 m
@@ -108,7 +109,7 @@ p
 m
 )
 (
-SPA_MEMBER
+SPA_PTROFF
 (
 p
 sizeof
@@ -426,6 +427,17 @@ spa_meta_control
 struct
 spa_pod_sequence
 sequence
+;
+}
+;
+struct
+spa_meta_busy
+{
+uint32_t
+flags
+;
+uint32_t
+count
 ;
 }
 ;

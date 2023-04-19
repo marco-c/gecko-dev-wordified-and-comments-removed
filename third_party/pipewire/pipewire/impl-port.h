@@ -70,7 +70,7 @@ pw_impl_port_events
 #
 define
 PW_VERSION_IMPL_PORT_EVENTS
-1
+2
 uint32_t
 version
 ;
@@ -215,6 +215,17 @@ void
 data
 uint32_t
 id
+)
+;
+void
+(
+*
+latency_changed
+)
+(
+void
+*
+data
 )
 ;
 }

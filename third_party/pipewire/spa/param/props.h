@@ -33,6 +33,9 @@ SPA_PROP_INFO_id
 SPA_PROP_INFO_name
 SPA_PROP_INFO_type
 SPA_PROP_INFO_labels
+SPA_PROP_INFO_container
+SPA_PROP_INFO_params
+SPA_PROP_INFO_description
 }
 ;
 enum
@@ -56,6 +59,7 @@ SPA_PROP_periodEvent
 SPA_PROP_live
 SPA_PROP_rate
 SPA_PROP_quality
+SPA_PROP_bluetoothAudioCodec
 SPA_PROP_START_Audio
 =
 0x10000
@@ -69,6 +73,13 @@ SPA_PROP_truncate
 SPA_PROP_channelVolumes
 SPA_PROP_volumeBase
 SPA_PROP_volumeStep
+SPA_PROP_channelMap
+SPA_PROP_monitorMute
+SPA_PROP_monitorVolumes
+SPA_PROP_latencyOffsetNsec
+SPA_PROP_softMute
+SPA_PROP_softVolumes
+SPA_PROP_iec958Codecs
 SPA_PROP_START_Video
 =
 0x20000
@@ -80,6 +91,10 @@ SPA_PROP_gamma
 SPA_PROP_exposure
 SPA_PROP_gain
 SPA_PROP_sharpness
+SPA_PROP_START_Other
+=
+0x80000
+SPA_PROP_params
 SPA_PROP_START_CUSTOM
 =
 0x1000000
