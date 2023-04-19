@@ -111,6 +111,8 @@ shellcheck
 \
 unzip
 \
+bzip2
+\
 wget
 rm
 -
