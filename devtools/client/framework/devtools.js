@@ -651,7 +651,9 @@ const
 Deprecated
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource

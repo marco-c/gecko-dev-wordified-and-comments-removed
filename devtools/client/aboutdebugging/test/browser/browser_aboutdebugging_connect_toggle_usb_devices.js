@@ -26,7 +26,9 @@ const
 AddonManager
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource

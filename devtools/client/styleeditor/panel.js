@@ -8,7 +8,9 @@ var
 XPCOMUtils
 }
 =
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -48,7 +50,9 @@ var
 StyleEditorUI
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource
@@ -72,7 +76,9 @@ var
 getString
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource

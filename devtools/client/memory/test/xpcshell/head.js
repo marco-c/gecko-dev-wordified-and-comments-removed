@@ -76,7 +76,9 @@ var
 FileUtils
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource
@@ -148,7 +150,9 @@ var
 addDebuggerToGlobal
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource

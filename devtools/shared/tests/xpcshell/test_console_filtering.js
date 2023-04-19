@@ -9,7 +9,9 @@ console
 ConsoleAPI
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource

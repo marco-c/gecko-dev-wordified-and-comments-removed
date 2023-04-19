@@ -258,7 +258,9 @@ getString
 showFilePicker
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource

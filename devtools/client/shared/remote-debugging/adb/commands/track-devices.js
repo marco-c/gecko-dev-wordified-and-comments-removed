@@ -40,7 +40,9 @@ const
 setTimeout
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource

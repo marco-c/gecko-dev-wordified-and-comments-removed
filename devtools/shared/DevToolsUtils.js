@@ -1147,7 +1147,9 @@ return
 ;
 }
 return
-require
+ChromeUtils
+.
+import
 (
 "
 resource
@@ -1299,7 +1301,9 @@ NetUtil
 >
 {
 return
-require
+ChromeUtils
+.
+import
 (
 "
 resource

@@ -72,7 +72,9 @@ const
 BrowserTestUtils
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource

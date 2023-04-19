@@ -8,7 +8,9 @@ const
 FileUtils
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource
@@ -30,7 +32,9 @@ const
 ExtensionTestUtils
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource

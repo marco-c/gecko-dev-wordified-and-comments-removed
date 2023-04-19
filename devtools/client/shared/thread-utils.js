@@ -28,7 +28,9 @@ const
 validateBreakpointLocation
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource

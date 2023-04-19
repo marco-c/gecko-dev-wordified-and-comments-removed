@@ -5409,7 +5409,9 @@ const
 Downloads
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource
@@ -5564,7 +5566,9 @@ const
 Downloads
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource

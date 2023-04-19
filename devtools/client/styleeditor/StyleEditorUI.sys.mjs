@@ -107,7 +107,9 @@ showFilePicker
 optionsPopupMenu
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource
@@ -131,7 +133,9 @@ const
 StyleSheetEditor
 }
 =
-require
+ChromeUtils
+.
+import
 (
 "
 resource
