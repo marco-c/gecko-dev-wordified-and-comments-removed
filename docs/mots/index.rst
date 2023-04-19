@@ -73,7 +73,7 @@ ownership
 governance
 system
 <
-http
+https
 :
 /
 /
@@ -17609,13 +17609,6 @@ s
 |
 Dan
 Mosedale
--
-Away
-From
-Bugmail
-Until
-Aug
-9th
 (
 dmosedale
 )
