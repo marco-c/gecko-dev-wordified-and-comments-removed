@@ -5,7 +5,7 @@ OnboardingMessageProvider
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -20,7 +20,9 @@ lib
 /
 OnboardingMessageProvider
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -31,7 +33,7 @@ ToolbarBadgeHub
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -46,7 +48,9 @@ lib
 /
 ToolbarBadgeHub
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

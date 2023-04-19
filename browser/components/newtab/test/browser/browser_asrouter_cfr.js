@@ -5,7 +5,7 @@ CFRPageActions
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -20,7 +20,9 @@ lib
 /
 CFRPageActions
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -31,7 +33,7 @@ ASRouterTriggerListeners
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -46,7 +48,9 @@ lib
 /
 ASRouterTriggerListeners
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -57,7 +61,7 @@ ASRouter
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -72,7 +76,9 @@ lib
 /
 ASRouter
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -83,7 +89,7 @@ CFRMessageProvider
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -98,7 +104,9 @@ lib
 /
 CFRMessageProvider
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -109,7 +117,7 @@ TelemetryFeed
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -124,7 +132,9 @@ lib
 /
 TelemetryFeed
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

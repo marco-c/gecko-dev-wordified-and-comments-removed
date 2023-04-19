@@ -10,7 +10,7 @@ CFRMessageProvider
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -25,7 +25,9 @@ lib
 /
 CFRMessageProvider
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

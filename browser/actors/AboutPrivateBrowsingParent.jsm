@@ -19,7 +19,7 @@ ASRouter
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -34,7 +34,9 @@ lib
 /
 ASRouter
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

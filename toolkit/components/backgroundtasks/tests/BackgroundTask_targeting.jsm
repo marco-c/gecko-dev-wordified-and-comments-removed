@@ -40,7 +40,7 @@ ASRouterTargeting
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -55,7 +55,9 @@ lib
 /
 ASRouterTargeting
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

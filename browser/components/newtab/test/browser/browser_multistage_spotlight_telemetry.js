@@ -10,7 +10,7 @@ Spotlight
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -25,7 +25,9 @@ lib
 /
 Spotlight
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -36,7 +38,7 @@ PanelTestProvider
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -51,7 +53,9 @@ lib
 /
 PanelTestProvider
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -85,7 +89,7 @@ AboutWelcomeTelemetry
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -102,7 +106,9 @@ lib
 /
 AboutWelcomeTelemetry
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

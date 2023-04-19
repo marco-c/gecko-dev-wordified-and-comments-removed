@@ -29,7 +29,7 @@ OnboardingMessageProvider
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -44,7 +44,9 @@ lib
 /
 OnboardingMessageProvider
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

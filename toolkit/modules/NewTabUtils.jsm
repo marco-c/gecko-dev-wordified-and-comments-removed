@@ -61,7 +61,7 @@ shortURL
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -76,7 +76,9 @@ lib
 /
 ShortURL
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -84,7 +86,7 @@ searchShortcuts
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -99,7 +101,9 @@ lib
 /
 SearchShortcuts
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

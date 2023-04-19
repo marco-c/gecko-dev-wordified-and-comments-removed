@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 ASRouterTriggerListeners
-"
+:
 "
 resource
 :
@@ -19,8 +19,11 @@ lib
 /
 ASRouterTriggerListeners
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 ChromeUtils
