@@ -81,8 +81,8 @@ const
 EmitterScope
 *
 headLexicalEmitterScope
-bool
-allowSelfHostedIter
+SelfHostedIter
+selfHostedIter
 IteratorKind
 iterKind
 )
@@ -91,9 +91,9 @@ bce_
 (
 bce
 )
-allowSelfHostedIter_
+selfHostedIter_
 (
-allowSelfHostedIter
+selfHostedIter
 )
 iterKind_
 (
@@ -193,6 +193,7 @@ bce_
 >
 emitAsyncIterator
 (
+selfHostedIter_
 )
 )
 {
@@ -211,6 +212,7 @@ bce_
 >
 emitIterator
 (
+selfHostedIter_
 )
 )
 {
@@ -239,7 +241,7 @@ emplace
 (
 bce_
 iterDepth
-allowSelfHostedIter_
+selfHostedIter_
 iterKind_
 )
 ;
@@ -417,7 +419,7 @@ Some
 forPos
 )
 iterKind_
-allowSelfHostedIter_
+selfHostedIter_
 )
 )
 {

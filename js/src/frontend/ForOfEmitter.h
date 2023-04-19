@@ -52,6 +52,15 @@ include
 "
 frontend
 /
+SelfHostedIter
+.
+h
+"
+#
+include
+"
+frontend
+/
 TDZCheckCache
 .
 h
@@ -86,8 +95,8 @@ loopDepth_
 ;
 #
 endif
-bool
-allowSelfHostedIter_
+SelfHostedIter
+selfHostedIter_
 ;
 IteratorKind
 iterKind_
@@ -150,8 +159,8 @@ const
 EmitterScope
 *
 headLexicalEmitterScope
-bool
-allowSelfHostedIter
+SelfHostedIter
+selfHostedIter
 IteratorKind
 iterKind
 )

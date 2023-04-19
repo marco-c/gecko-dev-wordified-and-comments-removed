@@ -43,6 +43,15 @@ include
 "
 frontend
 /
+SelfHostedIter
+.
+h
+"
+#
+include
+"
+frontend
+/
 TryEmitter
 .
 h
@@ -92,8 +101,8 @@ tryCatch_
 uint32_t
 numYieldsAtBeginCodeNeedingIterClose_
 ;
-bool
-allowSelfHosted_
+SelfHostedIter
+selfHostedIter_
 ;
 IteratorKind
 iterKind_
@@ -107,8 +116,8 @@ BytecodeEmitter
 bce
 int32_t
 iterDepth
-bool
-allowSelfHosted
+SelfHostedIter
+selfHostedIter
 IteratorKind
 iterKind
 )
