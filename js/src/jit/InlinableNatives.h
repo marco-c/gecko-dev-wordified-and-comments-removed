@@ -542,6 +542,11 @@ StringCharAt
 \
 _
 (
+StringIndexOf
+)
+\
+_
+(
 StringStartsWith
 )
 \

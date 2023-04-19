@@ -2496,6 +2496,15 @@ StringFromCodePoint
 \
 _
 (
+StringIndexOf
+js
+:
+:
+StringIndexOf
+)
+\
+_
+(
 StringReplace
 js
 :

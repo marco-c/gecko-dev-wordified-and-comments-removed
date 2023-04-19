@@ -1505,6 +1505,12 @@ case
 InlinableNative
 :
 :
+StringIndexOf
+:
+case
+InlinableNative
+:
+:
 StringStartsWith
 :
 case
