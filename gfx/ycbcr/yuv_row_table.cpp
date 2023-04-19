@@ -20,7 +20,7 @@ i
 \
 static_cast
 <
-int16_t
+int16
 >
 (
 1
@@ -42,7 +42,7 @@ i
 \
 static_cast
 <
-int16_t
+int16
 >
 (
 1
@@ -64,7 +64,7 @@ i
 \
 static_cast
 <
-int16_t
+int16
 >
 (
 1
@@ -97,7 +97,7 @@ i
 \
 static_cast
 <
-int16_t
+int16
 >
 (
 2
@@ -119,7 +119,7 @@ i
 \
 static_cast
 <
-int16_t
+int16
 >
 (
 -
@@ -144,7 +144,7 @@ i
 \
 static_cast
 <
-int16_t
+int16
 >
 (
 256
@@ -167,7 +167,7 @@ i
 \
 static_cast
 <
-int16_t
+int16
 >
 (
 -
@@ -190,7 +190,7 @@ i
 \
 static_cast
 <
-int16_t
+int16
 >
 (
 1
@@ -216,7 +216,7 @@ i
 SIMD_ALIGNED
 (
 const
-int16_t
+int16
 kCoefficientsRgbY
 [
 256

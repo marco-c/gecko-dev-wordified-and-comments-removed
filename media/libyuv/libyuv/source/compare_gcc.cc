@@ -47,6 +47,7 @@ LIBYUV_DISABLE_X86
 )
 &
 &
+\
 (
 defined
 (
@@ -54,9 +55,18 @@ __x86_64__
 )
 |
 |
+(
 defined
 (
 __i386__
+)
+&
+&
+!
+defined
+(
+_MSC_VER
+)
 )
 )
 #

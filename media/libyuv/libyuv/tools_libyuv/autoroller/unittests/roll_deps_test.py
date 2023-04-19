@@ -10,18 +10,6 @@ import
 tempfile
 import
 unittest
-import
-roll_deps
-from
-roll_deps
-import
-CalculateChangedDeps
-GetMatchingDepsEntries
-\
-  
-ParseDepsDict
-ParseLocalDepsFile
-UpdateDepsFile
 SCRIPT_DIR
 =
 os
@@ -60,6 +48,18 @@ append
 (
 PARENT_DIR
 )
+import
+roll_deps
+from
+roll_deps
+import
+CalculateChangedDeps
+GetMatchingDepsEntries
+\
+  
+ParseDepsDict
+ParseLocalDepsFile
+UpdateDepsFile
 TEST_DATA_VARS
 =
 {
@@ -191,6 +191,7 @@ pass
 class
 FakeCmd
 (
+object
 )
 :
   
@@ -611,7 +612,7 @@ local_scope
     
 self
 .
-assertEqual
+assertEquals
 (
 lookup
 (
@@ -663,9 +664,6 @@ open
 self
 .
 _libyuv_depsfile
-'
-r
-'
 )
 as
 deps_file
@@ -719,9 +717,6 @@ open
 self
 .
 _libyuv_depsfile
-'
-r
-'
 )
 as
 deps_file
@@ -760,7 +755,7 @@ variable_name
       
 self
 .
-assertEqual
+assertEquals
 (
 vars_dict
 [
@@ -788,7 +783,7 @@ chromium_revision
     
 self
 .
-assertEqual
+assertEquals
 (
 len
 (
@@ -825,7 +820,7 @@ gtest
     
 self
 .
-assertEqual
+assertEquals
 (
 len
 (
@@ -836,7 +831,7 @@ entries
     
 self
 .
-assertEqual
+assertEquals
 (
 entries
 [
@@ -875,7 +870,7 @@ testing
     
 self
 .
-assertEqual
+assertEquals
 (
 len
 (
@@ -905,7 +900,7 @@ build
     
 self
 .
-assertEqual
+assertEquals
 (
 len
 (
@@ -916,7 +911,7 @@ entries
     
 self
 .
-assertEqual
+assertEquals
 (
 entries
 [
@@ -993,7 +988,7 @@ new_cr_deps
     
 self
 .
-assertEqual
+assertEquals
 (
 len
 (
@@ -1004,7 +999,7 @@ changed_deps
     
 self
 .
-assertEqual
+assertEquals
 (
 changed_deps
 [
@@ -1021,7 +1016,7 @@ build
     
 self
 .
-assertEqual
+assertEquals
 (
 changed_deps
 [
@@ -1034,7 +1029,7 @@ BUILD_OLD_REV
     
 self
 .
-assertEqual
+assertEquals
 (
 changed_deps
 [
@@ -1047,7 +1042,7 @@ BUILD_NEW_REV
     
 self
 .
-assertEqual
+assertEquals
 (
 changed_deps
 [
@@ -1064,7 +1059,7 @@ buildtools
     
 self
 .
-assertEqual
+assertEquals
 (
 changed_deps
 [
@@ -1077,7 +1072,7 @@ BUILDTOOLS_OLD_REV
     
 self
 .
-assertEqual
+assertEquals
 (
 changed_deps
 [

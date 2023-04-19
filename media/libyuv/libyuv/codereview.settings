@@ -25,6 +25,9 @@ True
 PROJECT
 :
 libyuv
+TRY_ON_UPLOAD
+:
+False
 VIEW_VC
 :
 https

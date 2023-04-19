@@ -228,12 +228,6 @@ o
 \
 source
 /
-scale_uv
-.
-o
-\
-source
-/
 video_common
 .
 o

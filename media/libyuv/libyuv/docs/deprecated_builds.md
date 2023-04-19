@@ -1730,13 +1730,6 @@ C
 out
 /
 Debug
-yuvconstants
-ninja
--
-C
-out
-/
-Debug
 psnr
 ninja
 -
