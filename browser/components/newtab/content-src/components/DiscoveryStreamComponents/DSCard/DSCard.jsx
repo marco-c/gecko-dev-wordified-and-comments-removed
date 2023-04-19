@@ -2069,11 +2069,6 @@ props
 .
 title
 }
-isRecentSave
-=
-{
-isRecentSave
-}
 /
 >
 <
