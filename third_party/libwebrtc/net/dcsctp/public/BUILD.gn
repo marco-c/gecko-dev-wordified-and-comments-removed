@@ -195,6 +195,10 @@ deps
 [
 "
 :
+strong_alias
+"
+"
+:
 types
 "
 "
@@ -255,6 +259,11 @@ rtc_base_approved
 sources
 =
 [
+"
+dcsctp_handover_state
+.
+h
+"
 "
 dcsctp_socket
 .
