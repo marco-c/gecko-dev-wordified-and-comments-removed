@@ -526,7 +526,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -560,7 +560,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -593,7 +593,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -626,7 +626,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -659,7 +659,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -692,7 +692,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -725,7 +725,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -765,7 +765,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -798,7 +798,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -1333,7 +1333,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -1367,7 +1367,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -1400,7 +1400,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -1433,7 +1433,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -1466,7 +1466,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -1499,7 +1499,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -1539,7 +1539,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -1572,7 +1572,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -2031,7 +2031,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -2065,7 +2065,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -2098,7 +2098,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -2131,7 +2131,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -2164,7 +2164,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -2204,7 +2204,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -2237,7 +2237,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -2652,7 +2652,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -2686,7 +2686,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -2719,7 +2719,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -2752,7 +2752,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -2792,7 +2792,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -2825,7 +2825,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -3193,7 +3193,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -3227,7 +3227,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -3260,7 +3260,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -3300,7 +3300,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -3333,7 +3333,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -3656,7 +3656,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -3690,7 +3690,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -3730,7 +3730,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -3763,7 +3763,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -4039,7 +4039,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -4080,7 +4080,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -4113,7 +4113,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -4381,7 +4381,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -4460,7 +4460,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -4582,7 +4582,7 @@ history
 hasVisits
 (
 "
-http
+https
 :
 /
 /
@@ -4702,7 +4702,7 @@ TRANSITION_LINK
 addPlace
 (
 "
-http
+https
 :
 /
 /
@@ -4726,7 +4726,7 @@ kUsecPerMin
 addPlace
 (
 "
-http
+https
 :
 /
 /
@@ -4752,7 +4752,7 @@ kUsecPerMin
 addPlace
 (
 "
-http
+https
 :
 /
 /
@@ -4778,7 +4778,7 @@ kUsecPerMin
 addPlace
 (
 "
-http
+https
 :
 /
 /
@@ -4804,7 +4804,7 @@ kUsecPerMin
 addPlace
 (
 "
-http
+https
 :
 /
 /
@@ -4830,7 +4830,7 @@ kUsecPerMin
 addPlace
 (
 "
-http
+https
 :
 /
 /
@@ -4856,7 +4856,7 @@ kUsecPerMin
 addPlace
 (
 "
-http
+https
 :
 /
 /
@@ -4917,7 +4917,7 @@ setMilliseconds
 addPlace
 (
 "
-http
+https
 :
 /
 /
@@ -4962,7 +4962,7 @@ getFullYear
 addPlace
 (
 "
-http
+https
 :
 /
 /

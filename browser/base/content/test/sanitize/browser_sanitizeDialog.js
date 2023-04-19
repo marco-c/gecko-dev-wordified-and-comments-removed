@@ -261,7 +261,7 @@ pURI
 makeURI
 (
 "
-http
+https
 :
 /
 /
@@ -506,7 +506,7 @@ pURI
 makeURI
 (
 "
-http
+https
 :
 /
 /
@@ -577,7 +577,7 @@ pURI
 makeURI
 (
 "
-http
+https
 :
 /
 /
@@ -950,7 +950,7 @@ pURI
 makeURI
 (
 "
-http
+https
 :
 /
 /
@@ -1302,7 +1302,7 @@ pURI
 makeURI
 (
 "
-http
+https
 :
 /
 /
@@ -1539,7 +1539,7 @@ pURI
 makeURI
 (
 "
-http
+https
 :
 /
 /
@@ -1765,7 +1765,7 @@ pURI
 makeURI
 (
 "
-http
+https
 :
 /
 /
@@ -2464,7 +2464,7 @@ var
 URL
 =
 "
-http
+https
 :
 /
 /

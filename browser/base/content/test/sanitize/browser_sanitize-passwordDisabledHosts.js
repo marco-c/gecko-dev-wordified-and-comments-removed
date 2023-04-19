@@ -33,7 +33,7 @@ logins
 setLoginSavingEnabled
 (
 "
-http
+https
 :
 /
 /
@@ -53,7 +53,7 @@ logins
 getLoginSavingEnabled
 (
 "
-http
+https
 :
 /
 /
@@ -111,7 +111,7 @@ logins
 getLoginSavingEnabled
 (
 "
-http
+https
 :
 /
 /

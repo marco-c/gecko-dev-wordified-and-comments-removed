@@ -50,7 +50,7 @@ PermissionTestUtils
 add
 (
 "
-http
+https
 :
 /
 /
