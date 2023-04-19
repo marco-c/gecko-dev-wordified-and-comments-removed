@@ -86,3 +86,4 @@ maxdepth
 1
 AccessibleCaret
 Reftest
+LayoutDebugger
