@@ -9340,6 +9340,8 @@ MegamorphicCache
 Entry
 *
 entry
+=
+nullptr
 ;
 if
 (
