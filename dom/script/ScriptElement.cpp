@@ -458,7 +458,7 @@ DebugGetSlots
 >
 mMutationObservers
 .
-Contains
+contains
 (
 this
 )

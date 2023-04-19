@@ -72,6 +72,13 @@ h
 #
 include
 "
+nsStubMutationObserver
+.
+h
+"
+#
+include
+"
 nsTHashMap
 .
 h
@@ -162,7 +169,7 @@ nsIDOMEventListener
 public
 nsIObserver
 public
-nsIMutationObserver
+nsMultiMutationObserver
 {
 public
 :
