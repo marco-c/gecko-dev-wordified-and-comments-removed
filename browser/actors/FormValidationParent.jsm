@@ -436,12 +436,12 @@ break
 ;
 case
 "
-popuphiding
+popuphidden
 "
 :
 this
 .
-_onPopupHiding
+_onPopupHidden
 (
 aEvent
 )
@@ -450,7 +450,7 @@ break
 ;
 }
 }
-_onPopupHiding
+_onPopupHidden
 (
 aEvent
 )
@@ -462,7 +462,7 @@ originalTarget
 removeEventListener
 (
 "
-popuphiding
+popuphidden
 "
 this
 true
@@ -608,10 +608,12 @@ gBrowser
 ;
 if
 (
-!
 previouslyShown
 )
 {
+return
+;
+}
 this
 .
 _panel
@@ -619,7 +621,7 @@ _panel
 addEventListener
 (
 "
-popuphiding
+popuphidden
 "
 this
 true
@@ -723,7 +725,6 @@ false
 false
 )
 ;
-}
 }
 _hidePopup
 (
