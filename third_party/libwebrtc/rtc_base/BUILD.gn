@@ -4604,6 +4604,10 @@ async_socket
 "
 "
 :
+callback_list
+"
+"
+:
 checks
 "
 "
