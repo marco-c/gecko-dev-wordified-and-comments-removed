@@ -246,7 +246,7 @@ wrappedJSObject
 .
 _settings
 .
-setMetaDataAttribute
+setAttribute
 (
 "
 useSavedOrder

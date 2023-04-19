@@ -6771,7 +6771,7 @@ this
 .
 _settings
 .
-getMetaDataAttribute
+getAttribute
 (
 attributeName
 )
@@ -6806,7 +6806,7 @@ this
 .
 _settings
 .
-getVerifiedMetaDataAttribute
+getVerifiedAttribute
 (
 attributeName
 )
@@ -8921,7 +8921,7 @@ this
 .
 _settings
 .
-setMetaDataAttribute
+setAttribute
 (
 "
 appDefaultEngine
@@ -10714,7 +10714,7 @@ this
 .
 _settings
 .
-setMetaDataAttribute
+setAttribute
 (
 "
 current
@@ -10751,7 +10751,7 @@ this
 .
 _settings
 .
-setMetaDataAttribute
+setAttribute
 (
 "
 private
@@ -11391,7 +11391,7 @@ this
 .
 _settings
 .
-setMetaDataAttribute
+setAttribute
 (
 "
 appDefaultEngine
@@ -12819,7 +12819,7 @@ this
 .
 _settings
 .
-setMetaDataAttribute
+setAttribute
 (
 key
 value
@@ -13008,7 +13008,7 @@ this
 .
 _settings
 .
-setMetaDataAttribute
+setAttribute
 (
 "
 useSavedOrder
@@ -13169,7 +13169,7 @@ this
 .
 _settings
 .
-getMetaDataAttribute
+getAttribute
 (
 "
 useSavedOrder
@@ -15467,7 +15467,7 @@ this
 .
 _settings
 .
-setVerifiedMetaDataAttribute
+setVerifiedAttribute
 (
 "
 current
@@ -15487,7 +15487,7 @@ this
 .
 _settings
 .
-setVerifiedMetaDataAttribute
+setVerifiedAttribute
 (
 "
 private
@@ -16996,7 +16996,7 @@ this
 .
 _settings
 .
-setVerifiedMetaDataAttribute
+setVerifiedAttribute
 (
 privateMode
 ?
@@ -19708,7 +19708,7 @@ this
 .
 _settings
 .
-getMetaDataAttribute
+getAttribute
 (
 p
 )
