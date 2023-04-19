@@ -151,6 +151,7 @@ u
 Directory
 "
 _ns
+true
 )
 ;
 mFileMetadata
@@ -166,6 +167,7 @@ u
 File
 "
 _ns
+false
 )
 ;
 mManager

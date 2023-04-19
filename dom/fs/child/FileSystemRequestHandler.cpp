@@ -367,6 +367,7 @@ get_EntryId
 (
 )
 kRootName
+true
 )
 )
 ;
@@ -424,6 +425,7 @@ get_EntryId
 (
 )
 aName
+true
 )
 )
 ;
@@ -481,6 +483,7 @@ get_EntryId
 (
 )
 aName
+false
 )
 )
 ;
