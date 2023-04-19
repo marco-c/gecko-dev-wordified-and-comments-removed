@@ -284,6 +284,13 @@ _hb_Null_AAT_Lookup
 0xFF
 }
 ;
+const
+hb_codepoint_t
+minus_1
+=
+-
+1
+;
 #
 ifndef
 HB_NO_BORING_EXPANSION

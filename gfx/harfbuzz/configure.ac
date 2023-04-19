@@ -14,9 +14,9 @@ HarfBuzz
 [
 4
 .
-3
+4
 .
-0
+1
 ]
 [
 https
@@ -3478,6 +3478,8 @@ DIRECTWRITE_CXXFLAGS
 =
 DIRECTWRITE_LIBS
 =
+-
+ldwrite
 AC_SUBST
 (
 DIRECTWRITE_CXXFLAGS
@@ -3997,6 +3999,11 @@ subset
 data
 /
 repack_tests
+/
+Makefile
+test
+/
+threads
 /
 Makefile
 perf

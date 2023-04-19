@@ -7933,6 +7933,22 @@ in
 )
 :
 	
+if
+language_len
+=
+=
+3
+:
+		
+print
+(
+'
+#
+ifndef
+HB_NO_LANGUAGE_LONG
+'
+)
+	
 print
 (
 '
@@ -8271,6 +8287,21 @@ print
 '
 )
 	
+if
+language_len
+=
+=
+3
+:
+		
+print
+(
+'
+#
+endif
+'
+)
+	
 print
 (
 )
@@ -8465,6 +8496,7 @@ print
 (
 '
 static
+inline
 bool
 '
 )
@@ -10027,6 +10059,7 @@ print
 (
 '
 static
+inline
 hb_language_t
 '
 )

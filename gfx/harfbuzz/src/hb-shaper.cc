@@ -26,7 +26,7 @@ hh
 static
 const
 hb_shaper_entry_t
-all_shapers
+_hb_all_shapers
 [
 ]
 =
@@ -74,7 +74,7 @@ static_assert
 =
 ARRAY_LENGTH_CONST
 (
-all_shapers
+_hb_all_shapers
 )
 "
 No
@@ -99,7 +99,6 @@ hb_shapers_lazy_loader_t
 :
 hb_lazy_loader_t
 <
-const
 hb_shaper_entry_t
 hb_shapers_lazy_loader_t
 >
@@ -148,7 +147,7 @@ hb_calloc
 1
 sizeof
 (
-all_shapers
+_hb_all_shapers
 )
 )
 ;
@@ -166,10 +165,10 @@ nullptr
 memcpy
 (
 shapers
-all_shapers
+_hb_all_shapers
 sizeof
 (
-all_shapers
+_hb_all_shapers
 )
 )
 ;
@@ -228,7 +227,7 @@ j
 <
 ARRAY_LENGTH
 (
-all_shapers
+_hb_all_shapers
 )
 ;
 j
@@ -353,7 +352,6 @@ static
 void
 destroy
 (
-const
 hb_shaper_entry_t
 *
 p
@@ -361,10 +359,6 @@ p
 {
 hb_free
 (
-(
-void
-*
-)
 p
 )
 ;
@@ -378,7 +372,7 @@ get_null
 )
 {
 return
-all_shapers
+_hb_all_shapers
 ;
 }
 }

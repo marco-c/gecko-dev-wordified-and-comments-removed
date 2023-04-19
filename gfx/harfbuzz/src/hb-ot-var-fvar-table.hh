@@ -876,6 +876,9 @@ axis_index
 &
 &
 (
+(
+void
+)
 axes
 [
 *
@@ -925,6 +928,9 @@ i
 &
 &
 (
+(
+void
+)
 axes
 [
 i

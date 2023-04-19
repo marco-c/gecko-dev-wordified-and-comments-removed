@@ -128,6 +128,15 @@ font
 )
 ;
 HB_EXTERN
+hb_bool_t
+hb_ft_hb_font_changed
+(
+hb_font_t
+*
+font
+)
+;
+HB_EXTERN
 void
 hb_ft_font_set_funcs
 (

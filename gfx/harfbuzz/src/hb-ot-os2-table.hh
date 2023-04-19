@@ -966,6 +966,9 @@ get_max
 enum
 font_page_t
 {
+FONT_PAGE_NONE
+=
+0
 FONT_PAGE_HEBREW
 =
 0xB100

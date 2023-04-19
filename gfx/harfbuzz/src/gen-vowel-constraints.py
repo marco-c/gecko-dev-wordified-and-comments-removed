@@ -38,7 +38,7 @@ the
 preprocess_text
 of
 an
-hb_ot_complex_shaper_t
+hb_ot_shaper_t
 .
 usage
 :
@@ -1743,9 +1743,7 @@ hb
 -
 ot
 -
-shape
--
-complex
+shaper
 -
 vowel
 -
@@ -1944,7 +1942,7 @@ print
 '
 #
 ifdef
-HB_NO_OT_SHAPE_COMPLEX_VOWEL_CONSTRAINTS
+HB_NO_OT_SHAPER_VOWEL_CONSTRAINTS
 '
 )
 print

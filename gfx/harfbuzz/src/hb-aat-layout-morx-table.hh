@@ -401,6 +401,14 @@ start
 l
 +
 r
+&
+&
+end
+-
+start
+<
+=
+HB_MAX_CONTEXT_LENGTH
 )
 {
 buffer

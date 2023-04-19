@@ -496,6 +496,7 @@ tag
 )
 ;
 }
+static
 const
 char
 direction_strings

@@ -341,6 +341,9 @@ hash
 (
 )
 ^
+(
+uint32_t
+)
 inverted
 ;
 }
@@ -454,6 +457,9 @@ inverted
 )
 ?
 (
+(
+void
+)
 s
 .
 del_range

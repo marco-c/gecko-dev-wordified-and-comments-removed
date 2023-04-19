@@ -2552,6 +2552,14 @@ srcdir
 )
 "
 \
+base_srcdir
+=
+"
+(
+srcdir
+)
+"
+\
 builddir
 =
 "
@@ -2761,6 +2769,11 @@ la
 HarfBuzz_0_0_gir_INCLUDES
 =
 GObject
+-
+2
+.
+0
+freetype2
 -
 2
 .

@@ -66,6 +66,11 @@ GSUB
 :
 GSUBGPOS
 {
+using
+Lookup
+=
+SubstLookup
+;
 static
 constexpr
 hb_tag_t

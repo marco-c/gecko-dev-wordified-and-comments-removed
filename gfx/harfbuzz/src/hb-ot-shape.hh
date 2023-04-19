@@ -128,7 +128,7 @@ props
 ;
 const
 struct
-hb_ot_complex_shaper_t
+hb_ot_shaper_t
 *
 shaper
 ;
@@ -521,7 +521,7 @@ script_fallback_mark_positioning
 ;
 const
 struct
-hb_ot_complex_shaper_t
+hb_ot_shaper_t
 *
 shaper
 ;

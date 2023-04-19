@@ -1835,6 +1835,14 @@ glyph
 hb_font_t
 *
 font
+VariationStore
+:
+:
+cache_t
+*
+store_cache
+=
+nullptr
 )
 const
 {
@@ -1870,6 +1878,7 @@ font
 -
 >
 num_coords
+store_cache
 )
 ;
 }
@@ -1942,7 +1951,7 @@ lsbMap
 rsbMap
 ;
 }
-protected
+public
 :
 FixedVersion
 <

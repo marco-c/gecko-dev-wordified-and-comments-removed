@@ -16,7 +16,7 @@ const
 hb_script_t
 _hb_ucd_sc_map
 [
-162
+163
 ]
 =
 {
@@ -182,6 +182,7 @@ HB_SCRIPT_OLD_UYGHUR
 HB_SCRIPT_TANGSA
 HB_SCRIPT_TOTO
 HB_SCRIPT_VITHKUQI
+HB_SCRIPT_MATH
 }
 ;
 static

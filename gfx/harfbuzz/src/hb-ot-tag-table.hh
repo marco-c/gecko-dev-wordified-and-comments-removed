@@ -5905,6 +5905,9 @@ L
 }
 }
 ;
+#
+ifndef
+HB_NO_LANGUAGE_LONG
 static
 const
 LangTag
@@ -40111,7 +40114,10 @@ A
 }
 }
 ;
+#
+endif
 static
+inline
 bool
 hb_ot_tags_from_complex_language
 (
@@ -48642,6 +48648,7 @@ false
 ;
 }
 static
+inline
 hb_language_t
 hb_ot_ambiguous_tag_to_language
 (

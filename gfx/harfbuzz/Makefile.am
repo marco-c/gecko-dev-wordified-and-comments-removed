@@ -122,14 +122,6 @@ meson
 .
 build
 \
-subprojects
-/
-ttf
--
-parser
-.
-wrap
-\
 mingw
 -
 configure

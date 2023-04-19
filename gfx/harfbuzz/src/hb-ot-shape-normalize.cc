@@ -28,9 +28,7 @@ hb
 -
 ot
 -
-shape
--
-complex
+shaper
 .
 hh
 "
@@ -394,13 +392,9 @@ return
 1
 ;
 }
-unsigned
-int
-ret
-;
 if
 (
-(
+unsigned
 ret
 =
 decompose
@@ -408,7 +402,6 @@ decompose
 c
 shortest
 a
-)
 )
 )
 {
@@ -1749,7 +1742,7 @@ end
 -
 i
 >
-HB_OT_SHAPE_COMPLEX_MAX_COMBINING_MARKS
+HB_OT_SHAPE_MAX_COMBINING_MARKS
 )
 {
 i

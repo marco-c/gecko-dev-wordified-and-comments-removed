@@ -347,6 +347,11 @@ _
 colorLabels
 )
 {
+const
+hb_codepoint_t
+*
+v
+;
 if
 (
 !
@@ -356,6 +361,8 @@ color_index_map
 has
 (
 _
+&
+v
 )
 )
 continue
@@ -365,13 +372,8 @@ new_color_idx
 ;
 new_color_idx
 =
-color_index_map
--
->
-get
-(
-_
-)
+*
+v
 ;
 if
 (

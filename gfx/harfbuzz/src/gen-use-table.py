@@ -1588,6 +1588,32 @@ UISC
 =
 =
 Virama
+and
+not
+is_HALANT_OR_VOWEL_MODIFIER
+(
+U
+UISC
+UDI
+UGC
+AJT
+)
+def
+is_HALANT_OR_VOWEL_MODIFIER
+(
+U
+UISC
+UDI
+UGC
+AJT
+)
+:
+	
+return
+U
+=
+=
+0x0DCA
 def
 is_HALANT_NUM
 (
@@ -2045,6 +2071,12 @@ H
 is_HALANT
 	
 '
+HVM
+'
+:
+is_HALANT_OR_VOWEL_MODIFIER
+	
+'
 HN
 '
 :
@@ -2347,6 +2379,12 @@ Bottom
 	
 '
 H
+'
+:
+None
+	
+'
+HVM
 '
 :
 None
@@ -2968,7 +3006,7 @@ print
 "
 #
 ifndef
-HB_OT_SHAPE_COMPLEX_USE_TABLE_HH
+HB_OT_SHAPER_USE_TABLE_HH
 "
 )
 print
@@ -2976,7 +3014,7 @@ print
 "
 #
 define
-HB_OT_SHAPE_COMPLEX_USE_TABLE_HH
+HB_OT_SHAPER_USE_TABLE_HH
 "
 )
 print
@@ -3007,9 +3045,7 @@ hb
 -
 ot
 -
-shape
--
-complex
+shaper
 -
 use
 -
@@ -4086,7 +4122,7 @@ print
 endif
 /
 *
-HB_OT_SHAPE_COMPLEX_USE_TABLE_HH
+HB_OT_SHAPER_USE_TABLE_HH
 *
 /
 "

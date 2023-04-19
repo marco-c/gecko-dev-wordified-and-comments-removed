@@ -1287,6 +1287,14 @@ glyph
 hb_font_t
 *
 font
+VariationStore
+:
+:
+cache_t
+*
+store_cache
+=
+nullptr
 )
 const
 {
@@ -1342,6 +1350,7 @@ get_advance_var
 (
 glyph
 font
+store_cache
 )
 )
 ;
@@ -1385,7 +1394,7 @@ unsigned
 int
 default_advance
 ;
-private
+public
 :
 hb_blob_ptr_t
 <

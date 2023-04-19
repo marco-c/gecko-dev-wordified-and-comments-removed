@@ -1526,8 +1526,6 @@ sizeof
 (
 _PATH_RSRCFORKSPEC
 )
--
-1
 )
 ;
 int

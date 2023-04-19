@@ -357,6 +357,7 @@ HB_EXTERN
 hb_buffer_content_type_t
 hb_buffer_get_content_type
 (
+const
 hb_buffer_t
 *
 buffer
@@ -379,6 +380,7 @@ hb_unicode_funcs_t
 *
 hb_buffer_get_unicode_funcs
 (
+const
 hb_buffer_t
 *
 buffer
@@ -399,6 +401,7 @@ HB_EXTERN
 hb_direction_t
 hb_buffer_get_direction
 (
+const
 hb_buffer_t
 *
 buffer
@@ -419,6 +422,7 @@ HB_EXTERN
 hb_script_t
 hb_buffer_get_script
 (
+const
 hb_buffer_t
 *
 buffer
@@ -439,6 +443,7 @@ HB_EXTERN
 hb_language_t
 hb_buffer_get_language
 (
+const
 hb_buffer_t
 *
 buffer
@@ -461,6 +466,7 @@ HB_EXTERN
 void
 hb_buffer_get_segment_properties
 (
+const
 hb_buffer_t
 *
 buffer
@@ -505,6 +511,9 @@ HB_BUFFER_FLAG_VERIFY
 HB_BUFFER_FLAG_PRODUCE_UNSAFE_TO_CONCAT
 =
 0x00000040u
+HB_BUFFER_FLAG_DEFINED
+=
+0x0000007Fu
 }
 hb_buffer_flags_t
 ;
@@ -523,6 +532,7 @@ HB_EXTERN
 hb_buffer_flags_t
 hb_buffer_get_flags
 (
+const
 hb_buffer_t
 *
 buffer
@@ -561,6 +571,7 @@ HB_EXTERN
 hb_buffer_cluster_level_t
 hb_buffer_get_cluster_level
 (
+const
 hb_buffer_t
 *
 buffer
@@ -585,6 +596,7 @@ HB_EXTERN
 hb_codepoint_t
 hb_buffer_get_replacement_codepoint
 (
+const
 hb_buffer_t
 *
 buffer
@@ -605,6 +617,7 @@ HB_EXTERN
 hb_codepoint_t
 hb_buffer_get_invisible_glyph
 (
+const
 hb_buffer_t
 *
 buffer
@@ -625,6 +638,7 @@ HB_EXTERN
 hb_codepoint_t
 hb_buffer_get_not_found_glyph
 (
+const
 hb_buffer_t
 *
 buffer
@@ -843,6 +857,7 @@ unsigned
 int
 hb_buffer_get_length
 (
+const
 hb_buffer_t
 *
 buffer
@@ -918,6 +933,9 @@ HB_BUFFER_SERIALIZE_FLAG_GLYPH_FLAGS
 HB_BUFFER_SERIALIZE_FLAG_NO_ADVANCES
 =
 0x00000020u
+HB_BUFFER_SERIALIZE_FLAG_DEFINED
+=
+0x0000003Fu
 }
 hb_buffer_serialize_flags_t
 ;
