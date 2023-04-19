@@ -2862,17 +2862,6 @@ s
 ;
 ABSL_MUST_USE_RESULT
 ParseStatus
-ParseStreamInternalV3
-(
-absl
-:
-:
-string_view
-s
-)
-;
-ABSL_MUST_USE_RESULT
-ParseStatus
 StoreParsedLegacyEvent
 (
 const
