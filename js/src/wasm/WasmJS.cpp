@@ -1828,6 +1828,9 @@ return
 false
 ;
 }
+#
+ifndef
+__wasi__
 if
 (
 !
@@ -1844,6 +1847,8 @@ return
 false
 ;
 }
+#
+endif
 if
 (
 !

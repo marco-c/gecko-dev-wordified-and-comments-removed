@@ -60,6 +60,9 @@ arm64
 "
 loong64
 "
+"
+wasm32
+"
 ]
 )
 all_shared_architecture_names
@@ -78,6 +81,9 @@ arm64
 "
 "
 loong64
+"
+"
+wasm32
 "
 ]
 )

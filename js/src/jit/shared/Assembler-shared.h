@@ -160,6 +160,12 @@ defined
 (
 JS_CODEGEN_LOONG64
 )
+|
+|
+defined
+(
+JS_CODEGEN_WASM32
+)
 #
 define
 JS_USE_LINK_REGISTER
