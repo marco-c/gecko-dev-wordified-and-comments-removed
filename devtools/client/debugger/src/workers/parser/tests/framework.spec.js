@@ -78,7 +78,7 @@ symbols
 framework
 )
 .
-toBeUndefined
+toBeNull
 (
 )
 ;
@@ -103,7 +103,7 @@ plainJavascript
 "
 value
 :
-undefined
+null
 }
 {
 name
@@ -129,7 +129,7 @@ angular1FalsePositive
 "
 value
 :
-undefined
+null
 }
 {
 name

@@ -251,7 +251,7 @@ query
 "
 location
 :
-undefined
+null
 }
 {
 name

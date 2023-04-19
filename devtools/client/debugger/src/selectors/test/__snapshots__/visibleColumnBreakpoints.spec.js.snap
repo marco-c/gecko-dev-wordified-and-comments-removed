@@ -279,7 +279,7 @@ Object
 breakpoint
 "
 :
-undefined
+null
 "
 location
 "
@@ -442,7 +442,7 @@ Object
 breakpoint
 "
 :
-undefined
+null
 "
 location
 "
@@ -602,7 +602,7 @@ Object
 breakpoint
 "
 :
-undefined
+null
 "
 location
 "
