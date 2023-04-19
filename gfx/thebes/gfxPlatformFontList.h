@@ -1782,8 +1782,10 @@ REQUIRES
 mLock
 )
 ;
+already_AddRefed
+<
 gfxCharacterMap
-*
+>
 FindCharMap
 (
 gfxCharacterMap
