@@ -999,15 +999,3 @@ WindowsPreviewPerTab
 jsm
 "
 ]
-EXTRA_JS_MODULES
-.
-backgroundtasks
-+
-=
-[
-"
-BackgroundTask_uninstall
-.
-jsm
-"
-]
