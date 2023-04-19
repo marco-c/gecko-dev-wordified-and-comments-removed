@@ -149,6 +149,16 @@ LagEstimate
 lag_estimates
 )
 ;
+bool
+ReliableDelayFound
+(
+)
+const
+{
+return
+significant_candidate_found_
+;
+}
 private
 :
 ApmDataDumper

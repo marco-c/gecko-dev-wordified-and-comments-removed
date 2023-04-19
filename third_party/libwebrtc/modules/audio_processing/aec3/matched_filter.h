@@ -336,7 +336,9 @@ alignment_shift_sub_blocks
 float
 excitation_limit
 float
-smoothing
+smoothing_fast
+float
+smoothing_slow
 float
 matching_filter_threshold
 )
@@ -389,6 +391,8 @@ const
 float
 >
 capture
+bool
+use_slow_smoothing
 )
 ;
 void
@@ -511,7 +515,11 @@ excitation_limit_
 ;
 const
 float
-smoothing_
+smoothing_fast_
+;
+const
+float
+smoothing_slow_
 ;
 const
 float

@@ -175,6 +175,11 @@ config
 .
 delay
 .
+delay_estimate_smoothing_delay_found
+config
+.
+delay
+.
 delay_candidate_detection_threshold
 )
 matched_filter_lag_aggregator_
@@ -362,6 +367,11 @@ Update
 (
 render_buffer
 downsampled_capture
+matched_filter_lag_aggregator_
+.
+ReliableDelayFound
+(
+)
 )
 ;
 absl

@@ -141,6 +141,13 @@ delay_estimate_smoothing
 7f
 ;
 float
+delay_estimate_smoothing_delay_found
+=
+0
+.
+7f
+;
+float
 delay_candidate_detection_threshold
 =
 0
