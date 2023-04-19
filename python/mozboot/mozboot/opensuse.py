@@ -56,10 +56,6 @@ rpmconf
 "
         
 "
-watchman
-"
-        
-"
 which
 "
     
