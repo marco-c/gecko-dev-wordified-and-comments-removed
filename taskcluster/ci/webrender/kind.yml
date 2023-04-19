@@ -2284,7 +2284,7 @@ t
 -
 linux
 -
-kvm
+metal
 #
 privileged
 :
@@ -2632,7 +2632,7 @@ t
 -
 linux
 -
-kvm
+metal
 #
 privileged
 :

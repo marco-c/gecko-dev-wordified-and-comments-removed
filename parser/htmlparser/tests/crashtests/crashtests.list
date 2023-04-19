@@ -402,16 +402,7 @@ load
 1
 .
 html
-skip
--
-if
-(
-Android
-)
 load
 1747514
 .
 html
-#
-Bug
-1780219
