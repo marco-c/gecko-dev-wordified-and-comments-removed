@@ -2739,7 +2739,7 @@ evict_cache_entries
 (
 )
 ;
-var
+let
 chan
 =
 make_channel
@@ -2772,7 +2772,6 @@ received_partial_2
 )
 )
 ;
-var
 chan
 =
 make_channel
@@ -2805,7 +2804,6 @@ received_partial_3
 )
 )
 ;
-var
 chan
 =
 make_channel
@@ -2838,7 +2836,6 @@ received_partial_4
 )
 )
 ;
-var
 chan
 =
 make_channel
@@ -2871,7 +2868,6 @@ received_partial_5
 )
 )
 ;
-var
 chan
 =
 make_channel
@@ -2904,7 +2900,6 @@ received_partial_6
 )
 )
 ;
-var
 chan
 =
 make_channel
@@ -2937,7 +2932,6 @@ received_partial_7
 )
 )
 ;
-var
 chan
 =
 make_channel
@@ -2970,7 +2964,6 @@ received_partial_8
 )
 )
 ;
-var
 chan
 =
 make_channel

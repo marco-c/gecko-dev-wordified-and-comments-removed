@@ -921,7 +921,7 @@ run_test
 {
 for
 (
-var
+let
 i
 =
 0
@@ -976,7 +976,7 @@ i
 }
 for
 (
-var
+let
 i
 =
 0
