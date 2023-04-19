@@ -1400,6 +1400,15 @@ STATUS
 .
 SERVER_ERROR
 ;
+lazy
+.
+gPrefs
+.
+clearUserPref
+(
+PREF_SETTINGS_LAST_ETAG
+)
+;
 }
 else
 if
