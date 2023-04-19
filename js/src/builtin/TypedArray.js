@@ -102,9 +102,11 @@ buffer
 =
 null
 )
+{
 return
 false
 ;
+}
 assert
 (
 GuardToArrayBuffer
@@ -150,9 +152,11 @@ buffer
 =
 null
 )
+{
 return
 false
 ;
+}
 var
 flags
 =
@@ -207,11 +211,13 @@ IsDetachedBuffer
 buffer
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_TYPED_ARRAY_DETACHED
 )
 ;
+}
 return
 buffer
 ;
@@ -305,12 +311,14 @@ ctor
 =
 undefined
 )
+{
 return
 ConstructorForTypedArray
 (
 obj
 )
 ;
+}
 if
 (
 !
@@ -319,6 +327,7 @@ IsObject
 ctor
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_OBJECT_REQUIRED
@@ -333,6 +342,7 @@ property
 "
 )
 ;
+}
 var
 s
 =
@@ -361,12 +371,14 @@ s
 =
 null
 )
+{
 return
 ConstructorForTypedArray
 (
 obj
 )
 ;
+}
 if
 (
 IsConstructor
@@ -374,9 +386,11 @@ IsConstructor
 s
 )
 )
+{
 return
 s
 ;
+}
 ThrowTypeError
 (
 JSMSG_NOT_CONSTRUCTOR
@@ -438,11 +452,13 @@ PossiblyWrappedTypedArrayHasDetachedBuffer
 obj
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_TYPED_ARRAY_DETACHED
 )
 ;
+}
 return
 false
 ;
@@ -515,6 +531,7 @@ len
 <
 length
 )
+{
 ThrowTypeError
 (
 JSMSG_SHORT_TYPED_ARRAY_RETURNED
@@ -522,6 +539,7 @@ length
 len
 )
 ;
+}
 return
 newTypedArray
 ;
@@ -655,6 +673,7 @@ if
 (
 isTypedArray
 )
+{
 len
 =
 TypedArrayLength
@@ -662,7 +681,9 @@ TypedArrayLength
 O
 )
 ;
+}
 else
+{
 len
 =
 callFunction
@@ -674,6 +695,7 @@ TypedArrayLengthMethod
 "
 )
 ;
+}
 if
 (
 arguments
@@ -684,6 +706,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -699,6 +722,7 @@ every
 "
 )
 ;
+}
 if
 (
 !
@@ -707,6 +731,7 @@ IsCallable
 callbackfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -717,6 +742,7 @@ callbackfn
 )
 )
 ;
+}
 var
 thisArg
 =
@@ -774,9 +800,11 @@ if
 !
 testResult
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -982,11 +1010,13 @@ IsDetachedBuffer
 buffer
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_TYPED_ARRAY_DETACHED
 )
 ;
+}
 for
 (
 ;
@@ -1037,6 +1067,7 @@ if
 (
 isTypedArray
 )
+{
 len
 =
 TypedArrayLength
@@ -1044,7 +1075,9 @@ TypedArrayLength
 O
 )
 ;
+}
 else
+{
 len
 =
 callFunction
@@ -1056,6 +1089,7 @@ TypedArrayLengthMethod
 "
 )
 ;
+}
 if
 (
 arguments
@@ -1066,6 +1100,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -1081,6 +1116,7 @@ filter
 "
 )
 ;
+}
 if
 (
 !
@@ -1089,6 +1125,7 @@ IsCallable
 callbackfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -1099,6 +1136,7 @@ callbackfn
 )
 )
 ;
+}
 var
 T
 =
@@ -1248,6 +1286,7 @@ if
 (
 isTypedArray
 )
+{
 len
 =
 TypedArrayLength
@@ -1255,7 +1294,9 @@ TypedArrayLength
 O
 )
 ;
+}
 else
+{
 len
 =
 callFunction
@@ -1267,6 +1308,7 @@ TypedArrayLengthMethod
 "
 )
 ;
+}
 if
 (
 arguments
@@ -1277,6 +1319,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -1292,6 +1335,7 @@ find
 "
 )
 ;
+}
 if
 (
 !
@@ -1300,6 +1344,7 @@ IsCallable
 predicate
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -1310,6 +1355,7 @@ predicate
 )
 )
 ;
+}
 var
 thisArg
 =
@@ -1361,9 +1407,11 @@ k
 O
 )
 )
+{
 return
 kValue
 ;
+}
 }
 return
 undefined
@@ -1395,6 +1443,7 @@ if
 (
 isTypedArray
 )
+{
 len
 =
 TypedArrayLength
@@ -1402,7 +1451,9 @@ TypedArrayLength
 O
 )
 ;
+}
 else
+{
 len
 =
 callFunction
@@ -1414,6 +1465,7 @@ TypedArrayLengthMethod
 "
 )
 ;
+}
 if
 (
 arguments
@@ -1424,6 +1476,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -1439,6 +1492,7 @@ findIndex
 "
 )
 ;
+}
 if
 (
 !
@@ -1447,6 +1501,7 @@ IsCallable
 predicate
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -1457,6 +1512,7 @@ predicate
 )
 )
 ;
+}
 var
 thisArg
 =
@@ -1503,9 +1559,11 @@ k
 O
 )
 )
+{
 return
 k
 ;
+}
 }
 return
 -
@@ -1538,6 +1596,7 @@ if
 (
 isTypedArray
 )
+{
 len
 =
 TypedArrayLength
@@ -1545,7 +1604,9 @@ TypedArrayLength
 O
 )
 ;
+}
 else
+{
 len
 =
 callFunction
@@ -1557,6 +1618,7 @@ TypedArrayLengthMethod
 "
 )
 ;
+}
 if
 (
 arguments
@@ -1567,6 +1629,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -1580,6 +1643,7 @@ forEach
 "
 )
 ;
+}
 if
 (
 !
@@ -1588,6 +1652,7 @@ IsCallable
 callbackfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -1598,6 +1663,7 @@ callbackfn
 )
 )
 ;
+}
 var
 thisArg
 =
@@ -1716,10 +1782,12 @@ len
 =
 0
 )
+{
 return
 -
 1
 ;
+}
 var
 n
 =
@@ -1796,10 +1864,12 @@ n
 =
 len
 )
+{
 return
 -
 1
 ;
+}
 var
 k
 ;
@@ -1830,10 +1900,12 @@ k
 <
 0
 )
+{
 k
 =
 0
 ;
+}
 }
 for
 (
@@ -1870,9 +1942,11 @@ k
 =
 searchElement
 )
+{
 return
 k
 ;
+}
 }
 return
 -
@@ -1956,10 +2030,12 @@ len
 =
 0
 )
+{
 return
 "
 "
 ;
+}
 if
 (
 TypedArrayLength
@@ -2220,10 +2296,12 @@ len
 =
 0
 )
+{
 return
 -
 1
 ;
+}
 var
 n
 =
@@ -2338,9 +2416,11 @@ k
 =
 searchElement
 )
+{
 return
 k
 ;
+}
 }
 return
 -
@@ -2373,6 +2453,7 @@ if
 (
 isTypedArray
 )
+{
 len
 =
 TypedArrayLength
@@ -2380,7 +2461,9 @@ TypedArrayLength
 O
 )
 ;
+}
 else
+{
 len
 =
 callFunction
@@ -2392,6 +2475,7 @@ TypedArrayLengthMethod
 "
 )
 ;
+}
 if
 (
 arguments
@@ -2402,6 +2486,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -2417,6 +2502,7 @@ map
 "
 )
 ;
+}
 if
 (
 !
@@ -2425,6 +2511,7 @@ IsCallable
 callbackfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -2435,6 +2522,7 @@ callbackfn
 )
 )
 ;
+}
 var
 T
 =
@@ -2534,6 +2622,7 @@ if
 (
 isTypedArray
 )
+{
 len
 =
 TypedArrayLength
@@ -2541,7 +2630,9 @@ TypedArrayLength
 O
 )
 ;
+}
 else
+{
 len
 =
 callFunction
@@ -2553,6 +2644,7 @@ TypedArrayLengthMethod
 "
 )
 ;
+}
 if
 (
 arguments
@@ -2563,6 +2655,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -2578,6 +2671,7 @@ reduce
 "
 )
 ;
+}
 if
 (
 !
@@ -2586,6 +2680,7 @@ IsCallable
 callbackfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -2596,6 +2691,7 @@ callbackfn
 )
 )
 ;
+}
 if
 (
 len
@@ -2613,11 +2709,13 @@ length
 =
 1
 )
+{
 ThrowTypeError
 (
 JSMSG_EMPTY_ARRAY_REDUCE
 )
 ;
+}
 var
 k
 =
@@ -2702,6 +2800,7 @@ if
 (
 isTypedArray
 )
+{
 len
 =
 TypedArrayLength
@@ -2709,7 +2808,9 @@ TypedArrayLength
 O
 )
 ;
+}
 else
+{
 len
 =
 callFunction
@@ -2721,6 +2822,7 @@ TypedArrayLengthMethod
 "
 )
 ;
+}
 if
 (
 arguments
@@ -2731,6 +2833,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -2746,6 +2849,7 @@ reduceRight
 "
 )
 ;
+}
 if
 (
 !
@@ -2754,6 +2858,7 @@ IsCallable
 callbackfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -2764,6 +2869,7 @@ callbackfn
 )
 )
 ;
+}
 if
 (
 len
@@ -2781,11 +2887,13 @@ length
 =
 1
 )
+{
 ThrowTypeError
 (
 JSMSG_EMPTY_ARRAY_REDUCE
 )
 ;
+}
 var
 k
 =
@@ -3143,11 +3251,13 @@ IsDetachedBuffer
 buffer
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_TYPED_ARRAY_DETACHED
 )
 ;
+}
 var
 sliced
 =
@@ -3224,6 +3334,7 @@ if
 (
 isTypedArray
 )
+{
 len
 =
 TypedArrayLength
@@ -3231,7 +3342,9 @@ TypedArrayLength
 O
 )
 ;
+}
 else
+{
 len
 =
 callFunction
@@ -3243,6 +3356,7 @@ TypedArrayLengthMethod
 "
 )
 ;
+}
 if
 (
 arguments
@@ -3253,6 +3367,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -3268,6 +3383,7 @@ some
 "
 )
 ;
+}
 if
 (
 !
@@ -3276,6 +3392,7 @@ IsCallable
 callbackfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -3286,6 +3403,7 @@ callbackfn
 )
 )
 ;
+}
 var
 thisArg
 =
@@ -3342,9 +3460,11 @@ if
 (
 testResult
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -3378,6 +3498,7 @@ IsCallable
 comparefn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -3388,6 +3509,7 @@ comparefn
 )
 )
 ;
+}
 }
 var
 obj
@@ -3439,9 +3561,11 @@ len
 =
 1
 )
+{
 return
 obj
 ;
+}
 if
 (
 comparefn
@@ -3450,12 +3574,14 @@ comparefn
 =
 undefined
 )
+{
 return
 TypedArrayNativeSort
 (
 obj
 )
 ;
+}
 var
 wrappedCompareFn
 =
@@ -3485,9 +3611,11 @@ v
 =
 v
 )
+{
 return
 0
 ;
+}
 return
 v
 ;
@@ -3533,6 +3661,7 @@ if
 (
 isTypedArray
 )
+{
 len
 =
 TypedArrayLength
@@ -3540,7 +3669,9 @@ TypedArrayLength
 array
 )
 ;
+}
 else
+{
 len
 =
 callFunction
@@ -3552,6 +3683,7 @@ TypedArrayLengthMethod
 "
 )
 ;
+}
 if
 (
 len
@@ -3560,10 +3692,12 @@ len
 =
 0
 )
+{
 return
 "
 "
 ;
+}
 var
 firstElement
 =
@@ -4405,9 +4539,11 @@ len
 =
 0
 )
+{
 return
 false
 ;
+}
 var
 n
 =
@@ -4470,10 +4606,12 @@ k
 <
 0
 )
+{
 k
 =
 0
 ;
+}
 }
 while
 (
@@ -4493,9 +4631,11 @@ k
 ]
 )
 )
+{
 return
 true
 ;
+}
 k
 +
 +
@@ -4530,6 +4670,7 @@ IsConstructor
 C
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_CONSTRUCTOR
@@ -4537,6 +4678,7 @@ typeof
 C
 )
 ;
+}
 var
 mapping
 ;
@@ -4557,6 +4699,7 @@ IsCallable
 mapfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -4567,6 +4710,7 @@ mapfn
 )
 )
 ;
+}
 mapping
 =
 true
@@ -4621,6 +4765,7 @@ IsCallable
 usingIterator
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_ITERABLE
@@ -4631,6 +4776,7 @@ source
 )
 )
 ;
+}
 if
 (
 !
@@ -4950,6 +5096,7 @@ IsConstructor
 C
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_CONSTRUCTOR
@@ -4957,6 +5104,7 @@ typeof
 C
 )
 ;
+}
 var
 newObj
 =
@@ -4981,6 +5129,7 @@ k
 +
 +
 )
+{
 newObj
 [
 k
@@ -4991,6 +5140,7 @@ items
 k
 ]
 ;
+}
 return
 newObj
 ;
@@ -5056,11 +5206,13 @@ IsObject
 iterator
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_GET_ITER_RETURNED_PRIMITIVE
 )
 ;
+}
 var
 nextMethod
 =
@@ -5101,6 +5253,7 @@ IsObject
 next
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_ITER_METHOD_RETURNED_PRIMITIVE
@@ -5109,14 +5262,17 @@ next
 "
 )
 ;
+}
 if
 (
 next
 .
 done
 )
+{
 break
 ;
+}
 DefineDataProperty
 (
 values
@@ -5188,11 +5344,13 @@ IsDetachedBuffer
 O
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_TYPED_ARRAY_DETACHED
 )
 ;
+}
 var
 len
 =
@@ -5333,11 +5491,13 @@ IsDetachedBuffer
 newBuffer
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_TYPED_ARRAY_DETACHED
 )
 ;
+}
 }
 else
 {
@@ -5353,11 +5513,13 @@ IsWrappedArrayBuffer
 newBuffer
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NON_ARRAY_BUFFER_RETURNED
 )
 ;
+}
 isWrapped
 =
 true
@@ -5373,11 +5535,13 @@ IsDetachedBufferThis
 "
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_TYPED_ARRAY_DETACHED
 )
 ;
+}
 }
 if
 (
@@ -5387,11 +5551,13 @@ newBuffer
 =
 O
 )
+{
 ThrowTypeError
 (
 JSMSG_SAME_ARRAY_BUFFER_RETURNED
 )
 ;
+}
 var
 actualLen
 =
@@ -5406,6 +5572,7 @@ actualLen
 <
 newLen
 )
+{
 ThrowTypeError
 (
 JSMSG_SHORT_ARRAY_BUFFER_RETURNED
@@ -5413,6 +5580,7 @@ newLen
 actualLen
 )
 ;
+}
 if
 (
 IsDetachedBuffer
@@ -5420,11 +5588,13 @@ IsDetachedBuffer
 O
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_TYPED_ARRAY_DETACHED
 )
 ;
+}
 ArrayBufferCopyData
 (
 newBuffer
@@ -5684,11 +5854,13 @@ IsWrappedSharedArrayBuffer
 new_
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NON_SHARED_ARRAY_BUFFER_RETURNED
 )
 ;
+}
 isWrapped
 =
 true
@@ -5713,11 +5885,13 @@ newObj
 O
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_SAME_SHARED_ARRAY_BUFFER_RETURNED
 )
 ;
+}
 var
 actualLen
 =
@@ -5732,6 +5906,7 @@ actualLen
 <
 newLen
 )
+{
 ThrowTypeError
 (
 JSMSG_SHORT_SHARED_ARRAY_BUFFER_RETURNED
@@ -5739,6 +5914,7 @@ newLen
 actualLen
 )
 ;
+}
 SharedArrayBufferCopyData
 (
 newObj
