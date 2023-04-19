@@ -3764,10 +3764,12 @@ nsContentUtils
 :
 CheckMayLoad
 (
-loadInfo
+MediaElement
+(
+)
 -
 >
-GetLoadingPrincipal
+NodePrincipal
 (
 )
 mChannel
