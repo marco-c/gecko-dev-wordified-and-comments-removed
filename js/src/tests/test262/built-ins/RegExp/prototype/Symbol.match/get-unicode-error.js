@@ -58,15 +58,6 @@ accessor
 }
 )
 ;
-assert
-.
-throws
-(
-Test262Error
-function
-(
-)
-{
 nonGlobalRe
 [
 Symbol
@@ -76,9 +67,6 @@ match
 (
 '
 '
-)
-;
-}
 )
 ;
 assert

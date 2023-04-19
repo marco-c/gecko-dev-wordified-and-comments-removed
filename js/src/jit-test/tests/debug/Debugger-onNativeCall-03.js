@@ -127,9 +127,7 @@ EnterFrame
 sort
 "
 "
-ArraySortCompare
-/
-<
+comparefn
 "
 "
 EnterFrame
@@ -138,9 +136,7 @@ EnterFrame
 print
 "
 "
-ArraySortCompare
-/
-<
+comparefn
 "
 "
 EnterFrame
