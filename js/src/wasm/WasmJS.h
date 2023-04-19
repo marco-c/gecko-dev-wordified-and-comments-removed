@@ -452,6 +452,14 @@ WASM_FEATURE
 undef
 WASM_FEATURE
 bool
+SimdAvailable
+(
+JSContext
+*
+cx
+)
+;
+bool
 IsSimdPrivilegedContext
 (
 JSContext

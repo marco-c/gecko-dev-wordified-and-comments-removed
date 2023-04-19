@@ -499,7 +499,7 @@ if
 env
 -
 >
-v128Enabled
+simdAvailable
 (
 )
 )

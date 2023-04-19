@@ -34494,7 +34494,7 @@ moduleEnv
 (
 )
 .
-v128Enabled
+simdAvailable
 (
 )
 )

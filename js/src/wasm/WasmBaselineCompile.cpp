@@ -47176,7 +47176,7 @@ if
 !
 moduleEnv_
 .
-v128Enabled
+simdAvailable
 (
 )
 )
