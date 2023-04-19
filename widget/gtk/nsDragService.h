@@ -600,6 +600,8 @@ ReplyToDragMotion
 GdkDragContext
 *
 aDragContext
+guint
+aTime
 )
 ;
 void
