@@ -277,6 +277,13 @@ kind
 const
 override
 ;
+VideoTrackSourceInterface
+*
+GetSourceInternal
+(
+)
+const
+;
 protected
 :
 VideoTrack
