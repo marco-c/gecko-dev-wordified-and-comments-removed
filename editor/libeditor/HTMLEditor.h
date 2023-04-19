@@ -4783,7 +4783,7 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
-nsresult
+CreateElementResult
 AlignNodesAndDescendants
 (
 nsTArray
@@ -4799,6 +4799,10 @@ const
 nsAString
 &
 aAlignType
+const
+Element
+&
+aEditingHost
 )
 ;
 [
@@ -4808,8 +4812,11 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 nsresult
-AlignContentsAtSelection
+AlignContentsAtRanges
 (
+AutoRangeArray
+&
+aRanges
 const
 nsAString
 &
