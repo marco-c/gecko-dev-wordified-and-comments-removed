@@ -39,15 +39,6 @@ h
 #
 include
 "
-pc
-/
-peer_connection
-.
-h
-"
-#
-include
-"
 rtc_base
 /
 checks

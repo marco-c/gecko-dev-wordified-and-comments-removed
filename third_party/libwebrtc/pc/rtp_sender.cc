@@ -56,16 +56,7 @@ include
 "
 pc
 /
-peer_connection
-.
-h
-"
-#
-include
-"
-pc
-/
-stats_collector
+stats_collector_interface
 .
 h
 "
@@ -2176,7 +2167,7 @@ std
 string
 &
 id
-StatsCollector
+StatsCollectorInterface
 *
 stats
 SetStreamsObserver
@@ -2228,7 +2219,7 @@ std
 string
 &
 id
-StatsCollector
+StatsCollectorInterface
 *
 stats
 SetStreamsObserver

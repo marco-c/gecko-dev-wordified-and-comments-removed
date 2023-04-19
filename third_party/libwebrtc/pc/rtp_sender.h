@@ -83,7 +83,7 @@ namespace
 webrtc
 {
 class
-StatsCollector
+StatsCollectorInterface
 ;
 bool
 UnimplementedRtpParameterHasValue
@@ -985,7 +985,7 @@ std
 string
 &
 id
-StatsCollector
+StatsCollectorInterface
 *
 stats
 SetStreamsObserver
@@ -1097,7 +1097,7 @@ std
 string
 &
 id
-StatsCollector
+StatsCollectorInterface
 *
 stats
 SetStreamsObserver
@@ -1210,7 +1210,7 @@ signal0
 >
 SignalDestroyed
 ;
-StatsCollector
+StatsCollectorInterface
 *
 stats_
 =
