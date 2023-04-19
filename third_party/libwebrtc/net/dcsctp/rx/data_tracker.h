@@ -126,6 +126,13 @@ DataTracker
 {
 public
 :
+static
+constexpr
+uint32_t
+kMaxAcceptedOutstandingFragments
+=
+256
+;
 explicit
 DataTracker
 (
@@ -178,6 +185,14 @@ peer_initial_tsn
 )
 {
 }
+bool
+IsTSNValid
+(
+TSN
+tsn
+)
+const
+;
 void
 Observe
 (
@@ -351,7 +366,7 @@ set
 <
 UnwrappedTSN
 >
-additional_tsns
+additional_tsns_
 ;
 std
 :
