@@ -212,7 +212,7 @@ kNewAlign
 )
 >
 =
-8
+4
 "
 "
 )
@@ -225,7 +225,7 @@ ExplicitlyConstructedArenaString
 )
 >
 =
-8
+4
 "
 "
 )
