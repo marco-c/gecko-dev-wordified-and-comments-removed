@@ -663,6 +663,10 @@ scoped_refptr
 "
 "
 :
+sequence_checker
+"
+"
+:
 video_track_source_constraints
 "
 "
@@ -690,6 +694,16 @@ checks
 rtc_base
 :
 refcount
+"
+"
+.
+.
+/
+rtc_base
+/
+system
+:
+no_unique_address
 "
 "
 .
