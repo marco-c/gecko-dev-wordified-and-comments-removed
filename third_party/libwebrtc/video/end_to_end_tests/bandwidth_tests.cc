@@ -1723,14 +1723,6 @@ GetFieldTrialString
 "
 WebRTC
 -
-SubtractPacketizationOverhead
-/
-Disabled
-/
-"
-"
-WebRTC
--
 VideoRateControl
 /
 bitrate_adjuster

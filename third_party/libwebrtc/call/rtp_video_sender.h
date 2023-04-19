@@ -859,10 +859,6 @@ send_side_bwe_with_overhead_
 ;
 const
 bool
-account_for_packetization_overhead_
-;
-const
-bool
 has_packet_feedback_
 ;
 const
