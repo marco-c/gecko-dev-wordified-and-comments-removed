@@ -862,7 +862,7 @@ CreateDeviceInfo
 )
 )
 ;
-assert
+RTC_DCHECK
 (
 device_info_
 .

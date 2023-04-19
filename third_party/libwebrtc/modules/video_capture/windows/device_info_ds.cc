@@ -2260,7 +2260,7 @@ pmt
 pbFormat
 )
 ;
-assert
+RTC_DCHECK
 (
 h
 )
@@ -2483,7 +2483,7 @@ pmt
 pbFormat
 )
 ;
-assert
+RTC_DCHECK
 (
 h
 )
@@ -2551,7 +2551,7 @@ pmt
 pbFormat
 )
 ;
-assert
+RTC_DCHECK
 (
 h
 )

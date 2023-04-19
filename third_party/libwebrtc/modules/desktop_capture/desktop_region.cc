@@ -12,13 +12,6 @@ h
 #
 include
 <
-assert
-.
-h
->
-#
-include
-<
 algorithm
 >
 #
@@ -26,6 +19,15 @@ include
 <
 utility
 >
+#
+include
+"
+rtc_base
+/
+checks
+.
+h
+"
 namespace
 webrtc
 {
@@ -658,11 +660,9 @@ second
 top
 )
 {
-assert
+RTC_DCHECK_LE
 (
 top
-<
-=
 row
 -
 >
@@ -925,7 +925,7 @@ iterator
 row
 )
 {
-assert
+RTC_DCHECK
 (
 row
 !
@@ -1477,7 +1477,7 @@ end
 (
 )
 ;
-assert
+RTC_DCHECK
 (
 it1
 !
@@ -1572,10 +1572,9 @@ it2
 right
 )
 ;
-assert
+RTC_DCHECK_LT
 (
 left
-<
 right
 )
 ;
@@ -1816,11 +1815,9 @@ second
 top
 )
 {
-assert
+RTC_DCHECK_LE
 (
 top
-<
-=
 row_a
 -
 >
@@ -2560,7 +2557,7 @@ left
 CompareSpanRight
 )
 ;
-assert
+RTC_DCHECK
 (
 start
 <
@@ -2818,7 +2815,7 @@ RowSpanSet
 output
 )
 {
-assert
+RTC_DCHECK
 (
 !
 set_a
@@ -3074,7 +3071,7 @@ IsAtEnd
 )
 )
 {
-assert
+RTC_DCHECK_GT
 (
 row_
 -
@@ -3087,7 +3084,6 @@ spans
 size
 (
 )
->
 0
 )
 ;
@@ -3159,7 +3155,7 @@ Advance
 (
 )
 {
-assert
+RTC_DCHECK
 (
 !
 IsAtEnd
@@ -3216,7 +3212,7 @@ end
 )
 )
 {
-assert
+RTC_DCHECK_GT
 (
 row_
 -
@@ -3229,7 +3225,6 @@ spans
 size
 (
 )
->
 0
 )
 ;
@@ -3307,7 +3302,7 @@ continue
 break
 ;
 }
-assert
+RTC_DCHECK
 (
 !
 IsAtEnd

@@ -2201,7 +2201,7 @@ delay_ms
 10000
 )
 {
-assert
+RTC_DCHECK
 (
 controller_
 .
@@ -2264,7 +2264,7 @@ delay_ms
 10000
 )
 {
-assert
+RTC_DCHECK
 (
 controller_
 .
@@ -2469,7 +2469,7 @@ lock
 mutex_
 )
 ;
-assert
+RTC_DCHECK
 (
 decoder_database_
 .
@@ -2561,7 +2561,7 @@ CurrentNetworkStatisticsInternal
 )
 const
 {
-assert
+RTC_DCHECK
 (
 decoder_database_
 .
@@ -2592,7 +2592,7 @@ FutureLength
 (
 )
 ;
-assert
+RTC_DCHECK
 (
 controller_
 .
@@ -2798,7 +2798,7 @@ lock
 mutex_
 )
 ;
-assert
+RTC_DCHECK
 (
 vad_
 .
@@ -2830,7 +2830,7 @@ lock
 mutex_
 )
 ;
-assert
+RTC_DCHECK
 (
 vad_
 .
@@ -3122,7 +3122,7 @@ get
 )
 )
 ;
-assert
+RTC_DCHECK
 (
 sync_buffer_
 .
@@ -3131,7 +3131,7 @@ get
 )
 )
 ;
-assert
+RTC_DCHECK
 (
 expand_
 .
@@ -4715,7 +4715,7 @@ GetDecoder
 payload_type
 )
 ;
-assert
+RTC_DCHECK
 (
 decoder
 )
@@ -4746,7 +4746,7 @@ GetDecoderInfo
 payload_type
 )
 ;
-assert
+RTC_DCHECK
 (
 decoder_info
 )
@@ -4823,7 +4823,7 @@ GetDecoderInfo
 main_payload_type
 )
 ;
-assert
+RTC_DCHECK
 (
 dec_info
 )
@@ -5256,7 +5256,7 @@ length
 speech_type
 )
 ;
-assert
+RTC_DCHECK
 (
 vad_
 .
@@ -5630,9 +5630,8 @@ kUndefined
 .
 "
 ;
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 last_mode_
@@ -6282,7 +6281,7 @@ Operation
 :
 kUndefined
 ;
-assert
+RTC_DCHECK
 (
 sync_buffer_
 .
@@ -6464,9 +6463,8 @@ PacketBuffer
 kOK
 )
 {
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 }
@@ -6504,7 +6502,7 @@ PeekNextPacket
 ;
 }
 }
-assert
+RTC_DCHECK
 (
 expand_
 .
@@ -6624,7 +6622,7 @@ play_dtmf
 true
 ;
 }
-assert
+RTC_DCHECK
 (
 sync_buffer_
 .
@@ -6633,7 +6631,7 @@ get
 )
 )
 ;
-assert
+RTC_DCHECK
 (
 expand_
 .
@@ -7073,7 +7071,7 @@ Operation
 kUndefined
 )
 {
-assert
+RTC_DCHECK
 (
 new_codec_
 )
@@ -7877,7 +7875,7 @@ GetDecoder
 payload_type
 )
 ;
-assert
+RTC_DCHECK
 (
 decoder
 )
@@ -7954,7 +7952,7 @@ GetDecoderInfo
 payload_type
 )
 ;
-assert
+RTC_DCHECK
 (
 decoder_info
 )
@@ -8315,7 +8313,7 @@ AudioDecoder
 kComfortNoise
 )
 {
-assert
+RTC_DCHECK
 (
 *
 decoded_length
@@ -8605,12 +8603,12 @@ payload_type
 )
 )
 {
-assert
+RTC_DCHECK
 (
 decoder
 )
 ;
-assert
+RTC_DCHECK_EQ
 (
 sync_buffer_
 -
@@ -8618,8 +8616,6 @@ sync_buffer_
 Channels
 (
 )
-=
-=
 decoder
 -
 >
@@ -8628,11 +8624,9 @@ Channels
 )
 )
 ;
-assert
+RTC_DCHECK_GE
 (
 decoded_buffer_length_
->
-=
 kMaxFrameSize
 *
 decoder
@@ -8643,7 +8637,7 @@ Channels
 )
 )
 ;
-assert
+RTC_DCHECK
 (
 operation
 =
@@ -8905,7 +8899,7 @@ kDecodedTooMuch
 ;
 }
 }
-assert
+RTC_DCHECK
 (
 packet_list
 -
@@ -8975,7 +8969,7 @@ bool
 play_dtmf
 )
 {
-assert
+RTC_DCHECK
 (
 normal_
 .
@@ -9092,7 +9086,7 @@ bool
 play_dtmf
 )
 {
-assert
+RTC_DCHECK
 (
 merge_
 .
@@ -9917,7 +9911,7 @@ PopFront
 length
 )
 ;
-assert
+RTC_DCHECK
 (
 algorithm_buffer_
 -
@@ -10341,7 +10335,7 @@ empty
 )
 )
 {
-assert
+RTC_DCHECK_EQ
 (
 packet_list
 -
@@ -10349,8 +10343,6 @@ packet_list
 size
 (
 )
-=
-=
 1
 )
 ;
@@ -10857,11 +10849,9 @@ overdub_length
 dtmf_output
 )
 ;
-assert
+RTC_DCHECK_EQ
 (
 overdub_length
-=
-=
 dtmf_output
 .
 Size
@@ -11038,9 +11028,8 @@ packet
 here
 "
 ;
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -11551,7 +11540,7 @@ fs_hz
 <
 channels
 ;
-assert
+RTC_DCHECK
 (
 fs_hz
 =
@@ -11577,10 +11566,9 @@ fs_hz
 48000
 )
 ;
-assert
+RTC_DCHECK_GT
 (
 channels
->
 0
 )
 ;
@@ -11651,7 +11639,7 @@ Reset
 (
 )
 ;
-assert
+RTC_DCHECK
 (
 vad_
 .
@@ -11883,7 +11871,7 @@ LastOutputType
 (
 )
 {
-assert
+RTC_DCHECK
 (
 vad_
 .
@@ -11892,7 +11880,7 @@ get
 )
 )
 ;
-assert
+RTC_DCHECK
 (
 expand_
 .

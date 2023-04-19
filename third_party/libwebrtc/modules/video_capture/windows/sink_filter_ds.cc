@@ -199,9 +199,8 @@ IEnumPins
 pins
 )
 {
-RTC_DCHECK
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -310,9 +309,8 @@ ULONG
 count
 )
 {
-RTC_DCHECK
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -1551,9 +1549,8 @@ IEnumMediaTypes
 pins
 )
 {
-RTC_DCHECK
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -2173,9 +2170,8 @@ ULONG
 count
 )
 {
-RTC_DCHECK
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -2938,9 +2934,8 @@ if
 receive_pin_
 )
 {
-RTC_DCHECK
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -3056,9 +3051,8 @@ if
 receive_pin_
 )
 {
-RTC_DCHECK
+RTC_NOTREACHED
 (
-false
 )
 ;
 return

@@ -1252,7 +1252,7 @@ lock
 mutex_
 )
 ;
-assert
+RTC_DCHECK
 (
 bitrate_bps
 )
@@ -1331,7 +1331,7 @@ ssrcs
 )
 const
 {
-assert
+RTC_DCHECK
 (
 ssrcs
 )

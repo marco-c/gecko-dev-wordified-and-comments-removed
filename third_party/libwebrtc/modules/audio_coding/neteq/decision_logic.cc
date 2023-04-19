@@ -481,7 +481,7 @@ size_t
 output_size_samples
 )
 {
-assert
+RTC_DCHECK
 (
 fs_hz
 =

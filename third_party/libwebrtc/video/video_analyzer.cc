@@ -3039,11 +3039,9 @@ comparison_lock_
 +
 frames_processed_
 ;
-assert
+RTC_DCHECK_LE
 (
 frames_processed_
-<
-=
 frames_to_process_
 )
 ;

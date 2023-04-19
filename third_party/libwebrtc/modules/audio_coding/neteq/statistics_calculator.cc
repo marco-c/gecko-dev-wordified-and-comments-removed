@@ -1748,7 +1748,7 @@ numerator
 denominator
 )
 {
-assert
+RTC_DCHECK_LT
 (
 (
 numerator
@@ -1758,7 +1758,6 @@ numerator
 )
 /
 denominator
-<
 (
 1
 <

@@ -33,6 +33,15 @@ common_constants
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+checks
+.
+h
+"
 namespace
 webrtc
 {
@@ -663,9 +672,8 @@ break
 ;
 default
 :
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 }

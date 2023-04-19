@@ -147,10 +147,9 @@ int
 sample_rate_hz
 )
 {
-assert
+RTC_DCHECK_GT
 (
 sample_rate_hz
->
 0
 )
 ;
@@ -422,7 +421,7 @@ uint16_t
 sequence_number_current_received_rtp
 )
 {
-assert
+RTC_DCHECK
 (
 !
 any_rtp_decoded_
@@ -689,11 +688,9 @@ estimated_timestamp
 }
 else
 {
-assert
+RTC_DCHECK_EQ
 (
 sequence_number
-=
-=
 sequence_num_last_decoded_rtp_
 )
 ;

@@ -451,9 +451,8 @@ size
 max_packet_size_
 )
 {
-RTC_DCHECK
+RTC_NOTREACHED
 (
-false
 )
 <
 <

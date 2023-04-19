@@ -480,13 +480,11 @@ int
 increment
 )
 {
-assert
+RTC_DCHECK_LE
 (
 start_index
 +
 length
-<
-=
 signal
 -
 >
@@ -2173,9 +2171,8 @@ break
 default
 :
 {
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 return

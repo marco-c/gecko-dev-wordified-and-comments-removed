@@ -1131,7 +1131,7 @@ int
 num_temporal_layers
 )
 {
-assert
+RTC_DCHECK
 (
 stream
 )

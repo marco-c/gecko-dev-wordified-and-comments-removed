@@ -5260,6 +5260,14 @@ deps
 /
 rtc_base
 :
+checks
+"
+"
+.
+.
+/
+rtc_base
+:
 rtc_base_approved
 "
 "

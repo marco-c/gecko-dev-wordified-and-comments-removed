@@ -287,11 +287,9 @@ DesktopRegion
 result
 )
 {
-assert
+RTC_DCHECK_GE
 (
 log_grid_size
->
-=
 1
 )
 ;

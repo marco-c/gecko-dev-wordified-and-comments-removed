@@ -444,7 +444,7 @@ args
 )
 )
 ;
-assert
+RTC_DCHECK
 (
 file_source
 .
@@ -1097,7 +1097,7 @@ front
 (
 )
 ;
-assert
+RTC_DCHECK
 (
 red
 )

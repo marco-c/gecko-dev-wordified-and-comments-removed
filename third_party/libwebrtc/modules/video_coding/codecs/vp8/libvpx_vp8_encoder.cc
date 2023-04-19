@@ -6100,12 +6100,11 @@ encoder_layer_id
 )
 ;
 }
-assert
+RTC_DCHECK_GT
 (
 codec_
 .
 maxFramerate
->
 0
 )
 ;
@@ -6245,12 +6244,9 @@ uint32_t
 timestamp
 )
 {
-assert
+RTC_DCHECK
 (
 codec_specific
-!
-=
-NULL
 )
 ;
 codec_specific

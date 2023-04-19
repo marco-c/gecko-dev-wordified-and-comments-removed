@@ -372,7 +372,7 @@ InsertPacket
 "
 )
 ;
-assert
+RTC_DCHECK
 (
 !
 (
@@ -1193,11 +1193,9 @@ state
 case
 kStateIncomplete
 :
-assert
+RTC_DCHECK_EQ
 (
 _state
-=
-=
 kStateEmpty
 )
 ;
@@ -1206,7 +1204,7 @@ break
 case
 kStateComplete
 :
-assert
+RTC_DCHECK
 (
 _state
 =
@@ -1225,9 +1223,8 @@ break
 case
 kStateEmpty
 :
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 break

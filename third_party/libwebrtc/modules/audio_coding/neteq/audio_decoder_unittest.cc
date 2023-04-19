@@ -524,10 +524,9 @@ int
 delay
 )
 {
-assert
+RTC_DCHECK_LT
 (
 delay
-<
 static_cast
 <
 int
@@ -537,11 +536,9 @@ num_samples
 )
 )
 ;
-assert
+RTC_DCHECK_LE
 (
 num_samples
-<
-=
 input
 .
 size
@@ -549,13 +546,11 @@ size
 )
 )
 ;
-assert
+RTC_DCHECK_LE
 (
 num_samples
 *
 channels
-<
-=
 output
 .
 size
@@ -1956,7 +1951,7 @@ codec_input_rate_hz_
 1
 )
 ;
-assert
+RTC_DCHECK
 (
 decoder_
 )
@@ -2048,7 +2043,7 @@ decoder_
 new
 AudioDecoderIlbcImpl
 ;
-assert
+RTC_DCHECK
 (
 decoder_
 )
@@ -2583,7 +2578,7 @@ decoder_
 new
 AudioDecoderG722Impl
 ;
-assert
+RTC_DCHECK
 (
 decoder_
 )
@@ -2657,7 +2652,7 @@ decoder_
 new
 AudioDecoderG722StereoImpl
 ;
-assert
+RTC_DCHECK
 (
 decoder_
 )

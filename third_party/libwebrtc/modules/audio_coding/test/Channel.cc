@@ -485,10 +485,9 @@ lastTimestamp
 )
 ;
 }
-assert
+RTC_DCHECK_GT
 (
 _lastFrameSizeSample
->
 0
 )
 ;

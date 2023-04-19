@@ -261,7 +261,7 @@ dataPtr
 NULL
 )
 {
-assert
+RTC_DCHECK
 (
 old_base_ptr
 !
@@ -2116,7 +2116,7 @@ it
 )
 const
 {
-assert
+RTC_DCHECK_EQ
 (
 (
 *
@@ -2126,8 +2126,6 @@ it
 codec
 (
 )
-=
-=
 kVideoCodecVP8
 )
 ;

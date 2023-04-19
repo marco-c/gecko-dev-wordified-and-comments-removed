@@ -305,9 +305,8 @@ break
 ;
 default
 :
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 break

@@ -406,9 +406,8 @@ windows
 <
 lastError
 ;
-RTC_DCHECK
+RTC_NOTREACHED
 (
-false
 )
 ;
 return

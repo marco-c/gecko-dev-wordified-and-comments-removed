@@ -1276,9 +1276,8 @@ hMh_sigma
 )
 )
 {
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -1526,7 +1525,7 @@ deltaFSBytes
 *
 t01
 ;
-assert
+RTC_DCHECK
 (
 _thetaCov
 [
@@ -1681,9 +1680,8 @@ _alphaCount
 0
 )
 {
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -2305,11 +2303,9 @@ ComputeMean
 (
 )
 ;
-assert
+RTC_DCHECK_GE
 (
 fps
->
-=
 0
 .
 0

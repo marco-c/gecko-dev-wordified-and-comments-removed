@@ -231,11 +231,9 @@ peak_index
 peak_index
 ;
 }
-assert
+RTC_DCHECK_GE
 (
 fs_mult_120
->
-=
 peak_index
 )
 ;

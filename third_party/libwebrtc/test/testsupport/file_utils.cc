@@ -555,9 +555,8 @@ ToUtf8
 filename
 )
 ;
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 return
@@ -653,9 +652,8 @@ fd
 1
 )
 {
-assert
+RTC_NOTREACHED
 (
-false
 )
 ;
 return

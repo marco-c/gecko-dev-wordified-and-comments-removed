@@ -11642,6 +11642,17 @@ webrtc_opus
 /
 rtc_base
 :
+checks
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 rtc_base_approved
 "
 "
