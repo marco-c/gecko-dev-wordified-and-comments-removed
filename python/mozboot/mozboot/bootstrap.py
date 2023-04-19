@@ -1903,6 +1903,17 @@ state_dir
 =
 state_dir
         
+hg_installed
+hg_modern
+=
+self
+.
+instance
+.
+ensure_mercurial_modern
+(
+)
+        
 hg
 =
 to_optional_path
@@ -2018,17 +2029,6 @@ application
 )
 (
 mozconfig_builder
-)
-        
-hg_installed
-hg_modern
-=
-self
-.
-instance
-.
-ensure_mercurial_modern
-(
 )
         
 if
