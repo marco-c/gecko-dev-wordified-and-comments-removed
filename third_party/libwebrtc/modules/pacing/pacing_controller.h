@@ -315,7 +315,7 @@ Pop
 0
 ;
 virtual
-size_t
+int
 SizeInPackets
 (
 )

@@ -911,7 +911,7 @@ rtp_packet
 RTC_DCHECK_GT
 (
 size_packets_
-0u
+0
 )
 ;
 Stream
@@ -1169,7 +1169,7 @@ return
 rtp_packet
 ;
 }
-size_t
+int
 RoundRobinPacketQueue
 :
 :
@@ -1439,19 +1439,9 @@ else
 queue_time_sum_
 +
 =
-TimeDelta
-:
-:
-Micros
-(
 delta
-.
-us
-(
-)
 *
 size_packets_
-)
 ;
 }
 time_last_updated_
