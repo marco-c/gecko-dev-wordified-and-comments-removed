@@ -372,6 +372,12 @@ toolchain
 linux64
 -
 rust
+-
+linux64
+-
+cargo
+-
+vet
 cron
 -
 win

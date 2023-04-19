@@ -175,6 +175,17 @@ rustc
 /
 bin
 :
+/
+builds
+/
+worker
+/
+fetches
+/
+cargo
+-
+vet
+:
 {
 PATH
 }
