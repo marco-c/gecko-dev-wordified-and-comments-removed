@@ -1162,6 +1162,16 @@ absl
 :
 nullopt
 ;
+rtp_video_header
+.
+video_frame_tracking_id
+=
+image
+.
+VideoFrameTrackingId
+(
+)
+;
 SetVideoTiming
 (
 image
