@@ -578,14 +578,9 @@ Observe
 (
 Element
 &
-aTarget
 const
 ResizeObserverOptions
 &
-aOptions
-ErrorResult
-&
-aRv
 )
 ;
 void
@@ -593,10 +588,6 @@ Unobserve
 (
 Element
 &
-target
-ErrorResult
-&
-aRv
 )
 ;
 void

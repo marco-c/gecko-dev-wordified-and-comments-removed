@@ -170,9 +170,6 @@ ResizeObserverCallback
 callback
 )
 ;
-[
-Throws
-]
 void
 observe
 (
@@ -186,9 +183,6 @@ options
 }
 )
 ;
-[
-Throws
-]
 void
 unobserve
 (
