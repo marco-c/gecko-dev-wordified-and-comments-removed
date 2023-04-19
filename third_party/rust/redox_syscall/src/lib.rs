@@ -271,7 +271,7 @@ path
 "
 arch
 /
-nonredox
+x86
 .
 rs
 "
