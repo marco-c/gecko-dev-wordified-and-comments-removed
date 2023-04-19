@@ -83,7 +83,7 @@ setuptools
 .
 4
 .
-17
+18
 types
 -
 six
