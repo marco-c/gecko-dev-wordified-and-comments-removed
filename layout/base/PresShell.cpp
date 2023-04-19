@@ -26033,9 +26033,11 @@ switch
 bc
 -
 >
-GetEmbedderColorScheme
+GetEmbedderColorSchemes
 (
 )
+.
+mUsed
 )
 {
 case

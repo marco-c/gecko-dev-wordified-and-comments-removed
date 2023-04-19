@@ -1606,9 +1606,9 @@ GetExplicitActive
 ;
 txn
 .
-SetEmbedderColorScheme
+SetEmbedderColorSchemes
 (
-GetEmbedderColorScheme
+GetEmbedderColorSchemes
 (
 )
 )
