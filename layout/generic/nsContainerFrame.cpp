@@ -12066,11 +12066,18 @@ eLogicalAxisBlock
 }
 const
 bool
-isAutoISize
+isAutoOrMaxContentISize
 =
 styleISize
 .
 IsAuto
+(
+)
+|
+|
+styleISize
+.
+IsMaxContent
 (
 )
 ;
@@ -12314,7 +12321,7 @@ valueOr
 if
 (
 !
-isAutoISize
+isAutoOrMaxContentISize
 )
 {
 iSize
@@ -13028,7 +13035,7 @@ size
 ;
 if
 (
-isAutoISize
+isAutoOrMaxContentISize
 )
 {
 if
