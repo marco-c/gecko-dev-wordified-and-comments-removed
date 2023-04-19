@@ -43,9 +43,15 @@ getAllBrowsingContextsForContext
 isWindowGlobalPartOfContext
 }
 =
-require
+ChromeUtils
+.
+importESModule
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -60,7 +66,9 @@ context
 -
 helpers
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
