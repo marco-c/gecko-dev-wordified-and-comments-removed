@@ -209,7 +209,16 @@ addProfilerMarker
 "
 DAMP
 "
+{
+startTime
+:
 s
+category
+:
+"
+Test
+"
+}
 "
 console
 .
