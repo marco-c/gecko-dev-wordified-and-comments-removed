@@ -1549,6 +1549,12 @@ ScrollAxis
 aHorizontal
 ScrollFlags
 aScrollFlags
+const
+nsIFrame
+*
+aTarget
+=
+nullptr
 )
 ;
 void
