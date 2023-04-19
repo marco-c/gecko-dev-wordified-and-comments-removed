@@ -1149,6 +1149,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -1162,6 +1163,7 @@ filter
 "
 )
 ;
+}
 if
 (
 !
@@ -1170,6 +1172,7 @@ IsCallable
 callbackfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -1180,6 +1183,7 @@ callbackfn
 )
 )
 ;
+}
 var
 newList
 =
@@ -1353,6 +1357,7 @@ IsCallable
 callbackfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -1363,6 +1368,7 @@ callbackfn
 )
 )
 ;
+}
 var
 newList
 =
@@ -1888,6 +1894,7 @@ length
 =
 0
 )
+{
 ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
@@ -1901,6 +1908,7 @@ flatMap
 "
 )
 ;
+}
 if
 (
 !
@@ -1909,6 +1917,7 @@ IsCallable
 mapperFunction
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -1919,6 +1928,7 @@ mapperFunction
 )
 )
 ;
+}
 var
 flat
 =
