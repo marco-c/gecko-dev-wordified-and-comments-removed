@@ -229,7 +229,12 @@ mWebglValid
 true
 ;
 bool
-mClipDirty
+mClipChanged
+=
+true
+;
+bool
+mRefreshClipState
 =
 true
 ;
