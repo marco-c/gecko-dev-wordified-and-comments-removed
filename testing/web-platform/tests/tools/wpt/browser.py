@@ -988,6 +988,33 @@ else
 32
 "
         
+elif
+self
+.
+platform
+=
+=
+"
+macos
+"
+and
+uname
+.
+machine
+=
+=
+"
+arm64
+"
+:
+            
+bits
+=
+"
+-
+aarch64
+"
+        
 else
 :
             
