@@ -630,7 +630,7 @@ int
 SSLVerifyInternal
 (
 int
-ok
+status_on_error
 SSL
 *
 ssl

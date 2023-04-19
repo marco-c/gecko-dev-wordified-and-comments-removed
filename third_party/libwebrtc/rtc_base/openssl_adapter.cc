@@ -4103,7 +4103,7 @@ OpenSSLAdapter
 SSLVerifyCallback
 (
 int
-ok
+status
 X509_STORE_CTX
 *
 store
@@ -4144,14 +4144,14 @@ ssl
 )
 )
 ;
-ok
+status
 =
 stream
 -
 >
 SSLVerifyInternal
 (
-ok
+status
 ssl
 store
 )
@@ -4159,7 +4159,7 @@ store
 if
 (
 !
-ok
+status
 &
 &
 stream
@@ -4189,7 +4189,7 @@ return
 ;
 }
 return
-ok
+status
 ;
 }
 int
@@ -4199,7 +4199,7 @@ OpenSSLAdapter
 SSLVerifyInternal
 (
 int
-ok
+status_on_failure
 SSL
 *
 ssl
@@ -4218,7 +4218,7 @@ NDEBUG
 if
 (
 !
-ok
+status_on_failure
 )
 {
 char
@@ -4361,7 +4361,7 @@ nullptr
 )
 {
 return
-ok
+status_on_failure
 ;
 }
 RTC_LOG
@@ -4422,7 +4422,7 @@ X509
 "
 ;
 return
-ok
+status_on_failure
 ;
 }
 bssl
@@ -4480,7 +4480,7 @@ CRYPTO_BUFFER
 "
 ;
 return
-ok
+status_on_failure
 ;
 }
 const
@@ -4539,7 +4539,7 @@ callback
 "
 ;
 return
-ok
+status_on_failure
 ;
 }
 custom_cert_verifier_status_
