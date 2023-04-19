@@ -4032,7 +4032,7 @@ tabmanager
 .
 enabled
 "
-false
+true
 )
 ;
 pref
