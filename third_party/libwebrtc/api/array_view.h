@@ -46,7 +46,7 @@ namespace
 rtc
 {
 namespace
-impl
+array_view_internal
 {
 enum
 :
@@ -245,7 +245,7 @@ class
 ArrayViewBase
 <
 T
-impl
+array_view_internal
 :
 :
 kArrayViewVarSize
@@ -348,7 +348,7 @@ std
 ptrdiff_t
 Size
 =
-impl
+array_view_internal
 :
 :
 kArrayViewVarSize
@@ -358,7 +358,7 @@ ArrayView
 final
 :
 public
-impl
+array_view_internal
 :
 :
 ArrayViewBase
@@ -395,7 +395,7 @@ size_t
 size
 )
 :
-impl
+array_view_internal
 :
 :
 ArrayViewBase
@@ -519,7 +519,7 @@ Size
 Size
 =
 =
-impl
+array_view_internal
 :
 :
 kArrayViewVarSize
@@ -570,7 +570,7 @@ N
 Size
 =
 =
-impl
+array_view_internal
 :
 :
 kArrayViewVarSize
@@ -723,7 +723,7 @@ enable_if
 Size
 !
 =
-impl
+array_view_internal
 :
 :
 kArrayViewVarSize
@@ -799,7 +799,7 @@ enable_if
 Size
 !
 =
-impl
+array_view_internal
 :
 :
 kArrayViewVarSize
@@ -876,7 +876,7 @@ enable_if
 Size
 =
 =
-impl
+array_view_internal
 :
 :
 kArrayViewVarSize
@@ -933,7 +933,7 @@ enable_if
 Size
 =
 =
-impl
+array_view_internal
 :
 :
 kArrayViewVarSize
