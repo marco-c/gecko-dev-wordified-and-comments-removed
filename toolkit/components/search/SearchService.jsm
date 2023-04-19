@@ -1446,7 +1446,7 @@ clear
 ;
 this
 .
-__sortedEngines
+_cachedSortedEngines
 =
 null
 ;
@@ -3070,7 +3070,7 @@ movedEngine
 =
 this
 .
-__sortedEngines
+_cachedSortedEngines
 .
 splice
 (
@@ -3083,7 +3083,7 @@ currentIndex
 ;
 this
 .
-__sortedEngines
+_cachedSortedEngines
 .
 splice
 (
@@ -3819,7 +3819,7 @@ _engines
 =
 null
 ;
-__sortedEngines
+_cachedSortedEngines
 =
 null
 ;
@@ -3879,7 +3879,7 @@ if
 !
 this
 .
-__sortedEngines
+_cachedSortedEngines
 )
 {
 return
@@ -3894,7 +3894,7 @@ buildSortedEngineList
 return
 this
 .
-__sortedEngines
+_cachedSortedEngines
 ;
 }
 get
@@ -6692,7 +6692,7 @@ false
 ;
 this
 .
-__sortedEngines
+_cachedSortedEngines
 =
 null
 ;
@@ -6958,7 +6958,7 @@ if
 (
 this
 .
-__sortedEngines
+_cachedSortedEngines
 &
 &
 !
@@ -6970,7 +6970,7 @@ dontSetUseSavedOrder
 {
 this
 .
-__sortedEngines
+_cachedSortedEngines
 .
 push
 (
@@ -7823,7 +7823,7 @@ buildSortedEngineList
 {
 this
 .
-__sortedEngines
+_cachedSortedEngines
 =
 [
 ]
@@ -7903,7 +7903,7 @@ orderNumber
 !
 this
 .
-__sortedEngines
+_cachedSortedEngines
 [
 orderNumber
 -
@@ -7913,7 +7913,7 @@ orderNumber
 {
 this
 .
-__sortedEngines
+_cachedSortedEngines
 [
 orderNumber
 -
@@ -7945,7 +7945,7 @@ filteredEngines
 =
 this
 .
-__sortedEngines
+_cachedSortedEngines
 .
 filter
 (
@@ -7966,7 +7966,7 @@ if
 (
 this
 .
-__sortedEngines
+_cachedSortedEngines
 .
 length
 !
@@ -7983,7 +7983,7 @@ true
 }
 this
 .
-__sortedEngines
+_cachedSortedEngines
 =
 filteredEngines
 ;
@@ -8082,11 +8082,11 @@ return
 (
 this
 .
-__sortedEngines
+_cachedSortedEngines
 =
 this
 .
-__sortedEngines
+_cachedSortedEngines
 .
 concat
 (
@@ -8115,7 +8115,7 @@ return
 (
 this
 .
-__sortedEngines
+_cachedSortedEngines
 =
 this
 .
@@ -8384,10 +8384,7 @@ sortedVisibleEngines
 (
 )
 {
-this
-.
-__sortedVisibleEngines
-=
+return
 this
 .
 #
@@ -8403,11 +8400,6 @@ engine
 .
 hidden
 )
-;
-return
-this
-.
-__sortedVisibleEngines
 ;
 }
 async
@@ -9520,7 +9512,7 @@ name
 }
 this
 .
-__sortedEngines
+_cachedSortedEngines
 =
 null
 ;
@@ -9761,7 +9753,7 @@ if
 (
 this
 .
-__sortedEngines
+_cachedSortedEngines
 )
 {
 var
@@ -9769,7 +9761,7 @@ index
 =
 this
 .
-__sortedEngines
+_cachedSortedEngines
 .
 indexOf
 (
@@ -9810,7 +9802,7 @@ NS_ERROR_FAILURE
 }
 this
 .
-__sortedEngines
+_cachedSortedEngines
 .
 splice
 (
@@ -10443,7 +10435,7 @@ onSeparateDefaultPrefChanged
 {
 this
 .
-__sortedEngines
+_cachedSortedEngines
 =
 null
 ;
