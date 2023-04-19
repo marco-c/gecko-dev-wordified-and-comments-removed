@@ -814,18 +814,24 @@ other
 mach_site_packages_source
             
 and
+Path
+(
 self
 .
 original_python
 .
 python_path
+)
 =
 =
+Path
+(
 other
 .
 original_python
 .
 python_path
+)
         
 )
     
