@@ -3397,6 +3397,11 @@ GetChannel
 )
 const
 ;
+void
+BreakCycles
+(
+)
+;
 RefPtr
 <
 WebrtcCallWrapper
