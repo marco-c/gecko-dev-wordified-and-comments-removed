@@ -125,6 +125,9 @@ attribute
 nsresult
 imageErrorCode
 ;
+[
+infallible
+]
 readonly
 attribute
 nsIURI
