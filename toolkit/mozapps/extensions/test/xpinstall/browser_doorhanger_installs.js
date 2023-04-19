@@ -7751,6 +7751,16 @@ required
 "
 false
 ]
+[
+"
+extensions
+.
+unifiedExtensions
+.
+enabled
+"
+false
+]
 ]
 }
 )
