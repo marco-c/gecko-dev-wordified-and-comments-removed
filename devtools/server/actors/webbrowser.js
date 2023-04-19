@@ -16,16 +16,6 @@ chrome
 )
 ;
 var
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-var
 {
 DevToolsServer
 }

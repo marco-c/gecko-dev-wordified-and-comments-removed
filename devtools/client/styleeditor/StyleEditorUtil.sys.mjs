@@ -112,7 +112,6 @@ properties
 const
 {
 loader
-require
 }
 =
 ChromeUtils
@@ -133,16 +132,6 @@ loader
 Loader
 .
 jsm
-"
-)
-;
-const
-Services
-=
-require
-(
-"
-Services
 "
 )
 ;

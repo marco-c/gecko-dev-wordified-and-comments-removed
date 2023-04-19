@@ -115,16 +115,6 @@ TARGET_CONFIGURATION
 SUPPORTED_DATA
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 SUPPORTED_OPTIONS
 =
 {

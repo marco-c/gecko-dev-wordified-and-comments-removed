@@ -4,16 +4,6 @@ strict
 "
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 {
 CLEAR_REQUESTS
 OPEN_NETWORK_DETAILS

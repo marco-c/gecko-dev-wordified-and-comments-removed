@@ -18,16 +18,6 @@ MAX_DATA_URL_LENGTH
 =
 40
 ;
-const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 loader
 .
 lazyRequireGetter

@@ -56,16 +56,6 @@ popup
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 MAX_SUGGESTIONS
 =
 15

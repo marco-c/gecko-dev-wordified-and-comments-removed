@@ -203,16 +203,6 @@ DevToolsUtils
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 {
 getSourceNames
 }

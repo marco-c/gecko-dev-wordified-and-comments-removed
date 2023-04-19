@@ -52,16 +52,6 @@ jsm
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 SINK_CLASS_DESCRIPTION
 =
 "

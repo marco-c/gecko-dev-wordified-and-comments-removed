@@ -238,16 +238,6 @@ utils
 )
 ;
 var
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-var
 ChromeUtils
 =
 require

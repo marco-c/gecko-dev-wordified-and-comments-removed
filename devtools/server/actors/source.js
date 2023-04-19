@@ -161,16 +161,6 @@ DevToolsUtils
 "
 )
 ;
-loader
-.
-lazyRequireGetter
-(
-this
-"
-Services
-"
-)
-;
 const
 windowsDrive
 =

@@ -84,16 +84,6 @@ jsm
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 EventEmitter
 =
 require

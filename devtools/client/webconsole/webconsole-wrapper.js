@@ -68,16 +68,6 @@ redux
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 actions
 =
 require

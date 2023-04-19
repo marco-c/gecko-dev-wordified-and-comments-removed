@@ -4,16 +4,6 @@ strict
 "
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 NETWORK_LOCATIONS_PREF
 =
 "

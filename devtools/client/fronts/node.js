@@ -60,16 +60,6 @@ string
 "
 )
 ;
-const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 loader
 .
 lazyRequireGetter

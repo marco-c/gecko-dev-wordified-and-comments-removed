@@ -80,16 +80,6 @@ jsm
 )
 ;
 var
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-var
 EXPECTED_DTU_ASSERT_FAILURE_COUNT
 =
 0

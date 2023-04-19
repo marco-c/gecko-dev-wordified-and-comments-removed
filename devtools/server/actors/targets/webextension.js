@@ -33,16 +33,6 @@ chrome
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 {
 ParentProcessTargetActor
 parentProcessTargetPrototype

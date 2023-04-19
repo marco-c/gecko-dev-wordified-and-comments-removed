@@ -356,16 +356,6 @@ chrome
 "
 )
 ;
-const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 async
 function
 gInit

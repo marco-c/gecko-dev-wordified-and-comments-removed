@@ -17,16 +17,6 @@ chrome
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 clipboardHelper
 =
 Cc

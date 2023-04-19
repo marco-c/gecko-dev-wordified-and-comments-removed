@@ -67,16 +67,6 @@ factory
 "
 )
 ;
-const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 Services
 .
 prefs

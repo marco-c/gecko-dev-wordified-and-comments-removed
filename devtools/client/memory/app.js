@@ -21,18 +21,6 @@ DevToolsUtils
 ;
 const
 {
-appinfo
-}
-=
-require
-(
-"
-Services
-"
-)
-;
-const
-{
 Component
 createFactory
 }
@@ -784,6 +772,8 @@ selectedSnapshot
 const
 isOSX
 =
+Services
+.
 appinfo
 .
 OS

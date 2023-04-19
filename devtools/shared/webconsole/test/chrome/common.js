@@ -86,16 +86,6 @@ factory
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 FRACTIONAL_NUMBER_REGEX
 =
 /

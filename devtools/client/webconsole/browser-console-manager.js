@@ -3,16 +3,6 @@ use
 strict
 "
 ;
-var
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 const
 {
 CommandsFactory

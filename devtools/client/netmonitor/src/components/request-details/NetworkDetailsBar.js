@@ -24,16 +24,6 @@ react
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 PropTypes
 =
 require

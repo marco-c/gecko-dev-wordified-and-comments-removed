@@ -193,15 +193,6 @@ menu
 item
 "
 "
-devtools
--
-services
-"
-:
-"
-Services
-"
-"
 wasmparser
 /
 dist

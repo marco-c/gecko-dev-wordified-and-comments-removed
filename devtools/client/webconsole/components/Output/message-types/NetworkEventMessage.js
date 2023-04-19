@@ -232,16 +232,6 @@ webConsoleMoreInfoLabel
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 isMacOS
 =
 Services

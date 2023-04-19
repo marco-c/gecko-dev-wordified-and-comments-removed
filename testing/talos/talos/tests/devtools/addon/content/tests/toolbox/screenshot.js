@@ -48,16 +48,6 @@ jsm
 "
 )
 ;
-const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 module
 .
 exports

@@ -4,16 +4,6 @@ strict
 "
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 {
 CHANGE_DISPLAY_PIXEL_RATIO
 CHANGE_USER_AGENT

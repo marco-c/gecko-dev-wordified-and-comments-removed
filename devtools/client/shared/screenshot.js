@@ -32,16 +32,6 @@ l10n
 "
 )
 ;
-const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 loader
 .
 lazyImporter

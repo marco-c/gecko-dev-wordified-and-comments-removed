@@ -4,16 +4,6 @@ strict
 "
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 {
 UPDATE_SHOW_GRID_AREAS
 UPDATE_SHOW_GRID_LINE_NUMBERS

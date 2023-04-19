@@ -38,16 +38,6 @@ emitter
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 {
 getAllBrowsingContextsForContext
 isWindowGlobalPartOfContext

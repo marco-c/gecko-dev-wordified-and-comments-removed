@@ -50,16 +50,6 @@ chrome
 )
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
-const
 ChromeUtils
 =
 require
