@@ -288,7 +288,6 @@ class
 RTCStatsCollector
 :
 public
-virtual
 rtc
 :
 :

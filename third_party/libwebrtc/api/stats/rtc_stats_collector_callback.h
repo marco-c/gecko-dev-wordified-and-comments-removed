@@ -40,7 +40,6 @@ class
 RTCStatsCollectorCallback
 :
 public
-virtual
 rtc
 :
 :
