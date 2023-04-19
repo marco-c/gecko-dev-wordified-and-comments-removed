@@ -1307,7 +1307,7 @@ rtc_base
 /
 experiments
 :
-field_trial_parser
+encoder_info_settings
 "
 "
 .
