@@ -222,8 +222,11 @@ void
 RealInitializeLocked
 (
 )
-RTC_NO_THREAD_SAFETY_ANALYSIS
 {
+AssertLockedForTest
+(
+)
+;
 AudioProcessingImpl
 :
 :

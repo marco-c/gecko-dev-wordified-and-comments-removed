@@ -142,6 +142,16 @@ FALSE
 ;
 }
 void
+AssertHeld
+(
+)
+const
+RTC_ASSERT_EXCLUSIVE_LOCK
+(
+)
+{
+}
+void
 Unlock
 (
 )
