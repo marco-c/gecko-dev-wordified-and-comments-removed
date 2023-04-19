@@ -15698,6 +15698,9 @@ int
 HOST
 =
 1
+<
+<
+0
 ;
 public
 static
@@ -15705,7 +15708,10 @@ final
 int
 PROXY
 =
-2
+1
+<
+<
+1
 ;
 public
 static
@@ -15713,7 +15719,10 @@ final
 int
 ONLY_PASSWORD
 =
-8
+1
+<
+<
+3
 ;
 public
 static
@@ -15721,7 +15730,10 @@ final
 int
 PREVIOUS_FAILED
 =
-16
+1
+<
+<
+4
 ;
 public
 static
@@ -15729,7 +15741,10 @@ final
 int
 CROSS_ORIGIN_SUB_RESOURCE
 =
-32
+1
+<
+<
+5
 ;
 protected
 Flags
