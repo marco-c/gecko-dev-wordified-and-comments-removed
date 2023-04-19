@@ -3237,13 +3237,6 @@ experiments_unittests
 "
 rtc_base
 /
-synchronization
-:
-sequence_checker_unittests
-"
-"
-rtc_base
-/
 task_utils
 :
 pending_task_safety_flag_unittests
