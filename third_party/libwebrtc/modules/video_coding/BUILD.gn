@@ -7393,6 +7393,13 @@ simulcast_rate_allocator_unittest
 cc
 "
 "
+utility
+/
+vp9_uncompressed_header_parser_unittest
+.
+cc
+"
+"
 video_codec_initializer_unittest
 .
 cc
