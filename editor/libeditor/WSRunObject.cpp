@@ -2313,6 +2313,13 @@ Offset
 (
 )
 )
+HTMLEditor
+:
+:
+PreserveWhiteSpaceStyle
+:
+:
+No
 )
 ;
 if
