@@ -450,6 +450,12 @@ nsCString
 aMessage
 )
 ;
+bool
+IsLost
+(
+)
+const
+;
 private
 :
 ~
