@@ -41,7 +41,6 @@ nsAString
 &
 aAttrValue
 )
-const
 {
 if
 (

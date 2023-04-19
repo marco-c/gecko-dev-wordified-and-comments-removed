@@ -991,7 +991,6 @@ nsAString
 &
 aAttrValue
 )
-const
 ;
 bool
 HasAttribute
