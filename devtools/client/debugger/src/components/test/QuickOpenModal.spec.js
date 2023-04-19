@@ -123,6 +123,10 @@ displayedSources
 :
 [
 ]
+blackBoxRanges
+:
+{
+}
 tabs
 :
 [

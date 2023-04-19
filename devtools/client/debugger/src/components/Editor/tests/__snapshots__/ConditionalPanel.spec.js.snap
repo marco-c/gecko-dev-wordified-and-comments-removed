@@ -714,11 +714,6 @@ id
 source
 "
 "
-isBlackBoxed
-"
-:
-false
-"
 isExtension
 "
 :
@@ -1493,11 +1488,6 @@ id
 source
 "
 "
-isBlackBoxed
-"
-:
-false
-"
 isExtension
 "
 :
@@ -2270,11 +2260,6 @@ id
 "
 source
 "
-"
-isBlackBoxed
-"
-:
-false
 "
 isExtension
 "

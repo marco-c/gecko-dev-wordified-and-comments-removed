@@ -32,6 +32,7 @@ telemetry
 import
 {
 getSourceActorsForSource
+isSourceBlackBoxed
 }
 from
 "
@@ -240,6 +241,7 @@ thunkArgs
 const
 {
 dispatch
+getState
 }
 =
 thunkArgs
@@ -257,9 +259,13 @@ boolean
 shouldBlackBox
 :
 !
+isSourceBlackBoxed
+(
+getState
+(
+)
 source
-.
-isBlackBoxed
+)
 ;
 return
 dispatch
@@ -313,6 +319,7 @@ thunkArgs
 const
 {
 dispatch
+getState
 }
 =
 thunkArgs
@@ -327,9 +334,13 @@ filter
 source
 =
 >
+isSourceBlackBoxed
+(
+getState
+(
+)
 source
-.
-isBlackBoxed
+)
 !
 =
 =

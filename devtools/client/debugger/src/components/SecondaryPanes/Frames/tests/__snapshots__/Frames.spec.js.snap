@@ -240,11 +240,6 @@ id
 1
 "
 "
-isBlackBoxed
-"
-:
-false
-"
 isExtension
 "
 :
@@ -525,11 +520,6 @@ id
 "
 1
 "
-"
-isBlackBoxed
-"
-:
-false
 "
 isExtension
 "
@@ -825,11 +815,6 @@ id
 1
 "
 "
-isBlackBoxed
-"
-:
-false
-"
 isExtension
 "
 :
@@ -1110,11 +1095,6 @@ id
 "
 1
 "
-"
-isBlackBoxed
-"
-:
-false
 "
 isExtension
 "

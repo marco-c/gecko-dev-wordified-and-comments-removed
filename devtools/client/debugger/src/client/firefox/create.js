@@ -647,9 +647,6 @@ isWasm
 isHTML
 isPrettyPrinted
 isOriginal
-isBlackBoxed
-:
-false
 }
 ;
 }

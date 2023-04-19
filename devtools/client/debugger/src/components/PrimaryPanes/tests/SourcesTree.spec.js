@@ -2689,6 +2689,10 @@ projectRoot
 :
 "
 "
+blackBoxRanges
+:
+{
+}
 threads
 :
 [

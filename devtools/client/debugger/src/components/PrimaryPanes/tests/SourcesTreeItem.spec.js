@@ -3592,6 +3592,10 @@ projectRoot
 :
 "
 "
+blackBoxRanges
+:
+{
+}
 clearProjectDirectoryRoot
 :
 jest
@@ -3641,7 +3645,7 @@ jest
 fn
 (
 )
-getSourcesGroups
+getBlackBoxSourcesGroups
 :
 (
 )

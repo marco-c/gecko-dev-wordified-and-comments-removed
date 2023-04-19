@@ -86,9 +86,6 @@ getDisplayURL
 url
 )
 thread
-isBlackBoxed
-:
-false
 isPrettyPrinted
 :
 false
@@ -353,9 +350,6 @@ thread
 "
 FakeThread
 "
-isBlackBoxed
-:
-false
 isPrettyPrinted
 :
 false

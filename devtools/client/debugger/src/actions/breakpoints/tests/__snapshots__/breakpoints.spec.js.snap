@@ -229,11 +229,6 @@ id
 a
 "
 "
-isBlackBoxed
-"
-:
-false
-"
 isExtension
 "
 :
@@ -703,11 +698,6 @@ id
 "
 a
 "
-"
-isBlackBoxed
-"
-:
-false
 "
 isExtension
 "

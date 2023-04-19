@@ -91,6 +91,7 @@ getSourceContent
 getSymbols
 getTabs
 getContext
+getBlackBoxRanges
 }
 from
 "
@@ -645,6 +646,7 @@ memoizeLast
 (
 displayedSources
 tabs
+blackBoxRanges
 )
 =
 >
@@ -673,6 +675,7 @@ formatSources
 (
 displayedSources
 tabUrls
+blackBoxRanges
 )
 ;
 }
@@ -688,6 +691,7 @@ const
 {
 displayedSources
 tabs
+blackBoxRanges
 }
 =
 this
@@ -703,6 +707,7 @@ formatSources
 (
 displayedSources
 tabs
+blackBoxRanges
 )
 ;
 const
@@ -895,6 +900,7 @@ const
 {
 displayedSources
 tabs
+blackBoxRanges
 }
 =
 this
@@ -959,6 +965,7 @@ url
 )
 )
 tabUrls
+blackBoxRanges
 )
 )
 ;
@@ -973,6 +980,7 @@ formatSources
 (
 displayedSources
 tabUrls
+blackBoxRanges
 )
 )
 ;
@@ -2524,6 +2532,12 @@ getQuickOpenEnabled
 state
 )
 displayedSources
+blackBoxRanges
+:
+getBlackBoxRanges
+(
+state
+)
 selectedSource
 selectedContentLoaded
 :

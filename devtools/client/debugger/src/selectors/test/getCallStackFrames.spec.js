@@ -185,7 +185,8 @@ sources
 state
 .
 selectedSource
-true
+{
+}
 )
 ;
 expect
@@ -791,6 +792,8 @@ sources
 state
 .
 selectedSource
+{
+}
 )
 ;
 const
