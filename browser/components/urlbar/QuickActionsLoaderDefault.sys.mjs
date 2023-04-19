@@ -326,6 +326,13 @@ newURI
 url
 )
 true
+{
+ignoreFragment
+:
+"
+whenComparing
+"
+}
 )
 ;
 }
