@@ -4566,14 +4566,6 @@ isInterpEntry
 )
 )
 {
-MOZ_ASSERT
-(
-callerFP
-=
-=
-nullptr
-)
-;
 return
 ;
 }
