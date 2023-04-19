@@ -172,6 +172,16 @@ int64_t
 shared_frame_id
 )
 ;
+static
+FrameDependencyStructure
+MinimalisticVp9Structure
+(
+const
+CodecSpecificInfoVP9
+&
+vp9
+)
+;
 uint32_t
 ssrc
 (
