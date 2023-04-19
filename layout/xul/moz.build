@@ -106,11 +106,6 @@ nsBoxLayoutState
 cpp
 "
 "
-nsButtonBoxFrame
-.
-cpp
-"
-"
 nsDeckFrame
 .
 cpp

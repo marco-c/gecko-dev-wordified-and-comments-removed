@@ -101,6 +101,11 @@ XULBroadcastManager
 h
 "
 "
+XULButtonElement
+.
+h
+"
+"
 XULFrameElement
 .
 h
@@ -187,6 +192,11 @@ cpp
 "
 "
 XULBroadcastManager
+.
+cpp
+"
+"
+XULButtonElement
 .
 cpp
 "

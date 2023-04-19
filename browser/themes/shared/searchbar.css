@@ -453,9 +453,12 @@ none
 ;
 display
 :
+-
+moz
+-
 inline
 -
-block
+box
 ;
 background
 -
