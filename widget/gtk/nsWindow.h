@@ -2253,6 +2253,11 @@ COMPOSITOR_PAUSED_FLICKERING
 WindowCompositorState
 ;
 void
+ResumeCompositorImpl
+(
+)
+;
+void
 ResumeCompositorFlickering
 (
 )
