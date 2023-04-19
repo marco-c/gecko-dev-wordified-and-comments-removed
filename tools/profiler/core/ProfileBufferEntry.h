@@ -698,6 +698,15 @@ MakeUnique
 UniqueJSONStrings
 >
 (
+mozilla
+:
+:
+FailureLatchInfallibleSource
+:
+:
+Singleton
+(
+)
 )
 )
 {

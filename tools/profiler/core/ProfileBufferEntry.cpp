@@ -1299,6 +1299,12 @@ MakeUnique
 UniqueJSONStrings
 >
 (
+FailureLatchInfallibleSource
+:
+:
+Singleton
+(
+)
 *
 aOther
 .

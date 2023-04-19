@@ -1032,6 +1032,12 @@ MakeUnique
 UniqueJSONStrings
 >
 (
+FailureLatchInfallibleSource
+:
+:
+Singleton
+(
+)
 )
 )
 mFrameTableWriter
