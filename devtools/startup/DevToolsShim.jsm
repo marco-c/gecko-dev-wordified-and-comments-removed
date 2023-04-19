@@ -913,6 +913,12 @@ otherToolMethods
 "
 showToolboxForTab
 "
+"
+hasToolboxForTab
+"
+"
+getToolboxForTab
+"
 ]
 ;
 for
