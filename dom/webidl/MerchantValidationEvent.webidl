@@ -215,7 +215,7 @@ validationURL
 [
 Throws
 ]
-void
+undefined
 complete
 (
 Promise

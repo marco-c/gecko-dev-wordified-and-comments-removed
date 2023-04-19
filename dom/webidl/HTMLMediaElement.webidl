@@ -259,7 +259,7 @@ attribute
 TimeRanges
 buffered
 ;
-void
+undefined
 load
 (
 )
@@ -335,7 +335,7 @@ currentTime
 [
 Throws
 ]
-void
+undefined
 fastSeek
 (
 double
@@ -429,7 +429,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 play
 (
@@ -438,7 +438,7 @@ play
 [
 Throws
 ]
-void
+undefined
 pause
 (
 )
@@ -615,7 +615,7 @@ HasDebuggerOrTabsPrivilege
 NewObject
 ]
 static
-void
+undefined
 mozEnableDebugLog
 (
 )
@@ -845,7 +845,7 @@ mediaKeys
 ;
 /
 /
-void
+undefined
 not
 any
 :
@@ -875,7 +875,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 setMediaKeys
 (
@@ -1391,7 +1391,7 @@ enabled
 ]
 Promise
 <
-void
+undefined
 >
 seekToNextFrame
 (
@@ -1536,7 +1536,7 @@ video
 suspend
 "
 ]
-void
+undefined
 setVisible
 (
 boolean
@@ -1663,7 +1663,7 @@ tests
 [
 ChromeOnly
 ]
-void
+undefined
 setFormatDiagnosticsReportForMimeType
 (
 DOMString
@@ -1676,7 +1676,7 @@ error
 Throws
 ChromeOnly
 ]
-void
+undefined
 setDecodeError
 (
 DOMString
@@ -1686,7 +1686,7 @@ error
 [
 ChromeOnly
 ]
-void
+undefined
 setAudioSinkFailedStartup
 (
 )
@@ -1752,7 +1752,7 @@ enabled
 ]
 Promise
 <
-void
+undefined
 >
 setSinkId
 (

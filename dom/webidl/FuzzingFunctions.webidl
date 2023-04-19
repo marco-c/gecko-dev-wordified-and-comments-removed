@@ -154,7 +154,7 @@ collection
 *
 /
 static
-void
+undefined
 garbageCollect
 (
 )
@@ -173,7 +173,7 @@ collection
 *
 /
 static
-void
+undefined
 garbageCollectCompacting
 (
 )
@@ -190,7 +190,7 @@ crash
 *
 /
 static
-void
+undefined
 crash
 (
 optional
@@ -214,7 +214,7 @@ collection
 *
 /
 static
-void
+undefined
 cycleCollect
 (
 )
@@ -241,7 +241,7 @@ actions
 *
 /
 static
-void
+undefined
 memoryPressure
 (
 )
@@ -259,7 +259,7 @@ accessibility
 Throws
 ]
 static
-void
+undefined
 enableAccessibility
 (
 )
@@ -279,7 +279,7 @@ parent
 *
 /
 static
-void
+undefined
 signalIPCReady
 (
 )
@@ -1062,7 +1062,7 @@ DOM_VK_COLON
 Throws
 ]
 static
-void
+undefined
 synthesizeKeyboardEvents
 (
 DOMString

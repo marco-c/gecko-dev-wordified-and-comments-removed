@@ -236,7 +236,7 @@ interaction
 Throws
 NeedsCallerType
 ]
-void
+undefined
 start
 (
 optional
@@ -244,12 +244,12 @@ MediaStream
 stream
 )
 ;
-void
+undefined
 stop
 (
 )
 ;
-void
+undefined
 abort
 (
 )

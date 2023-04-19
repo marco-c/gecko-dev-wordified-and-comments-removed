@@ -164,7 +164,7 @@ init
 [
 Throws
 ]
-void
+undefined
 setPriority
 (
 TaskPriority

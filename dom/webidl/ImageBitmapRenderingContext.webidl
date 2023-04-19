@@ -387,7 +387,7 @@ applied
 as
 usual
 .
-void
+undefined
 transferFromImageBitmap
 (
 ImageBitmap
@@ -408,7 +408,7 @@ Deprecated
 ImageBitmapRenderingContext_TransferImageBitmap
 "
 ]
-void
+undefined
 transferImageBitmap
 (
 ImageBitmap

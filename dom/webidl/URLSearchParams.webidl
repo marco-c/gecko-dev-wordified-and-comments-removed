@@ -240,7 +240,7 @@ init
 "
 )
 ;
-void
+undefined
 append
 (
 USVString
@@ -249,7 +249,7 @@ USVString
 value
 )
 ;
-void
+undefined
 delete
 (
 USVString
@@ -281,7 +281,7 @@ USVString
 name
 )
 ;
-void
+undefined
 set
 (
 USVString
@@ -293,7 +293,7 @@ value
 [
 Throws
 ]
-void
+undefined
 sort
 (
 )

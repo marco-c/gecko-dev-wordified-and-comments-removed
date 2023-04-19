@@ -204,7 +204,7 @@ NeedsSubjectPrincipal
 NonSystem
 Throws
 ]
-void
+undefined
 setProperty
 (
 UTF8String

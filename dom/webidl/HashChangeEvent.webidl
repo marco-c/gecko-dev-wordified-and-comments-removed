@@ -154,7 +154,7 @@ attribute
 DOMString
 newURL
 ;
-void
+undefined
 initHashChangeEvent
 (
 DOMString

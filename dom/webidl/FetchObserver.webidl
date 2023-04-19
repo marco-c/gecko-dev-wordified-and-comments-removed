@@ -100,7 +100,7 @@ callback
 interface
 ObserverCallback
 {
-void
+undefined
 handleEvent
 (
 FetchObserver

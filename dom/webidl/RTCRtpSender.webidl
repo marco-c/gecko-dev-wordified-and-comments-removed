@@ -153,7 +153,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 setParameters
 (
@@ -175,7 +175,7 @@ Throws
 ]
 Promise
 <
-void
+undefined
 >
 replaceTrack
 (
@@ -228,7 +228,7 @@ getStreams
 [
 ChromeOnly
 ]
-void
+undefined
 setStreams
 (
 sequence
@@ -241,7 +241,7 @@ streams
 [
 ChromeOnly
 ]
-void
+undefined
 setTrack
 (
 MediaStreamTrack

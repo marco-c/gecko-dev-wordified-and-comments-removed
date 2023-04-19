@@ -279,7 +279,7 @@ socket
 .
 *
 /
-void
+undefined
 close
 (
 )

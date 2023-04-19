@@ -144,7 +144,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 enable
 (
@@ -155,7 +155,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 disable
 (
@@ -166,7 +166,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 setHeaderValue
 (

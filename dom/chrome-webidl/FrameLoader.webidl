@@ -364,7 +364,7 @@ position
 [
 Throws
 ]
-void
+undefined
 requestUpdatePosition
 (
 )
@@ -403,7 +403,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 requestTabStateFlush
 (
@@ -422,7 +422,7 @@ sessionStoreListeners
 .
 *
 /
-void
+undefined
 requestEpochUpdate
 (
 unsigned
@@ -445,7 +445,7 @@ sessionStoreListeners
 .
 *
 /
-void
+undefined
 requestSHistoryUpdate
 (
 )
@@ -622,7 +622,7 @@ it
 .
 *
 /
-void
+undefined
 exitPrintPreview
 (
 )
@@ -1083,7 +1083,7 @@ WebBrowserPersistable
 [
 Throws
 ]
-void
+undefined
 startPersistence
 (
 BrowsingContext

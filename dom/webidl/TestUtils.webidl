@@ -147,7 +147,7 @@ Throws
 ]
 Promise
 <
-void
+undefined
 >
 gc
 (

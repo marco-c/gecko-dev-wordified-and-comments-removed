@@ -371,7 +371,7 @@ visible
 .
 *
 /
-void
+undefined
 ensureRowIsVisible
 (
 long
@@ -398,7 +398,7 @@ visible
 [
 Throws
 ]
-void
+undefined
 ensureCellIsVisible
 (
 long
@@ -430,7 +430,7 @@ view
 .
 *
 /
-void
+undefined
 scrollToRow
 (
 long
@@ -472,7 +472,7 @@ tree
 .
 *
 /
-void
+undefined
 scrollByLines
 (
 long
@@ -528,7 +528,7 @@ tree
 .
 *
 /
-void
+undefined
 scrollByPages
 (
 long
@@ -550,12 +550,12 @@ control
 .
 *
 /
-void
+undefined
 invalidate
 (
 )
 ;
-void
+undefined
 invalidateColumn
 (
 TreeColumn
@@ -563,14 +563,14 @@ TreeColumn
 col
 )
 ;
-void
+undefined
 invalidateRow
 (
 long
 index
 )
 ;
-void
+undefined
 invalidateCell
 (
 long
@@ -580,7 +580,7 @@ TreeColumn
 col
 )
 ;
-void
+undefined
 invalidateRange
 (
 long
@@ -886,7 +886,7 @@ times
 .
 *
 /
-void
+undefined
 rowCountChanged
 (
 long
@@ -946,7 +946,7 @@ sync
 .
 *
 /
-void
+undefined
 beginUpdateBatch
 (
 )
@@ -969,7 +969,7 @@ update
 .
 *
 /
-void
+undefined
 endUpdateBatch
 (
 )
@@ -997,7 +997,7 @@ caches
 .
 *
 /
-void
+undefined
 clearStyleAndImageCaches
 (
 )
@@ -1024,7 +1024,7 @@ invalidation
 [
 Throws
 ]
-void
+undefined
 removeImageCacheEntry
 (
 long

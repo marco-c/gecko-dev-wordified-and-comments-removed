@@ -169,7 +169,7 @@ UnderlyingSourcePullCallback
 =
 Promise
 <
-void
+undefined
 >
 (
 ReadableStreamController
@@ -181,7 +181,7 @@ UnderlyingSourceCancelCallback
 =
 Promise
 <
-void
+undefined
 >
 (
 optional

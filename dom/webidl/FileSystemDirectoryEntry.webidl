@@ -126,7 +126,7 @@ createReader
 (
 )
 ;
-void
+undefined
 getFile
 (
 optional
@@ -147,7 +147,7 @@ ErrorCallback
 errorCallback
 )
 ;
-void
+undefined
 getDirectory
 (
 optional

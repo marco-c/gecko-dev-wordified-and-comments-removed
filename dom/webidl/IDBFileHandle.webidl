@@ -244,7 +244,7 @@ flush
 [
 Throws
 ]
-void
+undefined
 abort
 (
 )

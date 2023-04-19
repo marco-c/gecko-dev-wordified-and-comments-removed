@@ -146,7 +146,7 @@ form
 [
 Throws
 ]
-void
+undefined
 append
 (
 USVString
@@ -161,7 +161,7 @@ filename
 [
 Throws
 ]
-void
+undefined
 append
 (
 USVString
@@ -170,7 +170,7 @@ USVString
 value
 )
 ;
-void
+undefined
 delete
 (
 USVString
@@ -205,7 +205,7 @@ name
 [
 Throws
 ]
-void
+undefined
 set
 (
 USVString
@@ -220,7 +220,7 @@ filename
 [
 Throws
 ]
-void
+undefined
 set
 (
 USVString

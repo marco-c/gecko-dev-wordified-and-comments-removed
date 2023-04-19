@@ -196,7 +196,7 @@ attribute
 boolean
 shiftKey
 ;
-void
+undefined
 initTouchEvent
 (
 DOMString

@@ -188,7 +188,7 @@ IIRFilterOptions
 options
 )
 ;
-void
+undefined
 getFrequencyResponse
 (
 Float32Array

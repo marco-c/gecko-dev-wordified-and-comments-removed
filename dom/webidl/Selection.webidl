@@ -275,7 +275,7 @@ BinaryName
 addRangeJS
 "
 ]
-void
+undefined
 addRange
 (
 Range
@@ -304,7 +304,7 @@ BinaryName
 removeRangeAndUnselectFramesAndNotifyListeners
 "
 ]
-void
+undefined
 removeRange
 (
 Range
@@ -328,7 +328,7 @@ selection
 [
 Throws
 ]
-void
+undefined
 removeAllRanges
 (
 )
@@ -341,7 +341,7 @@ BinaryName
 RemoveAllRanges
 "
 ]
-void
+undefined
 empty
 (
 )
@@ -354,7 +354,7 @@ BinaryName
 collapseJS
 "
 ]
-void
+undefined
 collapse
 (
 Node
@@ -376,7 +376,7 @@ BinaryName
 collapseJS
 "
 ]
-void
+undefined
 setPosition
 (
 Node
@@ -398,7 +398,7 @@ BinaryName
 collapseToStartJS
 "
 ]
-void
+undefined
 collapseToStart
 (
 )
@@ -411,7 +411,7 @@ BinaryName
 collapseToEndJS
 "
 ]
-void
+undefined
 collapseToEnd
 (
 )
@@ -424,7 +424,7 @@ BinaryName
 extendJS
 "
 ]
-void
+undefined
 extend
 (
 Node
@@ -445,7 +445,7 @@ BinaryName
 setBaseAndExtentJS
 "
 ]
-void
+undefined
 setBaseAndExtent
 (
 Node
@@ -468,7 +468,7 @@ BinaryName
 selectAllChildrenJS
 "
 ]
-void
+undefined
 selectAllChildren
 (
 Node
@@ -479,7 +479,7 @@ node
 CEReactions
 Throws
 ]
-void
+undefined
 deleteFromDocument
 (
 )
@@ -522,7 +522,7 @@ Selection
 [
 Throws
 ]
-void
+undefined
 modify
 (
 DOMString
@@ -622,7 +622,7 @@ wrapColumn
 [
 ChromeOnly
 ]
-void
+undefined
 addSelectionListener
 (
 nsISelectionListener
@@ -632,7 +632,7 @@ newListener
 [
 ChromeOnly
 ]
-void
+undefined
 removeSelectionListener
 (
 nsISelectionListener
@@ -805,7 +805,7 @@ horizontally
 ChromeOnly
 Throws
 ]
-void
+undefined
 scrollIntoView
 (
 short
@@ -968,7 +968,7 @@ selection
 ChromeOnly
 Throws
 ]
-void
+undefined
 setColors
 (
 DOMString
@@ -1006,7 +1006,7 @@ setColors
 ChromeOnly
 Throws
 ]
-void
+undefined
 resetColors
 (
 )

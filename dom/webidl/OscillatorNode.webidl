@@ -247,7 +247,7 @@ detune
 /
 in
 Cents
-void
+undefined
 setPeriodicWave
 (
 PeriodicWave

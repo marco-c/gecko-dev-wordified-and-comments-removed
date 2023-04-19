@@ -151,7 +151,7 @@ view
 [
 Throws
 ]
-void
+undefined
 respond
 (
 [
@@ -166,7 +166,7 @@ bytesWritten
 [
 Throws
 ]
-void
+undefined
 respondWithNewView
 (
 ArrayBufferView

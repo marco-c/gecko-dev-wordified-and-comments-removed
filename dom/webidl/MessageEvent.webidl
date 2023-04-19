@@ -353,7 +353,7 @@ appropriately
 .
 *
 /
-void
+undefined
 initMessageEvent
 (
 DOMString

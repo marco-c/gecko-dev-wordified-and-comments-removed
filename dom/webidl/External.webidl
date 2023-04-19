@@ -107,12 +107,12 @@ Deprecated
 External_AddSearchProvider
 "
 ]
-void
+undefined
 AddSearchProvider
 (
 )
 ;
-void
+undefined
 IsSearchProviderInstalled
 (
 )

@@ -362,7 +362,7 @@ DOM
 Level
 3
 :
-void
+undefined
 initMouseEvent
 (
 DOMString
@@ -637,7 +637,7 @@ unsigned
 short
 mozInputSource
 ;
-void
+undefined
 initNSMouseEvent
 (
 DOMString
@@ -764,7 +764,7 @@ events
 [
 ChromeOnly
 ]
-void
+undefined
 preventClickEvent
 (
 )

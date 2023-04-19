@@ -208,7 +208,7 @@ TextTrackCueList
 ?
 activeCues
 ;
-void
+undefined
 addCue
 (
 VTTCue
@@ -218,7 +218,7 @@ cue
 [
 Throws
 ]
-void
+undefined
 removeCue
 (
 VTTCue

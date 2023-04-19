@@ -474,7 +474,7 @@ idl
 [
 Throws
 ]
-void
+undefined
 cancel
 (
 unsigned
@@ -535,7 +535,7 @@ redirectTo
 [
 Throws
 ]
-void
+undefined
 redirectTo
 (
 URI
@@ -642,7 +642,7 @@ request
 [
 Throws
 ]
-void
+undefined
 upgradeToSecure
 (
 )
@@ -672,7 +672,7 @@ profiles
 [
 Throws
 ]
-void
+undefined
 suspend
 (
 ByteString
@@ -698,7 +698,7 @@ channel
 [
 Throws
 ]
-void
+undefined
 resume
 (
 )
@@ -1025,7 +1025,7 @@ RemoteTab
 .
 *
 /
-void
+undefined
 registerTraceableChannel
 (
 WebExtensionPolicy
@@ -1339,7 +1339,7 @@ dispatched
 .
 *
 /
-void
+undefined
 errorCheck
 (
 )
@@ -2437,7 +2437,7 @@ NS_ERROR_UNEXPECTED
 [
 Throws
 ]
-void
+undefined
 setRequestHeader
 (
 ByteString
@@ -2580,7 +2580,7 @@ details
 [
 Throws
 ]
-void
+undefined
 setResponseHeader
 (
 ByteString

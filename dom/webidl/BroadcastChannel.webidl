@@ -146,14 +146,14 @@ name
 [
 Throws
 ]
-void
+undefined
 postMessage
 (
 any
 message
 )
 ;
-void
+undefined
 close
 (
 )

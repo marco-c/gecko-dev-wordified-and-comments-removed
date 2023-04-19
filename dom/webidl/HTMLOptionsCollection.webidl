@@ -169,7 +169,7 @@ CEReactions
 Throws
 ]
 setter
-void
+undefined
 (
 unsigned
 long
@@ -183,7 +183,7 @@ option
 CEReactions
 Throws
 ]
-void
+undefined
 add
 (
 (
@@ -207,7 +207,7 @@ null
 [
 CEReactions
 ]
-void
+undefined
 remove
 (
 long

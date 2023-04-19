@@ -126,7 +126,7 @@ CEReactions
 Throws
 Unscopable
 ]
-void
+undefined
 before
 (
 (
@@ -145,7 +145,7 @@ CEReactions
 Throws
 Unscopable
 ]
-void
+undefined
 after
 (
 (
@@ -164,7 +164,7 @@ CEReactions
 Throws
 Unscopable
 ]
-void
+undefined
 replaceWith
 (
 (
@@ -182,7 +182,7 @@ nodes
 CEReactions
 Unscopable
 ]
-void
+undefined
 remove
 (
 )

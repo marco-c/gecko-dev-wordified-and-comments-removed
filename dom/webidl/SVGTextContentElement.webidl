@@ -273,7 +273,7 @@ point
 [
 Throws
 ]
-void
+undefined
 selectSubString
 (
 unsigned

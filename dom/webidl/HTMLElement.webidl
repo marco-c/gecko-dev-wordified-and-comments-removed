@@ -283,7 +283,7 @@ inert
 [
 NeedsCallerType
 ]
-void
+undefined
 click
 (
 )

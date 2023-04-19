@@ -219,14 +219,14 @@ options
 [
 Throws
 ]
-void
+undefined
 deleteObjectStore
 (
 DOMString
 name
 )
 ;
-void
+undefined
 close
 (
 )

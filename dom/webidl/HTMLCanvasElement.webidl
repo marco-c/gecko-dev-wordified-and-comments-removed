@@ -247,7 +247,7 @@ encoderOptions
 Throws
 NeedsSubjectPrincipal
 ]
-void
+undefined
 toBlob
 (
 BlobCallback
@@ -428,7 +428,7 @@ context
 is
 done
 .
-void
+undefined
 done
 (
 )
@@ -438,7 +438,7 @@ done
 callback
 PrintCallback
 =
-void
+undefined
 (
 MozCanvasPrintState
 ctx
@@ -447,7 +447,7 @@ ctx
 callback
 BlobCallback
 =
-void
+undefined
 (
 Blob
 ?

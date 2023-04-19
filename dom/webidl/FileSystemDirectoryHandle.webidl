@@ -195,7 +195,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 removeEntry
 (

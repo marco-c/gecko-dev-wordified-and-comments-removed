@@ -815,7 +815,7 @@ Throws
 CrossOriginCallable
 NeedsCallerType
 ]
-void
+undefined
 close
 (
 )
@@ -832,7 +832,7 @@ closed
 [
 Throws
 ]
-void
+undefined
 stop
 (
 )
@@ -842,7 +842,7 @@ Throws
 CrossOriginCallable
 NeedsCallerType
 ]
-void
+undefined
 focus
 (
 )
@@ -852,7 +852,7 @@ Throws
 CrossOriginCallable
 NeedsCallerType
 ]
-void
+undefined
 blur
 (
 )
@@ -1108,7 +1108,7 @@ prompts
 Throws
 NeedsSubjectPrincipal
 ]
-void
+undefined
 alert
 (
 )
@@ -1117,7 +1117,7 @@ alert
 Throws
 NeedsSubjectPrincipal
 ]
-void
+undefined
 alert
 (
 DOMString
@@ -1171,7 +1171,7 @@ dom
 enable_window_print
 "
 ]
-void
+undefined
 print
 (
 )
@@ -1264,7 +1264,7 @@ BinaryName
 postMessageMoz
 "
 ]
-void
+undefined
 postMessage
 (
 any
@@ -1292,7 +1292,7 @@ BinaryName
 postMessageMoz
 "
 ]
-void
+undefined
 postMessage
 (
 any
@@ -1439,12 +1439,12 @@ partial
 interface
 Window
 {
-void
+undefined
 captureEvents
 (
 )
 ;
-void
+undefined
 releaseEvents
 (
 )
@@ -1715,7 +1715,7 @@ context
 [
 Throws
 ]
-void
+undefined
 moveTo
 (
 double
@@ -1729,7 +1729,7 @@ y
 [
 Throws
 ]
-void
+undefined
 moveBy
 (
 double
@@ -1743,7 +1743,7 @@ y
 [
 Throws
 ]
-void
+undefined
 resizeTo
 (
 double
@@ -1757,7 +1757,7 @@ y
 [
 Throws
 ]
-void
+undefined
 resizeBy
 (
 double
@@ -1770,7 +1770,7 @@ y
 Throws
 NeedsCallerType
 ]
-void
+undefined
 moveTo
 (
 long
@@ -1783,7 +1783,7 @@ y
 Throws
 NeedsCallerType
 ]
-void
+undefined
 moveBy
 (
 long
@@ -1796,7 +1796,7 @@ y
 Throws
 NeedsCallerType
 ]
-void
+undefined
 resizeTo
 (
 long
@@ -1809,7 +1809,7 @@ y
 Throws
 NeedsCallerType
 ]
-void
+undefined
 resizeBy
 (
 long
@@ -1914,7 +1914,7 @@ innerHeight
 /
 viewport
 scrolling
-void
+undefined
 scroll
 (
 unrestricted
@@ -1925,7 +1925,7 @@ double
 y
 )
 ;
-void
+undefined
 scroll
 (
 optional
@@ -1936,7 +1936,7 @@ options
 }
 )
 ;
-void
+undefined
 scrollTo
 (
 unrestricted
@@ -1947,7 +1947,7 @@ double
 y
 )
 ;
-void
+undefined
 scrollTo
 (
 optional
@@ -1958,7 +1958,7 @@ options
 }
 )
 ;
-void
+undefined
 scrollBy
 (
 unrestricted
@@ -1969,7 +1969,7 @@ double
 y
 )
 ;
-void
+undefined
 scrollBy
 (
 optional
@@ -2034,7 +2034,7 @@ bug
 [
 ChromeOnly
 ]
-void
+undefined
 mozScrollSnap
 (
 )
@@ -2515,7 +2515,7 @@ lines
 .
 *
 /
-void
+undefined
 scrollByLines
 (
 long
@@ -2545,7 +2545,7 @@ pages
 .
 *
 /
-void
+undefined
 scrollByPages
 (
 long
@@ -2580,7 +2580,7 @@ window
 Throws
 NeedsCallerType
 ]
-void
+undefined
 sizeToContent
 (
 )
@@ -2786,7 +2786,7 @@ be
 in
 nsIDOMChromeWindow
 ?
-void
+undefined
 updateCommands
 (
 DOMString
@@ -2965,7 +2965,7 @@ attribute
 EventHandler
 ondevicelight
 ;
-void
+undefined
 dump
 (
 DOMString
@@ -2998,7 +2998,7 @@ no
 op
 *
 /
-void
+undefined
 setResizable
 (
 boolean
@@ -3733,7 +3733,7 @@ nsGlobalWindowInner
 IsPrivilegedChromeWindow
 "
 ]
-void
+undefined
 getAttention
 (
 )
@@ -3749,7 +3749,7 @@ nsGlobalWindowInner
 IsPrivilegedChromeWindow
 "
 ]
-void
+undefined
 getAttentionWithCycleCount
 (
 long
@@ -3767,7 +3767,7 @@ nsGlobalWindowInner
 IsPrivilegedChromeWindow
 "
 ]
-void
+undefined
 setCursor
 (
 UTF8String
@@ -3784,7 +3784,7 @@ nsGlobalWindowInner
 IsPrivilegedChromeWindow
 "
 ]
-void
+undefined
 maximize
 (
 )
@@ -3799,7 +3799,7 @@ nsGlobalWindowInner
 IsPrivilegedChromeWindow
 "
 ]
-void
+undefined
 minimize
 (
 )
@@ -3814,7 +3814,7 @@ nsGlobalWindowInner
 IsPrivilegedChromeWindow
 "
 ]
-void
+undefined
 restore
 (
 )
@@ -3844,7 +3844,7 @@ nsGlobalWindowInner
 IsPrivilegedChromeWindow
 "
 ]
-void
+undefined
 moveToWorkspace
 (
 DOMString
@@ -3888,7 +3888,7 @@ nsGlobalWindowInner
 IsPrivilegedChromeWindow
 "
 ]
-void
+undefined
 notifyDefaultButtonLoaded
 (
 Element
@@ -4665,7 +4665,7 @@ nsGlobalWindowInner
 IsRequestIdleCallbackEnabled
 "
 ]
-void
+undefined
 cancelIdleCallback
 (
 unsigned
@@ -4687,7 +4687,7 @@ timeout
 callback
 IdleRequestCallback
 =
-void
+undefined
 (
 IdleDeadline
 deadline
@@ -5070,7 +5070,7 @@ Y
 [
 ChromeOnly
 ]
-void
+undefined
 setScrollMarks
 (
 sequence

@@ -164,7 +164,7 @@ onended
 [
 Throws
 ]
-void
+undefined
 start
 (
 optional
@@ -177,7 +177,7 @@ when
 [
 Throws
 ]
-void
+undefined
 stop
 (
 optional

@@ -205,7 +205,7 @@ index
 [
 Throws
 ]
-void
+undefined
 addFromURI
 (
 DOMString
@@ -218,7 +218,7 @@ weight
 [
 Throws
 ]
-void
+undefined
 addFromString
 (
 DOMString

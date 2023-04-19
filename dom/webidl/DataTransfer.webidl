@@ -156,7 +156,7 @@ attribute
 DataTransferItemList
 items
 ;
-void
+undefined
 setDragImage
 (
 Element
@@ -223,7 +223,7 @@ format
 Throws
 NeedsSubjectPrincipal
 ]
-void
+undefined
 setData
 (
 DOMString
@@ -236,7 +236,7 @@ data
 Throws
 NeedsSubjectPrincipal
 ]
-void
+undefined
 clearData
 (
 optional
@@ -328,7 +328,7 @@ modified
 Throws
 UseCounter
 ]
-void
+undefined
 addElement
 (
 Element
@@ -631,7 +631,7 @@ modified
 Throws
 ChromeOnly
 ]
-void
+undefined
 mozClearDataAt
 (
 DOMString
@@ -828,7 +828,7 @@ modified
 Throws
 ChromeOnly
 ]
-void
+undefined
 mozSetDataAt
 (
 DOMString
@@ -971,7 +971,7 @@ process
 [
 ChromeOnly
 ]
-void
+undefined
 updateDragImage
 (
 Element

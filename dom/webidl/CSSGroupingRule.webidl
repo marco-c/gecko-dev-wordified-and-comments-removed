@@ -170,7 +170,7 @@ index
 [
 Throws
 ]
-void
+undefined
 deleteRule
 (
 unsigned

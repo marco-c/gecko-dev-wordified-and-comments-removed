@@ -170,7 +170,7 @@ Throws
 ]
 Promise
 <
-void
+undefined
 >
 abort
 (
@@ -184,7 +184,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 close
 (

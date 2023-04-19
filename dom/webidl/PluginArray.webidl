@@ -100,7 +100,7 @@ Window
 interface
 PluginArray
 {
-void
+undefined
 refresh
 (
 )

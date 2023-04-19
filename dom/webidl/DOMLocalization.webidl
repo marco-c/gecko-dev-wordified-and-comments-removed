@@ -42,7 +42,7 @@ aLocales
 [
 Throws
 ]
-void
+undefined
 connectRoot
 (
 Node
@@ -52,7 +52,7 @@ aElement
 [
 Throws
 ]
-void
+undefined
 disconnectRoot
 (
 Node
@@ -62,7 +62,7 @@ aElement
 [
 Throws
 ]
-void
+undefined
 pauseObserving
 (
 )
@@ -70,7 +70,7 @@ pauseObserving
 [
 Throws
 ]
-void
+undefined
 resumeObserving
 (
 )
@@ -78,7 +78,7 @@ resumeObserving
 [
 Throws
 ]
-void
+undefined
 setAttributes
 (
 Element
@@ -119,7 +119,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 translateElements
 (
@@ -135,7 +135,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 translateRoots
 (

@@ -482,12 +482,12 @@ partial
 interface
 Performance
 {
-void
+undefined
 clearResourceTimings
 (
 )
 ;
-void
+undefined
 setResourceTimingBufferSize
 (
 unsigned
@@ -671,7 +671,7 @@ markOptions
 }
 )
 ;
-void
+undefined
 clearMarks
 (
 optional
@@ -702,7 +702,7 @@ DOMString
 endMark
 )
 ;
-void
+undefined
 clearMeasures
 (
 optional

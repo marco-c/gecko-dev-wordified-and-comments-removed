@@ -287,7 +287,7 @@ reportValidity
 (
 )
 ;
-void
+undefined
 setCustomValidity
 (
 DOMString

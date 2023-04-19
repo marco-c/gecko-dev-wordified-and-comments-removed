@@ -205,7 +205,7 @@ returnValue
 [
 CEReactions
 ]
-void
+undefined
 show
 (
 )
@@ -214,7 +214,7 @@ show
 CEReactions
 Throws
 ]
-void
+undefined
 showModal
 (
 )
@@ -222,7 +222,7 @@ showModal
 [
 CEReactions
 ]
-void
+undefined
 close
 (
 optional

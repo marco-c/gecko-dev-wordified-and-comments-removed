@@ -114,7 +114,7 @@ index
 callback
 FileSystemEntriesCallback
 =
-void
+undefined
 (
 sequence
 <
@@ -151,7 +151,7 @@ data
 [
 Throws
 ]
-void
+undefined
 readEntries
 (
 FileSystemEntriesCallback

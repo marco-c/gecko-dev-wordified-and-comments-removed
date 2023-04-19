@@ -312,7 +312,7 @@ name
 [
 Throws
 ]
-void
+undefined
 submit
 (
 )
@@ -320,7 +320,7 @@ submit
 [
 Throws
 ]
-void
+undefined
 requestSubmit
 (
 optional
@@ -334,7 +334,7 @@ null
 [
 CEReactions
 ]
-void
+undefined
 reset
 (
 )

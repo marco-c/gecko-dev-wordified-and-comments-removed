@@ -94,7 +94,7 @@ MPL
 callback
 SetDeleteObjectCallback
 =
-void
+undefined
 (
 object
 value
@@ -106,7 +106,7 @@ index
 callback
 SetDeleteBooleanCallback
 =
-void
+undefined
 (
 boolean
 value
@@ -118,7 +118,7 @@ index
 callback
 SetDeleteInterfaceCallback
 =
-void
+undefined
 (
 TestInterfaceObservableArray
 value
@@ -249,7 +249,7 @@ index
 [
 Throws
 ]
-void
+undefined
 booleanReplaceElementAtInternal
 (
 unsigned
@@ -262,7 +262,7 @@ value
 [
 Throws
 ]
-void
+undefined
 interfaceReplaceElementAtInternal
 (
 unsigned
@@ -275,7 +275,7 @@ value
 [
 Throws
 ]
-void
+undefined
 objectReplaceElementAtInternal
 (
 unsigned
@@ -288,7 +288,7 @@ value
 [
 Throws
 ]
-void
+undefined
 booleanAppendElementInternal
 (
 boolean
@@ -298,7 +298,7 @@ value
 [
 Throws
 ]
-void
+undefined
 interfaceAppendElementInternal
 (
 TestInterfaceObservableArray
@@ -308,7 +308,7 @@ value
 [
 Throws
 ]
-void
+undefined
 objectAppendElementInternal
 (
 object
@@ -318,7 +318,7 @@ value
 [
 Throws
 ]
-void
+undefined
 booleanRemoveLastElementInternal
 (
 )
@@ -326,7 +326,7 @@ booleanRemoveLastElementInternal
 [
 Throws
 ]
-void
+undefined
 interfaceRemoveLastElementInternal
 (
 )
@@ -334,7 +334,7 @@ interfaceRemoveLastElementInternal
 [
 Throws
 ]
-void
+undefined
 objectRemoveLastElementInternal
 (
 )

@@ -27,7 +27,7 @@ interface
 RecordArg
 {
           
-void
+undefined
 foo
 (
 record
@@ -257,16 +257,16 @@ parse
 "
             
 interface
-RecordVoidArg
+RecordUndefinedArg
 {
               
-void
+undefined
 foo
 (
 record
 <
 DOMString
-void
+undefined
 >
 arg
 )
@@ -315,7 +315,7 @@ can
 '
 t
 have
-void
+undefined
 as
 value
 type

@@ -372,7 +372,7 @@ attribute
 EventHandler
 onremove
 ;
-void
+undefined
 cancel
 (
 )
@@ -380,7 +380,7 @@ cancel
 [
 Throws
 ]
-void
+undefined
 finish
 (
 )
@@ -393,7 +393,7 @@ BinaryName
 playFromJS
 "
 ]
-void
+undefined
 play
 (
 )
@@ -406,12 +406,12 @@ BinaryName
 pauseFromJS
 "
 ]
-void
+undefined
 pause
 (
 )
 ;
-void
+undefined
 updatePlaybackRate
 (
 double
@@ -421,7 +421,7 @@ playbackRate
 [
 Throws
 ]
-void
+undefined
 reverse
 (
 )
@@ -441,7 +441,7 @@ autoremove
 enabled
 "
 ]
-void
+undefined
 persist
 (
 )
@@ -462,7 +462,7 @@ enabled
 "
 Throws
 ]
-void
+undefined
 commitStyles
 (
 )

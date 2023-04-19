@@ -114,7 +114,7 @@ index
 callback
 FileCallback
 =
-void
+undefined
 (
 File
 file
@@ -137,7 +137,7 @@ BinaryName
 GetFile
 "
 ]
-void
+undefined
 file
 (
 FileCallback

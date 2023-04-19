@@ -239,7 +239,7 @@ getRegistrations
 (
 )
 ;
-void
+undefined
 startMessages
 (
 )

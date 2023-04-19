@@ -263,7 +263,7 @@ interface
 TestCallbackInterface1
 {
           
-void
+undefined
 foo
 (
 )
@@ -277,7 +277,7 @@ interface
 TestCallbackInterface2
 {
           
-void
+undefined
 foo
 (
 DOMString
@@ -285,7 +285,7 @@ arg
 )
 ;
           
-void
+undefined
 foo
 (
 TestCallbackInterface1
@@ -301,7 +301,7 @@ interface
 TestCallbackInterface3
 {
           
-void
+undefined
 foo
 (
 DOMString
@@ -309,7 +309,7 @@ arg
 )
 ;
           
-void
+undefined
 foo
 (
 TestCallbackInterface1
@@ -318,7 +318,7 @@ arg
 ;
           
 static
-void
+undefined
 bar
 (
 )
@@ -332,7 +332,7 @@ interface
 TestCallbackInterface4
 {
           
-void
+undefined
 foo
 (
 DOMString
@@ -340,7 +340,7 @@ arg
 )
 ;
           
-void
+undefined
 foo
 (
 TestCallbackInterface1
@@ -349,7 +349,7 @@ arg
 ;
           
 static
-void
+undefined
 bar
 (
 )
@@ -376,7 +376,7 @@ boolean
 bool
 ;
           
-void
+undefined
 foo
 (
 )
@@ -390,7 +390,7 @@ interface
 TestCallbackInterface6
 {
           
-void
+undefined
 foo
 (
 DOMString
@@ -398,7 +398,7 @@ arg
 )
 ;
           
-void
+undefined
 foo
 (
 TestCallbackInterface1
@@ -406,7 +406,7 @@ arg
 )
 ;
           
-void
+undefined
 bar
 (
 )
@@ -449,7 +449,7 @@ TestCallbackInterface9
 TestCallbackInterface1
 {
           
-void
+undefined
 foo
 (
 )
@@ -465,7 +465,7 @@ TestCallbackInterface10
 TestCallbackInterface1
 {
           
-void
+undefined
 bar
 (
 )

@@ -122,7 +122,7 @@ definition
 callback
 RTCSessionDescriptionCallback
 =
-void
+undefined
 (
 RTCSessionDescriptionInit
 description
@@ -131,7 +131,7 @@ description
 callback
 RTCPeerConnectionErrorCallback
 =
-void
+undefined
 (
 DOMException
 error
@@ -140,7 +140,7 @@ error
 callback
 RTCStatsCallback
 =
-void
+undefined
 (
 RTCStatsReport
 report
@@ -285,7 +285,7 @@ it
 callback
 mozPacketCallback
 =
-void
+undefined
 (
 unsigned
 long
@@ -494,7 +494,7 @@ identity
 enabled
 "
 ]
-void
+undefined
 setIdentityProvider
 (
 DOMString
@@ -558,7 +558,7 @@ options
 ;
 Promise
 <
-void
+undefined
 >
 setLocalDescription
 (
@@ -572,7 +572,7 @@ description
 ;
 Promise
 <
-void
+undefined
 >
 setRemoteDescription
 (
@@ -627,7 +627,7 @@ signalingState
 ;
 Promise
 <
-void
+undefined
 >
 addIceCandidate
 (
@@ -659,7 +659,7 @@ attribute
 RTCIceConnectionState
 iceConnectionState
 ;
-void
+undefined
 restartIce
 (
 )
@@ -716,7 +716,7 @@ getConfiguration
 (
 )
 ;
-void
+undefined
 setConfiguration
 (
 optional
@@ -757,7 +757,7 @@ getRemoteStreams
 (
 )
 ;
-void
+undefined
 addStream
 (
 MediaStream
@@ -809,7 +809,7 @@ MediaStream
 streams
 )
 ;
-void
+undefined
 removeTrack
 (
 RTCRtpSender
@@ -860,7 +860,7 @@ getTransceivers
 [
 ChromeOnly
 ]
-void
+undefined
 mozSetPacketCallback
 (
 mozPacketCallback
@@ -870,7 +870,7 @@ callback
 [
 ChromeOnly
 ]
-void
+undefined
 mozEnablePacketDump
 (
 unsigned
@@ -885,7 +885,7 @@ sending
 [
 ChromeOnly
 ]
-void
+undefined
 mozDisablePacketDump
 (
 unsigned
@@ -897,7 +897,7 @@ boolean
 sending
 )
 ;
-void
+undefined
 close
 (
 )
@@ -999,7 +999,7 @@ RTCPeerConnection
 Dummy
 Promise
 <
-void
+undefined
 >
 return
 values
@@ -1028,7 +1028,7 @@ types
 "
 Promise
 <
-void
+undefined
 >
 createOffer
 (
@@ -1046,7 +1046,7 @@ options
 ;
 Promise
 <
-void
+undefined
 >
 createAnswer
 (
@@ -1058,7 +1058,7 @@ failureCallback
 ;
 Promise
 <
-void
+undefined
 >
 setLocalDescription
 (
@@ -1072,7 +1072,7 @@ failureCallback
 ;
 Promise
 <
-void
+undefined
 >
 setRemoteDescription
 (
@@ -1086,7 +1086,7 @@ failureCallback
 ;
 Promise
 <
-void
+undefined
 >
 addIceCandidate
 (

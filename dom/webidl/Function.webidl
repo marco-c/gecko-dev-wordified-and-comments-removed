@@ -173,7 +173,7 @@ arguments
 callback
 VoidFunction
 =
-void
+undefined
 (
 )
 ;

@@ -196,7 +196,7 @@ index
 CEReactions
 Throws
 ]
-void
+undefined
 deleteRow
 (
 long

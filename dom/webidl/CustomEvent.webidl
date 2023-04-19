@@ -185,7 +185,7 @@ specific
 deprecated
 method
 .
-void
+undefined
 initCustomEvent
 (
 DOMString

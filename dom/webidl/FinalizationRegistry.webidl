@@ -113,7 +113,7 @@ browser
 callback
 FinalizationRegistryCleanupCallback
 =
-void
+undefined
 (
 )
 ;

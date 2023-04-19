@@ -103,7 +103,7 @@ have
 dictionary
 types
         
-void
+undefined
 passDict
 (
 Dict
@@ -111,7 +111,7 @@ arg
 )
 ;
         
-void
+undefined
 passFoo
 (
 Foo
@@ -119,7 +119,7 @@ arg
 )
 ;
         
-void
+undefined
 passNullableUnion
 (
 (
@@ -132,7 +132,7 @@ arg
 )
 ;
         
-void
+undefined
 passNullable
 (
 Foo
@@ -477,7 +477,7 @@ interface
 TestIface
 {
         
-void
+undefined
 passKid
 (
 Kid
@@ -485,7 +485,7 @@ arg
 )
 ;
         
-void
+undefined
 passParent
 (
 Parent
@@ -493,7 +493,7 @@ arg
 )
 ;
         
-void
+undefined
 passGrandparent
 (
 Grandparent
@@ -501,7 +501,7 @@ arg
 )
 ;
         
-void
+undefined
 passUnrelated1
 (
 Unrelated1
@@ -509,7 +509,7 @@ arg
 )
 ;
         
-void
+undefined
 passUnrelated2
 (
 Unrelated2
@@ -517,7 +517,7 @@ arg
 )
 ;
         
-void
+undefined
 passArrayBuffer
 (
 ArrayBuffer
@@ -525,7 +525,7 @@ arg
 )
 ;
         
-void
+undefined
 passArrayBuffer
 (
 ArrayBufferView
@@ -788,7 +788,7 @@ interface
 TestIface
 {
         
-void
+undefined
 method
 (
 long
@@ -798,7 +798,7 @@ arg2
 )
 ;
         
-void
+undefined
 method
 (
 long
@@ -808,7 +808,7 @@ arg2
 )
 ;
         
-void
+undefined
 method
 (
 long
@@ -818,7 +818,7 @@ arg2
 )
 ;
         
-void
+undefined
 method
 (
 DOMString
@@ -937,7 +937,7 @@ interface
 TestIface
 {
             
-void
+undefined
 method
 (
 long
@@ -947,7 +947,7 @@ arg2
 )
 ;
             
-void
+undefined
 method
 (
 long
@@ -957,7 +957,7 @@ arg2
 )
 ;
             
-void
+undefined
 method
 (
 any
@@ -967,7 +967,7 @@ arg2
 )
 ;
             
-void
+undefined
 method
 (
 DOMString
@@ -1066,7 +1066,7 @@ interface
 TestIface
 {
             
-void
+undefined
 method
 (
 long
@@ -1076,7 +1076,7 @@ arg2
 )
 ;
             
-void
+undefined
 method
 (
 long
@@ -1086,7 +1086,7 @@ arg2
 )
 ;
             
-void
+undefined
 method
 (
 any
@@ -1096,7 +1096,7 @@ arg2
 )
 ;
             
-void
+undefined
 method
 (
 DOMString
@@ -2476,7 +2476,7 @@ methodTemplate
 "
 "
             
-void
+undefined
 myMethod
 (
 %

@@ -230,12 +230,12 @@ options
 }
 )
 ;
-void
+undefined
 observe
 (
 )
 ;
-void
+undefined
 disconnect
 (
 )
@@ -250,7 +250,7 @@ takeRecords
 callback
 ReportingObserverCallback
 =
-void
+undefined
 (
 sequence
 <
@@ -419,7 +419,7 @@ Deprecated
 DeprecatedTestingMethod
 "
 ]
-void
+undefined
 deprecatedMethod
 (
 )

@@ -214,7 +214,7 @@ WebExtensionStub
 NoReturn
 "
 ]
-void
+undefined
 create
 (
 DOMString
@@ -231,7 +231,7 @@ WebExtensionStub
 NoReturn
 "
 ]
-void
+undefined
 create
 (
 any

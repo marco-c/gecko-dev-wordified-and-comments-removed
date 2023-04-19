@@ -225,7 +225,7 @@ attrChange
 [
 Throws
 ]
-void
+undefined
 initMutationEvent
 (
 DOMString

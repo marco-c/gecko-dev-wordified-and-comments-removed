@@ -212,7 +212,7 @@ provided
 [
 Throws
 ]
-void
+undefined
 initialize
 (
 PeerConnectionObserver
@@ -230,7 +230,7 @@ calls
 [
 Throws
 ]
-void
+undefined
 createOffer
 (
 optional
@@ -244,7 +244,7 @@ options
 [
 Throws
 ]
-void
+undefined
 createAnswer
 (
 )
@@ -252,7 +252,7 @@ createAnswer
 [
 Throws
 ]
-void
+undefined
 setLocalDescription
 (
 long
@@ -264,7 +264,7 @@ sdp
 [
 Throws
 ]
-void
+undefined
 setRemoteDescription
 (
 long
@@ -328,7 +328,7 @@ getTransceivers
 [
 Throws
 ]
-void
+undefined
 closeStreams
 (
 )
@@ -336,7 +336,7 @@ closeStreams
 [
 Throws
 ]
-void
+undefined
 enablePacketDump
 (
 unsigned
@@ -351,7 +351,7 @@ sending
 [
 Throws
 ]
-void
+undefined
 disablePacketDump
 (
 unsigned
@@ -418,7 +418,7 @@ SDP
 [
 Throws
 ]
-void
+undefined
 addIceCandidate
 (
 DOMString
@@ -445,7 +445,7 @@ state
 [
 Throws
 ]
-void
+undefined
 close
 (
 )
@@ -453,7 +453,7 @@ close
 [
 Throws
 ]
-void
+undefined
 setConfiguration
 (
 optional
@@ -464,12 +464,12 @@ config
 }
 )
 ;
-void
+undefined
 restartIce
 (
 )
 ;
-void
+undefined
 restartIceNoRenegotiationNeeded
 (
 )
@@ -512,7 +512,7 @@ Throws
 ]
 Promise
 <
-void
+undefined
 >
 onSetDescriptionSuccess
 (
@@ -522,7 +522,7 @@ boolean
 remote
 )
 ;
-void
+undefined
 onSetDescriptionError
 (
 )
@@ -705,7 +705,7 @@ ChainedOperation
 op
 )
 ;
-void
+undefined
 updateNegotiationNeeded
 (
 )

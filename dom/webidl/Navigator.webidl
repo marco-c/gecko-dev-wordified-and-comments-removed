@@ -769,7 +769,7 @@ registration
 Throws
 ChromeOnly
 ]
-void
+undefined
 checkProtocolHandlerAllowed
 (
 DOMString
@@ -784,7 +784,7 @@ documentURI
 Throws
 SecureContext
 ]
-void
+undefined
 registerProtocolHandler
 (
 DOMString
@@ -799,7 +799,7 @@ NOT
 IMPLEMENTED
 /
 /
-void
+undefined
 unregisterProtocolHandler
 (
 DOMString
@@ -845,7 +845,7 @@ NOT
 IMPLEMENTED
 /
 /
-void
+undefined
 yieldForStorageUpdates
 (
 )
@@ -1296,7 +1296,7 @@ persistent
 [
 ChromeOnly
 ]
-void
+undefined
 setVibrationPermission
 (
 boolean
@@ -1723,7 +1723,7 @@ vr
 enabled
 "
 ]
-void
+undefined
 requestVRPresentation
 (
 VRDisplay
@@ -1861,7 +1861,7 @@ options
 callback
 NavigatorUserMediaSuccessCallback
 =
-void
+undefined
 (
 MediaStream
 stream
@@ -1870,7 +1870,7 @@ stream
 callback
 NavigatorUserMediaErrorCallback
 =
-void
+undefined
 (
 MediaStreamError
 error
@@ -1924,7 +1924,7 @@ HasUserMediaSupport
 NeedsCallerType
 UseCounter
 ]
-void
+undefined
 mozGetUserMedia
 (
 MediaStreamConstraints
@@ -2248,7 +2248,7 @@ HasShareSupport
 ]
 Promise
 <
-void
+undefined
 >
 share
 (

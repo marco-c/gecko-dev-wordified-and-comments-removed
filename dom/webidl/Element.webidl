@@ -378,7 +378,7 @@ NeedsSubjectPrincipal
 NonSystem
 Throws
 ]
-void
+undefined
 setAttribute
 (
 DOMString
@@ -394,7 +394,7 @@ NeedsSubjectPrincipal
 NonSystem
 Throws
 ]
-void
+undefined
 setAttributeNS
 (
 DOMString
@@ -410,7 +410,7 @@ value
 CEReactions
 Throws
 ]
-void
+undefined
 removeAttribute
 (
 DOMString
@@ -421,7 +421,7 @@ name
 CEReactions
 Throws
 ]
-void
+undefined
 removeAttributeNS
 (
 DOMString
@@ -555,7 +555,7 @@ historical
 [
 Throws
 ]
-void
+undefined
 insertAdjacentText
 (
 DOMString
@@ -807,7 +807,7 @@ methods
 UseCounter
 Throws
 ]
-void
+undefined
 setPointerCapture
 (
 long
@@ -818,7 +818,7 @@ pointerId
 UseCounter
 Throws
 ]
-void
+undefined
 releasePointerCapture
 (
 long
@@ -913,7 +913,7 @@ mouse_capture
 enabled
 "
 ]
-void
+undefined
 setCapture
 (
 optional
@@ -968,7 +968,7 @@ mouse_capture
 enabled
 "
 ]
-void
+undefined
 releaseCapture
 (
 )
@@ -995,7 +995,7 @@ event
 [
 ChromeOnly
 ]
-void
+undefined
 setCaptureAlways
 (
 optional
@@ -1208,7 +1208,7 @@ tabIndex
 Throws
 NeedsCallerType
 ]
-void
+undefined
 focus
 (
 optional
@@ -1222,7 +1222,7 @@ options
 [
 Throws
 ]
-void
+undefined
 blur
 (
 )
@@ -1401,7 +1401,7 @@ options
 /
 /
 scrolling
-void
+undefined
 scrollIntoView
 (
 optional
@@ -1458,7 +1458,7 @@ attribute
 long
 scrollHeight
 ;
-void
+undefined
 scroll
 (
 unrestricted
@@ -1469,7 +1469,7 @@ double
 y
 )
 ;
-void
+undefined
 scroll
 (
 optional
@@ -1480,7 +1480,7 @@ options
 }
 )
 ;
-void
+undefined
 scrollTo
 (
 unrestricted
@@ -1491,7 +1491,7 @@ double
 y
 )
 ;
-void
+undefined
 scrollTo
 (
 optional
@@ -1502,7 +1502,7 @@ options
 }
 )
 ;
-void
+undefined
 scrollBy
 (
 unrestricted
@@ -1513,7 +1513,7 @@ double
 y
 )
 ;
-void
+undefined
 scrollBy
 (
 optional
@@ -1578,7 +1578,7 @@ bug
 [
 ChromeOnly
 ]
-void
+undefined
 mozScrollSnap
 (
 )
@@ -1783,7 +1783,7 @@ outerHTML
 CEReactions
 Throws
 ]
-void
+undefined
 insertAdjacentHTML
 (
 DOMString
@@ -2074,7 +2074,7 @@ NeedsCallerType
 ]
 Promise
 <
-void
+undefined
 >
 requestFullscreen
 (
@@ -2096,7 +2096,7 @@ MozRequestFullScreenDeprecatedPrefix
 ]
 Promise
 <
-void
+undefined
 >
 mozRequestFullScreen
 (
@@ -2158,7 +2158,7 @@ lock
 enabled
 "
 ]
-void
+undefined
 requestPointerLock
 (
 )
@@ -2414,7 +2414,7 @@ ChromeOnly
 CEReactions
 Throws
 ]
-void
+undefined
 setAttributeDevtools
 (
 DOMString
@@ -2428,7 +2428,7 @@ ChromeOnly
 CEReactions
 Throws
 ]
-void
+undefined
 setAttributeDevtoolsNS
 (
 DOMString
@@ -2632,7 +2632,7 @@ sanitizer
 enabled
 "
 ]
-void
+undefined
 setHTML
 (
 DOMString

@@ -983,7 +983,7 @@ interface
 X
 {
               
-void
+undefined
 doFoo
 (
 A
@@ -1065,7 +1065,7 @@ interface
 X
 {
               
-void
+undefined
 doFoo
 (
 optional
@@ -1150,7 +1150,7 @@ interface
 X
 {
               
-void
+undefined
 doFoo
 (
 (
@@ -1239,7 +1239,7 @@ interface
 X
 {
               
-void
+undefined
 doFoo
 (
 optional
@@ -1333,7 +1333,7 @@ interface
 X
 {
               
-void
+undefined
 doFoo
 (
 A
@@ -1421,7 +1421,7 @@ interface
 X
 {
               
-void
+undefined
 doFoo
 (
 optional
@@ -1511,7 +1511,7 @@ interface
 X
 {
               
-void
+undefined
 doFoo
 (
 A
@@ -1611,7 +1611,7 @@ interface
 X
 {
               
-void
+undefined
 doFoo
 (
 (
@@ -1710,7 +1710,7 @@ interface
 X
 {
               
-void
+undefined
 doFoo
 (
 optional
@@ -1806,7 +1806,7 @@ interface
 X
 {
               
-void
+undefined
 doFoo
 (
 A
@@ -1886,7 +1886,7 @@ interface
 X
 {
               
-void
+undefined
 doFoo
 (
 optional
@@ -2011,7 +2011,7 @@ interface
 X
 {
               
-void
+undefined
 doFoo
 (
 A
@@ -2129,7 +2129,7 @@ interface
 X
 {
               
-void
+undefined
 doFoo
 (
 optional
@@ -2266,7 +2266,7 @@ interface
 X
 {
               
-void
+undefined
 doFoo
 (
 (
@@ -2394,7 +2394,7 @@ interface
 X
 {
               
-void
+undefined
 doFoo
 (
 sequence
@@ -2484,7 +2484,7 @@ interface
 X
 {
               
-void
+undefined
 doFoo
 (
 optional
@@ -2577,7 +2577,7 @@ interface
 X
 {
               
-void
+undefined
 doFoo
 (
 optional
@@ -2731,7 +2731,7 @@ interface
 X
 {
           
-void
+undefined
 doFoo
 (
 optional
@@ -2802,7 +2802,7 @@ interface
 X
 {
           
-void
+undefined
 doFoo
 (
 optional
@@ -2880,7 +2880,7 @@ interface
 X
 {
           
-void
+undefined
 doFoo
 (
 optional

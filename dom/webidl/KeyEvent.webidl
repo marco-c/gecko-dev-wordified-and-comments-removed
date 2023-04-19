@@ -1674,7 +1674,7 @@ KeyboardEvent
 IsInitKeyEventAvailable
 "
 ]
-void
+undefined
 initKeyEvent
 (
 DOMString

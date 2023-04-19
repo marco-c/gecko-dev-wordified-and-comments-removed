@@ -257,7 +257,7 @@ readonly
 attribute
 Promise
 <
-void
+undefined
 >
 opened
 ;
@@ -265,7 +265,7 @@ readonly
 attribute
 Promise
 <
-void
+undefined
 >
 closed
 ;
@@ -322,7 +322,7 @@ is
 ready
 Promise
 <
-void
+undefined
 >
 close
 (
@@ -331,7 +331,7 @@ close
 [
 Throws
 ]
-void
+undefined
 joinMulticastGroup
 (
 DOMString
@@ -341,7 +341,7 @@ multicastGroupAddress
 [
 Throws
 ]
-void
+undefined
 leaveMulticastGroup
 (
 DOMString

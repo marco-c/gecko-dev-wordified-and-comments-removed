@@ -194,14 +194,14 @@ readonly
 attribute
 Promise
 <
-void
+undefined
 >
 handled
 ;
 [
 Throws
 ]
-void
+undefined
 respondWith
 (
 Promise

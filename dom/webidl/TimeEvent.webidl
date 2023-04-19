@@ -176,7 +176,7 @@ WindowProxy
 ?
 view
 ;
-void
+undefined
 initTimeEvent
 (
 DOMString

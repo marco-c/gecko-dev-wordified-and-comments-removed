@@ -877,7 +877,7 @@ CanvasUtils
 HasDrawWindowPrivilege
 "
 ]
-void
+undefined
 drawWindow
 (
 Window
@@ -936,7 +936,7 @@ preserved
 [
 ChromeOnly
 ]
-void
+undefined
 demote
 (
 )
@@ -1014,7 +1014,7 @@ CanvasState
 /
 /
 state
-void
+undefined
 save
 (
 )
@@ -1026,7 +1026,7 @@ state
 on
 state
 stack
-void
+undefined
 restore
 (
 )
@@ -1060,7 +1060,7 @@ matrix
 Throws
 LenientFloat
 ]
-void
+undefined
 scale
 (
 double
@@ -1073,7 +1073,7 @@ y
 Throws
 LenientFloat
 ]
-void
+undefined
 rotate
 (
 double
@@ -1084,7 +1084,7 @@ angle
 Throws
 LenientFloat
 ]
-void
+undefined
 translate
 (
 double
@@ -1097,7 +1097,7 @@ y
 Throws
 LenientFloat
 ]
-void
+undefined
 transform
 (
 double
@@ -1127,7 +1127,7 @@ getTransform
 Throws
 LenientFloat
 ]
-void
+undefined
 setTransform
 (
 double
@@ -1147,7 +1147,7 @@ f
 [
 Throws
 ]
-void
+undefined
 setTransform
 (
 optional
@@ -1161,7 +1161,7 @@ transform
 [
 Throws
 ]
-void
+undefined
 resetTransform
 (
 )
@@ -1438,7 +1438,7 @@ CanvasRect
 [
 LenientFloat
 ]
-void
+undefined
 clearRect
 (
 double
@@ -1454,7 +1454,7 @@ h
 [
 LenientFloat
 ]
-void
+undefined
 fillRect
 (
 double
@@ -1470,7 +1470,7 @@ h
 [
 LenientFloat
 ]
-void
+undefined
 strokeRect
 (
 double
@@ -1498,12 +1498,12 @@ see
 also
 CanvasPathMethods
 )
-void
+undefined
 beginPath
 (
 )
 ;
-void
+undefined
 fill
 (
 optional
@@ -1515,7 +1515,7 @@ nonzero
 "
 )
 ;
-void
+undefined
 fill
 (
 Path2D
@@ -1529,19 +1529,19 @@ nonzero
 "
 )
 ;
-void
+undefined
 stroke
 (
 )
 ;
-void
+undefined
 stroke
 (
 Path2D
 path
 )
 ;
-void
+undefined
 clip
 (
 optional
@@ -1553,7 +1553,7 @@ nonzero
 "
 )
 ;
-void
+undefined
 clip
 (
 Path2D
@@ -1571,7 +1571,7 @@ nonzero
 /
 NOT
 IMPLEMENTED
-void
+undefined
 resetClip
 (
 )
@@ -1694,7 +1694,7 @@ enabled
 "
 Throws
 ]
-void
+undefined
 drawFocusIfNeeded
 (
 Element
@@ -1705,7 +1705,7 @@ element
 /
 NOT
 IMPLEMENTED
-void
+undefined
 scrollPathIntoView
 (
 )
@@ -1714,7 +1714,7 @@ scrollPathIntoView
 /
 NOT
 IMPLEMENTED
-void
+undefined
 scrollPathIntoView
 (
 Path
@@ -1741,7 +1741,7 @@ interface
 Throws
 LenientFloat
 ]
-void
+undefined
 fillText
 (
 DOMString
@@ -1759,7 +1759,7 @@ maxWidth
 Throws
 LenientFloat
 ]
-void
+undefined
 strokeText
 (
 DOMString
@@ -1794,7 +1794,7 @@ CanvasDrawImage
 Throws
 LenientFloat
 ]
-void
+undefined
 drawImage
 (
 CanvasImageSource
@@ -1809,7 +1809,7 @@ dy
 Throws
 LenientFloat
 ]
-void
+undefined
 drawImage
 (
 CanvasImageSource
@@ -1828,7 +1828,7 @@ dh
 Throws
 LenientFloat
 ]
-void
+undefined
 drawImage
 (
 CanvasImageSource
@@ -1948,7 +1948,7 @@ sh
 [
 Throws
 ]
-void
+undefined
 putImageData
 (
 ImageData
@@ -1968,7 +1968,7 @@ dy
 [
 Throws
 ]
-void
+undefined
 putImageData
 (
 ImageData
@@ -2096,7 +2096,7 @@ lines
 LenientFloat
 Throws
 ]
-void
+undefined
 setLineDash
 (
 sequence
@@ -2265,7 +2265,7 @@ shared
 path
 API
 methods
-void
+undefined
 closePath
 (
 )
@@ -2273,7 +2273,7 @@ closePath
 [
 LenientFloat
 ]
-void
+undefined
 moveTo
 (
 double
@@ -2285,7 +2285,7 @@ y
 [
 LenientFloat
 ]
-void
+undefined
 lineTo
 (
 double
@@ -2297,7 +2297,7 @@ y
 [
 LenientFloat
 ]
-void
+undefined
 quadraticCurveTo
 (
 double
@@ -2313,7 +2313,7 @@ y
 [
 LenientFloat
 ]
-void
+undefined
 bezierCurveTo
 (
 double
@@ -2334,7 +2334,7 @@ y
 Throws
 LenientFloat
 ]
-void
+undefined
 arcTo
 (
 double
@@ -2356,7 +2356,7 @@ IMPLEMENTED
 [
 LenientFloat
 ]
-void
+undefined
 arcTo
 (
 double
@@ -2378,7 +2378,7 @@ rotation
 [
 LenientFloat
 ]
-void
+undefined
 rect
 (
 double
@@ -2395,7 +2395,7 @@ h
 Throws
 LenientFloat
 ]
-void
+undefined
 arc
 (
 double
@@ -2419,7 +2419,7 @@ false
 Throws
 LenientFloat
 ]
-void
+undefined
 ellipse
 (
 double
@@ -2484,7 +2484,7 @@ should
 take
 a
 double
-void
+undefined
 addColorStop
 (
 float
@@ -2542,7 +2542,7 @@ bug
 1020975
 /
 /
-void
+undefined
 setTransform
 (
 double
@@ -2562,7 +2562,7 @@ f
 [
 Throws
 ]
-void
+undefined
 setTransform
 (
 optional
@@ -2898,7 +2898,7 @@ pathString
 [
 Throws
 ]
-void
+undefined
 addPath
 (
 Path2D

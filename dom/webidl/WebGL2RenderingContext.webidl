@@ -1940,7 +1940,7 @@ objects
 /
 WebGL1
 :
-void
+undefined
 bufferData
 (
 GLenum
@@ -1951,7 +1951,7 @@ GLenum
 usage
 )
 ;
-void
+undefined
 bufferData
 (
 GLenum
@@ -1966,7 +1966,7 @@ GLenum
 usage
 )
 ;
-void
+undefined
 bufferData
 (
 GLenum
@@ -1980,7 +1980,7 @@ GLenum
 usage
 )
 ;
-void
+undefined
 bufferSubData
 (
 GLenum
@@ -1994,7 +1994,7 @@ ArrayBuffer
 srcData
 )
 ;
-void
+undefined
 bufferSubData
 (
 GLenum
@@ -2012,7 +2012,7 @@ srcData
 /
 WebGL2
 :
-void
+undefined
 bufferData
 (
 GLenum
@@ -2033,7 +2033,7 @@ length
 0
 )
 ;
-void
+undefined
 bufferSubData
 (
 GLenum
@@ -2054,7 +2054,7 @@ length
 0
 )
 ;
-void
+undefined
 copyBufferSubData
 (
 GLenum
@@ -2109,7 +2109,7 @@ from
 the
 GPU
 .
-void
+undefined
 getBufferSubData
 (
 GLenum
@@ -2139,7 +2139,7 @@ Framebuffer
 objects
 *
 /
-void
+undefined
 blitFramebuffer
 (
 GLint
@@ -2164,7 +2164,7 @@ GLenum
 filter
 )
 ;
-void
+undefined
 framebufferTextureLayer
 (
 GLenum
@@ -2183,7 +2183,7 @@ layer
 [
 Throws
 ]
-void
+undefined
 invalidateFramebuffer
 (
 GLenum
@@ -2198,7 +2198,7 @@ attachments
 [
 Throws
 ]
-void
+undefined
 invalidateSubFramebuffer
 (
 GLenum
@@ -2218,7 +2218,7 @@ GLsizei
 height
 )
 ;
-void
+undefined
 readBuffer
 (
 GLenum
@@ -2245,7 +2245,7 @@ GLenum
 pname
 )
 ;
-void
+undefined
 renderbufferStorageMultisample
 (
 GLenum
@@ -2266,7 +2266,7 @@ Texture
 objects
 *
 /
-void
+undefined
 texStorage2D
 (
 GLenum
@@ -2281,7 +2281,7 @@ GLsizei
 height
 )
 ;
-void
+undefined
 texStorage3D
 (
 GLenum
@@ -2313,7 +2313,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texImage2D
 (
 GLenum
@@ -2343,7 +2343,7 @@ pixels
 [
 Throws
 ]
-void
+undefined
 texImage2D
 (
 GLenum
@@ -2368,7 +2368,7 @@ DOMException
 [
 Throws
 ]
-void
+undefined
 texImage2D
 (
 GLenum
@@ -2393,7 +2393,7 @@ DOMException
 [
 Throws
 ]
-void
+undefined
 texImage2D
 (
 GLenum
@@ -2424,7 +2424,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texImage2D
 (
 GLenum
@@ -2450,7 +2450,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texImage2D
 (
 GLenum
@@ -2476,7 +2476,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texImage2D
 (
 GLenum
@@ -2502,7 +2502,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texSubImage2D
 (
 GLenum
@@ -2532,7 +2532,7 @@ pixels
 [
 Throws
 ]
-void
+undefined
 texSubImage2D
 (
 GLenum
@@ -2559,7 +2559,7 @@ DOMException
 [
 Throws
 ]
-void
+undefined
 texSubImage2D
 (
 GLenum
@@ -2586,7 +2586,7 @@ DOMException
 [
 Throws
 ]
-void
+undefined
 texSubImage2D
 (
 GLenum
@@ -2619,7 +2619,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texSubImage2D
 (
 GLenum
@@ -2647,7 +2647,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texSubImage2D
 (
 GLenum
@@ -2675,7 +2675,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texSubImage2D
 (
 GLenum
@@ -2708,7 +2708,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texImage2D
 (
 GLenum
@@ -2734,7 +2734,7 @@ pboOffset
 [
 Throws
 ]
-void
+undefined
 texImage2D
 (
 GLenum
@@ -2765,7 +2765,7 @@ DOMException
 [
 Throws
 ]
-void
+undefined
 texImage2D
 (
 GLenum
@@ -2796,7 +2796,7 @@ DOMException
 [
 Throws
 ]
-void
+undefined
 texImage2D
 (
 GLenum
@@ -2833,7 +2833,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texImage2D
 (
 GLenum
@@ -2865,7 +2865,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texImage2D
 (
 GLenum
@@ -2897,7 +2897,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texImage2D
 (
 GLenum
@@ -2929,7 +2929,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texImage2D
 (
 GLenum
@@ -2966,7 +2966,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texImage3D
 (
 GLenum
@@ -2994,7 +2994,7 @@ pboOffset
 [
 Throws
 ]
-void
+undefined
 texImage3D
 (
 GLenum
@@ -3027,7 +3027,7 @@ DOMException
 [
 Throws
 ]
-void
+undefined
 texImage3D
 (
 GLenum
@@ -3060,7 +3060,7 @@ DOMException
 [
 Throws
 ]
-void
+undefined
 texImage3D
 (
 GLenum
@@ -3099,7 +3099,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texImage3D
 (
 GLenum
@@ -3133,7 +3133,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texImage3D
 (
 GLenum
@@ -3167,7 +3167,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texImage3D
 (
 GLenum
@@ -3201,7 +3201,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texImage3D
 (
 GLenum
@@ -3239,7 +3239,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texImage3D
 (
 GLenum
@@ -3278,7 +3278,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texSubImage2D
 (
 GLenum
@@ -3304,7 +3304,7 @@ pboOffset
 [
 Throws
 ]
-void
+undefined
 texSubImage2D
 (
 GLenum
@@ -3335,7 +3335,7 @@ DOMException
 [
 Throws
 ]
-void
+undefined
 texSubImage2D
 (
 GLenum
@@ -3366,7 +3366,7 @@ DOMException
 [
 Throws
 ]
-void
+undefined
 texSubImage2D
 (
 GLenum
@@ -3403,7 +3403,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texSubImage2D
 (
 GLenum
@@ -3435,7 +3435,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texSubImage2D
 (
 GLenum
@@ -3467,7 +3467,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texSubImage2D
 (
 GLenum
@@ -3499,7 +3499,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texSubImage2D
 (
 GLenum
@@ -3536,7 +3536,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texSubImage3D
 (
 GLenum
@@ -3566,7 +3566,7 @@ pboOffset
 [
 Throws
 ]
-void
+undefined
 texSubImage3D
 (
 GLenum
@@ -3601,7 +3601,7 @@ DOMException
 [
 Throws
 ]
-void
+undefined
 texSubImage3D
 (
 GLenum
@@ -3636,7 +3636,7 @@ DOMException
 [
 Throws
 ]
-void
+undefined
 texSubImage3D
 (
 GLenum
@@ -3677,7 +3677,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texSubImage3D
 (
 GLenum
@@ -3713,7 +3713,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texSubImage3D
 (
 GLenum
@@ -3749,7 +3749,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texSubImage3D
 (
 GLenum
@@ -3785,7 +3785,7 @@ Another
 overhead
 throws
 .
-void
+undefined
 texSubImage3D
 (
 GLenum
@@ -3821,7 +3821,7 @@ srcOffset
 0
 )
 ;
-void
+undefined
 copyTexSubImage3D
 (
 GLenum
@@ -3844,7 +3844,7 @@ GLsizei
 height
 )
 ;
-void
+undefined
 compressedTexImage2D
 (
 GLenum
@@ -3865,7 +3865,7 @@ GLintptr
 offset
 )
 ;
-void
+undefined
 compressedTexImage2D
 (
 GLenum
@@ -3897,7 +3897,7 @@ srcLengthOverride
 0
 )
 ;
-void
+undefined
 compressedTexImage3D
 (
 GLenum
@@ -3920,7 +3920,7 @@ GLintptr
 offset
 )
 ;
-void
+undefined
 compressedTexImage3D
 (
 GLenum
@@ -3954,7 +3954,7 @@ srcLengthOverride
 0
 )
 ;
-void
+undefined
 compressedTexSubImage2D
 (
 GLenum
@@ -3977,7 +3977,7 @@ GLintptr
 offset
 )
 ;
-void
+undefined
 compressedTexSubImage2D
 (
 GLenum
@@ -4011,7 +4011,7 @@ srcLengthOverride
 0
 )
 ;
-void
+undefined
 compressedTexSubImage3D
 (
 GLenum
@@ -4038,7 +4038,7 @@ GLintptr
 offset
 )
 ;
-void
+undefined
 compressedTexSubImage3D
 (
 GLenum
@@ -4100,7 +4100,7 @@ name
 Uniforms
 *
 /
-void
+undefined
 uniform1ui
 (
 WebGLUniformLocation
@@ -4110,7 +4110,7 @@ GLuint
 v0
 )
 ;
-void
+undefined
 uniform2ui
 (
 WebGLUniformLocation
@@ -4122,7 +4122,7 @@ GLuint
 v1
 )
 ;
-void
+undefined
 uniform3ui
 (
 WebGLUniformLocation
@@ -4136,7 +4136,7 @@ GLuint
 v2
 )
 ;
-void
+undefined
 uniform4ui
 (
 WebGLUniformLocation
@@ -4152,7 +4152,7 @@ GLuint
 v3
 )
 ;
-void
+undefined
 uniform1fv
 (
 WebGLUniformLocation
@@ -4172,7 +4172,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniform2fv
 (
 WebGLUniformLocation
@@ -4192,7 +4192,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniform3fv
 (
 WebGLUniformLocation
@@ -4212,7 +4212,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniform4fv
 (
 WebGLUniformLocation
@@ -4232,7 +4232,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniform1iv
 (
 WebGLUniformLocation
@@ -4252,7 +4252,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniform2iv
 (
 WebGLUniformLocation
@@ -4272,7 +4272,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniform3iv
 (
 WebGLUniformLocation
@@ -4292,7 +4292,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniform4iv
 (
 WebGLUniformLocation
@@ -4312,7 +4312,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniform1uiv
 (
 WebGLUniformLocation
@@ -4332,7 +4332,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniform2uiv
 (
 WebGLUniformLocation
@@ -4352,7 +4352,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniform3uiv
 (
 WebGLUniformLocation
@@ -4372,7 +4372,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniform4uiv
 (
 WebGLUniformLocation
@@ -4392,7 +4392,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniformMatrix2fv
 (
 WebGLUniformLocation
@@ -4414,7 +4414,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniformMatrix3x2fv
 (
 WebGLUniformLocation
@@ -4436,7 +4436,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniformMatrix4x2fv
 (
 WebGLUniformLocation
@@ -4458,7 +4458,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniformMatrix2x3fv
 (
 WebGLUniformLocation
@@ -4480,7 +4480,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniformMatrix3fv
 (
 WebGLUniformLocation
@@ -4502,7 +4502,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniformMatrix4x3fv
 (
 WebGLUniformLocation
@@ -4524,7 +4524,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniformMatrix2x4fv
 (
 WebGLUniformLocation
@@ -4546,7 +4546,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniformMatrix3x4fv
 (
 WebGLUniformLocation
@@ -4568,7 +4568,7 @@ srcLength
 0
 )
 ;
-void
+undefined
 uniformMatrix4fv
 (
 WebGLUniformLocation
@@ -4596,7 +4596,7 @@ Vertex
 attribs
 *
 /
-void
+undefined
 vertexAttribI4i
 (
 GLuint
@@ -4611,7 +4611,7 @@ GLint
 w
 )
 ;
-void
+undefined
 vertexAttribI4iv
 (
 GLuint
@@ -4620,7 +4620,7 @@ Int32List
 values
 )
 ;
-void
+undefined
 vertexAttribI4ui
 (
 GLuint
@@ -4635,7 +4635,7 @@ GLuint
 w
 )
 ;
-void
+undefined
 vertexAttribI4uiv
 (
 GLuint
@@ -4644,7 +4644,7 @@ Uint32List
 values
 )
 ;
-void
+undefined
 vertexAttribIPointer
 (
 GLuint
@@ -4668,7 +4668,7 @@ drawing
 buffer
 *
 /
-void
+undefined
 vertexAttribDivisor
 (
 GLuint
@@ -4677,7 +4677,7 @@ GLuint
 divisor
 )
 ;
-void
+undefined
 drawArraysInstanced
 (
 GLenum
@@ -4690,7 +4690,7 @@ GLsizei
 instanceCount
 )
 ;
-void
+undefined
 drawElementsInstanced
 (
 GLenum
@@ -4705,7 +4705,7 @@ GLsizei
 instanceCount
 )
 ;
-void
+undefined
 drawRangeElements
 (
 GLenum
@@ -4749,7 +4749,7 @@ write
 only
 context
 .
-void
+undefined
 readPixels
 (
 GLint
@@ -4792,7 +4792,7 @@ write
 only
 context
 .
-void
+undefined
 readPixels
 (
 GLint
@@ -4827,7 +4827,7 @@ write
 only
 context
 .
-void
+undefined
 readPixels
 (
 GLint
@@ -4858,7 +4858,7 @@ Render
 Targets
 *
 /
-void
+undefined
 drawBuffers
 (
 sequence
@@ -4868,7 +4868,7 @@ GLenum
 buffers
 )
 ;
-void
+undefined
 clearBufferfv
 (
 GLenum
@@ -4884,7 +4884,7 @@ srcOffset
 0
 )
 ;
-void
+undefined
 clearBufferiv
 (
 GLenum
@@ -4900,7 +4900,7 @@ srcOffset
 0
 )
 ;
-void
+undefined
 clearBufferuiv
 (
 GLenum
@@ -4916,7 +4916,7 @@ srcOffset
 0
 )
 ;
-void
+undefined
 clearBufferfi
 (
 GLenum
@@ -4941,7 +4941,7 @@ createQuery
 (
 )
 ;
-void
+undefined
 deleteQuery
 (
 WebGLQuery
@@ -4960,7 +4960,7 @@ WebGLQuery
 query
 )
 ;
-void
+undefined
 beginQuery
 (
 GLenum
@@ -4969,7 +4969,7 @@ WebGLQuery
 query
 )
 ;
-void
+undefined
 endQuery
 (
 GLenum
@@ -5006,7 +5006,7 @@ createSampler
 (
 )
 ;
-void
+undefined
 deleteSampler
 (
 WebGLSampler
@@ -5025,7 +5025,7 @@ WebGLSampler
 sampler
 )
 ;
-void
+undefined
 bindSampler
 (
 GLuint
@@ -5035,7 +5035,7 @@ WebGLSampler
 sampler
 )
 ;
-void
+undefined
 samplerParameteri
 (
 WebGLSampler
@@ -5046,7 +5046,7 @@ GLint
 param
 )
 ;
-void
+undefined
 samplerParameterf
 (
 WebGLSampler
@@ -5093,7 +5093,7 @@ WebGLSync
 sync
 )
 ;
-void
+undefined
 deleteSync
 (
 WebGLSync
@@ -5112,7 +5112,7 @@ GLuint64
 timeout
 )
 ;
-void
+undefined
 waitSync
 (
 WebGLSync
@@ -5144,7 +5144,7 @@ createTransformFeedback
 (
 )
 ;
-void
+undefined
 deleteTransformFeedback
 (
 WebGLTransformFeedback
@@ -5163,7 +5163,7 @@ WebGLTransformFeedback
 tf
 )
 ;
-void
+undefined
 bindTransformFeedback
 (
 GLenum
@@ -5173,19 +5173,19 @@ WebGLTransformFeedback
 tf
 )
 ;
-void
+undefined
 beginTransformFeedback
 (
 GLenum
 primitiveMode
 )
 ;
-void
+undefined
 endTransformFeedback
 (
 )
 ;
-void
+undefined
 transformFeedbackVaryings
 (
 WebGLProgram
@@ -5212,12 +5212,12 @@ GLuint
 index
 )
 ;
-void
+undefined
 pauseTransformFeedback
 (
 )
 ;
-void
+undefined
 resumeTransformFeedback
 (
 )
@@ -5233,7 +5233,7 @@ Feedback
 Buffers
 *
 /
-void
+undefined
 bindBufferBase
 (
 GLenum
@@ -5245,7 +5245,7 @@ WebGLBuffer
 buffer
 )
 ;
-void
+undefined
 bindBufferRange
 (
 GLenum
@@ -5350,7 +5350,7 @@ GLuint
 uniformBlockIndex
 )
 ;
-void
+undefined
 uniformBlockBinding
 (
 WebGLProgram
@@ -5374,7 +5374,7 @@ createVertexArray
 (
 )
 ;
-void
+undefined
 deleteVertexArray
 (
 WebGLVertexArrayObject
@@ -5393,7 +5393,7 @@ WebGLVertexArrayObject
 vertexArray
 )
 ;
-void
+undefined
 bindVertexArray
 (
 WebGLVertexArrayObject
@@ -5461,7 +5461,7 @@ FRAMEBUFFER_INCOMPLETE_VIEW_TARGETS_OVR
 =
 0x9633
 ;
-void
+undefined
 framebufferTextureMultiviewOVR
 (
 GLenum

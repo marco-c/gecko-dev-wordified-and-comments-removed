@@ -360,7 +360,7 @@ getComputedTiming
 [
 Throws
 ]
-void
+undefined
 updateTiming
 (
 optional

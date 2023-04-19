@@ -191,7 +191,7 @@ getContributingSources
 [
 ChromeOnly
 ]
-void
+undefined
 mozInsertAudioLevelForContributingSource
 (
 unsigned

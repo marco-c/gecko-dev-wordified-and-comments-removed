@@ -217,7 +217,7 @@ NeedsSubjectPrincipal
 ]
 Promise
 <
-void
+undefined
 >
 write
 (
@@ -231,7 +231,7 @@ NeedsSubjectPrincipal
 ]
 Promise
 <
-void
+undefined
 >
 writeText
 (
@@ -279,7 +279,7 @@ dismissed
 [
 ChromeOnly
 ]
-void
+undefined
 onUserReactedToPasteMenuPopup
 (
 boolean

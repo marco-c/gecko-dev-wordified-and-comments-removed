@@ -584,7 +584,7 @@ IsChromeOrUAWidget
 ]
 Promise
 <
-void
+undefined
 >
 cloneElementVisually
 (
@@ -628,7 +628,7 @@ Func
 IsChromeOrUAWidget
 "
 ]
-void
+undefined
 stopCloningElementVisually
 (
 )

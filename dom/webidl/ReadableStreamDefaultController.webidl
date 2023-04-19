@@ -152,7 +152,7 @@ desiredSize
 [
 Throws
 ]
-void
+undefined
 close
 (
 )
@@ -160,7 +160,7 @@ close
 [
 Throws
 ]
-void
+undefined
 enqueue
 (
 optional
@@ -171,7 +171,7 @@ chunk
 [
 Throws
 ]
-void
+undefined
 error
 (
 optional

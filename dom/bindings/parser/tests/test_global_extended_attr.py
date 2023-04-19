@@ -171,7 +171,7 @@ name
 ;
             
 setter
-void
+undefined
 (
 DOMString
 name
@@ -277,7 +277,7 @@ name
 ;
             
 deleter
-void
+undefined
 (
 DOMString
 name

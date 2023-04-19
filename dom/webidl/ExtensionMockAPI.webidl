@@ -154,7 +154,7 @@ WebExtensionStub
 NoReturn
 "
 ]
-void
+undefined
 methodNoReturn
 (
 any

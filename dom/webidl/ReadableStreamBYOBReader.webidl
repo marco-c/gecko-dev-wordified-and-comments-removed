@@ -165,7 +165,7 @@ view
 [
 Throws
 ]
-void
+undefined
 releaseLock
 (
 )

@@ -523,7 +523,7 @@ child
 [
 CEReactions
 ]
-void
+undefined
 normalize
 (
 )

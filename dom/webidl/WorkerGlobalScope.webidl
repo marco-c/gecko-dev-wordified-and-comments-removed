@@ -204,7 +204,7 @@ navigator
 [
 Throws
 ]
-void
+undefined
 importScripts
 (
 DOMString
@@ -270,7 +270,7 @@ partial
 interface
 WorkerGlobalScope
 {
-void
+undefined
 dump
 (
 optional

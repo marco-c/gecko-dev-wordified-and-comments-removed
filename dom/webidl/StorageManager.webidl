@@ -270,7 +270,7 @@ StorageManager
 [
 ChromeOnly
 ]
-void
+undefined
 shutdown
 (
 )

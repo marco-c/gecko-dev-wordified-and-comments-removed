@@ -1243,7 +1243,7 @@ programmatically
 [
 Throws
 ]
-void
+undefined
 registerContentScript
 (
 WebExtensionContentScript
@@ -1264,7 +1264,7 @@ script
 [
 Throws
 ]
-void
+undefined
 unregisterContentScript
 (
 WebExtensionContentScript
@@ -1293,7 +1293,7 @@ windows
 [
 Throws
 ]
-void
+undefined
 injectContentScripts
 (
 )

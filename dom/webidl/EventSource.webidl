@@ -250,7 +250,7 @@ attribute
 EventHandler
 onerror
 ;
-void
+undefined
 close
 (
 )

@@ -266,7 +266,7 @@ name
 CEReactions
 Throws
 ]
-void
+undefined
 add
 (
 (
@@ -290,7 +290,7 @@ null
 [
 CEReactions
 ]
-void
+undefined
 remove
 (
 long
@@ -302,7 +302,7 @@ CEReactions
 Throws
 ]
 setter
-void
+undefined
 (
 unsigned
 long
@@ -359,7 +359,7 @@ reportValidity
 (
 )
 ;
-void
+undefined
 setCustomValidity
 (
 DOMString
@@ -397,7 +397,7 @@ id
 [
 CEReactions
 ]
-void
+undefined
 remove
 (
 )

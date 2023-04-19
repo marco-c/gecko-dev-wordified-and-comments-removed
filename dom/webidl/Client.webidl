@@ -177,7 +177,7 @@ reserved
 [
 Throws
 ]
-void
+undefined
 postMessage
 (
 any
@@ -192,7 +192,7 @@ transfer
 [
 Throws
 ]
-void
+undefined
 postMessage
 (
 any

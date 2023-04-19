@@ -26,7 +26,7 @@ interface
 ArgumentIdentifierConflict
 {
               
-void
+undefined
 foo
 (
 boolean

@@ -352,7 +352,7 @@ getKeyframes
 [
 Throws
 ]
-void
+undefined
 setKeyframes
 (
 object

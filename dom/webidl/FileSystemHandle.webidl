@@ -160,7 +160,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 move
 (
@@ -173,7 +173,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 move
 (
@@ -186,7 +186,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 move
 (

@@ -231,7 +231,7 @@ currentDirection
 [
 Throws
 ]
-void
+undefined
 stop
 (
 )
@@ -244,7 +244,7 @@ bug
 1396922
 /
 /
-void
+undefined
 setCodecPreferences
 (
 sequence
@@ -257,7 +257,7 @@ codecs
 [
 ChromeOnly
 ]
-void
+undefined
 setAddTrackMagic
 (
 )
@@ -265,7 +265,7 @@ setAddTrackMagic
 [
 ChromeOnly
 ]
-void
+undefined
 setDirectionInternal
 (
 RTCRtpTransceiverDirection

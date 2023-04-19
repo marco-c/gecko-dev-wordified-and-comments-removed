@@ -1823,7 +1823,7 @@ false
 [
 Throws
 ]
-void
+undefined
 addMessageListener
 (
 DOMString
@@ -1894,7 +1894,7 @@ that
 [
 Throws
 ]
-void
+undefined
 removeMessageListener
 (
 DOMString
@@ -1953,7 +1953,7 @@ order
 [
 Throws
 ]
-void
+undefined
 addWeakMessageListener
 (
 DOMString
@@ -1979,7 +1979,7 @@ call
 [
 Throws
 ]
-void
+undefined
 removeWeakMessageListener
 (
 DOMString
@@ -2220,7 +2220,7 @@ crashed
 [
 Throws
 ]
-void
+undefined
 sendAsyncMessage
 (
 optional
@@ -2519,7 +2519,7 @@ stdout
 .
 *
 /
-void
+undefined
 dump
 (
 DOMString
@@ -2648,7 +2648,7 @@ available
 [
 Throws
 ]
-void
+undefined
 loadFrameScript
 (
 DOMString
@@ -2682,7 +2682,7 @@ load
 .
 *
 /
-void
+undefined
 removeDelayedFrameScript
 (
 DOMString
@@ -2833,7 +2833,7 @@ available
 [
 Throws
 ]
-void
+undefined
 loadProcessScript
 (
 DOMString
@@ -2862,7 +2862,7 @@ load
 .
 *
 /
-void
+undefined
 removeDelayedProcessScript
 (
 DOMString
@@ -3388,7 +3388,7 @@ caution
 [
 Throws
 ]
-void
+undefined
 broadcastAsyncMessage
 (
 optional
@@ -3478,7 +3478,7 @@ those
 .
 *
 /
-void
+undefined
 releaseCachedProcesses
 (
 )

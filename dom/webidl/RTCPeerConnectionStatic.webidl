@@ -182,7 +182,7 @@ iceconnectionstatechange
 callback
 PeerConnectionLifecycleCallback
 =
-void
+undefined
 (
 RTCPeerConnection
 pc
@@ -275,7 +275,7 @@ changes
 .
 *
 /
-void
+undefined
 registerPeerConnectionLifecycleCallback
 (
 PeerConnectionLifecycleCallback

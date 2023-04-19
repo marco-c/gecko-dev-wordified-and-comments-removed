@@ -150,7 +150,7 @@ apply
 callback
 DecodeSuccessCallback
 =
-void
+undefined
 (
 AudioBuffer
 decodedData
@@ -159,7 +159,7 @@ decodedData
 callback
 DecodeErrorCallback
 =
-void
+undefined
 (
 DOMException
 error
@@ -238,7 +238,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 resume
 (

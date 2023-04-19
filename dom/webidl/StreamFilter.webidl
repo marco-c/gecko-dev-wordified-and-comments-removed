@@ -534,7 +534,7 @@ resumed
 [
 Throws
 ]
-void
+undefined
 suspend
 (
 )
@@ -557,7 +557,7 @@ request
 [
 Throws
 ]
-void
+undefined
 resume
 (
 )
@@ -622,7 +622,7 @@ called
 [
 Throws
 ]
-void
+undefined
 close
 (
 )
@@ -672,7 +672,7 @@ stream
 [
 Throws
 ]
-void
+undefined
 disconnect
 (
 )
@@ -712,7 +712,7 @@ received
 [
 Throws
 ]
-void
+undefined
 write
 (
 (

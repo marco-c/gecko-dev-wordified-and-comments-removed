@@ -237,7 +237,7 @@ name
 [
 Throws
 ]
-void
+undefined
 commit
 (
 )
@@ -245,7 +245,7 @@ commit
 [
 Throws
 ]
-void
+undefined
 abort
 (
 )

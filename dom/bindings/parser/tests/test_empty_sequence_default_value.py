@@ -105,7 +105,7 @@ interface
 X
 {
           
-void
+undefined
 foo
 (
 optional

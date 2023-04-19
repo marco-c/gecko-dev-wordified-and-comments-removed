@@ -165,7 +165,7 @@ matches
 [
 Throws
 ]
-void
+undefined
 addListener
 (
 EventListener
@@ -176,7 +176,7 @@ listener
 [
 Throws
 ]
-void
+undefined
 removeListener
 (
 EventListener

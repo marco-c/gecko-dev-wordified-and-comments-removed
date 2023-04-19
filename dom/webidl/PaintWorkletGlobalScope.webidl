@@ -139,7 +139,7 @@ PaintWorkletGlobalScope
 :
 WorkletGlobalScope
 {
-void
+undefined
 registerPaint
 (
 DOMString

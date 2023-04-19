@@ -166,7 +166,7 @@ specific
 deprecated
 method
 .
-void
+undefined
 initDeviceOrientationEvent
 (
 DOMString

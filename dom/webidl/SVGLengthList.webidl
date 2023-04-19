@@ -174,7 +174,7 @@ numberOfItems
 [
 Throws
 ]
-void
+undefined
 clear
 (
 )
@@ -252,7 +252,7 @@ newItem
 Throws
 ]
 setter
-void
+undefined
 (
 unsigned
 long

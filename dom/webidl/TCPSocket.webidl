@@ -320,7 +320,7 @@ OPEN
 [
 Throws
 ]
-void
+undefined
 upgradeToSecure
 (
 )
@@ -463,7 +463,7 @@ resuming
 .
 *
 /
-void
+undefined
 suspend
 (
 )
@@ -511,7 +511,7 @@ suspended
 [
 Throws
 ]
-void
+undefined
 resume
 (
 )
@@ -526,7 +526,7 @@ socket
 .
 *
 /
-void
+undefined
 close
 (
 )
@@ -550,7 +550,7 @@ data
 [
 ChromeOnly
 ]
-void
+undefined
 closeImmediately
 (
 )

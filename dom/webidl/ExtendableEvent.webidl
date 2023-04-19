@@ -163,7 +163,7 @@ issues
 [
 Throws
 ]
-void
+undefined
 waitUntil
 (
 Promise

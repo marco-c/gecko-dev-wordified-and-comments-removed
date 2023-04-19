@@ -393,7 +393,7 @@ anymore
 .
 *
 /
-void
+undefined
 onConsumed
 (
 object
@@ -745,7 +745,7 @@ events
 .
 *
 /
-void
+undefined
 addUncaughtRejectionObserver
 (
 UncaughtRejectionObserver

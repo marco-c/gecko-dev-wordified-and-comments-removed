@@ -307,7 +307,7 @@ with
 this
 ImageBitmap
 .
-void
+undefined
 close
 (
 )

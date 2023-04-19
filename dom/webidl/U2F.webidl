@@ -378,7 +378,7 @@ errorMessage
 callback
 U2FRegisterCallback
 =
-void
+undefined
 (
 RegisterResponse
 response
@@ -387,7 +387,7 @@ response
 callback
 U2FSignCallback
 =
-void
+undefined
 (
 SignResponse
 response
@@ -558,7 +558,7 @@ BinaryName
 Register
 "
 ]
-void
+undefined
 register_impl
 (
 DOMString
@@ -642,7 +642,7 @@ BinaryName
 Sign
 "
 ]
-void
+undefined
 sign_impl
 (
 DOMString

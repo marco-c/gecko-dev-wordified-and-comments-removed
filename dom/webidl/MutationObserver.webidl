@@ -296,7 +296,7 @@ mutationCallback
 Throws
 NeedsSubjectPrincipal
 ]
-void
+undefined
 observe
 (
 Node
@@ -309,7 +309,7 @@ options
 }
 )
 ;
-void
+undefined
 disconnect
 (
 )
@@ -355,7 +355,7 @@ mergeAttributeRecords
 callback
 MutationCallback
 =
-void
+undefined
 (
 sequence
 <

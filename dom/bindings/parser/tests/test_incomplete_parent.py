@@ -23,7 +23,7 @@ TestIncompleteParent
 NotYetDefined
 {
           
-void
+undefined
 foo
 (
 )

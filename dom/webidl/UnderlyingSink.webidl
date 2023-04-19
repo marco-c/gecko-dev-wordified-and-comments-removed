@@ -156,7 +156,7 @@ UnderlyingSinkWriteCallback
 =
 Promise
 <
-void
+undefined
 >
 (
 any
@@ -170,7 +170,7 @@ UnderlyingSinkCloseCallback
 =
 Promise
 <
-void
+undefined
 >
 (
 )
@@ -180,7 +180,7 @@ UnderlyingSinkAbortCallback
 =
 Promise
 <
-void
+undefined
 >
 (
 optional

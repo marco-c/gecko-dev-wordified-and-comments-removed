@@ -188,7 +188,7 @@ attribute
 long
 detail
 ;
-void
+undefined
 initUIEvent
 (
 DOMString

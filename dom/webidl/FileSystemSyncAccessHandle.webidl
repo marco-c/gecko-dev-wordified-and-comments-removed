@@ -202,7 +202,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 truncate
 (
@@ -233,7 +233,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 flush
 (
@@ -244,7 +244,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 close
 (

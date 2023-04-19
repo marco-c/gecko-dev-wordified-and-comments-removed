@@ -196,7 +196,7 @@ readonly
 attribute
 Promise
 <
-void
+undefined
 >
 closed
 ;
@@ -218,7 +218,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 generateRequest
 (
@@ -250,7 +250,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 update
 (
@@ -263,7 +263,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 close
 (
@@ -274,7 +274,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 remove
 (

@@ -140,7 +140,7 @@ MIDIPort
 [
 Throws
 ]
-void
+undefined
 send
 (
 sequence
@@ -153,7 +153,7 @@ DOMHighResTimeStamp
 timestamp
 )
 ;
-void
+undefined
 clear
 (
 )

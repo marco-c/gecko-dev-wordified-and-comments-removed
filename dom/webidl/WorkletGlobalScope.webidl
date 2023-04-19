@@ -137,7 +137,7 @@ partial
 interface
 WorkletGlobalScope
 {
-void
+undefined
 dump
 (
 optional

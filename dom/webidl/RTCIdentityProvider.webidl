@@ -136,7 +136,7 @@ Window
 interface
 RTCIdentityProviderRegistrar
 {
-void
+undefined
 register
 (
 RTCIdentityProvider

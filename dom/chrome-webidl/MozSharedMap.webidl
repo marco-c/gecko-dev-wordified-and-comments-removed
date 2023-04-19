@@ -243,7 +243,7 @@ delay
 [
 Throws
 ]
-void
+undefined
 set
 (
 DOMString
@@ -288,7 +288,7 @@ delay
 .
 *
 /
-void
+undefined
 delete
 (
 DOMString
@@ -310,7 +310,7 @@ processes
 .
 *
 /
-void
+undefined
 flush
 (
 )

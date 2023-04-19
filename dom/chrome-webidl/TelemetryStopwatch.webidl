@@ -1602,7 +1602,7 @@ tests
 .
 *
 /
-void
+undefined
 setTestModeEnabled
 (
 optional

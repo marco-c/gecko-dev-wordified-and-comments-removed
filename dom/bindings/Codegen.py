@@ -1040,7 +1040,7 @@ True
 if
 type
 .
-isVoid
+isUndefined
 (
 )
 :
@@ -44480,7 +44480,7 @@ isOptional
 if
 type
 .
-isVoid
+isUndefined
 (
 )
 :
@@ -47960,7 +47960,7 @@ None
 or
 type
 .
-isVoid
+isUndefined
 (
 )
 :
@@ -51442,7 +51442,7 @@ None
 or
 returnType
 .
-isVoid
+isUndefined
 (
 )
 :
@@ -53795,7 +53795,7 @@ None
 or
 returnType
 .
-isVoid
+isUndefined
 (
 )
 or
@@ -63641,7 +63641,7 @@ signature
 0
 ]
 .
-isVoid
+isUndefined
 (
 )
 :
@@ -63667,7 +63667,7 @@ CrossOriginCallable
 with
 non
 -
-void
+undefined
 return
 type
 "
@@ -70568,7 +70568,7 @@ IDLBuiltinType
 .
 Types
 .
-void
+undefined
 ]
 ]
                     
@@ -71228,7 +71228,7 @@ JSVAL_TYPE_UNKNOWN
 if
 t
 .
-isVoid
+isUndefined
 (
 )
 :
@@ -71720,7 +71720,7 @@ assert
 not
 t
 .
-isVoid
+isUndefined
 (
 )
         
@@ -112500,12 +112500,14 @@ member
 isStatic
 (
 )
+                
 and
 member
 .
 isAttr
 (
 )
+                
 and
 not
 signature
@@ -112513,7 +112515,7 @@ signature
 0
 ]
 .
-isVoid
+isUndefined
 (
 )
             
@@ -112709,7 +112711,7 @@ value
 if
 type
 .
-isVoid
+isUndefined
 (
 )
 :
@@ -115939,14 +115941,16 @@ attr
 )
             
 (
+                
 BuiltinTypes
 [
 IDLBuiltinType
 .
 Types
 .
-void
+undefined
 ]
+                
 [
 FakeArgument
 (
@@ -115955,6 +115959,7 @@ attr
 type
 )
 ]
+            
 )
             
 descriptor
@@ -117065,7 +117070,7 @@ IDLBuiltinType
 .
 Types
 .
-void
+undefined
 ]
                 
 [
@@ -119843,14 +119848,16 @@ attr
 )
             
 (
+                
 BuiltinTypes
 [
 IDLBuiltinType
 .
 Types
 .
-void
+undefined
 ]
+                
 [
 FakeArgument
 (
@@ -119859,6 +119866,7 @@ attr
 type
 )
 ]
+            
 )
             
 descriptor
@@ -119906,7 +119914,7 @@ IDLBuiltinType
 .
 Types
 .
-void
+undefined
 ]
                 
 [
@@ -127671,14 +127679,16 @@ self
 attr
             
 (
+                
 BuiltinTypes
 [
 IDLBuiltinType
 .
 Types
 .
-void
+undefined
 ]
+                
 [
 FakeArgument
 (
@@ -127687,6 +127697,7 @@ attr
 type
 )
 ]
+            
 )
             
 callbackSetterName
@@ -127969,7 +127980,7 @@ IDLBuiltinType
 .
 Types
 .
-void
+undefined
 ]
 sig
 [
@@ -128072,7 +128083,7 @@ IDLBuiltinType
 .
 Types
 .
-void
+undefined
 ]
                 
 [
@@ -130791,7 +130802,7 @@ IDLBuiltinType
 .
 Types
 .
-void
+undefined
 ]
         
 needsResultConversion
@@ -131715,7 +131726,7 @@ IDLBuiltinType
 .
 Types
 .
-void
+undefined
 ]
         
 if
@@ -135698,7 +135709,7 @@ IDLBuiltinType
 .
 Types
 .
-void
+undefined
 ]
         
 needsResultConversion

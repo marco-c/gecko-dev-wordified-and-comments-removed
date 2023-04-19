@@ -1,7 +1,7 @@
 interface
 EventTarget
 {
-void
+undefined
 addEventListener
 (
 )

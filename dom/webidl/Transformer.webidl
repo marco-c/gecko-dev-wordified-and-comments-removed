@@ -154,7 +154,7 @@ TransformerFlushCallback
 =
 Promise
 <
-void
+undefined
 >
 (
 TransformStreamDefaultController
@@ -166,7 +166,7 @@ TransformerTransformCallback
 =
 Promise
 <
-void
+undefined
 >
 (
 any

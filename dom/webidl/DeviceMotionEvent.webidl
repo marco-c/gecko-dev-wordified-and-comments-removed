@@ -367,7 +367,7 @@ partial
 interface
 DeviceMotionEvent
 {
-void
+undefined
 initDeviceMotionEvent
 (
 DOMString

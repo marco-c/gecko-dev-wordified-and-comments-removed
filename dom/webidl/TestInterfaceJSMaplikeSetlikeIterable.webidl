@@ -119,7 +119,7 @@ DOMString
 long
 >
 ;
-void
+undefined
 setInternal
 (
 DOMString
@@ -128,7 +128,7 @@ long
 aValue
 )
 ;
-void
+undefined
 clearInternal
 (
 )
@@ -188,14 +188,14 @@ DOMString
 TestInterfaceMaplike
 >
 ;
-void
+undefined
 setInternal
 (
 DOMString
 aKey
 )
 ;
-void
+undefined
 clearInternal
 (
 )
@@ -256,7 +256,7 @@ DOMString
 object
 >
 ;
-void
+undefined
 setInternal
 (
 DOMString
@@ -265,7 +265,7 @@ object
 aObject
 )
 ;
-void
+undefined
 clearInternal
 (
 )

@@ -145,7 +145,7 @@ WritableStreamDefaultController
 [
 Throws
 ]
-void
+undefined
 error
 (
 optional

@@ -931,7 +931,7 @@ RDM
 [
 Throws
 ]
-void
+undefined
 setRDMPaneOrientation
 (
 OrientationType
@@ -963,7 +963,7 @@ RDM
 [
 Throws
 ]
-void
+undefined
 setRDMPaneMaxTouchPoints
 (
 octet
@@ -1388,7 +1388,7 @@ Used
 for
 testing
 .
-void
+undefined
 resetLocationChangeRateLimit
 (
 )
@@ -1490,7 +1490,7 @@ WindowGlobalParent
 ?
 embedderWindowGlobal
 ;
-void
+undefined
 notifyStartDelayedAutoplayMedia
 (
 )
@@ -1498,7 +1498,7 @@ notifyStartDelayedAutoplayMedia
 [
 Throws
 ]
-void
+undefined
 notifyMediaMutedChanged
 (
 boolean
@@ -1703,7 +1703,7 @@ info
 [
 Throws
 ]
-void
+undefined
 loadURI
 (
 DOMString
@@ -1777,7 +1777,7 @@ printJS
 ]
 Promise
 <
-void
+undefined
 >
 print
 (
@@ -1801,7 +1801,7 @@ same
 names
 *
 /
-void
+undefined
 goBack
 (
 optional
@@ -1819,7 +1819,7 @@ aUserActivation
 false
 )
 ;
-void
+undefined
 goForward
 (
 optional
@@ -1837,7 +1837,7 @@ aUserActivation
 false
 )
 ;
-void
+undefined
 goToIndex
 (
 long
@@ -1852,7 +1852,7 @@ aUserActivation
 false
 )
 ;
-void
+undefined
 reload
 (
 unsigned
@@ -1860,7 +1860,7 @@ long
 aReloadFlags
 )
 ;
-void
+undefined
 stop
 (
 unsigned
@@ -1880,7 +1880,7 @@ MediaController
 ?
 mediaController
 ;
-void
+undefined
 resetScalingZoom
 (
 )
@@ -1922,7 +1922,7 @@ URI
 ?
 currentURI
 ;
-void
+undefined
 clearRestoreState
 (
 )
@@ -2069,7 +2069,7 @@ open
 [
 Throws
 ]
-void
+undefined
 setCrossGroupOpener
 (
 CanonicalBrowsingContext
@@ -2217,7 +2217,7 @@ autoscrolling
 .
 *
 /
-void
+undefined
 stopApzAutoscroll
 (
 unsigned

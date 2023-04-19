@@ -152,7 +152,7 @@ area
 .
 *
 /
-void
+undefined
 shrinkToFit
 (
 )
@@ -166,7 +166,7 @@ size
 .
 *
 /
-void
+undefined
 restoreImage
 (
 )

@@ -177,7 +177,7 @@ reason
 [
 Throws
 ]
-void
+undefined
 throwIfAborted
 (
 )

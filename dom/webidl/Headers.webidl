@@ -140,8 +140,6 @@ class
 /
 typedef
 (
-Headers
-or
 sequence
 <
 sequence
@@ -206,7 +204,7 @@ init
 [
 Throws
 ]
-void
+undefined
 append
 (
 ByteString
@@ -218,7 +216,7 @@ value
 [
 Throws
 ]
-void
+undefined
 delete
 (
 ByteString
@@ -249,7 +247,7 @@ name
 [
 Throws
 ]
-void
+undefined
 set
 (
 ByteString

@@ -19,7 +19,7 @@ interface
 Foo
 {
       
-void
+undefined
 foo
 (
 object

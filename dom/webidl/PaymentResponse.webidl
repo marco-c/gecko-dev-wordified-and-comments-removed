@@ -239,7 +239,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 complete
 (
@@ -272,7 +272,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 retry
 (

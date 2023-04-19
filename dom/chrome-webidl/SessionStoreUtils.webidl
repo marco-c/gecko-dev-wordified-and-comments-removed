@@ -84,7 +84,7 @@ forEachNonDynamicChildFrame
 callback
 SessionStoreUtilsFrameCallback
 =
-void
+undefined
 (
 WindowProxy
 frame
@@ -151,7 +151,7 @@ window
 [
 Throws
 ]
-void
+undefined
 forEachNonDynamicChildFrame
 (
 WindowProxy
@@ -347,7 +347,7 @@ EventListener
 [
 Throws
 ]
-void
+undefined
 removeDynamicFrameFilteredListener
 (
 EventTarget
@@ -396,7 +396,7 @@ allow
 properties
 *
 /
-void
+undefined
 restoreDocShellCapabilities
 (
 nsIDocShell
@@ -523,7 +523,7 @@ collectScrollPosition
 )
 *
 /
-void
+undefined
 restoreScrollPosition
 (
 Window
@@ -771,7 +771,7 @@ Throws
 ]
 Promise
 <
-void
+undefined
 >
 initializeRestore
 (
@@ -787,7 +787,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 restoreDocShellState
 (
@@ -801,7 +801,7 @@ ByteString
 docShellCaps
 )
 ;
-void
+undefined
 restoreSessionStorageFromParent
 (
 CanonicalBrowsingContext

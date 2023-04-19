@@ -264,7 +264,7 @@ attribute
 SVGAnimatedAngle
 orientAngle
 ;
-void
+undefined
 setOrientToAuto
 (
 )
@@ -272,7 +272,7 @@ setOrientToAuto
 [
 Throws
 ]
-void
+undefined
 setOrientToAngle
 (
 SVGAngle

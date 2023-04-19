@@ -26,7 +26,7 @@ interface
 OneNullableInUnion
 {
               
-void
+undefined
 foo
 (
 (
@@ -110,7 +110,7 @@ interface
 NullableInNullableUnion
 {
               
-void
+undefined
 foo
 (
 (
@@ -208,7 +208,7 @@ interface
 NullableInUnionNullableUnion
 {
               
-void
+undefined
 foo
 (
 (

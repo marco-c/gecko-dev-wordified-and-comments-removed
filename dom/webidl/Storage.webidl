@@ -203,7 +203,7 @@ Throws
 NeedsSubjectPrincipal
 ]
 setter
-void
+undefined
 setItem
 (
 DOMString
@@ -217,7 +217,7 @@ Throws
 NeedsSubjectPrincipal
 ]
 deleter
-void
+undefined
 removeItem
 (
 DOMString
@@ -228,7 +228,7 @@ key
 Throws
 NeedsSubjectPrincipal
 ]
-void
+undefined
 clear
 (
 )
@@ -349,7 +349,7 @@ storage
 testing
 "
 ]
-void
+undefined
 open
 (
 )
@@ -395,7 +395,7 @@ storage
 testing
 "
 ]
-void
+undefined
 close
 (
 )
@@ -458,7 +458,7 @@ storage
 testing
 "
 ]
-void
+undefined
 beginExplicitSnapshot
 (
 )
@@ -529,7 +529,7 @@ storage
 testing
 "
 ]
-void
+undefined
 checkpointExplicitSnapshot
 (
 )
@@ -577,7 +577,7 @@ storage
 testing
 "
 ]
-void
+undefined
 endExplicitSnapshot
 (
 )

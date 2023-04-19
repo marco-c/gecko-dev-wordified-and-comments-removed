@@ -129,7 +129,7 @@ false
 callback
 FileSystemEntryCallback
 =
-void
+undefined
 (
 FileSystemEntry
 entry
@@ -138,7 +138,7 @@ entry
 callback
 ErrorCallback
 =
-void
+undefined
 (
 DOMException
 err

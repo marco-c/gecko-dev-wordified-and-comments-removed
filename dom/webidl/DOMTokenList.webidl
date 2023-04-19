@@ -185,7 +185,7 @@ token
 CEReactions
 Throws
 ]
-void
+undefined
 add
 (
 DOMString
@@ -199,7 +199,7 @@ tokens
 CEReactions
 Throws
 ]
-void
+undefined
 remove
 (
 DOMString

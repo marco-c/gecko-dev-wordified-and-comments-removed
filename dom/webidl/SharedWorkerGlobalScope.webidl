@@ -194,7 +194,7 @@ attribute
 DOMString
 name
 ;
-void
+undefined
 close
 (
 )

@@ -364,7 +364,7 @@ reportValidity
 (
 )
 ;
-void
+undefined
 setCustomValidity
 (
 DOMString
@@ -826,7 +826,7 @@ use
 ChromeOnly
 Throws
 ]
-void
+undefined
 reload
 (
 boolean
@@ -901,7 +901,7 @@ necessary
 ChromeOnly
 Throws
 ]
-void
+undefined
 skipFakePlugins
 (
 )

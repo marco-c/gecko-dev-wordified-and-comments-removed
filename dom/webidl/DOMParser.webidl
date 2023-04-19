@@ -256,7 +256,7 @@ document
 [
 ChromeOnly
 ]
-void
+undefined
 forceEnableXULXBL
 (
 )
@@ -296,7 +296,7 @@ Func
 IsChromeOrUAWidget
 "
 ]
-void
+undefined
 forceEnableDTD
 (
 )

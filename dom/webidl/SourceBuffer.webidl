@@ -272,7 +272,7 @@ onabort
 [
 Throws
 ]
-void
+undefined
 appendBuffer
 (
 ArrayBuffer
@@ -282,7 +282,7 @@ data
 [
 Throws
 ]
-void
+undefined
 appendBuffer
 (
 ArrayBufferView
@@ -296,7 +296,7 @@ Throws
 ]
 /
 /
-void
+undefined
 appendStream
 (
 Stream
@@ -314,7 +314,7 @@ maxSize
 [
 Throws
 ]
-void
+undefined
 abort
 (
 )
@@ -322,7 +322,7 @@ abort
 [
 Throws
 ]
-void
+undefined
 remove
 (
 double
@@ -392,7 +392,7 @@ enabled
 ]
 Promise
 <
-void
+undefined
 >
 appendBufferAsync
 (
@@ -416,7 +416,7 @@ enabled
 ]
 Promise
 <
-void
+undefined
 >
 appendBufferAsync
 (
@@ -440,7 +440,7 @@ enabled
 ]
 Promise
 <
-void
+undefined
 >
 removeAsync
 (
@@ -481,7 +481,7 @@ issues
 [
 Throws
 ]
-void
+undefined
 changeType
 (
 DOMString

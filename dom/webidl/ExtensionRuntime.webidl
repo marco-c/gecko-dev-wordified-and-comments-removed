@@ -288,7 +288,7 @@ WebExtensionStub
 NoReturn
 "
 ]
-void
+undefined
 reload
 (
 )

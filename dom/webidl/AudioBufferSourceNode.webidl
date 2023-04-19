@@ -239,7 +239,7 @@ loopEnd
 [
 Throws
 ]
-void
+undefined
 start
 (
 optional

@@ -144,7 +144,7 @@ elements
 [
 Throws
 ]
-void
+undefined
 setFormValue
 (
 (
@@ -180,7 +180,7 @@ form
 [
 Throws
 ]
-void
+undefined
 setValidity
 (
 optional

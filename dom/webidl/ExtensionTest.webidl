@@ -214,7 +214,7 @@ WebExtensionStub
 NotImplementedNoReturn
 "
 ]
-void
+undefined
 withHandlingUserInput
 (
 Function
@@ -229,7 +229,7 @@ WebExtensionStub
 NoReturn
 "
 ]
-void
+undefined
 notifyFail
 (
 DOMString
@@ -244,7 +244,7 @@ WebExtensionStub
 NoReturn
 "
 ]
-void
+undefined
 notifyPass
 (
 DOMString
@@ -259,7 +259,7 @@ WebExtensionStub
 NoReturn
 "
 ]
-void
+undefined
 notifyPass
 (
 )
@@ -272,7 +272,7 @@ WebExtensionStub
 NoReturn
 "
 ]
-void
+undefined
 log
 (
 DOMString
@@ -287,7 +287,7 @@ WebExtensionStub
 NoReturn
 "
 ]
-void
+undefined
 sendMessage
 (
 any
@@ -305,7 +305,7 @@ WebExtensionStub
 NoReturn
 "
 ]
-void
+undefined
 fail
 (
 any
@@ -320,7 +320,7 @@ WebExtensionStub
 NoReturn
 "
 ]
-void
+undefined
 fail
 (
 )
@@ -333,7 +333,7 @@ WebExtensionStub
 NoReturn
 "
 ]
-void
+undefined
 succeed
 (
 any
@@ -348,7 +348,7 @@ WebExtensionStub
 NoReturn
 "
 ]
-void
+undefined
 succeed
 (
 )
@@ -361,7 +361,7 @@ WebExtensionStub
 NoReturn
 "
 ]
-void
+undefined
 assertTrue
 (
 any
@@ -379,7 +379,7 @@ WebExtensionStub
 NoReturn
 "
 ]
-void
+undefined
 assertFalse
 (
 any
@@ -397,7 +397,7 @@ WebExtensionStub
 NoReturn
 "
 ]
-void
+undefined
 assertDeepEq
 (
 any
@@ -415,7 +415,7 @@ WebExtensionStub
 AssertEq
 "
 ]
-void
+undefined
 assertEq
 (
 any
@@ -466,7 +466,7 @@ callback
 [
 Throws
 ]
-void
+undefined
 assertThrows
 (
 Function
@@ -480,7 +480,7 @@ message
 [
 Throws
 ]
-void
+undefined
 assertThrows
 (
 Function

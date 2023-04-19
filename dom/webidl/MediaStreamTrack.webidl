@@ -542,7 +542,7 @@ clone
 (
 )
 ;
-void
+undefined
 stop
 (
 )
@@ -573,7 +573,7 @@ NeedsCallerType
 ]
 Promise
 <
-void
+undefined
 >
 applyConstraints
 (

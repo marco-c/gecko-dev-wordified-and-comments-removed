@@ -137,7 +137,7 @@ ExtensionEventManager
 [
 Throws
 ]
-void
+undefined
 addListener
 (
 Function
@@ -150,7 +150,7 @@ listenerOptions
 [
 Throws
 ]
-void
+undefined
 removeListener
 (
 Function

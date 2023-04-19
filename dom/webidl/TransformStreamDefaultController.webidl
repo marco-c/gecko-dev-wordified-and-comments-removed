@@ -152,7 +152,7 @@ desiredSize
 [
 Throws
 ]
-void
+undefined
 enqueue
 (
 optional
@@ -163,7 +163,7 @@ chunk
 [
 Throws
 ]
-void
+undefined
 error
 (
 optional
@@ -174,7 +174,7 @@ reason
 [
 Throws
 ]
-void
+undefined
 terminate
 (
 )

@@ -157,7 +157,7 @@ unsigned
 long
 numberOfItems
 ;
-void
+undefined
 clear
 (
 )
@@ -241,7 +241,7 @@ newItem
 /
 /
 setter
-void
+undefined
 (
 unsigned
 long

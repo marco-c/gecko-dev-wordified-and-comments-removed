@@ -303,7 +303,7 @@ system
 [
 Throws
 ]
-void
+undefined
 setPosition
 (
 double
@@ -317,7 +317,7 @@ z
 [
 Throws
 ]
-void
+undefined
 setOrientation
 (
 double

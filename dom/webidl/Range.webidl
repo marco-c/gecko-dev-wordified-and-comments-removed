@@ -229,7 +229,7 @@ BinaryName
 setStartJS
 "
 ]
-void
+undefined
 setStart
 (
 Node
@@ -247,7 +247,7 @@ BinaryName
 setEndJS
 "
 ]
-void
+undefined
 setEnd
 (
 Node
@@ -265,7 +265,7 @@ BinaryName
 setStartBeforeJS
 "
 ]
-void
+undefined
 setStartBefore
 (
 Node
@@ -280,7 +280,7 @@ BinaryName
 setStartAfterJS
 "
 ]
-void
+undefined
 setStartAfter
 (
 Node
@@ -295,7 +295,7 @@ BinaryName
 setEndBeforeJS
 "
 ]
-void
+undefined
 setEndBefore
 (
 Node
@@ -310,7 +310,7 @@ BinaryName
 setEndAfterJS
 "
 ]
-void
+undefined
 setEndAfter
 (
 Node
@@ -324,7 +324,7 @@ BinaryName
 collapseJS
 "
 ]
-void
+undefined
 collapse
 (
 optional
@@ -342,7 +342,7 @@ BinaryName
 selectNodeJS
 "
 ]
-void
+undefined
 selectNode
 (
 Node
@@ -357,7 +357,7 @@ BinaryName
 selectNodeContentsJS
 "
 ]
-void
+undefined
 selectNodeContents
 (
 Node
@@ -409,7 +409,7 @@ sourceRange
 CEReactions
 Throws
 ]
-void
+undefined
 deleteContents
 (
 )
@@ -436,7 +436,7 @@ cloneContents
 CEReactions
 Throws
 ]
-void
+undefined
 insertNode
 (
 Node
@@ -447,7 +447,7 @@ node
 CEReactions
 Throws
 ]
-void
+undefined
 surroundContents
 (
 Node
@@ -459,7 +459,7 @@ cloneRange
 (
 )
 ;
-void
+undefined
 detach
 (
 )

@@ -26,7 +26,7 @@ interface
 VariadicConstraints1
 {
               
-void
+undefined
 foo
 (
 byte
@@ -116,7 +116,7 @@ interface
 VariadicConstraints2
 {
               
-void
+undefined
 foo
 (
 byte
@@ -207,7 +207,7 @@ interface
 VariadicConstraints3
 {
               
-void
+undefined
 foo
 (
 optional
@@ -296,7 +296,7 @@ interface
 VariadicConstraints4
 {
               
-void
+undefined
 foo
 (
 byte

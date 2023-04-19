@@ -113,7 +113,7 @@ infrastructure
 callback
 PromiseJobCallback
 =
-void
+undefined
 (
 )
 ;

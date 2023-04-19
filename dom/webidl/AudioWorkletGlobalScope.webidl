@@ -148,7 +148,7 @@ WorkletGlobalScope
 [
 Throws
 ]
-void
+undefined
 registerProcessor
 (
 DOMString

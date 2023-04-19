@@ -26,7 +26,7 @@ ArrayBuffer
 bufferAttr
 ;
           
-void
+undefined
 bufferMethod
 (
 ArrayBuffer
@@ -47,7 +47,7 @@ ArrayBufferView
 viewAttr
 ;
           
-void
+undefined
 viewMethod
 (
 ArrayBufferView
@@ -68,7 +68,7 @@ Int8Array
 int8ArrayAttr
 ;
           
-void
+undefined
 int8ArrayMethod
 (
 Int8Array
@@ -89,7 +89,7 @@ Uint8Array
 uint8ArrayAttr
 ;
           
-void
+undefined
 uint8ArrayMethod
 (
 Uint8Array
@@ -110,7 +110,7 @@ Uint8ClampedArray
 uint8ClampedArrayAttr
 ;
           
-void
+undefined
 uint8ClampedArrayMethod
 (
 Uint8ClampedArray
@@ -131,7 +131,7 @@ Int16Array
 int16ArrayAttr
 ;
           
-void
+undefined
 int16ArrayMethod
 (
 Int16Array
@@ -152,7 +152,7 @@ Uint16Array
 uint16ArrayAttr
 ;
           
-void
+undefined
 uint16ArrayMethod
 (
 Uint16Array
@@ -173,7 +173,7 @@ Int32Array
 int32ArrayAttr
 ;
           
-void
+undefined
 int32ArrayMethod
 (
 Int32Array
@@ -194,7 +194,7 @@ Uint32Array
 uint32ArrayAttr
 ;
           
-void
+undefined
 uint32ArrayMethod
 (
 Uint32Array
@@ -215,7 +215,7 @@ Float32Array
 float32ArrayAttr
 ;
           
-void
+undefined
 float32ArrayMethod
 (
 Float32Array
@@ -236,7 +236,7 @@ Float64Array
 float64ArrayAttr
 ;
           
-void
+undefined
 float64ArrayMethod
 (
 Float64Array
@@ -422,14 +422,14 @@ ok
 (
 retType
 .
-isVoid
+isUndefined
 (
 )
 "
 Should
 have
-a
-void
+an
+undefined
 return
 type
 "

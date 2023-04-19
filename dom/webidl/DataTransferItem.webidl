@@ -166,7 +166,7 @@ type
 Throws
 NeedsSubjectPrincipal
 ]
-void
+undefined
 getAsString
 (
 FunctionStringCallback
@@ -189,7 +189,7 @@ getAsFile
 callback
 FunctionStringCallback
 =
-void
+undefined
 (
 DOMString
 data

@@ -602,7 +602,7 @@ getCSSPseudoElementNames
 (
 )
 ;
-void
+undefined
 addPseudoClassLock
 (
 Element
@@ -616,7 +616,7 @@ enabled
 true
 )
 ;
-void
+undefined
 removePseudoClassLock
 (
 Element
@@ -634,7 +634,7 @@ DOMString
 pseudoClass
 )
 ;
-void
+undefined
 clearPseudoClassLocks
 (
 Element
@@ -644,7 +644,7 @@ element
 [
 Throws
 ]
-void
+undefined
 parseStyleSheet
 (
 CSSStyleSheet

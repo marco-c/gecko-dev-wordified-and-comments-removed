@@ -184,7 +184,7 @@ NeedsCallerType
 ]
 Promise
 <
-void
+undefined
 >
 add
 (
@@ -198,7 +198,7 @@ NeedsCallerType
 ]
 Promise
 <
-void
+undefined
 >
 addAll
 (
@@ -214,7 +214,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 put
 (

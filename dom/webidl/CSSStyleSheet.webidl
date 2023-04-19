@@ -261,7 +261,7 @@ index
 Throws
 NeedsSubjectPrincipal
 ]
-void
+undefined
 deleteRule
 (
 unsigned
@@ -311,7 +311,7 @@ stylesheets
 enabled
 "
 ]
-void
+undefined
 replaceSync
 (
 UTF8String
@@ -349,7 +349,7 @@ BinaryName
 deleteRule
 "
 ]
-void
+undefined
 removeRule
 (
 optional

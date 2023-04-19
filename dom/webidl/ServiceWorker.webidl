@@ -213,7 +213,7 @@ onstatechange
 [
 Throws
 ]
-void
+undefined
 postMessage
 (
 any
@@ -228,7 +228,7 @@ transferable
 [
 Throws
 ]
-void
+undefined
 postMessage
 (
 any

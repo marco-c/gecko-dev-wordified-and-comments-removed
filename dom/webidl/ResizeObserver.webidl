@@ -170,7 +170,7 @@ ResizeObserverCallback
 callback
 )
 ;
-void
+undefined
 observe
 (
 Element
@@ -183,14 +183,14 @@ options
 }
 )
 ;
-void
+undefined
 unobserve
 (
 Element
 target
 )
 ;
-void
+undefined
 disconnect
 (
 )
@@ -200,7 +200,7 @@ disconnect
 callback
 ResizeObserverCallback
 =
-void
+undefined
 (
 sequence
 <

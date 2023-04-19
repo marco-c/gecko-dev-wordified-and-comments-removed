@@ -180,7 +180,7 @@ Geolocation
 Throws
 NeedsCallerType
 ]
-void
+undefined
 getCurrentPosition
 (
 PositionCallback
@@ -222,7 +222,7 @@ options
 }
 )
 ;
-void
+undefined
 clearWatch
 (
 long
@@ -234,7 +234,7 @@ watchId
 callback
 PositionCallback
 =
-void
+undefined
 (
 GeolocationPosition
 position
@@ -243,7 +243,7 @@ position
 callback
 PositionErrorCallback
 =
-void
+undefined
 (
 GeolocationPositionError
 positionError

@@ -26,7 +26,7 @@ interface
 OptionalConstraints1
 {
               
-void
+undefined
 foo
 (
 optional
@@ -111,7 +111,7 @@ interface
 OptionalConstraints2
 {
           
-void
+undefined
 foo
 (
 optional
@@ -124,7 +124,7 @@ byte
 arg2
 =
 2
-                   
+                        
 optional
 byte
 arg3
@@ -133,7 +133,7 @@ byte
 arg4
 =
 4
-                   
+                        
 optional
 byte
 arg5

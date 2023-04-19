@@ -297,7 +297,7 @@ Methods
 [
 Throws
 ]
-void
+undefined
 updateRenderState
 (
 optional
@@ -326,7 +326,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 updateTargetFrameRate
 (
@@ -347,7 +347,7 @@ callback
 [
 Throws
 ]
-void
+undefined
 cancelAnimationFrame
 (
 long
@@ -359,7 +359,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 end
 (
@@ -471,7 +471,7 @@ baseLayer
 callback
 XRFrameRequestCallback
 =
-void
+undefined
 (
 DOMHighResTimeStamp
 time

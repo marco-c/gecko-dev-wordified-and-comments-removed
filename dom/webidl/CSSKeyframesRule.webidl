@@ -158,14 +158,14 @@ attribute
 CSSRuleList
 cssRules
 ;
-void
+undefined
 appendRule
 (
 DOMString
 rule
 )
 ;
-void
+undefined
 deleteRule
 (
 DOMString

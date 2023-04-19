@@ -216,7 +216,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 lock
 (
@@ -227,7 +227,7 @@ orientation
 [
 Throws
 ]
-void
+undefined
 unlock
 (
 )

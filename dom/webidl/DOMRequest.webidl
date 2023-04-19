@@ -230,7 +230,7 @@ null
 [
 ChromeOnly
 ]
-void
+undefined
 fireDetailedError
 (
 DOMException

@@ -415,7 +415,7 @@ reportValidity
 (
 )
 ;
-void
+undefined
 setCustomValidity
 (
 DOMString
@@ -427,7 +427,7 @@ attribute
 NodeList
 labels
 ;
-void
+undefined
 select
 (
 )
@@ -461,7 +461,7 @@ selectionDirection
 [
 Throws
 ]
-void
+undefined
 setRangeText
 (
 DOMString
@@ -471,7 +471,7 @@ replacement
 [
 Throws
 ]
-void
+undefined
 setRangeText
 (
 DOMString
@@ -494,7 +494,7 @@ preserve
 [
 Throws
 ]
-void
+undefined
 setSelectionRange
 (
 unsigned

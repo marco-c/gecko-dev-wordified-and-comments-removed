@@ -268,7 +268,7 @@ audioBitsPerSecond
 [
 Throws
 ]
-void
+undefined
 start
 (
 optional
@@ -280,7 +280,7 @@ timeslice
 [
 Throws
 ]
-void
+undefined
 stop
 (
 )
@@ -288,7 +288,7 @@ stop
 [
 Throws
 ]
-void
+undefined
 pause
 (
 )
@@ -296,7 +296,7 @@ pause
 [
 Throws
 ]
-void
+undefined
 resume
 (
 )
@@ -304,7 +304,7 @@ resume
 [
 Throws
 ]
-void
+undefined
 requestData
 (
 )

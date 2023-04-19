@@ -285,7 +285,7 @@ blob
 Throws
 ]
 static
-void
+undefined
 revokeObjectURL
 (
 DOMString

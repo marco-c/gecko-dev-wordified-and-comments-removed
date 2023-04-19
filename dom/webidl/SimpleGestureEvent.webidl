@@ -1509,7 +1509,7 @@ unsigned
 long
 clickCount
 ;
-void
+undefined
 initSimpleGestureEvent
 (
 DOMString

@@ -452,7 +452,7 @@ position
 [
 Throws
 ]
-void
+undefined
 writePointer
 (
 unsigned

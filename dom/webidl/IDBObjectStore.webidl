@@ -442,7 +442,7 @@ name
 [
 Throws
 ]
-void
+undefined
 deleteIndex
 (
 DOMString

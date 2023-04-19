@@ -1831,7 +1831,7 @@ experiences
 .
 *
 /
-void
+undefined
 resetPose
 (
 )
@@ -2046,7 +2046,7 @@ callback
 [
 Throws
 ]
-void
+undefined
 cancelAnimationFrame
 (
 long
@@ -2094,7 +2094,7 @@ NeedsCallerType
 ]
 Promise
 <
-void
+undefined
 >
 requestPresent
 (
@@ -2122,7 +2122,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 exitPresent
 (
@@ -2205,7 +2205,7 @@ cleared
 .
 *
 /
-void
+undefined
 submitFrame
 (
 )

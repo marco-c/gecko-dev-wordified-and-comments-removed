@@ -281,7 +281,7 @@ Decibels
 [
 Throws
 ]
-void
+undefined
 getFrequencyResponse
 (
 Float32Array

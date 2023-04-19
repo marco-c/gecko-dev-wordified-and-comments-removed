@@ -362,7 +362,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 decode
 (
@@ -670,7 +670,7 @@ document
 [
 ChromeOnly
 ]
-void
+undefined
 addObserver
 (
 imgINotificationObserver
@@ -704,7 +704,7 @@ document
 [
 ChromeOnly
 ]
-void
+undefined
 removeObserver
 (
 imgINotificationObserver
@@ -809,7 +809,7 @@ reload
 ChromeOnly
 Throws
 ]
-void
+undefined
 forceReload
 (
 optional

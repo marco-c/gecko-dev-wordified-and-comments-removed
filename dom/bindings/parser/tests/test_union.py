@@ -886,7 +886,7 @@ Template
 "
 "
           
-void
+undefined
 method
 {
 i
@@ -920,7 +920,7 @@ i
 }
 ;
           
-void
+undefined
 optionalMethod
 {
 i
@@ -1013,7 +1013,7 @@ interface
 TestUnion
 {
               
-void
+undefined
 method
 (
 {

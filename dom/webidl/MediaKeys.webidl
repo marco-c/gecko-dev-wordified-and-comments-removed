@@ -290,7 +290,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 setServerCertificate
 (

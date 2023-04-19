@@ -167,7 +167,7 @@ attribute
 HTMLCanvasElement
 canvas
 ;
-void
+undefined
 requestFrame
 (
 )

@@ -603,7 +603,7 @@ width
 [
 Throws
 ]
-void
+undefined
 stepUp
 (
 optional
@@ -616,7 +616,7 @@ n
 [
 Throws
 ]
-void
+undefined
 stepDown
 (
 optional
@@ -660,7 +660,7 @@ reportValidity
 (
 )
 ;
-void
+undefined
 setCustomValidity
 (
 DOMString
@@ -673,7 +673,7 @@ NodeList
 ?
 labels
 ;
-void
+undefined
 select
 (
 )
@@ -707,7 +707,7 @@ selectionDirection
 [
 Throws
 ]
-void
+undefined
 setRangeText
 (
 DOMString
@@ -717,7 +717,7 @@ replacement
 [
 Throws
 ]
-void
+undefined
 setRangeText
 (
 DOMString
@@ -740,7 +740,7 @@ preserve
 [
 Throws
 ]
-void
+undefined
 setSelectionRange
 (
 unsigned
@@ -766,7 +766,7 @@ input
 showPicker
 "
 ]
-void
+undefined
 showPicker
 (
 )
@@ -866,7 +866,7 @@ mozGetFileNameArray
 ChromeOnly
 Throws
 ]
-void
+undefined
 mozSetFileNameArray
 (
 sequence
@@ -879,7 +879,7 @@ fileNames
 [
 ChromeOnly
 ]
-void
+undefined
 mozSetFileArray
 (
 sequence
@@ -905,7 +905,7 @@ only
 ChromeOnly
 Throws
 ]
-void
+undefined
 mozSetDirectory
 (
 DOMString
@@ -927,7 +927,7 @@ only
 [
 ChromeOnly
 ]
-void
+undefined
 mozSetDndFilesAndDirectories
 (
 sequence
@@ -1274,7 +1274,7 @@ IsChromeOrUAWidget
 "
 NeedsSubjectPrincipal
 ]
-void
+undefined
 setUserInput
 (
 DOMString
@@ -1438,7 +1438,7 @@ Func
 IsChromeOrUAWidget
 "
 ]
-void
+undefined
 openDateTimePicker
 (
 optional
@@ -1456,7 +1456,7 @@ Func
 IsChromeOrUAWidget
 "
 ]
-void
+undefined
 updateDateTimePicker
 (
 optional
@@ -1474,7 +1474,7 @@ Func
 IsChromeOrUAWidget
 "
 ]
-void
+undefined
 closeDateTimePicker
 (
 )
@@ -1486,7 +1486,7 @@ Func
 IsChromeOrUAWidget
 "
 ]
-void
+undefined
 setFocusState
 (
 boolean
@@ -1500,7 +1500,7 @@ Func
 IsChromeOrUAWidget
 "
 ]
-void
+undefined
 updateValidityState
 (
 )

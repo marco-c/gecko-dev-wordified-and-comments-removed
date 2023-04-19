@@ -108,7 +108,7 @@ reports
 callback
 WebrtcGlobalStatisticsCallback
 =
-void
+undefined
 (
 WebrtcGlobalStatisticsReport
 reports
@@ -117,7 +117,7 @@ reports
 callback
 WebrtcGlobalLoggingCallback
 =
-void
+undefined
 (
 sequence
 <
@@ -138,7 +138,7 @@ WebrtcGlobalInformation
 [
 Throws
 ]
-void
+undefined
 getAllStats
 (
 WebrtcGlobalStatisticsCallback
@@ -148,7 +148,7 @@ DOMString
 pcIdFilter
 )
 ;
-void
+undefined
 clearAllStats
 (
 )
@@ -156,7 +156,7 @@ clearAllStats
 [
 Throws
 ]
-void
+undefined
 getLogging
 (
 DOMString
@@ -165,7 +165,7 @@ WebrtcGlobalLoggingCallback
 callback
 )
 ;
-void
+undefined
 clearLogging
 (
 )

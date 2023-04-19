@@ -203,7 +203,7 @@ not
 spec
 compliant
 .
-void
+undefined
 initStorageEvent
 (
 DOMString

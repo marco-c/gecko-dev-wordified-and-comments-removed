@@ -135,7 +135,7 @@ EventTarget
 [
 Throws
 ]
-void
+undefined
 postMessage
 (
 any
@@ -150,7 +150,7 @@ transferable
 [
 Throws
 ]
-void
+undefined
 postMessage
 (
 any
@@ -163,12 +163,12 @@ options
 }
 )
 ;
-void
+undefined
 start
 (
 )
 ;
-void
+undefined
 close
 (
 )

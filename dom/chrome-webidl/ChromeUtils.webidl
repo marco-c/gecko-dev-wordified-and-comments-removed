@@ -1196,7 +1196,7 @@ information
 .
 *
 /
-void
+undefined
 releaseAssert
 (
 boolean
@@ -1386,7 +1386,7 @@ JSRuntime
 .
 *
 /
-void
+undefined
 clearRecentJSDevError
 (
 )
@@ -1418,7 +1418,7 @@ cache
 .
 *
 /
-void
+undefined
 clearStyleSheetCacheByBaseDomain
 (
 UTF8String
@@ -1438,7 +1438,7 @@ principal
 .
 *
 /
-void
+undefined
 clearStyleSheetCacheByPrincipal
 (
 Principal
@@ -1457,7 +1457,7 @@ cache
 .
 *
 /
-void
+undefined
 clearStyleSheetCache
 (
 )
@@ -1589,7 +1589,7 @@ marker
 .
 *
 /
-void
+undefined
 addProfilerMarker
 (
 UTF8String
@@ -2572,7 +2572,7 @@ windw
 [
 Throws
 ]
-void
+undefined
 idleDispatch
 (
 IdleRequestCallback
@@ -3119,7 +3119,7 @@ import
 [
 Throws
 ]
-void
+undefined
 defineModuleGetter
 (
 object
@@ -3205,7 +3205,7 @@ URI
 [
 Throws
 ]
-void
+undefined
 defineESModuleGetters
 (
 object
@@ -3417,7 +3417,7 @@ Metric
 .
 *
 /
-void
+undefined
 setPerfStatsCollectionMask
 (
 unsigned
@@ -3597,7 +3597,7 @@ value
 [
 ChromeOnly
 ]
-void
+undefined
 resetLastExternalProtocolIframeAllowed
 (
 )
@@ -3651,7 +3651,7 @@ documentation
 ChromeOnly
 Throws
 ]
-void
+undefined
 registerWindowActor
 (
 UTF8String
@@ -3667,7 +3667,7 @@ aOptions
 [
 ChromeOnly
 ]
-void
+undefined
 unregisterWindowActor
 (
 UTF8String
@@ -3723,7 +3723,7 @@ documentation
 ChromeOnly
 Throws
 ]
-void
+undefined
 registerProcessActor
 (
 UTF8String
@@ -3739,7 +3739,7 @@ aOptions
 [
 ChromeOnly
 ]
-void
+undefined
 unregisterProcessActor
 (
 UTF8String
@@ -3807,7 +3807,7 @@ purpose
 ChromeOnly
 Throws
 ]
-void
+undefined
 privateNoteIntentionalCrash
 (
 )

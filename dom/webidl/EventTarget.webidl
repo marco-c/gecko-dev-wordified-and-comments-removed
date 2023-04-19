@@ -269,7 +269,7 @@ false
 [
 Throws
 ]
-void
+undefined
 addEventListener
 (
 DOMString
@@ -298,7 +298,7 @@ null
 [
 Throws
 ]
-void
+undefined
 removeEventListener
 (
 DOMString
@@ -429,7 +429,7 @@ here
 ChromeOnly
 Throws
 ]
-void
+undefined
 setEventHandler
 (
 DOMString

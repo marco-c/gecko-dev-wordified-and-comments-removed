@@ -190,7 +190,7 @@ CEReactions
 Throws
 ]
 setter
-void
+undefined
 (
 DOMString
 name
@@ -202,7 +202,7 @@ value
 CEReactions
 ]
 deleter
-void
+undefined
 (
 DOMString
 name

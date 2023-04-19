@@ -206,7 +206,7 @@ index
 CEReactions
 Throws
 ]
-void
+undefined
 deleteCell
 (
 long

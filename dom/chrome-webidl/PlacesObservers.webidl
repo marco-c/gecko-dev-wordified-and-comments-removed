@@ -94,7 +94,7 @@ MPL
 callback
 PlacesEventCallback
 =
-void
+undefined
 (
 sequence
 <
@@ -144,7 +144,7 @@ PlacesObservers
 [
 Throws
 ]
-void
+undefined
 addListener
 (
 sequence
@@ -159,7 +159,7 @@ listener
 [
 Throws
 ]
-void
+undefined
 addListener
 (
 sequence
@@ -174,7 +174,7 @@ listener
 [
 Throws
 ]
-void
+undefined
 removeListener
 (
 sequence
@@ -189,7 +189,7 @@ listener
 [
 Throws
 ]
-void
+undefined
 removeListener
 (
 sequence
@@ -204,7 +204,7 @@ listener
 [
 Throws
 ]
-void
+undefined
 notifyListeners
 (
 sequence

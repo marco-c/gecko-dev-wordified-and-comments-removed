@@ -190,7 +190,7 @@ createCaption
 [
 CEReactions
 ]
-void
+undefined
 deleteCaption
 (
 )
@@ -212,7 +212,7 @@ createTHead
 [
 CEReactions
 ]
-void
+undefined
 deleteTHead
 (
 )
@@ -234,7 +234,7 @@ createTFoot
 [
 CEReactions
 ]
-void
+undefined
 deleteTFoot
 (
 )
@@ -272,7 +272,7 @@ index
 CEReactions
 Throws
 ]
-void
+undefined
 deleteRow
 (
 long
@@ -287,7 +287,7 @@ sortable
 ;
 /
 /
-void
+undefined
 stopSorting
 (
 )

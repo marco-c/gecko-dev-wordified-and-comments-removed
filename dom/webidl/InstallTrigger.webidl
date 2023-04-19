@@ -81,7 +81,7 @@ complete
 callback
 InstallTriggerCallback
 =
-void
+undefined
 (
 DOMString
 url

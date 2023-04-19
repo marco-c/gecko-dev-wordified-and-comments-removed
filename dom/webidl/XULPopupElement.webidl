@@ -595,7 +595,7 @@ example
 )
 *
 /
-void
+undefined
 openPopup
 (
 optional
@@ -746,7 +746,7 @@ example
 )
 *
 /
-void
+undefined
 openPopupAtScreen
 (
 optional
@@ -834,7 +834,7 @@ effect
 .
 *
 /
-void
+undefined
 openPopupAtScreenRect
 (
 optional
@@ -938,7 +938,7 @@ cancelled
 .
 *
 /
-void
+undefined
 hidePopup
 (
 optional
@@ -1067,7 +1067,7 @@ event
 [
 Throws
 ]
-void
+undefined
 activateItem
 (
 Element
@@ -1285,7 +1285,7 @@ pixels
 .
 *
 /
-void
+undefined
 moveTo
 (
 long
@@ -1337,7 +1337,7 @@ open
 .
 *
 /
-void
+undefined
 moveToAnchor
 (
 optional
@@ -1382,7 +1382,7 @@ given
 dimensions
 *
 /
-void
+undefined
 sizeTo
 (
 long
@@ -1391,7 +1391,7 @@ long
 height
 )
 ;
-void
+undefined
 setConstraintRect
 (
 DOMRectReadOnly

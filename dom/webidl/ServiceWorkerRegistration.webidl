@@ -222,7 +222,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 update
 (
@@ -342,7 +342,7 @@ enabled
 ]
 Promise
 <
-void
+undefined
 >
 showNotification
 (

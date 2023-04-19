@@ -145,7 +145,7 @@ DataTransfer
 ?
 dataTransfer
 ;
-void
+undefined
 initDragEvent
 (
 DOMString

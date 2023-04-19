@@ -26,7 +26,7 @@ interface
 AnyNotInUnion
 {
               
-void
+undefined
 foo
 (
 (

@@ -245,12 +245,12 @@ unsigned
 short
 eventPhase
 ;
-void
+undefined
 stopPropagation
 (
 )
 ;
-void
+undefined
 stopImmediatePropagation
 (
 )
@@ -281,7 +281,7 @@ returnValue
 [
 NeedsCallerType
 ]
-void
+undefined
 preventDefault
 (
 )
@@ -338,7 +338,7 @@ attribute
 DOMHighResTimeStamp
 timeStamp
 ;
-void
+undefined
 initEvent
 (
 DOMString
@@ -536,7 +536,7 @@ composedTarget
 [
 ChromeOnly
 ]
-void
+undefined
 preventMultipleActions
 (
 )
@@ -587,7 +587,7 @@ process
 [
 ChromeOnly
 ]
-void
+undefined
 requestReplyFromRemoteContent
 (
 )

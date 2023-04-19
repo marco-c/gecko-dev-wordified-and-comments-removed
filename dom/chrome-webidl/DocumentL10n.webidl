@@ -399,7 +399,7 @@ available
 [
 Throws
 ]
-void
+undefined
 connectRoot
 (
 Node

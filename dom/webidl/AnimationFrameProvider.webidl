@@ -129,7 +129,7 @@ frames
 callback
 FrameRequestCallback
 =
-void
+undefined
 (
 DOMHighResTimeStamp
 time
@@ -152,7 +152,7 @@ callback
 [
 Throws
 ]
-void
+undefined
 cancelAnimationFrame
 (
 long

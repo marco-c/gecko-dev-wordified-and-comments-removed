@@ -37,7 +37,7 @@ X
 5
 ;
         
-void
+undefined
 foo
 (
 optional
@@ -48,7 +48,7 @@ arg
 )
 ;
         
-void
+undefined
 bar
 (
 optional
@@ -59,7 +59,7 @@ null
 )
 ;
         
-void
+undefined
 baz
 (
 mylong
@@ -162,7 +162,7 @@ interface
 Foo
 {
             
-void
+undefined
 foo
 (
 mynullablelong

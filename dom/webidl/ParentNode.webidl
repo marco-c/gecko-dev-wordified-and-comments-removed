@@ -195,7 +195,7 @@ CEReactions
 Throws
 Unscopable
 ]
-void
+undefined
 prepend
 (
 (
@@ -214,7 +214,7 @@ CEReactions
 Throws
 Unscopable
 ]
-void
+undefined
 append
 (
 (
@@ -233,7 +233,7 @@ CEReactions
 Throws
 Unscopable
 ]
-void
+undefined
 replaceChildren
 (
 (

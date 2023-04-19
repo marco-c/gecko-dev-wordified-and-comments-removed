@@ -100,7 +100,7 @@ callback
 interface
 MozDocumentCallback
 {
-void
+undefined
 onNewDocument
 (
 MozDocumentMatcher
@@ -109,7 +109,7 @@ WindowProxy
 window
 )
 ;
-void
+undefined
 onPreloadDocument
 (
 MozDocumentMatcher
@@ -138,7 +138,7 @@ callbacks
 [
 Throws
 ]
-void
+undefined
 observe
 (
 sequence
@@ -148,7 +148,7 @@ MozDocumentMatcher
 matchers
 )
 ;
-void
+undefined
 disconnect
 (
 )

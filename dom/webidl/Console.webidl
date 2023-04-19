@@ -181,7 +181,7 @@ Logging
 [
 UseCounter
 ]
-void
+undefined
 assert
 (
 optional
@@ -199,7 +199,7 @@ data
 [
 UseCounter
 ]
-void
+undefined
 clear
 (
 )
@@ -207,7 +207,7 @@ clear
 [
 UseCounter
 ]
-void
+undefined
 count
 (
 optional
@@ -222,7 +222,7 @@ default
 [
 UseCounter
 ]
-void
+undefined
 countReset
 (
 optional
@@ -237,7 +237,7 @@ default
 [
 UseCounter
 ]
-void
+undefined
 debug
 (
 any
@@ -250,7 +250,7 @@ data
 [
 UseCounter
 ]
-void
+undefined
 error
 (
 any
@@ -263,7 +263,7 @@ data
 [
 UseCounter
 ]
-void
+undefined
 info
 (
 any
@@ -276,7 +276,7 @@ data
 [
 UseCounter
 ]
-void
+undefined
 log
 (
 any
@@ -289,7 +289,7 @@ data
 [
 UseCounter
 ]
-void
+undefined
 table
 (
 any
@@ -314,7 +314,7 @@ this
 [
 UseCounter
 ]
-void
+undefined
 trace
 (
 any
@@ -327,7 +327,7 @@ data
 [
 UseCounter
 ]
-void
+undefined
 warn
 (
 any
@@ -340,7 +340,7 @@ data
 [
 UseCounter
 ]
-void
+undefined
 dir
 (
 any
@@ -366,7 +366,7 @@ yet
 [
 UseCounter
 ]
-void
+undefined
 dirxml
 (
 any
@@ -382,7 +382,7 @@ Grouping
 [
 UseCounter
 ]
-void
+undefined
 group
 (
 any
@@ -395,7 +395,7 @@ data
 [
 UseCounter
 ]
-void
+undefined
 groupCollapsed
 (
 any
@@ -408,7 +408,7 @@ data
 [
 UseCounter
 ]
-void
+undefined
 groupEnd
 (
 )
@@ -419,7 +419,7 @@ Timing
 [
 UseCounter
 ]
-void
+undefined
 time
 (
 optional
@@ -434,7 +434,7 @@ default
 [
 UseCounter
 ]
-void
+undefined
 timeLog
 (
 optional
@@ -454,7 +454,7 @@ data
 [
 UseCounter
 ]
-void
+undefined
 timeEnd
 (
 optional
@@ -476,7 +476,7 @@ methods
 [
 UseCounter
 ]
-void
+undefined
 _exception
 (
 any
@@ -489,7 +489,7 @@ data
 [
 UseCounter
 ]
-void
+undefined
 timeStamp
 (
 optional
@@ -500,7 +500,7 @@ data
 [
 UseCounter
 ]
-void
+undefined
 profile
 (
 any
@@ -513,7 +513,7 @@ data
 [
 UseCounter
 ]
-void
+undefined
 profileEnd
 (
 any
@@ -1021,7 +1021,7 @@ ConsoleInstance
 /
 /
 Logging
-void
+undefined
 assert
 (
 optional
@@ -1036,12 +1036,12 @@ any
 data
 )
 ;
-void
+undefined
 clear
 (
 )
 ;
-void
+undefined
 count
 (
 optional
@@ -1053,7 +1053,7 @@ default
 "
 )
 ;
-void
+undefined
 countReset
 (
 optional
@@ -1065,7 +1065,7 @@ default
 "
 )
 ;
-void
+undefined
 debug
 (
 any
@@ -1075,7 +1075,7 @@ any
 data
 )
 ;
-void
+undefined
 error
 (
 any
@@ -1085,7 +1085,7 @@ any
 data
 )
 ;
-void
+undefined
 info
 (
 any
@@ -1095,7 +1095,7 @@ any
 data
 )
 ;
-void
+undefined
 log
 (
 any
@@ -1105,7 +1105,7 @@ any
 data
 )
 ;
-void
+undefined
 table
 (
 any
@@ -1127,7 +1127,7 @@ unclear
 about
 this
 .
-void
+undefined
 trace
 (
 any
@@ -1137,7 +1137,7 @@ any
 data
 )
 ;
-void
+undefined
 warn
 (
 any
@@ -1147,7 +1147,7 @@ any
 data
 )
 ;
-void
+undefined
 dir
 (
 any
@@ -1170,7 +1170,7 @@ the
 spec
 yet
 .
-void
+undefined
 dirxml
 (
 any
@@ -1183,7 +1183,7 @@ data
 /
 /
 Grouping
-void
+undefined
 group
 (
 any
@@ -1193,7 +1193,7 @@ any
 data
 )
 ;
-void
+undefined
 groupCollapsed
 (
 any
@@ -1203,7 +1203,7 @@ any
 data
 )
 ;
-void
+undefined
 groupEnd
 (
 )
@@ -1211,7 +1211,7 @@ groupEnd
 /
 /
 Timing
-void
+undefined
 time
 (
 optional
@@ -1223,7 +1223,7 @@ default
 "
 )
 ;
-void
+undefined
 timeLog
 (
 optional
@@ -1240,7 +1240,7 @@ any
 data
 )
 ;
-void
+undefined
 timeEnd
 (
 optional
@@ -1259,7 +1259,7 @@ only
 or
 Webcompat
 methods
-void
+undefined
 _exception
 (
 any
@@ -1269,7 +1269,7 @@ any
 data
 )
 ;
-void
+undefined
 timeStamp
 (
 optional
@@ -1277,7 +1277,7 @@ any
 data
 )
 ;
-void
+undefined
 profile
 (
 any
@@ -1287,7 +1287,7 @@ any
 data
 )
 ;
-void
+undefined
 profileEnd
 (
 any
@@ -1302,7 +1302,7 @@ data
 callback
 ConsoleInstanceDumpCallback
 =
-void
+undefined
 (
 DOMString
 message
@@ -1577,7 +1577,7 @@ ConsoleInstance
 [
 ChromeOnly
 ]
-void
+undefined
 reportForServiceWorkerScope
 (
 DOMString

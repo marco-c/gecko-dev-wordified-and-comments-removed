@@ -301,7 +301,7 @@ attributes
 [
 Throws
 ]
-void
+undefined
 initCommandEvent
 (
 DOMString

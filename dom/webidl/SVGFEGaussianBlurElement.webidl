@@ -173,7 +173,7 @@ attribute
 SVGAnimatedNumber
 stdDeviationY
 ;
-void
+undefined
 setStdDeviation
 (
 float

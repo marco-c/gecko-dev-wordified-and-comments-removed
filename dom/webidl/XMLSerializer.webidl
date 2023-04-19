@@ -276,7 +276,7 @@ used
 Throws
 ChromeOnly
 ]
-void
+undefined
 serializeToStream
 (
 Node

@@ -141,7 +141,7 @@ attribute
 AbortSignal
 signal
 ;
-void
+undefined
 abort
 (
 optional

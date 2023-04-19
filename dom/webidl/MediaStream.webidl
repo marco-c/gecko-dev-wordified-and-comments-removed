@@ -338,14 +338,14 @@ DOMString
 trackId
 )
 ;
-void
+undefined
 addTrack
 (
 MediaStreamTrack
 track
 )
 ;
-void
+undefined
 removeTrack
 (
 MediaStreamTrack
@@ -411,7 +411,7 @@ content
 [
 ChromeOnly
 ]
-void
+undefined
 assignId
 (
 DOMString

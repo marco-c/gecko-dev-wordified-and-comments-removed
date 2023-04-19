@@ -183,7 +183,7 @@ options
 }
 )
 ;
-void
+undefined
 terminate
 (
 )
@@ -191,7 +191,7 @@ terminate
 [
 Throws
 ]
-void
+undefined
 postMessage
 (
 any
@@ -206,7 +206,7 @@ transfer
 [
 Throws
 ]
-void
+undefined
 postMessage
 (
 any

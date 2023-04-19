@@ -121,7 +121,7 @@ attribute
 float
 height
 ;
-void
+undefined
 initScrollAreaEvent
 (
 DOMString

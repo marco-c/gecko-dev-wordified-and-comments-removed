@@ -322,7 +322,7 @@ orientation
 .
 *
 /
-void
+undefined
 mozUnlockOrientation
 (
 )

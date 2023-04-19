@@ -21,13 +21,13 @@ interface
 TestOverloads
 {
           
-void
+undefined
 basic
 (
 )
 ;
           
-void
+undefined
 basic
 (
 long
@@ -51,7 +51,7 @@ foo
 )
 ;
           
-void
+undefined
 abitharder
 (
 ArrayBuffer
@@ -60,7 +60,7 @@ foo
 )
 ;
           
-void
+undefined
 withVariadics
 (
 long
@@ -71,7 +71,7 @@ numbers
 )
 ;
           
-void
+undefined
 withVariadics
 (
 TestOverloads
@@ -79,7 +79,7 @@ iface
 )
 ;
           
-void
+undefined
 withVariadics
 (
 long
@@ -89,13 +89,13 @@ iface
 )
 ;
           
-void
+undefined
 optionalTest
 (
 )
 ;
           
-void
+undefined
 optionalTest
 (
 optional
@@ -377,12 +377,12 @@ str
 retval
 )
 "
-Void
+Undefined
 "
 "
 Expect
-a
-void
+an
+undefined
 retval
 "
 )
@@ -424,12 +424,12 @@ str
 retval
 )
 "
-Void
+Undefined
 "
 "
 Expect
-a
-void
+an
+undefined
 retval
 "
 )

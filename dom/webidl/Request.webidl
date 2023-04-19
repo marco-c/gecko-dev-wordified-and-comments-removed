@@ -294,7 +294,7 @@ context
 [
 ChromeOnly
 ]
-void
+undefined
 overrideContentPolicyType
 (
 nsContentPolicyType

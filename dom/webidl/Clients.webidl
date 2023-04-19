@@ -192,7 +192,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 claim
 (

@@ -156,7 +156,7 @@ numberOfItems
 [
 Throws
 ]
-void
+undefined
 clear
 (
 )

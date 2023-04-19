@@ -154,7 +154,7 @@ callback
 interface
 EventListener
 {
-void
+undefined
 handleEvent
 (
 Event

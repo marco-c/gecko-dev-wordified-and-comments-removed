@@ -233,7 +233,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 preventSilentAccess
 (

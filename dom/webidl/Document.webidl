@@ -862,7 +862,7 @@ append
 yet
 /
 /
-void
+undefined
 prepend
 (
 (
@@ -878,7 +878,7 @@ nodes
 ;
 /
 /
-void
+undefined
 append
 (
 (
@@ -1195,7 +1195,7 @@ features
 CEReactions
 Throws
 ]
-void
+undefined
 close
 (
 )
@@ -1204,7 +1204,7 @@ close
 CEReactions
 Throws
 ]
-void
+undefined
 write
 (
 DOMString
@@ -1218,7 +1218,7 @@ text
 CEReactions
 Throws
 ]
-void
+undefined
 writeln
 (
 DOMString
@@ -1517,7 +1517,7 @@ mouse_capture
 enabled
 "
 ]
-void
+undefined
 releaseCapture
 (
 )
@@ -1859,7 +1859,7 @@ mozSetImageElement
 [
 UseCounter
 ]
-void
+undefined
 mozSetImageElement
 (
 DOMString
@@ -2044,7 +2044,7 @@ attribute
 HTMLCollection
 applets
 ;
-void
+undefined
 clear
 (
 )
@@ -2081,12 +2081,12 @@ need
 these
 anymore
 ?
-void
+undefined
 captureEvents
 (
 )
 ;
-void
+undefined
 releaseEvents
 (
 )
@@ -2196,7 +2196,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 exitFullscreen
 (
@@ -2212,7 +2212,7 @@ exitFullscreen
 ]
 Promise
 <
-void
+undefined
 >
 mozCancelFullScreen
 (
@@ -2284,7 +2284,7 @@ partial
 interface
 Document
 {
-void
+undefined
 exitPointerLock
 (
 )
@@ -2350,7 +2350,7 @@ Document
 CallerIsTrustedAboutHttpsOnlyError
 "
 ]
-void
+undefined
 reloadWithHttpsOnlyException
 (
 )
@@ -2502,7 +2502,7 @@ attribute
 DOMStringList
 styleSheetSets
 ;
-void
+undefined
 enableStyleSheetsForSet
 (
 DOMString
@@ -3268,7 +3268,7 @@ BinaryName
 blockUnblockOnloadForPDFJS
 "
 ]
-void
+undefined
 blockUnblockOnload
 (
 boolean
@@ -3364,7 +3364,7 @@ readonly
 attribute
 Promise
 <
-void
+undefined
 >
 documentReadyForIdle
 ;
@@ -3746,7 +3746,7 @@ instance
 ChromeOnly
 Throws
 ]
-void
+undefined
 removeAnonymousContent
 (
 AnonymousContent
@@ -3849,7 +3849,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 requestStorageAccess
 (
@@ -3890,7 +3890,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 requestStorageAccessUnderSite
 (
@@ -3914,7 +3914,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 completeStorageAccessRequestFromSite
 (
@@ -3976,7 +3976,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 requestStorageAccessForOrigin
 (
@@ -4138,7 +4138,7 @@ Document
 [
 ChromeOnly
 ]
-void
+undefined
 notifyUserGestureActivation
 (
 )
@@ -4152,7 +4152,7 @@ only
 [
 ChromeOnly
 ]
-void
+undefined
 clearUserGestureActivation
 (
 )
@@ -4237,7 +4237,7 @@ Document
 [
 ChromeOnly
 ]
-void
+undefined
 setSuppressedEventListener
 (
 EventListener
@@ -4601,7 +4601,7 @@ KEYPRESS_EVENT_MODEL_CONFLATED
 [
 ChromeOnly
 ]
-void
+undefined
 setKeyPressEventModel
 (
 unsigned
@@ -4752,7 +4752,7 @@ BinaryName
 setUserHasInteracted
 "
 ]
-void
+undefined
 userInteractionForTesting
 (
 )
@@ -4822,7 +4822,7 @@ successfully
 [
 ChromeOnly
 ]
-void
+undefined
 setNotifyFetchSuccess
 (
 boolean
@@ -4858,7 +4858,7 @@ tree
 [
 ChromeOnly
 ]
-void
+undefined
 setNotifyFormOrPasswordRemoved
 (
 boolean

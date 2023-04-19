@@ -183,7 +183,7 @@ getDictionaryAttr
 (
 )
 ;
-void
+undefined
 setDictionaryAttr
 (
 optional
@@ -362,7 +362,7 @@ overloading
 and
 union
 behavior
-void
+undefined
 testSequenceOverload
 (
 sequence
@@ -372,14 +372,14 @@ DOMString
 arg
 )
 ;
-void
+undefined
 testSequenceOverload
 (
 DOMString
 arg
 )
 ;
-void
+undefined
 testSequenceUnion
 (
 (
@@ -404,7 +404,7 @@ behavior
 [
 Throws
 ]
-void
+undefined
 testThrowError
 (
 )
@@ -412,7 +412,7 @@ testThrowError
 [
 Throws
 ]
-void
+undefined
 testThrowDOMException
 (
 )
@@ -420,7 +420,7 @@ testThrowDOMException
 [
 Throws
 ]
-void
+undefined
 testThrowTypeError
 (
 )
@@ -428,7 +428,7 @@ testThrowTypeError
 [
 Throws
 ]
-void
+undefined
 testThrowCallbackError
 (
 Function
@@ -438,7 +438,7 @@ callback
 [
 Throws
 ]
-void
+undefined
 testThrowXraySelfHosted
 (
 )
@@ -446,7 +446,7 @@ testThrowXraySelfHosted
 [
 Throws
 ]
-void
+undefined
 testThrowSelfHosted
 (
 )
@@ -461,7 +461,7 @@ rejection
 behavior
 Promise
 <
-void
+undefined
 >
 testPromiseWithThrowingChromePromiseInit
 (
@@ -469,7 +469,7 @@ testPromiseWithThrowingChromePromiseInit
 ;
 Promise
 <
-void
+undefined
 >
 testPromiseWithThrowingContentPromiseInit
 (
@@ -479,7 +479,7 @@ func
 ;
 Promise
 <
-void
+undefined
 >
 testPromiseWithDOMExceptionThrowingPromiseInit
 (
@@ -487,7 +487,7 @@ testPromiseWithDOMExceptionThrowingPromiseInit
 ;
 Promise
 <
-void
+undefined
 >
 testPromiseWithThrowingChromeThenFunction
 (
@@ -495,7 +495,7 @@ testPromiseWithThrowingChromeThenFunction
 ;
 Promise
 <
-void
+undefined
 >
 testPromiseWithThrowingContentThenFunction
 (
@@ -505,7 +505,7 @@ func
 ;
 Promise
 <
-void
+undefined
 >
 testPromiseWithDOMExceptionThrowingThenFunction
 (
@@ -513,7 +513,7 @@ testPromiseWithDOMExceptionThrowingThenFunction
 ;
 Promise
 <
-void
+undefined
 >
 testPromiseWithThrowingChromeThenable
 (
@@ -521,7 +521,7 @@ testPromiseWithThrowingChromeThenable
 ;
 Promise
 <
-void
+undefined
 >
 testPromiseWithThrowingContentThenable
 (
@@ -531,7 +531,7 @@ thenable
 ;
 Promise
 <
-void
+undefined
 >
 testPromiseWithDOMExceptionThrowingThenable
 (

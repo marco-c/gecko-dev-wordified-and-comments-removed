@@ -304,12 +304,12 @@ attribute
 EventHandler
 onstart
 ;
-void
+undefined
 start
 (
 )
 ;
-void
+undefined
 stop
 (
 )

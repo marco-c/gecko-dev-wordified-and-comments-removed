@@ -214,7 +214,7 @@ previousNode
 (
 )
 ;
-void
+undefined
 detach
 (
 )

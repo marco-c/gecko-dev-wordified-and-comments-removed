@@ -146,7 +146,7 @@ index
 [
 Throws
 ]
-void
+undefined
 deleteMedium
 (
 UTF8String
@@ -156,7 +156,7 @@ oldMedium
 [
 Throws
 ]
-void
+undefined
 appendMedium
 (
 UTF8String

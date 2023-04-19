@@ -333,7 +333,7 @@ pref
 .
 *
 /
-void
+undefined
 setRecordingEnabled
 (
 boolean
@@ -422,7 +422,7 @@ available
 .
 *
 /
-void
+undefined
 flushActiveReports
 (
 )

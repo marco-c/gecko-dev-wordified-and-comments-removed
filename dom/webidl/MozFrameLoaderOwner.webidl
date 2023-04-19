@@ -278,7 +278,7 @@ browsingContext
 ChromeOnly
 Throws
 ]
-void
+undefined
 swapFrameLoaders
 (
 XULFrameElement
@@ -289,7 +289,7 @@ aOtherLoaderOwner
 ChromeOnly
 Throws
 ]
-void
+undefined
 swapFrameLoaders
 (
 HTMLIFrameElement
@@ -300,7 +300,7 @@ aOtherLoaderOwner
 ChromeOnly
 Throws
 ]
-void
+undefined
 changeRemoteness
 (
 RemotenessOptions

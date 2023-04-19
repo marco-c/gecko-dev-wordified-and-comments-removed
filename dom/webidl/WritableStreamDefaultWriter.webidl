@@ -153,7 +153,7 @@ readonly
 attribute
 Promise
 <
-void
+undefined
 >
 closed
 ;
@@ -171,7 +171,7 @@ readonly
 attribute
 Promise
 <
-void
+undefined
 >
 ready
 ;
@@ -180,7 +180,7 @@ Throws
 ]
 Promise
 <
-void
+undefined
 >
 abort
 (
@@ -194,7 +194,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 close
 (
@@ -203,7 +203,7 @@ close
 [
 Throws
 ]
-void
+undefined
 releaseLock
 (
 )
@@ -213,7 +213,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 write
 (

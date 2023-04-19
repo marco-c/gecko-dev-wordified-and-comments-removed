@@ -247,7 +247,7 @@ hash
 Throws
 NeedsSubjectPrincipal
 ]
-void
+undefined
 assign
 (
 USVString
@@ -259,7 +259,7 @@ Throws
 CrossOriginCallable
 NeedsSubjectPrincipal
 ]
-void
+undefined
 replace
 (
 USVString
@@ -286,7 +286,7 @@ bug
 Throws
 NeedsSubjectPrincipal
 ]
-void
+undefined
 reload
 (
 optional

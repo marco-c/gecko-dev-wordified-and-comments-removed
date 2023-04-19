@@ -240,7 +240,7 @@ Affects
 =
 Nothing
 ]
-void
+undefined
 unsuspendRedraw
 (
 unsigned
@@ -256,7 +256,7 @@ Affects
 =
 Nothing
 ]
-void
+undefined
 unsuspendRedrawAll
 (
 )
@@ -269,17 +269,17 @@ Affects
 =
 Nothing
 ]
-void
+undefined
 forceRedraw
 (
 )
 ;
-void
+undefined
 pauseAnimations
 (
 )
 ;
-void
+undefined
 unpauseAnimations
 (
 )
@@ -301,7 +301,7 @@ getCurrentTime
 (
 )
 ;
-void
+undefined
 setCurrentTime
 (
 float
@@ -352,7 +352,7 @@ SVGRect
 rect
 )
 ;
-void
+undefined
 deselectAll
 (
 )

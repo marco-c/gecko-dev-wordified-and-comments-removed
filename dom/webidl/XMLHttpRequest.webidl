@@ -407,7 +407,7 @@ request
 [
 Throws
 ]
-void
+undefined
 open
 (
 ByteString
@@ -419,7 +419,7 @@ url
 [
 Throws
 ]
-void
+undefined
 open
 (
 ByteString
@@ -445,7 +445,7 @@ null
 [
 Throws
 ]
-void
+undefined
 setRequestHeader
 (
 ByteString
@@ -480,7 +480,7 @@ upload
 [
 Throws
 ]
-void
+undefined
 send
 (
 optional
@@ -498,7 +498,7 @@ null
 [
 Throws
 ]
-void
+undefined
 abort
 (
 )
@@ -550,7 +550,7 @@ getAllResponseHeaders
 [
 Throws
 ]
-void
+undefined
 overrideMimeType
 (
 DOMString
@@ -641,7 +641,7 @@ Exposed
 =
 Window
 ]
-void
+undefined
 setOriginAttributes
 (
 optional
@@ -656,7 +656,7 @@ originAttributes
 ChromeOnly
 Throws
 ]
-void
+undefined
 sendInputStream
 (
 InputStream

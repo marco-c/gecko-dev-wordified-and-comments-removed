@@ -176,7 +176,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 write
 (
@@ -189,7 +189,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 seek
 (
@@ -204,7 +204,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 truncate
 (

@@ -165,7 +165,7 @@ methods
 [
 Throws
 ]
-void
+undefined
 readAsArrayBuffer
 (
 Blob
@@ -175,7 +175,7 @@ blob
 [
 Throws
 ]
-void
+undefined
 readAsBinaryString
 (
 Blob
@@ -185,7 +185,7 @@ filedata
 [
 Throws
 ]
-void
+undefined
 readAsText
 (
 Blob
@@ -198,14 +198,14 @@ label
 [
 Throws
 ]
-void
+undefined
 readAsDataURL
 (
 Blob
 blob
 )
 ;
-void
+undefined
 abort
 (
 )

@@ -234,7 +234,7 @@ partial
 interface
 CompositionEvent
 {
-void
+undefined
 initCompositionEvent
 (
 DOMString

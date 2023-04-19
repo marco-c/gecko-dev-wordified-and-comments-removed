@@ -609,7 +609,7 @@ IndexedDeleter
 {
               
 deleter
-void
+undefined
 (
 unsigned
 long

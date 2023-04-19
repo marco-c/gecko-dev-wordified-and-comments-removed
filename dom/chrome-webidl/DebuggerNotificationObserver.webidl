@@ -94,7 +94,7 @@ MPL
 callback
 DebuggerNotificationCallback
 =
-void
+undefined
 (
 DebuggerNotification
 n

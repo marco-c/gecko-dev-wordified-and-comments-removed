@@ -21,20 +21,20 @@ interface
 TestMethods
 {
           
-void
+undefined
 basic
 (
 )
 ;
           
 static
-void
+undefined
 basicStatic
 (
 )
 ;
           
-void
+undefined
 basicWithSimpleArgs
 (
 boolean
@@ -73,7 +73,7 @@ arg3
 )
 ;
           
-void
+undefined
 optionalArg
 (
 optional
@@ -89,7 +89,7 @@ arg2
 )
 ;
           
-void
+undefined
 variadicArg
 (
 byte
@@ -107,7 +107,7 @@ getObject
 )
 ;
           
-void
+undefined
 setObject
 (
 object
@@ -115,7 +115,7 @@ arg1
 )
 ;
           
-void
+undefined
 setAny
 (
 any
@@ -843,7 +843,7 @@ basic
 [
 (
 "
-Void
+Undefined
 "
 [
 ]
@@ -875,7 +875,7 @@ basicStatic
 [
 (
 "
-Void
+Undefined
 "
 [
 ]
@@ -914,7 +914,7 @@ basicWithSimpleArgs
 (
                 
 "
-Void
+Undefined
 "
                 
 [
@@ -1227,7 +1227,7 @@ optionalArg
 (
                 
 "
-Void
+Undefined
 "
                 
 [
@@ -1322,7 +1322,7 @@ variadicArg
 (
                 
 "
-Void
+Undefined
 "
                 
 [
@@ -1417,7 +1417,7 @@ setObject
 (
                 
 "
-Void
+Undefined
 "
                 
 [
@@ -1474,7 +1474,7 @@ setAny
 [
 (
 "
-Void
+Undefined
 "
 [
 (
@@ -1586,7 +1586,7 @@ interface
 A
 {
             
-void
+undefined
 foo
 (
 optional
@@ -1672,7 +1672,7 @@ A
 [
 GetterThrows
 ]
-void
+undefined
 foo
 (
 )
@@ -1753,7 +1753,7 @@ A
 [
 SetterThrows
 ]
-void
+undefined
 foo
 (
 )
@@ -1834,7 +1834,7 @@ A
 [
 Throw
 ]
-void
+undefined
 foo
 (
 )
@@ -1912,7 +1912,7 @@ interface
 A
 {
             
-void
+undefined
 __noSuchMethod__
 (
 )
@@ -1992,7 +1992,7 @@ Throws
 LenientFloat
 ]
             
-void
+undefined
 foo
 (
 float
@@ -2004,7 +2004,7 @@ myFloat
 Throws
 ]
             
-void
+undefined
 foo
 (
 )
@@ -2082,7 +2082,7 @@ A
 Throws
 ]
         
-void
+undefined
 foo
 (
 )
@@ -2093,7 +2093,7 @@ Throws
 LenientFloat
 ]
         
-void
+undefined
 foo
 (
 float
@@ -2202,7 +2202,7 @@ Throws
 LenientFloat
 ]
             
-void
+undefined
 foo
 (
 float
@@ -2214,7 +2214,7 @@ myFloat
 Throws
 ]
             
-void
+undefined
 foo
 (
 float
@@ -2304,7 +2304,7 @@ A
 Throws
 ]
             
-void
+undefined
 foo
 (
 float
@@ -2319,7 +2319,7 @@ Throws
 LenientFloat
 ]
             
-void
+undefined
 foo
 (
 float
@@ -2411,7 +2411,7 @@ Throws
 LenientFloat
 ]
             
-void
+undefined
 foo
 (
 float
@@ -2424,7 +2424,7 @@ Throws
 LenientFloat
 ]
             
-void
+undefined
 foo
 (
 short

@@ -146,7 +146,7 @@ OffscreenCanvasRenderingContext2D
 [
 Throws
 ]
-void
+undefined
 commit
 (
 )

@@ -209,7 +209,7 @@ state
 Throws
 NeedsSubjectPrincipal
 ]
-void
+undefined
 go
 (
 optional
@@ -223,7 +223,7 @@ delta
 Throws
 NeedsCallerType
 ]
-void
+undefined
 back
 (
 )
@@ -232,7 +232,7 @@ back
 Throws
 NeedsCallerType
 ]
-void
+undefined
 forward
 (
 )
@@ -241,7 +241,7 @@ forward
 Throws
 NeedsCallerType
 ]
-void
+undefined
 pushState
 (
 any
@@ -260,7 +260,7 @@ null
 Throws
 NeedsCallerType
 ]
-void
+undefined
 replaceState
 (
 any

@@ -198,7 +198,7 @@ getSimpleDuration
 [
 Throws
 ]
-void
+undefined
 beginElement
 (
 )
@@ -206,7 +206,7 @@ beginElement
 [
 Throws
 ]
-void
+undefined
 beginElementAt
 (
 float
@@ -216,7 +216,7 @@ offset
 [
 Throws
 ]
-void
+undefined
 endElement
 (
 )
@@ -224,7 +224,7 @@ endElement
 [
 Throws
 ]
-void
+undefined
 endElementAt
 (
 float

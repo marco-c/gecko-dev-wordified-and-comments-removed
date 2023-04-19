@@ -210,7 +210,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 skipWaiting
 (

@@ -234,7 +234,7 @@ crossOriginIsolated
 Throws
 NeedsCallerType
 ]
-void
+undefined
 reportError
 (
 any
@@ -335,7 +335,7 @@ any
 unused
 )
 ;
-void
+undefined
 clearTimeout
 (
 optional
@@ -385,7 +385,7 @@ any
 unused
 )
 ;
-void
+undefined
 clearInterval
 (
 optional
@@ -399,7 +399,7 @@ handle
 /
 microtask
 queuing
-void
+undefined
 queueMicrotask
 (
 VoidFunction

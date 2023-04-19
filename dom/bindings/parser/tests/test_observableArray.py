@@ -17,46 +17,6 @@ parser
 "
 "
         
-interface
-A
-{
-          
-attribute
-ObservableArray
-<
-void
->
-foo
-;
-        
-}
-;
-        
-"
-"
-"
-        
-"
-use
-void
-as
-inner
-type
-"
-    
-)
-    
-harness
-.
-should_throw
-(
-        
-parser
-        
-"
-"
-"
-        
 dictionary
 A
 {
@@ -394,7 +354,7 @@ interface
 A
 {
           
-void
+undefined
 foo
 (
 sequence
@@ -438,7 +398,7 @@ interface
 A
 {
           
-void
+undefined
 foo
 (
 record
@@ -607,7 +567,7 @@ interface
 A
 {
           
-void
+undefined
 foo
 (
 ObservableArray

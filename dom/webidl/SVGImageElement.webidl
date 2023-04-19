@@ -202,7 +202,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 decode
 (

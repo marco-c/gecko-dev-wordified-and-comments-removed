@@ -164,7 +164,7 @@ desiredSize
 [
 Throws
 ]
-void
+undefined
 close
 (
 )
@@ -172,7 +172,7 @@ close
 [
 Throws
 ]
-void
+undefined
 enqueue
 (
 ArrayBufferView
@@ -182,7 +182,7 @@ chunk
 [
 Throws
 ]
-void
+undefined
 error
 (
 optional

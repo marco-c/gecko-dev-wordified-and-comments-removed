@@ -241,7 +241,7 @@ BinaryName
 initKeyboardEventJS
 "
 ]
-void
+undefined
 initKeyboardEvent
 (
 DOMString

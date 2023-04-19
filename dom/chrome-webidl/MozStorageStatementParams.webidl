@@ -131,7 +131,7 @@ name
 Throws
 ]
 setter
-void
+undefined
 (
 unsigned
 long
@@ -144,7 +144,7 @@ arg
 Throws
 ]
 setter
-void
+undefined
 (
 DOMString
 name

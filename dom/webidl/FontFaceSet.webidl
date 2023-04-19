@@ -214,7 +214,7 @@ next
 callback
 FontFaceSetForEachCallback
 =
-void
+undefined
 (
 FontFace
 value
@@ -298,7 +298,7 @@ size
 [
 Throws
 ]
-void
+undefined
 add
 (
 FontFace
@@ -319,7 +319,7 @@ FontFace
 font
 )
 ;
-void
+undefined
 clear
 (
 )
@@ -358,7 +358,7 @@ values
 [
 Throws
 ]
-void
+undefined
 forEach
 (
 FontFaceSetForEachCallback
@@ -486,7 +486,7 @@ readonly
 attribute
 Promise
 <
-void
+undefined
 >
 ready
 ;

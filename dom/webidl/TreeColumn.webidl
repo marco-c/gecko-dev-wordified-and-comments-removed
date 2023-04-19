@@ -178,7 +178,7 @@ previousColumn
 [
 Throws
 ]
-void
+undefined
 invalidate
 (
 )

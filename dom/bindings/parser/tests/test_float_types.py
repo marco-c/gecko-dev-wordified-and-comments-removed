@@ -72,7 +72,7 @@ double
 ld
 ;
           
-void
+undefined
 m1
 (
 float
@@ -85,13 +85,13 @@ arg3
 double
 ?
 arg4
-                  
+                       
 myFloat
 arg5
 unrestricted
 float
 arg6
-                  
+                       
 unrestricted
 double
 arg7
@@ -99,7 +99,7 @@ unrestricted
 float
 ?
 arg8
-                  
+                       
 unrestricted
 double
 ?
@@ -113,7 +113,7 @@ arg10
 LenientFloat
 ]
           
-void
+undefined
 m2
 (
 float
@@ -126,13 +126,13 @@ arg3
 double
 ?
 arg4
-                  
+                       
 myFloat
 arg5
 unrestricted
 float
 arg6
-                  
+                       
 unrestricted
 double
 arg7
@@ -140,7 +140,7 @@ unrestricted
 float
 ?
 arg8
-                  
+                       
 unrestricted
 double
 ?
@@ -154,7 +154,7 @@ arg10
 LenientFloat
 ]
           
-void
+undefined
 m3
 (
 float
@@ -166,7 +166,7 @@ arg
 LenientFloat
 ]
           
-void
+undefined
 m4
 (
 double
@@ -178,7 +178,7 @@ arg
 LenientFloat
 ]
           
-void
+undefined
 m5
 (
 (
@@ -194,7 +194,7 @@ arg
 LenientFloat
 ]
           
-void
+undefined
 m6
 (
 sequence
@@ -666,8 +666,9 @@ LenientFloat
 only
 allowed
 on
-void
 methods
+returning
+undefined
 "
 )
     
@@ -703,7 +704,7 @@ FloatTypes
 LenientFloat
 ]
               
-void
+undefined
 m
 (
 unrestricted
@@ -785,7 +786,7 @@ FloatTypes
 LenientFloat
 ]
               
-void
+undefined
 m
 (
 sequence
@@ -873,7 +874,7 @@ FloatTypes
 LenientFloat
 ]
               
-void
+undefined
 m
 (
 (

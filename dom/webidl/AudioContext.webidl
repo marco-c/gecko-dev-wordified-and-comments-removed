@@ -212,7 +212,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 suspend
 (
@@ -223,7 +223,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 close
 (

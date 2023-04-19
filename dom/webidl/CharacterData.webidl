@@ -186,7 +186,7 @@ count
 [
 Throws
 ]
-void
+undefined
 appendData
 (
 DOMString
@@ -196,7 +196,7 @@ data
 [
 Throws
 ]
-void
+undefined
 insertData
 (
 unsigned
@@ -209,7 +209,7 @@ data
 [
 Throws
 ]
-void
+undefined
 deleteData
 (
 unsigned
@@ -223,7 +223,7 @@ count
 [
 Throws
 ]
-void
+undefined
 replaceData
 (
 unsigned

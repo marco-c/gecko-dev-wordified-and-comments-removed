@@ -247,7 +247,7 @@ cache
 Throws
 UseCounter
 ]
-void
+undefined
 update
 (
 )
@@ -284,7 +284,7 @@ obsolete
 Throws
 UseCounter
 ]
-void
+undefined
 swapCache
 (
 )
@@ -577,7 +577,7 @@ add
 [
 Throws
 ]
-void
+undefined
 mozAdd
 (
 DOMString
@@ -637,7 +637,7 @@ remove
 [
 Throws
 ]
-void
+undefined
 mozRemove
 (
 DOMString

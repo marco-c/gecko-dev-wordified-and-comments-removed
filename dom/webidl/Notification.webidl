@@ -394,7 +394,7 @@ attribute
 any
 data
 ;
-void
+undefined
 close
 (
 )
@@ -538,7 +538,7 @@ granted
 callback
 NotificationPermissionCallback
 =
-void
+undefined
 (
 NotificationPermission
 permission

@@ -332,7 +332,7 @@ Parent
 {
               
 static
-void
+undefined
 foo
 (
 )
@@ -449,7 +449,7 @@ Child
 Parent
 {
               
-void
+undefined
 foo
 (
 )
@@ -552,7 +552,7 @@ Child
 Parent
 {
               
-void
+undefined
 foo
 (
 )
@@ -568,7 +568,7 @@ Parent
 [
 LegacyUnforgeable
 ]
-void
+undefined
 foo
 (
 )
@@ -775,7 +775,7 @@ Parent
 [
 LegacyUnforgeable
 ]
-void
+undefined
 foo
 (
 )
@@ -970,7 +970,7 @@ Child
 Parent
 {
               
-void
+undefined
 foo
 (
 )
@@ -1131,7 +1131,7 @@ mixin
 ChildMixin
 {
               
-void
+undefined
 foo
 (
 )
@@ -1253,7 +1253,7 @@ Mixin
 [
 LegacyUnforgeable
 ]
-void
+undefined
 foo
 (
 )
@@ -1272,7 +1272,7 @@ mixin
 ChildMixin
 {
               
-void
+undefined
 foo
 (
 )

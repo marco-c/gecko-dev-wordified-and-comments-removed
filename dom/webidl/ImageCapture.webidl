@@ -231,7 +231,7 @@ Throws
 ]
 /
 /
-void
+undefined
 setOptions
 (
 PhotoSettings
@@ -242,7 +242,7 @@ photoSettings
 [
 Throws
 ]
-void
+undefined
 takePhoto
 (
 )
@@ -254,7 +254,7 @@ Throws
 ]
 /
 /
-void
+undefined
 getFrame
 (
 )

@@ -197,7 +197,7 @@ name
 [
 Throws
 ]
-void
+undefined
 postMessage
 (
 any
@@ -212,7 +212,7 @@ transfer
 [
 Throws
 ]
-void
+undefined
 postMessage
 (
 any
@@ -225,7 +225,7 @@ options
 }
 )
 ;
-void
+undefined
 close
 (
 )
@@ -318,7 +318,7 @@ requestAnimationFrame
 "
 Throws
 ]
-void
+undefined
 cancelAnimationFrame
 (
 long

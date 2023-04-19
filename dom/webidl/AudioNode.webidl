@@ -227,7 +227,7 @@ input
 [
 Throws
 ]
-void
+undefined
 connect
 (
 AudioParam
@@ -243,7 +243,7 @@ output
 [
 Throws
 ]
-void
+undefined
 disconnect
 (
 )
@@ -251,7 +251,7 @@ disconnect
 [
 Throws
 ]
-void
+undefined
 disconnect
 (
 unsigned
@@ -262,7 +262,7 @@ output
 [
 Throws
 ]
-void
+undefined
 disconnect
 (
 AudioNode
@@ -272,7 +272,7 @@ destination
 [
 Throws
 ]
-void
+undefined
 disconnect
 (
 AudioNode
@@ -285,7 +285,7 @@ output
 [
 Throws
 ]
-void
+undefined
 disconnect
 (
 AudioNode
@@ -301,7 +301,7 @@ input
 [
 Throws
 ]
-void
+undefined
 disconnect
 (
 AudioParam
@@ -311,7 +311,7 @@ destination
 [
 Throws
 ]
-void
+undefined
 disconnect
 (
 AudioParam

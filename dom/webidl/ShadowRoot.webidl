@@ -465,7 +465,7 @@ tests
 [
 ChromeOnly
 ]
-void
+undefined
 setIsUAWidget
 (
 )

@@ -286,7 +286,7 @@ uninstall
 ;
 Promise
 <
-void
+undefined
 >
 setEnabled
 (
@@ -387,7 +387,7 @@ maxProgress
 ;
 Promise
 <
-void
+undefined
 >
 install
 (
@@ -395,7 +395,7 @@ install
 ;
 Promise
 <
-void
+undefined
 >
 cancel
 (

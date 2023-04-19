@@ -77,7 +77,7 @@ interface
 Iface
 {
         
-void
+undefined
 method1
 (
 )
@@ -109,7 +109,7 @@ interface
 Iface
 {
         
-void
+undefined
 method2
 (
 )
@@ -556,7 +556,7 @@ interface
 Iface2
 {
         
-void
+undefined
 method3
 (
 )
@@ -852,7 +852,7 @@ interface
 Iface3
 {
         
-void
+undefined
 method4
 (
 )
@@ -875,7 +875,7 @@ mixin
 Mixin
 {
         
-void
+undefined
 method5
 (
 )
@@ -1315,7 +1315,7 @@ Exposed
 Foo
 ]
               
-void
+undefined
 operation
 (
 )
@@ -1518,7 +1518,7 @@ Exposed
 Bar
 ]
               
-void
+undefined
 method
 (
 )
@@ -1625,7 +1625,7 @@ interface
 Baz
 {
           
-void
+undefined
 method
 (
 )
@@ -1645,7 +1645,7 @@ mixin
 Mixin
 {
           
-void
+undefined
 otherMethod
 (
 )
@@ -1930,7 +1930,7 @@ interface
 Baz
 {
           
-void
+undefined
 methodWild
 (
 )
@@ -1950,7 +1950,7 @@ mixin
 Mixin
 {
           
-void
+undefined
 methodNotWild
 (
 )
@@ -2254,7 +2254,7 @@ Exposed
 *
 ]
               
-void
+undefined
 method
 (
 )
@@ -2371,7 +2371,7 @@ interface
 Baz
 {
               
-void
+undefined
 method
 (
 )

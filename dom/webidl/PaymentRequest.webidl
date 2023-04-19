@@ -502,7 +502,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 abort
 (

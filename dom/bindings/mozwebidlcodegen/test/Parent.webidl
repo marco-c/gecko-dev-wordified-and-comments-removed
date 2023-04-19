@@ -1,7 +1,7 @@
 interface
 Parent
 {
-void
+undefined
 MethodFoo
 (
 )

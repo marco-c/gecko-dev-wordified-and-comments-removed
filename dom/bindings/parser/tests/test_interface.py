@@ -903,7 +903,7 @@ boolean
 x
 ;
             
-void
+undefined
 foo
 (
 )
@@ -923,7 +923,7 @@ boolean
 y
 ;
             
-void
+undefined
 foo
 (
 long
@@ -1192,7 +1192,7 @@ boolean
 y
 ;
             
-void
+undefined
 foo
 (
 long
@@ -1225,7 +1225,7 @@ boolean
 x
 ;
             
-void
+undefined
 foo
 (
 )

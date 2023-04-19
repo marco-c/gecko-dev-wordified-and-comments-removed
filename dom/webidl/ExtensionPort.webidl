@@ -170,7 +170,7 @@ WebExtensionStub
 NoReturn
 "
 ]
-void
+undefined
 disconnect
 (
 )
@@ -183,7 +183,7 @@ WebExtensionStub
 NoReturn
 "
 ]
-void
+undefined
 postMessage
 (
 any

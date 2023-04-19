@@ -177,7 +177,7 @@ data
 Throws
 NeedsSubjectPrincipal
 ]
-void
+undefined
 remove
 (
 unsigned
@@ -189,7 +189,7 @@ index
 Throws
 NeedsSubjectPrincipal
 ]
-void
+undefined
 clear
 (
 )

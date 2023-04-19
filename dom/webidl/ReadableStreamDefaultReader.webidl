@@ -166,7 +166,7 @@ readonly
 attribute
 Promise
 <
-void
+undefined
 >
 closed
 ;
@@ -175,7 +175,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 cancel
 (
@@ -228,7 +228,7 @@ read
 [
 Throws
 ]
-void
+undefined
 releaseLock
 (
 )

@@ -227,7 +227,7 @@ channel
 [
 Throws
 ]
-void
+undefined
 copyFromChannel
 (
 Float32Array
@@ -246,7 +246,7 @@ startInChannel
 [
 Throws
 ]
-void
+undefined
 copyToChannel
 (
 Float32Array

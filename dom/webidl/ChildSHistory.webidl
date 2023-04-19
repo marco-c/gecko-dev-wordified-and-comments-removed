@@ -152,7 +152,7 @@ aOffset
 [
 Throws
 ]
-void
+undefined
 go
 (
 long
@@ -201,7 +201,7 @@ idl
 [
 Throws
 ]
-void
+undefined
 reload
 (
 unsigned

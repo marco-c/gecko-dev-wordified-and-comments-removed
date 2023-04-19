@@ -383,7 +383,7 @@ interface
 A
 {
               
-void
+undefined
 foo
 (
 Promise

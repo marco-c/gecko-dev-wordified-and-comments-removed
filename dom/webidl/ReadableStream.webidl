@@ -38,7 +38,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 cancel
 (
@@ -104,7 +104,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 pipeTo
 (

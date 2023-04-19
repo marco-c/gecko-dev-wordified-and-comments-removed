@@ -226,7 +226,7 @@ angle
 [
 Throws
 ]
-void
+undefined
 setMatrix
 (
 optional
@@ -240,7 +240,7 @@ matrix
 [
 Throws
 ]
-void
+undefined
 setTranslate
 (
 float
@@ -252,7 +252,7 @@ ty
 [
 Throws
 ]
-void
+undefined
 setScale
 (
 float
@@ -264,7 +264,7 @@ sy
 [
 Throws
 ]
-void
+undefined
 setRotate
 (
 float
@@ -278,7 +278,7 @@ cy
 [
 Throws
 ]
-void
+undefined
 setSkewX
 (
 float
@@ -288,7 +288,7 @@ angle
 [
 Throws
 ]
-void
+undefined
 setSkewY
 (
 float

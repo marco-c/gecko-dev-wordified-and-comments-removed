@@ -89,7 +89,7 @@ CEReactions
 Throws
 UseCounter
 ]
-void
+undefined
 define
 (
 DOMString
@@ -108,7 +108,7 @@ options
 ChromeOnly
 Throws
 ]
-void
+undefined
 setElementCreationCallback
 (
 DOMString
@@ -140,7 +140,7 @@ name
 [
 CEReactions
 ]
-void
+undefined
 upgrade
 (
 Node
@@ -171,7 +171,7 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 callback
 CustomElementCreationCallback
 =
-void
+undefined
 (
 DOMString
 name
@@ -183,7 +183,7 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 callback
 LifecycleConnectedCallback
 =
-void
+undefined
 (
 )
 ;
@@ -193,7 +193,7 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 callback
 LifecycleDisconnectedCallback
 =
-void
+undefined
 (
 )
 ;
@@ -203,7 +203,7 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 callback
 LifecycleAdoptedCallback
 =
-void
+undefined
 (
 Document
 ?
@@ -219,7 +219,7 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 callback
 LifecycleAttributeChangedCallback
 =
-void
+undefined
 (
 DOMString
 attrName
@@ -240,7 +240,7 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 callback
 LifecycleFormAssociatedCallback
 =
-void
+undefined
 (
 HTMLFormElement
 ?
@@ -253,7 +253,7 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 callback
 LifecycleFormResetCallback
 =
-void
+undefined
 (
 )
 ;
@@ -263,7 +263,7 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 callback
 LifecycleFormDisabledCallback
 =
-void
+undefined
 (
 boolean
 disabled

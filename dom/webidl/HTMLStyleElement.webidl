@@ -269,7 +269,7 @@ element
 [
 ChromeOnly
 ]
-void
+undefined
 setDevtoolsAsTriggeringPrincipal
 (
 )

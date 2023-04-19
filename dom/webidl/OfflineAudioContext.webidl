@@ -221,7 +221,7 @@ TODO
 :
 Promise
 <
-void
+undefined
 >
 suspend
 (

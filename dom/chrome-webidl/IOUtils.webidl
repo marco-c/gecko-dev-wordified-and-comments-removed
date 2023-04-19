@@ -1064,7 +1064,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 move
 (
@@ -1140,7 +1140,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 remove
 (
@@ -1210,7 +1210,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 makeDirectory
 (
@@ -1378,7 +1378,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 copy
 (
@@ -1776,7 +1776,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 setPermissions
 (
@@ -2234,7 +2234,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 setWindowsAttributes
 (
@@ -2470,7 +2470,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 setMacXAttr
 (
@@ -2536,7 +2536,7 @@ NewObject
 ]
 Promise
 <
-void
+undefined
 >
 delMacXAttr
 (
@@ -3045,7 +3045,7 @@ length
 [
 Throws
 ]
-void
+undefined
 readBytesInto
 (
 Uint8Array
@@ -3092,7 +3092,7 @@ ed
 .
 *
 /
-void
+undefined
 close
 (
 )

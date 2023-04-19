@@ -144,7 +144,7 @@ NeedsCallerType
 ]
 Promise
 <
-void
+undefined
 >
 addModule
 (

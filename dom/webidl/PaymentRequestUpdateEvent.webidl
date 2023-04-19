@@ -183,7 +183,7 @@ eventInitDict
 [
 Throws
 ]
-void
+undefined
 updateWith
 (
 Promise

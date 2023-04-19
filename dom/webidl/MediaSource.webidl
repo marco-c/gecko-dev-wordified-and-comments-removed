@@ -256,7 +256,7 @@ type
 [
 Throws
 ]
-void
+undefined
 removeSourceBuffer
 (
 SourceBuffer
@@ -266,7 +266,7 @@ sourceBuffer
 [
 Throws
 ]
-void
+undefined
 endOfStream
 (
 optional
@@ -277,7 +277,7 @@ error
 [
 Throws
 ]
-void
+undefined
 setLiveSeekableRange
 (
 double
@@ -289,7 +289,7 @@ end
 [
 Throws
 ]
-void
+undefined
 clearLiveSeekableRange
 (
 )

@@ -195,7 +195,7 @@ request
 [
 Throws
 ]
-void
+undefined
 advance
 (
 [
@@ -209,7 +209,7 @@ count
 [
 Throws
 ]
-void
+undefined
 continue
 (
 optional
@@ -220,7 +220,7 @@ key
 [
 Throws
 ]
-void
+undefined
 continuePrimaryKey
 (
 any

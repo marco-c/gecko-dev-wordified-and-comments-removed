@@ -94,7 +94,7 @@ SpecialMethodSignatureMismatch2
 {
               
 getter
-void
+undefined
 foo
 (
 unsigned

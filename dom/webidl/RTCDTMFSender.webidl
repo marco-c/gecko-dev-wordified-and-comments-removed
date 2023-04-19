@@ -130,7 +130,7 @@ EventTarget
 [
 Throws
 ]
-void
+undefined
 insertDTMF
 (
 DOMString

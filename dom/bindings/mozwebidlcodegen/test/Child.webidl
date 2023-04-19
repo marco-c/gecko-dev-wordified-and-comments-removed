@@ -3,7 +3,7 @@ Child
 :
 Parent
 {
-void
+undefined
 ChildBaz
 (
 )

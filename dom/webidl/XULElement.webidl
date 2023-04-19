@@ -253,12 +253,12 @@ controllers
 [
 NeedsCallerType
 ]
-void
+undefined
 click
 (
 )
 ;
-void
+undefined
 doCommand
 (
 )
@@ -314,7 +314,7 @@ the
 argument
 passed
 .
-void
+undefined
 openMenu
 (
 boolean

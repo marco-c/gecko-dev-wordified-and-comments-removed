@@ -166,7 +166,7 @@ a
 cartesian
 coordinate
 system
-void
+undefined
 setPosition
 (
 double
@@ -177,7 +177,7 @@ double
 z
 )
 ;
-void
+undefined
 setOrientation
 (
 double

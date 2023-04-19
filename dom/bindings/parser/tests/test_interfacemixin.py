@@ -326,7 +326,7 @@ boolean
 x
 ;
             
-void
+undefined
 foo
 (
 )
@@ -347,7 +347,7 @@ boolean
 y
 ;
             
-void
+undefined
 foo
 (
 long
@@ -593,7 +593,7 @@ boolean
 y
 ;
             
-void
+undefined
 foo
 (
 long
@@ -615,7 +615,7 @@ boolean
 x
 ;
             
-void
+undefined
 foo
 (
 )
@@ -1616,7 +1616,7 @@ A
 {
                 
 setter
-void
+undefined
 (
 DOMString
 propertyName
@@ -1695,7 +1695,7 @@ A
 {
                 
 deleter
-void
+undefined
 (
 DOMString
 propertyName

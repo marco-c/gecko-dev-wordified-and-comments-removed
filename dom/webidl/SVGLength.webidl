@@ -259,7 +259,7 @@ valueAsString
 [
 Throws
 ]
-void
+undefined
 newValueSpecifiedUnits
 (
 unsigned
@@ -272,7 +272,7 @@ valueInSpecifiedUnits
 [
 Throws
 ]
-void
+undefined
 convertToSpecifiedUnits
 (
 unsigned

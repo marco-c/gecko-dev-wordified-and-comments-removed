@@ -118,7 +118,7 @@ attribute
 long
 axis
 ;
-void
+undefined
 initMouseScrollEvent
 (
 DOMString

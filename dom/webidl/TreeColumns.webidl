@@ -265,7 +265,7 @@ rebuilt
 .
 *
 /
-void
+undefined
 invalidateColumns
 (
 )

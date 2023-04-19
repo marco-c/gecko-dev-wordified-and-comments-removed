@@ -168,7 +168,7 @@ attribute
 EventHandler
 onclose
 ;
-void
+undefined
 close
 (
 )
@@ -188,7 +188,7 @@ binaryType
 [
 Throws
 ]
-void
+undefined
 send
 (
 DOMString
@@ -198,7 +198,7 @@ data
 [
 Throws
 ]
-void
+undefined
 send
 (
 Blob
@@ -208,7 +208,7 @@ data
 [
 Throws
 ]
-void
+undefined
 send
 (
 ArrayBuffer
@@ -218,7 +218,7 @@ data
 [
 Throws
 ]
-void
+undefined
 send
 (
 ArrayBufferView

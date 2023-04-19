@@ -166,7 +166,7 @@ stop
 callback
 MediaSessionActionHandler
 =
-void
+undefined
 (
 MediaSessionActionDetails
 details
@@ -200,7 +200,7 @@ attribute
 MediaSessionPlaybackState
 playbackState
 ;
-void
+undefined
 setActionHandler
 (
 MediaSessionAction
@@ -213,7 +213,7 @@ handler
 [
 Throws
 ]
-void
+undefined
 setPositionState
 (
 optional
@@ -243,7 +243,7 @@ now
 [
 ChromeOnly
 ]
-void
+undefined
 notifyHandler
 (
 MediaSessionActionDetails

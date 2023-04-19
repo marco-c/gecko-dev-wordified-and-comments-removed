@@ -109,7 +109,7 @@ constructor
 [
 Throws
 ]
-void
+undefined
 append
 (
 Node
@@ -119,7 +119,7 @@ aNode
 [
 Throws
 ]
-void
+undefined
 remove
 (
 Node

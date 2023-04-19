@@ -241,7 +241,7 @@ content
 [
 Throws
 ]
-void
+undefined
 setTextContentForElement
 (
 DOMString
@@ -313,7 +313,7 @@ NeedsSubjectPrincipal
 NonSystem
 Throws
 ]
-void
+undefined
 setAttributeForElement
 (
 DOMString
@@ -345,7 +345,7 @@ content
 [
 Throws
 ]
-void
+undefined
 removeAttributeForElement
 (
 DOMString
@@ -480,7 +480,7 @@ called
 [
 Throws
 ]
-void
+undefined
 setCutoutRectsForElement
 (
 DOMString
@@ -580,7 +580,7 @@ AnonymousContent
 [
 Throws
 ]
-void
+undefined
 setStyle
 (
 UTF8String
