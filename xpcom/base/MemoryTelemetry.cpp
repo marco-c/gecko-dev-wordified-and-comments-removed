@@ -996,9 +996,6 @@ GhostWindows
 UNITS_COUNT
 )
 ;
-#
-ifndef
-XP_MACOSX
 if
 (
 XRE_IsParentProcess
@@ -1015,8 +1012,6 @@ GatherTotalMemory
 )
 ;
 }
-#
-endif
 if
 (
 !
