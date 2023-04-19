@@ -44,6 +44,14 @@ body
 =
 body
 ;
+requestInit
+.
+duplex
+=
+"
+half
+"
+;
 }
 const
 resp
