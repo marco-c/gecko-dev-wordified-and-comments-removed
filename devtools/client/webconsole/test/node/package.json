@@ -156,6 +156,11 @@ test
 "
 :
 "
+TZ
+=
+Europe
+/
+Prague
 mocha
 \
 "
@@ -211,6 +216,11 @@ ci
 "
 :
 "
+TZ
+=
+Europe
+/
+Prague
 mocha
 \
 "
