@@ -863,6 +863,9 @@ projects
 :
 [
 ]
+tier
+:
+3
 merge
 :
 mozharness
