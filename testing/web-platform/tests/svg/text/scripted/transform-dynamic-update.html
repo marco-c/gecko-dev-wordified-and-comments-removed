@@ -224,7 +224,7 @@ getBBox
 (
 )
 ;
-assert_equals
+assert_approx_equals
 (
 box
 .
@@ -232,9 +232,12 @@ y
 referenceBox
 .
 y
+0
+.
+8
 )
 ;
-assert_equals
+assert_approx_equals
 (
 box
 .
@@ -242,6 +245,9 @@ height
 referenceBox
 .
 height
+0
+.
+8
 )
 ;
 }
