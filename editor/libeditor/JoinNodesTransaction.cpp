@@ -820,6 +820,9 @@ DoJoinNodes
 (
 keepingContent
 removingContent
+GetJoinNodesDirection
+(
+)
 )
 ;
 NS_WARNING_ASSERTION

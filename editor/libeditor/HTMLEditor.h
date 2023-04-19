@@ -2373,6 +2373,8 @@ aContentToKeep
 nsIContent
 &
 aContentToRemove
+JoinNodesDirection
+aDirection
 )
 ;
 bool
