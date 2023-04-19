@@ -1231,6 +1231,10 @@ title
 resolved_url
 :
 "
+https
+:
+/
+/
 resolved_url
 "
 domain
