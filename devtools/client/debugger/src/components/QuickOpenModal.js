@@ -660,16 +660,6 @@ projectDirectoryRoot
 =
 >
 {
-displayedSources
-=
-displayedSources
-.
-slice
-(
-0
-maxResults
-)
-;
 return
 displayedSources
 .
