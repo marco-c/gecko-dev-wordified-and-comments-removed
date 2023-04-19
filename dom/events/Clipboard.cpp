@@ -1167,8 +1167,8 @@ ReadHelper
 nsIPrincipal
 &
 aSubjectPrincipal
-ClipboardReadType
-aClipboardReadType
+ReadRequestType
+aType
 ErrorResult
 &
 aRv
@@ -1209,10 +1209,13 @@ nullptr
 }
 switch
 (
-aClipboardReadType
+aType
 )
 {
 case
+ReadRequestType
+:
+:
 eReadText
 :
 {
@@ -1257,6 +1260,9 @@ break
 ;
 }
 case
+ReadRequestType
+:
+:
 eRead
 :
 {
@@ -1940,6 +1946,9 @@ return
 ReadHelper
 (
 aSubjectPrincipal
+ReadRequestType
+:
+:
 eRead
 aRv
 )
@@ -1966,6 +1975,9 @@ return
 ReadHelper
 (
 aSubjectPrincipal
+ReadRequestType
+:
+:
 eReadText
 aRv
 )
