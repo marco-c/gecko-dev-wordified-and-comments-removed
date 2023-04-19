@@ -1792,6 +1792,16 @@ perfdocs
 writing
 .
 rst
+-
+tools
+/
+lint
+/
+test
+/
+test_clang_format
+.
+py
 extensions
 :
 -
