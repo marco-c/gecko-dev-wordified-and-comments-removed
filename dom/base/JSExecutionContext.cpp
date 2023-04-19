@@ -529,7 +529,7 @@ stencil
 JS
 :
 :
-FinishCompileToStencilOffThread
+FinishOffThreadStencil
 (
 mCx
 *
@@ -1252,7 +1252,7 @@ stencil
 JS
 :
 :
-FinishDecodeStencilOffThread
+FinishOffThreadStencil
 (
 mCx
 *

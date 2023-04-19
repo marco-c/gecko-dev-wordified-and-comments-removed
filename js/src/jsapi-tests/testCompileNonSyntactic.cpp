@@ -633,7 +633,7 @@ CHECK
 (
 stencil
 =
-FinishCompileToStencilOffThread
+FinishOffThreadStencil
 (
 cx
 token

@@ -9579,7 +9579,7 @@ stencil
 JS
 :
 :
-FinishCompileToStencilOffThread
+FinishOffThreadStencil
 (
 cx
 mToken
