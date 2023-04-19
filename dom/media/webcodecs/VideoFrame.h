@@ -343,14 +343,14 @@ Constructor
 const
 GlobalObject
 &
-global
+aGlobal
 SVGImageElement
 &
-svgImageElement
+aSVGImageElement
 const
 VideoFrameInit
 &
-init
+aInit
 ErrorResult
 &
 aRv
