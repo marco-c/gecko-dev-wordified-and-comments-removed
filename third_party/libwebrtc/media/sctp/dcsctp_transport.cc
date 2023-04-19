@@ -2369,6 +2369,14 @@ DcSctpTransport
 :
 CreateTimeout
 (
+webrtc
+:
+:
+TaskQueueBase
+:
+:
+DelayPrecision
+precision
 )
 {
 return
@@ -2376,6 +2384,7 @@ task_queue_timeout_factory_
 .
 CreateTimeout
 (
+precision
 )
 ;
 }

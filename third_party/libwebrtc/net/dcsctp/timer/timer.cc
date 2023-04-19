@@ -748,6 +748,9 @@ timeout
 =
 create_timeout_
 (
+options
+.
+precision
 )
 ;
 RTC_CHECK
