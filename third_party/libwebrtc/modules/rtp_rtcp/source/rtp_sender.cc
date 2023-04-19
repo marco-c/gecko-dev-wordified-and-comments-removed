@@ -565,6 +565,9 @@ case
 kRtpExtensionVideoContentType
 :
 case
+kRtpExtensionVideoLayersAllocation
+:
+case
 kRtpExtensionVideoTiming
 :
 case
