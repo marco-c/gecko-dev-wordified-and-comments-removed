@@ -943,6 +943,18 @@ ids_to_probes
 probe_type
 =
 probe_type
+            
+id_bits
+=
+js
+.
+ID_BITS
+            
+id_signal_bits
+=
+js
+.
+ID_SIGNAL_BITS
         
 )
     

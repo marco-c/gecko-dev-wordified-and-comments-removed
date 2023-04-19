@@ -198,8 +198,11 @@ expr
 {
 if
 id
->
-=
+&
+(
+1
+<
+<
 crate
 :
 :
@@ -212,7 +215,10 @@ __glean_metric_maps
 submetric_maps
 :
 :
-MIN_LABELED_SUBMETRIC_ID
+SUBMETRIC_BIT
+)
+>
+0
 {
 let
 map
