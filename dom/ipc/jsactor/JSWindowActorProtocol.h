@@ -91,6 +91,9 @@ class
 EventTarget
 ;
 class
+JSActorProtocolUtils
+;
+class
 JSWindowActorProtocol
 final
 :
@@ -349,6 +352,10 @@ nsTArray
 nsString
 >
 mMessageManagerGroups
+;
+friend
+class
+JSActorProtocolUtils
 ;
 ParentSide
 mParent
