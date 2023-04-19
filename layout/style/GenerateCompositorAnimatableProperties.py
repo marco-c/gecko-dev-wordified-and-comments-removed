@@ -59,6 +59,17 @@ in
 p
 .
 flags
+and
+p
+.
+type
+(
+)
+!
+=
+"
+alias
+"
     
 properties
 =

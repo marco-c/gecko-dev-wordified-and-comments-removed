@@ -3506,6 +3506,14 @@ rule_types_allowed
 original
 .
 rule_types_allowed
+        
+self
+.
+flags
+=
+original
+.
+flags
     
 staticmethod
     
