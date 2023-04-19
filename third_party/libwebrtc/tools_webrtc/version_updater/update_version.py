@@ -129,7 +129,9 @@ FindSrcDirPath
 NOTIFY_EMAIL
 =
 '
-mbonadei
+webrtc
+-
+trooper
 webrtc
 .
 org
@@ -283,6 +285,10 @@ an
 "
 '
 ]
+      
+universal_newlines
+=
+True
 )
 .
 splitlines
@@ -353,6 +359,10 @@ git
 branch
 '
 ]
+                                  
+universal_newlines
+=
+True
 )
 .
 splitlines
@@ -477,6 +487,9 @@ with
 open
 (
 filename
+'
+rb
+'
 )
 as
 f
@@ -488,6 +501,15 @@ f
 .
 read
 (
+)
+.
+decode
+(
+'
+utf
+-
+8
+'
 )
   
 d
@@ -626,7 +648,7 @@ open
 (
 filename
 '
-w
+wb
 '
 )
 as
@@ -638,6 +660,15 @@ f
 write
 (
 new_content
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
 )
 def
 _IsTreeClean
@@ -664,6 +695,10 @@ status
 porcelain
 '
 ]
+                                   
+universal_newlines
+=
+True
 )
   
 if
