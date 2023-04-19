@@ -414,9 +414,7 @@ Annotation
 :
 IPCShutdownState
 "
-NotifyImpendingShutdown
-received
-.
+NotifiedImpendingShutdown
 "
 _ns
 )
