@@ -1643,6 +1643,16 @@ countMemRefsOnStk
 (
 )
 ;
+void
+showStack
+(
+const
+char
+*
+who
+)
+const
+;
 #
 endif
 inline
