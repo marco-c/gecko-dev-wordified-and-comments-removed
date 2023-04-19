@@ -193,7 +193,7 @@ caller
 PeerScenarioClient
 *
 callee
-TrafficRoute
+CrossTrafficRoute
 *
 send_route
 )
@@ -288,10 +288,10 @@ caller
 PeerScenarioClient
 *
 callee
-TrafficRoute
+CrossTrafficRoute
 *
 send_route
-TrafficRoute
+CrossTrafficRoute
 *
 ret_route
 std
@@ -473,10 +473,10 @@ caller
 PeerScenarioClient
 *
 callee
-TrafficRoute
+CrossTrafficRoute
 *
 send_route
-TrafficRoute
+CrossTrafficRoute
 *
 ret_route
 )

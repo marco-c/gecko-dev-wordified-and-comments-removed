@@ -55,10 +55,10 @@ caller
 PeerScenarioClient
 *
 callee
-TrafficRoute
+CrossTrafficRoute
 *
 send_route
-TrafficRoute
+CrossTrafficRoute
 *
 ret_route
 )
@@ -191,12 +191,12 @@ PeerScenarioClient
 const
 callee_
 ;
-TrafficRoute
+CrossTrafficRoute
 *
 const
 send_route_
 ;
-TrafficRoute
+CrossTrafficRoute
 *
 const
 ret_route_

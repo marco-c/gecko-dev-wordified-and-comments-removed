@@ -1303,7 +1303,7 @@ packet_size
 {
 network_manager_
 .
-CreateTrafficRoute
+CreateCrossTrafficRoute
 (
 over_nodes
 )
@@ -1347,7 +1347,7 @@ action
 {
 network_manager_
 .
-CreateTrafficRoute
+CreateCrossTrafficRoute
 (
 over_nodes
 )

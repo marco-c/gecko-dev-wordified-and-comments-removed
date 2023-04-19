@@ -132,6 +132,17 @@ include
 "
 test
 /
+network
+/
+traffic_route
+.
+h
+"
+#
+include
+"
+test
+/
 time_controller
 /
 simulated_time_controller
@@ -267,7 +278,7 @@ TriggerPacketBurst
 TrafficCounterFixture
 fixture
 ;
-TrafficRoute
+CrossTrafficRouteImpl
 traffic
 (
 &
@@ -324,7 +335,7 @@ PulsedPeaksCrossTraffic
 TrafficCounterFixture
 fixture
 ;
-TrafficRoute
+CrossTrafficRouteImpl
 traffic
 (
 &
@@ -547,7 +558,7 @@ RandomWalkCrossTraffic
 TrafficCounterFixture
 fixture
 ;
-TrafficRoute
+CrossTrafficRouteImpl
 traffic
 (
 &
