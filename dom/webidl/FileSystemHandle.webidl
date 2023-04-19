@@ -102,6 +102,12 @@ directory
 "
 }
 ;
+/
+/
+TODO
+:
+Add
+Serializable
 [
 Exposed
 =
@@ -110,7 +116,6 @@ Window
 Worker
 )
 SecureContext
-Serializable
 Pref
 =
 "
