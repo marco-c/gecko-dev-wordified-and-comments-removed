@@ -768,7 +768,12 @@ details
 newtabSessionId
 search_access_point
 :
+KNOWN_SEARCH_SOURCES
+.
+get
+(
 source
+)
 telemetry_id
 :
 engine
