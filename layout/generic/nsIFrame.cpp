@@ -27505,14 +27505,14 @@ this
 )
 )
 {
+style
+=
 nsCSSRendering
 :
 :
 FindBackground
 (
 this
-&
-style
 )
 ;
 }
