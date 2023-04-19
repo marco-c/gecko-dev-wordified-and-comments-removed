@@ -166,15 +166,6 @@ extensions
 /
 schemas
 /
-declarative_net_request
-.
-json
-content
-/
-extensions
-/
-schemas
-/
 dns
 .
 json
