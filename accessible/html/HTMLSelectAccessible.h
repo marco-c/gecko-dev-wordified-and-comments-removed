@@ -222,15 +222,6 @@ aSelect
 )
 override
 ;
-nsresult
-HandleAccEvent
-(
-AccEvent
-*
-aEvent
-)
-override
-;
 virtual
 bool
 HasPrimaryAction
