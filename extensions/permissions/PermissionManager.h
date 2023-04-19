@@ -786,7 +786,7 @@ aAttrs
 )
 ;
 static
-void
+nsresult
 GetKeyForPrincipal
 (
 nsIPrincipal
@@ -802,7 +802,7 @@ aKey
 )
 ;
 static
-void
+nsresult
 GetKeyForOrigin
 (
 const
@@ -819,7 +819,7 @@ aKey
 )
 ;
 static
-void
+nsresult
 GetKeyForPermission
 (
 nsIPrincipal
