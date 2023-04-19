@@ -674,6 +674,8 @@ mActiveTargets
 ;
 bool
 mHasSkippedTargets
+=
+false
 ;
 nsRefPtrHashtable
 <
