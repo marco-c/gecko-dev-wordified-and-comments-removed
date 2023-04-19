@@ -1863,6 +1863,16 @@ rtc_base
 :
 rtc_base_approved
 "
+"
+.
+.
+/
+rtc_base
+/
+synchronization
+:
+mutex
+"
 ]
 }
 rtc_source_set
