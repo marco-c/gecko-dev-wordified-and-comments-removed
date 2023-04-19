@@ -69,8 +69,9 @@ Unregister
 Registered
 (
 )
-{
-}
+=
+default
+;
 Registered
 (
 const
@@ -101,6 +102,7 @@ Registered
 &
 aOther
 )
+noexcept
 =
 default
 ;
@@ -277,6 +279,7 @@ T
 &
 aRhs
 )
+noexcept
 {
 RefPtr
 <
