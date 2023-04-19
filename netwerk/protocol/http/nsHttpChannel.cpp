@@ -2401,6 +2401,14 @@ this
 )
 )
 ;
+gHttpHandler
+-
+>
+OnModifyRequestBeforeCookies
+(
+this
+)
+;
 AddCookiesToRequest
 (
 )
