@@ -2495,6 +2495,15 @@ string
 content_name
 )
 ;
+std
+:
+:
+string
+ToString
+(
+)
+const
+;
 private
 :
 std
