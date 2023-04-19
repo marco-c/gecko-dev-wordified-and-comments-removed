@@ -162,6 +162,14 @@ kInitialSpeechLevelEstimateDbfs
 .
 f
 ;
+constexpr
+float
+kDefaultSmoothedVadProbabilityAttack
+=
+1
+.
+f
+;
 float
 GetInitialSaturationMarginDb
 (
