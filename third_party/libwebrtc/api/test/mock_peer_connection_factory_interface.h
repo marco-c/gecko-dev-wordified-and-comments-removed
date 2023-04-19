@@ -53,6 +53,7 @@ PeerConnectionFactoryInterface
 {
 public
 :
+static
 rtc
 :
 :
