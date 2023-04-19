@@ -4629,6 +4629,16 @@ libwebrtc
 /
 rtc_base
 /
+timestamp_aligner_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+rtc_base
+/
 timeutils_gn
 "
 "
