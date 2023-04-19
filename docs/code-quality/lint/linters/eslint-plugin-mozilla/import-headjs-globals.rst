@@ -165,17 +165,6 @@ jsm
 -
 loader
 .
-lazyImporter
-(
-this
-"
-name1
-"
-)
-;
--
-loader
-.
 lazyRequireGetter
 (
 this
