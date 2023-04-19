@@ -1306,6 +1306,12 @@ MaybeRequestScreenCapturePermission
 (
 )
 ;
+static
+void
+InvalidateHiDPIState
+(
+)
+;
 private
 :
 static
