@@ -11987,11 +11987,7 @@ file
 id
 .
 *
-*
 /
-[
-implicit_jscontext
-]
 boolean
 getFileReferences
 (
@@ -12002,12 +11998,6 @@ in
 long
 long
 aId
-[
-optional
-]
-in
-jsval
-aOptions
 [
 optional
 ]
