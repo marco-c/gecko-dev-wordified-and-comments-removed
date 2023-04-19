@@ -143,13 +143,6 @@ ipc
 SharedMemory
 SharedMemory
 ;
-typedef
-SharedMemory
-:
-:
-SharedMemoryType
-SharedMemoryType
-;
 struct
 PrivateIPDLCaller
 {
@@ -445,8 +438,6 @@ Alloc
 PrivateIPDLCaller
 size_t
 aNBytes
-SharedMemoryType
-aType
 bool
 aUnsafe
 bool

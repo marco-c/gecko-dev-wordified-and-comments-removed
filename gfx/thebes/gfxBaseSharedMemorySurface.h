@@ -210,16 +210,6 @@ IntSize
 aSize
 gfxImageFormat
 aFormat
-SharedMemory
-:
-:
-SharedMemoryType
-aShmType
-=
-SharedMemory
-:
-:
-TYPE_BASIC
 )
 {
 return
@@ -232,7 +222,6 @@ false
 aAllocator
 aSize
 aFormat
-aShmType
 )
 ;
 }
@@ -381,16 +370,6 @@ IntSize
 aSize
 gfxImageFormat
 aFormat
-SharedMemory
-:
-:
-SharedMemoryType
-aShmType
-=
-SharedMemory
-:
-:
-TYPE_BASIC
 )
 {
 return
@@ -403,7 +382,6 @@ true
 aAllocator
 aSize
 aFormat
-aShmType
 )
 ;
 }
@@ -727,11 +705,6 @@ IntSize
 aSize
 gfxImageFormat
 aFormat
-SharedMemory
-:
-:
-SharedMemoryType
-aShmType
 )
 {
 if
@@ -793,7 +766,6 @@ aAllocator
 AllocShmem
 (
 size
-aShmType
 &
 shmem
 )
@@ -813,7 +785,6 @@ aAllocator
 AllocUnsafeShmem
 (
 size
-aShmType
 &
 shmem
 )

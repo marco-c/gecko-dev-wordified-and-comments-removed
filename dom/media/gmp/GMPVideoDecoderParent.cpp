@@ -1876,13 +1876,6 @@ GMPSharedMem
 :
 kGMPFrameData
 aFrameBufferSize
-ipc
-:
-:
-SharedMemory
-:
-:
-TYPE_BASIC
 &
 mem
 )

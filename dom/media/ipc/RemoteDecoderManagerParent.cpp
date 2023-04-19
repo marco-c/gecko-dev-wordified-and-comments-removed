@@ -1431,13 +1431,6 @@ length
 AllocShmem
 (
 length
-Shmem
-:
-:
-SharedMemory
-:
-:
-TYPE_BASIC
 &
 buffer
 )

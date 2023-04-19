@@ -131,18 +131,6 @@ allocator
 const
 size_t
 size
-const
-mozilla
-:
-:
-ipc
-:
-:
-SharedMemory
-:
-:
-SharedMemoryType
-type
 )
 {
 mozilla
@@ -163,7 +151,6 @@ allocator
 AllocShmem
 (
 size
-type
 &
 shmem
 )

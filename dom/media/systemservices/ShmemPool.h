@@ -881,13 +881,6 @@ aInstance
 AllocShmem
 (
 aSize
-ipc
-:
-:
-SharedMemory
-:
-:
-TYPE_BASIC
 &
 aRes
 .
@@ -912,13 +905,6 @@ aInstance
 AllocUnsafeShmem
 (
 aSize
-ipc
-:
-:
-SharedMemory
-:
-:
-TYPE_BASIC
 &
 aRes
 .

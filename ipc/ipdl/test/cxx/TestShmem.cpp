@@ -43,10 +43,6 @@ if
 AllocShmem
 (
 size
-SharedMemory
-:
-:
-TYPE_BASIC
 &
 mem
 )
@@ -68,10 +64,6 @@ if
 AllocUnsafeShmem
 (
 size
-SharedMemory
-:
-:
-TYPE_BASIC
 &
 unsafe
 )

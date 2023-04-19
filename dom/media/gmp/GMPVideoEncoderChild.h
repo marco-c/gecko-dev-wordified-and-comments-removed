@@ -129,14 +129,6 @@ Alloc
 size_t
 aSize
 Shmem
-:
-:
-SharedMemory
-:
-:
-SharedMemoryType
-aType
-Shmem
 *
 aMem
 )
