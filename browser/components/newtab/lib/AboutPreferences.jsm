@@ -934,7 +934,7 @@ prefs
 -
 content
 -
-header2
+header
 "
 )
 ;
@@ -963,7 +963,7 @@ prefs
 -
 content
 -
-description2
+description
 "
 )
 ;
