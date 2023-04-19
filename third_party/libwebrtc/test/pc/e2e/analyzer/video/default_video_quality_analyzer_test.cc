@@ -5836,7 +5836,7 @@ EXPECT_EQ
 stream_conters
 .
 captured
-kTwoThirdFrames
+kFramesCount
 )
 ;
 EXPECT_EQ
@@ -5844,7 +5844,7 @@ EXPECT_EQ
 stream_conters
 .
 pre_encoded
-kTwoThirdFrames
+kFramesCount
 )
 ;
 EXPECT_EQ
@@ -5852,7 +5852,7 @@ EXPECT_EQ
 stream_conters
 .
 encoded
-kTwoThirdFrames
+kFramesCount
 )
 ;
 EXPECT_EQ
@@ -5900,7 +5900,7 @@ EXPECT_EQ
 stream_conters
 .
 captured
-kTwoThirdFrames
+kFramesCount
 )
 ;
 EXPECT_EQ
@@ -5908,7 +5908,7 @@ EXPECT_EQ
 stream_conters
 .
 pre_encoded
-kTwoThirdFrames
+kFramesCount
 )
 ;
 EXPECT_EQ
@@ -5916,7 +5916,7 @@ EXPECT_EQ
 stream_conters
 .
 encoded
-kTwoThirdFrames
+kFramesCount
 )
 ;
 EXPECT_EQ
