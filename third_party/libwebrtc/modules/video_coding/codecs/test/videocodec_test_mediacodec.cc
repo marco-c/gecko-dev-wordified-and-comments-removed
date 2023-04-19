@@ -521,7 +521,7 @@ h264_codec_settings
 .
 profile
 =
-H264
+H264Profile
 :
 :
 kProfileConstrainedHigh

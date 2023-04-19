@@ -1,9 +1,9 @@
 #
 include
 "
-media
+api
 /
-base
+video_codecs
 /
 vp9_profile
 .
@@ -271,7 +271,7 @@ profile_str
 ;
 }
 bool
-IsSameVP9Profile
+VP9IsSameProfile
 (
 const
 SdpVideoFormat

@@ -75,15 +75,9 @@ RTC_EXPORT
 SdpVideoFormat
 CreateH264Format
 (
-H264
-:
-:
-Profile
+H264Profile
 profile
-H264
-:
-:
-Level
+H264Level
 level
 const
 std

@@ -122,6 +122,11 @@ builtin_video_encoder_factory_unittest
 cc
 "
 "
+h264_profile_level_id_unittest
+.
+cc
+"
+"
 video_decoder_software_fallback_wrapper_unittest
 .
 cc

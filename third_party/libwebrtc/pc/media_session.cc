@@ -100,6 +100,17 @@ h
 #
 include
 "
+api
+/
+video_codecs
+/
+h264_profile_level_id
+.
+h
+"
+#
+include
+"
 media
 /
 base
@@ -115,7 +126,7 @@ media
 /
 base
 /
-h264_profile_level_id
+media_constants
 .
 h
 "
@@ -126,7 +137,7 @@ media
 /
 base
 /
-media_constants
+sdp_video_format_utils
 .
 h
 "
@@ -4282,10 +4293,7 @@ kH264CodecName
 webrtc
 :
 :
-H264
-:
-:
-GenerateProfileLevelIdForAnswer
+H264GenerateProfileLevelIdForAnswer
 (
 ours
 .

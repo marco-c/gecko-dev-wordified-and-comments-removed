@@ -10,9 +10,9 @@ h
 #
 include
 "
-media
+api
 /
-base
+video_codecs
 /
 h264_profile_level_id
 .
@@ -33,10 +33,7 @@ optional
 webrtc
 :
 :
-H264
-:
-:
-ProfileLevelId
+H264ProfileLevelId
 >
 )
 maxSupportedH264Profile
