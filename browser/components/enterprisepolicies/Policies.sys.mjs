@@ -2251,6 +2251,15 @@ support
 "
 )
 ;
+manager
+.
+disallowFeature
+(
+"
+aboutSupport
+"
+)
+;
 }
 }
 }
