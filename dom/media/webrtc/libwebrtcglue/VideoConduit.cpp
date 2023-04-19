@@ -8514,7 +8514,7 @@ i420Buffer
 =
 mBufferPool
 .
-CreateBuffer
+CreateI420Buffer
 (
 adaptedWidth
 adaptedHeight

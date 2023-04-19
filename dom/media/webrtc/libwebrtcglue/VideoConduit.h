@@ -156,7 +156,7 @@ common_video
 /
 include
 /
-i420_buffer_pool
+video_frame_buffer_pool
 .
 h
 "
@@ -1522,7 +1522,7 @@ false
 webrtc
 :
 :
-I420BufferPool
+VideoFrameBufferPool
 mBufferPool
 ;
 mozilla
