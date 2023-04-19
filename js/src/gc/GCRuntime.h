@@ -5598,7 +5598,7 @@ MainThreadData
 <
 bool
 >
-sweepOnBackgroundThread
+useBackgroundThreads
 ;
 #
 ifdef
