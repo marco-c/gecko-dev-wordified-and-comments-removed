@@ -48,6 +48,14 @@ info
 VideoEncoderConfig
 *
 config
+absl
+:
+:
+optional
+<
+size_t
+>
+max_layers
 )
 ;
 }
