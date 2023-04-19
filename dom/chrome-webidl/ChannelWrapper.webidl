@@ -202,12 +202,6 @@ cryptomining
 cryptomining_content
 "
 "
-emailtracking
-"
-"
-emailtracking_content
-"
-"
 tracking
 "
 "
