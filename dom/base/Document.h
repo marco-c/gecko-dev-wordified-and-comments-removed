@@ -4607,6 +4607,11 @@ DoNotifyPossibleTitleChange
 (
 )
 ;
+void
+InitFeaturePolicy
+(
+)
+;
 nsresult
 InitFeaturePolicy
 (

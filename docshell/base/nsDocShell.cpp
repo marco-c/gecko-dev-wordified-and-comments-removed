@@ -30340,6 +30340,13 @@ SetSandboxFlags
 sandboxFlags
 )
 ;
+blankDoc
+-
+>
+InitFeaturePolicy
+(
+)
+;
 docFactory
 -
 >
