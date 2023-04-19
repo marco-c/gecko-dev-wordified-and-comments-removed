@@ -21928,6 +21928,10 @@ setResultType
 type
 )
 ;
+setGuard
+(
+)
+;
 }
 public
 :
