@@ -80,9 +80,11 @@ child
 dictionary
 ProcessActorSidedOptions
 {
-required
 ByteString
 moduleURI
+;
+ByteString
+esModuleURI
 ;
 }
 ;
