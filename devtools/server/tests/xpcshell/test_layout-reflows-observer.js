@@ -154,8 +154,6 @@ prototype
 =
 {
 QueryInterface
-:
-function
 (
 )
 {
@@ -167,16 +165,12 @@ this
 return
 {
 getInterface
-:
-function
 (
 )
 {
 return
 {
 QueryInterface
-:
-function
 (
 )
 {
@@ -193,8 +187,6 @@ docShell
 ;
 }
 setTimeout
-:
-function
 (
 cb
 )
@@ -204,8 +196,6 @@ cb
 ;
 }
 clearTimeout
-:
-function
 (
 )
 {
@@ -230,8 +220,6 @@ prototype
 =
 {
 addWeakReflowObserver
-:
-function
 (
 observer
 )
@@ -244,8 +232,6 @@ observer
 ;
 }
 removeWeakReflowObserver
-:
-function
 (
 )
 {
@@ -326,8 +312,6 @@ null
 ;
 }
 mockResize
-:
-function
 (
 )
 {

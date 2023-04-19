@@ -102,8 +102,6 @@ prototype
 =
 {
 startListening
-:
-function
 (
 )
 {
@@ -147,8 +145,6 @@ destroyed
 ;
 }
 stopListening
-:
-function
 (
 )
 {
@@ -192,8 +188,6 @@ destroyed
 ;
 }
 _onContentGlobalCreated
-:
-function
 (
 subject
 topic
@@ -226,8 +220,6 @@ subject
 }
 }
 _onInnerWindowDestroyed
-:
-function
 (
 subject
 topic

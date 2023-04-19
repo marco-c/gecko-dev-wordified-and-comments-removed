@@ -132,8 +132,6 @@ null
 node
 "
 getHoveredNode
-:
-function
 (
 )
 {
@@ -142,8 +140,6 @@ null
 ;
 }
 assertNodeInfo
-:
-function
 (
 nodeInfo
 )
@@ -166,8 +162,6 @@ useless
 node
 "
 getHoveredNode
-:
-function
 (
 view
 )
@@ -179,8 +173,6 @@ element
 ;
 }
 assertNodeInfo
-:
-function
 (
 nodeInfo
 )
@@ -203,8 +195,6 @@ property
 name
 "
 getHoveredNode
-:
-function
 (
 view
 )
@@ -222,8 +212,6 @@ nameSpan
 ;
 }
 assertNodeInfo
-:
-function
 (
 nodeInfo
 )
@@ -299,8 +287,6 @@ property
 value
 "
 getHoveredNode
-:
-function
 (
 view
 )
@@ -318,8 +304,6 @@ valueSpan
 ;
 }
 assertNodeInfo
-:
-function
 (
 nodeInfo
 )
@@ -395,8 +379,6 @@ image
 url
 "
 getHoveredNode
-:
-function
 (
 view
 )
@@ -431,8 +413,6 @@ link
 ;
 }
 assertNodeInfo
-:
-function
 (
 nodeInfo
 )
@@ -545,10 +525,8 @@ selector
 bestmatch
 )
 "
-getHoveredNode
-:
 async
-function
+getHoveredNode
 (
 view
 )
@@ -580,8 +558,6 @@ bestmatch
 ;
 }
 assertNodeInfo
-:
-function
 (
 nodeInfo
 )
@@ -620,10 +596,8 @@ selector
 matched
 )
 "
-getHoveredNode
-:
 async
-function
+getHoveredNode
 (
 view
 )
@@ -655,8 +629,6 @@ matched
 ;
 }
 assertNodeInfo
-:
-function
 (
 nodeInfo
 )
@@ -694,10 +666,8 @@ selector
 parentmatch
 )
 "
-getHoveredNode
-:
 async
-function
+getHoveredNode
 (
 view
 )
@@ -727,8 +697,6 @@ parentmatch
 ;
 }
 assertNodeInfo
-:
-function
 (
 nodeInfo
 )
@@ -763,10 +731,8 @@ matched
 rule
 value
 "
-getHoveredNode
-:
 async
-function
+getHoveredNode
 (
 view
 )
@@ -802,8 +768,6 @@ value
 ;
 }
 assertNodeInfo
-:
-function
 (
 nodeInfo
 )
@@ -853,10 +817,8 @@ rule
 stylesheet
 link
 "
-getHoveredNode
-:
 async
-function
+getHoveredNode
 (
 view
 )
@@ -892,8 +854,6 @@ link
 ;
 }
 assertNodeInfo
-:
-function
 (
 nodeInfo
 )

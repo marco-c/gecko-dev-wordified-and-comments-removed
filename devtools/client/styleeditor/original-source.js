@@ -75,8 +75,6 @@ _url
 ;
 }
 getText
-:
-function
 (
 )
 {
@@ -133,8 +131,6 @@ _sourcePromise
 ;
 }
 getOriginalLocation
-:
-function
 (
 relatedSheet
 line
@@ -203,15 +199,11 @@ location
 ;
 }
 on
-:
-function
 (
 )
 {
 }
 off
-:
-function
 (
 )
 {

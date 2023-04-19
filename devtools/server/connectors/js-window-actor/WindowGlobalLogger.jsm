@@ -92,8 +92,6 @@ WindowGlobalLogger
 =
 {
 logWindowGlobal
-:
-function
 (
 windowGlobal
 message

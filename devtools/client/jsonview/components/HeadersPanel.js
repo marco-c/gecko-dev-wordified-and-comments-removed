@@ -250,8 +250,6 @@ Headers
 (
 {
 data
-:
-data
 }
 )
 )

@@ -1392,8 +1392,6 @@ ordinalSort
 ;
 }
 saveDevToolsSession
-:
-function
 (
 state
 )
@@ -1419,10 +1417,8 @@ getBrowserToolboxSessionState
 )
 ;
 }
-restoreDevToolsSession
-:
 async
-function
+restoreDevToolsSession
 (
 {
 browserConsole
@@ -2376,8 +2372,6 @@ destroy
 ;
 }
 createCommandsForTabForWebExtension
-:
-function
 (
 tab
 )
@@ -2397,8 +2391,6 @@ true
 ;
 }
 openBrowserConsole
-:
-function
 (
 )
 {

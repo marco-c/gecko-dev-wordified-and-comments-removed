@@ -834,8 +834,6 @@ ActorClassWithSpec
 walkerSpec
 {
 initialize
-:
-function
 (
 conn
 targetActor
@@ -1378,8 +1376,6 @@ rootNode
 }
 }
 _onEventListenerChange
-:
-function
 (
 changesEnum
 )
@@ -1460,8 +1456,6 @@ mutation
 }
 }
 form
-:
-function
 (
 )
 {
@@ -1489,8 +1483,6 @@ traits
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -1510,8 +1502,6 @@ actorID
 ;
 }
 getAnonymousDocumentWalker
-:
-function
 (
 node
 whatToShow
@@ -1549,8 +1539,6 @@ true
 ;
 }
 getNonAnonymousDocumentWalker
-:
-function
 (
 node
 whatToShow
@@ -1582,8 +1570,6 @@ false
 ;
 }
 getDocumentWalker
-:
-function
 (
 node
 whatToShow
@@ -1621,8 +1607,6 @@ skipTo
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -1969,15 +1953,11 @@ e
 }
 }
 release
-:
-function
 (
 )
 {
 }
 unmanage
-:
-function
 (
 actor
 )
@@ -2051,8 +2031,6 @@ actor
 ;
 }
 hasNode
-:
-function
 (
 rawNode
 )
@@ -2069,8 +2047,6 @@ rawNode
 ;
 }
 getNode
-:
-function
 (
 rawNode
 )
@@ -2087,8 +2063,6 @@ rawNode
 ;
 }
 _getOrCreateNodeActor
-:
-function
 (
 node
 )
@@ -2208,8 +2182,6 @@ actor
 ;
 }
 onCustomElementDefined
-:
-function
 (
 {
 name
@@ -2252,8 +2224,6 @@ getCustomElementLocation
 ;
 }
 _onReflows
-:
-function
 (
 reflows
 )
@@ -2559,8 +2529,6 @@ scrollableStateChanges
 }
 }
 _onResize
-:
-function
 (
 )
 {
@@ -2575,8 +2543,6 @@ resize
 ;
 }
 attachElement
-:
-function
 (
 node
 )
@@ -2605,14 +2571,10 @@ nodes
 0
 ]
 newParents
-:
-newParents
 }
 ;
 }
 attachElements
-:
-function
 (
 nodes
 )
@@ -2718,8 +2680,6 @@ newParents
 ;
 }
 document
-:
-function
 (
 node
 )
@@ -2753,8 +2713,6 @@ doc
 ;
 }
 documentElement
-:
-function
 (
 node
 )
@@ -2792,8 +2750,6 @@ elt
 ;
 }
 parentNode
-:
-function
 (
 node
 )
@@ -2827,8 +2783,6 @@ null
 ;
 }
 rawParentNode
-:
-function
 (
 node
 )
@@ -2906,8 +2860,6 @@ parent
 ;
 }
 inlineTextChild
-:
-function
 (
 {
 rawNode
@@ -3084,8 +3036,6 @@ firstChild
 ;
 }
 retainNode
-:
-function
 (
 node
 )
@@ -3098,8 +3048,6 @@ true
 ;
 }
 unretainNode
-:
-function
 (
 node
 )
@@ -3141,8 +3089,6 @@ node
 }
 }
 releaseNode
-:
-function
 (
 node
 options
@@ -3271,8 +3217,6 @@ destroy
 ;
 }
 ensurePathToRoot
-:
-function
 (
 node
 newParents
@@ -3358,8 +3302,6 @@ newParents
 ;
 }
 countChildren
-:
-function
 (
 node
 options
@@ -3383,8 +3325,6 @@ length
 ;
 }
 children
-:
-function
 (
 node
 options
@@ -3432,8 +3372,6 @@ n
 ;
 }
 _getChildren
-:
-function
 (
 node
 options
@@ -4281,8 +4219,6 @@ nodes
 ;
 }
 getNativeAnonymousChildren
-:
-function
 (
 rawNode
 )
@@ -4347,8 +4283,6 @@ nodes
 ;
 }
 nextSibling
-:
-function
 (
 node
 options
@@ -4407,8 +4341,6 @@ null
 ;
 }
 previousSibling
-:
-function
 (
 node
 options
@@ -4467,8 +4399,6 @@ null
 ;
 }
 _readForward
-:
-function
 (
 walker
 count
@@ -4532,8 +4462,6 @@ ret
 ;
 }
 _readBackward
-:
-function
 (
 walker
 count
@@ -4603,8 +4531,6 @@ ret
 ;
 }
 querySelector
-:
-function
 (
 baseNode
 selector
@@ -4656,8 +4582,6 @@ node
 ;
 }
 querySelectorAll
-:
-function
 (
 baseNode
 selector
@@ -4698,8 +4622,6 @@ nodeList
 ;
 }
 _multiFrameQuerySelectorAll
-:
-function
 (
 selector
 )
@@ -4757,8 +4679,6 @@ nodes
 ;
 }
 _multiFrameXPath
-:
-function
 (
 xPath
 )
@@ -4854,8 +4774,6 @@ nodes
 ;
 }
 multiFrameXPath
-:
-function
 (
 xPath
 )
@@ -4875,8 +4793,6 @@ xPath
 ;
 }
 search
-:
-function
 (
 query
 )
@@ -4926,8 +4842,6 @@ metadata
 ;
 }
 getSuggestionsForQuery
-:
-function
 (
 query
 completing
@@ -5841,8 +5755,6 @@ slice
 return
 {
 query
-:
-query
 suggestions
 :
 result
@@ -5850,8 +5762,6 @@ result
 ;
 }
 addPseudoClassLock
-:
-function
 (
 node
 pseudo
@@ -5991,8 +5901,6 @@ enabled
 }
 }
 _queuePseudoClassMutation
-:
-function
 (
 node
 )
@@ -6024,8 +5932,6 @@ writePseudoClassLocks
 ;
 }
 _addPseudoClassLock
-:
-function
 (
 node
 pseudo
@@ -6083,8 +5989,6 @@ true
 ;
 }
 hideNode
-:
-function
 (
 node
 )
@@ -6123,8 +6027,6 @@ HIDDEN_CLASS
 ;
 }
 unhideNode
-:
-function
 (
 node
 )
@@ -6153,8 +6055,6 @@ HIDDEN_CLASS
 ;
 }
 removePseudoClassLock
-:
-function
 (
 node
 pseudo
@@ -6288,8 +6188,6 @@ pseudo
 }
 }
 _removePseudoClassLock
-:
-function
 (
 node
 pseudo
@@ -6355,8 +6253,6 @@ true
 ;
 }
 clearPseudoClassLocks
-:
-function
 (
 node
 )
@@ -6447,8 +6343,6 @@ locked
 }
 }
 innerHTML
-:
-function
 (
 node
 )
@@ -6488,8 +6382,6 @@ html
 ;
 }
 setInnerHTML
-:
-function
 (
 node
 value
@@ -6567,8 +6459,6 @@ value
 ;
 }
 outerHTML
-:
-function
 (
 node
 )
@@ -6608,8 +6498,6 @@ outerHTML
 ;
 }
 setOuterHTML
-:
-function
 (
 node
 value
@@ -6953,8 +6841,6 @@ value
 }
 }
 insertAdjacentHTML
-:
-function
 (
 node
 position
@@ -7259,8 +7145,6 @@ newRawNodes
 ;
 }
 duplicateNode
-:
-function
 (
 {
 rawNode
@@ -7291,8 +7175,6 @@ nextSibling
 ;
 }
 isDocumentOrDocumentElementNode
-:
-function
 (
 node
 )
@@ -7338,8 +7220,6 @@ DOCUMENT_NODE
 ;
 }
 removeNode
-:
-function
 (
 node
 )
@@ -7400,8 +7280,6 @@ nextSibling
 ;
 }
 removeNodes
-:
-function
 (
 nodes
 )
@@ -7466,8 +7344,6 @@ remove
 }
 }
 insertBefore
-:
-function
 (
 node
 parent
@@ -7588,8 +7464,6 @@ rawSibling
 ;
 }
 editTagName
-:
-function
 (
 node
 tagName
@@ -8407,8 +8281,6 @@ true
 }
 }
 _breakOnMutation
-:
-function
 (
 mutationType
 targetNode
@@ -8500,8 +8372,6 @@ docMutationBreakpoints
 ;
 }
 _breakpointInfoForNode
-:
-function
 (
 target
 )
@@ -8543,8 +8413,6 @@ null
 ;
 }
 onNodeRemoved
-:
-function
 (
 evt
 )
@@ -8608,8 +8476,6 @@ evt
 }
 }
 onAttributeModified
-:
-function
 (
 evt
 )
@@ -8649,8 +8515,6 @@ target
 }
 }
 onSubtreeModified
-:
-function
 (
 evt
 )
@@ -8736,8 +8600,6 @@ break
 }
 }
 _clearMutationBreakpointsFromSubtree
-:
-function
 (
 targetNode
 )
@@ -8904,8 +8766,6 @@ currentNode
 ;
 }
 getMutations
-:
-function
 (
 options
 =
@@ -8977,8 +8837,6 @@ pending
 ;
 }
 queueMutation
-:
-function
 (
 mutation
 )
@@ -9048,8 +8906,6 @@ _throttledEmitNewMutations
 }
 }
 _emitNewMutations
-:
-function
 (
 )
 {
@@ -9108,8 +8964,6 @@ mutations
 ;
 }
 onMutations
-:
-function
 (
 mutations
 )
@@ -9172,8 +9026,6 @@ const
 mutation
 =
 {
-type
-:
 type
 target
 :
@@ -9452,8 +9304,6 @@ mutation
 }
 }
 _maybeQueueInlineTextChildMutation
-:
-function
 (
 mutation
 )
@@ -9590,8 +9440,6 @@ undefined
 ;
 }
 onSlotchange
-:
-function
 (
 event
 )
@@ -9642,8 +9490,6 @@ actorID
 ;
 }
 onShadowrootattached
-:
-function
 (
 event
 )
@@ -9694,8 +9540,6 @@ mutation
 ;
 }
 onFrameLoad
-:
-function
 (
 {
 window
@@ -9926,8 +9770,6 @@ documentActor
 }
 }
 _childOfWindow
-:
-function
 (
 window
 domNode
@@ -9974,8 +9816,6 @@ false
 ;
 }
 onFrameUnload
-:
-function
 (
 {
 window
@@ -10213,8 +10053,6 @@ true
 ;
 }
 _isInDOMTree
-:
-function
 (
 rawNode
 )
@@ -10283,8 +10121,6 @@ true
 ;
 }
 isInDOMTree
-:
-function
 (
 node
 )
@@ -10313,8 +10149,6 @@ rawNode
 ;
 }
 getNodeActorFromWindowID
-:
-function
 (
 windowID
 )
@@ -10411,8 +10245,6 @@ frameElement
 ;
 }
 getNodeActorFromContentDomReference
-:
-function
 (
 contentDomReference
 )
@@ -10481,8 +10313,6 @@ rawNode
 ;
 }
 getStyleSheetOwnerNode
-:
-function
 (
 resourceId
 )
@@ -10547,8 +10377,6 @@ actorBasedNode
 ;
 }
 getNodeFromActor
-:
-function
 (
 actorID
 path
@@ -10621,8 +10449,6 @@ obj
 ;
 }
 getLayoutInspector
-:
-function
 (
 )
 {
@@ -10658,8 +10484,6 @@ layoutActor
 ;
 }
 getParentGridNode
-:
-function
 (
 node
 )
@@ -10700,8 +10524,6 @@ null
 ;
 }
 getOffsetParent
-:
-function
 (
 node
 )
@@ -10861,8 +10683,6 @@ resetHoveredNodeReference
 ;
 }
 updateOverflowCausingElements
-:
-function
 (
 scrollableNode
 map
@@ -10948,8 +10768,6 @@ scrollableNode
 }
 }
 getOverflowCausingElements
-:
-function
 (
 node
 )
@@ -11045,8 +10863,6 @@ overflowCausingElements
 ;
 }
 getScrollableAncestorNode
-:
-function
 (
 overflowCausingNode
 )

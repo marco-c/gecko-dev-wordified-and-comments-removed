@@ -392,8 +392,6 @@ ActorClassWithSpec
 pageStyleSpec
 {
 initialize
-:
-function
 (
 inspector
 )
@@ -650,8 +648,6 @@ _onStylesheetUpdated
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -821,8 +817,6 @@ window
 ;
 }
 form
-:
-function
 (
 )
 {
@@ -916,8 +910,6 @@ stretch
 ;
 }
 _styleApplied
-:
-function
 (
 kind
 styleSheet
@@ -954,8 +946,6 @@ updated
 }
 }
 _styleRef
-:
-function
 (
 item
 )
@@ -1014,8 +1004,6 @@ actor
 ;
 }
 updateStyleRef
-:
-function
 (
 oldItem
 item
@@ -1043,8 +1031,6 @@ actor
 ;
 }
 _sheetRef
-:
-function
 (
 sheet
 )
@@ -1103,8 +1089,6 @@ actor
 ;
 }
 getRule
-:
-function
 (
 ruleId
 )
@@ -1152,8 +1136,6 @@ match
 ;
 }
 getComputed
-:
-function
 (
 node
 options
@@ -1362,8 +1344,6 @@ ret
 ;
 }
 getAllUsedFontFaces
-:
-function
 (
 options
 )
@@ -1439,8 +1419,6 @@ fontsList
 ;
 }
 getUsedFontFaces
-:
-function
 (
 node
 options
@@ -1810,8 +1788,6 @@ conn
 dataURL
 )
 size
-:
-size
 }
 ;
 }
@@ -1990,8 +1966,6 @@ fontsArray
 ;
 }
 getMatchedSelectors
-:
-function
 (
 node
 property
@@ -2114,8 +2088,6 @@ push
 (
 {
 rule
-:
-rule
 sourceText
 :
 this
@@ -2164,8 +2136,6 @@ sheets
 return
 {
 matched
-:
-matched
 rules
 :
 [
@@ -2186,8 +2156,6 @@ sheets
 ;
 }
 getSelectorSource
-:
-function
 (
 selectorInfo
 relativeTo
@@ -2387,8 +2355,6 @@ result
 ;
 }
 _hasInheritedProps
-:
-function
 (
 style
 )
@@ -2504,8 +2470,6 @@ bottom
 ;
 }
 _getAllElementRules
-:
-function
 (
 node
 inherited
@@ -3202,8 +3166,6 @@ pseudo
 }
 }
 _getElementRules
-:
-function
 (
 node
 pseudo
@@ -3378,8 +3340,6 @@ rules
 ;
 }
 findEntryMatchingRule
-:
-function
 (
 node
 filterRule
@@ -3481,8 +3441,6 @@ filterRule
 ;
 }
 getAppliedProps
-:
-function
 (
 node
 entries
@@ -3857,8 +3815,6 @@ sheets
 return
 {
 entries
-:
-entries
 rules
 :
 [
@@ -3879,8 +3835,6 @@ sheets
 ;
 }
 expandSets
-:
-function
 (
 ruleSet
 sheetSet
@@ -4054,8 +4008,6 @@ parent
 }
 }
 getLayout
-:
-function
 (
 node
 options
@@ -4327,8 +4279,6 @@ layout
 ;
 }
 processMargins
-:
-function
 (
 cssLogic
 )
@@ -4423,8 +4373,6 @@ margins
 ;
 }
 onFrameUnload
-:
-function
 (
 )
 {
@@ -4439,8 +4387,6 @@ WeakMap
 ;
 }
 onStyleSheetAdded
-:
-function
 (
 actor
 )
@@ -4590,8 +4536,6 @@ kind
 ;
 }
 getStyleElement
-:
-function
 (
 document
 )
@@ -4687,8 +4631,6 @@ document
 ;
 }
 getNewAppliedProps
-:
-function
 (
 node
 rule

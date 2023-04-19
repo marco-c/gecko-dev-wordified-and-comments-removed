@@ -245,8 +245,6 @@ _telemetry
 ;
 }
 isEnabled
-:
-function
 (
 )
 {
@@ -260,8 +258,6 @@ isDisabledByPolicy
 ;
 }
 isDisabledByPolicy
-:
-function
 (
 )
 {
@@ -278,8 +274,6 @@ false
 ;
 }
 isInitialized
-:
-function
 (
 )
 {
@@ -292,8 +286,6 @@ _gDevTools
 ;
 }
 getToolboxes
-:
-function
 (
 )
 {
@@ -322,8 +314,6 @@ return
 ;
 }
 register
-:
-function
 (
 gDevTools
 )
@@ -355,8 +345,6 @@ registered
 ;
 }
 unregister
-:
-function
 (
 )
 {
@@ -391,8 +379,6 @@ null
 }
 }
 on
-:
-function
 (
 event
 listener
@@ -435,8 +421,6 @@ listener
 }
 }
 off
-:
-function
 (
 event
 listener
@@ -494,8 +478,6 @@ listener
 }
 }
 saveDevToolsSession
-:
-function
 (
 state
 )
@@ -524,8 +506,6 @@ state
 ;
 }
 restoreDevToolsSession
-:
-function
 (
 session
 )
@@ -602,8 +582,6 @@ isDevToolsUser
 ;
 }
 inspectA11Y
-:
-function
 (
 tab
 domReference
@@ -681,8 +659,6 @@ startTime
 ;
 }
 inspectNode
-:
-function
 (
 tab
 domReference
@@ -760,8 +736,6 @@ startTime
 ;
 }
 _onDevToolsRegistered
-:
-function
 (
 )
 {
@@ -798,8 +772,6 @@ listeners
 ;
 }
 initDevTools
-:
-function
 (
 reason
 )

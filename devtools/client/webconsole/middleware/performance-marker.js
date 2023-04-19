@@ -70,8 +70,6 @@ WebconsoleAddMessages
 "
 sessionId
 getMarkerDescription
-:
-function
 (
 {
 action

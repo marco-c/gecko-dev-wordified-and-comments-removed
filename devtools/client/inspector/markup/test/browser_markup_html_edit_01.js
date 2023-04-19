@@ -71,10 +71,8 @@ Div
 div
 >
 '
-validate
-:
 async
-function
+validate
 (
 )
 {
@@ -327,10 +325,8 @@ addedAttribute
 div
 >
 "
-validate
-:
 async
-function
+validate
 (
 {
 pageNodeFront
@@ -542,10 +538,8 @@ sibling
 div
 >
 '
-validate
-:
 async
-function
+validate
 (
 {
 selectedNodeFront

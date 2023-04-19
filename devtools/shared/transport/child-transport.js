@@ -130,8 +130,6 @@ e
 }
 }
 ready
-:
-function
 (
 )
 {
@@ -143,8 +141,6 @@ _addListener
 ;
 }
 close
-:
-function
 (
 options
 )
@@ -177,8 +173,6 @@ options
 }
 }
 receiveMessage
-:
-function
 (
 {
 data
@@ -196,8 +190,6 @@ data
 ;
 }
 _canBeSerialized
-:
-function
 (
 object
 )
@@ -235,8 +227,6 @@ true
 ;
 }
 pathToUnserializable
-:
-function
 (
 object
 )
@@ -308,8 +298,6 @@ return
 ;
 }
 send
-:
-function
 (
 packet
 )
@@ -450,8 +438,6 @@ e
 }
 }
 startBulkSend
-:
-function
 (
 )
 {

@@ -42,13 +42,7 @@ toolbox
 .
 commands
 toolbox
-:
-toolbox
 win
-:
-win
-panel
-:
 panel
 }
 ;

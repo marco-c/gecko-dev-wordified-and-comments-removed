@@ -1341,8 +1341,6 @@ mTokenLineOffset
 ;
 }
 performEOFFixup
-:
-function
 (
 aInputString
 aPreserveBackslash
@@ -1474,8 +1472,6 @@ asString
 ;
 }
 nextToken
-:
-function
 (
 )
 {
@@ -1707,8 +1703,6 @@ resultToken
 ;
 }
 Peek
-:
-function
 (
 n
 =
@@ -1750,8 +1744,6 @@ n
 ;
 }
 Advance
-:
-function
 (
 n
 =
@@ -1804,8 +1796,6 @@ n
 }
 }
 AdvanceLine
-:
-function
 (
 )
 {
@@ -1899,8 +1889,6 @@ mOffset
 ;
 }
 SkipWhitespace
-:
-function
 (
 )
 {
@@ -1958,8 +1946,6 @@ Advance
 }
 }
 SkipComment
-:
-function
 (
 )
 {
@@ -2089,8 +2075,6 @@ Advance
 }
 }
 GatherEscape
-:
-function
 (
 aOutput
 aInString
@@ -2358,8 +2342,6 @@ true
 ;
 }
 GatherText
-:
-function
 (
 aClass
 aText
@@ -2549,8 +2531,6 @@ start
 ;
 }
 ScanIdent
-:
-function
 (
 aToken
 )
@@ -2666,8 +2646,6 @@ true
 ;
 }
 ScanAtKeyword
-:
-function
 (
 aToken
 )
@@ -2733,8 +2711,6 @@ true
 ;
 }
 ScanHash
-:
-function
 (
 aToken
 )
@@ -2826,8 +2802,6 @@ true
 ;
 }
 ScanNumber
-:
-function
 (
 aToken
 )
@@ -3403,8 +3377,6 @@ true
 ;
 }
 ScanString
-:
-function
 (
 aToken
 )
@@ -3550,8 +3522,6 @@ true
 ;
 }
 ScanURange
-:
-function
 (
 aResult
 )
@@ -3894,8 +3864,6 @@ true
 ;
 }
 SetEOFCharacters
-:
-function
 (
 aEOFCharacters
 )
@@ -3908,8 +3876,6 @@ aEOFCharacters
 ;
 }
 AddEOFCharacters
-:
-function
 (
 aEOFCharacters
 )
@@ -3926,8 +3892,6 @@ aEOFCharacters
 ;
 }
 AppendImpliedEOFCharacters
-:
-function
 (
 aEOFCharacters
 aResult
@@ -3973,8 +3937,6 @@ c
 }
 }
 NextURL
-:
-function
 (
 aToken
 )
@@ -4193,8 +4155,6 @@ RIGHT_PARENTHESIS
 }
 }
 Next
-:
-function
 (
 aToken
 aSkip

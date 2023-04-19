@@ -3528,8 +3528,6 @@ resolve
 (
 {
 link
-:
-link
 where
 }
 )

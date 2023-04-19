@@ -119,8 +119,6 @@ trace
 =
 {
 log
-:
-function
 (
 .
 .
@@ -328,8 +326,6 @@ fileName
 ;
 }
 copy
-:
-function
 (
 options
 )
@@ -363,8 +359,6 @@ jsonString
 ;
 }
 getHar
-:
-function
 (
 options
 )
@@ -400,8 +394,6 @@ null
 ;
 }
 fetchHarData
-:
-function
 (
 options
 )
@@ -683,10 +675,8 @@ err
 )
 ;
 }
-buildHarData
-:
 async
-function
+buildHarData
 (
 options
 )
@@ -777,8 +767,6 @@ result
 ;
 }
 stringify
-:
-function
 (
 har
 )

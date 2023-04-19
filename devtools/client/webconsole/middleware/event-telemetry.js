@@ -578,8 +578,6 @@ webconsole
 null
 {
 trigger
-:
-trigger
 active
 :
 activeFilters

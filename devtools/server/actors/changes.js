@@ -67,8 +67,6 @@ ActorClassWithSpec
 changesSpec
 {
 initialize
-:
-function
 (
 conn
 targetActor
@@ -159,8 +157,6 @@ changes
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -215,15 +211,11 @@ this
 ;
 }
 start
-:
-function
 (
 )
 {
 }
 changeCount
-:
-function
 (
 )
 {
@@ -236,8 +228,6 @@ length
 ;
 }
 change
-:
-function
 (
 index
 )
@@ -280,8 +270,6 @@ undefined
 ;
 }
 allChanges
-:
-function
 (
 )
 {
@@ -302,8 +290,6 @@ slice
 ;
 }
 onWillNavigate
-:
-function
 (
 eventData
 )
@@ -324,8 +310,6 @@ clearChanges
 }
 }
 pushChange
-:
-function
 (
 change
 )
@@ -361,8 +345,6 @@ change
 }
 }
 popChange
-:
-function
 (
 )
 {
@@ -402,8 +384,6 @@ change
 ;
 }
 clearChanges
-:
-function
 (
 )
 {

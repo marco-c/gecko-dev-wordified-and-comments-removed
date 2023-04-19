@@ -59,8 +59,6 @@ toolbox
 .
 target
 toolbox
-:
-toolbox
 isReady
 :
 true

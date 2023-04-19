@@ -104,8 +104,6 @@ ActorClassWithSpec
 memorySpec
 {
 initialize
-:
-function
 (
 conn
 parent
@@ -200,8 +198,6 @@ _onAllocations
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -282,8 +278,6 @@ getState
 "
 )
 saveHeapSnapshot
-:
-function
 (
 boundaries
 )
@@ -372,8 +366,6 @@ residentUnique
 "
 )
 _onGarbageCollection
-:
-function
 (
 data
 )
@@ -402,8 +394,6 @@ data
 }
 }
 _onAllocations
-:
-function
 (
 data
 )

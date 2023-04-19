@@ -31,8 +31,6 @@ Utils
 {
 L10n
 supportsString
-:
-function
 (
 s
 )

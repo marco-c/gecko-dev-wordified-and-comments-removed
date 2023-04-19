@@ -46,8 +46,6 @@ listener
 [
 event
 ]
-:
-function
 (
 .
 .

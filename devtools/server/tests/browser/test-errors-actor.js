@@ -120,8 +120,6 @@ ActorClassWithSpec
 testErrorsSpec
 {
 initialize
-:
-function
 (
 conn
 )

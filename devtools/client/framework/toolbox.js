@@ -2541,8 +2541,6 @@ lastUsedToolId
 :
 null
 getToolPanels
-:
-function
 (
 )
 {
@@ -2557,8 +2555,6 @@ _toolPanels
 ;
 }
 getPanel
-:
-function
 (
 id
 )
@@ -2575,8 +2571,6 @@ id
 ;
 }
 getPanelWhenReady
-:
-function
 (
 id
 )
@@ -2640,8 +2634,6 @@ initializedPanel
 ;
 }
 getCurrentPanel
-:
-function
 (
 )
 {
@@ -2766,8 +2758,6 @@ _splitConsole
 ;
 }
 isSplitConsoleFocused
-:
-function
 (
 )
 {
@@ -2912,8 +2902,6 @@ targetActorID
 }
 }
 getSelectedTargetFront
-:
-function
 (
 )
 {
@@ -3676,8 +3664,6 @@ PRIORITY_WARNING_HIGH
 ;
 }
 open
-:
-function
 (
 )
 {
@@ -4615,8 +4601,6 @@ chromeEventHandler
 ;
 }
 _addChromeEventHandlerEvents
-:
-function
 (
 )
 {
@@ -4712,8 +4696,6 @@ _onMouseDown
 ;
 }
 _removeChromeEventHandlerEvents
-:
-function
 (
 )
 {
@@ -4805,8 +4787,6 @@ null
 ;
 }
 _addShortcuts
-:
-function
 (
 )
 {
@@ -5157,8 +5137,6 @@ shortcuts
 }
 }
 _removeShortcuts
-:
-function
 (
 )
 {
@@ -5186,8 +5164,6 @@ null
 }
 }
 _addWindowHostShortcuts
-:
-function
 (
 )
 {
@@ -5455,8 +5431,6 @@ closeToolbox
 }
 }
 _removeWindowHostShortcuts
-:
-function
 (
 )
 {
@@ -5484,8 +5458,6 @@ null
 }
 }
 _onContextMenu
-:
-function
 (
 e
 )
@@ -5635,8 +5607,6 @@ screenY
 }
 }
 _onMouseDown
-:
-function
 (
 e
 )
@@ -5666,8 +5636,6 @@ preventDefault
 }
 }
 _getDebugTargetData
-:
-function
 (
 )
 {
@@ -5875,8 +5843,6 @@ ToolboxController
 ;
 }
 _createSourceMapService
-:
-function
 (
 )
 {
@@ -6327,8 +6293,6 @@ _sourceMapURLService
 ;
 }
 _getTelemetryHostId
-:
-function
 (
 )
 {
@@ -6407,8 +6371,6 @@ return
 }
 }
 _getTelemetryHostString
-:
-function
 (
 )
 {
@@ -6501,8 +6463,6 @@ bottom
 }
 }
 _pingTelemetry
-:
-function
 (
 )
 {
@@ -6652,8 +6612,6 @@ _getTelemetryHostString
 ;
 }
 _createButtonState
-:
-function
 (
 options
 )
@@ -6893,8 +6851,6 @@ button
 ;
 }
 _splitConsoleOnKeypress
-:
-function
 (
 e
 )
@@ -6955,8 +6911,6 @@ preventDefault
 }
 }
 useKeyWithSplitConsole
-:
-function
 (
 key
 handler
@@ -7008,8 +6962,6 @@ preventDefault
 ;
 }
 _addWindowListeners
-:
-function
 (
 )
 {
@@ -7044,8 +6996,6 @@ true
 ;
 }
 _removeWindowListeners
-:
-function
 (
 )
 {
@@ -7088,8 +7038,6 @@ true
 }
 }
 _onBrowserMessage
-:
-function
 (
 event
 )
@@ -7158,8 +7106,6 @@ browsingContextID
 }
 }
 _saveSplitConsoleHeight
-:
-function
 (
 )
 {
@@ -7179,8 +7125,6 @@ height
 ;
 }
 _refreshConsoleDisplay
-:
-function
 (
 )
 {
@@ -7291,8 +7235,6 @@ splitConsole
 }
 }
 fireCustomKey
-:
-function
 (
 toolId
 )
@@ -7449,8 +7391,6 @@ _notificationBox
 ;
 }
 _buildDockOptions
-:
-function
 (
 )
 {
@@ -7651,8 +7591,6 @@ hostTypes
 ;
 }
 postMessage
-:
-function
 (
 msg
 )
@@ -7687,10 +7625,8 @@ msg
 ;
 }
 }
-_buildTabs
-:
 async
-function
+_buildTabs
 (
 )
 {
@@ -7899,8 +7835,6 @@ _componentMount
 ;
 }
 _onToolbarFocus
-:
-function
 (
 id
 )
@@ -7916,8 +7850,6 @@ id
 ;
 }
 _onToolbarArrowKeypress
-:
-function
 (
 event
 )
@@ -8434,10 +8366,8 @@ this
 errorCountButton
 ;
 }
-_onPickerClick
-:
 async
-function
+_onPickerClick
 (
 )
 {
@@ -8520,8 +8450,6 @@ focus
 }
 }
 _onPickerKeypress
-:
-function
 (
 event
 )
@@ -8586,10 +8514,8 @@ stopImmediatePropagation
 ;
 }
 }
-_onPickerStarting
-:
 async
-function
+_onPickerStarting
 (
 )
 {
@@ -8662,10 +8588,8 @@ _onToolSelectedStopPicker
 )
 ;
 }
-_onPickerStarted
-:
 async
-function
+_onPickerStarted
 (
 )
 {
@@ -8686,8 +8610,6 @@ true
 ;
 }
 _onPickerStopped
-:
-function
 (
 )
 {
@@ -8750,8 +8672,6 @@ false
 ;
 }
 _onToolSelectedStopPicker
-:
-function
 (
 )
 {
@@ -8770,8 +8690,6 @@ true
 ;
 }
 _onPickerCanceled
-:
-function
 (
 )
 {
@@ -8801,8 +8719,6 @@ focus
 }
 }
 _onPickerPicked
-:
-function
 (
 nodeFront
 )
@@ -8829,8 +8745,6 @@ picked
 ;
 }
 _onPickerPreviewed
-:
-function
 (
 nodeFront
 )
@@ -8856,10 +8770,8 @@ previewed
 )
 ;
 }
-tellRDMAboutPickerState
-:
 async
-function
+tellRDMAboutPickerState
 (
 state
 pickerType
@@ -9162,10 +9074,8 @@ shortcut
 )
 ;
 }
-_applyCacheSettings
-:
 async
-function
+_applyCacheSettings
 (
 )
 {
@@ -9226,10 +9136,8 @@ reconfigured
 ;
 }
 }
-_applyCustomFormatterSetting
-:
 async
-function
+_applyCustomFormatterSetting
 (
 )
 {
@@ -9311,8 +9219,6 @@ reconfigured
 ;
 }
 _applyServiceWorkersTestingSettings
-:
-function
 (
 )
 {
@@ -9733,8 +9639,6 @@ _errorCount
 ;
 }
 _commandIsVisible
-:
-function
 (
 button
 )
@@ -9802,8 +9706,6 @@ true
 ;
 }
 _buildPanelForTool
-:
-function
 (
 toolDefinition
 )
@@ -10426,8 +10328,6 @@ toolId
 ;
 }
 loadTool
-:
-function
 (
 id
 options
@@ -11053,8 +10953,6 @@ callback
 ;
 }
 setIframeDocumentDir
-:
-function
 (
 iframe
 )
@@ -11116,8 +11014,6 @@ direction
 }
 }
 selectSingleNode
-:
-function
 (
 collection
 id
@@ -11278,8 +11174,6 @@ visible
 ;
 }
 setIframeVisible
-:
-function
 (
 iframe
 visible
@@ -11358,8 +11252,6 @@ visibilitychange
 }
 }
 selectTool
-:
-function
 (
 id
 reason
@@ -11806,16 +11698,12 @@ this
 .
 _hostType
 width
-:
-width
 panel_name
 :
 prevPanelName
 next_panel
 :
 panelName
-reason
-:
 reason
 session_id
 :
@@ -11843,8 +11731,6 @@ tools
 "
 null
 {
-width
-:
 width
 session_id
 :
@@ -11914,8 +11800,6 @@ reason
 panel_name
 :
 panelName
-cold
-:
 cold
 session_id
 :
@@ -12024,8 +11908,6 @@ this
 ;
 }
 focusTool
-:
-function
 (
 id
 state
@@ -12077,8 +11959,6 @@ blur
 }
 }
 focusConsoleInput
-:
-function
 (
 )
 {
@@ -12108,8 +11988,6 @@ focusInput
 }
 }
 disableAllConsoleNetworkLogs
-:
-function
 (
 )
 {
@@ -12143,8 +12021,6 @@ disableAllNetworkMessages
 }
 }
 _onFocus
-:
-function
 (
 {
 originalTarget
@@ -12196,8 +12072,6 @@ originalTarget
 ;
 }
 _onTabsOrderUpdated
-:
-function
 (
 )
 {
@@ -12209,8 +12083,6 @@ _combineAndSortPanelDefinitions
 ;
 }
 openSplitConsole
-:
-function
 (
 )
 {
@@ -12362,8 +12234,6 @@ focusConsoleInput
 ;
 }
 closeSplitConsole
-:
-function
 (
 )
 {
@@ -12479,8 +12349,6 @@ resolve
 ;
 }
 toggleSplitConsole
-:
-function
 (
 )
 {
@@ -12524,8 +12392,6 @@ resolve
 ;
 }
 toggleOptions
-:
-function
 (
 event
 )
@@ -12589,8 +12455,6 @@ preventDefault
 ;
 }
 selectNextTool
-:
-function
 (
 )
 {
@@ -12673,8 +12537,6 @@ select_next_key
 ;
 }
 selectPreviousTool
-:
-function
 (
 )
 {
@@ -12836,8 +12698,6 @@ id
 ;
 }
 raise
-:
-function
 (
 )
 {
@@ -13085,8 +12945,6 @@ delay
 ;
 }
 _refreshHostTitle
-:
-function
 (
 )
 {
@@ -13594,10 +13452,8 @@ DISABLE_AUTOHIDE_PREF
 )
 ;
 }
-_listFrames
-:
 async
-function
+_listFrames
 (
 event
 )
@@ -13681,8 +13537,6 @@ e
 }
 }
 onIframePickerFrameSelected
-:
-function
 (
 frameIdOrTargetActorId
 )
@@ -13776,10 +13630,8 @@ targetFront
 )
 ;
 }
-onHighlightFrame
-:
 async
-function
+onHighlightFrame
 (
 frameIdOrTargetActorId
 )
@@ -13902,8 +13754,6 @@ nodeFront
 ;
 }
 _updateFrames
-:
-function
 (
 data
 )
@@ -14439,8 +14289,6 @@ isTopLevel
 ;
 }
 switchToPreviousHost
-:
-function
 (
 )
 {
@@ -14456,8 +14304,6 @@ previous
 ;
 }
 switchHost
-:
-function
 (
 hostType
 )
@@ -14586,8 +14432,6 @@ tab
 ;
 }
 _onSwitchedHost
-:
-function
 (
 {
 hostType
@@ -14736,8 +14580,6 @@ tab
 ;
 }
 isToolRegistered
-:
-function
 (
 toolId
 )
@@ -14754,8 +14596,6 @@ toolId
 ;
 }
 getToolDefinition
-:
-function
 (
 toolId
 )
@@ -14782,8 +14622,6 @@ toolId
 ;
 }
 unloadTool
-:
-function
 (
 toolId
 )
@@ -15091,8 +14929,6 @@ remove
 }
 }
 _toolRegistered
-:
-function
 (
 toolId
 )
@@ -15208,8 +15044,6 @@ toolId
 }
 }
 _toolUnregistered
-:
-function
 (
 toolId
 )
@@ -15595,10 +15429,8 @@ _destroyer
 )
 ;
 }
-_onNewSelectedNodeFront
-:
 async
-function
+_onNewSelectedNodeFront
 (
 )
 {
@@ -15644,8 +15476,6 @@ targetFrontActorID
 }
 }
 _onToolSelected
-:
-function
 (
 )
 {
@@ -15703,10 +15533,8 @@ inspectFromAnnotation
 )
 ;
 }
-inspectObjectActor
-:
 async
-function
+inspectObjectActor
 (
 objectActor
 inspectFromAnnotation
@@ -15887,8 +15715,6 @@ objectActor
 }
 }
 getNotificationBox
-:
-function
 (
 )
 {
@@ -15898,10 +15724,8 @@ this
 notificationBox
 ;
 }
-closeToolbox
-:
 async
-function
+closeToolbox
 (
 )
 {
@@ -15914,8 +15738,6 @@ destroy
 ;
 }
 isDestroying
-:
-function
 (
 )
 {
@@ -15926,8 +15748,6 @@ _destroyer
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -15981,10 +15801,8 @@ this
 _destroyer
 ;
 }
-_destroyToolbox
-:
 async
-function
+_destroyToolbox
 (
 )
 {
@@ -16652,10 +16470,6 @@ prevPanelName
 null
 {
 host
-:
-host
-width
-:
 width
 panel_name
 :
@@ -16700,10 +16514,6 @@ tools
 null
 {
 host
-:
-host
-width
-:
 width
 session_id
 :
@@ -17040,8 +16850,6 @@ topic
 ;
 }
 openTextBoxContextMenu
-:
-function
 (
 x
 y
@@ -17121,8 +16929,6 @@ doc
 ;
 }
 getTextBoxContextMenu
-:
-function
 (
 )
 {
@@ -17297,10 +17103,8 @@ win
 gViewSourceUtils
 ;
 }
-viewGeneratedSourceInStyleEditor
-:
 async
-function
+viewGeneratedSourceInStyleEditor
 (
 url
 )
@@ -17347,10 +17151,8 @@ url
 )
 ;
 }
-viewSourceInStyleEditorByURL
-:
 async
-function
+viewSourceInStyleEditorByURL
 (
 url
 line
@@ -17447,10 +17249,8 @@ column
 )
 ;
 }
-viewSourceInStyleEditorByFront
-:
 async
-function
+viewSourceInStyleEditorByFront
 (
 stylesheetFront
 line
@@ -17551,10 +17351,8 @@ column
 )
 ;
 }
-viewElementInInspector
-:
 async
-function
+viewElementInInspector
 (
 objectGrip
 reason
@@ -17612,10 +17410,8 @@ reason
 ;
 }
 }
-viewGeneratedSourceInDebugger
-:
 async
-function
+viewGeneratedSourceInDebugger
 (
 url
 )
@@ -17665,10 +17461,8 @@ null
 )
 ;
 }
-viewSourceInDebugger
-:
 async
-function
+viewSourceInDebugger
 (
 sourceURL
 sourceLine
@@ -17783,8 +17577,6 @@ reason
 ;
 }
 viewSource
-:
-function
 (
 sourceURL
 sourceLine
@@ -17801,10 +17593,8 @@ sourceLine
 )
 ;
 }
-getNetMonitorAPI
-:
 async
-function
+getNetMonitorAPI
 (
 )
 {
@@ -17873,10 +17663,8 @@ this
 _netMonitorAPI
 ;
 }
-getHARFromNetMonitor
-:
 async
-function
+getHARFromNetMonitor
 (
 )
 {
@@ -17918,10 +17706,8 @@ har
 log
 ;
 }
-addRequestFinishedListener
-:
 async
-function
+addRequestFinishedListener
 (
 listener
 )
@@ -17944,10 +17730,8 @@ listener
 )
 ;
 }
-removeRequestFinishedListener
-:
 async
-function
+removeRequestFinishedListener
 (
 listener
 )
@@ -18021,10 +17805,8 @@ null
 ;
 }
 }
-fetchResponseContent
-:
 async
-function
+fetchResponseContent
 (
 requestId
 )
@@ -18049,8 +17831,6 @@ requestId
 ;
 }
 listWebExtensions
-:
-function
 (
 )
 {
@@ -18090,8 +17870,6 @@ pref
 ;
 }
 registerWebExtension
-:
-function
 (
 extensionUUID
 {
@@ -18127,8 +17905,6 @@ extensionUUID
 ;
 }
 unregisterWebExtension
-:
-function
 (
 extensionUUID
 )
@@ -18156,8 +17932,6 @@ extensionUUID
 ;
 }
 isWebExtensionEnabled
-:
-function
 (
 extensionUUID
 )
@@ -18192,8 +17966,6 @@ false
 ;
 }
 getTelemetryPanelNameOrOther
-:
-function
 (
 id
 )

@@ -685,8 +685,6 @@ setState
 (
 {
 defaultCursor
-:
-defaultCursor
 }
 )
 ;

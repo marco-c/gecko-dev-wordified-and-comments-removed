@@ -314,8 +314,6 @@ source
 :
 resp
 contentType
-:
-contentType
 }
 ;
 return

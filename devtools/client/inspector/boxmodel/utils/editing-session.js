@@ -47,8 +47,6 @@ prototype
 =
 {
 getPropertyFromRule
-:
-function
 (
 rule
 property
@@ -113,8 +111,6 @@ property
 ;
 }
 getProperty
-:
-function
 (
 property
 )
@@ -245,8 +241,6 @@ return
 ;
 }
 getPropertyIndex
-:
-function
 (
 name
 rule
@@ -570,8 +564,6 @@ apply
 }
 }
 destroy
-:
-function
 (
 )
 {

@@ -361,8 +361,6 @@ ActorClassWithSpec
 watcherSpec
 {
 initialize
-:
-function
 (
 conn
 sessionContext
@@ -644,8 +642,6 @@ type
 ;
 }
 destroy
-:
-function
 (
 )
 {

@@ -180,8 +180,6 @@ Proxy
 store
 {
 set
-:
-function
 (
 target
 property

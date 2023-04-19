@@ -403,8 +403,6 @@ prototype
 =
 {
 show
-:
-function
 (
 event
 )
@@ -450,8 +448,6 @@ e
 }
 }
 _openMenu
-:
-function
 (
 {
 target
@@ -1449,8 +1445,6 @@ menu
 ;
 }
 _hasTextSelected
-:
-function
 (
 )
 {
@@ -1550,8 +1544,6 @@ hasTextSelected
 ;
 }
 _getClickedNodeInfo
-:
-function
 (
 )
 {
@@ -1576,8 +1568,6 @@ node
 ;
 }
 _isColorPopup
-:
-function
 (
 )
 {
@@ -1648,8 +1638,6 @@ true
 ;
 }
 _isImageUrl
-:
-function
 (
 )
 {
@@ -1682,8 +1670,6 @@ VIEW_NODE_IMAGE_URL_TYPE
 ;
 }
 _getClickedNode
-:
-function
 (
 )
 {
@@ -1723,8 +1709,6 @@ node
 ;
 }
 _onSelectAll
-:
-function
 (
 )
 {
@@ -1784,8 +1768,6 @@ element
 }
 }
 _onCopy
-:
-function
 (
 )
 {
@@ -1802,8 +1784,6 @@ currentTarget
 ;
 }
 _onCopyColor
-:
-function
 (
 )
 {
@@ -1818,8 +1798,6 @@ _colorToCopy
 ;
 }
 _onCopyUrl
-:
-function
 (
 )
 {
@@ -1940,8 +1918,6 @@ message
 ;
 }
 _onCopyLocation
-:
-function
 (
 )
 {
@@ -1969,8 +1945,6 @@ value
 ;
 }
 _onCopyDeclaration
-:
-function
 (
 )
 {
@@ -2009,8 +1983,6 @@ stringifyProperty
 ;
 }
 _onCopyPropertyName
-:
-function
 (
 )
 {
@@ -2040,8 +2012,6 @@ property
 ;
 }
 _onCopyPropertyValue
-:
-function
 (
 )
 {
@@ -2071,8 +2041,6 @@ value
 ;
 }
 _onCopyRule
-:
-function
 (
 )
 {
@@ -2111,8 +2079,6 @@ stringifyRule
 ;
 }
 _onCopySelector
-:
-function
 (
 )
 {
@@ -2140,8 +2106,6 @@ value
 ;
 }
 _onToggleOrigSources
-:
-function
 (
 )
 {
@@ -2170,8 +2134,6 @@ isEnabled
 ;
 }
 destroy
-:
-function
 (
 )
 {

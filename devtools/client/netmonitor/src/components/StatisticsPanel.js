@@ -918,8 +918,6 @@ MDNLink
 (
 {
 url
-:
-url
 title
 :
 CHARTS_LEARN_MORE

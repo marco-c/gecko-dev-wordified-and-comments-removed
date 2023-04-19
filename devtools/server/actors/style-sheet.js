@@ -745,8 +745,6 @@ ActorClassWithSpec
 styleSheetSpec
 {
 toString
-:
-function
 (
 )
 {
@@ -990,8 +988,6 @@ _styleSheetIndex
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -1044,8 +1040,6 @@ this
 ;
 }
 initialize
-:
-function
 (
 styleSheet
 parentActor
@@ -1152,8 +1146,6 @@ window
 }
 }
 hasRulesModifiedByCSSOM
-:
-function
 (
 )
 {
@@ -1169,8 +1161,6 @@ rawSheet
 ;
 }
 getCSSRules
-:
-function
 (
 )
 {
@@ -1302,8 +1292,6 @@ _cssRules
 ;
 }
 form
-:
-function
 (
 )
 {
@@ -1504,8 +1492,6 @@ form
 ;
 }
 toggleDisabled
-:
-function
 (
 )
 {
@@ -1540,8 +1526,6 @@ disabled
 ;
 }
 _notifyPropertyChanged
-:
-function
 (
 property
 )
@@ -1568,8 +1552,6 @@ property
 ;
 }
 getText
-:
-function
 (
 )
 {
@@ -1605,8 +1587,6 @@ text
 ;
 }
 _getText
-:
-function
 (
 )
 {
@@ -1663,8 +1643,6 @@ text
 ;
 }
 getMediaRules
-:
-function
 (
 )
 {
@@ -1677,8 +1655,6 @@ _getMediaRules
 ;
 }
 _getMediaRules
-:
-function
 (
 )
 {
@@ -1775,8 +1751,6 @@ mediaRules
 ;
 }
 update
-:
-function
 (
 text
 transition
@@ -1892,8 +1866,6 @@ rules
 ;
 }
 _startTransition
-:
-function
 (
 kind
 cause
@@ -1970,8 +1942,6 @@ TRANSITION_BUFFER_MS
 ;
 }
 _onTransitionEnd
-:
-function
 (
 kind
 cause

@@ -99,8 +99,6 @@ prototype
 =
 {
 write
-:
-function
 (
 fnArgs
 ctx
@@ -213,8 +211,6 @@ ret
 ;
 }
 read
-:
-function
 (
 packet
 ctx
@@ -335,8 +331,6 @@ prototype
 =
 {
 write
-:
-function
 (
 arg
 ctx
@@ -355,8 +349,6 @@ ctx
 ;
 }
 read
-:
-function
 (
 v
 ctx
@@ -434,8 +426,6 @@ Arg
 prototype
 {
 write
-:
-function
 (
 arg
 ctx
@@ -484,8 +474,6 @@ ctx
 ;
 }
 read
-:
-function
 (
 v
 ctx

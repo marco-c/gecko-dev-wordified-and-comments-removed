@@ -214,8 +214,6 @@ _pauseAndRespond
 frame
 {
 type
-:
-type
 message
 :
 label

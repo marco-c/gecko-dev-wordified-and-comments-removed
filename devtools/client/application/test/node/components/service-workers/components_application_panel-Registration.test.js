@@ -409,8 +409,6 @@ isDebugEnabled
 :
 false
 registration
-:
-registration
 store
 }
 )

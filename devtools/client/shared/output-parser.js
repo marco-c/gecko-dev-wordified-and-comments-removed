@@ -486,8 +486,6 @@ prototype
 =
 {
 parseCssProperty
-:
-function
 (
 name
 value
@@ -689,8 +687,6 @@ _toDOM
 ;
 }
 _parseMatchingParens
-:
-function
 (
 text
 tokenStream
@@ -1016,8 +1012,6 @@ sawVariable
 ;
 }
 _parseVariable
-:
-function
 (
 initialToken
 text
@@ -1380,8 +1374,6 @@ varValue
 ;
 }
 _doParse
-:
-function
 (
 text
 options
@@ -2792,8 +2784,6 @@ result
 ;
 }
 _parse
-:
-function
 (
 text
 options
@@ -2839,8 +2829,6 @@ false
 ;
 }
 _isDisplayFlex
-:
-function
 (
 text
 token
@@ -2882,8 +2870,6 @@ flex
 ;
 }
 _isDisplayGrid
-:
-function
 (
 text
 token
@@ -2925,8 +2911,6 @@ grid
 ;
 }
 _appendCubicBezier
-:
-function
 (
 bezier
 options
@@ -3035,8 +3019,6 @@ container
 ;
 }
 _appendHighlighterToggle
-:
-function
 (
 text
 className
@@ -3118,8 +3100,6 @@ container
 ;
 }
 _appendShape
-:
-function
 (
 shape
 options
@@ -3374,8 +3354,6 @@ container
 ;
 }
 _addPolygonPointNodes
-:
-function
 (
 coords
 container
@@ -4187,8 +4165,6 @@ container
 ;
 }
 _addCirclePointNodes
-:
-function
 (
 coords
 container
@@ -5066,8 +5042,6 @@ container
 ;
 }
 _addEllipsePointNodes
-:
-function
 (
 coords
 container
@@ -6028,8 +6002,6 @@ container
 ;
 }
 _addInsetPointNodes
-:
-function
 (
 coords
 container
@@ -6831,8 +6803,6 @@ container
 ;
 }
 _appendAngle
-:
-function
 (
 angle
 options
@@ -7010,8 +6980,6 @@ container
 ;
 }
 _cssPropertySupportsValue
-:
-function
 (
 name
 value
@@ -7044,8 +7012,6 @@ declaration
 ;
 }
 _isValidColor
-:
-function
 (
 colorObj
 )
@@ -7078,8 +7044,6 @@ transparent
 ;
 }
 _appendColor
-:
-function
 (
 color
 options
@@ -7391,8 +7355,6 @@ color
 }
 }
 _wrapFilter
-:
-function
 (
 filters
 options
@@ -7502,8 +7464,6 @@ container
 ;
 }
 _onColorSwatchMouseDown
-:
-function
 (
 event
 )
@@ -7585,8 +7545,6 @@ val
 ;
 }
 _onAngleSwatchMouseDown
-:
-function
 (
 event
 )
@@ -7658,8 +7616,6 @@ val
 ;
 }
 _sanitizeURL
-:
-function
 (
 url
 )
@@ -7693,8 +7649,6 @@ true
 ;
 }
 _appendURL
-:
-function
 (
 match
 url
@@ -7861,8 +7815,6 @@ options
 .
 urlClass
 href
-:
-href
 }
 body
 )
@@ -7887,8 +7839,6 @@ match
 }
 }
 _appendFontFamily
-:
-function
 (
 fontFamily
 options
@@ -8077,8 +8027,6 @@ _appendTextNode
 }
 }
 _createNode
-:
-function
 (
 tagName
 attributes
@@ -8170,8 +8118,6 @@ node
 ;
 }
 _appendNode
-:
-function
 (
 tagName
 attributes
@@ -8204,8 +8150,6 @@ node
 ;
 }
 _appendTextNode
-:
-function
 (
 text
 )
@@ -8270,8 +8214,6 @@ text
 }
 }
 _toDOM
-:
-function
 (
 )
 {
@@ -8347,8 +8289,6 @@ frag
 ;
 }
 _mergeOptions
-:
-function
 (
 overrides
 )

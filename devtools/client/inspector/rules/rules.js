@@ -1834,8 +1834,6 @@ selector
 }
 }
 isPanelVisible
-:
-function
 (
 )
 {
@@ -2508,8 +2506,6 @@ _onToggleDarkColorSchemeSimulation
 }
 }
 getNodeInfo
-:
-function
 (
 node
 )
@@ -2524,10 +2520,8 @@ _elementStyle
 )
 ;
 }
-getNodeCompatibilityInfo
-:
 async
-function
+getNodeCompatibilityInfo
 (
 node
 )
@@ -2549,8 +2543,6 @@ compatibilityInfo
 ;
 }
 _onContextMenu
-:
-function
 (
 event
 )
@@ -2631,8 +2623,6 @@ event
 ;
 }
 _onCopy
-:
-function
 (
 event
 )
@@ -2666,8 +2656,6 @@ stopPropagation
 }
 }
 copySelection
-:
-function
 (
 target
 )
@@ -2858,8 +2846,6 @@ e
 }
 }
 _onAddRule
-:
-function
 (
 )
 {
@@ -2985,8 +2971,6 @@ break
 ;
 }
 refreshAddRuleButtonState
-:
-function
 (
 )
 {
@@ -3065,8 +3049,6 @@ length
 ;
 }
 _handleUAStylePrefChange
-:
-function
 (
 )
 {
@@ -3092,8 +3074,6 @@ PREF_UA_STYLES
 ;
 }
 _handleDefaultColorUnitPrefChange
-:
-function
 (
 )
 {
@@ -3106,8 +3086,6 @@ PREF_DEFAULT_COLOR_UNIT
 ;
 }
 _handleDraggablePrefChange
-:
-function
 (
 )
 {
@@ -3126,8 +3104,6 @@ updated
 ;
 }
 _handlePrefChange
-:
-function
 (
 pref
 )
@@ -3166,8 +3142,6 @@ true
 }
 }
 setFilterStyles
-:
-function
 (
 value
 =
@@ -3199,8 +3173,6 @@ _onFilterStyles
 ;
 }
 _onFilterStyles
-:
-function
 (
 )
 {
@@ -3583,8 +3555,6 @@ filterTimeout
 ;
 }
 _onClearSearch
-:
-function
 (
 )
 {
@@ -3614,8 +3584,6 @@ false
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -4113,8 +4081,6 @@ null
 }
 }
 _startSelectingElement
-:
-function
 (
 )
 {
@@ -4135,8 +4101,6 @@ interactive
 ;
 }
 _stopSelectingElement
-:
-function
 (
 )
 {
@@ -4157,8 +4121,6 @@ interactive
 ;
 }
 selectElement
-:
-function
 (
 element
 allowRefresh
@@ -4568,8 +4530,6 @@ e
 ;
 }
 refreshPanel
-:
-function
 (
 )
 {
@@ -4666,8 +4626,6 @@ _populate
 ;
 }
 clearPseudoClassPanel
-:
-function
 (
 )
 {
@@ -4698,8 +4656,6 @@ false
 ;
 }
 _createPseudoClassCheckboxes
-:
-function
 (
 )
 {
@@ -4835,8 +4791,6 @@ checkbox
 ;
 }
 refreshPseudoClassPanel
-:
-function
 (
 )
 {
@@ -4927,8 +4881,6 @@ value
 ;
 }
 _populate
-:
-function
 (
 )
 {
@@ -5033,8 +4985,6 @@ promiseWarn
 ;
 }
 _showEmpty
-:
-function
 (
 )
 {
@@ -5103,8 +5053,6 @@ empty
 ;
 }
 _clearRules
-:
-function
 (
 )
 {
@@ -5119,8 +5067,6 @@ innerHTML
 ;
 }
 clear
-:
-function
 (
 clearDom
 =
@@ -5199,8 +5145,6 @@ null
 }
 }
 _changed
-:
-function
 (
 )
 {
@@ -5333,8 +5277,6 @@ _showPseudoElements
 ;
 }
 createExpandableContainer
-:
-function
 (
 label
 isPseudo
@@ -5600,8 +5542,6 @@ container
 ;
 }
 _toggleContainerVisibility
-:
-function
 (
 twisty
 container
@@ -5755,8 +5695,6 @@ label
 }
 }
 _getRuleViewHeaderClassName
-:
-function
 (
 isPseudo
 )
@@ -5787,8 +5725,6 @@ baseClassName
 ;
 }
 _createEditors
-:
-function
 (
 )
 {
@@ -6288,8 +6224,6 @@ editorReadyPromises
 ;
 }
 highlightRule
-:
-function
 (
 rule
 )
@@ -6374,8 +6308,6 @@ isHighlighted
 ;
 }
 _highlightRuleSelector
-:
-function
 (
 rule
 )
@@ -6532,8 +6464,6 @@ isSelectorHighlighted
 ;
 }
 _highlightAncestorRules
-:
-function
 (
 rule
 )
@@ -6660,8 +6590,6 @@ isHighlighted
 ;
 }
 _highlightStyleSheet
-:
-function
 (
 rule
 )
@@ -6733,8 +6661,6 @@ isStyleSheetHighlighted
 ;
 }
 _highlightProperty
-:
-function
 (
 editor
 )
@@ -6798,8 +6724,6 @@ isComputedHighlighted
 ;
 }
 _updatePropertyHighlight
-:
-function
 (
 editor
 )
@@ -6864,8 +6788,6 @@ match
 }
 }
 _highlightRuleProperty
-:
-function
 (
 editor
 )
@@ -6910,8 +6832,6 @@ propertyValue
 ;
 }
 _highlightComputedProperty
-:
-function
 (
 editor
 )
@@ -6992,8 +6912,6 @@ isComputedHighlighted
 ;
 }
 _highlightMatches
-:
-function
 (
 element
 propertyName
@@ -7135,8 +7053,6 @@ matches
 ;
 }
 _clearHighlight
-:
-function
 (
 element
 )
@@ -7209,8 +7125,6 @@ collapseForFilter
 }
 }
 _onTogglePseudoClassPanel
-:
-function
 (
 )
 {
@@ -7241,8 +7155,6 @@ hidePseudoClassPanel
 }
 }
 showPseudoClassPanel
-:
-function
 (
 )
 {
@@ -7300,8 +7212,6 @@ false
 ;
 }
 hidePseudoClassPanel
-:
-function
 (
 )
 {
@@ -7354,8 +7264,6 @@ true
 ;
 }
 _onTogglePseudoClass
-:
-function
 (
 event
 )
@@ -7380,8 +7288,6 @@ value
 ;
 }
 _onToggleClassPanel
-:
-function
 (
 )
 {
@@ -7412,8 +7318,6 @@ hideClassPanel
 }
 }
 showClassPanel
-:
-function
 (
 )
 {
@@ -7454,8 +7358,6 @@ focusAddClassField
 ;
 }
 hideClassPanel
-:
-function
 (
 )
 {
@@ -7482,8 +7384,6 @@ true
 ;
 }
 _onShortcut
-:
-function
 (
 name
 event
@@ -8106,8 +8006,6 @@ true
 ;
 }
 highlightElementRule
-:
-function
 (
 ruleId
 )
@@ -8246,8 +8144,6 @@ element
 }
 }
 highlightProperty
-:
-function
 (
 name
 )
@@ -8831,8 +8727,6 @@ prototype
 =
 {
 isPanelVisible
-:
-function
 (
 )
 {
@@ -8859,8 +8753,6 @@ isPanelVisible
 ;
 }
 onDetachedFront
-:
-function
 (
 )
 {
@@ -8873,8 +8765,6 @@ false
 ;
 }
 onSelected
-:
-function
 (
 selectElement
 =
@@ -9008,8 +8898,6 @@ done
 ;
 }
 refresh
-:
-function
 (
 )
 {
@@ -9033,8 +8921,6 @@ refreshPanel
 }
 }
 _onResourceAvailable
-:
-function
 (
 resources
 )
@@ -9098,8 +8984,6 @@ clearUserProperties
 }
 }
 clearUserProperties
-:
-function
 (
 )
 {
@@ -9141,8 +9025,6 @@ clear
 }
 }
 onPanelSelected
-:
-function
 (
 )
 {
@@ -9183,8 +9065,6 @@ onSelected
 }
 }
 onViewRefreshed
-:
-function
 (
 )
 {
@@ -9205,8 +9085,6 @@ refreshed
 ;
 }
 destroy
-:
-function
 (
 )
 {

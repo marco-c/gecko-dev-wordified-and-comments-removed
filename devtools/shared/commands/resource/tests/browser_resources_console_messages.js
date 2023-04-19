@@ -2541,8 +2541,6 @@ inAsmJS1
 null
 {
 fromAsmJS
-:
-fromAsmJS
 }
 )
 (

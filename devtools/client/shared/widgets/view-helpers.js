@@ -145,8 +145,6 @@ ViewHelpers
 =
 {
 dispatchEvent
-:
-function
 (
 target
 type
@@ -222,8 +220,6 @@ event
 ;
 }
 delegateWidgetAttributeMethods
-:
-function
 (
 widget
 node
@@ -285,8 +281,6 @@ node
 ;
 }
 delegateWidgetEventMethods
-:
-function
 (
 widget
 node
@@ -330,8 +324,6 @@ node
 ;
 }
 isEventEmitter
-:
-function
 (
 object
 )
@@ -362,8 +354,6 @@ emit
 ;
 }
 isNode
-:
-function
 (
 object
 )
@@ -395,8 +385,6 @@ DocumentFragment
 ;
 }
 preventScrolling
-:
-function
 (
 e
 )
@@ -463,8 +451,6 @@ stopPropagation
 }
 }
 isSpaceOrReturn
-:
-function
 (
 event
 )
@@ -495,8 +481,6 @@ DOM_VK_RETURN
 ;
 }
 togglePane
-:
-function
 (
 flags
 pane
@@ -996,8 +980,6 @@ _prebuiltNode
 ;
 }
 append
-:
-function
 (
 element
 options
@@ -1091,8 +1073,6 @@ item
 ;
 }
 remove
-:
-function
 (
 item
 )
@@ -1126,8 +1106,6 @@ item
 ;
 }
 _entangleItem
-:
-function
 (
 item
 element
@@ -1151,8 +1129,6 @@ element
 ;
 }
 _untangleItem
-:
-function
 (
 item
 )
@@ -1203,8 +1179,6 @@ null
 ;
 }
 _unlinkItem
-:
-function
 (
 item
 )
@@ -1222,8 +1196,6 @@ _target
 ;
 }
 stringify
-:
-function
 (
 )
 {

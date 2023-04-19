@@ -162,8 +162,6 @@ prototype
 =
 {
 send
-:
-function
 (
 packet
 )
@@ -350,8 +348,6 @@ onPacket
 }
 }
 startBulkSend
-:
-function
 (
 {
 actor
@@ -485,13 +481,7 @@ packet
 =
 {
 actor
-:
-actor
 type
-:
-type
-length
-:
 length
 copyTo
 :
@@ -680,8 +670,6 @@ close
 ;
 }
 close
-:
-function
 (
 )
 {
@@ -762,15 +750,11 @@ null
 }
 }
 ready
-:
-function
 (
 )
 {
 }
 _deepFreeze
-:
-function
 (
 object
 )

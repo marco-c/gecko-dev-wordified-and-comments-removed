@@ -281,8 +281,6 @@ ActorClassWithSpec
 inspectorSpec
 {
 initialize
-:
-function
 (
 conn
 targetActor
@@ -349,8 +347,6 @@ this
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -418,8 +414,6 @@ window
 ;
 }
 getWalker
-:
-function
 (
 options
 =
@@ -641,8 +635,6 @@ _walkerPromise
 ;
 }
 getPageStyle
-:
-function
 (
 )
 {
@@ -703,8 +695,6 @@ _pageStylePromise
 ;
 }
 getCompatibility
-:
-function
 (
 )
 {
@@ -745,10 +735,8 @@ this
 _compatibility
 ;
 }
-getHighlighterByType
-:
 async
-function
+getHighlighterByType
 (
 typeName
 )
@@ -796,8 +784,6 @@ null
 ;
 }
 getImageDataFromURL
-:
-function
 (
 url
 maxDim
@@ -861,8 +847,6 @@ size
 ;
 }
 resolveRelativeURL
-:
-function
 (
 url
 node
@@ -935,8 +919,6 @@ spec
 ;
 }
 createEyeDropper
-:
-function
 (
 )
 {
@@ -987,8 +969,6 @@ isReady
 ;
 }
 destroyEyeDropper
-:
-function
 (
 )
 {
@@ -1035,10 +1015,8 @@ null
 ;
 }
 }
-pickColorFromPage
-:
 async
-function
+pickColorFromPage
 (
 options
 )
@@ -1112,8 +1090,6 @@ destroyEyeDropper
 ;
 }
 cancelPickColorFromPage
-:
-function
 (
 )
 {
@@ -1179,8 +1155,6 @@ destroyEyeDropper
 }
 }
 supportsHighlighters
-:
-function
 (
 )
 {
@@ -1235,8 +1209,6 @@ true
 ;
 }
 _onColorPicked
-:
-function
 (
 color
 )
@@ -1255,8 +1227,6 @@ color
 ;
 }
 _onColorPickCanceled
-:
-function
 (
 )
 {

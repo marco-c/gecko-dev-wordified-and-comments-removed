@@ -77,10 +77,8 @@ SelectorHighlighter
 prototype
 =
 {
-show
-:
 async
-function
+show
 (
 node
 options
@@ -211,10 +209,8 @@ return
 true
 ;
 }
-_showHighlighter
-:
 async
-function
+_showHighlighter
 (
 node
 options
@@ -255,8 +251,6 @@ highlighter
 ;
 }
 hide
-:
-function
 (
 )
 {
@@ -286,8 +280,6 @@ _highlighters
 ;
 }
 destroy
-:
-function
 (
 )
 {

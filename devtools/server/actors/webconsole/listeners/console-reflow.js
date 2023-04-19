@@ -89,8 +89,6 @@ listener
 :
 null
 sendReflow
-:
-function
 (
 start
 end
@@ -147,13 +145,7 @@ onReflowActivity
 (
 {
 interruptible
-:
-interruptible
 start
-:
-start
-end
-:
 end
 sourceURL
 :
@@ -181,8 +173,6 @@ null
 ;
 }
 reflow
-:
-function
 (
 start
 end
@@ -199,8 +189,6 @@ false
 ;
 }
 reflowInterruptible
-:
-function
 (
 start
 end
@@ -217,8 +205,6 @@ true
 ;
 }
 destroy
-:
-function
 (
 )
 {

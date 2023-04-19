@@ -214,8 +214,6 @@ key
 "
 )
 modifiers
-:
-modifiers
 modifierOpt
 :
 {
@@ -271,8 +269,6 @@ accel
 )
 }
 synthesizeKey
-:
-function
 (
 )
 {

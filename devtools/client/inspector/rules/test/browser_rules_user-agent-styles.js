@@ -897,8 +897,6 @@ matchedSelectors
 :
 true
 filter
-:
-filter
 }
 )
 ;

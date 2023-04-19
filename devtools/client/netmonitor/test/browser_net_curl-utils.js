@@ -2331,8 +2331,6 @@ push
 (
 {
 name
-:
-name
 value
 :
 text

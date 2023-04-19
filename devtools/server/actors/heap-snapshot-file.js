@@ -96,8 +96,6 @@ ActorClassWithSpec
 heapSnapshotFileSpec
 {
 initialize
-:
-function
 (
 conn
 parent

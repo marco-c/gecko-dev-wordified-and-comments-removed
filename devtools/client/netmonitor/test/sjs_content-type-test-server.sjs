@@ -199,8 +199,6 @@ observer2
 =
 {
 onStreamComplete
-:
-function
 (
 loader
 context
@@ -2679,8 +2677,6 @@ observer
 =
 {
 onStreamComplete
-:
-function
 (
 loader
 context

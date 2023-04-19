@@ -138,8 +138,6 @@ ActorClassWithSpec
 perfSpec
 {
 initialize
-:
-function
 (
 conn
 targetActor
@@ -185,8 +183,6 @@ stopped
 ;
 }
 destroy
-:
-function
 (
 conn
 )

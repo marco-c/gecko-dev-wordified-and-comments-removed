@@ -650,8 +650,6 @@ prototype
 =
 {
 buildMarkup
-:
-function
 (
 )
 {
@@ -778,8 +776,6 @@ _cssProperties
 }
 }
 renderOpenTag
-:
-function
 (
 )
 {
@@ -962,8 +958,6 @@ closingBracket
 ;
 }
 renderAttributes
-:
-function
 (
 containerEl
 )
@@ -994,8 +988,6 @@ attrList
 ;
 }
 renderNewAttributeEditor
-:
-function
 (
 containerEl
 )
@@ -1223,8 +1215,6 @@ _cssProperties
 ;
 }
 renderEventBadge
-:
-function
 (
 )
 {
@@ -1287,8 +1277,6 @@ expandBadge
 ;
 }
 renderCloseTag
-:
-function
 (
 )
 {
@@ -1451,8 +1439,6 @@ value
 }
 }
 flashAttribute
-:
-function
 (
 attrName
 )
@@ -1544,8 +1530,6 @@ CONTAINER_FLASHING_DURATION
 ;
 }
 getInfoAtNode
-:
-function
 (
 node
 )
@@ -1628,8 +1612,6 @@ node
 ;
 }
 update
-:
-function
 (
 )
 {
@@ -1881,8 +1863,6 @@ updateOverflowHighlight
 ;
 }
 updateEventBadge
-:
-function
 (
 )
 {
@@ -1942,8 +1922,6 @@ _createEventBadge
 }
 }
 _createEventBadge
-:
-function
 (
 )
 {
@@ -2052,8 +2030,6 @@ event
 ;
 }
 updateScrollableBadge
-:
-function
 (
 )
 {
@@ -2112,8 +2088,6 @@ null
 }
 }
 _createScrollableBadge
-:
-function
 (
 )
 {
@@ -2268,8 +2242,6 @@ _customBadge
 ;
 }
 updateDisplayBadge
-:
-function
 (
 )
 {
@@ -2345,8 +2317,6 @@ _updateDisplayBadgeContent
 }
 }
 _createDisplayBadge
-:
-function
 (
 )
 {
@@ -2407,8 +2377,6 @@ _customBadge
 ;
 }
 _updateDisplayBadgeContent
-:
-function
 (
 )
 {
@@ -2541,8 +2509,6 @@ isInteractive
 ;
 }
 updateOverflowBadge
-:
-function
 (
 )
 {
@@ -2612,8 +2578,6 @@ null
 }
 }
 _createOverflowBadge
-:
-function
 (
 )
 {
@@ -2701,8 +2665,6 @@ _customBadge
 ;
 }
 updateCustomBadge
-:
-function
 (
 )
 {
@@ -2764,8 +2726,6 @@ _createCustomBadge
 }
 }
 _createCustomBadge
-:
-function
 (
 )
 {
@@ -2864,10 +2824,8 @@ _customBadge
 )
 ;
 }
-updateOverflowHighlight
-:
 async
-function
+updateOverflowHighlight
 (
 )
 {
@@ -2961,8 +2919,6 @@ showOverflowHighlight
 ;
 }
 setOverflowHighlight
-:
-function
 (
 showOverflowHighlight
 )
@@ -2989,8 +2945,6 @@ showOverflowHighlight
 ;
 }
 updateTextEditor
-:
-function
 (
 )
 {
@@ -3130,8 +3084,6 @@ childrenUnavailableElt
 ;
 }
 updateUnavailableChildren
-:
-function
 (
 )
 {
@@ -3266,8 +3218,6 @@ close
 }
 }
 _startModifyingAttributes
-:
-function
 (
 )
 {
@@ -3282,8 +3232,6 @@ startModifyingAttributes
 ;
 }
 getAttributeElement
-:
-function
 (
 attrName
 )
@@ -3323,8 +3271,6 @@ value
 ;
 }
 removeAttribute
-:
-function
 (
 attrName
 )
@@ -3364,8 +3310,6 @@ remove
 }
 }
 _createAttribute
-:
-function
 (
 attribute
 before
@@ -3755,8 +3699,6 @@ attr
 ;
 }
 _setupAttributeEditor
-:
-function
 (
 attribute
 attrEditorEl
@@ -3910,8 +3852,6 @@ true
 selectAll
 :
 false
-initial
-:
 initial
 multiline
 :
@@ -4187,8 +4127,6 @@ _cssProperties
 ;
 }
 _appendAttributeValue
-:
-function
 (
 attribute
 attributeValueEl
@@ -4379,8 +4317,6 @@ link
 }
 }
 _truncateAttributeValue
-:
-function
 (
 value
 )
@@ -4427,8 +4363,6 @@ value
 ;
 }
 _applyAttributes
-:
-function
 (
 value
 attrNode
@@ -4494,8 +4428,6 @@ value
 }
 }
 _saveAttribute
-:
-function
 (
 name
 undoMods
@@ -4549,8 +4481,6 @@ name
 }
 }
 refocusOnEdit
-:
-function
 (
 attrName
 attrNode
@@ -5022,10 +4952,8 @@ onMutations
 )
 ;
 }
-onDisplayBadgeClick
-:
 async
-function
+onDisplayBadgeClick
 (
 event
 )
@@ -5167,10 +5095,8 @@ markup
 ;
 }
 }
-onCustomBadgeClick
-:
 async
-function
+onCustomBadgeClick
 (
 )
 {
@@ -5206,8 +5132,6 @@ show_custom_element
 ;
 }
 onExpandBadgeClick
-:
-function
 (
 )
 {
@@ -5220,10 +5144,8 @@ expandContainer
 )
 ;
 }
-onScrollableBadgeClick
-:
 async
-function
+onScrollableBadgeClick
 (
 )
 {
@@ -5343,8 +5265,6 @@ clicked
 ;
 }
 onTagEdit
-:
-function
 (
 newTagName
 isCommit
@@ -5440,8 +5360,6 @@ cancelReselectOnRemoved
 ;
 }
 destroy
-:
-function
 (
 )
 {

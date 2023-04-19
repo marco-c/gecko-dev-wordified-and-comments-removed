@@ -58,8 +58,6 @@ cacheSession
 :
 null
 initializeCacheSession
-:
-function
 (
 request
 )
@@ -136,8 +134,6 @@ false
 }
 }
 parseCacheDescriptor
-:
-function
 (
 descriptor
 )
@@ -258,8 +254,6 @@ descriptorObj
 ;
 }
 getCacheEntry
-:
-function
 (
 request
 onCacheDescriptorAvailable

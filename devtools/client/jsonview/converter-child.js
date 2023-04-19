@@ -270,8 +270,6 @@ this
 ;
 }
 convert
-:
-function
 (
 fromStream
 fromType
@@ -284,8 +282,6 @@ fromStream
 ;
 }
 asyncConvertData
-:
-function
 (
 fromType
 toType
@@ -301,8 +297,6 @@ listener
 ;
 }
 getConvertedType
-:
-function
 (
 fromType
 channel
@@ -317,8 +311,6 @@ html
 ;
 }
 onDataAvailable
-:
-function
 (
 request
 inputStream
@@ -356,8 +348,6 @@ buffer
 ;
 }
 onStartRequest
-:
-function
 (
 request
 )
@@ -634,8 +624,6 @@ available
 ;
 }
 onStopRequest
-:
-function
 (
 request
 statusCode
@@ -694,8 +682,6 @@ null
 ;
 }
 decodeAndInsertBuffer
-:
-function
 (
 buffer
 flush
@@ -947,8 +933,6 @@ visitResponseHeaders
 (
 {
 visitHeader
-:
-function
 (
 name
 value
@@ -962,10 +946,6 @@ push
 (
 {
 name
-:
-name
-value
-:
 value
 }
 )
@@ -980,8 +960,6 @@ visitRequestHeaders
 (
 {
 visitHeader
-:
-function
 (
 name
 value
@@ -995,10 +973,6 @@ push
 (
 {
 name
-:
-name
-value
-:
 value
 }
 )
@@ -1771,8 +1745,6 @@ exports
 JsonViewService
 =
 {
-createInstance
-:
 createInstance
 }
 ;

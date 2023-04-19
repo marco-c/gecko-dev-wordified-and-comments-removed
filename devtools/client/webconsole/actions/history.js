@@ -39,8 +39,6 @@ type
 :
 APPEND_TO_HISTORY
 expression
-:
-expression
 }
 ;
 }

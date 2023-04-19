@@ -440,8 +440,6 @@ modifier
 :
 true
 preventDefault
-:
-function
 (
 )
 {

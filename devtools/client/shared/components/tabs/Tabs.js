@@ -1807,8 +1807,6 @@ key
 :
 id
 style
-:
-style
 className
 :
 selected

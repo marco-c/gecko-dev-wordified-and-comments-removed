@@ -507,8 +507,6 @@ list
 transferred
 "
 title
-:
-title
 }
 text
 )

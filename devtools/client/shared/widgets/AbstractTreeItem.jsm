@@ -195,8 +195,6 @@ autoExpandDepth
 :
 0
 _displaySelf
-:
-function
 (
 document
 arrowNode
@@ -223,8 +221,6 @@ classes
 ;
 }
 _populateSelf
-:
-function
 (
 children
 )
@@ -372,8 +368,6 @@ _containerNode
 ;
 }
 attachTo
-:
-function
 (
 containerNode
 fragmentNode
@@ -444,8 +438,6 @@ expand
 }
 }
 remove
-:
-function
 (
 )
 {
@@ -473,8 +465,6 @@ length
 ;
 }
 focus
-:
-function
 (
 )
 {
@@ -488,8 +478,6 @@ focus
 ;
 }
 expand
-:
-function
 (
 )
 {
@@ -556,8 +544,6 @@ this
 ;
 }
 collapse
-:
-function
 (
 )
 {
@@ -623,8 +609,6 @@ this
 ;
 }
 getChild
-:
-function
 (
 index
 =
@@ -641,8 +625,6 @@ index
 ;
 }
 traverse
-:
-function
 (
 cb
 )
@@ -671,8 +653,6 @@ bfs
 }
 }
 find
-:
-function
 (
 predicate
 )
@@ -713,8 +693,6 @@ null
 ;
 }
 _toggleChildren
-:
-function
 (
 visible
 )
@@ -772,8 +750,6 @@ _hideChildren
 }
 }
 _showChildren
-:
-function
 (
 )
 {
@@ -813,8 +789,6 @@ _appendChildrenSuccessive
 }
 }
 _hideChildren
-:
-function
 (
 )
 {
@@ -845,8 +819,6 @@ _hideChildren
 }
 }
 _appendChildrenBatch
-:
-function
 (
 )
 {
@@ -931,8 +903,6 @@ _fragment
 ;
 }
 _appendChildrenSuccessive
-:
-function
 (
 )
 {
@@ -1037,8 +1007,6 @@ _showChildren
 }
 }
 _constructTargetNode
-:
-function
 (
 )
 {
@@ -1273,8 +1241,6 @@ true
 ;
 }
 _getSiblingAtDelta
-:
-function
 (
 delta
 )
@@ -1329,8 +1295,6 @@ undefined
 ;
 }
 _getNodesPerPageSize
-:
-function
 (
 )
 {
@@ -1381,8 +1345,6 @@ nodeHeight
 ;
 }
 _getHeight
-:
-function
 (
 elem
 )
@@ -1415,8 +1377,6 @@ height
 ;
 }
 _focusFirstNode
-:
-function
 (
 )
 {
@@ -1475,8 +1435,6 @@ return
 }
 }
 _focusLastNode
-:
-function
 (
 )
 {
@@ -1504,8 +1462,6 @@ focus
 ;
 }
 _focusNextNode
-:
-function
 (
 )
 {
@@ -1533,8 +1489,6 @@ focus
 }
 }
 _focusPrevNode
-:
-function
 (
 )
 {
@@ -1563,8 +1517,6 @@ focus
 }
 }
 _focusParentNode
-:
-function
 (
 )
 {
@@ -1589,8 +1541,6 @@ focus
 }
 }
 _onArrowClick
-:
-function
 (
 e
 )
@@ -1621,8 +1571,6 @@ collapse
 }
 }
 _onClick
-:
-function
 (
 e
 )
@@ -1641,8 +1589,6 @@ focus
 ;
 }
 _onDoubleClick
-:
-function
 (
 e
 )
@@ -1680,8 +1626,6 @@ focus
 ;
 }
 _onKeyDown
-:
-function
 (
 e
 )
@@ -1912,8 +1856,6 @@ _focusLastNode
 }
 }
 _onFocus
-:
-function
 (
 e
 )
@@ -1932,8 +1874,6 @@ this
 ;
 }
 _onBlur
-:
-function
 (
 e
 )

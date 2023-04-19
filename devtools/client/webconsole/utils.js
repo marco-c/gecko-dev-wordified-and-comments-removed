@@ -37,8 +37,6 @@ WebConsoleUtils
 {
 CONSOLE_ENTRY_THRESHOLD
 supportsString
-:
-function
 (
 string
 )

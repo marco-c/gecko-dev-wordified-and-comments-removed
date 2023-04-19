@@ -230,8 +230,6 @@ descriptor
 ;
 }
 isKnownTab
-:
-function
 (
 tab
 )

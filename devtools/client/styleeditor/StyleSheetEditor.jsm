@@ -885,8 +885,6 @@ TRANSITION_PREF
 ;
 }
 linkCSSFile
-:
-function
 (
 )
 {
@@ -1221,8 +1219,6 @@ source
 ;
 }
 fetchSource
-:
-function
 (
 )
 {
@@ -1475,8 +1471,6 @@ column
 ;
 }
 onPropertyChange
-:
-function
 (
 property
 value
@@ -1497,8 +1491,6 @@ value
 ;
 }
 onStyleApplied
-:
-function
 (
 update
 )
@@ -1628,8 +1620,6 @@ applied
 }
 }
 onMediaRulesChanged
-:
-function
 (
 rules
 )
@@ -1667,8 +1657,6 @@ emitMediaRulesChanged
 ;
 }
 emitMediaRulesChanged
-:
-function
 (
 )
 {
@@ -1689,10 +1677,8 @@ mediaRules
 )
 ;
 }
-load
-:
 async
-function
+load
 (
 inputElement
 cssProperties
@@ -1996,8 +1982,6 @@ load
 ;
 }
 getSourceEditor
-:
-function
 (
 )
 {
@@ -2059,8 +2043,6 @@ self
 ;
 }
 focus
-:
-function
 (
 )
 {
@@ -2091,8 +2073,6 @@ true
 }
 }
 onShow
-:
-function
 (
 options
 =
@@ -2172,8 +2152,6 @@ error
 ;
 }
 updateStyleSheet
-:
-function
 (
 )
 {
@@ -2327,8 +2305,6 @@ e
 }
 }
 _onMouseMove
-:
-function
 (
 e
 )
@@ -2683,8 +2659,6 @@ null
 ;
 }
 saveToFile
-:
-function
 (
 file
 callback
@@ -2921,8 +2895,6 @@ defaultName
 ;
 }
 onFileSaved
-:
-function
 (
 returnFile
 )
@@ -3015,8 +2987,6 @@ CHECK_LINKED_SHEET_DELAY
 }
 }
 checkLinkedFileForChanges
-:
-function
 (
 )
 {
@@ -3122,8 +3092,6 @@ markLinkedFileBroken
 ;
 }
 markLinkedFileBroken
-:
-function
 (
 error
 )
@@ -3185,8 +3153,6 @@ error
 ;
 }
 updateLinkedStyleSheet
-:
-function
 (
 )
 {
@@ -3257,8 +3223,6 @@ markLinkedFileBroken
 ;
 }
 _getKeyBindings
-:
-function
 (
 )
 {
@@ -3389,8 +3353,6 @@ stylesheets
 ;
 }
 destroy
-:
-function
 (
 )
 {

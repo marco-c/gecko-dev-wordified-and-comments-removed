@@ -66,10 +66,8 @@ ActorClassWithSpec
 (
 spec
 {
-callSetupInParent
-:
 async
-function
+callSetupInParent
 (
 )
 {

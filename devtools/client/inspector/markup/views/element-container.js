@@ -262,8 +262,6 @@ MarkupContainer
 prototype
 {
 onContainerClick
-:
-function
 (
 event
 )
@@ -536,8 +534,6 @@ target
 ;
 }
 _getPreview
-:
-function
 (
 )
 {
@@ -804,8 +800,6 @@ true
 ;
 }
 copyImageDataUri
-:
-function
 (
 )
 {
@@ -852,8 +846,6 @@ str
 ;
 }
 setInlineTextChild
-:
-function
 (
 inlineTextChild
 )
@@ -874,8 +866,6 @@ updateTextEditor
 ;
 }
 clearInlineTextChild
-:
-function
 (
 )
 {
@@ -895,8 +885,6 @@ updateTextEditor
 ;
 }
 addAttribute
-:
-function
 (
 )
 {
@@ -912,8 +900,6 @@ editMode
 ;
 }
 editAttribute
-:
-function
 (
 attrName
 )
@@ -935,8 +921,6 @@ editMode
 ;
 }
 removeAttribute
-:
-function
 (
 attrName
 )

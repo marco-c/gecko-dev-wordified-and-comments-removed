@@ -2652,8 +2652,6 @@ getLabel
 child
 )
 type
-:
-type
 rowClass
 :
 "
@@ -2678,10 +2676,6 @@ level
 :
 level
 hasChildren
-:
-hasChildren
-value
-:
 value
 open
 :
@@ -2856,8 +2850,6 @@ active
 inactive
 "
 }
-member
-:
 member
 columns
 :

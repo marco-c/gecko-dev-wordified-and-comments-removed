@@ -191,8 +191,6 @@ return
 {
 type
 addonId
-:
-addonId
 addonBrowsingContextID
 :
 browsingContextID

@@ -388,8 +388,6 @@ docShells
 "
 {
 get
-:
-function
 (
 )
 {

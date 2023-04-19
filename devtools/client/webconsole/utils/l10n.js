@@ -43,8 +43,6 @@ l10n
 =
 {
 timestampString
-:
-function
 (
 milliseconds
 )
@@ -120,8 +118,6 @@ parameters
 ;
 }
 getStr
-:
-function
 (
 name
 )
@@ -163,8 +159,6 @@ ex
 }
 }
 getFormatStr
-:
-function
 (
 name
 array

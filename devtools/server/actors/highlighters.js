@@ -179,8 +179,6 @@ ActorClassWithSpec
 customHighlighterSpec
 {
 initialize
-:
-function
 (
 parent
 typeName
@@ -398,8 +396,6 @@ conn
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -430,8 +426,6 @@ null
 ;
 }
 release
-:
-function
 (
 )
 {
@@ -448,8 +442,6 @@ _highlighter
 ;
 }
 show
-:
-function
 (
 node
 options
@@ -488,8 +480,6 @@ options
 ;
 }
 hide
-:
-function
 (
 )
 {
@@ -511,8 +501,6 @@ hide
 }
 }
 _onHighlighterEvent
-:
-function
 (
 data
 )
@@ -531,8 +519,6 @@ data
 ;
 }
 finalize
-:
-function
 (
 )
 {
@@ -679,8 +665,6 @@ prototype
 =
 {
 initFromTargetActor
-:
-function
 (
 targetActor
 )
@@ -739,8 +723,6 @@ relayTargetActorWillNavigate
 ;
 }
 initFromWindow
-:
-function
 (
 win
 )
@@ -777,8 +759,6 @@ nsISupportsWeakReference
 ]
 )
 onStateChange
-:
-function
 (
 progress
 request
@@ -1135,8 +1115,6 @@ chromeEventHandler
 ;
 }
 relayTargetActorWindowReady
-:
-function
 (
 data
 )
@@ -1155,8 +1133,6 @@ data
 ;
 }
 relayTargetActorNavigate
-:
-function
 (
 data
 )
@@ -1173,8 +1149,6 @@ data
 ;
 }
 relayTargetActorWillNavigate
-:
-function
 (
 data
 )
@@ -1193,8 +1167,6 @@ data
 ;
 }
 destroy
-:
-function
 (
 )
 {

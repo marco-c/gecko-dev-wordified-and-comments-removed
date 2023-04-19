@@ -544,8 +544,6 @@ set
 swatchEl
 {
 callbacks
-:
-callbacks
 }
 )
 ;

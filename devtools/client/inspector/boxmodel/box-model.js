@@ -1265,8 +1265,6 @@ InplaceEditor
 (
 {
 element
-:
-element
 initial
 :
 initialValue
@@ -1340,8 +1338,6 @@ properties
 name
 :
 property
-value
-:
 value
 }
 ]

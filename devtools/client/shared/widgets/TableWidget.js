@@ -1181,8 +1181,6 @@ columns
 ;
 }
 onChange
-:
-function
 (
 data
 )
@@ -1302,8 +1300,6 @@ change
 .
 newValue
 items
-:
-items
 }
 ;
 this
@@ -1337,8 +1333,6 @@ change
 ;
 }
 onEditorDestroyed
-:
-function
 (
 )
 {
@@ -1350,8 +1344,6 @@ null
 ;
 }
 onEditorTab
-:
-function
 (
 event
 )
@@ -1713,8 +1705,6 @@ preventDefault
 ;
 }
 getEditedCellOnTab
-:
-function
 (
 event
 column
@@ -2040,8 +2030,6 @@ cell
 ;
 }
 onRowRemoved
-:
-function
 (
 row
 )
@@ -2109,8 +2097,6 @@ onEditorTargetLost
 ;
 }
 onEditorTargetLost
-:
-function
 (
 )
 {
@@ -2144,8 +2130,6 @@ cancelEdit
 ;
 }
 onKeydown
-:
-function
 (
 event
 )
@@ -2437,8 +2421,6 @@ break
 }
 }
 onMousedown
-:
-function
 (
 {
 target
@@ -2482,8 +2464,6 @@ blur
 ;
 }
 makeFieldsEditable
-:
-function
 (
 editableColumns
 )
@@ -2633,8 +2613,6 @@ onTriggerEvent
 dblclick
 "
 selectors
-:
-selectors
 items
 :
 this
@@ -2712,8 +2690,6 @@ _editableFieldsEngine
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -2865,8 +2841,6 @@ remove
 }
 }
 setPlaceholder
-:
-function
 (
 l10nID
 learnMoreURL
@@ -2986,8 +2960,6 @@ l10nID
 ;
 }
 setupHeadersContextMenu
-:
-function
 (
 )
 {
@@ -3101,8 +3073,6 @@ populateMenuPopup
 ;
 }
 populateMenuPopup
-:
-function
 (
 privateColumns
 =
@@ -3328,8 +3298,6 @@ true
 }
 }
 onPopupCommand
-:
-function
 (
 event
 )
@@ -3472,8 +3440,6 @@ disabled
 }
 }
 setColumns
-:
-function
 (
 columns
 sortOn
@@ -3724,8 +3690,6 @@ privateColumns
 ;
 }
 isSelected
-:
-function
 (
 item
 )
@@ -3771,8 +3735,6 @@ uniqueId
 ;
 }
 selectRow
-:
-function
 (
 id
 )
@@ -3785,8 +3747,6 @@ id
 ;
 }
 selectNextRow
-:
-function
 (
 )
 {
@@ -3813,8 +3773,6 @@ selectNextRow
 }
 }
 selectPreviousRow
-:
-function
 (
 )
 {
@@ -3841,8 +3799,6 @@ selectPreviousRow
 }
 }
 clearSelection
-:
-function
 (
 )
 {
@@ -3855,8 +3811,6 @@ selectedIndex
 ;
 }
 push
-:
-function
 (
 item
 suppressFlash
@@ -4078,8 +4032,6 @@ uniqueId
 ;
 }
 remove
-:
-function
 (
 item
 )
@@ -4216,8 +4168,6 @@ item
 ;
 }
 update
-:
-function
 (
 item
 )
@@ -4351,8 +4301,6 @@ uniqueId
 }
 }
 clear
-:
-function
 (
 )
 {
@@ -4426,8 +4374,6 @@ this
 ;
 }
 sortBy
-:
-function
 (
 column
 )
@@ -4716,8 +4662,6 @@ itemsToHide
 ;
 }
 onScroll
-:
-function
 (
 )
 {
@@ -4745,8 +4689,6 @@ afterScroll
 ;
 }
 afterScroll
-:
-function
 (
 )
 {
@@ -5541,8 +5483,6 @@ nodes
 ;
 }
 onColumnSorted
-:
-function
 (
 column
 )
@@ -5609,8 +5549,6 @@ updateZebra
 ;
 }
 onTableFiltered
-:
-function
 (
 itemsToHide
 )
@@ -5682,8 +5620,6 @@ updateZebra
 ;
 }
 onRowUpdated
-:
-function
 (
 id
 )
@@ -5822,8 +5758,6 @@ updateZebra
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -5949,8 +5883,6 @@ null
 ;
 }
 selectRowAt
-:
-function
 (
 index
 )
@@ -6039,8 +5971,6 @@ null
 }
 }
 selectRow
-:
-function
 (
 id
 )
@@ -6065,8 +5995,6 @@ id
 ;
 }
 selectNextRow
-:
-function
 (
 )
 {
@@ -6116,8 +6044,6 @@ index
 ;
 }
 selectPreviousRow
-:
-function
 (
 )
 {
@@ -6170,8 +6096,6 @@ index
 ;
 }
 push
-:
-function
 (
 item
 )
@@ -6377,8 +6301,6 @@ item
 ;
 }
 insertAt
-:
-function
 (
 item
 index
@@ -6446,8 +6368,6 @@ updateZebra
 ;
 }
 toggleColumn
-:
-function
 (
 id
 checked
@@ -6542,8 +6462,6 @@ remove
 }
 }
 remove
-:
-function
 (
 item
 )
@@ -6634,8 +6552,6 @@ uniqueId
 ;
 }
 update
-:
-function
 (
 item
 )
@@ -6690,8 +6606,6 @@ id
 ;
 }
 _updateItems
-:
-function
 (
 )
 {
@@ -6751,8 +6665,6 @@ false
 ;
 }
 clear
-:
-function
 (
 )
 {
@@ -6798,8 +6710,6 @@ remove
 }
 }
 sort
-:
-function
 (
 items
 )
@@ -7208,8 +7118,6 @@ even
 }
 }
 onClick
-:
-function
 (
 event
 )
@@ -7277,8 +7185,6 @@ id
 }
 }
 onMousedown
-:
-function
 (
 event
 )
@@ -7803,8 +7709,6 @@ classList
 ;
 }
 flash
-:
-function
 (
 )
 {
@@ -7913,8 +7817,6 @@ out
 ;
 }
 focus
-:
-function
 (
 )
 {
@@ -7928,8 +7830,6 @@ focus
 ;
 }
 scrollIntoView
-:
-function
 (
 )
 {
@@ -7944,8 +7844,6 @@ false
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -8274,8 +8172,6 @@ _textbox
 ;
 }
 onTrigger
-:
-function
 (
 {
 target
@@ -8291,8 +8187,6 @@ target
 ;
 }
 onKeydown
-:
-function
 (
 event
 )
@@ -8372,8 +8266,6 @@ break
 }
 }
 edit
-:
-function
 (
 target
 )
@@ -8554,8 +8446,6 @@ select
 ;
 }
 completeEdit
-:
-function
 (
 )
 {
@@ -8648,10 +8538,6 @@ this
 .
 currentTarget
 oldValue
-:
-oldValue
-newValue
-:
 newValue
 }
 }
@@ -8669,8 +8555,6 @@ data
 }
 }
 cancelEdit
-:
-function
 (
 )
 {
@@ -8711,8 +8595,6 @@ true
 ;
 }
 blur
-:
-function
 (
 )
 {
@@ -8732,8 +8614,6 @@ completeEdit
 }
 }
 copyStyles
-:
-function
 (
 source
 destination
@@ -8835,8 +8715,6 @@ width
 ;
 }
 destroy
-:
-function
 (
 )
 {

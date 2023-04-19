@@ -368,8 +368,6 @@ Provider
 (
 {
 store
-:
-store
 }
 app
 )

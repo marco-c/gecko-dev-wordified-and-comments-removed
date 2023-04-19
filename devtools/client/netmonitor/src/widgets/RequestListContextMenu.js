@@ -3251,8 +3251,6 @@ postData
 .
 text
 method
-:
-method
 mode
 :
 "

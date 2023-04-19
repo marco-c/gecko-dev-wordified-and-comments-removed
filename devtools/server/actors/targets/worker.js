@@ -171,8 +171,6 @@ WORKER
 workerTargetSpec
 {
 initialize
-:
-function
 (
 connection
 workerGlobal

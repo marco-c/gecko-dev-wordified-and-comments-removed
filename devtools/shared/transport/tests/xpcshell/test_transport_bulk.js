@@ -398,8 +398,6 @@ hooks
 =
 {
 onPacket
-:
-function
 (
 packet
 )
@@ -529,8 +527,6 @@ write_data
 ;
 }
 onTransportClosed
-:
-function
 (
 )
 {

@@ -591,8 +591,6 @@ true
 ;
 }
 addScope
-:
-function
 (
 l10nId
 =
@@ -676,8 +674,6 @@ scope
 ;
 }
 empty
-:
-function
 (
 aTimeout
 =
@@ -792,8 +788,6 @@ false
 ;
 }
 _emptySoon
-:
-function
 (
 aTimeout
 )
@@ -1154,8 +1148,6 @@ _searchboxContainer
 ;
 }
 _enableSearch
-:
-function
 (
 )
 {
@@ -1330,8 +1322,6 @@ _parent
 ;
 }
 _disableSearch
-:
-function
 (
 )
 {
@@ -1396,8 +1386,6 @@ null
 ;
 }
 _toggleSearchVisibility
-:
-function
 (
 aVisibleFlag
 )
@@ -1424,8 +1412,6 @@ aVisibleFlag
 ;
 }
 _onSearchboxInput
-:
-function
 (
 )
 {
@@ -1442,8 +1428,6 @@ value
 ;
 }
 _onSearchboxKeyDown
-:
-function
 (
 e
 )
@@ -1491,8 +1475,6 @@ _onSearchboxInput
 }
 }
 scheduleSearch
-:
-function
 (
 aToken
 aWait
@@ -1560,8 +1542,6 @@ aToken
 ;
 }
 _doSearch
-:
-function
 (
 aToken
 )
@@ -1717,8 +1697,6 @@ break
 }
 }
 _findInVisibleItems
-:
-function
 (
 aPredicate
 )
@@ -1758,8 +1736,6 @@ null
 ;
 }
 _findInVisibleItemsReverse
-:
-function
 (
 aPredicate
 )
@@ -1822,8 +1798,6 @@ null
 ;
 }
 getScopeAtIndex
-:
-function
 (
 aIndex
 )
@@ -1838,8 +1812,6 @@ aIndex
 ;
 }
 getItemForNode
-:
-function
 (
 aNode
 )
@@ -1856,8 +1828,6 @@ aNode
 ;
 }
 getOwnerScopeForVariableOrProperty
-:
-function
 (
 aItem
 )
@@ -1914,8 +1884,6 @@ null
 ;
 }
 getParentScopesForVariableOrProperty
-:
-function
 (
 aItem
 )
@@ -1956,8 +1924,6 @@ scope
 ;
 }
 getFocusedItem
-:
-function
 (
 )
 {
@@ -1982,8 +1948,6 @@ focused
 ;
 }
 focusFirstVisibleItem
-:
-function
 (
 )
 {
@@ -2033,8 +1997,6 @@ scrollLeft
 ;
 }
 focusLastVisibleItem
-:
-function
 (
 )
 {
@@ -2088,8 +2050,6 @@ scrollLeft
 ;
 }
 focusNextItem
-:
-function
 (
 )
 {
@@ -2103,8 +2063,6 @@ focusItemAtDelta
 ;
 }
 focusPrevItem
-:
-function
 (
 )
 {
@@ -2118,8 +2076,6 @@ focusItemAtDelta
 ;
 }
 focusItemAtDelta
-:
-function
 (
 aDelta
 )
@@ -2189,8 +2145,6 @@ break
 }
 }
 _focusChange
-:
-function
 (
 aDirection
 )
@@ -2263,8 +2217,6 @@ true
 ;
 }
 _focusItem
-:
-function
 (
 aItem
 aCollapseFlag
@@ -2322,8 +2274,6 @@ true
 ;
 }
 _copyItem
-:
-function
 (
 )
 {
@@ -2357,8 +2307,6 @@ _valueString
 ;
 }
 _onViewKeyDown
-:
-function
 (
 e
 )
@@ -2754,8 +2702,6 @@ _appendEmptyNotice
 ;
 }
 _appendEmptyNotice
-:
-function
 (
 )
 {
@@ -2832,8 +2778,6 @@ label
 ;
 }
 _removeEmptyNotice
-:
-function
 (
 )
 {
@@ -3978,8 +3922,6 @@ view
 scope
 "
 _createChild
-:
-function
 (
 aName
 aDescriptor
@@ -3998,8 +3940,6 @@ aOptions
 ;
 }
 addItem
-:
-function
 (
 aName
 aDescriptor
@@ -4111,8 +4051,6 @@ child
 ;
 }
 addItems
-:
-function
 (
 aItems
 aOptions
@@ -4199,8 +4137,6 @@ value
 }
 }
 remove
-:
-function
 (
 )
 {
@@ -4281,8 +4217,6 @@ remove
 }
 }
 get
-:
-function
 (
 aName
 )
@@ -4299,8 +4233,6 @@ aName
 ;
 }
 find
-:
-function
 (
 aNode
 )
@@ -4362,8 +4294,6 @@ null
 ;
 }
 isChildOf
-:
-function
 (
 aParent
 )
@@ -4378,8 +4308,6 @@ aParent
 ;
 }
 isDescendantOf
-:
-function
 (
 aParent
 )
@@ -4423,8 +4351,6 @@ false
 ;
 }
 show
-:
-function
 (
 )
 {
@@ -4459,8 +4385,6 @@ this
 }
 }
 hide
-:
-function
 (
 )
 {
@@ -4495,8 +4419,6 @@ this
 }
 }
 expand
-:
-function
 (
 )
 {
@@ -4580,8 +4502,6 @@ this
 }
 }
 collapse
-:
-function
 (
 )
 {
@@ -4657,8 +4577,6 @@ this
 }
 }
 toggle
-:
-function
 (
 e
 )
@@ -4728,8 +4646,6 @@ this
 }
 }
 showHeader
-:
-function
 (
 )
 {
@@ -4768,8 +4684,6 @@ true
 ;
 }
 hideHeader
-:
-function
 (
 )
 {
@@ -4811,8 +4725,6 @@ false
 ;
 }
 _naturalSort
-:
-function
 (
 a
 b
@@ -4851,8 +4763,6 @@ b
 }
 }
 showArrow
-:
-function
 (
 )
 {
@@ -4885,8 +4795,6 @@ true
 ;
 }
 hideArrow
-:
-function
 (
 )
 {
@@ -5147,8 +5055,6 @@ true
 ;
 }
 focus
-:
-function
 (
 )
 {
@@ -5163,8 +5069,6 @@ this
 ;
 }
 addEventListener
-:
-function
 (
 aName
 aCallback
@@ -5184,8 +5088,6 @@ aCapture
 ;
 }
 removeEventListener
-:
-function
 (
 aName
 aCallback
@@ -5260,8 +5162,6 @@ _target
 ;
 }
 _init
-:
-function
 (
 l10nId
 aFlags
@@ -5329,8 +5229,6 @@ _target
 ;
 }
 _displayScope
-:
-function
 (
 {
 l10nId
@@ -5626,8 +5524,6 @@ nonenum
 ;
 }
 _addEventListeners
-:
-function
 (
 )
 {
@@ -5647,8 +5543,6 @@ _onClick
 ;
 }
 _onClick
-:
-function
 (
 e
 )
@@ -5715,8 +5609,6 @@ focus
 ;
 }
 _openEnum
-:
-function
 (
 )
 {
@@ -5748,8 +5640,6 @@ open
 ;
 }
 _openNonEnum
-:
-function
 (
 )
 {
@@ -5908,8 +5798,6 @@ open
 }
 }
 _performSearch
-:
-function
 (
 aLowerCaseQuery
 )
@@ -6129,8 +6017,6 @@ unmatched
 }
 }
 _findInVisibleItems
-:
-function
 (
 aPredicate
 )
@@ -6240,8 +6126,6 @@ null
 ;
 }
 _findInVisibleItemsReverse
-:
-function
 (
 aPredicate
 )
@@ -6911,8 +6795,6 @@ or
 property
 "
 _createChild
-:
-function
 (
 aName
 aDescriptor
@@ -6931,8 +6813,6 @@ aOptions
 ;
 }
 remove
-:
-function
 (
 )
 {
@@ -7062,8 +6942,6 @@ remove
 }
 }
 populate
-:
-function
 (
 aObject
 aOptions
@@ -7235,8 +7113,6 @@ prototype
 }
 }
 _populateTarget
-:
-function
 (
 aVar
 aObject
@@ -7255,8 +7131,6 @@ aObject
 ;
 }
 _addRawValueProperty
-:
-function
 (
 aName
 aDescriptor
@@ -7326,8 +7200,6 @@ propertyItem
 ;
 }
 _addRawNonValueProperty
-:
-function
 (
 aName
 aDescriptor
@@ -7478,8 +7350,6 @@ _symbolicPath
 ;
 }
 _buildSymbolicPath
-:
-function
 (
 path
 =
@@ -7568,8 +7438,6 @@ set
 ;
 }
 setGrip
-:
-function
 (
 aGrip
 )
@@ -7857,8 +7725,6 @@ _linkToInspector
 }
 }
 setOverridden
-:
-function
 (
 aFlag
 )
@@ -7898,8 +7764,6 @@ overridden
 }
 }
 flash
-:
-function
 (
 aDuration
 =
@@ -7988,8 +7852,6 @@ changed
 ;
 }
 _init
-:
-function
 (
 aName
 aDescriptor
@@ -8134,8 +7996,6 @@ this
 }
 }
 _displayVariable
-:
-function
 (
 )
 {
@@ -8458,8 +8318,6 @@ expand
 }
 }
 _customizeVariable
-:
-function
 (
 )
 {
@@ -9074,8 +8932,6 @@ nonExtensibleLabel
 }
 }
 _prepareTooltips
-:
-function
 (
 )
 {
@@ -9095,8 +8951,6 @@ _setTooltips
 ;
 }
 _setTooltips
-:
-function
 (
 )
 {
@@ -9430,8 +9284,6 @@ toolbox
 ;
 }
 _isLinkableToInspector
-:
-function
 (
 )
 {
@@ -9485,8 +9337,6 @@ hasToolbox
 ;
 }
 _linkToInspector
-:
-function
 (
 )
 {
@@ -9596,8 +9446,6 @@ true
 ;
 }
 openNodeInInspector
-:
-function
 (
 event
 )
@@ -9771,10 +9619,8 @@ this
 )
 ;
 }
-highlightDomNode
-:
 async
-function
+highlightDomNode
 (
 )
 {
@@ -9847,8 +9693,6 @@ _nodeFront
 ;
 }
 unhighlightDomNode
-:
-function
 (
 )
 {
@@ -9877,8 +9721,6 @@ unhighlight
 ;
 }
 _setAttributes
-:
-function
 (
 )
 {
@@ -10303,8 +10145,6 @@ item
 }
 }
 _addEventListeners
-:
-function
 (
 )
 {
@@ -10352,8 +10192,6 @@ _onClick
 ;
 }
 _activateNameInput
-:
-function
 (
 e
 )
@@ -10466,8 +10304,6 @@ e
 ;
 }
 _activateValueInput
-:
-function
 (
 e
 )
@@ -10532,8 +10368,6 @@ e
 ;
 }
 _disable
-:
-function
 (
 )
 {
@@ -10598,8 +10432,6 @@ VariablesView
 .
 simpleValueEvalMacro
 _onEdit
-:
-function
 (
 e
 )
@@ -10637,8 +10469,6 @@ _activateValueInput
 ;
 }
 _onDelete
-:
-function
 (
 e
 )
@@ -10707,8 +10537,6 @@ hide
 }
 }
 _onAddProperty
-:
-function
 (
 e
 )
@@ -12663,8 +12491,6 @@ byType
 =
 {
 string
-:
-function
 (
 aGrip
 {
@@ -12694,8 +12520,6 @@ aGrip
 ;
 }
 longString
-:
-function
 (
 {
 initial
@@ -12771,8 +12595,6 @@ ellipsis
 ;
 }
 object
-:
-function
 (
 aGrip
 aOptions
@@ -12855,8 +12677,6 @@ null
 ;
 }
 symbol
-:
-function
 (
 aGrip
 aOptions
@@ -12887,8 +12707,6 @@ name
 ;
 }
 mapEntry
-:
-function
 (
 aGrip
 {
@@ -12962,8 +12780,6 @@ byObjectClass
 =
 {
 Function
-:
-function
 (
 aGrip
 {
@@ -13063,8 +12879,6 @@ params
 ;
 }
 RegExp
-:
-function
 (
 {
 displayString
@@ -13086,8 +12900,6 @@ true
 ;
 }
 Date
-:
-function
 (
 {
 preview
@@ -13160,8 +12972,6 @@ toISOString
 ;
 }
 Number
-:
-function
 (
 aGrip
 )
@@ -13237,8 +13047,6 @@ byObjectKind
 =
 {
 ArrayLike
-:
-function
 (
 aGrip
 {
@@ -13485,8 +13293,6 @@ join
 ;
 }
 MapLike
-:
-function
 (
 aGrip
 {
@@ -13685,8 +13491,6 @@ join
 ;
 }
 ObjectWithText
-:
-function
 (
 aGrip
 {
@@ -13726,8 +13530,6 @@ text
 ;
 }
 ObjectWithURL
-:
-function
 (
 aGrip
 {
@@ -13795,8 +13597,6 @@ result
 ;
 }
 Object
-:
-function
 (
 aGrip
 {
@@ -14212,8 +14012,6 @@ join
 ;
 }
 Error
-:
-function
 (
 aGrip
 {
@@ -14331,8 +14129,6 @@ msg
 ;
 }
 DOMException
-:
-function
 (
 aGrip
 {
@@ -14477,8 +14273,6 @@ msg
 ;
 }
 DOMEvent
-:
-function
 (
 aGrip
 {
@@ -14680,8 +14474,6 @@ join
 ;
 }
 DOMNode
-:
-function
 (
 aGrip
 {
@@ -15660,8 +15452,6 @@ label
 :
 null
 activate
-:
-function
 (
 e
 )
@@ -15928,8 +15718,6 @@ true
 ;
 }
 deactivate
-:
-function
 (
 )
 {
@@ -16056,8 +15844,6 @@ _onCleanup
 ;
 }
 _save
-:
-function
 (
 )
 {
@@ -16112,8 +15898,6 @@ current
 }
 }
 _next
-:
-function
 (
 )
 {
@@ -16125,8 +15909,6 @@ _save
 ;
 }
 _reset
-:
-function
 (
 )
 {
@@ -16146,8 +15928,6 @@ focus
 ;
 }
 _onBlur
-:
-function
 (
 )
 {
@@ -16159,8 +15939,6 @@ deactivate
 ;
 }
 _onKeydown
-:
-function
 (
 e
 )
@@ -16411,8 +16189,6 @@ EditableName
 prototype
 {
 _reset
-:
-function
 (
 e
 )
@@ -16433,8 +16209,6 @@ deactivate
 ;
 }
 _next
-:
-function
 (
 e
 )
@@ -16518,8 +16292,6 @@ deactivate
 ;
 }
 _save
-:
-function
 (
 e
 )

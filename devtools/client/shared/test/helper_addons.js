@@ -208,8 +208,6 @@ listener
 =
 {
 onUninstalled
-:
-function
 (
 uninstalledAddon
 )

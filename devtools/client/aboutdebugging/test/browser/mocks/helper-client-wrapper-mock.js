@@ -245,8 +245,6 @@ getDeviceDescription
 {
 }
 getPreference
-:
-function
 (
 prefName
 )
@@ -386,8 +384,6 @@ getFront
 {
 }
 setPreference
-:
-function
 (
 prefName
 value

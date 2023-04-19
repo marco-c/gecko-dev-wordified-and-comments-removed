@@ -239,8 +239,6 @@ prototype
 =
 {
 buildMarkup
-:
-function
 (
 )
 {
@@ -318,8 +316,6 @@ tag
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -356,8 +352,6 @@ null
 ;
 }
 setOverflowHighlight
-:
-function
 (
 showOverflowHighlight
 )
@@ -384,8 +378,6 @@ showOverflowHighlight
 ;
 }
 getInfoAtNode
-:
-function
 (
 )
 {

@@ -161,8 +161,6 @@ prototype
 =
 {
 write
-:
-function
 (
 ret
 ctx
@@ -274,8 +272,6 @@ result
 ;
 }
 read
-:
-function
 (
 packet
 ctx
@@ -369,8 +365,6 @@ prototype
 =
 {
 write
-:
-function
 (
 v
 ctx
@@ -389,8 +383,6 @@ ctx
 ;
 }
 read
-:
-function
 (
 v
 ctx
@@ -409,8 +401,6 @@ ctx
 ;
 }
 isArrayType
-:
-function
 (
 )
 {

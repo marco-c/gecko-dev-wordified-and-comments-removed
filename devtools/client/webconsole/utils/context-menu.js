@@ -1292,10 +1292,8 @@ accesskey
 disabled
 :
 false
-click
-:
 async
-function
+click
 (
 )
 {

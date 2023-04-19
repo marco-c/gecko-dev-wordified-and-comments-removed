@@ -170,8 +170,6 @@ ActorClassWithSpec
 animationPlayerSpec
 {
 initialize
-:
-function
 (
 animationsActor
 player
@@ -299,8 +297,6 @@ currentTime
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -557,15 +553,11 @@ defaultView
 ;
 }
 release
-:
-function
 (
 )
 {
 }
 form
-:
-function
 (
 detail
 )
@@ -629,8 +621,6 @@ data
 ;
 }
 isCssAnimation
-:
-function
 (
 player
 =
@@ -650,8 +640,6 @@ CSSAnimation
 ;
 }
 isCssTransition
-:
-function
 (
 player
 =
@@ -671,8 +659,6 @@ CSSTransition
 ;
 }
 isScriptAnimation
-:
-function
 (
 player
 =
@@ -715,8 +701,6 @@ CSSTransition
 ;
 }
 getType
-:
-function
 (
 )
 {
@@ -774,8 +758,6 @@ UNKNOWN
 ;
 }
 getName
-:
-function
 (
 )
 {
@@ -838,8 +820,6 @@ return
 ;
 }
 getDuration
-:
-function
 (
 )
 {
@@ -858,8 +838,6 @@ duration
 ;
 }
 getDelay
-:
-function
 (
 )
 {
@@ -878,8 +856,6 @@ delay
 ;
 }
 getEndDelay
-:
-function
 (
 )
 {
@@ -898,8 +874,6 @@ endDelay
 ;
 }
 getIterationCount
-:
-function
 (
 )
 {
@@ -931,8 +905,6 @@ iterations
 ;
 }
 getIterationStart
-:
-function
 (
 )
 {
@@ -951,8 +923,6 @@ iterationStart
 ;
 }
 getEasing
-:
-function
 (
 )
 {
@@ -971,8 +941,6 @@ easing
 ;
 }
 getFill
-:
-function
 (
 )
 {
@@ -991,8 +959,6 @@ fill
 ;
 }
 getDirection
-:
-function
 (
 )
 {
@@ -1011,8 +977,6 @@ direction
 ;
 }
 getAnimationTimingFunction
-:
-function
 (
 )
 {
@@ -1081,8 +1045,6 @@ animationTimingFunction
 ;
 }
 getPropertiesCompositorStatus
-:
-function
 (
 )
 {
@@ -1132,8 +1094,6 @@ warning
 ;
 }
 getState
-:
-function
 (
 )
 {
@@ -1301,8 +1261,6 @@ getProperties
 ;
 }
 getCurrentState
-:
-function
 (
 )
 {
@@ -1399,8 +1357,6 @@ sentState
 ;
 }
 onAnimationMutation
-:
-function
 (
 mutations
 )
@@ -1624,8 +1580,6 @@ getCurrentState
 }
 }
 getProperties
-:
-function
 (
 )
 {
@@ -2098,8 +2052,6 @@ properties
 ;
 }
 getAnimationTypes
-:
-function
 (
 propertyNames
 )
@@ -2134,8 +2086,6 @@ animationTypes
 ;
 }
 getDistance
-:
-function
 (
 target
 propertyName
@@ -2206,8 +2156,6 @@ ActorClassWithSpec
 animationsSpec
 {
 initialize
-:
-function
 (
 conn
 targetActor
@@ -2308,8 +2256,6 @@ onNavigate
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -2380,8 +2326,6 @@ null
 ;
 }
 setWalkerActor
-:
-function
 (
 walker
 )
@@ -2394,8 +2338,6 @@ walker
 ;
 }
 getAnimationPlayersForNode
-:
-function
 (
 nodeActor
 )
@@ -2543,8 +2485,6 @@ actors
 ;
 }
 onAnimationMutation
-:
-function
 (
 mutations
 )
@@ -2932,8 +2872,6 @@ eventData
 }
 }
 stopAnimationPlayerUpdates
-:
-function
 (
 )
 {
@@ -2966,8 +2904,6 @@ disconnect
 }
 }
 onWillNavigate
-:
-function
 (
 {
 isTopLevel
@@ -2988,8 +2924,6 @@ stopAnimationPlayerUpdates
 }
 }
 onNavigate
-:
-function
 (
 {
 isTopLevel
@@ -3010,8 +2944,6 @@ false
 }
 }
 pauseSome
-:
-function
 (
 actors
 )
@@ -3044,8 +2976,6 @@ actors
 ;
 }
 playSome
-:
-function
 (
 actors
 )
@@ -3078,8 +3008,6 @@ actors
 ;
 }
 setCurrentTimes
-:
-function
 (
 players
 time
@@ -3160,8 +3088,6 @@ players
 ;
 }
 setPlaybackRates
-:
-function
 (
 players
 rate

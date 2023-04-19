@@ -552,8 +552,6 @@ iframe
 return
 {
 host
-:
-host
 win
 :
 iframe

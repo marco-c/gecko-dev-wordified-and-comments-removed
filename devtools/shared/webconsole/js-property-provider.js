@@ -2382,10 +2382,8 @@ var
 JSObjectSupport
 =
 {
-chainIterator
-:
-function
 *
+chainIterator
 (
 obj
 )
@@ -2421,8 +2419,6 @@ return
 }
 }
 getProperties
-:
-function
 (
 obj
 )
@@ -2449,8 +2445,6 @@ null
 }
 }
 getProperty
-:
-function
 (
 )
 {
@@ -2471,10 +2465,8 @@ var
 DebuggerObjectSupport
 =
 {
-chainIterator
-:
-function
 *
+chainIterator
 (
 obj
 )
@@ -2507,8 +2499,6 @@ return
 }
 }
 getProperties
-:
-function
 (
 obj
 )
@@ -2534,8 +2524,6 @@ null
 }
 }
 getProperty
-:
-function
 (
 obj
 name
@@ -2559,10 +2547,8 @@ var
 DebuggerEnvironmentSupport
 =
 {
-chainIterator
-:
-function
 *
+chainIterator
 (
 obj
 )
@@ -2584,8 +2570,6 @@ parent
 }
 }
 getProperties
-:
-function
 (
 obj
 )
@@ -2664,8 +2648,6 @@ names
 ;
 }
 getProperty
-:
-function
 (
 obj
 name

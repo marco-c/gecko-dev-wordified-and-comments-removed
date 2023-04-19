@@ -220,8 +220,6 @@ prototype
 =
 {
 send
-:
-function
 (
 object
 port
@@ -325,8 +323,6 @@ e
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -340,8 +336,6 @@ close
 ;
 }
 onPacketReceived
-:
-function
 (
 socket
 message
@@ -454,8 +448,6 @@ object
 ;
 }
 onStopListening
-:
-function
 (
 )
 {
@@ -496,8 +488,6 @@ prototype
 =
 {
 _get
-:
-function
 (
 )
 {
@@ -509,8 +499,6 @@ _generate
 ;
 }
 _generate
-:
-function
 (
 )
 {
@@ -663,8 +651,6 @@ _factories
 =
 {
 Transport
-:
-Transport
 }
 ;
 this
@@ -739,8 +725,6 @@ prototype
 =
 {
 addService
-:
-function
 (
 service
 info
@@ -791,8 +775,6 @@ info
 ;
 }
 removeService
-:
-function
 (
 service
 )
@@ -832,8 +814,6 @@ _stopListeningForScan
 }
 }
 scan
-:
-function
 (
 )
 {
@@ -858,8 +838,6 @@ SCAN_PORT
 ;
 }
 getRemoteDevices
-:
-function
 (
 )
 {
@@ -913,8 +891,6 @@ devices
 ;
 }
 getRemoteDevicesWithService
-:
-function
 (
 service
 )
@@ -943,8 +919,6 @@ devicesWithService
 ;
 }
 getRemoteService
-:
-function
 (
 service
 device
@@ -972,8 +946,6 @@ device
 ;
 }
 _waitForReplies
-:
-function
 (
 )
 {
@@ -1033,8 +1005,6 @@ Transport
 ;
 }
 _startListeningForScan
-:
-function
 (
 )
 {
@@ -1091,8 +1061,6 @@ _onRemoteScan
 ;
 }
 _stopListeningForScan
-:
-function
 (
 )
 {
@@ -1145,8 +1113,6 @@ null
 ;
 }
 _startListeningForUpdate
-:
-function
 (
 )
 {
@@ -1203,8 +1169,6 @@ _onRemoteUpdate
 ;
 }
 _stopListeningForUpdate
-:
-function
 (
 )
 {
@@ -1257,8 +1221,6 @@ null
 ;
 }
 _restartListening
-:
-function
 (
 )
 {
@@ -1351,8 +1313,6 @@ null
 ;
 }
 _sendStatusTo
-:
-function
 (
 port
 )
@@ -1387,8 +1347,6 @@ port
 ;
 }
 _onRemoteScan
-:
-function
 (
 )
 {
@@ -1410,8 +1368,6 @@ UPDATE_PORT
 ;
 }
 _onRemoteUpdate
-:
-function
 (
 update
 )
@@ -1724,8 +1680,6 @@ newDeviceInfo
 }
 }
 _purgeMissingDevices
-:
-function
 (
 )
 {

@@ -443,8 +443,6 @@ done
 "
 )
 schedule
-:
-function
 (
 )
 {
@@ -477,8 +475,6 @@ this
 ;
 }
 cancel
-:
-function
 (
 )
 {
@@ -517,8 +513,6 @@ onCancel
 ;
 }
 _timeoutHandler
-:
-function
 (
 )
 {
@@ -587,8 +581,6 @@ e
 }
 }
 _runBatch
-:
-function
 (
 )
 {
@@ -652,8 +644,6 @@ return
 }
 }
 _next
-:
-function
 (
 )
 {
@@ -1504,8 +1494,6 @@ view
 ;
 }
 _handlePrefChange
-:
-function
 (
 )
 {
@@ -1525,8 +1513,6 @@ refreshPanel
 }
 }
 selectElement
-:
-function
 (
 element
 )
@@ -1714,8 +1700,6 @@ refreshPanel
 ;
 }
 getNodeInfo
-:
-function
 (
 node
 )
@@ -2314,8 +2298,6 @@ value
 ;
 }
 _createPropertyViews
-:
-function
 (
 )
 {
@@ -2516,8 +2498,6 @@ _createViewsPromise
 ;
 }
 isPanelVisible
-:
-function
 (
 )
 {
@@ -2570,8 +2550,6 @@ computedview
 ;
 }
 refreshPanel
-:
-function
 (
 )
 {
@@ -2925,8 +2903,6 @@ error
 ;
 }
 _onShortcut
-:
-function
 (
 name
 event
@@ -3028,8 +3004,6 @@ preventDefault
 }
 }
 setFilterStyles
-:
-function
 (
 value
 =
@@ -3061,8 +3035,6 @@ _onFilterStyles
 ;
 }
 _onFilterStyles
-:
-function
 (
 )
 {
@@ -3145,8 +3117,6 @@ filterTimeout
 ;
 }
 _onClearSearch
-:
-function
 (
 )
 {
@@ -3176,8 +3146,6 @@ false
 ;
 }
 _onIncludeBrowserStyles
-:
-function
 (
 )
 {
@@ -3195,8 +3163,6 @@ refreshPanel
 ;
 }
 refreshSourceFilter
-:
-function
 (
 )
 {
@@ -3228,8 +3194,6 @@ USER
 ;
 }
 createStyleViews
-:
-function
 (
 )
 {
@@ -3463,8 +3427,6 @@ Set
 ;
 }
 focusWindow
-:
-function
 (
 )
 {
@@ -3478,8 +3440,6 @@ focus
 ;
 }
 _onContextMenu
-:
-function
 (
 event
 )
@@ -3507,8 +3467,6 @@ event
 ;
 }
 _onClick
-:
-function
 (
 event
 )
@@ -3555,8 +3513,6 @@ href
 }
 }
 _onCopy
-:
-function
 (
 event
 )
@@ -3610,8 +3566,6 @@ preventDefault
 }
 }
 copySelection
-:
-function
 (
 )
 {
@@ -3664,8 +3618,6 @@ e
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -4467,8 +4419,6 @@ hidden
 ;
 }
 buildMain
-:
-function
 (
 )
 {
@@ -5112,8 +5062,6 @@ element
 ;
 }
 buildSelectorContainer
-:
-function
 (
 )
 {
@@ -5192,8 +5140,6 @@ element
 ;
 }
 refresh
-:
-function
 (
 )
 {
@@ -5434,8 +5380,6 @@ refreshMatchedSelectors
 ;
 }
 refreshMatchedSelectors
-:
-function
 (
 )
 {
@@ -5707,8 +5651,6 @@ _matchedSelectorResponse
 ;
 }
 _buildMatchedSelectors
-:
-function
 (
 )
 {
@@ -6083,8 +6025,6 @@ _matchedSelectorViews
 ;
 }
 onMatchedToggle
-:
-function
 (
 event
 )
@@ -6122,8 +6062,6 @@ preventDefault
 ;
 }
 mdnLinkClick
-:
-function
 (
 event
 )
@@ -6137,8 +6075,6 @@ link
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -6388,8 +6324,6 @@ generatedLocation
 =
 {
 sheet
-:
-sheet
 href
 :
 sheet
@@ -6498,8 +6432,6 @@ prototype
 =
 {
 _cacheStatusNames
-:
-function
 (
 )
 {
@@ -6778,8 +6710,6 @@ frag
 ;
 }
 _updateLocation
-:
-function
 (
 originalLocation
 )
@@ -6913,8 +6843,6 @@ updated
 ;
 }
 openStyleEditor
-:
-function
 (
 )
 {
@@ -7010,8 +6938,6 @@ column
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -7232,8 +7158,6 @@ prototype
 =
 {
 isPanelVisible
-:
-function
 (
 )
 {
@@ -7260,8 +7184,6 @@ isPanelVisible
 ;
 }
 onDetachedFront
-:
-function
 (
 )
 {
@@ -7273,10 +7195,8 @@ false
 )
 ;
 }
-onSelected
-:
 async
-function
+onSelected
 (
 selectElement
 =
@@ -7403,8 +7323,6 @@ done
 }
 }
 refresh
-:
-function
 (
 )
 {
@@ -7428,8 +7346,6 @@ refreshPanel
 }
 }
 onPanelSelected
-:
-function
 (
 )
 {
@@ -7470,8 +7386,6 @@ onSelected
 }
 }
 destroy
-:
-function
 (
 )
 {

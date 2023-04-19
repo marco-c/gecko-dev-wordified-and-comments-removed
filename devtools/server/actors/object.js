@@ -333,8 +333,6 @@ decrementGripDepth
 ;
 }
 rawValue
-:
-function
 (
 )
 {
@@ -401,8 +399,6 @@ this
 ;
 }
 form
-:
-function
 (
 )
 {
@@ -730,8 +726,6 @@ g
 ;
 }
 _getOwnPropertyLength
-:
-function
 (
 )
 {
@@ -796,8 +790,6 @@ null
 ;
 }
 getRawObject
-:
-function
 (
 )
 {
@@ -854,8 +846,6 @@ raw
 ;
 }
 _populateGripPreview
-:
-function
 (
 grip
 raw
@@ -938,8 +928,6 @@ e
 }
 }
 promiseState
-:
-function
 (
 )
 {
@@ -1058,8 +1046,6 @@ promiseState
 ;
 }
 enumProperties
-:
-function
 (
 options
 )
@@ -1076,8 +1062,6 @@ conn
 ;
 }
 enumEntries
-:
-function
 (
 )
 {
@@ -1097,8 +1081,6 @@ conn
 ;
 }
 enumSymbols
-:
-function
 (
 )
 {
@@ -1113,8 +1095,6 @@ conn
 ;
 }
 enumPrivateProperties
-:
-function
 (
 )
 {
@@ -1129,8 +1109,6 @@ conn
 ;
 }
 prototypeAndProperties
-:
-function
 (
 )
 {
@@ -1296,8 +1274,6 @@ names
 ;
 }
 _findSafeGetterValues
-:
-function
 (
 ownProperties
 limit
@@ -1697,8 +1673,6 @@ getterValue
 ;
 }
 _findSafeGetters
-:
-function
 (
 object
 )
@@ -1857,8 +1831,6 @@ getters
 ;
 }
 prototype
-:
-function
 (
 )
 {
@@ -1904,8 +1876,6 @@ objProto
 ;
 }
 property
-:
-function
 (
 name
 )
@@ -1948,8 +1918,6 @@ name
 ;
 }
 propertyValue
-:
-function
 (
 name
 receiverId
@@ -2050,8 +2018,6 @@ value
 ;
 }
 apply
-:
-function
 (
 context
 args
@@ -2319,8 +2285,6 @@ completionGrip
 ;
 }
 _propertyDescriptor
-:
-function
 (
 name
 onlyEnumerable
@@ -2611,8 +2575,6 @@ retval
 ;
 }
 proxySlots
-:
-function
 (
 )
 {
@@ -2703,8 +2665,6 @@ proxyHandler
 ;
 }
 customFormatterHeader
-:
-function
 (
 )
 {
@@ -2961,8 +2921,6 @@ null
 ;
 }
 customFormatterBody
-:
-function
 (
 customFormatterIndex
 )
@@ -3121,8 +3079,6 @@ return
 ;
 }
 release
-:
-function
 (
 )
 {

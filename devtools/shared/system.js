@@ -549,10 +549,6 @@ locale
 .
 appLocaleAsBCP47
 endianness
-:
-endianness
-hostname
-:
 hostname
 os
 platform

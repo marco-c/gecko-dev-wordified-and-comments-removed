@@ -326,8 +326,6 @@ prototype
 =
 {
 getStr
-:
-function
 (
 name
 )
@@ -407,8 +405,6 @@ name
 ;
 }
 getFormatStr
-:
-function
 (
 name
 .
@@ -434,8 +430,6 @@ args
 ;
 }
 getFormatStrWithNumbers
-:
-function
 (
 name
 .
@@ -491,8 +485,6 @@ newArgs
 ;
 }
 numberWithDecimals
-:
-function
 (
 number
 decimals
@@ -870,8 +862,6 @@ name
 >
 (
 {
-name
-:
 name
 descriptor
 :

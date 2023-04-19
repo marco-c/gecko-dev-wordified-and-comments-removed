@@ -76,8 +76,6 @@ nsIAboutModule
 ]
 )
 newChannel
-:
-function
 (
 _
 loadInfo
@@ -134,8 +132,6 @@ chan
 ;
 }
 getURIFlags
-:
-function
 (
 uri
 )
@@ -151,8 +147,6 @@ IS_SECURE_CHROME_UI
 ;
 }
 getChromeURI
-:
-function
 (
 _uri
 )

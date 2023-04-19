@@ -437,8 +437,6 @@ netmonitor
 null
 {
 trigger
-:
-trigger
 active
 :
 activeFilters

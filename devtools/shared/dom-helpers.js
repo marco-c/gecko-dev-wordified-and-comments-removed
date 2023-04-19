@@ -19,8 +19,6 @@ DOMHelpers
 =
 {
 onceDOMReady
-:
-function
 (
 win
 callback

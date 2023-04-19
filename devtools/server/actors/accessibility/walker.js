@@ -1558,8 +1558,6 @@ destroy
 }
 }
 unmanage
-:
-function
 (
 actor
 )
@@ -2286,8 +2284,6 @@ null
 ;
 }
 onHighlighterEvent
-:
-function
 (
 data
 )
@@ -3256,8 +3252,6 @@ _currentAccessible
 :
 null
 _isEventAllowed
-:
-function
 (
 {
 view
@@ -3821,8 +3815,6 @@ break
 }
 }
 pick
-:
-function
 (
 )
 {
@@ -3849,8 +3841,6 @@ _setPickerEnvironment
 }
 }
 pickAndFocus
-:
-function
 (
 )
 {
@@ -4066,8 +4056,6 @@ docAcc
 ;
 }
 _setPickerEnvironment
-:
-function
 (
 )
 {
@@ -4225,8 +4213,6 @@ true
 ;
 }
 _unsetPickerEnvironment
-:
-function
 (
 )
 {
@@ -4454,8 +4440,6 @@ null
 ;
 }
 cancelPick
-:
-function
 (
 )
 {

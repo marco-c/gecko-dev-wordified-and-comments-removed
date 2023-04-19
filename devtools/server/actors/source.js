@@ -414,8 +414,6 @@ ActorClassWithSpec
 sourceSpec
 {
 initialize
-:
-function
 (
 {
 source
@@ -764,8 +762,6 @@ id
 ;
 }
 form
-:
-function
 (
 )
 {
@@ -878,8 +874,6 @@ _isInlineSource
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -944,10 +938,8 @@ wasm
 "
 ;
 }
-_getSourceText
-:
 async
-function
+_getSourceText
 (
 )
 {
@@ -1231,10 +1223,8 @@ return
 true
 ;
 }
-getBreakableLines
-:
 async
-function
+getBreakableLines
 (
 )
 {
@@ -2119,10 +2109,8 @@ getChildScripts
 }
 }
 }
-getBreakpointPositions
-:
 async
-function
+getBreakpointPositions
 (
 query
 )
@@ -2353,10 +2341,8 @@ position
 ;
 }
 }
-getBreakpointPositionsCompressed
-:
 async
-function
+getBreakpointPositionsCompressed
 (
 query
 )
@@ -2422,10 +2408,8 @@ return
 compressed
 ;
 }
-source
-:
 async
-function
+source
 (
 )
 {
@@ -2565,8 +2549,6 @@ error
 }
 }
 blackbox
-:
-function
 (
 range
 )
@@ -2629,8 +2611,6 @@ false
 ;
 }
 unblackbox
-:
-function
 (
 range
 )
@@ -2649,8 +2629,6 @@ range
 ;
 }
 setPausePoints
-:
-function
 (
 pausePoints
 )
@@ -2750,10 +2728,8 @@ pausePoints
 uncompressed
 ;
 }
-applyBreakpoint
-:
 async
-function
+applyBreakpoint
 (
 actor
 )

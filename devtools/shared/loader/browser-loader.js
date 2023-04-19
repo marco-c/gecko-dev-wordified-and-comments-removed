@@ -766,8 +766,6 @@ prototype
 =
 {
 lazyRequireGetter
-:
-function
 (
 obj
 properties

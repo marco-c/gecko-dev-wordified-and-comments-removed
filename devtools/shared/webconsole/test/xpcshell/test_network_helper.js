@@ -13,8 +13,6 @@ NetworkHelper
 "
 {
 get
-:
-function
 (
 )
 {

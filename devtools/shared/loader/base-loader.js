@@ -1791,10 +1791,6 @@ uri
 return
 {
 uri
-:
-uri
-requirement
-:
 requirement
 }
 ;
@@ -2083,8 +2079,6 @@ enumerable
 :
 true
 get
-:
-function
 (
 )
 {

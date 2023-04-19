@@ -147,8 +147,6 @@ document
 ;
 }
 initialize
-:
-function
 (
 conn
 targetActor
@@ -285,8 +283,6 @@ traits
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -375,8 +371,6 @@ this
 ;
 }
 _onWindowReady
-:
-function
 (
 evt
 )
@@ -392,8 +386,6 @@ window
 ;
 }
 _onNewStyleSheetActor
-:
-function
 (
 actor
 )
@@ -506,8 +498,6 @@ actors
 ;
 }
 _shouldListSheet
-:
-function
 (
 sheet
 )
@@ -541,8 +531,6 @@ true
 ;
 }
 _onApplicableStateChanged
-:
-function
 (
 {
 applicable
@@ -589,8 +577,6 @@ stylesheet
 }
 }
 _addStyleSheets
-:
-function
 (
 win
 )
@@ -736,8 +722,6 @@ this
 ;
 }
 _getImported
-:
-function
 (
 doc
 styleSheet

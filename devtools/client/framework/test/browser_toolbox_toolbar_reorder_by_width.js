@@ -387,8 +387,6 @@ isToolSupported
 >
 true
 build
-:
-function
 (
 )
 {

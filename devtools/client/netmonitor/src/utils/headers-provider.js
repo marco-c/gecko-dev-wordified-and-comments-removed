@@ -89,8 +89,6 @@ object
 ;
 }
 hasChildren
-:
-function
 (
 object
 )
@@ -138,8 +136,6 @@ object
 ;
 }
 getLabel
-:
-function
 (
 object
 )
@@ -167,8 +163,6 @@ object
 ;
 }
 getValue
-:
-function
 (
 object
 )
@@ -223,8 +217,6 @@ object
 ;
 }
 getType
-:
-function
 (
 object
 )

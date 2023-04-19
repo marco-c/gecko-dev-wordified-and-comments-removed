@@ -191,8 +191,6 @@ startListening
 }
 }
 destroy
-:
-function
 (
 )
 {
@@ -231,8 +229,6 @@ this
 ;
 }
 startListening
-:
-function
 (
 )
 {

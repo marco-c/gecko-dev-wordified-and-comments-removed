@@ -260,8 +260,6 @@ value
 =
 {
 value
-:
-value
 }
 ;
 +

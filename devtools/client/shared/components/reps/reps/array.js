@@ -592,10 +592,6 @@ Rep
 .
 props
 object
-:
-object
-mode
-:
 mode
 }
 )

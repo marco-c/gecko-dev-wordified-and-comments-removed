@@ -216,8 +216,6 @@ prototype
 =
 {
 destroy
-:
-function
 (
 )
 {
@@ -287,8 +285,6 @@ destroy
 ;
 }
 _onSearch
-:
-function
 (
 reverse
 =
@@ -530,8 +526,6 @@ result
 }
 }
 _onInput
-:
-function
 (
 )
 {
@@ -578,8 +572,6 @@ false
 }
 }
 _onKeyDown
-:
-function
 (
 event
 )
@@ -664,8 +656,6 @@ preventDefault
 }
 }
 _onClearSearch
-:
-function
 (
 )
 {
@@ -1557,8 +1547,6 @@ _state
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -1634,8 +1622,6 @@ null
 ;
 }
 _onSearchKeypress
-:
-function
 (
 event
 )
@@ -1870,8 +1856,6 @@ done
 ;
 }
 _onSearchPopupClick
-:
-function
 (
 event
 )
@@ -1921,8 +1905,6 @@ stopPropagation
 ;
 }
 _onMarkupMutation
-:
-function
 (
 )
 {
@@ -1940,8 +1922,6 @@ null
 ;
 }
 _showPopup
-:
-function
 (
 list
 popupState
@@ -2458,8 +2438,6 @@ hidePopup
 ;
 }
 hidePopup
-:
-function
 (
 )
 {
@@ -2491,10 +2469,8 @@ return
 onPopupClosed
 ;
 }
-showSuggestions
-:
 async
-function
+showSuggestions
 (
 )
 {

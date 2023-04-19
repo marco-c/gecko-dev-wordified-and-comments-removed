@@ -97,8 +97,6 @@ hud
 :
 null
 focusInput
-:
-function
 (
 )
 {
@@ -113,10 +111,8 @@ focus
 )
 ;
 }
-open
-:
 async
-function
+open
 (
 )
 {
@@ -350,8 +346,6 @@ target
 ;
 }
 destroy
-:
-function
 (
 )
 {

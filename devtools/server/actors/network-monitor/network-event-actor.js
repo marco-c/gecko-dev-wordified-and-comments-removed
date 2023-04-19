@@ -795,8 +795,6 @@ rawHeaders
 ;
 }
 getResponseCache
-:
-function
 (
 )
 {
@@ -1259,8 +1257,6 @@ info
 .
 state
 isRacing
-:
-isRacing
 }
 )
 ;
@@ -1473,8 +1469,6 @@ blockingExtension
 ;
 }
 addResponseCache
-:
-function
 (
 content
 )

@@ -17,8 +17,6 @@ ObjectProvider
 =
 {
 getChildren
-:
-function
 (
 object
 )
@@ -115,8 +113,6 @@ children
 ;
 }
 hasChildren
-:
-function
 (
 object
 )
@@ -190,8 +186,6 @@ length
 ;
 }
 getLabel
-:
-function
 (
 object
 )
@@ -209,8 +203,6 @@ null
 ;
 }
 getValue
-:
-function
 (
 object
 )
@@ -228,8 +220,6 @@ null
 ;
 }
 getKey
-:
-function
 (
 object
 )
@@ -247,8 +237,6 @@ null
 ;
 }
 getType
-:
-function
 (
 object
 )

@@ -429,8 +429,6 @@ modifier
 :
 true
 preventDefault
-:
-function
 (
 )
 {

@@ -460,8 +460,6 @@ data
 :
 {
 securityInfo
-:
-securityInfo
 }
 }
 ]

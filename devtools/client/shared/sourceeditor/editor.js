@@ -655,8 +655,6 @@ indentUnit
 :
 tabSize
 tabSize
-:
-tabSize
 contextMenu
 :
 null
@@ -1516,8 +1514,6 @@ this
 ;
 }
 appendTo
-:
-function
 (
 el
 env
@@ -1765,8 +1761,6 @@ env
 ;
 }
 appendToLocalElement
-:
-function
 (
 el
 )
@@ -1780,8 +1774,6 @@ el
 ;
 }
 _setup
-:
-function
 (
 el
 doc
@@ -2696,8 +2688,6 @@ editorReadyEvent
 ;
 }
 isAppended
-:
-function
 (
 )
 {
@@ -2711,8 +2701,6 @@ this
 ;
 }
 getMode
-:
-function
 (
 )
 {
@@ -2728,8 +2716,6 @@ mode
 ;
 }
 loadScript
-:
-function
 (
 url
 )
@@ -2786,8 +2772,6 @@ win
 ;
 }
 createDocument
-:
-function
 (
 )
 {
@@ -2803,8 +2787,6 @@ Doc
 ;
 }
 replaceDocument
-:
-function
 (
 doc
 )
@@ -2828,8 +2810,6 @@ doc
 ;
 }
 setMode
-:
-function
 (
 value
 )
@@ -2876,8 +2856,6 @@ true
 }
 }
 insertCommandsController
-:
-function
 (
 )
 {
@@ -2912,8 +2890,6 @@ this
 ;
 }
 getText
-:
-function
 (
 line
 )
@@ -2966,8 +2942,6 @@ text
 ;
 }
 getDoc
-:
-function
 (
 )
 {
@@ -3008,8 +2982,6 @@ getDoc
 ;
 }
 wasmOffsetToLine
-:
-function
 (
 offset
 )
@@ -3029,8 +3001,6 @@ offset
 ;
 }
 lineToWasmOffset
-:
-function
 (
 number
 )
@@ -3050,8 +3020,6 @@ number
 ;
 }
 toLineIfWasmOffset
-:
-function
 (
 maybeOffset
 )
@@ -3088,8 +3056,6 @@ maybeOffset
 ;
 }
 lineInfo
-:
-function
 (
 lineOrOffset
 )
@@ -3136,8 +3102,6 @@ line
 ;
 }
 getLineOrOffset
-:
-function
 (
 line
 )
@@ -3158,8 +3122,6 @@ line
 ;
 }
 setText
-:
-function
 (
 value
 )
@@ -3362,8 +3324,6 @@ resetIndentUnit
 ;
 }
 reloadPreferences
-:
-function
 (
 )
 {
@@ -3521,8 +3481,6 @@ default
 }
 }
 resetIndentUnit
-:
-function
 (
 )
 {
@@ -3612,8 +3570,6 @@ indentWithTabs
 ;
 }
 replaceText
-:
-function
 (
 value
 from
@@ -3693,8 +3649,6 @@ to
 ;
 }
 insertText
-:
-function
 (
 value
 at
@@ -3721,8 +3675,6 @@ at
 ;
 }
 dropSelection
-:
-function
 (
 )
 {
@@ -3752,8 +3704,6 @@ getCursor
 ;
 }
 hasMultipleSelections
-:
-function
 (
 )
 {
@@ -3780,8 +3730,6 @@ length
 ;
 }
 getFirstVisibleLine
-:
-function
 (
 )
 {
@@ -3808,8 +3756,6 @@ local
 ;
 }
 setFirstVisibleLine
-:
-function
 (
 line
 )
@@ -3835,8 +3781,6 @@ charCoords
 (
 {
 line
-:
-line
 ch
 :
 0
@@ -3856,8 +3800,6 @@ top
 ;
 }
 setCursor
-:
-function
 (
 {
 line
@@ -3890,10 +3832,6 @@ setCursor
 (
 {
 line
-:
-line
-ch
-:
 ch
 }
 )
@@ -3909,8 +3847,6 @@ cursorActivity
 ;
 }
 alignLine
-:
-function
 (
 line
 align
@@ -4080,8 +4016,6 @@ topLine
 ;
 }
 hasMarker
-:
-function
 (
 line
 gutterName
@@ -4121,8 +4055,6 @@ markerClass
 ;
 }
 addMarker
-:
-function
 (
 line
 gutterName
@@ -4234,8 +4166,6 @@ marker
 ;
 }
 removeMarker
-:
-function
 (
 line
 gutterName
@@ -4279,8 +4209,6 @@ markerClass
 ;
 }
 addContentMarker
-:
-function
 (
 line
 gutterName
@@ -4360,8 +4288,6 @@ marker
 ;
 }
 removeContentMarker
-:
-function
 (
 line
 gutterName
@@ -4409,8 +4335,6 @@ null
 ;
 }
 getMarker
-:
-function
 (
 line
 gutterName
@@ -4461,8 +4385,6 @@ gutterName
 ;
 }
 removeAllMarkers
-:
-function
 (
 gutterName
 )
@@ -4486,8 +4408,6 @@ gutterName
 ;
 }
 setMarkerListeners
-:
-function
 (
 line
 gutterName
@@ -4572,8 +4492,6 @@ listener
 }
 }
 hasLineClass
-:
-function
 (
 line
 className
@@ -4623,8 +4541,6 @@ className
 ;
 }
 addLineClass
-:
-function
 (
 lineOrOffset
 className
@@ -4663,8 +4579,6 @@ className
 ;
 }
 removeLineClass
-:
-function
 (
 lineOrOffset
 className
@@ -4703,8 +4617,6 @@ className
 ;
 }
 markText
-:
-function
 (
 from
 to
@@ -4804,8 +4716,6 @@ clear
 ;
 }
 getPosition
-:
-function
 (
 .
 .
@@ -4859,8 +4769,6 @@ res
 ;
 }
 getOffset
-:
-function
 (
 .
 .
@@ -4912,8 +4820,6 @@ res
 ;
 }
 getPositionFromCoords
-:
-function
 (
 {
 left
@@ -4938,18 +4844,12 @@ coordsChar
 (
 {
 left
-:
-left
-top
-:
 top
 }
 )
 ;
 }
 getCoordsFromPosition
-:
-function
 (
 {
 line
@@ -4988,8 +4888,6 @@ ch
 ;
 }
 canUndo
-:
-function
 (
 )
 {
@@ -5016,8 +4914,6 @@ undo
 ;
 }
 canRedo
-:
-function
 (
 )
 {
@@ -5044,8 +4940,6 @@ redo
 ;
 }
 setClean
-:
-function
 (
 )
 {
@@ -5093,8 +4987,6 @@ version
 ;
 }
 isClean
-:
-function
 (
 )
 {
@@ -5120,8 +5012,6 @@ version
 ;
 }
 jumpToLine
-:
-function
 (
 )
 {
@@ -5290,8 +5180,6 @@ column
 ;
 }
 moveLineUp
-:
-function
 (
 )
 {
@@ -5509,8 +5397,6 @@ ch
 ;
 }
 moveLineDown
-:
-function
 (
 )
 {
@@ -5730,8 +5616,6 @@ ch
 ;
 }
 findOrReplace
-:
-function
 (
 node
 isReplaceAll
@@ -5842,8 +5726,6 @@ find
 ;
 }
 findNextOrPrev
-:
-function
 (
 node
 isFindPrev
@@ -5976,8 +5858,6 @@ findNext
 }
 }
 getFontSize
-:
-function
 (
 )
 {
@@ -6032,8 +5912,6 @@ size
 ;
 }
 setFontSize
-:
-function
 (
 size
 )
@@ -6076,8 +5954,6 @@ refresh
 ;
 }
 setOption
-:
-function
 (
 o
 v
@@ -6182,8 +6058,6 @@ updateCodeFoldingGutter
 }
 }
 getOption
-:
-function
 (
 o
 )
@@ -6227,8 +6101,6 @@ o
 ;
 }
 setupAutoCompletion
-:
-function
 (
 )
 {
@@ -6387,8 +6259,6 @@ completion
 ;
 }
 setAutoCompletionText
-:
-function
 (
 text
 )
@@ -6504,8 +6374,6 @@ text
 ;
 }
 extend
-:
-function
 (
 funcs
 )
@@ -6541,10 +6409,6 @@ ed
 :
 this
 cm
-:
-cm
-Editor
-:
 Editor
 }
 ;
@@ -6591,8 +6455,6 @@ ctx
 ;
 }
 isDestroyed
-:
-function
 (
 )
 {
@@ -6607,8 +6469,6 @@ this
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -6774,8 +6634,6 @@ destroy
 ;
 }
 updateCodeFoldingGutter
-:
-function
 (
 )
 {
@@ -6970,8 +6828,6 @@ false
 }
 }
 _initSearchShortcuts
-:
-function
 (
 win
 )
@@ -7100,8 +6956,6 @@ event
 ;
 }
 _onSearchShortcut
-:
-function
 (
 name
 event
@@ -7252,8 +7106,6 @@ preventDefault
 ;
 }
 _isInputOrTextarea
-:
-function
 (
 element
 )
@@ -7612,10 +7464,6 @@ keySet
 propertyKeywords
 )
 colorKeywords
-:
-colorKeywords
-valueKeywords
-:
 valueKeywords
 }
 ;

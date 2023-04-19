@@ -134,8 +134,6 @@ trace
 =
 {
 log
-:
-function
 (
 .
 .
@@ -157,10 +155,8 @@ HarAutomation
 prototype
 =
 {
-initialize
-:
 async
-function
+initialize
 (
 toolbox
 )
@@ -188,8 +184,6 @@ startMonitoring
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -226,10 +220,8 @@ disconnect
 ;
 }
 }
-startMonitoring
-:
 async
-function
+startMonitoring
 (
 )
 {
@@ -341,8 +333,6 @@ true
 ;
 }
 pageLoadBegin
-:
-function
 (
 response
 )
@@ -355,8 +345,6 @@ resetCollector
 ;
 }
 resetCollector
-:
-function
 (
 )
 {
@@ -402,8 +390,6 @@ start
 ;
 }
 pageLoadDone
-:
-function
 (
 response
 )
@@ -455,8 +441,6 @@ autoExport
 }
 }
 autoExport
-:
-function
 (
 )
 {
@@ -520,8 +504,6 @@ data
 ;
 }
 triggerExport
-:
-function
 (
 data
 )
@@ -562,8 +544,6 @@ data
 ;
 }
 clear
-:
-function
 (
 )
 {
@@ -574,10 +554,8 @@ resetCollector
 )
 ;
 }
-executeExport
-:
 async
-function
+executeExport
 (
 data
 )
@@ -652,8 +630,6 @@ this
 view
 :
 this
-items
-:
 items
 }
 ;
@@ -792,10 +768,8 @@ return
 jsonString
 ;
 }
-getString
-:
 async
-function
+getString
 (
 stringGrip
 )

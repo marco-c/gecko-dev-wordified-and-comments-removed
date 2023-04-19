@@ -66,8 +66,6 @@ ActorClassWithSpec
 environmentSpec
 {
 initialize
-:
-function
 (
 environment
 threadActor
@@ -101,8 +99,6 @@ threadActor
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -127,8 +123,6 @@ this
 ;
 }
 form
-:
-function
 (
 )
 {
@@ -341,8 +335,6 @@ form
 ;
 }
 bindings
-:
-function
 (
 )
 {
@@ -440,8 +432,6 @@ const
 desc
 =
 {
-value
-:
 value
 configurable
 :
@@ -632,8 +622,6 @@ const
 desc
 =
 {
-value
-:
 value
 configurable
 :

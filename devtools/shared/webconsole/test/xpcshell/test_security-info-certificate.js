@@ -13,8 +13,6 @@ NetworkHelper
 "
 {
 get
-:
-function
 (
 )
 {
@@ -52,8 +50,6 @@ DUMMY_CERT
 =
 {
 getBase64DERString
-:
-function
 (
 )
 {

@@ -333,8 +333,6 @@ join
 "
 )
 title
-:
-title
 onClick
 :
 this

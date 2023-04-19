@@ -113,8 +113,6 @@ ActorClassWithSpec
 preferenceSpec
 {
 getTraits
-:
-function
 (
 )
 {
@@ -124,8 +122,6 @@ return
 ;
 }
 getBoolPref
-:
-function
 (
 name
 )
@@ -148,8 +144,6 @@ name
 ;
 }
 getCharPref
-:
-function
 (
 name
 )
@@ -172,8 +166,6 @@ name
 ;
 }
 getIntPref
-:
-function
 (
 name
 )
@@ -196,8 +188,6 @@ name
 ;
 }
 getAllPrefs
-:
-function
 (
 )
 {
@@ -300,8 +290,6 @@ name
 =
 {
 value
-:
-value
 hasUserValue
 :
 Services
@@ -329,8 +317,6 @@ prefs
 ;
 }
 setBoolPref
-:
-function
 (
 name
 value
@@ -357,8 +343,6 @@ null
 ;
 }
 setCharPref
-:
-function
 (
 name
 value
@@ -385,8 +369,6 @@ null
 ;
 }
 setIntPref
-:
-function
 (
 name
 value
@@ -413,8 +395,6 @@ null
 ;
 }
 clearUserPref
-:
-function
 (
 name
 )

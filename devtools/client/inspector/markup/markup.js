@@ -2257,8 +2257,6 @@ _undo
 ;
 }
 _handleRejectionIfNotDestroyed
-:
-function
 (
 e
 )
@@ -2281,8 +2279,6 @@ e
 }
 }
 _initTooltips
-:
-function
 (
 )
 {
@@ -2328,8 +2324,6 @@ _enableImagePreviewTooltip
 ;
 }
 _enableImagePreviewTooltip
-:
-function
 (
 )
 {
@@ -2349,8 +2343,6 @@ _isImagePreviewTarget
 ;
 }
 _disableImagePreviewTooltip
-:
-function
 (
 )
 {
@@ -2364,8 +2356,6 @@ stopTogglingOnHover
 ;
 }
 _onToolboxPickerHover
-:
-function
 (
 nodeFront
 )
@@ -2399,8 +2389,6 @@ error
 ;
 }
 _onToolboxPickerCanceled
-:
-function
 (
 )
 {
@@ -2431,8 +2419,6 @@ _draggedContainer
 :
 null
 _onMouseMove
-:
-function
 (
 event
 )
@@ -2573,8 +2559,6 @@ hover
 ;
 }
 _onBlur
-:
-function
 (
 event
 )
@@ -2634,8 +2618,6 @@ clearFocus
 }
 }
 _onContextMenu
-:
-function
 (
 event
 )
@@ -2651,8 +2633,6 @@ event
 ;
 }
 _autoScroll
-:
-function
 (
 event
 )
@@ -2845,8 +2825,6 @@ DRAG_DROP_MAX_AUTOSCROLL_SPEED
 }
 }
 _runUpdateLoop
-:
-function
 (
 update
 )
@@ -2884,8 +2862,6 @@ loop
 ;
 }
 _onMouseClick
-:
-function
 (
 event
 )
@@ -2960,8 +2936,6 @@ event
 }
 }
 _onMouseUp
-:
-function
 (
 event
 )
@@ -3018,8 +2992,6 @@ _autoScrollAnimationFrame
 }
 }
 _onCollapseAttributesPrefChange
-:
-function
 (
 )
 {
@@ -3057,8 +3029,6 @@ update
 ;
 }
 cancelDragging
-:
-function
 (
 )
 {
@@ -3140,8 +3110,6 @@ _hoveredContainer
 :
 null
 _showNodeAsHovered
-:
-function
 (
 nodeFront
 )
@@ -3165,8 +3133,6 @@ container
 ;
 }
 _showContainerAsHovered
-:
-function
 (
 container
 )
@@ -3214,10 +3180,8 @@ _hoveredContainer
 container
 ;
 }
-_onMouseOut
-:
 async
-function
+_onMouseOut
 (
 event
 )
@@ -3308,8 +3272,6 @@ leave
 ;
 }
 _showBoxModel
-:
-function
 (
 nodeFront
 options
@@ -3339,8 +3301,6 @@ options
 ;
 }
 _hideBoxModel
-:
-function
 (
 )
 {
@@ -3366,8 +3326,6 @@ BOXMODEL
 ;
 }
 handleHighlighterEvent
-:
-function
 (
 eventName
 data
@@ -3560,8 +3518,6 @@ break
 }
 }
 getSelectedContainer
-:
-function
 (
 )
 {
@@ -3572,8 +3528,6 @@ _selectedContainer
 ;
 }
 getContainer
-:
-function
 (
 node
 slotted
@@ -3602,8 +3556,6 @@ key
 ;
 }
 setContainer
-:
-function
 (
 node
 container
@@ -3634,8 +3586,6 @@ container
 ;
 }
 hasContainer
-:
-function
 (
 node
 slotted
@@ -3664,8 +3614,6 @@ key
 ;
 }
 _getContainerKey
-:
-function
 (
 node
 slotted
@@ -3719,8 +3667,6 @@ node
 ;
 }
 _isContainerSelected
-:
-function
 (
 container
 )
@@ -3772,8 +3718,6 @@ isSlotted
 ;
 }
 update
-:
-function
 (
 )
 {
@@ -3932,8 +3876,6 @@ false
 ;
 }
 _shouldNewSelectionBeHighlighted
-:
-function
 (
 )
 {
@@ -4011,8 +3953,6 @@ reason
 ;
 }
 _onNewSelection
-:
-function
 (
 nodeFront
 reason
@@ -4325,10 +4265,8 @@ done
 )
 ;
 }
-maybeNavigateToNewSelection
-:
 async
-function
+maybeNavigateToNewSelection
 (
 )
 {
@@ -4458,8 +4396,6 @@ nodeFront
 }
 }
 _selectionWalker
-:
-function
 (
 start
 )
@@ -4541,8 +4477,6 @@ walker
 ;
 }
 _onCopy
-:
-function
 (
 evt
 )
@@ -4601,8 +4535,6 @@ preventDefault
 ;
 }
 copyOuterHTML
-:
-function
 (
 )
 {
@@ -4724,8 +4656,6 @@ break
 }
 }
 copyInnerHTML
-:
-function
 (
 )
 {
@@ -4771,8 +4701,6 @@ nodeFront
 ;
 }
 followAttributeLink
-:
-function
 (
 type
 link
@@ -5033,8 +4961,6 @@ error
 }
 }
 _initShortcuts
-:
-function
 (
 )
 {
@@ -5257,8 +5183,6 @@ preventDefault
 ;
 }
 _isInputOrTextarea
-:
-function
 (
 element
 )
@@ -5294,8 +5218,6 @@ textarea
 ;
 }
 deleteNodeOrAttribute
-:
-function
 (
 moveBackward
 )
@@ -5424,8 +5346,6 @@ isAnonymous
 ;
 }
 deleteNode
-:
-function
 (
 node
 moveBackward
@@ -5798,8 +5718,6 @@ name
 }
 }
 _onFocus
-:
-function
 (
 event
 )
@@ -5843,8 +5761,6 @@ container
 }
 }
 navigate
-:
-function
 (
 container
 )
@@ -5870,8 +5786,6 @@ treepanel
 ;
 }
 importNode
-:
-function
 (
 node
 flashNode
@@ -6114,10 +6028,8 @@ return
 container
 ;
 }
-_onResourceAvailable
-:
 async
-function
+_onResourceAvailable
 (
 resources
 )
@@ -6223,8 +6135,6 @@ true
 }
 }
 _onTargetAvailable
-:
-function
 (
 {
 targetFront
@@ -6233,8 +6143,6 @@ targetFront
 {
 }
 _onTargetDestroyed
-:
-function
 (
 {
 targetFront
@@ -6282,8 +6190,6 @@ true
 }
 }
 _onWalkerMutations
-:
-function
 (
 mutations
 )
@@ -6542,8 +6448,6 @@ refresh
 ;
 }
 _onWalkerNodeStatesChanged
-:
-function
 (
 nodes
 )
@@ -6581,8 +6485,6 @@ update
 }
 }
 _flashMutatedNodes
-:
-function
 (
 mutations
 )
@@ -6781,8 +6683,6 @@ flashMutation
 }
 }
 showNode
-:
-function
 (
 node
 {
@@ -6923,8 +6823,6 @@ _handleRejectionIfNotDestroyed
 ;
 }
 _ensureNodeImported
-:
-function
 (
 node
 )
@@ -6972,8 +6870,6 @@ parent
 }
 }
 _expandContainer
-:
-function
 (
 container
 )
@@ -7020,8 +6916,6 @@ true
 ;
 }
 expandNode
-:
-function
 (
 node
 )
@@ -7046,8 +6940,6 @@ container
 ;
 }
 _expandAll
-:
-function
 (
 container
 )
@@ -7128,8 +7020,6 @@ error
 ;
 }
 expandAll
-:
-function
 (
 node
 )
@@ -7158,8 +7048,6 @@ node
 ;
 }
 collapseNode
-:
-function
 (
 node
 )
@@ -7183,8 +7071,6 @@ false
 ;
 }
 _collapseAll
-:
-function
 (
 container
 )
@@ -7226,8 +7112,6 @@ child
 ;
 }
 collapseAll
-:
-function
 (
 node
 )
@@ -7253,8 +7137,6 @@ resolve
 ;
 }
 _getNodeHTML
-:
-function
 (
 node
 isOuter
@@ -7304,8 +7186,6 @@ walkerPromise
 ;
 }
 getNodeOuterHTML
-:
-function
 (
 node
 )
@@ -7321,8 +7201,6 @@ true
 ;
 }
 getNodeInnerHTML
-:
-function
 (
 node
 )
@@ -7337,8 +7215,6 @@ node
 ;
 }
 reselectOnRemoved
-:
-function
 (
 removedNode
 reason
@@ -7631,8 +7507,6 @@ onMutations
 ;
 }
 cancelReselectOnRemoved
-:
-function
 (
 )
 {
@@ -7675,8 +7549,6 @@ canceledreselectonremoved
 }
 }
 updateNodeOuterHTML
-:
-function
 (
 node
 newValue
@@ -7745,8 +7617,6 @@ cancelReselectOnRemoved
 ;
 }
 updateNodeInnerHTML
-:
-function
 (
 node
 newValue
@@ -7839,8 +7709,6 @@ oldValue
 ;
 }
 insertAdjacentHTMLToNode
-:
-function
 (
 node
 position
@@ -7957,8 +7825,6 @@ injectedNodes
 ;
 }
 beginEditingHTML
-:
-function
 (
 node
 )
@@ -8208,8 +8074,6 @@ editing
 ;
 }
 setNodeExpanded
-:
-function
 (
 node
 expanded
@@ -8271,8 +8135,6 @@ node
 }
 }
 markNodeAsSelected
-:
-function
 (
 node
 reason
@@ -8302,8 +8164,6 @@ container
 ;
 }
 _markContainerAsSelected
-:
-function
 (
 container
 reason
@@ -8422,8 +8282,6 @@ true
 ;
 }
 _ensureVisible
-:
-function
 (
 node
 )
@@ -8506,8 +8364,6 @@ _waitForChildren
 ;
 }
 unmarkSelectedNode
-:
-function
 (
 )
 {
@@ -8535,8 +8391,6 @@ null
 }
 }
 _checkSelectionVisible
-:
-function
 (
 container
 )
@@ -8599,10 +8453,8 @@ return
 centered
 ;
 }
-_forceUpdateChildren
-:
 async
-function
+_forceUpdateChildren
 (
 container
 options
@@ -8662,8 +8514,6 @@ updateLevel
 }
 }
 _updateChildren
-:
-function
 (
 container
 options
@@ -9282,8 +9132,6 @@ updatePromise
 ;
 }
 buildMoreNodesButtonMarkup
-:
-function
 (
 container
 )
@@ -9472,8 +9320,6 @@ elt
 ;
 }
 _waitForChildren
-:
-function
 (
 )
 {
@@ -9514,10 +9360,8 @@ values
 )
 ;
 }
-_getVisibleChildren
-:
 async
-function
+_getVisibleChildren
 (
 container
 centered
@@ -9588,8 +9432,6 @@ centered
 ;
 }
 _getParentInTree
-:
-function
 (
 node
 )
@@ -9651,8 +9493,6 @@ parent
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -10234,8 +10074,6 @@ null
 ;
 }
 findClosestDragDropTarget
-:
-function
 (
 el
 )
@@ -10283,8 +10121,6 @@ line
 ;
 }
 indicateDropTarget
-:
-function
 (
 el
 )
@@ -10358,8 +10194,6 @@ target
 }
 }
 indicateDragTarget
-:
-function
 (
 el
 )

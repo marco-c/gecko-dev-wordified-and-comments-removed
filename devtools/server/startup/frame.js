@@ -331,8 +331,6 @@ createWebExtensionSessionContext
 (
 {
 addonId
-:
-addonId
 browsingContextID
 :
 browsingContext
@@ -471,8 +469,6 @@ actor
 form
 (
 )
-prefix
-:
 prefix
 }
 )

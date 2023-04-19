@@ -2566,8 +2566,6 @@ SIMPLE_TABLE
 columns
 items
 timeStamp
-:
-timeStamp
 }
 )
 ;

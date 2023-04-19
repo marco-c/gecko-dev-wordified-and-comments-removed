@@ -118,8 +118,6 @@ undo
 ;
 }
 initialize
-:
-function
 (
 markupView
 node
@@ -318,8 +316,6 @@ true
 }
 }
 buildMarkup
-:
-function
 (
 )
 {
@@ -728,8 +724,6 @@ children
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -750,8 +744,6 @@ node
 ;
 }
 isPreviewable
-:
-function
 (
 )
 {
@@ -836,8 +828,6 @@ false
 ;
 }
 updateIsDisplayed
-:
-function
 (
 )
 {
@@ -1071,8 +1061,6 @@ tabindex
 }
 }
 clearFocus
-:
-function
 (
 )
 {
@@ -1227,8 +1215,6 @@ mustExpand
 ;
 }
 updateExpander
-:
-function
 (
 )
 {
@@ -1335,8 +1321,6 @@ expanded
 }
 }
 setChildrenRole
-:
-function
 (
 )
 {
@@ -1364,8 +1348,6 @@ presentation
 ;
 }
 updateLevel
-:
-function
 (
 )
 {
@@ -1449,8 +1431,6 @@ updateLevel
 }
 }
 getChildContainers
-:
-function
 (
 )
 {
@@ -1521,8 +1501,6 @@ collapsed
 ;
 }
 setExpanded
-:
-function
 (
 value
 )
@@ -1735,8 +1713,6 @@ true
 }
 }
 showCloseTagLine
-:
-function
 (
 )
 {
@@ -1902,8 +1878,6 @@ closeTagLine
 ;
 }
 hideCloseTagLine
-:
-function
 (
 )
 {
@@ -1937,8 +1911,6 @@ undefined
 ;
 }
 parentContainer
-:
-function
 (
 )
 {
@@ -2210,8 +2182,6 @@ _isDragging
 ;
 }
 isDraggable
-:
-function
 (
 )
 {
@@ -2316,8 +2286,6 @@ null
 ;
 }
 isSlotted
-:
-function
 (
 )
 {
@@ -2326,8 +2294,6 @@ false
 ;
 }
 _onKeyDown
-:
-function
 (
 event
 )
@@ -2544,8 +2510,6 @@ stopPropagation
 ;
 }
 _onMouseDown
-:
-function
 (
 event
 )
@@ -2866,8 +2830,6 @@ completed
 }
 }
 onMouseMove
-:
-function
 (
 event
 )
@@ -3087,8 +3049,6 @@ el
 }
 }
 cancelDragging
-:
-function
 (
 )
 {
@@ -3130,8 +3090,6 @@ top
 ;
 }
 flashMutation
-:
-function
 (
 )
 {
@@ -3567,8 +3525,6 @@ selected
 }
 }
 update
-:
-function
 (
 )
 {
@@ -3701,8 +3657,6 @@ update
 }
 }
 focus
-:
-function
 (
 )
 {
@@ -3742,8 +3696,6 @@ focus
 }
 }
 _onToggle
-:
-function
 (
 event
 )
@@ -3797,8 +3749,6 @@ altKey
 ;
 }
 expandContainer
-:
-function
 (
 applyToDescendants
 )
@@ -3829,8 +3779,6 @@ applyToDescendants
 }
 }
 destroy
-:
-function
 (
 )
 {

@@ -606,8 +606,6 @@ prototype
 =
 {
 _initServer
-:
-function
 (
 )
 {
@@ -1338,8 +1336,6 @@ _dbgProfilePath
 ;
 }
 _create
-:
-function
 (
 )
 {
@@ -1910,10 +1906,8 @@ err
 )
 ;
 }
-close
-:
 async
-function
+close
 (
 )
 {

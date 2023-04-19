@@ -228,8 +228,6 @@ TabBar
 ;
 }
 render
-:
-function
 (
 )
 {
@@ -298,8 +296,6 @@ _tabbox
 ;
 }
 addAllQueuedTabs
-:
-function
 (
 )
 {
@@ -313,8 +309,6 @@ addAllQueuedTabs
 ;
 }
 addTab
-:
-function
 (
 id
 title
@@ -353,8 +347,6 @@ id
 ;
 }
 addExistingTab
-:
-function
 (
 id
 title
@@ -371,8 +363,6 @@ InspectorTabPanel
 (
 {
 id
-:
-id
 idPrefix
 :
 this
@@ -381,8 +371,6 @@ TABPANEL_ID_PREFIX
 key
 :
 id
-title
-:
 title
 }
 )
@@ -400,8 +388,6 @@ index
 ;
 }
 queueTab
-:
-function
 (
 id
 title
@@ -440,8 +426,6 @@ id
 ;
 }
 queueExistingTab
-:
-function
 (
 id
 title
@@ -458,8 +442,6 @@ InspectorTabPanel
 (
 {
 id
-:
-id
 idPrefix
 :
 this
@@ -468,8 +450,6 @@ TABPANEL_ID_PREFIX
 key
 :
 id
-title
-:
 title
 }
 )
@@ -515,8 +495,6 @@ tabId
 ;
 }
 toggleTab
-:
-function
 (
 isVisible
 id
@@ -534,8 +512,6 @@ isVisible
 ;
 }
 select
-:
-function
 (
 id
 )
@@ -551,8 +527,6 @@ id
 ;
 }
 getCurrentTabID
-:
-function
 (
 )
 {
@@ -563,8 +537,6 @@ _currentTool
 ;
 }
 getTabPanel
-:
-function
 (
 id
 )
@@ -595,8 +567,6 @@ id
 ;
 }
 handleSelectionChange
-:
-function
 (
 id
 )
@@ -678,8 +648,6 @@ _currentTool
 ;
 }
 updateTelemetryOnChange
-:
-function
 (
 currentToolId
 previousToolId
@@ -795,8 +763,6 @@ this
 ;
 }
 getTelemetryPanelNameOrOther
-:
-function
 (
 id
 )
@@ -886,8 +852,6 @@ id
 ;
 }
 show
-:
-function
 (
 id
 )
@@ -924,8 +888,6 @@ show
 ;
 }
 hide
-:
-function
 (
 )
 {

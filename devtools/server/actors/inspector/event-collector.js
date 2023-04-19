@@ -1220,8 +1220,6 @@ listener
 .
 type
 handler
-:
-handler
 enabled
 :
 listener
@@ -1547,10 +1545,6 @@ eventInfo
 =
 {
 type
-:
-type
-handler
-:
 handler
 tags
 :
@@ -1928,8 +1922,6 @@ length
 +
 1
 )
-handler
-:
 handler
 tags
 :

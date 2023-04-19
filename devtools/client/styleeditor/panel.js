@@ -255,8 +255,6 @@ this
 ;
 }
 _showError
-:
-function
 (
 data
 )
@@ -397,8 +395,6 @@ level
 }
 }
 selectStyleSheet
-:
-function
 (
 front
 line
@@ -439,8 +435,6 @@ col
 ;
 }
 selectOriginalSheet
-:
-function
 (
 originalId
 line
@@ -493,8 +487,6 @@ col
 ;
 }
 getStylesheetFrontForGeneratedURL
-:
-function
 (
 url
 )
@@ -523,8 +515,6 @@ url
 ;
 }
 destroy
-:
-function
 (
 )
 {

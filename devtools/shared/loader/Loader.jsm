@@ -788,8 +788,6 @@ return
 ;
 }
 destroy
-:
-function
 (
 reason
 =
@@ -813,8 +811,6 @@ loader
 ;
 }
 isLoaderPluginId
-:
-function
 (
 id
 )

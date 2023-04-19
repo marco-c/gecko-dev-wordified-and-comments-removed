@@ -151,8 +151,6 @@ _keyframesRules
 :
 null
 reset
-:
-function
 (
 )
 {
@@ -209,8 +207,6 @@ _keyframesRules
 ;
 }
 highlight
-:
-function
 (
 viewedElement
 )
@@ -491,8 +487,6 @@ true
 }
 }
 getPropertyInfo
-:
-function
 (
 property
 )
@@ -550,8 +544,6 @@ info
 ;
 }
 _cacheSheets
-:
-function
 (
 )
 {
@@ -603,8 +595,6 @@ true
 ;
 }
 _cacheSheet
-:
-function
 (
 domSheet
 )
@@ -826,8 +816,6 @@ _keyframesRules
 ;
 }
 getSheet
-:
-function
 (
 domSheet
 index
@@ -1016,8 +1004,6 @@ sheet
 ;
 }
 forEachSheet
-:
-function
 (
 callback
 scope
@@ -1134,8 +1120,6 @@ _ruleCount
 ;
 }
 processMatchedSelectors
-:
-function
 (
 callback
 scope
@@ -1350,8 +1334,6 @@ _passId
 }
 }
 selectorMatchesElement
-:
-function
 (
 domRule
 idx
@@ -1410,8 +1392,6 @@ false
 ;
 }
 hasMatchedSelectors
-:
-function
 (
 properties
 )
@@ -1546,8 +1526,6 @@ result
 ;
 }
 _buildMatchedRules
-:
-function
 (
 )
 {
@@ -1898,8 +1876,6 @@ ELEMENT_NODE
 ;
 }
 mediaMatches
-:
-function
 (
 domObject
 )
@@ -2626,8 +2602,6 @@ return
 }
 }
 getCssRules
-:
-function
 (
 )
 {
@@ -2653,8 +2627,6 @@ return
 }
 }
 getRule
-:
-function
 (
 domRule
 )
@@ -2777,8 +2749,6 @@ rule
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -3113,8 +3083,6 @@ index
 ;
 }
 getPropertyValue
-:
-function
 (
 property
 )
@@ -3133,8 +3101,6 @@ property
 ;
 }
 getPropertyPriority
-:
-function
 (
 property
 )
@@ -3252,8 +3218,6 @@ _selectors
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -3524,8 +3488,6 @@ _specificity
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -3694,8 +3656,6 @@ _matchedSelectors
 ;
 }
 _findMatchedSelectors
-:
-function
 (
 )
 {
@@ -3788,8 +3748,6 @@ BEST
 }
 }
 _processMatchedSelector
-:
-function
 (
 selector
 status
@@ -3877,8 +3835,6 @@ selectorInfo
 }
 }
 _refilterSelectors
-:
-function
 (
 )
 {
@@ -3954,8 +3910,6 @@ false
 ;
 }
 toString
-:
-function
 (
 )
 {
@@ -4207,8 +4161,6 @@ userRule
 ;
 }
 compareTo
-:
-function
 (
 that
 )
@@ -4381,8 +4333,6 @@ return
 ;
 }
 compare
-:
-function
 (
 that
 propertyName
@@ -4488,8 +4438,6 @@ return
 ;
 }
 toString
-:
-function
 (
 )
 {

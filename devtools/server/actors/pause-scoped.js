@@ -93,8 +93,6 @@ assign
 proto
 {
 initialize
-:
-function
 (
 obj
 hooks
@@ -135,8 +133,6 @@ isThreadLifetimePool
 ;
 }
 isPaused
-:
-function
 (
 )
 {
@@ -161,8 +157,6 @@ true
 ;
 }
 withPaused
-:
-function
 (
 method
 )

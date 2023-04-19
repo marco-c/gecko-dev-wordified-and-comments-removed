@@ -290,8 +290,6 @@ useAddonManager
 temporary
 "
 background
-:
-function
 (
 )
 {

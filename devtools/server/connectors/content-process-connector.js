@@ -325,8 +325,6 @@ server
 "
 {
 prefix
-:
-prefix
 sessionContext
 :
 createContentProcessSessionContext

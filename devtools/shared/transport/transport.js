@@ -225,8 +225,6 @@ prototype
 =
 {
 send
-:
-function
 (
 object
 )
@@ -263,8 +261,6 @@ _flushOutgoing
 ;
 }
 startBulkSend
-:
-function
 (
 header
 )
@@ -306,8 +302,6 @@ streamReadyForWriting
 ;
 }
 close
-:
-function
 (
 reason
 )
@@ -427,8 +421,6 @@ _outgoing
 ;
 }
 _flushOutgoing
-:
-function
 (
 )
 {
@@ -520,8 +512,6 @@ currentThread
 }
 }
 pauseOutgoing
-:
-function
 (
 )
 {
@@ -533,8 +523,6 @@ false
 ;
 }
 resumeOutgoing
-:
-function
 (
 )
 {
@@ -645,8 +633,6 @@ onOutputStreamReady
 "
 )
 _finishCurrentOutgoing
-:
-function
 (
 )
 {
@@ -676,8 +662,6 @@ shift
 }
 }
 _destroyAllOutgoing
-:
-function
 (
 )
 {
@@ -707,8 +691,6 @@ _outgoing
 ;
 }
 ready
-:
-function
 (
 )
 {
@@ -726,8 +708,6 @@ _waitForIncoming
 ;
 }
 _waitForIncoming
-:
-function
 (
 )
 {
@@ -777,8 +757,6 @@ currentThread
 }
 }
 pauseIncoming
-:
-function
 (
 )
 {
@@ -790,8 +768,6 @@ false
 ;
 }
 resumeIncoming
-:
-function
 (
 )
 {
@@ -906,8 +882,6 @@ onInputStreamReady
 "
 )
 _processIncoming
-:
-function
 (
 stream
 count
@@ -1141,8 +1115,6 @@ true
 ;
 }
 _readHeader
-:
-function
 (
 )
 {
@@ -1269,8 +1241,6 @@ false
 ;
 }
 _flushIncoming
-:
-function
 (
 )
 {
@@ -1315,8 +1285,6 @@ _destroyIncoming
 ;
 }
 _onJSONObjectReady
-:
-function
 (
 object
 )
@@ -1368,8 +1336,6 @@ onPacket
 ;
 }
 _onBulkReadReady
-:
-function
 (
 .
 .
@@ -1427,8 +1393,6 @@ onBulkPacket
 ;
 }
 _destroyIncoming
-:
-function
 (
 )
 {

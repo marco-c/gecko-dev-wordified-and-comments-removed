@@ -1130,8 +1130,6 @@ webSocket
 ;
 }
 _validateOptions
-:
-function
 (
 )
 {
@@ -1199,8 +1197,6 @@ sockets
 }
 }
 open
-:
-function
 (
 )
 {
@@ -1496,8 +1492,6 @@ close
 ;
 }
 _advertise
-:
-function
 (
 )
 {
@@ -1551,8 +1545,6 @@ advertisement
 ;
 }
 _createSocketInstance
-:
-function
 (
 )
 {
@@ -1583,8 +1575,6 @@ nsIServerSocket
 ;
 }
 close
-:
-function
 (
 )
 {
@@ -1840,8 +1830,6 @@ onSocketAccepted
 "
 )
 onStopListening
-:
-function
 (
 socket
 status

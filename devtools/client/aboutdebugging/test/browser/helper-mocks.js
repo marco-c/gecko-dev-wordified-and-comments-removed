@@ -669,8 +669,6 @@ device
 name
 "
 id
-:
-id
 isFenix
 :
 runtimeInfo

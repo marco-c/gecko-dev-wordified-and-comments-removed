@@ -1454,8 +1454,6 @@ child7
 ;
 }
 getPolymorphism
-:
-function
 (
 id
 )
@@ -1510,8 +1508,6 @@ id
 ;
 }
 requestPolymorphism
-:
-function
 (
 id
 actor

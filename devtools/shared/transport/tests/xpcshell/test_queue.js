@@ -432,8 +432,6 @@ hooks
 =
 {
 onPacket
-:
-function
 (
 packet
 )
@@ -487,8 +485,6 @@ reply
 }
 }
 onServerHello
-:
-function
 (
 packet
 )
@@ -606,8 +602,6 @@ send_packets
 ;
 }
 onError
-:
-function
 (
 packet
 )
@@ -638,8 +632,6 @@ noSuchActor
 ;
 }
 onTransportClosed
-:
-function
 (
 )
 {

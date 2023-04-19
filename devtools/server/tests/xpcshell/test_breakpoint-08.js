@@ -77,8 +77,6 @@ source
 .
 url
 line
-:
-line
 }
 {
 }

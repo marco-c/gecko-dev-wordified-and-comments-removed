@@ -519,8 +519,6 @@ checkObject
 response
 {
 input
-:
-input
 result
 :
 output

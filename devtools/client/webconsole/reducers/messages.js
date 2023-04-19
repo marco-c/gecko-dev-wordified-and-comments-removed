@@ -2939,8 +2939,6 @@ push
 (
 {
 ancestorId
-:
-ancestorId
 matchedFilters
 :
 matchedGroups

@@ -1337,8 +1337,6 @@ readData
 return
 {
 type
-:
-type
 data
 :
 readData
@@ -2135,8 +2133,6 @@ const
 msgpack
 =
 {
-deserialize
-:
 deserialize
 decode
 :

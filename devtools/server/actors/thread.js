@@ -3863,10 +3863,6 @@ sourceActor
 .
 actorID
 line
-:
-line
-column
-:
 column
 }
 ;

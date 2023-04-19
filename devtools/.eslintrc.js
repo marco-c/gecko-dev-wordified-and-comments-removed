@@ -1304,15 +1304,6 @@ all
 }
 ]
 "
-object
--
-shorthand
-"
-:
-"
-off
-"
-"
 prefer
 -
 const

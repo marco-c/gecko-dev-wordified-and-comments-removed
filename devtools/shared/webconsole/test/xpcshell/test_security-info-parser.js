@@ -13,8 +13,6 @@ NetworkHelper
 "
 {
 get
-:
-function
 (
 )
 {
@@ -59,8 +57,6 @@ MockCertificate
 =
 {
 getBase64DERString
-:
-function
 (
 )
 {

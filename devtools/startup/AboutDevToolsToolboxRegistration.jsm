@@ -104,8 +104,6 @@ nsIAboutModule
 ]
 )
 newChannel
-:
-function
 (
 uri
 loadInfo
@@ -143,8 +141,6 @@ chan
 ;
 }
 getURIFlags
-:
-function
 (
 uri
 )
@@ -166,8 +162,6 @@ HIDE_FROM_ABOUTABOUT
 ;
 }
 getChromeURI
-:
-function
 (
 _uri
 )

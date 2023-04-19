@@ -737,8 +737,6 @@ separate
 }
 ]
 isActive
-:
-isActive
 }
 ;
 }

@@ -73,8 +73,6 @@ prototype
 =
 {
 destroy
-:
-function
 (
 )
 {
@@ -96,8 +94,6 @@ clearIndex
 ;
 }
 clearIndex
-:
-function
 (
 )
 {
@@ -166,8 +162,6 @@ _data
 ;
 }
 _addToIndex
-:
-function
 (
 type
 node
@@ -217,18 +211,12 @@ push
 (
 {
 type
-:
-type
-node
-:
 node
 }
 )
 ;
 }
 index
-:
-function
 (
 )
 {
@@ -582,8 +570,6 @@ prototype
 =
 {
 destroy
-:
-function
 (
 )
 {
@@ -603,8 +589,6 @@ null
 ;
 }
 _addResult
-:
-function
 (
 node
 type
@@ -692,8 +676,6 @@ type
 }
 }
 _searchIndex
-:
-function
 (
 query
 options
@@ -779,8 +761,6 @@ results
 }
 }
 _searchSelectors
-:
-function
 (
 query
 options
@@ -867,8 +847,6 @@ results
 }
 }
 _searchXPath
-:
-function
 (
 query
 options
@@ -937,8 +915,6 @@ results
 }
 }
 search
-:
-function
 (
 query
 options
@@ -1059,10 +1035,6 @@ push
 (
 {
 node
-:
-node
-type
-:
 type
 }
 )

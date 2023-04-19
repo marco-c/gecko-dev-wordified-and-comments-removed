@@ -1426,8 +1426,6 @@ _toggle
 ;
 }
 setContentSize
-:
-function
 (
 {
 width
@@ -2335,8 +2333,6 @@ top
 ;
 }
 _getBoundingRects
-:
-function
 (
 anchorRect
 )
@@ -2538,8 +2534,6 @@ windowRect
 ;
 }
 _measureContainerSize
-:
-function
 (
 )
 {
@@ -2901,8 +2895,6 @@ null
 }
 }
 removeEventListeners
-:
-function
 (
 )
 {
@@ -2938,8 +2930,6 @@ true
 ;
 }
 isVisible
-:
-function
 (
 )
 {
@@ -2961,8 +2951,6 @@ visible
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -3026,8 +3014,6 @@ null
 }
 }
 _createContainer
-:
-function
 (
 )
 {
@@ -3254,8 +3240,6 @@ container
 ;
 }
 _onClick
-:
-function
 (
 e
 )
@@ -3306,8 +3290,6 @@ stopPropagation
 }
 }
 _onMouseup
-:
-function
 (
 e
 )
@@ -3340,8 +3322,6 @@ true
 ;
 }
 _isInTooltipContainer
-:
-function
 (
 node
 )
@@ -3458,8 +3438,6 @@ false
 ;
 }
 _onXulPanelHidden
-:
-function
 (
 )
 {
@@ -3481,8 +3459,6 @@ hide
 }
 }
 focus
-:
-function
 (
 )
 {
@@ -3517,8 +3493,6 @@ focusableElement
 ;
 }
 focusEnd
-:
-function
 (
 )
 {
@@ -3566,8 +3540,6 @@ length
 ;
 }
 _getTopWindow
-:
-function
 (
 )
 {
@@ -3585,8 +3557,6 @@ defaultView
 ;
 }
 _hasXULRootElement
-:
-function
 (
 )
 {
@@ -3605,8 +3575,6 @@ XUL_NS
 ;
 }
 _isXULPopupAvailable
-:
-function
 (
 )
 {
@@ -3621,8 +3589,6 @@ isSystemPrincipal
 ;
 }
 _createXulPanelWrapper
-:
-function
 (
 )
 {
@@ -3771,8 +3737,6 @@ panel
 ;
 }
 _showXulWrapperAt
-:
-function
 (
 left
 top
@@ -3821,8 +3785,6 @@ onPanelShown
 ;
 }
 _moveXulWrapperTo
-:
-function
 (
 left
 top
@@ -3840,8 +3802,6 @@ top
 ;
 }
 _hideXulWrapper
-:
-function
 (
 )
 {
@@ -3908,8 +3868,6 @@ onPanelHidden
 ;
 }
 _convertToScreenRect
-:
-function
 (
 {
 left

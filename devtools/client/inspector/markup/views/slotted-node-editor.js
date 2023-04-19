@@ -111,8 +111,6 @@ prototype
 =
 {
 buildMarkup
-:
-function
 (
 )
 {
@@ -275,8 +273,6 @@ revealLink
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -319,8 +315,6 @@ null
 ;
 }
 getInfoAtNode
-:
-function
 (
 )
 {

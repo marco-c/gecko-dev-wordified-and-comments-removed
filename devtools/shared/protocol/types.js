@@ -485,8 +485,6 @@ name
 ;
 }
 name
-:
-name
 primitive
 :
 !

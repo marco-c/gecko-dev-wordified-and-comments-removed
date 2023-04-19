@@ -1141,8 +1141,6 @@ set
 content
 {
 editor
-:
-editor
 handler
 :
 listener

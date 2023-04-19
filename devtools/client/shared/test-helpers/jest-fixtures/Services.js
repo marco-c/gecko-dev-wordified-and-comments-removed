@@ -113,16 +113,8 @@ prototype
 =
 {
 PREF_INVALID
-:
-PREF_INVALID
-PREF_STRING
-:
 PREF_STRING
 PREF_INT
-:
-PREF_INT
-PREF_BOOL
-:
 PREF_BOOL
 get
 root
@@ -136,8 +128,6 @@ _fullName
 ;
 }
 getPrefType
-:
-function
 (
 prefName
 )
@@ -154,8 +144,6 @@ _type
 ;
 }
 getBoolPref
-:
-function
 (
 prefName
 defaultValue
@@ -234,8 +222,6 @@ e
 }
 }
 setBoolPref
-:
-function
 (
 prefName
 value
@@ -316,8 +302,6 @@ value
 ;
 }
 getCharPref
-:
-function
 (
 prefName
 defaultValue
@@ -396,8 +380,6 @@ e
 }
 }
 getStringPref
-:
-function
 (
 )
 {
@@ -414,8 +396,6 @@ arguments
 ;
 }
 setCharPref
-:
-function
 (
 prefName
 value
@@ -496,8 +476,6 @@ value
 ;
 }
 setStringPref
-:
-function
 (
 )
 {
@@ -514,8 +492,6 @@ arguments
 ;
 }
 getIntPref
-:
-function
 (
 prefName
 defaultValue
@@ -594,8 +570,6 @@ e
 }
 }
 setIntPref
-:
-function
 (
 prefName
 value
@@ -676,8 +650,6 @@ value
 ;
 }
 clearUserPref
-:
-function
 (
 prefName
 )
@@ -700,8 +672,6 @@ _clearUserValue
 ;
 }
 prefHasUserValue
-:
-function
 (
 prefName
 )
@@ -723,8 +693,6 @@ _hasUserValue
 ;
 }
 addObserver
-:
-function
 (
 domain
 observer
@@ -788,8 +756,6 @@ observer
 ;
 }
 removeObserver
-:
-function
 (
 domain
 observer
@@ -849,8 +815,6 @@ index
 }
 }
 savePrefFile
-:
-function
 (
 file
 )
@@ -879,8 +843,6 @@ savePrefFile
 }
 }
 getBranch
-:
-function
 (
 prefRoot
 )
@@ -929,8 +891,6 @@ prefRoot
 ;
 }
 _get
-:
-function
 (
 )
 {
@@ -954,8 +914,6 @@ _defaultValue
 ;
 }
 _set
-:
-function
 (
 value
 )
@@ -998,8 +956,6 @@ _saveAndNotify
 }
 }
 _setDefault
-:
-function
 (
 value
 )
@@ -1039,8 +995,6 @@ _saveAndNotify
 }
 }
 _clearUserValue
-:
-function
 (
 )
 {
@@ -1072,8 +1026,6 @@ _saveAndNotify
 }
 }
 _saveAndNotify
-:
-function
 (
 )
 {
@@ -1133,8 +1085,6 @@ _name
 ;
 }
 _storageUpdated
-:
-function
 (
 type
 userValue
@@ -1179,8 +1129,6 @@ _name
 ;
 }
 _findPref
-:
-function
 (
 prefName
 )
@@ -1235,8 +1183,6 @@ branch
 ;
 }
 _notify
-:
-function
 (
 relativeName
 )
@@ -1385,8 +1331,6 @@ relativeName
 }
 }
 _createBranch
-:
-function
 (
 branchList
 )
@@ -1473,8 +1417,6 @@ parent
 ;
 }
 _findOrCreatePref
-:
-function
 (
 keyName
 userValue
@@ -1647,8 +1589,6 @@ branch
 ;
 }
 getKeyName
-:
-function
 (
 keyName
 )
@@ -1679,8 +1619,6 @@ keyName
 ;
 }
 _onStorageChange
-:
-function
 (
 event
 )
@@ -1796,8 +1734,6 @@ defaultValue
 }
 }
 _initializeRoot
-:
-function
 (
 )
 {
@@ -1986,8 +1922,6 @@ strings
 :
 {
 createBundle
-:
-function
 (
 bundle
 )
@@ -1995,8 +1929,6 @@ bundle
 return
 {
 GetStringFromName
-:
-function
 (
 str
 )

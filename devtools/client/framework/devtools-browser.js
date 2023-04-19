@@ -1533,8 +1533,6 @@ msg
 }
 }
 loadBrowserStyleSheet
-:
-function
 (
 win
 )

@@ -1256,8 +1256,6 @@ profilerRecordingButtonCreated
 :
 false
 isDisabledByPolicy
-:
-function
 (
 )
 {
@@ -1274,8 +1272,6 @@ false
 ;
 }
 handle
-:
-function
 (
 cmdLine
 )
@@ -1861,8 +1857,6 @@ const
 item
 =
 {
-id
-:
 id
 type
 :
@@ -3011,8 +3005,6 @@ k
 ;
 }
 initDevTools
-:
-function
 (
 reason
 key
@@ -3093,8 +3085,6 @@ require
 ;
 }
 handleConsoleFlag
-:
-function
 (
 cmdLine
 )
@@ -3200,10 +3190,8 @@ true
 ;
 }
 }
-handleDevToolsFlag
-:
 async
-function
+handleDevToolsFlag
 (
 window
 )
@@ -3369,8 +3357,6 @@ remoteDebuggingEnabled
 ;
 }
 handleDebuggerFlag
-:
-function
 (
 cmdLine
 binaryPath
@@ -3609,8 +3595,6 @@ true
 }
 }
 handleDevToolsServerFlag
-:
-function
 (
 cmdLine
 portOrPath
@@ -4830,8 +4814,6 @@ initialized
 :
 false
 initialize
-:
-function
 (
 )
 {
@@ -4871,8 +4853,6 @@ onSave
 ;
 }
 onSave
-:
-function
 (
 message
 )

@@ -97,8 +97,6 @@ prototype
 =
 {
 start
-:
-function
 (
 baseNode
 targetNodeCb
@@ -229,8 +227,6 @@ _onTooltipMouseOut
 }
 }
 stop
-:
-function
 (
 )
 {
@@ -344,8 +340,6 @@ null
 ;
 }
 _onMouseMove
-:
-function
 (
 event
 )
@@ -524,8 +518,6 @@ null
 ;
 }
 _onMouseOut
-:
-function
 (
 event
 )
@@ -664,8 +656,6 @@ _toggleDelay
 ;
 }
 destroy
-:
-function
 (
 )
 {

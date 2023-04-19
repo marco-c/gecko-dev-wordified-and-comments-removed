@@ -955,8 +955,6 @@ ref
 addInputValue
 "
 value
-:
-value
 onChange
 :
 e

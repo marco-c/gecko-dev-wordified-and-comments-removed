@@ -739,8 +739,6 @@ long
 LONG_ATTRIBUTE
 }
 setUp
-:
-function
 (
 inspector
 )
@@ -814,8 +812,6 @@ LONG_ATTRIBUTE
 ;
 }
 tearDown
-:
-function
 (
 inspector
 )
@@ -874,8 +870,6 @@ long
 LONG_ATTRIBUTE
 }
 setUp
-:
-function
 (
 inspector
 )
@@ -981,8 +975,6 @@ collapsed
 ;
 }
 tearDown
-:
-function
 (
 inspector
 )

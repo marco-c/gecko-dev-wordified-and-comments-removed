@@ -136,8 +136,6 @@ l10n
 :
 {
 setAttributes
-:
-function
 (
 )
 {

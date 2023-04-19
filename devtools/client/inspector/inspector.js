@@ -1409,8 +1409,6 @@ null
 ;
 }
 onResourceAvailable
-:
-function
 (
 resources
 )
@@ -1548,10 +1546,8 @@ rootNodeAvailablePromises
 )
 ;
 }
-onRootNodeAvailable
-:
 async
-function
+onRootNodeAvailable
 (
 rootNodeFront
 )
@@ -1661,10 +1657,8 @@ e
 ;
 }
 }
-_initMarkupView
-:
 async
-function
+_initMarkupView
 (
 )
 {
@@ -2355,8 +2349,6 @@ testing
 :
 1000
 _handleRejectionIfNotDestroyed
-:
-function
 (
 e
 )
@@ -2379,8 +2371,6 @@ e
 }
 }
 _onWillNavigate
-:
-function
 (
 )
 {
@@ -2428,10 +2418,8 @@ _pendingSelectionUnique
 null
 ;
 }
-_getCssProperties
-:
 async
-function
+_getCssProperties
 (
 targetFront
 )
@@ -2451,10 +2439,8 @@ cssProperties
 )
 ;
 }
-_getAccessibilityFront
-:
 async
-function
+_getAccessibilityFront
 (
 targetFront
 )
@@ -2479,10 +2465,8 @@ this
 accessibilityFront
 ;
 }
-_getDefaultNodeForSelection
-:
 async
-function
+_getDefaultNodeForSelection
 (
 rootNodeFront
 )
@@ -2662,8 +2646,6 @@ targetFront
 ;
 }
 setupSearchBox
-:
-function
 (
 )
 {
@@ -2963,8 +2945,6 @@ autocompleter
 ;
 }
 _clearSearchResultsLabel
-:
-function
 (
 result
 )
@@ -2980,8 +2960,6 @@ true
 ;
 }
 _updateSearchResultsLabel
-:
-function
 (
 result
 clear
@@ -3274,8 +3252,6 @@ _TabBar
 ;
 }
 useLandscapeMode
-:
-function
 (
 )
 {
@@ -3361,8 +3337,6 @@ PORTRAIT_MODE_WIDTH_THRESHOLD
 ;
 }
 setupSplitter
-:
-function
 (
 )
 {
@@ -3586,10 +3560,8 @@ true
 )
 ;
 }
-_onLazyPanelResize
-:
 async
-function
+_onLazyPanelResize
 (
 )
 {
@@ -3651,8 +3623,6 @@ resize
 ;
 }
 getSidebarSize
-:
-function
 (
 )
 {
@@ -3762,8 +3732,6 @@ splitSidebarWidth
 ;
 }
 onSidebarHidden
-:
-function
 (
 )
 {
@@ -3846,8 +3814,6 @@ width
 ;
 }
 onSidebarResized
-:
-function
 (
 width
 height
@@ -3874,8 +3840,6 @@ height
 ;
 }
 getActiveSidebar
-:
-function
 (
 )
 {
@@ -3897,8 +3861,6 @@ activeSidebar
 ;
 }
 setActiveSidebar
-:
-function
 (
 toolId
 )
@@ -3921,8 +3883,6 @@ toolId
 ;
 }
 getSelectedSidebar
-:
-function
 (
 )
 {
@@ -3944,8 +3904,6 @@ selectedSidebar
 ;
 }
 setSelectedSidebar
-:
-function
 (
 toolId
 )
@@ -3968,8 +3926,6 @@ toolId
 ;
 }
 onSidebarSelect
-:
-function
 (
 toolId
 )
@@ -4013,8 +3969,6 @@ toolId
 ;
 }
 onSidebarShown
-:
-function
 (
 )
 {
@@ -4521,8 +4475,6 @@ added
 ;
 }
 hasPanel
-:
-function
 (
 id
 )
@@ -4539,8 +4491,6 @@ id
 ;
 }
 getPanel
-:
-function
 (
 id
 )
@@ -5434,8 +5384,6 @@ title
 }
 }
 addExtensionSidebar
-:
-function
 (
 id
 {
@@ -5530,8 +5478,6 @@ extensionSidebar
 ;
 }
 removeExtensionSidebar
-:
-function
 (
 id
 )
@@ -5638,8 +5584,6 @@ destroy
 ;
 }
 addSidebarTab
-:
-function
 (
 id
 title
@@ -5926,8 +5870,6 @@ updated
 ;
 }
 teardownToolbar
-:
-function
 (
 )
 {
@@ -6138,8 +6080,6 @@ _handleRejectionIfNotDestroyed
 ;
 }
 canAddHTMLChild
-:
-function
 (
 )
 {
@@ -6322,8 +6262,6 @@ setSidebarSplitBoxState
 ;
 }
 onNewSelection
-:
-function
 (
 value
 reason
@@ -6562,8 +6500,6 @@ target
 ;
 }
 updating
-:
-function
 (
 name
 )
@@ -6628,8 +6564,6 @@ Set
 (
 )
 checkDone
-:
-function
 (
 )
 {
@@ -6760,8 +6694,6 @@ done
 ;
 }
 cancelUpdate
-:
-function
 (
 )
 {
@@ -6773,8 +6705,6 @@ null
 ;
 }
 onDetached
-:
-function
 (
 parentNode
 )
@@ -6824,8 +6754,6 @@ detached
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -7410,8 +7338,6 @@ null
 ;
 }
 _destroyMarkup
-:
-function
 (
 )
 {
@@ -7459,8 +7385,6 @@ hidden
 }
 }
 onEyeDropperButtonClicked
-:
-function
 (
 )
 {
@@ -7491,8 +7415,6 @@ showEyeDropper
 ;
 }
 startEyeDropperListeners
-:
-function
 (
 )
 {
@@ -7558,8 +7480,6 @@ onEyeDropperDone
 ;
 }
 stopEyeDropperListeners
-:
-function
 (
 )
 {
@@ -7625,8 +7545,6 @@ onEyeDropperDone
 ;
 }
 onEyeDropperDone
-:
-function
 (
 )
 {
@@ -7651,8 +7569,6 @@ stopEyeDropperListeners
 ;
 }
 showEyeDropper
-:
-function
 (
 )
 {
@@ -7742,8 +7658,6 @@ error
 ;
 }
 hideEyeDropper
-:
-function
 (
 )
 {
@@ -7900,8 +7814,6 @@ nodeFront
 ;
 }
 togglePseudoClass
-:
-function
 (
 pseudo
 )

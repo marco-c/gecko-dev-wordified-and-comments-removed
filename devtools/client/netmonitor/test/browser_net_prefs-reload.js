@@ -271,8 +271,6 @@ controlled
 .
 clientWidth
 modifyFrontend
-:
-function
 (
 value
 )
@@ -354,8 +352,6 @@ controlled
 .
 clientHeight
 modifyFrontend
-:
-function
 (
 value
 )

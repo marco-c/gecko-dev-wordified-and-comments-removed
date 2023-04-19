@@ -307,8 +307,6 @@ ActorClassWithSpec
 frameSpec
 {
 initialize
-:
-function
 (
 frame
 threadActor
@@ -387,8 +385,6 @@ _frameLifetimePool
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -427,8 +423,6 @@ this
 ;
 }
 getEnvironment
-:
-function
 (
 )
 {
@@ -488,8 +482,6 @@ form
 ;
 }
 form
-:
-function
 (
 )
 {
@@ -804,8 +796,6 @@ form
 ;
 }
 _args
-:
-function
 (
 )
 {

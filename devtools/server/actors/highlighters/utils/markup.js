@@ -634,14 +634,12 @@ _tokens
 length
 ;
 }
+*
 [
 Symbol
 .
 iterator
 ]
-:
-function
-*
 (
 )
 {

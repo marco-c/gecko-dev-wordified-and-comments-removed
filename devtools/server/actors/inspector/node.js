@@ -372,8 +372,6 @@ ActorClassWithSpec
 nodeSpec
 {
 initialize
-:
-function
 (
 walker
 node
@@ -479,8 +477,6 @@ overflowCausingElementsMap
 }
 }
 toString
-:
-function
 (
 )
 {
@@ -527,8 +523,6 @@ conn
 ;
 }
 isDocumentElement
-:
-function
 (
 )
 {
@@ -558,8 +552,6 @@ rawNode
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -774,8 +766,6 @@ null
 ;
 }
 form
-:
-function
 (
 )
 {
@@ -1178,8 +1168,6 @@ form
 ;
 }
 watchDocument
-:
-function
 (
 doc
 callback
@@ -1257,8 +1245,6 @@ observer
 ;
 }
 watchSlotchange
-:
-function
 (
 callback
 )
@@ -1715,8 +1701,6 @@ dbg
 ;
 }
 writeAttrs
-:
-function
 (
 )
 {
@@ -1788,8 +1772,6 @@ value
 ;
 }
 writePseudoClassLocks
-:
-function
 (
 )
 {
@@ -1860,8 +1842,6 @@ ret
 ;
 }
 getCustomElementLocation
-:
-function
 (
 )
 {
@@ -2028,8 +2008,6 @@ startColumn
 ;
 }
 getNodeValue
-:
-function
 (
 )
 {
@@ -2053,8 +2031,6 @@ nodeValue
 ;
 }
 setNodeValue
-:
-function
 (
 value
 )
@@ -2069,8 +2045,6 @@ value
 ;
 }
 getUniqueSelector
-:
-function
 (
 )
 {
@@ -2101,8 +2075,6 @@ rawNode
 ;
 }
 getCssPath
-:
-function
 (
 )
 {
@@ -2133,8 +2105,6 @@ rawNode
 ;
 }
 getXPath
-:
-function
 (
 )
 {
@@ -2165,8 +2135,6 @@ rawNode
 ;
 }
 scrollIntoView
-:
-function
 (
 )
 {
@@ -2181,8 +2149,6 @@ true
 ;
 }
 getImageData
-:
-function
 (
 maxDim
 )
@@ -2227,8 +2193,6 @@ size
 ;
 }
 getEventListenerInfo
-:
-function
 (
 )
 {
@@ -2319,8 +2283,6 @@ eventListenersData
 ;
 }
 disableEventListener
-:
-function
 (
 eventListenerInfoId
 )
@@ -2362,8 +2324,6 @@ false
 ;
 }
 enableEventListener
-:
-function
 (
 eventListenerInfoId
 )
@@ -2405,8 +2365,6 @@ true
 ;
 }
 modifyAttributes
-:
-function
 (
 modifications
 )
@@ -2511,8 +2469,6 @@ newValue
 }
 }
 getFontFamilyDataURL
-:
-function
 (
 font
 fillStyle
@@ -2542,8 +2498,6 @@ previewFontSize
 :
 FONT_FAMILY_PREVIEW_TEXT_SIZE
 fillStyle
-:
-fillStyle
 }
 ;
 const
@@ -2571,14 +2525,10 @@ conn
 dataURL
 )
 size
-:
-size
 }
 ;
 }
 getClosestBackgroundColor
-:
-function
 (
 )
 {
@@ -2592,8 +2542,6 @@ rawNode
 ;
 }
 getBackgroundColor
-:
-function
 (
 )
 {
@@ -2605,8 +2553,6 @@ this
 ;
 }
 getOwnerGlobalDimensions
-:
-function
 (
 )
 {
@@ -2963,8 +2909,6 @@ ActorClassWithSpec
 nodeListSpec
 {
 initialize
-:
-function
 (
 walker
 nodeList
@@ -3001,8 +2945,6 @@ nodeList
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -3034,8 +2976,6 @@ conn
 ;
 }
 marshallPool
-:
-function
 (
 )
 {
@@ -3046,8 +2986,6 @@ walker
 ;
 }
 form
-:
-function
 (
 )
 {
@@ -3075,8 +3013,6 @@ length
 ;
 }
 item
-:
-function
 (
 index
 )
@@ -3098,8 +3034,6 @@ index
 ;
 }
 items
-:
-function
 (
 start
 =
@@ -3158,8 +3092,6 @@ items
 ;
 }
 release
-:
-function
 (
 )
 {

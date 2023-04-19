@@ -487,8 +487,6 @@ destroyed
 ;
 }
 refresh
-:
-function
 (
 )
 {
@@ -549,8 +547,6 @@ rootGrip
 ;
 }
 forceRefresh
-:
-function
 (
 )
 {
@@ -568,8 +564,6 @@ refresh
 ;
 }
 _onTargetSelected
-:
-function
 (
 {
 targetFront
@@ -584,8 +578,6 @@ forceRefresh
 ;
 }
 onResourceAvailable
-:
-function
 (
 resources
 )
@@ -647,8 +639,6 @@ forceRefresh
 }
 }
 onPanelVisibilityChange
-:
-function
 (
 )
 {
@@ -660,8 +650,6 @@ refresh
 ;
 }
 isPanelVisible
-:
-function
 (
 )
 {
@@ -679,10 +667,8 @@ dom
 "
 ;
 }
-getPrototypeAndProperties
-:
 async
-function
+getPrototypeAndProperties
 (
 objectFront
 )
@@ -821,8 +807,6 @@ response
 ;
 }
 openLink
-:
-function
 (
 url
 )
@@ -833,10 +817,8 @@ url
 )
 ;
 }
-getRootGrip
-:
 async
-function
+getRootGrip
 (
 )
 {
@@ -866,8 +848,6 @@ result
 ;
 }
 postContentMessage
-:
-function
 (
 type
 args
@@ -878,10 +858,6 @@ data
 =
 {
 type
-:
-type
-args
-:
 args
 }
 ;
@@ -910,8 +886,6 @@ cancelable
 :
 true
 data
-:
-data
 }
 )
 ;
@@ -926,8 +900,6 @@ event
 ;
 }
 onContentMessage
-:
-function
 (
 event
 )
@@ -973,8 +945,6 @@ args
 }
 }
 getToolbox
-:
-function
 (
 )
 {
@@ -1016,8 +986,6 @@ createObjectIn
 (
 win
 {
-defineAs
-:
 defineAs
 }
 )

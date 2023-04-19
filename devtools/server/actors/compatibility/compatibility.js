@@ -110,8 +110,6 @@ ActorClassWithSpec
 compatibilitySpec
 {
 initialize
-:
-function
 (
 inspector
 )
@@ -140,8 +138,6 @@ inspector
 ;
 }
 destroy
-:
-function
 (
 )
 {
@@ -193,8 +189,6 @@ traits
 ;
 }
 getCSSDeclarationBlockIssues
-:
-function
 (
 declarationBlock
 targetBrowsers

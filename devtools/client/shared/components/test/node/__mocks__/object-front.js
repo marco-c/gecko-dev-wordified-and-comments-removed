@@ -14,8 +14,6 @@ return
 {
 grip
 enumEntries
-:
-function
 (
 )
 {
@@ -39,8 +37,6 @@ ownProperties
 ;
 }
 enumProperties
-:
-function
 (
 options
 )
@@ -65,8 +61,6 @@ ownProperties
 ;
 }
 enumSymbols
-:
-function
 (
 )
 {
@@ -90,8 +84,6 @@ ownSymbols
 ;
 }
 enumPrivateProperties
-:
-function
 (
 )
 {
@@ -115,8 +107,6 @@ privateProperties
 ;
 }
 getPrototype
-:
-function
 (
 )
 {
@@ -142,8 +132,6 @@ res
 return
 {
 slice
-:
-function
 (
 start
 count

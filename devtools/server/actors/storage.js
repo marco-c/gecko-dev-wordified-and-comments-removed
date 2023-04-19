@@ -570,8 +570,6 @@ observationTopics
 return
 {
 typeName
-:
-typeName
 get
 conn
 (
@@ -1381,8 +1379,6 @@ this
 .
 actorID
 hosts
-:
-hosts
 traits
 :
 this
@@ -1541,8 +1537,6 @@ const
 toReturn
 =
 {
-offset
-:
 offset
 total
 :
@@ -3863,8 +3857,6 @@ method
 :
 methodName
 args
-:
-args
 }
 )
 ;
@@ -5631,8 +5623,6 @@ method
 :
 methodName
 args
-:
-args
 }
 )
 ;
@@ -7030,8 +7020,6 @@ method
 backToChild
 "
 args
-:
-args
 }
 )
 ;
@@ -7510,8 +7498,6 @@ parent
 method
 :
 methodName
-args
-:
 args
 }
 )
@@ -9270,8 +9256,6 @@ actor
 this
 .
 actorID
-hosts
-:
 hosts
 traits
 :
@@ -11635,8 +11619,6 @@ this
 .
 actorID
 hosts
-:
-hosts
 traits
 :
 this
@@ -12195,8 +12177,6 @@ method
 :
 methodName
 args
-:
-args
 }
 )
 ;
@@ -12405,8 +12385,6 @@ method
 backToChild
 "
 args
-:
-args
 }
 )
 ;
@@ -12583,8 +12561,6 @@ null
 ;
 }
 splitNameAndStorage
-:
-function
 (
 name
 )
@@ -12794,8 +12770,6 @@ hosts
 ;
 }
 openWithPrincipal
-:
-function
 (
 principal
 name
@@ -12810,8 +12784,6 @@ openForPrincipal
 principal
 name
 {
-storage
-:
 storage
 }
 )
@@ -12858,8 +12830,6 @@ deleteForPrincipal
 principal
 name
 {
-storage
-:
 storage
 }
 )
@@ -14073,8 +14043,6 @@ openConnection
 (
 {
 path
-:
-path
 }
 )
 ;
@@ -14256,8 +14224,6 @@ getValuesForHost
 "
 {
 dbs
-:
-dbs
 }
 )
 ;
@@ -14371,8 +14337,6 @@ getValuesForHost
 "
 {
 objectStores
-:
-objectStores
 }
 )
 ;
@@ -14408,10 +14372,6 @@ db2
 storage
 {
 objectStore
-:
-objectStore
-id
-:
 id
 index
 :
@@ -14440,8 +14400,6 @@ backToChild
 getValuesForHost
 "
 {
-result
-:
 result
 }
 )
@@ -14631,8 +14589,6 @@ objectStore
 +
 index
 count
-:
-count
 }
 )
 ;
@@ -14762,10 +14718,6 @@ resolve
 (
 {
 data
-:
-data
-objectsSize
-:
 objectsSize
 }
 )

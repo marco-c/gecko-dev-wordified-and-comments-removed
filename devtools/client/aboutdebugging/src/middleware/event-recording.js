@@ -1006,8 +1006,6 @@ getTelemetryRuntimeId
 runtimeId
 )
 status
-:
-status
 }
 )
 ;

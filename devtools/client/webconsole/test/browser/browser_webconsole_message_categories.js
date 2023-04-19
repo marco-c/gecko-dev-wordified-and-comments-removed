@@ -193,8 +193,6 @@ typeSelector
 warn
 "
 onload
-:
-function
 (
 )
 {

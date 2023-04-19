@@ -51,8 +51,6 @@ ActorClassWithSpec
 helloSpec
 {
 hello
-:
-function
 (
 )
 {

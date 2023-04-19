@@ -764,8 +764,6 @@ ActorClassWithSpec
 webconsoleSpec
 {
 initialize
-:
-function
 (
 connection
 parentActor
@@ -1033,8 +1031,6 @@ workerGlobal
 ;
 }
 _getWindowForBrowserConsole
-:
-function
 (
 )
 {
@@ -1156,8 +1152,6 @@ window
 ;
 }
 _handleNewWindow
-:
-function
 (
 window
 )
@@ -1306,8 +1300,6 @@ _webConsoleCommandsCache
 :
 null
 grip
-:
-function
 (
 )
 {
@@ -1437,8 +1429,6 @@ null
 ;
 }
 createEnvironmentActor
-:
-function
 (
 environment
 )
@@ -1494,8 +1484,6 @@ actor
 ;
 }
 createValueGrip
-:
-function
 (
 value
 )
@@ -1512,8 +1500,6 @@ objectGrip
 ;
 }
 makeDebuggeeValue
-:
-function
 (
 value
 useObjectGlobal
@@ -1594,8 +1580,6 @@ value
 ;
 }
 objectGrip
-:
-function
 (
 object
 pool
@@ -1691,8 +1675,6 @@ form
 ;
 }
 longStringGrip
-:
-function
 (
 string
 pool
@@ -1726,8 +1708,6 @@ form
 ;
 }
 _createStringGrip
-:
-function
 (
 string
 )
@@ -1758,8 +1738,6 @@ string
 ;
 }
 getLastConsoleInputEvaluation
-:
-function
 (
 )
 {
@@ -1834,10 +1812,8 @@ inspectFromAnnotation
 )
 ;
 }
-startListeners
-:
 async
-function
+startListeners
 (
 listeners
 )
@@ -2564,8 +2540,6 @@ startedListeners
 ;
 }
 stopListeners
-:
-function
 (
 listeners
 )
@@ -2939,14 +2913,10 @@ _listeners
 return
 {
 stoppedListeners
-:
-stoppedListeners
 }
 ;
 }
 getCachedMessages
-:
-function
 (
 messageTypes
 )
@@ -3278,15 +3248,11 @@ break
 return
 {
 messages
-:
-messages
 }
 ;
 }
-evaluateJSAsync
-:
 async
-function
+evaluateJSAsync
 (
 request
 )
@@ -3435,10 +3401,8 @@ resultID
 }
 ;
 }
-_maybeWaitForResponseResult
-:
 async
-function
+_maybeWaitForResponseResult
 (
 response
 )
@@ -3595,8 +3559,6 @@ response
 ;
 }
 evaluateJS
-:
-function
 (
 request
 )
@@ -3753,8 +3715,6 @@ err
 ;
 }
 prepareEvaluationResult
-:
-function
 (
 evalInfo
 input
@@ -4358,8 +4318,6 @@ catch
 return
 {
 input
-:
-input
 result
 :
 resultGrip
@@ -4389,8 +4347,6 @@ null
 errorMessageName
 frame
 helperResult
-:
-helperResult
 notes
 :
 errorNotes
@@ -4398,8 +4354,6 @@ errorNotes
 ;
 }
 autocomplete
-:
-function
 (
 text
 cursor
@@ -4945,8 +4899,6 @@ true
 ;
 }
 clearMessagesCacheAsync
-:
-function
 (
 )
 {
@@ -5106,8 +5058,6 @@ id
 }
 }
 getPreferences
-:
-function
 (
 preferences
 )
@@ -5152,8 +5102,6 @@ prefs
 ;
 }
 setPreferences
-:
-function
 (
 preferences
 )
@@ -5300,8 +5248,6 @@ preferences
 ;
 }
 _getWebConsoleCommands
-:
-function
 (
 debuggerGlobal
 )
@@ -5511,8 +5457,6 @@ helpers
 ;
 }
 _getWebConsoleCommandsCache
-:
-function
 (
 )
 {
@@ -5564,8 +5508,6 @@ _webConsoleCommandsCache
 ;
 }
 onConsoleServiceMessage
-:
-function
 (
 message
 )
@@ -5768,8 +5710,6 @@ stack
 ;
 }
 preparePageErrorForRemote
-:
-function
 (
 pageError
 )
@@ -6219,8 +6159,6 @@ result
 ;
 }
 onConsoleAPICall
-:
-function
 (
 message
 extraProperties
@@ -6254,8 +6192,6 @@ extraProperties
 ;
 }
 onDocumentEvent
-:
-function
 (
 name
 {
@@ -7001,8 +6937,6 @@ return
 ;
 }
 onFileActivity
-:
-function
 (
 fileURI
 )
@@ -7023,8 +6957,6 @@ fileURI
 ;
 }
 prepareConsoleMessageForRemote
-:
-function
 (
 message
 useObjectGlobal
@@ -7353,8 +7285,6 @@ result
 ;
 }
 _getConsoleTableMessageItems
-:
-function
 (
 result
 )
@@ -7634,8 +7564,6 @@ ownProperties
 ;
 }
 _onObserverNotification
-:
-function
 (
 subject
 topic
@@ -7670,8 +7598,6 @@ lastPrivateContextExited
 }
 }
 _onWillNavigate
-:
-function
 (
 {
 window
@@ -7716,8 +7642,6 @@ false
 }
 }
 _onChangedToplevelDocument
-:
-function
 (
 )
 {

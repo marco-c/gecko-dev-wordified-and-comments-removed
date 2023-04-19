@@ -2681,8 +2681,6 @@ currProp
 .
 value
 icon
-:
-icon
 data
 :
 currProp

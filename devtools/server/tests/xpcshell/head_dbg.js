@@ -1560,8 +1560,6 @@ listener
 =
 {
 observe
-:
-function
 (
 message
 )

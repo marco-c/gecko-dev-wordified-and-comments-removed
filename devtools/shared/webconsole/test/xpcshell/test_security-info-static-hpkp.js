@@ -23,8 +23,6 @@ NetworkHelper
 "
 {
 get
-:
-function
 (
 )
 {
@@ -88,8 +86,6 @@ serverCert
 :
 {
 getBase64DERString
-:
-function
 (
 )
 {

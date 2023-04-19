@@ -101,8 +101,6 @@ isToolSupported
 >
 true
 build
-:
-function
 (
 )
 {

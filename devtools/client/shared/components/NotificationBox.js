@@ -717,8 +717,6 @@ props
 .
 accesskey
 onClick
-:
-onClick
 }
 props
 .

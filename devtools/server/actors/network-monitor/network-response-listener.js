@@ -357,8 +357,6 @@ request
 :
 null
 setAsyncListener
-:
-function
 (
 stream
 listener
@@ -380,8 +378,6 @@ mainThread
 ;
 }
 onDataAvailable
-:
-function
 (
 request
 inputStream
@@ -515,8 +511,6 @@ true
 }
 }
 onStartRequest
-:
-function
 (
 request
 )
@@ -879,10 +873,8 @@ this
 )
 ;
 }
-_getSecurityInfo
-:
 async
-function
+_getSecurityInfo
 (
 )
 {
@@ -1010,8 +1002,6 @@ isRacing
 ;
 }
 _fetchCacheInformation
-:
-function
 (
 )
 {
@@ -1051,8 +1041,6 @@ descriptor
 ;
 }
 onStopRequest
-:
-function
 (
 )
 {
@@ -1085,8 +1073,6 @@ close
 ;
 }
 onProgress
-:
-function
 (
 request
 progress
@@ -1114,8 +1100,6 @@ arguments
 ;
 }
 onStatus
-:
-function
 (
 )
 {
@@ -1134,8 +1118,6 @@ arguments
 ;
 }
 _findOpenResponse
-:
-function
 (
 )
 {
@@ -1234,8 +1216,6 @@ cookies
 ;
 }
 onStreamClose
-:
-function
 (
 )
 {
@@ -1409,8 +1389,6 @@ _onComplete
 }
 }
 _onComplete
-:
-function
 (
 data
 )
@@ -1441,8 +1419,6 @@ _destroy
 ;
 }
 _getResponseContent
-:
-function
 (
 data
 )
@@ -1699,8 +1675,6 @@ id
 ;
 }
 _destroy
-:
-function
 (
 )
 {
@@ -1748,8 +1722,6 @@ null
 ;
 }
 onInputStreamReady
-:
-function
 (
 stream
 )

@@ -159,8 +159,6 @@ exports
 name
 {
 get
-:
-function
 (
 )
 {

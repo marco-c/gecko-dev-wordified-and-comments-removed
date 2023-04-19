@@ -78,8 +78,6 @@ nsISupportsWeakReference
 ]
 )
 _init
-:
-function
 (
 )
 {
@@ -132,8 +130,6 @@ true
 ;
 }
 startMonitor
-:
-function
 (
 )
 {
@@ -145,8 +141,6 @@ _init
 ;
 }
 stopMonitor
-:
-function
 (
 )
 {
@@ -158,8 +152,6 @@ destroy
 ;
 }
 onStateChange
-:
-function
 (
 progress
 request
@@ -190,8 +182,6 @@ status
 ;
 }
 _checkFileActivity
-:
-function
 (
 progress
 request
@@ -324,8 +314,6 @@ spec
 ;
 }
 destroy
-:
-function
 (
 )
 {

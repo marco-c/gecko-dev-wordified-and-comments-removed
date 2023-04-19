@@ -324,8 +324,6 @@ PROCESS
 contentProcessTargetSpec
 {
 initialize
-:
-function
 (
 connection
 {
@@ -665,8 +663,6 @@ _dbg
 ;
 }
 form
-:
-function
 (
 )
 {
@@ -855,8 +851,6 @@ _workerList
 ;
 }
 listWorkers
-:
-function
 (
 )
 {
@@ -956,8 +950,6 @@ actors
 ;
 }
 _onWorkerListChanged
-:
-function
 (
 )
 {
@@ -1012,8 +1004,6 @@ origin
 ;
 }
 destroy
-:
-function
 (
 )
 {

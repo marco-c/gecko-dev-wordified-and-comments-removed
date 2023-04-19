@@ -73,8 +73,6 @@ prototype
 =
 {
 getChildren
-:
-function
 (
 object
 )
@@ -155,8 +153,6 @@ props
 ;
 }
 hasChildren
-:
-function
 (
 object
 )
@@ -320,8 +316,6 @@ null
 ;
 }
 getValue
-:
-function
 (
 object
 )
@@ -365,8 +359,6 @@ object
 ;
 }
 getLabel
-:
-function
 (
 object
 )
@@ -384,8 +376,6 @@ null
 ;
 }
 getKey
-:
-function
 (
 object
 )
@@ -403,8 +393,6 @@ null
 ;
 }
 getType
-:
-function
 (
 object
 )

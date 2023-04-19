@@ -547,16 +547,8 @@ set
 ed
 {
 popup
-:
-popup
-completer
-:
 completer
 keyMap
-:
-keyMap
-destroy
-:
 destroy
 insertingSuggestion
 :

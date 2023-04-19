@@ -38,8 +38,6 @@ trace
 =
 {
 log
-:
-function
 (
 .
 .
@@ -193,10 +191,8 @@ HarCollector
 prototype
 =
 {
-start
-:
 async
-function
+start
 (
 )
 {
@@ -235,10 +231,8 @@ onResourceUpdated
 )
 ;
 }
-stop
-:
 async
-function
+stop
 (
 )
 {
@@ -278,8 +272,6 @@ onResourceUpdated
 ;
 }
 clear
-:
-function
 (
 )
 {
@@ -322,8 +314,6 @@ requests
 ;
 }
 waitForHarLoad
-:
-function
 (
 )
 {
@@ -377,8 +367,6 @@ this
 ;
 }
 waitForResponses
-:
-function
 (
 )
 {
@@ -480,8 +468,6 @@ pageLoadDeferred
 ;
 }
 waitForTimeout
-:
-function
 (
 )
 {
@@ -585,8 +571,6 @@ timeout
 ;
 }
 resetPageLoadTimeout
-:
-function
 (
 )
 {
@@ -645,8 +629,6 @@ null
 }
 }
 getFile
-:
-function
 (
 actorId
 )
@@ -663,8 +645,6 @@ actorId
 ;
 }
 getItems
-:
-function
 (
 )
 {
@@ -675,8 +655,6 @@ items
 ;
 }
 onResourceAvailable
-:
-function
 (
 resources
 )
@@ -812,13 +790,7 @@ startedMs
 :
 startTime
 method
-:
-method
 url
-:
-url
-isXHR
-:
 isXHR
 }
 ;
@@ -844,8 +816,6 @@ file
 }
 }
 onResourceUpdated
-:
-function
 (
 updates
 )
@@ -1321,8 +1291,6 @@ response
 ;
 }
 onRequestHeaders
-:
-function
 (
 response
 )
@@ -1356,8 +1324,6 @@ headers
 ;
 }
 onRequestCookies
-:
-function
 (
 response
 )
@@ -1391,8 +1357,6 @@ cookies
 ;
 }
 onRequestPostData
-:
-function
 (
 response
 )
@@ -1475,8 +1439,6 @@ value
 }
 }
 onResponseHeaders
-:
-function
 (
 response
 )
@@ -1510,8 +1472,6 @@ headers
 ;
 }
 onResponseCookies
-:
-function
 (
 response
 )
@@ -1545,8 +1505,6 @@ cookies
 ;
 }
 onResponseContent
-:
-function
 (
 response
 )
@@ -1616,8 +1574,6 @@ value
 }
 }
 onEventTimings
-:
-function
 (
 response
 )
@@ -1650,8 +1606,6 @@ totalTime
 ;
 }
 getLongHeaders
-:
-function
 (
 headers
 )
@@ -1729,10 +1683,8 @@ error
 }
 }
 }
-getString
-:
 async
-function
+getString
 (
 stringGrip
 )

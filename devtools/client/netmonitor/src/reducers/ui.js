@@ -718,8 +718,6 @@ return
 .
 state
 columnsData
-:
-columnsData
 }
 ;
 }

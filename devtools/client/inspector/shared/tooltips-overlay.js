@@ -435,8 +435,6 @@ false
 ;
 }
 addToView
-:
-function
 (
 )
 {
@@ -546,8 +544,6 @@ true
 }
 }
 getTooltip
-:
-function
 (
 name
 )
@@ -831,8 +827,6 @@ tooltip
 ;
 }
 removeFromView
-:
-function
 (
 )
 {
@@ -895,8 +889,6 @@ false
 ;
 }
 _getTooltipType
-:
-function
 (
 {
 type
@@ -1889,8 +1881,6 @@ text
 ;
 }
 _onNewSelection
-:
-function
 (
 )
 {
@@ -1915,8 +1905,6 @@ hide
 }
 }
 destroy
-:
-function
 (
 )
 {

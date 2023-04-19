@@ -870,8 +870,6 @@ DRAGGING_DEADZONE_DISTANCE
 ;
 }
 _create
-:
-function
 (
 )
 {
@@ -2017,10 +2015,8 @@ true
 ;
 }
 }
-getGridlineNames
-:
 async
-function
+getGridlineNames
 (
 )
 {
@@ -2397,8 +2393,6 @@ undefined
 ;
 }
 update
-:
-function
 (
 )
 {
@@ -3840,8 +3834,6 @@ focus
 }
 }
 _onStartEditing
-:
-function
 (
 )
 {
@@ -3946,8 +3938,6 @@ value
 ;
 }
 updatePropertyState
-:
-function
 (
 )
 {
@@ -4209,8 +4199,6 @@ updatePropertyCompatibilityIndicator
 }
 }
 updatePropertyUsedIndicator
-:
-function
 (
 )
 {
@@ -4299,10 +4287,8 @@ false
 ;
 }
 }
-updatePropertyCompatibilityIndicator
-:
 async
-function
+updatePropertyCompatibilityIndicator
 (
 )
 {
@@ -4352,8 +4338,6 @@ false
 }
 }
 _updateComputed
-:
-function
 (
 )
 {
@@ -4423,8 +4407,6 @@ _populateComputed
 }
 }
 _populateComputed
-:
-function
 (
 )
 {
@@ -4496,8 +4478,6 @@ computed
 }
 }
 _updateShorthandOverridden
-:
-function
 (
 )
 {
@@ -4524,8 +4504,6 @@ _populateShorthandOverridden
 ;
 }
 _populateShorthandOverridden
-:
-function
 (
 )
 {
@@ -4614,8 +4592,6 @@ item
 }
 }
 _createComputedListItem
-:
-function
 (
 parentEl
 computed
@@ -4837,8 +4813,6 @@ li
 ;
 }
 _onDraggablePreferenceChanged
-:
-function
 (
 )
 {
@@ -4872,8 +4846,6 @@ _removeDraggingCapacity
 }
 }
 _onEnableClicked
-:
-function
 (
 event
 )
@@ -4886,8 +4858,6 @@ stopPropagation
 ;
 }
 _onEnableChanged
-:
-function
 (
 event
 )
@@ -4937,8 +4907,6 @@ sessionId
 ;
 }
 _onExpandClicked
-:
-function
 (
 event
 )
@@ -5079,8 +5047,6 @@ stopPropagation
 ;
 }
 expandForFilter
-:
-function
 (
 )
 {
@@ -5139,8 +5105,6 @@ _populateComputed
 }
 }
 collapseForFilter
-:
-function
 (
 )
 {
@@ -5188,8 +5152,6 @@ open
 }
 }
 _onNameDone
-:
-function
 (
 value
 commit
@@ -5429,8 +5391,6 @@ prop
 }
 }
 remove
-:
-function
 (
 direction
 )
@@ -5599,8 +5559,6 @@ remove
 ;
 }
 _onValueDone
-:
-function
 (
 value
 =
@@ -5910,8 +5868,6 @@ direction
 }
 }
 _onSwatchCommit
-:
-function
 (
 )
 {
@@ -5935,8 +5891,6 @@ update
 ;
 }
 _onSwatchPreview
-:
-function
 (
 )
 {
@@ -5953,8 +5907,6 @@ textContent
 ;
 }
 _onSwatchRevert
-:
-function
 (
 )
 {
@@ -5978,8 +5930,6 @@ update
 ;
 }
 _getValueAndExtraProperties
-:
-function
 (
 value
 )
@@ -6106,17 +6056,11 @@ slice
 return
 {
 propertiesToAdd
-:
-propertiesToAdd
-firstValue
-:
 firstValue
 }
 ;
 }
 _previewValue
-:
-function
 (
 value
 reverting
@@ -6182,8 +6126,6 @@ priority
 ;
 }
 _hasSmallIncrementModifier
-:
-function
 (
 event
 )
@@ -6221,8 +6163,6 @@ true
 ;
 }
 _parseDimension
-:
-function
 (
 value
 )
@@ -6296,8 +6236,6 @@ cssDimensionRegex
 ;
 }
 _isDraggableProperty
-:
-function
 (
 textProperty
 )
@@ -6389,8 +6327,6 @@ dimensionMatchObj
 ;
 }
 _draggingOnMouseDown
-:
-function
 (
 event
 )
@@ -6540,8 +6476,6 @@ signal
 ;
 }
 _draggingOnMouseMove
-:
-function
 (
 event
 )
@@ -6765,8 +6699,6 @@ true
 ;
 }
 _draggingOnMouseUp
-:
-function
 (
 event
 )
@@ -6820,8 +6752,6 @@ event
 ;
 }
 _draggingOnKeydown
-:
-function
 (
 event
 )
@@ -6872,8 +6802,6 @@ preventDefault
 }
 }
 _onStopDragging
-:
-function
 (
 event
 )
@@ -6950,8 +6878,6 @@ abort
 ;
 }
 _addDraggingCapability
-:
-function
 (
 )
 {
@@ -6999,8 +6925,6 @@ _draggingOnMouseDown
 ;
 }
 _removeDraggingCapacity
-:
-function
 (
 )
 {
@@ -7055,8 +6979,6 @@ _draggingOnMouseDown
 ;
 }
 isValid
-:
-function
 (
 )
 {
@@ -7071,8 +6993,6 @@ isValid
 ;
 }
 isNameValid
-:
-function
 (
 )
 {

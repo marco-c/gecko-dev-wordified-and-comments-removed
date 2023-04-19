@@ -687,8 +687,6 @@ ActorClassWithSpec
 highlighterTestSpec
 {
 initialize
-:
-function
 (
 conn
 targetActor
@@ -736,8 +734,6 @@ window
 ;
 }
 _querySelector
-:
-function
 (
 selector
 )
@@ -950,8 +946,6 @@ node
 ;
 }
 getHighlighterAttribute
-:
-function
 (
 nodeID
 name
@@ -996,8 +990,6 @@ name
 ;
 }
 getHighlighterNodeTextContent
-:
-function
 (
 nodeID
 actorID
@@ -1037,8 +1029,6 @@ value
 ;
 }
 getSelectorHighlighterBoxNb
-:
-function
 (
 actorID
 )
@@ -1089,8 +1079,6 @@ length
 ;
 }
 changeHighlightedNodeWaitForUpdate
-:
-function
 (
 name
 value
@@ -2830,16 +2818,8 @@ visible
 !
 hidden
 x1
-:
-x1
-y1
-:
 y1
 x2
-:
-x2
-y2
-:
 y2
 }
 ;

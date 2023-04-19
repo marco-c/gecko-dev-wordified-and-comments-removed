@@ -76,8 +76,6 @@ ActorClassWithSpec
 lazySpec
 {
 initialize
-:
-function
 (
 conn
 id
@@ -112,8 +110,6 @@ instantiated
 ;
 }
 hello
-:
-function
 (
 str
 )

@@ -69,8 +69,6 @@ ActorClassWithSpec
 manifestSpec
 {
 initialize
-:
-function
 (
 conn
 targetActor
@@ -95,10 +93,8 @@ targetActor
 targetActor
 ;
 }
-fetchCanonicalManifest
-:
 async
-function
+fetchCanonicalManifest
 (
 )
 {

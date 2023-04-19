@@ -59,8 +59,6 @@ Pool
 prototype
 {
 getActorByID
-:
-function
 (
 actorID
 )
@@ -422,8 +420,6 @@ constructor
 ;
 }
 getParent
-:
-function
 (
 )
 {

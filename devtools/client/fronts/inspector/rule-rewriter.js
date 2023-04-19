@@ -215,8 +215,6 @@ prototype
 =
 {
 startInitialization
-:
-function
 (
 inputString
 )
@@ -276,8 +274,6 @@ null
 ;
 }
 completeInitialization
-:
-function
 (
 index
 )
@@ -372,8 +368,6 @@ inputString
 }
 }
 getIndentation
-:
-function
 (
 string
 offset
@@ -484,8 +478,6 @@ return
 ;
 }
 sanitizePropertyValue
-:
-function
 (
 text
 )
@@ -926,8 +918,6 @@ result
 ;
 }
 skipWhitespaceBackward
-:
-function
 (
 string
 index
@@ -981,8 +971,6 @@ index
 ;
 }
 maybeTerminateDecl
-:
-function
 (
 index
 )
@@ -1171,8 +1159,6 @@ n
 }
 }
 sanitizeText
-:
-function
 (
 text
 index
@@ -1211,8 +1197,6 @@ sanitizedText
 ;
 }
 renameProperty
-:
-function
 (
 index
 name
@@ -1272,8 +1256,6 @@ newName
 ;
 }
 setPropertyEnabled
-:
-function
 (
 index
 name
@@ -1613,10 +1595,8 @@ name
 ;
 }
 }
-getDefaultIndentation
-:
 async
-function
+getDefaultIndentation
 (
 )
 {
@@ -2090,8 +2070,6 @@ offsets
 }
 }
 createProperty
-:
-function
 (
 index
 name
@@ -2142,8 +2120,6 @@ priority
 }
 }
 setProperty
-:
-function
 (
 index
 name
@@ -2283,8 +2259,6 @@ priority
 ;
 }
 removeProperty
-:
-function
 (
 index
 name
@@ -2501,8 +2475,6 @@ name
 ;
 }
 completeCopying
-:
-function
 (
 copyOffset
 )
@@ -2523,8 +2495,6 @@ copyOffset
 ;
 }
 apply
-:
-function
 (
 )
 {
@@ -2565,8 +2535,6 @@ modifications
 ;
 }
 getResult
-:
-function
 (
 )
 {

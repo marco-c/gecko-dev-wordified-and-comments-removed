@@ -99,10 +99,8 @@ draggable
 true
 }
 {
-node
-:
 async
-function
+node
 (
 inspector
 )
@@ -151,10 +149,8 @@ draggable
 true
 }
 {
-node
-:
 async
-function
+node
 (
 inspector
 )
