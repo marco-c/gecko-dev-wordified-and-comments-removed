@@ -709,6 +709,12 @@ typedImage
 GetHasAlpha
 (
 )
+typedImage
+-
+>
+GetTransformOverride
+(
+)
 aKnowsCompositor
 -
 >

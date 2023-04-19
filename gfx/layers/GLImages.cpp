@@ -397,6 +397,14 @@ OriginPos
 aOriginPos
 bool
 aHasAlpha
+Maybe
+<
+gfx
+:
+:
+Matrix4x4
+>
+aTransformOverride
 )
 :
 GLImage
@@ -425,6 +433,10 @@ aOriginPos
 mHasAlpha
 (
 aHasAlpha
+)
+mTransformOverride
+(
+aTransformOverride
 )
 {
 MOZ_ASSERT
@@ -469,7 +481,7 @@ SurfaceFormat
 :
 R8G8B8X8
 false
-false
+mTransformOverride
 )
 ;
 return

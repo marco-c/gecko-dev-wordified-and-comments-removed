@@ -1166,7 +1166,7 @@ mSize
 host
 -
 >
-mIgnoreTransform
+mTransformOverride
 )
 ;
 RefPtr
