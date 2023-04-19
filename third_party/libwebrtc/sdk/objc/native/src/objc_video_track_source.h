@@ -82,6 +82,13 @@ ObjCVideoTrackSource
 explicit
 ObjCVideoTrackSource
 (
+bool
+is_screencast
+)
+;
+explicit
+ObjCVideoTrackSource
+(
 RTCObjCVideoSourceAdapter
 *
 adapter
@@ -160,6 +167,9 @@ timestamp_aligner_
 RTCObjCVideoSourceAdapter
 *
 adapter_
+;
+bool
+is_screencast_
 ;
 }
 ;
