@@ -592,6 +592,14 @@ allocation
 )
 override
 ;
+void
+OnVideoLayersAllocationUpdated
+(
+VideoLayersAllocation
+allocation
+)
+override
+;
 EncodedImageCallback
 :
 :
