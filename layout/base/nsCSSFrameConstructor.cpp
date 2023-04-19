@@ -46329,6 +46329,14 @@ PseudoStyleType
 :
 :
 marker
+|
+|
+frame
+-
+>
+IsPlaceholderFrame
+(
+)
 )
 {
 prevFrame
