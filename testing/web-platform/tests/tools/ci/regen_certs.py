@@ -6,6 +6,8 @@ import
 logging
 import
 subprocess
+import
+sys
 logger
 =
 logging
@@ -302,9 +304,9 @@ cmd
 =
 [
         
-"
-python
-"
+sys
+.
+executable
 "
 wpt
 "

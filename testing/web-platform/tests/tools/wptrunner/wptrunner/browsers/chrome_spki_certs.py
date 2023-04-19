@@ -1,7 +1,14 @@
 WPT_FINGERPRINT
 =
 '
-KGfpbZyVqJ6ztPLyXNAGcQwsl5OT7ecOpTKsgd01bNM
+XreVR
++
++
++
++
+c9QamuUZu0YWHyqsL3PJarhG
+/
+0h87zEimI
 =
 '
 SXG_WPT_FINGERPRINT
