@@ -417,7 +417,10 @@ gWidgetDragLog
 define
 LOGDRAGSERVICE
 (
-args
+str
+.
+.
+.
 )
 \
 MOZ_LOG
@@ -430,7 +433,51 @@ LogLevel
 :
 :
 Debug
-args
+\
+(
+"
+[
+Depth
+%
+d
+]
+:
+"
+str
+GetLoopDepth
+(
+)
+#
+#
+__VA_ARGS__
+)
+)
+#
+define
+LOGDRAGSERVICESTATIC
+(
+str
+.
+.
+.
+)
+\
+MOZ_LOG
+(
+gWidgetDragLog
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
+(
+str
+#
+#
+__VA_ARGS__
+)
 )
 #
 else
@@ -438,7 +485,9 @@ else
 define
 LOGDRAGSERVICE
 (
-args
+.
+.
+.
 )
 #
 endif
@@ -811,14 +860,12 @@ FALSE
 }
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
 :
 nsDragService
 "
-)
 )
 ;
 mCanDrop
@@ -861,7 +908,6 @@ nsDragService
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
@@ -869,7 +915,6 @@ nsDragService
 ~
 nsDragService
 "
-)
 )
 ;
 if
@@ -1009,7 +1054,6 @@ application
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
@@ -1025,7 +1069,6 @@ application
 "
 )
 "
-)
 )
 ;
 if
@@ -1472,14 +1515,12 @@ TYPE_OTHER
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
 :
 InvokeDragSession
 "
-)
 )
 ;
 if
@@ -1729,7 +1770,6 @@ fakeEvent
 ;
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
@@ -1740,7 +1780,6 @@ GdkDragContext
 p
 "
 context
-)
 )
 ;
 nsresult
@@ -2100,14 +2139,12 @@ StartDragSession
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
 :
 StartDragSession
 "
-)
 )
 ;
 mTempFileUrl
@@ -2232,7 +2269,6 @@ aKeyModifiers
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
@@ -2251,7 +2287,6 @@ get
 (
 )
 aDoneDrag
-)
 )
 ;
 if
@@ -2326,13 +2361,11 @@ mTempFileTimerID
 {
 LOGDRAGSERVICE
 (
-(
 "
 removing
 temporary
 files
 "
-)
 )
 ;
 mTempFileTimerID
@@ -2390,7 +2423,6 @@ aCanDrop
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
@@ -2400,7 +2432,6 @@ SetCanDrop
 d
 "
 aCanDrop
-)
 )
 ;
 mCanDrop
@@ -2424,14 +2455,12 @@ aCanDrop
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
 :
 GetCanDrop
 "
-)
 )
 ;
 *
@@ -2920,14 +2949,12 @@ aNumItems
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
 :
 GetNumDropItems
 "
-)
 )
 ;
 if
@@ -2937,7 +2964,6 @@ mTargetWidget
 )
 {
 LOGDRAGSERVICE
-(
 (
 "
 *
@@ -2957,7 +2983,6 @@ widget
 \
 n
 "
-)
 )
 ;
 *
@@ -3086,7 +3111,6 @@ aNumItems
 }
 LOGDRAGSERVICE
 (
-(
 "
 NumOfDropItems
 %
@@ -3094,7 +3118,6 @@ d
 "
 *
 aNumItems
-)
 )
 ;
 return
@@ -3199,7 +3222,6 @@ aItemIndex
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
@@ -3212,7 +3234,6 @@ index
 d
 "
 aItemIndex
-)
 )
 ;
 if
@@ -3233,7 +3254,6 @@ mTargetWidget
 {
 LOGDRAGSERVICE
 (
-(
 "
 *
 *
@@ -3241,7 +3261,6 @@ LOGDRAGSERVICE
 failed
 :
 GetData
-\
 called
 without
 a
@@ -3252,7 +3271,6 @@ widget
 \
 n
 "
-)
 )
 ;
 return
@@ -3286,7 +3304,6 @@ rv
 {
 LOGDRAGSERVICE
 (
-(
 "
 failed
 to
@@ -3295,7 +3312,6 @@ flavors
 quit
 .
 "
-)
 )
 ;
 return
@@ -3316,7 +3332,6 @@ isList
 {
 LOGDRAGSERVICE
 (
-(
 "
 Process
 as
@@ -3326,7 +3341,6 @@ list
 .
 .
 "
-)
 )
 ;
 for
@@ -3360,7 +3374,6 @@ i
 ;
 LOGDRAGSERVICE
 (
-(
 "
 [
 %
@@ -3378,7 +3391,6 @@ flavorStr
 .
 get
 (
-)
 )
 )
 ;
@@ -3409,7 +3421,6 @@ data
 ;
 LOGDRAGSERVICE
 (
-(
 "
 trying
 to
@@ -3426,7 +3437,6 @@ flavorStr
 .
 get
 (
-)
 )
 )
 ;
@@ -3458,14 +3468,12 @@ rv
 {
 LOGDRAGSERVICE
 (
-(
 "
 failed
 .
 \
 n
 "
-)
 )
 ;
 continue
@@ -3496,7 +3504,6 @@ rv
 {
 LOGDRAGSERVICE
 (
-(
 "
 fail
 to
@@ -3510,13 +3517,11 @@ transferable
 n
 "
 )
-)
 ;
 continue
 ;
 }
 LOGDRAGSERVICE
-(
 (
 "
 succeeded
@@ -3524,14 +3529,12 @@ succeeded
 n
 "
 )
-)
 ;
 return
 NS_OK
 ;
 }
 LOGDRAGSERVICE
-(
 (
 "
 failed
@@ -3541,7 +3544,6 @@ flavors
 \
 n
 "
-)
 )
 ;
 return
@@ -3603,7 +3605,6 @@ FALSE
 ;
 LOGDRAGSERVICE
 (
-(
 "
 we
 '
@@ -3627,7 +3628,6 @@ get
 (
 )
 gdkFlavor
-)
 )
 ;
 bool
@@ -3654,7 +3654,6 @@ mTargetDragData
 {
 LOGDRAGSERVICE
 (
-(
 "
 dataFound
 =
@@ -3662,7 +3661,6 @@ true
 \
 n
 "
-)
 )
 ;
 dataFound
@@ -3674,7 +3672,6 @@ else
 {
 LOGDRAGSERVICE
 (
-(
 "
 dataFound
 =
@@ -3684,7 +3681,6 @@ conversions
 \
 n
 "
-)
 )
 ;
 if
@@ -3707,7 +3703,6 @@ FALSE
 ;
 LOGDRAGSERVICE
 (
-(
 "
 conversion
 %
@@ -3719,7 +3714,6 @@ s
 "
 kFileMime
 kTextMime
-)
 )
 ;
 GetTargetDragData
@@ -3736,7 +3730,6 @@ mTargetDragData
 {
 LOGDRAGSERVICE
 (
-(
 "
 conversion
 %
@@ -3748,7 +3741,6 @@ s
 "
 kFileMime
 gTextUriListType
-)
 )
 ;
 gdkFlavor
@@ -3907,7 +3899,6 @@ rv
 {
 LOGDRAGSERVICE
 (
-(
 "
 set
 as
@@ -3922,7 +3913,6 @@ convertedText
 .
 get
 (
-)
 )
 )
 ;
@@ -3972,7 +3962,6 @@ kUnicodeMime
 {
 LOGDRAGSERVICE
 (
-(
 "
 conversion
 %
@@ -3984,7 +3973,6 @@ s
 "
 kUnicodeMime
 gTextPlainUTF8Type
-)
 )
 ;
 gdkFlavor
@@ -4078,7 +4066,6 @@ else
 {
 LOGDRAGSERVICE
 (
-(
 "
 conversion
 %
@@ -4090,7 +4077,6 @@ s
 "
 kUnicodeMime
 kTextMime
-)
 )
 ;
 gdkFlavor
@@ -4187,7 +4173,6 @@ kURLMime
 {
 LOGDRAGSERVICE
 (
-(
 "
 conversion
 %
@@ -4199,7 +4184,6 @@ s
 "
 kURLMime
 gTextUriListType
-)
 )
 ;
 gdkFlavor
@@ -4291,7 +4275,6 @@ dataFound
 {
 LOGDRAGSERVICE
 (
-(
 "
 conversion
 %
@@ -4303,7 +4286,6 @@ s
 "
 kURLMime
 gMozUrlType
-)
 )
 ;
 gdkFlavor
@@ -4396,7 +4378,6 @@ dataFound
 {
 LOGDRAGSERVICE
 (
-(
 "
 actual
 data
@@ -4419,7 +4400,6 @@ gdkFlavor
 .
 get
 (
-)
 )
 )
 ;
@@ -4459,7 +4439,6 @@ kGIFImageMime
 {
 LOGDRAGSERVICE
 (
-(
 "
 saving
 as
@@ -4473,7 +4452,6 @@ flavorStr
 .
 get
 (
-)
 )
 )
 ;
@@ -4606,7 +4584,6 @@ _retval
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
@@ -4625,7 +4602,6 @@ get
 (
 )
 aDataFlavor
-)
 )
 ;
 if
@@ -4651,7 +4627,6 @@ mTargetWidget
 {
 LOGDRAGSERVICE
 (
-(
 "
 *
 *
@@ -4659,18 +4634,18 @@ LOGDRAGSERVICE
 warning
 :
 IsDataFlavorSupported
-\
 called
 without
 a
 valid
 target
+"
+"
 widget
 !
 \
 n
 "
-)
 )
 ;
 return
@@ -4691,7 +4666,6 @@ isList
 {
 LOGDRAGSERVICE
 (
-(
 "
 It
 '
@@ -4699,7 +4673,6 @@ s
 a
 list
 "
-)
 )
 ;
 uint32_t
@@ -4715,11 +4688,9 @@ mSourceDataItems
 {
 LOGDRAGSERVICE
 (
-(
 "
 quit
 "
-)
 )
 ;
 return
@@ -4737,7 +4708,6 @@ numDragItems
 ;
 LOGDRAGSERVICE
 (
-(
 "
 drag
 items
@@ -4745,7 +4715,6 @@ items
 d
 "
 numDragItems
-)
 )
 ;
 for
@@ -4817,7 +4786,6 @@ i
 {
 LOGDRAGSERVICE
 (
-(
 "
 checking
 %
@@ -4838,7 +4806,6 @@ get
 )
 aDataFlavor
 )
-)
 ;
 if
 (
@@ -4855,14 +4822,12 @@ aDataFlavor
 {
 LOGDRAGSERVICE
 (
-(
 "
 found
 .
 \
 n
 "
-)
 )
 ;
 *
@@ -5101,7 +5066,6 @@ _retval
 {
 LOGDRAGSERVICE
 (
-(
 "
 supported
 with
@@ -5120,7 +5084,6 @@ get
 )
 aDataFlavor
 )
-)
 ;
 }
 }
@@ -5133,7 +5096,6 @@ _retval
 {
 LOGDRAGSERVICE
 (
-(
 "
 %
 s
@@ -5142,7 +5104,6 @@ not
 supported
 "
 aDataFlavor
-)
 )
 ;
 }
@@ -5163,7 +5124,6 @@ aDragContext
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
@@ -5180,7 +5140,6 @@ d
 "
 aDragContext
 mCanDrop
-)
 )
 ;
 GdkDragAction
@@ -5206,7 +5165,6 @@ DRAGDROP_ACTION_COPY
 :
 LOGDRAGSERVICE
 (
-(
 "
 set
 gdk_drag_status
@@ -5215,7 +5173,6 @@ gdk_drag_status
 action
 copy
 "
-)
 )
 ;
 action
@@ -5229,7 +5186,6 @@ DRAGDROP_ACTION_LINK
 :
 LOGDRAGSERVICE
 (
-(
 "
 set
 gdk_drag_status
@@ -5238,7 +5194,6 @@ gdk_drag_status
 action
 link
 "
-)
 )
 ;
 action
@@ -5252,7 +5207,6 @@ DRAGDROP_ACTION_NONE
 :
 LOGDRAGSERVICE
 (
-(
 "
 set
 gdk_drag_status
@@ -5261,7 +5215,6 @@ gdk_drag_status
 action
 none
 "
-)
 )
 ;
 action
@@ -5277,7 +5230,6 @@ default
 :
 LOGDRAGSERVICE
 (
-(
 "
 set
 gdk_drag_status
@@ -5286,7 +5238,6 @@ gdk_drag_status
 action
 move
 "
-)
 )
 ;
 action
@@ -5369,7 +5320,6 @@ aTime
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
@@ -5381,7 +5331,6 @@ p
 )
 "
 aContext
-)
 )
 ;
 TargetResetData
@@ -5447,7 +5396,6 @@ get
 ;
 LOGDRAGSERVICE
 (
-(
 "
 got
 data
@@ -5459,7 +5407,6 @@ flavor
 .
 get
 (
-)
 )
 )
 ;
@@ -5493,7 +5440,6 @@ mTargetDragDataLen
 ;
 LOGDRAGSERVICE
 (
-(
 "
 got
 data
@@ -5503,7 +5449,6 @@ len
 d
 "
 mTargetDragDataLen
-)
 )
 ;
 nsTArray
@@ -5557,7 +5502,6 @@ else
 {
 LOGDRAGSERVICE
 (
-(
 "
 Failed
 to
@@ -5574,7 +5518,6 @@ d
 n
 "
 mTargetDragDataLen
-)
 )
 ;
 mCachedData
@@ -5723,7 +5666,6 @@ aDropFlavors
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
@@ -5758,7 +5700,6 @@ aFlavor
 .
 get
 (
-)
 )
 )
 ;
@@ -5801,7 +5742,6 @@ flavor
 {
 LOGDRAGSERVICE
 (
-(
 "
 %
 s
@@ -5812,7 +5752,6 @@ flavor
 .
 get
 (
-)
 )
 )
 ;
@@ -5853,7 +5792,6 @@ Length
 ;
 LOGDRAGSERVICE
 (
-(
 "
 using
 cached
@@ -5872,7 +5810,6 @@ get
 (
 )
 mTargetDragDataLen
-)
 )
 ;
 if
@@ -5906,7 +5843,6 @@ true
 ;
 LOGDRAGSERVICE
 (
-(
 "
 %
 s
@@ -5918,7 +5854,6 @@ flavor
 .
 get
 (
-)
 )
 )
 ;
@@ -5935,7 +5870,6 @@ mTargetTime
 ;
 LOGDRAGSERVICE
 (
-(
 "
 about
 to
@@ -5944,7 +5878,6 @@ inner
 iteration
 .
 "
-)
 )
 ;
 gtk_main_iteration
@@ -5969,7 +5902,6 @@ mDoingDrag
 {
 LOGDRAGSERVICE
 (
-(
 "
 doing
 iteration
@@ -5979,7 +5911,6 @@ iteration
 \
 n
 "
-)
 )
 ;
 PR_Sleep
@@ -6003,7 +5934,6 @@ NS_DND_TIMEOUT
 {
 LOGDRAGSERVICE
 (
-(
 "
 failed
 to
@@ -6018,7 +5948,6 @@ time
 \
 n
 "
-)
 )
 ;
 break
@@ -6043,7 +5972,6 @@ mTargetDragData
 {
 LOGDRAGSERVICE
 (
-(
 "
 %
 s
@@ -6057,13 +5985,11 @@ get
 (
 )
 )
-)
 ;
 }
 else
 {
 LOGDRAGSERVICE
-(
 (
 "
 %
@@ -6078,7 +6004,6 @@ flavor
 .
 get
 (
-)
 )
 )
 ;
@@ -6170,8 +6095,7 @@ AppendElement
 target
 )
 ;
-LOGDRAGSERVICE
-(
+LOGDRAGSERVICESTATIC
 (
 "
 adding
@@ -6182,7 +6106,6 @@ s
 n
 "
 aTarget
-)
 )
 ;
 }
@@ -6728,7 +6651,6 @@ aResult
 {
 LOGDRAGSERVICE
 (
-(
 "
 SourceEndDragSession
 (
@@ -6743,7 +6665,6 @@ n
 "
 aContext
 aResult
-)
 )
 ;
 mSourceDataItems
@@ -6876,7 +6797,6 @@ scale
 ;
 LOGDRAGSERVICE
 (
-(
 "
 guess
 drag
@@ -6896,7 +6816,6 @@ y
 *
 scale
 )
-)
 ;
 }
 uint32_t
@@ -6912,13 +6831,11 @@ MOZ_GTK_DRAG_RESULT_SUCCESS
 {
 LOGDRAGSERVICE
 (
-(
 "
 drop
 is
 accepted
 "
-)
 )
 ;
 GdkDragAction
@@ -6947,14 +6864,12 @@ action
 {
 LOGDRAGSERVICE
 (
-(
 "
 drop
 action
 is
 none
 "
-)
 )
 ;
 dropEffect
@@ -6972,14 +6887,12 @@ GDK_ACTION_COPY
 {
 LOGDRAGSERVICE
 (
-(
 "
 drop
 action
 is
 copy
 "
-)
 )
 ;
 dropEffect
@@ -6997,14 +6910,12 @@ GDK_ACTION_LINK
 {
 LOGDRAGSERVICE
 (
-(
 "
 drop
 action
 is
 link
 "
-)
 )
 ;
 dropEffect
@@ -7022,14 +6933,12 @@ GDK_ACTION_MOVE
 {
 LOGDRAGSERVICE
 (
-(
 "
 drop
 action
 is
 move
 "
-)
 )
 ;
 dropEffect
@@ -7041,14 +6950,12 @@ else
 {
 LOGDRAGSERVICE
 (
-(
 "
 drop
 action
 is
 copy
 "
-)
 )
 ;
 dropEffect
@@ -7061,14 +6968,12 @@ else
 {
 LOGDRAGSERVICE
 (
-(
 "
 drop
 action
 is
 none
 "
-)
 )
 ;
 dropEffect
@@ -7085,7 +6990,6 @@ MOZ_GTK_DRAG_RESULT_NO_TARGET
 {
 LOGDRAGSERVICE
 (
-(
 "
 drop
 is
@@ -7094,7 +6998,6 @@ chancelled
 \
 n
 "
-)
 )
 ;
 mUserCancelled
@@ -7671,7 +7574,6 @@ aSelectionData
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
@@ -7680,7 +7582,6 @@ CreateTempFile
 (
 )
 "
-)
 )
 ;
 nsCOMPtr
@@ -7711,7 +7612,6 @@ rv
 {
 LOGDRAGSERVICE
 (
-(
 "
 Failed
 to
@@ -7721,7 +7621,6 @@ directory
 \
 n
 "
-)
 )
 ;
 return
@@ -7771,7 +7670,6 @@ rv
 {
 LOGDRAGSERVICE
 (
-(
 "
 Failed
 to
@@ -7785,7 +7683,6 @@ from
 download
 url
 "
-)
 )
 ;
 return
@@ -7856,7 +7753,6 @@ rv
 {
 LOGDRAGSERVICE
 (
-(
 "
 Failed
 to
@@ -7867,7 +7763,6 @@ for
 source
 uri
 "
-)
 )
 ;
 return
@@ -7897,7 +7792,6 @@ rv
 {
 LOGDRAGSERVICE
 (
-(
 "
 Failed
 to
@@ -7907,7 +7801,6 @@ for
 source
 uri
 "
-)
 )
 ;
 return
@@ -7951,14 +7844,12 @@ rv
 {
 LOGDRAGSERVICE
 (
-(
 "
 Failed
 create
 tmp
 dir
 "
-)
 )
 ;
 return
@@ -8039,7 +7930,6 @@ rv
 {
 LOGDRAGSERVICE
 (
-(
 "
 Failed
 to
@@ -8050,7 +7940,6 @@ for
 temporary
 file
 "
-)
 )
 ;
 return
@@ -8104,7 +7993,6 @@ rv
 {
 LOGDRAGSERVICE
 (
-(
 "
 Failed
 to
@@ -8114,7 +8002,6 @@ from
 source
 uri
 "
-)
 )
 ;
 return
@@ -8153,7 +8040,6 @@ rv
 {
 LOGDRAGSERVICE
 (
-(
 "
 Failed
 to
@@ -8163,7 +8049,6 @@ to
 temporary
 file
 "
-)
 )
 ;
 return
@@ -8197,7 +8082,6 @@ rv
 {
 LOGDRAGSERVICE
 (
-(
 "
 Failed
 to
@@ -8207,7 +8091,6 @@ to
 temporary
 file
 "
-)
 )
 ;
 return
@@ -8279,7 +8162,6 @@ rv
 {
 LOGDRAGSERVICE
 (
-(
 "
 storing
 tmp
@@ -8292,7 +8174,6 @@ urltext
 .
 get
 (
-)
 )
 )
 ;
@@ -8331,7 +8212,6 @@ aTime
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
@@ -8343,7 +8223,6 @@ p
 )
 "
 aContext
-)
 )
 ;
 GdkAtom
@@ -8374,7 +8253,6 @@ typeName
 {
 LOGDRAGSERVICE
 (
-(
 "
 failed
 to
@@ -8386,13 +8264,11 @@ name
 n
 "
 )
-)
 ;
 return
 ;
 }
 LOGDRAGSERVICE
-(
 (
 "
 Type
@@ -8408,7 +8284,6 @@ get
 (
 )
 )
-)
 ;
 if
 (
@@ -8417,7 +8292,6 @@ mSourceDataItems
 )
 {
 LOGDRAGSERVICE
-(
 (
 "
 Failed
@@ -8429,7 +8303,6 @@ items
 \
 n
 "
-)
 )
 ;
 return
@@ -8475,7 +8348,6 @@ dragItems
 ;
 LOGDRAGSERVICE
 (
-(
 "
 source
 data
@@ -8484,7 +8356,6 @@ items
 d
 "
 dragItems
-)
 )
 ;
 #
@@ -8544,7 +8415,6 @@ true
 ;
 LOGDRAGSERVICE
 (
-(
 "
 convert
 %
@@ -8560,7 +8430,6 @@ get
 (
 )
 actualFlavor
-)
 )
 ;
 }
@@ -8585,7 +8454,6 @@ true
 ;
 LOGDRAGSERVICE
 (
-(
 "
 convert
 %
@@ -8601,7 +8469,6 @@ get
 (
 )
 actualFlavor
-)
 )
 ;
 }
@@ -8626,7 +8493,6 @@ true
 ;
 LOGDRAGSERVICE
 (
-(
 "
 convert
 %
@@ -8642,7 +8508,6 @@ get
 (
 )
 actualFlavor
-)
 )
 ;
 nsresult
@@ -8704,7 +8569,6 @@ rv
 {
 LOGDRAGSERVICE
 (
-(
 "
 save
 tmp
@@ -8716,7 +8580,6 @@ mTempFileUrl
 .
 get
 (
-)
 )
 )
 ;
@@ -8900,7 +8763,6 @@ gfullpath
 ;
 LOGDRAGSERVICE
 (
-(
 "
 XdndDirectSave
 filepath
@@ -8914,7 +8776,6 @@ fullpath
 .
 get
 (
-)
 )
 )
 ;
@@ -8976,7 +8837,6 @@ hostname
 {
 LOGDRAGSERVICE
 (
-(
 "
 ignored
 drag
@@ -8988,7 +8848,6 @@ host
 \
 n
 "
-)
 )
 ;
 gtk_selection_data_set
@@ -9168,7 +9027,6 @@ true
 ;
 LOGDRAGSERVICE
 (
-(
 "
 convert
 %
@@ -9185,7 +9043,6 @@ get
 )
 actualFlavor
 )
-)
 ;
 }
 else
@@ -9200,7 +9057,6 @@ get
 ;
 LOGDRAGSERVICE
 (
-(
 "
 use
 %
@@ -9210,7 +9066,6 @@ typeName
 .
 get
 (
-)
 )
 )
 ;
@@ -9292,14 +9147,12 @@ needToDoConversionToImage
 {
 LOGDRAGSERVICE
 (
-(
 "
 posting
 image
 \
 n
 "
-)
 )
 ;
 nsCOMPtr
@@ -9321,14 +9174,12 @@ image
 {
 LOGDRAGSERVICE
 (
-(
 "
 do_QueryInterface
 failed
 \
 n
 "
-)
 )
 ;
 return
@@ -9356,14 +9207,12 @@ pixbuf
 {
 LOGDRAGSERVICE
 (
-(
 "
 ImageToPixbuf
 failed
 \
 n
 "
-)
 )
 ;
 return
@@ -9377,7 +9226,6 @@ pixbuf
 ;
 LOGDRAGSERVICE
 (
-(
 "
 image
 data
@@ -9385,7 +9233,6 @@ set
 \
 n
 "
-)
 )
 ;
 }
@@ -9519,7 +9366,6 @@ gTextUriListType
 {
 LOGDRAGSERVICE
 (
-(
 "
 fall
 back
@@ -9533,7 +9379,6 @@ typeName
 .
 get
 (
-)
 )
 )
 ;
@@ -9585,7 +9430,6 @@ aContext
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
@@ -9599,7 +9443,6 @@ p
 n
 "
 aContext
-)
 )
 ;
 nsCOMPtr
@@ -9819,7 +9662,6 @@ return
 ;
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
@@ -9831,7 +9673,6 @@ p
 )
 "
 aContext
-)
 )
 ;
 LayoutDeviceIntRect
@@ -10023,7 +9864,6 @@ gtkWidget
 }
 LOGDRAGSERVICE
 (
-(
 "
 set
 drag
@@ -10037,7 +9877,6 @@ widget
 .
 get
 (
-)
 )
 )
 ;
@@ -10104,13 +9943,11 @@ dragPixbuf
 {
 LOGDRAGSERVICE
 (
-(
 "
 set
 drag
 pixbuf
 "
-)
 )
 ;
 gtk_drag_set_icon_pixbuf
@@ -10139,8 +9976,7 @@ gpointer
 aData
 )
 {
-LOGDRAGSERVICE
-(
+LOGDRAGSERVICESTATIC
 (
 "
 invisibleSourceDragBegin
@@ -10150,7 +9986,6 @@ p
 )
 "
 aContext
-)
 )
 ;
 nsDragService
@@ -10201,8 +10036,7 @@ gpointer
 aData
 )
 {
-LOGDRAGSERVICE
-(
+LOGDRAGSERVICESTATIC
 (
 "
 invisibleSourceDragDataGet
@@ -10212,7 +10046,6 @@ p
 )
 "
 aContext
-)
 )
 ;
 nsDragService
@@ -10337,8 +10170,7 @@ aResult
 =
 MOZ_GTK_DRAG_RESULT_NO_TARGET
 ;
-LOGDRAGSERVICE
-(
+LOGDRAGSERVICESTATIC
 (
 "
 invisibleSourceDragFailed
@@ -10355,7 +10187,6 @@ n
 "
 aContext
 )
-)
 ;
 break
 ;
@@ -10364,8 +10195,7 @@ break
 }
 #
 endif
-LOGDRAGSERVICE
-(
+LOGDRAGSERVICESTATIC
 (
 "
 invisibleSourceDragFailed
@@ -10378,7 +10208,6 @@ i
 "
 aContext
 aResult
-)
 )
 ;
 nsDragService
@@ -10418,8 +10247,7 @@ gpointer
 aData
 )
 {
-LOGDRAGSERVICE
-(
+LOGDRAGSERVICESTATIC
 (
 "
 invisibleSourceDragEnd
@@ -10429,7 +10257,6 @@ p
 )
 "
 aContext
-)
 )
 ;
 nsDragService
@@ -10682,7 +10509,6 @@ aTime
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
@@ -10707,7 +10533,6 @@ GetDragServiceTaskName
 aTask
 )
 aWindow
-)
 )
 ;
 if
@@ -10734,7 +10559,6 @@ eDragTaskSourceEnd
 {
 LOGDRAGSERVICE
 (
-(
 "
 task
 does
@@ -10752,7 +10576,6 @@ n
 GetDragServiceTaskName
 (
 mScheduledTask
-)
 )
 )
 ;
@@ -10827,6 +10650,32 @@ nsDragService
 data
 )
 ;
+dragService
+-
+>
+EventLoopEnter
+(
+)
+;
+auto
+autoLeave
+=
+MakeScopeExit
+(
+[
+&
+]
+{
+dragService
+-
+>
+EventLoopLeave
+(
+)
+;
+}
+)
+;
 return
 dragService
 -
@@ -10845,7 +10694,6 @@ RunScheduledTask
 )
 {
 LOGDRAGSERVICE
-(
 (
 "
 nsDragService
@@ -10883,7 +10731,6 @@ get
 (
 )
 )
-)
 ;
 if
 (
@@ -10891,7 +10738,6 @@ mScheduledTaskIsRunning
 )
 {
 LOGDRAGSERVICE
-(
 (
 "
 sheduled
@@ -10902,7 +10748,6 @@ running
 quit
 .
 "
-)
 )
 ;
 return
@@ -10935,7 +10780,6 @@ mPendingWindow
 {
 LOGDRAGSERVICE
 (
-(
 "
 dispatch
 eDragExit
@@ -10950,7 +10794,6 @@ mTargetWindow
 .
 get
 (
-)
 )
 )
 ;
@@ -11033,7 +10876,6 @@ eDragTaskSourceEnd
 {
 LOGDRAGSERVICE
 (
-(
 "
 quit
 selected
@@ -11046,7 +10888,6 @@ n
 GetDragServiceTaskName
 (
 task
-)
 )
 )
 ;
@@ -11094,7 +10935,6 @@ nullptr
 ;
 LOGDRAGSERVICE
 (
-(
 "
 start
 drag
@@ -11119,10 +10959,8 @@ get
 (
 )
 )
-)
 ;
 LOGDRAGSERVICE
-(
 (
 "
 mPendingDragContext
@@ -11145,7 +10983,6 @@ mTargetDragContext
 .
 get
 (
-)
 )
 )
 ;
@@ -11176,7 +11013,6 @@ positionHasChanged
 {
 LOGDRAGSERVICE
 (
-(
 "
 process
 motion
@@ -11184,7 +11020,6 @@ event
 \
 n
 "
-)
 )
 ;
 UpdateDragAction
@@ -11238,7 +11073,6 @@ eDragTaskDrop
 {
 LOGDRAGSERVICE
 (
-(
 "
 process
 drop
@@ -11246,7 +11080,6 @@ task
 \
 n
 "
-)
 )
 ;
 gboolean
@@ -11263,14 +11096,12 @@ mTargetDragContext
 {
 LOGDRAGSERVICE
 (
-(
 "
 drag
 finished
 \
 n
 "
-)
 )
 ;
 gtk_drag_finish
@@ -11293,7 +11124,6 @@ GetCurrentModifiers
 }
 LOGDRAGSERVICE
 (
-(
 "
 clear
 mTargetWindow
@@ -11304,7 +11134,6 @@ data
 \
 n
 "
-)
 )
 ;
 mTargetWidget
@@ -11327,7 +11156,6 @@ TRUE
 ;
 LOGDRAGSERVICE
 (
-(
 "
 remove
 task
@@ -11335,7 +11163,6 @@ source
 \
 n
 "
-)
 )
 ;
 mTaskSource
@@ -11356,7 +11183,6 @@ UpdateDragAction
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
@@ -11371,7 +11197,6 @@ mTargetDragContext
 .
 get
 (
-)
 )
 )
 ;
@@ -11402,7 +11227,6 @@ mTargetDragContext
 ;
 LOGDRAGSERVICE
 (
-(
 "
 gdk_drag_context_get_actions
 (
@@ -11412,7 +11236,6 @@ returns
 x
 "
 gdkAction
-)
 )
 ;
 }
@@ -11436,7 +11259,6 @@ mTargetDragContext
 ;
 LOGDRAGSERVICE
 (
-(
 "
 gdk_drag_context_get_selected_action
 (
@@ -11446,7 +11268,6 @@ returns
 x
 "
 gdkActionSelected
-)
 )
 ;
 if
@@ -11469,13 +11290,11 @@ GDK_ACTION_DEFAULT
 {
 LOGDRAGSERVICE
 (
-(
 "
 set
 default
 move
 "
-)
 )
 ;
 action
@@ -11495,13 +11314,11 @@ GDK_ACTION_MOVE
 {
 LOGDRAGSERVICE
 (
-(
 "
 set
 explicit
 move
 "
-)
 )
 ;
 action
@@ -11522,13 +11339,11 @@ GDK_ACTION_LINK
 {
 LOGDRAGSERVICE
 (
-(
 "
 set
 explicit
 link
 "
-)
 )
 ;
 action
@@ -11549,13 +11364,11 @@ GDK_ACTION_COPY
 {
 LOGDRAGSERVICE
 (
-(
 "
 set
 explicit
 copy
 "
-)
 )
 ;
 action
@@ -11582,7 +11395,6 @@ UpdateDragEffect
 {
 LOGDRAGSERVICE
 (
-(
 "
 nsDragService
 :
@@ -11594,10 +11406,7 @@ from
 e10s
 child
 process
-\
-n
 "
-)
 )
 ;
 if
