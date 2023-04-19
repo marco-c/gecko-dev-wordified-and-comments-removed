@@ -1140,6 +1140,7 @@ const
 FlexItem
 &
 aItem
+const
 mozilla
 :
 :
