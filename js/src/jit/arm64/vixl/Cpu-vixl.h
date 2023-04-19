@@ -539,6 +539,12 @@ CanFlushICacheFromBackgroundThreads
 )
 ;
 static
+void
+FlushExecutionContext
+(
+)
+;
+static
 CPUFeatures
 InferCPUFeaturesFromIDRegisters
 (
