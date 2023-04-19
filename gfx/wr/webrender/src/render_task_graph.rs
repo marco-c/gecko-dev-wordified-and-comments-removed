@@ -474,6 +474,9 @@ RenderTargetKind
 allocator
 :
 GuillotineAllocator
+is_shared
+:
+bool
 free_after
 :
 PassId
@@ -493,6 +496,9 @@ DeviceIntSize
 kind
 :
 RenderTargetKind
+is_shared
+:
+bool
 free_after
 :
 PassId
@@ -511,6 +517,14 @@ kind
 =
 =
 kind
+&
+&
+self
+.
+is_shared
+=
+=
+is_shared
 &
 &
 self
@@ -1676,6 +1690,7 @@ alloc_rect
 (
 size
 kind
+true
 task
 .
 free_after
@@ -1856,6 +1871,9 @@ Some
 surface_size
 )
 )
+is_shared
+:
+can_use_shared_surface
 free_after
 :
 task
@@ -1872,6 +1890,7 @@ alloc_rect
 (
 size
 kind
+can_use_shared_surface
 task
 .
 free_after
