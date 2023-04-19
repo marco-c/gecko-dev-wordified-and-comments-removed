@@ -136,6 +136,11 @@ MACRO
 (
 MajorGC
 )
+\
+MACRO
+(
+NonIdleMajorGC
+)
 namespace
 mozilla
 {
