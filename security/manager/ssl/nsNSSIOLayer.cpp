@@ -1930,11 +1930,6 @@ uint8_t
 certChainBytes
 )
 {
-MOZ_ASSERT
-(
-mFd
-)
-;
 if
 (
 !
