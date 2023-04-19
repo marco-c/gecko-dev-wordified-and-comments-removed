@@ -629,6 +629,17 @@ preferences
 0
 ;
 virtual
+const
+WebRtcKeyValueConfig
+&
+trials
+(
+)
+const
+=
+0
+;
+virtual
 ~
 Call
 (

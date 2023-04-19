@@ -463,6 +463,15 @@ GetStats
 const
 override
 ;
+const
+WebRtcKeyValueConfig
+&
+trials
+(
+)
+const
+override
+;
 void
 SignalChannelNetworkState
 (

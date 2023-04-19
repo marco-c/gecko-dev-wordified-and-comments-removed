@@ -1844,6 +1844,7 @@ FakeWebRtcVideoDecoderFactory
 (
 decoder_factory_
 )
+field_trials_
 )
 {
 fake_clock_
@@ -6755,6 +6756,12 @@ VideoDecoderFactory
 >
 decoder_factory
 ;
+webrtc
+:
+:
+FieldTrialBasedConfig
+trials
+;
 WebRtcVideoEngine
 engine
 (
@@ -6772,6 +6779,7 @@ move
 (
 decoder_factory
 )
+trials
 )
 ;
 EXPECT_EQ
@@ -6839,6 +6847,12 @@ MockVideoDecoderFactory
 (
 )
 ;
+webrtc
+:
+:
+FieldTrialBasedConfig
+trials
+;
 WebRtcVideoEngine
 engine
 (
@@ -6872,6 +6886,7 @@ VideoDecoderFactory
 decoder_factory
 )
 )
+trials
 )
 ;
 EXPECT_CALL
@@ -7042,6 +7057,12 @@ MockVideoBitrateAllocator
 }
 )
 ;
+webrtc
+:
+:
+FieldTrialBasedConfig
+trials
+;
 WebRtcVideoEngine
 engine
 (
@@ -7075,6 +7096,7 @@ VideoDecoderFactory
 decoder_factory
 )
 )
+trials
 )
 ;
 const
@@ -7915,6 +7937,12 @@ MockVideoBitrateAllocatorFactory
 (
 )
 ;
+webrtc
+:
+:
+FieldTrialBasedConfig
+trials
+;
 WebRtcVideoEngine
 engine
 (
@@ -7948,6 +7976,7 @@ VideoDecoderFactory
 decoder_factory
 )
 )
+trials
 )
 ;
 const
@@ -8852,6 +8881,7 @@ FakeDecoder
 }
 kSdpVideoFormats
 )
+field_trials_
 )
 channel_
 (
@@ -9774,6 +9804,7 @@ webrtc
 CreateBuiltinVideoDecoderFactory
 (
 )
+field_trials_
 )
 {
 }
@@ -58099,6 +58130,7 @@ FakeWebRtcVideoDecoderFactory
 (
 decoder_factory_
 )
+field_trials_
 )
 last_ssrc_
 (
@@ -58478,6 +58510,7 @@ screenshare
 &
 conference_mode
 true
+field_trials_
 )
 ;
 if
@@ -59153,6 +59186,12 @@ webrtc
 MockVideoBitrateAllocatorFactory
 >
 mock_rate_allocator_factory_
+;
+webrtc
+:
+:
+FieldTrialBasedConfig
+field_trials_
 ;
 WebRtcVideoEngine
 engine_

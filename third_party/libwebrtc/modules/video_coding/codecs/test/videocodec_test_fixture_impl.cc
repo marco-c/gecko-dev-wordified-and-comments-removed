@@ -82,6 +82,17 @@ include
 "
 api
 /
+transport
+/
+field_trial_based_config
+.
+h
+"
+#
+include
+"
+api
+/
 video
 /
 video_bitrate_allocation
@@ -413,6 +424,9 @@ VideoCodec
 codec_settings
 )
 {
+FieldTrialBasedConfig
+trials
+;
 const
 std
 :
@@ -448,6 +462,7 @@ kBitratePriority
 kMaxQp
 false
 true
+trials
 )
 ;
 for
