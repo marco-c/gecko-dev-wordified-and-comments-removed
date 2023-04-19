@@ -140,10 +140,16 @@ rtc
 :
 RefCountedObject
 <
+testing
+:
+:
+NiceMock
+<
 test
 :
 :
 MockAudioProcessing
+>
 >
 (
 )
