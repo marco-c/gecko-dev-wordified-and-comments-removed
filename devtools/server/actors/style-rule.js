@@ -3750,6 +3750,9 @@ const
 value
 :
 currentValue
+name
+:
+currentName
 }
 =
 newDeclarations
@@ -3821,6 +3824,16 @@ update
 "
 ;
 const
+changeName
+=
+currentName
+|
+|
+change
+.
+name
+;
+const
 name
 =
 change
@@ -3831,9 +3844,7 @@ change
 .
 newName
 :
-change
-.
-name
+changeName
 ;
 const
 changeValue
