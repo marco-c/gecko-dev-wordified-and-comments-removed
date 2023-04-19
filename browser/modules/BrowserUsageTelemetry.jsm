@@ -3611,6 +3611,9 @@ if
 (
 !
 node
+?
+.
+parentNode
 )
 {
 return
