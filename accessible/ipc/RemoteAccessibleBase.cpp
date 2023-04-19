@@ -1878,17 +1878,6 @@ break
 if
 (
 acc
-=
-=
-doc
-)
-{
-continue
-;
-}
-if
-(
-acc
 -
 >
 Bounds

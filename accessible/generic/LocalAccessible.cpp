@@ -17626,6 +17626,12 @@ if
 (
 !
 acc
+|
+|
+acc
+=
+=
+mDoc
 )
 {
 continue
