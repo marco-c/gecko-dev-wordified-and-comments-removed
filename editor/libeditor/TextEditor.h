@@ -1340,17 +1340,6 @@ CanEchoPasswordNow
 )
 const
 ;
-[
-[
-nodiscard
-]
-]
-MOZ_CAN_RUN_SCRIPT
-nsresult
-InitEditorContentAndSelection
-(
-)
-;
 MOZ_CAN_RUN_SCRIPT
 nsresult
 SelectEntireDocument
