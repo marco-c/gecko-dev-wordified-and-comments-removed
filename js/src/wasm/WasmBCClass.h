@@ -2909,6 +2909,8 @@ const
 FunctionCall
 &
 call
+bool
+checkNull
 CodeOffset
 *
 fastCallOffset

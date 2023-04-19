@@ -1604,6 +1604,9 @@ FuncType
 *
 *
 funcType
+bool
+*
+maybeNull
 )
 ;
 [
@@ -3101,6 +3104,9 @@ FuncType
 *
 *
 funcType
+bool
+*
+maybeNull
 Value
 *
 callee
@@ -5294,6 +5300,9 @@ FuncType
 *
 *
 funcType
+bool
+*
+maybeNull
 )
 {
 StackType
@@ -5412,6 +5421,19 @@ valType
 typeIndex
 (
 )
+)
+;
+*
+maybeNull
+=
+ty
+.
+valType
+(
+)
+.
+isNullable
+(
 )
 ;
 #
@@ -13519,6 +13541,9 @@ FuncType
 *
 *
 funcType
+bool
+*
+maybeNull
 Value
 *
 callee
@@ -13553,6 +13578,7 @@ popWithFuncType
 callee
 &
 funcType_
+maybeNull
 )
 )
 {
