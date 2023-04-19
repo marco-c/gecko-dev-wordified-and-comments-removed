@@ -206,6 +206,15 @@ parameters
 import
 register_parameters
     
+from
+gecko_taskgraph
+import
+(
+        
+target_tasks
+    
+)
+    
 register_parameters
 (
 )
