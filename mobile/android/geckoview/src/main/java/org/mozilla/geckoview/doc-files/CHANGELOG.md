@@ -99,20 +99,6 @@ deprecation
 notices
 #
 #
-v107
--
-Removed
-deprecated
-[
-cookieLifetime
-]
-[
-103
-.
-2
-]
-#
-#
 v106
 -
 Added
@@ -19970,4 +19956,4 @@ api
 version
 ]
 :
-4bbcd93e127201517ea4ea0428a02213d8a8460c
+5dd4f92b49dec51709788671173c5a03b303287b
