@@ -878,7 +878,7 @@ height
 libyuv
 :
 :
-kFilterBilinear
+kFilterBox
 )
 ;
 RTC_DCHECK_EQ
