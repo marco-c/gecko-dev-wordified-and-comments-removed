@@ -7904,6 +7904,17 @@ uint32_t
 aGlyphId
 )
 ;
+virtual
+bool
+UseNativeColrFontSupport
+(
+)
+const
+{
+return
+false
+;
+}
 static
 mozilla
 :
