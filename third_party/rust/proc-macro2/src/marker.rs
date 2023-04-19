@@ -1,5 +1,5 @@
 use
-std
+core
 :
 :
 marker
@@ -61,7 +61,7 @@ pub
 crate
 )
 use
-std
+core
 :
 :
 marker

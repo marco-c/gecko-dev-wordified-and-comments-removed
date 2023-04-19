@@ -1,3 +1,14 @@
+#
+!
+[
+allow
+(
+clippy
+:
+:
+assertions_on_result_states
+)
+]
 use
 proc_macro2
 :

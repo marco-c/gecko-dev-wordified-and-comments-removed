@@ -125,7 +125,7 @@ version
 .
 0
 .
-39
+43
 "
 authors
 =
@@ -157,8 +157,6 @@ false
 description
 =
 "
-"
-"
 A
 substitute
 implementation
@@ -182,8 +180,6 @@ macro
 use
 case
 .
-"
-"
 "
 documentation
 =
@@ -212,6 +208,9 @@ keywords
 [
 "
 macros
+"
+"
+syn
 "
 ]
 categories
