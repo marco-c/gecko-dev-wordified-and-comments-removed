@@ -1255,6 +1255,7 @@ MinDirectPathFilterDelay
 )
 ReverbDecay
 (
+false
 )
 &
 avg_render_reverb_

@@ -511,6 +511,8 @@ echo_path_variability
 float
 ReverbDecay
 (
+bool
+mild
 )
 const
 {
@@ -519,6 +521,7 @@ reverb_model_estimator_
 .
 ReverbDecay
 (
+mild
 )
 ;
 }

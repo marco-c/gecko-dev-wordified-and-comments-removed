@@ -1275,6 +1275,7 @@ ReverbType
 kLinear
 aec_state
 render_buffer
+dominant_nearend
 )
 ;
 AddReverb
@@ -1532,6 +1533,7 @@ ReverbType
 kNonLinear
 aec_state
 render_buffer
+dominant_nearend
 )
 ;
 AddReverb
@@ -1936,6 +1938,8 @@ const
 RenderBuffer
 &
 render_buffer
+bool
+dominant_nearend
 )
 {
 const
@@ -2092,6 +2096,16 @@ render_power
 render_power_data
 ;
 }
+float
+reverb_decay
+=
+aec_state
+.
+ReverbDecay
+(
+dominant_nearend
+)
+;
 if
 (
 reverb_type
@@ -2113,11 +2127,7 @@ aec_state
 GetReverbFrequencyResponse
 (
 )
-aec_state
-.
-ReverbDecay
-(
-)
+reverb_decay
 )
 ;
 }
@@ -2139,11 +2149,7 @@ UpdateReverbNoFreqShaping
 (
 render_power
 echo_path_gain
-aec_state
-.
-ReverbDecay
-(
-)
+reverb_decay
 )
 ;
 }

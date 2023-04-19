@@ -196,6 +196,8 @@ stationary_block
 float
 ReverbDecay
 (
+bool
+mild
 )
 const
 {
@@ -208,6 +210,7 @@ reverb_decay_estimators_
 >
 Decay
 (
+mild
 )
 ;
 }
