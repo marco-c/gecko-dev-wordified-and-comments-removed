@@ -11678,7 +11678,7 @@ PMyManagerParent
 {
 already_AddRefed
 <
-PMyManagerParent
+PMyManagedParent
 >
 AllocPMyManagedParent
 (
@@ -11687,7 +11687,7 @@ AllocPMyManagedParent
 IPCResult
 RecvPMyManagedConstructor
 (
-PMyManagedConstructor
+PMyManagedParent
 *
 aActor
 )
