@@ -6049,7 +6049,6 @@ mMoveToRectPopupSize
 {
 }
 ;
-}
 if
 (
 moz_container_wayland_is_waiting_to_show
@@ -6070,6 +6069,8 @@ Wayland
 compositor
 clear
 rendering
+"
+"
 queue
 .
 "
@@ -6084,6 +6085,7 @@ ClearRenderingQueue
 (
 )
 ;
+}
 }
 }
 void
