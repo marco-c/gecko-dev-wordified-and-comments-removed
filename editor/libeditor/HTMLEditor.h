@@ -7502,7 +7502,7 @@ Yes
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
-InsertFromTransferable
+InsertFromTransferableAtSelection
 (
 nsITransferable
 *
@@ -7517,8 +7517,6 @@ nsAString
 aInfoStr
 HavePrivateHTMLFlavor
 aHavePrivateHTMLFlavor
-DeleteSelectedContent
-aDeleteSelectedContent
 )
 ;
 MOZ_CAN_RUN_SCRIPT
