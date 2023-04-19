@@ -49,17 +49,6 @@ h
 #
 include
 "
-api
-/
-rtc_event_log
-/
-rtc_event_log
-.
-h
-"
-#
-include
-"
 modules
 /
 utility
@@ -160,9 +149,6 @@ clock
 PacketRouter
 *
 packet_router
-RtcEventLog
-*
-event_log
 const
 WebRtcKeyValueConfig
 &
@@ -216,7 +202,6 @@ pacing_controller_
 (
 clock
 packet_router
-event_log
 field_trials
 process_mode_
 )

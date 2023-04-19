@@ -371,7 +371,6 @@ PacedSender
 clock_
 &
 callback_
-nullptr
 trials_
 &
 process_thread_

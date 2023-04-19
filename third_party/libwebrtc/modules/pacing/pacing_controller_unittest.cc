@@ -139,6 +139,14 @@ testing
 :
 Return
 ;
+using
+:
+:
+testing
+:
+:
+WithoutArgs
+;
 namespace
 webrtc
 {
@@ -1211,7 +1219,6 @@ PacingController
 clock_
 &
 callback_
-nullptr
 trials_
 GetParam
 (
@@ -2021,7 +2028,6 @@ pacer
 clock_
 &
 callback_
-nullptr
 trials
 GetParam
 (
@@ -2130,7 +2136,6 @@ pacer
 clock_
 &
 callback_
-nullptr
 trials
 GetParam
 (
@@ -2253,7 +2258,6 @@ pacer
 clock_
 &
 callback_
-nullptr
 trials
 GetParam
 (
@@ -2447,7 +2451,6 @@ pacer
 clock_
 &
 callback_
-nullptr
 trials
 GetParam
 (
@@ -2559,7 +2562,6 @@ pacer
 clock_
 &
 callback_
-nullptr
 trials
 GetParam
 (
@@ -2658,20 +2660,12 @@ SendPacket
 .
 WillOnce
 (
+WithoutArgs
+(
 [
 &
 ]
 (
-uint32_t
-ssrc
-uint16_t
-sequence_number
-int64_t
-capture_timestamp
-bool
-retransmission
-bool
-padding
 )
 {
 wait_end_time
@@ -2683,6 +2677,7 @@ CurrentTime
 )
 ;
 }
+)
 )
 ;
 while
@@ -2796,7 +2791,6 @@ pacer
 clock_
 &
 callback_
-nullptr
 trials
 GetParam
 (
@@ -5043,7 +5037,6 @@ PacingController
 clock_
 &
 callback
-nullptr
 trials_
 GetParam
 (
@@ -7284,7 +7277,6 @@ PacingController
 clock_
 &
 callback_
-nullptr
 trials_
 GetParam
 (
@@ -7887,7 +7879,6 @@ PacingController
 clock_
 &
 packet_sender
-nullptr
 trials_
 GetParam
 (
@@ -8256,7 +8247,6 @@ PacingController
 clock_
 &
 packet_sender
-nullptr
 trials
 GetParam
 (
@@ -8837,7 +8827,6 @@ PacingController
 clock_
 &
 packet_sender
-nullptr
 trials_
 GetParam
 (
@@ -9214,7 +9203,6 @@ PacingController
 clock_
 &
 callback
-nullptr
 trials_
 GetParam
 (
@@ -9537,7 +9525,6 @@ PacingController
 clock_
 &
 callback
-nullptr
 trials_
 GetParam
 (
@@ -9768,7 +9755,6 @@ PacingController
 clock_
 &
 callback
-nullptr
 trials_
 GetParam
 (
@@ -10604,7 +10590,6 @@ PacingController
 clock_
 &
 callback
-nullptr
 trials_
 GetParam
 (
@@ -11636,7 +11621,6 @@ PacingController
 clock_
 &
 callback_
-nullptr
 field_trials
 GetParam
 (

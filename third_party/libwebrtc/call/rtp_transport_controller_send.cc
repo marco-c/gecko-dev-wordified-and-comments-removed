@@ -583,7 +583,6 @@ PacedSender
 clock
 &
 packet_router_
-event_log
 trials
 process_thread_
 .
@@ -606,7 +605,6 @@ TaskQueuePacedSender
 clock
 &
 packet_router_
-event_log
 trials
 task_queue_factory
 pacer_settings_

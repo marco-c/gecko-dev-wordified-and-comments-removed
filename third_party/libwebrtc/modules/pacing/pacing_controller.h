@@ -58,17 +58,6 @@ include
 "
 api
 /
-rtc_event_log
-/
-rtc_event_log
-.
-h
-"
-#
-include
-"
-api
-/
 transport
 /
 field_trial_based_config
@@ -321,9 +310,6 @@ clock
 PacketSender
 *
 packet_sender
-RtcEventLog
-*
-event_log
 const
 WebRtcKeyValueConfig
 &
