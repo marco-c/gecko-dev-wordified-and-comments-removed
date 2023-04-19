@@ -2355,7 +2355,8 @@ dateString
 }
 )
 /
-InvalidArgument
+InvalidArgumentError
+:
 /
 Got
 expected
@@ -2433,7 +2434,8 @@ invalidType
 }
 )
 /
-InvalidArgument
+InvalidArgumentError
+:
 /
 Got
 expected
@@ -2473,7 +2475,8 @@ invalidType
 }
 )
 /
-InvalidArgument
+InvalidArgumentError
+:
 /
 Got
 expected
@@ -2908,7 +2911,8 @@ value
 }
 )
 /
-InvalidArgument
+InvalidArgumentError
+:
 /
 Got
 expected
