@@ -4198,6 +4198,11 @@ if
 updateFailed
 )
 {
+if
+(
+mChannel
+)
+{
 mozilla
 :
 :
@@ -4216,6 +4221,7 @@ mChannel
 =
 nullptr
 ;
+}
 mTelemetryClockStart
 =
 0
