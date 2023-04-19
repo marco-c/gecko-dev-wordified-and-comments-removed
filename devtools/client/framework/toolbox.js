@@ -18009,6 +18009,13 @@ Toolbox
 HostType
 .
 PAGE
+|
+|
+this
+.
+descriptorFront
+.
+isWebExtensionDescriptor
 )
 {
 this
