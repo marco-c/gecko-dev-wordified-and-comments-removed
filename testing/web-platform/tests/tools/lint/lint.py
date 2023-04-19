@@ -7411,6 +7411,25 @@ multiprocessing
 cpu_count
 (
 )
+        
+if
+sys
+.
+platform
+=
+=
+'
+win32
+'
+:
+            
+jobs
+=
+min
+(
+jobs
+56
+)
     
 with
 open
