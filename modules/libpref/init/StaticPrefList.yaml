@@ -77581,7 +77581,7 @@ type
 RelaxedAtomicUint32
 #
 ifdef
-IS_NIGHTLY_BUILD
+NIGHTLY_BUILD
 value
 :
 50
