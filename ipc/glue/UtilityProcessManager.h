@@ -94,7 +94,7 @@ UtilityProcessParent
 public
 :
 using
-AudioDecodingPromise
+StartRemoteDecodingUtilityPromise
 =
 MozPromise
 <
@@ -168,9 +168,9 @@ aSandbox
 ;
 RefPtr
 <
-AudioDecodingPromise
+StartRemoteDecodingUtilityPromise
 >
-StartAudioDecoding
+StartProcessForRemoteMediaDecoding
 (
 base
 :

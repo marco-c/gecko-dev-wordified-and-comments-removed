@@ -7400,7 +7400,7 @@ aLocation
 upm
 -
 >
-StartAudioDecoding
+StartProcessForRemoteMediaDecoding
 (
 otherPid
 sbKind
@@ -7426,7 +7426,7 @@ ipc
 UtilityProcessManager
 :
 :
-AudioDecodingPromise
+StartRemoteDecodingUtilityPromise
 :
 :
 ResolveOrRejectValue
