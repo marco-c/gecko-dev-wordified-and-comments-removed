@@ -1174,16 +1174,6 @@ receive_statistics_proxy
 h
 "
 "
-rtp_streams_synchronizer
-.
-cc
-"
-"
-rtp_streams_synchronizer
-.
-h
-"
-"
 rtp_video_stream_receiver
 .
 cc
