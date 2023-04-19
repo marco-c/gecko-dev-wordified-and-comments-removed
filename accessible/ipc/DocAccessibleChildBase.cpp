@@ -494,6 +494,14 @@ Length
 )
 )
 aSuppressShowEvent
+|
+|
+StaticPrefs
+:
+:
+accessibility_cache_enabled_AtStartup
+(
+)
 )
 ;
 SerializeTree
