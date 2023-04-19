@@ -75,10 +75,20 @@ compilation
 "
 "
 "
-from
-looseversion
+try
+:
+  
 import
-LooseVersion
+distutils
+.
+version
+except
+ImportError
+:
+  
+distutils
+=
+None
 import
 logging
 import
@@ -3784,7 +3794,14 @@ exit
 )
     
 if
+distutils
+and
 not
+(
+distutils
+.
+version
+.
 LooseVersion
 (
 GetJavaVersion
@@ -3792,6 +3809,11 @@ GetJavaVersion
 )
 )
 >
+        
+distutils
+.
+version
+.
 LooseVersion
 (
 '
@@ -3799,6 +3821,7 @@ LooseVersion
 .
 6
 '
+)
 )
 :
       

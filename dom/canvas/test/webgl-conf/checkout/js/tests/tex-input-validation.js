@@ -1777,6 +1777,9 @@ INVALID_ENUM
 gl
 .
 INVALID_VALUE
+gl
+.
+INVALID_OPERATION
 ]
 }
 {
@@ -3064,9 +3067,14 @@ gl
 UNSIGNED_BYTE
 expectedError
 :
+[
 gl
 .
 INVALID_VALUE
+gl
+.
+INVALID_OPERATION
+]
 }
 {
 target
