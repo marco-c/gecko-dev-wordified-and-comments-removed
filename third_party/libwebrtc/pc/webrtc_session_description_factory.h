@@ -98,7 +98,7 @@ include
 "
 pc
 /
-sdp_offer_answer
+sdp_state_provider
 .
 h
 "
@@ -181,9 +181,6 @@ h
 namespace
 webrtc
 {
-class
-SdpOfferAnswerHandler
-;
 class
 WebRtcCertificateGeneratorCallback
 :
@@ -349,9 +346,10 @@ cricket
 ChannelManager
 *
 channel_manager
-SdpOfferAnswerHandler
+const
+SdpStateProvider
 *
-sdp_handler
+sdp_info
 const
 std
 :
@@ -686,9 +684,10 @@ RTCCertificateGeneratorInterface
 >
 cert_generator_
 ;
-SdpOfferAnswerHandler
+const
+SdpStateProvider
 *
-sdp_handler_
+sdp_info_
 ;
 const
 std
