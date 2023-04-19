@@ -291,7 +291,7 @@ codec_settings
 SetScalabilityMode
 (
 "
-NONE
+L1T1
 "
 )
 ;
@@ -429,7 +429,7 @@ codec_settings
 SetScalabilityMode
 (
 "
-NONE
+L1T1
 "
 )
 ;
@@ -578,7 +578,7 @@ codec_settings
 SetScalabilityMode
 (
 "
-NONE
+L1T1
 "
 )
 ;

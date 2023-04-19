@@ -84,7 +84,7 @@ video_codec
 SetScalabilityMode
 (
 "
-NONE
+L1T1
 "
 )
 ;

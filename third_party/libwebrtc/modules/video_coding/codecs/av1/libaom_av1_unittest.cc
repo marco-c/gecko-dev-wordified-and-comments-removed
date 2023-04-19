@@ -344,7 +344,7 @@ codec_settings
 SetScalabilityMode
 (
 "
-NONE
+L1T1
 "
 )
 ;
@@ -2063,7 +2063,7 @@ Values
 SvcTestParam
 {
 "
-NONE
+L1T1
 "
 4
 }
