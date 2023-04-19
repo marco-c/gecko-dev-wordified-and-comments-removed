@@ -1118,6 +1118,7 @@ browser
 }
 updateCommands
 :
+async
 function
 FullZoom_updateCommands
 (
@@ -1132,6 +1133,16 @@ zoomLevel
 ZoomManager
 .
 zoom
+;
+let
+defaultZoomLevel
+=
+await
+ZoomUI
+.
+getGlobalValue
+(
+)
 ;
 let
 reduceCmd
@@ -1244,7 +1255,7 @@ if
 zoomLevel
 =
 =
-1
+defaultZoomLevel
 &
 &
 !
