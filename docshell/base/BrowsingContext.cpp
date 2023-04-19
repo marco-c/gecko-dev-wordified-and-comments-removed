@@ -4147,6 +4147,14 @@ nullptr
 }
 if
 (
+nsContentUtils
+:
+:
+ShouldHideObjectOrEmbedImageDocument
+(
+)
+&
+&
 IsEmbedderTypeObjectOrEmbed
 (
 )
