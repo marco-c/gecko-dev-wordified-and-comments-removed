@@ -25896,7 +25896,7 @@ ContentParent
 :
 RecvFindImageText
 (
-ShmemImage
+IPCImage
 &
 &
 aImage
@@ -25931,7 +25931,6 @@ move
 (
 aImage
 )
-this
 )
 ;
 if

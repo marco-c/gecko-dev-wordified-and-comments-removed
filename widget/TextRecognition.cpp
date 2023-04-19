@@ -272,7 +272,6 @@ nsContentUtils
 SurfaceToIPCImage
 (
 aSurface
-contentChild
 )
 ;
 if
@@ -318,8 +317,14 @@ contentChild
 >
 SendFindImageText
 (
+std
+:
+:
+move
+(
 *
 image
+)
 aLanguages
 )
 -
