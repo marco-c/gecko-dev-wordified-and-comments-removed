@@ -425,6 +425,15 @@ NS_HTTP_USE_RFP
 )
 #
 define
+NS_HTTP_IS_RETRY
+(
+1
+<
+<
+27
+)
+#
+define
 NS_HTTP_TRR_FLAGS_FROM_MODE
 (
 x

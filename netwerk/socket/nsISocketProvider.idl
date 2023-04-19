@@ -209,5 +209,17 @@ DONT_TRY_ECH
 10
 )
 ;
+const
+unsigned
+long
+IS_RETRY
+=
+(
+1
+<
+<
+11
+)
+;
 }
 ;
