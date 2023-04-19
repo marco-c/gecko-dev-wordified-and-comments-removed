@@ -236,14 +236,6 @@ level
 "
 :
 1
-            
-"
-project
-"
-:
-"
-example
-"
         
 }
     

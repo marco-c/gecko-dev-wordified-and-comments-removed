@@ -1197,9 +1197,6 @@ worker_type_implementation
 config
 .
 graph_config
-config
-.
-params
 worker_type
 )
             

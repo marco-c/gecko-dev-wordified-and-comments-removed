@@ -107,7 +107,6 @@ for
 additional_field
 in
 (
-            
 "
 l10n
 -
@@ -115,25 +114,14 @@ bump
 -
 info
 "
-            
 "
 source
 -
 repo
 "
-            
 "
 dontbuild
 "
-            
-"
-ignore
--
-closed
--
-tree
-"
-        
 )
 :
             
