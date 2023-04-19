@@ -845,7 +845,7 @@ TraceFrameDropEnd
 )
 ;
 EncoderRateSettings
-UpdateBitrateAllocation
+UpdateBitrateAllocationAndNotifyObserver
 (
 const
 EncoderRateSettings

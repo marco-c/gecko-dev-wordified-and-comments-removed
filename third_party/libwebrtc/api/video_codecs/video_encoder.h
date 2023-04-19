@@ -667,9 +667,6 @@ RateControlParameters
 )
 ;
 VideoBitrateAllocation
-target_bitrate
-;
-VideoBitrateAllocation
 bitrate
 ;
 double
