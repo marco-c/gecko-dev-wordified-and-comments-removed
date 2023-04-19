@@ -16,6 +16,7 @@ IsObject
 obj
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_INCOMPATIBLE_PROTO
@@ -30,6 +31,7 @@ value
 "
 )
 ;
+}
 var
 name
 =
@@ -90,9 +92,11 @@ name
 "
 "
 )
+{
 return
 msg
 ;
+}
 if
 (
 msg
@@ -102,9 +106,11 @@ msg
 "
 "
 )
+{
 return
 name
 ;
+}
 return
 name
 +
