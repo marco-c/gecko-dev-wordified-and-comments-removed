@@ -1603,6 +1603,17 @@ kind
 can_use_shared_surface
 (
 )
+&
+&
+task
+.
+free_after
+!
+=
+PassId
+:
+:
+INVALID
 ;
 if
 can_use_shared_surface
