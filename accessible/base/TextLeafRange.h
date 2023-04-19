@@ -241,6 +241,10 @@ bool
 aIncludeOrigin
 =
 false
+bool
+aStopInEditable
+=
+false
 )
 const
 ;
@@ -421,6 +425,8 @@ nsDirection
 aDirection
 bool
 aIncludeOrigin
+bool
+aStopInEditable
 )
 const
 ;
@@ -431,6 +437,8 @@ nsDirection
 aDirection
 bool
 aIncludeOrigin
+bool
+aStopInEditable
 )
 const
 ;
