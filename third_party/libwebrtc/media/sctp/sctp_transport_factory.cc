@@ -94,10 +94,10 @@ network_thread_
 (
 network_thread
 )
-use_dcsctp_
+use_usrsctp_
 (
 "
-Enabled
+Disabled
 "
 false
 )
@@ -117,7 +117,7 @@ ParseFieldTrial
 (
 {
 &
-use_dcsctp_
+use_usrsctp_
 }
 webrtc
 :
@@ -174,7 +174,8 @@ ifdef
 WEBRTC_HAVE_DCSCTP
 if
 (
-use_dcsctp_
+!
+use_usrsctp_
 .
 Get
 (
