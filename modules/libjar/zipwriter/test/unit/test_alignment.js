@@ -18,11 +18,6 @@ txt
 "
 ;
 const
-CRC
-=
-0xe6164331
-;
-const
 time
 =
 1199145600000

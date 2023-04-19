@@ -18,15 +18,6 @@ txt
 "
 ;
 const
-FILENAME2
-=
-"
-test2
-.
-txt
-"
-;
-const
 CRC
 =
 0xe6164331
