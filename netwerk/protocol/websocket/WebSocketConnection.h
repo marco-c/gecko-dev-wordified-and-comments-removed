@@ -166,7 +166,7 @@ override
 nsresult
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo

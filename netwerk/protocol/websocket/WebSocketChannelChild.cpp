@@ -3610,7 +3610,7 @@ WebSocketChannelChild
 :
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo

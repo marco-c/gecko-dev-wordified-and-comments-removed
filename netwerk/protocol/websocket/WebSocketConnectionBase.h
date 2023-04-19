@@ -4,6 +4,9 @@ mozilla_net_WebSocketConnectionBase_h
 #
 define
 mozilla_net_WebSocketConnectionBase_h
+class
+nsITransportSecurityInfo
+;
 namespace
 mozilla
 {
@@ -92,7 +95,7 @@ virtual
 nsresult
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo
