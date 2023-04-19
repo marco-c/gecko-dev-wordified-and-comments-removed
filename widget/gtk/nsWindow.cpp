@@ -20014,6 +20014,10 @@ OnUnmap
 "
 )
 ;
+mIsMapped
+=
+false
+;
 #
 ifdef
 MOZ_WAYLAND
@@ -20114,10 +20118,6 @@ p
 "
 mGdkWindow
 )
-;
-mIsMapped
-=
-false
 ;
 ReleaseGdkWindow
 (

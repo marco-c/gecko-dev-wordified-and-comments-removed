@@ -748,10 +748,11 @@ if
 mWidget
 |
 |
+!
 mWidget
 -
 >
-IsDestroyed
+IsMapped
 (
 )
 )
@@ -797,10 +798,11 @@ aInvalidRegion
 {
 if
 (
+!
 widget
 -
 >
-IsDestroyed
+IsMapped
 (
 )
 )

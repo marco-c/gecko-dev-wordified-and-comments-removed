@@ -1583,6 +1583,16 @@ mIsDestroyed
 ;
 }
 bool
+IsMapped
+(
+)
+const
+{
+return
+mIsMapped
+;
+}
+bool
 IsPopup
 (
 )
