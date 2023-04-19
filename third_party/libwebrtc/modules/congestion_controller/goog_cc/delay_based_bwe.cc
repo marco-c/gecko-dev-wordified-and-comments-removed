@@ -1042,11 +1042,17 @@ Update
 recv_delta
 .
 ms
+<
+double
+>
 (
 )
 send_delta
 .
 ms
+<
+double
+>
 (
 )
 packet_feedback
