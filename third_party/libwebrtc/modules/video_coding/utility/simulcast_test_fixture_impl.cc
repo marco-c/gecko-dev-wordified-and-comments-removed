@@ -3972,6 +3972,17 @@ kDefaultTemporalLayerProfile
 }
 else
 {
+settings_
+.
+H264
+(
+)
+-
+>
+numberOfTemporalLayers
+=
+1
+;
 temporal_layer_profile
 =
 kNoTemporalLayerProfile
