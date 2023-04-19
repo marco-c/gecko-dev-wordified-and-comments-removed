@@ -1147,6 +1147,13 @@ plugin
 rtamo
 "
 "
+siteperm
+-
+addon
+-
+provider
+"
+"
 sync
 "
 "
@@ -1350,6 +1357,11 @@ api
 "
 "
 sideload
+"
+"
+synthetic
+-
+install
 "
 "
 url

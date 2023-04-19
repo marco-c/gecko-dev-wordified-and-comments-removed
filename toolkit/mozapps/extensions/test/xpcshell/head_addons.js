@@ -931,6 +931,13 @@ AddonManager
 .
 getAddonsByIDs
 ;
+const
+promiseAddonsByTypes
+=
+AddonManager
+.
+getAddonsByTypes
+;
 var
 gPort
 =
