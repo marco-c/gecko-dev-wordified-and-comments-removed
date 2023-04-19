@@ -1559,6 +1559,11 @@ destroyed
 .
 "
 ;
+free
+(
+data
+)
+;
 return
 0
 ;
