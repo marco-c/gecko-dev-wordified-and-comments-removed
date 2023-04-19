@@ -25,6 +25,13 @@ opengl
 GLES20
 ;
 import
+androidx
+.
+annotation
+.
+Nullable
+;
+import
 java
 .
 nio
@@ -84,6 +91,7 @@ getHeight
 (
 )
 ;
+Nullable
 CalledByNative
 (
 "
