@@ -163,13 +163,6 @@ stdint
 h
 >
 #
-include
-<
-unistd
-.
-h
->
-#
 ifdef
 MOZ_WIDGET_ANDROID
 #
@@ -425,13 +418,6 @@ XP_MACOSX
 )
 |
 |
-defined
-(
-XP_FREEBSD
-)
-|
-|
-\
 (
 defined
 (
