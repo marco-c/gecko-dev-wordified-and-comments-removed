@@ -67,6 +67,17 @@ nodiscard
 ]
 ]
 MFBT_API
+TimeStamp
+GetProfilingStartTime
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+MFBT_API
 UniquePtr
 <
 ProfileBufferChunkManagerWithLocalLimit
