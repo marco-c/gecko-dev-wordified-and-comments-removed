@@ -173,7 +173,7 @@ TimeDelta
 :
 Millis
 (
-3
+10
 )
 )
 abort_delayed_probes
@@ -181,7 +181,7 @@ abort_delayed_probes
 "
 abort_delayed_probes
 "
-false
+true
 )
 {
 ParseFieldTrial
