@@ -633,7 +633,6 @@ getpocket
 .
 com
 /
-explore
 {
 queryParams
 }

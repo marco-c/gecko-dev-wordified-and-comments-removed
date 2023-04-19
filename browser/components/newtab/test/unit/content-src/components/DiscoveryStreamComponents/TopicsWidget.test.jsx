@@ -1104,7 +1104,6 @@ getpocket
 .
 com
 /
-explore
 ?
 utm_source
 =
