@@ -3119,6 +3119,8 @@ aContent
 )
 )
 {
+if
+(
 LocalAccessible
 *
 table
@@ -3130,7 +3132,8 @@ TableFor
 (
 acc
 )
-;
+)
+{
 document
 -
 >
@@ -3155,6 +3158,7 @@ CacheDomain
 Table
 )
 ;
+}
 }
 }
 }
