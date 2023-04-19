@@ -69,6 +69,13 @@ nsID
 .
 h
 "
+#
+include
+"
+Tracing
+.
+h
+"
 namespace
 mozilla
 :
