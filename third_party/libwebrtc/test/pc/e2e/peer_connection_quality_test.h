@@ -695,9 +695,9 @@ std
 :
 unique_ptr
 <
-SingleProcessEncodedImageDataInjector
+EncodedImageDataPropagator
 >
-encoded_image_id_controller_
+encoded_image_data_propagator_
 ;
 std
 :

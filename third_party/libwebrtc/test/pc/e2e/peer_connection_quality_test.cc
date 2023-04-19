@@ -671,7 +671,7 @@ GetClock
 )
 ;
 }
-encoded_image_id_controller_
+encoded_image_data_propagator_
 =
 std
 :
@@ -700,12 +700,12 @@ move
 (
 video_quality_analyzer
 )
-encoded_image_id_controller_
+encoded_image_data_propagator_
 .
 get
 (
 )
-encoded_image_id_controller_
+encoded_image_data_propagator_
 .
 get
 (

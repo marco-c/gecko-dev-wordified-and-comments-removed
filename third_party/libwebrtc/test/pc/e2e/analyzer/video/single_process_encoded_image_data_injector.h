@@ -78,9 +78,7 @@ class
 SingleProcessEncodedImageDataInjector
 :
 public
-EncodedImageDataInjector
-public
-EncodedImageDataExtractor
+EncodedImageDataPropagator
 {
 public
 :
