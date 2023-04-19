@@ -205,6 +205,7 @@ kHiddenLayerOutputSize
 kHiddenGruBias
 kHiddenGruWeights
 kHiddenGruRecurrentWeights
+cpu_features
 "
 GRU1
 "

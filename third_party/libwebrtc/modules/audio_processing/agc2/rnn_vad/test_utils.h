@@ -258,6 +258,17 @@ unique_ptr
 <
 FileReader
 >
+CreateGruInputReader
+(
+)
+;
+std
+:
+:
+unique_ptr
+<
+FileReader
+>
 CreateVadProbsReader
 (
 )
