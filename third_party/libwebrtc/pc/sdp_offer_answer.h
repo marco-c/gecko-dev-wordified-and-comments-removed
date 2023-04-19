@@ -2834,17 +2834,6 @@ signaling_thread
 )
 )
 ;
-bool
-have_pending_rtp_data_channel_
-RTC_GUARDED_BY
-(
-signaling_thread
-(
-)
-)
-=
-false
-;
 void
 SetSessionError
 (

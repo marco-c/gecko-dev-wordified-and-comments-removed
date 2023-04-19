@@ -1218,16 +1218,6 @@ rtc_stats_traversal
 h
 "
 "
-rtp_data_channel
-.
-cc
-"
-"
-rtp_data_channel
-.
-h
-"
-"
 sctp_data_channel
 .
 cc
