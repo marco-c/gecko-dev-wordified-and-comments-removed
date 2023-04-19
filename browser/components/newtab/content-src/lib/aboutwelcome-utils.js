@@ -56,6 +56,8 @@ context
 window
 .
 AWSendEventTelemetry
+?
+.
 (
 {
 event
@@ -113,6 +115,8 @@ messageId
 window
 .
 AWSendEventTelemetry
+?
+.
 (
 ping
 )
