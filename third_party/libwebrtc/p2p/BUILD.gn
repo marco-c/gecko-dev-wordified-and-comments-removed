@@ -99,7 +99,7 @@ p2p
 "
 )
 {
-public_deps
+deps
 =
 [
 "
