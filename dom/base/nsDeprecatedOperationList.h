@@ -144,10 +144,6 @@ MouseEvent_MozPressure
 )
 DEPRECATED_OPERATION
 (
-MathML_DeprecatedAlignmentAttributes
-)
-DEPRECATED_OPERATION
-(
 MathML_DeprecatedBevelledAttribute
 )
 DEPRECATED_OPERATION
