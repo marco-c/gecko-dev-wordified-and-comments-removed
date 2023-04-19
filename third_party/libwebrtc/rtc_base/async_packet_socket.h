@@ -436,6 +436,11 @@ AsyncPacketSocket
 ;
 }
 ;
+using
+AsyncListenSocket
+=
+AsyncPacketSocket
+;
 void
 CopySocketInformationToPacketInfo
 (

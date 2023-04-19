@@ -719,7 +719,7 @@ OnNewConnection
 rtc
 :
 :
-AsyncPacketSocket
+AsyncListenSocket
 *
 rtc
 :
@@ -916,7 +916,7 @@ unique_ptr
 rtc
 :
 :
-AsyncPacketSocket
+AsyncListenSocket
 >
 listen_socket_
 ;

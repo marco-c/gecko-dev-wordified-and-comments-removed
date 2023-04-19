@@ -235,7 +235,7 @@ socket
 )
 ;
 }
-AsyncPacketSocket
+AsyncListenSocket
 *
 BasicPacketSocketFactory
 :
