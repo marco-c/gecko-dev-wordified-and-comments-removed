@@ -194,12 +194,6 @@ using
 EncodedImage
 :
 :
-Retain
-;
-using
-EncodedImage
-:
-:
 set_size
 ;
 using

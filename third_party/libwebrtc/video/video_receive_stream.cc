@@ -3652,13 +3652,6 @@ if
 encoded_frame_buffer_function_
 )
 {
-frame
--
->
-Retain
-(
-)
-;
 encoded_frame_buffer_function_
 (
 WebRtcRecordableEncodedFrame

@@ -1503,14 +1503,6 @@ encoded_image
 =
 encodedImage
 ;
-image_component
-.
-encoded_image
-.
-Retain
-(
-)
-;
 MutexLock
 lock
 (

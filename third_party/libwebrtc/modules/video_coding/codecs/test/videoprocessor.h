@@ -606,12 +606,6 @@ codec_specific_info_
 codec_specific_info
 )
 {
-encoded_image_
-.
-Retain
-(
-)
-;
 }
 bool
 Run
