@@ -345,11 +345,6 @@ mColCount
 1
 ;
 bool
-mHasExcessBSize
-=
-false
-;
-bool
 mFeasible
 =
 false
