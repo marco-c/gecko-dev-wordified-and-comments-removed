@@ -1730,6 +1730,12 @@ webrtc
 :
 RtpDemuxerCriteria
 previous_demuxer_criteria_
+RTC_GUARDED_BY
+(
+network_thread
+(
+)
+)
 ;
 rtc
 :
