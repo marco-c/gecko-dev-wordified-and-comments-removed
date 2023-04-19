@@ -4281,12 +4281,7 @@ Frame
 )
 -
 >
-Style
-(
-)
--
->
-IsRootElementStyle
+IsDocElementBoxFrame
 (
 )
 )
@@ -4346,12 +4341,7 @@ Frame
 )
 -
 >
-Style
-(
-)
--
->
-IsRootElementStyle
+IsDocElementBoxFrame
 (
 )
 )

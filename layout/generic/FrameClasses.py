@@ -189,6 +189,17 @@ NOT_LEAF
 Frame
 (
 "
+nsDocElementBoxFrame
+"
+"
+DocElementBox
+"
+NOT_LEAF
+)
+    
+Frame
+(
+"
 nsFieldSetFrame
 "
 "
