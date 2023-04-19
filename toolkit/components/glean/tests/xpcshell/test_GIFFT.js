@@ -1238,7 +1238,7 @@ greaterOrEqual
 data
 .
 sum
-15
+13
 "
 Histogram
 '
