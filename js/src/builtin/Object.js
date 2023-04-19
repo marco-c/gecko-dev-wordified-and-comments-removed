@@ -75,6 +75,7 @@ desc
 undefined
 "
 )
+{
 DefineDataProperty
 (
 descriptors
@@ -82,6 +83,7 @@ key
 desc
 )
 ;
+}
 }
 return
 descriptors
@@ -239,6 +241,7 @@ IsCallable
 setter
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_BAD_GETTER_OR_SETTER
@@ -247,6 +250,7 @@ setter
 "
 )
 ;
+}
 var
 key
 =
@@ -293,6 +297,7 @@ IsCallable
 getter
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_BAD_GETTER_OR_SETTER
@@ -301,6 +306,7 @@ getter
 "
 )
 ;
+}
 var
 key
 =
@@ -371,12 +377,14 @@ PROP_DESC_ATTRS_AND_KIND_INDEX
 &
 ACCESSOR_DESCRIPTOR_KIND
 )
+{
 return
 desc
 [
 PROP_DESC_SETTER_INDEX
 ]
 ;
+}
 return
 undefined
 ;
@@ -446,12 +454,14 @@ PROP_DESC_ATTRS_AND_KIND_INDEX
 &
 ACCESSOR_DESCRIPTOR_KIND
 )
+{
 return
 desc
 [
 PROP_DESC_GETTER_INDEX
 ]
 ;
+}
 return
 undefined
 ;
@@ -495,9 +505,11 @@ if
 !
 desc
 )
+{
 return
 undefined
 ;
+}
 var
 attrsAndKind
 =
@@ -616,6 +628,7 @@ IsObject
 obj
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_OBJECT_REQUIRED
@@ -626,6 +639,7 @@ obj
 )
 )
 ;
+}
 propertyKey
 =
 TO_PROPERTY_KEY
@@ -641,12 +655,14 @@ IsObject
 attributes
 )
 )
+{
 ThrowArgTypeNotObject
 (
 NOT_OBJECT_KIND_DESCRIPTOR
 attributes
 )
 ;
+}
 var
 attrs
 =
@@ -672,6 +688,7 @@ enumerable
 in
 attributes
 )
+{
 attrs
 |
 =
@@ -683,6 +700,7 @@ ATTR_ENUMERABLE
 :
 ATTR_NONENUMERABLE
 ;
+}
 if
 (
 "
@@ -691,6 +709,7 @@ configurable
 in
 attributes
 )
+{
 attrs
 |
 =
@@ -702,6 +721,7 @@ ATTR_CONFIGURABLE
 :
 ATTR_NONCONFIGURABLE
 ;
+}
 if
 (
 "
@@ -788,6 +808,7 @@ getter
 =
 undefined
 )
+{
 ThrowTypeError
 (
 JSMSG_BAD_GET_SET_FIELD
@@ -796,6 +817,7 @@ get
 "
 )
 ;
+}
 }
 if
 (
@@ -832,6 +854,7 @@ setter
 =
 undefined
 )
+{
 ThrowTypeError
 (
 JSMSG_BAD_GET_SET_FIELD
@@ -840,6 +863,7 @@ set
 "
 )
 ;
+}
 }
 if
 (
@@ -854,11 +878,13 @@ attrs
 &
 DATA_DESCRIPTOR_KIND
 )
+{
 ThrowTypeError
 (
 JSMSG_INVALID_DESCRIPTOR
 )
 ;
+}
 return
 DefineProperty
 (
@@ -1001,6 +1027,7 @@ IsObject
 pair
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_INVALID_MAP_ITERABLE
@@ -1011,6 +1038,7 @@ fromEntries
 "
 )
 ;
+}
 DefineDataProperty
 (
 obj
