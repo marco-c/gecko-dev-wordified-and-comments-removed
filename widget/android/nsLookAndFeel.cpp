@@ -569,7 +569,7 @@ colorAccent
 StaticPrefs
 :
 :
-widget_use_theme_accent
+widget_non_native_theme_use_theme_accent
 (
 )
 ;
