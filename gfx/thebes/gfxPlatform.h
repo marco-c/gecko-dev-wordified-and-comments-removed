@@ -2409,6 +2409,11 @@ InitWindowOcclusionConfig
 (
 )
 ;
+void
+InitBackdropFilterConfig
+(
+)
+;
 virtual
 void
 GetPlatformDisplayInfo
