@@ -551,6 +551,13 @@ h
 "
 public
 /
+FailureLatch
+.
+h
+"
+"
+public
+/
 leb128iterator
 .
 h
