@@ -126,9 +126,15 @@ OP_XOR_GvEv
 OP_XOR_EAXIv
 =
 0x35
+OP_CMP_EbGb
+=
+0x38
 OP_CMP_EvGv
 =
 0x39
+OP_CMP_GbEb
+=
+0x3A
 OP_CMP_GvEv
 =
 0x3B
