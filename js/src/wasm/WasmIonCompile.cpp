@@ -40517,9 +40517,6 @@ lifo
 ;
 JitContext
 jitContext
-(
-alloc
-)
 ;
 MOZ_ASSERT
 (

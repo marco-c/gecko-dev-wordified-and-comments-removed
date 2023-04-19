@@ -156,6 +156,9 @@ ensureMasm
 MacroAssembler
 *
 masm
+TempAllocator
+&
+alloc
 )
 ;
 mozilla

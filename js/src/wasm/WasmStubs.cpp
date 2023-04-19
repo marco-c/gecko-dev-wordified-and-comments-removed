@@ -16810,9 +16810,6 @@ lifo
 ;
 JitContext
 jcx
-(
-alloc
-)
 ;
 WasmMacroAssembler
 masm

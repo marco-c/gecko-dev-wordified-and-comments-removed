@@ -152,6 +152,9 @@ IonCacheIRCompiler
 JSContext
 *
 cx
+TempAllocator
+&
+alloc
 const
 CacheIRWriter
 &

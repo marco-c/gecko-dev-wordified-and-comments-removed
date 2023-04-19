@@ -189,9 +189,6 @@ runtime
 mirGen_
 .
 realm
-alloc
-(
-)
 )
 ;
 setBackgroundCodegen

@@ -14707,7 +14707,6 @@ JitContext
 jcx
 (
 cx
-temp
 )
 ;
 StackMacroAssembler
@@ -16564,7 +16563,6 @@ JitContext
 jcx
 (
 cx
-temp
 )
 ;
 StackMacroAssembler
@@ -17391,7 +17389,6 @@ JitContext
 jcx
 (
 cx
-temp
 )
 ;
 StackMacroAssembler
@@ -64129,7 +64126,6 @@ JitContext
 jcx
 (
 cx
-temp
 )
 ;
 StackMacroAssembler

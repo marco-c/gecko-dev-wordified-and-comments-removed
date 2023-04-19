@@ -2610,9 +2610,6 @@ lifo
 ;
 JitContext
 jitContext
-(
-alloc
-)
 ;
 WasmMacroAssembler
 masm

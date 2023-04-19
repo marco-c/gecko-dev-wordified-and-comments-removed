@@ -9427,9 +9427,6 @@ ifdef
 DEBUG
 JitContext
 jitContext
-(
-tempAlloc
-)
 ;
 bool
 oldFlag
