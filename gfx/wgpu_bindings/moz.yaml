@@ -183,7 +183,7 @@ type
 vendoring
 enabled
 :
-true
+false
 frequency
 :
 1
