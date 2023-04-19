@@ -270,6 +270,14 @@ must_use
 readonly
 attribute
 boolean
+usedPrivateDNS
+;
+[
+must_use
+]
+readonly
+attribute
+boolean
 isExtendedValidation
 ;
 [
