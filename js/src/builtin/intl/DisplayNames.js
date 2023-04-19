@@ -286,9 +286,11 @@ if
 (
 internalProps
 )
+{
 return
 internalProps
 ;
+}
 internalProps
 =
 resolveDisplayNamesInternals
@@ -383,6 +385,7 @@ IsObject
 options
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_OBJECT_REQUIRED
@@ -400,6 +403,7 @@ typeof
 options
 )
 ;
+}
 var
 opt
 =
