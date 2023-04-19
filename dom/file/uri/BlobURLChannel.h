@@ -56,16 +56,6 @@ nsILoadInfo
 aLoadInfo
 )
 ;
-NS_IMETHOD
-SetContentType
-(
-const
-nsACString
-&
-aContentType
-)
-override
-;
 private
 :
 ~

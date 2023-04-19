@@ -1250,13 +1250,6 @@ LowerCaseEqualsASCII
 (
 UNKNOWN_CONTENT_TYPE
 )
-|
-|
-mContentType
-.
-IsEmpty
-(
-)
 )
 {
 return
