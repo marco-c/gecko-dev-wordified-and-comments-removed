@@ -35,7 +35,7 @@ version
 "
 103
 .
-0
+1
 .
 0
 "
@@ -642,6 +642,13 @@ js
 shims
 /
 apstag
+.
+js
+"
+"
+shims
+/
+blogger
 .
 js
 "
