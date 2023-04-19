@@ -227,6 +227,11 @@ total_interruption_duration_ms
 =
 0
 ;
+uint64_t
+generated_noise_samples
+=
+0
+;
 }
 ;
 struct
