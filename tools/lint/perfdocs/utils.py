@@ -159,13 +159,6 @@ utf
 "
 )
 )
-    
-new_file
-.
-chmod
-(
-0o766
-)
 def
 read_file
 (
