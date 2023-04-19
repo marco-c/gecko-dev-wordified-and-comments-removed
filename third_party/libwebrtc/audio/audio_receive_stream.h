@@ -320,6 +320,13 @@ Stop
 )
 override
 ;
+bool
+IsRunning
+(
+)
+const
+override
+;
 webrtc
 :
 :

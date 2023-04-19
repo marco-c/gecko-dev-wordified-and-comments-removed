@@ -588,6 +588,17 @@ started_
 false
 ;
 }
+bool
+IsRunning
+(
+)
+const
+override
+{
+return
+started_
+;
+}
 webrtc
 :
 :

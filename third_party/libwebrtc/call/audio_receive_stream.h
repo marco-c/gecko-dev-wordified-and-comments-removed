@@ -674,6 +674,15 @@ Stop
 0
 ;
 virtual
+bool
+IsRunning
+(
+)
+const
+=
+0
+;
+virtual
 Stats
 GetStats
 (
