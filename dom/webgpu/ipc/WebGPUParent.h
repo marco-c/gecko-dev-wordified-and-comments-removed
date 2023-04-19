@@ -238,6 +238,16 @@ ipc
 :
 :
 IPCResult
+RecvBufferDrop
+(
+RawId
+aBufferId
+)
+;
+ipc
+:
+:
+IPCResult
 RecvTextureDestroy
 (
 RawId
