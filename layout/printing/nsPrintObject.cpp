@@ -176,10 +176,6 @@ mDocument
 &
 aDoc
 )
-mContent
-(
-nullptr
-)
 mFrameType
 (
 aParent
@@ -191,14 +187,6 @@ eDoc
 mParent
 (
 aParent
-)
-mHasBeenPrinted
-(
-false
-)
-mInvisible
-(
-false
 )
 {
 MOZ_COUNT_CTOR

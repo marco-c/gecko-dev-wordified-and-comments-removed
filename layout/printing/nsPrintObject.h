@@ -213,9 +213,13 @@ mParent
 ;
 bool
 mHasBeenPrinted
+=
+false
 ;
 bool
 mInvisible
+=
+false
 ;
 float
 mZoomRatio
