@@ -134,6 +134,7 @@ OutputType
 kI420
 kI420A
 kI010
+kNV12
 }
 ;
 virtual
