@@ -4139,7 +4139,7 @@ OffscreenCanvas
 insecureContext
 :
 true
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -4152,7 +4152,7 @@ OffscreenCanvasRenderingContext2D
 insecureContext
 :
 true
-nightly
+earlyBetaOrEarlier
 :
 true
 }

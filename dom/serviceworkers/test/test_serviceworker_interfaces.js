@@ -330,7 +330,7 @@ name
 "
 CanvasGradient
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -340,7 +340,7 @@ name
 "
 CanvasPattern
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -428,7 +428,7 @@ name
 "
 FontFace
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -438,7 +438,7 @@ name
 "
 FontFaceSet
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -448,7 +448,7 @@ name
 "
 FontFaceSetLoadEvent
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -546,7 +546,7 @@ name
 "
 OffscreenCanvas
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -556,7 +556,7 @@ name
 "
 OffscreenCanvasRenderingContext2D
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -566,7 +566,7 @@ name
 "
 Path2D
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -781,7 +781,7 @@ name
 "
 WebGL2RenderingContext
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -791,7 +791,7 @@ name
 "
 WebGLActiveInfo
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -801,7 +801,7 @@ name
 "
 WebGLBuffer
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -811,7 +811,7 @@ name
 "
 WebGLContextEvent
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -821,7 +821,7 @@ name
 "
 WebGLFramebuffer
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -831,7 +831,7 @@ name
 "
 WebGLProgram
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -844,7 +844,7 @@ name
 "
 WebGLRenderbuffer
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -854,7 +854,7 @@ name
 "
 WebGLRenderingContext
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -864,7 +864,7 @@ name
 "
 WebGLSampler
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -874,7 +874,7 @@ name
 "
 WebGLShader
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -884,7 +884,7 @@ name
 "
 WebGLShaderPrecisionFormat
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -894,7 +894,7 @@ name
 "
 WebGLSync
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -904,7 +904,7 @@ name
 "
 WebGLTexture
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -914,7 +914,7 @@ name
 "
 WebGLTransformFeedback
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -924,7 +924,7 @@ name
 "
 WebGLUniformLocation
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -934,7 +934,7 @@ name
 "
 WebGLVertexArrayObject
 "
-nightly
+earlyBetaOrEarlier
 :
 true
 }
