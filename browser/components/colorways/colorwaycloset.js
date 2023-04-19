@@ -259,20 +259,18 @@ getElementById
 cancel
 "
 )
-useFXHomeControls
+homepageResetContainer
 :
 document
 .
 getElementById
 (
 "
-use
+homepage
 -
-fx
+reset
 -
-home
--
-controls
+container
 "
 )
 }
@@ -288,7 +286,7 @@ _displayCollectionData
 ;
 this
 .
-_displayUseFXHomeControls
+_displayHomepageResetOption
 (
 )
 ;
@@ -622,7 +620,7 @@ enable
 ;
 }
 }
-_displayUseFXHomeControls
+_displayHomepageResetOption
 (
 )
 {
@@ -653,7 +651,7 @@ this
 .
 el
 .
-useFXHomeControls
+homepageResetContainer
 .
 hidden
 =
@@ -676,7 +674,7 @@ this
 .
 el
 .
-useFXHomeControls
+homepageResetContainer
 .
 querySelector
 (
@@ -718,7 +716,7 @@ this
 .
 el
 .
-useFXHomeControls
+homepageResetContainer
 .
 classList
 .
@@ -736,7 +734,7 @@ this
 .
 el
 .
-useFXHomeControls
+homepageResetContainer
 .
 querySelector
 (
@@ -771,7 +769,7 @@ this
 .
 el
 .
-useFXHomeControls
+homepageResetContainer
 .
 classList
 .
