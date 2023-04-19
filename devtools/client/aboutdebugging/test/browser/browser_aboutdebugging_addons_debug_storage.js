@@ -248,6 +248,7 @@ document
 ;
 const
 {
+devtoolsTab
 devtoolsWindow
 }
 =
@@ -593,9 +594,10 @@ age
 )
 ;
 await
-closeWebExtAboutDevtoolsToolbox
+closeAboutDevtoolsToolbox
 (
-devtoolsWindow
+document
+devtoolsTab
 window
 )
 ;
