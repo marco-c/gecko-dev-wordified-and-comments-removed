@@ -12,10 +12,10 @@ Array
 .
 prototype
 .
-groupToMap
+groupByToMap
 |
 |
-group
+groupBy
 "
 ;
 print
@@ -118,7 +118,7 @@ groupedArray
 =
 a1
 .
-group
+groupBy
 (
 x
 =
@@ -142,7 +142,7 @@ mappedArray
 =
 a1
 .
-groupToMap
+groupByToMap
 (
 x
 =
@@ -243,7 +243,7 @@ assertDeepEq
 3
 ]
 .
-group
+groupBy
 (
 (
 )
@@ -260,7 +260,7 @@ assertDeepEq
 [
 ]
 .
-group
+groupBy
 (
 (
 )
@@ -286,7 +286,7 @@ assertDeepEq
 3
 ]
 .
-groupToMap
+groupByToMap
 (
 (
 )
@@ -317,7 +317,7 @@ assertEq
 3
 ]
 .
-groupToMap
+groupByToMap
 (
 (
 )
@@ -337,7 +337,7 @@ negMappedArray
 =
 a1
 .
-groupToMap
+groupByToMap
 (
 x
 =
@@ -381,7 +381,7 @@ assertThrowsInstanceOf
 [
 ]
 .
-group
+groupBy
 (
 undefined
 )
@@ -397,7 +397,7 @@ assertThrowsInstanceOf
 [
 ]
 .
-group
+groupBy
 (
 null
 )
@@ -413,7 +413,7 @@ assertThrowsInstanceOf
 [
 ]
 .
-group
+groupBy
 (
 0
 )
@@ -429,7 +429,7 @@ assertThrowsInstanceOf
 [
 ]
 .
-group
+groupBy
 (
 "
 "
@@ -446,7 +446,7 @@ assertThrowsInstanceOf
 [
 ]
 .
-groupToMap
+groupByToMap
 (
 undefined
 )
@@ -462,7 +462,7 @@ assertThrowsInstanceOf
 [
 ]
 .
-groupToMap
+groupByToMap
 (
 null
 )
@@ -478,7 +478,7 @@ assertThrowsInstanceOf
 [
 ]
 .
-groupToMap
+groupByToMap
 (
 0
 )
@@ -494,7 +494,7 @@ assertThrowsInstanceOf
 [
 ]
 .
-groupToMap
+groupByToMap
 (
 "
 "
@@ -588,7 +588,7 @@ map1
 =
 array
 .
-groupToMap
+groupByToMap
 (
 key
 =
@@ -667,7 +667,7 @@ map2
 =
 array
 .
-groupToMap
+groupByToMap
 (
 key
 =
@@ -682,7 +682,7 @@ arr
 =
 array
 .
-group
+groupBy
 (
 key
 =
@@ -775,7 +775,7 @@ set
 3
 ]
 .
-group
+groupBy
 (
 (
 )
@@ -796,7 +796,7 @@ p
 1
 ]
 .
-group
+groupBy
 (
 (
 )
@@ -829,7 +829,7 @@ count
 1
 ]
 .
-groupToMap
+groupByToMap
 (
 (
 )
