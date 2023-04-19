@@ -3286,7 +3286,7 @@ override
 animation_value_type
 =
 "
-none
+NonNegativeLength
 "
 )
 }

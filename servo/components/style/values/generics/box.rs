@@ -220,6 +220,8 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToComputedValue
+ToAnimatedValue
+ToAnimatedZero
 ToResolvedValue
 ToShmem
 )
