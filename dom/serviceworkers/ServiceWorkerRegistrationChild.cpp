@@ -8,7 +8,7 @@ h
 #
 include
 "
-RemoteServiceWorkerRegistrationImpl
+ServiceWorkerRegistration
 .
 h
 "
@@ -101,7 +101,15 @@ if
 mOwner
 )
 {
+RefPtr
+<
+ServiceWorkerRegistration
+>
+owner
+=
 mOwner
+;
+owner
 -
 >
 UpdateState
@@ -135,7 +143,7 @@ mOwner
 mOwner
 -
 >
-FireUpdateFound
+MaybeDispatchUpdateFoundRunnable
 (
 )
 ;
@@ -279,7 +287,7 @@ ServiceWorkerRegistrationChild
 :
 SetOwner
 (
-RemoteServiceWorkerRegistrationImpl
+ServiceWorkerRegistration
 *
 aOwner
 )
@@ -306,7 +314,7 @@ ServiceWorkerRegistrationChild
 :
 RevokeOwner
 (
-RemoteServiceWorkerRegistrationImpl
+ServiceWorkerRegistration
 *
 aOwner
 )

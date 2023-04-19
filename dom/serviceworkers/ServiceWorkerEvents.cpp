@@ -1247,6 +1247,8 @@ aRv
 )
 )
 {
+:
+:
 AsyncLog
 (
 mClosure
