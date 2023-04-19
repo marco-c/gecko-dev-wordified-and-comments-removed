@@ -3478,6 +3478,12 @@ rtc
 SSLCertificateVerifier
 >
 tls_cert_verifier_
+RTC_GUARDED_BY
+(
+network_thread
+(
+)
+)
 ;
 std
 :
