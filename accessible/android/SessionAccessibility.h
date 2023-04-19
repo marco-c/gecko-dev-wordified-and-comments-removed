@@ -587,16 +587,7 @@ int32_t
 aID
 )
 const
-{
-return
-mIDToAccessibleMap
-.
-Get
-(
-aID
-)
 ;
-}
 static
 const
 int32_t
