@@ -263,6 +263,19 @@ spatial_id
 complex
 )
 ;
+let
+clip_chain_id
+=
+builder
+.
+define_clip_chain
+(
+None
+[
+clip_id
+]
+)
+;
 builder
 .
 push_rect
@@ -286,7 +299,7 @@ to
 SpaceAndClipInfo
 {
 spatial_id
-clip_id
+clip_chain_id
 }
 )
 (
@@ -342,7 +355,7 @@ to
 SpaceAndClipInfo
 {
 spatial_id
-clip_id
+clip_chain_id
 }
 )
 (
@@ -488,7 +501,7 @@ bounds
 SpaceAndClipInfo
 {
 spatial_id
-clip_id
+clip_chain_id
 }
 )
 bounds
