@@ -42,11 +42,6 @@ stdarg
 h
 >
 #
-define
-kNotFound
--
-1
-#
 include
 "
 nsStringFlags
