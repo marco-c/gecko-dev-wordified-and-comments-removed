@@ -1324,14 +1324,6 @@ mozilla
 :
 :
 Module
-kLayoutModule
-;
-extern
-const
-mozilla
-:
-:
-Module
 kKeyValueModule
 ;
 extern
@@ -1828,12 +1820,6 @@ kWidgetModule
 ;
 #
 endif
-RegisterModule
-(
-&
-kLayoutModule
-)
-;
 RegisterModule
 (
 &
