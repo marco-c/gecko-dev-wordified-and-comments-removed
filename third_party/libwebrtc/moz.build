@@ -4357,6 +4357,16 @@ libwebrtc
 /
 rtc_base
 /
+sample_counter_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+rtc_base
+/
 sanitizer_gn
 "
 "
