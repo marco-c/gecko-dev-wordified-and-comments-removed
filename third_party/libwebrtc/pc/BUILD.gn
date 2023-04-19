@@ -2407,7 +2407,7 @@ test
 /
 fuzzers
 :
-sctp_utils_fuzzer
+*
 "
 ]
 sources
