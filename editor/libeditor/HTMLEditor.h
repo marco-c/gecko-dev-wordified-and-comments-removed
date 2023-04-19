@@ -6463,7 +6463,7 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 nsresult
-RemoveInlinePropertyInternal
+RemoveInlinePropertyAsSubAction
 (
 nsStaticAtom
 *
