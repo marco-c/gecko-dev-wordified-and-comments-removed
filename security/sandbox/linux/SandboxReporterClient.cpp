@@ -438,7 +438,7 @@ sent
 1
 )
 ;
-SANDBOX_LOG
+SANDBOX_LOG_ERRNO
 (
 "
 Failed
@@ -446,14 +446,7 @@ to
 report
 rejected
 syscall
-:
-%
-s
 "
-strerror
-(
-errno
-)
 )
 ;
 }
