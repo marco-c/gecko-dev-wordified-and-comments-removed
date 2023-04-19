@@ -2092,6 +2092,14 @@ enabled
 =
 true
 ;
+apm_config
+.
+voice_detection
+.
+enabled
+=
+true
+;
 return
 apm_config
 ;
