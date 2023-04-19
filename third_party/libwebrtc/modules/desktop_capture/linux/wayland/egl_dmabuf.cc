@@ -2138,6 +2138,14 @@ egl_initialized_
 true
 ;
 }
+RTC_NO_SANITIZE
+(
+"
+cfi
+-
+icall
+"
+)
 EglDmaBuf
 :
 :
