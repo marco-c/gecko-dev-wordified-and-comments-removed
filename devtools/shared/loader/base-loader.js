@@ -594,9 +594,6 @@ FormData
 Headers
 "
 "
-indexedDB
-"
-"
 InspectorUtils
 "
 "
