@@ -14751,10 +14751,10 @@ UrlbarSearchUtils
 .
 serpsAreEquivalent
 (
-expectedSearchUrl
 uri
 .
 spec
+expectedSearchUrl
 )
 )
 {
