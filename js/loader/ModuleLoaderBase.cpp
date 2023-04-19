@@ -3262,7 +3262,7 @@ Err
 ResolveError
 :
 :
-ModuleResolveFailure
+Failure
 )
 ;
 }
@@ -3313,7 +3313,7 @@ Err
 ResolveError
 :
 :
-ModuleResolveFailure
+FailureMayBeBare
 )
 ;
 }
@@ -3384,7 +3384,7 @@ Err
 ResolveError
 :
 :
-ModuleResolveFailure
+Failure
 )
 ;
 }
