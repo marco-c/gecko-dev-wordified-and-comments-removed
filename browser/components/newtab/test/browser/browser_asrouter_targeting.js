@@ -1981,6 +1981,7 @@ isDefaultBrowser
 const
 result
 =
+await
 ASRouterTargeting
 .
 Environment
