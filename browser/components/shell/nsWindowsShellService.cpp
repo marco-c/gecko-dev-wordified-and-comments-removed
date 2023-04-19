@@ -6609,16 +6609,6 @@ linkName
 aShortcutName
 )
 ;
-linkName
-.
-AppendLiteral
-(
-"
-.
-lnk
-"
-)
-;
 wchar_t
 exePath
 [
