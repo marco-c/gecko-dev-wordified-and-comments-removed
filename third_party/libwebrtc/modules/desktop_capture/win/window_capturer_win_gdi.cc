@@ -761,6 +761,13 @@ CaptureFrame
 true
 )
 ;
+if
+(
+results
+.
+frame
+)
+{
 int
 capture_time_ms
 =
@@ -817,6 +824,7 @@ DesktopCapturerId
 kWindowCapturerWinGdi
 )
 ;
+}
 callback_
 -
 >
