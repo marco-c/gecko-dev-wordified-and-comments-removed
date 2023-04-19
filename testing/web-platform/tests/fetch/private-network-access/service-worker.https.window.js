@@ -26,9 +26,6 @@ FAILURE
 register
 :
 {
-loaded
-:
-false
 error
 :
 "
