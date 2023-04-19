@@ -546,6 +546,17 @@ ingress_stats
 override
 ;
 VoipResult
+GetChannelStatistics
+(
+ChannelId
+channe_id
+ChannelStatistics
+&
+channel_stats
+)
+override
+;
+VoipResult
 SetInputMuted
 (
 ChannelId
