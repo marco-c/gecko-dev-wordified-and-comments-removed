@@ -250,10 +250,6 @@ oncontrollerchange
 ;
 attribute
 EventHandler
-onerror
-;
-attribute
-EventHandler
 onmessage
 ;
 attribute
