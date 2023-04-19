@@ -477,6 +477,12 @@ mozilla
 StyleFontSizeKeyword
 mFontSizeKeyword
 ;
+mozilla
+:
+:
+StyleFontPalette
+mFontPalette
+;
 int8_t
 mMathDepth
 ;
