@@ -686,6 +686,14 @@ checks
 /
 rtc_base
 :
+robo_caller
+"
+"
+.
+.
+/
+rtc_base
+:
 rtc_numerics
 "
 "
