@@ -670,11 +670,6 @@ time_now_us
 packets
 )
 ;
-int
-i
-=
-0
-;
 for
 (
 PacketResult
@@ -743,10 +738,6 @@ Micros
 (
 prev_arrival_time_us_
 )
-;
-+
-+
-i
 ;
 }
 it

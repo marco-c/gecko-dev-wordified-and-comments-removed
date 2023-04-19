@@ -961,11 +961,6 @@ time_now_us
 packets
 )
 ;
-int
-i
-=
-0
-;
 for
 (
 RtpStream
@@ -1053,10 +1048,6 @@ packet_it
 arrival_time
 =
 prev_arrival_time_us_
-;
-+
-+
-i
 ;
 }
 it

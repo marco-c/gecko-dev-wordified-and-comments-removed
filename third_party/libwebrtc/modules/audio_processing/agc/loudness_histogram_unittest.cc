@@ -281,11 +281,6 @@ num_updates
 =
 0
 ;
-int
-num_reset
-=
-0
-;
 while
 (
 fread
@@ -327,10 +322,6 @@ TestClean
 num_updates
 =
 0
-;
-num_reset
-+
-+
 ;
 if
 (

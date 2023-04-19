@@ -96,11 +96,6 @@ blockcount
 =
 0
 ;
-int
-packetlosscount
-=
-0
-;
 size_t
 frameLen
 len
@@ -1257,10 +1252,6 @@ int16_t
 *
 ILBCNOOFWORDS_MAX
 )
-;
-packetlosscount
-+
-+
 ;
 }
 }
