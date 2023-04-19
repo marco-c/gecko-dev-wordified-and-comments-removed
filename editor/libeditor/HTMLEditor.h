@@ -1714,6 +1714,12 @@ IsInDesignMode
 const
 ;
 bool
+EntireDocumentIsEditable
+(
+)
+const
+;
+bool
 IsTabbable
 (
 )
