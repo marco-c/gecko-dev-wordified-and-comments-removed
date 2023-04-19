@@ -1415,11 +1415,6 @@ pci_scan_bus
 pacc
 )
 ;
-int
-count
-=
-0
-;
 for
 (
 pci_dev
@@ -1475,10 +1470,6 @@ dev
 device_id
 )
 {
-+
-+
-count
-;
 record_value
 (
 "
