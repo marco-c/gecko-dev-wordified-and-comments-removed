@@ -630,6 +630,16 @@ this
 element
 .
 selectedIndex
+isDarkBackground
+:
+ChromeUtils
+.
+isDarkBackground
+(
+this
+.
+element
+)
 style
 :
 supportedStyles

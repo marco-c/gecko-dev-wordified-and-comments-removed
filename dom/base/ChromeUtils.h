@@ -1427,6 +1427,16 @@ ErrorResult
 aRv
 )
 ;
+static
+bool
+IsDarkBackground
+(
+GlobalObject
+&
+Element
+&
+)
+;
 }
 ;
 }
