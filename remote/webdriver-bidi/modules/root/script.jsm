@@ -247,8 +247,6 @@ options
 const
 {
 awaitPromise
-=
-true
 expression
 :
 source
