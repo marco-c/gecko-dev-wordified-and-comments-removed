@@ -1170,7 +1170,7 @@ greater
 data
 .
 sum
-15
+13
 *
 NANOS_IN_MILLIS
 -
