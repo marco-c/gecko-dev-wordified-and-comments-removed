@@ -666,13 +666,6 @@ EncodeCompleteCallback
 >
 CreateEncodeCompleteCallback
 (
-nsCOMPtr
-<
-nsIGlobalObject
->
-&
-&
-aGlobal
 Promise
 *
 aPromise
