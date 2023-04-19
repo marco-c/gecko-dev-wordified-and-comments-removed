@@ -812,11 +812,7 @@ MutableDatabaseManagerPtr
 GetFile
 (
 {
-aRequest
-.
-entryId
-(
-)
+mRootEntry
 aRequest
 .
 entryId
@@ -1082,11 +1078,7 @@ MutableDatabaseManagerPtr
 GetFile
 (
 {
-aRequest
-.
-entryId
-(
-)
+mRootEntry
 aRequest
 .
 entryId
