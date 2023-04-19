@@ -1029,10 +1029,8 @@ gfxFontFamily
 aFamilyArray
 )
 ;
-already_AddRefed
-<
 gfxFont
->
+*
 SystemFindFontForChar
 (
 nsPresContext
@@ -2990,10 +2988,8 @@ return
 nullptr
 ;
 }
-already_AddRefed
-<
 gfxFont
->
+*
 CommonFontFallback
 (
 nsPresContext
@@ -3020,10 +3016,8 @@ REQUIRES
 mLock
 )
 ;
-already_AddRefed
-<
 gfxFont
->
+*
 GlobalFontFallback
 (
 nsPresContext

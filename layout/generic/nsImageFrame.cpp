@@ -3303,11 +3303,8 @@ Style
 pc
 )
 ;
-RefPtr
-<
-gfxFont
->
-font
+auto
+emAU
 =
 fm
 -
@@ -3320,11 +3317,6 @@ GetThebesFontGroup
 GetFirstValidFont
 (
 )
-;
-auto
-emAU
-=
-font
 -
 >
 GetMetrics

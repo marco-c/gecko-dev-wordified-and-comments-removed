@@ -2073,10 +2073,8 @@ GetThebesFontGroup
 (
 )
 ;
-RefPtr
-<
 gfxFont
->
+*
 font
 =
 fontGroup
@@ -2816,10 +2814,8 @@ GetThebesFontGroup
 (
 )
 ;
-RefPtr
-<
 gfxFont
->
+*
 font
 =
 fontGroup
