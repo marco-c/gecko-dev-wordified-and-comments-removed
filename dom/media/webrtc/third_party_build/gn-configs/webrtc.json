@@ -969,16 +969,5 @@ rtp_video_stream_receiver2
 .
 cc
 "
-"
-third_party
-/
-libwebrtc
-/
-video
-/
-video_receive_stream
-.
-cc
-"
 ]
 }
