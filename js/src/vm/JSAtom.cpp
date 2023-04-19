@@ -270,7 +270,7 @@ CharT
 >
 extern
 void
-InflateUTF8CharsToBufferAndTerminate
+InflateUTF8CharsToBuffer
 (
 const
 JS
@@ -3366,7 +3366,7 @@ return
 nullptr
 ;
 }
-InflateUTF8CharsToBufferAndTerminate
+InflateUTF8CharsToBuffer
 (
 chars
 -
@@ -3406,8 +3406,6 @@ js
 :
 StringBufferArena
 length
-+
-1
 )
 )
 ;
@@ -3421,7 +3419,7 @@ return
 nullptr
 ;
 }
-InflateUTF8CharsToBufferAndTerminate
+InflateUTF8CharsToBuffer
 (
 chars
 -
