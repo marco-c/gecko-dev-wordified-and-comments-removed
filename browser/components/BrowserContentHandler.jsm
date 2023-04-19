@@ -351,12 +351,14 @@ PRIVATE_BROWSING_ICON_INDEX
 5
 ;
 const
-PRIVACY_SEGMENTATION_PREF
+PRIVATE_WINDOW_SEPARATION_PREF
 =
 "
 browser
 .
 privacySegmentation
+.
+windowSeparation
 .
 enabled
 "
@@ -1174,7 +1176,7 @@ prefs
 .
 getBoolPref
 (
-PRIVACY_SEGMENTATION_PREF
+PRIVATE_WINDOW_SEPARATION_PREF
 )
 )
 {
