@@ -89,6 +89,10 @@ Editor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -98,6 +102,8 @@ shared
 sourceeditor
 /
 editor
+.
+js
 "
 )
 ;
@@ -110,6 +116,10 @@ prettifyCSS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -119,6 +129,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 )
 ;
@@ -130,11 +142,17 @@ throttle
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 throttle
+.
+js
 "
 )
 ;
@@ -144,6 +162,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -151,6 +173,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;

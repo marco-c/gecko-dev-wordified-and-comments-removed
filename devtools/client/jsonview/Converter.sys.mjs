@@ -109,6 +109,10 @@ JsonViewService
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -118,6 +122,8 @@ jsonview
 converter
 -
 child
+.
+js
 "
 )
 ;

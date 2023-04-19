@@ -89,6 +89,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -96,6 +100,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -162,6 +168,10 @@ PluralForm
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -169,6 +179,8 @@ shared
 plural
 -
 form
+.
+js
 "
 )
 ;
@@ -180,6 +192,10 @@ PrefObserver
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -187,6 +203,8 @@ client
 shared
 /
 prefs
+.
+js
 "
 )
 ;
@@ -196,6 +214,10 @@ KeyShortcuts
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -205,6 +227,8 @@ shared
 key
 -
 shortcuts
+.
+js
 "
 )
 ;

@@ -9,6 +9,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -16,6 +20,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -27,11 +33,17 @@ ELLIPSIS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;
@@ -41,6 +53,10 @@ KeyShortcuts
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -50,6 +66,8 @@ shared
 key
 -
 shortcuts
+.
+js
 "
 )
 ;
@@ -61,6 +79,10 @@ parseItemValue
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -68,6 +90,8 @@ shared
 storage
 /
 utils
+.
+js
 "
 )
 ;
@@ -79,6 +103,10 @@ KeyCodes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -86,6 +114,8 @@ client
 shared
 /
 keycodes
+.
+js
 "
 )
 ;
@@ -97,6 +127,10 @@ getUnicodeHostname
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -106,6 +140,8 @@ shared
 unicode
 -
 url
+.
+js
 "
 )
 ;
@@ -115,6 +151,10 @@ getStorageTypeURL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -126,6 +166,8 @@ utils
 doc
 -
 utils
+.
+js
 "
 )
 ;
