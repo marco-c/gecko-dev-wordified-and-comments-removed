@@ -1388,11 +1388,6 @@ type
 "
 promise
 "
-"
-handle
-"
-:
-any_string
 }
 result
 )
@@ -1461,11 +1456,6 @@ type
 "
 promise
 "
-"
-handle
-"
-:
-any_string
 }
 result
 )

@@ -254,12 +254,6 @@ exception
 {
                 
 '
-handle
-'
-:
-any_string
-                
-'
 type
 '
 :
@@ -482,12 +476,6 @@ array
 "
         
 "
-handle
-"
-:
-any_string
-        
-"
 value
 "
 :
@@ -601,12 +589,6 @@ type
 "
 array
 "
-        
-"
-handle
-"
-:
-any_string
         
 "
 value
@@ -801,12 +783,6 @@ type
 '
 window
 '
-        
-"
-handle
-"
-:
-any_string
     
 }
 result
@@ -852,6 +828,12 @@ SOME_VALUE
 await_promise
 =
 False
+        
+result_ownership
+=
+"
+root
+"
         
 target
 =
@@ -1067,12 +1049,6 @@ type
 "
 promise
 "
-            
-"
-handle
-"
-:
-any_string
 }
             
 result
@@ -1189,12 +1165,6 @@ type
 "
 promise
 "
-            
-"
-handle
-"
-:
-any_string
 }
             
 result
