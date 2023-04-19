@@ -617,6 +617,13 @@ HwDecodedVideoZeroCopy
 bool
 false
 )
+\
+_
+(
+UseDMABufSurfaceExport
+bool
+true
+)
 class
 gfxVars
 final
