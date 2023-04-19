@@ -373,6 +373,9 @@ VideoFrame
 public
 NackSender
 public
+RtpVideoStreamReceiver2
+:
+:
 OnCompleteFrameCallback
 public
 Syncable

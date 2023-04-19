@@ -557,6 +557,9 @@ class
 MockOnCompleteFrameCallback
 :
 public
+RtpVideoStreamReceiver
+:
+:
 OnCompleteFrameCallback
 {
 public
