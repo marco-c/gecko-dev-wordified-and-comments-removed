@@ -144,11 +144,6 @@ None
         
 return
 result
-[
-"
-context
-"
-]
     
 command
     

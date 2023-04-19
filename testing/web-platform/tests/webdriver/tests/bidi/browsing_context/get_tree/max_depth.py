@@ -58,8 +58,6 @@ test_null
     
 bidi_session
     
-current_session
-    
 top_context
     
 test_page
@@ -99,9 +97,12 @@ complete
     
 top_level_context_id
 =
-current_session
-.
-window_handle
+top_context
+[
+"
+context
+"
+]
     
 contexts
 =
@@ -284,7 +285,6 @@ def
 test_top_level_only
 (
 bidi_session
-current_session
 top_context
 test_page_nested_frames
 )
@@ -319,9 +319,12 @@ complete
     
 top_level_context_id
 =
-current_session
-.
-window_handle
+top_context
+[
+"
+context
+"
+]
     
 contexts
 =
@@ -386,8 +389,6 @@ test_top_level_and_one_child
     
 bidi_session
     
-current_session
-    
 top_context
     
 test_page_nested_frames
@@ -425,9 +426,12 @@ complete
     
 top_level_context_id
 =
-current_session
-.
-window_handle
+top_context
+[
+"
+context
+"
+]
     
 contexts
 =

@@ -34,7 +34,7 @@ type_hint
 )
 :
     
-top_level_context_id
+top_level_context
 =
 await
 bidi_session
@@ -79,7 +79,12 @@ close
 (
 context
 =
-top_level_context_id
+top_level_context
+[
+"
+context
+"
+]
 )
     
 contexts
@@ -114,4 +119,9 @@ context
 ]
 !
 =
-top_level_context_id
+top_level_context
+[
+"
+context
+"
+]

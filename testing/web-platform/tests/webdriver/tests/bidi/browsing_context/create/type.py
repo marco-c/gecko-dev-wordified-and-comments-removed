@@ -5,6 +5,16 @@ from
 .
 import
 assert_browsing_context
+from
+webdriver
+.
+bidi
+.
+modules
+.
+script
+import
+ContextTarget
 pytestmark
 =
 pytest
@@ -35,7 +45,6 @@ def
 test_type
 (
 bidi_session
-current_session
 value
 )
 :
@@ -63,7 +72,7 @@ contexts
 =
 1
     
-new_context_id
+new_context
 =
 await
 bidi_session
@@ -89,7 +98,12 @@ context
 ]
 !
 =
-new_context_id
+new_context
+[
+"
+context
+"
+]
     
 contexts
 =
@@ -129,7 +143,12 @@ max_depth
 0
 root
 =
-new_context_id
+new_context
+[
+"
+context
+"
+]
     
 )
     
@@ -141,7 +160,12 @@ contexts
 0
 ]
         
-new_context_id
+new_context
+[
+"
+context
+"
+]
         
 children
 =
@@ -165,51 +189,52 @@ blank
     
 )
     
-initial_window
+opener_protocol_value
 =
-current_session
+await
+bidi_session
 .
-window_handle
-    
-current_session
+script
 .
-window_handle
-=
-new_context_id
-    
-try
-:
-        
-opener
-=
-current_session
-.
-execute_script
+evaluate
 (
+        
+expression
+=
 "
-return
 !
 !
 window
 .
 opener
-;
 "
+        
+target
+=
+ContextTarget
+(
+new_context
+[
+"
+context
+"
+]
 )
         
+await_promise
+=
+False
+)
+    
 assert
-opener
+opener_protocol_value
+[
+"
+value
+"
+]
 is
 False
-    
-finally
-:
-        
-current_session
-.
-window_handle
-=
-initial_window
     
 await
 bidi_session
@@ -220,5 +245,10 @@ close
 (
 context
 =
-new_context_id
+new_context
+[
+"
+context
+"
+]
 )

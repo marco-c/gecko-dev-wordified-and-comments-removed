@@ -9,6 +9,16 @@ error
 import
 TimeoutException
 from
+webdriver
+.
+bidi
+.
+modules
+.
+script
+import
+ContextTarget
+from
 tests
 .
 support
@@ -40,7 +50,6 @@ def
 test_not_unsubscribed
 (
 bidi_session
-current_session
 )
 :
     
@@ -121,7 +130,7 @@ wait
 =
 AsyncPoll
 (
-current_session
+bidi_session
 timeout
 =
 0
@@ -220,7 +229,7 @@ wait_for_event
 CONTEXT_CREATED_EVENT
 )
     
-top_level_context_id
+top_level_context
 =
 await
 bidi_session
@@ -246,7 +255,12 @@ assert_browsing_context
         
 context_info
         
-top_level_context_id
+top_level_context
+[
+"
+context
+"
+]
         
 children
 =
@@ -269,10 +283,9 @@ async
 def
 test_evaluate_window_open_without_url
 (
-    
 bidi_session
-current_session
 wait_for_event
+top_context
 )
 :
     
@@ -311,10 +324,16 @@ wait_for_event
 CONTEXT_CREATED_EVENT
 )
     
-current_session
+await
+bidi_session
 .
-execute_script
+script
+.
+evaluate
 (
+        
+expression
+=
 "
 "
 "
@@ -327,6 +346,22 @@ open
 "
 "
 "
+        
+target
+=
+ContextTarget
+(
+top_context
+[
+"
+context
+"
+]
+)
+        
+await_promise
+=
+False
 )
     
 context_info
@@ -378,11 +413,10 @@ async
 def
 test_evaluate_window_open_with_url
 (
-    
 bidi_session
-current_session
 wait_for_event
 inline
+top_context
 )
 :
     
@@ -437,42 +471,50 @@ wait_for_event
 CONTEXT_CREATED_EVENT
 )
     
-current_session
+await
+bidi_session
 .
-execute_script
+script
+.
+evaluate
 (
         
-"
-"
-"
-        
-const
-url
+expression
 =
-arguments
-[
-0
-]
-;
-        
+f
+"
+"
+"
 window
 .
 open
 (
+"
+{
 url
+}
+"
 )
 ;
-    
 "
 "
 "
         
-args
+target
 =
+ContextTarget
+(
+top_context
 [
-url
+"
+context
+"
 ]
-    
+)
+        
+await_promise
+=
+False
 )
     
 context_info
@@ -510,9 +552,7 @@ async
 def
 test_navigate_creates_iframes
 (
-    
 bidi_session
-current_session
 top_context
 test_page_multiple_frames
 )
@@ -609,7 +649,7 @@ wait
 AsyncPoll
 (
         
-current_session
+bidi_session
 message
 =
 "
@@ -663,9 +703,12 @@ get_tree
 (
 root
 =
-current_session
-.
-window_handle
+top_context
+[
+"
+context
+"
+]
 )
     
 assert
@@ -813,9 +856,7 @@ async
 def
 test_navigate_creates_nested_iframes
 (
-    
 bidi_session
-current_session
 top_context
 test_page_nested_frames
 )
@@ -912,7 +953,7 @@ wait
 AsyncPoll
 (
         
-current_session
+bidi_session
 message
 =
 "
@@ -966,9 +1007,12 @@ get_tree
 (
 root
 =
-current_session
-.
-window_handle
+top_context
+[
+"
+context
+"
+]
 )
     
 assert
