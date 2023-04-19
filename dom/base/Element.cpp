@@ -5832,6 +5832,8 @@ GetPresShell
 )
 )
 {
+if
+(
 RefPtr
 <
 nsViewManager
@@ -5844,10 +5846,6 @@ presShell
 GetViewManager
 (
 )
-;
-if
-(
-viewManager
 )
 {
 viewManager
@@ -5855,7 +5853,6 @@ viewManager
 >
 FlushDelayedResize
 (
-false
 )
 ;
 }
