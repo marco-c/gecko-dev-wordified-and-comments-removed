@@ -149,6 +149,11 @@ timer
 :
 dcsctp_timer_unittests
 "
+"
+tx
+:
+dcsctp_tx_unittests
+"
 ]
 }
 }
