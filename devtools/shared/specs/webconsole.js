@@ -316,7 +316,7 @@ Option
 (
 0
 "
-string
+number
 "
 )
 topLevelAwaitRejected
