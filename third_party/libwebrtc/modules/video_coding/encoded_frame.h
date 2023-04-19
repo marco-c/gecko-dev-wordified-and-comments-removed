@@ -111,6 +111,16 @@ _renderTimeMs
 renderTimeMs
 ;
 }
+VideoPlayoutDelay
+PlayoutDelay
+(
+)
+const
+{
+return
+playout_delay_
+;
+}
 void
 SetPlayoutDelay
 (

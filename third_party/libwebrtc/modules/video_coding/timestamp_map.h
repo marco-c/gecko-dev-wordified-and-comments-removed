@@ -50,6 +50,12 @@ uint32_t
 timestamp
 )
 ;
+size_t
+Size
+(
+)
+const
+;
 private
 :
 struct
