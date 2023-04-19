@@ -2617,7 +2617,7 @@ PrincipalInfo
 aPrincipalInfo
 Endpoint
 <
-POriginPrivateFileSystemParent
+PFileSystemManagerParent
 >
 &
 &

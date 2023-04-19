@@ -1,7 +1,7 @@
 #
 include
 "
-OriginPrivateFileSystemParent
+FileSystemManagerParent
 .
 h
 "
@@ -102,10 +102,10 @@ mozilla
 :
 dom
 {
-OriginPrivateFileSystemParent
+FileSystemManagerParent
 :
 :
-OriginPrivateFileSystemParent
+FileSystemManagerParent
 (
 TaskQueue
 *
@@ -130,7 +130,7 @@ aRootEntry
 {
 }
 IPCResult
-OriginPrivateFileSystemParent
+FileSystemManagerParent
 :
 :
 RecvGetRootHandleMsg
@@ -159,7 +159,7 @@ IPC_OK
 ;
 }
 IPCResult
-OriginPrivateFileSystemParent
+FileSystemManagerParent
 :
 :
 RecvGetDirectoryHandleMsg
@@ -191,7 +191,7 @@ IPC_OK
 ;
 }
 IPCResult
-OriginPrivateFileSystemParent
+FileSystemManagerParent
 :
 :
 RecvGetFileHandleMsg
@@ -224,7 +224,7 @@ IPC_OK
 ;
 }
 IPCResult
-OriginPrivateFileSystemParent
+FileSystemManagerParent
 :
 :
 RecvGetFileMsg
@@ -257,7 +257,7 @@ IPC_OK
 ;
 }
 IPCResult
-OriginPrivateFileSystemParent
+FileSystemManagerParent
 :
 :
 RecvResolveMsg
@@ -290,7 +290,7 @@ IPC_OK
 ;
 }
 IPCResult
-OriginPrivateFileSystemParent
+FileSystemManagerParent
 :
 :
 RecvGetEntriesMsg
@@ -323,7 +323,7 @@ IPC_OK
 ;
 }
 IPCResult
-OriginPrivateFileSystemParent
+FileSystemManagerParent
 :
 :
 RecvRemoveEntryMsg
@@ -356,7 +356,7 @@ IPC_OK
 ;
 }
 IPCResult
-OriginPrivateFileSystemParent
+FileSystemManagerParent
 :
 :
 RecvCloseFile
@@ -384,7 +384,7 @@ IPC_OK
 ;
 }
 IPCResult
-OriginPrivateFileSystemParent
+FileSystemManagerParent
 :
 :
 RecvGetAccessHandle
@@ -417,7 +417,7 @@ IPC_OK
 ;
 }
 IPCResult
-OriginPrivateFileSystemParent
+FileSystemManagerParent
 :
 :
 RecvGetWritable
@@ -450,7 +450,7 @@ IPC_OK
 ;
 }
 IPCResult
-OriginPrivateFileSystemParent
+FileSystemManagerParent
 :
 :
 RecvNeedQuota
@@ -476,11 +476,11 @@ IPC_OK
 )
 ;
 }
-OriginPrivateFileSystemParent
+FileSystemManagerParent
 :
 :
 ~
-OriginPrivateFileSystemParent
+FileSystemManagerParent
 (
 )
 {
@@ -489,8 +489,7 @@ LOG
 (
 "
 Destroying
-OPFS
-Parent
+FileSystemManagerParent
 %
 p
 "

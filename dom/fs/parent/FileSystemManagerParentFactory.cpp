@@ -21,7 +21,7 @@ mozilla
 /
 dom
 /
-FileSystemTypes
+FileSystemManagerParent
 .
 h
 "
@@ -32,7 +32,7 @@ mozilla
 /
 dom
 /
-OriginPrivateFileSystemParent
+FileSystemTypes
 .
 h
 "
@@ -270,7 +270,7 @@ ipc
 :
 Endpoint
 <
-POriginPrivateFileSystemParent
+PFileSystemManagerParent
 >
 &
 &
@@ -549,12 +549,12 @@ mutable
 {
 RefPtr
 <
-OriginPrivateFileSystemParent
+FileSystemManagerParent
 >
 parent
 =
 new
-OriginPrivateFileSystemParent
+FileSystemManagerParent
 (
 taskqueue
 rootId

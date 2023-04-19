@@ -134,7 +134,7 @@ PEndpointForReport
 ;
 include
 protocol
-POriginPrivateFileSystem
+PFileSystemManager
 ;
 include
 protocol
@@ -851,7 +851,7 @@ setup
 of
 a
 new
-POriginPrivateFileSystem
+PFileSystemManager
 top
 level
 protocol
@@ -865,7 +865,7 @@ PrincipalInfo
 principalInfo
 Endpoint
 <
-POriginPrivateFileSystemParent
+PFileSystemManagerParent
 >
 aParentEndpoint
 )

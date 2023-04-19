@@ -427,7 +427,7 @@ promise
 const
 RefPtr
 <
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 >
 &
 child

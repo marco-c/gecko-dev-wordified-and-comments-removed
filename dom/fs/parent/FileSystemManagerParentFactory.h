@@ -40,7 +40,7 @@ namespace
 dom
 {
 class
-POriginPrivateFileSystemParent
+PFileSystemManagerParent
 ;
 mozilla
 :
@@ -75,7 +75,7 @@ mozilla
 dom
 :
 :
-POriginPrivateFileSystemParent
+PFileSystemManagerParent
 >
 &
 &

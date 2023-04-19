@@ -5,7 +5,7 @@ mozilla
 /
 dom
 /
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 .
 h
 "
@@ -37,7 +37,7 @@ ipc
 :
 ToplevelActorHolder
 <
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 >
 ;
 }

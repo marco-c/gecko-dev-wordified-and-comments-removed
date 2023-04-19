@@ -44,7 +44,7 @@ namespace
 dom
 {
 class
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 ;
 namespace
 fs
@@ -80,7 +80,7 @@ MozPromise
 <
 RefPtr
 <
-OriginPrivateFileSystemChild
+FileSystemManagerChild
 >
 nsresult
 false
