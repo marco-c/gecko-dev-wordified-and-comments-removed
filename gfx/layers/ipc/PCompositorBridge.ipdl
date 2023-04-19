@@ -531,13 +531,6 @@ PWebRenderBridge
 ;
 child
 :
-async
-InvalidateLayers
-(
-LayersId
-layersId
-)
-;
 [
 Priority
 =
