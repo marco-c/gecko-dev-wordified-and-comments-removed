@@ -745,10 +745,6 @@ mutex_
 )
 ;
 const
-bool
-add_rtt_to_playout_delay_
-;
-const
 absl
 :
 :
