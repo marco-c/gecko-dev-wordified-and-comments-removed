@@ -3935,7 +3935,7 @@ inner_handler
 ;
 }
 class
-AsyncInvokeTest
+DEPRECATED_AsyncInvokeTest
 :
 public
 :
@@ -3992,7 +3992,7 @@ kWaitTimeout
 1000
 }
 ;
-AsyncInvokeTest
+DEPRECATED_AsyncInvokeTest
 (
 )
 :
@@ -4017,7 +4017,7 @@ expected_thread_
 ;
 TEST_F
 (
-AsyncInvokeTest
+DEPRECATED_AsyncInvokeTest
 FireAndForget
 )
 {
@@ -4084,7 +4084,7 @@ Stop
 }
 TEST_F
 (
-AsyncInvokeTest
+DEPRECATED_AsyncInvokeTest
 NonCopyableFunctor
 )
 {
@@ -4151,7 +4151,7 @@ Stop
 }
 TEST_F
 (
-AsyncInvokeTest
+DEPRECATED_AsyncInvokeTest
 KillInvokerDuringExecute
 )
 {
@@ -4300,7 +4300,7 @@ kForever
 }
 TEST_F
 (
-AsyncInvokeTest
+DEPRECATED_AsyncInvokeTest
 KillInvokerDuringExecuteWithReentrantInvoke
 )
 {
@@ -4438,7 +4438,7 @@ reentrant_functor_run
 }
 TEST_F
 (
-AsyncInvokeTest
+DEPRECATED_AsyncInvokeTest
 Flush
 )
 {
@@ -4544,7 +4544,7 @@ get
 }
 TEST_F
 (
-AsyncInvokeTest
+DEPRECATED_AsyncInvokeTest
 FlushWithIds
 )
 {
