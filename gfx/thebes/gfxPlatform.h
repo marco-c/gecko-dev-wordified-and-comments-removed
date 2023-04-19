@@ -1558,8 +1558,8 @@ virtual
 bool
 IsFontFormatSupported
 (
-uint32_t
-aFormatFlags
+uint8_t
+aFormatHint
 )
 ;
 virtual
