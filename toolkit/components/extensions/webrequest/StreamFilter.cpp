@@ -95,6 +95,17 @@ include
 "
 mozilla
 /
+dom
+/
+RootedDictionary
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 Endpoint
