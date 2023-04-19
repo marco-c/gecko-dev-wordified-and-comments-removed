@@ -204,11 +204,6 @@ loader
 :
 ScriptFetchOptions
 ;
-WorkerPrivate
-*
-const
-mWorkerPrivate
-;
 RefPtr
 <
 ThreadSafeWorkerRef
@@ -528,12 +523,6 @@ aRequest
 void
 ShutdownScriptLoader
 (
-JSContext
-*
-aCx
-WorkerPrivate
-*
-aWorkerPrivate
 bool
 aResult
 bool
