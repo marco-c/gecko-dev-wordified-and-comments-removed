@@ -41,6 +41,7 @@ nsAString
 &
 aAttrValue
 )
+const
 {
 if
 (
