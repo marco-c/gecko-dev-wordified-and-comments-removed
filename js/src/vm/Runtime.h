@@ -595,14 +595,6 @@ AutoAssertNoContentJS
 class
 EnterDebuggeeNoExecute
 ;
-#
-ifdef
-JS_TRACE_LOGGING
-class
-TraceLoggerThread
-;
-#
-endif
 }
 struct
 DtoaState
