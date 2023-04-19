@@ -5337,14 +5337,14 @@ let
 expectedDigest
 =
 await
-IOUtils
+ProductAddonCheckerTestUtils
 .
-computeHexDigest
+computeHash
 (
+hashFunc
 zipFile
 .
 path
-hashFunc
 )
 ;
 let
