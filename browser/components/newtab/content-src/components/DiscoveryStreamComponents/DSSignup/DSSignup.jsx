@@ -418,7 +418,7 @@ dispatch
 (
 ac
 .
-UserEvent
+DiscoveryStreamUserEvent
 (
 {
 event
@@ -567,7 +567,7 @@ const
 {
 title
 url
-context
+excerpt
 flight_id
 id
 shim
@@ -737,7 +737,7 @@ url
 }
 >
 {
-context
+excerpt
 }
 <
 /
@@ -857,6 +857,13 @@ shouldSendImpressionStats
 =
 {
 true
+}
+userEvent
+=
+{
+ac
+.
+DiscoveryStreamUserEvent
 }
 site
 =

@@ -951,7 +951,7 @@ calledWith
 dispatch
 ac
 .
-UserEvent
+DiscoveryStreamUserEvent
 (
 {
 event
@@ -1089,7 +1089,7 @@ calledWith
 dispatch
 ac
 .
-UserEvent
+DiscoveryStreamUserEvent
 (
 {
 event
@@ -1233,7 +1233,7 @@ calledWith
 dispatch
 ac
 .
-UserEvent
+DiscoveryStreamUserEvent
 (
 {
 event
@@ -2058,7 +2058,7 @@ calledWith
 dispatch
 ac
 .
-UserEvent
+DiscoveryStreamUserEvent
 (
 {
 event

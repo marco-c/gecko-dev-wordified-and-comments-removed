@@ -179,6 +179,11 @@ source
 isPrivateBrowsingEnabled
 siteInfo
 platform
+userEvent
+=
+ac
+.
+UserEvent
 }
 =
 props
@@ -253,6 +258,8 @@ impression
 id
 type
 userEvent
+:
+eventName
 }
 =
 option
@@ -357,7 +364,7 @@ action
 ;
 if
 (
-userEvent
+eventName
 )
 {
 const
@@ -370,7 +377,7 @@ assign
 {
 event
 :
-userEvent
+eventName
 source
 action_position
 :
@@ -383,9 +390,7 @@ props
 .
 dispatch
 (
-ac
-.
-UserEvent
+userEvent
 (
 userEventData
 )

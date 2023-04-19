@@ -634,7 +634,7 @@ calledWith
 third
 ac
 .
-UserEvent
+DiscoveryStreamUserEvent
 (
 {
 event
@@ -881,7 +881,7 @@ calledWith
 third
 ac
 .
-UserEvent
+DiscoveryStreamUserEvent
 (
 {
 event
@@ -1129,7 +1129,7 @@ calledWith
 third
 ac
 .
-UserEvent
+DiscoveryStreamUserEvent
 (
 {
 event

@@ -292,7 +292,7 @@ dispatch
 (
 ac
 .
-UserEvent
+DiscoveryStreamUserEvent
 (
 {
 event
@@ -511,7 +511,7 @@ dispatch
 (
 ac
 .
-UserEvent
+DiscoveryStreamUserEvent
 (
 {
 event

@@ -1662,7 +1662,7 @@ calledWith
 dispatch
 ac
 .
-UserEvent
+DiscoveryStreamUserEvent
 (
 {
 event
