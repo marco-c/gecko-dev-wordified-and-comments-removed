@@ -675,11 +675,6 @@ use_weighted_psnr
 false
 ;
 bool
-heavy_metrics_computation_enabled
-=
-true
-;
-bool
 adjust_cropping_before_comparing_frames
 =
 false

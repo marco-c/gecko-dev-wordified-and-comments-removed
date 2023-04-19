@@ -2505,11 +2505,6 @@ if
 (
 options_
 .
-heavy_metrics_computation_enabled
-|
-|
-options_
-.
 compute_psnr
 |
 |
