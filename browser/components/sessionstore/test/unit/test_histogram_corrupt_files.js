@@ -17,9 +17,6 @@ HistogramId
 FX_SESSION_RESTORE_ALL_FILES_CORRUPT
 "
 ;
-var
-profd
-=
 do_get_profile
 (
 )
