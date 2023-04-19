@@ -3096,6 +3096,15 @@ f
 readlines
 (
 )
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
   
 current_rev
 =
