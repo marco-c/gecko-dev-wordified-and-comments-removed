@@ -3484,7 +3484,7 @@ Invalid
 cookieStoreId
 /
 "
-contentScript
+contentScripts
 .
 register
 with
@@ -3551,7 +3551,7 @@ Invalid
 cookieStoreId
 /
 "
-contentScript
+contentScripts
 .
 register
 with
@@ -3634,7 +3634,7 @@ Invalid
 cookieStoreId
 /
 "
-contentScript
+contentScripts
 .
 register
 with
