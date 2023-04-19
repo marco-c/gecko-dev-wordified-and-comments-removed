@@ -175,10 +175,12 @@ t
 >
 {
 return
-promise_rejects_exactly
+promise_rejects_dom
 (
 t
-undefined
+"
+NotAllowedError
+"
 document
 .
 requestStorageAccess
@@ -214,6 +216,9 @@ requestStorageAccess
 should
 be
 rejected
+with
+a
+NotAllowedError
 by
 default
 with
