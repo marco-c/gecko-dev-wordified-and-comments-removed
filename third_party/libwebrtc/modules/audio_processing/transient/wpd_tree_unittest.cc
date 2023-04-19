@@ -558,10 +558,6 @@ FileWrapper
 OpenReadOnly
 (
 matlab_string
-.
-c_str
-(
-)
 )
 ;
 bool
@@ -649,10 +645,6 @@ FileWrapper
 OpenWriteOnly
 (
 out_string
-.
-c_str
-(
-)
 )
 ;
 file_opened
@@ -725,10 +717,6 @@ FileWrapper
 OpenReadOnly
 (
 test_file_name
-.
-c_str
-(
-)
 )
 ;
 bool

@@ -120,10 +120,6 @@ FileWrapper
 OpenReadOnly
 (
 filename
-.
-c_str
-(
-)
 )
 ;
 RTC_CHECK

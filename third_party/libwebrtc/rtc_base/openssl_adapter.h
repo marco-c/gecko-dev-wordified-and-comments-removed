@@ -297,9 +297,10 @@ override
 int
 StartSSL
 (
-const
-char
-*
+absl
+:
+:
+string_view
 hostname
 )
 override
@@ -498,9 +499,10 @@ ContinueSSL
 void
 Error
 (
-const
-char
-*
+absl
+:
+:
+string_view
 context
 int
 err

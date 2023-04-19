@@ -862,10 +862,6 @@ FileWrapper
 OpenWriteOnly
 (
 _outputFilename
-.
-c_str
-(
-)
 )
 ;
 if
@@ -1134,10 +1130,6 @@ FileWrapper
 OpenReadOnly
 (
 _inputFilename
-.
-c_str
-(
-)
 )
 ;
 if

@@ -1594,10 +1594,6 @@ FileWrapper
 OpenWriteOnly
 (
 file_name
-.
-c_str
-(
-)
 )
 max_log_size_bytes
 worker_queue

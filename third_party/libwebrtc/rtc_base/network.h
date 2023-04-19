@@ -265,9 +265,10 @@ RTC_EXPORT
 AdapterType
 GetAdapterTypeFromName
 (
-const
-char
-*
+absl
+:
+:
+string_view
 network_name
 )
 ;
