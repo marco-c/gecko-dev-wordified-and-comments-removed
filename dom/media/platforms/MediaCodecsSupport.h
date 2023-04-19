@@ -429,11 +429,13 @@ aCodec
 ;
 static
 inline
-StaticAutoPtr
+UniquePtr
 <
 MCSInfo
 >
 sInstance
+=
+nullptr
 ;
 static
 inline
@@ -454,6 +456,8 @@ CodecDefinition
 >
 >
 mHashTableMCS
+=
+nullptr
 ;
 UniquePtr
 <
@@ -466,6 +470,8 @@ CodecDefinition
 >
 >
 mHashTableString
+=
+nullptr
 ;
 UniquePtr
 <
@@ -476,9 +482,13 @@ CodecDefinition
 >
 >
 mHashTableCodec
+=
+nullptr
 ;
 MediaCodecsSupported
 mSupport
+{
+}
 ;
 }
 ;
