@@ -8,7 +8,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-ClipboardReadTextPasteParent
+ClipboardReadPasteParent
 "
 ]
 ;
@@ -30,11 +30,11 @@ const
 kMenuPopupId
 =
 "
-clipboardReadTextPasteMenuPopup
+clipboardReadPasteMenuPopup
 "
 ;
 class
-ClipboardReadTextPasteParent
+ClipboardReadPasteParent
 extends
 JSWindowActorParent
 {
@@ -86,7 +86,7 @@ this
 sendAsyncMessage
 (
 "
-ClipboardReadTextPaste
+ClipboardReadPaste
 :
 PasteMenuItemClicked
 "
@@ -126,7 +126,7 @@ this
 sendAsyncMessage
 (
 "
-ClipboardReadTextPaste
+ClipboardReadPaste
 :
 PasteMenuItemDismissed
 "
@@ -151,7 +151,7 @@ name
 =
 =
 "
-ClipboardReadTextPaste
+ClipboardReadPaste
 :
 ShowMenupopup
 "
@@ -320,7 +320,7 @@ menuitem
 id
 =
 "
-clipboardReadTextPasteMenuItem
+clipboardReadPasteMenuItem
 "
 ;
 menuitem

@@ -249,7 +249,7 @@ aSubjectPrincipal
 )
 ;
 void
-CheckReadTextPermissionAndHandleRequest
+CheckReadPermissionAndHandleRequest
 (
 Promise
 &
@@ -262,7 +262,7 @@ aType
 )
 ;
 void
-HandleReadTextRequestWhichRequiresPasteButton
+HandleReadRequestWhichRequiresPasteButton
 (
 Promise
 &
@@ -293,12 +293,12 @@ Clipboard
 )
 ;
 class
-ReadTextRequest
+ReadRequest
 final
 {
 public
 :
-ReadTextRequest
+ReadRequest
 (
 Promise
 &
@@ -363,11 +363,11 @@ AutoTArray
 <
 UniquePtr
 <
-ReadTextRequest
+ReadRequest
 >
 1
 >
-mReadTextRequests
+mReadRequests
 ;
 class
 TransientUserPasteState

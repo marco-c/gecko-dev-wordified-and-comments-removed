@@ -7,14 +7,14 @@ const
 kPasteMenuPopupId
 =
 "
-clipboardReadTextPasteMenuPopup
+clipboardReadPasteMenuPopup
 "
 ;
 const
 kPasteMenuItemId
 =
 "
-clipboardReadTextPasteMenuItem
+clipboardReadPasteMenuItem
 "
 ;
 function

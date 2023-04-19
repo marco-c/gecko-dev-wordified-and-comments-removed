@@ -243,12 +243,12 @@ BrowserElementParent
 jsm
 "
 "
-ClipboardReadTextPasteChild
+ClipboardReadPasteChild
 .
 jsm
 "
 "
-ClipboardReadTextPasteParent
+ClipboardReadPasteParent
 .
 jsm
 "
