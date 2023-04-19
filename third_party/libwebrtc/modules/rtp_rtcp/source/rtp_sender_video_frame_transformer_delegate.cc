@@ -621,6 +621,10 @@ if
 (
 !
 sender_
+|
+|
+!
+encoder_queue_
 )
 return
 ;
