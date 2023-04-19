@@ -109,7 +109,7 @@ version
 .
 10
 .
-0
+1
 "
 authors
 =
@@ -128,6 +128,8 @@ com
 description
 =
 "
+"
+"
 Bindings
 to
 libcubeb
@@ -139,8 +141,8 @@ audio
 from
 rust
 .
-\
-n
+"
+"
 "
 homepage
 =
@@ -153,7 +155,7 @@ github
 .
 com
 /
-djg
+mozilla
 /
 cubeb
 -
@@ -198,7 +200,7 @@ github
 .
 com
 /
-djg
+mozilla
 /
 cubeb
 -
@@ -218,7 +220,7 @@ version
 .
 10
 .
-0
+1
 "
 [
 features
@@ -252,7 +254,7 @@ ci
 repository
 =
 "
-djg
+mozilla
 /
 cubeb
 -
