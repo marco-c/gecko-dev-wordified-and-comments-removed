@@ -218,6 +218,17 @@ rtc_base
 :
 checks
 "
+"
+.
+.
+/
+.
+.
+/
+video
+:
+render_resolution
+"
 ]
 absl_deps
 =
