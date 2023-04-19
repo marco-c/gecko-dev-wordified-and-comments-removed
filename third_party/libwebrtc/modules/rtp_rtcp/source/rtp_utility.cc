@@ -1627,6 +1627,13 @@ true
 break
 ;
 }
+#
+if
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 case
 kRtpExtensionCsrcAudioLevel
 :
@@ -1649,6 +1656,8 @@ supported
 return
 ;
 }
+#
+endif
 case
 kRtpExtensionAudioLevel
 :
@@ -2570,6 +2579,12 @@ parser
 ;
 break
 ;
+#
+if
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 case
 kRtpExtensionCsrcAudioLevel
 :
@@ -2674,6 +2689,8 @@ i
 break
 ;
 }
+#
+endif
 case
 kRtpExtensionNone
 :

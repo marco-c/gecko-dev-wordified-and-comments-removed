@@ -905,6 +905,12 @@ audio
 level
 "
 ;
+#
+if
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 static
 constexpr
 char
@@ -930,6 +936,8 @@ audio
 level
 "
 ;
+#
+endif
 static
 constexpr
 char
@@ -1436,6 +1444,13 @@ tracking
 id
 "
 ;
+#
+if
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 static
 constexpr
 char
@@ -1461,6 +1476,8 @@ audio
 level
 "
 ;
+#
+endif
 static
 constexpr
 int

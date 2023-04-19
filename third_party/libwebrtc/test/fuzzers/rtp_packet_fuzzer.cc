@@ -358,6 +358,13 @@ audio_level
 ;
 break
 ;
+#
+if
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 case
 kRtpExtensionCsrcAudioLevel
 :
@@ -385,6 +392,8 @@ audio_levels
 break
 ;
 }
+#
+endif
 case
 kRtpExtensionAbsoluteSendTime
 :
@@ -742,6 +751,12 @@ kRtpExtensionGenericFrameDescriptor02
 :
 break
 ;
+#
+if
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 case
 kRtpExtensionCsrcAudioLevel
 :
@@ -763,6 +778,8 @@ levels
 break
 ;
 }
+#
+endif
 }
 }
 packet

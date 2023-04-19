@@ -259,12 +259,6 @@ VideoFrameTrackingIdExtension
 >
 (
 )
-CreateExtensionInfo
-<
-CsrcAudioLevel
->
-(
-)
 }
 ;
 static_assert

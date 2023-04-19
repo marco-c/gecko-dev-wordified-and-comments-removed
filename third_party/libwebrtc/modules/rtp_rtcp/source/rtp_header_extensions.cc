@@ -648,6 +648,13 @@ return
 true
 ;
 }
+#
+if
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 constexpr
 RTPExtensionType
 CsrcAudioLevel
@@ -882,6 +889,8 @@ return
 true
 ;
 }
+#
+endif
 constexpr
 RTPExtensionType
 TransmissionOffset
@@ -1897,6 +1906,12 @@ return
 true
 ;
 }
+#
+if
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 constexpr
 RTPExtensionType
 CsrcAudioLevel
@@ -2090,6 +2105,8 @@ csrcAudioLevels
 numAudioLevels
 ;
 }
+#
+endif
 constexpr
 RTPExtensionType
 VideoContentTypeExtension

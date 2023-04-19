@@ -453,6 +453,13 @@ audio_level
 ;
 }
 ;
+#
+if
+!
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 class
 CsrcAudioLevel
 {
@@ -562,6 +569,8 @@ csrc_audio_levels
 ;
 }
 ;
+#
+endif
 class
 TransmissionOffset
 {
@@ -1725,6 +1734,12 @@ denominator
 ;
 }
 ;
+#
+if
+defined
+(
+WEBRTC_MOZILLA_BUILD
+)
 class
 CsrcAudioLevel
 {
@@ -1810,6 +1825,8 @@ csrcAudioLevels
 ;
 }
 ;
+#
+endif
 class
 BaseRtpStringExtension
 {
