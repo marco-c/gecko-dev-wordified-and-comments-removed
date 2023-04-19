@@ -4089,11 +4089,14 @@ continue
 bool
 wordBreakPrev
 =
-false
+true
 ;
 if
 (
 mEntireWord
+&
+&
+prevChar
 )
 {
 if
@@ -4373,6 +4376,9 @@ CHAR_TO_UNICHAR
 if
 (
 mEntireWord
+&
+&
+nextChar
 &
 &
 !
