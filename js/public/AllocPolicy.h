@@ -36,6 +36,9 @@ cx
 namespace
 js
 {
+class
+ErrorContext
+;
 enum
 class
 AllocFunction
@@ -465,6 +468,16 @@ ReportOutOfMemory
 JSContext
 *
 cx
+)
+;
+MOZ_COLD
+JS_PUBLIC_API
+void
+ReportOutOfMemory
+(
+ErrorContext
+*
+ec
 )
 ;
 class
