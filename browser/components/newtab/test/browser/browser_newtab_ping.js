@@ -262,7 +262,7 @@ record
 .
 extra
 .
-newtab_session_id
+newtab_visit_id
 ;
 Assert
 .
@@ -272,7 +272,7 @@ ok
 !
 sessionId
 "
-newtab_session_id
+newtab_visit_id
 must
 be
 present
@@ -351,7 +351,7 @@ record
 .
 extra
 .
-newtab_session_id
+newtab_visit_id
 sessionId
 "
 Should
@@ -579,7 +579,7 @@ record
 .
 extra
 .
-newtab_session_id
+newtab_visit_id
 ;
 Assert
 .
@@ -589,7 +589,7 @@ ok
 !
 sessionId
 "
-newtab_session_id
+newtab_visit_id
 must
 be
 present
@@ -668,7 +668,7 @@ record
 .
 extra
 .
-newtab_session_id
+newtab_visit_id
 sessionId
 "
 Should
@@ -899,7 +899,7 @@ record
 .
 extra
 .
-newtab_session_id
+newtab_visit_id
 ;
 Assert
 .
@@ -909,7 +909,7 @@ ok
 !
 sessionId
 "
-newtab_session_id
+newtab_visit_id
 must
 be
 present
