@@ -2326,15 +2326,6 @@ priority_enums
 "
 /
 /
-api
-/
-video
-:
-video_frame_enums
-"
-"
-/
-/
 rtc_base
 :
 network_monitor_enums
