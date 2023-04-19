@@ -138,6 +138,9 @@ OP_CMP_GbEb
 OP_CMP_GvEv
 =
 0x3B
+OP_CMP_EAXIb
+=
+0x3C
 OP_CMP_EAXIv
 =
 0x3D
