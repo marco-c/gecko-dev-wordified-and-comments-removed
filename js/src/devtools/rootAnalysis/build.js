@@ -42,11 +42,6 @@ xpcom
 glue
 js
 /
-ductwork
-/
-debugger
-js
-/
 xpconnect
 /
 loader

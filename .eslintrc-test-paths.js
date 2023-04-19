@@ -191,16 +191,6 @@ tests
 /
 "
 "
-js
-/
-ductwork
-/
-debugger
-/
-tests
-/
-"
-"
 memory
 /
 replace

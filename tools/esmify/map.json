@@ -25599,11 +25599,9 @@ jsm
 "
 :
 "
-js
+devtools
 /
-ductwork
-/
-debugger
+platform
 /
 jsdebugger
 .
