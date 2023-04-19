@@ -1502,7 +1502,7 @@ p
 >
 uc_mcontext
 .
-pc
+__pc
 )
 #
 define
@@ -1518,14 +1518,14 @@ p
 >
 uc_mcontext
 .
-gregs
+__gregs
 [
 1
 ]
 )
 #
 define
-RSP_sig
+R03_sig
 (
 p
 )
@@ -1537,7 +1537,7 @@ p
 >
 uc_mcontext
 .
-gregs
+__gregs
 [
 3
 ]
@@ -1556,7 +1556,7 @@ p
 >
 uc_mcontext
 .
-gregs
+__gregs
 [
 22
 ]
@@ -3477,7 +3477,7 @@ SP_sig
 (
 p
 )
-RSP_sig
+R03_sig
 (
 p
 )
