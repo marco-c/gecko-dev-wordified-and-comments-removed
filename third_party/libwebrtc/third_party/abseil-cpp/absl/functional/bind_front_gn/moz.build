@@ -247,7 +247,7 @@ ANDROID_NDK_VERSION_ROLL
 ]
 =
 "
-r20_1
+r22_1
 "
 DEFINES
 [
@@ -400,6 +400,16 @@ DEFINES
 [
 "
 USE_GLIB
+"
+]
+=
+"
+1
+"
+DEFINES
+[
+"
+USE_OZONE
 "
 ]
 =

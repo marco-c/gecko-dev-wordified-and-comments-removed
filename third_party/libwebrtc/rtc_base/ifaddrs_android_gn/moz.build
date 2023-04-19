@@ -121,7 +121,7 @@ ANDROID_NDK_VERSION_ROLL
 ]
 =
 "
-r20_1
+r22_1
 "
 DEFINES
 [
@@ -489,15 +489,6 @@ CPU_ARCH
 x86
 "
 :
-CXXFLAGS
-+
-=
-[
-"
--
-msse2
-"
-]
 OS_LIBS
 +
 =
