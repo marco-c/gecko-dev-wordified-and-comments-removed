@@ -2266,6 +2266,15 @@ true
 ;
 }
 }
+if
+(
+bytesConsumed
+!
+=
+-
+1
+)
+{
 packet
 .
 data
@@ -2285,6 +2294,7 @@ samplePosition
 =
 bytesConsumed
 ;
+}
 }
 return
 NS_OK
