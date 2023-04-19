@@ -27080,6 +27080,13 @@ GetPopupFrameForPoint
 aRootPresContext
 aRootWidget
 aPt
+nsLayoutUtils
+:
+:
+GetPopupFrameForPointFlags
+:
+:
+OnlyReturnFramesWithWidgets
 )
 ;
 return
