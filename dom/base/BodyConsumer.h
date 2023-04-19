@@ -120,6 +120,10 @@ const
 nsACString
 &
 aBodyMimeType
+const
+nsACString
+&
+aMixedCaseMimeType
 MutableBlobStorage
 :
 :
@@ -250,6 +254,10 @@ const
 nsACString
 &
 aBodyMimeType
+const
+nsACString
+&
+aMixedCaseMimeType
 MutableBlobStorage
 :
 :
@@ -304,6 +312,9 @@ mBlobStorageType
 ;
 nsCString
 mBodyMimeType
+;
+nsCString
+mMixedCaseMimeType
 ;
 nsCString
 mBodyBlobURISpec

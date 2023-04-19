@@ -3327,12 +3327,16 @@ break
 nsAutoCString
 mimeType
 ;
+nsAutoCString
+mixedCaseMimeType
+;
 response
 -
 >
 GetMimeType
 (
 mimeType
+mixedCaseMimeType
 )
 ;
 if

@@ -1072,6 +1072,10 @@ const
 nsACString
 &
 aBodyMimeType
+const
+nsACString
+&
+aMixedCaseMimeType
 MutableBlobStorage
 :
 :
@@ -1137,6 +1141,7 @@ aType
 aBodyBlobURISpec
 aBodyLocalPath
 aBodyMimeType
+aMixedCaseMimeType
 aBlobStorageType
 )
 ;
@@ -1509,6 +1514,10 @@ const
 nsACString
 &
 aBodyMimeType
+const
+nsACString
+&
+aMixedCaseMimeType
 MutableBlobStorage
 :
 :
@@ -1537,6 +1546,10 @@ aBlobStorageType
 mBodyMimeType
 (
 aBodyMimeType
+)
+mMixedCaseMimeType
+(
+aMixedCaseMimeType
 )
 mBodyBlobURISpec
 (
@@ -2986,6 +2999,7 @@ ConsumeFormData
 (
 mGlobal
 mBodyMimeType
+mMixedCaseMimeType
 data
 error
 )
