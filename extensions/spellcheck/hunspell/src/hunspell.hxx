@@ -46,9 +46,14 @@ xml
 >
 "
 #
+ifndef
+MAXSUGGESTION
+#
 define
 MAXSUGGESTION
 15
+#
+endif
 #
 define
 MAXSHARPS
