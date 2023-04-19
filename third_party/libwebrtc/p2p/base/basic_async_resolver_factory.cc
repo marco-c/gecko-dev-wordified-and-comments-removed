@@ -14,7 +14,7 @@ include
 "
 rtc_base
 /
-net_helpers
+async_resolver
 .
 h
 "

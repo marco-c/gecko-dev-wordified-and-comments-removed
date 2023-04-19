@@ -258,6 +258,12 @@ rtc_base
 "
 .
 .
+:
+threading
+"
+"
+.
+.
 /
 synchronization
 :
