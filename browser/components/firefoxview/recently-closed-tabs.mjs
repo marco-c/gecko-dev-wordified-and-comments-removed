@@ -279,7 +279,7 @@ Localization
 (
 [
 "
-preview
+browser
 /
 firefoxView
 .

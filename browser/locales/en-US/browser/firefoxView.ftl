@@ -53,15 +53,6 @@ MPL
 0
 /
 .
--
-firefoxview
--
-brand
--
-name
-=
-Firefox
-View
 toolbar
 -
 button

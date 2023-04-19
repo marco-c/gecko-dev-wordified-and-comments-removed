@@ -275,7 +275,7 @@ Localization
 (
 [
 "
-preview
+browser
 /
 firefoxView
 .
