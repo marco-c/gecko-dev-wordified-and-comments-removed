@@ -3553,16 +3553,6 @@ libwebrtc
 /
 rtc_base
 /
-deprecation_gn
-"
-"
-/
-third_party
-/
-libwebrtc
-/
-rtc_base
-/
 divide_round_gn
 "
 "
