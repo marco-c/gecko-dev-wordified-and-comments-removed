@@ -2195,13 +2195,6 @@ LifoAlloc
 cpp
 "
 "
-ds
-/
-MemoryProtectionExceptionHandler
-.
-cpp
-"
-"
 jsapi
 .
 cpp
