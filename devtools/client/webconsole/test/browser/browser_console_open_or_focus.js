@@ -23,11 +23,17 @@ Tools
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
 /
 definitions
+.
+js
 "
 )
 ;

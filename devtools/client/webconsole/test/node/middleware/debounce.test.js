@@ -21,6 +21,10 @@ debounceActions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -32,6 +36,8 @@ redux
 middleware
 /
 debounce
+.
+js
 "
 )
 ;

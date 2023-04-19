@@ -83,6 +83,10 @@ getHistoryEntries
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -92,6 +96,8 @@ webconsole
 selectors
 /
 history
+.
+js
 "
 )
 ;

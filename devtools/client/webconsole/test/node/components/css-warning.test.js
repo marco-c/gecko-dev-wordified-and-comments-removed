@@ -44,6 +44,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -53,6 +57,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -81,6 +87,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -92,6 +102,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -101,6 +113,10 @@ CSSWarning
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -116,6 +132,8 @@ message
 types
 /
 CSSWarning
+.
+js
 "
 )
 ;
@@ -128,6 +146,10 @@ MESSAGE_CLOSE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -135,6 +157,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -146,6 +170,10 @@ stubPreparedMessages
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -161,6 +189,8 @@ fixtures
 stubs
 /
 index
+.
+js
 "
 )
 ;
@@ -170,6 +200,10 @@ serviceContainer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -183,6 +217,8 @@ node
 fixtures
 /
 serviceContainer
+.
+js
 "
 )
 ;
@@ -255,6 +291,10 @@ timestampString
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -264,6 +304,8 @@ webconsole
 utils
 /
 l10n
+.
+js
 "
 )
 ;

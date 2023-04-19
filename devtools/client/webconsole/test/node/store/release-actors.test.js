@@ -13,6 +13,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -24,6 +28,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -35,6 +41,10 @@ stubPackets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -50,6 +60,8 @@ fixtures
 stubs
 /
 index
+.
+js
 "
 )
 ;

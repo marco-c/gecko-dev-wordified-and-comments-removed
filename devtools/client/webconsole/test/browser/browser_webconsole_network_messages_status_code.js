@@ -86,6 +86,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -95,6 +99,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 )
 ;

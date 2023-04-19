@@ -11,6 +11,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -49,6 +61,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -62,6 +78,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -71,6 +89,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +102,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -91,6 +115,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +128,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 )
 ;
@@ -111,6 +141,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +156,8 @@ components
 menu
 /
 MenuButton
+.
+js
 "
 )
 )
@@ -144,6 +180,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -155,6 +195,8 @@ components
 menu
 /
 MenuItem
+.
+js
 "
 )
 )
@@ -180,6 +222,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -191,6 +237,8 @@ components
 menu
 /
 MenuList
+.
+js
 "
 )
 )

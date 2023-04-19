@@ -11,6 +11,10 @@ CommandsFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -20,6 +24,8 @@ commands
 commands
 -
 factory
+.
+js
 "
 )
 ;

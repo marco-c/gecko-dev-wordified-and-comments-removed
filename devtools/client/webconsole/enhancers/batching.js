@@ -11,6 +11,10 @@ BATCH_ACTIONS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ redux
 middleware
 /
 debounce
+.
+js
 "
 )
 ;

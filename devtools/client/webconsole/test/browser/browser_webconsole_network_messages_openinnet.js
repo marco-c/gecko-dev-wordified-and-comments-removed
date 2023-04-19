@@ -593,6 +593,10 @@ getSortedRequests
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -604,6 +608,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;

@@ -9,6 +9,10 @@ reduxActions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ configureStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -36,6 +46,8 @@ client
 webconsole
 /
 store
+.
+js
 "
 )
 ;
@@ -47,6 +59,10 @@ IdGenerator
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -58,6 +74,8 @@ utils
 id
 -
 generator
+.
+js
 "
 )
 ;
@@ -69,6 +87,10 @@ stubPackets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -84,6 +106,8 @@ fixtures
 stubs
 /
 index
+.
+js
 "
 )
 ;
@@ -95,6 +119,10 @@ getMutableMessagesById
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -104,6 +132,8 @@ webconsole
 selectors
 /
 messages
+.
+js
 "
 )
 ;
@@ -115,6 +145,10 @@ getPrefsService
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -124,6 +158,8 @@ webconsole
 utils
 /
 prefs
+.
+js
 "
 )
 ;
@@ -144,6 +180,10 @@ PREFS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -151,6 +191,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -160,6 +202,10 @@ Telemetry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -167,6 +213,8 @@ client
 shared
 /
 telemetry
+.
+js
 "
 )
 ;
@@ -179,6 +227,10 @@ parsePacketAndCreateFronts
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -194,6 +246,8 @@ stub
 generator
 -
 helpers
+.
+js
 "
 )
 ;

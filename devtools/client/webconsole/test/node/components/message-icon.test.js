@@ -11,6 +11,10 @@ MESSAGE_LEVEL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -51,6 +57,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -60,6 +70,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -71,6 +83,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +98,8 @@ components
 Output
 /
 MessageIcon
+.
+js
 "
 )
 )

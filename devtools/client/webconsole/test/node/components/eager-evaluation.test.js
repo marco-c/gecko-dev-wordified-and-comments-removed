@@ -33,6 +33,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -42,6 +46,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -70,6 +76,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +91,8 @@ components
 Input
 /
 EagerEvaluation
+.
+js
 "
 )
 )
@@ -93,6 +105,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -104,6 +120,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -115,6 +133,10 @@ SET_TERMINAL_EAGER_RESULT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +144,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -133,6 +157,10 @@ stubPackets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -148,6 +176,8 @@ fixtures
 stubs
 /
 index
+.
+js
 "
 )
 ;

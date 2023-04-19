@@ -13,6 +13,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ constants
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -38,6 +48,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -169,6 +181,10 @@ UPDATE_REQUEST
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -178,6 +194,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -189,6 +207,10 @@ processNetworkUpdates
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -202,6 +224,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;

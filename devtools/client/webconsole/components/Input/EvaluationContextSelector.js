@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -76,6 +94,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +109,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -96,6 +120,10 @@ targetActions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -107,6 +135,8 @@ target
 actions
 /
 targets
+.
+js
 "
 )
 ;
@@ -116,6 +146,10 @@ webconsoleActions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -125,6 +159,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -136,6 +172,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -145,6 +185,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 )
 ;
@@ -154,6 +196,10 @@ targetSelectors
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -165,6 +211,8 @@ target
 selectors
 /
 targets
+.
+js
 "
 )
 ;
@@ -184,6 +232,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -195,6 +247,8 @@ target
 target
 -
 command
+.
+js
 "
 )
 .
@@ -211,6 +265,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -222,6 +280,8 @@ components
 menu
 /
 MenuButton
+.
+js
 "
 )
 )
@@ -244,6 +304,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -255,6 +319,8 @@ components
 menu
 /
 MenuItem
+.
+js
 "
 )
 )
@@ -280,6 +346,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -291,6 +361,8 @@ components
 menu
 /
 MenuList
+.
+js
 "
 )
 )

@@ -12,6 +12,10 @@ getNaturalOrder
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ IdGenerator
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ utils
 id
 -
 generator
+.
+js
 "
 )
 ;
@@ -54,6 +66,10 @@ batchActions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ redux
 middleware
 /
 debounce
+.
+js
 "
 )
 ;
@@ -87,6 +105,10 @@ TARGET_MESSAGES_REMOVE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -94,6 +116,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;

@@ -47,6 +47,10 @@ INDENT_WIDTH
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -58,6 +62,8 @@ components
 Output
 /
 MessageIndent
+.
+js
 "
 )
 ;

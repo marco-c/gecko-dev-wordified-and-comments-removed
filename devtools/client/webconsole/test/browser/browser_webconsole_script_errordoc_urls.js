@@ -9,6 +9,10 @@ ErrorDocs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -16,6 +20,8 @@ server
 actors
 /
 errordocs
+.
+js
 "
 )
 ;

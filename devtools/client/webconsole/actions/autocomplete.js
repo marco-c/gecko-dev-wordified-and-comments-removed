@@ -14,6 +14,10 @@ AUTOCOMPLETE_RETRIEVE_FROM_CACHE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ shouldInputBeAutocompleted
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -44,6 +54,8 @@ analyze
 input
 -
 string
+.
+js
 "
 )
 ;

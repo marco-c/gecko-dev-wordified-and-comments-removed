@@ -9,6 +9,10 @@ Menu
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -16,6 +20,8 @@ client
 framework
 /
 menu
+.
+js
 "
 )
 ;
@@ -25,6 +31,10 @@ MenuItem
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -34,6 +44,8 @@ framework
 menu
 -
 item
+.
+js
 "
 )
 ;
@@ -45,6 +57,10 @@ MESSAGE_SOURCE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -52,6 +68,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -61,6 +79,10 @@ clipboardHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -68,6 +90,8 @@ shared
 platform
 /
 clipboard
+.
+js
 "
 )
 ;
@@ -79,6 +103,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -88,6 +116,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 )
 ;
@@ -97,6 +127,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -106,6 +140,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -1798,6 +1834,10 @@ ReactDOM
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1809,6 +1849,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -1821,6 +1863,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1830,6 +1876,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -1841,6 +1889,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1852,6 +1904,8 @@ components
 Output
 /
 ConsoleOutput
+.
+js
 "
 )
 )
@@ -1865,6 +1919,10 @@ createProvider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -1876,6 +1934,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;

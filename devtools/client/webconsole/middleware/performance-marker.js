@@ -11,6 +11,10 @@ MESSAGES_ADD
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ createPerformanceMarkerMiddleware
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -42,6 +52,8 @@ middleware
 performance
 -
 marker
+.
+js
 "
 )
 ;

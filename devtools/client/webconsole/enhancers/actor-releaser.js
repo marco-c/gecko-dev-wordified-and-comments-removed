@@ -14,6 +14,10 @@ FRONTS_TO_RELEASE_CLEAR
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;

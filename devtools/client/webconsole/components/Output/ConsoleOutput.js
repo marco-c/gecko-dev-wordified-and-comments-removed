@@ -13,6 +13,10 @@ createRef
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -44,6 +54,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -55,6 +67,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -68,6 +84,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -79,6 +97,10 @@ initialize
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -88,6 +110,8 @@ webconsole
 actions
 /
 ui
+.
+js
 "
 )
 ;
@@ -97,6 +121,10 @@ LazyMessageList
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -108,6 +136,8 @@ components
 Output
 /
 LazyMessageList
+.
+js
 "
 )
 ;
@@ -128,6 +158,10 @@ isMessageInWarningGroup
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -137,6 +171,8 @@ webconsole
 selectors
 /
 messages
+.
+js
 "
 )
 ;
@@ -214,6 +250,10 @@ MESSAGE_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -221,6 +261,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;

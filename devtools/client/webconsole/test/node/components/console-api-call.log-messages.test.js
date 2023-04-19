@@ -33,6 +33,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -42,6 +46,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -53,6 +59,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -64,6 +74,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -92,6 +104,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -107,6 +123,8 @@ message
 types
 /
 ConsoleApiCall
+.
+js
 "
 )
 )
@@ -119,6 +137,10 @@ stubPreparedMessages
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -134,6 +156,8 @@ fixtures
 stubs
 /
 index
+.
+js
 "
 )
 ;
@@ -143,6 +167,10 @@ serviceContainer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -156,6 +184,8 @@ node
 fixtures
 /
 serviceContainer
+.
+js
 "
 )
 ;

@@ -11,6 +11,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -42,6 +52,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -53,6 +65,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -64,6 +80,8 @@ components
 Output
 /
 GripMessageBody
+.
+js
 "
 )
 )
@@ -109,6 +127,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -120,6 +142,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .
@@ -136,6 +160,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -147,6 +175,8 @@ components
 Output
 /
 Message
+.
+js
 "
 )
 )

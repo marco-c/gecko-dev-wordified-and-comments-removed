@@ -45,6 +45,10 @@ WCUL10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -54,6 +58,8 @@ webconsole
 utils
 /
 l10n
+.
+js
 "
 )
 ;

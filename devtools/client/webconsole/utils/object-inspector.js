@@ -12,6 +12,10 @@ createElement
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -40,6 +46,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -51,6 +61,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .
@@ -75,6 +87,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -86,6 +102,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .
@@ -112,6 +130,10 @@ reps
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -123,6 +145,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 ;

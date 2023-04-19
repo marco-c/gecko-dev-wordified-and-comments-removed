@@ -11,6 +11,10 @@ autocomplete
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ webconsole
 reducers
 /
 autocomplete
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ filters
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ webconsole
 reducers
 /
 filters
+.
+js
 "
 )
 ;
@@ -51,6 +63,10 @@ messages
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -60,6 +76,8 @@ webconsole
 reducers
 /
 messages
+.
+js
 "
 )
 ;
@@ -71,6 +89,10 @@ prefs
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +102,8 @@ webconsole
 reducers
 /
 prefs
+.
+js
 "
 )
 ;
@@ -91,6 +115,10 @@ ui
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +128,8 @@ webconsole
 reducers
 /
 ui
+.
+js
 "
 )
 ;
@@ -111,6 +141,10 @@ notifications
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -120,6 +154,8 @@ webconsole
 reducers
 /
 notifications
+.
+js
 "
 )
 ;
@@ -131,6 +167,10 @@ history
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -140,6 +180,8 @@ webconsole
 reducers
 /
 history
+.
+js
 "
 )
 ;

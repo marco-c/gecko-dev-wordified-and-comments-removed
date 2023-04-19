@@ -27,6 +27,10 @@ ENABLE_NETWORK_MONITORING
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -34,6 +38,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
@@ -45,6 +51,10 @@ PANELS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -54,6 +64,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

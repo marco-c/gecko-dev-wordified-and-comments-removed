@@ -33,6 +33,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -42,6 +46,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -53,6 +59,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -68,6 +78,8 @@ message
 types
 /
 NetworkEventMessage
+.
+js
 "
 )
 )
@@ -80,6 +92,10 @@ INDENT_WIDTH
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -91,6 +107,8 @@ components
 Output
 /
 MessageIndent
+.
+js
 "
 )
 ;
@@ -102,6 +120,10 @@ stubPreparedMessages
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -117,6 +139,8 @@ fixtures
 stubs
 /
 index
+.
+js
 "
 )
 ;
@@ -126,6 +150,10 @@ serviceContainer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -139,6 +167,8 @@ node
 fixtures
 /
 serviceContainer
+.
+js
 "
 )
 ;
@@ -283,6 +313,10 @@ timestampString
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -292,6 +326,8 @@ webconsole
 utils
 /
 l10n
+.
+js
 "
 )
 ;

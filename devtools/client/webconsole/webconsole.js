@@ -108,6 +108,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -115,6 +119,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -124,6 +130,10 @@ Telemetry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -131,6 +141,8 @@ client
 shared
 /
 telemetry
+.
+js
 "
 )
 ;
@@ -977,6 +989,10 @@ ParserDispatcher
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -990,6 +1006,8 @@ workers
 parser
 /
 index
+.
+js
 "
 )
 ;

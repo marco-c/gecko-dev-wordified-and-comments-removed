@@ -33,6 +33,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -42,6 +46,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -54,6 +60,10 @@ getMessageComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +75,8 @@ components
 Output
 /
 MessageContainer
+.
+js
 "
 )
 ;
@@ -81,6 +93,10 @@ ConsoleApiCall
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -96,6 +112,8 @@ message
 types
 /
 ConsoleApiCall
+.
+js
 "
 )
 ;
@@ -105,6 +123,10 @@ CSSWarning
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -120,6 +142,8 @@ message
 types
 /
 CSSWarning
+.
+js
 "
 )
 ;
@@ -129,6 +153,10 @@ EvaluationResult
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -144,6 +172,8 @@ message
 types
 /
 EvaluationResult
+.
+js
 "
 )
 ;
@@ -153,6 +183,10 @@ PageError
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -168,6 +202,8 @@ message
 types
 /
 PageError
+.
+js
 "
 )
 ;
@@ -179,6 +215,10 @@ stubPreparedMessages
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -194,6 +234,8 @@ fixtures
 stubs
 /
 index
+.
+js
 "
 )
 ;
@@ -203,6 +245,10 @@ serviceContainer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -216,6 +262,8 @@ node
 fixtures
 /
 serviceContainer
+.
+js
 "
 )
 ;

@@ -19,6 +19,10 @@ REVERSE_SEARCH_BACK
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -26,6 +30,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;

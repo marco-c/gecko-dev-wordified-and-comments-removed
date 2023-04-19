@@ -18,6 +18,10 @@ getVisibleMessages
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -27,6 +31,8 @@ webconsole
 selectors
 /
 messages
+.
+js
 "
 )
 ;
@@ -42,6 +48,10 @@ setupStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -53,6 +63,8 @@ test
 node
 /
 helpers
+.
+js
 "
 )
 ;
@@ -64,6 +76,10 @@ stubPackets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +95,8 @@ fixtures
 stubs
 /
 index
+.
+js
 "
 )
 ;
@@ -90,6 +108,10 @@ CSS_MESSAGE_ADD_MATCHING_ELEMENTS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -97,6 +119,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;

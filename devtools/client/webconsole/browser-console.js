@@ -9,6 +9,10 @@ WebConsole
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -16,6 +20,8 @@ client
 webconsole
 /
 webconsole
+.
+js
 "
 )
 ;
@@ -27,6 +33,10 @@ Utils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -34,6 +44,8 @@ client
 webconsole
 /
 utils
+.
+js
 "
 )
 ;

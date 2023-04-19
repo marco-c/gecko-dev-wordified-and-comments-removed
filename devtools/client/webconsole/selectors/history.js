@@ -12,6 +12,10 @@ HISTORY_FORWARD
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -19,6 +23,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 )
 ;
