@@ -5005,6 +5005,10 @@ mPositionedOffset
 =
 0
 ;
+mPositionedByMoveToRect
+=
+false
+;
 }
 void
 nsMenuPopupFrame
@@ -5098,6 +5102,10 @@ MenuPopupAnchorType_Point
 mPositionedOffset
 =
 0
+;
+mPositionedByMoveToRect
+=
+false
 ;
 }
 void
