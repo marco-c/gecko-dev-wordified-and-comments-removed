@@ -275,6 +275,15 @@ cwd
 yaml_dir
 }
 '
+args
+:
+[
+'
+{
+revision
+}
+'
+]
 updatebot
 :
 maintainer
