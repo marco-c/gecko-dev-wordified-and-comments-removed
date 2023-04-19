@@ -5577,17 +5577,6 @@ rtc_audio_video
 /
 media
 :
-rtc_data
-"
-"
-.
-.
-/
-.
-.
-/
-media
-:
 rtc_media_base
 "
 "

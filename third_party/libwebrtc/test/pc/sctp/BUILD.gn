@@ -136,7 +136,7 @@ deps
 /
 media
 :
-rtc_data
+rtc_data_sctp_transport_internal
 "
 ]
 }
