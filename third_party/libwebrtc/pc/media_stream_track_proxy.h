@@ -63,12 +63,6 @@ PROXY_CONSTMETHOD0
 bool
 enabled
 )
-PROXY_METHOD1
-(
-bool
-set_enabled
-bool
-)
 BYPASS_PROXY_CONSTMETHOD0
 (
 AudioSourceInterface
@@ -106,6 +100,12 @@ scoped_refptr
 AudioProcessorInterface
 >
 GetAudioProcessor
+)
+PROXY_METHOD1
+(
+bool
+set_enabled
+bool
 )
 PROXY_METHOD1
 (
@@ -148,7 +148,7 @@ std
 string
 id
 )
-PROXY_CONSTMETHOD0
+PROXY_SECONDARY_CONSTMETHOD0
 (
 TrackState
 state
