@@ -407,14 +407,14 @@ Constructor
 const
 GlobalObject
 &
-global
+aGlobal
 OffscreenCanvas
 &
-offscreenCanvas
+aOffscreenCanvas
 const
 VideoFrameInit
 &
-init
+aInit
 ErrorResult
 &
 aRv
