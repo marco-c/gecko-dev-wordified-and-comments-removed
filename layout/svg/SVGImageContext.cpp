@@ -191,6 +191,10 @@ StyleUI
 mColorScheme
 .
 bits
+ColorSchemeMode
+:
+:
+Preferred
 )
 ;
 aContext
