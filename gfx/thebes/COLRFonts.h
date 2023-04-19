@@ -18,6 +18,9 @@ h
 struct
 hb_blob_t
 ;
+struct
+hb_face_t
+;
 namespace
 mozilla
 {
@@ -71,9 +74,9 @@ PaintGlyphLayers
 hb_blob_t
 *
 aCOLR
-hb_blob_t
+hb_face_t
 *
-aCPAL
+aFace
 const
 COLRBaseGlyphRecord
 *
