@@ -772,6 +772,14 @@ Stop
 0
 ;
 virtual
+bool
+started
+(
+)
+=
+0
+;
+virtual
 void
 AddAdaptationResource
 (
