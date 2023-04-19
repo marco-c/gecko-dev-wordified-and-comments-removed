@@ -93,6 +93,15 @@ stop_gather_on_strongly_connected
 =
 true
 ;
+absl
+:
+:
+optional
+<
+int
+>
+override_dscp
+;
 }
 ;
 }
