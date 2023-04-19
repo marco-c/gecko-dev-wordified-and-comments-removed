@@ -4406,9 +4406,7 @@ fallbackPref
 "
 browser
 .
-privacySegmentation
-.
-windowSeparation
+privateWindowSeparation
 .
 enabled
 "

@@ -3495,9 +3495,7 @@ pref
 "
 browser
 .
-privacySegmentation
-.
-windowSeparation
+privateWindowSeparation
 .
 enabled
 "

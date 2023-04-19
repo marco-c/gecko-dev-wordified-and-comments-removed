@@ -1081,9 +1081,7 @@ enabled
 -
 browser
 .
-privacySegmentation
-.
-windowSeparation
+privateWindowSeparation
 .
 enabled
 -
