@@ -405,12 +405,14 @@ return
 nullptr
 ;
 }
-promise
+mRequestHandler
 -
 >
-MaybeReject
+GetAccessHandle
 (
-NS_ERROR_NOT_IMPLEMENTED
+mManager
+mMetadata
+promise
 )
 ;
 return
