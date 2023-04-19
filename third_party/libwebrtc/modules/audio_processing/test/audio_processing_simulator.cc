@@ -3306,7 +3306,7 @@ if
 (
 settings_
 .
-analog_agc_disable_digital_adaptive
+analog_agc_use_digital_adaptive_controller
 )
 {
 apm_config
@@ -3320,7 +3320,7 @@ enable_digital_adaptive
 *
 settings_
 .
-analog_agc_disable_digital_adaptive
+analog_agc_use_digital_adaptive_controller
 ;
 }
 if
