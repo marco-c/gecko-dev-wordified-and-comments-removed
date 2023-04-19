@@ -88,13 +88,7 @@ mSandboxBrokerChild
 .
 Init
 (
-ParentPid
-(
-)
-IOThreadChild
-:
-:
-TakeInitialPort
+TakeInitialEndpoint
 (
 )
 )

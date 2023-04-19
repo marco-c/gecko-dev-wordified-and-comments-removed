@@ -247,13 +247,7 @@ mPlugin
 Init
 (
 pluginFilename
-ParentPid
-(
-)
-IOThreadChild
-:
-:
-TakeInitialPort
+TakeInitialEndpoint
 (
 )
 )
