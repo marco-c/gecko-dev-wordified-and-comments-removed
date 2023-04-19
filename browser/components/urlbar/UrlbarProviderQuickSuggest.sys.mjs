@@ -5488,9 +5488,7 @@ UrlbarPrefs
 get
 (
 "
-merino
-.
-endpointURL
+merinoEndpointURL
 "
 )
 ;
