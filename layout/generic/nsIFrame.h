@@ -7359,7 +7359,7 @@ aFlags
 )
 ;
 nscoord
-ShrinkWidthToFit
+ShrinkISizeToFit
 (
 gfxContext
 *

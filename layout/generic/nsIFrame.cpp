@@ -31789,7 +31789,7 @@ ISize
 aWM
 )
 =
-ShrinkWidthToFit
+ShrinkISizeToFit
 (
 aRenderingContext
 availBased
@@ -31805,7 +31805,7 @@ nscoord
 nsIFrame
 :
 :
-ShrinkWidthToFit
+ShrinkISizeToFit
 (
 gfxContext
 *
