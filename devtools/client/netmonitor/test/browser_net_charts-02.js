@@ -149,12 +149,6 @@ pie
 chart
 -
 slice
-.
-chart
--
-colored
--
-blob
 "
 )
 ;
@@ -378,6 +372,10 @@ slices
 getAttribute
 (
 "
+data
+-
+statistic
+-
 name
 "
 )
