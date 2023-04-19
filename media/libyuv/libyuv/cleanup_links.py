@@ -61,9 +61,9 @@ sync
 "
 "
 import
-logging
+argparse
 import
-optparse
+logging
 import
 os
 import
@@ -100,7 +100,6 @@ SCHEMA_VERSION
 class
 WebRTCLinkSetup
 (
-object
 )
 :
   
@@ -151,7 +150,7 @@ self
 .
 _links_db
 .
-iteritems
+tems
 (
 )
 :
@@ -381,17 +380,17 @@ main
 )
 :
   
-parser
+p
 =
-optparse
+argparse
 .
-OptionParser
+ArgumentParser
 (
 )
   
-parser
+p
 .
-add_option
+add_argument
 (
 '
 -
@@ -412,7 +411,7 @@ store_true
 default
 =
 False
-                    
+                 
 help
 =
 '
@@ -429,7 +428,7 @@ t
 perform
 any
 '
-                         
+                      
 '
 operations
 .
@@ -440,16 +439,16 @@ set
 logging
 to
 '
-                         
+                      
 '
 verbose
 .
 '
 )
   
-parser
+p
 .
-add_option
+add_argument
 (
 '
 -
@@ -465,7 +464,7 @@ action
 '
 store_const
 '
-                    
+                 
 const
 =
 logging
@@ -476,7 +475,7 @@ default
 logging
 .
 INFO
-                    
+                 
 help
 =
 '
@@ -490,9 +489,8 @@ debugging
 )
   
 options
-_
 =
-parser
+p
 .
 parse_args
 (

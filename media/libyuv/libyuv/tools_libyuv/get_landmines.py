@@ -54,6 +54,7 @@ HERE
 "
   
 print
+(
 '
 Clobber
 to
@@ -67,8 +68,10 @@ to
 GN
 .
 '
+)
   
 print
+(
 '
 Another
 try
@@ -83,6 +86,7 @@ to
 GN
 .
 '
+)
 def
 main
 (

@@ -98,6 +98,9 @@ h
 >
 #
 endif
+#
+ifdef
+LIBYUV_LEGACY_TYPES
 typedef
 uint64_t
 uint64
@@ -130,6 +133,8 @@ typedef
 int8_t
 int8
 ;
+#
+endif
 #
 endif
 #
