@@ -115,13 +115,9 @@ LevelEstimator
 :
 :
 kRms
-true
-GetInitialSaturationMarginDb
-(
-)
-GetExtraSaturationMarginOffsetDb
-(
-)
+kDefaultUseSaturationProtector
+kDefaultInitialSaturationMarginDb
+kDefaultExtraSaturationMarginDb
 )
 {
 }
@@ -155,9 +151,7 @@ AdaptiveModeLevelEstimator
 apm_data_dumper
 level_estimator
 use_saturation_protector
-GetInitialSaturationMarginDb
-(
-)
+kDefaultInitialSaturationMarginDb
 extra_saturation_margin_db
 )
 {

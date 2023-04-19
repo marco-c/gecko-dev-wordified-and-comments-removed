@@ -51,6 +51,15 @@ gunit
 .
 h
 "
+#
+include
+"
+test
+/
+gmock
+.
+h
+"
 namespace
 webrtc
 {

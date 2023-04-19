@@ -187,7 +187,6 @@ estimator
 ;
 }
 ;
-}
 TEST
 (
 AutomaticGainController2AdaptiveModeLevelEstimator
@@ -674,5 +673,6 @@ kExtraSaturationMarginDb
 kMaxDifferenceDb
 )
 ;
+}
 }
 }
