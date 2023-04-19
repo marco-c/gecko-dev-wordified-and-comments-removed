@@ -71,7 +71,7 @@ aId
 void
 Accumulate
 (
-uint64_t
+size_t
 aSample
 )
 const
