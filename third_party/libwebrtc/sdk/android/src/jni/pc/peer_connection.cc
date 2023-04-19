@@ -2192,6 +2192,10 @@ remote_streams_
 find
 (
 stream
+.
+get
+(
+)
 )
 ;
 RTC_CHECK
@@ -2215,6 +2219,10 @@ stream
 <
 <
 stream
+.
+get
+(
+)
 ;
 Java_Observer_onRemoveStream
 (
@@ -2507,6 +2515,10 @@ remote_streams_
 find
 (
 stream
+.
+get
+(
+)
 )
 ;
 if
@@ -3347,6 +3359,10 @@ j_pc
 CreateOffer
 (
 observer
+.
+get
+(
+)
 options
 )
 ;
@@ -3446,6 +3462,10 @@ j_pc
 CreateAnswer
 (
 observer
+.
+get
+(
+)
 options
 )
 ;
@@ -4876,6 +4896,10 @@ j_pc
 GetStats
 (
 observer
+.
+get
+(
+)
 reinterpret_cast
 <
 MediaStreamTrackInterface
@@ -4939,6 +4963,10 @@ j_pc
 GetStats
 (
 callback
+.
+get
+(
+)
 )
 ;
 }

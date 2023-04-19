@@ -149,6 +149,10 @@ nativeId
 source
 .
 nativeAudioSource
+.
+get
+(
+)
 )
 ;
 if

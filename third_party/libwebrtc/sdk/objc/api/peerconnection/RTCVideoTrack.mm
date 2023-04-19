@@ -157,6 +157,10 @@ nativeId
 source
 .
 nativeVideoSource
+.
+get
+(
+)
 )
 ;
 if

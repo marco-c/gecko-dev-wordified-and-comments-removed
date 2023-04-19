@@ -3077,6 +3077,10 @@ AddStream
 stream
 .
 nativeMediaStream
+.
+get
+(
+)
 )
 )
 {
@@ -3127,6 +3131,10 @@ RemoveStream
 stream
 .
 nativeMediaStream
+.
+get
+(
+)
 )
 ;
 [
@@ -3777,6 +3785,10 @@ _peerConnection
 CreateOffer
 (
 observer
+.
+get
+(
+)
 options
 )
 ;
@@ -3864,6 +3876,10 @@ _peerConnection
 CreateAnswer
 (
 observer
+.
+get
+(
+)
 options
 )
 ;

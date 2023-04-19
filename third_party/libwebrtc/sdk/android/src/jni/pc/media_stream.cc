@@ -112,6 +112,10 @@ new
 MediaStreamObserver
 (
 media_stream
+.
+get
+(
+)
 [
 this
 ]

@@ -150,6 +150,10 @@ CreateVideoTrackSourceProxy
 signaling_thread
 worker_thread
 objc_video_track_source
+.
+get
+(
+)
 )
 ;
 objc_video_capturer
