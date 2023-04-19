@@ -5548,10 +5548,7 @@ mWidth
 mHeight
 )
 aRegion
-ToColorSpace2
-(
 mYUVColorSpace
-)
 mColorRange
 )
 ;
@@ -6299,10 +6296,7 @@ mWidth
 mHeight
 )
 aRegion
-ToColorSpace2
-(
 mYUVColorSpace
-)
 mColorRange
 )
 ;
