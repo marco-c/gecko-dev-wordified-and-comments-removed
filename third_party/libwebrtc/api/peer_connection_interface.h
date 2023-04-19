@@ -1277,11 +1277,6 @@ disable_link_local_networks
 =
 false
 ;
-bool
-enable_rtp_data_channel
-=
-false
-;
 absl
 :
 :

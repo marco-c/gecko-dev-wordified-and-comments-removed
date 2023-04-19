@@ -1476,17 +1476,6 @@ j_rtc_config
 rtc_config
 -
 >
-enable_rtp_data_channel
-=
-Java_RTCConfiguration_getEnableRtpDataChannel
-(
-jni
-j_rtc_config
-)
-;
-rtc_config
--
->
 media_config
 .
 video

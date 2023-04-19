@@ -63,16 +63,6 @@ audio_jitter_buffer_max_packets
 &
 a
 .
-enable_rtp_data_channel
-=
-=
-b
-.
-enable_rtp_data_channel
-&
-&
-a
-.
 screencast_min_bitrate
 =
 =

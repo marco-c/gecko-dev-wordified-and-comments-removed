@@ -4457,6 +4457,9 @@ re_offer
 )
 ;
 }
+#
+ifdef
+HAVE_SCTP
 TEST_P
 (
 PeerConnectionBundleTest
@@ -4466,17 +4469,6 @@ RemovingContentAndRejectBundleGroup
 RTCConfiguration
 config
 ;
-#
-ifndef
-WEBRTC_HAVE_SCTP
-config
-.
-enable_rtp_data_channel
-=
-true
-;
-#
-endif
 config
 .
 bundle_policy
@@ -4689,6 +4681,8 @@ re_offer
 )
 ;
 }
+#
+endif
 TEST_P
 (
 PeerConnectionBundleTest
