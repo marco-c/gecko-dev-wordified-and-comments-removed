@@ -5246,9 +5246,11 @@ JSMSG_DECORATOR_NAME_EXPECTED
 JSEXN_SYNTAXERR
 "
 expected
-decorator
+property
 name
-after
+in
+decorator
+expression
 "
 )
 MSG_DEF
