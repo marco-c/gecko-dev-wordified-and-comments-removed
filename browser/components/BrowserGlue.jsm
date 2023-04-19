@@ -16519,7 +16519,7 @@ BG__migrateUI
 const
 UI_VERSION
 =
-129
+130
 ;
 const
 BROWSER_DOCURL
@@ -20428,6 +20428,7 @@ xulStore
 setValue
 (
 BROWSER_DOCURL
+id
 "
 style
 "
@@ -20473,7 +20474,7 @@ if
 (
 currentUIVersion
 <
-129
+130
 )
 {
 migrateXULAttributeToStyle
