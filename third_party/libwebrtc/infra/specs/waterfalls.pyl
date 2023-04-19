@@ -1449,6 +1449,9 @@ mac_toolchain
 '
 has_native_resultdb_integration
 '
+'
+out_dir_arg
+'
 ]
 '
 test_suites
@@ -1510,6 +1513,9 @@ mac_toolchain
 '
 has_native_resultdb_integration
 '
+'
+out_dir_arg
+'
 ]
 '
 test_suites
@@ -1572,6 +1578,9 @@ mac_toolchain
 '
 '
 has_native_resultdb_integration
+'
+'
+out_dir_arg
 '
 ]
 '
@@ -2161,6 +2170,9 @@ mac_toolchain
 '
 has_native_resultdb_integration
 '
+'
+out_dir_arg
+'
 ]
 '
 test_suites
@@ -2216,6 +2228,9 @@ mac_toolchain
 '
 '
 has_native_resultdb_integration
+'
+'
+out_dir_arg
 '
 ]
 '
@@ -2274,6 +2289,9 @@ mac_toolchain
 '
 '
 has_native_resultdb_integration
+'
+'
+out_dir_arg
 '
 ]
 '
@@ -2357,6 +2375,9 @@ mac_toolchain
 '
 has_native_resultdb_integration
 '
+'
+out_dir_arg
+'
 ]
 '
 test_suites
@@ -2413,6 +2434,9 @@ mac_toolchain
 '
 '
 has_native_resultdb_integration
+'
+'
+out_dir_arg
 '
 ]
 '
@@ -2800,6 +2824,9 @@ mac_toolchain
 '
 has_native_resultdb_integration
 '
+'
+out_dir_arg
+'
 ]
 '
 test_suites
@@ -2855,6 +2882,9 @@ mac_toolchain
 '
 has_native_resultdb_integration
 '
+'
+out_dir_arg
+'
 ]
 '
 test_suites
@@ -2909,6 +2939,9 @@ mac_toolchain
 '
 '
 has_native_resultdb_integration
+'
+'
+out_dir_arg
 '
 ]
 '
