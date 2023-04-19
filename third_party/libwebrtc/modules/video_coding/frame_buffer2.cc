@@ -751,17 +751,6 @@ Timestamp
 continue
 ;
 }
-if
-(
-frame
--
->
-inter_layer_predicted
-)
-{
-continue
-;
-}
 std
 :
 :
