@@ -5688,6 +5688,17 @@ pictureRegion
 mKnowsCompositor
 )
 ;
+v
+-
+>
+mImage
+-
+>
+SetIsDRM
+(
+true
+)
+;
 return
 v
 .
