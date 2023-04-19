@@ -2494,6 +2494,11 @@ bookmark
 keyword
 .
 -
+quickaction
+A
+QuickAction
+.
+-
 quicksuggest
 A
 Firefox
