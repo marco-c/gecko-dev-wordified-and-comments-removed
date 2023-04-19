@@ -293,6 +293,17 @@ scoped_refptr
 .
 .
 /
+api
+:
+array_view
+"
+"
+.
+.
+/
+.
+.
+/
 modules
 /
 video_coding
