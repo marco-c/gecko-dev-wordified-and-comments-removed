@@ -9586,7 +9586,7 @@ syncedTabs
 .
 syncDelayAfterTabChange
 "
-0
+5000
 )
 ;
 pref
