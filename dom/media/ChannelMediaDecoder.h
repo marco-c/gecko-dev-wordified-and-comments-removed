@@ -382,10 +382,7 @@ MediaDecoderStateMachineBase
 *
 CreateStateMachine
 (
-bool
-aDisableExternalEngine
 )
-override
 ;
 nsresult
 Load

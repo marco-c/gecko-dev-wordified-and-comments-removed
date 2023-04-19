@@ -172,10 +172,7 @@ MediaDecoderStateMachineBase
 *
 CreateStateMachine
 (
-bool
-aDisableExternalEngine
 )
-override
 ;
 bool
 CanPlayThroughImpl

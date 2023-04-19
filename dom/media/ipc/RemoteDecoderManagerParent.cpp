@@ -138,7 +138,7 @@ h
 "
 #
 ifdef
-MOZ_WMF_MEDIA_ENGINE
+MOZ_WMF
 #
 include
 "
@@ -1178,13 +1178,12 @@ AllocPMFMediaEngineParent
 {
 #
 ifdef
-MOZ_WMF_MEDIA_ENGINE
+MOZ_WMF
 return
 new
 MFMediaEngineParent
 (
 this
-sRemoteDecoderManagerParentThread
 )
 ;
 #
@@ -1208,7 +1207,7 @@ actor
 {
 #
 ifdef
-MOZ_WMF_MEDIA_ENGINE
+MOZ_WMF
 MFMediaEngineParent
 *
 parent
