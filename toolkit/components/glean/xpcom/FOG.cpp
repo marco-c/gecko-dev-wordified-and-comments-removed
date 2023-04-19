@@ -170,17 +170,6 @@ C
 "
 NS_EXPORT
 void
-rlb_flush_dispatcher
-(
-void
-)
-;
-extern
-"
-C
-"
-NS_EXPORT
-void
 _fog_force_reexport_donotcall
 (
 void
