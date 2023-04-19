@@ -75,6 +75,7 @@ vector
 <
 int
 >
+&
 encrypted_headers
 bool
 expect_equal
