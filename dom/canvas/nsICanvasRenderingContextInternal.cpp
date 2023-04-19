@@ -154,13 +154,6 @@ PrincipalOrNull
 )
 const
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 if
 (
 mCanvasElement
