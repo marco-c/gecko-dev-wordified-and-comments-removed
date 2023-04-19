@@ -8,6 +8,10 @@ import
 attr
 from
 taskgraph
+import
+filter_tasks
+from
+taskgraph
 .
 config
 import
@@ -61,10 +65,6 @@ util
 yaml
 import
 load_yaml
-from
-.
-import
-filter_tasks
 from
 .
 morph
