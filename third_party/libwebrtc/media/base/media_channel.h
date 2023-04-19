@@ -2909,6 +2909,11 @@ sum_squared_frame_durations
 .
 0
 ;
+uint32_t
+jitter_ms
+=
+0
+;
 webrtc
 :
 :

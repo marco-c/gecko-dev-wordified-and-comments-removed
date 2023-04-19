@@ -18140,6 +18140,16 @@ packets_lost
 ;
 info
 .
+jitter_ms
+=
+stats
+.
+rtp_stats
+.
+jitter
+;
+info
+.
 framerate_rcvd
 =
 stats
