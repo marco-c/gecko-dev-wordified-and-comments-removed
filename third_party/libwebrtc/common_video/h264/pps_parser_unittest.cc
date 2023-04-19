@@ -795,15 +795,9 @@ size
 )
 )
 ;
-EXPECT_TRUE
-(
-static_cast
-<
-bool
->
+ASSERT_TRUE
 (
 parsed_pps_
-)
 )
 ;
 EXPECT_EQ
