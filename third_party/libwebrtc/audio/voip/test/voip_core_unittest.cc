@@ -268,13 +268,6 @@ make_unique
 VoipCore
 >
 (
-)
-;
-voip_core_
--
->
-Init
-(
 std
 :
 :
