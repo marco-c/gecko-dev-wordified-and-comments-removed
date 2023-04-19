@@ -1115,16 +1115,7 @@ void
 reportAllocationOverflow
 (
 )
-{
-js
-:
-:
-ReportAllocationOverflow
-(
-this
-)
 ;
-}
 JSAtomState
 &
 names

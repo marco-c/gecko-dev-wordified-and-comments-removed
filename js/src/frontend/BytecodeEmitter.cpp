@@ -1563,7 +1563,7 @@ MaxBytecodeLength
 {
 ReportAllocationOverflow
 (
-cx
+ec
 )
 ;
 return
@@ -7861,7 +7861,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-cx
+ec
 )
 ;
 return
@@ -44144,7 +44144,7 @@ memberInitializers
 {
 ReportAllocationOverflow
 (
-cx
+ec
 )
 ;
 return

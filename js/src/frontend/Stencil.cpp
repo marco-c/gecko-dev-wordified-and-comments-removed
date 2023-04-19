@@ -23034,7 +23034,7 @@ INDEX_LIMIT
 {
 ReportAllocationOverflow
 (
-cx
+ec
 )
 ;
 return
@@ -23082,7 +23082,7 @@ UINT32_MAX
 {
 ReportAllocationOverflow
 (
-cx
+ec
 )
 ;
 return
@@ -23276,7 +23276,7 @@ INDEX_LIMIT
 {
 ReportAllocationOverflow
 (
-cx
+ec
 )
 ;
 return
@@ -23340,7 +23340,7 @@ UINT32_MAX
 {
 ReportAllocationOverflow
 (
-cx
+ec
 )
 ;
 return

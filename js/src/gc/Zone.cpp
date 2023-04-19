@@ -3739,7 +3739,14 @@ js
 :
 ReportAllocationOverflow
 (
+static_cast
+<
+JSContext
+*
+>
+(
 nullptr
+)
 )
 ;
 }
