@@ -3008,16 +3008,6 @@ frame_encryptor_
 nullptr
 )
 {
-if
-(
-!
-has_generic_descriptor
-)
-{
-return
-false
-;
-}
 const
 size_t
 max_ciphertext_size
