@@ -966,7 +966,12 @@ false
 )
 mSuspendedByChrome
 (
-false
+aWindow
+-
+>
+IsSuspended
+(
+)
 )
 mWasEverAllowedToStart
 (
