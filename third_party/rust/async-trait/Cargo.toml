@@ -125,7 +125,7 @@ version
 .
 1
 .
-56
+57
 "
 authors
 =
@@ -178,6 +178,18 @@ keywords
 [
 "
 async
+"
+]
+categories
+=
+[
+"
+asynchronous
+"
+"
+no
+-
+std
 "
 ]
 license

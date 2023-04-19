@@ -2884,6 +2884,14 @@ AcqRel
 [
 test
 ]
+#
+[
+cfg_attr
+(
+miri
+ignore
+)
+]
 fn
 tracing
 (

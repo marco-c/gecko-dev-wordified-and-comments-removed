@@ -14,6 +14,10 @@ doc_markdown
 clippy
 :
 :
+explicit_auto_deref
+clippy
+:
+:
 if_not_else
 clippy
 :
