@@ -549,7 +549,6 @@ waitForSessionStoreUpdate
 tab
 )
 ;
-await
 BrowserTestUtils
 .
 removeTab
@@ -580,14 +579,17 @@ sendMessage
 restore
 "
 {
-sesionId
+sessionId
 :
+String
+(
 closedTabData
 [
 0
 ]
 .
 closedId
+)
 }
 )
 ;
