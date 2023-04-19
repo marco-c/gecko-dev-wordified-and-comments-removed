@@ -6027,20 +6027,22 @@ objdir
         
 if
 host_linkables
-and
-not
-all
+or
+any
 (
             
 isinstance
 (
 l
-HostRustLibrary
+(
+RustLibrary
+RustProgram
+)
 )
 for
 l
 in
-host_linkables
+linkables
         
 )
 :
@@ -6048,17 +6050,6 @@ host_linkables
 self
 .
 _host_compile_dirs
-.
-add
-(
-context
-.
-objdir
-)
-            
-self
-.
-_compile_dirs
 .
 add
 (
