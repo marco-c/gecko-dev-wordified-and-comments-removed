@@ -270,6 +270,14 @@ uint32_t
 n_params
 )
 ;
+int
+pw_stream_disconnect
+(
+pw_stream
+*
+stream
+)
+;
 pw_buffer
 *
 pw_stream_dequeue_buffer
