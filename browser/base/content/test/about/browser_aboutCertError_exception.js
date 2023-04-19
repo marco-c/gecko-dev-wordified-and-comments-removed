@@ -453,13 +453,6 @@ QueryInterface
 (
 Ci
 .
-nsITransportSecurityInfo
-)
-.
-QueryInterface
-(
-Ci
-.
 nsISerializable
 )
 ;

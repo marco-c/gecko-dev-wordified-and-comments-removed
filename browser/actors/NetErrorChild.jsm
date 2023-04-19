@@ -136,15 +136,6 @@ return
 ]
 ;
 }
-securityInfo
-.
-QueryInterface
-(
-Ci
-.
-nsITransportSecurityInfo
-)
-;
 return
 securityInfo
 .

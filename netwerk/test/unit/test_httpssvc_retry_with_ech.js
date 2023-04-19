@@ -121,13 +121,6 @@ securityInfo
 chan
 .
 securityInfo
-.
-QueryInterface
-(
-Ci
-.
-nsITransportSecurityInfo
-)
 ;
 Assert
 .

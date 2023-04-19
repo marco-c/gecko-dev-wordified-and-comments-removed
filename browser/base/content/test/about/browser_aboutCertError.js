@@ -1357,13 +1357,6 @@ failedChannel
 .
 securityInfo
 .
-QueryInterface
-(
-Ci
-.
-nsITransportSecurityInfo
-)
-.
 failedCertChain
 .
 map
@@ -1922,13 +1915,6 @@ docShell
 failedChannel
 .
 securityInfo
-.
-QueryInterface
-(
-Ci
-.
-nsITransportSecurityInfo
-)
 .
 failedCertChain
 .

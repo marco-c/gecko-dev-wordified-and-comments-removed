@@ -160,15 +160,6 @@ return
 info
 ;
 }
-securityInfo
-.
-QueryInterface
-(
-Ci
-.
-nsITransportSecurityInfo
-)
-;
 if
 (
 lazy
