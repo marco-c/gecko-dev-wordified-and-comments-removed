@@ -162,6 +162,13 @@ Release
 )
 override
 ;
+DecoderInfo
+GetDecoderInfo
+(
+)
+const
+override
+;
 const
 char
 *

@@ -441,11 +441,11 @@ _isExternal
 VideoContentType
 _last_keyframe_content_type
 ;
-std
+VideoDecoder
 :
 :
-string
-implementation_name_
+DecoderInfo
+decoder_info_
 ;
 }
 ;

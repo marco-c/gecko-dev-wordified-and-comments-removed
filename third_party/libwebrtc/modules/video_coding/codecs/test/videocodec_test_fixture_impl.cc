@@ -5175,9 +5175,11 @@ at
 )
 -
 >
-ImplementationName
+GetDecoderInfo
 (
 )
+.
+implementation_name
 ;
 }
 RTC_FROM_HERE
