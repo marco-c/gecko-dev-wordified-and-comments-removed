@@ -517,11 +517,6 @@ emitThis
 (
 )
 ;
-void
-reset
-(
-)
-;
 [
 [
 nodiscard
