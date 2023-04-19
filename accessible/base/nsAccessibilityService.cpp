@@ -6723,6 +6723,15 @@ frameType
 LayoutFrameType
 :
 :
+FlexContainer
+|
+|
+frameType
+=
+=
+LayoutFrameType
+:
+:
 Scroll
 )
 {
