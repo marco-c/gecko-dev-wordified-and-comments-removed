@@ -29,7 +29,7 @@ mozilla
 /
 dom
 /
-FontFaceSetImpl
+FontFaceSet
 .
 h
 "
@@ -121,7 +121,7 @@ mozilla
 dom
 :
 :
-FontFaceSetImpl
+FontFaceSet
 *
 aFontFaceSet
 nsIChannel
@@ -220,7 +220,7 @@ mozilla
 dom
 :
 :
-FontFaceSetImpl
+FontFaceSet
 *
 MOZ_NON_OWNING_REF
 mFontFaceSet

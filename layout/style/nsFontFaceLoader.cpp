@@ -238,7 +238,7 @@ gfxUserFontEntry
 aUserFontEntry
 uint32_t
 aSrcIndex
-FontFaceSetImpl
+FontFaceSet
 *
 aFontFaceSet
 nsIChannel
@@ -985,7 +985,7 @@ nsPresContext
 *
 ctx
 =
-FontFaceSetImpl
+FontFaceSet
 :
 :
 GetPresContextFor
@@ -1430,6 +1430,11 @@ NS_ERROR_NOT_AVAILABLE
 mFontFaceSet
 -
 >
+GetUserFontSet
+(
+)
+-
+>
 RecordFontLoadDone
 (
 aStringLen
@@ -1505,7 +1510,7 @@ nsPresContext
 *
 ctx
 =
-FontFaceSetImpl
+FontFaceSet
 :
 :
 GetPresContextFor
