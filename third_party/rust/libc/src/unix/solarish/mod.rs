@@ -12982,6 +12982,16 @@ c_int
 ;
 pub
 const
+SOMAXCONN
+:
+:
+:
+c_int
+=
+128
+;
+pub
+const
 SOL_SOCKET
 :
 :

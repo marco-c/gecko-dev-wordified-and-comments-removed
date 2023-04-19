@@ -4798,7 +4798,7 @@ O_LARGEFILE
 :
 c_int
 =
-0
+0x2000
 ;
 pub
 const
