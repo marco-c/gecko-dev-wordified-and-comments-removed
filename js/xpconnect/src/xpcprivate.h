@@ -3017,6 +3017,14 @@ aCx
 )
 ;
 bool
+AttachJSServices
+(
+JSContext
+*
+aCx
+)
+;
+bool
 GetComponentsJSObject
 (
 JSContext
