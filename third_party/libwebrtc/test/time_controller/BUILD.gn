@@ -511,17 +511,6 @@ macromagic
 /
 rtc_base
 :
-rtc_base_approved
-"
-"
-.
-.
-/
-.
-.
-/
-rtc_base
-:
 rtc_event
 "
 "

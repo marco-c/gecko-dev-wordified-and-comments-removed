@@ -382,13 +382,6 @@ rtc_base
 "
 /
 /
-rtc_base
-:
-rtc_base_approved
-"
-"
-/
-/
 sdk
 /
 android

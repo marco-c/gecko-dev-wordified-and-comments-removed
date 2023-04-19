@@ -167,17 +167,6 @@ refcount
 .
 /
 rtc_base
-:
-rtc_base_approved
-"
-"
-.
-.
-/
-.
-.
-/
-rtc_base
 /
 system
 :
