@@ -115,7 +115,6 @@ number
 value
 :
 "
-+
 Infinity
 "
 }
