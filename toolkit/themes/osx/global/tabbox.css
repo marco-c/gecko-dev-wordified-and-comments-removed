@@ -310,6 +310,9 @@ end
 ;
 }
 tab
+:
+where
+(
 [
 visuallyselected
 =
@@ -327,6 +330,7 @@ moz
 window
 -
 inactive
+)
 )
 {
 color
