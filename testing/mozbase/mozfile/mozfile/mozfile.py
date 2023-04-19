@@ -1,20 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
-from
-__future__
-import
-absolute_import
-print_function
 import
 errno
 import
@@ -33,6 +16,10 @@ from
 contextlib
 import
 contextmanager
+from
+textwrap
+import
+dedent
 from
 six
 .
@@ -146,6 +133,67 @@ m
 in
 bundle
 :
+            
+if
+"
+.
+.
+"
+in
+m
+.
+name
+:
+                
+raise
+RuntimeError
+(
+                    
+dedent
+(
+                        
+f
+"
+"
+"
+                    
+Tar
+bundle
+'
+{
+src
+}
+'
+may
+be
+maliciously
+crafted
+to
+escape
+the
+destination
+!
+                    
+The
+following
+path
+was
+detected
+:
+                      
+{
+m
+.
+name
+}
+                    
+"
+"
+"
+                    
+)
+                
+)
             
 if
 ignore
@@ -419,10 +467,10 @@ extracted
 "
     
 import
-zipfile
+tarfile
     
 import
-tarfile
+zipfile
     
 assert
 os
@@ -1385,7 +1433,6 @@ path
         
 path
 =
-u
 "
 \
 \
@@ -1974,19 +2021,16 @@ directory
     
 vertical_line
 =
-u
 "
 "
     
 item_marker
 =
-u
 "
 "
     
 last_child
 =
-u
 "
 "
     
@@ -3304,10 +3348,10 @@ data
 "
     
 import
-tempfile
+shutil
     
 import
-shutil
+tempfile
     
 tempdir
 =
