@@ -425,10 +425,9 @@ aRv
 {
 aResolver
 (
-aRv
-.
-NSResult
+ToNSResult
 (
+aRv
 )
 )
 ;
