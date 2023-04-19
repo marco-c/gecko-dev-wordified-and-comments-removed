@@ -4507,8 +4507,6 @@ FileExists
 INSTDIR
 \
 postSigningData
-.
-json
 "
 Delete
 /
@@ -4517,8 +4515,6 @@ REBOOTOK
 INSTDIR
 \
 postSigningData
-.
-json
 "
 {
 EndIf
