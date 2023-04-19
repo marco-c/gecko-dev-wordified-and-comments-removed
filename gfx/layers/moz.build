@@ -746,6 +746,13 @@ h
 "
 composite
 /
+RemoteTextureHostWrapper
+.
+h
+"
+"
+composite
+/
 TextureHost
 .
 h
@@ -2188,6 +2195,13 @@ cpp
 composite
 /
 ImageComposite
+.
+cpp
+"
+"
+composite
+/
+RemoteTextureHostWrapper
 .
 cpp
 "
