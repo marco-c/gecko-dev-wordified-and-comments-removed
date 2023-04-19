@@ -2680,10 +2680,6 @@ rtp_video_sender_
 IsActive
 (
 )
-&
-&
-!
-timed_out_
 )
 {
 bitrate_allocator_
