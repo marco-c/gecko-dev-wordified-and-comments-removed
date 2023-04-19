@@ -237,14 +237,6 @@ unit_base
 .
 h
 "
-"
-+
-rtc_base
-/
-deprecation
-.
-h
-"
 ]
 "
 array_view

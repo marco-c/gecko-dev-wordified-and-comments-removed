@@ -252,17 +252,6 @@ checks
 /
 rtc_base
 :
-deprecation
-"
-"
-.
-.
-/
-.
-.
-/
-rtc_base
-:
 rtc_base_approved
 "
 "

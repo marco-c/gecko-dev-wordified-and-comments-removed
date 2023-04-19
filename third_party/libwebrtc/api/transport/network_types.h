@@ -71,15 +71,6 @@ timestamp
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-deprecation
-.
-h
-"
 namespace
 webrtc
 {
