@@ -327,10 +327,7 @@ lifetimePolicy
 )
 !
 =
-nsICookieService
-:
-:
-ACCEPT_SESSION
+2
 )
 {
 return
