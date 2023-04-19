@@ -20,6 +20,9 @@ class
 VoipDtmf
 ;
 class
+VoipStatistics
+;
+class
 VoipEngine
 {
 public
@@ -63,6 +66,15 @@ virtual
 VoipDtmf
 &
 Dtmf
+(
+)
+=
+0
+;
+virtual
+VoipStatistics
+&
+Statistics
 (
 )
 =

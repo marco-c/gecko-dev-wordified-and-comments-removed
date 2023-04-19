@@ -137,6 +137,11 @@ voip_network
 .
 h
 "
+"
+voip_statistics
+.
+h
+"
 ]
 deps
 =
@@ -154,6 +159,14 @@ array_view
 audio_codecs
 :
 audio_codecs_api
+"
+"
+.
+.
+/
+neteq
+:
+neteq_api
 "
 ]
 absl_deps
