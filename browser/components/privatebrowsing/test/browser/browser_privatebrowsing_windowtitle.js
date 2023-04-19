@@ -101,15 +101,11 @@ pb_postfix
 =
 isMacOS
 ?
-(
 Private
 Browsing
-)
 :
-(
 Private
 Browsing
-)
 ;
 let
 page_with_title

@@ -148,6 +148,10 @@ browser
 main
 -
 window
+-
+window
+-
+titles
 =
 .
 data
@@ -179,10 +183,8 @@ full
 -
 name
 }
-(
 Private
 Browsing
-)
 .
 data
 -
@@ -227,10 +229,8 @@ full
 -
 name
 }
-(
 Private
 Browsing
-)
 #
 These
 are
@@ -374,6 +374,10 @@ main
 window
 -
 mac
+-
+window
+-
+titles
 =
 .
 data
@@ -405,10 +409,8 @@ full
 -
 name
 }
-(
 Private
 Browsing
-)
 .
 data
 -
@@ -437,10 +439,8 @@ content
 -
 title
 }
-(
 Private
 Browsing
-)
 #
 This
 gets
