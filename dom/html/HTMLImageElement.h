@@ -1297,13 +1297,7 @@ Yes
 void
 StopLazyLoading
 (
-FromIntersectionObserver
 StartLoading
-)
-;
-void
-LazyLoadImageReachedViewport
-(
 )
 ;
 const
