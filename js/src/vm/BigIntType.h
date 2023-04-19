@@ -3025,10 +3025,6 @@ JS
 :
 BigInt
 *
-JS
-:
-:
-OOM
 >
 StringToBigInt
 (

@@ -19133,10 +19133,6 @@ Result
 <
 BigInt
 *
-JS
-:
-:
-OOM
 >
 js
 :
@@ -19268,7 +19264,7 @@ return
 cx
 -
 >
-alreadyReportedOOM
+alreadyReportedError
 (
 )
 ;
