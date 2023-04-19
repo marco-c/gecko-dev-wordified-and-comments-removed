@@ -127,6 +127,8 @@ const
 AvailableCpuFeatures
 &
 cpu_features
+int
+sample_rate_hz
 )
 ;
 VoiceActivityDetectorWrapper
@@ -141,6 +143,8 @@ unique_ptr
 MonoVad
 >
 vad
+int
+sample_rate_hz
 )
 ;
 VoiceActivityDetectorWrapper
@@ -192,9 +196,6 @@ private
 const
 int
 vad_reset_period_frames_
-;
-bool
-initialized_
 ;
 int
 frame_size_
