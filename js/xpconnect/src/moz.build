@@ -8,6 +8,11 @@ BackstagePass
 h
 "
 "
+JSServices
+.
+h
+"
+"
 XPCJSMemoryReporter
 .
 h
