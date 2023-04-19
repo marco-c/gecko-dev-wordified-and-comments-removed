@@ -4953,6 +4953,9 @@ deserializeStencils
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input

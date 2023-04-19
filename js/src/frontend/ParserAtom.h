@@ -3937,9 +3937,9 @@ entries
 bool
 allocate
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 LifoAlloc
 &
 alloc

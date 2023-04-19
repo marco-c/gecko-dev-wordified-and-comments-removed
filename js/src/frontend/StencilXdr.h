@@ -646,6 +646,9 @@ XDRStencilDecoder
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 JS
 :
@@ -658,6 +661,7 @@ range
 Base
 (
 cx
+ec
 range
 )
 {
@@ -757,6 +761,9 @@ XDRStencilEncoder
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 JS
 :
 :
@@ -768,6 +775,7 @@ buffer
 Base
 (
 cx
+ec
 buffer
 buffer
 .
