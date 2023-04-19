@@ -366,6 +366,11 @@ char_traits
 *
 incompatible_char_type
 "
+"
+.
+*
+string_view
+"
 #
 https
 :
