@@ -548,6 +548,10 @@ channel_manager_
 GetSupportedAudioRtpHeaderExtensions
 (
 )
+[
+]
+{
+}
 )
 {
 }
@@ -835,6 +839,10 @@ MockRtpReceiverInternal
 &
 channel_manager_
 extensions_
+[
+]
+{
+}
 )
 {
 }
