@@ -179,7 +179,7 @@ aWhichChild
 override
 ;
 virtual
-LocalAccessible
+Accessible
 *
 FocusedChild
 (

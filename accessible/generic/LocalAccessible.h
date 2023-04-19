@@ -689,13 +689,6 @@ aWhichChild
 override
 ;
 virtual
-LocalAccessible
-*
-FocusedChild
-(
-)
-;
-virtual
 Relation
 RelationByType
 (

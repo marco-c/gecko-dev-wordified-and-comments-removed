@@ -650,6 +650,13 @@ aWhichChild
 =
 0
 ;
+virtual
+Accessible
+*
+FocusedChild
+(
+)
+;
 const
 nsRoleMapEntry
 *

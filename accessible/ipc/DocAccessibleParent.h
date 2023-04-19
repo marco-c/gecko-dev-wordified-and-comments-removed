@@ -1385,6 +1385,14 @@ aRanges
 const
 override
 ;
+virtual
+Accessible
+*
+FocusedChild
+(
+)
+override
+;
 void
 URL
 (

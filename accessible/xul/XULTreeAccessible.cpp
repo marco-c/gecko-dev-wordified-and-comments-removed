@@ -2926,7 +2926,7 @@ XULTreeItemAccessibleBase
 LocalAccessible
 XULTreeItemAccessibleBase
 )
-LocalAccessible
+Accessible
 *
 XULTreeItemAccessibleBase
 :
