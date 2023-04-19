@@ -1733,11 +1733,6 @@ public
 QueuedTaskHandler
 (
 )
-:
-MessageHandler
-(
-false
-)
 {
 }
 void

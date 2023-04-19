@@ -593,13 +593,6 @@ JavaMethodPointer
 java_method_pointer
 )
 :
-rtc
-:
-:
-MessageHandler
-(
-false
-)
 j_object_
 (
 env

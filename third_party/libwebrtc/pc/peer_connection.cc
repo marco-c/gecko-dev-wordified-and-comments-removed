@@ -5588,10 +5588,6 @@ Call
 call
 )
 :
-MessageHandler
-(
-false
-)
 factory_
 (
 factory

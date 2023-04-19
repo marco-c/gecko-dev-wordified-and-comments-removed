@@ -616,10 +616,6 @@ AudioDeviceIOS
 (
 )
 :
-MessageHandler
-(
-false
-)
 audio_device_buffer_
 (
 nullptr

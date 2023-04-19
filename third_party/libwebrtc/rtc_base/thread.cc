@@ -288,11 +288,6 @@ public
 MessageHandlerWithTask
 (
 )
-:
-MessageHandler
-(
-false
-)
 {
 }
 void
@@ -4413,10 +4408,6 @@ void
 functor
 )
 :
-MessageHandler
-(
-false
-)
 functor_
 (
 functor

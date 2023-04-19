@@ -95,10 +95,6 @@ AudioTransport
 audio_transport
 )
 :
-MessageHandler
-(
-false
-)
 audio_transport_
 (
 audio_transport
