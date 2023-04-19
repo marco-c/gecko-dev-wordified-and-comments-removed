@@ -507,7 +507,7 @@ RTC_GUARDED_BY
 task_queue_
 )
 =
-true
+false
 ;
 bool
 is_shutdown_

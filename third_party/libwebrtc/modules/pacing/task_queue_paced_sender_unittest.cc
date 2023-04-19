@@ -3151,7 +3151,7 @@ Bytes
 TEST
 (
 TaskQueuePacedSenderTest
-DISABLED_NoStatsUpdatesBeforeStart
+NoStatsUpdatesBeforeStart
 )
 {
 const
