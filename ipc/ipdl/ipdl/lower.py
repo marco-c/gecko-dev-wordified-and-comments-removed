@@ -5289,112 +5289,6 @@ getPtrName
 )
     
 def
-callOperatorEq
-(
-self
-rhs
-)
-:
-        
-if
-self
-.
-ipdltype
-.
-isIPDL
-(
-)
-and
-self
-.
-ipdltype
-.
-isActor
-(
-)
-:
-            
-rhs
-=
-ExprCast
-(
-rhs
-self
-.
-bareType
-(
-)
-const
-=
-True
-)
-        
-elif
-(
-            
-self
-.
-ipdltype
-.
-isIPDL
-(
-)
-            
-and
-self
-.
-ipdltype
-.
-isArray
-(
-)
-            
-and
-not
-isinstance
-(
-rhs
-ExprMove
-)
-        
-)
-:
-            
-rhs
-=
-ExprCall
-(
-ExprSelect
-(
-rhs
-"
-.
-"
-"
-Clone
-"
-)
-args
-=
-[
-]
-)
-        
-return
-ExprAssn
-(
-ExprDeref
-(
-self
-.
-callGetPtr
-(
-)
-)
-rhs
-)
-    
-def
 callCtor
 (
 self
@@ -16992,75 +16886,18 @@ args
 )
     
 def
-callMaybeDestroy
+maybeDestroy
 (
-newTypeVar
 )
 :
         
 return
+StmtExpr
+(
 ExprCall
 (
 maybedtorvar
-args
-=
-[
-newTypeVar
-]
 )
-    
-def
-maybeReconstruct
-(
-memb
-newTypeVar
-)
-:
-        
-ifdied
-=
-StmtIf
-(
-callMaybeDestroy
-(
-newTypeVar
-)
-)
-        
-ifdied
-.
-addifstmt
-(
-StmtExpr
-(
-memb
-.
-callCtor
-(
-)
-)
-)
-        
-return
-ifdied
-    
-def
-voidCast
-(
-expr
-)
-:
-        
-return
-ExprCast
-(
-expr
-Type
-.
-VOID
-static
-=
-True
 )
     
 gettypedeps
@@ -17448,45 +17285,21 @@ Whitespace
 NL
 )
     
-newtypevar
-=
-ExprVar
-(
-"
-aNewType
-"
-)
-    
 maybedtor
 =
 MethodDefn
 (
-        
 MethodDecl
 (
-            
 maybedtorvar
 .
 name
-params
-=
-[
-Decl
-(
-typetype
-newtypevar
-.
-name
-)
-]
 ret
 =
 Type
 .
-BOOL
-        
+VOID
 )
-    
 )
     
 ifnone
@@ -17509,32 +17322,8 @@ ifnone
 addifstmt
 (
 StmtReturn
-.
-TRUE
-)
-    
-ifnochange
-=
-StmtIf
 (
-ExprBinary
-(
-mtypevar
-"
-=
-=
-"
-newtypevar
 )
-)
-    
-ifnochange
-.
-addifstmt
-(
-StmtReturn
-.
-FALSE
 )
     
 dtorswitch
@@ -17616,11 +17405,7 @@ addstmts
 (
 [
 ifnone
-ifnochange
 dtorswitch
-StmtReturn
-.
-TRUE
 ]
 )
     
@@ -18427,13 +18212,8 @@ getTypeName
                     
 StmtExpr
 (
-                        
-voidCast
-(
-                            
 ExprCall
 (
-                                
 ExprSelect
 (
 othervar
@@ -18442,16 +18222,7 @@ othervar
 "
 maybedtorvar
 )
-args
-=
-[
-tnonevar
-]
-                            
 )
-                        
-)
-                    
 )
                 
 ]
@@ -18624,15 +18395,8 @@ dtor
 .
 addstmt
 (
-StmtExpr
+maybeDestroy
 (
-voidCast
-(
-callMaybeDestroy
-(
-tnonevar
-)
-)
 )
 )
     
@@ -18764,21 +18528,15 @@ addstmts
                 
 [
                     
-maybeReconstruct
+maybeDestroy
 (
-c
-c
-.
-enumvar
-(
-)
 )
                     
 StmtExpr
 (
 c
 .
-callOperatorEq
+callCtor
 (
 rhsvar
 )
@@ -18879,21 +18637,15 @@ addstmts
             
 [
                 
-maybeReconstruct
+maybeDestroy
 (
-c
-c
-.
-enumvar
-(
-)
 )
                 
 StmtExpr
 (
 c
 .
-callOperatorEq
+callCtor
 (
 ExprMove
 (
@@ -19014,10 +18766,8 @@ addstmts
                 
 [
                     
-maybeReconstruct
+maybeDestroy
 (
-c
-rhstypevar
 )
                     
 StmtExpr
@@ -19025,7 +18775,7 @@ StmtExpr
                         
 c
 .
-callOperatorEq
+callCtor
 (
                             
 ExprCall
@@ -19085,34 +18835,14 @@ name
             
 StmtBlock
 (
-                
 [
-                    
-StmtExpr
+maybeDestroy
 (
-                        
-ExprCast
-(
-callMaybeDestroy
-(
-rhstypevar
 )
-Type
-.
-VOID
-static
-=
-True
-)
-                    
-)
-                    
 StmtBreak
 (
 )
-                
 ]
-            
 )
         
 )
@@ -19289,15 +19019,8 @@ addstmts
                 
 [
                     
-StmtExpr
+maybeDestroy
 (
-voidCast
-(
-callMaybeDestroy
-(
-tnonevar
-)
-)
 )
                     
 StmtExpr
@@ -19349,10 +19072,8 @@ addstmts
                 
 [
                     
-maybeReconstruct
+maybeDestroy
 (
-c
-rhstypevar
 )
                     
 StmtExpr
@@ -19360,7 +19081,7 @@ StmtExpr
                         
 c
 .
-callOperatorEq
+callCtor
 (
                             
 ExprMove
@@ -19388,13 +19109,8 @@ getTypeName
                     
 StmtExpr
 (
-                        
-voidCast
-(
-                            
 ExprCall
 (
-                                
 ExprSelect
 (
 rhsvar
@@ -19403,16 +19119,7 @@ rhsvar
 "
 maybedtorvar
 )
-args
-=
-[
-tnonevar
-]
-                            
 )
-                        
-)
-                    
 )
                 
 ]
@@ -19460,15 +19167,8 @@ name
 StmtBlock
 (
 [
-StmtExpr
+maybeDestroy
 (
-voidCast
-(
-callMaybeDestroy
-(
-rhstypevar
-)
-)
 )
 StmtBreak
 (
