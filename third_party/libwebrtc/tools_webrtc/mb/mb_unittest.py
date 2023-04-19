@@ -14,6 +14,19 @@ import
 ast
 import
 json
+try
+:
+  
+from
+StringIO
+import
+StringIO
+except
+ImportError
+:
+  
+from
+io
 import
 StringIO
 import
@@ -702,11 +715,6 @@ def
 TempFile
 (
 self
-mode
-=
-'
-w
-'
 )
 :
     
@@ -902,9 +910,6 @@ r
 path
 )
     
-else
-:
-      
 return
 re
 .
@@ -8027,8 +8032,6 @@ sys
 .
 stdout
 =
-StringIO
-.
 StringIO
 (
 )
