@@ -15284,6 +15284,11 @@ GetInnerWindow
 (
 )
 ;
+if
+(
+win
+)
+{
 RefPtr
 <
 MediaDevices
@@ -15378,6 +15383,7 @@ eYes
 nullptr
 )
 ;
+}
 }
 }
 }
