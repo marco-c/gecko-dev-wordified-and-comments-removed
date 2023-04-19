@@ -19748,7 +19748,11 @@ SearchUtils
 .
 BROWSER_SEARCH_PREF
 }
-separatePrivateDefaultUrlbarResultEnabled
+separatePrivateDefault
+.
+urlbarResult
+.
+enabled
 nimbusPrivateDefaultUrlbarResultEnabled
 )
 ;
