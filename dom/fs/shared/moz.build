@@ -7,6 +7,11 @@ dom
 =
 [
 "
+FileSystemActorHolder
+.
+h
+"
+"
 FileSystemTypes
 .
 h
@@ -23,6 +28,11 @@ IPDL_SOURCES
 [
 "
 PBackgroundFileSystem
+.
+ipdl
+"
+"
+POriginPrivateFileSystem
 .
 ipdl
 "
