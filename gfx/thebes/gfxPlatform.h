@@ -1558,7 +1558,10 @@ virtual
 bool
 IsFontFormatSupported
 (
-uint8_t
+mozilla
+:
+:
+StyleFontFaceSourceFormatKeyword
 aFormatHint
 )
 ;
