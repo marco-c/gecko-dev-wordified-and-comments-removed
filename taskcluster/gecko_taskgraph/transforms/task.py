@@ -2846,6 +2846,20 @@ use
 sccache
 "
 )
+and
+config
+.
+params
+[
+"
+project
+"
+]
+!
+=
+"
+toolchains
+"
 :
         
 features
@@ -4524,6 +4538,20 @@ use
 sccache
 "
 )
+and
+config
+.
+params
+[
+"
+project
+"
+]
+!
+=
+"
+toolchains
+"
 :
         
 features
