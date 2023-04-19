@@ -2570,6 +2570,13 @@ void
 )
 >
 callback_unused
+=
+[
+]
+(
+)
+{
+}
 ;
 rtc
 :
