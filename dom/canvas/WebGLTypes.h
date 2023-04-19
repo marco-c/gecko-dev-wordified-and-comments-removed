@@ -714,15 +714,6 @@ BGRX8
 BGRA8
 }
 ;
-std
-:
-:
-string
-ToString
-(
-WebGLTexelFormat
-)
-;
 enum
 class
 WebGLTexImageFunc
