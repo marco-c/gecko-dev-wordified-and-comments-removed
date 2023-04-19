@@ -14,6 +14,8 @@ scripts
 "
 "
 "
+import
+taskgraph
 from
 mozbuild
 .
@@ -84,8 +86,6 @@ from
 gecko_taskgraph
 import
 GECKO
-import
-gecko_taskgraph
 CACHE_TYPE
 =
 "
@@ -865,8 +865,6 @@ taskdesc
 )
     
 if
-(
-        
 job
 .
 get
@@ -887,14 +885,11 @@ cached_task
 is
 not
 False
-        
 and
 not
-gecko_taskgraph
+taskgraph
 .
 fast
-    
-)
 :
         
 name

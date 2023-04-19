@@ -16,6 +16,8 @@ mozpack
 path
 as
 mozpath
+import
+taskgraph
 from
 mach
 .
@@ -55,8 +57,6 @@ taskgraph
 taskgraph
 import
 TaskGraph
-import
-gecko_taskgraph
 from
 gecko_taskgraph
 .
@@ -442,7 +442,7 @@ ci
 "
 )
     
-gecko_taskgraph
+taskgraph
 .
 fast
 =

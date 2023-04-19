@@ -68,9 +68,6 @@ mozilla
 .
 com
 "
-fast
-=
-False
 def
 register
 (

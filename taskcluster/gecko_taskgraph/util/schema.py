@@ -9,6 +9,8 @@ collections
 .
 abc
 import
+taskgraph
+import
 voluptuous
 from
 taskgraph
@@ -18,8 +20,6 @@ util
 keyed_by
 import
 evaluate_keyed_by
-import
-gecko_taskgraph
 def
 validate_schema
 (
@@ -56,7 +56,7 @@ msg_prefix
 "
     
 if
-gecko_taskgraph
+taskgraph
 .
 fast
 :
@@ -1432,7 +1432,7 @@ check
         
 if
 not
-gecko_taskgraph
+taskgraph
 .
 fast
 and
@@ -1502,7 +1502,7 @@ schema
 :
         
 if
-gecko_taskgraph
+taskgraph
 .
 fast
 :

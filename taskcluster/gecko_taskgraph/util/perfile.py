@@ -6,6 +6,8 @@ import
 logging
 import
 math
+import
+taskgraph
 from
 mozbuild
 .
@@ -24,8 +26,6 @@ from
 gecko_taskgraph
 import
 files_changed
-import
-gecko_taskgraph
 from
 .
 .
@@ -52,7 +52,7 @@ type
 :
     
 if
-gecko_taskgraph
+taskgraph
 .
 fast
 and

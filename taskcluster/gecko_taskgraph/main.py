@@ -520,7 +520,7 @@ None
 :
     
 import
-gecko_taskgraph
+taskgraph
     
 from
 taskgraph
@@ -595,7 +595,7 @@ fast
 ]
 :
         
-gecko_taskgraph
+taskgraph
 .
 fast
 =

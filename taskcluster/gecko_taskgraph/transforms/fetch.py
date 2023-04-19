@@ -5,7 +5,7 @@ re
 import
 attr
 import
-gecko_taskgraph
+taskgraph
 from
 mozbuild
 .
@@ -35,6 +35,13 @@ Any
 Extra
 Optional
 Required
+import
+gecko_taskgraph
+from
+.
+base
+import
+TransformSequence
 from
 .
 .
@@ -52,11 +59,6 @@ schema
 import
 Schema
 validate_schema
-from
-.
-base
-import
-TransformSequence
 CACHE_TYPE
 =
 "
@@ -1006,7 +1008,7 @@ True
         
 if
 not
-gecko_taskgraph
+taskgraph
 .
 fast
 :

@@ -3,7 +3,7 @@ collections
 import
 deque
 import
-gecko_taskgraph
+taskgraph
 from
 gecko_taskgraph
 .
@@ -235,7 +235,7 @@ tasks
 :
     
 if
-gecko_taskgraph
+taskgraph
 .
 fast
 :
