@@ -1,0 +1,7 @@
+logScript
+(
+"
+Async1
+"
+)
+;

@@ -1,0 +1,7 @@
+logScript
+(
+"
+Sync1
+"
+)
+;
