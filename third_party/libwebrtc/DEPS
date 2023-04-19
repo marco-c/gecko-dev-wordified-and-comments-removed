@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-b72fec99364d809270760c3f811b945cced4ddb4
+efac5a99cbdd946a2f6e5ca7d02baccfc4c131d9
 '
 #
 Keep
@@ -165,7 +165,7 @@ chromium
 src
 /
 base
-e032b04d0104d99e72a1a883e73c5aba5663dd8e
+df6f8608afb6b13b4cf0977ad1c8223ad47c589a
 '
 '
 src
@@ -189,7 +189,7 @@ chromium
 src
 /
 build
-651447b0a4063255faceb181493d87bb25772fa6
+a0c5fed59aa78da80841d0274f1d7693725c0f85
 '
 '
 src
@@ -309,7 +309,7 @@ chromium
 src
 /
 ios
-85682a04deda47a2d806d806420e479a578efdcd
+7dd81fcb2743ebc559c55cebdebb1f7b4ecca166
 '
 '
 condition
@@ -341,7 +341,7 @@ chromium
 src
 /
 testing
-0b1474ebfc91b316e09b9f3b7403a49b8191bb50
+3c1c4aff9e6a36f0adf8f6ffb0fefcb85484bd84
 '
 '
 src
@@ -365,7 +365,7 @@ chromium
 src
 /
 third_party
-47b4d0f696bde2e6a6fa3361367ded387bc13f05
+a006284e226806542c4c76a29e0844fabc63636e
 '
 '
 src
@@ -402,7 +402,7 @@ version
 '
 git_revision
 :
-859dde4a7f34a4383179522f8e1061dcffac8691
+5eb3845ec2d8296b4f41da4eca85302eb111fe69
 '
 }
 ]
@@ -460,7 +460,7 @@ version
 '
 git_revision
 :
-859dde4a7f34a4383179522f8e1061dcffac8691
+5eb3845ec2d8296b4f41da4eca85302eb111fe69
 '
 }
 ]
@@ -514,7 +514,7 @@ version
 '
 git_revision
 :
-859dde4a7f34a4383179522f8e1061dcffac8691
+5eb3845ec2d8296b4f41da4eca85302eb111fe69
 '
 }
 ]
@@ -996,7 +996,7 @@ com
 boringssl
 .
 git
-225e8d39b50757af56e61cd0aa7958c56c487d54
+27ffcc6e19bbafddf1b59ec0bc6df2904de7eb2c
 '
 '
 src
@@ -1048,7 +1048,7 @@ com
 catapult
 .
 git
-c4e6210aa8f95629115cd735050009305005126f
+ec5b00893893ed726e7ab9e2ac189899fe198572
 '
 '
 src
@@ -1178,7 +1178,7 @@ tools
 depot_tools
 .
 git
-a9c548efd6321696a63508c63fcd66ec7d59f536
+228634647e2358c6c8140bf98624a928d2604f9c
 '
 '
 src
@@ -1374,7 +1374,7 @@ third_party
 freetype2
 .
 git
-aee6b9472732c627ff844d4fb75a588d388b6570
+a1ca70102373fec0b98ac525885b34771c2604aa
 '
 '
 src
@@ -2060,7 +2060,7 @@ external
 perfetto
 .
 git
-361bf1871e2aef2569778faa1e3c6131d52910ed
+341b4249f0262485d55003dc533942d0bb5cc0ff
 '
 '
 src
@@ -2554,7 +2554,7 @@ chromium
 src
 /
 tools
-b45366e575c822bb432f70a48ec7b4b31a5b0457
+08724f7483c955bf67d7cdbd103a29f220884291
 '
 '
 src
