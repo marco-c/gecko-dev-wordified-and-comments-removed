@@ -3382,7 +3382,7 @@ lifetime
 id
 :
 "
-PB_NEWTAB_PIN_PROMO
+PB_PIN_PROMO
 "
 template
 :
@@ -3611,7 +3611,7 @@ data
 id
 :
 "
-PB_NEWTAB_PIN_PROMO
+PB_PIN_PROMO
 "
 }
 }
