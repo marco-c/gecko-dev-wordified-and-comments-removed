@@ -104,8 +104,10 @@ UtilityProcessChild
 >
 mUtility
 =
-new
 UtilityProcessChild
+:
+:
+GetSingleton
 (
 )
 ;
