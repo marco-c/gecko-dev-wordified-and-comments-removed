@@ -6132,13 +6132,6 @@ peerconnection_java
 "
 /
 /
-base
-:
-base_java_test_support
-"
-"
-/
-/
 third_party
 /
 androidx
