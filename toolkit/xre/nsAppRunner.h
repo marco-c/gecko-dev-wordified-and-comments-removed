@@ -251,6 +251,15 @@ aResult
 )
 ;
 nsresult
+NS_NewToolkitProfileFactory
+(
+nsIFactory
+*
+*
+aResult
+)
+;
+nsresult
 NS_LockProfilePath
 (
 nsIFile
