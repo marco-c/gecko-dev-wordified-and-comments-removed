@@ -319,11 +319,6 @@ kMaxFrameReferences
 ]
 ;
 bool
-inter_layer_predicted
-=
-false
-;
-bool
 is_last_spatial_layer
 =
 true
