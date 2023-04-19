@@ -426,6 +426,17 @@ rtc_pc_base
 .
 .
 /
+pc
+:
+session_description
+"
+"
+.
+.
+/
+.
+.
+/
 rtc_base
 "
 "
