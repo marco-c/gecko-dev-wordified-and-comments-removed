@@ -154,7 +154,8 @@ a
 map
 of
 buildbot
-master
+builder
+group
 names
 -
 >
@@ -226,7 +227,7 @@ not
 alphabetically
 .
 '
-masters
+builder_groups
 '
 :
 {

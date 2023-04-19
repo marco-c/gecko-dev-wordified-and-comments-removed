@@ -448,7 +448,8 @@ or
 by
 specifying
 the
-master
+builder
+group
 name
 and
 builder

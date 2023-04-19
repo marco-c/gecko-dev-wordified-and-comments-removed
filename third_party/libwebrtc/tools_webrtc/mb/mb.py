@@ -250,7 +250,7 @@ configs
     
 self
 .
-masters
+builder_groups
 =
 {
 }
@@ -437,13 +437,22 @@ m
 '
 -
 -
+builder
+-
+group
+'
+                        
+'
+-
+-
 master
 '
                         
 help
 =
 '
-master
+builder
+group
 name
 to
 look
@@ -2243,12 +2252,12 @@ obj
 }
     
 for
-master
+builder_group
 builders
 in
 self
 .
-masters
+builder_groups
 .
 items
 (
@@ -2257,7 +2266,7 @@ items
       
 obj
 [
-master
+builder_group
 ]
 =
 {
@@ -2273,9 +2282,9 @@ config
 =
 self
 .
-masters
+builder_groups
 [
-master
+builder_group
 ]
 [
 builder
@@ -2369,7 +2378,7 @@ continue
         
 obj
 [
-master
+builder_group
 ]
 [
 builder
@@ -3281,11 +3290,11 @@ all_configs
 }
     
 for
-master
+builder_group
 in
 self
 .
-masters
+builder_groups
 :
       
 for
@@ -3293,9 +3302,9 @@ config
 in
 self
 .
-masters
+builder_groups
 [
-master
+builder_group
 ]
 .
 values
@@ -3326,7 +3335,7 @@ all_configs
 c
 ]
 =
-master
+builder_group
         
 else
 :
@@ -3336,7 +3345,7 @@ all_configs
 config
 ]
 =
-master
+builder_group
     
 for
 config
@@ -3754,7 +3763,7 @@ self
 .
 args
 .
-master
+builder_group
 or
 self
 .
@@ -4242,12 +4251,12 @@ configs
     
 self
 .
-masters
+builder_groups
 =
 contents
 [
 '
-masters
+builder_groups
 '
 ]
     
@@ -4372,7 +4381,7 @@ self
 .
 args
 .
-master
+builder_group
 or
 self
 .
@@ -4401,11 +4410,13 @@ m
 /
 -
 -
-master
-or
+builder
+-
+group
 '
                     
 '
+or
 -
 b
 /
@@ -4428,7 +4439,7 @@ self
 .
 args
 .
-master
+builder_group
 or
 not
 self
@@ -4461,7 +4472,9 @@ m
 /
 -
 -
-master
+builder
+-
+group
 and
 -
 b
@@ -4479,11 +4492,11 @@ self
 .
 args
 .
-master
+builder_group
 in
 self
 .
-masters
+builder_groups
 :
       
 raise
@@ -4511,7 +4524,7 @@ self
 .
 args
 .
-master
+builder_group
 self
 .
 args
@@ -4530,19 +4543,20 @@ builder
 in
 self
 .
-masters
+builder_groups
 [
 self
 .
 args
 .
-master
+builder_group
 ]
 :
       
 raise
 MBErr
 (
+          
 '
 Builder
 name
@@ -4553,7 +4567,7 @@ s
 not
 found
 under
-masters
+builder_groups
 [
 %
 s
@@ -4565,7 +4579,7 @@ s
 "
 '
 %
-                  
+          
 (
 self
 .
@@ -4576,7 +4590,7 @@ self
 .
 args
 .
-master
+builder_group
 self
 .
 args
@@ -4589,13 +4603,13 @@ config
 =
 self
 .
-masters
+builder_groups
 [
 self
 .
 args
 .
-master
+builder_group
 ]
 [
 self
@@ -4653,7 +4667,7 @@ self
 .
 args
 .
-master
+builder_group
 )
 )
       
@@ -4707,7 +4721,7 @@ self
 .
 args
 .
-master
+builder_group
 )
 )
       
@@ -4759,7 +4773,7 @@ self
 .
 args
 .
-master
+builder_group
 )
 )
     
