@@ -1023,13 +1023,6 @@ ROLE_MATHML_ROOT
 const
 unsigned
 long
-ROLE_MATHML_FENCED
-=
-142
-;
-const
-unsigned
-long
 ROLE_MATHML_ENCLOSED
 =
 143

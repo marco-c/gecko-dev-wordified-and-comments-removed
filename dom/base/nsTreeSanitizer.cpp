@@ -2861,10 +2861,6 @@ merror_
 nsGkAtoms
 :
 :
-mfenced_
-nsGkAtoms
-:
-:
 mfrac_
 nsGkAtoms
 :
