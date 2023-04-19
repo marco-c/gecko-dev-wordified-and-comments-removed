@@ -393,14 +393,6 @@ in
 "
 chrome
 /
-global
-.
-dtd
-"
-            
-"
-chrome
-/
 accessibility
 /
 AccessFu
