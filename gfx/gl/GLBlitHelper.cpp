@@ -5200,7 +5200,7 @@ case
 ImageFormat
 :
 :
-CAIRO_SURFACE
+MOZ2D_SURFACE
 :
 case
 ImageFormat

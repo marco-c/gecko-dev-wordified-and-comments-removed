@@ -5212,7 +5212,7 @@ nullptr
 ImageFormat
 :
 :
-CAIRO_SURFACE
+MOZ2D_SURFACE
 )
 mSize
 (
@@ -5250,7 +5250,7 @@ nullptr
 ImageFormat
 :
 :
-CAIRO_SURFACE
+MOZ2D_SURFACE
 )
 mSize
 (

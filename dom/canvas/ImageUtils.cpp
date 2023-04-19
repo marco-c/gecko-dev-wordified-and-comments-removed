@@ -1009,7 +1009,7 @@ mozilla
 ImageFormat
 :
 :
-CAIRO_SURFACE
+MOZ2D_SURFACE
 :
 default
 :
