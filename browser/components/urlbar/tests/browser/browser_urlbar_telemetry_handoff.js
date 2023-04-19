@@ -10,7 +10,7 @@ SearchSERPTelemetry
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -22,7 +22,9 @@ modules
 /
 SearchSERPTelemetry
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

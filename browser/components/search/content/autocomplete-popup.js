@@ -4,9 +4,9 @@ strict
 "
 ;
 {
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -22,7 +22,9 @@ modules
 /
 SearchOneOffs
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
@@ -892,9 +894,12 @@ tab
 "
 &
 &
-aEvent
-instanceof
 MouseEvent
+.
+isInstance
+(
+aEvent
+)
 &
 &
 (

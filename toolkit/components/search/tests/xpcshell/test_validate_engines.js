@@ -10,7 +10,7 @@ SearchService
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 SearchService
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

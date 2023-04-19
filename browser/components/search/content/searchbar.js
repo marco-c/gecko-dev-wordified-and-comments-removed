@@ -629,7 +629,7 @@ SearchSuggestionController
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -642,7 +642,9 @@ modules
 /
 SearchSuggestionController
 .
-jsm
+sys
+.
+mjs
 "
 )
 .

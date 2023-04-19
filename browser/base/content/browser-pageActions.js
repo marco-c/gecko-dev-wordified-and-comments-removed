@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 SearchUIUtils
-"
+:
 "
 resource
 :
@@ -16,8 +16,11 @@ modules
 /
 SearchUIUtils
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 var

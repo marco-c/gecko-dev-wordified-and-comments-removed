@@ -3,9 +3,9 @@ use
 strict
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -22,7 +22,9 @@ modules
 /
 SearchEngineSelector
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
