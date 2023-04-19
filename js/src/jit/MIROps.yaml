@@ -4096,6 +4096,9 @@ if_operands_equal
 alias_set
 :
 custom
+might_alias
+:
+custom
 clone
 :
 true
@@ -5254,6 +5257,9 @@ congruent_to
 :
 custom
 alias_set
+:
+custom
+might_alias
 :
 custom
 -
