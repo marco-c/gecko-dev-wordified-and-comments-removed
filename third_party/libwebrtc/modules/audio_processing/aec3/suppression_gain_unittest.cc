@@ -381,6 +381,7 @@ f
 )
 )
 )
+false
 &
 high_bands_gain
 nullptr
@@ -865,6 +866,7 @@ N2
 analyzer
 aec_state
 x
+false
 &
 high_bands_gain
 &
@@ -1039,6 +1041,7 @@ N2
 analyzer
 aec_state
 x
+false
 &
 high_bands_gain
 &
@@ -1133,6 +1136,7 @@ N2
 analyzer
 aec_state
 x
+false
 &
 high_bands_gain
 &

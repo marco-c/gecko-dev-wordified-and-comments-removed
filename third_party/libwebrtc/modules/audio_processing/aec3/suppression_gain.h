@@ -274,6 +274,8 @@ float
 >
 &
 render
+bool
+clock_drift
 float
 *
 high_bands_gain
@@ -487,6 +489,8 @@ kFftLengthBy2Plus1
 >
 >
 comfort_noise
+bool
+clock_drift
 std
 :
 :
