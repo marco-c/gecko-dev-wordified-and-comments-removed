@@ -3339,6 +3339,14 @@ aY
 nullptr
 )
 ;
+bool
+WaylandPopupAnchorAnjustForParentPopup
+(
+GdkRectangle
+&
+aPopupAnchor
+)
+;
 nsWindow
 *
 WaylandPopupGetTopmostWindow
