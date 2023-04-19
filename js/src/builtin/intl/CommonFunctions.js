@@ -126,10 +126,12 @@ start
 <
 0
 )
+{
 return
 -
 1
 ;
+}
 var
 privateExt
 =
@@ -156,10 +158,12 @@ privateExt
 <
 start
 )
+{
 return
 -
 1
 ;
+}
 return
 start
 ;
@@ -305,8 +309,10 @@ i
 =
 HYPHEN
 )
+{
 continue
 ;
+}
 if
 (
 callFunction
@@ -322,9 +328,11 @@ i
 =
 HYPHEN
 )
+{
 return
 i
 ;
+}
 i
 +
 =
@@ -372,9 +380,11 @@ start
 <
 0
 )
+{
 return
 locale
 ;
+}
 var
 end
 =
@@ -593,9 +603,11 @@ c
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -627,11 +639,13 @@ localeCache
 runtimeDefaultLocale
 )
 )
+{
 return
 localeCache
 .
 defaultLocale
 ;
+}
 var
 runtimeDefaultLocale
 =
@@ -711,10 +725,12 @@ locales
 =
 undefined
 )
+{
 return
 [
 ]
 ;
+}
 var
 tag
 =
@@ -829,11 +845,13 @@ kValue
 )
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_INVALID_LOCALES_ELEMENT
 )
 ;
+}
 var
 tag
 =
@@ -876,6 +894,7 @@ tag
 -
 1
 )
+{
 DefineDataProperty
 (
 seen
@@ -885,6 +904,7 @@ length
 tag
 )
 ;
+}
 }
 k
 +
@@ -1009,6 +1029,7 @@ locale
 =
 noExtensionsLocale
 )
+{
 result
 .
 extension
@@ -1018,6 +1039,7 @@ getUnicodeExtensions
 locale
 )
 ;
+}
 return
 result
 ;
@@ -1252,8 +1274,10 @@ len
 =
 2
 )
+{
 break
 ;
+}
 if
 (
 e
@@ -1309,10 +1333,12 @@ extension
 searchValue
 )
 )
+{
 return
 "
 "
 ;
+}
 }
 function
 ResolveLocale
@@ -1626,6 +1652,7 @@ keyLocaleData
 =
 undefined
 )
+{
 keyLocaleData
 =
 callFunction
@@ -1638,6 +1665,7 @@ null
 foundLocale
 )
 ;
+}
 if
 (
 callFunction
@@ -1745,6 +1773,7 @@ length
 >
 2
 )
+{
 foundLocale
 =
 addUnicodeExtension
@@ -1753,6 +1782,7 @@ foundLocale
 supportedExtension
 )
 ;
+}
 result
 .
 locale
@@ -2024,6 +2054,7 @@ availableLocale
 =
 undefined
 )
+{
 DefineDataProperty
 (
 subset
@@ -2033,6 +2064,7 @@ length
 locale
 )
 ;
+}
 }
 return
 subset
@@ -2122,12 +2154,14 @@ best
 fit
 "
 )
+{
 ThrowRangeError
 (
 JSMSG_INVALID_LOCALE_MATCHER
 matcher
 )
 ;
+}
 }
 }
 return
@@ -2199,6 +2233,7 @@ type
 boolean
 "
 )
+{
 value
 =
 ToBoolean
@@ -2206,6 +2241,7 @@ ToBoolean
 value
 )
 ;
+}
 else
 if
 (
@@ -2217,6 +2253,7 @@ type
 string
 "
 )
+{
 value
 =
 ToString
@@ -2224,7 +2261,9 @@ ToString
 value
 )
 ;
+}
 else
+{
 assert
 (
 false
@@ -2233,6 +2272,7 @@ GetOption
 "
 )
 ;
+}
 if
 (
 values
@@ -2254,6 +2294,7 @@ value
 -
 1
 )
+{
 ThrowRangeError
 (
 JSMSG_INVALID_OPTION_VALUE
@@ -2265,6 +2306,7 @@ value
 "
 )
 ;
+}
 return
 value
 ;
@@ -2311,9 +2353,11 @@ value
 =
 undefined
 )
+{
 return
 fallback
 ;
+}
 if
 (
 value
@@ -2322,17 +2366,21 @@ value
 =
 true
 )
+{
 return
 trueValue
 ;
+}
 if
 (
 !
 value
 )
+{
 return
 falsyValue
 ;
+}
 value
 =
 ToString
@@ -2354,9 +2402,11 @@ value
 -
 1
 )
+{
 return
 fallback
 ;
+}
 return
 value
 ;
@@ -2491,9 +2541,11 @@ value
 =
 undefined
 )
+{
 return
 fallback
 ;
+}
 value
 =
 ToNumber
@@ -2518,12 +2570,14 @@ value
 >
 maximum
 )
+{
 ThrowRangeError
 (
 JSMSG_INVALID_DIGITS_VALUE
 value
 )
 ;
+}
 return
 std_Math_floor
 (
@@ -2951,9 +3005,11 @@ if
 (
 lazyData
 )
+{
 return
 null
 ;
+}
 assert
 (
 IsObject
@@ -3352,9 +3408,11 @@ if
 (
 internalProps
 )
+{
 return
 internalProps
 ;
+}
 var
 type
 =
@@ -3372,6 +3430,7 @@ type
 Collator
 "
 )
+{
 internalProps
 =
 resolveCollatorInternals
@@ -3381,6 +3440,7 @@ internals
 lazyData
 )
 ;
+}
 else
 if
 (
@@ -3392,6 +3452,7 @@ type
 DateTimeFormat
 "
 )
+{
 internalProps
 =
 resolveDateTimeFormatInternals
@@ -3401,6 +3462,7 @@ internals
 lazyData
 )
 ;
+}
 else
 if
 (
@@ -3412,6 +3474,7 @@ type
 DisplayNames
 "
 )
+{
 internalProps
 =
 resolveDisplayNamesInternals
@@ -3421,6 +3484,7 @@ internals
 lazyData
 )
 ;
+}
 else
 if
 (
@@ -3432,6 +3496,7 @@ type
 ListFormat
 "
 )
+{
 internalProps
 =
 resolveListFormatInternals
@@ -3441,6 +3506,7 @@ internals
 lazyData
 )
 ;
+}
 else
 if
 (
@@ -3452,6 +3518,7 @@ type
 NumberFormat
 "
 )
+{
 internalProps
 =
 resolveNumberFormatInternals
@@ -3461,6 +3528,7 @@ internals
 lazyData
 )
 ;
+}
 else
 if
 (
@@ -3472,6 +3540,7 @@ type
 PluralRules
 "
 )
+{
 internalProps
 =
 resolvePluralRulesInternals
@@ -3481,7 +3550,9 @@ internals
 lazyData
 )
 ;
+}
 else
+{
 internalProps
 =
 resolveRelativeTimeFormatInternals
@@ -3491,6 +3562,7 @@ internals
 lazyData
 )
 ;
+}
 setInternalProperties
 (
 internals
