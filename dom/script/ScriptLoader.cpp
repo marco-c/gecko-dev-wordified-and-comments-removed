@@ -18728,7 +18728,7 @@ GetScriptLoadContext
 mInAsyncList
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aRequest
 -
@@ -18738,16 +18738,6 @@ isInList
 )
 )
 ;
-if
-(
-aRequest
--
->
-isInList
-(
-)
-)
-{
 RefPtr
 <
 ScriptLoadRequest
@@ -18768,7 +18758,6 @@ AppendElement
 req
 )
 ;
-}
 }
 else
 if
