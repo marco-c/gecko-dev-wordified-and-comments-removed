@@ -2574,8 +2574,6 @@ GetStreamByIds
 (
 *
 current_streams
-"
-"
 sender
 .
 track_id
