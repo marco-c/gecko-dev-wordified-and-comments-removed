@@ -4304,6 +4304,9 @@ true
 ;
 #
 elif
+0
+&
+&
 defined
 (
 NIGHTLY_BUILD
