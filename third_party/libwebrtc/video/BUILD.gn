@@ -1939,6 +1939,16 @@ mutex
 /
 rtc_base
 /
+system
+:
+no_unique_address
+"
+"
+.
+.
+/
+rtc_base
+/
 task_utils
 :
 pending_task_safety_flag
