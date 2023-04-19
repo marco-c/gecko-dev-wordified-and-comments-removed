@@ -1053,6 +1053,14 @@ DesktopCapturerId
 kWgcCapturerWin
 )
 ;
+frame
+-
+>
+set_may_contain_cursor
+(
+true
+)
+;
 RecordWgcCapturerResult
 (
 WgcCapturerResult
