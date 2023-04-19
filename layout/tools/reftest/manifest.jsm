@@ -50,7 +50,6 @@ globals
 .
 jsm
 "
-this
 )
 ;
 const
