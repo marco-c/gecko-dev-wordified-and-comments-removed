@@ -2202,6 +2202,14 @@ function_view
 .
 .
 /
+api
+:
+network_state_predictor_api
+"
+"
+.
+.
+/
 rtc_base
 :
 deprecation

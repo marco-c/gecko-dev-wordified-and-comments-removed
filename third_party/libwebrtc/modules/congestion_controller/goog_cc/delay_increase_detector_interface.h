@@ -14,13 +14,9 @@ h
 #
 include
 "
-modules
+api
 /
-remote_bitrate_estimator
-/
-include
-/
-bwe_defines
+network_state_predictor
 .
 h
 "

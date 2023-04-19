@@ -619,14 +619,6 @@ pacing
 /
 modules
 /
-remote_bitrate_estimator
-"
-"
-.
-.
-/
-modules
-/
 rtp_rtcp
 "
 "
