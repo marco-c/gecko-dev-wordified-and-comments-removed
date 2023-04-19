@@ -161,11 +161,6 @@ nsGTKToolkit
 h
 "
 "
-nsGtkUtils
-.
-h
-"
-"
 nsImageToPixbuf
 .
 h

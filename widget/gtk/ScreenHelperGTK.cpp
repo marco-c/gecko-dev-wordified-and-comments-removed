@@ -1816,8 +1816,9 @@ ScreenGetterWayland
 (
 )
 {
-MozClearPointer
+g_clear_pointer
 (
+&
 mRegistry
 wl_registry_destroy
 )

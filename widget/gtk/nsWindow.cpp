@@ -2887,8 +2887,9 @@ mWaylandVsyncDispatcher
 =
 nullptr
 ;
-MozClearPointer
+g_clear_pointer
 (
+&
 mXdgToken
 xdg_activation_token_v1_destroy
 )
@@ -14507,8 +14508,9 @@ MakeScopeExit
 (
 )
 {
-MozClearPointer
+g_clear_pointer
 (
+&
 mXdgToken
 xdg_activation_token_v1_destroy
 )
@@ -14956,8 +14958,9 @@ GetSeat
 )
 )
 ;
-MozClearPointer
+g_clear_pointer
 (
+&
 aWindow
 -
 >

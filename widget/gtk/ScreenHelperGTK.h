@@ -48,9 +48,6 @@ endif
 class
 nsWindow
 ;
-struct
-wl_registry
-;
 namespace
 mozilla
 {
@@ -258,7 +255,7 @@ aMonitor
 ;
 private
 :
-wl_registry
+void
 *
 mRegistry
 =

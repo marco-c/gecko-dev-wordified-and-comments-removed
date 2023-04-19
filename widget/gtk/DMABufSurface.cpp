@@ -203,13 +203,6 @@ h
 #
 include
 "
-nsGtkUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers
@@ -4135,8 +4128,9 @@ ReleaseWlBuffer
 (
 )
 {
-MozClearPointer
+g_clear_pointer
 (
+&
 mWlBuffer
 wl_buffer_destroy
 )
