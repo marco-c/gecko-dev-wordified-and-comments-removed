@@ -106,6 +106,11 @@ uint32_t
 available_bw_kbps
 )
 ;
+void
+Reset
+(
+)
+;
 bool
 Enabled
 (
