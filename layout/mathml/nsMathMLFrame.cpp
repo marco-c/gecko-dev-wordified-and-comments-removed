@@ -944,14 +944,6 @@ eCSSUnit_XHeight
 unit
 )
 {
-aPresContext
--
->
-SetUsesFontMetricDependentFontUnits
-(
-true
-)
-;
 RefPtr
 <
 nsFontMetrics

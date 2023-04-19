@@ -1551,14 +1551,6 @@ guards
 parent_style
 parent_style
 layout_parent_style
-&
-self
-.
-context
-.
-thread_local
-.
-font_metrics_provider
 Some
 (
 &
