@@ -168,6 +168,16 @@ symbols
 :
 None
 }
+    
+{
+"
+reprocess
+-
+symbols
+"
+:
+None
+}
 )
 OptimizationSchema
 =
