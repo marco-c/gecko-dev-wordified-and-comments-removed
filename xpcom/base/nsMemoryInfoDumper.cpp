@@ -1954,7 +1954,7 @@ rv
 static_cast
 <
 GZWriterWrapper
-*
+&
 >
 (
 mWriter
@@ -1964,8 +1964,7 @@ WriteFunc
 (
 )
 )
--
->
+.
 Finish
 (
 )
