@@ -366,8 +366,13 @@ NS_DECL_NSIHTMLINLINETABLEEDITOR
 NS_DECL_NSIEDITORMAILSUPPORT
 NS_DECL_NSITABLEEDITOR
 NS_DECL_NSISELECTIONLISTENER
+explicit
 HTMLEditor
 (
+const
+Document
+&
+aDocument
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -8919,8 +8924,6 @@ mCRInParagraphCreatesParagraph
 ;
 bool
 mUseGeckoTraditionalJoinSplitBehavior
-=
-true
 ;
 bool
 mIsObjectResizingEnabled
