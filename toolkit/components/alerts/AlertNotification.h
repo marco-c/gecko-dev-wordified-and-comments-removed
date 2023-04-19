@@ -255,15 +255,6 @@ uint32_t
 >
 mVibrate
 ;
-nsTArray
-<
-RefPtr
-<
-nsIAlertAction
->
->
-mActions
-;
 }
 ;
 }
