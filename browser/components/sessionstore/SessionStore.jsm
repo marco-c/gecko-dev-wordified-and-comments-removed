@@ -15582,9 +15582,15 @@ if
 (
 tabbrowser
 .
-selectedTab
+tabs
 .
-hidden
+length
+>
+tabbrowser
+.
+visibleTabs
+.
+length
 &
 &
 tabbrowser
