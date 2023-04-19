@@ -1179,6 +1179,16 @@ TrackType
 kVideoTrack
 )
 ;
+if
+(
+StaticPrefs
+:
+:
+media_wmf_media_engine_video_output_enabled
+(
+)
+)
+{
 auto
 *
 stream
@@ -1203,6 +1213,10 @@ GetTaskQueue
 )
 aParam
 )
+;
+}
+return
+nullptr
 ;
 }
 mozilla
