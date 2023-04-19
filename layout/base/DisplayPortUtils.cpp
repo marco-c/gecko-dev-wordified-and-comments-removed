@@ -150,6 +150,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_layout
+.
+h
+"
+#
+include
+"
 nsDeckFrame
 .
 h
