@@ -1402,6 +1402,14 @@ null
 /
 )
 ;
+if
+(
+!
+wasmFunctionReferencesEnabled
+(
+)
+)
+{
 assertErrorMessage
 (
 (
@@ -1503,6 +1511,7 @@ type
 /
 )
 ;
+}
 assertErrorMessage
 (
 (
