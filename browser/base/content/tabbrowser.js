@@ -2673,13 +2673,6 @@ pinned
 return
 ;
 }
-if
-(
-aTab
-.
-hidden
-)
-{
 this
 .
 showTab
@@ -2687,7 +2680,6 @@ showTab
 aTab
 )
 ;
-}
 this
 .
 moveTabTo
@@ -18283,6 +18275,12 @@ aTab
 {
 if
 (
+!
+aTab
+.
+hidden
+|
+|
 aTab
 =
 =
@@ -18294,13 +18292,6 @@ tab
 return
 ;
 }
-if
-(
-aTab
-.
-hidden
-)
-{
 aTab
 .
 removeAttribute
@@ -18380,7 +18371,6 @@ hiddenBy
 "
 )
 ;
-}
 }
 hideTab
 (
