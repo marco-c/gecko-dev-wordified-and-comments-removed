@@ -74,6 +74,11 @@ RepeatingTaskBase
 TaskQueueBase
 *
 task_queue
+TaskQueueBase
+:
+:
+DelayPrecision
+precision
 TimeDelta
 first_delay
 Clock
@@ -92,6 +97,10 @@ alive_flag
 task_queue_
 (
 task_queue
+)
+precision_
+(
+precision
 )
 clock_
 (
@@ -235,8 +244,9 @@ Zero
 task_queue_
 -
 >
-PostDelayedTask
+PostDelayedTaskWithPrecision
 (
+precision_
 absl
 :
 :
