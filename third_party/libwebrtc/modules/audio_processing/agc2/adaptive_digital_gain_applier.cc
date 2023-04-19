@@ -580,6 +580,17 @@ frames_to_gain_increase_allowed_
 -
 ;
 }
+apm_data_dumper_
+-
+>
+DumpRaw
+(
+"
+agc2_frames_to_gain_increase_allowed
+"
+frames_to_gain_increase_allowed_
+)
+;
 const
 float
 gain_change_this_frame_db
