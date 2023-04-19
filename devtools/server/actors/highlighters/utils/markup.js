@@ -78,6 +78,10 @@ lazyContainer
 CssLogic
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -89,6 +93,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 true
 )
@@ -102,6 +108,10 @@ this
 isDocumentReady
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -111,6 +121,8 @@ actors
 inspector
 /
 utils
+.
+js
 "
 true
 )

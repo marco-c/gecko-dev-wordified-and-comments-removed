@@ -123,11 +123,17 @@ this
 LocalizationHelper
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 true
 )

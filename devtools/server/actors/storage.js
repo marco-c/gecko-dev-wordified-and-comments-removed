@@ -286,6 +286,10 @@ this
 naturalSortCaseInsensitive
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -293,6 +297,8 @@ shared
 natural
 -
 sort
+.
+js
 "
 true
 )

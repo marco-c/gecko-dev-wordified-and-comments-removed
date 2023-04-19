@@ -96,6 +96,10 @@ this
 dom
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +113,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -121,6 +127,10 @@ this
 getObjectInspector
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -132,6 +142,8 @@ utils
 object
 -
 inspector
+.
+js
 "
 true
 )
@@ -145,6 +157,10 @@ this
 actions
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -154,6 +170,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -166,6 +184,10 @@ this
 PropTypes
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -179,6 +201,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -191,6 +215,10 @@ this
 reps
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -202,6 +230,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 ;
@@ -214,6 +244,10 @@ this
 l10n
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -223,6 +257,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 true
 )

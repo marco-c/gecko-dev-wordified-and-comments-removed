@@ -58,6 +58,10 @@ this
 Telemetry
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +69,8 @@ client
 shared
 /
 telemetry
+.
+js
 "
 )
 ;
@@ -77,6 +83,10 @@ this
 BrowserConsoleManager
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -88,6 +98,8 @@ browser
 console
 -
 manager
+.
+js
 "
 true
 )

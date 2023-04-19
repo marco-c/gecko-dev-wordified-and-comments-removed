@@ -154,11 +154,17 @@ this
 saveAs
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 true
 )
@@ -172,6 +178,10 @@ this
 openContentLink
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -179,6 +189,8 @@ client
 shared
 /
 link
+.
+js
 "
 true
 )
@@ -192,6 +204,10 @@ this
 getElementText
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -201,6 +217,8 @@ webconsole
 utils
 /
 clipboard
+.
+js
 "
 true
 )

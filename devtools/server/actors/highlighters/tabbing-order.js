@@ -46,6 +46,10 @@ isWindowIncluded
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -53,6 +57,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 true
 )
@@ -66,6 +72,10 @@ this
 NodeTabbingOrderHighlighter
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -79,6 +89,8 @@ node
 tabbing
 -
 order
+.
+js
 "
 true
 )

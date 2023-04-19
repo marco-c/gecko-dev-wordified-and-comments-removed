@@ -252,6 +252,10 @@ this
 ResponsiveUIManager
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -259,6 +263,8 @@ client
 responsive
 /
 manager
+.
+js
 "
 )
 ;
@@ -271,6 +277,10 @@ this
 message
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -280,6 +290,8 @@ responsive
 utils
 /
 message
+.
+js
 "
 )
 ;

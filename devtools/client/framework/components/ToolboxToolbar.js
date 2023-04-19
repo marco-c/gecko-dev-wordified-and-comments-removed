@@ -401,6 +401,10 @@ this
 getUnicodeUrl
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -410,6 +414,8 @@ shared
 unicode
 -
 url
+.
+js
 "
 true
 )

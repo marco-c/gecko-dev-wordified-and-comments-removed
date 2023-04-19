@@ -108,6 +108,10 @@ this
 throttlingProfiles
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -119,6 +123,8 @@ components
 throttling
 /
 profiles
+.
+js
 "
 )
 ;
@@ -131,6 +137,10 @@ this
 message
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -140,6 +150,8 @@ responsive
 utils
 /
 message
+.
+js
 "
 )
 ;
@@ -152,6 +164,10 @@ this
 showNotification
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -161,6 +177,8 @@ responsive
 utils
 /
 notification
+.
+js
 "
 true
 )
@@ -174,6 +192,10 @@ this
 PriorityLevels
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -183,6 +205,8 @@ shared
 components
 /
 NotificationBox
+.
+js
 "
 true
 )
@@ -196,6 +220,10 @@ this
 l10n
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -205,6 +233,8 @@ responsive
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -217,6 +247,10 @@ this
 asyncStorage
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -224,6 +258,8 @@ shared
 async
 -
 storage
+.
+js
 "
 )
 ;
@@ -236,6 +272,10 @@ this
 captureAndSaveScreenshot
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -243,6 +283,8 @@ client
 shared
 /
 screenshot
+.
+js
 "
 true
 )

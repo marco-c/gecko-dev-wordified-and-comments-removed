@@ -56,6 +56,10 @@ this
 colorUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -63,6 +67,8 @@ shared
 css
 /
 color
+.
+js
 "
 true
 )
@@ -76,6 +82,10 @@ this
 labColors
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -85,6 +95,8 @@ css
 color
 -
 db
+.
+js
 "
 true
 )
@@ -103,11 +115,17 @@ getContrastRatioAgainstBackground
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 accessibility
+.
+js
 "
 true
 )

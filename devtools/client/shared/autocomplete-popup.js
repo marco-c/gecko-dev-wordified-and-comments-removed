@@ -34,6 +34,10 @@ this
 HTMLTooltip
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -45,6 +49,8 @@ widgets
 tooltip
 /
 HTMLTooltip
+.
+js
 "
 true
 )
@@ -58,6 +64,10 @@ this
 colorUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -65,6 +75,8 @@ shared
 css
 /
 color
+.
+js
 "
 true
 )

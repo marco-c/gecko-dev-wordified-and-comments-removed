@@ -38,6 +38,10 @@ this
 WorkerDescriptorActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -47,6 +51,8 @@ actors
 descriptors
 /
 worker
+.
+js
 "
 true
 )

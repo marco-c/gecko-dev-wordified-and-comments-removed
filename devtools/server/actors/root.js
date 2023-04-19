@@ -153,6 +153,10 @@ this
 ProcessDescriptorActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -162,6 +166,8 @@ actors
 descriptors
 /
 process
+.
+js
 "
 true
 )

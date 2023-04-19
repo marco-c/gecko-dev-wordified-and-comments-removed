@@ -32,11 +32,17 @@ this
 DevToolsUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -99,6 +105,10 @@ this
 setIgnoreLayoutChanges
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -106,6 +116,8 @@ server
 actors
 /
 reflow
+.
+js
 "
 true
 )

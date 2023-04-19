@@ -42,6 +42,10 @@ this
 ChildDebuggerTransport
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -51,6 +55,8 @@ transport
 child
 -
 transport
+.
+js
 "
 true
 )

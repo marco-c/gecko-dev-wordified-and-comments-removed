@@ -115,6 +115,10 @@ this
 WindowGlobalTargetFront
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -126,6 +130,8 @@ targets
 window
 -
 global
+.
+js
 "
 true
 )

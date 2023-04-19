@@ -249,6 +249,10 @@ this
 evalWithDebugger
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -262,6 +266,8 @@ eval
 with
 -
 debugger
+.
+js
 "
 true
 )
@@ -275,6 +281,10 @@ this
 NetworkMonitorActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -288,6 +298,8 @@ monitor
 network
 -
 monitor
+.
+js
 "
 true
 )
@@ -301,6 +313,10 @@ this
 ConsoleFileActivityListener
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -316,6 +332,8 @@ console
 file
 -
 activity
+.
+js
 "
 true
 )
@@ -329,6 +347,10 @@ this
 StackTraceCollector
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -344,6 +366,8 @@ stack
 trace
 -
 collector
+.
+js
 "
 true
 )
@@ -357,6 +381,10 @@ this
 JSPropertyProvider
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -368,6 +396,8 @@ js
 property
 -
 provider
+.
+js
 "
 true
 )
@@ -415,6 +445,10 @@ validCommands
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -424,6 +458,8 @@ actors
 webconsole
 /
 commands
+.
+js
 "
 true
 )
@@ -437,6 +473,10 @@ this
 createMessageManagerMocks
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -450,6 +490,8 @@ message
 manager
 -
 mock
+.
+js
 "
 true
 )
@@ -471,6 +513,10 @@ WebConsoleUtils
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -480,6 +526,8 @@ actors
 webconsole
 /
 utils
+.
+js
 "
 true
 )
@@ -493,6 +541,10 @@ this
 EnvironmentActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -500,6 +552,8 @@ server
 actors
 /
 environment
+.
+js
 "
 true
 )
@@ -513,6 +567,10 @@ this
 EventEmitter
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -520,6 +578,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -532,11 +592,17 @@ this
 MESSAGE_CATEGORY
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 true
 )
@@ -550,6 +616,10 @@ this
 NetworkUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -565,6 +635,8 @@ utils
 network
 -
 utils
+.
+js
 "
 )
 ;
@@ -577,6 +649,10 @@ this
 RESERVED_JS_KEYWORDS
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -588,6 +664,8 @@ reserved
 js
 -
 words
+.
+js
 "
 )
 ;
@@ -610,6 +688,10 @@ ConsoleServiceListener
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -621,6 +703,8 @@ webconsole
 worker
 -
 listeners
+.
+js
 "
 true
 )
@@ -637,6 +721,10 @@ this
 ConsoleAPIListener
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -650,6 +738,8 @@ listeners
 console
 -
 api
+.
+js
 "
 true
 )
@@ -663,6 +753,10 @@ this
 ConsoleServiceListener
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -676,6 +770,8 @@ listeners
 console
 -
 service
+.
+js
 "
 true
 )
@@ -689,6 +785,10 @@ this
 ConsoleReflowListener
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -702,6 +802,8 @@ listeners
 console
 -
 reflow
+.
+js
 "
 true
 )
@@ -715,6 +817,10 @@ this
 ContentProcessListener
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -728,6 +834,8 @@ listeners
 content
 -
 process
+.
+js
 "
 true
 )
@@ -741,6 +849,10 @@ this
 DocumentEventsListener
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -754,6 +866,8 @@ listeners
 document
 -
 events
+.
+js
 "
 true
 )
@@ -768,6 +882,10 @@ this
 ObjectUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -777,6 +895,8 @@ actors
 object
 /
 utils
+.
+js
 "
 )
 ;

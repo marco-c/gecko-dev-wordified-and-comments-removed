@@ -40,6 +40,10 @@ this
 showMenu
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -51,6 +55,8 @@ components
 menu
 /
 utils
+.
+js
 "
 true
 )

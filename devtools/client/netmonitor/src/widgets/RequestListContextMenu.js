@@ -104,6 +104,10 @@ this
 Curl
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -111,6 +115,8 @@ client
 shared
 /
 curl
+.
+js
 "
 true
 )
@@ -124,11 +130,17 @@ this
 saveAs
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 true
 )
@@ -142,6 +154,10 @@ this
 copyString
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -149,6 +165,8 @@ shared
 platform
 /
 clipboard
+.
+js
 "
 true
 )
@@ -162,6 +180,10 @@ this
 showMenu
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -173,6 +195,8 @@ components
 menu
 /
 utils
+.
+js
 "
 true
 )
@@ -186,6 +210,10 @@ this
 HarMenuUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -201,6 +229,8 @@ har
 menu
 -
 utils
+.
+js
 "
 true
 )

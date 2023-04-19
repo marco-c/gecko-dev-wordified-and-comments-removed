@@ -22,6 +22,10 @@ this
 loadSheet
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -29,6 +33,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 true
 )
@@ -42,6 +48,10 @@ this
 removeSheet
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -49,6 +59,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 true
 )

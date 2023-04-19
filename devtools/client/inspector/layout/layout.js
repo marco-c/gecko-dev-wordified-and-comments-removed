@@ -187,6 +187,10 @@ this
 SwatchColorPickerTooltip
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -198,6 +202,8 @@ widgets
 tooltip
 /
 SwatchColorPickerTooltip
+.
+js
 "
 )
 ;

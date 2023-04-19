@@ -186,6 +186,10 @@ this
 openDocLink
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -193,6 +197,8 @@ client
 shared
 /
 link
+.
+js
 "
 true
 )
@@ -206,11 +212,17 @@ this
 assert
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 true
 )

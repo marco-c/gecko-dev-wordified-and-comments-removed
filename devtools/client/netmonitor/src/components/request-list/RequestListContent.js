@@ -240,6 +240,10 @@ this
 openRequestInTab
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -259,6 +263,8 @@ request
 in
 -
 tab
+.
+js
 "
 true
 )

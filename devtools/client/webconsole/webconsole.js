@@ -12,6 +12,10 @@ this
 Utils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -19,6 +23,8 @@ client
 webconsole
 /
 utils
+.
+js
 "
 true
 )
@@ -32,6 +38,10 @@ this
 WebConsoleUI
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -41,6 +51,8 @@ webconsole
 webconsole
 -
 ui
+.
+js
 "
 true
 )
@@ -54,6 +66,10 @@ this
 gDevTools
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -61,6 +77,8 @@ client
 framework
 /
 devtools
+.
+js
 "
 true
 )
@@ -74,6 +92,10 @@ this
 openDocLink
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +103,8 @@ client
 shared
 /
 link
+.
+js
 "
 true
 )
@@ -94,11 +118,17 @@ this
 DevToolsUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;

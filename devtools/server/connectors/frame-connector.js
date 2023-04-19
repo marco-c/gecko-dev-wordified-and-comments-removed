@@ -51,6 +51,10 @@ this
 DevToolsServer
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -58,6 +62,8 @@ server
 devtools
 -
 server
+.
+js
 "
 true
 )
@@ -71,6 +77,10 @@ this
 ChildDebuggerTransport
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -80,6 +90,8 @@ transport
 child
 -
 transport
+.
+js
 "
 true
 )
@@ -93,6 +105,10 @@ this
 EventEmitter
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -100,6 +116,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;

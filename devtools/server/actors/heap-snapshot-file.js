@@ -60,11 +60,17 @@ this
 DevToolsUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -77,6 +83,10 @@ this
 HeapSnapshotFileUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -84,6 +94,8 @@ shared
 heapsnapshot
 /
 HeapSnapshotFileUtils
+.
+js
 "
 )
 ;

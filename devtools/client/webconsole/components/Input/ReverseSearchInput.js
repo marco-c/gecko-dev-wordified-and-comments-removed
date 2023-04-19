@@ -122,6 +122,10 @@ this
 PropTypes
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -135,6 +139,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -147,6 +153,10 @@ this
 actions
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -156,6 +166,8 @@ webconsole
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -168,6 +180,10 @@ this
 l10n
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -177,6 +193,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 true
 )
@@ -190,6 +208,10 @@ this
 PluralForm
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -197,6 +219,8 @@ shared
 plural
 -
 form
+.
+js
 "
 true
 )
@@ -210,6 +234,10 @@ this
 KeyCodes
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -217,6 +245,8 @@ client
 shared
 /
 keycodes
+.
+js
 "
 true
 )

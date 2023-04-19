@@ -12,6 +12,10 @@ this
 NetworkHelper
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -21,6 +25,8 @@ webconsole
 network
 -
 helper
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ this
 CacheEntry
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -42,6 +52,8 @@ platform
 cache
 -
 entry
+.
+js
 "
 true
 )

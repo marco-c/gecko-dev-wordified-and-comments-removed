@@ -12,6 +12,10 @@ this
 KeyCodes
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -19,6 +23,8 @@ client
 shared
 /
 keycodes
+.
+js
 "
 true
 )
@@ -32,6 +38,10 @@ this
 getCSSLexer
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -39,6 +49,8 @@ shared
 css
 /
 lexer
+.
+js
 "
 true
 )
@@ -52,6 +64,10 @@ this
 parseDeclarations
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -61,6 +77,8 @@ css
 parsing
 -
 utils
+.
+js
 "
 true
 )

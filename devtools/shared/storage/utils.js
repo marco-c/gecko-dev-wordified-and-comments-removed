@@ -12,6 +12,10 @@ this
 validator
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -23,6 +27,8 @@ vendor
 stringvalidator
 /
 validator
+.
+js
 "
 )
 ;
@@ -35,6 +41,10 @@ this
 JSON5
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -44,6 +54,8 @@ storage
 vendor
 /
 json5
+.
+js
 "
 )
 ;

@@ -142,6 +142,10 @@ this
 openContentLink
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -149,6 +153,8 @@ client
 shared
 /
 link
+.
+js
 "
 true
 )
@@ -167,6 +173,10 @@ parseSingleValue
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -176,6 +186,8 @@ css
 parsing
 -
 utils
+.
+js
 "
 true
 )
@@ -189,6 +201,10 @@ this
 findCssSelector
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -198,6 +214,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 true
 )

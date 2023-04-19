@@ -67,6 +67,10 @@ this
 getAutocompleteMaxWidth
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -76,6 +80,8 @@ inspector
 markup
 /
 utils
+.
+js
 "
 true
 )
@@ -89,6 +95,10 @@ this
 getLongString
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -98,6 +108,8 @@ inspector
 shared
 /
 utils
+.
+js
 "
 true
 )
@@ -111,6 +123,10 @@ this
 InplaceEditor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -120,6 +136,8 @@ shared
 inplace
 -
 editor
+.
+js
 "
 true
 )

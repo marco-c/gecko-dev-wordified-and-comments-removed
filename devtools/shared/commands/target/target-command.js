@@ -114,6 +114,10 @@ unregisterTarget
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -125,6 +129,8 @@ target
 actions
 /
 targets
+.
+js
 "
 true
 )
@@ -3833,6 +3839,10 @@ TYPES
 .
 PROCESS
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -3852,6 +3862,8 @@ legacy
 processes
 -
 watcher
+.
+js
 "
 )
 ;
@@ -3866,6 +3878,10 @@ TYPES
 .
 WORKER
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -3885,6 +3901,8 @@ legacy
 workers
 -
 watcher
+.
+js
 "
 )
 ;
@@ -3899,6 +3917,10 @@ TYPES
 .
 SHARED_WORKER
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -3918,6 +3940,8 @@ legacy
 sharedworkers
 -
 watcher
+.
+js
 "
 )
 ;
@@ -3932,6 +3956,10 @@ TYPES
 .
 SERVICE_WORKER
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -3951,6 +3979,8 @@ legacy
 serviceworkers
 -
 watcher
+.
+js
 "
 )
 ;

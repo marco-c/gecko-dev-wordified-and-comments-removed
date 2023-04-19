@@ -66,11 +66,17 @@ getIndentationFromString
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 indentation
+.
+js
 "
 true
 )

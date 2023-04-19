@@ -63,6 +63,10 @@ this
 LongStringActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -70,6 +74,8 @@ server
 actors
 /
 string
+.
+js
 "
 true
 )
@@ -83,6 +89,10 @@ this
 symbolGrip
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -92,6 +102,8 @@ actors
 object
 /
 symbol
+.
+js
 "
 true
 )
@@ -105,6 +117,10 @@ this
 ObjectActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -112,6 +128,8 @@ server
 actors
 /
 object
+.
+js
 "
 true
 )
@@ -125,6 +143,10 @@ this
 EnvironmentActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -132,6 +154,8 @@ server
 actors
 /
 environment
+.
+js
 "
 true
 )

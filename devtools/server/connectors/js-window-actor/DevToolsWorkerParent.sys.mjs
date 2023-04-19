@@ -146,6 +146,10 @@ lazy
 JsWindowActorTransport
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -159,6 +163,8 @@ window
 actor
 -
 transport
+.
+js
 "
 true
 )

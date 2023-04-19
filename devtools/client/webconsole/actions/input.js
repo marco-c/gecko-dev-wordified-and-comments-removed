@@ -165,6 +165,10 @@ this
 messagesActions
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -174,6 +178,8 @@ webconsole
 actions
 /
 messages
+.
+js
 "
 )
 ;
@@ -186,6 +192,10 @@ this
 historyActions
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -195,6 +205,8 @@ webconsole
 actions
 /
 history
+.
+js
 "
 )
 ;
@@ -207,6 +219,10 @@ this
 ConsoleCommand
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -214,6 +230,8 @@ client
 webconsole
 /
 types
+.
+js
 "
 true
 )
@@ -227,6 +245,10 @@ this
 netmonitorBlockingActions
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -240,6 +262,8 @@ actions
 request
 -
 blocking
+.
+js
 "
 )
 ;
@@ -257,6 +281,10 @@ captureAndSaveScreenshot
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -264,6 +292,8 @@ client
 shared
 /
 screenshot
+.
+js
 "
 true
 )
@@ -277,6 +307,10 @@ this
 createSimpleTableMessage
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -286,6 +320,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 true
 )
@@ -299,6 +335,10 @@ this
 getSelectedTarget
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -310,6 +350,8 @@ target
 selectors
 /
 targets
+.
+js
 "
 true
 )

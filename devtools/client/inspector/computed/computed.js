@@ -236,6 +236,10 @@ this
 StyleInspectorMenu
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -249,6 +253,8 @@ style
 inspector
 -
 menu
+.
+js
 "
 )
 ;
@@ -261,6 +267,10 @@ this
 KeyShortcuts
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -270,6 +280,8 @@ shared
 key
 -
 shortcuts
+.
+js
 "
 )
 ;
@@ -282,6 +294,10 @@ this
 clipboardHelper
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -289,6 +305,8 @@ shared
 platform
 /
 clipboard
+.
+js
 "
 )
 ;
@@ -301,6 +319,10 @@ this
 openContentLink
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -308,6 +330,8 @@ client
 shared
 /
 link
+.
+js
 "
 true
 )

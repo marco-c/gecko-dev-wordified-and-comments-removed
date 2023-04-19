@@ -56,6 +56,10 @@ this
 ObjectUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -65,6 +69,8 @@ actors
 object
 /
 utils
+.
+js
 "
 )
 ;
@@ -77,6 +83,10 @@ this
 PropertyIterators
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -88,6 +98,8 @@ object
 property
 -
 iterator
+.
+js
 "
 )
 ;

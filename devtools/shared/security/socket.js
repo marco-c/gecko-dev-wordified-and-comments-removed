@@ -53,6 +53,10 @@ this
 WebSocketServer
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -62,6 +66,8 @@ socket
 websocket
 -
 server
+.
+js
 "
 )
 ;
@@ -74,6 +80,10 @@ this
 DebuggerTransport
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -81,6 +91,8 @@ shared
 transport
 /
 transport
+.
+js
 "
 true
 )
@@ -94,6 +106,10 @@ this
 WebSocketDebuggerTransport
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -103,6 +119,8 @@ transport
 websocket
 -
 transport
+.
+js
 "
 )
 ;
@@ -115,6 +133,10 @@ this
 discovery
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -122,6 +144,8 @@ shared
 discovery
 /
 discovery
+.
+js
 "
 )
 ;
@@ -134,6 +158,10 @@ this
 Authenticators
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -141,6 +169,8 @@ shared
 security
 /
 auth
+.
+js
 "
 true
 )
@@ -154,6 +184,10 @@ this
 AuthenticationResult
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -161,6 +195,8 @@ shared
 security
 /
 auth
+.
+js
 "
 true
 )
@@ -205,6 +241,10 @@ this
 EventEmitter
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -212,6 +252,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;

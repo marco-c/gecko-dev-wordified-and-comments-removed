@@ -72,6 +72,10 @@ this
 EditingSession
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -85,6 +89,8 @@ utils
 editing
 -
 session
+.
+js
 "
 )
 ;
@@ -97,6 +103,10 @@ this
 InplaceEditor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -106,6 +116,8 @@ shared
 inplace
 -
 editor
+.
+js
 "
 true
 )
@@ -119,6 +131,10 @@ this
 RulePreviewTooltip
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -130,6 +146,8 @@ widgets
 tooltip
 /
 RulePreviewTooltip
+.
+js
 "
 )
 ;

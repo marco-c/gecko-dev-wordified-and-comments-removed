@@ -56,6 +56,10 @@ this
 getSyntaxTrees
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -65,6 +69,8 @@ webconsole
 parser
 -
 helper
+.
+js
 "
 true
 )
@@ -116,6 +122,10 @@ shouldInputBeEagerlyEvaluated
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -127,6 +137,8 @@ analyze
 input
 -
 string
+.
+js
 "
 true
 )

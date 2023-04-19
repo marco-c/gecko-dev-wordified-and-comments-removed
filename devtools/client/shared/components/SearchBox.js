@@ -176,6 +176,10 @@ this
 KeyShortcuts
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -185,6 +189,8 @@ shared
 key
 -
 shortcuts
+.
+js
 "
 )
 ;

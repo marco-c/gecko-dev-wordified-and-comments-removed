@@ -162,6 +162,10 @@ lazy
 Menu
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -169,6 +173,8 @@ client
 framework
 /
 menu
+.
+js
 "
 )
 ;
@@ -181,6 +187,10 @@ lazy
 MenuItem
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -190,6 +200,8 @@ framework
 menu
 -
 item
+.
+js
 "
 )
 ;

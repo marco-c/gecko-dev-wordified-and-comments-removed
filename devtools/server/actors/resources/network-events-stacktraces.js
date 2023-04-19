@@ -42,6 +42,10 @@ this
 ChannelEventSinkFactory
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -57,6 +61,8 @@ channel
 event
 -
 sink
+.
+js
 "
 true
 )
@@ -70,6 +76,10 @@ this
 NetworkUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server

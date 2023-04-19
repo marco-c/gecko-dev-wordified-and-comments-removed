@@ -78,6 +78,10 @@ this
 TabDescriptorFactory
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -89,6 +93,8 @@ tab
 descriptor
 -
 factory
+.
+js
 "
 true
 )
@@ -102,6 +108,10 @@ this
 CommandsFactory
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -111,6 +121,8 @@ commands
 commands
 -
 factory
+.
+js
 "
 true
 )
@@ -124,6 +136,10 @@ this
 ToolboxHostManager
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -135,6 +151,8 @@ toolbox
 host
 -
 manager
+.
+js
 "
 true
 )
@@ -148,6 +166,10 @@ this
 BrowserConsoleManager
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -159,6 +181,8 @@ browser
 console
 -
 manager
+.
+js
 "
 true
 )
@@ -172,6 +196,10 @@ this
 Toolbox
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -179,6 +207,8 @@ client
 framework
 /
 toolbox
+.
+js
 "
 true
 )
@@ -192,6 +222,10 @@ this
 Telemetry
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -199,6 +233,8 @@ client
 shared
 /
 telemetry
+.
+js
 "
 )
 ;

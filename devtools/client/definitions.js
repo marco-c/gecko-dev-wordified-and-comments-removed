@@ -433,6 +433,10 @@ this
 ResponsiveUIManager
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -440,6 +444,8 @@ client
 responsive
 /
 manager
+.
+js
 "
 )
 ;
@@ -481,6 +487,10 @@ this
 DevToolsExperimentalPrefs
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -490,6 +500,8 @@ devtools
 experimental
 -
 prefs
+.
+js
 "
 )
 ;
@@ -502,6 +514,10 @@ this
 captureAndSaveScreenshot
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -509,6 +525,8 @@ client
 shared
 /
 screenshot
+.
+js
 "
 true
 )

@@ -92,6 +92,10 @@ this
 UPDATE_GENERAL
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -101,6 +105,8 @@ actors
 style
 -
 sheet
+.
+js
 "
 true
 )
@@ -114,6 +120,10 @@ this
 hasStyleSheetWatcherSupportForTarget
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -125,6 +135,8 @@ utils
 stylesheets
 -
 manager
+.
+js
 "
 true
 )

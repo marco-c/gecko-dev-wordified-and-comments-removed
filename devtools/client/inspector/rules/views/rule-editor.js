@@ -276,11 +276,17 @@ this
 Tools
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
 /
 definitions
+.
+js
 "
 true
 )

@@ -174,6 +174,10 @@ this
 log
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -185,6 +189,8 @@ redux
 middleware
 /
 log
+.
+js
 "
 true
 )

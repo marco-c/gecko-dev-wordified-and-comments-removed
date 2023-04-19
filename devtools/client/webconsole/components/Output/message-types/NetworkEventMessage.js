@@ -175,6 +175,10 @@ this
 TabboxPanel
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -186,6 +190,8 @@ src
 components
 /
 TabboxPanel
+.
+js
 "
 )
 ;
@@ -254,6 +260,10 @@ this
 BLOCKED_REASON_MESSAGES
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -263,6 +273,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 true
 )

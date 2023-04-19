@@ -12,6 +12,10 @@ this
 CombinedProgress
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ accessibility
 utils
 /
 audit
+.
+js
 "
 true
 )

@@ -139,6 +139,10 @@ this
 translateNodeFrontToGrip
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -148,6 +152,8 @@ inspector
 shared
 /
 utils
+.
+js
 "
 true
 )

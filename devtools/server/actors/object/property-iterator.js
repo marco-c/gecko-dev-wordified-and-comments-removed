@@ -78,6 +78,10 @@ this
 ObjectUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -87,6 +91,8 @@ actors
 object
 /
 utils
+.
+js
 "
 )
 ;

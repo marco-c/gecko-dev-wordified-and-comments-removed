@@ -61,6 +61,10 @@ this
 EventEmitter
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -68,6 +72,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -80,6 +86,10 @@ this
 DevToolsServer
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -87,6 +97,8 @@ server
 devtools
 -
 server
+.
+js
 "
 true
 )

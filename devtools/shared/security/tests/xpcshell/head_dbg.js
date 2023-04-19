@@ -85,6 +85,10 @@ this
 SocketListener
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -92,6 +96,8 @@ shared
 security
 /
 socket
+.
+js
 "
 true
 )

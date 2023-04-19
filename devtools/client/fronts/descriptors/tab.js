@@ -64,6 +64,10 @@ this
 gDevTools
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -71,6 +75,8 @@ client
 framework
 /
 devtools
+.
+js
 "
 true
 )
@@ -84,6 +90,10 @@ this
 WindowGlobalTargetFront
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -95,6 +105,8 @@ targets
 window
 -
 global
+.
+js
 "
 true
 )

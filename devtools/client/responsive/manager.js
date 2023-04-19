@@ -34,6 +34,10 @@ this
 ResponsiveUI
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -41,6 +45,8 @@ client
 responsive
 /
 ui
+.
+js
 "
 )
 ;
@@ -53,6 +59,10 @@ this
 startup
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -62,6 +72,8 @@ responsive
 utils
 /
 window
+.
+js
 "
 true
 )
@@ -75,6 +87,10 @@ this
 showNotification
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -84,6 +100,8 @@ responsive
 utils
 /
 notification
+.
+js
 "
 true
 )
@@ -97,6 +115,10 @@ this
 l10n
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -106,6 +128,8 @@ responsive
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -118,6 +142,10 @@ this
 PriorityLevels
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +155,8 @@ shared
 components
 /
 NotificationBox
+.
+js
 "
 true
 )
@@ -140,6 +170,10 @@ this
 TabDescriptorFactory
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -151,6 +185,8 @@ tab
 descriptor
 -
 factory
+.
+js
 "
 true
 )
@@ -164,6 +200,10 @@ this
 gDevTools
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -171,6 +211,8 @@ client
 framework
 /
 devtools
+.
+js
 "
 true
 )
@@ -184,6 +226,10 @@ this
 gDevToolsBrowser
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -193,6 +239,8 @@ framework
 devtools
 -
 browser
+.
+js
 "
 true
 )
@@ -206,6 +254,10 @@ this
 Telemetry
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -213,6 +265,8 @@ client
 shared
 /
 telemetry
+.
+js
 "
 )
 ;

@@ -116,6 +116,10 @@ this
 EventTooltip
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +131,8 @@ widgets
 tooltip
 /
 EventTooltipHelper
+.
+js
 "
 true
 )
@@ -145,6 +151,10 @@ setBrokenImageTooltip
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -156,6 +166,8 @@ widgets
 tooltip
 /
 ImageTooltipHelper
+.
+js
 "
 true
 )
@@ -169,6 +181,10 @@ this
 clipboardHelper
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -176,6 +192,8 @@ shared
 platform
 /
 clipboard
+.
+js
 "
 )
 ;

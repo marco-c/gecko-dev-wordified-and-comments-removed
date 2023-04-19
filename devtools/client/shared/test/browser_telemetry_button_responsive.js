@@ -131,6 +131,10 @@ this
 ResponsiveUIManager
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -138,6 +142,8 @@ client
 responsive
 /
 manager
+.
+js
 "
 )
 ;

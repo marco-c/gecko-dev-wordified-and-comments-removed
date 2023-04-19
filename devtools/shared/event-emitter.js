@@ -80,11 +80,17 @@ this
 flags
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 flags
+.
+js
 "
 )
 ;

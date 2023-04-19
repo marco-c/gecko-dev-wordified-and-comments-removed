@@ -46,6 +46,10 @@ this
 NetworkHelper
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -55,6 +59,8 @@ webconsole
 network
 -
 helper
+.
+js
 "
 )
 ;

@@ -101,6 +101,10 @@ this
 Authentication
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -108,6 +112,8 @@ shared
 security
 /
 auth
+.
+js
 "
 )
 ;
@@ -120,6 +126,10 @@ this
 DebuggerSocket
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -127,6 +137,8 @@ shared
 security
 /
 socket
+.
+js
 "
 true
 )
@@ -140,6 +152,10 @@ this
 EventEmitter
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -147,6 +163,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -164,11 +182,17 @@ Front
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 true
 )
@@ -182,6 +206,10 @@ this
 ObjectFront
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -189,6 +217,8 @@ client
 fronts
 /
 object
+.
+js
 "
 true
 )

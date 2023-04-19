@@ -25,6 +25,10 @@ this
 PICKER_TYPES
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -32,6 +36,8 @@ shared
 picker
 -
 constants
+.
+js
 "
 )
 ;

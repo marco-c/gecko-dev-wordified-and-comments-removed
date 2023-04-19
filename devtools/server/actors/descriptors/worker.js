@@ -136,6 +136,10 @@ this
 connectToWorker
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -145,6 +149,8 @@ connectors
 worker
 -
 connector
+.
+js
 "
 true
 )

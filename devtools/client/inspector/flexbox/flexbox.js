@@ -91,6 +91,10 @@ this
 parseURL
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +104,8 @@ shared
 source
 -
 utils
+.
+js
 "
 true
 )
@@ -113,6 +119,10 @@ this
 asyncStorage
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -120,6 +130,8 @@ shared
 async
 -
 storage
+.
+js
 "
 )
 ;

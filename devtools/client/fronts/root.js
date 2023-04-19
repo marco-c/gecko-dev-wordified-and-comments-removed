@@ -59,11 +59,17 @@ this
 getFront
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 true
 )

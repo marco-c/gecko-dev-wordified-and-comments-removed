@@ -34,6 +34,10 @@ this
 SessionDataProcessors
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -49,6 +53,8 @@ data
 processors
 /
 index
+.
+js
 "
 true
 )
@@ -62,6 +68,10 @@ this
 StyleSheetsManager
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -73,6 +83,8 @@ utils
 stylesheets
 -
 manager
+.
+js
 "
 true
 )

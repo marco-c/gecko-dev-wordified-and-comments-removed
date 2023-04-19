@@ -17,6 +17,10 @@ this
 ChannelMap
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -32,6 +36,8 @@ utils
 channel
 -
 map
+.
+js
 "
 true
 )
@@ -45,6 +51,10 @@ this
 NetworkUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -60,6 +70,8 @@ utils
 network
 -
 utils
+.
+js
 "
 )
 ;
@@ -72,6 +84,10 @@ this
 NetworkHelper
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -81,6 +97,8 @@ webconsole
 network
 -
 helper
+.
+js
 "
 )
 ;
@@ -93,11 +111,17 @@ this
 DevToolsUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -110,6 +134,10 @@ this
 NetworkThrottleManager
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -117,6 +145,8 @@ shared
 webconsole
 /
 throttle
+.
+js
 "
 true
 )
@@ -158,6 +188,10 @@ this
 NetworkResponseListener
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -173,6 +207,8 @@ network
 response
 -
 listener
+.
+js
 "
 true
 )

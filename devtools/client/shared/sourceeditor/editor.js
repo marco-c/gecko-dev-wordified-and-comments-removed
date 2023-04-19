@@ -356,6 +356,10 @@ this
 wasm
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -365,6 +369,8 @@ shared
 sourceeditor
 /
 wasm
+.
+js
 "
 )
 ;

@@ -119,6 +119,10 @@ lazy
 getMockedModule
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -130,6 +134,8 @@ browser
 loader
 -
 mocks
+.
+js
 "
 {
 }

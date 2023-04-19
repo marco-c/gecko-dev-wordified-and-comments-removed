@@ -112,6 +112,10 @@ this
 runCommand
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +131,8 @@ adb
 commands
 /
 index
+.
+js
 "
 true
 )
@@ -140,6 +146,10 @@ this
 check
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -157,6 +167,8 @@ adb
 running
 -
 checker
+.
+js
 "
 true
 )

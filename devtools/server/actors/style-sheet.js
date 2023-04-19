@@ -170,6 +170,10 @@ this
 CssLogic
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -179,6 +183,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 )
 ;
@@ -196,6 +202,10 @@ removePseudoClassLock
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -207,6 +217,8 @@ highlighters
 utils
 /
 markup
+.
+js
 "
 true
 )
@@ -220,6 +232,10 @@ this
 loadSheet
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -227,6 +243,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 true
 )

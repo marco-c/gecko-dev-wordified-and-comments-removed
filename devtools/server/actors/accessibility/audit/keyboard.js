@@ -12,6 +12,10 @@ this
 CssLogic
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -23,6 +27,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 true
 )
@@ -36,6 +42,10 @@ this
 getCSSStyleRules
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -45,6 +55,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 true
 )
@@ -71,6 +83,10 @@ this
 nodeConstants
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -80,6 +96,8 @@ dom
 node
 -
 constants
+.
+js
 "
 )
 ;
@@ -97,6 +115,10 @@ getAriaRoles
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -106,6 +128,8 @@ actors
 utils
 /
 accessibility
+.
+js
 "
 true
 )

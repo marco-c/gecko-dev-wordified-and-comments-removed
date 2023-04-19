@@ -148,6 +148,10 @@ getFocusableElements
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -155,6 +159,8 @@ client
 shared
 /
 focus
+.
+js
 "
 true
 )

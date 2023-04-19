@@ -12,6 +12,10 @@ this
 getAdHocFrontOrPrimitiveGrip
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -19,6 +23,8 @@ client
 fronts
 /
 object
+.
+js
 "
 true
 )

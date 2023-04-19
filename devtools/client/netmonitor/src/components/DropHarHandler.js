@@ -150,6 +150,10 @@ this
 HarMenuUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -165,6 +169,8 @@ har
 menu
 -
 utils
+.
+js
 "
 true
 )

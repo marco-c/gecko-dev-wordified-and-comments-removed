@@ -100,6 +100,10 @@ this
 Toolbox
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -107,6 +111,8 @@ client
 framework
 /
 toolbox
+.
+js
 "
 true
 )
@@ -120,6 +126,10 @@ this
 DevToolsServer
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -127,6 +137,8 @@ server
 devtools
 -
 server
+.
+js
 "
 true
 )
@@ -140,6 +152,10 @@ this
 BrowserMenus
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -149,6 +165,8 @@ framework
 browser
 -
 menus
+.
+js
 "
 )
 ;
@@ -161,6 +179,10 @@ this
 appendStyleSheet
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -170,6 +192,8 @@ shared
 stylesheet
 -
 utils
+.
+js
 "
 true
 )
@@ -183,6 +207,10 @@ this
 ResponsiveUIManager
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -190,6 +218,8 @@ client
 responsive
 /
 manager
+.
+js
 "
 )
 ;
@@ -202,6 +232,10 @@ this
 toggleEnableDevToolsPopup
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -213,6 +247,8 @@ enable
 devtools
 -
 popup
+.
+js
 "
 true
 )
@@ -226,6 +262,10 @@ this
 CommandsFactory
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -235,6 +275,8 @@ commands
 commands
 -
 factory
+.
+js
 "
 true
 )

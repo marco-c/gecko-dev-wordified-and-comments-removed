@@ -12,6 +12,10 @@ this
 isWhitespaceTextNode
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -21,6 +25,8 @@ actors
 inspector
 /
 utils
+.
+js
 "
 true
 )

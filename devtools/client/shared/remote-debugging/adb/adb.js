@@ -219,6 +219,10 @@ this
 check
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -236,6 +240,8 @@ adb
 running
 -
 checker
+.
+js
 "
 true
 )

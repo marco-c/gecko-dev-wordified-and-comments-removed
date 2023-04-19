@@ -62,6 +62,10 @@ this
 escapeCSSComment
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -71,6 +75,8 @@ css
 parsing
 -
 utils
+.
+js
 "
 true
 )
@@ -84,6 +90,10 @@ this
 getCSSVariables
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -95,6 +105,8 @@ rules
 utils
 /
 utils
+.
+js
 "
 true
 )

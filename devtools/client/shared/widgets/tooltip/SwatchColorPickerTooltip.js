@@ -175,11 +175,17 @@ this
 throttle
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 throttle
+.
+js
 "
 true
 )
@@ -198,6 +204,10 @@ wrapMoveFocus
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -205,6 +215,8 @@ client
 shared
 /
 focus
+.
+js
 "
 true
 )
@@ -218,6 +230,10 @@ this
 PICKER_TYPES
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -225,6 +241,8 @@ shared
 picker
 -
 constants
+.
+js
 "
 )
 ;

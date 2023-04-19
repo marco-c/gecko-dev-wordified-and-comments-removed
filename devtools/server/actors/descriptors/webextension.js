@@ -164,6 +164,10 @@ this
 WatcherActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -171,6 +175,8 @@ server
 actors
 /
 watcher
+.
+js
 "
 true
 )

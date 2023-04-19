@@ -320,6 +320,10 @@ flashElementOff
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -329,6 +333,8 @@ inspector
 markup
 /
 utils
+.
+js
 "
 true
 )
@@ -342,6 +348,10 @@ this
 ClassListPreviewer
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -357,6 +367,8 @@ class
 list
 -
 previewer
+.
+js
 "
 )
 ;
@@ -369,6 +381,10 @@ this
 getNodeInfo
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -380,6 +396,8 @@ rules
 utils
 /
 utils
+.
+js
 "
 true
 )
@@ -393,6 +411,10 @@ this
 getNodeCompatibilityInfo
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -404,6 +426,8 @@ rules
 utils
 /
 utils
+.
+js
 "
 true
 )
@@ -417,6 +441,10 @@ this
 StyleInspectorMenu
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -430,6 +458,8 @@ style
 inspector
 -
 menu
+.
+js
 "
 )
 ;
@@ -442,6 +472,10 @@ this
 AutocompletePopup
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -451,6 +485,8 @@ shared
 autocomplete
 -
 popup
+.
+js
 "
 )
 ;
@@ -463,6 +499,10 @@ this
 KeyShortcuts
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -472,6 +512,8 @@ shared
 key
 -
 shortcuts
+.
+js
 "
 )
 ;
@@ -484,6 +526,10 @@ this
 clipboardHelper
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -491,6 +537,8 @@ shared
 platform
 /
 clipboard
+.
+js
 "
 )
 ;

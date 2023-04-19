@@ -72,6 +72,10 @@ this
 copyString
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -79,6 +83,8 @@ shared
 platform
 /
 clipboard
+.
+js
 "
 true
 )
@@ -92,6 +98,10 @@ this
 showMenu
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -103,6 +113,8 @@ components
 menu
 /
 utils
+.
+js
 "
 true
 )

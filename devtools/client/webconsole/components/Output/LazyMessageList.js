@@ -41,6 +41,10 @@ this
 PropTypes
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -54,6 +58,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;

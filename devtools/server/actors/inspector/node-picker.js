@@ -12,6 +12,10 @@ this
 isRemoteBrowserElement
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -19,6 +23,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 true
 )
@@ -32,6 +38,10 @@ this
 HighlighterEnvironment
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -39,6 +49,8 @@ server
 actors
 /
 highlighters
+.
+js
 "
 true
 )
@@ -52,6 +64,10 @@ this
 RemoteNodePickerNotice
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server

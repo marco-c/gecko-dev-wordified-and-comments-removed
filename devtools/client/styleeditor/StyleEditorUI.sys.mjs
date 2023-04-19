@@ -247,6 +247,10 @@ lazy
 KeyCodes
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -254,6 +258,8 @@ client
 shared
 /
 keycodes
+.
+js
 "
 true
 )
@@ -267,6 +273,10 @@ lazy
 OriginalSource
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -276,6 +286,8 @@ styleeditor
 original
 -
 source
+.
+js
 "
 true
 )
@@ -335,6 +347,10 @@ lazy
 ResponsiveUIManager
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -342,6 +358,8 @@ client
 responsive
 /
 manager
+.
+js
 "
 )
 ;
@@ -354,6 +372,10 @@ lazy
 openContentLink
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -361,6 +383,8 @@ client
 shared
 /
 link
+.
+js
 "
 true
 )
@@ -374,6 +398,10 @@ lazy
 copyString
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -381,6 +409,8 @@ shared
 platform
 /
 clipboard
+.
+js
 "
 true
 )

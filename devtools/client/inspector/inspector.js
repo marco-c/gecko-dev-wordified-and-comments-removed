@@ -160,6 +160,10 @@ this
 HTMLBreadcrumbs
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -167,6 +171,8 @@ client
 inspector
 /
 breadcrumbs
+.
+js
 "
 true
 )
@@ -180,6 +186,10 @@ this
 KeyShortcuts
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -189,6 +199,8 @@ shared
 key
 -
 shortcuts
+.
+js
 "
 )
 ;
@@ -201,6 +213,10 @@ this
 InspectorSearch
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -210,6 +226,8 @@ inspector
 inspector
 -
 search
+.
+js
 "
 true
 )
@@ -223,6 +241,10 @@ this
 ToolSidebar
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -230,6 +252,8 @@ client
 inspector
 /
 toolsidebar
+.
+js
 "
 true
 )
@@ -243,6 +267,10 @@ this
 MarkupView
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -252,6 +280,8 @@ inspector
 markup
 /
 markup
+.
+js
 "
 )
 ;
@@ -264,6 +294,10 @@ this
 HighlightersOverlay
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -275,6 +309,8 @@ shared
 highlighters
 -
 overlay
+.
+js
 "
 )
 ;
@@ -287,6 +323,10 @@ this
 ExtensionSidebar
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -298,6 +338,8 @@ extensions
 extension
 -
 sidebar
+.
+js
 "
 )
 ;
@@ -310,6 +352,10 @@ this
 PICKER_TYPES
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -317,6 +363,8 @@ shared
 picker
 -
 constants
+.
+js
 "
 )
 ;
@@ -329,6 +377,10 @@ this
 captureAndSaveScreenshot
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -336,6 +388,8 @@ client
 shared
 /
 screenshot
+.
+js
 "
 true
 )
@@ -349,11 +403,17 @@ this
 debounce
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 debounce
+.
+js
 "
 true
 )

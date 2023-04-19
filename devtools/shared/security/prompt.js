@@ -26,6 +26,10 @@ this
 AuthenticationResult
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -33,6 +37,8 @@ shared
 security
 /
 auth
+.
+js
 "
 true
 )

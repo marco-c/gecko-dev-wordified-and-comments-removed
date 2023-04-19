@@ -86,6 +86,10 @@ this
 SourceActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -93,6 +97,8 @@ server
 actors
 /
 source
+.
+js
 "
 true
 )

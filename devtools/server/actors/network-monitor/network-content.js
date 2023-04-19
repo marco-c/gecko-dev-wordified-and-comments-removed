@@ -90,6 +90,10 @@ this
 NetworkUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -105,6 +109,8 @@ utils
 network
 -
 utils
+.
+js
 "
 )
 ;
@@ -117,6 +123,10 @@ this
 WebConsoleUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -126,6 +136,8 @@ actors
 webconsole
 /
 utils
+.
+js
 "
 true
 )

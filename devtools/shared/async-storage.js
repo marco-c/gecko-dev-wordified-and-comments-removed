@@ -40,6 +40,10 @@ this
 indexedDB
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -47,6 +51,8 @@ shared
 indexed
 -
 db
+.
+js
 "
 )
 ;

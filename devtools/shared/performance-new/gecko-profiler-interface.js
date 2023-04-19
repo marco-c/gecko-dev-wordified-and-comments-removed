@@ -12,6 +12,10 @@ this
 EventEmitter
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -19,6 +23,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ this
 RecordingUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -42,6 +52,8 @@ new
 recording
 -
 utils
+.
+js
 "
 )
 ;

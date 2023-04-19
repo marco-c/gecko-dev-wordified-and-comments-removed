@@ -34,6 +34,10 @@ this
 gDevToolsBrowser
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +47,8 @@ framework
 devtools
 -
 browser
+.
+js
 "
 true
 )

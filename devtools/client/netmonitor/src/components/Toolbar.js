@@ -300,6 +300,10 @@ this
 KeyShortcuts
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -309,6 +313,8 @@ shared
 key
 -
 shortcuts
+.
+js
 "
 )
 ;
@@ -817,6 +823,10 @@ this
 HarMenuUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -832,6 +842,8 @@ har
 menu
 -
 utils
+.
+js
 "
 true
 )
@@ -845,6 +857,10 @@ this
 copyString
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -852,6 +868,8 @@ shared
 platform
 /
 clipboard
+.
+js
 "
 true
 )

@@ -114,6 +114,10 @@ this
 ContentProcessTargetActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -125,6 +129,8 @@ targets
 content
 -
 process
+.
+js
 "
 true
 )
@@ -138,6 +144,10 @@ this
 ParentProcessTargetActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -149,6 +159,8 @@ targets
 parent
 -
 process
+.
+js
 "
 true
 )
@@ -162,6 +174,10 @@ this
 connectToContentProcess
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -173,6 +189,8 @@ content
 process
 -
 connector
+.
+js
 "
 true
 )
@@ -186,6 +204,10 @@ this
 WatcherActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -193,6 +215,8 @@ server
 actors
 /
 watcher
+.
+js
 "
 true
 )

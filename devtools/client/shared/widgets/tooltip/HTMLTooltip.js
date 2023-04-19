@@ -34,6 +34,10 @@ this
 focusableSelector
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -41,6 +45,8 @@ client
 shared
 /
 focus
+.
+js
 "
 true
 )
@@ -54,6 +60,10 @@ this
 TooltipToggle
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +75,8 @@ widgets
 tooltip
 /
 TooltipToggle
+.
+js
 "
 true
 )
@@ -78,6 +90,10 @@ this
 listenOnce
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -85,6 +101,8 @@ shared
 async
 -
 utils
+.
+js
 "
 true
 )
@@ -98,11 +116,17 @@ this
 DevToolsUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;

@@ -67,6 +67,10 @@ this
 DevToolsServerConnection
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -76,6 +80,8 @@ devtools
 server
 -
 connection
+.
+js
 "
 true
 )
@@ -89,6 +95,10 @@ this
 Authentication
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -96,6 +106,8 @@ shared
 security
 /
 auth
+.
+js
 "
 )
 ;
@@ -108,6 +120,10 @@ this
 LocalDebuggerTransport
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -117,6 +133,8 @@ transport
 local
 -
 transport
+.
+js
 "
 true
 )
@@ -130,6 +148,10 @@ this
 ChildDebuggerTransport
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -139,6 +161,8 @@ transport
 child
 -
 transport
+.
+js
 "
 true
 )
@@ -152,6 +176,10 @@ this
 JsWindowActorTransport
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -165,6 +193,8 @@ window
 actor
 -
 transport
+.
+js
 "
 true
 )
@@ -178,6 +208,10 @@ this
 WorkerThreadWorkerDebuggerTransport
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -187,6 +221,8 @@ transport
 worker
 -
 transport
+.
+js
 "
 true
 )
@@ -221,6 +257,10 @@ this
 EventEmitter
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -228,6 +268,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;

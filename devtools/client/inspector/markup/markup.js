@@ -393,6 +393,10 @@ deleteDOMMutationBreakpoint
 "
 ]
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -402,6 +406,8 @@ framework
 actions
 /
 index
+.
+js
 "
 true
 )
@@ -415,6 +421,10 @@ this
 MarkupContextMenu
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -428,6 +438,8 @@ markup
 context
 -
 menu
+.
+js
 "
 )
 ;
@@ -440,6 +452,10 @@ this
 SlottedNodeContainer
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -455,6 +471,8 @@ slotted
 node
 -
 container
+.
+js
 "
 )
 ;
@@ -467,6 +485,10 @@ this
 getLongString
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -476,6 +498,8 @@ inspector
 shared
 /
 utils
+.
+js
 "
 true
 )
@@ -489,6 +513,10 @@ this
 openContentLink
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -496,6 +524,8 @@ client
 shared
 /
 link
+.
+js
 "
 true
 )
@@ -509,6 +539,10 @@ this
 HTMLTooltip
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -520,6 +554,8 @@ widgets
 tooltip
 /
 HTMLTooltip
+.
+js
 "
 true
 )
@@ -533,6 +569,10 @@ this
 UndoStack
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -540,6 +580,8 @@ client
 shared
 /
 undo
+.
+js
 "
 true
 )
@@ -553,6 +595,10 @@ this
 clipboardHelper
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -560,6 +606,8 @@ shared
 platform
 /
 clipboard
+.
+js
 "
 )
 ;
@@ -572,6 +620,10 @@ this
 beautify
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -579,6 +631,8 @@ shared
 jsbeautify
 /
 beautify
+.
+js
 "
 )
 ;
@@ -591,11 +645,17 @@ this
 getTabPrefs
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 indentation
+.
+js
 "
 true
 )

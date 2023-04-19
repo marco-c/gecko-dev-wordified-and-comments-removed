@@ -172,6 +172,10 @@ this
 SmartTrace
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -181,6 +185,8 @@ shared
 components
 /
 SmartTrace
+.
+js
 "
 )
 ;
@@ -193,6 +199,10 @@ this
 LongStringFront
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -200,6 +210,8 @@ client
 fronts
 /
 string
+.
+js
 "
 true
 )
@@ -213,6 +225,10 @@ this
 ObjectFront
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -220,6 +236,8 @@ client
 fronts
 /
 object
+.
+js
 "
 true
 )

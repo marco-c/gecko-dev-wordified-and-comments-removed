@@ -62,6 +62,10 @@ this
 EventEmitter
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -69,6 +73,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -81,6 +87,10 @@ this
 AutocompletePopup
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -90,6 +100,8 @@ shared
 autocomplete
 -
 popup
+.
+js
 "
 )
 ;
@@ -102,6 +114,10 @@ this
 PropTypes
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -115,6 +131,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -127,6 +145,10 @@ this
 KeyCodes
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -134,6 +156,8 @@ client
 shared
 /
 keycodes
+.
+js
 "
 true
 )
@@ -147,6 +171,10 @@ this
 Editor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -156,6 +184,8 @@ shared
 sourceeditor
 /
 editor
+.
+js
 "
 )
 ;
@@ -168,6 +198,10 @@ this
 getFocusableElements
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -175,6 +209,8 @@ client
 shared
 /
 focus
+.
+js
 "
 true
 )
@@ -188,6 +224,10 @@ this
 l10n
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -197,6 +237,8 @@ webconsole
 utils
 /
 messages
+.
+js
 "
 true
 )
@@ -210,11 +252,17 @@ this
 saveAs
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 true
 )
@@ -228,6 +276,10 @@ this
 beautify
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -235,6 +287,8 @@ shared
 jsbeautify
 /
 beautify
+.
+js
 "
 )
 ;

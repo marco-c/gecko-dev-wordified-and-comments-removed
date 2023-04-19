@@ -40,6 +40,10 @@ this
 HarExporter
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -53,6 +57,8 @@ har
 har
 -
 exporter
+.
+js
 "
 true
 )

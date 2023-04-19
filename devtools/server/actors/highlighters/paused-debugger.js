@@ -78,11 +78,17 @@ this
 DEBUGGER_PAUSED_REASONS_L10N_MAPPING
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 true
 )

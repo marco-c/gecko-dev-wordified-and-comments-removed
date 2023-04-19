@@ -12,6 +12,10 @@ this
 WebConsole
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -19,6 +23,8 @@ client
 webconsole
 /
 webconsole
+.
+js
 "
 )
 ;

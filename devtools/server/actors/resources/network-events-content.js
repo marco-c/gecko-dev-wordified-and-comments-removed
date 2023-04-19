@@ -12,6 +12,10 @@ this
 NetworkEventActor
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -27,6 +31,8 @@ network
 event
 -
 actor
+.
+js
 "
 true
 )
@@ -40,6 +46,10 @@ this
 NetworkUtils
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -55,6 +65,8 @@ utils
 network
 -
 utils
+.
+js
 "
 )
 ;

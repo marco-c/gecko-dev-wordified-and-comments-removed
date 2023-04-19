@@ -22,6 +22,10 @@ this
 CssLogic
 "
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -33,6 +37,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 true
 )

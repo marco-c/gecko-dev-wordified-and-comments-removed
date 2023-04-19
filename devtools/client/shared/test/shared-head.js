@@ -375,6 +375,10 @@ this
 ResponsiveUIManager
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -382,6 +386,8 @@ client
 responsive
 /
 manager
+.
+js
 "
 )
 ;
@@ -394,6 +400,10 @@ this
 localTypes
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -401,6 +411,8 @@ client
 responsive
 /
 types
+.
+js
 "
 )
 ;
@@ -413,6 +425,10 @@ this
 ResponsiveMessageHelper
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -422,6 +438,8 @@ responsive
 utils
 /
 message
+.
+js
 "
 )
 ;
@@ -434,6 +452,10 @@ this
 FluentReact
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -445,6 +467,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;

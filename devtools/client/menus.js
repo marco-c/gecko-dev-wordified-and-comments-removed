@@ -50,11 +50,17 @@ this
 flags
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 flags
+.
+js
 "
 )
 ;
@@ -67,6 +73,10 @@ this
 gDevToolsBrowser
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -76,6 +86,8 @@ framework
 devtools
 -
 browser
+.
+js
 "
 true
 )
@@ -89,6 +101,10 @@ this
 ResponsiveUIManager
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -96,6 +112,8 @@ client
 responsive
 /
 manager
+.
+js
 "
 )
 ;
@@ -108,6 +126,10 @@ this
 openDocLink
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -115,6 +137,8 @@ client
 shared
 /
 link
+.
+js
 "
 true
 )
@@ -128,6 +152,10 @@ this
 CommandsFactory
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -137,6 +165,8 @@ commands
 commands
 -
 factory
+.
+js
 "
 true
 )
@@ -150,6 +180,10 @@ this
 PICKER_TYPES
 "
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -157,6 +191,8 @@ shared
 picker
 -
 constants
+.
+js
 "
 )
 ;

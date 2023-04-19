@@ -61,6 +61,10 @@ this
 RuleRewriter
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -72,6 +76,8 @@ inspector
 rule
 -
 rewriter
+.
+js
 "
 )
 ;

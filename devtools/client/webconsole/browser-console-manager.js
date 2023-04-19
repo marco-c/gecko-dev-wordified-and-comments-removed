@@ -38,11 +38,17 @@ this
 Tools
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
 /
 definitions
+.
+js
 "
 true
 )
@@ -56,6 +62,10 @@ this
 l10n
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +75,8 @@ webconsole
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -77,6 +89,10 @@ this
 BrowserConsole
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -86,6 +102,8 @@ webconsole
 browser
 -
 console
+.
+js
 "
 )
 ;
@@ -98,6 +116,10 @@ this
 PREFS
 "
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -105,6 +127,8 @@ client
 webconsole
 /
 constants
+.
+js
 "
 true
 )
