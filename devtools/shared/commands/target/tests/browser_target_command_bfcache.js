@@ -2645,6 +2645,13 @@ target
 "
 )
 ;
+await
+commands
+.
+destroy
+(
+)
+;
 return
 ;
 }
