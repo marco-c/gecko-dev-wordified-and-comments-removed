@@ -252,12 +252,6 @@ bool
 inter_layer_predicted
 )
 ;
-int
-last_picture_id_
-=
--
-1
-;
 std
 :
 :
