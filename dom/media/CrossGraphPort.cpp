@@ -439,11 +439,11 @@ aVolume
 )
 ;
 }
-void
 CrossGraphPort
 :
 :
-Destroy
+~
+CrossGraphPort
 (
 )
 {
