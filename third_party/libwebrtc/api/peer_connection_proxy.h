@@ -355,6 +355,8 @@ ClearStatsCache
 )
 PROXY_METHOD2
 (
+RTCErrorOr
+<
 rtc
 :
 :
@@ -362,7 +364,8 @@ scoped_refptr
 <
 DataChannelInterface
 >
-CreateDataChannel
+>
+CreateDataChannelOrError
 const
 std
 :
