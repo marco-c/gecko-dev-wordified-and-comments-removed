@@ -108,7 +108,7 @@ false
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -136,7 +136,7 @@ AudioDeviceTemplate
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -158,7 +158,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -180,7 +180,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -296,7 +296,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -363,7 +363,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -390,7 +390,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -408,7 +408,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -474,7 +474,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -510,7 +510,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -547,7 +547,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -569,7 +569,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -592,7 +592,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -617,7 +617,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -639,7 +639,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -662,7 +662,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -684,7 +684,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -745,7 +745,7 @@ return
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -773,7 +773,7 @@ override
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -795,7 +795,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -846,7 +846,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -898,7 +898,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -917,7 +917,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -935,7 +935,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -954,7 +954,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -975,7 +975,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1000,7 +1000,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1027,7 +1027,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1054,7 +1054,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1081,7 +1081,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1271,7 +1271,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1300,7 +1300,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1364,7 +1364,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1393,7 +1393,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1435,7 +1435,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1496,7 +1496,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1526,7 +1526,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1551,7 +1551,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1604,7 +1604,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1629,7 +1629,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1682,7 +1682,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1707,7 +1707,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <

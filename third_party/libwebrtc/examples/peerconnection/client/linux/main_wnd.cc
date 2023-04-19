@@ -1219,7 +1219,7 @@ SwitchToConnectUI
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1543,7 +1543,7 @@ peers
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1776,7 +1776,7 @@ SwitchToStreamingUI
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

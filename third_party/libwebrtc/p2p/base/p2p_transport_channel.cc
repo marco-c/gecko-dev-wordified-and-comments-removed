@@ -7668,7 +7668,7 @@ remote_candidate
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -7961,7 +7961,7 @@ generation
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -8021,7 +8021,7 @@ remote_candidate
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -10847,7 +10847,7 @@ end
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -10920,7 +10920,7 @@ port
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

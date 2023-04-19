@@ -619,7 +619,7 @@ OnSuccess
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -639,7 +639,7 @@ error
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1610,7 +1610,7 @@ candidate
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1936,7 +1936,7 @@ false
 }
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2104,7 +2104,7 @@ false
 }
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2283,7 +2283,7 @@ stream
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

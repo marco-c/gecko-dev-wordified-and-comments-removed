@@ -39,7 +39,7 @@ ScopedCOMInitializer
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -72,7 +72,7 @@ mta
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -164,7 +164,7 @@ S_OK
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <

@@ -113,7 +113,7 @@ this
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -138,7 +138,7 @@ AAudioRecorder
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -161,7 +161,7 @@ Terminate
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -185,7 +185,7 @@ Init
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -246,7 +246,7 @@ Terminate
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -281,7 +281,7 @@ InitRecording
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -356,7 +356,7 @@ StartRecording
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -442,7 +442,7 @@ StopRecording
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -532,7 +532,7 @@ audioBuffer
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -644,7 +644,7 @@ enable
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -684,7 +684,7 @@ enable
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -805,7 +805,7 @@ first_data_callback_
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -914,7 +914,7 @@ frames_per_burst
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1059,7 +1059,7 @@ thread_checker_
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

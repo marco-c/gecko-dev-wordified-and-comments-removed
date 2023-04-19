@@ -1221,7 +1221,7 @@ sequence_checker_
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1764,7 +1764,7 @@ restrictions
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

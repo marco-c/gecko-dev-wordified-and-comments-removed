@@ -2212,7 +2212,7 @@ dtls_srtp_transport_
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

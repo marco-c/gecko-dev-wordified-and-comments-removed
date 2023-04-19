@@ -9750,7 +9750,7 @@ ifdef
 WEBRTC_WIN
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -10265,7 +10265,7 @@ params
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

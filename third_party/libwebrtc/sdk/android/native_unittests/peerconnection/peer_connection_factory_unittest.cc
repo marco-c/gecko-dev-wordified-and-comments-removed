@@ -510,7 +510,7 @@ AttachCurrentThreadIfNeeded
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -533,7 +533,7 @@ jni
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -785,7 +785,7 @@ signaling_thread
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

@@ -109,7 +109,7 @@ this
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -134,7 +134,7 @@ AAudioPlayer
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -154,7 +154,7 @@ Terminate
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -179,7 +179,7 @@ Init
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -237,7 +237,7 @@ Terminate
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -269,7 +269,7 @@ InitPlayout
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -347,7 +347,7 @@ StartPlayout
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -453,7 +453,7 @@ StopPlayout
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -557,7 +557,7 @@ audioBuffer
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -741,7 +741,7 @@ first_data_callback_
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -848,7 +848,7 @@ frames_per_burst
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1014,7 +1014,7 @@ main_thread_checker_
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <

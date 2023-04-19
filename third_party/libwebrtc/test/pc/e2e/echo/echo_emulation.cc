@@ -248,7 +248,7 @@ queue_input_
 {
 RTC_LOG
 (
-WARNING
+LS_WARNING
 )
 <
 <

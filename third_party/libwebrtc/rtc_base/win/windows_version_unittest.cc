@@ -42,7 +42,7 @@ MethodSupportedOnWin10AndLater
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -58,7 +58,7 @@ MethodNotSupportedOnWin10AndLater
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -130,7 +130,7 @@ empty
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <

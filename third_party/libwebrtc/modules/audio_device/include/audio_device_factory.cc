@@ -117,7 +117,7 @@ automatic_restart
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -149,7 +149,7 @@ automatic_restart
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <

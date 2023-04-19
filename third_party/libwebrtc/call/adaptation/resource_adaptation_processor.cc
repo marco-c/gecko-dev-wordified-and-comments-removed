@@ -690,7 +690,7 @@ resource_listener_delegate_
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -772,7 +772,7 @@ resource
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1080,7 +1080,7 @@ nullptr
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1185,7 +1185,7 @@ end
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1299,7 +1299,7 @@ return
 }
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

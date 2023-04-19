@@ -391,7 +391,7 @@ output_
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -412,7 +412,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -465,7 +465,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -500,7 +500,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -535,7 +535,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -691,7 +691,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -780,7 +780,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -814,7 +814,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -860,7 +860,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -981,7 +981,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1092,7 +1092,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1132,7 +1132,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1169,7 +1169,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1204,7 +1204,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1237,7 +1237,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1266,7 +1266,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1306,7 +1306,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1343,7 +1343,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1372,7 +1372,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1412,7 +1412,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1446,7 +1446,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1485,7 +1485,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1521,7 +1521,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1555,7 +1555,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1594,7 +1594,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1630,7 +1630,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1658,7 +1658,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1702,7 +1702,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1740,7 +1740,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1784,7 +1784,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1825,7 +1825,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1911,7 +1911,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2076,7 +2076,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2107,7 +2107,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2135,7 +2135,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2168,7 +2168,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2199,7 +2199,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2227,7 +2227,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2338,7 +2338,7 @@ AttachAudioBuffer
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2380,7 +2380,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2414,7 +2414,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2445,7 +2445,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2477,7 +2477,7 @@ override
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2578,7 +2578,7 @@ task_queue_factory
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <

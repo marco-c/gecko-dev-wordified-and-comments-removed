@@ -200,7 +200,7 @@ life_time_ms
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -330,7 +330,7 @@ nullptr
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -383,7 +383,7 @@ AudioRecordJni
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -415,7 +415,7 @@ Init
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -452,7 +452,7 @@ Terminate
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -493,7 +493,7 @@ InitRecording
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -601,7 +601,7 @@ frames_per_buffer
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -677,7 +677,7 @@ StartRecording
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -787,7 +787,7 @@ StopRecording
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -851,7 +851,7 @@ session_was_ok
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -945,7 +945,7 @@ audioBuffer
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -978,7 +978,7 @@ sample_rate
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1015,7 +1015,7 @@ channels
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1105,7 +1105,7 @@ enable
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1157,7 +1157,7 @@ enable
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1224,7 +1224,7 @@ byte_buffer
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1278,7 +1278,7 @@ obj
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1389,7 +1389,7 @@ DeliverRecordedData
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

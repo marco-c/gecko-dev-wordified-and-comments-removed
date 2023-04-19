@@ -143,7 +143,7 @@ err
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -172,7 +172,7 @@ CoreAudioInput
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -195,7 +195,7 @@ Init
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -221,7 +221,7 @@ Terminate
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -278,7 +278,7 @@ index
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -329,7 +329,7 @@ device
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -410,7 +410,7 @@ guid
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -460,7 +460,7 @@ audio_buffer
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -488,7 +488,7 @@ const
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -522,7 +522,7 @@ InitRecording
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -726,7 +726,7 @@ StartRecording
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -832,7 +832,7 @@ StopRecording
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -959,7 +959,7 @@ Recording
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -990,7 +990,7 @@ available
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1024,7 +1024,7 @@ RestartRecording
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1109,7 +1109,7 @@ sample_rate
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1139,7 +1139,7 @@ ReleaseCOMObjects
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1209,7 +1209,7 @@ num_data_callbacks_
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1496,7 +1496,7 @@ num_data_callbacks_
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1744,7 +1744,7 @@ error
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1923,7 +1923,7 @@ HandleStreamDisconnected
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -2008,7 +2008,7 @@ false
 }
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <

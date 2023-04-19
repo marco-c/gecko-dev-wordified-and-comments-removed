@@ -1986,7 +1986,7 @@ network_thread_
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

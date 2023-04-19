@@ -58,7 +58,7 @@ bypass_voice_processing
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -90,7 +90,7 @@ bypass_voice_processing
 else
 RTC_LOG
 (
-LERROR
+LS_ERROR
 )
 <
 <

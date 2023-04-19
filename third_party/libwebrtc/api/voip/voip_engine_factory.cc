@@ -88,7 +88,7 @@ audio_processing
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <

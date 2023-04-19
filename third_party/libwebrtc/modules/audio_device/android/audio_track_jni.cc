@@ -604,7 +604,7 @@ nullptr
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -768,7 +768,7 @@ AudioTrackJni
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -800,7 +800,7 @@ Init
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -831,7 +831,7 @@ Terminate
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -866,7 +866,7 @@ InitPlayout
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -950,7 +950,7 @@ StartPlayout
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1046,7 +1046,7 @@ StopPlayout
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1157,7 +1157,7 @@ volume
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1293,7 +1293,7 @@ GetStreamVolume
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1322,7 +1322,7 @@ audioBuffer
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1355,7 +1355,7 @@ sample_rate
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1392,7 +1392,7 @@ channels
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1481,7 +1481,7 @@ byte_buffer
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1527,7 +1527,7 @@ byte_buffer
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -1574,7 +1574,7 @@ bytes_per_frame
 ;
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

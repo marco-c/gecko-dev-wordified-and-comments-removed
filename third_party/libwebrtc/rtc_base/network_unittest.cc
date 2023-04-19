@@ -670,7 +670,7 @@ name
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -717,7 +717,7 @@ prefix
 {
 RTC_LOG
 (
-INFO
+LS_INFO
 )
 <
 <

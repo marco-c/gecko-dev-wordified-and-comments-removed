@@ -146,7 +146,7 @@ audio_device_buffer_
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -161,7 +161,7 @@ IsReadyForPlayout
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -175,7 +175,7 @@ playout_samples_per_channel_10ms_
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -197,7 +197,7 @@ IsReadyForRecord
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -211,7 +211,7 @@ record_samples_per_channel_10ms_
 ;
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
@@ -235,7 +235,7 @@ FineAudioBuffer
 {
 RTC_DLOG
 (
-INFO
+LS_INFO
 )
 <
 <
