@@ -4689,15 +4689,6 @@ AddIfValue
 %
 d
 "
-output_rms_dbfs
-)
-;
-AddIfValue
-(
-"
-%
-d
-"
 voice_detected
 )
 ;
