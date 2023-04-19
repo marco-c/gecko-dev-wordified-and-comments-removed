@@ -53,6 +53,7 @@ subprocess
 .
 Popen
 (
+        
 command
 stdout
 =
@@ -64,6 +65,10 @@ stderr
 subprocess
 .
 PIPE
+universal_newlines
+=
+True
+    
 )
     
 stdout

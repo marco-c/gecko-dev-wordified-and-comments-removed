@@ -110,9 +110,7 @@ py
 ]
         
 "
-python2
-.
-7
+python3
 "
 :
 "
@@ -128,7 +126,7 @@ build
 python
 \
 \
-python
+python3
 .
 exe
 "
