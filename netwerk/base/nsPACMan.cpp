@@ -3742,6 +3742,11 @@ mShutdown
 IsLoading
 (
 )
+|
+|
+mLoadFailureCount
+>
+0
 )
 {
 query
