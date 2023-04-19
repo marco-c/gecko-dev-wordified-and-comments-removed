@@ -839,6 +839,13 @@ mFrame
 nsAutoScriptBlocker
 scriptBlocker
 ;
+mFrame
+-
+>
+EnsureEditorInitialized
+(
+)
+;
 TextControlState
 :
 :
