@@ -142,6 +142,12 @@ nsCString
 &
 )
 ;
+static
+bool
+IsSupported
+(
+)
+;
 protected
 :
 static

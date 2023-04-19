@@ -3298,6 +3298,13 @@ this
 onImage
 &
 &
+Services
+.
+appinfo
+.
+isTextRecognitionSupported
+&
+&
 TEXT_RECOGNITION_ENABLED
 )
 ;
