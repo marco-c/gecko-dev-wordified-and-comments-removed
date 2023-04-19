@@ -3025,6 +3025,14 @@ on_one_ref_remaining
 )
 {
 return
+rtc
+:
+:
+scoped_refptr
+<
+SharedModuleThread
+>
+(
 new
 SharedModuleThread
 (
@@ -3041,6 +3049,7 @@ std
 move
 (
 on_one_ref_remaining
+)
 )
 )
 ;

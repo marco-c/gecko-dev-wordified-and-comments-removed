@@ -125,7 +125,16 @@ listener_
 >
 OnResourceUsageStateMeasured
 (
+rtc
+:
+:
+scoped_refptr
+<
+Resource
+>
+(
 this
+)
 usage_state
 )
 ;
