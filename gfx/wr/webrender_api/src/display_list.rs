@@ -10365,13 +10365,12 @@ define_clip_rect
 &
 mut
 self
-parent_space_and_clip
+spatial_id
 :
-&
 di
 :
 :
-SpaceAndClipInfo
+SpatialId
 clip_rect
 :
 LayoutRect
@@ -10399,8 +10398,6 @@ self
 .
 current_offset
 (
-parent_space_and_clip
-.
 spatial_id
 )
 ;
@@ -10431,10 +10428,7 @@ di
 RectClipDisplayItem
 {
 id
-parent_space_and_clip
-:
-*
-parent_space_and_clip
+spatial_id
 clip_rect
 }
 )
