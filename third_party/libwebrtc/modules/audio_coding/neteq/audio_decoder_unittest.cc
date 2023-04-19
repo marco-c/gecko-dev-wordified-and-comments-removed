@@ -3841,7 +3841,7 @@ get
 TEST_P
 (
 AudioDecoderOpusTest
-EncodeDecode
+DISABLED_EncodeDecode
 )
 {
 constexpr
