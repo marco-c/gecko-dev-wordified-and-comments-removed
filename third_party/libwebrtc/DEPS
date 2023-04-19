@@ -76,7 +76,7 @@ chromium_revision
 '
 :
 '
-7e70585ca56baa0a99b6a15b23aca5527d64673a
+74f869d04b2f7b9e9139960a0d8491ce0c7ae4df
 '
 }
 deps
@@ -131,7 +131,7 @@ chromium
 src
 /
 base
-8fc5bf1d4ae32ad57748f80bbc4b235f4eae2710
+ca7b938131505fc10908e44c7b2ac59cb171dc40
 '
 '
 src
@@ -155,7 +155,7 @@ chromium
 src
 /
 build
-5d0017aeec5ef604b1d1b024f5005bdbf4839c04
+79006bea8b2e0586ea6e9dd64043de199e4b883d
 '
 '
 src
@@ -275,7 +275,7 @@ chromium
 src
 /
 ios
-0b3d0c7d990fed8a1651b9d63d706299bd27fbef
+b10d9dc408fc25bb987471d93d6b62c19292f670
 '
 '
 condition
@@ -307,7 +307,7 @@ chromium
 src
 /
 testing
-f3e0beba79b4f2e0fd4171e1343f054b08f1c6a3
+21d746be786d64b6c39e5c7797907fbb26727a5c
 '
 '
 src
@@ -331,7 +331,7 @@ chromium
 src
 /
 third_party
-fcd6536576a617cc6d3973fbcdf57e02c101a228
+cd3c7ea8d46e82ffc029e8050d63492fa2cc0447
 '
 '
 src
@@ -1088,7 +1088,7 @@ third_party
 ffmpeg
 .
 git
-4fb42ae52e7327469281d612784dd9d0e066d5ed
+280d5fd0df8b4284ad040bd29deb3241bd6dfc4a
 '
 '
 src
@@ -1868,7 +1868,7 @@ external
 perfetto
 .
 git
-1b78913ea7b1a4c3a3447f6b183e4be62a01e7e3
+31ac7832bfcaabb8389a8d04a321d459917da176
 '
 '
 src
@@ -2394,7 +2394,7 @@ chromium
 src
 /
 tools
-7ad58b1ed2fa21f71bf0d05c935eb1463ca49eb2
+55b8544079ec6ad66c9313338257ffb28dc15184
 '
 '
 src
@@ -2906,9 +2906,7 @@ version
 '
 :
 '
-DkjJyAndtE7UV7h5rNQdFWztxKvMiWIhS0cXGk4pS
--
-UC
+IoB78nVutc7u1QVob6zeGRS6YrTtEaNyYCFV4iBH3bcC
 '
 }
 ]
