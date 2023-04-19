@@ -161,13 +161,6 @@ nsStringFwd
 .
 h
 "
-namespace
-mozilla
-{
-struct
-Module
-;
-}
 #
 endif
 XPCOM_API
