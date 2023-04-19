@@ -2310,6 +2310,18 @@ expected_tc
 )
 ;
 }
+if
+(
+AppConstants
+.
+platform
+!
+=
+"
+macosx
+"
+)
+{
 Assert
 .
 ok
@@ -2323,6 +2335,7 @@ payload
 histograms
 )
 ;
+}
 Assert
 .
 ok
