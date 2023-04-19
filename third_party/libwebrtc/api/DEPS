@@ -1030,14 +1030,6 @@ h
 +
 rtc_base
 /
-string_encode
-.
-h
-"
-"
-+
-rtc_base
-/
 thread_checker
 .
 h
