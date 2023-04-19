@@ -4050,6 +4050,17 @@ rtc_base
 rtc_base_approved
 "
 ]
+seed_corpus
+=
+"
+corpora
+/
+sctp
+-
+packet
+-
+corpus
+"
 }
 webrtc_fuzzer_test
 (
