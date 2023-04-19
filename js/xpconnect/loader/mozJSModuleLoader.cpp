@@ -1880,6 +1880,14 @@ IOService
 URI
 )
 ;
+bool
+skipCheckForBrokenURLOrZeroSized
+=
+!
+IsModule
+(
+)
+;
 return
 NS_NewChannel
 (
@@ -1911,6 +1919,8 @@ nsIRequest
 :
 LOAD_NORMAL
 mIOService
+0
+skipCheckForBrokenURLOrZeroSized
 )
 ;
 }

@@ -889,6 +889,8 @@ nsContentPolicyType
 aContentPolicyType
 uint32_t
 aSandboxFlags
+bool
+aSkipCheckForBrokenURLOrZeroSized
 nsIChannel
 *
 *

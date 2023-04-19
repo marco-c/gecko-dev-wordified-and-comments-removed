@@ -242,6 +242,9 @@ in
 unsigned
 long
 aSandboxFlags
+in
+boolean
+aSkipCheckForBrokenURLOrZeroSized
 out
 nsIChannel
 aResult
