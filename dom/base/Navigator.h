@@ -1057,6 +1057,16 @@ JSObject
 *
 )
 ;
+static
+bool
+HasMidiSupport
+(
+JSContext
+*
+JSObject
+*
+)
+;
 nsPIDOMWindowInner
 *
 GetParentObject
