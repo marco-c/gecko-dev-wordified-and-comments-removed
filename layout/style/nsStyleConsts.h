@@ -1445,16 +1445,6 @@ Upright
 Sideways
 }
 ;
-enum
-class
-StyleMozBoxLayout
-:
-uint8_t
-{
-Legacy
-Flex
-}
-;
 #
 define
 NS_STYLE_TEXT_COMBINE_UPRIGHT_NONE
