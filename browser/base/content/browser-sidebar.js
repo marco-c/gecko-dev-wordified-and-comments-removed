@@ -783,7 +783,7 @@ hide
 ;
 this
 .
-_show
+showInitially
 (
 this
 .
