@@ -614,6 +614,11 @@ rc
 =
 0
 {
+mem
+:
+:
+drop
+(
 Box
 :
 :
@@ -628,6 +633,7 @@ as
 *
 mut
 MozURL
+)
 )
 ;
 }
