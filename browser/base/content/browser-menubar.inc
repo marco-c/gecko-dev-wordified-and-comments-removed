@@ -3895,9 +3895,6 @@ auth
 "
 /
 >
-#
-ifdef
-NIGHTLY_BUILD
 <
 menuitem
 id
@@ -3932,8 +3929,6 @@ view
 "
 /
 >
-#
-endif
 <
 menuseparator
 id
