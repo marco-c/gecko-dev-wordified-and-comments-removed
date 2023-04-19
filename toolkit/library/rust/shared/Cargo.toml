@@ -2291,6 +2291,11 @@ fog_control
 /
 with_gecko
 "
+"
+jog
+/
+with_gecko
+"
 ]
 oxidized_breakpad
 =
