@@ -627,7 +627,7 @@ value_
 }
 ;
 using
-TSN
+UnwrappedTSN
 =
 UnwrappedSequenceNumber
 <
@@ -635,7 +635,7 @@ uint32_t
 >
 ;
 using
-SSN
+UnwrappedSSN
 =
 UnwrappedSequenceNumber
 <
@@ -643,7 +643,7 @@ uint16_t
 >
 ;
 using
-MID
+UnwrappedMID
 =
 UnwrappedSequenceNumber
 <
