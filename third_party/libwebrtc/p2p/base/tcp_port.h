@@ -518,6 +518,13 @@ TCPConnection
 :
 public
 Connection
+public
+sigslot
+:
+:
+has_slots
+<
+>
 {
 public
 :
