@@ -1094,8 +1094,6 @@ k
 var
 propertyKey
 =
-TO_PROPERTY_KEY
-(
 callContentFunction
 (
 callbackfn
@@ -1104,6 +1102,12 @@ kValue
 k
 O
 )
+;
+propertyKey
+=
+TO_PROPERTY_KEY
+(
+propertyKey
 )
 ;
 var
