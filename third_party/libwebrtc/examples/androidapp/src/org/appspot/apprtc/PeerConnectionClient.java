@@ -7428,6 +7428,17 @@ mediaStreams
 )
 {
 }
+Override
+public
+void
+onRemoveTrack
+(
+final
+RtpReceiver
+receiver
+)
+{
+}
 }
 private
 class
