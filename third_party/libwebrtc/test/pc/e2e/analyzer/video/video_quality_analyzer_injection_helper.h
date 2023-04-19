@@ -372,6 +372,8 @@ string
 peer_names
 int
 max_threads_count
+=
+1
 )
 ;
 void
