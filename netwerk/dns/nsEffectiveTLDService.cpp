@@ -199,6 +199,13 @@ Init
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 nsCOMPtr
 <
 nsIObserverService
