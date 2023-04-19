@@ -2244,17 +2244,6 @@ ParseNodeKind
 :
 SetThis
 :
-#
-ifdef
-ENABLE_DECORATORS
-case
-ParseNodeKind
-:
-:
-DecoratorList
-:
-#
-endif
 MOZ_CRASH
 (
 "
