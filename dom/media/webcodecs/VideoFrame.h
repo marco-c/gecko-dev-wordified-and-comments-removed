@@ -366,14 +366,14 @@ Constructor
 const
 GlobalObject
 &
-global
+aGlobal
 HTMLCanvasElement
 &
-canvasElement
+aCanvasElement
 const
 VideoFrameInit
 &
-init
+aInit
 ErrorResult
 &
 aRv
