@@ -1607,7 +1607,6 @@ getCreatedSensor
 sensorName
 )
 ;
-await
 mockSensor
 .
 setSensorReading
@@ -1799,7 +1798,6 @@ getCreatedSensor
 sensorName
 )
 ;
-await
 mockSensor
 .
 setSensorReading
@@ -1985,7 +1983,6 @@ getCreatedSensor
 sensorName
 )
 ;
-await
 mockSensor
 .
 setSensorReading
@@ -2447,7 +2444,6 @@ getCreatedSensor
 sensorName
 )
 ;
-await
 mockSensor
 .
 setSensorReading
@@ -2697,7 +2693,6 @@ getCreatedSensor
 sensorName
 )
 ;
-await
 mockSensor
 .
 setSensorReading
@@ -3313,7 +3308,6 @@ getCreatedSensor
 sensorName
 )
 ;
-await
 mockSensor
 .
 setSensorReading

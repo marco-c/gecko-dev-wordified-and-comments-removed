@@ -551,7 +551,6 @@ close
 )
 ;
 }
-async
 setSensorReading
 (
 readingData
@@ -566,9 +565,6 @@ RingBuffer
 (
 readingData
 )
-;
-return
-this
 ;
 }
 setSensorReadingImmediately
