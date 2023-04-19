@@ -129,8 +129,7 @@ RemoteEstimatorProxy
 Clock
 *
 clock
-TransportFeedbackSenderInterface
-*
+TransportFeedbackSender
 feedback_sender
 const
 WebRtcKeyValueConfig
@@ -147,7 +146,13 @@ clock
 )
 feedback_sender_
 (
+std
+:
+:
+move
+(
 feedback_sender
+)
 )
 send_config_
 (
@@ -1145,9 +1150,6 @@ feedback_packet
 )
 ;
 feedback_sender_
--
->
-SendCombinedRtcpPacket
 (
 std
 :
@@ -1305,9 +1307,6 @@ feedback_packet
 )
 ;
 feedback_sender_
--
->
-SendCombinedRtcpPacket
 (
 std
 :
