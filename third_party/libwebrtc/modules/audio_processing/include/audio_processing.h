@@ -821,7 +821,17 @@ max_output_noise_level_dbfs
 f
 ;
 bool
+sse2_allowed
+=
+true
+;
+bool
 avx2_allowed
+=
+true
+;
+bool
+neon_allowed
 =
 true
 ;
