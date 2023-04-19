@@ -20,7 +20,7 @@ semver
 .
 0
 .
-10
+13
 "
 )
 ]
@@ -717,7 +717,11 @@ Prerelease
 [
 cfg
 (
+all
+(
 doc
+semver_rustdoc_workaround
+)
 )
 ]
 pub
@@ -735,7 +739,11 @@ cfg
 (
 not
 (
+all
+(
 doc
+semver_rustdoc_workaround
+)
 )
 )
 ]
@@ -829,7 +837,11 @@ BuildMetadata
 [
 cfg
 (
+all
+(
 doc
+semver_rustdoc_workaround
+)
 )
 ]
 pub
@@ -847,7 +859,11 @@ cfg
 (
 not
 (
+all
+(
 doc
+semver_rustdoc_workaround
+)
 )
 )
 ]
