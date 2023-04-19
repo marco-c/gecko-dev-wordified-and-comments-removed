@@ -875,6 +875,8 @@ BytecodeEmitter
 BytecodeEmitter
 *
 parent
+uintptr_t
+stackLimit
 SharedContext
 *
 sc
@@ -895,6 +897,10 @@ sc
 -
 >
 cx_
+)
+stackLimit
+(
+stackLimit
 )
 parent
 (
@@ -942,6 +948,18 @@ emitterMode
 emitterMode
 )
 {
+MOZ_ASSERT_IF
+(
+parent
+stackLimit
+=
+=
+parent
+-
+>
+stackLimit
+)
+;
 }
 BytecodeEmitter
 :
@@ -967,6 +985,10 @@ emitterMode
 BytecodeEmitter
 (
 parent
+parent
+-
+>
+stackLimit
 sc
 compilationState
 emitterMode
@@ -982,6 +1004,8 @@ BytecodeEmitter
 :
 BytecodeEmitter
 (
+uintptr_t
+stackLimit
 const
 EitherParser
 &
@@ -999,6 +1023,7 @@ emitterMode
 BytecodeEmitter
 (
 nullptr
+stackLimit
 sc
 compilationState
 emitterMode

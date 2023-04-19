@@ -359,6 +359,9 @@ cx
 =
 nullptr
 ;
+uintptr_t
+stackLimit
+;
 BytecodeEmitter
 *
 const
@@ -641,6 +644,8 @@ BytecodeEmitter
 BytecodeEmitter
 *
 parent
+uintptr_t
+stackLimit
 SharedContext
 *
 sc
@@ -720,6 +725,8 @@ public
 :
 BytecodeEmitter
 (
+uintptr_t
+stackLimit
 const
 EitherParser
 &
@@ -743,6 +750,8 @@ Unit
 >
 BytecodeEmitter
 (
+uintptr_t
+stackLimit
 Parser
 <
 FullParseHandler
@@ -764,6 +773,7 @@ Normal
 :
 BytecodeEmitter
 (
+stackLimit
 EitherParser
 (
 parser
