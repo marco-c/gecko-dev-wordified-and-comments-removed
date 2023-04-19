@@ -42,10 +42,6 @@ import
 logging
 import
 os
-import
-subprocess
-import
-sys
 class
 SkiaGoldProperties
 (
@@ -148,9 +144,13 @@ self
 .
 _continuous_integration_system
 =
-'
-buildbucket
-'
+None
+    
+self
+.
+_local_png_directory
+=
+None
     
 self
 .
@@ -187,6 +187,10 @@ return
 self
 .
 _continuous_integration_system
+or
+'
+buildbucket
+'
   
 property
   
@@ -265,6 +269,20 @@ self
 _IsLocalRun
 (
 )
+  
+property
+  
+def
+local_png_directory
+(
+self
+)
+:
+    
+return
+self
+.
+_local_png_directory
   
 property
   
@@ -527,6 +545,24 @@ hasattr
 (
 args
 '
+skia_gold_local_png_write_directory
+'
+)
+:
+      
+self
+.
+_local_png_directory
+=
+args
+.
+skia_gold_local_png_write_directory
+    
+if
+hasattr
+(
+args
+'
 no_luci_auth
 '
 )
@@ -575,6 +611,24 @@ _code_review_system
 args
 .
 code_review_system
+    
+if
+hasattr
+(
+args
+'
+continuous_integration_system
+'
+)
+:
+      
+self
+.
+_continuous_integration_system
+=
+args
+.
+continuous_integration_system
     
 if
 not

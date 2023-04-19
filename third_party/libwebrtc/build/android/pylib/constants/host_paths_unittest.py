@@ -5,6 +5,8 @@ os
 import
 unittest
 import
+six
+import
 pylib
 .
 constants
@@ -311,10 +313,11 @@ for
 cpu_arch
 binprefix
 in
-_EXPECTED_NDK_TOOL_SUBDIR_MAP
+six
 .
 iteritems
 (
+_EXPECTED_NDK_TOOL_SUBDIR_MAP
 )
 :
       

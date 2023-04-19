@@ -9610,22 +9610,15 @@ self
 _apk_libs
 +
 entries
-                            
+key
+=
 lambda
 x
-y
 :
-cmp
-(
 x
 [
 0
 ]
-y
-[
-0
-]
-)
 )
   
 def
@@ -9920,6 +9913,7 @@ min_pos
 +
 max_pos
 )
+/
 /
 2
       
@@ -10644,7 +10638,7 @@ expected_sym
 in
 _TEST_SYMBOL_DATA
 .
-iteritems
+items
 (
 )
 :
@@ -10718,10 +10712,13 @@ libmock1
 so
 '
                                
+list
+(
 _TEST_SYMBOL_DATA
 .
 keys
 (
+)
 )
 )
     
@@ -10737,7 +10734,7 @@ expected_sym
 in
 _TEST_SYMBOL_DATA
 .
-iteritems
+items
 (
 )
 :
@@ -11714,7 +11711,7 @@ offsets
 in
 offset_map
 .
-iteritems
+items
 (
 )
 :

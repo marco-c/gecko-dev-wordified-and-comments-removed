@@ -920,7 +920,7 @@ props
 in
 _ENTRIES
 .
-iteritems
+items
 (
 )
 :
@@ -972,7 +972,7 @@ props
 in
 _ENTRIES
 .
-iteritems
+items
 (
 )
 :

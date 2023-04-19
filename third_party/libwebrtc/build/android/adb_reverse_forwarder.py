@@ -212,31 +212,6 @@ add_argument
 '
 -
 -
-blacklist
--
-file
-'
-                      
-dest
-=
-'
-denylist_file
-'
-                      
-help
-=
-argparse
-.
-SUPPRESS
-)
-  
-parser
-.
-add_argument
-(
-'
--
--
 denylist
 -
 file
@@ -414,6 +389,8 @@ pairs
   
 port_pairs
 =
+list
+(
 zip
 (
 args
@@ -433,6 +410,7 @@ ports
 :
 2
 ]
+)
 )
   
 if

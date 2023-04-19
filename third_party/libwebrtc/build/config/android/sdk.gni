@@ -54,7 +54,7 @@ builds
 default_android_sdk_release
 =
 "
-r
+s
 "
 #
 SDK
@@ -70,6 +70,6 @@ public_sdk_releases
 =
 [
 "
-r
+s
 "
 ]

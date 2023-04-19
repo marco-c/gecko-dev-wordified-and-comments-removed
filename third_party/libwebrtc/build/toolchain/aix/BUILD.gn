@@ -87,7 +87,7 @@ cxx
 toolchain_args
 =
 {
-target_cpu
+current_cpu
 =
 "
 ppc64
@@ -97,6 +97,16 @@ current_os
 "
 aix
 "
+#
+reclient
+does
+not
+support
+gcc
+.
+use_rbe
+=
+false
 is_clang
 =
 false

@@ -239,15 +239,22 @@ def
 DexJdkLibJar
 (
 r8_path
+                 
 min_api
+                 
 desugar_jdk_libs_json
+                 
 desugar_jdk_libs_jar
                  
 desugar_jdk_libs_configuration_jar
-keep_rule_file
+                 
 output
                  
 warnings_as_errors
+                 
+config_paths
+=
+None
 )
 :
   
@@ -324,21 +331,18 @@ desugar_jdk_libs_json
 ]
     
 if
-keep_rule_file
+config_paths
 is
 not
 None
-and
-os
-.
-path
-.
-exists
-(
-keep_rule_file
-)
 :
       
+for
+path
+in
+config_paths
+:
+        
 cmd
 +
 =
@@ -350,7 +354,7 @@ pg
 -
 conf
 '
-keep_rule_file
+path
 ]
     
 cmd
@@ -503,7 +507,6 @@ desugar_jdk_libs_jar
 options
 .
 desugar_jdk_libs_configuration_jar
-None
 options
 .
 output

@@ -162,7 +162,7 @@ return
     
 self
 .
-assertEquals
+assertEqual
 (
 raiseException
 (
@@ -172,7 +172,7 @@ raiseException
     
 self
 .
-assertEquals
+assertEqual
 (
 doesNotRaiseException
 (
@@ -386,7 +386,7 @@ count
     
 self
 .
-assertEquals
+assertEqual
 (
 memoized
 (
@@ -396,7 +396,7 @@ memoized
     
 self
 .
-assertEquals
+assertEqual
 (
 memoized
 (
@@ -406,7 +406,7 @@ memoized
     
 self
 .
-assertEquals
+assertEqual
 (
 memoized
 (
@@ -416,7 +416,7 @@ memoized
     
 self
 .
-assertEquals
+assertEqual
 (
 notMemoized
 (
@@ -426,7 +426,7 @@ notMemoized
     
 self
 .
-assertEquals
+assertEqual
 (
 notMemoized
 (
@@ -436,7 +436,7 @@ notMemoized
     
 self
 .
-assertEquals
+assertEqual
 (
 notMemoized
 (
@@ -492,7 +492,7 @@ k
     
 self
 .
-assertEquals
+assertEqual
 (
 returnValueBasedOnArgsKwargs
 (
@@ -504,7 +504,7 @@ returnValueBasedOnArgsKwargs
     
 self
 .
-assertEquals
+assertEqual
 (
 returnValueBasedOnArgsKwargs
 (
@@ -516,7 +516,7 @@ returnValueBasedOnArgsKwargs
     
 self
 .
-assertEquals
+assertEqual
 (
 returnValueBasedOnArgsKwargs
 (
@@ -528,7 +528,7 @@ returnValueBasedOnArgsKwargs
     
 self
 .
-assertEquals
+assertEqual
 (
 returnValueBasedOnArgsKwargs
 (

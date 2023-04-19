@@ -594,7 +594,7 @@ items
 in
 libraries
 .
-iteritems
+items
 (
 )
 :
@@ -882,7 +882,7 @@ logcat
     
 asan_input
 =
-file
+open
 (
 options
 .

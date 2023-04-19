@@ -931,7 +931,7 @@ _
 in
 devices
 .
-itervalues
+values
 (
 )
 :

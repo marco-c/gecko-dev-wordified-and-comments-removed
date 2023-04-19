@@ -171,7 +171,7 @@ calculated
 .
 use_sysroot
 =
-target_cpu
+current_cpu
 =
 =
 "
@@ -179,7 +179,7 @@ x86
 "
 |
 |
-target_cpu
+current_cpu
 =
 =
 "
@@ -187,7 +187,7 @@ x64
 "
 |
 |
-target_cpu
+current_cpu
 =
 =
 "
@@ -195,7 +195,7 @@ arm
 "
 |
 |
-target_cpu
+current_cpu
 =
 =
 "
@@ -203,7 +203,7 @@ arm64
 "
 |
 |
-target_cpu
+current_cpu
 =
 =
 "
@@ -211,7 +211,7 @@ mipsel
 "
 |
 |
-target_cpu
+current_cpu
 =
 =
 "
@@ -235,7 +235,7 @@ current_os
 target_os
 &
 &
-target_cpu
+current_cpu
 =
 =
 target_cpu
@@ -327,7 +327,7 @@ runhooks
 .
 if
 (
-target_cpu
+current_cpu
 =
 =
 "
@@ -348,7 +348,7 @@ sysroot
 else
 if
 (
-target_cpu
+current_cpu
 =
 =
 "
@@ -369,7 +369,7 @@ sysroot
 else
 if
 (
-target_cpu
+current_cpu
 =
 =
 "
@@ -390,7 +390,7 @@ sysroot
 else
 if
 (
-target_cpu
+current_cpu
 =
 =
 "
@@ -411,7 +411,7 @@ sysroot
 else
 if
 (
-target_cpu
+current_cpu
 =
 =
 "
@@ -432,7 +432,7 @@ sysroot
 else
 if
 (
-target_cpu
+current_cpu
 =
 =
 "
@@ -477,7 +477,7 @@ sysroot
 {
 _script_arch
 =
-target_cpu
+current_cpu
 if
 (
 _script_arch
@@ -511,10 +511,8 @@ _script_arch
 amd64
 "
 }
-#
 assert
 (
-#
 exec_script
 (
 "
@@ -526,14 +524,12 @@ dir_exists
 .
 py
 "
-#
 [
 rebase_path
 (
 sysroot
 )
 ]
-#
 "
 string
 "
@@ -543,7 +539,6 @@ string
 "
 True
 "
-#
 "
 Missing
 sysroot
@@ -635,7 +630,7 @@ is_fuchsia
 {
 if
 (
-target_cpu
+current_cpu
 =
 =
 "
@@ -643,7 +638,7 @@ arm64
 "
 |
 |
-target_cpu
+current_cpu
 =
 =
 "
@@ -666,7 +661,7 @@ sdk
 /
 arch
 /
-target_cpu
+current_cpu
 /
 sysroot
 "

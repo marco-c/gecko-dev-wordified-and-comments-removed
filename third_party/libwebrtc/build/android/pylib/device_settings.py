@@ -1,5 +1,7 @@
 import
 logging
+import
+six
 from
 pylib
 import
@@ -264,10 +266,11 @@ value
 in
 sorted
 (
-settings
+six
 .
 iteritems
 (
+settings
 )
 )
 :

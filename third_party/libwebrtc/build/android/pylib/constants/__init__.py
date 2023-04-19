@@ -772,11 +772,11 @@ out_screenshots
 ANDROID_SDK_BUILD_TOOLS_VERSION
 =
 '
-30
+31
 .
 0
 .
-1
+0
 '
 ANDROID_SDK_ROOT
 =

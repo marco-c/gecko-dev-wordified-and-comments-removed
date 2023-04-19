@@ -440,7 +440,7 @@ used
 in
 exclusion_used
 .
-iteritems
+items
 (
 )
 :

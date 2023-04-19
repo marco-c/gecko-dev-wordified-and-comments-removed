@@ -44,14 +44,14 @@ config
 /
 chromeos
 /
-rules
+ui_mode
 .
 gni
 "
 )
 assert
 (
-is_chromeos
+is_chromeos_ash
 )
 declare_args
 (

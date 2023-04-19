@@ -220,7 +220,8 @@ self
 )
 :
     
-return
+cmd_prefix
+=
 _SSH
 +
 [
@@ -234,6 +235,18 @@ _config_path
 self
 .
 _host
+]
+    
+if
+self
+.
+_port
+:
+      
+cmd_prefix
++
+=
+[
 '
 -
 p
@@ -245,6 +258,9 @@ self
 _port
 )
 ]
+    
+return
+cmd_prefix
   
 def
 RunCommand
@@ -350,6 +366,13 @@ _GetSshCommandLinePrefix
 )
 +
 command
+    
+logging
+.
+warning
+(
+ssh_command
+)
     
 _SSH_LOGGER
 .
@@ -573,6 +596,13 @@ ssh_args
 ]
 +
 command
+    
+logging
+.
+warning
+(
+ssh_command
+)
     
 _SSH_LOGGER
 .
@@ -823,6 +853,18 @@ F
 self
 .
 _config_path
+]
+    
+if
+self
+.
+_port
+:
+      
+scp_command
++
+=
+[
 '
 -
 P

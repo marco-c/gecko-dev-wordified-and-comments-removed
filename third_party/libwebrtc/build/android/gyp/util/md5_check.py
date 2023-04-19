@@ -3317,6 +3317,13 @@ str
 (
 item
 )
+.
+encode
+(
+'
+ascii
+'
+)
 )
   
 return

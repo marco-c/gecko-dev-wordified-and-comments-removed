@@ -73,6 +73,10 @@ declare_args
 {
 use_clang_profiling
 =
+is_a_target_toolchain
+&
+&
+(
 use_clang_coverage
 |
 |
@@ -80,6 +84,7 @@ chrome_pgo_phase
 =
 =
 1
+)
 }
 assert
 (

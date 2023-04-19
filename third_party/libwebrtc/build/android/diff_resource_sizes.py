@@ -266,7 +266,7 @@ charts
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -277,7 +277,7 @@ trace
 in
 graph
 .
-iteritems
+items
 (
 )
 :
@@ -419,7 +419,7 @@ charts
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -430,7 +430,7 @@ trace
 in
 graph
 .
-iteritems
+items
 (
 )
 :
@@ -486,7 +486,7 @@ charts
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -497,7 +497,7 @@ trace
 in
 graph
 .
-iteritems
+items
 (
 )
 :

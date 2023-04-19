@@ -1,6 +1,12 @@
 import
 logging
 from
+six
+.
+moves
+import
+range
+from
 devil
 import
 base_error

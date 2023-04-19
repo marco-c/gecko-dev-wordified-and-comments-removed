@@ -616,9 +616,19 @@ CheckExpectations
 (
 actual_data
 options
+custom_msg
+=
+'
+'
 )
 :
   
+if
+options
+.
+actual_file
+:
+    
 with
 build_utils
 .
@@ -631,12 +641,19 @@ actual_file
 as
 f
 :
-    
+      
 f
 .
 write
 (
 actual_data
+.
+encode
+(
+'
+utf8
+'
+)
 )
   
 if
@@ -754,6 +771,8 @@ detail
 id
 =
 984616
+{
+}
 To
 update
 expectations
@@ -825,6 +844,7 @@ END
 .
 format
 (
+custom_msg
 diff_text
 )
     
@@ -835,6 +855,21 @@ stderr
 write
 (
 fail_msg
+)
+  
+if
+fail_msg
+and
+options
+.
+fail_on_expectations
+:
+    
+sys
+.
+exit
+(
+1
 )
   
 if
@@ -862,19 +897,4 @@ f
 write
 (
 fail_msg
-)
-  
-if
-fail_msg
-and
-options
-.
-fail_on_expectations
-:
-    
-sys
-.
-exit
-(
-1
 )

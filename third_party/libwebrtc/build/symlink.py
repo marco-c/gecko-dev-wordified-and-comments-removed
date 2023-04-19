@@ -42,9 +42,9 @@ epilog
 "
 "
 "
+\
 A
-sym
-link
+symlink
 to
 source
 is
@@ -56,7 +56,7 @@ If
 multiple
 sources
 are
-specfied
+specified
 then
 linkname
 is
@@ -117,17 +117,6 @@ have
 the
 old
 contents
-.
-This
-is
-not
-expected
-to
-interfere
-with
-the
-Chromium
-build
 .
 "
 "
@@ -571,8 +560,6 @@ touch
 w
 '
 )
-as
-f
 :
       
 pass

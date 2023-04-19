@@ -327,6 +327,16 @@ chrome_public_test_apk
 '
 /
 /
+chrome
+/
+android
+:
+chrome_public_unit_test_apk
+'
+    
+'
+/
+/
 content
 /
 public
@@ -498,7 +508,7 @@ not
 isinstance
 (
 path_or_list
-basestring
+str
 )
 :
     
@@ -882,10 +892,6 @@ nested
 -
 -
 build
--
-build
--
-configs
 '
 '
 -
@@ -917,6 +923,13 @@ subprocess
 check_output
 (
 cmd
+encoding
+=
+'
+UTF
+-
+8
+'
 )
 .
 splitlines
@@ -1090,6 +1103,8 @@ suffix
 '
 .
 build_config
+.
+json
 '
     
 assert
@@ -1217,23 +1232,6 @@ _gn_target
 2
 :
 ]
-  
-def
-GnBuildConfigTarget
-(
-self
-)
-:
-    
-return
-'
-%
-s__build_config_crbug_908819
-'
-%
-self
-.
-_gn_target
   
 def
 GradleSubdir
@@ -1384,6 +1382,8 @@ project
 s
 .
 build_config
+.
+json
 JSON
 .
 "
@@ -1417,6 +1417,8 @@ GradleSubdir
 '
 .
 build_config
+.
+json
 '
 )
       
@@ -3238,10 +3240,13 @@ java_files
     
 java_dirs
 =
+list
+(
 computed_dirs
 .
 keys
 (
+)
 )
     
 all_found_java_files
@@ -3256,7 +3261,7 @@ files
 in
 computed_dirs
 .
-iteritems
+items
 (
 )
 :
@@ -3865,7 +3870,10 @@ android_sdk_version
 ]
   
 if
+str
+(
 target_sdk_version
+)
 .
 isalpha
 (
@@ -4275,7 +4283,7 @@ value
 in
 test_entry
 .
-iteritems
+items
 (
 )
 :
@@ -4335,46 +4343,6 @@ _
 ]
 )
 variables
-)
-def
-_IsTestDir
-(
-path
-)
-:
-  
-return
-(
-'
-javatests
-/
-'
-in
-path
-or
-          
-'
-junit
-/
-'
-in
-path
-or
-          
-'
-test
-/
-'
-in
-path
-or
-          
-'
-testing
-/
-'
-in
-path
 )
 def
 _GetNative
@@ -4811,14 +4779,16 @@ d
 in
 java_dirs
 if
+'
+junit
+/
+'
 not
-_IsTestDir
-(
+in
 d
-)
 ]
   
-test_java_dirs
+junit_test_java_dirs
 =
 [
 d
@@ -4827,10 +4797,12 @@ d
 in
 java_dirs
 if
-_IsTestDir
-(
+'
+junit
+/
+'
+in
 d
-)
 ]
   
 variables
@@ -4911,7 +4883,7 @@ java_dirs
 :
 Relativize
 (
-test_java_dirs
+junit_test_java_dirs
 )
       
 '

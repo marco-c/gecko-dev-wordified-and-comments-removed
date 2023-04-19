@@ -125,7 +125,7 @@ methods
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -257,7 +257,7 @@ annotations
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -510,7 +510,7 @@ methods
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -809,7 +809,7 @@ methods
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -1237,7 +1237,7 @@ methods
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -1802,7 +1802,7 @@ methods
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -2043,7 +2043,7 @@ methods
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -2324,7 +2324,7 @@ val2
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -2651,7 +2651,7 @@ val2
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -3086,7 +3086,7 @@ val2
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -3542,7 +3542,7 @@ None
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -4135,7 +4135,7 @@ arg2Array
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual

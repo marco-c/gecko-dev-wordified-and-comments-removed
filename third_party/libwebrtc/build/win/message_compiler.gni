@@ -345,7 +345,7 @@ dir
 "
 environment
 .
-target_cpu
+current_cpu
 "
 #
 Where

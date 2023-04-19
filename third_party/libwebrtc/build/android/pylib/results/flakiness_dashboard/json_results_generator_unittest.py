@@ -596,7 +596,7 @@ count
 in
 fixable_items
 .
-iteritems
+items
 (
 )
 :
@@ -776,7 +776,7 @@ test_name
 in
 failed_count_map
 .
-iterkeys
+keys
 (
 )
 :

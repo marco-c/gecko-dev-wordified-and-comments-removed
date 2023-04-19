@@ -1000,8 +1000,6 @@ jar_excluded_globs
 options
 .
 jar_included_globs
-[
-]
 )
         
 with

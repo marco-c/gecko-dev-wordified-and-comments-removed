@@ -636,7 +636,21 @@ extract_unwind_tables
 .
 _ParseCfiData
 (
+          
+[
+l
+.
+encode
+(
+'
+utf8
+'
+)
+for
+l
+in
 test_data_lines
+]
 output_file
 .
 name
@@ -906,9 +920,8 @@ index
         
 self
 .
-assertEquals
+assertEqual
 (
-            
 len
 (
 expected_cfi_data
@@ -916,6 +929,7 @@ expected_cfi_data
 func_addr
 ]
 )
+                         
 func_end
 -
 func_start

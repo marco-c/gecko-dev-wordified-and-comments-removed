@@ -2623,6 +2623,15 @@ in
 uncompressed_assets
 )
   
+depfile_deps
+.
+append
+(
+options
+.
+resource_apk
+)
+  
 if
 options
 .
@@ -3067,6 +3076,9 @@ open
 options
 .
 dex_file
+'
+rb
+'
 )
 as
 dex_file_obj
@@ -3198,6 +3210,9 @@ open
 options
 .
 jdk_libs_dex_file
+'
+rb
+'
 )
 as
 dex_file_obj

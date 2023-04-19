@@ -323,7 +323,7 @@ max_concurrent_jobs
 for
 addr
 in
-xrange
+range
 (
 1000
 )
@@ -804,7 +804,7 @@ addr2line_timeout
 for
 addr
 in
-xrange
+range
 (
 num_symbols
 )
@@ -863,7 +863,7 @@ Join
 for
 addr
 in
-xrange
+range
 (
 num_symbols
 )

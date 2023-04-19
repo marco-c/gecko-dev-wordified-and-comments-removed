@@ -141,6 +141,13 @@ avcodec
 h
 "
 "
+libavcodec
+/
+packet
+.
+h
+"
+"
 libavformat
 /
 avformat

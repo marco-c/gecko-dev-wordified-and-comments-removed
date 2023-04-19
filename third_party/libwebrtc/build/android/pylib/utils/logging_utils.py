@@ -437,7 +437,7 @@ force_color
 False
 )
 :
-     
+    
 "
 "
 "
@@ -507,7 +507,7 @@ colorize
 "
 "
 "
-     
+    
 logging
 .
 getLogger
@@ -518,7 +518,7 @@ handlers
 =
 [
 ]
-     
+    
 logging
 .
 getLogger
@@ -654,7 +654,7 @@ prev_color
 in
 prev_colors
 .
-iteritems
+items
 (
 )
 :

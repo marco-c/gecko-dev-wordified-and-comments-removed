@@ -124,9 +124,9 @@ LDFLAGS
 toolchain_args
 =
 {
-target_cpu
+current_cpu
 =
-target_cpu
+current_cpu
 current_os
 =
 current_os
@@ -209,9 +209,9 @@ BUILD_LDFLAGS
 toolchain_args
 =
 {
-target_cpu
+current_cpu
 =
-target_cpu
+current_cpu
 current_os
 =
 current_os

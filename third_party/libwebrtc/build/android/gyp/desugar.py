@@ -136,6 +136,13 @@ add_argument
 -
 classpath
 '
+                      
+action
+=
+'
+append
+'
+                      
 required
 =
 True

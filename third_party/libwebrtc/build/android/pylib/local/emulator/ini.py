@@ -140,7 +140,7 @@ sorted
 (
 obj
 .
-iteritems
+items
 (
 )
 )

@@ -47,15 +47,6 @@ py
 gn_helpers
 .
 py
-.
-.
-/
-.
-.
-/
-print_python_deps
-.
-py
 turbine
 .
 py
@@ -67,10 +58,5 @@ py
 util
 /
 build_utils
-.
-py
-util
-/
-md5_check
 .
 py

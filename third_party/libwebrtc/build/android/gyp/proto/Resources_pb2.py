@@ -82,6 +82,8 @@ _symbol_database
 Default
 (
 )
+from
+.
 import
 Configuration_pb2
 as

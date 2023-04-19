@@ -6,6 +6,8 @@ describes
 the
 .
 build_config
+.
+json
 files
 that
 are
@@ -36,6 +38,8 @@ Overview
 of
 .
 build_config
+.
+json
 files
 :
 The
@@ -64,6 +68,8 @@ address
 this
 .
 build_config
+.
+json
 files
 are
 written
@@ -94,6 +100,8 @@ target_name
 }
 .
 build_config
+.
+json
 .
 Many
 scripts
@@ -213,6 +221,8 @@ structure
 of
 .
 build_config
+.
+json
 files
 (
 but
@@ -312,6 +322,8 @@ android
 ui_java_resources
 .
 build_config
+.
+json
 :
 json
 {
@@ -335,6 +347,8 @@ android
 ui_strings_grd
 .
 build_config
+.
+json
 "
 ]
 "
@@ -345,6 +359,8 @@ name
 ui_java_resources
 .
 build_config
+.
+json
 "
 "
 package_name
@@ -371,6 +387,8 @@ android
 ui_java_resources
 .
 build_config
+.
+json
 "
 "
 r_text
@@ -494,6 +512,8 @@ values
 in
 .
 build_config
+.
+json
 files
 are
 relative
@@ -508,6 +528,8 @@ Generation
 of
 .
 build_config
+.
+json
 files
 :
 They
@@ -605,6 +627,8 @@ android
 ui_strings_grd
 .
 build_config
+.
+json
 \
 "
 \
@@ -624,6 +648,8 @@ android
 ui_java_resources
 .
 build_config
+.
+json
 \
 -
 -
@@ -757,6 +783,8 @@ only
 ui_string_grd
 .
 build_config
+.
+json
 )
 and
 collecting
@@ -776,6 +804,8 @@ target
 s
 .
 build_config
+.
+json
 file
 will
 always
@@ -853,6 +883,8 @@ Usage
 of
 .
 build_config
+.
+json
 files
 :
 In
@@ -882,6 +914,8 @@ target
 the
 .
 build_config
+.
+json
 files
 are
 used
@@ -1048,6 +1082,8 @@ android
 ui_java_resources
 .
 build_config
+.
+json
 :
 resources
 :
@@ -1075,6 +1111,8 @@ android
 ui_java_resources
 .
 build_config
+.
+json
 :
 resources
 :
@@ -1217,6 +1255,8 @@ Format
 of
 .
 build_config
+.
+json
 files
 :
 Thanks
@@ -1258,6 +1298,8 @@ format
 of
 .
 build_config
+.
+json
 files
 .
 This
@@ -1314,6 +1356,8 @@ sh
 Extract
 .
 build_config
+.
+json
 format
 documentation
 build
@@ -1397,7 +1441,7 @@ build
 /
 +
 /
-master
+main
 /
 android
 /
@@ -1462,7 +1506,7 @@ build
 /
 +
 /
-master
+main
 /
 android
 /

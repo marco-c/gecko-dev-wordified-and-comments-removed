@@ -621,7 +621,7 @@ classes
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -800,7 +800,7 @@ Object
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual
@@ -929,7 +929,7 @@ Object
     
 self
 .
-assertEquals
+assertEqual
 (
 expected
 actual

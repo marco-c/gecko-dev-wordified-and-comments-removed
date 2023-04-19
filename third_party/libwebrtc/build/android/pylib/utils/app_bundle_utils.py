@@ -234,6 +234,10 @@ mode
 =
 None
                        
+local_testing
+=
+False
+                       
 minimal
 =
 False
@@ -684,6 +688,23 @@ overwrite
 ]
       
 if
+local_testing
+:
+        
+cmd_args
++
+=
+[
+'
+-
+-
+local
+-
+testing
+'
+]
+      
+if
 mode
 is
 not
@@ -796,6 +817,11 @@ tempfile
 .
 NamedTemporaryFile
 (
+mode
+=
+'
+w
+'
 suffix
 =
 '

@@ -1117,7 +1117,7 @@ a
     
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -1144,7 +1144,7 @@ clinit
     
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -1194,7 +1194,7 @@ clinit
     
 self
 .
-assertEquals
+assertEqual
 (
 clinit
 .
@@ -1208,7 +1208,7 @@ clinit
     
 self
 .
-assertEquals
+assertEqual
 (
 clinit
 .
@@ -1220,7 +1220,7 @@ V
     
 self
 .
-assertEquals
+assertEqual
 (
 clinit
 .
@@ -1237,7 +1237,7 @@ String
     
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -1319,7 +1319,7 @@ dex
     
 self
 .
-assertEquals
+assertEqual
 (
 '
 La
@@ -1494,7 +1494,7 @@ I
     
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -1590,7 +1590,7 @@ I
     
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -1635,7 +1635,7 @@ La
     
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -1660,7 +1660,7 @@ mapping
 .
 _method_mapping
 .
-iteritems
+items
 (
 )
 :
@@ -1692,14 +1692,14 @@ mapping
 .
 _class_mapping
 .
-iteritems
+items
 (
 )
 :
       
 self
 .
-assertEquals
+assertEqual
 (
 from_class
 reverse
@@ -1892,7 +1892,7 @@ _methods
     
 self
 .
-assertEquals
+assertEqual
 (
 profile
 .
@@ -1918,7 +1918,7 @@ P
     
 self
 .
-assertEquals
+assertEqual
 (
 profile
 .
@@ -1941,7 +1941,7 @@ P
     
 self
 .
-assertEquals
+assertEqual
 (
 profile
 .
@@ -2064,7 +2064,7 @@ splitlines
           
 self
 .
-assertEquals
+assertEqual
 (
 a
 .
@@ -2266,7 +2266,7 @@ obfuscated_profile
         
 self
 .
-assertEquals
+assertEqual
 (
 a
 .

@@ -73,13 +73,5 @@ is_linux
 &
 &
 !
-is_chromeos
-&
-&
-!
 is_chromecast
-&
-&
-!
-chromeos_is_browser_only
 }

@@ -101,11 +101,6 @@ ICU_UTIL_DATA_IMPL
 =
 ICU_UTIL_DATA_STATIC
 "
-"
-UCHAR_TYPE
-=
-uint16_t
-"
 #
 U_EXPORT
 (
@@ -1215,6 +1210,13 @@ h
 unicode
 /
 idna
+.
+h
+"
+"
+unicode
+/
+localematcher
 .
 h
 "

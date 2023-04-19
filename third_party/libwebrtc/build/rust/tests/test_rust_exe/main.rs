@@ -1,0 +1,16 @@
+use
+test_rust_source_set
+:
+:
+say_hello
+;
+fn
+main
+(
+)
+{
+say_hello
+(
+)
+;
+}

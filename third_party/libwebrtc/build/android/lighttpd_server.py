@@ -29,8 +29,6 @@ codecs
 import
 contextlib
 import
-httplib
-import
 os
 import
 random
@@ -46,6 +44,18 @@ import
 tempfile
 import
 time
+from
+six
+.
+moves
+import
+http_client
+from
+six
+.
+moves
+import
+input
 from
 pylib
 import
@@ -864,7 +874,7 @@ server_msg
 for
 timeout
 in
-xrange
+range
 (
 1
 5
@@ -883,11 +893,11 @@ contextlib
 .
 closing
 (
-httplib
+            
+http_client
 .
 HTTPConnection
 (
-            
 '
 127
 .
@@ -900,6 +910,7 @@ HTTPConnection
 self
 .
 port
+                                       
 timeout
 =
 timeout
@@ -1047,7 +1058,7 @@ getheaders
       
 except
 (
-httplib
+http_client
 .
 HTTPException
 socket
@@ -2002,7 +2013,7 @@ StartupHttpServer
 )
 :
       
-raw_input
+input
 (
 '
 Server
@@ -2024,7 +2035,7 @@ http
 s
 -
 '
-                
+            
 '
 press
 Enter

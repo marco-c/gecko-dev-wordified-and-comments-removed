@@ -35,7 +35,7 @@ import
 sys
 try
 :
-    
+  
 from
 urllib
 .
@@ -45,7 +45,7 @@ urlopen
 except
 ImportError
 :
-    
+  
 from
 urllib2
 import

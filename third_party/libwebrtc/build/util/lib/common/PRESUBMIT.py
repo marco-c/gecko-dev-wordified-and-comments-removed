@@ -1,3 +1,6 @@
+USE_PYTHON3
+=
+True
 def
 _RunTests
 (
@@ -14,13 +17,13 @@ canned_checks
 .
 RunUnitTestsInDirectory
 (
-          
+      
 input_api
 output_api
 '
 .
 '
-whitelist
+files_to_check
 =
 [
 r

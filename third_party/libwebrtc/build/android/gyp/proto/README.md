@@ -106,7 +106,7 @@ import
 Configuration_pb2
 .
 py
-remove
+replace
 the
 "
 from
@@ -123,6 +123,11 @@ of
 the
 import
 statement
+with
+"
+from
+.
+"
 so
 it
 will

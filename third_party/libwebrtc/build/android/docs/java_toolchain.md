@@ -2024,7 +2024,7 @@ checks
 exists
 [
 within
-javac
+compile_java
 .
 py
 ]
@@ -2049,7 +2049,7 @@ android
 /
 gyp
 /
-javac
+compile_java
 .
 py
 ?

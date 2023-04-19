@@ -180,6 +180,12 @@ import
 logging
 import
 sys
+from
+six
+.
+moves
+import
+input
 import
 devil_chromium
 from
@@ -229,7 +235,7 @@ Install
 old_apk
 )
   
-raw_input
+input
 (
 '
 Set
@@ -243,7 +249,7 @@ press
 enter
 and
 '
-            
+        
 '
 select
 "
@@ -313,7 +319,7 @@ Restore
 app_data
 )
   
-raw_input
+input
 (
 '
 Select
@@ -331,7 +337,7 @@ press
 enter
 to
 '
-            
+        
 '
 continue
 .
@@ -486,31 +492,6 @@ log
 information
 .
 '
-)
-  
-parser
-.
-add_argument
-(
-'
--
--
-blacklist
--
-file
-'
-                      
-dest
-=
-'
-denylist_file
-'
-                      
-help
-=
-argparse
-.
-SUPPRESS
 )
   
 parser

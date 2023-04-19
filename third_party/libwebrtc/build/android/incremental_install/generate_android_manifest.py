@@ -672,6 +672,7 @@ ret
 .
 replace
 (
+b
 '
 extractNativeLibs
 =
@@ -679,6 +680,7 @@ extractNativeLibs
 false
 "
 '
+b
 '
 extractNativeLibs
 =
@@ -698,6 +700,7 @@ ret
 .
 replace
 (
+b
 '
 isolatedProcess
 =
@@ -705,6 +708,7 @@ isolatedProcess
 true
 "
 '
+b
 '
 isolatedProcess
 =
@@ -745,6 +749,23 @@ options
 .
 in_apk
 )
+  
+assert
+arsc_package
+is
+not
+None
+'
+The
+apk
+does
+not
+have
+a
+valid
+package
+.
+'
   
 version_code
 version_name

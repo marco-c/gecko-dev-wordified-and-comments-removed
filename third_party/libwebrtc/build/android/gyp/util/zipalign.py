@@ -149,6 +149,7 @@ else
         
 raise
 RuntimeError
+(
 "
 Corrupt
 extra
@@ -159,6 +160,7 @@ s
 %
 (
 ln
+)
 )
       
 idx
@@ -171,8 +173,8 @@ self
 file_size
 in
 (
-0xffffffffffffffffL
-0xffffffffL
+0xffffffffffffffff
+0xffffffff
 )
 :
         
@@ -196,7 +198,7 @@ self
 compress_size
 =
 =
-0xFFFFFFFFL
+0xffffffff
 :
         
 self
@@ -219,7 +221,7 @@ self
 header_offset
 =
 =
-0xffffffffL
+0xffffffff
 :
         
 self

@@ -530,9 +530,7 @@ for
 src
 dest
 in
-itertools
-.
-izip
+zip
 (
 src_files
 dest_files

@@ -39,7 +39,7 @@ are
 primarily
 relevant
 in
-target_cpu
+current_cpu
 =
 =
 "
@@ -56,7 +56,7 @@ compiled
 .
 if
 (
-target_cpu
+current_cpu
 =
 =
 "

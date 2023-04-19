@@ -1,7 +1,3 @@
-from
-__future__
-import
-print_function
 import
 bisect
 import
@@ -2244,7 +2240,7 @@ lib_offsets
 in
 libraries_map
 .
-iteritems
+items
 (
 )
 :
@@ -3164,20 +3160,14 @@ _addr_map
 sorted
 (
 addr_list
-                            
+key
+=
 lambda
 x
-y
 :
-cmp
-(
 x
 .
 addr_start
-y
-.
-addr_start
-)
 )
     
 self

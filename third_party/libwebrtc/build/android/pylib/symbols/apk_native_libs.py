@@ -1560,21 +1560,15 @@ return
 sorted
 (
 result
+key
+=
 lambda
 x
-y
 :
-cmp
-(
 x
 [
 1
 ]
-y
-[
-1
-]
-)
 )
   
 def

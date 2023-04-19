@@ -34,7 +34,7 @@ self
     
 self
 .
-assertEquals
+assertEqual
 (
         
 '
@@ -50,7 +50,6 @@ local_device_test_run
 .
 SubstituteDeviceRoot
 (
-            
 None
 '
 /
@@ -72,7 +71,7 @@ self
     
 self
 .
-assertEquals
+assertEqual
 (
         
 '
@@ -90,7 +89,6 @@ local_device_test_run
 .
 SubstituteDeviceRoot
 (
-            
 '
 /
 another
@@ -101,6 +99,7 @@ device
 /
 path
 '
+                                                   
 '
 /
 fake
@@ -121,7 +120,7 @@ self
     
 self
 .
-assertEquals
+assertEqual
 (
         
 '
@@ -139,13 +138,13 @@ local_device_test_run
 .
 SubstituteDeviceRoot
 (
-            
 [
 None
 '
 subpath
 '
 ]
+                                                   
 '
 /
 fake
@@ -166,7 +165,7 @@ self
     
 self
 .
-assertEquals
+assertEqual
 (
         
 '
@@ -202,7 +201,6 @@ device
 path
 '
 ]
-            
 '
 /
 fake
@@ -401,7 +399,7 @@ try_results
     
 self
 .
-assertEquals
+assertEqual
 (
 0
 len
@@ -500,7 +498,7 @@ try_results
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 len
@@ -600,7 +598,7 @@ try_results
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 len
@@ -709,7 +707,7 @@ try_results
     
 self
 .
-assertEquals
+assertEqual
 (
 0
 len
@@ -808,7 +806,7 @@ try_results
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 len
@@ -939,7 +937,7 @@ try_results
     
 self
 .
-assertEquals
+assertEqual
 (
 1
 len
@@ -961,7 +959,7 @@ dict
     
 self
 .
-assertEquals
+assertEqual
 (
 tests
 [

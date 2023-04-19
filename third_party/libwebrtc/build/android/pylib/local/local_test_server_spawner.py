@@ -3,6 +3,12 @@ json
 import
 time
 from
+six
+.
+moves
+import
+range
+from
 devil
 .
 android
@@ -97,7 +103,7 @@ sleep_time_sec
 for
 _
 in
-xrange
+range
 (
 1
 max_attempts

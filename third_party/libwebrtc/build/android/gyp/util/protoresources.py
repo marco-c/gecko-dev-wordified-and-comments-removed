@@ -122,6 +122,7 @@ import
 Resources_pb2
 _FLAT_ARSC_HEADER
 =
+b
 '
 AAPT
 \
@@ -151,7 +152,7 @@ x00
 '
 SHARED_LIBRARY_HARDCODED_ID
 =
-12
+36
 def
 _ProcessZip
 (
@@ -1680,6 +1681,7 @@ proto_bytes
   
 padding
 =
+b
 '
 \
 0
@@ -1693,10 +1695,12 @@ overage
 if
 overage
 else
+b
 '
 '
   
 return
+b
 '
 '
 .

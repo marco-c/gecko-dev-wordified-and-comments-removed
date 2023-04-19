@@ -1,7 +1,3 @@
-from
-__future__
-import
-print_function
 import
 argparse
 import
@@ -18,8 +14,35 @@ import
 os
 import
 sys
-import
+try
+:
+  
+from
 urllib
+.
+parse
+import
+urlencode
+  
+from
+urllib
+.
+request
+import
+urlopen
+except
+ImportError
+:
+  
+from
+urllib
+import
+urlencode
+  
+from
+urllib2
+import
+urlopen
 CURRENT_DIR
 =
 os
@@ -560,19 +583,15 @@ suite_name
   
 url_args
 =
-urllib
-.
 urlencode
 (
 [
-      
 (
 '
 testType
 '
 suite_name
 )
-      
 (
 '
 tests
@@ -965,7 +984,7 @@ test_results
 in
 results_dict
 .
-iteritems
+items
 (
 )
 :
@@ -1335,7 +1354,7 @@ test_results
 in
 results_dict
 .
-iteritems
+items
 (
 )
 :
@@ -1569,6 +1588,18 @@ data
 =
 1
     
+if
+result
+[
+'
+elapsed_time_ms
+'
+]
+is
+not
+None
+:
+      
 suite_row
 [
 TIME_INDEX
@@ -1586,7 +1617,7 @@ result
 elapsed_time_ms
 '
 ]
-    
+      
 footer_row
 [
 TIME_INDEX
@@ -1608,10 +1639,13 @@ elapsed_time_ms
 for
 suite
 in
+list
+(
 suite_row_dict
 .
 values
 (
+)
 )
 :
     
@@ -1712,18 +1746,21 @@ success
 return
 (
 header_row
-          
 [
 [
 suite_row
 ]
+                       
 for
 suite_row
 in
+list
+(
 suite_row_dict
 .
 values
 (
+)
 )
 ]
           
@@ -1811,8 +1848,6 @@ result_details_link
   
 url_args
 =
-urllib
-.
 urlencode
 (
 url_args
@@ -2257,7 +2292,7 @@ test_runs
 in
 testsuite_run
 .
-iteritems
+items
 (
 )
 :
@@ -2424,7 +2459,7 @@ test_runs
 in
 testsuite_run
 .
-iteritems
+items
 (
 )
 :
@@ -2481,8 +2516,6 @@ contextlib
 .
 closing
 (
-urllib
-.
 urlopen
 (
 screenshot_link
@@ -3624,11 +3657,8 @@ com
     
 ui_catalog_query
 =
-urllib
-.
 urlencode
 (
-        
 {
 '
 screenshot_source

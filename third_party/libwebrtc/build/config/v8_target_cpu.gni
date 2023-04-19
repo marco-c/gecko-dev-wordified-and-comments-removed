@@ -164,7 +164,7 @@ defaults
 either
 if
 the
-target_cpu
+current_cpu
 #
 applies
 *
@@ -172,7 +172,7 @@ or
 *
 if
 the
-v8_target_cpu
+v8_current_cpu
 applies
 .
 #
@@ -511,8 +511,7 @@ by
 the
 user
 .
-#
-v8_target_cpu
+v8_current_cpu
 =
 v8_target_cpu
 }

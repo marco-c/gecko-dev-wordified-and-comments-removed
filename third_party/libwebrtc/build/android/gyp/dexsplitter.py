@@ -595,7 +595,7 @@ options
 .
 features
 .
-itervalues
+values
 (
 )
 :

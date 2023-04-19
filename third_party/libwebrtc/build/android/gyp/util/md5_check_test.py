@@ -730,6 +730,7 @@ input_file1
 .
 write
 (
+b
 '
 some
 more

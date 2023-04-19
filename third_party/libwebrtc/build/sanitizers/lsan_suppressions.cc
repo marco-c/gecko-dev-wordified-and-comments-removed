@@ -93,6 +93,17 @@ n
 "
 leak
 :
+gin
+/
+function_template
+.
+h
+\
+n
+"
+"
+leak
+:
 swrast_dri
 .
 so

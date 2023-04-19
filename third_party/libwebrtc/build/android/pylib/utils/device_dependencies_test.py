@@ -76,9 +76,8 @@ Release
     
 self
 .
-assertEquals
+assertEqual
 (
-        
 [
 None
 '
@@ -93,12 +92,12 @@ baz
 txt
 '
 ]
-        
+                     
 device_dependencies
 .
 DevicePathComponentsFor
 (
-            
+                         
 test_path
 output_directory
 )
@@ -162,9 +161,8 @@ Release
     
 self
 .
-assertEquals
+assertEqual
 (
-        
 [
 None
 '
@@ -173,12 +171,12 @@ icudtl
 dat
 '
 ]
-        
+                     
 device_dependencies
 .
 DevicePathComponentsFor
 (
-            
+                         
 test_path
 output_directory
 )
@@ -245,9 +243,8 @@ Release
     
 self
 .
-assertEquals
+assertEqual
 (
-        
 [
 None
 '
@@ -259,12 +256,12 @@ icudtl
 dat
 '
 ]
-        
+                     
 device_dependencies
 .
 DevicePathComponentsFor
 (
-            
+                         
 test_path
 output_directory
 )
@@ -328,9 +325,8 @@ Release
     
 self
 .
-assertEquals
+assertEqual
 (
-        
 [
 None
 '
@@ -342,12 +338,12 @@ foo
 pak
 '
 ]
-        
+                     
 device_dependencies
 .
 DevicePathComponentsFor
 (
-            
+                         
 test_path
 output_directory
 )

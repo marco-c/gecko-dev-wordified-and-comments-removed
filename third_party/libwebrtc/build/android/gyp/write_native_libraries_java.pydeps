@@ -47,9 +47,6 @@ py
 gn_helpers
 .
 py
-native_libraries_template
-.
-py
 util
 /
 __init__

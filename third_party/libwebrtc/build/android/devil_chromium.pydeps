@@ -621,9 +621,15 @@ catapult
 /
 third_party
 /
-zipfile
+six
 /
-zipfile_2_7_13
+six
+.
+py
+.
+.
+/
+gn_helpers
 .
 py
 devil_chromium

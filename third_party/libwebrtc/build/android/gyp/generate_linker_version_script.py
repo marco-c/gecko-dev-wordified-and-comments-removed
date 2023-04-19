@@ -415,6 +415,11 @@ AtomicOutput
 options
 .
 output
+mode
+=
+'
+w
+'
 )
 as
 f

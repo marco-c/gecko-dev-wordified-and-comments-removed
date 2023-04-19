@@ -76,9 +76,9 @@ targeting
 ios_deployment_target
 =
 "
-12
+14
 .
-2
+0
 "
 }
 #
@@ -112,9 +112,9 @@ ios_deployment_target
 =
 =
 "
-12
+14
 .
-2
+0
 "
 |
 |

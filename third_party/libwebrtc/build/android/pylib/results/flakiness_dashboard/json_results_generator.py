@@ -8,8 +8,47 @@ import
 os
 import
 time
+try
+:
+  
+from
+urllib
+.
+request
 import
+urlopen
+Request
+  
+from
+urllib
+.
+error
+import
+HTTPError
+URLError
+  
+from
+urllib
+.
+parse
+import
+quote
+except
+ImportError
+:
+  
+from
+urllib
+import
+quote
+  
+from
 urllib2
+import
+urlopen
+HTTPError
+URLError
+Request
 _log
 =
 logging
@@ -191,7 +230,7 @@ data
 in
 trie
 .
-iteritems
+items
 (
 )
 :
@@ -463,9 +502,12 @@ FLAKY
 DISABLED
 )
 =
+list
+(
 range
 (
 4
+)
 )
   
 def
@@ -1104,10 +1146,13 @@ self
 .
 _test_results
 =
+list
+(
 test_results_map
 .
 values
 (
+)
 )
     
 self
@@ -1211,12 +1256,15 @@ times
 =
 TestTimingsTrie
 (
+list
+(
 self
 .
 _test_results_map
 .
 values
 (
+)
 )
 )
     
@@ -1939,12 +1987,15 @@ test_result
 .
 modifier
 in
+list
+(
 self
 .
 MODIFIER_TO_CHAR
 .
 keys
 (
+)
 )
 :
       
@@ -2227,8 +2278,6 @@ URL_FOR_TEST_LIST_JSON
 %
                         
 (
-urllib2
-.
 quote
 (
 self
@@ -2236,30 +2285,22 @@ self
 _test_results_server
 )
                          
-urllib2
-.
 quote
 (
 self
 .
 _builder_name
 )
-                         
 self
 .
 RESULTS_FILENAME
                          
-urllib2
-.
 quote
 (
 self
 .
 _test_type
 )
-                         
-urllib2
-.
 quote
 (
 self
@@ -2274,8 +2315,6 @@ try
       
 results_file
 =
-urllib2
-.
 urlopen
 (
 results_file_url
@@ -2290,8 +2329,6 @@ read
 )
     
 except
-urllib2
-.
 HTTPError
 as
 http_error
@@ -2317,8 +2354,6 @@ error
 http_error
     
 except
-urllib2
-.
 URLError
 as
 url_error
@@ -2512,7 +2547,7 @@ self
 .
 _test_results_map
 .
-iterkeys
+keys
 (
 )
 :
@@ -3258,10 +3293,13 @@ archive_version
 for
 results
 in
+list
+(
 results_json
 .
 values
 (
+)
 )
 :
         
@@ -3321,7 +3359,7 @@ test
 in
 test_results
 .
-iterkeys
+keys
 (
 )
 :
@@ -3912,15 +3950,12 @@ try
         
 request
 =
-urllib2
-.
 Request
 (
 self
 .
 _url
 data
-                                  
 {
 '
 Content
@@ -3933,16 +3968,12 @@ content_type
 )
         
 return
-urllib2
-.
 urlopen
 (
 request
 )
       
 except
-urllib2
-.
 HTTPError
 as
 e
@@ -4227,7 +4258,7 @@ if
 isinstance
 (
 value
-unicode
+str
 )
 :
       
@@ -4339,7 +4370,7 @@ if
 isinstance
 (
 value
-unicode
+str
 )
 :
       

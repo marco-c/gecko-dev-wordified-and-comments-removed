@@ -246,9 +246,7 @@ script
 /
 build
 /
-config
-/
-mac
+apple
 /
 plist_util
 .

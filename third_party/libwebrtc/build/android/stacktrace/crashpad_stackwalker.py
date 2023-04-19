@@ -791,7 +791,6 @@ parser
 .
 add_argument
 (
-      
 '
 -
 -
@@ -799,9 +798,6 @@ adb
 -
 path
 '
-required
-=
-True
 help
 =
 '
@@ -943,6 +939,12 @@ devil_chromium
 .
 Initialize
 (
+output_directory
+=
+args
+.
+build_path
+                            
 adb_path
 =
 args

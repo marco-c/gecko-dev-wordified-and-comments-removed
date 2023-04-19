@@ -62,6 +62,13 @@ chromeos
 .
 gni
 /
+args
+/
+chromeos
+/
+rewrapper
+*
+/
 config
 /
 gclient_args

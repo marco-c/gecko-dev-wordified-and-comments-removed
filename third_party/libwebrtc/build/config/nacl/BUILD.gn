@@ -121,7 +121,7 @@ __STDC_LIMIT_MACROS
 }
 if
 (
-target_cpu
+current_cpu
 =
 =
 "
@@ -414,7 +414,7 @@ if
 is_clang
 &
 &
-target_cpu
+current_cpu
 !
 =
 "
@@ -773,7 +773,7 @@ pointer
 ]
 if
 (
-target_cpu
+current_cpu
 =
 =
 "

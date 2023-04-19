@@ -73,7 +73,14 @@ path
 .
 basename
 (
+os
+.
 path
+.
+normpath
+(
+path
+)
 )
 =
 =

@@ -82,7 +82,7 @@ final
 int
 MAX_MISSING_CLASS_WARNINGS
 =
-4
+10
 ;
 private
 static

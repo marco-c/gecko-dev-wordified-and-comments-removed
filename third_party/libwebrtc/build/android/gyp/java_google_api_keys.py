@@ -216,7 +216,7 @@ constant_value
 in
 constant_definitions
 .
-iteritems
+items
 (
 )
 :
