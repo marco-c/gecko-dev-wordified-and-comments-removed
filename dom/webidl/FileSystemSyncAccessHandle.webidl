@@ -141,9 +141,6 @@ works
 bug
 1696216
 )
-[
-Throws
-]
 unsigned
 long
 long
@@ -169,9 +166,6 @@ options
 }
 )
 ;
-[
-Throws
-]
 unsigned
 long
 long
