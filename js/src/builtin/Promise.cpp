@@ -4016,8 +4016,10 @@ reject
 )
 ;
 }
-static
 bool
+js
+:
+:
 IsPromiseWithDefaultResolvingFunction
 (
 PromiseObject
@@ -4100,8 +4102,10 @@ PROMISE_FLAG_DEFAULT_RESOLVING_FUNCTIONS_ALREADY_RESOLVED
 )
 ;
 }
-static
 void
+js
+:
+:
 SetAlreadyResolvedPromiseWithDefaultResolvingFunction
 (
 PromiseObject
