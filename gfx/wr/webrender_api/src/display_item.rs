@@ -3370,11 +3370,11 @@ mix_blend_mode
 :
 MixBlendMode
 pub
-clip_id
+clip_chain_id
 :
 Option
 <
-ClipId
+ClipChainId
 >
 pub
 raster_space

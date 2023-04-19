@@ -9244,14 +9244,14 @@ di
 :
 :
 PrimitiveFlags
-clip_id
+clip_chain_id
 :
 Option
 <
 di
 :
 :
-ClipId
+ClipChainId
 >
 transform_style
 :
@@ -9343,7 +9343,7 @@ StackingContext
 {
 transform_style
 mix_blend_mode
-clip_id
+clip_chain_id
 raster_space
 flags
 }
