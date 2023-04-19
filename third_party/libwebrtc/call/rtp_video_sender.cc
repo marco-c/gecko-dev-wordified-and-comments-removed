@@ -2025,8 +2025,16 @@ scoped_refptr
 FrameTransformerInterface
 >
 frame_transformer
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 :
+field_trials_
+(
+field_trials
+)
 send_side_bwe_with_overhead_
 (
 !

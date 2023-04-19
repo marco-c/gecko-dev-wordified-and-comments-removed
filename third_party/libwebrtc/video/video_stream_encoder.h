@@ -151,6 +151,15 @@ h
 #
 include
 "
+api
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 call
 /
 adaptation
@@ -427,6 +436,10 @@ TaskQueueDeleter
 encoder_queue
 BitrateAllocationCallbackType
 allocation_cb_type
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 ~

@@ -181,6 +181,15 @@ h
 #
 include
 "
+api
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 call
 /
 adaptation
@@ -3476,6 +3485,10 @@ TaskQueueDeleter
 encoder_queue
 BitrateAllocationCallbackType
 allocation_cb_type
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 :
 worker_queue_
@@ -3727,6 +3740,7 @@ VideoStreamAdapter
 &
 input_state_provider_
 encoder_stats_observer
+field_trials
 )
 )
 degradation_preference_manager_
@@ -3770,6 +3784,7 @@ degradation_preference_manager_
 get
 (
 )
+field_trials
 )
 video_source_sink_controller_
 (

@@ -1372,6 +1372,10 @@ overuse_detector
 DegradationPreferenceProvider
 *
 degradation_preference_provider
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 :
 degradation_preference_provider_
@@ -1401,6 +1405,7 @@ BalancedConstraint
 >
 (
 degradation_preference_provider_
+field_trials
 )
 )
 encode_usage_resource_
@@ -1466,6 +1471,10 @@ DISABLED
 )
 video_source_restrictions_
 (
+)
+balanced_settings_
+(
+field_trials
 )
 clock_
 (

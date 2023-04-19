@@ -181,6 +181,15 @@ h
 #
 include
 "
+api
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 call
 /
 adaptation
@@ -430,6 +439,10 @@ overuse_detector
 DegradationPreferenceProvider
 *
 degradation_preference_provider
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 ~

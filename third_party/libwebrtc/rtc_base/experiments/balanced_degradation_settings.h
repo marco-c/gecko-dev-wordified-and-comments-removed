@@ -31,6 +31,15 @@ video_encoder
 .
 h
 "
+#
+include
+"
+api
+/
+webrtc_key_value_config
+.
+h
+"
 namespace
 webrtc
 {
@@ -49,6 +58,10 @@ kNoFpsDiff
 ;
 BalancedDegradationSettings
 (
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 ~

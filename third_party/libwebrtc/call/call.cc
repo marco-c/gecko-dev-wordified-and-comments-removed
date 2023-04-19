@@ -4293,6 +4293,10 @@ ReceiveTimeCalculator
 :
 CreateFromFieldTrial
 (
+*
+config
+.
+trials
 )
 )
 video_send_delay_stats_
@@ -5509,6 +5513,10 @@ move
 (
 fec_controller
 )
+*
+config_
+.
+trials
 )
 ;
 for

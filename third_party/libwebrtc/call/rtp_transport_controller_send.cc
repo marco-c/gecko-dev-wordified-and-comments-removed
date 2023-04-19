@@ -777,6 +777,11 @@ Priority
 NORMAL
 )
 )
+field_trials_
+(
+*
+trials
+)
 {
 ParseFieldTrial
 (
@@ -1025,6 +1030,7 @@ move
 (
 frame_transformer
 )
+field_trials_
 )
 )
 ;

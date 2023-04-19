@@ -51,6 +51,15 @@ h
 #
 include
 "
+api
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 call
 /
 bitrate_allocator
@@ -282,6 +291,10 @@ unique_ptr
 FecController
 >
 fec_controller
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 ;
 ~

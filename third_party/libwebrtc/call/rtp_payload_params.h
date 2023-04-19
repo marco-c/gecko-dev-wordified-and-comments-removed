@@ -30,9 +30,9 @@ include
 "
 api
 /
-transport
+video_codecs
 /
-webrtc_key_value_config
+video_encoder
 .
 h
 "
@@ -41,9 +41,7 @@ include
 "
 api
 /
-video_codecs
-/
-video_encoder
+webrtc_key_value_config
 .
 h
 "
