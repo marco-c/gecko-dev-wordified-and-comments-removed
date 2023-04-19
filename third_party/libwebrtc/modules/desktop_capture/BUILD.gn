@@ -2152,13 +2152,6 @@ sources
 "
 linux
 /
-shared_x_display
-.
-h
-"
-"
-linux
-/
 x11
 /
 mouse_cursor_monitor_x11
