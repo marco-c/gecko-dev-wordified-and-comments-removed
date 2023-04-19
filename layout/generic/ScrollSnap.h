@@ -56,7 +56,7 @@ ScrollSnapUtils
 static
 Maybe
 <
-nsPoint
+SnapTarget
 >
 GetSnapPointForDestination
 (
