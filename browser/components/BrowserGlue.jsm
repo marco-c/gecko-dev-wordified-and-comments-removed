@@ -1947,7 +1947,7 @@ AboutPlugins
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -1959,13 +1959,15 @@ actors
 /
 AboutPluginsParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -1977,7 +1979,9 @@ actors
 /
 AboutPluginsChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
