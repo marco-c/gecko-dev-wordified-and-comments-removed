@@ -3921,6 +3921,16 @@ libwebrtc
 /
 rtc_base
 /
+event_tracer_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+rtc_base
+/
 experiments
 /
 alr_experiment_gn
