@@ -312,7 +312,7 @@ Promise
 TestInterfaceAsyncIterableSingle
 :
 :
-GetNextPromise
+GetNextIterationResult
 (
 Iterator
 *
@@ -323,7 +323,7 @@ aRv
 )
 {
 return
-GetNextPromise
+GetNextIterationResult
 (
 aIterator
 aIterator
@@ -343,7 +343,7 @@ Promise
 TestInterfaceAsyncIterableSingle
 :
 :
-GetNextPromise
+GetNextIterationResult
 (
 IterableIteratorBase
 *
@@ -416,7 +416,7 @@ Promise
 TestInterfaceAsyncIterableSingle
 :
 :
-GetNextPromise
+GetNextIterationResult
 "
 this
 &

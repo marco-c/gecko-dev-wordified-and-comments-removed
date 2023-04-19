@@ -26581,8 +26581,43 @@ descriptor
     
 asserts
 =
+fill
+(
+        
 "
 "
+"
+        
+static_assert
+(
+std
+:
+:
+is_same_v
+<
+decltype
+(
+aObject
+)
+{
+nativeType
+}
+*
+>
+)
+;
+        
+"
+"
+"
+        
+nativeType
+=
+descriptor
+.
+nativeType
+    
+)
     
 iface
 =
@@ -26592,7 +26627,15 @@ interface
     
 while
 iface
+.
+parent
 :
+        
+iface
+=
+iface
+.
+parent
         
 desc
 =
@@ -26675,12 +26718,6 @@ nativeType
 )
         
 )
-        
-iface
-=
-iface
-.
-parent
     
 asserts
 +
@@ -57443,10 +57480,6 @@ CGIterableMethodGenerator
 (
                         
 descriptor
-                        
-idlNode
-.
-maplikeOrSetlikeOrIterable
                         
 idlNode
 .
@@ -132842,7 +132875,6 @@ __init__
 (
 self
 descriptor
-iterable
 methodName
 args
 )
@@ -133186,6 +133218,32 @@ wrap
 else
 :
             
+needReturnMethod
+=
+toStringBool
+(
+                
+descriptor
+.
+interface
+.
+maplikeOrSetlikeOrIterable
+.
+getExtendedAttribute
+(
+                    
+"
+GenerateReturnMethod
+"
+                
+)
+                
+is
+not
+None
+            
+)
+            
 wrap
 =
 f
@@ -133224,6 +133282,9 @@ WrappableAsyncIterableIterator
 descriptor
 .
 nativeType
+}
+{
+needReturnMethod
 }
 &
 {
