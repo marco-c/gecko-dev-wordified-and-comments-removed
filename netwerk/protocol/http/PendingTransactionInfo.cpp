@@ -13,6 +13,13 @@ PendingTransactionInfo
 h
 "
 #
+include
+"
+NullHttpTransaction
+.
+h
+"
+#
 undef
 LOG
 #

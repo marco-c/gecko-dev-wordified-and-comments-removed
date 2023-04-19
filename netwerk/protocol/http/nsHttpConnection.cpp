@@ -141,6 +141,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 nsPreloadedStream
 .
 h
