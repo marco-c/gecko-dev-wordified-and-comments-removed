@@ -6361,17 +6361,6 @@ hadEvaluationError
 ;
 if
 (
-!
-module
--
->
-isAsyncEvaluating
-(
-)
-)
-{
-MOZ_ASSERT
-(
 module
 -
 >
@@ -6385,7 +6374,7 @@ ModuleStatus
 :
 Evaluated
 )
-;
+{
 if
 (
 !
