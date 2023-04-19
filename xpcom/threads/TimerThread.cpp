@@ -2668,6 +2668,7 @@ if
 mWaiting
 &
 &
+(
 mTimers
 [
 0
@@ -2680,6 +2681,17 @@ Value
 =
 =
 aTimer
+|
+|
+aTimer
+-
+>
+mDelay
+.
+IsZero
+(
+)
+)
 )
 {
 mNotified
