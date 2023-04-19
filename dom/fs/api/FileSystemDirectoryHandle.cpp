@@ -381,8 +381,6 @@ FileSystemDirectoryHandle
 :
 GetNextPromise
 (
-JSContext
-*
 FileSystemDirectoryHandle
 :
 :

@@ -112,9 +112,6 @@ Promise
 >
 GetNextPromise
 (
-JSContext
-*
-aCx
 Iterator
 *
 aIterator
