@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-20e23fa31adac78277e623456bc9ac12b100d139
+40bb827aa52f479bffdc3b1a7587ae3ea4b18e68
 '
 #
 Keep
@@ -165,7 +165,7 @@ chromium
 src
 /
 base
-4f53b8db94fdc202e331428d3d3e7fe67f6e0252
+54b32958be2df85da4b891b7d2405ab89c2b9ff2
 '
 '
 src
@@ -189,7 +189,7 @@ chromium
 src
 /
 build
-70b834d169761a8ce0d99e42da34d9370bad97e0
+09c3e212be68ddd011bb4b1479a2c1faeeeba2ce
 '
 '
 src
@@ -309,7 +309,7 @@ chromium
 src
 /
 ios
-519eeb65205ba17e0cb10d90540aebbcb1ea874d
+d9a147a20b3d2b16f6466b94670802eb59b20703
 '
 '
 condition
@@ -341,7 +341,7 @@ chromium
 src
 /
 testing
-62352386ee01eea5865886536aa935d624ee7103
+2f79556c572eb817cc75726d2a211b449a341f24
 '
 '
 src
@@ -365,7 +365,7 @@ chromium
 src
 /
 third_party
-5f7bdd99dfb8dff46fbbf31eaef868ff76fae265
+4732b817fb33e11f4ea854e6d5a7c4357cd02f80
 '
 '
 src
@@ -660,7 +660,7 @@ project
 libcxxabi
 .
 git
-81212d29a245e262fc63fcd25e9512c1dc063d42
+a63bbc1389aaabc536f7076853661eab3e08d362
 '
 '
 src
@@ -700,7 +700,7 @@ project
 libunwind
 .
 git
-7f068e554e0405da7759c315fdc5e1ae956bb19c
+038090f742d8373821987c56e7a94c5d8183f91b
 '
 '
 src
@@ -1054,7 +1054,7 @@ com
 catapult
 .
 git
-e6e1eb6895e71193452e361388240498955c51eb
+153af62da5446071d6f21925f79aedbc0a08fffd
 '
 '
 src
@@ -1184,7 +1184,7 @@ tools
 depot_tools
 .
 git
-1c7dec337d646d7b842d52355576729992382f0f
+b6c1ed40d5d89f22a1ecee39acb33de3cf8158a8
 '
 '
 src
@@ -1340,7 +1340,7 @@ third_party
 freetype2
 .
 git
-e4f7673e46450298db1ce5fda8a3d310cfb50d78
+9079c5d91aa87bcae223fc933b9c0ebf346b7d64
 '
 '
 src
@@ -1552,7 +1552,7 @@ google
 googletest
 .
 git
-1a3e2a265f35e604378156cd675b11ef0a184627
+3e0e32ba300ce8afe695ad3ba7e81b21b7cf237a
 '
 '
 src
@@ -1585,7 +1585,7 @@ deps
 icu
 .
 git
-d3ba6ae0c0a1b940c496771431feff25d4262d42
+bf66d373ae781a3498f2babe7b61d933dd774b82
 '
 }
 '
@@ -1992,7 +1992,7 @@ external
 perfetto
 .
 git
-19fb767c32d05d75314d376933b98be246e0b723
+514e743cbfd9ae549cb95d9c43a0a3bc1b188883
 '
 '
 src
@@ -2516,7 +2516,7 @@ chromium
 src
 /
 tools
-215804b665388b3cbcb9b361066d1a1e1a32605b
+299bc80685aed963678b7244b7d73e7a55f59064
 '
 '
 src
@@ -2998,7 +2998,9 @@ version
 '
 :
 '
-B7B3qXoWKXASrnI5M2ySp9skL0Ozjnw8ViPqwmmTlfEC
+ZLK16MyL6
+-
+u2bhLeLaelNDvoSpFO9qRUiGse469qKRAC
 '
 }
 ]
