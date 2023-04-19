@@ -8985,7 +8985,7 @@ now_receiving_transceivers
 .
 push_back
 (
-transceiver
+transceiver_ext
 )
 ;
 }

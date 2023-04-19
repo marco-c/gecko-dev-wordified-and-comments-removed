@@ -6541,6 +6541,11 @@ sctp_utils_unittest
 cc
 "
 "
+sdp_offer_answer_unittest
+.
+cc
+"
+"
 sdp_serializer_unittest
 .
 cc
