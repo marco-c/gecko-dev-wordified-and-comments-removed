@@ -769,15 +769,11 @@ None
         
 url
 =
-children_info
-[
-0
-]
-[
 "
-url
+about
+:
+blank
 "
-]
         
 parent
 =
@@ -814,15 +810,11 @@ None
         
 url
 =
-children_info
-[
-1
-]
-[
 "
-url
+about
+:
+blank
 "
-]
         
 parent
 =
@@ -1104,12 +1096,11 @@ None
         
 url
 =
-child1_info
-[
 "
-url
+about
+:
+blank
 "
-]
         
 parent
 =
@@ -1143,12 +1134,11 @@ None
         
 url
 =
-child2_info
-[
 "
-url
+about
+:
+blank
 "
-]
         
 parent
 =
