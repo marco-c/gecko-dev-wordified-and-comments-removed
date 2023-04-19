@@ -1134,6 +1134,11 @@ session_version_
 =
 session_version_
 ;
+if
+(
+description_
+)
+{
 new_description
 -
 >
@@ -1146,6 +1151,7 @@ Clone
 (
 )
 ;
+}
 for
 (
 const
