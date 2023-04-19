@@ -336,14 +336,6 @@ unique_ptr
 EncodedFrame
 >
 frame
-video_coding
-:
-:
-FrameBuffer
-:
-:
-ReturnReason
-res
 )
 RTC_RUN_ON
 (

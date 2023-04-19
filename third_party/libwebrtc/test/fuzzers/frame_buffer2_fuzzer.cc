@@ -563,14 +563,6 @@ unique_ptr
 EncodedFrame
 >
 frame
-video_coding
-:
-:
-FrameBuffer
-:
-:
-ReturnReason
-res
 )
 {
 next_frame_task_running
