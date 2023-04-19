@@ -1623,9 +1623,6 @@ aRequest
 void
 ApplyDelazifyStrategy
 (
-ScriptLoadRequest
-*
-aRequest
 JS
 :
 :
