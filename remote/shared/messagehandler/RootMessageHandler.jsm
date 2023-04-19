@@ -147,6 +147,12 @@ RootMessageHandler
 extends
 MessageHandler
 {
+#
+frameTransport
+;
+#
+sessionData
+;
 static
 get
 modulePath
@@ -196,7 +202,8 @@ null
 ;
 this
 .
-_frameTransport
+#
+frameTransport
 =
 new
 lazy
@@ -208,7 +215,8 @@ this
 ;
 this
 .
-_sessionData
+#
+sessionData
 =
 new
 lazy
@@ -227,7 +235,8 @@ sessionData
 return
 this
 .
-_sessionData
+#
+sessionData
 ;
 }
 destroy
@@ -236,7 +245,8 @@ destroy
 {
 this
 .
-_sessionData
+#
+sessionData
 .
 destroy
 (
@@ -297,7 +307,8 @@ type
 return
 this
 .
-_frameTransport
+#
+frameTransport
 .
 forwardCommand
 (
@@ -449,7 +460,8 @@ updatedValues
 =
 this
 .
-_sessionData
+#
+sessionData
 [
 updateMethod
 ]
@@ -494,7 +506,7 @@ if
 !
 this
 .
-_moduleCache
+moduleCache
 .
 hasModule
 (

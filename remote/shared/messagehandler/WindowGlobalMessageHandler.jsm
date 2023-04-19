@@ -46,6 +46,9 @@ WindowGlobalMessageHandler
 extends
 MessageHandler
 {
+#
+innerWindowId
+;
 constructor
 (
 )
@@ -60,11 +63,12 @@ arguments
 ;
 this
 .
-_innerWindowId
+#
+innerWindowId
 =
 this
 .
-_context
+context
 .
 window
 .
@@ -117,7 +121,8 @@ innerWindowId
 return
 this
 .
-_innerWindowId
+#
+innerWindowId
 ;
 }
 get
@@ -128,7 +133,7 @@ window
 return
 this
 .
-_context
+context
 .
 window
 ;
@@ -209,7 +214,7 @@ if
 !
 this
 .
-_moduleCache
+moduleCache
 .
 hasModule
 (
@@ -281,12 +286,13 @@ contextId
 :
 this
 .
-_contextId
+contextId
 innerWindowId
 :
 this
 .
-_innerWindowId
+#
+innerWindowId
 }
 )
 ;
@@ -350,7 +356,7 @@ id
 =
 this
 .
-_context
+context
 .
 browserId
 )
