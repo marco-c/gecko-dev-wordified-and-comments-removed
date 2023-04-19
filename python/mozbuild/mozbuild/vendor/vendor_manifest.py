@@ -166,21 +166,35 @@ Exception
 Could
 not
 find
+'
 %
 s
+'
 in
 %
 s
 to
-replace
+%
+sreplace
 with
+'
 %
 s
+'
 "
 %
 (
 pattern
 file
+"
+regex
+-
+"
+if
+regex
+else
+"
+"
 replacement
 )
         
@@ -3775,6 +3789,8 @@ replace
 in
 -
 file
+-
+regex
 "
                 
 )
