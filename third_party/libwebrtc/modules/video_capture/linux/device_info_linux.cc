@@ -1243,7 +1243,6 @@ if
 (
 deviceNameLength
 >
-=
 strlen
 (
 cameraName
@@ -1299,7 +1298,6 @@ if
 (
 deviceUniqueIdUTF8Length
 >
-=
 strlen
 (
 (
@@ -1441,6 +1439,7 @@ if
 (
 deviceUniqueIdUTF8Length
 >
+=
 kVideoCaptureUniqueNameLength
 )
 {

@@ -247,6 +247,7 @@ if
 (
 nameLength
 >
+=
 kVideoCaptureUniqueNameLength
 )
 return

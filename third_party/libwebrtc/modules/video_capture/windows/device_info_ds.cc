@@ -1306,6 +1306,7 @@ if
 (
 deviceUniqueIdUTF8Length
 >
+=
 kVideoCaptureUniqueNameLength
 )
 {
@@ -1804,6 +1805,7 @@ if
 (
 deviceUniqueIdUTF8Length
 >
+=
 kVideoCaptureUniqueNameLength
 )
 {
@@ -3414,7 +3416,6 @@ pos
 (
 bytesToCopy
 <
-=
 productUniqueIdUTF8Length
 )
 &
