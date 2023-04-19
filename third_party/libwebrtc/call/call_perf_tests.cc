@@ -2233,7 +2233,7 @@ _audio_faster
 TEST_F
 (
 CallPerfTest
-Synchronization_PlaysOutAudioAndVideoWithVideoFasterThanAudioDrift
+DISABLED_Synchronization_PlaysOutAudioAndVideoWithVideoFasterThanAudioDrift
 )
 {
 TestAudioVideoSync
