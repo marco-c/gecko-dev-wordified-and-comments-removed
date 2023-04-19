@@ -67,6 +67,7 @@ job
 common
 import
 support_vcs_checkout
+get_expiration
 VARIANTS
 =
 [
@@ -966,6 +967,20 @@ type
 "
 directory
 "
+                
+"
+expires
+-
+after
+"
+:
+get_expiration
+(
+config
+"
+default
+"
+)
             
 }
             
@@ -2090,6 +2105,7 @@ artifacts
 [
         
 {
+            
 "
 name
 "
@@ -2099,6 +2115,7 @@ public
 /
 logs
 "
+            
 "
 path
 "
@@ -2106,6 +2123,7 @@ path
 "
 logs
 "
+            
 "
 type
 "
@@ -2113,6 +2131,21 @@ type
 "
 directory
 "
+            
+"
+expires
+-
+after
+"
+:
+get_expiration
+(
+config
+"
+default
+"
+)
+        
 }
     
 ]
@@ -2167,6 +2200,20 @@ type
 "
 directory
 "
+                
+"
+expires
+-
+after
+"
+:
+get_expiration
+(
+config
+"
+default
+"
+)
             
 }
         
@@ -2181,6 +2228,7 @@ artifacts
 [
             
 {
+                
 "
 name
 "
@@ -2191,6 +2239,7 @@ public
 test
 /
 "
+                
 "
 path
 "
@@ -2200,6 +2249,7 @@ artifacts
 /
 public
 "
+                
 "
 type
 "
@@ -2207,9 +2257,25 @@ type
 "
 directory
 "
+                
+"
+expires
+-
+after
+"
+:
+get_expiration
+(
+config
+"
+default
+"
+)
+            
 }
             
 {
+                
 "
 name
 "
@@ -2220,6 +2286,7 @@ public
 logs
 /
 "
+                
 "
 path
 "
@@ -2229,6 +2296,7 @@ workspace
 /
 logs
 "
+                
 "
 type
 "
@@ -2236,6 +2304,21 @@ type
 "
 directory
 "
+                
+"
+expires
+-
+after
+"
+:
+get_expiration
+(
+config
+"
+default
+"
+)
+            
 }
             
 {
@@ -2270,6 +2353,20 @@ type
 "
 directory
 "
+                
+"
+expires
+-
+after
+"
+:
+get_expiration
+(
+config
+"
+default
+"
+)
             
 }
         
