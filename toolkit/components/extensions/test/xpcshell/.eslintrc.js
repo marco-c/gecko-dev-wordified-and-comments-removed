@@ -14,6 +14,9 @@ env
 webextensions
 :
 true
+browser
+:
+true
 }
 }
 ;
