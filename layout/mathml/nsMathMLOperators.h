@@ -210,7 +210,7 @@ CleanUp
 )
 ;
 static
-void
+bool
 LookupOperator
 (
 const
@@ -232,13 +232,16 @@ aTrailingSpace
 )
 ;
 static
-void
-LookupOperators
+bool
+LookupOperatorWithFallback
 (
 const
 nsString
 &
 aOperator
+const
+uint8_t
+aForm
 nsOperatorFlags
 *
 aFlags
