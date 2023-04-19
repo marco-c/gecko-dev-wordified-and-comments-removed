@@ -1446,11 +1446,6 @@ stream
 -
 firstrun
 "
-where
-:
-"
-tab
-"
 }
 type
 :
