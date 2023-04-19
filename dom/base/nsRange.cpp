@@ -15169,7 +15169,7 @@ if
 aFrame
 -
 >
-IsContentHidden
+HidesContent
 (
 )
 )
@@ -15208,7 +15208,7 @@ if
 f
 -
 >
-IsContentHidden
+HidesContent
 (
 )
 )

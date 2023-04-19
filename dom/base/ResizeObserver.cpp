@@ -895,7 +895,7 @@ frame
 frame
 -
 >
-AncestorHidesContent
+IsHiddenByContentVisibilityOnAnyAncestor
 (
 )
 )

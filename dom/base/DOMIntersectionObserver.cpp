@@ -2948,7 +2948,7 @@ if
 targetFrame
 -
 >
-AncestorHidesContent
+IsHiddenByContentVisibilityOnAnyAncestor
 (
 )
 )
