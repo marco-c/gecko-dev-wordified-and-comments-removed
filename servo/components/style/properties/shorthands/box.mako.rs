@@ -401,7 +401,7 @@ else
 ContainerType
 :
 :
-NONE
+NORMAL
 }
 ;
 Ok
