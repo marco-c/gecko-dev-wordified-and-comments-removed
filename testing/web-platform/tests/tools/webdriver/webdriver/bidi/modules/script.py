@@ -196,12 +196,7 @@ Target
                  
 await_promise
 :
-Optional
-[
 bool
-]
-=
-None
                  
 result_ownership
 :
@@ -242,24 +237,14 @@ target
 "
 :
 target
-        
-}
-        
-if
-await_promise
-is
-not
-None
-:
             
-params
-[
 "
 awaitPromise
 "
-]
-=
+:
 await_promise
+        
+}
         
 if
 result_ownership

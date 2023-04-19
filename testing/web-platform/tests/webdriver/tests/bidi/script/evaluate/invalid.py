@@ -84,6 +84,10 @@ expression
 target
 =
 target
+            
+await_promise
+=
+True
 )
 pytest
 .
@@ -146,6 +150,10 @@ ContextTarget
 (
 context
 )
+            
+await_promise
+=
+True
 )
 pytest
 .
@@ -214,6 +222,10 @@ context
 ]
 sandbox
 )
+            
+await_promise
+=
+True
 )
 async
 def
@@ -258,6 +270,10 @@ ContextTarget
 _UNKNOWN_
 "
 )
+            
+await_promise
+=
+True
 )
 pytest
 .
@@ -320,6 +336,10 @@ RealmTarget
 (
 realm
 )
+            
+await_promise
+=
+True
 )
 async
 def
@@ -364,6 +384,10 @@ RealmTarget
 _UNKNOWN_
 "
 )
+            
+await_promise
+=
+True
 )
 pytest
 .
@@ -428,6 +452,10 @@ context
 "
 ]
 )
+            
+await_promise
+=
+True
 )
 pytest
 .
@@ -439,6 +467,7 @@ parametrize
 await_promise
 "
 [
+None
 "
 False
 "
@@ -576,4 +605,8 @@ context
 "
 ]
 )
+            
+await_promise
+=
+True
 )
