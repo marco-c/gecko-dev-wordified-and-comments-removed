@@ -652,11 +652,6 @@ aFrame
 ScrollToCSSPixelsForApz
 (
 targetScrollPosition
-aRequest
-.
-CopyLastSnapTargetIds
-(
-)
 )
 ;
 geckoScrollPosition
@@ -1700,11 +1695,6 @@ sf
 ScrollToCSSPixelsForApz
 (
 currentScrollPosition
-aRequest
-.
-CopyLastSnapTargetIds
-(
-)
 )
 ;
 }
