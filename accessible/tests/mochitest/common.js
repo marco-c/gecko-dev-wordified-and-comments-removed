@@ -3126,9 +3126,6 @@ if
 list
 .
 length
-!
-=
-0
 )
 {
 str
