@@ -14199,7 +14199,7 @@ eventPages
 .
 enabled
 "
-false
+true
 )
 ;
 pref
