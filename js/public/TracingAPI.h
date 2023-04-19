@@ -86,8 +86,8 @@ enum
 class
 TracerKind
 {
-Marking
 Generic
+Marking
 Tenuring
 Moving
 ClearEdges
