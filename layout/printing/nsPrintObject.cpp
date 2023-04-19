@@ -222,8 +222,6 @@ aDocShell
 Document
 *
 aDoc
-bool
-aForPrintPreview
 )
 {
 NS_ENSURE_STATE
