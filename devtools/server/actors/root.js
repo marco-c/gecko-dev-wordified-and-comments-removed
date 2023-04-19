@@ -335,9 +335,6 @@ true
 resources
 :
 supportedResources
-supportsSwitchingMode
-:
-true
 workerConsoleApiMessagesDispatchedToMainThread
 :
 Services
