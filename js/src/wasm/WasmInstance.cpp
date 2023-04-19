@@ -8360,9 +8360,7 @@ metadata
 (
 )
 .
-debugFuncReturnTypes
-.
-length
+debugNumFuncs
 (
 )
 ;
