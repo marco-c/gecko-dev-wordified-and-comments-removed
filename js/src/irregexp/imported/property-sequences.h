@@ -32,9 +32,6 @@ public
 :
 static
 const
-base
-:
-:
 uc32
 kEmojiFlagSequences
 [
@@ -42,9 +39,6 @@ kEmojiFlagSequences
 ;
 static
 const
-base
-:
-:
 uc32
 kEmojiTagSequences
 [
@@ -52,9 +46,6 @@ kEmojiTagSequences
 ;
 static
 const
-base
-:
-:
 uc32
 kEmojiZWJSequences
 [

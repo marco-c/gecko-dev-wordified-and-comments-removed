@@ -22,9 +22,6 @@ namespace
 internal
 {
 class
-ByteArray
-;
-class
 V8_EXPORT_PRIVATE
 IrregexpInterpreter
 :
@@ -111,6 +108,8 @@ int
 output_registers
 int32_t
 output_register_count
+Address
+backtrack_stack
 RegExp
 :
 :

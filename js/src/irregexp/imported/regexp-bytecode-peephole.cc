@@ -790,6 +790,8 @@ bytecode
 offset
 )
 ;
+break
+;
 case
 2
 :
@@ -803,6 +805,8 @@ bytecode
 offset
 )
 ;
+break
+;
 case
 4
 :
@@ -815,6 +819,8 @@ int32_t
 bytecode
 offset
 )
+;
+break
 ;
 default
 :
