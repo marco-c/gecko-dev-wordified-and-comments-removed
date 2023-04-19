@@ -950,12 +950,6 @@ case
 InlinableNative
 :
 :
-IntrinsicUnsafeGetBooleanFromReservedSlot
-:
-case
-InlinableNative
-:
-:
 IntrinsicIsCallable
 :
 case

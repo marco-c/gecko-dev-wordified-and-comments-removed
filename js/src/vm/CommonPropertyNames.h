@@ -4383,16 +4383,6 @@ unregister
 \
 MACRO_
 (
-UnsafeGetBooleanFromReservedSlot
-UnsafeGetBooleanFromReservedSlot
-\
-"
-UnsafeGetBooleanFromReservedSlot
-"
-)
-\
-MACRO_
-(
 UnsafeGetInt32FromReservedSlot
 UnsafeGetInt32FromReservedSlot
 \
