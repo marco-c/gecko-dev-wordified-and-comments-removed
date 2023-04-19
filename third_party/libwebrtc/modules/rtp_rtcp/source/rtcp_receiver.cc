@@ -905,6 +905,12 @@ config
 .
 bandwidth_callback
 )
+rtcp_event_observer_
+(
+config
+.
+rtcp_event_observer
+)
 rtcp_intra_frame_observer_
 (
 config
