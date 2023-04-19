@@ -714,9 +714,6 @@ clock
 RTPSender
 *
 rtp_sender
-FlexfecSender
-*
-flexfec_sender
 const
 WebRtcKeyValueConfig
 &
@@ -743,12 +740,6 @@ config
 rtp_sender
 =
 rtp_sender
-;
-config
-.
-fec_generator
-=
-flexfec_sender
 ;
 config
 .
@@ -1032,7 +1023,6 @@ rtp_module_
 RtpSender
 (
 )
-nullptr
 field_trials_
 )
 )
@@ -4839,7 +4829,6 @@ rtp_module_
 RtpSender
 (
 )
-nullptr
 field_trials_
 )
 ;
