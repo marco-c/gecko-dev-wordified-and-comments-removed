@@ -38,13 +38,9 @@ local
 .
 get
 0
-rtt
-.
-canon
-a
 array
 .
-new_default_with_rtt
+new_default
 a
 )
 )

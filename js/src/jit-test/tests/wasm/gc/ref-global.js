@@ -282,7 +282,7 @@ glob
 (
 struct
 .
-new_with_rtt
+new
 point
 (
 f64
@@ -299,12 +299,6 @@ const
 2
 .
 75
-)
-(
-rtt
-.
-canon
-point
 )
 )
 )
@@ -325,7 +319,7 @@ glob
 (
 struct
 .
-new_with_rtt
+new
 point
 (
 f64
@@ -342,12 +336,6 @@ const
 37
 .
 25
-)
-(
-rtt
-.
-canon
-point
 )
 )
 )
