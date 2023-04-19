@@ -51,6 +51,10 @@ onEdge
 T
 *
 thing
+const
+char
+*
+name
 )
 ;
 friend

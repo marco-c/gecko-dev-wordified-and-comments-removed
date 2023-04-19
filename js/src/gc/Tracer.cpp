@@ -296,6 +296,10 @@ TracingContext
 :
 getEdgeName
 (
+const
+char
+*
+name
 char
 *
 buffer
@@ -348,7 +352,7 @@ s
 zu
 ]
 "
-name_
+name
 index_
 )
 ;
@@ -363,7 +367,7 @@ bufferSize
 %
 s
 "
-name_
+name
 )
 ;
 }
