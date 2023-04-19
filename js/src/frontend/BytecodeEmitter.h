@@ -3370,6 +3370,15 @@ CopyOption
 option
 )
 ;
+JSOp
+getIterCallOp
+(
+JSOp
+callOp
+SelfHostedIter
+selfHostedIter
+)
+;
 [
 [
 nodiscard
