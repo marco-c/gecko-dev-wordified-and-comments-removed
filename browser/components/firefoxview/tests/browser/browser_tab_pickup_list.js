@@ -2030,15 +2030,12 @@ document
 querySelector
 (
 "
-ol
 .
 synced
 -
-tabs
+tab
 -
-list
->
-li
+a
 "
 )
 .
