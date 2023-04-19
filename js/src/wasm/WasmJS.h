@@ -277,9 +277,6 @@ class
 JSStringBuilder
 ;
 class
-SharedArrayRawBuffer
-;
-class
 TypedArrayObject
 ;
 class
@@ -287,6 +284,9 @@ WasmFunctionScope
 ;
 class
 WasmInstanceScope
+;
+class
+WasmSharedArrayRawBuffer
 ;
 namespace
 wasm
@@ -1828,7 +1828,7 @@ boundsCheckLimit
 )
 const
 ;
-SharedArrayRawBuffer
+WasmSharedArrayRawBuffer
 *
 sharedArrayRawBuffer
 (
