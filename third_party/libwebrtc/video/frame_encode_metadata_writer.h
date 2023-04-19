@@ -110,10 +110,6 @@ const
 VideoCodec
 &
 codec
-bool
-internal_source
-=
-false
 )
 ;
 void
@@ -261,14 +257,6 @@ frame_drop_callback_
 ;
 VideoCodec
 codec_settings_
-RTC_GUARDED_BY
-(
-&
-lock_
-)
-;
-bool
-internal_source_
 RTC_GUARDED_BY
 (
 &

@@ -696,12 +696,6 @@ is_hardware_accelerated
 =
 true
 ;
-info
-.
-has_internal_source
-=
-false
-;
 return
 info
 ;

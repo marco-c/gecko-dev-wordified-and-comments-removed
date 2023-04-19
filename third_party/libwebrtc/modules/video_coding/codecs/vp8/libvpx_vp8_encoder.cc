@@ -7145,12 +7145,6 @@ false
 ;
 info
 .
-has_internal_source
-=
-false
-;
-info
-.
 supports_simulcast
 =
 true

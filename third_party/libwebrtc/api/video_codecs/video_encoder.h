@@ -586,9 +586,6 @@ has_trusted_rate_controller
 bool
 is_hardware_accelerated
 ;
-bool
-has_internal_source
-;
 absl
 :
 :
