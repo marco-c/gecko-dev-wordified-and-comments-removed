@@ -108,6 +108,11 @@ GeckoViewSelectionAction
 jsm
 "
 "
+GeckoViewSessionStore
+.
+jsm
+"
+"
 GeckoViewSettings
 .
 jsm
