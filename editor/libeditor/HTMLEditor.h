@@ -4901,7 +4901,8 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveEmptyNodesIn
 (
-nsRange
+const
+EditorDOMRange
 &
 aRange
 )
