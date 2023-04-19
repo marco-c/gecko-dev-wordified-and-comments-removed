@@ -499,6 +499,11 @@ ts
 )
 {
 let
+duration
+=
+33333
+;
+let
 text
 =
 ts
@@ -546,6 +551,7 @@ cnv
 timestamp
 :
 ts
+duration
 }
 )
 ;
@@ -570,6 +576,11 @@ undefined
 ts
 =
 dots
+;
+let
+duration
+=
+33333
 ;
 let
 text
@@ -627,6 +638,7 @@ cnv
 timestamp
 :
 ts
+duration
 }
 )
 ;
