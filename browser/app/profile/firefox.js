@@ -1768,7 +1768,7 @@ shell
 .
 setDefaultPDFHandler
 "
-false
+true
 )
 ;
 pref
