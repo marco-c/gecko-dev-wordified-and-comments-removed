@@ -173,9 +173,6 @@ namespace
 webrtc
 {
 namespace
-webrtc_pc_e2e
-{
-namespace
 {
 using
 StatsSample
@@ -9292,7 +9289,6 @@ rendered
 1
 )
 ;
-}
 }
 }
 }

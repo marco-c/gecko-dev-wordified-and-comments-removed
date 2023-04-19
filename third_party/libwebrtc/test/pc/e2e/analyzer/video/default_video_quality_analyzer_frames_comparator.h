@@ -166,9 +166,6 @@ clock
 DefaultVideoQualityAnalyzerCpuMeasurer
 &
 cpu_measurer
-webrtc_pc_e2e
-:
-:
 DefaultVideoQualityAnalyzerOptions
 options
 =
@@ -324,9 +321,6 @@ std
 map
 <
 InternalStatsKey
-webrtc_pc_e2e
-:
-:
 StreamStats
 >
 stream_stats
@@ -423,9 +417,6 @@ Now
 )
 ;
 const
-webrtc_pc_e2e
-:
-:
 DefaultVideoQualityAnalyzerOptions
 options_
 ;
@@ -463,9 +454,6 @@ std
 map
 <
 InternalStatsKey
-webrtc_pc_e2e
-:
-:
 StreamStats
 >
 stream_stats_

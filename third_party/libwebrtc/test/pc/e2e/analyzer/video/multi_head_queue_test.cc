@@ -39,9 +39,6 @@ namespace
 webrtc
 {
 namespace
-webrtc_pc_e2e
-{
-namespace
 {
 TEST
 (
@@ -977,7 +974,6 @@ value
 i
 )
 ;
-}
 }
 }
 }

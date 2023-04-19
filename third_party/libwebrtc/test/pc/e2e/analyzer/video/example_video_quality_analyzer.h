@@ -80,9 +80,6 @@ h
 namespace
 webrtc
 {
-namespace
-webrtc_pc_e2e
-{
 class
 ExampleVideoQualityAnalyzer
 :
@@ -452,7 +449,6 @@ lock_
 ;
 }
 ;
-}
 }
 #
 endif

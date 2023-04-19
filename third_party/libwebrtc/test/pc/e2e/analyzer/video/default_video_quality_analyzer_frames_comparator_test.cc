@@ -147,17 +147,11 @@ kMaxFramesInFlightPerStream
 =
 10
 ;
-webrtc_pc_e2e
-:
-:
 DefaultVideoQualityAnalyzerOptions
 AnalyzerOptionsForTest
 (
 )
 {
-webrtc_pc_e2e
-:
-:
 DefaultVideoQualityAnalyzerOptions
 options
 ;
@@ -183,9 +177,6 @@ return
 options
 ;
 }
-webrtc_pc_e2e
-:
-:
 StreamCodecInfo
 Vp8CodecForOneFrame
 (
@@ -195,9 +186,6 @@ Timestamp
 time
 )
 {
-webrtc_pc_e2e
-:
-:
 StreamCodecInfo
 info
 ;
@@ -734,9 +722,6 @@ std
 map
 <
 InternalStatsKey
-webrtc_pc_e2e
-:
-:
 StreamStats
 >
 stats
@@ -1027,9 +1012,6 @@ std
 map
 <
 InternalStatsKey
-webrtc_pc_e2e
-:
-:
 StreamStats
 >
 stats
@@ -1538,9 +1520,6 @@ size
 1lu
 )
 ;
-webrtc_pc_e2e
-:
-:
 StreamStats
 result_stats
 =

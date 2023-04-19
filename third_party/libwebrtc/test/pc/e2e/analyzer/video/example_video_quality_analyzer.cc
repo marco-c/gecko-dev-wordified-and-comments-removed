@@ -36,9 +36,6 @@ h
 namespace
 webrtc
 {
-namespace
-webrtc_pc_e2e
-{
 ExampleVideoQualityAnalyzer
 :
 :
@@ -821,6 +818,5 @@ lock_
 return
 frames_dropped_
 ;
-}
 }
 }

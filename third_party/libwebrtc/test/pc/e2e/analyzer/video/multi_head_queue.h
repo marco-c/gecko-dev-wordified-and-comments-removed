@@ -42,9 +42,6 @@ h
 namespace
 webrtc
 {
-namespace
-webrtc_pc_e2e
-{
 template
 <
 typename
@@ -395,7 +392,6 @@ queues_
 ;
 }
 ;
-}
 }
 #
 endif
