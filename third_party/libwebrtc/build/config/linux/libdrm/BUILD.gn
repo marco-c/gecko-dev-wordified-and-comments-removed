@@ -138,7 +138,12 @@ is_chromeos_device
 |
 |
 (
+(
 is_linux
+|
+|
+is_bsd
+)
 &
 &
 !

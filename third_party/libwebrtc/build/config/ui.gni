@@ -386,7 +386,12 @@ is_chromeos
 is_fuchsia
 use_glib
 =
+(
 is_linux
+|
+|
+is_bsd
+)
 &
 &
 !
@@ -413,7 +418,12 @@ is_chromecast
 )
 use_atk
 =
+(
 is_linux
+|
+|
+is_bsd
+)
 &
 &
 !

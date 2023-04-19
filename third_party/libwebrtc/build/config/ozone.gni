@@ -123,6 +123,9 @@ is_fuchsia
 |
 |
 is_linux
+|
+|
+is_bsd
 }
 declare_args
 (
@@ -615,6 +618,9 @@ else
 if
 (
 is_linux
+|
+|
+is_bsd
 )
 {
 ozone_platform
@@ -779,7 +785,12 @@ use_x11
 ozone_platform_x11
 &
 &
+(
 is_linux
+|
+|
+is_bsd
+)
 &
 &
 !
@@ -939,6 +950,10 @@ ozone_platform_x11
 |
 !
 is_linux
+|
+|
+!
+is_bsd
 |
 |
 is_chromecast

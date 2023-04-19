@@ -62,7 +62,12 @@ libgtk
 .
 use_gtk
 =
+(
 is_linux
+|
+|
+is_bsd
+)
 &
 &
 !
