@@ -517,6 +517,12 @@ GetKnownVideoStreams
 )
 const
 ;
+VideoStreamsInfo
+GetKnownStreams
+(
+)
+const
+;
 const
 FrameCounters
 &
@@ -1652,10 +1658,10 @@ std
 :
 :
 string
-StatsKeyToMetricName
+ToMetricName
 (
 const
-StatsKey
+InternalStatsKey
 &
 key
 )
