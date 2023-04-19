@@ -135,6 +135,10 @@ const
 nsRect
 &
 aRefBox
+const
+nsRect
+&
+aInsetRect
 nscoord
 aRadii
 [

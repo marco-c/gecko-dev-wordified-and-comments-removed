@@ -815,6 +815,10 @@ const
 nsRect
 &
 aRefBox
+const
+nsRect
+&
+aInsetRect
 nscoord
 aRadii
 [
@@ -847,7 +851,7 @@ aRefBox
 Size
 (
 )
-aRefBox
+aInsetRect
 .
 Size
 (
