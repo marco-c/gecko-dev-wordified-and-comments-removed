@@ -1050,6 +1050,15 @@ const
 0
 ;
 virtual
+KeyBinding
+AccessKey
+(
+)
+const
+=
+0
+;
+virtual
 void
 SelectedItems
 (

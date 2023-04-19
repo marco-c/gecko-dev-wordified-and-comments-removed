@@ -750,11 +750,6 @@ int32_t
 aRow
 )
 ;
-KeyBinding
-AccessKey
-(
-)
-;
 void
 AtkKeyBinding
 (

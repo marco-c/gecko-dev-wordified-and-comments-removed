@@ -182,7 +182,7 @@ static
 void
 GetKeyBinding
 (
-LocalAccessible
+Accessible
 *
 aAccessible
 nsAString
