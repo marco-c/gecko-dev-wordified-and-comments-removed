@@ -1678,6 +1678,15 @@ GetDisplayMode
 ;
 txn
 .
+SetForceDesktopViewport
+(
+GetForceDesktopViewport
+(
+)
+)
+;
+txn
+.
 SetSandboxFlags
 (
 GetSandboxFlags
