@@ -24279,6 +24279,14 @@ profiler_code_address_service_for_presymbolication
 ;
 SpliceableChunkedJSONWriter
 b
+{
+FailureLatchInfallibleSource
+:
+:
+Singleton
+(
+)
+}
 ;
 if
 (
@@ -25214,6 +25222,12 @@ SpliceableJSONWriter
 w
 (
 sw
+FailureLatchInfallibleSource
+:
+:
+Singleton
+(
+)
 )
 ;
 w

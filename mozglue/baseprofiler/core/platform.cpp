@@ -13176,6 +13176,14 @@ profiler_get_profile
 ;
 SpliceableChunkedJSONWriter
 b
+{
+FailureLatchInfallibleSource
+:
+:
+Singleton
+(
+)
+}
 ;
 if
 (
@@ -13883,6 +13891,12 @@ SpliceableJSONWriter
 w
 (
 jw
+FailureLatchInfallibleSource
+:
+:
+Singleton
+(
+)
 )
 ;
 w

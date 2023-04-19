@@ -6239,6 +6239,12 @@ mWriter
 .
 emplace
 (
+FailureLatchInfallibleSource
+:
+:
+Singleton
+(
+)
 )
 ;
 UniquePtr
