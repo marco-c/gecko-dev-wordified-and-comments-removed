@@ -292,7 +292,7 @@ audio_ptr_num_channels
 1
 )
 {
-FATAL
+RTC_FATAL
 (
 )
 <
@@ -372,7 +372,7 @@ out_length
 1
 )
 {
-FATAL
+RTC_FATAL
 (
 )
 <

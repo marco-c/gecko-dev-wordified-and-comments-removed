@@ -2456,7 +2456,7 @@ while
 )
 #
 define
-FATAL
+RTC_FATAL
 (
 )
 \

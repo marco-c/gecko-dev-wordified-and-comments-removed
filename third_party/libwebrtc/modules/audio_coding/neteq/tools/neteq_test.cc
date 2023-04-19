@@ -315,7 +315,7 @@ std
 :
 endl
 ;
-FATAL
+RTC_FATAL
 (
 )
 ;
@@ -348,7 +348,7 @@ std
 :
 endl
 ;
-FATAL
+RTC_FATAL
 (
 )
 ;
