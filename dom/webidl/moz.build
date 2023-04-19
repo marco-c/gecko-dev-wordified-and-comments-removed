@@ -6338,6 +6338,16 @@ TestInterfaceObservableArray
 webidl
 "
 ]
+XPCOM_MANIFESTS
++
+=
+[
+"
+components
+.
+conf
+"
+]
 WEBIDL_FILES
 +
 =
