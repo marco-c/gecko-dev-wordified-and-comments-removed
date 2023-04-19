@@ -29,10 +29,10 @@ sameValue
 (
 unscopables
 .
-groupBy
+group
 true
 '
-groupBy
+group
 property
 value
 '
@@ -42,7 +42,7 @@ verifyEnumerable
 (
 unscopables
 '
-groupBy
+group
 '
 )
 ;
@@ -50,7 +50,7 @@ verifyWritable
 (
 unscopables
 '
-groupBy
+group
 '
 )
 ;
@@ -58,7 +58,7 @@ verifyConfigurable
 (
 unscopables
 '
-groupBy
+group
 '
 )
 ;
@@ -68,10 +68,10 @@ sameValue
 (
 unscopables
 .
-groupByToMap
+groupToMap
 true
 '
-groupByToMap
+groupToMap
 property
 value
 '
@@ -81,7 +81,7 @@ verifyEnumerable
 (
 unscopables
 '
-groupByToMap
+groupToMap
 '
 )
 ;
@@ -89,7 +89,7 @@ verifyWritable
 (
 unscopables
 '
-groupByToMap
+groupToMap
 '
 )
 ;
@@ -97,7 +97,7 @@ verifyConfigurable
 (
 unscopables
 '
-groupByToMap
+groupToMap
 '
 )
 ;
