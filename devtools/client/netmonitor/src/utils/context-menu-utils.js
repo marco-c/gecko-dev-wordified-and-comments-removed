@@ -34,10 +34,6 @@ value
 }
 return
 {
-name
-}
-:
-{
 value
 }
 ;

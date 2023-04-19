@@ -127,11 +127,11 @@ this
 ;
 this
 .
-copy
+copyValue
 =
 this
 .
-copy
+copyValue
 .
 bind
 (
@@ -171,7 +171,7 @@ context
 -
 menu
 -
-copy
+copyvalue
 "
 label
 :
@@ -184,7 +184,7 @@ netmonitor
 .
 context
 .
-copy
+copyValue
 "
 )
 accesskey
@@ -198,7 +198,7 @@ netmonitor
 .
 context
 .
-copy
+copyValue
 .
 accesskey
 "
@@ -235,7 +235,7 @@ container
 ;
 this
 .
-copy
+copyValue
 (
 {
 name
@@ -499,7 +499,7 @@ error
 {
 }
 }
-copy
+copyValue
 (
 object
 selection

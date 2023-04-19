@@ -1405,7 +1405,7 @@ netmonitor
 .
 context
 .
-copy
+copyValue
 "
 )
 accesskey
@@ -1419,7 +1419,7 @@ netmonitor
 .
 context
 .
-copy
+copyValue
 .
 accesskey
 "

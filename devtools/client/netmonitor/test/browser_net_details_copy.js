@@ -195,7 +195,7 @@ context
 -
 menu
 -
-copy
+copyvalue
 "
 )
 .
@@ -239,6 +239,7 @@ true
 "
 The
 copy
+value
 action
 put
 expected
@@ -587,7 +588,7 @@ context
 -
 menu
 -
-copy
+copyvalue
 "
 )
 .
@@ -597,8 +598,6 @@ click
 ;
 }
 "
-Version
-:
 HTTP
 /
 1
@@ -613,6 +612,7 @@ true
 "
 The
 copy
+value
 action
 put
 expected
@@ -1021,7 +1021,7 @@ context
 -
 menu
 -
-copy
+copyvalue
 "
 )
 .
@@ -1039,6 +1039,7 @@ true
 "
 The
 copy
+value
 action
 put
 expected
@@ -1144,7 +1145,7 @@ context
 -
 menu
 -
-copy
+copyvalue
 "
 )
 .
@@ -1154,8 +1155,6 @@ click
 ;
 }
 "
-type
-:
 string
 "
 )
@@ -1166,6 +1165,7 @@ true
 "
 The
 copy
+value
 action
 put
 expected
@@ -1518,7 +1518,7 @@ context
 -
 menu
 -
-copy
+copyvalue
 "
 )
 .
@@ -1549,18 +1549,12 @@ expectedRequestCookies
 =
 [
 "
-bob
-:
 true
 "
 "
-foo
-:
 bar
 "
 "
-tom
-:
 cool
 "
 ]
@@ -1629,7 +1623,7 @@ context
 -
 menu
 -
-copy
+copyvalue
 "
 )
 .
