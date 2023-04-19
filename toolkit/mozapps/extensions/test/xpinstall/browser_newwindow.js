@@ -4,6 +4,9 @@ win
 let
 popupPromise
 ;
+let
+newtabPromise
+;
 const
 exampleURI
 =
@@ -184,6 +187,8 @@ html
 triggers
 }
 ;
+newtabPromise
+=
 BrowserTestUtils
 .
 openNewForegroundTab
@@ -396,6 +401,9 @@ button
 click
 (
 )
+;
+await
+newtabPromise
 ;
 await
 BrowserTestUtils
