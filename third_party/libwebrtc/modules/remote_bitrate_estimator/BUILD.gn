@@ -102,13 +102,6 @@ remote_bitrate_estimator
 "
 )
 {
-visibility
-=
-[
-"
-*
-"
-]
 sources
 =
 [
