@@ -1681,6 +1681,17 @@ first
 elem
 .
 second
+/
+static_cast
+<
+double
+>
+(
+rtc
+:
+:
+kNumMillisecsPerSec
+)
 ;
 }
 return
