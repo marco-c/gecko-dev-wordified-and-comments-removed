@@ -475,7 +475,7 @@ linkedBrowser
 "
 about
 :
-robots
+mozilla
 "
 )
 ;
