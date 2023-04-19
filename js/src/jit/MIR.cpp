@@ -34880,7 +34880,7 @@ MWasmCallTryDesc
 tryDesc
 MDefinition
 *
-tableIndex
+tableIndexOrRef
 )
 {
 MOZ_ASSERT
@@ -34937,7 +34937,14 @@ callee
 isTable
 (
 )
-tableIndex
+|
+|
+callee
+.
+isFuncRef
+(
+)
+tableIndexOrRef
 )
 ;
 if
@@ -34951,7 +34958,7 @@ initWithArgs
 alloc
 call
 args
-tableIndex
+tableIndexOrRef
 )
 )
 {
@@ -34995,7 +35002,7 @@ uint32_t
 stackArgAreaSizeUnaligned
 MDefinition
 *
-tableIndex
+tableIndexOrRef
 )
 {
 MWasmCallUncatchable
@@ -35020,7 +35027,14 @@ callee
 isTable
 (
 )
-tableIndex
+|
+|
+callee
+.
+isFuncRef
+(
+)
+tableIndexOrRef
 )
 ;
 if
@@ -35034,7 +35048,7 @@ initWithArgs
 alloc
 call
 args
-tableIndex
+tableIndexOrRef
 )
 )
 {

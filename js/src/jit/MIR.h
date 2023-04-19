@@ -49863,7 +49863,7 @@ Args
 args
 MDefinition
 *
-tableIndex
+tableIndexOrRef
 )
 {
 if
@@ -49935,7 +49935,7 @@ length
 )
 +
 (
-tableIndex
+tableIndexOrRef
 ?
 1
 :
@@ -49985,7 +49985,7 @@ def
 }
 if
 (
-tableIndex
+tableIndexOrRef
 )
 {
 ins
@@ -49998,7 +49998,7 @@ argRegs_
 length
 (
 )
-tableIndex
+tableIndexOrRef
 )
 ;
 }
@@ -50270,7 +50270,7 @@ MWasmCallTryDesc
 tryDesc
 MDefinition
 *
-tableIndex
+tableIndexOrRef
 =
 nullptr
 )
@@ -50386,7 +50386,7 @@ uint32_t
 stackArgAreaSizeUnaligned
 MDefinition
 *
-tableIndex
+tableIndexOrRef
 =
 nullptr
 )
