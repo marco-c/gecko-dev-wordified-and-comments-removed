@@ -1666,6 +1666,12 @@ eBorderStyle_default
 ;
 widgetData
 .
+mForMenupopupFrame
+=
+true
+;
+widgetData
+.
 mClipSiblings
 =
 true

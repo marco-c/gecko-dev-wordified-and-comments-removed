@@ -134,6 +134,11 @@ mClipSiblings
 false
 ;
 bool
+mForMenupopupFrame
+=
+false
+;
+bool
 mRTL
 =
 false
