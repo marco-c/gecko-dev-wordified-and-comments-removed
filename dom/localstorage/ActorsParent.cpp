@@ -26820,7 +26820,7 @@ PBackgroundLSRequestParent
 Send__delete__
 (
 this
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 )
 )
 {
