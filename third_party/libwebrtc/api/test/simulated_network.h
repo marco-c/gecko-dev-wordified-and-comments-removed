@@ -145,11 +145,6 @@ packet_id
 struct
 BuiltInNetworkBehaviorConfig
 {
-BuiltInNetworkBehaviorConfig
-(
-)
-{
-}
 size_t
 queue_length_packets
 =
