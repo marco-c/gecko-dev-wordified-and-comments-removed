@@ -1077,7 +1077,6 @@ ScrollSnapInfo
 GetScrollSnapInfo
 (
 )
-const
 =
 0
 ;
