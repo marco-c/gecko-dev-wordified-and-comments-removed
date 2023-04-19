@@ -3304,11 +3304,6 @@ disable_encryption
 false
 ;
 bool
-disable_sctp_data_channels
-=
-false
-;
-bool
 disable_network_monitor
 =
 false

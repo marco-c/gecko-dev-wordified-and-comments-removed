@@ -690,17 +690,6 @@ video_engine_
 ;
 }
 ;
-enum
-DataChannelType
-{
-DCT_NONE
-=
-0
-DCT_SCTP
-=
-2
-}
-;
 webrtc
 :
 :
