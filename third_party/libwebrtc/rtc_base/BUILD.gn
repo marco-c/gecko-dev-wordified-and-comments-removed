@@ -473,11 +473,6 @@ arch
 "
 system
 :
-no_unique_address
-"
-"
-system
-:
 rtc_export
 "
 "
@@ -2429,11 +2424,6 @@ synchronization
 :
 sequence_checker
 "
-"
-system
-:
-no_unique_address
-"
 ]
 absl_deps
 =
@@ -2926,11 +2916,6 @@ scoped_refptr
 synchronization
 :
 sequence_checker
-"
-"
-system
-:
-no_unique_address
 "
 ]
 }
@@ -4264,11 +4249,6 @@ file_wrapper
 system
 :
 inline
-"
-"
-system
-:
-no_unique_address
 "
 "
 system

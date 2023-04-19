@@ -124,17 +124,6 @@ rtc_base
 /
 system
 /
-no_unique_address
-.
-h
-"
-#
-include
-"
-rtc_base
-/
-system
-/
 rtc_export
 .
 h
@@ -516,7 +505,6 @@ EncodedImageCallback
 *
 encoded_complete_callback_
 ;
-RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 encoder_queue_
 ;

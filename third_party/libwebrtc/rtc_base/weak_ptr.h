@@ -52,17 +52,6 @@ sequence_checker
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-system
-/
-no_unique_address
-.
-h
-"
 namespace
 rtc
 {
@@ -112,7 +101,6 @@ Flag
 )
 override
 ;
-RTC_NO_UNIQUE_ADDRESS
 :
 :
 webrtc

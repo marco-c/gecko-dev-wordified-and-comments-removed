@@ -45,17 +45,6 @@ include
 "
 rtc_base
 /
-system
-/
-no_unique_address
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 thread
 .
 h
@@ -195,7 +184,6 @@ default
 ;
 private
 :
-RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 network_sequence_checker_
 ;

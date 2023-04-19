@@ -101,17 +101,6 @@ sequence_checker
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-system
-/
-no_unique_address
-.
-h
-"
 namespace
 rtc
 {
@@ -508,7 +497,6 @@ OnOperationComplete
 (
 )
 ;
-RTC_NO_UNIQUE_ADDRESS
 webrtc
 :
 :

@@ -25,17 +25,6 @@ include
 "
 rtc_base
 /
-system
-/
-no_unique_address
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 task_queue
 .
 h
@@ -128,7 +117,6 @@ TaskQueueBase
 const
 task_queue_
 ;
-RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 main_checker_
 ;

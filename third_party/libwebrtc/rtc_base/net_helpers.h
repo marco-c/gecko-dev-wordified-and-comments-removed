@@ -81,17 +81,6 @@ rtc_base
 /
 system
 /
-no_unique_address
-.
-h
-"
-#
-include
-"
-rtc_base
-/
-system
-/
 rtc_export
 .
 h
@@ -284,7 +273,6 @@ destroy_called_
 =
 false
 ;
-RTC_NO_UNIQUE_ADDRESS
 webrtc
 :
 :

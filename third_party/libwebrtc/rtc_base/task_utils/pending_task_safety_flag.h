@@ -42,17 +42,6 @@ sequence_checker
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-system
-/
-no_unique_address
-.
-h
-"
 namespace
 webrtc
 {
@@ -112,7 +101,6 @@ alive_
 =
 true
 ;
-RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
 main_sequence_
 ;
