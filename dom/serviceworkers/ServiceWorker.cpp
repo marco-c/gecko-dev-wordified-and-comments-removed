@@ -300,6 +300,16 @@ aGlobal
 ;
 if
 (
+StaticPrefs
+:
+:
+dom_serviceWorkers_hide_in_pbmode_enabled
+(
+)
+)
+{
+if
+(
 const
 nsCOMPtr
 <
@@ -335,6 +345,7 @@ ePrivateBrowsing
 return
 false
 ;
+}
 }
 }
 if
