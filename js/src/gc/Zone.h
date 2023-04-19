@@ -1645,12 +1645,7 @@ shouldMarkInZone
 const
 {
 return
-needsIncrementalBarrier
-(
-)
-|
-|
-isGCMarking
+isGCMarkingOrVerifyingPreBarriers
 (
 )
 ;
