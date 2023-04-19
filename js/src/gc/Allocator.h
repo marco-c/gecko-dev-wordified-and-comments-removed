@@ -295,12 +295,12 @@ nullptr
 ;
 }
 return
-StringT
-:
-:
-emplace
+new
 (
 cell
+)
+StringT
+(
 )
 ;
 }
