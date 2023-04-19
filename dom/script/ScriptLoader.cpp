@@ -6103,16 +6103,6 @@ return
 false
 ;
 }
-MOZ_ASSERT
-(
-aElement
--
->
-GetScriptIsImportMap
-(
-)
-)
-;
 mModuleLoader
 -
 >
