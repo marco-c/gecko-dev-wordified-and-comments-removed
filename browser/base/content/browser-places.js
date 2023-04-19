@@ -1223,7 +1223,7 @@ BookmarkingUI
 .
 anchor
 "
-bottomcenter
+bottomright
 topright
 "
 )
