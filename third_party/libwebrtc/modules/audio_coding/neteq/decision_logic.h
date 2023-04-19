@@ -255,7 +255,8 @@ Operation
 operation
 )
 override
-;
+{
+}
 void
 AddSampleMemory
 (
@@ -318,8 +319,7 @@ NotifyMutedState
 (
 )
 override
-{
-}
+;
 bool
 SetMaximumDelay
 (
