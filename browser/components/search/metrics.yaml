@@ -339,13 +339,11 @@ new
 tab
 like
 *
-urlbar
--
-handoff
+urlbar_handoff
 *
-abouthome
+about_home
 *
-newtab
+about_newtab
 type
 :
 string
