@@ -3,7 +3,7 @@ pylint
 =
 2
 .
-14
+13
 .
 5
 colorama
@@ -67,11 +67,3 @@ extensions
 0
 .
 2
-tomlkit
-=
-=
-0
-.
-10
-.
-1
