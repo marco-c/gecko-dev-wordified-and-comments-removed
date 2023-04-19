@@ -185,6 +185,7 @@ GetPayloadType
 (
 )
 const
+override
 {
 return
 payload_type_
