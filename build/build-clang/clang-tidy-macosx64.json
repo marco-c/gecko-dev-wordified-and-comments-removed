@@ -155,16 +155,5 @@ ci
 .
 patch
 "
-"
-compiler
--
-rt
--
-cross
--
-compile
-.
-patch
-"
 ]
 }
