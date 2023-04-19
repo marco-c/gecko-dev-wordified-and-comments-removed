@@ -3104,11 +3104,6 @@ GetSendRates
 )
 const
 {
-RTC_DCHECK_RUN_ON
-(
-worker_queue_
-)
-;
 return
 rtp_sender_
 -

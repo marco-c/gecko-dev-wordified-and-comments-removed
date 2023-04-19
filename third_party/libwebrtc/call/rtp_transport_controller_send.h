@@ -43,6 +43,15 @@ include
 "
 api
 /
+sequence_checker
+.
+h
+"
+#
+include
+"
+api
+/
 transport
 /
 network_control
@@ -785,6 +794,9 @@ RtcEventLog
 const
 event_log_
 ;
+SequenceChecker
+main_thread_
+;
 PacketRouter
 packet_router_
 ;
@@ -802,6 +814,11 @@ RtpVideoSenderInterface
 >
 >
 video_rtp_senders_
+RTC_GUARDED_BY
+(
+&
+main_thread_
+)
 ;
 RtpBitrateConfigurator
 bitrate_configurator_
