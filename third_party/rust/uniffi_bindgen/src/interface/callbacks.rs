@@ -248,13 +248,13 @@ format
 "
 ffi_
 {
+ci_prefix
 }
 _
 {
 }
 _init_callback
 "
-ci_prefix
 self
 .
 name

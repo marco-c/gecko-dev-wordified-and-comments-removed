@@ -317,13 +317,11 @@ dependencies
 weedle2
 =
 "
-2
+4
 .
 0
 .
 0
--
-alpha0
 "
 #
 #

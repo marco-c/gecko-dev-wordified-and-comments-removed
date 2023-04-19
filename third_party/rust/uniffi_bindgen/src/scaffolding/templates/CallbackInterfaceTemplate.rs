@@ -121,6 +121,14 @@ uniffi
 :
 :
 ForeignCallback
+_
+:
+&
+mut
+uniffi
+:
+:
+RustCallStatus
 )
 {
 {

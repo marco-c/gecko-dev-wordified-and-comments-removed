@@ -459,12 +459,9 @@ yet
 )
 ;
 }
-(
-&
 self
 .
 type_
-)
 .
 resolve_type_expression
 (
@@ -529,12 +526,9 @@ yet
 )
 ;
 }
-(
-&
 self
 .
 type_
-)
 .
 resolve_type_expression
 (
@@ -989,8 +983,6 @@ Type
 let
 key_type
 =
-(
-&
 self
 .
 generics
@@ -998,7 +990,6 @@ generics
 body
 .
 0
-)
 .
 resolve_type_expression
 (
@@ -1009,8 +1000,6 @@ types
 let
 value_type
 =
-(
-&
 self
 .
 generics
@@ -1018,7 +1007,6 @@ generics
 body
 .
 2
-)
 .
 resolve_type_expression
 (
