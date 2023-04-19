@@ -297,8 +297,9 @@ VideoBitrateAllocation
 &
 bitrates
 )
-{
-}
+=
+0
+;
 virtual
 std
 :
