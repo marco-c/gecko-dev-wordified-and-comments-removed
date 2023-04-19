@@ -203,8 +203,6 @@ mozconfig
 mozconfig
 *
 /
-configure
-/
 old
 -
 configure
@@ -352,11 +350,6 @@ obj
 #
 SpiderMonkey
 configury
-js
-/
-src
-/
-configure
 js
 /
 src
