@@ -75,7 +75,7 @@ video_coding
 /
 svc
 /
-scalability_structure_s2t1
+scalability_structure_simulcast
 .
 h
 "
@@ -342,6 +342,15 @@ S2T1
 Create
 <
 ScalabilityStructureS2T1
+>
+}
+{
+"
+S3T3
+"
+Create
+<
+ScalabilityStructureS3T3
 >
 }
 }
