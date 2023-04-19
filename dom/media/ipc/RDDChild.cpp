@@ -829,7 +829,7 @@ RDDChild
 RecvUpdateMediaCodecsSupported
 (
 const
-media
+PDMFactory
 :
 :
 MediaCodecsSupported

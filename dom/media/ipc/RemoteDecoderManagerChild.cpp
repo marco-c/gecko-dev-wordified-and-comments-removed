@@ -263,7 +263,7 @@ StaticDataMutex
 <
 Maybe
 <
-media
+PDMFactory
 :
 :
 MediaCodecsSupported
@@ -284,7 +284,7 @@ StaticDataMutex
 <
 Maybe
 <
-media
+PDMFactory
 :
 :
 MediaCodecsSupported
@@ -305,7 +305,7 @@ StaticDataMutex
 <
 Maybe
 <
-media
+PDMFactory
 :
 :
 MediaCodecsSupported
@@ -1044,7 +1044,7 @@ aDiagnostics
 {
 Maybe
 <
-media
+PDMFactory
 :
 :
 MediaCodecsSupported
@@ -1191,15 +1191,6 @@ MimeType
 supported
 aLocation
 )
-!
-=
-media
-:
-:
-DecodeSupport
-:
-:
-Unsupported
 ;
 }
 RefPtr
@@ -3792,7 +3783,7 @@ SetSupported
 RemoteDecodeIn
 aLocation
 const
-media
+PDMFactory
 :
 :
 MediaCodecsSupported

@@ -77,13 +77,13 @@ using
 mozilla
 :
 :
-media
+PDMFactory
 :
 :
 MediaCodecsSupported
 from
 "
-MediaCodecsSupport
+PDMFactory
 .
 h
 "
