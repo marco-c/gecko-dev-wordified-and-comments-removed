@@ -1271,16 +1271,10 @@ public
 void
 addTelemetry
 (
-int
+JSMetric
 id
 uint32_t
 sample
-const
-char
-*
-key
-=
-nullptr
 )
 ;
 void

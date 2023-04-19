@@ -18934,7 +18934,10 @@ rt
 >
 addTelemetry
 (
-JS_TELEMETRY_DESERIALIZE_BYTES
+JSMetric
+:
+:
+DESERIALIZE_BYTES
 static_cast
 <
 uint32_t
@@ -18959,7 +18962,10 @@ rt
 >
 addTelemetry
 (
-JS_TELEMETRY_DESERIALIZE_ITEMS
+JSMetric
+:
+:
+DESERIALIZE_ITEMS
 static_cast
 <
 uint32_t
@@ -19002,7 +19008,10 @@ rt
 >
 addTelemetry
 (
-JS_TELEMETRY_DESERIALIZE_US
+JSMetric
+:
+:
+DESERIALIZE_US
 static_cast
 <
 uint32_t

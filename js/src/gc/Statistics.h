@@ -95,6 +95,17 @@ include
 "
 js
 /
+friend
+/
+UsageStatistics
+.
+h
+"
+#
+include
+"
+js
+/
 GCAPI
 .
 h
