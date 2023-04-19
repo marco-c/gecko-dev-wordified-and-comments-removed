@@ -18,7 +18,7 @@ components
 -
 utils
 /
-Arithmetic
+RustArithmetic
 .
 jsm
 "

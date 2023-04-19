@@ -18,7 +18,7 @@ components
 -
 utils
 /
-Arithmetic
+RustArithmetic
 .
 jsm
 "
@@ -44,7 +44,7 @@ components
 -
 utils
 /
-Geometry
+RustGeometry
 .
 jsm
 "
@@ -72,7 +72,7 @@ components
 -
 utils
 /
-Todolist
+RustTodolist
 .
 jsm
 "
@@ -100,7 +100,7 @@ components
 -
 utils
 /
-Rondpoint
+RustRondpoint
 .
 jsm
 "
