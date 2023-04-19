@@ -302,6 +302,12 @@ mozilla
 StyleSystemFont
 ;
 static
+bool
+WindowsNonNativeMenusEnabled
+(
+)
+;
+static
 ColorScheme
 SystemColorScheme
 (
