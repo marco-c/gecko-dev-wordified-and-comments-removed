@@ -3383,9 +3383,6 @@ inline
 bool
 IsIgnoredDirectiveName
 (
-JSContext
-*
-cx
 TaggedParserAtomIndex
 atom
 )
@@ -3410,9 +3407,6 @@ inline
 bool
 IsIgnoredDirective
 (
-JSContext
-*
-cx
 ParseNode
 *
 pn
@@ -3448,7 +3442,6 @@ StringExpr
 &
 IsIgnoredDirectiveName
 (
-cx
 UnaryKid
 (
 pn
@@ -15255,11 +15248,6 @@ if
 !
 IsIgnoredDirective
 (
-m
-.
-cx
-(
-)
 stmt
 )
 )
@@ -17409,11 +17397,6 @@ if
 !
 IsIgnoredDirectiveName
 (
-m
-.
-cx
-(
-)
 ts
 .
 anyCharsAccess
@@ -17881,11 +17864,6 @@ stmt
 &
 IsIgnoredDirective
 (
-m
-.
-cx
-(
-)
 stmt
 )
 )
