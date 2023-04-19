@@ -14,15 +14,6 @@ HAVE_FAST_CMOV
 &
 HAVE_6REGS
 #
-include
-"
-libavutil
-/
-attributes
-.
-h
-"
-#
 define
 vp56_rac_get_prob
 vp56_rac_get_prob

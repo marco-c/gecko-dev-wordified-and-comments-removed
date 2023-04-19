@@ -16,6 +16,15 @@ include
 "
 libavutil
 /
+internal
+.
+h
+"
+#
+include
+"
+libavutil
+/
 samplefmt
 .
 h

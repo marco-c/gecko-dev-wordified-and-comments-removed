@@ -17,6 +17,9 @@ ff_frame_thread_encoder_init
 AVCodecContext
 *
 avctx
+AVDictionary
+*
+options
 )
 ;
 void

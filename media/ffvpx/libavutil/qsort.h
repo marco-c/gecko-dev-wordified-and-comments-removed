@@ -7,7 +7,7 @@ AVUTIL_QSORT_H
 #
 include
 "
-macros
+common
 .
 h
 "

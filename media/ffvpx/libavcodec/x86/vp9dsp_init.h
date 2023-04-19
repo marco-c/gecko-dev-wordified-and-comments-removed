@@ -9,15 +9,6 @@ include
 "
 libavutil
 /
-attributes
-.
-h
-"
-#
-include
-"
-libavutil
-/
 mem_internal
 .
 h

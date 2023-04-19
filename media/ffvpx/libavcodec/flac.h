@@ -275,8 +275,6 @@ ff_flac_set_channel_layout
 AVCodecContext
 *
 avctx
-int
-channels
 )
 ;
 static

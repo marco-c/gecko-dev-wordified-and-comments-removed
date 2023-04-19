@@ -12,15 +12,6 @@ include
 "
 libavutil
 /
-internal
-.
-h
-"
-#
-include
-"
-libavutil
-/
 samplefmt
 .
 h
@@ -668,9 +659,10 @@ flac_decorrelate_ms_c_16p
 break
 ;
 }
-#
 if
+(
 ARCH_ARM
+)
 ff_flacdsp_init_arm
 (
 c
@@ -679,9 +671,10 @@ channels
 bps
 )
 ;
-#
-elif
+if
+(
 ARCH_X86
+)
 ff_flacdsp_init_x86
 (
 c
@@ -690,6 +683,4 @@ channels
 bps
 )
 ;
-#
-endif
 }

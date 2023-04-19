@@ -573,7 +573,7 @@ endm
 .
 macro
 idct_end
-ret
+br
 x10
 .
 endm

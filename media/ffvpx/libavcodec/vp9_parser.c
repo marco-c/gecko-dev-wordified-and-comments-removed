@@ -217,7 +217,6 @@ return
 size
 ;
 }
-const
 AVCodecParser
 ff_vp9_parser
 =

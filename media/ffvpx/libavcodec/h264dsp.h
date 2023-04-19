@@ -446,7 +446,7 @@ const
 uint8_t
 nnzc
 [
-5
+15
 *
 8
 ]
@@ -474,7 +474,7 @@ const
 uint8_t
 nnzc
 [
-5
+15
 *
 8
 ]
@@ -531,7 +531,7 @@ const
 uint8_t
 nnzc
 [
-5
+15
 *
 8
 ]
@@ -687,20 +687,6 @@ chroma_format_idc
 ;
 void
 ff_h264dsp_init_mips
-(
-H264DSPContext
-*
-c
-const
-int
-bit_depth
-const
-int
-chroma_format_idc
-)
-;
-void
-ff_h264dsp_init_loongarch
 (
 H264DSPContext
 *
