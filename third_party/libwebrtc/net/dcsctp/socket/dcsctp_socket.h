@@ -696,6 +696,14 @@ return
 options_
 ;
 }
+void
+SetMaxMessageSize
+(
+size_t
+max_message_size
+)
+override
+;
 VerificationTag
 verification_tag
 (
@@ -1332,7 +1340,6 @@ PacketObserver
 >
 packet_observer_
 ;
-const
 DcSctpOptions
 options_
 ;

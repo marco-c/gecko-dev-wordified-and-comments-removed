@@ -727,6 +727,16 @@ const
 0
 ;
 virtual
+void
+SetMaxMessageSize
+(
+size_t
+max_message_size
+)
+=
+0
+;
+virtual
 SendStatus
 Send
 (
