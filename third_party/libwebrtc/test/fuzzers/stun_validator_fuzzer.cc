@@ -70,7 +70,7 @@ cricket
 StunMessage
 :
 :
-ValidateMessageIntegrity
+ValidateMessageIntegrityForTesting
 (
 message
 size

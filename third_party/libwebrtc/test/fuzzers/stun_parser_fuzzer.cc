@@ -92,5 +92,14 @@ Read
 buf
 )
 ;
+stun_msg
+-
+>
+ValidateMessageIntegrity
+(
+"
+"
+)
+;
 }
 }
