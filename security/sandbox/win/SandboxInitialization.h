@@ -61,6 +61,11 @@ GetPermissionsService
 (
 )
 ;
+void
+ApplyParentProcessMitigations
+(
+)
+;
 }
 }
 #
