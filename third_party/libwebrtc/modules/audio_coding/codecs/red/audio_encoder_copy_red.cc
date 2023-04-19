@@ -109,7 +109,7 @@ constexpr
 size_t
 kRedNumberOfRedundantEncodings
 =
-2
+1
 ;
 AudioEncoderCopyRed
 :
