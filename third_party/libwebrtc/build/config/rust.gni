@@ -631,9 +631,11 @@ linux
 "
 )
 {
+#
 assert
 (
 false
+#
 "
 Attempt
 to

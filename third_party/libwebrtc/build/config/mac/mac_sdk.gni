@@ -744,6 +744,7 @@ sdk_info_args
 [
 mac_sdk_name
 ]
+#
 _mac_sdk_result
 =
 exec_script
@@ -754,11 +755,13 @@ sdk_info_args
 scope
 "
 )
+#
 xcode_version
 =
 _mac_sdk_result
 .
 xcode_version
+#
 xcode_build
 =
 _mac_sdk_result

@@ -2708,6 +2708,7 @@ mac
 "
 )
 {
+#
 assert
 (
 host_os
@@ -2724,6 +2725,7 @@ host_os
 "
 linux
 "
+#
 "
 Mac
 cross
