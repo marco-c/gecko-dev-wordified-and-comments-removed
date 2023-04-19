@@ -389,7 +389,7 @@ stop
 ;
 }
 function
-runOrienationSensorTests
+runOrientationSensorTests
 (
 sensorName
 )
