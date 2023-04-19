@@ -97,6 +97,11 @@ extensionProcessScriptLoader
 js
 "
 "
+ExtensionScriptingStore
+.
+jsm
+"
+"
 ExtensionSettingsStore
 .
 jsm
