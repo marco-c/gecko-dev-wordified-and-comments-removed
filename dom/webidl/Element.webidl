@@ -2583,7 +2583,6 @@ interface
 Element
 {
 [
-SecureContext
 UseCounter
 Throws
 Pref
