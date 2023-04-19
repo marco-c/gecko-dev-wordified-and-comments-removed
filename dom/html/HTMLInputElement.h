@@ -3737,15 +3737,6 @@ aResult
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT
-void
-DispatchSelectEvent
-(
-nsPresContext
-*
-aPresContext
-)
-;
 void
 SelectAll
 (
