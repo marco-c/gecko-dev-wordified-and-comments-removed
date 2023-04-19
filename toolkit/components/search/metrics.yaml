@@ -260,6 +260,10 @@ send_in_pings
 '
 metrics
 '
+-
+'
+newtab
+'
 display_name
 :
 type
@@ -1136,6 +1140,10 @@ send_in_pings
 -
 '
 metrics
+'
+-
+'
+newtab
 '
 display_name
 :
