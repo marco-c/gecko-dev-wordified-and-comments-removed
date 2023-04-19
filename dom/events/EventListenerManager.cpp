@@ -5230,7 +5230,7 @@ GetAllowsInline
 nsIContentSecurityPolicy
 :
 :
-SCRIPT_SRC_DIRECTIVE
+SCRIPT_SRC_ATTR_DIRECTIVE
 u
 "
 "
