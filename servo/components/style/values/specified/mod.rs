@@ -106,8 +106,6 @@ super
 {
 CSSFloat
 CSSInteger
-Either
-None_
 }
 ;
 use
@@ -403,6 +401,7 @@ box_
 Clear
 ContentVisibility
 ContainIntrinsicSize
+LineClamp
 Float
 Overflow
 OverflowAnchor
@@ -4133,16 +4132,6 @@ GreaterThanOrEqualToOne
 )
 }
 }
-pub
-type
-PositiveIntegerOrNone
-=
-Either
-<
-PositiveInteger
-None_
->
-;
 pub
 type
 TrackBreadth

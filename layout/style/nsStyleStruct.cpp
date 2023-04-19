@@ -11947,7 +11947,7 @@ StyleVerticalAlignKeyword
 Baseline
 )
 )
-mLineClamp
+mWebkitLineClamp
 (
 0
 )
@@ -12263,11 +12263,11 @@ aSource
 .
 mVerticalAlign
 )
-mLineClamp
+mWebkitLineClamp
 (
 aSource
 .
-mLineClamp
+mWebkitLineClamp
 )
 mShapeImageThreshold
 (
@@ -13198,12 +13198,12 @@ nsChangeHint_NeutralChange
 }
 if
 (
-mLineClamp
+mWebkitLineClamp
 !
 =
 aNewData
 .
-mLineClamp
+mWebkitLineClamp
 )
 {
 hint

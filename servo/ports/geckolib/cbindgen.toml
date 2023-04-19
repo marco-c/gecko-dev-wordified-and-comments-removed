@@ -731,6 +731,9 @@ TransformOrigin
 LineBreak
 "
 "
+LineClamp
+"
+"
 WordBreak
 "
 "

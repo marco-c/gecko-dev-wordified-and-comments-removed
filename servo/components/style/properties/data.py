@@ -2943,6 +2943,10 @@ LineBreak
 "
                 
 "
+LineClamp
+"
+                
+"
 MasonryAutoFlow
 "
                 
@@ -3011,10 +3015,6 @@ OverscrollBehavior
                 
 "
 Percentage
-"
-                
-"
-PositiveIntegerOrNone
 "
                 
 "

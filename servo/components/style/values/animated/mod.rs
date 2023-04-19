@@ -1837,6 +1837,12 @@ f32
 trivial_to_animated_value
 !
 (
+i32
+)
+;
+trivial_to_animated_value
+!
+(
 SVGPathData
 )
 ;

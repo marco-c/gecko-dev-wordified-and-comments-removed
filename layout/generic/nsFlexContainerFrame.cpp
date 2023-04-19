@@ -24153,6 +24153,6 @@ StyleDisplay
 )
 -
 >
-mLineClamp
+mWebkitLineClamp
 ;
 }

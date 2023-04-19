@@ -6083,8 +6083,11 @@ mozilla
 StyleVerticalAlign
 mVerticalAlign
 ;
-uint32_t
-mLineClamp
+mozilla
+:
+:
+StyleLineClamp
+mWebkitLineClamp
 ;
 float
 mShapeImageThreshold
