@@ -2787,14 +2787,9 @@ wasi
 -
 sdk
 -
-15
+16
 source
 code
-+
-LLVM
--
-15
-fix
 fetch
 :
 type
@@ -2817,7 +2812,7 @@ wasi
 sdk
 revision
 :
-37ae6af88201884c8b98a65adcd6d8cd1284f95e
+7b7b8a974a31f527d71467499b0d5be3b12f2fa9
 ninja
 :
 description
