@@ -902,6 +902,7 @@ rtc
 PacketSocketFactory
 *
 factory
+const
 rtc
 :
 :
@@ -945,6 +946,7 @@ rtc
 PacketSocketFactory
 *
 factory
+const
 rtc
 :
 :
@@ -989,6 +991,7 @@ Type
 const
 override
 ;
+const
 rtc
 :
 :
@@ -2041,6 +2044,7 @@ type_
 bool
 send_retransmit_count_attribute_
 ;
+const
 rtc
 :
 :

@@ -1716,6 +1716,7 @@ server_address
 bool
 CreateTurnPortWithNetwork
 (
+const
 rtc
 :
 :
@@ -1755,6 +1756,7 @@ server_address
 bool
 CreateTurnPortWithAllParams
 (
+const
 rtc
 :
 :
