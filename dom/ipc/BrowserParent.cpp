@@ -12187,7 +12187,7 @@ aCursorData
 aHeight
 *
 aStride
->
+!
 =
 aCursorData
 -
