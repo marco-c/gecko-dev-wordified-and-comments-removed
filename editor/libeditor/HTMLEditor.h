@@ -1010,15 +1010,7 @@ IsMailEditor
 )
 &
 &
-mCSSEditUtils
-&
-&
-mCSSEditUtils
--
->
-IsCSSPrefChecked
-(
-)
+mIsCSSPrefChecked
 ;
 }
 MOZ_CAN_RUN_SCRIPT
@@ -8777,6 +8769,9 @@ mSnapToGridEnabled
 ;
 bool
 mIsInlineTableEditingEnabled
+;
+bool
+mIsCSSPrefChecked
 ;
 ManualNACPtr
 mTopLeftHandle
