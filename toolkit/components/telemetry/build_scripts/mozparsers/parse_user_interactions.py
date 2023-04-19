@@ -3,8 +3,6 @@ io
 import
 re
 import
-six
-import
 yaml
 import
 atexit
@@ -651,9 +649,7 @@ list
 description
 "
 :
-six
-.
-string_types
+str
         
 }
         

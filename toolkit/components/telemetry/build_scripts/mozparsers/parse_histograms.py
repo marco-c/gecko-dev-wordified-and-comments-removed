@@ -16,8 +16,6 @@ import
 sys
 import
 atexit
-import
-six
 from
 .
 import
@@ -3977,33 +3975,25 @@ bool
 expires_in_version
 "
 :
-six
-.
-string_types
+str
             
 "
 kind
 "
 :
-six
-.
-string_types
+str
             
 "
 description
 "
 :
-six
-.
-string_types
+str
             
 "
 releaseChannelCollection
 "
 :
-six
-.
-string_types
+str
         
 }
         
@@ -4021,57 +4011,43 @@ int
 alert_emails
 "
 :
-six
-.
-string_types
+str
             
 "
 labels
 "
 :
-six
-.
-string_types
+str
             
 "
 record_in_processes
 "
 :
-six
-.
-string_types
+str
             
 "
 keys
 "
 :
-six
-.
-string_types
+str
             
 "
 products
 "
 :
-six
-.
-string_types
+str
             
 "
 operating_systems
 "
 :
-six
-.
-string_types
+str
             
 "
 record_into_store
 "
 :
-six
-.
-string_types
+str
         
 }
         
