@@ -97,6 +97,15 @@ include
 "
 rtc_base
 /
+message_handler
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 ssl_certificate
 .
 h
@@ -151,6 +160,11 @@ TurnPort
 :
 public
 Port
+public
+rtc
+:
+:
+MessageHandler
 {
 public
 :
@@ -1574,8 +1588,6 @@ private
 enum
 {
 MSG_ALLOCATE_ERROR
-=
-MSG_FIRST_AVAILABLE
 MSG_ALLOCATE_MISMATCH
 MSG_TRY_ALTERNATE_SERVER
 MSG_REFRESH_ERROR
