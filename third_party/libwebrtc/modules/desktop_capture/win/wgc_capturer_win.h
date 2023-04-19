@@ -206,6 +206,7 @@ EnumerateCapturableWindows
 (
 sources
 enumerate_current_process_windows_
+WS_EX_TOOLWINDOW
 )
 ;
 }
