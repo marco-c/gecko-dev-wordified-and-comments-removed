@@ -2593,7 +2593,6 @@ input_sample_rate_hz
 frame_data_
 .
 input_number_of_channels
-false
 )
 ;
 PopulateAudioFrame
@@ -2676,7 +2675,6 @@ input_sample_rate_hz
 frame_data_
 .
 input_number_of_channels
-false
 )
 ;
 StreamConfig
@@ -2688,7 +2686,6 @@ output_sample_rate_hz
 frame_data_
 .
 output_number_of_channels
-false
 )
 ;
 int
@@ -3706,7 +3703,6 @@ input_sample_rate_hz
 frame_data_
 .
 input_number_of_channels
-false
 )
 ;
 PopulateAudioFrame
@@ -3773,7 +3769,6 @@ input_sample_rate_hz
 frame_data_
 .
 input_number_of_channels
-false
 )
 ;
 StreamConfig
@@ -3785,7 +3780,6 @@ output_sample_rate_hz
 frame_data_
 .
 output_number_of_channels
-false
 )
 ;
 int

@@ -350,7 +350,6 @@ stream_config
 (
 kNumSampleRateHz
 kNumChannels
-false
 )
 ;
 EXPECT_CALL
@@ -480,7 +479,6 @@ stream_config
 (
 kNumSampleRateHz
 kNumChannels
-false
 )
 ;
 EXPECT_CALL

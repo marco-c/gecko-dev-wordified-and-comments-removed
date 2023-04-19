@@ -75,7 +75,6 @@ stream_config
 (
 kSampleRateHz
 kNumChannels
-false
 )
 ;
 webrtc

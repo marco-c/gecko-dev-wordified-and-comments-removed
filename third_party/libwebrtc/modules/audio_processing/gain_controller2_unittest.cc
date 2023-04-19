@@ -1425,7 +1425,6 @@ stream_config
 (
 kSampleRateHz
 kStereo
-false
 )
 ;
 constexpr

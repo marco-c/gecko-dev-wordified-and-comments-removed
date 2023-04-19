@@ -80,7 +80,6 @@ frame
 -
 >
 num_channels_
-false
 )
 ;
 StreamConfig
@@ -94,7 +93,6 @@ frame
 -
 >
 num_channels_
-false
 )
 ;
 RTC_DCHECK_EQ
@@ -319,7 +317,6 @@ frame
 -
 >
 num_channels_
-false
 )
 ;
 StreamConfig
@@ -333,7 +330,6 @@ frame
 -
 >
 num_channels_
-false
 )
 ;
 int
