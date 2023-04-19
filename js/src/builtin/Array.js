@@ -868,7 +868,7 @@ A
 ifdef
 NIGHTLY_BUILD
 function
-ArrayGroupBy
+ArrayGroup
 (
 callbackfn
 )
@@ -1053,7 +1053,7 @@ object
 ;
 }
 function
-ArrayGroupByToMap
+ArrayGroupToMap
 (
 callbackfn
 )
