@@ -1,4 +1,4 @@
-var
+let
 wasmGlobalEntry
 =
 {
@@ -22,7 +22,7 @@ wasmIsSupportedByHardware
 )
 }
 ;
-var
+let
 wasmGlobalInterfaces
 =
 [
@@ -141,7 +141,7 @@ true
 }
 ]
 ;
-var
+let
 ecmaGlobals
 =
 [
@@ -299,7 +299,7 @@ WeakSet
 wasmGlobalEntry
 ]
 ;
-var
+let
 interfaceNamesInGlobalScope
 =
 [

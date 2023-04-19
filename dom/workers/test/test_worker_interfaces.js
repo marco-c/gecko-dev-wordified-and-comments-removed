@@ -1,4 +1,4 @@
-var
+let
 wasmGlobalEntry
 =
 {
@@ -22,7 +22,7 @@ wasmIsSupportedByHardware
 )
 }
 ;
-var
+let
 wasmGlobalInterfaces
 =
 [
@@ -141,7 +141,7 @@ true
 }
 ]
 ;
-var
+let
 ecmaGlobals
 =
 [
@@ -651,7 +651,7 @@ true
 wasmGlobalEntry
 ]
 ;
-var
+let
 interfaceNamesInGlobalScope
 =
 [
