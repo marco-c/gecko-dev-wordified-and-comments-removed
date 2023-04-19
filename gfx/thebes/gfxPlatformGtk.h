@@ -56,10 +56,6 @@ final
 public
 gfxPlatform
 {
-friend
-class
-gfxPlatform
-;
 public
 :
 gfxPlatformGtk
@@ -283,11 +279,9 @@ InitDmabufConfig
 (
 )
 ;
-bool
+void
 InitVAAPIConfig
 (
-bool
-aEnabledByPlatform
 )
 ;
 void
