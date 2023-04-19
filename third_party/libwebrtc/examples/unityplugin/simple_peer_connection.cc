@@ -1161,12 +1161,6 @@ push_back
 stun_server
 )
 ;
-config_
-.
-enable_dtls_srtp
-=
-false
-;
 auto
 result
 =

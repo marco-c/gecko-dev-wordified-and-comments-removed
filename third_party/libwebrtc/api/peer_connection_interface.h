@@ -1432,15 +1432,6 @@ bool
 >
 combined_audio_video_bwe
 ;
-absl
-:
-:
-optional
-<
-bool
->
-enable_dtls_srtp
-;
 TcpCandidatePolicy
 tcp_candidate_policy
 =
