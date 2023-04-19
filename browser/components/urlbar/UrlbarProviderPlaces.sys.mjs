@@ -104,11 +104,6 @@ error
 ]
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 *

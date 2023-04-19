@@ -122,11 +122,6 @@ startup
 .
 *
 /
-"
-use
-strict
-"
-;
 /
 *
 globals

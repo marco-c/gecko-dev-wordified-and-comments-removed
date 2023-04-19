@@ -73,11 +73,6 @@ aArgs
 error
 *
 /
-"
-use
-strict
-"
-;
 import
 {
 XPCOMUtils
