@@ -140,9 +140,6 @@ rotation
 VideoContentType
 content_type
 ;
-PlayoutDelay
-playout_delay
-;
 EncodedImage
 :
 :
