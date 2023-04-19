@@ -4191,6 +4191,11 @@ SignalDtlsHandshakeError
 error
 )
 ;
+SendDtlsHandshakeError
+(
+error
+)
+;
 }
 void
 DtlsTransport
