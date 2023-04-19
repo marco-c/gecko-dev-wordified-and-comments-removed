@@ -4428,13 +4428,6 @@ UsagePercent
 )
 ;
 }
-#
-if
-!
-defined
-(
-WEBRTC_MAC
-)
 TEST_F
 (
 OveruseFrameDetectorTest2
@@ -4499,7 +4492,7 @@ InitialUsage
 *
 3
 +
-15
+8
 )
 /
 4
@@ -4524,8 +4517,6 @@ UsagePercent
 )
 ;
 }
-#
-endif
 TEST_F
 (
 OveruseFrameDetectorTest2
