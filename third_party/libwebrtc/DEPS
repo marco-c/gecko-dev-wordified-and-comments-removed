@@ -76,7 +76,7 @@ chromium_revision
 '
 :
 '
-731551a18e83f5f148094fa200176768837ca6c5
+78988903f18442480583eb0df00a58c07d218a31
 '
 }
 deps
@@ -131,7 +131,7 @@ chromium
 src
 /
 base
-af3dfc8e1301f5e6e8b4411941d003aacc2b44da
+3e6f9033a536afabcdfb191c1127d78f430b2a18
 '
 '
 src
@@ -275,7 +275,7 @@ chromium
 src
 /
 ios
-aee6b7f15a7f00360699a4966c1c4ee5162f1223
+8033a5d98bb6f2b3058fbcf963a07a15e87e2c28
 '
 '
 condition
@@ -307,7 +307,7 @@ chromium
 src
 /
 testing
-5f9242e28214f7337009520bc18835093a957223
+477556b7015f16f4a82d74dd126b88cd007e5e14
 '
 '
 src
@@ -331,7 +331,7 @@ chromium
 src
 /
 third_party
-076295819b0509dbaeaa81e9c66255fd36f3e2ca
+b702d0be43fbc36893e6345626757a18977d857a
 '
 '
 src
@@ -1094,7 +1094,7 @@ tools
 depot_tools
 .
 git
-b3c9edb4af40cce0512adbcae7fc3fd2450e2b45
+5ef4697af266685400317d4af1c585a346cf23de
 '
 '
 src
@@ -1775,7 +1775,7 @@ deps
 libjpeg_turbo
 .
 git
-7b4981b6500ccba10733c352b9ed2dad14ce3c73
+24e310554f07c0fdb8ee52e3e708e4f3e9eb6e20
 '
 '
 src
@@ -1902,7 +1902,7 @@ external
 perfetto
 .
 git
-e01ad9a6a83bd8df88dc01bc86fd0ec9080296c7
+14c4d4957d5e2cb7c6fd4d6b8a3f51318c1b22da
 '
 '
 src
@@ -2428,7 +2428,7 @@ chromium
 src
 /
 tools
-043c2982b278ca4b79acc3dc230d31d05c45a22a
+1efa8e31548616bea9c549389d12ee45755c0470
 '
 '
 src
