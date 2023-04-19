@@ -746,6 +746,7 @@ GetRenderBuffer
 )
 S2_linear
 Y2
+false
 R2
 )
 ;

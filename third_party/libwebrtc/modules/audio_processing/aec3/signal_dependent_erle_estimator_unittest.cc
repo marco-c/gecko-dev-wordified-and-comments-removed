@@ -1473,6 +1473,7 @@ GetE2
 (
 )
 average_erle
+average_erle
 inputs
 .
 GetConvergedFilters
@@ -1692,6 +1693,7 @@ inputs
 GetE2
 (
 )
+average_erle
 average_erle
 inputs
 .

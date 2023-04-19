@@ -248,6 +248,7 @@ subband_erle_estimator_
 .
 Erle
 (
+true
 )
 .
 size
@@ -266,6 +267,7 @@ subband_erle_estimator_
 .
 Erle
 (
+true
 )
 .
 size
@@ -340,6 +342,13 @@ subband_erle_estimator_
 .
 Erle
 (
+false
+)
+subband_erle_estimator_
+.
+Erle
+(
+true
 )
 converged_filters
 )

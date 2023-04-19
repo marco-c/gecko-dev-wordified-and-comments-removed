@@ -267,6 +267,8 @@ kFftLengthBy2Plus1
 >
 Erle
 (
+bool
+onset_compensated
 )
 const
 {
@@ -278,12 +280,14 @@ signal_dependent_erle_estimator_
 >
 Erle
 (
+onset_compensated
 )
 :
 subband_erle_estimator_
 .
 Erle
 (
+onset_compensated
 )
 ;
 }
@@ -302,7 +306,7 @@ float
 kFftLengthBy2Plus1
 >
 >
-ErleOnsets
+ErleDuringOnsets
 (
 )
 const
@@ -310,7 +314,7 @@ const
 return
 subband_erle_estimator_
 .
-ErleOnsets
+ErleDuringOnsets
 (
 )
 ;

@@ -447,6 +447,11 @@ bounded_erl
 =
 false
 ;
+bool
+erle_onset_compensation_in_dominant_nearend
+=
+false
+;
 }
 ep_strength
 ;

@@ -1641,6 +1641,7 @@ estimator
 .
 Erle
 (
+true
 )
 std
 :
@@ -1734,6 +1735,7 @@ estimator
 .
 Erle
 (
+true
 )
 std
 :
@@ -2262,7 +2264,7 @@ VerifyErleBands
 (
 estimator
 .
-ErleOnsets
+ErleDuringOnsets
 (
 )
 config
@@ -2328,6 +2330,7 @@ estimator
 .
 Erle
 (
+true
 )
 std
 :
