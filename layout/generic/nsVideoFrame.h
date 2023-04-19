@@ -175,12 +175,6 @@ Nothing
 )
 override
 ;
-nsSize
-GetVideoIntrinsicSize
-(
-)
-const
-;
 mozilla
 :
 :
