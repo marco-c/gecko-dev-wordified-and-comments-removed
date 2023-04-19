@@ -3748,8 +3748,6 @@ zones
 length
 (
 )
-+
-1
 ;
 if
 (

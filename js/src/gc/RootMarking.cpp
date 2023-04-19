@@ -1388,6 +1388,8 @@ MARK_ROOTS
 if
 (
 atomsZone
+(
+)
 -
 >
 isGCMarking
