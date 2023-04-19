@@ -2285,7 +2285,7 @@ boolean
 }
 additionalProperties
 :
-false
+true
 }
 ;
 sinon
