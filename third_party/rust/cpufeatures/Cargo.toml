@@ -114,7 +114,7 @@ version
 .
 2
 .
-2
+4
 "
 authors
 =
@@ -126,6 +126,8 @@ Developers
 ]
 description
 =
+"
+"
 "
 Lightweight
 runtime
@@ -139,8 +141,7 @@ x86_64
 and
 aarch64
 with
-\
-nno_std
+no_std
 support
 and
 support
@@ -151,8 +152,8 @@ including
 Android
 and
 iOS
-\
-n
+"
+"
 "
 documentation
 =
@@ -241,7 +242,7 @@ version
 .
 2
 .
-68
+95
 "
 [
 target
@@ -263,7 +264,7 @@ version
 .
 2
 .
-68
+95
 "
 [
 target
@@ -302,5 +303,5 @@ version
 .
 2
 .
-68
+95
 "

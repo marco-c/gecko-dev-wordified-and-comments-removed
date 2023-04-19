@@ -231,6 +231,7 @@ __expand_check_macro
 name
 :
 tt
+(
 i
 :
 expr
@@ -240,6 +241,8 @@ ident
 offset
 :
 expr
+)
+*
 )
 )
 *
@@ -275,6 +278,9 @@ name
 =
 >
 {
+true
+(
+&
 (
 cr
 [
@@ -293,6 +299,8 @@ offset
 =
 0
 )
+)
+*
 }
 ;
 )
@@ -356,6 +364,9 @@ ecx
 "
 fma
 "
+0
+ecx
+28
 0
 ecx
 12
@@ -432,6 +443,9 @@ ebx
 "
 avx2
 "
+0
+ecx
+28
 1
 ebx
 5
