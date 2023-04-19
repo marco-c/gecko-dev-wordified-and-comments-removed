@@ -196,6 +196,14 @@ MozContainerWayland
 container
 )
 ;
+void
+moz_container_wayland_unmap
+(
+GtkWidget
+*
+widget
+)
+;
 struct
 wl_egl_window
 *
