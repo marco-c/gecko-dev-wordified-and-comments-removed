@@ -24,14 +24,6 @@ scale
 ]
 [
 "
-apz
-.
-allow_zooming
-"
-true
-]
-[
-"
 dom
 .
 meta

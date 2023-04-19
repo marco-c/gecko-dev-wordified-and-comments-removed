@@ -69,14 +69,6 @@ set
 [
 [
 "
-apz
-.
-allow_zooming
-"
-true
-]
-[
-"
 dom
 .
 meta
