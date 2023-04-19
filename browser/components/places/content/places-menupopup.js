@@ -2506,7 +2506,7 @@ setAttribute
 position
 "
 "
-bottomcenter
+bottomright
 topright
 "
 )

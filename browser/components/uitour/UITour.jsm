@@ -6298,7 +6298,7 @@ let
 alignment
 =
 "
-bottomcenter
+bottomright
 topright
 "
 ;

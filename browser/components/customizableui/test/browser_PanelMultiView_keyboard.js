@@ -151,7 +151,7 @@ openPopup
 gPanel
 gAnchor
 "
-bottomcenter
+bottomright
 topright
 "
 )
