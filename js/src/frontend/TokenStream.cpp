@@ -3078,7 +3078,6 @@ metadata
 ReportCompileErrorLatin1
 (
 ec
-cx
 std
 :
 :
@@ -5229,9 +5228,6 @@ ReportCompileErrorLatin1
 anyChars
 .
 ec
-anyChars
-.
-cx
 std
 :
 :

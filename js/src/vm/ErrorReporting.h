@@ -184,9 +184,6 @@ ReportCompileErrorLatin1
 ErrorContext
 *
 ec
-JSAllocator
-*
-alloc
 ErrorMetadata
 &
 &
@@ -210,9 +207,6 @@ ReportCompileErrorUTF8
 ErrorContext
 *
 ec
-JSAllocator
-*
-alloc
 ErrorMetadata
 &
 &
@@ -241,9 +235,6 @@ ReportCompileWarning
 ErrorContext
 *
 ec
-JSAllocator
-*
-alloc
 ErrorMetadata
 &
 &
@@ -408,9 +399,6 @@ ExpandErrorArgumentsVA
 ErrorContext
 *
 ec
-JSAllocator
-*
-alloc
 JSErrorCallback
 callback
 void
@@ -440,9 +428,6 @@ ExpandErrorArgumentsVA
 ErrorContext
 *
 ec
-JSAllocator
-*
-alloc
 JSErrorCallback
 callback
 void
@@ -472,9 +457,6 @@ ExpandErrorArgumentsVA
 ErrorContext
 *
 ec
-JSAllocator
-*
-alloc
 JSErrorCallback
 callback
 void
@@ -499,9 +481,6 @@ ExpandErrorArgumentsVA
 ErrorContext
 *
 ec
-JSAllocator
-*
-alloc
 JSErrorCallback
 callback
 void

@@ -3520,7 +3520,6 @@ ExpandErrorArgumentsVA
 (
 &
 ec
-cx
 GetErrorMessage
 nullptr
 JSMSG_UNCAUGHT_EXCEPTION

@@ -118,16 +118,6 @@ const
 =
 0
 ;
-virtual
-JSAllocator
-*
-getAllocator
-(
-)
-const
-=
-0
-;
 struct
 Current
 {
@@ -495,9 +485,6 @@ return
 ReportCompileErrorLatin1
 (
 getContext
-(
-)
-getAllocator
 (
 )
 std
@@ -1152,9 +1139,6 @@ ReportCompileErrorLatin1
 getContext
 (
 )
-getAllocator
-(
-)
 std
 :
 :
@@ -1205,9 +1189,6 @@ return
 ReportCompileWarning
 (
 getContext
-(
-)
-getAllocator
 (
 )
 std

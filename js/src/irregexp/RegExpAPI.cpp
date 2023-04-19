@@ -1032,7 +1032,7 @@ suppressGC
 (
 ts
 .
-allocator
+jsContext
 (
 )
 )
@@ -1059,7 +1059,7 @@ ReportOverRecursed
 (
 ts
 .
-allocator
+jsContext
 (
 )
 )
@@ -1259,7 +1259,7 @@ windowBuf
 (
 ts
 .
-allocator
+jsContext
 (
 )
 )
@@ -1352,11 +1352,6 @@ ReportCompileErrorLatin1
 ts
 .
 context
-(
-)
-ts
-.
-allocator
 (
 )
 std
