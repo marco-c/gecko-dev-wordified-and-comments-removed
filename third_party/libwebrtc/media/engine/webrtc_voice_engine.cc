@@ -7389,13 +7389,15 @@ call
 :
 VoiceMediaChannel
 (
-config
 call
 -
 >
 network_thread
 (
 )
+config
+.
+enable_dscp
 )
 worker_thread_
 (
