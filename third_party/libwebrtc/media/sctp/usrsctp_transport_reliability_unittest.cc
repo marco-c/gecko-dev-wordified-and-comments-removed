@@ -20,7 +20,7 @@ media
 /
 sctp
 /
-sctp_transport
+sctp_transport_internal
 .
 h
 "
@@ -31,7 +31,7 @@ media
 /
 sctp
 /
-sctp_transport_internal
+usrsctp_transport
 .
 h
 "
@@ -759,7 +759,7 @@ thread
 cricket
 :
 :
-SctpTransport
+UsrsctpTransport
 *
 transport
 uint64_t
@@ -1180,7 +1180,7 @@ SDR_ERROR
 last_error_
 =
 "
-SctpTransport
+UsrsctpTransport
 :
 :
 SendData
@@ -1209,7 +1209,7 @@ thread_
 cricket
 :
 :
-SctpTransport
+UsrsctpTransport
 *
 const
 transport_
@@ -2869,7 +2869,7 @@ new
 cricket
 :
 :
-SctpTransport
+UsrsctpTransport
 (
 transport_thread1_
 packet_transport1_
@@ -3056,7 +3056,7 @@ new
 cricket
 :
 :
-SctpTransport
+UsrsctpTransport
 (
 transport_thread2_
 packet_transport2_
@@ -3433,7 +3433,7 @@ unique_ptr
 cricket
 :
 :
-SctpTransport
+UsrsctpTransport
 >
 sctp_transport1_
 ;
@@ -3445,7 +3445,7 @@ unique_ptr
 cricket
 :
 :
-SctpTransport
+UsrsctpTransport
 >
 sctp_transport2_
 ;

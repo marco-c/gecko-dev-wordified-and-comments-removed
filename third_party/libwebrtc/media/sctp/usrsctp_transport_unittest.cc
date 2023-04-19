@@ -5,7 +5,7 @@ media
 /
 sctp
 /
-sctp_transport
+usrsctp_transport
 .
 h
 "
@@ -329,7 +329,7 @@ public
 explicit
 SctpTransportObserver
 (
-SctpTransport
+UsrsctpTransport
 *
 transport
 )
@@ -468,10 +468,10 @@ public
 :
 SignalTransportClosedReopener
 (
-SctpTransport
+UsrsctpTransport
 *
 transport
-SctpTransport
+UsrsctpTransport
 *
 peer
 )
@@ -537,11 +537,11 @@ stream
 )
 ;
 }
-SctpTransport
+UsrsctpTransport
 *
 transport_
 ;
-SctpTransport
+UsrsctpTransport
 *
 peer_
 ;
@@ -916,7 +916,7 @@ return
 ret
 ;
 }
-SctpTransport
+UsrsctpTransport
 *
 CreateTransport
 (
@@ -928,12 +928,12 @@ SctpFakeDataReceiver
 recv
 )
 {
-SctpTransport
+UsrsctpTransport
 *
 transport
 =
 new
-SctpTransport
+UsrsctpTransport
 (
 rtc
 :
@@ -969,7 +969,7 @@ transport
 bool
 SendData
 (
-SctpTransport
+UsrsctpTransport
 *
 chan
 int
@@ -1164,7 +1164,7 @@ IsQuitting
 )
 ;
 }
-SctpTransport
+UsrsctpTransport
 *
 transport1
 (
@@ -1178,7 +1178,7 @@ get
 )
 ;
 }
-SctpTransport
+UsrsctpTransport
 *
 transport2
 (
@@ -1309,7 +1309,7 @@ std
 :
 unique_ptr
 <
-SctpTransport
+UsrsctpTransport
 >
 transport1_
 ;
@@ -1318,7 +1318,7 @@ std
 :
 unique_ptr
 <
-SctpTransport
+UsrsctpTransport
 >
 transport2_
 ;
@@ -1393,7 +1393,7 @@ std
 :
 unique_ptr
 <
-SctpTransport
+UsrsctpTransport
 >
 transport1
 (
@@ -1411,7 +1411,7 @@ std
 :
 unique_ptr
 <
-SctpTransport
+UsrsctpTransport
 >
 transport2
 (
@@ -1765,7 +1765,7 @@ std
 :
 unique_ptr
 <
-SctpTransport
+UsrsctpTransport
 >
 transport1
 (
@@ -1783,7 +1783,7 @@ std
 :
 unique_ptr
 <
-SctpTransport
+UsrsctpTransport
 >
 transport2
 (
@@ -2102,7 +2102,7 @@ std
 :
 unique_ptr
 <
-SctpTransport
+UsrsctpTransport
 >
 transport1
 (
@@ -2120,7 +2120,7 @@ std
 :
 unique_ptr
 <
-SctpTransport
+UsrsctpTransport
 >
 transport2
 (
@@ -2277,7 +2277,7 @@ std
 :
 unique_ptr
 <
-SctpTransport
+UsrsctpTransport
 >
 transport
 (
@@ -2337,7 +2337,7 @@ std
 :
 unique_ptr
 <
-SctpTransport
+UsrsctpTransport
 >
 transport
 (
@@ -2408,7 +2408,7 @@ std
 :
 unique_ptr
 <
-SctpTransport
+UsrsctpTransport
 >
 transport
 (
@@ -4698,7 +4698,7 @@ std
 :
 unique_ptr
 <
-SctpTransport
+UsrsctpTransport
 >
 transport
 (
@@ -4751,7 +4751,7 @@ std
 :
 unique_ptr
 <
-SctpTransport
+UsrsctpTransport
 >
 transport
 (
@@ -4894,7 +4894,7 @@ std
 :
 unique_ptr
 <
-SctpTransport
+UsrsctpTransport
 >
 transport1
 (
@@ -4912,7 +4912,7 @@ std
 :
 unique_ptr
 <
-SctpTransport
+UsrsctpTransport
 >
 transport2
 (
@@ -4930,7 +4930,7 @@ std
 :
 unique_ptr
 <
-SctpTransport
+UsrsctpTransport
 >
 transport3
 (
