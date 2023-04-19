@@ -1482,15 +1482,6 @@ vim
 "
 ]
 ]
-"
-consistent
--
-return
-"
-:
-"
-off
-"
 }
 }
 ;
