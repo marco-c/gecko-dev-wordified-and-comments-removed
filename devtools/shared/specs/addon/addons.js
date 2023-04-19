@@ -56,6 +56,8 @@ Arg
 (
 1
 "
+nullable
+:
 boolean
 "
 )
