@@ -300,6 +300,15 @@ zlib
 compress
 (
 serialized
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
 )
   
 print
