@@ -249,6 +249,12 @@ InbandComfortNoiseExtension
 )
 CreateExtensionInfo
 <
+VideoFrameTrackingIdExtension
+>
+(
+)
+CreateExtensionInfo
+<
 CsrcAudioLevel
 >
 (

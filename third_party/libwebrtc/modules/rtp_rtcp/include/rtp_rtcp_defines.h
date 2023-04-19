@@ -239,6 +239,7 @@ kRtpExtensionGenericFrameDescriptor
 kRtpExtensionGenericFrameDescriptor00
 kRtpExtensionGenericFrameDescriptor02
 kRtpExtensionColorSpace
+kRtpExtensionVideoFrameTrackingId
 kRtpExtensionCsrcAudioLevel
 kRtpExtensionNumberOfExtensions
 }
