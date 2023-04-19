@@ -570,6 +570,12 @@ DetectionOfProperStereoUsingThreshold
 FRIEND_TEST_ALL_PREFIXES
 (
 EchoCanceller3
+DetectionOfProperStereoUsingHysteresis
+)
+;
+FRIEND_TEST_ALL_PREFIXES
+(
+EchoCanceller3
 StereoContentDetectionForMonoSignals
 )
 ;
@@ -603,7 +609,7 @@ const
 return
 multichannel_content_detector_
 .
-IsMultiChannelContentDetected
+IsProperMultiChannelContentDetected
 (
 )
 ;
