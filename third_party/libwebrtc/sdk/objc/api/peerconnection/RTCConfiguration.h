@@ -123,6 +123,7 @@ RTCSdpSemantics
 {
 RTCSdpSemanticsPlanB
 RTCSdpSemanticsUnifiedPlan
+RTCSdpSemanticsNotSpecified
 }
 ;
 NS_ASSUME_NONNULL_BEGIN
