@@ -463,9 +463,6 @@ callback
 RateControlParameters
 rates
 ;
-VideoCodecMode
-mode
-;
 bool
 keyframe
 ;
@@ -537,12 +534,6 @@ callback_
 rates
 =
 current_rate_settings_
-;
-mode
-=
-config_
-.
-mode
 ;
 if
 (
