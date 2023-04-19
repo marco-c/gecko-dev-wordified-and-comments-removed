@@ -26,6 +26,15 @@ include
 "
 libyuv
 /
+convert_argb
+.
+h
+"
+#
+include
+"
+libyuv
+/
 cpu_id
 .
 h
