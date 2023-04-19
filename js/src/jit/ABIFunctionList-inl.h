@@ -909,6 +909,17 @@ js
 jit
 :
 :
+GetNativeDataPropertyPureFallback
+)
+\
+_
+(
+js
+:
+:
+jit
+:
+:
 GlobalHasLiveOnDebuggerStatement
 )
 \

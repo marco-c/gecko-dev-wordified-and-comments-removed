@@ -4318,7 +4318,7 @@ private
 js
 :
 :
-MainThreadOrParseData
+MainThreadOrParseOrIonCompileData
 <
 js
 :

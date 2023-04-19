@@ -215,6 +215,13 @@ addressOfZone
 (
 )
 ;
+const
+void
+*
+addressOfMegamorphicCache
+(
+)
+;
 #
 ifdef
 DEBUG
