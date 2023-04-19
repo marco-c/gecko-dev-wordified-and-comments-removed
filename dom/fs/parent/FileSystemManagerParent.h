@@ -430,8 +430,9 @@ FileSystemDataManager
 >
 mDataManager
 ;
-FileSystemGetHandleResponse
-mRootResponse
+const
+EntryId
+mRootEntry
 ;
 FlippedOnce
 <
