@@ -2946,6 +2946,14 @@ _initializeDownloadSpamProtection
 (
 )
 {
+if
+(
+!
+this
+.
+downloadSpamProtection
+)
+{
 this
 .
 downloadSpamProtection
@@ -2957,6 +2965,7 @@ DownloadSpamProtection
 (
 )
 ;
+}
 }
 addListObservers
 (
@@ -3793,12 +3802,6 @@ MOZ_BUILD_APP
 "
 browser
 "
-&
-&
-!
-DownloadIntegration
-.
-downloadSpamProtection
 )
 {
 DownloadIntegration
@@ -3807,7 +3810,6 @@ _initializeDownloadSpamProtection
 (
 )
 ;
-}
 DownloadIntegration
 .
 downloadSpamProtection
@@ -3815,8 +3817,12 @@ downloadSpamProtection
 update
 (
 aData
+aSubject
+.
+topChromeWindow
 )
 ;
+}
 break
 ;
 }
