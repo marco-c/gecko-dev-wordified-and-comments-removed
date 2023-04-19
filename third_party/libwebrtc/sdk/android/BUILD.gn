@@ -829,6 +829,15 @@ ldflags
 -
 lEGL
 "
+"
+-
+Wl
+-
+-
+build
+-
+id
+"
 ]
 deps
 =
