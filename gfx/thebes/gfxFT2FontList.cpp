@@ -8024,6 +8024,17 @@ iter
 )
 ;
 }
+if
+(
+!
+StaticPrefs
+:
+:
+gfx_font_rendering_colr_v1_enabled
+(
+)
+)
+{
 nsAutoCString
 legacyEmojiFont
 (
@@ -8053,6 +8064,7 @@ get
 kStandard
 )
 ;
+}
 systemFontIterator_close
 (
 iter
