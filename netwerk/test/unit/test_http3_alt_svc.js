@@ -10,9 +10,6 @@ let
 h3AltSvc
 ;
 let
-h3Port
-;
-let
 h3Route
 ;
 let

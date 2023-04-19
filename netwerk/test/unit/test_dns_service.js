@@ -184,13 +184,6 @@ org
 "
 ;
 const
-DOMAIN
-=
-"
-localhost
-"
-;
-const
 ADDR1
 =
 "

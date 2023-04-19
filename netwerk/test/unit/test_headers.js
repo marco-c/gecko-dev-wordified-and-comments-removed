@@ -77,11 +77,6 @@ HttpServer
 )
 ;
 var
-index
-=
-0
-;
-var
 nextTest
 =
 firstTest

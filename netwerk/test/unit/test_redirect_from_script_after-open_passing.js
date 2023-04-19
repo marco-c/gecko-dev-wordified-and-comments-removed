@@ -1013,9 +1013,6 @@ do_test_finished
 )
 ;
 }
-var
-redirector
-=
 new
 Redirector
 (

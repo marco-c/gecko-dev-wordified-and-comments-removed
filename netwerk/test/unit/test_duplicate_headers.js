@@ -67,11 +67,6 @@ HttpServer
 )
 ;
 var
-index
-=
-0
-;
-var
 test_flags
 =
 [

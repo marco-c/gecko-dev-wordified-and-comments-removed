@@ -20,15 +20,6 @@ flushed
 }
 }
 ;
-var
-currentThread
-=
-Services
-.
-tm
-.
-currentThread
-;
 function
 run_test
 (

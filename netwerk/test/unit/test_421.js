@@ -84,9 +84,6 @@ httpbody
 var
 channel
 ;
-var
-ios
-;
 function
 run_test
 (

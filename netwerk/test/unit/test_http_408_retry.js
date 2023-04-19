@@ -305,13 +305,6 @@ resp
 =
 >
 {
-let
-oldSock
-=
-global
-.
-socket
-;
 global
 .
 socket

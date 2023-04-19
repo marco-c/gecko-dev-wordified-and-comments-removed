@@ -426,13 +426,6 @@ var
 serv
 ;
 var
-connectTimeout
-=
-5
-*
-1000
-;
-var
 testDataStore
 =
 null

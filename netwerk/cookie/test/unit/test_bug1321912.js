@@ -343,9 +343,6 @@ now
 "
 )
 ;
-const
-cookies
-=
 Services
 .
 cookies

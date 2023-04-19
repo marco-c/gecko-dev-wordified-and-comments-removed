@@ -30,9 +30,6 @@ getService
 )
 ;
 let
-proxy_port
-;
-let
 filter
 ;
 class

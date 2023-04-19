@@ -363,11 +363,6 @@ length
 ;
 }
 const
-DEFAULT_WAIT_TIME
-=
-200
-;
-const
 kDNSv6Domain
 =
 mozinfo

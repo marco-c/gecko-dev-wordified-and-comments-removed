@@ -113,9 +113,6 @@ length
 ;
 }
 var
-requestList1Canceled1
-;
-var
 requestList1Canceled2
 ;
 var
@@ -254,8 +251,6 @@ nsIDNSService
 .
 RESOLVE_BYPASS_CACHE
 ;
-requestList1Canceled1
-=
 dns
 .
 asyncResolve

@@ -52,7 +52,6 @@ trr_clear_prefs
 const
 {
 updateAppInfo
-getAppInfo
 }
 =
 ChromeUtils
