@@ -873,6 +873,16 @@ const
 =
 0
 ;
+enum
+class
+InScrollingGesture
+:
+bool
+{
+No
+Yes
+}
+;
 virtual
 void
 ResetScrollInfoIfNeeded
@@ -896,6 +906,8 @@ mozilla
 :
 APZScrollAnimationType
 aAPZScrollAnimationType
+InScrollingGesture
+aInScrollingGesture
 )
 =
 0

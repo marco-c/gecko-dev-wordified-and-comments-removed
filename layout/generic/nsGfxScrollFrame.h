@@ -322,6 +322,14 @@ nsIContent
 >
 >
 ;
+using
+InScrollingGesture
+=
+nsIScrollableFrame
+:
+:
+InScrollingGesture
+;
 class
 AsyncScroll
 ;
@@ -2141,6 +2149,8 @@ APZScrollGeneration
 aGenerationOnApz
 APZScrollAnimationType
 aAPZScrollAnimationType
+InScrollingGesture
+aInScrollingGesture
 )
 ;
 bool
@@ -2622,6 +2632,11 @@ mSnapTargets
 ;
 APZScrollAnimationType
 mCurrentAPZScrollAnimationType
+;
+InScrollingGesture
+mInScrollingGesture
+:
+1
 ;
 bool
 mAllowScrollOriginDowngrade
@@ -4762,6 +4777,8 @@ mozilla
 :
 APZScrollAnimationType
 aAPZScrollAnimationType
+InScrollingGesture
+aInScrollingGesture
 )
 final
 {
@@ -4772,6 +4789,7 @@ ResetScrollInfoIfNeeded
 aGeneration
 aGenerationOnApz
 aAPZScrollAnimationType
+aInScrollingGesture
 )
 ;
 }
@@ -7295,6 +7313,8 @@ mozilla
 :
 APZScrollAnimationType
 aAPZScrollAnimationType
+InScrollingGesture
+aInScrollingGesture
 )
 final
 {
@@ -7305,6 +7325,7 @@ ResetScrollInfoIfNeeded
 aGeneration
 aGenerationOnApz
 aAPZScrollAnimationType
+aInScrollingGesture
 )
 ;
 }

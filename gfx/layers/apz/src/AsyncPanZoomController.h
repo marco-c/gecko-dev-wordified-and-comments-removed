@@ -3153,6 +3153,12 @@ IsInPanningState
 )
 const
 ;
+bool
+IsInScrollingGesture
+(
+)
+const
+;
 private
 :
 AncestorTransform

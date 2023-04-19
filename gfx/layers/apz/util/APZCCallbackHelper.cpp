@@ -748,6 +748,17 @@ aRequest
 GetScrollAnimationType
 (
 )
+nsIScrollableFrame
+:
+:
+InScrollingGesture
+(
+aRequest
+.
+IsInScrollingGesture
+(
+)
+)
 )
 ;
 sf
