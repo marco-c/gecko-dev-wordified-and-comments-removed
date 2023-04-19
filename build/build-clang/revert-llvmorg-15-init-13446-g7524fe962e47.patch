@@ -217,7 +217,6 @@ target
 set
 (
 target_cflags
-"
 -
 -
 target
@@ -228,7 +227,6 @@ target
 {
 target_cflags
 }
-"
 )
 +
 if

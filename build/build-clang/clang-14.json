@@ -5,17 +5,6 @@ patches
 :
 [
 "
-compiler
--
-rt
--
-cross
--
-compile
-.
-patch
-"
-"
 find_symbolizer_linux_clang_10
 .
 patch
