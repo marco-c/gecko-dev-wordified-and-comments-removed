@@ -1253,6 +1253,9 @@ AboutWelcomeDefaults
 .
 getDefaults
 (
+featureConfig
+.
+templateMR
 )
 ;
 return
