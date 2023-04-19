@@ -490,15 +490,6 @@ of
 tests
 )
 {
-Services
-.
-appinfo
-=
-{
-name
-version
-}
-;
 let
 {
 engines
@@ -520,6 +511,8 @@ region
 "
 default
 "
+name
+version
 }
 )
 ;
