@@ -6097,9 +6097,9 @@ button
 focus
 (
 {
-preventFocusRing
+focusVisible
 :
-true
+false
 }
 )
 ;

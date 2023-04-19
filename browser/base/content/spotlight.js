@@ -570,9 +570,9 @@ primaryBtn
 focus
 (
 {
-preventFocusRing
+focusVisible
 :
-true
+false
 }
 )
 ;

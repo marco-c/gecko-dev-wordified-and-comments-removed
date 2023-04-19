@@ -73,9 +73,9 @@ downloadsListBox
 focus
 (
 {
-preventFocusRing
+focusVisible
 :
-true
+false
 }
 )
 ;

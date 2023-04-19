@@ -412,9 +412,9 @@ playPauseBtn
 focus
 (
 {
-preventFocusRing
+focusVisible
 :
-true
+false
 }
 )
 ;
