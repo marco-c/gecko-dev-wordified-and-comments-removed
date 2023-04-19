@@ -1288,9 +1288,7 @@ H
 .
 264
 support
-|
 ffmpeg_branding
-|
 has
 to
 separately
@@ -1323,9 +1321,7 @@ H
 compilation
 succeeds
 but
-|
 H264DecoderImpl
-|
 fails
 to
 initialize
