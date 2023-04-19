@@ -1908,9 +1908,6 @@ unmap
 (
 )
 ;
-[
-Throws
-]
 void
 destroy
 (
