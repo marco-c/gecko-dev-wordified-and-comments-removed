@@ -69,6 +69,11 @@ web
 platform
 -
 tests
+instance
+-
+size
+:
+xlarge
 max
 -
 run
