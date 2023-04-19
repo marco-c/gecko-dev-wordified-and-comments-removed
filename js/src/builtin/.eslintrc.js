@@ -166,6 +166,16 @@ eqeqeq
 "
 error
 "
+strict
+:
+[
+"
+error
+"
+"
+never
+"
+]
 }
 globals
 :
