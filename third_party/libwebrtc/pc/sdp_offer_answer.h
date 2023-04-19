@@ -2919,6 +2919,16 @@ signaling_thread
 =
 false
 ;
+bool
+pt_demuxing_has_been_used_audio_
+=
+false
+;
+bool
+pt_demuxing_has_been_used_video_
+=
+false
+;
 rtc
 :
 :
