@@ -102,8 +102,6 @@ VadLevelAnalyzer
 (
 int
 vad_reset_period_ms
-float
-vad_probability_attack
 const
 AvailableCpuFeatures
 &
@@ -114,8 +112,6 @@ VadLevelAnalyzer
 (
 int
 vad_reset_period_ms
-float
-vad_probability_attack
 std
 :
 :
@@ -178,15 +174,8 @@ const
 int
 vad_reset_period_frames_
 ;
-const
-float
-vad_probability_attack_
-;
 int
 time_to_vad_reset_
-;
-float
-vad_probability_
 ;
 }
 ;

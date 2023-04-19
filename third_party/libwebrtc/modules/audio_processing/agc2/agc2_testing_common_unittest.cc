@@ -25,8 +25,8 @@ webrtc
 {
 TEST
 (
-AutomaticGainController2Common
-TestLinSpace
+GainController2TestingCommon
+LinSpace
 )
 {
 std
