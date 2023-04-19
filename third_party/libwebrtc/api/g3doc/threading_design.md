@@ -367,9 +367,6 @@ this
 pseudocode
 )
 :
-<
-pre
->
 void
 ObserverClass
 :
@@ -414,10 +411,6 @@ the
 right
 thread
 }
-<
-/
-pre
->
 In
 the
 future
