@@ -1284,6 +1284,8 @@ constructor
 name
 value
 purpose
+=
+null
 )
 {
 if
@@ -2431,16 +2433,6 @@ this
 method
 =
 method
-;
-this
-.
-_queryCharset
-=
-lazy
-.
-SearchUtils
-.
-DEFAULT_QUERY_CHARSET
 ;
 var
 templateURI
@@ -7496,6 +7488,9 @@ _iconMapObj
 json
 .
 _iconMapObj
+|
+|
+null
 ;
 this
 .
