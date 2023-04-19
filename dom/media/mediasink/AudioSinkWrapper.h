@@ -574,6 +574,12 @@ AudioData
 &
 mAudioQueue
 ;
+Maybe
+<
+TimeUnit
+>
+mLastPacketEndTime
+;
 }
 ;
 }
