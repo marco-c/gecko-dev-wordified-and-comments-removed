@@ -9587,6 +9587,11 @@ EncoderStats
 )
 ;
 }
+SleepMs
+(
+100
+)
+;
 analyzer
 .
 Stop
