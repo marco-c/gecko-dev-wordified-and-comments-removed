@@ -275,12 +275,9 @@ static
 void
 GetAlternateTextFor
 (
+const
 Element
-*
-aContent
-nsAtom
-*
-aTag
+&
 nsAString
 &
 aAltText
