@@ -7535,6 +7535,8 @@ int32_t
 aX
 int32_t
 aY
+ByMoveToRect
+aByMoveToRect
 )
 {
 if
@@ -7550,6 +7552,7 @@ WindowMoved
 this
 aX
 aY
+aByMoveToRect
 )
 ;
 }

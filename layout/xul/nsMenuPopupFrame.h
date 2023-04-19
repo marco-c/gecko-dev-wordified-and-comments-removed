@@ -1029,6 +1029,10 @@ CSSPoint
 aPos
 bool
 aUpdateAttrs
+bool
+aByMoveToRect
+=
+false
 )
 ;
 void
@@ -1619,6 +1623,11 @@ mScreenRect
 ;
 nsRect
 mUntransformedAnchorRect
+;
+bool
+mPositionedByMoveToRect
+=
+false
 ;
 bool
 mSizedToPopup
