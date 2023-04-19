@@ -207,7 +207,6 @@ fmt
 Result
 {
 match
-*
 self
 {
 Value
@@ -248,7 +247,6 @@ Bool
 .
 field
 (
-&
 v
 )
 .
@@ -260,7 +258,6 @@ Value
 :
 Number
 (
-ref
 v
 )
 =
@@ -278,7 +275,6 @@ Value
 :
 String
 (
-ref
 v
 )
 =
@@ -305,7 +301,6 @@ Value
 :
 Array
 (
-ref
 v
 )
 =
@@ -346,7 +341,6 @@ Value
 :
 Object
 (
-ref
 v
 )
 =
@@ -829,7 +823,6 @@ Value
 >
 {
 match
-*
 self
 {
 Value
@@ -837,7 +830,6 @@ Value
 :
 Object
 (
-ref
 map
 )
 =
@@ -874,7 +866,6 @@ Value
 >
 {
 match
-*
 self
 {
 Value
@@ -882,8 +873,6 @@ Value
 :
 Object
 (
-ref
-mut
 map
 )
 =
@@ -938,7 +927,6 @@ Value
 >
 {
 match
-*
 self
 {
 Value
@@ -946,15 +934,12 @@ Value
 :
 Array
 (
-ref
 array
 )
 =
 >
 Some
 (
-&
-*
 array
 )
 _
@@ -984,7 +969,6 @@ Value
 >
 {
 match
-*
 self
 {
 Value
@@ -992,8 +976,6 @@ Value
 :
 Array
 (
-ref
-mut
 list
 )
 =
@@ -1045,7 +1027,6 @@ str
 >
 {
 match
-*
 self
 {
 Value
@@ -1053,7 +1034,6 @@ Value
 :
 String
 (
-ref
 s
 )
 =
@@ -1111,7 +1091,6 @@ self
 bool
 {
 match
-*
 self
 {
 Value
@@ -1119,7 +1098,6 @@ Value
 :
 Number
 (
-ref
 n
 )
 =
@@ -1147,7 +1125,6 @@ self
 bool
 {
 match
-*
 self
 {
 Value
@@ -1155,7 +1132,6 @@ Value
 :
 Number
 (
-ref
 n
 )
 =
@@ -1183,7 +1159,6 @@ self
 bool
 {
 match
-*
 self
 {
 Value
@@ -1191,7 +1166,6 @@ Value
 :
 Number
 (
-ref
 n
 )
 =
@@ -1222,7 +1196,6 @@ i64
 >
 {
 match
-*
 self
 {
 Value
@@ -1230,7 +1203,6 @@ Value
 :
 Number
 (
-ref
 n
 )
 =
@@ -1261,7 +1233,6 @@ u64
 >
 {
 match
-*
 self
 {
 Value
@@ -1269,7 +1240,6 @@ Value
 :
 Number
 (
-ref
 n
 )
 =
@@ -1300,7 +1270,6 @@ f64
 >
 {
 match
-*
 self
 {
 Value
@@ -1308,7 +1277,6 @@ Value
 :
 Number
 (
-ref
 n
 )
 =

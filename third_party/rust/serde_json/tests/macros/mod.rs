@@ -1,3 +1,11 @@
+#
+!
+[
+allow
+(
+unused_macro_rules
+)
+]
 macro_rules
 !
 json_str

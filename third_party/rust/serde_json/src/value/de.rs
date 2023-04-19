@@ -4006,7 +4006,6 @@ de
 >
 {
 match
-*
 self
 {
 Value
@@ -4014,7 +4013,6 @@ Value
 :
 Number
 (
-ref
 n
 )
 =
@@ -4082,7 +4080,6 @@ de
 >
 {
 match
-*
 self
 {
 Value
@@ -4090,7 +4087,6 @@ Value
 :
 Number
 (
-ref
 n
 )
 =
@@ -4422,7 +4418,6 @@ de
 >
 {
 match
-*
 self
 {
 Value
@@ -4449,6 +4444,7 @@ visitor
 .
 visit_bool
 (
+*
 v
 )
 Value
@@ -4456,7 +4452,6 @@ Value
 :
 Number
 (
-ref
 n
 )
 =
@@ -4472,7 +4467,6 @@ Value
 :
 String
 (
-ref
 v
 )
 =
@@ -4488,7 +4482,6 @@ Value
 :
 Array
 (
-ref
 v
 )
 =
@@ -4503,7 +4496,6 @@ Value
 :
 Object
 (
-ref
 v
 )
 =
@@ -4699,7 +4691,6 @@ value
 )
 =
 match
-*
 self
 {
 Value
@@ -4707,7 +4698,6 @@ Value
 :
 Object
 (
-ref
 value
 )
 =
@@ -4833,7 +4823,6 @@ Value
 :
 String
 (
-ref
 variant
 )
 =
@@ -4842,7 +4831,6 @@ variant
 variant
 None
 )
-ref
 other
 =
 >
@@ -5125,7 +5113,6 @@ de
 >
 {
 match
-*
 self
 {
 Value
@@ -5133,7 +5120,6 @@ Value
 :
 String
 (
-ref
 v
 )
 =
@@ -5227,7 +5213,6 @@ de
 >
 {
 match
-*
 self
 {
 Value
@@ -5235,7 +5220,6 @@ Value
 :
 String
 (
-ref
 v
 )
 =
@@ -5251,7 +5235,6 @@ Value
 :
 Array
 (
-ref
 v
 )
 =
@@ -5447,7 +5430,6 @@ de
 >
 {
 match
-*
 self
 {
 Value
@@ -5455,7 +5437,6 @@ Value
 :
 Array
 (
-ref
 v
 )
 =
@@ -5597,7 +5578,6 @@ de
 >
 {
 match
-*
 self
 {
 Value
@@ -5605,7 +5585,6 @@ Value
 :
 Object
 (
-ref
 v
 )
 =
@@ -5678,7 +5657,6 @@ de
 >
 {
 match
-*
 self
 {
 Value
@@ -5686,7 +5664,6 @@ Value
 :
 Array
 (
-ref
 v
 )
 =
@@ -5701,7 +5678,6 @@ Value
 :
 Object
 (
-ref
 v
 )
 =
@@ -7816,7 +7792,6 @@ self
 Unexpected
 {
 match
-*
 self
 {
 Value
@@ -7843,6 +7818,7 @@ Unexpected
 :
 Bool
 (
+*
 b
 )
 Value
@@ -7850,7 +7826,6 @@ Value
 :
 Number
 (
-ref
 n
 )
 =
@@ -7865,7 +7840,6 @@ Value
 :
 String
 (
-ref
 s
 )
 =

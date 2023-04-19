@@ -163,7 +163,6 @@ serde
 Serializer
 {
 match
-*
 self
 {
 Value
@@ -190,6 +189,7 @@ serializer
 .
 serialize_bool
 (
+*
 b
 )
 Value
@@ -197,7 +197,6 @@ Value
 :
 Number
 (
-ref
 n
 )
 =
@@ -213,7 +212,6 @@ Value
 :
 String
 (
-ref
 s
 )
 =
@@ -229,7 +227,6 @@ Value
 :
 Array
 (
-ref
 v
 )
 =
@@ -264,7 +261,6 @@ Value
 :
 Object
 (
-ref
 m
 )
 =
@@ -2200,7 +2196,6 @@ Sized
 Serialize
 {
 match
-*
 self
 {
 SerializeMap
@@ -2208,8 +2203,6 @@ SerializeMap
 :
 Map
 {
-ref
-mut
 next_key
 .
 .
@@ -2322,7 +2315,6 @@ Sized
 Serialize
 {
 match
-*
 self
 {
 SerializeMap
@@ -2330,11 +2322,7 @@ SerializeMap
 :
 Map
 {
-ref
-mut
 map
-ref
-mut
 next_key
 }
 =
@@ -3531,7 +3519,6 @@ Sized
 Serialize
 {
 match
-*
 self
 {
 SerializeMap
@@ -3575,8 +3562,6 @@ SerializeMap
 :
 Number
 {
-ref
-mut
 out_value
 }
 =
@@ -3640,8 +3625,6 @@ SerializeMap
 :
 RawValue
 {
-ref
-mut
 out_value
 }
 =

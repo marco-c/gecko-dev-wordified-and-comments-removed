@@ -21,7 +21,15 @@ allow
 clippy
 :
 :
+assertions_on_result_states
+clippy
+:
+:
 cast_precision_loss
+clippy
+:
+:
+derive_partial_eq_without_eq
 clippy
 :
 :

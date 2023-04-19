@@ -3056,7 +3056,6 @@ Sized
 Serialize
 {
 match
-*
 self
 {
 Compound
@@ -3064,11 +3063,7 @@ Compound
 :
 Map
 {
-ref
-mut
 ser
-ref
-mut
 state
 }
 =
@@ -3912,7 +3907,6 @@ Sized
 Serialize
 {
 match
-*
 self
 {
 Compound
@@ -3920,11 +3914,7 @@ Compound
 :
 Map
 {
-ref
-mut
 ser
-ref
-mut
 state
 }
 =
@@ -4105,7 +4095,6 @@ Sized
 Serialize
 {
 match
-*
 self
 {
 Compound
@@ -4113,8 +4102,6 @@ Compound
 :
 Map
 {
-ref
-mut
 ser
 .
 .
@@ -4455,7 +4442,6 @@ Sized
 Serialize
 {
 match
-*
 self
 {
 Compound
@@ -4496,8 +4482,6 @@ Compound
 :
 Number
 {
-ref
-mut
 ser
 .
 .
@@ -4563,8 +4547,6 @@ Compound
 :
 RawValue
 {
-ref
-mut
 ser
 .
 .

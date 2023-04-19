@@ -20,7 +20,7 @@ serde_json
 .
 0
 .
-81
+83
 "
 )
 ]
@@ -49,6 +49,10 @@ clippy
 :
 :
 excessive_precision
+clippy
+:
+:
+explicit_auto_deref
 clippy
 :
 :

@@ -2710,7 +2710,6 @@ self
 String
 {
 match
-*
 self
 {
 Entry
@@ -2718,7 +2717,6 @@ Entry
 :
 Vacant
 (
-ref
 e
 )
 =
@@ -2733,7 +2731,6 @@ Entry
 :
 Occupied
 (
-ref
 e
 )
 =

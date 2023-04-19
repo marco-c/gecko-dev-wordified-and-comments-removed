@@ -123,7 +123,7 @@ version
 .
 0
 .
-81
+83
 "
 authors
 =
@@ -201,6 +201,16 @@ categories
 [
 "
 encoding
+"
+"
+parser
+-
+implementations
+"
+"
+no
+-
+std
 "
 ]
 license
