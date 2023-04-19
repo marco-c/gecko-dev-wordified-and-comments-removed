@@ -2584,6 +2584,14 @@ return
 mouse_cursor_position_
 ;
 }
+RTC_NO_SANITIZE
+(
+"
+cfi
+-
+icall
+"
+)
 void
 SharedScreenCastStreamPrivate
 :
