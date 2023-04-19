@@ -63,6 +63,11 @@ thread_
 &
 vss_
 )
+socket_factory_
+(
+&
+vss_
+)
 {
 }
 void
