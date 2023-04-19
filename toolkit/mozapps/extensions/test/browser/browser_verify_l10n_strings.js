@@ -1,6 +1,6 @@
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -16,7 +16,9 @@ modules
 /
 BuiltInThemes
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

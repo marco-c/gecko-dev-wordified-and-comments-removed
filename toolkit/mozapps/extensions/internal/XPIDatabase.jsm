@@ -367,7 +367,7 @@ BuiltInThemes
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -379,7 +379,9 @@ modules
 /
 BuiltInThemes
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -401,7 +403,9 @@ to
 load
 BuiltInThemes
 .
-jsm
+sys
+.
+mjs
 :
 {
 e
