@@ -48,6 +48,11 @@ port
 .
 h
 "
+GTEST_DISABLE_MSC_WARNINGS_PUSH_
+(
+4251
+\
+)
 namespace
 testing
 {
@@ -416,5 +421,8 @@ msg
 )
 ;
 }
+GTEST_DISABLE_MSC_WARNINGS_POP_
+(
+)
 #
 endif

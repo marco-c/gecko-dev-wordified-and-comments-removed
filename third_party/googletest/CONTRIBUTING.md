@@ -210,7 +210,7 @@ to
 submit
 an
 internal
-change
+contribution
 rather
 than
 a
@@ -225,9 +225,7 @@ not
 able
 to
 submit
-an
-internal
-change
+internally
 a
 PR
 is
