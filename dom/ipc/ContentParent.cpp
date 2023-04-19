@@ -17385,7 +17385,6 @@ aRequestingPrincipal
 aContentPolicyType
 true
 trans
-this
 )
 ;
 NS_ENSURE_SUCCESS
@@ -17871,7 +17870,13 @@ failed
 }
 aResolver
 (
+std
+:
+:
+move
+(
 ipcDataTransfer
+)
 )
 ;
 return
@@ -27365,7 +27370,13 @@ Unused
 SendInvokeDragSession
 (
 sourceWC
+std
+:
+:
+move
+(
 dataTransfers
+)
 action
 )
 ;
