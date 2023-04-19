@@ -61,6 +61,12 @@ absl
 gni
 "
 )
+if
+(
+!
+moz_webrtc_build
+)
+{
 absl_source_set
 (
 "
@@ -275,6 +281,7 @@ visibility
 "
 ]
 }
+}
 absl_source_set
 (
 "
@@ -333,6 +340,7 @@ base
 :
 core_headers
 "
+#
 "
 /
 /
@@ -724,6 +732,12 @@ utility
 "
 ]
 }
+if
+(
+!
+moz_webrtc_build
+)
+{
 absl_source_set
 (
 "
@@ -1004,4 +1018,5 @@ googletest
 gmock
 "
 ]
+}
 }

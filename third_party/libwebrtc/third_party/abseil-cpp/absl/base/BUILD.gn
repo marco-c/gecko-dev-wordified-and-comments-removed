@@ -97,6 +97,12 @@ absl
 "
 ]
 }
+if
+(
+!
+moz_webrtc_build
+)
+{
 absl_source_set
 (
 "
@@ -140,6 +146,7 @@ absl
 *
 "
 ]
+}
 }
 absl_source_set
 (
@@ -246,6 +253,12 @@ absl
 "
 ]
 }
+if
+(
+!
+moz_webrtc_build
+)
+{
 absl_source_set
 (
 "
@@ -339,6 +352,7 @@ base
 "
 ]
 }
+}
 absl_source_set
 (
 "
@@ -366,6 +380,12 @@ h
 "
 ]
 }
+if
+(
+!
+moz_webrtc_build
+)
+{
 absl_source_set
 (
 "
@@ -441,6 +461,7 @@ core_headers
 "
 ]
 }
+}
 absl_source_set
 (
 "
@@ -491,6 +512,12 @@ config
 "
 ]
 }
+if
+(
+!
+moz_webrtc_build
+)
+{
 absl_source_set
 (
 "
@@ -555,6 +582,7 @@ dynamic_annotations
 raw_logging_internal
 "
 ]
+}
 }
 absl_source_set
 (
@@ -643,6 +671,12 @@ absl
 "
 ]
 }
+if
+(
+!
+moz_webrtc_build
+)
+{
 absl_source_set
 (
 "
@@ -1575,6 +1609,11 @@ absl
 "
 ]
 }
+if
+(
+false
+)
+{
 absl_source_set
 (
 "
@@ -1626,4 +1665,6 @@ googletest
 gtest
 "
 ]
+}
+}
 }

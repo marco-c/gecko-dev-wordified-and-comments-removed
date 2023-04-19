@@ -169,6 +169,14 @@ build
 gni
 "
 )
+declare_args
+(
+)
+{
+moz_webrtc_build
+=
+true
+}
 template
 (
 "
