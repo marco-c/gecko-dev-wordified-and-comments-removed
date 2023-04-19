@@ -3328,7 +3328,6 @@ width
 =
 frameWidth
 ;
-}
 this
 .
 _frame
@@ -3339,6 +3338,7 @@ minWidth
 =
 frameMinWidth
 ;
+}
 let
 boxMinWidth
 =
