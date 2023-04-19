@@ -4196,6 +4196,15 @@ js
 :
 MainThreadData
 <
+uint32_t
+>
+moduleAsyncEvaluatingPostOrder
+;
+js
+:
+:
+MainThreadData
+<
 JS
 :
 :

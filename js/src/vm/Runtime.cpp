@@ -815,6 +815,10 @@ mutexid
 :
 WasmRuntimeInstances
 )
+moduleAsyncEvaluatingPostOrder
+(
+ASYNC_EVALUATING_POST_ORDER_INIT
+)
 moduleResolveHook
 (
 )
