@@ -690,6 +690,10 @@ nsCSPScriptSrcDirective
 *
 mScriptSrc
 ;
+nsCSPStyleSrcDirective
+*
+mStyleSrc
+;
 bool
 mParsingFrameAncestorsDir
 ;
