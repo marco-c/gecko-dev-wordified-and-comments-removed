@@ -939,9 +939,8 @@ container
 >
 wl_container
 ;
-g_clear_pointer
+MozClearPointer
 (
-&
 wl_container
 -
 >
@@ -1106,9 +1105,8 @@ wl_container
 container_lock
 )
 ;
-g_clear_pointer
+MozClearPointer
 (
-&
 wl_container
 -
 >
@@ -1586,9 +1584,8 @@ surface
 nullptr
 ;
 }
-g_clear_pointer
+MozClearPointer
 (
-&
 wl_container
 -
 >
@@ -1596,9 +1593,8 @@ eglwindow
 wl_egl_window_destroy
 )
 ;
-g_clear_pointer
+MozClearPointer
 (
-&
 wl_container
 -
 >
@@ -1606,9 +1602,8 @@ subsurface
 wl_subsurface_destroy
 )
 ;
-g_clear_pointer
+MozClearPointer
 (
-&
 wl_container
 -
 >
@@ -1616,9 +1611,8 @@ surface
 wl_surface_destroy
 )
 ;
-g_clear_pointer
+MozClearPointer
 (
-&
 wl_container
 -
 >
@@ -2934,9 +2928,8 @@ wl_container
 subsurface
 )
 {
-g_clear_pointer
+MozClearPointer
 (
-&
 wl_container
 -
 >
@@ -3043,9 +3036,8 @@ wl_container
 frame_callback_handler
 )
 {
-g_clear_pointer
+MozClearPointer
 (
-&
 wl_container
 -
 >
