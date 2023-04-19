@@ -3389,6 +3389,11 @@ WaylandPopupMove
 (
 )
 ;
+void
+WaylandPopupPrepareForMove
+(
+)
+;
 bool
 WaylandPopupRemoveNegativePosition
 (
