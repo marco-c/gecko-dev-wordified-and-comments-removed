@@ -760,12 +760,12 @@ GetWindow
 )
 ;
 bool
-isCallerChrome
+shouldResistFingerprinting
 =
 mWorkerPrivate
 -
 >
-UsesSystemPrincipal
+ShouldResistFingerprinting
 (
 )
 ;
@@ -787,7 +787,10 @@ mWorkerPrivate
 GetDocument
 (
 )
-isCallerChrome
+Some
+(
+shouldResistFingerprinting
+)
 mUA
 )
 ;

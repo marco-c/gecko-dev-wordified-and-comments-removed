@@ -237,7 +237,9 @@ GetUserAgent
 (
 nullptr
 nullptr
-false
+Nothing
+(
+)
 data
 .
 mUserAgent
