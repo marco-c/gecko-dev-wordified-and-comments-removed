@@ -16202,6 +16202,14 @@ operand
 isArgumentsLength
 (
 )
+|
+|
+operand
+-
+>
+isStringLength
+(
+)
 )
 &
 &
