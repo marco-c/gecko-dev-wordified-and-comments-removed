@@ -1,3 +1,5 @@
+add_task
+(
 async
 function
 testSteps
@@ -85,3 +87,5 @@ opaque
 )
 ;
 }
+)
+;

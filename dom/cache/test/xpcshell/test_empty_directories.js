@@ -218,6 +218,8 @@ return
 foundEmpty
 ;
 }
+add_task
+(
 async
 function
 testSteps
@@ -424,3 +426,5 @@ test
 )
 ;
 }
+)
+;

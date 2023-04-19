@@ -1016,14 +1016,6 @@ js
 "
 dom
 /
-cache
-/
-*
-*
-"
-"
-dom
-/
 indexedDB
 /
 *

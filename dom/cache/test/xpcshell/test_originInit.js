@@ -1,3 +1,5 @@
+add_task
+(
 async
 function
 testSteps
@@ -1079,3 +1081,5 @@ testPermanentCacheDir
 )
 ;
 }
+)
+;
