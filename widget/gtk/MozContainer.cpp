@@ -146,7 +146,6 @@ GtkWidget
 widget
 )
 ;
-static
 void
 moz_container_unmap
 (
@@ -511,13 +510,6 @@ widget_class
 map
 =
 moz_container_map
-;
-widget_class
--
->
-unmap
-=
-moz_container_unmap
 ;
 widget_class
 -
