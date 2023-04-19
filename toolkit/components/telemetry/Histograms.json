@@ -6300,9 +6300,6 @@ products
 "
 firefox
 "
-"
-fennec
-"
 ]
 "
 alert_emails
@@ -6382,9 +6379,6 @@ products
 "
 firefox
 "
-"
-fennec
-"
 ]
 "
 alert_emails
@@ -6455,9 +6449,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 "
 geckoview_streaming
@@ -6566,9 +6557,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 ]
 "
@@ -6984,9 +6972,6 @@ products
 "
 firefox
 "
-"
-fennec
-"
 ]
 "
 alert_emails
@@ -7099,9 +7084,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 ]
 "
@@ -7314,9 +7296,6 @@ products
 firefox
 "
 "
-fennec
-"
-"
 geckoview_streaming
 "
 ]
@@ -7405,9 +7384,6 @@ products
 firefox
 "
 "
-fennec
-"
-"
 geckoview_streaming
 "
 ]
@@ -7494,9 +7470,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 "
 geckoview_streaming
@@ -7910,9 +7883,6 @@ products
 firefox
 "
 "
-fennec
-"
-"
 geckoview_streaming
 "
 ]
@@ -7999,9 +7969,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 ]
 "
@@ -8101,9 +8068,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 ]
 "
@@ -8218,9 +8182,6 @@ products
 "
 firefox
 "
-"
-fennec
-"
 ]
 "
 alert_emails
@@ -8307,9 +8268,6 @@ products
 "
 firefox
 "
-"
-fennec
-"
 ]
 "
 alert_emails
@@ -8380,9 +8338,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 ]
 "
@@ -8477,9 +8432,6 @@ products
 "
 firefox
 "
-"
-fennec
-"
 ]
 "
 alert_emails
@@ -8551,9 +8503,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 ]
 "
@@ -8650,9 +8599,6 @@ products
 "
 firefox
 "
-"
-fennec
-"
 ]
 "
 alert_emails
@@ -8732,9 +8678,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 ]
 "
@@ -8822,9 +8765,6 @@ products
 firefox
 "
 "
-fennec
-"
-"
 geckoview_streaming
 "
 ]
@@ -8910,9 +8850,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 ]
 "
@@ -9125,9 +9062,6 @@ products
 "
 firefox
 "
-"
-fennec
-"
 ]
 "
 alert_emails
@@ -9217,9 +9151,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 ]
 "
@@ -9320,9 +9251,6 @@ products
 "
 firefox
 "
-"
-fennec
-"
 ]
 "
 alert_emails
@@ -9422,9 +9350,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 ]
 "
@@ -9638,9 +9563,6 @@ products
 "
 firefox
 "
-"
-fennec
-"
 ]
 "
 alert_emails
@@ -9750,9 +9672,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 ]
 "
@@ -9865,9 +9784,6 @@ products
 "
 firefox
 "
-"
-fennec
-"
 ]
 "
 alert_emails
@@ -9976,9 +9892,6 @@ products
 [
 "
 firefox
-"
-"
-fennec
 "
 ]
 "
