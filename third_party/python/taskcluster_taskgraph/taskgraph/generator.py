@@ -271,12 +271,8 @@ dependencies
         
 kind_dependencies_tasks
 =
-{
+[
             
-task
-.
-label
-:
 task
 for
 task
@@ -289,7 +285,7 @@ kind
 in
 kind_dependencies
         
-}
+]
         
 inputs
 =

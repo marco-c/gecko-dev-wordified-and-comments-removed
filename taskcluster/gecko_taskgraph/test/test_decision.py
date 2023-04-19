@@ -506,25 +506,11 @@ get_hg_revision_branch
 "
 )
     
-patch
-(
-"
-gecko_taskgraph
-.
-decision
-.
-_determine_more_accurate_base_rev
-"
-)
-    
 def
 test_simple_options
 (
-        
 self
-mock_determine_more_accurate_base_rev
 mock_get_hg_revision_branch
-    
 )
 :
         
@@ -534,14 +520,6 @@ return_value
 =
 "
 default
-"
-        
-mock_determine_more_accurate_base_rev
-.
-return_value
-=
-"
-baserev
 "
         
 with
@@ -678,25 +656,11 @@ get_hg_revision_branch
 "
 )
     
-patch
-(
-"
-gecko_taskgraph
-.
-decision
-.
-_determine_more_accurate_base_rev
-"
-)
-    
 def
 test_no_email_owner
 (
-        
 self
-mock_determine_more_accurate_base_rev
 mock_get_hg_revision_branch
-    
 )
 :
         
@@ -706,14 +670,6 @@ return_value
 =
 "
 default
-"
-        
-mock_determine_more_accurate_base_rev
-.
-return_value
-=
-"
-baserev
 "
         
 self
@@ -796,29 +752,12 @@ get_hg_commit_message
 "
 )
     
-patch
-(
-"
-gecko_taskgraph
-.
-decision
-.
-_determine_more_accurate_base_rev
-"
-)
-    
 def
 test_try_options
 (
-        
 self
-        
-mock_determine_more_accurate_base_rev
-        
 mock_get_hg_commit_message
-        
 mock_get_hg_revision_branch
-    
 )
 :
         
@@ -846,14 +785,6 @@ return_value
 =
 "
 default
-"
-        
-mock_determine_more_accurate_base_rev
-.
-return_value
-=
-"
-baserev
 "
         
 self
@@ -1014,28 +945,13 @@ get_hg_commit_message
 "
 )
     
-patch
-(
-"
-gecko_taskgraph
-.
-decision
-.
-_determine_more_accurate_base_rev
-"
-)
-    
 def
 test_try_task_config
 (
         
 self
-        
 mock_get_hg_commit_message
-        
 mock_get_hg_revision_branch
-        
-mock_determine_more_accurate_base_rev
     
 )
 :
@@ -1057,14 +973,6 @@ return_value
 =
 "
 default
-"
-        
-mock_determine_more_accurate_base_rev
-.
-return_value
-=
-"
-baserev
 "
         
 ttc
