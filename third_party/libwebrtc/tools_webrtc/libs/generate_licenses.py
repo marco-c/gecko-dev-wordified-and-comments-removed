@@ -260,7 +260,11 @@ guava
 '
 third_party
 /
-guava
+android_deps
+/
+libs
+/
+com_google_guava_guava
 /
 LICENSE
 '
