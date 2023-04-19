@@ -1868,7 +1868,7 @@ nsIContent
 &
 aRemovedContent
 uint32_t
-aOffsetOfJoinedContent
+aExOffsetOfRightContent
 JoinNodesDirection
 aJoinNodesDirection
 )
@@ -1941,7 +1941,7 @@ if
 (
 aOffset
 >
-aOffsetOfJoinedContent
+aExOffsetOfRightContent
 )
 {
 aOffset
@@ -1955,7 +1955,7 @@ if
 aOffset
 =
 =
-aOffsetOfJoinedContent
+aExOffsetOfRightContent
 )
 {
 aContainer
