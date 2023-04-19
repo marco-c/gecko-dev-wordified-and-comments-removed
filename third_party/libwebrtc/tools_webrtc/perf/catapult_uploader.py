@@ -148,11 +148,31 @@ read
 )
 )
 def
+_CreateHeaders
+(
+oauth_token
+)
+:
+    
+return
+{
+'
+Authorization
+'
+:
+'
+Bearer
+%
+s
+'
+%
+oauth_token
+}
+def
 _SendHistogramSet
 (
 url
 histograms
-oauth_token
 )
 :
     
@@ -215,17 +235,6 @@ to
 be
 sent
 .
-      
-oauth_token
-:
-An
-oauth
-token
-to
-use
-for
-authorization
-.
     
 "
 "
@@ -233,19 +242,12 @@ authorization
     
 headers
 =
-{
-'
-Authorization
-'
-:
-'
-Bearer
-%
-s
-'
-%
-oauth_token
-}
+_CreateHeaders
+(
+_GenerateOauthToken
+(
+)
+)
     
 serialized
 =
@@ -366,7 +368,6 @@ def
 _WaitForUploadConfirmation
 (
 url
-oauth_token
 upload_token
 wait_timeout
                                
@@ -425,17 +426,6 @@ appspot
 .
 com
 "
-.
-      
-oauth_token
-:
-An
-oauth
-token
-to
-use
-for
-authorization
 .
       
 upload_token
@@ -505,19 +495,12 @@ wait_timeout
     
 headers
 =
-{
-'
-Authorization
-'
-:
-'
-Bearer
-%
-s
-'
-%
-oauth_token
-}
+_CreateHeaders
+(
+_GenerateOauthToken
+(
+)
+)
     
 http
 =
@@ -526,6 +509,10 @@ httplib2
 Http
 (
 )
+    
+oauth_refreshed
+=
+False
     
 response
 =
@@ -655,6 +642,44 @@ r
 content
         
 if
+not
+oauth_refreshed
+and
+response
+.
+status
+=
+=
+403
+:
+            
+print
+'
+Oauth
+token
+refreshed
+.
+Continue
+polling
+.
+'
+            
+headers
+=
+_CreateHeaders
+(
+_GenerateOauthToken
+(
+)
+)
+            
+oauth_refreshed
+=
+True
+            
+continue
+        
+if
 response
 .
 status
@@ -709,7 +734,6 @@ def
 _CheckFullUploadInfo
 (
 url
-oauth_token
 upload_token
                          
 min_measurements_amount
@@ -789,17 +813,6 @@ com
 "
 .
       
-oauth_token
-:
-An
-oauth
-token
-to
-use
-for
-authorization
-.
-      
 upload_token
 :
 String
@@ -857,19 +870,12 @@ tolerate
     
 headers
 =
-{
-'
-Authorization
-'
-:
-'
-Bearer
-%
-s
-'
-%
-oauth_token
-}
+_CreateHeaders
+(
+_GenerateOauthToken
+(
+)
+)
     
 http
 =
@@ -1352,23 +1358,15 @@ options
 output_json_file
 )
     
-oauth_token
-=
-_GenerateOauthToken
-(
-)
-    
 response
 content
 =
 _SendHistogramSet
 (
-        
 options
 .
 dashboard_url
 histograms
-oauth_token
 )
     
 upload_token
@@ -1476,8 +1474,6 @@ options
 .
 dashboard_url
         
-oauth_token
-        
 upload_token
         
 datetime
@@ -1527,7 +1523,6 @@ _CheckFullUploadInfo
 options
 .
 dashboard_url
-oauth_token
 upload_token
 )
 )
