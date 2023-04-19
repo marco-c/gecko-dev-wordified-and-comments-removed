@@ -1806,8 +1806,6 @@ nsIFrame
 aFrame
 nsIntPoint
 aPoint
-bool
-aByMoveToRect
 )
 ;
 void
