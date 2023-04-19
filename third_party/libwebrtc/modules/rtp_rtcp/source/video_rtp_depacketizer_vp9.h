@@ -95,6 +95,7 @@ VideoRtpDepacketizerVp9
 operator
 =
 (
+const
 VideoRtpDepacketizerVp9
 &
 )
