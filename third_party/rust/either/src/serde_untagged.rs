@@ -13,7 +13,13 @@ Serializer
 [
 derive
 (
+serde
+:
+:
 Serialize
+serde
+:
+:
 Deserialize
 )
 ]
@@ -94,7 +100,6 @@ untagged
 match
 this
 {
-&
 super
 :
 :
@@ -103,7 +108,6 @@ Either
 :
 Left
 (
-ref
 left
 )
 =
@@ -115,7 +119,6 @@ Left
 (
 left
 )
-&
 super
 :
 :
@@ -124,7 +127,6 @@ Either
 :
 Right
 (
-ref
 right
 )
 =

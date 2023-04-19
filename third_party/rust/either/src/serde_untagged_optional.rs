@@ -97,7 +97,6 @@ untagged
 match
 this
 {
-&
 Some
 (
 super
@@ -108,7 +107,6 @@ Either
 :
 Left
 (
-ref
 left
 )
 )
@@ -124,7 +122,6 @@ Left
 left
 )
 )
-&
 Some
 (
 super
@@ -135,7 +132,6 @@ Either
 :
 Right
 (
-ref
 right
 )
 )
@@ -151,7 +147,6 @@ Right
 right
 )
 )
-&
 None
 =
 >
