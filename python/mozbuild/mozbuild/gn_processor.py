@@ -1224,24 +1224,11 @@ target_cpu
 }
     
 if
-input_vars
-[
 "
-target_os
+use_x11
 "
-]
 in
-(
-"
-linux
-"
-"
-android
-"
-"
-openbsd
-"
-)
+input_vars
 :
         
 mozbuild_args
@@ -1256,13 +1243,11 @@ MOZ_X11
 "
 if
 input_vars
-.
-get
-(
+[
 "
 use_x11
 "
-)
+]
 else
 None
     
