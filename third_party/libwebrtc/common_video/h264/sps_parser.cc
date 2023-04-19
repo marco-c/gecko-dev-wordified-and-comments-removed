@@ -248,7 +248,6 @@ buffer
 >
 ReadUInt8
 (
-&
 profile_idc
 )
 )
@@ -282,7 +281,6 @@ buffer
 >
 ReadExponentialGolomb
 (
-&
 sps
 .
 id
@@ -376,7 +374,6 @@ buffer
 >
 ReadExponentialGolomb
 (
-&
 chroma_format_idc
 )
 )
@@ -396,11 +393,10 @@ buffer
 >
 ReadBits
 (
-&
+1
 sps
 .
 separate_colour_plane_flag
-1
 )
 )
 ;
@@ -412,7 +408,6 @@ buffer
 >
 ReadExponentialGolomb
 (
-&
 golomb_ignored
 )
 )
@@ -424,7 +419,6 @@ buffer
 >
 ReadExponentialGolomb
 (
-&
 golomb_ignored
 )
 )
@@ -450,9 +444,8 @@ buffer
 >
 ReadBits
 (
-&
-seq_scaling_matrix_present_flag
 1
+seq_scaling_matrix_present_flag
 )
 )
 ;
@@ -501,9 +494,8 @@ buffer
 >
 ReadBits
 (
-&
-seq_scaling_list_present_flags
 1
+seq_scaling_list_present_flags
 )
 )
 ;
@@ -570,7 +562,6 @@ buffer
 >
 ReadSignedExponentialGolomb
 (
-&
 delta_scale
 )
 )
@@ -637,7 +628,6 @@ buffer
 >
 ReadExponentialGolomb
 (
-&
 log2_max_frame_num_minus4
 )
 |
@@ -668,7 +658,6 @@ buffer
 >
 ReadExponentialGolomb
 (
-&
 sps
 .
 pic_order_cnt_type
@@ -696,7 +685,6 @@ buffer
 >
 ReadExponentialGolomb
 (
-&
 log2_max_pic_order_cnt_lsb_minus4
 )
 |
@@ -739,11 +727,10 @@ buffer
 >
 ReadBits
 (
-&
+1
 sps
 .
 delta_pic_order_always_zero_flag
-1
 )
 )
 ;
@@ -754,7 +741,6 @@ buffer
 >
 ReadExponentialGolomb
 (
-&
 golomb_ignored
 )
 )
@@ -766,7 +752,6 @@ buffer
 >
 ReadExponentialGolomb
 (
-&
 golomb_ignored
 )
 )
@@ -781,7 +766,6 @@ buffer
 >
 ReadExponentialGolomb
 (
-&
 num_ref_frames_in_pic_order_cnt_cycle
 )
 )
@@ -809,7 +793,6 @@ buffer
 >
 ReadExponentialGolomb
 (
-&
 golomb_ignored
 )
 )
@@ -823,7 +806,6 @@ buffer
 >
 ReadExponentialGolomb
 (
-&
 sps
 .
 max_num_ref_frames
@@ -851,7 +833,6 @@ buffer
 >
 ReadExponentialGolomb
 (
-&
 pic_width_in_mbs_minus1
 )
 )
@@ -866,7 +847,6 @@ buffer
 >
 ReadExponentialGolomb
 (
-&
 pic_height_in_map_units_minus1
 )
 )
@@ -878,11 +858,10 @@ buffer
 >
 ReadBits
 (
-&
+1
 sps
 .
 frame_mbs_only_flag
-1
 )
 )
 ;
@@ -947,9 +926,8 @@ buffer
 >
 ReadBits
 (
-&
-frame_cropping_flag
 1
+frame_cropping_flag
 )
 )
 ;
@@ -965,7 +943,6 @@ buffer
 >
 ReadExponentialGolomb
 (
-&
 frame_crop_left_offset
 )
 )
@@ -977,7 +954,6 @@ buffer
 >
 ReadExponentialGolomb
 (
-&
 frame_crop_right_offset
 )
 )
@@ -989,7 +965,6 @@ buffer
 >
 ReadExponentialGolomb
 (
-&
 frame_crop_top_offset
 )
 )
@@ -1001,7 +976,6 @@ buffer
 >
 ReadExponentialGolomb
 (
-&
 frame_crop_bottom_offset
 )
 )
@@ -1014,11 +988,10 @@ buffer
 >
 ReadBits
 (
-&
+1
 sps
 .
 vui_params_present
-1
 )
 )
 ;
