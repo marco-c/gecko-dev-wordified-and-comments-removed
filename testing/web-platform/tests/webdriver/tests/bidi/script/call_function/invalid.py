@@ -38,6 +38,9 @@ target
 [
 None
 False
+"
+foo
+"
 42
 {
 }
