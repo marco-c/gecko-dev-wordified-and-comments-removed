@@ -5707,6 +5707,10 @@ LOAD_FLAGS_FIRST_LOAD
 if
 (
 aForceNoOpener
+&
+&
+!
+windowTypeIsChrome
 )
 {
 loadFlags
