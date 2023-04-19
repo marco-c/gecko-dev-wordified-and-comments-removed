@@ -242,6 +242,10 @@ has_data
 &
 \
 (
+(
+void
+)
+(
 position
 &
 &
@@ -272,6 +276,7 @@ metrics_tag
 )
 )
 )
+)
 true
 )
 )
@@ -298,6 +303,10 @@ has_data
 &
 &
 \
+(
+(
+void
+)
 (
 position
 &
@@ -326,6 +335,7 @@ ATTR
 +
 GET_VAR
 metrics_tag
+)
 )
 )
 )
@@ -807,6 +817,10 @@ has_data
 &
 \
 (
+(
+void
+)
+(
 position
 &
 &
@@ -830,6 +844,7 @@ TABLE
 ATTR
 +
 GET_VAR
+)
 )
 )
 true
@@ -859,6 +874,10 @@ has_data
 &
 \
 (
+(
+void
+)
+(
 position
 &
 &
@@ -882,6 +901,7 @@ TABLE
 ATTR
 +
 GET_VAR
+)
 )
 )
 true
