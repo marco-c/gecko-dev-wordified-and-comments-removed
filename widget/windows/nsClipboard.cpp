@@ -296,10 +296,6 @@ nsBaseClipboard
 (
 )
 {
-mIgnoreEmptyNotification
-=
-false
-;
 mWindow
 =
 nullptr
@@ -2011,10 +2007,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-mIgnoreEmptyNotification
-=
-true
-;
 if
 (
 nullptr
@@ -2066,10 +2058,6 @@ nullptr
 )
 ;
 }
-mIgnoreEmptyNotification
-=
-false
-;
 return
 NS_OK
 ;

@@ -135,9 +135,6 @@ aWhichClipboard
 bool
 mEmptyingForSetData
 ;
-bool
-mIgnoreEmptyNotification
-;
 nsCOMPtr
 <
 nsIClipboardOwner
@@ -149,6 +146,13 @@ nsCOMPtr
 nsITransferable
 >
 mTransferable
+;
+private
+:
+bool
+mIgnoreEmptyNotification
+=
+false
 ;
 }
 ;

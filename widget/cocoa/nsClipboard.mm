@@ -556,10 +556,6 @@ mTransferable
 return
 NS_ERROR_FAILURE
 ;
-mIgnoreEmptyNotification
-=
-true
-;
 NSDictionary
 *
 pasteboardOutputDict
@@ -906,10 +902,6 @@ mChangeCount
 cocoaPasteboard
 changeCount
 ]
-;
-mIgnoreEmptyNotification
-=
-false
 ;
 return
 NS_OK
