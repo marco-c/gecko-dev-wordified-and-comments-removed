@@ -1806,7 +1806,7 @@ v10
 .
 rtc_enable_win_wgc
 =
-is_win
+false
 }
 if
 (
