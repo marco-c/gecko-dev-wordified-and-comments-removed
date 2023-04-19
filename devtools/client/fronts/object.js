@@ -521,6 +521,9 @@ Storage
 "
 URLSearchParams
 "
+"
+FormData
+"
 ]
 .
 includes
