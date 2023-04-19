@@ -23,6 +23,11 @@ xpctest_cenums
 cpp
 "
 "
+xpctest_esmreturncode
+.
+cpp
+"
+"
 xpctest_module
 .
 cpp
