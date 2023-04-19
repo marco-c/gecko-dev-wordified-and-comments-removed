@@ -1917,8 +1917,6 @@ desktop_perf_tests
 '
 Perf
 Mac
-10
-.
 11
 '
 :
@@ -1936,7 +1934,7 @@ mixins
 :
 [
 '
-mac
+mac11
 '
 '
 x86

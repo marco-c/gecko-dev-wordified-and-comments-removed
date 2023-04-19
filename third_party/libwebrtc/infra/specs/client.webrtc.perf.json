@@ -2037,8 +2037,6 @@ webrtc_perf_tests
 "
 Perf
 Mac
-10
-.
 11
 "
 :
@@ -2186,6 +2184,8 @@ os
 :
 "
 Mac
+-
+11
 "
 "
 pool
@@ -2378,6 +2378,8 @@ os
 :
 "
 Mac
+-
+11
 "
 "
 pool

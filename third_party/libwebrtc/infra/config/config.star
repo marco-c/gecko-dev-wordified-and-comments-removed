@@ -5633,8 +5633,6 @@ perf_builder
 "
 Perf
 Mac
-10
-.
 11
 "
 "
@@ -5644,8 +5642,6 @@ x64
 |
 Tester
 |
-10
-.
 11
 "
 triggered_by
