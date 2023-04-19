@@ -22908,6 +22908,11 @@ SmoothMsdScrollTo
 CSSSnapTarget
 {
 destination
+scrollUpdate
+.
+GetSnapTargetIds
+(
+)
 }
 scrollUpdate
 .
