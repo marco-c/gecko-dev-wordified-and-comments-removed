@@ -350,7 +350,7 @@ strictEqual
 messages
 .
 length
-16
+17
 "
 PanelTestProvider
 should
@@ -642,13 +642,13 @@ pb_newtab
 )
 .
 length
-1
+2
 "
 There
-is
-one
+are
+two
 pb_newtab
-message
+messages
 "
 )
 ;
