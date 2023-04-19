@@ -660,10 +660,6 @@ end_of_picture
 =
 info
 .
-codecSpecific
-.
-VP9
-.
 end_of_picture
 ;
 return

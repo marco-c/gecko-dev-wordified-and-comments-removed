@@ -17088,10 +17088,6 @@ kVideoCodecVP9
 ;
 codec_info
 .
-codecSpecific
-.
-VP9
-.
 end_of_picture
 =
 false
@@ -17177,10 +17173,6 @@ kEncodedHeight
 ;
 codec_info
 .
-codecSpecific
-.
-VP9
-.
 end_of_picture
 =
 true
@@ -17261,10 +17253,6 @@ _encodedHeight
 kEncodedHeight
 ;
 codec_info
-.
-codecSpecific
-.
-VP9
 .
 end_of_picture
 =

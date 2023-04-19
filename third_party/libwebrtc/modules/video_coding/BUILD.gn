@@ -1737,6 +1737,17 @@ generic_frame_descriptor
 .
 /
 rtc_base
+:
+deprecation
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
 /
 system
 :

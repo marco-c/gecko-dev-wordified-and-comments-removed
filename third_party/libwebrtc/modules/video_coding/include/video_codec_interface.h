@@ -127,6 +127,15 @@ include
 "
 rtc_base
 /
+deprecation
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 system
 /
 rtc_export
@@ -260,6 +269,7 @@ p_diff
 kMaxVp9RefPics
 ]
 ;
+RTC_DEPRECATED
 bool
 end_of_picture
 ;
@@ -369,6 +379,11 @@ codecType
 ;
 CodecSpecificInfoUnion
 codecSpecific
+;
+bool
+end_of_picture
+=
+true
 ;
 absl
 :

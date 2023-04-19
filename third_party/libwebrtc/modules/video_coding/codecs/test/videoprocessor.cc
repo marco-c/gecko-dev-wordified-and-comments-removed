@@ -2356,11 +2356,6 @@ encoded_image
 .
 qp_
 ;
-bool
-end_of_picture
-=
-false
-;
 if
 (
 codec_type
@@ -2397,12 +2392,6 @@ non_ref_for_inter_layer_pred
 vp9_info
 .
 non_ref_for_inter_layer_pred
-;
-end_of_picture
-=
-vp9_info
-.
-end_of_picture
 ;
 }
 else
@@ -2488,6 +2477,8 @@ spatial_idx
 ;
 if
 (
+codec_specific
+.
 end_of_picture
 &
 &
