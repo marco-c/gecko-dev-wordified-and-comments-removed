@@ -2323,10 +2323,13 @@ visibility
 =
 [
 "
-:
 *
 "
 ]
+#
+Used
+by
+Chrome
 }
 rtc_source_set
 (
