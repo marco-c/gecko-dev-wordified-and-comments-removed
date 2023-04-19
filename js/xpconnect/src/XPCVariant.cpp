@@ -2186,9 +2186,12 @@ false
 }
 pJSVal
 .
-setNumber
+set
+(
+JS_NumberValue
 (
 d
+)
 )
 ;
 return

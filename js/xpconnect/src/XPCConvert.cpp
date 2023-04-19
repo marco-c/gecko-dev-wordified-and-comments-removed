@@ -659,7 +659,9 @@ T_DOUBLE
 :
 d
 .
-setNumber
+set
+(
+JS_NumberValue
 (
 *
 static_cast
@@ -670,6 +672,7 @@ double
 >
 (
 s
+)
 )
 )
 ;
