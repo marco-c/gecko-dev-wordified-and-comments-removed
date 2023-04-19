@@ -273,10 +273,10 @@ usbProductId
 dictionary
 SerialOptions
 {
-required
 [
 EnforceRange
 ]
+required
 unsigned
 long
 baudRate

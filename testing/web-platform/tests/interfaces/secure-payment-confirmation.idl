@@ -116,7 +116,7 @@ for
 authentication
 .
 USVString
-rp
+rpId
 ;
 USVString
 topOrigin
@@ -151,7 +151,7 @@ CollectedClientAdditionalPaymentData
 {
 required
 USVString
-rp
+rpId
 ;
 required
 USVString

@@ -66,8 +66,8 @@ MediaStream
 getDisplayMedia
 (
 optional
-DisplayMediaStreamConstraints
-constraints
+DisplayMediaStreamOptions
+options
 =
 {
 }
@@ -109,7 +109,7 @@ exclude
 }
 ;
 dictionary
-DisplayMediaStreamConstraints
+DisplayMediaStreamOptions
 {
 (
 boolean
