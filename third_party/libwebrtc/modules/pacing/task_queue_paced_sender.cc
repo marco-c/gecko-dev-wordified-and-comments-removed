@@ -661,6 +661,17 @@ packet
 packets_
 )
 {
+RTC_DCHECK_GE
+(
+packet
+-
+>
+capture_time_ms
+(
+)
+0
+)
+;
 pacing_controller_
 .
 EnqueuePacket
