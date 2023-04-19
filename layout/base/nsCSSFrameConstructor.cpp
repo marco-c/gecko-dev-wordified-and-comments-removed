@@ -6379,6 +6379,16 @@ const
 aFrame
 )
 {
+if
+(
+aState
+.
+mAutoPageNameValue
+)
+{
+return
+;
+}
 for
 (
 const
