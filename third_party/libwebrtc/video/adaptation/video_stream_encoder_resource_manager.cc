@@ -2577,7 +2577,7 @@ video_codec
 .
 maxBitrate
 )
-LastInputFrameSizeOrDefault
+LastFrameSizeOrDefault
 (
 )
 )
@@ -2878,7 +2878,7 @@ GetVideoCodecTypeOrGeneric
 (
 encoder_settings_
 )
-LastInputFrameSizeOrDefault
+LastFrameSizeOrDefault
 (
 )
 )
@@ -3048,7 +3048,7 @@ int
 VideoStreamEncoderResourceManager
 :
 :
-LastInputFrameSizeOrDefault
+LastFrameSizeOrDefault
 (
 )
 const
@@ -3066,6 +3066,19 @@ InputState
 (
 )
 .
+single_active_stream_pixels
+(
+)
+.
+value_or
+(
+input_state_provider_
+-
+>
+InputState
+(
+)
+.
 frame_size_pixels
 (
 )
@@ -3075,6 +3088,7 @@ value_or
 kDefaultInputPixelsWidth
 *
 kDefaultInputPixelsHeight
+)
 )
 ;
 }

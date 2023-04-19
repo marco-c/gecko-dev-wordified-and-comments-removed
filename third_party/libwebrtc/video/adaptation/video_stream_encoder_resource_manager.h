@@ -740,7 +740,7 @@ GetCpuOveruseOptions
 const
 ;
 int
-LastInputFrameSizeOrDefault
+LastFrameSizeOrDefault
 (
 )
 const
