@@ -991,6 +991,11 @@ packet
 )
 ;
 void
+MaybeSendResetStreamsRequest
+(
+)
+;
+void
 SendInit
 (
 )
