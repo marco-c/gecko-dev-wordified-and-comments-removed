@@ -35,6 +35,17 @@ endif
 #
 include
 "
+absl
+/
+base
+/
+attributes
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 thread_annotations
@@ -142,7 +153,7 @@ mutex_
 )
 ;
 }
-RTC_WARN_UNUSED_RESULT
+ABSL_MUST_USE_RESULT
 bool
 TryLock
 (
