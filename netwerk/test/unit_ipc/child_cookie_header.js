@@ -46,7 +46,7 @@ PROCESS_TYPE_DEFAULT
 ;
 }
 let
-URL
+uri
 =
 null
 ;
@@ -62,8 +62,6 @@ newChannel
 (
 {
 uri
-:
-URL
 loadUsingSystemPrincipal
 :
 true
@@ -172,7 +170,7 @@ test
 "
 )
 ;
-URL
+uri
 =
 await
 do_await_remote_message

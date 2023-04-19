@@ -299,9 +299,6 @@ var
 nextTest
 ;
 var
-origin
-;
-var
 nextPortExpectedToBeSame
 =
 false

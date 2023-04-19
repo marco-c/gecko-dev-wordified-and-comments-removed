@@ -298,9 +298,6 @@ nsIHttpChannel
 )
 ;
 }
-let
-origin
-;
 var
 nextTest
 ;

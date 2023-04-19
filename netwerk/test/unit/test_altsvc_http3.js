@@ -1051,9 +1051,6 @@ nsIHttpChannel
 ;
 }
 var
-origin
-;
-var
 xaltsvc
 ;
 var
