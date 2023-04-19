@@ -1401,7 +1401,7 @@ worker_thread
 0
 ;
 RtpHeaderExtensions
-GetDeduplicatedRtpHeaderExtensions
+GetFilteredRtpHeaderExtensions
 (
 const
 RtpHeaderExtensions

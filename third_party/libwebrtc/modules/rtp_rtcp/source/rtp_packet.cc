@@ -122,12 +122,6 @@ kTwoByteExtensionProfileId
 0x1000
 ;
 constexpr
-uint16_t
-kTwobyteExtensionProfileIdAppBitsFilter
-=
-0xfff0
-;
-constexpr
 size_t
 kOneByteExtensionHeaderLength
 =
@@ -2869,11 +2863,7 @@ profile
 kOneByteExtensionProfileId
 &
 &
-(
 profile
-&
-kTwobyteExtensionProfileIdAppBitsFilter
-)
 !
 =
 kTwoByteExtensionProfileId
