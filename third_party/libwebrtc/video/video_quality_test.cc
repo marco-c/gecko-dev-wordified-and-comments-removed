@@ -5854,12 +5854,6 @@ false
 ;
 vp8_settings
 .
-frameDroppingOn
-=
-false
-;
-vp8_settings
-.
 numberOfTemporalLayers
 =
 static_cast
@@ -5931,12 +5925,6 @@ GetDefaultVp9Settings
 vp9_settings
 .
 denoisingOn
-=
-false
-;
-vp9_settings
-.
-frameDroppingOn
 =
 false
 ;
