@@ -1062,14 +1062,6 @@ override
 virtual
 nsIPrincipal
 *
-GetEffectiveCookiePrincipal
-(
-)
-override
-;
-virtual
-nsIPrincipal
-*
 GetEffectiveStoragePrincipal
 (
 )
@@ -8214,12 +8206,6 @@ nsCOMPtr
 nsIPrincipal
 >
 mDocumentPrincipal
-;
-nsCOMPtr
-<
-nsIPrincipal
->
-mDocumentCookiePrincipal
 ;
 nsCOMPtr
 <

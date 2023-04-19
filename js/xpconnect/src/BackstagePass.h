@@ -119,17 +119,6 @@ mPrincipal
 }
 nsIPrincipal
 *
-GetEffectiveCookiePrincipal
-(
-)
-override
-{
-return
-mPrincipal
-;
-}
-nsIPrincipal
-*
 GetEffectiveStoragePrincipal
 (
 )
