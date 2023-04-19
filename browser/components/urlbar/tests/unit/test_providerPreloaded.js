@@ -28,9 +28,9 @@ usepreloadedtopurls
 expire_days
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -46,7 +46,9 @@ modules
 /
 UrlbarProviderPreloadedSites
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

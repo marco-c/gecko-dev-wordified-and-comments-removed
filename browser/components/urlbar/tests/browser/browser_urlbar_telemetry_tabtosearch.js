@@ -19,9 +19,9 @@ example
 com
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -37,7 +37,9 @@ modules
 /
 UrlbarProviderTabToSearch
 .
-jsm
+sys
+.
+mjs
 "
 UrlbarTestUtils
 :
@@ -52,7 +54,9 @@ common
 /
 UrlbarTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

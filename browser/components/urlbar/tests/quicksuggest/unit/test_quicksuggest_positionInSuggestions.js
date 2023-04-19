@@ -3,9 +3,9 @@ use
 strict
 "
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -21,7 +21,9 @@ modules
 /
 UrlbarProviderHeuristicFallback
 .
-jsm
+sys
+.
+mjs
 "
 UrlbarProviderPlaces
 :
@@ -35,7 +37,9 @@ modules
 /
 UrlbarProviderPlaces
 .
-jsm
+sys
+.
+mjs
 "
 UrlbarProviderTabToSearch
 :
@@ -49,7 +53,9 @@ modules
 /
 UrlbarProviderTabToSearch
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
