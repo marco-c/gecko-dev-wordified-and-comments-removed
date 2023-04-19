@@ -140,16 +140,11 @@ timeout_id
 ;
 expiry_
 =
-TimeMs
-(
-*
 get_time_
 (
 )
 +
-*
 duration_ms
-)
 ;
 }
 void

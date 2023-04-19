@@ -295,6 +295,10 @@ deps
 strong_alias
 "
 "
+:
+types
+"
+"
 .
 .
 /
@@ -356,6 +360,11 @@ sources
 [
 "
 strong_alias_test
+.
+cc
+"
+"
+types_test
 .
 cc
 "
