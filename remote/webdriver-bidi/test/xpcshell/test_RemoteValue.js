@@ -1505,7 +1505,7 @@ Realm
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -1522,7 +1522,9 @@ bidi
 /
 Realm
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1535,7 +1537,7 @@ stringify
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -1552,7 +1554,9 @@ bidi
 /
 RemoteValue
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
