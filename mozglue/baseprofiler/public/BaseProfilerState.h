@@ -759,24 +759,6 @@ MACRO
 (
 10
 "
-jstracer
-"
-JSTracer
-"
-Enable
-tracing
-of
-the
-JavaScript
-engine
-"
-)
-\
-\
-MACRO
-(
-11
-"
 jsallocations
 "
 JSAllocations
@@ -794,7 +776,7 @@ allocations
 \
 MACRO
 (
-12
+11
 "
 nostacksampling
 "
@@ -833,7 +815,7 @@ labels
 \
 MACRO
 (
-13
+12
 "
 preferencereads
 "
@@ -851,7 +833,7 @@ read
 \
 MACRO
 (
-14
+13
 "
 nativeallocations
 "
@@ -883,7 +865,7 @@ allocations
 \
 MACRO
 (
-15
+14
 "
 ipcmessages
 "
@@ -905,7 +887,7 @@ messages
 \
 MACRO
 (
-16
+15
 "
 audiocallbacktracing
 "
@@ -921,7 +903,7 @@ tracing
 \
 MACRO
 (
-17
+16
 "
 cpu
 "
@@ -935,7 +917,7 @@ utilization
 \
 MACRO
 (
-18
+17
 "
 notimerresolutionchange
 "
@@ -969,7 +951,7 @@ affected
 \
 MACRO
 (
-19
+18
 "
 cpuallthreads
 "
@@ -990,7 +972,7 @@ threads
 \
 MACRO
 (
-20
+19
 "
 samplingallthreads
 "
@@ -1010,7 +992,7 @@ threads
 \
 MACRO
 (
-21
+20
 "
 markersallthreads
 "
@@ -1029,7 +1011,7 @@ threads
 \
 MACRO
 (
-22
+21
 "
 unregisteredthreads
 "
@@ -1053,7 +1035,7 @@ expensive
 \
 MACRO
 (
-23
+22
 "
 processcpu
 "
@@ -1073,7 +1055,7 @@ process
 \
 MACRO
 (
-24
+23
 "
 power
 "

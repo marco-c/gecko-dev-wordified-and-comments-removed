@@ -315,8 +315,6 @@ TimeStamp
 aProcessStartTime
 double
 aSinceTime
-bool
-aJSTracerEnabled
 ProfilerCodeAddressService
 *
 aService
@@ -352,8 +350,6 @@ mozilla
 TimeStamp
 &
 aProcessStartTime
-bool
-aJSTracerEnabled
 ProfilerCodeAddressService
 *
 aService
