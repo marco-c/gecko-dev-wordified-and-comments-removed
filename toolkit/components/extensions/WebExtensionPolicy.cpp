@@ -1056,12 +1056,6 @@ aInit
 mId
 )
 )
-mHostname
-(
-aInit
-.
-mMozExtensionHostname
-)
 mName
 (
 aInit
@@ -1123,6 +1117,14 @@ nsGkAtoms
 :
 :
 mozillaAddons
+)
+;
+ToLowerCase
+(
+aInit
+.
+mMozExtensionHostname
+mHostname
 )
 ;
 mHostPermissions
