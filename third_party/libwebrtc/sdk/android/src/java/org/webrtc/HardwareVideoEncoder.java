@@ -2296,9 +2296,7 @@ getImplementationName
 )
 {
 return
-"
-HWEncoder
-"
+codecName
 ;
 }
 Override
