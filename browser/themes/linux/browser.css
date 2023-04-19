@@ -1460,11 +1460,6 @@ mirror
 #
 statuspanel
 -
-inner
->
-#
-statuspanel
--
 label
 :
 -
@@ -1481,11 +1476,6 @@ statuspanel
 [
 mirror
 ]
->
-#
-statuspanel
--
-inner
 >
 #
 statuspanel
@@ -1541,11 +1531,6 @@ mirror
 #
 statuspanel
 -
-inner
->
-#
-statuspanel
--
 label
 :
 -
@@ -1562,11 +1547,6 @@ statuspanel
 [
 mirror
 ]
->
-#
-statuspanel
--
-inner
 >
 #
 statuspanel
