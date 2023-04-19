@@ -1024,12 +1024,6 @@ PacketTransport
 >
 receive_transport
 ;
-test
-:
-:
-NullTransport
-rtcp_send_transport
-;
 AudioSendStream
 *
 audio_send_stream
@@ -1783,8 +1777,11 @@ audio_recv_config
 .
 rtcp_send_transport
 =
-&
-rtcp_send_transport
+receive_transport
+.
+get
+(
+)
 ;
 audio_recv_config
 .
