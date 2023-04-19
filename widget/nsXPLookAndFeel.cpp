@@ -2703,6 +2703,16 @@ disabled
 "
 _ns
 }
+{
+"
+mathml
+.
+ms_lquote_rquote_attributes
+.
+disabled
+"
+_ns
+}
 }
 ;
 void

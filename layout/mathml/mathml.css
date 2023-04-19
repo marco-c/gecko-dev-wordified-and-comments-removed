@@ -694,6 +694,19 @@ elements
 *
 *
 /
+media
+not
+(
+-
+moz
+-
+mathml
+-
+core
+-
+ms
+)
+{
 ms
 {
 display
@@ -742,6 +755,7 @@ attr
 (
 rquote
 )
+}
 }
 /
 *

@@ -720,6 +720,15 @@ width
 ref
 .
 xhtml
+pref
+(
+mathml
+.
+ms_lquote_rquote_attributes
+.
+disabled
+false
+)
 =
 =
 quotes
@@ -2094,9 +2103,6 @@ mstyle
 ref
 .
 xhtml
-#
-Bug
-787215
 =
 =
 scale
@@ -3366,7 +3372,6 @@ trim
 ref
 .
 html
-fails
 =
 =
 whitespace
@@ -3385,9 +3390,6 @@ trim
 ref
 .
 html
-#
-Bug
-787215
 =
 =
 whitespace
