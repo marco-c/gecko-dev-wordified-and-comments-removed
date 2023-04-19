@@ -449,17 +449,6 @@ RunTestsGenericUtility
 this
 )
 ;
-break
-;
-case
-ipc
-:
-:
-SandboxingKind
-:
-:
-UTILITY_AUDIO_DECODING_GENERIC
-:
 #
 ifdef
 MOZ_APPLEMEDIA
