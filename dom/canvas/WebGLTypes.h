@@ -1159,6 +1159,7 @@ i
 ;
 struct
 WebGLContextOptions
+final
 {
 bool
 alpha
@@ -1214,6 +1215,11 @@ WebGLPowerPreference
 :
 Default
 ;
+bool
+ignoreColorSpace
+=
+true
+;
 dom
 :
 :
@@ -1227,11 +1233,6 @@ PredefinedColorSpace
 :
 :
 Srgb
-;
-bool
-ignoreColorSpace
-=
-true
 ;
 bool
 shouldResistFingerprinting

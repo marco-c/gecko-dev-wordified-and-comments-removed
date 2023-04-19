@@ -2040,7 +2040,7 @@ mGpuProcessTextureId
 mArrayIndex
 mFormat
 mSize
-mYUVColorSpace
+mColorSpace
 mColorRange
 )
 ;
@@ -2153,7 +2153,7 @@ aFormat
 gfx
 :
 :
-YUVColorSpace
+ColorSpace2
 aColorSpace
 gfx
 :
@@ -2190,10 +2190,9 @@ ALLOC_MANUAL_SYNCHRONIZATION
 data
 -
 >
-SetYUVColorSpace
-(
+mColorSpace
+=
 aColorSpace
-)
 ;
 data
 -
@@ -4264,11 +4263,11 @@ format
 (
 )
 )
-mYUVColorSpace
+mColorSpace
 (
 aDescriptor
 .
-yUVColorSpace
+colorSpace
 (
 )
 )
@@ -5074,7 +5073,7 @@ mHandle
 mGpuProcessTextureId
 mArrayIndex
 mFormat
-mYUVColorSpace
+mColorSpace
 mColorRange
 mSize
 )
@@ -6003,7 +6002,10 @@ wr
 :
 ToWrYuvColorSpace
 (
-mYUVColorSpace
+ToYUVColorSpace
+(
+mColorSpace
+)
 )
 wr
 :
