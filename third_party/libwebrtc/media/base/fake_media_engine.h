@@ -7,6 +7,11 @@ MEDIA_BASE_FAKE_MEDIA_ENGINE_H_
 #
 include
 <
+atomic
+>
+#
+include
+<
 list
 >
 #
@@ -1704,7 +1709,13 @@ fail_set_recv_codecs_
 }
 private
 :
+std
+:
+:
+atomic
+<
 bool
+>
 sending_
 ;
 bool
