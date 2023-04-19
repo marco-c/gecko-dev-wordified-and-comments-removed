@@ -219,6 +219,15 @@ info
 .
 codecType
 ;
+rtp
+-
+>
+is_last_frame_in_picture
+=
+info
+.
+end_of_picture
+;
 switch
 (
 info

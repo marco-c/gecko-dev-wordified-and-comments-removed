@@ -348,6 +348,9 @@ limits
 rtp_video_header
 .
 frame_type
+rtp_video_header
+.
+is_last_frame_in_picture
 )
 ;
 default
