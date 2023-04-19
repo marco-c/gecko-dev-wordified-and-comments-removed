@@ -276,6 +276,11 @@ ProcessType
 .
 h
 "
+"
+RuntimeExceptionModule
+.
+h
+"
 ]
 SOURCES
 +
@@ -283,6 +288,11 @@ SOURCES
 [
 "
 ProcessType
+.
+cpp
+"
+"
+RuntimeExceptionModule
 .
 cpp
 "
