@@ -2518,6 +2518,10 @@ subcommand_handlers
 subcommand
 ]
         
+subhandler
+.
+parser
+        
 c_parser
 =
 subhandler

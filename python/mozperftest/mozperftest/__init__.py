@@ -5,7 +5,12 @@ mozperftest
 .
 argparser
 import
+(
+    
 PerftestArgumentParser
+    
+PerftestToolsArgumentParser
+)
 from
 mozperftest
 .
