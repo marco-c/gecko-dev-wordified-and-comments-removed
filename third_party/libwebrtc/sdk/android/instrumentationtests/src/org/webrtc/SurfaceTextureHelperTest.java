@@ -55,9 +55,7 @@ annotation
 Nullable
 ;
 import
-android
-.
-support
+androidx
 .
 test
 .
@@ -66,9 +64,7 @@ filters
 MediumTest
 ;
 import
-android
-.
-support
+androidx
 .
 test
 .
