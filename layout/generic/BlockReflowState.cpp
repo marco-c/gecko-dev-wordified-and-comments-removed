@@ -3676,7 +3676,7 @@ mFlags
 mIsTopOfPage
 &
 &
-IsAdjacentWithTop
+IsAdjacentWithBStart
 (
 )
 ;

@@ -457,7 +457,7 @@ aFloatAvailableSpace
 const
 ;
 bool
-IsAdjacentWithTop
+IsAdjacentWithBStart
 (
 )
 const
@@ -466,15 +466,8 @@ return
 mBCoord
 =
 =
-mBorderPadding
-.
-BStart
+ContentBStart
 (
-mReflowInput
-.
-GetWritingMode
-(
-)
 )
 ;
 }

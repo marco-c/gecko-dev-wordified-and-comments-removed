@@ -17466,7 +17466,7 @@ if
 !
 aState
 .
-IsAdjacentWithTop
+IsAdjacentWithBStart
 (
 )
 )
@@ -18877,7 +18877,7 @@ mPrevBEndMargin
 clearance
 aState
 .
-IsAdjacentWithTop
+IsAdjacentWithBStart
 (
 )
 aLine
@@ -19400,7 +19400,7 @@ forceFit
 =
 aState
 .
-IsAdjacentWithTop
+IsAdjacentWithBStart
 (
 )
 &
@@ -32493,7 +32493,7 @@ isAdjacentWithTop
 =
 aState
 .
-IsAdjacentWithTop
+IsAdjacentWithBStart
 (
 )
 ;
