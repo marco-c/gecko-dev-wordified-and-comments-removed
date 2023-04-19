@@ -102,8 +102,8 @@ ModuleObject
 module
 )
 ;
-void
-EnsureModuleEnvironmentNamespace
+bool
+ModuleInitializeEnvironment
 (
 JSContext
 *
@@ -114,12 +114,6 @@ ModuleObject
 *
 >
 module
-Handle
-<
-ModuleNamespaceObject
-*
->
-ns
 )
 ;
 }
