@@ -122,11 +122,6 @@ return
 mOwner
 ;
 }
-void
-Shutdown
-(
-)
-;
 already_AddRefed
 <
 Promise
@@ -169,6 +164,11 @@ GetDirectory
 ErrorResult
 &
 aRv
+)
+;
+void
+Shutdown
+(
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
