@@ -9505,6 +9505,9 @@ return
 RTC_DCHECK
 (
 _hRecThread
+=
+=
+NULL
 )
 ;
 _hRecThread
@@ -9976,6 +9979,9 @@ mutex_
 RTC_DCHECK
 (
 _hPlayThread
+=
+=
+NULL
 )
 ;
 _hPlayThread
