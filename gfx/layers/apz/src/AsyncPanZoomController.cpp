@@ -1912,7 +1912,9 @@ GetDevPixelsPerCSSPixel
 (
 )
 *
-kViewportMinScale
+ViewportMinScale
+(
+)
 /
 ParentLayerToScreenScale
 (
@@ -1928,7 +1930,9 @@ GetDevPixelsPerCSSPixel
 (
 )
 *
-kViewportMaxScale
+ViewportMaxScale
+(
+)
 /
 ParentLayerToScreenScale
 (
@@ -26392,7 +26396,9 @@ GetDevPixelsPerCSSPixel
 (
 )
 *
-kViewportMinScale
+ViewportMinScale
+(
+)
 /
 ParentLayerToScreenScale
 (
@@ -26410,7 +26416,9 @@ GetDevPixelsPerCSSPixel
 (
 )
 *
-kViewportMaxScale
+ViewportMaxScale
+(
+)
 /
 ParentLayerToScreenScale
 (
