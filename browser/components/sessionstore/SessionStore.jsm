@@ -10000,7 +10000,9 @@ aTab
 =
 aWindow
 .
-gFirefoxViewTab
+FirefoxViewHandler
+.
+tab
 )
 {
 return
@@ -16263,7 +16265,9 @@ tab
 =
 aWindow
 .
-gFirefoxViewTab
+FirefoxViewHandler
+.
+tab
 )
 {
 continue
