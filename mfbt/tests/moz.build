@@ -150,9 +150,6 @@ TestSegmentedVector
 TestSHA1
 "
 "
-TestSIMD
-"
-"
 TestSmallPointerArray
 "
 "
