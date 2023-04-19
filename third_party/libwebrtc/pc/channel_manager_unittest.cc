@@ -405,7 +405,6 @@ cricket
 MediaConfig
 (
 )
-rtp_transport
 rtc
 :
 :
@@ -433,7 +432,7 @@ AudioOptions
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 voice_channel
 !
@@ -461,7 +460,6 @@ cricket
 MediaConfig
 (
 )
-rtp_transport
 rtc
 :
 :
@@ -494,7 +492,7 @@ get
 )
 )
 ;
-EXPECT_TRUE
+ASSERT_TRUE
 (
 video_channel
 !

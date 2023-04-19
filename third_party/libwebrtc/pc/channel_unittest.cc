@@ -1606,8 +1606,9 @@ network_thread
 channel1_
 -
 >
-Deinit_n
+SetRtpTransport
 (
+nullptr
 )
 ;
 }
@@ -1629,8 +1630,9 @@ network_thread
 channel2_
 -
 >
-Deinit_n
+SetRtpTransport
 (
+nullptr
 )
 ;
 }
@@ -9378,7 +9380,7 @@ network_thread
 channel
 -
 >
-Init_n
+SetRtpTransport
 (
 rtp_transport
 )
@@ -9874,7 +9876,7 @@ network_thread
 channel
 -
 >
-Init_n
+SetRtpTransport
 (
 rtp_transport
 )
