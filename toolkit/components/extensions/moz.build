@@ -67,6 +67,13 @@ ExtensionContent
 jsm
 "
 "
+ExtensionDNR
+.
+sys
+.
+mjs
+"
+"
 ExtensionPageChild
 .
 jsm
