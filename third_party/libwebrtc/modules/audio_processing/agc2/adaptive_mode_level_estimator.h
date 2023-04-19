@@ -217,6 +217,9 @@ time_to_full_buffer_ms
 Ratio
 level_dbfs
 ;
+SaturationProtectorState
+saturation_protector
+;
 }
 ;
 void
@@ -237,9 +240,6 @@ ApmDataDumper
 const
 apm_data_dumper_
 ;
-SaturationProtector
-saturation_protector_
-;
 const
 AudioProcessing
 :
@@ -256,6 +256,10 @@ level_estimator_type_
 const
 bool
 use_saturation_protector_
+;
+const
+float
+initial_saturation_margin_db_
 ;
 const
 float
