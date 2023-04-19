@@ -172,7 +172,9 @@ toolbox
 /
 Launcher
 .
-jsm
+sys
+.
+mjs
 will
 be
 first
@@ -250,7 +252,9 @@ toolbox
 /
 Launcher
 .
-jsm
+sys
+.
+mjs
 creates
 a
 profile
@@ -352,7 +356,9 @@ toolbox
 /
 Launcher
 .
-jsm
+sys
+.
+mjs
 spawns
 a
 new
@@ -527,7 +533,9 @@ toolbox
 /
 Launcher
 .
-jsm
+sys
+.
+mjs
 and
 requests
 to
