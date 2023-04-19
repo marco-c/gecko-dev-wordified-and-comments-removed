@@ -1551,6 +1551,10 @@ testing
 /
 gtest
 "
+]
+absl_deps
+=
+[
 "
 /
 /
