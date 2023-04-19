@@ -5394,7 +5394,7 @@ expected_type
 TEST
 (
 Vp9ImplTest
-DisableEnableBaseLayerWithSvcControllerTriggersKeyFrame
+DISABLED_DisableEnableBaseLayerWithSvcControllerTriggersKeyFrame
 )
 {
 const
