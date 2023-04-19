@@ -1,10 +1,10 @@
 #
 include
-<
-string
+"
+common
 .
 h
->
+"
 #
 include
 "
@@ -16,13 +16,6 @@ h
 include
 "
 avassert
-.
-h
-"
-#
-include
-"
-intmath
 .
 h
 "

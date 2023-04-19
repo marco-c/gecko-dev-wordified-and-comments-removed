@@ -48,7 +48,7 @@ h
 #
 include
 "
-threadframe
+thread
 .
 h
 "
@@ -832,9 +832,9 @@ ff_vp8_decode_frame
 AVCodecContext
 *
 avctx
-AVFrame
+void
 *
-frame
+data
 int
 *
 got_frame

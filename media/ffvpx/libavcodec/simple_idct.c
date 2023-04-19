@@ -10,6 +10,13 @@ h
 #
 include
 "
+avcodec
+.
+h
+"
+#
+include
+"
 mathops
 .
 h

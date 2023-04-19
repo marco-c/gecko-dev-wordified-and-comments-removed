@@ -35,7 +35,7 @@ h
 #
 include
 "
-threadframe
+thread
 .
 h
 "
@@ -136,8 +136,8 @@ AVCodecContext
 *
 avctx
 ;
-me_cmp_func
-sad
+MECmpContext
+mecc
 ;
 int
 mecc_inited
@@ -234,6 +234,9 @@ quarter_sample
 ;
 int
 partitioned_frame
+;
+int
+ref_count
 ;
 void
 (

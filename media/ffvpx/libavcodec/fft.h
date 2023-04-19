@@ -14,6 +14,15 @@ FFT_FLOAT
 #
 endif
 #
+ifndef
+FFT_FIXED_32
+#
+define
+FFT_FIXED_32
+0
+#
+endif
+#
 include
 <
 stdint
@@ -60,6 +69,9 @@ FFTDouble
 #
 else
 #
+if
+FFT_FIXED_32
+#
 define
 Q31
 (
@@ -95,6 +107,8 @@ typedef
 int32_t
 FFTSample
 ;
+#
+endif
 typedef
 struct
 FFTComplex

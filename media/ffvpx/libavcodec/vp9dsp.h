@@ -340,15 +340,5 @@ int
 bpp
 )
 ;
-void
-ff_vp9dsp_init_loongarch
-(
-VP9DSPContext
-*
-dsp
-int
-bpp
-)
-;
 #
 endif

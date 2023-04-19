@@ -2238,6 +2238,14 @@ m1
 RET
 %
 endmacro
+%
+if
+ARCH_X86_32
+INIT_XMM
+sse
+DEFINE_IMDCT
+%
+endif
 INIT_XMM
 sse2
 DEFINE_IMDCT

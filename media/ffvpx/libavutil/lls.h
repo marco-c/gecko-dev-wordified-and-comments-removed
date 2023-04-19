@@ -19,6 +19,13 @@ mem_internal
 h
 "
 #
+include
+"
+version
+.
+h
+"
+#
 define
 MAX_VARS
 32

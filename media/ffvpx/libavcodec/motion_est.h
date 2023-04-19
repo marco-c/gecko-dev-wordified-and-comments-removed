@@ -427,7 +427,6 @@ int
 src_index
 int
 ref_index
-const
 int16_t
 (
 *
@@ -474,7 +473,6 @@ struct
 MpegEncContext
 *
 s
-const
 int16_t
 (
 *

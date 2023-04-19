@@ -1,10 +1,3 @@
-#
-include
-"
-config_components
-.
-h
-"
 static
 const
 AVCodecParser

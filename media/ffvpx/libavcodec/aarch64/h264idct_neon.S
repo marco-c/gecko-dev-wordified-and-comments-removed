@@ -210,7 +210,6 @@ export
 .
 L_ff_h264_idct_add_neon
 :
-AARCH64_VALID_CALL_TARGET
 ld1
 {
 v0
@@ -649,7 +648,6 @@ export
 .
 L_ff_h264_idct_dc_add_neon
 :
-AARCH64_VALID_CALL_TARGET
 sxtw
 x2
 w2
@@ -1958,7 +1956,6 @@ export
 .
 L_ff_h264_idct8_add_neon
 :
-AARCH64_VALID_CALL_TARGET
 movi
 v19
 .
@@ -2471,7 +2468,6 @@ export
 .
 L_ff_h264_idct8_dc_add_neon
 :
-AARCH64_VALID_CALL_TARGET
 mov
 w3
 #
