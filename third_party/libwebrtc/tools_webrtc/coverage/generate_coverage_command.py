@@ -68,9 +68,6 @@ tools_unittests
 '
 test_support_unittests
 '
-'
-slow_tests
-'
     
 '
 system_wrappers_unittests

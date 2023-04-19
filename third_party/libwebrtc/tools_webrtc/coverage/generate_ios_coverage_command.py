@@ -404,10 +404,6 @@ rtc_unittests
 '
     
 '
-slow_tests
-'
-    
-'
 system_wrappers_unittests
 '
     
