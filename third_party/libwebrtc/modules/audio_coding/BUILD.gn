@@ -8578,12 +8578,6 @@ rtp_test_utils
 .
 /
 rtp_rtcp
-"
-"
-.
-.
-/
-rtp_rtcp
 :
 rtp_rtcp_format
 "
