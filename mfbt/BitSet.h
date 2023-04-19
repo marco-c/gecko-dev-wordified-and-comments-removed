@@ -380,12 +380,12 @@ kNumWords
 )
 ;
 }
+static
 constexpr
 size_t
 Size
 (
 )
-const
 {
 return
 N
