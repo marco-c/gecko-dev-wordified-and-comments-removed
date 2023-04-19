@@ -2773,11 +2773,6 @@ win
 }
 createDocument
 (
-text
-=
-"
-"
-mode
 )
 {
 return
@@ -2786,8 +2781,8 @@ this
 .
 Doc
 (
-text
-mode
+"
+"
 )
 ;
 }
