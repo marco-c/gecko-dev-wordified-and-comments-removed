@@ -88,6 +88,15 @@ int64_t
 sample_count
 )
 ;
+void
+AddSamplesAtTime
+(
+int64_t
+current_time_ms
+int64_t
+sample_count
+)
+;
 protected
 :
 virtual
