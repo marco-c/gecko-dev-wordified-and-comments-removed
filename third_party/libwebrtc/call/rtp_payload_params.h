@@ -441,10 +441,6 @@ const
 bool
 generic_picture_id_experiment_
 ;
-const
-bool
-simulate_generic_vp9_
-;
 }
 ;
 }
