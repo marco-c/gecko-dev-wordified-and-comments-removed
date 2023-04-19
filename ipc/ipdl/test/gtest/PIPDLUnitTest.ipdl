@@ -98,6 +98,16 @@ ScopedPort
 h
 "
 ;
+using
+struct
+nsID
+from
+"
+nsID
+.
+h
+"
+;
 namespace
 mozilla
 {
@@ -165,6 +175,8 @@ nsCString
 name
 ScopedPort
 port
+nsID
+channelId
 )
 ;
 parent

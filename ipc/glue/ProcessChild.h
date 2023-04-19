@@ -79,6 +79,10 @@ ProcessChild
 (
 ProcessId
 aParentPid
+const
+nsID
+&
+aMessageChannelId
 )
 ;
 ProcessChild
@@ -233,6 +237,9 @@ mUILoop
 ;
 ProcessId
 mParentPid
+;
+nsID
+mMessageChannelId
 ;
 }
 ;

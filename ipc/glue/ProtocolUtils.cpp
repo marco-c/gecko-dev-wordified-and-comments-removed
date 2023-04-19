@@ -2962,6 +2962,10 @@ Open
 (
 ScopedPort
 aPort
+const
+nsID
+&
+aMessageChannelId
 base
 :
 :
@@ -2993,6 +2997,7 @@ move
 aPort
 )
 mSide
+aMessageChannelId
 aEventTarget
 )
 ;

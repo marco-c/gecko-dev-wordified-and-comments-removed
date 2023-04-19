@@ -571,6 +571,16 @@ IToplevelProtocol
 aActor
 )
 {
+nsID
+channelId
+=
+nsID
+:
+:
+GenerateUUID
+(
+)
+;
 auto
 [
 parentPort
@@ -608,6 +618,7 @@ move
 (
 childPort
 )
+channelId
 )
 )
 {
@@ -643,6 +654,7 @@ move
 (
 parentPort
 )
+channelId
 OtherPid
 (
 )
@@ -906,6 +918,10 @@ ipc
 :
 ScopedPort
 aPort
+const
+nsID
+&
+aMessageChannelId
 )
 {
 auto
@@ -1027,6 +1043,7 @@ move
 (
 aPort
 )
+aMessageChannelId
 OtherPid
 (
 )
@@ -1602,6 +1619,9 @@ base
 :
 :
 ProcessId
+const
+nsID
+&
 )
 ;
 int
@@ -1621,6 +1641,10 @@ base
 :
 ProcessId
 aParentPid
+const
+nsID
+&
+aMessageChannelId
 )
 -
 >
@@ -1639,6 +1663,7 @@ IPDLUnitTestProcessChild
 >
 (
 aParentPid
+aMessageChannelId
 )
 ;
 }

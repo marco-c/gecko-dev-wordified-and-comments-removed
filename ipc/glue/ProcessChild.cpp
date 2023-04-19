@@ -121,6 +121,10 @@ ProcessChild
 (
 ProcessId
 aParentPid
+const
+nsID
+&
+aMessageChannelId
 )
 :
 ChildProcess
@@ -142,6 +146,10 @@ current
 mParentPid
 (
 aParentPid
+)
+mMessageChannelId
+(
+aMessageChannelId
 )
 {
 MOZ_ASSERT
@@ -477,6 +485,7 @@ child_thread
 TakeInitialPort
 (
 )
+mMessageChannelId
 base
 :
 :
