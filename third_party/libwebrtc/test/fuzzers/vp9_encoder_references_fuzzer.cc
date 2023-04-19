@@ -920,6 +920,8 @@ gof_
 ;
 int64_t
 picture_id_
+=
+1
 ;
 FrameDependenciesCalculator
 dependencies_calculator_
