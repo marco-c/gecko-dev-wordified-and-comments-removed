@@ -6009,6 +6009,11 @@ TypedArrayToReversed
 )
 ;
 }
+GetAttachedArrayBuffer
+(
+this
+)
+;
 var
 O
 =
@@ -6064,12 +6069,12 @@ O
 from
 ]
 ;
-DefineDataProperty
-(
 A
+[
 k
+]
+=
 fromValue
-)
 ;
 }
 return
