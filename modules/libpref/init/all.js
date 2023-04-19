@@ -5097,7 +5097,7 @@ alternate
 .
 enabled
 "
-true
+false
 )
 ;
 pref
