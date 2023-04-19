@@ -3109,6 +3109,14 @@ GetNativeWindow
 MOZ_ASSERT
 (
 nativeWindow
+|
+|
+gfxPlatform
+:
+:
+IsHeadless
+(
+)
 "
 Couldn
 '
