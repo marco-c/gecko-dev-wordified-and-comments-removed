@@ -466,6 +466,17 @@ mId
 if
 (
 mLostPromise
+&
+&
+mLostPromise
+-
+>
+PromiseObj
+(
+)
+!
+=
+nullptr
 )
 {
 auto
