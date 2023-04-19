@@ -39,6 +39,19 @@ audio_processing
 /
 agc2
 /
+cpu_features
+.
+h
+"
+#
+include
+"
+modules
+/
+audio_processing
+/
+agc2
+/
 rnn_vad
 /
 common
@@ -97,6 +110,8 @@ float
 kRefineNumLags24kHz
 >
 y_energy
+AvailableCpuFeatures
+cpu_features
 )
 ;
 struct
@@ -133,6 +148,8 @@ float
 kNumLags12kHz
 >
 auto_correlation
+AvailableCpuFeatures
+cpu_features
 )
 ;
 int
@@ -160,6 +177,8 @@ kRefineNumLags24kHz
 y_energy
 CandidatePitchPeriods
 pitch_candidates_24kHz
+AvailableCpuFeatures
+cpu_features
 )
 ;
 struct
@@ -200,6 +219,8 @@ int
 initial_pitch_period_48kHz
 PitchInfo
 last_pitch_48kHz
+AvailableCpuFeatures
+cpu_features
 )
 ;
 }

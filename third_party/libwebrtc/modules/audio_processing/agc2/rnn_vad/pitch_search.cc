@@ -183,6 +183,7 @@ ComputePitchPeriod12kHz
 (
 pitch_buffer_12kHz_view
 auto_correlation_12kHz_view
+cpu_features_
 )
 ;
 pitch_periods
@@ -235,6 +236,7 @@ ComputeSlidingFrameSquareEnergies24kHz
 (
 pitch_buffer
 y_energy_24kHz_view
+cpu_features_
 )
 ;
 const
@@ -246,6 +248,7 @@ ComputePitchPeriod48kHz
 pitch_buffer
 y_energy_24kHz_view
 pitch_periods
+cpu_features_
 )
 ;
 last_pitch_48kHz_
@@ -258,6 +261,7 @@ kMaxPitch48kHz
 -
 pitch_lag_48kHz
 last_pitch_48kHz_
+cpu_features_
 )
 ;
 return
