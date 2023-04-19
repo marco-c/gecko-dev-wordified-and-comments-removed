@@ -3868,6 +3868,8 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Performance
 "
 )
@@ -4565,9 +4567,7 @@ Core
 "
 DOM
 :
-Core
-&
-HTML
+Performance
 "
 )
 with
@@ -4896,6 +4896,8 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Performance
 "
 )
@@ -5156,9 +5158,7 @@ Core
 "
 DOM
 :
-Core
-&
-HTML
+Performance
 "
 )
 with
@@ -5301,6 +5301,8 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Performance
 "
 )
@@ -5619,6 +5621,8 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Performance
 "
 )
@@ -5812,9 +5816,7 @@ Core
 "
 DOM
 :
-Core
-&
-HTML
+Performance
 "
 )
 with
@@ -6208,6 +6210,8 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Performance
 "
 )
