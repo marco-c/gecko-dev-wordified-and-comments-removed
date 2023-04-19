@@ -510,6 +510,11 @@ PVideoBridgeParent
 &
 &
 aVideoBridge
+layers
+:
+:
+VideoBridgeSource
+aSource
 )
 ;
 void

@@ -5752,6 +5752,11 @@ PVideoBridgeParent
 &
 &
 aVideoBridge
+layers
+:
+:
+VideoBridgeSource
+aSource
 )
 {
 if
@@ -5773,6 +5778,7 @@ move
 (
 aVideoBridge
 )
+aSource
 )
 ;
 }

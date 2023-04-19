@@ -1064,6 +1064,11 @@ PREPROCESSED_IPDL_SOURCES
 =
 [
 "
+PUtilityAudioDecoder
+.
+ipdl
+"
+"
 PUtilityProcess
 .
 ipdl
@@ -1111,11 +1116,6 @@ ipdl
 ProtocolTypes
 .
 ipdlh
-"
-"
-PUtilityAudioDecoder
-.
-ipdl
 "
 "
 URIParams

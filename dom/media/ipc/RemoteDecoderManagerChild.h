@@ -388,8 +388,10 @@ RefPtr
 <
 GenericNonExclusivePromise
 >
-LaunchRDDProcessIfNeeded
+LaunchUtilityProcessIfNeeded
 (
+RemoteDecodeIn
+aLocation
 )
 ;
 protected
@@ -529,10 +531,8 @@ RefPtr
 <
 GenericNonExclusivePromise
 >
-LaunchUtilityProcessIfNeeded
+LaunchRDDProcessIfNeeded
 (
-RemoteDecodeIn
-aLocation
 )
 ;
 RefPtr

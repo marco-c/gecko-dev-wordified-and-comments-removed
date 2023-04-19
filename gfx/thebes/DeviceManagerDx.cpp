@@ -4412,7 +4412,9 @@ CreateMediaEngineDevice
 if
 (
 !
-sD3D11CreateDeviceFn
+LoadD3D11
+(
+)
 )
 {
 return
