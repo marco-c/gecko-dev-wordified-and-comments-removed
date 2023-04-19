@@ -452,6 +452,8 @@ SpatialIndex
 (
 )
 spatial_layers_count
+-
+1
 )
 ;
 if
