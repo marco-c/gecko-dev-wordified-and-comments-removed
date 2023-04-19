@@ -115,12 +115,14 @@ collation
 =
 null
 )
+{
 collation
 =
 "
 default
 "
 ;
+}
 internalProps
 .
 collation
@@ -271,9 +273,11 @@ if
 (
 internalProps
 )
+{
 return
 internalProps
 ;
+}
 internalProps
 =
 resolveCollatorInternals
@@ -366,6 +370,7 @@ options
 =
 undefined
 )
+{
 options
 =
 std_Object_create
@@ -373,7 +378,9 @@ std_Object_create
 null
 )
 ;
+}
 else
+{
 options
 =
 ToObject
@@ -381,6 +388,7 @@ ToObject
 options
 )
 ;
+}
 var
 u
 =
@@ -482,6 +490,7 @@ collation
 =
 undefined
 )
+{
 collation
 =
 intl_ValidateAndCanonicalizeUnicodeExtensionType
@@ -495,6 +504,7 @@ co
 "
 )
 ;
+}
 opt
 .
 co
@@ -525,6 +535,7 @@ numericValue
 =
 undefined
 )
+{
 numericValue
 =
 numericValue
@@ -537,6 +548,7 @@ true
 false
 "
 ;
+}
 opt
 .
 kn
@@ -768,6 +780,7 @@ intl_isUpperCaseFirst
 actualLocale
 )
 )
+{
 return
 [
 "
@@ -781,6 +794,7 @@ lower
 "
 ]
 ;
+}
 return
 [
 "
@@ -816,11 +830,13 @@ intl_isUpperCaseFirst
 actualLocale
 )
 )
+{
 return
 "
 upper
 "
 ;
+}
 return
 "
 false
@@ -1094,6 +1110,7 @@ collator
 =
 null
 )
+{
 return
 callFunction
 (
@@ -1104,6 +1121,7 @@ Intl_Collator_compare_get
 "
 )
 ;
+}
 var
 internals
 =
@@ -1180,6 +1198,7 @@ collator
 =
 null
 )
+{
 return
 callFunction
 (
@@ -1190,6 +1209,7 @@ Intl_Collator_resolvedOptions
 "
 )
 ;
+}
 var
 internals
 =
