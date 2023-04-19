@@ -48,6 +48,13 @@ allTabsMenu
 -
 allTabsViewTabs
 "
+dropIndicator
+:
+"
+allTabsMenu
+-
+dropIndicator
+"
 containerTabsView
 :
 "
@@ -277,6 +284,11 @@ tab
 pinned
 )
 )
+dropIndicator
+:
+this
+.
+dropIndicator
 }
 )
 ;
