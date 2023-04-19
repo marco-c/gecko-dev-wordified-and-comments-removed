@@ -400,14 +400,8 @@ write
 unsigned
 (
 e
-(
 *
 self
-)
-.
-into
-(
-)
 )
 .
 unwrap

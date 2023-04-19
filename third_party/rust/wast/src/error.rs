@@ -193,9 +193,7 @@ set_text
 content
 )
 ;
-return
 ret
-;
 }
 pub
 (
@@ -261,9 +259,7 @@ set_text
 content
 )
 ;
-return
 ret
-;
 }
 pub
 fn

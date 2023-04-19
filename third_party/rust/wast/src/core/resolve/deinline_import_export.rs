@@ -1268,6 +1268,14 @@ _
 ModuleField
 :
 :
+Rec
+(
+_
+)
+|
+ModuleField
+:
+:
 Export
 (
 _

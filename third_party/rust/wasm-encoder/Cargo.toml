@@ -100,7 +100,7 @@ package
 edition
 =
 "
-2018
+2021
 "
 name
 =
@@ -114,7 +114,7 @@ version
 "
 0
 .
-7
+14
 .
 0
 "
@@ -135,6 +135,8 @@ com
 description
 =
 "
+"
+"
 A
 low
 -
@@ -142,8 +144,8 @@ level
 WebAssembly
 encoder
 .
-\
-n
+"
+"
 "
 homepage
 =
@@ -233,6 +235,11 @@ crates
 wasm
 -
 encoder
+"
+resolver
+=
+"
+2
 "
 [
 dependencies
