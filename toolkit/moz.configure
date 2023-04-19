@@ -2099,6 +2099,13 @@ node
 configure
 "
 )
+set_define
+(
+"
+JSON_USE_EXCEPTION
+"
+0
+)
 option
 (
 "
