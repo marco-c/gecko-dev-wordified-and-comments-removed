@@ -669,6 +669,12 @@ mPaused
 =
 false
 ;
+GeckoAppShell
+.
+resumeLocation
+(
+)
+;
 GeckoNetworkManager
 .
 getInstance
@@ -713,6 +719,12 @@ onPause
 mPaused
 =
 true
+;
+GeckoAppShell
+.
+pauseLocation
+(
+)
 ;
 GeckoNetworkManager
 .
