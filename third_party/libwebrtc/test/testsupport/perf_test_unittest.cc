@@ -371,6 +371,10 @@ PerfTest
 TestGetPerfResultsHistograms
 )
 {
+ClearPerfResults
+(
+)
+;
 PrintResult
 (
 "
