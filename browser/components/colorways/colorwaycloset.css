@@ -413,6 +413,12 @@ column
 }
 figure
 {
+align
+-
+items
+:
+center
+;
 margin
 :
 0
@@ -508,6 +514,12 @@ customization
 -
 panel
 {
+align
+-
+self
+:
+center
+;
 padding
 -
 inline
