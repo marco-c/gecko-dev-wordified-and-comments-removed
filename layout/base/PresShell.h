@@ -1182,14 +1182,6 @@ ResizeReflowOptions
 ;
 public
 :
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-bool
-DoFlushLayout
-(
-bool
-aInterruptible
-)
-;
 void
 MaybeRecreateMobileViewportManager
 (
