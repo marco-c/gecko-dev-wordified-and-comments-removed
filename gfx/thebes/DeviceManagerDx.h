@@ -274,14 +274,6 @@ bool
 aHardwareWebRender
 )
 ;
-RefPtr
-<
-ID3D11Device
->
-CreateMediaEngineDevice
-(
-)
-;
 IDirectDraw7
 *
 GetDirectDraw

@@ -104,9 +104,6 @@ class
 RenderDXGIYCbCrTextureHost
 ;
 class
-RenderDcompSurfaceTextureHost
-;
-class
 RenderMacIOSurfaceTextureHost
 ;
 class
@@ -302,17 +299,6 @@ virtual
 RenderTextureHostSWGL
 *
 AsRenderTextureHostSWGL
-(
-)
-{
-return
-nullptr
-;
-}
-virtual
-RenderDcompSurfaceTextureHost
-*
-AsRenderDcompSurfaceTextureHost
 (
 )
 {

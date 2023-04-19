@@ -1320,6 +1320,15 @@ VideoFrameContainer
 >
 mVideoFrameContainer
 ;
+RefPtr
+<
+layers
+:
+:
+Image
+>
+mBlankImage
+;
 }
 ;
 class

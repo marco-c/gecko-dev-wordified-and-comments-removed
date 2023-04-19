@@ -42,8 +42,6 @@ public
 explicit
 RemoteAudioDecoderChild
 (
-RemoteDecodeIn
-aLocation
 )
 ;
 MOZ_IS_CLASS_INIT
