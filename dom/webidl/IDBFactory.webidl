@@ -168,9 +168,6 @@ long
 long
 version
 ;
-StorageType
-storage
-;
 }
 ;
 /
