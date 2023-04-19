@@ -17740,6 +17740,19 @@ flatMemberTypes
 [
 i
 ]
+                
+self
+.
+flatMemberTypes
+[
+i
+]
+.
+inner
+.
+needsConversionFromJS
+=
+True
             
 elif
 self
