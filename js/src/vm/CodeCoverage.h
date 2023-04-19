@@ -353,11 +353,6 @@ realm
 ;
 private
 :
-void
-maybeReopenAfterFork
-(
-)
-;
 bool
 fillWithFilename
 (
