@@ -11894,7 +11894,17 @@ bitrate_adjuster_
 >
 OnEncodedFrame
 (
+frame_size
 encoded_image
+.
+SpatialIndex
+(
+)
+.
+value_or
+(
+0
+)
 temporal_index
 )
 ;
