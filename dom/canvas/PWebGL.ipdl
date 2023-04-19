@@ -368,15 +368,6 @@ mozilla
 namespace
 dom
 {
-union
-ReadPixelsBuffer
-{
-uint64_t
-;
-Shmem
-;
-}
-;
 sync
 protocol
 PWebGL
@@ -458,8 +449,8 @@ ReadPixels
 (
 ReadPixelsDesc
 desc
-ReadPixelsBuffer
-buffer
+uint64_t
+maxBytes
 )
 returns
 (
