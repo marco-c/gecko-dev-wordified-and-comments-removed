@@ -1488,6 +1488,7 @@ CheckRunOnValidThreadAndInitialized
 bool
 use_hostname_address
 =
+(
 c
 .
 type
@@ -1496,6 +1497,17 @@ type
 =
 =
 LOCAL_PORT_TYPE
+|
+|
+c
+.
+type
+(
+)
+=
+=
+PRFLX_PORT_TYPE
+)
 &
 &
 MdnsObfuscationEnabled
