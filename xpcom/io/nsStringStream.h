@@ -86,6 +86,14 @@ af28
 }
 \
 }
+enum
+nsAssignmentType
+{
+NS_ASSIGNMENT_COPY
+NS_ASSIGNMENT_DEPEND
+NS_ASSIGNMENT_ADOPT
+}
+;
 extern
 nsresult
 NS_NewByteInputStream
