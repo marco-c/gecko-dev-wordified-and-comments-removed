@@ -2623,6 +2623,11 @@ AudioWorklet
 :
 Worklet
 {
+readonly
+attribute
+MessagePort
+port
+;
 }
 ;
 callback
@@ -2675,6 +2680,11 @@ readonly
 attribute
 float
 sampleRate
+;
+readonly
+attribute
+MessagePort
+port
 ;
 }
 ;

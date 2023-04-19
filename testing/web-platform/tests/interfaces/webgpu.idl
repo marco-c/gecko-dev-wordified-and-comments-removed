@@ -3716,6 +3716,8 @@ required
 (
 ImageBitmap
 or
+HTMLVideoElement
+or
 HTMLCanvasElement
 or
 OffscreenCanvas

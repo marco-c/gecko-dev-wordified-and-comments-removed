@@ -1329,7 +1329,6 @@ readonly
 attribute
 long
 long
-?
 timestamp
 ;
 /
@@ -2005,13 +2004,6 @@ type
 required
 ImageBufferSource
 data
-;
-PremultiplyAlpha
-premultiplyAlpha
-=
-"
-default
-"
 ;
 ColorSpaceConversion
 colorSpaceConversion

@@ -26,6 +26,11 @@ dom
 '
 html
 '
+'
+scroll
+-
+animations
+'
 ]
 idl_array
 =

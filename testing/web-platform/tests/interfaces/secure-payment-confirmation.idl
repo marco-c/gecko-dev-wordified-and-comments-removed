@@ -82,7 +82,7 @@ unsigned
 long
 timeout
 ;
-DOMString
+USVString
 payeeName
 ;
 USVString
@@ -90,6 +90,12 @@ payeeOrigin
 ;
 AuthenticationExtensionsClientInputs
 extensions
+;
+sequence
+<
+USVString
+>
+locale
 ;
 }
 ;
@@ -121,7 +127,7 @@ rpId
 USVString
 topOrigin
 ;
-DOMString
+USVString
 payeeName
 ;
 USVString
@@ -157,7 +163,7 @@ required
 USVString
 topOrigin
 ;
-DOMString
+USVString
 payeeName
 ;
 USVString
@@ -177,7 +183,7 @@ dictionary
 PaymentCredentialInstrument
 {
 required
-DOMString
+USVString
 displayName
 ;
 required
