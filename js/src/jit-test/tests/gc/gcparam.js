@@ -246,6 +246,13 @@ lowFrequencyHeapGrowth
 testChangeParam
 (
 "
+balancedHeapLimitsEnabled
+"
+)
+;
+testChangeParam
+(
+"
 allocationThreshold
 "
 )

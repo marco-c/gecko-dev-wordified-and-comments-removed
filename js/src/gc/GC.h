@@ -287,6 +287,15 @@ true
 _
 (
 "
+balancedHeapLimitsEnabled
+"
+JSGC_BALANCED_HEAP_LIMITS_ENABLED
+true
+)
+\
+_
+(
+"
 allocationThreshold
 "
 JSGC_ALLOCATION_THRESHOLD
