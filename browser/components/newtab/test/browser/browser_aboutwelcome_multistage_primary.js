@@ -522,7 +522,7 @@ test_element_styles
 (
 browser
 "
-nav
+div
 .
 steps
 "
