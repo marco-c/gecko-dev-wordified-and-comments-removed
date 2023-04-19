@@ -2592,7 +2592,7 @@ oldHeightAppUnits
 /
 oldAppUnitsPerDevPixel
 ;
-AppUnitsPerDevPixelChanged
+UIResolutionChangedInternal
 (
 )
 ;
