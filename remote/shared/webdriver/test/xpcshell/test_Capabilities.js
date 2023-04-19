@@ -45,11 +45,11 @@ remote
 /
 content
 /
-marionette
+remote
 /
-appinfo
+AppInfo
 .
-js
+jsm
 "
 )
 ;
