@@ -4045,7 +4045,7 @@ stdout
 return
 False
 def
-_EnsureUpdatedMasterBranch
+_EnsureUpdatedMainBranch
 (
 dry_run
 )
@@ -4093,7 +4093,7 @@ current_branch
 !
 =
 '
-master
+main
 '
 :
         
@@ -4106,7 +4106,7 @@ error
 Please
 checkout
 the
-master
+main
 branch
 and
 re
@@ -4137,7 +4137,7 @@ info
 (
 '
 Updating
-master
+main
 branch
 .
 .
@@ -4223,7 +4223,7 @@ ROLL_BRANCH_NAME
 active_branch
 =
 '
-master
+main
 '
     
 if
@@ -4919,7 +4919,7 @@ current
 branch
 is
 not
-master
+main
 or
 if
 there
@@ -5177,7 +5177,7 @@ opts
 ignore_unclean_workdir
 :
         
-_EnsureUpdatedMasterBranch
+_EnsureUpdatedMainBranch
 (
 opts
 .
