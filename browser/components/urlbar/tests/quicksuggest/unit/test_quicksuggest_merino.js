@@ -3986,7 +3986,7 @@ suggestions
 ;
 let
 {
-timestampTemplate
+TIMESTAMP_TEMPLATE
 }
 =
 UrlbarProviderQuickSuggest
@@ -4006,7 +4006,7 @@ com
 time
 -
 {
-timestampTemplate
+TIMESTAMP_TEMPLATE
 }
 ;
 suggestion
@@ -4024,7 +4024,7 @@ com
 time
 -
 {
-timestampTemplate
+TIMESTAMP_TEMPLATE
 }
 -
 foo

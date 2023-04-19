@@ -602,7 +602,7 @@ SCALARS
 return
 UrlbarProviderQuickSuggest
 .
-telemetryScalars
+TELEMETRY_SCALARS
 ;
 }
 get
@@ -2266,8 +2266,8 @@ urls
 {
 let
 {
-timestampTemplate
-timestampLength
+TIMESTAMP_TEMPLATE
+TIMESTAMP_LENGTH
 }
 =
 UrlbarProviderQuickSuggest
@@ -2304,7 +2304,7 @@ url
 .
 indexOf
 (
-timestampTemplate
+TIMESTAMP_TEMPLATE
 )
 ;
 this
@@ -2320,7 +2320,7 @@ index
 Timestamp
 template
 {
-timestampTemplate
+TIMESTAMP_TEMPLATE
 }
 is
 in
@@ -2374,7 +2374,7 @@ substring
 index
 index
 +
-timestampLength
+TIMESTAMP_LENGTH
 )
 ;
 urls

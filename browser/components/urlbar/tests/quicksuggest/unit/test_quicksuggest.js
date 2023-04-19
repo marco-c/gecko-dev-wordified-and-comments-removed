@@ -55,8 +55,8 @@ test
 ;
 const
 {
-timestampTemplate
-timestampLength
+TIMESTAMP_TEMPLATE
+TIMESTAMP_LENGTH
 }
 =
 UrlbarProviderQuickSuggest
@@ -82,7 +82,7 @@ com
 timestamp
 -
 {
-timestampTemplate
+TIMESTAMP_TEMPLATE
 }
 ;
 const
@@ -103,7 +103,7 @@ com
 timestamp
 -
 {
-timestampTemplate
+TIMESTAMP_TEMPLATE
 }
 -
 foo
@@ -4480,7 +4480,7 @@ TIMESTAMP_SUGGESTION_URL
 .
 replace
 (
-timestampTemplate
+TIMESTAMP_TEMPLATE
 "
 2013051113
 "
@@ -4496,7 +4496,7 @@ x
 .
 repeat
 (
-timestampLength
+TIMESTAMP_LENGTH
 )
 "
 5
@@ -4504,7 +4504,7 @@ timestampLength
 .
 repeat
 (
-timestampLength
+TIMESTAMP_LENGTH
 -
 1
 )
@@ -4526,7 +4526,7 @@ TIMESTAMP_SUGGESTION_URL
 .
 replace
 (
-timestampTemplate
+TIMESTAMP_TEMPLATE
 str
 )
 )
