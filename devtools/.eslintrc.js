@@ -30,9 +30,6 @@ true
 module
 :
 true
-reportError
-:
-true
 require
 :
 true
