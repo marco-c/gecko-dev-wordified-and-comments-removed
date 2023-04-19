@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-b35194229662a74ee2a497ad5964d90e6cb87de3
+fa7e7a804ea156eb22b962d31aeb1a0cd7976a22
 '
 #
 Keep
@@ -153,7 +153,7 @@ chromium
 src
 /
 base
-322c762d76f259ee56b8d282f9b85fef2badc1ec
+3e2d5a36a83328a55f83cd80a0284a6acfcc6958
 '
 '
 src
@@ -177,7 +177,7 @@ chromium
 src
 /
 build
-e55f2dd6929a3422dc496cc8c7c8516349b4b0a6
+3ab554276664f5ac158e0af32802d33288c275d4
 '
 '
 src
@@ -201,7 +201,7 @@ chromium
 src
 /
 buildtools
-a9bc3e283182a586998338a665c7eae17406ec54
+aa2fb0187c2f7809263f66b6fb48d511a3223035
 '
 #
 Gradle
@@ -297,7 +297,7 @@ chromium
 src
 /
 ios
-1a14470b8dddc47c23540e9c1dcd913cfe8392d2
+fc0c5df87797c6e96c3e83518f057de6750df355
 '
 '
 condition
@@ -329,7 +329,7 @@ chromium
 src
 /
 testing
-5a3fcbea8007233f01cb4258966ec948e3a01090
+eff3ab6803cd01ecfb3f68fabb0fe12cfca5458e
 '
 '
 src
@@ -353,7 +353,7 @@ chromium
 src
 /
 third_party
-42f721cbdea8d21587c78cda0eb49326831ac780
+cbed9735a470934fd13fe692edf9de72cf2800ad
 '
 '
 src
@@ -648,7 +648,7 @@ project
 libcxxabi
 .
 git
-0054d1d20c7293e08963554ab85214fcfeaef2db
+025086bfe75efde1af7d131189b30a0b6a09c814
 '
 '
 src
@@ -688,7 +688,7 @@ project
 libunwind
 .
 git
-d4ec81987438b057553dd7e805b3e597a0f095b4
+10f4e4a5b56e544a584f2ac7db1b5b380539b075
 '
 '
 src
@@ -833,7 +833,7 @@ version
 '
 :
 '
-O9eXFyC5ZkcYvDfHRLKPO1g1Xwf7M33wT3cuJtyfc0sC
+oJ_fhfmT6sLorimH6Eo6hwWS2R2gU0c4ZUQfXvzae1UC
 '
 }
 ]
@@ -984,7 +984,7 @@ com
 catapult
 .
 git
-e6080695798b7187caf08a26ced6828dcea59f32
+2d036344bd68fc41f8a07111db67b594fed4807b
 '
 '
 src
@@ -1114,7 +1114,7 @@ tools
 depot_tools
 .
 git
-9fe4fb87a6c18a57736d0ff5c1d9a29a3d4418c4
+b6ce244503d33dff56ed404fea9228cc0753029e
 '
 '
 src
@@ -1270,7 +1270,7 @@ third_party
 freetype2
 .
 git
-ede96b239b90bf9c9d9a01f06005ae09fb4fa19b
+8ef8072ba151dc06214ee70985a7fb03ebc2932f
 '
 '
 src
@@ -1306,7 +1306,7 @@ harfbuzz
 harfbuzz
 .
 git
-d58f1685cee7fef904f4149561a2dcf5ec519ac3
+9bd7ba5019381bb8584811ee63a0ba0cee7dca99
 '
 '
 src
@@ -1345,7 +1345,7 @@ google
 benchmark
 .
 git
-e991355c02b93fe17713efe04cbc2e278e00fdbd
+f730846b0a3c0dc0699978846fb14ffb2fad0bdc
 '
 }
 #
@@ -1851,7 +1851,7 @@ com
 aom
 .
 git
-552a0398f47d558b315b4ee0b6b2ec31606a8706
+b5719d38f3eb67e405b9fd7c90945f0a7ece10c0
 '
 '
 src
@@ -1922,7 +1922,7 @@ external
 perfetto
 .
 git
-fa68100f5be2459da45a73682ce35c3364c79790
+5f0b3b9c3082422bc98513edbfddd802c5ff0926
 '
 '
 src
@@ -2102,7 +2102,7 @@ deps
 nasm
 .
 git
-335fe83e133e1a113e87994e000b062047c662fc
+9215e8e1d0fe474ffd3e16c1a07a0f97089e6224
 '
 }
 '
@@ -2446,7 +2446,7 @@ chromium
 src
 /
 tools
-69e4123d0efc967dfddc8e93cfc62b733a54ab21
+e8e4d19553ec037421583c28303a1de56c5394fc
 '
 '
 src
@@ -16629,8 +16629,6 @@ msan
 chained
 -
 origins
--
-xenial
 .
 tgz
 .
@@ -16719,8 +16717,6 @@ msan
 no
 -
 origins
--
-xenial
 .
 tgz
 .
