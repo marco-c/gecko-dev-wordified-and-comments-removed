@@ -217,7 +217,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 ScriptLoadInfo
-&
+*
 aLoadInfo
 bool
 aIsWorkerScript
@@ -345,7 +345,7 @@ DataReceived
 )
 ;
 ScriptLoadInfo
-&
+*
 mLoadInfo
 ;
 const
@@ -649,7 +649,7 @@ WorkerScriptLoader
 *
 aLoader
 ScriptLoadInfo
-&
+*
 aLoadInfo
 )
 :
@@ -739,7 +739,7 @@ WorkerScriptLoader
 mLoader
 ;
 ScriptLoadInfo
-&
+*
 mLoadInfo
 ;
 }

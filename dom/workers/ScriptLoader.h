@@ -297,7 +297,7 @@ MaybeExecuteFinishedScripts
 (
 const
 ScriptLoadInfo
-&
+*
 aLoadInfo
 )
 ;
@@ -324,7 +324,7 @@ nsresult
 OnStreamComplete
 (
 ScriptLoadInfo
-&
+*
 aLoadInfo
 nsresult
 aStatus
@@ -439,7 +439,7 @@ nsresult
 LoadScript
 (
 ScriptLoadInfo
-&
+*
 aLoadInfo
 )
 ;
@@ -493,7 +493,7 @@ void
 LoadingFinished
 (
 ScriptLoadInfo
-&
+*
 aLoadInfo
 nsresult
 aRv
@@ -511,7 +511,7 @@ JSContext
 *
 aCx
 ScriptLoadInfo
-&
+*
 aLoadInfo
 )
 ;
