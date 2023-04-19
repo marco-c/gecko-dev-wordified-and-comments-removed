@@ -2260,7 +2260,7 @@ const
 size_t
 kNumMediaPacketsBatch2
 =
-46
+191
 ;
 std
 :
@@ -2513,7 +2513,7 @@ const
 size_t
 kNumMediaPacketsBatch2
 =
-48
+192
 ;
 std
 :

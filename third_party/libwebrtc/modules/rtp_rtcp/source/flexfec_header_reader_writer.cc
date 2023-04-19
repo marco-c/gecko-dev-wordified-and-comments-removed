@@ -84,6 +84,14 @@ kMaxMediaPackets
 ;
 constexpr
 size_t
+kMaxTrackedMediaPackets
+=
+4
+*
+kMaxMediaPackets
+;
+constexpr
+size_t
 kMaxFecPackets
 =
 kMaxMediaPackets
@@ -235,7 +243,7 @@ FlexfecHeaderReader
 :
 FecHeaderReader
 (
-kMaxMediaPackets
+kMaxTrackedMediaPackets
 kMaxFecPackets
 )
 {
