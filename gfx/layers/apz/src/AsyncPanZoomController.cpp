@@ -18146,11 +18146,6 @@ ScrollSnapFlags
 :
 :
 IntendedEndPosition
-|
-ScrollSnapFlags
-:
-:
-IntendedDirection
 )
 ;
 }
