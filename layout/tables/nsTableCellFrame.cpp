@@ -5553,7 +5553,6 @@ ColGroupBackgrounds
 (
 )
 false
-nullptr
 colGroup
 -
 >
@@ -5596,7 +5595,6 @@ ColBackgrounds
 (
 )
 false
-nullptr
 col
 -
 >

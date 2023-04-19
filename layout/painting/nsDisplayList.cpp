@@ -15927,9 +15927,6 @@ nsDisplayList
 aList
 bool
 aAllowWillPaintBorderOptimization
-ComputedStyle
-*
-aComputedStyle
 const
 nsRect
 &
@@ -15953,7 +15950,7 @@ ComputedStyle
 *
 bgSC
 =
-aComputedStyle
+nullptr
 ;
 const
 nsStyleBackground
