@@ -11,6 +11,10 @@ grips
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ content
 reducers
 /
 grips
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ filter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -44,6 +54,8 @@ content
 reducers
 /
 filter
+.
+js
 "
 )
 ;

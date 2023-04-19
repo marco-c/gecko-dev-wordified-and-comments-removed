@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -54,6 +66,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -76,6 +94,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +109,8 @@ components
 tree
 /
 TreeView
+.
+js
 "
 )
 )
@@ -100,6 +124,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -111,6 +139,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 ;
@@ -136,6 +166,10 @@ GripProvider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -147,6 +181,8 @@ content
 grip
 -
 provider
+.
+js
 "
 )
 ;
@@ -158,6 +194,10 @@ DomDecorator
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -169,6 +209,8 @@ content
 dom
 -
 decorator
+.
+js
 "
 )
 ;

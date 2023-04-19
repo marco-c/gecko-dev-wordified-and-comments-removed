@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -76,6 +94,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -85,6 +107,8 @@ shared
 components
 /
 SearchBox
+.
+js
 "
 )
 )
@@ -97,6 +121,10 @@ l10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -106,6 +134,8 @@ dom
 content
 /
 utils
+.
+js
 "
 )
 ;
@@ -117,6 +147,10 @@ fetchProperties
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +162,8 @@ content
 actions
 /
 grips
+.
+js
 "
 )
 ;
@@ -139,6 +175,10 @@ setVisibilityFilter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -150,6 +190,8 @@ content
 actions
 /
 filter
+.
+js
 "
 )
 ;

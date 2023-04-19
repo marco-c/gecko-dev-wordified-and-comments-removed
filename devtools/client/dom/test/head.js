@@ -43,6 +43,10 @@ constants
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -52,6 +56,8 @@ dom
 content
 /
 constants
+.
+js
 "
 )
 ;
