@@ -76,7 +76,7 @@ Initialize
 (
 )
 ;
-void
+bool
 InitializeOnMainThread
 (
 )
