@@ -2900,6 +2900,11 @@ mHasVariations
 gfxPlatform
 :
 :
+GetPlatform
+(
+)
+-
+>
 HasVariationFontSupport
 (
 )
