@@ -10549,11 +10549,10 @@ stream
 .
 discoverystream
 .
-saveToPocketCard
-.
-enabled
+saveToPocketCardRegions
 "
-false
+"
+"
 )
 ;
 pref

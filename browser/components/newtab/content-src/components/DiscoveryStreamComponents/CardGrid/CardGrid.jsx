@@ -1376,6 +1376,12 @@ saveToPocketCard
 =
 {
 saveToPocketCard
+&
+&
+!
+rec
+.
+flight_id
 }
 /
 >

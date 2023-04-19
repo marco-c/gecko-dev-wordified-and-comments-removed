@@ -42710,6 +42710,12 @@ is_collection
 saveToPocketCard
 :
 saveToPocketCard
+&
+&
+!
+rec
+.
+flight_id
 }
 )
 )
