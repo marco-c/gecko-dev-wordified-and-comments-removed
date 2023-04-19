@@ -152,9 +152,9 @@ size
 )
 }
 computed_output
-1e
+3e
 -
-3f
+2f
 )
 ;
 }

@@ -203,9 +203,9 @@ pitch_estimator
 GetLastPitchStrengthForTesting
 (
 )
-15e
+1e
 -
-6f
+5f
 )
 ;
 }

@@ -96,7 +96,7 @@ ArrayView
 float
 kRefineNumLags24kHz
 >
-y_energy
+yy_values
 )
 ;
 struct
