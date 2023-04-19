@@ -37,6 +37,9 @@ resolve
 mod
 types
 ;
+mod
+wast
+;
 pub
 use
 self
@@ -133,6 +136,16 @@ self
 :
 :
 types
+:
+:
+*
+;
+pub
+use
+self
+:
+:
+wast
 :
 :
 *

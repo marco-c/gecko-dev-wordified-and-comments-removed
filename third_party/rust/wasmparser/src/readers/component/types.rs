@@ -537,9 +537,6 @@ String
 )
 }
 pub
-(
-crate
-)
 fn
 is_subtype_of
 (

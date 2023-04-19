@@ -41,6 +41,9 @@ OperatorValidator
 resources
 :
 T
+index
+:
+u32
 }
 impl
 <
@@ -57,6 +60,9 @@ pub
 fn
 new
 (
+index
+:
+u32
 ty
 :
 u32
@@ -100,6 +106,7 @@ resources
 )
 ?
 resources
+index
 }
 )
 }
@@ -476,6 +483,21 @@ self
 .
 resources
 }
+pub
+fn
+index
+(
+&
+self
+)
+-
+>
+u32
+{
+self
+.
+index
+}
 }
 #
 [
@@ -826,6 +848,7 @@ FuncValidator
 :
 new
 (
+0
 0
 0
 &

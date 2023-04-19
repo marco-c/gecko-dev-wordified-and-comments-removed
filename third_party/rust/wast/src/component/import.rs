@@ -789,7 +789,7 @@ a
 )
 Value
 (
-ComponentValType
+ComponentValTypeUse
 <
 '
 a
