@@ -200,6 +200,10 @@ TimeMode
 mode
 )
 :
+time_mode_
+(
+mode
+)
 time_controller_
 (
 CreateTimeController
