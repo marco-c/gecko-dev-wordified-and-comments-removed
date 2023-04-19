@@ -319,6 +319,9 @@ type
 "
 language
 "
+hash
+:
+locale
 target_locale
 :
 locale
