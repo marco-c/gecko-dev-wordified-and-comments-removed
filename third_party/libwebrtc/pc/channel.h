@@ -1339,7 +1339,7 @@ worker_thread
 )
 )
 ;
-void
+bool
 MaybeUpdateDemuxerAndRtpExtensions_w
 (
 bool
@@ -1352,6 +1352,12 @@ optional
 RtpHeaderExtensions
 >
 extensions
+std
+:
+:
+string
+&
+error_desc
 )
 RTC_RUN_ON
 (
