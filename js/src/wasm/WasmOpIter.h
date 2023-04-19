@@ -3924,7 +3924,7 @@ uint32_t
 typeIndex
 Value
 *
-length
+numElements
 Value
 *
 argValue
@@ -3943,7 +3943,7 @@ uint32_t
 typeIndex
 Value
 *
-length
+numElements
 )
 ;
 [
@@ -18074,7 +18074,7 @@ uint32_t
 typeIndex
 Value
 *
-length
+numElements
 Value
 *
 argValue
@@ -18132,7 +18132,7 @@ ValType
 :
 :
 I32
-length
+numElements
 )
 )
 {
@@ -18195,7 +18195,7 @@ uint32_t
 typeIndex
 Value
 *
-length
+numElements
 )
 {
 MOZ_ASSERT
@@ -18250,7 +18250,7 @@ ValType
 :
 :
 I32
-length
+numElements
 )
 )
 {

@@ -31085,7 +31085,7 @@ RegI32
 BaseCompiler
 :
 :
-emitGcArrayGetLength
+emitGcArrayGetNumElements
 (
 RegPtr
 rdata
@@ -31093,7 +31093,7 @@ bool
 adjustDataPointer
 )
 {
-STATIC_ASSERT_ARRAYLENGTH_IS_U32
+STATIC_ASSERT_NUMELEMENTS_IS_U32
 ;
 RegI32
 length
@@ -31112,7 +31112,7 @@ rdata
 OutlineTypedObject
 :
 :
-offsetOfArrayLength
+offsetOfNumElements
 (
 )
 )
@@ -31133,7 +31133,7 @@ ImmWord
 OutlineTypedObject
 :
 :
-offsetOfArrayLength
+offsetOfNumElements
 (
 )
 +
@@ -31142,7 +31142,7 @@ sizeof
 OutlineTypedObject
 :
 :
-ArrayLength
+NumElements
 )
 )
 rdata
@@ -33183,9 +33183,9 @@ rp
 )
 ;
 RegI32
-length
+numElements
 =
-emitGcArrayGetLength
+emitGcArrayGetNumElements
 (
 rdata
 true
@@ -33225,7 +33225,7 @@ Assembler
 :
 :
 Equal
-length
+numElements
 Imm32
 (
 0
@@ -33250,7 +33250,7 @@ Imm32
 (
 1
 )
-length
+numElements
 )
 ;
 if
@@ -33260,7 +33260,7 @@ emitGcArraySet
 (
 rp
 rdata
-length
+numElements
 arrayType
 value
 )
@@ -33278,7 +33278,7 @@ Assembler
 :
 :
 GreaterThan
-length
+numElements
 Imm32
 (
 0
@@ -33297,7 +33297,7 @@ done
 ;
 freeI32
 (
-length
+numElements
 )
 ;
 freeAny
@@ -33473,9 +33473,9 @@ rp
 )
 ;
 RegI32
-length
+numElements
 =
-emitGcArrayGetLength
+emitGcArrayGetNumElements
 (
 rdata
 true
@@ -33484,12 +33484,12 @@ true
 emitGcArrayBoundsCheck
 (
 index
-length
+numElements
 )
 ;
 freeI32
 (
-length
+numElements
 )
 ;
 uint32_t
@@ -33702,9 +33702,9 @@ rp
 )
 ;
 RegI32
-length
+numElements
 =
-emitGcArrayGetLength
+emitGcArrayGetNumElements
 (
 rdata
 true
@@ -33733,12 +33733,12 @@ PreBarrierReg
 emitGcArrayBoundsCheck
 (
 index
-length
+numElements
 )
 ;
 freeI32
 (
-length
+numElements
 )
 ;
 popAny
@@ -33855,7 +33855,7 @@ rp
 ;
 pushI32
 (
-emitGcArrayGetLength
+emitGcArrayGetNumElements
 (
 rdata
 false
