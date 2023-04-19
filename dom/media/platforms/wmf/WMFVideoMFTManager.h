@@ -317,7 +317,13 @@ gfx
 :
 :
 IntSize
-mDecodedImageSize
+mSoftwareImageSize
+;
+gfx
+:
+:
+IntSize
+mSoftwarePictureSize
 ;
 uint32_t
 mVideoStride
