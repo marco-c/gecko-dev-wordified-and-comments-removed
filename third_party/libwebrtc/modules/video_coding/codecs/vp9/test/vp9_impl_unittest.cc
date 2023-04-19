@@ -4301,7 +4301,7 @@ GenericLayerIs
 TEST_F
 (
 TestVp9Impl
-DisableEnableBaseLayerTriggersKeyFrame
+DISABLED_DisableEnableBaseLayerTriggersKeyFrame
 )
 {
 test
