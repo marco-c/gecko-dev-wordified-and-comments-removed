@@ -14,7 +14,7 @@ h
 #
 include
 "
-Http2Stream
+Http2StreamBase
 .
 h
 "
@@ -87,7 +87,7 @@ Http2PushedStream
 final
 :
 public
-Http2Stream
+Http2StreamBase
 {
 public
 :
@@ -99,7 +99,7 @@ aTransaction
 Http2Session
 *
 aSession
-Http2Stream
+Http2StreamBase
 *
 aAssociatedStream
 uint32_t
@@ -114,7 +114,7 @@ GetPushComplete
 )
 ;
 virtual
-Http2Stream
+Http2StreamBase
 *
 GetConsumerStream
 (
@@ -129,7 +129,7 @@ mConsumerStream
 void
 SetConsumerStream
 (
-Http2Stream
+Http2StreamBase
 *
 consumer
 )
@@ -200,7 +200,7 @@ mRequestContext
 void
 ConnectPushedStream
 (
-Http2Stream
+Http2StreamBase
 *
 stream
 )
@@ -224,7 +224,7 @@ static
 bool
 TestOnPush
 (
-Http2Stream
+Http2StreamBase
 *
 stream
 )
@@ -352,7 +352,7 @@ Http2PushedStream
 =
 default
 ;
-Http2Stream
+Http2StreamBase
 *
 mConsumerStream
 {
@@ -624,7 +624,7 @@ mStreamID
 ;
 WeakPtr
 <
-Http2Stream
+Http2StreamBase
 >
 mStream
 ;
