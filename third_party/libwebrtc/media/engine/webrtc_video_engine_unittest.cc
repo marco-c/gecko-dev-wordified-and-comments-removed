@@ -20682,7 +20682,7 @@ recv_parameters_
 ;
 EXPECT_EQ
 (
-2
+1
 fake_call_
 -
 >
