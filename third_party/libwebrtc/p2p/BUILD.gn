@@ -738,6 +738,14 @@ buffer
 /
 rtc_base
 :
+buffer_queue
+"
+"
+.
+.
+/
+rtc_base
+:
 callback_list
 "
 "
