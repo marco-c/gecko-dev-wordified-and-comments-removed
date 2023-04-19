@@ -5764,6 +5764,11 @@ CurrentThread
 this
 )
 ;
+ProcessMessages
+(
+0
+)
+;
 Stop
 (
 )
