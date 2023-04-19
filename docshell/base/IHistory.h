@@ -235,8 +235,6 @@ nsIURI
 aLastVisitedURI
 uint32_t
 aFlags
-uint64_t
-aBrowserId
 )
 =
 0
