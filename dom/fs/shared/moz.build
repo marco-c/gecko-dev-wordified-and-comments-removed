@@ -7,6 +7,11 @@ dom
 =
 [
 "
+FileSystemHelpers
+.
+h
+"
+"
 FileSystemTypes
 .
 h

@@ -11,6 +11,9 @@ child
 "
 parent
 "
+"
+shared
+"
 ]
 UNIFIED_SOURCES
 =
