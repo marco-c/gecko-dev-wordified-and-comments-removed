@@ -1498,9 +1498,6 @@ preferences
 xml
 "
 ]
-create_srcjar
-=
-false
 #
 Needed
 for

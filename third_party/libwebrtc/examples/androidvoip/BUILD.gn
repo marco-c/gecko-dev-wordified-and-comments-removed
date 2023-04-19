@@ -528,9 +528,6 @@ examples
 .
 androidvoip
 "
-create_srcjar
-=
-false
 sources
 =
 [

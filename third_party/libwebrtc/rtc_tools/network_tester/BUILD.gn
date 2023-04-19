@@ -769,9 +769,6 @@ media
 .
 networktester
 "
-create_srcjar
-=
-false
 sources
 =
 [
