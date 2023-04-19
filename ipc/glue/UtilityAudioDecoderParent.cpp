@@ -29,6 +29,13 @@ RemoteDecoderManagerParent
 h
 "
 #
+include
+"
+PDMFactory
+.
+h
+"
+#
 if
 defined
 (
