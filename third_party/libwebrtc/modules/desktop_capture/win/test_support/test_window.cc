@@ -126,6 +126,9 @@ height
 const
 int
 width
+const
+LONG
+extended_styles
 )
 {
 WindowInfo
@@ -246,8 +249,9 @@ hwnd
 =
 :
 :
-CreateWindowW
+CreateWindowExW
 (
+extended_styles
 kWindowClass
 window_title
 WS_OVERLAPPEDWINDOW

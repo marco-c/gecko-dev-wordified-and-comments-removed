@@ -177,6 +177,10 @@ DesktopCapturer
 SourceList
 *
 windows
+LONG
+ex_style_filters
+=
+0
 )
 ;
 typedef
@@ -281,6 +285,10 @@ SourceList
 results
 bool
 enumerate_current_process_windows
+LONG
+ex_style_filters
+=
+0
 )
 ;
 private
