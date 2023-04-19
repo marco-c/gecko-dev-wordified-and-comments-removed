@@ -1306,8 +1306,6 @@ inputs
 =
 deps
 +
-pings_yamls
-+
 metrics_yamls
 +
 tags_yamls
