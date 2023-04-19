@@ -326,11 +326,10 @@ I420BufferInterface
 >
 buffer
 =
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 ObjCI420FrameBuffer
 >

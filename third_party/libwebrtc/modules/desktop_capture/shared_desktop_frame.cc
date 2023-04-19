@@ -70,6 +70,14 @@ SharedDesktopFrame
 new
 SharedDesktopFrame
 (
+rtc
+:
+:
+scoped_refptr
+<
+Core
+>
+(
 new
 Core
 (
@@ -79,6 +87,7 @@ std
 move
 (
 desktop_frame
+)
 )
 )
 )

@@ -339,12 +339,11 @@ webrtc
 ObjCVideoTrackSource
 >
 objCVideoTrackSource
-(
-new
+=
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 webrtc
 :
@@ -353,7 +352,6 @@ ObjCVideoTrackSource
 >
 (
 isScreenCast
-)
 )
 ;
 return

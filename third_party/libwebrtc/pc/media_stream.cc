@@ -338,7 +338,7 @@ end
 )
 )
 return
-NULL
+nullptr
 ;
 return
 *
@@ -391,7 +391,7 @@ end
 )
 )
 return
-NULL
+nullptr
 ;
 return
 *

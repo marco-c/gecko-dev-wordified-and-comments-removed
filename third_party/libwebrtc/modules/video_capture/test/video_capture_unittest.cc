@@ -958,7 +958,7 @@ get
 NULL
 )
 return
-NULL
+nullptr
 ;
 EXPECT_FALSE
 (

@@ -51,11 +51,10 @@ objc_video_frame_buffer
 )
 {
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 ObjCFrameBuffer
 >

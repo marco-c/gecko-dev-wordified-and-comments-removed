@@ -4454,6 +4454,14 @@ j_pc
 >
 AddTrack
 (
+rtc
+:
+:
+scoped_refptr
+<
+MediaStreamTrackInterface
+>
+(
 reinterpret_cast
 <
 MediaStreamTrackInterface
@@ -4461,6 +4469,7 @@ MediaStreamTrackInterface
 >
 (
 native_track
+)
 )
 JavaListToNativeVector
 <
@@ -4633,6 +4642,14 @@ j_pc
 >
 AddTransceiver
 (
+rtc
+:
+:
+scoped_refptr
+<
+MediaStreamTrackInterface
+>
+(
 reinterpret_cast
 <
 MediaStreamTrackInterface
@@ -4640,6 +4657,7 @@ MediaStreamTrackInterface
 >
 (
 native_track
+)
 )
 JavaToNativeRtpTransceiverInit
 (

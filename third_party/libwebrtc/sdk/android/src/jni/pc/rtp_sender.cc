@@ -485,6 +485,14 @@ j_rtp_sender_pointer
 >
 SetFrameEncryptor
 (
+rtc
+:
+:
+scoped_refptr
+<
+FrameEncryptorInterface
+>
+(
 reinterpret_cast
 <
 FrameEncryptorInterface
@@ -492,6 +500,7 @@ FrameEncryptorInterface
 >
 (
 j_frame_encryptor_pointer
+)
 )
 )
 ;

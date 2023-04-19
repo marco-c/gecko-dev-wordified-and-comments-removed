@@ -71,11 +71,10 @@ defined
 WEBRTC_IOS
 )
 return
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 ios_adm
 :

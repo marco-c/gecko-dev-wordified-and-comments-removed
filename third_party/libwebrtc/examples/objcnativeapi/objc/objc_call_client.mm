@@ -1626,11 +1626,10 @@ move
 (
 answer
 )
-new
 rtc
 :
 :
-RefCountedObject
+make_ref_counted
 <
 SetRemoteSessionDescriptionObserver
 >

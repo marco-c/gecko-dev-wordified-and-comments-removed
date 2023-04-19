@@ -308,7 +308,7 @@ AudioTrack
 Create
 (
 kAudioTrackId
-NULL
+nullptr
 )
 ;
 ASSERT_TRUE
