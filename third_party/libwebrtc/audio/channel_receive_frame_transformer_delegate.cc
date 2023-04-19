@@ -403,8 +403,9 @@ scoped_refptr
 ChannelReceiveFrameTransformerDelegate
 >
 delegate
-=
+(
 this
+)
 ;
 channel_receive_thread_
 -

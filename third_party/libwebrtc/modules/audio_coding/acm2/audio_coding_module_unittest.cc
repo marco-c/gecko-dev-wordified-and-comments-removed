@@ -8010,7 +8010,7 @@ scoped_refptr
 AudioDecoderFactory
 >
 decoder_factory
-=
+(
 new
 rtc
 :
@@ -8027,6 +8027,7 @@ opus_decoder
 .
 get
 (
+)
 )
 )
 ;
