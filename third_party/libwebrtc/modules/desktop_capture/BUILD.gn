@@ -879,6 +879,13 @@ sources
 "
 win
 /
+wgc_capture_source_unittest
+.
+cc
+"
+"
+win
+/
 wgc_capturer_win_unittest
 .
 cc

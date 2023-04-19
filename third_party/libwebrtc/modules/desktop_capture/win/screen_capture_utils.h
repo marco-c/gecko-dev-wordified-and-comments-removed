@@ -86,6 +86,14 @@ HMONITOR
 monitor
 )
 ;
+DesktopRect
+GetMonitorRect
+(
+const
+HMONITOR
+monitor
+)
+;
 bool
 IsScreenValid
 (
