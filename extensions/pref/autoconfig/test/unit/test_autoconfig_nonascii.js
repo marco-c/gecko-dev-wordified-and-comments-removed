@@ -265,6 +265,17 @@ typeofChromeUtils
 "
 undefined
 "
+"
+_test
+.
+string
+.
+typeofServices
+"
+:
+"
+undefined
+"
 }
 }
 ]
