@@ -200,11 +200,6 @@ GetCacheCreator
 )
 ;
 bool
-mLoadingFinished
-=
-false
-;
-bool
 mExecutionScheduled
 =
 false
@@ -249,7 +244,12 @@ Finished
 const
 {
 return
-mLoadingFinished
+mRequest
+-
+>
+IsReadyToRun
+(
+)
 &
 &
 !
