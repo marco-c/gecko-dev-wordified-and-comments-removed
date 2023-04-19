@@ -2566,9 +2566,9 @@ nsCString
 }
 ;
 struct
-ShmemImage
+IPCImage
 {
-Shmem
+BigBuffer
 data
 ;
 uint32_t
@@ -7135,7 +7135,7 @@ isPrivate
 async
 FindImageText
 (
-ShmemImage
+IPCImage
 image
 nsCString
 [
