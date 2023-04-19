@@ -1719,12 +1719,6 @@ codec_globals_headers
 "
 .
 .
-:
-module_api
-"
-"
-.
-.
 /
 .
 .

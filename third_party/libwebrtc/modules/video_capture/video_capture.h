@@ -31,17 +31,6 @@ include
 "
 modules
 /
-include
-/
-module
-.
-h
-"
-#
-include
-"
-modules
-/
 desktop_capture
 /
 desktop_capture_types
