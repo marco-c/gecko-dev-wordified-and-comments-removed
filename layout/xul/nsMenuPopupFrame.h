@@ -620,7 +620,7 @@ IsNoAutoHide
 ;
 }
 void
-EnsureWidget
+PrepareWidget
 (
 bool
 aRecreate
