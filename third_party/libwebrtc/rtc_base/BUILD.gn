@@ -514,6 +514,10 @@ refcount
 "
 "
 :
+rtc_event
+"
+"
+:
 rtc_task_queue
 "
 "
@@ -1039,10 +1043,6 @@ platform_thread
 "
 :
 platform_thread_types
-"
-"
-:
-rtc_event
 "
 "
 :
@@ -4631,6 +4631,10 @@ refcount
 "
 "
 :
+rtc_event
+"
+"
+:
 rtc_task_queue
 "
 "
@@ -6094,6 +6098,10 @@ rtc_base
 "
 "
 :
+rtc_event
+"
+"
+:
 socket
 "
 "
@@ -6972,6 +6980,10 @@ rtc_base_tests_utils
 "
 "
 :
+rtc_event
+"
+"
+:
 rtc_numerics
 "
 "
@@ -7223,6 +7235,10 @@ rtc_base_approved
 "
 :
 rtc_base_tests_utils
+"
+"
+:
+rtc_event
 "
 "
 :
@@ -7646,6 +7662,10 @@ refcount
 "
 :
 rtc_base_tests_utils
+"
+"
+:
+rtc_event
 "
 "
 :

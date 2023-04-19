@@ -377,6 +377,12 @@ rtc_base_approved
 .
 .
 :
+rtc_event
+"
+"
+.
+.
+:
 rtc_task_queue
 "
 "
@@ -433,6 +439,12 @@ to_queued_task
 .
 :
 rtc_base_approved
+"
+"
+.
+.
+:
+rtc_event
 "
 "
 .

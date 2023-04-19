@@ -715,6 +715,14 @@ rtc_base_approved
 /
 rtc_base
 :
+rtc_event
+"
+"
+.
+.
+/
+rtc_base
+:
 rtc_task_queue
 "
 "

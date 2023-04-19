@@ -1109,6 +1109,17 @@ rtc_base_tests_utils
 /
 rtc_base
 :
+rtc_event
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 rtc_numerics
 "
 "

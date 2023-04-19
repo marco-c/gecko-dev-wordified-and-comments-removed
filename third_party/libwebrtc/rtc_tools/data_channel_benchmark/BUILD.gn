@@ -368,6 +368,17 @@ refcount
 /
 rtc_base
 :
+rtc_event
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 threading
 "
 "
