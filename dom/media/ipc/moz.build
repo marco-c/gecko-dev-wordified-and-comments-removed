@@ -85,6 +85,11 @@ RemoteDecoderParent
 h
 "
 "
+RemoteDecodeUtils
+.
+h
+"
+"
 RemoteImageHolder
 .
 h
@@ -175,6 +180,11 @@ cpp
 "
 "
 RemoteDecoderParent
+.
+cpp
+"
+"
+RemoteDecodeUtils
 .
 cpp
 "

@@ -4273,7 +4273,13 @@ WebIDLUtilityActorName
 unknown
 "
 "
-audioDecoder
+audioDecoder_Generic
+"
+"
+audioDecoder_AppleMedia
+"
+"
+audioDecoder_WMF
 "
 }
 ;

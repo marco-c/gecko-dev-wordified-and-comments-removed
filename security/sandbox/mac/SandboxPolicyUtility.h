@@ -492,7 +492,7 @@ SANDBOX_LITERAL
 static
 const
 char
-SandboxPolicyUtilityAudioDecoderAddend
+SandboxPolicyUtilityAudioDecoderAppleMediaAddend
 [
 ]
 =
@@ -504,6 +504,8 @@ SANDBOX_LITERAL
 For
 Utility
 AudioDecoder
+AppleMedia
+codecs
 (
 define
 macosVersion

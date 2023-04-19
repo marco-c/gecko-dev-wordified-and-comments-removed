@@ -68,6 +68,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+UtilityProcessSandboxing
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
