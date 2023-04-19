@@ -413,6 +413,11 @@ Delete
 )
 override
 ;
+void
+StopNoLocks
+(
+)
+;
 rtc
 :
 :
@@ -442,6 +447,10 @@ thread_
 ;
 ModuleList
 modules_
+RTC_GUARDED_BY
+(
+lock_
+)
 ;
 std
 :
@@ -468,6 +477,10 @@ lock_
 ;
 bool
 stop_
+RTC_GUARDED_BY
+(
+lock_
+)
 ;
 const
 char
