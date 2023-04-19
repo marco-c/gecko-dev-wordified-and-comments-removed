@@ -221,6 +221,7 @@ HAVE_ARC4RANDOM_BUF
 )
 arc4random_buf
 (
+&
 id
 sizeof
 (
