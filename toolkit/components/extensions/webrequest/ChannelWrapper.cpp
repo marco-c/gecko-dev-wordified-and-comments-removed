@@ -6473,7 +6473,14 @@ WrapObject
 JSContext
 *
 aCx
-HandleObject
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
 aGivenProto
 )
 {

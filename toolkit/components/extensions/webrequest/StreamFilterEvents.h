@@ -225,7 +225,11 @@ aCx
 JS
 :
 :
-MutableHandleObject
+MutableHandle
+<
+JSObject
+*
+>
 aResult
 )
 {

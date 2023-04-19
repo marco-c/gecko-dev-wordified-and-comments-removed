@@ -1071,7 +1071,11 @@ aCx
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aGivenProto
 )
 override
@@ -1371,7 +1375,11 @@ aCx
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aGivenProto
 )
 override
