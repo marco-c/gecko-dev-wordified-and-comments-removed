@@ -12,7 +12,9 @@ modules
 /
 XPCOMUtils
 .
-jsm
+sys
+.
+mjs
 "
 ;
 add_task
