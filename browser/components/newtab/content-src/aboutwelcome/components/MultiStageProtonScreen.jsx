@@ -1881,6 +1881,17 @@ total
 }
 )
 }
+data
+-
+l10n
+-
+attrs
+=
+"
+aria
+-
+valuetext
+"
 role
 =
 "
