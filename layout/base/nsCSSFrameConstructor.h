@@ -4569,11 +4569,6 @@ aAnonymousItems
 FrameConstructionItemList
 &
 aItemsToConstruct
-ItemFlags
-aExtraFlags
-=
-{
-}
 )
 ;
 void
