@@ -143,6 +143,11 @@ services
 .
 json
 "
+"
+components
+.
+rs
+"
 script
 =
 "
