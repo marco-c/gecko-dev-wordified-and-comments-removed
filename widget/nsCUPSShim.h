@@ -258,6 +258,15 @@ Optional
 :
 :
 No
+cupsGetDests2
+)
+\
+X
+(
+Optional
+:
+:
+No
 cupsGetNamedDest
 )
 \
