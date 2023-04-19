@@ -8798,6 +8798,12 @@ return
 RTCError
 (
 parse_error
+"
+ICE
+server
+parse
+failed
+"
 )
 ;
 }

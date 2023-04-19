@@ -1336,7 +1336,7 @@ empty
 {
 RTC_LOG
 (
-LS_ERROR
+LS_WARNING
 )
 <
 <
@@ -1420,7 +1420,7 @@ ip
 {
 RTC_LOG
 (
-LS_ERROR
+LS_WARNING
 )
 <
 <
@@ -1640,7 +1640,7 @@ empty
 {
 RTC_LOG
 (
-LS_ERROR
+LS_WARNING
 )
 <
 <
@@ -1731,7 +1731,7 @@ else
 {
 RTC_LOG
 (
-LS_ERROR
+LS_WARNING
 )
 <
 <
