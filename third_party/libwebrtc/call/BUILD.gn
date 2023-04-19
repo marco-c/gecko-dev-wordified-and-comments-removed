@@ -603,9 +603,7 @@ See
 also
 TODO
 for
-|
 mock_rtp_interfaces
-|
 .
 rtc_library
 (
@@ -3829,9 +3827,7 @@ with
 the
 TODO
 for
-|
 rtp_interfaces
-|
 .
 rtc_source_set
 (
