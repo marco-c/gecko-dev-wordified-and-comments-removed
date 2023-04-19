@@ -45,6 +45,10 @@ mod
 extensions
 ;
 pub
+mod
+options
+;
+pub
 use
 de
 :
@@ -61,8 +65,16 @@ error
 :
 {
 Error
+ErrorCode
 Result
 }
+;
+pub
+use
+options
+:
+:
+Options
 ;
 pub
 use
