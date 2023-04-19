@@ -1273,6 +1273,7 @@ DetermineBackgroundColor
 nsPresContext
 *
 aPresContext
+const
 mozilla
 :
 :

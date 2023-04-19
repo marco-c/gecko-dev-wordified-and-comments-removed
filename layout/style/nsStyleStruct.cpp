@@ -11098,9 +11098,7 @@ nsStyleBackground
 :
 IsTransparent
 (
-mozilla
-:
-:
+const
 ComputedStyle
 *
 aStyle
