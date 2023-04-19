@@ -123,11 +123,3 @@ test_basics
 js
 "
 ]
-TEST_DIRS
-+
-=
-[
-"
-gtest
-"
-]

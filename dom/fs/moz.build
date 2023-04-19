@@ -5,15 +5,6 @@ DIRS
 "
 api
 "
-"
-child
-"
-"
-parent
-"
-"
-shared
-"
 ]
 TEST_DIRS
 +
