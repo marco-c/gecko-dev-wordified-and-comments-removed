@@ -350,7 +350,14 @@ loadedModules
 =
 Cu
 .
-loadedModules
+loadedJSModules
+.
+concat
+(
+Cu
+.
+loadedESModules
+)
 .
 filter
 (
