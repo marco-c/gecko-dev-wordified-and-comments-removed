@@ -336,6 +336,11 @@ ImportDir
 h
 "
 "
+MozProcessMitigationDynamicCodePolicy
+.
+h
+"
+"
 NativeNt
 .
 h
