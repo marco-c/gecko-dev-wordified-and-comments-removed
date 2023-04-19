@@ -690,6 +690,13 @@ android_deps
 ]
     
 '
+androidx
+'
+:
+[
+]
+    
+'
 yasm
 '
 :
