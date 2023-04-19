@@ -2713,11 +2713,6 @@ mSizeMode
 =
 nsSizeMode_Normal
 ;
-nsSizeMode
-mLastSizeModeBeforeFullscreen
-=
-nsSizeMode_Normal
-;
 float
 mAspectRatio
 =
@@ -3095,6 +3090,11 @@ mLastMotionPressure
 ;
 InputRegion
 mInputRegion
+;
+nsSizeMode
+mLastSizeMode
+=
+nsSizeMode_Normal
 ;
 static
 bool
