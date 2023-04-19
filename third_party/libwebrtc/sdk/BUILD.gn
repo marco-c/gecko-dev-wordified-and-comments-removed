@@ -7862,7 +7862,7 @@ if
 is_ios
 )
 {
-ios_framework_bundle_with_umbrella_header
+apple_framework_bundle_with_umbrella_header
 (
 "
 framework_objc
@@ -8952,7 +8952,6 @@ framework
 "
 ]
 configs
-+
 =
 [
 "
@@ -9031,7 +9030,7 @@ if
 is_mac
 )
 {
-mac_framework_bundle_with_umbrella_header
+apple_framework_bundle_with_umbrella_header
 (
 "
 mac_framework_objc
