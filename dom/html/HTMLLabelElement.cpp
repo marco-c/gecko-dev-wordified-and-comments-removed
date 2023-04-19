@@ -869,6 +869,12 @@ NS_ERROR_UNEXPECTED
 )
 ;
 }
+AutoHandlingUserInputStatePusher
+userInputStatePusher
+(
+aIsTrustedEvent
+)
+;
 AutoPopupStatePusher
 popupStatePusher
 (

@@ -11756,6 +11756,12 @@ if
 aKeyCausesActivation
 )
 {
+AutoHandlingUserInputStatePusher
+userInputStatePusher
+(
+aIsTrustedEvent
+)
+;
 AutoPopupStatePusher
 popupStatePusher
 (
