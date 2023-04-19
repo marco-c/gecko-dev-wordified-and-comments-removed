@@ -3097,7 +3097,7 @@ received_message_count
 )
 >
 message_count
-10
+100
 )
 ;
 if
