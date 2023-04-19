@@ -328,6 +328,7 @@ enum
 class
 RequestResponse
 {
+kUnknown
 kSuccess
 kUserCancelled
 kError
@@ -588,7 +589,7 @@ message
 portal
 -
 >
-PortalFailed
+OnPortalDone
 (
 RequestResponse
 :
@@ -717,7 +718,7 @@ message
 portal
 -
 >
-PortalFailed
+OnPortalDone
 (
 RequestResponse
 :
@@ -793,7 +794,7 @@ UnsubscribeSignalHandlers
 portal
 -
 >
-PortalFailed
+OnPortalDone
 (
 RequestResponse
 :
@@ -929,7 +930,7 @@ subscription
 portal
 -
 >
-PortalFailed
+OnPortalDone
 (
 RequestResponse
 :
@@ -1057,7 +1058,7 @@ message
 portal
 -
 >
-PortalFailed
+OnPortalDone
 (
 RequestResponse
 :
@@ -1125,7 +1126,7 @@ UnsubscribeSignalHandlers
 portal
 -
 >
-PortalFailed
+OnPortalDone
 (
 RequestResponse
 :

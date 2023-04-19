@@ -263,7 +263,7 @@ GetSessionDetails
 override
 ;
 void
-PortalFailed
+OnPortalDone
 (
 xdg_portal
 :

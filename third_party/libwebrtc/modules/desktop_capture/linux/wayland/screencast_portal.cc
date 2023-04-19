@@ -456,7 +456,7 @@ void
 ScreenCastPortal
 :
 :
-PortalFailed
+OnPortalDone
 (
 RequestResponse
 result
@@ -1113,7 +1113,7 @@ message
 that
 -
 >
-PortalFailed
+OnPortalDone
 (
 RequestResponse
 :
@@ -1219,7 +1219,7 @@ sources_request_signal_id_
 that
 -
 >
-PortalFailed
+OnPortalDone
 (
 RequestResponse
 :
@@ -1357,7 +1357,7 @@ session
 that
 -
 >
-PortalFailed
+OnPortalDone
 (
 RequestResponse
 :
@@ -1560,7 +1560,7 @@ session
 that
 -
 >
-PortalFailed
+OnPortalDone
 (
 static_cast
 <
@@ -1935,7 +1935,7 @@ message
 that
 -
 >
-PortalFailed
+OnPortalDone
 (
 RequestResponse
 :
@@ -2024,7 +2024,7 @@ message
 that
 -
 >
-PortalFailed
+OnPortalDone
 (
 RequestResponse
 :
@@ -2038,23 +2038,12 @@ return
 that
 -
 >
-notifier_
--
->
-OnScreenCastRequestResult
+OnPortalDone
 (
 RequestResponse
 :
 :
 kSuccess
-that
--
->
-pw_stream_node_id_
-that
--
->
-pw_fd_
 )
 ;
 }

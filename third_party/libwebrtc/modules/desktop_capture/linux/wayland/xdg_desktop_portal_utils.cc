@@ -62,6 +62,17 @@ case
 RequestResponse
 :
 :
+kUnknown
+:
+return
+"
+kUnknown
+"
+;
+case
+RequestResponse
+:
+:
 kSuccess
 :
 return
