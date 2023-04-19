@@ -313,6 +313,11 @@ uint8_t
 qp
 int32_t
 decode_time_ms
+webrtc
+:
+:
+TimeDelta
+processing_delay_ms
 VideoContentType
 content_type
 )
