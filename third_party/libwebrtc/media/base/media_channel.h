@@ -1764,6 +1764,13 @@ nacks_rcvd
 =
 0
 ;
+double
+target_bitrate
+=
+0
+.
+0
+;
 int
 packets_lost
 =

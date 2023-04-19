@@ -923,7 +923,7 @@ override
 MOCK_METHOD
 (
 int
-GetBitrate
+GetTargetBitrate
 (
 )
 (
