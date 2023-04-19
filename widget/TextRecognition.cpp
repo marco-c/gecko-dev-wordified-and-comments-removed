@@ -85,6 +85,13 @@ FindText
 imgIContainer
 &
 aImage
+const
+nsTArray
+<
+nsCString
+>
+&
+aLanguages
 )
 -
 >
@@ -195,6 +202,7 @@ FindText
 (
 *
 dataSurface
+aLanguages
 )
 ;
 }
@@ -210,6 +218,13 @@ gfx
 DataSourceSurface
 &
 aSurface
+const
+nsTArray
+<
+nsCString
+>
+&
+aLanguages
 )
 -
 >
@@ -293,6 +308,7 @@ SendFindImageText
 (
 *
 image
+aLanguages
 )
 -
 >
@@ -446,6 +462,7 @@ return
 DoFindText
 (
 aSurface
+aLanguages
 )
 ;
 }
@@ -704,6 +721,12 @@ gfx
 :
 :
 DataSourceSurface
+&
+const
+nsTArray
+<
+nsCString
+>
 &
 )
 -
