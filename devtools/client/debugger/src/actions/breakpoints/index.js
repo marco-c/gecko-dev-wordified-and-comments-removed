@@ -519,13 +519,6 @@ CLEAR_BREAKPOINTS
 }
 )
 ;
-asyncStore
-.
-pendingBreakpoints
-=
-{
-}
-;
 }
 ;
 }
