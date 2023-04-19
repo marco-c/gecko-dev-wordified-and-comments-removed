@@ -41052,6 +41052,7 @@ startFunction
 func_
 .
 index
+locals_
 )
 )
 {
