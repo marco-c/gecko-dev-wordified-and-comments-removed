@@ -446,6 +446,9 @@ BytecodeEmitter
 >
 &
 emitter
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 const
@@ -700,6 +703,7 @@ EmplaceEmitter
 (
 compilationState_
 emitter
+errorContext
 stackLimit
 EitherParser
 (
@@ -3425,6 +3429,9 @@ BytecodeEmitter
 >
 &
 emitter
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 const
@@ -3463,6 +3470,7 @@ emitter
 .
 emplace
 (
+ec
 stackLimit
 parser
 sc
@@ -6015,6 +6023,7 @@ false
 BytecodeEmitter
 bce
 (
+ec
 stackLimit
 &
 parser

@@ -282,6 +282,9 @@ h
 namespace
 js
 {
+class
+ErrorContext
+;
 namespace
 frontend
 {
@@ -356,6 +359,13 @@ JSContext
 *
 const
 cx
+=
+nullptr
+;
+ErrorContext
+*
+const
+ec
 =
 nullptr
 ;
@@ -644,6 +654,9 @@ BytecodeEmitter
 BytecodeEmitter
 *
 parent
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 SharedContext
@@ -725,6 +738,9 @@ public
 :
 BytecodeEmitter
 (
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 const
@@ -750,6 +766,9 @@ Unit
 >
 BytecodeEmitter
 (
+ErrorContext
+*
+ec
 uintptr_t
 stackLimit
 Parser
@@ -773,6 +792,7 @@ Normal
 :
 BytecodeEmitter
 (
+ec
 stackLimit
 EitherParser
 (
