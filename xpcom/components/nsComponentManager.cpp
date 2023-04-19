@@ -1278,14 +1278,6 @@ mozilla
 :
 :
 Module
-kNeckoModule
-;
-extern
-const
-mozilla
-:
-:
-Module
 kPowerManagerModule
 ;
 extern
@@ -1758,12 +1750,6 @@ GetSingleton
 SuppressNotifications
 (
 true
-)
-;
-RegisterModule
-(
-&
-kNeckoModule
 )
 ;
 RegisterModule
