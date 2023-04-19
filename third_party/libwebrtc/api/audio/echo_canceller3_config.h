@@ -361,6 +361,11 @@ use_linear_filter
 true
 ;
 bool
+high_pass_filter_echo_reference
+=
+false
+;
+bool
 export_linear_aec_output
 =
 false
