@@ -14234,9 +14234,8 @@ kIceCandidatePairMax
 }
 else
 {
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-0
 )
 ;
 }

@@ -268,9 +268,8 @@ audio_cn
 "
 ;
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }

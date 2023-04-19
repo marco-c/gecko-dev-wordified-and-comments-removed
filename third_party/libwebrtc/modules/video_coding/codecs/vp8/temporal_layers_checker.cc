@@ -122,9 +122,8 @@ num_temporal_layers
 )
 ;
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }

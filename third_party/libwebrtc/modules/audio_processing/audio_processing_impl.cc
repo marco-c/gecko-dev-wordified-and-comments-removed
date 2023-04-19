@@ -567,9 +567,8 @@ GainControl
 kFixedDigital
 ;
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }
@@ -9487,9 +9486,8 @@ SuppressionLevel
 k21dB
 ;
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }

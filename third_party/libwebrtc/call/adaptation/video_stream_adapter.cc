@@ -879,9 +879,8 @@ kRejectedByConstraint
 "
 ;
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }
@@ -1992,9 +1991,8 @@ Status
 kAdaptationDisabled
 ;
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }
@@ -2400,9 +2398,8 @@ Status
 kAdaptationDisabled
 ;
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }
@@ -3356,9 +3353,8 @@ input_state
 ;
 }
 }
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
 ;
 }

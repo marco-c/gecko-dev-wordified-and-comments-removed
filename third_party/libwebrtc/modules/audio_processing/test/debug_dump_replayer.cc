@@ -413,13 +413,9 @@ Event
 :
 UNKNOWN_EVENT
 :
-RTC_CHECK
+RTC_CHECK_NOTREACHED
 (
-false
 )
-;
-return
-false
 ;
 }
 LoadNextMessage
