@@ -344,7 +344,7 @@ static
 void
 UpdateTextChangeData
 (
-HyperTextAccessibleWrap
+HyperTextAccessibleBase
 *
 aAcc
 bool
@@ -362,10 +362,8 @@ aLen
 protected
 :
 static
-StaticRefPtr
-<
-HyperTextAccessibleWrap
->
+HyperTextAccessibleBase
+*
 sLastTextChangeAcc
 ;
 static

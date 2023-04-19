@@ -5103,6 +5103,15 @@ XP_WIN
 bool
 sync
 =
+!
+StaticPrefs
+:
+:
+accessibility_cache_enabled_AtStartup
+(
+)
+&
+&
 text
 .
 Contains
