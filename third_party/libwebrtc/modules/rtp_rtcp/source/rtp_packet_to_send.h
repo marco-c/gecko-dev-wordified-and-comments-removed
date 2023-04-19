@@ -261,6 +261,7 @@ uint16_t
 retransmitted_sequence_number
 (
 )
+const
 {
 return
 retransmitted_sequence_number_
@@ -282,6 +283,7 @@ bool
 allow_retransmission
 (
 )
+const
 {
 return
 allow_retransmission_
