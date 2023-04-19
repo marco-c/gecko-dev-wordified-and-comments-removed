@@ -276,6 +276,15 @@ ReadAntiAliasingThreshold
 (
 )
 ;
+static
+void
+FontRegistrationCallback
+(
+void
+*
+aUnused
+)
+;
 uint32_t
 mFontAntiAliasingThreshold
 ;
