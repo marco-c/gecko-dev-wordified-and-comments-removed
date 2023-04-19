@@ -97,7 +97,7 @@ png
 '
 ;
 const
-INVALID_ICON_URL
+NONEXISTENT_ICON_URL
 =
 '
 https
