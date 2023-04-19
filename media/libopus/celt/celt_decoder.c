@@ -3477,7 +3477,7 @@ i
 LPC_ORDER
 ]
 =
-ROUND16
+SROUND16
 (
 buf
 [
@@ -4030,7 +4030,7 @@ SIG_SHIFT
 ;
 tmp
 =
-ROUND16
+SROUND16
 (
 buf
 [
@@ -4087,7 +4087,7 @@ lpc_mem
 i
 ]
 =
-ROUND16
+SROUND16
 (
 buf
 [
@@ -4194,7 +4194,7 @@ i
 opus_val16
 tmp
 =
-ROUND16
+SROUND16
 (
 buf
 [

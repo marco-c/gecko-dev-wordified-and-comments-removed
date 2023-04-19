@@ -802,7 +802,7 @@ y
 i
 ]
 =
-ROUND16
+SROUND16
 (
 sum
 [
@@ -818,7 +818,7 @@ i
 1
 ]
 =
-ROUND16
+SROUND16
 (
 sum
 [
@@ -834,7 +834,7 @@ i
 2
 ]
 =
-ROUND16
+SROUND16
 (
 sum
 [
@@ -850,7 +850,7 @@ i
 3
 ]
 =
-ROUND16
+SROUND16
 (
 sum
 [
@@ -925,7 +925,7 @@ y
 i
 ]
 =
-ROUND16
+SROUND16
 (
 sum
 SIG_SHIFT
