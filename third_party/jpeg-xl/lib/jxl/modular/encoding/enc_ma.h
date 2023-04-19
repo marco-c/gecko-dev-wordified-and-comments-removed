@@ -700,7 +700,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 >
 compact_properties
@@ -725,7 +725,7 @@ predictors
 ;
 static
 constexpr
-int
+int32_t
 kPropertyRange
 =
 511

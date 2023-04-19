@@ -738,7 +738,7 @@ c
 x
 )
 ;
-Store
+StoreU
 (
 px
 df
@@ -1312,7 +1312,7 @@ w
 ;
 #
 endif
-Store
+StoreU
 (
 X
 *
@@ -1328,7 +1328,7 @@ output_rows
 x
 )
 ;
-Store
+StoreU
 (
 Y
 *
@@ -1344,7 +1344,7 @@ output_rows
 x
 )
 ;
-Store
+StoreU
 (
 B
 *
@@ -4152,9 +4152,6 @@ stage
 )
 ;
 }
-return
-nullptr
-;
 }
 }
 #

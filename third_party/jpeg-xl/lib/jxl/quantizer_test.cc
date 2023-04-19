@@ -269,8 +269,6 @@ quantizer2
 (
 &
 dequant
-qxsize
-qysize
 )
 ;
 BitReader
@@ -453,8 +451,6 @@ quantizer2
 (
 &
 dequant
-qxsize
-qysize
 )
 ;
 BitReader

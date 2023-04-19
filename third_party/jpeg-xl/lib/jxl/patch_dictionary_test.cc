@@ -25,17 +25,6 @@ lib
 /
 jxl
 /
-dec_params
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 enc_butteraugli_comparator
 .
 h
@@ -169,9 +158,6 @@ Override
 :
 kOn
 ;
-DecompressParams
-dparams
-;
 CodecInOut
 io2
 ;
@@ -182,7 +168,8 @@ Roundtrip
 &
 io
 cparams
-dparams
+{
+}
 pool
 &
 io2
@@ -282,9 +269,6 @@ Override
 :
 kOn
 ;
-DecompressParams
-dparams
-;
 CodecInOut
 io2
 ;
@@ -295,7 +279,8 @@ Roundtrip
 &
 io
 cparams
-dparams
+{
+}
 pool
 &
 io2

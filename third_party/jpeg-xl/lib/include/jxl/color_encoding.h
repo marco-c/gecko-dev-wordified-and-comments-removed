@@ -12,15 +12,6 @@ stdint
 h
 >
 #
-include
-"
-jxl
-/
-types
-.
-h
-"
-#
 if
 defined
 (

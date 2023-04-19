@@ -129,10 +129,6 @@ pixbuf2
 -
 dev
 \
-libgflags
--
-dev
-\
 libgif
 -
 dev

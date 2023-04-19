@@ -23,15 +23,6 @@ include
 "
 jxl
 /
-color_encoding
-.
-h
-"
-#
-include
-"
-jxl
-/
 types
 .
 h

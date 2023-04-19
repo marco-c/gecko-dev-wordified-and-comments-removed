@@ -222,7 +222,7 @@ return
 TEST_F
 (
 DataParallelTest
-RunnerCalledParamenters
+RunnerCalledParameters
 )
 {
 EXPECT_TRUE

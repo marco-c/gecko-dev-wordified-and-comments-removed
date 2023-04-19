@@ -869,16 +869,6 @@ eci
 alpha_associated
 ;
 }
-void
-PremultiplyAlpha
-(
-)
-;
-void
-UnpremultiplyAlpha
-(
-)
-;
 const
 ImageF
 &

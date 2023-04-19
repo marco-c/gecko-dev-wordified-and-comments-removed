@@ -347,6 +347,7 @@ kP3
 ;
 }
 enum
+class
 TransferFunction
 :
 uint32_t

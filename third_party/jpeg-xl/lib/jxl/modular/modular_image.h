@@ -35,6 +35,11 @@ h
 #
 include
 <
+string
+>
+#
+include
+<
 utility
 >
 #
@@ -510,6 +515,15 @@ pool
 =
 nullptr
 )
+;
+std
+:
+:
+string
+DebugString
+(
+)
+const
 ;
 }
 ;

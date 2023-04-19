@@ -1,5 +1,10 @@
 #
 include
+<
+atomic
+>
+#
+include
 "
 gtest
 /

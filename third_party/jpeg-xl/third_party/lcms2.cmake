@@ -345,9 +345,7 @@ gcc
 .
 if
 (
-{
 CMAKE_C_COMPILER_ID
-}
 MATCHES
 "
 GNU

@@ -407,6 +407,11 @@ num_histograms
 BitWriter
 *
 writer
+size_t
+layer
+AuxOut
+*
+aux_out
 )
 {
 if
@@ -781,8 +786,8 @@ codes
 &
 dummy_context_map
 writer
-0
-nullptr
+layer
+aux_out
 )
 ;
 WriteTokens
@@ -1100,6 +1105,8 @@ block_ctx_map
 .
 num_ctxs
 writer
+kLayerAC
+aux_out
 )
 ;
 ReclaimAndCharge

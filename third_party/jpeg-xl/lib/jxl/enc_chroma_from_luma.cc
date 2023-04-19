@@ -1280,10 +1280,10 @@ ImageF
 dc_values
 bool
 fast
-int
+int32_t
 *
 dc_x
-int
+int32_t
 *
 dc_b
 )

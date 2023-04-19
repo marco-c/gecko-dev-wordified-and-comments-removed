@@ -175,9 +175,7 @@ brlib
 )
 if
 (
-{
 CMAKE_VERSION
-}
 VERSION_LESS
 "
 3

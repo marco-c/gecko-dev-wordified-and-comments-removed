@@ -3648,6 +3648,7 @@ i
 64
 ;
 }
+}
 JXL_RETURN_IF_ERROR
 (
 DecodeDctParams
@@ -3674,7 +3675,6 @@ dct_params_afv_4x4
 )
 )
 ;
-}
 break
 ;
 }

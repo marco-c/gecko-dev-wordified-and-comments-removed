@@ -1042,7 +1042,9 @@ PRIuS
 (
 target
 %
-d
+"
+PRIx64
+"
 )
 =
 =
@@ -1078,7 +1080,13 @@ d
 "
 xsize
 ysize
+static_cast
+<
+int64_t
+>
+(
 HWY_TARGET
+)
 )
 ;
 JXL_DEBUG

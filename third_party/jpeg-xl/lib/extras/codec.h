@@ -282,7 +282,13 @@ ColorEncoding
 c_desired
 size_t
 bits_per_sample
-PaddedBytes
+std
+:
+:
+vector
+<
+uint8_t
+>
 *
 bytes
 ThreadPool

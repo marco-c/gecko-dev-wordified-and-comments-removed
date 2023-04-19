@@ -160,11 +160,6 @@ JxlCmsInterface
 cms
 )
 ;
-void
-TestCubeRoot
-(
-)
-;
 }
 #
 endif

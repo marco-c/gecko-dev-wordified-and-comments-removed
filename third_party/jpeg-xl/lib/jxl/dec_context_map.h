@@ -43,7 +43,7 @@ kMaxClusters
 =
 256
 ;
-bool
+Status
 DecodeContextMap
 (
 std

@@ -46,7 +46,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 CreateFlatHistogram
 (
@@ -84,7 +84,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 result
 (
@@ -136,7 +136,7 @@ std
 :
 vector
 <
-int
+int32_t
 >
 distribution
 uint32_t

@@ -215,7 +215,7 @@ index
 ;
 }
 }
-bool
+Status
 VerifyContextMap
 (
 const
@@ -329,7 +329,7 @@ true
 ;
 }
 }
-bool
+Status
 DecodeContextMap
 (
 std

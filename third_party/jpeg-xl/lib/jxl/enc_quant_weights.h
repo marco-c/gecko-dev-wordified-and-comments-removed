@@ -70,6 +70,17 @@ dc
 )
 ;
 void
+DequantMatricesScaleDC
+(
+DequantMatrices
+*
+matrices
+const
+float
+scale
+)
+;
+void
 DequantMatricesSetCustom
 (
 DequantMatrices

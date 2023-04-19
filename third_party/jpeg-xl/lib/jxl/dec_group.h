@@ -144,17 +144,6 @@ lib
 /
 jxl
 /
-dec_params
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 frame_header
 .
 h

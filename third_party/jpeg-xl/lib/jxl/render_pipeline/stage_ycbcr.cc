@@ -258,7 +258,7 @@ const
 auto
 y_vec
 =
-Load
+LoadU
 (
 df
 row1
@@ -272,7 +272,7 @@ const
 auto
 cb_vec
 =
-Load
+LoadU
 (
 df
 row0
@@ -284,7 +284,7 @@ const
 auto
 cr_vec
 =
-Load
+LoadU
 (
 df
 row2
@@ -326,7 +326,7 @@ cb_vec
 +
 y_vec
 ;
-Store
+StoreU
 (
 r_vec
 df
@@ -335,7 +335,7 @@ row0
 x
 )
 ;
-Store
+StoreU
 (
 g_vec
 df
@@ -344,7 +344,7 @@ row1
 x
 )
 ;
-Store
+StoreU
 (
 b_vec
 df

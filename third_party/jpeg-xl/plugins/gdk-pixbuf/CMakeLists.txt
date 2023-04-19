@@ -286,7 +286,7 @@ if
 BUILD_TESTING
 AND
 NOT
-MINGW
+CMAKE_CROSSCOMPILING
 )
 pkg_check_modules
 (
@@ -572,8 +572,6 @@ cache
 {
 CMAKE_SOURCE_DIR
 }
-/
-third_party
 /
 testdata
 /

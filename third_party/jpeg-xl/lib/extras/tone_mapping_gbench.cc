@@ -76,13 +76,11 @@ image_bytes
 ReadTestData
 (
 "
-third_party
+jxl
 /
-imagecompression
-.
-info
+flower
 /
-flower_foveon
+flower
 .
 png
 "

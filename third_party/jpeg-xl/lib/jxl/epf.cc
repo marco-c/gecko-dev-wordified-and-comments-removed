@@ -465,7 +465,7 @@ by
 )
 ;
 const
-int
+int32_t
 *
 const
 JXL_RESTRICT

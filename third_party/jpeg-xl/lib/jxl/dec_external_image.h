@@ -136,6 +136,10 @@ jxl
 :
 Orientation
 undo_orientation
+bool
+unpremul_alpha
+=
+false
 )
 ;
 Status

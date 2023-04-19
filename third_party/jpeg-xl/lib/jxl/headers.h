@@ -106,13 +106,6 @@ Fields
 {
 public
 :
-static
-constexpr
-size_t
-kMaxBits
-=
-78
-;
 SizeHeader
 (
 )

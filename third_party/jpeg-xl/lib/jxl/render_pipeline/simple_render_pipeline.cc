@@ -467,13 +467,14 @@ void
 )
 r
 ;
-JXL_CHECK_IMAGE_INITIALIZED
+JXL_CHECK_PLANE_INITIALIZED
 (
 channel_data_
 [
 c
 ]
 r
+c
 )
 ;
 }
@@ -1714,7 +1715,7 @@ ysize
 kRenderPipelineXOffset
 )
 ;
-JXL_CHECK_IMAGE_INITIALIZED
+JXL_CHECK_PLANE_INITIALIZED
 (
 channel_data_
 [
@@ -1727,6 +1728,7 @@ kRenderPipelineXOffset
 xsize
 ysize
 )
+c
 )
 ;
 }
