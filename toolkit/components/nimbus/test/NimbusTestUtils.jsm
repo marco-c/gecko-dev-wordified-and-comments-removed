@@ -1255,6 +1255,9 @@ manager
 lazy
 .
 ExperimentManager
+isRollout
+=
+false
 }
 =
 {
@@ -1366,6 +1369,7 @@ featureConfig
 ]
 }
 ]
+isRollout
 }
 )
 ;
