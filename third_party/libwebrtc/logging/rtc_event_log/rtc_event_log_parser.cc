@@ -14656,17 +14656,7 @@ sent
 >
 reported_recv_time
 =
-Timestamp
-:
-:
-Millis
-(
 receive_timestamp
-.
-ms
-(
-)
-)
 ;
 sent
 -
