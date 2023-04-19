@@ -25744,6 +25744,12 @@ setModule
 (
 )
 ;
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 Rooted
 <
 CompilationInput
@@ -25775,6 +25781,8 @@ frontend
 ParseModuleToStencil
 (
 cx
+&
+ec
 input
 .
 get

@@ -38389,6 +38389,12 @@ false
 ;
 }
 }
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 Rooted
 <
 frontend
@@ -38430,6 +38436,8 @@ frontend
 ParseModuleToExtensibleStencil
 (
 cx
+&
+ec
 input
 .
 get
@@ -38441,12 +38449,6 @@ srcBuf
 }
 else
 {
-GeneralErrorContext
-ec
-(
-cx
-)
-;
 stencil
 =
 frontend

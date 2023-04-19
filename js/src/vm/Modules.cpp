@@ -512,6 +512,12 @@ CHECK_THREAD
 cx
 )
 ;
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 return
 frontend
 :
@@ -519,6 +525,8 @@ frontend
 CompileModule
 (
 cx
+&
+ec
 options
 srcBuf
 )
