@@ -89,6 +89,7 @@ void
 setCallback
 :
 (
+nullable
 RTCVideoEncoderCallback
 )
 callback
