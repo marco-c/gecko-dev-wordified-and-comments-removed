@@ -157,9 +157,7 @@ high_bandwidth_packet_loss
 }
 /
 /
-|
 fec_enabling_threshold
-|
 defines
 a
 curve
@@ -172,9 +170,7 @@ be
 /
 enabled
 .
-|
 fec_disabling_threshold
-|
 defines
 a
 curve
@@ -262,9 +258,7 @@ fec_disabling_threshold
 ;
 /
 /
-|
 time_constant_ms
-|
 is
 the
 time
@@ -431,9 +425,7 @@ high_bandwidth_recoverable_packet_loss
 }
 /
 /
-|
 fec_enabling_threshold
-|
 defines
 a
 curve
@@ -446,9 +438,7 @@ be
 /
 enabled
 .
-|
 fec_disabling_threshold
-|
 defines
 a
 curve
@@ -865,9 +855,7 @@ bitrate
 is
 more
 than
-|
 min_payload_bitrate_bps
-|
 .
 optional
 int32
@@ -1079,9 +1067,7 @@ ScoringPoint
 {
 /
 /
-|
 ScoringPoint
-|
 is
 a
 subspace
@@ -1119,9 +1105,7 @@ uplink_packet_loss_fraction
 The
 distance
 from
-|
 scoring_point
-|
 to
 a
 given
@@ -1167,9 +1151,7 @@ Controllers
 /
 /
 without
-|
 scoring_point
-|
 follow
 their
 default
