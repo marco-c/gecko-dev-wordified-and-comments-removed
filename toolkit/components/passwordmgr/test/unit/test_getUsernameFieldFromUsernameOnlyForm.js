@@ -832,8 +832,6 @@ enabled
 )
 ;
 }
-this
-.
 _setPrefs
 (
 )

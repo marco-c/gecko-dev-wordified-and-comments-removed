@@ -3,18 +3,6 @@ use
 strict
 "
 ;
-XPCOMUtils
-.
-defineLazyGlobalGetters
-(
-this
-[
-"
-URL
-"
-]
-)
-;
 const
 {
 LoginFormFactory
@@ -2571,8 +2559,6 @@ enabled
 )
 ;
 }
-this
-.
 _setPrefs
 (
 )
