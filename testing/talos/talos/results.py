@@ -125,6 +125,23 @@ extra_option
 )
     
 def
+has_results
+(
+self
+)
+:
+        
+return
+len
+(
+self
+.
+results
+)
+>
+0
+    
+def
 output
 (
 self
