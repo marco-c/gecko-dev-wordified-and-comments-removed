@@ -11412,10 +11412,8 @@ return
 true
 ;
 }
+static
 bool
-js
-:
-:
 array_push
 (
 JSContext
@@ -12248,10 +12246,8 @@ DenseElementResult
 Success
 ;
 }
+static
 bool
-js
-:
-:
 array_shift
 (
 JSContext
@@ -18628,10 +18624,8 @@ return
 true
 ;
 }
+static
 bool
-js
-:
-:
 array_slice
 (
 JSContext
