@@ -103,6 +103,9 @@ namespace
 js
 {
 class
+ErrorContext
+;
+class
 MOZ_RAII
 AutoCheckRecursionLimit
 {
@@ -460,6 +463,17 @@ ReportOverRecursed
 JSContext
 *
 maybecx
+)
+;
+extern
+MOZ_COLD
+JS_PUBLIC_API
+void
+ReportOverRecursed
+(
+ErrorContext
+*
+ec
 )
 ;
 MOZ_ALWAYS_INLINE
