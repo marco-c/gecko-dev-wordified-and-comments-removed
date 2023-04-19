@@ -1527,7 +1527,7 @@ max_message_size
 {
 RTC_LOG
 (
-LS_ERROR
+LS_WARNING
 )
 <
 <
@@ -2323,7 +2323,7 @@ result
 {
 RTC_LOG
 (
-LS_ERROR
+LS_WARNING
 )
 <
 <
@@ -2487,7 +2487,7 @@ network_thread_
 ;
 RTC_LOG
 (
-LS_INFO
+LS_VERBOSE
 )
 <
 <
@@ -2962,7 +2962,7 @@ outgoing_streams
 {
 RTC_LOG
 (
-LS_ERROR
+LS_WARNING
 )
 <
 <
@@ -3325,7 +3325,7 @@ transport
 ;
 RTC_LOG
 (
-LS_INFO
+LS_VERBOSE
 )
 <
 <
