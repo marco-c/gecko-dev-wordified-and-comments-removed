@@ -5728,6 +5728,11 @@ ValidityState
 webidl
 "
 "
+VideoColorSpace
+.
+webidl
+"
+"
 VideoPlaybackQuality
 .
 webidl
