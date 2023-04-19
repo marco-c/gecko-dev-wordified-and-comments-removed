@@ -58,7 +58,7 @@ plugin
 -
 mozilla
 /
-use
+valid
 -
 services
 .
