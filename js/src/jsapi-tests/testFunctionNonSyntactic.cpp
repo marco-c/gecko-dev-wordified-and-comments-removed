@@ -77,15 +77,6 @@ include
 "
 vm
 /
-Scope
-.
-h
-"
-#
-include
-"
-vm
-/
 ScopeKind
 .
 h

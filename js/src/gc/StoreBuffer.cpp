@@ -45,6 +45,17 @@ Runtime
 .
 h
 "
+#
+include
+"
+gc
+/
+GC
+-
+inl
+.
+h
+"
 using
 namespace
 js

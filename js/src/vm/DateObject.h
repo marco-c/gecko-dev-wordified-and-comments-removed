@@ -27,6 +27,15 @@ include
 "
 vm
 /
+JSObject
+.
+h
+"
+#
+include
+"
+vm
+/
 NativeObject
 .
 h

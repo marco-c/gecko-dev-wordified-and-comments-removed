@@ -6,13 +6,6 @@ define
 vm_ObjectFlags_h
 #
 include
-<
-stdint
-.
-h
->
-#
-include
 "
 util
 /

@@ -93,6 +93,15 @@ include
 "
 vm
 /
+ErrorContext
+.
+h
+"
+#
+include
+"
+vm
+/
 FunctionFlags
 .
 h
@@ -150,7 +159,6 @@ namespace
 JS
 {
 class
-JS_PUBLIC_API
 ReadOnlyCompileOptions
 ;
 struct
@@ -160,9 +168,6 @@ WasmModule
 namespace
 js
 {
-class
-ErrorContext
-;
 namespace
 frontend
 {

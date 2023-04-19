@@ -85,6 +85,15 @@ GeneratorResumeKind
 .
 h
 "
+#
+include
+"
+vm
+/
+StringType
+.
+h
+"
 namespace
 js
 {

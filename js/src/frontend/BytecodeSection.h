@@ -149,6 +149,15 @@ include
 "
 vm
 /
+Opcodes
+.
+h
+"
+#
+include
+"
+vm
+/
 SharedStencil
 .
 h

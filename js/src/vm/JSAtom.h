@@ -56,6 +56,15 @@ Utility
 .
 h
 "
+#
+include
+"
+vm
+/
+CommonPropertyNames
+.
+h
+"
 namespace
 js
 {

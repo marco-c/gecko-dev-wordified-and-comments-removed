@@ -49,7 +49,6 @@ namespace
 JS
 {
 class
-JS_PUBLIC_API
 ReadOnlyCompileOptions
 ;
 using

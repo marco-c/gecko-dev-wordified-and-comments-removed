@@ -78,15 +78,6 @@ include
 "
 vm
 /
-HelperThreads
-.
-h
-"
-#
-include
-"
-vm
-/
 JSContext
 .
 h

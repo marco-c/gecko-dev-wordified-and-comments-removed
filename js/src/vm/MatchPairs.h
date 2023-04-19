@@ -7,6 +7,15 @@ vm_MatchPairs_h
 #
 include
 "
+ds
+/
+LifoAlloc
+.
+h
+"
+#
+include
+"
 js
 /
 AllocPolicy

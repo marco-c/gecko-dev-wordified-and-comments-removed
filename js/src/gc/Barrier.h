@@ -6,6 +6,15 @@ define
 gc_Barrier_h
 #
 include
+"
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
 <
 type_traits
 >

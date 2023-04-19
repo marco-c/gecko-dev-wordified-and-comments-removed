@@ -158,6 +158,15 @@ include
 "
 vm
 /
+ErrorContext
+.
+h
+"
+#
+include
+"
+vm
+/
 GeneratorAndAsyncKind
 .
 h
@@ -174,9 +183,6 @@ h
 namespace
 js
 {
-class
-ErrorContext
-;
 namespace
 frontend
 {

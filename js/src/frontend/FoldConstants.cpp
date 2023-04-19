@@ -113,6 +113,15 @@ StringBuffer
 .
 h
 "
+#
+include
+"
+vm
+/
+StringType
+.
+h
+"
 using
 namespace
 js

@@ -79,15 +79,6 @@ include
 "
 vm
 /
-Interpreter
-.
-h
-"
-#
-include
-"
-vm
-/
 JSObject
 .
 h

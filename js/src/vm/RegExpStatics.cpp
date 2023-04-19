@@ -12,7 +12,7 @@ include
 "
 gc
 /
-Zone
+GCContext
 .
 h
 "
@@ -21,7 +21,9 @@ include
 "
 vm
 /
-RegExpShared
+NativeObject
+-
+inl
 .
 h
 "

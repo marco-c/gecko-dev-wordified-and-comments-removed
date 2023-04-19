@@ -7,15 +7,6 @@ vm_AtomsTable_h
 #
 include
 "
-gc
-/
-Barrier
-.
-h
-"
-#
-include
-"
 js
 /
 GCHashTable
@@ -45,7 +36,7 @@ include
 "
 vm
 /
-StringType
+JSAtom
 .
 h
 "

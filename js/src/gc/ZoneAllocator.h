@@ -52,6 +52,15 @@ include
 "
 js
 /
+HeapAPI
+.
+h
+"
+#
+include
+"
+js
+/
 shadow
 /
 Zone

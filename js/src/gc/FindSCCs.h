@@ -20,6 +20,13 @@ algorithm
 >
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 js
 /

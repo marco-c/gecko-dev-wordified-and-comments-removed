@@ -36,7 +36,7 @@ include
 "
 gc
 /
-Policy
+Marking
 .
 h
 "
@@ -118,6 +118,15 @@ include
 vm
 /
 ArrayObject
+.
+h
+"
+#
+include
+"
+vm
+/
+JSAtom
 .
 h
 "

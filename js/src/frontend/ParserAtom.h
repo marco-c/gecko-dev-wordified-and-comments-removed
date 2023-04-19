@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+HashFunctions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h

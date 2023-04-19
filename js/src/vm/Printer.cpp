@@ -98,7 +98,7 @@ include
 "
 vm
 /
-StringType
+JSContext
 .
 h
 "

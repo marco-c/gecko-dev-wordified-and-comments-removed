@@ -55,7 +55,7 @@ include
 "
 vm
 /
-BigIntType
+ErrorContext
 .
 h
 "

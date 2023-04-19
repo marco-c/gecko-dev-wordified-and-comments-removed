@@ -36,6 +36,15 @@ include
 "
 vm
 /
+EnvironmentObject
+.
+h
+"
+#
+include
+"
+vm
+/
 GlobalObject
 .
 h

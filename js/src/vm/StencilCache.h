@@ -36,6 +36,17 @@ include
 "
 js
 /
+experimental
+/
+JSStencil
+.
+h
+"
+#
+include
+"
+js
+/
 HashTable
 .
 h
@@ -54,7 +65,7 @@ include
 "
 vm
 /
-JSScript
+MutexIDs
 .
 h
 "
@@ -74,6 +85,9 @@ JSContext
 namespace
 js
 {
+class
+ScriptSource
+;
 namespace
 frontend
 {

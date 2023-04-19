@@ -43,15 +43,6 @@ include
 "
 vm
 /
-Compartment
-.
-h
-"
-#
-include
-"
-vm
-/
 JSContext
 .
 h

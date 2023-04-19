@@ -64,6 +64,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 type_traits
 >
 #
