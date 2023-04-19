@@ -628,6 +628,15 @@ MCompare
 :
 :
 Compare_UIntPtr
+|
+|
+type
+=
+=
+MCompare
+:
+:
+Compare_RefOrNull
 )
 {
 if
