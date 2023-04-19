@@ -129,6 +129,15 @@ ToI420
 )
 final
 ;
+const
+I420BufferInterface
+*
+GetI420
+(
+)
+const
+final
+;
 private
 :
 uint16_t
