@@ -10103,6 +10103,7 @@ throwOnAsmJSValidationFailureOption
 ReportCompileErrorLatin1
 (
 cx_
+cx_
 std
 :
 :

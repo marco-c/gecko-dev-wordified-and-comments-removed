@@ -53,6 +53,11 @@ h
 namespace
 js
 {
+using
+JSAllocator
+=
+JSContext
+;
 struct
 ErrorMetadata
 {
@@ -176,6 +181,9 @@ ReportCompileErrorLatin1
 JSContext
 *
 cx
+JSAllocator
+*
+alloc
 ErrorMetadata
 &
 &
@@ -199,6 +207,9 @@ ReportCompileErrorUTF8
 JSContext
 *
 cx
+JSAllocator
+*
+alloc
 ErrorMetadata
 &
 &
@@ -227,6 +238,9 @@ ReportCompileWarning
 JSContext
 *
 cx
+JSAllocator
+*
+alloc
 ErrorMetadata
 &
 &

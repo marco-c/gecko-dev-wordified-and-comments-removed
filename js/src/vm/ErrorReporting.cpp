@@ -253,6 +253,9 @@ ReportCompileWarning
 JSContext
 *
 cx
+JSAllocator
+*
+alloc
 ErrorMetadata
 &
 &
@@ -453,6 +456,9 @@ ReportCompileErrorImpl
 JSContext
 *
 cx
+JSAllocator
+*
+alloc
 js
 :
 :
@@ -623,7 +629,7 @@ js
 :
 ExpandErrorArgumentsVA
 (
-cx
+alloc
 js
 :
 :
@@ -697,6 +703,9 @@ ReportCompileErrorLatin1
 JSContext
 *
 cx
+JSAllocator
+*
+alloc
 ErrorMetadata
 &
 &
@@ -716,6 +725,7 @@ args
 ReportCompileErrorImpl
 (
 cx
+alloc
 std
 :
 :
@@ -745,6 +755,9 @@ ReportCompileErrorUTF8
 JSContext
 *
 cx
+JSAllocator
+*
+alloc
 ErrorMetadata
 &
 &
@@ -764,6 +777,7 @@ args
 ReportCompileErrorImpl
 (
 cx
+alloc
 std
 :
 :
@@ -1228,9 +1242,9 @@ count_
 bool
 init
 (
-JSContext
+JSAllocator
 *
-cx
+alloc
 void
 *
 argsArg
@@ -1412,7 +1426,7 @@ JS
 :
 CharsToNewUTF8CharsZ
 (
-cx
+alloc
 range
 )
 .
@@ -1518,7 +1532,7 @@ JS
 :
 CharsToNewUTF8CharsZ
 (
-cx
+alloc
 range
 )
 .

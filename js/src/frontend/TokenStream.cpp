@@ -3071,6 +3071,7 @@ metadata
 ReportCompileErrorLatin1
 (
 cx
+cx
 std
 :
 :
@@ -5218,6 +5219,9 @@ break
 }
 ReportCompileErrorLatin1
 (
+anyChars
+.
+cx
 anyChars
 .
 cx
