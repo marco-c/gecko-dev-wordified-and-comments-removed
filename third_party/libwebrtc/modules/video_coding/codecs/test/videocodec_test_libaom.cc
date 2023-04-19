@@ -297,7 +297,7 @@ quality_thresholds
 94
 0
 .
-92
+915
 }
 }
 ;
