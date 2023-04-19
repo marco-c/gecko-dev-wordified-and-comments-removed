@@ -201,6 +201,17 @@ include
 "
 modules
 /
+include
+/
+module
+.
+h
+"
+#
+include
+"
+modules
+/
 rtp_rtcp
 /
 source

@@ -2901,6 +2901,14 @@ audio
 .
 /
 modules
+:
+module_api
+"
+"
+.
+.
+/
+modules
 /
 audio_device
 :
