@@ -36,7 +36,9 @@ js
 "
 DevToolsSocketStatus
 .
-jsm
+sys
+.
+mjs
 "
 "
 prompt
