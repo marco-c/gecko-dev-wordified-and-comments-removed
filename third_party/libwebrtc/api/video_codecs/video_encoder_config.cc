@@ -336,10 +336,6 @@ legacy_conference_mode
 (
 false
 )
-is_quality_scaling_allowed
-(
-false
-)
 {
 }
 VideoEncoderConfig
