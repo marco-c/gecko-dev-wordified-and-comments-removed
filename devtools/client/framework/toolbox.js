@@ -4196,6 +4196,8 @@ this
 .
 webconsolePanel
 .
+style
+.
 height
 =
 Services
@@ -4206,6 +4208,10 @@ getIntPref
 (
 SPLITCONSOLE_HEIGHT_PREF
 )
++
+"
+px
+"
 ;
 this
 .
@@ -7043,11 +7049,17 @@ prefs
 setIntPref
 (
 SPLITCONSOLE_HEIGHT_PREF
+parseInt
+(
 this
 .
 webconsolePanel
 .
+style
+.
 height
+10
+)
 )
 ;
 }

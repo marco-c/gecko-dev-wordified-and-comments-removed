@@ -257,6 +257,8 @@ this
 .
 frame
 .
+style
+.
 height
 =
 Math
@@ -281,6 +283,10 @@ clientHeight
 -
 MIN_PAGE_SIZE
 )
++
+"
+px
+"
 ;
 this
 .
@@ -361,11 +367,17 @@ setIntPref
 this
 .
 heightPref
+parseInt
+(
 this
 .
 frame
 .
+style
+.
 height
+10
+)
 )
 ;
 this
