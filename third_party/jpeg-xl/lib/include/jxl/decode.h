@@ -251,8 +251,8 @@ JxlDecoder
 dec
 )
 ;
-JXL_EXPORT
 JXL_DEPRECATED
+JXL_EXPORT
 JxlDecoderStatus
 JxlDecoderDefaultPixelFormat
 (
@@ -604,8 +604,8 @@ JxlBlendInfo
 blend_info
 )
 ;
-JXL_EXPORT
 JXL_DEPRECATED
+JXL_EXPORT
 JxlDecoderStatus
 JxlDecoderDCOutBufferSize
 (
@@ -622,8 +622,8 @@ size_t
 size
 )
 ;
-JXL_EXPORT
 JXL_DEPRECATED
+JXL_EXPORT
 JxlDecoderStatus
 JxlDecoderSetDCOutBuffer
 (

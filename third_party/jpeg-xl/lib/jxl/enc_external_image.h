@@ -167,8 +167,6 @@ size_t
 bits_per_sample
 JxlEndianness
 endianness
-bool
-flipped_y
 ThreadPool
 *
 pool

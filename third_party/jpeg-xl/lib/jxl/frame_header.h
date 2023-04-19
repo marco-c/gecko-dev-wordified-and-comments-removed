@@ -547,6 +547,7 @@ RawHShift
 size_t
 c
 )
+const
 {
 return
 kHShift
@@ -564,6 +565,7 @@ RawVShift
 size_t
 c
 )
+const
 {
 return
 kVShift
@@ -1078,6 +1080,15 @@ clamp
 ;
 uint32_t
 source
+;
+std
+:
+:
+string
+DebugString
+(
+)
+const
 ;
 size_t
 nonserialized_num_extra_channels

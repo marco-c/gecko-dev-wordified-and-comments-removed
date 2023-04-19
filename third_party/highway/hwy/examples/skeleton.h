@@ -23,6 +23,7 @@ h
 namespace
 skeleton
 {
+HWY_DLLEXPORT
 void
 CallFloorLog2
 (

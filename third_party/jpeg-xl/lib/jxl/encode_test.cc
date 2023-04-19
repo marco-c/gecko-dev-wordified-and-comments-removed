@@ -2421,12 +2421,16 @@ JXL_ENC_FRAME_SETTING_PROGRESSIVE_DC
 ;
 VerifyFrameEncoding
 (
+63
+129
 enc
 .
 get
 (
 )
 frame_settings
+2750
+false
 )
 ;
 EXPECT_EQ
