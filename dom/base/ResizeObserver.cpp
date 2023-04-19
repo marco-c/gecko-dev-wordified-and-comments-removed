@@ -289,11 +289,12 @@ size
 }
 if
 (
-aTarget
+frame
 -
 >
-IsSVGElement
+HasAnyStateBits
 (
+NS_FRAME_SVG_LAYOUT
 )
 )
 {
