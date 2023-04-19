@@ -63,16 +63,6 @@ com
 "
 ;
 const
-USE_CREDENTIALLESS
-=
-true
-;
-const
-NO_CREDENTIALLESS
-=
-false
-;
-const
 RESOURCE_URL
 =
 getRootDirectory

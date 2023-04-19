@@ -32258,6 +32258,8 @@ InitCOEP
 mChannel
 )
 ;
+if
+(
 WindowContext
 *
 ctx
@@ -32265,12 +32267,8 @@ ctx
 GetWindowContext
 (
 )
-;
-MOZ_ASSERT
-(
-ctx
 )
-;
+{
 if
 (
 mEmbedderPolicy
@@ -32291,6 +32289,7 @@ value
 )
 )
 ;
+}
 }
 }
 }
