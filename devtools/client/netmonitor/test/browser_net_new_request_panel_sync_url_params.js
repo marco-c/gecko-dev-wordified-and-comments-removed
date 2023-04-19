@@ -592,16 +592,12 @@ http
 custom
 -
 query
-#
+.
 http
 -
 custom
 -
-name
--
-and
--
-value
+input
 .
 http
 -
@@ -994,7 +990,7 @@ http
 custom
 -
 query
-#
+.
 http
 -
 custom
@@ -1031,7 +1027,7 @@ http
 custom
 -
 query
-#
+.
 http
 -
 custom
