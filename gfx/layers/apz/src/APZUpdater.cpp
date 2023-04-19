@@ -1763,6 +1763,14 @@ IsUpdaterThread
 )
 )
 {
+MOZ_ASSERT
+(
+!
+IsConnectedToWebRender
+(
+)
+)
+;
 task
 -
 >
