@@ -1005,7 +1005,7 @@ RelationType
 LABELLED_BY
 )
 .
-Next
+LocalNext
 (
 )
 ;

@@ -3879,7 +3879,7 @@ AtkObject
 >
 targets
 ;
-LocalAccessible
+Accessible
 *
 tempAcc
 =
@@ -3902,10 +3902,7 @@ targets
 .
 AppendElement
 (
-AccessibleWrap
-:
-:
-GetAtkObject
+GetWrapperFor
 (
 tempAcc
 )
