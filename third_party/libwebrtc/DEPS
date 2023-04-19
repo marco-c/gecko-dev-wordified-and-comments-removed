@@ -413,7 +413,11 @@ gn
 /
 mac
 -
-amd64
+{
+{
+arch
+}
+}
 '
 '
 version
