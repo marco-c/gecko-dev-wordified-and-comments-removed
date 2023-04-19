@@ -296,7 +296,7 @@ arrayOfContents
 {
 AutoTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -672,7 +672,7 @@ arrayOfContents
 {
 AutoTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -1324,7 +1324,7 @@ else
 {
 AutoTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -2784,7 +2784,7 @@ aArrayOfContents
 {
 AutoTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >

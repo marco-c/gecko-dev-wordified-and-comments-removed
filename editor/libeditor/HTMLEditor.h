@@ -2547,7 +2547,7 @@ SplitParentInlineElementsAtRangeEdges
 (
 nsTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -2662,7 +2662,7 @@ SplitInlinesAndCollectEditTargetNodes
 (
 nsTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -2695,7 +2695,7 @@ SplitTextNodesAtRangeEnd
 (
 nsTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -2709,7 +2709,7 @@ CollectEditTargetNodes
 (
 nsTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -2822,7 +2822,7 @@ GetSelectionRangesExtendedToHardLineStartAndEnd
 (
 nsTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >

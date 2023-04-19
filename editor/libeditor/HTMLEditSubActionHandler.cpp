@@ -15633,7 +15633,7 @@ this
 ;
 AutoTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -18985,7 +18985,7 @@ this
 ;
 AutoTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -19370,7 +19370,7 @@ arrayOfContents
 {
 AutoTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -22174,7 +22174,7 @@ IsEmpty
 {
 AutoTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -23228,7 +23228,7 @@ this
 ;
 AutoTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -25210,7 +25210,7 @@ arrayOfContents
 {
 AutoTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -29684,7 +29684,7 @@ arrayOfContents
 {
 AutoTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -32861,7 +32861,7 @@ GetSelectionRangesExtendedToHardLineStartAndEnd
 (
 nsTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -33011,7 +33011,13 @@ aOutArrayOfRanges
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 extendedRange
+)
 )
 ;
 }
@@ -33823,7 +33829,7 @@ SplitInlinesAndCollectEditTargetNodes
 (
 nsTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -33994,7 +34000,7 @@ SplitTextNodesAtRangeEnd
 (
 nsTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -34016,7 +34022,7 @@ ignoredError
 ;
 for
 (
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -34289,7 +34295,7 @@ SplitParentInlineElementsAtRangeEdges
 (
 nsTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -34320,7 +34326,10 @@ Length
 ;
 for
 (
-auto
+OwningNonNull
+<
+RangeItem
+>
 &
 rangeItem
 :
@@ -34371,7 +34380,10 @@ NS_OK
 ;
 for
 (
-auto
+OwningNonNull
+<
+RangeItem
+>
 &
 item
 :
@@ -34419,7 +34431,10 @@ break
 }
 for
 (
-auto
+OwningNonNull
+<
+RangeItem
+>
 &
 item
 :
@@ -34457,7 +34472,13 @@ aArrayOfRanges
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 range
+)
 )
 ;
 }
@@ -34489,7 +34510,7 @@ CollectEditTargetNodes
 (
 nsTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
@@ -52293,7 +52314,7 @@ this
 ;
 AutoTArray
 <
-RefPtr
+OwningNonNull
 <
 nsRange
 >
