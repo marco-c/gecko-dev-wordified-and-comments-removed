@@ -460,6 +460,14 @@ using
 testing
 :
 :
+AtLeast
+;
+using
+:
+:
+testing
+:
+:
 Eq
 ;
 using
@@ -22844,7 +22852,10 @@ expected_bitrate
 .
 Times
 (
-1
+AtLeast
+(
+3
+)
 )
 ;
 const
@@ -22863,6 +22874,8 @@ CurrentTimeMs
 -
 start_time_ms
 <
+5
+*
 kProcessIntervalMs
 )
 {
