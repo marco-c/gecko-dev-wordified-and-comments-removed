@@ -168,6 +168,14 @@ rtc_base_approved
 /
 public
 :
+strong_alias
+"
+"
+.
+.
+/
+public
+:
 types
 "
 ]
