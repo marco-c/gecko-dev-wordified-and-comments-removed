@@ -47,6 +47,16 @@ contentScriptInjection
 "
 WEBEXT_CONTENT_SCRIPT_INJECTION_MS
 "
+eventPageRunningTime
+:
+"
+WEBEXT_EVENTPAGE_RUNNING_TIME_MS
+"
+eventPageIdleResult
+:
+"
+WEBEXT_EVENTPAGE_IDLE_RESULT_COUNT
+"
 pageActionPopupOpen
 :
 "
