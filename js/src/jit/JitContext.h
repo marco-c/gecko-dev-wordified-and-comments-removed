@@ -291,12 +291,6 @@ uint16_t
 class
 JitContext
 {
-JitContext
-*
-prev_
-=
-nullptr
-;
 CompileRealm
 *
 realm_

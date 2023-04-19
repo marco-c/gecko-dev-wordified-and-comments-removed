@@ -418,13 +418,6 @@ finishedFuncDefs_
 false
 )
 {
-MOZ_ASSERT
-(
-IsCompilingWasm
-(
-)
-)
-;
 }
 ModuleGenerator
 :
@@ -3038,6 +3031,9 @@ ModuleGenerator
 linkCompiledCode
 "
 )
+;
+JitContext
+jcx
 ;
 if
 (
