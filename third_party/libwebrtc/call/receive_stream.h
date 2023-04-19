@@ -97,6 +97,17 @@ extensions
 ;
 }
 ;
+virtual
+const
+RtpConfig
+&
+rtp_config
+(
+)
+const
+=
+0
+;
 protected
 :
 virtual

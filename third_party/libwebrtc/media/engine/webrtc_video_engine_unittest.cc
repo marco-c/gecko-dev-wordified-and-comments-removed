@@ -28101,7 +28101,7 @@ size
 )
 ;
 const
-FakeFlexfecReceiveStream
+auto
 *
 stream
 =
@@ -28997,7 +28997,7 @@ size
 )
 ;
 const
-FakeFlexfecReceiveStream
+auto
 *
 stream
 =
@@ -35473,11 +35473,9 @@ kFlexfecSsrc
 stream
 -
 >
-GetConfig
+rtp_config
 (
 )
-.
-rtp
 .
 remote_ssrc
 )

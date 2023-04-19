@@ -172,9 +172,7 @@ packet
 void
 IdentifyExtensions
 (
-const
 ExtensionManager
-&
 extensions
 )
 ;
