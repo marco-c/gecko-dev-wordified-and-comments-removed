@@ -110,10 +110,6 @@ Temporal
 "
         
 "
-ShadowRealm
-"
-        
-"
 array
 -
 grouping
@@ -254,6 +250,20 @@ array
 find
 -
 last
+"
+    
+"
+ShadowRealm
+"
+:
+"
+-
+-
+enable
+-
+shadow
+-
+realms
 "
 }
 contextlib
