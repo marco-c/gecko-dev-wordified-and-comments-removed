@@ -108,7 +108,7 @@ C
 ]
 pub
 struct
-RGBA
+AnimatedRGBA
 {
 pub
 red
@@ -127,6 +127,14 @@ alpha
 :
 f32
 }
+use
+self
+:
+:
+AnimatedRGBA
+as
+RGBA
+;
 const
 RAD_PER_DEG
 :
