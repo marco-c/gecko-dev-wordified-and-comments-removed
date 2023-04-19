@@ -13616,13 +13616,9 @@ AvailableBSize
 NS_UNCONSTRAINEDSIZE
 |
 |
-GetPrevInFlow
+HasAnyStateBits
 (
-)
-|
-|
-GetNextInFlow
-(
+NS_FRAME_HAS_MULTI_COLUMN_ANCESTOR
 )
 |
 |
