@@ -28481,7 +28481,7 @@ sCrashOnBlocklistedPref
 StaticPrefs
 :
 :
-fission_enforceBlocklistedPrefsInSubprocesses_tmp
+fission_enforceBlocklistedPrefsInSubprocesses
 (
 )
 ;
@@ -28504,7 +28504,7 @@ sOmitBlocklistedPrefValues
 StaticPrefs
 :
 :
-fission_omitBlocklistedPrefsInSubprocesses_tmp
+fission_omitBlocklistedPrefsInSubprocesses
 (
 )
 ;
