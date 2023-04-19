@@ -276,6 +276,14 @@ nsICookieJarSettings
 aCookieJarSettings
 )
 ;
+static
+void
+CollectResourcesTypeTelemetry
+(
+ASDestination
+aASDestination
+)
+;
 nsCOMPtr
 <
 nsIURI
