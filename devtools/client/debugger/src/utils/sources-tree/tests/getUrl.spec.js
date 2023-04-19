@@ -416,10 +416,7 @@ group
 toBe
 (
 "
-webpack
-:
-/
-/
+Webpack
 "
 )
 ;
@@ -470,10 +467,7 @@ group
 toBe
 (
 "
-ng
-:
-/
-/
+Angular
 "
 )
 ;

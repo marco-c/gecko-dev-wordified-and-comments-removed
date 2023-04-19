@@ -616,10 +616,7 @@ name
 toBe
 (
 "
-webpack
-:
-/
-/
+Webpack
 "
 )
 ;
@@ -800,10 +797,7 @@ name
 toBe
 (
 "
-webpack
-:
-/
-/
+Webpack
 "
 )
 ;

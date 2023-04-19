@@ -11692,7 +11692,7 @@ AccessibleImage
 className
 =
 "
-angular
+folder
 "
 /
 >
@@ -11704,7 +11704,10 @@ className
 label
 "
 >
-Angular
+ng
+:
+/
+/
 <
 /
 span
@@ -12729,7 +12732,7 @@ AccessibleImage
 className
 =
 "
-angular
+folder
 "
 /
 >
@@ -12741,7 +12744,10 @@ className
 label
 "
 >
-Angular
+ng
+:
+/
+/
 <
 /
 span
@@ -21535,7 +21541,7 @@ AccessibleImage
 className
 =
 "
-webpack
+folder
 "
 /
 >
@@ -21547,7 +21553,10 @@ className
 label
 "
 >
-Webpack
+webpack
+:
+/
+/
 <
 /
 span
@@ -22572,7 +22581,7 @@ AccessibleImage
 className
 =
 "
-webpack
+folder
 "
 /
 >
@@ -22584,7 +22593,10 @@ className
 label
 "
 >
-Webpack
+webpack
+:
+/
+/
 <
 /
 span
