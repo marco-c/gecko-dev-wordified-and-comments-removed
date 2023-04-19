@@ -742,6 +742,10 @@ auto
 ;
 }
 .
+network
+-
+monitor
+.
 http
 -
 custom
@@ -818,6 +822,10 @@ end
 ;
 }
 .
+network
+-
+monitor
+.
 http
 -
 custom
@@ -876,6 +884,10 @@ min
 content
 ;
 }
+.
+network
+-
+monitor
 .
 http
 -
