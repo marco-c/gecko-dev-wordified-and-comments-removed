@@ -41,6 +41,12 @@ defined
 (
 DARWIN
 )
+|
+|
+defined
+(
+BEOS
+)
 #
 undef
 _PR_POLL_AVAILABLE

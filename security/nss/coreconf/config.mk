@@ -650,6 +650,7 @@ OpenUNIX
 OS2
 QNX
 Darwin
+BeOS
 OpenBSD
 \
 AIX

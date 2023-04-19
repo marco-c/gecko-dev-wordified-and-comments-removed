@@ -2774,6 +2774,17 @@ uname
 -
 s
 in
+#
+OSF1
+)
+has
+been
+done
+already
+-
+always
+64
+bit
 SunOS
 )
 MAPPED_OS
@@ -10080,6 +10091,7 @@ Ps
 {
 #
 AIX
+OSF
 ps
 -
 ef
