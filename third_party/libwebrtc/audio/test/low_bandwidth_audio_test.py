@@ -1239,6 +1239,10 @@ _LogCommand
 command
 )
                              
+bufsize
+=
+0
+                             
 cwd
 =
 directory
@@ -1259,6 +1263,20 @@ PIPE
 try
 :
     
+logging
+.
+info
+(
+'
+Waiting
+for
+termination
+.
+.
+.
+'
+)
+    
 out
 err
 =
@@ -1274,6 +1292,19 @@ timeout
 except
 TimeoutExpired
 :
+    
+logging
+.
+error
+(
+'
+Timeout
+killing
+the
+process
+.
+'
+)
     
 process
 .
