@@ -24,6 +24,7 @@ RTCDispatcherQueueType
 RTCDispatcherTypeMain
 RTCDispatcherTypeCaptureSession
 RTCDispatcherTypeAudioSession
+RTCDispatcherTypeNetworkMonitor
 }
 ;
 RTC_OBJC_EXPORT
