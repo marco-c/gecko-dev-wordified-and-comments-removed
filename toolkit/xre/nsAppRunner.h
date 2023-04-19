@@ -242,15 +242,6 @@ NS_GetNativeAppSupport
 )
 ;
 nsresult
-NS_NewToolkitProfileService
-(
-nsIToolkitProfileService
-*
-*
-aResult
-)
-;
-nsresult
 NS_LockProfilePath
 (
 nsIFile
