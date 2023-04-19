@@ -136,6 +136,9 @@ use_saturation_protector
 saturation_protector_
 (
 apm_data_dumper
+GetInitialSaturationMarginDb
+(
+)
 extra_saturation_margin_db
 )
 apm_data_dumper_
@@ -363,6 +366,8 @@ saturation_protector_
 UpdateMargin
 (
 vad_data
+.
+speech_peak_dbfs
 last_estimate_with_offset_dbfs_
 )
 ;
@@ -397,7 +402,7 @@ use_saturation_protector_
 ?
 saturation_protector_
 .
-LastMargin
+GetMarginDb
 (
 )
 :
