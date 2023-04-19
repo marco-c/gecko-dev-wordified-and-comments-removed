@@ -19029,7 +19029,7 @@ else
 {
 EXPECT_EQ
 (
-0u
+2u
 pc_
 -
 >
