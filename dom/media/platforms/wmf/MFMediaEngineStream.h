@@ -554,12 +554,6 @@ bool
 >
 mIsSelected
 ;
-Atomic
-<
-bool
->
-mReceivedEOS
-;
 MediaQueue
 <
 MediaRawData
@@ -592,6 +586,12 @@ TrackInfo
 TrackType
 >
 mEndedEvent
+;
+bool
+mReceivedEOS
+;
+bool
+mHasDispatchedEndEvent
 ;
 }
 ;
