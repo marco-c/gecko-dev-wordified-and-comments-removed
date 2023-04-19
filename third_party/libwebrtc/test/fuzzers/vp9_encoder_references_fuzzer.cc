@@ -987,6 +987,11 @@ kBinaryFieldTrials
 "
 WebRTC
 -
+Vp9DependencyDescriptor
+"
+"
+WebRTC
+-
 Vp9ExternalRefCtrl
 "
 "
