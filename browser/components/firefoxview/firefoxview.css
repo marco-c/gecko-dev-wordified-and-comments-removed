@@ -5422,11 +5422,11 @@ orient
 :
 vertical
 ;
-height
+align
+-
+self
 :
-2
-.
-5em
+start
 ;
 }
 .
