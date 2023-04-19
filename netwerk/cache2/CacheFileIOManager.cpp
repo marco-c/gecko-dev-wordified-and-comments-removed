@@ -15947,7 +15947,7 @@ false
 ;
 rv
 =
-NS_HasRootDomain
+HasRootDomain
 (
 host
 baseDomain

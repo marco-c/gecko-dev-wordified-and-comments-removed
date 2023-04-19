@@ -2019,7 +2019,10 @@ aResult
 )
 {
 return
-NS_HasRootDomain
+net
+:
+:
+HasRootDomain
 (
 aInput
 aHost

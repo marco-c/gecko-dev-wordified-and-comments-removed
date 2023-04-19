@@ -18389,10 +18389,8 @@ params
 )
 ;
 }
-}
-}
 nsresult
-NS_HasRootDomain
+HasRootDomain
 (
 const
 nsACString
@@ -18880,4 +18878,6 @@ browser_tabs_remote_coep_credentialless_DoNotUseDirectly
 |
 aIsOriginTrialCoepCredentiallessEnabled
 ;
+}
+}
 }

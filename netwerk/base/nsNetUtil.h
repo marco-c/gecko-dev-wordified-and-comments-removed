@@ -3603,10 +3603,8 @@ nsIURI
 &
 )
 ;
-}
-}
 nsresult
-NS_HasRootDomain
+HasRootDomain
 (
 const
 nsACString
@@ -3639,5 +3637,7 @@ bool
 aIsOriginTrialCoepCredentiallessEnabled
 )
 ;
+}
+}
 #
 endif
