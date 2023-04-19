@@ -258,6 +258,7 @@ com
 }
 secondary
 :
+[
 {
 label
 :
@@ -288,6 +289,7 @@ CANCEL
 "
 }
 }
+]
 }
 }
 ;
@@ -442,6 +444,7 @@ com
 }
 secondary
 :
+[
 {
 label
 :
@@ -462,6 +465,7 @@ CANCEL
 "
 }
 }
+]
 }
 }
 ;
