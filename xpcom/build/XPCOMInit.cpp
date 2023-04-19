@@ -2850,7 +2850,7 @@ nullptr
 mozJSModuleLoader
 :
 :
-Unload
+UnloadLoaders
 (
 )
 ;
