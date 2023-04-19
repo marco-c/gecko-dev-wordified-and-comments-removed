@@ -897,6 +897,11 @@ RTC_GUARDED_BY
 thread_
 )
 ;
+bool
+allow_mac_based_ipv6_
+=
+false
+;
 }
 ;
 class
