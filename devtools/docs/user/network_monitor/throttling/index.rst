@@ -216,7 +216,7 @@ Kbps
 300
 Good
 2G
-50
+450
 Kbps
 150
 Kbps
