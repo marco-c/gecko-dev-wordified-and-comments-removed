@@ -8,9 +8,6 @@ idl
 interface
 nsIProxyInfo
 ;
-interface
-nsISSLSocketControl
-;
 [
 ptr
 ]
@@ -112,8 +109,8 @@ out
 PRFileDescStar
 aFileDesc
 out
-nsISSLSocketControl
-aTLSSocketControl
+nsISupports
+aSecurityInfo
 )
 ;
 [
@@ -149,8 +146,8 @@ in
 PRFileDescStar
 aFileDesc
 out
-nsISSLSocketControl
-aTLSSocketControl
+nsISupports
+aSecurityInfo
 )
 ;
 const

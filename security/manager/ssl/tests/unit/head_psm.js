@@ -2600,7 +2600,7 @@ conn
 .
 transport
 .
-tlsSocketControl
+securityInfo
 .
 QueryInterface
 (

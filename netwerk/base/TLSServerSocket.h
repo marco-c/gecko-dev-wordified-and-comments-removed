@@ -141,8 +141,6 @@ public
 nsITLSServerConnectionInfo
 public
 nsITLSClientStatus
-public
-nsIInterfaceRequestor
 {
 friend
 class
@@ -153,7 +151,6 @@ public
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITLSSERVERCONNECTIONINFO
 NS_DECL_NSITLSCLIENTSTATUS
-NS_DECL_NSIINTERFACEREQUESTOR
 TLSServerConnectionInfo
 (
 )

@@ -463,9 +463,9 @@ const
 NetAddr
 *
 aAddr
-nsIInterfaceRequestor
+nsISupports
 *
-aCallbacks
+aSecInfo
 )
 ;
 #
@@ -1394,9 +1394,9 @@ mEventSink
 ;
 nsCOMPtr
 <
-nsISSLSocketControl
+nsISupports
 >
-mTLSSocketControl
+mSecInfo
 ;
 nsSocketInputStream
 mInput

@@ -222,10 +222,10 @@ PRFileDesc
 *
 *
 result
-nsISSLSocketControl
+nsISupports
 *
 *
-tlsSocketControl
+socksInfo
 )
 {
 PRFileDesc
@@ -261,6 +261,7 @@ mVersion
 flags
 tlsFlags
 sock
+socksInfo
 )
 ;
 if
@@ -312,10 +313,10 @@ tlsFlags
 PRFileDesc
 *
 sock
-nsISSLSocketControl
+nsISupports
 *
 *
-tlsSocketControl
+socksInfo
 )
 {
 nsresult
@@ -331,6 +332,7 @@ mVersion
 flags
 tlsFlags
 sock
+socksInfo
 )
 ;
 if
