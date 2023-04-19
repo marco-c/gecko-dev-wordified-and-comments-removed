@@ -134,6 +134,9 @@ true
 colorSchemeSimulation
 :
 true
+customFormatters
+:
+true
 customUserAgent
 :
 true

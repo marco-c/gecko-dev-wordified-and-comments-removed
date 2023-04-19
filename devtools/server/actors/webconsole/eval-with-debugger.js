@@ -1323,6 +1323,12 @@ return
 dbg
 ;
 }
+exports
+.
+makeSideeffectFreeDebugger
+=
+makeSideeffectFreeDebugger
+;
 let
 gSideEffectFreeNatives
 ;

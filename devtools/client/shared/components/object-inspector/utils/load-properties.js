@@ -441,6 +441,13 @@ getCustomFormatterBody
 getObjectFront
 (
 )
+item
+.
+contents
+.
+value
+.
+customFormatterIndex
 )
 )
 ;
