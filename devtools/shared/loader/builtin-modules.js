@@ -180,6 +180,9 @@ TextEncoder
 URL
 "
 "
+URLSearchParams
+"
+"
 Window
 "
 "
@@ -211,6 +214,7 @@ Node
 TextDecoder
 TextEncoder
 URL
+URLSearchParams
 Window
 XMLHttpRequest
 }
@@ -732,6 +736,7 @@ StructuredCloneHolder
 TextDecoder
 TextEncoder
 URL
+URLSearchParams
 Window
 XMLHttpRequest
 }
