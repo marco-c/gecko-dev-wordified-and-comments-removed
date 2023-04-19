@@ -41994,13 +41994,13 @@ const
 int
 kAdaptedFrameWidth
 =
-1440
+1280
 ;
 const
 int
 kAdaptedFrameHeight
 =
-808
+720
 ;
 const
 int
