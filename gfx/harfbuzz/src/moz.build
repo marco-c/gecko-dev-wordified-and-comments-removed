@@ -701,6 +701,9 @@ CONFIG
 GLIB_CFLAGS
 '
 ]
+AllowCompilerWarnings
+(
+)
 FINAL_LIBRARY
 =
 '
