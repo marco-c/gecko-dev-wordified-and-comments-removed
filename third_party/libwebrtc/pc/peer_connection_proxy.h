@@ -1,9 +1,9 @@
 #
 ifndef
-API_PEER_CONNECTION_PROXY_H_
+PC_PEER_CONNECTION_PROXY_H_
 #
 define
-API_PEER_CONNECTION_PROXY_H_
+PC_PEER_CONNECTION_PROXY_H_
 #
 include
 <
@@ -31,7 +31,7 @@ h
 #
 include
 "
-api
+pc
 /
 proxy
 .
