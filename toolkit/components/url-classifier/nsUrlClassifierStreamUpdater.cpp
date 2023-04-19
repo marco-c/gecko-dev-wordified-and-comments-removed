@@ -3637,6 +3637,10 @@ this
 )
 )
 ;
+mDownloadError
+=
+true
+;
 rv
 =
 mDBService
