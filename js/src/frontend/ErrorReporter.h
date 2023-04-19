@@ -109,7 +109,7 @@ const
 0
 ;
 virtual
-JSContext
+ErrorContext
 *
 getContext
 (

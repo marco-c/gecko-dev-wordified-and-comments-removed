@@ -138,6 +138,15 @@ include
 "
 vm
 /
+ErrorReporting
+.
+h
+"
+#
+include
+"
+vm
+/
 GeneratorAndAsyncKind
 .
 h
@@ -470,6 +479,10 @@ foldConstants_
 ;
 protected
 :
+mutable
+GeneralErrorContext
+ec_
+;
 #
 if
 DEBUG
@@ -696,7 +709,7 @@ strict
 }
 public
 :
-JSContext
+ErrorContext
 *
 getContext
 (
@@ -705,7 +718,8 @@ const
 override
 {
 return
-cx_
+&
+ec_
 ;
 }
 JSAllocator

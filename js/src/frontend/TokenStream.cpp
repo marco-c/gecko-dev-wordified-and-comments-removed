@@ -2462,6 +2462,10 @@ cx
 (
 cx
 )
+ec
+(
+cx
+)
 options_
 (
 options
@@ -3070,7 +3074,8 @@ metadata
 ;
 ReportCompileErrorLatin1
 (
-cx
+&
+ec
 cx
 std
 :
@@ -5219,9 +5224,10 @@ break
 }
 ReportCompileErrorLatin1
 (
+&
 anyChars
 .
-cx
+ec
 anyChars
 .
 cx

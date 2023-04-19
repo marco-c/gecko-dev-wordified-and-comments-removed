@@ -2892,6 +2892,12 @@ errorNumber
 .
 )
 {
+GeneralErrorContext
+ec
+(
+cx
+)
+;
 va_list
 args
 ;
@@ -2903,7 +2909,8 @@ errorNumber
 ;
 ReportCompileErrorUTF8
 (
-cx
+&
+ec
 cx
 std
 :
