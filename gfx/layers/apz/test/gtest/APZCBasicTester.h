@@ -243,6 +243,13 @@ ClearContentController
 (
 )
 ;
+APZCTesterBase
+:
+:
+TearDown
+(
+)
+;
 }
 void
 MakeApzcWaitForMainThread

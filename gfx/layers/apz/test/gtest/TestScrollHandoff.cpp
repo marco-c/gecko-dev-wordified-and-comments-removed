@@ -3164,7 +3164,7 @@ Pan
 (
 childApzc
 60
-12
+2
 )
 ;
 childApzc
@@ -3220,7 +3220,7 @@ Pan
 (
 childApzc
 60
-50
+40
 )
 ;
 childApzc

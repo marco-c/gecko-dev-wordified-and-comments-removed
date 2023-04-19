@@ -194,6 +194,13 @@ ClearContentController
 (
 )
 ;
+APZCTesterBase
+:
+:
+TearDown
+(
+)
+;
 }
 bool
 SampleAnimationsOnce
