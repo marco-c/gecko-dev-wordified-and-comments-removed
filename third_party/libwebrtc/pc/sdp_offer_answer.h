@@ -26,6 +26,11 @@ functional
 #
 include
 <
+iosfwd
+>
+#
+include
+<
 map
 >
 #
