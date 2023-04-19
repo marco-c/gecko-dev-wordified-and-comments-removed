@@ -686,7 +686,7 @@ this
 .
 _box
 "
-width
+style
 "
 )
 ;
@@ -1522,11 +1522,10 @@ this
 .
 _box
 .
-setAttribute
-(
-"
+style
+.
 width
-"
+=
 sourceUI
 .
 _box
@@ -1536,7 +1535,10 @@ getBoundingClientRect
 )
 .
 width
-)
++
+"
+px
+"
 ;
 this
 .
