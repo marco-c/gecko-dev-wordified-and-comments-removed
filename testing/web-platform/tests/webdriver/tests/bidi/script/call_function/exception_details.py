@@ -31,7 +31,7 @@ mark
 asyncio
 async
 def
-test_invalid_script
+test_invalid_function
 (
 bidi_session
 top_context
@@ -54,10 +54,10 @@ bidi_session
 .
 script
 .
-evaluate
+call_function
 (
             
-expression
+function_declaration
 =
 "
 )
@@ -76,6 +76,10 @@ script
 (
 "
             
+await_promise
+=
+False
+            
 target
 =
 ContextTarget
@@ -87,10 +91,6 @@ context
 "
 ]
 )
-            
-await_promise
-=
-True
         
 )
     
@@ -1429,36 +1429,35 @@ expected
 )
 :
     
-if
-await_promise
-:
-        
-expression
+function_declaration
 =
 f
 "
-Promise
-.
-reject
 (
-{
-expression
-}
 )
-"
-    
-else
-:
-        
-expression
 =
-f
-"
+>
+{
+{
 throw
 {
 expression
 }
+}
+}
 "
+    
+if
+await_promise
+:
+        
+function_declaration
+=
+"
+async
+"
++
+function_declaration
     
 with
 pytest
@@ -1476,12 +1475,16 @@ bidi_session
 .
 script
 .
-evaluate
+call_function
 (
             
-expression
+function_declaration
 =
-expression
+function_declaration
+            
+await_promise
+=
+await_promise
             
 target
 =
@@ -1494,10 +1497,6 @@ context
 "
 ]
 )
-            
-await_promise
-=
-await_promise
         
 )
     
