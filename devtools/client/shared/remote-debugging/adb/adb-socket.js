@@ -71,7 +71,7 @@ gre
 /
 modules
 /
-XPCOMUtils
+AppConstants
 .
 jsm
 "
