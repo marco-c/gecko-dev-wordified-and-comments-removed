@@ -566,16 +566,16 @@ false
 ;
 }
 }
-NetEqLifetimeStatistics
+IngressStatistics
 AudioChannel
 :
 :
-GetNetEqStatistics
+GetIngressStatistics
 (
 )
 {
-NetEqLifetimeStatistics
-neteq_stats
+IngressStatistics
+ingress_stats
 ;
 NetworkStatistics
 stats
@@ -587,6 +587,8 @@ GetNetworkStatistics
 (
 )
 ;
+ingress_stats
+.
 neteq_stats
 .
 total_samples_received
@@ -595,6 +597,8 @@ stats
 .
 totalSamplesReceived
 ;
+ingress_stats
+.
 neteq_stats
 .
 concealed_samples
@@ -603,6 +607,8 @@ stats
 .
 concealedSamples
 ;
+ingress_stats
+.
 neteq_stats
 .
 concealment_events
@@ -611,6 +617,8 @@ stats
 .
 concealmentEvents
 ;
+ingress_stats
+.
 neteq_stats
 .
 jitter_buffer_delay_ms
@@ -619,6 +627,8 @@ stats
 .
 jitterBufferDelayMs
 ;
+ingress_stats
+.
 neteq_stats
 .
 jitter_buffer_emitted_count
@@ -627,6 +637,8 @@ stats
 .
 jitterBufferEmittedCount
 ;
+ingress_stats
+.
 neteq_stats
 .
 jitter_buffer_target_delay_ms
@@ -635,6 +647,8 @@ stats
 .
 jitterBufferTargetDelayMs
 ;
+ingress_stats
+.
 neteq_stats
 .
 inserted_samples_for_deceleration
@@ -643,6 +657,8 @@ stats
 .
 insertedSamplesForDeceleration
 ;
+ingress_stats
+.
 neteq_stats
 .
 removed_samples_for_acceleration
@@ -651,6 +667,8 @@ stats
 .
 removedSamplesForAcceleration
 ;
+ingress_stats
+.
 neteq_stats
 .
 silent_concealed_samples
@@ -659,6 +677,8 @@ stats
 .
 silentConcealedSamples
 ;
+ingress_stats
+.
 neteq_stats
 .
 fec_packets_received
@@ -667,6 +687,8 @@ stats
 .
 fecPacketsReceived
 ;
+ingress_stats
+.
 neteq_stats
 .
 fec_packets_discarded
@@ -675,6 +697,8 @@ stats
 .
 fecPacketsDiscarded
 ;
+ingress_stats
+.
 neteq_stats
 .
 delayed_packet_outage_samples
@@ -683,6 +707,8 @@ stats
 .
 delayedPacketOutageSamples
 ;
+ingress_stats
+.
 neteq_stats
 .
 relative_packet_arrival_delay_ms
@@ -691,6 +717,8 @@ stats
 .
 relativePacketArrivalDelayMs
 ;
+ingress_stats
+.
 neteq_stats
 .
 interruption_count
@@ -699,6 +727,8 @@ stats
 .
 interruptionCount
 ;
+ingress_stats
+.
 neteq_stats
 .
 total_interruption_duration_ms
@@ -707,8 +737,19 @@ stats
 .
 totalInterruptionDurationMs
 ;
+ingress_stats
+.
+total_duration
+=
+ingress_
+-
+>
+GetTotalDuration
+(
+)
+;
 return
-neteq_stats
+ingress_stats
 ;
 }
 }

@@ -413,8 +413,8 @@ codecs
 )
 ;
 }
-NetEqLifetimeStatistics
-GetNetEqStatistics
+IngressStatistics
+GetIngressStatistics
 (
 )
 ;

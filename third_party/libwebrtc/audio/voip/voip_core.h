@@ -521,9 +521,9 @@ absl
 :
 optional
 <
-NetEqLifetimeStatistics
+IngressStatistics
 >
-GetNetEqStatistics
+GetIngressStatistics
 (
 ChannelId
 channel

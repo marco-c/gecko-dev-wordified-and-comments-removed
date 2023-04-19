@@ -1883,12 +1883,12 @@ absl
 :
 optional
 <
-NetEqLifetimeStatistics
+IngressStatistics
 >
 VoipCore
 :
 :
-GetNetEqStatistics
+GetIngressStatistics
 (
 ChannelId
 channel
@@ -1909,7 +1909,7 @@ return
 audio_channel
 -
 >
-GetNetEqStatistics
+GetIngressStatistics
 (
 )
 ;
