@@ -216,7 +216,7 @@ window
 .
 windowUtils
 .
-getLastOverWindowPointerLocationInCSSPixels
+getLastOverWindowMouseLocationInCSSPixels
 (
 mouseXInCSSPixels
 mouseYInCSSPixels
