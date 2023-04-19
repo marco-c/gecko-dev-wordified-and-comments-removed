@@ -880,7 +880,7 @@ RefPtr
 ProgressTracker
 >
 mProgressTracker
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -890,7 +890,7 @@ RefPtr
 Image
 >
 mImage
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -899,7 +899,7 @@ bool
 mIsMultiPartChannel
 :
 1
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -908,7 +908,7 @@ bool
 mIsInCache
 :
 1
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -917,7 +917,7 @@ bool
 mDecodeRequested
 :
 1
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -926,7 +926,7 @@ bool
 mNewPartPending
 :
 1
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -935,14 +935,14 @@ bool
 mHadInsecureRedirect
 :
 1
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
 ;
 uint64_t
 mInnerWindowId
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )

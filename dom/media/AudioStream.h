@@ -345,7 +345,7 @@ mFrameHistory
 #
 ifndef
 XP_MACOSX
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -1126,7 +1126,7 @@ Chunk
 *
 aChunk
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mMonitor
 )
@@ -1154,7 +1154,7 @@ Args
 .
 aArgs
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mMonitor
 )
@@ -1261,7 +1261,7 @@ MediaSink
 EndedPromise
 >
 mEndedPromise
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMonitor
 )

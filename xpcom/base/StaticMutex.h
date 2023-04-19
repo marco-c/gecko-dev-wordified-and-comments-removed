@@ -27,7 +27,7 @@ mozilla
 {
 class
 MOZ_ONLY_USED_TO_AVOID_STATIC_CONSTRUCTORS
-MOZ_CAPABILITY
+CAPABILITY
 StaticMutex
 {
 public
@@ -52,7 +52,7 @@ void
 Lock
 (
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 )
 {
@@ -70,7 +70,7 @@ void
 Unlock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {
@@ -88,7 +88,7 @@ void
 AssertCurrentThreadOwns
 (
 )
-MOZ_ASSERT_CAPABILITY
+ASSERT_CAPABILITY
 (
 this
 )

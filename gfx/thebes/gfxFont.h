@@ -1376,7 +1376,7 @@ const
 AutoLock
 &
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mMutex
 )
@@ -1641,7 +1641,7 @@ nsTHashtable
 HashEntry
 >
 mFonts
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -1654,7 +1654,7 @@ gfxFont
 >
 >
 mTrackerDiscard
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -1676,7 +1676,7 @@ nsCOMPtr
 nsITimer
 >
 mWordCacheExpirationTimer
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -6335,7 +6335,7 @@ void
 ClearCachedWordsLocked
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -7546,7 +7546,7 @@ CacheHashEntry
 >
 >
 mWordCache
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -7569,7 +7569,7 @@ gfxGlyphExtents
 >
 >
 mGlyphExtentsArray
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -7586,7 +7586,7 @@ GlyphChangeObserver
 >
 >
 mGlyphChangeObservers
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )

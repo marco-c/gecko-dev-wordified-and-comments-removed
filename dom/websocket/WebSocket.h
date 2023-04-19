@@ -662,7 +662,7 @@ mMutex
 ;
 uint16_t
 mReadyState
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )

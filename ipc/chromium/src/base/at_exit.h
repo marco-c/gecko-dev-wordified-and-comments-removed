@@ -134,7 +134,7 @@ stack
 CallbackAndParam
 >
 stack_
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 lock_
 )

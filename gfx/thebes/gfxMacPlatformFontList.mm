@@ -3515,7 +3515,7 @@ aFontInfoData
 =
 nullptr
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -4376,7 +4376,7 @@ aFontInfoData
 =
 nullptr
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mLock
 )
@@ -5378,7 +5378,7 @@ SystemFontList
 *
 aList
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 aList
 -

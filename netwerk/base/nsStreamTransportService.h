@@ -120,7 +120,7 @@ nsCOMPtr
 nsIThreadPool
 >
 mPool
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mShutdownLock
 )
@@ -140,7 +140,7 @@ mShutdownLock
 ;
 bool
 mIsShutdown
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mShutdownLock
 )

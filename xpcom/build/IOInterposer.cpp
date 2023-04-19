@@ -1739,7 +1739,7 @@ const
 ObserverLists
 >
 mObserverLists
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )

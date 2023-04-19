@@ -59,7 +59,7 @@ namespace
 mozilla
 {
 class
-MOZ_CAPABILITY
+CAPABILITY
 MultiWriterQueueReaderLocking_Mutex
 {
 public
@@ -80,7 +80,7 @@ void
 Lock
 (
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 mMutex
 )
@@ -97,7 +97,7 @@ void
 Unlock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 mMutex
 )
@@ -118,7 +118,7 @@ mMutex
 }
 ;
 class
-MOZ_CAPABILITY
+CAPABILITY
 MultiWriterQueueReaderLocking_None
 {
 public
@@ -130,7 +130,7 @@ void
 Lock
 (
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 )
 {
@@ -140,7 +140,7 @@ void
 Unlock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {
@@ -152,7 +152,7 @@ void
 Lock
 (
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 )
 {
@@ -173,7 +173,7 @@ void
 Unlock
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 )
 {

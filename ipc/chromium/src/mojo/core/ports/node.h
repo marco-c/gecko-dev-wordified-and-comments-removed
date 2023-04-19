@@ -724,7 +724,7 @@ PortDescriptor
 *
 port_descriptor
 )
-MOZ_REQUIRES
+REQUIRES
 (
 ports_lock_
 )
@@ -835,7 +835,7 @@ PortName
 &
 new_peer_port
 )
-MOZ_REQUIRES
+REQUIRES
 (
 ports_lock_
 )
@@ -851,7 +851,7 @@ Port
 *
 local_port
 )
-MOZ_REQUIRES
+REQUIRES
 (
 ports_lock_
 )
@@ -874,7 +874,7 @@ Port
 *
 port1
 )
-MOZ_REQUIRES
+REQUIRES
 (
 ports_lock_
 )
@@ -948,7 +948,7 @@ Port
 >
 >
 ports_
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 ports_lock_
 )
@@ -981,7 +981,7 @@ NodeName
 PeerPortMap
 >
 peer_port_maps_
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 ports_lock_
 )

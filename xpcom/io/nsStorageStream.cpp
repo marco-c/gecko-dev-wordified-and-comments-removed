@@ -1426,7 +1426,7 @@ Seek
 uint32_t
 aPosition
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mStorageStream
 -
@@ -1470,7 +1470,7 @@ SegNum
 uint32_t
 aPosition
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mStorageStream
 -

@@ -609,7 +609,7 @@ nsCOMPtr
 nsIEventTarget
 >
 mSocketThreadTarget
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mReentrantMonitor
 )

@@ -881,7 +881,7 @@ void
 LockTree
 (
 )
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 mTreeLock
 )
@@ -890,7 +890,7 @@ void
 UnlockTree
 (
 )
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 mTreeLock
 )
@@ -1174,7 +1174,7 @@ HitTestingTreeNode
 *
 aNextSibling
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mTreeLock
 )
@@ -1563,7 +1563,7 @@ HitTestingTreeNode
 aNode
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 mTreeLock
 )
@@ -1671,7 +1671,7 @@ RefPtr
 HitTestingTreeNode
 >
 mRootNode
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mTreeLock
 )
@@ -1688,7 +1688,7 @@ LayersId
 HashFn
 >
 mDetachedLayersIds
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mTreeLock
 )

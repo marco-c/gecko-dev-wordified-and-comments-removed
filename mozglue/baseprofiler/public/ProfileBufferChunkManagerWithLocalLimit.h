@@ -1366,7 +1366,7 @@ PeekExtantReleasedChunksAndLock
 (
 )
 final
-MOZ_CAPABILITY_ACQUIRE
+CAPABILITY_ACQUIRE
 (
 mMutex
 )
@@ -1400,7 +1400,7 @@ UnlockAfterPeekExtantReleasedChunks
 (
 )
 final
-MOZ_CAPABILITY_RELEASE
+CAPABILITY_RELEASE
 (
 mMutex
 )

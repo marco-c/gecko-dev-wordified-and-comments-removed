@@ -429,7 +429,7 @@ mFifoInfoLock
 ;
 FifoInfoArray
 mFifoInfo
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mFifoInfoLock
 )
@@ -569,7 +569,7 @@ mSignalInfoLock
 ;
 SignalInfoArray
 mSignalInfo
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mSignalInfoLock
 )

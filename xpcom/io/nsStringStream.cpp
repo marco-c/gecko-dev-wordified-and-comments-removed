@@ -531,7 +531,7 @@ Length
 (
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 mMon
 )
@@ -558,7 +558,7 @@ LengthRemaining
 (
 )
 const
-MOZ_REQUIRES
+REQUIRES
 (
 mMon
 )
@@ -575,7 +575,7 @@ void
 Clear
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mMon
 )
@@ -589,7 +589,7 @@ bool
 Closed
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mMon
 )
@@ -604,14 +604,14 @@ RefPtr
 StreamBufferSource
 >
 mSource
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMon
 )
 ;
 size_t
 mOffset
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMon
 )

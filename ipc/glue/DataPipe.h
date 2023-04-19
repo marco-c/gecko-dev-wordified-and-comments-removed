@@ -133,7 +133,7 @@ DataPipeAutoLock
 nsresult
 aStatus
 )
-MOZ_REQUIRES
+REQUIRES
 (
 *
 mMutex
@@ -155,7 +155,7 @@ aTarget
 bool
 aClosureOnly
 )
-MOZ_EXCLUDES
+EXCLUDES
 (
 *
 mMutex
@@ -192,7 +192,7 @@ uint32_t
 *
 aProcessedCount
 )
-MOZ_EXCLUDES
+EXCLUDES
 (
 *
 mMutex
@@ -204,7 +204,7 @@ CheckStatus
 DataPipeAutoLock
 &
 )
-MOZ_REQUIRES
+REQUIRES
 (
 *
 mMutex
@@ -216,7 +216,7 @@ Describe
 DataPipeAutoLock
 &
 )
-MOZ_REQUIRES
+REQUIRES
 (
 *
 mMutex
@@ -236,12 +236,12 @@ Mutex
 &
 aMutex
 )
-MOZ_REQUIRES
+REQUIRES
 (
 *
 mMutex
 )
-MOZ_ASSERT_CAPABILITY
+ASSERT_CAPABILITY
 (
 *
 aMutex
@@ -274,7 +274,7 @@ mMutex
 ;
 nsresult
 mStatus
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 *
 mMutex
@@ -287,7 +287,7 @@ RefPtr
 DataPipeLink
 >
 mLink
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 *
 mMutex

@@ -29,7 +29,7 @@ typename
 T
 >
 class
-MOZ_CAPABILITY
+CAPABILITY
 EventTargetCapability
 final
 {
@@ -135,7 +135,7 @@ AssertOnCurrentThread
 (
 )
 const
-MOZ_ASSERT_CAPABILITY
+ASSERT_CAPABILITY
 (
 this
 )

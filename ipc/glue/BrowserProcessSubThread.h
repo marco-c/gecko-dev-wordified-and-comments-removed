@@ -106,7 +106,7 @@ sBrowserThreads
 [
 ID_COUNT
 ]
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 sLock
 )

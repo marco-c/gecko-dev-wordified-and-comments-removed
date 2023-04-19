@@ -229,7 +229,7 @@ mMonitor
 ;
 bool
 mShutdownRequired
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMonitor
 )
@@ -242,7 +242,7 @@ vector
 ObservationWithStack
 >
 mObservations
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMonitor
 )

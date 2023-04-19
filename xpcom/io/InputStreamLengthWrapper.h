@@ -186,7 +186,7 @@ nsCOMPtr
 nsIInputStreamCallback
 >
 mAsyncWaitCallback
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )

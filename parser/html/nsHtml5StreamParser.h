@@ -649,7 +649,7 @@ void
 Uninterrupt
 (
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 MOZ_ASSERT
 (
@@ -690,7 +690,7 @@ Encoding
 >
 aEncoding
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mTokenizerMutex
 )
@@ -712,7 +712,7 @@ ProcessLookingForMetaCharset
 bool
 aEof
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mTokenizerMutex
 )
@@ -741,7 +741,7 @@ uint8_t
 &
 aBuffer
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mTokenizerMutex
 )
@@ -759,7 +759,7 @@ uint8_t
 >
 aBuffer
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mTokenizerMutex
 )
@@ -786,7 +786,7 @@ uint32_t
 *
 aWriteCount
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mTokenizerMutex
 )
@@ -844,7 +844,7 @@ aFromSegment
 bool
 aEof
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mTokenizerMutex
 )
@@ -862,7 +862,7 @@ uint8_t
 >
 aFromSegment
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mTokenizerMutex
 )
@@ -889,7 +889,7 @@ uint8_t
 >
 aFromSegment
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mTokenizerMutex
 )
@@ -937,7 +937,7 @@ nsresult
 ReDecodeLocalFile
 (
 )
-MOZ_REQUIRES
+REQUIRES
 (
 mTokenizerMutex
 )

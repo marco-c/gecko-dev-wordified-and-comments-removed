@@ -300,14 +300,14 @@ mIdleTimeoutMS
 ;
 uint32_t
 mPendingEventCount
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
 ;
 uint32_t
 mIdleNotificationCount
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )
@@ -320,7 +320,7 @@ mShutdown
 ;
 bool
 mThreadIsShuttingDown
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mMutex
 )

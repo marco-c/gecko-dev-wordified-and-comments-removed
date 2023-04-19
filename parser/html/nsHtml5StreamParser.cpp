@@ -8697,7 +8697,7 @@ uint32_t
 *
 aWriteCount
 )
-MOZ_NO_THREAD_SAFETY_ANALYSIS
+NO_THREAD_SAFETY_ANALYSIS
 {
 nsHtml5StreamParser
 *

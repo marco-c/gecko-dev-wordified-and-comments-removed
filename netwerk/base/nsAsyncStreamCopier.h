@@ -181,7 +181,7 @@ nsCOMPtr
 nsISupports
 >
 mCopierCtx
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -210,7 +210,7 @@ mChunkSize
 ;
 nsresult
 mStatus
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -220,7 +220,7 @@ NS_OK
 ;
 bool
 mIsPending
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -230,7 +230,7 @@ false
 ;
 bool
 mCloseSource
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )
@@ -240,7 +240,7 @@ false
 ;
 bool
 mCloseSink
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 mLock
 )

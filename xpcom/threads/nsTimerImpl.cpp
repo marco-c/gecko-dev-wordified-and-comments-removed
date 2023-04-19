@@ -221,7 +221,7 @@ MutexAutoLock
 &
 aProofOfLock
 )
-MOZ_REQUIRES
+REQUIRES
 (
 aTimer
 -
@@ -240,7 +240,7 @@ MutexAutoLock
 &
 aProofOfLock
 )
-MOZ_REQUIRES
+REQUIRES
 (
 aTimer
 -
@@ -274,7 +274,7 @@ sMutex
 TimerThread
 *
 mThread
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 sMutex
 )
@@ -1551,7 +1551,7 @@ nsTimerImpl
 :
 :
 sDeltaSumSquared
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 nsTimerImpl
 :
@@ -1566,7 +1566,7 @@ nsTimerImpl
 :
 :
 sDeltaSum
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 nsTimerImpl
 :
@@ -1581,7 +1581,7 @@ nsTimerImpl
 :
 :
 sDeltaNum
-MOZ_GUARDED_BY
+GUARDED_BY
 (
 nsTimerImpl
 :
