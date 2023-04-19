@@ -279,6 +279,10 @@ com
 expires
 :
 never
+no_lint
+:
+-
+BASELINE_PING
 send_in_pings
 :
 -
@@ -292,4 +296,8 @@ events
 -
 '
 newtab
+'
+-
+'
+baseline
 '
