@@ -259,13 +259,13 @@ modifications
 )
 ;
 }
-add_task
+add_setup
 (
 async
-function
-setup
 (
 )
+=
+>
 {
 let
 oldLogins

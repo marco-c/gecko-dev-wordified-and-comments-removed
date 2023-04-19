@@ -1010,13 +1010,13 @@ password
 )
 ;
 }
-add_task
+add_setup
 (
 async
-function
-setup
 (
 )
+=
+>
 {
 do_get_profile
 (
