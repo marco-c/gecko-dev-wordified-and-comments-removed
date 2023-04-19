@@ -424,9 +424,6 @@ paddingInfo
 int64_t
 paddingSize
 ;
-RequestCredentials
-credentials
-;
 }
 ;
 struct
