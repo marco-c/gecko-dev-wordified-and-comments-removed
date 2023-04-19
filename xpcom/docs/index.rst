@@ -66,6 +66,5 @@ writing
 xpcom
 -
 interface
-dmd
 hashtables
 hashtables_detailed
