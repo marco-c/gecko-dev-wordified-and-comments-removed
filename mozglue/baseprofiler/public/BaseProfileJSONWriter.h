@@ -922,6 +922,10 @@ move
 (
 aWriter
 )
+JSONWriter
+:
+:
+SingleLineStyle
 )
 {
 }
@@ -1760,7 +1764,6 @@ SpliceableJSONWriter
 {
 public
 :
-explicit
 SpliceableChunkedJSONWriter
 (
 )
