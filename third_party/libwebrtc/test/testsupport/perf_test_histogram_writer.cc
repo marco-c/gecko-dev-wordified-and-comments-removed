@@ -40,6 +40,17 @@ h
 #
 include
 "
+api
+/
+numerics
+/
+samples_stats_counter
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 logging
