@@ -371,6 +371,16 @@ cryptoOptions
 property
 (
 nonatomic
+nullable
+copy
+)
+NSString
+*
+turnLoggingId
+;
+property
+(
+nonatomic
 assign
 )
 int
