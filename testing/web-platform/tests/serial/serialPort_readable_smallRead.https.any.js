@@ -46,6 +46,13 @@ getReader
 (
 )
 ;
+assert_true
+(
+reader
+instanceof
+ReadableStreamDefaultReader
+)
+;
 await
 fakePort
 .
