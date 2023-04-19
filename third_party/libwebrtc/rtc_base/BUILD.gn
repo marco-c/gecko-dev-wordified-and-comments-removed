@@ -866,6 +866,11 @@ thread_checker
 :
 timeutils
 "
+"
+synchronization
+:
+sequence_checker
+"
 ]
 }
 rtc_source_set
