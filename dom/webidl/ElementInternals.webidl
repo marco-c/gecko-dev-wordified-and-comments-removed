@@ -263,6 +263,14 @@ validationAnchor
 ;
 }
 ;
+ElementInternals
+includes
+AccessibilityRole
+;
+ElementInternals
+includes
+AriaAttributes
+;
 dictionary
 ValidityStateFlags
 {
