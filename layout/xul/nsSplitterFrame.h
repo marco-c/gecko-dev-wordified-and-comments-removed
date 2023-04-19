@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+RefPtr
+.
+h
+"
+#
+include
+"
 nsBoxFrame
 .
 h
@@ -276,8 +285,10 @@ friend
 class
 nsSplitterFrameInner
 ;
+RefPtr
+<
 nsSplitterFrameInner
-*
+>
 mInner
 ;
 }
