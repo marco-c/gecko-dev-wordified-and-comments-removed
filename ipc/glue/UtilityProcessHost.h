@@ -394,11 +394,6 @@ mShutdownRequested
 =
 false
 ;
-bool
-mChannelClosed
-=
-false
-;
 void
 RejectPromise
 (
