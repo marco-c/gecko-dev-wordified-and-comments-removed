@@ -22,11 +22,6 @@ blob
 url
 "
 "
-file
--
-reader
-"
-"
 direct
 "
 ]
