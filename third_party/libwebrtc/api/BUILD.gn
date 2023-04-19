@@ -4234,6 +4234,13 @@ mock_audio_sink
 "
 )
 {
+visibility
+=
+[
+"
+*
+"
+]
 testonly
 =
 true
