@@ -5713,6 +5713,11 @@ Rect
 aRect
 )
 {
+PushClipRect
+(
+aRect
+)
+;
 ColorPattern
 pattern
 (
@@ -5756,6 +5761,10 @@ CompositionOp
 :
 OP_SOURCE
 )
+)
+;
+PopClip
+(
 )
 ;
 }
