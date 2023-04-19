@@ -655,6 +655,10 @@ astOptions
 =
 {
 }
+configOptions
+=
+{
+}
 )
 {
 let
@@ -668,6 +672,7 @@ this
 .
 getPermissiveConfig
 (
+configOptions
 )
 .
 .
@@ -2183,6 +2188,14 @@ node
 }
 getPermissiveConfig
 (
+{
+useBabel
+=
+true
+}
+=
+{
+}
 )
 {
 const
@@ -2224,6 +2237,9 @@ script
 ;
 if
 (
+useBabel
+&
+&
 this
 .
 isMozillaCentralBased
