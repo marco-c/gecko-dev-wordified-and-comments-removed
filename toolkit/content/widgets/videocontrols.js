@@ -7106,6 +7106,14 @@ toggleFullscreen
 (
 )
 {
+if
+(
+!
+this
+.
+isAudioOnly
+)
+{
 this
 .
 isVideoInFullScreen
@@ -7126,6 +7134,7 @@ requestFullscreen
 (
 )
 ;
+}
 }
 setFullscreenButtonState
 (
