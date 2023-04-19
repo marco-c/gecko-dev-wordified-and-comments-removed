@@ -513,6 +513,16 @@ create_scalability_structure
 h
 "
 "
+scalability_structure_full_svc
+.
+cc
+"
+"
+scalability_structure_full_svc
+.
+h
+"
+"
 scalability_structure_l1t2
 .
 cc
