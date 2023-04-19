@@ -718,15 +718,10 @@ RTC_DCHECK_GE
 packet
 -
 >
-capture_time
+capture_time_ms
 (
 )
-Timestamp
-:
-:
-Zero
-(
-)
+0
 )
 ;
 pacing_controller_
