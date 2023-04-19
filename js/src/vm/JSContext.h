@@ -1048,6 +1048,11 @@ compartment
 ;
 }
 void
+onOutOfMemory
+(
+)
+;
+void
 *
 onOutOfMemory
 (
