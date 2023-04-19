@@ -522,7 +522,6 @@ std
 string
 &
 ip_address
-const
 int
 port_number
 )
@@ -537,7 +536,6 @@ std
 string
 &
 ip_address
-const
 int
 port_number
 )

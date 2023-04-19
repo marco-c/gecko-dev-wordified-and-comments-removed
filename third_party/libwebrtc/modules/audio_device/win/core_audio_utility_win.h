@@ -1799,7 +1799,6 @@ std
 string
 WaveFormatToString
 (
-const
 WaveFormatWrapper
 format
 )

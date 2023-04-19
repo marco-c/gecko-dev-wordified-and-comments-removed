@@ -151,7 +151,6 @@ flags
 =
 "
 "
-const
 DataGeneratorOptions
 opts
 =
@@ -178,7 +177,6 @@ flags
 =
 "
 "
-const
 DataGeneratorOptions
 opts
 =

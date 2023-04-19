@@ -282,10 +282,8 @@ ErleInstantaneous
 bool
 Update
 (
-const
 float
 Y2_sum
-const
 float
 E2_sum
 )

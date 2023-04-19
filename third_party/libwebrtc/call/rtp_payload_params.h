@@ -131,7 +131,6 @@ public
 :
 RtpPayloadParams
 (
-const
 uint32_t
 ssrc
 const

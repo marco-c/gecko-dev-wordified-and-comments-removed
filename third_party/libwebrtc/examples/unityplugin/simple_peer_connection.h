@@ -118,7 +118,6 @@ char
 *
 *
 turn_urls
-const
 int
 no_of_urls
 const
@@ -257,7 +256,6 @@ const
 char
 *
 sdp
-const
 int
 sdp_mlineindex
 const
@@ -276,7 +274,6 @@ char
 *
 *
 turn_urls
-const
 int
 no_of_urls
 const

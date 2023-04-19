@@ -310,7 +310,6 @@ DetectOptimization
 float
 FastApproxLog2f
 (
-const
 float
 in
 )
@@ -318,7 +317,6 @@ in
 float
 Log2TodB
 (
-const
 float
 in_log2
 )

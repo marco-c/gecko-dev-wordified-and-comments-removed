@@ -684,13 +684,10 @@ mutex_
 int32_t
 GetDevicesInfo
 (
-const
 int32_t
 function
-const
 bool
 playback
-const
 int32_t
 enumDeviceNo
 =
@@ -700,7 +697,6 @@ char
 enumDeviceName
 =
 NULL
-const
 int32_t
 ednLen
 =

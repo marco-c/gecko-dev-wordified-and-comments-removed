@@ -485,7 +485,6 @@ override
 void
 SetActiveModules
 (
-const
 std
 :
 :
@@ -786,7 +785,6 @@ mutex_
 void
 SetActiveModulesLocked
 (
-const
 std
 :
 :

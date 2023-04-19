@@ -30,7 +30,6 @@ public
 explicit
 InputAudioFile
 (
-const
 std
 :
 :

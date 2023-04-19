@@ -553,7 +553,6 @@ FixedLengthEncodingParametersV3
 params
 uint64_t
 num_deltas
-const
 uint64_t
 base
 )

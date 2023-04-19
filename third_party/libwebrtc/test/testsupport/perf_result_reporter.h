@@ -193,10 +193,8 @@ absl
 :
 string_view
 metric_suffix
-const
 double
 mean
-const
 double
 error
 )

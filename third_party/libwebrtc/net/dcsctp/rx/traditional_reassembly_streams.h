@@ -228,13 +228,11 @@ parent
 size_t
 AssembleMessage
 (
-const
 ChunkMap
 :
 :
 iterator
 start
-const
 ChunkMap
 :
 :

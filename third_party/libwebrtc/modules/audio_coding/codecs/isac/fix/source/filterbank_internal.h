@@ -118,7 +118,6 @@ const
 int16_t
 *
 factor_ch2
-const
 int
 length
 int32_t
@@ -150,7 +149,6 @@ const
 int16_t
 *
 factor_ch2
-const
 int
 length
 int32_t
@@ -184,7 +182,6 @@ const
 int16_t
 *
 factor_ch2
-const
 int
 length
 int32_t
@@ -220,7 +217,6 @@ const
 int16_t
 *
 factor_ch2
-const
 int
 length
 int32_t

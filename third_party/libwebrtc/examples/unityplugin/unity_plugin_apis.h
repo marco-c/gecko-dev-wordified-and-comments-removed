@@ -111,7 +111,6 @@ const
 char
 *
 candidate
-const
 int
 sdp_mline_index
 const
@@ -190,7 +189,6 @@ char
 *
 *
 turn_urls
-const
 int
 no_of_urls
 const
@@ -291,14 +289,12 @@ WEBRTC_PLUGIN_API
 bool
 AddIceCandidate
 (
-const
 int
 peer_connection_id
 const
 char
 *
 candidate
-const
 int
 sdp_mlineindex
 const

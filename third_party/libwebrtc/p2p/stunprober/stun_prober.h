@@ -379,7 +379,6 @@ int
 requests_per_ip
 int
 timeout_ms
-const
 AsyncCallback
 finish_callback
 )

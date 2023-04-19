@@ -105,7 +105,6 @@ nullptr
 bool
 GetHmonitorFromDeviceIndex
 (
-const
 DesktopCapturer
 :
 :
@@ -119,7 +118,6 @@ hmonitor
 bool
 IsMonitorValid
 (
-const
 HMONITOR
 monitor
 )
@@ -127,7 +125,6 @@ monitor
 DesktopRect
 GetMonitorRect
 (
-const
 HMONITOR
 monitor
 )
@@ -135,7 +132,6 @@ monitor
 bool
 IsScreenValid
 (
-const
 DesktopCapturer
 :
 :
@@ -158,7 +154,6 @@ RTC_EXPORT
 DesktopRect
 GetScreenRect
 (
-const
 DesktopCapturer
 :
 :

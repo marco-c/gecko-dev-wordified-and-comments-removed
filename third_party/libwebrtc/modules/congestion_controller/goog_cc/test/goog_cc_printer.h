@@ -289,7 +289,6 @@ override
 void
 PrintState
 (
-const
 Timestamp
 at_time
 )

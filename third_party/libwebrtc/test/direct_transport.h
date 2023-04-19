@@ -144,7 +144,6 @@ const
 uint8_t
 *
 packet_data
-const
 size_t
 packet_length
 )

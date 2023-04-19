@@ -314,7 +314,6 @@ static
 void
 logCAMsg
 (
-const
 rtc
 :
 :

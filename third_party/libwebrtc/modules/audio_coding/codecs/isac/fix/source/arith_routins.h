@@ -36,7 +36,6 @@ const
 uint16_t
 *
 env
-const
 int16_t
 lenData
 )
@@ -62,7 +61,6 @@ const
 int32_t
 *
 env
-const
 int16_t
 lenData
 )
@@ -83,7 +81,6 @@ uint16_t
 const
 *
 cdf
-const
 int16_t
 lenData
 )
@@ -107,7 +104,6 @@ const
 uint16_t
 *
 cdfSize
-const
 int16_t
 lenData
 )
@@ -131,7 +127,6 @@ const
 uint16_t
 *
 initIndex
-const
 int16_t
 lenData
 )

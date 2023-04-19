@@ -83,7 +83,6 @@ absl
 :
 string_view
 user_story
-const
 double
 value
 absl
@@ -120,10 +119,8 @@ absl
 :
 string_view
 user_story
-const
 double
 mean
-const
 double
 error
 absl
@@ -212,7 +209,6 @@ absl
 :
 string_view
 units
-const
 bool
 important
 ImproveDirection

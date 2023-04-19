@@ -146,7 +146,6 @@ virtual
 void
 SetActiveModules
 (
-const
 std
 :
 :

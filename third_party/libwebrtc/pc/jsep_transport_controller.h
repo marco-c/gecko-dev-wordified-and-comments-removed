@@ -694,7 +694,6 @@ function
 <
 void
 (
-const
 rtc
 :
 :

@@ -421,7 +421,6 @@ std
 string
 ToHex
 (
-const
 int
 i
 )

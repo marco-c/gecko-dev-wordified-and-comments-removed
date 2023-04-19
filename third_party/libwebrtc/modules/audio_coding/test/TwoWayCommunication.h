@@ -105,14 +105,12 @@ const
 SdpAudioFormat
 &
 format1
-const
 int
 payload_type1
 const
 SdpAudioFormat
 &
 format2
-const
 int
 payload_type2
 )

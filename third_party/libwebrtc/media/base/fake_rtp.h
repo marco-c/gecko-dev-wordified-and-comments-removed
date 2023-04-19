@@ -696,7 +696,6 @@ char
 packet2
 size_t
 packet2_size
-const
 std
 :
 :
