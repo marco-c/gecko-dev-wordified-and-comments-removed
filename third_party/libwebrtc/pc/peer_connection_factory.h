@@ -594,15 +594,6 @@ dependencies
 )
 ;
 virtual
-void
-ActionsBeforeInitializeForTesting
-(
-PeerConnectionInterface
-*
-)
-{
-}
-virtual
 ~
 PeerConnectionFactory
 (
