@@ -10097,7 +10097,7 @@ sideBits
 =
 SidesStuckToRootContent
 (
-mTouchBlockHitResult
+aHit
 .
 mNode
 .
