@@ -36,11 +36,13 @@ len
 >
 MAX_ARGS_LENGTH
 )
+{
 ThrowRangeError
 (
 JSMSG_TOO_MANY_ARGUMENTS
 )
 ;
+}
 var
 list
 =
@@ -64,6 +66,7 @@ i
 +
 +
 )
+{
 DefineDataProperty
 (
 list
@@ -74,6 +77,7 @@ i
 ]
 )
 ;
+}
 return
 list
 ;
@@ -94,6 +98,7 @@ IsCallable
 target
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -104,6 +109,7 @@ target
 )
 )
 ;
+}
 if
 (
 !
@@ -156,6 +162,7 @@ IsConstructor
 target
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_CONSTRUCTOR
@@ -166,6 +173,7 @@ target
 )
 )
 ;
+}
 var
 newTarget
 ;
@@ -193,6 +201,7 @@ IsConstructor
 newTarget
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_CONSTRUCTOR
@@ -203,6 +212,7 @@ newTarget
 )
 )
 ;
+}
 }
 else
 {
@@ -505,6 +515,7 @@ IsObject
 target
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_OBJECT_REQUIRED
@@ -515,6 +526,7 @@ target
 )
 )
 ;
+}
 return
 ObjectGetOwnPropertyDescriptor
 (
