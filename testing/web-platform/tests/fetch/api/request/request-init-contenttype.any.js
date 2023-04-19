@@ -24,6 +24,11 @@ method
 POST
 "
 body
+duplex
+:
+"
+half
+"
 }
 )
 ;
@@ -675,6 +680,11 @@ Type
 :
 OVERRIDE_MIME
 }
+duplex
+:
+"
+half
+"
 }
 )
 ;

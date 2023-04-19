@@ -113,6 +113,14 @@ close
 }
 )
 ;
+requestInit
+.
+duplex
+=
+"
+half
+"
+;
 return
 fetch
 (
