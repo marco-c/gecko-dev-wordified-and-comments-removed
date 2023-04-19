@@ -32,6 +32,10 @@ COMPATIBILITY_UPDATE_TOP_LEVEL_TARGET_COMPLETE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +47,8 @@ compatibility
 actions
 /
 index
+.
+js
 "
 )
 ;

@@ -9,6 +9,10 @@ Rule
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ rules
 models
 /
 rule
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ UserProperties
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -42,6 +52,8 @@ models
 user
 -
 properties
+.
+js
 "
 )
 ;
@@ -57,11 +69,17 @@ ELEMENT_STYLE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;

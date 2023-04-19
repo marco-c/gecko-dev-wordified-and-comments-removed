@@ -43,6 +43,10 @@ CssRuleView
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -52,6 +56,8 @@ inspector
 rules
 /
 rules
+.
+js
 "
 )
 ;
@@ -65,6 +71,10 @@ inplaceEditor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -74,6 +84,8 @@ shared
 inplace
 -
 editor
+.
+js
 "
 )
 ;
@@ -87,6 +99,10 @@ getThemeColor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -94,6 +110,8 @@ client
 shared
 /
 theme
+.
+js
 "
 )
 ;

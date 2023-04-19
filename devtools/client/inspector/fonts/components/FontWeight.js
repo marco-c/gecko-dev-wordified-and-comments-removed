@@ -12,6 +12,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -54,6 +66,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ fonts
 components
 /
 FontPropertyValue
+.
+js
 "
 )
 )
@@ -77,6 +95,10 @@ getStr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -88,6 +110,8 @@ fonts
 utils
 /
 l10n
+.
+js
 "
 )
 ;

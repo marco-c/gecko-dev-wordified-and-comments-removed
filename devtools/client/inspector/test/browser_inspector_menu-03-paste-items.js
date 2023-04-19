@@ -121,6 +121,10 @@ clipboard
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -128,6 +132,8 @@ shared
 platform
 /
 clipboard
+.
+js
 "
 )
 ;

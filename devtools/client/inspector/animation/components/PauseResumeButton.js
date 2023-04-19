@@ -12,6 +12,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -76,6 +94,10 @@ KeyCodes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -83,6 +105,8 @@ client
 shared
 /
 keycodes
+.
+js
 "
 )
 ;
@@ -94,6 +118,10 @@ getStr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -105,6 +133,8 @@ animation
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -116,6 +146,10 @@ hasRunningAnimation
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +161,8 @@ animation
 utils
 /
 utils
+.
+js
 "
 )
 ;

@@ -9,6 +9,10 @@ ReadOnlyEditor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -24,6 +28,8 @@ read
 only
 -
 editor
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ MarkupContainer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -46,6 +56,8 @@ views
 markup
 -
 container
+.
+js
 "
 )
 ;
@@ -57,11 +69,17 @@ extend
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 extend
+.
+js
 "
 )
 ;

@@ -15,6 +15,10 @@ VIEW_NODE_LOCATION_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -26,6 +30,8 @@ shared
 node
 -
 types
+.
+js
 "
 )
 ;
@@ -135,11 +141,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;

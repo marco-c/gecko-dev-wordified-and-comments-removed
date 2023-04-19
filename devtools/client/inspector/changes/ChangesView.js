@@ -12,6 +12,10 @@ createElement
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ Provider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -92,6 +104,10 @@ changesReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -103,6 +119,8 @@ changes
 reducers
 /
 changes
+.
+js
 "
 )
 ;
@@ -114,6 +132,10 @@ getChangesStylesheet
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -125,6 +147,8 @@ changes
 selectors
 /
 changes
+.
+js
 "
 )
 ;
@@ -137,6 +161,10 @@ trackChange
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -148,6 +176,8 @@ changes
 actions
 /
 changes
+.
+js
 "
 )
 ;
@@ -159,6 +189,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -170,6 +204,8 @@ changes
 components
 /
 ChangesApp
+.
+js
 "
 )
 )

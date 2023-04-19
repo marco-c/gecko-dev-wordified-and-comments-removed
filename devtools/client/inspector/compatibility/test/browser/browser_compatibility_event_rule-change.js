@@ -381,6 +381,10 @@ COMPATIBILITY_UPDATE_NODES_COMPLETE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -392,6 +396,8 @@ compatibility
 actions
 /
 index
+.
+js
 "
 )
 ;

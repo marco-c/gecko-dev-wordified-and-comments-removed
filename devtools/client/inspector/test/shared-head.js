@@ -13,6 +13,10 @@ inplaceEditor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ shared
 inplace
 -
 editor
+.
+js
 "
 )
 ;
@@ -688,6 +694,10 @@ ELEMENT_NODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -697,6 +707,8 @@ dom
 node
 -
 constants
+.
+js
 "
 )
 ;

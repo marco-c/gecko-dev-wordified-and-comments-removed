@@ -11,6 +11,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -42,6 +52,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -51,6 +63,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -64,6 +80,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -75,6 +93,10 @@ getStr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -86,6 +108,8 @@ layout
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -98,6 +122,10 @@ getCSSMatrixTransform
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -109,6 +137,8 @@ dom
 matrix
 -
 2d
+.
+js
 "
 )
 ;
@@ -118,6 +148,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +161,8 @@ inspector
 grids
 /
 types
+.
+js
 "
 )
 ;
@@ -204,6 +240,10 @@ showGridHighlighter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -217,6 +257,8 @@ actions
 grid
 -
 highlighter
+.
+js
 "
 )
 ;

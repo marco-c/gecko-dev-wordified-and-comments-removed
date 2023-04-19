@@ -12,6 +12,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -76,6 +94,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +109,8 @@ fonts
 components
 /
 FontName
+.
+js
 "
 )
 )
@@ -99,6 +123,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -110,6 +138,8 @@ fonts
 components
 /
 FontOrigin
+.
+js
 "
 )
 )
@@ -122,6 +152,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -133,6 +167,8 @@ fonts
 components
 /
 FontPreview
+.
+js
 "
 )
 )
@@ -143,6 +179,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -152,6 +192,8 @@ inspector
 fonts
 /
 types
+.
+js
 "
 )
 ;

@@ -14,6 +14,10 @@ VIEW_NODE_IMAGE_URL_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -25,6 +29,8 @@ shared
 node
 -
 types
+.
+js
 "
 )
 ;

@@ -9,6 +9,10 @@ Editor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ shared
 sourceeditor
 /
 editor
+.
+js
 "
 )
 ;
@@ -27,6 +33,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -34,6 +44,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;

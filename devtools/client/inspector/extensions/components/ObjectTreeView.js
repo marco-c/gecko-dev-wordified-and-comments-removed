@@ -12,6 +12,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -55,6 +67,10 @@ MODE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -66,6 +82,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 ;
@@ -82,6 +100,10 @@ TreeViewClass
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -93,6 +115,8 @@ components
 tree
 /
 TreeView
+.
+js
 "
 )
 ;

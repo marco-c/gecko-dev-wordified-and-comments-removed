@@ -12,6 +12,10 @@ createElement
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ Provider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -63,6 +79,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -82,6 +100,10 @@ compatibilityReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -93,6 +115,8 @@ compatibility
 reducers
 /
 compatibility
+.
+js
 "
 )
 ;
@@ -111,6 +135,10 @@ updateNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +150,8 @@ compatibility
 actions
 /
 compatibility
+.
+js
 "
 )
 ;
@@ -133,6 +163,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -144,6 +178,8 @@ compatibility
 components
 /
 CompatibilityApp
+.
+js
 "
 )
 )

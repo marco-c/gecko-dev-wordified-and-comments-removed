@@ -9,6 +9,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -44,6 +54,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -56,6 +68,10 @@ SummaryGraphHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -69,6 +85,8 @@ utils
 graph
 -
 helper
+.
+js
 "
 )
 ;
@@ -78,6 +96,10 @@ TimingPath
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -91,6 +113,8 @@ components
 graph
 /
 TimingPath
+.
+js
 "
 )
 ;

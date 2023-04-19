@@ -35,6 +35,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -46,6 +50,8 @@ compatibility
 components
 /
 NodeList
+.
+js
 "
 )
 )

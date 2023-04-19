@@ -11,6 +11,10 @@ KeyCodes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ client
 shared
 /
 keycodes
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ flashElementOff
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -39,6 +49,8 @@ inspector
 markup
 /
 utils
+.
+js
 "
 )
 ;

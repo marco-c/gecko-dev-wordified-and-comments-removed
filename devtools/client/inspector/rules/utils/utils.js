@@ -20,6 +20,10 @@ VIEW_NODE_VARIABLE_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -31,6 +35,8 @@ shared
 node
 -
 types
+.
+js
 "
 )
 ;

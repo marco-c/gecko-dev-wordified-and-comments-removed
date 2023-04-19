@@ -11,6 +11,10 @@ generateUUID
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -18,6 +22,8 @@ shared
 generate
 -
 uuid
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ COMPATIBILITY_TOOLTIP_MESSAGE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -38,6 +48,8 @@ inspector
 rules
 /
 constants
+.
+js
 "
 )
 ;

@@ -11,6 +11,10 @@ getStr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ layout
 utils
 /
 l10n
+.
+js
 "
 )
 ;

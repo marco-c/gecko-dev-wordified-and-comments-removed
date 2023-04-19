@@ -11,6 +11,10 @@ createEnum
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ client
 shared
 /
 enum
+.
+js
 "
 )
 ;

@@ -12,6 +12,10 @@ createElement
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ Provider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ FlexboxInspector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -61,6 +77,8 @@ inspector
 flexbox
 /
 flexbox
+.
+js
 "
 )
 ;
@@ -70,6 +88,10 @@ GridInspector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +103,8 @@ grids
 grid
 -
 inspector
+.
+js
 "
 )
 ;
@@ -92,6 +116,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -103,6 +131,8 @@ layout
 components
 /
 LayoutApp
+.
+js
 "
 )
 )
@@ -115,11 +145,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;

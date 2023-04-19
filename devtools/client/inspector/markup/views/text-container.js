@@ -9,6 +9,10 @@ nodeConstants
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -18,6 +22,8 @@ dom
 node
 -
 constants
+.
+js
 "
 )
 ;
@@ -27,6 +33,10 @@ TextEditor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ views
 text
 -
 editor
+.
+js
 "
 )
 ;
@@ -49,6 +61,10 @@ MarkupContainer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -62,6 +78,8 @@ views
 markup
 -
 container
+.
+js
 "
 )
 ;
@@ -73,11 +91,17 @@ extend
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 extend
+.
+js
 "
 )
 ;

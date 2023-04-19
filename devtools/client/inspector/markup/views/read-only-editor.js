@@ -9,6 +9,10 @@ nodeConstants
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -18,6 +22,8 @@ dom
 node
 -
 constants
+.
+js
 "
 )
 ;

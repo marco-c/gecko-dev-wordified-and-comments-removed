@@ -33,11 +33,17 @@ COMPATIBILITY_ISSUE_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;
@@ -51,6 +57,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -62,6 +72,8 @@ compatibility
 components
 /
 IssueItem
+.
+js
 "
 )
 )

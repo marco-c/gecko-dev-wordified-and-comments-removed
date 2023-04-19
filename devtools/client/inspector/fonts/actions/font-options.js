@@ -11,6 +11,10 @@ UPDATE_PREVIEW_TEXT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ fonts
 actions
 /
 index
+.
+js
 "
 )
 ;

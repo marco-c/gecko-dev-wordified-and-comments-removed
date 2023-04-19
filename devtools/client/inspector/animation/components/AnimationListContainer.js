@@ -13,6 +13,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -44,6 +54,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -53,6 +65,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -66,6 +82,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -75,6 +93,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -88,6 +110,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -99,6 +123,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -110,6 +138,8 @@ animation
 components
 /
 AnimationList
+.
+js
 "
 )
 )
@@ -122,6 +152,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -133,6 +167,8 @@ animation
 components
 /
 CurrentTimeScrubber
+.
+js
 "
 )
 )
@@ -145,6 +181,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -156,6 +196,8 @@ animation
 components
 /
 ProgressInspectionPanel
+.
+js
 "
 )
 )
@@ -168,6 +210,10 @@ findOptimalTimeInterval
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -179,6 +225,8 @@ animation
 utils
 /
 utils
+.
+js
 "
 )
 ;
@@ -190,6 +238,10 @@ getStr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -201,6 +253,8 @@ animation
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -212,11 +266,17 @@ throttle
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 throttle
+.
+js
 "
 )
 ;

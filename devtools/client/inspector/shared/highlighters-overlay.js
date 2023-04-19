@@ -11,6 +11,10 @@ safeAsyncMethod
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -18,6 +22,8 @@ shared
 async
 -
 utils
+.
+js
 "
 )
 ;
@@ -27,6 +33,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -34,6 +44,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -43,6 +55,10 @@ WalkerEventListener
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -56,6 +72,8 @@ walker
 event
 -
 listener
+.
+js
 "
 )
 ;
@@ -68,6 +86,10 @@ VIEW_NODE_SHAPE_POINT_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -79,6 +101,8 @@ shared
 node
 -
 types
+.
+js
 "
 )
 ;
@@ -4379,6 +4403,10 @@ ShapesInContextEditor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -4388,6 +4416,8 @@ shared
 widgets
 /
 ShapesInContextEditor
+.
+js
 "
 )
 ;

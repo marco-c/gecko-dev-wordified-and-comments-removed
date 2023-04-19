@@ -11,11 +11,17 @@ throttle
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 throttle
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ updateFlexboxHighlighted
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -41,6 +51,8 @@ flexbox
 actions
 /
 flexbox
+.
+js
 "
 )
 ;
@@ -50,6 +62,10 @@ flexboxReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -61,6 +77,8 @@ flexbox
 reducers
 /
 flexbox
+.
+js
 "
 )
 ;

@@ -11,6 +11,10 @@ getStr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ fonts
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ parseFontVariationAxes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -46,6 +56,8 @@ utils
 font
 -
 utils
+.
+js
 "
 )
 ;
@@ -63,6 +75,10 @@ UPDATE_WARNING_MESSAGE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -74,6 +90,8 @@ fonts
 actions
 /
 index
+.
+js
 "
 )
 ;

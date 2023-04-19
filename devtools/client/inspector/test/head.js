@@ -79,11 +79,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;
@@ -4953,6 +4959,10 @@ getAdjustedQuads
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -4960,6 +4970,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;

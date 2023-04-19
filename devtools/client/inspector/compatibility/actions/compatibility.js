@@ -9,6 +9,10 @@ nodeConstants
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -18,6 +22,8 @@ dom
 node
 -
 constants
+.
+js
 "
 )
 ;
@@ -27,6 +33,10 @@ UserSettings
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ compatibility
 user
 -
 settings
+.
+js
 "
 )
 ;
@@ -88,6 +100,10 @@ COMPATIBILITY_UPDATE_TOP_LEVEL_TARGET_COMPLETE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -99,6 +115,8 @@ compatibility
 actions
 /
 index
+.
+js
 "
 )
 ;

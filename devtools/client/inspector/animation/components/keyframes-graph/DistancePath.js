@@ -9,6 +9,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ ComputedStylePath
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -46,6 +56,8 @@ keyframes
 graph
 /
 ComputedStylePath
+.
+js
 "
 )
 ;

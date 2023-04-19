@@ -9,6 +9,10 @@ TimeScale
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ animation
 utils
 /
 timescale
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ findOptimalTimeInterval
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -42,6 +52,8 @@ animation
 utils
 /
 utils
+.
+js
 "
 )
 ;

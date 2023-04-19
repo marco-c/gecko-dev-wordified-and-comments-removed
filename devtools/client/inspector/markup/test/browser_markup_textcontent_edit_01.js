@@ -22,6 +22,10 @@ DEFAULT_VALUE_SUMMARY_LENGTH
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -31,6 +35,8 @@ actors
 inspector
 /
 walker
+.
+js
 "
 )
 ;

@@ -12,6 +12,10 @@ TRACK_CHANGE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -23,6 +27,8 @@ changes
 actions
 /
 index
+.
+js
 "
 )
 ;

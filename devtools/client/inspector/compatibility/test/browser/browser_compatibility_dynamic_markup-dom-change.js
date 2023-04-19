@@ -11,11 +11,17 @@ COMPATIBILITY_ISSUE_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;
@@ -28,6 +34,10 @@ COMPATIBILITY_REMOVE_NODE_COMPLETE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -39,6 +49,8 @@ compatibility
 actions
 /
 index
+.
+js
 "
 )
 ;

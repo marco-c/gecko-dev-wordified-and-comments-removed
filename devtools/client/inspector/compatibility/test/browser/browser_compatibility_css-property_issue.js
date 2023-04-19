@@ -11,11 +11,17 @@ COMPATIBILITY_ISSUE_TYPE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 constants
+.
+js
 "
 )
 ;

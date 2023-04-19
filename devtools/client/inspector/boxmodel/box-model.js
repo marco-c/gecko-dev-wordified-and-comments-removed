@@ -9,6 +9,10 @@ boxModelReducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ reducers
 box
 -
 model
+.
+js
 "
 )
 ;
@@ -35,6 +41,10 @@ updateOffsetParent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -48,6 +58,8 @@ actions
 box
 -
 model
+.
+js
 "
 )
 ;

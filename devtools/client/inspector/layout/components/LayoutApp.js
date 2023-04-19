@@ -13,6 +13,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -44,6 +54,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -53,6 +65,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -66,6 +82,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -77,6 +95,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -88,6 +110,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -100,6 +124,10 @@ translateNodeFrontToGrip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +137,8 @@ inspector
 shared
 /
 utils
+.
+js
 "
 )
 ;
@@ -120,11 +150,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;
@@ -136,6 +172,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -145,6 +185,8 @@ shared
 components
 /
 Accordion
+.
+js
 "
 )
 )
@@ -157,6 +199,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -168,6 +214,8 @@ boxmodel
 components
 /
 BoxModel
+.
+js
 "
 )
 )
@@ -180,6 +228,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -191,6 +243,8 @@ flexbox
 components
 /
 Flexbox
+.
+js
 "
 )
 )
@@ -203,6 +257,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -214,6 +272,8 @@ grids
 components
 /
 Grid
+.
+js
 "
 )
 )
@@ -224,6 +284,10 @@ BoxModelTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -233,6 +297,8 @@ inspector
 boxmodel
 /
 types
+.
+js
 "
 )
 ;
@@ -242,6 +308,10 @@ FlexboxTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -251,6 +321,8 @@ inspector
 flexbox
 /
 types
+.
+js
 "
 )
 ;
@@ -260,6 +332,10 @@ GridTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -269,6 +345,8 @@ inspector
 grids
 /
 types
+.
+js
 "
 )
 ;

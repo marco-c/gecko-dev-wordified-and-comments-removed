@@ -12,6 +12,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -76,6 +94,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -89,6 +111,8 @@ components
 graph
 /
 AnimationName
+.
+js
 "
 )
 )
@@ -101,6 +125,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -114,6 +142,8 @@ components
 graph
 /
 DelaySign
+.
+js
 "
 )
 )
@@ -126,6 +156,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -139,6 +173,8 @@ components
 graph
 /
 EndDelaySign
+.
+js
 "
 )
 )
@@ -151,6 +187,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -164,6 +204,8 @@ components
 graph
 /
 SummaryGraphPath
+.
+js
 "
 )
 )
@@ -179,6 +221,10 @@ numberWithDecimals
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -190,6 +236,8 @@ animation
 utils
 /
 l10n
+.
+js
 "
 )
 ;

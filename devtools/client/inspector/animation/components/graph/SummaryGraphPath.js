@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -74,6 +92,10 @@ ReactDOM
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -85,6 +107,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -96,6 +120,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +137,8 @@ components
 graph
 /
 ComputedTimingPath
+.
+js
 "
 )
 )
@@ -121,6 +151,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -134,6 +168,8 @@ components
 graph
 /
 EffectTimingPath
+.
+js
 "
 )
 )
@@ -146,6 +182,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -159,6 +199,8 @@ components
 graph
 /
 NegativeDelayPath
+.
+js
 "
 )
 )
@@ -171,6 +213,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -184,6 +230,8 @@ components
 graph
 /
 NegativeEndDelayPath
+.
+js
 "
 )
 )
@@ -196,6 +244,10 @@ DEFAULT_GRAPH_HEIGHT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -209,6 +261,8 @@ utils
 graph
 -
 helper
+.
+js
 "
 )
 ;

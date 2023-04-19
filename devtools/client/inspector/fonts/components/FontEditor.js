@@ -12,6 +12,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -76,6 +94,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -87,6 +109,8 @@ fonts
 components
 /
 FontAxis
+.
+js
 "
 )
 )
@@ -99,6 +123,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -110,6 +138,8 @@ fonts
 components
 /
 FontName
+.
+js
 "
 )
 )
@@ -122,6 +152,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -133,6 +167,8 @@ fonts
 components
 /
 FontSize
+.
+js
 "
 )
 )
@@ -145,6 +181,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -156,6 +196,8 @@ fonts
 components
 /
 FontStyle
+.
+js
 "
 )
 )
@@ -168,6 +210,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -179,6 +225,8 @@ fonts
 components
 /
 FontWeight
+.
+js
 "
 )
 )
@@ -191,6 +239,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -202,6 +254,8 @@ fonts
 components
 /
 LetterSpacing
+.
+js
 "
 )
 )
@@ -214,6 +268,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -225,6 +283,8 @@ fonts
 components
 /
 LineHeight
+.
+js
 "
 )
 )
@@ -237,6 +297,10 @@ getStr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -248,6 +312,8 @@ fonts
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -257,6 +323,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -266,6 +336,8 @@ inspector
 fonts
 /
 types
+.
+js
 "
 )
 ;

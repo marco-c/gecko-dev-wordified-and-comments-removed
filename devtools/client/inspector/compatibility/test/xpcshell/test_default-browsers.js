@@ -11,6 +11,10 @@ getBrowsersList
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -24,6 +28,8 @@ compatibility
 user
 -
 settings
+.
+js
 "
 )
 ;
