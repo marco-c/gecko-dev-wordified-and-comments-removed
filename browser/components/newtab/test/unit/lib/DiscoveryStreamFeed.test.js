@@ -12520,7 +12520,14 @@ recentSavesEnabled
 true
 hideDescriptions
 :
-true
+false
+hideDescriptionsRegions
+:
+"
+US
+CA
+GB
+"
 compactImages
 :
 true
@@ -12543,6 +12550,9 @@ descLines
 readTime
 :
 true
+saveToPocketCard
+:
+false
 saveToPocketCardRegions
 :
 "
