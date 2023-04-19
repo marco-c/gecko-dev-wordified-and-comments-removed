@@ -136,6 +136,11 @@ mLoadResult
 =
 NS_ERROR_NOT_INITIALIZED
 ;
+bool
+mLoadingFinished
+=
+false
+;
 nsString
 mFullURL
 ;
