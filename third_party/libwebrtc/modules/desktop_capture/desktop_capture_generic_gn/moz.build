@@ -2079,7 +2079,7 @@ _GNU_SOURCE
 ]
 =
 True
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -2101,6 +2101,11 @@ base_capturer_pipewire
 .
 cc
 "
+]
+UNIFIED_SOURCES
++
+=
+[
 "
 /
 third_party
@@ -2548,7 +2553,7 @@ _GNU_SOURCE
 ]
 =
 True
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -2570,6 +2575,11 @@ base_capturer_pipewire
 .
 cc
 "
+]
+UNIFIED_SOURCES
++
+=
+[
 "
 /
 third_party
@@ -2638,7 +2648,7 @@ _GNU_SOURCE
 ]
 =
 True
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -2660,6 +2670,11 @@ base_capturer_pipewire
 .
 cc
 "
+]
+UNIFIED_SOURCES
++
+=
+[
 "
 /
 third_party
@@ -2728,7 +2743,7 @@ _GNU_SOURCE
 ]
 =
 True
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -2750,6 +2765,11 @@ base_capturer_pipewire
 .
 cc
 "
+]
+UNIFIED_SOURCES
++
+=
+[
 "
 /
 third_party
