@@ -3415,6 +3415,14 @@ deps
 /
 rtc_base
 "
+"
+.
+.
+/
+rtc_base
+:
+macromagic
+"
 ]
 absl_deps
 =

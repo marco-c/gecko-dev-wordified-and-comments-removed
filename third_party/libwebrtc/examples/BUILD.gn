@@ -4726,6 +4726,14 @@ logging
 /
 rtc_base
 :
+macromagic
+"
+"
+.
+.
+/
+rtc_base
+:
 net_helpers
 "
 "

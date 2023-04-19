@@ -493,6 +493,17 @@ logging
 /
 rtc_base
 :
+macromagic
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 network_constants
 "
 "
