@@ -93,7 +93,7 @@ include
 "
 wasm
 /
-TypedObject
+WasmGcObject
 .
 h
 "
@@ -943,7 +943,7 @@ obj
 .
 is
 <
-TypedObject
+WasmGcObject
 >
 (
 )
@@ -963,7 +963,7 @@ obj
 .
 as
 <
-TypedObject
+WasmGcObject
 >
 (
 )
