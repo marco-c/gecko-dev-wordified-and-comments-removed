@@ -3120,10 +3120,6 @@ Stop
 (
 )
 {
-StopMeasuringCpuProcessTime
-(
-)
-;
 {
 MutexLock
 lock
@@ -3154,6 +3150,10 @@ State
 kStopped
 ;
 }
+StopMeasuringCpuProcessTime
+(
+)
+;
 comparison_available_event_
 .
 Set

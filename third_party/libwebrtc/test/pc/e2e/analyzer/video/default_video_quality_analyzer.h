@@ -884,6 +884,11 @@ GetAnalyzerStats
 )
 const
 ;
+double
+GetCpuUsagePercent
+(
+)
+;
 private
 :
 struct
@@ -2108,11 +2113,6 @@ StartExcludingCpuThreadTime
 ;
 void
 StopExcludingCpuThreadTime
-(
-)
-;
-double
-GetCpuUsagePercent
 (
 )
 ;
