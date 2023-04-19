@@ -912,8 +912,8 @@ false
 #
 endif
 #
-ifndef
-MOZ_DOM_STREAMS
+ifdef
+MOZ_JS_STREAMS
 case
 JSProto_ReadableStream
 :
