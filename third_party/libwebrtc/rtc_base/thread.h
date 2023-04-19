@@ -581,11 +581,6 @@ UnwrapCurrentThread
 (
 )
 ;
-bool
-IsMainThread
-(
-)
-;
 #
 if
 RTC_DCHECK_IS_ON
@@ -764,10 +759,6 @@ key_
 ;
 #
 endif
-const
-PlatformThreadRef
-main_thread_ref_
-;
 }
 ;
 class
