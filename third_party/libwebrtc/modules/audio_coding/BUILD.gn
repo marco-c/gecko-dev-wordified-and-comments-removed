@@ -12980,7 +12980,7 @@ flag
 "
 ]
 }
-rtc_executable
+rtc_test
 (
 "
 isac_fix_test
