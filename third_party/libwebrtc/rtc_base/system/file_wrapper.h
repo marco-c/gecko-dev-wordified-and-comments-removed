@@ -211,6 +211,11 @@ int64_t
 position
 )
 ;
+long
+FileSize
+(
+)
+;
 size_t
 Read
 (
