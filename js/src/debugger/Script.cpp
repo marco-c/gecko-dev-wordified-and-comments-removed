@@ -8150,6 +8150,12 @@ case
 JSOp
 :
 :
+CallContent
+:
+case
+JSOp
+:
+:
 CallIgnoresRv
 :
 case
@@ -8163,6 +8169,12 @@ JSOp
 :
 :
 New
+:
+case
+JSOp
+:
+:
+NewContent
 :
 case
 JSOp
