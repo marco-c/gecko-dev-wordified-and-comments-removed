@@ -608,6 +608,12 @@ args
 .
 gecko_profile_features
             
+extra_profiler_run
+=
+args
+.
+extra_profiler_run
+            
 symbols_path
 =
 args
