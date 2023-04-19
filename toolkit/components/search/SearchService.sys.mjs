@@ -17236,10 +17236,10 @@ MODIFIED_TYPE
 DEFAULT_PRIVATE
 )
 ;
+}
 /
 /
-Also
-update
+Update
 the
 telemetry
 data
@@ -17251,7 +17251,6 @@ recordTelemetryData
 (
 )
 ;
-}
 }
 #
 getEngineInfo
