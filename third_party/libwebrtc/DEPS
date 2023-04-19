@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-cd60f7c147648ecee2bdd7d8843b85dd35fe49d0
+a697245f3dec8b1a02306b04d214dd3b94167ea0
 '
 #
 Keep
@@ -165,7 +165,7 @@ chromium
 src
 /
 base
-62ab5ed470e35bc5b56fcf26b24667a2bded4998
+d07854bae776b5aac0b2753acb8a2c054fcc7c58
 '
 '
 src
@@ -189,7 +189,7 @@ chromium
 src
 /
 build
-0a7d5e2362681513a44b48185b80589a9b6e2f07
+8ae687514ca6dc093331e7afcbd9f93cc8d95a72
 '
 '
 src
@@ -213,7 +213,7 @@ chromium
 src
 /
 buildtools
-d8c375426d8f7f4147f7d4109bb63c12655fb8d6
+e1471b21ee9c6765ee95e9db0c76fe997ccad35c
 '
 #
 Gradle
@@ -309,7 +309,7 @@ chromium
 src
 /
 ios
-f05ae3297ca17437161afa22ff5058f02907ae5b
+af28cc6c8b4fb0b0aa352f83afe8597e508b7f5b
 '
 '
 condition
@@ -341,7 +341,7 @@ chromium
 src
 /
 testing
-e6c44c92f467e34425694b2db614d2f44ab9307f
+46f39ff7fc51299f51ab60bb6d6ab2fe067b173c
 '
 '
 src
@@ -365,7 +365,7 @@ chromium
 src
 /
 third_party
-9581bbe80972e69286ac12cb5dd2eaca397c0fa0
+5ad0921fc791543a5422be8efdd52bd404394902
 '
 '
 src
@@ -660,7 +660,7 @@ project
 libcxxabi
 .
 git
-93b8dcd57bd8ebe201ec24f7257339988ed2ef7c
+edde7bbc4049ae4a32257d9f16451312c763c601
 '
 '
 src
@@ -1048,7 +1048,7 @@ com
 catapult
 .
 git
-54219055fcf8c7ace26e9095715dd1587ea3fbe6
+180b8d540d9f9ae3e24cfe564f02044133c1c070
 '
 '
 src
@@ -1178,7 +1178,7 @@ tools
 depot_tools
 .
 git
-f0bc2d24042bd70cc7b43d4d19d9eec3074e462c
+e7eb3eb81ab7a84f7d9fc422200b9ba09d95699f
 '
 '
 src
@@ -1586,7 +1586,7 @@ google
 googletest
 .
 git
-b007c54f2944e193ac44fba1bc997cb65826a0b9
+0affd45b62371c1de44064a5a5f8817242208442
 '
 '
 src
@@ -2060,7 +2060,7 @@ external
 perfetto
 .
 git
-723b273d391e1b5330dba2cf2c3af6f7f4abea2c
+5731615c4b5bd9221d0808161595cd57593def23
 '
 '
 src
@@ -2090,7 +2090,7 @@ webm
 libvpx
 .
 git
-df0d06de6d3b64e35b9e75ad72c571af061bc7b3
+bf672f23a5336cb54dbcb2e4417142139f44cc3e
 '
 '
 src
@@ -2586,7 +2586,7 @@ chromium
 src
 /
 tools
-a49530481cc3b53d653bcb4609e11c6e1dcaacdb
+b5911e5f6e010e617867882722b740b152a3b9b8
 '
 '
 src
@@ -3528,7 +3528,9 @@ version
 '
 :
 '
-Go9J3Mz5ankZAgxmn5GxeXKdEDV73zaZp2ojNfGC1RQC
+yMO
+-
+x5RrhSksWmdTW_uQczi0PrHWCEfIyOkqwdFLExoC
 '
 }
 ]
