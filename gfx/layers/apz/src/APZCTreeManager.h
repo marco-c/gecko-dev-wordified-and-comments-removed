@@ -1990,6 +1990,9 @@ mInScrollbarTouchDrag
 TouchCounter
 mTouchCounter
 ;
+HitTestResult
+mTapGestureHitResult
+;
 mutable
 DataMutex
 <
