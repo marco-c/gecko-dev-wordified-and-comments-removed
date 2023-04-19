@@ -1297,7 +1297,7 @@ iframe
 true
 remoteIframe
 :
-false
+true
 iframeAttrs
 :
 {
@@ -1311,6 +1311,10 @@ width
 height
 :
 600px
+;
+padding
+:
+10px
 ;
 "
 }
