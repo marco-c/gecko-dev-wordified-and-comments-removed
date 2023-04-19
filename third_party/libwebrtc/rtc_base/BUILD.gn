@@ -934,11 +934,6 @@ format_macros
 h
 "
 "
-stringize_macros
-.
-h
-"
-"
 thread_annotations
 .
 h
@@ -6343,11 +6338,6 @@ cc
 "
 "
 string_utils_unittest
-.
-cc
-"
-"
-stringize_macros_unittest
 .
 cc
 "

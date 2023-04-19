@@ -14,15 +14,6 @@ include
 "
 rtc_base
 /
-stringize_macros
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 system
 /
 rtc_export
