@@ -4630,23 +4630,6 @@ run_on_projects
 )
 )
         
-if
-attr
-(
-"
-unittest_variant
-"
-)
-=
-=
-"
-fission
-"
-:
-            
-return
-False
-        
 def
 match_test
 (

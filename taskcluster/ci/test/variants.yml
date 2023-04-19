@@ -567,8 +567,6 @@ disable
 -
 fission
 "
-fission
--
 xorigin
 :
 description
@@ -581,9 +579,6 @@ with
 cross
 -
 origin
-and
-fission
-enabled
 "
 component
 :
@@ -599,8 +594,6 @@ Processes
 suffix
 :
 "
-fis
--
 xorig
 "
 replace
