@@ -7605,11 +7605,15 @@ NSStreamEventHasBytesAvailable
 aStream
 )
 ;
-const
+enum
+EnumType
+:
 int
+{
 bufferSize
 =
 2048
+}
 ;
 uint8_t
 buffer
