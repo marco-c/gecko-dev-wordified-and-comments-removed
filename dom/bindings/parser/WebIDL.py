@@ -13383,6 +13383,10 @@ any
 "
         
 "
+undefined
+"
+        
+"
 domstring
 "
         
@@ -13404,10 +13408,6 @@ jsstring
         
 "
 object
-"
-        
-"
-undefined
 "
         
 "
@@ -13857,14 +13857,7 @@ self
 :
         
 return
-self
-.
-name
-=
-=
-"
-Undefined
-"
+False
     
 def
 isSequence
@@ -14193,6 +14186,32 @@ self
         
 return
 False
+    
+def
+isDictionaryLike
+(
+self
+)
+:
+        
+return
+self
+.
+isDictionary
+(
+)
+or
+self
+.
+isRecord
+(
+)
+or
+self
+.
+isCallbackInterface
+(
+)
     
 def
 hasClamp
@@ -14559,19 +14578,6 @@ location
         
 assert
 obj
-        
-if
-obj
-.
-isType
-(
-)
-:
-            
-print
-(
-obj
-)
         
 assert
 not
@@ -15227,7 +15233,13 @@ self
 :
         
 return
-False
+self
+.
+inner
+.
+isUndefined
+(
+)
     
 def
 isSequence
@@ -16019,16 +16031,6 @@ prettyName
 )
     
 def
-isUndefined
-(
-self
-)
-:
-        
-return
-False
-    
-def
 isSequence
 (
 self
@@ -16187,6 +16189,13 @@ self
 return
 (
             
+other
+.
+isUndefined
+(
+)
+            
+or
 other
 .
 isPrimitive
@@ -16775,16 +16784,6 @@ prettyName
 )
     
 def
-isUndefined
-(
-self
-)
-:
-        
-return
-False
-    
-def
 isJSONType
 (
 self
@@ -17225,16 +17224,6 @@ memberTypes
 "
 )
 "
-    
-def
-isUndefined
-(
-self
-)
-:
-        
-return
-False
     
 def
 isUnion
@@ -18974,16 +18963,6 @@ Wrapper
 "
     
 def
-isUndefined
-(
-self
-)
-:
-        
-return
-False
-    
-def
 isDictionary
 (
 self
@@ -19421,6 +19400,13 @@ return
                 
 other
 .
+isUndefined
+(
+)
+                
+or
+other
+.
 isPrimitive
 (
 )
@@ -19476,10 +19462,18 @@ isDictionary
 (
 )
 and
+(
 other
 .
 nullable
 (
+)
+or
+other
+.
+isUndefined
+(
+)
 )
 :
             
@@ -19650,22 +19644,35 @@ isNonCallbackInterface
 )
         
 if
+(
+            
+other
+.
+isUndefined
+(
+)
+            
+or
 other
 .
 isDictionary
 (
 )
+            
 or
 other
 .
 isCallback
 (
 )
+            
 or
 other
 .
 isRecord
 (
+)
+        
 )
 :
             
@@ -20102,6 +20109,10 @@ any
 "
         
 "
+undefined
+"
+        
+"
 domstring
 "
         
@@ -20123,10 +20134,6 @@ jsstring
         
 "
 object
-"
-        
-"
-undefined
 "
         
 "
@@ -20321,6 +20328,16 @@ any
         
 Types
 .
+undefined
+:
+IDLType
+.
+Tags
+.
+undefined
+        
+Types
+.
 domstring
 :
 IDLType
@@ -20378,16 +20395,6 @@ IDLType
 Tags
 .
 object
-        
-Types
-.
-undefined
-:
-IDLType
-.
-Tags
-.
-undefined
         
 Types
 .
@@ -20626,6 +20633,14 @@ any
         
 Types
 .
+undefined
+:
+"
+undefined
+"
+        
+Types
+.
 domstring
 :
 "
@@ -20670,14 +20685,6 @@ object
 :
 "
 object
-"
-        
-Types
-.
-undefined
-:
-"
-undefined
 "
         
 Types
@@ -21442,6 +21449,25 @@ Types
 boolean
     
 def
+isUndefined
+(
+self
+)
+:
+        
+return
+self
+.
+_typeTag
+=
+=
+IDLBuiltinType
+.
+Types
+.
+undefined
+    
+def
 isNumeric
 (
 self
@@ -21963,17 +21989,41 @@ self
 if
 self
 .
-isBoolean
+isUndefined
 (
 )
 :
             
 return
+not
+(
+other
+.
+isUndefined
+(
+)
+or
+other
+.
+isDictionaryLike
+(
+)
+)
+        
+if
+self
+.
+isPrimitive
+(
+)
+:
+            
+if
 (
                 
 other
 .
-isNumeric
+isUndefined
 (
 )
                 
@@ -22034,80 +22084,38 @@ isRecord
 )
             
 )
-        
+:
+                
+return
+True
+            
 if
+self
+.
+isBoolean
+(
+)
+:
+                
+return
+other
+.
+isNumeric
+(
+)
+            
+assert
 self
 .
 isNumeric
 (
 )
-:
             
 return
-(
-                
 other
 .
 isBoolean
 (
-)
-                
-or
-other
-.
-isString
-(
-)
-                
-or
-other
-.
-isEnum
-(
-)
-                
-or
-other
-.
-isInterface
-(
-)
-                
-or
-other
-.
-isObject
-(
-)
-                
-or
-other
-.
-isCallback
-(
-)
-                
-or
-other
-.
-isDictionary
-(
-)
-                
-or
-other
-.
-isSequence
-(
-)
-                
-or
-other
-.
-isRecord
-(
-)
-            
 )
         
 if
@@ -22121,6 +22129,13 @@ isString
 return
 (
                 
+other
+.
+isUndefined
+(
+)
+                
+or
 other
 .
 isPrimitive
@@ -22191,38 +22206,35 @@ isObject
 :
             
 return
+(
+                
+other
+.
+isUndefined
+(
+)
+                
+or
 other
 .
 isPrimitive
 (
 )
+                
 or
 other
 .
 isString
 (
 )
+                
 or
 other
 .
 isEnum
 (
 )
-        
-if
-self
-.
-isUndefined
-(
-)
-:
             
-return
-not
-other
-.
-isUndefined
-(
 )
         
 assert
@@ -22235,6 +22247,13 @@ isSpiderMonkeyInterface
 return
 (
             
+other
+.
+isUndefined
+(
+)
+            
+or
 other
 .
 isPrimitive
@@ -23086,6 +23105,35 @@ IDLBuiltinType
 .
 Types
 .
+undefined
+:
+IDLBuiltinType
+(
+        
+BuiltinLocation
+(
+"
+<
+builtin
+type
+>
+"
+)
+"
+Undefined
+"
+IDLBuiltinType
+.
+Types
+.
+undefined
+    
+)
+    
+IDLBuiltinType
+.
+Types
+.
 boolean
 :
 IDLBuiltinType
@@ -23431,35 +23479,6 @@ IDLBuiltinType
 Types
 .
 object
-    
-)
-    
-IDLBuiltinType
-.
-Types
-.
-undefined
-:
-IDLBuiltinType
-(
-        
-BuiltinLocation
-(
-"
-<
-builtin
-type
->
-"
-)
-"
-Undefined
-"
-IDLBuiltinType
-.
-Types
-.
-undefined
     
 )
     
@@ -34913,6 +34932,13 @@ return
             
 other
 .
+isUndefined
+(
+)
+            
+or
+other
+.
 isPrimitive
 (
 )
@@ -44922,6 +44948,42 @@ p
 )
     
 def
+p_DefaultValueUndefined
+(
+self
+p
+)
+:
+        
+"
+"
+"
+        
+DefaultValue
+:
+UNDEFINED
+        
+"
+"
+"
+        
+p
+[
+0
+]
+=
+IDLUndefinedValue
+(
+self
+.
+getLocation
+(
+p
+1
+)
+)
+    
+def
 p_Exception
 (
 self
@@ -49938,6 +50000,10 @@ Null
 |
 OBJECT
 Null
+                            
+|
+UNDEFINED
+Null
         
 "
 "
@@ -49987,6 +50053,29 @@ IDLBuiltinType
 Types
 .
 ArrayBuffer
+]
+        
+elif
+p
+[
+1
+]
+=
+=
+"
+undefined
+"
+:
+            
+type
+=
+BuiltinTypes
+[
+IDLBuiltinType
+.
+Types
+.
+undefined
 ]
         
 else
@@ -50626,37 +50715,6 @@ p
 [
 1
 ]
-    
-def
-p_PrimitiveTypeUndefined
-(
-self
-p
-)
-:
-        
-"
-"
-"
-        
-PrimitiveType
-:
-UNDEFINED
-        
-"
-"
-"
-        
-p
-[
-0
-]
-=
-IDLBuiltinType
-.
-Types
-.
-undefined
     
 def
 p_PrimitiveTypeBoolean
