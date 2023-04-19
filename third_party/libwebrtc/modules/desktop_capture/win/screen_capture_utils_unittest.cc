@@ -154,12 +154,9 @@ if
 (
 screens
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 RTC_LOG
