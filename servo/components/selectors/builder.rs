@@ -1696,6 +1696,15 @@ Is
 ref
 list
 )
+|
+Component
+:
+:
+Has
+(
+ref
+list
+)
 =
 >
 {
