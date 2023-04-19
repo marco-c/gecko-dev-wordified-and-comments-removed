@@ -4289,6 +4289,17 @@ IsCurrent
 #
 if
 RTC_DCHECK_IS_ON
+RTC_DCHECK
+(
+this
+-
+>
+IsInvokeToThreadAllowed
+(
+this
+)
+)
+;
 RTC_DCHECK_RUN_ON
 (
 this

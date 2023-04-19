@@ -504,8 +504,9 @@ IsCurrent
 network_thread_
 -
 >
-DisallowAllInvokes
+AllowInvokesToThread
 (
+network_thread_
 )
 ;
 }
@@ -534,8 +535,9 @@ DisallowBlockingCalls
 thread
 -
 >
-DisallowAllInvokes
+AllowInvokesToThread
 (
+thread
 )
 ;
 }
