@@ -250,6 +250,11 @@ unsigned
 long
 TargetFrameRate
 ;
+readonly
+attribute
+ACString
+CodecSupportInfo
+;
 /
 /
 XXX
