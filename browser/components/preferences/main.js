@@ -9137,11 +9137,6 @@ return
 (
 AppConstants
 .
-MOZ_UPDATER
-&
-&
-AppConstants
-.
 MOZ_UPDATE_AGENT
 &
 &
@@ -9982,12 +9977,6 @@ BACKGROUND_UPDATE_CHANGED_TOPIC
 {
 if
 (
-!
-AppConstants
-.
-MOZ_UPDATER
-|
-|
 !
 AppConstants
 .

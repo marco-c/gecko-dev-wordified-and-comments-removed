@@ -163,11 +163,6 @@ if
 (
 AppConstants
 .
-MOZ_UPDATER
-&
-&
-AppConstants
-.
 MOZ_UPDATE_AGENT
 )
 {
