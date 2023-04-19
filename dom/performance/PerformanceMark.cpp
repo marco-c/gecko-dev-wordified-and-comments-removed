@@ -258,6 +258,14 @@ if
 performance
 -
 >
+IsGlobalObjectWindow
+(
+)
+&
+&
+performance
+-
+>
 IsPerformanceTimingAttribute
 (
 aMarkName
