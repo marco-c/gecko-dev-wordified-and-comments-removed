@@ -125,6 +125,9 @@ class
 nsIEventTarget
 ;
 class
+nsISerialEventTarget
+;
+class
 nsIThread
 ;
 namespace
@@ -325,9 +328,9 @@ sharedDBMutex
 const
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
-threadOpenedOn
+eventTargetOpenedOn
 ;
 nsresult
 internalClose
