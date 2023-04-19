@@ -5,7 +5,7 @@ super
 ToTokens
 ;
 use
-std
+core
 :
 :
 iter

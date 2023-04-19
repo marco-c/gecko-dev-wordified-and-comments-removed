@@ -1,4 +1,10 @@
 use
+core
+:
+:
+fmt
+;
+use
 proc_macro2
 :
 :
@@ -15,12 +21,6 @@ borrow
 :
 :
 Cow
-;
-use
-std
-:
-:
-fmt
 ;
 pub
 trait

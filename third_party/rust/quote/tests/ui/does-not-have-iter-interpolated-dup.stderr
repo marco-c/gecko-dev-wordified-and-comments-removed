@@ -101,6 +101,15 @@ crate
 :
 :
 quote_token_with_context
+which
+comes
+from
+the
+expansion
+of
+the
+macro
+quote
 (
 in
 Nightly
