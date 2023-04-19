@@ -64,11 +64,17 @@ subprocess
 Popen
 (
 args
+                       
+universal_newlines
+=
+True
+                       
 stdout
 =
 subprocess
 .
 PIPE
+                       
 stderr
 =
 subprocess
@@ -1263,6 +1269,15 @@ f
 .
 read
 (
+)
+.
+decode
+(
+'
+utf
+-
+8
+'
 )
 )
   
