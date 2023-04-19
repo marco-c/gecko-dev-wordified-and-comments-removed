@@ -5450,6 +5450,10 @@ StartRef
 )
 aProperty
 aAttribute
+SplitAtEdges
+:
+:
+eAllowToCreateEmptyContainer
 )
 ;
 if
@@ -5628,6 +5632,10 @@ EndRef
 )
 aProperty
 aAttribute
+SplitAtEdges
+:
+:
+eAllowToCreateEmptyContainer
 )
 ;
 if
@@ -5823,6 +5831,8 @@ aProperty
 nsAtom
 *
 aAttribute
+SplitAtEdges
+aSplitAtEdges
 )
 {
 if
@@ -6205,10 +6215,7 @@ EditorDOMPoint
 >
 (
 )
-SplitAtEdges
-:
-:
-eAllowToCreateEmptyContainer
+aSplitAtEdges
 )
 ;
 if
@@ -6386,6 +6393,10 @@ SplitAncestorStyledInlineElementsAt
 aPoint
 aProperty
 aAttribute
+SplitAtEdges
+:
+:
+eAllowToCreateEmptyContainer
 )
 ;
 if
@@ -6699,6 +6710,10 @@ SplitAncestorStyledInlineElementsAt
 atStartOfNextNode
 aProperty
 aAttribute
+SplitAtEdges
+:
+:
+eAllowToCreateEmptyContainer
 )
 ;
 if
