@@ -590,6 +590,7 @@ activeStreams
 [
 index
 ]
+event
 )
 ;
 event
@@ -712,6 +713,7 @@ event
 target
 .
 stream
+event
 )
 ;
 }

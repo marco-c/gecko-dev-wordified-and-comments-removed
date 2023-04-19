@@ -284,9 +284,6 @@ activeStreams
 [
 0
 ]
-"
-Devices
-"
 )
 ;
 let
