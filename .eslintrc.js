@@ -3781,14 +3781,6 @@ layout
 *
 "
 "
-mobile
-/
-android
-/
-*
-*
-"
-"
 modules
 /
 *

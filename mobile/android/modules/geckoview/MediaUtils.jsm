@@ -271,8 +271,6 @@ childrenMedia
 childrenMedia
 .
 length
->
-0
 )
 {
 return
@@ -329,8 +327,6 @@ childrenMedia
 childrenMedia
 .
 length
->
-0
 )
 {
 return
