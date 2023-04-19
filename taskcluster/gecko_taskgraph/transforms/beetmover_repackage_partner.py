@@ -25,6 +25,15 @@ taskgraph
 .
 util
 .
+schema
+import
+optionally_keyed_by
+resolve_keyed_by
+from
+taskgraph
+.
+util
+.
 taskcluster
 import
 get_artifact_prefix
@@ -83,19 +92,6 @@ import
 get_ftp_platform
     
 get_partner_config_by_kind
-)
-from
-gecko_taskgraph
-.
-util
-.
-schema
-import
-(
-    
-optionally_keyed_by
-    
-resolve_keyed_by
 )
 from
 gecko_taskgraph

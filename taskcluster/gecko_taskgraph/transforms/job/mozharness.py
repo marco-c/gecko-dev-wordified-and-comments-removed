@@ -35,7 +35,7 @@ textwrap
 import
 dedent
 from
-gecko_taskgraph
+taskgraph
 .
 util
 .

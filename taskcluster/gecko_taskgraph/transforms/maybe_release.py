@@ -1,4 +1,12 @@
 from
+taskgraph
+.
+util
+.
+schema
+import
+resolve_keyed_by
+from
 gecko_taskgraph
 .
 transforms
@@ -14,14 +22,6 @@ util
 attributes
 import
 release_level
-from
-gecko_taskgraph
-.
-util
-.
-schema
-import
-resolve_keyed_by
 transforms
 =
 TransformSequence

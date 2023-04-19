@@ -238,7 +238,7 @@ import
 test_setting_description_schema
     
 from
-gecko_taskgraph
+taskgraph
 .
 util
 .

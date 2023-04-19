@@ -3036,9 +3036,7 @@ taskcluster
 /
 gecko_taskgraph
 /
-util
-/
-schema
+__init__
 .
 py
 -

@@ -15,6 +15,14 @@ mozpath
 import
 taskgraph
 from
+taskgraph
+.
+util
+.
+schema
+import
+Schema
+from
 gecko_taskgraph
 .
 transforms
@@ -42,14 +50,6 @@ generate_context_hash
     
 image_path
 )
-from
-gecko_taskgraph
-.
-util
-.
-schema
-import
-Schema
 from
 voluptuous
 import
