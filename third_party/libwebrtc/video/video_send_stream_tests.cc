@@ -10334,10 +10334,6 @@ GetRealTimeClock
 (
 )
 )
-number_of_initializations_
-(
-0
-)
 last_initialized_frame_width_
 (
 0
@@ -10455,10 +10451,6 @@ config
 >
 height
 ;
-+
-+
-number_of_initializations_
-;
 init_encode_called_
 .
 Set
@@ -10526,14 +10518,6 @@ rtc
 :
 Event
 init_encode_called_
-;
-size_t
-number_of_initializations_
-RTC_GUARDED_BY
-(
-&
-mutex_
-)
 ;
 int
 last_initialized_frame_width_
