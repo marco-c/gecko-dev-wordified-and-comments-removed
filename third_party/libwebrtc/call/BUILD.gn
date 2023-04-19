@@ -138,6 +138,16 @@ call
 h
 "
 "
+call_basic_stats
+.
+cc
+"
+"
+call_basic_stats
+.
+h
+"
+"
 call_config
 .
 cc

@@ -122,9 +122,6 @@ VideoSendStreamPeer
 ;
 }
 class
-CallStats
-;
-class
 IvfFileWriter
 ;
 class
