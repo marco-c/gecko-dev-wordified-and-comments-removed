@@ -1145,17 +1145,6 @@ leftbr
 rightbr
 "
 ;
-case
-StyleClear
-:
-:
-Line
-:
-return
-"
-linebr
-"
-;
 }
 return
 "

@@ -14764,12 +14764,6 @@ StyleClear
 :
 Both
 :
-case
-StyleClear
-:
-:
-Line
-:
 break
 ;
 }

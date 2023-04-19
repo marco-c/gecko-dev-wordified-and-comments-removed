@@ -606,7 +606,6 @@ None
 Left
 Right
 Both
-Line
 }
 ;
 enum
