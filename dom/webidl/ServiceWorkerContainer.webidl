@@ -120,7 +120,10 @@ serviceworkercontainer
 Func
 =
 "
-ServiceWorkersEnabled
+ServiceWorkerContainer
+:
+:
+IsEnabled
 "
 Exposed
 =

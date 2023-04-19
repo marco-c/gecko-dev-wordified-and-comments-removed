@@ -1952,7 +1952,10 @@ Navigator
 Func
 =
 "
-ServiceWorkersEnabled
+ServiceWorkerContainer
+:
+:
+IsEnabled
 "
 SameObject
 ]
