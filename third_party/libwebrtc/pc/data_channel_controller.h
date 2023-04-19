@@ -377,6 +377,8 @@ override
 void
 OnTransportClosed
 (
+RTCError
+error
 )
 override
 ;
@@ -521,6 +523,8 @@ SignalSctpDataChannelCreated_
 void
 OnTransportChannelClosed
 (
+RTCError
+error
 )
 ;
 void

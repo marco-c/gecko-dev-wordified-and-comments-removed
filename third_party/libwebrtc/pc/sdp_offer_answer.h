@@ -2412,6 +2412,8 @@ transceiver
 void
 DestroyDataChannelTransport
 (
+RTCError
+error
 )
 ;
 void
