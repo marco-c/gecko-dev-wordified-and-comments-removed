@@ -19,6 +19,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 fstream
 >
 #
@@ -282,7 +287,7 @@ end
 std
 :
 :
-sort
+stable_sort
 (
 out
 .
