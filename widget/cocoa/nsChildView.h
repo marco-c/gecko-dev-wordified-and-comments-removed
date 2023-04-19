@@ -1956,9 +1956,6 @@ bool
 aFullscreen
 )
 ;
-#
-ifdef
-DEBUG
 virtual
 nsresult
 SetHiDPIMode
@@ -1975,8 +1972,6 @@ RestoreHiDPIMode
 )
 override
 ;
-#
-endif
 protected
 :
 virtual
