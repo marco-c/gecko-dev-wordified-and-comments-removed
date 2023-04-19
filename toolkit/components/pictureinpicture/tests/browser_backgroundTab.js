@@ -269,12 +269,6 @@ closeWindow
 pipWin
 )
 ;
-window
-.
-restore
-(
-)
-;
 }
 )
 ;
