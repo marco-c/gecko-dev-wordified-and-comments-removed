@@ -192,10 +192,6 @@ CanvasDrawPath
 ;
 OffscreenCanvasRenderingContext2D
 includes
-CanvasText
-;
-OffscreenCanvasRenderingContext2D
-includes
 CanvasDrawImage
 ;
 OffscreenCanvasRenderingContext2D
@@ -205,10 +201,6 @@ CanvasImageData
 OffscreenCanvasRenderingContext2D
 includes
 CanvasPathDrawingStyles
-;
-OffscreenCanvasRenderingContext2D
-includes
-CanvasTextDrawingStyles
 ;
 OffscreenCanvasRenderingContext2D
 includes

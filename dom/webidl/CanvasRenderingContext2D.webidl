@@ -2627,10 +2627,7 @@ matrix
 [
 Exposed
 =
-(
 Window
-Worker
-)
 ]
 interface
 TextMetrics
