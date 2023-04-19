@@ -2402,7 +2402,7 @@ this
 panel
 anchor
 "
-bottomright
+bottomcenter
 topright
 "
 0

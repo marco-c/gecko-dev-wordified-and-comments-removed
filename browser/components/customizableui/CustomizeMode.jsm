@@ -13658,7 +13658,7 @@ panelOnTheLeft
 position
 =
 "
-topleft
+leftcenter
 topright
 "
 ;
@@ -13678,7 +13678,7 @@ else
 position
 =
 "
-topright
+rightcenter
 topleft
 "
 ;

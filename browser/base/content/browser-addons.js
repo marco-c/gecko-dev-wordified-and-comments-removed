@@ -1170,7 +1170,7 @@ popupOptions
 position
 :
 "
-bottomright
+bottomcenter
 topright
 "
 x
@@ -2296,7 +2296,7 @@ popupOptions
 position
 :
 "
-bottomright
+bottomcenter
 topright
 "
 x

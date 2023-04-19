@@ -2325,7 +2325,7 @@ anchor
 position
 :
 "
-bottomright
+bottomcenter
 topright
 "
 triggerEvent
@@ -4000,7 +4000,7 @@ openPopup
 (
 anchor
 "
-bottomright
+bottomcenter
 topright
 "
 )

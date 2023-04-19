@@ -2429,7 +2429,7 @@ messageImage
 "
 )
 "
-bottomleft
+bottomcenter
 topleft
 "
 )

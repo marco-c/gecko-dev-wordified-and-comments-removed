@@ -5008,7 +5008,7 @@ _identityIconBox
 position
 :
 "
-bottomleft
+bottomcenter
 topleft
 "
 triggerEvent

@@ -207,7 +207,7 @@ openPopup
 (
 tab
 "
-bottomleft
+bottomcenter
 topleft
 "
 0
