@@ -916,9 +916,11 @@ querySelector
 (
 "
 #
-tabpickup
+tab
 -
-steps
+pickup
+-
+container
 "
 )
 .
