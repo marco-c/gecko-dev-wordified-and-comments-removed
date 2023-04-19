@@ -1379,14 +1379,6 @@ network_thread_
 connection
 -
 >
-set_remote_ice_mode
-(
-remote_ice_mode_
-)
-;
-connection
--
->
 set_receiving_timeout
 (
 config_

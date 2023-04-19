@@ -1929,14 +1929,6 @@ ICEMODE_FULL
 conn_
 -
 >
-set_remote_ice_mode
-(
-remote_ice_mode
-)
-;
-conn_
--
->
 set_use_candidate_attr
 (
 remote_ice_mode
