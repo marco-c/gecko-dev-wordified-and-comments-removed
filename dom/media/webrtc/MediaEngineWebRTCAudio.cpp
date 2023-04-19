@@ -1268,16 +1268,6 @@ aPrefs
 .
 mHPFOn
 ;
-mAudioProcessingConfig
-.
-residual_echo_detector
-.
-enabled
-=
-aPrefs
-.
-mResidualEchoOn
-;
 RefPtr
 <
 MediaEngineWebRTCMicrophoneSource
