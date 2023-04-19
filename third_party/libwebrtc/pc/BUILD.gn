@@ -409,6 +409,14 @@ visibility
 :
 *
 "
+"
+.
+.
+/
+test
+/
+peer_scenario
+"
 ]
 sources
 =
@@ -16487,6 +16495,10 @@ h
 deps
 =
 [
+"
+:
+channel
+"
 "
 :
 channel_interface

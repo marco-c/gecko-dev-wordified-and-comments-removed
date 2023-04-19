@@ -396,6 +396,17 @@ rtc_p2p
 /
 pc
 :
+channel
+"
+"
+.
+.
+/
+.
+.
+/
+pc
+:
 jsep_transport_controller
 "
 "

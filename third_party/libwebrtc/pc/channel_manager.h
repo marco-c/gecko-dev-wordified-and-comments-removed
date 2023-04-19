@@ -124,15 +124,6 @@ include
 "
 pc
 /
-channel
-.
-h
-"
-#
-include
-"
-pc
-/
 channel_interface
 .
 h
