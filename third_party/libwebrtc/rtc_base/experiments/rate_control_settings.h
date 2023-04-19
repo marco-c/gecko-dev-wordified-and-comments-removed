@@ -459,7 +459,6 @@ const
 key_value_config
 )
 ;
-const
 CongestionWindowConfig
 congestion_window_config_
 ;
