@@ -1157,6 +1157,9 @@ AutoUnsafeCallWithABI
 unsafe
 ;
 return
+std
+:
+:
 cos
 (
 x
@@ -2538,6 +2541,9 @@ y
 )
 {
 return
+std
+:
+:
 sqrt
 (
 x
@@ -2560,6 +2566,9 @@ return
 .
 0
 /
+std
+:
+:
 sqrt
 (
 x
@@ -2568,6 +2577,9 @@ x
 }
 }
 return
+std
+:
+:
 pow
 (
 x
@@ -3384,6 +3396,9 @@ AutoUnsafeCallWithABI
 unsafe
 ;
 return
+std
+:
+:
 sin
 (
 x
@@ -3493,6 +3508,9 @@ AutoUnsafeCallWithABI
 unsafe
 ;
 return
+std
+:
+:
 sqrt
 (
 x
@@ -3602,6 +3620,9 @@ AutoUnsafeCallWithABI
 unsafe
 ;
 return
+std
+:
+:
 tan
 (
 x
@@ -4425,6 +4446,9 @@ w
 return
 scale
 *
+std
+:
+:
 sqrt
 (
 sumsq
@@ -4710,6 +4734,9 @@ GenericNaN
 :
 scale
 *
+std
+:
+:
 sqrt
 (
 sumsq
