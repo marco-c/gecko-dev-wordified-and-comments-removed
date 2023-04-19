@@ -12986,7 +12986,13 @@ re
 handling
 user
 input
+and
+provides
+transient
+user
+activation
 .
+*
 Otherwise
 this
 is
@@ -12998,7 +13004,6 @@ op
 as
 by
 default
-*
 we
 '
 re
