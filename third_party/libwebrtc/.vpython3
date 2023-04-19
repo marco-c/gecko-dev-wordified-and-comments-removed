@@ -314,7 +314,7 @@ tools_webrtc
 /
 perf
 /
-webrtc_dashboard_upload
+process_perf_results
 .
 py
 .
