@@ -7000,6 +7000,10 @@ IPC_OK
 if
 (
 !
+aDomain
+|
+|
+!
 Document
 :
 :
