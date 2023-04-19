@@ -200,6 +200,9 @@ toctree
 maxdepth
 :
 1
+code
+-
+overview
 buffer
 instrumenting
 -
