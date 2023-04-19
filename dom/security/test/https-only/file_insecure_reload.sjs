@@ -66,6 +66,11 @@ the
 http
 page
 '
+historyLength
+:
+history
+.
+length
 }
 '
 *
