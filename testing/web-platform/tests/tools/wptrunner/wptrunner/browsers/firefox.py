@@ -323,6 +323,20 @@ return
     
 elif
 run_info_data
+.
+get
+(
+"
+ccov
+"
+)
+:
+        
+return
+4
+    
+elif
+run_info_data
 [
 "
 debug
@@ -348,23 +362,6 @@ tsan
 )
 :
         
-if
-run_info_data
-.
-get
-(
-"
-ccov
-"
-)
-:
-            
-return
-4
-        
-else
-:
-            
 return
 3
     
@@ -413,20 +410,6 @@ aarch64
         
 return
 4
-    
-elif
-run_info_data
-.
-get
-(
-"
-ccov
-"
-)
-:
-        
-return
-2
     
 return
 1
