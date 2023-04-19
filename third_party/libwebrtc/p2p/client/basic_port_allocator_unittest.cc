@@ -1115,13 +1115,9 @@ TestStunServer
 :
 Create
 (
-rtc
-:
-:
-Thread
-:
-:
-Current
+fss_
+.
+get
 (
 )
 kStunAddr

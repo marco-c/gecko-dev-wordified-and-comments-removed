@@ -40,9 +40,9 @@ Create
 rtc
 :
 :
-Thread
+SocketServer
 *
-thread
+ss
 const
 rtc
 :
@@ -59,12 +59,7 @@ AsyncSocket
 *
 socket
 =
-thread
--
->
-socketserver
-(
-)
+ss
 -
 >
 CreateAsyncSocket
