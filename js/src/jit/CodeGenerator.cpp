@@ -100900,7 +100900,7 @@ JSContext
 *
 Handle
 <
-ArrayObject
+NativeObject
 *
 >
 int32_t
@@ -100980,7 +100980,7 @@ JSContext
 *
 Handle
 <
-ArrayObject
+NativeObject
 *
 >
 int32_t

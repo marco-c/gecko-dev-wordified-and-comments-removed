@@ -7268,7 +7268,7 @@ JSContext
 cx
 Handle
 <
-ArrayObject
+NativeObject
 *
 >
 obj
@@ -7322,7 +7322,7 @@ JSContext
 cx
 Handle
 <
-ArrayObject
+NativeObject
 *
 >
 obj
