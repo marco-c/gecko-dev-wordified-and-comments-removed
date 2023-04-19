@@ -203,11 +203,6 @@ mutex_pthread
 .
 h
 "
-"
-mutex_race_check
-.
-h
-"
 ]
 if
 (
@@ -249,14 +244,6 @@ macromagic
 .
 :
 platform_thread_types
-"
-"
-.
-.
-/
-system
-:
-unused
 "
 ]
 absl_deps
