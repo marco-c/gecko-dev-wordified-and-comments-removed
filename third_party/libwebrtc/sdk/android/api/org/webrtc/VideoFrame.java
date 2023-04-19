@@ -100,12 +100,6 @@ release
 (
 )
 ;
-CalledByNative
-(
-"
-Buffer
-"
-)
 Buffer
 cropAndScale
 (

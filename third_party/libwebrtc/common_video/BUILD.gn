@@ -365,16 +365,6 @@ api
 /
 video
 :
-video_frame_i420
-"
-"
-.
-.
-/
-api
-/
-video
-:
 video_frame_nv12
 "
 "
@@ -721,7 +711,7 @@ api
 /
 video
 :
-video_frame_i420
+video_frame_nv12
 "
 "
 .

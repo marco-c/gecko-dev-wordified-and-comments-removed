@@ -157,12 +157,6 @@ video_frame
 .
 .
 :
-video_frame_i420
-"
-"
-.
-.
-:
 video_frame_nv12
 "
 "
