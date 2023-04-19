@@ -11645,7 +11645,7 @@ Services
 .
 startup
 .
-wasSilentlyRestarted
+wasSilentlyStarted
 )
 {
 LOG
