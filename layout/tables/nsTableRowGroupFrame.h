@@ -872,17 +872,6 @@ aDesiredSize
 )
 ;
 void
-SlideChild
-(
-TableRowGroupReflowInput
-&
-aReflowInput
-nsIFrame
-*
-aKidFrame
-)
-;
-void
 ReflowChildren
 (
 nsPresContext
