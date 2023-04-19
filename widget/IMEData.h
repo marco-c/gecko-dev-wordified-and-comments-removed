@@ -1684,7 +1684,7 @@ Truncate
 (
 )
 ;
-mHTMLInputInputmode
+mHTMLInputMode
 .
 Truncate
 (
@@ -1861,12 +1861,12 @@ aOldContext
 mHTMLInputType
 |
 |
-mHTMLInputInputmode
+mHTMLInputMode
 !
 =
 aOldContext
 .
-mHTMLInputInputmode
+mHTMLInputMode
 |
 |
 #
@@ -1925,7 +1925,7 @@ nsString
 mHTMLInputType
 ;
 nsString
-mHTMLInputInputmode
+mHTMLInputMode
 ;
 nsString
 mActionHint

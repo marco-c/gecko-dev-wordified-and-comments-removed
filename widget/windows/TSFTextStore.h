@@ -1832,7 +1832,7 @@ aHTMLInputType
 const
 nsString
 &
-aHTMLInputInputMode
+aHTMLInputMode
 )
 ;
 void

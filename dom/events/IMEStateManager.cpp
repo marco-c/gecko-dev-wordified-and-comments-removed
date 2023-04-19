@@ -7734,7 +7734,7 @@ go
 }
 static
 void
-GetInputmode
+GetInputMode
 (
 const
 IMEState
@@ -7746,7 +7746,7 @@ nsIContent
 aContent
 nsAString
 &
-aInputmode
+aInputMode
 )
 {
 if
@@ -7795,7 +7795,7 @@ nsGkAtoms
 :
 :
 inputmode
-aInputmode
+aInputMode
 )
 ;
 if
@@ -7811,7 +7811,7 @@ input
 )
 &
 &
-aInputmode
+aInputMode
 .
 EqualsLiteral
 (
@@ -7837,7 +7837,7 @@ OwnerDoc
 )
 )
 {
-aInputmode
+aInputMode
 .
 Truncate
 (
@@ -7849,7 +7849,7 @@ else
 {
 ToLowerCase
 (
-aInputmode
+aInputMode
 )
 ;
 }
@@ -8252,14 +8252,14 @@ context
 mActionHint
 )
 ;
-GetInputmode
+GetInputMode
 (
 aState
 *
 focusedElement
 context
 .
-mHTMLInputInputmode
+mHTMLInputMode
 )
 ;
 GetAutocapitalize

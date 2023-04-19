@@ -5747,7 +5747,7 @@ WriteParam
 aWriter
 aParam
 .
-mHTMLInputInputmode
+mHTMLInputMode
 )
 ;
 WriteParam
@@ -5861,7 +5861,7 @@ aReader
 aResult
 -
 >
-mHTMLInputInputmode
+mHTMLInputMode
 )
 &
 &

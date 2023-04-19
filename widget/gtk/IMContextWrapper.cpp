@@ -6059,7 +6059,7 @@ if
 (
 mInputContext
 .
-mHTMLInputInputmode
+mHTMLInputMode
 .
 EqualsLiteral
 (
@@ -6079,7 +6079,7 @@ if
 (
 mInputContext
 .
-mHTMLInputInputmode
+mHTMLInputMode
 .
 EqualsLiteral
 (
@@ -6099,7 +6099,7 @@ if
 (
 mInputContext
 .
-mHTMLInputInputmode
+mHTMLInputMode
 .
 EqualsLiteral
 (
@@ -6119,7 +6119,7 @@ if
 (
 mInputContext
 .
-mHTMLInputInputmode
+mHTMLInputMode
 .
 EqualsLiteral
 (
@@ -6139,7 +6139,7 @@ if
 (
 mInputContext
 .
-mHTMLInputInputmode
+mHTMLInputMode
 .
 EqualsLiteral
 (
@@ -6175,7 +6175,7 @@ if
 (
 mInputContext
 .
-mHTMLInputInputmode
+mHTMLInputMode
 .
 EqualsLiteral
 (

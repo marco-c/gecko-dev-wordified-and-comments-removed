@@ -12089,7 +12089,7 @@ GetInputContext
 (
 )
 .
-mHTMLInputInputmode
+mHTMLInputMode
 ;
 return
 NS_OK
