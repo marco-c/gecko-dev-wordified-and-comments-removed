@@ -1971,6 +1971,12 @@ kCMBlockBufferAssureMemoryNowFlag
 block_buffer
 )
 ;
+XCTAssertEqual
+(
+kCMBlockBufferNoErr
+status
+)
+;
 status
 =
 CMSampleBufferCreate
@@ -1988,6 +1994,12 @@ nullptr
 nullptr
 &
 sample_buffer
+)
+;
+XCTAssertEqual
+(
+noErr
+status
 )
 ;
 return
