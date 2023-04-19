@@ -713,12 +713,6 @@ encoder_feedback
 ;
 observers
 .
-rtcp_stats
-=
-stats_proxy
-;
-observers
-.
 report_block_data_observer
 =
 stats_proxy

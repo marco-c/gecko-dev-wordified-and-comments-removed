@@ -246,10 +246,6 @@ RtcpLossNotificationObserver
 *
 rtcp_loss_notification_observer
 ;
-RtcpStatisticsCallback
-*
-rtcp_stats
-;
 ReportBlockDataObserver
 *
 report_block_data_observer

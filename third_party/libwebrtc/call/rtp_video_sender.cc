@@ -1224,14 +1224,6 @@ rtcp_type_observer
 ;
 configuration
 .
-rtcp_statistics_callback
-=
-observers
-.
-rtcp_stats
-;
-configuration
-.
 report_block_data_observer
 =
 observers

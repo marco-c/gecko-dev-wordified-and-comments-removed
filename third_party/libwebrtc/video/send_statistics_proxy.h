@@ -208,8 +208,6 @@ SendStatisticsProxy
 public
 VideoStreamEncoderObserver
 public
-RtcpStatisticsCallback
-public
 ReportBlockDataObserver
 public
 RtcpPacketTypeCounterObserver
@@ -447,18 +445,6 @@ const
 ;
 protected
 :
-void
-StatisticsUpdated
-(
-const
-RtcpStatistics
-&
-statistics
-uint32_t
-ssrc
-)
-override
-;
 void
 OnReportBlockDataUpdated
 (

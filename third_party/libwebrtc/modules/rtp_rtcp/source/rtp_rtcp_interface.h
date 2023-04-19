@@ -314,12 +314,6 @@ rtcp_packet_type_counter_observer
 =
 nullptr
 ;
-RtcpStatisticsCallback
-*
-rtcp_statistics_callback
-=
-nullptr
-;
 RtcpCnameCallback
 *
 rtcp_cname_callback

@@ -1367,11 +1367,6 @@ PlusInfinity
 (
 )
 ;
-RtcpStatisticsCallback
-*
-const
-stats_callback_
-;
 RtcpCnameCallback
 *
 const
