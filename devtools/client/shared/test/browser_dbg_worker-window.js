@@ -112,7 +112,7 @@ gDevTools
 .
 showToolbox
 (
-commands
+workerDescriptorFront
 {
 toolId
 :

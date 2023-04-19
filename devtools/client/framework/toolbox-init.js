@@ -413,7 +413,7 @@ js
 ;
 const
 {
-commandsFromURL
+descriptorFromURL
 }
 =
 require
@@ -429,7 +429,7 @@ client
 /
 framework
 /
-commands
+descriptor
 -
 from
 -
@@ -480,10 +480,10 @@ tool
 try
 {
 const
-commands
+descriptor
 =
 await
-commandsFromURL
+descriptorFromURL
 (
 url
 )
@@ -493,9 +493,9 @@ toolbox
 =
 gDevTools
 .
-getToolboxForCommands
+getToolboxForDescriptor
 (
-commands
+descriptor
 )
 ;
 if
@@ -518,9 +518,7 @@ destroy
 )
 ;
 }
-commands
-.
-descriptorFront
+descriptor
 .
 once
 (
@@ -582,7 +580,7 @@ gDevTools
 .
 showToolbox
 (
-commands
+descriptor
 {
 toolId
 :
