@@ -630,6 +630,11 @@ packet_idx
 =
 0
 ;
+packet_idx
+<
+options_
+.
+max_burst
 ;
 +
 +
