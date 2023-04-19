@@ -1016,6 +1016,8 @@ BUG_COMPONENT
 Core
 "
 "
+Graphics
+:
 ImageLib
 "
 )
@@ -6435,7 +6437,7 @@ Core
 "
 Graphics
 :
-WebGL
+CanvasWebGL
 "
 )
 with
