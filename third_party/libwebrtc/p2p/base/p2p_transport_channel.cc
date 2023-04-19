@@ -8770,6 +8770,15 @@ packets_received
 =
 packets_received_
 ;
+ice_transport_stats
+-
+>
+ice_role
+=
+GetIceRole
+(
+)
+;
 return
 true
 ;

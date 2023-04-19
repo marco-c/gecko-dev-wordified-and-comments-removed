@@ -7851,6 +7851,15 @@ transport
 selected_candidate_pair_changes
 )
 ;
+verifier
+.
+TestMemberIsDefined
+(
+transport
+.
+ice_role
+)
+;
 return
 verifier
 .

@@ -184,6 +184,11 @@ packets_received
 =
 0
 ;
+IceRole
+ice_role
+=
+ICEROLE_UNKNOWN
+;
 }
 ;
 typedef
