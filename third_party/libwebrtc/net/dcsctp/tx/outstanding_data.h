@@ -424,9 +424,7 @@ kAbandon
 explicit
 Item
 (
-const
 Data
-&
 data
 MaxRetransmits
 max_retransmissions
@@ -450,10 +448,12 @@ expires_at
 )
 data_
 (
-data
-.
-Clone
+std
+:
+:
+move
 (
+data
 )
 )
 {

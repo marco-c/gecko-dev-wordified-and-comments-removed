@@ -6317,12 +6317,9 @@ data
 .
 payload
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 packet_sender_

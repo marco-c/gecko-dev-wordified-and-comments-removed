@@ -9019,11 +9019,6 @@ PPID
 (
 53
 )
-rtc
-:
-:
-CopyOnWriteBuffer
-(
 std
 :
 :
@@ -9035,7 +9030,6 @@ uint8_t
 kWatermarkLimit
 +
 1
-)
 )
 opts
 )
@@ -9103,11 +9097,6 @@ PPID
 (
 53
 )
-rtc
-:
-:
-CopyOnWriteBuffer
-(
 std
 :
 :
@@ -9117,7 +9106,6 @@ uint8_t
 >
 (
 1
-)
 )
 {
 }
@@ -9205,11 +9193,6 @@ PPID
 (
 53
 )
-rtc
-:
-:
-CopyOnWriteBuffer
-(
 std
 :
 :
@@ -9219,7 +9202,6 @@ uint8_t
 >
 (
 1
-)
 )
 {
 }
@@ -9292,11 +9274,6 @@ PPID
 (
 53
 )
-rtc
-:
-:
-CopyOnWriteBuffer
-(
 std
 :
 :
@@ -9306,7 +9283,6 @@ uint8_t
 >
 (
 1
-)
 )
 {
 }
@@ -9379,11 +9355,6 @@ PPID
 (
 53
 )
-rtc
-:
-:
-CopyOnWriteBuffer
-(
 std
 :
 :
@@ -9393,7 +9364,6 @@ uint8_t
 >
 (
 kRemainingSize
-)
 )
 {
 }
@@ -9505,11 +9475,6 @@ PPID
 (
 53
 )
-rtc
-:
-:
-CopyOnWriteBuffer
-(
 std
 :
 :
@@ -9519,7 +9484,6 @@ uint8_t
 >
 (
 kSmallMessageSize
-)
 )
 {
 }
