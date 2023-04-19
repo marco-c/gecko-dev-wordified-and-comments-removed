@@ -2536,7 +2536,7 @@ GetEffect
 )
 -
 >
-SpecifiedTiming
+NormalizedTiming
 (
 )
 ;

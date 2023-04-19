@@ -8425,6 +8425,10 @@ mAnimation
 =
 aAnimation
 ;
+UpdateNormalizedTiming
+(
+)
+;
 if
 (
 mAnimation

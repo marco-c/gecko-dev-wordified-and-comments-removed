@@ -592,7 +592,7 @@ TimeDuration
 mEffect
 -
 >
-SpecifiedTiming
+NormalizedTiming
 (
 )
 .

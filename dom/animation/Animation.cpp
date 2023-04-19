@@ -1161,6 +1161,19 @@ aTimeline
 ;
 if
 (
+mEffect
+)
+{
+mEffect
+-
+>
+UpdateNormalizedTiming
+(
+)
+;
+}
+if
+(
 !
 mStartTime
 .
@@ -4246,7 +4259,7 @@ mEffect
 mEffect
 -
 >
-SpecifiedTiming
+NormalizedTiming
 (
 )
 .
@@ -7673,7 +7686,7 @@ return
 mEffect
 -
 >
-SpecifiedTiming
+NormalizedTiming
 (
 )
 .
@@ -8329,7 +8342,7 @@ StickyTimeDuration
 mEffect
 -
 >
-SpecifiedTiming
+NormalizedTiming
 (
 )
 .
@@ -8406,7 +8419,7 @@ EffectEnd
 mEffect
 -
 >
-SpecifiedTiming
+NormalizedTiming
 (
 )
 .
