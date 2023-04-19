@@ -402,6 +402,14 @@ assign
 BOOL
 enableImplicitRollback
 ;
+property
+(
+nonatomic
+assign
+)
+BOOL
+offerExtmapAllowMixed
+;
 -
 (
 instancetype
