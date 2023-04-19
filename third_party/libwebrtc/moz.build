@@ -765,6 +765,16 @@ libwebrtc
 /
 api
 /
+sequence_checker_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+api
+/
 simulated_network_api_gn
 "
 "
