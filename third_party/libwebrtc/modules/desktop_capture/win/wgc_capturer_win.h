@@ -314,6 +314,8 @@ unique_ptr
 SourceEnumerator
 >
 source_enumerator
+bool
+allow_delayed_capturable_check
 )
 ;
 WgcCapturerWin
@@ -357,6 +359,10 @@ const
 DesktopCaptureOptions
 &
 options
+bool
+allow_delayed_capturable_check
+=
+false
 )
 ;
 static
@@ -464,6 +470,11 @@ Callback
 callback_
 =
 nullptr
+;
+bool
+allow_delayed_capturable_check_
+=
+false
 ;
 Microsoft
 :

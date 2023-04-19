@@ -93,6 +93,10 @@ DesktopCapturer
 capturer
 RgbaColor
 blank_pixel
+bool
+check_per_capture
+=
+false
 )
 ;
 ~
@@ -244,6 +248,11 @@ bool
 is_first_frame_
 =
 true
+;
+bool
+check_per_capture_
+=
+false
 ;
 DesktopCapturer
 :
