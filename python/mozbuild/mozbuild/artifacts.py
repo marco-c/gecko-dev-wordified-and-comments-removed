@@ -441,14 +441,6 @@ releases
 /
 mozilla
 -
-esr91
-"
-        
-"
-releases
-/
-mozilla
--
 esr102
 "
     
@@ -5117,14 +5109,6 @@ beta
 esr_candidate_trees
 =
 [
-        
-"
-releases
-/
-comm
--
-esr91
-"
         
 "
 releases
