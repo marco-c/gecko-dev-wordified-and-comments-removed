@@ -446,15 +446,6 @@ ViewID
 aScrollId
 )
 ;
-async
-NotifyScaleGestureComplete
-(
-ViewID
-aScrollId
-float
-aScale
-)
-;
 }
 ;
 }
