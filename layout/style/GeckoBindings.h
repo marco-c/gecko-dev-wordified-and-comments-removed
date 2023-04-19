@@ -2435,6 +2435,12 @@ mozilla
 Length
 mAscent
 ;
+float
+mScriptPercentScaleDown
+;
+float
+mScriptScriptPercentScaleDown
+;
 }
 ;
 GeckoFontMetrics
@@ -2456,6 +2462,8 @@ Length
 font_size
 bool
 use_user_font_set
+bool
+retrieve_math_scales
 )
 ;
 mozilla
