@@ -52120,6 +52120,9 @@ webkit
 line
 -
 clamp
+on
+regular
+blocks
 enabled
 ?
 -
@@ -52135,13 +52138,15 @@ line
 -
 clamp
 .
+block
+.
 enabled
 type
 :
 bool
 value
 :
-true
+false
 mirror
 :
 always
