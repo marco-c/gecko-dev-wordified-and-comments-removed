@@ -269,7 +269,7 @@ std
 :
 unique_ptr
 <
-BasicDesktopFrame
+DesktopFrame
 >
 frame
 =
