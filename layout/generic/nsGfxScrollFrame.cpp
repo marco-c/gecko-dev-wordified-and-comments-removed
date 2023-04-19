@@ -35928,6 +35928,17 @@ scrollMargin
 aScrolledRect
 )
 ;
+ScrollSnapTargetId
+targetId
+=
+ScrollSnapUtils
+:
+:
+GetTargetIdFor
+(
+aFrame
+)
+;
 if
 (
 snapArea
@@ -35962,6 +35973,7 @@ snapArea
 XMost
 (
 )
+targetId
 )
 )
 ;
@@ -36000,6 +36012,7 @@ snapArea
 YMost
 (
 )
+targetId
 )
 )
 ;
@@ -36477,6 +36490,7 @@ styleDisplay
 -
 >
 mScrollSnapStop
+targetId
 )
 :
 ScrollSnapInfo
@@ -36509,6 +36523,7 @@ styleDisplay
 -
 >
 mScrollSnapStop
+targetId
 )
 )
 ;
