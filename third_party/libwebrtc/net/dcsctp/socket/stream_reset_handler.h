@@ -743,15 +743,6 @@ Timer
 >
 reconfig_timer_
 ;
-webrtc
-:
-:
-flat_set
-<
-StreamID
->
-streams_to_reset_
-;
 ReconfigRequestSN
 next_outgoing_req_seq_nbr_
 ;
