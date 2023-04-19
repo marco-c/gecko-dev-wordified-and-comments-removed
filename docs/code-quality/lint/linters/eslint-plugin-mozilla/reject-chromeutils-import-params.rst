@@ -147,7 +147,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 jsm
 "
@@ -167,7 +167,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 jsm
 "
@@ -187,7 +187,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 jsm
 "
@@ -252,7 +252,7 @@ block
 js
 const
 {
-Services
+AppConstants
 }
 =
 ChromeUtils
@@ -268,7 +268,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 jsm
 "

@@ -18,8 +18,6 @@ the
 use
 of
 Services
-.
-jsm
 rather
 than
 Cc
@@ -37,8 +35,6 @@ already
 defined
 in
 Services
-.
-jsm
 .
 Examples
 of

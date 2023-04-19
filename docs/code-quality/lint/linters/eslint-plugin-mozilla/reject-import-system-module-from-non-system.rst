@@ -264,7 +264,7 @@ block
 js
 import
 {
-Services
+AppConstants
 }
 from
 "
@@ -276,7 +276,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 sys
 .
@@ -347,7 +347,7 @@ block
 js
 const
 {
-Services
+AppConstants
 }
 =
 ChromeUtils
@@ -363,7 +363,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 sys
 .
@@ -386,7 +386,7 @@ block
 js
 import
 {
-Services
+AppConstants
 }
 from
 "
@@ -398,7 +398,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 sys
 .

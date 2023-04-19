@@ -159,7 +159,7 @@ defineLazyModuleGetters
 (
 globalThis
 {
-Services
+AppConstants
 :
 "
 resource
@@ -170,7 +170,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 jsm
 "

@@ -135,7 +135,7 @@ defineESModuleGetters
 (
 lazy
 {
-Services
+AppConstants
 :
 "
 resource
@@ -146,7 +146,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 sys
 .
@@ -260,7 +260,7 @@ block
 js
 import
 {
-Services
+AppConstants
 }
 from
 "
@@ -272,7 +272,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 sys
 .

@@ -119,7 +119,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 jsm
 "
@@ -132,7 +132,7 @@ defineLazyModuleGetter
 (
 this
 "
-Services
+AppConstants
 "
 "
 resource
@@ -143,7 +143,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 jsm
 "
@@ -217,7 +217,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 jsm
 "
@@ -230,7 +230,7 @@ defineModuleGetter
 (
 this
 "
-Services
+AppConstants
 "
 "
 resource
@@ -241,7 +241,7 @@ gre
 /
 modules
 /
-Services
+AppConstants
 .
 jsm
 "
@@ -263,7 +263,7 @@ defineLazyModuleGetter
 (
 this
 "
-Services
+AppConstants
 "
 "
 resource
@@ -274,7 +274,7 @@ gre
 /
 modules
 /
-Service
+AppConstants
 .
 jsm
 "
