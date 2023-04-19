@@ -4729,7 +4729,7 @@ ipc
 IPCResult
 RecvFindImageText
 (
-ShmemImage
+IPCImage
 &
 &
 FindImageTextResolver
