@@ -6,6 +6,10 @@ allow
 clippy
 :
 :
+derive_partial_eq_without_eq
+clippy
+:
+:
 nonstandard_macro_braces
 clippy
 :
