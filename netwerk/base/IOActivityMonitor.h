@@ -244,6 +244,15 @@ IOActivityMonitor
 =
 default
 ;
+static
+already_AddRefed
+<
+IOActivityMonitor
+>
+Get
+(
+)
+;
 nsresult
 InitInternal
 (
