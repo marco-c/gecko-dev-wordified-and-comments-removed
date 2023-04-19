@@ -6538,6 +6538,16 @@ vp8_impl_unittest
 .
 cc
 "
+]
+if
+(
+rtc_libvpx_build_vp9
+)
+{
+sources
++
+=
+[
 "
 codecs
 /
@@ -6550,6 +6560,7 @@ vp9_impl_unittest
 cc
 "
 ]
+}
 #
 TODO
 (
