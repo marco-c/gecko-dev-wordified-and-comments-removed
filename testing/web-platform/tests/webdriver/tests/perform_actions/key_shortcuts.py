@@ -8,7 +8,6 @@ support
 keys
 import
 Keys
-MODIFIER_KEY
 from
 tests
 .
@@ -25,6 +24,7 @@ test_mod_a_and_backspace_deletes_all_text
 session
 key_reporter
 key_chain
+modifier_key
 )
 :
     
@@ -42,7 +42,7 @@ d
 .
 key_down
 (
-MODIFIER_KEY
+modifier_key
 )
 \
              
@@ -58,7 +58,7 @@ a
 .
 key_up
 (
-MODIFIER_KEY
+modifier_key
 )
 \
              
@@ -100,6 +100,7 @@ test_mod_a_mod_c_right_mod_v_pastes_text
 session
 key_reporter
 key_chain
+modifier_key
 )
 :
     
@@ -121,7 +122,7 @@ initial
 .
 key_down
 (
-MODIFIER_KEY
+modifier_key
 )
 \
              
@@ -137,7 +138,7 @@ a
 .
 key_up
 (
-MODIFIER_KEY
+modifier_key
 )
 \
              
@@ -153,7 +154,7 @@ a
 .
 key_down
 (
-MODIFIER_KEY
+modifier_key
 )
 \
              
@@ -169,7 +170,7 @@ c
 .
 key_up
 (
-MODIFIER_KEY
+modifier_key
 )
 \
              
@@ -196,7 +197,7 @@ RIGHT
 .
 key_down
 (
-MODIFIER_KEY
+modifier_key
 )
 \
              
@@ -212,7 +213,7 @@ v
 .
 key_up
 (
-MODIFIER_KEY
+modifier_key
 )
 \
              
@@ -246,6 +247,7 @@ test_mod_a_mod_x_deletes_all_text
 session
 key_reporter
 key_chain
+modifier_key
 )
 :
     
@@ -263,7 +265,7 @@ d
 .
 key_down
 (
-MODIFIER_KEY
+modifier_key
 )
 \
              
@@ -279,7 +281,7 @@ a
 .
 key_up
 (
-MODIFIER_KEY
+modifier_key
 )
 \
              
@@ -295,7 +297,7 @@ a
 .
 key_down
 (
-MODIFIER_KEY
+modifier_key
 )
 \
              
@@ -311,7 +313,7 @@ x
 .
 key_up
 (
-MODIFIER_KEY
+modifier_key
 )
 \
              
