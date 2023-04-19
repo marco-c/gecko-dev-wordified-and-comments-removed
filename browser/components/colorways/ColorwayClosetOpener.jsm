@@ -71,7 +71,6 @@ gBrowser
 selectedBrowser
 )
 ;
-return
 dialogBox
 .
 open
