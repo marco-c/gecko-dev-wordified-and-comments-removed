@@ -1062,6 +1062,16 @@ RTC_RUN_ON
 encoder_queue_
 )
 ;
+void
+RequestEncoderSwitch
+(
+)
+RTC_RUN_ON
+(
+&
+encoder_queue_
+)
+;
 TaskQueueBase
 *
 const
@@ -1759,6 +1769,9 @@ qp_parser_
 const
 bool
 qp_parsing_allowed_
+;
+bool
+switch_encoder_on_init_failures_
 ;
 rtc
 :
