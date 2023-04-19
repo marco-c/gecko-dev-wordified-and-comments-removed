@@ -3162,6 +3162,12 @@ IsOverscrolled
 )
 const
 ;
+bool
+IsPhysicallyOverscrolled
+(
+)
+const
+;
 private
 :
 bool
