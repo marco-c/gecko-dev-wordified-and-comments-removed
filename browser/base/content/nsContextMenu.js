@@ -10407,7 +10407,11 @@ addDictionaries
 var
 uri
 =
-formatURL
+Services
+.
+urlFormatter
+.
+formatURLPref
 (
 "
 browser
@@ -10418,7 +10422,6 @@ download
 .
 url
 "
-true
 )
 ;
 var
