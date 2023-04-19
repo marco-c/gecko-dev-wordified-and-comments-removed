@@ -1281,7 +1281,9 @@ conn
 new
 ProxyConnection
 (
-this
+NewWeakPtr
+(
+)
 0
 remote_candidate
 )

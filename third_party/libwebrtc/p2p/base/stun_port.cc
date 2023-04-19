@@ -1558,7 +1558,9 @@ conn
 new
 ProxyConnection
 (
-this
+NewWeakPtr
+(
+)
 0
 address
 )

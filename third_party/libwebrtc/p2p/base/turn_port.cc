@@ -3073,7 +3073,9 @@ conn
 new
 ProxyConnection
 (
-this
+NewWeakPtr
+(
+)
 index
 remote_candidate
 )
