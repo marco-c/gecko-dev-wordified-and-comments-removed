@@ -6042,8 +6042,11 @@ js
 :
 frontend
 ;
-ScopeBindingCache
+StencilScopeBindingCache
 scopeCache
+(
+merger
+)
 ;
 while
 (
