@@ -486,6 +486,14 @@ width
 :
 18em
 ;
+box
+-
+sizing
+:
+border
+-
+box
+;
 }
 html
 |
