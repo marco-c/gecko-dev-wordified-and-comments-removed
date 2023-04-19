@@ -569,6 +569,11 @@ RegExpObject
 JSScript
 *
 "
+    
+"
+LexicalScope
+*
+"
 ]
 def
 gen_mir_class
