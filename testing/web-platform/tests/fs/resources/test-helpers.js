@@ -175,6 +175,7 @@ kind
 directory
 '
 )
+{
 result
 .
 push
@@ -188,7 +189,9 @@ name
 '
 )
 ;
+}
 else
+{
 result
 .
 push
@@ -198,6 +201,7 @@ entry
 name
 )
 ;
+}
 }
 result
 .
