@@ -50,17 +50,6 @@ h
 #
 include
 "
-api
-/
-video
-/
-video_frame_type
-.
-h
-"
-#
-include
-"
 common_video
 /
 generic_frame_descriptor
@@ -114,8 +103,6 @@ int64_t
 >
 FromBuffersUsage
 (
-VideoFrameType
-frame_type
 int64_t
 frame_id
 rtc

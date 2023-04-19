@@ -12,17 +12,6 @@ h
 #
 include
 "
-api
-/
-video
-/
-video_frame_type
-.
-h
-"
-#
-include
-"
 common_video
 /
 generic_frame_descriptor
@@ -77,24 +66,6 @@ testing
 :
 :
 UnorderedElementsAre
-;
-constexpr
-VideoFrameType
-kVideoFrameKey
-=
-VideoFrameType
-:
-:
-kVideoFrameKey
-;
-constexpr
-VideoFrameType
-kVideoFrameDelta
-=
-VideoFrameType
-:
-:
-kVideoFrameDelta
 ;
 constexpr
 CodecBufferUsage
@@ -174,7 +145,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameKey
 1
 pattern
 )
@@ -189,7 +159,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 3
 pattern
 )
@@ -205,7 +174,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 6
 pattern
 )
@@ -287,7 +255,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameKey
 1
 pattern0
 )
@@ -302,7 +269,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 2
 pattern1
 )
@@ -318,7 +284,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 3
 pattern2
 )
@@ -334,7 +299,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 4
 pattern3
 )
@@ -351,7 +315,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 5
 pattern0
 )
@@ -367,7 +330,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 6
 pattern1
 )
@@ -383,7 +345,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 7
 pattern2
 )
@@ -399,7 +360,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 8
 pattern3
 )
@@ -490,7 +450,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameKey
 1
 pattern0
 )
@@ -505,7 +464,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 2
 pattern1
 )
@@ -521,7 +479,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 3
 pattern2
 )
@@ -537,7 +494,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 4
 pattern3
 )
@@ -554,7 +510,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 5
 pattern0
 )
@@ -570,7 +525,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 6
 pattern1
 )
@@ -620,7 +574,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameKey
 1
 pattern0
 )
@@ -635,7 +588,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameKey
 2
 pattern1
 )
@@ -650,7 +602,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 3
 pattern0
 )
@@ -666,7 +617,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 4
 pattern1
 )
@@ -682,7 +632,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 5
 pattern0
 )
@@ -698,7 +647,6 @@ calculator
 .
 FromBuffersUsage
 (
-kVideoFrameDelta
 6
 pattern1
 )

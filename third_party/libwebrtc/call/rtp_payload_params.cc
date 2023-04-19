@@ -1515,8 +1515,6 @@ GenericFrameInfo
 frame_info
 int64_t
 frame_id
-VideoFrameType
-frame_type
 )
 {
 RTPVideoHeader
@@ -1539,7 +1537,6 @@ dependencies_calculator_
 .
 FromBuffersUsage
 (
-frame_type
 frame_id
 frame_info
 .
@@ -1672,10 +1669,6 @@ codec_specific_info
 >
 generic_frame_info
 frame_id
-rtp_video_header
--
->
-frame_type
 )
 ;
 return
