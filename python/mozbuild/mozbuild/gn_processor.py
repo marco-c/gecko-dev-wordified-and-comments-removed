@@ -60,7 +60,6 @@ mozbuild
 .
 util
 import
-expand_variables
 mkdir
 license_header
 =
@@ -2302,27 +2301,6 @@ f
 in
 flags
 :
-                    
-f
-=
-expand_variables
-(
-f
-config
-.
-substs
-)
-.
-split
-(
-)
-                    
-if
-not
-f
-:
-                        
-continue
                     
 if
 isinstance
