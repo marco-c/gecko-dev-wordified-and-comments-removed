@@ -634,6 +634,16 @@ kAv1CodecName
 ]
 =
 "
+AV1
+"
+;
+const
+char
+kAv1xCodecName
+[
+]
+=
+"
 AV1X
 "
 ;

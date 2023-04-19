@@ -66,7 +66,7 @@ VideoCodecMimeType
 .
 VP8
 .
-toSdpCodecName
+name
 (
 )
 )
@@ -89,7 +89,7 @@ VideoCodecMimeType
 .
 VP9
 .
-toSdpCodecName
+name
 (
 )
 )
@@ -119,7 +119,7 @@ VideoCodecMimeType
 .
 AV1
 .
-toSdpCodecName
+name
 (
 )
 )
@@ -191,7 +191,7 @@ VideoCodecMimeType
 .
 VP8
 .
-toSdpCodecName
+name
 (
 )
 new
@@ -223,7 +223,7 @@ VideoCodecMimeType
 .
 VP9
 .
-toSdpCodecName
+name
 (
 )
 new
@@ -256,7 +256,7 @@ VideoCodecMimeType
 .
 AV1
 .
-toSdpCodecName
+name
 (
 )
 new
