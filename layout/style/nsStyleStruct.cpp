@@ -12675,9 +12675,9 @@ bool
 AppearanceValueAffectsFrames
 (
 StyleAppearance
-aDefaultAppearance
-StyleAppearance
 aAppearance
+StyleAppearance
+aDefaultAppearance
 )
 {
 switch
@@ -12699,6 +12699,15 @@ StyleAppearance
 :
 :
 NumberInput
+|
+|
+aDefaultAppearance
+=
+=
+StyleAppearance
+:
+:
+Searchfield
 ;
 case
 StyleAppearance
