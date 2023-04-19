@@ -46,7 +46,6 @@ isReducedSize
 instancetype
 )
 init
-NS_DESIGNATED_INITIALIZER
 ;
 end
 NS_ASSUME_NONNULL_END
