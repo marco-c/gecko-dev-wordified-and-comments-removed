@@ -30486,7 +30486,7 @@ MOZ_KnownLive
 item
 -
 >
-attr
+mAttribute
 )
 item
 -
@@ -30963,7 +30963,7 @@ MOZ_KnownLive
 item
 -
 >
-attr
+mAttribute
 )
 item
 -

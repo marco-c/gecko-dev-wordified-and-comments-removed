@@ -137,11 +137,13 @@ mTag
 =
 nullptr
 ;
+MOZ_KNOWN_LIVE
+const
+RefPtr
+<
 nsAtom
-*
-attr
-=
-nullptr
+>
+mAttribute
 ;
 nsString
 value
@@ -171,7 +173,7 @@ nsStaticAtom
 aTag
 nsAtom
 *
-aAttr
+aAttribute
 const
 nsAString
 &
@@ -182,9 +184,9 @@ mTag
 (
 aTag
 )
-attr
+mAttribute
 (
-aAttr
+aAttribute
 !
 =
 nsGkAtoms
@@ -192,7 +194,7 @@ nsGkAtoms
 :
 _empty
 ?
-aAttr
+aAttribute
 :
 nullptr
 )
