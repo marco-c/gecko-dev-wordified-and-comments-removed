@@ -344,9 +344,6 @@ true
 resources
 :
 supportedResources
-supportsClearResources
-:
-true
 supportsSwitchingMode
 :
 true

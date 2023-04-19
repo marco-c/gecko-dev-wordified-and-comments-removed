@@ -746,9 +746,6 @@ this
 sessionContext
 .
 supportedResources
-supportsClearResources
-:
-true
 }
 }
 ;

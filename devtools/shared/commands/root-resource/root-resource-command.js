@@ -749,15 +749,6 @@ if
 resourceTypes
 .
 length
-&
-&
-this
-.
-rootFront
-.
-traits
-.
-supportsClearResources
 )
 {
 this
