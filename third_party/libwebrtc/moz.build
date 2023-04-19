@@ -4277,16 +4277,6 @@ libwebrtc
 /
 rtc_base
 /
-thread_checker_gn
-"
-"
-/
-third_party
-/
-libwebrtc
-/
-rtc_base
-/
 threading_gn
 "
 "
