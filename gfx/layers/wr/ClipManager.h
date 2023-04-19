@@ -349,6 +349,15 @@ ItemClips
 aOther
 )
 ;
+void
+CopyOutputsFrom
+(
+const
+ItemClips
+&
+aOther
+)
+;
 wr
 :
 :
