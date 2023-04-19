@@ -615,7 +615,10 @@ gVelocityCurveFunction
 GetValue
 (
 funcInput
-StyleEasingBeforeFlag
+ComputedTimingFunction
+:
+:
+BeforeFlag
 :
 :
 Unset

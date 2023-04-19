@@ -1554,7 +1554,10 @@ gZoomAnimationFunction
 GetValue
 (
 animPosition
-StyleEasingBeforeFlag
+ComputedTimingFunction
+:
+:
+BeforeFlag
 :
 :
 Unset

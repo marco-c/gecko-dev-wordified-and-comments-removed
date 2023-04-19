@@ -1030,9 +1030,6 @@ ComputedLinearStop
 "
 PiecewiseLinearFunction
 "
-"
-BeforeFlag
-"
 ]
 item_types
 =
@@ -1414,13 +1411,6 @@ ServoStyleSetSizes
 =
 "
 ServoStyleSetSizes
-"
-"
-BeforeFlag
-"
-=
-"
-StyleEasingBeforeFlag
 "
 [
 export

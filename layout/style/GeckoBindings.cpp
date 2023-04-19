@@ -3398,7 +3398,10 @@ AnimationPropertySegment
 aSegment
 double
 aProgress
-StyleEasingBeforeFlag
+ComputedTimingFunction
+:
+:
+BeforeFlag
 aBeforeFlag
 )
 {

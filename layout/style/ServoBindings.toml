@@ -1310,6 +1310,15 @@ ComputedTimingFunction
 mozilla
 :
 :
+ComputedTimingFunction
+:
+:
+BeforeFlag
+"
+"
+mozilla
+:
+:
 Matrix4x4Components
 "
 "
