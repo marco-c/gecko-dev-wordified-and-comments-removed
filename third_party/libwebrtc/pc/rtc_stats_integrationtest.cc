@@ -7276,7 +7276,10 @@ height
 ;
 verifier
 .
-TestMemberIsUndefined
+TestMemberIsNonNegative
+<
+uint32_t
+>
 (
 video_source
 .

@@ -14913,6 +14913,14 @@ ssrc_groups_
 ;
 common_info
 .
+frames
+=
+stats
+.
+frames
+;
+common_info
+.
 framerate_input
 =
 stats

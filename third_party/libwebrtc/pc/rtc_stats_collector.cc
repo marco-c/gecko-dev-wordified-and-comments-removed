@@ -9228,6 +9228,16 @@ video_sender_info
 >
 framerate_input
 ;
+video_source_stats
+-
+>
+frames
+=
+video_sender_info
+-
+>
+frames
+;
 }
 }
 media_source_stats
