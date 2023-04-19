@@ -479,7 +479,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_RAWPTR
 mImpl
 -
 >
-Document
+GetDocument
 (
 )
 )

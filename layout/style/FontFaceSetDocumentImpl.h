@@ -113,7 +113,7 @@ dom
 :
 Document
 *
-Document
+GetDocument
 (
 )
 const
