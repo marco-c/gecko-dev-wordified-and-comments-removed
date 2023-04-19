@@ -760,9 +760,8 @@ type
 *
 thing
 )
-override
+final
 {
-\
 return
 derived
 (
@@ -774,7 +773,6 @@ onEdge
 thing
 )
 ;
-\
 }
 JS_FOR_EACH_TRACEKIND
 (
