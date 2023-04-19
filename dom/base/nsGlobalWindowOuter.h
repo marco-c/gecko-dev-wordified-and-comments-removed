@@ -2962,6 +2962,10 @@ dom
 :
 CallerType
 aCallerType
+int32_t
+aMaxWidth
+int32_t
+aMaxHeight
 mozilla
 :
 :
