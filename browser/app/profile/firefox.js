@@ -12985,7 +12985,7 @@ pin
 .
 enabled
 "
-false
+true
 )
 ;
 pref
