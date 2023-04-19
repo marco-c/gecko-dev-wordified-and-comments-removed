@@ -3068,6 +3068,16 @@ SVG
 else
 if
 (
+StaticPrefs
+:
+:
+layout_css_font_variations_enabled
+(
+)
+)
+{
+if
+(
 valueString
 .
 LowerCaseEqualsASCII
@@ -3180,6 +3190,7 @@ FormatHint
 :
 TRUETYPE
 ;
+}
 }
 else
 {
