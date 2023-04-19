@@ -3237,6 +3237,9 @@ intrinsicSize
 {
 mMuteFrame
 =
+mozilla
+:
+:
 VideoFrame
 :
 :
