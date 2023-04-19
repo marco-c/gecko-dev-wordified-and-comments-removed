@@ -880,6 +880,11 @@ ScopedXREEmbed
 cpp
 "
 "
+SerializedStructuredCloneBuffer
+.
+cpp
+"
+"
 SharedMemory
 .
 cpp
