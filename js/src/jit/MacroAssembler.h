@@ -19116,6 +19116,15 @@ dest
 )
 ;
 void
+loadRopeRightChild
+(
+Register
+str
+Register
+dest
+)
+;
+void
 storeRopeChildren
 (
 Register
