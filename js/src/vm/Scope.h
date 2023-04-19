@@ -1471,7 +1471,7 @@ frontend
 RuntimeScopeBindingCache
 ;
 friend
-struct
+class
 gc
 :
 :

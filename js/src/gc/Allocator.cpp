@@ -1160,7 +1160,7 @@ Cell
 gc
 :
 :
-detail
+CellAllocator
 :
 :
 AllocateStringCell
@@ -1414,7 +1414,7 @@ Cell
 gc
 :
 :
-detail
+CellAllocator
 :
 :
 AllocateStringCell
@@ -1435,7 +1435,7 @@ Cell
 gc
 :
 :
-detail
+CellAllocator
 :
 :
 AllocateStringCell

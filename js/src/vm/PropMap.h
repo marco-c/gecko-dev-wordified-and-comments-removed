@@ -2449,7 +2449,7 @@ class
 DictionaryPropMap
 ;
 friend
-struct
+class
 js
 :
 :
@@ -3046,7 +3046,7 @@ class
 DictionaryPropMap
 ;
 friend
-struct
+class
 js
 :
 :
@@ -3422,7 +3422,7 @@ class
 SharedPropMap
 ;
 friend
-struct
+class
 js
 :
 :

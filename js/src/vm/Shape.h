@@ -1068,7 +1068,7 @@ gc
 RelocationOverlay
 ;
 friend
-struct
+class
 js
 :
 :
@@ -2539,7 +2539,7 @@ js
 Shape
 {
 friend
-struct
+class
 js
 :
 :

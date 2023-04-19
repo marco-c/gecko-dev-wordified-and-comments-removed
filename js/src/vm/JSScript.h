@@ -5626,7 +5626,7 @@ uint8_t
 >
 {
 friend
-struct
+class
 js
 :
 :
