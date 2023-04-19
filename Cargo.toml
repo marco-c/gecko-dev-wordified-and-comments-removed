@@ -1686,9 +1686,9 @@ uniffi
 =
 0
 .
-19
+20
 .
-6
+0
 "
 uniffi_bindgen
 =
@@ -1696,9 +1696,9 @@ uniffi_bindgen
 =
 0
 .
-19
+20
 .
-6
+0
 "
 uniffi_build
 =
@@ -1706,9 +1706,9 @@ uniffi_build
 =
 0
 .
-19
+20
 .
-6
+0
 "
 uniffi_macros
 =
@@ -1716,9 +1716,9 @@ uniffi_macros
 =
 0
 .
-19
+20
 .
-6
+0
 "
 weedle2
 =
