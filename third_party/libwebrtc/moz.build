@@ -1645,16 +1645,6 @@ third_party
 /
 libwebrtc
 /
-media
-/
-rtc_vp9_profile_gn
-"
-"
-/
-third_party
-/
-libwebrtc
-/
 modules
 /
 async_audio_processing
