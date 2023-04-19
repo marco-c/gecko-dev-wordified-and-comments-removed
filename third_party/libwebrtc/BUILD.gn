@@ -3138,6 +3138,13 @@ test
 video_codecs_api_unittests
 "
 "
+api
+/
+voip
+:
+compile_all_headers
+"
+"
 call
 :
 fake_network_pipe_unittests
@@ -3932,6 +3939,13 @@ true
 deps
 =
 [
+"
+api
+/
+voip
+:
+compile_all_headers
+"
 "
 api
 /
