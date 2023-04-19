@@ -19800,10 +19800,9 @@ value_or
 float
 expected_pacing_factor
 =
-PacedSender
-:
-:
-kDefaultPaceMultiplier
+1
+.
+1
 ;
 if
 (

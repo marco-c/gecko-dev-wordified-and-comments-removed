@@ -540,10 +540,6 @@ const
 bool
 trusted_rate_controller_
 ;
-const
-bool
-dynamic_rate_settings_
-;
 bool
 layer_buffering_
 ;

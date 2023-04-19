@@ -281,6 +281,15 @@ Seconds
 2
 )
 ;
+static
+constexpr
+double
+kStrictPacingMultiplier
+=
+1
+.
+1
+;
 bool
 TransportSeqNumExtensionConfigured
 (
@@ -909,10 +918,7 @@ pacing_factor
 "
 factor
 "
-PacedSender
-:
-:
-kDefaultPaceMultiplier
+kStrictPacingMultiplier
 )
 max_pacing_delay
 (
