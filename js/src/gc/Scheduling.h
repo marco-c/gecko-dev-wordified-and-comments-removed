@@ -261,9 +261,6 @@ CompactingEnabled
 =
 true
 ;
-#
-ifdef
-FUZZING
 static
 const
 bool
@@ -271,17 +268,6 @@ BalancedHeapLimitsEnabled
 =
 false
 ;
-#
-else
-static
-const
-bool
-BalancedHeapLimitsEnabled
-=
-true
-;
-#
-endif
 static
 const
 bool
