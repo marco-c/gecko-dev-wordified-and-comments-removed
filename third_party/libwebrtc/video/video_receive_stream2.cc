@@ -421,7 +421,7 @@ constexpr
 int
 kDefaultMaximumPreStreamDecoders
 =
-100
+1
 ;
 class
 WebRtcRecordableEncodedFrame
