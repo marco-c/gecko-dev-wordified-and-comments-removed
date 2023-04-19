@@ -6,13 +6,13 @@ using
 mozilla
 :
 :
-PDMFactory
+media
 :
 :
 MediaCodecsSupported
 from
 "
-PDMFactory
+MediaCodecsSupport
 .
 h
 "

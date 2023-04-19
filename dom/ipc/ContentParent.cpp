@@ -2630,7 +2630,7 @@ std
 map
 <
 RemoteDecodeIn
-PDMFactory
+media
 :
 :
 MediaCodecsSupported
@@ -8960,7 +8960,7 @@ BroadcastMediaCodecsSupportedUpdate
 RemoteDecodeIn
 aLocation
 const
-PDMFactory
+media
 :
 :
 MediaCodecsSupported
