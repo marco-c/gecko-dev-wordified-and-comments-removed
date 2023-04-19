@@ -503,12 +503,6 @@ Stop
 override
 ;
 void
-SetSourceEnded
-(
-)
-override
-;
-void
 SetupMediaChannel
 (
 uint32_t

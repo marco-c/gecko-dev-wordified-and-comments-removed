@@ -200,14 +200,6 @@ Stop
 ;
 virtual
 void
-SetSourceEnded
-(
-)
-=
-0
-;
-virtual
-void
 SetMediaChannel
 (
 cricket

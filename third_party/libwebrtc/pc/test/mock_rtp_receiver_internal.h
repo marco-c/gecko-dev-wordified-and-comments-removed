@@ -276,17 +276,6 @@ override
 MOCK_METHOD
 (
 void
-SetSourceEnded
-(
-)
-(
-override
-)
-)
-;
-MOCK_METHOD
-(
-void
 SetMediaChannel
 (
 cricket
