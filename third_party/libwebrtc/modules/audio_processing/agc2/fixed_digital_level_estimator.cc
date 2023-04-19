@@ -63,7 +63,7 @@ kInitialFilterStateLevel
 =
 0
 .
-f
+0f
 ;
 constexpr
 float
@@ -71,7 +71,7 @@ kAttackFilterConstant
 =
 0
 .
-f
+0f
 ;
 constexpr
 float
@@ -79,7 +79,7 @@ kDecayFilterConstant
 =
 0
 .
-9998848773724686f
+9971259f
 ;
 }
 FixedDigitalLevelEstimator
