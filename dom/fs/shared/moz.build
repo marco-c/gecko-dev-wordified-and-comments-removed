@@ -27,11 +27,6 @@ IPDL_SOURCES
 =
 [
 "
-PBackgroundFileSystem
-.
-ipdl
-"
-"
 POriginPrivateFileSystem
 .
 ipdl

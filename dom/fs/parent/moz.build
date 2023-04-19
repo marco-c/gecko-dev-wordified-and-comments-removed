@@ -7,7 +7,7 @@ dom
 =
 [
 "
-BackgroundFileSystemParent
+FileSystemManagerParentFactory
 .
 h
 "
@@ -22,12 +22,12 @@ UNIFIED_SOURCES
 =
 [
 "
-BackgroundFileSystemParent
+FileSystemHashSource
 .
 cpp
 "
 "
-FileSystemHashSource
+FileSystemManagerParentFactory
 .
 cpp
 "

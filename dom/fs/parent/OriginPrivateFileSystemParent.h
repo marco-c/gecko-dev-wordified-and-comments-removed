@@ -18,17 +18,6 @@ mozilla
 /
 dom
 /
-PBackgroundFileSystemParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 POriginPrivateFileSystemParent
 .
 h
