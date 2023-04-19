@@ -669,6 +669,17 @@ BroadcastActiveObservations
 (
 )
 ;
+static
+already_AddRefed
+<
+ResizeObserver
+>
+CreateLastRememberedSizeObserver
+(
+Document
+&
+)
+;
 protected
 :
 ~
