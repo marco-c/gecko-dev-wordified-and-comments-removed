@@ -97,6 +97,7 @@ VadInst
 *
 WebRtcVad_Create
 (
+void
 )
 {
 VadInstT
