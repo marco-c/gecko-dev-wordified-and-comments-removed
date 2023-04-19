@@ -32,9 +32,6 @@ nsCOMPtr
 .
 h
 "
-class
-nsIClickRule
-;
 namespace
 mozilla
 {
@@ -113,12 +110,6 @@ Cookies
 bool
 isOptOut
 )
-;
-nsCOMPtr
-<
-nsIClickRule
->
-mClickRule
 ;
 }
 ;
