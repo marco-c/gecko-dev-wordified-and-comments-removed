@@ -11,6 +11,14 @@ async
 =
 >
 {
+Services
+.
+fog
+.
+testResetFOG
+(
+)
+;
 Assert
 .
 equal
