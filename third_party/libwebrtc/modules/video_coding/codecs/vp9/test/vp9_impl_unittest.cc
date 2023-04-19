@@ -11778,7 +11778,7 @@ field_trials
 "
 WebRTC
 -
-LibvpxVp9Encoder
+VP9
 -
 GetEncoderInfoOverride
 /
