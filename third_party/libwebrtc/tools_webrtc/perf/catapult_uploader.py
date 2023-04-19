@@ -738,11 +738,13 @@ upload_token
                          
 min_measurements_amount
 =
-100
+50
                          
-max_failed_measurements_amount
+max_failed_measurements_percent
 =
-1
+0
+.
+03
 )
 :
     
@@ -852,15 +854,15 @@ particular
 measurements
 .
       
-max_failed_measurements_amount
+max_failed_measurements_percent
 :
 maximal
-amount
+percent
 of
 failured
 measurements
-to
         
+to
 tolerate
 .
     
@@ -1038,10 +1040,21 @@ measurements_cnt
 min_measurements_amount
 and
             
+(
 not_completed_state_cnt
+/
+(
+measurements_cnt
+*
+1
+.
+0
+)
 <
 =
-max_failed_measurements_amount
+                
+max_failed_measurements_percent
+)
 )
 :
             
@@ -1052,19 +1065,24 @@ Not
 all
 measurements
 were
-uploaded
+confirmed
+to
+upload
 .
+'
+                  
+'
 Measurements
 count
 :
 %
 d
-'
-                  
-'
 failed
 to
 upload
+or
+timed
+out
 :
 %
 d
