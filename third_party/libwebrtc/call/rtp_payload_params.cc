@@ -981,6 +981,14 @@ fill
 1
 )
 ;
+chain_last_frame_id_
+.
+fill
+(
+-
+1
+)
+;
 buffer_id_to_frame_id_
 .
 fill
