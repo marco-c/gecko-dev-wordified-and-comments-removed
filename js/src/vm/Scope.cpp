@@ -7496,9 +7496,6 @@ ScopeStencil
 :
 appendScopeStencilAndData
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -7551,7 +7548,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-cx
+ec
 )
 ;
 return
@@ -7658,9 +7655,6 @@ ScopeStencil
 :
 createForFunctionScope
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -7791,7 +7785,6 @@ envShape
 return
 appendScopeStencilAndData
 (
-cx
 ec
 compilationState
 data
@@ -7817,9 +7810,6 @@ ScopeStencil
 :
 createForLexicalScope
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -7933,7 +7923,6 @@ envShape
 return
 appendScopeStencilAndData
 (
-cx
 ec
 compilationState
 data
@@ -7951,9 +7940,6 @@ ScopeStencil
 :
 createForClassBodyScope
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -8067,7 +8053,6 @@ envShape
 return
 appendScopeStencilAndData
 (
-cx
 ec
 compilationState
 data
@@ -8085,9 +8070,6 @@ ScopeStencil
 :
 createForVarScope
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -8204,7 +8186,6 @@ envShape
 return
 appendScopeStencilAndData
 (
-cx
 ec
 compilationState
 data
@@ -8222,9 +8203,6 @@ ScopeStencil
 :
 createForGlobalScope
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -8330,7 +8308,6 @@ enclosing
 return
 appendScopeStencilAndData
 (
-cx
 ec
 compilationState
 data
@@ -8348,9 +8325,6 @@ ScopeStencil
 :
 createForEvalScope
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -8466,7 +8440,6 @@ envShape
 return
 appendScopeStencilAndData
 (
-cx
 ec
 compilationState
 data
@@ -8484,9 +8457,6 @@ ScopeStencil
 :
 createForModuleScope
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -8616,7 +8586,6 @@ envShape
 return
 appendScopeStencilAndData
 (
-cx
 ec
 compilationState
 data
@@ -8750,9 +8719,6 @@ ScopeStencil
 :
 createForWithScope
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -8808,7 +8774,6 @@ envShape
 return
 appendScopeStencilAndData
 (
-cx
 ec
 compilationState
 nullptr
