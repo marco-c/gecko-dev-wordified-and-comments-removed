@@ -332,6 +332,7 @@ networkMessageUpdate
 networkMessageActiveTabId
 dispatch
 open
+disabled
 }
 )
 {
@@ -836,6 +837,10 @@ attachment
 open
 &
 &
+!
+disabled
+&
+&
 dom
 .
 div
@@ -948,6 +953,7 @@ collapsible
 :
 true
 open
+disabled
 onToggle
 attachment
 topLevelClasses

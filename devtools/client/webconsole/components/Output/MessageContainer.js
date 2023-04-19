@@ -407,6 +407,11 @@ inWarningGroup
 PropTypes
 .
 bool
+disabled
+:
+PropTypes
+.
+bool
 }
 ;
 }
@@ -439,6 +444,9 @@ badge
 "
 "
 inWarningGroup
+"
+"
+disabled
 "
 ]
 ;

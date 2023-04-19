@@ -115,6 +115,7 @@ const
 {
 getMutableMessagesById
 getAllMessagesUiById
+getAllDisabledMessagesById
 getAllCssMessagesMatchingElements
 getAllNetworkMessagesUpdateById
 getLastMessageId
@@ -258,6 +259,13 @@ number
 .
 isRequired
 messagesUi
+:
+PropTypes
+.
+array
+.
+isRequired
+disabledMessages
 :
 PropTypes
 .
@@ -1249,6 +1257,7 @@ const
 cacheGeneration
 dispatch
 visibleMessages
+disabledMessages
 mutableMessages
 messagesUi
 cssMatchingElements
@@ -1302,6 +1311,14 @@ get
 messageId
 )
 timestampsVisible
+disabled
+:
+disabledMessages
+.
+includes
+(
+messageId
+)
 repeat
 :
 messagesRepeat
@@ -1579,6 +1596,12 @@ state
 visibleMessages
 :
 getVisibleMessages
+(
+state
+)
+disabledMessages
+:
+getAllDisabledMessagesById
 (
 state
 )

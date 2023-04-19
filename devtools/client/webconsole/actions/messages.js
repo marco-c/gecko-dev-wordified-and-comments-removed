@@ -74,6 +74,7 @@ MESSAGES_ADD
 NETWORK_MESSAGES_UPDATE
 NETWORK_UPDATES_REQUEST
 MESSAGES_CLEAR
+MESSAGES_DISABLE
 MESSAGE_OPEN
 MESSAGE_CLOSE
 MESSAGE_TYPE
@@ -230,6 +231,21 @@ return
 type
 :
 MESSAGES_CLEAR
+}
+;
+}
+function
+messagesDisable
+(
+ids
+)
+{
+return
+{
+type
+:
+MESSAGES_DISABLE
+ids
 }
 ;
 }
@@ -456,6 +472,7 @@ exports
 {
 messagesAdd
 messagesClear
+messagesDisable
 messageOpen
 messageClose
 messageRemove
