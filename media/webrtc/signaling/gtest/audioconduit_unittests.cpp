@@ -7857,7 +7857,7 @@ webrtc
 RtpExtension
 :
 :
-kCsrcAudioLevelUri
+kCsrcAudioLevelsUri
 ;
 extensions
 .
@@ -7916,7 +7916,7 @@ webrtc
 RtpExtension
 :
 :
-kCsrcAudioLevelUri
+kCsrcAudioLevelsUri
 )
 ;
 ASSERT_TRUE
