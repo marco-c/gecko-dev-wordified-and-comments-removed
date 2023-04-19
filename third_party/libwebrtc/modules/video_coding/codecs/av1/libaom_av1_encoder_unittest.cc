@@ -268,15 +268,6 @@ DefaultCodecSettings
 (
 )
 ;
-codec_settings
-.
-SetScalabilityMode
-(
-"
-NONE
-"
-)
-;
 EXPECT_EQ
 (
 encoder
