@@ -305,3 +305,12 @@ lossless
 reftest
 .
 list
+#
+webp
+tests
+include
+webp
+/
+reftest
+.
+list
