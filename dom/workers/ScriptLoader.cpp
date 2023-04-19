@@ -3346,11 +3346,6 @@ CacheLoadHandler
 >
 (
 mWorkerRef
--
->
-Private
-(
-)
 req
 IsMainWorkerScript
 (
