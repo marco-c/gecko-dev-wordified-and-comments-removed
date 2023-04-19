@@ -2235,6 +2235,16 @@ TRUE
 }
 STARTUPINFOW
 currentStartupInfo
+=
+{
+.
+cb
+=
+sizeof
+(
+STARTUPINFOW
+)
+}
 ;
 GetStartupInfoW
 (
