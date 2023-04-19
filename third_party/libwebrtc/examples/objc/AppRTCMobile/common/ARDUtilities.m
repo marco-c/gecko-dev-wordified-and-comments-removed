@@ -470,6 +470,7 @@ end
 NSInteger
 ARDGetCpuUsagePercentage
 (
+void
 )
 {
 const
