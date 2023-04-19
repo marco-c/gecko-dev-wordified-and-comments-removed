@@ -11617,7 +11617,7 @@ mContainerType
 StyleContainerType
 :
 :
-NORMAL
+NONE
 )
 mAppearance
 (
