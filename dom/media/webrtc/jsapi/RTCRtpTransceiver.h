@@ -955,11 +955,6 @@ mShouldRemove
 false
 ;
 bool
-mAddTrackMagic
-=
-false
-;
-bool
 mHasTransport
 =
 false
