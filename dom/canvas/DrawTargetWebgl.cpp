@@ -16308,6 +16308,17 @@ bgra
 =
 true
 ;
+options
+.
+forceAsyncPresent
+=
+StaticPrefs
+:
+:
+gfx_canvas_accelerated_async_present
+(
+)
+;
 mSharedContext
 -
 >
