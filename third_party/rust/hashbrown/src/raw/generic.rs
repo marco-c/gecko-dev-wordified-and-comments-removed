@@ -43,6 +43,11 @@ target_arch
 "
 x86_64
 "
+target_arch
+=
+"
+wasm32
+"
 )
 )
 ]
@@ -76,6 +81,14 @@ target_arch
 =
 "
 x86_64
+"
+)
+not
+(
+target_arch
+=
+"
+wasm32
 "
 )
 )
@@ -200,6 +213,10 @@ Self
 (
 )
 ;
+#
+[
+inline
+]
 pub
 const
 fn

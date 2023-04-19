@@ -28,6 +28,16 @@ IntoParallelIterator
 ParallelIterator
 }
 ;
+#
+[
+allow
+(
+clippy
+:
+:
+linkedlist
+)
+]
 pub
 (
 super

@@ -134,6 +134,10 @@ Self
 ;
 #
 [
+inline
+]
+#
+[
 allow
 (
 clippy

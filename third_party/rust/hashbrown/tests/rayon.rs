@@ -1837,7 +1837,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 )
@@ -1852,7 +1852,7 @@ par_iter
 (
 )
 .
-cloned
+copied
 (
 )
 )
@@ -1884,7 +1884,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 .
@@ -1931,7 +1931,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 )
@@ -1946,7 +1946,7 @@ par_iter
 (
 )
 .
-cloned
+copied
 (
 )
 )
@@ -2008,7 +2008,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 )
@@ -2023,7 +2023,7 @@ par_iter
 (
 )
 .
-cloned
+copied
 (
 )
 )
@@ -2085,7 +2085,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 )
@@ -2100,7 +2100,7 @@ par_iter
 (
 )
 .
-cloned
+copied
 (
 )
 )
@@ -2959,7 +2959,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 )
@@ -2974,7 +2974,7 @@ par_iter
 (
 )
 .
-cloned
+copied
 (
 )
 )
@@ -3006,7 +3006,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 .
@@ -3052,7 +3052,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 )
@@ -3067,7 +3067,7 @@ par_iter
 (
 )
 .
-cloned
+copied
 (
 )
 )
@@ -3129,7 +3129,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 )
@@ -3144,7 +3144,7 @@ par_iter
 (
 )
 .
-cloned
+copied
 (
 )
 )
@@ -3206,7 +3206,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 )
@@ -3221,7 +3221,7 @@ par_iter
 (
 )
 .
-cloned
+copied
 (
 )
 )
@@ -3266,7 +3266,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 .
@@ -3302,7 +3302,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 .
@@ -3332,7 +3332,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 .
@@ -3362,7 +3362,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 .
@@ -3398,7 +3398,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 .
@@ -3428,7 +3428,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 .
@@ -3470,7 +3470,7 @@ iter
 (
 )
 .
-cloned
+copied
 (
 )
 .
@@ -3500,7 +3500,7 @@ difference
 SET_B
 )
 .
-cloned
+copied
 (
 )
 .
@@ -3528,7 +3528,7 @@ par_difference
 SET_B
 )
 .
-cloned
+copied
 (
 )
 .
@@ -3565,7 +3565,7 @@ difference
 SET_A
 )
 .
-cloned
+copied
 (
 )
 .
@@ -3593,7 +3593,7 @@ par_difference
 SET_A
 )
 .
-cloned
+copied
 (
 )
 .
@@ -3640,7 +3640,7 @@ symmetric_difference
 SET_B
 )
 .
-cloned
+copied
 (
 )
 .
@@ -3668,7 +3668,7 @@ par_symmetric_difference
 SET_B
 )
 .
-cloned
+copied
 (
 )
 .
@@ -3715,7 +3715,7 @@ intersection
 SET_B
 )
 .
-cloned
+copied
 (
 )
 .
@@ -3743,7 +3743,7 @@ par_intersection
 SET_B
 )
 .
-cloned
+copied
 (
 )
 .
@@ -3790,7 +3790,7 @@ union
 SET_B
 )
 .
-cloned
+copied
 (
 )
 .
@@ -3818,7 +3818,7 @@ par_union
 SET_B
 )
 .
-cloned
+copied
 (
 )
 .
