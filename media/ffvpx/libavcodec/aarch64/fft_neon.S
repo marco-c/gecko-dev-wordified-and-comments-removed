@@ -265,6 +265,7 @@ s1
 endm
 function
 fft4_neon
+AARCH64_VALID_JUMP_TARGET
 ld1
 {
 v0
@@ -441,6 +442,7 @@ ret
 endfunc
 function
 fft8_neon
+AARCH64_VALID_JUMP_TARGET
 mov
 x1
 x0
@@ -1044,6 +1046,7 @@ ret
 endfunc
 function
 fft16_neon
+AARCH64_VALID_JUMP_TARGET
 mov
 x1
 x0
@@ -3739,6 +3742,8 @@ _neon
 align
 =
 6
+AARCH64_VALID_JUMP_TARGET
+AARCH64_SIGN_LINK_REGISTER
 sub
 sp
 sp
@@ -3815,6 +3820,7 @@ sp
 ]
 #
 16
+AARCH64_VALIDATE_LINK_REGISTER
 movrel
 x4
 X

@@ -1625,7 +1625,7 @@ used_frame
 AV1_NUM_REF_FRAMES
 ]
 ;
-int8_t
+int16_t
 shifted_order_hints
 [
 AV1_NUM_REF_FRAMES

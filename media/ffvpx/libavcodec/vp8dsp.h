@@ -539,6 +539,14 @@ VP8DSPContext
 c
 )
 ;
+void
+ff_vp8dsp_init_loongarch
+(
+VP8DSPContext
+*
+c
+)
+;
 #
 define
 IS_VP7

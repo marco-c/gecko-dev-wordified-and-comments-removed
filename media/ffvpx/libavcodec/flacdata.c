@@ -1,7 +1,7 @@
 #
 include
 "
-internal
+flacdata
 .
 h
 "
