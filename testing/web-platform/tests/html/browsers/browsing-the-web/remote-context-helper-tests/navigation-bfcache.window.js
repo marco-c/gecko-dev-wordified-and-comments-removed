@@ -87,6 +87,7 @@ assertSimplestScriptRuns
 rc2
 )
 ;
+await
 rc2
 .
 historyBack

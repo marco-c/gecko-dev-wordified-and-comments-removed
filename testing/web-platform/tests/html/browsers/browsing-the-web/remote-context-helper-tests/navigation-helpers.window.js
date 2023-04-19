@@ -50,6 +50,7 @@ assertSimplestScriptRuns
 rc2
 )
 ;
+await
 rc2
 .
 historyBack
@@ -62,6 +63,7 @@ assertSimplestScriptRuns
 rc1
 )
 ;
+await
 rc1
 .
 historyForward
@@ -84,6 +86,7 @@ navigateToNew
 (
 )
 ;
+await
 rc3
 .
 historyGo

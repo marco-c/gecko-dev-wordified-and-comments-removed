@@ -37,7 +37,7 @@ main
 await
 main
 .
-addHtml
+addHTML
 (
 '
 <
