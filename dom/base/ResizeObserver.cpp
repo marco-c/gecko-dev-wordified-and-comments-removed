@@ -2787,11 +2787,6 @@ containAxes
 frame
 -
 >
-StyleDisplay
-(
-)
--
->
 GetContainSizeAxes
 (
 )

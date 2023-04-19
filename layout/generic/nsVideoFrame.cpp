@@ -1750,11 +1750,6 @@ isBSizeShrinkWrapping
 {
 if
 (
-aReflowInput
-.
-mStyleDisplay
--
->
 GetContainSizeAxes
 (
 )
@@ -2305,11 +2300,6 @@ AspectRatio
 }
 if
 (
-StyleDisplay
-(
-)
--
->
 GetContainSizeAxes
 (
 )
@@ -2593,11 +2583,6 @@ const
 auto
 containAxes
 =
-StyleDisplay
-(
-)
--
->
 GetContainSizeAxes
 (
 )

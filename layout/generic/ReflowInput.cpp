@@ -2202,7 +2202,7 @@ NS_UNCONSTRAINEDSIZE
 }
 if
 (
-mStyleDisplay
+mFrame
 -
 >
 GetContainSizeAxes
