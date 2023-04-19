@@ -16992,7 +16992,7 @@ value
 nsresult
 rv
 =
-SetInlinePropertyInternal
+SetInlinePropertyAsSubAction
 (
 *
 nsGkAtoms
@@ -17017,7 +17017,7 @@ rv
 NS_WARNING
 (
 "
-SetInlinePropertyInternal
+SetInlinePropertyAsSubAction
 (
 nsGkAtoms
 :
