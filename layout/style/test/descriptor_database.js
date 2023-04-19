@@ -429,10 +429,6 @@ serif
 "
 )
 '
-]
-invalid_values
-:
-[
 "
 url
 (
@@ -445,6 +441,10 @@ format
 truetype
 )
 "
+]
+invalid_values
+:
+[
 '
 url
 (
