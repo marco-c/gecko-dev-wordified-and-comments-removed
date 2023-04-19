@@ -2984,6 +2984,12 @@ SelectionWillLoseFocus
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
+bool
+FixUpFocus
+(
+)
+;
 nsresult
 SetResolutionAndScaleTo
 (
