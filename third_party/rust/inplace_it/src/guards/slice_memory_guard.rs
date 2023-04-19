@@ -30,7 +30,7 @@ use
 std
 :
 :
-intrinsics
+ptr
 :
 :
 copy_nonoverlapping
