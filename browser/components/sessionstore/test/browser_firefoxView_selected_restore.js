@@ -66,7 +66,7 @@ entries
 url
 :
 "
-http
+https
 :
 /
 /
