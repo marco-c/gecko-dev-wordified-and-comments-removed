@@ -54305,7 +54305,7 @@ MOZ_WIDGET_ANDROID
 )
 value
 :
-false
+IS_NIGHTLY_BUILD
 #
 elif
 defined
