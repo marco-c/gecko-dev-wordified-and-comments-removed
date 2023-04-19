@@ -1827,7 +1827,7 @@ if
 (
 aInputContext
 .
-mHTMLInputInputmode
+mHTMLInputMode
 .
 EqualsLiteral
 (
@@ -1988,7 +1988,7 @@ aInputContext
 mHTMLInputType
 aInputContext
 .
-mHTMLInputInputmode
+mHTMLInputMode
 aInputContext
 .
 mInPrivateBrowsing
@@ -2354,7 +2354,7 @@ aHTMLInputType
 const
 nsAString
 &
-aHTMLInputInputmode
+aHTMLInputMode
 bool
 aInPrivateBrowsing
 )
@@ -2392,9 +2392,9 @@ aHTMLInputType
 scopes
 )
 ;
-AppendInputScopeFromInputmode
+AppendInputScopeFromInputMode
 (
-aHTMLInputInputmode
+aHTMLInputMode
 scopes
 )
 ;
@@ -2457,12 +2457,12 @@ void
 IMEHandler
 :
 :
-AppendInputScopeFromInputmode
+AppendInputScopeFromInputMode
 (
 const
 nsAString
 &
-aInputmode
+aHTMLInputMode
 nsTArray
 <
 InputScope
@@ -2473,7 +2473,7 @@ aScopes
 {
 if
 (
-aInputmode
+aHTMLInputMode
 .
 EqualsLiteral
 (
@@ -2520,7 +2520,7 @@ return
 }
 if
 (
-aInputmode
+aHTMLInputMode
 .
 EqualsLiteral
 (
@@ -2554,7 +2554,7 @@ return
 }
 if
 (
-aInputmode
+aHTMLInputMode
 .
 EqualsLiteral
 (
@@ -2588,7 +2588,7 @@ return
 }
 if
 (
-aInputmode
+aHTMLInputMode
 .
 EqualsLiteral
 (
@@ -2641,7 +2641,7 @@ return
 }
 if
 (
-aInputmode
+aHTMLInputMode
 .
 EqualsLiteral
 (
@@ -2675,7 +2675,7 @@ return
 }
 if
 (
-aInputmode
+aHTMLInputMode
 .
 EqualsLiteral
 (
@@ -2709,7 +2709,7 @@ return
 }
 if
 (
-aInputmode
+aHTMLInputMode
 .
 EqualsLiteral
 (
@@ -3195,7 +3195,7 @@ if
 (
 aInputContext
 .
-mHTMLInputInputmode
+mHTMLInputMode
 .
 EqualsLiteral
 (
