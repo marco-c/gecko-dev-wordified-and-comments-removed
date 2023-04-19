@@ -5011,10 +5011,6 @@ SetProxyConnectFailed
 (
 )
 ;
-mDontReuse
-=
-true
-;
 }
 }
 void
