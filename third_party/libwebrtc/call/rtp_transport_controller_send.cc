@@ -2446,6 +2446,11 @@ ProcessSentPacket
 sent_packet
 )
 ;
+if
+(
+packet_msg
+)
+{
 pacer
 (
 )
@@ -2462,9 +2467,6 @@ GetOutstandingData
 ;
 if
 (
-packet_msg
-&
-&
 controller_
 )
 PostUpdates
@@ -2479,6 +2481,7 @@ packet_msg
 )
 )
 ;
+}
 }
 )
 ;
@@ -3289,11 +3292,12 @@ feedback_time
 if
 (
 feedback_msg
-&
-&
-controller_
 )
 {
+if
+(
+controller_
+)
 PostUpdates
 (
 controller_
@@ -3306,7 +3310,6 @@ feedback_msg
 )
 )
 ;
-}
 pacer
 (
 )
@@ -3321,6 +3324,7 @@ GetOutstandingData
 )
 )
 ;
+}
 }
 )
 ;
