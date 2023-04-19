@@ -117,9 +117,12 @@ az
 cx
 )
 ;
-Symbol
+gc
+:
+:
+Cell
 *
-p
+cell
 =
 Allocate
 <
@@ -135,7 +138,7 @@ cx
 if
 (
 !
-p
+cell
 )
 {
 return
@@ -145,7 +148,7 @@ nullptr
 return
 new
 (
-p
+cell
 )
 Symbol
 (

@@ -3540,9 +3540,11 @@ gcMaxBytes
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 Arena
 *
 arena
