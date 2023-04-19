@@ -448,7 +448,7 @@ Scenario
 s
 (
 "
-recieve_cc_unit
+receive_cc_unit
 /
 converge
 "
@@ -623,7 +623,7 @@ Scenario
 s
 (
 "
-recieve_cc_unit
+receive_cc_unit
 /
 tcp_fairness
 "
