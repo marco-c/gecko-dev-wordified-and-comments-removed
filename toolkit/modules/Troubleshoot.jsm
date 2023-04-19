@@ -216,6 +216,13 @@ browser
 .
 download
 .
+open_pdf_attachments_inline
+"
+"
+browser
+.
+download
+.
 preferred
 .
 "

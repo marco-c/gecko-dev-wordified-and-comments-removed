@@ -691,6 +691,16 @@ always_ask_before_handling_new_types
 "
 false
 ]
+[
+"
+browser
+.
+download
+.
+open_pdf_attachments_inline
+"
+true
+]
 ]
 }
 )
