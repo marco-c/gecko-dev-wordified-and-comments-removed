@@ -2941,7 +2941,7 @@ webrtc
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 ;
 case
 RTCSdpSemanticsUnifiedPlan
@@ -2983,7 +2983,7 @@ webrtc
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 :
 return
 RTCSdpSemanticsPlanB

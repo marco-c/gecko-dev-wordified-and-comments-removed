@@ -14783,7 +14783,7 @@ sdp_semantics
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 )
 {
 usage

@@ -765,7 +765,15 @@ enum
 class
 SdpSemantics
 {
+kPlanB_DEPRECATED
 kPlanB
+[
+[
+deprecated
+]
+]
+=
+kPlanB_DEPRECATED
 kUnifiedPlan
 }
 ;
@@ -1787,7 +1795,7 @@ sdp_semantics
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 ;
 bool
 active_reset_srtp_params

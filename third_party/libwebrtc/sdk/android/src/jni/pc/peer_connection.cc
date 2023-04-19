@@ -718,7 +718,7 @@ return
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 ;
 if
 (
@@ -743,7 +743,7 @@ return
 SdpSemantics
 :
 :
-kPlanB
+kPlanB_DEPRECATED
 ;
 }
 ScopedJavaLocalRef
