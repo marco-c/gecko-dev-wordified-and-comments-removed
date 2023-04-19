@@ -387,6 +387,7 @@ awaitPromise
 commandArguments
 functionDeclaration
 realmId
+resultOwnership
 sandbox
 thisParameter
 }
@@ -569,6 +570,7 @@ expression
 :
 source
 realmId
+resultOwnership
 sandbox
 }
 }

@@ -323,6 +323,8 @@ buildExceptionDetails
 (
 exception
 stack
+realm
+resultOwnership
 )
 {
 exception
@@ -418,6 +420,12 @@ serialize
 (
 exception
 1
+resultOwnership
+new
+Map
+(
+)
+realm
 )
 lineNumber
 :
@@ -449,6 +457,7 @@ buildReturnValue
 rv
 realm
 awaitPromise
+resultOwnership
 )
 {
 let
@@ -617,6 +626,12 @@ toRawObject
 result
 )
 1
+resultOwnership
+new
+Map
+(
+)
+realm
 )
 realmId
 :
@@ -642,6 +657,8 @@ buildExceptionDetails
 (
 exception
 stack
+realm
+resultOwnership
 )
 realmId
 :
@@ -800,6 +817,7 @@ commandArguments
 =
 null
 functionDeclaration
+resultOwnership
 sandbox
 :
 sandboxName
@@ -889,6 +907,7 @@ buildReturnValue
 rv
 realm
 awaitPromise
+resultOwnership
 )
 ;
 }
@@ -902,6 +921,7 @@ const
 {
 awaitPromise
 expression
+resultOwnership
 sandbox
 :
 sandboxName
@@ -941,6 +961,7 @@ buildReturnValue
 rv
 realm
 awaitPromise
+resultOwnership
 )
 ;
 }
