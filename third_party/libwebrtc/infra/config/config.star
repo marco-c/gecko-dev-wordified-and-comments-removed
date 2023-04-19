@@ -6435,13 +6435,6 @@ Tester
 WebRTC
 Chromium
 FYI
-Win7
-Tester
-"
-"
-WebRTC
-Chromium
-FYI
 ios
 -
 device
