@@ -422,6 +422,7 @@ unregisterWatcherForMessageManager
 (
 watcher
 messageManager
+options
 )
 {
 const
@@ -487,6 +488,7 @@ watcher
 notifyTargetDestroyed
 (
 actor
+options
 )
 ;
 childTransport
@@ -558,6 +560,7 @@ function
 closeWatcherTransports
 (
 watcher
+options
 )
 {
 for
@@ -596,6 +599,7 @@ unregisterWatcherForMessageManager
 (
 watcher
 messageManager
+options
 )
 ;
 }
@@ -740,6 +744,10 @@ function
 maybeUnregisterMessageListeners
 (
 watcher
+options
+=
+{
+}
 )
 {
 const
@@ -759,6 +767,7 @@ watcher
 closeWatcherTransports
 (
 watcher
+options
 )
 ;
 if
@@ -855,6 +864,9 @@ process
 -
 script
 "
+{
+options
+}
 )
 ;
 }
@@ -1070,11 +1082,13 @@ function
 destroyTargets
 (
 watcher
+options
 )
 {
 maybeUnregisterMessageListeners
 (
 watcher
+options
 )
 ;
 Services

@@ -633,8 +633,7 @@ once
 "
 destroyed
 "
-(
-)
+options
 =
 >
 {
@@ -643,6 +642,7 @@ this
 _destroyTargetActor
 (
 watcherActorID
+options
 )
 ;
 try
@@ -665,6 +665,7 @@ watcherActorID
 form
 }
 ]
+options
 }
 )
 ;
@@ -791,6 +792,7 @@ isDocumentCreation
 _destroyTargetActor
 (
 watcherActorID
+options
 )
 {
 const
@@ -848,6 +850,7 @@ connection
 .
 close
 (
+options
 )
 ;
 this
@@ -875,6 +878,7 @@ this
 .
 didDestroy
 (
+options
 )
 ;
 }
@@ -1360,6 +1364,7 @@ destroy
 const
 {
 watcherActorID
+options
 }
 =
 message
@@ -1372,6 +1377,7 @@ this
 _destroyTargetActor
 (
 watcherActorID
+options
 )
 ;
 }
@@ -2070,6 +2076,7 @@ didDestroy
 }
 didDestroy
 (
+options
 )
 {
 logWindowGlobal
@@ -2101,6 +2108,7 @@ connection
 .
 close
 (
+options
 )
 ;
 }

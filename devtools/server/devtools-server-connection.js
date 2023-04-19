@@ -238,6 +238,7 @@ parentMessageManager
 null
 close
 (
+options
 )
 {
 if
@@ -253,6 +254,7 @@ _transport
 .
 close
 (
+options
 )
 ;
 }
@@ -1516,6 +1518,7 @@ ret
 onTransportClosed
 (
 status
+options
 )
 {
 dumpn
@@ -1588,6 +1591,7 @@ p
 .
 destroy
 (
+options
 )
 )
 ;

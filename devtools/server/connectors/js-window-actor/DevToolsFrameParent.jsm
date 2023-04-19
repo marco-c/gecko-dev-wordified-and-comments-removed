@@ -204,6 +204,7 @@ destroyTarget
 {
 watcherActorID
 sessionContext
+options
 }
 )
 {
@@ -219,6 +220,7 @@ destroy
 {
 watcherActorID
 sessionContext
+options
 }
 )
 ;
@@ -557,6 +559,7 @@ forwardingPrefix
 }
 _closeAllConnections
 (
+options
 )
 {
 for
@@ -581,6 +584,7 @@ watcher
 notifyTargetDestroyed
 (
 actor
+options
 )
 ;
 this
@@ -717,6 +721,11 @@ watcher
 notifyTargetDestroyed
 (
 form
+message
+.
+data
+.
+options
 )
 ;
 this

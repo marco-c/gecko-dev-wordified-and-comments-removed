@@ -100,6 +100,7 @@ break
 }
 destroy
 (
+options
 )
 {
 this
@@ -126,6 +127,7 @@ connection
 .
 close
 (
+options
 )
 ;
 }
@@ -540,6 +542,11 @@ this
 .
 destroy
 (
+msg
+.
+data
+.
+options
 )
 ;
 break

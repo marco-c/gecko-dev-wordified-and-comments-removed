@@ -329,6 +329,10 @@ front
 _onTargetDestroyed
 (
 form
+options
+=
+{
+}
 )
 {
 const
@@ -356,6 +360,7 @@ target
 destroyed
 "
 front
+options
 )
 ;
 }

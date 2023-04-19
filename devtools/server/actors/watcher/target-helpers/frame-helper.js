@@ -462,6 +462,7 @@ function
 destroyTargets
 (
 watcher
+options
 )
 {
 const
@@ -531,6 +532,7 @@ sessionContext
 watcher
 .
 sessionContext
+options
 }
 )
 ;

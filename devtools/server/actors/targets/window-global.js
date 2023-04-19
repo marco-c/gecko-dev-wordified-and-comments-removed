@@ -1669,6 +1669,9 @@ destroy
 isTargetSwitching
 =
 false
+isModeSwitching
+=
+false
 }
 =
 {
@@ -1912,6 +1915,10 @@ emit
 "
 destroyed
 "
+{
+isTargetSwitching
+isModeSwitching
+}
 )
 ;
 Actor

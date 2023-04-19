@@ -394,6 +394,7 @@ removeSessionDataEntry
 watcher
 type
 entries
+options
 )
 {
 const
@@ -489,6 +490,13 @@ if
 (
 !
 isWatchingSomething
+&
+&
+!
+options
+?
+.
+isModeSwitching
 )
 {
 sessionDataByWatcherActor
@@ -572,6 +580,7 @@ unwatchTargets
 (
 watcher
 targetType
+options
 )
 {
 return
@@ -586,6 +595,7 @@ TARGETS
 [
 targetType
 ]
+options
 )
 ;
 }

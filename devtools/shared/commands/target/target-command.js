@@ -552,6 +552,9 @@ type
 isTargetSwitching
 :
 false
+isModeSwitching
+:
+true
 }
 )
 ;
@@ -1045,6 +1048,9 @@ _onTargetDestroyed
 (
 targetFront
 {
+isModeSwitching
+=
+false
 isTargetSwitching
 =
 false
@@ -1084,6 +1090,7 @@ targetType
 {
 targetFront
 isTargetSwitching
+isModeSwitching
 }
 )
 ;
@@ -2012,6 +2019,7 @@ stopListeningForType
 type
 {
 isTargetSwitching
+isModeSwitching
 }
 )
 {
@@ -2070,6 +2078,9 @@ watcherFront
 unwatchTargets
 (
 type
+{
+isModeSwitching
+}
 )
 ;
 }
@@ -2096,6 +2107,7 @@ unlisten
 (
 {
 isTargetSwitching
+isModeSwitching
 }
 )
 ;

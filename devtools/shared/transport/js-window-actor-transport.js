@@ -99,6 +99,7 @@ _addListener
 }
 close
 (
+options
 )
 {
 this
@@ -122,6 +123,8 @@ hooks
 .
 onTransportClosed
 (
+null
+options
 )
 ;
 }
