@@ -205,6 +205,8 @@ void
 StartAnimating
 (
 double
+aStartValue
+double
 aTargetValue
 )
 ;
