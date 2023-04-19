@@ -40,7 +40,7 @@ h
 namespace
 webrtc
 {
-BEGIN_SIGNALING_PROXY_MAP
+BEGIN_PROXY_MAP
 (
 PeerConnection
 )
@@ -624,7 +624,7 @@ std
 string
 &
 )
-PROXY_CONSTMETHOD0
+PROXY_WORKER_CONSTMETHOD0
 (
 rtc
 :
