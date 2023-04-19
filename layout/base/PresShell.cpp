@@ -20528,13 +20528,6 @@ FlushFontFeatureValues
 (
 )
 ;
-mPresContext
--
->
-FlushFontPaletteValues
-(
-)
-;
 if
 (
 mDocument
@@ -43896,13 +43889,6 @@ mPresContext
 -
 >
 FlushFontFeatureValues
-(
-)
-;
-mPresContext
--
->
-FlushFontPaletteValues
 (
 )
 ;

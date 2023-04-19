@@ -2598,12 +2598,6 @@ FontFeatureValues
 .
 )
 |
-FontPaletteValues
-(
-.
-.
-)
-|
 LayerStatement
 (
 .
@@ -3005,12 +2999,6 @@ Viewport
 )
 |
 FontFeatureValues
-(
-.
-.
-)
-|
-FontPaletteValues
 (
 .
 .
