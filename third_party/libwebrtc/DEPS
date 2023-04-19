@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-473d43b346f9ee7b0688148ad6d071e038bf4eaf
+5c9a520767230e7ff4e47c49130b147494720d0b
 '
 #
 This
@@ -178,7 +178,7 @@ chromium
 src
 /
 base
-63fe269c7b7a04b48c7c6742853d3e4912c4322b
+4d1e800e384d286b803fcc555c68052899020d24
 '
 '
 src
@@ -202,7 +202,7 @@ chromium
 src
 /
 build
-0401de79c7264d72452bc01a4a054a44f3861c31
+e75227fdceed4cc377055b858ebb0f615b15df32
 '
 '
 src
@@ -322,7 +322,7 @@ chromium
 src
 /
 ios
-fb95023c6cb43350c5584139970a915809ddcbf2
+e78f05aa5f1ebe4eb412f3fd1d2399a40dcbd7cf
 '
 '
 condition
@@ -354,7 +354,7 @@ chromium
 src
 /
 testing
-12dec78534e3499dad3eddd18d317f8e48f816a5
+2a9d8c130b77f177d4fb8e4b547b441ce27b6f05
 '
 '
 src
@@ -378,7 +378,7 @@ chromium
 src
 /
 third_party
-ce26841d7594014ea5596093bb96030cafe57445
+43383d7a481d7f92e8b3ca03dc66dfff67212c07
 '
 '
 src
@@ -1929,7 +1929,7 @@ libyuv
 libyuv
 .
 git
-6866adbec5af1b3c66d1ace334a43ad61e6bb268
+19d71f6b351fe992ae34b114eebd872c383a6bdb
 '
 '
 src
@@ -2119,9 +2119,7 @@ version
 '
 :
 '
-N9LppKV
--
-9lFkp7JQtmcLHhm7xHqFv0SPa6aDPtgNCdwC
+cf9Zl4I4n6RqsJezIQ58bLhhVRdmCJ8Pvaemifu2QIIC
 '
 }
 ]
@@ -2399,7 +2397,7 @@ chromium
 src
 /
 tools
-ec9557cbe4bb771632715de3f2589a2dbe05aaaf
+a812af787d5e86c0e5aa787735017c78a5772ca3
 '
 '
 src
