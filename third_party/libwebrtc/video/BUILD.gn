@@ -3794,13 +3794,6 @@ cc
 "
 end_to_end_tests
 /
-probing_tests
-.
-cc
-"
-"
-end_to_end_tests
-/
 retransmission_tests
 .
 cc

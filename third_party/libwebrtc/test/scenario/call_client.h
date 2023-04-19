@@ -526,6 +526,15 @@ padding_rate
 const
 ;
 void
+UpdateBitrateConstraints
+(
+const
+BitrateConstraints
+&
+constraints
+)
+;
+void
 OnPacketReceived
 (
 EmulatedIpPacket

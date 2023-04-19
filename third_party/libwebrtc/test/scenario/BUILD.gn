@@ -1438,6 +1438,11 @@ performance_stats_unittest
 cc
 "
 "
+probing_test
+.
+cc
+"
+"
 scenario_unittest
 .
 cc

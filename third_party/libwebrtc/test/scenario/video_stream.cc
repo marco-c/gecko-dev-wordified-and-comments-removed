@@ -3260,6 +3260,20 @@ config_
 encoder
 .
 max_framerate
+|
+|
+prior_config
+.
+encoder
+.
+max_data_rate
+!
+=
+config_
+.
+encoder
+.
+max_data_rate
 )
 {
 VideoEncoderConfig
@@ -3379,8 +3393,6 @@ active_layers
 )
 ;
 }
-else
-{
 VideoEncoderConfig
 encoder_config
 =
@@ -3454,7 +3466,6 @@ encoder_config
 )
 )
 ;
-}
 }
 )
 ;
