@@ -73,7 +73,7 @@ src
 /
 jni
 /
-video_frame
+jni_helpers
 .
 h
 "
