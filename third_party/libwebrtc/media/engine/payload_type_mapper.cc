@@ -331,6 +331,14 @@ kParamValueTrue
 }
 {
 {
+kRedCodecName
+48000
+2
+}
+63
+}
+{
+{
 kDtmfCodecName
 48000
 1
