@@ -412,6 +412,13 @@ return
 mState
 ;
 }
+void
+SetDCompSurfaceHandle
+(
+HANDLE
+aDCompSurfaceHandle
+)
+;
 private
 :
 void

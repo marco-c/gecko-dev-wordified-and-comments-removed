@@ -364,6 +364,11 @@ RenderD3D11TextureHost
 .
 h
 "
+"
+RenderDcompSurfaceTextureHost
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -391,6 +396,11 @@ cpp
 "
 "
 RenderCompositorANGLE
+.
+cpp
+"
+"
+RenderDcompSurfaceTextureHost
 .
 cpp
 "
