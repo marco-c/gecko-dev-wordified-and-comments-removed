@@ -1033,7 +1033,7 @@ text
 =
 {
 typeof
-label
+tooltip
 =
 =
 =
@@ -1041,7 +1041,7 @@ label
 object
 "
 ?
-label
+tooltip
 :
 {
 }
@@ -1081,7 +1081,7 @@ stringify
 {
 colorwayName
 :
-label
+tooltip
 }
 )
 }
