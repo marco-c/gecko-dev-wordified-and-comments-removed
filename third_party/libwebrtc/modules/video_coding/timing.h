@@ -235,6 +235,7 @@ render_time_ms
 int64_t
 now_ms
 )
+const
 ;
 int
 TargetVideoDelay
@@ -311,6 +312,13 @@ MaxCompositionDelayInFrames
 (
 )
 const
+;
+void
+SetLastDecodeScheduledTimestamp
+(
+int64_t
+last_decode_scheduled_ts
+)
 ;
 enum
 {
@@ -500,7 +508,7 @@ mutex_
 )
 ;
 int64_t
-earliest_next_decode_start_time_
+last_decode_scheduled_ts_
 RTC_GUARDED_BY
 (
 mutex_
