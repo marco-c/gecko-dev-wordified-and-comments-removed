@@ -15,7 +15,7 @@ h
 #
 include
 "
-ScriptLoadInfo
+WorkerLoadContext
 .
 h
 "
