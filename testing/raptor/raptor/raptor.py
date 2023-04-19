@@ -790,6 +790,17 @@ exit
 1
 )
     
+raptor
+.
+results_handler
+.
+use_existing_results
+(
+args
+.
+browsertime_existing_results
+)
+    
 success
 =
 raptor

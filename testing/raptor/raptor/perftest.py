@@ -2595,13 +2595,30 @@ test_names
 )
 :
         
+tests_to_run
+=
+tests
+        
+if
+self
+.
+results_handler
+.
+existing_results
+:
+            
+tests_to_run
+=
+[
+]
+        
 try
 :
             
 for
 test
 in
-tests
+tests_to_run
 :
                 
 try

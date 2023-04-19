@@ -266,6 +266,12 @@ self
 perfstats
 =
 perfstats
+        
+self
+.
+existing_results
+=
+None
     
 abstractmethod
     
@@ -937,6 +943,20 @@ supporting_data
 )
     
 def
+use_existing_results
+(
+self
+directory
+)
+:
+        
+self
+.
+existing_results
+=
+directory
+    
+def
 _get_expected_perfherder
 (
 self
@@ -1527,11 +1547,15 @@ self
 supporting_data
             
 test_config
-[
+.
+get
+(
 "
 subtest_alert_on
 "
+[
 ]
+)
             
 self
 .
@@ -1769,6 +1793,29 @@ test
 )
 :
         
+if
+self
+.
+existing_results
+is
+None
+:
+            
+results_root
+=
+self
+.
+_root_results_dir
+        
+else
+:
+            
+results_root
+=
+self
+.
+existing_results
+        
 return
 os
 .
@@ -1776,9 +1823,7 @@ path
 .
 join
 (
-self
-.
-_root_results_dir
+results_root
 test
 [
 "
@@ -1945,6 +1990,8 @@ page_count
 test_name
         
 accept_zero_vismet
+        
+load_existing
     
 )
 :
@@ -2809,6 +2856,12 @@ cycles
 "
                 
 )
+        
+elif
+load_existing
+:
+            
+pass
         
 else
 :
@@ -4958,6 +5011,13 @@ name
 ]
                 
 accept_zero_vismet
+                
+self
+.
+existing_results
+is
+not
+None
             
 )
 :
@@ -5538,11 +5598,15 @@ self
 supporting_data
             
 test_config
-[
+.
+get
+(
 "
 subtest_alert_on
 "
+[
 ]
+)
             
 self
 .
