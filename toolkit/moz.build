@@ -78,6 +78,14 @@ OS_ARCH
 WINNT
 "
 :
+if
+CONFIG
+[
+"
+MOZ_NOTIFICATION_SERVER
+"
+]
+:
 DIRS
 +
 =
