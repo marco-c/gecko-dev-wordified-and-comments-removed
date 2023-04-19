@@ -119,8 +119,13 @@ AnnotationTable
 aAnnotations
 )
 ;
-bool
+void
 FinalizeCrashReport
+(
+)
+;
+void
+DeleteCrashReport
 (
 )
 ;
