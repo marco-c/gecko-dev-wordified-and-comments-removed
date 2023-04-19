@@ -3011,10 +3011,6 @@ checks
 "
 "
 :
-macromagic
-"
-"
-:
 rtc_base_approved
 "
 ]
@@ -5458,10 +5454,6 @@ gunit_helpers
 "
 "
 :
-macromagic
-"
-"
-:
 rtc_base
 "
 "
@@ -5830,10 +5822,6 @@ deps
 "
 :
 checks
-"
-"
-:
-macromagic
 "
 "
 :
