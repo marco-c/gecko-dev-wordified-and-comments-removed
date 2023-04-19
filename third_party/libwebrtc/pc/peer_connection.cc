@@ -2004,9 +2004,14 @@ PeerConnection
 :
 PeerConnection
 (
-PeerConnectionFactory
-*
-factory
+rtc
+:
+:
+scoped_refptr
+<
+ConnectionContext
+>
+context
 std
 :
 :
@@ -2025,9 +2030,9 @@ Call
 call
 )
 :
-factory_
+context_
 (
-factory
+context
 )
 event_log_
 (
@@ -2669,7 +2674,7 @@ Options
 &
 options
 =
-factory_
+context_
 -
 >
 options
@@ -2711,7 +2716,7 @@ config
 .
 ssl_max_version
 =
-factory_
+context_
 -
 >
 options
@@ -2929,7 +2934,7 @@ config
 .
 sctp_factory
 =
-factory_
+context_
 -
 >
 sctp_transport_factory
@@ -10126,7 +10131,7 @@ return
 auto
 audio_state
 =
-factory_
+context_
 -
 >
 channel_manager
@@ -10211,7 +10216,7 @@ return
 auto
 audio_state
 =
-factory_
+context_
 -
 >
 channel_manager
@@ -10623,7 +10628,7 @@ absl
 :
 StartsWith
 (
-factory_
+context_
 -
 >
 trials
@@ -14404,7 +14409,7 @@ absl
 :
 StartsWith
 (
-factory_
+context_
 -
 >
 trials
@@ -14826,7 +14831,7 @@ channel_manager
 const
 {
 return
-factory_
+context_
 -
 >
 channel_manager
@@ -19046,7 +19051,7 @@ configuration_
 .
 crypto_options
 :
-factory_
+context_
 -
 >
 options
