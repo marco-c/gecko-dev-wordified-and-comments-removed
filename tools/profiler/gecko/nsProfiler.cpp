@@ -1690,6 +1690,10 @@ StringWriteFunc
 (
 buffer
 )
+JSONWriter
+:
+:
+SingleLineStyle
 )
 ;
 w
@@ -1830,6 +1834,10 @@ StringWriteFunc
 (
 buffer
 )
+JSONWriter
+:
+:
+SingleLineStyle
 )
 ;
 profiler_write_active_configuration
