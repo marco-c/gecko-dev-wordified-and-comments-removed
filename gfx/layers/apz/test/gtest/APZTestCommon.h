@@ -269,7 +269,7 @@ GeckoContentController
 TapType
 TapType
 ;
-static
+inline
 TimeStamp
 GetStartupTime
 (
