@@ -451,6 +451,11 @@ mDebuggerDataInitialized
 ;
 }
 void
+Shutdown
+(
+)
+;
+void
 UnlinkModuleRecord
 (
 )
