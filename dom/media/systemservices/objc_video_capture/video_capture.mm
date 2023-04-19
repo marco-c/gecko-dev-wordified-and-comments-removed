@@ -273,6 +273,10 @@ alloc
 initWithOwner
 :
 capture_module
+.
+get
+(
+)
 ]
 ;
 if
