@@ -740,6 +740,11 @@ mutex
 "
 ]
 }
+if
+(
+rtc_include_tests
+)
+{
 rtc_library
 (
 "
@@ -979,6 +984,7 @@ rtc_event
 "
 ]
 }
+}
 rtc_library
 (
 "
@@ -1088,12 +1094,9 @@ rtc_base
 rtc_event
 "
 "
+.
+.
 /
-/
-test
-/
-time_controller
-:
 time_controller
 "
 ]
@@ -1115,6 +1118,11 @@ memory
 "
 ]
 }
+if
+(
+rtc_include_tests
+)
+{
 rtc_library
 (
 "
@@ -1280,4 +1288,5 @@ network_emulation_pc_unittest
 network_emulation_unittest
 "
 ]
+}
 }
