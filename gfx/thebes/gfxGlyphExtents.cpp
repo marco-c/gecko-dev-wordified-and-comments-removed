@@ -103,7 +103,7 @@ bool
 gfxGlyphExtents
 :
 :
-GetTightGlyphExtentsAppUnits
+GetTightGlyphExtentsAppUnitsLocked
 (
 gfxFont
 *
@@ -118,12 +118,6 @@ gfxRect
 aExtents
 )
 {
-AutoReadLock
-lock
-(
-mLock
-)
-;
 HashEntry
 *
 entry
@@ -175,6 +169,7 @@ gGlyphExtentsSetupLazyTight
 ;
 #
 endif
+MOZ_PUSH_IGNORE_THREAD_SAFETY
 mLock
 .
 ReadUnlock
@@ -198,6 +193,7 @@ ReadLock
 (
 )
 ;
+MOZ_POP_THREAD_SAFETY
 entry
 =
 mTightGlyphExtents
