@@ -1388,11 +1388,9 @@ PostRuntimeSetting
 RuntimeSetting
 setting
 )
-{
-return
-false
+=
+0
 ;
-}
 virtual
 int
 ProcessStream
