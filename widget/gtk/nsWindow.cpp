@@ -20812,6 +20812,15 @@ aEvent
 button
 )
 ;
+SetLastMousePressEvent
+(
+(
+GdkEvent
+*
+)
+aEvent
+)
+;
 GUniquePtr
 <
 GdkEvent
@@ -21344,6 +21353,11 @@ aEvent
 -
 >
 button
+)
+;
+SetLastMousePressEvent
+(
+nullptr
 )
 ;
 if
