@@ -6465,7 +6465,7 @@ unique_ptr
 <
 RtcEventLog
 >
-log_dumper
+log
 =
 rtc_event_log_factory
 .
@@ -6490,7 +6490,7 @@ i
 +
 )
 {
-log_dumper
+log
 -
 >
 Log
@@ -6547,7 +6547,7 @@ TimeUTCMicros
 (
 )
 ;
-log_dumper
+log
 -
 >
 StartLogging
@@ -6593,7 +6593,7 @@ TimeMicros
 (
 )
 ;
-log_dumper
+log
 -
 >
 StopLogging
@@ -6834,6 +6834,15 @@ i
 )
 ;
 }
+remove
+(
+temp_filename
+.
+c_str
+(
+)
+)
+;
 }
 INSTANTIATE_TEST_SUITE_P
 (
