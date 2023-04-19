@@ -347,7 +347,6 @@ NS_IMPL_ISUPPORTS
 (
 nsIDNService
 nsIIDNService
-nsISupportsWeakReference
 )
 static
 const

@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 mozilla
 /
 RWLock
@@ -92,8 +85,6 @@ final
 :
 public
 nsIIDNService
-public
-nsSupportsWeakReference
 {
 public
 :
