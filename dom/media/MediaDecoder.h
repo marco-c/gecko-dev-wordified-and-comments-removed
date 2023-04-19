@@ -2024,6 +2024,12 @@ GetTotalVideoPlayTimeInSeconds
 const
 ;
 double
+GetTotalVideoHDRPlayTimeInSeconds
+(
+)
+const
+;
+double
 GetVisibleVideoPlayTimeInSeconds
 (
 )
