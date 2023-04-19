@@ -1599,16 +1599,6 @@ libwebrtc
 /
 media
 /
-rtc_constants_gn
-"
-"
-/
-third_party
-/
-libwebrtc
-/
-media
-/
 rtc_encoder_simulcast_proxy_gn
 "
 "
