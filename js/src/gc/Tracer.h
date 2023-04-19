@@ -16,6 +16,15 @@ h
 #
 include
 "
+gc
+/
+TraceKind
+.
+h
+"
+#
+include
+"
 js
 /
 HashTable
