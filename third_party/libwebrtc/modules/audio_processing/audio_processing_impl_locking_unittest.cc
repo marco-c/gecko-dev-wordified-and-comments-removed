@@ -1763,10 +1763,10 @@ mutable
 RandomGenerator
 rand_gen_
 ;
-std
+rtc
 :
 :
-unique_ptr
+scoped_refptr
 <
 AudioProcessing
 >

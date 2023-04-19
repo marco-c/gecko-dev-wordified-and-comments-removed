@@ -415,10 +415,10 @@ test
 FuzzDataHelper
 *
 fuzz_data
-std
+rtc
 :
 :
-unique_ptr
+scoped_refptr
 <
 AudioProcessing
 >
