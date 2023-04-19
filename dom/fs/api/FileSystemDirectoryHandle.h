@@ -52,10 +52,10 @@ nsIGlobalObject
 aGlobal
 RefPtr
 <
-FileSystemActorHolder
+FileSystemManager
 >
 &
-aActor
+aManager
 const
 fs
 :
@@ -78,10 +78,10 @@ nsIGlobalObject
 aGlobal
 RefPtr
 <
-FileSystemActorHolder
+FileSystemManager
 >
 &
-aActor
+aManager
 const
 fs
 :
