@@ -788,6 +788,16 @@ send_checker_
 bool
 playout_delay_pending_
 ;
+const
+absl
+:
+:
+optional
+<
+VideoPlayoutDelay
+>
+forced_playout_delay_
+;
 Mutex
 mutex_
 ;
