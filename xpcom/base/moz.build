@@ -43,11 +43,6 @@ nsIInterfaceRequestor
 idl
 "
 "
-nsIMemory
-.
-idl
-"
-"
 nsIMemoryInfoDumper
 .
 idl
@@ -804,11 +799,6 @@ cpp
 "
 "
 nsISupportsImpl
-.
-cpp
-"
-"
-nsMemory
 .
 cpp
 "
