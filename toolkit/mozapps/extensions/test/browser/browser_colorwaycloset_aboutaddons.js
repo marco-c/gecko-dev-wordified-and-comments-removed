@@ -523,7 +523,7 @@ path
 "
 mock
 -
-colorwaycloset
+colorways
 .
 ftl
 "
@@ -551,7 +551,9 @@ test
 -
 mock
 -
-subheading
+short
+-
+description
 =
 Mock
 collection
@@ -745,7 +747,7 @@ US
 "
 mock
 -
-colorwaycloset
+colorways
 .
 ftl
 "
@@ -1017,7 +1019,7 @@ addResourceIds
 "
 mock
 -
-colorwaycloset
+colorways
 .
 ftl
 "
@@ -2923,7 +2925,7 @@ addResourceIds
 "
 mock
 -
-colorwaycloset
+colorways
 .
 ftl
 "

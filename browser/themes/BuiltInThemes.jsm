@@ -85,7 +85,7 @@ Localization
 (
 [
 "
-preview
+browser
 /
 colorways
 .

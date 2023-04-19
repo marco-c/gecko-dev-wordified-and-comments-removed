@@ -118,8 +118,12 @@ better
 place
 .
 #
-Subheading
+Used
+as
+a
+subheading
 for
+the
 colorway
 collection
 card
@@ -135,7 +139,9 @@ independent
 -
 voices
 -
-subheading2
+short
+-
+description
 =
 Colors
 that
