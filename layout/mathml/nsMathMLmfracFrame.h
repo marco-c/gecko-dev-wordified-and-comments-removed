@@ -194,10 +194,6 @@ mLineThickness
 (
 0
 )
-mIsBevelled
-(
-false
-)
 {
 }
 virtual
@@ -248,9 +244,6 @@ mSlashChar
 ;
 nscoord
 mLineThickness
-;
-bool
-mIsBevelled
 ;
 }
 ;
