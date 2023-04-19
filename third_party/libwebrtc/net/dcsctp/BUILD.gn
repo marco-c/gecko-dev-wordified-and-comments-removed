@@ -130,6 +130,11 @@ common
 dcsctp_common_unittests
 "
 "
+fuzzers
+:
+dcsctp_fuzzers_unittests
+"
+"
 packet
 :
 dcsctp_packet_unittests
