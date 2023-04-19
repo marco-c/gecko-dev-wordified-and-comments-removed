@@ -579,7 +579,10 @@ client
 didGetStats
 :
 (
-NSArray
+RTC_OBJC_TYPE
+(
+RTCStatisticsReport
+)
 *
 )
 stats
