@@ -13,6 +13,10 @@ visualViewport
 const
 center_x
 =
+Math
+.
+floor
+(
 (
 viewport
 .
@@ -24,10 +28,15 @@ scale
 )
 /
 2
+)
 ;
 const
 center_y
 =
+Math
+.
+floor
+(
 (
 viewport
 .
@@ -39,6 +48,7 @@ scale
 )
 /
 2
+)
 ;
 return
 new
