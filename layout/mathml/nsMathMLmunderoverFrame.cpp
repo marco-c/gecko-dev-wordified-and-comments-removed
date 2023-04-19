@@ -1779,9 +1779,10 @@ ReportChildCountError
 ;
 }
 return
-ReflowError
+PlaceForError
 (
 aDrawTarget
+aPlaceOrigin
 aDesiredSize
 )
 ;
