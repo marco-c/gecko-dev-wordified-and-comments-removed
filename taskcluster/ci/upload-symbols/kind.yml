@@ -162,6 +162,14 @@ geckodriver
 /
 opt
 -
+linux64
+-
+aarch64
+-
+geckodriver
+/
+opt
+-
 macosx64
 -
 geckodriver
