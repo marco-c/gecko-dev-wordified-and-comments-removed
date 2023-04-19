@@ -3315,7 +3315,7 @@ Address
 tokenAddr
 (
 FramePointer
-BaselineFrame
+JitFrameLayout
 :
 :
 offsetOfCalleeToken

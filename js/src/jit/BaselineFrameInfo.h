@@ -546,10 +546,10 @@ return
 Address
 (
 FramePointer
-BaselineFrame
+JitFrameLayout
 :
 :
-offsetOfArg
+offsetOfActualArg
 (
 arg
 )
@@ -566,7 +566,7 @@ return
 Address
 (
 FramePointer
-BaselineFrame
+JitFrameLayout
 :
 :
 offsetOfThis
@@ -585,7 +585,7 @@ return
 Address
 (
 FramePointer
-BaselineFrame
+JitFrameLayout
 :
 :
 offsetOfCalleeToken
