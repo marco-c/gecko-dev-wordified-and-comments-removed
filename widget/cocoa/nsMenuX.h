@@ -522,10 +522,6 @@ MenuOpened
 void
 MenuClosed
 (
-bool
-aEntireMenuClosingDueToActivateItem
-=
-false
 )
 ;
 bool

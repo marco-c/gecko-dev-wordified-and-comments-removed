@@ -234,6 +234,16 @@ SetupIcon
 (
 )
 ;
+nsMenuX
+*
+ParentMenu
+(
+)
+{
+return
+mMenuParent
+;
+}
 nsIContent
 *
 Content
