@@ -87,9 +87,9 @@ EPSILON
 bool
 FuzzyEqualsCoordinate
 (
-float
+CSSCoord
 aValue1
-float
+CSSCoord
 aValue2
 )
 ;

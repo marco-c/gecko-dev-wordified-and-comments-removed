@@ -221,7 +221,7 @@ Touchscreen
 ;
 }
 const
-float
+CSSCoord
 COORDINATE_EPSILON
 =
 0
@@ -248,6 +248,8 @@ x
 .
 0f
 COORDINATE_EPSILON
+.
+value
 )
 &
 &
@@ -260,6 +262,8 @@ y
 .
 0f
 COORDINATE_EPSILON
+.
+value
 )
 ;
 }
