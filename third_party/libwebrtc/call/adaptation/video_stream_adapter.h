@@ -242,6 +242,13 @@ degradation_preference
 )
 ;
 int
+GetLowerResolutionThan
+(
+int
+pixel_count
+)
+;
+int
 GetHigherResolutionThan
 (
 int

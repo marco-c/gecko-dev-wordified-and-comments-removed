@@ -2392,6 +2392,12 @@ AddRestrictionsListener
 this
 )
 ;
+stream_resource_manager_
+.
+MaybeInitializePixelLimitResource
+(
+)
+;
 adaptation_constraints_
 =
 stream_resource_manager_
