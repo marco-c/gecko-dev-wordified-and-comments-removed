@@ -4700,13 +4700,9 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
-Result
-<
 CreateNodeResultBase
 <
 ContentNodeType
->
-nsresult
 >
 InsertNodeWithTransaction
 (
@@ -4725,11 +4721,7 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
-Result
-<
 CreateElementResult
-nsresult
->
 InsertPaddingBRElementForEmptyLastLineWithTransaction
 (
 const
