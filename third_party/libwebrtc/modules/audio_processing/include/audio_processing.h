@@ -788,17 +788,6 @@ adaptive_digital
 }
 gain_controller2
 ;
-struct
-ResidualEchoDetector
-{
-bool
-enabled
-=
-false
-;
-}
-residual_echo_detector
-;
 std
 :
 :
