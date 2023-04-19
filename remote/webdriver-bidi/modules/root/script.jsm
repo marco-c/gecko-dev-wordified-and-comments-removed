@@ -594,6 +594,7 @@ id
 params
 :
 {
+awaitPromise
 expression
 :
 source
