@@ -105,7 +105,6 @@ necessary
 /
 [
 scriptable
-builtinclass
 uuid
 (
 616f5b48
@@ -224,7 +223,6 @@ necessary
 /
 [
 scriptable
-builtinclass
 uuid
 (
 6476378a

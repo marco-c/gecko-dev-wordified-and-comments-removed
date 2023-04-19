@@ -42,7 +42,6 @@ PRFileDesc
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 e3d56a20
@@ -118,7 +117,6 @@ SHARE_DELETE
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 e734cac9
@@ -179,7 +177,6 @@ DEFER_OPEN
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 82cf605a
@@ -228,7 +225,6 @@ DEFER_OPEN
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 07f679e4
@@ -271,7 +267,6 @@ getFileDescriptor
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 de15b80b

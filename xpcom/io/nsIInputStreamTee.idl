@@ -13,7 +13,6 @@ nsIEventTarget
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 90a9d790

@@ -186,7 +186,6 @@ nsIAsyncInputStream
 /
 [
 scriptable
-builtinclass
 uuid
 (
 a5f255ab
