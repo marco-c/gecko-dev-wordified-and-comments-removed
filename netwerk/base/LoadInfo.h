@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsIInterceptionInfo
+.
+h
+"
+#
+include
+"
 nsILoadInfo
 .
 h
@@ -801,6 +808,9 @@ aIsOriginTrialCoepCredentiallessEnabledForTopLevel
 nsIURI
 *
 aUnstrippedURI
+nsIInterceptionInfo
+*
+aInterceptionInfo
 )
 ;
 LoadInfo
@@ -1365,6 +1375,12 @@ nsCOMPtr
 nsIURI
 >
 mUnstrippedURI
+;
+nsCOMPtr
+<
+nsIInterceptionInfo
+>
+mInterceptionInfo
 ;
 }
 ;

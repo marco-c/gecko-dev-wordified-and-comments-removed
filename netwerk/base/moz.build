@@ -208,6 +208,11 @@ nsIInputStreamPump
 idl
 "
 "
+nsIInterceptionInfo
+.
+idl
+"
+"
 nsIIOService
 .
 idl
@@ -744,6 +749,11 @@ DefaultURI
 h
 "
 "
+InterceptionInfo
+.
+h
+"
+"
 IOActivityMonitor
 .
 h
@@ -825,6 +835,11 @@ cpp
 "
 "
 EventTokenBucket
+.
+cpp
+"
+"
+InterceptionInfo
 .
 cpp
 "
