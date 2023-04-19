@@ -11504,6 +11504,15 @@ ReportSdpFormatReceived
 desc
 )
 ;
+pc_
+-
+>
+ReportSdpBundleUsage
+(
+*
+desc
+)
+;
 }
 FillInMissingRemoteMids
 (

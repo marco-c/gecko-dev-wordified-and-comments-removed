@@ -2411,6 +2411,15 @@ SessionDescriptionInterface
 remote_description
 )
 ;
+void
+ReportSdpBundleUsage
+(
+const
+SessionDescriptionInterface
+&
+remote_description
+)
+;
 bool
 IsUnifiedPlan
 (
