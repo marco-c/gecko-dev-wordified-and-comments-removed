@@ -3285,7 +3285,6 @@ LexicalScopeNode
 *
 last
 =
-&
 funNode
 -
 >
@@ -3294,15 +3293,7 @@ body
 )
 -
 >
-last
-(
-)
--
->
-as
-<
-LexicalScopeNode
->
+body
 (
 )
 ;
