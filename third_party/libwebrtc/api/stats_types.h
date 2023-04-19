@@ -255,6 +255,7 @@ kStatsValueNameTransportType
 kStatsValueNameTypingNoiseState
 kStatsValueNameWritable
 kStatsValueNameAudioDeviceUnderrunCounter
+kStatsValueNameLocalCandidateRelayProtocol
 }
 ;
 class

@@ -3218,6 +3218,14 @@ return
 googAudioDeviceUnderrunCounter
 "
 ;
+case
+kStatsValueNameLocalCandidateRelayProtocol
+:
+return
+"
+googLocalCandidateRelayProtocol
+"
+;
 }
 return
 nullptr
