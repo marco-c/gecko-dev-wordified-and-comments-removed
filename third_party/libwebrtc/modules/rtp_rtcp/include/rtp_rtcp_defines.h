@@ -726,11 +726,6 @@ transport_sequence_number
 =
 0
 ;
-uint32_t
-ssrc
-=
-0
-;
 absl
 :
 :

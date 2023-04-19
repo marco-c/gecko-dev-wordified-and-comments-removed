@@ -1742,12 +1742,6 @@ packet_info
 ;
 packet_info
 .
-ssrc
-=
-ssrc_
-;
-packet_info
-.
 media_ssrc
 =
 ssrc_
