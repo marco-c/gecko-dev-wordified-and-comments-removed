@@ -109,7 +109,7 @@ version
 "
 1
 .
-36
+38
 "
 name
 =
@@ -125,7 +125,7 @@ version
 .
 5
 .
-4
+6
 "
 description
 =
@@ -165,6 +165,13 @@ master
 crossbeam
 -
 channel
+"
+readme
+=
+"
+README
+.
+md
 "
 keywords
 =

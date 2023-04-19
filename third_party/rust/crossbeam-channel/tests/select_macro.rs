@@ -1846,14 +1846,6 @@ unwrap
 }
 #
 [
-cfg_attr
-(
-miri
-ignore
-)
-]
-#
-[
 test
 ]
 fn
@@ -3037,7 +3029,7 @@ COUNT
 :
 usize
 =
-100
+50
 ;
 #
 [
