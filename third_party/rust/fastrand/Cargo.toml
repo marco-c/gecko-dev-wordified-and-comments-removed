@@ -121,7 +121,7 @@ version
 "
 1
 .
-7
+8
 .
 0
 "
@@ -158,6 +158,13 @@ fast
 random
 number
 generator
+"
+readme
+=
+"
+README
+.
+md
 "
 keywords
 =
