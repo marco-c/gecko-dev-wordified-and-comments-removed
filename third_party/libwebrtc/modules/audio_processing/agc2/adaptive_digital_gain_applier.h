@@ -77,14 +77,6 @@ estimate_is_confident
 ;
 }
 ;
-explicit
-AdaptiveDigitalGainApplier
-(
-ApmDataDumper
-*
-apm_data_dumper
-)
-;
 AdaptiveDigitalGainApplier
 (
 ApmDataDumper
@@ -92,6 +84,8 @@ ApmDataDumper
 apm_data_dumper
 int
 adjacent_speech_frames_threshold
+float
+max_gain_change_db_per_second
 )
 ;
 AdaptiveDigitalGainApplier
@@ -142,6 +136,10 @@ gain_applier_
 const
 int
 adjacent_speech_frames_threshold_
+;
+const
+float
+max_gain_change_db_per_10ms_
 ;
 int
 calls_since_last_gain_log_

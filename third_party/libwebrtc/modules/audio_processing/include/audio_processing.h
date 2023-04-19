@@ -733,6 +733,13 @@ gain_applier_adjacent_speech_frames_threshold
 =
 1
 ;
+float
+max_gain_change_db_per_second
+=
+3
+.
+f
+;
 }
 adaptive_digital
 ;
