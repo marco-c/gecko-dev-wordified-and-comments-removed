@@ -1211,8 +1211,6 @@ this
 ;
 return_trace
 (
-likely
-(
 c
 -
 >
@@ -1261,7 +1259,6 @@ to_int
 =
 =
 0x00030000
-)
 )
 )
 ;

@@ -14,6 +14,8 @@ hb_blob_t
 *
 hb_subset_repack_or_fail
 (
+hb_tag_t
+table_tag
 hb_object_t
 *
 hb_objects
@@ -77,7 +79,9 @@ return
 hb_resolve_overflows
 (
 packed
-HB_OT_TAG_GSUB
+table_tag
+20
+true
 )
 ;
 }

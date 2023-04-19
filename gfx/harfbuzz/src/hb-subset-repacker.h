@@ -71,6 +71,8 @@ hb_blob_t
 *
 hb_subset_repack_or_fail
 (
+hb_tag_t
+table_tag
 hb_object_t
 *
 hb_objects

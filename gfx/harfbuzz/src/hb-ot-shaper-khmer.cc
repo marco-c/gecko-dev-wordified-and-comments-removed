@@ -1564,12 +1564,12 @@ data_create_khmer
 data_destroy_khmer
 nullptr
 nullptr
-HB_OT_SHAPE_NORMALIZATION_MODE_COMPOSED_DIACRITICS_NO_SHORT_CIRCUIT
 decompose_khmer
 compose_khmer
 setup_masks_khmer
-HB_TAG_NONE
 nullptr
+HB_TAG_NONE
+HB_OT_SHAPE_NORMALIZATION_MODE_COMPOSED_DIACRITICS_NO_SHORT_CIRCUIT
 HB_OT_SHAPE_ZERO_WIDTH_MARKS_NONE
 false
 }

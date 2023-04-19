@@ -51,7 +51,7 @@ namespace
 Layout
 {
 namespace
-GSUB
+GSUB_impl
 {
 typedef
 hb_pair_t

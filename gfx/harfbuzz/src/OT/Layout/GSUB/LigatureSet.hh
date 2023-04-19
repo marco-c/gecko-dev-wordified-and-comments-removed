@@ -25,8 +25,13 @@ namespace
 Layout
 {
 namespace
-GSUB
+GSUB_impl
 {
+template
+<
+typename
+Types
+>
 struct
 LigatureSet
 {
@@ -35,6 +40,9 @@ protected
 Array16OfOffset16To
 <
 Ligature
+<
+Types
+>
 >
 ligature
 ;
@@ -105,6 +113,9 @@ glyphs
 (
 const
 Ligature
+<
+Types
+>
 &
 _
 )
@@ -154,6 +165,9 @@ c
 (
 const
 Ligature
+<
+Types
+>
 &
 _
 )
@@ -200,6 +214,9 @@ c
 (
 const
 Ligature
+<
+Types
+>
 &
 _
 )
@@ -247,6 +264,9 @@ c
 (
 const
 Ligature
+<
+Types
+>
 &
 _
 )
@@ -305,7 +325,7 @@ i
 )
 {
 const
-Ligature
+auto
 &
 lig
 =

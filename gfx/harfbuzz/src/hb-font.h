@@ -129,6 +129,7 @@ void
 *
 hb_font_funcs_get_user_data
 (
+const
 hb_font_funcs_t
 *
 ffuncs
@@ -1437,6 +1438,7 @@ void
 *
 hb_font_get_user_data
 (
+const
 hb_font_t
 *
 font

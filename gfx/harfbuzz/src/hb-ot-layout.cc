@@ -234,9 +234,6 @@ Layout
 :
 :
 GSUB
-:
-:
-GSUB
 ;
 using
 OT

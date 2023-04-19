@@ -36,13 +36,6 @@ hb_map_get_empty
 (
 )
 ;
-map
--
->
-init_shallow
-(
-)
-;
 return
 map
 ;
@@ -102,13 +95,6 @@ map
 )
 return
 ;
-map
--
->
-fini_shallow
-(
-)
-;
 hb_free
 (
 map
@@ -148,6 +134,7 @@ void
 *
 hb_map_get_user_data
 (
+const
 hb_map_t
 *
 map

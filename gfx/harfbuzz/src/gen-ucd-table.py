@@ -1028,13 +1028,13 @@ name
 )
 DEFAULT
 =
-1
+3
 COMPACT
 =
-3
+5
 SLOPPY
 =
-5
+9
 logging
 .
 info

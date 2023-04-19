@@ -550,7 +550,7 @@ arr
 0
 compression
 =
-3
+9
 )
 	
 code
@@ -744,7 +744,7 @@ open
 /
 test
 /
-shaping
+shape
 /
 data
 /
@@ -787,7 +787,7 @@ fonts
 AdobeBlank2
 .
 ttf
-:
+;
 -
 -
 no
@@ -815,7 +815,7 @@ f
 write
 (
 "
-:
+;
 "
 +
 "
@@ -832,7 +832,7 @@ f
 write
 (
 "
-:
+;
 [
 "
 +

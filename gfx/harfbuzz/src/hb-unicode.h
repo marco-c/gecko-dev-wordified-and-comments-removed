@@ -333,6 +333,7 @@ void
 *
 hb_unicode_funcs_get_user_data
 (
+const
 hb_unicode_funcs_t
 *
 ufuncs

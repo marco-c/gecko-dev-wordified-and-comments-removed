@@ -240,9 +240,6 @@ hb_font_t
 font
 )
 ;
-hb_ot_shape_normalization_mode_t
-normalization_preference
-;
 bool
 (
 *
@@ -300,9 +297,6 @@ hb_font_t
 font
 )
 ;
-hb_tag_t
-gpos_tag
-;
 void
 (
 *
@@ -323,6 +317,12 @@ unsigned
 int
 end
 )
+;
+hb_tag_t
+gpos_tag
+;
+hb_ot_shape_normalization_mode_t
+normalization_preference
 ;
 hb_ot_shape_zero_width_marks_type_t
 zero_width_marks

@@ -604,7 +604,6 @@ unsigned
 int
 cluster
 ;
-unsigned
 int
 advance
 ;

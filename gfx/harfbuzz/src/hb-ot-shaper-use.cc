@@ -1033,6 +1033,8 @@ info
 [
 i
 ]
+.
+codepoint
 )
 ;
 }
@@ -2551,12 +2553,12 @@ data_create_use
 data_destroy_use
 preprocess_text_use
 nullptr
-HB_OT_SHAPE_NORMALIZATION_MODE_COMPOSED_DIACRITICS_NO_SHORT_CIRCUIT
 nullptr
 compose_use
 setup_masks_use
-HB_TAG_NONE
 nullptr
+HB_TAG_NONE
+HB_OT_SHAPE_NORMALIZATION_MODE_COMPOSED_DIACRITICS_NO_SHORT_CIRCUIT
 HB_OT_SHAPE_ZERO_WIDTH_MARKS_BY_GDEF_EARLY
 false
 }

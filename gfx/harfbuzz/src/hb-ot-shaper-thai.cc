@@ -1430,12 +1430,12 @@ nullptr
 nullptr
 preprocess_text_thai
 nullptr
-HB_OT_SHAPE_NORMALIZATION_MODE_DEFAULT
+nullptr
 nullptr
 nullptr
 nullptr
 HB_TAG_NONE
-nullptr
+HB_OT_SHAPE_NORMALIZATION_MODE_DEFAULT
 HB_OT_SHAPE_ZERO_WIDTH_MARKS_BY_GDEF_LATE
 false
 }

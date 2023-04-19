@@ -795,6 +795,7 @@ void
 *
 hb_face_get_user_data
 (
+const
 hb_face_t
 *
 face

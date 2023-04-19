@@ -229,6 +229,7 @@ void
 *
 hb_shape_plan_get_user_data
 (
+const
 hb_shape_plan_t
 *
 shape_plan

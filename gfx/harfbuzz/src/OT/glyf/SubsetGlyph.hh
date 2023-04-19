@@ -205,7 +205,9 @@ new_gid_for_old_gid
 (
 _
 .
-glyphIndex
+get_gid
+(
+)
 &
 new_gid
 )
@@ -219,9 +221,10 @@ CompositeGlyphRecord
 _
 )
 .
-glyphIndex
-=
+set_gid
+(
 new_gid
+)
 ;
 }
 if

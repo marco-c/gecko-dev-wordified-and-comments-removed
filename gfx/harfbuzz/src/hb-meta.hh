@@ -1726,6 +1726,13 @@ __GNUC__
 __GNUC__
 <
 5
+&
+&
+!
+defined
+(
+__clang__
+)
 #
 define
 hb_is_trivially_copyable

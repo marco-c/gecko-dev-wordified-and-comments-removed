@@ -36,13 +36,6 @@ hb_set_get_empty
 (
 )
 ;
-set
--
->
-init_shallow
-(
-)
-;
 return
 set
 ;
@@ -102,13 +95,6 @@ set
 )
 return
 ;
-set
--
->
-fini_shallow
-(
-)
-;
 hb_free
 (
 set
@@ -148,6 +134,7 @@ void
 *
 hb_set_get_user_data
 (
+const
 hb_set_t
 *
 set

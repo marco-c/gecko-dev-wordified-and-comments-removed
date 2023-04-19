@@ -68,15 +68,12 @@ this
 ;
 return_trace
 (
-likely
-(
 c
 -
 >
 check_struct
 (
 this
-)
 )
 )
 ;

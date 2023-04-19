@@ -901,6 +901,16 @@ hb_language_get_default
 void
 )
 ;
+HB_EXTERN
+hb_bool_t
+hb_language_matches
+(
+hb_language_t
+language
+hb_language_t
+specific
+)
+;
 typedef
 enum
 {

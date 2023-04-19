@@ -1832,12 +1832,12 @@ data_create_hangul
 data_destroy_hangul
 preprocess_text_hangul
 nullptr
-HB_OT_SHAPE_NORMALIZATION_MODE_NONE
 nullptr
 nullptr
 setup_masks_hangul
-HB_TAG_NONE
 nullptr
+HB_TAG_NONE
+HB_OT_SHAPE_NORMALIZATION_MODE_NONE
 HB_OT_SHAPE_ZERO_WIDTH_MARKS_NONE
 false
 }
