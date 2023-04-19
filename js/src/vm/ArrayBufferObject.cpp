@@ -9440,6 +9440,7 @@ MOZ_ASSERT
 (
 nbytes
 >
+=
 0
 )
 ;
