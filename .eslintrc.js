@@ -1196,12 +1196,6 @@ unit
 *
 "
 "
-services
-/
-*
-*
-"
-"
 testing
 /
 xpcshell
