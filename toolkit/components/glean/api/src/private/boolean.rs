@@ -5,6 +5,15 @@ inherent
 inherent
 ;
 use
+std
+:
+:
+sync
+:
+:
+Arc
+;
+use
 glean
 :
 :
@@ -50,6 +59,8 @@ BooleanMetric
 {
 Parent
 (
+Arc
+<
 glean
 :
 :
@@ -57,6 +68,7 @@ private
 :
 :
 BooleanMetric
+>
 )
 Child
 (
@@ -113,6 +125,11 @@ BooleanMetric
 :
 Parent
 (
+Arc
+:
+:
+new
+(
 glean
 :
 :
@@ -125,6 +142,7 @@ BooleanMetric
 new
 (
 meta
+)
 )
 )
 }
