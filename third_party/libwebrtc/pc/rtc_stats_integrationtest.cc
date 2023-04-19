@@ -5586,7 +5586,7 @@ inbound_stream
 verifier
 inbound_stream
 .
-media_type
+kind
 .
 is_defined
 (
@@ -5621,7 +5621,7 @@ if
 (
 inbound_stream
 .
-media_type
+kind
 .
 is_defined
 (
@@ -5698,7 +5698,7 @@ if
 (
 inbound_stream
 .
-media_type
+kind
 .
 is_defined
 (
@@ -5928,7 +5928,7 @@ if
 (
 inbound_stream
 .
-media_type
+kind
 .
 is_defined
 (
@@ -6327,7 +6327,7 @@ if
 (
 inbound_stream
 .
-media_type
+kind
 .
 is_defined
 (
@@ -6527,7 +6527,7 @@ if
 (
 outbound_stream
 .
-media_type
+kind
 .
 is_defined
 (
@@ -6750,7 +6750,7 @@ if
 (
 outbound_stream
 .
-media_type
+kind
 .
 is_defined
 (
