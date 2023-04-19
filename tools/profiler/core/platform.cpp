@@ -4680,9 +4680,6 @@ StartArrayProperty
 "
 features
 "
-aWriter
-.
-SingleLineStyle
 )
 ;
 #
@@ -4738,9 +4735,6 @@ StartArrayProperty
 "
 threads
 "
-aWriter
-.
-SingleLineStyle
 )
 ;
 for
@@ -13301,10 +13295,6 @@ aWriter
 .
 StartArrayElement
 (
-JSONWriter
-:
-:
-SingleLineStyle
 )
 ;
 nsAutoString

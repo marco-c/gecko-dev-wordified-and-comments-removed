@@ -1458,10 +1458,6 @@ writer
 >
 StartObjectElement
 (
-JSONWriter
-:
-:
-SingleLineStyle
 )
 ;
 {
