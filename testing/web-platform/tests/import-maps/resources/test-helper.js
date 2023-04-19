@@ -985,6 +985,11 @@ setAttribute
 src
 "
 "
+/
+import
+-
+maps
+/
 static
 -
 import
