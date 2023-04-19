@@ -709,8 +709,6 @@ nscoord
 aWidth
 nscoord
 aHeight
-bool
-aDoReflow
 )
 {
 nsRect
@@ -766,29 +764,6 @@ presShell
 mPresShell
 )
 {
-auto
-options
-=
-ResizeReflowOptions
-:
-:
-NoOption
-;
-if
-(
-!
-aDoReflow
-)
-{
-options
-|
-=
-ResizeReflowOptions
-:
-:
-SuppressReflow
-;
-}
 presShell
 -
 >
@@ -796,7 +771,6 @@ ResizeReflow
 (
 aWidth
 aHeight
-options
 )
 ;
 }
@@ -939,7 +913,6 @@ aHeight
 ;
 FlushDelayedResize
 (
-false
 )
 ;
 }
@@ -955,7 +928,6 @@ DoSetWindowDimensions
 (
 aWidth
 aHeight
-true
 )
 ;
 }
@@ -998,8 +970,6 @@ nsViewManager
 :
 FlushDelayedResize
 (
-bool
-aDoReflow
 )
 {
 if
@@ -1022,7 +992,6 @@ width
 mDelayedResize
 .
 height
-aDoReflow
 )
 ;
 mDelayedResize
@@ -2075,7 +2044,6 @@ vm
 >
 FlushDelayedResize
 (
-true
 )
 ;
 }

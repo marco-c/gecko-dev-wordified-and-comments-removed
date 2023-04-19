@@ -74,12 +74,6 @@ BSizeLimit
 <
 <
 0
-SuppressReflow
-=
-1
-<
-<
-1
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
