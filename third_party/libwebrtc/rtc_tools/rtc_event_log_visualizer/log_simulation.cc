@@ -1005,15 +1005,9 @@ std
 min
 (
 rtt
-TimeDelta
-:
-:
-Millis
-(
-CompactNtpRttToMs
+CompactNtpRttToTimeDelta
 (
 rtt_ntp
-)
 )
 )
 ;
