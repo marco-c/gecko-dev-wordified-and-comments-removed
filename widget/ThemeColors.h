@@ -74,7 +74,7 @@ gfx
 :
 :
 sRGBColor
-sDefaultAccentForeground
+sDefaultAccentText
 (
 gfx
 :
