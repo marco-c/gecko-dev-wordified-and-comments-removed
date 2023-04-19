@@ -8458,11 +8458,6 @@ messagemanagergroup
 "
 browsers
 "
-selectmenulist
-:
-"
-ContentSelectDropdown
-"
 tooltip
 :
 "
