@@ -119,7 +119,16 @@ PartiallyDeelevated
 UnsuccessfullyDeelevated
 =
 5
+DefaultStaticValue
+=
+0x55AA55AA
 }
+;
+extern
+const
+volatile
+DeelevationStatus
+gDeelevationStatus
 ;
 }
 #
