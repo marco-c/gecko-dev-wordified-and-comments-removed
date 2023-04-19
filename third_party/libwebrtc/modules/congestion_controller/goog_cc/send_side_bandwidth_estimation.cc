@@ -1450,10 +1450,10 @@ loss_based_bandwidth_estimation_
 (
 key_value_config
 )
-disable_receiver_limit_caps_only_
+receiver_limit_caps_only_
 (
 "
-Disabled
+Enabled
 "
 )
 {
@@ -1531,7 +1531,7 @@ ParseFieldTrial
 (
 {
 &
-disable_receiver_limit_caps_only_
+receiver_limit_caps_only_
 }
 key_value_config
 -
@@ -1915,8 +1915,7 @@ current_target_
 ;
 if
 (
-!
-disable_receiver_limit_caps_only_
+receiver_limit_caps_only_
 )
 target
 =
@@ -3216,7 +3215,8 @@ delay_based_limit_
 ;
 if
 (
-disable_receiver_limit_caps_only_
+!
+receiver_limit_caps_only_
 )
 upper_limit
 =
