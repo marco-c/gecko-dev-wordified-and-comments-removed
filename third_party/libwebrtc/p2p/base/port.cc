@@ -761,6 +761,14 @@ weak_factory_
 this
 )
 {
+RTC_DCHECK
+(
+factory_
+!
+=
+NULL
+)
+;
 Construct
 (
 )
