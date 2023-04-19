@@ -485,7 +485,6 @@ CheckArg
 (
 aArgc
 aArgv
-L
 "
 wait
 -
@@ -526,7 +525,6 @@ CheckArg
 (
 aArgc
 aArgv
-L
 "
 marionette
 "
@@ -563,7 +561,6 @@ CheckArg
 (
 aArgc
 aArgv
-L
 "
 backgroundtask
 "
@@ -600,7 +597,6 @@ CheckArg
 (
 aArgc
 aArgv
-L
 "
 headless
 "
@@ -637,7 +633,6 @@ CheckArg
 (
 aArgc
 aArgv
-L
 "
 remote
 -
@@ -714,7 +709,6 @@ CheckArg
 (
 aArgc
 aArgv
-L
 "
 no
 -
@@ -959,7 +953,6 @@ CheckArg
 (
 argc
 argv
-L
 "
 launcher
 "
@@ -1074,7 +1067,6 @@ CheckArg
 (
 argc
 argv
-L
 "
 force
 -
@@ -1287,24 +1279,21 @@ aAppData
 )
 {
 const
-wchar_t
+char
 *
 acceptableParams
 [
 ]
 =
 {
-L
 "
 url
 "
-L
 "
 private
 -
 window
 "
-nullptr
 }
 ;
 EnsureCommandlineSafe
@@ -1325,7 +1314,6 @@ CheckArg
 (
 argc
 argv
-L
 "
 log
 -
@@ -1370,7 +1358,6 @@ CheckArg
 (
 argc
 argv
-L
 "
 contentproc
 "

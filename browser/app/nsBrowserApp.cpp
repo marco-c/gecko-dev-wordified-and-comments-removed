@@ -1222,7 +1222,6 @@ private
 -
 window
 "
-nullptr
 }
 ;
 EnsureCommandlineSafe
