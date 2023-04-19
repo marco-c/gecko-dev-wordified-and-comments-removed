@@ -1,0 +1,17 @@
+#
+ifndef
+CALL_VERSION_H_
+#
+define
+CALL_VERSION_H_
+namespace
+webrtc
+{
+void
+LoadWebRTCVersionInRegister
+(
+)
+;
+}
+#
+endif

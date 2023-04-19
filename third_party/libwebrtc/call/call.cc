@@ -163,6 +163,15 @@ h
 #
 include
 "
+call
+/
+version
+.
+h
+"
+#
+include
+"
 logging
 /
 rtc_event_log
@@ -3242,6 +3251,10 @@ worker_thread_
 IsCurrent
 (
 )
+)
+;
+LoadWebRTCVersionInRegister
+(
 )
 ;
 call_stats_
