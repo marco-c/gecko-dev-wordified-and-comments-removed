@@ -466,11 +466,9 @@ nal
 ;
 }
 }
-encoded_image
--
->
-SetEncodedData
-(
+auto
+buffer
+=
 EncodedImageBuffer
 :
 :
@@ -478,6 +476,13 @@ Create
 (
 required_capacity
 )
+;
+encoded_image
+-
+>
+SetEncodedData
+(
+buffer
 )
 ;
 const
@@ -653,7 +658,7 @@ nal
 }
 memcpy
 (
-encoded_image
+buffer
 -
 >
 data
