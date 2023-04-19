@@ -250,9 +250,6 @@ VideoFrame
 public
 NackSender
 public
-video_coding
-:
-:
 OnCompleteFrameCallback
 public
 Syncable

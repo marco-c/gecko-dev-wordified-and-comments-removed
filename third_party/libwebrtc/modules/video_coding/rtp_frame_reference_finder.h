@@ -24,9 +24,6 @@ namespace
 webrtc
 {
 namespace
-video_coding
-{
-namespace
 internal
 {
 class
@@ -54,6 +51,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 EncodedFrame
 >
 frame
@@ -63,6 +63,18 @@ frame
 ;
 }
 ;
+namespace
+video_coding
+{
+using
+OnCompleteFrameCallback
+=
+webrtc
+:
+:
+OnCompleteFrameCallback
+;
+}
 class
 RtpFrameReferenceFinder
 {
@@ -81,6 +93,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 RtpFrameObject
 >
 3
@@ -117,6 +132,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 RtpFrameObject
 >
 frame
@@ -173,7 +191,6 @@ impl_
 ;
 }
 ;
-}
 }
 #
 endif

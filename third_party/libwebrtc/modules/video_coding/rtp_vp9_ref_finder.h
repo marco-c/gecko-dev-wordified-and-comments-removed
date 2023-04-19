@@ -71,9 +71,6 @@ h
 namespace
 webrtc
 {
-namespace
-video_coding
-{
 class
 RtpVp9RefFinder
 {
@@ -96,6 +93,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 RtpFrameObject
 >
 frame
@@ -197,6 +197,9 @@ last_picture_id
 FrameDecision
 ManageFrameInternal
 (
+video_coding
+:
+:
 RtpFrameObject
 *
 frame
@@ -248,6 +251,9 @@ pid_ref
 void
 FlattenFrameIdAndRefs
 (
+video_coding
+:
+:
 RtpFrameObject
 *
 frame
@@ -271,6 +277,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 RtpFrameObject
 >
 >
@@ -352,7 +361,6 @@ tl0_unwrapper_
 ;
 }
 ;
-}
 }
 #
 endif

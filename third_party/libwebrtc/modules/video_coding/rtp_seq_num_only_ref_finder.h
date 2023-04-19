@@ -76,9 +76,6 @@ h
 namespace
 webrtc
 {
-namespace
-video_coding
-{
 class
 RtpSeqNumOnlyRefFinder
 {
@@ -101,6 +98,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 RtpFrameObject
 >
 frame
@@ -150,6 +150,9 @@ kDrop
 FrameDecision
 ManageFrameInternal
 (
+video_coding
+:
+:
 RtpFrameObject
 *
 frame
@@ -217,6 +220,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 RtpFrameObject
 >
 >
@@ -230,7 +236,6 @@ rtp_seq_num_unwrapper_
 ;
 }
 ;
-}
 }
 #
 endif

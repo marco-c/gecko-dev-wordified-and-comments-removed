@@ -560,9 +560,6 @@ class
 MockOnCompleteFrameCallback
 :
 public
-video_coding
-:
-:
 OnCompleteFrameCallback
 {
 public

@@ -31,9 +31,6 @@ h
 namespace
 webrtc
 {
-namespace
-video_coding
-{
 RtpFrameReferenceFinder
 :
 :
@@ -48,6 +45,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 RtpFrameObject
 >
 frame
@@ -155,6 +155,9 @@ RtpVp9RefFinder
 :
 ManageFrameInternal
 (
+video_coding
+:
+:
 RtpFrameObject
 *
 frame
@@ -266,6 +269,9 @@ codec_header
 .
 num_ref_pics
 >
+video_coding
+:
+:
 EncodedFrame
 :
 :
@@ -1048,6 +1054,9 @@ num_ref_pics
 gof_idx
 ]
 >
+video_coding
+:
+:
 EncodedFrame
 :
 :
@@ -1885,6 +1894,9 @@ RtpVp9RefFinder
 :
 FlattenFrameIdAndRefs
 (
+video_coding
+:
+:
 RtpFrameObject
 *
 frame
@@ -1984,6 +1996,9 @@ num_references
 1
 <
 =
+video_coding
+:
+:
 EncodedFrame
 :
 :
@@ -2086,7 +2101,6 @@ else
 +
 it
 ;
-}
 }
 }
 }

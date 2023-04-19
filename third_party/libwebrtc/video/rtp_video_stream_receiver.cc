@@ -1197,9 +1197,6 @@ nack_sender
 KeyFrameRequestSender
 *
 keyframe_request_sender
-video_coding
-:
-:
 OnCompleteFrameCallback
 *
 complete_frame_callback
@@ -1282,9 +1279,6 @@ nack_sender
 KeyFrameRequestSender
 *
 keyframe_request_sender
-video_coding
-:
-:
 OnCompleteFrameCallback
 *
 complete_frame_callback
@@ -1745,9 +1739,6 @@ std
 :
 make_unique
 <
-video_coding
-:
-:
 RtpFrameReferenceFinder
 >
 (
@@ -4653,9 +4644,6 @@ std
 :
 make_unique
 <
-video_coding
-:
-:
 RtpFrameReferenceFinder
 >
 (

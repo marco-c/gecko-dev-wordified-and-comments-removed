@@ -26,9 +26,6 @@ h
 namespace
 webrtc
 {
-namespace
-video_coding
-{
 RtpFrameReferenceFinder
 :
 :
@@ -43,6 +40,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 RtpFrameObject
 >
 frame
@@ -83,6 +83,9 @@ res
 ;
 if
 (
+video_coding
+:
+:
 EncodedFrame
 :
 :
@@ -184,6 +187,5 @@ frame
 return
 res
 ;
-}
 }
 }

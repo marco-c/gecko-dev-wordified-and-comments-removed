@@ -271,9 +271,6 @@ class
 NullCallback
 :
 public
-video_coding
-:
-:
 OnCompleteFrameCallback
 {
 void
@@ -496,9 +493,6 @@ size
 NullCallback
 cb
 ;
-video_coding
-:
-:
 RtpFrameReferenceFinder
 reference_finder
 (

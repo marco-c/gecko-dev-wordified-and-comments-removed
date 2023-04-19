@@ -112,6 +112,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 RtpFrameObject
 >
 CreateFrame
@@ -161,6 +164,9 @@ std
 :
 make_unique
 <
+video_coding
+:
+:
 RtpFrameObject
 >
 (
@@ -264,6 +270,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 EncodedFrame
 >
 frame
@@ -402,6 +411,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 RtpFrameObject
 >
 frame
@@ -448,6 +460,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 RtpFrameObject
 >
 frame
@@ -867,6 +882,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 EncodedFrame
 >
 FrameComp
@@ -1828,6 +1846,9 @@ std
 :
 unique_ptr
 <
+video_coding
+:
+:
 RtpFrameObject
 >
 frame
