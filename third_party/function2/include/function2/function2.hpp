@@ -7364,10 +7364,9 @@ Allocator
 {
 if
 (
-bool
-(
+!
+!
 callable
-)
 )
 {
 vtable_t
