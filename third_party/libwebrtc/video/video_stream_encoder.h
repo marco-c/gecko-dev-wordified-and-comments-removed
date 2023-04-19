@@ -1824,6 +1824,10 @@ RTC_GUARDED_BY
 main_queue_
 )
 ;
+const
+bool
+default_limits_allowed_
+;
 rtc
 :
 :
