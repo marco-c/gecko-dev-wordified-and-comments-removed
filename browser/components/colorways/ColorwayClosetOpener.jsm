@@ -99,11 +99,6 @@ resizable
 =
 no
 "
-sizeTo
-:
-"
-available
-"
 }
 )
 ;
