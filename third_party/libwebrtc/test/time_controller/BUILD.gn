@@ -489,6 +489,17 @@ rtc_base
 /
 rtc_base
 :
+location
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 macromagic
 "
 "
