@@ -403,7 +403,7 @@ All
 of
 the
 above
-comands
+commands
 can
 be
 put

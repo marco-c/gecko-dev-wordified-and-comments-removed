@@ -107,7 +107,7 @@ icons
 that
 depict
 accessibility
-isses
+issues
 .
 accessibility
 -

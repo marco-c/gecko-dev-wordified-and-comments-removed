@@ -154,7 +154,7 @@ in
 the
 form
 of
-discreet
+discrete
 HTTPS
 '
 pings

@@ -6853,7 +6853,7 @@ prefs
 )
 are
 used
-throughtout
+throughout
 Gecko
 to
 configure

@@ -545,7 +545,7 @@ on
 these
 events
 for
-corectness
+correctness
 the
 API
 must
