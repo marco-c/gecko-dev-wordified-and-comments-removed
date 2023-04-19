@@ -469,7 +469,7 @@ false
 bool
 use_conservative_tail_frequency_response
 =
-false
+true
 ;
 }
 ep_strength
