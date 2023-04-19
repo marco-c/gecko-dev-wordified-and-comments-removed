@@ -337,6 +337,13 @@ jsm
 "
 tests
 /
+BackgroundTask_not_ephemeral_profile
+.
+jsm
+"
+"
+tests
+/
 BackgroundTask_policies
 .
 jsm
