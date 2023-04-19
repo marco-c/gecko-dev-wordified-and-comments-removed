@@ -8414,6 +8414,12 @@ IsBlockFrameOrSubclass
 )
 const
 ;
+bool
+IsImageFrameOrSubclass
+(
+)
+const
+;
 inline
 bool
 IsSVGGeometryFrameOrSubclass
