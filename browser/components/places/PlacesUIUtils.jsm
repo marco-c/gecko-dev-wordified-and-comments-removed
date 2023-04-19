@@ -2030,6 +2030,11 @@ false
 {
 let
 topUndoEntry
+;
+let
+batchBlockingDeferred
+;
+topUndoEntry
 =
 lazy
 .
@@ -2037,7 +2042,6 @@ PlacesTransactions
 .
 topUndoEntry
 ;
-let
 batchBlockingDeferred
 =
 lazy
@@ -2048,9 +2052,6 @@ defer
 (
 )
 ;
-let
-batchCompletePromise
-=
 lazy
 .
 PlacesTransactions
@@ -2146,16 +2147,6 @@ resolve
 (
 )
 ;
-await
-batchCompletePromise
-.
-catch
-(
-console
-.
-error
-)
-;
 if
 (
 !
@@ -2172,7 +2163,6 @@ PlacesTransactions
 topUndoEntry
 )
 {
-await
 lazy
 .
 PlacesTransactions
