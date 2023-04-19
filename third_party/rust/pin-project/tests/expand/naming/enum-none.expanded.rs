@@ -83,6 +83,13 @@ unreachable_pub
 [
 allow
 (
+unused_tuple_struct_fields
+)
+]
+#
+[
+allow
+(
 clippy
 :
 :

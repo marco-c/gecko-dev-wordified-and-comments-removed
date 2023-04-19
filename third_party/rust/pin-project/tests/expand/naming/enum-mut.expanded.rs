@@ -86,6 +86,13 @@ unreachable_pub
 [
 allow
 (
+unused_tuple_struct_fields
+)
+]
+#
+[
+allow
+(
 clippy
 :
 :
@@ -258,6 +265,13 @@ unreachable_pub
 [
 allow
 (
+unused_tuple_struct_fields
+)
+]
+#
+[
+allow
+(
 clippy
 :
 :
@@ -362,6 +376,13 @@ T
 U
 >
 {
+#
+[
+allow
+(
+dead_code
+)
+]
 fn
 project
 <
@@ -415,6 +436,7 @@ unpinned
 }
 =
 >
+{
 Proj
 :
 :
@@ -436,6 +458,7 @@ new_unchecked
 pinned
 )
 unpinned
+}
 }
 Self
 :

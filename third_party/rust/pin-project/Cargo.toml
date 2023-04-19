@@ -125,7 +125,7 @@ version
 .
 0
 .
-10
+12
 "
 exclude
 =
@@ -147,6 +147,8 @@ tools
 description
 =
 "
+"
+"
 A
 crate
 for
@@ -157,8 +159,15 @@ pin
 -
 projection
 .
-\
-n
+"
+"
+"
+readme
+=
+"
+README
+.
+md
 "
 keywords
 =
@@ -256,7 +265,7 @@ version
 .
 0
 .
-10
+12
 "
 [
 dev
@@ -272,7 +281,7 @@ version
 .
 0
 .
-8
+9
 "
 [
 dev
