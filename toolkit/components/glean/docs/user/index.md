@@ -30,7 +30,11 @@ Getting
 Started
 ]
 (
+.
+/
 getting_started
+.
+md
 )
 docs
 .
