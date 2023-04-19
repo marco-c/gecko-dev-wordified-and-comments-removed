@@ -47,9 +47,7 @@ class
 VideoFrameTrackingIdInjector
 :
 public
-EncodedImageDataInjector
-public
-EncodedImageDataExtractor
+EncodedImageDataPropagator
 {
 public
 :
