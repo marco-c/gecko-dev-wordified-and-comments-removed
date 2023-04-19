@@ -19001,7 +19001,7 @@ if
 (
 is
 <
-InlineTypedObject
+WasmStructObject
 >
 (
 )
@@ -19013,7 +19013,7 @@ descr
 =
 as
 <
-InlineTypedObject
+WasmStructObject
 >
 (
 )
@@ -19033,7 +19033,7 @@ descr
 )
 ;
 return
-InlineTypedObject
+WasmStructObject
 :
 :
 allocKindForRttValue
@@ -19047,14 +19047,14 @@ if
 (
 is
 <
-OutlineTypedObject
+WasmArrayObject
 >
 (
 )
 )
 {
 return
-OutlineTypedObject
+WasmArrayObject
 :
 :
 allocKind

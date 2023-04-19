@@ -8456,16 +8456,6 @@ wasm
 )
 "
 ;
-case
-SymbolicAddress
-:
-:
-InlineTypedObjectClass
-:
-MOZ_CRASH
-(
-)
-;
 #
 define
 OP

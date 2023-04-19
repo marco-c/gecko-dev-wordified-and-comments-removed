@@ -6659,11 +6659,11 @@ emitGcStructSet
 RegRef
 object
 RegPtr
-data
-const
-StructField
-&
-field
+areaBase
+uint32_t
+areaOffset
+FieldType
+fieldType
 AnyReg
 value
 )

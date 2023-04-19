@@ -152,7 +152,6 @@ ArrayNew
 ArrayNewData
 ArrayNewElem
 ArrayCopy
-InlineTypedObjectClass
 #
 define
 DECL_INTRINSIC_SA
