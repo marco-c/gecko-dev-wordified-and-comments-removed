@@ -1281,6 +1281,13 @@ Nothing
 nullptr
 storageAccess
 isThirdPartyContextToTopWindow
+nsContentUtils
+:
+:
+ShouldResistFingerprinting
+(
+principal
+)
 OriginTrials
 (
 )

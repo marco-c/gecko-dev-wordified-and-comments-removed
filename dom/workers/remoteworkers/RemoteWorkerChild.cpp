@@ -1856,12 +1856,10 @@ info
 .
 mShouldResistFingerprinting
 =
-nsContentUtils
-:
-:
-ShouldResistFingerprinting
+aData
+.
+shouldResistFingerprinting
 (
-principal
 )
 ;
 net

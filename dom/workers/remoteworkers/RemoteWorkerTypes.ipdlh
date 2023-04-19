@@ -378,6 +378,9 @@ storageAccess
 bool
 isThirdPartyContextToTopWindow
 ;
+bool
+shouldResistFingerprinting
+;
 OriginTrials
 originTrials
 ;
