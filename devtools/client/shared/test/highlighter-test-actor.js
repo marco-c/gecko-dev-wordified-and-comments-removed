@@ -93,16 +93,6 @@ js
 EventUtils
 )
 ;
-var
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
 const
 {
 TestUtils

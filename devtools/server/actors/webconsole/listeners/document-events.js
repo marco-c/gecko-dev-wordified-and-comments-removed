@@ -32,16 +32,6 @@ chrome
 )
 ;
 const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-const
 WILL_NAVIGATE_TIME_SHIFT
 =
 20

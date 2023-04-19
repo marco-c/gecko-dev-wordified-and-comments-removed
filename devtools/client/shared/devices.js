@@ -39,16 +39,6 @@ properties
 )
 ;
 const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-const
 {
 RemoteSettings
 }

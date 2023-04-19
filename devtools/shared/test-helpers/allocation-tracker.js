@@ -18,16 +18,6 @@ chrome
 )
 ;
 const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-const
 MemoryReporter
 =
 Cc

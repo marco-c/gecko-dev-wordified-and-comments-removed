@@ -69,16 +69,6 @@ lazyRequireGetter
 (
 this
 "
-ChromeUtils
-"
-)
-;
-loader
-.
-lazyRequireGetter
-(
-this
-"
 ObjectUtils
 "
 "

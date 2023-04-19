@@ -15,16 +15,6 @@ chrome
 "
 )
 ;
-const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
 function
 ConsoleReflowListener
 (

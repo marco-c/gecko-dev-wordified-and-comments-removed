@@ -122,16 +122,6 @@ lazyRequireGetter
 (
 this
 "
-ChromeUtils
-"
-)
-;
-loader
-.
-lazyRequireGetter
-(
-this
-"
 ParentProcessTargetActor
 "
 "

@@ -3,16 +3,6 @@ use
 strict
 "
 ;
-var
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
 exports
 .
 setupParent

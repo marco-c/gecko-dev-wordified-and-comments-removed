@@ -40,16 +40,6 @@ chrome
 )
 ;
 const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-const
 isEveryFrameTargetEnabled
 =
 Services

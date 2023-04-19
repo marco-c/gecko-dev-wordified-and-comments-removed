@@ -302,16 +302,6 @@ sheet
 true
 )
 ;
-loader
-.
-lazyRequireGetter
-(
-this
-"
-ChromeUtils
-"
-)
-;
 const
 XHTML_NS
 =

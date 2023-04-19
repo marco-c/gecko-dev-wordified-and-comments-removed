@@ -4,16 +4,6 @@ strict
 "
 ;
 const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-const
 protocol
 =
 require

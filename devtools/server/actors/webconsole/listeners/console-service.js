@@ -34,16 +34,6 @@ utils
 )
 ;
 const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-const
 {
 WebConsoleUtils
 }

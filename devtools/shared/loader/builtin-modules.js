@@ -477,7 +477,6 @@ exports
 modules
 =
 {
-ChromeUtils
 DebuggerNotificationObserver
 HeapSnapshot
 InspectorUtils
@@ -655,6 +654,7 @@ atob
 Blob
 btoa
 CanonicalBrowsingContext
+ChromeUtils
 BrowsingContext
 WebExtensionPolicy
 WindowGlobalParent

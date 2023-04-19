@@ -53,16 +53,6 @@ chrome
 )
 ;
 const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-const
 {
 DevToolsServer
 }

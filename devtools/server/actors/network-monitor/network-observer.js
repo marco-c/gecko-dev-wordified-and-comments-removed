@@ -21,16 +21,6 @@ chrome
 "
 )
 ;
-const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
 loader
 .
 lazyRequireGetter

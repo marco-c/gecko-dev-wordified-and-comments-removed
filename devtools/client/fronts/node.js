@@ -82,16 +82,6 @@ constants
 )
 ;
 const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-const
 {
 XPCOMUtils
 }

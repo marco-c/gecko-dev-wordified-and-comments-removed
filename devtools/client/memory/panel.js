@@ -20,16 +20,6 @@ emitter
 )
 ;
 const
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
-const
 HeapAnalysesClient
 =
 require

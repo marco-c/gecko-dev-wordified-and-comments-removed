@@ -57,16 +57,6 @@ messages
 "
 )
 ;
-var
-ChromeUtils
-=
-require
-(
-"
-ChromeUtils
-"
-)
-;
 const
 {
 BrowserLoader
