@@ -82,9 +82,9 @@ include
 "
 api
 /
-video_codecs
+video
 /
-video_codec
+video_codec_type
 .
 h
 "
@@ -557,9 +557,7 @@ AddReceiveCodec
 (
 uint8_t
 payload_type
-const
-VideoCodec
-&
+VideoCodecType
 video_codec
 const
 std
