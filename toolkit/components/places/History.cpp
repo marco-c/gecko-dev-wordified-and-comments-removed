@@ -5798,14 +5798,9 @@ rv
 ;
 if
 (
-!
 exists
 )
 {
-return
-NS_OK
-;
-}
 rv
 =
 stmt
@@ -5826,6 +5821,7 @@ rv
 rv
 )
 ;
+}
 aPlace
 .
 source
