@@ -1641,7 +1641,7 @@ opts
 webrender
 :
 :
-WebRenderOptions
+RendererOptions
 {
 workers
 :

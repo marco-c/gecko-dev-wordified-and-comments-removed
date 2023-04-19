@@ -59,9 +59,6 @@ renderer
 {
 FullFrameStats
 MAX_VERTEX_TEXTURE_WIDTH
-init
-:
-:
 wr_has_been_initialized
 }
 ;

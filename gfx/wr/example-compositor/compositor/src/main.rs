@@ -2000,7 +2000,7 @@ opts
 webrender
 :
 :
-WebRenderOptions
+RendererOptions
 {
 clear_color
 :
@@ -2032,7 +2032,7 @@ false
 webrender
 :
 :
-WebRenderOptions
+RendererOptions
 :
 :
 default

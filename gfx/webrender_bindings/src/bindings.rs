@@ -354,7 +354,7 @@ PipelineInfo
 ProfilerHooks
 RecordedFrameHandle
 Renderer
-WebRenderOptions
+RendererOptions
 RendererStats
 SWGLCompositeSurfaceInfo
 SceneBuilderHooks
@@ -364,7 +364,6 @@ SharedShaders
 TextureCacheConfig
 UploadMethod
 WindowVisibility
-create_webrender_instance
 ONE_TIME_USAGE_HINT
 }
 ;
@@ -8009,7 +8008,7 @@ alpha16_texture_size
 let
 opts
 =
-WebRenderOptions
+RendererOptions
 {
 enable_aa
 :
@@ -8281,7 +8280,10 @@ sender
 )
 =
 match
-create_webrender_instance
+Renderer
+:
+:
+new
 (
 gl
 notifier
@@ -19104,7 +19106,7 @@ ASYNC_COMPILE
 let
 opts
 =
-WebRenderOptions
+RendererOptions
 {
 precache_flags
 .
