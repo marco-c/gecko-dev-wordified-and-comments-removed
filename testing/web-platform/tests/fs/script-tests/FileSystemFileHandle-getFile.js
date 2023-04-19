@@ -164,6 +164,10 @@ const
 writer
 =
 await
+cleanup_writable
+(
+t
+await
 handle
 .
 createWritable
@@ -173,6 +177,7 @@ keepExistingData
 :
 false
 }
+)
 )
 ;
 await

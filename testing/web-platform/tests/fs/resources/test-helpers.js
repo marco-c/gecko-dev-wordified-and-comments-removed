@@ -527,7 +527,10 @@ async
 >
 {
 return
+(
+await
 value
+)
 .
 close
 (
