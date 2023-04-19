@@ -388,11 +388,6 @@ for_test_no_time_stretching
 =
 false
 ;
-int
-extra_output_delay_ms
-=
-0
-;
 }
 ;
 enum

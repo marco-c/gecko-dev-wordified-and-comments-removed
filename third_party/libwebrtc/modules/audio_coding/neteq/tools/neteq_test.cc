@@ -568,11 +568,6 @@ simulation_ended_callback
 SimulationEnded
 (
 simulation_time
-neteq_
-.
-get
-(
-)
 )
 ;
 }
