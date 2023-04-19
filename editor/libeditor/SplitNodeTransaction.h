@@ -232,7 +232,11 @@ SplitNodeTransaction
 default
 ;
 MOZ_CAN_RUN_SCRIPT
+Result
+<
 SplitNodeResult
+nsresult
+>
 DoTransactionInternal
 (
 HTMLEditor
