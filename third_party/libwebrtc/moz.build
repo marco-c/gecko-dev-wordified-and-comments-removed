@@ -1631,16 +1631,6 @@ libwebrtc
 /
 media
 /
-rtc_h264_profile_id_gn
-"
-"
-/
-third_party
-/
-libwebrtc
-/
-media
-/
 rtc_internal_video_codecs_gn
 "
 "
