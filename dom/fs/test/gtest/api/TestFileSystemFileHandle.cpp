@@ -140,6 +140,16 @@ File
 _ns
 )
 ;
+mActor
+=
+MakeAndAddRef
+<
+FileSystemActorHolder
+>
+(
+nullptr
+)
+;
 }
 nsIGlobalObject
 *
@@ -157,6 +167,12 @@ mRequestHandler
 ;
 FileSystemEntryMetadata
 mMetadata
+;
+RefPtr
+<
+FileSystemActorHolder
+>
+mActor
 ;
 }
 ;
@@ -178,6 +194,7 @@ FileSystemFileHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 mRequestHandler
 .
@@ -210,6 +227,7 @@ FileSystemFileHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 mRequestHandler
 .
@@ -256,6 +274,7 @@ FileSystemFileHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 mRequestHandler
 .
@@ -319,6 +338,7 @@ FileSystemFileHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 mRequestHandler
 .
@@ -378,6 +398,7 @@ FileSystemFileHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 mRequestHandler
 .
@@ -445,6 +466,7 @@ FileSystemFileHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 mRequestHandler
 .
@@ -508,6 +530,7 @@ FileSystemFileHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 mRequestHandler
 .
@@ -571,6 +594,7 @@ FileSystemFileHandle
 >
 (
 mGlobal
+mActor
 mMetadata
 mRequestHandler
 .

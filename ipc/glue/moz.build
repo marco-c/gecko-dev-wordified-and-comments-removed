@@ -34,6 +34,11 @@ ipc
 =
 [
 "
+ActorHolder
+.
+h
+"
+"
 AsyncBlockers
 .
 h

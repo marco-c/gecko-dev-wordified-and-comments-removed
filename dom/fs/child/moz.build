@@ -11,6 +11,11 @@ BackgroundFileSystemChild
 .
 h
 "
+"
+OriginPrivateFileSystemChild
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
