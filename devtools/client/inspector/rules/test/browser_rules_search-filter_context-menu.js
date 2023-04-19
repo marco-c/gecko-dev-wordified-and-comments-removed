@@ -357,6 +357,13 @@ disabled
 "
 )
 ;
+if
+(
+isWindows
+(
+)
+)
+{
 is
 (
 cmdPaste
@@ -377,6 +384,7 @@ disabled
 "
 )
 ;
+}
 info
 (
 "
