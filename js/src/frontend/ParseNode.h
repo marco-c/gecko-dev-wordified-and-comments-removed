@@ -6105,6 +6105,9 @@ toAtom
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomsTable
 &
 parserAtoms

@@ -52,6 +52,9 @@ h
 namespace
 js
 {
+class
+ErrorContext
+;
 namespace
 frontend
 {
@@ -2058,6 +2061,9 @@ frontend
 ParserAtomsTable
 &
 parserAtoms
+ErrorContext
+*
+ec
 )
 ;
 char16_t

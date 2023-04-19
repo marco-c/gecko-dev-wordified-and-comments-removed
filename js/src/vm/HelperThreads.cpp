@@ -4428,6 +4428,7 @@ stencilInput_
 initForGlobal
 (
 cx
+ec
 )
 )
 {

@@ -242,6 +242,15 @@ include
 "
 vm
 /
+ErrorContext
+.
+h
+"
+#
+include
+"
+vm
+/
 FrameIter
 .
 h
@@ -2609,6 +2618,9 @@ TokenStreamCharsBase
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomsTable
 *
 parserAtoms
@@ -2625,6 +2637,7 @@ startOffset
 TokenStreamCharsShared
 (
 cx
+ec
 parserAtoms
 )
 sourceUnits
@@ -2955,6 +2968,9 @@ TokenStreamSpecific
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ParserAtomsTable
 *
 parserAtoms
@@ -2977,6 +2993,7 @@ AnyCharsAccess
 >
 (
 cx
+ec
 parserAtoms
 units
 length

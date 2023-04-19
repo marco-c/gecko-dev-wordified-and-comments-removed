@@ -41012,6 +41012,7 @@ NumericLiteral
 toAtom
 (
 cx
+ec
 parserAtoms
 (
 )
@@ -41234,6 +41235,7 @@ NumericLiteral
 toAtom
 (
 cx
+ec
 parserAtoms
 (
 )
@@ -44592,6 +44594,7 @@ finishParserAtom
 parserAtoms
 (
 )
+ec
 )
 ;
 if
@@ -54128,6 +54131,7 @@ sharedData
 addAndShare
 (
 cx
+ec
 scriptIndex
 sharedData
 )

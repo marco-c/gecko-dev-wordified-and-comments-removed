@@ -983,6 +983,9 @@ SetSourceOptions
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ScriptSource
 *
 source
@@ -1051,6 +1054,7 @@ source
 setDisplayURL
 (
 cx
+ec
 std
 :
 :
@@ -1111,6 +1115,7 @@ source
 setSourceMapURL
 (
 cx
+ec
 std
 :
 :

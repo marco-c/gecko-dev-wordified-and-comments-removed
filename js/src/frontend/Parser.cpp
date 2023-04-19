@@ -1177,6 +1177,7 @@ syntaxParser
 tokenStream
 (
 cx
+ec
 &
 compilationState
 .
@@ -1774,6 +1775,7 @@ ss
 setDisplayURL
 (
 cx_
+ec_
 anyChars
 .
 displayURL
@@ -1816,6 +1818,7 @@ ss
 setSourceMapURL
 (
 cx_
+ec_
 anyChars
 .
 sourceMapURL
@@ -1885,6 +1888,7 @@ ss
 setSourceMapURL
 (
 cx_
+ec_
 options
 (
 )
@@ -12952,6 +12956,7 @@ this
 parserAtoms
 (
 )
+ec_
 )
 ;
 }
@@ -37606,6 +37611,7 @@ this
 parserAtoms
 (
 )
+ec_
 )
 ;
 if
@@ -51978,6 +51984,7 @@ parserAtoms
 internChar16
 (
 cx_
+ec_
 chars
 .
 begin
@@ -53639,6 +53646,7 @@ numAtom
 NumberToParserAtom
 (
 cx_
+ec_
 this
 -
 >

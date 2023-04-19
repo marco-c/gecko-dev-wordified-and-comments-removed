@@ -2604,6 +2604,9 @@ initScriptSource
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 )
 ;
 public
@@ -2614,6 +2617,9 @@ initForGlobal
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 )
 {
 target
@@ -2627,6 +2633,7 @@ return
 initScriptSource
 (
 cx
+ec
 )
 ;
 }
@@ -2645,10 +2652,18 @@ CompilationTarget
 :
 SelfHosting
 ;
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 return
 initScriptSource
 (
 cx
+&
+ec
 )
 ;
 }
@@ -2658,6 +2673,9 @@ initForStandaloneFunction
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 )
 {
 target
@@ -2673,6 +2691,7 @@ if
 initScriptSource
 (
 cx
+ec
 )
 )
 {
@@ -2708,6 +2727,9 @@ initForStandaloneFunctionInNonSyntacticScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 Handle
 <
 Scope
@@ -2722,6 +2744,9 @@ initForEval
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 Handle
 <
 Scope
@@ -2743,6 +2768,7 @@ if
 initScriptSource
 (
 cx
+ec
 )
 )
 {
@@ -2767,6 +2793,9 @@ initForModule
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 )
 {
 target
@@ -2782,6 +2811,7 @@ if
 initScriptSource
 (
 cx
+ec
 )
 )
 {
@@ -4272,6 +4302,9 @@ addAndShare
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ScriptIndex
 index
 js

@@ -4678,6 +4678,9 @@ Int32ToParserAtom
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 frontend
 :
 :
@@ -4748,6 +4751,7 @@ parserAtoms
 internAscii
 (
 cx
+ec
 start
 length
 )
@@ -9792,6 +9796,9 @@ NumberToParserAtom
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 frontend
 :
 :
@@ -9819,6 +9826,7 @@ return
 Int32ToParserAtom
 (
 cx
+ec
 parserAtoms
 si
 )
@@ -9894,6 +9902,7 @@ parserAtoms
 internAscii
 (
 cx
+ec
 numStr
 length
 )

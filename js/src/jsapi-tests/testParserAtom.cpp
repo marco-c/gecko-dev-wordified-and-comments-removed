@@ -60,6 +60,15 @@ tests
 .
 h
 "
+#
+include
+"
+vm
+/
+ErrorContext
+.
+h
+"
 BEGIN_TEST
 (
 testParserAtom_empty
@@ -100,6 +109,15 @@ frontend
 :
 :
 TaggedParserAtomIndex
+;
+js
+:
+:
+MainThreadErrorContext
+ec
+(
+cx
+)
 ;
 js
 :
@@ -184,6 +202,8 @@ atomTable
 internAscii
 (
 cx
+&
+ec
 ascii
 0
 )
@@ -199,6 +219,8 @@ atomTable
 internLatin1
 (
 cx
+&
+ec
 latin1
 0
 )
@@ -214,6 +236,8 @@ atomTable
 internUtf8
 (
 cx
+&
+ec
 utf8
 0
 )
@@ -229,6 +253,8 @@ atomTable
 internChar16
 (
 cx
+&
+ec
 char16
 0
 )
@@ -276,6 +302,15 @@ frontend
 :
 :
 ParserAtomVector
+;
+js
+:
+:
+MainThreadErrorContext
+ec
+(
+cx
+)
 ;
 js
 :
@@ -396,6 +431,8 @@ atomTable
 internAscii
 (
 cx
+&
+ec
 ascii
 1
 )
@@ -411,6 +448,8 @@ atomTable
 internLatin1
 (
 cx
+&
+ec
 latin1
 1
 )
@@ -426,6 +465,8 @@ atomTable
 internUtf8
 (
 cx
+&
+ec
 utf8
 1
 )
@@ -441,6 +482,8 @@ atomTable
 internChar16
 (
 cx
+&
+ec
 char16
 1
 )
@@ -488,6 +531,15 @@ frontend
 :
 :
 ParserAtomVector
+;
+js
+:
+:
+MainThreadErrorContext
+ec
+(
+cx
+)
 ;
 js
 :
@@ -610,6 +662,8 @@ atomTable
 internLatin1
 (
 cx
+&
+ec
 latin1
 1
 )
@@ -625,6 +679,8 @@ atomTable
 internUtf8
 (
 cx
+&
+ec
 utf8
 2
 )
@@ -640,6 +696,8 @@ atomTable
 internChar16
 (
 cx
+&
+ec
 char16
 1
 )
@@ -749,6 +807,8 @@ atomTable
 internLatin1
 (
 cx
+&
+ec
 latin1
 1
 )
@@ -764,6 +824,8 @@ atomTable
 internUtf8
 (
 cx
+&
+ec
 utf8
 2
 )
@@ -779,6 +841,8 @@ atomTable
 internChar16
 (
 cx
+&
+ec
 char16
 1
 )
@@ -888,6 +952,8 @@ atomTable
 internLatin1
 (
 cx
+&
+ec
 latin1
 1
 )
@@ -903,6 +969,8 @@ atomTable
 internUtf8
 (
 cx
+&
+ec
 utf8
 2
 )
@@ -918,6 +986,8 @@ atomTable
 internChar16
 (
 cx
+&
+ec
 char16
 1
 )
@@ -1027,6 +1097,8 @@ atomTable
 internLatin1
 (
 cx
+&
+ec
 latin1
 1
 )
@@ -1042,6 +1114,8 @@ atomTable
 internUtf8
 (
 cx
+&
+ec
 utf8
 2
 )
@@ -1057,6 +1131,8 @@ atomTable
 internChar16
 (
 cx
+&
+ec
 char16
 1
 )
@@ -1166,6 +1242,8 @@ atomTable
 internLatin1
 (
 cx
+&
+ec
 latin1
 1
 )
@@ -1181,6 +1259,8 @@ atomTable
 internUtf8
 (
 cx
+&
+ec
 utf8
 2
 )
@@ -1196,6 +1276,8 @@ atomTable
 internChar16
 (
 cx
+&
+ec
 char16
 1
 )
@@ -1305,6 +1387,8 @@ atomTable
 internLatin1
 (
 cx
+&
+ec
 latin1
 1
 )
@@ -1320,6 +1404,8 @@ atomTable
 internUtf8
 (
 cx
+&
+ec
 utf8
 2
 )
@@ -1335,6 +1421,8 @@ atomTable
 internChar16
 (
 cx
+&
+ec
 char16
 1
 )
@@ -1374,6 +1462,15 @@ frontend
 :
 :
 ParserAtomsTable
+;
+js
+:
+:
+MainThreadErrorContext
+ec
+(
+cx
+)
 ;
 js
 :
@@ -1607,6 +1704,8 @@ atomTable
 internLatin1
 (
 cx
+&
+ec
 latin1
 1
 )
@@ -1701,6 +1800,8 @@ atomTable
 internLatin1
 (
 cx
+&
+ec
 latin1
 1
 )
@@ -1921,6 +2022,8 @@ atomTable
 internLatin1
 (
 cx
+&
+ec
 latin1
 1
 )
@@ -2015,6 +2118,8 @@ atomTable
 internLatin1
 (
 cx
+&
+ec
 latin1
 1
 )
@@ -2382,6 +2487,15 @@ ParserAtomVector
 js
 :
 :
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
+js
+:
+:
 LifoAlloc
 alloc
 (
@@ -2508,6 +2622,8 @@ atomTable
 internAscii
 (
 cx
+&
+ec
 ascii
 2
 )
@@ -2523,6 +2639,8 @@ atomTable
 internLatin1
 (
 cx
+&
+ec
 latin1
 2
 )
@@ -2538,6 +2656,8 @@ atomTable
 internUtf8
 (
 cx
+&
+ec
 utf8
 2
 )
@@ -2553,6 +2673,8 @@ atomTable
 internChar16
 (
 cx
+&
+ec
 char16
 2
 )
@@ -2637,6 +2759,15 @@ ParserAtomVector
 js
 :
 :
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
+js
+:
+:
 LifoAlloc
 alloc
 (
@@ -2782,6 +2913,8 @@ atomTable
 internAscii
 (
 cx
+&
+ec
 ascii
 3
 )
@@ -2797,6 +2930,8 @@ atomTable
 internLatin1
 (
 cx
+&
+ec
 latin1
 3
 )
@@ -2812,6 +2947,8 @@ atomTable
 internUtf8
 (
 cx
+&
+ec
 utf8
 3
 )
@@ -2827,6 +2964,8 @@ atomTable
 internChar16
 (
 cx
+&
+ec
 char16
 3
 )
@@ -2963,6 +3102,8 @@ atomTable
 internAscii
 (
 cx
+&
+ec
 ascii
 3
 )
@@ -2978,6 +3119,8 @@ atomTable
 internLatin1
 (
 cx
+&
+ec
 latin1
 3
 )
@@ -2993,6 +3136,8 @@ atomTable
 internUtf8
 (
 cx
+&
+ec
 utf8
 3
 )
@@ -3008,6 +3153,8 @@ atomTable
 internChar16
 (
 cx
+&
+ec
 char16
 3
 )

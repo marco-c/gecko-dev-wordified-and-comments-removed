@@ -646,6 +646,7 @@ parserAtoms
 internExternalParserAtomIndex
 (
 cx
+ec
 ref
 .
 context_
@@ -4063,6 +4064,9 @@ initScriptSource
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 )
 {
 source
@@ -4097,6 +4101,7 @@ source
 initFromOptions
 (
 cx
+ec
 options
 )
 ;
@@ -4110,6 +4115,9 @@ initForStandaloneFunctionInNonSyntacticScope
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 Handle
 <
 Scope
@@ -4149,6 +4157,7 @@ if
 initScriptSource
 (
 cx
+ec
 )
 )
 {
@@ -12875,6 +12884,9 @@ addAndShare
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 ScriptIndex
 index
 js
@@ -12929,6 +12941,7 @@ SharedImmutableScriptData
 shareScriptData
 (
 cx
+ec
 ref
 )
 )
@@ -12980,6 +12993,7 @@ SharedImmutableScriptData
 shareScriptData
 (
 cx
+ec
 vec
 [
 index
@@ -13033,6 +13047,7 @@ SharedImmutableScriptData
 shareScriptData
 (
 cx
+ec
 p
 -
 >
@@ -14324,6 +14339,7 @@ parserAtoms
 addPlaceholder
 (
 cx
+ec
 )
 )
 {
@@ -14342,6 +14358,7 @@ parserAtoms
 internExternalParserAtom
 (
 cx
+ec
 entry
 )
 ;
@@ -15002,6 +15019,7 @@ parserAtoms
 addPlaceholder
 (
 cx
+ec
 )
 )
 {
@@ -15020,6 +15038,7 @@ parserAtoms
 internExternalParserAtom
 (
 cx
+ec
 entry
 )
 ;
@@ -23799,6 +23818,7 @@ parserAtoms
 internExternalParserAtom
 (
 cx
+ec
 atom
 )
 ;

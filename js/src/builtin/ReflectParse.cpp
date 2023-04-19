@@ -24577,6 +24577,8 @@ get
 initForGlobal
 (
 cx
+&
+ec
 )
 )
 {
@@ -24599,6 +24601,8 @@ get
 initForModule
 (
 cx
+&
+ec
 )
 )
 {
