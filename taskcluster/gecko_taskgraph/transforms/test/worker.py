@@ -1631,7 +1631,7 @@ osx
 "
     
 "
-macosx1014
+macosx1015
 -
 64
 -
@@ -1643,7 +1643,7 @@ t
 -
 osx
 -
-1014
+1015
 -
 power
 "
@@ -1841,7 +1841,7 @@ type
 MACOSX_WORKER_TYPES
 [
 "
-macosx1014
+macosx1015
 -
 64
 -
