@@ -1643,16 +1643,6 @@ blank_detector_desktop_capturer_wrapper
 h
 "
 "
-capture_result_desktop_capturer_wrapper
-.
-cc
-"
-"
-capture_result_desktop_capturer_wrapper
-.
-h
-"
-"
 cropped_desktop_frame
 .
 cc
