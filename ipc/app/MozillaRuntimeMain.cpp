@@ -256,6 +256,16 @@ argv
 }
 else
 {
+SetGeckoProcessType
+(
+argv
+[
+argc
+-
+1
+]
+)
+;
 #
 ifdef
 HAS_DLL_BLOCKLIST

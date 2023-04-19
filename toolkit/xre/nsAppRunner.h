@@ -381,10 +381,6 @@ nsIFile
 aProfLD
 )
 ;
-extern
-GeckoProcessType
-sChildProcessType
-;
 void
 IncreaseDescriptorLimits
 (
