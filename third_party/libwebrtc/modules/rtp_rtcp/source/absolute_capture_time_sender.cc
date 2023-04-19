@@ -25,7 +25,7 @@ rtp_rtcp
 /
 source
 /
-absolute_capture_time_receiver
+absolute_capture_time_interpolator
 .
 h
 "
@@ -73,7 +73,7 @@ kInterpolationMaxError
 ;
 static_assert
 (
-AbsoluteCaptureTimeReceiver
+AbsoluteCaptureTimeInterpolator
 :
 :
 kInterpolationMaxInterval
@@ -138,7 +138,7 @@ csrcs
 )
 {
 return
-AbsoluteCaptureTimeReceiver
+AbsoluteCaptureTimeInterpolator
 :
 :
 GetSource
@@ -366,7 +366,7 @@ const
 uint64_t
 interpolated_absolute_capture_timestamp
 =
-AbsoluteCaptureTimeReceiver
+AbsoluteCaptureTimeInterpolator
 :
 :
 InterpolateAbsoluteCaptureTimestamp
