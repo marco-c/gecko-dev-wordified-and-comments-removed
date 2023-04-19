@@ -11,6 +11,10 @@ Toolbox
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ client
 framework
 /
 toolbox
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ getCurrentZoom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -36,6 +46,8 @@ shared
 layout
 /
 utils
+.
+js
 "
 )
 ;

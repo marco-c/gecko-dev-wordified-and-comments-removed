@@ -9,6 +9,10 @@ createStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ redux
 create
 -
 store
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ reducer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -40,6 +50,8 @@ target
 reducers
 /
 targets
+.
+js
 "
 )
 ;
@@ -49,6 +61,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -60,6 +76,8 @@ target
 actions
 /
 targets
+.
+js
 "
 )
 ;
@@ -72,6 +90,10 @@ getToolboxTargets
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -83,6 +105,8 @@ target
 selectors
 /
 targets
+.
+js
 "
 )
 ;

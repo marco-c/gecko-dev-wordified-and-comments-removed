@@ -241,6 +241,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -250,6 +254,8 @@ framework
 components
 /
 DebugTargetErrorPage
+.
+js
 "
 )
 )
@@ -389,6 +395,10 @@ gDevTools
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -396,6 +406,8 @@ client
 framework
 /
 devtools
+.
+js
 "
 )
 ;
@@ -407,6 +419,10 @@ descriptorFromURL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -418,6 +434,8 @@ descriptor
 from
 -
 url
+.
+js
 "
 )
 ;
@@ -429,6 +447,10 @@ Toolbox
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -436,6 +458,8 @@ client
 framework
 /
 toolbox
+.
+js
 "
 )
 ;

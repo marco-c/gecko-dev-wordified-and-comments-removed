@@ -35,6 +35,10 @@ gDevTools
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -42,6 +46,8 @@ client
 framework
 /
 devtools
+.
+js
 "
 )
 ;
@@ -51,6 +57,10 @@ Telemetry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -58,6 +68,8 @@ client
 shared
 /
 telemetry
+.
+js
 "
 )
 ;

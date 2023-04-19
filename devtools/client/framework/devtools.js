@@ -215,11 +215,17 @@ DefaultThemes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
 /
 definitions
+.
+js
 "
 )
 ;
@@ -229,6 +235,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -236,6 +246,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -251,6 +263,10 @@ removeThemeObserver
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -258,6 +274,8 @@ client
 shared
 /
 theme
+.
+js
 "
 )
 ;
@@ -2563,6 +2581,10 @@ BrowserConsoleManager
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -2574,6 +2596,8 @@ browser
 console
 -
 manager
+.
+js
 "
 )
 ;

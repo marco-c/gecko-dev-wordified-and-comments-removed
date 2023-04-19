@@ -36,6 +36,10 @@ gDevToolsBrowser
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -45,6 +49,8 @@ framework
 devtools
 -
 browser
+.
+js
 "
 )
 ;

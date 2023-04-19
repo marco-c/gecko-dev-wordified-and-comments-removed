@@ -110,6 +110,10 @@ Toolbox
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -117,6 +121,8 @@ client
 framework
 /
 toolbox
+.
+js
 "
 )
 ;
@@ -128,11 +134,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;

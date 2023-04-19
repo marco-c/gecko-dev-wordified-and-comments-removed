@@ -6,6 +6,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -13,6 +17,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
@@ -24,6 +30,10 @@ DevToolsClient
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -31,6 +41,8 @@ client
 devtools
 -
 client
+.
+js
 "
 )
 ;
@@ -42,6 +54,10 @@ createCommandsDictionary
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -49,6 +65,8 @@ shared
 commands
 /
 index
+.
+js
 "
 )
 ;

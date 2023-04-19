@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -84,6 +102,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -95,6 +117,8 @@ components
 menu
 /
 MenuButton
+.
+js
 "
 )
 )
@@ -107,6 +131,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -116,6 +144,8 @@ framework
 components
 /
 ToolboxTabs
+.
+js
 "
 )
 )
@@ -138,6 +168,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -147,6 +181,8 @@ framework
 components
 /
 MeatballMenu
+.
+js
 "
 )
 )
@@ -172,6 +208,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -183,6 +223,8 @@ components
 menu
 /
 MenuItem
+.
+js
 "
 )
 )
@@ -208,6 +250,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -219,6 +265,8 @@ components
 menu
 /
 MenuList
+.
+js
 "
 )
 )
@@ -244,6 +292,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -255,6 +307,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 .
@@ -281,6 +335,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -290,6 +348,8 @@ framework
 components
 /
 DebugTargetInfo
+.
+js
 "
 )
 )
@@ -312,6 +372,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -321,6 +385,8 @@ framework
 components
 /
 ChromeDebugToolbar
+.
+js
 "
 )
 )

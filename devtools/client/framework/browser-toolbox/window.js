@@ -56,6 +56,10 @@ gDevTools
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -63,6 +67,8 @@ client
 framework
 /
 devtools
+.
+js
 "
 )
 ;
@@ -74,6 +80,10 @@ Toolbox
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -81,6 +91,8 @@ client
 framework
 /
 toolbox
+.
+js
 "
 )
 ;
@@ -92,6 +104,10 @@ DevToolsClient
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -99,6 +115,8 @@ client
 devtools
 -
 client
+.
+js
 "
 )
 ;
@@ -110,6 +128,10 @@ PrefsHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -117,6 +139,8 @@ client
 shared
 /
 prefs
+.
+js
 "
 )
 ;
@@ -126,6 +150,10 @@ KeyShortcuts
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -135,6 +163,8 @@ shared
 key
 -
 shortcuts
+.
+js
 "
 )
 ;
@@ -146,11 +176,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;
@@ -244,6 +280,10 @@ CommandsFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -253,6 +293,8 @@ commands
 commands
 -
 factory
+.
+js
 "
 )
 ;

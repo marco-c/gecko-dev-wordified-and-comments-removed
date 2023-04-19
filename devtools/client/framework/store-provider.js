@@ -11,6 +11,10 @@ createProvider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;

@@ -523,6 +523,10 @@ toAbsoluteOrder
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -536,6 +540,8 @@ tabs
 order
 -
 manager
+.
+js
 "
 )
 ;

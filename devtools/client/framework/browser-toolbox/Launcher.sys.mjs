@@ -301,6 +301,10 @@ Telemetry
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -308,6 +312,8 @@ client
 shared
 /
 telemetry
+.
+js
 "
 )
 ;
@@ -317,6 +323,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -324,6 +334,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;

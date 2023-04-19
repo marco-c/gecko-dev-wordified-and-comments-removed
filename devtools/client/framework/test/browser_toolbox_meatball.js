@@ -11,6 +11,10 @@ focusableSelector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ client
 shared
 /
 focus
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ Toolbox
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -36,6 +46,8 @@ client
 framework
 /
 toolbox
+.
+js
 "
 )
 ;
