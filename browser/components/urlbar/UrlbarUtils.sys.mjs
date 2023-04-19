@@ -1650,15 +1650,11 @@ chrome
 :
 /
 /
-devtools
+browser
 /
 skin
 /
-images
-/
-command
--
-console
+quickactions
 .
 svg
 "
