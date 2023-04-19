@@ -143,9 +143,6 @@ utm_term
 "
 default
 "
-startScreen
-:
-0
 }
 ;
 beforeEach
@@ -958,9 +955,6 @@ utm_term
 "
 default
 "
-startScreen
-:
-0
 }
 ;
 const
@@ -1173,9 +1167,6 @@ utm_term
 flowParams
 :
 null
-startScreen
-:
-0
 }
 ;
 it

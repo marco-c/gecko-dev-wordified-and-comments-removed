@@ -761,9 +761,7 @@ react__WEBPACK_IMPORTED_MODULE_0__
 useState
 )
 (
-props
-.
-startScreen
+0
 )
 ;
 (
@@ -10212,14 +10210,6 @@ backdrop
 props
 .
 backdrop
-startScreen
-:
-props
-.
-startScreen
-|
-|
-0
 appAndSystemLocaleInfo
 :
 props
