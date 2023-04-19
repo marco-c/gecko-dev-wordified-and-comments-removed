@@ -6109,6 +6109,13 @@ SetIsVoid
 true
 )
 ;
+mLastInteractiveValue
+.
+SetIsVoid
+(
+true
+)
+;
 mTextCtrlElement
 =
 nullptr
