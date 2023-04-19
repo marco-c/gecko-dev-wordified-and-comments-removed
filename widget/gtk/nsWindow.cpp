@@ -6249,13 +6249,13 @@ prev
 ;
 }
 }
+WaylandStopVsync
+(
+)
+;
 gtk_widget_hide
 (
 mShell
-)
-;
-WaylandStopVsync
-(
 )
 ;
 }
