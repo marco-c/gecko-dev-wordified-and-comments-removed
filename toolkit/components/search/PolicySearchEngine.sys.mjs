@@ -245,9 +245,6 @@ via
 -
 policy
 "
-isAppProvided
-:
-false
 }
 )
 ;

@@ -248,9 +248,6 @@ via
 -
 user
 "
-isAppProvided
-:
-false
 }
 )
 ;

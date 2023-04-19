@@ -573,9 +573,6 @@ options
 super
 (
 {
-isAppProvided
-:
-false
 /
 /
 We

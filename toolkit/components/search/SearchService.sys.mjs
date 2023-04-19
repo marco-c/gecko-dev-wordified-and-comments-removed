@@ -3900,7 +3900,7 @@ if
 (
 engineToRemove
 .
-_isAppProvided
+isAppProvided
 )
 {
 /
@@ -12246,6 +12246,7 @@ isBuiltin
 to
 isAppProvided
 in
+bug
 1631898
 /
 /
