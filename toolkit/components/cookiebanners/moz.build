@@ -21,6 +21,16 @@ Anti
 Tracking
 "
 )
+JAR_MANIFESTS
++
+=
+[
+"
+jar
+.
+mn
+"
+]
 XPIDL_SOURCES
 +
 =
