@@ -910,7 +910,7 @@ RTC_DCHECK_RUN_ON
 thread_checker_
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -987,7 +987,7 @@ RTC_DCHECK_RUN_ON
 thread_checker_
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -1146,11 +1146,15 @@ VideoEncoderConfig
 config
 )
 {
-RTC_DCHECK
+RTC_DCHECK_RUN_ON
+(
+&
+thread_checker_
+)
+;
+RTC_DCHECK_EQ
 (
 content_type_
-=
-=
 config
 .
 content_type
