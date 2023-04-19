@@ -262,6 +262,11 @@ sources
 =
 [
 "
+bundle_manager
+.
+h
+"
+"
 channel
 .
 cc
