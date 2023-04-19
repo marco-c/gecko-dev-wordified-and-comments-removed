@@ -3881,8 +3881,6 @@ mXDisplay
 )
 root
 config
-false
-nullptr
 )
 ;
 if
