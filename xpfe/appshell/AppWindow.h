@@ -681,6 +681,11 @@ bool
 aIsFullyOccluded
 )
 ;
+void
+RecomputeBrowsingContextVisibility
+(
+)
+;
 MOZ_CAN_RUN_SCRIPT
 void
 OSToolbarButtonPressed
