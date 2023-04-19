@@ -1458,7 +1458,7 @@ false
 )
 frames_decryptable_
 (
-false
+true
 )
 absolute_capture_time_interpolator_
 (
