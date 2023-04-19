@@ -1405,6 +1405,14 @@ eDirPrevious
 false
 )
 ;
+if
+(
+point
+<
+=
+endPoint
+)
+{
 for
 (
 ;
@@ -1443,7 +1451,7 @@ false
 )
 {
 }
-;
+}
 return
 point
 .
