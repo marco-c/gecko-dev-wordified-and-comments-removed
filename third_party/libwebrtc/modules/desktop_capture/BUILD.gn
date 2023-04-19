@@ -3156,6 +3156,15 @@ wayland
 /
 scoped_glib
 .
+cc
+"
+"
+linux
+/
+wayland
+/
+scoped_glib
+.
 h
 "
 "
