@@ -309,15 +309,6 @@ include
 "
 rtc_base
 /
-format_macros
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 location
 .
 h

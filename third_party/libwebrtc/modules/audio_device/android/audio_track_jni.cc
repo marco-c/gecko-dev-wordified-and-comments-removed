@@ -52,15 +52,6 @@ include
 "
 rtc_base
 /
-format_macros
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 logging
 .
 h

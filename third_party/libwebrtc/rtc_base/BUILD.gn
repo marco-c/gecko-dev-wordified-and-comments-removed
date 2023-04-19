@@ -748,11 +748,6 @@ arraysize
 h
 "
 "
-format_macros
-.
-h
-"
-"
 thread_annotations
 .
 h

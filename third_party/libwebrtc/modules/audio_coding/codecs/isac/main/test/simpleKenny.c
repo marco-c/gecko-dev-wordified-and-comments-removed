@@ -100,15 +100,6 @@ utility
 h
 "
 #
-include
-"
-rtc_base
-/
-format_macros
-.
-h
-"
-#
 define
 MAX_FRAMESAMPLES_SWB
 1920
@@ -2773,9 +2764,7 @@ payloadsize
 3f
 /
 %
-"
-RTC_PRIuS
-"
+zu
 \
 n
 "

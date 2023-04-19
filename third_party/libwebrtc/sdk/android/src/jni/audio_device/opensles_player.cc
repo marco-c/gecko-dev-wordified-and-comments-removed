@@ -72,15 +72,6 @@ include
 "
 rtc_base
 /
-format_macros
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 platform_thread
 .
 h
@@ -1123,9 +1114,7 @@ ALOGD
 SetPlayoutChannels
 (
 %
-"
-RTC_PRIuS
-"
+zu
 )
 "
 channels
@@ -1208,8 +1197,8 @@ buffer
 size
 :
 %
+zu
 "
-RTC_PRIuS
 buffer_size_in_samples
 )
 ;

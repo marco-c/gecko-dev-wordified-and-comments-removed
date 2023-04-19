@@ -72,15 +72,6 @@ include
 "
 rtc_base
 /
-format_macros
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 platform_thread
 .
 h
@@ -1026,9 +1017,7 @@ ALOGD
 SetRecordingChannels
 (
 %
-"
-RTC_PRIuS
-"
+zu
 )
 "
 channels
@@ -1715,8 +1704,8 @@ native
 buffer
 :
 %
+zu
 "
-RTC_PRIuS
 audio_parameters_
 .
 frames_per_buffer
@@ -1733,8 +1722,8 @@ per
 buffer
 :
 %
+zu
 "
-RTC_PRIuS
 audio_parameters_
 .
 frames_per_10ms_buffer
@@ -1751,8 +1740,8 @@ native
 buffer
 :
 %
+zu
 "
-RTC_PRIuS
 audio_parameters_
 .
 GetBytesPerBuffer
