@@ -2673,7 +2673,7 @@ mCompositorState
 COMPOSITOR_ENABLED
 }
 ;
-int
+guint
 mCompositorPauseTimeoutID
 =
 0
