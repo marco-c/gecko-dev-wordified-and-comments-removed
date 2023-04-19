@@ -5958,7 +5958,7 @@ StatsReport
 :
 :
 Id
-id
+channel_stats_id
 (
 StatsReport
 :
@@ -5982,7 +5982,7 @@ reports_
 .
 ReplaceOrAddNew
 (
-id
+channel_stats_id
 )
 ;
 channel_report

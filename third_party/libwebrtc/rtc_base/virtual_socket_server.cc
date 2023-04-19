@@ -4460,7 +4460,7 @@ GetLocalAddress
 ;
 VirtualSocket
 *
-socket
+lookup_socket
 =
 LookupConnection
 (
@@ -4473,12 +4473,12 @@ addr
 ;
 if
 (
-socket
+lookup_socket
 )
 {
 Disconnect
 (
-socket
+lookup_socket
 )
 ;
 RemoveConnection

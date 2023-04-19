@@ -2320,7 +2320,7 @@ n
 ;
 }
 int
-num_total_frames
+num_total_frames2
 =
 stats
 .
@@ -2336,7 +2336,7 @@ delta_frames
 ;
 if
 (
-num_total_frames
+num_total_frames2
 >
 =
 kMinRequiredSamples
@@ -2359,12 +2359,12 @@ num_key_frames
 *
 1000
 +
-num_total_frames
+num_total_frames2
 /
 2
 )
 /
-num_total_frames
+num_total_frames2
 ;
 RTC_HISTOGRAM_COUNTS_SPARSE_1000
 (
@@ -2414,7 +2414,7 @@ optional
 <
 int
 >
-qp
+qp2
 =
 stats
 .
@@ -2427,7 +2427,7 @@ kMinRequiredSamples
 ;
 if
 (
-qp
+qp2
 )
 {
 RTC_HISTOGRAM_COUNTS_SPARSE_200
@@ -2445,7 +2445,7 @@ Qp
 +
 uma_suffix
 *
-qp
+qp2
 )
 ;
 log_stream
@@ -2472,7 +2472,7 @@ uma_suffix
 <
 <
 *
-qp
+qp2
 <
 <
 '

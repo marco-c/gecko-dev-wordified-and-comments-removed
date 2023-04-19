@@ -1444,7 +1444,7 @@ n
 continue
 ;
 size_t
-len
+length
 =
 pos
 -
@@ -1455,7 +1455,7 @@ start
 if
 (
 (
-len
+length
 >
 0
 )
@@ -1466,7 +1466,7 @@ data
 [
 start
 +
-len
+length
 -
 1
 ]
@@ -1480,13 +1480,13 @@ r
 )
 -
 -
-len
+length
 ;
 data
 [
 start
 +
-len
+length
 ]
 =
 0
@@ -1496,7 +1496,7 @@ ProcessLine
 data
 +
 start
-len
+length
 )
 ;
 start
@@ -2876,7 +2876,7 @@ atyp
 )
 {
 uint8_t
-len
+length
 ;
 std
 :
@@ -2892,7 +2892,7 @@ response
 ReadUInt8
 (
 &
-len
+length
 )
 |
 |
@@ -2903,7 +2903,7 @@ ReadString
 (
 &
 addr
-len
+length
 )
 |
 |

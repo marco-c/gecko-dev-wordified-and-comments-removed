@@ -11909,7 +11909,7 @@ kStatsAggregationFrameNum
 )
 {
 AudioProcessingStats
-stats
+stats2
 =
 apm_
 -
@@ -11922,7 +11922,7 @@ const
 float
 echo_return_loss
 =
-stats
+stats2
 .
 echo_return_loss
 .
@@ -11938,7 +11938,7 @@ const
 float
 echo_return_loss_enhancement
 =
-stats
+stats2
 .
 echo_return_loss_enhancement
 .
@@ -11954,7 +11954,7 @@ const
 float
 residual_echo_likelihood
 =
-stats
+stats2
 .
 residual_echo_likelihood
 .
@@ -11970,7 +11970,7 @@ const
 float
 residual_echo_likelihood_recent_max
 =
-stats
+stats2
 .
 residual_echo_likelihood_recent_max
 .

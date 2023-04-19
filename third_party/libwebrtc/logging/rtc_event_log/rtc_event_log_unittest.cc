@@ -1980,7 +1980,7 @@ extensions
 )
 ;
 auto
-event
+new_event
 =
 gen_
 .
@@ -1995,7 +1995,7 @@ event_log
 >
 Log
 (
-event
+new_event
 -
 >
 Copy
@@ -2012,7 +2012,7 @@ std
 :
 move
 (
-event
+new_event
 )
 )
 ;

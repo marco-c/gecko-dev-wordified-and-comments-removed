@@ -10410,7 +10410,7 @@ parameters
 const
 auto
 &
-send_codec_spec
+send_codec_spec2
 =
 *
 GetSendStreamConfig
@@ -10423,7 +10423,7 @@ send_codec_spec
 EXPECT_EQ
 (
 111
-send_codec_spec
+send_codec_spec2
 .
 payload_type
 )
@@ -10433,7 +10433,7 @@ EXPECT_STRCASEEQ
 "
 opus
 "
-send_codec_spec
+send_codec_spec2
 .
 format
 .
@@ -10447,7 +10447,7 @@ c_str
 EXPECT_EQ
 (
 112
-send_codec_spec
+send_codec_spec2
 .
 red_payload_type
 )
@@ -10480,7 +10480,7 @@ parameters
 const
 auto
 &
-send_codec_spec2
+send_codec_spec3
 =
 *
 GetSendStreamConfig
@@ -10493,7 +10493,7 @@ send_codec_spec
 EXPECT_EQ
 (
 111
-send_codec_spec2
+send_codec_spec3
 .
 payload_type
 )
@@ -10503,7 +10503,7 @@ EXPECT_STRCASEEQ
 "
 opus
 "
-send_codec_spec2
+send_codec_spec3
 .
 format
 .
@@ -10520,7 +10520,7 @@ absl
 :
 :
 nullopt
-send_codec_spec2
+send_codec_spec3
 .
 red_payload_type
 )
