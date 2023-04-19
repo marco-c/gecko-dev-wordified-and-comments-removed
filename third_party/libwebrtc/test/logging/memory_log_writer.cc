@@ -185,6 +185,7 @@ buffer_
 ;
 class
 MemoryLogWriterFactory
+final
 :
 public
 LogWriterFactoryInterface
@@ -222,7 +223,7 @@ target
 MemoryLogWriterFactory
 (
 )
-final
+override
 {
 }
 std
