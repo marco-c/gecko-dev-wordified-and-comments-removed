@@ -988,7 +988,9 @@ wrappedJSObject
 .
 _settings
 .
-_metaData
+getSettingsMetaData
+(
+)
 }
 ;
 await
