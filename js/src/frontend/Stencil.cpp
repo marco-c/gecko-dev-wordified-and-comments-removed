@@ -10991,6 +10991,12 @@ size
 )
 )
 ;
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 Rooted
 <
 CompilationGCOutput
@@ -11011,7 +11017,8 @@ get
 .
 ensureReservedWithBaseIndex
 (
-cx
+&
+ec
 range
 .
 start
@@ -11360,6 +11367,12 @@ CompilationGCOutput
 gcOutput
 )
 {
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 if
 (
 !
@@ -11367,7 +11380,8 @@ gcOutput
 .
 ensureReserved
 (
-cx
+&
+ec
 stencil
 .
 scriptData
