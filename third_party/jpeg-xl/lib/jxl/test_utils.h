@@ -1466,6 +1466,19 @@ desc
 color_space
 )
 ;
+if
+(
+desc
+.
+color_space
+!
+=
+ColorSpace
+:
+:
+kXYB
+)
+{
 c
 .
 white_point
@@ -1493,6 +1506,7 @@ desc
 tf
 )
 ;
+}
 c
 .
 rendering_intent

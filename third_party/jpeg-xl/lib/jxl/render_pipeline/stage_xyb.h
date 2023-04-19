@@ -48,7 +48,7 @@ RenderPipelineStage
 GetXYBStage
 (
 const
-OpsinParams
+OutputEncodingInfo
 &
 output_encoding_info
 )

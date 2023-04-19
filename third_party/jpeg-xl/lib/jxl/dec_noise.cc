@@ -358,6 +358,9 @@ Xorshift128Plus
 :
 N
 ]
+=
+{
+}
 ;
 const
 HWY_FULL

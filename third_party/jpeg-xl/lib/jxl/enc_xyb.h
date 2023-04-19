@@ -118,6 +118,14 @@ linear
 nullptr
 )
 ;
+void
+ScaleXYB
+(
+Image3F
+*
+opsin
+)
+;
 Status
 RgbToYcbcr
 (

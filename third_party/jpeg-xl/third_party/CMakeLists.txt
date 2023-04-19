@@ -815,6 +815,8 @@ endif
 libpng
 if
 (
+JPEGXL_BUNDLE_LIBPNG
+AND
 JPEGXL_EMSCRIPTEN
 )
 if

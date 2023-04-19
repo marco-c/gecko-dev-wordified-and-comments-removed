@@ -193,6 +193,16 @@ pnm
 h
 extras
 /
+encode_jpeg
+.
+cc
+extras
+/
+encode_jpeg
+.
+h
+extras
+/
 exif
 .
 cc
