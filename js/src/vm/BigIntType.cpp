@@ -6266,7 +6266,7 @@ constexpr
 allowGC
 )
 {
-ReportOutOfMemory
+ReportAllocationOverflow
 (
 cx
 )
@@ -7183,7 +7183,7 @@ JSString
 MAX_LENGTH
 )
 {
-ReportOutOfMemory
+ReportAllocationOverflow
 (
 cx
 )
@@ -8150,7 +8150,7 @@ n
 MaxDigitLength
 )
 {
-ReportOutOfMemory
+ReportAllocationOverflow
 (
 cx
 )
