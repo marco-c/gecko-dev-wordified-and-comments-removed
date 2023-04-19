@@ -8,6 +8,13 @@ h
 #
 include
 "
+AudioDeviceInfo
+.
+h
+"
+#
+include
+"
 AudioSink
 .
 h
@@ -2010,6 +2017,7 @@ audioSink
 InitializeAudioStream
 (
 mParams
+mAudioDevice
 AudioSink
 :
 :
@@ -2288,6 +2296,7 @@ mAudioSink
 InitializeAudioStream
 (
 mParams
+mAudioDevice
 AudioSink
 :
 :

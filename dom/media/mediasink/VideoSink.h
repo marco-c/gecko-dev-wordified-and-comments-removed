@@ -295,6 +295,15 @@ IsPlaying
 const
 override
 ;
+const
+AudioDeviceInfo
+*
+AudioDevice
+(
+)
+const
+override
+;
 void
 Shutdown
 (
@@ -439,6 +448,7 @@ AbstractThread
 >
 mOwnerThread
 ;
+const
 RefPtr
 <
 MediaSink

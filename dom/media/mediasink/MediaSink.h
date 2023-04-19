@@ -277,11 +277,10 @@ AudioDeviceInfo
 AudioDevice
 (
 )
-{
-return
-nullptr
+const
+=
+0
 ;
-}
 virtual
 void
 Shutdown
