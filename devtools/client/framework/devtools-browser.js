@@ -1433,6 +1433,15 @@ Toolbox
 HostType
 .
 WINDOW
+hostOptions
+:
+{
+browserContentToolboxOpener
+:
+gBrowser
+.
+ownerGlobal
+}
 }
 )
 ;
