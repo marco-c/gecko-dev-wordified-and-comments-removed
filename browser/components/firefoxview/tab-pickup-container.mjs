@@ -422,7 +422,7 @@ action
 {
 TabsSetupFlowManager
 .
-forceSyncTabs
+tryToClearError
 (
 )
 ;
