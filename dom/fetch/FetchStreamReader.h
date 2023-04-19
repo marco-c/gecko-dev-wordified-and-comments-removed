@@ -80,7 +80,7 @@ class
 ReadableStreamDefaultReader
 ;
 class
-WeakWorkerRef
+StrongWorkerRef
 ;
 class
 FetchStreamReader
@@ -250,9 +250,15 @@ mPipeOut
 ;
 RefPtr
 <
-WeakWorkerRef
+StrongWorkerRef
 >
 mWorkerRef
+;
+RefPtr
+<
+StrongWorkerRef
+>
+mAsyncWaitWorkerRef
 ;
 RefPtr
 <

@@ -603,6 +603,11 @@ DecreaseBusyCounter
 )
 ;
 void
+Cleanup
+(
+)
+;
+void
 Shutdown
 (
 )
