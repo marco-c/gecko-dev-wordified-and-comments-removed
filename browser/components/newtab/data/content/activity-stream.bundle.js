@@ -39843,6 +39843,14 @@ position
 wrapper
 "
 }
+!
+this
+.
+props
+.
+flightId
+&
+&
 external_React_default
 (
 )
@@ -42839,12 +42847,6 @@ is_collection
 saveToPocketCard
 :
 saveToPocketCard
-&
-&
-!
-rec
-.
-flight_id
 }
 )
 )
