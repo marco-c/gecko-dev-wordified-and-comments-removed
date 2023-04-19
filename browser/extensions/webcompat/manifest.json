@@ -35,7 +35,7 @@ version
 "
 104
 .
-1
+2
 .
 0
 "
@@ -908,6 +908,13 @@ js
 shims
 /
 kinja
+.
+js
+"
+"
+shims
+/
+lapresse
 .
 js
 "
