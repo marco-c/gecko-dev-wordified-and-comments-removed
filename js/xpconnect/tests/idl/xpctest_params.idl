@@ -1273,6 +1273,9 @@ parameter
 void
 testOmittedOptionalOut
 (
+in
+nsIXPCTestParams
+aJSObj
 [
 optional
 ]
