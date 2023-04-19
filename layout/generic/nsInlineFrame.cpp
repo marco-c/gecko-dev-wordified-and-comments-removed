@@ -3170,11 +3170,11 @@ FirstChild
 )
 {
 StyleClear
-oldBreakType
+oldClearType
 =
 aStatus
 .
-BreakType
+FloatClearType
 (
 )
 ;
@@ -3194,7 +3194,7 @@ aStatus
 .
 SetInlineLineBreakAfter
 (
-oldBreakType
+oldClearType
 )
 ;
 PushFrames

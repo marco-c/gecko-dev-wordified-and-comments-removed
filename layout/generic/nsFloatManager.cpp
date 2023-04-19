@@ -2239,7 +2239,7 @@ ClearFloats
 nscoord
 aBCoord
 StyleClear
-aBreakType
+aClearType
 )
 const
 {
@@ -2280,7 +2280,7 @@ Length
 ;
 switch
 (
-aBreakType
+aClearType
 )
 {
 case
@@ -2380,7 +2380,7 @@ nsFloatManager
 ClearContinues
 (
 StyleClear
-aBreakType
+aClearType
 )
 const
 {
@@ -2395,7 +2395,7 @@ mSplitLeftFloatAcrossBreak
 &
 &
 (
-aBreakType
+aClearType
 =
 =
 StyleClear
@@ -2404,7 +2404,7 @@ StyleClear
 Both
 |
 |
-aBreakType
+aClearType
 =
 =
 StyleClear
@@ -2425,7 +2425,7 @@ mSplitRightFloatAcrossBreak
 &
 &
 (
-aBreakType
+aClearType
 =
 =
 StyleClear
@@ -2434,7 +2434,7 @@ StyleClear
 Both
 |
 |
-aBreakType
+aClearType
 =
 =
 StyleClear

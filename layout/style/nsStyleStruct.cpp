@@ -11647,7 +11647,7 @@ StyleFloat
 :
 None
 )
-mBreakType
+mClear
 (
 StyleClear
 :
@@ -12041,11 +12041,11 @@ aSource
 .
 mFloat
 )
-mBreakType
+mClear
 (
 aSource
 .
-mBreakType
+mClear
 )
 mBreakInside
 (
@@ -13231,12 +13231,12 @@ NS_STYLE_HINT_REFLOW
 }
 if
 (
-mBreakType
+mClear
 !
 =
 aNewData
 .
-mBreakType
+mClear
 |
 |
 mBreakInside

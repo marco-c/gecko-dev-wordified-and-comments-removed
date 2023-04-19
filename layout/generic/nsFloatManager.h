@@ -697,7 +697,7 @@ mozilla
 :
 :
 StyleClear
-aBreakType
+aClearType
 )
 const
 ;
@@ -708,7 +708,7 @@ mozilla
 :
 :
 StyleClear
-aBreakType
+aClearType
 )
 const
 ;

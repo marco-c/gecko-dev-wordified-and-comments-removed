@@ -338,7 +338,7 @@ ClearFloats
 nscoord
 aBCoord
 StyleClear
-aBreakType
+aClearType
 nsIFrame
 *
 aFloatAvoidingBlock

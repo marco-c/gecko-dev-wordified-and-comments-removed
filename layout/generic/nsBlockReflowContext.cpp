@@ -780,7 +780,7 @@ StyleDisplay
 )
 -
 >
-mBreakType
+mClear
 !
 =
 StyleClear
