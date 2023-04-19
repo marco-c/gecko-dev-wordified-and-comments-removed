@@ -79,16 +79,6 @@ RtpVideoLayersAllocationExtension
 :
 kId
 ;
-constexpr
-const
-char
-RtpVideoLayersAllocationExtension
-:
-:
-kUri
-[
-]
-;
 namespace
 {
 constexpr

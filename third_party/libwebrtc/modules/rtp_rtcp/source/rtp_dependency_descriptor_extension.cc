@@ -104,15 +104,6 @@ RtpDependencyDescriptorExtension
 kId
 ;
 constexpr
-char
-RtpDependencyDescriptorExtension
-:
-:
-kUri
-[
-]
-;
-constexpr
 std
 :
 :
