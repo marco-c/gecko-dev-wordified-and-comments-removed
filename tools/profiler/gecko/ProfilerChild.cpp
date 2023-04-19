@@ -1700,12 +1700,12 @@ CreateSubLoggerFromTo
 (
 1_pc
 "
-profiler_get_profile_json_into_lazily_allocated_buffer
+profiler_get_profile_json
 started
 "
 99_pc
 "
-profiler_get_profile_json_into_lazily_allocated_buffer
+profiler_get_profile_json
 done
 "
 )
