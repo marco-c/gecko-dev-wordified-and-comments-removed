@@ -39,6 +39,15 @@ include
 "
 api
 /
+dtls_transport_interface
+.
+h
+"
+#
+include
+"
+api
+/
 rtc_error
 .
 h
@@ -389,9 +398,6 @@ cricket
 DtlsTransportInternal
 *
 dtls_transport
-cricket
-:
-:
 DtlsTransportState
 state
 )
