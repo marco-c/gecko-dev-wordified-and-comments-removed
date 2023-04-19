@@ -52,7 +52,7 @@ include
 "
 mozilla
 /
-TextUtils
+Span
 .
 h
 "

@@ -23,11 +23,6 @@ stddef
 .
 h
 >
-#
-include
-<
-type_traits
->
 using
 mozilla
 :

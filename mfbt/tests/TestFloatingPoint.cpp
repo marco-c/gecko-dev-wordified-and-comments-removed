@@ -3,7 +3,7 @@ include
 "
 mozilla
 /
-Compiler
+Assertions
 .
 h
 "
@@ -16,18 +16,6 @@ FloatingPoint
 .
 h
 "
-#
-include
-<
-cmath
->
-#
-include
-<
-float
-.
-h
->
 #
 include
 <

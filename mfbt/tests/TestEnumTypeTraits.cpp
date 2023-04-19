@@ -18,13 +18,9 @@ h
 "
 #
 include
-"
-mozilla
-/
-IntegerTypeTraits
-.
-h
-"
+<
+cstdint
+>
 using
 namespace
 mozilla
