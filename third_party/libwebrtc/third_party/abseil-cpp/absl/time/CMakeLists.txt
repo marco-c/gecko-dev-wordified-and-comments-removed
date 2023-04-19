@@ -553,6 +553,9 @@ absl
 :
 :
 time_zone
+GTest
+:
+:
 gmock
 TESTONLY
 )
@@ -616,5 +619,8 @@ absl
 :
 :
 time_zone
+GTest
+:
+:
 gmock_main
 )

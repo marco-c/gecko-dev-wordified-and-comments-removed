@@ -89,6 +89,7 @@ optional_internal
 noreturn
 ]
 ]
+ABSL_DLL
 void
 throw_bad_optional_access
 (

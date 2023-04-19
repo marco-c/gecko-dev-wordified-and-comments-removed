@@ -173,6 +173,9 @@ absl
 :
 :
 core_headers
+GTest
+:
+:
 gmock_main
 )
 absl_cc_test
@@ -202,5 +205,8 @@ absl
 :
 :
 exception_safety_testing
+GTest
+:
+:
 gmock_main
 )

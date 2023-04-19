@@ -6,6 +6,13 @@ define
 ABSL_BASE_OPTIMIZATION_H_
 #
 include
+<
+assert
+.
+h
+>
+#
+include
 "
 absl
 /

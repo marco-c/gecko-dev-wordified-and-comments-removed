@@ -969,6 +969,8 @@ ABSL_FLAG_IMPL_FLAG_PTR
 (
 flag
 )
+\
+nullptr
 )
 #
 else
@@ -1009,6 +1011,8 @@ ABSL_FLAG_IMPL_FLAG_PTR
 (
 flag
 )
+\
+__FILE__
 )
 #
 endif

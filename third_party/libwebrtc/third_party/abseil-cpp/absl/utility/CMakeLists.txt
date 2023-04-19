@@ -185,5 +185,8 @@ absl
 :
 :
 strings
+GTest
+:
+:
 gmock_main
 )

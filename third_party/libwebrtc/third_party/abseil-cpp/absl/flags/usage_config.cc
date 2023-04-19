@@ -145,7 +145,10 @@ C
 {
 ABSL_ATTRIBUTE_WEAK
 void
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslInternalReportFatalUsageError
+)
 (
 absl
 :
@@ -544,7 +547,10 @@ if
 is_fatal
 )
 {
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslInternalReportFatalUsageError
+)
 (
 msg
 )

@@ -1088,7 +1088,7 @@ size
 strings_internal
 :
 :
-STLStringResizeUninitialized
+STLStringResizeUninitializedAmortized
 (
 dest
 total_size
@@ -1274,7 +1274,7 @@ size
 strings_internal
 :
 :
-STLStringResizeUninitialized
+STLStringResizeUninitializedAmortized
 (
 dest
 old_size
@@ -1409,7 +1409,7 @@ size
 strings_internal
 :
 :
-STLStringResizeUninitialized
+STLStringResizeUninitializedAmortized
 (
 dest
 old_size
@@ -1569,7 +1569,7 @@ size
 strings_internal
 :
 :
-STLStringResizeUninitialized
+STLStringResizeUninitializedAmortized
 (
 dest
 old_size

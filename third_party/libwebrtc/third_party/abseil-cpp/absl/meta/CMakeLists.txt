@@ -165,6 +165,9 @@ absl
 :
 :
 type_traits
+GTest
+:
+:
 gmock_main
 )
 #

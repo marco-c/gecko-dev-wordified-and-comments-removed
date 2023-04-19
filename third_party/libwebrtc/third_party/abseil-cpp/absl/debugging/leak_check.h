@@ -29,6 +29,11 @@ HaveLeakSanitizer
 (
 )
 ;
+bool
+LeakCheckerIsActive
+(
+)
+;
 void
 DoIgnoreLeak
 (
@@ -61,6 +66,11 @@ return
 ptr
 ;
 }
+bool
+FindAndReportLeaks
+(
+)
+;
 class
 LeakCheckDisabler
 {

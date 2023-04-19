@@ -210,9 +210,9 @@ KOKORO_GFILE_BAZEL_BIN
 "
 bazel
 -
-2
+3
 .
-0
+7
 .
 0
 -

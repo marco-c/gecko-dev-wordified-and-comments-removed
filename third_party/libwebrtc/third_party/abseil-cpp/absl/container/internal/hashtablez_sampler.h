@@ -204,6 +204,15 @@ size_t
 >
 hashes_bitwise_and
 ;
+std
+:
+:
+atomic
+<
+size_t
+>
+hashes_bitwise_xor
+;
 absl
 :
 :
@@ -1112,7 +1121,10 @@ extern
 C
 "
 bool
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslContainerInternalSampleEverything
+)
 (
 )
 ;

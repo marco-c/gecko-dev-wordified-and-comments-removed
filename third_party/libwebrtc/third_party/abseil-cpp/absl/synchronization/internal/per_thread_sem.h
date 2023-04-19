@@ -222,7 +222,10 @@ C
 "
 {
 void
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslInternalPerThreadSemPost
+)
 (
 absl
 :
@@ -236,7 +239,10 @@ identity
 )
 ;
 bool
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslInternalPerThreadSemWait
+)
 (
 absl
 :
@@ -272,7 +278,10 @@ ThreadIdentity
 identity
 )
 {
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslInternalPerThreadSemPost
+)
 (
 identity
 )
@@ -301,7 +310,10 @@ t
 )
 {
 return
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslInternalPerThreadSemWait
+)
 (
 t
 )

@@ -135,6 +135,10 @@ algorithm
 )
 add_subdirectory
 (
+cleanup
+)
+add_subdirectory
+(
 container
 )
 add_subdirectory

@@ -448,6 +448,13 @@ status
 absl
 /
 base
+"
+"
+/
+/
+absl
+/
+base
 :
 core_headers
 "
@@ -539,6 +546,13 @@ base
 absl
 /
 memory
+"
+"
+/
+/
+absl
+/
+strings
 "
 "
 /

@@ -302,6 +302,16 @@ rhs
 =
 delete
 ;
+FunctionRef
+(
+const
+FunctionRef
+&
+rhs
+)
+=
+default
+;
 R
 operator
 (

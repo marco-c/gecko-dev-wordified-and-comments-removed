@@ -74,9 +74,7 @@ include
 "
 absl
 /
-base
-/
-internal
+numeric
 /
 bits
 .

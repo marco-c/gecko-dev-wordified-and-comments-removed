@@ -163,6 +163,15 @@ h
 "
 internal
 /
+stacktrace_emscripten
+-
+inl
+.
+inc
+"
+"
+internal
+/
 stacktrace_generic
 -
 inl
@@ -260,6 +269,11 @@ inc
 "
 "
 symbolize_elf
+.
+inc
+"
+"
+symbolize_emscripten
 .
 inc
 "
@@ -405,6 +419,9 @@ absl
 :
 :
 strings
+GTest
+:
+:
 gmock
 )
 absl_cc_library
@@ -543,6 +560,9 @@ Threads
 :
 :
 Threads
+GTest
+:
+:
 gmock
 )
 absl_cc_library
@@ -695,6 +715,9 @@ absl
 :
 :
 raw_logging_internal
+GTest
+:
+:
 gmock_main
 )
 absl_cc_library
@@ -847,6 +870,9 @@ absl
 :
 :
 base
+GTest
+:
+:
 gmock_main
 )
 absl_cc_test
@@ -876,6 +902,9 @@ absl
 :
 :
 base
+GTest
+:
+:
 gmock_main
 )
 absl_cc_test
@@ -915,6 +944,9 @@ absl
 :
 :
 raw_logging_internal
+GTest
+:
+:
 gmock_main
 )
 absl_cc_library
@@ -985,6 +1017,9 @@ absl
 :
 :
 raw_logging_internal
+GTest
+:
+:
 gmock_main
 )
 #

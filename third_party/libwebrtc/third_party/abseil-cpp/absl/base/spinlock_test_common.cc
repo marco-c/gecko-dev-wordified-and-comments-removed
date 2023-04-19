@@ -561,6 +561,13 @@ thread
 >
 threads
 ;
+threads
+.
+reserve
+(
+kNumThreads
+)
+;
 for
 (
 int

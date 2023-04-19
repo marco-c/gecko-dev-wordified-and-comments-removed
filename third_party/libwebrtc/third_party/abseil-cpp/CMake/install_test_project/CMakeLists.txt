@@ -146,11 +146,6 @@ project
 absl_cmake_testing
 CXX
 )
-set
-(
-CMAKE_CXX_STANDARD
-11
-)
 add_executable
 (
 simple

@@ -170,8 +170,14 @@ ABSL_INTERNAL_INLINE_CONSTEXPR
 (
 size_t
 variant_npos
+static_cast
+<
+size_t
+>
+(
 -
 1
+)
 )
 ;
 template

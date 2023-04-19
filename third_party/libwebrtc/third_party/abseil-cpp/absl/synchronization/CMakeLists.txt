@@ -230,9 +230,9 @@ h
 "
 internal
 /
-mutex_nonprod
+futex
 .
-inc
+h
 "
 "
 internal
@@ -386,6 +386,9 @@ absl
 :
 :
 time
+GTest
+:
+:
 gmock_main
 )
 absl_cc_test
@@ -411,6 +414,9 @@ absl
 :
 :
 time
+GTest
+:
+:
 gmock_main
 )
 absl_cc_test
@@ -442,6 +448,9 @@ absl
 :
 :
 raw_logging_internal
+GTest
+:
+:
 gmock_main
 )
 absl_cc_library
@@ -518,6 +527,9 @@ absl
 :
 :
 time
+GTest
+:
+:
 gmock_main
 )
 absl_cc_test
@@ -543,6 +555,9 @@ absl
 :
 :
 time
+GTest
+:
+:
 gmock_main
 )
 absl_cc_library
@@ -582,6 +597,9 @@ absl
 :
 :
 time
+GTest
+:
+:
 gmock
 TESTONLY
 )
@@ -618,6 +636,9 @@ absl
 :
 :
 time
+GTest
+:
+:
 gmock_main
 )
 absl_cc_test

@@ -132,13 +132,7 @@ year
 )
 FormatTime
 (
-std
-:
-:
-string
-(
 fmt
-)
 FromCivil
 (
 ncs

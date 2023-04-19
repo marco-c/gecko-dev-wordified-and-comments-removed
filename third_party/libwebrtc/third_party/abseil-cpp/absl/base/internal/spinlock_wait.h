@@ -128,7 +128,10 @@ C
 "
 {
 void
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslInternalSpinLockWake
+)
 (
 std
 :
@@ -144,7 +147,10 @@ all
 )
 ;
 void
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslInternalSpinLockDelay
+)
 (
 std
 :
@@ -193,7 +199,10 @@ bool
 all
 )
 {
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslInternalSpinLockWake
+)
 (
 w
 all
@@ -233,7 +242,10 @@ SchedulingMode
 scheduling_mode
 )
 {
+ABSL_INTERNAL_C_SYMBOL
+(
 AbslInternalSpinLockDelay
+)
 (
 w
 value

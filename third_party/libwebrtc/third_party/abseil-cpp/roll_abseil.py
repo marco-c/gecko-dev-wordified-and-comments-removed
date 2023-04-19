@@ -119,7 +119,7 @@ git
 checkout
 '
 '
-master
+main
 '
 ]
 cwd
@@ -408,6 +408,10 @@ gn
 '
    
 '
+DIR_METADATA
+'
+   
+'
 README
 .
 chromium
@@ -669,26 +673,6 @@ dynamic_annotations
 h
 '
 )
-)
-  
-os
-.
-chmod
-(
-os
-.
-path
-.
-join
-(
-abseil_in_chromium_dir
-'
-conanfile
-.
-py
-'
-)
-0o750
 )
 def
 _Commit

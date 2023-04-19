@@ -38,6 +38,17 @@ absl
 /
 numeric
 /
+bits
+.
+h
+"
+#
+include
+"
+absl
+/
+numeric
+/
 int128
 .
 h
@@ -1542,9 +1553,6 @@ h
 #
 endif
 return
-random_internal
-:
-:
 rotr
 (
 s
@@ -1621,9 +1629,6 @@ state
 )
 {
 return
-random_internal
-:
-:
 rotr
 (
 static_cast

@@ -232,6 +232,9 @@ absl
 :
 :
 strings
+GTest
+:
+:
 gmock_main
 )
 absl_cc_library
@@ -262,6 +265,14 @@ COPTS
 ABSL_DEFAULT_COPTS
 }
 DEPS
+absl
+:
+:
+base
+absl
+:
+:
+status
 absl
 :
 :
@@ -311,5 +322,8 @@ absl
 :
 :
 statusor
+GTest
+:
+:
 gmock_main
 )

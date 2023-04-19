@@ -165,6 +165,9 @@ absl
 :
 :
 algorithm
+GTest
+:
+:
 gmock_main
 )
 absl_cc_library
@@ -231,5 +234,8 @@ absl
 :
 :
 span
+GTest
+:
+:
 gmock_main
 )

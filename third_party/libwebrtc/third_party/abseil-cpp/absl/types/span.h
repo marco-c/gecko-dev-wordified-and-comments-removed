@@ -229,6 +229,11 @@ type
 public
 :
 using
+element_type
+=
+T
+;
+using
 value_type
 =
 absl
@@ -489,6 +494,7 @@ initializer_list
 value_type
 >
 v
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 )
 noexcept
 :

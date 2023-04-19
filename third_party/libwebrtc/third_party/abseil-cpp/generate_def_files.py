@@ -125,7 +125,7 @@ git
 /
 +
 /
-master
+main
 /
 docs
 /
@@ -167,8 +167,6 @@ changing
 llvm
 -
 nm
--
-9
 "
 to
 the
@@ -478,11 +476,21 @@ symbol_dumper
 =
 [
 '
+third_party
+/
+llvm
+-
+build
+/
+Release
++
+Asserts
+/
+bin
+/
 llvm
 -
 nm
--
-9
 '
 ]
   
@@ -1027,6 +1035,21 @@ if
 symbol
 in
 dll_exports
+:
+            
+continue
+          
+if
+symbol
+.
+startswith
+(
+'
+?
+?
+_G
+'
+)
 :
             
 continue

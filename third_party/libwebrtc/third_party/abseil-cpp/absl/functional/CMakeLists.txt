@@ -181,6 +181,9 @@ absl
 :
 :
 memory
+GTest
+:
+:
 gmock_main
 )
 absl_cc_library
@@ -243,5 +246,8 @@ absl
 :
 :
 test_instance_tracker
+GTest
+:
+:
 gmock_main
 )

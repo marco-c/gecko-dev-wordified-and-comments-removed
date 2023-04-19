@@ -40,6 +40,7 @@ absl
 string_view
 piece2
 )
+noexcept
 {
 return
 (
@@ -101,6 +102,7 @@ absl
 string_view
 prefix
 )
+noexcept
 {
 return
 (
@@ -150,6 +152,7 @@ absl
 string_view
 suffix
 )
+noexcept
 {
 return
 (

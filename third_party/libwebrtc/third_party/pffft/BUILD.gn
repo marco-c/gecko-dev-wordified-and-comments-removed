@@ -47,7 +47,6 @@ arm
 gni
 "
 )
-#
 import
 (
 "
@@ -62,7 +61,6 @@ fuzzer_test
 gni
 "
 )
-#
 import
 (
 "
@@ -125,7 +123,7 @@ version
 if
 (
 (
-target_cpu
+current_cpu
 =
 =
 "
@@ -138,7 +136,7 @@ arm_use_neon
 )
 |
 |
-target_cpu
+current_cpu
 =
 =
 "
@@ -146,7 +144,7 @@ mipsel
 "
 |
 |
-target_cpu
+current_cpu
 =
 =
 "
@@ -154,7 +152,7 @@ mips64el
 "
 |
 |
-target_cpu
+current_cpu
 =
 =
 "
@@ -162,7 +160,7 @@ ppc64
 "
 |
 |
-target_cpu
+current_cpu
 =
 =
 "
@@ -217,11 +215,6 @@ h
 #
 Fuzzing
 .
-if
-(
-false
-)
-{
 group
 (
 "
@@ -572,5 +565,4 @@ gtest
 gtest_main
 "
 ]
-}
 }

@@ -6,11 +6,3 @@ olka
 chromium
 .
 org
-#
-COMPONENT
-:
-Blink
->
-WebRTC
->
-Audio
