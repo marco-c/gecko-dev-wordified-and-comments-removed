@@ -116,6 +116,15 @@ h
 #
 include
 "
+api
+/
+webrtc_key_value_config
+.
+h
+"
+#
+include
+"
 modules
 /
 pacing
@@ -520,6 +529,10 @@ Clock
 *
 const
 clock_
+;
+const
+bool
+allow_low_precision_
 ;
 const
 TimeDelta
