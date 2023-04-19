@@ -47,7 +47,6 @@ b
 )
 {
 }
-explicit
 operator
 bool
 (
