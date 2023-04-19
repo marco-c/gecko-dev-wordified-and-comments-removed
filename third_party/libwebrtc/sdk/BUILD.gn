@@ -7492,8 +7492,12 @@ org
 7812
 if
 (
+target_environment
 !
-use_ios_simulator
+=
+"
+simulator
+"
 )
 {
 sources
