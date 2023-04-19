@@ -3745,6 +3745,16 @@ aAcc
 {
 if
 (
+!
+aAcc
+)
+{
+return
+nullptr
+;
+}
+if
+(
 RemoteAccessible
 *
 remoteAcc
