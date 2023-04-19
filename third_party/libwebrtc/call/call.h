@@ -423,7 +423,6 @@ FlexfecReceiveStream
 :
 :
 Config
-&
 config
 )
 =

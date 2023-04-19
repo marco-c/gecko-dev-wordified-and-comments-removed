@@ -2450,6 +2450,16 @@ rtp
 :
 rtp_source
 "
+"
+.
+.
+/
+modules
+/
+rtp_rtcp
+:
+rtp_rtcp_format
+"
 ]
 }
 rtc_library

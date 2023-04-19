@@ -811,6 +811,14 @@ RtpExtension
 extensions
 )
 ;
+const
+RtpHeaderExtensionMap
+&
+GetRtpExtensions
+(
+)
+const
+;
 void
 UpdateRtt
 (

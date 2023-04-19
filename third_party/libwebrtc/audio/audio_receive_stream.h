@@ -444,6 +444,13 @@ GetRtpExtensions
 const
 override
 ;
+RtpHeaderExtensionMap
+GetRtpExtensionMap
+(
+)
+const
+override
+;
 webrtc
 :
 :
