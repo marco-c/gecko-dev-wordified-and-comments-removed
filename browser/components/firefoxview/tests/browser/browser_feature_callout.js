@@ -310,6 +310,12 @@ browser
 .
 contentWindow
 ;
+await
+waitForCalloutRender
+(
+document
+)
+;
 ok
 (
 document
@@ -470,10 +476,12 @@ click
 (
 )
 ;
+await
 waitForCalloutScreen
 (
 document
 "
+.
 FEATURE_CALLOUT_2
 "
 )
@@ -1856,6 +1864,10 @@ querySelector
 "
 #
 colorways
+.
+content
+-
+container
 "
 )
 .
