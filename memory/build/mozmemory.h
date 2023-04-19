@@ -193,7 +193,7 @@ XP_WIN
 )
 MOZ_JEMALLOC_API
 void
-mozjemalloc_experiment_win_set_always_stall
+mozjemalloc_win_set_always_stall
 (
 bool
 )

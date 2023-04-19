@@ -1410,7 +1410,7 @@ GetGeckoProcessType
 (
 )
 ;
-mozjemalloc_experiment_win_set_always_stall
+mozjemalloc_win_set_always_stall
 (
 processType
 =
