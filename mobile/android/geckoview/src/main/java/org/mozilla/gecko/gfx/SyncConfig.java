@@ -28,7 +28,7 @@ implements
 Parcelable
 {
 final
-int
+long
 sourceTextureHandle
 ;
 final
@@ -46,7 +46,7 @@ height
 SyncConfig
 (
 final
-int
+long
 sourceTextureHandle
 final
 GeckoSurface
@@ -153,7 +153,7 @@ sourceTextureHandle
 =
 parcel
 .
-readInt
+readLong
 (
 )
 ;
@@ -211,7 +211,7 @@ flags
 {
 parcel
 .
-writeInt
+writeLong
 (
 sourceTextureHandle
 )

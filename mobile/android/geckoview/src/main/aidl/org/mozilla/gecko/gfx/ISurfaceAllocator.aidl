@@ -108,7 +108,7 @@ void
 releaseSurface
 (
 in
-int
+long
 handle
 )
 ;
@@ -124,7 +124,7 @@ void
 sync
 (
 in
-int
+long
 handle
 )
 ;
