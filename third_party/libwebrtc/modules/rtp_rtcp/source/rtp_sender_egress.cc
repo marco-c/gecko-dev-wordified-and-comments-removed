@@ -2189,11 +2189,7 @@ packet_info
 .
 ssrc
 =
-packet
-.
-Ssrc
-(
-)
+ssrc_
 ;
 packet_info
 .
