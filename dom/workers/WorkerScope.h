@@ -248,6 +248,9 @@ class
 EventHandlerNonNull
 ;
 class
+FontFaceSet
+;
+class
 Function
 ;
 class
@@ -890,6 +893,13 @@ GetExistingNavigator
 )
 const
 ;
+FontFaceSet
+*
+Fonts
+(
+)
+final
+;
 void
 ImportScripts
 (
@@ -1417,6 +1427,12 @@ RefPtr
 WorkerNavigator
 >
 mNavigator
+;
+RefPtr
+<
+FontFaceSet
+>
+mFontFaceSet
 ;
 RefPtr
 <

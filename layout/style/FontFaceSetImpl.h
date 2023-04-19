@@ -449,12 +449,6 @@ implemented
 )
 ;
 }
-static
-bool
-PrefEnabled
-(
-)
-;
 virtual
 void
 FlushUserFontSet

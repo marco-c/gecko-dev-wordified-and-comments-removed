@@ -1599,7 +1599,7 @@ if
 FontFaceSet
 :
 :
-PrefEnabled
+IsEnabled
 (
 )
 )
