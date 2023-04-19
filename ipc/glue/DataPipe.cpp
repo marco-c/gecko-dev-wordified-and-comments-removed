@@ -3385,7 +3385,7 @@ AsyncWaitInternal
 (
 aCallback
 ?
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 "
 DataPipeReceiver
@@ -3716,7 +3716,7 @@ AsyncWaitInternal
 (
 aCallback
 ?
-NS_NewRunnableFunction
+NS_NewCancelableRunnableFunction
 (
 "
 DataPipeReceiver
