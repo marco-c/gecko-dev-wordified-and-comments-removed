@@ -31,6 +31,13 @@ h
 #
 include
 "
+AutoRangeArray
+.
+h
+"
+#
+include
+"
 ChangeAttributeTransaction
 .
 h

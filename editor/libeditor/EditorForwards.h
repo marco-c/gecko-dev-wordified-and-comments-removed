@@ -186,9 +186,6 @@ nsIContent
 >
 ;
 class
-AutoRangeArray
-;
-class
 AutoSelectionRangeArray
 ;
 class
@@ -229,6 +226,9 @@ TextEditor
 ;
 class
 TypeInState
+;
+class
+AutoRangeArray
 ;
 class
 ChangeAttributeTransaction

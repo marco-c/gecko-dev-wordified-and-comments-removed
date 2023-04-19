@@ -8,6 +8,13 @@ h
 #
 include
 "
+AutoRangeArray
+.
+h
+"
+#
+include
+"
 EditorUtils
 .
 h
