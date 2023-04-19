@@ -2929,10 +2929,17 @@ IsBoth
 )
 {
 return
+containAxes
+.
+ContainIntrinsicSize
+(
 IntrinsicSize
 (
 0
 0
+)
+*
+this
 )
 ;
 }
