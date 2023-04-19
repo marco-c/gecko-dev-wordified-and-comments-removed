@@ -792,7 +792,9 @@ traits
 {
 watcher
 :
-true
+this
+.
+isParent
 supportsReloadDescriptor
 :
 this

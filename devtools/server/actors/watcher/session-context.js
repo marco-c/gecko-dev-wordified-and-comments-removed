@@ -547,7 +547,7 @@ TYPES
 SOURCE
 ]
 :
-isTabOrWebExtensionToolbox
+true
 [
 Resources
 .
