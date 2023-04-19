@@ -61,13 +61,6 @@ h
 #
 include
 "
-TLSFilterTransaction
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Mutex
@@ -120,6 +113,13 @@ h
 include
 "
 nsIInterfaceRequestor
+.
+h
+"
+#
+include
+"
+nsISocketTransport
 .
 h
 "
@@ -203,8 +203,6 @@ public
 nsITransportEventSink
 public
 nsIInterfaceRequestor
-public
-NudgeTunnelCallback
 {
 private
 :
@@ -228,7 +226,6 @@ NS_DECL_NSIINPUTSTREAMCALLBACK
 NS_DECL_NSIOUTPUTSTREAMCALLBACK
 NS_DECL_NSITRANSPORTEVENTSINK
 NS_DECL_NSIINTERFACEREQUESTOR
-NS_DECL_NUDGETUNNELCALLBACK
 nsHttpConnection
 (
 )
@@ -964,12 +961,6 @@ mSocketOutCondition
 {
 NS_ERROR_NOT_INITIALIZED
 }
-;
-RefPtr
-<
-TLSFilterTransaction
->
-mTLSFilter
 ;
 nsWeakPtr
 mWeakTrans
