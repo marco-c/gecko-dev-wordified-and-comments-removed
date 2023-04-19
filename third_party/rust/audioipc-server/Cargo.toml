@@ -178,3 +178,15 @@ version
 .
 1
 "
+default
+-
+features
+=
+false
+features
+=
+[
+"
+winapi
+"
+]
