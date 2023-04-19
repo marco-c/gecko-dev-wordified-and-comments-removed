@@ -382,6 +382,12 @@ aMask
 )
 ;
 static
+MetricMask
+GetCollectionMask
+(
+)
+;
+static
 RefPtr
 <
 PerfStatsPromise
