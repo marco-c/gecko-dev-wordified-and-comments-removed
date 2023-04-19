@@ -220,10 +220,13 @@ aEVStatus
 )
 true
 0
+nsITransportSecurityInfo
+:
+:
 OverridableErrorCategory
 :
 :
-Unset
+ERROR_UNSET
 aIsBuiltCertChainRootBuiltInRoot
 mProviderFlags
 )
@@ -286,6 +289,9 @@ false
 aFinalError
 static_cast
 <
+nsITransportSecurityInfo
+:
+:
 OverridableErrorCategory
 >
 (

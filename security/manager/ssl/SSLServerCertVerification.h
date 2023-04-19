@@ -39,6 +39,13 @@ h
 #
 include
 "
+nsITransportSecurityInfo
+.
+h
+"
+#
+include
+"
 nsIX509Cert
 .
 h
@@ -171,12 +178,6 @@ uint32_t
 providerFlags
 )
 ;
-enum
-class
-OverridableErrorCategory
-:
-uint32_t
-;
 class
 BaseSSLServerCertVerificationResult
 {
@@ -215,6 +216,9 @@ bool
 aSucceeded
 PRErrorCode
 aFinalError
+nsITransportSecurityInfo
+:
+:
 OverridableErrorCategory
 aOverridableErrorCategory
 bool
@@ -279,6 +283,9 @@ bool
 aSucceeded
 PRErrorCode
 aFinalError
+nsITransportSecurityInfo
+:
+:
 OverridableErrorCategory
 aOverridableErrorCategory
 bool
@@ -334,6 +341,9 @@ mSucceeded
 PRErrorCode
 mFinalError
 ;
+nsITransportSecurityInfo
+:
+:
 OverridableErrorCategory
 mOverridableErrorCategory
 ;
