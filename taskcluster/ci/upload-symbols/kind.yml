@@ -195,6 +195,14 @@ win64
 geckodriver
 /
 opt
+-
+win64
+-
+aarch64
+-
+geckodriver
+/
+opt
 job
 -
 template
