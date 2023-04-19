@@ -57,7 +57,6 @@ false
 }
 class
 VideoEncoderProxyFactory
-final
 :
 public
 VideoEncoderFactory
@@ -222,7 +221,7 @@ return
 max_num_simultaneous_encoder_instances_
 ;
 }
-private
+protected
 :
 void
 OnDestroyVideoEncoder

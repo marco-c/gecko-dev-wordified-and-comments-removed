@@ -4999,6 +4999,11 @@ video_decoder_proxy_factory
 h
 "
 "
+video_encoder_nullable_proxy_factory
+.
+h
+"
+"
 video_encoder_proxy_factory
 .
 h
