@@ -102,11 +102,16 @@ sdp
 ]
 ]
 ;
+std
+:
+:
+unique_ptr
+<
 webrtc
 :
 :
 SessionDescriptionInterface
-*
+>
 nativeDescription
 =
 description
