@@ -3197,6 +3197,8 @@ LocalAccessible
 *
 localAcc
 =
+acc
+?
 const_cast
 <
 Accessible
@@ -3210,6 +3212,8 @@ acc
 AsLocal
 (
 )
+:
+nullptr
 )
 {
 LayoutDeviceIntRect
