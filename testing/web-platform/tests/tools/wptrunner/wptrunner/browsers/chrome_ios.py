@@ -249,6 +249,19 @@ env_options
     
 return
 {
+"
+server_host
+"
+:
+"
+127
+.
+0
+.
+0
+.
+1
+"
 }
 class
 ChromeiOSBrowser
@@ -293,10 +306,11 @@ self
 :
         
 return
+(
 [
 self
 .
-binary
+webdriver_binary
 f
 "
 -
@@ -311,6 +325,8 @@ port
 "
 ]
 +
+                
 self
 .
 webdriver_args
+)
