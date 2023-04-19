@@ -38,9 +38,7 @@ modules
 /
 video_coding
 /
-codecs
-/
-av1
+svc
 /
 scalable_video_controller
 .
