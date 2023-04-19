@@ -161,7 +161,7 @@ rtc_win
 Version
 :
 :
-VERSION_WIN10_RS5
+VERSION_WIN11
 )
 {
 capturer
