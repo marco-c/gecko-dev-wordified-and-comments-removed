@@ -631,6 +631,13 @@ UseCanvasRenderThread
 bool
 false
 )
+\
+_
+(
+AllowBackdropFilter
+bool
+true
+)
 class
 gfxVars
 final
