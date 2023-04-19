@@ -257,6 +257,11 @@ message
 (
 )
 ;
+if
+(
+error_out
+)
+{
 *
 error_out
 =
@@ -271,6 +276,7 @@ message
 (
 )
 ;
+}
 }
 return
 observer
