@@ -118,7 +118,7 @@ kRtpSequenceNumberMapMaxEntries
 13
 ;
 bool
-IsEnabled
+IsDisabled
 (
 absl
 :
@@ -158,7 +158,7 @@ Lookup
 name
 )
 "
-Enabled
+Disabled
 "
 )
 ;
@@ -350,7 +350,8 @@ populate_network2_timestamp
 )
 send_side_bwe_with_overhead_
 (
-IsEnabled
+!
+IsDisabled
 (
 "
 WebRTC
