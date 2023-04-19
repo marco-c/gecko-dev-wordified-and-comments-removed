@@ -286,7 +286,8 @@ contextmenu
 firstRequest
 )
 ;
-getContextMenuItem
+await
+selectContextMenuItem
 (
 monitor
 "
@@ -296,12 +297,10 @@ list
 -
 context
 -
+edit
+-
 resend
 "
-)
-.
-click
-(
 )
 ;
 await

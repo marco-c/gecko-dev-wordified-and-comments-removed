@@ -231,7 +231,8 @@ bar
 "
 )
 ;
-getContextMenuItem
+await
+selectContextMenuItem
 (
 monitor
 "
@@ -241,12 +242,10 @@ list
 -
 context
 -
+edit
+-
 resend
 "
-)
-.
-click
-(
 )
 ;
 await
