@@ -298,6 +298,15 @@ string
 >
 audio_network_adaptor_config
 ;
+absl
+:
+:
+optional
+<
+bool
+>
+init_recording_on_send
+;
 }
 ;
 }

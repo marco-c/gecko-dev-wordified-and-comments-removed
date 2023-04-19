@@ -10354,6 +10354,16 @@ options_
 ;
 if
 (
+options_
+.
+init_recording_on_send
+.
+value_or
+(
+true
+)
+&
+&
 !
 engine
 (

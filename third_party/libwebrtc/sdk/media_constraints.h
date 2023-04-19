@@ -268,6 +268,13 @@ kAudioNetworkAdaptorConfig
 static
 const
 char
+kInitAudioRecordingOnSend
+[
+]
+;
+static
+const
+char
 kOfferToReceiveVideo
 [
 ]
