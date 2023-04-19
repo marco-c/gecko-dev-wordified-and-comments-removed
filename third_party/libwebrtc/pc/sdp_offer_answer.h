@@ -501,6 +501,9 @@ class
 TransceiverList
 ;
 class
+WebRtcSessionDescriptionFactory
+;
+class
 SdpOfferAnswerHandler
 {
 public
@@ -657,6 +660,12 @@ pending_remote_description
 (
 )
 const
+;
+JsepTransportController
+*
+transport_controller
+(
+)
 ;
 void
 RestartIce
@@ -2305,12 +2314,6 @@ transceivers
 (
 )
 const
-;
-JsepTransportController
-*
-transport_controller
-(
-)
 ;
 DataChannelController
 *
