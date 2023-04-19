@@ -1123,7 +1123,7 @@ EndToEndCallWithSctpDataChannelVariousSizes
 {
 ASSERT_TRUE
 (
-CreatePeerConnectionWrappers
+CreatePeerConnectionWrappersWithoutMediaEngine
 (
 )
 )
@@ -1440,7 +1440,7 @@ EndToEndCallWithSctpDataChannelEmptyMessages
 {
 ASSERT_TRUE
 (
-CreatePeerConnectionWrappers
+CreatePeerConnectionWrappersWithoutMediaEngine
 (
 )
 )
@@ -1896,7 +1896,7 @@ kLowestSafePayloadSizeLimit
 ;
 ASSERT_TRUE
 (
-CreatePeerConnectionWrappers
+CreatePeerConnectionWrappersWithoutMediaEngine
 (
 )
 )
@@ -2131,7 +2131,7 @@ kMessageSizeThatIsNotDelivered
 ;
 ASSERT_TRUE
 (
-CreatePeerConnectionWrappers
+CreatePeerConnectionWrappersWithoutMediaEngine
 (
 )
 )
@@ -2892,7 +2892,7 @@ UpdateDelayDistribution
 ;
 ASSERT_TRUE
 (
-CreatePeerConnectionWrappers
+CreatePeerConnectionWrappersWithoutMediaEngine
 (
 )
 )
