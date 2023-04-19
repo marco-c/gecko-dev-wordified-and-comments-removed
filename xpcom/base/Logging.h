@@ -214,6 +214,14 @@ bool
 aIsSync
 )
 ;
+static
+void
+SetRecordMarkers
+(
+bool
+aRecordMarkers
+)
+;
 bool
 ShouldLog
 (
