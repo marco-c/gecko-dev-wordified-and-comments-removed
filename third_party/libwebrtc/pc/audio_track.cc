@@ -139,7 +139,7 @@ AudioTrack
 RTC_DCHECK_RUN_ON
 (
 &
-thread_checker_
+signaling_thread_checker_
 )
 ;
 set_state
@@ -211,7 +211,7 @@ sink
 RTC_DCHECK_RUN_ON
 (
 &
-thread_checker_
+signaling_thread_checker_
 )
 ;
 if
@@ -241,7 +241,7 @@ sink
 RTC_DCHECK_RUN_ON
 (
 &
-thread_checker_
+signaling_thread_checker_
 )
 ;
 if
@@ -268,7 +268,7 @@ OnChanged
 RTC_DCHECK_RUN_ON
 (
 &
-thread_checker_
+signaling_thread_checker_
 )
 ;
 if
