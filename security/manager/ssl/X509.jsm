@@ -195,8 +195,6 @@ while
 bytes
 .
 length
->
-0
 )
 {
 let

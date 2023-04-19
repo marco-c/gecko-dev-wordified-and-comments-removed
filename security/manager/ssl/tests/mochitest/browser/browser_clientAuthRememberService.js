@@ -802,6 +802,8 @@ waitForCondition
 )
 =
 >
+!
+!
 labels
 [
 10
@@ -810,8 +812,6 @@ labels
 textContent
 .
 length
->
-0
 "
 Localized
 label

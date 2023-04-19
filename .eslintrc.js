@@ -3852,14 +3852,6 @@ remote
 *
 "
 "
-security
-/
-manager
-/
-*
-*
-"
-"
 storage
 /
 test

@@ -68,12 +68,10 @@ commonName
 ;
 if
 (
+!
 caName
 .
 length
-=
-=
-0
 )
 {
 caName

@@ -3781,14 +3781,12 @@ nsIX509CertDB
 ERROR_BAD_PASSWORD
 &
 &
+!
 password
 .
 value
 .
 length
-=
-=
-0
 )
 {
 errorCode
