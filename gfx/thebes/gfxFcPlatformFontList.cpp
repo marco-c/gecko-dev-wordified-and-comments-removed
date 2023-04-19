@@ -4695,11 +4695,6 @@ if
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 HasVariationFontSupport
 (
 )
@@ -5097,11 +5092,6 @@ if
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 HasVariationFontSupport
 (
 )
