@@ -67,11 +67,7 @@ Attributes
 override
 ;
 virtual
-nsTArray
-<
-RemoteAccessible
-*
->
+Relation
 RelationByType
 (
 RelationType
