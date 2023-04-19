@@ -114,7 +114,7 @@ version
 .
 5
 .
-4
+7
 "
 authors
 =
@@ -167,6 +167,13 @@ docs
 rs
 /
 memmap2
+"
+readme
+=
+"
+README
+.
+md
 "
 keywords
 =
