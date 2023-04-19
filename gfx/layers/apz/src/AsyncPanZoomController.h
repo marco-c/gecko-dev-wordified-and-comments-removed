@@ -2024,6 +2024,9 @@ mLastCheckerboardReport
 ParentLayerPoint
 mLastZoomFocus
 ;
+CSSToParentLayerScale
+mLastNotifiedZoom
+;
 RefPtr
 <
 AsyncPanZoomAnimation
