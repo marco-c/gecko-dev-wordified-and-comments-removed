@@ -2447,7 +2447,7 @@ int
 error
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -2597,7 +2597,7 @@ ssl_error
 case
 SSL_ERROR_NONE
 :
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -2636,7 +2636,7 @@ SR_SUCCESS
 case
 SSL_ERROR_WANT_READ
 :
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -2660,7 +2660,7 @@ SR_BLOCK
 case
 SSL_ERROR_WANT_WRITE
 :
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -2734,7 +2734,7 @@ int
 error
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -2889,7 +2889,7 @@ ssl_error
 case
 SSL_ERROR_NONE
 :
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -2946,7 +2946,7 @@ if
 pending
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -2989,7 +2989,7 @@ SR_SUCCESS
 case
 SSL_ERROR_WANT_READ
 :
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -3009,7 +3009,7 @@ SR_BLOCK
 case
 SSL_ERROR_WANT_WRITE
 :
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -3033,7 +3033,7 @@ SR_BLOCK
 case
 SSL_ERROR_ZERO_RETURN
 :
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -3204,7 +3204,7 @@ false
 return
 ;
 }
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -3360,7 +3360,7 @@ SE_OPEN
 )
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -3440,7 +3440,7 @@ SE_WRITE
 )
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -3568,7 +3568,7 @@ SE_WRITE
 )
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -3607,7 +3607,7 @@ SE_READ
 )
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -3636,7 +3636,7 @@ SE_CLOSE
 )
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -3812,7 +3812,7 @@ alive
 )
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -3878,7 +3878,7 @@ state_
 SSL_CONNECTING
 )
 ;
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -4035,7 +4035,7 @@ ContinueSSL
 (
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -4098,7 +4098,7 @@ ssl_error
 case
 SSL_ERROR_NONE
 :
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -4156,7 +4156,7 @@ case
 SSL_ERROR_WANT_READ
 :
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -4211,7 +4211,7 @@ break
 case
 SSL_ERROR_WANT_WRITE
 :
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -4272,7 +4272,7 @@ SSLHandshakeError
 INCOMPATIBLE_CIPHERSUITE
 ;
 }
-RTC_LOG
+RTC_DLOG
 (
 LS_VERBOSE
 )
@@ -4429,7 +4429,7 @@ uint8_t
 alert
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -5070,7 +5070,7 @@ return
 false
 ;
 }
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
@@ -5290,7 +5290,7 @@ empty
 )
 )
 {
-RTC_LOG
+RTC_DLOG
 (
 LS_INFO
 )
