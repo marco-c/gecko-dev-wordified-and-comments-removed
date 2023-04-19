@@ -453,7 +453,7 @@ length
 len
 )
 {
-RTC_FATAL
+FATAL
 (
 )
 <
@@ -493,8 +493,6 @@ increasing
 the
 buffer
 "
-<
-<
 "
 size
 "

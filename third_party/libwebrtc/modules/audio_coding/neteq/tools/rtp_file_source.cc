@@ -528,7 +528,7 @@ if
 rtp_reader_
 )
 {
-RTC_FATAL
+FATAL
 (
 )
 <
@@ -550,8 +550,6 @@ pcap
 .
 Note
 "
-<
-<
 "
 that
 .
