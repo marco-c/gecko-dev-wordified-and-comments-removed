@@ -438,6 +438,14 @@ nsIPrincipal
 aFirstPartyPrincipal
 )
 ;
+void
+ReportEmailTrackingLog
+(
+nsIPrincipal
+*
+aFirstPartyPrincipal
+)
+;
 nsAutoCString
 Stringify
 (
