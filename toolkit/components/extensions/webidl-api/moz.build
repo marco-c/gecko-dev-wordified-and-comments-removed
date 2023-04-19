@@ -101,6 +101,11 @@ ExtensionRuntime
 cpp
 "
 "
+ExtensionScripting
+.
+cpp
+"
+"
 ExtensionTest
 .
 cpp
@@ -121,6 +126,11 @@ h
 "
 "
 ExtensionRuntime
+.
+h
+"
+"
+ExtensionScripting
 .
 h
 "

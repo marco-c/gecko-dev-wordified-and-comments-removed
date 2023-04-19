@@ -57,6 +57,9 @@ class
 ExtensionRuntime
 ;
 class
+ExtensionScripting
+;
+class
 ExtensionTest
 ;
 bool
@@ -229,6 +232,12 @@ RefPtr
 ExtensionRuntime
 >
 mExtensionRuntime
+;
+RefPtr
+<
+ExtensionScripting
+>
+mExtensionScripting
 ;
 RefPtr
 <
@@ -420,6 +429,12 @@ GetExtensionMockAPI
 ExtensionRuntime
 *
 GetExtensionRuntime
+(
+)
+;
+ExtensionScripting
+*
+GetExtensionScripting
 (
 )
 ;

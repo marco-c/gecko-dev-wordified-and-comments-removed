@@ -6283,6 +6283,11 @@ ExtensionRuntime
 webidl
 "
 "
+ExtensionScripting
+.
+webidl
+"
+"
 ExtensionTest
 .
 webidl
