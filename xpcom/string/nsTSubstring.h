@@ -2149,11 +2149,11 @@ void
 CompressWhitespace
 (
 bool
-aEliminateLeading
+aTrimLeading
 =
 true
 bool
-aEliminateTrailing
+aTrimTrailing
 =
 true
 )
