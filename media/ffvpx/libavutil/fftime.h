@@ -11,13 +11,6 @@ stdint
 .
 h
 >
-#
-include
-<
-time
-.
-h
->
 int64_t
 av_gettime
 (

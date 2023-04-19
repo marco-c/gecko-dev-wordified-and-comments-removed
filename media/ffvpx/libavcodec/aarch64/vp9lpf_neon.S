@@ -4235,7 +4235,7 @@ the
 inner
 4
 pixels
-br
+ret
 x14
 1
 :
@@ -4292,7 +4292,7 @@ the
 inner
 6
 pixels
-br
+ret
 x15
 1
 :
@@ -5733,7 +5733,7 @@ v31
 ret
 9
 :
-br
+ret
 x10
 endfunc
 function
@@ -5754,7 +5754,7 @@ v31
 ret
 9
 :
-br
+ret
 x10
 endfunc
 function
@@ -5775,11 +5775,11 @@ v31
 ret
 6
 :
-br
+ret
 x13
 9
 :
-br
+ret
 x10
 endfunc
 function
@@ -5800,11 +5800,11 @@ v31
 ret
 6
 :
-br
+ret
 x13
 9
 :
-br
+ret
 x10
 endfunc
 function
@@ -5853,7 +5853,7 @@ d15
 sp
 ]
 0x10
-br
+ret
 x10
 endfunc
 function
@@ -5902,7 +5902,7 @@ d15
 sp
 ]
 0x10
-br
+ret
 x10
 endfunc
 .
@@ -6237,7 +6237,7 @@ v25
 x0
 ]
 x1
-br
+ret
 x10
 endfunc
 function
@@ -6415,7 +6415,7 @@ v25
 x0
 ]
 x1
-br
+ret
 x10
 endfunc
 function
@@ -6772,7 +6772,7 @@ s
 x0
 ]
 x1
-br
+ret
 x10
 endfunc
 function
@@ -7233,7 +7233,7 @@ s
 x0
 ]
 x1
-br
+ret
 x10
 endfunc
 function
@@ -7434,7 +7434,7 @@ v26
 x0
 ]
 x1
-br
+ret
 x10
 6
 :
@@ -7485,7 +7485,7 @@ v25
 x0
 ]
 x1
-br
+ret
 x10
 endfunc
 .
@@ -7698,7 +7698,7 @@ v26
 x0
 ]
 x1
-br
+ret
 x10
 6
 :
@@ -7749,7 +7749,7 @@ v25
 x0
 ]
 x1
-br
+ret
 x10
 endfunc
 .
@@ -7999,7 +7999,7 @@ v27
 x0
 ]
 x1
-br
+ret
 x10
 6
 :
@@ -8150,7 +8150,7 @@ s
 x0
 ]
 x1
-br
+ret
 x10
 endfunc
 .
@@ -8590,7 +8590,7 @@ d
 x0
 ]
 x1
-br
+ret
 x10
 6
 :
@@ -8821,7 +8821,7 @@ s
 x0
 ]
 x1
-br
+ret
 x10
 endfunc
 .
@@ -9331,7 +9331,7 @@ d15
 sp
 ]
 0x10
-br
+ret
 x10
 8
 :
@@ -9930,7 +9930,7 @@ d15
 sp
 ]
 0x10
-br
+ret
 x10
 8
 :
@@ -10563,7 +10563,7 @@ d15
 sp
 ]
 0x10
-br
+ret
 x10
 8
 :
@@ -11696,7 +11696,7 @@ d15
 sp
 ]
 0x10
-br
+ret
 x10
 8
 :

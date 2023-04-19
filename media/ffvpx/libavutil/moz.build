@@ -60,7 +60,7 @@ DIRS
 arm
 '
 ]
-elif
+if
 CONFIG
 [
 '
@@ -91,6 +91,11 @@ SOURCES
 +
 =
 [
+'
+avsscanf
+.
+c
+'
 '
 avstring
 .
@@ -281,6 +286,11 @@ lls
 c
 '
 '
+mastering_display_metadata
+.
+c
+'
+'
 pixelutils
 .
 c
@@ -326,11 +336,6 @@ SOURCES
 [
 '
 hwcontext_vaapi
-.
-c
-'
-'
-mastering_display_metadata
 .
 c
 '

@@ -281,6 +281,10 @@ list
 list
 term
 )
+#
+if
+FF_API_AV_FOPEN_UTF8
+attribute_deprecated
 FILE
 *
 av_fopen_utf8
@@ -295,6 +299,8 @@ char
 mode
 )
 ;
+#
+endif
 AVRational
 av_get_time_base_q
 (

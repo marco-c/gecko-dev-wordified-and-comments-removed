@@ -4,13 +4,6 @@ AVUTIL_EVAL_H
 #
 define
 AVUTIL_EVAL_H
-#
-include
-"
-avutil
-.
-h
-"
 typedef
 struct
 AVExpr

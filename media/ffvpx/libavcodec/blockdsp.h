@@ -25,13 +25,6 @@ avcodec
 .
 h
 "
-#
-include
-"
-version
-.
-h
-"
 typedef
 void
 (

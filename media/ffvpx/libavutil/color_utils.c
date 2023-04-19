@@ -15,13 +15,6 @@ h
 #
 include
 "
-common
-.
-h
-"
-#
-include
-"
 libavutil
 /
 color_utils
