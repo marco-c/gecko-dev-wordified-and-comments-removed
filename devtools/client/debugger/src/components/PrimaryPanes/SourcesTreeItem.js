@@ -87,7 +87,6 @@ AccessibleImage
 import
 {
 getGeneratedSourceByURL
-getHasSiblingOfSameName
 hasPrettyTab
 as
 checkHasPrettyTab
@@ -2406,13 +2405,6 @@ state
 hasMatchingGeneratedSource
 :
 getHasMatchingGeneratedSource
-(
-state
-source
-)
-hasSiblingOfSameName
-:
-getHasSiblingOfSameName
 (
 state
 source

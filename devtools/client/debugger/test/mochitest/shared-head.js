@@ -790,7 +790,10 @@ url
 .
 includes
 (
+encodeURI
+(
 sourceOrUrl
+)
 )
 )
 {
