@@ -148,11 +148,6 @@ false
 if
 (
 num_channels
-<
-0
-|
-|
-num_channels
 >
 =
 255
@@ -192,11 +187,6 @@ false
 ;
 if
 (
-num_channels
-<
-0
-|
-|
 num_streams
 <
 0

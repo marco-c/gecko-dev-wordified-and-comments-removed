@@ -240,11 +240,6 @@ false
 if
 (
 num_channels
-<
-0
-|
-|
-num_channels
 >
 =
 255
