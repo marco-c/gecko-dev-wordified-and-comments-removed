@@ -21,6 +21,15 @@ h
 #
 include
 "
+gc
+/
+Memory
+.
+h
+"
+#
+include
+"
 jit
 /
 Assembler
