@@ -2572,8 +2572,10 @@ return
 true
 ;
 }
-static
 bool
+xpc
+:
+:
 SandboxCreateStructuredClone
 (
 JSContext

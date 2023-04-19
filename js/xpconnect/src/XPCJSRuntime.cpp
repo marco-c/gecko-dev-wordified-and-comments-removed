@@ -751,6 +751,9 @@ crypto
 "
 indexedDB
 "
+"
+structuredClone
+"
 }
 ;
 class
