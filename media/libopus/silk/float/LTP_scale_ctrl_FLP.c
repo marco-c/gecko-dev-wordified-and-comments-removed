@@ -49,7 +49,7 @@ psEnc
 sCmn
 .
 PacketLoss_perc
-+
+*
 psEnc
 -
 >
