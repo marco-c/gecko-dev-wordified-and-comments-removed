@@ -98,6 +98,9 @@ constructor
 ;
 [
 SameObject
+Exposed
+=
+DedicatedWorker
 ]
 readonly
 attribute

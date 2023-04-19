@@ -57,7 +57,7 @@ rvfc
 /
 )
 dictionary
-VideoFrameMetadata
+VideoFrameCallbackMetadata
 {
 required
 DOMHighResTimeStamp
@@ -108,7 +108,7 @@ undefined
 (
 DOMHighResTimeStamp
 now
-VideoFrameMetadata
+VideoFrameCallbackMetadata
 metadata
 )
 ;

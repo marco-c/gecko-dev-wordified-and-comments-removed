@@ -612,6 +612,10 @@ echoReturnLossEnhancement
 double
 droppedSamplesDuration
 ;
+unsigned
+long
+droppedSamplesEvents
+;
 double
 totalCaptureDelay
 ;
@@ -651,6 +655,10 @@ RTCStats
 {
 double
 synthesizedSamplesDuration
+;
+unsigned
+long
+synthesizedSamplesEvents
 ;
 double
 totalSamplesDuration

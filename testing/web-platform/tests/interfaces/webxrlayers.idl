@@ -109,6 +109,10 @@ boolean
 chromaticAberrationCorrection
 ;
 attribute
+boolean
+forceMonoPresentation
+;
+attribute
 float
 opacity
 ;

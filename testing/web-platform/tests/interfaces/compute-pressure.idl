@@ -212,6 +212,10 @@ PressureObserverOptions
 {
 double
 sampleRate
+=
+1
+.
+0
 ;
 }
 ;
