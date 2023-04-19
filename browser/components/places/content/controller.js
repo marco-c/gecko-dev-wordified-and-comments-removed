@@ -6833,9 +6833,12 @@ flavor
 else
 if
 (
-data
-instanceof
 XULElement
+.
+isInstance
+(
+data
+)
 &
 &
 data

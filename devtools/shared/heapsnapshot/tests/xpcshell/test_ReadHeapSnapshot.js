@@ -102,9 +102,12 @@ snapshot
 ;
 ok
 (
-snapshot
-instanceof
 HeapSnapshot
+.
+isInstance
+(
+snapshot
+)
 "
 Should
 be

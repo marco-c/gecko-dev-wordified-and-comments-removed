@@ -164,11 +164,14 @@ childList
 let
 parent
 =
+HTMLDocument
+.
+isInstance
+(
 mutation
 .
 target
-instanceof
-HTMLDocument
+)
 ?
 mutation
 .

@@ -2354,11 +2354,14 @@ xul
 ;
 if
 (
-target
-instanceof
 window
 .
 XULElement
+.
+isInstance
+(
+target
+)
 &
 &
 target

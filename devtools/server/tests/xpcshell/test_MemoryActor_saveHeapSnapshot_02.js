@@ -71,9 +71,12 @@ snapshotFilePath
 ;
 ok
 (
-snapshot
-instanceof
 HeapSnapshot
+.
+isInstance
+(
+snapshot
+)
 "
 And
 we

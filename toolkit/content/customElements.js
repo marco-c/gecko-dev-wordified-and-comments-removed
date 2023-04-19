@@ -2612,9 +2612,12 @@ function
 {
 if
 (
-propOrMethod
-instanceof
 MozQueryInterface
+.
+isInstance
+(
+propOrMethod
+)
 )
 {
 return

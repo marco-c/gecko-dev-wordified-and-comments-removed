@@ -1904,9 +1904,12 @@ spec
 else
 if
 (
-aURI
-instanceof
 URL
+.
+isInstance
+(
+aURI
+)
 )
 {
 url

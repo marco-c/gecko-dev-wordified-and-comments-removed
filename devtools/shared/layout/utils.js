@@ -1665,12 +1665,15 @@ ownerGlobal
 &
 &
 node
-instanceof
-node
 .
 ownerGlobal
 .
 HTMLTemplateElement
+.
+isInstance
+(
+node
+)
 )
 ;
 }
