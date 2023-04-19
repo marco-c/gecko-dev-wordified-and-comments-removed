@@ -1539,7 +1539,7 @@ inline
 void
 DispatchToOnEdge
 (
-GenericTracer
+JSTracer
 *
 trc
 type

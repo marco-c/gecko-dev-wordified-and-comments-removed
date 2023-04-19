@@ -49,7 +49,7 @@ TenuringTracer
 final
 :
 public
-GenericTracer
+JSTracer
 {
 Nursery
 &
