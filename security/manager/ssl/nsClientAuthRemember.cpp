@@ -1597,10 +1597,6 @@ Find
 "
 :
 "
-false
-0
--
-1
 )
 ;
 nsCString

@@ -1295,10 +1295,10 @@ shm
 )
 |
 |
-leafName
-.
-Find
+StringBeginsWith
 (
+leafName
+u
 "
 caches
 .
@@ -1307,13 +1307,7 @@ sqlite
 mj
 "
 _ns
-false
-0
-0
 )
-=
-=
-0
 |
 |
 leafName
