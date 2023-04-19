@@ -1490,8 +1490,9 @@ i
 +
 )
 {
-RTC_CHECK
-(
+int
+result
+=
 WebRtcIlbcfix_DecodeImpl
 (
 &
@@ -1519,6 +1520,11 @@ IlbcDecoder
 iLBCdec_inst
 0
 )
+;
+RTC_CHECK_EQ
+(
+result
+0
 )
 ;
 }
