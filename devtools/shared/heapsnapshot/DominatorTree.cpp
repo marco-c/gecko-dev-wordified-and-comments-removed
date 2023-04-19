@@ -805,7 +805,11 @@ aCx
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aGivenProto
 )
 {

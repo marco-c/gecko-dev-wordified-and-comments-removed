@@ -18,7 +18,11 @@ options
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 newGlobal
 (
 cx
