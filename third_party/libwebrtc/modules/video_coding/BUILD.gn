@@ -9830,6 +9830,17 @@ metrics
 /
 test
 :
+fake_encoded_frame
+"
+"
+.
+.
+/
+.
+.
+/
+test
+:
 fake_video_codecs
 "
 "
