@@ -422,6 +422,7 @@ string
 )
 END_PROXY_MAP
 (
+Fake
 )
 #
 define
@@ -501,6 +502,7 @@ string
 )
 END_PROXY_MAP
 (
+Fake
 )
 #
 undef
@@ -1738,6 +1740,7 @@ Bar
 )
 END_PROXY_MAP
 (
+Foo
 )
 class
 OwnedProxyTest

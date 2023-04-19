@@ -476,6 +476,7 @@ comma_delay
 )
 END_PROXY_MAP
 (
+DtmfSender
 )
 bool
 GetDtmfCode

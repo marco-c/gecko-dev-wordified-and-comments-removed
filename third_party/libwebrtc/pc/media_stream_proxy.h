@@ -133,6 +133,7 @@ ObserverInterface
 )
 END_PROXY_MAP
 (
+MediaStream
 )
 }
 #

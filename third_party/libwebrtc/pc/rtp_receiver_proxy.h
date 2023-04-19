@@ -183,6 +183,7 @@ FrameTransformerInterface
 )
 END_PROXY_MAP
 (
+RtpReceiver
 )
 }
 #
