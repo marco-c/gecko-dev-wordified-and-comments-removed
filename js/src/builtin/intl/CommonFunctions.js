@@ -1360,7 +1360,6 @@ localeMatcher
 var
 r
 =
-(
 matcher
 =
 =
@@ -1368,7 +1367,6 @@ matcher
 "
 lookup
 "
-)
 ?
 LookupMatcher
 (
@@ -2165,7 +2163,6 @@ matcher
 }
 }
 return
-(
 matcher
 =
 =
@@ -2181,7 +2178,6 @@ matcher
 best
 fit
 "
-)
 ?
 BestFitSupportedLocales
 (

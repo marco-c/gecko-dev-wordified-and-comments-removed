@@ -1120,7 +1120,6 @@ i
 result
 +
 =
-(
 0x61
 <
 =
@@ -1131,7 +1130,6 @@ c
 <
 =
 0x7A
-)
 ?
 callFunction
 (
@@ -1294,6 +1292,7 @@ next
 )
 ;
 return
+(
 IsSanctionedSimpleUnitIdentifier
 (
 numerator
@@ -1303,6 +1302,7 @@ numerator
 IsSanctionedSimpleUnitIdentifier
 (
 denominator
+)
 )
 ;
 }
