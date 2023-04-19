@@ -148,6 +148,12 @@ imported
 script
 .
 py
+?
+test
+=
+{
+test
+}
 '
 )
 ;
