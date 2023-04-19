@@ -322,6 +322,9 @@ mState
 bool
 mToBeMerged
 ;
+bool
+mShouldResistFingerprinting
+;
 }
 ;
 }
