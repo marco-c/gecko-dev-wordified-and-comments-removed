@@ -42145,7 +42145,7 @@ templateObject
 using
 Fn
 =
-JSObject
+CallObject
 *
 (
 *
@@ -42167,7 +42167,10 @@ ool
 oolCallVM
 <
 Fn
-NewCallObject
+CallObject
+:
+:
+createWithShape
 >
 (
 lir

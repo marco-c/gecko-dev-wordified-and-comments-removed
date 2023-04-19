@@ -659,7 +659,7 @@ CallObject
 CallObject
 :
 :
-create
+createWithShape
 (
 JSContext
 *
@@ -1423,7 +1423,7 @@ CallObject
 callobj
 (
 cx
-create
+createWithShape
 (
 cx
 shape

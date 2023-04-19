@@ -438,7 +438,7 @@ QualifiedVarObj
 static
 CallObject
 *
-create
+createWithShape
 (
 JSContext
 *
