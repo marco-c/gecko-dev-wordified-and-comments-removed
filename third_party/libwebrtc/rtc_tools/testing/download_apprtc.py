@@ -86,7 +86,7 @@ _GetGoArchivePathForPlatform
 (
 )
 :
-  
+    
 archive_extension
 =
 '
@@ -109,7 +109,7 @@ tar
 .
 gz
 '
-  
+    
 return
 os
 .
@@ -137,7 +137,7 @@ main
 argv
 )
 :
-  
+    
 if
 len
 (
@@ -146,7 +146,7 @@ argv
 >
 2
 :
-    
+        
 return
 '
 Usage
@@ -162,7 +162,7 @@ argv
 [
 0
 ]
-  
+    
 output_dir
 =
 os
@@ -185,7 +185,7 @@ argv
 1
 else
 None
-  
+    
 apprtc_zip_path
 =
 os
@@ -201,7 +201,7 @@ prebuilt_apprtc
 zip
 '
 )
-  
+    
 if
 os
 .
@@ -217,7 +217,7 @@ sha1
 '
 )
 :
-    
+        
 utils
 .
 DownloadFilesFromGoogleStorage
@@ -227,14 +227,14 @@ auto_platform
 =
 False
 )
-  
+    
 if
 output_dir
 is
 not
 None
 :
-    
+        
 utils
 .
 RemoveDirectory
@@ -251,7 +251,7 @@ apprtc
 '
 )
 )
-    
+        
 utils
 .
 UnpackArchiveTo
@@ -259,7 +259,7 @@ UnpackArchiveTo
 apprtc_zip_path
 output_dir
 )
-  
+    
 golang_path
 =
 os
@@ -273,7 +273,7 @@ SCRIPT_DIR
 golang
 '
 )
-  
+    
 golang_zip_path
 =
 os
@@ -287,7 +287,7 @@ _GetGoArchivePathForPlatform
 (
 )
 )
-  
+    
 if
 os
 .
@@ -303,21 +303,21 @@ sha1
 '
 )
 :
-    
+        
 utils
 .
 DownloadFilesFromGoogleStorage
 (
 golang_path
 )
-  
+    
 if
 output_dir
 is
 not
 None
 :
-    
+        
 utils
 .
 RemoveDirectory
@@ -334,7 +334,7 @@ go
 '
 )
 )
-    
+        
 utils
 .
 UnpackArchiveTo
@@ -350,7 +350,7 @@ __name__
 __main__
 '
 :
-  
+    
 sys
 .
 exit

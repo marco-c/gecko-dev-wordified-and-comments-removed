@@ -4,15 +4,13 @@ def
 AddConfig
 (
 all_configs
-              
 packet_send_interval_ms
-              
 packet_size
               
 execution_time_ms
 )
 :
-  
+    
 config
 =
 all_configs
@@ -22,19 +20,19 @@ configs
 add
 (
 )
-  
+    
 config
 .
 packet_send_interval_ms
 =
 packet_send_interval_ms
-  
+    
 config
 .
 packet_size
 =
 packet_size
-  
+    
 config
 .
 execution_time_ms
@@ -45,7 +43,7 @@ main
 (
 )
 :
-  
+    
 all_configs
 =
 network_tester_config_pb2
@@ -53,7 +51,7 @@ network_tester_config_pb2
 NetworkTesterAllConfigs
 (
 )
-  
+    
 AddConfig
 (
 all_configs
@@ -61,7 +59,7 @@ all_configs
 50
 200
 )
-  
+    
 AddConfig
 (
 all_configs
@@ -69,7 +67,7 @@ all_configs
 100
 200
 )
-  
+    
 with
 open
 (
@@ -85,7 +83,7 @@ wb
 as
 f
 :
-    
+        
 f
 .
 write
@@ -104,7 +102,7 @@ __name__
 __main__
 "
 :
-  
+    
 main
 (
 )
