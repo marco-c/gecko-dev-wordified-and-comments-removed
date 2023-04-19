@@ -376,6 +376,9 @@ getCookiesForURI
 in
 nsIURI
 aURI
+in
+bool
+aIsPrivateBrowsing
 )
 ;
 /
