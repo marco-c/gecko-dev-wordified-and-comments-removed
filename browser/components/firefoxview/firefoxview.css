@@ -1476,6 +1476,14 @@ figure
 size
 )
 ;
+object
+-
+fit
+:
+scale
+-
+down
+;
 }
 [
 hidden
