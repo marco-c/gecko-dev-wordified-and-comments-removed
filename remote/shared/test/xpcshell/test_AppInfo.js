@@ -21,11 +21,11 @@ remote
 /
 content
 /
-marionette
+shared
 /
-appinfo
+AppInfo
 .
-js
+jsm
 "
 )
 ;
