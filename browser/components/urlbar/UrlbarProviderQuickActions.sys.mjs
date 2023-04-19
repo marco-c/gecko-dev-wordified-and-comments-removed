@@ -860,9 +860,7 @@ ACTIONS_SHOWN_FOCUS
 &
 &
 !
-queryContext
-.
-searchString
+input
 &
 &
 !
