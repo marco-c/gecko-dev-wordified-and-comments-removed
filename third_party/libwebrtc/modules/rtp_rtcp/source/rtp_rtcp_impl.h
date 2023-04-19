@@ -369,14 +369,6 @@ id
 )
 override
 ;
-int32_t
-DeregisterSendRtpHeaderExtension
-(
-RTPExtensionType
-type
-)
-override
-;
 void
 DeregisterSendRtpHeaderExtension
 (

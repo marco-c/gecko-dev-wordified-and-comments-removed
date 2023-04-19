@@ -517,17 +517,6 @@ RTC_LOCKS_EXCLUDED
 send_mutex_
 )
 ;
-int32_t
-DeregisterRtpHeaderExtension
-(
-RTPExtensionType
-type
-)
-RTC_LOCKS_EXCLUDED
-(
-send_mutex_
-)
-;
 void
 DeregisterRtpHeaderExtension
 (
