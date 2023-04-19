@@ -259,7 +259,7 @@ Prepare
 (
 StunMessage
 *
-request
+message
 )
 override
 ;
@@ -1088,7 +1088,7 @@ SendStunBindingResponse
 const
 StunMessage
 *
-request
+message
 )
 ;
 void
@@ -1097,7 +1097,7 @@ SendGoogPingResponse
 const
 StunMessage
 *
-request
+message
 )
 ;
 void

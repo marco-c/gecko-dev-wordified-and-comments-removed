@@ -4221,7 +4221,7 @@ SendBindingErrorResponse
 (
 StunMessage
 *
-request
+message
 const
 rtc
 :
@@ -4242,7 +4242,7 @@ reason
 {
 RTC_DCHECK
 (
-request
+message
 -
 >
 type
@@ -4253,7 +4253,7 @@ type
 STUN_BINDING_REQUEST
 |
 |
-request
+message
 -
 >
 type
@@ -4269,7 +4269,7 @@ response
 ;
 if
 (
-request
+message
 -
 >
 type
@@ -4302,7 +4302,7 @@ response
 .
 SetTransactionID
 (
-request
+message
 -
 >
 transaction_id
@@ -4363,7 +4363,7 @@ error_code
 STUN_ERROR_UNAUTHORIZED
 &
 &
-request
+message
 -
 >
 type
@@ -4376,7 +4376,7 @@ GOOG_PING_REQUEST
 {
 if
 (
-request
+message
 -
 >
 type
@@ -4408,7 +4408,7 @@ password_
 }
 if
 (
-request
+message
 -
 >
 type
@@ -4540,7 +4540,7 @@ SendUnknownAttributesErrorResponse
 (
 StunMessage
 *
-request
+message
 const
 rtc
 :
@@ -4562,7 +4562,7 @@ unknown_types
 {
 RTC_DCHECK
 (
-request
+message
 -
 >
 type
@@ -4587,7 +4587,7 @@ response
 .
 SetTransactionID
 (
-request
+message
 -
 >
 transaction_id

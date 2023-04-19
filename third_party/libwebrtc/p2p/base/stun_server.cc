@@ -399,7 +399,7 @@ GetStunBindResponse
 (
 StunMessage
 *
-request
+message
 const
 rtc
 :
@@ -426,7 +426,7 @@ response
 >
 SetTransactionID
 (
-request
+message
 -
 >
 transaction_id
@@ -445,7 +445,7 @@ mapped_addr
 ;
 if
 (
-request
+message
 -
 >
 IsLegacy
