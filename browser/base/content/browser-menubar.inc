@@ -3991,7 +3991,7 @@ switchToTabHavingURI
 '
 about
 :
-performance
+processes
 '
 true
 )
