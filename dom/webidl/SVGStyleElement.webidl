@@ -150,6 +150,13 @@ SVGStyleElement
 SVGElement
 {
 [
+Pure
+]
+attribute
+boolean
+disabled
+;
+[
 SetterThrows
 ]
 attribute
