@@ -609,6 +609,14 @@ AbsolutelyPositionDropDown
 )
 ;
 nscoord
+GetLongestOptionISize
+(
+gfxContext
+*
+)
+const
+;
+nscoord
 GetIntrinsicISize
 (
 gfxContext
