@@ -57,7 +57,7 @@ ComputeSizeFlag
 uint8_t
 {
 ShrinkWrap
-UseAutoBSize
+IsGridMeasuringReflow
 IClampMarginBoxMinSize
 BClampMarginBoxMinSize
 IApplyAutoMinSize

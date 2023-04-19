@@ -26305,7 +26305,7 @@ csFlags
 ComputeSizeFlag
 :
 :
-UseAutoBSize
+IsGridMeasuringReflow
 ;
 if
 (
@@ -31342,7 +31342,7 @@ cbSize
 (
 childWM
 0
-0
+NS_UNCONSTRAINEDSIZE
 )
 ;
 :
