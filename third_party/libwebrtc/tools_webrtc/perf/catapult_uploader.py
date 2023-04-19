@@ -8,6 +8,10 @@ import
 time
 import
 zlib
+from
+typing
+import
+Optional
 import
 dataclasses
 import
@@ -291,7 +295,12 @@ str
   
 output_json_file
 :
+Optional
+[
 str
+]
+=
+None
   
 wait_timeout_sec
 :
@@ -2029,7 +2038,7 @@ e
 )
     
 return
-2
+1
   
 return
 exit_code
