@@ -211,13 +211,6 @@ h
 "
 include
 /
-i420_buffer_pool
-.
-h
-"
-"
-include
-/
 incoming_video_stream
 .
 h
