@@ -2281,7 +2281,11 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
-EditResult
+Result
+<
+EditorDOMPoint
+nsresult
+>
 ClearStyleAt
 (
 const
