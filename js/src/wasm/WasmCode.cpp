@@ -83,6 +83,9 @@ MacroAssembler
 h
 "
 #
+ifdef
+JS_ION_PERF
+#
 include
 "
 jit
@@ -91,6 +94,8 @@ PerfSpewer
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -967,6 +972,9 @@ target
 }
 }
 }
+#
+ifdef
+JS_ION_PERF
 static
 bool
 AppendToString
@@ -1006,6 +1014,8 @@ append
 )
 ;
 }
+#
+endif
 static
 void
 SendCodeRangesToProfiler
@@ -1029,6 +1039,9 @@ enabled
 =
 false
 ;
+#
+ifdef
+JS_ION_PERF
 enabled
 |
 =
@@ -1036,6 +1049,8 @@ PerfEnabled
 (
 )
 ;
+#
+endif
 #
 ifdef
 MOZ_VTUNE
@@ -1149,6 +1164,9 @@ void
 )
 size
 ;
+#
+ifdef
+JS_ION_PERF
 if
 (
 PerfEnabled
@@ -1204,7 +1222,7 @@ funcLineOrBytecode
 (
 )
 ;
-CollectPerfSpewerWasmFunctionMap
+writePerfSpewerWasmFunctionMap
 (
 start
 size
@@ -1245,7 +1263,7 @@ name
 return
 ;
 }
-CollectPerfSpewerWasmMap
+writePerfSpewerWasmMap
 (
 start
 size
@@ -1285,7 +1303,7 @@ name
 return
 ;
 }
-CollectPerfSpewerWasmMap
+writePerfSpewerWasmMap
 (
 start
 size
@@ -1325,7 +1343,7 @@ name
 return
 ;
 }
-CollectPerfSpewerWasmMap
+writePerfSpewerWasmMap
 (
 start
 size
@@ -1365,7 +1383,7 @@ name
 return
 ;
 }
-CollectPerfSpewerWasmMap
+writePerfSpewerWasmMap
 (
 start
 size
@@ -1392,6 +1410,8 @@ type
 ;
 }
 }
+#
+endif
 #
 ifdef
 MOZ_VTUNE

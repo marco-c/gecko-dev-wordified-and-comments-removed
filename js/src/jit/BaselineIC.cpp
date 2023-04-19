@@ -105,6 +105,9 @@ Linker
 h
 "
 #
+ifdef
+JS_ION_PERF
+#
 include
 "
 jit
@@ -113,6 +116,8 @@ PerfSpewer
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -13688,7 +13693,10 @@ return
 false
 ;
 }
-CollectPerfSpewerJitCodeProfile
+#
+ifdef
+JS_ION_PERF
+writePerfSpewerJitCodeProfile
 (
 code
 "
@@ -13696,6 +13704,8 @@ BaselineICFallback
 "
 )
 ;
+#
+endif
 #
 ifdef
 MOZ_VTUNE
