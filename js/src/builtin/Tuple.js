@@ -470,11 +470,9 @@ k
 DefineDataProperty
 (
 newList
-(
 len
 -
 k
-)
 -
 1
 E
@@ -1090,7 +1088,6 @@ ITEM_KIND_VALUE
 )
 ;
 }
-;
 SetCanonicalName
 (
 TupleValues
