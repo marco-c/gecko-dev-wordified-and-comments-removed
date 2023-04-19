@@ -579,12 +579,6 @@ data_channel
 )
 ;
 bool
-has_channels
-(
-)
-const
-;
-bool
 StartAecDump
 (
 webrtc
