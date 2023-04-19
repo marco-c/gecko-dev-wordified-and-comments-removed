@@ -27403,10 +27403,6 @@ MOZ_CONTAINER
 container
 )
 ;
-mCompositorState
-=
-COMPOSITOR_PAUSED_INITIALLY
-;
 gtk_widget_realize
 (
 mShell

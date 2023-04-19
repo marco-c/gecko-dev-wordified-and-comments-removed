@@ -2700,7 +2700,7 @@ Relaxed
 >
 mCompositorState
 {
-COMPOSITOR_ENABLED
+COMPOSITOR_PAUSED_INITIALLY
 }
 ;
 int
