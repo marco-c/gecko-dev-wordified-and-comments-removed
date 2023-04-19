@@ -103,6 +103,16 @@ MFMediaEngineDecoderModule
 cpp
 "
 "
+MFMediaEngineExtension
+.
+cpp
+"
+"
+MFMediaEngineNotify
+.
+cpp
+"
+"
 MFMediaEngineStream
 .
 cpp
