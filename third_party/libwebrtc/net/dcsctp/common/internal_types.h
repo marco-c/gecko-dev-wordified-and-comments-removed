@@ -98,6 +98,16 @@ VerificationTagTag
 uint32_t
 >
 ;
+using
+TieTag
+=
+StrongAlias
+<
+class
+TieTagTag
+uint64_t
+>
+;
 struct
 UnorderedStreamHash
 {
