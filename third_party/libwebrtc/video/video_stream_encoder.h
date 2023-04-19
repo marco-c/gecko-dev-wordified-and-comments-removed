@@ -349,6 +349,15 @@ VideoSourceRestrictionsListener
 {
 public
 :
+enum
+class
+BitrateAllocationCallbackType
+{
+kVideoBitrateAllocation
+kVideoBitrateAllocationWhenScreenSharing
+kVideoLayersAllocation
+}
+;
 VideoStreamEncoder
 (
 Clock
@@ -374,6 +383,8 @@ overuse_detector
 TaskQueueFactory
 *
 task_queue_factory
+BitrateAllocationCallbackType
+allocation_cb_type
 )
 ;
 ~
@@ -984,6 +995,10 @@ sink_
 const
 VideoStreamEncoderSettings
 settings_
+;
+const
+BitrateAllocationCallbackType
+allocation_cb_type_
 ;
 const
 RateControlSettings
