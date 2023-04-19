@@ -814,6 +814,53 @@ warm
 None
 }
             
+profiling_dir
+=
+os
+.
+path
+.
+join
+(
+topdir
+"
+profiling
+"
+)
+            
+is_extra_profiler_run
+=
+self
+.
+raptor_config
+.
+get
+(
+                
+"
+extra_profiler_run
+"
+False
+            
+)
+and
+os
+.
+path
+.
+isdir
+(
+profiling_dir
+)
+            
+result_dir
+=
+profiling_dir
+if
+is_extra_profiler_run
+else
+topdir
+            
 for
 filename
 in
@@ -821,7 +868,7 @@ os
 .
 listdir
 (
-topdir
+result_dir
 )
 :
                 
@@ -849,7 +896,7 @@ path
 .
 join
 (
-topdir
+result_dir
 filename
 )
                 
@@ -879,7 +926,7 @@ path
 .
 join
 (
-topdir
+result_dir
 filename
 )
                 
@@ -909,7 +956,7 @@ path
 .
 join
 (
-topdir
+result_dir
 filename
 )
                 
@@ -974,6 +1021,9 @@ chimera
 "
 False
 )
+and
+not
+is_extra_profiler_run
 :
                 
 if
@@ -1110,6 +1160,17 @@ load
 f
 )
                 
+results_dir
+=
+os
+.
+path
+.
+dirname
+(
+results_json
+)
+                
 for
 entry
 in
@@ -1149,7 +1210,7 @@ path
 .
 join
 (
-topdir
+results_dir
 rel_profile_path
 )
                                 
