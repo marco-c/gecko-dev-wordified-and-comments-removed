@@ -78,9 +78,12 @@ Map
 Type
 instances
 to
-an
-include
-statement
+a
+Box
+<
+dyn
+CodeType
+>
 for
 that
 type

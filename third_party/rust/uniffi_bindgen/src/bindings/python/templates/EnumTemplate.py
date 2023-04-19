@@ -5,14 +5,9 @@
 let
 e
 =
-ci
+self
 .
-get_enum_definition
-(
-name
-)
-.
-unwrap
+inner
 (
 )
 %
@@ -30,6 +25,8 @@ is_flat
 class
 {
 {
+e
+|
 type_name
 }
 }
@@ -87,6 +84,8 @@ else
 class
 {
 {
+e
+|
 type_name
 }
 }
@@ -105,6 +104,8 @@ RuntimeError
 "
 {
 {
+e
+|
 type_name
 }
 }
@@ -282,6 +283,8 @@ return
 "
 {
 {
+e
+|
 type_name
 }
 }
@@ -317,8 +320,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 =
@@ -373,8 +374,6 @@ field
 name
 (
 )
-|
-var_name
 }
 }
 {
@@ -535,6 +534,8 @@ isinstance
 self
 {
 {
+e
+|
 type_name
 }
 }
@@ -572,6 +573,8 @@ variants
 }
 {
 {
+e
+|
 type_name
 }
 }
@@ -593,6 +596,8 @@ type
 "
 {
 {
+e
+|
 type_name
 }
 }
@@ -612,6 +617,8 @@ enum_variant_py
 (
 {
 {
+e
+|
 type_name
 }
 }
@@ -629,6 +636,8 @@ enum_variant_py
 }
 {
 {
+e
+|
 type_name
 }
 }
@@ -649,6 +658,8 @@ endif
 class
 {
 {
+e
+|
 ffi_converter_name
 }
 }
@@ -716,6 +727,8 @@ is_flat
 return
 {
 {
+e
+|
 type_name
 }
 }
@@ -742,6 +755,8 @@ else
 return
 {
 {
+e
+|
 type_name
 }
 }
@@ -863,6 +878,8 @@ value
 =
 {
 {
+e
+|
 type_name
 }
 }

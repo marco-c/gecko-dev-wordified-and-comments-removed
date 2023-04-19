@@ -1,6 +1,8 @@
 from
 {
 {
+self
+.
 crate_name
 |
 fn_name
