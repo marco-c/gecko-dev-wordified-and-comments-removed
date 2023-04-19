@@ -1234,11 +1234,11 @@ aPrivate
 userFontData
 -
 >
-mFormatHint
+mFormat
 =
 src
 .
-mFormatHint
+mFormatFlags
 ;
 userFontData
 -
@@ -2394,7 +2394,7 @@ IsFontFormatSupported
 (
 currSrc
 .
-mFormatHint
+mFormatFlags
 )
 )
 {
