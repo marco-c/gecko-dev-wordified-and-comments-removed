@@ -476,7 +476,7 @@ action
 {
 TabsSetupFlowManager
 .
-openSyncPreferences
+openFxAPairDevice
 (
 event
 .
@@ -546,7 +546,7 @@ action
 {
 TabsSetupFlowManager
 .
-openSyncPreferences
+openFxAPairDevice
 (
 event
 .
