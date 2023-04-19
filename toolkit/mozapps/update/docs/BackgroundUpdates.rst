@@ -1341,9 +1341,9 @@ by
 the
 app
 .
-background
-.
 update
+.
+background
 .
 interval
 preference
