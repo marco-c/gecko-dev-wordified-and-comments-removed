@@ -1,3 +1,5 @@
+add_task
+(
 async
 function
 testSteps
@@ -487,3 +489,5 @@ B
 ;
 }
 }
+)
+;

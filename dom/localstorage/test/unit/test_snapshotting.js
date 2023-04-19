@@ -1,3 +1,5 @@
+add_task
+(
 async
 function
 testSteps
@@ -1395,3 +1397,5 @@ returnToEventLoop
 }
 }
 }
+)
+;

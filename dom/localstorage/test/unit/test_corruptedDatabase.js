@@ -149,6 +149,8 @@ usage
 )
 ;
 }
+add_task
+(
 async
 function
 testSteps
@@ -207,3 +209,5 @@ profile
 ;
 }
 }
+)
+;

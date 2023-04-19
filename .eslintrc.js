@@ -1021,14 +1021,6 @@ indexedDB
 *
 *
 "
-"
-dom
-/
-localstorage
-/
-*
-*
-"
 ]
 rules
 :

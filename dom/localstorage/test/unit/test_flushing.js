@@ -1,3 +1,5 @@
+add_task
+(
 async
 function
 testSteps
@@ -271,3 +273,5 @@ request
 )
 ;
 }
+)
+;

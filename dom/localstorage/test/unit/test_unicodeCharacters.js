@@ -734,6 +734,8 @@ request
 ;
 }
 ;
+add_task
+(
 async
 function
 testSteps
@@ -1057,3 +1059,5 @@ fetchFromNewSnapshotNewDatastore
 )
 ;
 }
+)
+;

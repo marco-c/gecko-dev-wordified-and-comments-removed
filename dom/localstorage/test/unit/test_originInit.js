@@ -1,3 +1,5 @@
+add_task
+(
 async
 function
 testSteps
@@ -1640,3 +1642,5 @@ clearPersistentTestOrigin
 )
 ;
 }
+)
+;

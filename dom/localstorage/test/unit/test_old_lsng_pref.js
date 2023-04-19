@@ -1,3 +1,5 @@
+add_task
+(
 async
 function
 testSteps
@@ -42,3 +44,5 @@ enabled
 )
 ;
 }
+)
+;

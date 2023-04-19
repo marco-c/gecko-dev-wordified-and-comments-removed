@@ -9,6 +9,8 @@ js
 "
 )
 ;
+add_task
+(
 async
 function
 testSteps
@@ -43,3 +45,5 @@ true
 )
 ;
 }
+)
+;

@@ -1,3 +1,5 @@
+add_task
+(
 async
 function
 testSteps
@@ -369,3 +371,5 @@ checkStorage
 )
 ;
 }
+)
+;
