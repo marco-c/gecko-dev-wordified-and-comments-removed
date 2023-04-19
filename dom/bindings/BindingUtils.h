@@ -3726,6 +3726,8 @@ JSClass
 constructorClass
 unsigned
 ctorNargs
+bool
+isConstructorChromeOnly
 const
 LegacyFactoryFunction
 *

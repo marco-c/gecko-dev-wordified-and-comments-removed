@@ -5940,6 +5940,8 @@ JSClass
 constructorClass
 unsigned
 ctorNargs
+bool
+isConstructorChromeOnly
 const
 LegacyFactoryFunction
 *
@@ -6330,7 +6332,17 @@ cx
 global
 constructorProto
 constructorClass
+(
+isChrome
+|
+|
+!
+isConstructorChromeOnly
+)
+?
 ctorNargs
+:
+0
 namedConstructors
 proto
 properties
