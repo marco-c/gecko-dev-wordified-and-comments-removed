@@ -24,6 +24,7 @@ IsCallable
 adder
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -31,6 +32,7 @@ typeof
 adder
 )
 ;
+}
 for
 (
 var
@@ -50,6 +52,7 @@ IsObject
 nextItem
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_INVALID_MAP_ITERABLE
@@ -58,6 +61,7 @@ Map
 "
 )
 ;
+}
 callContentFunction
 (
 adder
@@ -110,6 +114,7 @@ M
 =
 null
 )
+{
 return
 callFunction
 (
@@ -122,6 +127,7 @@ MapForEach
 "
 )
 ;
+}
 if
 (
 !
@@ -130,6 +136,7 @@ IsCallable
 callbackfn
 )
 )
+{
 ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
@@ -140,6 +147,7 @@ callbackfn
 )
 )
 ;
+}
 var
 entries
 =
@@ -191,8 +199,10 @@ if
 (
 done
 )
+{
 break
 ;
+}
 var
 key
 =
@@ -275,6 +285,7 @@ O
 =
 null
 )
+{
 return
 callFunction
 (
@@ -285,6 +296,7 @@ MapIteratorNext
 "
 )
 ;
+}
 var
 mapIterationResultPair
 =
