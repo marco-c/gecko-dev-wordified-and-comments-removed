@@ -4002,12 +4002,6 @@ encoded_frame_buffer_function_
 ;
 old_state
 .
-keyframe_needed
-=
-keyframe_generation_requested_
-;
-old_state
-.
 last_keyframe_request_ms
 =
 last_keyframe_request_ms_
@@ -4048,9 +4042,7 @@ else
 {
 keyframe_generation_requested_
 =
-state
-.
-keyframe_needed
+false
 ;
 last_keyframe_request_ms_
 =

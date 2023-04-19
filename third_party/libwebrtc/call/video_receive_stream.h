@@ -297,11 +297,6 @@ RecordableEncodedFrame
 >
 callback
 ;
-bool
-keyframe_needed
-=
-false
-;
 absl
 :
 :
