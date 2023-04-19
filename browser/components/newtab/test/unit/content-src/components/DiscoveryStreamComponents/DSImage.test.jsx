@@ -902,7 +902,7 @@ className
 "
 )
 "
-broken
+placeholder
 -
 image
 "
