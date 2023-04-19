@@ -14886,6 +14886,8 @@ alignJitStackBasedOnNArgs
 (
 uint32_t
 argc
+bool
+countIncludesThis
 )
 {
 assertStackAlignment
@@ -14936,7 +14938,8 @@ nArgs
 =
 argc
 +
-1
+!
+countIncludesThis
 ;
 if
 (

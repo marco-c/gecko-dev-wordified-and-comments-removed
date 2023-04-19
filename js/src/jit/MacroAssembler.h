@@ -23162,6 +23162,8 @@ alignJitStackBasedOnNArgs
 (
 uint32_t
 argc
+bool
+countIncludesThis
 )
 ;
 inline

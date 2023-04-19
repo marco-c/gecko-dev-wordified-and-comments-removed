@@ -43459,6 +43459,10 @@ callScriptedFunction
 thisObjId
 argcId
 targetFlags
+ClampFixedArgc
+(
+argc_
+)
 )
 ;
 }
@@ -43473,6 +43477,10 @@ argcId
 op_
 target
 targetFlags
+ClampFixedArgc
+(
+argc_
+)
 )
 ;
 }
@@ -43517,6 +43525,10 @@ callScriptedFunction
 thisObjId
 argcId
 targetFlags
+ClampFixedArgc
+(
+argc_
+)
 )
 ;
 }
@@ -43536,6 +43548,10 @@ callAnyNativeFunction
 thisObjId
 argcId
 targetFlags
+ClampFixedArgc
+(
+argc_
+)
 )
 ;
 }
@@ -46600,6 +46616,11 @@ argcId
 format
 )
 ;
+uint32_t
+fixedArgc
+=
+MaxUnrolledArgCopy
+;
 if
 (
 mode_
@@ -46632,6 +46653,7 @@ callScriptedFunction
 thisObjId
 argcId
 targetFlags
+fixedArgc
 )
 ;
 }
@@ -46646,6 +46668,7 @@ argcId
 op_
 target
 targetFlags
+fixedArgc
 )
 ;
 }
@@ -46690,6 +46713,7 @@ callScriptedFunction
 thisObjId
 argcId
 targetFlags
+fixedArgc
 )
 ;
 }
@@ -46709,6 +46733,7 @@ callAnyNativeFunction
 thisObjId
 argcId
 targetFlags
+fixedArgc
 )
 ;
 }
@@ -47506,6 +47531,10 @@ callWasmFunction
 calleeObjId
 argcId
 flags
+ClampFixedArgc
+(
+argc_
+)
 &
 funcExport
 inst
@@ -50589,6 +50618,10 @@ callScriptedFunction
 calleeObjId
 argcId
 flags
+ClampFixedArgc
+(
+argc_
+)
 )
 ;
 writer
@@ -50909,6 +50942,10 @@ argcId
 thisObjId
 calleeFunc
 flags
+ClampFixedArgc
+(
+argc_
+)
 )
 ;
 trackAttached
@@ -50942,6 +50979,10 @@ argcId
 op_
 calleeFunc
 flags
+ClampFixedArgc
+(
+argc_
+)
 )
 ;
 trackAttached
@@ -51002,6 +51043,10 @@ callAnyNativeFunction
 calleeObjId
 argcId
 flags
+ClampFixedArgc
+(
+argc_
+)
 )
 ;
 trackAttached
@@ -51189,6 +51234,10 @@ calleeObjId
 argcId
 hook
 flags
+ClampFixedArgc
+(
+argc_
+)
 )
 ;
 writer

@@ -4934,6 +4934,9 @@ Int32Id
 flags
 :
 CallFlagsImm
+argcFixed
+:
+UInt32Imm
 -
 name
 :
@@ -4958,6 +4961,9 @@ Int32Id
 flags
 :
 CallFlagsImm
+argcFixed
+:
+UInt32Imm
 funcExport
 :
 RawPointerField
@@ -5012,6 +5018,9 @@ Int32Id
 flags
 :
 CallFlagsImm
+argcFixed
+:
+UInt32Imm
 #
 ifdef
 JS_SIMULATOR
@@ -5055,6 +5064,9 @@ ObjId
 flags
 :
 CallFlagsImm
+argcFixed
+:
+UInt32Imm
 #
 ifdef
 JS_SIMULATOR
@@ -5090,6 +5102,9 @@ Int32Id
 flags
 :
 CallFlagsImm
+argcFixed
+:
+UInt32Imm
 target
 :
 RawPointerField
@@ -5123,6 +5138,9 @@ RawPointerField
 flags
 :
 CallFlagsImm
+argcFixed
+:
+UInt32Imm
 #
 Meta
 ops
