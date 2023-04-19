@@ -679,12 +679,6 @@ mId
 (
 aId
 )
-mFormat
-(
-aDesc
-.
-mFormat
-)
 mBytesPerBlock
 (
 GetBytesPerBlock
