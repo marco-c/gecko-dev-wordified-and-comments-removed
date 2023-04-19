@@ -169,13 +169,6 @@ len
 )
 #
 elif
-defined
-(
-OPUS_HAVE_RTCD
-)
-&
-&
-(
 (
 defined
 (
@@ -201,7 +194,6 @@ OPUS_X86_MAY_HAVE_SSE
 defined
 (
 FIXED_POINT
-)
 )
 )
 extern
@@ -478,13 +470,6 @@ N
 )
 #
 elif
-defined
-(
-OPUS_HAVE_RTCD
-)
-&
-&
-(
 (
 (
 defined
@@ -519,7 +504,6 @@ OPUS_X86_MAY_HAVE_SSE
 defined
 (
 FIXED_POINT
-)
 )
 )
 extern

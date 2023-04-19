@@ -28,6 +28,9 @@ defined
 (
 FIXED_POINT
 )
+#
+define
+OVERRIDE_CELT_FIR
 void
 celt_fir_sse4_1
 (
@@ -58,9 +61,6 @@ OPUS_X86_PRESUME_SSE4_1
 )
 #
 define
-OVERRIDE_CELT_FIR
-#
-define
 celt_fir
 (
 x
@@ -87,11 +87,7 @@ arch
 )
 )
 #
-elif
-defined
-(
-OPUS_HAVE_RTCD
-)
+else
 extern
 void
 (
@@ -124,9 +120,6 @@ int
 arch
 )
 ;
-#
-define
-OVERRIDE_CELT_FIR
 #
 define
 celt_fir
