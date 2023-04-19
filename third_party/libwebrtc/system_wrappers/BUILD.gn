@@ -497,6 +497,8 @@ deps
 .
 /
 rtc_base
+:
+win32
 "
 ]
 }
