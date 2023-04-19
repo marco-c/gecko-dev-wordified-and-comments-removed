@@ -678,6 +678,9 @@ TextDecoder
 TextEncoder
 "
 "
+TextMetrics
+"
+"
 TransformStream
 "
 "
