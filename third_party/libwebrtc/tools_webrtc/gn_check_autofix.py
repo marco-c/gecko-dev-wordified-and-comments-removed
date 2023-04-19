@@ -277,16 +277,22 @@ subprocess
 Popen
 (
 cmd
+                         
 stdout
 =
 subprocess
 .
 PIPE
+                         
 stderr
 =
 subprocess
 .
 PIPE
+                         
+universal_newlines
+=
+True
 )
   
 return
@@ -1087,15 +1093,6 @@ mb_output
 0
 ]
 .
-decode
-(
-'
-utf
--
-8
-'
-)
-.
 split
 (
 '
@@ -1135,8 +1132,13 @@ error
 =
 error
 .
-splitlines
+split
 (
+'
+\
+\
+n
+'
 )
     
 target_msg
