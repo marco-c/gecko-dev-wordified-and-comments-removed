@@ -13865,7 +13865,7 @@ NS_WARNING
 "
 Fallback
 to
-BasicLayerManager
+FallbackRenderer
 "
 )
 ;
