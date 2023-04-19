@@ -1096,6 +1096,14 @@ IPC
 Message
 >
 aMsg
+IPC
+:
+:
+Message
+:
+:
+msgid_t
+aReplyMsgId
 ResolveCallback
 <
 Value
@@ -1130,7 +1138,10 @@ move
 (
 aMsg
 )
-this
+Id
+(
+)
+aReplyMsgId
 std
 :
 :
