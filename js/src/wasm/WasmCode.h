@@ -870,6 +870,13 @@ UniquePtr
 ModuleSegment
 >
 ;
+enum
+IsTier2
+{
+Tier2
+NotTier2
+}
+;
 class
 ModuleSegment
 :
@@ -938,6 +945,8 @@ linkData
 bool
 initialize
 (
+IsTier2
+isTier2
 const
 CodeTier
 &
@@ -2710,6 +2719,8 @@ initialized
 bool
 initialize
 (
+IsTier2
+isTier2
 const
 Code
 &
