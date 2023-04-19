@@ -1016,15 +1016,6 @@ FlexboxAxisTracker
 aAxisTracker
 )
 ;
-bool
-ShouldUseMozBoxCollapseBehavior
-(
-const
-nsStyleDisplay
-*
-aFlexStyleDisp
-)
-;
 void
 GenerateFlexLines
 (
