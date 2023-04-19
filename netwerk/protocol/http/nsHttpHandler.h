@@ -287,6 +287,8 @@ bool
 isSecure
 ExtContentPolicyType
 aContentPolicyType
+bool
+aShouldResistFingerprinting
 )
 ;
 [
@@ -319,6 +321,8 @@ nsCString
 &
 UserAgent
 (
+bool
+aShouldResistFingerprinting
 )
 ;
 enum

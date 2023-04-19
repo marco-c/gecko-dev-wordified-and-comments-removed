@@ -2082,6 +2082,13 @@ AddStandardRequestHeaders
 mRequestHead
 isHTTPS
 aContentPolicyType
+nsContentUtils
+:
+:
+ShouldResistFingerprinting
+(
+this
+)
 )
 ;
 if
