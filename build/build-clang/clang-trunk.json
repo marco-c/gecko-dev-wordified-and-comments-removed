@@ -57,7 +57,7 @@ win64
 -
 no
 -
-symlink
+symlink_clang_16
 .
 patch
 "
