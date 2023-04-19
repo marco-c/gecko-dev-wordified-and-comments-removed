@@ -396,11 +396,14 @@ selector
 ;
 if
 (
-target
-instanceof
 content
 .
 HTMLIFrameElement
+.
+isInstance
+(
+target
+)
 )
 {
 document

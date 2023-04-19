@@ -380,9 +380,12 @@ throw
 ;
 ok
 (
-ex
-instanceof
 DOMException
+.
+isInstance
+(
+ex
+)
 "
 Threw
 DOMException

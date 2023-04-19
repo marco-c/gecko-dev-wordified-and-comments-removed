@@ -42,9 +42,12 @@ subject
 {
 ok
 (
-subject
-instanceof
 BrowsingContext
+.
+isInstance
+(
+subject
+)
 "
 subject
 to

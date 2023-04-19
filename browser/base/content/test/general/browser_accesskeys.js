@@ -915,12 +915,13 @@ event
 if
 (
 !
+HTMLElement
+.
+isInstance
 (
 event
 .
 target
-instanceof
-HTMLElement
 )
 )
 {

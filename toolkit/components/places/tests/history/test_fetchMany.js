@@ -422,6 +422,10 @@ Assert
 .
 ok
 (
+URL
+.
+isInstance
+(
 fetched
 .
 get
@@ -430,8 +434,7 @@ key
 )
 .
 url
-instanceof
-URL
+)
 )
 ;
 }

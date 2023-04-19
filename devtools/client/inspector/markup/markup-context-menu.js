@@ -285,12 +285,13 @@ event
 if
 (
 !
+Element
+.
+isInstance
 (
 event
 .
 originalTarget
-instanceof
-Element
 )
 |
 |

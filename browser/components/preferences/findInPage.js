@@ -2336,9 +2336,12 @@ nodeObject
 }
 if
 (
-child
-instanceof
 Element
+.
+isInstance
+(
+child
+)
 &
 &
 (
