@@ -218,11 +218,9 @@ VCMFrameInformation
 frameInfo
 )
 ;
-int32_t
-Pop
+void
+ClearTimestampMap
 (
-uint32_t
-timestamp
 )
 ;
 private
@@ -368,12 +366,6 @@ private
 VCMDecodedFrameCallback
 *
 _callback
-;
-VCMFrameInformation
-_frameInfos
-[
-kDecoderFrameMemoryLength
-]
 ;
 std
 :

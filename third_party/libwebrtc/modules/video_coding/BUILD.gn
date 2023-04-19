@@ -7309,6 +7309,11 @@ stream_generator
 h
 "
 "
+timestamp_map_unittest
+.
+cc
+"
+"
 timing_unittest
 .
 cc
