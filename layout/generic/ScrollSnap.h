@@ -144,6 +144,15 @@ nsIFrame
 aFrame
 )
 ;
+static
+void
+PostPendingResnapIfNeededFor
+(
+nsIFrame
+*
+aFrame
+)
+;
 }
 ;
 }
