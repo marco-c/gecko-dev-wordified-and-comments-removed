@@ -510,6 +510,10 @@ macromagic
 "
 "
 :
+refcount
+"
+"
+:
 rtc_task_queue
 "
 "
@@ -1035,10 +1039,6 @@ platform_thread
 "
 :
 platform_thread_types
-"
-"
-:
-refcount
 "
 "
 :
@@ -4105,6 +4105,10 @@ platform_thread_types
 "
 "
 :
+refcount
+"
+"
+:
 rtc_base_approved
 "
 "
@@ -4620,6 +4624,10 @@ network_constants
 "
 :
 null_socket_server
+"
+"
+:
+refcount
 "
 "
 :
@@ -6948,6 +6956,10 @@ rate_limiter
 "
 "
 :
+refcount
+"
+"
+:
 rtc_base
 "
 "
@@ -7626,6 +7638,10 @@ net_helpers
 "
 :
 null_socket_server
+"
+"
+:
+refcount
 "
 "
 :

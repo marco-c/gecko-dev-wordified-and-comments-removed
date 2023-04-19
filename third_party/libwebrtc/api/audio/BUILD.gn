@@ -251,6 +251,17 @@ audio_frame_api
 /
 rtc_base
 :
+refcount
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 rtc_base_approved
 "
 ]

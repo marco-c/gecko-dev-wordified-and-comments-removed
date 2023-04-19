@@ -4742,6 +4742,14 @@ net_helpers
 /
 rtc_base
 :
+refcount
+"
+"
+.
+.
+/
+rtc_base
+:
 threading
 "
 "

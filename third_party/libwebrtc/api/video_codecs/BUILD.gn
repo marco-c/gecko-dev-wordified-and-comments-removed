@@ -336,6 +336,17 @@ macromagic
 /
 rtc_base
 :
+refcount
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 rtc_base_approved
 "
 "
