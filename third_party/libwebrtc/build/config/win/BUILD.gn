@@ -2179,7 +2179,7 @@ defines
 "
 NTDDI_VERSION
 =
-NTDDI_WIN10_VB
+0x0A000000
 "
 #
 We
