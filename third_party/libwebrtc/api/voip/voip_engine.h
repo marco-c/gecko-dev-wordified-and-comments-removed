@@ -23,6 +23,9 @@ class
 VoipStatistics
 ;
 class
+VoipVolumeControl
+;
+class
 VoipEngine
 {
 public
@@ -75,6 +78,15 @@ virtual
 VoipStatistics
 &
 Statistics
+(
+)
+=
+0
+;
+virtual
+VoipVolumeControl
+&
+VolumeControl
 (
 )
 =

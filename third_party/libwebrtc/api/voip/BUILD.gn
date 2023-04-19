@@ -142,6 +142,11 @@ voip_statistics
 .
 h
 "
+"
+voip_volume_control
+.
+h
+"
 ]
 deps
 =
