@@ -2316,14 +2316,12 @@ n
 aPtr
 )
 ;
-PUSH_IGNORE_THREAD_SAFETY
 sMutex
 .
 Unlock
 (
 )
 ;
-POP_THREAD_SAFETY
 *
 static_cast
 <
@@ -2718,10 +2716,6 @@ void
 prefork
 (
 )
-CAPABILITY_ACQUIRE
-(
-sMutex
-)
 {
 sMutex
 .
@@ -2734,10 +2728,6 @@ static
 void
 postfork_parent
 (
-)
-CAPABILITY_RELEASE
-(
-sMutex
 )
 {
 sMutex
