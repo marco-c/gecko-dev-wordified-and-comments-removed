@@ -696,11 +696,9 @@ rust
 -
 1
 .
-63
+62
 .
 0
--
-dev
 toolchain
 :
 -
