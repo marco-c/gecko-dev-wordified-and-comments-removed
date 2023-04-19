@@ -1698,9 +1698,11 @@ recvStreamRecreationNeeded
 mRecvStream
 -
 >
-Reconfigure
+SetDecoderMap
 (
 mRecvStreamConfig
+.
+decoder_map
 )
 ;
 }
