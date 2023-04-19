@@ -84,7 +84,6 @@ size_t
 bytes_per_sample
 size_t
 num_channels
-const
 uint32_t
 samples_per_sec
 )

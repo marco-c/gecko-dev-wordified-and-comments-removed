@@ -36,10 +36,8 @@ const
 uint16_t
 *
 env
-const
 int
 N
-const
 int16_t
 isSWB12kHz
 )
@@ -69,10 +67,8 @@ const
 int16_t
 *
 dither
-const
 int
 N
-const
 int16_t
 isSWB12kHz
 )
@@ -93,7 +89,6 @@ uint16_t
 const
 *
 cdf
-const
 int
 N
 )
@@ -117,7 +112,6 @@ const
 uint16_t
 *
 cdf_size
-const
 int
 N
 )
@@ -141,7 +135,6 @@ const
 uint16_t
 *
 init_index
-const
 int
 N
 )

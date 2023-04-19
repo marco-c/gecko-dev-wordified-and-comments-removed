@@ -863,7 +863,6 @@ const
 EncodedImage
 &
 encoded_image
-const
 VideoCodecType
 codec
 size_t

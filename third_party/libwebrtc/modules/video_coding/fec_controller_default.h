@@ -193,10 +193,8 @@ override
 void
 UpdateWithEncodedData
 (
-const
 size_t
 encoded_image_length
-const
 VideoFrameType
 encoded_image_frametype
 )

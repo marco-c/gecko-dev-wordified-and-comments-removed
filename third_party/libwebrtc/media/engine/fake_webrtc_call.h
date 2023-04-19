@@ -1136,7 +1136,6 @@ override
 void
 UpdateActiveSimulcastLayers
 (
-const
 std
 :
 :

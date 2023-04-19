@@ -125,7 +125,6 @@ JavaToNativeResolutionBitrateLimits
 JNIEnv
 *
 jni
-const
 jobjectArray
 j_bitrate_limits_array
 )
