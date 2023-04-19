@@ -997,7 +997,6 @@ get
 config
 .
 paced_sender
-nullptr
 )
 ;
 sequencer_
