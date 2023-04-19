@@ -70,6 +70,9 @@ class
 nsIContent
 ;
 class
+nsIGlobalObject
+;
+class
 nsINode
 ;
 namespace
@@ -155,6 +158,9 @@ aDocument
 void
 WithWebSanitizerOptions
 (
+nsIGlobalObject
+*
+aGlobal
 const
 mozilla
 :
@@ -201,6 +207,11 @@ mFullDocument
 ;
 bool
 mLogRemovals
+;
+uint64_t
+mInnerWindowID
+=
+0
 ;
 class
 AtomsTable
