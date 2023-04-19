@@ -1820,7 +1820,7 @@ tmpDoc
 =
 parser
 .
-parseFromString
+parseFromSafeString
 (
 htmlString
 "
