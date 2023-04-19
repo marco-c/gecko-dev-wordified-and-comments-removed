@@ -439,6 +439,15 @@ payload_length
 kRedHeaderLength
 ;
 }
+if
+(
+new_header
+.
+payload_length
+>
+0
+)
+{
 new_headers
 .
 push_back
@@ -446,6 +455,7 @@ push_back
 new_header
 )
 ;
+}
 }
 if
 (
