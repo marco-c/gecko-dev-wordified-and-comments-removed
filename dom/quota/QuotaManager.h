@@ -521,13 +521,6 @@ Get
 )
 ;
 static
-nsIObserver
-*
-GetObserver
-(
-)
-;
-static
 bool
 IsShuttingDown
 (
@@ -536,12 +529,6 @@ IsShuttingDown
 static
 void
 ShutdownInstance
-(
-)
-;
-static
-void
-Reset
 (
 )
 ;

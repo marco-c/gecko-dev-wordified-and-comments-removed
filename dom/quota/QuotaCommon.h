@@ -4223,7 +4223,7 @@ protected
 :
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 mOwningThread
 ;
@@ -4244,7 +4244,7 @@ else
 }
 #
 endif
-nsISerialEventTarget
+nsIEventTarget
 *
 OwningThread
 (
@@ -4260,7 +4260,7 @@ BackgroundThreadObject
 explicit
 BackgroundThreadObject
 (
-nsISerialEventTarget
+nsIEventTarget
 *
 aOwningThread
 )
