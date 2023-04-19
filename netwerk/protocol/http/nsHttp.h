@@ -443,6 +443,15 @@ NS_HTTP_IS_RETRY
 )
 #
 define
+NS_HTTP_DISALLOW_HTTP2_PROXY
+(
+1
+<
+<
+28
+)
+#
+define
 NS_HTTP_TRR_FLAGS_FROM_MODE
 (
 x

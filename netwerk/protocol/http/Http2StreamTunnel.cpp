@@ -1358,6 +1358,10 @@ rv
 )
 )
 ;
+mTransaction
+=
+httpTransaction
+;
 return
 conn
 .

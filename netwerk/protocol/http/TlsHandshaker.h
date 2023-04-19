@@ -85,6 +85,8 @@ nsISSLSocketControl
 ssl
 uint32_t
 caps
+bool
+connectingToProxy
 )
 ;
 [

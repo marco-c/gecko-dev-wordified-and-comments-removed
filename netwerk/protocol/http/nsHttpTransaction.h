@@ -463,6 +463,12 @@ DisableSpdy
 override
 ;
 void
+DisableHttp2ForProxy
+(
+)
+override
+;
+void
 DoNotRemoveAltSvc
 (
 )

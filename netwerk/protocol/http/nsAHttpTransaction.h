@@ -457,6 +457,13 @@ DisableSpdy
 }
 virtual
 void
+DisableHttp2ForProxy
+(
+)
+{
+}
+virtual
+void
 DisableHttp3
 (
 bool
