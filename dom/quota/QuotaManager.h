@@ -1060,7 +1060,7 @@ EnsureTemporaryStorageIsInitialized
 )
 ;
 void
-ShutdownStorage
+ShutdownStorageInternal
 (
 )
 ;
