@@ -1755,6 +1755,16 @@ desktop_and_cursor_composer
 h
 "
 "
+desktop_capture_metrics_helper
+.
+cc
+"
+"
+desktop_capture_metrics_helper
+.
+h
+"
+"
 desktop_capture_options
 .
 cc
