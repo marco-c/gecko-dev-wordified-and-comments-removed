@@ -382,6 +382,15 @@ return
 nullptr
 ;
 }
+sSnapshotContext
+-
+>
+mOwningThreadId
+=
+Nothing
+(
+)
+;
 }
 if
 (

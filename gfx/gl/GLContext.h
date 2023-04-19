@@ -12630,7 +12630,7 @@ mSharedContext
 ;
 }
 bool
-IsOwningThread
+IsValidOwningThread
 (
 )
 const
@@ -13043,10 +13043,16 @@ GLContext
 >
 mSharedContext
 ;
-const
+public
+:
+Maybe
+<
 PlatformThreadId
+>
 mOwningThreadId
 ;
+protected
+:
 GLContextSymbols
 mSymbols
 =

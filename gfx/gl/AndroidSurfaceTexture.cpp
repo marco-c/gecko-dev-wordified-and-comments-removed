@@ -401,6 +401,15 @@ return
 nullptr
 ;
 }
+gl
+-
+>
+mOwningThreadId
+=
+Nothing
+(
+)
+;
 UnmakeCurrent
 (
 gl
