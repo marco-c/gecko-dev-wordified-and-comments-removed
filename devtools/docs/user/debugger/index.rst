@@ -465,7 +465,7 @@ index
 doc
 :
 Set
-even
+event
 listener
 <
 set_event_listener_breakpoints
