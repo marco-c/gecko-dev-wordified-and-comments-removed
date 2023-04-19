@@ -14,9 +14,9 @@ BUG_COMPONENT
 Core
 "
 "
-Canvas
+Graphics
 :
-2D
+Canvas2D
 "
 )
 with
@@ -36,7 +36,7 @@ BUG_COMPONENT
 Core
 "
 "
-Canvas
+Graphics
 :
 WebGL
 "
@@ -57,7 +57,7 @@ BUG_COMPONENT
 Core
 "
 "
-Canvas
+Graphics
 :
 WebGL
 "
@@ -84,7 +84,7 @@ BUG_COMPONENT
 Core
 "
 "
-Canvas
+Graphics
 :
 WebGL
 "
@@ -111,7 +111,7 @@ BUG_COMPONENT
 Core
 "
 "
-Canvas
+Graphics
 :
 WebGL
 "
@@ -136,7 +136,7 @@ BUG_COMPONENT
 Core
 "
 "
-Canvas
+Graphics
 :
 WebGL
 "
@@ -162,7 +162,7 @@ BUG_COMPONENT
 Core
 "
 "
-Canvas
+Graphics
 :
 WebGL
 "
@@ -188,7 +188,7 @@ BUG_COMPONENT
 Core
 "
 "
-Canvas
+Graphics
 :
 WebGL
 "

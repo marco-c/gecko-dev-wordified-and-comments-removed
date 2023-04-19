@@ -388,7 +388,7 @@ BUG_COMPONENT
 Core
 "
 "
-Canvas
+Graphics
 :
 WebGL
 "
