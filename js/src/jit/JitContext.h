@@ -289,6 +289,7 @@ uint16_t
 )
 ;
 class
+MOZ_RAII
 JitContext
 {
 #
