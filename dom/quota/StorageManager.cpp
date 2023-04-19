@@ -1628,6 +1628,13 @@ promiseProxy
 )
 )
 {
+aRv
+.
+Throw
+(
+NS_ERROR_FAILURE
+)
+;
 return
 nullptr
 ;
