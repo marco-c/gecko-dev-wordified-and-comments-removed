@@ -1377,7 +1377,7 @@ opts
 webrender
 :
 :
-RendererOptions
+WebRenderOptions
 {
 resource_override_path
 :
@@ -1566,10 +1566,7 @@ sender
 webrender
 :
 :
-Renderer
-:
-:
-new
+create_webrender_instance
 (
 window
 .

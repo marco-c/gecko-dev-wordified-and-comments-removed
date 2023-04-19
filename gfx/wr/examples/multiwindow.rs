@@ -548,7 +548,7 @@ opts
 webrender
 :
 :
-RendererOptions
+WebRenderOptions
 {
 clear_color
 .
@@ -556,7 +556,7 @@ clear_color
 webrender
 :
 :
-RendererOptions
+WebRenderOptions
 :
 :
 default
@@ -629,10 +629,7 @@ sender
 webrender
 :
 :
-Renderer
-:
-:
-new
+create_webrender_instance
 (
 gl
 .
