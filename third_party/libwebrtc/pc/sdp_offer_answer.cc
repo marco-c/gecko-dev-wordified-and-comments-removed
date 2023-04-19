@@ -6327,7 +6327,7 @@ SdpOfferAnswerHandler
 :
 SdpOfferAnswerHandler
 (
-PeerConnection
+PeerConnectionSdpMethods
 *
 pc
 )
@@ -6440,7 +6440,7 @@ SdpOfferAnswerHandler
 :
 Create
 (
-PeerConnection
+PeerConnectionSdpMethods
 *
 pc
 const
@@ -7090,7 +7090,7 @@ return
 pc_
 -
 >
-signaling_thread
+signaling_thread_internal
 (
 )
 ;
@@ -9755,7 +9755,7 @@ number_of_mediasections
 pc_
 -
 >
-ice_connection_state
+ice_connection_state_internal
 (
 )
 =

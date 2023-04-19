@@ -12071,7 +12071,6 @@ PeerConnection
 channel_manager
 (
 )
-const
 {
 return
 context_

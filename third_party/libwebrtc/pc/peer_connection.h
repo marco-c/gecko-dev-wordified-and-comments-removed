@@ -1239,6 +1239,18 @@ ice_connection_state
 override
 ;
 IceConnectionState
+ice_connection_state_internal
+(
+)
+override
+{
+return
+ice_connection_state
+(
+)
+;
+}
+IceConnectionState
 standardized_ice_connection_state
 (
 )
@@ -1678,6 +1690,26 @@ rtc
 :
 Thread
 *
+signaling_thread_internal
+(
+)
+const
+final
+{
+return
+context_
+-
+>
+signaling_thread
+(
+)
+;
+}
+rtc
+:
+:
+Thread
+*
 network_thread
 (
 )
@@ -2037,12 +2069,14 @@ Observer
 (
 )
 const
+override
 ;
 bool
 IsClosed
 (
 )
 const
+override
 {
 RTC_DCHECK_RUN_ON
 (
@@ -2080,6 +2114,7 @@ SSLRole
 *
 role
 )
+override
 ;
 void
 OnSctpDataChannelClosed
@@ -2102,6 +2137,7 @@ StatsCollector
 stats
 (
 )
+override
 {
 RTC_DCHECK_RUN_ON
 (
@@ -2123,6 +2159,7 @@ DataChannelController
 data_channel_controller
 (
 )
+override
 {
 RTC_DCHECK_RUN_ON
 (
@@ -2141,6 +2178,7 @@ dtls_enabled
 (
 )
 const
+override
 {
 RTC_DCHECK_RUN_ON
 (
@@ -2163,6 +2201,7 @@ configuration
 (
 )
 const
+override
 {
 RTC_DCHECK_RUN_ON
 (
@@ -2181,6 +2220,7 @@ PeerConnectionMessageHandler
 message_handler
 (
 )
+override
 {
 RTC_DCHECK_RUN_ON
 (
@@ -2199,6 +2239,7 @@ RtpTransmissionManager
 rtp_manager
 (
 )
+override
 {
 return
 rtp_manager_
@@ -2215,6 +2256,7 @@ rtp_manager
 (
 )
 const
+override
 {
 return
 rtp_manager_
@@ -2232,13 +2274,14 @@ ChannelManager
 channel_manager
 (
 )
-const
+override
 ;
 JsepTransportController
 *
 transport_controller
 (
 )
+override
 {
 return
 transport_controller_
@@ -2256,6 +2299,7 @@ PortAllocator
 port_allocator
 (
 )
+override
 {
 return
 port_allocator_
@@ -2270,6 +2314,7 @@ Call
 call_ptr
 (
 )
+override
 {
 return
 call_ptr_
@@ -2299,6 +2344,7 @@ options
 (
 )
 const
+override
 {
 return
 &
@@ -2311,6 +2357,7 @@ SetIceConnectionState
 IceConnectionState
 new_state
 )
+override
 ;
 void
 NoteUsageEvent
@@ -2318,6 +2365,7 @@ NoteUsageEvent
 UsageEvent
 event
 )
+override
 ;
 void
 AddRemoteCandidate
@@ -2337,6 +2385,7 @@ Candidate
 &
 candidate
 )
+override
 ;
 void
 ReportSdpFormatReceived
@@ -2346,6 +2395,7 @@ SessionDescriptionInterface
 &
 remote_description
 )
+override
 ;
 void
 ReportSdpBundleUsage
@@ -2355,12 +2405,14 @@ SessionDescriptionInterface
 &
 remote_description
 )
+override
 ;
 bool
 IsUnifiedPlan
 (
 )
 const
+override
 {
 RTC_DCHECK_RUN_ON
 (
@@ -2403,6 +2455,7 @@ ContentGroup
 &
 bundle_groups_by_mid
 )
+override
 ;
 absl
 :
@@ -2418,6 +2471,7 @@ GetDataMid
 (
 )
 const
+override
 ;
 void
 SetSctpDataMid
@@ -2430,11 +2484,13 @@ string
 &
 mid
 )
+override
 ;
 void
 ResetSctpDataMid
 (
 )
+override
 ;
 void
 StartSctpTransport
@@ -2446,11 +2502,13 @@ remote_port
 int
 max_message_size
 )
+override
 ;
 CryptoOptions
 GetCryptoOptions
 (
 )
+override
 ;
 RTCErrorOr
 <
@@ -2486,6 +2544,7 @@ fire_callback
 =
 true
 )
+override
 ;
 RtpTransportInternal
 *
@@ -2505,6 +2564,7 @@ SrtpRequired
 (
 )
 const
+override
 ;
 bool
 SetupDataChannelTransport_n
@@ -2517,6 +2577,7 @@ string
 &
 mid
 )
+override
 RTC_RUN_ON
 (
 network_thread
@@ -2528,6 +2589,7 @@ void
 TeardownDataChannelTransport_n
 (
 )
+override
 RTC_RUN_ON
 (
 network_thread
