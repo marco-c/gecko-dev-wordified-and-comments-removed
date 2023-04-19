@@ -1543,7 +1543,7 @@ aLength
 )
 ;
 size_t
-ShallowSizeOfIncludingThis
+ShallowSizeOfExcludingThis
 (
 mozilla
 :
@@ -1554,7 +1554,7 @@ aMallocSizeOf
 const
 ;
 size_t
-ShallowSizeOfExcludingThis
+ShallowSizeOfIncludingThis
 (
 mozilla
 :
