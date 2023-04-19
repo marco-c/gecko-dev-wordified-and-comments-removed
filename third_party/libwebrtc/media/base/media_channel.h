@@ -1253,6 +1253,12 @@ ExtmapAllowMixed
 )
 const
 ;
+bool
+HasNetworkInterface
+(
+)
+const
+;
 virtual
 webrtc
 :
