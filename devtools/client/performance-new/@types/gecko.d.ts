@@ -1665,6 +1665,10 @@ Cu
 :
 Cu
 ;
+Services
+:
+Services
+;
 }
 ;
 interface
@@ -2221,6 +2225,14 @@ Ci
 MockedExports
 .
 Ci
+;
+declare
+var
+Services
+:
+MockedExports
+.
+Services
 ;
 declare
 interface
