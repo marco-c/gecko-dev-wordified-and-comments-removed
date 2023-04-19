@@ -66,9 +66,6 @@ namespace
 rnn_vad
 {
 namespace
-test
-{
-namespace
 {
 constexpr
 std
@@ -420,7 +417,6 @@ pre
 post
 )
 ;
-}
 }
 }
 }

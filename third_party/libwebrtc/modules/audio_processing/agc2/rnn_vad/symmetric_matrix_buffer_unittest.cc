@@ -44,9 +44,6 @@ namespace
 rnn_vad
 {
 namespace
-test
-{
-namespace
 {
 template
 <
@@ -229,7 +226,6 @@ true
 return
 false
 ;
-}
 }
 TEST
 (

@@ -102,9 +102,6 @@ namespace
 rnn_vad
 {
 namespace
-test
-{
-namespace
 {
 std
 :
@@ -253,7 +250,6 @@ band_size
 return
 weights
 ;
-}
 }
 TEST
 (

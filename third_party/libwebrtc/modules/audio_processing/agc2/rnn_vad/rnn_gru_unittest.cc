@@ -89,9 +89,6 @@ namespace
 rnn_vad
 {
 namespace
-test
-{
-namespace
 {
 void
 TestGatedRecurrentLayer
@@ -863,7 +860,6 @@ GetDurationStandardDeviation
 ms
 "
 ;
-}
 }
 }
 }
