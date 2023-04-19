@@ -9344,9 +9344,11 @@ access
 \
 n
 ;
+Services
+.
 console
 .
-log
+logStringMessage
 (
 message
 +
@@ -9410,9 +9412,11 @@ access
 \
 n
 ;
+Services
+.
 console
 .
-log
+logStringMessage
 (
 message
 +
