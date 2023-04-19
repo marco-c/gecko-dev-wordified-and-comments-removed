@@ -16230,7 +16230,7 @@ if
 gfxEnv
 :
 :
-DumpPaintToFile
+MOZ_DUMP_PAINT_TO_FILE
 (
 )
 )
@@ -16322,7 +16322,7 @@ if
 gfxEnv
 :
 :
-DumpPaintToFile
+MOZ_DUMP_PAINT_TO_FILE
 (
 )
 )
@@ -16504,7 +16504,7 @@ aStream
 gfxEnv
 :
 :
-DumpPaintToFile
+MOZ_DUMP_PAINT_TO_FILE
 (
 )
 )
@@ -16514,7 +16514,7 @@ if
 gfxEnv
 :
 :
-DumpPaint
+MOZ_DUMP_PAINT
 (
 )
 |
@@ -16522,7 +16522,7 @@ DumpPaint
 gfxEnv
 :
 :
-DumpPaintItems
+MOZ_DUMP_PAINT_ITEMS
 (
 )
 )
@@ -16601,7 +16601,7 @@ aStream
 gfxEnv
 :
 :
-DumpPaintToFile
+MOZ_DUMP_PAINT_TO_FILE
 (
 )
 )
@@ -16624,7 +16624,7 @@ if
 gfxEnv
 :
 :
-DumpPaintToFile
+MOZ_DUMP_PAINT_TO_FILE
 (
 )
 )
@@ -16650,7 +16650,7 @@ if
 gfxEnv
 :
 :
-DumpPaintToFile
+MOZ_DUMP_PAINT_TO_FILE
 (
 )
 )
@@ -18548,7 +18548,7 @@ DumpDisplayList
 gfxEnv
 :
 :
-DumpPaint
+MOZ_DUMP_PAINT
 (
 )
 )

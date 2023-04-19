@@ -2201,7 +2201,7 @@ useTelemetry
 gfxEnv
 :
 :
-GfxDevCrashTelemetry
+MOZ_GFX_CRASH_TELEMETRY
 (
 )
 ;
@@ -2215,7 +2215,7 @@ useTelemetry
 gfxEnv
 :
 :
-GfxDevCrashMozCrash
+MOZ_GFX_CRASH_MOZ_CRASH
 (
 )
 ;

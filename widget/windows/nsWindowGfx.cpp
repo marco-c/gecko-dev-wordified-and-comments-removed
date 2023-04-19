@@ -1465,7 +1465,7 @@ if
 gfxEnv
 :
 :
-DisableForcePresent
+MOZ_DISABLE_FORCE_PRESENT
 (
 )
 &

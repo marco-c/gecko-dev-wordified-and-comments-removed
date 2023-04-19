@@ -500,7 +500,7 @@ if
 gfxEnv
 :
 :
-GlxDebug
+MOZ_GLX_DEBUG
 (
 )
 )

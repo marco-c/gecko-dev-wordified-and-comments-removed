@@ -58,7 +58,7 @@ ifdef
 DEBUG
 #
 define
-MOZ_GL_DEBUG
+MOZ_GL_DEBUG_BUILD
 1
 #
 endif
@@ -1824,7 +1824,7 @@ ptr
 ;
 #
 ifdef
-MOZ_GL_DEBUG
+MOZ_GL_DEBUG_BUILD
 #
 define
 TRACKING_CONTEXT
@@ -13592,7 +13592,7 @@ mMaxTexOrRbSize
 }
 #
 ifdef
-MOZ_GL_DEBUG
+MOZ_GL_DEBUG_BUILD
 void
 CreatedProgram
 (

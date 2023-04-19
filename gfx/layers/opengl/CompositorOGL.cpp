@@ -1175,7 +1175,7 @@ if
 gfxEnv
 :
 :
-LayersPreferEGL
+MOZ_LAYERS_PREFER_EGL
 (
 )
 )
@@ -1221,7 +1221,7 @@ context
 gfxEnv
 :
 :
-LayersPreferOffscreen
+MOZ_LAYERS_PREFER_OFFSCREEN
 (
 )
 )
@@ -7766,7 +7766,7 @@ if
 gfxEnv
 :
 :
-DumpCompositorTextures
+MOZ_DISABLE_FORCE_PRESENT
 (
 )
 )
