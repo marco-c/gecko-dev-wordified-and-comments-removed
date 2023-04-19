@@ -2172,6 +2172,10 @@ js
 "
 >
 <
+/
+script
+>
+<
 script
 >
 const
