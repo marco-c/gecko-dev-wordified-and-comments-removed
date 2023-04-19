@@ -133,6 +133,8 @@ Wave
 enum
 class
 MediaCodec
+:
+int
 {
 #
 define
@@ -171,6 +173,8 @@ HardwareDecode
 enum
 class
 MediaCodecsSupport
+:
+int
 {
 #
 define
@@ -220,6 +224,8 @@ uint64_t
 enum
 class
 DecodeSupport
+:
+int
 {
 Unsupported
 =
