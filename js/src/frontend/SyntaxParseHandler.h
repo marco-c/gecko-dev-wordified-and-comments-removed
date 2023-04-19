@@ -1231,6 +1231,13 @@ Maybe
 FunctionNodeType
 >
 initializerIfPrivate
+#
+ifdef
+ENABLE_DECORATORS
+ListNodeType
+decorators
+#
+endif
 )
 {
 return
@@ -1251,6 +1258,13 @@ FunctionNodeType
 initializer
 bool
 isStatic
+#
+ifdef
+ENABLE_DECORATORS
+ListNodeType
+decorators
+#
+endif
 )
 {
 return
