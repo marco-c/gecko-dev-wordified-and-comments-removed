@@ -1,7 +1,14 @@
 #
 include
 "
-xptcprivate
+xptcall
+.
+h
+"
+#
+include
+"
+xptinfo
 .
 h
 "

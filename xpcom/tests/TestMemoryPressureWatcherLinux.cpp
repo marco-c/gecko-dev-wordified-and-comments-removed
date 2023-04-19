@@ -12,11 +12,6 @@ include
 <
 fstream
 >
-#
-include
-<
-iostream
->
 using
 namespace
 mozilla

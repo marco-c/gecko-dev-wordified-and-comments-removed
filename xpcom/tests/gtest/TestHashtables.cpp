@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsRefPtrHashtable
+nsRefCountedHashtable
 .
 h
 "

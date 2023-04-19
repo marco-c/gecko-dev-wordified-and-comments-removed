@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 mozmemory
 .
 h
