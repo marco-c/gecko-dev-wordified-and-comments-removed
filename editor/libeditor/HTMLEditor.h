@@ -3027,6 +3027,9 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 FormatBlockContainerWithTransaction
 (
+AutoRangeArray
+&
+aSelectionRanges
 nsAtom
 &
 aBlockType
