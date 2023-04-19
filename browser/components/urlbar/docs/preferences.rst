@@ -836,7 +836,7 @@ dnsResolveSingleWordsAfterSearch
 number
 default
 :
-1
+0
 )
 Controls
 when
@@ -881,6 +881,8 @@ Set
 to
 0
 .
+0
+:
 Never
 resolve
 1

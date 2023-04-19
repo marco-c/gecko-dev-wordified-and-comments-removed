@@ -2769,7 +2769,7 @@ urlbar
 .
 dnsResolveSingleWordsAfterSearch
 "
-1
+0
 )
 ;
 pref
