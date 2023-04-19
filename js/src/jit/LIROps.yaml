@@ -7255,11 +7255,6 @@ NewLexicalEnvironmentObject
 result_type
 :
 WordSized
-operands
-:
-enclosing
-:
-WordSized
 call_instruction
 :
 true
@@ -7291,11 +7286,6 @@ NewClassBodyEnvironmentObject
 result_type
 :
 WordSized
-operands
-:
-enclosing
-:
-WordSized
 call_instruction
 :
 true
@@ -7307,11 +7297,6 @@ name
 :
 NewVarEnvironmentObject
 result_type
-:
-WordSized
-operands
-:
-enclosing
 :
 WordSized
 call_instruction

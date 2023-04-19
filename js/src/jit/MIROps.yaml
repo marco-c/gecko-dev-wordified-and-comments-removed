@@ -6285,9 +6285,6 @@ name
 NewLexicalEnvironmentObject
 operands
 :
-enclosing
-:
-Object
 templateObj
 :
 Object
@@ -6312,9 +6309,6 @@ name
 NewClassBodyEnvironmentObject
 operands
 :
-enclosing
-:
-Object
 templateObj
 :
 Object
@@ -6366,9 +6360,6 @@ name
 NewVarEnvironmentObject
 operands
 :
-enclosing
-:
-Object
 templateObj
 :
 Object
