@@ -927,11 +927,6 @@ mFrameBrowsingContextID
 aFrameBrowsingContextID
 ;
 }
-bool
-DispatchRelease
-(
-)
-;
 MOZ_NEVER_INLINE
 void
 ReleaseMembers
