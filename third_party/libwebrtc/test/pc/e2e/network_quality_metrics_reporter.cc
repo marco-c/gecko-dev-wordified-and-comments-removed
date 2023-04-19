@@ -736,7 +736,7 @@ bytesPerSecond
 ReportResult
 (
 "
-bytes_dropped
+bytes_discarded_no_receiver
 "
 network_label
 stats
@@ -757,7 +757,7 @@ sizeInBytes
 ReportResult
 (
 "
-packets_dropped
+packets_discarded_no_receiver
 "
 network_label
 stats

@@ -1405,7 +1405,7 @@ end_time
 ReportResult
 (
 "
-bytes_dropped
+bytes_discarded_no_receiver
 "
 pc_label
 network_layer_stats
@@ -1428,7 +1428,7 @@ sizeInBytes
 ReportResult
 (
 "
-packets_dropped
+packets_discarded_no_recevier
 "
 pc_label
 network_layer_stats
