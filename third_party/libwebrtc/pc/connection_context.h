@@ -363,7 +363,7 @@ network_thread_
 const
 FieldTrialsView
 &
-trials
+field_trials
 (
 )
 const

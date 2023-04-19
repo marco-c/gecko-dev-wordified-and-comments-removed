@@ -785,6 +785,10 @@ RTCCertificate
 )
 >
 on_certificate_ready
+const
+FieldTrialsView
+&
+field_trials
 )
 :
 signaling_thread_
@@ -798,12 +802,7 @@ signaling_thread
 )
 transport_desc_factory_
 (
-context
--
->
-trials
-(
-)
+field_trials
 )
 session_desc_factory_
 (

@@ -3475,6 +3475,15 @@ VideoBitrateAllocatorFactory
 >
 video_bitrate_allocator_factory
 ;
+std
+:
+:
+unique_ptr
+<
+FieldTrialsView
+>
+trials
+;
 }
 ;
 struct

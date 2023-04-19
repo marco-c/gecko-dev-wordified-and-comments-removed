@@ -578,7 +578,7 @@ options_
 const
 FieldTrialsView
 &
-trials
+field_trials
 (
 )
 const
@@ -587,7 +587,7 @@ return
 context_
 -
 >
-trials
+field_trials
 (
 )
 ;
@@ -697,6 +697,10 @@ CreateCall_w
 RtcEventLog
 *
 event_log
+const
+FieldTrialsView
+&
+field_trials
 )
 ;
 rtc

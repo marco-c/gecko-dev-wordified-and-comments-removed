@@ -385,6 +385,10 @@ RTCCertificate
 )
 >
 on_certificate_ready
+const
+FieldTrialsView
+&
+field_trials
 )
 ;
 virtual
