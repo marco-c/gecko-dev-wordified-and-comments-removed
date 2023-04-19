@@ -3264,6 +3264,11 @@ WaylandPopupIsPermanent
 )
 ;
 bool
+WaylandPopupIsFirst
+(
+)
+;
+bool
 IsWidgetOverflowWindow
 (
 )
