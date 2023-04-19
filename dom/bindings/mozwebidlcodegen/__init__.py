@@ -855,6 +855,12 @@ h
 "
         
 "
+RegisterShadowRealmBindings
+.
+h
+"
+        
+"
 RegisterWorkerBindings
 .
 h
@@ -910,6 +916,12 @@ cpp
         
 "
 RegisterBindings
+.
+cpp
+"
+        
+"
+RegisterShadowRealmBindings
 .
 cpp
 "
