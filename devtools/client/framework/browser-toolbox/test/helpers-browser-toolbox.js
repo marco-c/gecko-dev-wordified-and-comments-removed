@@ -10,7 +10,7 @@ BrowserToolboxLauncher
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -29,7 +29,9 @@ toolbox
 /
 Launcher
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
