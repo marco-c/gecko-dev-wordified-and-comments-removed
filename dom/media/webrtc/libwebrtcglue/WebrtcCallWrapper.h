@@ -59,6 +59,15 @@ call
 .
 h
 "
+#
+include
+"
+call
+/
+call_config
+.
+h
+"
 namespace
 mozilla
 {
@@ -87,10 +96,7 @@ typedef
 webrtc
 :
 :
-Call
-:
-:
-Config
+CallConfig
 Config
 ;
 static
