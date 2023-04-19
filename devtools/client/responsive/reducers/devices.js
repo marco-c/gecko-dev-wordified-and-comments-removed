@@ -19,6 +19,10 @@ UPDATE_DEVICE_MODAL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -28,6 +32,8 @@ responsive
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -37,6 +43,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -44,6 +54,8 @@ client
 responsive
 /
 types
+.
+js
 "
 )
 ;

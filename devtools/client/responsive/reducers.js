@@ -10,6 +10,10 @@ devices
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -19,6 +23,8 @@ responsive
 reducers
 /
 devices
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ networkThrottling
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ components
 throttling
 /
 reducer
+.
+js
 "
 )
 ;
@@ -50,6 +62,10 @@ screenshot
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -59,6 +75,8 @@ responsive
 reducers
 /
 screenshot
+.
+js
 "
 )
 ;
@@ -69,6 +87,10 @@ ui
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -78,6 +100,8 @@ responsive
 reducers
 /
 ui
+.
+js
 "
 )
 ;
@@ -88,6 +112,10 @@ viewports
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -97,6 +125,8 @@ responsive
 reducers
 /
 viewports
+.
+js
 "
 )
 ;

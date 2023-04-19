@@ -12,6 +12,10 @@ LANDSCAPE_PRIMARY
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -19,6 +23,8 @@ client
 responsive
 /
 constants
+.
+js
 "
 )
 ;

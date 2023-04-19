@@ -9,6 +9,10 @@ asyncStorage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -16,6 +20,8 @@ shared
 async
 -
 storage
+.
+js
 "
 )
 ;
@@ -34,6 +40,10 @@ ZOOM_VIEWPORT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ responsive
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -54,6 +66,10 @@ post
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -63,6 +79,8 @@ responsive
 utils
 /
 message
+.
+js
 "
 )
 ;

@@ -9,6 +9,10 @@ asyncStorage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -16,6 +20,8 @@ shared
 async
 -
 storage
+.
+js
 "
 )
 ;
@@ -35,6 +41,10 @@ UPDATE_DEVICE_MODAL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -44,6 +54,8 @@ responsive
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -55,6 +67,10 @@ post
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -64,6 +80,8 @@ responsive
 utils
 /
 message
+.
+js
 "
 )
 ;
@@ -78,6 +96,10 @@ removeDevice
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -85,6 +107,8 @@ client
 shared
 /
 devices
+.
+js
 "
 )
 ;
@@ -97,6 +121,10 @@ toggleTouchSimulation
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -106,6 +134,8 @@ responsive
 actions
 /
 ui
+.
+js
 "
 )
 ;
@@ -119,6 +149,10 @@ changeViewportAngle
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -128,6 +162,8 @@ responsive
 actions
 /
 viewports
+.
+js
 "
 )
 ;

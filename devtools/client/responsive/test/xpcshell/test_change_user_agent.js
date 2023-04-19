@@ -11,6 +11,10 @@ changeUserAgent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ responsive
 actions
 /
 ui
+.
+js
 "
 )
 ;

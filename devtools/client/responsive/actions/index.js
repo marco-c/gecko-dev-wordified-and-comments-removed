@@ -11,6 +11,10 @@ createEnum
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ client
 shared
 /
 enum
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ CHANGE_NETWORK_THROTTLING
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ components
 throttling
 /
 actions
+.
+js
 "
 )
 ;

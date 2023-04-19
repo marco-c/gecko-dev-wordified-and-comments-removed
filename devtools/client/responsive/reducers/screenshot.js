@@ -12,6 +12,10 @@ TAKE_SCREENSHOT_START
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ responsive
 actions
 /
 index
+.
+js
 "
 )
 ;

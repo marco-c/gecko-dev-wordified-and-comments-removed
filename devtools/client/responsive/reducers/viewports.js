@@ -19,6 +19,10 @@ ZOOM_VIEWPORT
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -28,6 +32,8 @@ responsive
 actions
 /
 index
+.
+js
 "
 )
 ;

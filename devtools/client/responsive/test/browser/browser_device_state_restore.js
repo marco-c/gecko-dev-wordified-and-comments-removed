@@ -120,6 +120,10 @@ updatePreferredDevices
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -129,6 +133,8 @@ responsive
 actions
 /
 devices
+.
+js
 "
 )
 ;
@@ -155,6 +161,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -162,6 +172,8 @@ client
 responsive
 /
 types
+.
+js
 "
 )
 ;

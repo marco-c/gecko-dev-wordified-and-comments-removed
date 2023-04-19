@@ -13,6 +13,10 @@ updateDeviceDisplayed
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ responsive
 actions
 /
 devices
+.
+js
 "
 )
 ;

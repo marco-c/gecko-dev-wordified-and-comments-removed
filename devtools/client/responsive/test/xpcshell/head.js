@@ -35,6 +35,10 @@ Store
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -42,6 +46,8 @@ client
 responsive
 /
 store
+.
+js
 "
 )
 ;
@@ -51,11 +57,17 @@ DevToolsUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;

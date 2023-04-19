@@ -28,6 +28,10 @@ startup
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -37,6 +41,8 @@ responsive
 utils
 /
 window
+.
+js
 "
 )
 ;

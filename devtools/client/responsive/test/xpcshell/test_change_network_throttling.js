@@ -11,6 +11,10 @@ changeNetworkThrottling
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ components
 throttling
 /
 actions
+.
+js
 "
 )
 ;
