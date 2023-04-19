@@ -9497,6 +9497,14 @@ if
 popup
 -
 >
+WaylandPopupIsFirst
+(
+)
+&
+&
+popup
+-
+>
 WaylandPopupFitsToplevelWindow
 (
 )
