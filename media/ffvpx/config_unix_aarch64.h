@@ -1424,7 +1424,7 @@ HAVE_SYSCONF
 #
 define
 HAVE_SYSCTL
-1
+0
 #
 define
 HAVE_USLEEP
