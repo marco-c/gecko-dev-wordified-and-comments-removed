@@ -322,6 +322,8 @@ screen_id_
 Callback
 *
 callback_
+=
+NULL
 ;
 Mode
 mode_
@@ -365,10 +367,6 @@ window_id
 screen_id_
 (
 screen_id
-)
-callback_
-(
-NULL
 )
 mode_
 (
