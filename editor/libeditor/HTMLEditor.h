@@ -2829,13 +2829,6 @@ childContent
 ;
 }
 }
-Element
-*
-GetParentListElementAtSelection
-(
-)
-const
-;
 [
 [
 nodiscard

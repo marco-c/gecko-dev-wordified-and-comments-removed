@@ -3522,6 +3522,16 @@ aCollectNonEditableNodes
 )
 const
 ;
+dom
+:
+:
+Element
+*
+GetClosestAncestorAnyListElementOfRange
+(
+)
+const
+;
 private
 :
 static
