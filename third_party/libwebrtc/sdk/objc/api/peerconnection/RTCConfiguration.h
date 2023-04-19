@@ -394,6 +394,14 @@ assign
 int
 rtcpVideoReportIntervalMs
 ;
+property
+(
+nonatomic
+assign
+)
+BOOL
+enableImplicitRollback
+;
 -
 (
 instancetype

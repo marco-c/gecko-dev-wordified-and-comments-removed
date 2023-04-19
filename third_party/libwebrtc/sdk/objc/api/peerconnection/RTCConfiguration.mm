@@ -224,6 +224,11 @@ rtcpVideoReportIntervalMs
 =
 _rtcpVideoReportIntervalMs
 ;
+synthesize
+enableImplicitRollback
+=
+_enableImplicitRollback
+;
 -
 (
 instancetype
@@ -748,6 +753,12 @@ value_or
 false
 )
 ;
+_enableImplicitRollback
+=
+config
+.
+enable_implicit_rollback
+;
 }
 return
 self
@@ -856,6 +867,9 @@ n
 %
 \
 n
+%
+\
+n
 }
 \
 n
@@ -946,6 +960,7 @@ _disableIPV6OnWiFi
 _maxIPv6Networks
 _activeResetSrtpParams
 _enableDscp
+_enableImplicitRollback
 ]
 ;
 }
@@ -1670,6 +1685,13 @@ nativeConfig
 allow_codec_switching
 =
 _allowCodecSwitching
+;
+nativeConfig
+-
+>
+enable_implicit_rollback
+=
+_enableImplicitRollback
 ;
 return
 nativeConfig
