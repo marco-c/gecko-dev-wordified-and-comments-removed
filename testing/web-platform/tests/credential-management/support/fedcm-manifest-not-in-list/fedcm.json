@@ -31,7 +31,7 @@ id_token_endpoint
 .
 .
 /
-id_token
+token
 .
 py
 "

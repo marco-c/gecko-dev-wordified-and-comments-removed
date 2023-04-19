@@ -311,7 +311,7 @@ mock
 {
 mock
 .
-returnIdToken
+returnToken
 (
 "
 a_token

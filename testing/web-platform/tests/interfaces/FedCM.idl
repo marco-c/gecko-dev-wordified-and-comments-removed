@@ -106,7 +106,7 @@ dictionary
 FederatedTokens
 {
 USVString
-idToken
+token
 ;
 }
 ;
