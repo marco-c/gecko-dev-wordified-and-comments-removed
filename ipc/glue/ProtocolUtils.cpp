@@ -2878,7 +2878,9 @@ GetIPCChannel
 >
 RejectPendingResponsesForActor
 (
-this
+Id
+(
+)
 )
 ;
 ActorDestroy
