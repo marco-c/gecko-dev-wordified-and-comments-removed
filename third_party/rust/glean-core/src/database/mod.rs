@@ -1338,7 +1338,6 @@ fs
 :
 create_dir_all
 (
-&
 path
 )
 ?
@@ -2952,7 +2951,6 @@ iter_from
 (
 &
 writer
-&
 storage_name
 )
 ?
@@ -3000,7 +2998,6 @@ metric_id
 .
 starts_with
 (
-&
 storage_name
 )
 {
@@ -3542,7 +3539,6 @@ put
 &
 mut
 writer
-&
 key
 &
 rkv
