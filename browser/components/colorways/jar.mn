@@ -84,6 +84,9 @@ colorways
 colorwaycloset
 .
 js
+#
+ifdef
+EARLY_BETA_OR_EARLIER
 content
 /
 browser
@@ -99,3 +102,5 @@ assets
 .
 avif
 )
+#
+endif
