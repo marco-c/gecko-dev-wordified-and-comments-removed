@@ -2366,6 +2366,17 @@ audio_coding_module_typedefs
 /
 rtc_base
 :
+bitstream_reader
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 checks
 "
 "
