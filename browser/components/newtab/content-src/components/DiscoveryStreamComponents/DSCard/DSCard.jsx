@@ -2347,10 +2347,6 @@ newtab
 pocket
 -
 saved
--
-to
--
-pocket
 "
 /
 >
@@ -2395,10 +2391,6 @@ newtab
 pocket
 -
 save
--
-to
--
-pocket
 "
 /
 >
