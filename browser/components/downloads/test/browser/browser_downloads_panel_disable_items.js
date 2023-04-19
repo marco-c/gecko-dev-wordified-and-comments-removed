@@ -70,6 +70,16 @@ browser
 .
 download
 .
+alwaysOpenPanel
+"
+true
+]
+[
+"
+browser
+.
+download
+.
 always_ask_before_handling_new_types
 "
 false
