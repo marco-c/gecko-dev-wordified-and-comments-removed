@@ -4,13 +4,16 @@ This
 page
 explains
 how
+to
 optimize
 the
 performance
+of
 the
 Firefox
 code
 base
+.
 The
 [
 test
