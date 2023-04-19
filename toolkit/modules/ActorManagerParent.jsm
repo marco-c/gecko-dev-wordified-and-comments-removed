@@ -1572,7 +1572,7 @@ ViewSource
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -1585,7 +1585,9 @@ actors
 /
 ViewSourceChild
 .
-jsm
+sys
+.
+mjs
 "
 }
 allFrames
@@ -1598,7 +1600,7 @@ ViewSourcePage
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -1611,13 +1613,15 @@ actors
 /
 ViewSourcePageParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -1630,7 +1634,9 @@ actors
 /
 ViewSourcePageChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
