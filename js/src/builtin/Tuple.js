@@ -1210,8 +1210,7 @@ arguments
 1
 ]
 :
-void
-0
+undefined
 ;
 while
 (
@@ -1384,8 +1383,7 @@ arguments
 1
 ]
 :
-void
-0
+undefined
 ;
 for
 (
@@ -1941,8 +1939,7 @@ arguments
 1
 ]
 :
-void
-0
+undefined
 ;
 FlattenIntoTuple
 (

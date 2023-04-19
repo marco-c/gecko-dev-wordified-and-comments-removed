@@ -77,8 +77,7 @@ arguments
 1
 ]
 :
-void
-0
+undefined
 ;
 for
 (
@@ -211,8 +210,7 @@ arguments
 1
 ]
 :
-void
-0
+undefined
 ;
 for
 (
@@ -511,8 +509,7 @@ arguments
 1
 ]
 :
-void
-0
+undefined
 ;
 for
 (
@@ -552,8 +549,7 @@ O
 }
 }
 return
-void
-0
+undefined
 ;
 }
 SetIsInlinableLargeFunction
@@ -640,8 +636,7 @@ arguments
 1
 ]
 :
-void
-0
+undefined
 ;
 var
 A
@@ -787,8 +782,7 @@ arguments
 1
 ]
 :
-void
-0
+undefined
 ;
 var
 A
@@ -932,8 +926,7 @@ arguments
 1
 ]
 :
-void
-0
+undefined
 ;
 for
 (
@@ -1128,8 +1121,7 @@ arguments
 1
 ]
 :
-void
-0
+undefined
 ;
 for
 (
