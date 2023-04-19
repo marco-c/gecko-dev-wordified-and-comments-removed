@@ -1561,6 +1561,12 @@ GetFrame
 )
 const
 ;
+nsWindow
+*
+GetEffectiveParent
+(
+)
+;
 bool
 IsDestroyed
 (
