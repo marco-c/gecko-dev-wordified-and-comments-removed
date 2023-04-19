@@ -53894,6 +53894,12 @@ aWidget
 aURI
 aPreviousURI
 visitURIFlags
+aBrowsingContext
+-
+>
+BrowserId
+(
+)
 )
 ;
 }

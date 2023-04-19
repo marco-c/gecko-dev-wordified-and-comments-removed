@@ -1047,6 +1047,7 @@ IHistory
 :
 :
 TOP_LEVEL
+0
 )
 ;
 RefPtr
@@ -1168,6 +1169,7 @@ IHistory
 :
 :
 TOP_LEVEL
+0
 )
 ;
 finisher
@@ -1199,6 +1201,7 @@ IHistory
 :
 :
 TOP_LEVEL
+0
 )
 ;
 finisher
@@ -1287,6 +1290,7 @@ IHistory
 :
 :
 TOP_LEVEL
+0
 )
 ;
 history
@@ -1297,6 +1301,7 @@ VisitURI
 nullptr
 visitedURI
 lastURI
+0
 0
 )
 ;
@@ -1390,6 +1395,7 @@ IHistory
 :
 :
 TOP_LEVEL
+0
 )
 ;
 RefPtr
@@ -1531,6 +1537,7 @@ IHistory
 :
 :
 TOP_LEVEL
+0
 )
 ;
 RefPtr
@@ -1632,6 +1639,7 @@ VisitURI
 nullptr
 visitedURI
 lastURI
+0
 0
 )
 ;
@@ -1737,6 +1745,7 @@ IHistory
 :
 :
 TOP_LEVEL
+0
 )
 ;
 do_check_success
