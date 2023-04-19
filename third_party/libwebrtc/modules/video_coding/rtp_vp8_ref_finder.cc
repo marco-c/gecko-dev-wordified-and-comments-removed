@@ -40,9 +40,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 frame
@@ -150,9 +147,6 @@ RtpVp8RefFinder
 :
 ManageFrameInternal
 (
-video_coding
-:
-:
 RtpFrameObject
 *
 frame
@@ -914,9 +908,6 @@ RtpVp8RefFinder
 :
 UpdateLayerInfoVp8
 (
-video_coding
-:
-:
 RtpFrameObject
 *
 frame
@@ -1159,9 +1150,6 @@ RtpVp8RefFinder
 :
 UnwrapPictureIds
 (
-video_coding
-:
-:
 RtpFrameObject
 *
 frame

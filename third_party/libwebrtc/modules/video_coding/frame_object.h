@@ -29,9 +29,6 @@ h
 namespace
 webrtc
 {
-namespace
-video_coding
-{
 class
 RtpFrameObject
 :
@@ -209,6 +206,17 @@ int
 times_nacked_
 ;
 }
+;
+namespace
+video_coding
+{
+using
+:
+:
+webrtc
+:
+:
+RtpFrameObject
 ;
 }
 }

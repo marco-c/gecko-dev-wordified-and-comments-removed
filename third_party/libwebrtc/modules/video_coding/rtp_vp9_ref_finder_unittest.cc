@@ -116,9 +116,6 @@ namespace
 webrtc
 {
 namespace
-video_coding
-{
-namespace
 {
 class
 Frame
@@ -330,9 +327,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 (
@@ -525,9 +519,6 @@ std
 :
 make_unique
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 (
@@ -1062,9 +1053,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 frame
@@ -7003,6 +6991,5 @@ SpatialIndex
 )
 )
 ;
-}
 }
 }

@@ -72,9 +72,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 frame
@@ -176,9 +173,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 encrypted_frame
@@ -198,9 +192,6 @@ kDrop
 FrameDecision
 DecryptFrame
 (
-video_coding
-:
-:
 RtpFrameObject
 *
 frame
@@ -270,9 +261,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 >

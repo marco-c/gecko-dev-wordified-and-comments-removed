@@ -40,9 +40,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 frame
@@ -83,9 +80,6 @@ res
 ;
 if
 (
-video_coding
-:
-:
 EncodedFrame
 :
 :

@@ -100,9 +100,6 @@ namespace
 webrtc
 {
 namespace
-video_coding
-{
-namespace
 {
 MATCHER_P2
 (
@@ -172,9 +169,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 EncodedFrame
 >
 >
@@ -307,9 +301,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 (
@@ -378,9 +369,6 @@ std
 :
 make_unique
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 (
@@ -501,9 +489,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 frame
@@ -564,9 +549,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 EncodedFrame
 >
 >
@@ -3773,6 +3755,5 @@ HasFrameWithIdAndRefs
 )
 )
 ;
-}
 }
 }

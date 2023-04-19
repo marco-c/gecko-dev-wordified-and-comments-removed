@@ -197,9 +197,6 @@ class
 FuzzyFrameObject
 :
 public
-video_coding
-:
-:
 EncodedFrame
 {
 public
@@ -438,9 +435,6 @@ uint8_t
 (
 )
 %
-video_coding
-:
-:
 EncodedFrame
 :
 :
@@ -566,9 +560,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 EncodedFrame
 >
 frame

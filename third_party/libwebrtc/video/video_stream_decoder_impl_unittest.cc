@@ -555,9 +555,6 @@ class
 FakeEncodedFrame
 :
 public
-video_coding
-:
-:
 EncodedFrame
 {
 public

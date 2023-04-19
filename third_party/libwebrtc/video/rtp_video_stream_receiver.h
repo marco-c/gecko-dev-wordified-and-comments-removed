@@ -786,9 +786,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 EncodedFrame
 >
 frame
@@ -803,9 +800,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 frame
@@ -907,9 +901,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 frame
@@ -1242,9 +1233,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 frame

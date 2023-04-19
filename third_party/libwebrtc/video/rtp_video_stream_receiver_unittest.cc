@@ -357,9 +357,6 @@ uint64_t
 GetAbsoluteCaptureTimestamps
 (
 const
-video_coding
-:
-:
 EncodedFrame
 *
 frame
@@ -569,9 +566,6 @@ MOCK_METHOD
 void
 DoOnCompleteFrame
 (
-video_coding
-:
-:
 EncodedFrame
 *
 )
@@ -584,9 +578,6 @@ MOCK_METHOD
 void
 DoOnCompleteFrameFailNullptr
 (
-video_coding
-:
-:
 EncodedFrame
 *
 )
@@ -599,9 +590,6 @@ MOCK_METHOD
 void
 DoOnCompleteFrameFailLength
 (
-video_coding
-:
-:
 EncodedFrame
 *
 )
@@ -614,9 +602,6 @@ MOCK_METHOD
 void
 DoOnCompleteFrameFailBitstream
 (
-video_coding
-:
-:
 EncodedFrame
 *
 )
@@ -632,9 +617,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 EncodedFrame
 >
 frame
@@ -2014,9 +1996,6 @@ Invoke
 kColorSpace
 ]
 (
-video_coding
-:
-:
 EncodedFrame
 *
 frame
@@ -2123,9 +2102,6 @@ Invoke
 kColorSpace
 ]
 (
-video_coding
-:
-:
 EncodedFrame
 *
 frame
@@ -2399,9 +2375,6 @@ Invoke
 kAbsoluteCaptureTimestamp
 ]
 (
-video_coding
-:
-:
 EncodedFrame
 *
 frame
@@ -2643,9 +2616,6 @@ Invoke
 [
 ]
 (
-video_coding
-:
-:
 EncodedFrame
 *
 frame
@@ -3875,9 +3845,6 @@ WillOnce
 &
 ]
 (
-video_coding
-:
-:
 EncodedFrame
 *
 frame
@@ -3958,9 +3925,6 @@ WillOnce
 &
 ]
 (
-video_coding
-:
-:
 EncodedFrame
 *
 frame
@@ -4925,9 +4889,6 @@ Invoke
 kSpatialIndex
 ]
 (
-video_coding
-:
-:
 EncodedFrame
 *
 frame
@@ -5324,9 +5285,6 @@ Invoke
 kSpatialIndex
 ]
 (
-video_coding
-:
-:
 EncodedFrame
 *
 frame
@@ -5819,9 +5777,6 @@ WillOnce
 &
 ]
 (
-video_coding
-:
-:
 EncodedFrame
 *
 frame
@@ -5856,9 +5811,6 @@ WillOnce
 &
 ]
 (
-video_coding
-:
-:
 EncodedFrame
 *
 frame
@@ -6206,9 +6158,6 @@ WillOnce
 &
 ]
 (
-video_coding
-:
-:
 EncodedFrame
 *
 frame
@@ -6284,9 +6233,6 @@ WillOnce
 &
 ]
 (
-video_coding
-:
-:
 EncodedFrame
 *
 frame
@@ -6314,9 +6260,6 @@ WillOnce
 &
 ]
 (
-video_coding
-:
-:
 EncodedFrame
 *
 frame
@@ -6649,9 +6592,6 @@ WillOnce
 &
 ]
 (
-video_coding
-:
-:
 EncodedFrame
 *
 frame
@@ -6717,9 +6657,6 @@ WillOnce
 &
 ]
 (
-video_coding
-:
-:
 EncodedFrame
 *
 frame
@@ -7297,9 +7234,6 @@ GetParam
 expected_delay
 ]
 (
-video_coding
-:
-:
 EncodedFrame
 *
 frame

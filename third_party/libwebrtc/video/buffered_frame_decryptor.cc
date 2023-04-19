@@ -149,9 +149,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 RtpFrameObject
 >
 encrypted_frame
@@ -271,9 +268,6 @@ BufferedFrameDecryptor
 :
 DecryptFrame
 (
-video_coding
-:
-:
 RtpFrameObject
 *
 frame

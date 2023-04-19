@@ -12,9 +12,6 @@ h
 namespace
 webrtc
 {
-namespace
-video_coding
-{
 bool
 EncodedFrame
 :
@@ -27,6 +24,5 @@ const
 return
 0
 ;
-}
 }
 }

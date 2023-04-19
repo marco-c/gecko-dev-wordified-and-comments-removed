@@ -389,12 +389,6 @@ kMaxWaitForKeyFrameMs
 namespace
 {
 using
-video_coding
-:
-:
-EncodedFrame
-;
-using
 ReturnReason
 =
 video_coding
@@ -2999,9 +2993,6 @@ std
 :
 unique_ptr
 <
-video_coding
-:
-:
 EncodedFrame
 >
 frame

@@ -32,9 +32,6 @@ h
 namespace
 webrtc
 {
-namespace
-video_coding
-{
 class
 EncodedFrame
 :
@@ -160,6 +157,17 @@ id_
 1
 ;
 }
+;
+namespace
+video_coding
+{
+using
+:
+:
+webrtc
+:
+:
+EncodedFrame
 ;
 }
 }
