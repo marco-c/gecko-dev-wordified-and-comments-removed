@@ -2056,6 +2056,12 @@ TotalVideoPlayTime
 const
 ;
 double
+TotalVideoHDRPlayTime
+(
+)
+const
+;
+double
 VisiblePlayTime
 (
 )
