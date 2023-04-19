@@ -229,3 +229,11 @@ rect
 color
 :
 blue
+clip
+-
+chain
+:
+[
+2
+4
+]
