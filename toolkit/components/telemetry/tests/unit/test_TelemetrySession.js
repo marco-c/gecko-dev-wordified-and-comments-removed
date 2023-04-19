@@ -1504,6 +1504,7 @@ checkScalar
 function
 (
 scalar
+name
 )
 {
 const
@@ -1664,6 +1665,7 @@ scalars
 [
 name
 ]
+name
 )
 ;
 }
@@ -1797,6 +1799,7 @@ name
 [
 key
 ]
+name
 )
 ;
 }
