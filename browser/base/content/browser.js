@@ -36386,7 +36386,14 @@ if
 (
 DevToolsSocketStatus
 .
-opened
+hasSocketOpened
+(
+{
+excludeBrowserToolboxSockets
+:
+true
+}
+)
 )
 {
 return
