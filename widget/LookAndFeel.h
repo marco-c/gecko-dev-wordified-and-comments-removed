@@ -404,6 +404,12 @@ Document
 const
 StyleColorSchemeFlags
 &
+ColorSchemeMode
+=
+ColorSchemeMode
+:
+:
+Used
 )
 ;
 static
@@ -413,6 +419,12 @@ ColorSchemeForFrame
 const
 nsIFrame
 *
+ColorSchemeMode
+=
+ColorSchemeMode
+:
+:
+Used
 )
 ;
 enum

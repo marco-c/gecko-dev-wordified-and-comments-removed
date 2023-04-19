@@ -6560,6 +6560,8 @@ const
 StyleColorSchemeFlags
 &
 aFlags
+ColorSchemeMode
+aMode
 )
 {
 using
@@ -6730,6 +6732,15 @@ Light
 }
 if
 (
+aMode
+=
+=
+ColorSchemeMode
+:
+:
+Preferred
+|
+|
 nsContentUtils
 :
 :
@@ -6768,6 +6779,8 @@ const
 nsIFrame
 *
 aFrame
+ColorSchemeMode
+aMode
 )
 {
 return
@@ -6796,6 +6809,7 @@ StyleUI
 mColorScheme
 .
 bits
+aMode
 )
 ;
 }
