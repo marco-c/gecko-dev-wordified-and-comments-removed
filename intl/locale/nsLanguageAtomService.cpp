@@ -1026,6 +1026,11 @@ _
 '
 )
 ;
+loc
+=
+{
+}
+;
 result
 =
 LocaleParser
