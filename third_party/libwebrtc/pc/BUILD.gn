@@ -2276,6 +2276,16 @@ rtc_base
 :
 threading
 "
+"
+.
+.
+/
+rtc_base
+/
+task_utils
+:
+to_queued_task
+"
 ]
 }
 rtc_library

@@ -668,6 +668,7 @@ WebRtcKeyValueConfig
 >
 trials_
 ;
+const
 std
 :
 :
@@ -677,6 +678,7 @@ VoiceEngineInterface
 >
 voice_engine_
 ;
+const
 std
 :
 :

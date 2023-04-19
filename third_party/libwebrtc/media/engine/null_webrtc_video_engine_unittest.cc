@@ -249,13 +249,10 @@ NullWebRtcVideoEngine
 )
 )
 ;
-EXPECT_TRUE
-(
 engine
 .
 Init
 (
-)
 )
 ;
 }
