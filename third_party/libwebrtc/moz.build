@@ -3609,6 +3609,16 @@ libwebrtc
 /
 rtc_base
 /
+bitstream_reader_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+rtc_base
+/
 checks_gn
 "
 "
