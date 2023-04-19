@@ -92,6 +92,11 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 (
 FileSystemManager
 )
+void
+Shutdown
+(
+)
+;
 FileSystemManagerChild
 *
 Actor
