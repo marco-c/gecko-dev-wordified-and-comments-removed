@@ -1083,6 +1083,10 @@ __rust_end_short_backtrace
 "
 rust_begin_unwind
 "
+    
+"
+MOZ_Crash
+"
 )
 ABORT_SUBSTRINGS
 =
