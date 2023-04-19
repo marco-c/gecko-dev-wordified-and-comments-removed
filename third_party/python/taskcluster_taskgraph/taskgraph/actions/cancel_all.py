@@ -19,11 +19,11 @@ taskcluster
 import
 (
     
-list_task_group_incomplete_tasks
+CONCURRENCY
     
 cancel_task
     
-CONCURRENCY
+list_task_group_incomplete_tasks
 )
 from
 .

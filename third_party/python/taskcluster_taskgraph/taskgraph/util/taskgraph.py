@@ -18,12 +18,8 @@ util
 .
 taskcluster
 import
-(
-    
 find_task_id
-    
 get_artifact
-)
 def
 find_decision_task
 (

@@ -9,13 +9,13 @@ os
 import
 re
 import
-requests_unixsocket
-import
 sys
 import
 urllib
 .
 parse
+import
+requests_unixsocket
 from
 .
 archive
@@ -1798,9 +1798,6 @@ context_dir
 Dockerfile
 "
 )
-"
-r
-"
 )
 as
 fh
@@ -1877,7 +1874,7 @@ re
 .
 compile
 (
-fr
+rf
 "
 \
 {

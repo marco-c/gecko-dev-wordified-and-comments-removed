@@ -50,9 +50,9 @@ path
 "
 "
 import
-posixpath
-import
 os
+import
+posixpath
 import
 re
 def

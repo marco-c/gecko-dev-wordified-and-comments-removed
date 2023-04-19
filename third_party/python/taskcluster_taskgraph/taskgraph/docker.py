@@ -21,12 +21,8 @@ util
 .
 taskcluster
 import
-(
-    
 get_artifact_url
-    
 get_session
-)
 def
 get_image_digest
 (

@@ -1,7 +1,7 @@
 import
-os
-import
 gzip
+import
+os
 import
 stat
 import

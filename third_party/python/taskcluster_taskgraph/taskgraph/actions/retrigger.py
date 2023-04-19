@@ -11,6 +11,17 @@ nice
 as
 slugid
 from
+taskgraph
+.
+util
+import
+taskcluster
+from
+.
+registry
+import
+register_callback_action
+from
 .
 util
 import
@@ -18,25 +29,14 @@ import
     
 combine_task_graph_files
     
+create_task_from_def
+    
 create_tasks
     
 fetch_graph_and_labels
     
 relativize_datestamps
-    
-create_task_from_def
 )
-from
-.
-registry
-import
-register_callback_action
-from
-taskgraph
-.
-util
-import
-taskcluster
 logger
 =
 logging

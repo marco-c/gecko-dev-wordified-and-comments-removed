@@ -14,9 +14,9 @@ Version
 :
 1
 .
-4
+7
 .
-0
+1
 Summary
 :
 Build
@@ -148,6 +148,11 @@ Topic
 :
 Software
 Development
+License
+-
+File
+:
+LICENSE
 Requires
 -
 Dist

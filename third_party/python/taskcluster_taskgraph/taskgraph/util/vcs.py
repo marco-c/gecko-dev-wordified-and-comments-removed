@@ -6,8 +6,8 @@ from
 abc
 import
 ABC
-abstractproperty
 abstractmethod
+abstractproperty
 from
 shutil
 import
@@ -473,8 +473,6 @@ kwargs
         
 super
 (
-HgRepository
-self
 )
 .
 __init__

@@ -1,7 +1,7 @@
 import
-attr
-import
 collections
+import
+attr
 attr
 .
 s

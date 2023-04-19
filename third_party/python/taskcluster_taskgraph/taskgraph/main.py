@@ -1,5 +1,11 @@
 import
+argparse
+import
 atexit
+import
+json
+import
+logging
 import
 os
 import
@@ -14,12 +20,6 @@ import
 tempfile
 import
 traceback
-import
-argparse
-import
-logging
-import
-json
 from
 collections
 import
@@ -932,6 +932,7 @@ else
 print
 (
             
+f
 "
 Dumping
 result
@@ -939,14 +940,10 @@ with
 parameters
 from
 {
+params_name
 }
 :
 "
-.
-format
-(
-params_name
-)
             
 file
 =
@@ -3121,20 +3118,17 @@ parameters
         
 print
 (
+f
 "
 See
 '
 {
+logdir
 }
 '
 for
 logs
 "
-.
-format
-(
-logdir
-)
 file
 =
 sys
@@ -3267,8 +3261,8 @@ taskgraph
 .
 docker
 import
-build_image
 build_context
+build_image
     
 if
 args
@@ -4598,19 +4592,12 @@ options
 import
 taskgraph
 .
-parameters
-    
-import
-taskgraph
-.
 actions
     
-from
+import
 taskgraph
 .
-util
-import
-yaml
+parameters
     
 from
 taskgraph
@@ -4618,6 +4605,13 @@ taskgraph
 config
 import
 load_graph_config
+    
+from
+taskgraph
+.
+util
+import
+yaml
     
 def
 load_data
