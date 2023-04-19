@@ -38892,7 +38892,7 @@ false
 ;
 }
 }
-MainThreadErrorContext
+AutoReportFrontendContext
 ec
 (
 cx
@@ -39003,6 +39003,12 @@ if
 succeeded
 )
 {
+ec
+.
+clearAutoReport
+(
+)
+;
 JS_ReportErrorASCII
 (
 cx
@@ -39025,6 +39031,12 @@ isModule
 )
 )
 {
+ec
+.
+clearAutoReport
+(
+)
+;
 JS_ReportErrorASCII
 (
 cx
