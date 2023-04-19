@@ -127,10 +127,16 @@ EnterFrame
 sort
 "
 "
+comparefn
+"
+"
 EnterFrame
 "
 "
 print
+"
+"
+comparefn
 "
 "
 EnterFrame
