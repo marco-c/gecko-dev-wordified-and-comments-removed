@@ -2548,6 +2548,11 @@ tryAttachStringFromCodePoint
 )
 ;
 AttachDecision
+tryAttachStringStartsWith
+(
+)
+;
+AttachDecision
 tryAttachStringToLowerCase
 (
 )

@@ -542,6 +542,11 @@ StringCharAt
 \
 _
 (
+StringStartsWith
+)
+\
+_
+(
 StringToLowerCase
 )
 \

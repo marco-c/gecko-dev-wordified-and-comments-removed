@@ -14221,7 +14221,7 @@ str_indexOf
 1
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 std_String_startsWith
@@ -14229,6 +14229,7 @@ std_String_startsWith
 str_startsWith
 1
 0
+StringStartsWith
 )
 #
 ifdef
