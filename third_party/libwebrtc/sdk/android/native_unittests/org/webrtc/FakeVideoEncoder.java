@@ -3,6 +3,13 @@ org
 .
 webrtc
 ;
+import
+org
+.
+webrtc
+.
+VideoEncoder
+;
 class
 FakeVideoEncoder
 implements
