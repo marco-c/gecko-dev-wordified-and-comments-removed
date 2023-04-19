@@ -772,6 +772,16 @@ sent_packet
 /
 rtc_base
 /
+synchronization
+:
+mutex
+"
+"
+.
+.
+/
+rtc_base
+/
 system
 :
 rtc_export
