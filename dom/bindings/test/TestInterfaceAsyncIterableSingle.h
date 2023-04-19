@@ -47,6 +47,9 @@ dom
 class
 GlobalObject
 ;
+struct
+TestInterfaceAsyncIterableSingleOptions
+;
 class
 TestInterfaceAsyncIterableSingle
 final
@@ -63,12 +66,13 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 TestInterfaceAsyncIterableSingle
 )
-explicit
 TestInterfaceAsyncIterableSingle
 (
 nsPIDOMWindowInner
 *
 aParent
+bool
+aFailToInit
 )
 ;
 nsPIDOMWindowInner
@@ -109,6 +113,10 @@ const
 GlobalObject
 &
 aGlobal
+const
+TestInterfaceAsyncIterableSingleOptions
+&
+aOptions
 ErrorResult
 &
 rv
@@ -128,6 +136,9 @@ InitAsyncIterator
 Iterator
 *
 aIterator
+ErrorResult
+&
+aError
 )
 ;
 void
@@ -229,6 +240,9 @@ nsCOMPtr
 nsPIDOMWindowInner
 >
 mParent
+;
+bool
+mFailToInit
 ;
 }
 ;

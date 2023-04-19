@@ -276,6 +276,9 @@ InitAsyncIterator
 Iterator
 *
 aIterator
+ErrorResult
+&
+aError
 )
 {
 UniquePtr
