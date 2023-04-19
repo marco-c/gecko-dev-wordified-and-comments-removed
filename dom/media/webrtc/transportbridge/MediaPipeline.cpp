@@ -8452,11 +8452,12 @@ webrtc
 I420BufferInterface
 >
 i420
-=
+(
 aBuffer
 .
 GetI420
 (
+)
 )
 ;
 MOZ_ASSERT
