@@ -663,8 +663,9 @@ scoped_refptr
 RTPSenderVideoFrameTransformerDelegate
 >
 delegate
-=
+(
 this
+)
 ;
 encoder_queue_
 -
