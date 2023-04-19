@@ -191,6 +191,14 @@ Stop
 ;
 virtual
 void
+StopAndEndTrack
+(
+)
+=
+0
+;
+virtual
+void
 SetMediaChannel
 (
 cricket

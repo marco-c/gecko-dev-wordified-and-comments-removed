@@ -128,8 +128,6 @@ AudioSourceInterface
 source
 )
 ;
-private
-:
 std
 :
 :
@@ -140,6 +138,8 @@ kind
 const
 override
 ;
+private
+:
 AudioSourceInterface
 *
 GetSource

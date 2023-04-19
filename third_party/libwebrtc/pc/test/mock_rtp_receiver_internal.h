@@ -276,6 +276,17 @@ override
 MOCK_METHOD
 (
 void
+StopAndEndTrack
+(
+)
+(
+override
+)
+)
+;
+MOCK_METHOD
+(
+void
 SetMediaChannel
 (
 cricket
