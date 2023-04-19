@@ -23,6 +23,11 @@ WorkerLoadContext
 :
 WorkerLoadContext
 (
+WorkerLoadContext
+:
+:
+Kind
+aKind
 )
 :
 JS
@@ -44,8 +49,13 @@ ContextKind
 :
 Worker
 )
+mKind
+(
+aKind
+)
 {
 }
+;
 void
 WorkerLoadContext
 :
