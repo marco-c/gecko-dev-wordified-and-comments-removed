@@ -251,6 +251,12 @@ defined
 (
 WEBRTC_LINUX
 )
+|
+|
+defined
+(
+WEBRTC_MAC
+)
 #
 define
 MAYBE_Capture
