@@ -6,6 +6,15 @@ define
 builtin_intl_NumberFormat_h
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 stdint
 .

@@ -120,15 +120,6 @@ include
 "
 vm
 /
-RegExpObject
-.
-h
-"
-#
-include
-"
-vm
-/
 RegExpStatics
 .
 h

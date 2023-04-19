@@ -27,6 +27,15 @@ include
 "
 vm
 /
+BigIntType
+.
+h
+"
+#
+include
+"
+vm
+/
 NativeObject
 .
 h
