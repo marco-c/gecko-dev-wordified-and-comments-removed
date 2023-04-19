@@ -15150,10 +15150,10 @@ XP_MACOSX
 bool
 lightOnDark
 =
-!
 useBitmaps
-&
-&
+|
+|
+(
 color
 .
 r
@@ -15200,6 +15200,7 @@ b
 2
 .
 0f
+)
 ;
 #
 else
