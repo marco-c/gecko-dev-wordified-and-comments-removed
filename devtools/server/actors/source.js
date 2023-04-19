@@ -661,6 +661,17 @@ isWorker
 this
 .
 url
+?
+.
+startsWith
+(
+"
+moz
+-
+extension
+:
+"
+)
 )
 {
 try
@@ -679,11 +690,6 @@ this
 url
 )
 ;
-if
-(
-extURI
-)
-{
 const
 policy
 =
@@ -707,7 +713,6 @@ policy
 .
 name
 ;
-}
 }
 }
 catch
