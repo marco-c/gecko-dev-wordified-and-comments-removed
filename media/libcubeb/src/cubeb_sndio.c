@@ -1956,6 +1956,9 @@ n
 "
 )
 ;
+#
+ifndef
+DISABLE_LIBSNDIO_DLOPEN
 if
 (
 context
@@ -1971,6 +1974,8 @@ context
 libsndio
 )
 ;
+#
+endif
 free
 (
 context

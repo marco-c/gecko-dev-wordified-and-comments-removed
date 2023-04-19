@@ -4150,6 +4150,9 @@ context
 jack_client
 )
 ;
+#
+ifndef
+DISABLE_LIBJACK_DLOPEN
 if
 (
 context
@@ -4165,6 +4168,8 @@ context
 libjack
 )
 ;
+#
+endif
 free
 (
 context
