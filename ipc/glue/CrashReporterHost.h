@@ -356,11 +356,6 @@ additional_minidumps
 ]
 ;
 }
-bool
-IsLikelyOOM
-(
-)
-;
 static
 void
 RecordCrash
