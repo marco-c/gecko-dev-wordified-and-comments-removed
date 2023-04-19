@@ -436,6 +436,16 @@ false
 )
 ;
 }
+virtual
+void
+SetNonSenderRttMeasurement
+(
+bool
+enabled
+)
+override
+{
+}
 void
 SetFrameDecryptor
 (
