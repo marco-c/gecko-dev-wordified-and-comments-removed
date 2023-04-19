@@ -8237,6 +8237,8 @@ bug_numbers
 :
 -
 1243603
+-
+1781984
 description
 :
 >
@@ -8414,9 +8416,7 @@ keyed
 true
 expires
 :
-"
-106
-"
+never
 kind
 :
 uint
@@ -8456,6 +8456,8 @@ bug_numbers
 :
 -
 1243603
+-
+1781984
 description
 :
 >
@@ -8635,9 +8637,7 @@ keyed
 true
 expires
 :
-"
-106
-"
+never
 kind
 :
 uint
@@ -8677,6 +8677,8 @@ bug_numbers
 :
 -
 1743914
+-
+1781984
 description
 :
 >
@@ -8754,9 +8756,7 @@ keyed
 true
 expires
 :
-"
-106
-"
+never
 kind
 :
 boolean
