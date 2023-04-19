@@ -248,7 +248,7 @@ If
 it
 '
 s
-transparent
+yellow
 it
 means
 we
@@ -292,7 +292,7 @@ width
 fill
 =
 "
-red
+yellow
 "
 filter
 =
@@ -346,7 +346,7 @@ width
 fill
 =
 "
-red
+yellow
 "
 filter
 =
