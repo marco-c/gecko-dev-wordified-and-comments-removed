@@ -658,7 +658,7 @@ scoped_refptr
 <
 RTCStatsReport
 >
-victim
+other
 )
 {
 for
@@ -669,7 +669,7 @@ StatsMap
 iterator
 it
 =
-victim
+other
 -
 >
 stats_
@@ -681,7 +681,7 @@ begin
 it
 !
 =
-victim
+other
 -
 >
 stats_
@@ -718,7 +718,7 @@ release
 )
 ;
 }
-victim
+other
 -
 >
 stats_
