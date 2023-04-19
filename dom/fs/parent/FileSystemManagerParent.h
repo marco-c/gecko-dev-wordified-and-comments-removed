@@ -341,6 +341,11 @@ aResolver
 )
 ;
 void
+RequestAllowToClose
+(
+)
+;
+void
 OnChannelClose
 (
 )
@@ -382,6 +387,12 @@ mDataManager
 const
 EntryId
 mRootEntry
+;
+FlippedOnce
+<
+false
+>
+mRequestedAllowToClose
 ;
 FlippedOnce
 <
