@@ -7038,12 +7038,12 @@ value
 }
 if
 (
-GetBrowsingContext
+Group
 (
 )
 -
 >
-CrossOriginIsolated
+IsPotentiallyCrossOriginIsolated
 (
 )
 )
