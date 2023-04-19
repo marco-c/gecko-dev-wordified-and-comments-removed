@@ -37,14 +37,9 @@ color
 180
 ]
 -
-bounds
+type
 :
-[
-0
-0
-750
-100
-]
+clip
 "
 clip
 -
@@ -57,9 +52,6 @@ rect
 750
 100
 ]
-type
-:
-clip
 id
 :
 2

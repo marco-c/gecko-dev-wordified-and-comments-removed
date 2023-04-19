@@ -94,13 +94,9 @@ rect
 1024
 200
 ]
-"
-clip
+spatial
 -
-and
--
-scroll
-"
+id
 :
 2
 type

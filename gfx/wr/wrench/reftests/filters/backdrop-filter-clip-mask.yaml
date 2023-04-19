@@ -33,14 +33,6 @@ items
 type
 :
 clip
-bounds
-:
-[
-64
-64
-128
-128
-]
 id
 :
 2

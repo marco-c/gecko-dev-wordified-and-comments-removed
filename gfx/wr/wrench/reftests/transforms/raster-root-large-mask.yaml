@@ -87,14 +87,6 @@ items
 type
 :
 clip
-bounds
-:
-[
-10
-10
-60000
-60000
-]
 clip
 -
 rect
