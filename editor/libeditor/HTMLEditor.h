@@ -4468,7 +4468,11 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
+Result
+<
+EditorDOMPoint
 nsresult
+>
 ChangeMarginStart
 (
 Element
@@ -4476,6 +4480,10 @@ Element
 aElement
 ChangeMargin
 aChangeMargin
+const
+Element
+&
+aEditingHost
 )
 ;
 [
@@ -4581,6 +4589,10 @@ nsIContent
 aEndOutdent
 BlockIndentedWith
 aBlockIndentedWith
+const
+Element
+&
+aEditingHost
 )
 ;
 [
