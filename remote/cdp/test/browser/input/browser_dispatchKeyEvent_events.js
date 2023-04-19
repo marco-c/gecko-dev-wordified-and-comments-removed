@@ -384,8 +384,6 @@ a
 ;
 if
 (
-AppInfo
-.
 isMac
 )
 {
@@ -563,8 +561,6 @@ client
 if
 (
 !
-AppInfo
-.
 isMac
 )
 {

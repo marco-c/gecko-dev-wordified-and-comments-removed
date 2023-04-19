@@ -61,11 +61,11 @@ remote
 /
 content
 /
-shared
+marionette
 /
-AppInfo
+appinfo
 .
-jsm
+js
 "
 error
 :
