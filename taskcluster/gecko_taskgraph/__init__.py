@@ -2,6 +2,12 @@ import
 os
 from
 taskgraph
+import
+config
+as
+taskgraph_config
+from
+taskgraph
 .
 util
 import
@@ -9,6 +15,12 @@ taskcluster
 as
 tc_util
 schema
+from
+gecko_taskgraph
+.
+config
+import
+graph_config_schema
 GECKO
 =
 os
@@ -48,6 +60,11 @@ __file__
 MAX_DEPENDENCIES
 =
 99
+taskgraph_config
+.
+graph_config_schema
+=
+graph_config_schema
 tc_util
 .
 PRODUCTION_TASKCLUSTER_ROOT_URL

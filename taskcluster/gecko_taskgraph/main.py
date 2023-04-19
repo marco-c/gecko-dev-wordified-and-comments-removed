@@ -4548,16 +4548,16 @@ actions
 from
 taskgraph
 .
-util
-import
-yaml
-    
-from
-gecko_taskgraph
-.
 config
 import
 load_graph_config
+    
+from
+taskgraph
+.
+util
+import
+yaml
     
 def
 load_data

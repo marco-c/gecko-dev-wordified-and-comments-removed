@@ -2622,18 +2622,18 @@ kwargs
 from
 gecko_taskgraph
 .
-config
-import
-load_graph_config
-        
-from
-gecko_taskgraph
-.
 util
 .
 workertypes
 import
 get_worker_type
+        
+from
+taskgraph
+.
+config
+import
+load_graph_config
         
 overrides
 =

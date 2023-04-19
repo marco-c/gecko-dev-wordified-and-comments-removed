@@ -16,6 +16,7 @@ taskgraph
 config
 import
 GraphConfig
+load_graph_config
 from
 taskgraph
 .
@@ -85,11 +86,6 @@ util
 verify
 import
 verifications
-from
-.
-config
-import
-load_graph_config
 logger
 =
 logging

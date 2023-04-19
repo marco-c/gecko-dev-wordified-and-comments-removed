@@ -28,6 +28,12 @@ main
 from
 taskgraph
 .
+config
+import
+load_graph_config
+from
+taskgraph
+.
 transforms
 .
 base
@@ -46,12 +52,6 @@ from
 gecko_taskgraph
 import
 GECKO
-from
-gecko_taskgraph
-.
-config
-import
-load_graph_config
 from
 gecko_taskgraph
 .
