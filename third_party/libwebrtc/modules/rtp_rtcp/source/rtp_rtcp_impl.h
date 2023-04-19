@@ -1446,6 +1446,10 @@ mutex_rtt_
 ;
 int64_t
 rtt_ms_
+RTC_GUARDED_BY
+(
+mutex_rtt_
+)
 ;
 }
 ;
