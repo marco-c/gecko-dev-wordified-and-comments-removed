@@ -11000,6 +11000,14 @@ index
 :
 2
 ;
+position
+:
+absolute
+;
+inset
+:
+0
+;
 }
 .
 dialogStack
@@ -12343,7 +12351,7 @@ modal
 open
 ]
 .
-browserStack
+browserContainer
 >
 .
 dialogStack
