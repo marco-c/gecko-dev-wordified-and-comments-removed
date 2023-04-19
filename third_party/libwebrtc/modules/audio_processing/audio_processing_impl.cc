@@ -9801,6 +9801,9 @@ Initialize
 proc_fullband_sample_rate_hz
 (
 )
+num_input_channels
+(
+)
 )
 ;
 submodules_

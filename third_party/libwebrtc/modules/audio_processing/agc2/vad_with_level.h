@@ -96,10 +96,6 @@ frame
 ;
 VadLevelAnalyzer
 (
-)
-;
-VadLevelAnalyzer
-(
 int
 vad_reset_period_ms
 const
