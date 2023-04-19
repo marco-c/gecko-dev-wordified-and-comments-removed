@@ -266,6 +266,12 @@ IsHeadless
 )
 ;
 }
+static
+bool
+CheckVariationFontSupport
+(
+)
+;
 protected
 :
 void
@@ -293,12 +299,6 @@ override
 ;
 void
 InitWebRenderConfig
-(
-)
-override
-;
-bool
-CheckVariationFontSupport
 (
 )
 override

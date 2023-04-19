@@ -642,6 +642,12 @@ InitMemoryReportersForGPUProcess
 (
 )
 ;
+static
+bool
+CheckVariationFontSupport
+(
+)
+;
 protected
 :
 bool
@@ -732,14 +738,6 @@ GetBackendPrefs
 const
 override
 ;
-bool
-CheckVariationFontSupport
-(
-)
-override
-;
-protected
-:
 RenderMode
 mRenderMode
 ;

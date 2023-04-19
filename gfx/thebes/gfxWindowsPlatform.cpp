@@ -3114,7 +3114,14 @@ _ns
 )
 ;
 }
-mHasVariationFontSupport
+gfxPlatform
+:
+:
+HasVariationFontSupport
+(
+)
+;
+sHasVariationFontSupport
 =
 false
 ;
