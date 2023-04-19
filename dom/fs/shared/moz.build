@@ -17,6 +17,16 @@ FileSystemTypes
 h
 "
 ]
+UNIFIED_SOURCES
++
+=
+[
+"
+FileSystemHelpers
+.
+cpp
+"
+]
 FINAL_LIBRARY
 =
 "
