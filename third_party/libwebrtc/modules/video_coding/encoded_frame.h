@@ -348,16 +348,6 @@ timing_
 ;
 }
 bool
-Complete
-(
-)
-const
-{
-return
-_completeFrame
-;
-}
-bool
 MissingFrame
 (
 )

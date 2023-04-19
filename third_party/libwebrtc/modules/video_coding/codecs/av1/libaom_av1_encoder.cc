@@ -2841,12 +2841,6 @@ WEBRTC_VIDEO_CODEC_ERROR
 EncodedImage
 encoded_image
 ;
-encoded_image
-.
-_completeFrame
-=
-true
-;
 aom_codec_iter_t
 iter
 =

@@ -1556,17 +1556,6 @@ sequence_num
 )
 )
 ;
-if
-(
-(
-*
-frame
-)
-.
-IsSessionComplete
-(
-)
-)
 UpdateAveragePacketsPerFrame
 (
 frame

@@ -1321,17 +1321,6 @@ assertThat
 (
 videoFrame
 .
-completeFrame
-)
-.
-isTrue
-(
-)
-;
-assertThat
-(
-videoFrame
-.
 frameType
 )
 .

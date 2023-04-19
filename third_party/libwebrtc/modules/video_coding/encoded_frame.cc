@@ -198,10 +198,6 @@ _encodedHeight
 =
 0
 ;
-_completeFrame
-=
-false
-;
 _missingFrame
 =
 false

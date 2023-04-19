@@ -113,9 +113,7 @@ kMaxEncodeStartTimeListSize
 enum
 VCMVideoProtection
 {
-kProtectionNone
 kProtectionNack
-kProtectionFEC
 kProtectionNackFEC
 }
 ;

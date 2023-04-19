@@ -202,12 +202,6 @@ buffer
 ;
 encodedImage
 .
-_completeFrame
-=
-true
-;
-encodedImage
-.
 _encodedHeight
 =
 inputImage

@@ -236,8 +236,6 @@ FrameType
 frameType
 int
 rotation
-boolean
-completeFrame
 Nullable
 Integer
 qp
@@ -296,7 +294,7 @@ this
 .
 completeFrame
 =
-completeFrame
+true
 ;
 this
 .
@@ -387,17 +385,6 @@ rotation
 }
 CalledByNative
 private
-boolean
-getCompleteFrame
-(
-)
-{
-return
-completeFrame
-;
-}
-CalledByNative
-private
 Nullable
 Integer
 getQp
@@ -457,10 +444,6 @@ frameType
 private
 int
 rotation
-;
-private
-boolean
-completeFrame
 ;
 private
 Nullable
@@ -626,12 +609,6 @@ boolean
 completeFrame
 )
 {
-this
-.
-completeFrame
-=
-completeFrame
-;
 return
 this
 ;
@@ -672,7 +649,6 @@ encodedHeight
 captureTimeNs
 frameType
 rotation
-completeFrame
 qp
 )
 ;
