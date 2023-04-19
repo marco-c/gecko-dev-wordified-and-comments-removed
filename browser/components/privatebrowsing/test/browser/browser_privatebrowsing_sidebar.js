@@ -167,6 +167,11 @@ sidebar
 .
 then
 (
+closeCachedWindows
+)
+.
+then
+(
 (
 )
 =
@@ -248,6 +253,11 @@ sidebar
 )
 ;
 }
+)
+.
+then
+(
+closeCachedWindows
 )
 .
 then
@@ -340,6 +350,11 @@ sidebar
 )
 ;
 }
+)
+.
+then
+(
+closeCachedWindows
 )
 .
 then
