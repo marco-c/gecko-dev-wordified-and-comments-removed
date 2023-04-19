@@ -2039,6 +2039,13 @@ mock_audio_device
 "
 )
 {
+visibility
+=
+[
+"
+*
+"
+]
 testonly
 =
 true
