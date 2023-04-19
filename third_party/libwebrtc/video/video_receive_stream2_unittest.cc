@@ -503,7 +503,9 @@ WebRTC
 -
 FrameBuffer3
 /
-Enabled
+arm
+:
+FrameBuffer3
 /
 "
 )
@@ -3493,7 +3495,9 @@ WebRTC
 -
 FrameBuffer3
 /
-Enabled
+arm
+:
+FrameBuffer3
 /
 "
 :
@@ -3502,7 +3506,9 @@ WebRTC
 -
 FrameBuffer3
 /
-Disabled
+arm
+:
+FrameBuffer2
 /
 "
 )
