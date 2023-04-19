@@ -3940,6 +3940,13 @@ BOUND_FUNCTION_LENGTH_SLOT
 static
 const
 uint32_t
+WASM_FUNC_UNCHECKED_ENTRY_SLOT
+=
+0
+;
+static
+const
+uint32_t
 WASM_INSTANCE_SLOT
 =
 1

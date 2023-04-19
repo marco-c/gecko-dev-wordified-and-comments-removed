@@ -2347,6 +2347,12 @@ CallSiteDesc
 :
 LeaveFrame
 :
+case
+CallSiteDesc
+:
+:
+FuncRef
+:
 break
 ;
 case
