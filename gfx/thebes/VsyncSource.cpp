@@ -531,7 +531,6 @@ GetVsyncRate
 )
 )
 ;
-}
 #
 ifdef
 MOZ_WAYLAND
@@ -586,6 +585,7 @@ waylandRate
 }
 #
 endif
+}
 return
 retVal
 ;
