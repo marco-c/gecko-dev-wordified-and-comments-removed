@@ -2383,9 +2383,9 @@ nodiscard
 bool
 add
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 const
 frontend
 :
@@ -2663,9 +2663,6 @@ nodiscard
 bool
 init
 (
-JSContext
-*
-cx
 const
 JS
 :

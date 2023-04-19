@@ -1310,9 +1310,6 @@ borrowingStencil
 extensibleStencil
 )
 ;
-if
-(
-!
 StartOffThreadDelazification
 (
 cx
@@ -1321,12 +1318,7 @@ input
 options
 borrowingStencil
 )
-)
-{
-return
-false
 ;
-}
 if
 (
 input
@@ -1682,9 +1674,6 @@ stencil
 )
 )
 ;
-if
-(
-!
 StartOffThreadDelazification
 (
 cx
@@ -1693,12 +1682,7 @@ input
 options
 borrowingStencil
 )
-)
-{
-return
-false
 ;
-}
 if
 (
 input

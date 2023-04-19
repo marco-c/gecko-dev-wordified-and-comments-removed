@@ -823,12 +823,7 @@ void
 callbackData
 )
 ;
-[
-[
-nodiscard
-]
-]
-bool
+void
 StartOffThreadDelazification
 (
 JSContext
