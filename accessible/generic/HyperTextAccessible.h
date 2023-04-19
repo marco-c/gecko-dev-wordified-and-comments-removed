@@ -527,6 +527,7 @@ aY
 uint32_t
 aCoordType
 )
+override
 ;
 LayoutDeviceIntRect
 TextBounds
