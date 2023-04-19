@@ -80676,7 +80676,10 @@ Fn
 js
 :
 :
-SetObjectElementWithReceiver
+jit
+:
+:
+SetElementMegamorphic
 >
 (
 lir
