@@ -654,6 +654,13 @@ ToCss
 ToResolvedValue
 )
 ]
+#
+[
+repr
+(
+u8
+)
+]
 pub
 enum
 Clear
