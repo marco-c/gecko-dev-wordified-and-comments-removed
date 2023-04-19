@@ -736,6 +736,11 @@ rtp_sequence_number
 =
 0
 ;
+uint32_t
+rtp_timestamp
+=
+0
+;
 size_t
 length
 =

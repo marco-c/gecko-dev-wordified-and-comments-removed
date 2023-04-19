@@ -2209,6 +2209,16 @@ SequenceNumber
 ;
 packet_info
 .
+rtp_timestamp
+=
+packet
+.
+Timestamp
+(
+)
+;
+packet_info
+.
 length
 =
 packet_size
