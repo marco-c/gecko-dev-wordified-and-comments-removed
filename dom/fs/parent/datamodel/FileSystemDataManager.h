@@ -38,7 +38,7 @@ mozilla
 /
 dom
 /
-FileSystemTypes
+FileSystemHelpers
 .
 h
 "
@@ -49,7 +49,7 @@ mozilla
 /
 dom
 /
-FileSystemHelpers
+FileSystemTypes
 .
 h
 "
