@@ -639,6 +639,9 @@ logo
 :
 {
 }
+progress_bar
+:
+true
 title
 :
 {
@@ -1177,6 +1180,9 @@ background
 #
 3191f8
 "
+progress_bar
+:
+true
 logo
 :
 {
@@ -1317,6 +1323,9 @@ background
 #
 3191f8
 "
+progress_bar
+:
+true
 logo
 :
 {
@@ -1443,6 +1452,9 @@ background
 #
 3191f8
 "
+progress_bar
+:
+true
 logo
 :
 {
@@ -1572,6 +1584,9 @@ background
 #
 3191f8
 "
+progress_bar
+:
+true
 logo
 :
 {
