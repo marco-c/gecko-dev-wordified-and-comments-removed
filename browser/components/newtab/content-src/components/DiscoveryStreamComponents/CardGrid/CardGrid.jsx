@@ -866,12 +866,7 @@ id
 :
 recentSave
 .
-item_id
-|
-|
-recentSave
-.
-resolved_id
+id
 image_src
 :
 recentSave
