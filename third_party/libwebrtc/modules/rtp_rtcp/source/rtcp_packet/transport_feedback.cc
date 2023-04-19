@@ -2799,9 +2799,9 @@ false
 int64_t
 timestamp_us
 =
-base_time_ticks_
-*
-kBaseScaleFactor
+GetBaseTimeUs
+(
+)
 ;
 auto
 packet_it
