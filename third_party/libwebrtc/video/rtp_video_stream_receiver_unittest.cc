@@ -4988,9 +4988,9 @@ EXPECT_EQ
 frame
 -
 >
-id
-.
-spatial_layer
+SpatialIndex
+(
+)
 kSpatialIndex
 )
 ;
@@ -5349,9 +5349,9 @@ EXPECT_EQ
 frame
 -
 >
-id
-.
-spatial_layer
+SpatialIndex
+(
+)
 kSpatialIndex
 )
 ;
