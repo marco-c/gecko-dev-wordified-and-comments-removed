@@ -2188,7 +2188,7 @@ Construct
 webrtc
 :
 :
-Timestamp
+TimeDelta
 :
 :
 Millis
