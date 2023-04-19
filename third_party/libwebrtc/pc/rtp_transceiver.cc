@@ -2183,7 +2183,13 @@ RtpTransceiver
 :
 set_fired_direction
 (
+absl
+:
+:
+optional
+<
 RtpTransceiverDirection
+>
 direction
 )
 {

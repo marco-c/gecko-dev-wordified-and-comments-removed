@@ -603,7 +603,13 @@ direction
 void
 set_fired_direction
 (
+absl
+:
+:
+optional
+<
 RtpTransceiverDirection
+>
 direction
 )
 ;
