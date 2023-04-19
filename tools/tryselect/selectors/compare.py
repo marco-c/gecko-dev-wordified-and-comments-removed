@@ -70,14 +70,6 @@ name
 compare
 "
     
-common_groups
-=
-[
-"
-task
-"
-]
-    
 arguments
 =
 [
@@ -129,6 +121,24 @@ with
 ]
     
 ]
+    
+common_groups
+=
+[
+"
+task
+"
+]
+    
+task_configs
+=
+[
+        
+"
+rebuild
+"
+    
+]
 def
 run
 (
@@ -149,6 +159,18 @@ build
 .
 topsrcdir
 )
+    
+if
+compare_commit
+is
+None
+:
+        
+compare_commit
+=
+vcs
+.
+base_ref
     
 if
 vcs
