@@ -84,6 +84,13 @@ browsers
 json
 "
 "
+devtools
+-
+devices
+.
+json
+"
+"
 example
 .
 json
