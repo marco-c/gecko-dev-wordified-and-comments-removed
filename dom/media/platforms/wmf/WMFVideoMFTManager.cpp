@@ -714,9 +714,6 @@ mImage
 )
 mStreamType
 (
-WMFDecoderModule
-:
-:
 GetStreamTypeFromMimeType
 (
 aConfig
@@ -857,9 +854,6 @@ GetMediaSubtypeGUID
 {
 MOZ_ASSERT
 (
-WMFDecoderModule
-:
-:
 StreamTypeIsVideo
 (
 mStreamType
@@ -1188,9 +1182,6 @@ ValidateVideoInfo
 {
 NS_ENSURE_TRUE
 (
-WMFDecoderModule
-:
-:
 StreamTypeIsVideo
 (
 mStreamType
@@ -5337,9 +5328,6 @@ s
 %
 s
 "
-WMFDecoderModule
-:
-:
 StreamTypeToString
 (
 mStreamType
