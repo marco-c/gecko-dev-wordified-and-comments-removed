@@ -83,9 +83,10 @@ VoiceProcessingAudioUnit
 {
 public
 :
-explicit
 VoiceProcessingAudioUnit
 (
+bool
+bypass_voice_processing
 VoiceProcessingAudioUnitObserver
 *
 observer
@@ -265,6 +266,10 @@ void
 DisposeAudioUnit
 (
 )
+;
+const
+bool
+bypass_voice_processing_
 ;
 VoiceProcessingAudioUnitObserver
 *

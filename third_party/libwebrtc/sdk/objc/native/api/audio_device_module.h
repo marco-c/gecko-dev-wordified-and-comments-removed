@@ -34,6 +34,10 @@ AudioDeviceModule
 >
 CreateAudioDeviceModule
 (
+bool
+bypass_voice_processing
+=
+false
 )
 ;
 }

@@ -82,8 +82,11 @@ AttachAudioBuffer
 (
 )
 ;
+explicit
 AudioDeviceModuleIOS
 (
+bool
+bypass_voice_processing
 )
 ;
 ~
@@ -614,6 +617,10 @@ override
 endif
 private
 :
+const
+bool
+bypass_voice_processing_
+;
 bool
 initialized_
 =

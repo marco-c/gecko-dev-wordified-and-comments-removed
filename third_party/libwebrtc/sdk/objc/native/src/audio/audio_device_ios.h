@@ -114,8 +114,11 @@ MessageHandler
 {
 public
 :
+explicit
 AudioDeviceIOS
 (
+bool
+bypass_voice_processing
 )
 ;
 ~
@@ -779,6 +782,10 @@ void
 PrepareForNewStart
 (
 )
+;
+const
+bool
+bypass_voice_processing_
 ;
 rtc
 :
