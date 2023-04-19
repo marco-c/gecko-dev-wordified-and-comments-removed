@@ -114,16 +114,7 @@ const
 0
 ;
 virtual
-bool
-enabled
-(
-)
-const
-=
-0
-;
-virtual
-bool
+void
 Enable
 (
 bool
