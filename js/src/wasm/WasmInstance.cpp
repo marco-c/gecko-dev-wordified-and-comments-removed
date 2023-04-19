@@ -7262,7 +7262,7 @@ memcpy
 arrayObj
 -
 >
-addressOfElementZero
+data
 (
 )
 &
@@ -7611,7 +7611,7 @@ void
 arrayObj
 -
 >
-addressOfElementZero
+data
 (
 )
 ;
@@ -7970,7 +7970,7 @@ srcTypedObj
 )
 )
 ;
-STATIC_ASSERT_NUMELEMENTS_IS_U32
+STATIC_ASSERT_WASMARRAYELEMENTS_NUMELEMENTS_IS_U32
 ;
 uint64_t
 dstNumElements
@@ -8096,7 +8096,7 @@ srcBase
 srcArrayObj
 -
 >
-addressOfElementZero
+data
 (
 )
 ;
@@ -8107,7 +8107,7 @@ dstBase
 dstArrayObj
 -
 >
-addressOfElementZero
+data
 (
 )
 ;
