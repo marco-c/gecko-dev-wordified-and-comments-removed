@@ -4725,12 +4725,7 @@ drawTarget
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
-ScreenReferenceDrawTarget
+ThreadLocalScreenReferenceDrawTarget
 (
 )
 ;
