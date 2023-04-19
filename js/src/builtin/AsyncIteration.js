@@ -1889,12 +1889,14 @@ iterated
 if
 (
 !
+(
 await
 callContentFunction
 (
 fn
 undefined
 value
+)
 )
 )
 {
