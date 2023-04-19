@@ -220,7 +220,7 @@ results
 const
 ACTIONS_SHOWN_FOCUS
 =
-5
+4
 ;
 /
 /
