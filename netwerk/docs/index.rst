@@ -86,6 +86,9 @@ new_to_necko_resources
 network_test_guidelines
 .
 md
+url_parsers
+.
+md
 .
 .
 _HTTP
