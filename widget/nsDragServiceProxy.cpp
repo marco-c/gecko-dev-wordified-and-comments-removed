@@ -500,7 +500,13 @@ child
 >
 SendInvokeDragSession
 (
+std
+:
+:
+move
+(
 dataTransfers
+)
 aActionType
 Some
 (
@@ -547,7 +553,13 @@ child
 >
 SendInvokeDragSession
 (
+std
+:
+:
+move
+(
 dataTransfers
+)
 aActionType
 Nothing
 (
