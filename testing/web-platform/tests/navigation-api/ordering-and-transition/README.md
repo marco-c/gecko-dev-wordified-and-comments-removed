@@ -151,13 +151,8 @@ Similarly
 we
 test
 that
-transitionWhile
+intercept
 (
-Promise
-.
-resolve
-(
-)
 )
 does
 not
@@ -167,7 +162,7 @@ ordering
 compared
 to
 no
-transitionWhile
+intercept
 (
 )
 call
@@ -184,7 +179,7 @@ most
 variants
 have
 appropriate
-transitionWhile
+intercept
 (
 )
 counterparts
