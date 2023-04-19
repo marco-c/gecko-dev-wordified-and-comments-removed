@@ -444,8 +444,13 @@ call_stats
 Clock
 *
 clock
+std
+:
+:
+unique_ptr
+<
 VCMTiming
-*
+>
 timing
 NackPeriodicProcessor
 *
