@@ -4982,6 +4982,12 @@ CompileGlobalScript
 cx
 &
 ec
+cx
+-
+>
+stackLimitForCurrentPrincipal
+(
+)
 options
 srcBuf
 scopeKind

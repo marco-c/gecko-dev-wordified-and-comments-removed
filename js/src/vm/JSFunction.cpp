@@ -7181,6 +7181,12 @@ DelazifyCanonicalScriptedFunction
 cx
 &
 ec
+cx
+-
+>
+stackLimitForCurrentPrincipal
+(
+)
 fun
 )
 )
