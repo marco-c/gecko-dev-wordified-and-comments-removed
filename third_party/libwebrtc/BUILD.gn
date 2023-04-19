@@ -4086,6 +4086,12 @@ test_main
 ]
 }
 }
+if
+(
+!
+build_with_mozilla
+)
+{
 #
 Build
 target
@@ -4198,6 +4204,7 @@ task_queue_timeout
 rtc_base
 "
 ]
+}
 }
 #
 -
