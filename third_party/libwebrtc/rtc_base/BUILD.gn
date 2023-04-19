@@ -3062,6 +3062,14 @@ deps
 safe_compare
 "
 "
+.
+.
+/
+api
+:
+scoped_refptr
+"
+"
 system
 :
 inline
