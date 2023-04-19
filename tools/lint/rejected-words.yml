@@ -3034,14 +3034,6 @@ py
 -
 taskcluster
 /
-gecko_taskgraph
-/
-__init__
-.
-py
--
-taskcluster
-/
 test
 /
 test_mach_try_auto
