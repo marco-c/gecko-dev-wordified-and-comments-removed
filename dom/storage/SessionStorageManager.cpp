@@ -4202,14 +4202,13 @@ MaybeScheduleSessionStoreUpdate
 )
 {
 if
+constexpr
 (
 !
-StaticPrefs
+SessionStoreUtils
 :
 :
-browser_sessionstore_platform_collection_AtStartup
-(
-)
+NATIVE_LISTENER
 )
 {
 return
