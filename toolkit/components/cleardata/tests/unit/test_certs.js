@@ -194,8 +194,6 @@ port
 cert
 {
 }
-{
-}
 )
 Should
 not
@@ -250,8 +248,6 @@ port
 {
 }
 cert
-{
-}
 {
 }
 )
@@ -334,8 +330,6 @@ port
 cert
 {
 }
-{
-}
 )
 Should
 not
@@ -410,8 +404,6 @@ privateBrowsingId
 cert
 {
 }
-{
-}
 )
 Should
 have
@@ -458,8 +450,6 @@ privateBrowsingId
 cert
 {
 }
-{
-}
 )
 Should
 not
@@ -503,8 +493,6 @@ port
 {
 }
 cert
-{
-}
 {
 }
 )
@@ -561,8 +549,6 @@ port
 {
 }
 cert
-{
-}
 {
 }
 )
@@ -654,8 +640,6 @@ port
 cert
 {
 }
-{
-}
 )
 Should
 have
@@ -696,8 +680,6 @@ privateBrowsingId
 1
 }
 cert
-{
-}
 {
 }
 )
@@ -919,21 +901,6 @@ created
 "
 )
 ;
-let
-overrideBits
-=
-Ci
-.
-nsICertOverrideService
-.
-ERROR_UNTRUSTED
-|
-Ci
-.
-nsICertOverrideService
-.
-ERROR_MISMATCH
-;
 all
 .
 forEach
@@ -963,8 +930,6 @@ port
 cert
 {
 }
-{
-}
 )
 Should
 not
@@ -990,7 +955,6 @@ port
 {
 }
 cert
-overrideBits
 false
 )
 ;
@@ -1007,8 +971,6 @@ port
 {
 }
 cert
-{
-}
 {
 }
 )
@@ -1104,8 +1066,6 @@ port
 cert
 {
 }
-{
-}
 )
 Should
 have
@@ -1147,8 +1107,6 @@ port
 {
 }
 cert
-{
-}
 {
 }
 )

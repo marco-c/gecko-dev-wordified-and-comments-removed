@@ -730,11 +730,6 @@ com
 {
 }
 cert
-Ci
-.
-nsICertOverrideService
-.
-ERROR_UNTRUSTED
 false
 )
 ;

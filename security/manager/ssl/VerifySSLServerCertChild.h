@@ -127,13 +127,13 @@ IPCResult
 RecvOnVerifiedSSLServerCertFailure
 (
 const
-uint32_t
+int32_t
 &
 aFinalError
 const
 uint32_t
 &
-aCollectedErrors
+aOverridableErrorCategory
 )
 ;
 private

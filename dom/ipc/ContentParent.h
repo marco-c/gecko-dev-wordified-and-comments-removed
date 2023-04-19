@@ -5483,8 +5483,6 @@ const
 nsACString
 &
 aSerializedCert
-uint32_t
-aFlags
 const
 nsACString
 &

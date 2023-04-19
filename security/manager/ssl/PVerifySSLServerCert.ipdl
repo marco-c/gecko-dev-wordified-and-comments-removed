@@ -37,10 +37,10 @@ isBuiltCertChainRootBuiltInRoot
 async
 OnVerifiedSSLServerCertFailure
 (
-uint32_t
+int32_t
 aFinalError
 uint32_t
-aCollectedErrors
+aOverridableErrorCategory
 )
 ;
 async

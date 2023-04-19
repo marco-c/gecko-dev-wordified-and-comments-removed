@@ -135,7 +135,7 @@ aSucceeded
 PRErrorCode
 aFinalError
 uint32_t
-aCollectedErrors
+aOverridableErrorCategory
 bool
 aIsBuiltCertChainRootBuiltInRoot
 )
@@ -180,7 +180,7 @@ Unused
 SendOnVerifiedSSLServerCertFailure
 (
 aFinalError
-aCollectedErrors
+aOverridableErrorCategory
 )
 ;
 }
@@ -260,8 +260,8 @@ bool
 aSucceeded
 PRErrorCode
 aFinalError
-uint32_t
-aCollectedErrors
+OverridableErrorCategory
+aOverridableErrorCategory
 bool
 aIsBuiltCertChainRootBuiltInRoot
 uint32_t
@@ -326,8 +326,8 @@ bool
 aSucceeded
 PRErrorCode
 aFinalError
-uint32_t
-aCollectedErrors
+OverridableErrorCategory
+aOverridableErrorCategory
 bool
 aIsBuiltCertChainRootBuiltInRoot
 uint32_t
@@ -404,7 +404,7 @@ aCertificateTransparencyStatus
 aEVStatus
 aSucceeded
 aFinalError
-aCollectedErrors
+aOverridableErrorCategory
 aIsBuiltCertChainRootBuiltInRoot
 aProviderFlags
 ]
@@ -484,7 +484,13 @@ aEVStatus
 )
 aSucceeded
 aFinalError
-aCollectedErrors
+static_cast
+<
+uint32_t
+>
+(
+aOverridableErrorCategory
+)
 aIsBuiltCertChainRootBuiltInRoot
 )
 ;
