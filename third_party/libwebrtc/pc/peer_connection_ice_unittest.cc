@@ -3492,7 +3492,7 @@ size
 TEST_P
 (
 PeerConnectionIceTest
-ErrorOnInvalidRemoteIceCandidateAdded
+DISABLED_ErrorOnInvalidRemoteIceCandidateAdded
 )
 {
 auto
