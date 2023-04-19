@@ -939,13 +939,6 @@ test_data_
 ;
 }
 ;
-bool
-IsOptimizationAvailable
-(
-Optimization
-optimization
-)
-;
 }
 }
 }

@@ -43,8 +43,16 @@ PitchEstimator
 :
 PitchEstimator
 (
+const
+AvailableCpuFeatures
+&
+cpu_features
 )
 :
+cpu_features_
+(
+cpu_features
+)
 y_energy_24kHz_
 (
 kRefineNumLags24kHz
