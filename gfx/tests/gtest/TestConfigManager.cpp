@@ -440,7 +440,13 @@ cx
 JS
 :
 :
-MutableHandleValue
+MutableHandle
+<
+JS
+:
+:
+Value
+>
 _retval
 )
 override
