@@ -54,15 +54,6 @@ JSContext
 .
 h
 "
-#
-include
-"
-vm
-/
-SelfHosting
-.
-h
-"
 using
 namespace
 js
@@ -291,11 +282,6 @@ hasInitializedSelfHosting
 )
 )
 {
-selfHosting_ErrorReporter
-(
-err
-)
-;
 return
 ;
 }
