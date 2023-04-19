@@ -37,15 +37,6 @@ proxy
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-bind
-.
-h
-"
 namespace
 webrtc
 {

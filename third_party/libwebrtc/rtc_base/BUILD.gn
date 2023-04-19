@@ -544,11 +544,6 @@ sources
 =
 [
 "
-bind
-.
-h
-"
-"
 bit_buffer
 .
 cc
@@ -6370,11 +6365,6 @@ cc
 "
 "
 base64_unittest
-.
-cc
-"
-"
-bind_unittest
 .
 cc
 "
