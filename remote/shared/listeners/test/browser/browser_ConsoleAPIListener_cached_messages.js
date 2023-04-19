@@ -83,7 +83,7 @@ ConsoleAPIListener
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -100,7 +100,9 @@ listeners
 /
 ConsoleAPIListener
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -516,7 +518,7 @@ ConsoleAPIListener
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -533,7 +535,9 @@ listeners
 /
 ConsoleAPIListener
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

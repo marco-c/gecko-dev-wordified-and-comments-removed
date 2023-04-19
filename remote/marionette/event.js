@@ -44,9 +44,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -67,7 +67,9 @@ webdriver
 /
 KeyData
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

@@ -10,7 +10,7 @@ MessageHandlerRegistry
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -27,7 +27,9 @@ messagehandler
 /
 MessageHandlerRegistry
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -38,7 +40,7 @@ RootMessageHandler
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -55,7 +57,9 @@ messagehandler
 /
 RootMessageHandler
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

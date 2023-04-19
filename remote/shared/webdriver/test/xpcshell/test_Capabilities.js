@@ -34,7 +34,7 @@ AppInfo
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -49,7 +49,9 @@ shared
 /
 AppInfo
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -60,7 +62,7 @@ error
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -77,7 +79,9 @@ webdriver
 /
 Errors
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -92,7 +96,7 @@ UnhandledPromptBehavior
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -109,7 +113,9 @@ webdriver
 /
 Capabilities
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

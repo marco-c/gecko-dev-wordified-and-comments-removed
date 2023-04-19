@@ -10,7 +10,7 @@ isBrowsingContextCompatible
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -29,7 +29,9 @@ transports
 /
 FrameContextUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -585,7 +587,7 @@ FrameContextUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -604,7 +606,9 @@ transports
 /
 FrameContextUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

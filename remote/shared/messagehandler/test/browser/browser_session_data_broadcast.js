@@ -10,7 +10,7 @@ RootMessageHandler
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -27,7 +27,9 @@ messagehandler
 /
 RootMessageHandler
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

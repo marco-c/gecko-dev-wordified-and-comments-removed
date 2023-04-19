@@ -19,7 +19,7 @@ Module
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -36,7 +36,9 @@ messagehandler
 /
 Module
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

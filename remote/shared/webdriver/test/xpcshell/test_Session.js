@@ -11,7 +11,7 @@ Timeouts
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -28,7 +28,9 @@ webdriver
 /
 Capabilities
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -39,7 +41,7 @@ WebDriverSession
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -56,7 +58,9 @@ webdriver
 /
 Session
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

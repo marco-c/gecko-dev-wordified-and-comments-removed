@@ -6,7 +6,7 @@ isChromeFrame
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -21,7 +21,9 @@ shared
 /
 Stack
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

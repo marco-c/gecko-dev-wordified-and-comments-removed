@@ -1383,7 +1383,9 @@ root
 /
 invalid
 .
-jsm
+sys
+.
+mjs
 #
 services
 /

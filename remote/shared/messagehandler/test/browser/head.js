@@ -10,7 +10,7 @@ ContextDescriptorType
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -27,7 +27,9 @@ messagehandler
 /
 MessageHandler
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -55,7 +57,7 @@ RootMessageHandlerRegistry
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -72,7 +74,9 @@ messagehandler
 /
 RootMessageHandlerRegistry
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

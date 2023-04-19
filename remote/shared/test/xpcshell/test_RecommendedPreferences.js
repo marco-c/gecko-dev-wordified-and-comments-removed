@@ -5,7 +5,7 @@ RecommendedPreferences
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -20,7 +20,9 @@ shared
 /
 RecommendedPreferences
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

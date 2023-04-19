@@ -10,7 +10,7 @@ AppInfo
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -25,7 +25,9 @@ shared
 /
 AppInfo
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

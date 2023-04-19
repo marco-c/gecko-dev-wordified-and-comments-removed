@@ -5,7 +5,7 @@ error
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -22,7 +22,9 @@ messagehandler
 /
 Errors
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

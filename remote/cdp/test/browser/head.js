@@ -86,7 +86,7 @@ TabManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -101,7 +101,9 @@ shared
 /
 TabManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
