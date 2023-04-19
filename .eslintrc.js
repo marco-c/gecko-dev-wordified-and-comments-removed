@@ -1008,17 +1008,6 @@ excludedFiles
 :
 [
 "
-caps
-/
-tests
-/
-unit
-/
-test_origin
-.
-js
-"
-"
 extensions
 /
 permissions
