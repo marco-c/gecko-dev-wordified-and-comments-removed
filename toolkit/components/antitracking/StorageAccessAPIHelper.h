@@ -185,7 +185,7 @@ BrowsingContext
 *
 aParentContext
 const
-nsCString
+nsACString
 &
 aTrackingOrigin
 uint32_t
@@ -408,7 +408,7 @@ nsIPrincipal
 *
 aTrackingPrincipal
 const
-nsCString
+nsACString
 &
 aTrackingOrigin
 uint32_t

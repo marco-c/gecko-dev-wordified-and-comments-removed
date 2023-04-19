@@ -642,6 +642,7 @@ errorFlag
 DOM
 Window
 "
+_ns
 mIsFromPrivateWindow
 mProvidedPrincipal
 -
@@ -681,6 +682,7 @@ errorFlag
 DOM
 Window
 "
+_ns
 mCallerWindowID
 )
 ;
@@ -717,6 +719,7 @@ errorFlag
 DOM
 Window
 "
+_ns
 mCallerWindowID
 )
 ;

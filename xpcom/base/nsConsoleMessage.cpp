@@ -39,8 +39,8 @@ nsConsoleMessage
 nsConsoleMessage
 (
 const
-char16_t
-*
+nsAString
+&
 aMessage
 )
 {

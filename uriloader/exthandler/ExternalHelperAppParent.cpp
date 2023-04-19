@@ -184,7 +184,7 @@ bool
 &
 aWasFileChannel
 const
-nsCString
+nsACString
 &
 aContentDispositionHeader
 const
@@ -192,7 +192,7 @@ uint32_t
 &
 aContentDispositionHint
 const
-nsString
+nsAString
 &
 aContentDispositionFilename
 )
@@ -291,7 +291,7 @@ LoadInfoArgs
 &
 aLoadInfoArgs
 const
-nsCString
+nsACString
 &
 aMimeContentType
 const
@@ -544,7 +544,7 @@ ExternalHelperAppParent
 RecvOnStartRequest
 (
 const
-nsCString
+nsACString
 &
 entityID
 )
@@ -586,7 +586,7 @@ ExternalHelperAppParent
 RecvOnDataAvailable
 (
 const
-nsCString
+nsACString
 &
 data
 const

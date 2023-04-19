@@ -95,7 +95,7 @@ IPCResult
 Recv__delete__
 (
 const
-nsCString
+nsACString
 &
 aContentType
 const

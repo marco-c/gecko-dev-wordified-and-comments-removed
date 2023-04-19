@@ -519,7 +519,7 @@ NodeIdVariant
 &
 aNodeIdVariant
 const
-nsCString
+nsACString
 &
 aAPI
 const
@@ -1089,7 +1089,7 @@ api
 for
 (
 const
-nsCString
+nsACString
 &
 tag
 :
@@ -1200,7 +1200,7 @@ mAPIName
 for
 (
 const
-nsCString
+nsACString
 &
 tag
 :

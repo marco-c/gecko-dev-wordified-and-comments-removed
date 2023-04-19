@@ -263,7 +263,7 @@ RemoteAccessible
 *
 aTarget
 const
-nsString
+nsAString
 &
 aStr
 int32_t
@@ -363,7 +363,7 @@ RemoteAccessible
 *
 aTarget
 const
-nsString
+nsAString
 &
 aAnnouncement
 uint16_t

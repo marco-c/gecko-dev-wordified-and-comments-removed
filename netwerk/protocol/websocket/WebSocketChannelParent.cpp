@@ -1724,10 +1724,7 @@ CanRecv
 SendOnServerClose
 (
 code
-nsCString
-(
 reason
-)
 )
 )
 {

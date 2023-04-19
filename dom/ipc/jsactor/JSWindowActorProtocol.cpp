@@ -1368,6 +1368,7 @@ aTopic
 "
 JSActor
 "
+_ns
 false
 true
 )

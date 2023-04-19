@@ -7290,10 +7290,7 @@ cp
 >
 SendClearImageCacheFromBaseDomain
 (
-nsCString
-(
 aBaseDomain
-)
 )
 ;
 }

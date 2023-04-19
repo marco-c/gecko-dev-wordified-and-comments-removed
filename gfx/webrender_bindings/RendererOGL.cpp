@@ -2388,7 +2388,7 @@ RendererOGL
 SetProfilerUI
 (
 const
-nsCString
+nsACString
 &
 aUI
 )
@@ -2405,7 +2405,7 @@ uint8_t
 )
 aUI
 .
-get
+BeginReading
 (
 )
 aUI

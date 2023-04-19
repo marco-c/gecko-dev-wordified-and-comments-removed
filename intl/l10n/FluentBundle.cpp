@@ -787,6 +787,7 @@ err
 "
 L10n
 "
+_ns
 false
 true
 nsIScriptError

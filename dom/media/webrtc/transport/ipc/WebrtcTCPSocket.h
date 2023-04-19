@@ -159,7 +159,7 @@ nsresult
 Open
 (
 const
-nsCString
+nsACString
 &
 aHost
 const
@@ -167,7 +167,7 @@ int
 &
 aPort
 const
-nsCString
+nsACString
 &
 aLocalAddress
 const

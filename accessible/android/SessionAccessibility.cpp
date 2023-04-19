@@ -2694,7 +2694,7 @@ Accessible
 *
 aAccessible
 const
-nsString
+nsAString
 &
 aStr
 int32_t
@@ -3336,7 +3336,7 @@ Accessible
 *
 aAccessible
 const
-nsString
+nsAString
 &
 aAnnouncement
 uint16_t

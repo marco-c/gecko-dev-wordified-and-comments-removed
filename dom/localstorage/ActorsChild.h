@@ -250,11 +250,11 @@ PBackgroundLSSnapshotChild
 AllocPBackgroundLSSnapshotChild
 (
 const
-nsString
+nsAString
 &
 aDocumentURI
 const
-nsString
+nsAString
 &
 aKey
 const
@@ -372,11 +372,11 @@ uint32_t
 &
 aPrivateBrowsingId
 const
-nsString
+nsAString
 &
 aDocumentURI
 const
-nsString
+nsAString
 &
 aKey
 const

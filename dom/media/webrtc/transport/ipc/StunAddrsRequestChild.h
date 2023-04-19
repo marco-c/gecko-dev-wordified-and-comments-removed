@@ -175,7 +175,7 @@ IPCResult
 RecvOnMDNSQueryComplete
 (
 const
-nsCString
+nsACString
 &
 aHostname
 const

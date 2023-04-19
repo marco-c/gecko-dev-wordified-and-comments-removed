@@ -6901,7 +6901,7 @@ RemoteAccessible
 *
 aTarget
 const
-nsString
+nsAString
 &
 aStr
 int32_t
@@ -7038,7 +7038,7 @@ MaiAtkObject
 FireTextChangeEvent
 (
 const
-nsString
+nsAString
 &
 aStr
 int32_t

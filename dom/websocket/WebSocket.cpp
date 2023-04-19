@@ -1697,6 +1697,7 @@ errorFlag
 Web
 Socket
 "
+_ns
 mInnerWindowID
 )
 ;
@@ -1729,6 +1730,7 @@ errorFlag
 Web
 Socket
 "
+_ns
 mPrivateBrowsing
 mIsChromeContext
 )

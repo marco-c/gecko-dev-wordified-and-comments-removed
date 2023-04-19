@@ -443,7 +443,7 @@ void
 SetProfilerUI
 (
 const
-nsCString
+nsACString
 &
 aUI
 )

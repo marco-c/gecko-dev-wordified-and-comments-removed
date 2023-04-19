@@ -451,7 +451,7 @@ WebBrowserPersistURIMap
 &
 aMap
 const
-nsCString
+nsACString
 &
 aRequestedContentType
 const

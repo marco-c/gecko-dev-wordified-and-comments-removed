@@ -246,7 +246,7 @@ void
 *
 aPluginAPI
 const
-nsCString
+nsACString
 &
 )
 override
@@ -596,7 +596,7 @@ void
 *
 aPluginAPI
 const
-nsCString
+nsACString
 &
 aKeySystem
 )

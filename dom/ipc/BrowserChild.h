@@ -2038,7 +2038,7 @@ IPCResult
 RecvInsertText
 (
 const
-nsString
+nsAString
 &
 aStringToInsert
 )
@@ -2053,7 +2053,7 @@ IPCResult
 RecvNormalPriorityInsertText
 (
 const
-nsString
+nsAString
 &
 aStringToInsert
 )
@@ -2095,7 +2095,7 @@ IPCResult
 RecvActivateFrameEvent
 (
 const
-nsString
+nsAString
 &
 aType
 const
@@ -2114,7 +2114,7 @@ IPCResult
 RecvLoadRemoteScript
 (
 const
-nsString
+nsAString
 &
 aURL
 const
@@ -2133,7 +2133,7 @@ IPCResult
 RecvAsyncMessage
 (
 const
-nsString
+nsAString
 &
 aMessage
 const
@@ -2212,11 +2212,11 @@ PColorPickerChild
 AllocPColorPickerChild
 (
 const
-nsString
+nsAString
 &
 aTitle
 const
-nsString
+nsAString
 &
 aInitialColor
 )
@@ -2234,7 +2234,7 @@ PFilePickerChild
 AllocPFilePickerChild
 (
 const
-nsString
+nsAString
 &
 aTitle
 const

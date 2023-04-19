@@ -341,12 +341,6 @@ CrashReporter
 :
 AnnotationTable
 ;
-using
-CrashReporter
-:
-:
-GetIDFromMinidump
-;
 namespace
 mozilla
 :
@@ -3179,7 +3173,7 @@ GMPCapability
 &
 aCapabilities
 const
-nsCString
+nsACString
 &
 aAPI
 const
@@ -3238,7 +3232,7 @@ GMPCapability
 &
 aCapabilities
 const
-nsCString
+nsACString
 &
 aAPI
 const

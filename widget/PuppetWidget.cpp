@@ -1961,14 +1961,8 @@ SendSynthesizeNativeKeyEvent
 aNativeKeyboardLayout
 aNativeKeyCode
 aModifierFlags
-nsString
-(
 aCharacters
-)
-nsString
-(
 aUnmodifiedCharacters
-)
 notifier
 .
 SaveObserver
@@ -4979,10 +4973,7 @@ mBrowserChild
 >
 SendLookUpDictionary
 (
-nsString
-(
 aText
-)
 aFontRangeArray
 aIsVertical
 aPoint

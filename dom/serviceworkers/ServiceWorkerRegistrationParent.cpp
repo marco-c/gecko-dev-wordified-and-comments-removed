@@ -231,7 +231,7 @@ ServiceWorkerRegistrationParent
 RecvUpdate
 (
 const
-nsCString
+nsACString
 &
 aNewestWorkerScriptUrl
 UpdateResolver
@@ -408,7 +408,7 @@ ServiceWorkerRegistrationParent
 RecvSetNavigationPreloadHeader
 (
 const
-nsCString
+nsACString
 &
 aHeader
 SetNavigationPreloadHeaderResolver

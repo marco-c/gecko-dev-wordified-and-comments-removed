@@ -82,7 +82,7 @@ TestShellParent
 AllocPTestShellCommandParent
 (
 const
-nsString
+nsAString
 &
 aCommand
 )
@@ -122,7 +122,7 @@ TestShellCommandParent
 *
 command
 const
-nsString
+nsAString
 &
 aResponse
 )
@@ -201,7 +201,7 @@ TestShellCommandParent
 RunCallback
 (
 const
-nsString
+nsAString
 &
 aResponse
 )
@@ -288,7 +288,7 @@ JS_NewUCStringCopyN
 cx
 aResponse
 .
-get
+BeginReading
 (
 )
 aResponse
@@ -408,7 +408,7 @@ TestShellCommandParent
 ExecuteCallback
 (
 const
-nsString
+nsAString
 &
 aResponse
 )

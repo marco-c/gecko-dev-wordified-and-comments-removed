@@ -2560,7 +2560,7 @@ CaptureEngine
 &
 aCapEngine
 const
-nsCString
+nsACString
 &
 unique_id
 )
@@ -2583,7 +2583,10 @@ for
 %
 s
 "
+PromiseFlatCString
+(
 unique_id
+)
 .
 get
 (
@@ -2610,6 +2613,11 @@ NewRunnableFrom
 [
 self
 unique_id
+=
+nsCString
+(
+unique_id
+)
 aCapEngine
 ]
 (
@@ -2810,7 +2818,7 @@ CaptureEngine
 &
 aCapEngine
 const
-nsCString
+nsACString
 &
 unique_id
 const
@@ -2838,7 +2846,10 @@ s
 %
 d
 "
+PromiseFlatCString
+(
 unique_id
+)
 .
 get
 (
@@ -2866,6 +2877,11 @@ NewRunnableFrom
 [
 self
 unique_id
+=
+nsCString
+(
+unique_id
+)
 aCapEngine
 num
 ]
@@ -3820,7 +3836,7 @@ CaptureEngine
 &
 aCapEngine
 const
-nsCString
+nsACString
 &
 unique_id
 const
@@ -3862,6 +3878,11 @@ NewRunnableFrom
 self
 aCapEngine
 unique_id
+=
+nsCString
+(
+unique_id
+)
 aWindowID
 ]
 (

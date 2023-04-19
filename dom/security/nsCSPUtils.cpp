@@ -1133,10 +1133,6 @@ aLineNumber
 aColumnNumber
 aFlags
 category
-.
-get
-(
-)
 aFromPrivateWindow
 true
 )

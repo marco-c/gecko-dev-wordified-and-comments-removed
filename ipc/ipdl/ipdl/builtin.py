@@ -83,14 +83,6 @@ nsCString
 "
     
 "
-nsDependentSubstring
-"
-    
-"
-nsDependentCSubstring
-"
-    
-"
 mozilla
 :
 :

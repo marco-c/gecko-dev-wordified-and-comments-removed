@@ -1652,7 +1652,7 @@ ServiceWorkerRegistrationProxy
 Update
 (
 const
-nsCString
+nsACString
 &
 aNewestWorkerScriptUrl
 )
@@ -1701,7 +1701,10 @@ self
 promise
 newestWorkerScriptUrl
 =
+nsCString
+(
 aNewestWorkerScriptUrl
+)
 ]
 (
 )
@@ -2154,7 +2157,7 @@ ServiceWorkerRegistrationProxy
 SetNavigationPreloadHeader
 (
 const
-nsCString
+nsACString
 &
 aHeader
 )
@@ -2200,6 +2203,11 @@ NS_NewRunnableFunction
 __func__
 [
 aHeader
+=
+nsCString
+(
+aHeader
+)
 self
 promise
 ]

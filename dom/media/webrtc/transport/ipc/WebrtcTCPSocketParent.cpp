@@ -63,7 +63,7 @@ WebrtcTCPSocketParent
 RecvAsyncOpen
 (
 const
-nsCString
+nsACString
 &
 aHost
 const
@@ -71,7 +71,7 @@ int
 &
 aPort
 const
-nsCString
+nsACString
 &
 aLocalAddress
 const
@@ -111,7 +111,10 @@ d
 n
 "
 this
+PromiseFlatCString
+(
 aHost
+)
 .
 get
 (
@@ -546,7 +549,7 @@ WebrtcTCPSocketParent
 OnConnected
 (
 const
-nsCString
+nsACString
 &
 aProxyType
 )

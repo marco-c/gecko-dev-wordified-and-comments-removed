@@ -275,7 +275,7 @@ GMPContentChild
 AllocPChromiumCDMChild
 (
 const
-nsCString
+nsACString
 &
 aKeySystem
 )
@@ -516,7 +516,7 @@ PChromiumCDMChild
 *
 aActor
 const
-nsCString
+nsACString
 &
 aKeySystem
 )

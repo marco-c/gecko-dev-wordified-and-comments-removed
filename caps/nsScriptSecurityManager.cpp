@@ -4870,6 +4870,7 @@ errorFlag
 "
 SOP
 "
+_ns
 aFromPrivateWindow
 true
 )

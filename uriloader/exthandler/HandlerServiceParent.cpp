@@ -984,7 +984,7 @@ HandlerInfo
 &
 aHandlerInfoData
 const
-nsCString
+nsACString
 &
 aOverrideType
 HandlerInfo
@@ -1052,11 +1052,11 @@ HandlerServiceParent
 RecvGetMIMEInfoFromOS
 (
 const
-nsCString
+nsACString
 &
 aMIMEType
 const
-nsCString
+nsACString
 &
 aExtension
 nsresult
@@ -1270,7 +1270,7 @@ HandlerServiceParent
 RecvExistsForProtocolOS
 (
 const
-nsCString
+nsACString
 &
 aProtocolScheme
 bool
@@ -1311,7 +1311,10 @@ nsGNOMERegistry
 :
 HandlerExists
 (
+PromiseFlatCString
+(
 aProtocolScheme
+)
 .
 get
 (
@@ -1346,7 +1349,7 @@ HandlerServiceParent
 RecvExistsForProtocol
 (
 const
-nsCString
+nsACString
 &
 aProtocolScheme
 bool
@@ -1421,7 +1424,10 @@ protoSvc
 >
 ExternalProtocolHandlerExists
 (
+PromiseFlatCString
+(
 aProtocolScheme
+)
 .
 get
 (
@@ -1465,7 +1471,7 @@ HandlerServiceParent
 RecvGetTypeFromExtension
 (
 const
-nsCString
+nsACString
 &
 aFileExtension
 nsCString
@@ -1568,7 +1574,7 @@ HandlerServiceParent
 RecvGetApplicationDescription
 (
 const
-nsCString
+nsACString
 &
 aScheme
 nsresult

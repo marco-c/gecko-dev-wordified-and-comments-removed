@@ -4207,7 +4207,7 @@ SelectTLSClientAuthCertParent
 Dispatch
 (
 const
-nsCString
+nsACString
 &
 aHostName
 const

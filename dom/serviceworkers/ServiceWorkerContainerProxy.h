@@ -77,11 +77,11 @@ ClientInfo
 &
 aClientInfo
 const
-nsCString
+nsACString
 &
 aScopeURL
 const
-nsCString
+nsACString
 &
 aScriptURL
 ServiceWorkerUpdateViaCache
@@ -99,7 +99,7 @@ ClientInfo
 &
 aClientInfo
 const
-nsCString
+nsACString
 &
 aURL
 )

@@ -7712,14 +7712,6 @@ aInnerWindowID
 }
 else
 {
-nsCString
-category
-=
-PromiseFlatCString
-(
-aCategory
-)
-;
 rv
 =
 scriptError
@@ -7742,11 +7734,7 @@ nsIScriptError
 :
 :
 errorFlag
-category
-.
-get
-(
-)
+aCategory
 aPrivateBrowsing
 aFromChromeContext
 )

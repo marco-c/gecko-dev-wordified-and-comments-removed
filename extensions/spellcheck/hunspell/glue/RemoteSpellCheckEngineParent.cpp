@@ -72,7 +72,7 @@ RemoteSpellcheckEngineParent
 RecvSetDictionary
 (
 const
-nsCString
+nsACString
 &
 aDictionary
 bool
@@ -238,7 +238,7 @@ const
 bool
 &
 const
-nsCString
+nsACString
 &
 >
 (
@@ -262,7 +262,7 @@ const
 bool
 &
 const
-nsCString
+nsACString
 &
 >
 (
@@ -398,7 +398,7 @@ RemoteSpellcheckEngineParent
 RecvSuggest
 (
 const
-nsString
+nsAString
 &
 aWord
 uint32_t

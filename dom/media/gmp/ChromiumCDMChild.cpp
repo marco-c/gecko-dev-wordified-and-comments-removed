@@ -164,7 +164,7 @@ ContentDecryptionModule_10
 *
 aCDM
 const
-nsCString
+nsACString
 &
 aStorageId
 )
@@ -1320,7 +1320,7 @@ OnResolveNewSessionPromiseInternal
 uint32_t
 aPromiseId
 const
-nsCString
+nsACString
 &
 aSessionId
 )
@@ -1378,7 +1378,10 @@ load
 session
 "
 aPromiseId
+PromiseFlatCString
+(
 aSessionId
+)
 .
 get
 (
@@ -2945,7 +2948,7 @@ uint32_t
 &
 aSessionType
 const
-nsCString
+nsACString
 &
 aSessionId
 )
@@ -2981,7 +2984,10 @@ s
 "
 aPromiseId
 aSessionType
+PromiseFlatCString
+(
 aSessionId
+)
 .
 get
 (
@@ -3018,7 +3024,7 @@ aSessionType
 )
 aSessionId
 .
-get
+BeginReading
 (
 )
 aSessionId
@@ -3052,7 +3058,7 @@ uint32_t
 &
 aPromiseId
 const
-nsCString
+nsACString
 &
 aSessionId
 nsTArray
@@ -3096,7 +3102,10 @@ responseLen
 zu
 "
 aPromiseId
+PromiseFlatCString
+(
 aSessionId
+)
 .
 get
 (
@@ -3121,7 +3130,7 @@ UpdateSession
 aPromiseId
 aSessionId
 .
-get
+BeginReading
 (
 )
 aSessionId
@@ -3165,7 +3174,7 @@ uint32_t
 &
 aPromiseId
 const
-nsCString
+nsACString
 &
 aSessionId
 )
@@ -3198,7 +3207,10 @@ s
 )
 "
 aPromiseId
+PromiseFlatCString
+(
 aSessionId
+)
 .
 get
 (
@@ -3218,7 +3230,7 @@ CloseSession
 aPromiseId
 aSessionId
 .
-get
+BeginReading
 (
 )
 aSessionId
@@ -3252,7 +3264,7 @@ uint32_t
 &
 aPromiseId
 const
-nsCString
+nsACString
 &
 aSessionId
 )
@@ -3285,7 +3297,10 @@ s
 )
 "
 aPromiseId
+PromiseFlatCString
+(
 aSessionId
+)
 .
 get
 (
@@ -3305,7 +3320,7 @@ RemoveSession
 aPromiseId
 aSessionId
 .
-get
+BeginReading
 (
 )
 aSessionId

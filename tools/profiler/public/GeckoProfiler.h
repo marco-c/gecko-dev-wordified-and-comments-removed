@@ -217,7 +217,7 @@ void
 profiler_received_exit_profile
 (
 const
-nsCString
+nsACString
 &
 aExitProfile
 )
@@ -996,7 +996,7 @@ void
 profiler_received_exit_profile
 (
 const
-nsCString
+nsACString
 &
 aExitProfile
 )

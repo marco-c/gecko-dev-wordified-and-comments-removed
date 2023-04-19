@@ -187,10 +187,7 @@ browserChild
 SendPFilePickerConstructor
 (
 this
-nsString
-(
 aTitle
-)
 aMode
 )
 ;

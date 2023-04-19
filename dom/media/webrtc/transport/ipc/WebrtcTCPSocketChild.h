@@ -84,7 +84,7 @@ IPCResult
 RecvOnConnected
 (
 const
-nsCString
+nsACString
 &
 aProxyType
 )
@@ -121,7 +121,7 @@ void
 AsyncOpen
 (
 const
-nsCString
+nsACString
 &
 aHost
 const
@@ -129,7 +129,7 @@ int
 &
 aPort
 const
-nsCString
+nsACString
 &
 aLocalAddress
 const

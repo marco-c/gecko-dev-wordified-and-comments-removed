@@ -511,10 +511,6 @@ get
 (
 )
 )
-.
-get
-(
-)
 )
 ;
 console
@@ -701,6 +697,7 @@ warningFlag
 chrome
 registration
 "
+_ns
 false
 true
 )

@@ -1048,10 +1048,7 @@ gNeckoChild
 >
 SendHTMLDNSPrefetch
 (
-nsString
-(
 hostname
-)
 isHttps
 aPartitionedPrincipalOriginAttributes
 flags
@@ -1440,10 +1437,7 @@ gNeckoChild
 >
 SendCancelHTMLDNSPrefetch
 (
-nsString
-(
 hostname
-)
 isHttps
 aPartitionedPrincipalOriginAttributes
 flags

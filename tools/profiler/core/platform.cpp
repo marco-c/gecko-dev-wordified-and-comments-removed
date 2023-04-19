@@ -6238,7 +6238,7 @@ AddExitProfile
 PSLockRef
 aLock
 const
-nsCString
+nsACString
 &
 aExitProfile
 )
@@ -6264,7 +6264,10 @@ append
 (
 ExitProfile
 {
+nsCString
+(
 aExitProfile
+)
 sInstance
 -
 >
@@ -25066,7 +25069,7 @@ void
 profiler_received_exit_profile
 (
 const
-nsCString
+nsACString
 &
 aExitProfile
 )

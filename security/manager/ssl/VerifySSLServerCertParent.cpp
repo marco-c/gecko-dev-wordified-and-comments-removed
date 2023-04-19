@@ -522,7 +522,7 @@ ByteArray
 &
 aPeerCertChain
 const
-nsCString
+nsACString
 &
 aHostName
 const

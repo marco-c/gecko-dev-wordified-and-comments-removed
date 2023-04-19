@@ -193,7 +193,7 @@ aStatusCode
 async
 OnMessageAvailable
 (
-nsDependentCSubstring
+nsCString
 aMsg
 bool
 aMoreData
@@ -202,7 +202,7 @@ aMoreData
 async
 OnBinaryMessageAvailable
 (
-nsDependentCSubstring
+nsCString
 aMsg
 bool
 aMoreData

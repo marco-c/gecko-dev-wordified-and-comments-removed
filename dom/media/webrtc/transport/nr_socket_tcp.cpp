@@ -981,7 +981,7 @@ NrTcpSocket
 OnConnected
 (
 const
-nsCString
+nsACString
 &
 aProxyType
 )

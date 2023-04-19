@@ -30,7 +30,7 @@ GMPErr
 Open
 (
 const
-nsCString
+nsACString
 &
 aRecordName
 )
@@ -71,7 +71,7 @@ bool
 IsOpen
 (
 const
-nsCString
+nsACString
 &
 aRecordName
 )
@@ -111,7 +111,7 @@ GMPErr
 Read
 (
 const
-nsCString
+nsACString
 &
 aRecordName
 nsTArray
@@ -164,7 +164,7 @@ GMPErr
 Write
 (
 const
-nsCString
+nsACString
 &
 aRecordName
 const
@@ -219,7 +219,7 @@ void
 Close
 (
 const
-nsCString
+nsACString
 &
 aRecordName
 )

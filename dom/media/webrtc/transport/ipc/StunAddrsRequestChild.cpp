@@ -77,7 +77,7 @@ StunAddrsRequestChild
 RecvOnMDNSQueryComplete
 (
 const
-nsCString
+nsACString
 &
 hostname
 const
@@ -99,7 +99,10 @@ mListener
 >
 OnMDNSQueryComplete
 (
+PromiseFlatCString
+(
 hostname
+)
 address
 )
 ;

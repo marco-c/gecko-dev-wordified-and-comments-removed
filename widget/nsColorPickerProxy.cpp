@@ -135,7 +135,7 @@ nsColorPickerProxy
 RecvUpdate
 (
 const
-nsString
+nsAString
 &
 aColor
 )
@@ -173,7 +173,7 @@ nsColorPickerProxy
 Recv__delete__
 (
 const
-nsString
+nsAString
 &
 aColor
 )

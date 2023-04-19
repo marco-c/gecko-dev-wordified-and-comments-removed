@@ -265,7 +265,7 @@ in
 uint32_t
 flags
 in
-string
+ACString
 category
 [
 optional

@@ -2877,7 +2877,7 @@ WebrtcGlobalChild
 RecvGetStats
 (
 const
-nsString
+nsAString
 &
 aPcIdFilter
 GetStatsResolver

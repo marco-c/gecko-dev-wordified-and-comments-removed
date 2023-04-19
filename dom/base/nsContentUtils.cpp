@@ -21078,8 +21078,8 @@ nsAString
 &
 aErrorText
 const
-char
-*
+nsACString
+&
 aCategory
 bool
 aFromPrivateWindow
@@ -29873,6 +29873,7 @@ msg
 "
 DOM
 "
+_ns
 privateBrowsing
 chromeContext
 )

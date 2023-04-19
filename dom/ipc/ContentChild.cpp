@@ -18080,10 +18080,7 @@ Unused
 SendGetFilesRequest
 (
 aUUID
-nsString
-(
 aDirectoryPath
-)
 aRecursiveFlag
 )
 ;

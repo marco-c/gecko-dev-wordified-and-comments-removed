@@ -125,7 +125,7 @@ bool
 EvaluateString
 (
 const
-nsString
+nsAString
 &
 aString
 nsString

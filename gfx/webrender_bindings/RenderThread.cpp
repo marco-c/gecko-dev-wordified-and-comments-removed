@@ -2391,7 +2391,7 @@ wr
 WindowId
 aWindowId
 const
-nsCString
+nsACString
 &
 aUI
 )
@@ -2439,7 +2439,10 @@ RenderThread
 :
 SetProfilerUI
 aWindowId
+nsCString
+(
 aUI
+)
 )
 )
 ;

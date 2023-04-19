@@ -225,7 +225,7 @@ aAcc
 bool
 aIsInsert
 const
-nsString
+nsAString
 &
 aText
 int32_t

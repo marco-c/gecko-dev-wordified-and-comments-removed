@@ -499,10 +499,6 @@ aLineNumber
 aColumnNumber
 aSeverityFlag
 category
-.
-get
-(
-)
 false
 aIsChrome
 )

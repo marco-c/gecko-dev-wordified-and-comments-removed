@@ -2870,7 +2870,7 @@ bool
 SendLoadRemoteScript
 (
 const
-nsString
+nsAString
 &
 aURL
 const

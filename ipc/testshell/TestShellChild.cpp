@@ -63,7 +63,7 @@ TestShellChild
 RecvExecuteCommand
 (
 const
-nsString
+nsAString
 &
 aCommand
 )
@@ -131,7 +131,7 @@ TestShellChild
 AllocPTestShellCommandChild
 (
 const
-nsString
+nsAString
 &
 aCommand
 )
@@ -177,7 +177,7 @@ PTestShellCommandChild
 *
 aActor
 const
-nsString
+nsAString
 &
 aCommand
 )

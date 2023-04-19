@@ -215,7 +215,7 @@ ServiceWorkerRegistrationPromise
 Update
 (
 const
-nsCString
+nsACString
 &
 aNewestWorkerScriptUrl
 )
@@ -239,7 +239,7 @@ GenericPromise
 SetNavigationPreloadHeader
 (
 const
-nsCString
+nsACString
 &
 aHeader
 )
