@@ -335,6 +335,14 @@ const
 bool
 CanScroll
 (
+CSSCoord
+aDelta
+)
+const
+;
+bool
+CanScroll
+(
 ParentLayerCoord
 aDelta
 )
