@@ -217,7 +217,7 @@ false
 bool
 mWebglValid
 =
-true
+false
 ;
 bool
 mClipDirty
