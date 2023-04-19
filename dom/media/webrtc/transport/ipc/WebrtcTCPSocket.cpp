@@ -121,6 +121,13 @@ h
 #
 include
 "
+nsSocketTransportService2
+.
+h
+"
+#
+include
+"
 WebrtcTCPSocketCallback
 .
 h

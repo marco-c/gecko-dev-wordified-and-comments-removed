@@ -160,6 +160,13 @@ nsIHttpChannel
 .
 h
 "
+#
+include
+"
+nsSocketTransportService2
+.
+h
+"
 class
 nsIHttpActivityDistributor
 ;
@@ -193,11 +200,6 @@ mozilla
 :
 net
 {
-bool
-OnSocketThread
-(
-)
-;
 class
 ATokenBucketEvent
 ;
