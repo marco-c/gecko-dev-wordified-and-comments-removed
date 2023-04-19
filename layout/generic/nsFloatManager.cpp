@@ -2031,7 +2031,7 @@ nscoord
 nsFloatManager
 :
 :
-GetLowestFloatTop
+LowestFloatBStart
 (
 )
 const

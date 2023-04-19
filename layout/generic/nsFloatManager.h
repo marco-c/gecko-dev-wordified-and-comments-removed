@@ -683,7 +683,7 @@ aState
 )
 ;
 nscoord
-GetLowestFloatTop
+LowestFloatBStart
 (
 )
 const
