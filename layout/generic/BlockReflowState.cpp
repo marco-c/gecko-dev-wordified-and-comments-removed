@@ -206,7 +206,7 @@ mLineNumber
 (
 0
 )
-mFloatBreakType
+mTrailingClearFromPIF
 (
 StyleClear
 :

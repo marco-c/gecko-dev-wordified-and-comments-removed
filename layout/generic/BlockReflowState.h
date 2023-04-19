@@ -895,7 +895,7 @@ Flags
 mFlags
 ;
 StyleClear
-mFloatBreakType
+mTrailingClearFromPIF
 ;
 const
 nscoord
