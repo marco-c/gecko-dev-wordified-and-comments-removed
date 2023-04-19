@@ -1186,6 +1186,13 @@ with
 open
 (
 results_json
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 f
