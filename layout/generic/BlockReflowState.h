@@ -526,6 +526,12 @@ bool
 aBlockAvoidsFloats
 )
 ;
+LogicalSize
+ComputeAvailableSizeForFloat
+(
+)
+const
+;
 void
 RecoverStateFrom
 (
