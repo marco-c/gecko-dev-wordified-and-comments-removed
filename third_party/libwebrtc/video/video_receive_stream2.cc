@@ -1161,7 +1161,7 @@ max_wait_for_keyframe_ms_
 (
 DetermineMaxWaitForFrame
 (
-config
+config_
 true
 )
 )
@@ -1169,7 +1169,7 @@ max_wait_for_frame_ms_
 (
 DetermineMaxWaitForFrame
 (
-config
+config_
 false
 )
 )
@@ -1403,7 +1403,7 @@ RtxReceiveStream
 (
 &
 rtp_video_stream_receiver_
-config
+config_
 .
 rtp
 .
@@ -1428,7 +1428,7 @@ rtp_receive_statistics_
 >
 EnableRetransmitDetection
 (
-config
+config_
 .
 rtp
 .
