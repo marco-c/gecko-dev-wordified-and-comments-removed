@@ -52,6 +52,7 @@ task
 (
 {
 browser
+ui
 }
 )
 {
@@ -75,6 +76,12 @@ have
 got
 lost
 "
+)
+;
+await
+waitForDeviceAndViewportState
+(
+ui
 )
 ;
 }
