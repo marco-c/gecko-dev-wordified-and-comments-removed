@@ -5527,6 +5527,14 @@ false
 globalHistoryOptions
 :
 {
+triggeringSearchEngine
+:
+result
+.
+payload
+?
+.
+engine
 triggeringSponsoredURL
 :
 result
