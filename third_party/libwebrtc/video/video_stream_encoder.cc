@@ -8990,6 +8990,13 @@ encoder_failed_
 )
 return
 ;
+if
+(
+!
+encoder_
+)
+return
+;
 TraceFrameDropEnd
 (
 )
