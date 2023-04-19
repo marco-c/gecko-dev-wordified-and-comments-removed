@@ -474,6 +474,17 @@ include
 "
 mozilla
 /
+dom
+/
+FontFaceSet
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPresData
 .
 h
