@@ -289,6 +289,12 @@ TransientSuppressorImpl
 (
 VadMode
 vad_mode
+int
+sample_rate_hz
+int
+detector_rate_hz
+int
+num_channels
 )
 :
 vad_mode_
@@ -382,6 +388,13 @@ mode
 GetVadModeLabel
 (
 vad_mode_
+)
+;
+Initialize
+(
+sample_rate_hz
+detector_rate_hz
+num_channels
 )
 ;
 }

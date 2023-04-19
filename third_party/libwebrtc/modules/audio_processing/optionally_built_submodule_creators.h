@@ -53,6 +53,12 @@ TransientSuppressor
 :
 VadMode
 vad_mode
+int
+sample_rate_hz
+int
+detection_rate_hz
+int
+num_channels
 )
 ;
 }

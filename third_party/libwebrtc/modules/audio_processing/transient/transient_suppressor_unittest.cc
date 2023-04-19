@@ -87,12 +87,6 @@ ts
 GetParam
 (
 )
-)
-;
-ts
-.
-Initialize
-(
 ts
 :
 :
