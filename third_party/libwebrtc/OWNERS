@@ -144,9 +144,3 @@ mbonadei
 webrtc
 .
 org
-#
-COMPONENT
-:
-Internals
->
-WebRTC
