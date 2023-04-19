@@ -1738,9 +1738,6 @@ animation
 -
 composition
 "
-rule_types_allowed
-=
-DEFAULT_RULES_EXCEPT_KEYFRAME
 )
 }
 {
