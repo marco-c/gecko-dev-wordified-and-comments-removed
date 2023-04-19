@@ -1395,9 +1395,13 @@ chan
 )
 {
 throw
+new
+Error
+(
 "
 boom
 "
+)
 ;
 }
 )
