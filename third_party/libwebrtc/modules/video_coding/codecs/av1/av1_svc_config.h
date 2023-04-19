@@ -19,6 +19,13 @@ namespace
 webrtc
 {
 bool
+LibaomAv1EncoderSupportsScalabilityMode
+(
+ScalabilityMode
+scalability_mode
+)
+;
+bool
 SetAv1SvcConfig
 (
 VideoCodec

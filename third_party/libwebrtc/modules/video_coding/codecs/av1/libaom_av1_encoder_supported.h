@@ -62,16 +62,6 @@ CreateLibaomAv1EncoderIfSupported
 (
 )
 ;
-bool
-LibaomAv1EncoderSupportsScalabilityMode
-(
-absl
-:
-:
-string_view
-scalability_mode
-)
-;
 }
 #
 endif

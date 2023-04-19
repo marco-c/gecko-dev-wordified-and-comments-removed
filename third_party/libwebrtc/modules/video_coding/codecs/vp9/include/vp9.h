@@ -17,11 +17,11 @@ vector
 #
 include
 "
-absl
+api
 /
-strings
+video_codecs
 /
-string_view
+scalability_mode
 .
 h
 "
@@ -128,10 +128,7 @@ static
 bool
 SupportsScalabilityMode
 (
-absl
-:
-:
-string_view
+ScalabilityMode
 scalability_mode
 )
 ;
