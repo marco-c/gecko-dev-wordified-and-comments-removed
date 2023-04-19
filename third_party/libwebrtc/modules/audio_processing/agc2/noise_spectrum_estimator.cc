@@ -328,7 +328,7 @@ data_dumper_
 DumpRaw
 (
 "
-lc_noise_spectrum
+agc2_noise_spectrum
 "
 65
 noise_spectrum_
@@ -340,7 +340,7 @@ data_dumper_
 DumpRaw
 (
 "
-lc_signal_spectrum
+agc2_signal_spectrum
 "
 spectrum
 )

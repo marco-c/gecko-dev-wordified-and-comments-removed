@@ -105,6 +105,7 @@ private
 :
 ApmDataDumper
 *
+const
 data_dumper_
 ;
 int

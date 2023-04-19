@@ -550,7 +550,7 @@ data_dumper
 DumpRaw
 (
 "
-lc_num_stationary_bands
+agc2_num_stationary_bands
 "
 1
 &
@@ -563,7 +563,7 @@ data_dumper
 DumpRaw
 (
 "
-lc_num_highly_nonstationary_bands
+agc2_num_highly_nonstationary_bands
 "
 1
 &
