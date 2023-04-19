@@ -136,6 +136,15 @@ component
 :
 str
             
+Required
+(
+"
+expiration
+"
+)
+:
+str
+            
 Optional
 (
 "
