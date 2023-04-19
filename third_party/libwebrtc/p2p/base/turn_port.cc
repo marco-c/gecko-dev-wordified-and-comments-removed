@@ -5029,12 +5029,8 @@ break
 ;
 default
 :
-Port
-:
-:
-OnMessage
+RTC_NOTREACHED
 (
-message
 )
 ;
 }
