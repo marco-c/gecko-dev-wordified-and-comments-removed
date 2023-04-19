@@ -53,15 +53,6 @@ size
 RtpHeaderParser
 :
 :
-IsRtcp
-(
-data
-size
-)
-;
-RtpHeaderParser
-:
-:
 GetSsrc
 (
 data

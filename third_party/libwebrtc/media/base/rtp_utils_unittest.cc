@@ -555,14 +555,6 @@ RtpUtilsTest
 GetRtp
 )
 {
-EXPECT_TRUE
-(
-IsRtpPacket
-(
-kPcmuFrameArrayView
-)
-)
-;
 int
 pt
 ;
