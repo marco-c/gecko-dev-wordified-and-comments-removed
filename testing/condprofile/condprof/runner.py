@@ -824,14 +824,6 @@ exc_info
 =
 True
 )
-        
-if
-self
-.
-strict
-:
-            
-raise
     
 async
 def
