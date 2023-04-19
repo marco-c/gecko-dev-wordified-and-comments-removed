@@ -73,8 +73,6 @@ animated
 color
 :
 :
-RGBA
-as
 AnimatedRGBA
 ;
 #
