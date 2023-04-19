@@ -1270,7 +1270,7 @@ gn_args
 append
 (
 '
-rtc_enable_symbol_export
+rtc_enable_objc_symbol_export
 =
 true
 '
