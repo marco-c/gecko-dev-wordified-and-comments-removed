@@ -16,6 +16,13 @@ nsProfiler
 h
 "
 #
+include
+"
+platform
+.
+h
+"
+#
 endif
 #
 include
@@ -134,13 +141,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-platform
 .
 h
 "
