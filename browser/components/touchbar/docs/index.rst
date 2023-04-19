@@ -545,7 +545,7 @@ touchbar
 /
 MacTouchBar
 .
-js
+jsm
 defines
 what
 specific
@@ -857,7 +857,7 @@ enum
 in
 MacTouchBar
 .
-js
+jsm
 .
 For
 example
@@ -898,7 +898,7 @@ method
 in
 MacTouchBar
 .
-js
+jsm
 that
 takes
 a
@@ -1017,7 +1017,7 @@ touchbar
 /
 MacTouchBar
 .
-js
+jsm
 #
 82
 Input
