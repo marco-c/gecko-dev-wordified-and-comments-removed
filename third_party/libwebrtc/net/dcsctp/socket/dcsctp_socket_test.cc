@@ -8407,6 +8407,10 @@ has_value
 )
 )
 ;
+MaybeHandoverSocketZAndSendMessage
+(
+)
+;
 }
 struct
 FakeChunkConfig
