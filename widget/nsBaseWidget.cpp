@@ -1444,10 +1444,6 @@ NotifyLiveResizeStopped
 (
 )
 ;
-RevokeTransactionIdAllocator
-(
-)
-;
 DestroyCompositor
 (
 )
@@ -1493,6 +1489,10 @@ DestroyCompositor
 (
 )
 {
+RevokeTransactionIdAllocator
+(
+)
+;
 if
 (
 mCompositorVsyncDispatcher
@@ -1764,10 +1764,6 @@ FreeLocalesChangedObserver
 )
 ;
 FreeShutdownObserver
-(
-)
-;
-RevokeTransactionIdAllocator
 (
 )
 ;
