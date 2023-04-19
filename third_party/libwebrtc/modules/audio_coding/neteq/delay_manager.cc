@@ -878,7 +878,7 @@ const
 int
 expected_iat_ms
 =
-1000
+1000ll
 *
 static_cast
 <
