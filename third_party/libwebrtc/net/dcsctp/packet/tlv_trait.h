@@ -397,6 +397,7 @@ kTypeSizeInBytes
 ?
 tlv_header
 .
+template
 Load8
 <
 0
@@ -406,6 +407,7 @@ Load8
 :
 tlv_header
 .
+template
 Load16
 <
 0
@@ -449,6 +451,7 @@ length
 =
 tlv_header
 .
+template
 Load16
 <
 2
@@ -731,6 +734,7 @@ kTypeSizeInBytes
 {
 tlv_header
 .
+template
 Store8
 <
 0
@@ -753,6 +757,7 @@ else
 {
 tlv_header
 .
+template
 Store16
 <
 0
@@ -767,6 +772,7 @@ kType
 }
 tlv_header
 .
+template
 Store16
 <
 2
