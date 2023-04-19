@@ -432,6 +432,17 @@ rtc_error
 /
 rtc_base
 :
+copy_on_write_buffer
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 rtc_base_approved
 "
 ]
