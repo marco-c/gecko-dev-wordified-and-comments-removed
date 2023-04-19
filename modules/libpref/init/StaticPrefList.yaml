@@ -36900,7 +36900,7 @@ type
 uint32_t
 value
 :
-256
+512
 mirror
 :
 always
