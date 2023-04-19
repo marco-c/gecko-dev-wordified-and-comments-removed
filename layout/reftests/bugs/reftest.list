@@ -16978,11 +16978,7 @@ if
 Android
 )
 fuzzy
--
-if
 (
-!
-useDrawSnapshot
 63
 -
 65

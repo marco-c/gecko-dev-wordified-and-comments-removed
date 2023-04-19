@@ -1682,6 +1682,11 @@ BackendType
 :
 :
 DIRECT2D1_1
+|
+|
+(
+true
+)
 )
 {
 return
