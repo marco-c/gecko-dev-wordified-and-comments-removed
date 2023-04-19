@@ -609,15 +609,6 @@ AudioData
 &
 mAudioQueue
 ;
-Maybe
-<
-media
-:
-:
-TimeUnit
->
-mLastPacketEndTime
-;
 }
 ;
 }
