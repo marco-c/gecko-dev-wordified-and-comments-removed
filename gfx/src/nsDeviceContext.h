@@ -278,6 +278,12 @@ return
 mAppUnitsPerDevPixelAtUnitFullZoom
 ;
 }
+int32_t
+AppUnitsPerDevPixelInTopLevelChromePage
+(
+)
+const
+;
 uint32_t
 GetDepth
 (
