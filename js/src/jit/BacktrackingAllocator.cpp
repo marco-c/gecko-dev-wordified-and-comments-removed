@@ -603,7 +603,7 @@ void
 LiveRange
 :
 :
-distributeUses
+tryToMoveDefAndUsesInto
 (
 LiveRange
 *
@@ -1269,7 +1269,7 @@ range
 oldRange
 -
 >
-distributeUses
+tryToMoveDefAndUsesInto
 (
 range
 )
@@ -1650,7 +1650,7 @@ hasDefinition
 existing
 -
 >
-distributeUses
+tryToMoveDefAndUsesInto
 (
 merged
 )
@@ -7410,7 +7410,7 @@ false
 inputRange
 -
 >
-distributeUses
+tryToMoveDefAndUsesInto
 (
 preRange
 )
@@ -7418,7 +7418,7 @@ preRange
 inputRange
 -
 >
-distributeUses
+tryToMoveDefAndUsesInto
 (
 postRange
 )
@@ -8386,7 +8386,7 @@ bool
 BacktrackingAllocator
 :
 :
-splitAndRequeueBundles
+updateVirtualRegisterListsThenRequeueBundles
 (
 LiveBundle
 *
@@ -10164,7 +10164,7 @@ false
 ;
 }
 return
-splitAndRequeueBundles
+updateVirtualRegisterListsThenRequeueBundles
 (
 bundle
 filteredBundles
@@ -11320,7 +11320,7 @@ success
 true
 ;
 return
-splitAndRequeueBundles
+updateVirtualRegisterListsThenRequeueBundles
 (
 bundle
 newBundles
@@ -14467,7 +14467,7 @@ vreg
 range
 -
 >
-distributeUses
+tryToMoveDefAndUsesInto
 (
 parentRange
 )
@@ -15855,7 +15855,7 @@ bool
 BacktrackingAllocator
 :
 :
-resolveControlFlow
+createMoveGroupsFromLiveRangeTransitions
 (
 )
 {
@@ -17408,7 +17408,7 @@ bool
 BacktrackingAllocator
 :
 :
-reifyAllocations
+installAllocationsInLIR
 (
 )
 {
@@ -17416,7 +17416,7 @@ JitSpew
 (
 JitSpew_RegAlloc
 "
-Reifying
+Installing
 Allocations
 "
 )
@@ -17472,7 +17472,7 @@ shouldCancel
 (
 "
 Backtracking
-Reify
+Install
 Allocations
 (
 main
@@ -20849,7 +20849,7 @@ endif
 if
 (
 !
-resolveControlFlow
+createMoveGroupsFromLiveRangeTransitions
 (
 )
 )
@@ -20861,7 +20861,7 @@ false
 if
 (
 !
-reifyAllocations
+installAllocationsInLIR
 (
 )
 )
