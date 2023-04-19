@@ -2657,7 +2657,9 @@ GetFlexFecConfig
 )
 -
 >
-rtp_header_extensions
+rtp
+.
+extensions
 .
 push_back
 (
@@ -2867,6 +2869,8 @@ payload_type
 ;
 config
 .
+rtp
+.
 remote_ssrc
 =
 send_config
@@ -2890,6 +2894,8 @@ flexfec
 protected_media_ssrcs
 ;
 config
+.
+rtp
 .
 local_ssrc
 =

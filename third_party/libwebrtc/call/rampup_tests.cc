@@ -1768,6 +1768,8 @@ receive_configs
 0
 ]
 .
+rtp
+.
 remote_ssrc
 =
 test
@@ -1803,6 +1805,8 @@ receive_configs
 0
 ]
 .
+rtp
+.
 local_ssrc
 =
 video_ssrcs_
@@ -1829,6 +1833,8 @@ receive_configs
 0
 ]
 .
+rtp
+.
 transport_cc
 =
 false
@@ -1841,7 +1847,9 @@ receive_configs
 0
 ]
 .
-rtp_header_extensions
+rtp
+.
+extensions
 .
 push_back
 (
@@ -1877,6 +1885,8 @@ receive_configs
 0
 ]
 .
+rtp
+.
 transport_cc
 =
 true
@@ -1889,7 +1899,9 @@ receive_configs
 0
 ]
 .
-rtp_header_extensions
+rtp
+.
+extensions
 .
 push_back
 (

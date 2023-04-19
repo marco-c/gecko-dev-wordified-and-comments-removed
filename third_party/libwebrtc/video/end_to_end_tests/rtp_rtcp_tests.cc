@@ -3049,6 +3049,8 @@ payload_type
 ;
 flexfec_receive_config
 .
+rtp
+.
 remote_ssrc
 =
 GetVideoSendConfig
@@ -3079,11 +3081,15 @@ protected_media_ssrcs
 ;
 flexfec_receive_config
 .
+rtp
+.
 local_ssrc
 =
 kReceiverLocalVideoSsrc
 ;
 flexfec_receive_config
+.
+rtp
 .
 transport_cc
 =
@@ -3091,7 +3097,9 @@ true
 ;
 flexfec_receive_config
 .
-rtp_header_extensions
+rtp
+.
+extensions
 .
 emplace_back
 (

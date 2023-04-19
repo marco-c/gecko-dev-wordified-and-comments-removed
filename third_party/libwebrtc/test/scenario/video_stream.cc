@@ -4070,6 +4070,8 @@ kFlexfecPayloadType
 ;
 flexfec
 .
+rtp
+.
 remote_ssrc
 =
 CallTest
@@ -4088,6 +4090,8 @@ rtx_ssrcs_
 ;
 flexfec
 .
+rtp
+.
 local_ssrc
 =
 recv_config
@@ -4102,6 +4106,8 @@ receiver_
 ssrc_media_types_
 [
 flexfec
+.
+rtp
 .
 remote_ssrc
 ]

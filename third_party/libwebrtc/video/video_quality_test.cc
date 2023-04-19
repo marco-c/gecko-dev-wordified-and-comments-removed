@@ -6638,6 +6638,8 @@ GetFlexFecConfig
 )
 -
 >
+rtp
+.
 transport_cc
 =
 params_
@@ -6660,7 +6662,9 @@ GetFlexFecConfig
 )
 -
 >
-rtp_header_extensions
+rtp
+.
+extensions
 .
 push_back
 (
@@ -6682,7 +6686,9 @@ GetFlexFecConfig
 )
 -
 >
-rtp_header_extensions
+rtp
+.
+extensions
 .
 push_back
 (

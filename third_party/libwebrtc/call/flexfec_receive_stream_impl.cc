@@ -289,6 +289,8 @@ remote_ssrc
 "
 <
 <
+rtp
+.
 remote_ssrc
 ;
 ss
@@ -300,6 +302,8 @@ local_ssrc
 "
 <
 <
+rtp
+.
 local_ssrc
 ;
 ss
@@ -373,6 +377,8 @@ transport_cc
 <
 <
 (
+rtp
+.
 transport_cc
 ?
 "
@@ -388,7 +394,9 @@ ss
 <
 <
 "
-rtp_header_extensions
+rtp
+.
+extensions
 :
 [
 "
@@ -404,7 +412,9 @@ i
 +
 1
 <
-rtp_header_extensions
+rtp
+.
+extensions
 .
 size
 (
@@ -417,7 +427,9 @@ i
 ss
 <
 <
-rtp_header_extensions
+rtp
+.
+extensions
 [
 i
 ]
@@ -433,7 +445,9 @@ ToString
 if
 (
 !
-rtp_header_extensions
+rtp
+.
+extensions
 .
 empty
 (
@@ -442,7 +456,9 @@ empty
 ss
 <
 <
-rtp_header_extensions
+rtp
+.
+extensions
 [
 i
 ]
@@ -490,6 +506,8 @@ false
 ;
 if
 (
+rtp
+.
 remote_ssrc
 =
 =
@@ -598,6 +616,8 @@ payload_type
 if
 (
 config
+.
+rtp
 .
 remote_ssrc
 =
@@ -757,6 +777,8 @@ FlexfecReceiver
 clock
 config
 .
+rtp
+.
 remote_ssrc
 config
 .
@@ -845,6 +867,8 @@ configuration
 local_media_ssrc
 =
 config
+.
+rtp
 .
 local_ssrc
 ;
@@ -1051,6 +1075,8 @@ CreateReceiver
 (
 config_
 .
+rtp
+.
 remote_ssrc
 this
 )
@@ -1114,6 +1140,8 @@ Ssrc
 =
 =
 config_
+.
+rtp
 .
 remote_ssrc
 )

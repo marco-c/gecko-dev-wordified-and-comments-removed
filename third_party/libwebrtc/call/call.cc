@@ -755,8 +755,12 @@ UseSendSideBwe
 (
 config
 .
-rtp_header_extensions
+rtp
+.
+extensions
 config
+.
+rtp
 .
 transport_cc
 )
@@ -2413,7 +2417,9 @@ extensions
 (
 config
 .
-rtp_header_extensions
+rtp
+.
+extensions
 )
 use_send_side_bwe
 (
@@ -6523,6 +6529,8 @@ find
 (
 config
 .
+rtp
+.
 remote_ssrc
 )
 =
@@ -6539,6 +6547,8 @@ receive_rtp_config_
 emplace
 (
 config
+.
+rtp
 .
 remote_ssrc
 ReceiveRtpConfig
@@ -6627,6 +6637,8 @@ uint32_t
 ssrc
 =
 config
+.
+rtp
 .
 remote_ssrc
 ;

@@ -8928,6 +8928,8 @@ ssrc
 flexfec_config
 -
 >
+rtp
+.
 remote_ssrc
 )
 )
@@ -8944,6 +8946,8 @@ ssrc
 flexfec_config
 -
 >
+rtp
+.
 local_ssrc
 =
 config
@@ -8968,6 +8972,8 @@ rtcp_mode
 flexfec_config
 -
 >
+rtp
+.
 transport_cc
 =
 config
@@ -8980,7 +8986,9 @@ transport_cc
 flexfec_config
 -
 >
-rtp_header_extensions
+rtp
+.
+extensions
 =
 config
 -
@@ -17281,6 +17289,8 @@ local_ssrc
 ;
 flexfec_config_
 .
+rtp
+.
 local_ssrc
 =
 local_ssrc
@@ -17492,6 +17502,8 @@ rtcp_mode
 ;
 flexfec_config_
 .
+rtp
+.
 transport_cc
 =
 config_
@@ -17608,7 +17620,9 @@ rtp_header_extensions
 ;
 flexfec_config_
 .
-rtp_header_extensions
+rtp
+.
+extensions
 =
 *
 params
