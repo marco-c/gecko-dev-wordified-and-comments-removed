@@ -5020,10 +5020,10 @@ aAlpn
 {
 if
 (
-StaticPrefs
+nsHttpHandler
 :
 :
-network_http_http3_enable
+IsHttp3Enabled
 (
 )
 &
