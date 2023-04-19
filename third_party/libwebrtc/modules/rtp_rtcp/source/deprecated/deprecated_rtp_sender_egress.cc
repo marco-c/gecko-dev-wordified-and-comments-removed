@@ -1708,6 +1708,12 @@ ssrc_
 ;
 packet_info
 .
+media_ssrc
+=
+ssrc_
+;
+packet_info
+.
 transport_sequence_number
 =
 packet_id
