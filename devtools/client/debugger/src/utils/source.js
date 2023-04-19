@@ -160,6 +160,9 @@ export
 const
 javascriptLikeExtensions
 =
+new
+Set
+(
 [
 "
 marko
@@ -174,6 +177,7 @@ vue
 jsm
 "
 ]
+)
 ;
 function
 getPath
@@ -512,7 +516,7 @@ return
 (
 javascriptLikeExtensions
 .
-includes
+has
 (
 extension
 )
