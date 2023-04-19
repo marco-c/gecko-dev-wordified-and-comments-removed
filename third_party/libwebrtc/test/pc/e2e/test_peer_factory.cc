@@ -2188,7 +2188,7 @@ peer_connection
 peer_connection_factory
 -
 >
-CreatePeerConnection
+CreatePeerConnectionOrError
 (
 params
 -
@@ -2201,6 +2201,10 @@ move
 (
 pc_deps
 )
+)
+.
+MoveValue
+(
 )
 ;
 peer_connection

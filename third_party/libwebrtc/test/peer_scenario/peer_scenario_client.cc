@@ -1611,7 +1611,7 @@ peer_connection_
 pc_factory_
 -
 >
-CreatePeerConnection
+CreatePeerConnectionOrError
 (
 config
 .
@@ -1623,6 +1623,10 @@ move
 (
 pc_deps
 )
+)
+.
+MoveValue
+(
 )
 ;
 if
