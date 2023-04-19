@@ -2213,7 +2213,7 @@ wipeCache
 ;
 sandbox
 .
-reset
+restore
 (
 )
 ;
