@@ -258,7 +258,7 @@ tsn
 )
 const
 ;
-void
+bool
 Observe
 (
 TSN
