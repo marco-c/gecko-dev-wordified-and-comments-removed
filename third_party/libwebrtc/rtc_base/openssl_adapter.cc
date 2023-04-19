@@ -4199,7 +4199,7 @@ OpenSSLAdapter
 SSLVerifyInternal
 (
 int
-status_on_failure
+previous_status
 SSL
 *
 ssl
@@ -4218,7 +4218,7 @@ NDEBUG
 if
 (
 !
-status_on_failure
+previous_status
 )
 {
 char
@@ -4354,6 +4354,9 @@ err
 endif
 if
 (
+previous_status
+|
+|
 ssl_cert_verifier_
 =
 =
@@ -4361,7 +4364,7 @@ nullptr
 )
 {
 return
-status_on_failure
+previous_status
 ;
 }
 RTC_LOG
@@ -4422,7 +4425,7 @@ X509
 "
 ;
 return
-status_on_failure
+previous_status
 ;
 }
 bssl
@@ -4480,7 +4483,7 @@ CRYPTO_BUFFER
 "
 ;
 return
-status_on_failure
+previous_status
 ;
 }
 const
@@ -4539,7 +4542,7 @@ callback
 "
 ;
 return
-status_on_failure
+previous_status
 ;
 }
 custom_cert_verifier_status_
