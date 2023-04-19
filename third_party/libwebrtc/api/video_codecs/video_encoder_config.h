@@ -511,6 +511,9 @@ number_of_streams
 bool
 legacy_conference_mode
 ;
+bool
+is_quality_scaling_allowed
+;
 private
 :
 VideoEncoderConfig
