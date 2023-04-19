@@ -80,6 +80,10 @@ in
 config
 .
 kind_dependencies_tasks
+.
+values
+(
+)
             
 if
 dep_task

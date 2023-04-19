@@ -114,6 +114,23 @@ __name__
 MAX_ROUTES
 =
 10
+registered_morphs
+=
+[
+]
+def
+register_morph
+(
+func
+)
+:
+    
+registered_morphs
+.
+append
+(
+func
+)
 def
 amend_taskgraph
 (
@@ -1044,6 +1061,7 @@ return
 task
 taskgraph
 label_to_taskid
+register_morph
 def
 add_index_tasks
 (
@@ -1358,6 +1376,7 @@ morph
 .
 py
 "
+register_morph
 def
 add_code_review_task
 (
@@ -1376,8 +1395,9 @@ debug
 Morphing
 :
 adding
-index
-tasks
+code
+review
+task
 "
 )
     
@@ -1786,20 +1806,10 @@ morphs
 "
 "
     
-morphs
-=
-[
-        
-add_index_tasks
-        
-add_code_review_task
-    
-]
-    
 for
 m
 in
-morphs
+registered_morphs
 :
         
 taskgraph
