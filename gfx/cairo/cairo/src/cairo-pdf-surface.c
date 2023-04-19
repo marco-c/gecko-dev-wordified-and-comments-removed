@@ -36586,7 +36586,7 @@ box
 .
 p2
 .
-y
+x
 )
 >
 rec_extents
