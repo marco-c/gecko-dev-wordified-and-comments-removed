@@ -614,7 +614,7 @@ pc
 )
 -
 >
-RemoveTrackNew
+RemoveTrackOrError
 (
 audio
 .

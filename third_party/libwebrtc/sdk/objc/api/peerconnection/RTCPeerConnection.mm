@@ -3262,11 +3262,15 @@ result
 _peerConnection
 -
 >
-RemoveTrack
+RemoveTrackOrError
 (
 sender
 .
 nativeRtpSender
+)
+.
+ok
+(
 )
 ;
 if

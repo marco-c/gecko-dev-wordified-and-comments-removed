@@ -118,15 +118,8 @@ string
 )
 PROXY_METHOD1
 (
-bool
-RemoveTrack
-RtpSenderInterface
-*
-)
-PROXY_METHOD1
-(
 RTCError
-RemoveTrackNew
+RemoveTrackOrError
 rtc
 :
 :
