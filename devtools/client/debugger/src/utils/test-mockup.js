@@ -79,6 +79,12 @@ return
 {
 id
 url
+displayURL
+:
+getDisplayURL
+(
+url
+)
 thread
 isBlackBoxed
 :
@@ -150,7 +156,6 @@ url
 id
 thread
 )
-displayURL
 parts
 :
 getPathParts
@@ -335,6 +340,14 @@ url
 "
 url
 "
+displayURL
+:
+getDisplayURL
+(
+"
+url
+"
+)
 thread
 :
 "

@@ -35,7 +35,7 @@ getDirectories
 export
 {
 getFilenameFromPath
-getURL
+getDisplayURL
 }
 from
 "
