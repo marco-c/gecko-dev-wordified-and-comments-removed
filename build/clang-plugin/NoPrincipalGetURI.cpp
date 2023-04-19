@@ -50,6 +50,8 @@ on
 (
 hasType
 (
+hasCanonicalType
+(
 asString
 (
 "
@@ -60,9 +62,12 @@ nsIPrincipal
 )
 )
 )
+)
 on
 (
 hasType
+(
+hasCanonicalType
 (
 asString
 (
@@ -70,6 +75,7 @@ asString
 class
 nsIPrincipal
 "
+)
 )
 )
 )

@@ -77,6 +77,8 @@ GetURI
 0
 )
 ;
+:
+:
 nsIPrincipal
 *
 b
