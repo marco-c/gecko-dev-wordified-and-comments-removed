@@ -1037,6 +1037,9 @@ crypto
 options
 "
 "
+metronome
+"
+"
 neteq
 :
 neteq_api
