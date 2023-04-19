@@ -23,6 +23,15 @@ CONFIG
 MOZ_X11_CFLAGS
 "
 ]
+CFLAGS
++
+=
+CONFIG
+[
+"
+MOZ_GTK3_CFLAGS
+"
+]
 if
 CONFIG
 [
