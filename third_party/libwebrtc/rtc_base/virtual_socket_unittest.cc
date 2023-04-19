@@ -1096,19 +1096,19 @@ pre_as_ints
 }
 }
 void
-TestDefaultRoute
+TestDefaultSourceAddress
 (
 const
 IPAddress
 &
-default_route
+default_address
 )
 {
 ss_
 .
-SetDefaultRoute
+SetDefaultSourceAddress
 (
-default_route
+default_address
 )
 ;
 Socket
@@ -1119,7 +1119,7 @@ ss_
 .
 CreateSocket
 (
-default_route
+default_address
 .
 family
 (
@@ -1134,7 +1134,7 @@ Bind
 (
 EmptySocketAddressWithFamily
 (
-default_route
+default_address
 .
 family
 (
@@ -1194,7 +1194,7 @@ ss_
 .
 CreateSocket
 (
-default_route
+default_address
 .
 family
 (
@@ -1209,7 +1209,7 @@ Bind
 (
 SocketAddress
 (
-default_route
+default_address
 0
 )
 )
@@ -1298,7 +1298,7 @@ EXPECT_EQ
 client1_addr
 SocketAddress
 (
-default_route
+default_address
 client1_any_addr
 .
 port
@@ -6045,7 +6045,7 @@ ipv4_default_addr
 0x01020304
 )
 ;
-TestDefaultRoute
+TestDefaultSourceAddress
 (
 ipv4_default_addr
 )
@@ -6086,7 +6086,7 @@ ipv6_default_addr
 )
 )
 ;
-TestDefaultRoute
+TestDefaultSourceAddress
 (
 ipv6_default_addr
 )

@@ -1267,7 +1267,7 @@ type
 ;
 }
 void
-AddInterfaceAsDefaultRoute
+AddInterfaceAsDefaultSourceAddresss
 (
 const
 SocketAddress
@@ -1283,7 +1283,7 @@ addr
 vss_
 -
 >
-SetDefaultRoute
+SetDefaultSourceAddress
 (
 addr
 .
@@ -8008,7 +8008,7 @@ ResetWithStunServerNoNat
 kStunAddr
 )
 ;
-AddInterfaceAsDefaultRoute
+AddInterfaceAsDefaultSourceAddresss
 (
 kClientAddr
 )
