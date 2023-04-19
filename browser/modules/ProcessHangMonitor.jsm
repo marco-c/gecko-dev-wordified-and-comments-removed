@@ -2278,6 +2278,15 @@ if
 AppConstants
 .
 MOZ_DEV_EDITION
+|
+|
+report
+.
+scriptBrowser
+.
+browsingContext
+.
+watchedByDevTools
 )
 {
 buttons
