@@ -11202,7 +11202,10 @@ PathCacheEntry
 &
 entry
 :
-mEntries
+GetChain
+(
+hash
+)
 )
 {
 if
@@ -11312,9 +11315,7 @@ hash
 aSigma
 )
 ;
-mEntries
-.
-insertFront
+Insert
 (
 entry
 )
@@ -14546,7 +14547,10 @@ GlyphCacheEntry
 &
 entry
 :
-mEntries
+GetChain
+(
+hash
+)
 )
 {
 if
@@ -14588,9 +14592,7 @@ aBounds
 hash
 )
 ;
-mEntries
-.
-insertFront
+Insert
 (
 entry
 )
