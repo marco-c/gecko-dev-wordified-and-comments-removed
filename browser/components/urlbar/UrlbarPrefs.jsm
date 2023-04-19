@@ -10,9 +10,6 @@ EXPORTED_SYMBOLS
 "
 UrlbarPrefs
 "
-"
-UrlbarPrefsObserver
-"
 ]
 ;
 const
