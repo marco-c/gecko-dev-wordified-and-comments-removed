@@ -2616,7 +2616,7 @@ CAPTURE_STREAM
 }
 ;
 void
-MarkAsContentSource
+LogVisibility
 (
 CallerAPI
 aAPI

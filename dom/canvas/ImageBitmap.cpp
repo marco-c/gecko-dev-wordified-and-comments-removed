@@ -5198,7 +5198,7 @@ aRv
 {
 aVideoEl
 .
-MarkAsContentSource
+LogVisibility
 (
 mozilla
 :

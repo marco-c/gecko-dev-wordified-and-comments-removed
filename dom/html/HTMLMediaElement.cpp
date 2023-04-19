@@ -17731,7 +17731,7 @@ aStreamCaptureType
 )
 )
 ;
-MarkAsContentSource
+LogVisibility
 (
 CallerAPI
 :
@@ -34076,7 +34076,7 @@ void
 HTMLMediaElement
 :
 :
-MarkAsContentSource
+LogVisibility
 (
 CallerAPI
 aAPI
@@ -34104,9 +34104,6 @@ Debug
 "
 %
 p
-Log
-VIDEO_AS_CONTENT_SOURCE
-:
 visibility
 =
 %
@@ -34150,17 +34147,12 @@ Debug
 "
 %
 p
-Log
-VIDEO_AS_CONTENT_SOURCE_IN_TREE_OR_NOT
-:
 inTree
 =
 %
 u
 API
 :
-"
-"
 '
 %
 d
