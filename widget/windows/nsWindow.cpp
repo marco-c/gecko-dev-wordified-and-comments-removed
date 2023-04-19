@@ -19799,8 +19799,7 @@ nullptr
 ;
 }
 }
-result
-=
+return
 ConvertStatus
 (
 DispatchInputEvent
@@ -19811,9 +19810,6 @@ event
 .
 mContentStatus
 )
-;
-return
-result
 ;
 }
 return
