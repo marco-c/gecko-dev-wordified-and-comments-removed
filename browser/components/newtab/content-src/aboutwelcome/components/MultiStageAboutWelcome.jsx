@@ -264,11 +264,6 @@ browser
 navigation
 if
 (
-props
-.
-updateHistory
-&
-&
 index
 >
 window
@@ -302,13 +297,6 @@ useEffect
 )
 =
 >
-{
-if
-(
-props
-.
-updateHistory
-)
 {
 /
 /
@@ -431,10 +419,6 @@ popstate
 "
 handler
 )
-;
-}
-return
-false
 ;
 }
 [
