@@ -29427,7 +29427,10 @@ if
 !
 splitResult
 .
-GetMiddleContentAsElement
+GetMiddleContentAs
+<
+Element
+>
 (
 )
 )
@@ -29592,7 +29595,10 @@ MOZ_KnownLive
 *
 splitResult
 .
-GetMiddleContentAsElement
+GetMiddleContentAs
+<
+Element
+>
 (
 )
 )
@@ -29718,7 +29724,10 @@ if
 !
 splitResult
 .
-GetMiddleContentAsElement
+GetMiddleContentAs
+<
+Element
+>
 (
 )
 )
@@ -29742,7 +29751,10 @@ MOZ_KnownLive
 *
 splitResult
 .
-GetMiddleContentAsElement
+GetMiddleContentAs
+<
+Element
+>
 (
 )
 )
