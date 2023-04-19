@@ -96,8 +96,10 @@ value
 var
 result
 =
-onFinally
+callContentFunction
 (
+onFinally
+undefined
 )
 ;
 var
@@ -140,8 +142,10 @@ reason
 var
 result
 =
-onFinally
+callContentFunction
 (
+onFinally
+undefined
 )
 ;
 var
