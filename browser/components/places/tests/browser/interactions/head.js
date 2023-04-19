@@ -157,6 +157,14 @@ function
 assertDatabaseValues
 (
 expected
+{
+dontFlush
+=
+false
+}
+=
+{
+}
 )
 {
 await
@@ -164,6 +172,12 @@ Interactions
 .
 interactionUpdatePromise
 ;
+if
+(
+!
+dontFlush
+)
+{
 await
 Interactions
 .
@@ -173,6 +187,7 @@ flush
 (
 )
 ;
+}
 let
 interactions
 =
