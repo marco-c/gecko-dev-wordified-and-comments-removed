@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -76,6 +94,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -89,6 +111,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -100,6 +124,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -111,6 +139,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -124,6 +154,10 @@ parseJSON
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -137,6 +171,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -148,6 +184,10 @@ sortObjectKeys
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -161,6 +201,8 @@ utils
 sort
 -
 utils
+.
+js
 "
 )
 ;
@@ -172,6 +214,10 @@ FILTER_SEARCH_DELAY
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -181,6 +227,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -192,6 +240,10 @@ updateFormDataSections
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -205,6 +257,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -214,6 +268,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -225,6 +283,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -236,6 +296,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -251,6 +315,8 @@ request
 details
 /
 PropertiesView
+.
+js
 "
 )
 )
@@ -263,6 +329,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -272,6 +342,8 @@ shared
 components
 /
 SearchBox
+.
+js
 "
 )
 )
@@ -294,6 +366,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -307,6 +383,8 @@ components
 previews
 /
 SourcePreview
+.
+js
 "
 )
 )

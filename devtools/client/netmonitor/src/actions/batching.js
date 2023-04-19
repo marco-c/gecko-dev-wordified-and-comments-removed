@@ -14,6 +14,10 @@ BATCH_FLUSH
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -23,6 +27,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

@@ -11,6 +11,10 @@ ObjectProvider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ components
 tree
 /
 ObjectProvider
+.
+js
 "
 )
 ;

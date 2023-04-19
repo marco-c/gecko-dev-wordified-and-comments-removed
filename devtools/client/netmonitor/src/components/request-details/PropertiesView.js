@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -52,6 +64,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -76,6 +94,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -89,6 +111,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -100,6 +124,10 @@ setTargetSearchResult
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -111,6 +139,8 @@ src
 actions
 /
 search
+.
+js
 "
 )
 ;
@@ -120,6 +150,10 @@ TreeViewClass
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -131,6 +165,8 @@ components
 tree
 /
 TreeView
+.
+js
 "
 )
 ;
@@ -148,6 +184,10 @@ PropertiesViewContextMenu
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -159,6 +199,8 @@ src
 widgets
 /
 PropertiesViewContextMenu
+.
+js
 "
 )
 ;
@@ -178,6 +220,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -189,6 +235,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .
@@ -215,6 +263,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -226,6 +278,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .
@@ -243,6 +297,10 @@ AUTO_EXPAND_MAX_NODES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -252,6 +310,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

@@ -18,11 +18,17 @@ LocalizationHelper
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 l10n
+.
+js
 "
 )
 ;
@@ -34,6 +40,10 @@ CurlUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -41,6 +51,8 @@ client
 shared
 /
 curl
+.
+js
 "
 )
 ;
@@ -54,6 +66,10 @@ parseQueryString
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -67,6 +83,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -78,6 +96,10 @@ buildHarLog
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -93,6 +115,8 @@ har
 builder
 -
 utils
+.
+js
 "
 )
 ;
@@ -123,6 +147,10 @@ TIMING_KEYS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -132,6 +160,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

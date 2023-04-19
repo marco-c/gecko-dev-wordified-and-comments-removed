@@ -11,6 +11,10 @@ getColor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ client
 shared
 /
 theme
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ colorUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -36,6 +46,8 @@ shared
 css
 /
 color
+.
+js
 "
 )
 ;
@@ -47,6 +59,10 @@ REQUESTS_WATERFALL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -56,6 +72,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

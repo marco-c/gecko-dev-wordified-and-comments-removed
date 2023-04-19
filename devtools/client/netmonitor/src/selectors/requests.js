@@ -11,6 +11,10 @@ createSelector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 vendor
 /
 reselect
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ isFreetextMatch
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -45,6 +55,8 @@ utils
 filter
 -
 predicates
+.
+js
 "
 )
 ;
@@ -56,6 +68,10 @@ Sorters
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -69,6 +85,8 @@ utils
 sort
 -
 predicates
+.
+js
 "
 )
 ;

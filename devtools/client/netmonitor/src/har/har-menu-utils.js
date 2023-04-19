@@ -11,6 +11,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -67,6 +73,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +90,8 @@ har
 har
 -
 importer
+.
+js
 "
 )
 .

@@ -11,6 +11,10 @@ getLongStringFullText
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 string
 -
 utils
+.
+js
 "
 )
 ;

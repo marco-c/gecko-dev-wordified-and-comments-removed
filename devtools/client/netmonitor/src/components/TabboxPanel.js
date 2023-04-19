@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -54,6 +66,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -76,6 +94,10 @@ PANELS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -85,6 +107,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -96,6 +120,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -107,6 +135,8 @@ components
 tabs
 /
 TabBar
+.
+js
 "
 )
 )
@@ -119,6 +149,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -130,6 +164,8 @@ components
 tabs
 /
 Tabs
+.
+js
 "
 )
 .
@@ -144,6 +180,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -159,6 +199,8 @@ request
 details
 /
 CookiesPanel
+.
+js
 "
 )
 )
@@ -171,6 +213,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -186,6 +232,8 @@ request
 details
 /
 HeadersPanel
+.
+js
 "
 )
 )
@@ -198,6 +246,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -213,6 +265,8 @@ request
 details
 /
 RequestPanel
+.
+js
 "
 )
 )
@@ -225,6 +279,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -240,6 +298,8 @@ request
 details
 /
 CachePanel
+.
+js
 "
 )
 )
@@ -252,6 +312,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -267,6 +331,8 @@ request
 details
 /
 ResponsePanel
+.
+js
 "
 )
 )
@@ -279,6 +345,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -294,6 +364,8 @@ request
 details
 /
 SecurityPanel
+.
+js
 "
 )
 )
@@ -306,6 +378,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -321,6 +397,8 @@ request
 details
 /
 StackTracePanel
+.
+js
 "
 )
 )
@@ -333,6 +411,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -348,6 +430,8 @@ request
 details
 /
 TimingsPanel
+.
+js
 "
 )
 )

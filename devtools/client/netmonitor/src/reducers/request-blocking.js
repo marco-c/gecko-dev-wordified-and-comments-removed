@@ -20,6 +20,10 @@ SYNCED_BLOCKED_URLS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -29,6 +33,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

@@ -9,6 +9,10 @@ requests
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ src
 selectors
 /
 requests
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ search
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ src
 selectors
 /
 search
+.
+js
 "
 )
 ;
@@ -49,6 +61,10 @@ timingMarkers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -62,6 +78,8 @@ selectors
 timing
 -
 markers
+.
+js
 "
 )
 ;
@@ -71,6 +89,10 @@ ui
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +104,8 @@ src
 selectors
 /
 ui
+.
+js
 "
 )
 ;
@@ -91,6 +115,10 @@ messages
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -102,6 +130,8 @@ src
 selectors
 /
 messages
+.
+js
 "
 )
 ;

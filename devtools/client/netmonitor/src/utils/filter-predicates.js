@@ -11,6 +11,10 @@ isFreetextMatch
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -26,6 +30,8 @@ filter
 text
 -
 utils
+.
+js
 "
 )
 ;

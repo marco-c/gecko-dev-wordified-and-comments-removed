@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -54,6 +66,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -69,6 +85,8 @@ request
 details
 /
 PropertiesView
+.
+js
 "
 )
 )
@@ -81,6 +99,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -92,6 +114,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -103,6 +127,10 @@ parseQueryString
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -116,6 +144,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -127,6 +157,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -138,6 +172,8 @@ components
 tree
 /
 TreeRow
+.
+js
 "
 )
 )
@@ -158,6 +194,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -169,6 +209,8 @@ components
 reps
 /
 index
+.
+js
 "
 )
 .
@@ -183,6 +225,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -196,6 +242,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;

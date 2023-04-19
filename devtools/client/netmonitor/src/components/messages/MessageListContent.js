@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -54,6 +66,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -67,6 +83,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -78,6 +96,10 @@ PluralForm
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -85,6 +107,8 @@ shared
 plural
 -
 form
+.
+js
 "
 )
 ;
@@ -98,6 +122,10 @@ getClosedConnectionDetails
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +137,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;
@@ -118,6 +148,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -131,6 +165,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -157,6 +193,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -168,6 +208,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -235,6 +277,10 @@ MESSAGE_HEADERS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -255,6 +301,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -266,6 +316,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -277,6 +329,10 @@ getSelectedMessage
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -288,6 +344,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;
@@ -297,6 +355,10 @@ MessageListContextMenu
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -310,6 +372,8 @@ components
 messages
 /
 MessageListContextMenu
+.
+js
 "
 )
 ;
@@ -331,6 +395,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -344,6 +412,8 @@ components
 messages
 /
 MessageListHeader
+.
+js
 "
 )
 )
@@ -369,6 +439,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -382,6 +456,8 @@ components
 messages
 /
 MessageListItem
+.
+js
 "
 )
 )

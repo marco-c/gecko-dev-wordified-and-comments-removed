@@ -11,6 +11,10 @@ TIMING_KEYS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ getUrlDetails
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -44,6 +54,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;

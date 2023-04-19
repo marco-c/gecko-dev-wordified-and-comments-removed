@@ -11,6 +11,10 @@ SUPPORTED_HTTP_CODES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

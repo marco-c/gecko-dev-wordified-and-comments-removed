@@ -9,6 +9,10 @@ batching
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ src
 actions
 /
 batching
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ filters
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ src
 actions
 /
 filters
+.
+js
 "
 )
 ;
@@ -49,6 +61,10 @@ httpCustomRequest
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -64,6 +80,8 @@ http
 custom
 -
 request
+.
+js
 "
 )
 ;
@@ -73,6 +91,10 @@ requests
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -84,6 +106,8 @@ src
 actions
 /
 requests
+.
+js
 "
 )
 ;
@@ -93,6 +117,10 @@ selection
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -104,6 +132,8 @@ src
 actions
 /
 selection
+.
+js
 "
 )
 ;
@@ -113,6 +143,10 @@ sort
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -124,6 +158,8 @@ src
 actions
 /
 sort
+.
+js
 "
 )
 ;
@@ -133,6 +169,10 @@ timingMarkers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -146,6 +186,8 @@ actions
 timing
 -
 markers
+.
+js
 "
 )
 ;
@@ -155,6 +197,10 @@ ui
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -166,6 +212,8 @@ src
 actions
 /
 ui
+.
+js
 "
 )
 ;
@@ -175,6 +223,10 @@ messages
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -186,6 +238,8 @@ src
 actions
 /
 messages
+.
+js
 "
 )
 ;
@@ -195,6 +249,10 @@ search
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -206,6 +264,8 @@ src
 actions
 /
 search
+.
+js
 "
 )
 ;
@@ -215,6 +275,10 @@ requestBlocking
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -228,6 +292,8 @@ actions
 request
 -
 blocking
+.
+js
 "
 )
 ;

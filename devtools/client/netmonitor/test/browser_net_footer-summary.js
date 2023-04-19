@@ -19,6 +19,10 @@ getFormattedTime
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -32,6 +36,8 @@ utils
 format
 -
 utils
+.
+js
 "
 )
 ;

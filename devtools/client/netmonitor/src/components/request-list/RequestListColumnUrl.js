@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ td
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -45,6 +55,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -56,6 +68,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -67,6 +83,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -76,6 +94,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -89,6 +111,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -100,6 +124,10 @@ getFormattedIPAndPort
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -113,6 +141,8 @@ utils
 format
 -
 utils
+.
+js
 "
 )
 ;
@@ -124,6 +154,10 @@ propertiesEqual
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -137,6 +171,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -148,6 +184,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -159,6 +199,8 @@ src
 components
 /
 SecurityState
+.
+js
 "
 )
 )

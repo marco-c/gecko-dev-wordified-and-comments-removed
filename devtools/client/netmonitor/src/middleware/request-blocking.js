@@ -20,6 +20,10 @@ REQUEST_BLOCKING_UPDATE_COMPLETE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -29,6 +33,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

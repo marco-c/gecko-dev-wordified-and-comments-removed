@@ -13,6 +13,10 @@ TEST_EVENTS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ FirefoxDataProvider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -46,6 +56,8 @@ firefox
 data
 -
 provider
+.
+js
 "
 )
 ;
@@ -57,6 +69,10 @@ getDisplayedTimingMarker
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -68,6 +84,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;
@@ -79,6 +97,10 @@ TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -90,6 +112,8 @@ resource
 resource
 -
 command
+.
+js
 "
 )
 ;

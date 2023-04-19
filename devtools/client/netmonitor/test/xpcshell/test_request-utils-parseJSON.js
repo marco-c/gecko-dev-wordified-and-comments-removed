@@ -37,6 +37,10 @@ parseJSON
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -50,6 +54,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;

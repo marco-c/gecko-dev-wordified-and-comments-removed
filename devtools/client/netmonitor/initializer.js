@@ -71,6 +71,10 @@ NetMonitorAPI
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -80,6 +84,8 @@ netmonitor
 src
 /
 api
+.
+js
 "
 )
 ;
@@ -91,6 +97,10 @@ NetMonitorApp
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -100,6 +110,8 @@ netmonitor
 src
 /
 app
+.
+js
 "
 )
 ;
@@ -109,6 +121,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -116,6 +132,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -254,6 +272,10 @@ descriptorFromURL
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -265,6 +287,8 @@ descriptor
 from
 -
 url
+.
+js
 "
 )
 ;
@@ -276,6 +300,10 @@ createCommandsDictionary
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -283,6 +311,8 @@ shared
 commands
 /
 index
+.
+js
 "
 )
 ;

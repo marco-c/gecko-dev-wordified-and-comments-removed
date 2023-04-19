@@ -11,6 +11,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -37,6 +43,10 @@ getRequestHeadersRawText
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -50,6 +60,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -61,6 +73,10 @@ hasMatchingBlockingRequestPattern
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -74,6 +90,8 @@ utils
 request
 -
 blocking
+.
+js
 "
 )
 ;

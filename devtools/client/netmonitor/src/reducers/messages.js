@@ -23,6 +23,10 @@ SET_EVENT_STREAM_FLAG
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -32,6 +36,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;

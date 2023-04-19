@@ -11,6 +11,10 @@ BYTE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

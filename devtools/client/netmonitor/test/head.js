@@ -69,6 +69,10 @@ getFormattedTime
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -82,6 +86,8 @@ utils
 format
 -
 utils
+.
+js
 "
 )
 ;
@@ -94,6 +100,10 @@ getRequestById
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -105,6 +115,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;
@@ -117,6 +129,10 @@ getUnicodeHostname
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -126,6 +142,8 @@ shared
 unicode
 -
 url
+.
+js
 "
 )
 ;
@@ -139,6 +157,10 @@ getUrlScheme
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -152,6 +174,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -164,6 +188,10 @@ TEST_EVENTS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -173,6 +201,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -184,6 +214,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -195,6 +229,8 @@ src
 utils
 /
 l10n
+.
+js
 "
 )
 ;
@@ -7470,6 +7506,10 @@ Menu
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -7477,6 +7517,8 @@ client
 framework
 /
 menu
+.
+js
 "
 )
 ;

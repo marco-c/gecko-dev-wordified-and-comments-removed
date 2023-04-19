@@ -11,6 +11,10 @@ Component
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -42,6 +52,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -51,6 +63,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -64,15 +80,10 @@ react
 prop
 -
 types
+.
+js
 "
 )
-;
-const
-{
-div
-}
-=
-dom
 ;
 class
 HTMLPreview
@@ -299,6 +310,8 @@ render
 )
 {
 return
+dom
+.
 div
 (
 {

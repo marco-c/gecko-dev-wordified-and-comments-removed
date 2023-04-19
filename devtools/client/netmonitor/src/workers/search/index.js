@@ -11,6 +11,10 @@ WorkerDispatcher
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 worker
 -
 utils
+.
+js
 "
 )
 ;

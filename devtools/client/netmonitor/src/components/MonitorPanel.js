@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -30,6 +36,10 @@ dom
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -59,6 +71,10 @@ PropTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -72,6 +88,8 @@ react
 prop
 -
 types
+.
+js
 "
 )
 ;
@@ -83,6 +101,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -96,6 +118,8 @@ visibility
 handler
 -
 connect
+.
+js
 "
 )
 ;
@@ -107,6 +131,10 @@ findDOMNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -118,6 +146,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -127,6 +157,10 @@ Actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -138,6 +172,8 @@ src
 actions
 /
 index
+.
+js
 "
 )
 ;
@@ -149,6 +185,10 @@ updateFormDataSections
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -162,6 +202,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
@@ -174,6 +216,10 @@ isSelectedRequestVisible
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -185,6 +231,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;
@@ -196,6 +244,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -207,6 +259,8 @@ components
 splitter
 /
 SplitBox
+.
+js
 "
 )
 )
@@ -219,6 +273,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -234,6 +292,8 @@ request
 list
 /
 RequestList
+.
+js
 "
 )
 )
@@ -246,6 +306,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -257,6 +321,8 @@ src
 components
 /
 Toolbar
+.
+js
 "
 )
 )
@@ -279,6 +345,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -294,6 +364,8 @@ request
 details
 /
 NetworkDetailsBar
+.
+js
 "
 )
 )
@@ -319,6 +391,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -330,6 +406,8 @@ src
 components
 /
 NetworkActionBar
+.
+js
 "
 )
 )

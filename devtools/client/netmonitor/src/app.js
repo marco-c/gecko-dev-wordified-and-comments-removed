@@ -11,6 +11,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ unmountComponentAtNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -54,6 +66,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -65,6 +81,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 .
@@ -79,6 +97,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -90,6 +112,8 @@ src
 components
 /
 App
+.
+js
 "
 )
 )
@@ -102,6 +126,10 @@ EVENTS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -111,6 +139,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -122,6 +152,10 @@ getDisplayedRequestById
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -133,6 +167,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;
@@ -142,6 +178,10 @@ SearchWorker
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -155,6 +195,8 @@ workers
 search
 /
 index
+.
+js
 "
 )
 ;

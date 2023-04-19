@@ -11,6 +11,10 @@ HarCollector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -24,6 +28,8 @@ har
 har
 -
 collector
+.
+js
 "
 )
 ;
@@ -35,6 +41,10 @@ HarExporter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -48,6 +58,8 @@ har
 har
 -
 exporter
+.
+js
 "
 )
 ;
@@ -59,6 +71,10 @@ HarUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -72,6 +88,8 @@ har
 har
 -
 utils
+.
+js
 "
 )
 ;
@@ -83,6 +101,10 @@ getLongStringFullText
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -92,6 +114,8 @@ shared
 string
 -
 utils
+.
+js
 "
 )
 ;

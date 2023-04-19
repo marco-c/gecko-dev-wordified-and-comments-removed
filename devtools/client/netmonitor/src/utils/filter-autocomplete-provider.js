@@ -12,6 +12,10 @@ SUPPORTED_HTTP_CODES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ getRequestPriorityAsText
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -45,6 +55,8 @@ utils
 format
 -
 utils
+.
+js
 "
 )
 ;

@@ -11,6 +11,10 @@ showMenu
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -22,6 +26,8 @@ components
 menu
 /
 utils
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ MESSAGE_HEADERS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -55,6 +65,10 @@ L10N
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

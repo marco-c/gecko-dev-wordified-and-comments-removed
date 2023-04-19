@@ -11,6 +11,10 @@ parseWampArray
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -39,6 +43,10 @@ msgpack
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -63,6 +71,10 @@ cbor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

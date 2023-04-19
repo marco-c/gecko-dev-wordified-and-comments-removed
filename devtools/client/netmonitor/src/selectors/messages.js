@@ -11,6 +11,10 @@ createSelector
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 vendor
 /
 reselect
+.
+js
 "
 )
 ;

@@ -15,6 +15,10 @@ PRESELECT_REQUEST
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -24,6 +28,8 @@ netmonitor
 src
 /
 constants
+.
+js
 "
 )
 ;
@@ -35,6 +41,10 @@ selectRequest
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -46,6 +56,8 @@ src
 actions
 /
 selection
+.
+js
 "
 )
 ;
@@ -57,6 +69,10 @@ openNetworkDetails
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -68,6 +84,8 @@ src
 actions
 /
 ui
+.
+js
 "
 )
 ;
@@ -80,6 +98,10 @@ getRequestByChannelId
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -91,6 +113,8 @@ src
 selectors
 /
 index
+.
+js
 "
 )
 ;
@@ -102,6 +126,10 @@ fetchNetworkUpdatePacket
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -115,6 +143,8 @@ utils
 request
 -
 utils
+.
+js
 "
 )
 ;
