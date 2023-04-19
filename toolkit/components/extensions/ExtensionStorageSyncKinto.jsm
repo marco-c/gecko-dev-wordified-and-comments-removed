@@ -8,13 +8,13 @@ EXPORTED_SYMBOLS
 =
 [
 "
-ExtensionStorageSync
+ExtensionStorageSyncKinto
 "
 "
 KintoStorageTestUtils
 "
 "
-extensionStorageSync
+extensionStorageSyncKinto
 "
 ]
 ;
@@ -672,7 +672,7 @@ Android
 }
 }
 var
-extensionStorageSync
+extensionStorageSyncKinto
 =
 null
 ;
@@ -2381,7 +2381,7 @@ record
 async
 sync
 (
-extensionStorageSync
+extensionStorageSyncKinto
 )
 {
 const
@@ -2395,7 +2395,7 @@ getCollection
 )
 ;
 return
-extensionStorageSync
+extensionStorageSyncKinto
 .
 _syncCollection
 (
@@ -2699,7 +2699,7 @@ coll
 }
 ;
 class
-ExtensionStorageSync
+ExtensionStorageSyncKinto
 {
 constructor
 (
@@ -5380,10 +5380,10 @@ changes
 }
 }
 }
-extensionStorageSync
+extensionStorageSyncKinto
 =
 new
-ExtensionStorageSync
+ExtensionStorageSyncKinto
 (
 _fxaService
 )

@@ -75,6 +75,8 @@ js
 ;
 const
 {
+ExtensionStorageSyncKinto
+:
 ExtensionStorageSync
 KintoStorageTestUtils
 :

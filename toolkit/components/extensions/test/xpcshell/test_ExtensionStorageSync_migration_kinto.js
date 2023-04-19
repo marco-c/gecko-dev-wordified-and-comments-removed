@@ -31,7 +31,7 @@ jsm
 ;
 const
 {
-extensionStorageSync
+extensionStorageSyncKinto
 :
 kintoImpl
 }

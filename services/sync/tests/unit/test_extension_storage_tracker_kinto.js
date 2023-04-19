@@ -75,6 +75,8 @@ js
 ;
 const
 {
+extensionStorageSyncKinto
+:
 extensionStorageSync
 }
 =
