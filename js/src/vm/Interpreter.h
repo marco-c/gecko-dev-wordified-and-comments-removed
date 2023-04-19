@@ -131,6 +131,7 @@ class
 CallReason
 {
 Call
+CallContent
 Getter
 Setter
 }
@@ -539,6 +540,13 @@ const
 CallArgs
 &
 args
+CallReason
+reason
+=
+CallReason
+:
+:
+Call
 )
 ;
 extern
@@ -571,6 +579,13 @@ const
 CallArgs
 &
 args
+CallReason
+reason
+=
+CallReason
+:
+:
+Call
 )
 ;
 extern
