@@ -22220,6 +22220,11 @@ PROCESS_END_KILLED_BY_USER
 )
 )
 {
+if
+(
+mCrashReporter
+)
+{
 mCrashReporter
 -
 >
@@ -22227,6 +22232,7 @@ DeleteCrashReport
 (
 )
 ;
+}
 NS_WARNING
 (
 "
