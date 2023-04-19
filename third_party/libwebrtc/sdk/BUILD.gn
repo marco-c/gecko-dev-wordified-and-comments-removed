@@ -3359,16 +3359,6 @@ RTCCameraVideoCapturer
 .
 m
 "
-]
-if
-(
-is_ios
-)
-{
-sources
-+
-=
-[
 "
 objc
 /
@@ -3392,7 +3382,6 @@ RTCFileVideoCapturer
 m
 "
 ]
-}
 frameworks
 =
 [
@@ -3403,6 +3392,11 @@ framework
 "
 "
 CoreVideo
+.
+framework
+"
+"
+QuartzCore
 .
 framework
 "
