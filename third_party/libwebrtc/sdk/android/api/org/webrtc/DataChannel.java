@@ -342,6 +342,10 @@ nativeUnregisterObserver
 nativeObserver
 )
 ;
+nativeObserver
+=
+0
+;
 }
 public
 String
