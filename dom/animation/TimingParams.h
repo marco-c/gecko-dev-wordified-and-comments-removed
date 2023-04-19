@@ -101,10 +101,6 @@ AnimationEffectBinding
 .
 h
 "
-#
-define
-PROGRESS_TIMELINE_DURATION_MILLISEC
-100000
 namespace
 mozilla
 {
@@ -1052,10 +1048,15 @@ return
 mFunction
 ;
 }
-void
+TimingParams
 Normalize
 (
+const
+TimeDuration
+&
+aTimelineDuration
 )
+const
 ;
 private
 :
