@@ -20,11 +20,11 @@ true
 spotlight
 "
 :
-"
-about
-:
-welcome
-"
+document
+.
+location
+.
+href
 ;
 export
 const

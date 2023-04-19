@@ -113,11 +113,11 @@ true
 spotlight
 "
 :
-"
-about
-:
-welcome
-"
+document
+.
+location
+.
+href
 ;
 const
 AboutWelcomeUtils
