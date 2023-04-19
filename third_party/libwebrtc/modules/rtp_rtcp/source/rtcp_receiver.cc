@@ -2645,11 +2645,16 @@ ExtendedReports
 :
 kPacketType
 :
+{
 bool
 contains_dlrr
+=
+false
 ;
 uint32_t
 ssrc
+=
+0
 ;
 HandleXr
 (
@@ -2676,6 +2681,7 @@ true
 }
 break
 ;
+}
 case
 rtcp
 :
