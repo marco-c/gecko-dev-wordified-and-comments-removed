@@ -589,7 +589,7 @@ ClassifierDummyChannel
 :
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo

@@ -3863,7 +3863,7 @@ nsJSChannel
 :
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo

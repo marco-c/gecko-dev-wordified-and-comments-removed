@@ -347,12 +347,6 @@ mCallbacks
 ;
 nsCOMPtr
 <
-nsISupports
->
-mSecurityInfo
-;
-nsCOMPtr
-<
 nsIProgressEventSink
 >
 mProgressSink

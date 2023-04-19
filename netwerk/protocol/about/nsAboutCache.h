@@ -304,11 +304,12 @@ aNotificationCallbacks
 NS_IMETHOD
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo
 )
+\
 override
 {
 \

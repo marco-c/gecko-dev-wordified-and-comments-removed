@@ -653,6 +653,13 @@ h
 #
 include
 "
+nsITransportSecurityInfo
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h
@@ -6380,7 +6387,7 @@ aIs
 nullptr
 )
 ;
-nsISupports
+nsITransportSecurityInfo
 *
 GetSecurityInfo
 (
@@ -13854,7 +13861,7 @@ protected
 :
 nsCOMPtr
 <
-nsISupports
+nsITransportSecurityInfo
 >
 mSecurityInfo
 ;

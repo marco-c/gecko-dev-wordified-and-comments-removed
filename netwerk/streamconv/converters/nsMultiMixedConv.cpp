@@ -1039,7 +1039,7 @@ nsPartChannel
 :
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo

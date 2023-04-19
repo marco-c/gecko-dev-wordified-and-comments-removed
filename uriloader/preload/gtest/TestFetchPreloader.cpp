@@ -728,7 +728,7 @@ FakeChannel
 :
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo

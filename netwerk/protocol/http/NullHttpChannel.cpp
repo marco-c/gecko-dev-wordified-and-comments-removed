@@ -1081,7 +1081,7 @@ NullHttpChannel
 :
 GetSecurityInfo
 (
-nsISupports
+nsITransportSecurityInfo
 *
 *
 aSecurityInfo
