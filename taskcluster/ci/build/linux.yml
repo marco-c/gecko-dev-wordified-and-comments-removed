@@ -8481,11 +8481,6 @@ projects
 integration
 '
 ]
-use
--
-sccache
-:
-true
 fetches
 :
 toolchain
@@ -8516,10 +8511,6 @@ cbindgen
 linux64
 -
 dump_syms
--
-linux64
--
-sccache
 -
 linux64
 -
