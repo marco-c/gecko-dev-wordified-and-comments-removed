@@ -768,6 +768,15 @@ FROM
 moz_origins
 o
 WHERE
+prefix
+!
+=
+'
+about
+:
+'
+AND
+(
 (
 host
 BETWEEN
@@ -810,6 +819,7 @@ X
 '
 FFFF
 '
+)
 )
 )
 matched_origin
