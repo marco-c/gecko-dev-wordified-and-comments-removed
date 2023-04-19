@@ -183,6 +183,16 @@ GetRCode
 )
 const
 ;
+Result
+<
+bool
+nsresult
+>
+RecursionAvailable
+(
+)
+const
+;
 nsresult
 OnDataAvailable
 (
