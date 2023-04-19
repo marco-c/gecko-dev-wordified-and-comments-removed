@@ -496,6 +496,14 @@ NS_OK
 }
 if
 (
+StaticPrefs
+:
+:
+dom_webmidi_gated
+(
+)
+&
+&
 !
 nsContentUtils
 :
