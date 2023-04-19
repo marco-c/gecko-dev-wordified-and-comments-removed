@@ -852,6 +852,11 @@ script
 )
 ;
 await
+waitForAllNetworkUpdateEvents
+(
+)
+;
+await
 navigateTo
 (
 topDocumentURL
@@ -960,6 +965,11 @@ iframe
 ;
 await
 onNetworkEvents
+;
+await
+waitForAllNetworkUpdateEvents
+(
+)
 ;
 info
 (
