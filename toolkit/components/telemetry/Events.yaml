@@ -15646,6 +15646,8 @@ bug_numbers
 1678201
 -
 1739287
+-
+1787249
 description
 :
 >
@@ -15697,9 +15699,7 @@ seen
 .
 expiry_version
 :
-"
-107
-"
+never
 record_in_processes
 :
 [
@@ -15770,6 +15770,8 @@ bug_numbers
 1678201
 -
 1739287
+-
+1787249
 description
 :
 >
@@ -15782,9 +15784,7 @@ report
 .
 expiry_version
 :
-"
-107
-"
+never
 record_in_processes
 :
 [
@@ -15856,6 +15856,8 @@ bug_numbers
 1678201
 -
 1739287
+-
+1787249
 description
 :
 >
@@ -15917,9 +15919,7 @@ vpn_app_link_ios
 ]
 expiry_version
 :
-"
-107
-"
+never
 record_in_processes
 :
 [
@@ -15987,6 +15987,8 @@ bug_numbers
 1678201
 -
 1739287
+-
+1787249
 description
 :
 >
@@ -16008,9 +16010,7 @@ open_full_report
 ]
 expiry_version
 :
-"
-107
-"
+never
 record_in_processes
 :
 -
@@ -16065,6 +16065,8 @@ bug_numbers
 1678201
 -
 1739287
+-
+1787249
 description
 :
 >
@@ -16079,9 +16081,7 @@ opened
 .
 expiry_version
 :
-"
-107
-"
+never
 notification_emails
 :
 -
@@ -16171,6 +16171,8 @@ bug_numbers
 1678201
 -
 1739287
+-
+1787249
 description
 :
 >
@@ -16186,9 +16188,7 @@ panel
 .
 expiry_version
 :
-"
-107
-"
+never
 notification_emails
 :
 -
