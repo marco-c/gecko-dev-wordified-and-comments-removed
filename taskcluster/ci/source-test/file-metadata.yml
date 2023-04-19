@@ -84,8 +84,6 @@ linux
 xlarge
 -
 source
--
-gcp
 worker
 :
 artifacts

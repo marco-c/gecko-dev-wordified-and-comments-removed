@@ -96,8 +96,6 @@ linux
 xlarge
 -
 source
--
-gcp
 worker
 :
 docker
