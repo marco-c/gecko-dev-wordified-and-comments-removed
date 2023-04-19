@@ -361,6 +361,13 @@ AudioProcessingImpl
 ;
 AudioProcessingImpl
 (
+const
+AudioProcessing
+:
+:
+Config
+&
+config
 std
 :
 :

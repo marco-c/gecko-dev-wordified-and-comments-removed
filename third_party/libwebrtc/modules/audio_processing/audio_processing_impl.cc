@@ -1051,6 +1051,8 @@ AudioProcessingImpl
 :
 AudioProcessingImpl
 (
+{
+}
 nullptr
 nullptr
 nullptr
@@ -1072,6 +1074,13 @@ AudioProcessingImpl
 :
 AudioProcessingImpl
 (
+const
+AudioProcessing
+:
+:
+Config
+&
+config
 std
 :
 :
@@ -1184,6 +1193,10 @@ move
 (
 echo_control_factory
 )
+)
+config_
+(
+config
 )
 submodule_states_
 (
