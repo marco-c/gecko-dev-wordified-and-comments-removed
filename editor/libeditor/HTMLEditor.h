@@ -6862,6 +6862,7 @@ AutoEditActionDataSetter
 ;
 public
 :
+MOZ_CAN_RUN_SCRIPT
 BlobReader
 (
 dom
@@ -7938,7 +7939,7 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 nsresult
-DoInsertHTMLWithContext
+InsertHTMLWithContextAsSubAction
 (
 const
 nsAString
