@@ -166,6 +166,13 @@ nsIAccessibleRelation
 .
 RELATION_ERRORMSG_FOR
 ;
+const
+RELATION_LINKS_TO
+=
+nsIAccessibleRelation
+.
+RELATION_LINKS_TO
+;
 function
 testRelation
 (
