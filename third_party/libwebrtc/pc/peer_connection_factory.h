@@ -775,6 +775,15 @@ RtpTransportControllerSendFactoryInterface
 >
 transport_controller_send_factory_
 ;
+std
+:
+:
+unique_ptr
+<
+Metronome
+>
+metronome_
+;
 }
 ;
 }
