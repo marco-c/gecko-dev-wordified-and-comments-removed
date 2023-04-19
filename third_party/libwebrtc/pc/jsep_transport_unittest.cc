@@ -652,7 +652,6 @@ move
 (
 dtls_srtp_transport
 )
-nullptr
 std
 :
 :
