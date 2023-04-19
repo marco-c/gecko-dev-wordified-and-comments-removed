@@ -833,11 +833,6 @@ mDisallowSelectionPrint
 =
 false
 ;
-bool
-mIsForModalWindow
-=
-false
-;
 }
 ;
 #
