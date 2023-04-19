@@ -41,7 +41,6 @@ atomic
 :
 :
 {
-fence
 AtomicPtr
 AtomicUsize
 Ordering
@@ -188,7 +187,6 @@ atomic
 :
 :
 {
-fence
 AtomicPtr
 AtomicUsize
 Ordering
