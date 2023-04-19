@@ -1034,12 +1034,6 @@ MaybeQueueInvalidateElement
 (
 )
 {
-mMutex
-.
-AssertCurrentThreadOwns
-(
-)
-;
 if
 (
 !
