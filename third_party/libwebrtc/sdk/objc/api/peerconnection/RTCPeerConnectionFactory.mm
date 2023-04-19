@@ -1847,6 +1847,7 @@ streamId
 }
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCPeerConnection
@@ -1913,6 +1914,7 @@ delegate
 }
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCPeerConnection

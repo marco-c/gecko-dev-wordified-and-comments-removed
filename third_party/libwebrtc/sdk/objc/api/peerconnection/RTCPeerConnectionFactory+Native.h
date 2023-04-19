@@ -293,6 +293,7 @@ decoderFactory
 ;
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCPeerConnection

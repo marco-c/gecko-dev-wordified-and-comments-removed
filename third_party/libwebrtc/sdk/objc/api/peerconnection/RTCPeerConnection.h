@@ -848,6 +848,7 @@ stream
 ;
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCRtpSender
@@ -893,6 +894,7 @@ sender
 ;
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCRtpTransceiver
@@ -912,6 +914,7 @@ track
 ;
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCRtpTransceiver
@@ -941,6 +944,7 @@ init
 ;
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCRtpTransceiver
@@ -956,6 +960,7 @@ mediaType
 ;
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCRtpTransceiver

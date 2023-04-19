@@ -132,6 +132,7 @@ void
 (
 NSError
 *
+_Nullable
 )
 )
 completionHandler

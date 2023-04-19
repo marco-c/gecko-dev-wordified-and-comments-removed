@@ -296,6 +296,7 @@ nativePeerConnection
 ;
 -
 (
+nullable
 instancetype
 )
 initWithFactory
@@ -344,6 +345,7 @@ delegate
 ;
 -
 (
+nullable
 instancetype
 )
 initWithDependencies

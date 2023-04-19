@@ -1821,6 +1821,7 @@ _factory
 ;
 -
 (
+nullable
 instancetype
 )
 initWithFactory
@@ -1926,6 +1927,7 @@ delegate
 }
 -
 (
+nullable
 instancetype
 )
 initWithDependencies
@@ -2790,6 +2792,7 @@ stream
 }
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCRtpSender
@@ -2994,6 +2997,7 @@ result
 }
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCRtpTransceiver
@@ -3034,6 +3038,7 @@ init
 }
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCRtpTransceiver
@@ -3156,6 +3161,7 @@ MoveValue
 }
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCRtpTransceiver
@@ -3192,6 +3198,7 @@ init
 }
 -
 (
+nullable
 RTC_OBJC_TYPE
 (
 RTCRtpTransceiver
