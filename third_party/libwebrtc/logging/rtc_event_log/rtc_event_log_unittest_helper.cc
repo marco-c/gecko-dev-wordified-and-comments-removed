@@ -6669,11 +6669,16 @@ transaction_id
 ;
 }
 }
+template
+<
+typename
+Event
+>
 void
 VerifyLoggedRtpHeader
 (
 const
-RtpPacket
+Event
 &
 original_header
 const
@@ -6746,7 +6751,7 @@ EXPECT_EQ
 (
 original_header
 .
-headers_size
+header_length
 (
 )
 logged_header
@@ -6758,6 +6763,7 @@ ASSERT_EQ
 (
 original_header
 .
+template
 HasExtension
 <
 TransmissionOffset
@@ -6787,6 +6793,7 @@ ASSERT_TRUE
 (
 original_header
 .
+template
 GetExtension
 <
 TransmissionOffset
@@ -6812,6 +6819,7 @@ ASSERT_EQ
 (
 original_header
 .
+template
 HasExtension
 <
 AbsoluteSendTime
@@ -6841,6 +6849,7 @@ ASSERT_TRUE
 (
 original_header
 .
+template
 GetExtension
 <
 AbsoluteSendTime
@@ -6866,6 +6875,7 @@ ASSERT_EQ
 (
 original_header
 .
+template
 HasExtension
 <
 TransportSequenceNumber
@@ -6895,6 +6905,7 @@ ASSERT_TRUE
 (
 original_header
 .
+template
 GetExtension
 <
 TransportSequenceNumber
@@ -6920,6 +6931,7 @@ ASSERT_EQ
 (
 original_header
 .
+template
 HasExtension
 <
 AudioLevel
@@ -6952,6 +6964,7 @@ ASSERT_TRUE
 (
 original_header
 .
+template
 GetExtension
 <
 AudioLevel
@@ -6989,6 +7002,7 @@ ASSERT_EQ
 (
 original_header
 .
+template
 HasExtension
 <
 VideoOrientation
@@ -7018,6 +7032,7 @@ ASSERT_TRUE
 (
 original_header
 .
+template
 GetExtension
 <
 VideoOrientation
@@ -7186,11 +7201,7 @@ EXPECT_EQ
 (
 original_event
 .
-header
-(
-)
-.
-headers_size
+header_length
 (
 )
 logged_event
@@ -7233,10 +7244,6 @@ paddingLength
 VerifyLoggedRtpHeader
 (
 original_event
-.
-header
-(
-)
 logged_event
 .
 rtp
@@ -7280,11 +7287,7 @@ EXPECT_EQ
 (
 original_event
 .
-header
-(
-)
-.
-headers_size
+header_length
 (
 )
 logged_event
@@ -7327,10 +7330,6 @@ paddingLength
 VerifyLoggedRtpHeader
 (
 original_event
-.
-header
-(
-)
 logged_event
 .
 rtp
