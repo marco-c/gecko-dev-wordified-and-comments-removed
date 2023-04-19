@@ -8408,7 +8408,7 @@ current
 return
 ;
 }
-ScrollTo
+ScrollToWithOrigin
 (
 dest
 ScrollMode
@@ -11669,7 +11669,7 @@ height
 0
 ;
 }
-ScrollTo
+ScrollToWithOrigin
 (
 pt
 aMode
@@ -22541,7 +22541,7 @@ pos
 )
 ;
 }
-ScrollTo
+ScrollToWithOrigin
 (
 pos
 aMode
@@ -22549,6 +22549,7 @@ ScrollOrigin
 :
 :
 Other
+nullptr
 )
 ;
 if
@@ -23415,7 +23416,7 @@ snapDestination
 )
 )
 {
-ScrollTo
+ScrollToWithOrigin
 (
 snapDestination
 aMode
@@ -23423,6 +23424,7 @@ ScrollOrigin
 :
 :
 Other
+nullptr
 )
 ;
 }
@@ -37398,7 +37400,7 @@ offset
 y
 )
 {
-ScrollTo
+ScrollToWithOrigin
 (
 GetScrollPosition
 (
@@ -37413,6 +37415,7 @@ ScrollOrigin
 :
 :
 Other
+nullptr
 )
 ;
 }
