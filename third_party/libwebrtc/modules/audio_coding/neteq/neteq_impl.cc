@@ -3195,7 +3195,7 @@ const
 int
 kNackThresholdPackets
 =
-2
+0
 ;
 nack_
 .
