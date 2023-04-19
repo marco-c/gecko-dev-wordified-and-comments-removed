@@ -108,10 +108,6 @@ aType
 aGenericTypes
 aRoleMapEntryIndex
 )
-mSafeToRecurse
-(
-true
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -222,6 +218,8 @@ mCOMProxy
 ;
 bool
 mSafeToRecurse
+=
+true
 ;
 }
 ;
