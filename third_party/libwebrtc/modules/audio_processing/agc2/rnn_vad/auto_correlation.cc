@@ -48,7 +48,7 @@ static_assert
 <
 kAutoCorrelationFftOrder
 >
-kNumLags12kHz
+kNumInvertedLags12kHz
 +
 kBufSize12kHz
 -
@@ -137,7 +137,7 @@ rtc
 ArrayView
 <
 float
-kNumLags12kHz
+kNumInvertedLags12kHz
 >
 auto_corr
 )
@@ -207,7 +207,7 @@ static_assert
 (
 kFftFrameSize
 >
-kNumLags12kHz
+kNumInvertedLags12kHz
 +
 kConvolutionLength
 "
@@ -317,7 +317,7 @@ begin
 +
 kConvolutionLength
 +
-kNumLags12kHz
+kNumInvertedLags12kHz
 tmp
 .
 begin
@@ -336,7 +336,7 @@ begin
 (
 )
 +
-kNumLags12kHz
+kNumInvertedLags12kHz
 +
 kConvolutionLength
 tmp
@@ -451,7 +451,7 @@ begin
 +
 kConvolutionLength
 +
-kNumLags12kHz
+kNumInvertedLags12kHz
 -
 1
 auto_corr

@@ -60,7 +60,7 @@ kBufSize12kHz
 )
 auto_corr_
 (
-kNumLags12kHz
+kNumInvertedLags12kHz
 )
 auto_corr_view_
 (
@@ -69,7 +69,7 @@ auto_corr_
 data
 (
 )
-kNumLags12kHz
+kNumInvertedLags12kHz
 )
 {
 RTC_DCHECK_EQ
@@ -84,7 +84,7 @@ size
 ;
 RTC_DCHECK_EQ
 (
-kNumLags12kHz
+kNumInvertedLags12kHz
 auto_corr_view_
 .
 size
@@ -103,7 +103,7 @@ PitchEstimator
 =
 default
 ;
-int
+PitchInfo
 PitchEstimator
 :
 :
@@ -118,12 +118,12 @@ const
 float
 kBufSize24kHz
 >
-pitch_buffer
+pitch_buf
 )
 {
 Decimate2x
 (
-pitch_buffer
+pitch_buf
 pitch_buf_decimated_view_
 )
 ;
@@ -138,10 +138,11 @@ auto_corr_view_
 CandidatePitchPeriods
 pitch_candidates_inverted_lags
 =
-ComputePitchPeriod12kHz
+FindBestPitchPeriods
 (
-pitch_buf_decimated_view_
 auto_corr_view_
+pitch_buf_decimated_view_
+kMaxPitch12kHz
 )
 ;
 pitch_candidates_inverted_lags
@@ -162,9 +163,9 @@ const
 int
 pitch_inv_lag_48kHz
 =
-ComputePitchPeriod48kHz
+RefinePitchPeriod48kHz
 (
-pitch_buffer
+pitch_buf
 pitch_candidates_inverted_lags
 )
 ;
@@ -176,9 +177,9 @@ kMaxPitch48kHz
 ;
 last_pitch_48kHz_
 =
-ComputeExtendedPitchPeriod48kHz
+CheckLowerPitchPeriodsAndComputePitchGain
 (
-pitch_buffer
+pitch_buf
 kMaxPitch48kHz
 -
 pitch_inv_lag_48kHz
@@ -187,8 +188,6 @@ last_pitch_48kHz_
 ;
 return
 last_pitch_48kHz_
-.
-period
 ;
 }
 }
