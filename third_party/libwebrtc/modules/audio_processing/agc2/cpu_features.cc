@@ -228,4 +228,17 @@ false
 #
 endif
 }
+AvailableCpuFeatures
+NoAvailableCpuFeatures
+(
+)
+{
+return
+{
+false
+false
+false
+}
+;
+}
 }

@@ -1017,11 +1017,9 @@ v
 .
 push_back
 (
-{
-false
-false
-false
-}
+NoAvailableCpuFeatures
+(
+)
 )
 ;
 if

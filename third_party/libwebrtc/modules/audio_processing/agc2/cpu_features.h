@@ -64,6 +64,11 @@ GetAvailableCpuFeatures
 (
 )
 ;
+AvailableCpuFeatures
+NoAvailableCpuFeatures
+(
+)
+;
 }
 #
 endif

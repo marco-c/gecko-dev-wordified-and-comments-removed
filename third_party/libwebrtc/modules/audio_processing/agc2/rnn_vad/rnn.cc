@@ -220,7 +220,9 @@ ActivationFunction
 :
 :
 kSigmoidApproximated
-cpu_features
+NoAvailableCpuFeatures
+(
+)
 "
 FC2
 "
