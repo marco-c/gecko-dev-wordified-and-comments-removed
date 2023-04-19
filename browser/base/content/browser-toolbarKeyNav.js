@@ -190,7 +190,7 @@ width
 return
 NodeFilter
 .
-FILTER_REJECT
+FILTER_SKIP
 ;
 }
 if
