@@ -1009,7 +1009,7 @@ distributions
 .
 rtc_use_pipewire
 =
-is_desktop_linux
+is_linux
 &
 &
 use_sysroot
