@@ -5169,14 +5169,6 @@ rtp_rtcp_format
 /
 modules
 /
-utility
-"
-"
-.
-.
-/
-modules
-/
 video_coding
 "
 "
