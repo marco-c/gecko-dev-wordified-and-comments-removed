@@ -169,13 +169,6 @@ kMaxNumSamples
 *
 2
 ;
-static
-const
-size_t
-kRedLastHeaderLength
-=
-1
-;
 }
 class
 AudioEncoderCopyRedTest
@@ -895,8 +888,6 @@ size
 EXPECT_EQ
 (
 kEncodedSize
-+
-kRedLastHeaderLength
 encoded_info_
 .
 encoded_bytes
@@ -1260,8 +1251,6 @@ size
 ;
 EXPECT_EQ
 (
-kRedLastHeaderLength
-+
 1u
 encoded_info_
 .
@@ -1962,8 +1951,6 @@ Encode
 ;
 EXPECT_EQ
 (
-kRedLastHeaderLength
-+
 kPayloadLenBytes
 encoded_info_
 .
@@ -1995,8 +1982,6 @@ data
 (
 )
 [
-kRedLastHeaderLength
-+
 i
 ]
 )
