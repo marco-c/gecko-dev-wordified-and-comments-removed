@@ -707,7 +707,7 @@ function
 (
 {
 tab
-descriptor
+commands
 hostType
 }
 =
@@ -728,10 +728,9 @@ inspector
 if
 (
 !
-descriptor
+commands
 )
 {
-const
 commands
 =
 await
@@ -747,12 +746,6 @@ gBrowser
 selectedTab
 )
 ;
-descriptor
-=
-commands
-.
-descriptorFront
-;
 }
 let
 storage
@@ -762,9 +755,9 @@ toolbox
 =
 gDevTools
 .
-getToolboxForDescriptor
+getToolboxForCommands
 (
-descriptor
+commands
 )
 ;
 if
@@ -839,7 +832,7 @@ gDevTools
 .
 showToolbox
 (
-descriptor
+commands
 {
 toolId
 :

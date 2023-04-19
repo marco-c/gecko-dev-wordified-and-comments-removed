@@ -1016,15 +1016,10 @@ commands
 )
 {
 const
-{
-descriptorFront
-}
-=
-commands
-;
-const
 form
 =
+commands
+.
 descriptorFront
 .
 _form
@@ -1113,7 +1108,7 @@ gDevTools
 .
 showToolbox
 (
-descriptorFront
+commands
 {
 toolId
 :

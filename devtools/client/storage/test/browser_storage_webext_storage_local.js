@@ -40,13 +40,6 @@ id
 )
 ;
 const
-descriptor
-=
-commands
-.
-descriptorFront
-;
-const
 {
 toolbox
 storage
@@ -56,7 +49,7 @@ await
 openStoragePanel
 (
 {
-descriptor
+commands
 hostType
 :
 Toolbox
