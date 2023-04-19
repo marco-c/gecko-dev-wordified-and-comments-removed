@@ -206,8 +206,10 @@ webgl
 :
 ReadPixelsDesc
 &
-uint64_t
-byteSize
+ReadPixelsBuffer
+&
+&
+buffer
 webgl
 :
 :
