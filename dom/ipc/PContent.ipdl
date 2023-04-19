@@ -5854,6 +5854,9 @@ returns
 (
 nsILayoutHistoryState
 aState
+Wireframe
+?
+aWireframe
 )
 ;
 async

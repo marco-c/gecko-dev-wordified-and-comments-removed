@@ -312,7 +312,9 @@ goBack
 await
 loaded
 ;
-todo
+Assert
+.
+ok
 (
 sh
 .
@@ -338,7 +340,9 @@ back
 "
 )
 ;
-todo
+Assert
+.
+ok
 (
 !
 sh
