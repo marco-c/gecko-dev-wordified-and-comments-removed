@@ -1314,16 +1314,9 @@ localSlotsSize
 )
 )
 ;
-uint32_t
-offsetFromBase
-=
-offsetOfLocalSlots_
-+
-slot
-;
 MOZ_ASSERT
 (
-offsetFromBase
+slot
 <
 =
 masm
@@ -1340,7 +1333,7 @@ framePushed
 (
 )
 -
-offsetFromBase
+slot
 ;
 }
 uint32_t

@@ -113,12 +113,14 @@ profilerExitTail
 static
 constexpr
 size_t
-FPOffset
+CallerFPOffset
 =
 CommonFrameLayout
 :
 :
-FramePointerOffset
+offsetOfCallerFramePtr
+(
+)
 ;
 auto
 emitAssertPrevFrameType
@@ -152,8 +154,6 @@ loadPtr
 Address
 (
 framePtr
-FPOffset
-+
 CommonFrameLayout
 :
 :
@@ -428,8 +428,6 @@ loadPtr
 Address
 (
 fpScratch
-FPOffset
-+
 JitFrameLayout
 :
 :
@@ -641,8 +639,6 @@ loadPtr
 Address
 (
 fpScratch
-FPOffset
-+
 JitFrameLayout
 :
 :
@@ -668,7 +664,7 @@ loadPtr
 Address
 (
 fpScratch
-0
+CallerFPOffset
 )
 scratch
 )
@@ -720,7 +716,7 @@ loadPtr
 Address
 (
 fpScratch
-0
+CallerFPOffset
 )
 fpScratch
 )
@@ -741,8 +737,6 @@ loadPtr
 Address
 (
 fpScratch
-FPOffset
-+
 CommonFrameLayout
 :
 :
@@ -768,7 +762,7 @@ loadPtr
 Address
 (
 fpScratch
-0
+CallerFPOffset
 )
 scratch
 )
@@ -855,7 +849,7 @@ loadPtr
 Address
 (
 fpScratch
-0
+CallerFPOffset
 )
 fpScratch
 )

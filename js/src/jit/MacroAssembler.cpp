@@ -11418,6 +11418,11 @@ resumeAddr
 )
 )
 ;
+push
+(
+FramePointer
+)
+;
 loadJSContext
 (
 scratch
