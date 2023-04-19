@@ -2989,7 +2989,7 @@ ipc
 SandboxingKind
 :
 :
-GENERIC_UTILITY
+UTILITY_AUDIO_DECODING_GENERIC
 )
 {
 #
