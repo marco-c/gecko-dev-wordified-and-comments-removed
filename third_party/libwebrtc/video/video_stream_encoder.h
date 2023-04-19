@@ -1672,6 +1672,7 @@ encoder_queue_
 VideoStreamInputStateProvider
 input_state_provider_
 ;
+const
 std
 :
 :
@@ -1694,6 +1695,11 @@ unique_ptr
 ResourceAdaptationProcessorInterface
 >
 resource_adaptation_processor_
+RTC_GUARDED_BY
+(
+&
+encoder_queue_
+)
 ;
 std
 :
