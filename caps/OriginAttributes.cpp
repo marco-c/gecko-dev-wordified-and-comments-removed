@@ -1012,7 +1012,7 @@ quota
 QuotaManager
 :
 :
-kReplaceChars
+kReplaceChars16
 kSanitizedChar
 )
 ;
