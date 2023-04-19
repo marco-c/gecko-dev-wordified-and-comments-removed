@@ -2062,10 +2062,10 @@ value
 ;
 if
 (
-IndexedDatabaseManager
+StaticPrefs
 :
 :
-PreprocessingEnabled
+dom_indexedDB_preprocessing
 (
 )
 )
