@@ -50,7 +50,7 @@ VoipDtmf
 public
 :
 virtual
-void
+VoipResult
 RegisterTelephoneEventType
 (
 ChannelId
@@ -64,7 +64,7 @@ sample_rate_hz
 0
 ;
 virtual
-bool
+VoipResult
 SendDtmfEvent
 (
 ChannelId

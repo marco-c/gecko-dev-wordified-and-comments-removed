@@ -33,7 +33,7 @@ VoipNetwork
 public
 :
 virtual
-void
+VoipResult
 ReceivedRTPPacket
 (
 ChannelId
@@ -52,7 +52,7 @@ rtp_packet
 0
 ;
 virtual
-void
+VoipResult
 ReceivedRTCPPacket
 (
 ChannelId

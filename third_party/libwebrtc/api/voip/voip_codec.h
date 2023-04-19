@@ -40,7 +40,7 @@ VoipCodec
 public
 :
 virtual
-void
+VoipResult
 SetSendCodec
 (
 ChannelId
@@ -56,7 +56,7 @@ encoder_spec
 0
 ;
 virtual
-void
+VoipResult
 SetReceiveCodecs
 (
 ChannelId
