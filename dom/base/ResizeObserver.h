@@ -721,6 +721,7 @@ bool
 HasNativeCallback
 (
 )
+const
 {
 return
 mCallback

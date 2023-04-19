@@ -259,6 +259,10 @@ Element
 aTarget
 ResizeObserverBoxOptions
 aBox
+const
+ResizeObserver
+&
+aObserver
 )
 {
 nsIFrame
@@ -729,6 +733,14 @@ StaticPrefs
 dom_resize_observer_support_fragments
 (
 )
+&
+&
+!
+aObserver
+.
+HasNativeCallback
+(
+)
 )
 {
 return
@@ -1037,6 +1049,8 @@ CalculateBoxSize
 (
 mTarget
 mObservedBox
+*
+mObserver
 )
 ;
 }
@@ -1904,6 +1918,8 @@ ResizeObserverBoxOptions
 :
 :
 Border_box
+*
+this
 )
 ;
 auto
@@ -1916,6 +1932,8 @@ ResizeObserverBoxOptions
 :
 :
 Content_box
+*
+this
 )
 ;
 auto
@@ -1928,6 +1946,8 @@ ResizeObserverBoxOptions
 :
 :
 Device_pixel_content_box
+*
+this
 )
 ;
 RefPtr
