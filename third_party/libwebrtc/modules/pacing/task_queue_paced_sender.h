@@ -241,6 +241,11 @@ TaskQueuePacedSender
 override
 ;
 void
+EnsureStarted
+(
+)
+;
+void
 EnqueuePackets
 (
 std
@@ -502,6 +507,15 @@ RTC_GUARDED_BY
 (
 task_queue_
 )
+;
+bool
+is_started_
+RTC_GUARDED_BY
+(
+task_queue_
+)
+=
+false
 ;
 bool
 is_shutdown_
