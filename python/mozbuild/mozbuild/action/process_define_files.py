@@ -489,10 +489,16 @@ name
 in
 (
 "
-WINVER
+_WIN32_IE
 "
 "
 _WIN32_WINNT
+"
+"
+WIN32
+"
+"
+WINVER
 "
 )
 :
