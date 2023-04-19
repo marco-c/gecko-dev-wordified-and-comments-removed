@@ -1768,7 +1768,7 @@ PushString
 aSkeleton
 u
 "
-G
+GGG
 "
 )
 )

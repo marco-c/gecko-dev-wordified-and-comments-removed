@@ -82,7 +82,7 @@ format
 endShowa
 )
 "
-S64
+64
 /
 1
 /
@@ -99,7 +99,7 @@ format
 startHeisei
 )
 "
-H1
+1
 /
 1
 /
@@ -142,7 +142,6 @@ era
 .
 value
 "
-H
 "
 )
 ;
@@ -364,7 +363,6 @@ format
 endShowa
 )
 "
-S
 /
 /
 "
@@ -379,7 +377,6 @@ format
 startHeisei
 )
 "
-H
 /
 /
 "
