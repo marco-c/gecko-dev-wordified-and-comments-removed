@@ -362,6 +362,7 @@ async
 function
 deny
 (
+action
 )
 {
 let
@@ -403,7 +404,7 @@ permissionError
 {
 activateSecondaryAction
 (
-kActionDeny
+action
 )
 ;
 }
@@ -996,6 +997,7 @@ true
 await
 deny
 (
+kActionDeny
 )
 ;
 perms
@@ -1039,6 +1041,7 @@ false
 await
 deny
 (
+kActionDeny
 )
 ;
 perms
@@ -1399,6 +1402,7 @@ true
 await
 deny
 (
+kActionDeny
 )
 ;
 perms
@@ -1442,6 +1446,7 @@ false
 await
 deny
 (
+kActionDeny
 )
 ;
 perms
@@ -1637,6 +1642,7 @@ true
 await
 deny
 (
+kActionDeny
 )
 ;
 perms
@@ -1940,6 +1946,7 @@ true
 await
 deny
 (
+kActionDeny
 )
 ;
 perms
@@ -2097,6 +2104,7 @@ true
 await
 deny
 (
+kActionDeny
 )
 ;
 perms
@@ -2206,6 +2214,15 @@ closeStream
 (
 )
 ;
+let
+principal
+=
+gBrowser
+.
+selectedBrowser
+.
+contentPrincipal
+;
 info
 (
 "
@@ -2233,13 +2250,14 @@ true
 await
 deny
 (
+kActionNever
 )
 ;
 perms
 .
 removeFromPrincipal
 (
-null
+principal
 "
 camera
 "
@@ -2252,7 +2270,7 @@ perms
 .
 removeFromPrincipal
 (
-null
+principal
 "
 microphone
 "
@@ -2284,6 +2302,7 @@ true
 await
 deny
 (
+kActionDeny
 )
 ;
 perms
@@ -2358,13 +2377,14 @@ true
 await
 deny
 (
+kActionNever
 )
 ;
 perms
 .
 removeFromPrincipal
 (
-null
+principal
 "
 camera
 "
@@ -2377,7 +2397,7 @@ perms
 .
 removeFromPrincipal
 (
-null
+principal
 "
 microphone
 "
@@ -2409,6 +2429,7 @@ false
 await
 deny
 (
+kActionNever
 )
 ;
 perms
