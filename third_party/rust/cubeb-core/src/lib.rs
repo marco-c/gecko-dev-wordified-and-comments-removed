@@ -18,7 +18,7 @@ mod
 ffi_types
 ;
 mod
-try_call
+call
 ;
 mod
 builders

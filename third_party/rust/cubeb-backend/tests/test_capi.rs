@@ -90,6 +90,13 @@ TestStream
 struct
 TestContext
 {
+#
+[
+allow
+(
+dead_code
+)
+]
 pub
 ops
 :

@@ -180,7 +180,7 @@ backend_name
 ;
 unsafe
 {
-try_call
+call
 !
 (
 ffi
@@ -195,6 +195,7 @@ context_name
 backend_name
 )
 )
+?
 ;
 Ok
 (
@@ -298,10 +299,7 @@ channel_count
 ;
 unsafe
 {
-let
-_
-=
-try_call
+call
 !
 (
 ffi
@@ -319,6 +317,7 @@ mut
 channel_count
 )
 )
+?
 ;
 }
 Ok
@@ -352,10 +351,7 @@ latency
 ;
 unsafe
 {
-let
-_
-=
-try_call
+call
 !
 (
 ffi
@@ -378,6 +374,7 @@ mut
 latency
 )
 )
+?
 ;
 }
 Ok
@@ -407,10 +404,7 @@ rate
 ;
 unsafe
 {
-let
-_
-=
-try_call
+call
 !
 (
 ffi
@@ -428,6 +422,7 @@ mut
 rate
 )
 )
+?
 ;
 }
 Ok
@@ -562,10 +557,7 @@ as_ptr
 output_stream_params
 )
 ;
-let
-_
-=
-try_call
+call
 !
 (
 ffi
@@ -592,6 +584,7 @@ state_callback
 user_ptr
 )
 )
+?
 ;
 Ok
 (
@@ -637,10 +630,7 @@ default
 ;
 unsafe
 {
-let
-_
-=
-try_call
+call
 !
 (
 ffi
@@ -663,6 +653,7 @@ mut
 coll
 )
 )
+?
 ;
 }
 Ok
@@ -707,10 +698,7 @@ Result
 )
 >
 {
-let
-_
-=
-try_call
+call
 !
 (
 ffi
@@ -732,6 +720,7 @@ callback
 user_ptr
 )
 )
+?
 ;
 Ok
 (
