@@ -24,7 +24,9 @@ js
 "
 Converter
 .
-jsm
+sys
+.
+mjs
 "
 "
 json
@@ -36,7 +38,9 @@ js
 "
 Sniffer
 .
-jsm
+sys
+.
+mjs
 "
 "
 viewer
