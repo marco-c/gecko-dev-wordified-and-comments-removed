@@ -43184,6 +43184,9 @@ opts
 {
 let
 ast
+=
+{
+}
 ;
 if
 (
@@ -43192,6 +43195,7 @@ text
 )
 {
 return
+ast
 ;
 }
 try
@@ -43216,11 +43220,6 @@ error
 (
 error
 )
-;
-ast
-=
-{
-}
 ;
 }
 return
@@ -43311,6 +43310,8 @@ string
 )
 {
 return
+{
+}
 ;
 }
 let
@@ -64399,6 +64400,9 @@ name
 null
 ;
 }
+return
+null
+;
 }
 )
 ;
@@ -257411,6 +257415,9 @@ Vue
 "
 ;
 }
+return
+null
+;
 }
 function
 isReactComponent
@@ -266286,7 +266293,6 @@ isMapped
 =
 true
 ;
-return
 (
 0
 _ast
@@ -266297,6 +266303,8 @@ replaceNode
 ancestors
 newNode
 )
+;
+return
 ;
 }
 return

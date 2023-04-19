@@ -58,6 +58,9 @@ Vue
 "
 ;
 }
+return
+null
+;
 }
 function
 isReactComponent
