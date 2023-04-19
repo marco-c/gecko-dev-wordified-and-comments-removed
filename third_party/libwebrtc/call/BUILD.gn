@@ -3891,6 +3891,14 @@ macromagic
 /
 rtc_base
 :
+platform_thread
+"
+"
+.
+.
+/
+rtc_base
+:
 rtc_base_approved
 "
 "

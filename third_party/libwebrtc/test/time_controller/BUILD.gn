@@ -308,6 +308,17 @@ null_socket_server
 /
 rtc_base
 :
+platform_thread_types
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 rtc_base_tests_utils
 "
 "

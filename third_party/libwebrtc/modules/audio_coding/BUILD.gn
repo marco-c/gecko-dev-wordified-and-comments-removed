@@ -15026,6 +15026,17 @@ macromagic
 /
 rtc_base
 :
+platform_thread
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 refcount
 "
 "

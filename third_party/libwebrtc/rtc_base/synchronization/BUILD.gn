@@ -512,6 +512,12 @@ macromagic
 .
 .
 :
+platform_thread
+"
+"
+.
+.
+:
 rtc_base
 "
 "
