@@ -217,6 +217,8 @@ IPCResult
 RecvBufferUnmap
 (
 RawId
+aDeviceId
+RawId
 aBufferId
 bool
 aFlush
