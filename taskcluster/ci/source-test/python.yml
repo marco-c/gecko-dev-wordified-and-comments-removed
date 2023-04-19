@@ -2305,6 +2305,8 @@ opt
 linux64
 -
 node
+-
+12
 macosx1015
 -
 64
@@ -2315,6 +2317,8 @@ opt
 macosx64
 -
 node
+-
+12
 windows10
 -
 64
@@ -2325,6 +2329,8 @@ opt
 win64
 -
 node
+-
+12
 when
 :
 files
@@ -2604,6 +2610,8 @@ opt
 linux64
 -
 node
+-
+12
 windows10
 -
 64
@@ -2614,6 +2622,8 @@ opt
 win64
 -
 node
+-
+12
 when
 :
 files
@@ -2992,6 +3002,8 @@ opt
 linux64
 -
 node
+-
+12
 macosx1015
 -
 64
@@ -3002,6 +3014,8 @@ opt
 macosx64
 -
 node
+-
+12
 windows10
 -
 64
@@ -3012,6 +3026,8 @@ opt
 win64
 -
 node
+-
+12
 when
 :
 files

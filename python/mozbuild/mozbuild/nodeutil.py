@@ -34,9 +34,9 @@ NODE_MIN_VERSION
 StrictVersion
 (
 "
-12
+10
 .
-22
+23
 .
 1
 "
@@ -50,7 +50,7 @@ StrictVersion
 .
 14
 .
-12
+10
 "
 )
 def
