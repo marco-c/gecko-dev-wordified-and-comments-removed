@@ -80,6 +80,7 @@ interface
 nsIFactory
 ;
 [
+builtinclass
 scriptable
 uuid
 (
