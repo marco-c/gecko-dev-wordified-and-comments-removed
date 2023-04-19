@@ -290,16 +290,6 @@ mutex
 /
 rtc_base
 /
-synchronization
-:
-rw_lock_wrapper
-"
-"
-.
-.
-/
-rtc_base
-/
 system
 :
 arch
