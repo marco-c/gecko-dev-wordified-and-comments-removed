@@ -897,7 +897,7 @@ ignored
 }
 {
 AutoMoveNodeSelNotify
-notifyStoredRRanges
+notifyStoredRanges
 (
 htmlEditor
 -
@@ -1338,7 +1338,7 @@ ignored
 }
 {
 AutoMoveNodeSelNotify
-notifyStoredRRanges
+notifyStoredRanges
 (
 htmlEditor
 -
