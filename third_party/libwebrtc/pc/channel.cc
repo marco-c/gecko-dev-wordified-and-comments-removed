@@ -2567,6 +2567,16 @@ network_thread
 )
 )
 ;
+if
+(
+!
+rtp_transport_
+)
+{
+return
+false
+;
+}
 return
 rtp_transport_
 -
