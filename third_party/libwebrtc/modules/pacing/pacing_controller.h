@@ -427,8 +427,8 @@ DataSize
 overhead_per_packet
 )
 ;
-TimeDelta
-OldestPacketWaitTime
+Timestamp
+OldestPacketEnqueueTime
 (
 )
 const
