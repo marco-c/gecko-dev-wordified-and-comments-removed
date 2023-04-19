@@ -513,6 +513,12 @@ MaybeProcessScreenshotQueue
 )
 override
 ;
+bool
+HaveScreenshotsToFlush
+(
+)
+override
+;
 struct
 TileKey
 {

@@ -225,6 +225,12 @@ MaybeProcessScreenshotQueue
 )
 override
 ;
+bool
+HaveScreenshotsToFlush
+(
+)
+override
+;
 void
 CompositorBeginFrame
 (

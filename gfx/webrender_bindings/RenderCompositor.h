@@ -896,6 +896,16 @@ false
 ;
 }
 virtual
+bool
+HaveScreenshotsToFlush
+(
+)
+{
+return
+false
+;
+}
+virtual
 ipc
 :
 :
