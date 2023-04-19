@@ -61,10 +61,8 @@ SetSpatialIndex
 frame
 -
 >
-id
-.
-picture_id
-=
+SetId
+(
 unwrapper_
 .
 Unwrap
@@ -75,6 +73,7 @@ frame_id
 kFrameIdLength
 -
 1
+)
 )
 )
 ;
@@ -111,9 +110,9 @@ references
 frame
 -
 >
-id
-.
-picture_id
+Id
+(
+)
 -
 1
 ;

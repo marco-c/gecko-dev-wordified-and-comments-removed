@@ -58,13 +58,12 @@ descriptor
 frame
 -
 >
-id
-.
-picture_id
-=
+SetId
+(
 descriptor
 .
 frame_id
+)
 ;
 frame
 -

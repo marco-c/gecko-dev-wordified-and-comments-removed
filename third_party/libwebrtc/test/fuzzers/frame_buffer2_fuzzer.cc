@@ -380,10 +380,8 @@ FuzzyFrameObject
 frame
 -
 >
-id
-.
-picture_id
-=
+SetId
+(
 reader
 .
 GetNum
@@ -391,6 +389,7 @@ GetNum
 int64_t
 >
 (
+)
 )
 ;
 frame

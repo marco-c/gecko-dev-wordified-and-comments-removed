@@ -373,7 +373,7 @@ absl
 :
 InlinedVector
 <
-VideoLayerFrameId
+int64_t
 8
 >
 dependent_frames
@@ -412,7 +412,7 @@ std
 :
 map
 <
-VideoLayerFrameId
+int64_t
 FrameInfo
 >
 ;
@@ -683,7 +683,7 @@ absl
 :
 optional
 <
-VideoLayerFrameId
+int64_t
 >
 last_continuous_frame_
 RTC_GUARDED_BY

@@ -4819,9 +4819,9 @@ last_seq_num_for_pic_id_
 rtp_frame
 -
 >
-id
-.
-picture_id
+Id
+(
+)
 ]
 =
 rtp_frame
@@ -4842,9 +4842,9 @@ last_completed_picture_id_
 frame
 -
 >
-id
-.
-picture_id
+Id
+(
+)
 )
 ;
 complete_frame_callback_
