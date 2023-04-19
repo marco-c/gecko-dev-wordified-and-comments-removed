@@ -2527,6 +2527,13 @@ Wait
 )
 ;
 }
+#
+if
+!
+defined
+(
+WEBRTC_MAC
+)
 TEST_F
 (
 OveruseFrameDetectorTest
@@ -2736,6 +2743,8 @@ observer_
 )
 ;
 }
+#
+endif
 TEST_F
 (
 OveruseFrameDetectorTest
@@ -4419,6 +4428,13 @@ UsagePercent
 )
 ;
 }
+#
+if
+!
+defined
+(
+WEBRTC_MAC
+)
 TEST_F
 (
 OveruseFrameDetectorTest2
@@ -4508,6 +4524,8 @@ UsagePercent
 )
 ;
 }
+#
+endif
 TEST_F
 (
 OveruseFrameDetectorTest2
