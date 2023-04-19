@@ -6,7 +6,7 @@ define
 API_UNITS_DATA_RATE_H_
 #
 ifdef
-UNIT_TEST
+WEBRTC_UNIT_TEST
 #
 include
 <
@@ -863,7 +863,7 @@ value
 }
 #
 ifdef
-UNIT_TEST
+WEBRTC_UNIT_TEST
 inline
 std
 :

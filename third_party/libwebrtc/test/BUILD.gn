@@ -1748,7 +1748,7 @@ defines
 =
 [
 "
-UNIT_TEST
+WEBRTC_UNIT_TEST
 "
 ]
 }
