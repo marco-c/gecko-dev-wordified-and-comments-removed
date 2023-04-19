@@ -13,6 +13,11 @@ FileSystemDataManagerVersion001
 cpp
 "
 "
+FileSystemFileManager
+.
+cpp
+"
+"
 SchemaVersion001
 .
 cpp

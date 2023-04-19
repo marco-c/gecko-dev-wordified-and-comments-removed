@@ -24,6 +24,15 @@ h
 #
 include
 "
+datamodel
+/
+FileSystemFileManager
+.
+h
+"
+#
+include
+"
 fs
 /
 FileSystemConstants
