@@ -765,6 +765,10 @@ get
 (
 )
 socket_factory
+&
+trials
+(
+)
 )
 ;
 default_socket_factory_

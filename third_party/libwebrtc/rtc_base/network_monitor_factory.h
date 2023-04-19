@@ -5,6 +5,13 @@ RTC_BASE_NETWORK_MONITOR_FACTORY_H_
 define
 RTC_BASE_NETWORK_MONITOR_FACTORY_H_
 namespace
+webrtc
+{
+class
+WebRtcKeyValueConfig
+;
+}
+namespace
 rtc
 {
 class
@@ -20,6 +27,13 @@ NetworkMonitorInterface
 *
 CreateNetworkMonitor
 (
+const
+webrtc
+:
+:
+WebRtcKeyValueConfig
+&
+field_trials
 )
 =
 0

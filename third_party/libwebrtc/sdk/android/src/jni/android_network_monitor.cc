@@ -3155,6 +3155,10 @@ AndroidNetworkMonitorFactory
 :
 CreateNetworkMonitor
 (
+const
+WebRtcKeyValueConfig
+&
+field_trials
 )
 {
 return

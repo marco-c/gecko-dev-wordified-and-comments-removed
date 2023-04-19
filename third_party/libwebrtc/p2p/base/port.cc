@@ -652,6 +652,13 @@ std
 string
 &
 password
+const
+webrtc
+:
+:
+WebRtcKeyValueConfig
+*
+field_trials
 )
 :
 thread_
@@ -722,6 +729,10 @@ weak_factory_
 (
 this
 )
+field_trials_
+(
+field_trials
+)
 {
 RTC_DCHECK
 (
@@ -785,6 +796,13 @@ std
 string
 &
 password
+const
+webrtc
+:
+:
+WebRtcKeyValueConfig
+*
+field_trials
 )
 :
 thread_
@@ -854,6 +872,10 @@ false
 weak_factory_
 (
 this
+)
+field_trials_
+(
+field_trials
 )
 {
 RTC_DCHECK
@@ -938,6 +960,8 @@ network_
 >
 GetCost
 (
+*
+field_trials_
 )
 ;
 thread_
@@ -5125,6 +5149,8 @@ network_
 >
 GetCost
 (
+*
+field_trials_
 )
 ;
 if
