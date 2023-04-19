@@ -3468,7 +3468,7 @@ new
 -
 indicator
 "
-false
+true
 )
 ;
 pref
@@ -3484,7 +3484,7 @@ new
 -
 logo
 "
-false
+true
 )
 ;
 pref
@@ -3526,7 +3526,7 @@ private
 -
 windows
 "
-false
+true
 )
 ;
 pref
@@ -3540,7 +3540,7 @@ preferences
 .
 show
 "
-false
+true
 )
 ;
 pref
