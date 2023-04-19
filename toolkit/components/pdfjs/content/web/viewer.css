@@ -7405,7 +7405,7 @@ min
 -
 width
 :
-320px
+350px
 ;
 }
 #
@@ -8049,9 +8049,9 @@ translateX
 #
 loadingBar
 .
-progress
-.
 indeterminate
+.
+progress
 {
 transform
 :
@@ -8082,9 +8082,9 @@ none
 #
 loadingBar
 .
-progress
-.
 indeterminate
+.
+progress
 .
 glimmer
 {
@@ -13734,7 +13734,7 @@ max
 -
 width
 :
-770px
+820px
 )
 {
 #
@@ -13766,7 +13766,7 @@ max
 -
 width
 :
-700px
+750px
 )
 {
 #
@@ -13798,7 +13798,7 @@ max
 -
 width
 :
-640px
+690px
 )
 {
 .
@@ -13849,7 +13849,7 @@ max
 -
 width
 :
-535px
+560px
 )
 {
 #
