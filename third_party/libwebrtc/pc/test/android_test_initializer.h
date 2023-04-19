@@ -1,0 +1,17 @@
+#
+ifndef
+PC_TEST_ANDROID_TEST_INITIALIZER_H_
+#
+define
+PC_TEST_ANDROID_TEST_INITIALIZER_H_
+namespace
+webrtc
+{
+void
+InitializeAndroidObjects
+(
+)
+;
+}
+#
+endif
