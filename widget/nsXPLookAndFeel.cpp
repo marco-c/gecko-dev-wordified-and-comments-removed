@@ -6532,14 +6532,6 @@ ColorScheme
 :
 Light
 ;
-case
-2
-:
-return
-SystemColorScheme
-(
-)
-;
 default
 :
 return
