@@ -165,11 +165,6 @@ false
 )
 )
 ;
-await
-waitForAllNetworkUpdateEvents
-(
-)
-;
 Services
 .
 telemetry
@@ -336,11 +331,6 @@ object
 netmonitor
 "
 }
-;
-await
-waitForAllNetworkUpdateEvents
-(
-)
 ;
 await
 TelemetryTestUtils

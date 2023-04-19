@@ -308,11 +308,6 @@ true
 )
 ;
 await
-waitForAllNetworkUpdateEvents
-(
-)
-;
-await
 reloadBrowser
 (
 )
