@@ -152,14 +152,6 @@ True
 DEFINES
 [
 "
-RTC_ENABLE_WIN_WGC
-"
-]
-=
-True
-DEFINES
-[
-"
 UNICODE
 "
 ]
