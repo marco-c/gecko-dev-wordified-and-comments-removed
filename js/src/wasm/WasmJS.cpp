@@ -5747,7 +5747,7 @@ nullptr
 ;
 }
 return
-NewPlainObjectWithProperties
+NewPlainObjectWithUniqueNames
 (
 cx
 props
@@ -5943,7 +5943,7 @@ nullptr
 ;
 }
 return
-NewPlainObjectWithProperties
+NewPlainObjectWithUniqueNames
 (
 cx
 props
@@ -6287,7 +6287,7 @@ nullptr
 ;
 }
 return
-NewPlainObjectWithProperties
+NewPlainObjectWithUniqueNames
 (
 cx
 props
@@ -6427,7 +6427,7 @@ nullptr
 ;
 }
 return
-NewPlainObjectWithProperties
+NewPlainObjectWithUniqueNames
 (
 cx
 props
@@ -6527,7 +6527,7 @@ nullptr
 ;
 }
 return
-NewPlainObjectWithProperties
+NewPlainObjectWithUniqueNames
 (
 cx
 props
@@ -7991,7 +7991,7 @@ JSObject
 *
 obj
 =
-NewPlainObjectWithProperties
+NewPlainObjectWithUniqueNames
 (
 cx
 props
@@ -8624,7 +8624,7 @@ JSObject
 *
 obj
 =
-NewPlainObjectWithProperties
+NewPlainObjectWithUniqueNames
 (
 cx
 props

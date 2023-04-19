@@ -3469,7 +3469,7 @@ JSObject
 *
 obj
 =
-NewPlainObjectWithProperties
+NewPlainObjectWithMaybeDuplicateKeys
 (
 cx
 properties
