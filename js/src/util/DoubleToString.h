@@ -4,13 +4,6 @@ util_DoubleToString_h
 #
 define
 util_DoubleToString_h
-#
-include
-<
-stddef
-.
-h
->
 struct
 DtoaState
 ;
