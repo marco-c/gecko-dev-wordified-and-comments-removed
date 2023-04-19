@@ -169,6 +169,13 @@ VoiceActivityDetectorWrapper
 (
 )
 ;
+void
+Initialize
+(
+int
+sample_rate_hz
+)
+;
 float
 Analyze
 (
@@ -185,6 +192,12 @@ private
 const
 int
 vad_reset_period_frames_
+;
+bool
+initialized_
+;
+int
+frame_size_
 ;
 int
 time_to_vad_reset_
