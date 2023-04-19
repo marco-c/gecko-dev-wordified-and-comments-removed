@@ -159,7 +159,6 @@ text
 expected_text
 )
     
-await
 asyncio
 .
 sleep
@@ -322,7 +321,6 @@ text2
 "
 )
     
-await
 asyncio
 .
 sleep
@@ -384,7 +382,6 @@ text3
 "
 )
     
-await
 asyncio
 .
 sleep

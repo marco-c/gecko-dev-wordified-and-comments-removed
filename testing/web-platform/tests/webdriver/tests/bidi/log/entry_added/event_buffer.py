@@ -612,7 +612,6 @@ entryAdded
 await
 on_entry_added
     
-await
 asyncio
 .
 sleep
