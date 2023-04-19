@@ -101,15 +101,6 @@ rust
 shared
 /
 -
-js
-/
-src
-/
-wasm
-/
-cranelift
-/
--
 modules
 /
 libpref

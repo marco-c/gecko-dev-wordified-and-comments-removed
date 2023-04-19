@@ -8125,12 +8125,6 @@ defined
 (
 JS_64BIT
 )
-|
-|
-defined
-(
-ENABLE_WASM_CRANELIFT
-)
 MOZ_ASSERT
 (
 limit
@@ -13280,12 +13274,6 @@ if
 defined
 (
 JS_64BIT
-)
-|
-|
-defined
-(
-ENABLE_WASM_CRANELIFT
 )
 MOZ_ASSERT
 (

@@ -71,11 +71,6 @@ tests
 -
 disable
 -
-cranelift
--
--
-disable
--
 clang
 -
 plugin

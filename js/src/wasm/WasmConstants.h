@@ -2616,7 +2616,6 @@ class
 OptimizedBackend
 {
 Ion
-Cranelift
 }
 ;
 enum

@@ -76,15 +76,6 @@ src
 rust
 "
 "
-js
-/
-src
-/
-wasm
-/
-cranelift
-"
-"
 netwerk
 /
 test

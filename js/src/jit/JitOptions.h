@@ -343,9 +343,6 @@ wasmBatchBaselineThreshold
 uint32_t
 wasmBatchIonThreshold
 ;
-uint32_t
-wasmBatchCraneliftThreshold
-;
 mozilla
 :
 :

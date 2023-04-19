@@ -861,12 +861,6 @@ wasmBatchIonThreshold
 ;
 SET_DEFAULT
 (
-wasmBatchCraneliftThreshold
-5000
-)
-;
-SET_DEFAULT
-(
 traceRegExpParser
 false
 )
