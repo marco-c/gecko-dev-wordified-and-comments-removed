@@ -446,6 +446,14 @@ output
 dir
 '
         
+type
+=
+os
+.
+path
+.
+abspath
+        
 default
 =
 SDK_OUTPUT_DIR
