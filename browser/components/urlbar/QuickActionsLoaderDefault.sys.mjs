@@ -400,6 +400,11 @@ window
 BrowserOpenAddonsMgr
 (
 url
+{
+selectTabByViewId
+:
+true
+}
 )
 ;
 }
