@@ -147,6 +147,17 @@ RecordableEncodedFrame
 >
 *
 )
+PROXY_SECONDARY_METHOD1
+(
+void
+ProcessConstraints
+const
+webrtc
+:
+:
+VideoTrackSourceConstraints
+&
+)
 END_PROXY_MAP
 (
 VideoTrackSource

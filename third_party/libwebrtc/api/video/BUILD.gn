@@ -379,6 +379,12 @@ scoped_refptr
 "
 .
 .
+:
+video_track_source_constraints
+"
+"
+.
+.
 /
 .
 .
