@@ -212,11 +212,6 @@ DurationMs
 220
 )
 ;
-bool
-slow_start_tcp_style
-=
-false
-;
 size_t
 cwnd_mtus_initial
 =
