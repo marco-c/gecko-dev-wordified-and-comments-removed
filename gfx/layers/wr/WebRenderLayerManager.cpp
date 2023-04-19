@@ -1671,7 +1671,7 @@ AUTO_PROFILER_TRACING_MARKER
 Paint
 "
 "
-RenderLayers
+WrDisplayList
 "
 GRAPHICS
 )
