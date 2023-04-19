@@ -1,16 +1,8 @@
-TEST_DIRS
-+
-=
-[
-"
-datamodel
-"
-]
 UNIFIED_SOURCES
 =
 [
 "
-TestFileSystemHashSource
+TestFileSystemDataManager
 .
 cpp
 "
@@ -48,6 +40,8 @@ dom
 fs
 /
 parent
+/
+datamodel
 "
 "
 /
