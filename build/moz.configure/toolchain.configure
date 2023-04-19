@@ -182,10 +182,12 @@ default
 depends
 (
 target
+developer_options
 )
 (
 lambda
 t
+d
 :
 "
 11
@@ -193,6 +195,7 @@ t
 0
 "
 if
+(
 t
 .
 cpu
@@ -201,6 +204,10 @@ cpu
 "
 aarch64
 "
+and
+not
+d
+)
 else
 "
 10
@@ -235,11 +242,13 @@ macos
 -
 target
 "
+developer_options
 )
 def
 macos_target
 (
 value
+_
 )
 :
 return
