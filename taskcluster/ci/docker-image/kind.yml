@@ -1142,7 +1142,7 @@ file
 )
 parent
 :
-ubuntu1804
+debian11
 -
 base
 firefox
