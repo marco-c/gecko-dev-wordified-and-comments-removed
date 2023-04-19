@@ -988,6 +988,12 @@ init
 (
 void
 )
+restartIce
+;
+-
+(
+void
+)
 offerForConstraints
 :
 (
