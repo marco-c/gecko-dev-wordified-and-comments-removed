@@ -11,6 +11,13 @@ FileSystemDatabaseManager
 .
 h
 "
+#
+include
+"
+nsStringFwd
+.
+h
+"
 namespace
 mozilla
 :
@@ -34,7 +41,6 @@ FileSystemDatabaseManager
 {
 public
 :
-explicit
 FileSystemDatabaseManagerVersion001
 (
 fs
@@ -54,6 +60,10 @@ FileSystemFileManager
 &
 &
 aFileManager
+const
+EntryId
+&
+aRootEntry
 )
 :
 mConnection
@@ -69,6 +79,10 @@ move
 (
 aFileManager
 )
+)
+mRootEntry
+(
+aRootEntry
 )
 {
 }
@@ -139,9 +153,9 @@ nsresult
 GetFile
 (
 const
-FileSystemEntryPair
+EntryId
 &
-aEndpoints
+aEntryId
 nsString
 &
 aType
@@ -278,6 +292,10 @@ UniquePtr
 FileSystemFileManager
 >
 mFileManager
+;
+const
+EntryId
+mRootEntry
 ;
 }
 ;
