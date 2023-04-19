@@ -87,7 +87,7 @@ persistent_multichannel_content_detected_
 ;
 }
 bool
-IsTemporaryMultiChannelContentDetectedForTesting
+IsTemporaryMultiChannelContentDetected
 (
 )
 const

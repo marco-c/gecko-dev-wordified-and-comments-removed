@@ -2014,7 +2014,7 @@ EXPECT_FALSE
 (
 mc
 .
-IsTemporaryMultiChannelContentDetectedForTesting
+IsTemporaryMultiChannelContentDetected
 (
 )
 )
@@ -2109,7 +2109,7 @@ EXPECT_FALSE
 (
 mc
 .
-IsTemporaryMultiChannelContentDetectedForTesting
+IsTemporaryMultiChannelContentDetected
 (
 )
 )
@@ -2140,7 +2140,7 @@ EXPECT_TRUE
 (
 mc
 .
-IsTemporaryMultiChannelContentDetectedForTesting
+IsTemporaryMultiChannelContentDetected
 (
 )
 )
@@ -2172,7 +2172,7 @@ EXPECT_FALSE
 (
 mc
 .
-IsTemporaryMultiChannelContentDetectedForTesting
+IsTemporaryMultiChannelContentDetected
 (
 )
 )
@@ -2238,7 +2238,7 @@ EXPECT_TRUE
 (
 mc
 .
-IsTemporaryMultiChannelContentDetectedForTesting
+IsTemporaryMultiChannelContentDetected
 (
 )
 )
@@ -2269,7 +2269,7 @@ EXPECT_FALSE
 (
 mc
 .
-IsTemporaryMultiChannelContentDetectedForTesting
+IsTemporaryMultiChannelContentDetected
 (
 )
 )
@@ -2304,7 +2304,7 @@ EXPECT_FALSE
 (
 mc
 .
-IsTemporaryMultiChannelContentDetectedForTesting
+IsTemporaryMultiChannelContentDetected
 (
 )
 )
@@ -2335,7 +2335,7 @@ EXPECT_FALSE
 (
 mc
 .
-IsTemporaryMultiChannelContentDetectedForTesting
+IsTemporaryMultiChannelContentDetected
 (
 )
 )
@@ -2369,7 +2369,7 @@ EXPECT_FALSE
 (
 mc
 .
-IsTemporaryMultiChannelContentDetectedForTesting
+IsTemporaryMultiChannelContentDetected
 (
 )
 )
@@ -2400,7 +2400,7 @@ EXPECT_FALSE
 (
 mc
 .
-IsTemporaryMultiChannelContentDetectedForTesting
+IsTemporaryMultiChannelContentDetected
 (
 )
 )
@@ -2434,7 +2434,7 @@ EXPECT_FALSE
 (
 mc
 .
-IsTemporaryMultiChannelContentDetectedForTesting
+IsTemporaryMultiChannelContentDetected
 (
 )
 )
@@ -2465,7 +2465,7 @@ EXPECT_FALSE
 (
 mc
 .
-IsTemporaryMultiChannelContentDetectedForTesting
+IsTemporaryMultiChannelContentDetected
 (
 )
 )
