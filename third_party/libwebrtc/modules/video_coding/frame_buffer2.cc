@@ -193,6 +193,12 @@ kMaxFramesBuffered
 800
 ;
 constexpr
+size_t
+kZeroPlayoutDelayDefaultMaxDecodeQueueSize
+=
+8
+;
+constexpr
 int
 kMaxFramesHistory
 =
@@ -307,7 +313,7 @@ zero_playout_delay_max_decode_queue_size_
 "
 max_decode_queue_size
 "
-kMaxFramesBuffered
+kZeroPlayoutDelayDefaultMaxDecodeQueueSize
 )
 {
 ParseFieldTrial
