@@ -79,7 +79,7 @@ class
 TransformStream
 ;
 class
-TransformerAlgorithms
+TransformerAlgorithmsBase
 ;
 class
 TransformStreamDefaultController
@@ -112,7 +112,7 @@ TransformStream
 aStream
 )
 ;
-TransformerAlgorithms
+TransformerAlgorithmsBase
 *
 Algorithms
 (
@@ -121,7 +121,7 @@ Algorithms
 void
 SetAlgorithms
 (
-TransformerAlgorithms
+TransformerAlgorithmsBase
 *
 aTransformerAlgorithms
 )
@@ -256,7 +256,7 @@ mStream
 ;
 RefPtr
 <
-TransformerAlgorithms
+TransformerAlgorithmsBase
 >
 mTransformerAlgorithms
 ;
