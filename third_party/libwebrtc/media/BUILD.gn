@@ -1540,6 +1540,16 @@ modules
 /
 video_coding
 :
+webrtc_vp8_scalability
+"
+"
+.
+.
+/
+modules
+/
+video_coding
+:
 webrtc_vp9
 "
 "
