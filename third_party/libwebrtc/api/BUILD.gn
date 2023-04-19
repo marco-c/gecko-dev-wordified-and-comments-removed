@@ -3218,6 +3218,10 @@ array_view
 "
 "
 :
+packet_socket_factory
+"
+"
+:
 simulated_network_api
 "
 "
