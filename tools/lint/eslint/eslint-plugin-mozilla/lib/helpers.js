@@ -1186,12 +1186,10 @@ parent
 {
 if
 (
+!
 parents
 .
 length
-=
-=
-0
 )
 {
 throw

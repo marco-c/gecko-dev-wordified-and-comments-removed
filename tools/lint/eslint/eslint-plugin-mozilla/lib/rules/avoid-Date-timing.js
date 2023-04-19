@@ -217,8 +217,6 @@ node
 arguments
 .
 length
->
-0
 )
 {
 return

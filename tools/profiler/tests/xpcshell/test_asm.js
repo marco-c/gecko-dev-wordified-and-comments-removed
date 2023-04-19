@@ -141,6 +141,7 @@ delayMS
 ;
 if
 (
+!
 thread0
 .
 samples
@@ -148,9 +149,6 @@ samples
 data
 .
 length
-=
-=
-0
 )
 {
 continue
