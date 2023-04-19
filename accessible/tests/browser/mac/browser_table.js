@@ -2042,7 +2042,9 @@ toWait
 waitForEvent
 (
 event
-elem
+"
+table
+"
 )
 ;
 await
@@ -2089,7 +2091,7 @@ table
 id
 =
 "
-sampleTable
+table
 "
 summary
 =
@@ -2178,7 +2180,7 @@ getNativeInterface
 (
 accDoc
 "
-sampleTable
+table
 "
 )
 ;
@@ -2217,7 +2219,7 @@ testIsLayout
 (
 table
 "
-sampleTable
+table
 "
 EVENT_OBJECT_ATTRIBUTE_CHANGED
 async
@@ -2246,7 +2248,7 @@ document
 getElementById
 (
 "
-sampleTable
+table
 "
 )
 .
