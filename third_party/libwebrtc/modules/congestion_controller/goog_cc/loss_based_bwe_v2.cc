@@ -1547,6 +1547,9 @@ config
 .
 emplace
 (
+Config
+(
+)
 )
 ;
 config
