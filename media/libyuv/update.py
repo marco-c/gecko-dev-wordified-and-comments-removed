@@ -406,12 +406,6 @@ add_H444ToARGB
 .
 patch
 '
-        
-'
-bug_1491848
-.
-patch
-'
     
 ]
     
