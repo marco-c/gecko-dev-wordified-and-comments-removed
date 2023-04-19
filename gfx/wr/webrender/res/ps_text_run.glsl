@@ -1962,9 +1962,6 @@ color
 break
 ;
 case
-COLOR_MODE_SUBPX_CONST_COLOR
-:
-case
 COLOR_MODE_SUBPX_BG_PASS0
 :
 case

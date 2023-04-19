@@ -2131,15 +2131,6 @@ PremultipliedDestOut
 BlendMode
 :
 :
-SubpixelConstantTextColor
-(
-.
-.
-)
-|
-BlendMode
-:
-:
 SubpixelWithBgColor
 |
 BlendMode

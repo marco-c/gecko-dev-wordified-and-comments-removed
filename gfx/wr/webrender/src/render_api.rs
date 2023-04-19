@@ -3451,10 +3451,6 @@ SetFlags
 (
 DebugFlags
 )
-EnableDualSourceBlending
-(
-bool
-)
 SaveCapture
 (
 PathBuf

@@ -1538,9 +1538,6 @@ FontRenderMode
 :
 :
 Mono
-dual_source_blending_is_enabled
-:
-true
 dual_source_blending_is_supported
 :
 false

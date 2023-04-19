@@ -427,10 +427,6 @@ dual_source_blending_is_supported
 :
 bool
 pub
-dual_source_blending_is_enabled
-:
-bool
-pub
 testing
 :
 bool
@@ -2476,13 +2472,6 @@ max_depth_ids
 let
 use_dual_source_blending
 =
-scene
-.
-config
-.
-dual_source_blending_is_enabled
-&
-&
 scene
 .
 config

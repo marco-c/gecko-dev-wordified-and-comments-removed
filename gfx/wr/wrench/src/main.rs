@@ -4925,14 +4925,6 @@ is_present
 precache
 "
 )
-args
-.
-is_present
-(
-"
-slow_subpixel
-"
-)
 dump_shader_source
 notifier
 )

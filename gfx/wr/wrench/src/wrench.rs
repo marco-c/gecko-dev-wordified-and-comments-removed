@@ -1265,9 +1265,6 @@ bool
 precache_shaders
 :
 bool
-disable_dual_source_blending
-:
-bool
 dump_shader_source
 :
 Option
@@ -1430,10 +1427,6 @@ Some
 (
 8196
 )
-allow_dual_source_blending
-:
-!
-disable_dual_source_blending
 allow_advanced_blend_equation
 :
 window
