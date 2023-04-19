@@ -245,6 +245,14 @@ gfx
 :
 ColorDepth
 mColorDepth
+=
+gfx
+:
+:
+ColorDepth
+:
+:
+COLOR_8
 ;
 Maybe
 <
