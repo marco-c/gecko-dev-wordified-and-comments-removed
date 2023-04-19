@@ -144,7 +144,7 @@ state_length_
 )
 )
 {
-RTC_DCHECK_GE
+RTC_DCHECK_GT
 (
 coefficients_length_
 unaligned_coefficients_length
