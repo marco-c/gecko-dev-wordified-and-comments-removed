@@ -391,6 +391,12 @@ id
 )
 override
 ;
+bool
+FocusOnSelectedSource
+(
+)
+override
+;
 void
 Start
 (
