@@ -272,10 +272,9 @@ delete
 bool
 SendData
 (
+int
+sid
 const
-cricket
-:
-:
 SendDataParams
 &
 params
@@ -606,10 +605,9 @@ signaling_thread
 bool
 DataChannelSendData
 (
+int
+sid
 const
-cricket
-:
-:
 SendDataParams
 &
 params
