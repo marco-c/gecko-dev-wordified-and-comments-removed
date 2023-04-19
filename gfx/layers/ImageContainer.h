@@ -2187,15 +2187,6 @@ CbCrDataSize
 ;
 }
 virtual
-void
-SetDelayedConversion
-(
-bool
-aDelayed
-)
-{
-}
-virtual
 const
 Data
 *
