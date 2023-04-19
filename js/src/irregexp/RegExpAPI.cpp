@@ -3357,7 +3357,7 @@ data
 )
 )
 {
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx

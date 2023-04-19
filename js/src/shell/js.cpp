@@ -29119,7 +29119,7 @@ return
 false
 ;
 }
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx
@@ -31757,7 +31757,7 @@ js
 :
 frontend
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx
@@ -32032,7 +32032,7 @@ return
 false
 ;
 }
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx
@@ -33921,7 +33921,7 @@ return
 false
 ;
 }
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx

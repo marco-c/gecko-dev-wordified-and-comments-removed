@@ -2299,7 +2299,7 @@ cx
 report
 )
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx
@@ -2526,7 +2526,7 @@ cx
 report
 )
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx

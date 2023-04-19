@@ -25542,7 +25542,7 @@ ScopeKind
 :
 Global
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx
@@ -25753,7 +25753,7 @@ setModule
 (
 )
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx

@@ -6600,7 +6600,7 @@ JSContext
 *
 cx_
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec_
 ;
 ParserAtomsTable

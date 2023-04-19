@@ -293,7 +293,7 @@ const
 }
 ;
 class
-GeneralErrorContext
+MainThreadErrorContext
 :
 public
 ErrorContext
@@ -307,7 +307,7 @@ cx_
 public
 :
 explicit
-GeneralErrorContext
+MainThreadErrorContext
 (
 JSContext
 *

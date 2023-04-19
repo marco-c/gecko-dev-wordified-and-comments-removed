@@ -4966,7 +4966,7 @@ ScopeKind
 NonSyntactic
 )
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx

@@ -1695,7 +1695,7 @@ tempLifoAlloc
 )
 )
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx

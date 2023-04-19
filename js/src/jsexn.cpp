@@ -3507,7 +3507,7 @@ mutedErrors
 ;
 }
 }
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx

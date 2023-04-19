@@ -521,7 +521,7 @@ CHECK_THREAD
 cx
 )
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx

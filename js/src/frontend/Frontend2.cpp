@@ -1453,7 +1453,7 @@ return
 false
 ;
 }
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx
@@ -2900,7 +2900,7 @@ errorNumber
 .
 )
 {
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx

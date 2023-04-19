@@ -1130,7 +1130,7 @@ NewObjectKind
 newKind
 )
 {
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx
@@ -6425,7 +6425,7 @@ CHECK_THREAD
 cx
 )
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx

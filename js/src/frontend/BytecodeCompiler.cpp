@@ -2744,7 +2744,7 @@ tempLifoAlloc
 )
 )
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx
@@ -5915,7 +5915,7 @@ return
 false
 ;
 }
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx
@@ -7543,7 +7543,7 @@ InheritThis
 :
 No
 ;
-GeneralErrorContext
+MainThreadErrorContext
 ec
 (
 cx
