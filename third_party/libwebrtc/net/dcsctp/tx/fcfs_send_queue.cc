@@ -222,6 +222,11 @@ now
 send_options
 .
 lifetime
++
+DurationMs
+(
+1
+)
 ;
 }
 queue
