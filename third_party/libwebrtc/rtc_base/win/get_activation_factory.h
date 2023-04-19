@@ -108,9 +108,16 @@ FAILED
 hr
 )
 )
+{
+DeleteHstring
+(
+class_id_hstring
+)
+;
 return
 hr
 ;
+}
 return
 DeleteHstring
 (
