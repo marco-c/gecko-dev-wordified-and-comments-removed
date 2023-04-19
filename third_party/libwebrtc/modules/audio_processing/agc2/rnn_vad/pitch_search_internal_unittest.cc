@@ -631,9 +631,7 @@ float
 >
 y_energy
 (
-kMaxPitch24kHz
-+
-1
+kRefineNumLags24kHz
 )
 ;
 rtc
@@ -642,9 +640,7 @@ rtc
 ArrayView
 <
 float
-kMaxPitch24kHz
-+
-1
+kRefineNumLags24kHz
 >
 y_energy_view
 (
@@ -653,9 +649,7 @@ y_energy
 data
 (
 )
-kMaxPitch24kHz
-+
-1
+kRefineNumLags24kHz
 )
 ;
 ComputeSlidingFrameSquareEnergies24kHz
