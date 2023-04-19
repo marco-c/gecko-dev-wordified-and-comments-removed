@@ -2453,7 +2453,7 @@ void
 DcSctpTransport
 :
 :
-NotifyOutgoingMessageBufferEmpty
+OnTotalBufferedAmountLow
 (
 )
 {
