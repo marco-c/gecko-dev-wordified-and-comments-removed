@@ -161,9 +161,6 @@ frontend
 TaggedParserAtomIndex
 NumberToParserAtom
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -224,9 +221,6 @@ frontend
 TaggedParserAtomIndex
 Int32ToParserAtom
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec

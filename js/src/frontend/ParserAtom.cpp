@@ -471,9 +471,6 @@ ParserAtom
 :
 allocate
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -1774,9 +1771,6 @@ ParserAtomsTable
 :
 addEntry
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -1920,9 +1914,6 @@ ParserAtomsTable
 :
 internChar16Seq
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -1961,7 +1952,6 @@ allocate
 AtomCharT
 >
 (
-cx
 ec
 *
 alloc_
@@ -1988,7 +1978,6 @@ null
 return
 addEntry
 (
-cx
 ec
 addPtr
 entry
@@ -2008,9 +1997,6 @@ ParserAtomsTable
 :
 internAscii
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -2040,7 +2026,6 @@ asciiPtr
 return
 internLatin1
 (
-cx
 ec
 latin1Ptr
 length
@@ -2053,9 +2038,6 @@ ParserAtomsTable
 :
 internLatin1
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -2151,7 +2133,6 @@ internChar16Seq
 Latin1Char
 >
 (
-cx
 ec
 addPtr
 lookup
@@ -2229,9 +2210,6 @@ ParserAtomsTable
 :
 internExternalParserAtomImpl
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -2359,7 +2337,6 @@ internChar16Seq
 AtomCharT
 >
 (
-cx
 ec
 addPtr
 atom
@@ -2445,9 +2422,6 @@ ParserAtomsTable
 :
 internExternalParserAtom
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -2476,7 +2450,6 @@ JS
 Latin1Char
 >
 (
-cx
 ec
 atom
 )
@@ -2488,7 +2461,6 @@ internExternalParserAtomImpl
 char16_t
 >
 (
-cx
 ec
 atom
 )
@@ -2500,9 +2472,6 @@ ParserAtomsTable
 :
 addPlaceholder
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -2576,9 +2545,6 @@ ParserAtomsTable
 :
 internExternalParserAtomIndex
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -2616,7 +2582,6 @@ toParserAtomIndex
 return
 internExternalParserAtom
 (
-cx
 ec
 context
 .
@@ -3002,9 +2967,6 @@ ParserAtomsTable
 :
 internUtf8
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -3090,7 +3052,6 @@ utf8Ptr
 return
 internLatin1
 (
-cx
 ec
 latin1Ptr
 nbyte
@@ -3224,7 +3185,6 @@ internChar16Seq
 char16_t
 >
 (
-cx
 ec
 addPtr
 lookup
@@ -3241,7 +3201,6 @@ internChar16Seq
 Latin1Char
 >
 (
-cx
 ec
 addPtr
 lookup
@@ -3260,9 +3219,6 @@ ParserAtomsTable
 :
 internChar16
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -3366,7 +3322,6 @@ internChar16Seq
 char16_t
 >
 (
-cx
 ec
 addPtr
 lookup
@@ -3383,7 +3338,6 @@ internChar16Seq
 Latin1Char
 >
 (
-cx
 ec
 addPtr
 lookup
@@ -3437,7 +3391,6 @@ hasLatin1Chars
 ?
 internLatin1
 (
-cx
 ec
 atom
 -
@@ -3456,7 +3409,6 @@ length
 :
 internChar16
 (
-cx
 ec
 atom
 -

@@ -844,7 +844,6 @@ parserAtoms
 .
 internLatin1
 (
-cx_
 ec
 latin1Chars
 (
@@ -875,7 +874,6 @@ parserAtoms
 .
 internChar16
 (
-cx_
 ec
 twoByteChars
 (

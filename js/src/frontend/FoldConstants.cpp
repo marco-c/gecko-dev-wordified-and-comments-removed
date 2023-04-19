@@ -2497,9 +2497,6 @@ toAtom
 (
 info
 .
-cx
-info
-.
 ec
 info
 .
@@ -6091,9 +6088,6 @@ numeric
 >
 toAtom
 (
-info
-.
-cx
 info
 .
 ec

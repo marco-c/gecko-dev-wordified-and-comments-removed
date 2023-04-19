@@ -6102,9 +6102,6 @@ d
 TaggedParserAtomIndex
 toAtom
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec

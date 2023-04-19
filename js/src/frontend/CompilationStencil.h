@@ -5824,9 +5824,6 @@ nodiscard
 bool
 steal
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -5847,9 +5844,6 @@ nodiscard
 bool
 cloneFrom
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -5867,9 +5861,6 @@ nodiscard
 bool
 cloneFrom
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -5894,9 +5885,6 @@ nodiscard
 bool
 cloneFromImpl
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -7396,9 +7384,6 @@ nodiscard
 bool
 buildAtomIndexMap
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
@@ -7484,9 +7469,6 @@ nodiscard
 bool
 addDelazification
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
