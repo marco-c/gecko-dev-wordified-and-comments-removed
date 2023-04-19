@@ -98,8 +98,6 @@ False
     
 super
 (
-FakeMBW
-self
 )
 .
 __init__
@@ -405,7 +403,6 @@ path
 )
     
 return
-(
 self
 .
 files
@@ -423,7 +420,6 @@ in
 self
 .
 dirs
-)
   
 def
 ListDir
@@ -560,6 +556,8 @@ path
     
 except
 KeyError
+as
+e
 :
       
 raise
@@ -574,6 +572,8 @@ found
 %
 path
 )
+from
+e
   
 def
 WriteFile
@@ -1066,9 +1066,6 @@ path
 )
 class
 FakeFile
-(
-object
-)
 :
   
 def
@@ -1532,19 +1529,9 @@ false
 "
 "
 "
-class
-UnitTest
-(
-unittest
-.
-TestCase
-)
-:
-  
 def
-fake_mbw
+CreateFakeMBW
 (
-self
 files
 =
 None
@@ -1553,7 +1540,7 @@ win32
 False
 )
 :
-    
+  
 mbw
 =
 FakeMBW
@@ -1562,7 +1549,7 @@ win32
 =
 win32
 )
-    
+  
 mbw
 .
 files
@@ -1574,14 +1561,14 @@ mbw
 default_config
 TEST_CONFIG
 )
-    
+  
 mbw
 .
 files
 .
 setdefault
 (
-        
+      
 mbw
 .
 ToAbsPath
@@ -1602,13 +1589,13 @@ pyl
 '
 '
 {
-        
+      
 "
 foo_unittests
 "
 :
 {
-          
+        
 "
 label
 "
@@ -1620,7 +1607,7 @@ foo
 :
 foo_unittests
 "
-          
+        
 "
 type
 "
@@ -1628,29 +1615,29 @@ type
 "
 console_test_launcher
 "
-          
+        
 "
 args
 "
 :
 [
 ]
-        
-}
       
+}
+    
 }
 '
 '
 '
 )
-    
+  
 mbw
 .
 files
 .
 setdefault
 (
-        
+      
 mbw
 .
 ToAbsPath
@@ -1671,7 +1658,7 @@ fake_args_bot
 gn
 '
 )
-        
+      
 '
 is_debug
 =
@@ -1684,7 +1671,7 @@ false
 n
 '
 )
-    
+  
 mbw
 .
 files
@@ -1707,17 +1694,16 @@ rts_banned_suites
 json
 '
 )
-                         
 '
 {
 }
 '
 )
-    
+  
 if
 files
 :
-      
+    
 for
 path
 contents
@@ -1731,7 +1717,7 @@ items
 )
 )
 :
-        
+      
 mbw
 .
 files
@@ -1740,7 +1726,7 @@ path
 ]
 =
 contents
-        
+      
 if
 path
 .
@@ -1752,9 +1738,9 @@ runtime_deps
 '
 )
 :
-          
+        
 def
-fake_call
+FakeCall
 (
 cmd
 env
@@ -1768,19 +1754,19 @@ stdin
 None
 )
 :
-            
+          
 del
 cmd
-            
+          
 del
 env
-            
+          
 del
 buffer_output
-            
+          
 del
 stdin
-            
+          
 mbw
 .
 files
@@ -1789,22 +1775,30 @@ path
 ]
 =
 contents
-            
+          
 return
 0
 '
 '
 '
 '
-          
+        
 mbw
 .
 Call
 =
-fake_call
-    
+FakeCall
+  
 return
 mbw
+class
+UnitTest
+(
+unittest
+.
+TestCase
+)
+:
   
 def
 check
@@ -1846,9 +1840,7 @@ mbw
       
 mbw
 =
-self
-.
-fake_mbw
+CreateFakeMBW
 (
 files
 )
@@ -2095,9 +2087,7 @@ foo_unittests
     
 mbw
 =
-self
-.
-fake_mbw
+CreateFakeMBW
 (
 files
 )
@@ -2247,9 +2237,7 @@ self
     
 mbw
 =
-self
-.
-fake_mbw
+CreateFakeMBW
 (
 )
     
@@ -2392,9 +2380,7 @@ out
     
 mbw
 =
-self
-.
-fake_mbw
+CreateFakeMBW
 (
 win32
 =
@@ -2552,9 +2538,7 @@ out
     
 mbw
 =
-self
-.
-fake_mbw
+CreateFakeMBW
 (
 )
     
@@ -2657,9 +2641,7 @@ self
     
 mbw
 =
-self
-.
-fake_mbw
+CreateFakeMBW
 (
 )
     
@@ -2831,9 +2813,7 @@ n
     
 mbw
 =
-self
-.
-fake_mbw
+CreateFakeMBW
 (
 files
 )
@@ -5858,9 +5838,7 @@ n
     
 mbw
 =
-self
-.
-fake_mbw
+CreateFakeMBW
 (
 files
 =
@@ -7784,9 +7762,7 @@ results
     
 mbw
 =
-self
-.
-fake_mbw
+CreateFakeMBW
 (
 files
 =
@@ -7931,9 +7907,7 @@ ret
     
 mbw
 =
-self
-.
-fake_mbw
+CreateFakeMBW
 (
 files
 =
@@ -8638,9 +8612,7 @@ self
     
 mbw
 =
-self
-.
-fake_mbw
+CreateFakeMBW
 (
 )
     
