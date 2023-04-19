@@ -130,6 +130,9 @@ const
 DocumentState
 &
 const
+Colors
+&
+const
 DPIRatio
 &
 )
@@ -215,6 +218,9 @@ const
 DocumentState
 &
 const
+Colors
+&
+const
 DPIRatio
 &
 )
@@ -298,6 +304,9 @@ ComputedStyle
 &
 const
 DocumentState
+&
+const
+Colors
 &
 const
 DPIRatio

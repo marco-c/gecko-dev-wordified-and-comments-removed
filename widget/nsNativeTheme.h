@@ -595,6 +595,14 @@ aFrame
 ;
 static
 bool
+IsDarkBackgroundForScrollbar
+(
+nsIFrame
+*
+)
+;
+static
+bool
 IsDarkBackground
 (
 nsIFrame

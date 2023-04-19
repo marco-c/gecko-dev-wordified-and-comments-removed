@@ -189,7 +189,7 @@ isRtl
 false
 ;
 bool
-isOnDarkBackground
+isDark
 =
 false
 ;
@@ -233,6 +233,10 @@ const
 ComputedStyle
 &
 aStyle
+const
+ThemeColors
+&
+aColors
 ScrollbarKind
 aScrollbarKind
 )
@@ -320,23 +324,12 @@ Horizontal
 ;
 params
 .
-isOnDarkBackground
+isDark
 =
-!
-StaticPrefs
-:
-:
-widget_disable_dark_scrollbar
+aColors
+.
+IsDark
 (
-)
-&
-&
-nsNativeTheme
-:
-:
-IsDarkBackground
-(
-aFrame
 )
 ;
 const
@@ -1035,7 +1028,7 @@ faceColor
 =
 aParams
 .
-isOnDarkBackground
+isDark
 ?
 NS_RGBA
 (
@@ -1059,7 +1052,7 @@ if
 (
 aParams
 .
-isOnDarkBackground
+isDark
 )
 {
 faceColor
@@ -1182,7 +1175,7 @@ strokeOutset
 (
 aParams
 .
-isOnDarkBackground
+isDark
 ?
 0
 .
@@ -1200,7 +1193,7 @@ strokeWidth
 (
 aParams
 .
-isOnDarkBackground
+isDark
 ?
 0
 .
@@ -1217,7 +1210,7 @@ strokeColor
 =
 aParams
 .
-isOnDarkBackground
+isDark
 ?
 NS_RGBA
 (
@@ -1492,7 +1485,7 @@ trackColor
 =
 aParams
 .
-isOnDarkBackground
+isDark
 ?
 NS_RGBA
 (
@@ -1517,7 +1510,7 @@ trackColor
 =
 aParams
 .
-isOnDarkBackground
+isDark
 ?
 NS_RGBA
 (
@@ -1854,7 +1847,7 @@ trackColor
 =
 aParams
 .
-isOnDarkBackground
+isDark
 ?
 NS_RGBA
 (
@@ -2185,6 +2178,10 @@ DocumentState
 &
 aDocumentState
 const
+Colors
+&
+aColors
+const
 DPIRatio
 &
 aDpiRatio
@@ -2197,6 +2194,7 @@ ComputeScrollbarParams
 (
 aFrame
 aStyle
+aColors
 aScrollbarKind
 )
 ;
@@ -2403,6 +2401,7 @@ aDocumentState
 const
 Colors
 &
+aColors
 const
 DPIRatio
 &
@@ -2418,6 +2417,7 @@ aFrame
 aStyle
 aElementState
 aDocumentState
+aColors
 aDpiRatio
 )
 ;
@@ -2458,6 +2458,7 @@ aDocumentState
 const
 Colors
 &
+aColors
 const
 DPIRatio
 &
@@ -2473,6 +2474,7 @@ aFrame
 aStyle
 aElementState
 aDocumentState
+aColors
 aDpiRatio
 )
 ;
@@ -2512,6 +2514,10 @@ DocumentState
 &
 aDocumentState
 const
+Colors
+&
+aColors
+const
 DPIRatio
 &
 aDpiRatio
@@ -2524,6 +2530,7 @@ ComputeScrollbarParams
 (
 aFrame
 aStyle
+aColors
 aScrollbarKind
 )
 ;
@@ -2605,6 +2612,7 @@ aDocumentState
 const
 Colors
 &
+aColors
 const
 DPIRatio
 &
@@ -2619,6 +2627,7 @@ aScrollbarKind
 aFrame
 aStyle
 aDocumentState
+aColors
 aDpiRatio
 )
 ;
@@ -2655,6 +2664,7 @@ aDocumentState
 const
 Colors
 &
+aColors
 const
 DPIRatio
 &
@@ -2669,6 +2679,7 @@ aScrollbarKind
 aFrame
 aStyle
 aDocumentState
+aColors
 aDpiRatio
 )
 ;
@@ -2708,6 +2719,10 @@ DocumentState
 &
 aDocumentState
 const
+Colors
+&
+aColors
+const
 DPIRatio
 &
 aDpiRatio
@@ -2720,6 +2735,7 @@ ComputeScrollbarParams
 (
 aFrame
 aStyle
+aColors
 aScrollbarKind
 )
 ;
@@ -2801,6 +2817,7 @@ aDocumentState
 const
 Colors
 &
+aColors
 const
 DPIRatio
 &
@@ -2815,6 +2832,7 @@ aScrollbarKind
 aFrame
 aStyle
 aDocumentState
+aColors
 aDpiRatio
 )
 ;
@@ -2851,6 +2869,7 @@ aDocumentState
 const
 Colors
 &
+aColors
 const
 DPIRatio
 &
@@ -2865,6 +2884,7 @@ aScrollbarKind
 aFrame
 aStyle
 aDocumentState
+aColors
 aDpiRatio
 )
 ;
