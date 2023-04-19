@@ -4502,6 +4502,17 @@ fec_controller_api
 /
 api
 :
+refcountedbase
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 scoped_refptr
 "
 "

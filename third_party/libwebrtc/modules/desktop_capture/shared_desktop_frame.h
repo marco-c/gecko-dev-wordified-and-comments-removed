@@ -64,6 +64,7 @@ webrtc
 class
 RTC_EXPORT
 SharedDesktopFrame
+final
 :
 public
 DesktopFrame
@@ -144,7 +145,7 @@ typedef
 rtc
 :
 :
-RefCountedObject
+FinalRefCountedObject
 <
 std
 :

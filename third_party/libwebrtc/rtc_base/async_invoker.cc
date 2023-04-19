@@ -41,8 +41,7 @@ pending_invocations_
 )
 invocation_complete_
 (
-new
-RefCountedObject
+make_ref_counted
 <
 Event
 >
