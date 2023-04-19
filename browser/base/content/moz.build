@@ -418,9 +418,11 @@ BUG_COMPONENT
 Core
 "
 "
-Plug
--
-ins
+Audio
+/
+Video
+:
+GMP
 "
 )
 with
