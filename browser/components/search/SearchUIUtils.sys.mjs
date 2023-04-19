@@ -69,6 +69,11 @@ UI
 .
 *
 /
+"
+use
+strict
+"
+;
 import
 {
 XPCOMUtils

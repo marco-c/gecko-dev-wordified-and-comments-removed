@@ -104,6 +104,11 @@ error
 ]
 *
 /
+"
+use
+strict
+"
+;
 /
 *
 *

@@ -79,6 +79,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 lazy
 =

@@ -136,6 +136,11 @@ here
 .
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 To

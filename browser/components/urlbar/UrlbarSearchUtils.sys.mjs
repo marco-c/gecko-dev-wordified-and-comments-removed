@@ -121,6 +121,11 @@ easier
 .
 *
 /
+"
+use
+strict
+"
+;
 import
 {
 XPCOMUtils
