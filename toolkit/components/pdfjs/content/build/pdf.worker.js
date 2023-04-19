@@ -525,7 +525,7 @@ workerVersion
 .
 16
 .
-33
+52
 '
 ;
 if
@@ -181127,7 +181127,6 @@ count
 {
 return
 [
-0
 0
 0
 ]
@@ -452115,14 +452114,14 @@ pdfjsVersion
 .
 16
 .
-33
+52
 '
 ;
 const
 pdfjsBuild
 =
 '
-40f9f7e90
+3cf31a8b1
 '
 ;
 }
