@@ -481,12 +481,6 @@ correct
 "
 )
 ;
-descriptorFront
-.
-shouldCloseClient
-=
-false
-;
 const
 targetCommand
 =
