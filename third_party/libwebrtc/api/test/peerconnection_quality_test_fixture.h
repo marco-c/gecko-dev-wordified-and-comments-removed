@@ -889,6 +889,15 @@ VideoSimulcastConfig
 >
 simulcast_config
 ;
+std
+:
+:
+vector
+<
+RtpEncodingParameters
+>
+encoding_params
+;
 absl
 :
 :
