@@ -2090,13 +2090,7 @@ ins
 if
 defined
 (
-JS_CODEGEN_X64
-)
-|
-|
-defined
-(
-JS_CODEGEN_MIPS64
+JS_PUNBOX64
 )
 const
 bool
