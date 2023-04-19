@@ -1023,6 +1023,8 @@ bundle
 getString
 (
 NAME_KEY
+"
+"
 )
 ;
 givenName
@@ -1032,6 +1034,8 @@ bundle
 getString
 (
 GIVEN_NAME_KEY
+"
+"
 )
 ;
 additionalName
@@ -1041,6 +1045,8 @@ bundle
 getString
 (
 ADDITIONAL_NAME_KEY
+"
+"
 )
 ;
 familyName
@@ -1050,6 +1056,8 @@ bundle
 getString
 (
 FAMILY_NAME_KEY
+"
+"
 )
 ;
 organization
@@ -1059,6 +1067,8 @@ bundle
 getString
 (
 ORGANIZATION_KEY
+"
+"
 )
 ;
 streetAddress
@@ -1068,6 +1078,8 @@ bundle
 getString
 (
 STREET_ADDRESS_KEY
+"
+"
 )
 ;
 addressLevel1
@@ -1077,6 +1089,8 @@ bundle
 getString
 (
 ADDRESS_LEVEL1_KEY
+"
+"
 )
 ;
 addressLevel2
@@ -1086,6 +1100,8 @@ bundle
 getString
 (
 ADDRESS_LEVEL2_KEY
+"
+"
 )
 ;
 addressLevel3
@@ -1095,6 +1111,8 @@ bundle
 getString
 (
 ADDRESS_LEVEL3_KEY
+"
+"
 )
 ;
 postalCode
@@ -1104,6 +1122,8 @@ bundle
 getString
 (
 POSTAL_CODE_KEY
+"
+"
 )
 ;
 country
@@ -1113,6 +1133,8 @@ bundle
 getString
 (
 COUNTRY_KEY
+"
+"
 )
 ;
 tel
@@ -1122,6 +1144,8 @@ bundle
 getString
 (
 TEL_KEY
+"
+"
 )
 ;
 email
@@ -1131,6 +1155,8 @@ bundle
 getString
 (
 EMAIL_KEY
+"
+"
 )
 ;
 }
@@ -2039,6 +2065,8 @@ bundle
 getString
 (
 ORIGIN_KEY
+"
+"
 )
 ;
 formActionOrigin
