@@ -18514,6 +18514,15 @@ tab
 ?
 .
 linkedBrowser
+globalHistoryOptions
+:
+{
+triggeringSearchEngine
+:
+engine
+.
+name
+}
 }
 )
 ;
