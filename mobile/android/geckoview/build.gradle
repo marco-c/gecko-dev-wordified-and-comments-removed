@@ -1009,13 +1009,6 @@ JavaVersion
 .
 VERSION_11
 }
-dexOptions
-{
-javaMaxHeapSize
-"
-32g
-"
-}
 lintOptions
 {
 abortOnError
