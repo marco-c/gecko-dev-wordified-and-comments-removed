@@ -12305,6 +12305,10 @@ attrib
 href
 "
 ]
+.
+strip
+(
+)
 )
 )
                     
