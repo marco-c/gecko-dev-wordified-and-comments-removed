@@ -1449,6 +1449,11 @@ IntRect
 aFullBounds
 HashNumber
 aHash
+StoredStrokeOptions
+*
+aStrokeOptions
+=
+nullptr
 )
 ;
 ~
@@ -1497,6 +1502,10 @@ IntRect
 aClipRect
 HashNumber
 aHash
+const
+StrokeOptions
+*
+aStrokeOptions
 )
 ;
 static
@@ -1532,6 +1541,12 @@ mColor
 ;
 IntRect
 mFullBounds
+;
+UniquePtr
+<
+StoredStrokeOptions
+>
+mStrokeOptions
 ;
 }
 ;
@@ -1598,6 +1613,10 @@ IntRect
 aClipRect
 HashNumber
 aHash
+const
+StrokeOptions
+*
+aOptions
 )
 ;
 already_AddRefed
@@ -1632,6 +1651,10 @@ IntRect
 aFullBounds
 HashNumber
 aHash
+const
+StrokeOptions
+*
+aOptions
 )
 ;
 private
