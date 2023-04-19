@@ -369,6 +369,10 @@ RTC_GUARDED_BY
 (
 mutex_
 )
+RTC_PT_GUARDED_BY
+(
+mutex_
+)
 ;
 std
 :
@@ -379,6 +383,10 @@ VCMCodecTimer
 >
 codec_timer_
 RTC_GUARDED_BY
+(
+mutex_
+)
+RTC_PT_GUARDED_BY
 (
 mutex_
 )
