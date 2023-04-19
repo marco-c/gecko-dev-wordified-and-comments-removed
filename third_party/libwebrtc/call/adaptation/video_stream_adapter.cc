@@ -1976,7 +1976,11 @@ return
 increase_frame_rate
 ;
 }
-ABSL_FALLTHROUGH_INTENDED
+[
+[
+fallthrough
+]
+]
 ;
 }
 case
@@ -2397,7 +2401,11 @@ return
 decrease_frame_rate
 ;
 }
-ABSL_FALLTHROUGH_INTENDED
+[
+[
+fallthrough
+]
+]
 ;
 }
 case

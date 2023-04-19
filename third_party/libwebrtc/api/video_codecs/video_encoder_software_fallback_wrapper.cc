@@ -783,7 +783,11 @@ wrapper
 .
 "
 ;
-ABSL_FALLTHROUGH_INTENDED
+[
+[
+fallthrough
+]
+]
 ;
 case
 EncoderState
