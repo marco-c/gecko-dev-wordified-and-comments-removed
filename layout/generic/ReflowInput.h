@@ -1618,13 +1618,6 @@ mStyleDisplay
 nullptr
 ;
 const
-nsStyleVisibility
-*
-mStyleVisibility
-=
-nullptr
-;
-const
 nsStylePosition
 *
 mStylePosition

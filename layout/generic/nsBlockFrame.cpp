@@ -13875,11 +13875,9 @@ IsBidiRTL
 IsAlignedLeft
 (
 align
-aState
-.
-mReflowInput
-.
-mStyleVisibility
+StyleVisibility
+(
+)
 -
 >
 mDirection
