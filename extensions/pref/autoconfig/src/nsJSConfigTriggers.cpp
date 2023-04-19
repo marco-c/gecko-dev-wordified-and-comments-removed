@@ -536,7 +536,11 @@ EvaluateAdminConfigScript
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 sandbox
 const
 char
@@ -690,7 +694,13 @@ length
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 v
 (
 cx
