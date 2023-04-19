@@ -906,11 +906,6 @@ dry_run
 =
 false
 ;
-NoiseEstimator
-noise_estimator
-=
-kNoiseFloor
-;
 int
 vad_reset_period_ms
 =
@@ -950,6 +945,11 @@ bool
 neon_allowed
 =
 true
+;
+NoiseEstimator
+noise_estimator
+=
+kNoiseFloor
 ;
 float
 vad_probability_attack
