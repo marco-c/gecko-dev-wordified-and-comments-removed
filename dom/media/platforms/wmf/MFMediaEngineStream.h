@@ -529,12 +529,6 @@ bool
 >
 mReceivedEOS
 ;
-Atomic
-<
-bool
->
-mShouldServeSmamples
-;
 MediaQueue
 <
 MediaRawData
