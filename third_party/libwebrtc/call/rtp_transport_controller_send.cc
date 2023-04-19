@@ -487,10 +487,8 @@ holdback_packets
 "
 holdback_packets
 "
-TaskQueuePacedSender
-:
-:
-kNoPacketHoldback
+-
+1
 )
 {
 ParseFieldTrial
