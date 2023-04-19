@@ -492,6 +492,7 @@ cta_variant
 sponsor
 sponsored_by_override
 saveToPocketCard
+isRecentSave
 }
 )
 =
@@ -2341,6 +2342,7 @@ descLines
 =
 3
 displayReadTime
+isRecentSave
 }
 =
 this
@@ -3259,6 +3261,11 @@ props
 .
 pocket_button_enabled
 }
+isRecentSave
+=
+{
+isRecentSave
+}
 /
 >
 <
@@ -3427,6 +3434,11 @@ this
 props
 .
 pocket_button_enabled
+}
+isRecentSave
+=
+{
+isRecentSave
 }
 /
 >
