@@ -211,6 +211,12 @@ IsTopLevel
 const
 ;
 bool
+IsSameOriginWithTop
+(
+)
+const
+;
+bool
 ShouldMatchActiveTabPermission
 (
 )
