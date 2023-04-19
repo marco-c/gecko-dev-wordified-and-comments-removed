@@ -1614,9 +1614,9 @@ bandwidth_backoff_lower_bound_factor
 "
 BwBackoffLowerBoundFactor
 "
-0
+1
 .
-85
+0
 )
 ;
 FieldTrialParameter
