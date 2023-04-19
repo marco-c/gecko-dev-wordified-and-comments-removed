@@ -1638,6 +1638,15 @@ CT
 aPoint
 )
 ;
+explicit
+AutoRangeArray
+(
+const
+AutoRangeArray
+&
+aOther
+)
+;
 ~
 AutoRangeArray
 (

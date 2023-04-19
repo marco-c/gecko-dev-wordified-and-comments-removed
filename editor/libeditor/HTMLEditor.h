@@ -3293,8 +3293,11 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 EditActionResult
-ChangeSelectedHardLinesToList
+ConvertContentAroundRangesToList
 (
+AutoRangeArray
+&
+aRanges
 nsAtom
 &
 aListElementTagName
