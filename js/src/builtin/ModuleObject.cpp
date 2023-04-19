@@ -4630,17 +4630,17 @@ JSContext
 *
 cx
 bool
-isAsync
+hasTopLevelAwait
 HandleObject
 asyncParentModulesList
 )
 {
 initReservedSlot
 (
-AsyncSlot
+HasTopLevelAwaitSlot
 BooleanValue
 (
-isAsync
+hasTopLevelAwait
 )
 )
 ;
@@ -5444,7 +5444,7 @@ bool
 ModuleObject
 :
 :
-isAsync
+hasTopLevelAwait
 (
 )
 const
@@ -5452,7 +5452,7 @@ const
 return
 getReservedSlot
 (
-AsyncSlot
+HasTopLevelAwaitSlot
 )
 .
 toBoolean
@@ -6831,7 +6831,7 @@ if
 self
 -
 >
-isAsync
+hasTopLevelAwait
 (
 )
 )

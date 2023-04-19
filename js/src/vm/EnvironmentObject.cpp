@@ -13273,7 +13273,7 @@ module
 (
 )
 .
-isAsync
+hasTopLevelAwait
 (
 )
 )

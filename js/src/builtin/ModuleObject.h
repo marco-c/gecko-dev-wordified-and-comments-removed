@@ -1322,7 +1322,7 @@ ImportBindingsSlot
 FunctionDeclarationsSlot
 DFSIndexSlot
 DFSAncestorIndexSlot
-AsyncSlot
+HasTopLevelAwaitSlot
 AsyncEvaluatingPostOrderSlot
 TopLevelCapabilitySlot
 AsyncParentModulesSlot
@@ -1639,7 +1639,7 @@ module
 )
 ;
 bool
-isAsync
+hasTopLevelAwait
 (
 )
 const
@@ -1915,7 +1915,7 @@ JSContext
 *
 cx
 bool
-isAsync
+hasTopLevelAwait
 HandleObject
 asyncParentModulesList
 )

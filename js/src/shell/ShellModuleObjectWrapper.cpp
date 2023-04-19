@@ -2034,7 +2034,7 @@ IdentFilter
 DEFINE_GETTER_FUNCTIONS
 (
 ModuleObject
-isAsync
+hasTopLevelAwait
 BooleanValue
 IdentFilter
 )
@@ -2160,9 +2160,9 @@ ShellModuleObjectWrapper_maybeDfsAncestorIndexGetter
 JS_PSG
 (
 "
-async
+hasTopLevelAwait
 "
-ShellModuleObjectWrapper_isAsyncGetter
+ShellModuleObjectWrapper_hasTopLevelAwaitGetter
 0
 )
 JS_PSG

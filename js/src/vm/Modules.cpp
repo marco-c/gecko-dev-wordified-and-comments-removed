@@ -6650,7 +6650,7 @@ pendingAsyncDependencies
 module
 -
 >
-isAsync
+hasTopLevelAwait
 (
 )
 )
@@ -6885,7 +6885,7 @@ MOZ_ASSERT
 module
 -
 >
-isAsync
+hasTopLevelAwait
 (
 )
 )
@@ -7297,7 +7297,7 @@ if
 m
 -
 >
-isAsync
+hasTopLevelAwait
 (
 )
 &
@@ -7561,7 +7561,7 @@ if
 m
 -
 >
-isAsync
+hasTopLevelAwait
 (
 )
 )

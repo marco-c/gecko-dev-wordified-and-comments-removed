@@ -1215,7 +1215,7 @@ assertEq
 (
 m
 .
-async
+hasTopLevelAwait
 false
 )
 ;
@@ -1258,7 +1258,7 @@ testGetter
 (
 m
 "
-async
+hasTopLevelAwait
 "
 )
 ;
