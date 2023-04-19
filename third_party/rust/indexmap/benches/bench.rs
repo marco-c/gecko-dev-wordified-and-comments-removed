@@ -78,15 +78,6 @@ collections
 HashMap
 ;
 use
-std
-:
-:
-iter
-:
-:
-FromIterator
-;
-use
 rand
 :
 :
