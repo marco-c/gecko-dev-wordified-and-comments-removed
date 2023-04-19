@@ -262,6 +262,14 @@ must_use
 readonly
 attribute
 boolean
+madeOCSPRequests
+;
+[
+must_use
+]
+readonly
+attribute
+boolean
 isExtendedValidation
 ;
 [

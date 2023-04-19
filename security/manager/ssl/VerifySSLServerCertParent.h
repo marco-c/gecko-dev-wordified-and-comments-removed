@@ -139,6 +139,8 @@ uint32_t
 aOverridableErrorCategory
 bool
 aIsBuiltCertChainRootBuiltInRoot
+bool
+aMadeOCSPRequests
 )
 ;
 private
