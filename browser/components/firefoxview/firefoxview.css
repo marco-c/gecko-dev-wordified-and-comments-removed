@@ -1089,11 +1089,10 @@ template
 -
 rows
 :
-minmax
-(
-0
-auto
-)
+max
+-
+content
+1fr
 ;
 }
 body
