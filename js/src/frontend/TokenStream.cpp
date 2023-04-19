@@ -2611,7 +2611,7 @@ JSContext
 cx
 ParserAtomsTable
 *
-pasrerAtoms
+parserAtoms
 const
 Unit
 *
@@ -2625,7 +2625,7 @@ startOffset
 TokenStreamCharsShared
 (
 cx
-pasrerAtoms
+parserAtoms
 )
 sourceUnits
 (
@@ -2957,7 +2957,7 @@ JSContext
 cx
 ParserAtomsTable
 *
-pasrerAtoms
+parserAtoms
 const
 ReadOnlyCompileOptions
 &
@@ -2977,7 +2977,7 @@ AnyCharsAccess
 >
 (
 cx
-pasrerAtoms
+parserAtoms
 units
 length
 options
