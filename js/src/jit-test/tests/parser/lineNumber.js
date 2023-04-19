@@ -142,7 +142,7 @@ line
 var
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;
@@ -173,7 +173,7 @@ maxLine
 ;
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;
@@ -200,7 +200,7 @@ line
 ;
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;
@@ -232,7 +232,7 @@ lineNumber
 ;
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;
@@ -271,7 +271,7 @@ assertThrowsInstanceOf
 {
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;

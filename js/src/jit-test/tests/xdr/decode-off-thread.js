@@ -121,7 +121,7 @@ eval
 (
 stencil
 =
-finishOffThreadDecodeStencil
+finishOffThreadStencil
 (
 )
 ;

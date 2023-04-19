@@ -82,7 +82,7 @@ forceFullParse1
 const
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;
@@ -188,7 +188,7 @@ forceFullParse2
 const
 stencil
 =
-finishOffThreadDecodeStencil
+finishOffThreadStencil
 (
 )
 ;

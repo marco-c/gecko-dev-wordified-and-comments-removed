@@ -60,7 +60,7 @@ oomAfterAllocations
 var
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;

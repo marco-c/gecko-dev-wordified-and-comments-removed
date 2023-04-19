@@ -186,7 +186,7 @@ assertThrowsInstanceOf
 var
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;
@@ -239,7 +239,7 @@ assertThrowsInstanceOf
 var
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;
@@ -277,7 +277,7 @@ columnNumber
 ;
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;

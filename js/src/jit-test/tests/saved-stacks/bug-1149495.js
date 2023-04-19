@@ -19,7 +19,7 @@ lineNumber
 var
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;

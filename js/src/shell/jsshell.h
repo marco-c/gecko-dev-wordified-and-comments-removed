@@ -734,15 +734,6 @@ char
 srcName
 )
 ;
-enum
-class
-OffThreadJobKind
-{
-CompileScript
-CompileModule
-Decode
-}
-;
 class
 NonshrinkingGCObjectVector
 :

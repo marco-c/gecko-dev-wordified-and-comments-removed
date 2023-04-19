@@ -10,7 +10,7 @@ Error
 var
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;
@@ -64,7 +64,7 @@ lineNumber
 ;
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;
@@ -112,7 +112,7 @@ Error
 ;
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;
@@ -151,7 +151,7 @@ Error
 ;
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;

@@ -67,7 +67,7 @@ stencil
 =
 lfOffThreadGlobal
 .
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;

@@ -48,7 +48,7 @@ offThreadFun
 let
 stencil
 =
-finishOffThreadCompileModuleToStencil
+finishOffThreadStencil
 (
 )
 ;

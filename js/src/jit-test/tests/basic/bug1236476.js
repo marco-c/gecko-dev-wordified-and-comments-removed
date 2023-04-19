@@ -21,7 +21,7 @@ function
 |
 |
 typeof
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 !
 =
 =
@@ -65,7 +65,7 @@ assertEq
 var
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;

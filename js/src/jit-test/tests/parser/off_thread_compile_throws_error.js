@@ -24,7 +24,7 @@ assertThrowsInstanceOf
 )
 =
 >
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 SyntaxError

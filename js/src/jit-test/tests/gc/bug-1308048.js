@@ -55,7 +55,7 @@ stencil
 =
 n
 .
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;

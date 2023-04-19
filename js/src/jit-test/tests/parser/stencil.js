@@ -236,7 +236,7 @@ optionsFull
 const
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 job
 )

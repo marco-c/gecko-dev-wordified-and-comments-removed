@@ -28,7 +28,7 @@ PI
 var
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;
@@ -67,7 +67,7 @@ assertThrowsInstanceOf
 var
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;
@@ -98,7 +98,7 @@ assertThrowsInstanceOf
 var
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;
@@ -132,7 +132,7 @@ assertThrowsValue
 var
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;

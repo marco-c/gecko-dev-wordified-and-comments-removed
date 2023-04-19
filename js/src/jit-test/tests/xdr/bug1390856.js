@@ -136,7 +136,7 @@ true
 var
 stencil
 =
-finishOffThreadDecodeStencil
+finishOffThreadStencil
 (
 )
 ;

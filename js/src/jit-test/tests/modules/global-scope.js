@@ -120,7 +120,7 @@ source
 let
 stencil
 =
-finishOffThreadCompileModuleToStencil
+finishOffThreadStencil
 (
 )
 ;

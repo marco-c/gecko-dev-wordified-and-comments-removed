@@ -27,7 +27,7 @@ fullcompartmentchecks
 var
 stencil
 =
-finishOffThreadCompileToStencil
+finishOffThreadStencil
 (
 )
 ;
