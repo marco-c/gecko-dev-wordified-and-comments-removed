@@ -1656,6 +1656,12 @@ kEnumCounterKeyProtocolSdes
 )
 ;
 }
+#
+if
+defined
+(
+WEBRTC_FUCHSIA
+)
 TEST_P
 (
 PeerConnectionIntegrationTest
@@ -1793,6 +1799,8 @@ kEnumCounterKeyProtocolDtls
 )
 ;
 }
+#
+endif
 TEST_P
 (
 PeerConnectionIntegrationTest

@@ -2703,6 +2703,12 @@ WaitForCallEstablished
 )
 ;
 }
+#
+if
+defined
+(
+IS_FUCHSIA
+)
 TEST_P
 (
 PeerConnectionEndToEndTest
@@ -2744,6 +2750,8 @@ WaitForCallEstablished
 )
 ;
 }
+#
+endif
 TEST_P
 (
 PeerConnectionEndToEndTest

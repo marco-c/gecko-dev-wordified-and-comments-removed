@@ -887,12 +887,6 @@ SdpSemantics
 :
 kUnifiedPlan
 ;
-config
-.
-enable_dtls_srtp
-=
-true
-;
 webrtc
 :
 :

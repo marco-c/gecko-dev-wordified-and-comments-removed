@@ -1604,6 +1604,12 @@ bool
 >
 combined_audio_video_bwe
 ;
+#
+if
+defined
+(
+WEBRTC_FUCHSIA
+)
 absl
 :
 :
@@ -1613,6 +1619,8 @@ bool
 >
 enable_dtls_srtp
 ;
+#
+endif
 TcpCandidatePolicy
 tcp_candidate_policy
 =
