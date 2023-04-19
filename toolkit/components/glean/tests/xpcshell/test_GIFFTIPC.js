@@ -1594,7 +1594,7 @@ greaterOrEqual
 timingHist
 .
 sum
-15
+13
 "
 Histogram
 '
