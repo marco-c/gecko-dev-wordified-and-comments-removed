@@ -6808,6 +6808,9 @@ mIsAPreallocBlocker
 nsCString
 mRemoteType
 ;
+nsCString
+mProfile
+;
 nsCOMPtr
 <
 nsIPrincipal

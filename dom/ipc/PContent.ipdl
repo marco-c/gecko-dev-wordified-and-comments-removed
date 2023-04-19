@@ -4342,6 +4342,8 @@ RemoteType
 (
 nsCString
 aRemoteType
+nsCString
+aProfile
 )
 ;
 /
