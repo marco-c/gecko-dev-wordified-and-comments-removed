@@ -179,6 +179,14 @@ ProcessRequests
 (
 )
 ;
+void
+MaybeReportLoadError
+(
+JSContext
+*
+aCx
+)
+;
 private
 :
 class
@@ -344,6 +352,12 @@ loader
 :
 ScriptLoadRequestList
 mLoadRequests
+;
+JS
+:
+:
+PersistentRootedValue
+mLoadException
 ;
 }
 ;
