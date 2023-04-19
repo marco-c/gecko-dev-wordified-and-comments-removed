@@ -150,10 +150,17 @@ generatedLocation
 {
 if
 (
-!
 disabled
 )
 {
+return
+Promise
+.
+resolve
+(
+)
+;
+}
 return
 firefox
 .
@@ -165,7 +172,6 @@ generatedLocation
 options
 )
 ;
-}
 }
 )
 )

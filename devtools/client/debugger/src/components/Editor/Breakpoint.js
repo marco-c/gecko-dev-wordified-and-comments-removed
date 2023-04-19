@@ -496,7 +496,6 @@ event
 metaKey
 )
 {
-return
 editorActions
 .
 continueToHere
@@ -506,6 +505,8 @@ selectedLocation
 .
 line
 )
+;
+return
 ;
 }
 if
@@ -522,7 +523,6 @@ features
 columnBreakpoints
 )
 {
-return
 breakpointActions
 .
 toggleBreakpointsAtLine
@@ -537,8 +537,9 @@ selectedLocation
 line
 )
 ;
-}
 return
+;
+}
 breakpointActions
 .
 toggleDisabledBreakpoint
@@ -547,8 +548,9 @@ cx
 breakpoint
 )
 ;
-}
 return
+;
+}
 breakpointActions
 .
 removeBreakpointsAtLine

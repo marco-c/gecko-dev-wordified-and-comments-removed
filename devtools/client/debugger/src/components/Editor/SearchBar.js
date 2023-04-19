@@ -982,7 +982,6 @@ preventDefault
 (
 )
 ;
-return
 this
 .
 doSearch

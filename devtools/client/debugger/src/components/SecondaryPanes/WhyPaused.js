@@ -343,6 +343,7 @@ message
 )
 {
 return
+null
 ;
 }
 return

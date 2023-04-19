@@ -1282,6 +1282,7 @@ query
 )
 {
 return
+null
 ;
 }
 if

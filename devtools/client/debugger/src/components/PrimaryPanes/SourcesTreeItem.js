@@ -1936,6 +1936,9 @@ name
 )
 ;
 }
+return
+null
+;
 }
 renderItemTooltip
 (
@@ -2026,6 +2029,9 @@ source
 url
 ;
 }
+return
+null
+;
 }
 render
 (

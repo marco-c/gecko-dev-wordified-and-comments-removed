@@ -1505,6 +1505,7 @@ shortcuts
 )
 {
 return
+null
 ;
 }
 return

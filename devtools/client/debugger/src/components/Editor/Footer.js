@@ -396,6 +396,7 @@ selectedSource
 )
 {
 return
+null
 ;
 }
 if
@@ -450,6 +451,7 @@ canPrettyPrint
 )
 {
 return
+null
 ;
 }
 const
@@ -569,13 +571,8 @@ if
 (
 !
 selectedSource
-)
-{
-return
-;
-}
-if
-(
+|
+|
 !
 shouldBlackbox
 (
@@ -584,6 +581,7 @@ selectedSource
 )
 {
 return
+null
 ;
 }
 const
@@ -709,6 +707,7 @@ horizontal
 )
 {
 return
+null
 ;
 }
 return

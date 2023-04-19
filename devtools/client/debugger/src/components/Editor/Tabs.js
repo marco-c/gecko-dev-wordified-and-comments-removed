@@ -711,7 +711,6 @@ id
 )
 )
 {
-return
 moveTab
 (
 selectedSource
@@ -719,6 +718,8 @@ selectedSource
 url
 0
 )
+;
+return
 ;
 }
 this
@@ -1147,6 +1148,7 @@ tabSources
 )
 {
 return
+null
 ;
 }
 return
@@ -1369,6 +1371,7 @@ isPaused
 )
 {
 return
+null
 ;
 }
 return
@@ -1441,6 +1444,7 @@ horizontal
 )
 {
 return
+null
 ;
 }
 return
