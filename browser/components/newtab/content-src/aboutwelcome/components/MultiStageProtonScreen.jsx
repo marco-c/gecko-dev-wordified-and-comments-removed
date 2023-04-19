@@ -135,13 +135,13 @@ LanguageSwitcher
 ;
 import
 {
-LinkText
+CTAParagraph
 }
 from
 "
 .
 /
-LinkText
+CTAParagraph
 "
 ;
 import
@@ -1673,7 +1673,7 @@ cta_paragraph
 ?
 (
 <
-LinkText
+CTAParagraph
 content
 =
 {
