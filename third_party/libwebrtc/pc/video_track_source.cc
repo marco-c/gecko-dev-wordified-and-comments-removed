@@ -30,7 +30,7 @@ remote
 :
 state_
 (
-kLive
+kInitializing
 )
 remote_
 (

@@ -248,14 +248,11 @@ SetStreams
 streams
 )
 ;
-RTC_DCHECK_EQ
-(
 source_
 -
 >
-state
+SetState
 (
-)
 MediaSourceInterface
 :
 :
