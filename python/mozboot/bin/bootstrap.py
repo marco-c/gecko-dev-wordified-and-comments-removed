@@ -1577,6 +1577,13 @@ no_system_changes
         
 return
     
+if
+not
+WINDOWS
+:
+        
+return
+    
 powershell_exe
 =
 which
