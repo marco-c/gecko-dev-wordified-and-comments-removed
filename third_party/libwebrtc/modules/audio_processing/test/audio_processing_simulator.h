@@ -706,15 +706,6 @@ optional
 <
 bool
 >
-use_analog_agc_agc2_level_estimator
-;
-absl
-:
-:
-optional
-<
-bool
->
 analog_agc_disable_digital_adaptive
 ;
 absl

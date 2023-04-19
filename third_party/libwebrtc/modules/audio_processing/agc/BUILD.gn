@@ -302,14 +302,6 @@ metrics
 .
 .
 /
-agc2
-:
-level_estimation_agc
-"
-"
-.
-.
-/
 vad
 "
 ]
