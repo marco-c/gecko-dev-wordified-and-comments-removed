@@ -518,7 +518,7 @@ declare_args
 Setting
 this
 to
-trye
+true
 will
 make
 RTC_DLOG
