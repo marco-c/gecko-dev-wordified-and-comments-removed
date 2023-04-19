@@ -398,12 +398,6 @@ _setupLocalTabListeners
 (
 )
 ;
-this
-.
-shouldCloseClient
-=
-true
-;
 }
 get
 isTabDescriptor

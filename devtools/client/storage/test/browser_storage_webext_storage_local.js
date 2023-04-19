@@ -46,12 +46,6 @@ commands
 .
 descriptorFront
 ;
-descriptor
-.
-shouldCloseClient
-=
-true
-;
 const
 {
 toolbox
