@@ -12455,6 +12455,11 @@ WritingMode
 aWM
 )
 ;
+void
+HandleLastRememberedSize
+(
+)
+;
 protected
 :
 static

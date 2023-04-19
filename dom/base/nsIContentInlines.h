@@ -338,6 +338,13 @@ SetIsPrimaryFrame
 true
 )
 ;
+aFrame
+-
+>
+HandleLastRememberedSize
+(
+)
+;
 }
 }
 else
