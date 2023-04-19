@@ -481,16 +481,6 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-FieldTrialParameter
-<
-bool
->
-low_latency_renderer_enabled_
-RTC_GUARDED_BY
-(
-mutex_
-)
-;
 absl
 :
 :
