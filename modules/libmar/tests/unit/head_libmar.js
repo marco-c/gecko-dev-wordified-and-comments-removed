@@ -329,11 +329,11 @@ Assert
 .
 ok
 (
+!
+!
 files
 .
 length
->
-0
 )
 ;
 let
