@@ -14440,7 +14440,7 @@ parent
 >
 GetTransformToLastDispatchedPaint
 (
-aComponents
+LayoutAndVisual
 )
 *
 parent
