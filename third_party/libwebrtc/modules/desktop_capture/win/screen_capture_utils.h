@@ -78,6 +78,11 @@ namespace
 webrtc
 {
 bool
+HasActiveDisplay
+(
+)
+;
+bool
 GetScreenList
 (
 DesktopCapturer
