@@ -205,7 +205,12 @@ libwebrtc
 Bug
 1766646
 -
-Vendor
-libwebrtc
-from
-26d12fcc71
+(
+fix
+-
+8615bf0582
+)
+restrict
+deps
+in
+frame_buffer_unittest
