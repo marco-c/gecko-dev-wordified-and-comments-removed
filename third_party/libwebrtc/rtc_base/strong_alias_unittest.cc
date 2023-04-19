@@ -1,11 +1,7 @@
 #
 include
 "
-net
-/
-dcsctp
-/
-public
+rtc_base
 /
 strong_alias
 .
@@ -71,7 +67,7 @@ gmock
 h
 "
 namespace
-dcsctp
+webrtc
 {
 namespace
 {

@@ -54,6 +54,9 @@ Data
 using
 IsBeginning
 =
+webrtc
+:
+:
 StrongAlias
 <
 class
@@ -64,6 +67,9 @@ bool
 using
 IsEnd
 =
+webrtc
+:
+:
 StrongAlias
 <
 class

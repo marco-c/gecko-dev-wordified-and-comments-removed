@@ -827,6 +827,11 @@ rate_tracker
 h
 "
 "
+strong_alias
+.
+h
+"
+"
 swap_queue
 .
 h
@@ -6658,6 +6663,11 @@ string_format_unittest
 cc
 "
 "
+strong_alias_unittest
+.
+cc
+"
+"
 swap_queue_unittest
 .
 cc
@@ -6796,6 +6806,11 @@ stringutils
 "
 :
 testclient
+"
+"
+containers
+:
+flat_map
 "
 "
 :

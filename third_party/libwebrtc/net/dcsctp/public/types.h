@@ -17,11 +17,7 @@ limits
 #
 include
 "
-net
-/
-dcsctp
-/
-public
+rtc_base
 /
 strong_alias
 .
@@ -33,6 +29,9 @@ dcsctp
 using
 StreamID
 =
+webrtc
+:
+:
 StrongAlias
 <
 class
@@ -43,6 +42,9 @@ uint16_t
 using
 PPID
 =
+webrtc
+:
+:
 StrongAlias
 <
 class
@@ -53,6 +55,9 @@ uint32_t
 using
 TimeoutID
 =
+webrtc
+:
+:
 StrongAlias
 <
 class
@@ -63,6 +68,9 @@ uint64_t
 using
 IsUnordered
 =
+webrtc
+:
+:
 StrongAlias
 <
 class
@@ -74,6 +82,9 @@ class
 DurationMs
 :
 public
+webrtc
+:
+:
 StrongAlias
 <
 class
@@ -92,6 +103,9 @@ UnderlyingType
 &
 v
 )
+:
+webrtc
+:
 :
 StrongAlias
 <
@@ -294,6 +308,9 @@ class
 TimeMs
 :
 public
+webrtc
+:
+:
 StrongAlias
 <
 class
@@ -312,6 +329,9 @@ UnderlyingType
 &
 v
 )
+:
+webrtc
+:
 :
 StrongAlias
 <

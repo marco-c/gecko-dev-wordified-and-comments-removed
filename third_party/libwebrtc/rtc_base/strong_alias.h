@@ -1,9 +1,9 @@
 #
 ifndef
-NET_DCSCTP_PUBLIC_STRONG_ALIAS_H_
+RTC_BASE_STRONG_ALIAS_H_
 #
 define
-NET_DCSCTP_PUBLIC_STRONG_ALIAS_H_
+RTC_BASE_STRONG_ALIAS_H_
 #
 include
 <
@@ -15,7 +15,7 @@ include
 utility
 >
 namespace
-dcsctp
+webrtc
 {
 template
 <

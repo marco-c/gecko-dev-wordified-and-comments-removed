@@ -22,11 +22,7 @@ vector
 #
 include
 "
-net
-/
-dcsctp
-/
-public
+rtc_base
 /
 strong_alias
 .
@@ -303,6 +299,9 @@ class
 HandoverReadinessStatus
 :
 public
+webrtc
+:
+:
 StrongAlias
 <
 class
@@ -316,6 +315,9 @@ constexpr
 HandoverReadinessStatus
 (
 )
+:
+webrtc
+:
 :
 StrongAlias
 <
@@ -335,6 +337,9 @@ HandoverReadinessStatus
 HandoverUnreadinessReason
 reason
 )
+:
+webrtc
+:
 :
 StrongAlias
 <

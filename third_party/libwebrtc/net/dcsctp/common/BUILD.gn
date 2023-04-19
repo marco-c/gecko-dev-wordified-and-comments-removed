@@ -112,9 +112,15 @@ deps
 .
 .
 /
-public
+.
+.
+/
+.
+.
+/
+rtc_base
 :
-strong_alias
+rtc_base_approved
 "
 "
 .
