@@ -600,6 +600,7 @@ false
 voice_detection
 ;
 struct
+RTC_EXPORT
 GainController1
 {
 bool
@@ -710,6 +711,7 @@ analog_gain_controller
 gain_controller1
 ;
 struct
+RTC_EXPORT
 GainController2
 {
 bool
@@ -780,6 +782,7 @@ gain_db
 fixed_digital
 ;
 struct
+RTC_EXPORT
 AdaptiveDigital
 {
 bool
