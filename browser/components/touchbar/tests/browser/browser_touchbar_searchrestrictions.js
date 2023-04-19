@@ -24,9 +24,9 @@ mjs
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 this
 {
@@ -42,9 +42,7 @@ modules
 /
 UrlbarUtils
 .
-sys
-.
-mjs
+jsm
 "
 UrlbarTestUtils
 :
@@ -59,9 +57,7 @@ common
 /
 UrlbarTestUtils
 .
-sys
-.
-mjs
+jsm
 "
 UrlbarTokenizer
 :
@@ -75,9 +71,7 @@ modules
 /
 UrlbarTokenizer
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

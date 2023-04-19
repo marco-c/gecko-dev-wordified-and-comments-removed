@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineESModuleGetters
+defineModuleGetter
 (
 this
-{
+"
 PinnedGroupBuilder
-:
+"
 "
 resource
 :
@@ -16,11 +16,8 @@ modules
 /
 PinnedGroupBuilder
 .
-sys
-.
-mjs
+jsm
 "
-}
 )
 ;
 const

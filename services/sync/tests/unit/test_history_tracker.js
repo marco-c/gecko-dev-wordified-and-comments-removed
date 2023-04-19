@@ -5,7 +5,7 @@ PlacesDBUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -18,9 +18,7 @@ modules
 /
 PlacesDBUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
