@@ -7,6 +7,8 @@ jsonschema
 import
 os
 import
+pathlib
+import
 re
 from
 perfdocs
@@ -738,7 +740,10 @@ path
 .
 basename
 (
+str
+(
 t
+)
 )
                         
 tb
@@ -998,7 +1003,10 @@ path
 .
 basename
 (
+str
+(
 manifest_path
+)
 )
                 
 tb
@@ -1276,11 +1284,9 @@ file
             
 desc_path
 =
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 self
 .
@@ -1288,26 +1294,23 @@ workspace_dir
 desc
 )
             
+try
+:
+                
 if
-os
-.
-path
+desc_path
 .
 exists
 (
-desc_path
 )
 and
-os
-.
-path
-.
-isfile
-(
 desc_path
+.
+is_file
+(
 )
 :
-                
+                    
 with
 open
 (
@@ -1319,7 +1322,7 @@ r
 as
 f
 :
-                    
+                        
 desc
 =
 f
@@ -1327,6 +1330,12 @@ f
 readlines
 (
 )
+            
+except
+OSError
+:
+                
+pass
             
 return
 desc
@@ -1732,11 +1741,9 @@ perfdocs_tree
             
 matched_yml
 =
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 matched
 [
@@ -1754,11 +1761,9 @@ yml
             
 matched_rst
 =
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 matched
 [

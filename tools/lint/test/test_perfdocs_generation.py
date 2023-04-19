@@ -1,5 +1,3 @@
-import
-contextlib
 from
 unittest
 import
@@ -7,9 +5,7 @@ mock
 import
 os
 import
-shutil
-import
-tempfile
+pathlib
 import
 mozunit
 LINTER
@@ -17,108 +13,6 @@ LINTER
 "
 perfdocs
 "
-contextlib
-.
-contextmanager
-def
-temp_file
-(
-name
-=
-"
-temp
-"
-tempdir
-=
-None
-content
-=
-None
-)
-:
-    
-if
-tempdir
-is
-None
-:
-        
-tempdir
-=
-tempfile
-.
-mkdtemp
-(
-)
-    
-path
-=
-os
-.
-path
-.
-join
-(
-tempdir
-name
-)
-    
-if
-content
-is
-not
-None
-:
-        
-with
-open
-(
-path
-"
-w
-"
-newline
-=
-"
-\
-n
-"
-)
-as
-f
-:
-            
-f
-.
-write
-(
-content
-)
-    
-try
-:
-        
-yield
-path
-    
-finally
-:
-        
-try
-:
-            
-shutil
-.
-rmtree
-(
-tempdir
-)
-        
-except
-FileNotFoundError
-:
-            
-pass
 def
 setup_sample_logger
 (
@@ -230,6 +124,11 @@ perfdocs_sample
 )
 :
     
+from
+test_perfdocs
+import
+temp_file
+    
 top_dir
 =
 perfdocs_sample
@@ -248,11 +147,9 @@ top_dir
     
 templates_dir
 =
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 top_dir
 "
@@ -269,11 +166,16 @@ templates
 "
 )
     
-os
-.
-makedirs
-(
 templates_dir
+.
+mkdir
+(
+parents
+=
+True
+exist_ok
+=
+True
 )
     
 from
@@ -510,6 +412,11 @@ perfdocs_sample
 )
 :
     
+from
+test_perfdocs
+import
+temp_file
+    
 top_dir
 =
 perfdocs_sample
@@ -528,11 +435,9 @@ top_dir
     
 templates_dir
 =
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 top_dir
 "
@@ -549,11 +454,16 @@ templates
 "
 )
     
-os
-.
-makedirs
-(
 templates_dir
+.
+mkdir
+(
+parents
+=
+True
+exist_ok
+=
+True
 )
     
 from
@@ -656,16 +566,17 @@ os
 .
 remove
 (
-os
+str
+(
+pathlib
 .
-path
-.
-join
+Path
 (
 generator
 .
 perfdocs_path
 f
+)
 )
 )
         
@@ -854,6 +765,11 @@ perfdocs_sample
 )
 :
     
+from
+test_perfdocs
+import
+temp_file
+    
 top_dir
 =
 perfdocs_sample
@@ -872,11 +788,9 @@ top_dir
     
 templates_dir
 =
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 top_dir
 "
@@ -893,11 +807,16 @@ templates
 "
 )
     
-os
-.
-makedirs
-(
 templates_dir
+.
+mkdir
+(
+parents
+=
+True
+exist_ok
+=
+True
 )
     
 from
@@ -1025,13 +944,9 @@ i
 ]
     
 with
-open
-(
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 perfdocs_tmpdir
 expected_files
@@ -1039,6 +954,9 @@ expected_files
 0
 ]
 )
+.
+open
+(
 )
 as
 f
@@ -1285,25 +1203,15 @@ _create_temp_dir
 )
     
 assert
-os
+pathlib
 .
-path
-.
-isdir
+Path
 (
 tmpdir
 )
-mock
 .
-patch
+is_dir
 (
-"
-perfdocs
-.
-generator
-.
-os
-"
 )
 mock
 .
@@ -1322,7 +1230,6 @@ test_perfdocs_generator_create_temp_dir_fail
 (
     
 logger
-os
 structured_logger
 perfdocs_sample
 )
@@ -1384,31 +1291,49 @@ workspace
 top_dir
 )
     
-os
-.
-mkdir
-=
+with
 mock
 .
-Mock
+patch
 (
+"
+perfdocs
+.
+generator
+.
+pathlib
+"
+)
+as
+path_mock
+:
+        
+path_mock
+.
+Path
+(
+)
+.
+mkdir
+.
 side_effect
 =
 OSError
 (
 )
+        
+path_mock
+.
+Path
+(
 )
-    
-os
 .
-path
-.
-isdir
+is_dir
 .
 return_value
 =
 False
-    
+        
 tmpdir
 =
 generator
@@ -1480,6 +1405,11 @@ perfdocs_sample
 )
 :
     
+from
+test_perfdocs
+import
+temp_file
+    
 top_dir
 =
 perfdocs_sample
@@ -1498,11 +1428,9 @@ top_dir
     
 templates_dir
 =
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 top_dir
 "
@@ -1519,11 +1447,16 @@ templates
 "
 )
     
-os
-.
-makedirs
-(
 templates_dir
+.
+mkdir
+(
+parents
+=
+True
+exist_ok
+=
+True
 )
     
 from
@@ -1568,15 +1501,12 @@ top_dir
     
 assert
 not
-os
-.
-path
-.
-isdir
-(
 generator
 .
 perfdocs_path
+.
+is_dir
+(
 )
     
 with
@@ -1706,6 +1636,11 @@ perfdocs_sample
 )
 :
     
+from
+test_perfdocs
+import
+temp_file
+    
 top_dir
 =
 perfdocs_sample
@@ -1724,11 +1659,9 @@ top_dir
     
 templates_dir
 =
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 top_dir
 "
@@ -1745,11 +1678,16 @@ templates
 "
 )
     
-os
-.
-makedirs
-(
 templates_dir
+.
+mkdir
+(
+parents
+=
+True
+exist_ok
+=
+True
 )
     
 from

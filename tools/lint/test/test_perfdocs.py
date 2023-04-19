@@ -7,6 +7,8 @@ mock
 import
 os
 import
+pathlib
+import
 pytest
 import
 shutil
@@ -444,11 +446,9 @@ mkdtemp
     
 path
 =
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 tempdir
 name
@@ -462,9 +462,10 @@ None
 :
         
 with
+path
+.
 open
 (
-path
 "
 w
 "
@@ -502,7 +503,10 @@ shutil
 .
 rmtree
 (
+str
+(
 tempdir
+)
 )
         
 except
@@ -521,10 +525,15 @@ temp_dir
     
 tempdir
 =
+pathlib
+.
+Path
+(
 tempfile
 .
 mkdtemp
 (
+)
 )
     
 try
@@ -543,7 +552,10 @@ shutil
 .
 rmtree
 (
+str
+(
 tempdir
+)
 )
         
 except
@@ -702,6 +714,7 @@ temp
         
 run_perfdocs
 (
+            
 config
 logger
 =
@@ -709,11 +722,15 @@ structured_logger
 paths
 =
 [
+str
+(
 temp
+)
 ]
 generate
 =
 False
+        
 )
         
 assert
@@ -850,6 +867,7 @@ temp
         
 run_perfdocs
 (
+            
 config
 logger
 =
@@ -857,11 +875,15 @@ structured_logger
 paths
 =
 [
+str
+(
 temp
+)
 ]
 generate
 =
 False
+        
 )
         
 assert
@@ -1402,7 +1424,12 @@ top_dir
 .
 validate_yaml
 (
+pathlib
+.
+Path
+(
 yaml_path
+)
 )
     
 assert
@@ -1617,7 +1644,12 @@ top_dir
 .
 validate_rst_content
 (
+pathlib
+.
+Path
+(
 rst_path
+)
 )
     
 assert
@@ -2936,7 +2968,12 @@ Example
 "
                 
 assert
+pathlib
+.
+Path
+(
 manifest
+)
 =
 =
 perfdocs_sample
@@ -3213,6 +3250,11 @@ yaml_content
 read_yaml
 (
         
+pathlib
+.
+Path
+(
+            
 os
 .
 path
@@ -3238,6 +3280,8 @@ yml
 "
 ]
 )
+)
+        
 )
     
 )

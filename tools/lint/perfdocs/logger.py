@@ -3,7 +3,7 @@ __future__
 import
 absolute_import
 import
-re
+pathlib
 class
 PerfDocLogger
 (
@@ -281,16 +281,21 @@ files
             
 fpath
 =
-re
+str
+(
+file
+)
 .
-sub
+replace
+(
+str
 (
 PerfDocLogger
 .
 TOP_DIR
+)
 "
 "
-file
 )
             
 for
@@ -302,10 +307,16 @@ PATHS
 :
                 
 if
+str
+(
 path
+)
 not
 in
+str
+(
 file
+)
 :
                     
 continue
@@ -331,7 +342,15 @@ None
                     
 path
 =
+str
+(
+pathlib
+.
+PurePosixPath
+(
 fpath
+)
+)
                     
 linter
 =

@@ -371,11 +371,11 @@ exclude_dir
 hg
 "
             
-os
+str
+(
+pathlib
 .
-path
-.
-join
+Path
 (
 "
 tools
@@ -384,12 +384,13 @@ tools
 lint
 "
 )
+)
             
-os
+str
+(
+pathlib
 .
-path
-.
-join
+Path
 (
 "
 testing
@@ -397,6 +398,7 @@ testing
 "
 perfdocs
 "
+)
 )
         
 ]
@@ -731,11 +733,9 @@ framework
         
 yaml_path
 =
-os
+pathlib
 .
-path
-.
-join
+Path
 (
 sdt_entry
 [
