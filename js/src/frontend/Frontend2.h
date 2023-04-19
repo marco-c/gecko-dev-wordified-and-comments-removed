@@ -84,6 +84,9 @@ js
 class
 ScriptSourceObject
 ;
+class
+ErrorContext
+;
 namespace
 frontend
 {
@@ -116,6 +119,9 @@ tryCompileGlobalScriptToExtensibleStencil
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationInput
 &
 input

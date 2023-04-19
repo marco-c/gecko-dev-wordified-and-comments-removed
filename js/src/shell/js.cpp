@@ -33039,6 +33039,12 @@ return
 false
 ;
 }
+MainThreadErrorContext
+ec
+(
+cx
+)
+;
 Rooted
 <
 frontend
@@ -33076,6 +33082,8 @@ Smoosh
 tryCompileGlobalScriptToExtensibleStencil
 (
 cx
+&
+ec
 input
 .
 get
