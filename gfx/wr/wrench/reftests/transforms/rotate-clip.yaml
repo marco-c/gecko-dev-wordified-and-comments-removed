@@ -9,6 +9,9 @@ items
 type
 :
 clip
+id
+:
+2
 bounds
 :
 [
@@ -27,8 +30,6 @@ rect
 2000
 2000
 ]
-items
-:
 -
 bounds
 :
@@ -83,3 +84,10 @@ color
 1
 .
 0000
+clip
+-
+chain
+:
+[
+2
+]

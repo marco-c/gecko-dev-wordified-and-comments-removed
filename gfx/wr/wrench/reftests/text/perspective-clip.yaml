@@ -53,6 +53,9 @@ items
 type
 :
 clip
+id
+:
+2
 bounds
 :
 [
@@ -75,8 +78,6 @@ rect
 radius
 :
 8
-items
-:
 -
 type
 :
@@ -92,6 +93,13 @@ bounds
 color
 :
 green
+clip
+-
+chain
+:
+[
+2
+]
 -
 text
 :
@@ -112,3 +120,10 @@ Ahem
 .
 ttf
 "
+clip
+-
+chain
+:
+[
+2
+]

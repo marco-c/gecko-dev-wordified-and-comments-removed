@@ -150,13 +150,6 @@ bounds
 0
 0
 0
-clip
--
-and
--
-scroll
-:
-2
 items
 :
 -
@@ -169,6 +162,13 @@ rect
 color
 :
 red
+clip
+-
+chain
+:
+[
+2
+]
 -
 type
 :

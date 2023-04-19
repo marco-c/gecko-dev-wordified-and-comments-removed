@@ -18,6 +18,9 @@ items
 type
 :
 clip
+id
+:
+2
 bounds
 :
 [
@@ -40,8 +43,6 @@ rect
 radius
 :
 32
-items
-:
 -
 type
 :
@@ -55,6 +56,13 @@ bounds
 color
 :
 blue
+clip
+-
+chain
+:
+[
+2
+]
 type
 :
 stacking

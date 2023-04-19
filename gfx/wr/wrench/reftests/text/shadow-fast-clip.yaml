@@ -17,6 +17,9 @@ items
 type
 :
 clip
+id
+:
+2
 bounds
 :
 [
@@ -25,8 +28,6 @@ bounds
 80
 80
 ]
-items
-:
 -
 type
 :
@@ -59,6 +60,13 @@ color
 0
 0
 1
+]
+clip
+-
+chain
+:
+[
+2
 ]
 -
 bounds
@@ -99,6 +107,13 @@ VeraBd
 .
 ttf
 "
+clip
+-
+chain
+:
+[
+2
+]
 -
 type
 :

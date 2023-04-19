@@ -73,6 +73,9 @@ items
 type
 :
 clip
+id
+:
+2
 bounds
 :
 [
@@ -109,8 +112,6 @@ rect
 repeat
 :
 false
-items
-:
 -
 type
 :
@@ -125,4 +126,11 @@ bounds
 0
 24
 24
+]
+clip
+-
+chain
+:
+[
+2
 ]

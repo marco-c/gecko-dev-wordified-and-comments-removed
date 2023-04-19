@@ -79,6 +79,9 @@ items
 type
 :
 clip
+id
+:
+2
 bounds
 :
 [
@@ -101,8 +104,6 @@ rect
 radius
 :
 4
-items
-:
 -
 type
 :
@@ -118,6 +119,13 @@ bounds
 color
 :
 white
+clip
+-
+chain
+:
+[
+2
+]
 -
 text
 :
@@ -141,3 +149,10 @@ FreeSans
 .
 ttf
 "
+clip
+-
+chain
+:
+[
+2
+]

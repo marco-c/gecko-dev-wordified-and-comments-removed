@@ -28,6 +28,9 @@ items
 type
 :
 clip
+id
+:
+2
 bounds
 :
 [
@@ -50,8 +53,6 @@ rect
 radius
 :
 32
-items
-:
 -
 type
 :
@@ -128,3 +129,10 @@ size
 :
 200
 200
+clip
+-
+chain
+:
+[
+2
+]
