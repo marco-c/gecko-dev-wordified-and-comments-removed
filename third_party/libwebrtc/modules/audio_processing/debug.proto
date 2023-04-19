@@ -541,6 +541,12 @@ capture_output_used
 =
 6
 ;
+optional
+float
+capture_post_gain
+=
+7
+;
 }
 message
 Event

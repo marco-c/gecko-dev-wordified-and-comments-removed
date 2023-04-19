@@ -1175,6 +1175,9 @@ agc2
 gain_applier
 "
 "
+capture_levels_adjuster
+"
+"
 ns
 "
 "
@@ -2252,6 +2255,14 @@ agc2
 rnn_vad
 :
 unittests
+"
+"
+capture_levels_adjuster
+"
+"
+capture_levels_adjuster
+:
+capture_levels_adjuster_unittests
 "
 "
 test
