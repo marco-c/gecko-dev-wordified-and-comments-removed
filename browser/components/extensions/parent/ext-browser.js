@@ -4174,6 +4174,11 @@ initialState
 window
 .
 STATE_FULLSCREEN
+|
+|
+window
+.
+fullScreen
 )
 {
 window
