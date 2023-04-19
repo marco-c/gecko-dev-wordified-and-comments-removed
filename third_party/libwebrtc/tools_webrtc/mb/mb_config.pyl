@@ -2913,7 +2913,7 @@ true
 '
 }
 '
-rtc_dcheck_always_on
+dcheck_always_on
 '
 :
 {
@@ -2922,7 +2922,7 @@ gn_args
 '
 :
 '
-rtc_dcheck_always_on
+dcheck_always_on
 =
 true
 '
@@ -3284,7 +3284,7 @@ mixins
 pure_release_bot
 '
 '
-rtc_dcheck_always_on
+dcheck_always_on
 '
 ]
 }
@@ -3305,7 +3305,7 @@ release
 no_goma
 '
 '
-rtc_dcheck_always_on
+dcheck_always_on
 '
 ]
 }
