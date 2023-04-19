@@ -522,7 +522,7 @@ optional
 rtc_library
 (
 "
-nack_module
+nack_requester
 "
 )
 {
@@ -540,12 +540,12 @@ histogram
 h
 "
 "
-nack_module2
+nack_requester
 .
 cc
 "
 "
-nack_module2
+nack_requester
 .
 h
 "
@@ -7279,12 +7279,12 @@ loss_notification_controller_unittest
 cc
 "
 "
-nack_module2_unittest
+nack_module_unittest
 .
 cc
 "
 "
-nack_module_unittest
+nack_requester_unittest
 .
 cc
 "
@@ -7471,7 +7471,7 @@ frame_dependencies_calculator
 "
 "
 :
-nack_module
+nack_requester
 "
 "
 :

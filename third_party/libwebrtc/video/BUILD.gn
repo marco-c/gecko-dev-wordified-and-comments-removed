@@ -677,7 +677,7 @@ modules
 /
 video_coding
 :
-nack_module
+nack_requester
 "
 "
 .

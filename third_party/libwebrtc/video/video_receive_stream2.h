@@ -136,7 +136,7 @@ modules
 /
 video_coding
 /
-nack_module2
+nack_requester
 .
 h
 "

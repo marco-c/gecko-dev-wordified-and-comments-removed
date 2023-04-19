@@ -126,7 +126,7 @@ deps
 .
 .
 :
-nack_module
+nack_requester
 "
 "
 .

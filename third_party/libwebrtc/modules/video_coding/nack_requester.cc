@@ -5,7 +5,7 @@ modules
 /
 video_coding
 /
-nack_module2
+nack_requester
 .
 h
 "
@@ -253,7 +253,7 @@ NackPeriodicProcessor
 :
 RegisterNackModule
 (
-NackModuleBase
+NackRequesterBase
 *
 module
 )
@@ -325,7 +325,7 @@ NackPeriodicProcessor
 :
 UnregisterNackModule
 (
-NackModuleBase
+NackRequesterBase
 *
 module
 )
@@ -401,7 +401,7 @@ ProcessNackModules
 {
 for
 (
-NackModuleBase
+NackRequesterBase
 *
 module
 :
@@ -420,7 +420,7 @@ ScopedNackPeriodicProcessorRegistration
 :
 ScopedNackPeriodicProcessorRegistration
 (
-NackModuleBase
+NackRequesterBase
 *
 module
 NackPeriodicProcessor
@@ -463,7 +463,7 @@ module_
 )
 ;
 }
-NackModule2
+NackRequester
 :
 :
 NackInfo
@@ -492,7 +492,7 @@ retries
 )
 {
 }
-NackModule2
+NackRequester
 :
 :
 NackInfo
@@ -531,7 +531,7 @@ retries
 )
 {
 }
-NackModule2
+NackRequester
 :
 :
 BackoffSettings
@@ -566,12 +566,12 @@ absl
 :
 optional
 <
-NackModule2
+NackRequester
 :
 :
 BackoffSettings
 >
-NackModule2
+NackRequester
 :
 :
 BackoffSettings
@@ -692,7 +692,7 @@ enabled
 )
 {
 return
-NackModule2
+NackRequester
 :
 :
 BackoffSettings
@@ -722,10 +722,10 @@ absl
 nullopt
 ;
 }
-NackModule2
+NackRequester
 :
 :
-NackModule2
+NackRequester
 (
 TaskQueueBase
 *
@@ -829,11 +829,11 @@ IsCurrent
 )
 ;
 }
-NackModule2
+NackRequester
 :
 :
 ~
-NackModule2
+NackRequester
 (
 )
 {
@@ -844,7 +844,7 @@ worker_thread_
 ;
 }
 void
-NackModule2
+NackRequester
 :
 :
 ProcessNacks
@@ -892,7 +892,7 @@ false
 }
 }
 int
-NackModule2
+NackRequester
 :
 :
 OnReceivedPacket
@@ -918,7 +918,7 @@ false
 ;
 }
 int
-NackModule2
+NackRequester
 :
 :
 OnReceivedPacket
@@ -1195,7 +1195,7 @@ return
 ;
 }
 void
-NackModule2
+NackRequester
 :
 :
 ClearUpTo
@@ -1281,7 +1281,7 @@ seq_num
 ;
 }
 void
-NackModule2
+NackRequester
 :
 :
 UpdateRtt
@@ -1301,7 +1301,7 @@ rtt_ms
 ;
 }
 bool
-NackModule2
+NackRequester
 :
 :
 RemovePacketsUntilKeyFrame
@@ -1378,7 +1378,7 @@ false
 ;
 }
 void
-NackModule2
+NackRequester
 :
 :
 AddPacketsToNack
@@ -1593,7 +1593,7 @@ vector
 <
 uint16_t
 >
-NackModule2
+NackRequester
 :
 :
 GetNackBatch
@@ -1953,7 +1953,7 @@ nack_batch
 ;
 }
 void
-NackModule2
+NackRequester
 :
 :
 UpdateReorderingStatistics
@@ -1989,7 +1989,7 @@ diff
 ;
 }
 int
-NackModule2
+NackRequester
 :
 :
 WaitNumberOfPackets
