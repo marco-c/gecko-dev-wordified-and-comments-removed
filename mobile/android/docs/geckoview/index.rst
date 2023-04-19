@@ -299,6 +299,9 @@ index
 contributor
 /
 index
+design
+/
+index
 Changelog
 <
 https
