@@ -1196,6 +1196,9 @@ ResidentPeak
 UNITS_BYTES
 )
 ;
+#
+ifndef
+XP_MACOSX
 RECORD
 (
 MEMORY_UNIQUE
@@ -1203,6 +1206,8 @@ ResidentUnique
 UNITS_BYTES
 )
 ;
+#
+endif
 RECORD
 (
 MEMORY_HEAP_ALLOCATED
