@@ -2343,6 +2343,10 @@ DummySetSessionDescriptionObserver
 Create
 (
 )
+.
+get
+(
+)
 session_description
 .
 release
@@ -2877,6 +2881,10 @@ AudioOptions
 (
 )
 )
+.
+get
+(
+)
 )
 )
 ;
@@ -2973,6 +2981,10 @@ CreateVideoTrack
 (
 kVideoLabel
 video_device
+.
+get
+(
+)
 )
 )
 ;
@@ -2982,6 +2994,10 @@ main_wnd_
 StartLocalRenderer
 (
 video_track_
+.
+get
+(
+)
 )
 ;
 result_or_error
@@ -3485,6 +3501,10 @@ DummySetSessionDescriptionObserver
 Create
 (
 )
+.
+get
+(
+)
 desc
 )
 ;
@@ -3544,6 +3564,10 @@ DummySetSessionDescriptionObserver
 :
 :
 Create
+(
+)
+.
+get
 (
 )
 session_description

@@ -1058,6 +1058,10 @@ DataChannelObserverImpl
 >
 (
 data_channel
+.
+get
+(
+)
 )
 ;
 data_channel

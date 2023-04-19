@@ -591,6 +591,10 @@ socket_server
 set_conductor
 (
 conductor
+.
+get
+(
+)
 )
 ;
 thread

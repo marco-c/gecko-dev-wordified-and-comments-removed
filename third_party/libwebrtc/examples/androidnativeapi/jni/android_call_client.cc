@@ -1010,6 +1010,10 @@ created
 <
 <
 pcf_
+.
+get
+(
+)
 ;
 }
 void
@@ -1122,6 +1126,10 @@ created
 <
 <
 pc_
+.
+get
+(
+)
 ;
 rtc
 :
@@ -1134,7 +1142,7 @@ webrtc
 VideoTrackInterface
 >
 local_video_track
-=
+(
 pcf_
 -
 >
@@ -1144,6 +1152,11 @@ CreateVideoTrack
 video
 "
 video_source_
+.
+get
+(
+)
+)
 )
 ;
 local_video_track
@@ -1189,6 +1202,10 @@ up
 <
 <
 local_video_track
+.
+get
+(
+)
 ;
 for
 (
@@ -1309,6 +1326,10 @@ up
 <
 <
 track
+.
+get
+(
+)
 ;
 break
 ;
@@ -1347,6 +1368,10 @@ CreateOfferObserver
 >
 (
 pc_
+)
+.
+get
+(
 )
 webrtc
 :
@@ -1689,6 +1714,10 @@ make_ref_counted
 <
 SetLocalSessionDescriptionObserver
 >
+(
+)
+.
+get
 (
 )
 desc

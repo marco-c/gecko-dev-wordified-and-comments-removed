@@ -1004,6 +1004,10 @@ I420Buffer
 SetBlack
 (
 buffer
+.
+get
+(
+)
 )
 ;
 std

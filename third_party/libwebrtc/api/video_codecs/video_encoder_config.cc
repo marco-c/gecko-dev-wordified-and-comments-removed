@@ -467,7 +467,7 @@ ss
 encoder_specific_settings
 !
 =
-NULL
+nullptr
 ?
 "
 (
