@@ -129,13 +129,6 @@ c
 '
 libevent
 /
-evthread_pthread
-.
-c
-'
-'
-libevent
-/
 evutil
 .
 c
