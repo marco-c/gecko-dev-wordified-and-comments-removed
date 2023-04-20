@@ -558,17 +558,6 @@ RTC_DCHECK
 frame_decode_scheduler_
 )
 ;
-RTC_LOG
-(
-LS_WARNING
-)
-<
-<
-"
-Using
-FrameBuffer3
-"
-;
 ParseFieldTrial
 (
 {
