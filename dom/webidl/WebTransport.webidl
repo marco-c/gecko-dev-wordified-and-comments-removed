@@ -443,6 +443,9 @@ WebTransportCloseInfo
 >
 closed
 ;
+[
+Throws
+]
 undefined
 close
 (

@@ -335,6 +335,7 @@ Closed
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Close
 (
@@ -342,6 +343,9 @@ const
 WebTransportCloseInfo
 &
 aOptions
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
