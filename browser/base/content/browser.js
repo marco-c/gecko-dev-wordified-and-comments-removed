@@ -43970,7 +43970,7 @@ service
 .
 mode
 "
-3
+1
 )
 ;
 Services
@@ -43988,7 +43988,7 @@ mode
 .
 privateBrowsing
 "
-3
+1
 )
 ;
 Services
