@@ -650,6 +650,8 @@ bug_numbers
 [
 1709344
 1754635
+1781973
+1811146
 ]
 notification_emails
 :
@@ -677,7 +679,7 @@ com
 expiry_version
 :
 "
-112
+118
 "
 products
 :
