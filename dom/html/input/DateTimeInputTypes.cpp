@@ -324,8 +324,6 @@ DateTimeInputTypeBase
 :
 HasStepMismatch
 (
-bool
-aUseZeroIfValueNaN
 )
 const
 {
@@ -346,7 +344,6 @@ mInputElement
 ValueIsStepMismatch
 (
 value
-aUseZeroIfValueNaN
 )
 ;
 }
