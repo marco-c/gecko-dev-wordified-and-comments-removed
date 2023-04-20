@@ -3,7 +3,6 @@ pathlib
 from
 datetime
 import
-date
 datetime
 import
 requests
@@ -17,6 +16,8 @@ import
 (
     
 BASE_URL_DICT
+    
+DATETIME_FORMAT
     
 KEY_ARCHITECTURE
     
@@ -48,7 +49,7 @@ AndroidStartUp_product
     
 download_date
 =
-date
+datetime
 .
 today
 (
@@ -57,9 +58,9 @@ today
 architecture
 =
 "
-armeabi
+arm64
 -
-v7a
+v8a
 "
     
 if
@@ -67,7 +68,29 @@ product
 =
 =
 PROD_FOCUS
-and
+:
+        
+if
+download_date
+>
+=
+datetime
+(
+2022
+12
+15
+)
+:
+            
+product
++
+=
+"
+-
+v3
+"
+        
+elif
 download_date
 >
 =
@@ -78,7 +101,7 @@ datetime
 5
 )
 :
-        
+            
 product
 +
 =
@@ -101,9 +124,19 @@ latest
 .
 format
 (
+        
+date
+=
+download_date
+.
+strftime
+(
+DATETIME_FORMAT
+)
 architecture
 =
 architecture
+    
 )
     
 filename
