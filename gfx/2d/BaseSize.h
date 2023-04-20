@@ -25,8 +25,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 template
@@ -696,7 +696,6 @@ height
 }
 }
 ;
-}
 }
 #
 endif

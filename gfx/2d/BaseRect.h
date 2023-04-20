@@ -62,8 +62,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 template
@@ -4720,7 +4720,6 @@ return
 }
 }
 ;
-}
 }
 #
 endif

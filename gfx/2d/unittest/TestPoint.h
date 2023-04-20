@@ -30,5 +30,10 @@ Subtraction
 (
 )
 ;
+void
+RoundToMultiple
+(
+)
+;
 }
 ;
