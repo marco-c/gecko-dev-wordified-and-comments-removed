@@ -1451,6 +1451,12 @@ rawFramePtr
 )
 const
 ;
+bool
+inPrologue
+(
+)
+const
+;
 private
 :
 Data
