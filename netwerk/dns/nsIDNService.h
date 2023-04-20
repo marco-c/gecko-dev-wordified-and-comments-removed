@@ -99,6 +99,11 @@ Init
 (
 )
 ;
+enum
+ScriptCombo
+:
+int32_t
+;
 protected
 :
 virtual
@@ -263,7 +268,7 @@ intl
 :
 Script
 script
-int32_t
+ScriptCombo
 &
 savedScript
 )
