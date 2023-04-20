@@ -55,8 +55,7 @@ octet
 stream
 "
 "
-foo
-bar
+foobar
 "
 ]
 [
