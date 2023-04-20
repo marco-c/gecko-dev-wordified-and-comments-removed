@@ -245,6 +245,10 @@ bool
 show_alr_state
 =
 false
+bool
+show_link_capacity
+=
+false
 )
 ;
 void
