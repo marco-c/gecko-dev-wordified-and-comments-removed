@@ -28550,7 +28550,7 @@ mLen
 static
 const
 PrefListEntry
-sParentOnlyPrefBranchList
+sRestrictFromWebContentProcesses
 [
 ]
 =
@@ -29622,7 +29622,7 @@ auto
 &
 entry
 :
-sParentOnlyPrefBranchList
+sRestrictFromWebContentProcesses
 )
 {
 if
