@@ -850,14 +850,6 @@ ip_address
 /
 rtc_base
 :
-location
-"
-"
-.
-.
-/
-rtc_base
-:
 logging
 "
 "
