@@ -358,6 +358,7 @@ yaml
 ]
 metrics_yamls
 =
+set
 (
     
 gecko_metrics
@@ -558,6 +559,7 @@ test_pings
 }
 pings_yamls
 =
+set
 (
     
 gecko_pings
