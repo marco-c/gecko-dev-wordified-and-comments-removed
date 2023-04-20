@@ -3035,9 +3035,9 @@ label
 title
 )
 ;
-button
+node
 .
-setAttribute
+toggleAttribute
 (
 "
 attention
