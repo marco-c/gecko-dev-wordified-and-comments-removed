@@ -14,12 +14,6 @@ DMD
 "
 "
 "
-from
-__future__
-import
-absolute_import
-division
-print_function
 import
 argparse
 import
@@ -3478,12 +3472,14 @@ arg
 :
 ]
                 
+def
 cond
-=
-lambda
+(
 rec
 key
+)
 :
+return
 not
 is_match
 (

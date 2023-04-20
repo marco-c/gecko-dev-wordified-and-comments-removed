@@ -11,10 +11,6 @@ utf
 *
 -
 from
-__future__
-import
-absolute_import
-from
 marionette_driver
 .
 marionette
