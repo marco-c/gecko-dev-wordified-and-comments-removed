@@ -1281,12 +1281,6 @@ call
 worker_thread
 (
 )
-call
--
->
-trials
-(
-)
 )
 rtp_receive_statistics_
 (
