@@ -36,7 +36,7 @@ AddonUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -49,7 +49,9 @@ sync
 /
 addonutils
 .
-js
+sys
+.
+mjs
 "
 )
 ;

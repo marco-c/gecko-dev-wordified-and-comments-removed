@@ -5,7 +5,7 @@ Weave
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ sync
 /
 main
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -29,7 +31,7 @@ HistoryEngine
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -44,7 +46,9 @@ engines
 /
 history
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -56,7 +60,7 @@ WBORecord
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -69,7 +73,9 @@ sync
 /
 record
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -80,7 +86,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -93,7 +99,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;

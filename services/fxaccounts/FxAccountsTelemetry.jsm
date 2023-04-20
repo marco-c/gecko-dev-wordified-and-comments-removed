@@ -162,7 +162,7 @@ undefined
 {
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -175,7 +175,9 @@ sync
 /
 telemetry
 .
-js
+sys
+.
+mjs
 "
 )
 ;

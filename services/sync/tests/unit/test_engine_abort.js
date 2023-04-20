@@ -5,7 +5,7 @@ WBORecord
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ sync
 /
 record
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -29,7 +31,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -42,7 +44,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -53,7 +57,7 @@ RotaryEngine
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -70,7 +74,9 @@ sync
 /
 rotaryengine
 .
-js
+sys
+.
+mjs
 "
 )
 ;

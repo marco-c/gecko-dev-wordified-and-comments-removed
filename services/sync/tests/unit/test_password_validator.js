@@ -5,7 +5,7 @@ PasswordValidator
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -20,7 +20,9 @@ engines
 /
 passwords
 .
-js
+sys
+.
+mjs
 "
 )
 ;

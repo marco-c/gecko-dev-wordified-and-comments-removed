@@ -6,7 +6,7 @@ ClientsRec
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -21,7 +21,9 @@ engines
 /
 clients
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -32,7 +34,7 @@ CryptoWrapper
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -45,7 +47,9 @@ sync
 /
 record
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -56,7 +60,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -69,7 +73,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;

@@ -10,7 +10,7 @@ SyncedTabs
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ sync
 /
 SyncedTabs
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -34,7 +36,7 @@ UIState
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +49,9 @@ sync
 /
 UIState
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

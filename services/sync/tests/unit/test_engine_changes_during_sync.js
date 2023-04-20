@@ -31,7 +31,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -44,7 +44,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -57,7 +59,7 @@ BookmarkQuery
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -72,7 +74,9 @@ engines
 /
 bookmarks
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -83,7 +87,7 @@ HistoryRec
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -98,7 +102,9 @@ engines
 /
 history
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -109,7 +115,7 @@ FormRec
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -124,7 +130,9 @@ engines
 /
 forms
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -135,7 +143,7 @@ LoginRec
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -150,7 +158,9 @@ engines
 /
 passwords
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -161,7 +171,7 @@ PrefRec
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -176,7 +186,9 @@ engines
 /
 prefs
 .
-js
+sys
+.
+mjs
 "
 )
 ;

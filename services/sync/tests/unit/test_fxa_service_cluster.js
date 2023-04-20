@@ -5,7 +5,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -29,7 +31,7 @@ initializeIdentityWithTokenServerResponse
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -46,7 +48,9 @@ sync
 /
 fxa_utils
 .
-js
+sys
+.
+mjs
 "
 )
 ;

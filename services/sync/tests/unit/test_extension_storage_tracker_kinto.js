@@ -28,7 +28,7 @@ ExtensionStorageEngine
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -45,7 +45,9 @@ extension
 -
 storage
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -56,7 +58,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -69,7 +71,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;

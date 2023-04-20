@@ -131,7 +131,7 @@ getChromeWindow
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -144,7 +144,9 @@ sync
 /
 util
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -270,7 +272,7 @@ waitForZeroTimer
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -287,7 +289,9 @@ sync
 /
 utils
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -1203,7 +1207,7 @@ SyncTelemetry
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1216,7 +1220,9 @@ sync
 /
 telemetry
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -2034,7 +2040,7 @@ Status
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -2047,7 +2053,9 @@ sync
 /
 status
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -2581,7 +2589,7 @@ RotaryEngine
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -2598,7 +2606,9 @@ sync
 /
 rotaryengine
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -3399,7 +3409,7 @@ BookmarksEngine
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -3414,7 +3424,9 @@ engines
 /
 bookmarks
 .
-js
+sys
+.
+mjs
 "
 )
 ;

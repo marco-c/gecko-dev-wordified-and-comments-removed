@@ -5,7 +5,7 @@ Weave
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ sync
 /
 main
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -30,7 +32,7 @@ CryptoWrapper
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -43,7 +45,9 @@ sync
 /
 record
 .
-js
+sys
+.
+mjs
 "
 )
 ;

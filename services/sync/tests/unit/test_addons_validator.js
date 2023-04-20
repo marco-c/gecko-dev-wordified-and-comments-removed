@@ -5,7 +5,7 @@ AddonValidator
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -20,7 +20,9 @@ engines
 /
 addons
 .
-js
+sys
+.
+mjs
 "
 )
 ;

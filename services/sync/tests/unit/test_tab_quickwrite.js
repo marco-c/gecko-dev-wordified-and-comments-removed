@@ -1,6 +1,6 @@
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -15,7 +15,9 @@ engines
 /
 tabs
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -26,7 +28,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -39,7 +41,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -50,7 +54,7 @@ TabProvider
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -65,7 +69,9 @@ engines
 /
 tabs
 .
-js
+sys
+.
+mjs
 "
 )
 ;

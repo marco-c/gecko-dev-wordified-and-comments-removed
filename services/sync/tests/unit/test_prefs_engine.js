@@ -5,7 +5,7 @@ getPrefsGUIDForTest
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -20,7 +20,9 @@ engines
 /
 prefs
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -38,7 +40,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -51,7 +53,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;

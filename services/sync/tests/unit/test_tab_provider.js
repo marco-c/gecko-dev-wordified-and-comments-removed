@@ -5,7 +5,7 @@ TabProvider
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -20,7 +20,9 @@ engines
 /
 tabs
 .
-js
+sys
+.
+mjs
 "
 )
 ;

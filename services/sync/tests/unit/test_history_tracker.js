@@ -31,7 +31,7 @@ HistoryEngine
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -46,7 +46,9 @@ engines
 /
 history
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -57,7 +59,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -70,7 +72,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;

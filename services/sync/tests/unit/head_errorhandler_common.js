@@ -10,7 +10,7 @@ LegacyTracker
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ sync
 /
 engines
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -121,7 +123,7 @@ SyncKeyBundle
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -134,7 +136,9 @@ sync
 /
 keys
 .
-js
+sys
+.
+mjs
 "
 )
 ;

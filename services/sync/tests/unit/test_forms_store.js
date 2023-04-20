@@ -27,7 +27,7 @@ FormEngine
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -42,7 +42,9 @@ engines
 /
 forms
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -53,7 +55,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -66,7 +68,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;

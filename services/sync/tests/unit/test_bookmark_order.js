@@ -25,7 +25,7 @@ BookmarkFolder
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -40,7 +40,9 @@ engines
 /
 bookmarks
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -51,7 +53,7 @@ Weave
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -64,7 +66,9 @@ sync
 /
 main
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -75,7 +79,7 @@ Service
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -88,7 +92,9 @@ sync
 /
 service
 .
-js
+sys
+.
+mjs
 "
 )
 ;

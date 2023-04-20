@@ -89,7 +89,7 @@ goQuitApplication
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -100,7 +100,9 @@ tps
 /
 quit
 .
-js
+sys
+.
+mjs
 "
 )
 ;
