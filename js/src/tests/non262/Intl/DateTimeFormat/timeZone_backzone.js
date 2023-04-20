@@ -615,6 +615,17 @@ Nipigon
 "
 America
 /
+Pangnirtung
+"
+:
+"
+America
+/
+Pangnirtung
+"
+"
+America
+/
 Port_of_Spain
 "
 :

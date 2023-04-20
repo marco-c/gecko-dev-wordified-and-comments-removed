@@ -2482,6 +2482,16 @@ mxchi
 "
 America
 :
+Ciudad_Juarez
+"
+{
+"
+mxcjs
+"
+}
+"
+America
+:
 Coral_Harbour
 "
 {

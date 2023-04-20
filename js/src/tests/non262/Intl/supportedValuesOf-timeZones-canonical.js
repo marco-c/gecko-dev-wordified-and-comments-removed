@@ -490,6 +490,11 @@ Chihuahua
 "
 America
 /
+Ciudad_Juarez
+"
+"
+America
+/
 Coral_Harbour
 "
 "
