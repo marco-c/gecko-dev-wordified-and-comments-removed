@@ -109,7 +109,8 @@ VCMDecoderDataBase
 =
 default
 ;
-bool
+VideoDecoder
+*
 DeregisterExternalDecoder
 (
 uint8_t

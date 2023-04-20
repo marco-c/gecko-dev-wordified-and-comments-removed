@@ -44,7 +44,8 @@ Detach
 )
 ;
 }
-bool
+VideoDecoder
+*
 VCMDecoderDataBase
 :
 :
@@ -83,7 +84,7 @@ end
 )
 {
 return
-false
+nullptr
 ;
 }
 if
@@ -111,6 +112,15 @@ absl
 nullopt
 ;
 }
+VideoDecoder
+*
+ret
+=
+it
+-
+>
+second
+;
 decoders_
 .
 erase
@@ -119,7 +129,7 @@ it
 )
 ;
 return
-true
+ret
 ;
 }
 void
