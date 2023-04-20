@@ -79,8 +79,14 @@ mozbuild
 .
 base
 import
+(
+    
 BinaryNotFoundException
+    
 BuildEnvironmentNotFoundException
+    
+MozbuildObject
+)
 from
 mozbuild
 .
@@ -89,12 +95,6 @@ import
 MachCommandConditions
 as
 conditions
-from
-mozbuild
-.
-base
-import
-MozbuildObject
 from
 mozbuild
 .

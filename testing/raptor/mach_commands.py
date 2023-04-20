@@ -28,6 +28,7 @@ mozbuild
 base
 import
 BinaryNotFoundException
+MozbuildObject
 from
 mozbuild
 .
@@ -36,12 +37,6 @@ import
 MachCommandConditions
 as
 Conditions
-from
-mozbuild
-.
-base
-import
-MozbuildObject
 HERE
 =
 os

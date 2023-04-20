@@ -36,6 +36,7 @@ mozbuild
 /
 test
 "
+]
 [
 isort
 ]

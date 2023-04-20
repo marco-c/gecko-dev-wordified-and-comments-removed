@@ -181,6 +181,10 @@ os
 import
 sys
 from
+six
+import
+string_types
+from
 mozharness
 .
 base
@@ -189,10 +193,6 @@ log
 import
 INFO
 numeric_log_level
-from
-six
-import
-string_types
 log
 =
 logging

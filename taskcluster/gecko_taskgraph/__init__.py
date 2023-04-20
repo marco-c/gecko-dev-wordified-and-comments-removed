@@ -167,12 +167,9 @@ generator
 from
 gecko_taskgraph
 import
-morph
-    
-from
-gecko_taskgraph
-import
 (
+        
+morph
         
 target_tasks
     

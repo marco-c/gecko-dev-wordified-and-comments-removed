@@ -1,4 +1,12 @@
 from
+marionette_harness
+.
+runtests
+import
+cli
+as
+mn_cli
+from
 firefox_ui_harness
 .
 arguments
@@ -10,14 +18,6 @@ firefox_ui_harness
 runners
 import
 FirefoxUITestRunner
-from
-marionette_harness
-.
-runtests
-import
-cli
-as
-mn_cli
 def
 cli
 (

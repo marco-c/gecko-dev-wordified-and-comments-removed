@@ -25,6 +25,7 @@ filters
 import
 DEFAULT_FILTERS
 enabled
+filterlist
 from
 .
 filters
@@ -32,11 +33,6 @@ import
 exists
 as
 _exists
-from
-.
-filters
-import
-filterlist
 from
 .
 ini

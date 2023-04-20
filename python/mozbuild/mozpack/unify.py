@@ -23,6 +23,12 @@ path
 as
 mozpath
 from
+mozbuild
+.
+util
+import
+hexdump
+from
 mozpack
 .
 errors
@@ -43,12 +49,6 @@ BaseFile
 BaseFinder
 ExecutableFile
 GeneratedFile
-from
-mozbuild
-.
-util
-import
-hexdump
 FIND_TARGET_PLATFORM
 =
 re

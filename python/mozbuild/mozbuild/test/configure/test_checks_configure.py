@@ -11,12 +11,6 @@ buildconfig
 import
 topsrcdir
 from
-common
-import
-ConfigureTestSandbox
-ensure_exe_extension
-fake_short_path
-from
 mozpack
 import
 path
@@ -31,6 +25,12 @@ from
 six
 import
 StringIO
+from
+common
+import
+ConfigureTestSandbox
+ensure_exe_extension
+fake_short_path
 from
 mozbuild
 .

@@ -604,11 +604,15 @@ log
 .
 debug
 (
+f
 "
 Unhandled
 line
-"
+:
+{
 line
+}
+"
 )
     
 return

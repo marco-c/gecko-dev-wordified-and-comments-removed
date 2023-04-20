@@ -5,13 +5,13 @@ contextlib
 import
 contextmanager
 import
+six
+import
 mozpack
 .
 path
 as
 mozpath
-import
-six
 from
 .
 files
