@@ -5,17 +5,6 @@ api
 /
 test
 /
-dummy_peer_connection
-.
-h
-"
-#
-include
-"
-api
-/
-test
-/
 fake_frame_decryptor
 .
 h
