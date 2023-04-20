@@ -132,6 +132,11 @@ PeerConnectionImpl
 cpp
 "
 "
+RemoteTrackSource
+.
+cpp
+"
+"
 RTCDtlsTransport
 .
 cpp
