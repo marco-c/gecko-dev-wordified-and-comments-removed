@@ -1,9 +1,9 @@
 #
 ifndef
-ABSL_TYPES_variant_internal_H_
+ABSL_TYPES_VARIANT_INTERNAL_H_
 #
 define
-ABSL_TYPES_variant_internal_H_
+ABSL_TYPES_VARIANT_INTERNAL_H_
 #
 include
 <

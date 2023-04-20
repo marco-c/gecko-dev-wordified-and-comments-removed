@@ -7,7 +7,7 @@ container
 /
 internal
 /
-node_hash_policy
+node_slot_policy
 .
 h
 "
@@ -67,7 +67,7 @@ Pointee
 struct
 Policy
 :
-node_hash_policy
+node_slot_policy
 <
 int
 &

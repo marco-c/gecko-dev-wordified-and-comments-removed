@@ -439,7 +439,7 @@ ABSL_PRINTF_ATTRIBUTE
 )
 ;
 void
-SafeWriteToStderr
+AsyncSignalSafeWriteToStderr
 (
 const
 char
@@ -515,7 +515,7 @@ RawLoggingFullySupported
 )
 ;
 using
-LogPrefixHook
+LogFilterAndPrefixHook
 =
 bool
 (
@@ -536,7 +536,7 @@ line
 char
 *
 *
-buffer
+buf
 int
 *
 buf_size
@@ -611,9 +611,9 @@ InternalLogFunction
 internal_log_function
 ;
 void
-RegisterLogPrefixHook
+RegisterLogFilterAndPrefixHook
 (
-LogPrefixHook
+LogFilterAndPrefixHook
 func
 )
 ;

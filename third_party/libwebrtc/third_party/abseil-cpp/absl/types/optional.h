@@ -1222,6 +1222,11 @@ typename
 U
 =
 T
+int
+&
+.
+.
+.
 typename
 =
 typename
@@ -1362,6 +1367,11 @@ template
 <
 typename
 U
+int
+&
+.
+.
+.
 typename
 =
 typename
@@ -1481,6 +1491,11 @@ template
 <
 typename
 U
+int
+&
+.
+.
+.
 typename
 =
 typename

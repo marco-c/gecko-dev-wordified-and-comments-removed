@@ -324,6 +324,10 @@ log_severity
 absl
 :
 :
+optional
+absl
+:
+:
 strings
 absl
 :
@@ -374,6 +378,10 @@ absl
 :
 :
 config
+absl
+:
+:
+dynamic_annotations
 absl
 :
 :
@@ -648,6 +656,13 @@ h
 flag
 .
 h
+"
+"
+internal
+/
+flag_msvc
+.
+inc
 "
 COPTS
 {
@@ -1425,5 +1440,5 @@ strings
 GTest
 :
 :
-gtest
+gmock
 )

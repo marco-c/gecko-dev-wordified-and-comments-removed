@@ -218,11 +218,6 @@ Waiter
 =
 delete
 ;
-~
-Waiter
-(
-)
-;
 bool
 Wait
 (
@@ -318,6 +313,13 @@ kIdlePeriods
 endif
 private
 :
+~
+Waiter
+(
+)
+=
+delete
+;
 #
 if
 ABSL_WAITER_MODE

@@ -822,6 +822,7 @@ v_
 }
 #
 else
+constexpr
 int128
 operator
 -
@@ -830,6 +831,7 @@ int128
 v
 )
 ;
+constexpr
 bool
 operator
 !
@@ -1048,7 +1050,7 @@ this
 }
 #
 endif
-inline
+constexpr
 bool
 operator
 =
@@ -1079,7 +1081,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 bool
 operator
 !
@@ -1110,7 +1112,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 bool
 operator
 <
@@ -1139,7 +1141,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 bool
 operator
 >
@@ -1168,7 +1170,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 bool
 operator
 <
@@ -1199,7 +1201,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 bool
 operator
 >
@@ -1230,7 +1232,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 int128
 operator
 -
@@ -1250,7 +1252,7 @@ v
 )
 ;
 }
-inline
+constexpr
 bool
 operator
 !
@@ -1270,7 +1272,7 @@ v
 )
 ;
 }
-inline
+constexpr
 int128
 operator
 ~
@@ -1290,7 +1292,7 @@ val
 )
 ;
 }
-inline
+constexpr
 int128
 operator
 +
@@ -1319,7 +1321,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 int128
 operator
 -
@@ -1531,7 +1533,7 @@ return
 this
 ;
 }
-inline
+constexpr
 int128
 operator
 |
@@ -1560,7 +1562,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 int128
 operator
 &
@@ -1589,7 +1591,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 int128
 operator
 ^
@@ -1618,7 +1620,7 @@ rhs
 )
 ;
 }
-inline
+constexpr
 int128
 operator
 <
@@ -1643,7 +1645,7 @@ lhs
 amount
 ;
 }
-inline
+constexpr
 int128
 operator
 >

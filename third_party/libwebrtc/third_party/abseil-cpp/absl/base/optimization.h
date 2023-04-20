@@ -340,7 +340,7 @@ NDEBUG
 )
 #
 define
-ABSL_INTERNAL_ASSUME
+ABSL_ASSUME
 (
 cond
 )
@@ -356,7 +356,7 @@ __builtin_assume
 )
 #
 define
-ABSL_INTERNAL_ASSUME
+ABSL_ASSUME
 (
 cond
 )
@@ -378,7 +378,7 @@ __builtin_unreachable
 )
 #
 define
-ABSL_INTERNAL_ASSUME
+ABSL_ASSUME
 (
 cond
 )
@@ -411,7 +411,7 @@ _MSC_VER
 )
 #
 define
-ABSL_INTERNAL_ASSUME
+ABSL_ASSUME
 (
 cond
 )
@@ -423,7 +423,7 @@ cond
 else
 #
 define
-ABSL_INTERNAL_ASSUME
+ABSL_ASSUME
 (
 cond
 )

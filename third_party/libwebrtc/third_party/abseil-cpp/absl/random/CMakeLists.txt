@@ -408,6 +408,7 @@ GTest
 :
 :
 gtest
+PUBLIC
 TESTONLY
 )
 absl_cc_test
@@ -677,11 +678,11 @@ DEPS
 absl
 :
 :
-inlined_vector
+config
 absl
 :
 :
-random_internal_nonsecure_base
+inlined_vector
 absl
 :
 :
@@ -2063,7 +2064,7 @@ core_headers
 absl
 :
 :
-optional
+inlined_vector
 absl
 :
 :
@@ -3475,6 +3476,10 @@ absl
 :
 :
 int128
+GTest
+:
+:
+gmock
 GTest
 :
 :

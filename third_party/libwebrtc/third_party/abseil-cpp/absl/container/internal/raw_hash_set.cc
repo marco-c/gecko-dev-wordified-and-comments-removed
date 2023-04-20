@@ -119,6 +119,9 @@ ctrl_t
 kEmpty
 }
 ;
+#
+ifdef
+ABSL_INTERNAL_NEED_REDUNDANT_CONSTEXPR_DECL
 constexpr
 size_t
 Group
@@ -126,6 +129,8 @@ Group
 :
 kWidth
 ;
+#
+endif
 inline
 size_t
 RandomSeed
@@ -321,6 +326,17 @@ ctrl_t
 kSentinel
 ;
 }
+template
+FindInfo
+find_first_non_full
+(
+const
+ctrl_t
+*
+size_t
+size_t
+)
+;
 }
 ABSL_NAMESPACE_END
 }

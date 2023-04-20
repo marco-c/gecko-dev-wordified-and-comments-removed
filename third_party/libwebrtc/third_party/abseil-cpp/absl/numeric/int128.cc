@@ -127,7 +127,7 @@ n
 )
 )
 {
-ABSL_INTERNAL_ASSUME
+ABSL_ASSUME
 (
 hi
 !
@@ -153,7 +153,7 @@ Uint128Low64
 n
 )
 ;
-ABSL_INTERNAL_ASSUME
+ABSL_ASSUME
 (
 low
 !
@@ -2222,6 +2222,9 @@ rep
 }
 ABSL_NAMESPACE_END
 }
+#
+ifdef
+ABSL_INTERNAL_NEED_REDUNDANT_CONSTEXPR_DECL
 namespace
 std
 {
@@ -2824,3 +2827,5 @@ int128
 tinyness_before
 ;
 }
+#
+endif

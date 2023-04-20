@@ -16,6 +16,17 @@ absl
 /
 base
 /
+attributes
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
 macros
 .
 h
@@ -100,6 +111,7 @@ Notification
 (
 )
 ;
+ABSL_MUST_USE_RESULT
 bool
 HasBeenNotified
 (

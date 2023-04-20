@@ -375,7 +375,17 @@ A
 typename
 Predicate
 >
-void
+typename
+flat_hash_set
+<
+T
+H
+E
+A
+>
+:
+:
+size_type
 erase_if
 (
 flat_hash_set
@@ -391,6 +401,7 @@ Predicate
 pred
 )
 {
+return
 container_internal
 :
 :

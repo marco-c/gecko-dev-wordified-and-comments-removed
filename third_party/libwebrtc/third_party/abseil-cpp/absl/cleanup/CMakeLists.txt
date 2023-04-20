@@ -123,6 +123,17 @@ under
 the
 License
 .
+#
+Internal
+-
+only
+target
+do
+not
+depend
+on
+directly
+.
 absl_cc_library
 (
 NAME

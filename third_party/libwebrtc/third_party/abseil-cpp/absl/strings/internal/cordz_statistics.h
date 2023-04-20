@@ -109,6 +109,11 @@ btree
 =
 0
 ;
+size_t
+crc
+=
+0
+;
 }
 ;
 int64_t

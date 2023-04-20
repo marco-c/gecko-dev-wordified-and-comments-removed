@@ -188,7 +188,7 @@ linux_hybrid
 -
 latest
 :
-20210617
+20220217
 "
 readonly
 LINUX_GCC_LATEST_CONTAINER
@@ -210,7 +210,7 @@ linux_hybrid
 -
 latest
 :
-20210617
+20220217
 "
 readonly
 LINUX_GCC_FLOOR_CONTAINER

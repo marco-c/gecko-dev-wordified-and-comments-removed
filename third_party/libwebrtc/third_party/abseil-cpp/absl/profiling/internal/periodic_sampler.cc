@@ -3,7 +3,7 @@ include
 "
 absl
 /
-base
+profiling
 /
 internal
 /
@@ -21,7 +21,7 @@ include
 "
 absl
 /
-base
+profiling
 /
 internal
 /
@@ -34,7 +34,7 @@ absl
 {
 ABSL_NAMESPACE_BEGIN
 namespace
-base_internal
+profiling_internal
 {
 int64_t
 PeriodicSamplerBase

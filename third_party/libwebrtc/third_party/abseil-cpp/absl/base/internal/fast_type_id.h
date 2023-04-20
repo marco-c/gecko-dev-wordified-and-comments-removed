@@ -39,6 +39,9 @@ dummy_var
 ;
 }
 ;
+#
+ifdef
+ABSL_INTERNAL_NEED_REDUNDANT_CONSTEXPR_DECL
 template
 <
 typename
@@ -54,6 +57,8 @@ Type
 :
 dummy_var
 ;
+#
+endif
 using
 FastTypeIdType
 =

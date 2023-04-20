@@ -653,9 +653,15 @@ p
 '
 %
 '
+static_cast
+<
+size_t
+>
+(
 end
 -
 p
+)
 )
 )
 ;
@@ -1218,6 +1224,11 @@ text
 string_view
 (
 end
+static_cast
+<
+size_t
+>
+(
 (
 base
 +
@@ -1227,6 +1238,7 @@ text_end
 )
 -
 end
+)
 )
 ;
 if

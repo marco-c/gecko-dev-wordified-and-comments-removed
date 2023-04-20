@@ -6384,6 +6384,8 @@ there
 }
 ABSL_NAMESPACE_END
 }
+namespace
+{
 using
 FormatExtensionTest
 =
@@ -6627,6 +6629,7 @@ p
 )
 )
 ;
+}
 }
 std
 :

@@ -1826,7 +1826,7 @@ sink
 ;
 default
 :
-ABSL_INTERNAL_ASSUME
+ABSL_ASSUME
 (
 false
 )

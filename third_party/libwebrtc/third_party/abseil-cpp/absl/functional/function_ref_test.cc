@@ -12,6 +12,11 @@ h
 #
 include
 <
+functional
+>
+#
+include
+<
 memory
 >
 #

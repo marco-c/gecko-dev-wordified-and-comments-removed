@@ -349,7 +349,7 @@ DCMAKE_BUILD_TYPE
 Release
 \
 -
-DBUILD_TESTING
+DABSL_BUILD_TESTING
 =
 ON
 \
@@ -373,6 +373,13 @@ j
 (
 nproc
 )
+-
+-
+output
+-
+on
+-
+failure
 make
 install
 ldconfig

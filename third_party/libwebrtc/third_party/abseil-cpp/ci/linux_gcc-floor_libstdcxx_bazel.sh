@@ -793,6 +793,17 @@ exceptions_mode
 -
 copt
 =
+"
+-
+DGTEST_REMOVE_LEGACY_TEST_CASEAPI_
+=
+1
+"
+\
+-
+-
+copt
+=
 -
 Werror
 \

@@ -162,6 +162,9 @@ s
 ;
 }
 #
+ifdef
+ABSL_INTERNAL_NEED_REDUNDANT_CONSTEXPR_DECL
+#
 define
 ABSL_INTERNAL_X_VAL
 (
@@ -251,6 +254,8 @@ FormatConversionCharSetInternal
 :
 kPointer
 ;
+#
+endif
 bool
 FormatSinkImpl
 :

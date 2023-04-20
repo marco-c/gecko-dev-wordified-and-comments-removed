@@ -12,8 +12,18 @@ thread_identity
 h
 "
 #
-ifndef
+if
+!
+defined
+(
 _WIN32
+)
+|
+|
+defined
+(
+__MINGW32__
+)
 #
 include
 <
@@ -171,6 +181,7 @@ ABSL_THREAD_IDENTITY_MODE
 =
 =
 ABSL_THREAD_IDENTITY_MODE_USE_CPP11
+ABSL_CONST_INIT
 #
 if
 ABSL_HAVE_ATTRIBUTE

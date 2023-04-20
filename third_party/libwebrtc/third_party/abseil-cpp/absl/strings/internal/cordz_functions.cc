@@ -62,7 +62,7 @@ base
 /
 internal
 /
-exponential_biased
+raw_logging
 .
 h
 "
@@ -71,11 +71,11 @@ include
 "
 absl
 /
-base
+profiling
 /
 internal
 /
-raw_logging
+exponential_biased
 .
 h
 "
@@ -138,7 +138,7 @@ thread_local
 absl
 :
 :
-base_internal
+profiling_internal
 :
 :
 ExponentialBiased

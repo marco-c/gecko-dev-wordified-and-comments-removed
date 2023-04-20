@@ -2341,7 +2341,7 @@ hash
 ;
 }
 ;
-TYPED_TEST_CASE_P
+TYPED_TEST_SUITE_P
 (
 StringLikeTest
 )

@@ -861,6 +861,9 @@ pos_
 ;
 }
 ;
+#
+ifdef
+ABSL_INTERNAL_NEED_REDUNDANT_CONSTEXPR_DECL
 constexpr
 size_t
 CordRepRing
@@ -868,6 +871,8 @@ CordRepRing
 :
 kMaxCapacity
 ;
+#
+endif
 bool
 CordRepRing
 :

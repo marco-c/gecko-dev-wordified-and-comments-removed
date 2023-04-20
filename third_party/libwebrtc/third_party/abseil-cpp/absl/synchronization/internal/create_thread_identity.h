@@ -44,14 +44,6 @@ CreateThreadIdentity
 (
 )
 ;
-void
-ReclaimThreadIdentity
-(
-void
-*
-v
-)
-;
 inline
 base_internal
 :

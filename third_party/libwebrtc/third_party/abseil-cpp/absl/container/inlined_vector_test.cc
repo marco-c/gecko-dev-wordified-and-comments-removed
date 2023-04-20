@@ -10648,7 +10648,7 @@ capacity
 ;
 }
 }
-REGISTER_TYPED_TEST_CASE_P
+REGISTER_TYPED_TEST_SUITE_P
 (
 InstanceTest
 Swap
@@ -10677,7 +10677,7 @@ CopyableOnlyInstance
 CopyableMovableInstance
 >
 ;
-INSTANTIATE_TYPED_TEST_CASE_P
+INSTANTIATE_TYPED_TEST_SUITE_P
 (
 InstanceTestOnTypes
 InstanceTest

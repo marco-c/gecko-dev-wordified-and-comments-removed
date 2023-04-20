@@ -42,6 +42,7 @@ MethodIdentifier
 {
 kUnknown
 kAppendCord
+kAppendCordBuffer
 kAppendExternalMemory
 kAppendString
 kAssignCord
@@ -51,15 +52,18 @@ kConstructorCord
 kConstructorString
 kCordReader
 kFlatten
+kGetAppendBuffer
 kGetAppendRegion
 kMakeCordFromExternal
 kMoveAppendCord
 kMoveAssignCord
 kMovePrependCord
 kPrependCord
+kPrependCordBuffer
 kPrependString
 kRemovePrefix
 kRemoveSuffix
+kSetExpectedChecksum
 kSubCord
 kNumMethods
 }

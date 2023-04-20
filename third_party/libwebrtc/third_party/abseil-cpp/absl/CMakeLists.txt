@@ -171,6 +171,10 @@ numeric
 )
 add_subdirectory
 (
+profiling
+)
+add_subdirectory
+(
 random
 )
 add_subdirectory

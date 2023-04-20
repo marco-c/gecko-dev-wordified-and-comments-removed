@@ -19,6 +19,11 @@ cstddef
 #
 include
 <
+cstdint
+>
+#
+include
+<
 cstring
 >
 #
@@ -288,9 +293,15 @@ Write
 string_view
 (
 buf_
+static_cast
+<
+size_t
+>
+(
 pos_
 -
 buf_
+)
 )
 )
 ;
@@ -533,6 +544,11 @@ Avail
 const
 {
 return
+static_cast
+<
+size_t
+>
+(
 buf_
 +
 sizeof
@@ -541,6 +557,7 @@ buf_
 )
 -
 pos_
+)
 ;
 }
 FormatRawSinkImpl

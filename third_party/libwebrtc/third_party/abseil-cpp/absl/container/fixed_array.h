@@ -2155,6 +2155,9 @@ storage_
 ;
 }
 ;
+#
+ifdef
+ABSL_INTERNAL_NEED_REDUNDANT_CONSTEXPR_DECL
 template
 <
 typename
@@ -2206,6 +2209,8 @@ A
 :
 inline_elements
 ;
+#
+endif
 template
 <
 typename

@@ -156,7 +156,7 @@ readonly
 ABSL_GOOGLETEST_COMMIT
 =
 "
-8d51ffdfab10b3fba636ae69bc03da4b54f8c235
+86add13493e5c881d7e4ba77fb91c1f57752b3a4
 "
 #
 Avoid

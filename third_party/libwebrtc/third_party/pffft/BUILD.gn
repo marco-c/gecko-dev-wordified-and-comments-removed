@@ -82,6 +82,16 @@ common_config
 "
 )
 {
+cflags
+=
+[
+"
+-
+Wno
+-
+shadow
+"
+]
 if
 (
 is_win

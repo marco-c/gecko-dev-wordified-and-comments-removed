@@ -1718,6 +1718,8 @@ s
 }
 }
 ;
+EXPECT_EQ
+(
 erase_if
 (
 s
@@ -1739,6 +1741,8 @@ return
 true
 ;
 }
+)
+5
 )
 ;
 EXPECT_THAT
@@ -1781,6 +1785,8 @@ s
 }
 }
 ;
+EXPECT_EQ
+(
 erase_if
 (
 s
@@ -1802,6 +1808,8 @@ return
 false
 ;
 }
+)
+0
 )
 ;
 EXPECT_THAT
@@ -1869,6 +1877,8 @@ s
 }
 }
 ;
+EXPECT_EQ
+(
 erase_if
 (
 s
@@ -1899,6 +1909,8 @@ first
 ;
 }
 )
+3
+)
 ;
 EXPECT_THAT
 (
@@ -1950,11 +1962,15 @@ s
 }
 }
 ;
+EXPECT_EQ
+(
 erase_if
 (
 s
 FirstIsEven
 )
+2
+)
 ;
 EXPECT_THAT
 (
@@ -2011,11 +2027,15 @@ s
 }
 }
 ;
+EXPECT_EQ
+(
 erase_if
 (
 s
 &
 FirstIsEven
+)
+2
 )
 ;
 EXPECT_THAT

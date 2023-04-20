@@ -1,9 +1,9 @@
 #
 ifndef
-ABSL_BASE_INTERNAL_EXPONENTIAL_BIASED_H_
+ABSL_PROFILING_INTERNAL_EXPONENTIAL_BIASED_H_
 #
 define
-ABSL_BASE_INTERNAL_EXPONENTIAL_BIASED_H_
+ABSL_PROFILING_INTERNAL_EXPONENTIAL_BIASED_H_
 #
 include
 <
@@ -38,7 +38,7 @@ absl
 {
 ABSL_NAMESPACE_BEGIN
 namespace
-base_internal
+profiling_internal
 {
 class
 ExponentialBiased

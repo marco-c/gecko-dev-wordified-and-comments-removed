@@ -240,10 +240,28 @@ template
 typename
 T
 >
+#
+if
+ABSL_HAVE_CPP_ATTRIBUTE
+(
+nodiscard
+)
+class
+[
+[
+nodiscard
+]
+]
+StatusOr
+;
+#
+else
 class
 ABSL_MUST_USE_RESULT
 StatusOr
 ;
+#
+endif
 template
 <
 typename
@@ -2060,6 +2078,7 @@ value
 )
 const
 &
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 ;
 T
 &
@@ -2067,6 +2086,7 @@ value
 (
 )
 &
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 ;
 const
 T
@@ -2078,6 +2098,7 @@ value
 const
 &
 &
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 ;
 T
 &
@@ -2087,6 +2108,7 @@ value
 )
 &
 &
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 ;
 const
 T
@@ -2097,6 +2119,7 @@ operator
 )
 const
 &
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 ;
 T
 &
@@ -2105,6 +2128,7 @@ operator
 (
 )
 &
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 ;
 const
 T
@@ -2117,6 +2141,7 @@ operator
 const
 &
 &
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 ;
 T
 &
@@ -2127,6 +2152,7 @@ operator
 )
 &
 &
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 ;
 const
 T
@@ -2137,6 +2163,7 @@ operator
 (
 )
 const
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 ;
 T
 *
@@ -2145,6 +2172,7 @@ operator
 >
 (
 )
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 ;
 template
 <

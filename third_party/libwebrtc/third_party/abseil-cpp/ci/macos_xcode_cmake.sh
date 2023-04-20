@@ -350,7 +350,7 @@ build_shared
 }
 \
 -
-DBUILD_TESTING
+DABSL_BUILD_TESTING
 =
 ON
 \

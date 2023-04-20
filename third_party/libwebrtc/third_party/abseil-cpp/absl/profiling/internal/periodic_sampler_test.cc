@@ -3,7 +3,7 @@ include
 "
 absl
 /
-base
+profiling
 /
 internal
 /
@@ -61,7 +61,7 @@ absl
 {
 ABSL_NAMESPACE_BEGIN
 namespace
-base_internal
+profiling_internal
 {
 namespace
 {

@@ -1,9 +1,9 @@
 #
 ifndef
-ABSL_CONTAINER_INTERNAL_NODE_HASH_POLICY_H_
+ABSL_CONTAINER_INTERNAL_NODE_SLOT_POLICY_H_
 #
 define
-ABSL_CONTAINER_INTERNAL_NODE_HASH_POLICY_H_
+ABSL_CONTAINER_INTERNAL_NODE_SLOT_POLICY_H_
 #
 include
 <
@@ -55,7 +55,7 @@ class
 Policy
 >
 struct
-node_hash_policy
+node_slot_policy
 {
 static_assert
 (

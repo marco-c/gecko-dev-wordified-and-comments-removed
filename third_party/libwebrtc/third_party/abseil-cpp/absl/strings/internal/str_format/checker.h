@@ -61,6 +61,14 @@ defined
 (
 __native_client__
 )
+&
+&
+\
+!
+defined
+(
+__INTELLISENSE__
+)
 #
 define
 ABSL_INTERNAL_ENABLE_FORMAT_CHECKER

@@ -2356,7 +2356,7 @@ fn
 )
 (
 int64_t
-wait_timestamp
+wait_cycles
 )
 )
 ;

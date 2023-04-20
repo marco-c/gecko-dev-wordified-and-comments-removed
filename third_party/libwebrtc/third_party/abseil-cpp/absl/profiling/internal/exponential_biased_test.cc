@@ -3,7 +3,7 @@ include
 "
 absl
 /
-base
+profiling
 /
 internal
 /
@@ -75,7 +75,9 @@ absl
 {
 ABSL_NAMESPACE_BEGIN
 namespace
-base_internal
+profiling_internal
+{
+namespace
 {
 MATCHER_P2
 (
@@ -1175,6 +1177,7 @@ Ge
 )
 )
 ;
+}
 }
 }
 ABSL_NAMESPACE_END

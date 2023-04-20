@@ -437,7 +437,7 @@ size
 strings_internal
 :
 :
-STLStringResizeUninitialized
+STLStringResizeUninitializedAmortized
 (
 output
 original_size

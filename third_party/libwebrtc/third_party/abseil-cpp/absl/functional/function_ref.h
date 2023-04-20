@@ -24,6 +24,17 @@ include
 "
 absl
 /
+base
+/
+attributes
+.
+h
+"
+#
+include
+"
+absl
+/
 functional
 /
 internal
@@ -161,6 +172,7 @@ const
 F
 &
 f
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 )
 :
 invoker_
