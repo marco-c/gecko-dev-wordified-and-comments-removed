@@ -75,7 +75,9 @@ center
 "
 >
 <
-image
+html
+:
+img
 height
 =
 "
@@ -161,7 +163,7 @@ inheritedAttributes
 {
 return
 {
-image
+img
 :
 "
 src
