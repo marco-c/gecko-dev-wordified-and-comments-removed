@@ -97,6 +97,9 @@ platforms
 :
 [
 "
+linux
+"
+"
 win
 "
 "
@@ -106,6 +109,9 @@ macosx
 intermittentNotLoaded
 :
 [
+"
+linux
+"
 "
 win
 "

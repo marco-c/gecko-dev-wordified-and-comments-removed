@@ -106,11 +106,6 @@ nsBoxLayoutState
 cpp
 "
 "
-nsImageBoxFrame
-.
-cpp
-"
-"
 nsLeafBoxFrame
 .
 cpp
