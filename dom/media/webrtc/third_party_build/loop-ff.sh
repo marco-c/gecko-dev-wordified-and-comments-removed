@@ -494,7 +494,10 @@ easy
 as
 running
 :
-python3
+.
+/
+mach
+python
 dom
 /
 media

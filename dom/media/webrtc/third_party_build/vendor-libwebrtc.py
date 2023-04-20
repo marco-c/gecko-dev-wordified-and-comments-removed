@@ -486,7 +486,10 @@ write
 (
 "
 #
-python3
+.
+/
+mach
+python
 {
 }
 \
@@ -674,7 +677,10 @@ write
 (
 "
 #
-python3
+.
+/
+mach
+python
 {
 }
 \

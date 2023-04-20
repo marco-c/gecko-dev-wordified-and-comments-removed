@@ -820,7 +820,10 @@ echo
 -
 -
 "
-python3
+.
+/
+mach
+python
 dom
 /
 media
