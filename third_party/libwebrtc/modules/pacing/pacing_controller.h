@@ -771,10 +771,6 @@ const
 bool
 ignore_transport_overhead_
 ;
-const
-TimeDelta
-padding_target_duration_
-;
 TimeDelta
 min_packet_limit_
 ;
