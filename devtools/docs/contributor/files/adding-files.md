@@ -456,7 +456,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 *
 Usage
 :
@@ -468,7 +470,7 @@ loader
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -483,7 +485,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 Example

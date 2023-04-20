@@ -163,7 +163,9 @@ Lazy
 load
 Loader
 .
-jsm
+sys
+.
+mjs
 to
 prevent
 loading
@@ -181,7 +183,7 @@ releaseDistinctSystemPrincipalLoader
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -196,7 +198,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

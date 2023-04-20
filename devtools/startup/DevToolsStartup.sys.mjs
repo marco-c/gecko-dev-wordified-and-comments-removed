@@ -494,7 +494,7 @@ require
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -509,7 +509,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -5525,7 +5527,7 @@ require
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -5540,7 +5542,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -6591,7 +6595,7 @@ releaseDistinctSystemPrincipalLoader
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -6606,7 +6610,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

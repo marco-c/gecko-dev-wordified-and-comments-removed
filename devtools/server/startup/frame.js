@@ -39,7 +39,7 @@ useDistinctSystemPrincipalLoader
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -54,7 +54,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -76,7 +78,7 @@ loader
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -91,7 +93,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -680,7 +684,7 @@ releaseDistinctSystemPrincipalLoader
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -695,7 +699,9 @@ loader
 /
 Loader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
