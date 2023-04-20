@@ -11721,9 +11721,11 @@ if
 data
 =
 =
-Ci
+lazy
 .
-nsIBrowserProfileMigrator
+MigrationUtils
+.
+resourceTypes
 .
 BOOKMARKS
 &
