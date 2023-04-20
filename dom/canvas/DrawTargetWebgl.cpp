@@ -7710,6 +7710,14 @@ Rect
 aRect
 )
 {
+if
+(
+mIsClear
+)
+{
+return
+;
+}
 PushClipRect
 (
 aRect
