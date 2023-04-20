@@ -2642,7 +2642,10 @@ if
 (
 PROG_IS_C_ONLY_
 (
+notdir
+(
 1
+)
 )
 )
 (
