@@ -7596,6 +7596,13 @@ true
 mir_op
 :
 ValueToIterator
+-
+name
+:
+IteratorHasIndicesAndBranch
+gen_boilerplate
+:
+false
 #
 Patchable
 jump
