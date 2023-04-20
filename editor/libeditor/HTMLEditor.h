@@ -2000,6 +2000,8 @@ const
 EditorInlineStyle
 &
 aStyle
+SplitAtEdges
+aSplitAtEdges
 )
 ;
 [

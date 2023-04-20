@@ -29272,7 +29272,7 @@ styledElement
 &
 elementStyle
 .
-IsCSSEditable
+IsCSSRemovable
 (
 *
 styledElement
@@ -29449,7 +29449,7 @@ styledElement
 &
 elementStyle
 .
-IsCSSEditable
+IsCSSSettable
 (
 *
 styledElement
@@ -29915,7 +29915,7 @@ if
 (
 elementStyle
 .
-IsCSSEditable
+IsCSSRemovable
 (
 *
 aElement
@@ -30448,7 +30448,7 @@ BGColor
 (
 )
 .
-IsCSSEditable
+IsCSSSettable
 (
 *
 editableBlockStyledElement
@@ -30604,7 +30604,7 @@ BGColor
 (
 )
 .
-IsCSSEditable
+IsCSSSettable
 (
 *
 styledElement
@@ -30819,7 +30819,7 @@ BGColor
 (
 )
 .
-IsCSSEditable
+IsCSSSettable
 (
 *
 editableBlockStyledElement
@@ -31185,7 +31185,7 @@ BGColor
 (
 )
 .
-IsCSSEditable
+IsCSSSettable
 (
 *
 blockStyledElement
@@ -31352,7 +31352,7 @@ BGColor
 (
 )
 .
-IsCSSEditable
+IsCSSSettable
 (
 *
 blockStyledElement
@@ -31555,7 +31555,7 @@ BGColor
 (
 )
 .
-IsCSSEditable
+IsCSSSettable
 (
 *
 blockStyledElement
