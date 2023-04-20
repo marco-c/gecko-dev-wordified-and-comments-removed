@@ -1284,5 +1284,10 @@ nsIURI
 aOut
 )
 ;
+readonly
+attribute
+double
+testNaN
+;
 }
 ;
