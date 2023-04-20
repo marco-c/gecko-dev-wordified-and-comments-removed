@@ -42,15 +42,6 @@ fuzzing_ccov_build_clang_12
 patch
 "
 "
-win64
--
-no
--
-symlink_clang_16
-.
-patch
-"
-"
 revert
 -
 llvmorg
