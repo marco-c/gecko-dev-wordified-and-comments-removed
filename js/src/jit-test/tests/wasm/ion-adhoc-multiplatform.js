@@ -3708,8 +3708,7 @@ de
 mov
 \
 \
--
-0x21524111
+0xDEADBEEF
 %
 edi
 8b
@@ -4507,8 +4506,7 @@ de
 mov
 \
 \
--
-0x21524111
+0xDEADBEEF
 %
 edi
 8b

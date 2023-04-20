@@ -733,11 +733,11 @@ void
 #
 define
 ZYAN_FALSE
-0u
+0
 #
 define
 ZYAN_TRUE
-1u
+1
 typedef
 ZyanU8
 ZyanBool

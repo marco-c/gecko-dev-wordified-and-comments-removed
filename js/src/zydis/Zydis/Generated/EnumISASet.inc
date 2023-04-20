@@ -23,9 +23,6 @@ AMD
 AMD3DNOW
 "
 "
-AMD_INVLPGB
-"
-"
 AMX_BF16
 "
 "
@@ -468,9 +465,6 @@ SMAP
 "
 "
 SMX
-"
-"
-SNP
 "
 "
 SSE
