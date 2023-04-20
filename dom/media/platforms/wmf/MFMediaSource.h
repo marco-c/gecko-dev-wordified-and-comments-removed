@@ -392,6 +392,9 @@ aStreamId
 )
 const
 ;
+#
+ifdef
+MOZ_WMF_CDM
 void
 SetCDMProxy
 (
@@ -400,6 +403,8 @@ MFCDMProxy
 aCDMProxy
 )
 ;
+#
+endif
 TaskQueue
 *
 GetTaskQueue
@@ -619,12 +624,17 @@ mPlaybackRate
 .
 0f
 ;
+#
+ifdef
+MOZ_WMF_CDM
 RefPtr
 <
 MFCDMProxy
 >
 mCDMProxy
 ;
+#
+endif
 }
 ;
 }

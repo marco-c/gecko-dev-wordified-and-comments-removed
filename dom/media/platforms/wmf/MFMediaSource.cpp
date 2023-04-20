@@ -2679,6 +2679,9 @@ MF_E_SHUTDOWN
 ;
 }
 }
+#
+ifdef
+MOZ_WMF_CDM
 if
 (
 !
@@ -2740,6 +2743,8 @@ aITAOut
 )
 )
 ;
+#
+endif
 return
 S_OK
 ;
@@ -2882,6 +2887,9 @@ return
 nullptr
 ;
 }
+#
+ifdef
+MOZ_WMF_CDM
 void
 MFMediaSource
 :
@@ -2898,6 +2906,8 @@ mCDMProxy
 aCDMProxy
 ;
 }
+#
+endif
 void
 MFMediaSource
 :

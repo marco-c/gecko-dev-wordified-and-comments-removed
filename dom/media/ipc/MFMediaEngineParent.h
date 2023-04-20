@@ -295,6 +295,9 @@ RecvShutdown
 (
 )
 ;
+#
+ifdef
+MOZ_WMF_CDM
 void
 SetCDMProxy
 (
@@ -303,6 +306,8 @@ MFCDMProxy
 aCDMProxy
 )
 ;
+#
+endif
 void
 Destroy
 (
@@ -468,6 +473,9 @@ MFMediaSource
 >
 mMediaSource
 ;
+#
+ifdef
+MOZ_WMF_CDM
 Microsoft
 :
 :
@@ -480,6 +488,8 @@ MFContentProtectionManager
 >
 mContentProtectionManager
 ;
+#
+endif
 MediaEventListener
 mMediaEngineEventListener
 ;
