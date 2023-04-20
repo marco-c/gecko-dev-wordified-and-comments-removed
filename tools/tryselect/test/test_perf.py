@@ -8,14 +8,33 @@ import
 mozunit
 import
 pytest
-import
+from
 tryselect
 .
 selectors
 .
 perf
-as
-ps
+import
+(
+    
+Apps
+    
+InvalidCategoryException
+    
+PerfParser
+    
+Platforms
+    
+Suites
+    
+Variants
+    
+check_for_live_sites
+    
+check_for_profile
+    
+run
+)
 TASKS
 =
 [
@@ -466,11 +485,11 @@ TEST_VARIANTS
 =
 {
     
-"
-no
--
-fission
-"
+Variants
+.
+NO_FISSION
+.
+value
 :
 {
         
@@ -497,9 +516,11 @@ platforms
 "
 :
 [
-"
-android
-"
+Platforms
+.
+ANDROID
+.
+value
 ]
         
 "
@@ -507,21 +528,25 @@ apps
 "
 :
 [
-"
-fenix
-"
-"
-geckoview
-"
+Apps
+.
+FENIX
+.
+value
+Apps
+.
+GECKOVIEW
+.
+value
 ]
     
 }
     
-"
-bytecode
--
-cached
-"
+Variants
+.
+BYTECODE_CACHED
+.
+value
 :
 {
         
@@ -548,9 +573,11 @@ platforms
 "
 :
 [
-"
-desktop
-"
+Platforms
+.
+DESKTOP
+.
+value
 ]
         
 "
@@ -558,18 +585,20 @@ apps
 "
 :
 [
-"
-firefox
-"
+Apps
+.
+FIREFOX
+.
+value
 ]
     
 }
     
-"
-live
--
-sites
-"
+Variants
+.
+LIVE_SITES
+.
+value
 :
 {
         
@@ -592,16 +621,26 @@ live
 "
         
 "
+restriction
+"
+:
+check_for_live_sites
+        
+"
 platforms
 "
 :
 [
-"
-desktop
-"
-"
-android
-"
+Platforms
+.
+DESKTOP
+.
+value
+Platforms
+.
+ANDROID
+.
+value
 ]
         
 "
@@ -610,8 +649,6 @@ apps
 :
 list
 (
-ps
-.
 PerfParser
 .
 apps
@@ -623,9 +660,11 @@ keys
     
 }
     
-"
-profiling
-"
+Variants
+.
+PROFILING
+.
+value
 :
 {
         
@@ -648,16 +687,26 @@ profil
 "
         
 "
+restriction
+"
+:
+check_for_profile
+        
+"
 platforms
 "
 :
 [
-"
-desktop
-"
-"
-android
-"
+Platforms
+.
+DESKTOP
+.
+value
+Platforms
+.
+ANDROID
+.
+value
 ]
         
 "
@@ -665,22 +714,30 @@ apps
 "
 :
 [
-"
-firefox
-"
-"
-geckoview
-"
-"
-fenix
-"
+Apps
+.
+FIREFOX
+.
+value
+Apps
+.
+GECKOVIEW
+.
+value
+Apps
+.
+FENIX
+.
+value
 ]
     
 }
     
-"
-swr
-"
+Variants
+.
+SWR
+.
+value
 :
 {
         
@@ -707,9 +764,11 @@ platforms
 "
 :
 [
-"
-desktop
-"
+Platforms
+.
+DESKTOP
+.
+value
 ]
         
 "
@@ -717,9 +776,11 @@ apps
 "
 :
 [
-"
-firefox
-"
+Apps
+.
+FIREFOX
+.
+value
 ]
     
 }
@@ -740,9 +801,11 @@ query
 :
 {
             
-"
-raptor
-"
+Suites
+.
+RAPTOR
+.
+value
 :
 [
 "
@@ -760,9 +823,11 @@ suites
 "
 :
 [
-"
-raptor
-"
+Suites
+.
+RAPTOR
+.
+value
 ]
         
 "
@@ -789,9 +854,11 @@ query
 :
 {
             
-"
-raptor
-"
+Suites
+.
+RAPTOR
+.
+value
 :
 [
 "
@@ -807,54 +874,25 @@ essential
 }
         
 "
-suites
-"
-:
-[
-"
-raptor
-"
-]
-        
-"
-tasks
-"
-:
-[
-]
-    
-}
-    
-"
-Pageload
-(
-live
-)
+variant
+-
+restrictions
 "
 :
 {
-        
-"
-query
-"
-:
-{
-            
-"
-raptor
-"
+Suites
+.
+RAPTOR
+.
+value
 :
 [
-"
-'
-browsertime
-'
-tp6
-'
-live
-"
+Variants
+.
+NO_FISSION
+.
+value
 ]
-        
 }
         
 "
@@ -862,56 +900,11 @@ suites
 "
 :
 [
-"
-raptor
-"
-]
-        
-"
-tasks
-"
-:
-[
-]
-    
-}
-    
-"
-Bytecode
-Cached
-"
-:
-{
-        
-"
-query
-"
-:
-{
-            
-"
-raptor
-"
-:
-[
-"
-'
-browsertime
-'
-bytecode
-"
-]
-        
-}
-        
-"
-suites
-"
-:
-[
-"
-raptor
-"
+Suites
+.
+RAPTOR
+.
+value
 ]
         
 "
@@ -935,9 +928,11 @@ query
 :
 {
             
-"
-raptor
-"
+Suites
+.
+RAPTOR
+.
+value
 :
 [
 "
@@ -955,10 +950,29 @@ suites
 "
 :
 [
-"
-raptor
-"
+Suites
+.
+RAPTOR
+.
+value
 ]
+        
+"
+variant
+-
+restrictions
+"
+:
+{
+Suites
+.
+RAPTOR
+.
+value
+:
+[
+]
+}
         
 "
 tasks
@@ -981,9 +995,11 @@ query
 :
 {
             
-"
-raptor
-"
+Suites
+.
+RAPTOR
+.
+value
 :
 [
 "
@@ -1001,10 +1017,29 @@ suites
 "
 :
 [
-"
-raptor
-"
+Suites
+.
+RAPTOR
+.
+value
 ]
+        
+"
+variant
+-
+restrictions
+"
+:
+{
+Suites
+.
+RAPTOR
+.
+value
+:
+[
+]
+}
         
 "
 tasks
@@ -1030,9 +1065,11 @@ query
 :
 {
             
-"
-talos
-"
+Suites
+.
+TALOS
+.
+value
 :
 [
 "
@@ -1050,9 +1087,11 @@ suites
 "
 :
 [
-"
-talos
-"
+Suites
+.
+TALOS
+.
+value
 ]
         
 "
@@ -1077,9 +1116,11 @@ query
 :
 {
             
-"
-talos
-"
+Suites
+.
+TALOS
+.
+value
 :
 [
 "
@@ -1095,9 +1136,11 @@ suites
 "
 :
 [
-"
-talos
-"
+Suites
+.
+TALOS
+.
+value
 ]
         
 "
@@ -1122,9 +1165,11 @@ query
 :
 {
             
-"
-talos
-"
+Suites
+.
+TALOS
+.
+value
 :
 [
 "
@@ -1138,9 +1183,11 @@ tp5
 "
 ]
             
-"
-raptor
-"
+Suites
+.
+RAPTOR
+.
+value
 :
 [
 "
@@ -1151,9 +1198,11 @@ osx
 "
 ]
             
-"
-awsy
-"
+Suites
+.
+AWSY
+.
+value
 :
 [
 "
@@ -1169,15 +1218,21 @@ suites
 "
 :
 [
-"
-talos
-"
-"
-raptor
-"
-"
-awsy
-"
+Suites
+.
+TALOS
+.
+value
+Suites
+.
+RAPTOR
+.
+value
+Suites
+.
+AWSY
+.
+value
 ]
         
 "
@@ -1187,9 +1242,11 @@ restrictions
 "
 :
 [
-"
-desktop
-"
+Platforms
+.
+DESKTOP
+.
+value
 ]
         
 "
@@ -1200,16 +1257,20 @@ restrictions
 :
 {
             
-"
-raptor
-"
+Suites
+.
+RAPTOR
+.
+value
 :
 [
 ]
             
-"
-talos
-"
+Suites
+.
+TALOS
+.
+value
 :
 [
 ]
@@ -1224,24 +1285,32 @@ restrictions
 :
 {
             
-"
-raptor
-"
+Suites
+.
+RAPTOR
+.
+value
 :
 [
-"
-firefox
-"
+Apps
+.
+FIREFOX
+.
+value
 ]
             
-"
-talos
-"
+Suites
+.
+TALOS
+.
+value
 :
 [
-"
-firefox
-"
+Apps
+.
+FIREFOX
+.
+value
 ]
         
 }
@@ -1270,9 +1339,11 @@ query
 :
 {
             
-"
-talos
-"
+Suites
+.
+TALOS
+.
+value
 :
 [
 "
@@ -1289,9 +1360,11 @@ webgl
 "
 ]
             
-"
-raptor
-"
+Suites
+.
+RAPTOR
+.
+value
 :
 [
 "
@@ -1311,13 +1384,39 @@ suites
 "
 :
 [
-"
-talos
-"
-"
-raptor
-"
+Suites
+.
+TALOS
+.
+value
+Suites
+.
+RAPTOR
+.
+value
 ]
+        
+"
+variant
+-
+restrictions
+"
+:
+{
+Suites
+.
+RAPTOR
+.
+value
+:
+[
+Variants
+.
+NO_FISSION
+.
+value
+]
+}
         
 "
 tasks
@@ -1349,7 +1448,7 @@ missing
 {
 }
             
-76
+58
             
 {
                 
@@ -1387,6 +1486,11 @@ clang
                         
 "
 !
+bytecode
+"
+                        
+"
+!
 live
 "
                         
@@ -1411,9 +1515,6 @@ safari
                 
 "
 Pageload
-(
-live
-)
 macosx
 "
 :
@@ -1430,8 +1531,6 @@ raptor
 browsertime
 '
 tp6
-'
-live
 "
                         
 "
@@ -1439,6 +1538,11 @@ live
 osx
 '
 shippable
+"
+                        
+"
+!
+bytecode
 "
                         
 "
@@ -1468,7 +1572,7 @@ safari
 "
 Resource
 Usage
-linux
+desktop
 "
 :
 {
@@ -1484,11 +1588,14 @@ awsy
 "
 "
 !
-clang
-'
-linux
+android
 '
 shippable
+!
+-
+32
+!
+clang
 "
 ]
                     
@@ -1507,11 +1614,19 @@ osx
                         
 "
 !
-clang
-'
-linux
+android
 '
 shippable
+!
+-
+32
+!
+clang
+"
+                        
+"
+!
+bytecode
 "
                         
 "
@@ -1541,6 +1656,7 @@ talos
 "
 :
 [
+                        
 "
 '
 talos
@@ -1550,14 +1666,29 @@ xperf
 '
 tp5
 "
+                        
 "
 !
-clang
-'
-linux
+android
 '
 shippable
+!
+-
+32
+!
+clang
 "
+                        
+"
+!
+profil
+"
+                        
+"
+!
+swr
+"
+                    
 ]
                 
 }
@@ -1594,7 +1725,7 @@ live_sites
 True
 }
             
-332
+66
             
 {
                 
@@ -1632,6 +1763,11 @@ clang
                         
 "
 !
+bytecode
+"
+                        
+"
+!
 profil
 "
                         
@@ -1651,9 +1787,6 @@ safari
                 
 "
 Pageload
-(
-live
-)
 macosx
 "
 :
@@ -1670,8 +1803,6 @@ raptor
 browsertime
 '
 tp6
-'
-live
 "
                         
 "
@@ -1683,6 +1814,11 @@ shippable
                         
 "
 !
+bytecode
+"
+                        
+"
+!
 profil
 "
                         
@@ -1701,14 +1837,11 @@ safari
 }
                 
 "
-Benchmarks
-desktop
-firefox
+Pageload
+macosx
 live
 -
 sites
-+
-profiling
 "
 :
 {
@@ -1723,19 +1856,29 @@ raptor
 '
 browsertime
 '
-benchmark
+tp6
+"
+                        
+"
+'
+osx
+'
+shippable
+"
+                        
+"
+'
+live
 "
                         
 "
 !
-android
-'
-shippable
+bytecode
+"
+                        
+"
 !
--
-32
-!
-clang
+profil
 "
                         
 "
@@ -1746,138 +1889,6 @@ chrom
 "
 !
 safari
-"
-                        
-"
-!
-chrom
-!
-geckoview
-!
-fenix
-!
-safari
-"
-                        
-"
-'
-live
-"
-                        
-"
-'
-profil
-"
-                    
-]
-                
-}
-                
-"
-Graphics
-&
-Media
-Playback
-desktop
-live
--
-sites
-+
-profiling
-+
-swr
-"
-:
-{
-                    
-"
-raptor
-"
-:
-[
-                        
-"
-'
-browsertime
-'
-youtube
--
-playback
-"
-                        
-"
-!
-android
-'
-shippable
-!
--
-32
-!
-clang
-"
-                        
-"
-!
-chrom
-"
-                        
-"
-!
-safari
-"
-                        
-"
-'
-live
-"
-                        
-"
-'
-profil
-"
-                    
-]
-                    
-"
-talos
-"
-:
-[
-                        
-"
-'
-talos
-'
-svgr
-|
-'
-bcv
-|
-'
-webgl
-"
-                        
-"
-!
-android
-'
-shippable
-!
--
-32
-!
-clang
-"
-                        
-"
-'
-profil
-"
-                        
-"
-'
-swr
 "
                     
 ]
@@ -1923,6 +1934,218 @@ desktop
 profiling
 +
 swr
+"
+                
+"
+Benchmarks
+desktop
+firefox
+live
+-
+sites
++
+profiling
+"
+                
+"
+Benchmarks
+desktop
+firefox
+live
+-
+sites
+"
+            
+]
+        
+)
+        
+(
+            
+{
+"
+live_sites
+"
+:
+True
+"
+safari
+"
+:
+True
+}
+            
+72
+            
+{
+                
+"
+Benchmarks
+desktop
+"
+:
+{
+                    
+"
+raptor
+"
+:
+[
+                        
+"
+'
+browsertime
+'
+benchmark
+"
+                        
+"
+!
+android
+'
+shippable
+!
+-
+32
+!
+clang
+"
+                        
+"
+!
+bytecode
+"
+                        
+"
+!
+profil
+"
+                        
+"
+!
+chrom
+"
+                    
+]
+                
+}
+                
+"
+Pageload
+macosx
+safari
+"
+:
+{
+                    
+"
+raptor
+"
+:
+[
+                        
+"
+'
+browsertime
+'
+tp6
+"
+                        
+"
+'
+osx
+'
+shippable
+"
+                        
+"
+'
+safari
+"
+                        
+"
+!
+bytecode
+"
+                        
+"
+!
+profil
+"
+                    
+]
+                
+}
+                
+"
+Pageload
+macosx
+safari
+live
+-
+sites
+"
+:
+{
+                    
+"
+raptor
+"
+:
+[
+                        
+"
+'
+browsertime
+'
+tp6
+"
+                        
+"
+'
+osx
+'
+shippable
+"
+                        
+"
+'
+safari
+"
+                        
+"
+'
+live
+"
+                        
+"
+!
+bytecode
+"
+                        
+"
+!
+profil
+"
+                    
+]
+                
+}
+            
+}
+            
+[
+                
+"
+Pageload
+linux
+safari
+"
+                
+"
+Pageload
+desktop
+safari
 "
             
 ]
@@ -1944,7 +2167,7 @@ chrome
 True
 }
             
-644
+114
             
 {
                 
@@ -1982,6 +2205,11 @@ clang
                         
 "
 !
+bytecode
+"
+                        
+"
+!
 profil
 "
                         
@@ -1996,10 +2224,10 @@ safari
                 
 "
 Pageload
-(
-live
-)
 macosx
+live
+-
+sites
 "
 :
 {
@@ -2015,8 +2243,6 @@ raptor
 browsertime
 '
 tp6
-'
-live
 "
                         
 "
@@ -2024,6 +2250,16 @@ live
 osx
 '
 shippable
+"
+                        
+"
+'
+live
+"
+                        
+"
+!
+bytecode
 "
                         
 "
@@ -2074,18 +2310,18 @@ clang
 "
                         
 "
-!
-profil
-"
-                        
-"
-!
-safari
-"
-                        
-"
 '
 chromium
+"
+                        
+"
+!
+bytecode
+"
+                        
+"
+!
+profil
 "
                     
 ]
@@ -2132,7 +2368,7 @@ android
 True
 }
             
-542
+88
             
 {
                 
@@ -2166,6 +2402,11 @@ shippable
 32
 !
 clang
+"
+                        
+"
+!
+bytecode
 "
                         
 "
@@ -2227,6 +2468,16 @@ aarch64
 "
                         
 "
+'
+geckoview
+"
+                        
+"
+!
+nofis
+"
+                        
+"
 !
 live
 "
@@ -2234,21 +2485,6 @@ live
 "
 !
 profil
-"
-                        
-"
-!
-chrom
-"
-                        
-"
-!
-safari
-"
-                        
-"
-'
-geckoview
 "
                     
 ]
@@ -2294,7 +2530,7 @@ chrome
 True
 }
             
-924
+138
             
 {
                 
@@ -2328,6 +2564,11 @@ shippable
 32
 !
 clang
+"
+                        
+"
+!
+bytecode
 "
                         
 "
@@ -2386,6 +2627,18 @@ aarch64
 "
                         
 "
+'
+chrome
+-
+m
+"
+                        
+"
+!
+nofis
+"
+                        
+"
 !
 live
 "
@@ -2393,18 +2646,6 @@ live
 "
 !
 profil
-"
-                        
-"
-!
-safari
-"
-                        
-"
-'
-chrome
--
-m
 "
                     
 ]
@@ -2452,7 +2693,7 @@ profile
 True
 }
             
-1324
+176
             
 {
                 
@@ -2490,6 +2731,11 @@ clang
                         
 "
 !
+bytecode
+"
+                        
+"
+!
 live
 "
                         
@@ -2507,8 +2753,6 @@ Talos
 PerfTests
 desktop
 profiling
-+
-swr
 "
 :
 {
@@ -2542,7 +2786,7 @@ profil
 "
                         
 "
-'
+!
 swr
 "
                     
@@ -2601,7 +2845,7 @@ windows
 ]
 }
             
-123
+14
             
 {
                 
@@ -2609,11 +2853,6 @@ windows
 Benchmarks
 windows
 firefox
-bytecode
--
-cached
-+
-profiling
 "
 :
 {
@@ -2643,21 +2882,6 @@ shippable
                         
 "
 !
-live
-"
-                        
-"
-!
-chrom
-"
-                        
-"
-!
-safari
-"
-                        
-"
-!
 chrom
 !
 geckoview
@@ -2668,12 +2892,17 @@ safari
 "
                         
 "
-'
+!
 bytecode
 "
                         
 "
-'
+!
+live
+"
+                        
+"
+!
 profil
 "
                     
@@ -2817,24 +3046,14 @@ True
             
 }
             
-49
+10
             
 {
                 
 "
-Bytecode
-Cached
+Pageload
 android
 fenix
-no
--
-fission
-+
-live
--
-sites
-+
-profiling
 "
 :
 {
@@ -2849,7 +3068,7 @@ raptor
 '
 browsertime
 '
-bytecode
+tp6
 "
                         
 "
@@ -2864,32 +3083,22 @@ aarch64
 "
                         
 "
-!
-chrom
-"
-                        
-"
-!
-safari
-"
-                        
-"
 '
 fenix
 "
                         
 "
-'
+!
 nofis
 "
                         
 "
-'
+!
 live
 "
                         
 "
-'
+!
 profil
 "
                     
@@ -2950,7 +3159,7 @@ True
             
 }
             
-98
+15
             
 {
                 
@@ -2958,11 +3167,6 @@ True
 Benchmarks
 android
 geckoview
-live
--
-sites
-+
-profiling
 "
 :
 {
@@ -2992,27 +3196,22 @@ aarch64
 "
                         
 "
-!
-chrom
-"
-                        
-"
-!
-safari
-"
-                        
-"
 '
 geckoview
 "
                         
 "
-'
+!
+nofis
+"
+                        
+"
+!
 live
 "
                         
 "
-'
+!
 profil
 "
                     
@@ -3021,19 +3220,9 @@ profil
 }
                 
 "
-Bytecode
-Cached
+Pageload
 android
 fenix
-no
--
-fission
-+
-live
--
-sites
-+
-profiling
 "
 :
 {
@@ -3048,7 +3237,7 @@ raptor
 '
 browsertime
 '
-bytecode
+tp6
 "
                         
 "
@@ -3063,32 +3252,22 @@ aarch64
 "
                         
 "
-!
-chrom
-"
-                        
-"
-!
-safari
-"
-                        
-"
 '
 fenix
 "
                         
 "
-'
+!
 nofis
 "
                         
 "
-'
+!
 live
 "
                         
 "
-'
+!
 profil
 "
                     
@@ -3107,17 +3286,15 @@ desktop
                 
 "
 Pageload
-(
-live
-)
 android
+no
+-
+fission
 "
                 
 "
 Pageload
 android
--
-p2
 fenix
 live
 -
@@ -3162,7 +3339,7 @@ True
             
 }
             
-70
+32
             
 {
                 
@@ -3201,6 +3378,11 @@ aarch64
 "
                         
 "
+'
+fenix
+"
+                        
+"
 !
 live
 "
@@ -3208,21 +3390,6 @@ live
 "
 !
 profil
-"
-                        
-"
-!
-chrom
-"
-                        
-"
-!
-safari
-"
-                        
-"
-'
-fenix
 "
                     
 ]
@@ -3267,26 +3434,6 @@ aarch64
 "
                         
 "
-!
-live
-"
-                        
-"
-!
-profil
-"
-                        
-"
-!
-chrom
-"
-                        
-"
-!
-safari
-"
-                        
-"
 '
 fenix
 "
@@ -3294,6 +3441,16 @@ fenix
 "
 '
 nofis
+"
+                        
+"
+!
+live
+"
+                        
+"
+!
+profil
 "
                     
 ]
@@ -3310,10 +3467,6 @@ fenix
 no
 -
 fission
-+
-live
--
-sites
 "
 :
 {
@@ -3345,21 +3498,6 @@ aarch64
 "
                         
 "
-!
-profil
-"
-                        
-"
-!
-chrom
-"
-                        
-"
-!
-safari
-"
-                        
-"
 '
 fenix
 "
@@ -3370,8 +3508,13 @@ nofis
 "
                         
 "
-'
+!
 live
+"
+                        
+"
+!
+profil
 "
                     
 ]
@@ -3449,7 +3592,7 @@ True
             
 }
             
-98
+40
             
 {
                 
@@ -3488,28 +3631,13 @@ aarch64
 "
                         
 "
-!
-live
+'
+fenix
 "
                         
 "
 !
 profil
-"
-                        
-"
-!
-chrom
-"
-                        
-"
-!
-safari
-"
-                        
-"
-'
-fenix
 "
                     
 ]
@@ -3554,26 +3682,6 @@ aarch64
 "
                         
 "
-!
-live
-"
-                        
-"
-!
-profil
-"
-                        
-"
-!
-chrom
-"
-                        
-"
-!
-safari
-"
-                        
-"
 '
 fenix
 "
@@ -3581,6 +3689,16 @@ fenix
 "
 '
 nofis
+"
+                        
+"
+!
+live
+"
+                        
+"
+!
+profil
 "
                     
 ]
@@ -3625,21 +3743,6 @@ aarch64
 "
                         
 "
-!
-profil
-"
-                        
-"
-!
-chrom
-"
-                        
-"
-!
-safari
-"
-                        
-"
 '
 fenix
 "
@@ -3647,6 +3750,16 @@ fenix
 "
 '
 live
+"
+                        
+"
+!
+nofis
+"
+                        
+"
+!
+profil
 "
                     
 ]
@@ -3658,6 +3771,67 @@ Pageload
 (
 essential
 )
+android
+fenix
+no
+-
+fission
+"
+:
+{
+                    
+"
+raptor
+"
+:
+[
+                        
+"
+'
+browsertime
+'
+tp6
+'
+essential
+"
+                        
+"
+'
+android
+'
+a51
+'
+shippable
+'
+aarch64
+"
+                        
+"
+'
+fenix
+"
+                        
+"
+'
+nofis
+"
+                        
+"
+!
+live
+"
+                        
+"
+!
+profil
+"
+                    
+]
+                
+}
+                
+"
+Pageload
 android
 fenix
 no
@@ -3682,8 +3856,6 @@ raptor
 browsertime
 '
 tp6
-'
-essential
 "
                         
 "
@@ -3695,21 +3867,6 @@ a51
 shippable
 '
 aarch64
-"
-                        
-"
-!
-profil
-"
-                        
-"
-!
-chrom
-"
-                        
-"
-!
-safari
 "
                         
 "
@@ -3725,6 +3882,11 @@ nofis
 "
 '
 live
+"
+                        
+"
+!
+profil
 "
                     
 ]
@@ -3754,6 +3916,22 @@ android
 -
 p2
 fenix
+live
+-
+sites
+"
+                
+"
+Pageload
+(
+essential
+)
+android
+fenix
+no
+-
+fission
++
 live
 -
 sites
@@ -3791,7 +3969,7 @@ windows
             
 }
             
-19
+14
             
 {
                 
@@ -3828,26 +4006,6 @@ shippable
                         
 "
 !
-live
-"
-                        
-"
-!
-profil
-"
-                        
-"
-!
-chrom
-"
-                        
-"
-!
-safari
-"
-                        
-"
-!
 chrom
 !
 geckoview
@@ -3855,6 +4013,21 @@ geckoview
 fenix
 !
 safari
+"
+                        
+"
+!
+bytecode
+"
+                        
+"
+!
+live
+"
+                        
+"
+!
+profil
 "
                     
 ]
@@ -3919,7 +4092,7 @@ True
             
 }
             
-83
+16
             
 {
                 
@@ -3956,26 +4129,6 @@ shippable
                         
 "
 !
-live
-"
-                        
-"
-!
-profil
-"
-                        
-"
-!
-chrom
-"
-                        
-"
-!
-safari
-"
-                        
-"
-!
 chrom
 !
 geckoview
@@ -3984,15 +4137,24 @@ fenix
 !
 safari
 "
+                        
+"
+!
+bytecode
+"
+                        
+"
+!
+profil
+"
                     
 ]
                 
 }
                 
 "
-Responsiveness
+Pageload
 windows
-firefox
 live
 -
 sites
@@ -4010,7 +4172,7 @@ raptor
 '
 browsertime
 '
-responsive
+tp6
 "
                         
 "
@@ -4021,6 +4183,16 @@ responsive
 windows
 '
 shippable
+"
+                        
+"
+'
+live
+"
+                        
+"
+!
+bytecode
 "
                         
 "
@@ -4037,22 +4209,6 @@ chrom
 !
 safari
 "
-                        
-"
-!
-chrom
-!
-geckoview
-!
-fenix
-!
-safari
-"
-                        
-"
-'
-live
-"
                     
 ]
                 
@@ -4064,13 +4220,6 @@ Graphics
 Media
 Playback
 windows
-live
--
-sites
-+
-profiling
-+
-swr
 "
 :
 {
@@ -4102,22 +4251,22 @@ shippable
                         
 "
 !
+bytecode
+"
+                        
+"
+!
+profil
+"
+                        
+"
+!
 chrom
 "
                         
 "
 !
 safari
-"
-                        
-"
-'
-live
-"
-                        
-"
-'
-profil
 "
                     
 ]
@@ -4152,12 +4301,12 @@ shippable
 "
                         
 "
-'
+!
 profil
 "
                         
 "
-'
+!
 swr
 "
                     
@@ -4203,6 +4352,28 @@ sites
 Talos
 android
 "
+                
+"
+Graphics
+&
+Media
+Playback
+windows
+live
+-
+sites
+"
+                
+"
+Graphics
+&
+Media
+Playback
+android
+no
+-
+fission
+"
             
 ]
         
@@ -4221,16 +4392,12 @@ missing
 )
 :
     
-ps
-.
 PerfParser
 .
 categories
 =
 TEST_CATEGORIES
     
-ps
-.
 PerfParser
 .
 variants
@@ -4239,11 +4406,9 @@ TEST_VARIANTS
     
 expanded_cats
 =
-ps
-.
 PerfParser
 .
-expand_categories
+get_categories
 (
 *
 *
@@ -4354,7 +4519,7 @@ expected_log_message
 }
             
 [
-7
+8
 2
 2
 5
@@ -4459,7 +4624,7 @@ True
 }
             
 [
-7
+8
 1
 1
 5
@@ -4855,11 +5020,15 @@ TASKS
 "
 TASKS
 ]
+            
+[
+"
+"
+TASKS
+]
         
 ]
         
-ps
-.
 run
 (
 *
@@ -5019,8 +5188,6 @@ should_fail
 )
 :
     
-ps
-.
 PerfParser
 .
 categories
@@ -5035,8 +5202,6 @@ live
 query
 }
     
-ps
-.
 PerfParser
 .
 variants
@@ -5052,14 +5217,10 @@ pytest
 .
 raises
 (
-ps
-.
 InvalidCategoryException
 )
 :
             
-ps
-.
 PerfParser
 .
 run_category_checks
@@ -5070,8 +5231,6 @@ else
 :
         
 assert
-ps
-.
 PerfParser
 .
 run_category_checks
