@@ -344,12 +344,6 @@ tests
 -
 backlog
 -
-linux
--
-talos
--
-flex
--
 talos
 -
 browsertime
@@ -406,12 +400,6 @@ platform
 tests
 -
 backlog
--
-linux
--
-talos
--
-flex
 -
 talos
 -
