@@ -4486,6 +4486,16 @@ api
 /
 video
 :
+resolution
+"
+"
+.
+.
+/
+api
+/
+video
+:
 video_bitrate_allocation
 "
 "
