@@ -191,6 +191,17 @@ nsILoadInfo
 aLoadInfo
 )
 ;
+static
+bool
+IsCompatibleWithCrossOriginIsolation
+(
+nsILoadInfo
+:
+:
+CrossOriginEmbedderPolicy
+aPolicy
+)
+;
 private
 :
 static
