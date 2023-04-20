@@ -482,6 +482,10 @@ Promise
 >
 mPendingEnumerateDevicesPromises
 ;
+mutable
+nsString
+mDefaultOutputLabel
+;
 MediaEventListener
 mDeviceChangeListener
 ;
