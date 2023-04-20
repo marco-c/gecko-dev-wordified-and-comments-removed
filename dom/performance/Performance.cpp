@@ -633,7 +633,13 @@ NowUnclamped
 ;
 if
 (
-mSystemPrincipal
+mRTPCallerType
+=
+=
+RTPCallerType
+:
+:
+SystemPrincipal
 )
 {
 return
