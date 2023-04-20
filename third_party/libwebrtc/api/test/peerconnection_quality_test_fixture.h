@@ -1979,6 +1979,15 @@ audio_mixer
 virtual
 PeerConfigurer
 *
+SetUseNetworkThreadAsWorkerThread
+(
+)
+=
+0
+;
+virtual
+PeerConfigurer
+*
 SetAsyncResolverFactory
 (
 std
