@@ -10921,6 +10921,7 @@ aRequestingPrincipal
 aContentPolicyType
 true
 trans
+false
 )
 ;
 NS_ENSURE_SUCCESS
