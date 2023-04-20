@@ -3519,10 +3519,6 @@ dav1d_java
 "
 "
 :
-libaom_av1_encoder_java
-"
-"
-:
 libvpx_vp8_java
 "
 "
