@@ -1061,9 +1061,6 @@ chimera
 "
 False
 )
-and
-not
-is_extra_profiler_run
 :
                 
 if
