@@ -616,16 +616,6 @@ nullptr
 ;
 }
 }
-nsresult
-RestartAnimation
-(
-)
-;
-nsresult
-StopAnimation
-(
-)
-;
 already_AddRefed
 <
 imgIRequest
