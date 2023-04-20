@@ -177,6 +177,9 @@ icegatheringstatechange
 "
 iceconnectionstatechange
 "
+"
+connectionstatechange
+"
 }
 ;
 callback
