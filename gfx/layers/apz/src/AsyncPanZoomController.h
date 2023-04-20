@@ -2627,6 +2627,12 @@ PanZoomState
 aNewState
 )
 ;
+PanZoomState
+GetState
+(
+)
+const
+;
 void
 DispatchStateChangeNotification
 (
