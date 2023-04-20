@@ -440,6 +440,11 @@ ModuleBindingMap
 \
 _
 (
+ModuleCyclicFields
+)
+\
+_
+(
 BaselineScript
 )
 \

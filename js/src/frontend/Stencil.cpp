@@ -11732,13 +11732,6 @@ initScriptSlots
 script
 )
 ;
-module
--
->
-initStatusSlot
-(
-)
-;
 if
 (
 !
