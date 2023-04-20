@@ -2536,7 +2536,7 @@ prevAllowContentJS_
 extern
 JS_PUBLIC_API
 uint64_t
-GetGCHeapUsageForObjectZone
+GetMemoryUsageForObjectZone
 (
 JSObject
 *

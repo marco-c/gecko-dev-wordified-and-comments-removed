@@ -2528,7 +2528,7 @@ memInfo
 ;
 memInfo
 .
-GCHeapUsage
+jsMemUsage
 (
 )
 =

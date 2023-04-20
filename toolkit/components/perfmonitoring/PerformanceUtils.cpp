@@ -640,7 +640,7 @@ GetBrowsingContextGroup
 )
 ;
 uint64_t
-GCHeapUsage
+jsMemUsed
 =
 0
 ;
@@ -663,12 +663,12 @@ object
 nullptr
 )
 {
-GCHeapUsage
+jsMemUsed
 =
 js
 :
 :
-GetGCHeapUsageForObjectZone
+GetMemoryUsageForObjectZone
 (
 object
 )
@@ -685,7 +685,7 @@ Then
 aEventTarget
 __func__
 [
-GCHeapUsage
+jsMemUsed
 sizes
 ]
 (
@@ -713,7 +713,7 @@ mStyle
 sizes
 .
 mOther
-GCHeapUsage
+jsMemUsed
 )
 __func__
 )

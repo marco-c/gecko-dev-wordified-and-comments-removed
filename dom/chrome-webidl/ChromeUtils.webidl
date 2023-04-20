@@ -5003,7 +5003,7 @@ domOther
 unsigned
 long
 long
-GCHeapUsage
+jsMemUsage
 =
 0
 ;
