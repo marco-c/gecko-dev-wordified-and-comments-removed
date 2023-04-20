@@ -153,6 +153,10 @@ win64
 /
 opt
 -
+win64
+/
+debug
+-
 win32
 -
 shippable
