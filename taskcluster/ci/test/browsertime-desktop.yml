@@ -3237,6 +3237,7 @@ apps
 firefox
 chrome
 chromium
+safari
 ]
 subtests
 :
