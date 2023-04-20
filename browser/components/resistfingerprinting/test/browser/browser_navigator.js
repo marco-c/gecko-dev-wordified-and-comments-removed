@@ -832,7 +832,7 @@ TEST_TARGET_URL
 {
 BASE
 }
-browser_navigator_header
+file_navigator_header
 .
 sjs
 ?
