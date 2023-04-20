@@ -888,10 +888,6 @@ cairo_quartz_surface_create_for_cg_context
 _moz_cairo_quartz_surface_create_for_cg_context
 #
 define
-cairo_quartz_surface_create_for_data
-_moz_cairo_quartz_surface_create_for_data
-#
-define
 cairo_quartz_surface_get_cg_context
 _moz_cairo_quartz_surface_get_cg_context
 #
