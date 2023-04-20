@@ -5720,7 +5720,7 @@ RemoveShutdownObserver
 (
 )
 ;
-ResetBitmap
+Reset
 (
 )
 ;
@@ -5980,11 +5980,11 @@ return
 true
 ;
 }
-void
+nsresult
 CanvasRenderingContext2D
 :
 :
-ResetBitmap
+Reset
 (
 )
 {
@@ -6058,6 +6058,9 @@ FrameCaptureState
 :
 CLEAN
 ;
+return
+NS_OK
+;
 }
 void
 CanvasRenderingContext2D
@@ -6079,7 +6082,7 @@ provider
 =
 mBufferProvider
 ;
-ResetBitmap
+Reset
 (
 )
 ;
@@ -8340,7 +8343,7 @@ int32_t
 aHeight
 )
 {
-ResetBitmap
+Reset
 (
 )
 ;

@@ -519,9 +519,8 @@ GetIsOpaque
 =
 0
 ;
-virtual
-void
-ResetBitmap
+NS_IMETHOD
+Reset
 (
 )
 =

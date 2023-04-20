@@ -6441,7 +6441,7 @@ mCurrentContext
 mCurrentContext
 -
 >
-ResetBitmap
+Reset
 (
 )
 ;
