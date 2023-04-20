@@ -100,6 +100,13 @@ aTimeStamp
 ;
 virtual
 void
+OnMaybeUpdateRefreshRate
+(
+)
+{
+}
+virtual
+void
 Dispose
 (
 )
@@ -140,6 +147,11 @@ Observer
 aObserver
 ObserverType
 aType
+)
+;
+void
+OnMaybeUpdateRefreshRate
+(
 )
 ;
 private

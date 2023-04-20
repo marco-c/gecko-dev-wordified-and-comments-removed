@@ -189,6 +189,8 @@ null
 return
 ;
 }
+if
+(
 GeckoScreenOrientation
 .
 getInstance
@@ -203,6 +205,16 @@ getDisplay
 (
 displayId
 )
+)
+)
+{
+return
+;
+}
+ScreenManagerHelper
+.
+refreshScreenInfo
+(
 )
 ;
 }
