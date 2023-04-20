@@ -2617,7 +2617,11 @@ html
 SET
 TIMEOUT
 :
-pending_beacon
+page
+-
+unload
+-
+beacon
 /
 resources
 /
