@@ -923,6 +923,16 @@ mMediaEngine
 #
 ifdef
 MOZ_WMF_CDM
+if
+(
+StaticPrefs
+:
+:
+media_eme_playready_enabled
+(
+)
+)
+{
 RETURN_VOID_IF_FAILED
 (
 MakeAndInitialize
@@ -935,6 +945,7 @@ mContentProtectionManager
 )
 )
 ;
+}
 #
 endif
 LOG
