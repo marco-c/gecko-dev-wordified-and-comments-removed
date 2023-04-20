@@ -979,7 +979,7 @@ Ok
 {
 RejectPromises
 (
-NS_ERROR_DOM_NETWORK_ERR
+NS_ERROR_DOM_ABORT_ERR
 )
 ;
 return
