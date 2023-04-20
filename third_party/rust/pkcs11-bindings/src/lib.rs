@@ -14,6 +14,14 @@ allow
 non_snake_case
 )
 ]
+#
+!
+[
+allow
+(
+overflowing_literals
+)
+]
 include
 !
 (

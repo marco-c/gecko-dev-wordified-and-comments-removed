@@ -116,7 +116,7 @@ version
 .
 1
 .
-1
+4
 "
 authors
 =
@@ -183,11 +183,6 @@ pkcs11
 -
 bindings
 "
-resolver
-=
-"
-1
-"
 [
 build
 -
@@ -198,9 +193,13 @@ bindgen
 version
 =
 "
+>
+=
 0
 .
 59
+.
+2
 "
 features
 =
