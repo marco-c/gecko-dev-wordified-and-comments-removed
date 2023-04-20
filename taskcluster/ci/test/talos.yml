@@ -5186,16 +5186,14 @@ windows
 :
 false
 windows10
-.
-*
+-
 64
 .
 *
 :
 true
 windows11
-.
-*
+-
 64
 .
 *
@@ -5240,6 +5238,8 @@ qr
 [
 ]
 windows10
+-
+64
 .
 *
 -
@@ -5257,6 +5257,8 @@ beta
 trunk
 ]
 windows11
+-
+64
 .
 *
 -

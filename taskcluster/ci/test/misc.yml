@@ -1584,9 +1584,10 @@ test
 -
 platform
 :
-windows
-.
-*
+windows10
+-
+64
+-
 asan
 .
 *
