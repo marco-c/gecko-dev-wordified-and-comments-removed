@@ -251,6 +251,14 @@ aVisitor
 )
 override
 ;
+nsINode
+*
+GetScopeChainParent
+(
+)
+const
+override
+;
 bool
 IsHTMLFocusable
 (

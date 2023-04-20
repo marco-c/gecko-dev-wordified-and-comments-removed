@@ -75,6 +75,14 @@ aResult
 const
 override
 ;
+nsINode
+*
+GetScopeChainParent
+(
+)
+const
+override
+;
 nsresult
 BindToTree
 (
