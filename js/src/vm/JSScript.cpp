@@ -10320,6 +10320,12 @@ options
 .
 lineno
 ;
+startColumn_
+=
+options
+.
+column
+;
 introductionType_
 =
 options
