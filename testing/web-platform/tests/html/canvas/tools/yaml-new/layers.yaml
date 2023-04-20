@@ -813,6 +813,7 @@ endLayer
 ;
 reference
 :
+|
 var
 circle
 =
@@ -1117,6 +1118,7 @@ fillRect
 ;
 reference
 :
+|
 ctx
 .
 fillStyle
@@ -1416,6 +1418,7 @@ endLayer
 }
 reference
 :
+|
 ctx
 .
 fillStyle
@@ -1987,6 +1990,7 @@ endLayer
 ;
 reference
 :
+|
 ctx
 .
 fillStyle
