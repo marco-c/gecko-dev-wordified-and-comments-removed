@@ -28,7 +28,7 @@ test_preload_hint_and_request
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -41,7 +41,9 @@ common
 /
 early_hint_preload_test_helper
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

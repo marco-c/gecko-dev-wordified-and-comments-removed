@@ -20,7 +20,7 @@ cleanup_test
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -33,7 +33,9 @@ common
 /
 cookie_filtering_helper
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -34,7 +34,7 @@ CookieXPCShellUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +47,9 @@ common
 /
 CookieXPCShellUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
