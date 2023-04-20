@@ -133,6 +133,14 @@ nsWindow
 aWidget
 )
 ;
+void
+Initialize
+(
+GtkCompositorWidget
+*
+aCompositorWidget
+)
+;
 #
 endif
 #
@@ -240,6 +248,12 @@ RefPtr
 nsWindow
 >
 mWidget
+;
+GtkCompositorWidget
+*
+mCompositorWidget
+=
+nullptr
 ;
 #
 endif
