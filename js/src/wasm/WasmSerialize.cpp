@@ -2680,7 +2680,7 @@ wasm
 :
 :
 StructType
-48
+136
 )
 ;
 MOZ_TRY
