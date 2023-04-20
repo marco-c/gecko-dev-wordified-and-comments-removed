@@ -370,6 +370,9 @@ email
 USVString
 given_name
 ;
+USVString
+picture
+;
 sequence
 <
 USVString
