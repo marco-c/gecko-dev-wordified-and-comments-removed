@@ -312,9 +312,6 @@ title
 _splitter
 :
 null
-_icon
-:
-null
 _reversePositionButton
 :
 null
