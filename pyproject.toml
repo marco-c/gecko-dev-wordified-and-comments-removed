@@ -47,6 +47,11 @@ F
 "
 #
 pyflakes
+"
+I
+"
+#
+isort
 ]
 ignore
 =
