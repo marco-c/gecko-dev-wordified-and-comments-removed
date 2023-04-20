@@ -31,10 +31,11 @@ result
 )
 ;
 assert
-.
-sameValue
 (
+!
 Object
+.
+prototype
 .
 hasOwnProperty
 .
@@ -45,7 +46,6 @@ result
 index
 '
 )
-false
 '
 Does
 not
@@ -78,10 +78,11 @@ property
 )
 ;
 assert
-.
-sameValue
 (
+!
 Object
+.
+prototype
 .
 hasOwnProperty
 .
@@ -92,7 +93,6 @@ result
 input
 '
 )
-false
 '
 Does
 not

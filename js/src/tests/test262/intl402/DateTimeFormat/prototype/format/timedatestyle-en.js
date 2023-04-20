@@ -80,6 +80,11 @@ full
 12
 :
 47
+\
+u
+{
+202F
+}
 PM
 Coordinated
 Universal
@@ -106,6 +111,11 @@ long
 12
 :
 47
+\
+u
+{
+202F
+}
 PM
 UTC
 "
@@ -128,6 +138,11 @@ medium
 12
 :
 47
+\
+u
+{
+202F
+}
 PM
 "
 "
@@ -146,6 +161,11 @@ short
 2
 :
 12
+\
+u
+{
+202F
+}
 PM
 "
 "

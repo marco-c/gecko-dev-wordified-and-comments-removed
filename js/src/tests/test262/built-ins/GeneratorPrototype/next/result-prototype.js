@@ -20,6 +20,8 @@ assert
 (
 Object
 .
+prototype
+.
 hasOwnProperty
 .
 call
@@ -42,6 +44,8 @@ value
 assert
 (
 Object
+.
+prototype
 .
 hasOwnProperty
 .

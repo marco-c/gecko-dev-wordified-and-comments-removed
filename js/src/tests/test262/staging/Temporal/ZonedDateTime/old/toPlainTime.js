@@ -7,9 +7,10 @@ Temporal
 TimeZone
 (
 "
-America
-/
-Los_Angeles
+-
+07
+:
+00
 "
 )
 ;

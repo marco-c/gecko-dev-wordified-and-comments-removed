@@ -58,6 +58,8 @@ assert
 (
 Object
 .
+prototype
+.
 hasOwnProperty
 .
 call

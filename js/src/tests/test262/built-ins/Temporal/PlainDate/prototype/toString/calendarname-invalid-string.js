@@ -12,7 +12,7 @@ PlainDate
 )
 ;
 const
-values
+invalidValues
 =
 [
 "
@@ -37,7 +37,7 @@ for
 const
 calendarName
 of
-values
+invalidValues
 )
 {
 assert
@@ -57,6 +57,16 @@ toString
 calendarName
 }
 )
+{
+calendarName
+}
+is
+an
+invalid
+value
+for
+calendarName
+option
 )
 ;
 }

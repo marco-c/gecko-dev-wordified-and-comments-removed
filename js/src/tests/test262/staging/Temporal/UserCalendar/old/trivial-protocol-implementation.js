@@ -750,13 +750,11 @@ from
 :
 34
 -
-07
+00
 :
 00
 [
-America
-/
-Vancouver
+UTC
 ]
 [
 u

@@ -256,6 +256,8 @@ assert
 (
 Object
 .
+prototype
+.
 hasOwnProperty
 .
 call
@@ -263,6 +265,13 @@ call
 value
 s
 )
+"
+s
+is
+an
+own
+property
+"
 )
 ;
 }

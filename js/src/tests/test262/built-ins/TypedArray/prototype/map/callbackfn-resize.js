@@ -78,7 +78,6 @@ buffer
 ;
 var
 finalElement
-finalResult
 expectedElements
 expectedIndices
 expectedArrays
@@ -143,10 +142,6 @@ finalElement
 =
 undefined
 ;
-finalResult
-=
-NaNvalue
-;
 expectedElements
 =
 [
@@ -177,10 +172,6 @@ _
 finalElement
 =
 0
-;
-finalResult
-=
-2
 ;
 expectedElements
 =
@@ -297,7 +288,7 @@ result
 [
 0
 1
-finalResult
+2
 ]
 '
 result

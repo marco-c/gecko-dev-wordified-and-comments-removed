@@ -70,10 +70,11 @@ once
 )
 ;
 assert
-.
-sameValue
 (
+!
 Object
+.
+prototype
 .
 hasOwnProperty
 .
@@ -84,7 +85,6 @@ target
 missing
 '
 )
-false
 '
 An
 own

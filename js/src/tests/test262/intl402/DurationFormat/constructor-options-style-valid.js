@@ -5,7 +5,7 @@ validOptions
 [
 undefined
 "
-long
+short
 "
 ]
 [

@@ -113,9 +113,10 @@ TimeZone
 from
 (
 "
-America
-/
-New_York
+-
+05
+:
+00
 "
 )
 ;
@@ -165,9 +166,10 @@ zdt
 :
 00
 [
-America
-/
-New_York
+-
+05
+:
+00
 ]
 "
 )

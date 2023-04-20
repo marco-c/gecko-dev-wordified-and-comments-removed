@@ -13689,6 +13689,9 @@ megabyte
 meter
 "
 "
+microsecond
+"
+"
 mile
 "
 "
@@ -13710,6 +13713,9 @@ minute
 "
 "
 month
+"
+"
+nanosecond
 "
 "
 ounce

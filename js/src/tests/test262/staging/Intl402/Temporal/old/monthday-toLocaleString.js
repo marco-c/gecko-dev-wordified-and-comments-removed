@@ -8,6 +8,8 @@ DateTimeFormat
 (
 "
 en
+-
+US
 "
 )
 .
@@ -50,6 +52,8 @@ toLocaleString
 (
 "
 en
+-
+US
 "
 {
 timeZone
@@ -68,6 +72,7 @@ New_York
 18
 "
 )
+;
 assert
 .
 sameValue
@@ -79,6 +84,8 @@ toLocaleString
 (
 "
 de
+-
+AT
 "
 {
 timeZone
@@ -99,6 +106,7 @@ calendar
 .
 "
 )
+;
 assert
 .
 sameValue
@@ -109,6 +117,8 @@ toLocaleString
 (
 "
 en
+-
+US
 "
 {
 timeZoneName
@@ -135,6 +145,8 @@ toLocaleString
 (
 "
 en
+-
+US
 "
 {
 year
@@ -161,6 +173,8 @@ toLocaleString
 (
 "
 en
+-
+US
 "
 {
 hour
@@ -187,6 +201,8 @@ toLocaleString
 (
 "
 en
+-
+US
 "
 {
 minute
@@ -213,6 +229,8 @@ toLocaleString
 (
 "
 en
+-
+US
 "
 {
 second
@@ -239,6 +257,8 @@ toLocaleString
 (
 "
 en
+-
+US
 "
 {
 weekday

@@ -9,6 +9,7 @@ loneCodePoints
 [
 0x003037
 0x01B000
+0x01B155
 ]
 ranges
 :
@@ -270,6 +271,10 @@ ranges
 ]
 [
 0x01B123
+0x01B154
+]
+[
+0x01B156
 0x01B163
 ]
 [

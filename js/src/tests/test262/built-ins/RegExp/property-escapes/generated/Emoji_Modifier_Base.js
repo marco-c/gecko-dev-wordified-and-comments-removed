@@ -115,7 +115,7 @@ ranges
 ]
 [
 0x01FAF0
-0x01FAF6
+0x01FAF8
 ]
 ]
 }
@@ -334,7 +334,7 @@ ranges
 0x01FAEF
 ]
 [
-0x01FAF7
+0x01FAF9
 0x10FFFF
 ]
 ]

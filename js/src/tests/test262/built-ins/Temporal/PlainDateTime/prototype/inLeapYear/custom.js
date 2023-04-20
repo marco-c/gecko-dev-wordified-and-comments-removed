@@ -49,9 +49,7 @@ arguments
 )
 ;
 return
-"
-7
-"
+true
 ;
 }
 }
@@ -95,9 +93,7 @@ assert
 sameValue
 (
 result
-"
-7
-"
+true
 "
 result
 "

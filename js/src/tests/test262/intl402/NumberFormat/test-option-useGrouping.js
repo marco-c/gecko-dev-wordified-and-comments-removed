@@ -171,6 +171,12 @@ FALSE
 "
 False
 "
+"
+Undefined
+"
+"
+undefined
+"
 ]
 )
 {

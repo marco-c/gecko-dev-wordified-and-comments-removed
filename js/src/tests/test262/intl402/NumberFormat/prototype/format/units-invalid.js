@@ -200,9 +200,6 @@ microgram
 micrometer
 "
 "
-microsecond
-"
-"
 milliampere
 "
 "
@@ -228,9 +225,6 @@ person
 "
 "
 nanometer
-"
-"
-nanosecond
 "
 "
 nautical
