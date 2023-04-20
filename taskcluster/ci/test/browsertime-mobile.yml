@@ -762,9 +762,6 @@ qr
 *
 :
 [
-trunk
--
-only
 ]
 default
 :
@@ -800,9 +797,6 @@ qr
 *
 :
 [
-trunk
--
-only
 ]
 default
 :
@@ -834,9 +828,6 @@ qr
 *
 :
 [
-mozilla
--
-central
 ]
 default
 :
@@ -859,6 +850,13 @@ essential
 tp6m
 -
 defaults
+run
+-
+without
+-
+variant
+:
+false
 raptor
 :
 apps
@@ -2023,6 +2021,13 @@ Speedometer
 3
 on
 Android
+run
+-
+without
+-
+variant
+:
+false
 raptor
 :
 apps

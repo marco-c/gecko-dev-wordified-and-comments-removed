@@ -4884,6 +4884,18 @@ try_name
 if
 "
 -
+fis
+"
+in
+try_name
+:
+                    
+return
+False
+                
+if
+"
+-
 power
 "
 in
@@ -4900,6 +4912,18 @@ geckoview
 in
 try_name
 :
+                
+if
+"
+-
+fis
+"
+in
+try_name
+:
+                    
+return
+False
                 
 cpu_n_memory_task
 =
