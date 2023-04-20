@@ -3054,9 +3054,10 @@ bool
 aFilterInputIsTainted
 )
 {
-nsTArray
+AutoTArray
 <
 FilterPrimitiveDescription
+8
 >
 primitiveDescriptions
 ;

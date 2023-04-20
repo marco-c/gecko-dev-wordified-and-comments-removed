@@ -1897,12 +1897,13 @@ mFilterSpaceBounds
 )
 ;
 }
-nsTArray
+AutoTArray
 <
 RefPtr
 <
 SVGFE
 >
+8
 >
 primitives
 ;
@@ -2060,9 +2061,10 @@ aPrimitiveDescrs
 sourceIndices
 )
 ;
-nsTArray
+AutoTArray
 <
 bool
+8
 >
 sourcesAreTainted
 ;

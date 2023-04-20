@@ -1732,9 +1732,10 @@ PrimitiveSubregion
 (
 )
 ;
-nsTArray
+AutoTArray
 <
 nsIntRegion
+8
 >
 inputExtents
 ;
