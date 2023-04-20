@@ -1170,11 +1170,6 @@ TokenStreamShared
 {
 private
 :
-JSContext
-*
-const
-cx
-;
 FrontendContext
 *
 const
@@ -1329,9 +1324,6 @@ public
 :
 TokenStreamAnyChars
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -2006,17 +1998,6 @@ const
 {
 return
 fc
-;
-}
-JSContext
-*
-jsContext
-(
-)
-const
-{
-return
-cx
 ;
 }
 using
@@ -4465,10 +4446,6 @@ TokenStreamCharsShared
 {
 protected
 :
-JSContext
-*
-cx
-;
 FrontendContext
 *
 fc
@@ -4485,9 +4462,6 @@ protected
 explicit
 TokenStreamCharsShared
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -4496,10 +4470,6 @@ ParserAtomsTable
 parserAtoms
 )
 :
-cx
-(
-cx
-)
 fc
 (
 fc
@@ -4674,9 +4644,6 @@ protected
 :
 TokenStreamCharsBase
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -7846,9 +7813,6 @@ public
 :
 TokenStreamSpecific
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -9778,9 +9742,6 @@ public
 :
 TokenStream
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -9807,7 +9768,6 @@ smg
 :
 TokenStreamAnyChars
 (
-cx
 fc
 options
 smg
@@ -9818,7 +9778,6 @@ Unit
 TokenStreamAnyCharsAccess
 >
 (
-cx
 fc
 parserAtoms
 options
@@ -9841,9 +9800,6 @@ public
 :
 DummyTokenStream
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -9858,7 +9814,6 @@ options
 :
 TokenStream
 (
-cx
 fc
 nullptr
 options

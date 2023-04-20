@@ -1149,7 +1149,6 @@ frontend
 DummyTokenStream
 dummyTokenStream
 (
-cx
 &
 fc
 dummyOptions
@@ -6306,7 +6305,6 @@ frontend
 DummyTokenStream
 dummyTokenStream
 (
-cx
 &
 fc
 dummyOptions

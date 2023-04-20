@@ -1728,7 +1728,6 @@ length
 TokenStreamAnyChars
 ts
 (
-cx
 fc
 compilationState
 .

@@ -2458,9 +2458,6 @@ TokenStreamAnyChars
 :
 TokenStreamAnyChars
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -2473,10 +2470,6 @@ StrictModeGetter
 smg
 )
 :
-cx
-(
-cx
-)
 fc
 (
 fc
@@ -2618,9 +2611,6 @@ Unit
 :
 TokenStreamCharsBase
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -2639,7 +2629,6 @@ startOffset
 :
 TokenStreamCharsShared
 (
-cx
 fc
 parserAtoms
 )
@@ -2968,9 +2957,6 @@ AnyCharsAccess
 :
 TokenStreamSpecific
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -2995,7 +2981,6 @@ Unit
 AnyCharsAccess
 >
 (
-cx
 fc
 parserAtoms
 units
