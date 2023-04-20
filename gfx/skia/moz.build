@@ -1783,17 +1783,6 @@ src
 /
 core
 /
-SkStrikeForGPU
-.
-cpp
-'
-'
-skia
-/
-src
-/
-core
-/
 SkStrikeSpec
 .
 cpp
