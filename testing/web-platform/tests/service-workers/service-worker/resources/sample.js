@@ -1,7 +1,0 @@
-var
-hello
-=
-"
-world
-"
-;

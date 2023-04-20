@@ -92,7 +92,7 @@ origin
 -
 corp
 .
-js
+txt
 '
 ;
 }

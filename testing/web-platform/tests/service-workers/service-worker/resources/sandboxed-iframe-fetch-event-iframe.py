@@ -68,9 +68,9 @@ __file__
 )
 u
 '
-sample
+blank
 .
-js
+html
 '
 )
 u
