@@ -1818,8 +1818,6 @@ mEvent
 ;
 if
 (
-NS_WARN_IF
-(
 event
 -
 >
@@ -1827,7 +1825,6 @@ mOriginalTarget
 !
 =
 this
-)
 )
 {
 return
