@@ -615,14 +615,9 @@ case
 warn
 "
 :
-case
-"
-warning
-"
-:
 return
 "
-warning
+warn
 "
 ;
 default

@@ -128,7 +128,7 @@ error
 info
 "
 "
-warning
+warn
 "
 ]
 )
@@ -487,7 +487,7 @@ Ci
 nsIScriptError
 .
 infoFlag
-warning
+warn
 :
 Ci
 .

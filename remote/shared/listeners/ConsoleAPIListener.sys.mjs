@@ -303,7 +303,7 @@ Importance
 one
 of
 info
-warning
+warn
 error
 debug
 trace

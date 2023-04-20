@@ -210,7 +210,7 @@ error
 "
 *
 "
-warning
+warn
 "
 and
 "
@@ -307,7 +307,7 @@ emits
 error
 "
 "
-warning
+warn
 "
 and
 "
@@ -333,7 +333,7 @@ Importance
 one
 of
 info
-warning
+warn
 error
 *
 debug
@@ -804,7 +804,7 @@ warningFlag
 level
 =
 "
-warning
+warn
 "
 ;
 }
