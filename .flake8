@@ -32,9 +32,6 @@ shared
 dom
 /
 bindings
-gfx
-/
-tests
 ipc
 /
 ipdl

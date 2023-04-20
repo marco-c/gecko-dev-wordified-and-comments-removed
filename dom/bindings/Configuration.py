@@ -1553,11 +1553,14 @@ hasInterfaceObject
 "
 :
                 
+def
 getter
-=
-lambda
+(
 x
+)
 :
+                    
+return
 x
 .
 interface
@@ -1575,11 +1578,14 @@ hasInterfacePrototypeObject
 "
 :
                 
+def
 getter
-=
-lambda
+(
 x
+)
 :
+                    
+return
 x
 .
 interface
@@ -1597,11 +1603,14 @@ hasInterfaceOrInterfacePrototypeObject
 "
 :
                 
+def
 getter
-=
-lambda
+(
 x
+)
 :
+                    
+return
 x
 .
 hasInterfaceOrInterfacePrototypeObject
@@ -1617,11 +1626,14 @@ isCallback
 "
 :
                 
+def
 getter
-=
-lambda
+(
 x
+)
 :
+                    
+return
 x
 .
 interface
@@ -1639,11 +1651,14 @@ isJSImplemented
 "
 :
                 
+def
 getter
-=
-lambda
+(
 x
+)
 :
+                    
+return
 x
 .
 interface
@@ -1661,11 +1676,14 @@ isExposedInAnyWorker
 "
 :
                 
+def
 getter
-=
-lambda
+(
 x
+)
 :
+                    
+return
 x
 .
 interface
@@ -1683,11 +1701,14 @@ isExposedInWorkerDebugger
 "
 :
                 
+def
 getter
-=
-lambda
+(
 x
+)
 :
+                    
+return
 x
 .
 interface
@@ -1705,11 +1726,14 @@ isExposedInAnyWorklet
 "
 :
                 
+def
 getter
-=
-lambda
+(
 x
+)
 :
+                    
+return
 x
 .
 interface
@@ -1727,11 +1751,14 @@ isExposedInWindow
 "
 :
                 
+def
 getter
-=
-lambda
+(
 x
+)
 :
+                    
+return
 x
 .
 interface
@@ -1749,11 +1776,14 @@ isExposedInShadowRealms
 "
 :
                 
+def
 getter
-=
-lambda
+(
 x
+)
 :
+                    
+return
 x
 .
 interface
@@ -1771,11 +1801,14 @@ isSerializable
 "
 :
                 
+def
 getter
-=
-lambda
+(
 x
+)
 :
+                    
+return
 x
 .
 interface
