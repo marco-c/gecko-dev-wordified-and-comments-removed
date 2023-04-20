@@ -1367,6 +1367,17 @@ identifyLanguage
 (
 message
 )
+.
+catch
+(
+error
+=
+>
+AT_logError
+(
+error
+)
+)
 ;
 this
 .
