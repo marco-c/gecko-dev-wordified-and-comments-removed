@@ -4767,9 +4767,9 @@ static
 bool
 prepareForInstantiate
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 CompilationAtomCache
 &
 atomCache
