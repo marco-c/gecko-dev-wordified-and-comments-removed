@@ -70,6 +70,9 @@ TestNativeNt
 TestPEExportSection
 "
 "
+TestStackCookie
+"
+"
 TestTimeStampWin
 "
 ]

@@ -60,6 +60,15 @@ h
 #
 include
 "
+mozilla
+/
+WindowsStackCookie
+.
+h
+"
+#
+include
+"
 nsDirectoryServiceDefs
 .
 h
