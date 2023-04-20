@@ -4886,6 +4886,12 @@ SFE_EXACT_SIZE_SURFACE
 <
 <
 6
+SFE_ORIENTATION_FROM_IMAGE
+=
+1
+<
+<
+7
 }
 ;
 static

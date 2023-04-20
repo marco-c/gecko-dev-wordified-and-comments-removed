@@ -2898,6 +2898,11 @@ nsLayoutUtils
 :
 :
 SFE_WANT_FIRST_FRAME_IF_IMAGE
+|
+nsLayoutUtils
+:
+:
+SFE_ORIENTATION_FROM_IMAGE
 ;
 if
 (
