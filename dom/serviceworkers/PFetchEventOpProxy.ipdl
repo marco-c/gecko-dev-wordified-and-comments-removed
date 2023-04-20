@@ -121,6 +121,13 @@ aResponse
 )
 ;
 async
+PreloadResponseTiming
+(
+ResponseTiming
+aTiming
+)
+;
+async
 PreloadResponseEnd
 (
 ResponseEndArgs
