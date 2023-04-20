@@ -906,6 +906,11 @@ make_unique
 VideoQualityAnalyzerInjectionHelper
 >
 (
+time_controller_
+.
+GetClock
+(
+)
 std
 :
 :
