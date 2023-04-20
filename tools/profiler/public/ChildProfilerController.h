@@ -65,6 +65,13 @@ nsStringFwd
 .
 h
 "
+#
+include
+"
+ProfileAdditionalInformation
+.
+h
+"
 namespace
 mozilla
 {
@@ -117,7 +124,7 @@ aEndpoint
 nodiscard
 ]
 ]
-nsCString
+ProfileAndAdditionalInformation
 GrabShutdownProfileAndShutdown
 (
 )
@@ -159,9 +166,9 @@ aEndpoint
 void
 ShutdownAndMaybeGrabShutdownProfileFirst
 (
-nsCString
+ProfileAndAdditionalInformation
 *
-aOutShutdownProfile
+aOutShutdownProfileInformation
 )
 ;
 void
@@ -185,9 +192,9 @@ aEndpoint
 void
 ShutdownProfilerChild
 (
-nsCString
+ProfileAndAdditionalInformation
 *
-aOutShutdownProfile
+aOutShutdownProfileInformation
 )
 ;
 RefPtr

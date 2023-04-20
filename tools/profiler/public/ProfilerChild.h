@@ -58,6 +58,13 @@ RefPtr
 .
 h
 "
+#
+include
+"
+ProfileAdditionalInformation
+.
+h
+"
 class
 nsIThread
 ;
@@ -90,7 +97,7 @@ ProfilerChild
 (
 )
 ;
-nsCString
+ProfileAndAdditionalInformation
 GrabShutdownProfile
 (
 )
