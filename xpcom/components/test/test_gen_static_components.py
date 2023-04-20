@@ -1,11 +1,11 @@
 import
-mozunit
-import
 os
 import
 sys
 import
 unittest
+import
+mozunit
 sys
 .
 path

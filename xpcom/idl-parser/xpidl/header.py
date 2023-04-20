@@ -25,6 +25,8 @@ __future__
 import
 absolute_import
 import
+itertools
+import
 os
 .
 path
@@ -34,8 +36,6 @@ from
 xpidl
 import
 xpidl
-import
-itertools
 printdoccomments
 =
 False

@@ -14,6 +14,8 @@ from
 uuid
 import
 UUID
+import
+buildconfig
 from
 mozbuild
 .
@@ -24,8 +26,6 @@ from
 perfecthash
 import
 PerfectHash
-import
-buildconfig
 NO_CONTRACT_ID
 =
 0xFFFFFFFF

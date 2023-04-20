@@ -1,15 +1,15 @@
 import
 json
 from
-perfecthash
-import
-PerfectHash
-from
 collections
 import
 OrderedDict
 import
 buildconfig
+from
+perfecthash
+import
+PerfectHash
 PHFSIZE
 =
 512
@@ -3768,13 +3768,13 @@ main
 )
 :
     
+import
+sys
+    
 from
 argparse
 import
 ArgumentParser
-    
-import
-sys
     
 parser
 =
