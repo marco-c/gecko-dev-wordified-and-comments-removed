@@ -54346,7 +54346,7 @@ thisValId
 ;
 writer
 .
-guardAnyClass
+guardShape
 (
 thisObjId
 thisval_
@@ -54355,7 +54355,7 @@ toObject
 (
 )
 .
-getClass
+shape
 (
 )
 )
