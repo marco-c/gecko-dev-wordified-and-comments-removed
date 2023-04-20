@@ -5404,6 +5404,15 @@ gUnifiedExtensions
 _initialized
 :
 false
+MESSAGE_DECK_INDEX_DEFAULT
+:
+0
+MESSAGE_DECK_INDEX_HOVER
+:
+1
+MESSAGE_DECK_INDEX_MENU_HOVER
+:
+2
 init
 (
 )
@@ -6154,7 +6163,6 @@ case
 ViewShowing
 "
 :
-{
 this
 .
 onPanelViewShowing
@@ -6166,13 +6174,11 @@ target
 ;
 break
 ;
-}
 case
 "
 ViewHiding
 "
 :
-{
 this
 .
 onPanelViewHiding
@@ -6182,7 +6188,8 @@ event
 target
 )
 ;
-}
+break
+;
 }
 }
 async
