@@ -809,6 +809,13 @@ mode
 .
 privateBrowsing
 "
+"
+cookiebanners
+.
+service
+.
+detectOnly
+"
 ]
 ;
 if
