@@ -390,7 +390,7 @@ new
 /
 popup
 /
-panel
+logic
 .
 jsm
 .
@@ -415,7 +415,7 @@ new
 /
 popup
 /
-panel
+logic
 .
 jsm
 .
