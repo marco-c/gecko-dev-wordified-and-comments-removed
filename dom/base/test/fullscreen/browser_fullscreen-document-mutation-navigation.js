@@ -259,6 +259,18 @@ if
 window
 .
 fullScreen
+|
+|
+document
+.
+documentElement
+.
+hasAttribute
+(
+"
+inFullscreen
+"
+)
 )
 {
 info
@@ -312,7 +324,7 @@ again
 )
 ;
 await
-waitDOMFullscreenEvent
+waitForFullScreenObserver
 (
 document
 false
