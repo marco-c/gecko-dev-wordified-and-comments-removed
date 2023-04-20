@@ -1398,7 +1398,8 @@ addEventListener
 AboutLoginsExportPasswordsDialog
 "
 async
-event
+(
+)
 =
 >
 {

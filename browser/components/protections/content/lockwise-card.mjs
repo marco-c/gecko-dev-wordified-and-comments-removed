@@ -95,14 +95,14 @@ LockwiseCard
 {
 constructor
 (
-document
+doc
 )
 {
 this
 .
 doc
 =
-document
+doc
 ;
 }
 /

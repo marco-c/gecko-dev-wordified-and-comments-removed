@@ -774,7 +774,7 @@ action
 :
 {
 const
-window
+win
 =
 event
 .
@@ -787,7 +787,7 @@ const
 switchToTabHavingURI
 }
 =
-window
+win
 .
 docShell
 .

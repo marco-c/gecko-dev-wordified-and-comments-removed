@@ -1509,7 +1509,7 @@ method
 .
 *
 param
-window
+win
 *
 The
 window
@@ -1546,7 +1546,7 @@ function
 promiseTargetFile
 (
 aFpP
-window
+win
 )
 {
 return
@@ -1564,7 +1564,7 @@ lazy
 .
 DownloadLastDir
 (
-window
+win
 )
 ;
 /
@@ -1753,7 +1753,7 @@ fp
 .
 init
 (
-window
+win
 ContentAreaUtils
 .
 stringBundle

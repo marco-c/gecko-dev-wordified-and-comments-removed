@@ -774,13 +774,13 @@ param
 {
 number
 }
-length
+textLength
 *
 /
 static
 recordTextLengthTelemetry
 (
-length
+textLength
 )
 {
 const
@@ -801,7 +801,7 @@ histogram
 .
 add
 (
-length
+textLength
 )
 ;
 }

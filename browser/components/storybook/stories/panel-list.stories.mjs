@@ -166,7 +166,7 @@ Template
 =
 (
 {
-open
+isOpen
 items
 }
 )
@@ -416,13 +416,13 @@ stay
 open
 =
 {
-open
+isOpen
 }
 ?
 open
 =
 {
-open
+isOpen
 }
 >
 {
@@ -531,7 +531,7 @@ Simple
 args
 =
 {
-open
+isOpen
 :
 false
 items
@@ -615,7 +615,7 @@ Icons
 args
 =
 {
-open
+isOpen
 :
 false
 items
@@ -671,7 +671,7 @@ args
 Simple
 .
 args
-open
+isOpen
 :
 true
 }

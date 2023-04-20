@@ -358,7 +358,7 @@ async
 function
 insertFTLIfNeeded
 (
-name
+fileName
 )
 {
 if
@@ -367,7 +367,7 @@ loadedResources
 .
 has
 (
-name
+fileName
 )
 )
 {
@@ -395,7 +395,7 @@ root
 rest
 ]
 =
-name
+fileName
 .
 split
 (
@@ -495,7 +495,7 @@ en
 US
 /
 {
-name
+fileName
 }
 )
 ;
@@ -567,7 +567,7 @@ en
 US
 /
 {
-name
+fileName
 }
 )
 ;
@@ -712,7 +712,7 @@ loadedResources
 .
 has
 (
-name
+fileName
 )
 )
 {
@@ -771,7 +771,7 @@ loadedResources
 .
 set
 (
-name
+fileName
 ftlResource
 )
 ;

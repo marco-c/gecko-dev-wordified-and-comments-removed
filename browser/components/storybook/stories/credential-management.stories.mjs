@@ -149,7 +149,7 @@ Template
 =
 (
 {
-history
+historyItems
 }
 )
 =
@@ -163,7 +163,7 @@ timeline
 history
 =
 {
-history
+historyItems
 }
 >
 <
@@ -235,7 +235,7 @@ EmptyTimeline
 args
 =
 {
-history
+historyItems
 :
 [
 ]
@@ -258,7 +258,7 @@ TypicalTimeline
 args
 =
 {
-history
+historyItems
 :
 [
 {
@@ -305,7 +305,7 @@ AllSameDayTimeline
 args
 =
 {
-history
+historyItems
 :
 [
 {

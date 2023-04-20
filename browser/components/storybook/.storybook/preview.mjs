@@ -198,7 +198,7 @@ bundle
 async
 importCss
 (
-name
+resourceName
 )
 {
 /
@@ -249,7 +249,7 @@ themes
 shared
 /
 {
-name
+resourceName
 }
 )
 ;

@@ -75,14 +75,14 @@ VPNCard
 {
 constructor
 (
-document
+doc
 )
 {
 this
 .
 doc
 =
-document
+doc
 ;
 }
 init
