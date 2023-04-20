@@ -1713,6 +1713,8 @@ WorkerGlobalScopeBase
 :
 ShouldResistFingerprinting
 (
+RFPTarget
+aTarget
 )
 const
 {
@@ -1722,6 +1724,15 @@ AssertIsOnWorkerThread
 ;
 return
 mShouldResistFingerprinting
+&
+&
+nsRFPService
+:
+:
+IsRFPEnabledFor
+(
+aTarget
+)
 ;
 }
 OriginTrials

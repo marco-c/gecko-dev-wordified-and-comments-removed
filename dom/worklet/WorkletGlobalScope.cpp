@@ -444,6 +444,8 @@ WorkletGlobalScope
 :
 ShouldResistFingerprinting
 (
+RFPTarget
+aTarget
 )
 const
 {
@@ -453,6 +455,7 @@ mImpl
 >
 ShouldResistFingerprinting
 (
+aTarget
 )
 ;
 }

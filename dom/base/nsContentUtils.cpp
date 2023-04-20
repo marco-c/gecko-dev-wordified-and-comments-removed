@@ -4896,6 +4896,10 @@ doc
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+PrecomputeIsEnabled
 )
 ;
 doc
@@ -4915,6 +4919,10 @@ doc
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+PrecomputeIsEnabled
 )
 )
 {
@@ -11357,14 +11365,17 @@ nsContentUtils
 :
 ShouldResistFingerprinting
 (
+RFPTarget
+aTarget
 )
 {
 return
-StaticPrefs
+nsRFPService
 :
 :
-privacy_resistFingerprinting_DoNotUseDirectly
+IsRFPEnabledFor
 (
+aTarget
 )
 ;
 }
@@ -11377,6 +11388,8 @@ ShouldResistFingerprinting
 nsIGlobalObject
 *
 aGlobalObject
+RFPTarget
+aTarget
 )
 {
 if
@@ -11388,6 +11401,7 @@ aGlobalObject
 return
 ShouldResistFingerprinting
 (
+aTarget
 )
 ;
 }
@@ -11397,6 +11411,7 @@ aGlobalObject
 >
 ShouldResistFingerprinting
 (
+aTarget
 )
 ;
 }
@@ -11621,11 +11636,14 @@ const
 char
 *
 aJustification
+RFPTarget
+aTarget
 )
 {
 return
 ShouldResistFingerprinting
 (
+aTarget
 )
 ;
 }
@@ -11640,6 +11658,8 @@ aCallerType
 nsIGlobalObject
 *
 aGlobalObject
+RFPTarget
+aTarget
 )
 {
 if
@@ -11661,6 +11681,7 @@ return
 ShouldResistFingerprinting
 (
 aGlobalObject
+aTarget
 )
 ;
 }
@@ -11673,6 +11694,8 @@ ShouldResistFingerprinting
 nsIDocShell
 *
 aDocShell
+RFPTarget
+aTarget
 )
 {
 if
@@ -11716,6 +11739,7 @@ docshell
 return
 ShouldResistFingerprinting
 (
+aTarget
 )
 ;
 }
@@ -11771,6 +11795,7 @@ doc
 return
 ShouldResistFingerprinting
 (
+aTarget
 )
 ;
 }
@@ -11780,6 +11805,7 @@ doc
 >
 ShouldResistFingerprinting
 (
+aTarget
 )
 ;
 }
@@ -11792,6 +11818,8 @@ ShouldResistFingerprinting
 nsIChannel
 *
 aChannel
+RFPTarget
+aTarget
 )
 {
 if
@@ -11805,6 +11833,7 @@ quick
 -
 check
 "
+aTarget
 )
 )
 {
@@ -12191,6 +12220,7 @@ GetOriginAttributes
 Internal
 Call
 "
+aTarget
 )
 ;
 }
@@ -12198,6 +12228,7 @@ return
 ShouldResistFingerprinting
 (
 loadInfo
+aTarget
 )
 ;
 }
@@ -12221,6 +12252,8 @@ const
 char
 *
 aJustification
+RFPTarget
+aTarget
 )
 {
 if
@@ -12234,6 +12267,7 @@ quick
 -
 check
 "
+aTarget
 )
 )
 {
@@ -12448,6 +12482,8 @@ ShouldResistFingerprinting
 nsILoadInfo
 *
 aLoadInfo
+RFPTarget
+aTarget
 )
 {
 MOZ_ASSERT
@@ -12491,6 +12527,7 @@ quick
 -
 check
 "
+aTarget
 )
 )
 {
@@ -12567,6 +12604,7 @@ principal
 Internal
 Call
 "
+aTarget
 )
 ;
 }
@@ -12583,6 +12621,8 @@ const
 char
 *
 aJustification
+RFPTarget
+aTarget
 )
 {
 if
@@ -12596,6 +12636,7 @@ quick
 -
 check
 "
+aTarget
 )
 )
 {
