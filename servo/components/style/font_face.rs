@@ -1268,7 +1268,7 @@ write_if_flag
 "
 color
 -
-colrv0
+COLRv0
 "
 =
 >
@@ -1281,7 +1281,7 @@ write_if_flag
 "
 color
 -
-colrv1
+COLRv1
 "
 =
 >
@@ -1294,7 +1294,7 @@ write_if_flag
 "
 color
 -
-svg
+SVG
 "
 =
 >
@@ -1320,7 +1320,7 @@ write_if_flag
 "
 color
 -
-cbdt
+CBDT
 "
 =
 >
