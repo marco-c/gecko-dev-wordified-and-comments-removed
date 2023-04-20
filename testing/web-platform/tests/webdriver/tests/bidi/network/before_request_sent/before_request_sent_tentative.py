@@ -272,10 +272,6 @@ expected_request
 redirect_count
 =
 0
-        
-is_redirect
-=
-False
     
 )
     
@@ -469,10 +465,6 @@ expected_request
 redirect_count
 =
 0
-        
-is_redirect
-=
-False
     
 )
 pytest
@@ -633,10 +625,6 @@ expected_request
 redirect_count
 =
 0
-        
-is_redirect
-=
-False
     
 )
 pytest
@@ -794,10 +782,6 @@ expected_request
 redirect_count
 =
 0
-        
-is_redirect
-=
-False
     
 )
 pytest
@@ -986,10 +970,6 @@ expected_request
 redirect_count
 =
 0
-        
-is_redirect
-=
-False
     
 )
     
@@ -1145,10 +1125,6 @@ expected_request
 redirect_count
 =
 0
-        
-is_redirect
-=
-False
     
 )
 pytest
@@ -1310,10 +1286,6 @@ expected_request
 redirect_count
 =
 0
-        
-is_redirect
-=
-False
     
 )
     
@@ -1347,9 +1319,6 @@ expected_request
 redirect_count
 =
 1
-is_redirect
-=
-True
     
 )
     
@@ -1540,10 +1509,6 @@ expected_request
 redirect_count
 =
 0
-        
-is_redirect
-=
-False
     
 )
     
@@ -1579,10 +1544,6 @@ expected_request
 redirect_count
 =
 0
-        
-is_redirect
-=
-False
     
 )
     
