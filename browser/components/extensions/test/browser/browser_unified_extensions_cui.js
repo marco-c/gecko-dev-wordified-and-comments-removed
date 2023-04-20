@@ -83,6 +83,17 @@ closed
 "
 )
 ;
+CustomizableUI
+.
+dispatchToolboxEvent
+(
+"
+aftercustomization
+"
+{
+}
+)
+;
 }
 )
 ;
