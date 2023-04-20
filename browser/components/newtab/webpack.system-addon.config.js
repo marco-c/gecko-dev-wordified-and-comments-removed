@@ -28,6 +28,8 @@ require
 "
 .
 /
+tools
+/
 resourceUriPlugin
 "
 )
@@ -150,6 +152,9 @@ plugins
 new
 ResourceUriPlugin
 (
+{
+resourcePathRegEx
+}
 )
 new
 webpack
