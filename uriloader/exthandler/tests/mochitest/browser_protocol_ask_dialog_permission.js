@@ -82,7 +82,7 @@ content
 ;
 requestLongerTimeout
 (
-3
+7
 )
 ;
 const
