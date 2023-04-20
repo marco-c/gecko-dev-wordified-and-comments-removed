@@ -316,6 +316,11 @@ ub18
 -
 base
 )
+definition
+:
+debian
+-
+base
 parent
 :
 ubuntu1804
@@ -333,12 +338,6 @@ ub18
 python
 -
 zstandard
--
-ub18
--
-python
--
-psutil
 ubuntu1804
 -
 test
