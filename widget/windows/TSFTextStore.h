@@ -2892,8 +2892,13 @@ Length
 )
 const
 {
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+mACP
+.
+isSome
+(
+)
 mACP
 -
 >
