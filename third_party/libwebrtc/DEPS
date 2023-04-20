@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-25ae710d52ac8d8d7578e26edd2cd1acf37a7671
+09cc07c4533b1913b322ca8fa8a20eeaca12f257
 '
 #
 Keep
@@ -313,7 +313,7 @@ chromium
 src
 /
 base
-d3664350d6f41d4c4f9ce5210a576b0f96ca5f9a
+4bd018dd45128078c5e74d4499ff4ce76bd140f6
 '
 '
 src
@@ -457,7 +457,7 @@ chromium
 src
 /
 ios
-1465f12e67b6fd10b8f068e110671262de4a6e6f
+67814b22efea2a04f1c5c709bb80d8d4d711a92f
 '
 '
 condition
@@ -489,7 +489,7 @@ chromium
 src
 /
 testing
-c2854ca1fe40de4a564c66c20894d4a59b23e15e
+17a229d7d11d34d5e4f3d24163be28350b115e72
 '
 '
 src
@@ -513,7 +513,7 @@ chromium
 src
 /
 third_party
-c3fac8dca54fe5a0fe2cd779ba84c74855b280f6
+290dc05fdbe92a03766316d4182b3419f344433f
 '
 '
 src
@@ -871,7 +871,7 @@ project
 libcxxabi
 .
 git
-9572e56a12c88c011d504a707ca94952be4664f9
+685c4ad257da543bdf9e3a391c28b3e4ac1f8aac
 '
 '
 src
@@ -1542,7 +1542,7 @@ third_party
 freetype2
 .
 git
-5182264a40e70ff31be0a0ec8a0d5ffb5f65582e
+8493877e78596cf7fe8eb008708070e3852d104a
 '
 '
 src
@@ -2168,7 +2168,7 @@ external
 perfetto
 .
 git
-a44f85ffb667c4b69b6717f8b656c27b90d93b05
+d905018c08900932c36d228953cf1c0dc8fdf31f
 '
 '
 src
@@ -2596,7 +2596,7 @@ chromium
 src
 /
 tools
-6c5b918001879bb23273117df443a054b7fb5f28
+579821d4f9ee53b11f05ff2323f56bf41abaa6d4
 '
 '
 src
@@ -2978,7 +2978,7 @@ version
 '
 :
 '
-904AOJizpni7pUzLC0rW57hAs0k1gQPPnwmoCPwvQ0EC
+iMCJS_4q6z9bSKJVJVw5ZR9qdI_5iZilsQytJhVNWz8C
 '
 }
 ]
