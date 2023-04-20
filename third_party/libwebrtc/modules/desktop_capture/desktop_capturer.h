@@ -344,12 +344,6 @@ DesktopVector
 pos
 )
 ;
-#
-if
-defined
-(
-WEBRTC_USE_PIPEWIRE
-)
 static
 std
 :
@@ -366,8 +360,6 @@ DesktopCaptureOptions
 options
 )
 ;
-#
-endif
 static
 std
 :
@@ -468,12 +460,6 @@ return
 endif
 protected
 :
-#
-if
-defined
-(
-WEBRTC_USE_PIPEWIRE
-)
 static
 std
 :
@@ -490,8 +476,6 @@ DesktopCaptureOptions
 options
 )
 ;
-#
-endif
 static
 std
 :
