@@ -76,15 +76,6 @@ THREADSAFE
 ;
 const
 uint32_t
-MAIN_THREAD_ONLY
-=
-1
-<
-<
-2
-;
-const
-uint32_t
 SINGLETON_CLASSINFO
 =
 1

@@ -847,10 +847,7 @@ aFlags
 *
 aFlags
 =
-nsIClassInfo
-:
-:
-MAIN_THREAD_ONLY
+0
 ;
 return
 NS_OK
