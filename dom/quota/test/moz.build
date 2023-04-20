@@ -418,7 +418,9 @@ system
 /
 ModuleLoader
 .
-jsm
+sys
+.
+mjs
 "
 "
 modules
@@ -427,7 +429,9 @@ system
 /
 StorageUtils
 .
-jsm
+sys
+.
+mjs
 "
 "
 modules
@@ -436,7 +440,9 @@ system
 /
 WorkerDriver
 .
-jsm
+sys
+.
+mjs
 "
 ]
 TESTING_JS_MODULES
