@@ -1115,7 +1115,6 @@ CaptureMouse
 bool
 aCapture
 )
-override
 ;
 void
 CaptureRollupEvents
