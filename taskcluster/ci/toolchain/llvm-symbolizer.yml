@@ -730,6 +730,11 @@ symbolizer
 for
 Linux
 "
+attributes
+:
+cached_task
+:
+false
 treeherder
 :
 symbol
@@ -1109,6 +1114,11 @@ for
 macOS
 aarch64
 "
+attributes
+:
+cached_task
+:
+false
 treeherder
 :
 symbol
