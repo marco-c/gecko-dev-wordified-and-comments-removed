@@ -111,6 +111,17 @@ Type
 DataError
 >
 {
+#
+!
+[
+allow
+(
+clippy
+:
+:
+unnecessary_lazy_evaluations
+)
+]
 Type
 :
 :
@@ -703,7 +714,6 @@ map_err
 |
 e
 |
-{
 DataError
 :
 :
@@ -715,7 +725,6 @@ t
 err
 :
 e
-}
 }
 )
 .
@@ -897,7 +906,6 @@ map_err
 |
 e
 |
-{
 DataError
 :
 :
@@ -909,7 +917,6 @@ t
 err
 :
 e
-}
 }
 )
 }

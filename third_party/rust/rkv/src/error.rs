@@ -394,6 +394,17 @@ DataError
 )
 #
 [
+cfg
+(
+feature
+=
+"
+lmdb
+"
+)
+]
+#
+[
 error
 (
 "
