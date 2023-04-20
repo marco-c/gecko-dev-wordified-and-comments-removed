@@ -2399,6 +2399,16 @@ local_ssrc
 private
 :
 void
+SetFlexFecPayload
+(
+int
+payload_type
+bool
+&
+flexfec_needs_recreation
+)
+;
+void
 RecreateReceiveStream
 (
 )
