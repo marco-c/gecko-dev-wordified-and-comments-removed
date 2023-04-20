@@ -92,7 +92,9 @@ modules
 /
 AsyncShutdown
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -195,7 +197,9 @@ modules
 /
 nsAsyncShutdown
 .
-jsm
+sys
+.
+mjs
 "
 ]
 services
