@@ -142,10 +142,10 @@ realm
 ;
 GCPtr
 <
-JSFunction
+JSObject
 *
 >
-fun
+callable
 ;
 static_assert
 (
@@ -153,7 +153,7 @@ sizeof
 (
 GCPtr
 <
-JSFunction
+JSObject
 *
 >
 )

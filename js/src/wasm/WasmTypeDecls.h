@@ -82,7 +82,7 @@ JSFunctionVector
 =
 GCVector
 <
-JSFunction
+JSObject
 *
 0
 SystemAllocPolicy

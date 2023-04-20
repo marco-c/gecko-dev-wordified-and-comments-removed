@@ -12661,7 +12661,7 @@ instanceOffset
 offsetof
 (
 FuncImportInstanceData
-fun
+callable
 )
 callee
 )
