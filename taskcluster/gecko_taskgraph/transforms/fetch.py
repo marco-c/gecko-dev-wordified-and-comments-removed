@@ -700,6 +700,28 @@ alias
 task_expires
 =
 "
+28
+days
+"
+if
+attributes
+.
+get
+(
+"
+cached_task
+"
+)
+is
+False
+else
+expires
+        
+artifact_expires
+=
+(
+            
+"
 2
 days
 "
@@ -716,6 +738,8 @@ is
 False
 else
 expires
+        
+)
         
 task
 =
@@ -956,7 +980,7 @@ expires
 after
 "
 :
-task_expires
+artifact_expires
                     
 }
                 
