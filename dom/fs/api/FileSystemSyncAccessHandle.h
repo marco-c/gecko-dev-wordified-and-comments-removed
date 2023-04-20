@@ -131,6 +131,11 @@ ClearActor
 (
 )
 ;
+void
+CloseInternal
+(
+)
+;
 nsIGlobalObject
 *
 GetParentObject

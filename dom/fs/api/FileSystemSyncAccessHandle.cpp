@@ -843,7 +843,7 @@ result
 result
 -
 >
-Close
+CloseInternal
 (
 )
 ;
@@ -918,7 +918,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_PRESERVED_WRAPPER
 tmp
 -
 >
-Close
+CloseInternal
 (
 )
 ;
@@ -987,7 +987,7 @@ void
 FileSystemSyncAccessHandle
 :
 :
-Close
+CloseInternal
 (
 )
 {
@@ -1436,6 +1436,19 @@ OutputStream
 -
 >
 Flush
+(
+)
+;
+}
+void
+FileSystemSyncAccessHandle
+:
+:
+Close
+(
+)
+{
+CloseInternal
 (
 )
 ;
