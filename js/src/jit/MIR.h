@@ -3026,7 +3026,7 @@ analyzeEdgeCasesBackward
 ;
 virtual
 bool
-needTruncation
+canTruncate
 (
 )
 const
@@ -6314,7 +6314,7 @@ alloc
 override
 ;
 bool
-needTruncation
+canTruncate
 (
 )
 const
@@ -6818,7 +6818,7 @@ alloc
 override
 ;
 bool
-needTruncation
+canTruncate
 (
 )
 const
@@ -13914,7 +13914,7 @@ true
 ;
 }
 bool
-needTruncation
+canTruncate
 (
 )
 const
@@ -16330,7 +16330,7 @@ alloc
 override
 ;
 bool
-needTruncation
+canTruncate
 (
 )
 const
@@ -24785,7 +24785,7 @@ alloc
 override
 ;
 bool
-needTruncation
+canTruncate
 (
 )
 const
@@ -24991,7 +24991,7 @@ alloc
 override
 ;
 bool
-needTruncation
+canTruncate
 (
 )
 const
@@ -25443,7 +25443,7 @@ alloc
 override
 ;
 bool
-needTruncation
+canTruncate
 (
 )
 const
@@ -25991,7 +25991,7 @@ fallible
 const
 ;
 bool
-needTruncation
+canTruncate
 (
 )
 const
@@ -26887,7 +26887,7 @@ alloc
 override
 ;
 bool
-needTruncation
+canTruncate
 (
 )
 const
@@ -29950,7 +29950,7 @@ const
 override
 ;
 bool
-needTruncation
+canTruncate
 (
 )
 const
