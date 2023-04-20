@@ -209,8 +209,7 @@ uint8_t
 aResponse
 )
 override
-{
-}
+;
 void
 CloseSession
 (
@@ -545,6 +544,12 @@ MozPromiseRequestHolder
 GenericPromise
 >
 mLoadSessionRequest
+;
+MozPromiseRequestHolder
+<
+GenericPromise
+>
+mUpdateSessionRequest
 ;
 const
 dom
