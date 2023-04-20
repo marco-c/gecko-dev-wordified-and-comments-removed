@@ -6432,7 +6432,7 @@ return
 nbase
 ;
 }
-Shape
+SharedShape
 *
 SharedShape
 :
@@ -6468,7 +6468,7 @@ cx
 >
 newCell
 <
-Shape
+SharedShape
 >
 (
 base
@@ -6476,11 +6476,10 @@ objectFlags
 nfixed
 map
 mapLength
-false
 )
 ;
 }
-Shape
+DictionaryShape
 *
 DictionaryShape
 :
