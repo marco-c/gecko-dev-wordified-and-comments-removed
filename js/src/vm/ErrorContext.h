@@ -221,7 +221,7 @@ err
 0
 ;
 virtual
-void
+bool
 reportWarning
 (
 js
@@ -499,7 +499,7 @@ err
 )
 override
 ;
-void
+bool
 reportWarning
 (
 js
