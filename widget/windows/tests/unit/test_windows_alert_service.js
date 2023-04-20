@@ -440,6 +440,11 @@ s
 let
 settingsAction
 =
+hostport
+=
+>
+{
+return
 isBackgroundTaskMode
 ?
 "
@@ -462,6 +467,7 @@ argumentString
 "
 settings
 "
+hostport
 )
 }
 "
@@ -472,6 +478,8 @@ contextmenu
 "
 /
 >
+;
+}
 ;
 let
 alertsService
@@ -673,6 +681,8 @@ actions
 >
 {
 settingsAction
+(
+)
 }
 <
 /
@@ -813,6 +823,8 @@ actions
 >
 {
 settingsAction
+(
+)
 }
 <
 /
@@ -961,6 +973,8 @@ actions
 >
 {
 settingsAction
+(
+)
 }
 <
 /
@@ -1102,6 +1116,8 @@ actions
 >
 {
 settingsAction
+(
+)
 }
 <
 action
@@ -1511,6 +1527,10 @@ launch
 {
 argumentString
 (
+null
+principaluri
+.
+hostPort
 )
 }
 "
@@ -1626,6 +1646,9 @@ argumentString
 "
 snooze
 "
+principaluri
+.
+hostPort
 )
 }
 "
@@ -1638,6 +1661,11 @@ contextmenu
 >
 {
 settingsAction
+(
+principaluri
+.
+hostPort
+)
 }
 <
 action
@@ -1655,6 +1683,9 @@ argumentString
 "
 dismiss
 "
+principaluri
+.
+hostPort
 )
 }
 "
@@ -1676,6 +1707,9 @@ argumentString
 "
 snooze
 "
+principaluri
+.
+hostPort
 )
 }
 "
