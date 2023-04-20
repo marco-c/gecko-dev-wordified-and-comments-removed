@@ -1966,7 +1966,7 @@ third_party
 /
 python
 /
-virtualenv
+_venv
 /
 *
 *
