@@ -81,10 +81,6 @@ h
 >
 #
 define
-UI_SNPRINTF
-_snprintf
-#
-define
 UI_DIR_SEPARATOR
 "
 \
@@ -112,10 +108,6 @@ success
 ;
 #
 else
-#
-define
-UI_SNPRINTF
-snprintf
 #
 define
 UI_DIR_SEPARATOR
