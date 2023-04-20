@@ -3105,9 +3105,6 @@ feedback_time
 result
 .
 target_bitrate
-result
-.
-delay_detector_state
 )
 ;
 MaybeTriggerOnNetworkChanged
@@ -3123,9 +3120,12 @@ feedback_time
 bandwidth_estimation_
 -
 >
-UpdateLossBasedEstimatorFromFeedbackVector
+UpdateLossBasedEstimator
 (
 report
+result
+.
+delay_detector_state
 )
 ;
 recovered_from_overuse
