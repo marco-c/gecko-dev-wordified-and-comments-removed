@@ -83657,16 +83657,6 @@ Address
 addr
 )
 {
-EmitPreBarrier
-(
-masm
-addr
-MIRType
-:
-:
-Shape
-)
-;
 }
 )
 ;
