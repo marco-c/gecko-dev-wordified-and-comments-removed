@@ -354,6 +354,8 @@ pressureServiceReadingTimerId_
 =
 null
 )
+this
+.
 stopPlatformCollector
 (
 )
