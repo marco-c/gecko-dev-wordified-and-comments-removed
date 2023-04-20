@@ -570,6 +570,8 @@ absl
 :
 string_view
 peer_name
+VideoSubscription
+peer_subscription
 rtc
 :
 :
