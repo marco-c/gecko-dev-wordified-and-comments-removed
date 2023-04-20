@@ -9593,7 +9593,6 @@ MaybeSendResetStreamsRequest
 (
 )
 ;
-}
 tcb_
 -
 >
@@ -9602,6 +9601,7 @@ SendBufferedPackets
 now
 )
 ;
+}
 }
 void
 DcSctpSocket
