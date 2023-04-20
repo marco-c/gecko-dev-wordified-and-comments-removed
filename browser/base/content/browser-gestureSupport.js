@@ -2416,6 +2416,9 @@ opacity
 0
 .
 35s
+0
+.
+35s
 cubic
 -
 bezier
