@@ -119,17 +119,12 @@ Element
 aElements
 )
 ;
-#
-ifndef
-MOZ_NEW_XULSTORE
 nsCOMPtr
 <
 nsIXULStore
 >
 mLocalStore
 ;
-#
-endif
 Document
 *
 MOZ_NON_OWNING_REF
