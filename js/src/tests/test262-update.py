@@ -152,12 +152,6 @@ weakmap
 -
 keys
 "
-        
-"
-Array
-.
-fromAsync
-"
     
 ]
 )
@@ -352,6 +346,24 @@ array
 by
 -
 copy
+"
+    
+"
+Array
+.
+fromAsync
+"
+:
+"
+-
+-
+enable
+-
+array
+-
+from
+-
+async
 "
 }
 contextlib
