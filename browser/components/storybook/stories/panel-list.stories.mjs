@@ -136,7 +136,14 @@ openMenu
 e
 =
 >
-document
+{
+e
+.
+target
+.
+getRootNode
+(
+)
 .
 querySelector
 (
@@ -151,6 +158,8 @@ toggle
 (
 e
 )
+;
+}
 ;
 const
 Template
