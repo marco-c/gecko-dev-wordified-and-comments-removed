@@ -1,7 +1,3 @@
-from
-__future__
-import
-absolute_import
 import
 contextlib
 from
@@ -92,11 +88,13 @@ multiple
 "
 )
 )
+def
 upload
-=
-lambda
+(
 url
+)
 :
+return
 "
 data
 :
