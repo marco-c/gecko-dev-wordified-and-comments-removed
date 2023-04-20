@@ -260,7 +260,7 @@ std
 :
 string
 &
-stream_label
+peer_name
 )
 const
 ;
@@ -273,7 +273,7 @@ std
 :
 string
 &
-test_case_name
+peer_name
 const
 VideoBweStats
 &
