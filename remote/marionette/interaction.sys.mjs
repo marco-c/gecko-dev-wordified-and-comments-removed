@@ -2446,15 +2446,6 @@ innerHTML
 "
 "
 ;
-lazy
-.
-event
-.
-change
-(
-el
-)
-;
 el
 .
 blur
