@@ -640,10 +640,17 @@ input
 .
 try_parse
 (
+|
+i
+|
 SystemFont
 :
 :
 parse
+(
+context
+i
+)
 )
 {
 return

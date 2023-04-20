@@ -3368,15 +3368,6 @@ LookAndFeel
 FontID
 :
 :
-MozDialog
-:
-case
-LookAndFeel
-:
-:
-FontID
-:
-:
 MozButton
 :
 case
