@@ -2153,8 +2153,7 @@ com
 "
 extra
 :
-{
-}
+undefined
 }
 )
 ;
