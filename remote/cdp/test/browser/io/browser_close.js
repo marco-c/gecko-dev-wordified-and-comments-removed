@@ -32,6 +32,7 @@ ipsum
 const
 {
 handle
+path
 }
 =
 await
@@ -55,12 +56,12 @@ ok
 !
 (
 await
-IOUtils
+OS
+.
+File
 .
 exists
 (
-handle
-.
 path
 )
 )
