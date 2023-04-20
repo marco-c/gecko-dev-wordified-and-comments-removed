@@ -30,6 +30,18 @@ DNSByTypeRecord
 h
 "
 ;
+using
+nsIRequest
+:
+:
+TRRMode
+from
+"
+nsIRequest
+.
+h
+"
+;
 namespace
 mozilla
 {
@@ -56,7 +68,7 @@ trrFetchDurationNetworkOnly
 bool
 isTRR
 ;
-uint32_t
+TRRMode
 effectiveTRRMode
 ;
 uint32_t

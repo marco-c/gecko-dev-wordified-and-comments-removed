@@ -63,6 +63,13 @@ nsISupports
 .
 idl
 "
+#
+include
+"
+nsIRequest
+.
+idl
+"
 %
 {
 C
@@ -854,8 +861,7 @@ used
 /
 readonly
 attribute
-unsigned
-long
+nsIRequest_TRRMode
 effectiveTRRMode
 ;
 /
