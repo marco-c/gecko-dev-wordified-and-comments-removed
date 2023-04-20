@@ -292,7 +292,7 @@ linux64
 -
 rust
 -
-nightly
+beta
 -
 linux64
 -
@@ -490,7 +490,7 @@ rust
 -
 cross
 -
-nightly
+beta
 -
 linux64
 -
@@ -709,7 +709,7 @@ rust
 -
 cross
 -
-nightly
+beta
 -
 linux64
 -
@@ -1004,7 +1004,7 @@ rust
 -
 cross
 -
-nightly
+beta
 -
 linux64
 -
