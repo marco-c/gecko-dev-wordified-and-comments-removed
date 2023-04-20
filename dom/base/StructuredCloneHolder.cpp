@@ -6780,6 +6780,8 @@ global
 =
 mGlobal
 ;
+if
+(
 RefPtr
 <
 VideoFrame
@@ -6798,7 +6800,8 @@ get
 )
 data
 )
-;
+)
+{
 delete
 data
 ;
@@ -6853,6 +6856,7 @@ toObject
 return
 true
 ;
+}
 }
 return
 false
