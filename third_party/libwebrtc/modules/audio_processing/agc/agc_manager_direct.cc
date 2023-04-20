@@ -61,7 +61,7 @@ modules
 /
 audio_processing
 /
-agc
+agc2
 /
 gain_map_internal
 .

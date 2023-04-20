@@ -2555,6 +2555,11 @@ fixed_digital_unittests
 "
 agc2
 :
+input_volume_controller_unittests
+"
+"
+agc2
+:
 noise_estimator_unittests
 "
 "
@@ -3227,7 +3232,7 @@ rtc_base
 safe_minmax
 "
 "
-agc
+agc2
 :
 gain_map
 "

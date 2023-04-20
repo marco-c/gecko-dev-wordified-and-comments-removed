@@ -39,7 +39,7 @@ modules
 /
 audio_processing
 /
-agc
+agc2
 /
 gain_map_internal
 .
@@ -520,7 +520,7 @@ kFloatSampleMax
 }
 ;
 float
-ComputeAgc1LinearFactor
+ComputeAgcLinearFactor
 (
 const
 absl
@@ -571,7 +571,7 @@ undo_level
 ;
 }
 class
-FakeRecordingDeviceAgc1
+FakeRecordingDeviceAgc
 final
 :
 public
@@ -580,7 +580,7 @@ FakeRecordingDeviceWorker
 public
 :
 explicit
-FakeRecordingDeviceAgc1
+FakeRecordingDeviceAgc
 (
 const
 int
@@ -594,7 +594,7 @@ initial_mic_level
 {
 }
 ~
-FakeRecordingDeviceAgc1
+FakeRecordingDeviceAgc
 (
 )
 override
@@ -619,7 +619,7 @@ const
 float
 scaling_factor
 =
-ComputeAgc1LinearFactor
+ComputeAgcLinearFactor
 (
 undo_mic_level_
 mic_level_
@@ -700,7 +700,7 @@ const
 float
 scaling_factor
 =
-ComputeAgc1LinearFactor
+ComputeAgcLinearFactor
 (
 undo_mic_level_
 mic_level_
@@ -852,7 +852,7 @@ std
 :
 make_unique
 <
-FakeRecordingDeviceAgc1
+FakeRecordingDeviceAgc
 >
 (
 initial_mic_level
