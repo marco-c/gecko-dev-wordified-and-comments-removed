@@ -2141,6 +2141,7 @@ Object
 freeze
 (
 {
+index
 itemId
 bookmarkGuid
 :
