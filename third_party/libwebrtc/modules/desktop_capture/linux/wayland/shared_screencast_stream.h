@@ -118,6 +118,14 @@ uint32_t
 stream_node_id
 int
 fd
+uint32_t
+width
+=
+0
+uint32_t
+height
+=
+0
 )
 ;
 void

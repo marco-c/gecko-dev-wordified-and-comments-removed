@@ -207,6 +207,16 @@ StartScreenCastStream
 (
 stream_node_id
 fd
+options_
+.
+get_width
+(
+)
+options_
+.
+get_height
+(
+)
 )
 )
 {
