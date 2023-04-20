@@ -13249,6 +13249,14 @@ jitter_buffer_target_delay_seconds
 ;
 rinfo
 .
+jitter_buffer_minimum_delay_seconds
+=
+stats
+.
+jitter_buffer_minimum_delay_seconds
+;
+rinfo
+.
 inserted_samples_for_deceleration
 =
 stats

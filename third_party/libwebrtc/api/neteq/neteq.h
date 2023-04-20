@@ -178,6 +178,11 @@ jitter_buffer_target_delay_ms
 0
 ;
 uint64_t
+jitter_buffer_minimum_delay_ms
+=
+0
+;
+uint64_t
 inserted_samples_for_deceleration
 =
 0

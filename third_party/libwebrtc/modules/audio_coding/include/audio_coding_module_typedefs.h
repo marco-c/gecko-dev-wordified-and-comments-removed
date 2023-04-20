@@ -153,6 +153,9 @@ uint64_t
 jitterBufferTargetDelayMs
 ;
 uint64_t
+jitterBufferMinimumDelayMs
+;
+uint64_t
 jitterBufferEmittedCount
 ;
 uint64_t

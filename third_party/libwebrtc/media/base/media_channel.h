@@ -2058,6 +2058,15 @@ double
 >
 jitter_buffer_target_delay_seconds
 ;
+absl
+:
+:
+optional
+<
+double
+>
+jitter_buffer_minimum_delay_seconds
+;
 uint64_t
 jitter_buffer_emitted_count
 =

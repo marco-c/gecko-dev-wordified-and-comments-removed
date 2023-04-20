@@ -3540,6 +3540,8 @@ jitter_buffer_delay
 &
 jitter_buffer_target_delay
 &
+jitter_buffer_minimum_delay
+&
 jitter_buffer_emitted_count
 &
 total_samples_received
@@ -3722,6 +3724,12 @@ jitter_buffer_target_delay
 (
 "
 jitterBufferTargetDelay
+"
+)
+jitter_buffer_minimum_delay
+(
+"
+jitterBufferMinimumDelay
 "
 )
 jitter_buffer_emitted_count
@@ -3992,6 +4000,12 @@ jitter_buffer_target_delay
 other
 .
 jitter_buffer_target_delay
+)
+jitter_buffer_minimum_delay
+(
+other
+.
+jitter_buffer_minimum_delay
 )
 jitter_buffer_emitted_count
 (

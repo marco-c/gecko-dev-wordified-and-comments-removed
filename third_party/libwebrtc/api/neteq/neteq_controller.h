@@ -364,6 +364,17 @@ const
 0
 ;
 virtual
+int
+UnlimitedTargetLevelMs
+(
+)
+const
+{
+return
+0
+;
+}
+virtual
 absl
 :
 :

@@ -1208,6 +1208,8 @@ uint64_t
 waiting_time_ms
 uint64_t
 target_delay_ms
+uint64_t
+unlimited_target_delay_ms
 )
 {
 lifetime_stats_
@@ -1225,6 +1227,15 @@ jitter_buffer_target_delay_ms
 +
 =
 target_delay_ms
+*
+num_samples
+;
+lifetime_stats_
+.
+jitter_buffer_minimum_delay_ms
++
+=
+unlimited_target_delay_ms
 *
 num_samples
 ;
