@@ -961,7 +961,7 @@ isolated_scripts
 '
 :
 '
-linux_tests
+desktop_tests_with_video_capture
 '
 }
 }
@@ -1004,12 +1004,7 @@ mixins
 :
 [
 '
-mac11_or_mac12
-'
-'
-x86
--
-64
+mac_12_x64
 '
 '
 cores
@@ -1064,12 +1059,7 @@ mixins
 :
 [
 '
-mac11_or_mac12
-'
-'
-x86
--
-64
+mac_12_x64
 '
 '
 cores
@@ -1117,12 +1107,7 @@ mixins
 :
 [
 '
-mac11_or_mac12
-'
-'
-x86
--
-64
+mac_12_x64
 '
 '
 resultdb
@@ -1142,7 +1127,7 @@ isolated_scripts
 '
 :
 '
-mac_tests
+desktop_tests_with_video_capture
 '
 }
 }
@@ -1166,7 +1151,7 @@ mixins
 :
 [
 '
-mac11_or_mac12
+mac_12_arm64
 '
 '
 mac
@@ -1194,7 +1179,7 @@ b
 Replace
 desktop_tests
 by
-mac_tests
+desktop_tests_with_video_capture
 when
 #
 there
@@ -1347,7 +1332,7 @@ isolated_scripts
 '
 :
 '
-win_tests
+desktop_tests_with_video_capture
 '
 }
 }
@@ -1450,7 +1435,7 @@ mixins
 :
 [
 '
-mac11_or_mac12
+mac_12_x64
 '
 '
 chromium
@@ -1514,7 +1499,7 @@ mixins
 :
 [
 '
-mac11_or_mac12
+mac_12_x64
 '
 '
 chromium
@@ -1578,7 +1563,7 @@ mixins
 :
 [
 '
-mac11_or_mac12
+mac_12_x64
 '
 '
 chromium
@@ -2025,7 +2010,7 @@ mixins
 :
 [
 '
-mac_12_beta_arm64
+mac_12_arm64
 '
 '
 mac
@@ -2087,7 +2072,7 @@ mixins
 :
 [
 '
-win
+win10
 '
 '
 perf
@@ -2682,7 +2667,7 @@ mixins
 :
 [
 '
-mac11_or_mac12
+mac_12_x64
 '
 '
 chromium
@@ -2740,7 +2725,7 @@ mixins
 :
 [
 '
-mac11_or_mac12
+mac_12_x64
 '
 '
 chromium
@@ -2798,7 +2783,7 @@ mixins
 :
 [
 '
-mac11_or_mac12
+mac_12_x64
 '
 '
 chromium
@@ -3177,7 +3162,7 @@ isolated_scripts
 '
 :
 '
-linux_tests_tryserver
+desktop_tests_tryserver
 '
 }
 }
@@ -3444,12 +3429,7 @@ mixins
 :
 [
 '
-mac11_or_mac12
-'
-'
-x86
--
-64
+mac_12_x64
 '
 '
 resultdb
@@ -3508,12 +3488,7 @@ mixins
 :
 [
 '
-mac11_or_mac12
-'
-'
-x86
--
-64
+mac_12_x64
 '
 '
 resultdb
@@ -3560,7 +3535,7 @@ mixins
 :
 [
 '
-mac11_or_mac12
+mac_12_arm64
 '
 '
 mac
@@ -3609,12 +3584,7 @@ mixins
 :
 [
 '
-mac11_or_mac12
-'
-'
-x86
--
-64
+mac_12_x64
 '
 '
 resultdb
@@ -3634,7 +3604,7 @@ isolated_scripts
 '
 :
 '
-mac_tests_tryserver
+desktop_tests_tryserver
 '
 }
 }
@@ -3656,7 +3626,7 @@ mixins
 :
 [
 '
-mac11_or_mac12
+mac_12_arm64
 '
 '
 mac
@@ -3684,7 +3654,7 @@ b
 Replace
 desktop_tests
 by
-mac_tests_tryserver
+desktop_tests_tryserver
 when
 #
 there
@@ -4016,7 +3986,7 @@ isolated_scripts
 '
 :
 '
-win_tests_tryserver
+desktop_tests_tryserver
 '
 }
 }
