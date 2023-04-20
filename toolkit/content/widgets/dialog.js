@@ -1773,13 +1773,13 @@ this
 _l10nButtons
 )
 ;
+}
 this
 .
 _sizeToPreferredSize
 (
 )
 ;
-}
 await
 this
 .
