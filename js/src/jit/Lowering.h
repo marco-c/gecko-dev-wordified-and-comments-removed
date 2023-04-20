@@ -376,6 +376,11 @@ definePhis
 (
 )
 ;
+template
+<
+typename
+T
+>
 [
 [
 nodiscard
@@ -384,7 +389,7 @@ nodiscard
 bool
 lowerCallArguments
 (
-MCallBase
+T
 *
 call
 )

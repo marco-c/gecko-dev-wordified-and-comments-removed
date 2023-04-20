@@ -1820,6 +1820,13 @@ ArrayState
 gen_boilerplate
 :
 false
+-
+name
+:
+NewBoundFunction
+gen_boilerplate
+:
+false
 #
 Setting
 __proto__

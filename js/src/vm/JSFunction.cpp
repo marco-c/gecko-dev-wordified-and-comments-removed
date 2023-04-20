@@ -130,6 +130,15 @@ include
 "
 jit
 /
+InlinableNatives
+.
+h
+"
+#
+include
+"
+jit
+/
 Ion
 .
 h
@@ -5051,7 +5060,7 @@ fun_call
 1
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 bind
@@ -5062,6 +5071,7 @@ BoundFunctionObject
 functionBind
 1
 0
+FunctionBind
 )
 JS_SYM_FN
 (

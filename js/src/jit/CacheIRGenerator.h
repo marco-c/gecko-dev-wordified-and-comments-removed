@@ -2482,6 +2482,11 @@ type
 )
 ;
 AttachDecision
+tryAttachFunctionBind
+(
+)
+;
+AttachDecision
 tryAttachUnsafeGetReservedSlot
 (
 InlinableNative
