@@ -19688,6 +19688,8 @@ ifdef
 XP_MACOSX
 SetupMacApplicationDelegate
 (
+&
+gRestartedByOS
 )
 ;
 if

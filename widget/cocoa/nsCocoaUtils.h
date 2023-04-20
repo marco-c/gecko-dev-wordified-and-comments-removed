@@ -959,6 +959,12 @@ GetHiddenWindowWidget
 )
 ;
 static
+BOOL
+ShouldRestoreStateDueToLaunchAtLogin
+(
+)
+;
+static
 void
 PrepareForNativeAppModalDialog
 (
@@ -1561,6 +1567,12 @@ GetTitleForURLFromPasteboardItem
 NSPasteboardItem
 *
 item
+)
+;
+static
+BOOL
+WasLaunchedAtLogin
+(
 )
 ;
 static
