@@ -324,11 +324,6 @@ kMaxExpectedQueueLength
 ;
 static
 const
-float
-kDefaultPaceMultiplier
-;
-static
-const
 TimeDelta
 kPausedProcessInterval
 ;
