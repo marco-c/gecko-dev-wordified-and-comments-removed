@@ -487,12 +487,12 @@ WebTransportBidirectionalStream
 {
 readonly
 attribute
-ReadableStream
+WebTransportReceiveStream
 readable
 ;
 readonly
 attribute
-WritableStream
+WebTransportSendStream
 writable
 ;
 }

@@ -822,6 +822,7 @@ Exposed
 Window
 DedicatedWorker
 )
+Serializable
 ]
 interface
 EncodedAudioChunk
@@ -928,6 +929,7 @@ Exposed
 Window
 DedicatedWorker
 )
+Serializable
 ]
 interface
 EncodedVideoChunk
@@ -1011,6 +1013,9 @@ duration
 /
 microseconds
 required
+[
+AllowShared
+]
 BufferSource
 data
 ;

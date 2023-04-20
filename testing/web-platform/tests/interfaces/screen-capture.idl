@@ -159,8 +159,6 @@ false
 ;
 CaptureController
 controller
-=
-null
 ;
 SelfCapturePreferenceEnum
 selfBrowserSurface
