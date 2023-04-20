@@ -302,12 +302,10 @@ const
 bool
 isShadowSampler
 ;
-std
-:
-:
-vector
+inlining_vector
 <
-uint32_t
+uint8_t
+8
 >
 texUnits
 ;
