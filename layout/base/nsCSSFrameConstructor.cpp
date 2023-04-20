@@ -7695,6 +7695,11 @@ AppendAccessKeyLabel
 &
 ]
 {
+ToUpperCase
+(
+accesskey
+)
+;
 nsAutoString
 accessKeyLabel
 =
