@@ -4700,6 +4700,16 @@ DWORD
 flProtect
 )
 {
+DWORD
+const
+lastError
+=
+:
+:
+GetLastError
+(
+)
+;
 constexpr
 auto
 IsOOMError
@@ -4844,7 +4854,7 @@ IsOOMError
 :
 SetLastError
 (
-0
+lastError
 )
 ;
 }
