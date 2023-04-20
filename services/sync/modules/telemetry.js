@@ -3236,7 +3236,7 @@ name
 {
 log
 .
-error
+info
 (
 Notification
 for
