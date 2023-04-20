@@ -288,13 +288,6 @@ cpp
 "
 windows
 /
-WindowsProcessPriority
-.
-cpp
-"
-"
-windows
-/
 WindowsSensor
 .
 cpp
@@ -308,6 +301,13 @@ SOURCES
 windows
 /
 WindowsBattery
+.
+cpp
+"
+"
+windows
+/
+WindowsProcessPriority
 .
 cpp
 "
