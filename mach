@@ -242,7 +242,7 @@ running
 Python
 3
 .
-7
+6
 +
 .
 We
@@ -270,7 +270,7 @@ version_info
 <
 (
 3
-7
+6
 )
 :
 print
@@ -279,7 +279,7 @@ print
 Python
 3
 .
-7
+6
 +
 is
 required
