@@ -244,7 +244,7 @@ gReference
 1
 ;
 var
-content
+gBrowser
 ;
 var
 TEST_DOES_OWN_TIMING
@@ -1012,7 +1012,7 @@ focus
 (
 )
 ;
-content
+gBrowser
 =
 browserWindow
 .
@@ -1021,7 +1021,7 @@ gBrowser
 let
 tab
 =
-content
+gBrowser
 .
 selectedTab
 ;
@@ -1232,7 +1232,7 @@ pageCycle
 ;
 }
 var
-pageName
+pageURL
 =
 pages
 [
@@ -1240,8 +1240,6 @@ pageIndex
 ]
 .
 url
-.
-spec
 ;
 if
 (
@@ -1260,7 +1258,7 @@ null
 let
 tab
 =
-content
+gBrowser
 .
 selectedTab
 ;
@@ -1340,7 +1338,7 @@ true
 }
 startAndLoadURI
 (
-pageName
+pageURL
 )
 ;
 }
@@ -1771,7 +1769,7 @@ true
 function
 startAndLoadURI
 (
-pageName
+pageURL
 )
 {
 if
@@ -1797,7 +1795,9 @@ load
 URI
 "
 +
-pageName
+pageURL
+.
+spec
 )
 ;
 }
@@ -1816,11 +1816,11 @@ if
 loadNoCache
 )
 {
-content
+gBrowser
 .
 loadURI
 (
-pageName
+pageURL
 {
 triggeringPrincipal
 :
@@ -1844,11 +1844,11 @@ LOAD_FLAGS_BYPASS_CACHE
 }
 else
 {
-content
+gBrowser
 .
 loadURI
 (
-pageName
+pageURL
 {
 triggeringPrincipal
 :
@@ -2143,7 +2143,7 @@ pageCycle
 -
 -
 ;
-content
+gBrowser
 .
 removeEventListener
 (
@@ -2154,7 +2154,7 @@ plLoadHandler
 true
 )
 ;
-content
+gBrowser
 .
 removeEventListener
 (
@@ -2165,7 +2165,7 @@ plLoadHandlerCapturing
 true
 )
 ;
-content
+gBrowser
 .
 removeEventListener
 (
@@ -2176,7 +2176,7 @@ plPaintedCapturing
 true
 )
 ;
-content
+gBrowser
 .
 removeEventListener
 (
@@ -2955,7 +2955,7 @@ frameElement
 return
 ;
 }
-content
+gBrowser
 .
 contentWindow
 .
@@ -2990,7 +2990,7 @@ plWaitForPaintingCapturing
 ;
 }
 ;
-content
+gBrowser
 .
 contentWindow
 .
@@ -3012,7 +3012,7 @@ garbageCollect
 ;
 }
 ;
-content
+gBrowser
 .
 removeEventListener
 (
@@ -3065,7 +3065,7 @@ SCROLL_TEST_NUM_STEPS
 let
 mm
 =
-content
+gBrowser
 .
 selectedBrowser
 .
@@ -3351,7 +3351,7 @@ frameElement
 return
 ;
 }
-content
+gBrowser
 .
 removeEventListener
 (
@@ -3995,10 +3995,10 @@ e
 }
 if
 (
-content
+gBrowser
 )
 {
-content
+gBrowser
 .
 removeEventListener
 (
@@ -4009,7 +4009,7 @@ plLoadHandlerCapturing
 true
 )
 ;
-content
+gBrowser
 .
 removeEventListener
 (
@@ -4025,7 +4025,7 @@ if
 useMozAfterPaint
 )
 {
-content
+gBrowser
 .
 removeEventListener
 (
@@ -4036,7 +4036,7 @@ plPaintedCapturing
 true
 )
 ;
-content
+gBrowser
 .
 removeEventListener
 (
@@ -4051,7 +4051,7 @@ true
 let
 mm
 =
-content
+gBrowser
 .
 selectedBrowser
 .
