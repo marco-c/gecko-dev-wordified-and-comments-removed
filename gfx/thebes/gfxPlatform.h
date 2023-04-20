@@ -1544,6 +1544,16 @@ StyleFontFaceSourceTechFlags
 aTechFlags
 )
 ;
+bool
+IsKnownIconFontFamily
+(
+const
+nsAtom
+*
+aFamilyName
+)
+const
+;
 virtual
 bool
 DidRenderingDeviceReset

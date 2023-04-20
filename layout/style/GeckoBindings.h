@@ -3048,6 +3048,15 @@ aFlag
 )
 ;
 bool
+Gecko_IsKnownIconFontFamily
+(
+const
+nsAtom
+*
+aFamilyName
+)
+;
+bool
 Gecko_IsInServoTraversal
 (
 )
