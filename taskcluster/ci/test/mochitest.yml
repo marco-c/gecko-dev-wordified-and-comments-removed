@@ -453,9 +453,8 @@ opt
 trunk
 '
 ]
-windows1
-.
-*
+windows11
+-
 64
 .
 *
@@ -514,7 +513,7 @@ macosx
 *
 64
 |
-windows1
+windows11
 .
 *
 )
@@ -612,9 +611,7 @@ macosx
 *
 64
 |
-windows1
-.
-*
+windows11
 -
 64
 .
@@ -2537,9 +2534,7 @@ macosx
 *
 64
 |
-windows1
-.
-*
+windows11
 -
 64
 .
