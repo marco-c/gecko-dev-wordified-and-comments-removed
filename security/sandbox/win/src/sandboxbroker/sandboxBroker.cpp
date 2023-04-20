@@ -2375,7 +2375,7 @@ GetPrespawnCigExceptionModules
 if
 defined
 (
-NIGHTLY_BUILD
+NIGHTLY
 )
 static
 Maybe
