@@ -1172,7 +1172,6 @@ Initialize
 (
 xpcomAppDir
 greDir
-nullptr
 )
 ;
 if
