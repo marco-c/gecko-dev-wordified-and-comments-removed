@@ -123,9 +123,9 @@ version
 "
 0
 .
-5
+6
 .
-4
+0
 "
 authors
 =
@@ -433,6 +433,9 @@ alloc
 "
 endian_fd
 "
+"
+archive
+"
 ]
 mach64
 =
@@ -442,6 +445,9 @@ alloc
 "
 "
 endian_fd
+"
+"
+archive
 "
 ]
 pe32
