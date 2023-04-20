@@ -85,7 +85,7 @@ curl
 \
 clang
 -
-11
+13
 \
 cmake
 \
@@ -120,6 +120,10 @@ dev
 libxml2
 -
 dev
+\
+lld
+-
+13
 \
 msitools
 \
