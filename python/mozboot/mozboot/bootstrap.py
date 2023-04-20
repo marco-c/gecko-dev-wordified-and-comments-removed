@@ -3834,7 +3834,10 @@ subprocess
 check_call
 (
 [
+str
+(
 cinnabar_exe
+)
 "
 self
 -
