@@ -6381,6 +6381,11 @@ ExtensionPort
 webidl
 "
 "
+ExtensionProxy
+.
+webidl
+"
+"
 ExtensionRuntime
 .
 webidl
