@@ -10106,6 +10106,15 @@ type
 string
 "
 }
+deletable
+:
+{
+type
+:
+"
+boolean
+"
+}
 icon
 :
 {
