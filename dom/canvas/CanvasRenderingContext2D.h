@@ -2823,14 +2823,6 @@ return
 mFrameCaptureState
 ;
 }
-NS_IMETHOD
-SetIsIPC
-(
-bool
-aIsIPC
-)
-override
-;
 void
 Redraw
 (

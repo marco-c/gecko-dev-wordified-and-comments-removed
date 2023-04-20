@@ -4422,17 +4422,6 @@ mInitialOptions
 alpha
 ;
 }
-NS_IMETHOD
-SetIsIPC
-(
-bool
-)
-override
-{
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
-}
 void
 DidRefresh
 (

@@ -785,15 +785,6 @@ bool
 CORSUsed
 )
 ;
-NS_IMETHOD
-SetIsIPC
-(
-bool
-isIPC
-)
-=
-0
-;
 protected
 :
 RefPtr
