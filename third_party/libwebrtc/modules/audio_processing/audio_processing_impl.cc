@@ -8363,13 +8363,7 @@ AecDumpFactory
 :
 Create
 (
-std
-:
-:
-string
-(
 file_name
-)
 max_log_size_bytes
 worker_queue
 )
