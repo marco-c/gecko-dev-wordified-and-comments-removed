@@ -75,14 +75,13 @@ SubstitutingProtocolHandler
 {
 public
 :
+explicit
 SubstitutingProtocolHandler
 (
 const
 char
 *
 aScheme
-uint32_t
-aFlags
 bool
 aEnforceFileOrJar
 =
@@ -365,9 +364,6 @@ aBaseURI
 ;
 nsCString
 mScheme
-;
-uint32_t
-mFlags
 ;
 RWLock
 mSubstitutionsLock
