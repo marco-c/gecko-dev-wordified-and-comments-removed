@@ -346,11 +346,6 @@ NativeNt
 h
 "
 "
-WindowsBCryptInitialization
-.
-h
-"
-"
 WindowsDpiInitialization
 .
 h
@@ -406,11 +401,6 @@ cpp
 "
 "
 TimeStamp_windows
-.
-cpp
-"
-"
-WindowsBCryptInitialization
 .
 cpp
 "
