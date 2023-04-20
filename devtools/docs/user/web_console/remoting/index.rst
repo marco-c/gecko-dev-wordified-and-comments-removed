@@ -625,9 +625,6 @@ PageError
 ConsoleAPI
 "
 "
-NetworkActivity
-"
-"
 FileActivity
 "
 ]
@@ -985,9 +982,6 @@ PageError
 ConsoleAPI
 "
 "
-NetworkActivity
-"
-"
 FileActivity
 "
 ]
@@ -1015,9 +1009,6 @@ PageError
 "
 "
 ConsoleAPI
-"
-"
-NetworkActivity
 "
 "
 FileActivity

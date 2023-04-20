@@ -216,9 +216,13 @@ console
 error
 (
 "
-StackTraceCollector
-.
+ChannelEventSink
+collector
+'
+s
+'
 onChannelRedirect
+'
 threw
 an
 exception
