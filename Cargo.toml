@@ -1583,7 +1583,7 @@ github
 .
 com
 /
-bendk
+mozilla
 /
 application
 -
@@ -1592,7 +1592,7 @@ services
 rev
 =
 "
-ecb35df5fc40357c49922f90e86bf4147fa52953
+fe2867dbe82a2aaa85a856648107be94b1534683
 "
 }
 sql
@@ -1611,7 +1611,7 @@ github
 .
 com
 /
-bendk
+mozilla
 /
 application
 -
@@ -1620,7 +1620,7 @@ services
 rev
 =
 "
-ecb35df5fc40357c49922f90e86bf4147fa52953
+fe2867dbe82a2aaa85a856648107be94b1534683
 "
 }
 sync15
@@ -1637,7 +1637,7 @@ github
 .
 com
 /
-bendk
+mozilla
 /
 application
 -
@@ -1646,7 +1646,7 @@ services
 rev
 =
 "
-ecb35df5fc40357c49922f90e86bf4147fa52953
+fe2867dbe82a2aaa85a856648107be94b1534683
 "
 }
 tabs
@@ -1663,7 +1663,7 @@ github
 .
 com
 /
-bendk
+mozilla
 /
 application
 -
@@ -1672,7 +1672,7 @@ services
 rev
 =
 "
-ecb35df5fc40357c49922f90e86bf4147fa52953
+fe2867dbe82a2aaa85a856648107be94b1534683
 "
 }
 viaduct
@@ -1689,7 +1689,7 @@ github
 .
 com
 /
-bendk
+mozilla
 /
 application
 -
@@ -1698,7 +1698,7 @@ services
 rev
 =
 "
-ecb35df5fc40357c49922f90e86bf4147fa52953
+fe2867dbe82a2aaa85a856648107be94b1534683
 "
 }
 webext
@@ -1717,7 +1717,7 @@ github
 .
 com
 /
-bendk
+mozilla
 /
 application
 -
@@ -1726,7 +1726,7 @@ services
 rev
 =
 "
-ecb35df5fc40357c49922f90e86bf4147fa52953
+fe2867dbe82a2aaa85a856648107be94b1534683
 "
 }
 #

@@ -23,6 +23,7 @@ crate
 :
 {
 telemetry
+CollectionName
 Guid
 ServerTimestamp
 }
@@ -418,18 +419,7 @@ self
 )
 -
 >
-std
-:
-:
-borrow
-:
-:
-Cow
-<
-'
-static
-str
->
+CollectionName
 ;
 fn
 prepare_for_sync
