@@ -356,12 +356,6 @@ remove
 in
 boolean
 recursive
-[
-optional
-]
-inout
-uint32_t
-removeCount
 )
 ;
 attribute

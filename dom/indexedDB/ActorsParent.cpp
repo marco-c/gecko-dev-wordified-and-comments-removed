@@ -24277,14 +24277,11 @@ Yes
 ;
 QM_TRY_RETURN
 (
-MOZ_TO_RESULT
+MOZ_TO_RESULT_INVOKE_MEMBER
 (
 aFileManagerDirectory
-.
 Remove
-(
 false
-)
 )
 )
 ;

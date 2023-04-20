@@ -9599,9 +9599,6 @@ Remove
 (
 bool
 aRecursive
-uint32_t
-*
-aRemoveCount
 )
 {
 CHECK_mWorkingPath
@@ -9745,7 +9742,6 @@ file
 Remove
 (
 aRecursive
-aRemoveCount
 )
 ;
 }
@@ -9801,18 +9797,6 @@ GetLastError
 )
 ;
 }
-}
-if
-(
-aRemoveCount
-)
-{
-*
-aRemoveCount
-+
-=
-1
-;
 }
 MakeDirty
 (

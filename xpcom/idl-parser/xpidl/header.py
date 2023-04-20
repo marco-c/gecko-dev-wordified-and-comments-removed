@@ -1007,10 +1007,6 @@ paramIter
 optional
             
 and
-"
-out
-"
-in
 m
 .
 params
@@ -1019,6 +1015,11 @@ paramIter
 ]
 .
 paramtype
+=
+=
+"
+out
+"
         
 )
 :
