@@ -1715,6 +1715,8 @@ engine
 [
 "
 showSearchTerms
+.
+shouldShow
 "
 false
 ]
