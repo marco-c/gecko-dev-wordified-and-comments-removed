@@ -170,6 +170,12 @@ destroy
 {
 this
 .
+_changesHaveBeenRequested
+=
+false
+;
+this
+.
 clearChanges
 (
 )
