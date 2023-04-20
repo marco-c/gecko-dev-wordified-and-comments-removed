@@ -3526,16 +3526,6 @@ tryAttachStringObjectConcat
 )
 ;
 AttachDecision
-tryAttachStringNumberConcat
-(
-)
-;
-AttachDecision
-tryAttachStringBooleanConcat
-(
-)
-;
-AttachDecision
 tryAttachBigInt
 (
 )
