@@ -276,7 +276,7 @@ XULTreeGridAccessible
 virtual
 already_AddRefed
 <
-LocalAccessible
+XULTreeItemAccessibleBase
 >
 CreateTreeItemAccessible
 (
