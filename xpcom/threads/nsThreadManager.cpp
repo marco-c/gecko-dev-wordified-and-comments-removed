@@ -992,6 +992,13 @@ InitTLS
 (
 )
 ;
+nsThreadPool
+:
+:
+InitTLS
+(
+)
+;
 }
 #
 ifdef
