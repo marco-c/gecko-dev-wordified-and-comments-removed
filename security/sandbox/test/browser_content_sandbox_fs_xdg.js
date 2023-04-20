@@ -79,11 +79,7 @@ function
 const
 xdgConfigHome
 =
-Services
-.
-env
-.
-get
+GetEnvironmentVariable
 (
 "
 XDG_CONFIG_HOME

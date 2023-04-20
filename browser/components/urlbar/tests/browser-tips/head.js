@@ -330,9 +330,7 @@ XRE_EXECUTABLE_FILE
 let
 tempPath
 =
-Services
-.
-env
+gEnv
 .
 get
 (
@@ -536,9 +534,7 @@ initUpdate
 params
 )
 {
-Services
-.
-env
+gEnv
 .
 set
 (

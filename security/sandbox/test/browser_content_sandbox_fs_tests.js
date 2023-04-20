@@ -1730,11 +1730,7 @@ config
 const
 xdgConfigHome
 =
-Services
-.
-env
-.
-get
+GetEnvironmentVariable
 (
 "
 XDG_CONFIG_HOME
@@ -2766,11 +2762,7 @@ tests
 let
 snap
 =
-Services
-.
-env
-.
-get
+GetEnvironmentVariable
 (
 "
 SNAP
