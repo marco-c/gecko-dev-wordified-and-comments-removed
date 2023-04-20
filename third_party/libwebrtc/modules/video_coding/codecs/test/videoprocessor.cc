@@ -59,17 +59,6 @@ include
 "
 api
 /
-task_queue
-/
-to_queued_task
-.
-h
-"
-#
-include
-"
-api
-/
 video
 /
 builtin_video_bitrate_allocator_factory
@@ -2260,8 +2249,6 @@ task_queue_
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 this
 copy
@@ -2279,7 +2266,6 @@ simulcast_svc_idx_
 )
 ;
 }
-)
 )
 ;
 return

@@ -1039,9 +1039,13 @@ worker_thread_
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 task_safety_
+.
+flag
+(
+)
 [
 seq_num
 this

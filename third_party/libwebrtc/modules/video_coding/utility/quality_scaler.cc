@@ -26,9 +26,9 @@ include
 "
 api
 /
-task_queue
+units
 /
-to_queued_task
+time_delta
 .
 h
 "
@@ -396,8 +396,6 @@ Current
 >
 PostDelayedTask
 (
-ToQueuedTask
-(
 [
 this_weak_ptr
 =
@@ -591,9 +589,14 @@ StartNextCheckQpTask
 )
 ;
 }
-)
+TimeDelta
+:
+:
+Millis
+(
 GetCheckingQpDelayMs
 (
+)
 )
 )
 ;
