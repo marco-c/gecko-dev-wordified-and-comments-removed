@@ -54,7 +54,7 @@ FocusManager
 ;
 LocalAccessible
 *
-FocusedAccessible
+FocusedLocalAccessible
 (
 )
 const

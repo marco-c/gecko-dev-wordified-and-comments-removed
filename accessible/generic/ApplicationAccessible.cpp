@@ -460,7 +460,7 @@ FocusMgr
 )
 -
 >
-FocusedAccessible
+FocusedLocalAccessible
 (
 )
 ;

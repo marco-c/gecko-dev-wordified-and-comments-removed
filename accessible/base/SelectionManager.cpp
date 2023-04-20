@@ -662,7 +662,7 @@ FocusMgr
 )
 -
 >
-FocusedAccessible
+FocusedLocalAccessible
 (
 )
 &
@@ -672,7 +672,7 @@ FocusMgr
 )
 -
 >
-FocusedAccessible
+FocusedLocalAccessible
 (
 )
 -

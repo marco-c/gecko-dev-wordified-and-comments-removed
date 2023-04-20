@@ -2941,7 +2941,7 @@ FocusMgr
 )
 -
 >
-FocusedAccessible
+FocusedLocalAccessible
 (
 )
 =
