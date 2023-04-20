@@ -1131,7 +1131,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_Tab
+KEY_ArrowDown
 "
 )
 ;

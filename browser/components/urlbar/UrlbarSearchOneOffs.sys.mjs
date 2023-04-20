@@ -909,7 +909,7 @@ this
 .
 view
 .
-selectedRowIndex
+selectedElementIndex
 ;
 }
 set
@@ -922,7 +922,7 @@ this
 .
 view
 .
-selectedRowIndex
+selectedElementIndex
 =
 val
 ;

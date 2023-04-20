@@ -1310,7 +1310,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_Tab
+KEY_ArrowDown
 "
 {
 }
@@ -1322,7 +1322,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_Tab
+KEY_ArrowDown
 "
 {
 }
@@ -1477,7 +1477,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_Tab
+KEY_ArrowDown
 "
 {
 }
@@ -1489,7 +1489,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_Tab
+KEY_ArrowDown
 "
 {
 }
@@ -1501,7 +1501,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_Tab
+KEY_ArrowDown
 "
 {
 }
