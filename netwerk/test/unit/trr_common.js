@@ -30,33 +30,6 @@ mjs
 )
 ;
 const
-dns
-=
-Cc
-[
-"
-mozilla
-.
-org
-/
-network
-/
-dns
--
-service
-;
-1
-"
-]
-.
-getService
-(
-Ci
-.
-nsIDNSService
-)
-;
-const
 {
 HttpServer
 }
@@ -197,6 +170,8 @@ service
 parentalControlsService
 )
 ;
+Services
+.
 dns
 .
 reloadParentalControlEnabled
@@ -423,6 +398,8 @@ record
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -484,6 +461,8 @@ bootstrapping
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -661,6 +640,8 @@ request
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -744,6 +725,8 @@ request
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -865,6 +848,8 @@ record
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -914,6 +899,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -963,6 +950,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1032,6 +1021,8 @@ default
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1181,6 +1172,8 @@ so
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1333,6 +1326,8 @@ disabled
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1438,6 +1433,8 @@ enabled
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1566,6 +1563,8 @@ server
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1658,6 +1657,8 @@ error
 code
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1736,6 +1737,8 @@ test_trr_retry
 (
 )
 {
+Services
+.
 dns
 .
 clearCache
@@ -2016,6 +2019,8 @@ Failed
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2074,6 +2079,8 @@ test_strict_native_fallback
 (
 )
 {
+Services
+.
 dns
 .
 clearCache
@@ -2240,6 +2247,8 @@ error
 code
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2262,6 +2271,8 @@ undefined
 false
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2337,6 +2348,8 @@ error
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2457,6 +2470,8 @@ error
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2549,6 +2564,8 @@ fallback
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2651,6 +2668,8 @@ waitForCondition
 )
 =
 >
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -2659,6 +2678,8 @@ currentTrrConfirmationState
 3
 |
 |
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -2674,6 +2695,8 @@ failure
 .
 Currently
 {
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -2716,6 +2739,8 @@ case
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2816,6 +2841,8 @@ waitForCondition
 )
 =
 >
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -2831,6 +2858,8 @@ disabled
 .
 Currently
 {
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -2875,6 +2904,8 @@ case
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2990,6 +3021,8 @@ error
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3090,6 +3123,8 @@ error
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3227,6 +3262,8 @@ DoH
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3297,6 +3334,8 @@ strict_native_fallback
 true
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3366,6 +3405,8 @@ sends
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3432,6 +3473,8 @@ strict_native_fallback
 true
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3534,6 +3577,8 @@ of
 ]
 )
 {
+Services
+.
 dns
 .
 clearCache
@@ -3563,6 +3608,8 @@ Assert
 .
 equal
 (
+Services
+.
 dns
 .
 currentTrrMode
@@ -3598,6 +3645,8 @@ correctly
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3678,6 +3727,8 @@ loop
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3767,6 +3818,8 @@ error
 code
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3854,6 +3907,8 @@ record
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3944,6 +3999,8 @@ rejected
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -4030,6 +4087,8 @@ mode
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -4143,6 +4202,8 @@ strict_native_fallback
 true
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -4251,6 +4312,8 @@ strict_native_fallback
 strictMode
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -4322,6 +4385,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -4373,6 +4438,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -4431,6 +4498,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -4646,6 +4715,8 @@ strict_native_fallback
 strictMode
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -4977,6 +5048,8 @@ enabled
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5062,6 +5135,8 @@ strict_native_fallback
 true
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5201,6 +5276,8 @@ strict_native_fallback
 strictMode
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5293,6 +5370,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5346,6 +5425,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5456,6 +5537,8 @@ mode
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5540,6 +5623,8 @@ excluded
 true
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5585,6 +5670,8 @@ excluded
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5633,6 +5720,8 @@ local
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5707,6 +5796,8 @@ mode
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -6039,6 +6130,8 @@ mode
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -6125,6 +6218,8 @@ mode
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -6209,6 +6304,8 @@ excluded
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -6259,6 +6356,8 @@ local
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -6398,6 +6497,8 @@ closed
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -6595,6 +6696,8 @@ bootstrapAddr
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -6723,6 +6826,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -6864,6 +6969,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -7003,6 +7110,8 @@ error
 code
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -7032,6 +7141,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -7171,6 +7282,8 @@ timing
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -7224,6 +7337,8 @@ true
 20
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -7329,6 +7444,8 @@ strict_native_fallback
 strictMode
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -7402,6 +7519,8 @@ domains
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -7477,6 +7596,8 @@ properly
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -7525,6 +7646,8 @@ org
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -7603,6 +7726,8 @@ ipv6
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -7716,6 +7841,8 @@ Cr
 NS_ERROR_UNKNOWN_HOST
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -7774,6 +7901,8 @@ fail
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -7869,6 +7998,8 @@ ipv4
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -7982,6 +8113,8 @@ Cr
 NS_ERROR_UNKNOWN_HOST
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -8023,6 +8156,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -8427,6 +8562,8 @@ test_connection_reuse_and_cycling
 (
 )
 {
+Services
+.
 dns
 .
 clearCache
@@ -8543,6 +8680,8 @@ waitForCondition
 )
 =
 >
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -8558,6 +8697,8 @@ success
 .
 Currently
 {
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -8595,6 +8736,8 @@ waitForCondition
 )
 =
 >
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -8610,6 +8753,8 @@ success
 .
 Currently
 {
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -8696,6 +8841,8 @@ waitForCondition
 )
 =
 >
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -8711,6 +8858,8 @@ success
 .
 Currently
 {
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -8797,6 +8946,8 @@ waitForCondition
 )
 =
 >
+Services
+.
 dns
 .
 currentTrrConfirmationState
@@ -8812,6 +8963,8 @@ success
 .
 Currently
 {
+Services
+.
 dns
 .
 currentTrrConfirmationState

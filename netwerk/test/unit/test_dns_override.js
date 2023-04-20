@@ -4,33 +4,6 @@ strict
 "
 ;
 const
-dns
-=
-Cc
-[
-"
-mozilla
-.
-org
-/
-network
-/
-dns
--
-service
-;
-1
-"
-]
-.
-getService
-(
-Ci
-.
-nsIDNSService
-)
-;
-const
 override
 =
 Cc
@@ -452,6 +425,8 @@ DOMAIN
 "
 )
 ;
+Services
+.
 dns
 .
 asyncResolve
@@ -490,6 +465,8 @@ firstAddress
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -541,6 +518,8 @@ fe80
 "
 )
 ;
+Services
+.
 dns
 .
 asyncResolve
@@ -582,6 +561,8 @@ fe80
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -630,6 +611,8 @@ DOMAIN
 "
 )
 ;
+Services
+.
 dns
 .
 asyncResolve
@@ -668,6 +651,8 @@ firstAddress
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -688,6 +673,8 @@ Listener
 (
 )
 ;
+Services
+.
 dns
 .
 asyncResolve
@@ -740,6 +727,8 @@ resolve
 )
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -811,6 +800,8 @@ Listener
 (
 )
 ;
+Services
+.
 dns
 .
 asyncResolve
@@ -856,6 +847,8 @@ Listener
 (
 )
 ;
+Services
+.
 dns
 .
 asyncResolve
@@ -908,6 +901,8 @@ resolve
 )
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1003,6 +998,8 @@ Listener
 (
 )
 ;
+Services
+.
 dns
 .
 asyncResolve
@@ -1069,6 +1066,8 @@ fe80
 ]
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1164,6 +1163,8 @@ Listener
 (
 )
 ;
+Services
+.
 dns
 .
 asyncResolve
@@ -1223,6 +1224,8 @@ Listener
 (
 )
 ;
+Services
+.
 dns
 .
 asyncResolve
@@ -1276,6 +1279,8 @@ addresses
 ]
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1324,6 +1329,8 @@ Listener
 (
 )
 ;
+Services
+.
 dns
 .
 asyncResolve
@@ -1407,6 +1414,8 @@ Listener
 (
 )
 ;
+Services
+.
 dns
 .
 asyncResolve
@@ -1480,6 +1489,8 @@ getNextAddrAsString
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1524,6 +1535,8 @@ Listener
 (
 )
 ;
+Services
+.
 dns
 .
 asyncResolve
@@ -1597,6 +1610,8 @@ getNextAddrAsString
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1641,6 +1656,8 @@ Listener
 (
 )
 ;
+Services
+.
 dns
 .
 asyncResolve

@@ -151,6 +151,10 @@ mozinfo
 socketprocess_networking
 )
 {
+Services
+.
+dns
+;
 await
 TestUtils
 .
@@ -484,6 +488,8 @@ Assert
 .
 equal
 (
+Services
+.
 dns
 .
 ODoHActivated
@@ -653,6 +659,8 @@ Assert
 ok
 (
 !
+Services
+.
 dns
 .
 ODoHActivated
@@ -686,6 +694,8 @@ testODoHConfig7
 (
 )
 {
+Services
+.
 dns
 .
 clearCache
@@ -794,6 +804,8 @@ Assert
 .
 equal
 (
+Services
+.
 dns
 .
 ODoHActivated
@@ -809,6 +821,8 @@ testODoHConfig8
 (
 )
 {
+Services
+.
 dns
 .
 clearCache
@@ -980,6 +994,8 @@ Assert
 .
 ok
 (
+Services
+.
 dns
 .
 ODoHActivated
@@ -1026,6 +1042,8 @@ Assert
 .
 ok
 (
+Services
+.
 dns
 .
 ODoHActivated
@@ -1305,6 +1323,8 @@ testODoHConfigNotAvailableInMode3
 (
 )
 {
+Services
+.
 dns
 .
 clearCache
@@ -1404,6 +1424,8 @@ testODoHConfigNotAvailableInMode2
 (
 )
 {
+Services
+.
 dns
 .
 clearCache

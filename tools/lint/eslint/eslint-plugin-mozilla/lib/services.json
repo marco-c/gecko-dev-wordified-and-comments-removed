@@ -133,6 +133,13 @@ nsIDOMStorageManager
 domStorageManager
 "
 "
+nsIDNSService
+"
+:
+"
+dns
+"
+"
 nsIDirectoryService
 "
 :
