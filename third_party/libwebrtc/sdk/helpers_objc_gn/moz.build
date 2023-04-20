@@ -334,7 +334,7 @@ helpers
 /
 AVCaptureSession
 +
-RTCDevicePosition
+DevicePosition
 .
 mm
 "
@@ -352,7 +352,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 mm
 "
