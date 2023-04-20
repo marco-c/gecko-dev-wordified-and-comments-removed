@@ -4719,6 +4719,8 @@ then
 )
 =
 >
+{
+return
 promiseNativeWheelAndWaitForScrollEvent
 (
 target
@@ -4728,6 +4730,8 @@ dy
 -
 scrollDelta
 )
+;
+}
 )
 ;
 }
@@ -4743,6 +4747,8 @@ then
 )
 =
 >
+{
+return
 promiseNativeWheelAndWaitForWheelEvent
 (
 target
@@ -4752,6 +4758,8 @@ dy
 -
 scrollDelta
 )
+;
+}
 )
 ;
 }
