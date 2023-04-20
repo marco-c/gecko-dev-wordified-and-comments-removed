@@ -1627,7 +1627,7 @@ call_origin
 Address
 *
 return_address
-Code
+InstructionStream
 re_code
 Address
 *
@@ -1760,7 +1760,7 @@ isolate
 ;
 Handle
 <
-Code
+InstructionStream
 >
 code_handle
 (
@@ -2366,10 +2366,10 @@ IsOneByteRepresentationUnderneath
 input
 )
 ;
-CodeT
+Code
 code
 =
-CodeT
+Code
 :
 :
 cast
