@@ -1126,7 +1126,7 @@ acc
 await
 a11y
 .
-getAccessible
+assertAccessible
 (
 el
 true
@@ -1326,7 +1326,7 @@ acc
 await
 a11y
 .
-getAccessible
+assertAccessible
 (
 el
 true
@@ -1493,7 +1493,7 @@ acc
 await
 a11y
 .
-getAccessible
+assertAccessible
 (
 el
 true
@@ -4090,7 +4090,7 @@ acc
 await
 a11y
 .
-getAccessible
+assertAccessible
 (
 el
 true
@@ -4367,7 +4367,7 @@ acc
 await
 a11y
 .
-getAccessible
+assertAccessible
 (
 el
 true
@@ -4517,7 +4517,7 @@ strict
 return
 a11y
 .
-getAccessible
+assertAccessible
 (
 el
 )
@@ -4749,7 +4749,7 @@ strict
 return
 a11y
 .
-getAccessible
+assertAccessible
 (
 el
 )
@@ -4955,7 +4955,7 @@ strict
 return
 a11y
 .
-getAccessible
+assertAccessible
 (
 el
 )

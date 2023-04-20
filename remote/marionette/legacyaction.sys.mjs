@@ -1326,7 +1326,7 @@ acc
 await
 a11y
 .
-getAccessible
+assertAccessible
 (
 el
 true
