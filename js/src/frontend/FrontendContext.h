@@ -329,6 +329,16 @@ JSContext
 cx
 )
 ;
+JSContext
+*
+maybeCurrentJSContext
+(
+)
+{
+return
+maybeCx_
+;
+}
 enum
 class
 Warning
