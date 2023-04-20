@@ -6132,8 +6132,6 @@ this
 .
 _frame
 .
-contentWindow
-.
 focus
 (
 )
