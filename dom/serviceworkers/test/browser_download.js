@@ -437,9 +437,9 @@ aDownload
 .
 catch
 (
-console
+Cu
 .
-error
+reportError
 )
 ;
 downloadList
@@ -451,9 +451,9 @@ downloadListener
 .
 catch
 (
-console
+Cu
 .
-error
+reportError
 )
 ;
 gBrowser

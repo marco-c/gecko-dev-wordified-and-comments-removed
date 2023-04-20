@@ -2004,9 +2004,9 @@ err
 name
 )
 ;
-console
+Cu
 .
-error
+reportError
 (
 err
 )
