@@ -531,7 +531,7 @@ is
 responsible
 for
 updating
-this
+these
 .
 this
 .
@@ -539,6 +539,12 @@ rowIndex
 =
 -
 1
+;
+this
+.
+isVisible
+=
+false
 ;
 /
 /

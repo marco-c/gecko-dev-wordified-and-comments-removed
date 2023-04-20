@@ -14178,6 +14178,14 @@ visible
 {
 row
 .
+result
+.
+isVisible
+=
+visible
+;
+row
+.
 style
 .
 display

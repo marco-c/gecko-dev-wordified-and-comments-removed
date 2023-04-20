@@ -2366,6 +2366,9 @@ engagement
 if
 (
 result
+?
+.
+isVisible
 &
 &
 state
