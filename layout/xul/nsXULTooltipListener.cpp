@@ -1892,6 +1892,8 @@ false
 false
 )
 ;
+if
+(
 Document
 *
 doc
@@ -1902,10 +1904,6 @@ sourceNode
 GetComposedDoc
 (
 )
-;
-if
-(
-doc
 )
 {
 doc
@@ -3004,6 +3002,8 @@ mCurrentTooltip
 =
 nullptr
 ;
+if
+(
 nsCOMPtr
 <
 Document
@@ -3016,10 +3016,6 @@ currentTooltip
 GetComposedDoc
 (
 )
-;
-if
-(
-doc
 )
 {
 doc
