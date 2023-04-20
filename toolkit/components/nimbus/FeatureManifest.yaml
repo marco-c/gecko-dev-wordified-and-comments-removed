@@ -6146,7 +6146,7 @@ isEarlyStartup
 false
 variables
 :
-pdfjsInitialPref
+pdfJsTourProgress
 :
 description
 :
