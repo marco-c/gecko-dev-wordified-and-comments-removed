@@ -412,6 +412,11 @@ StreamListenerFunction
 mStreamListenerFunctions
 ;
 bool
+mOnStartRequestCalled
+=
+false
+;
+bool
 mSuspended
 =
 false
