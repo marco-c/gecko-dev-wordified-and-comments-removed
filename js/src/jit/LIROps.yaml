@@ -9445,6 +9445,9 @@ MIRType
 wideningOp
 :
 MWideningOp
+maybeTrap
+:
+MaybeTrapSiteInfo
 -
 name
 :
@@ -9462,6 +9465,9 @@ arguments
 offset
 :
 size_t
+maybeTrap
+:
+MaybeTrapSiteInfo
 -
 name
 :
@@ -9485,6 +9491,9 @@ MIRType
 narrowingOp
 :
 MNarrowingOp
+maybeTrap
+:
+MaybeTrapSiteInfo
 -
 name
 :
@@ -9502,6 +9511,9 @@ arguments
 offset
 :
 size_t
+maybeTrap
+:
+MaybeTrapSiteInfo
 -
 name
 :
