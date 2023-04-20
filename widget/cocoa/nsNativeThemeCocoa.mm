@@ -4235,7 +4235,7 @@ NSZeroSize
 }
 ;
 static
-NSCellStateValue
+NSControlStateValue
 CellStateForCheckboxOrRadioState
 (
 nsNativeThemeCocoa
@@ -6276,7 +6276,7 @@ HIRect
 inBoxRect
 ControlParams
 aControlParams
-NSCellStateValue
+NSControlStateValue
 aCellState
 )
 {
