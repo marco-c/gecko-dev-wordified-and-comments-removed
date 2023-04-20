@@ -110,6 +110,14 @@ ACString
 aExperimentId
 )
 ;
+void
+setMetricsFeatureConfig
+(
+in
+ACString
+aJsonConfig
+)
+;
 [
 implicit_jscontext
 ]
