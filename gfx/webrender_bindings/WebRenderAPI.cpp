@@ -1982,7 +1982,7 @@ Get
 )
 -
 >
-RunEvent
+PostEvent
 (
 aWindowId
 std
