@@ -593,26 +593,6 @@ universal_newlines
 =
 True
         
-kwargs
-[
-"
-processStderrLine
-"
-]
-=
-lambda
-line
-:
-print
-(
-line
-file
-=
-sys
-.
-stderr
-)
-        
 ProcessHandler
 .
 __init__
@@ -677,6 +657,9 @@ run_process
 (
 config
 cmd
+*
+*
+kwargs
 )
 :
     
@@ -686,6 +669,9 @@ RuffProcess
 (
 config
 cmd
+*
+*
+kwargs
 )
     
 proc
@@ -913,6 +899,24 @@ exclude
 "
 )
     
+process_kwargs
+=
+{
+"
+processStderrLine
+"
+:
+lambda
+line
+:
+log
+.
+debug
+(
+line
+)
+}
+    
 if
 lintargs
 .
@@ -940,6 +944,9 @@ fix
 only
 "
 ]
+*
+*
+process_kwargs
 )
         
 matches
@@ -993,6 +1000,9 @@ format
 json
 "
 ]
+*
+*
+process_kwargs
 )
     
 if
