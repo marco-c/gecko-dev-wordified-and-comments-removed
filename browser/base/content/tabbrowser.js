@@ -5612,10 +5612,13 @@ userTypedValue
 return
 ;
 }
-function
+let
 selectURL
+=
 (
 )
+=
+>
 {
 if
 (
@@ -5693,6 +5696,7 @@ select
 ;
 }
 }
+;
 if
 (
 !
