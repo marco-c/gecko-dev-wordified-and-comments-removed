@@ -5,12 +5,6 @@ anyhow
 Result
 ;
 use
-uniffi_meta
-:
-:
-Checksum
-;
-use
 super
 :
 :
@@ -49,7 +43,7 @@ derive
 (
 Debug
 Clone
-Checksum
+Hash
 )
 ]
 pub

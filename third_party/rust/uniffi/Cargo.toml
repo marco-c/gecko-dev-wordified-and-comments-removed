@@ -114,7 +114,7 @@ version
 .
 21
 .
-1
+0
 "
 authors
 =
@@ -219,6 +219,11 @@ mozilla
 uniffi
 -
 rs
+"
+resolver
+=
+"
+2
 "
 [
 dependencies
@@ -331,7 +336,7 @@ version
 .
 21
 .
-1
+0
 "
 optional
 =
@@ -349,7 +354,7 @@ version
 .
 21
 .
-1
+0
 "
 [
 dev

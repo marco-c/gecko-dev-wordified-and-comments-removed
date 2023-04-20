@@ -114,7 +114,7 @@ version
 .
 21
 .
-1
+0
 "
 authors
 =
@@ -220,6 +220,11 @@ uniffi
 -
 rs
 "
+resolver
+=
+"
+2
+"
 [
 dependencies
 .
@@ -257,7 +262,7 @@ version
 .
 21
 .
-1
+0
 "
 optional
 =
