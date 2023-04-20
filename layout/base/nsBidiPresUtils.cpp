@@ -10084,7 +10084,7 @@ arguments
 ;
 MOZ_ASSERT
 (
-nsDependentString
+nsDependentSubstring
 (
 aText
 aLength
