@@ -829,6 +829,13 @@ mode
 )
 ;
 void
+SetReferenceTimeReport
+(
+bool
+enabled
+)
+;
+void
 SetPacketSink
 (
 RtpPacketSinkInterface
