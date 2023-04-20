@@ -119,12 +119,6 @@ TestMIDIPlatformService
 (
 )
 ;
-nsCOMPtr
-<
-nsIThread
->
-mBackgroundThread
-;
 MIDIPortInfo
 mControlInputPort
 ;
