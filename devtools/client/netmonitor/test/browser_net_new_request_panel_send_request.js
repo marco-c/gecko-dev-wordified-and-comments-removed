@@ -101,13 +101,6 @@ monitor
 panelWin
 ;
 const
-{
-sendHTTPRequest
-}
-=
-connector
-;
-const
 Actions
 =
 windowRequire
@@ -324,6 +317,10 @@ monitor
 1
 )
 ;
+connector
+.
+networkCommand
+.
 sendHTTPRequest
 (
 request

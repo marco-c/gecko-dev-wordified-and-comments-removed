@@ -282,7 +282,6 @@ HTTP_CUSTOM_REQUEST
 function
 sendHTTPCustomRequest
 (
-connector
 request
 )
 {
@@ -292,6 +291,8 @@ async
 {
 dispatch
 getState
+connector
+commands
 }
 )
 =
@@ -423,7 +424,9 @@ channelId
 }
 =
 await
-connector
+commands
+.
+networkCommand
 .
 sendHTTPRequest
 (

@@ -70,13 +70,6 @@ index
 ;
 const
 {
-sendHTTPRequest
-}
-=
-connector
-;
-const
-{
 getSortedRequests
 }
 =
@@ -147,6 +140,10 @@ monitor
 1
 )
 ;
+connector
+.
+networkCommand
+.
 sendHTTPRequest
 (
 {
@@ -245,7 +242,6 @@ Actions
 .
 sendCustomRequest
 (
-connector
 originalItem
 .
 id

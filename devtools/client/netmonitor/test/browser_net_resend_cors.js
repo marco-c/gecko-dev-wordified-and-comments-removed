@@ -420,7 +420,6 @@ Actions
 .
 sendCustomRequest
 (
-connector
 item
 .
 id

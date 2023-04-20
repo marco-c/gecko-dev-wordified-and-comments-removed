@@ -775,9 +775,6 @@ Actions
 .
 sendCustomRequest
 (
-this
-.
-connector
 requestId
 )
 )

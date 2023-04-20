@@ -1857,9 +1857,6 @@ Actions
 .
 sendCustomRequest
 (
-props
-.
-connector
 )
 )
 updateRequest

@@ -211,7 +211,6 @@ CLONE_SELECTED_REQUEST
 function
 sendCustomRequest
 (
-connector
 requestId
 =
 null
@@ -223,6 +222,8 @@ async
 {
 dispatch
 getState
+connector
+commands
 }
 )
 =
@@ -364,11 +365,12 @@ text
 const
 {
 channelId
-actor
 }
 =
 await
-connector
+commands
+.
+networkCommand
 .
 sendHTTPRequest
 (
@@ -384,9 +386,6 @@ SEND_CUSTOM_REQUEST
 id
 :
 channelId
-|
-|
-actor
 }
 )
 ;
