@@ -1216,8 +1216,10 @@ payload
 "
 )
 )
-unexpected
-end
+length
+out
+of
+bounds
 )
 ;
 assert_malformed

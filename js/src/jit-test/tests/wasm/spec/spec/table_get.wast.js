@@ -115,7 +115,6 @@ externref
 table
 .
 get
-t2
 (
 local
 .
