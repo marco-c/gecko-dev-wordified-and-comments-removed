@@ -62,15 +62,6 @@ hal
 :
 BufferUses
 ;
-use
-wgt
-:
-:
-{
-strict_assert
-strict_assert_eq
-}
-;
 impl
 ResourceUses
 for

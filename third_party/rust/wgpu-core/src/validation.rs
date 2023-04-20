@@ -5020,11 +5020,6 @@ Float
 Tf
 :
 :
-Stencil8
-|
-Tf
-:
-:
 Depth16Unorm
 |
 Tf
