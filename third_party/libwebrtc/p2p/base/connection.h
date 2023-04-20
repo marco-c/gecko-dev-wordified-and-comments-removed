@@ -685,8 +685,8 @@ Destroy
 (
 )
 ;
-void
-FailAndDestroy
+bool
+Shutdown
 (
 )
 ;
@@ -943,11 +943,6 @@ Connection
 *
 >
 SignalNominated
-;
-void
-HandleRoleConflictFromPeer
-(
-)
 ;
 IceCandidatePairState
 state

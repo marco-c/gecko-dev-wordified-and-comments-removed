@@ -3734,11 +3734,12 @@ EXPECT_FALSE
 turn_unknown_address_
 )
 ;
-conn2
+turn_port_
 -
 >
-Destroy
+DestroyConnection
 (
+conn2
 )
 ;
 conn1
@@ -7251,7 +7252,7 @@ fake_clock_
 turn_port_
 -
 >
-Close
+CloseForTest
 (
 )
 ;
