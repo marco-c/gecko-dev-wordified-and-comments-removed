@@ -192,10 +192,6 @@ clang
 -
 toolchain
 -
-linux64
--
-binutils
--
 sysroot
 -
 x86_64
