@@ -655,9 +655,9 @@ querySelector
 .
 urlbarView
 -
-button
--
 tip
+-
+button
 "
 )
 ;
@@ -921,9 +921,9 @@ querySelector
 .
 urlbarView
 -
-button
--
 tip
+-
+button
 "
 )
 ;
