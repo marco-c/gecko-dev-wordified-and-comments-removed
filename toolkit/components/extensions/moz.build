@@ -74,6 +74,13 @@ sys
 mjs
 "
 "
+ExtensionDNRStore
+.
+sys
+.
+mjs
+"
+"
 ExtensionPageChild
 .
 jsm

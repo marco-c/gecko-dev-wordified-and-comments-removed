@@ -554,6 +554,15 @@ addon_parent
 "
 ]
 "
+manifest
+"
+:
+[
+"
+declarative_net_request
+"
+]
+"
 paths
 "
 :
