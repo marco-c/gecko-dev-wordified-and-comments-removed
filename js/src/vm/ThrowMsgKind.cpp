@@ -114,6 +114,15 @@ AssignToPrivateMethod
 return
 JSMSG_ASSIGN_TO_PRIVATE_METHOD
 ;
+case
+ThrowMsgKind
+:
+:
+DecoratorInvalidReturnType
+:
+return
+JSMSG_DECORATOR_INVALID_RETURN_TYPE
+;
 }
 MOZ_CRASH
 (
