@@ -3553,7 +3553,7 @@ observer
 observers
 )
 {
-EXPECT_TRUE
+EXPECT_TRUE_WAIT
 (
 observer
 -
@@ -3561,6 +3561,7 @@ observer
 called
 (
 )
+kWaitTimeout
 )
 ;
 }
@@ -3630,7 +3631,7 @@ reset
 nullptr
 )
 ;
-EXPECT_TRUE
+EXPECT_TRUE_WAIT
 (
 observer
 -
@@ -3638,6 +3639,7 @@ observer
 called
 (
 )
+kWaitTimeout
 )
 ;
 }
