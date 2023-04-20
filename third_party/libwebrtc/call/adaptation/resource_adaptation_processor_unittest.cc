@@ -2561,8 +2561,6 @@ resource_task_queue
 .
 PostTask
 (
-ToQueuedTask
-(
 [
 &
 ]
@@ -2581,7 +2579,6 @@ kOveruse
 )
 ;
 }
-)
 )
 ;
 EXPECT_EQ_WAIT
@@ -2638,8 +2635,6 @@ resource_task_queue
 .
 PostTask
 (
-ToQueuedTask
-(
 [
 &
 ]
@@ -2664,7 +2659,6 @@ Set
 )
 ;
 }
-)
 )
 ;
 EXPECT_TRUE
@@ -2734,8 +2728,6 @@ resource_task_queue
 .
 PostTask
 (
-ToQueuedTask
-(
 [
 &
 ]
@@ -2760,7 +2752,6 @@ Set
 )
 ;
 }
-)
 )
 ;
 EXPECT_TRUE

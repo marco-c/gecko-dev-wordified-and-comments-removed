@@ -673,8 +673,6 @@ task_queue_
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 this
 ]
@@ -686,7 +684,6 @@ CheckStats
 )
 ;
 }
-)
 )
 ;
 }
@@ -2144,8 +2141,6 @@ task_queue
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 to_delete
 =
@@ -2162,7 +2157,6 @@ delete
 to_delete
 ;
 }
-)
 )
 ;
 }
@@ -3925,7 +3919,7 @@ task_queue_
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 task_safety_flag_
 [
@@ -6452,8 +6446,6 @@ task_queue_
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 this
 now
@@ -6524,7 +6516,6 @@ Set
 ;
 }
 }
-)
 )
 ;
 }
