@@ -11,6 +11,18 @@ crate
 color
 :
 :
+mix
+:
+:
+ColorInterpolationMethod
+;
+use
+crate
+:
+:
+color
+:
+:
 {
 AbsoluteColor
 ColorComponents
@@ -70,7 +82,6 @@ color
 :
 :
 {
-ColorInterpolationMethod
 GenericCaretColor
 GenericColorMix
 GenericColorOrAuto
