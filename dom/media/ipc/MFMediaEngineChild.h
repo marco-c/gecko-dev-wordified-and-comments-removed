@@ -272,6 +272,11 @@ const
 MOZ_NON_OWNING_REF
 mFrameStats
 ;
+bool
+mShutdown
+=
+false
+;
 }
 ;
 class
