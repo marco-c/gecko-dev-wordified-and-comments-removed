@@ -4042,7 +4042,7 @@ URLError
                 
 httplib
 .
-BadStatusLine
+HTTPException
                 
 socket
 .
@@ -5155,7 +5155,7 @@ URLError
                 
 httplib
 .
-BadStatusLine
+HTTPException
                 
 socket
 .
