@@ -7498,6 +7498,13 @@ memorySize
 0
 )
 {
+#
+if
+!
+defined
+(
+__DragonFly__
+)
 MOZ_ASSERT_UNREACHABLE
 (
 "
@@ -7508,6 +7515,8 @@ here
 "
 )
 ;
+#
+endif
 memorySize
 =
 256
