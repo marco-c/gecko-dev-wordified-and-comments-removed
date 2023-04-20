@@ -616,7 +616,16 @@ getter_AddRefs
 thread
 )
 nullptr
+{
+.
 stackSize
+=
+stackSize
+.
+blockDispatch
+=
+true
+}
 )
 ;
 if
@@ -759,7 +768,7 @@ thread
 Dispatch
 (
 this
-NS_DISPATCH_NORMAL
+NS_DISPATCH_IGNORE_BLOCK_DISPATCH
 )
 ;
 }

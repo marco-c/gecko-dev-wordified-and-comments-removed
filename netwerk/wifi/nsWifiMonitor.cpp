@@ -463,9 +463,14 @@ getter_AddRefs
 mThread
 )
 this
+{
+.
+stackSize
+=
 GetMonitorThreadStackSize
 (
 )
+}
 )
 ;
 if
