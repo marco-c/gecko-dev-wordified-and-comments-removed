@@ -20699,8 +20699,6 @@ DrawText
 (
 nscoord
 aXOffset
-nscoord
-aWidth
 )
 override
 {

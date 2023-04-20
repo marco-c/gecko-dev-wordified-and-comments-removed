@@ -489,8 +489,6 @@ DrawText
 (
 nscoord
 aXOffset
-nscoord
-aWidth
 )
 =
 0

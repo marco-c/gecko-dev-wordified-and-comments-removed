@@ -10625,7 +10625,6 @@ aprocessor
 DrawText
 (
 xOffset
-width
 )
 ;
 }
@@ -11181,7 +11180,6 @@ aprocessor
 DrawText
 (
 0
-width
 )
 ;
 }
@@ -11430,7 +11428,6 @@ DrawText
 (
 nscoord
 aIOffset
-nscoord
 )
 override
 {
