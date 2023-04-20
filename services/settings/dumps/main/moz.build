@@ -75,6 +75,17 @@ decoration
 json
 "
 "
+cookie
+-
+banner
+-
+rules
+-
+list
+.
+json
+"
+"
 devtools
 -
 compatibility
