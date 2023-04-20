@@ -1476,7 +1476,11 @@ FileSystemWritableFileStreamChild
 (
 properties
 .
-writableFileStreamChild
+writableFileStream
+(
+)
+.
+AsChild
 (
 )
 )

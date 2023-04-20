@@ -232,16 +232,7 @@ aReadStreamOut
 aReadStreamOut
 -
 >
-controlParent
-(
-)
-=
-nullptr
-;
-aReadStreamOut
--
->
-controlChild
+control
 (
 )
 =
