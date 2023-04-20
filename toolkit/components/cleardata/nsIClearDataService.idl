@@ -164,6 +164,17 @@ nsIClearDataCallback
 aCallback
 )
 ;
+void
+cleanupAfterDeletionAtShutdown
+(
+in
+uint32_t
+aFlags
+in
+nsIClearDataCallback
+aCallback
+)
+;
 const
 uint32_t
 CLEAR_COOKIES
