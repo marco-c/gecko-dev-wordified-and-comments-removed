@@ -826,13 +826,6 @@ int64_t
 max_rtt_ms
 )
 ;
-void
-OnLocalSsrcChange
-(
-uint32_t
-local_ssrc
-)
-;
 absl
 :
 :

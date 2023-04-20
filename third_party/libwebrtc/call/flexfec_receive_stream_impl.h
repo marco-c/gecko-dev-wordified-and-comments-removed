@@ -174,13 +174,6 @@ GetRtpExtensionMap
 const
 override
 ;
-void
-SetLocalSsrc
-(
-uint32_t
-local_ssrc
-)
-;
 uint32_t
 remote_ssrc
 (

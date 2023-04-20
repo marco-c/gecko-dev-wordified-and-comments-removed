@@ -549,13 +549,6 @@ audio_syncable
 )
 ;
 void
-SetLocalSsrc
-(
-uint32_t
-local_ssrc
-)
-;
-void
 Start
 (
 )
