@@ -63,6 +63,15 @@ int
 Required
 (
 "
+enable_always_target
+"
+)
+:
+bool
+    
+Required
+(
+"
 hg_branch
 "
 )
@@ -458,6 +467,12 @@ build_number
 "
 :
 1
+        
+"
+enable_always_target
+"
+:
+False
         
 "
 head_repository

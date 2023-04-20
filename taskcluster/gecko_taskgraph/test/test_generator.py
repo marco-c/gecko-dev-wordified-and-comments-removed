@@ -752,6 +752,11 @@ optimize_target_tasks
 "
 :
 False
+"
+enable_always_target
+"
+:
+True
 }
     
 }

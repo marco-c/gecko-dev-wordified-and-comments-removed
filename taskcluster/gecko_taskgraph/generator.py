@@ -2238,16 +2238,9 @@ if
 parameters
 [
 "
-tasks_for
+enable_always_target
 "
 ]
-=
-=
-"
-hg
--
-push
-"
 :
             
 always_target_tasks

@@ -39,6 +39,9 @@ do_not_optimize
 :
 [
 ]
+enable_always_target
+:
+true
 existing_tasks
 :
 {
