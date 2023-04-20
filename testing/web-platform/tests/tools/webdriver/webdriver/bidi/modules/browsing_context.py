@@ -81,6 +81,14 @@ self
 type_hint
 :
 str
+reference_context
+:
+Optional
+[
+str
+]
+=
+None
 )
 -
 >
@@ -106,6 +114,22 @@ type
 :
 type_hint
 }
+        
+if
+reference_context
+is
+not
+None
+:
+            
+params
+[
+"
+referenceContext
+"
+]
+=
+reference_context
         
 return
 params
