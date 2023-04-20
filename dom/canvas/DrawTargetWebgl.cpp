@@ -14658,6 +14658,8 @@ const
 IntRect
 &
 aClipRect
+bool
+aRasterizationTruncates
 WGR
 :
 :
@@ -14697,7 +14699,7 @@ aClipRect
 height
 true
 false
-false
+aRasterizationTruncates
 aBuffer
 aBufferCapacity
 )
@@ -16557,6 +16559,7 @@ TopLeft
 )
 mViewportSize
 )
+mRasterizationTruncates
 outputBuffer
 outputBufferCapacity
 )
@@ -16750,6 +16753,7 @@ TopLeft
 )
 mViewportSize
 )
+mRasterizationTruncates
 outputBuffer
 outputBufferCapacity
 )
