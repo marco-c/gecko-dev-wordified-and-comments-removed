@@ -30,6 +30,11 @@ dom
 =
 [
 "
+MidiPermissionStatus
+.
+h
+"
+"
 Permissions
 .
 h
@@ -44,6 +49,11 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+MidiPermissionStatus
+.
+cpp
+"
 "
 PermissionObserver
 .
