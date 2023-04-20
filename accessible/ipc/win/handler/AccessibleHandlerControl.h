@@ -252,6 +252,12 @@ aText
 )
 override
 ;
+STDMETHODIMP
+SuppressA11yForClipboardCopy
+(
+)
+override
+;
 uint32_t
 GetCacheGen
 (
@@ -329,6 +335,11 @@ AccessibleHandler
 aAccessible
 )
 ;
+bool
+IsA11ySuppressedForClipboardCopy
+(
+)
+;
 private
 :
 AccessibleHandlerControl
@@ -388,6 +399,11 @@ AccessibleCache
 ;
 AccessibleCache
 mAccessibleCache
+;
+DWORD
+mA11yClipboardCopySuppressionStartTime
+=
+0
 ;
 }
 ;

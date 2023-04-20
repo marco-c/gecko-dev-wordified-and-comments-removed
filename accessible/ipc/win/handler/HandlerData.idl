@@ -302,6 +302,11 @@ IA2TextSegment
 aText
 )
 ;
+HRESULT
+SuppressA11yForClipboardCopy
+(
+)
+;
 }
 typedef
 struct

@@ -234,6 +234,12 @@ uint32_t
 aLen
 )
 ;
+static
+void
+SuppressHandlerA11yForClipboardCopy
+(
+)
+;
 protected
 :
 virtual
