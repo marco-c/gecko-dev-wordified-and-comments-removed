@@ -6692,6 +6692,13 @@ bc
 }
 ;
 RegPtr
+loadTypeDefInstanceData
+(
+uint32_t
+typeIndex
+)
+;
+RegPtr
 loadTypeDef
 (
 uint32_t
