@@ -189,10 +189,6 @@ HTMLOrForeignElement
 ;
 SVGElement
 includes
-DocumentAndElementEventHandlers
-;
-SVGElement
-includes
 ElementCSSInlineStyle
 ;
 SVGElement
