@@ -125,6 +125,12 @@ aPresence
 optional
 ]
 in
+bool
+aSkipPresenceVisibilityCheck
+[
+optional
+]
+in
 ACString
 aHide
 [

@@ -528,6 +528,11 @@ presence
 rule
 .
 presence
+skipPresenceVisibilityCheck
+:
+rule
+.
+skipPresenceVisibilityCheck
 target
 }
 ;

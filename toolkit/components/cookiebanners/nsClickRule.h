@@ -38,6 +38,9 @@ nsACString
 &
 aPresence
 const
+bool
+aSkipPresenceVisibilityCheck
+const
 nsACString
 &
 aHide
@@ -54,6 +57,10 @@ aOptIn
 mPresence
 (
 aPresence
+)
+mSkipPresenceVisibilityCheck
+(
+aSkipPresenceVisibilityCheck
 )
 mHide
 (
@@ -80,6 +87,9 @@ default
 ;
 nsCString
 mPresence
+;
+bool
+mSkipPresenceVisibilityCheck
 ;
 nsCString
 mHide
