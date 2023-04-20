@@ -142,9 +142,6 @@ utility
 "
 video_coding
 "
-"
-video_processing
-"
 ]
 if
 (
@@ -1907,11 +1904,6 @@ video_coding
 timing
 :
 timing_unittests
-"
-"
-video_processing
-:
-video_processing_unittests
 "
 ]
 if

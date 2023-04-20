@@ -83,12 +83,6 @@ video_coding
 "
 "
 +
-modules
-/
-video_processing
-"
-"
-+
 system_wrappers
 "
 ]
