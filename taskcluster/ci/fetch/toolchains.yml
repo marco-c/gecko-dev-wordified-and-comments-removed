@@ -2687,7 +2687,7 @@ rust
 -
 1
 .
-66
+67
 .
 0
 :
@@ -2696,7 +2696,7 @@ description
 Rust
 1
 .
-66
+67
 .
 0
 source
@@ -2731,7 +2731,7 @@ rust
 /
 revision
 :
-69f9c33d71c871fc16ac445211281c6e7a340943
+fc594f15669680fa70d255faec3ca3fb507c3405
 wasi
 -
 sdk
