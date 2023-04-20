@@ -786,6 +786,7 @@ it
 .
 Run
 meson
+setup
 .
 .
 to
@@ -850,6 +851,7 @@ host
 machine
 run
 meson
+setup
 build
 -
 -
@@ -875,6 +877,7 @@ for
 bit
 :
 meson
+setup
 build
 -
 -
@@ -947,6 +950,7 @@ bit
 linux
 run
 meson
+setup
 build
 -
 -
@@ -1005,6 +1009,7 @@ org
 .
 Run
 meson
+setup
 build
 -
 Denable_docs

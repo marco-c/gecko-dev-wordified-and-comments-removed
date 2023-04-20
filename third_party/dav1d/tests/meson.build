@@ -368,6 +368,11 @@ checkasm_tmpl_sources
 include_directories
 :
 dav1d_inc_dirs
+dependencies
+:
+[
+stdatomic_dependencies
+]
 c_args
 :
 [
