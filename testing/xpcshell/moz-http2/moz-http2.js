@@ -95,9 +95,7 @@ node_http2_root
 .
 .
 /
-node
--
-ip
+node_ip
 )
 ;
 const

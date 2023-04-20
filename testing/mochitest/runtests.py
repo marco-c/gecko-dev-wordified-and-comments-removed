@@ -21640,6 +21640,14 @@ options
 headless
                 
 "
+http3
+"
+:
+options
+.
+useHttp3Server
+                
+"
 serviceworker_e10s
 "
 :
