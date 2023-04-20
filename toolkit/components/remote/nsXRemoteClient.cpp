@@ -753,7 +753,7 @@ argv
 const
 char
 *
-aDesktopStartupID
+aStartupToken
 char
 *
 *
@@ -866,7 +866,7 @@ DoSendCommandLine
 w
 argc
 argv
-aDesktopStartupID
+aStartupToken
 aResponse
 &
 destroyed
@@ -2538,7 +2538,7 @@ argv
 const
 char
 *
-aDesktopStartupID
+aStartupToken
 char
 *
 *
@@ -2564,7 +2564,7 @@ ConstructCommandLine
 (
 argc
 argv
-aDesktopStartupID
+aStartupToken
 &
 commandLineLength
 )

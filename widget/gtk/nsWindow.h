@@ -3744,6 +3744,11 @@ DispatchRestoreEventAccessible
 ;
 #
 endif
+void
+SetUserTimeAndStartupTokenForActivatedWindow
+(
+)
+;
 #
 ifdef
 MOZ_X11
@@ -3820,6 +3825,9 @@ nullptr
 ;
 #
 endif
+nsCString
+mWindowActivationTokenFromEnv
+;
 mozilla
 :
 :

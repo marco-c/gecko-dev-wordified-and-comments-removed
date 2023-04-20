@@ -292,7 +292,7 @@ argv
 const
 char
 *
-aDesktopStartupID
+aStartupToken
 char
 *
 *
@@ -329,7 +329,7 @@ ConstructCommandLine
 (
 argc
 argv
-aDesktopStartupID
+aStartupToken
 &
 commandLineLength
 )

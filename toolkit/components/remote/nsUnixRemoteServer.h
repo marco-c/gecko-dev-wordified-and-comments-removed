@@ -94,12 +94,12 @@ nsUnixRemoteServer
 protected
 :
 void
-SetDesktopStartupIDOrTimestamp
+SetStartupTokenOrTimestamp
 (
 const
 nsACString
 &
-aDesktopStartupID
+aStartupToken
 uint32_t
 aTimestamp
 )

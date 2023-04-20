@@ -146,7 +146,7 @@ argv
 const
 char
 *
-aDesktopStartupID
+aStartupToken
 int
 *
 aCommandLineLength
