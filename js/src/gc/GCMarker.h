@@ -888,6 +888,9 @@ None
 MarkRootCompartments
 =
 1
+ParallelMarking
+=
+2
 }
 ;
 }
