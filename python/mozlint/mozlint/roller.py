@@ -971,7 +971,25 @@ result
 =
 ResultSummary
 (
+            
 root
+            
+fail_on_warnings
+=
+lintargs
+.
+get
+(
+"
+show_warnings
+"
+)
+!
+=
+"
+soft
+"
+        
 )
         
 self
