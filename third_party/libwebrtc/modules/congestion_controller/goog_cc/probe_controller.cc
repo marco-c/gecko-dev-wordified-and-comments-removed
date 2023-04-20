@@ -521,6 +521,8 @@ network_state_probe_scale
 &
 network_state_probe_duration
 &
+min_probe_packets_sent
+&
 limit_probe_target_rate_to_loss_bwe
 }
 key_value_config
