@@ -143,6 +143,7 @@ v
 v
 ;
 }
+static
 bool
 ExtractResolutionFromFilename
 (
@@ -265,6 +266,7 @@ return
 false
 ;
 }
+static
 void
 PrintHelp
 (
@@ -586,6 +588,7 @@ exit
 )
 ;
 }
+static
 void
 ParseOptions
 (

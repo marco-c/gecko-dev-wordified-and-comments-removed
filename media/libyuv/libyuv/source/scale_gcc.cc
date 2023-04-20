@@ -6781,7 +6781,7 @@ kLinearMadd31
 ;
 #
 ifdef
-HAS_SCALEROWUP2LINEAR_SSE2
+HAS_SCALEROWUP2_LINEAR_SSE2
 void
 ScaleRowUp2_Linear_SSE2
 (
@@ -7251,7 +7251,7 @@ xmm6
 endif
 #
 ifdef
-HAS_SCALEROWUP2BILINEAR_SSE2
+HAS_SCALEROWUP2_BILINEAR_SSE2
 void
 ScaleRowUp2_Bilinear_SSE2
 (
@@ -8259,7 +8259,7 @@ xmm7
 endif
 #
 ifdef
-HAS_SCALEROWUP2LINEAR_12_SSSE3
+HAS_SCALEROWUP2_LINEAR_12_SSSE3
 void
 ScaleRowUp2_Linear_12_SSSE3
 (
@@ -8671,7 +8671,7 @@ xmm5
 endif
 #
 ifdef
-HAS_SCALEROWUP2BILINEAR_12_SSSE3
+HAS_SCALEROWUP2_BILINEAR_12_SSSE3
 void
 ScaleRowUp2_Bilinear_12_SSSE3
 (
@@ -9556,6 +9556,9 @@ xmm5
 "
 xmm6
 "
+"
+xmm7
+"
 )
 ;
 }
@@ -9563,7 +9566,7 @@ xmm6
 endif
 #
 ifdef
-HAS_SCALEROWUP2LINEAR_16_SSE2
+HAS_SCALEROWUP2_LINEAR_16_SSE2
 void
 ScaleRowUp2_Linear_16_SSE2
 (
@@ -9967,7 +9970,7 @@ xmm5
 endif
 #
 ifdef
-HAS_SCALEROWUP2BILINEAR_16_SSE2
+HAS_SCALEROWUP2_BILINEAR_16_SSE2
 void
 ScaleRowUp2_Bilinear_16_SSE2
 (
@@ -10848,10 +10851,10 @@ pshufd
 0b11011000
 %
 %
-xmm4
+xmm5
 %
 %
-xmm4
+xmm5
 \
 n
 "
@@ -11001,6 +11004,9 @@ xmm5
 "
 xmm6
 "
+"
+xmm7
+"
 )
 ;
 }
@@ -11008,7 +11014,7 @@ xmm6
 endif
 #
 ifdef
-HAS_SCALEROWUP2LINEAR_SSSE3
+HAS_SCALEROWUP2_LINEAR_SSSE3
 void
 ScaleRowUp2_Linear_SSSE3
 (
@@ -11342,12 +11348,6 @@ xmm3
 "
 xmm4
 "
-"
-xmm5
-"
-"
-xmm6
-"
 )
 ;
 }
@@ -11355,7 +11355,7 @@ xmm6
 endif
 #
 ifdef
-HAS_SCALEROWUP2BILINEAR_SSSE3
+HAS_SCALEROWUP2_BILINEAR_SSSE3
 void
 ScaleRowUp2_Bilinear_SSSE3
 (
@@ -12108,7 +12108,7 @@ xmm7
 endif
 #
 ifdef
-HAS_SCALEROWUP2LINEAR_AVX2
+HAS_SCALEROWUP2_LINEAR_AVX2
 void
 ScaleRowUp2_Linear_AVX2
 (
@@ -12509,7 +12509,7 @@ xmm4
 endif
 #
 ifdef
-HAS_SCALEROWUP2BILINEAR_AVX2
+HAS_SCALEROWUP2_BILINEAR_AVX2
 void
 ScaleRowUp2_Bilinear_AVX2
 (
@@ -13338,7 +13338,7 @@ xmm7
 endif
 #
 ifdef
-HAS_SCALEROWUP2LINEAR_12_AVX2
+HAS_SCALEROWUP2_LINEAR_12_AVX2
 void
 ScaleRowUp2_Linear_12_AVX2
 (
@@ -13797,7 +13797,7 @@ xmm5
 endif
 #
 ifdef
-HAS_SCALEROWUP2BILINEAR_12_AVX2
+HAS_SCALEROWUP2_BILINEAR_12_AVX2
 void
 ScaleRowUp2_Bilinear_12_AVX2
 (
@@ -14431,7 +14431,7 @@ xmm5
 endif
 #
 ifdef
-HAS_SCALEROWUP2LINEAR_16_AVX2
+HAS_SCALEROWUP2_LINEAR_16_AVX2
 void
 ScaleRowUp2_Linear_16_AVX2
 (
@@ -14846,7 +14846,7 @@ xmm4
 endif
 #
 ifdef
-HAS_SCALEROWUP2BILINEAR_16_AVX2
+HAS_SCALEROWUP2_BILINEAR_16_AVX2
 void
 ScaleRowUp2_Bilinear_16_AVX2
 (
@@ -20377,8 +20377,18 @@ num
 ;
 }
 #
-ifdef
+if
+defined
+(
 HAS_SCALEUVROWDOWN2BOX_SSSE3
+)
+|
+|
+\
+defined
+(
+HAS_SCALEUVROWDOWN2BOX_AVX2
+)
 static
 const
 uvec8
@@ -20427,6 +20437,11 @@ kShuffleMergeUV
 0x80
 }
 ;
+#
+endif
+#
+ifdef
+HAS_SCALEUVROWDOWN2BOX_SSSE3
 void
 ScaleUVRowDown2Box_SSSE3
 (
@@ -21213,7 +21228,7 @@ kUVLinearMadd31
 ;
 #
 ifdef
-HAS_SCALEUVROWUP2LINEAR_SSSE3
+HAS_SCALEUVROWUP2_LINEAR_SSSE3
 void
 ScaleUVRowUp2_Linear_SSSE3
 (
@@ -21549,7 +21564,7 @@ xmm6
 endif
 #
 ifdef
-HAS_SCALEUVROWUP2BILINEAR_SSSE3
+HAS_SCALEUVROWUP2_BILINEAR_SSSE3
 void
 ScaleUVRowUp2_Bilinear_SSSE3
 (
@@ -22280,7 +22295,7 @@ xmm7
 endif
 #
 ifdef
-HAS_SCALEUVROWUP2LINEAR_AVX2
+HAS_SCALEUVROWUP2_LINEAR_AVX2
 void
 ScaleUVRowUp2_Linear_AVX2
 (
@@ -22667,7 +22682,7 @@ xmm4
 endif
 #
 ifdef
-HAS_SCALEUVROWUP2BILINEAR_AVX2
+HAS_SCALEUVROWUP2_BILINEAR_AVX2
 void
 ScaleUVRowUp2_Bilinear_AVX2
 (
@@ -23468,7 +23483,7 @@ xmm7
 endif
 #
 ifdef
-HAS_SCALEUVROWUP2LINEAR_16_SSE41
+HAS_SCALEUVROWUP2_LINEAR_16_SSE41
 void
 ScaleUVRowUp2_Linear_16_SSE41
 (
@@ -23860,7 +23875,7 @@ xmm5
 endif
 #
 ifdef
-HAS_SCALEUVROWUP2BILINEAR_16_SSE41
+HAS_SCALEUVROWUP2_BILINEAR_16_SSE41
 void
 ScaleUVRowUp2_Bilinear_16_SSE41
 (
@@ -24721,7 +24736,7 @@ xmm7
 endif
 #
 ifdef
-HAS_SCALEUVROWUP2LINEAR_16_AVX2
+HAS_SCALEUVROWUP2_LINEAR_16_AVX2
 void
 ScaleUVRowUp2_Linear_16_AVX2
 (
@@ -25124,7 +25139,7 @@ xmm4
 endif
 #
 ifdef
-HAS_SCALEUVROWUP2BILINEAR_16_AVX2
+HAS_SCALEUVROWUP2_BILINEAR_16_AVX2
 void
 ScaleUVRowUp2_Bilinear_16_AVX2
 (

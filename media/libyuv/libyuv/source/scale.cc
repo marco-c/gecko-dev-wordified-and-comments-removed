@@ -6404,7 +6404,7 @@ src_stride
 ;
 const
 int
-kRowSize
+row_size
 =
 (
 dst_width
@@ -6418,7 +6418,7 @@ dst_width
 align_buffer_64
 (
 row
-kRowSize
+row_size
 *
 2
 )
@@ -6432,7 +6432,7 @@ row
 int
 rowstride
 =
-kRowSize
+row_size
 ;
 int
 lasty
@@ -6725,7 +6725,7 @@ dst_width
 ;
 #
 ifdef
-HAS_SCALEROWUP2LINEAR_SSE2
+HAS_SCALEROWUP2_LINEAR_SSE2
 if
 (
 TestCpuFlag
@@ -6743,7 +6743,7 @@ ScaleRowUp2_Linear_Any_SSE2
 endif
 #
 ifdef
-HAS_SCALEROWUP2LINEAR_SSSE3
+HAS_SCALEROWUP2_LINEAR_SSSE3
 if
 (
 TestCpuFlag
@@ -6761,7 +6761,7 @@ ScaleRowUp2_Linear_Any_SSSE3
 endif
 #
 ifdef
-HAS_SCALEROWUP2LINEAR_AVX2
+HAS_SCALEROWUP2_LINEAR_AVX2
 if
 (
 TestCpuFlag
@@ -6779,7 +6779,7 @@ ScaleRowUp2_Linear_Any_AVX2
 endif
 #
 ifdef
-HAS_SCALEROWUP2LINEAR_NEON
+HAS_SCALEROWUP2_LINEAR_NEON
 if
 (
 TestCpuFlag
@@ -6982,7 +6982,7 @@ dst_height
 ;
 #
 ifdef
-HAS_SCALEROWUP2BILINEAR_SSE2
+HAS_SCALEROWUP2_BILINEAR_SSE2
 if
 (
 TestCpuFlag
@@ -7000,7 +7000,7 @@ ScaleRowUp2_Bilinear_Any_SSE2
 endif
 #
 ifdef
-HAS_SCALEROWUP2BILINEAR_SSSE3
+HAS_SCALEROWUP2_BILINEAR_SSSE3
 if
 (
 TestCpuFlag
@@ -7018,7 +7018,7 @@ ScaleRowUp2_Bilinear_Any_SSSE3
 endif
 #
 ifdef
-HAS_SCALEROWUP2BILINEAR_AVX2
+HAS_SCALEROWUP2_BILINEAR_AVX2
 if
 (
 TestCpuFlag
@@ -7036,7 +7036,7 @@ ScaleRowUp2_Bilinear_Any_AVX2
 endif
 #
 ifdef
-HAS_SCALEROWUP2BILINEAR_NEON
+HAS_SCALEROWUP2_BILINEAR_NEON
 if
 (
 TestCpuFlag
@@ -7196,7 +7196,7 @@ dst_width
 ;
 #
 ifdef
-HAS_SCALEROWUP2LINEAR_12_SSSE3
+HAS_SCALEROWUP2_LINEAR_12_SSSE3
 if
 (
 TestCpuFlag
@@ -7214,7 +7214,7 @@ ScaleRowUp2_Linear_12_Any_SSSE3
 endif
 #
 ifdef
-HAS_SCALEROWUP2LINEAR_12_AVX2
+HAS_SCALEROWUP2_LINEAR_12_AVX2
 if
 (
 TestCpuFlag
@@ -7232,7 +7232,7 @@ ScaleRowUp2_Linear_12_Any_AVX2
 endif
 #
 ifdef
-HAS_SCALEROWUP2LINEAR_12_NEON
+HAS_SCALEROWUP2_LINEAR_12_NEON
 if
 (
 TestCpuFlag
@@ -7435,7 +7435,7 @@ dst_height
 ;
 #
 ifdef
-HAS_SCALEROWUP2BILINEAR_12_SSSE3
+HAS_SCALEROWUP2_BILINEAR_12_SSSE3
 if
 (
 TestCpuFlag
@@ -7453,7 +7453,7 @@ ScaleRowUp2_Bilinear_12_Any_SSSE3
 endif
 #
 ifdef
-HAS_SCALEROWUP2BILINEAR_12_AVX2
+HAS_SCALEROWUP2_BILINEAR_12_AVX2
 if
 (
 TestCpuFlag
@@ -7471,7 +7471,7 @@ ScaleRowUp2_Bilinear_12_Any_AVX2
 endif
 #
 ifdef
-HAS_SCALEROWUP2BILINEAR_12_NEON
+HAS_SCALEROWUP2_BILINEAR_12_NEON
 if
 (
 TestCpuFlag
@@ -7631,7 +7631,7 @@ dst_width
 ;
 #
 ifdef
-HAS_SCALEROWUP2LINEAR_16_SSE2
+HAS_SCALEROWUP2_LINEAR_16_SSE2
 if
 (
 TestCpuFlag
@@ -7649,7 +7649,7 @@ ScaleRowUp2_Linear_16_Any_SSE2
 endif
 #
 ifdef
-HAS_SCALEROWUP2LINEAR_16_AVX2
+HAS_SCALEROWUP2_LINEAR_16_AVX2
 if
 (
 TestCpuFlag
@@ -7667,7 +7667,7 @@ ScaleRowUp2_Linear_16_Any_AVX2
 endif
 #
 ifdef
-HAS_SCALEROWUP2LINEAR_16_NEON
+HAS_SCALEROWUP2_LINEAR_16_NEON
 if
 (
 TestCpuFlag
@@ -7870,25 +7870,25 @@ dst_height
 ;
 #
 ifdef
-HAS_SCALEROWUP2BILINEAR_16_SSE2
+HAS_SCALEROWUP2_BILINEAR_16_SSE2
 if
 (
 TestCpuFlag
 (
-kCpuHasSSSE3
+kCpuHasSSE2
 )
 )
 {
 Scale2RowUp
 =
-ScaleRowUp2_Bilinear_16_Any_SSSE3
+ScaleRowUp2_Bilinear_16_Any_SSE2
 ;
 }
 #
 endif
 #
 ifdef
-HAS_SCALEROWUP2BILINEAR_16_AVX2
+HAS_SCALEROWUP2_BILINEAR_16_AVX2
 if
 (
 TestCpuFlag
@@ -7906,7 +7906,7 @@ ScaleRowUp2_Bilinear_16_Any_AVX2
 endif
 #
 ifdef
-HAS_SCALEROWUP2BILINEAR_16_NEON
+HAS_SCALEROWUP2_BILINEAR_16_NEON
 if
 (
 TestCpuFlag
@@ -8407,7 +8407,7 @@ src_stride
 ;
 const
 int
-kRowSize
+row_size
 =
 (
 dst_width
@@ -8421,7 +8421,7 @@ dst_width
 align_buffer_64
 (
 row
-kRowSize
+row_size
 *
 4
 )
@@ -8439,7 +8439,7 @@ row
 int
 rowstride
 =
-kRowSize
+row_size
 ;
 int
 lasty

@@ -752,7 +752,7 @@ j
 ;
 const
 int
-kRowSize
+row_size
 =
 (
 dst_width
@@ -770,7 +770,7 @@ dst_width
 align_buffer_64
 (
 row
-kRowSize
+row_size
 *
 2
 )
@@ -1009,7 +1009,7 @@ src_stride
 src_stride
 row
 +
-kRowSize
+row_size
 dst_width
 *
 2
@@ -1018,7 +1018,7 @@ dst_width
 ScaleUVRowDown2
 (
 row
-kRowSize
+row_size
 dst_uv
 dst_width
 )
@@ -2654,7 +2654,7 @@ src_stride
 ;
 const
 int
-kRowSize
+row_size
 =
 (
 dst_width
@@ -2670,7 +2670,7 @@ dst_width
 align_buffer_64
 (
 row
-kRowSize
+row_size
 *
 2
 )
@@ -2684,7 +2684,7 @@ row
 int
 rowstride
 =
-kRowSize
+row_size
 ;
 int
 lasty

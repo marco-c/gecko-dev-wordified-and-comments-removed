@@ -90,6 +90,7 @@ YUV_VER_PATCH
 )
 MESSAGE
 (
+VERBOSE
 "
 Building
 ver
@@ -346,6 +347,7 @@ ENDIF
 )
 MESSAGE
 (
+VERBOSE
 "
 Packaging
 for

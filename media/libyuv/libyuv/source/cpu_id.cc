@@ -507,6 +507,12 @@ _M_IX86
 )
 &
 &
+defined
+(
+_MSC_VER
+)
+&
+&
 (
 _MSC_VER
 <
@@ -572,6 +578,7 @@ defined
 (
 __native_client__
 )
+static
 int
 GetXCR0
 (
@@ -670,6 +677,12 @@ if
 defined
 (
 _M_IX86
+)
+&
+&
+defined
+(
+_MSC_VER
 )
 &
 &
