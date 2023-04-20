@@ -5476,7 +5476,7 @@ uri
 {
 browser
 .
-loadURI
+fixupAndLoadURIString
 (
 uri
 {

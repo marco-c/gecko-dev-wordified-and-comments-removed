@@ -200,7 +200,14 @@ linkedBrowser
 .
 loadURI
 (
+Services
+.
+io
+.
+newURI
+(
 gUrl
+)
 {
 triggeringPrincipal
 :

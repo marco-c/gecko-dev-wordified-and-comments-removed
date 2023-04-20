@@ -5446,7 +5446,14 @@ webNavigation
 .
 loadURI
 (
+Services
+.
+io
+.
+newURI
+(
 uri
+)
 loadURIOptions
 )
 ;
