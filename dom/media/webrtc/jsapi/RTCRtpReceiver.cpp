@@ -285,8 +285,8 @@ GetPrincipalHandle
 nsPIDOMWindowInner
 *
 aWindow
-bool
-aPrivacyNeeded
+PrincipalPrivacy
+aPrivacy
 )
 {
 nsCOMPtr
@@ -335,7 +335,13 @@ CreateWithoutOriginAttributes
 else
 if
 (
-aPrivacyNeeded
+aPrivacy
+=
+=
+PrincipalPrivacy
+:
+:
+Private
 )
 {
 principal
@@ -577,8 +583,8 @@ RTCRtpReceiver
 nsPIDOMWindowInner
 *
 aWindow
-bool
-aPrivacyNeeded
+PrincipalPrivacy
+aPrivacy
 PeerConnectionImpl
 *
 aPc
@@ -689,7 +695,7 @@ principalHandle
 GetPrincipalHandle
 (
 aWindow
-aPrivacyNeeded
+aPrivacy
 )
 ;
 mTrack

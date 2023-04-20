@@ -143,6 +143,12 @@ JsepTrackNegotiatedDetails
 class
 PeerConnectionImpl
 ;
+enum
+class
+PrincipalPrivacy
+:
+uint8_t
+;
 namespace
 dom
 {
@@ -948,10 +954,8 @@ mHasBeenUsedToSend
 =
 false
 ;
-bool
-mPrivacyNeeded
-=
-false
+PrincipalPrivacy
+mPrincipalPrivacy
 ;
 bool
 mShouldRemove
