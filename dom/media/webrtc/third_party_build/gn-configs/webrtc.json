@@ -92,7 +92,7 @@ modules
 /
 desktop_capture
 /
-desktop_capture_generic_gn
+desktop_capture_gn
 "
 ]
 }
