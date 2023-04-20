@@ -45,10 +45,6 @@ items_after_statements
 clippy
 :
 :
-let_underscore_drop
-clippy
-:
-:
 shadow_unrelated
 clippy
 :
@@ -587,7 +583,6 @@ v
 =
 to_value
 (
-&
 value
 )
 .
@@ -689,7 +684,6 @@ v
 =
 to_value
 (
-&
 value
 )
 .
@@ -7861,10 +7855,10 @@ vec
 \
 "
 "
-"
-"
-.
-to_string
+String
+:
+:
+new
 (
 )
 )
@@ -14996,7 +14990,6 @@ serde_json
 :
 to_value
 (
-&
 map
 )
 .

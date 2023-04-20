@@ -123,7 +123,7 @@ version
 .
 0
 .
-85
+91
 "
 authors
 =
@@ -301,6 +301,16 @@ features
 raw_value
 "
 ]
+[
+lib
+]
+doc
+-
+scrape
+-
+examples
+=
+false
 [
 dependencies
 .

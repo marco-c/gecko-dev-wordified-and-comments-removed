@@ -98,23 +98,6 @@ Impossible
 Serialize
 }
 ;
-#
-[
-cfg
-(
-feature
-=
-"
-arbitrary_precision
-"
-)
-]
-use
-serde
-:
-:
-serde_if_integer128
-;
 impl
 Serialize
 for
@@ -539,9 +522,6 @@ arbitrary_precision
 "
 )
 ]
-serde_if_integer128
-!
-{
 fn
 serialize_i128
 (
@@ -571,7 +551,6 @@ into
 )
 )
 )
-}
 }
 #
 [
@@ -702,9 +681,6 @@ arbitrary_precision
 "
 )
 ]
-serde_if_integer128
-!
-{
 fn
 serialize_u128
 (
@@ -734,7 +710,6 @@ into
 )
 )
 )
-}
 }
 #
 [
@@ -1151,7 +1126,6 @@ tri
 (
 to_value
 (
-&
 value
 )
 )
@@ -1797,7 +1771,6 @@ tri
 (
 to_value
 (
-&
 value
 )
 )
@@ -2080,7 +2053,6 @@ tri
 (
 to_value
 (
-&
 value
 )
 )
@@ -2362,7 +2334,6 @@ tri
 (
 to_value
 (
-&
 value
 )
 )
@@ -3867,7 +3838,6 @@ tri
 (
 to_value
 (
-&
 value
 )
 )
