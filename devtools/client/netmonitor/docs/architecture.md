@@ -95,7 +95,6 @@ tool
 .
 #
 #
-#
 UI
 The
 Network
@@ -246,7 +245,6 @@ its
 internal
 state
 .
-#
 #
 #
 State

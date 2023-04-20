@@ -211,7 +211,6 @@ iframe
 -
 #
 #
-#
 The
 basics
 -
@@ -394,7 +393,6 @@ stacks
 -
 -
 -
-#
 #
 #
 Analyzing
@@ -634,7 +632,6 @@ happening
 -
 #
 #
-#
 Concepts
 -
 What
@@ -720,7 +717,6 @@ md
 -
 -
 -
-#
 #
 #
 Example

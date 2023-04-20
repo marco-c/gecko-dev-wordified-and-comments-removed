@@ -31,7 +31,6 @@ Perfherder
 .
 #
 #
-#
 num_constructors
 Number
 of
@@ -73,7 +72,6 @@ started
 .
 #
 #
-#
 installer
 size
 Size
@@ -99,7 +97,6 @@ Android
 .
 #
 #
-#
 build
 times
 Amount
@@ -123,7 +120,6 @@ Lower
 is
 better
 .
-#
 #
 #
 compiler

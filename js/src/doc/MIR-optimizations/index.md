@@ -168,7 +168,6 @@ iongraph
 .
 #
 #
-#
 *
 BuildSSA
 *
@@ -226,7 +225,6 @@ nodes
 .
 #
 #
-#
 Prune
 Unused
 Branches
@@ -245,7 +243,6 @@ are
 never
 taken
 .
-#
 #
 #
 Fold
@@ -274,7 +271,6 @@ into
 their
 successor
 .
-#
 #
 #
 Fold
@@ -325,7 +321,6 @@ cpp
 871
 )
 .
-#
 #
 #
 Split
@@ -387,7 +382,6 @@ instructions
 .
 #
 #
-#
 Renumber
 Blocks
 This
@@ -398,7 +392,6 @@ reassigns
 block
 numbers
 .
-#
 #
 #
 Eliminate
@@ -435,7 +428,6 @@ cleans
 those
 up
 .
-#
 #
 #
 *
@@ -513,7 +505,6 @@ individually
 .
 #
 #
-#
 Apply
 types
 Each
@@ -585,7 +576,6 @@ out
 .
 #
 #
-#
 *
 Alias
 Analysis
@@ -647,7 +637,6 @@ program
 .
 #
 #
-#
 *
 GVN
 *
@@ -691,7 +680,6 @@ eliminating
 the
 redundancy
 .
-#
 #
 #
 *
@@ -742,7 +730,6 @@ of
 the
 loop
 .
-#
 #
 #
 Beta
@@ -806,7 +793,6 @@ cpp
 .
 #
 #
-#
 *
 Range
 Analysis
@@ -855,7 +841,6 @@ passes
 .
 #
 #
-#
 De
 -
 Beta
@@ -870,7 +855,6 @@ t
 need
 them
 .
-#
 #
 #
 RA
@@ -894,7 +878,6 @@ Elimination
 .
 #
 #
-#
 Truncate
 Doubles
 Strength
@@ -913,7 +896,6 @@ it
 s
 okay
 .
-#
 #
 #
 Sink
@@ -989,7 +971,6 @@ id
 .
 #
 #
-#
 Remove
 Unnecessary
 Bitops
@@ -1016,7 +997,6 @@ input
 .
 #
 #
-#
 Fold
 Linear
 Arithmetic
@@ -1036,7 +1016,6 @@ constant1
 constant2
 )
 .
-#
 #
 #
 Effective
@@ -1060,7 +1039,6 @@ asm
 .
 js
 .
-#
 #
 #
 *
@@ -1094,7 +1072,6 @@ are
 never
 needed
 .
-#
 #
 #
 *
@@ -1147,7 +1124,6 @@ Instruction_scheduling
 .
 #
 #
-#
 Make
 loops
 contiguous
@@ -1174,7 +1150,6 @@ for
 cache
 locality
 .
-#
 #
 #
 Edge
@@ -1211,7 +1186,6 @@ handle
 negative
 zero
 .
-#
 #
 #
 *
@@ -1260,7 +1234,6 @@ fail
 .
 #
 #
-#
 FoldLoadsWithUnbox
 Loading
 a
@@ -1285,7 +1258,6 @@ operations
 at
 once
 .
-#
 #
 #
 Add
@@ -1343,7 +1315,6 @@ id
 .
 #
 #
-#
 Generate
 LIR
 After
@@ -1366,7 +1337,6 @@ and
 code
 generation
 .
-#
 #
 #
 *

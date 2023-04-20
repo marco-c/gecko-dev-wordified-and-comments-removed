@@ -146,7 +146,6 @@ builds
 .
 #
 #
-#
 Installation
 For
 all
@@ -397,7 +396,6 @@ t
 REG_DWORD
 -
 f
-#
 #
 #
 Symbol
@@ -714,7 +712,6 @@ error
 )
 #
 #
-#
 Quick
 Start
 All
@@ -994,7 +991,6 @@ shark
 .
 #
 #
-#
 Heap
 Profiling
 xperf
@@ -1070,7 +1066,6 @@ allocations
 /
 deallocations
 .
-#
 #
 #
 #
@@ -1444,7 +1439,6 @@ inside
 .
 #
 #
-#
 Tips
 -
 In
@@ -1603,7 +1597,6 @@ tab
 .
 #
 #
-#
 Building
 Firefox
 To
@@ -1697,7 +1690,6 @@ gives
 us
 symbols
 .
-#
 #
 #
 For

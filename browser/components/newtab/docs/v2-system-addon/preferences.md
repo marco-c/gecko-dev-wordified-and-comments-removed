@@ -649,7 +649,6 @@ blocked
 #
 #
 #
-#
 browser
 .
 newtabpage
@@ -720,7 +719,6 @@ meaning
 #
 #
 #
-#
 browser
 .
 newtabpage
@@ -778,7 +776,6 @@ a
 specific
 meaning
 .
-#
 #
 #
 #
@@ -1080,7 +1077,6 @@ unenrolled
 #
 #
 #
-#
 browser
 .
 newtabpage
@@ -1149,7 +1145,6 @@ shown
 #
 #
 #
-#
 browser
 .
 newtabpage
@@ -1208,7 +1203,6 @@ the
 ad
 server
 .
-#
 #
 #
 #
@@ -1298,7 +1292,6 @@ experimentation
 #
 #
 #
-#
 browser
 .
 newtabpage
@@ -1363,7 +1356,6 @@ used
 #
 #
 #
-#
 browser
 .
 newtabpage
@@ -1414,7 +1406,6 @@ the
 first
 impression
 .
-#
 #
 #
 #
@@ -1470,7 +1461,6 @@ for
 every
 impression
 .
-#
 #
 #
 #
@@ -1577,7 +1567,6 @@ list
 #
 #
 #
-#
 browser
 .
 newtabpage
@@ -1652,7 +1641,6 @@ locale
 #
 #
 #
-#
 browser
 .
 newtabpage
@@ -1713,7 +1701,6 @@ with
 that
 list
 .
-#
 #
 #
 #
@@ -1786,7 +1773,6 @@ list
 #
 #
 #
-#
 browser
 .
 newtabpage
@@ -1845,7 +1831,6 @@ config
 #
 #
 #
-#
 browser
 .
 newtabpage
@@ -1896,7 +1881,6 @@ endpoints
 #
 #
 #
-#
 browser
 .
 newtabpage
@@ -1937,7 +1921,6 @@ score
 newtab
 stories
 .
-#
 #
 #
 #
@@ -2020,7 +2003,6 @@ by
 #
 #
 #
-#
 browser
 .
 newtabpage
@@ -2070,7 +2052,6 @@ content
 #
 #
 #
-#
 browser
 .
 newtabpage
@@ -2120,7 +2101,6 @@ stories
 #
 #
 #
-#
 browser
 .
 newtabpage
@@ -2156,7 +2136,6 @@ dismissible
 or
 not
 .
-#
 #
 #
 #
@@ -2210,7 +2189,6 @@ about
 preferences
 #
 home
-#
 #
 #
 #

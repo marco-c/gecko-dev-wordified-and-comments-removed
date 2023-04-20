@@ -53,7 +53,6 @@ upgrades
 .
 #
 #
-#
 New
 User
 Onboarding
@@ -104,7 +103,6 @@ welcome
 #
 #
 #
-#
 Default
 values
 Multistage
@@ -121,7 +119,6 @@ major
 variations
 are
 :
-#
 #
 #
 #
@@ -165,7 +162,6 @@ config
 #
 #
 #
-#
 Proton
 A
 full
@@ -202,7 +198,6 @@ for
 more
 information
 .
-#
 #
 #
 #
@@ -358,7 +353,6 @@ should
 display
 RTAMO
 page
-#
 #
 #
 #
@@ -612,7 +606,6 @@ false
 #
 #
 #
-#
 Default
 experience
 variations
@@ -689,7 +682,6 @@ theme
 .
 #
 #
-#
 Upgrade
 Dialog
 Upgrade
@@ -727,7 +719,6 @@ allowing
 theme
 change
 .
-#
 #
 #
 #
@@ -805,7 +796,6 @@ allows
 theme
 changes
 .
-#
 #
 #
 #

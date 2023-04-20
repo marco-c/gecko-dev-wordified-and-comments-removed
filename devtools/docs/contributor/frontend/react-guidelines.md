@@ -90,7 +90,6 @@ style
 .
 #
 #
-#
 Why
 no
 JSX
@@ -230,7 +229,6 @@ much
 .
 #
 #
-#
 One
 component
 per
@@ -340,7 +338,6 @@ to
 use
 them
 .
-#
 #
 #
 Export
@@ -547,7 +544,6 @@ as
 hot
 reloading
 .
-#
 #
 #
 More

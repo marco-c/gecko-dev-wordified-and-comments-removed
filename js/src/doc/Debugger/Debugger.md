@@ -18,7 +18,6 @@ instance
 .
 #
 #
-#
 new
 Debugger
 (

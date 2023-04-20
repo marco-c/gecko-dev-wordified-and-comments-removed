@@ -171,7 +171,6 @@ below
 .
 #
 #
-#
 Allocation
 Site
 Tracking
@@ -392,7 +391,6 @@ allocated
 .
 #
 #
-#
 Allocation
 Logging
 If
@@ -547,7 +545,6 @@ log
 code
 >
 .
-#
 #
 #
 Censuses
@@ -768,7 +765,6 @@ prototype
 :
 #
 #
-#
 trackingAllocationSites
 A
 boolean
@@ -890,7 +886,6 @@ property
 .
 #
 #
-#
 allocationSamplingProbability
 A
 number
@@ -1001,7 +996,6 @@ used
 .
 #
 #
-#
 maxAllocationsLogLength
 The
 maximum
@@ -1035,7 +1029,6 @@ value
 is
 5000
 .
-#
 #
 #
 allocationsLogOverflowed
@@ -1282,7 +1275,6 @@ compartment
 .
 #
 #
-#
 onGarbageCollection
 (
 statistics
@@ -1322,8 +1314,6 @@ the
 following
 properties
 :
-#
-#
 #
 #
 collections
@@ -1415,8 +1405,6 @@ and
 end
 events
 .
-#
-#
 #
 #
 reason
@@ -1573,8 +1561,6 @@ USER_INACTIVE
 "
 #
 #
-#
-#
 nonincrementalReason
 If
 SpiderMonkey
@@ -1645,8 +1631,6 @@ trigger
 "
 requested
 "
-#
-#
 #
 #
 gcCycleNumber
@@ -1750,7 +1734,6 @@ Object
 -
 -
 -
-#
 #
 #
 drainAllocationsLog
@@ -1982,7 +1965,6 @@ throws
 an
 Error
 .
-#
 #
 #
 takeCensus
@@ -4004,7 +3986,6 @@ platform
 .
 #
 #
-#
 Objects
 SpiderMonkey
 objects
@@ -4099,7 +4080,6 @@ indices
 is
 dense
 .
-#
 #
 #
 Strings
@@ -4308,7 +4288,6 @@ censuses
 string
 counts
 .
-#
 #
 #
 Scripts

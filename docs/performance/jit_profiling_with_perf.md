@@ -81,7 +81,6 @@ png
 )
 #
 #
-#
 Build
 setup
 To
@@ -110,7 +109,6 @@ ac_add_options
 enable
 -
 perf
-#
 #
 #
 Environment
@@ -247,7 +245,6 @@ export
 PERF_SPEW_DIR
 =
 output
-#
 #
 #
 Profiling
@@ -413,7 +410,6 @@ single
 shell
 script
 .
-#
 #
 #
 Profiling
@@ -679,7 +675,6 @@ i
 jit
 .
 data
-#
 #
 #
 Additional

@@ -52,7 +52,6 @@ URL
 .
 #
 #
-#
 Definitions
 -
 URI
@@ -92,7 +91,6 @@ a
 specific
 resource
 .
-#
 #
 #
 Motivation

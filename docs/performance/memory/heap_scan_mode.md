@@ -1138,8 +1138,6 @@ Logs
 #
 #
 #
-#
-#
 Getting
 the
 PID
@@ -1466,8 +1464,6 @@ non
 -
 garbage
 .
-#
-#
 #
 #
 #
@@ -1907,8 +1903,6 @@ leak
 really
 is
 .
-#
-#
 #
 #
 #
@@ -2595,8 +2589,6 @@ things
 to
 analyze
 .
-#
-#
 #
 #
 #
