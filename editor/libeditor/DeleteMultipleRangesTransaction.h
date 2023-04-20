@@ -113,6 +113,12 @@ DeleteRangeTransaction
 aTransaction
 )
 ;
+EditorDOMPoint
+SuggestPointToPutCaret
+(
+)
+const
+;
 protected
 :
 ~
