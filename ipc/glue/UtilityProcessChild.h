@@ -277,6 +277,17 @@ ipc
 :
 :
 IPCResult
+RecvTestTelemetryProbes
+(
+)
+;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvStartUtilityAudioDecoderService
 (
 Endpoint
