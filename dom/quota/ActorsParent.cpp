@@ -11877,6 +11877,13 @@ gInstance
 nullptr
 ;
 }
+else
+{
+gShutdown
+=
+true
+;
+}
 RefPtr
 <
 Runnable
