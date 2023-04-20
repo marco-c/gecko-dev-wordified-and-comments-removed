@@ -16165,6 +16165,9 @@ ispe_mismatch
 invalid_cicp
 "
 "
+no_samples
+"
+"
 invalid_parse_status
 "
 "
@@ -16208,6 +16211,9 @@ item_loc_not_found
 "
 "
 no_item_data_box
+"
+"
+uncategorized
 "
 ]
 "

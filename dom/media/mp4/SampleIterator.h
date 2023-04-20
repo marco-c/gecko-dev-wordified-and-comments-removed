@@ -99,6 +99,11 @@ SampleIterator
 (
 )
 ;
+bool
+HasNext
+(
+)
+;
 already_AddRefed
 <
 mozilla
