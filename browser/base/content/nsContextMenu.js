@@ -7889,7 +7889,7 @@ tabBrowser
 !
 tabBrowser
 .
-loadOneTab
+addTab
 |
 |
 !
@@ -7934,7 +7934,7 @@ tab
 =
 tabBrowser
 .
-loadOneTab
+addTab
 (
 "
 about

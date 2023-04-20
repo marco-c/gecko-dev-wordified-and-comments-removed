@@ -328,7 +328,7 @@ window
 .
 gBrowser
 .
-loadOneTab
+addTab
 (
 url
 {

@@ -2010,7 +2010,7 @@ r
             
 gBrowser
 .
-loadOneTab
+addTab
 (
 "
 about

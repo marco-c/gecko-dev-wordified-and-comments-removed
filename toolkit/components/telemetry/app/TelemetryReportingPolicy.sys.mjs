@@ -2970,7 +2970,7 @@ win
 .
 gBrowser
 .
-loadOneTab
+addTab
 (
 firstRunPolicyURL
 {
