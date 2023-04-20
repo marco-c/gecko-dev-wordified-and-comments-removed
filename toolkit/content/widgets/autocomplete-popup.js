@@ -1832,6 +1832,9 @@ insecureWarning
 generatedPassword
 "
 "
+generic
+"
+"
 importableLearnMore
 "
 "
