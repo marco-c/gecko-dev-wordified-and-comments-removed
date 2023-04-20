@@ -144,9 +144,6 @@ Scripts
 "
 )
     
-else
-:
-        
 return
 os
 .
