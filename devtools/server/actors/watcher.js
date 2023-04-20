@@ -1491,7 +1491,7 @@ addonBrowsingContextID
 )
 ;
 }
-_getTargetActorInParentProcess
+getTargetActorInParentProcess
 (
 )
 {
@@ -1642,7 +1642,7 @@ targetActor
 =
 this
 .
-_getTargetActorInParentProcess
+getTargetActorInParentProcess
 (
 )
 ;
@@ -1828,7 +1828,7 @@ targetActor
 =
 this
 .
-_getTargetActorInParentProcess
+getTargetActorInParentProcess
 (
 )
 ;
@@ -2125,7 +2125,7 @@ targetActor
 =
 this
 .
-_getTargetActorInParentProcess
+getTargetActorInParentProcess
 (
 )
 ;
@@ -2229,7 +2229,7 @@ targetActor
 =
 this
 .
-_getTargetActorInParentProcess
+getTargetActorInParentProcess
 (
 )
 ;

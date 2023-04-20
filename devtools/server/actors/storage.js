@@ -15458,16 +15458,7 @@ addonId
 const
 isWatcherEnabled
 =
-!
-isAddonTarget
-&
-&
-!
-this
-.
-parentActor
-.
-isRootActor
+true
 ;
 const
 shallUseLegacyActors

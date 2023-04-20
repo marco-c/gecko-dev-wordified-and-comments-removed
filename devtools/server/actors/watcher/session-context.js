@@ -404,7 +404,7 @@ TYPES
 COOKIE
 ]
 :
-isTabOrWebExtensionToolbox
+true
 [
 Resources
 .
@@ -422,7 +422,7 @@ TYPES
 INDEXED_DB
 ]
 :
-isTabOrWebExtensionToolbox
+true
 [
 Resources
 .
