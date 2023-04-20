@@ -1820,17 +1820,11 @@ f
 )
 =
 >
-KleeneValue
-:
-:
-from
-(
 f
 .
 matches
 (
 context
-)
 )
 QueryCondition
 :
