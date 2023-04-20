@@ -764,9 +764,12 @@ gcFunction
 key
 =
 mangled2full
-[
+.
+get
+(
 mangled
-]
+mangled
+)
             
 if
 key
