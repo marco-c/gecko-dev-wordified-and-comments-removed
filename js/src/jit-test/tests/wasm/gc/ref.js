@@ -4,8 +4,6 @@ text
 (
 module
 (
-rec
-(
 type
 cons
 (
@@ -68,7 +66,6 @@ to_odd
 ref
 null
 odd
-)
 )
 )
 )
