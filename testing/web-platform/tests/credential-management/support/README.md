@@ -237,7 +237,7 @@ helper
 .
 js
 exposes
-fedcm_test
+fedcm_mojo_mock_test
 which
 is
 a
@@ -286,7 +286,7 @@ module
 >
 import
 {
-fedcm_test
+fedcm_mojo_mock_test
 }
 from
 '
@@ -303,7 +303,7 @@ helper
 js
 '
 ;
-fedcm_test
+fedcm_mojo_mock_test
 (
 async
 (
