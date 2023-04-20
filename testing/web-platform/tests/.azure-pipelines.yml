@@ -997,6 +997,11 @@ dev
 chrome
 infrastructure
 /
+condition
+:
+succeededOrFailed
+(
+)
 displayName
 :
 '
@@ -1065,6 +1070,11 @@ nightly
 firefox
 infrastructure
 /
+condition
+:
+succeededOrFailed
+(
+)
 displayName
 :
 '
@@ -1137,6 +1147,11 @@ preview
 safari
 infrastructure
 /
+condition
+:
+succeededOrFailed
+(
+)
 displayName
 :
 '
