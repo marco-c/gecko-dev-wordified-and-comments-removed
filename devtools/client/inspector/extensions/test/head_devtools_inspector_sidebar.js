@@ -243,7 +243,7 @@ waitForNodeWithType
 }
 ;
 return
-ContentTaskUtils
+TestUtils
 .
 waitForCondition
 (
@@ -310,7 +310,7 @@ const
 iframesCount
 =
 await
-ContentTaskUtils
+TestUtils
 .
 waitForCondition
 (
@@ -371,7 +371,7 @@ selector
 contentWindow
 ;
 await
-ContentTaskUtils
+TestUtils
 .
 waitForCondition
 (
@@ -497,7 +497,7 @@ objectInspector
 objectInspectors
 ;
 await
-ContentTaskUtils
+TestUtils
 .
 waitForCondition
 (
