@@ -8611,6 +8611,16 @@ num_temps
 -
 name
 :
+GuardGlobalGeneration
+mir_op
+:
+true
+num_temps
+:
+1
+-
+name
+:
 GuardIsProxy
 operands
 :
