@@ -2014,6 +2014,12 @@ none
 (
 )
 "
+vector
+=
+True
+need_index
+=
+True
 engines
 =
 "
@@ -2096,6 +2102,12 @@ default
 (
 )
 "
+vector
+=
+True
+need_index
+=
+True
 engines
 =
 "
