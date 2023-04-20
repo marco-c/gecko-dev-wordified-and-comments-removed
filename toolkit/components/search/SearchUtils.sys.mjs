@@ -880,6 +880,17 @@ opensearchdescription
 +
 xml
 "
+TRENDING_JSON
+:
+"
+application
+/
+x
+-
+trending
++
+json
+"
 }
 ENGINES_URLS
 :
