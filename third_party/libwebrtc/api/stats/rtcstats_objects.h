@@ -2808,12 +2808,6 @@ override
 ;
 RTCStatsMember
 <
-uint64_t
->
-packets_discarded
-;
-RTCStatsMember
-<
 std
 :
 :
