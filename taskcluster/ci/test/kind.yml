@@ -94,10 +94,6 @@ msix
 -
 repackage
 -
-signing
--
-repackage
--
 fetch
 -
 toolchain
