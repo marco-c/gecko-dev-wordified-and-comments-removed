@@ -90,6 +90,7 @@ WindowSurface
 {
 public
 :
+explicit
 WindowSurfaceWaylandMB
 (
 RefPtr
@@ -97,9 +98,6 @@ RefPtr
 nsWindow
 >
 aWindow
-GtkCompositorWidget
-*
-aCompositorWidget
 )
 ;
 ~
@@ -219,11 +217,6 @@ MutexAutoLock
 aProofOfLock
 )
 ;
-bool
-MaybeUpdateWindowSize
-(
-)
-;
 mozilla
 :
 :
@@ -237,12 +230,8 @@ nsWindow
 >
 mWindow
 ;
-GtkCompositorWidget
-*
-mCompositorWidget
-;
 LayoutDeviceIntSize
-mWindowSize
+mMozContainerSize
 ;
 RefPtr
 <
