@@ -31,9 +31,9 @@ subprocess
 import
 sys
 import
-six
-import
 mozharness
+import
+six
 from
 mozharness
 .

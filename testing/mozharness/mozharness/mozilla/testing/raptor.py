@@ -21,10 +21,6 @@ shutil
 import
 copyfile
 rmtree
-from
-six
-import
-string_types
 import
 mozharness
 from
@@ -129,6 +125,10 @@ testbase
 import
 TestingMixin
 testing_config_options
+from
+six
+import
+string_types
 scripts_path
 =
 os

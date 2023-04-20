@@ -15,10 +15,6 @@ unittest
 import
 pytest
 from
-mozunit
-import
-main
-from
 mozpack
 .
 archive
@@ -39,6 +35,10 @@ mozpack
 files
 import
 GeneratedFile
+from
+mozunit
+import
+main
 MODE_STANDARD
 =
 stat

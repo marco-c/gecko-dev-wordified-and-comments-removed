@@ -15,6 +15,10 @@ buildconfig
 import
 topsrcdir
 from
+common
+import
+ConfigureTestSandbox
+from
 mozunit
 import
 main
@@ -26,10 +30,6 @@ from
 test_toolchain_helpers
 import
 FakeCompiler
-from
-common
-import
-ConfigureTestSandbox
 from
 mozbuild
 .

@@ -22,7 +22,7 @@ lint
 /
 python
 /
-black_requirements
+flake8_requirements
 .
 txt
 -
@@ -32,7 +32,17 @@ lint
 /
 python
 /
-ruff_requirements
+pylint_requirements
+.
+txt
+-
+tools
+/
+lint
+/
+python
+/
+black_requirements
 .
 txt
 -

@@ -17,6 +17,10 @@ buildconfig
 import
 topsrcdir
 from
+common
+import
+ConfigureTestSandbox
+from
 mozpack
 import
 path
@@ -30,10 +34,6 @@ from
 six
 import
 StringIO
-from
-common
-import
-ConfigureTestSandbox
 from
 mozbuild
 .

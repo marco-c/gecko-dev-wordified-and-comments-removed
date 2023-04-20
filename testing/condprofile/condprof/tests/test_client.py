@@ -15,12 +15,6 @@ unittest
 import
 responses
 from
-mozprofile
-.
-prefs
-import
-Preferences
-from
 condprof
 .
 client
@@ -34,6 +28,12 @@ condprof
 util
 import
 _DEFAULT_SERVER
+from
+mozprofile
+.
+prefs
+import
+Preferences
 PROFILE
 =
 re

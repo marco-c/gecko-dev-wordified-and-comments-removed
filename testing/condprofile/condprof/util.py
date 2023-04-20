@@ -24,6 +24,10 @@ requests
 import
 yaml
 from
+condprof
+import
+progress
+from
 requests
 .
 exceptions
@@ -41,10 +45,6 @@ util
 retry
 import
 Retry
-from
-condprof
-import
-progress
 TASK_CLUSTER
 =
 "

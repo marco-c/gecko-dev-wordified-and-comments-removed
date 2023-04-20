@@ -1,12 +1,12 @@
 from
-mozunit
-import
-main
-from
 common
 import
 BaseConfigureTest
 ConfigureTestSandbox
+from
+mozunit
+import
+main
 from
 mozbuild
 .
