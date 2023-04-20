@@ -118,7 +118,7 @@ nodiscard
 ]
 ]
 bool
-prepareForParamsWithoutExpressionOrDestructuring
+prepareForParamsWithoutExpression
 (
 )
 ;
@@ -128,7 +128,7 @@ nodiscard
 ]
 ]
 bool
-prepareForParamsWithExpressionOrDestructuring
+prepareForParamsWithExpression
 (
 )
 ;
