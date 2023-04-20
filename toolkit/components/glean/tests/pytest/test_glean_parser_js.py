@@ -148,8 +148,6 @@ components
 /
 glean
 /
-tests
-/
 pytest
     
 "
@@ -321,8 +319,6 @@ toolkit
 components
 /
 glean
-/
-tests
 /
 pytest
     
