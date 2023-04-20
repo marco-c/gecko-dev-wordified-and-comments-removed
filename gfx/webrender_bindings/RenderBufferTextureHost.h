@@ -182,6 +182,12 @@ UnmapPlanes
 )
 override
 ;
+void
+Destroy
+(
+)
+override
+;
 private
 :
 virtual
@@ -297,6 +303,11 @@ mCrMap
 ;
 bool
 mLocked
+;
+bool
+mDestroyed
+=
+false
 ;
 }
 ;
