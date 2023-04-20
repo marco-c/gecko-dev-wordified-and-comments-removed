@@ -81,7 +81,7 @@ h
 #
 include
 "
-nsISupportsBase
+nsISupports
 .
 h
 "

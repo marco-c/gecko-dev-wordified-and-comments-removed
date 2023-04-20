@@ -152,13 +152,6 @@ nsTArray
 .
 h
 "
-#
-include
-"
-nsISupportsBase
-.
-h
-"
 namespace
 mozilla
 :
