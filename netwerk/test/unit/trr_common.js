@@ -10,7 +10,7 @@ TestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ common
 /
 TestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -96,7 +98,7 @@ MockRegistrar
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -109,7 +111,9 @@ common
 /
 MockRegistrar
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
