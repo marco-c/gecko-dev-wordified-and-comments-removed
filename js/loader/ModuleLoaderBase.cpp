@@ -3790,9 +3790,6 @@ else
 {
 baseURL
 =
-mLoader
--
->
 GetBaseURI
 (
 )
