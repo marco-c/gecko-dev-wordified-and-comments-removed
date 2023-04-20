@@ -85,16 +85,14 @@ container
 ;
 this
 .
-colorwayLandmark
+colorways
 =
 document
 .
 getElementById
 (
 "
-colorway
--
-landmark
+colorways
 "
 )
 ;
@@ -197,7 +195,7 @@ before
 (
 this
 .
-colorwayLandmark
+colorways
 )
 ;
 }
@@ -205,7 +203,7 @@ else
 {
 this
 .
-colorwayLandmark
+colorways
 .
 before
 (

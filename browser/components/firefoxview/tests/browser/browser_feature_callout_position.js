@@ -520,10 +520,6 @@ querySelector
 "
 #
 colorways
-.
-content
--
-container
 "
 )
 .
