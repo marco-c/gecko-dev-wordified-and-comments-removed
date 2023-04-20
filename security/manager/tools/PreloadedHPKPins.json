@@ -421,7 +421,7 @@ net
 /
 http
 /
-transport_security_state_static
+transport_security_state_static_pins
 .
 json
 ?
