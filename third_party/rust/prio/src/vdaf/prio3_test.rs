@@ -519,9 +519,6 @@ agg_id
 t
 .
 nonce
-&
-(
-)
 input_share
 )
 .
@@ -906,9 +903,9 @@ include_str
 "
 test_vec
 /
-03
+01
 /
-Prio3Aes128Count_0
+Prio3Aes128Count
 .
 json
 "
@@ -1011,9 +1008,9 @@ include_str
 "
 test_vec
 /
-03
+01
 /
-Prio3Aes128Sum_0
+Prio3Aes128Sum
 .
 json
 "
@@ -1117,9 +1114,9 @@ include_str
 "
 test_vec
 /
-03
+01
 /
-Prio3Aes128Histogram_0
+Prio3Aes128Histogram
 .
 json
 "

@@ -1888,13 +1888,6 @@ Prg
 L
 >
 {
-const
-ID
-:
-u32
-=
-0xFFFF0000
-;
 type
 Measurement
 =
@@ -1916,12 +1909,6 @@ BTreeSet
 <
 IdpfInput
 >
-;
-type
-PublicShare
-=
-(
-)
 ;
 type
 InputShare
@@ -2023,9 +2010,6 @@ IdpfInput
 >
 Result
 <
-(
-(
-)
 Vec
 <
 Poplar1InputShare
@@ -2034,7 +2018,6 @@ I
 L
 >
 >
-)
 VdafError
 >
 {
@@ -2379,9 +2362,6 @@ idpf_values
 ;
 Ok
 (
-(
-(
-)
 vec
 !
 [
@@ -2436,7 +2416,6 @@ helper_sketch_next_seed
 )
 }
 ]
-)
 )
 }
 }
@@ -2670,13 +2649,6 @@ nonce
 [
 u8
 ]
-_public_share
-:
-&
-Self
-:
-:
-PublicShare
 input_share
 :
 &
@@ -5530,10 +5502,7 @@ unwrap
 )
 ;
 let
-(
-public_share
 input_shares
-)
 =
 vdaf
 .
@@ -5559,7 +5528,6 @@ verify_key
 &
 agg_param
 nonce
-public_share
 input_shares
 )
 .
@@ -5568,11 +5536,8 @@ unwrap_err
 )
 ;
 let
-(
-public_share
 mut
 input_shares
-)
 =
 vdaf
 .
@@ -5677,7 +5642,6 @@ verify_key
 &
 agg_param
 nonce
-public_share
 input_shares
 )
 .
@@ -5686,11 +5650,8 @@ unwrap_err
 )
 ;
 let
-(
-public_share
 mut
 input_shares
-)
 =
 vdaf
 .
@@ -5775,7 +5736,6 @@ verify_key
 &
 agg_param
 nonce
-public_share
 input_shares
 )
 .
