@@ -576,7 +576,9 @@ true
 SET_DEFAULT
 (
 maxStackArgs
-4096
+20
+'
+000
 )
 ;
 SET_DEFAULT

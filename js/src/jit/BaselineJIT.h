@@ -1646,13 +1646,6 @@ forceDebugInstrumentation
 false
 )
 ;
-static
-const
-unsigned
-BASELINE_MAX_ARGS_LENGTH
-=
-20000
-;
 class
 BaselineInterpreter
 {
