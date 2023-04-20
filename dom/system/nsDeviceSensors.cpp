@@ -2500,7 +2500,7 @@ aIsAbsolute
 ?
 u
 "
-absolutedeviceorientation
+deviceorientationabsolute
 "
 _ns
 :

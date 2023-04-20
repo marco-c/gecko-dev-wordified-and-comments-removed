@@ -583,7 +583,6 @@ OffscreenCanvas
 OffscreenCanvasRenderingContext2D
 onbeforeinstallprompt
 oncancel
-ondeviceorientationabsolute
 onmousewheel
 onsearch
 onselectionchange
@@ -2997,7 +2996,7 @@ ondeviceorientation
 ;
 attribute
 EventHandler
-onabsolutedeviceorientation
+ondeviceorientationabsolute
 ;
 [
 Pref

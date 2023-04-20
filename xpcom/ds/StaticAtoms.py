@@ -19712,10 +19712,10 @@ ondeviceorientation
 Atom
 (
 "
-onabsolutedeviceorientation
+ondeviceorientationabsolute
 "
 "
-onabsolutedeviceorientation
+ondeviceorientationabsolute
 "
 )
     

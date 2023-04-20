@@ -829,7 +829,7 @@ eDeviceOrientation
 )
 NS_EVENT_MESSAGE
 (
-eAbsoluteDeviceOrientation
+eDeviceOrientationAbsolute
 )
 NS_EVENT_MESSAGE
 (

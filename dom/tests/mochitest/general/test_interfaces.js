@@ -7536,7 +7536,7 @@ true
 name
 :
 "
-onabsolutedeviceorientation
+ondeviceorientationabsolute
 "
 insecureContext
 :

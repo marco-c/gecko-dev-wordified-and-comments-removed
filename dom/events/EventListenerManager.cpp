@@ -1728,7 +1728,7 @@ case
 eDeviceOrientation
 :
 case
-eAbsoluteDeviceOrientation
+eDeviceOrientationAbsolute
 :
 case
 eUserProximity
@@ -2465,7 +2465,7 @@ aTypeAtom
 nsGkAtoms
 :
 :
-onabsolutedeviceorientation
+ondeviceorientationabsolute
 nsPrintfCString
 (
 "
@@ -3523,7 +3523,7 @@ case
 eDeviceOrientation
 :
 case
-eAbsoluteDeviceOrientation
+eDeviceOrientationAbsolute
 :
 case
 eDeviceMotion
@@ -3628,7 +3628,7 @@ endif
 break
 ;
 case
-eAbsoluteDeviceOrientation
+eDeviceOrientationAbsolute
 :
 #
 ifdef
@@ -3817,7 +3817,7 @@ SENSOR_ORIENTATION
 break
 ;
 case
-eAbsoluteDeviceOrientation
+eDeviceOrientationAbsolute
 :
 #
 ifdef
