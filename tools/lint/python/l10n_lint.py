@@ -60,6 +60,25 @@ gecko
 -
 strings
 "
+STRINGS_REPO
+=
+"
+https
+:
+/
+/
+hg
+.
+mozilla
+.
+org
+/
+l10n
+/
+gecko
+-
+strings
+"
 PULL_AFTER
 =
 timedelta
@@ -71,6 +90,28 @@ days
 def
 lint
 (
+paths
+lintconfig
+*
+*
+lintargs
+)
+:
+    
+return
+lint_strings
+(
+LOCALE
+paths
+lintconfig
+*
+*
+lintargs
+)
+def
+lint_strings
+(
+locale
 paths
 lintconfig
 *
@@ -125,6 +166,7 @@ load_configs
 lintconfig
 root
 l10n_base
+locale
 )
     
 if
@@ -339,7 +381,7 @@ files
 =
 ProjectFiles
 (
-LOCALE
+locale
 l10nconfigs
 )
     
@@ -379,6 +421,20 @@ lint_args
 )
 :
     
+return
+strings_repo_setup
+(
+STRINGS_REPO
+LOCALE
+)
+def
+strings_repo_setup
+(
+repo
+locale
+)
+:
+    
 gs
 =
 mozpath
@@ -390,7 +446,7 @@ mach_util
 get_state_dir
 (
 )
-LOCALE
+locale
 )
     
 marker
@@ -518,27 +574,9 @@ repoupdate
 .
 update_mercurial_repo
 (
-        
 hg
-"
-https
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
-l10n
-/
-gecko
--
-strings
-"
+repo
 gs
-    
 )
     
 with
@@ -564,6 +602,7 @@ load_configs
 lintconfig
 root
 l10n_base
+locale
 )
 :
     
@@ -640,7 +679,7 @@ cfg
 set_locales
 (
 [
-LOCALE
+locale
 ]
 deep
 =
