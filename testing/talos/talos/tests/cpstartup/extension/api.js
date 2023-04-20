@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 TalosParentProfiler
-"
+:
 "
 resource
 :
@@ -17,8 +17,11 @@ powers
 /
 TalosParentProfiler
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 const
