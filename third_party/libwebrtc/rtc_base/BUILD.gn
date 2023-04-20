@@ -1431,6 +1431,17 @@ optional
 "
 ]
 }
+if
+(
+!
+build_with_mozilla
+)
+{
+#
+See
+Bug
+1820869
+.
 rtc_library
 (
 "
@@ -1480,6 +1491,7 @@ system
 rtc_export
 "
 ]
+}
 }
 rtc_library
 (
