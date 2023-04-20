@@ -954,11 +954,6 @@ stream
 =
 aController
 .
-AsByte
-(
-)
--
->
 Stream
 (
 )
@@ -968,9 +963,6 @@ MOZ_ASSERT
 stream
 )
 ;
-#
-if
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
 MOZ_DIAGNOSTIC_ASSERT
 (
 stream
@@ -981,8 +973,6 @@ Disturbed
 )
 )
 ;
-#
-endif
 AssertIsOnOwningThread
 (
 )
