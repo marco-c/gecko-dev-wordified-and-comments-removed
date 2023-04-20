@@ -244,7 +244,7 @@ sessionstore
 .
 idleDelay
 "
-86400000
+86400
 )
 ;
 let
@@ -318,7 +318,7 @@ sessionstore
 .
 idleDelay
 "
-5000000
+5000
 )
 ;
 info

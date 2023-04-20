@@ -6077,7 +6077,7 @@ sessionstore
 .
 idleDelay
 "
-180000
+180
 )
 ;
 pref
