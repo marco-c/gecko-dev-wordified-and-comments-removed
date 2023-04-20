@@ -538,9 +538,6 @@ use_clipping_predictor_step_
 ClippingPredictorEvaluator
 clipping_predictor_evaluator_
 ;
-int
-clipping_predictor_log_counter_
-;
 float
 clipping_rate_log_
 ;
