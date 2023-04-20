@@ -1576,12 +1576,10 @@ DefaultTextAttributes
 )
 override
 ;
-virtual
 void
 InvalidateCachedHyperTextOffsets
 (
 )
-override
 {
 if
 (
@@ -1841,7 +1839,6 @@ GetPrimaryAction
 const
 ;
 virtual
-const
 nsTArray
 <
 int32_t
@@ -1850,7 +1847,6 @@ int32_t
 GetCachedHyperTextOffsets
 (
 )
-const
 override
 ;
 private
