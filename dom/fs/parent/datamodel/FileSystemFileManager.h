@@ -209,7 +209,11 @@ EntryId
 aEntryId
 )
 ;
-nsresult
+Result
+<
+int64_t
+QMResult
+>
 RemoveFile
 (
 const

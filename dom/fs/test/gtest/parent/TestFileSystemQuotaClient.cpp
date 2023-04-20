@@ -3267,9 +3267,6 @@ isCanceled
 )
 )
 ;
-#
-if
-0
 ASSERT_NO_FATAL_FAILURE
 (
 CheckUsageEqualTo
@@ -3279,8 +3276,6 @@ testFileDbUsage
 )
 )
 ;
-#
-endif
 }
 ;
 RefPtr
