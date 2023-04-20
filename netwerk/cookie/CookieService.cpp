@@ -3390,7 +3390,7 @@ EnsureInitialized
 mPersistentStorage
 -
 >
-GetCookies
+GetSessionCookies
 (
 aCookies
 )
