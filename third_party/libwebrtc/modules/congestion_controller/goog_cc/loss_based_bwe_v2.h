@@ -401,15 +401,8 @@ trendline_integration_enabled
 =
 false
 ;
-double
-delay_based_limit_factor
-=
-1
-.
-0
-;
 int
-trendline_window_size
+trendline_observations_window_size
 =
 0
 ;
