@@ -1719,8 +1719,8 @@ maybeToggleBookmarkToolbarVisibilityAfterMigration
 /
 /
 Importing
-bookmark
-menu
+Other
+Bookmarks
 items
 if
 (
@@ -1742,8 +1742,8 @@ length
 {
 /
 /
-Bookmark
-menu
+Other
+Bookmarks
 let
 parentGuid
 =
@@ -1753,7 +1753,7 @@ PlacesUtils
 .
 bookmarks
 .
-menuGuid
+unfiledGuid
 ;
 let
 bookmarks
