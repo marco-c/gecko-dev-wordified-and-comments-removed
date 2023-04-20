@@ -348,7 +348,7 @@ TIMED_OUT
 ;
 Assert
 .
-notEqual
+ok
 (
 Glean
 .
@@ -359,7 +359,8 @@ elapsed
 testGetValue
 (
 )
-null
+>
+0
 )
 ;
 resolve
@@ -420,7 +421,7 @@ elapsed
 testGetValue
 (
 )
-null
+0
 )
 ;
 resolve
