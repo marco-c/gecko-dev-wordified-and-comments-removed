@@ -644,7 +644,7 @@ dn
 >
 {
 const
-name
+distinguishedName
 =
 strings
 .
@@ -668,7 +668,7 @@ value
 ;
 if
 (
-name
+distinguishedName
 =
 =
 =
@@ -716,7 +716,7 @@ value
 else
 if
 (
-name
+distinguishedName
 .
 short
 =
@@ -751,7 +751,7 @@ entries
 push
 (
 [
-name
+distinguishedName
 .
 long
 value
@@ -768,7 +768,7 @@ dn
 push
 (
 {
-name
+distinguishedName
 .
 short
 }
@@ -785,7 +785,7 @@ entries
 push
 (
 [
-name
+distinguishedName
 .
 long
 value
@@ -803,7 +803,7 @@ tab
 display
 if
 (
-name
+distinguishedName
 .
 short
 =
@@ -2144,7 +2144,7 @@ x
 policyIdentifier
 ;
 let
-name
+certName
 =
 strings
 .
@@ -2230,7 +2230,7 @@ id
 840
 "
 ;
-name
+certName
 =
 strings
 .
@@ -2294,7 +2294,7 @@ id
 1
 "
 ;
-name
+certName
 =
 strings
 .
@@ -2488,6 +2488,8 @@ return
 {
 id
 name
+:
+certName
 qualifiers
 value
 }

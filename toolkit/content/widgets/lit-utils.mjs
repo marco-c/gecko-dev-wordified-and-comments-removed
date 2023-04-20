@@ -632,7 +632,7 @@ for
 (
 let
 [
-name
+selectorName
 selector
 ]
 of
@@ -656,7 +656,7 @@ Object
 defineProperty
 (
 this
-name
+selectorName
 {
 get
 :
@@ -678,7 +678,7 @@ Object
 defineProperty
 (
 this
-name
+selectorName
 {
 get
 :
