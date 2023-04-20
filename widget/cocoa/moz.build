@@ -139,11 +139,6 @@ GfxInfo
 mm
 "
 "
-MOZDynamicCursor
-.
-mm
-"
-"
 MOZIconHelper
 .
 mm
@@ -199,6 +194,11 @@ nsColorPicker
 mm
 "
 "
+nsCursorManager
+.
+mm
+"
+"
 nsDeviceContextSpecX
 .
 mm
@@ -210,6 +210,11 @@ mm
 "
 "
 nsLookAndFeel
+.
+mm
+"
+"
+nsMacCursor
 .
 mm
 "
