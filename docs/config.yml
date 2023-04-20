@@ -155,6 +155,12 @@ configs
 -
 testing
 /
+browser
+-
+chrome
+-
+testing
+/
 chrome
 -
 tests
