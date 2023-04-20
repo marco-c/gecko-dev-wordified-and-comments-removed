@@ -18986,6 +18986,10 @@ SignalImpendingShutdownToContentJS
 if
 (
 !
+mIsSignaledImpendingShutdown
+&
+&
+!
 AppShutdown
 :
 :
@@ -19014,6 +19018,10 @@ __LINE__
 NotifyImpendingShutdown
 (
 )
+;
+mIsSignaledImpendingShutdown
+=
+true
 ;
 if
 (
