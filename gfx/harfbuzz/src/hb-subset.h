@@ -144,6 +144,15 @@ key
 )
 ;
 HB_EXTERN
+void
+hb_subset_input_keep_everything
+(
+hb_subset_input_t
+*
+input
+)
+;
+HB_EXTERN
 hb_set_t
 *
 hb_subset_input_unicode_set
@@ -311,7 +320,6 @@ plan
 )
 ;
 HB_EXTERN
-const
 hb_map_t
 *
 hb_subset_plan_old_to_new_glyph_mapping
@@ -323,7 +331,6 @@ plan
 )
 ;
 HB_EXTERN
-const
 hb_map_t
 *
 hb_subset_plan_new_to_old_glyph_mapping
@@ -335,7 +342,6 @@ plan
 )
 ;
 HB_EXTERN
-const
 hb_map_t
 *
 hb_subset_plan_unicode_to_old_glyph_mapping

@@ -42,6 +42,7 @@ hb
 h
 "
 HB_BEGIN_DECLS
+typedef
 enum
 {
 HB_OT_NAME_ID_COPYRIGHT
@@ -123,6 +124,7 @@ HB_OT_NAME_ID_INVALID
 =
 0xFFFF
 }
+hb_ot_name_id_predefined_t
 ;
 typedef
 unsigned

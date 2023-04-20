@@ -831,7 +831,6 @@ hb_set_t
 &
 glyphset
 =
-*
 c
 -
 >
@@ -1098,7 +1097,6 @@ hb_set_t
 &
 glyphset
 =
-*
 c
 -
 >
@@ -2268,7 +2266,6 @@ hb_set_t
 &
 glyphset
 =
-*
 c
 -
 >
@@ -2650,7 +2647,6 @@ hb_set_t
 &
 glyphset
 =
-*
 c
 -
 >
@@ -4376,7 +4372,6 @@ hb_set_t
 &
 glyphset
 =
-*
 c
 -
 >

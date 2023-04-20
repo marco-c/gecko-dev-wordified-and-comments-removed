@@ -288,9 +288,13 @@ checkSumAdjustment
 HBUINT32
 magicNumber
 ;
+public
+:
 HBUINT16
 flags
 ;
+protected
+:
 HBUINT16
 unitsPerEm
 ;
@@ -300,6 +304,8 @@ created
 LONGDATETIME
 modified
 ;
+public
+:
 HBINT16
 xMin
 ;
@@ -312,6 +318,8 @@ xMax
 HBINT16
 yMax
 ;
+protected
+:
 HBUINT16
 macStyle
 ;

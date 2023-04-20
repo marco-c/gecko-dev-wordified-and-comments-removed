@@ -176,6 +176,16 @@ set
 ;
 HB_EXTERN
 hb_bool_t
+hb_set_is_inverted
+(
+const
+hb_set_t
+*
+set
+)
+;
+HB_EXTERN
+hb_bool_t
 hb_set_has
 (
 const

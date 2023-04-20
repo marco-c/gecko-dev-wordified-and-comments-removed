@@ -62,6 +62,7 @@ hb_bit_set_t
 set
 (
 other
+true
 )
 ;
 }
@@ -368,6 +369,10 @@ bool
 clear
 =
 true
+bool
+exact_size
+=
+false
 )
 {
 if
@@ -383,6 +388,25 @@ false
 ;
 if
 (
+pages
+.
+length
+=
+=
+0
+&
+&
+count
+=
+=
+1
+)
+exact_size
+=
+true
+;
+if
+(
 unlikely
 (
 !
@@ -392,6 +416,7 @@ resize
 (
 count
 clear
+exact_size
 )
 |
 |
@@ -402,6 +427,7 @@ resize
 (
 count
 clear
+exact_size
 )
 )
 )
@@ -413,6 +439,8 @@ resize
 page_map
 .
 length
+clear
+exact_size
 )
 ;
 successful
@@ -2090,6 +2118,10 @@ const
 hb_bit_set_t
 &
 other
+bool
+exact_size
+=
+false
 )
 {
 if
@@ -2121,6 +2153,7 @@ resize
 (
 count
 false
+exact_size
 )
 )
 )
@@ -2567,7 +2600,7 @@ unlikely
 !
 workspace
 .
-resize
+resize_exact
 (
 pages
 .

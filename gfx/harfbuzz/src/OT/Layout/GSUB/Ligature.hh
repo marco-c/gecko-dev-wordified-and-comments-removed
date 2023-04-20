@@ -342,7 +342,7 @@ replacing
 glyph
 at
 %
-d
+u
 (
 ligature
 substitution
@@ -399,7 +399,7 @@ replaced
 glyph
 at
 %
-d
+u
 (
 ligature
 substitution
@@ -413,7 +413,7 @@ buffer
 >
 idx
 -
-1
+1u
 )
 ;
 }
@@ -702,7 +702,7 @@ ligated
 glyph
 at
 %
-d
+u
 "
 pos
 )

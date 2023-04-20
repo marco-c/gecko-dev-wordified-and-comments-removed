@@ -34,13 +34,6 @@ init
 (
 )
 {
-single_val
-.
-set_int
-(
-0
-)
-;
 }
 void
 fini
@@ -48,9 +41,6 @@ fini
 )
 {
 }
-number_t
-single_val
-;
 }
 ;
 typedef

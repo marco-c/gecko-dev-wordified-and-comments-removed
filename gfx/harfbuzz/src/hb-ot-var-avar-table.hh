@@ -197,6 +197,10 @@ coords
 [
 from_offset
 ]
+.
+to_int
+(
+)
 #
 define
 toCoord
@@ -204,6 +208,10 @@ coords
 [
 to_offset
 ]
+.
+to_int
+(
+)
 if
 (
 len

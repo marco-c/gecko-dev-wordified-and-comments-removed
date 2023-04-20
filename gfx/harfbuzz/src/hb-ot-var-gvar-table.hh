@@ -645,6 +645,10 @@ peak_tuple
 [
 i
 ]
+.
+to_int
+(
+)
 ;
 if
 (
@@ -673,6 +677,10 @@ start_tuple
 [
 i
 ]
+.
+to_int
+(
+)
 ;
 int
 end
@@ -681,6 +689,10 @@ end_tuple
 [
 i
 ]
+.
+to_int
+(
+)
 ;
 if
 (

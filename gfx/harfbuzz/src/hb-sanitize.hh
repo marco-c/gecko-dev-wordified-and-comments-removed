@@ -917,7 +917,7 @@ p
 "
 (
 %
-d
+u
 bytes
 )
 in
@@ -1277,7 +1277,7 @@ p
 ]
 (
 %
-d
+u
 bytes
 )
 in
@@ -1491,7 +1491,7 @@ first
 round
 with
 %
-d
+u
 edits
 ;
 going
@@ -1528,7 +1528,7 @@ start
 "
 requested
 %
-d
+u
 edits
 in
 second

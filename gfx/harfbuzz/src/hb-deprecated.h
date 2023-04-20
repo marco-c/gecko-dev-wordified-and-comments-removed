@@ -109,13 +109,13 @@ void
 user_data
 )
 ;
-HB_EXTERN
 HB_DEPRECATED_FOR
 (
 hb_font_funcs_set_nominal_glyph_func
 and
 hb_font_funcs_set_variation_glyph_func
 )
+HB_EXTERN
 void
 hb_font_funcs_set_glyph_func
 (

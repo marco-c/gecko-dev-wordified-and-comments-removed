@@ -347,8 +347,7 @@ plan
 -
 >
 layout_variation_idx_delta_map
--
->
+.
 has
 (
 x_varidx
@@ -367,8 +366,7 @@ plan
 -
 >
 layout_variation_idx_delta_map
--
->
+.
 get
 (
 x_varidx
@@ -437,8 +435,7 @@ plan
 -
 >
 layout_variation_idx_delta_map
--
->
+.
 has
 (
 y_varidx
@@ -457,8 +454,7 @@ plan
 -
 >
 layout_variation_idx_delta_map
--
->
+.
 get
 (
 y_varidx
@@ -586,6 +582,7 @@ hb_serialize_context_t
 :
 :
 Head
+&
 c
 -
 >
@@ -613,6 +610,7 @@ hb_serialize_context_t
 :
 :
 Head
+&
 c
 -
 >

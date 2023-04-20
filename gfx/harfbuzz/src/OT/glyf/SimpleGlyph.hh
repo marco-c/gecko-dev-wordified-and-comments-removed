@@ -54,7 +54,7 @@ FLAG_Y_SAME
 FLAG_OVERLAP_SIMPLE
 =
 0x40
-FLAG_RESERVED2
+FLAG_CUBIC
 =
 0x80
 }
@@ -1044,6 +1044,7 @@ alloc
 num_points
 +
 4
+true
 )
 ;
 if
@@ -1519,6 +1520,7 @@ flags
 alloc
 (
 num_points
+true
 )
 )
 )
@@ -1537,6 +1539,7 @@ alloc
 2
 *
 num_points
+true
 )
 )
 )
@@ -1555,6 +1558,7 @@ alloc
 2
 *
 num_points
+true
 )
 )
 )

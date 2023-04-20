@@ -334,7 +334,7 @@ replacing
 glyph
 at
 %
-d
+u
 (
 alternate
 substitution
@@ -396,7 +396,7 @@ replaced
 glyph
 at
 %
-d
+u
 (
 alternate
 substitution
@@ -410,7 +410,7 @@ buffer
 >
 idx
 -
-1
+1u
 )
 ;
 }

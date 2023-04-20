@@ -2955,7 +2955,7 @@ sorted
 at
 index
 %
-d
+u
 :
 %
 08x
@@ -3049,7 +3049,7 @@ sorted
 at
 index
 %
-d
+u
 :
 %
 08x

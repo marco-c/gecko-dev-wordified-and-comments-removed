@@ -114,6 +114,12 @@ font
 hb_buffer_t
 *
 buffer
+const
+hb_feature_t
+*
+features
+unsigned
+num_features
 )
 ;
 HB_INTERNAL

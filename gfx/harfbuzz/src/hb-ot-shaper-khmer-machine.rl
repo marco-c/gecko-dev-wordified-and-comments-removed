@@ -574,11 +574,11 @@ stderr
 "
 syllable
 %
-d
+u
 .
 .
 %
-d
+u
 %
 s
 \

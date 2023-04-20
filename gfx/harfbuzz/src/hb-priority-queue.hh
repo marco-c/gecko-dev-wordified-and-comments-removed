@@ -154,7 +154,7 @@ length
 ;
 heap
 .
-shrink
+resize
 (
 heap
 .

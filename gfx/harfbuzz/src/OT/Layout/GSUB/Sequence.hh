@@ -219,7 +219,7 @@ replacing
 glyph
 at
 %
-d
+u
 (
 multiple
 substitution
@@ -281,7 +281,7 @@ replaced
 glyph
 at
 %
-d
+u
 (
 multiple
 subtitution
@@ -295,7 +295,7 @@ buffer
 >
 idx
 -
-1
+1u
 )
 ;
 }
@@ -360,7 +360,7 @@ deleting
 glyph
 at
 %
-d
+u
 (
 multiple
 substitution
@@ -429,7 +429,7 @@ deleted
 glyph
 at
 %
-d
+u
 (
 multiple
 substitution
@@ -494,7 +494,7 @@ multiplying
 glyph
 at
 %
-d
+u
 "
 c
 -

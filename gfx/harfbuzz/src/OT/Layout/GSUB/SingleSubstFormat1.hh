@@ -615,7 +615,7 @@ replacing
 glyph
 at
 %
-d
+u
 (
 single
 substitution
@@ -672,7 +672,7 @@ replaced
 glyph
 at
 %
-d
+u
 (
 single
 substitution
@@ -686,7 +686,7 @@ buffer
 >
 idx
 -
-1
+1u
 )
 ;
 }
