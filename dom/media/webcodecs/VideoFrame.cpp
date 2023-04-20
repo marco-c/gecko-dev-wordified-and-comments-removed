@@ -10442,6 +10442,8 @@ AssertIsOnOwningThread
 )
 ;
 return
+mResource
+?
 MakeAndAddRef
 <
 DOMRectReadOnly
@@ -10477,6 +10479,8 @@ Height
 )
 )
 )
+:
+nullptr
 ;
 }
 already_AddRefed
