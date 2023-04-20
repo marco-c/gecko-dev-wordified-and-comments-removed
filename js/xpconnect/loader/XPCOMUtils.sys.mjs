@@ -348,8 +348,6 @@ aObject
 aName
 {
 get
-:
-function
 (
 )
 {
@@ -556,8 +554,6 @@ aObject
 name
 {
 get
-:
-function
 (
 )
 {
@@ -1406,9 +1402,7 @@ aProxy
 if
 (
 typeof
-(
 aPreLambda
-)
 =
 =
 =
@@ -1455,9 +1449,7 @@ temp
 if
 (
 typeof
-(
 aPostLambda
-)
 =
 =
 =
@@ -2090,6 +2082,7 @@ undefined
 }
 }
 }
+;
 let
 defineGetter
 =
@@ -2862,9 +2855,7 @@ aInitFuncOrResource
 if
 (
 typeof
-(
 aInitFuncOrResource
-)
 =
 =
 "
