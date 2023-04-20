@@ -187,6 +187,13 @@ sys
 mjs
 "
 "
+UrlbarProviderContextualSearch
+.
+sys
+.
+mjs
+"
+"
 UrlbarProviderExtension
 .
 sys
