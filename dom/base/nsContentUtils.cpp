@@ -12338,7 +12338,7 @@ aURI
 SchemeIs
 (
 "
-web
+moz
 -
 extension
 "
