@@ -461,7 +461,7 @@ RawId
 aDeviceId
 ByteBuf
 buf
-Shmem
+UnsafeSharedMemoryHandle
 shmem
 )
 ;

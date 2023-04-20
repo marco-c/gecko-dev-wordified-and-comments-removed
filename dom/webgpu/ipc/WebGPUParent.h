@@ -386,7 +386,10 @@ ipc
 ByteBuf
 &
 aByteBuf
-Shmem
+ipc
+:
+:
+UnsafeSharedMemoryHandle
 &
 &
 aShmem
