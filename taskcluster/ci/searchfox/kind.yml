@@ -300,10 +300,6 @@ linux64
 -
 dump_syms
 -
-linux64
--
-pkgconf
--
 sysroot
 -
 x86_64

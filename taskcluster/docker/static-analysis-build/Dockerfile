@@ -125,6 +125,10 @@ nasm
 \
 opam
 \
+pkg
+-
+config
+\
 patch
 \
 p7zip
