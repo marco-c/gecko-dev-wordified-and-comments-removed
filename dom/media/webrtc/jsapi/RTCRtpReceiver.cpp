@@ -1055,6 +1055,8 @@ RTCRtpReceiver
 :
 GetStatsInternal
 (
+bool
+aSkipIceStats
 )
 {
 MOZ_ASSERT
@@ -3021,6 +3023,10 @@ __func__
 ;
 if
 (
+!
+aSkipIceStats
+&
+&
 GetJsepTransceiver
 (
 )
