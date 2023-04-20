@@ -45,11 +45,6 @@ WorkletImpl
 h
 "
 "
-WorkletPrincipals
-.
-h
-"
-"
 WorkletThread
 .
 h
@@ -71,11 +66,6 @@ cpp
 "
 "
 WorkletImpl
-.
-cpp
-"
-"
-WorkletPrincipals
 .
 cpp
 "
