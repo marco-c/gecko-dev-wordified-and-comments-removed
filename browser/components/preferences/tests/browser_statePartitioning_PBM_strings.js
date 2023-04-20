@@ -431,6 +431,8 @@ cookieBehaviorPBM5
 cm
 fp
 stp
+emailTP
+emailTPPrivate
 lvl2
 lvl2PBM
 rp
@@ -451,6 +453,8 @@ cookieBehaviorPBM5
 cm
 fp
 stp
+emailTP
+emailTPPrivate
 lvl2
 lvl2PBM
 rp
