@@ -27,15 +27,6 @@ include
 "
 mozilla
 /
-DataMutex
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ReentrantMonitor
 .
 h
@@ -1682,8 +1673,6 @@ webrtc
 VideoEncoderConfig
 mEncoderConfig
 ;
-DataMutex
-<
 RefPtr
 <
 rtc
@@ -1692,7 +1681,6 @@ rtc
 RefCountedObject
 <
 VideoStreamFactory
->
 >
 >
 mVideoStreamFactory
