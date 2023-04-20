@@ -4608,16 +4608,6 @@ mRecvTrack
 GetRemoteSetSendBit
 (
 )
-|
-|
-!
-aJsepTransceiver
-.
-mRecvTrack
-.
-GetActive
-(
-)
 ;
 }
 void
