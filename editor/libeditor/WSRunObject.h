@@ -5397,6 +5397,10 @@ const
 EditorDOMPointType
 &
 aPointToInsert
+const
+Element
+&
+aEditingHost
 )
 {
 return
@@ -5411,6 +5415,7 @@ EditorDOMRange
 (
 aPointToInsert
 )
+aEditingHost
 )
 ;
 }
@@ -5439,6 +5444,10 @@ const
 EditorDOMRange
 &
 aRangeToBeReplaced
+const
+Element
+&
+aEditingHost
 )
 ;
 [
