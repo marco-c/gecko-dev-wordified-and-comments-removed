@@ -509,7 +509,10 @@ mozilla
 StyleMathVariant
 mMathVariant
 ;
-uint8_t
+mozilla
+:
+:
+StyleMathStyle
 mMathStyle
 ;
 uint8_t

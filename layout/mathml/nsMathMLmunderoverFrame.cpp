@@ -234,7 +234,10 @@ StyleFont
 mMathStyle
 =
 =
-NS_STYLE_MATH_STYLE_COMPACT
+StyleMathStyle
+:
+:
+Compact
 )
 {
 mPresentationData
@@ -1126,7 +1129,10 @@ StyleFont
 mMathStyle
 =
 =
-NS_STYLE_MATH_STYLE_COMPACT
+StyleMathStyle
+:
+:
+Compact
 ;
 if
 (
@@ -1362,7 +1368,10 @@ StyleFont
 mMathStyle
 =
 =
-NS_STYLE_MATH_STYLE_COMPACT
+StyleMathStyle
+:
+:
+Compact
 )
 {
 if
