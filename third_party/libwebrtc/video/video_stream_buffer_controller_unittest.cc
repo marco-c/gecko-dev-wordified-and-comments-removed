@@ -3,7 +3,7 @@ include
 "
 video
 /
-frame_buffer_proxy
+video_stream_buffer_controller
 .
 h
 "
@@ -609,7 +609,7 @@ Millis
 )
 ;
 class
-FrameBufferProxyFixture
+VideoStreamBufferControllerFixture
 :
 public
 :
@@ -629,7 +629,7 @@ FrameSchedulingReceiver
 {
 public
 :
-FrameBufferProxyFixture
+VideoStreamBufferControllerFixture
 (
 )
 :
@@ -705,9 +705,9 @@ timing_
 clock_
 field_trials_
 )
-proxy_
+buffer_
 (
-FrameBufferProxy
+VideoStreamBufferController
 :
 :
 CreateFromFieldTrial
@@ -775,17 +775,17 @@ num_dropped
 ;
 }
 ~
-FrameBufferProxyFixture
+VideoStreamBufferControllerFixture
 (
 )
 override
 {
 if
 (
-proxy_
+buffer_
 )
 {
-proxy_
+buffer_
 -
 >
 StopOnWorker
@@ -1015,7 +1015,7 @@ ResetLastResult
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 StartNextDecode
@@ -1045,7 +1045,7 @@ ResetLastResult
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 StartNextDecode
@@ -1144,9 +1144,9 @@ std
 :
 unique_ptr
 <
-FrameBufferProxy
+VideoStreamBufferController
 >
-proxy_
+buffer_
 ;
 private
 :
@@ -1241,7 +1241,7 @@ wait_result_
 }
 ;
 class
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 :
 public
 :
@@ -1251,13 +1251,13 @@ testing
 :
 Test
 public
-FrameBufferProxyFixture
+VideoStreamBufferControllerFixture
 {
 }
 ;
 TEST_P
 (
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 InitialTimeoutAfterKeyframeTimeoutPeriod
 )
 {
@@ -1313,7 +1313,7 @@ TimedOut
 }
 TEST_P
 (
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 KeyFramesAreScheduled
 )
 {
@@ -1362,7 +1362,7 @@ Build
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -1402,7 +1402,7 @@ WithId
 }
 TEST_P
 (
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 DeltaFrameTimeoutAfterKeyframeExtracted
 )
 {
@@ -1451,7 +1451,7 @@ Build
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -1541,7 +1541,7 @@ StartNextDecode
 }
 TEST_P
 (
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 DependantFramesAreScheduled
 )
 {
@@ -1549,7 +1549,7 @@ StartNextDecodeForceKeyframe
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -1614,7 +1614,7 @@ AdvanceTime
 kFps30Delay
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -1673,7 +1673,7 @@ WithId
 }
 TEST_P
 (
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 SpatialLayersAreScheduled
 )
 {
@@ -1681,7 +1681,7 @@ StartNextDecodeForceKeyframe
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -1716,7 +1716,7 @@ Build
 )
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -1751,7 +1751,7 @@ Build
 )
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -1825,7 +1825,7 @@ kFrameSize
 )
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -1860,7 +1860,7 @@ Build
 )
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -1895,7 +1895,7 @@ Build
 )
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -1973,7 +1973,7 @@ kFrameSize
 }
 TEST_P
 (
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 OutstandingFrameTasksAreCancelledAfterDeletion
 )
 {
@@ -1981,7 +1981,7 @@ StartNextDecodeForceKeyframe
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -2042,7 +2042,7 @@ StartNextDecode
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -2083,7 +2083,7 @@ Build
 )
 )
 ;
-proxy_
+buffer_
 -
 >
 StopOnWorker
@@ -2110,7 +2110,7 @@ nullopt
 }
 TEST_P
 (
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 FramesWaitForDecoderToComplete
 )
 {
@@ -2118,7 +2118,7 @@ StartNextDecodeForceKeyframe
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -2176,7 +2176,7 @@ ResetLastResult
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -2254,7 +2254,7 @@ WithId
 }
 TEST_P
 (
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 LateFrameDropped
 )
 {
@@ -2262,7 +2262,7 @@ StartNextDecodeForceKeyframe
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -2329,7 +2329,7 @@ kFps30Delay
 2
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -2391,7 +2391,7 @@ StartNextDecode
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -2445,7 +2445,7 @@ TimedOut
 }
 TEST_P
 (
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 FramesFastForwardOnSystemHalt
 )
 {
@@ -2453,7 +2453,7 @@ StartNextDecodeForceKeyframe
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -2514,7 +2514,7 @@ AdvanceTime
 kFps30Delay
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -2559,7 +2559,7 @@ AdvanceTime
 kFps30Delay
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -2641,7 +2641,7 @@ dropped_frames
 }
 TEST_P
 (
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 ForceKeyFrame
 )
 {
@@ -2649,7 +2649,7 @@ StartNextDecodeForceKeyframe
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -2707,7 +2707,7 @@ StartNextDecodeForceKeyframe
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -2745,7 +2745,7 @@ Build
 )
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -2801,7 +2801,7 @@ WithId
 }
 TEST_P
 (
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 SlowDecoderDropsTemporalLayers
 )
 {
@@ -2809,7 +2809,7 @@ StartNextDecodeForceKeyframe
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -2870,7 +2870,7 @@ AdvanceTime
 kFps30Delay
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -2917,7 +2917,7 @@ AdvanceTime
 kFps30Delay
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -3009,7 +3009,7 @@ kFps30Delay
 2
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -3059,7 +3059,7 @@ kFps30Delay
 2
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -3137,7 +3137,7 @@ WithId
 )
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -3218,7 +3218,7 @@ TimedOut
 }
 TEST_P
 (
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 NewFrameInsertedWhileWaitingToReleaseFrame
 )
 {
@@ -3226,7 +3226,7 @@ StartNextDecodeForceKeyframe
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -3292,7 +3292,7 @@ kFps30Delay
 2
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -3357,7 +3357,7 @@ nullopt
 )
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -3421,7 +3421,7 @@ WithId
 }
 TEST_P
 (
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 SameFrameNotScheduledTwice
 )
 {
@@ -3429,7 +3429,7 @@ StartNextDecodeForceKeyframe
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -3508,7 +3508,7 @@ i
 i
 )
 {
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -3567,7 +3567,7 @@ StartNextDecode
 )
 ;
 }
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -3610,7 +3610,7 @@ AdvanceTime
 kFps30Delay
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -3655,7 +3655,7 @@ kFps30Delay
 2
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -3757,7 +3757,7 @@ dropped_frames
 }
 TEST_P
 (
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 TestStatsCallback
 )
 {
@@ -3804,7 +3804,7 @@ StartNextDecodeForceKeyframe
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -3873,7 +3873,7 @@ Zero
 }
 TEST_P
 (
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 FrameCompleteCalledOnceForDuplicateFrame
 )
 {
@@ -3900,7 +3900,7 @@ StartNextDecodeForceKeyframe
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -3931,7 +3931,7 @@ Build
 )
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -3977,7 +3977,7 @@ Zero
 }
 TEST_P
 (
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 FrameCompleteCalledOnceForSingleTemporalUnit
 )
 {
@@ -4001,7 +4001,7 @@ Times
 0
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -4028,7 +4028,7 @@ Build
 )
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -4107,7 +4107,7 @@ Times
 1
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -4161,7 +4161,7 @@ Zero
 }
 TEST_P
 (
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 FrameCompleteCalledOnceForCompleteTemporalUnit
 )
 {
@@ -4185,7 +4185,7 @@ Times
 0
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -4212,7 +4212,7 @@ Build
 )
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -4296,7 +4296,7 @@ Times
 1
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -4345,7 +4345,7 @@ Zero
 }
 TEST_P
 (
-FrameBufferProxyTest
+VideoStreamBufferControllerTest
 NextFrameWithOldTimestamp
 )
 {
@@ -4372,7 +4372,7 @@ max
 /
 2
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -4435,7 +4435,7 @@ StartNextDecode
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -4596,7 +4596,7 @@ StartNextDecode
 (
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -4658,8 +4658,8 @@ WithId
 }
 INSTANTIATE_TEST_SUITE_P
 (
-FrameBufferProxy
-FrameBufferProxyTest
+VideoStreamBufferController
+VideoStreamBufferControllerTest
 :
 :
 testing
@@ -4691,7 +4691,7 @@ SyncDecoding
 )
 ;
 class
-LowLatencyFrameBufferProxyTest
+LowLatencyVideoStreamBufferControllerTest
 :
 public
 :
@@ -4701,13 +4701,13 @@ testing
 :
 Test
 public
-FrameBufferProxyFixture
+VideoStreamBufferControllerFixture
 {
 }
 ;
 TEST_P
 (
-LowLatencyFrameBufferProxyTest
+LowLatencyVideoStreamBufferControllerTest
 FramesDecodedInstantlyWithLowLatencyRendering
 )
 {
@@ -4779,7 +4779,7 @@ SetPlayoutDelay
 }
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -4858,7 +4858,7 @@ SetPlayoutDelay
 }
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -4931,7 +4931,7 @@ WithId
 }
 TEST_P
 (
-LowLatencyFrameBufferProxyTest
+LowLatencyVideoStreamBufferControllerTest
 ZeroPlayoutDelayFullQueue
 )
 {
@@ -5003,7 +5003,7 @@ SetPlayoutDelay
 }
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -5097,7 +5097,7 @@ SetPlayoutDelay
 }
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -5142,7 +5142,7 @@ WithId
 }
 TEST_P
 (
-LowLatencyFrameBufferProxyTest
+LowLatencyVideoStreamBufferControllerTest
 MinMaxDelayZeroLowLatencyMode
 )
 {
@@ -5213,7 +5213,7 @@ SetPlayoutDelay
 }
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -5292,7 +5292,7 @@ SetPlayoutDelay
 }
 )
 ;
-proxy_
+buffer_
 -
 >
 InsertFrame
@@ -5332,8 +5332,8 @@ WithId
 }
 INSTANTIATE_TEST_SUITE_P
 (
-FrameBufferProxy
-LowLatencyFrameBufferProxyTest
+VideoStreamBufferController
+LowLatencyVideoStreamBufferControllerTest
 :
 :
 testing
