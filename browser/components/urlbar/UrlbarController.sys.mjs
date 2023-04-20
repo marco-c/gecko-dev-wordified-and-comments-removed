@@ -7066,6 +7066,7 @@ UrlbarUtils
 searchEngagementTelemetryType
 (
 selectedResult
+selType
 )
 ;
 selected_result_subtype

@@ -816,6 +816,10 @@ async
 function
 doEnter
 (
+modifier
+=
+{
+}
 )
 {
 const
@@ -837,6 +841,7 @@ synthesizeKey
 "
 KEY_Enter
 "
+modifier
 )
 ;
 await
