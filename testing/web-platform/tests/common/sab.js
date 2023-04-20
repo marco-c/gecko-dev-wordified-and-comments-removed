@@ -51,6 +51,7 @@ return
 (
 type
 length
+opts
 )
 =
 >
@@ -71,6 +72,7 @@ new
 ArrayBuffer
 (
 length
+opts
 )
 ;
 }
@@ -125,6 +127,7 @@ new
 sabConstructor
 (
 length
+opts
 )
 ;
 }
