@@ -1439,6 +1439,11 @@ window
 openLinkIn
 (
 url
+data
+.
+where
+|
+|
 "
 current
 "
