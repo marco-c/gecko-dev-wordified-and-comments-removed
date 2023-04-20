@@ -1145,6 +1145,7 @@ createFaviconElement
 tab
 .
 icon
+targetURI
 )
 ;
 const
