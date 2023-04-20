@@ -96,7 +96,7 @@ TOP_SITES_MAX_SITES_PER_ROW
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -111,7 +111,9 @@ common
 /
 Reducers
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
