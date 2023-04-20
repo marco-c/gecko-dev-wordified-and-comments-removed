@@ -1269,7 +1269,7 @@ webrender
 .
 svg
 -
-images
+shapes
 false
 )
 =
