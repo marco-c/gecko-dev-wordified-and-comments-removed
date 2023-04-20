@@ -6870,6 +6870,9 @@ ifdef
 HAS_DLL_BLOCKLIST
 if
 (
+IsDynamicBlocklistDisabled
+(
+gSafeMode
 CommandLine
 :
 :
@@ -6891,6 +6894,7 @@ geckoargs
 sDisableDynamicDllBlocklist
 .
 sMatch
+)
 )
 )
 )
