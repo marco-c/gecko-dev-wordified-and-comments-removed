@@ -5708,15 +5708,6 @@ the
 source
 .
 *
-startColumn
-:
-Starting
-column
-of
-the
-source
-.
-*
 sourceMapURL
 :
 Optional

@@ -43,10 +43,6 @@ g
 .
 evaluate
 (
-g
-(
-)
-;
 function
 f
 (
@@ -98,9 +94,6 @@ js
 lineNumber
 :
 3
-columnNumber
-:
-42
 }
 )
 ;
@@ -158,14 +151,6 @@ reparsedScript
 .
 startLine
 3
-)
-;
-assertEq
-(
-reparsedScript
-.
-startColumn
-42
 )
 ;
 function
