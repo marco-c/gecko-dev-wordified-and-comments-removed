@@ -10357,10 +10357,6 @@ startupReason
 )
 )
 {
-this
-.
-startupClearCachePromise
-=
 StartupCache
 .
 clearAddonData
@@ -11589,16 +11585,10 @@ startupData
 )
 ;
 }
-async
 parseManifest
 (
 )
 {
-await
-this
-.
-startupClearCachePromise
-;
 return
 StartupCache
 .
