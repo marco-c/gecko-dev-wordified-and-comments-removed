@@ -3747,14 +3747,6 @@ aType
 ;
 static
 bool
-IsUpgradableDisplayType
-(
-ExtContentPolicyType
-aType
-)
-;
-static
-bool
 HasMutationListeners
 (
 nsINode

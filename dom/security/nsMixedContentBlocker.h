@@ -158,6 +158,14 @@ aURI
 )
 ;
 static
+bool
+IsUpgradableContentType
+(
+nsContentPolicyType
+aType
+)
+;
+static
 nsresult
 ShouldLoad
 (
