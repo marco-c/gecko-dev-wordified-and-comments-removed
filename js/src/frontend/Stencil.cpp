@@ -14617,9 +14617,6 @@ ExtensibleCompilationStencil
 :
 ExtensibleCompilationStencil
 (
-JSContext
-*
-cx
 ScriptSource
 *
 source
@@ -14647,9 +14644,6 @@ ExtensibleCompilationStencil
 :
 ExtensibleCompilationStencil
 (
-JSContext
-*
-cx
 CompilationInput
 &
 input
@@ -14688,9 +14682,6 @@ ExtensibleCompilationStencil
 :
 ExtensibleCompilationStencil
 (
-JSContext
-*
-cx
 const
 JS
 :
@@ -14753,7 +14744,6 @@ input
 :
 ExtensibleCompilationStencil
 (
-cx
 input
 )
 directives
