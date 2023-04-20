@@ -406,6 +406,15 @@ RtpTransceiver
 delete
 ;
 RtpTransceiver
+(
+RtpTransceiver
+&
+&
+)
+=
+delete
+;
+RtpTransceiver
 &
 operator
 =
