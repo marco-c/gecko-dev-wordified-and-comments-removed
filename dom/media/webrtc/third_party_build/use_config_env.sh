@@ -28,7 +28,7 @@ if
 [
 "
 x
-CONFIG_PATH
+MOZ_CONFIG_PATH
 "
 =
 "
@@ -37,7 +37,7 @@ x
 ]
 ;
 then
-CONFIG_PATH
+MOZ_CONFIG_PATH
 =
 ~
 /
@@ -46,9 +46,9 @@ echo
 "
 Using
 default
-CONFIG_PATH
+MOZ_CONFIG_PATH
 =
-CONFIG_PATH
+MOZ_CONFIG_PATH
 "
 fi
 if
@@ -56,14 +56,14 @@ if
 !
 -
 f
-CONFIG_PATH
+MOZ_CONFIG_PATH
 ]
 ;
 then
 echo
 "
 Missing
-CONFIG_PATH
+MOZ_CONFIG_PATH
 "
 echo
 "
@@ -97,7 +97,7 @@ cp
 SCRIPT_DIR
 /
 example_config_env
-CONFIG_PATH
+MOZ_CONFIG_PATH
 "
 echo
 "
@@ -106,7 +106,7 @@ exit
 1
 fi
 source
-CONFIG_PATH
+MOZ_CONFIG_PATH
 function
 find_base_commit
 (
