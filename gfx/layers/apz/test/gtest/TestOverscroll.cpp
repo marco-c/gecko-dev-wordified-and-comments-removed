@@ -11413,9 +11413,6 @@ START_SCROLL_ID
 1
 )
 ;
-APZEventResult
-result
-=
 PanGesture
 (
 PanGestureInput
@@ -11436,17 +11433,6 @@ mcc
 Time
 (
 )
-)
-;
-manager
--
->
-ContentReceivedInputBlock
-(
-result
-.
-mInputBlockId
-false
 )
 ;
 mcc
