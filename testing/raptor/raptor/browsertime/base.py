@@ -1912,6 +1912,30 @@ perfstats
 false
 "
 )
+            
+"
+-
+-
+videoParams
+.
+convert
+"
+            
+"
+false
+"
+            
+"
+-
+-
+videoParams
+.
+addTimer
+"
+            
+"
+false
+"
         
 ]
         
