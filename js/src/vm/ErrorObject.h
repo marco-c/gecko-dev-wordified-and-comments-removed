@@ -437,7 +437,7 @@ nullptr
 )
 ;
 static
-Shape
+SharedShape
 *
 assignInitialShape
 (

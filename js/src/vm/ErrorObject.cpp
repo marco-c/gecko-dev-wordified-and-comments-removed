@@ -2172,7 +2172,7 @@ return
 ctor
 ;
 }
-Shape
+SharedShape
 *
 js
 :
@@ -2303,7 +2303,7 @@ return
 obj
 -
 >
-shape
+sharedShape
 (
 )
 ;

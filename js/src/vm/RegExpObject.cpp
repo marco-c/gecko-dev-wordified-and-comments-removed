@@ -1341,7 +1341,7 @@ return
 shared
 ;
 }
-Shape
+SharedShape
 *
 RegExpObject
 :
@@ -1413,7 +1413,7 @@ return
 self
 -
 >
-shape
+sharedShape
 (
 )
 ;

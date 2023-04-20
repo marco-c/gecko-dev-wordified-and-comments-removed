@@ -66,7 +66,7 @@ popFront
 )
 )
 {
-Shape
+SharedShape
 *
 shape
 =

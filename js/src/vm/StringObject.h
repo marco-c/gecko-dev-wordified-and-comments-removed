@@ -89,7 +89,7 @@ GenericObject
 )
 ;
 static
-Shape
+SharedShape
 *
 assignInitialShape
 (

@@ -6763,7 +6763,7 @@ out
 }
 #
 endif
-Shape
+SharedShape
 *
 SharedShape
 :
@@ -6887,7 +6887,7 @@ isShapeWithProto
 )
 )
 {
-Shape
+SharedShape
 *
 shape
 =
@@ -7251,7 +7251,7 @@ nullptr
 }
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -7313,7 +7313,7 @@ return
 shape
 ;
 }
-Shape
+SharedShape
 *
 SharedShape
 :
@@ -7359,7 +7359,7 @@ objectFlags
 )
 ;
 }
-Shape
+SharedShape
 *
 SharedShape
 :
@@ -7555,7 +7555,7 @@ base
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -7628,7 +7628,7 @@ return
 shape
 ;
 }
-Shape
+SharedShape
 *
 SharedShape
 :
@@ -7748,7 +7748,7 @@ JSContext
 cx
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -7833,7 +7833,7 @@ MOZ_ASSERT
 p
 )
 ;
-Shape
+SharedShape
 *
 initialShape
 =

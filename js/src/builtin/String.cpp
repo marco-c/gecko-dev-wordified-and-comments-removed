@@ -20156,7 +20156,7 @@ String_static_raw
 JS_FS_END
 }
 ;
-Shape
+SharedShape
 *
 StringObject
 :
@@ -20216,7 +20216,7 @@ return
 obj
 -
 >
-shape
+sharedShape
 (
 )
 ;

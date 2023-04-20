@@ -279,7 +279,7 @@ newKind
 )
 ;
 static
-Shape
+SharedShape
 *
 assignInitialShape
 (

@@ -133,7 +133,7 @@ shape
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
