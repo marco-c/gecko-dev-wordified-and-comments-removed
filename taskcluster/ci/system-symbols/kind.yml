@@ -141,6 +141,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 env
