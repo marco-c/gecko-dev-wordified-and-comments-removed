@@ -4316,10 +4316,6 @@ violatedCSP
 connect
 -
 src
-http
-:
-/
-/
 2
 -
 of
@@ -4354,10 +4350,6 @@ violatedCSP
 connect
 -
 src
-http
-:
-/
-/
 1
 -
 of
@@ -4378,10 +4370,6 @@ maybe
 connect
 -
 src
-http
-:
-/
-/
 2
 -
 of
