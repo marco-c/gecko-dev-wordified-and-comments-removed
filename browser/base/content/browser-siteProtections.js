@@ -5573,6 +5573,15 @@ disableCookieBannerHandling
 (
 )
 {
+if
+(
+!
+this
+.
+#
+isPrivateBrowsing
+)
+{
 await
 SiteDataManager
 .
@@ -5584,6 +5593,7 @@ this
 currentBaseDomain
 )
 ;
+}
 Services
 .
 cookieBanners
