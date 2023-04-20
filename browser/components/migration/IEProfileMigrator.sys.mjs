@@ -994,6 +994,7 @@ uris
 arguments
 .
 *
+*
 param
 {
 nsIURI
@@ -1667,6 +1668,7 @@ decrypted
 data
 .
 *
+*
 param
 {
 string
@@ -1700,7 +1702,7 @@ occur
 *
 returns
 {
-Object
+object
 [
 ]
 }

@@ -480,7 +480,7 @@ objects
 *
 param
 {
-String
+string
 }
 tableName
 the
@@ -494,11 +494,11 @@ read
 *
 param
 {
-String
+string
 [
 ]
 |
-function
+Function
 }
 columns
 a
@@ -552,7 +552,7 @@ database
 *
 param
 {
-function
+Function
 }
 filterFn
 Optional
