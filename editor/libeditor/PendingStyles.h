@@ -267,6 +267,12 @@ ToInlineStyle
 )
 const
 ;
+EditorInlineStyleAndValue
+ToInlineStyleAndValue
+(
+)
+const
+;
 private
 :
 MOZ_KNOWN_LIVE
