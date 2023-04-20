@@ -50,6 +50,9 @@ Ci
 nsICertOverrideService
 )
 ;
+add_setup
+(
+async
 function
 setup
 (
@@ -197,7 +200,8 @@ MOZ_TLS_ECH_ALPN_FLAG
 1
 )
 ;
-add_tls_server_setup
+await
+asyncStartTLSTestServer
 (
 "
 EncryptedClientHelloServer
@@ -227,8 +231,6 @@ test_encrypted_client_hello
 )
 ;
 }
-setup
-(
 )
 ;
 registerCleanupFunction
