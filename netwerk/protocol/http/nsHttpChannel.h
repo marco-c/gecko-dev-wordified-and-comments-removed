@@ -1198,12 +1198,6 @@ AttachStreamFilter
 (
 )
 ;
-WebTransportSessionEventListener
-*
-GetWebTransportSessionEventListener
-(
-)
-;
 private
 :
 RefPtr
@@ -3308,12 +3302,6 @@ Maybe
 nsCString
 >
 mOpenerCallingScriptLocation
-;
-bool
-mIsForWebTransport
-{
-false
-}
 ;
 }
 ;

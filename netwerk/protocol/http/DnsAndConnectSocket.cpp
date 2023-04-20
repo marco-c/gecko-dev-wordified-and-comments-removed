@@ -3077,15 +3077,6 @@ QueryHttpTransaction
 if
 (
 mIsHttp3
-&
-&
-!
-mConnInfo
--
->
-GetWebTransport
-(
-)
 )
 {
 trans
