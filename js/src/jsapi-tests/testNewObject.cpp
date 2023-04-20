@@ -1042,9 +1042,12 @@ JS_InitClass
 (
 cx
 global
-nullptr
 &
 Base_class
+nullptr
+"
+Base
+"
 Base_constructor
 0
 nullptr
