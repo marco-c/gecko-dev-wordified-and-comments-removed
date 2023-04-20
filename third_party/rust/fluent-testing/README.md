@@ -73,7 +73,7 @@ Project
 Fluent
 ]
 :
-http
+https
 :
 /
 /
@@ -353,7 +353,7 @@ Syntax
 Guide
 ]
 :
-http
+https
 :
 /
 /

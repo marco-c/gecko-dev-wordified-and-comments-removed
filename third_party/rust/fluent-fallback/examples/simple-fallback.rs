@@ -55,6 +55,12 @@ NegotiationStrategy
 }
 ;
 use
+rustc_hash
+:
+:
+FxHashSet
+;
+use
 unic_langid
 :
 :
@@ -583,10 +589,6 @@ into
 (
 )
 )
-.
-collect
-(
-)
 true
 app_locales
 bundles
@@ -927,7 +929,7 @@ IntoIterator
 IntoIter
 res_ids
 :
-Vec
+FxHashSet
 <
 ResourceId
 >
@@ -1291,7 +1293,7 @@ LanguageIdentifier
 >
 res_ids
 :
-Vec
+FxHashSet
 <
 ResourceId
 >

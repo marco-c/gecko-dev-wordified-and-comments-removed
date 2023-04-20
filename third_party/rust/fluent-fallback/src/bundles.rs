@@ -48,6 +48,12 @@ FluentError
 }
 ;
 use
+rustc_hash
+:
+:
+FxHashSet
+;
+use
 std
 :
 :
@@ -289,7 +295,7 @@ sync
 bool
 res_ids
 :
-Vec
+FxHashSet
 <
 ResourceId
 >
@@ -1298,7 +1304,7 @@ Value
 l
 >
 {
-Value
+Present
 (
 Cow
 <
@@ -1307,7 +1313,7 @@ l
 str
 >
 )
-MissingValue
+Missing
 None
 }
 macro_rules
@@ -1442,7 +1448,7 @@ cell
 Value
 :
 :
-Value
+Present
 (
 _
 )
@@ -1494,7 +1500,7 @@ cell
 Value
 :
 :
-Value
+Present
 (
 bundle
 .
@@ -1568,7 +1574,7 @@ cell
 Value
 :
 :
-MissingValue
+Missing
 ;
 has_missing
 =
@@ -1690,7 +1696,7 @@ value
 Value
 :
 :
-Value
+Present
 (
 value
 )
@@ -1703,7 +1709,7 @@ value
 Value
 :
 :
-MissingValue
+Missing
 =
 >
 {

@@ -181,6 +181,7 @@ Clone
 Copy
 PartialEq
 Eq
+Hash
 )
 ]
 pub
@@ -196,6 +197,7 @@ derive
 (
 Debug
 Clone
+Hash
 )
 ]
 pub

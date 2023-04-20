@@ -15,6 +15,12 @@ futures
 Stream
 ;
 use
+rustc_hash
+:
+:
+FxHashSet
+;
+use
 std
 :
 :
@@ -170,7 +176,7 @@ Self
 LocalesIter
 _res_ids
 :
-Vec
+FxHashSet
 <
 ResourceId
 >
@@ -201,7 +207,7 @@ Self
 LocalesIter
 _res_ids
 :
-Vec
+FxHashSet
 <
 ResourceId
 >

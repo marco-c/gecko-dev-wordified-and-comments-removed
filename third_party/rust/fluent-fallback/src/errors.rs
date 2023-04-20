@@ -243,10 +243,6 @@ in
 }
 "
 locale
-.
-to_string
-(
-)
 id
 errors
 .
