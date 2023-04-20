@@ -77,9 +77,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -96,7 +96,9 @@ common
 /
 RegionTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

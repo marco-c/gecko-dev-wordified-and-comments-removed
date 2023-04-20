@@ -77,7 +77,7 @@ OSKeyStoreTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -90,7 +90,9 @@ common
 /
 OSKeyStoreTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

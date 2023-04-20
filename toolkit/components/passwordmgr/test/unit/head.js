@@ -159,7 +159,7 @@ MockDocument
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -172,7 +172,9 @@ common
 /
 MockDocument
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
