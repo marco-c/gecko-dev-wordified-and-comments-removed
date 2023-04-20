@@ -22037,12 +22037,12 @@ NS_NewMathMLmspaceFrame
 SIMPLE_MATHML_CREATE
 (
 none
-NS_NewMathMLmspaceFrame
+NS_NewMathMLmrowFrame
 )
 SIMPLE_MATHML_CREATE
 (
 mprescripts_
-NS_NewMathMLmspaceFrame
+NS_NewMathMLmrowFrame
 )
 SIMPLE_MATHML_CREATE
 (
