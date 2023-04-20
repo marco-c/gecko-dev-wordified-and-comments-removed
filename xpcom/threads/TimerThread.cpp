@@ -2964,6 +2964,10 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
+RemoveLeadingCanceledTimersInternal
+(
+)
+;
 if
 (
 mWaiting
