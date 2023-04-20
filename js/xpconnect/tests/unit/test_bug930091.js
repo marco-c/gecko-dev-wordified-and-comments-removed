@@ -128,15 +128,6 @@ cow
 foopy
 :
 2
-__exposedProps__
-:
-{
-foopy
-:
-'
-rw
-'
-}
 }
 ;
 sb

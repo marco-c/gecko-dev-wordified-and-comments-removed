@@ -150,15 +150,6 @@ var
 p
 =
 {
-__exposedProps__
-:
-{
-foo
-:
-'
-rw
-'
-}
 }
 ;
 "
