@@ -1,0 +1,14 @@
+usr
+/
+lib
+/
+{
+DEB_PKG_NAME
+}
+/
+firefox
+usr
+/
+bin
+/
+firefox
