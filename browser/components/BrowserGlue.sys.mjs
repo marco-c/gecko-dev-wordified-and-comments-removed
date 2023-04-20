@@ -4414,7 +4414,7 @@ Prompt
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -4426,7 +4426,9 @@ actors
 /
 PromptParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 includeChrome
@@ -4831,7 +4833,7 @@ SwitchDocumentDirection
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -4843,7 +4845,9 @@ actors
 /
 SwitchDocumentDirectionChild
 .
-jsm
+sys
+.
+mjs
 "
 }
 allFrames
