@@ -56,7 +56,7 @@ insertBookmark
 (
 bs
 .
-toolbarFolder
+tagsFolder
 uri
 (
 TEST_URL
@@ -119,7 +119,7 @@ insertBookmark
 (
 bs
 .
-toolbarFolder
+tagsFolder
 uri
 (
 TEST_URL
