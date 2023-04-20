@@ -50,6 +50,13 @@ h
 #
 include
 "
+xpcpublic
+.
+h
+"
+#
+include
+"
 mozilla
 /
 BasePrincipal
@@ -685,6 +692,13 @@ aFragment
 get
 (
 )
+)
+;
+xpc_DumpJSStack
+(
+true
+true
+false
 )
 ;
 MOZ_ASSERT
