@@ -11,7 +11,7 @@ version
 "
 0
 .
-13
+16
 .
 0
 "
@@ -107,6 +107,11 @@ MPL
 2
 .
 0
+"
+edition
+=
+"
+2018
 "
 repository
 =
@@ -215,7 +220,7 @@ version
 "
 0
 .
-13
+16
 .
 0
 "
@@ -258,7 +263,7 @@ env_logger
 "
 0
 .
-8
+9
 "
 [
 features
