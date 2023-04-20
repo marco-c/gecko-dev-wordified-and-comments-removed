@@ -1,4 +1,4 @@
-53387
+53466
 0
 /
 nm
@@ -4272,9 +4272,6 @@ M
 Berzelius
 /
 M
-Bespin
-/
-M
 Bess
 /
 M
@@ -4829,9 +4826,6 @@ Bonnie
 /
 M
 Bono
-/
-M
-Bonsai
 /
 M
 Booker
@@ -6098,9 +6092,6 @@ Camilla
 /
 M
 Camille
-/
-M
-Camino
 /
 M
 Cammie
@@ -8026,9 +8017,6 @@ Comoros
 /
 M
 Compaq
-/
-M
-Composer
 /
 M
 Compton
@@ -12393,6 +12381,9 @@ M
 Fenian
 /
 M
+Fenix
+/
+M
 Fennec
 /
 M
@@ -12681,9 +12672,6 @@ M
 Flo
 /
 M
-Flock
-/
-M
 Flor
 /
 M
@@ -12818,6 +12806,7 @@ M
 Fortaleza
 /
 M
+Fortran
 Foss
 /
 M
@@ -21119,9 +21108,6 @@ Liege
 /
 M
 Lieut
-Lightning
-/
-M
 Lil
 /
 MY
@@ -25276,7 +25262,7 @@ M
 Munch
 /
 M
-Munchhausen
+Munchausen
 /
 M
 Muncie
@@ -29045,9 +29031,6 @@ M
 Priscilla
 /
 M
-Prism
-/
-M
 Prius
 /
 M
@@ -30198,9 +30181,6 @@ Rhine
 /
 M
 Rhineland
-/
-M
-Rhino
 /
 M
 Rhoda
@@ -33219,9 +33199,6 @@ M
 Snowbelt
 /
 M
-Snowl
-/
-M
 Snyder
 /
 M
@@ -33300,9 +33277,6 @@ Sondheim
 /
 M
 Sondra
-/
-M
-Songbird
 /
 M
 Songhai
@@ -34022,9 +33996,6 @@ M
 Sunbelt
 /
 M
-Sunbird
-/
-M
 Sundanese
 /
 M
@@ -34501,9 +34472,6 @@ Tamar
 /
 M
 Tamara
-/
-M
-Tamarin
 /
 M
 Tamas
@@ -35299,9 +35267,6 @@ Timurid
 /
 M
 Tina
-/
-M
-Tinderbox
 /
 M
 Ting
@@ -36148,9 +36113,6 @@ M
 Ubangi
 /
 M
-Ubiquity
-/
-M
 Ubuntu
 /
 M
@@ -36690,9 +36652,6 @@ Venezuelan
 /
 SM
 Venice
-/
-M
-Venkman
 /
 M
 Venn
@@ -37412,9 +37371,6 @@ M
 Waynesboro
 /
 M
-Weave
-/
-RM
 Weaver
 /
 M
@@ -39949,6 +39905,9 @@ GVMDS
 addiction
 /
 SM
+addictive
+/
+P
 addition
 /
 SM
@@ -40504,7 +40463,7 @@ affect
 s
 affect
 /
-EGDS
+EGVDS
 affectation
 /
 SM
@@ -40576,7 +40535,12 @@ afford
 /
 GDSB
 affordability
+affordable
+/
+U
 affordably
+/
+U
 affordance
 /
 S
@@ -42408,6 +42372,8 @@ anorexic
 /
 MS
 another
+/
+M
 answer
 /
 BMDGS
@@ -45256,6 +45222,7 @@ backlash
 /
 MS
 backless
+backlight
 backlit
 backlog
 /
@@ -45549,6 +45516,9 @@ s
 balance
 /
 UDSG
+balancer
+/
+S
 balanitis
 balanoposthitis
 balboa
@@ -46149,6 +46119,7 @@ M
 baryon
 /
 SM
+baryonic
 basal
 /
 Y
@@ -47432,6 +47403,8 @@ bible
 /
 MS
 biblical
+/
+Y
 bibliographer
 /
 MS
@@ -47811,6 +47784,7 @@ biomass
 /
 M
 biomedical
+biomedicine
 bionic
 /
 S
@@ -49397,6 +49371,7 @@ bosom
 /
 US
 bosomy
+boson
 boss
 /
 DSGM
@@ -52312,6 +52287,7 @@ ADSMG
 car
 /
 SMDRZG
+carabiner
 carafe
 /
 MS
@@ -53705,6 +53681,8 @@ ZGMDS
 champagne
 /
 MS
+champertous
+champerty
 champion
 /
 GMDS
@@ -54541,6 +54519,8 @@ S
 chippy
 /
 S
+chiral
+chirality
 chirography
 /
 M
@@ -56061,6 +56041,8 @@ coaxer
 /
 M
 coaxial
+/
+Y
 coaxing
 /
 Y
@@ -56599,6 +56581,9 @@ M
 colliery
 /
 SM
+collimate
+/
+DGN
 collinear
 collinearity
 collision
@@ -57169,6 +57154,8 @@ commuter
 /
 M
 comorbidity
+/
+S
 comp
 /
 MDYGS
@@ -57526,6 +57513,7 @@ DSG
 comrade
 /
 SMY
+comradery
 comradeship
 /
 M
@@ -58094,7 +58082,7 @@ congruence
 M
 congruent
 /
-Y
+IY
 congruity
 /
 ISM
@@ -58541,6 +58529,9 @@ M
 contain
 /
 SBLDRZG
+contained
+/
+U
 container
 /
 M
@@ -59849,6 +59840,7 @@ counterpoise
 /
 MGDS
 counterproductive
+counterproposal
 counterrevolution
 /
 SM
@@ -60430,6 +60422,7 @@ ICGMSD
 create
 /
 AKVNGSDX
+creatine
 creation
 /
 KAM
@@ -65989,10 +65982,11 @@ dominant
 SMY
 dominate
 /
-DSGN
+DSGNV
 domination
 /
 M
+dominator
 dominatrices
 dominatrix
 /
@@ -67087,7 +67081,7 @@ duly
 U
 dumb
 /
-RYPT
+DRYPT
 dumbbell
 /
 SM
@@ -67298,7 +67292,9 @@ I
 dwindle
 /
 DSG
+dyad
 dyadic
+dyadically
 dybbuk
 /
 SM
@@ -68824,6 +68820,9 @@ M
 empiricist
 /
 SM
+emplace
+/
+LGDS
 emplacement
 /
 SM
@@ -71226,6 +71225,7 @@ experimental
 /
 Y
 experimentalism
+experimentalist
 experimentation
 /
 M
@@ -71264,6 +71264,8 @@ explain
 /
 ADGS
 explainable
+/
+U
 explained
 /
 U
@@ -71295,9 +71297,12 @@ M
 explode
 /
 GDS
+exploded
+/
+U
 exploit
 /
-ZGBMDRS
+ZGVBMDRS
 exploitation
 /
 M
@@ -72029,6 +72034,8 @@ falsie
 /
 SM
 falsifiable
+/
+U
 falsification
 /
 M
@@ -72721,6 +72728,7 @@ fermentation
 M
 fermented
 fermenting
+fermion
 fermium
 /
 M
@@ -72743,6 +72751,8 @@ ferret
 /
 GSMD
 ferric
+ferrite
+ferritin
 ferromagnetic
 ferromagnetism
 ferrous
@@ -80079,6 +80089,8 @@ S
 hadn
 '
 t
+hadron
+hadronic
 hadst
 hafnium
 /
@@ -80910,6 +80922,7 @@ SM
 hatching
 /
 M
+hatchling
 hatchway
 /
 SM
@@ -81542,6 +81555,9 @@ SMDG
 held
 helical
 helices
+helicity
+/
+S
 helicopter
 /
 SGMD
@@ -81803,6 +81819,7 @@ hereunder
 hereunto
 hereupon
 herewith
+heritability
 heritable
 /
 I
@@ -84663,6 +84680,7 @@ impact
 /
 SMDG
 impactful
+impaction
 impair
 /
 SDGL
@@ -84922,7 +84940,7 @@ implausible
 implausibly
 implement
 /
-GBMDRS
+ZGBMDRS
 implementable
 /
 U
@@ -86178,10 +86196,12 @@ initial
 /
 SGMDY
 initialism
+/
+S
 initialization
 initialize
 /
-DSG
+DRSZG
 initialized
 /
 AU
@@ -86404,6 +86424,7 @@ insensible
 insensitive
 /
 Y
+insentient
 inseparable
 /
 MS
@@ -86792,6 +86813,7 @@ GS
 intercede
 /
 GDS
+intercellular
 intercept
 /
 GMDS
@@ -86977,6 +86999,9 @@ Y
 intermix
 /
 GDS
+intermolecular
+/
+Y
 internal
 /
 SY
@@ -87665,7 +87690,10 @@ irreverent
 Y
 irreversible
 irreversibly
+irrevocability
 irrevocable
+/
+P
 irrevocably
 irrigable
 irrigate
@@ -87756,6 +87784,9 @@ isometry
 isomorphic
 isomorphism
 isosceles
+isospin
+/
+S
 isotherm
 /
 SM
@@ -88422,6 +88453,9 @@ MZGDRS
 joker
 /
 M
+jokester
+/
+S
 jokey
 jokier
 jokiest
@@ -90672,6 +90706,7 @@ M
 lectureship
 /
 SM
+lede
 ledge
 /
 RSMZ
@@ -91201,6 +91236,7 @@ U
 licensee
 /
 MS
+licensor
 licentiate
 /
 SM
@@ -92064,7 +92100,7 @@ localization
 M
 localize
 /
-DSG
+DRSZG
 locate
 /
 AESDNGX
@@ -92768,6 +92804,9 @@ lumberyard
 /
 SM
 lumen
+/
+S
+lumina
 luminary
 /
 SM
@@ -93112,6 +93151,7 @@ macron
 MS
 macrophages
 macroscopic
+macroscopically
 mad
 /
 SMYP
@@ -93925,6 +93965,7 @@ SM
 mantelshelf
 mantelshelves
 mantes
+manticore
 mantilla
 /
 SM
@@ -94368,6 +94409,7 @@ PY
 massiveness
 /
 M
+massless
 mast
 /
 MDS
@@ -94786,14 +94828,10 @@ M
 measly
 /
 RT
-measurable
 measurably
 measure
-'
-s
-measure
 /
-ADSG
+LDRSBMG
 measured
 /
 U
@@ -94954,6 +94992,7 @@ RYPT
 meekness
 /
 M
+meerkats
 meerschaum
 /
 SM
@@ -95773,6 +95812,7 @@ microfilm
 GMDS
 microfinance
 microfloppies
+microgram
 microgroove
 /
 SM
@@ -96519,6 +96559,7 @@ SG
 miscegenation
 /
 M
+miscellanea
 miscellaneous
 /
 Y
@@ -96528,6 +96569,12 @@ SM
 mischance
 /
 SM
+mischaracterization
+/
+S
+mischaracterize
+/
+GD
 mischief
 /
 M
@@ -96541,7 +96588,9 @@ miscibility
 /
 M
 miscible
-misclassified
+misclassify
+/
+DGXN
 miscommunication
 /
 S
@@ -96554,6 +96603,7 @@ SM
 misconduct
 /
 MDGS
+misconfiguration
 misconstruction
 /
 MS
@@ -96808,6 +96858,7 @@ misshapen
 missile
 /
 MS
+missileer
 missilery
 /
 M
@@ -97043,6 +97094,9 @@ mockingbird
 /
 SM
 mocktail
+/
+S
+mockumentary
 /
 S
 mod
@@ -97400,6 +97454,7 @@ MS
 mongrel
 /
 SM
+monied
 monies
 moniker
 /
@@ -98121,6 +98176,7 @@ M
 movable
 /
 SM
+movant
 move
 /
 AMZGDRSB
@@ -98133,6 +98189,7 @@ U
 movement
 /
 SM
+movent
 mover
 /
 AM
@@ -101031,6 +101088,9 @@ nucleotide
 nucleus
 /
 M
+nuclide
+/
+S
 nude
 /
 MTRS
@@ -101503,6 +101563,9 @@ M
 obsequy
 /
 M
+observable
+/
+U
 observably
 observance
 /
@@ -101764,6 +101827,8 @@ octopi
 octopus
 /
 MS
+octothorp
+octothorpe
 ocular
 /
 MS
@@ -102101,6 +102166,7 @@ omitting
 omnibus
 /
 MS
+omnidirectional
 omnipotence
 /
 M
@@ -104999,6 +105065,7 @@ partway
 party
 /
 GDSM
+partygoers
 parvenu
 /
 MS
@@ -106397,6 +106464,7 @@ MYS
 personality
 /
 SM
+personalization
 personalize
 /
 CDSG
@@ -106907,6 +106975,9 @@ phlegmatically
 phloem
 /
 M
+phlogiston
+/
+S
 phlox
 /
 M
@@ -108420,6 +108491,7 @@ M
 plushy
 /
 RT
+plusses
 plutocracy
 /
 SM
@@ -108598,6 +108670,9 @@ CM
 polarize
 /
 CDSG
+polarizer
+/
+S
 pole
 /
 MS
@@ -109797,6 +109872,8 @@ SM
 preceptor
 /
 SM
+precession
+precessional
 precinct
 /
 MS
@@ -111402,6 +111479,7 @@ M
 prosecutor
 /
 MS
+prosecutorial
 proselyte
 /
 DSMG
@@ -111516,6 +111594,10 @@ MS
 protestor
 /
 MS
+prothonotarial
+prothonotary
+/
+S
 protocol
 /
 MS
@@ -111814,6 +111896,7 @@ psychology
 /
 SM
 psychometric
+psychomotor
 psychoneuroses
 psychoneurosis
 /
@@ -112653,6 +112736,8 @@ quantity
 SM
 quantization
 quantize
+/
+D
 quantum
 /
 M
@@ -114232,6 +114317,7 @@ DRSGB
 recognized
 /
 U
+recoilless
 recombination
 recommend
 /
@@ -115080,6 +115166,9 @@ remarkably
 remarked
 /
 U
+remeasure
+/
+GDS
 remediable
 remedy
 /
@@ -115622,7 +115711,7 @@ Y
 resinous
 resist
 /
-SMDRZG
+SMDRZGV
 resistance
 /
 SM
@@ -115630,6 +115719,9 @@ resistant
 /
 U
 resistible
+resistive
+/
+YP
 resistivity
 resistless
 resistor
@@ -116091,6 +116183,7 @@ revertible
 revetment
 /
 SM
+reviewability
 revile
 /
 DRSLZG
@@ -117072,6 +117165,7 @@ rotation
 /
 M
 rotational
+rotator
 rotatory
 rote
 /
@@ -118523,6 +118617,9 @@ USG
 saying
 /
 SM
+sayonara
+/
+S
 scab
 /
 MS
@@ -120263,6 +120360,7 @@ M
 sensationalist
 /
 MS
+sensationalistic
 sensationalize
 /
 GDS
@@ -120337,7 +120435,7 @@ sentience
 IM
 sentient
 /
-I
+Y
 sentiment
 /
 SM
@@ -121377,12 +121475,9 @@ shithead
 MS
 !
 shitload
-'
-s
-shitload
 /
+MS
 !
-shitloads
 shitted
 /
 !
@@ -123659,13 +123754,16 @@ snide
 RYT
 sniff
 /
-SMDRZG
+SMDRYZG
 sniffer
 /
 M
 sniffle
 /
 DSMG
+sniffly
+/
+RT
 sniffy
 /
 RT
@@ -124995,6 +125093,11 @@ M
 spectrum
 /
 M
+specula
+specular
+/
+Y
+specularity
 speculate
 /
 DSXGNV
@@ -125007,6 +125110,9 @@ Y
 speculator
 /
 MS
+speculum
+/
+S
 sped
 speech
 /
@@ -126607,6 +126713,7 @@ MS
 stepson
 /
 MS
+steradian
 stereo
 /
 SM
@@ -128169,6 +128276,9 @@ SDG
 subway
 /
 MS
+subwoofer
+/
+S
 subzero
 succeed
 /
@@ -129110,6 +129220,7 @@ DSGB
 survivor
 /
 SM
+survivorship
 susceptibility
 /
 SM
@@ -129566,6 +129677,9 @@ symbioses
 symbiosis
 /
 M
+symbiote
+/
+S
 symbiotic
 symbiotically
 symbol
@@ -129645,7 +129759,7 @@ synchronization
 SM
 synchronize
 /
-GDS
+GDRS
 synchronous
 /
 Y
@@ -132061,7 +132175,7 @@ thrush
 MS
 thrust
 /
-GSM
+ZGSMR
 thruway
 /
 MS
@@ -133822,13 +133936,8 @@ transmigration
 M
 transmissible
 transmission
-'
-s
 /
-A
-transmission
-/
-MS
+AMS
 transmit
 /
 S
@@ -134257,6 +134366,9 @@ trichinae
 trichinosis
 /
 M
+trichotomy
+/
+S
 trick
 /
 GSMD
@@ -136042,6 +136154,7 @@ YP
 unexpectedness
 /
 M
+unexplainably
 unfailing
 /
 Y
@@ -136360,7 +136473,11 @@ unsafe
 /
 YTR
 unsavory
+unsaw
 unscathed
+unsee
+/
+S
 unseeing
 /
 Y
@@ -136635,6 +136752,9 @@ uptrend
 upturn
 /
 GSMD
+upvote
+/
+DS
 upward
 /
 SY
@@ -136866,6 +136986,9 @@ SM
 vaccinate
 /
 GNDSX
+vaccinated
+/
+U
 vaccination
 /
 M
@@ -137496,6 +137619,7 @@ verifiability
 verifiable
 /
 U
+verifiably
 verification
 /
 M
@@ -137723,6 +137847,8 @@ GNDSX
 vibration
 /
 M
+vibrational
+vibrationless
 vibrato
 /
 MS
@@ -142070,6 +142196,8 @@ M
 zoom
 /
 MDSG
+zoonosis
+zoonotic
 zoophyte
 /
 SM
