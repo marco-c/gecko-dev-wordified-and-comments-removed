@@ -92,6 +92,13 @@ h
 #
 include
 "
+JoinSplitNodeDirection
+.
+h
+"
+#
+include
+"
 MoveNodeTransaction
 .
 h

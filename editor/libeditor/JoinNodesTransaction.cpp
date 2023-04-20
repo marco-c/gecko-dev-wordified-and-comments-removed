@@ -22,6 +22,13 @@ h
 #
 include
 "
+JoinSplitNodeDirection
+.
+h
+"
+#
+include
+"
 HTMLEditor
 .
 h

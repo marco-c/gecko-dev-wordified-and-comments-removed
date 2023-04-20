@@ -128,6 +128,17 @@ mozilla
 /
 dom
 /
+StaticRange
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Text
 .
 h

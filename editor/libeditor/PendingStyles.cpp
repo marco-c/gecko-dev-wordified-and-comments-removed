@@ -29,6 +29,13 @@ h
 #
 include
 "
+HTMLEditHelpers
+.
+h
+"
+#
+include
+"
 HTMLEditor
 .
 h

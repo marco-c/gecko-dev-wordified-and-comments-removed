@@ -100,11 +100,6 @@ EditTransactionBase
 h
 "
 "
-HTMLEditHelpers
-.
-h
-"
-"
 HTMLEditor
 .
 h
@@ -116,6 +111,11 @@ h
 "
 "
 HTMLEditUtils
+.
+h
+"
+"
+JoinSplitNodeDirection
 .
 h
 "

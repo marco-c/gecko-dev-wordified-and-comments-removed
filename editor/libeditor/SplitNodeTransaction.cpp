@@ -36,6 +36,13 @@ h
 #
 include
 "
+JoinSplitNodeDirection
+.
+h
+"
+#
+include
+"
 SelectionState
 .
 h
