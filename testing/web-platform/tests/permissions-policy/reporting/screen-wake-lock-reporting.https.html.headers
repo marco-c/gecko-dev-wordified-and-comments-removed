@@ -1,4 +1,4 @@
-Feature
+Permissions
 -
 Policy
 :
@@ -7,6 +7,6 @@ screen
 wake
 -
 lock
-'
-self
-'
+=
+(
+)
