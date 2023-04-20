@@ -458,6 +458,7 @@ been
 created
 .
 *
+*
 type
 {
 HiddenFrame
@@ -485,6 +486,7 @@ currently
 in
 use
 .
+*
 *
 type
 {
@@ -1663,6 +1665,7 @@ background
 fetches
 .
 *
+*
 type
 {
 number
@@ -1690,6 +1693,7 @@ in
 the
 background
 .
+*
 *
 type
 {
@@ -1721,6 +1725,7 @@ currently
 idle
 .
 *
+*
 type
 {
 boolean
@@ -1742,6 +1747,7 @@ for
 hidden
 browsers
 .
+*
 *
 type
 {
@@ -1791,13 +1797,11 @@ type
 WeakMap
 <
 Browser
+function
 (
-actor
-:
 PageDataParent
 )
-=
->
+:
 void
 >
 }
