@@ -2378,6 +2378,15 @@ LDFLAGS
 =
 _SAVE_LDFLAGS
 )
+#
+While
+sha1
+is
+deterministic
+it
+is
+slower
+.
 if
 test
 -
@@ -2396,6 +2405,14 @@ Android
 "
 ;
 then
+build_id
+=
+sha1
+else
+build_id
+=
+uuid
+fi
 AC_MSG_CHECKING
 (
 [
@@ -2406,7 +2423,7 @@ build
 -
 id
 =
-sha1
+build_id
 option
 to
 ld
@@ -2427,7 +2444,7 @@ build
 -
 id
 =
-sha1
+build_id
 "
 AC_TRY_LINK
 (
@@ -2447,7 +2464,6 @@ LDFLAGS
 =
 _SAVE_LDFLAGS
 )
-fi
 AC_MSG_CHECKING
 (
 [
