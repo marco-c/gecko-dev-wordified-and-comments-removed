@@ -13486,16 +13486,6 @@ isRefRepr
 )
 )
 {
-MOZ_RELEASE_ASSERT
-(
-!
-type
-.
-isTypeRef
-(
-)
-)
-;
 void
 *
 ptr
