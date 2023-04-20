@@ -107,7 +107,6 @@ picture
 {
 SurfaceIndex
 RasterConfig
-TileRect
 SubSliceIndex
 }
 ;
@@ -521,9 +520,6 @@ Visible
 vis_flags
 :
 PrimitiveVisibilityFlags
-tile_rect
-:
-TileRect
 sub_slice_index
 :
 SubSliceIndex
