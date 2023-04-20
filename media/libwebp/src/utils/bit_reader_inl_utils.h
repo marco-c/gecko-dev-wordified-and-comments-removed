@@ -769,6 +769,9 @@ br
 range_
 +
 =
+(
+range_t
+)
 mask
 ;
 br
@@ -795,6 +798,9 @@ split
 1
 )
 &
+(
+uint32_t
+)
 mask
 )
 <

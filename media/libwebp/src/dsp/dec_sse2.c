@@ -811,7 +811,7 @@ dst0
 =
 _mm_cvtsi32_si128
 (
-WebPMemToUint32
+WebPMemToInt32
 (
 dst
 +
@@ -825,7 +825,7 @@ dst1
 =
 _mm_cvtsi32_si128
 (
-WebPMemToUint32
+WebPMemToInt32
 (
 dst
 +
@@ -839,7 +839,7 @@ dst2
 =
 _mm_cvtsi32_si128
 (
-WebPMemToUint32
+WebPMemToInt32
 (
 dst
 +
@@ -853,7 +853,7 @@ dst3
 =
 _mm_cvtsi32_si128
 (
-WebPMemToUint32
+WebPMemToInt32
 (
 dst
 +
@@ -1032,7 +1032,7 @@ dst3
 }
 else
 {
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -1045,7 +1045,7 @@ dst0
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -1058,7 +1058,7 @@ dst1
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -1071,7 +1071,7 @@ dst2
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -1303,7 +1303,7 @@ dst0
 =
 _mm_cvtsi32_si128
 (
-WebPMemToUint32
+WebPMemToInt32
 (
 dst
 +
@@ -1318,7 +1318,7 @@ dst1
 =
 _mm_cvtsi32_si128
 (
-WebPMemToUint32
+WebPMemToInt32
 (
 dst
 +
@@ -1333,7 +1333,7 @@ dst2
 =
 _mm_cvtsi32_si128
 (
-WebPMemToUint32
+WebPMemToInt32
 (
 dst
 +
@@ -1348,7 +1348,7 @@ dst3
 =
 _mm_cvtsi32_si128
 (
-WebPMemToUint32
+WebPMemToInt32
 (
 dst
 +
@@ -1470,7 +1470,7 @@ dst3
 dst3
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -1483,7 +1483,7 @@ dst0
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -1496,7 +1496,7 @@ dst1
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -1509,7 +1509,7 @@ dst2
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -2957,7 +2957,7 @@ A0
 =
 _mm_set_epi32
 (
-WebPMemToUint32
+WebPMemToInt32
 (
 &
 b
@@ -2967,7 +2967,7 @@ b
 stride
 ]
 )
-WebPMemToUint32
+WebPMemToInt32
 (
 &
 b
@@ -2977,7 +2977,7 @@ b
 stride
 ]
 )
-WebPMemToUint32
+WebPMemToInt32
 (
 &
 b
@@ -2987,7 +2987,7 @@ b
 stride
 ]
 )
-WebPMemToUint32
+WebPMemToInt32
 (
 &
 b
@@ -3005,7 +3005,7 @@ A1
 =
 _mm_set_epi32
 (
-WebPMemToUint32
+WebPMemToInt32
 (
 &
 b
@@ -3015,7 +3015,7 @@ b
 stride
 ]
 )
-WebPMemToUint32
+WebPMemToInt32
 (
 &
 b
@@ -3025,7 +3025,7 @@ b
 stride
 ]
 )
-WebPMemToUint32
+WebPMemToInt32
 (
 &
 b
@@ -3035,7 +3035,7 @@ b
 stride
 ]
 )
-WebPMemToUint32
+WebPMemToInt32
 (
 &
 b
@@ -3252,7 +3252,7 @@ dst
 stride
 )
 {
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 _mm_cvtsi128_si32
@@ -5827,7 +5827,7 @@ BCDEFGH0
 )
 ;
 const
-uint32_t
+int
 vals
 =
 _mm_cvtsi128_si32
@@ -5853,7 +5853,7 @@ i
 i
 )
 {
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -5981,7 +5981,7 @@ avg2
 BCDEFGH0
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -5994,7 +5994,7 @@ abcdefg
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -6011,7 +6011,7 @@ abcdefg
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -6028,7 +6028,7 @@ abcdefg
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -6234,7 +6234,7 @@ avg2
 XABCD
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -6247,7 +6247,7 @@ abcd
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -6260,7 +6260,7 @@ efgh
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -6277,7 +6277,7 @@ abcd
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -6474,6 +6474,9 @@ const
 uint32_t
 extra_out
 =
+(
+uint32_t
+)
 _mm_cvtsi128_si32
 (
 _mm_srli_si128
@@ -6483,7 +6486,7 @@ avg4
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -6496,7 +6499,7 @@ avg1
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -6509,7 +6512,7 @@ avg4
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -6526,7 +6529,7 @@ avg1
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -6683,6 +6686,10 @@ LKJI_____
 =
 _mm_cvtsi32_si128
 (
+(
+int
+)
+(
 L
 |
 (
@@ -6704,6 +6711,7 @@ I
 <
 <
 24
+)
 )
 )
 ;
@@ -6781,7 +6789,7 @@ avg2
 KJIXABCD_
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -6794,7 +6802,7 @@ abcdefg
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -6811,7 +6819,7 @@ abcdefg
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -6828,7 +6836,7 @@ abcdefg
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 +
@@ -6898,7 +6906,7 @@ top_values
 =
 _mm_cvtsi32_si128
 (
-WebPMemToUint32
+WebPMemToInt32
 (
 top
 )
@@ -6972,7 +6980,7 @@ top_base
 zero
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 dst
 _mm_cvtsi128_si32
@@ -7353,6 +7361,9 @@ values
 =
 _mm_set1_epi8
 (
+(
+char
+)
 dst
 [
 -
@@ -7398,6 +7409,9 @@ values
 =
 _mm_set1_epi8
 (
+(
+char
+)
 v
 )
 ;
@@ -7791,6 +7805,9 @@ values
 =
 _mm_set1_epi8
 (
+(
+char
+)
 v
 )
 ;
