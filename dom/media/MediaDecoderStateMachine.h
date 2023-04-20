@@ -1256,15 +1256,6 @@ TimeUnit
 >
 mAudioDecodedDuration
 ;
-Maybe
-<
-media
-:
-:
-TimeUnit
->
-mVideoDecodedDuration
-;
 int64_t
 mPlaybackOffset
 =
