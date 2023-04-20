@@ -168,6 +168,16 @@ DOMMenuBarInactive
 eventOccurred
 )
 ;
+document
+.
+addEventListener
+(
+"
+TestDone
+"
+eventOccurred
+)
+;
 gPopupTests
 =
 tests

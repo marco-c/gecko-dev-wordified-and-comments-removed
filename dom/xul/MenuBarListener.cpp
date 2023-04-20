@@ -692,14 +692,6 @@ SetActiveByKeyboard
 menuBar
 -
 >
-SetActive
-(
-true
-)
-;
-menuBar
--
->
 SelectFirstItem
 (
 )
@@ -1175,6 +1167,8 @@ IsActive
 #
 ifdef
 MOZ_WIDGET_GTK
+if
+(
 RefPtr
 child
 =
@@ -1184,7 +1178,8 @@ mMenuBar
 GetActiveMenuChild
 (
 )
-;
+)
+{
 child
 -
 >
@@ -1193,6 +1188,7 @@ OpenMenuPopup
 false
 )
 ;
+}
 #
 endif
 aKeyEvent
@@ -1331,14 +1327,6 @@ menuBar
 >
 SetActiveByKeyboard
 (
-)
-;
-menuBar
--
->
-SetActive
-(
-true
 )
 ;
 menuForKey
