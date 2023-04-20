@@ -29,7 +29,7 @@ this
 const
 SW_TAB_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 resources
@@ -48,7 +48,7 @@ html
 const
 SW_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 resources

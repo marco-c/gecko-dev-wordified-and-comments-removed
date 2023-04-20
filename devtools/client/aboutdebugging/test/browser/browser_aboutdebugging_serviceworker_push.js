@@ -24,7 +24,7 @@ this
 const
 SERVICE_WORKER
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 resources
@@ -43,7 +43,7 @@ js
 const
 TAB_URL
 =
-URL_ROOT
+URL_ROOT_SSL
 +
 "
 resources
