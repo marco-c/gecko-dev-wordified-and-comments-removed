@@ -990,7 +990,7 @@ getBoolPref
 "
 browser
 .
-pinebuild
+places
 .
 snapshots
 .
@@ -1018,6 +1018,8 @@ getBranch
 (
 "
 browser
+.
+places
 .
 snapshots
 .

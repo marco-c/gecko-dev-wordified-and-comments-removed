@@ -19376,6 +19376,8 @@ pref
 "
 browser
 .
+places
+.
 snapshots
 .
 score
@@ -19389,6 +19391,8 @@ pref
 (
 "
 browser
+.
+places
 .
 snapshots
 .
@@ -19404,6 +19408,8 @@ pref
 "
 browser
 .
+places
+.
 snapshots
 .
 score
@@ -19417,6 +19423,8 @@ pref
 (
 "
 browser
+.
+places
 .
 snapshots
 .
@@ -19433,6 +19441,8 @@ pref
 "
 browser
 .
+places
+.
 snapshots
 .
 source
@@ -19446,6 +19456,8 @@ pref
 (
 "
 browser
+.
+places
 .
 snapshots
 .
@@ -19461,6 +19473,8 @@ pref
 "
 browser
 .
+places
+.
 snapshots
 .
 source
@@ -19474,6 +19488,8 @@ pref
 (
 "
 browser
+.
+places
 .
 snapshots
 .

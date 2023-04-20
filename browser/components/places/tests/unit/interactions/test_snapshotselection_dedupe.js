@@ -311,7 +311,7 @@ setBoolPref
 "
 browser
 .
-pinebuild
+places
 .
 snapshots
 .

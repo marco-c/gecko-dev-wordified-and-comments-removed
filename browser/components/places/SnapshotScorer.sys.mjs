@@ -168,6 +168,8 @@ getBoolPref
 "
 browser
 .
+places
+.
 snapshots
 .
 scorer
@@ -427,6 +429,8 @@ from
 the
 browser
 .
+places
+.
 snapshots
 .
 score
@@ -505,6 +509,8 @@ getBranch
 (
 "
 browser
+.
+places
 .
 snapshots
 .
