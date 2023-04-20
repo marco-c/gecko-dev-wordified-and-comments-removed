@@ -3317,6 +3317,10 @@ PopupLevel
 :
 :
 Parent
+&
+&
+!
+aByMoveToRect
 )
 {
 menuPopupFrame
