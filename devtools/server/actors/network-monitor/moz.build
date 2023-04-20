@@ -10,13 +10,6 @@ sink
 js
 "
 "
-eventsource
--
-actor
-.
-js
-"
-"
 network
 -
 content

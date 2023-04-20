@@ -521,7 +521,7 @@ TYPES
 SERVER_SENT_EVENT
 ]
 :
-isTabOrWebExtensionToolbox
+true
 [
 Resources
 .
