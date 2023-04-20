@@ -7,6 +7,13 @@ WOFF2_GLYPH_H_
 #
 include
 <
+inttypes
+.
+h
+>
+#
+include
+<
 stddef
 .
 h
@@ -14,9 +21,7 @@ h
 #
 include
 <
-inttypes
-.
-h
+cstdint
 >
 #
 include
@@ -38,6 +43,10 @@ Glyph
 instructions_size
 (
 0
+)
+overlap_simple_flag_set
+(
+false
 )
 composite_data_size
 (
@@ -64,6 +73,9 @@ const
 uint8_t
 *
 instructions_data
+;
+bool
+overlap_simple_flag_set
 ;
 struct
 Point

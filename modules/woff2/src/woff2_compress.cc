@@ -30,12 +30,6 @@ char
 argv
 )
 {
-using
-std
-:
-:
-string
-;
 if
 (
 argc
@@ -66,6 +60,9 @@ return
 1
 ;
 }
+std
+:
+:
 string
 filename
 (
@@ -75,6 +72,9 @@ argv
 ]
 )
 ;
+std
+:
+:
 string
 outfilename
 =
@@ -124,6 +124,9 @@ c_str
 )
 )
 ;
+std
+:
+:
 string
 input
 =
@@ -170,6 +173,9 @@ size
 )
 )
 ;
+std
+:
+:
 string
 output
 (

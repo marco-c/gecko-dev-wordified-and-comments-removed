@@ -32,12 +32,6 @@ char
 argv
 )
 {
-using
-std
-:
-:
-string
-;
 if
 (
 argc
@@ -68,6 +62,9 @@ return
 1
 ;
 }
+std
+:
+:
 string
 filename
 (
@@ -77,6 +74,9 @@ argv
 ]
 )
 ;
+std
+:
+:
 string
 outfilename
 =
@@ -100,6 +100,9 @@ find_last_of
 ttf
 "
 ;
+std
+:
+:
 string
 input
 =
@@ -130,6 +133,9 @@ data
 )
 )
 ;
+std
+:
+:
 string
 output
 (
