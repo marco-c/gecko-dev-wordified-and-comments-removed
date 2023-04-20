@@ -193,5 +193,13 @@ clearSSLExternalAndInternalSessionCache
 (
 )
 ;
+[
+implicit_jscontext
+]
+Promise
+asyncClearSSLExternalAndInternalSessionCache
+(
+)
+;
 }
 ;
