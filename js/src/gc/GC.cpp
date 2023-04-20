@@ -6400,6 +6400,12 @@ const
 if
 (
 !
+CanUseExtraThreads
+(
+)
+|
+|
+!
 parallelMarkingEnabled
 )
 {
@@ -6413,7 +6419,7 @@ std
 :
 min
 (
-parallelWorkerCount
+GetHelperThreadCount
 (
 )
 size_t
