@@ -124,13 +124,16 @@ add_task
 (
 async
 function
-title_helpL10nId
+title_helpL10n
 (
 )
 {
 let
-helpL10nId
+helpL10n
 =
+{
+id
+:
 "
 urlbar
 -
@@ -140,6 +143,7 @@ help
 -
 icon
 "
+}
 ;
 let
 provider
@@ -148,7 +152,7 @@ registerTestProvider
 (
 1
 {
-helpL10nId
+helpL10n
 }
 )
 ;
@@ -239,7 +243,9 @@ l10nAttrs
 {
 id
 :
-helpL10nId
+helpL10n
+.
+id
 args
 :
 null
