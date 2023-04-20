@@ -122,6 +122,9 @@ CustomElementData
 class
 Element
 ;
+class
+PopoverData
+;
 }
 }
 class
@@ -573,6 +576,12 @@ UniquePtr
 ElementAnimationData
 >
 mAnimations
+;
+UniquePtr
+<
+PopoverData
+>
+mPopoverData
 ;
 Maybe
 <
