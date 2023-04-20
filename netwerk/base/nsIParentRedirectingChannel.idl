@@ -414,7 +414,7 @@ void
 completeRedirect
 (
 in
-boolean
+nsresult
 succeeded
 )
 ;

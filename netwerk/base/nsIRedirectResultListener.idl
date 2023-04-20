@@ -180,8 +180,8 @@ void
 onRedirectResult
 (
 in
-boolean
-proceeding
+nsresult
+status
 )
 ;
 }

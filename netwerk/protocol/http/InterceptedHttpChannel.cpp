@@ -3911,10 +3911,7 @@ hook
 >
 OnRedirectResult
 (
-NS_SUCCEEDED
-(
 rv
-)
 )
 ;
 }
