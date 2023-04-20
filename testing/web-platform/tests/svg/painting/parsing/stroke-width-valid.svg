@@ -240,9 +240,6 @@ width
 "
 0
 "
-"
-0px
-"
 )
 ;
 test_valid_value
@@ -254,9 +251,6 @@ width
 "
 "
 10
-"
-"
-10px
 "
 )
 ;
