@@ -67,6 +67,13 @@ h
 #
 include
 "
+XULMenuBarElement
+.
+h
+"
+#
+include
+"
 XULPopupElement
 .
 h
@@ -1353,7 +1360,7 @@ new
 (
 nim
 )
-XULMenuParentElement
+XULMenuBarElement
 (
 nodeInfo
 .
