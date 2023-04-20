@@ -3260,6 +3260,7 @@ height
 )
 {
 return
+'
 https
 :
 /
@@ -3308,6 +3309,7 @@ encodeURIComponent
 url
 )
 }
+'
 ;
 }
 const
@@ -3363,7 +3365,7 @@ const
 link
 =
 {
-customScreenshotURL
+favicon
 :
 reformatImageURL
 (
