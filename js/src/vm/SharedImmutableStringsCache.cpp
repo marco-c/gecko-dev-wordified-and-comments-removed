@@ -21,6 +21,12 @@ h
 namespace
 js
 {
+SharedImmutableStringsCache
+SharedImmutableStringsCache
+:
+:
+singleton_
+;
 SharedImmutableString
 :
 :
