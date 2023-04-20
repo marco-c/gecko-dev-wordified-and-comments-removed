@@ -1256,6 +1256,15 @@ prefIsLocked
 FXA_ENABLED
 )
 "
+password
+-
+locked
+"
+:
+this
+.
+isPrimaryPasswordLocked
+"
 sync
 -
 disconnected
@@ -1297,7 +1306,6 @@ sync
 error
 "
 :
-(
 !
 this
 .
@@ -1308,12 +1316,6 @@ syncIsWorking
 this
 .
 syncHasWorked
-)
-|
-|
-this
-.
-isPrimaryPasswordLocked
 }
 ;
 for
