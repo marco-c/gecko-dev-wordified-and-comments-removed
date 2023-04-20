@@ -1017,9 +1017,8 @@ clock
 Timestamp
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;
@@ -2076,9 +2075,8 @@ clock
 Timestamp
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;

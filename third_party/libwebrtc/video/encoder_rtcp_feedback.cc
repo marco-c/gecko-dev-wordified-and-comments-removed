@@ -152,9 +152,8 @@ time_last_packet_delivery_queue_
 Timestamp
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 min_keyframe_send_interval_

@@ -3642,9 +3642,8 @@ first_send_timestamp
 Timestamp
 :
 :
-Millis
+Zero
 (
-0
 )
 ;
 const
@@ -3906,9 +3905,8 @@ first_send_timestamp
 Timestamp
 :
 :
-Millis
+Zero
 (
-0
 )
 ;
 EXPECT_CALL

@@ -935,9 +935,8 @@ set_min_playout_delay
 TimeDelta
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;
@@ -959,9 +958,8 @@ set_max_playout_delay
 TimeDelta
 :
 :
-Millis
+Zero
 (
-0
 )
 )
 ;

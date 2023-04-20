@@ -1609,9 +1609,8 @@ at_time
 Timestamp
 :
 :
-Millis
+Zero
 (
-0
 )
 ;
 config
