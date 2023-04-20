@@ -1392,8 +1392,11 @@ GetNextInFlow
 )
 {
 mFrames
-.
-SetFrames
+=
+std
+:
+:
+move
 (
 *
 prevOverflowFrames

@@ -402,8 +402,11 @@ f
 ;
 }
 mFrames
-.
-SetFrames
+=
+std
+:
+:
+move
 (
 aChildList
 )

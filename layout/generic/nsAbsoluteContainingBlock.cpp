@@ -255,8 +255,11 @@ parent
 #
 endif
 mAbsoluteFrames
-.
-SetFrames
+=
+std
+:
+:
+move
 (
 aChildList
 )
