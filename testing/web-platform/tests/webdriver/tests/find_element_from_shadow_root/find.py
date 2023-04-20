@@ -91,8 +91,7 @@ test_null_parameter_value
 (
 session
 http
-inline
-get_shadow_page
+get_test_page
 )
 :
     
@@ -100,39 +99,11 @@ session
 .
 url
 =
-inline
+get_test_page
 (
-get_shadow_page
-(
-"
-<
-div
->
-<
-a
-href
-=
-#
-id
-=
-linkText
->
-full
-link
-text
-<
-/
-a
->
-<
-/
-div
->
-"
-)
 )
     
-custom_element
+host
 =
 session
 .
@@ -143,8 +114,6 @@ css
 "
 custom
 -
-shadow
--
 element
 "
 all
@@ -154,7 +123,7 @@ False
     
 shadow_root
 =
-custom_element
+host
 .
 shadow_root
     
@@ -301,7 +270,7 @@ get_test_page
 (
 )
     
-element
+host
 =
 session
 .
@@ -324,7 +293,7 @@ result
 find_element
 (
 session
-element
+host
 .
 id
 "
@@ -332,12 +301,7 @@ css
 selector
 "
 "
-#
-in
--
-shadow
--
-root
+input
 "
 )
     
@@ -412,7 +376,7 @@ get_test_page
 (
 )
     
-element
+host
 =
 session
 .
@@ -432,7 +396,7 @@ False
     
 shadow_root
 =
-element
+host
 .
 shadow_root
     
@@ -504,7 +468,7 @@ switch_frame
 0
 )
     
-element
+host
 =
 session
 .
@@ -524,7 +488,7 @@ False
     
 shadow_root
 =
-element
+host
 .
 shadow_root
     
@@ -635,7 +599,7 @@ switch_frame
 frame
 )
     
-element
+host
 =
 session
 .
@@ -655,7 +619,7 @@ False
     
 shadow_root
 =
-element
+host
 .
 shadow_root
     
@@ -677,7 +641,7 @@ remove
 args
 =
 [
-element
+host
 ]
 )
     
@@ -780,7 +744,7 @@ get_test_page
 (
 )
     
-custom_element
+host
 =
 session
 .
@@ -800,7 +764,7 @@ False
     
 shadow_root
 =
-custom_element
+host
 .
 shadow_root
     
@@ -854,21 +818,54 @@ def
 test_invalid_using_argument
 (
 session
+get_test_page
 using
 )
 :
+    
+session
+.
+url
+=
+get_test_page
+(
+)
+    
+host
+=
+session
+.
+find
+.
+css
+(
+"
+custom
+-
+element
+"
+all
+=
+False
+)
+    
+shadow_root
+=
+host
+.
+shadow_root
     
 response
 =
 find_element
 (
 session
-"
-notReal
-"
+shadow_root
+.
+id
 using
 "
-value
+input
 "
 )
     
@@ -901,18 +898,51 @@ def
 test_invalid_selector_argument
 (
 session
+get_test_page
 value
 )
 :
+    
+session
+.
+url
+=
+get_test_page
+(
+)
+    
+host
+=
+session
+.
+find
+.
+css
+(
+"
+custom
+-
+element
+"
+all
+=
+False
+)
+    
+shadow_root
+=
+host
+.
+shadow_root
     
 response
 =
 find_element
 (
 session
-"
-notReal
-"
+shadow_root
+.
+id
 "
 css
 selector
@@ -932,8 +962,7 @@ def
 test_found_element_equivalence
 (
 session
-inline
-get_shadow_page
+get_test_page
 )
 :
     
@@ -941,32 +970,11 @@ session
 .
 url
 =
-inline
+get_test_page
 (
-get_shadow_page
-(
-"
-<
-div
->
-<
-input
-type
-=
-'
-checkbox
-'
-/
->
-<
-/
-div
->
-"
-)
 )
     
-custom_element
+host
 =
 session
 .
@@ -977,14 +985,18 @@ css
 "
 custom
 -
-shadow
--
 element
 "
 all
 =
 False
 )
+    
+shadow_root
+=
+host
+.
+shadow_root
     
 expected
 =
@@ -993,6 +1005,9 @@ session
 execute_script
 (
 "
+"
+"
+        
 return
 arguments
 [
@@ -1007,20 +1022,16 @@ querySelector
 input
 '
 )
+        
 "
-                                      
+"
+"
 args
 =
 (
-custom_element
+host
 )
 )
-    
-shadow_root
-=
-custom_element
-.
-shadow_root
     
 response
 =
@@ -1125,8 +1136,7 @@ def
 test_find_element
 (
 session
-inline
-get_shadow_page
+get_test_page
 using
 value
 )
@@ -1136,10 +1146,10 @@ session
 .
 url
 =
-inline
+get_test_page
 (
-get_shadow_page
-(
+shadow_doc
+=
 "
 <
 div
@@ -1166,9 +1176,8 @@ div
 >
 "
 )
-)
     
-custom_element
+host
 =
 session
 .
@@ -1179,14 +1188,18 @@ css
 "
 custom
 -
-shadow
--
 element
 "
 all
 =
 False
 )
+    
+shadow_root
+=
+host
+.
+shadow_root
     
 expected
 =
@@ -1195,6 +1208,9 @@ session
 execute_script
 (
 "
+"
+"
+        
 return
 arguments
 [
@@ -1210,20 +1226,16 @@ querySelector
 linkText
 '
 )
+        
 "
-                                      
+"
+"
 args
 =
 (
-custom_element
+host
 )
 )
-    
-shadow_root
-=
-custom_element
-.
-shadow_root
     
 response
 =
@@ -1416,8 +1428,7 @@ def
 test_find_element_link_text
 (
 session
-inline
-get_shadow_page
+get_test_page
 document
 value
 )
@@ -1427,31 +1438,26 @@ session
 .
 url
 =
-inline
+get_test_page
 (
-get_shadow_page
-(
+shadow_doc
+=
+f
 "
 <
 div
 >
 {
-0
+document
 }
 <
 /
 div
 >
 "
-.
-format
-(
-document
-)
-)
 )
     
-custom_element
+host
 =
 session
 .
@@ -1462,14 +1468,18 @@ css
 "
 custom
 -
-shadow
--
 element
 "
 all
 =
 False
 )
+    
+shadow_root
+=
+host
+.
+shadow_root
     
 expected
 =
@@ -1478,6 +1488,9 @@ session
 execute_script
 (
 "
+"
+"
+        
 return
 arguments
 [
@@ -1495,20 +1508,16 @@ a
 [
 0
 ]
+        
 "
-                                      
+"
+"
 args
 =
 (
-custom_element
+host
 )
 )
-    
-shadow_root
-=
-custom_element
-.
-shadow_root
     
 response
 =
@@ -1728,8 +1737,7 @@ def
 test_find_element_partial_link_text
 (
 session
-inline
-get_shadow_page
+get_test_page
 document
 value
 )
@@ -1739,31 +1747,26 @@ session
 .
 url
 =
-inline
+get_test_page
 (
-get_shadow_page
-(
+shadow_doc
+=
+f
 "
 <
 div
 >
 {
-0
+document
 }
 <
 /
 div
 >
 "
-.
-format
-(
-document
-)
-)
 )
     
-custom_element
+host
 =
 session
 .
@@ -1774,14 +1777,18 @@ css
 "
 custom
 -
-shadow
--
 element
 "
 all
 =
 False
 )
+    
+shadow_root
+=
+host
+.
+shadow_root
     
 expected
 =
@@ -1790,6 +1797,9 @@ session
 execute_script
 (
 "
+"
+"
+        
 return
 arguments
 [
@@ -1807,20 +1817,16 @@ a
 [
 0
 ]
+        
 "
-                                      
+"
+"
 args
 =
 (
-custom_element
+host
 )
 )
-    
-shadow_root
-=
-custom_element
-.
-shadow_root
     
 response
 =
