@@ -77,6 +77,13 @@ defined
 (
 GP_PLAT_arm64_darwin
 )
+|
+|
+\
+defined
+(
+GP_PLAT_amd64_linux
+)
 explicit
 PowerCounters
 (
