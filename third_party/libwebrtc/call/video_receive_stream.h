@@ -1040,6 +1040,17 @@ mode
 =
 0
 ;
+virtual
+void
+SetFlexFecProtection
+(
+RtpPacketSinkInterface
+*
+flexfec_sink
+)
+=
+0
+;
 protected
 :
 virtual

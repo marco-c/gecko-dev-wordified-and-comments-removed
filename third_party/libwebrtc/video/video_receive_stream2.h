@@ -633,6 +633,15 @@ mode
 )
 override
 ;
+void
+SetFlexFecProtection
+(
+RtpPacketSinkInterface
+*
+flexfec_sink
+)
+override
+;
 webrtc
 :
 :
