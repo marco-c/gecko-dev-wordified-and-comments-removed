@@ -31,6 +31,10 @@ SetAv1SvcConfig
 VideoCodec
 &
 video_codec
+int
+num_temporal_layers
+int
+num_spatial_layers
 )
 ;
 }

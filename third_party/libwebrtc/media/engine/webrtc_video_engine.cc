@@ -1474,6 +1474,16 @@ EqualsIgnoreCase
 codec_name
 kVp9CodecName
 )
+|
+|
+absl
+:
+:
+EqualsIgnoreCase
+(
+codec_name
+kAv1CodecName
+)
 ;
 }
 static
