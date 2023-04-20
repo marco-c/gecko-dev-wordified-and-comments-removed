@@ -2762,9 +2762,9 @@ tagsField
 ;
 }
 }
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

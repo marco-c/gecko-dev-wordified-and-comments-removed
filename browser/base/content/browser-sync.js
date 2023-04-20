@@ -9303,9 +9303,9 @@ anchor
 )
 ;
 }
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

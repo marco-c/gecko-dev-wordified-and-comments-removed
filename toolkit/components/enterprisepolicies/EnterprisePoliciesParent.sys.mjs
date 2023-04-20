@@ -1995,9 +1995,9 @@ _restart
 then
 (
 null
-Cu
+console
 .
-reportError
+error
 )
 ;
 break
