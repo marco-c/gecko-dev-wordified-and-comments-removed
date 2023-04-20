@@ -138,7 +138,9 @@ external_symbolizer_path
 MOZ_FETCHES_DIR
 }
 /
-clang
+llvm
+-
+symbolizer
 /
 bin
 /
