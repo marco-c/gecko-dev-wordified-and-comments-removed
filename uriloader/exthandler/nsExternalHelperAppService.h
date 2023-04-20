@@ -546,6 +546,16 @@ aAllowURLExtension
 )
 ;
 void
+CheckDefaultFileName
+(
+nsAString
+&
+aFileName
+uint32_t
+aFlags
+)
+;
+void
 SanitizeFileName
 (
 nsAString

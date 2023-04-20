@@ -157,9 +157,10 @@ aResolvedPath
 )
 ;
 static
-void
+bool
 CheckForReservedFileName
 (
+const
 nsString
 &
 aFileName
