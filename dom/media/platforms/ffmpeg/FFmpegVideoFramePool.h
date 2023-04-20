@@ -314,6 +314,9 @@ AVBufferRef
 *
 mHWAVBuffer
 ;
+VASurfaceID
+mFFMPEGSurfaceID
+;
 }
 ;
 template
@@ -387,6 +390,13 @@ GetFreeVideoFrameSurface
 bool
 ShouldCopySurface
 (
+)
+;
+void
+CheckNewFFMPEGSurface
+(
+VASurfaceID
+aNewSurfaceID
 )
 ;
 private
