@@ -410,9 +410,12 @@ build
 "
 symbol
 :
-"
 I
-"
+(
+{
+name
+}
+)
 }
 ;
 }
