@@ -8363,7 +8363,7 @@ Start
 ;
 for
 (
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 audio_recv_stream
 :

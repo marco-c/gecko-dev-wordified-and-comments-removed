@@ -1503,7 +1503,7 @@ std
 :
 vector
 <
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1645,7 +1645,7 @@ kTransportSequenceNumberExtensionId
 }
 for
 (
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config

@@ -354,12 +354,12 @@ send_stream
 )
 override
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 CreateAudioReceiveStream
 (
 const
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -371,7 +371,7 @@ override
 void
 DestroyAudioReceiveStream
 (
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 receive_stream
 )
@@ -546,7 +546,7 @@ override
 void
 OnLocalSsrcUpdated
 (
-AudioReceiveStream
+AudioReceiveStreamInterface
 &
 stream
 uint32_t
@@ -579,7 +579,7 @@ override
 void
 OnUpdateSyncGroup
 (
-AudioReceiveStream
+AudioReceiveStreamInterface
 &
 stream
 absl

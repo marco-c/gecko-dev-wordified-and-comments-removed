@@ -416,7 +416,7 @@ std
 :
 vector
 <
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config

@@ -1535,7 +1535,7 @@ std
 :
 vector
 <
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -2260,7 +2260,7 @@ std
 :
 vector
 <
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config

@@ -10,7 +10,7 @@ h
 namespace
 webrtc
 {
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats
@@ -22,7 +22,7 @@ Stats
 =
 default
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats
@@ -35,7 +35,7 @@ Stats
 =
 default
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -47,7 +47,7 @@ Config
 =
 default
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -60,7 +60,7 @@ Config
 =
 default
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -75,7 +75,7 @@ Rtp
 =
 default
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config

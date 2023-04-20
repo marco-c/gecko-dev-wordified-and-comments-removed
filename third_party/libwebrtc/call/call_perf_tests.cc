@@ -1081,7 +1081,7 @@ AudioSendStream
 *
 audio_send_stream
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 audio_receive_stream
 ;
@@ -1804,7 +1804,7 @@ sync_group
 =
 kSyncGroup
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -5690,7 +5690,7 @@ std
 :
 vector
 <
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config

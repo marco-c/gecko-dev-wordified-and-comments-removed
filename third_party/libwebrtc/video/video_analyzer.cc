@@ -936,7 +936,7 @@ VideoAnalyzer
 :
 SetAudioReceiveStream
 (
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 recv_stream
 )
@@ -2726,7 +2726,7 @@ audio_receive_stream_
 nullptr
 )
 {
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats

@@ -433,7 +433,7 @@ public
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 {
 public
 :
@@ -446,7 +446,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -468,7 +468,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -485,7 +485,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats
@@ -795,7 +795,7 @@ override
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats
@@ -894,7 +894,7 @@ id_
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -903,7 +903,7 @@ config_
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats
@@ -2273,7 +2273,7 @@ override
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 CreateAudioReceiveStream
 (
@@ -2281,7 +2281,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -2296,7 +2296,7 @@ DestroyAudioReceiveStream
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 receive_stream
 )
@@ -2523,7 +2523,7 @@ OnLocalSsrcUpdated
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 &
 stream
 uint32_t
@@ -2565,7 +2565,7 @@ OnUpdateSyncGroup
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 &
 stream
 absl

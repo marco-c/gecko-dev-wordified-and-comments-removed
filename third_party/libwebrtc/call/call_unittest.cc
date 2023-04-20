@@ -741,7 +741,7 @@ call
 use_null_audio_processing
 )
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -782,7 +782,7 @@ MockAudioDecoderFactory
 (
 )
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 stream
 =
@@ -990,7 +990,7 @@ call
 use_null_audio_processing
 )
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1028,7 +1028,7 @@ std
 :
 list
 <
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 >
 streams
@@ -1074,7 +1074,7 @@ remote_ssrc
 =
 ssrc
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 stream
 =
@@ -1167,7 +1167,7 @@ call
 use_null_audio_processing
 )
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1216,7 +1216,7 @@ MockAudioDecoderFactory
 (
 )
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 recv_stream
 =
@@ -1388,7 +1388,7 @@ send_stream
 nullptr
 )
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1437,7 +1437,7 @@ MockAudioDecoderFactory
 (
 )
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 recv_stream
 =

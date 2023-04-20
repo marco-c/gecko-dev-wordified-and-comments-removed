@@ -1504,7 +1504,7 @@ endif
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1630,7 +1630,7 @@ frame_transformer
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -6408,7 +6408,7 @@ WebRtcAudioReceiveStream
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -6497,7 +6497,7 @@ stream_
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 &
 stream
 (
@@ -6671,7 +6671,7 @@ decoder_map
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats
@@ -6841,7 +6841,7 @@ SetBaseMinimumPlayoutDelayMs
 "
 "
 on
-AudioReceiveStream
+AudioReceiveStreamInterface
 on
 SSRC
 =
@@ -7024,7 +7024,7 @@ nullptr
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 const
 stream_
@@ -13066,7 +13066,7 @@ continue
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats

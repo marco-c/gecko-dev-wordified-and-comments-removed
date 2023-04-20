@@ -324,12 +324,12 @@ send_stream
 0
 ;
 virtual
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 CreateAudioReceiveStream
 (
 const
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -343,7 +343,7 @@ virtual
 void
 DestroyAudioReceiveStream
 (
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 receive_stream
 )
@@ -519,7 +519,7 @@ virtual
 void
 OnLocalSsrcUpdated
 (
-AudioReceiveStream
+AudioReceiveStreamInterface
 &
 stream
 uint32_t
@@ -558,7 +558,7 @@ virtual
 void
 OnUpdateSyncGroup
 (
-AudioReceiveStream
+AudioReceiveStreamInterface
 &
 stream
 absl

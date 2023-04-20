@@ -655,7 +655,7 @@ sync_group
 )
 ;
 static
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1070,7 +1070,7 @@ std
 :
 vector
 <
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1082,7 +1082,7 @@ std
 :
 vector
 <
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 >
 audio_receive_streams_
@@ -1592,7 +1592,7 @@ std
 :
 vector
 <
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1614,7 +1614,7 @@ std
 :
 vector
 <
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 >
 &

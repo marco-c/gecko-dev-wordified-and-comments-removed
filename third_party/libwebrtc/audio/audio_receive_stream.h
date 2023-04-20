@@ -174,7 +174,7 @@ public
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 public
 AudioMixer
 :
@@ -200,7 +200,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -239,7 +239,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -455,7 +455,7 @@ override
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats
@@ -680,7 +680,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -711,7 +711,7 @@ packet_sequence_checker_
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config

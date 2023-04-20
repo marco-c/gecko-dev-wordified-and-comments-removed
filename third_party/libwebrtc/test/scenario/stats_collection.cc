@@ -904,7 +904,7 @@ AudioReceiveStatsCollector
 :
 AddStats
 (
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats

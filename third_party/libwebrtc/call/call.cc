@@ -1013,7 +1013,7 @@ StreamConfig
 CreateRtcLogStreamConfig
 (
 const
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1454,7 +1454,7 @@ override
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 CreateAudioReceiveStream
 (
@@ -1462,7 +1462,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1477,7 +1477,7 @@ DestroyAudioReceiveStream
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 receive_stream
 )
@@ -1699,7 +1699,7 @@ OnLocalSsrcUpdated
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 &
 stream
 uint32_t
@@ -1735,7 +1735,7 @@ OnUpdateSyncGroup
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 &
 stream
 absl
@@ -5037,7 +5037,7 @@ send_stream
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 Call
 :
@@ -5048,7 +5048,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -5210,7 +5210,7 @@ DestroyAudioReceiveStream
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 receive_stream
 )
@@ -7045,7 +7045,7 @@ OnLocalSsrcUpdated
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 &
 stream
 uint32_t
@@ -7190,7 +7190,7 @@ OnUpdateSyncGroup
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 &
 stream
 absl

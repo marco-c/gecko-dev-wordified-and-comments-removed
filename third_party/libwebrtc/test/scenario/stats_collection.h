@@ -337,7 +337,7 @@ public
 void
 AddStats
 (
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats

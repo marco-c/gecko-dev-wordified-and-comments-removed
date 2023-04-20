@@ -308,7 +308,7 @@ apm_statistics
 residual_echo_likelihood_recent_max
 )
 ;
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats
