@@ -43,15 +43,15 @@ utils
 import
 (
     
+LOG
+    
 download_file_from_url
-    
-transform_platform
-    
-tooltool_download
     
 get_available_port
     
-LOG
+tooltool_download
+    
+transform_platform
 )
 here
 =
@@ -2566,12 +2566,6 @@ log
 env
 =
 env
-            
-processStderrLine
-=
-LOG
-.
-error
             
 storeOutput
 =
