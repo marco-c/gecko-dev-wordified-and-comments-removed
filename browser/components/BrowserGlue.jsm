@@ -13886,6 +13886,13 @@ condition
 :
 lazy
 .
+TelemetryUtils
+.
+isTelemetryEnabled
+&
+&
+lazy
+.
 NimbusFeatures
 .
 dapTelemetry
