@@ -879,15 +879,8 @@ AppUnitsPerCSSPixel
 ;
 mFontGroup
 =
-gfxPlatform
-:
-:
-GetPlatform
-(
-)
--
->
-CreateFontGroup
+new
+gfxFontGroup
 (
 mPresContext
 aFont
@@ -906,6 +899,9 @@ aParams
 .
 userFontSet
 devToCssSize
+aFont
+.
+variantEmoji
 )
 ;
 }

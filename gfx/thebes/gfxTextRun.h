@@ -2991,6 +2991,8 @@ gfxUserFontSet
 aUserFontSet
 gfxFloat
 aDevToCssSize
+StyleFontVariantEmoji
+aVariantEmoji
 )
 ;
 virtual
@@ -4879,6 +4881,14 @@ mSkipDrawing
 ;
 bool
 mExplicitLanguage
+;
+eFontPresentation
+mEmojiPresentation
+=
+eFontPresentation
+:
+:
+Any
 ;
 mozilla
 :
