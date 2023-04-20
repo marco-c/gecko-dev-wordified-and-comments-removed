@@ -74,6 +74,17 @@ data
 =
 testData
 ;
+assert_equals
+(
+"
+function
+"
+typeof
+AudioDecoder
+.
+isConfigSupported
+)
+;
 let
 supported
 =

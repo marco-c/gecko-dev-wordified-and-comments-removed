@@ -76,6 +76,17 @@ data
 =
 testData
 ;
+assert_equals
+(
+"
+function
+"
+typeof
+VideoDecoder
+.
+isConfigSupported
+)
+;
 let
 supported
 =
