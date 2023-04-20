@@ -13,6 +13,12 @@ pkcs11_bindings
 :
 *
 ;
+use
+std
+:
+:
+slice
+;
 pub
 const
 CKC_X_509_BYTES
