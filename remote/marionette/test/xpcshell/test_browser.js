@@ -26,7 +26,7 @@ mjs
 "
 )
 ;
-add_test
+add_task
 (
 function
 test_Context
@@ -99,14 +99,10 @@ content
 "
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
-add_test
+add_task
 (
 function
 test_Context_fromString
@@ -185,10 +181,6 @@ TypeError
 )
 ;
 }
-run_next_test
-(
-)
-;
 }
 )
 ;

@@ -33,7 +33,7 @@ mjs
 "
 )
 ;
-add_test
+add_task
 (
 function
 test_Connection_splitMethod
@@ -162,10 +162,6 @@ command
 bar
 "
 }
-)
-;
-run_next_test
-(
 )
 ;
 }
