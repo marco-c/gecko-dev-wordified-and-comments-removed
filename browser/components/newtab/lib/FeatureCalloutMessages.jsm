@@ -542,6 +542,13 @@ id
 featureCalloutCheck
 "
 }
+frequency
+:
+{
+lifetime
+:
+100
+}
 targeting
 :
 !
