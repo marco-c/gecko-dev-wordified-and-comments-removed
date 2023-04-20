@@ -150,10 +150,10 @@ toString
 {
 hinted
 :
-2
+1
 normal
 :
-0
+1
 }
 )
 ;
@@ -800,10 +800,10 @@ sjs
 {
 hinted
 :
-1
+0
 normal
 :
-0
+1
 }
 )
 ;
