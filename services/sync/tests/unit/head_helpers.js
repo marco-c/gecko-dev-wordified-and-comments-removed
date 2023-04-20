@@ -30,7 +30,7 @@ Async
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -43,7 +43,9 @@ common
 /
 async
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -54,7 +56,7 @@ CommonUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -67,7 +69,9 @@ common
 /
 utils
 .
-js
+sys
+.
+mjs
 "
 )
 ;

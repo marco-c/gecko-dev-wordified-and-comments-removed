@@ -88,7 +88,7 @@ HawkClient
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -101,7 +101,9 @@ common
 /
 hawkclient
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -243,7 +245,7 @@ TokenServerClientServerError
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -256,7 +258,9 @@ common
 /
 tokenserverclient
 .
-js
+sys
+.
+mjs
 "
 )
 ;

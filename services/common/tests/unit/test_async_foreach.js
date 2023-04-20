@@ -5,7 +5,7 @@ Async
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ common
 /
 async
 .
-js
+sys
+.
+mjs
 "
 )
 ;

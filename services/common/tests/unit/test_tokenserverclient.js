@@ -7,7 +7,7 @@ TokenServerClientServerError
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -20,7 +20,9 @@ common
 /
 tokenserverclient
 .
-js
+sys
+.
+mjs
 "
 )
 ;

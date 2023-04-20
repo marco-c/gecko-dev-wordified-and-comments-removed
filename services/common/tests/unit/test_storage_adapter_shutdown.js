@@ -31,7 +31,7 @@ FirefoxAdapter
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -48,7 +48,9 @@ storage
 -
 adapter
 .
-js
+sys
+.
+mjs
 "
 )
 ;

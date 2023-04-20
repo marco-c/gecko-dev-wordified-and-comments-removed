@@ -31,7 +31,7 @@ UptakeTelemetry
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -46,7 +46,9 @@ uptake
 -
 telemetry
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -72,7 +74,7 @@ Policy
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -87,7 +89,9 @@ uptake
 -
 telemetry
 .
-js
+sys
+.
+mjs
 "
 )
 ;

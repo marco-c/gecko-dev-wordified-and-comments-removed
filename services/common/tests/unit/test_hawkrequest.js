@@ -11,7 +11,7 @@ deriveHawkCredentials
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -24,7 +24,9 @@ common
 /
 hawkrequest
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -35,7 +37,7 @@ Async
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -48,7 +50,9 @@ common
 /
 async
 .
-js
+sys
+.
+mjs
 "
 )
 ;

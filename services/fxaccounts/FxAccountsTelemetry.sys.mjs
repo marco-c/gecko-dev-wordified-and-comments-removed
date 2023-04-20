@@ -164,15 +164,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-lazy
-{
 /
 /
 We
@@ -207,7 +198,9 @@ common
 /
 observers
 .
-js
+sys
+.
+mjs
 "
 }
 )
