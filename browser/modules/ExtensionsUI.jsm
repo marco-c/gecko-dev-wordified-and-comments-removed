@@ -3659,9 +3659,11 @@ context
 -
 menu
 -
-manage
+pin
 -
-extension
+to
+-
+toolbar
 "
 )
 ;
