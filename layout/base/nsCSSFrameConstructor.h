@@ -348,12 +348,6 @@ ConstructRootFrame
 (
 )
 ;
-void
-ReconstructDocElementHierarchy
-(
-InsertionKind
-)
-;
 private
 :
 enum
@@ -3120,10 +3114,6 @@ mIsGeneratedContent
 (
 false
 )
-mIsRootPopupgroup
-(
-false
-)
 mIsAllInline
 (
 false
@@ -3306,11 +3296,6 @@ mIsText
 ;
 bool
 mIsGeneratedContent
-:
-1
-;
-bool
-mIsRootPopupgroup
 :
 1
 ;
