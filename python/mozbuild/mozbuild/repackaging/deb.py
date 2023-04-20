@@ -698,6 +698,16 @@ version_string
 build_number
     
 depends
+    
+package_name_suffix
+=
+"
+"
+    
+description_suffix
+=
+"
+"
 )
 :
     
@@ -777,20 +787,35 @@ display_name
 }
 "
         
+f
+"
+{
+description_suffix
+}
+"
+        
 "
 DEB_PKG_NAME
 "
 :
+f
+"
+{
 application_ini_data
 [
-"
+'
 remoting_name
-"
+'
 ]
 .
 lower
 (
 )
+}
+{
+package_name_suffix
+}
+"
         
 "
 DEB_PKG_VERSION
