@@ -248,7 +248,7 @@ return
 WorkletFetchHandler
 :
 :
-Fetch
+AddModule
 (
 this
 aCx
