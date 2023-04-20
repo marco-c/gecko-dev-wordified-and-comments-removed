@@ -4212,7 +4212,7 @@ mediacapture
 -
 image
 /
-setOptions
+takePhoto
 -
 reject
 .
