@@ -87,6 +87,9 @@ webRequestBlocking
 "
 "
 webRequestFilterResponse
+"
+"
+webRequestFilterResponse
 .
 serviceWorkerScript
 "

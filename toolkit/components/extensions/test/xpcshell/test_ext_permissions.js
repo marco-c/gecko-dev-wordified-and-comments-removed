@@ -3531,6 +3531,9 @@ webRequestBlocking
 "
 "
 webRequestFilterResponse
+"
+"
+webRequestFilterResponse
 .
 serviceWorkerScript
 "
