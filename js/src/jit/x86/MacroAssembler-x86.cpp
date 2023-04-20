@@ -5260,10 +5260,11 @@ buffer
 )
 ;
 }
-orPtr
+andPtr
 (
 Imm32
 (
+~
 gc
 :
 :
@@ -5280,7 +5281,7 @@ buffer
 gc
 :
 :
-ChunkStoreBufferOffsetFromLastByte
+ChunkStoreBufferOffset
 )
 buffer
 )
@@ -5409,10 +5410,11 @@ Assembler
 NotEqual
 )
 ;
-orPtr
+andPtr
 (
 Imm32
 (
+~
 gc
 :
 :
@@ -5433,7 +5435,7 @@ ptr
 gc
 :
 :
-ChunkStoreBufferOffsetFromLastByte
+ChunkStoreBufferOffset
 )
 ImmWord
 (
