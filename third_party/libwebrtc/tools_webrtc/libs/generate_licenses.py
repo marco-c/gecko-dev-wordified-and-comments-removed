@@ -216,6 +216,20 @@ LICENSE
 ]
     
 '
+dav1d
+'
+:
+[
+'
+third_party
+/
+dav1d
+/
+LICENSE
+'
+]
+    
+'
 errorprone
 '
 :
