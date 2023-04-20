@@ -3506,7 +3506,7 @@ native
 -
 fallback
 -
-title
+title2
 "
 ;
 document
@@ -3517,11 +3517,6 @@ setAttributes
 (
 docTitle
 pageTitleId
-{
-hostname
-:
-HOST_NAME
-}
 )
 ;
 bodyTitleId
@@ -3537,7 +3532,7 @@ native
 -
 fallback
 -
-title
+title2
 "
 ;
 document
@@ -3548,11 +3543,6 @@ setAttributes
 (
 bodyTitle
 bodyTitleId
-{
-hostname
-:
-HOST_NAME
-}
 )
 ;
 shortDesc
