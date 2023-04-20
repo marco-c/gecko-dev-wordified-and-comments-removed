@@ -1270,6 +1270,7 @@ Now
 ;
 if
 (
+!
 IsProcessStable
 (
 newTime
