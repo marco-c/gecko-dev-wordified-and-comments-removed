@@ -211,6 +211,11 @@ nsIEventTarget
 aEventTarget
 )
 ;
+readonly
+attribute
+boolean
+hasReceivedFIN
+;
 }
 ;
 [

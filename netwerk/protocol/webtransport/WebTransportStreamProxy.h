@@ -268,6 +268,15 @@ aEventTarget
 )
 override
 ;
+NS_IMETHOD
+GetHasReceivedFIN
+(
+bool
+*
+aHasReceivedFIN
+)
+override
+;
 private
 :
 virtual
