@@ -763,7 +763,7 @@ buf
 40
 ]
 ;
-sprintf
+SprintfLiteral
 (
 buf
 "
@@ -794,7 +794,7 @@ buf
 40
 ]
 ;
-sprintf
+SprintfLiteral
 (
 buf
 "
@@ -825,7 +825,7 @@ buf
 40
 ]
 ;
-sprintf
+SprintfLiteral
 (
 buf
 "
@@ -857,7 +857,7 @@ buf
 40
 ]
 ;
-sprintf
+SprintfLiteral
 (
 buf
 "
@@ -1658,16 +1658,9 @@ location
 256
 ]
 ;
-snprintf
+SprintfLiteral
 (
 location
-std
-:
-:
-size
-(
-location
-)
 "
 %
 s
