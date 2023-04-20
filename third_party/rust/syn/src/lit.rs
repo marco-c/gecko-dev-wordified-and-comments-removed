@@ -1553,10 +1553,10 @@ let
 mut
 tokens
 =
-crate
+TokenStream
 :
 :
-parse_str
+from_str
 (
 &
 self

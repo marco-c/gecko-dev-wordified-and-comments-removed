@@ -23,7 +23,6 @@ x
 for
 "
 ;
-let
 _
 =
 syn
