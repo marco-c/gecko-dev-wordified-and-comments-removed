@@ -146,6 +146,16 @@ CityHash
 /
 cityhash
 "
+"
+/
+toolkit
+/
+mozapps
+/
+update
+/
+common
+"
 ]
 UNIFIED_SOURCES
 +
