@@ -456,7 +456,7 @@ RefPtr
 <
 GLContextEGL
 >
-CreateEGLPBufferOffscreenContext
+CreateWithoutSurface
 (
 std
 :
