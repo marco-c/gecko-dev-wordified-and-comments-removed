@@ -1466,16 +1466,6 @@ plain
 gpu
 windows
 -
-aarch64
--
-tests
-:
--
-mochitest
--
-media
-windows
--
 talos
 :
 -
