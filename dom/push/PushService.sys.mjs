@@ -77,16 +77,12 @@ sys
 mjs
 "
 ;
-const
+import
 {
 clearTimeout
 setTimeout
 }
-=
-ChromeUtils
-.
-importESModule
-(
+from
 "
 resource
 :
@@ -102,7 +98,6 @@ sys
 .
 mjs
 "
-)
 ;
 import
 {

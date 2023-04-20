@@ -687,6 +687,17 @@ plugin
 -
 mozilla
 /
+use
+-
+static
+-
+import
+eslint
+-
+plugin
+-
+mozilla
+/
 valid
 -
 ci

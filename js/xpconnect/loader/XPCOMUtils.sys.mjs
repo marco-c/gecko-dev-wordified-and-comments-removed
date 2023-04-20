@@ -94,15 +94,11 @@ MPL
 .
 *
 /
-const
+import
 {
 AppConstants
 }
-=
-ChromeUtils
-.
-importESModule
-(
+from
 "
 resource
 :
@@ -118,7 +114,6 @@ sys
 .
 mjs
 "
-)
 ;
 let
 global

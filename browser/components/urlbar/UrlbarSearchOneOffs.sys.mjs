@@ -56,15 +56,11 @@ MPL
 .
 *
 /
-const
+import
 {
 SearchOneOffs
 }
-=
-ChromeUtils
-.
-importESModule
-(
+from
 "
 resource
 :
@@ -79,7 +75,6 @@ sys
 .
 mjs
 "
-)
 ;
 const
 lazy

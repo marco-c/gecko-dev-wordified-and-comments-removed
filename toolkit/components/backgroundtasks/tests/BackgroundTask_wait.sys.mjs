@@ -78,15 +78,11 @@ MPL
 .
 *
 /
-const
+import
 {
 setTimeout
 }
-=
-ChromeUtils
-.
-importESModule
-(
+from
 "
 resource
 :
@@ -102,7 +98,6 @@ sys
 .
 mjs
 "
-)
 ;
 export
 function

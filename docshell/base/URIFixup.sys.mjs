@@ -212,15 +212,11 @@ sys
 mjs
 "
 ;
-const
+import
 {
 AppConstants
 }
-=
-ChromeUtils
-.
-importESModule
-(
+from
 "
 resource
 :
@@ -236,7 +232,6 @@ sys
 .
 mjs
 "
-)
 ;
 const
 lazy

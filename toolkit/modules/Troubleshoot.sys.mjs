@@ -144,15 +144,11 @@ jsm
 "
 )
 ;
-const
+import
 {
 PlacesDBUtils
 }
-=
-ChromeUtils
-.
-importESModule
-(
+from
 "
 resource
 :
@@ -168,7 +164,6 @@ sys
 .
 mjs
 "
-)
 ;
 /
 /
