@@ -417,11 +417,6 @@ PBackgroundIDBDatabaseFile
 ipdl
 "
 "
-PBackgroundIDBDatabaseRequest
-.
-ipdl
-"
-"
 PBackgroundIDBFactory
 .
 ipdl
