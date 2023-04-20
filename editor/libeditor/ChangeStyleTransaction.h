@@ -1,14 +1,12 @@
 #
 ifndef
-mozilla_ChangeStyleTransaction_h
+ChangeStyleTransaction_h
 #
 define
-mozilla_ChangeStyleTransaction_h
+ChangeStyleTransaction_h
 #
 include
 "
-mozilla
-/
 EditTransactionBase
 .
 h
