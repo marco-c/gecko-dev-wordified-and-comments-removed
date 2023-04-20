@@ -1232,6 +1232,9 @@ mCallThread
 mStsThread
 mConduit
 mSendTrack
+aInit
+.
+mSendEncodings
 this
 )
 ;
