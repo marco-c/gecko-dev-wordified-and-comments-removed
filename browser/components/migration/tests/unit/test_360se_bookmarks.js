@@ -136,12 +136,14 @@ if
 (
 event
 .
-parentId
+parentGuid
 =
 =
 PlacesUtils
 .
-toolbarFolderId
+bookmarks
+.
+toolbarGuid
 )
 {
 importedToBookmarksToolbar
