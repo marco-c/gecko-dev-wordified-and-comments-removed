@@ -293,14 +293,12 @@ Services
 .
 io
 .
-getProtocolHandler
+getDefaultPort
 (
 uri
 .
 scheme
 )
-.
-defaultPort
 ;
 }
 }
