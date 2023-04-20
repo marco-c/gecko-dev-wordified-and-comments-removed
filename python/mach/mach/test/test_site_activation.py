@@ -266,43 +266,13 @@ sys
 .
 executable
                 
-os
-.
-path
-.
-join
-(
-                    
-buildconfig
-.
-topsrcdir
-                    
 "
-third_party
-"
-                    
-"
-python
-"
-                    
-"
-virtualenv
-"
-                    
-"
-virtualenv
-.
-py
+-
+m
 "
                 
-)
-                
 "
--
--
-no
--
-download
+venv
 "
                 
 venv_dir
@@ -1625,6 +1595,20 @@ python
 /
 "
 pyparsing
+"
+        
+topsrcdir
+/
+"
+third_party
+"
+/
+"
+python
+"
+/
+"
+pip
 "
     
 ]
