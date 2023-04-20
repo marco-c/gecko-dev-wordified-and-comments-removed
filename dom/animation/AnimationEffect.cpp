@@ -1748,6 +1748,10 @@ AnimationUtils
 TimeDurationToDouble
 (
 currentTime
+RTPCallerType
+:
+:
+Normal
 )
 ;
 aRetVal

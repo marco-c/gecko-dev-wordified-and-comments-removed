@@ -3827,6 +3827,7 @@ AnimationUtils
 TimeDurationToDouble
 (
 mStartTime
+mRTPCallerType
 )
 ;
 }
@@ -3879,6 +3880,7 @@ TimeDurationToDouble
 GetCurrentTimeAsDuration
 (
 )
+mRTPCallerType
 )
 ;
 }
