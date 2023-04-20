@@ -507,6 +507,17 @@ ini
 "
 tests
 /
+engagementTelemetry
+/
+browser
+/
+browser
+.
+ini
+"
+"
+tests
+/
 ext
 /
 browser
