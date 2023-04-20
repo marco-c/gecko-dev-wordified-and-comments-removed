@@ -1140,7 +1140,9 @@ that
 [
 BrowserContentHandler
 .
-jsm
+sys
+.
+mjs
 ]
 (
 https
@@ -1163,7 +1165,9 @@ components
 /
 BrowserContentHandler
 .
-jsm
+sys
+.
+mjs
 )
 is
 not

@@ -4185,7 +4185,9 @@ components
 /
 BrowserContentHandler
 .
-jsm
+sys
+.
+mjs
 .
 {
 AddAssociationIfNoneExist
