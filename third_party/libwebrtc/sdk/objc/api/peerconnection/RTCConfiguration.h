@@ -224,14 +224,6 @@ nonatomic
 assign
 )
 BOOL
-disableIPV6
-;
-property
-(
-nonatomic
-assign
-)
-BOOL
 disableIPV6OnWiFi
 ;
 property

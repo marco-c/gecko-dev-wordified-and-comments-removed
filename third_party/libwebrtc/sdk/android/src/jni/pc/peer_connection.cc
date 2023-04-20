@@ -1473,17 +1473,6 @@ j_turn_customizer
 rtc_config
 -
 >
-disable_ipv6
-=
-Java_RTCConfiguration_getDisableIpv6
-(
-jni
-j_rtc_config
-)
-;
-rtc_config
--
->
 media_config
 .
 enable_dscp
