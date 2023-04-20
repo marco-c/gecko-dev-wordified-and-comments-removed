@@ -1981,6 +1981,13 @@ closeWindow
 win
 )
 ;
+await
+SpecialPowers
+.
+popPrefEnv
+(
+)
+;
 }
 )
 ;
