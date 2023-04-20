@@ -322,9 +322,9 @@ tests
 /
 mochitest
 /
-server_metadata
+server_TESTNAME_metadata
 .
-json
+sjs
 "
 id_token_endpoint
 :
