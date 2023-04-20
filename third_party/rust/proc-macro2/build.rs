@@ -429,6 +429,14 @@ feature_allowed
 proc_macro_span
 "
 )
+&
+&
+feature_allowed
+(
+"
+proc_macro_span_shrink
+"
+)
 {
 println
 !

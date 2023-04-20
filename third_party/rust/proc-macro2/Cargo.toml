@@ -125,7 +125,7 @@ version
 .
 0
 .
-43
+49
 "
 authors
 =
@@ -331,6 +331,16 @@ span
 locations
 "
 ]
+[
+lib
+]
+doc
+-
+scrape
+-
+examples
+=
+false
 [
 dependencies
 .

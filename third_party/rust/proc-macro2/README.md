@@ -243,6 +243,8 @@ io
 /
 github
 /
+actions
+/
 workflow
 /
 status
@@ -253,10 +255,14 @@ proc
 -
 macro2
 /
-CI
-/
-master
+ci
+.
+yml
 ?
+branch
+=
+master
+&
 style
 =
 for
