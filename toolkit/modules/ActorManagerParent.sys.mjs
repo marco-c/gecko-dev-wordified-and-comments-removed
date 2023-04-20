@@ -1047,6 +1047,13 @@ DOMContentLoaded
 :
 {
 }
+load
+:
+{
+capture
+:
+true
+}
 }
 }
 /
