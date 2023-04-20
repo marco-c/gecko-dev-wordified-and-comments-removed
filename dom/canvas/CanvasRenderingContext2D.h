@@ -2758,8 +2758,8 @@ return
 mOpaque
 ;
 }
-NS_IMETHOD
-Reset
+void
+ResetBitmap
 (
 )
 override
