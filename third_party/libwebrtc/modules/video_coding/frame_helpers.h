@@ -41,6 +41,11 @@ Timestamp
 render_time
 Timestamp
 now
+)
+;
+bool
+TargetVideoDelayIsTooLarge
+(
 TimeDelta
 target_video_delay
 )

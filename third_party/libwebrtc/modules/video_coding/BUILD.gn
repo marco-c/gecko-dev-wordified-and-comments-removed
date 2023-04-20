@@ -8927,6 +8927,11 @@ frame_dependencies_calculator_unittest
 cc
 "
 "
+frame_helpers_unittest
+.
+cc
+"
+"
 generic_decoder_unittest
 .
 cc
@@ -9147,6 +9152,10 @@ frame_buffer2
 "
 :
 frame_dependencies_calculator
+"
+"
+:
+frame_helpers
 "
 "
 :
