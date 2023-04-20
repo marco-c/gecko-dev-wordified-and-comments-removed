@@ -2014,7 +2014,7 @@ aWasMaximized
 ;
 enum
 class
-ShowWindowAndFocus
+DoShowWindow
 :
 bool
 {
@@ -2026,9 +2026,9 @@ void
 EnsureSizeMode
 (
 nsSizeMode
-ShowWindowAndFocus
+DoShowWindow
 =
-ShowWindowAndFocus
+DoShowWindow
 :
 :
 Yes
@@ -2038,9 +2038,9 @@ void
 EnsureFullscreenMode
 (
 bool
-ShowWindowAndFocus
+DoShowWindow
 =
-ShowWindowAndFocus
+DoShowWindow
 :
 :
 Yes
@@ -2074,7 +2074,7 @@ void
 SetSizeModeInternal
 (
 nsSizeMode
-ShowWindowAndFocus
+DoShowWindow
 )
 ;
 nsSizeMode
