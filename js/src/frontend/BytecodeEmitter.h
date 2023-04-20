@@ -373,13 +373,6 @@ sc
 =
 nullptr
 ;
-JSContext
-*
-const
-cx
-=
-nullptr
-;
 FrontendContext
 *
 const

@@ -15652,9 +15652,6 @@ SharedDataContainer
 :
 addAndShare
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc

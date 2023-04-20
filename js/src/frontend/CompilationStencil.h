@@ -4313,9 +4313,6 @@ nodiscard
 bool
 addAndShare
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
