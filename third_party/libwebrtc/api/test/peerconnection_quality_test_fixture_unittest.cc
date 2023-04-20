@@ -101,7 +101,7 @@ VideoSubscription
 ;
 TEST
 (
-PclfVideoSubscription
+PclfVideoSubscriptionTest
 MaxFromSenderSpecEqualIndependentOfOtherFields
 )
 {
@@ -180,7 +180,7 @@ r2
 }
 TEST
 (
-PclfVideoSubscription
+PclfVideoSubscriptionTest
 WhenSpecIsNotSetFieldsAreCompared
 )
 {
@@ -251,7 +251,7 @@ different_fps
 }
 TEST
 (
-PclfVideoSubscription
+PclfVideoSubscriptionTest
 GetMaxResolutionForEmptyReturnsNullopt
 )
 {
@@ -292,7 +292,7 @@ has_value
 }
 TEST
 (
-PclfVideoSubscription
+PclfVideoSubscriptionTest
 GetMaxResolutionSelectMaxForEachDimention
 )
 {
