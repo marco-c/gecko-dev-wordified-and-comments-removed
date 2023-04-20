@@ -645,10 +645,7 @@ size
 I
 )
 {
-Optional
-<
-CFGStmt
->
+auto
 S
 =
 (

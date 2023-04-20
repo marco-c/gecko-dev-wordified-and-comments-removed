@@ -215,10 +215,7 @@ I
 {
 if
 (
-Optional
-<
-CFGStmt
->
+auto
 S
 =
 (
