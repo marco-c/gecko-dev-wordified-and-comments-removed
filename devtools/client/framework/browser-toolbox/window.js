@@ -1186,12 +1186,6 @@ bindToolboxHandlers
 (
 )
 ;
-gToolbox
-.
-raise
-(
-)
-;
 if
 (
 Services
@@ -1220,6 +1214,13 @@ installTestingServer
 )
 ;
 }
+await
+gToolbox
+.
+raise
+(
+)
+;
 if
 (
 env

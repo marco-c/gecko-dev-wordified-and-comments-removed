@@ -876,6 +876,7 @@ _getAboutDevtoolsToolbox
 win
 )
 ;
+await
 toolbox
 .
 selectTool
@@ -983,6 +984,7 @@ toolDefinition
 preventRaisingOnKey
 )
 {
+await
 toolbox
 .
 raise
@@ -993,6 +995,7 @@ raise
 }
 else
 {
+await
 toolbox
 .
 destroy
@@ -1017,6 +1020,7 @@ toolId
 }
 else
 {
+await
 gDevTools
 .
 showToolboxForTab
