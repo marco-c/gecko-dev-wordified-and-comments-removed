@@ -424,7 +424,6 @@ IPCClientInfo
 ?
 clientInfo
 ;
-nullable
 nsIReferrerInfo
 referrerInfo
 ;

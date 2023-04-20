@@ -743,11 +743,8 @@ ipc
 IPCResult
 RecvGetSnapshot
 (
-NotNull
-<
 PTextureParent
 *
->
 aTexture
 bool
 *

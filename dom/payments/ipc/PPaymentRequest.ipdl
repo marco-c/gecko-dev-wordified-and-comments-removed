@@ -177,7 +177,6 @@ topOuterWindowId
 nsString
 requestId
 ;
-nullable
 nsIPrincipal
 topLevelPrincipal
 ;

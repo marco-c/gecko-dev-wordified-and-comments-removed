@@ -61,7 +61,6 @@ parent
 async
 Update
 (
-nullable
 nsIDOMGeoPosition
 aPosition
 )

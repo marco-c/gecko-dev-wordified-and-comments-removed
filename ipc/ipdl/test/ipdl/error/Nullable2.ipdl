@@ -9,8 +9,9 @@ for
 type
 int
 '
-is
-unsupported
+makes
+no
+sense
 union
 Union
 {

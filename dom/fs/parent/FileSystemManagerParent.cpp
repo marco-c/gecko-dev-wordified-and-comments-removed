@@ -1266,12 +1266,9 @@ get
 auto
 writableFileStreamParent
 =
-MakeNotNull
-<
-RefPtr
+MakeRefPtr
 <
 FileSystemWritableFileStreamParent
->
 >
 (
 this
@@ -1391,6 +1388,7 @@ move
 streamParams
 )
 writableFileStreamParent
+nullptr
 )
 )
 ;

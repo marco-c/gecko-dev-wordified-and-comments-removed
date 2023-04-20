@@ -198,7 +198,6 @@ GenericTypes
 uint8_t
 RoleMapEntryIndex
 ;
-nullable
 AccAttributes
 CacheFields
 ;
@@ -253,7 +252,6 @@ MaxValue
 double
 Step
 ;
-nullable
 AccAttributes
 Attributes
 ;
@@ -683,7 +681,6 @@ aID
 )
 returns
 (
-nullable
 AccAttributes
 attributes
 )
@@ -1027,7 +1024,6 @@ aOffset
 )
 returns
 (
-nullable
 AccAttributes
 aAttributes
 int32_t
@@ -1049,7 +1045,6 @@ aID
 )
 returns
 (
-nullable
 AccAttributes
 aAttributes
 )
@@ -2889,7 +2884,6 @@ uint64_t
 aID
 uint64_t
 aCacheDomain
-nullable
 AccAttributes
 aFields
 )

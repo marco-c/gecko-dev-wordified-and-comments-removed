@@ -2063,25 +2063,21 @@ DomainPolicyClone
 bool
 active
 ;
-nullable
 nsIURI
 [
 ]
 blocklist
 ;
-nullable
 nsIURI
 [
 ]
 allowlist
 ;
-nullable
 nsIURI
 [
 ]
 superBlocklist
 ;
-nullable
 nsIURI
 [
 ]
@@ -2148,7 +2144,6 @@ url
 IPCBlob
 blob
 ;
-nullable
 nsIPrincipal
 principal
 ;
@@ -2417,7 +2412,6 @@ clipboardCaps
 DomainPolicyClone
 domainPolicy
 ;
-nullable
 nsIURI
 userContentSheetURL
 ;
@@ -2468,7 +2462,6 @@ trrMode
 struct
 VisitedQueryResult
 {
-nullable
 nsIURI
 uri
 ;
@@ -2601,19 +2594,15 @@ origin
 nsString
 targetOrigin
 ;
-nullable
 nsIURI
 targetOriginURI
 ;
-nullable
 nsIPrincipal
 callerPrincipal
 ;
-nullable
 nsIPrincipal
 subjectPrincipal
 ;
-nullable
 nsIURI
 callerURI
 ;
@@ -3769,7 +3758,6 @@ item
 async
 ClearImageCacheFromPrincipal
 (
-nullable
 nsIPrincipal
 aPrincipal
 )
@@ -3793,7 +3781,6 @@ chrome
 async
 ClearStyleSheetCache
 (
-nullable
 nsIPrincipal
 ?
 aForPrincipal
@@ -3926,7 +3913,6 @@ data
 async
 GeolocationUpdate
 (
-nullable
 nsIDOMGeoPosition
 aPosition
 )
@@ -4639,7 +4625,6 @@ processes
 async
 LoadAndRegisterSheet
 (
-nullable
 nsIURI
 uri
 uint32_t
@@ -4649,7 +4634,6 @@ type
 async
 UnregisterSheet
 (
-nullable
 nsIURI
 uri
 uint32_t
@@ -4716,7 +4700,6 @@ uint32_t
 aSetType
 uint32_t
 aChangeType
-nullable
 nsIURI
 aDomain
 )
@@ -4879,7 +4862,6 @@ Push
 (
 nsCString
 scope
-nullable
 nsIPrincipal
 principal
 nsString
@@ -4911,7 +4893,6 @@ PushWithData
 (
 nsCString
 scope
-nullable
 nsIPrincipal
 principal
 nsString
@@ -4945,7 +4926,6 @@ PushSubscriptionChange
 (
 nsCString
 scope
-nullable
 nsIPrincipal
 principal
 )
@@ -4966,7 +4946,6 @@ nsCString
 aURI
 IPCBlob
 aBlob
-nullable
 nsIPrincipal
 aPrincipal
 nsID
@@ -5983,7 +5962,6 @@ aContext
 )
 returns
 (
-nullable
 nsILayoutHistoryState
 aState
 Wireframe
@@ -6148,7 +6126,6 @@ SynchronizeLayoutHistoryState
 (
 MaybeDiscardedBrowsingContext
 aContext
-nullable
 nsILayoutHistoryState
 aState
 )
@@ -6276,7 +6253,6 @@ tid
 sync
 IsSecureURI
 (
-nullable
 nsIURI
 aURI
 OriginAttributes
@@ -6291,7 +6267,6 @@ isSecureURI
 async
 AccumulateMixedContentHSTS
 (
-nullable
 nsIURI
 aURI
 bool
@@ -6358,7 +6333,6 @@ fd
 sync
 PURLClassifier
 (
-nullable
 nsIPrincipal
 principal
 )
@@ -6371,7 +6345,6 @@ success
 async
 PURLClassifierLocal
 (
-nullable
 nsIURI
 uri
 IPCURLClassifierFeature
@@ -6383,7 +6356,6 @@ features
 async
 PLoginReputation
 (
-nullable
 nsIURI
 formURI
 )
@@ -6405,7 +6377,6 @@ remoting
 async
 StartVisitedQueries
 (
-nullable
 nsIURI
 [
 ]
@@ -6415,7 +6386,6 @@ uri
 async
 SetURITitle
 (
-nullable
 nsIURI
 uri
 nsString
@@ -6425,13 +6395,10 @@ title
 async
 LoadURIExternal
 (
-nullable
 nsIURI
 uri
-nullable
 nsIPrincipal
 triggeringPrincipal
-nullable
 nsIPrincipal
 redirectPrincipal
 MaybeDiscardedBrowsingContext
@@ -6484,7 +6451,6 @@ retval
 async
 ShowAlert
 (
-nullable
 nsIAlertNotification
 alert
 )
@@ -6501,7 +6467,6 @@ contextClosed
 async
 DisableNotifications
 (
-nullable
 nsIPrincipal
 principal
 )
@@ -6509,7 +6474,6 @@ principal
 async
 OpenNotificationSettings
 (
-nullable
 nsIPrincipal
 principal
 )
@@ -6890,7 +6854,6 @@ it
 async
 PExternalHelperApp
 (
-nullable
 nsIURI
 uri
 LoadInfoArgs
@@ -6910,7 +6873,6 @@ int64_t
 aContentLength
 bool
 aWasFileChannel
-nullable
 nsIURI
 aReferrer
 MaybeDiscardedBrowsingContext
@@ -6993,7 +6955,6 @@ IPCDataTransfer
 aDataTransfer
 bool
 aIsPrivateData
-nullable
 nsIPrincipal
 aRequestingPrincipal
 nsContentPolicyType
@@ -7223,7 +7184,6 @@ Compress
 async
 PlaySound
 (
-nullable
 nsIURI
 aURL
 )
@@ -7291,10 +7251,8 @@ DeviceReset
 async
 CopyFavicon
 (
-nullable
 nsIURI
 oldURI
-nullable
 nsIURI
 newURI
 bool
@@ -7731,10 +7689,8 @@ PermissionRequest
 [
 ]
 aRequests
-nullable
 nsIPrincipal
 aPrincipal
-nullable
 nsIPrincipal
 aTopLevelPrincipal
 bool
@@ -9689,7 +9645,6 @@ resource
 sync
 GetHyphDict
 (
-nullable
 nsIURI
 aURI
 )
@@ -9718,18 +9673,14 @@ bool
 aForPrinting
 bool
 aForWindowDotPrint
-nullable
 nsIURI
 aURIToLoad
 nsCString
 aFeatures
-nullable
 nsIPrincipal
 aTriggeringPrincipal
-nullable
 nsIContentSecurityPolicy
 aCsp
-nullable
 nsIReferrerInfo
 aReferrerInfo
 OriginAttributes
@@ -9752,20 +9703,16 @@ uint32_t
 aChromeFlags
 bool
 aCalledFromJS
-nullable
 nsIURI
 aURIToLoad
 nsCString
 aFeatures
 nsString
 aName
-nullable
 nsIPrincipal
 aTriggeringPrincipal
-nullable
 nsIContentSecurityPolicy
 aCsp
-nullable
 nsIReferrerInfo
 aReferrerInfo
 OriginAttributes
@@ -9775,7 +9722,6 @@ aOriginAttributes
 sync
 RemovePermission
 (
-nullable
 nsIPrincipal
 principal
 nsCString
@@ -9849,7 +9795,6 @@ NotifyPushObservers
 (
 nsCString
 scope
-nullable
 nsIPrincipal
 principal
 nsString
@@ -9878,7 +9823,6 @@ NotifyPushObserversWithData
 (
 nsCString
 scope
-nullable
 nsIPrincipal
 principal
 nsString
@@ -9911,7 +9855,6 @@ NotifyPushSubscriptionChangeObservers
 (
 nsCString
 scope
-nullable
 nsIPrincipal
 principal
 )
@@ -9941,7 +9884,6 @@ nsCString
 url
 IPCBlob
 blob
-nullable
 nsIPrincipal
 principal
 nsID
@@ -9954,7 +9896,6 @@ UnstoreAndBroadcastBlobURLUnregistration
 (
 nsCString
 url
-nullable
 nsIPrincipal
 principal
 )
@@ -10112,7 +10053,6 @@ port
 async
 AddCertException
 (
-nullable
 nsIX509Cert
 aCert
 nsCString
@@ -10158,7 +10098,6 @@ prompt
 async
 AutomaticStorageAccessPermissionCanBeGranted
 (
-nullable
 nsIPrincipal
 aPrincipal
 )
@@ -10204,7 +10143,6 @@ uint64_t
 aTopLevelWindowId
 MaybeDiscardedBrowsingContext
 aParentContext
-nullable
 nsIPrincipal
 aTrackingPrincipal
 nsCString
@@ -10228,7 +10166,6 @@ MaybeDiscardedBrowsingContext
 aParentContext
 uint64_t
 aTopLevelWindowId
-nullable
 nsIPrincipal
 aTrackingPrincipal
 nsCString
@@ -10248,10 +10185,8 @@ choice
 async
 SetAllowStorageAccessRequestFlag
 (
-nullable
 nsIPrincipal
 aEmbeddingPrincipal
-nullable
 nsIURI
 aEmbeddedOrigin
 )
@@ -10264,10 +10199,8 @@ success
 async
 TestAllowStorageAccessRequestFlag
 (
-nullable
 nsIPrincipal
 aEmbeddedPrincipal
-nullable
 nsIURI
 aEmbeddingOrigin
 )
@@ -10280,7 +10213,6 @@ success
 async
 StoreUserInteractionAsPermission
 (
-nullable
 nsIPrincipal
 aPrincipal
 )
@@ -10290,7 +10222,6 @@ TestCookiePermissionDecided
 (
 MaybeDiscardedBrowsingContext
 aContext
-nullable
 nsIPrincipal
 aPrincipal
 )
@@ -10304,7 +10235,6 @@ allowed
 async
 TestStorageAccessPermission
 (
-nullable
 nsIPrincipal
 aEmbeddingPrincipal
 nsCString
@@ -10975,10 +10905,8 @@ BlobURLDataRequest
 (
 nsCString
 aBlobURL
-nullable
 nsIPrincipal
 aTriggeringPrincipal
-nullable
 nsIPrincipal
 aLoadingPrincipal
 OriginAttributes
@@ -11245,7 +11173,6 @@ NotifyPushSubscriptionModifiedObservers
 (
 nsCString
 scope
-nullable
 nsIPrincipal
 principal
 )
@@ -11278,7 +11205,6 @@ PushError
 (
 nsCString
 scope
-nullable
 nsIPrincipal
 principal
 nsString
@@ -11834,7 +11760,6 @@ SetContainerFeaturePolicy
 (
 MaybeDiscardedBrowsingContext
 aContainerContext
-nullable
 FeaturePolicy
 aContainerFeaturePolicy
 )
@@ -11881,7 +11806,6 @@ details
 async
 GetSystemIcon
 (
-nullable
 nsIURI
 aURI
 )

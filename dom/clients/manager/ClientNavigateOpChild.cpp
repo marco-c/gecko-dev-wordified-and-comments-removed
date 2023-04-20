@@ -681,15 +681,7 @@ ClientSourceChild
 (
 aArgs
 .
-target
-(
-)
-.
-AsChild
-(
-)
-.
-get
+targetChild
 (
 )
 )

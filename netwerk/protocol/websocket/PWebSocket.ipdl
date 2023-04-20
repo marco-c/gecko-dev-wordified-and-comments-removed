@@ -99,7 +99,6 @@ parent
 async
 AsyncOpen
 (
-nullable
 nsIURI
 aURI
 nsCString

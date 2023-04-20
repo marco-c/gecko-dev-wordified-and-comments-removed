@@ -140,10 +140,8 @@ mozilla
 union
 DecodedOutputIPDL
 {
-nullable
 ArrayOfRemoteAudioData
 ;
-nullable
 ArrayOfRemoteVideoData
 ;
 }
@@ -221,7 +219,6 @@ result
 async
 Decode
 (
-nullable
 ArrayOfRemoteMediaRawData
 data
 )

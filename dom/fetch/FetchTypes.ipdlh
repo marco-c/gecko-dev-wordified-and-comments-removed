@@ -315,7 +315,6 @@ uuid
 union
 ParentToChildStream
 {
-nullable
 RemoteLazyInputStream
 ;
 IPCStream
@@ -455,7 +454,6 @@ errorCode
 nsCString
 alternativeDataType
 ;
-nullable
 nsITransportSecurityInfo
 securityInfo
 ;

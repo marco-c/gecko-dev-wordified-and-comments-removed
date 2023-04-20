@@ -81,15 +81,12 @@ WindowGlobalInit
 WindowContextInitializer
 context
 ;
-nullable
 nsIPrincipal
 principal
 ;
-nullable
 nsIPrincipal
 storagePrincipal
 ;
-nullable
 nsIURI
 documentURI
 ;
@@ -111,7 +108,6 @@ cookieJarSettings
 uint32_t
 httpsOnlyStatus
 ;
-nullable
 nsITransportSecurityInfo
 securityInfo
 ;

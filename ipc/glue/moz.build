@@ -184,11 +184,6 @@ IPDLParamTraits
 h
 "
 "
-IPDLStructMember
-.
-h
-"
-"
 LibrarySandboxPreload
 .
 h
@@ -280,11 +275,6 @@ h
 "
 "
 ShmemMessageUtils
-.
-h
-"
-"
-SideVariant
 .
 h
 "

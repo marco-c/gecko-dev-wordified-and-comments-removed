@@ -342,10 +342,7 @@ PTCPServerSocketParent
 :
 SendCallbackAccept
 (
-WrapNotNull
-(
 socket
-)
 )
 ;
 }

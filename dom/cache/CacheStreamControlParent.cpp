@@ -202,7 +202,16 @@ aReadStreamOut
 aReadStreamOut
 -
 >
-control
+controlChild
+(
+)
+=
+nullptr
+;
+aReadStreamOut
+-
+>
+controlParent
 (
 )
 =

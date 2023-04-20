@@ -32,7 +32,6 @@ CacheData
 uint64_t
 ID
 ;
-nullable
 AccAttributes
 Fields
 ;

@@ -341,7 +341,6 @@ useArrayBuffers
 async
 PUDPSocket
 (
-nullable
 nsIPrincipal
 principal
 nsCString
@@ -384,10 +383,8 @@ aInnerWindowID
 async
 PredPredict
 (
-nullable
 nsIURI
 targetURI
-nullable
 nsIURI
 sourceURI
 uint32_t
@@ -401,10 +398,8 @@ hasVerifier
 async
 PredLearn
 (
-nullable
 nsIURI
 targetURI
-nullable
 nsIURI
 sourceURI
 uint32_t
@@ -421,10 +416,8 @@ PredReset
 async
 SpeculativeConnect
 (
-nullable
 nsIURI
 uri
-nullable
 nsIPrincipal
 principal
 bool
@@ -545,13 +538,11 @@ tabId
 async
 GetExtensionStream
 (
-nullable
 nsIURI
 uri
 )
 returns
 (
-nullable
 nsIInputStream
 stream
 )
@@ -559,7 +550,6 @@ stream
 async
 GetExtensionFD
 (
-nullable
 nsIURI
 uri
 )
@@ -600,7 +590,6 @@ result
 async
 GetPageThumbStream
 (
-nullable
 nsIURI
 uri
 LoadInfoArgs
@@ -617,7 +606,6 @@ info
 async
 GetPageIconStream
 (
-nullable
 nsIURI
 uri
 LoadInfoArgs
@@ -636,7 +624,6 @@ child
 async
 PredOnPredictPrefetch
 (
-nullable
 nsIURI
 uri
 uint32_t
@@ -646,7 +633,6 @@ httpStatus
 async
 PredOnPredictPreconnect
 (
-nullable
 nsIURI
 uri
 )
@@ -654,7 +640,6 @@ uri
 async
 PredOnPredictDNS
 (
-nullable
 nsIURI
 uri
 )

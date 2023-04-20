@@ -71,7 +71,6 @@ nsCString
 baseDomain
 OriginAttributes
 attrs
-nullable
 nsIURI
 host
 bool
@@ -85,7 +84,6 @@ cookies
 async
 PrepareCookieList
 (
-nullable
 nsIURI
 host
 bool
