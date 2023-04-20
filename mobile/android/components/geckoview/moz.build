@@ -128,7 +128,9 @@ jsm
 "
 GeckoViewPrompter
 .
-jsm
+sys
+.
+mjs
 "
 "
 GeckoViewPush
