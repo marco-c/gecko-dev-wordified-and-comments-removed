@@ -3873,7 +3873,7 @@ button
 )
 ;
 let
-title
+extensionTitle
 =
 tabData
 .
@@ -3947,16 +3947,6 @@ callback
 =
 >
 {
-button
-.
-setAttribute
-(
-"
-label
-"
-title
-)
-;
 node
 .
 toggleAttribute
@@ -4003,8 +3993,6 @@ button
 "
 {
 extensionTitle
-:
-title
 }
 )
 ;
