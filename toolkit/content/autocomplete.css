@@ -154,12 +154,6 @@ richlistitem
 {
 flex
 -
-shrink
-:
-0
-;
-flex
--
 direction
 :
 row
