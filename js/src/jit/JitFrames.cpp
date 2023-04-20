@@ -3575,6 +3575,13 @@ clearDisallowArbitraryCode
 (
 )
 ;
+cx
+-
+>
+resetInUnsafeRegion
+(
+)
+;
 #
 endif
 auto

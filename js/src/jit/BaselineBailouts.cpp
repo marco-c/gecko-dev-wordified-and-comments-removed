@@ -8340,6 +8340,17 @@ get
 (
 )
 ;
+MOZ_ASSERT
+(
+!
+cx
+-
+>
+isInUnsafeRegion
+(
+)
+)
+;
 BaselineFrame
 *
 topFrame
