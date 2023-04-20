@@ -13829,6 +13829,11 @@ peer_connection_factory_unittest
 cc
 "
 "
+peer_connection_field_trial_tests
+.
+cc
+"
+"
 peer_connection_header_extension_unittest
 .
 cc
