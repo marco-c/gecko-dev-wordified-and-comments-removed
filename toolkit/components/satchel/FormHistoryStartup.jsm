@@ -125,6 +125,13 @@ FormHistory
 expireOldEntries
 (
 )
+.
+catch
+(
+Cu
+.
+reportError
+)
 ;
 break
 ;
