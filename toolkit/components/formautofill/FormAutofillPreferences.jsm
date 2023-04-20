@@ -434,12 +434,6 @@ showCreditCardUI
 FormAutofill
 .
 isAutofillCreditCardsAvailable
-&
-&
-!
-FormAutofill
-.
-isAutofillCreditCardsHideUI
 ;
 if
 (

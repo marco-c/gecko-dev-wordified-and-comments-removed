@@ -2455,17 +2455,6 @@ browser
 timeStartedFillingMS
 )
 {
-if
-(
-FormAutofill
-.
-isAutofillCreditCardsHideUI
-)
-{
-return
-false
-;
-}
 let
 setUsedStatus
 =
