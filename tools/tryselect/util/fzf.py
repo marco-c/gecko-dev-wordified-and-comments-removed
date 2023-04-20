@@ -2022,6 +2022,33 @@ p
     
 )
     
+if
+platform
+.
+system
+(
+)
+=
+=
+"
+Windows
+"
+:
+        
+env
+[
+"
+SHELL
+"
+]
+=
+env
+[
+"
+COMSPEC
+"
+]
+    
 proc
 =
 subprocess
