@@ -5130,6 +5130,9 @@ infobar
 "
 spotlight
 "
+"
+cfr_doorhanger
+"
 ]
 .
 includes
