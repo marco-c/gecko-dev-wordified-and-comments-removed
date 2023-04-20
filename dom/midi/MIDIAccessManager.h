@@ -157,6 +157,11 @@ MIDIAccessManager
 (
 )
 ;
+void
+StartActor
+(
+)
+;
 bool
 mHasPortList
 ;

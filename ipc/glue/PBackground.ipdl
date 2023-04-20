@@ -527,9 +527,6 @@ manages
 PCameras
 ;
 manages
-PMIDIManager
-;
-manages
 PMIDIPort
 ;
 manages
@@ -1151,8 +1148,13 @@ PClientManager
 )
 ;
 async
-PMIDIManager
+CreateMIDIManager
 (
+Endpoint
+<
+PMIDIManagerParent
+>
+aEndpoint
 )
 ;
 async

@@ -57,10 +57,6 @@ MPL
 *
 /
 include
-protocol
-PBackground
-;
-include
 MIDITypes
 ;
 namespace
@@ -73,9 +69,6 @@ async
 protocol
 PMIDIManager
 {
-manager
-PBackground
-;
 parent
 :
 async
@@ -110,11 +103,6 @@ MIDIPortListUpdate
 (
 MIDIPortList
 aPortList
-)
-;
-async
-__delete__
-(
 )
 ;
 }
