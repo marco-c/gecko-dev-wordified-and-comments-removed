@@ -2588,7 +2588,7 @@ nsPresContext
 *
 aPresContext
 AbstractRange
-*
+&
 aRange
 bool
 aSelect

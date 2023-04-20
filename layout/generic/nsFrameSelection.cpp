@@ -1417,6 +1417,7 @@ aSelection
 SelectFrames
 (
 presContext
+*
 range
 false
 )
