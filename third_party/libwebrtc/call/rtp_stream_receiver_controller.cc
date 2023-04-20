@@ -235,7 +235,7 @@ sink
 )
 ;
 }
-size_t
+bool
 RtpStreamReceiverController
 :
 :
