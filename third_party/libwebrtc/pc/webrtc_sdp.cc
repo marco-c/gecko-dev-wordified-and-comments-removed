@@ -21182,14 +21182,6 @@ existing_codec
 .
 name
 )
-|
-|
-channels
-!
-=
-existing_codec
-.
-channels
 )
 )
 {
