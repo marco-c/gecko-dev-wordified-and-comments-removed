@@ -137,15 +137,6 @@ safari
 -
 permission
 "
-NO_BROWSERS_FOUND
-:
-"
-no
--
-browsers
--
-found
-"
 }
 )
 /
