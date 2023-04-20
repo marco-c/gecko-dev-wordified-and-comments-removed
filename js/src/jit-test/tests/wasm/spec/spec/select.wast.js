@@ -3674,9 +3674,9 @@ null
 [
 value
 (
-"
+'
 anyfunc
-"
+'
 null
 )
 ]
@@ -3709,9 +3709,9 @@ externref
 [
 value
 (
-"
+'
 externref
-"
+'
 externref
 (
 1
@@ -3873,9 +3873,9 @@ externref
 [
 value
 (
-"
+'
 externref
-"
+'
 externref
 (
 2
@@ -3911,9 +3911,9 @@ externref
 [
 value
 (
-"
+'
 externref
-"
+'
 externref
 (
 1
