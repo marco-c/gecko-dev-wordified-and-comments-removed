@@ -18,13 +18,10 @@ protocol
 PWebGPU
 ;
 using
-mozilla
-:
-:
 layers
 :
 :
-CompositableHandle
+RemoteTextureOwnerId
 from
 "
 mozilla
@@ -100,8 +97,9 @@ uint32_t
 aManagerId
 int32_t
 aProtocolId
-CompositableHandle
-aHandle
+RemoteTextureOwnerId
+?
+ownerId
 )
 returns
 (

@@ -1182,15 +1182,6 @@ return
 mImageContainer
 ;
 }
-layers
-:
-:
-CompositableHandle
-GetCompositableHandle
-(
-)
-const
-;
 protected
 :
 bool

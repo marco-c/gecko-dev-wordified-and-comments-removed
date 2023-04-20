@@ -113,12 +113,12 @@ aManagerId
 int32_t
 aProtocolId
 const
-layers
-:
-:
-CompositableHandle
+Maybe
+<
+RemoteTextureOwnerId
+>
 &
-aHandle
+aOwnerId
 SurfaceFormat
 aFormat
 bool

@@ -198,13 +198,6 @@ Shmem
 ;
 }
 namespace
-layers
-{
-class
-CompositableHandle
-;
-}
-namespace
 webgpu
 {
 namespace
@@ -383,9 +376,8 @@ const
 layers
 :
 :
-CompositableHandle
-&
-aHandle
+RemoteTextureOwnerId
+aOwnerId
 gfx
 :
 :

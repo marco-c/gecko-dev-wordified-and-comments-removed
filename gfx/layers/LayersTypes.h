@@ -1283,7 +1283,6 @@ uint8_t
 {
 WebRenderBridge
 ImageBridge
-InProcessManager
 }
 ;
 struct
