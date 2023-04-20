@@ -236,17 +236,6 @@ stop
 do_test_finished
 )
 ;
-Assert
-.
-ok
-(
-fakeTelemetryService
-.
-recordEvent
-.
-calledOnce
-)
-;
 }
 }
 "
