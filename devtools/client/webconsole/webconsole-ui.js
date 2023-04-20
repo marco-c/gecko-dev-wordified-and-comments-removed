@@ -1425,6 +1425,17 @@ _onNetworkResourceUpdated
 }
 )
 ;
+if
+(
+commands
+.
+targetCommand
+.
+hasTargetWatcherSupport
+(
+)
+)
+{
 const
 networkFront
 =
@@ -1469,6 +1480,7 @@ setSaveRequestAndResponseBodies
 saveBodies
 )
 ;
+}
 }
 async
 stopWatchingNetworkResources
