@@ -408,11 +408,6 @@ IsDoc
 )
 |
 |
-IsProxy
-(
-)
-|
-|
 mStateFlags
 &
 eSharedNode
