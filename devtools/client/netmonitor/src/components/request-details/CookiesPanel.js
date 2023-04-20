@@ -586,8 +586,12 @@ return
 map
 ;
 }
-{
-}
+Object
+.
+create
+(
+null
+)
 )
 ;
 return
