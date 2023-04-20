@@ -2450,6 +2450,15 @@ opacity
 =
 0
 ;
+window
+.
+getComputedStyle
+(
+box
+)
+.
+opacity
+;
 }
 else
 {
