@@ -102,7 +102,6 @@ aId
 {
 MOZ_ASSERT
 (
-!
 sRegisteredCDMs
 .
 Contains
