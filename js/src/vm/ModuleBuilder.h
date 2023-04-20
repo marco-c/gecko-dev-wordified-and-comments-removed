@@ -99,6 +99,9 @@ ModuleBuilder
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 const
 frontend
 :
@@ -121,6 +124,9 @@ ModuleBuilder
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 Parser
 *
 parser
@@ -129,6 +135,7 @@ parser
 ModuleBuilder
 (
 cx
+ec
 frontend
 :
 :

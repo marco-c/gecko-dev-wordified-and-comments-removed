@@ -4205,6 +4205,7 @@ ModuleBuilder
 builder
 (
 cx
+ec
 parser
 .
 ptr
