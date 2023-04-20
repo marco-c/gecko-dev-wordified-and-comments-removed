@@ -1033,18 +1033,15 @@ MinGW
 w64
 ]
 (
-https
+http
 :
 /
 /
-www
-.
 mingw
 -
 w64
 .
 org
-/
 )
 distribution
 which
@@ -1066,7 +1063,6 @@ win
 builds
 .
 org
-/
 )
 installation
 system
@@ -1133,7 +1129,6 @@ www
 mingw
 .
 org
-/
 )
 project
 is
