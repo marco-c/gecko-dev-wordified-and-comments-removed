@@ -118,7 +118,7 @@ version
 .
 0
 .
-151
+152
 "
 authors
 =
@@ -224,12 +224,9 @@ https
 /
 docs
 .
-serde
-.
 rs
 /
 serde
-/
 "
 readme
 =
@@ -333,6 +330,16 @@ gnu
 "
 ]
 [
+lib
+]
+doc
+-
+scrape
+-
+examples
+=
+false
+[
 dependencies
 .
 serde_derive
@@ -345,7 +352,7 @@ version
 .
 0
 .
-151
+152
 "
 optional
 =
