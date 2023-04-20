@@ -2323,7 +2323,7 @@ Derived
 >
 :
 :
-ApplyCrossProcOffset
+ApplyCrossDocOffset
 (
 nsRect
 &
@@ -2370,17 +2370,6 @@ if
 (
 !
 IsDoc
-(
-)
-|
-|
-!
-AsDoc
-(
-)
--
->
-IsOOPIframeDoc
 (
 )
 )
@@ -3067,7 +3056,7 @@ height
 )
 ;
 }
-ApplyCrossProcOffset
+ApplyCrossDocOffset
 (
 bounds
 )
@@ -3223,7 +3212,7 @@ AsDoc
 remoteAcc
 -
 >
-ApplyCrossProcOffset
+ApplyCrossDocOffset
 (
 remoteBounds
 )

@@ -1762,7 +1762,7 @@ aBounds
 const
 ;
 void
-ApplyCrossProcOffset
+ApplyCrossDocOffset
 (
 nsRect
 &
