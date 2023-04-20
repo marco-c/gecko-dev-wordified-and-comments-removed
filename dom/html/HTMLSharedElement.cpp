@@ -563,7 +563,10 @@ aDecls
 SetKeywordValue
 (
 eCSSProperty_list_style_type
-NS_STYLE_LIST_STYLE_DISC
+ListStyle
+:
+:
+Disc
 )
 ;
 }

@@ -112,7 +112,7 @@ explicit
 constexpr
 CounterStyle
 (
-int32_t
+ListStyle
 aStyle
 )
 :
@@ -149,7 +149,7 @@ delete
 public
 :
 constexpr
-int32_t
+ListStyle
 GetStyle
 (
 )
@@ -169,7 +169,10 @@ return
 mStyle
 =
 =
-NS_STYLE_LIST_STYLE_NONE
+ListStyle
+:
+:
+None
 ;
 }
 bool
@@ -182,7 +185,10 @@ return
 mStyle
 =
 =
-NS_STYLE_LIST_STYLE_CUSTOM
+ListStyle
+:
+:
+Custom
 ;
 }
 bool
@@ -367,7 +373,7 @@ nullptr
 protected
 :
 const
-int32_t
+ListStyle
 mStyle
 ;
 }
@@ -1529,7 +1535,7 @@ CounterStyle
 *
 GetBuiltinStyle
 (
-int32_t
+ListStyle
 aStyle
 )
 ;
@@ -1543,7 +1549,10 @@ GetNoneStyle
 return
 GetBuiltinStyle
 (
-NS_STYLE_LIST_STYLE_NONE
+ListStyle
+:
+:
+None
 )
 ;
 }
@@ -1557,7 +1566,10 @@ GetDecimalStyle
 return
 GetBuiltinStyle
 (
-NS_STYLE_LIST_STYLE_DECIMAL
+ListStyle
+:
+:
+Decimal
 )
 ;
 }
@@ -1571,7 +1583,10 @@ GetDiscStyle
 return
 GetBuiltinStyle
 (
-NS_STYLE_LIST_STYLE_DISC
+ListStyle
+:
+:
+Disc
 )
 ;
 }
