@@ -909,8 +909,6 @@ CreateWebTransportParent
 (
 nsString
 aURL
-nsIPrincipal
-aPrincipal
 bool
 aDedicated
 bool
