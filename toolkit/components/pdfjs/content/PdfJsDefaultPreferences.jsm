@@ -36,6 +36,11 @@ cursorToolOnLoad
 :
 0
 "
+defaultZoomDelay
+"
+:
+400
+"
 defaultZoomValue
 "
 :
