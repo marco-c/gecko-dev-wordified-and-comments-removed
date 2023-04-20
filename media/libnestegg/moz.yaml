@@ -177,9 +177,6 @@ tasks
 type
 :
 vendoring
-branch
-:
-master
 enabled
 :
 True

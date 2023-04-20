@@ -55,6 +55,15 @@ MPL
 .
 1
 "
+license
+-
+file
+:
+"
+COPYING
+.
+MPL
+"
 release
 :
 "
