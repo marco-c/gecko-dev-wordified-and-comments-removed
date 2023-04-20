@@ -607,6 +607,17 @@ BoundArg0Slot
 static
 constexpr
 size_t
+targetSlot
+(
+)
+{
+return
+TargetSlot
+;
+}
+static
+constexpr
+size_t
 boundThisSlot
 (
 )
