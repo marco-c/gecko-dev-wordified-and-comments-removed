@@ -7886,12 +7886,7 @@ desc
 pc_
 -
 >
-legacy_stats
-(
-)
--
->
-InvalidateCache
+ClearStatsCache
 (
 )
 ;
@@ -9648,12 +9643,7 @@ description
 pc_
 -
 >
-legacy_stats
-(
-)
--
->
-InvalidateCache
+ClearStatsCache
 (
 )
 ;

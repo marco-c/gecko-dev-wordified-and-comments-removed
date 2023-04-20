@@ -583,6 +583,14 @@ const
 =
 0
 ;
+virtual
+void
+ClearStatsCache
+(
+)
+=
+0
+;
 }
 ;
 class
