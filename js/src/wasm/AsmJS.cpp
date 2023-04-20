@@ -6718,10 +6718,6 @@ ArrayView
 ;
 protected
 :
-JSContext
-*
-cx_
-;
 FrontendContext
 *
 fc_
@@ -6807,9 +6803,6 @@ protected
 :
 ModuleValidatorShared
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -6826,10 +6819,6 @@ FunctionNode
 moduleFunctionNode
 )
 :
-cx_
-(
-cx
-)
 fc_
 (
 fc
@@ -9957,9 +9946,6 @@ public
 :
 ModuleValidator
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -9984,7 +9970,6 @@ moduleFunctionNode
 :
 ModuleValidatorShared
 (
-cx
 fc
 stackLimit
 parserAtoms
@@ -36819,9 +36804,6 @@ static
 SharedModule
 CheckModule
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -36876,7 +36858,6 @@ Unit
 >
 m
 (
-cx
 fc
 stackLimit
 parserAtoms
@@ -40601,9 +40582,6 @@ static
 bool
 DoCompileAsmJS
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -40658,7 +40636,6 @@ module
 =
 CheckModule
 (
-cx
 fc
 stackLimit
 parserAtoms
@@ -40747,9 +40724,6 @@ js
 :
 CompileAsmJS
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -40778,7 +40752,6 @@ validated
 return
 DoCompileAsmJS
 (
-cx
 fc
 stackLimit
 parserAtoms
@@ -40794,9 +40767,6 @@ js
 :
 CompileAsmJS
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -40825,7 +40795,6 @@ validated
 return
 DoCompileAsmJS
 (
-cx
 fc
 stackLimit
 parserAtoms
