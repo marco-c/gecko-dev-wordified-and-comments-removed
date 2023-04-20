@@ -2039,6 +2039,10 @@ public
 BufferOffset
 nextInstrOffset
 (
+int
+numInsts
+=
+1
 )
 {
 if
@@ -2046,7 +2050,7 @@ if
 !
 hasSpaceForInsts
 (
-1
+numInsts
 0
 )
 )
