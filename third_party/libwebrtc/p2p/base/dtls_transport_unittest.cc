@@ -315,7 +315,7 @@ EXPECT_TRUE
 transport
 -
 >
-SetRemoteFingerprint
+SetRemoteParameters
 (
 fingerprint
 -
@@ -345,6 +345,14 @@ digest
 size
 (
 )
+absl
+:
+:
+nullopt
+)
+.
+ok
+(
 )
 )
 ;
