@@ -11333,6 +11333,14 @@ true
 if
 (
 mActiveMenuBar
+&
+&
+mActiveMenuBar
+-
+>
+IsActiveByKeyboard
+(
+)
 )
 {
 RefPtr
