@@ -1885,6 +1885,16 @@ mCookieJarSettings
 ;
 info
 .
+mCookieJarSettingsArgs
+=
+aData
+.
+cookieJarSettings
+(
+)
+;
+info
+.
 mEvalAllowed
 =
 true
