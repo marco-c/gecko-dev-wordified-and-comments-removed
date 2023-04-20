@@ -134,6 +134,14 @@ mWaitForVarUpdate
 true
 ;
 }
+base
+:
+:
+ProcessHandle
+GetChildProcessHandle
+(
+)
+;
 void
 OnUnexpectedShutdown
 (
