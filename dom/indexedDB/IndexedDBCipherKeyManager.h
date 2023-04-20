@@ -42,8 +42,6 @@ dom
 :
 indexedDB
 {
-namespace
-{
 using
 IndexedDBCipherStrategy
 =
@@ -149,7 +147,12 @@ mPrivateBrowsingInfoHashTable
 ;
 }
 ;
-}
+IndexedDBCipherKeyManager
+*
+GetIndexedDBCipherKeyManager
+(
+)
+;
 }
 #
 endif
