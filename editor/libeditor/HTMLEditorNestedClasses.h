@@ -660,6 +660,15 @@ IsSetAndValid
 )
 )
 ;
+MOZ_ASSERT
+(
+mPointToInsert
+.
+IsInContentNode
+(
+)
+)
+;
 }
 explicit
 AutoMoveOneLineHandler
@@ -885,6 +894,10 @@ SplitToMakeTheLineIsolated
 HTMLEditor
 &
 aHTMLEditor
+const
+nsIContent
+&
+aNewContainer
 const
 Element
 &
