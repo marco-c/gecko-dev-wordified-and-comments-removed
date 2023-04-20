@@ -3498,13 +3498,6 @@ selectedIndex
 -
 1
 ;
-requestAnimationFrame
-(
-(
-)
-=
->
-{
 let
 {
 width
@@ -3561,9 +3554,6 @@ width
 "
 px
 "
-)
-;
-}
 )
 ;
 popup
