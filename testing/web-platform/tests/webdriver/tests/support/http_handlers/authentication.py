@@ -38,6 +38,8 @@ tests
 /
 support
 /
+http_handlers
+/
 authentication
 .
 py

@@ -11,6 +11,8 @@ tests
 .
 support
 .
+http_handlers
+.
 authentication
 import
 basic_authentication
