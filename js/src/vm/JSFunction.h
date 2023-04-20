@@ -293,7 +293,7 @@ Handle
 js
 :
 :
-Shape
+SharedShape
 *
 >
 shape
