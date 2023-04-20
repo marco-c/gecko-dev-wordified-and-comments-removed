@@ -47570,7 +47570,7 @@ templateObj
 cx_
 -
 >
-recoverFromOutOfMemory
+clearPendingException
 (
 )
 ;
