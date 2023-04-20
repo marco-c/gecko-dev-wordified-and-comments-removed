@@ -1245,7 +1245,7 @@ browsingContext
 .
 loadURI
 (
-url
+validURL
 opts
 )
 ;

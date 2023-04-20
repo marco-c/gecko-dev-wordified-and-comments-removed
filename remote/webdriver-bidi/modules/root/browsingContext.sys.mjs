@@ -2851,8 +2851,6 @@ context
 loadURI
 (
 targetURI
-.
-spec
 {
 loadFlags
 :
