@@ -172,6 +172,11 @@ DNSRequestParent
 h
 "
 "
+DNSServiceBase
+.
+h
+"
+"
 HTTPSSVC
 .
 h
