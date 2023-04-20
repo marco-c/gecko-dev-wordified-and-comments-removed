@@ -262,7 +262,7 @@ printerName
 {
 PSSVC
 .
-saveLastUsedPrinterNameToPrefs
+maybeSaveLastUsedPrinterNameToPrefs
 (
 printSettings
 .
@@ -271,7 +271,7 @@ printerName
 ;
 PSSVC
 .
-savePrintSettingsToPrefs
+maybeSavePrintSettingsToPrefs
 (
 printSettings
 Ci
@@ -1017,7 +1017,7 @@ nsIPrintSettingsService
 ;
 PSSVC
 .
-saveLastUsedPrinterNameToPrefs
+maybeSaveLastUsedPrinterNameToPrefs
 (
 settings
 .
@@ -1026,7 +1026,7 @@ printerName
 ;
 PSSVC
 .
-savePrintSettingsToPrefs
+maybeSavePrintSettingsToPrefs
 (
 settings
 Ci

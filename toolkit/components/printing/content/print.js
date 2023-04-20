@@ -1976,7 +1976,7 @@ _initialized
 ;
 PSSVC
 .
-saveLastUsedPrinterNameToPrefs
+maybeSaveLastUsedPrinterNameToPrefs
 (
 settings
 .
@@ -3872,7 +3872,7 @@ flags
 {
 PSSVC
 .
-savePrintSettingsToPrefs
+maybeSavePrintSettingsToPrefs
 (
 this
 .

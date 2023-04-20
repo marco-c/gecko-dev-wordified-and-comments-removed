@@ -2583,7 +2583,7 @@ kInitSaveScaling
 ;
 gPrintService
 .
-savePrintSettingsToPrefs
+maybeSavePrintSettingsToPrefs
 (
 gPrintSettings
 flags

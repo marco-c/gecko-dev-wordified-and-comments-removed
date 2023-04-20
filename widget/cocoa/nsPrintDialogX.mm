@@ -557,7 +557,7 @@ false
 printSettingsSvc
 -
 >
-SavePrintSettingsToPrefs
+MaybeSavePrintSettingsToPrefs
 (
 settingsX
 nsIPrintSettings
@@ -792,7 +792,7 @@ kInitSaveScaling
 printSettingsService
 -
 >
-SavePrintSettingsToPrefs
+MaybeSavePrintSettingsToPrefs
 (
 aNSSettings
 flags
