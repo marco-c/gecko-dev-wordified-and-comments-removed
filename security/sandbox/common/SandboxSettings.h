@@ -52,6 +52,11 @@ GetEffectiveSocketProcessSandboxLevel
 (
 )
 ;
+int
+GetEffectiveGpuSandboxLevel
+(
+)
+;
 bool
 IsContentSandboxEnabled
 (
