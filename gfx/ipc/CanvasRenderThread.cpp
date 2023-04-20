@@ -146,7 +146,7 @@ nsIThreadManager
 :
 DEFAULT_STACK_SIZE
 ?
-512
+4096
 <
 <
 10
