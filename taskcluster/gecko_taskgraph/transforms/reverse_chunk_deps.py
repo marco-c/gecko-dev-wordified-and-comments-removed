@@ -11,10 +11,6 @@ MAX_DEPENDENCIES
 "
 "
 from
-copy
-import
-deepcopy
-from
 taskgraph
 .
 transforms
@@ -42,6 +38,14 @@ from
 gecko_taskgraph
 import
 MAX_DEPENDENCIES
+from
+gecko_taskgraph
+.
+util
+.
+copy_task
+import
+copy_task
 transforms
 =
 TransformSequence
@@ -58,7 +62,7 @@ count
     
 job
 =
-deepcopy
+copy_task
 (
 orig_job
 )

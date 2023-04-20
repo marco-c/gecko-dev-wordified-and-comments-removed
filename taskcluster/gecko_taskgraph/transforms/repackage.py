@@ -14,8 +14,6 @@ description
 "
 "
 "
-import
-copy
 from
 taskgraph
 .
@@ -71,6 +69,14 @@ util
 attributes
 import
 copy_attributes_from_dependent_job
+from
+gecko_taskgraph
+.
+util
+.
+copy_task
+import
+copy_task
 from
 gecko_taskgraph
 .
@@ -1717,9 +1723,7 @@ jobs
         
 job
 =
-copy
-.
-deepcopy
+copy_task
 (
 job
 )
@@ -2748,9 +2752,7 @@ package_formats
             
 command
 =
-copy
-.
-deepcopy
+copy_task
 (
 PACKAGE_FORMATS
 [
@@ -2846,9 +2848,7 @@ MOZHARNESS_EXPANSIONS
             
 temp_job
 =
-copy
-.
-deepcopy
+copy_task
 (
 job
 )
