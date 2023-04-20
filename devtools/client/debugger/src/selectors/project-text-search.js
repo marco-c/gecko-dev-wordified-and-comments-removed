@@ -1,6 +1,6 @@
 export
 function
-getTextSearchOperation
+getProjectSearchOperation
 (
 state
 )
@@ -15,7 +15,7 @@ ongoingSearch
 }
 export
 function
-getTextSearchResults
+getProjectSearchResults
 (
 state
 )
@@ -30,7 +30,7 @@ results
 }
 export
 function
-getTextSearchStatus
+getProjectSearchStatus
 (
 state
 )
@@ -45,7 +45,7 @@ status
 }
 export
 function
-getTextSearchQuery
+getProjectSearchQuery
 (
 state
 )
