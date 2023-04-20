@@ -9,7 +9,7 @@ PMFMediaEngine
 endif
 #
 ifdef
-MOZ_WMF_CDM
+MOZ_MF_CDM
 include
 protocol
 PMFCDM
@@ -179,7 +179,7 @@ PMFMediaEngine
 endif
 #
 ifdef
-MOZ_WMF_CDM
+MOZ_MF_CDM
 manages
 PMFCDM
 ;
@@ -199,7 +199,7 @@ PMFMediaEngine
 endif
 #
 ifdef
-MOZ_WMF_CDM
+MOZ_MF_CDM
 async
 PMFCDM
 (
