@@ -1,9 +1,9 @@
 #
 include
 "
-api
+video
 /
-video_codecs
+config
 /
 video_encoder_config
 .

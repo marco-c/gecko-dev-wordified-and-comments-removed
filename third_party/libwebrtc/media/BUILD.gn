@@ -732,6 +732,16 @@ system_wrappers
 :
 field_trial
 "
+"
+.
+.
+/
+video
+/
+config
+:
+encoder_config
+"
 ]
 if
 (

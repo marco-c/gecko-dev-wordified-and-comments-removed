@@ -1,9 +1,9 @@
 #
 ifndef
-API_VIDEO_VIDEO_STREAM_ENCODER_OBSERVER_H_
+VIDEO_VIDEO_STREAM_ENCODER_OBSERVER_H_
 #
 define
-API_VIDEO_VIDEO_STREAM_ENCODER_OBSERVER_H_
+VIDEO_VIDEO_STREAM_ENCODER_OBSERVER_H_
 #
 include
 <
@@ -83,9 +83,9 @@ h
 #
 include
 "
-api
+video
 /
-video_codecs
+config
 /
 video_encoder_config
 .

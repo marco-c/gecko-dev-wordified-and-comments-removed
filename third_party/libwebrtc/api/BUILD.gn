@@ -2182,6 +2182,16 @@ test
 video_test_common
 "
 "
+.
+.
+/
+video
+/
+config
+:
+encoder_config
+"
+"
 transport
 :
 bitrate_settings

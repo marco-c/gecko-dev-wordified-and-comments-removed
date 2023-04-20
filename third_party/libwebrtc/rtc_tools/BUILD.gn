@@ -1521,6 +1521,16 @@ video
 /
 config
 :
+encoder_config
+"
+"
+.
+.
+/
+video
+/
+config
+:
 streams_config
 "
 "

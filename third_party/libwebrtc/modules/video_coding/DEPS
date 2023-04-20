@@ -41,6 +41,12 @@ rtc_export
 .
 h
 "
+"
++
+video
+/
+config
+"
 ]
 specific_include_rules
 =
