@@ -8188,6 +8188,14 @@ rtp_sender
 /
 api
 :
+array_view
+"
+"
+.
+.
+/
+api
+:
 media_stream_interface
 "
 "
