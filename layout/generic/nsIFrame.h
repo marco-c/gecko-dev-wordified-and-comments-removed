@@ -12609,9 +12609,13 @@ NS_FRAME_IN_REFLOW
 )
 ;
 }
+private
+:
 nsFrameState
 mState
 ;
+protected
+:
 FrameProperties
 mProperties
 ;

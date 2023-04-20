@@ -249,7 +249,9 @@ nsTableColType
 )
 (
 (
-mState
+GetStateBits
+(
+)
 &
 COL_TYPE_BITS
 )

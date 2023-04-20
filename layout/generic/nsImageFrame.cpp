@@ -6876,9 +6876,10 @@ AvailableHeight
 ;
 MOZ_ASSERT
 (
-mState
-&
+HasAnyStateBits
+(
 NS_FRAME_IN_REFLOW
+)
 "
 frame
 is
@@ -7101,9 +7102,8 @@ STATUS_SIZE_AVAILABLE
 )
 |
 |
+HasAnyStateBits
 (
-mState
-&
 IMAGE_SIZECONSTRAINED
 )
 )
