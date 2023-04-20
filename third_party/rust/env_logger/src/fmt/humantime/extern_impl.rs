@@ -324,7 +324,6 @@ field
 &
 TimestampValue
 (
-&
 self
 )
 )

@@ -252,7 +252,6 @@ filter
 is_match
 (
 &
-*
 record
 .
 args

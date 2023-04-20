@@ -898,9 +898,6 @@ BufferWriter
 :
 pipe
 (
-self
-.
-is_test
 color_choice
 pipe
 )

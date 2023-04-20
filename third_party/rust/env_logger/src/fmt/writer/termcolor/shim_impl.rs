@@ -159,9 +159,6 @@ writer
 fn
 pipe
 (
-_is_test
-:
-bool
 _write_style
 :
 WriteStyle
