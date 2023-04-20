@@ -81,12 +81,4 @@ py
 ]
     
 }
-    
-"
-download_symbols
-"
-:
-"
-ondemand
-"
 }
