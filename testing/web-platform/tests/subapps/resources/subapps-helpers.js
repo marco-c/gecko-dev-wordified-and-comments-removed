@@ -55,6 +55,7 @@ createMockSubAppsService
 (
 service_result_code
 add_call_return_value
+list_call_return_value
 )
 {
 if
@@ -234,6 +235,7 @@ initialize
 (
 service_result_code
 add_call_return_value
+list_call_return_value
 )
 ;
 }
@@ -282,6 +284,8 @@ createMockSubAppsService
 Status
 .
 SUCCESS
+[
+]
 [
 ]
 )
@@ -339,6 +343,8 @@ Status
 .
 FAILURE
 mocked_response
+[
+]
 )
 ;
 await
