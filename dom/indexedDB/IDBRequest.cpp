@@ -1439,8 +1439,6 @@ aFactory
 nsIGlobalObject
 *
 aGlobal
-bool
-aFileHandleDisabled
 )
 :
 IDBRequest
@@ -1456,10 +1454,6 @@ move
 (
 aFactory
 )
-)
-mFileHandleDisabled
-(
-aFileHandleDisabled
 )
 mIncreasedActiveDatabaseCount
 (
@@ -1539,17 +1533,6 @@ MOZ_ASSERT
 aGlobal
 )
 ;
-bool
-fileHandleDisabled
-=
-!
-StaticPrefs
-:
-:
-dom_fileHandle_enabled
-(
-)
-;
 RefPtr
 <
 IDBOpenDBRequest
@@ -1567,7 +1550,6 @@ move
 aFactory
 )
 aGlobal
-fileHandleDisabled
 )
 ;
 CaptureCaller
