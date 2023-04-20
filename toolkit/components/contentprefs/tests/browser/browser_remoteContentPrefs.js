@@ -6,6 +6,12 @@ strict
 const
 childFrameURL
 =
+Services
+.
+io
+.
+newURI
+(
 "
 data
 :
@@ -32,6 +38,7 @@ body
 html
 >
 "
+)
 ;
 async
 function

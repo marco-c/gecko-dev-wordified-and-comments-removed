@@ -108,7 +108,14 @@ browser
 .
 loadURI
 (
+Services
+.
+io
+.
+newURI
+(
 TEST_URL
+)
 {
 referrerInfo
 :
