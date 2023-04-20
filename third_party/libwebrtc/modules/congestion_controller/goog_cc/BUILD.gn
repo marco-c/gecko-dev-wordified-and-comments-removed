@@ -180,6 +180,10 @@ estimators
 "
 "
 :
+loss_based_bwe_v2
+"
+"
+:
 probe_controller
 "
 "

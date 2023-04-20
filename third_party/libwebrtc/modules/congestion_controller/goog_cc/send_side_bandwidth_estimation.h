@@ -362,12 +362,6 @@ loss_based_state
 )
 const
 ;
-DataRate
-delay_based_limit
-(
-)
-const
-;
 uint8_t
 fraction_loss
 (
