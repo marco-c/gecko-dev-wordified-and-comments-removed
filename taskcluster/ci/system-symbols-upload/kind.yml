@@ -119,6 +119,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 docker
@@ -140,7 +142,7 @@ run
 -
 time
 :
-900
+1200
 env
 :
 #
