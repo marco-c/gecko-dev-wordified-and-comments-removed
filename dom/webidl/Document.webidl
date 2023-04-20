@@ -4340,6 +4340,10 @@ GlobalEventHandlers
 ;
 Document
 includes
+DocumentAndElementEventHandlers
+;
+Document
+includes
 TouchEventHandlers
 ;
 Document

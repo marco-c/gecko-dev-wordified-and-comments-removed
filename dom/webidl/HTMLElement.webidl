@@ -665,6 +665,10 @@ HTMLOrForeignElement
 ;
 HTMLElement
 includes
+DocumentAndElementEventHandlers
+;
+HTMLElement
+includes
 ElementCSSInlineStyle
 ;
 HTMLElement
