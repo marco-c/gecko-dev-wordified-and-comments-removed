@@ -1051,8 +1051,6 @@ nullptr
 &
 nack_periodic_processor_
 &
-mock_nack_sender_
-&
 mock_on_complete_frame_callback_
 nullptr
 nullptr
@@ -1503,9 +1501,6 @@ config_
 ;
 NackPeriodicProcessor
 nack_periodic_processor_
-;
-MockNackSender
-mock_nack_sender_
 ;
 test
 :
@@ -6800,8 +6795,6 @@ nullptr
 nullptr
 &
 nack_periodic_processor_
-&
-mock_nack_sender_
 &
 mock_on_complete_frame_callback_
 nullptr
