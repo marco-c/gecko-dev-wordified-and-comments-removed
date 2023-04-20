@@ -53,6 +53,26 @@ selectors
 ;
 import
 {
+createLocation
+}
+from
+"
+.
+.
+/
+.
+.
+/
+.
+.
+/
+utils
+/
+location
+"
+;
+import
+{
 mockCommandClient
 }
 from
@@ -229,6 +249,8 @@ actions
 selectLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -242,6 +264,7 @@ column
 :
 5
 }
+)
 )
 )
 ;
@@ -1514,6 +1537,8 @@ actions
 selectLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -1524,6 +1549,7 @@ line
 :
 1
 }
+)
 )
 )
 ;
@@ -1753,6 +1779,8 @@ actions
 selectLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -1763,6 +1791,7 @@ line
 :
 1
 }
+)
 )
 )
 ;
@@ -1938,6 +1967,8 @@ actions
 selectSpecificLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -1951,6 +1982,7 @@ line
 :
 1
 }
+)
 )
 )
 ;

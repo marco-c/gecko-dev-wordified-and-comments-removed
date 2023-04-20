@@ -119,6 +119,8 @@ getContext
 (
 dbg
 )
+createLocation
+(
 {
 line
 :
@@ -129,6 +131,7 @@ source
 .
 id
 }
+)
 {
 logValue
 :

@@ -97,6 +97,18 @@ from
 wasm
 "
 ;
+import
+{
+createLocation
+}
+from
+"
+.
+.
+/
+location
+"
+;
 let
 editor
 ;
@@ -985,6 +997,8 @@ source
 id
 ;
 return
+createLocation
+(
 {
 sourceId
 line
@@ -1011,6 +1025,7 @@ ch
 +
 1
 }
+)
 ;
 }
 export

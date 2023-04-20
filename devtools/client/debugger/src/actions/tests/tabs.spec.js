@@ -30,6 +30,23 @@ selectors
 ;
 import
 {
+createLocation
+}
+from
+"
+.
+.
+/
+.
+.
+/
+utils
+/
+location
+"
+;
+import
+{
 mockCommandClient
 }
 from
@@ -106,6 +123,8 @@ actions
 selectLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -118,6 +137,7 @@ line
 :
 1
 }
+)
 )
 )
 ;
@@ -238,6 +258,8 @@ actions
 selectLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -252,6 +274,7 @@ line
 }
 )
 )
+)
 ;
 await
 dispatch
@@ -261,6 +284,8 @@ actions
 selectLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -273,6 +298,7 @@ line
 :
 1
 }
+)
 )
 )
 ;
@@ -389,6 +415,8 @@ actions
 selectLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -401,6 +429,7 @@ line
 :
 1
 }
+)
 )
 )
 ;
@@ -521,6 +550,8 @@ actions
 selectLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -535,6 +566,7 @@ line
 }
 )
 )
+)
 ;
 await
 dispatch
@@ -544,6 +576,8 @@ actions
 selectLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -556,6 +590,7 @@ line
 :
 1
 }
+)
 )
 )
 ;
@@ -706,6 +741,8 @@ actions
 selectLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -720,6 +757,7 @@ line
 }
 )
 )
+)
 ;
 await
 dispatch
@@ -729,6 +767,8 @@ actions
 selectLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -743,6 +783,7 @@ line
 }
 )
 )
+)
 ;
 await
 dispatch
@@ -752,6 +793,8 @@ actions
 selectLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -764,6 +807,7 @@ line
 :
 1
 }
+)
 )
 )
 ;
@@ -952,6 +996,8 @@ actions
 selectLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -966,6 +1012,7 @@ line
 }
 )
 )
+)
 ;
 await
 dispatch
@@ -975,6 +1022,8 @@ actions
 selectLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -989,6 +1038,7 @@ line
 }
 )
 )
+)
 ;
 await
 dispatch
@@ -998,6 +1048,8 @@ actions
 selectLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -1010,6 +1062,7 @@ line
 :
 1
 }
+)
 )
 )
 ;
@@ -1178,6 +1231,8 @@ actions
 selectLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -1192,6 +1247,7 @@ line
 }
 )
 )
+)
 ;
 await
 dispatch
@@ -1201,6 +1257,8 @@ actions
 selectLocation
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -1213,6 +1271,7 @@ line
 :
 1
 }
+)
 )
 )
 ;

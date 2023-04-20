@@ -64,6 +64,20 @@ editor
 ;
 import
 {
+createLocation
+}
+from
+"
+.
+.
+/
+utils
+/
+location
+"
+;
+import
+{
 statusType
 }
 from
@@ -647,6 +661,8 @@ this
 props
 .
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -664,6 +680,7 @@ matchItem
 .
 column
 }
+)
 )
 ;
 this

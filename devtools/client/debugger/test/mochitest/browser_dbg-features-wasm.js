@@ -148,6 +148,8 @@ getContext
 (
 dbg
 )
+createLocation
+(
 {
 sourceId
 :
@@ -155,6 +157,7 @@ source
 .
 id
 }
+)
 {
 keepContext
 :
@@ -582,6 +585,8 @@ getContext
 (
 dbg
 )
+createLocation
+(
 {
 sourceId
 :
@@ -589,6 +594,7 @@ binarySource
 .
 id
 }
+)
 {
 keepContext
 :
@@ -689,6 +695,8 @@ getContext
 (
 dbg
 )
+createLocation
+(
 {
 sourceId
 :
@@ -696,6 +704,7 @@ binarySource
 .
 id
 }
+)
 {
 keepContext
 :

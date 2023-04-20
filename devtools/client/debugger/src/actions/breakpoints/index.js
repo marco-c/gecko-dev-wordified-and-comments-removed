@@ -33,6 +33,23 @@ prefs
 ;
 import
 {
+createLocation
+}
+from
+"
+.
+.
+/
+.
+.
+/
+utils
+/
+location
+"
+;
+import
+{
 getBreakpointsList
 getXHRBreakpoints
 getSelectedSource
@@ -876,6 +893,8 @@ dispatch
 addBreakpoint
 (
 cx
+createLocation
+(
 {
 sourceId
 :
@@ -889,6 +908,7 @@ selectedSource
 url
 line
 }
+)
 )
 )
 ;
@@ -947,6 +967,8 @@ null
 const
 breakpointLocation
 =
+createLocation
+(
 {
 sourceId
 :
@@ -963,6 +985,7 @@ column
 undefined
 line
 }
+)
 ;
 const
 options
