@@ -9244,6 +9244,16 @@ isIntel
 ANGLE_FEATURE_CONDITION
 (
 features
+scissoredClearArtifacts
+isIntel
+&
+&
+isSkylake
+)
+;
+ANGLE_FEATURE_CONDITION
+(
+features
 callClearTwice
 isIntel
 &

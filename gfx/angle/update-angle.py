@@ -1781,6 +1781,9 @@ OUT_DIR
 :
 angle_commit_id
 "
+shell
+=
+True
 )
 required_files
 .
@@ -2700,6 +2703,26 @@ DEFFILE
 format
 (
 def_rel_path
+)
+        
+elif
+x
+.
+startswith
+(
+"
+/
+PDBSourcePath
+:
+"
+)
+:
+            
+ldflags
+.
+remove
+(
+x
 )
     
 os_libs
