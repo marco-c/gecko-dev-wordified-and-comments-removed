@@ -2271,16 +2271,7 @@ i
 1
 }
 if
-!
-cfg
-!
-(
-target_os
-=
-"
-macos
-"
-)
+false
 {
 negative
 =
