@@ -209,11 +209,8 @@ attribute
 DOMString
 lang
 ;
-[
-CEReactions
-SetterThrows
-Pure
-]
+/
+/
 attribute
 boolean
 translate
