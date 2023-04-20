@@ -762,9 +762,6 @@ platforms
 :
 [
 "
-linux
-"
-"
 macosx
 "
 "
