@@ -1655,11 +1655,6 @@ ResetWorkerPrivateInWorkerThread
 (
 )
 ;
-SerialEventTargetGuard
-GetSerialEventTargetGuard
-(
-)
-;
 bool
 IsOnWorkerThread
 (
