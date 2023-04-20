@@ -66,7 +66,7 @@ test
 /
 metrics
 /
-metrics_logger_and_exporter
+metrics_logger
 .
 h
 "
@@ -403,7 +403,7 @@ video_quality_analyzer
 test
 :
 :
-MetricsLoggerAndExporter
+MetricsLogger
 *
 metrics_logger
 )
@@ -768,7 +768,7 @@ executor_
 test
 :
 :
-MetricsLoggerAndExporter
+MetricsLogger
 *
 const
 metrics_logger_

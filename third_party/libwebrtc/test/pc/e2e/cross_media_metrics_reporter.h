@@ -56,7 +56,7 @@ test
 /
 metrics
 /
-metrics_logger_and_exporter
+metrics_logger
 .
 h
 "
@@ -148,7 +148,7 @@ CrossMediaMetricsReporter
 test
 :
 :
-MetricsLoggerAndExporter
+MetricsLogger
 *
 metrics_logger
 )
@@ -311,7 +311,7 @@ const
 test
 :
 :
-MetricsLoggerAndExporter
+MetricsLogger
 *
 const
 metrics_logger_

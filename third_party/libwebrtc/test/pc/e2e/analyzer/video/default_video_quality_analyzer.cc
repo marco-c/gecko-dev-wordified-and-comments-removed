@@ -1136,7 +1136,7 @@ clock
 test
 :
 :
-MetricsLoggerAndExporter
+MetricsLogger
 *
 metrics_logger
 DefaultVideoQualityAnalyzerOptions

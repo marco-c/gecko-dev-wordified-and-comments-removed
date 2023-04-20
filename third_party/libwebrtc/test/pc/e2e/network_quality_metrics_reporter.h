@@ -34,7 +34,7 @@ test
 /
 metrics
 /
-metrics_logger_and_exporter
+metrics_logger
 .
 h
 "
@@ -139,7 +139,7 @@ bob_network
 test
 :
 :
-MetricsLoggerAndExporter
+MetricsLogger
 *
 metrics_logger
 )
@@ -353,7 +353,7 @@ bob_network_
 test
 :
 :
-MetricsLoggerAndExporter
+MetricsLogger
 *
 const
 metrics_logger_
