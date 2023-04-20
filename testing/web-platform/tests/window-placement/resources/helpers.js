@@ -163,7 +163,7 @@ name
 '
 window
 -
-placement
+management
 '
 }
 '
