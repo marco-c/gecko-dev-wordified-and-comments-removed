@@ -941,8 +941,15 @@ returns
 (
 nsresult
 rv
+uint8_t
+aReliability
 )
 ;
+/
+/
+Actually
+WebTransportReliabityMode
+enum
 async
 PVsync
 (
