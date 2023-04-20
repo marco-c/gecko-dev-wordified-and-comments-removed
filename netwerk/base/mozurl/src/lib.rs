@@ -52,9 +52,7 @@ xpcom
 interfaces
 :
 :
-{
 mozIThirdPartyUtil
-}
 ;
 use
 xpcom
