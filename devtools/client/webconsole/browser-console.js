@@ -196,8 +196,6 @@ toolOpened
 "
 browserconsole
 "
--
-1
 this
 )
 ;
@@ -290,8 +288,6 @@ toolClosed
 "
 browserconsole
 "
--
-1
 this
 )
 ;

@@ -363,8 +363,6 @@ toolOpened
 "
 responsive
 "
--
-1
 this
 )
 ;
@@ -498,8 +496,6 @@ toolClosed
 "
 responsive
 "
--
-1
 this
 )
 ;
