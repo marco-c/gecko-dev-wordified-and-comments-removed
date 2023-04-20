@@ -10334,10 +10334,7 @@ init
 {
 asmJSMetadata_
 =
-cx_
--
->
-new_
+js_new
 <
 AsmJSMetadata
 >
@@ -10350,6 +10347,11 @@ if
 asmJSMetadata_
 )
 {
+ReportOutOfMemory
+(
+fc_
+)
+;
 return
 false
 ;
@@ -11754,10 +11756,7 @@ codeSectionSize
 SharedBytes
 bytes
 =
-cx_
--
->
-new_
+js_new
 <
 ShareableBytes
 >
@@ -11770,6 +11769,11 @@ if
 bytes
 )
 {
+ReportOutOfMemory
+(
+fc_
+)
+;
 return
 nullptr
 ;
