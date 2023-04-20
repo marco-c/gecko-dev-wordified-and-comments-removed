@@ -2391,6 +2391,13 @@ showClose
 {
 false
 }
+searchKey
+=
+"
+quickopen
+-
+search
+"
 showSearchModifiers
 =
 {
