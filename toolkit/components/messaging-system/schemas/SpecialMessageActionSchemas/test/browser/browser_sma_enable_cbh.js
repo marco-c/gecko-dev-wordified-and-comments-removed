@@ -7,7 +7,7 @@ add_task
 (
 async
 function
-test_disable_doh
+test_enable_cbh
 (
 )
 {
@@ -32,7 +32,7 @@ action
 type
 :
 "
-RELOAD_BROWSER
+ENABLE_CBH
 "
 }
 ;
