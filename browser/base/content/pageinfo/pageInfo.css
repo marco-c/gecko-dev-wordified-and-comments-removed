@@ -320,10 +320,9 @@ column
 input
 {
 flex
--
-grow
 :
 1
+auto
 ;
 }
 .
