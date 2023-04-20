@@ -45,9 +45,6 @@ nodiscard
 bool
 NameFunctions
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc

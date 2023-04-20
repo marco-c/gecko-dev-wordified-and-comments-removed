@@ -122,9 +122,9 @@ MaxParents
 =
 100
 ;
-JSContext
+FrontendContext
 *
-cx_
+fc_
 ;
 ParserAtomsTable
 &
@@ -226,7 +226,7 @@ source
 {
 ReportOutOfMemory
 (
-cx_
+fc_
 )
 ;
 return
@@ -2417,9 +2417,6 @@ pn
 }
 NameResolver
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -2438,9 +2435,9 @@ ParseNodeVisitor
 fc
 stackLimit
 )
-cx_
+fc_
 (
-cx
+fc
 )
 parserAtoms_
 (
@@ -2452,7 +2449,6 @@ nparents_
 )
 buf_
 (
-cx
 fc
 )
 {
@@ -2581,9 +2577,6 @@ frontend
 :
 NameFunctions
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -2603,7 +2596,6 @@ pn
 NameResolver
 nr
 (
-cx
 fc
 stackLimit
 parserAtoms
