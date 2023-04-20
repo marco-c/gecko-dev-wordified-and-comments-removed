@@ -5700,12 +5700,6 @@ None
         
 self
 .
-gstForV4l2loopbackProcess
-=
-None
-        
-self
-.
 sslTunnel
 =
 None
@@ -9081,12 +9075,13 @@ bridge
 )
         
 if
+hasattr
+(
 self
-.
+"
 gstForV4l2loopbackProcess
-is
-not
-None
+"
+)
 :
             
 try
