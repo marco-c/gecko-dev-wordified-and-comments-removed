@@ -4023,8 +4023,11 @@ length
 )
 ;
 nativeToBytecodeMap_
-=
+.
+reset
+(
 data
+)
 ;
 nativeToBytecodeMapSize_
 =
@@ -4130,6 +4133,10 @@ uint8_t
 tablePtr
 =
 nativeToBytecodeMap_
+.
+get
+(
+)
 +
 nativeToBytecodeTableOffset_
 ;
