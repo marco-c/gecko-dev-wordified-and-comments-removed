@@ -129,8 +129,6 @@ dom
 CanonicalBrowsingContext
 *
 aBrowsingContext
-bool
-aUsePrivateBrowsing
 )
 ;
 void

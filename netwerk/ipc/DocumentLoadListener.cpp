@@ -1886,12 +1886,6 @@ ParentChannelListener
 (
 this
 aLoadingBrowsingContext
-aLoadingBrowsingContext
--
->
-UsePrivateBrowsing
-(
-)
 )
 ;
 }
