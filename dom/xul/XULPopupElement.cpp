@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsMenuBarListener
+.
+h
+"
+#
+include
+"
 nsNameSpaceManager
 .
 h
