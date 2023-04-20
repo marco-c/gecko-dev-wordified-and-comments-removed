@@ -1150,6 +1150,11 @@ callID
 constraints
 aSubject
 .
+getAudioOutputOptions
+(
+)
+aSubject
+.
 devices
 aSubject
 .
@@ -1168,6 +1173,7 @@ aContentWindow
 aWindowID
 aCallID
 aConstraints
+aAudioOutputOptions
 aDevices
 aSecure
 aIsHandlingUserInput
@@ -1412,6 +1418,11 @@ rawId
 device
 .
 rawId
+id
+:
+device
+.
+id
 mediaSource
 :
 device
@@ -1756,6 +1767,11 @@ videoInputDevices
 audioOutputDevices
 hasInherentAudioConstraints
 hasInherentVideoConstraints
+audioOutputId
+:
+aAudioOutputOptions
+.
+deviceId
 }
 ;
 let
