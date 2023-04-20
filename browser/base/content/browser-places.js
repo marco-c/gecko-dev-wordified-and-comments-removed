@@ -7456,6 +7456,10 @@ this
 _updateImportButton
 (
 aNode
+aIsRemoval
+?
+null
+:
 aContainer
 )
 ;
