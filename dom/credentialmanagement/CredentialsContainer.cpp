@@ -47,6 +47,15 @@ include
 "
 mozilla
 /
+StaticPrefs_dom
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_security
 .
 h
