@@ -159,7 +159,7 @@ h
 endif
 #
 ifdef
-MOZ_MF_CDM
+MOZ_WMF_CDM
 #
 include
 "
@@ -1344,7 +1344,7 @@ aKeySystem
 {
 #
 ifdef
-MOZ_MF_CDM
+MOZ_WMF_CDM
 return
 new
 MFCDMParent
@@ -1375,7 +1375,7 @@ actor
 {
 #
 ifdef
-MOZ_MF_CDM
+MOZ_WMF_CDM
 static_cast
 <
 MFCDMParent

@@ -192,7 +192,7 @@ h
 endif
 #
 ifdef
-MOZ_MF_CDM
+MOZ_WMF_CDM
 #
 include
 "
@@ -3445,7 +3445,7 @@ actor
 {
 #
 ifdef
-MOZ_MF_CDM
+MOZ_WMF_CDM
 static_cast
 <
 MFCDMChild

@@ -1952,7 +1952,7 @@ mKeySystem
 &
 #
 ifdef
-MOZ_MF_CDM
+MOZ_WMF_CDM
 !
 IsPlayReadyKeySystem
 (

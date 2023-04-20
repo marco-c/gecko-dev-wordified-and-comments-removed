@@ -695,7 +695,7 @@ endif
 }
 #
 ifdef
-MOZ_MF_CDM
+MOZ_WMF_CDM
 if
 (
 IsPlayReadyKeySystem
@@ -916,7 +916,7 @@ kWidevineKeySystemName
 )
 #
 ifdef
-MOZ_MF_CDM
+MOZ_WMF_CDM
 NS_ConvertUTF8toUTF16
 (
 kPlayReadyKeySystemName
