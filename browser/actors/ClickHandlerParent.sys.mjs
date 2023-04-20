@@ -1,20 +1,3 @@
-"
-use
-strict
-"
-;
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-ClickHandlerParent
-"
-"
-MiddleMousePasteHandlerParent
-"
-]
-;
 const
 lazy
 =
@@ -100,6 +83,7 @@ Set
 (
 )
 ;
+export
 class
 MiddleMousePasteHandlerParent
 extends
@@ -158,6 +142,7 @@ data
 }
 }
 }
+export
 class
 ClickHandlerParent
 extends
