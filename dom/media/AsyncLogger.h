@@ -1151,7 +1151,7 @@ name
 ;
 schema
 .
-AddKeyLabelFormatSearchable
+AddKeyLabelFormat
 (
 "
 name
@@ -1166,13 +1166,6 @@ Format
 :
 :
 String
-MS
-:
-:
-Searchable
-:
-:
-Searchable
 )
 ;
 return

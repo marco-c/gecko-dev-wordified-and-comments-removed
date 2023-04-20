@@ -337,7 +337,7 @@ MarkerTable
 ;
 schema
 .
-AddKeyFormatSearchable
+AddKeyFormat
 (
 "
 Name
@@ -349,13 +349,6 @@ Format
 :
 :
 String
-MS
-:
-:
-Searchable
-:
-:
-Searchable
 )
 ;
 schema
