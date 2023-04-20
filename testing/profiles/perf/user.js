@@ -1121,17 +1121,6 @@ false
 user_pref
 (
 "
-idle
-.
-lastDailyNotification
-"
--
-1
-)
-;
-user_pref
-(
-"
 media
 .
 capturestream_hints
