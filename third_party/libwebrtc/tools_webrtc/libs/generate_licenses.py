@@ -721,13 +721,6 @@ androidx
 ]
     
 '
-yasm
-'
-:
-[
-]
-    
-'
 ow2_asm
 '
 :
