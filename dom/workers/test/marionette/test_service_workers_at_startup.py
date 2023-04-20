@@ -1,3 +1,5 @@
+import
+os
 from
 marionette_driver
 import
@@ -6,8 +8,6 @@ from
 marionette_harness
 import
 MarionetteTestCase
-import
-os
 class
 ServiceWorkerAtStartupTestCase
 (

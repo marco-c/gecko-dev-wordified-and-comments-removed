@@ -1,13 +1,13 @@
 import
-sys
-import
 getopt
 import
-utils
+sys
+import
+fn_anchors
 import
 stackanalysis
 import
-fn_anchors
+utils
 "
 "
 "

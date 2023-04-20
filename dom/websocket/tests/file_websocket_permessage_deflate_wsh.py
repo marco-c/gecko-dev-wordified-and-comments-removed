@@ -1,11 +1,8 @@
 from
 mod_pywebsocket
 import
-msgutil
-from
-mod_pywebsocket
-import
 common
+msgutil
 def
 web_socket_do_extra_handshake
 (

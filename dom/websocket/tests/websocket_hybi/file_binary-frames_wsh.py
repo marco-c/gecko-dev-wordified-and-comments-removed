@@ -1,13 +1,10 @@
+import
+six
 from
 mod_pywebsocket
 import
 common
-from
-mod_pywebsocket
-import
 stream
-import
-six
 def
 web_socket_do_extra_handshake
 (

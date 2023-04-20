@@ -1,7 +1,7 @@
 import
-requests
-import
 time
+import
+requests
 def
 query
 (

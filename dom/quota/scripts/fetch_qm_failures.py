@@ -1,7 +1,7 @@
 import
-sys
-import
 getopt
+import
+sys
 import
 telemetry
 import

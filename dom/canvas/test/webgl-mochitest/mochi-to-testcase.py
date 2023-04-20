@@ -1,9 +1,9 @@
 import
-sys
-import
 pathlib
 import
 re
+import
+sys
 assert
 len
 (
