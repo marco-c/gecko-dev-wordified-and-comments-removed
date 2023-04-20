@@ -836,14 +836,6 @@ grip
 )
 ;
 }
-getTabTarget
-:
-(
-)
-=
->
-{
-}
 sendHTTPRequest
 :
 (
