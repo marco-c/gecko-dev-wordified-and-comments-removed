@@ -839,7 +839,7 @@ priority
 DOMString
 url
 ;
-DOMString
+RTCIceServerTransportProtocol
 relayProtocol
 ;
 }

@@ -56,21 +56,6 @@ encoded
 transform
 /
 )
-/
-/
-New
-dictionary
-dictionary
-RTCInsertableStreams
-{
-ReadableStream
-readable
-;
-WritableStream
-writable
-;
-}
-;
 typedef
 (
 SFrameTransform
@@ -329,6 +314,7 @@ spatialIndex
 long
 temporalIndex
 ;
+unsigned
 long
 synchronizationSource
 ;
@@ -337,6 +323,7 @@ payloadType
 ;
 sequence
 <
+unsigned
 long
 >
 contributingSources
@@ -411,6 +398,7 @@ getMetadata
 dictionary
 RTCEncodedAudioFrameMetadata
 {
+unsigned
 long
 synchronizationSource
 ;
@@ -419,6 +407,7 @@ payloadType
 ;
 sequence
 <
+unsigned
 long
 >
 contributingSources

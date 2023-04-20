@@ -702,9 +702,6 @@ long
 long
 bitrate
 ;
-[
-EnforceRange
-]
 double
 framerate
 ;

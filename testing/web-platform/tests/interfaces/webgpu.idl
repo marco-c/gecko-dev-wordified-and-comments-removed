@@ -231,7 +231,7 @@ readonly
 attribute
 unsigned
 long
-maxColorAttachmentBytesPerPixel
+maxColorAttachmentBytesPerSample
 ;
 readonly
 attribute
