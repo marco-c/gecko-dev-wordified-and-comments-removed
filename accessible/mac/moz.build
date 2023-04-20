@@ -47,12 +47,12 @@ DocAccessibleWrap
 mm
 "
 "
-GeckoTextMarker
+HyperTextAccessibleWrap
 .
 mm
 "
 "
-HyperTextAccessibleWrap
+LegacyTextMarker
 .
 mm
 "
