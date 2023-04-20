@@ -287,13 +287,9 @@ let
 expectedValue
 =
 "
-text
-/
+index
+.
 csv
-;
-foo
-bar
-foobar
 "
 ;
 is
@@ -419,7 +415,7 @@ PUBLIC
 )
 ;
 let
-expectedValue
+sourceURLBit
 =
 "
 text
@@ -556,7 +552,7 @@ url
 data
 :
 {
-expectedValue
+sourceURLBit
 }
 "
 File
