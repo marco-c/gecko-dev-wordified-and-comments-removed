@@ -604,6 +604,12 @@ CurrentTime
 )
 const
 ;
+Timestamp
+NextUnpacedSendTime
+(
+)
+const
+;
 Clock
 *
 const
@@ -634,6 +640,10 @@ pace_audio_
 const
 bool
 ignore_transport_overhead_
+;
+const
+bool
+fast_retransmissions_
 ;
 TimeDelta
 min_packet_limit_

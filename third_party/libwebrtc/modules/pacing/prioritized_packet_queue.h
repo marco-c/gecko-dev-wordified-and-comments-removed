@@ -173,8 +173,10 @@ SizeInPacketsPerRtpPacketMediaType
 const
 ;
 Timestamp
-LeadingAudioPacketEnqueueTime
+LeadingPacketEnqueueTime
 (
+RtpPacketMediaType
+type
 )
 const
 ;
@@ -337,8 +339,10 @@ IsEmpty
 const
 ;
 Timestamp
-LeadingAudioPacketEnqueueTime
+LeadingPacketEnqueueTime
 (
+int
+priority_level
 )
 const
 ;
