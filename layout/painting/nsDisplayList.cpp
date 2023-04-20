@@ -13495,7 +13495,7 @@ GetClipRect
 #
 ifdef
 DEBUG
-NS_ASSERTION
+MOZ_ASSERT
 (
 false
 "
@@ -42302,7 +42302,7 @@ aASR
 #
 ifdef
 DEBUG
-NS_ASSERTION
+MOZ_ASSERT
 (
 false
 "
