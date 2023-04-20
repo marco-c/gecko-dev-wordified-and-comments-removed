@@ -179,6 +179,10 @@ RTC_EXPORT
 void
 SetupInternalTracer
 (
+bool
+enable_all_categories
+=
+true
 )
 ;
 RTC_EXPORT
