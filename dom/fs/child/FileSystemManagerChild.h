@@ -81,14 +81,6 @@ Shutdown
 ;
 already_AddRefed
 <
-PFileSystemAccessHandleChild
->
-AllocPFileSystemAccessHandleChild
-(
-)
-;
-already_AddRefed
-<
 PFileSystemWritableFileStreamChild
 >
 AllocPFileSystemWritableFileStreamChild

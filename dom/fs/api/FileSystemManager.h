@@ -191,6 +191,17 @@ Shutdown
 (
 )
 ;
+const
+RefPtr
+<
+FileSystemManagerChild
+>
+&
+ActorStrongRef
+(
+)
+const
+;
 void
 RegisterPromiseRequestHolder
 (

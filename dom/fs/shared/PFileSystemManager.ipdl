@@ -597,8 +597,11 @@ FileSystemAccessHandleProperties
 RandomAccessStreamParams
 streamParams
 ;
-PFileSystemAccessHandle
-accessHandle
+ManagedEndpoint
+<
+PFileSystemAccessHandleChild
+>
+accessHandleChildEndpoint
 ;
 }
 ;
@@ -1803,11 +1806,6 @@ aQuotaGranted
 ;
 child
 :
-async
-PFileSystemAccessHandle
-(
-)
-;
 async
 PFileSystemWritableFileStream
 (
