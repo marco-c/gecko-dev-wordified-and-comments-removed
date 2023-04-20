@@ -5134,6 +5134,17 @@ AssertIsOnMainThread
 (
 )
 ;
+nsContentUtils
+:
+:
+EnsureAndLoadStringBundle
+(
+nsContentUtils
+:
+:
+eDOM_PROPERTIES
+)
+;
 if
 (
 mScriptLoader
