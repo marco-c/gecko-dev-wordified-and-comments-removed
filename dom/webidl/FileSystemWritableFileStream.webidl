@@ -105,6 +105,9 @@ truncate
 "
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 WriteParams
 {
