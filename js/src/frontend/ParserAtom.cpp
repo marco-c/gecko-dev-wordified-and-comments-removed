@@ -7350,9 +7350,6 @@ WellKnownParserAtoms
 :
 initSingle
 (
-JSContext
-*
-cx
 const
 WellKnownAtomInfo
 &
@@ -7492,14 +7489,6 @@ index
 )
 )
 {
-js
-:
-:
-ReportOutOfMemory
-(
-cx
-)
-;
 return
 false
 ;
@@ -7514,9 +7503,6 @@ WellKnownParserAtoms
 :
 init
 (
-JSContext
-*
-cx
 )
 {
 #
@@ -7533,7 +7519,6 @@ if
 !
 initSingle
 (
-cx
 GetWellKnownAtomInfo
 (
 WellKnownAtomId
@@ -7580,7 +7565,6 @@ if
 !
 initSingle
 (
-cx
 GetWellKnownAtomInfo
 (
 WellKnownAtomId
@@ -7626,7 +7610,6 @@ if
 !
 initSingle
 (
-cx
 GetWellKnownAtomInfo
 (
 WellKnownAtomId
@@ -7737,10 +7720,17 @@ names
 >
 init
 (
-cx
 )
 )
 {
+js
+:
+:
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
