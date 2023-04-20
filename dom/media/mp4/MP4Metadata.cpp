@@ -189,7 +189,7 @@ GetIndice
 (
 size_t
 aIndex
-MP4SampleIndex
+Index
 :
 :
 Indice
