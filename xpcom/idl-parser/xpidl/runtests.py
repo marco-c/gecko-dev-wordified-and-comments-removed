@@ -392,7 +392,6 @@ parse
 (
 "
 [
-noscript
 uuid
 (
 abc
@@ -465,13 +464,13 @@ name
         
 self
 .
-assertTrue
+assertFalse
 (
 iface
 .
 attributes
 .
-noscript
+scriptable
 )
     
 def
