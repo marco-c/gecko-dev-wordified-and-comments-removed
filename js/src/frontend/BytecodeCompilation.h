@@ -293,9 +293,6 @@ PrepareForInstantiate
 JSContext
 *
 cx
-ErrorContext
-*
-ec
 CompilationInput
 &
 input
