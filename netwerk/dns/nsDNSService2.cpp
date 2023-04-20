@@ -2380,6 +2380,14 @@ NS_SUCCEEDED
 (
 status
 )
+|
+|
+mFlags
+&
+nsIDNSService
+:
+:
+RESOLVE_WANT_RECORD_ON_ERROR
 )
 {
 MOZ_ASSERT
