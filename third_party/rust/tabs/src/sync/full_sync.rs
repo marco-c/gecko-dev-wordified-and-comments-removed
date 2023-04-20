@@ -11,6 +11,7 @@ engine
 :
 TabsSyncImpl
 ApiResult
+Result
 TabsEngine
 TabsStore
 }
@@ -70,12 +71,6 @@ TabsStore
 #
 [
 handle_error
-(
-crate
-:
-:
-Error
-)
 ]
 pub
 fn
@@ -136,12 +131,6 @@ Ok
 #
 [
 handle_error
-(
-crate
-:
-:
-Error
-)
 ]
 pub
 fn
