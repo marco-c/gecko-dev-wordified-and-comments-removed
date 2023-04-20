@@ -2180,7 +2180,7 @@ length
 ;
 }
 StubField
-readStubFieldForIon
+readStubField
 (
 uint32_t
 offset
