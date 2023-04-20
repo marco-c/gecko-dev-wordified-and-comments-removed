@@ -1,8 +1,0 @@
-python
-.
-exe
--
-m
-pydoc
-%
-*

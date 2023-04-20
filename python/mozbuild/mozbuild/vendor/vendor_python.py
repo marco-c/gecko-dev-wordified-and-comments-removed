@@ -878,7 +878,7 @@ gyp
 "
         
 "
-virtualenv
+_venv
 "
         
 "
