@@ -433,7 +433,14 @@ type
 "
 :
 "
-undefined
+string
+"
+"
+value
+"
+:
+"
+bar
 "
 }
 pytest

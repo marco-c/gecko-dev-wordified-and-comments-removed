@@ -428,12 +428,16 @@ bidi_session
 .
 script
 .
-evaluate
+call_function
 (
         
-expression
+function_declaration
 =
 "
+(
+)
+=
+>
 window
 .
 foo
@@ -467,7 +471,14 @@ type
 "
 :
 "
-undefined
+string
+"
+"
+value
+"
+:
+"
+bar
 "
 }
 pytest
