@@ -1215,6 +1215,16 @@ mResult
 ;
 }
 }
+if
+(
+!
+resultsForProcess
+.
+IsEmpty
+(
+)
+)
+{
 Unused
 <
 <
@@ -1230,6 +1240,7 @@ resultsForProcess
 )
 )
 ;
+}
 }
 }
 void
