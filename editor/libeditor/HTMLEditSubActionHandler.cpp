@@ -49006,6 +49006,12 @@ previousEditableContent
 )
 )
 {
+AutoEditorDOMPointChildInvalidator
+lockOffset
+(
+point
+)
+;
 Result
 <
 CreateElementResult
