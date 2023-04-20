@@ -298,6 +298,13 @@ h
 #
 include
 "
+nsRFPService
+.
+h
+"
+#
+include
+"
 nsStringFwd
 .
 h
