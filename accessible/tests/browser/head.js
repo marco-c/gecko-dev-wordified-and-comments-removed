@@ -42,7 +42,7 @@ CommonUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 chrome
@@ -63,7 +63,9 @@ browser
 /
 Common
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -37,7 +37,9 @@ script
 "
 Layout
 .
-jsm
+sys
+.
+mjs
 "
 symbol
 :
