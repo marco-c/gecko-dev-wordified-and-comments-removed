@@ -30,7 +30,6 @@ REFERENCE_STYLE
 from
 .
 import
-compare_png_data
 viewport_dimensions
 pytest
 .
@@ -243,10 +242,10 @@ def
 test_context_origin
 (
 bidi_session
-url
 top_context
 inline
 iframe
+compare_png_bidi
 domain
 )
 :
@@ -413,15 +412,10 @@ context
 comparison
 =
 await
-compare_png_data
+compare_png_bidi
 (
-bidi_session
-                                        
-url
-                                        
-reference_data
-                                        
 data
+reference_data
 )
     
 assert

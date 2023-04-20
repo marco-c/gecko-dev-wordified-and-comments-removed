@@ -11,7 +11,6 @@ png_dimensions
 from
 .
 import
-compare_png_data
 viewport_dimensions
 pytest
 .
@@ -26,6 +25,7 @@ bidi_session
 url
 top_context
 inline
+compare_png_bidi
 )
 :
     
@@ -160,15 +160,10 @@ context
 comparison
 =
 await
-compare_png_data
+compare_png_bidi
 (
-bidi_session
-                                        
-url
-                                        
-reference_data
-                                        
 data
+reference_data
 )
     
 assert
@@ -241,15 +236,10 @@ context
 comparison
 =
 await
-compare_png_data
+compare_png_bidi
 (
-bidi_session
-                                        
-url
-                                        
-data
-                                        
 new_data
+data
 )
     
 assert
