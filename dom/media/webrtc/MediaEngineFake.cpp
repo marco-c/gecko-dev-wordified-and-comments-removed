@@ -2987,6 +2987,14 @@ MediaDevice
 :
 IsScary
 ;
+using
+OsPromptable
+=
+MediaDevice
+:
+:
+OsPromptable
+;
 if
 (
 aMediaSink
@@ -3054,6 +3062,10 @@ IsScary
 :
 :
 No
+OsPromptable
+:
+:
+No
 )
 )
 ;
@@ -3096,6 +3108,10 @@ GetGroupId
 (
 )
 IsScary
+:
+:
+No
+OsPromptable
 :
 :
 No

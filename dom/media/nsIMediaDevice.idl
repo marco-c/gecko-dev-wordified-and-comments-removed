@@ -126,6 +126,11 @@ scary
 ;
 readonly
 attribute
+boolean
+canRequestOsLevelPrompt
+;
+readonly
+attribute
 AString
 rawName
 ;

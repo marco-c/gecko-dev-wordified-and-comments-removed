@@ -325,6 +325,14 @@ No
 Yes
 }
 ;
+enum
+class
+OsPromptable
+{
+No
+Yes
+}
+;
 MediaDevice
 (
 MediaEngine
@@ -349,6 +357,9 @@ nsString
 aRawGroupID
 IsScary
 aIsScary
+const
+OsPromptable
+canRequestOsLevelPrompt
 )
 ;
 MediaDevice
@@ -438,6 +449,10 @@ mKind
 const
 bool
 mScary
+;
+const
+bool
+mCanRequestOsLevelPrompt
 ;
 const
 bool

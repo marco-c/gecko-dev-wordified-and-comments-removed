@@ -255,6 +255,13 @@ IsScary
 :
 :
 No
+MediaDevice
+:
+:
+OsPromptable
+:
+:
+No
 )
 ;
 }
