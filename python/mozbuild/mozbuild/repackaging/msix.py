@@ -1167,7 +1167,7 @@ components
 return
 version
 def
-get_appconstants_jsm_values
+get_appconstants_sys_mjs_values
 (
 finder
 *
@@ -1288,7 +1288,9 @@ modules
 /
 AppConstants
 .
-jsm
+sys
+.
+mjs
 "
 )
 :
@@ -2385,7 +2387,7 @@ version
         
 values
 =
-get_appconstants_jsm_values
+get_appconstants_sys_mjs_values
 (
             
 unpack_finder
@@ -2456,7 +2458,9 @@ buildid
 "
 AppConstants
 .
-jsm
+sys
+.
+mjs
 display
 version
 is
@@ -2469,16 +2473,16 @@ and
 build
 ID
 is
+"
+            
++
+"
 '
 {
 buildid
 }
 '
 :
-"
-            
-+
-"
 embedded
 version
 will

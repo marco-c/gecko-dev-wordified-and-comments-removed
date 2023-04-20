@@ -118,7 +118,9 @@ modules
 /
 Console
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -857,7 +859,9 @@ modules
 /
 Timer
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
