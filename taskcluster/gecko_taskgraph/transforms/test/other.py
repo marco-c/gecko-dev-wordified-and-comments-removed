@@ -2799,6 +2799,14 @@ chromedriver
 -
 106
 "
+                
+"
+linux64
+-
+chromedriver
+-
+107
+"
             
 ]
             
@@ -2848,6 +2856,14 @@ mac64
 chromedriver
 -
 106
+"
+                
+"
+mac64
+-
+chromedriver
+-
+107
 "
             
 ]
@@ -2902,6 +2918,14 @@ chromedriver
 -
 106
 "
+                
+"
+win32
+-
+chromedriver
+-
+107
+"
             
 ]
             
@@ -2954,7 +2978,7 @@ win32
 -
 chromedriver
 -
-106
+107
 "
             
 ]
@@ -3009,6 +3033,14 @@ win32
 chromedriver
 -
 106
+"
+                
+"
+win32
+-
+chromedriver
+-
+107
 "
             
 ]
