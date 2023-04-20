@@ -155,6 +155,11 @@ object
 "
     
 from
+taskgraph
+import
+generator
+    
+from
 gecko_taskgraph
 .
 parameters
@@ -169,11 +174,6 @@ import
 target_tasks
     
 )
-    
-from
-gecko_taskgraph
-import
-generator
     
 from
 gecko_taskgraph
