@@ -350,6 +350,10 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsISupportsWeakReference
 )
+NS_INTERFACE_MAP_ENTRY
+(
+nsIUploadChannel2
+)
 NS_INTERFACE_MAP_ENTRY_CONCRETE
 (
 TRRServiceChannel
