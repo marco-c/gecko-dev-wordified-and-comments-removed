@@ -4089,6 +4089,13 @@ bloomfilters
 bucketName
 :
 BLOCKLIST_BUCKET
+keepAttachmentsIds
+:
+[
+this
+.
+RS_ATTACHMENT_ID
+]
 }
 )
 ;
