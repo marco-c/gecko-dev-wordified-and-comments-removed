@@ -903,8 +903,10 @@ const
 nsIContent
 &
 aRemovedContent
-uint32_t
-aExOffsetOfRightContent
+const
+EditorDOMPoint
+&
+aOldPointAtRightContent
 JoinNodesDirection
 aJoinNodesDirection
 )
