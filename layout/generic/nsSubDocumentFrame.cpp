@@ -6946,16 +6946,7 @@ aBuilder
 .
 PushIFrame
 (
-mozilla
-:
-:
-wr
-:
-:
-ToLayoutRect
-(
 rect
-)
 !
 BackfaceIsHidden
 (
