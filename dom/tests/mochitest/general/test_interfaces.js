@@ -2240,9 +2240,6 @@ name
 "
 FileSystemDirectoryHandle
 "
-nightly
-:
-true
 }
 {
 name
@@ -2280,9 +2277,6 @@ name
 "
 FileSystemFileHandle
 "
-nightly
-:
-true
 }
 {
 name
@@ -2290,9 +2284,6 @@ name
 "
 FileSystemHandle
 "
-nightly
-:
-true
 }
 {
 name
@@ -2300,9 +2291,6 @@ name
 "
 FileSystemWritableFileStream
 "
-nightly
-:
-true
 }
 {
 name
