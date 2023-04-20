@@ -863,15 +863,6 @@ s8
 static
 const
 SetType
-SingleByteRegs
-=
-VolatileMask
-|
-NonVolatileMask
-;
-static
-const
-SetType
 NonAllocatableMask
 =
 (
