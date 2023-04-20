@@ -1990,14 +1990,14 @@ Opera
 :
 [
 "
-Opera
+opera
 "
 ]
 Vivaldi
 :
 [
 "
-Vivaldi
+vivaldi
 "
 ]
 }
