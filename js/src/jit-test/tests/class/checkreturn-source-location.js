@@ -65,7 +65,7 @@ assertEq
 ex
 .
 lineNumber
-6
+8
 )
 ;
 assertEq
@@ -73,6 +73,6 @@ assertEq
 ex
 .
 columnNumber
-13
+5
 )
 ;

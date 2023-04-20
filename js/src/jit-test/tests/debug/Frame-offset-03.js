@@ -429,7 +429,7 @@ ranges
 [
 1
 ]
-5
+6
 )
 ;
 assertThrowsInstanceOf
