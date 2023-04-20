@@ -6747,8 +6747,8 @@ return
 }
 /
 /
-A
-whitelist
+An
+allowlist
 of
 protocol
 handlers
@@ -6864,7 +6864,7 @@ warn
 wsOnMessageAvailable
 :
 No
-whitelisted
+allowlisted
 handler
 "
 handlerName
@@ -6921,7 +6921,7 @@ Handler
 "
 handler
 "
-whitelisted
+allowlisted
 but
 not
 implemented
