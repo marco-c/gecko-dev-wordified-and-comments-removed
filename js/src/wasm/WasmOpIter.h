@@ -10231,13 +10231,13 @@ indexType
 (
 )
 ;
-uint8_t
+uint32_t
 alignLog2
 ;
 if
 (
 !
-readFixedU8
+readVarU32
 (
 &
 alignLog2
