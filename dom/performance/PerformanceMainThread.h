@@ -343,13 +343,6 @@ QueueNavigationTimingEntry
 )
 override
 ;
-bool
-CrossOriginIsolated
-(
-)
-const
-override
-;
 size_t
 SizeOfEventEntries
 (
@@ -487,10 +480,6 @@ JSObject
 *
 >
 mMozMemory
-;
-const
-bool
-mCrossOriginIsolated
 ;
 nsTArray
 <

@@ -2169,9 +2169,9 @@ mZeroTime
 }
 if
 (
-nsContentUtils
-:
-:
+aPerformance
+-
+>
 ShouldResistFingerprinting
 (
 )
@@ -2255,9 +2255,9 @@ mZeroTime
 }
 if
 (
-nsContentUtils
-:
-:
+aPerformance
+-
+>
 ShouldResistFingerprinting
 (
 )
