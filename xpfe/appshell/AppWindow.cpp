@@ -6068,16 +6068,6 @@ UnscaledDevicePixelsPerCSSPixel
 )
 )
 ;
-if
-(
-newSize
-!
-=
-GetSize
-(
-)
-)
-{
 SetSize
 (
 newSize
@@ -6089,7 +6079,6 @@ height
 false
 )
 ;
-}
 }
 bool
 AppWindow
@@ -12760,14 +12749,6 @@ aDesiredHeight
 -
 shellItemHeight
 ;
-if
-(
-widthDelta
-|
-|
-heightDelta
-)
-{
 int32_t
 winWidth
 =
@@ -12819,7 +12800,6 @@ winHeight
 true
 )
 ;
-}
 }
 nsresult
 AppWindow
