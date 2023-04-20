@@ -566,6 +566,11 @@ browser
 .
 browserAction
 ;
+if
+(
+action
+)
+{
 action
 .
 onClicked
@@ -575,6 +580,7 @@ addListener
 executeCountScript
 )
 ;
+}
 }
 files
 :
