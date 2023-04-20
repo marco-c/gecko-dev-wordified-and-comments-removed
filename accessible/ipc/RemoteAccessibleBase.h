@@ -1460,11 +1460,6 @@ bool
 aToUpdate
 )
 ;
-void
-PruneRelationsOnShutdown
-(
-)
-;
 uint32_t
 GetCachedTextLength
 (

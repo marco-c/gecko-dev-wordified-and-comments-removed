@@ -412,14 +412,6 @@ uint64_t
 aNewDomain
 )
 ;
-void
-QueueCacheUpdateForDependentRelations
-(
-LocalAccessible
-*
-aAcc
-)
-;
 nsIAccessiblePivot
 *
 VirtualCursor
