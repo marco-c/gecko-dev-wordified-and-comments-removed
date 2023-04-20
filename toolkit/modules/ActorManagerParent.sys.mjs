@@ -266,7 +266,7 @@ ContentPrefs
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -279,13 +279,15 @@ modules
 /
 ContentPrefServiceParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -298,7 +300,9 @@ modules
 /
 ContentPrefServiceChild
 .
-jsm
+sys
+.
+mjs
 "
 }
 }
