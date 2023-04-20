@@ -238,6 +238,13 @@ Event
 "
 event
 "
+PreloadScript
+:
+"
+preload
+-
+script
+"
 }
 ;
 /

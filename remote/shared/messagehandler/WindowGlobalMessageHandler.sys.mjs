@@ -454,6 +454,9 @@ params
 :
 {
 category
+initial
+:
+true
 sessionData
 :
 sessionDataItems
