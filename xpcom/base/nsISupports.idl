@@ -245,7 +245,7 @@ result
 noscript
 notxpcom
 ]
-nsrefcnt
+MozExternalRefCountType
 AddRef
 (
 )
@@ -254,7 +254,7 @@ AddRef
 noscript
 notxpcom
 ]
-nsrefcnt
+MozExternalRefCountType
 Release
 (
 )

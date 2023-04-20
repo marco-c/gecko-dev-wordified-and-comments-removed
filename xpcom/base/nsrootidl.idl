@@ -252,11 +252,6 @@ int64_t
 typedef
 unsigned
 long
-nsrefcnt
-;
-typedef
-unsigned
-long
 nsresult
 ;
 /
