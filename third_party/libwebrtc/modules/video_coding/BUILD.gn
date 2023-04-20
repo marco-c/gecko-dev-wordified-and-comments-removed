@@ -8387,11 +8387,6 @@ loss_notification_controller_unittest
 cc
 "
 "
-nack_module_unittest
-.
-cc
-"
-"
 nack_requester_unittest
 .
 cc
@@ -9392,11 +9387,6 @@ codecs
 av1
 :
 video_coding_codecs_av1_tests
-"
-"
-deprecated
-:
-nack_module
 "
 "
 svc
