@@ -73,6 +73,11 @@ PFileSystemAccessHandle
 ipdl
 "
 "
+PFileSystemAccessHandleControl
+.
+ipdl
+"
+"
 PFileSystemManager
 .
 ipdl

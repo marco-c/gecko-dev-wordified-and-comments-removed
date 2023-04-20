@@ -735,6 +735,17 @@ accessHandleChildEndpoint
 (
 )
 )
+std
+:
+:
+move
+(
+properties
+.
+accessHandleControlChildEndpoint
+(
+)
+)
 aMetadata
 )
 nullptr

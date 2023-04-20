@@ -12,6 +12,11 @@ FileSystemAccessHandleChild
 h
 "
 "
+FileSystemAccessHandleControlChild
+.
+h
+"
+"
 FileSystemManagerChild
 .
 h
@@ -28,6 +33,11 @@ UNIFIED_SOURCES
 [
 "
 FileSystemAccessHandleChild
+.
+cpp
+"
+"
+FileSystemAccessHandleControlChild
 .
 cpp
 "

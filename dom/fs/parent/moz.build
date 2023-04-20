@@ -20,6 +20,11 @@ FileSystemAccessHandle
 h
 "
 "
+FileSystemAccessHandleControlParent
+.
+h
+"
+"
 FileSystemAccessHandleParent
 .
 h
@@ -51,6 +56,11 @@ UNIFIED_SOURCES
 [
 "
 FileSystemAccessHandle
+.
+cpp
+"
+"
+FileSystemAccessHandleControlParent
 .
 cpp
 "

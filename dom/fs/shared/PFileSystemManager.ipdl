@@ -62,6 +62,10 @@ PFileSystemAccessHandle
 ;
 include
 protocol
+PFileSystemAccessHandleControl
+;
+include
+protocol
 PFileSystemWritableFileStream
 ;
 include
@@ -602,6 +606,12 @@ ManagedEndpoint
 PFileSystemAccessHandleChild
 >
 accessHandleChildEndpoint
+;
+Endpoint
+<
+PFileSystemAccessHandleControlChild
+>
+accessHandleControlChildEndpoint
 ;
 }
 ;
