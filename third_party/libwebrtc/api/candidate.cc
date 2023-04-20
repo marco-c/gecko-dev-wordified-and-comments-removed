@@ -80,6 +80,13 @@ rtc
 :
 ADAPTER_TYPE_UNKNOWN
 )
+underlying_type_for_vpn_
+(
+rtc
+:
+:
+ADAPTER_TYPE_UNKNOWN
+)
 generation_
 (
 0
@@ -182,6 +189,13 @@ type_
 type
 )
 network_type_
+(
+rtc
+:
+:
+ADAPTER_TYPE_UNKNOWN
+)
+underlying_type_for_vpn_
 (
 rtc
 :
