@@ -470,16 +470,6 @@ annotationEditorMode
 1
 )
 ;
-pref
-(
-"
-fission
-.
-webContentIsolationStrategy
-"
-0
-)
-;
 #
 else
 pref
