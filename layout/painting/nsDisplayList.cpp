@@ -2243,10 +2243,6 @@ mCurrentActiveScrolledRoot
 =
 aActiveScrolledRoot
 ;
-UpdateCurrentScrollParentId
-(
-)
-;
 const
 ActiveScrolledRoot
 *
