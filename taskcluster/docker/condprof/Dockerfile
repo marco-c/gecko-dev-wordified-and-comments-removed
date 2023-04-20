@@ -1,10 +1,10 @@
 FROM
 DOCKER_IMAGE_PARENT
 MAINTAINER
-Tarek
-Ziade
+Gregory
+Mierzwinski
 <
-tarek
+gmierzwinski
 mozilla
 .
 com
