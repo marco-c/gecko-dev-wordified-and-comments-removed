@@ -27,11 +27,9 @@ browser
 /
 dom
 /
-base
+html
 /
 test
-/
-fullscreen
 /
 fullscreen_helpers
 .

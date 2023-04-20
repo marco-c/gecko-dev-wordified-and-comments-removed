@@ -536,7 +536,7 @@ const
 kPage
 =
 "
-https
+http
 :
 /
 /
@@ -572,14 +572,8 @@ function
 )
 {
 await
-SpecialPowers
-.
-pushPrefEnv
+pushPrefs
 (
-{
-set
-:
-[
 [
 "
 full
@@ -618,8 +612,6 @@ leave
 0
 "
 ]
-]
-}
 )
 ;
 registerCleanupFunction
