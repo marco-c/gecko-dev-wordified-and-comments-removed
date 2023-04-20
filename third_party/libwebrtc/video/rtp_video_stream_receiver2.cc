@@ -5555,6 +5555,10 @@ ulpfec_payload_type
 0x80
 )
 ;
+red_payload_type_
+=
+red_payload_type
+;
 ulpfec_receiver_
 =
 MaybeConstructUlpfecReceiver
