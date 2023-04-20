@@ -3896,7 +3896,7 @@ QuickSuggest
 .
 remoteSettings
 .
-_rs
+_test_rs
 "
 Settings
 client
@@ -3938,7 +3938,7 @@ QuickSuggest
 .
 remoteSettings
 .
-_rs
+_test_rs
 "
 Settings
 client
@@ -3986,7 +3986,7 @@ QuickSuggest
 .
 remoteSettings
 .
-_rs
+_test_rs
 "
 Settings
 client
@@ -4031,7 +4031,7 @@ QuickSuggest
 .
 remoteSettings
 .
-_rs
+_test_rs
 "
 Settings
 client
@@ -4078,7 +4078,7 @@ QuickSuggest
 .
 remoteSettings
 .
-_rs
+_test_rs
 "
 Settings
 client
@@ -4125,7 +4125,7 @@ QuickSuggest
 .
 remoteSettings
 .
-_rs
+_test_rs
 "
 Settings
 client
@@ -4173,7 +4173,7 @@ QuickSuggest
 .
 remoteSettings
 .
-_rs
+_test_rs
 "
 Settings
 client
@@ -4218,7 +4218,7 @@ QuickSuggest
 .
 remoteSettings
 .
-_rs
+_test_rs
 "
 Settings
 client
@@ -4264,7 +4264,7 @@ QuickSuggest
 .
 remoteSettings
 .
-_rs
+_test_rs
 "
 Settings
 client
@@ -4332,7 +4332,7 @@ QuickSuggest
 .
 remoteSettings
 .
-_rs
+_test_rs
 "
 Settings
 client
@@ -6366,7 +6366,7 @@ QuickSuggest
 .
 remoteSettings
 .
-_rs
+_test_rs
 "
 get
 "
@@ -6423,9 +6423,27 @@ QuickSuggest
 .
 remoteSettings
 .
-_queueSettingsSync
+enable
 (
+false
 )
+;
+await
+QuickSuggest
+.
+remoteSettings
+.
+enable
+(
+true
+)
+;
+await
+QuickSuggest
+.
+remoteSettings
+.
+readyPromise
 ;
 let
 expectedDataType
@@ -6456,7 +6474,8 @@ expectedDataType
 }
 )
 "
-_rs
+#
+rs
 .
 get
 (

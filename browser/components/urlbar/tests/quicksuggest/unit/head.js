@@ -4,7 +4,7 @@ defineESModuleGetters
 (
 this
 {
-QuickSuggest
+RemoteSettingsClient
 :
 "
 resource
@@ -14,13 +14,17 @@ resource
 /
 modules
 /
-QuickSuggest
+urlbar
+/
+private
+/
+RemoteSettingsClient
 .
 sys
 .
 mjs
 "
-QuickSuggestRemoteSettingsClient
+QuickSuggest
 :
 "
 resource
@@ -30,7 +34,7 @@ resource
 /
 modules
 /
-QuickSuggestRemoteSettingsClient
+QuickSuggest
 .
 sys
 .

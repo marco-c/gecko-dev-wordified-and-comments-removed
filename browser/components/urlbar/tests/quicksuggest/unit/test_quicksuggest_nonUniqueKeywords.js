@@ -37,7 +37,7 @@ score
 :
 2
 *
-QuickSuggestRemoteSettingsClient
+RemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 }
@@ -56,7 +56,7 @@ score
 :
 4
 *
-QuickSuggestRemoteSettingsClient
+RemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 }
@@ -75,7 +75,7 @@ score
 :
 3
 *
-QuickSuggestRemoteSettingsClient
+RemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 }
@@ -453,7 +453,7 @@ number
 ?
 score
 :
-QuickSuggestRemoteSettingsClient
+RemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 source
@@ -696,7 +696,7 @@ QuickSuggest
 .
 remoteSettings
 .
-_resultsByKeyword
+_test_resultsByKeyword
 .
 get
 (

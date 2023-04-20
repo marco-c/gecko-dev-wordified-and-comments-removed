@@ -512,7 +512,7 @@ QuickSuggest
 .
 remoteSettings
 .
-_resultsByKeyword
+_test_resultsByKeyword
 .
 clear
 (
@@ -523,7 +523,7 @@ QuickSuggest
 .
 remoteSettings
 .
-_addResults
+_test_addResults
 (
 results
 )
@@ -580,7 +580,7 @@ QuickSuggest
 .
 remoteSettings
 .
-_resultsByKeyword
+_test_resultsByKeyword
 .
 get
 (
@@ -617,7 +617,7 @@ i
 }
 is
 in
-_resultsByKeyword
+_test_resultsByKeyword
 for
 keyword
 {
@@ -725,7 +725,7 @@ is_sponsored
 true
 score
 :
-QuickSuggestRemoteSettingsClient
+RemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 source

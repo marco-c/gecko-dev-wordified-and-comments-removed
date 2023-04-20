@@ -1215,6 +1215,8 @@ QuickSuggest
 .
 remoteSettings
 .
+emitter
+.
 on
 (
 "
@@ -1303,6 +1305,8 @@ lazy
 QuickSuggest
 .
 remoteSettings
+.
+emitter
 .
 off
 (
