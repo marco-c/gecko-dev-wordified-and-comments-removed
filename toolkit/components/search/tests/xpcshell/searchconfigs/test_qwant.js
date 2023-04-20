@@ -18,6 +18,9 @@ qwant
 aliases
 :
 [
+"
+qwant
+"
 ]
 default
 :
