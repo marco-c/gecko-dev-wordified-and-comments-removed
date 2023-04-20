@@ -41,9 +41,6 @@ function
 CssColor
 (
 colorValue
-supportsCssColor4ColorFunction
-=
-false
 )
 {
 this
@@ -52,12 +49,6 @@ newColor
 (
 colorValue
 )
-;
-this
-.
-cssColor4
-=
-supportsCssColor4ColorFunction
 ;
 }
 module
@@ -133,9 +124,6 @@ null
 lowerCased
 :
 null
-cssColor4
-:
-false
 _setColorUnitUppercase
 (
 color
@@ -2878,9 +2866,6 @@ setAlpha
 (
 colorValue
 alpha
-useCssColor4ColorFunction
-=
-false
 )
 {
 const
@@ -2890,7 +2875,6 @@ new
 CssColor
 (
 colorValue
-useCssColor4ColorFunction
 )
 ;
 if

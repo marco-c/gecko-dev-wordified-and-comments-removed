@@ -281,9 +281,6 @@ constructor
 (
 document
 inspector
-{
-supportsCssColor4ColorFunction
-}
 )
 {
 super
@@ -363,14 +360,6 @@ _onTooltipKeydown
 bind
 (
 this
-)
-;
-this
-.
-cssColor4
-=
-supportsCssColor4ColorFunction
-(
 )
 ;
 this
@@ -1394,9 +1383,6 @@ colorUtils
 CssColor
 (
 color
-this
-.
-cssColor4
 )
 ;
 const
@@ -1448,9 +1434,6 @@ setAuthoredUnitFromColor
 this
 .
 _originalColor
-this
-.
-cssColor4
 )
 ;
 return

@@ -528,15 +528,6 @@ doc
 this
 .
 inspector
-{
-supportsCssColor4ColorFunction
-:
-(
-)
-=
->
-false
-}
 )
 ;
 }

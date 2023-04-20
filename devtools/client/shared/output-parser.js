@@ -446,7 +446,6 @@ OutputParser
 document
 {
 supportsType
-supportsCssColor4ColorFunction
 }
 )
 {
@@ -511,14 +510,6 @@ _onAngleSwatchMouseDown
 bind
 (
 this
-)
-;
-this
-.
-cssColor4
-=
-supportsCssColor4ColorFunction
-(
 )
 ;
 }
@@ -7091,9 +7082,6 @@ colorUtils
 CssColor
 (
 color
-this
-.
-cssColor4
 )
 ;
 if
