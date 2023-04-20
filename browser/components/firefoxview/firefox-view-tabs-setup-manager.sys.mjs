@@ -3256,9 +3256,7 @@ config
 promiseConnectAccountURI
 (
 "
-fx
--
-view
+firefoxview
 "
 )
 ;
