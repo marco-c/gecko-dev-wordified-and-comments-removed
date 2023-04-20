@@ -90,7 +90,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+loadURI
 (
 browser
 "
