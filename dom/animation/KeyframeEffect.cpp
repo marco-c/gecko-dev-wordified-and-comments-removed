@@ -9382,8 +9382,10 @@ IsVisibleOrMayHaveVisibleDescendants
 )
 |
 |
-IsDefinitivelyInvisibleDueToOpacity
+CanOptimizeAwayDueToOpacity
 (
+*
+this
 *
 aFrame
 )
