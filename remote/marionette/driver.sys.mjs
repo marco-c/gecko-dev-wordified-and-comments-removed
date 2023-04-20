@@ -80,7 +80,7 @@ mjs
 import
 {
 element
-WebReference
+WebElement
 }
 from
 "
@@ -9225,7 +9225,7 @@ string
 {
 byFrame
 =
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -9470,7 +9470,7 @@ parameters
 let
 webEl
 =
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -10019,7 +10019,7 @@ undefined
 {
 startNode
 =
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -10295,7 +10295,7 @@ undefined
 {
 startNode
 =
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -10597,7 +10597,7 @@ id
 let
 webEl
 =
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -10965,7 +10965,7 @@ id
 let
 webEl
 =
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -11295,7 +11295,7 @@ name
 const
 webEl
 =
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -11554,7 +11554,7 @@ name
 const
 webEl
 =
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -11782,7 +11782,7 @@ id
 let
 webEl
 =
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -11996,7 +11996,7 @@ id
 let
 webEl
 =
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -12185,7 +12185,7 @@ id
 let
 webEl
 =
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -12445,7 +12445,7 @@ propertyName
 let
 webEl
 =
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -12659,7 +12659,7 @@ id
 let
 webEl
 =
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -12854,7 +12854,7 @@ id
 let
 webEl
 =
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -13032,7 +13032,7 @@ id
 let
 webEl
 =
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -13273,7 +13273,7 @@ text
 let
 webEl
 =
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -13479,7 +13479,7 @@ id
 let
 webEl
 =
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -16004,7 +16004,7 @@ webEl
 =
 id
 ?
-WebReference
+WebElement
 .
 fromUUID
 (

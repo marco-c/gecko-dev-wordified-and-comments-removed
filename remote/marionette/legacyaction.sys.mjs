@@ -234,7 +234,7 @@ sys
 .
 mjs
 "
-WebReference
+WebElement
 :
 "
 chrome
@@ -1855,7 +1855,7 @@ webEl
 =
 lazy
 .
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -2084,7 +2084,7 @@ webEl
 =
 lazy
 .
-WebReference
+WebElement
 .
 fromUUID
 (
@@ -2214,7 +2214,7 @@ webEl
 =
 lazy
 .
-WebReference
+WebElement
 .
 fromUUID
 (
