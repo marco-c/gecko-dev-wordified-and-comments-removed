@@ -1816,7 +1816,12 @@ PopupMoved
 nsIFrame
 *
 aFrame
-nsIntPoint
+const
+mozilla
+:
+:
+LayoutDeviceIntPoint
+&
 aPoint
 bool
 aByMoveToRect
@@ -1828,10 +1833,12 @@ PopupResized
 nsIFrame
 *
 aFrame
+const
 mozilla
 :
 :
 LayoutDeviceIntSize
+&
 aSize
 )
 ;

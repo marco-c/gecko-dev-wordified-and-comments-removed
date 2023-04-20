@@ -27719,7 +27719,6 @@ nullptr
 bool
 popupNeedsAlphaVisual
 =
-(
 mWindowType
 =
 =
@@ -27736,8 +27735,13 @@ aInitData
 aInitData
 -
 >
-mSupportTranslucency
-)
+mTransparencyMode
+=
+=
+TransparencyMode
+:
+:
+Transparent
 )
 ;
 GdkWindow
