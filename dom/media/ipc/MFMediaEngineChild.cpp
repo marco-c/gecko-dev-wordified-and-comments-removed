@@ -370,7 +370,7 @@ send
 ;
 mInitPromiseHolder
 .
-Reject
+RejectIfExists
 (
 NS_ERROR_FAILURE
 __func__
@@ -445,7 +445,7 @@ MFMediaEngineChild
 ;
 mInitPromiseHolder
 .
-Reject
+RejectIfExists
 (
 NS_ERROR_FAILURE
 __func__
@@ -468,7 +468,7 @@ MFMediaEngineChild
 ;
 mInitPromiseHolder
 .
-Resolve
+ResolveIfExists
 (
 true
 __func__
@@ -516,7 +516,7 @@ failure
 ;
 mInitPromiseHolder
 .
-Reject
+RejectIfExists
 (
 NS_ERROR_FAILURE
 __func__
@@ -1178,6 +1178,14 @@ AssertOnManagerThread
 ;
 SendShutdown
 (
+)
+;
+mInitPromiseHolder
+.
+RejectIfExists
+(
+NS_ERROR_FAILURE
+__func__
 )
 ;
 mInitEngineRequest
