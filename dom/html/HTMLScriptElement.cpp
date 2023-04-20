@@ -677,6 +677,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 if
 (
@@ -808,6 +809,7 @@ nsAString
 &
 text
 )
+const
 {
 GetText
 (

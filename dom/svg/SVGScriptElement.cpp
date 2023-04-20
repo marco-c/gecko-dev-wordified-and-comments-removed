@@ -469,6 +469,7 @@ nsAString
 &
 text
 )
+const
 {
 nsContentUtils
 :

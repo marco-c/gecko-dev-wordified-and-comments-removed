@@ -1378,6 +1378,7 @@ ErrorResult
 &
 aError
 )
+const
 ;
 void
 SetDefaultValue

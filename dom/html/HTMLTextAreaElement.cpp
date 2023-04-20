@@ -1565,6 +1565,7 @@ ErrorResult
 &
 aError
 )
+const
 {
 if
 (

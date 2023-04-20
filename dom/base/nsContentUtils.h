@@ -4475,6 +4475,7 @@ static
 bool
 GetNodeTextContent
 (
+const
 nsINode
 *
 aNode
@@ -4495,6 +4496,7 @@ static
 void
 GetNodeTextContent
 (
+const
 nsINode
 *
 aNode
@@ -4509,6 +4511,7 @@ static
 bool
 AppendNodeTextContent
 (
+const
 nsINode
 *
 aNode

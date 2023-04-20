@@ -342,6 +342,7 @@ nsAString
 &
 aValue
 )
+const
 {
 nsContentUtils
 :

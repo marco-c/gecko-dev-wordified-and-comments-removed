@@ -483,6 +483,7 @@ ErrorResult
 &
 rv
 )
+const
 ;
 void
 SetText

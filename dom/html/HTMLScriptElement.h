@@ -124,6 +124,7 @@ nsAString
 &
 text
 )
+const
 override
 ;
 virtual
@@ -253,6 +254,7 @@ ErrorResult
 &
 aRv
 )
+const
 ;
 void
 SetText
