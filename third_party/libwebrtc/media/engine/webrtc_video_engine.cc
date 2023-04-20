@@ -973,6 +973,8 @@ T
 factory
 bool
 is_decoder_factory
+bool
+include_rtx
 const
 webrtc
 :
@@ -1332,6 +1334,11 @@ codec
 ;
 if
 (
+include_rtx
+)
+{
+if
+(
 !
 isFecCodec
 )
@@ -1436,6 +1443,7 @@ id
 )
 )
 ;
+}
 }
 }
 }
@@ -3890,6 +3898,8 @@ WebRtcVideoEngine
 :
 send_codecs
 (
+bool
+include_rtx
 )
 const
 {
@@ -3902,6 +3912,7 @@ get
 (
 )
 false
+include_rtx
 trials_
 )
 ;
@@ -3918,6 +3929,8 @@ WebRtcVideoEngine
 :
 recv_codecs
 (
+bool
+include_rtx
 )
 const
 {
@@ -3930,6 +3943,7 @@ get
 (
 )
 true
+include_rtx
 trials_
 )
 ;
@@ -4423,6 +4437,7 @@ MapCodecs
 GetPayloadTypesAndDefaultCodecs
 (
 decoder_factory_
+true
 true
 call_
 -
@@ -6780,6 +6795,7 @@ local_supported_codecs
 GetPayloadTypesAndDefaultCodecs
 (
 decoder_factory_
+true
 true
 call_
 -
