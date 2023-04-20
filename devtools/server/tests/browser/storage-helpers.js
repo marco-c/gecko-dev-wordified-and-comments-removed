@@ -39,9 +39,6 @@ true
 }
 )
 ;
-const
-content
-=
 await
 addTab
 (

@@ -71,7 +71,7 @@ false
 )
 ;
 const
-browser
+tab
 =
 await
 addTab
@@ -130,16 +130,6 @@ target
 true
 }
 }
-)
-;
-const
-tab
-=
-gBrowser
-.
-getTabForBrowser
-(
-browser
 )
 ;
 const
