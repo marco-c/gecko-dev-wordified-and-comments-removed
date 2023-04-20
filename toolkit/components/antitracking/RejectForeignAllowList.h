@@ -11,6 +11,13 @@ nsIUrlClassifierExceptionListService
 .
 h
 "
+#
+include
+"
+nsIPrincipal
+.
+h
+"
 class
 nsIHttpChannel
 ;

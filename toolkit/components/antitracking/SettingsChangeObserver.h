@@ -11,6 +11,11 @@ nsIObserver
 .
 h
 "
+#
+include
+<
+functional
+>
 namespace
 mozilla
 {

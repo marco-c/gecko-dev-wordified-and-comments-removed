@@ -16,6 +16,13 @@ ErrorList
 .
 h
 "
+#
+include
+"
+nsStringFwd
+.
+h
+"
 class
 nsIChannel
 ;

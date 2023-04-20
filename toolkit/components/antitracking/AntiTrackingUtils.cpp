@@ -156,6 +156,13 @@ h
 #
 include
 "
+nsICookieService
+.
+h
+"
+#
+include
+"
 nsIHttpChannel
 .
 h
