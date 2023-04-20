@@ -54,6 +54,15 @@ TLSServer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Sprintf
+.
+h
+"
 using
 namespace
 mozilla
@@ -470,7 +479,7 @@ request
 512
 ]
 ;
-sprintf
+SprintfLiteral
 (
 request
 "
@@ -700,7 +709,7 @@ path
 256
 ]
 ;
-sprintf
+SprintfLiteral
 (
 path
 "
