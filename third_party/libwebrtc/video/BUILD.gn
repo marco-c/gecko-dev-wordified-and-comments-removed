@@ -3031,6 +3031,11 @@ adaptation
 :
 video_adaptation
 "
+"
+config
+:
+streams_config
+"
 ]
 absl_deps
 =

@@ -235,17 +235,6 @@ thread_annotations
 .
 h
 "
-#
-include
-"
-video
-/
-config
-/
-encoder_stream_factory
-.
-h
-"
 namespace
 webrtc
 {

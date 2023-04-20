@@ -501,6 +501,9 @@ legacy_conference_mode
 bool
 is_quality_scaling_allowed
 ;
+int
+max_qp
+;
 private
 :
 VideoEncoderConfig
