@@ -514,6 +514,14 @@ attribution_name
 attribution
 "
         
+repackage_deb_name
+=
+"
+repackage
+-
+deb
+"
+        
 if
 job
 .
@@ -717,6 +725,22 @@ attribution_name
 upstream_deps
 [
 attribution_name
+]
+        
+if
+repackage_deb_name
+in
+upstream_deps
+:
+            
+dependencies
+[
+repackage_deb_name
+]
+=
+upstream_deps
+[
+repackage_deb_name
 ]
         
 attributes
