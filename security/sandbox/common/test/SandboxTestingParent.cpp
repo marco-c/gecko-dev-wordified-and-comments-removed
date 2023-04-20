@@ -712,7 +712,7 @@ SyncRunnable
 :
 DispatchToThread
 (
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 runnable

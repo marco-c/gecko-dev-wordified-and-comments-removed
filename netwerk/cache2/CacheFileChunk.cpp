@@ -2175,7 +2175,7 @@ item
 >
 mTarget
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;

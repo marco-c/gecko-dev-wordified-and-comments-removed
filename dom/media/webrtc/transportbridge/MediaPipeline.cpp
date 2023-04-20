@@ -6787,7 +6787,7 @@ mMaybeTrackNeedsUnmute
 =
 false
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -6888,7 +6888,7 @@ Destroy
 )
 ;
 }
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -7225,7 +7225,7 @@ mForceSilence
 =
 true
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -8282,7 +8282,7 @@ mForceDropFrames
 true
 ;
 }
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -

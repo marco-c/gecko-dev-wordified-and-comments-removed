@@ -37664,7 +37664,7 @@ nsIEventTarget
 >
 main
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;

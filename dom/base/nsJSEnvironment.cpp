@@ -9830,7 +9830,7 @@ nsIEventTarget
 >
 mainTarget
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;

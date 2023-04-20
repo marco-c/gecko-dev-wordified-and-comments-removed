@@ -409,7 +409,7 @@ forget
 )
 )
 :
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -

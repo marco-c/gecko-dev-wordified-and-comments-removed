@@ -4913,7 +4913,7 @@ target
 {
 target
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;

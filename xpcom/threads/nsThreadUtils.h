@@ -7978,12 +7978,6 @@ mLastCurrentThread
 ;
 }
 ;
-nsIEventTarget
-*
-GetMainThreadEventTarget
-(
-)
-;
 nsISerialEventTarget
 *
 GetCurrentSerialEventTarget

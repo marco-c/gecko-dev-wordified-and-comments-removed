@@ -7069,7 +7069,7 @@ true
 return
 ;
 }
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -7655,7 +7655,7 @@ Offer
 "
 )
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -7884,7 +7884,7 @@ Answer
 JsepAnswerOptions
 options
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -9696,7 +9696,7 @@ aCandidate
 )
 ;
 }
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -9836,7 +9836,7 @@ c_str
 )
 )
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -13184,7 +13184,7 @@ Promise
 aP
 )
 {
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -20399,7 +20399,7 @@ push_back
 cand
 )
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -21423,7 +21423,7 @@ ASSERT_ON_THREAD
 mSTSThread
 )
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -21495,7 +21495,7 @@ ASSERT_ON_THREAD
 mSTSThread
 )
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -21603,7 +21603,7 @@ empty
 )
 )
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -21693,7 +21693,7 @@ webrtc
 aPrivacyRequested
 )
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -

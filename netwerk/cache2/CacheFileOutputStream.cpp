@@ -2268,7 +2268,7 @@ callback
 ;
 mCallbackTarget
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;

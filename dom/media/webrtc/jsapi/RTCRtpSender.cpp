@@ -3753,7 +3753,7 @@ paramsCopy
 )
 ;
 }
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -4511,7 +4511,7 @@ Some
 aParameters
 )
 ;
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
@@ -5769,7 +5769,7 @@ return
 p
 ;
 }
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -

@@ -792,7 +792,7 @@ target
 {
 target
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;

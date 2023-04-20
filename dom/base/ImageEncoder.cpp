@@ -304,7 +304,7 @@ nsIEventTarget
 >
 mainTarget
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;
@@ -471,7 +471,7 @@ else
 {
 mCreationEventTarget
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;
