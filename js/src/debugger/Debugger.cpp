@@ -30517,7 +30517,7 @@ if
 r
 -
 >
-hasLiveGlobal
+hasInitializedGlobal
 (
 )
 )

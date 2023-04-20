@@ -2859,7 +2859,7 @@ if
 realm
 -
 >
-hasLiveGlobal
+hasInitializedGlobal
 (
 )
 )

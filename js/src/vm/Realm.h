@@ -1763,6 +1763,13 @@ hasLiveGlobal
 const
 ;
 inline
+bool
+hasInitializedGlobal
+(
+)
+const
+;
+inline
 void
 initGlobal
 (
