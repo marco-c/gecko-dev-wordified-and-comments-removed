@@ -21,7 +21,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -345,7 +345,7 @@ _name
 =
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 nativeParameters
 .
@@ -475,7 +475,7 @@ setObject
 :
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 parameter
 .
@@ -485,7 +485,7 @@ forKey
 :
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 parameter
 .
@@ -530,7 +530,7 @@ name
 =
 [
 NSString
-rtc_stdStringForString
+stdStringForString
 :
 _name
 ]
@@ -650,7 +650,7 @@ key
 =
 [
 NSString
-rtc_stdStringForString
+stdStringForString
 :
 paramKey
 ]
@@ -663,7 +663,7 @@ value
 =
 [
 NSString
-rtc_stdStringForString
+stdStringForString
 :
 _parameters
 [

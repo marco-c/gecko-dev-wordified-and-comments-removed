@@ -156,7 +156,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "

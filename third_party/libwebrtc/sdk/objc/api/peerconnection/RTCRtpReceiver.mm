@@ -50,7 +50,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -191,7 +191,7 @@ receiverId
 return
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 _nativeRtpReceiver
 -

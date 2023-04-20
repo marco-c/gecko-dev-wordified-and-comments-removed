@@ -14,7 +14,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -84,7 +84,7 @@ setObject
 :
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 it
 -
@@ -95,7 +95,7 @@ forKey
 :
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 it
 -
@@ -112,7 +112,7 @@ initWithName
 :
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 format
 .
@@ -170,7 +170,7 @@ key
 =
 [
 NSString
-rtc_stdStringForString
+stdStringForString
 :
 paramKey
 ]
@@ -183,7 +183,7 @@ value
 =
 [
 NSString
-rtc_stdStringForString
+stdStringForString
 :
 self
 .
@@ -209,7 +209,7 @@ SdpVideoFormat
 (
 [
 NSString
-rtc_stdStringForString
+stdStringForString
 :
 self
 .

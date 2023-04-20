@@ -833,7 +833,7 @@ helpers
 /
 AVCaptureSession
 +
-RTCDevicePosition
+DevicePosition
 .
 h
 "
@@ -844,7 +844,7 @@ helpers
 /
 AVCaptureSession
 +
-RTCDevicePosition
+DevicePosition
 .
 mm
 "
@@ -855,7 +855,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -866,7 +866,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 mm
 "
@@ -3769,7 +3769,7 @@ video_codec
 /
 UIDevice
 +
-RTCH264Profile
+H264Profile
 .
 h
 "
@@ -3782,7 +3782,7 @@ video_codec
 /
 UIDevice
 +
-RTCH264Profile
+H264Profile
 .
 mm
 "

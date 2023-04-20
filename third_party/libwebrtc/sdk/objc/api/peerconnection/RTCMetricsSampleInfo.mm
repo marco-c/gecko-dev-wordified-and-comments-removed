@@ -14,7 +14,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -86,7 +86,7 @@ _name
 =
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 info
 .

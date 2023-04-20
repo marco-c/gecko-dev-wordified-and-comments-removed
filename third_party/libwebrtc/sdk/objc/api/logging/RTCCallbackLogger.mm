@@ -12,7 +12,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -130,7 +130,7 @@ callback_handler_
 (
 [
 NSString
-rtc_stringForAbslStringView
+stringForAbslStringView
 :
 message
 ]
@@ -251,7 +251,7 @@ callback_handler_
 (
 [
 NSString
-rtc_stringForAbslStringView
+stringForAbslStringView
 :
 message
 ]

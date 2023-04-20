@@ -3,7 +3,7 @@ import
 "
 AVCaptureSession
 +
-RTCDevicePosition
+DevicePosition
 .
 h
 "
@@ -37,13 +37,13 @@ nil
 implementation
 AVCaptureSession
 (
-RTCDevicePosition
+DevicePosition
 )
 +
 (
 AVCaptureDevicePosition
 )
-rtc_devicePositionForSampleBuffer
+devicePositionForSampleBuffer
 :
 (
 CMSampleBufferRef

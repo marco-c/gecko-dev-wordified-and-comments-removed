@@ -50,7 +50,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -140,7 +140,7 @@ _transactionId
 =
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 nativeParameters
 .
@@ -345,7 +345,7 @@ transaction_id
 =
 [
 NSString
-rtc_stdStringForString
+stdStringForString
 :
 _transactionId
 ]

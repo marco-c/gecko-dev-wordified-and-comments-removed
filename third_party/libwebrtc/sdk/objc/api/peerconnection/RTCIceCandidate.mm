@@ -28,7 +28,7 @@ helpers
 /
 NSString
 +
-RTCStdString
+StdString
 .
 h
 "
@@ -215,7 +215,7 @@ initWithSdp
 :
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 sdp
 ]
@@ -231,7 +231,7 @@ sdpMid
 :
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 candidate
 -
@@ -249,7 +249,7 @@ _serverUrl
 =
 [
 NSString
-rtc_stringForStdString
+stringForStdString
 :
 candidate
 -
