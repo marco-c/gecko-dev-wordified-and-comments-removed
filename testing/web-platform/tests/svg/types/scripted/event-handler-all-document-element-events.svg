@@ -64,6 +64,8 @@ oncopy
 oncut
 /
 onpaste
+/
+oncontextmenu
 <
 /
 title
@@ -173,6 +175,9 @@ oncopy
 "
 "
 onpaste
+"
+"
+oncontextmenu
 "
 ]
 ;
