@@ -271,6 +271,8 @@ cd
 .
 mkdir
 hfsplus
+-
+tools
 cp
 dirname
 /
@@ -280,6 +282,8 @@ tproj
 /
 newfs_hfs
 hfsplus
+-
+tools
 /
 newfs_hfs
 #
@@ -306,6 +310,8 @@ tproj
 /
 fsck_hfs
 hfsplus
+-
+tools
 /
 fsck_hfs
 #
@@ -323,8 +329,12 @@ caf
 root_dir
 /
 hfsplus
+-
+tools
 .
 tar
 .
 zst
 hfsplus
+-
+tools

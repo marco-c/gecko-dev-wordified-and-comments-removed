@@ -54,5 +54,5 @@ TOOLTOOL_CACHE
 run_configure
 "
 :
-False
+True
 }

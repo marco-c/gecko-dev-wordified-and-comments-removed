@@ -63,6 +63,8 @@ cp
 MOZ_FETCHES_DIR
 /
 hfsplus
+-
+tools
 .
 tar
 .
