@@ -382,6 +382,8 @@ a11y
 role
 &
 aRole
+uint8_t
+aRoleMapEntryIndex
 )
 ;
 bool
@@ -1144,6 +1146,8 @@ a11y
 :
 role
 aRole
+uint8_t
+aRoleMapEntryIndex
 )
 :
 DeferredEvent
@@ -1153,6 +1157,10 @@ aTarget
 mRole
 (
 aRole
+)
+mRoleMapEntryIndex
+(
+aRoleMapEntryIndex
 )
 {
 }
@@ -1174,6 +1182,7 @@ aIPCDoc
 SendRoleChangedEvent
 (
 mRole
+mRoleMapEntryIndex
 )
 ;
 }
@@ -1182,6 +1191,9 @@ a11y
 :
 role
 mRole
+;
+uint8_t
+mRoleMapEntryIndex
 ;
 }
 ;

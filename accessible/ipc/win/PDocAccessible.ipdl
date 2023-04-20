@@ -393,6 +393,8 @@ RoleChangedEvent
 (
 role
 aRole
+uint8_t
+aRoleMapEntryIndex
 )
 ;
 async
