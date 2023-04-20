@@ -14010,6 +14010,9 @@ ScheduleViewManagerFlush
 NS_ASSERTION
 (
 mPresContext
+&
+&
+mPresContext
 -
 >
 IsRoot
