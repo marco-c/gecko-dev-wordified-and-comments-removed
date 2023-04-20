@@ -3314,6 +3314,71 @@ comparison
 [
 "
 -
+q
+"
+"
+-
+-
+query
+"
+]
+            
+{
+                
+"
+type
+"
+:
+str
+                
+"
+default
+"
+:
+None
+                
+"
+help
+"
+:
+"
+Query
+to
+run
+in
+either
+the
+perf
+-
+category
+selector
+"
+                
+"
+or
+the
+fuzzy
+selector
+if
+-
+-
+show
+-
+all
+is
+provided
+.
+"
+            
+}
+        
+]
+        
+[
+            
+[
+"
+-
 -
 variants
 "
@@ -3767,6 +3832,9 @@ get_perf_tasks
 base_cmd
 all_tg_tasks
 perf_categories
+query
+=
+None
 )
 :
         
@@ -3790,7 +3858,7 @@ get_tasks
             
 base_cmd
 queries
-None
+query
 perf_categories
         
 )
@@ -7471,6 +7539,10 @@ single_run
 =
 False
         
+query
+=
+None
+        
 *
 *
 kwargs
@@ -7570,6 +7642,9 @@ get_perf_tasks
 base_cmd
 all_tasks
 categories
+query
+=
+query
             
 )
         
@@ -7584,7 +7659,7 @@ get_tasks
 (
 base_cmd
 queries
-None
+query
 all_tasks
 )
         
