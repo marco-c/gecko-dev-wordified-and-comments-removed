@@ -133,7 +133,6 @@ Disconnect
 (
 )
 ;
-virtual
 void
 Pause
 (
@@ -142,7 +141,6 @@ aType
 )
 override
 ;
-virtual
 void
 Resume
 (
@@ -151,7 +149,6 @@ aType
 )
 override
 ;
-virtual
 SMILTime
 GetParentTime
 (
@@ -177,7 +174,6 @@ Release
 )
 override
 ;
-virtual
 void
 WillRefresh
 (
@@ -427,7 +423,6 @@ nsRefreshDriver
 aRefreshDriver
 )
 ;
-virtual
 void
 DoSample
 (
@@ -508,7 +503,6 @@ SMILTargetIdentifier
 aResult
 )
 ;
-virtual
 nsresult
 AddChild
 (
@@ -518,7 +512,6 @@ aChild
 )
 override
 ;
-virtual
 void
 RemoveChild
 (

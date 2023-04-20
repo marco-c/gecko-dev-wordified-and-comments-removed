@@ -33,7 +33,6 @@ SMILAnimationFunction
 {
 public
 :
-virtual
 bool
 SetAttr
 (
@@ -55,7 +54,6 @@ nullptr
 )
 override
 ;
-virtual
 bool
 UnsetAttr
 (
@@ -67,7 +65,6 @@ override
 ;
 protected
 :
-virtual
 bool
 IsToAnimation
 (
@@ -79,7 +76,6 @@ return
 false
 ;
 }
-virtual
 bool
 IsValueFixedForSimpleDuration
 (
@@ -91,7 +87,6 @@ return
 true
 ;
 }
-virtual
 bool
 HasAttr
 (
@@ -102,7 +97,6 @@ aAttName
 const
 override
 ;
-virtual
 const
 nsAttrValue
 *
@@ -115,7 +109,6 @@ aAttName
 const
 override
 ;
-virtual
 bool
 GetAttr
 (
@@ -129,7 +122,6 @@ aResult
 const
 override
 ;
-virtual
 bool
 WillReplace
 (
