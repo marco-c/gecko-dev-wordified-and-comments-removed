@@ -347,6 +347,17 @@ PerfSpewer
 default
 ;
 void
+recordOffset
+(
+MacroAssembler
+&
+masm
+const
+char
+*
+)
+;
+void
 saveJitCodeIRInfo
 (
 const
