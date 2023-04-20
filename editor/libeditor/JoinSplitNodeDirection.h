@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_JoinSplitNodeDirection_h
+JoinSplitNodeDirection_h
 #
 define
-mozilla_JoinSplitNodeDirection_h
+JoinSplitNodeDirection_h
 #
 include
 <
