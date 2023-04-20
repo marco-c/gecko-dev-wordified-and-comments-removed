@@ -346,8 +346,6 @@ RBBISetBuilder
 &
 other
 )
-=
-delete
 ;
 RBBISetBuilder
 &
@@ -359,8 +357,6 @@ RBBISetBuilder
 &
 other
 )
-=
-delete
 ;
 }
 ;

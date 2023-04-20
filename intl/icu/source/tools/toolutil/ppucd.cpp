@@ -1158,7 +1158,7 @@ props
 UBool
 insideBlock
 =
-false
+FALSE
 ;
 switch
 (
@@ -1368,7 +1368,7 @@ end
 {
 insideBlock
 =
-true
+TRUE
 ;
 if
 (
@@ -1863,7 +1863,7 @@ errorCode
 U_PARSE_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 binaryValue
@@ -1968,7 +1968,7 @@ ppucdProperties
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -2787,7 +2787,7 @@ break
 default
 :
 return
-true
+TRUE
 ;
 }
 }
@@ -2810,13 +2810,13 @@ prop
 )
 ;
 return
-true
+TRUE
 ;
 }
 else
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -2846,7 +2846,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -2862,7 +2862,7 @@ errorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 firstField
@@ -2924,7 +2924,7 @@ errorCode
 U_PARSE_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 return
@@ -3118,7 +3118,7 @@ lineNumber
 )
 ;
 return
-false
+FALSE
 ;
 }
 start
@@ -3136,7 +3136,7 @@ UChar32
 e
 ;
 return
-true
+TRUE
 ;
 }
 void

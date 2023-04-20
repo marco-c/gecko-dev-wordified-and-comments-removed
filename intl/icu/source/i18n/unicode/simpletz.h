@@ -716,8 +716,6 @@ DOW_LE_DOM_MODE
 SimpleTimeZone
 (
 )
-=
-delete
 ;
 void
 construct

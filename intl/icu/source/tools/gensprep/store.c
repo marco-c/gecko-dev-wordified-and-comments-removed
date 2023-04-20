@@ -1,13 +1,6 @@
 #
 include
 <
-stdbool
-.
-h
->
-#
-include
-<
 stdio
 .
 h
@@ -350,7 +343,7 @@ NULL
 MAX_DATA_LENGTH
 0
 0
-false
+FALSE
 )
 )
 {
@@ -1891,7 +1884,7 @@ end
 +
 1
 trieWord
-false
+FALSE
 )
 )
 {
@@ -2087,7 +2080,7 @@ sizeof
 sprepTrieBlock
 )
 getFoldedValue
-true
+TRUE
 &
 errorCode
 )

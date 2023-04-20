@@ -64,7 +64,7 @@ en_001
 }
 Currencies
 {
-SLE
+SLL
 {
 "
 Le

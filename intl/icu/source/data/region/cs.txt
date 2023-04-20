@@ -2179,15 +2179,6 @@ ny
 )
 "
 }
-NZ
-{
-"
-Aotearoa
-Nov
-Z
-land
-"
-}
 SZ
 {
 "

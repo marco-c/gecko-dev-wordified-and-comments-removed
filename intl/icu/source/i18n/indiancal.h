@@ -192,8 +192,6 @@ private
 IndianCalendar
 (
 )
-=
-delete
 ;
 protected
 :

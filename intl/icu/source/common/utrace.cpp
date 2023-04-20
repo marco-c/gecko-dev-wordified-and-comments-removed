@@ -1991,7 +1991,7 @@ gTraceContext
 NULL
 ;
 return
-true
+TRUE
 ;
 }
 static

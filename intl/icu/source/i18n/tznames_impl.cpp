@@ -265,8 +265,8 @@ icu
 :
 UInitOnce
 gTZDBNamesMapInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 static
 TextTrieMap
@@ -281,8 +281,8 @@ icu
 :
 UInitOnce
 gTZDBNamesTrieInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 enum
 UTimeZoneNameTypeIndex
@@ -377,7 +377,7 @@ reset
 )
 ;
 return
-true
+TRUE
 ;
 }
 U_CDECL_END
@@ -640,7 +640,7 @@ orphan
 ;
 fHasValuesVector
 =
-true
+TRUE
 ;
 }
 UVector
@@ -730,7 +730,7 @@ NULL
 )
 fIsEmpty
 (
-true
+TRUE
 )
 fValueDeleter
 (
@@ -910,7 +910,7 @@ status
 {
 fIsEmpty
 =
-false
+FALSE
 ;
 if
 (
@@ -1238,7 +1238,7 @@ fNodesCapacity
 )
 {
 return
-false
+FALSE
 ;
 }
 int32_t
@@ -1287,7 +1287,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 uprv_memcpy
@@ -1316,7 +1316,7 @@ fNodesCapacity
 newCapacity
 ;
 return
-true
+TRUE
 ;
 }
 CharacterNode
@@ -1689,7 +1689,7 @@ i
 UnicodeString
 keyString
 (
-true
+TRUE
 key
 -
 1
@@ -2700,7 +2700,7 @@ locationName
 :
 fDidAddIntoTrie
 (
-false
+FALSE
 )
 {
 uprv_memcpy
@@ -2723,7 +2723,7 @@ NULL
 {
 fOwnsLocationName
 =
-true
+TRUE
 ;
 fNames
 [
@@ -2737,7 +2737,7 @@ else
 {
 fOwnsLocationName
 =
-false
+FALSE
 ;
 }
 }
@@ -3249,7 +3249,7 @@ return
 }
 fDidAddIntoTrie
 =
-true
+TRUE
 ;
 for
 (
@@ -4509,7 +4509,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -4725,7 +4725,7 @@ matchLength
 }
 }
 return
-true
+TRUE
 ;
 }
 TimeZoneNames
@@ -4845,15 +4845,15 @@ NULL
 )
 fNamesTrieFullyLoaded
 (
-false
+FALSE
 )
 fNamesFullyLoaded
 (
-false
+FALSE
 )
 fNamesTrie
 (
-true
+TRUE
 deleteZNameInfo
 )
 {
@@ -5860,7 +5860,7 @@ name
 .
 setTo
 (
-true
+TRUE
 s
 -
 1
@@ -5999,7 +5999,7 @@ name
 .
 setTo
 (
-true
+TRUE
 s
 -
 1
@@ -6128,7 +6128,7 @@ name
 .
 setTo
 (
-true
+TRUE
 locName
 -
 1
@@ -6734,7 +6734,7 @@ nonConstThis
 >
 fNamesTrieFullyLoaded
 =
-true
+TRUE
 ;
 if
 (
@@ -8353,7 +8353,7 @@ i
 .
 setTo
 (
-true
+TRUE
 name
 -
 1
@@ -8393,7 +8393,7 @@ fNamesFullyLoaded
 {
 fNamesFullyLoaded
 =
-true
+TRUE
 ;
 ZoneStringsLoader
 loader
@@ -9052,7 +9052,7 @@ TZDBNAMES_KEYS_SIZE
 UBool
 isEmpty
 =
-true
+TRUE
 ;
 if
 (
@@ -9133,7 +9133,7 @@ value
 ;
 isEmpty
 =
-false
+FALSE
 ;
 }
 }
@@ -9179,7 +9179,7 @@ status
 UBool
 regionError
 =
-false
+FALSE
 ;
 if
 (
@@ -9313,7 +9313,7 @@ status
 {
 regionError
 =
-true
+TRUE
 ;
 break
 ;
@@ -9350,7 +9350,7 @@ NULL
 {
 regionError
 =
-true
+TRUE
 ;
 break
 ;
@@ -9764,7 +9764,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 TZDBNameInfo
@@ -9889,7 +9889,7 @@ else
 UBool
 matchRegion
 =
-false
+FALSE
 ;
 for
 (
@@ -9941,7 +9941,7 @@ ninfo
 ;
 matchRegion
 =
-true
+TRUE
 ;
 break
 ;
@@ -10134,7 +10134,7 @@ matchLength
 }
 }
 return
-true
+TRUE
 ;
 }
 TimeZoneNames
@@ -10305,7 +10305,7 @@ gTZDBNamesTrie
 new
 TextTrieMap
 (
-true
+TRUE
 deleteTZDBNameInfo
 )
 ;
@@ -10738,7 +10738,7 @@ locale
 UBool
 useWorld
 =
-true
+TRUE
 ;
 const
 char
@@ -10841,7 +10841,7 @@ fRegion
 {
 useWorld
 =
-false
+FALSE
 ;
 }
 }
@@ -10867,7 +10867,7 @@ region
 ;
 useWorld
 =
-false
+FALSE
 ;
 }
 if
@@ -11157,7 +11157,7 @@ name
 .
 setTo
 (
-true
+TRUE
 s
 -
 1

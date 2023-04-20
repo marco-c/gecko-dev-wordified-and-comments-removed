@@ -450,6 +450,16 @@ VTimeZone
 (
 )
 ;
+static
+VTimeZone
+*
+createVTimeZone
+(
+VTZReader
+*
+reader
+)
+;
 void
 write
 (

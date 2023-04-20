@@ -430,7 +430,7 @@ cloneArrayIfNeeded
 (
 US_STACKBUF_SIZE
 US_STACKBUF_SIZE
-false
+FALSE
 )
 )
 {
@@ -479,7 +479,7 @@ oldString
 .
 setTo
 (
-false
+FALSE
 oldArray
 oldLength
 )
@@ -583,7 +583,7 @@ oldString
 .
 setTo
 (
-false
+FALSE
 oldArray
 oldLength
 )
@@ -768,10 +768,10 @@ cloneArrayIfNeeded
 (
 newLength
 newLength
-false
+FALSE
 &
 bufferToDelete
-true
+TRUE
 )
 )
 {
@@ -969,7 +969,7 @@ str2
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -987,7 +987,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 return

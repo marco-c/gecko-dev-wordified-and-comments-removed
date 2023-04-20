@@ -652,8 +652,6 @@ const
 ResourceSink
 &
 )
-=
-delete
 ;
 ResourceSink
 &
@@ -664,8 +662,6 @@ const
 ResourceSink
 &
 )
-=
-delete
 ;
 }
 ;

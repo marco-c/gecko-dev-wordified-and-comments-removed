@@ -338,9 +338,6 @@ bfq
 bg
 "
 "
-bgc
-"
-"
 bgn
 "
 "
@@ -2217,9 +2214,6 @@ bfq
 "
 "
 bul
-"
-"
-bgc
 "
 "
 bgn
@@ -5873,7 +5867,7 @@ i
 UBool
 reset
 =
-true
+TRUE
 ;
 for
 (
@@ -5925,7 +5919,7 @@ tmpLength
 ;
 reset
 =
-false
+FALSE
 ;
 }
 tmpLength
@@ -5955,7 +5949,7 @@ tmpLength
 }
 reset
 =
-true
+TRUE
 ;
 }
 }
@@ -6461,7 +6455,7 @@ do
 UBool
 duplicate
 =
-false
+FALSE
 ;
 while
 (
@@ -6846,7 +6840,7 @@ keyword
 {
 duplicate
 =
-true
+TRUE
 ;
 break
 ;
@@ -6879,7 +6873,7 @@ KeywordStruct
 )
 compareKeywordStructs
 NULL
-false
+FALSE
 status
 )
 ;
@@ -7666,7 +7660,7 @@ updatedKeysAndValues
 UBool
 handledInputKeyAndValue
 =
-false
+FALSE
 ;
 char
 keyValuePrefix
@@ -8351,7 +8345,7 @@ status
 }
 handledInputKeyAndValue
 =
-true
+TRUE
 ;
 }
 else
@@ -8420,7 +8414,7 @@ status
 ;
 handledInputKeyAndValue
 =
-true
+TRUE
 ;
 }
 updatedKeysAndValues
@@ -8535,7 +8529,7 @@ status
 ;
 handledInputKeyAndValue
 =
-true
+TRUE
 ;
 }
 keywordStart
@@ -9517,7 +9511,7 @@ needSeparator
 UBool
 hasVariant
 =
-false
+FALSE
 ;
 if
 (
@@ -9554,7 +9548,7 @@ _
 ;
 needSeparator
 =
-false
+FALSE
 ;
 }
 char
@@ -9595,7 +9589,7 @@ c
 ;
 hasVariant
 =
-true
+TRUE
 ;
 localeID
 +
@@ -9672,7 +9666,7 @@ _
 ;
 needSeparator
 =
-false
+FALSE
 ;
 }
 char
@@ -10453,7 +10447,7 @@ tmpLocaleID
 '
 '
 sink
-false
+FALSE
 status
 )
 ;
@@ -11090,7 +11084,7 @@ tmpLocaleID
 *
 tmpLocaleID
 s
-false
+FALSE
 )
 ;
 }
@@ -11143,7 +11137,7 @@ tmpLocaleID
 UBool
 done
 =
-false
+FALSE
 ;
 do
 {
@@ -11167,7 +11161,7 @@ case
 :
 done
 =
-true
+TRUE
 ;
 break
 ;
@@ -11573,7 +11567,7 @@ tmpLocaleID
 '
 '
 sink
-true
+TRUE
 err
 )
 ;
@@ -12370,7 +12364,7 @@ tmpLocaleID
 *
 tmpLocaleID
 sink
-false
+FALSE
 )
 ;
 i
@@ -13481,7 +13475,7 @@ p
 )
 {
 return
-false
+FALSE
 ;
 }
 p
@@ -13490,7 +13484,7 @@ p
 ;
 }
 return
-true
+TRUE
 ;
 }
 static
@@ -13559,7 +13553,7 @@ alphaNumLen
 )
 {
 return
-false
+FALSE
 ;
 }
 alphaNumLen
@@ -13585,7 +13579,7 @@ alphaNumLen
 else
 {
 return
-false
+FALSE
 ;
 }
 p

@@ -91,7 +91,7 @@ theCursorPos
 ;
 hasCursor
 =
-true
+TRUE
 ;
 data
 =
@@ -99,7 +99,7 @@ theData
 ;
 isComplex
 =
-true
+TRUE
 ;
 }
 StringReplacer
@@ -127,7 +127,7 @@ cursorPos
 ;
 hasCursor
 =
-false
+FALSE
 ;
 data
 =
@@ -135,7 +135,7 @@ theData
 ;
 isComplex
 =
-true
+TRUE
 ;
 }
 StringReplacer
@@ -302,7 +302,7 @@ oOutput
 ;
 isComplex
 =
-false
+FALSE
 ;
 int32_t
 tempStart
@@ -460,7 +460,7 @@ else
 {
 isComplex
 =
-true
+TRUE
 ;
 if
 (
@@ -823,7 +823,7 @@ rule
 UChar
 )
 0x0040
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -871,7 +871,7 @@ rule
 UChar
 )
 0x007C
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -914,7 +914,7 @@ appendToRule
 (
 rule
 c
-false
+FALSE
 escapeUnprintable
 quoteBuf
 )
@@ -962,7 +962,7 @@ appendToRule
 (
 rule
 buf
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -1011,7 +1011,7 @@ rule
 UChar
 )
 0x0040
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -1027,7 +1027,7 @@ rule
 UChar
 )
 0x007C
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -1041,7 +1041,7 @@ appendToRule
 rule
 -
 1
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )

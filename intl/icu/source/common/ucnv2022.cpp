@@ -1979,7 +1979,7 @@ cnv
 >
 fromUnicodeStatus
 =
-false
+FALSE
 ;
 if
 (
@@ -2973,7 +2973,7 @@ myConverterData
 >
 isFirstBuffer
 =
-true
+TRUE
 ;
 cnv
 -
@@ -3275,7 +3275,7 @@ myConverterData
 >
 isEmptySegment
 =
-false
+FALSE
 ;
 }
 if
@@ -3331,7 +3331,7 @@ myConverterData
 >
 isFirstBuffer
 =
-true
+TRUE
 ;
 myConverterData
 -
@@ -5788,7 +5788,7 @@ myData
 >
 isFirstBuffer
 =
-false
+FALSE
 ;
 sourceStart
 =
@@ -7706,7 +7706,7 @@ g
 ;
 useFallback
 =
-false
+FALSE
 ;
 }
 break
@@ -7788,7 +7788,7 @@ g
 ;
 useFallback
 =
-false
+FALSE
 ;
 }
 }
@@ -7845,7 +7845,7 @@ g
 ;
 useFallback
 =
-false
+FALSE
 ;
 }
 break
@@ -7924,7 +7924,7 @@ g
 ;
 useFallback
 =
-false
+FALSE
 ;
 }
 break
@@ -8017,7 +8017,7 @@ g
 ;
 useFallback
 =
-false
+FALSE
 ;
 }
 break
@@ -8998,7 +8998,7 @@ myData
 >
 isEmptySegment
 =
-false
+FALSE
 ;
 break
 ;
@@ -9047,7 +9047,7 @@ myData
 >
 isEmptySegment
 =
-false
+FALSE
 ;
 break
 ;
@@ -9194,7 +9194,7 @@ myData
 >
 isEmptySegment
 =
-false
+FALSE
 ;
 return
 ;
@@ -9215,7 +9215,7 @@ myData
 >
 isEmptySegment
 =
-true
+TRUE
 ;
 }
 continue
@@ -9298,7 +9298,7 @@ myData
 >
 isEmptySegment
 =
-false
+FALSE
 ;
 cs
 =
@@ -9703,7 +9703,7 @@ cs
 ]
 tempBuf
 2
-false
+FALSE
 )
 ;
 }
@@ -11173,7 +11173,7 @@ sourceIndex
 ;
 isTargetByteDBCS
 =
-false
+FALSE
 ;
 sourceIndex
 =
@@ -12098,7 +12098,7 @@ myData
 >
 isEmptySegment
 =
-false
+FALSE
 ;
 *
 err
@@ -12184,7 +12184,7 @@ myData
 >
 isEmptySegment
 =
-true
+TRUE
 ;
 continue
 ;
@@ -12209,7 +12209,7 @@ myData
 >
 isEmptySegment
 =
-false
+FALSE
 ;
 changeState_2022
 (
@@ -12260,7 +12260,7 @@ myData
 >
 isEmptySegment
 =
-false
+FALSE
 ;
 if
 (
@@ -13590,7 +13590,7 @@ len
 ;
 useFallback
 =
-false
+FALSE
 ;
 }
 if
@@ -13714,7 +13714,7 @@ g
 ;
 useFallback
 =
-false
+FALSE
 ;
 }
 }
@@ -14527,7 +14527,7 @@ myData
 >
 isEmptySegment
 =
-false
+FALSE
 ;
 *
 err
@@ -14621,7 +14621,7 @@ myData
 >
 isEmptySegment
 =
-true
+TRUE
 ;
 continue
 ;
@@ -14633,7 +14633,7 @@ myData
 >
 isEmptySegment
 =
-false
+FALSE
 ;
 break
 ;
@@ -14771,7 +14771,7 @@ myData
 >
 isEmptySegment
 =
-false
+FALSE
 ;
 return
 ;
@@ -14803,7 +14803,7 @@ myData
 >
 isEmptySegment
 =
-false
+FALSE
 ;
 if
 (
@@ -15030,7 +15030,7 @@ ucnv_MBCSSimpleGetNextUChar
 cnv
 tempBuf
 tempBufLen
-false
+FALSE
 )
 ;
 mySourceChar
@@ -16203,7 +16203,7 @@ cnv
 .
 isExtraLocal
 =
-true
+TRUE
 ;
 if
 (
@@ -16942,8 +16942,8 @@ UCNV_ISO_2022
 0
 }
 1
-false
-false
+FALSE
+FALSE
 0
 0
 {
@@ -17032,8 +17032,8 @@ UCNV_ISO_2022
 0
 }
 1
-false
-false
+FALSE
+FALSE
 0
 0
 {
@@ -17129,8 +17129,8 @@ UCNV_ISO_2022
 0
 }
 1
-false
-false
+FALSE
+FALSE
 0
 0
 {
@@ -17222,8 +17222,8 @@ UCNV_ISO_2022
 0
 }
 1
-false
-false
+FALSE
+FALSE
 0
 0
 {

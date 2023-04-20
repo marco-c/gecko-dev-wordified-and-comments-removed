@@ -414,8 +414,6 @@ private
 ResourceBundle
 (
 )
-=
-delete
 ;
 UResourceBundle
 *

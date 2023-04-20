@@ -1013,7 +1013,7 @@ status
 else
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -1889,7 +1889,7 @@ hasNext
 )
 {
 return
-false
+FALSE
 ;
 }
 UnicodeString
@@ -2033,7 +2033,7 @@ hasPrevious
 )
 {
 return
-false
+FALSE
 ;
 }
 UnicodeString

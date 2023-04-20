@@ -865,8 +865,6 @@ private
 CollationFastLatin
 (
 )
-=
-delete
 ;
 }
 ;

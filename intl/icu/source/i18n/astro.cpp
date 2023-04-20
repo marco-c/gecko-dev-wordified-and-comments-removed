@@ -345,7 +345,7 @@ void
 )
 {
 return
-true
+TRUE
 ;
 }
 U_CDECL_END
@@ -624,7 +624,7 @@ moonPosition
 )
 moonPositionSet
 (
-false
+FALSE
 )
 {
 clearCache
@@ -670,7 +670,7 @@ moonPosition
 )
 moonPositionSet
 (
-false
+FALSE
 )
 {
 clearCache
@@ -705,7 +705,7 @@ moonPosition
 )
 moonPositionSet
 (
-false
+FALSE
 )
 {
 fLongitude
@@ -2317,7 +2317,7 @@ if
 moonPositionSet
 =
 =
-false
+FALSE
 )
 {
 getSunLongitude
@@ -2624,7 +2624,7 @@ moonEclipLat
 ;
 moonPositionSet
 =
-true
+TRUE
 ;
 }
 return
@@ -3573,7 +3573,7 @@ INVALID
 ;
 moonPositionSet
 =
-false
+FALSE
 ;
 }
 UnicodeString

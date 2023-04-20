@@ -207,7 +207,7 @@ static
 UBool
 icuInitted
 =
-false
+FALSE
 ;
 static
 void
@@ -229,7 +229,7 @@ initStatus
 ;
 icuInitted
 =
-true
+TRUE
 ;
 }
 }
@@ -250,7 +250,7 @@ u_cleanup
 ;
 icuInitted
 =
-false
+FALSE
 ;
 }
 }
@@ -1283,7 +1283,7 @@ U_ZERO_ERROR
 UBool
 didSomething
 =
-false
+FALSE
 ;
 argc
 =
@@ -1595,7 +1595,7 @@ cmd_millis
 ;
 didSomething
 =
-true
+TRUE
 ;
 }
 if
@@ -1614,7 +1614,7 @@ cmd_listplugins
 ;
 didSomething
 =
-true
+TRUE
 ;
 }
 if
@@ -1629,13 +1629,13 @@ doesOccur
 {
 cmd_version
 (
-false
+FALSE
 errorCode
 )
 ;
 didSomething
 =
-true
+TRUE
 ;
 }
 if
@@ -1747,7 +1747,7 @@ out
 ;
 didSomething
 =
-true
+TRUE
 ;
 }
 if
@@ -1766,7 +1766,7 @@ cmd_cleanup
 ;
 didSomething
 =
-true
+TRUE
 ;
 }
 if
@@ -1777,7 +1777,7 @@ didSomething
 {
 cmd_version
 (
-false
+FALSE
 errorCode
 )
 ;

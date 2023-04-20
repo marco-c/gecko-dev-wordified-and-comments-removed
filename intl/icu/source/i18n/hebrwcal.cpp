@@ -544,7 +544,7 @@ gCache
 NULL
 ;
 return
-true
+TRUE
 ;
 }
 U_CDECL_END
@@ -776,7 +776,7 @@ year
 ;
 acrossAdar1
 =
-true
+TRUE
 ;
 }
 }
@@ -848,7 +848,7 @@ year
 ;
 acrossAdar1
 =
-true
+TRUE
 ;
 }
 }
@@ -2228,7 +2228,7 @@ useDaylightTime
 )
 )
 return
-false
+FALSE
 ;
 (
 (
@@ -2264,7 +2264,7 @@ UCAL_DST_OFFSET
 0
 )
 :
-false
+FALSE
 )
 ;
 }
@@ -2287,8 +2287,8 @@ icu
 :
 UInitOnce
 gSystemDefaultCenturyInit
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 UBool
 HebrewCalendar
@@ -2300,7 +2300,7 @@ haveDefaultCentury
 const
 {
 return
-true
+TRUE
 ;
 }
 static

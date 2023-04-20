@@ -1167,7 +1167,7 @@ GBP
 "
 "
 "
-Britse
+Brits
 pond
 "
 }
@@ -5871,14 +5871,14 @@ GBP
 one
 {
 "
-Britse
+Brits
 pond
 "
 }
 other
 {
 "
-Britse
+Brits
 pond
 "
 }

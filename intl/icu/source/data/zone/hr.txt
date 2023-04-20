@@ -6709,7 +6709,7 @@ Brasilia
 ld
 {
 "
-brazilsko
+brazilijsko
 ljetno
 vrijeme
 "
@@ -6717,14 +6717,14 @@ vrijeme
 lg
 {
 "
-brazilsko
+brazilijsko
 vrijeme
 "
 }
 ls
 {
 "
-brazilsko
+brazilijsko
 standardno
 vrijeme
 "

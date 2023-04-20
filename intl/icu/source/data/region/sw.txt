@@ -2126,13 +2126,6 @@ Malvinas
 )
 "
 }
-NZ
-{
-"
-Aotearoa
-Nyuzilandi
-"
-}
 SZ
 {
 "

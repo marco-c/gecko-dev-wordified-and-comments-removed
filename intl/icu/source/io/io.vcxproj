@@ -767,11 +767,7 @@ OutputFile
 IcuBinOutputDir
 )
 \
-icuio
-(
-IcuMajorVersion
-)
-d
+icuio71d
 .
 dll
 <
@@ -919,10 +915,7 @@ OutputFile
 IcuBinOutputDir
 )
 \
-icuio
-(
-IcuMajorVersion
-)
+icuio71
 .
 dll
 <

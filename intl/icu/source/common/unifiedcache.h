@@ -1022,8 +1022,6 @@ UnifiedCache
 &
 other
 )
-=
-delete
 ;
 UnifiedCache
 &
@@ -1035,8 +1033,6 @@ UnifiedCache
 &
 other
 )
-=
-delete
 ;
 UBool
 _flush

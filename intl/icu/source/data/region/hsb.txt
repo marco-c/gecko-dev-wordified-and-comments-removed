@@ -2108,13 +2108,6 @@ Malwiny
 )
 "
 }
-NZ
-{
-"
-Aotearoa
-Nowoseelandska
-"
-}
 TL
 {
 "

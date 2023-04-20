@@ -73,7 +73,7 @@ const
 int32_t
 COMPACT_MAX_DIGITS
 =
-20
+15
 ;
 class
 CompactData

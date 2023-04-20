@@ -675,8 +675,6 @@ UCharsTrie
 &
 other
 )
-=
-delete
 ;
 inline
 void

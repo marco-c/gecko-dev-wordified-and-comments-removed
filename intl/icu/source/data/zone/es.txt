@@ -265,7 +265,7 @@ Conakry
 ec
 {
 "
-Conakri
+Conakry
 "
 }
 }
@@ -3478,7 +3478,7 @@ Khandyga
 ec
 {
 "
-Khandiga
+Khandyga
 "
 }
 }

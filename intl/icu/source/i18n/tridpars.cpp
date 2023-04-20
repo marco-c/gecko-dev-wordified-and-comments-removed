@@ -214,8 +214,8 @@ NULL
 static
 UInitOnce
 gSpecialInversesInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 static
 UMutex
@@ -366,7 +366,7 @@ createBasicInstance
 (
 UnicodeString
 (
-true
+TRUE
 ANY_NULL
 8
 )
@@ -496,7 +496,7 @@ NULL
 UBool
 sawParen
 =
-false
+FALSE
 ;
 for
 (
@@ -529,7 +529,7 @@ parseFilterID
 (
 id
 pos
-true
+TRUE
 )
 ;
 if
@@ -564,7 +564,7 @@ OPEN_REV
 {
 sawParen
 =
-true
+TRUE
 ;
 if
 (
@@ -586,7 +586,7 @@ parseFilterID
 (
 id
 pos
-true
+TRUE
 )
 ;
 if
@@ -946,7 +946,7 @@ parseFilterID
 (
 id
 pos
-true
+TRUE
 )
 ;
 if
@@ -1101,7 +1101,7 @@ skipWhitespace
 (
 id
 pos
-true
+TRUE
 )
 ;
 if
@@ -1530,7 +1530,7 @@ NULL
 UBool
 sawDelimiter
 =
-true
+TRUE
 ;
 for
 (
@@ -1618,7 +1618,7 @@ ID_DELIM
 {
 sawDelimiter
 =
-false
+FALSE
 ;
 break
 ;
@@ -1780,7 +1780,7 @@ skipWhitespace
 (
 id
 pos
-true
+TRUE
 )
 ;
 if
@@ -1807,7 +1807,7 @@ save
 )
 ;
 return
-true
+TRUE
 ;
 FAIL
 :
@@ -1832,7 +1832,7 @@ globalFilter
 NULL
 ;
 return
-false
+FALSE
 ;
 }
 void
@@ -2011,7 +2011,7 @@ createBasicInstance
 (
 UnicodeString
 (
-true
+TRUE
 ANY_NULL
 8
 )
@@ -2217,7 +2217,7 @@ length
 }
 isSourcePresent
 =
-false
+FALSE
 ;
 if
 (
@@ -2275,7 +2275,7 @@ source
 ;
 isSourcePresent
 =
-true
+TRUE
 ;
 }
 id
@@ -2323,7 +2323,7 @@ source
 ;
 isSourcePresent
 =
-true
+TRUE
 ;
 }
 id
@@ -2539,7 +2539,7 @@ U_FOLD_CASE_DEFAULT
 {
 bidirectional
 =
-false
+FALSE
 ;
 }
 Mutex
@@ -2688,7 +2688,7 @@ skipWhitespace
 (
 id
 pos
-true
+TRUE
 )
 ;
 if
@@ -3015,7 +3015,7 @@ NULL
 UBool
 sawSource
 =
-true
+TRUE
 ;
 if
 (
@@ -3039,7 +3039,7 @@ ANY
 ;
 sawSource
 =
-false
+FALSE
 ;
 }
 if
@@ -3440,7 +3440,7 @@ inverseTarget
 UnicodeString
 basicID
 (
-true
+TRUE
 ANY
 3
 )
@@ -3573,7 +3573,7 @@ SPECIAL_INVERSES
 new
 Hashtable
 (
-true
+TRUE
 status
 )
 ;

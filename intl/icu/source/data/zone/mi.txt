@@ -963,8 +963,7 @@ ls
 "
 W
 Toharite
-Kiriw
-ti
+Greenwich
 "
 }
 }
@@ -1016,7 +1015,6 @@ regionFormat
 {
 0
 }
-W
 "
 }
 regionFormatDaylight
@@ -1025,8 +1023,10 @@ regionFormatDaylight
 {
 0
 }
-W
-Awatea
+(
++
+1
+)
 "
 }
 regionFormatStandard
@@ -1035,10 +1035,10 @@ regionFormatStandard
 {
 0
 }
-W
-Aro
-Wh
-nui
+(
++
+0
+)
 "
 }
 }

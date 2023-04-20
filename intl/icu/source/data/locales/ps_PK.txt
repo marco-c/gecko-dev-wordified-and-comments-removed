@@ -102,12 +102,6 @@ u0670
 }
 calendar
 {
-default
-{
-"
-gregorian
-"
-}
 gregorian
 {
 DateTimePatterns

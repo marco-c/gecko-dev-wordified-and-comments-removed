@@ -246,13 +246,13 @@ nofallback
 CLDRVersion
 {
 "
-42
+41
 "
 }
 DataVersion
 {
 "
-72
+71
 .
 1
 .
@@ -264,7 +264,7 @@ DataVersion
 ICUVersion
 {
 "
-72
+71
 .
 1
 .

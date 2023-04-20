@@ -309,7 +309,7 @@ fNextIndex
 ;
 fQuoteMode
 =
-false
+FALSE
 ;
 fLineNum
 =
@@ -351,15 +351,15 @@ fNodeStackPtr
 ;
 fReverseRule
 =
-false
+FALSE
 ;
 fLookAheadRule
 =
-false
+FALSE
 ;
 fNoChainInRule
 =
-false
+FALSE
 ;
 fSymbolTable
 =
@@ -681,7 +681,7 @@ NULL
 UBool
 returnVal
 =
-true
+TRUE
 ;
 switch
 (
@@ -710,7 +710,7 @@ doNoChain
 :
 fNoChainInRule
 =
-true
+TRUE
 ;
 break
 ;
@@ -1227,7 +1227,7 @@ endNode
 >
 fLookAheadEnd
 =
-true
+TRUE
 ;
 thisRule
 =
@@ -1239,7 +1239,7 @@ thisRule
 >
 fRuleRoot
 =
-true
+TRUE
 ;
 if
 (
@@ -1258,7 +1258,7 @@ thisRule
 >
 fChainIn
 =
-true
+TRUE
 ;
 }
 RBBINode
@@ -1378,15 +1378,15 @@ fNodeStackPtr
 }
 fReverseRule
 =
-false
+FALSE
 ;
 fLookAheadRule
 =
-false
+FALSE
 ;
 fNoChainInRule
 =
-false
+FALSE
 ;
 fNodeStackPtr
 =
@@ -1405,7 +1405,7 @@ U_BRK_RULE_SYNTAX
 ;
 returnVal
 =
-false
+FALSE
 ;
 break
 ;
@@ -1707,7 +1707,7 @@ findSetFor
 (
 UnicodeString
 (
-true
+TRUE
 kAny
 3
 )
@@ -1824,7 +1824,7 @@ fText
 ;
 fLookAheadRule
 =
-true
+TRUE
 ;
 break
 ;
@@ -1974,7 +1974,7 @@ U_BRK_MALFORMED_RULE_TAG
 ;
 returnVal
 =
-false
+FALSE
 ;
 break
 ;
@@ -2023,7 +2023,7 @@ fRB
 >
 fChainRules
 =
-true
+TRUE
 ;
 }
 else
@@ -2046,7 +2046,7 @@ fRB
 >
 fLBCMNoChain
 =
-true
+TRUE
 ;
 }
 else
@@ -2177,7 +2177,7 @@ fRB
 >
 fLookAheadHardBreak
 =
-true
+TRUE
 ;
 }
 else
@@ -2259,7 +2259,7 @@ doReverseDir
 :
 fReverseRule
 =
-true
+TRUE
 ;
 break
 ;
@@ -2414,7 +2414,7 @@ U_BRK_UNDEFINED_VARIABLE
 ;
 returnVal
 =
-false
+FALSE
 ;
 }
 break
@@ -2434,7 +2434,7 @@ U_BRK_ASSIGN_ERROR
 ;
 returnVal
 =
-false
+FALSE
 ;
 break
 ;
@@ -2443,7 +2443,7 @@ doExit
 :
 returnVal
 =
-false
+FALSE
 ;
 break
 ;
@@ -2465,7 +2465,7 @@ U_BRK_INTERNAL_ERROR
 ;
 returnVal
 =
-false
+FALSE
 ;
 break
 ;
@@ -3325,7 +3325,7 @@ U_BRK_NEW_LINE_IN_QUOTED_STRING
 ;
 fQuoteMode
 =
-false
+FALSE
 ;
 }
 }
@@ -3380,7 +3380,7 @@ c
 .
 fEscaped
 =
-false
+FALSE
 ;
 if
 (
@@ -3420,7 +3420,7 @@ c
 .
 fEscaped
 =
-true
+TRUE
 ;
 }
 else
@@ -3433,6 +3433,9 @@ fQuoteMode
 if
 (
 fQuoteMode
+=
+=
+TRUE
 )
 {
 c
@@ -3455,7 +3458,7 @@ c
 .
 fEscaped
 =
-false
+FALSE
 ;
 return
 ;
@@ -3470,7 +3473,7 @@ c
 .
 fEscaped
 =
-true
+TRUE
 ;
 }
 else
@@ -3618,7 +3621,7 @@ c
 .
 fEscaped
 =
-true
+TRUE
 ;
 int32_t
 startX
@@ -3863,7 +3866,7 @@ fC
 fEscaped
 =
 =
-false
+FALSE
 &
 &
 tableEl
@@ -4000,7 +4003,7 @@ fC
 fEscaped
 =
 =
-false
+FALSE
 &
 &
 fC
@@ -4102,7 +4105,7 @@ fAction
 )
 =
 =
-false
+FALSE
 )
 {
 break
@@ -4361,7 +4364,7 @@ fRB
 -
 >
 fForwardTree
-true
+TRUE
 )
 ;
 RBBIDebugPrintf
@@ -4390,7 +4393,7 @@ fRB
 -
 >
 fReverseTree
-true
+TRUE
 )
 ;
 RBBIDebugPrintf
@@ -4421,7 +4424,7 @@ fRB
 -
 >
 fSafeFwdTree
-true
+TRUE
 )
 ;
 RBBIDebugPrintf
@@ -4452,7 +4455,7 @@ fRB
 -
 >
 fSafeRevTree
-true
+TRUE
 )
 ;
 }
@@ -4519,7 +4522,7 @@ fNodeStack
 [
 i
 ]
-true
+TRUE
 )
 ;
 }

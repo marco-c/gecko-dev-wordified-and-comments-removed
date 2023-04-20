@@ -771,10 +771,7 @@ OutputFile
 IcuBinOutputDir
 )
 \
-icudt
-(
-IcuMajorVersion
-)
+icudt71
 .
 dll
 <

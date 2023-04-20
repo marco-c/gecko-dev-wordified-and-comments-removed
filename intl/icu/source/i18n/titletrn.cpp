@@ -190,7 +190,7 @@ type
 UBool
 doTitle
 =
-true
+TRUE
 ;
 UChar32
 c
@@ -249,7 +249,7 @@ type
 {
 doTitle
 =
-false
+FALSE
 ;
 break
 ;
@@ -463,7 +463,7 @@ tmp
 .
 setTo
 (
-false
+FALSE
 s
 result
 )

@@ -267,7 +267,7 @@ start
 UBool
 found
 =
-false
+FALSE
 ;
 while
 (
@@ -316,7 +316,7 @@ diff
 {
 found
 =
-true
+TRUE
 ;
 start
 =
@@ -377,7 +377,7 @@ diff
 {
 found
 =
-true
+TRUE
 ;
 }
 else

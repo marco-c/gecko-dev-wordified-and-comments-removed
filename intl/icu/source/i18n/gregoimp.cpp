@@ -125,11 +125,13 @@ numerator
 int32_t
 denominator
 int32_t
-*
+&
 remainder
 )
 {
 double
+quotient
+;
 quotient
 =
 uprv_floor
@@ -139,17 +141,13 @@ numerator
 denominator
 )
 ;
-*
 remainder
 =
 (
 int32_t
 )
 (
-uprv_floor
-(
 numerator
-)
 -
 (
 quotient
@@ -176,7 +174,7 @@ dividend
 double
 divisor
 double
-*
+&
 remainder
 )
 {
@@ -196,7 +194,6 @@ dividend
 divisor
 )
 ;
-*
 remainder
 =
 dividend
@@ -209,13 +206,11 @@ divisor
 ;
 if
 (
-*
 remainder
 <
 0
 |
 |
-*
 remainder
 >
 =
@@ -231,7 +226,6 @@ quotient
 +
 =
 (
-*
 remainder
 <
 0
@@ -251,7 +245,6 @@ q
 quotient
 )
 {
-*
 remainder
 =
 0
@@ -259,7 +252,6 @@ remainder
 }
 else
 {
-*
 remainder
 =
 dividend
@@ -277,11 +269,9 @@ U_ASSERT
 0
 <
 =
-*
 remainder
 &
 &
-*
 remainder
 <
 divisor
@@ -506,7 +496,6 @@ floorDivide
 (
 day
 146097
-&
 doy
 )
 ;
@@ -520,7 +509,6 @@ floorDivide
 (
 doy
 36524
-&
 doy
 )
 ;
@@ -534,7 +522,6 @@ floorDivide
 (
 doy
 1461
-&
 doy
 )
 ;
@@ -548,7 +535,6 @@ floorDivide
 (
 doy
 365
-&
 doy
 )
 ;
@@ -750,7 +736,6 @@ time
 double
 )
 U_MILLIS_PER_DAY
-&
 millisInDay
 )
 ;
@@ -792,12 +777,8 @@ floorDivide
 (
 day
 +
-int
-{
 UCAL_THURSDAY
-}
 7
-&
 dow
 )
 ;

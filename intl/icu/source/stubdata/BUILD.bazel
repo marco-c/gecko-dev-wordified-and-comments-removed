@@ -142,15 +142,6 @@ stubdata
 cpp
 "
 ]
-hdrs
-=
-[
-"
-stubdata
-.
-h
-"
-]
 deps
 =
 [

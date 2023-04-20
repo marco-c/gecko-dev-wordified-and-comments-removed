@@ -379,7 +379,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 UDataMemory_init
@@ -388,7 +388,7 @@ pData
 )
 ;
 return
-false
+FALSE
 ;
 }
 U_CFUNC
@@ -433,7 +433,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 HANDLE
@@ -523,7 +523,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -541,7 +541,7 @@ status
 U_BUFFER_OVERFLOW_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 file
@@ -589,7 +589,7 @@ U_MEMORY_ALLOCATION_ERROR
 ;
 }
 return
-false
+FALSE
 ;
 }
 map
@@ -637,7 +637,7 @@ U_MEMORY_ALLOCATION_ERROR
 ;
 }
 return
-false
+FALSE
 ;
 }
 pData
@@ -679,7 +679,7 @@ map
 )
 ;
 return
-false
+FALSE
 ;
 }
 pData
@@ -690,7 +690,7 @@ map
 map
 ;
 return
-true
+TRUE
 ;
 }
 U_CFUNC
@@ -797,7 +797,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 UDataMemory_init
@@ -827,7 +827,7 @@ st_size
 )
 {
 return
-false
+FALSE
 ;
 }
 length
@@ -854,7 +854,7 @@ fd
 )
 {
 return
-false
+FALSE
 ;
 }
 #
@@ -905,7 +905,7 @@ MAP_FAILED
 )
 {
 return
-false
+FALSE
 ;
 }
 pData
@@ -956,7 +956,7 @@ POSIX_MADV_RANDOM
 #
 endif
 return
-true
+TRUE
 ;
 }
 U_CFUNC
@@ -1139,7 +1139,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 UDataMemory_init
@@ -1166,7 +1166,7 @@ nullptr
 )
 {
 return
-false
+FALSE
 ;
 }
 fileLength
@@ -1196,7 +1196,7 @@ file
 )
 ;
 return
-false
+FALSE
 ;
 }
 p
@@ -1225,7 +1225,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 if
@@ -1253,7 +1253,7 @@ file
 )
 ;
 return
-false
+FALSE
 ;
 }
 fclose
@@ -1288,7 +1288,7 @@ mapAddr
 p
 ;
 return
-true
+TRUE
 ;
 }
 U_CFUNC
@@ -1588,7 +1588,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 inBasename
@@ -1684,7 +1684,7 @@ st_size
 )
 {
 return
-false
+FALSE
 ;
 }
 length
@@ -1711,7 +1711,7 @@ fd
 )
 {
 return
-false
+FALSE
 ;
 }
 data
@@ -1740,7 +1740,7 @@ MAP_FAILED
 )
 {
 return
-false
+FALSE
 ;
 }
 pData
@@ -1776,7 +1776,7 @@ mapAddr
 data
 ;
 return
-true
+TRUE
 ;
 }
 #
@@ -1884,7 +1884,7 @@ val
 )
 {
 return
-false
+FALSE
 ;
 }
 #
@@ -1928,13 +1928,13 @@ DataHeader
 val
 ;
 return
-true
+TRUE
 ;
 }
 else
 {
 return
-false
+FALSE
 ;
 }
 }

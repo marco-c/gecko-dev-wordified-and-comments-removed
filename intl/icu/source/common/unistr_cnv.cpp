@@ -814,7 +814,7 @@ cnv
 {
 isDefaultConverter
 =
-true
+TRUE
 ;
 cnv
 =
@@ -841,7 +841,7 @@ else
 {
 isDefaultConverter
 =
-false
+FALSE
 ;
 ucnv_resetFromUnicode
 (
@@ -1017,7 +1017,7 @@ destLimit
 src
 srcLimit
 0
-true
+TRUE
 &
 errorCode
 )
@@ -1076,7 +1076,7 @@ destLimit
 src
 srcLimit
 0
-true
+TRUE
 &
 errorCode
 )
@@ -1246,7 +1246,7 @@ cloneArrayIfNeeded
 (
 dataLength
 dataLength
-false
+FALSE
 )
 )
 {
@@ -1432,7 +1432,7 @@ dataLength
 UBool
 doCopyArray
 =
-false
+FALSE
 ;
 for
 (
@@ -1486,7 +1486,7 @@ getCapacity
 mySource
 mySourceEnd
 0
-true
+TRUE
 &
 status
 )
@@ -1517,7 +1517,7 @@ U_ZERO_ERROR
 ;
 doCopyArray
 =
-true
+TRUE
 ;
 arraySize
 =

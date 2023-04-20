@@ -1774,6 +1774,9 @@ fSpoofData
 -
 >
 fDataOwned
+=
+=
+TRUE
 )
 ;
 int32_t

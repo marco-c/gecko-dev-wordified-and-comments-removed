@@ -486,7 +486,7 @@ c
 )
 {
 return
-true
+TRUE
 ;
 }
 GET_PROPS
@@ -2746,7 +2746,7 @@ sc32
 )
 {
 return
-false
+FALSE
 ;
 }
 while
@@ -3072,7 +3072,7 @@ void
 value
 ;
 return
-true
+TRUE
 ;
 }
 #

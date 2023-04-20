@@ -2184,14 +2184,6 @@ adalar
 )
 "
 }
-NZ
-{
-"
-Aotearoa
-Yeni
-Zelandiya
-"
-}
 SZ
 {
 "

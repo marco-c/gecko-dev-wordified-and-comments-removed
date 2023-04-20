@@ -339,7 +339,7 @@ inStr
 .
 fOwnFile
 =
-false
+FALSE
 ;
 #
 if

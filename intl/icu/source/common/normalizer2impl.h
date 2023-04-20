@@ -556,8 +556,6 @@ private
 Hangul
 (
 )
-=
-delete
 ;
 }
 ;
@@ -3443,8 +3441,8 @@ smallFCD
 ;
 UInitOnce
 fCanonIterDataInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 CanonIterData
 *
@@ -3570,8 +3568,6 @@ private
 Normalizer2Factory
 (
 )
-=
-delete
 ;
 }
 ;

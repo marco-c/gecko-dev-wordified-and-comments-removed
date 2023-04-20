@@ -777,8 +777,8 @@ filteredTransliterate
 (
 text
 offsets
-false
-true
+FALSE
+TRUE
 )
 ;
 return
@@ -942,8 +942,8 @@ filteredTransliterate
 (
 text
 index
-false
-true
+FALSE
+TRUE
 )
 ;
 }
@@ -1079,8 +1079,8 @@ filteredTransliterate
 (
 text
 index
-true
-true
+TRUE
+TRUE
 )
 ;
 #
@@ -1323,7 +1323,7 @@ limit
 <
 globalLimit
 ?
-false
+FALSE
 :
 incremental
 )
@@ -1454,7 +1454,7 @@ handleTransliterate
 (
 text
 index
-true
+TRUE
 )
 ;
 delta
@@ -1698,7 +1698,7 @@ filteredTransliterate
 text
 index
 incremental
-false
+FALSE
 )
 ;
 }
@@ -2997,7 +2997,7 @@ orphanElementAt
 (
 0
 )
-true
+TRUE
 )
 ;
 }
@@ -3049,7 +3049,7 @@ compoundFilter
 toPattern
 (
 filterPattern
-false
+FALSE
 )
 ;
 t
@@ -3362,7 +3362,7 @@ passNumber
 +
 )
 data
-true
+TRUE
 )
 ;
 if
@@ -3797,7 +3797,7 @@ filter
 UBool
 deleteFilterSet
 =
-false
+FALSE
 ;
 if
 (
@@ -3828,7 +3828,7 @@ result
 }
 deleteFilterSet
 =
-true
+TRUE
 ;
 filter
 -
@@ -3989,7 +3989,7 @@ put
 id
 factory
 context
-true
+TRUE
 ec
 )
 ;
@@ -4090,7 +4090,7 @@ registry
 put
 (
 adoptedPrototype
-true
+TRUE
 ec
 )
 ;
@@ -4168,8 +4168,8 @@ put
 (
 aliasID
 realID
-false
-true
+FALSE
+TRUE
 ec
 )
 ;
@@ -4932,7 +4932,7 @@ registry
 )
 {
 return
-true
+TRUE
 ;
 }
 registry
@@ -4965,7 +4965,7 @@ registry
 0
 ;
 return
-false
+FALSE
 ;
 }
 UErrorCode
@@ -5039,7 +5039,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 if
@@ -5247,12 +5247,12 @@ put
 id
 UnicodeString
 (
-true
+TRUE
 resString
 len
 )
 dir
-true
+TRUE
 visible
 lstatus
 )
@@ -5282,12 +5282,12 @@ put
 id
 UnicodeString
 (
-true
+TRUE
 resString
 len
 )
-true
-true
+TRUE
+TRUE
 lstatus
 )
 ;
@@ -5485,7 +5485,7 @@ registry
 put
 (
 tempNullTranslit
-true
+TRUE
 status
 )
 ;
@@ -5495,7 +5495,7 @@ registry
 put
 (
 tempLowercaseTranslit
-true
+TRUE
 status
 )
 ;
@@ -5505,7 +5505,7 @@ registry
 put
 (
 tempUppercaseTranslit
-true
+TRUE
 status
 )
 ;
@@ -5515,7 +5515,7 @@ registry
 put
 (
 tempTitlecaseTranslit
-true
+TRUE
 status
 )
 ;
@@ -5525,7 +5525,7 @@ registry
 put
 (
 tempUnicodeTranslit
-true
+TRUE
 status
 )
 ;
@@ -5535,7 +5535,7 @@ registry
 put
 (
 tempNameUnicodeTranslit
-true
+TRUE
 status
 )
 ;
@@ -5549,7 +5549,7 @@ registry
 put
 (
 tempBreakTranslit
-false
+FALSE
 status
 )
 ;
@@ -5604,7 +5604,7 @@ UNICODE_STRING_SIMPLE
 Null
 "
 )
-false
+FALSE
 )
 ;
 _registerSpecialInverse
@@ -5621,7 +5621,7 @@ UNICODE_STRING_SIMPLE
 Lower
 "
 )
-true
+TRUE
 )
 ;
 _registerSpecialInverse
@@ -5638,7 +5638,7 @@ UNICODE_STRING_SIMPLE
 Lower
 "
 )
-false
+FALSE
 )
 ;
 ucln_i18n_registerCleanup
@@ -5648,7 +5648,7 @@ utrans_transliterator_cleanup
 )
 ;
 return
-true
+TRUE
 ;
 }
 U_NAMESPACE_END
@@ -5681,7 +5681,7 @@ NULL
 ;
 }
 return
-true
+TRUE
 ;
 }
 #

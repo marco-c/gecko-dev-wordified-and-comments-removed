@@ -2222,17 +2222,17 @@ formatReplaceCloseParen
 UBool
 haveLang
 =
-true
+TRUE
 ;
 UBool
 haveRest
 =
-true
+TRUE
 ;
 UBool
 retry
 =
-false
+FALSE
 ;
 int32_t
 langi
@@ -2724,7 +2724,7 @@ subi
 UBool
 subdone
 =
-false
+FALSE
 ;
 int32_t
 cap
@@ -2797,7 +2797,7 @@ langLen
 }
 subdone
 =
-true
+TRUE
 ;
 }
 else
@@ -2810,7 +2810,7 @@ haveRest
 {
 subdone
 =
-true
+TRUE
 ;
 }
 else
@@ -2927,7 +2927,7 @@ len
 ;
 subdone
 =
-true
+TRUE
 ;
 }
 else
@@ -3411,7 +3411,7 @@ sub0Pos
 ;
 retry
 =
-true
+TRUE
 ;
 }
 }

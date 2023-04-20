@@ -1083,7 +1083,7 @@ makeReorderRanges
 (
 reorder
 length
-false
+FALSE
 ranges
 errorCode
 )
@@ -1500,7 +1500,7 @@ length
 UBool
 hasReorderToEnd
 =
-false
+FALSE
 ;
 for
 (
@@ -1535,7 +1535,7 @@ USCRIPT_UNKNOWN
 {
 hasReorderToEnd
 =
-true
+TRUE
 ;
 while
 (
@@ -1784,7 +1784,7 @@ makeReorderRanges
 (
 reorder
 originalLength
-true
+TRUE
 ranges
 errorCode
 )

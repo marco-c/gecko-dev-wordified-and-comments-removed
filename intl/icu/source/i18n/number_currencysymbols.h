@@ -157,12 +157,6 @@ status
 )
 const
 ;
-bool
-hasEmptyCurrencySymbol
-(
-)
-const
-;
 protected
 :
 CurrencyUnit

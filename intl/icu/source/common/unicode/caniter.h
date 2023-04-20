@@ -154,8 +154,6 @@ private
 CanonicalIterator
 (
 )
-=
-delete
 ;
 CanonicalIterator
 (
@@ -164,8 +162,6 @@ CanonicalIterator
 &
 other
 )
-=
-delete
 ;
 CanonicalIterator
 &
@@ -177,8 +173,6 @@ CanonicalIterator
 &
 other
 )
-=
-delete
 ;
 UnicodeString
 source

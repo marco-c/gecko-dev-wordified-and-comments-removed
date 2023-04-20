@@ -475,7 +475,6 @@ floorDivide
 (
 month
 12
-&
 month
 )
 ;
@@ -813,7 +812,6 @@ floorDivide
 (
 month
 12
-&
 month
 )
 ;
@@ -1204,7 +1202,7 @@ useDaylightTime
 )
 {
 return
-false
+FALSE
 ;
 }
 (
@@ -1241,7 +1239,7 @@ UCAL_DST_OFFSET
 0
 )
 :
-false
+FALSE
 )
 ;
 }
@@ -1264,8 +1262,8 @@ icu
 :
 UInitOnce
 gSystemDefaultCenturyInit
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 UBool
 IndianCalendar
@@ -1277,7 +1275,7 @@ haveDefaultCentury
 const
 {
 return
-true
+TRUE
 ;
 }
 static

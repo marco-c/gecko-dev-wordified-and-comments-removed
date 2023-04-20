@@ -366,7 +366,7 @@ pBiDi
 >
 mayAllocateText
 =
-true
+TRUE
 ;
 }
 if
@@ -420,7 +420,7 @@ pBiDi
 >
 mayAllocateRuns
 =
-true
+TRUE
 ;
 }
 if
@@ -510,13 +510,13 @@ pSize
 sizeNeeded
 ;
 return
-true
+TRUE
 ;
 }
 else
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -532,7 +532,7 @@ pSize
 )
 {
 return
-true
+TRUE
 ;
 }
 else
@@ -543,7 +543,7 @@ mayAllocate
 )
 {
 return
-false
+FALSE
 ;
 }
 else
@@ -580,13 +580,13 @@ pSize
 sizeNeeded
 ;
 return
-true
+TRUE
 ;
 }
 else
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -836,7 +836,7 @@ isInverse
 else
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -1287,7 +1287,7 @@ count
 SIMPLE_PARAS_COUNT
 )
 return
-true
+TRUE
 ;
 if
 (
@@ -1301,7 +1301,7 @@ SIMPLE_PARAS_COUNT
 )
 )
 return
-false
+FALSE
 ;
 pBiDi
 -
@@ -1332,7 +1332,7 @@ Para
 )
 ;
 return
-true
+TRUE
 ;
 }
 if
@@ -1347,7 +1347,7 @@ count
 )
 )
 return
-false
+FALSE
 ;
 pBiDi
 -
@@ -1360,7 +1360,7 @@ pBiDi
 parasMemory
 ;
 return
-true
+TRUE
 ;
 }
 static
@@ -2180,10 +2180,10 @@ pBiDi
 )
 =
 =
-false
+FALSE
 )
 return
-false
+FALSE
 ;
 if
 (
@@ -2493,7 +2493,7 @@ lastArabicPos
 lastArabicPos
 ;
 return
-true
+TRUE
 ;
 }
 U_CFUNC
@@ -3239,7 +3239,7 @@ limit
 )
 )
 return
-false
+FALSE
 ;
 if
 (
@@ -3361,7 +3361,7 @@ limit
 +
 ;
 return
-true
+TRUE
 ;
 }
 static
@@ -3623,7 +3623,7 @@ level
 ;
 stable
 =
-true
+TRUE
 ;
 if
 (
@@ -4262,7 +4262,7 @@ position
 UBIDI_LEVEL_OVERRIDE
 ;
 return
-true
+TRUE
 ;
 }
 if
@@ -4323,7 +4323,7 @@ position
 )
 )
 return
-false
+FALSE
 ;
 }
 else
@@ -4346,7 +4346,7 @@ position
 )
 )
 return
-false
+FALSE
 ;
 }
 if
@@ -4360,7 +4360,7 @@ position
 )
 )
 return
-false
+FALSE
 ;
 }
 }
@@ -4782,7 +4782,7 @@ flag
 ;
 }
 return
-true
+TRUE
 ;
 }
 static
@@ -13323,7 +13323,7 @@ pBiDi
 >
 mayAllocateText
 =
-false
+FALSE
 ;
 ubidi_setPara
 (
@@ -15513,7 +15513,7 @@ orderParagraphsLTR
 else
 {
 return
-false
+FALSE
 ;
 }
 }

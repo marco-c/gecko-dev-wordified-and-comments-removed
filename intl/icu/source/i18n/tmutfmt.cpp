@@ -2173,7 +2173,7 @@ style
 )
 beenHere
 (
-false
+FALSE
 )
 {
 }
@@ -2213,7 +2213,7 @@ else
 {
 beenHere
 =
-true
+TRUE
 ;
 }
 ResourceTable
@@ -3325,7 +3325,7 @@ MessageFormat
 (
 UnicodeString
 (
-true
+TRUE
 pattern
 ptLength
 )
@@ -3765,7 +3765,7 @@ MessageFormat
 (
 UnicodeString
 (
-true
+TRUE
 pattern
 -
 1
@@ -4421,7 +4421,7 @@ hTable
 new
 Hashtable
 (
-true
+TRUE
 status
 )
 )

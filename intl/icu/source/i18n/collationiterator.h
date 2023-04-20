@@ -278,8 +278,6 @@ const
 CEBuffer
 &
 )
-=
-delete
 ;
 void
 operator
@@ -289,8 +287,6 @@ const
 CEBuffer
 &
 )
-=
-delete
 ;
 MaybeStackArray
 <

@@ -290,7 +290,7 @@ csc
 >
 b1
 =
-true
+TRUE
 ;
 }
 else
@@ -318,7 +318,7 @@ csc
 >
 b1
 =
-true
+TRUE
 ;
 }
 }
@@ -570,7 +570,7 @@ tmp
 .
 setTo
 (
-false
+FALSE
 s
 result
 )

@@ -183,7 +183,7 @@ ACE_PREFIX_LENGTH
 )
 {
 return
-false
+FALSE
 ;
 }
 for
@@ -220,12 +220,12 @@ i
 )
 {
 return
-false
+FALSE
 ;
 }
 }
 return
-true
+TRUE
 ;
 }
 inline
@@ -421,12 +421,12 @@ case
 0xFF61
 :
 return
-true
+TRUE
 ;
 default
 :
 return
-false
+FALSE
 ;
 }
 }
@@ -494,7 +494,7 @@ i
 *
 done
 =
-true
+TRUE
 ;
 return
 i
@@ -585,7 +585,7 @@ srcLength
 *
 done
 =
-true
+TRUE
 ;
 return
 i
@@ -609,7 +609,7 @@ ch
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -665,11 +665,11 @@ ch
 )
 {
 return
-true
+TRUE
 ;
 }
 return
-false
+FALSE
 ;
 }
 static
@@ -762,12 +762,12 @@ NULL
 UBool
 srcIsASCII
 =
-true
+TRUE
 ;
 UBool
 srcIsLDH
 =
-true
+TRUE
 ;
 int32_t
 j
@@ -883,7 +883,7 @@ j
 {
 srcIsASCII
 =
-false
+FALSE
 ;
 }
 b1
@@ -904,7 +904,7 @@ if
 srcIsASCII
 =
 =
-false
+FALSE
 )
 {
 b1Len
@@ -1027,7 +1027,7 @@ CLEANUP
 }
 srcIsASCII
 =
-true
+TRUE
 ;
 for
 (
@@ -1056,7 +1056,7 @@ j
 {
 srcIsASCII
 =
-false
+FALSE
 ;
 }
 else
@@ -1071,12 +1071,12 @@ j
 )
 =
 =
-false
+FALSE
 )
 {
 srcIsLDH
 =
-false
+FALSE
 ;
 failPos
 =
@@ -1087,6 +1087,9 @@ j
 if
 (
 useSTD3ASCIIRules
+=
+=
+TRUE
 )
 {
 if
@@ -1094,7 +1097,7 @@ if
 srcIsLDH
 =
 =
-false
+FALSE
 |
 |
 b1
@@ -1127,7 +1130,7 @@ if
 srcIsLDH
 =
 =
-false
+FALSE
 )
 {
 uprv_syntaxError
@@ -1540,7 +1543,7 @@ NULL
 UBool
 srcIsASCII
 =
-true
+TRUE
 ;
 if
 (
@@ -1580,7 +1583,7 @@ srcLength
 {
 srcIsASCII
 =
-false
+FALSE
 ;
 }
 srcLength
@@ -1625,7 +1628,7 @@ j
 {
 srcIsASCII
 =
-false
+FALSE
 ;
 break
 ;
@@ -1643,7 +1646,7 @@ if
 srcIsASCII
 =
 =
-false
+FALSE
 )
 {
 b1Len
@@ -2531,7 +2534,7 @@ labelReqLength
 UBool
 done
 =
-false
+FALSE
 ;
 for
 (
@@ -2649,6 +2652,9 @@ remainingDestCapacity
 if
 (
 done
+=
+=
+TRUE
 )
 {
 break
@@ -2902,7 +2908,7 @@ labelReqLength
 UBool
 done
 =
-false
+FALSE
 ;
 for
 (
@@ -3001,6 +3007,9 @@ remainingDestCapacity
 if
 (
 done
+=
+=
+TRUE
 )
 {
 break

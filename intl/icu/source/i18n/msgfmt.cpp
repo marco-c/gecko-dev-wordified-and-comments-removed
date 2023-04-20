@@ -985,7 +985,7 @@ argTypeCapacity
 )
 hasArgTypeConflicts
 (
-false
+FALSE
 )
 defaultNumberFormat
 (
@@ -1085,7 +1085,7 @@ argTypeCapacity
 )
 hasArgTypeConflicts
 (
-false
+FALSE
 )
 defaultNumberFormat
 (
@@ -1188,7 +1188,7 @@ argTypeCapacity
 )
 hasArgTypeConflicts
 (
-false
+FALSE
 )
 defaultNumberFormat
 (
@@ -1405,7 +1405,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -1417,7 +1417,7 @@ capacity
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -1488,7 +1488,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 argTypes
@@ -1500,7 +1500,7 @@ argTypeCapacity
 capacity
 ;
 return
-true
+TRUE
 ;
 }
 const
@@ -2101,7 +2101,7 @@ argTypeCount
 ;
 hasArgTypeConflicts
 =
-false
+FALSE
 ;
 }
 void
@@ -4285,7 +4285,7 @@ NULL
 )
 forReplaceNumber
 (
-false
+FALSE
 )
 {
 if
@@ -4630,7 +4630,7 @@ arg
 UBool
 noArg
 =
-false
+FALSE
 ;
 UnicodeString
 argName
@@ -4689,7 +4689,7 @@ NULL
 ;
 noArg
 =
-true
+TRUE
 ;
 }
 }
@@ -4715,7 +4715,7 @@ NULL
 {
 noArg
 =
-true
+TRUE
 ;
 }
 }
@@ -5994,7 +5994,7 @@ partIndex
 UnicodeString
 other
 (
-false
+FALSE
 OTHER_STRING
 5
 )
@@ -6756,7 +6756,7 @@ i
 UBool
 haveArgResult
 =
-false
+FALSE
 ;
 const
 MessagePattern
@@ -7046,7 +7046,7 @@ getIndex
 ;
 haveArgResult
 =
-true
+TRUE
 ;
 }
 else
@@ -7194,7 +7194,7 @@ strValue
 ;
 haveArgResult
 =
-true
+TRUE
 ;
 }
 sourceOffset
@@ -7265,7 +7265,7 @@ choiceResult
 ;
 haveArgResult
 =
-true
+TRUE
 ;
 sourceOffset
 =
@@ -7910,7 +7910,7 @@ kObject
 }
 hasArgTypeConflicts
 =
-false
+FALSE
 ;
 for
 (
@@ -8218,7 +8218,7 @@ formattableType
 {
 hasArgTypeConflicts
 =
-true
+TRUE
 ;
 }
 argTypes
@@ -8842,7 +8842,7 @@ length
 UnicodeString
 buffer
 (
-false
+FALSE
 ps
 length
 )
@@ -8975,7 +8975,7 @@ temp2
 >
 setDecimalSeparatorAlwaysShown
 (
-false
+FALSE
 )
 ;
 temp2
@@ -8983,7 +8983,7 @@ temp2
 >
 setParseIntegerOnly
 (
-true
+TRUE
 )
 ;
 }
@@ -9615,7 +9615,7 @@ ec
 return
 UnicodeString
 (
-false
+FALSE
 OTHER_STRING
 5
 )
@@ -9676,7 +9676,7 @@ ec
 return
 UnicodeString
 (
-false
+FALSE
 OTHER_STRING
 5
 )
@@ -9785,7 +9785,7 @@ context
 .
 forReplaceNumber
 =
-true
+TRUE
 ;
 }
 if
@@ -9810,7 +9810,7 @@ U_INTERNAL_PROGRAM_ERROR
 return
 UnicodeString
 (
-false
+FALSE
 OTHER_STRING
 5
 )
@@ -9888,7 +9888,7 @@ ec
 return
 UnicodeString
 (
-false
+FALSE
 OTHER_STRING
 5
 )

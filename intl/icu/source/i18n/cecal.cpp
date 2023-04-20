@@ -410,7 +410,7 @@ useDaylightTime
 )
 {
 return
-false
+FALSE
 ;
 }
 (
@@ -447,7 +447,7 @@ UCAL_DST_OFFSET
 0
 )
 :
-false
+FALSE
 )
 ;
 }
@@ -461,7 +461,7 @@ haveDefaultCentury
 const
 {
 return
-true
+TRUE
 ;
 }
 int32_t
@@ -593,7 +593,6 @@ julianDay
 -
 jdEpochOffset
 1461
-&
 r4
 )
 ;

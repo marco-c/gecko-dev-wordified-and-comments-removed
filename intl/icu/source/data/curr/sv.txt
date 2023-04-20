@@ -4488,7 +4488,7 @@ dollar
 other
 {
 "
-barbadiska
+barbadisk
 dollar
 "
 }
@@ -4715,7 +4715,7 @@ dollar
 other
 {
 "
-bermudiska
+bermudisk
 dollar
 "
 }
@@ -6479,7 +6479,7 @@ dollar
 other
 {
 "
-jamaicanska
+jamaicansk
 dollar
 "
 }
@@ -6699,7 +6699,7 @@ dollar
 other
 {
 "
-caymanska
+caymansk
 dollar
 "
 }
@@ -8181,7 +8181,7 @@ pund
 other
 {
 "
-sankthelenska
+sankthelenskt
 pund
 "
 }
@@ -8636,7 +8636,7 @@ dollar
 other
 {
 "
-taiwanesiska
+taiwanesisk
 dollar
 "
 }
@@ -8754,7 +8754,7 @@ dollar
 other
 {
 "
-amerikanska
+amerikansk
 dollar
 "
 }

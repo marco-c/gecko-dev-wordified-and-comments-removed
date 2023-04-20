@@ -307,7 +307,7 @@ RBBINode
 printTree
 (
 fTree
-true
+TRUE
 )
 ;
 }
@@ -561,7 +561,7 @@ RBBINode
 printTree
 (
 fTree
-true
+TRUE
 )
 ;
 }
@@ -732,7 +732,7 @@ n
 >
 fNullable
 =
-false
+FALSE
 ;
 return
 ;
@@ -768,7 +768,7 @@ n
 >
 fNullable
 =
-true
+TRUE
 ;
 return
 ;
@@ -896,7 +896,7 @@ n
 >
 fNullable
 =
-true
+TRUE
 ;
 }
 else
@@ -906,7 +906,7 @@ n
 >
 fNullable
 =
-false
+FALSE
 ;
 }
 }
@@ -2591,7 +2591,7 @@ temp
 fMarked
 =
 =
-false
+FALSE
 )
 {
 T
@@ -2618,7 +2618,7 @@ T
 >
 fMarked
 =
-true
+TRUE
 ;
 int32_t
 a
@@ -2773,7 +2773,7 @@ ux
 UBool
 UinDstates
 =
-false
+FALSE
 ;
 if
 (
@@ -2864,7 +2864,7 @@ ix
 ;
 UinDstates
 =
-true
+TRUE
 ;
 break
 ;
@@ -4990,11 +4990,11 @@ n
 fNullable
 ?
 "
-true
+TRUE
 "
 :
 "
-false
+FALSE
 "
 )
 ;
@@ -8912,7 +8912,7 @@ fStatus
 {
 fMarked
 =
-false
+FALSE
 ;
 fAccepting
 =

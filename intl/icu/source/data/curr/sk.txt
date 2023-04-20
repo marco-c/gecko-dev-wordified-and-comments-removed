@@ -2047,7 +2047,7 @@ MRU
 "
 maurit
 nska
-ouguiya
+ukija
 "
 }
 MTL
@@ -10817,7 +10817,7 @@ few
 "
 maurit
 nske
-ouguiye
+ukije
 "
 }
 many
@@ -10825,7 +10825,7 @@ many
 "
 maurit
 nskej
-ouguiye
+ukije
 "
 }
 one
@@ -10833,7 +10833,7 @@ one
 "
 maurit
 nska
-ouguiya
+ukija
 "
 }
 other
@@ -10841,7 +10841,7 @@ other
 "
 maurit
 nskych
-ouguiy
+ukij
 "
 }
 }

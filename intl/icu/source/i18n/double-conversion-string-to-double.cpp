@@ -2515,7 +2515,7 @@ if
 infinity_symbol_
 !
 =
-DOUBLE_CONVERSION_NULLPTR
+NULL
 )
 {
 if
@@ -2625,7 +2625,7 @@ if
 nan_symbol_
 !
 =
-DOUBLE_CONVERSION_NULLPTR
+NULL
 )
 {
 if

@@ -399,8 +399,6 @@ CollationDataReader
 CollationKeys
 (
 )
-=
-delete
 ;
 static
 const

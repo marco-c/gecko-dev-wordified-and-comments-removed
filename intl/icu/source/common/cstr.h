@@ -83,8 +83,6 @@ CStr
 &
 other
 )
-=
-delete
 ;
 CStr
 &
@@ -96,8 +94,6 @@ CStr
 &
 other
 )
-=
-delete
 ;
 }
 ;

@@ -188,7 +188,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 const
@@ -235,7 +235,7 @@ maxArg
 UBool
 inQuote
 =
-false
+FALSE
 ;
 for
 (
@@ -301,7 +301,7 @@ inQuote
 {
 inQuote
 =
-false
+FALSE
 ;
 continue
 ;
@@ -327,7 +327,7 @@ i
 ;
 inQuote
 =
-true
+TRUE
 ;
 }
 else
@@ -550,7 +550,7 @@ errorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 }
@@ -673,7 +673,7 @@ errorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 compiledPattern
@@ -688,7 +688,7 @@ argCount
 )
 ;
 return
-true
+TRUE
 ;
 }
 UnicodeString
@@ -929,7 +929,7 @@ length
 values
 appendTo
 NULL
-true
+TRUE
 offsets
 offsetsLength
 errorCode
@@ -1175,7 +1175,7 @@ values
 result
 &
 resultCopy
-false
+FALSE
 offsets
 offsetsLength
 errorCode

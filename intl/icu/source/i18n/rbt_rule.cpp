@@ -359,7 +359,7 @@ StringMatcher
 pattern
 0
 anteContextLength
-false
+FALSE
 *
 data
 )
@@ -401,7 +401,7 @@ anteContextLength
 anteContextLength
 +
 keyLength
-false
+FALSE
 *
 data
 )
@@ -460,7 +460,7 @@ pattern
 length
 (
 )
-false
+FALSE
 *
 data
 )
@@ -867,7 +867,7 @@ matchesIndexValue
 v
 )
 :
-true
+TRUE
 ;
 }
 UBool
@@ -1251,7 +1251,7 @@ matches
 text
 oText
 anteLimit
-false
+FALSE
 )
 ;
 if
@@ -1602,7 +1602,7 @@ rule
 UChar
 )
 0x007B
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -1634,7 +1634,7 @@ rule
 UChar
 )
 0x007D
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -1682,11 +1682,11 @@ appendToRule
 rule
 UnicodeString
 (
-true
+TRUE
 FORWARD_OP
 3
 )
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -1710,7 +1710,7 @@ toReplacerPattern
 str
 escapeUnprintable
 )
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )
@@ -1725,7 +1725,7 @@ rule
 UChar
 )
 0x003B
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )

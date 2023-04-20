@@ -1690,7 +1690,7 @@ Syrien
 SZ
 {
 "
-Eswatini
+Swaziland
 "
 }
 TA
@@ -2037,12 +2037,10 @@ Republiken
 Kongo
 "
 }
-NZ
+SZ
 {
 "
-Aotearoa
-Nya
-Zeeland
+Eswatini
 "
 }
 TL

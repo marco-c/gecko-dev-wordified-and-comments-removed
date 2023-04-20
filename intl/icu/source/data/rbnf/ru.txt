@@ -220,7 +220,7 @@ e
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -257,7 +257,7 @@ u043E
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -294,7 +294,7 @@ u043E
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -329,7 +329,7 @@ u0439
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -364,7 +364,7 @@ u0445
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -401,7 +401,7 @@ u0443
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -438,7 +438,7 @@ u0443
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -473,7 +473,7 @@ u0439
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -508,7 +508,7 @@ u043C
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -543,7 +543,7 @@ u0439
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -578,7 +578,7 @@ u0435
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -613,7 +613,7 @@ u044E
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -647,7 +647,7 @@ e
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -682,7 +682,7 @@ u043C
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -717,7 +717,7 @@ u043C
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -752,7 +752,7 @@ u0439
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -787,7 +787,7 @@ u0445
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -822,7 +822,7 @@ u043C
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -857,7 +857,7 @@ u043C
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -
@@ -892,7 +892,7 @@ u0439
 "
 "
 %
-digits
+spellout
 -
 ordinal
 -

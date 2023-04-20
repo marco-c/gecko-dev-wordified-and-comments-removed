@@ -351,8 +351,6 @@ Hashtable
 &
 other
 )
-=
-delete
 ;
 Hashtable
 &
@@ -364,8 +362,6 @@ Hashtable
 &
 other
 )
-=
-delete
 ;
 }
 ;

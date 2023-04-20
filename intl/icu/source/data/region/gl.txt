@@ -2180,16 +2180,6 @@ Falkland
 )
 "
 }
-NZ
-{
-"
-Aotearoa
-(
-Nova
-Zelandia
-)
-"
-}
 SZ
 {
 "

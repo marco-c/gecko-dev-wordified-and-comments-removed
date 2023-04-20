@@ -263,7 +263,7 @@ list
 i
 ]
 =
-false
+FALSE
 ;
 -
 -
@@ -308,7 +308,7 @@ list
 i
 ]
 =
-true
+TRUE
 ;
 +
 +
@@ -384,7 +384,7 @@ list
 i
 ]
 =
-false
+FALSE
 ;
 -
 -
@@ -434,7 +434,7 @@ list
 i
 ]
 =
-false
+FALSE
 ;
 -
 -
@@ -723,7 +723,7 @@ spanLength
 UBool
 someRelevant
 =
-false
+FALSE
 ;
 for
 (
@@ -814,14 +814,14 @@ someRelevant
 =
 thisRelevant
 =
-true
+TRUE
 ;
 }
 else
 {
 thisRelevant
 =
-false
+FALSE
 ;
 }
 if
@@ -1686,7 +1686,7 @@ maxLength8
 )
 all
 (
-true
+TRUE
 )
 {
 if
@@ -1988,7 +1988,7 @@ t
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -2002,7 +2002,7 @@ length
 )
 ;
 return
-true
+TRUE
 ;
 }
 static
@@ -2039,7 +2039,7 @@ t
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -2053,7 +2053,7 @@ length
 )
 ;
 return
-true
+TRUE
 ;
 }
 static

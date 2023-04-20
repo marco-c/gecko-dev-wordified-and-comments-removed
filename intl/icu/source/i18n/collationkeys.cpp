@@ -343,7 +343,7 @@ len
 )
 ok
 (
-true
+TRUE
 )
 {
 }
@@ -1050,7 +1050,7 @@ ok
 )
 {
 return
-false
+FALSE
 ;
 }
 int32_t
@@ -1114,11 +1114,11 @@ NULL
 return
 ok
 =
-false
+FALSE
 ;
 }
 return
-true
+TRUE
 ;
 }
 }
@@ -1150,7 +1150,7 @@ Level
 )
 {
 return
-true
+TRUE
 ;
 }
 static
@@ -3292,7 +3292,7 @@ return
 UBool
 ok
 =
-true
+TRUE
 ;
 if
 (

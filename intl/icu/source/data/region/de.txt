@@ -2061,15 +2061,6 @@ Malwinen
 )
 "
 }
-NZ
-{
-"
-Aotearoa
-(
-Neuseeland
-)
-"
-}
 SZ
 {
 "

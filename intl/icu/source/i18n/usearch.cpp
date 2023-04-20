@@ -191,7 +191,7 @@ g_nfcImpl
 nullptr
 ;
 return
-true
+TRUE
 ;
 }
 U_CDECL_END
@@ -1688,7 +1688,7 @@ UCOL_IDENTICAL
 )
 {
 return
-true
+TRUE
 ;
 }
 UErrorCode
@@ -1710,7 +1710,7 @@ normalize
 (
 UnicodeString
 (
-false
+FALSE
 strsrch
 -
 >
@@ -1738,7 +1738,7 @@ normalize
 (
 UnicodeString
 (
-false
+FALSE
 strsrch
 -
 >
@@ -1901,7 +1901,7 @@ result
 >
 ownCollator
 =
-true
+TRUE
 ;
 }
 return
@@ -2383,7 +2383,7 @@ result
 >
 ownCollator
 =
-false
+FALSE
 ;
 result
 -
@@ -2458,7 +2458,7 @@ search
 >
 isOverlap
 =
-false
+FALSE
 ;
 result
 -
@@ -2468,7 +2468,7 @@ search
 >
 isCanonicalMatch
 =
-false
+FALSE
 ;
 result
 -
@@ -2488,7 +2488,7 @@ search
 >
 isForwardSearching
 =
-true
+TRUE
 ;
 result
 -
@@ -2498,7 +2498,7 @@ search
 >
 reset
 =
-true
+TRUE
 ;
 initialize
 (
@@ -2743,7 +2743,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -2791,7 +2791,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 }
@@ -2813,7 +2813,7 @@ textIter
 ;
 }
 return
-true
+TRUE
 ;
 }
 }
@@ -2907,7 +2907,7 @@ search
 >
 reset
 =
-false
+FALSE
 ;
 }
 }
@@ -3016,9 +3016,9 @@ value
 =
 USEARCH_ON
 ?
-true
+TRUE
 :
-false
+FALSE
 )
 ;
 break
@@ -3040,9 +3040,9 @@ value
 =
 USEARCH_ON
 ?
-true
+TRUE
 :
-false
+FALSE
 )
 ;
 break
@@ -3155,6 +3155,9 @@ search
 -
 >
 isOverlap
+=
+=
+TRUE
 ?
 USEARCH_ON
 :
@@ -3173,6 +3176,9 @@ search
 -
 >
 isCanonicalMatch
+=
+=
+TRUE
 ?
 USEARCH_ON
 :
@@ -3704,7 +3710,7 @@ search
 >
 reset
 =
-true
+TRUE
 ;
 #
 if
@@ -3943,7 +3949,7 @@ strsrch
 >
 ownCollator
 =
-false
+FALSE
 ;
 }
 strsrch
@@ -4341,7 +4347,7 @@ search
 >
 isForwardSearching
 =
-true
+TRUE
 ;
 usearch_setOffset
 (
@@ -4407,7 +4413,7 @@ search
 >
 isForwardSearching
 =
-true
+TRUE
 ;
 usearch_setOffset
 (
@@ -4471,7 +4477,7 @@ search
 >
 isForwardSearching
 =
-false
+FALSE
 ;
 usearch_setOffset
 (
@@ -4543,7 +4549,7 @@ search
 >
 isForwardSearching
 =
-false
+FALSE
 ;
 usearch_setOffset
 (
@@ -4621,7 +4627,7 @@ search
 >
 reset
 =
-false
+FALSE
 ;
 int32_t
 textlength
@@ -4696,7 +4702,7 @@ search
 >
 isForwardSearching
 =
-true
+TRUE
 ;
 if
 (
@@ -5027,14 +5033,14 @@ search
 >
 isForwardSearching
 =
-false
+FALSE
 ;
 search
 -
 >
 reset
 =
-false
+FALSE
 ;
 setColEIterOffset
 (
@@ -5072,6 +5078,9 @@ search
 -
 >
 isForwardSearching
+=
+=
+TRUE
 )
 {
 search
@@ -5079,7 +5088,7 @@ search
 >
 isForwardSearching
 =
-false
+FALSE
 ;
 if
 (
@@ -5295,7 +5304,7 @@ U_ZERO_ERROR
 UBool
 sameCollAttribute
 =
-true
+TRUE
 ;
 uint32_t
 ceMask
@@ -5353,7 +5362,7 @@ UCOL_QUATERNARY
 {
 sameCollAttribute
 =
-false
+FALSE
 ;
 }
 strsrch
@@ -5399,7 +5408,7 @@ ceMask
 ;
 sameCollAttribute
 =
-false
+FALSE
 ;
 }
 shift
@@ -5438,7 +5447,7 @@ shift
 ;
 sameCollAttribute
 =
-false
+FALSE
 ;
 }
 varTop
@@ -5473,7 +5482,7 @@ varTop
 ;
 sameCollAttribute
 =
-false
+FALSE
 ;
 }
 if
@@ -5542,7 +5551,7 @@ search
 >
 isOverlap
 =
-false
+FALSE
 ;
 strsrch
 -
@@ -5552,7 +5561,7 @@ search
 >
 isCanonicalMatch
 =
-false
+FALSE
 ;
 strsrch
 -
@@ -5572,7 +5581,7 @@ search
 >
 isForwardSearching
 =
-true
+TRUE
 ;
 strsrch
 -
@@ -5582,7 +5591,7 @@ search
 >
 reset
 =
-true
+TRUE
 ;
 }
 }
@@ -6453,7 +6462,7 @@ status
 )
 {
 return
-true
+TRUE
 ;
 }
 #
@@ -6514,7 +6523,7 @@ index
 )
 {
 return
-true
+TRUE
 ;
 }
 UChar32
@@ -6553,7 +6562,7 @@ U_GCB_SPACING_MARK
 )
 {
 return
-true
+TRUE
 ;
 }
 U16_PREV
@@ -6622,7 +6631,7 @@ status
 )
 {
 return
-true
+TRUE
 ;
 }
 return
@@ -6635,7 +6644,7 @@ index
 #
 else
 return
-true
+TRUE
 ;
 #
 endif
@@ -6669,7 +6678,7 @@ status
 )
 {
 return
-true
+TRUE
 ;
 }
 #
@@ -6733,7 +6742,7 @@ endindex
 )
 {
 return
-false
+FALSE
 ;
 }
 return
@@ -6754,7 +6763,7 @@ end
 #
 endif
 return
-true
+TRUE
 ;
 }
 #
@@ -7183,7 +7192,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 #
@@ -7308,7 +7317,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 if
@@ -7358,7 +7367,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 int32_t
@@ -7411,7 +7420,7 @@ targetIx
 {
 found
 =
-true
+TRUE
 ;
 int32_t
 targetIxOffset
@@ -7450,7 +7459,7 @@ U_INTERNAL_PROGRAM_ERROR
 ;
 found
 =
-false
+FALSE
 ;
 break
 ;
@@ -7529,7 +7538,7 @@ U_CE_NO_MATCH
 {
 found
 =
-false
+FALSE
 ;
 break
 ;
@@ -7711,7 +7720,7 @@ UCOL_PROCESSED_NULLORDER
 {
 found
 =
-false
+FALSE
 ;
 }
 }
@@ -7815,7 +7824,7 @@ U_CE_SKIP_PATN
 {
 found
 =
-false
+FALSE
 ;
 break
 ;
@@ -7864,7 +7873,7 @@ status
 {
 found
 =
-false
+FALSE
 ;
 }
 if
@@ -7897,13 +7906,13 @@ secondIx
 {
 found
 =
-false
+FALSE
 ;
 }
 UBool
 allowMidclusterMatch
 =
-false
+FALSE
 ;
 if
 (
@@ -8174,7 +8183,7 @@ maxLimit
 {
 found
 =
-false
+FALSE
 ;
 }
 if
@@ -8191,7 +8200,7 @@ status
 {
 found
 =
-false
+FALSE
 ;
 }
 if
@@ -8220,7 +8229,7 @@ mLimit
 {
 found
 =
-false
+FALSE
 ;
 }
 if
@@ -8365,7 +8374,7 @@ status
 {
 found
 =
-false
+FALSE
 ;
 }
 if
@@ -8373,7 +8382,7 @@ if
 found
 =
 =
-false
+FALSE
 )
 {
 mLimit
@@ -8450,7 +8459,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 #
@@ -8575,7 +8584,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 if
@@ -8644,7 +8653,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 int32_t
@@ -8722,7 +8731,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 const
@@ -8776,7 +8785,7 @@ targetIx
 {
 found
 =
-true
+TRUE
 ;
 const
 CEI
@@ -8805,7 +8814,7 @@ U_INTERNAL_PROGRAM_ERROR
 ;
 found
 =
-false
+FALSE
 ;
 break
 ;
@@ -8903,7 +8912,7 @@ U_CE_NO_MATCH
 {
 found
 =
-false
+FALSE
 ;
 break
 ;
@@ -9025,7 +9034,7 @@ status
 {
 found
 =
-false
+FALSE
 ;
 }
 if
@@ -9053,7 +9062,7 @@ highIndex
 {
 found
 =
-false
+FALSE
 ;
 }
 minLimit
@@ -9109,7 +9118,7 @@ UCOL_PROCESSED_NULLORDER
 {
 found
 =
-false
+FALSE
 ;
 }
 mLimit
@@ -9124,7 +9133,7 @@ lowIndex
 UBool
 allowMidclusterMatch
 =
-false
+FALSE
 ;
 if
 (
@@ -9311,7 +9320,7 @@ maxLimit
 {
 found
 =
-false
+FALSE
 ;
 }
 if
@@ -9328,7 +9337,7 @@ status
 {
 found
 =
-false
+FALSE
 ;
 }
 if
@@ -9433,7 +9442,7 @@ mLimit
 {
 found
 =
-false
+FALSE
 ;
 }
 if
@@ -9578,7 +9587,7 @@ status
 {
 found
 =
-false
+FALSE
 ;
 }
 if
@@ -9586,7 +9595,7 @@ if
 found
 =
 =
-false
+FALSE
 )
 {
 mLimit
@@ -9660,7 +9669,7 @@ status
 )
 ;
 return
-false
+FALSE
 ;
 }
 int32_t
@@ -9723,7 +9732,7 @@ end
 start
 ;
 return
-true
+TRUE
 ;
 }
 else
@@ -9736,7 +9745,7 @@ status
 )
 ;
 return
-false
+FALSE
 ;
 }
 }
@@ -9768,7 +9777,7 @@ status
 )
 ;
 return
-false
+FALSE
 ;
 }
 int32_t
@@ -9831,7 +9840,7 @@ end
 start
 ;
 return
-true
+TRUE
 ;
 }
 else
@@ -9844,7 +9853,7 @@ status
 )
 ;
 return
-false
+FALSE
 ;
 }
 }
@@ -9876,7 +9885,7 @@ status
 )
 ;
 return
-false
+FALSE
 ;
 }
 int32_t
@@ -9954,7 +9963,7 @@ status
 )
 ;
 return
-false
+FALSE
 ;
 }
 for
@@ -10025,7 +10034,7 @@ status
 )
 ;
 return
-false
+FALSE
 ;
 }
 textOffset
@@ -10102,7 +10111,7 @@ end
 start
 ;
 return
-true
+TRUE
 ;
 }
 else
@@ -10115,7 +10124,7 @@ status
 )
 ;
 return
-false
+FALSE
 ;
 }
 }
@@ -10147,7 +10156,7 @@ status
 )
 ;
 return
-false
+FALSE
 ;
 }
 int32_t
@@ -10225,7 +10234,7 @@ status
 )
 ;
 return
-false
+FALSE
 ;
 }
 for
@@ -10296,7 +10305,7 @@ status
 )
 ;
 return
-false
+FALSE
 ;
 }
 textOffset
@@ -10373,7 +10382,7 @@ end
 start
 ;
 return
-true
+TRUE
 ;
 }
 else
@@ -10386,7 +10395,7 @@ status
 )
 ;
 return
-false
+FALSE
 ;
 }
 }

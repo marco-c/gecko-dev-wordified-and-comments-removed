@@ -625,8 +625,6 @@ CharString
 &
 other
 )
-=
-delete
 ;
 CharString
 &
@@ -638,8 +636,6 @@ CharString
 &
 other
 )
-=
-delete
 ;
 char
 getDirSepChar

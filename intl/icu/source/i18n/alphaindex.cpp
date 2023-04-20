@@ -1563,7 +1563,7 @@ itemLength
 {
 checkDistinct
 =
-false
+FALSE
 ;
 }
 else
@@ -1638,14 +1638,14 @@ return
 }
 checkDistinct
 =
-false
+FALSE
 ;
 }
 else
 {
 checkDistinct
 =
-true
+TRUE
 ;
 }
 if
@@ -2097,13 +2097,13 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 UBool
 seenPrimary
 =
-false
+FALSE
 ;
 for
 (
@@ -2161,17 +2161,17 @@ seenPrimary
 )
 {
 return
-true
+TRUE
 ;
 }
 seenPrimary
 =
-true
+TRUE
 ;
 }
 }
 return
-false
+FALSE
 ;
 }
 }
@@ -2264,7 +2264,7 @@ variableTop
 UBool
 hasInvisibleBuckets
 =
-false
+FALSE
 ;
 Bucket
 *
@@ -2341,7 +2341,7 @@ NULL
 UBool
 hasPinyin
 =
-false
+FALSE
 ;
 LocalPointer
 <
@@ -2508,7 +2508,7 @@ scriptUpperBoundary
 UBool
 skippedScript
 =
-false
+FALSE
 ;
 for
 (
@@ -2548,7 +2548,7 @@ break
 }
 skippedScript
 =
-true
+TRUE
 ;
 }
 if
@@ -2772,7 +2772,7 @@ lastElement
 ;
 hasPinyin
 =
-true
+TRUE
 ;
 }
 if
@@ -2957,7 +2957,7 @@ nullptr
 }
 hasInvisibleBuckets
 =
-true
+TRUE
 ;
 break
 ;
@@ -3152,7 +3152,7 @@ asciiBucket
 ;
 hasInvisibleBuckets
 =
-true
+TRUE
 ;
 }
 }
@@ -4219,7 +4219,7 @@ isEmpty
 )
 {
 return
-false
+FALSE
 ;
 }
 initialLabels_
@@ -4311,7 +4311,7 @@ break
 }
 }
 return
-true
+TRUE
 ;
 }
 static
@@ -5553,7 +5553,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 int32_t
@@ -5925,7 +5925,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -5947,7 +5947,7 @@ status
 U_ENUM_OUT_OF_SYNC_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 initBuckets
@@ -5964,7 +5964,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 +
@@ -5994,7 +5994,7 @@ getBucketCount
 )
 ;
 return
-false
+FALSE
 ;
 }
 currentBucket_
@@ -6014,7 +6014,7 @@ resetRecordIterator
 )
 ;
 return
-true
+TRUE
 ;
 }
 const
@@ -6180,7 +6180,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -6196,7 +6196,7 @@ status
 U_INVALID_STATE_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 if
@@ -6212,7 +6212,7 @@ status
 U_ENUM_OUT_OF_SYNC_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 if
@@ -6227,7 +6227,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 +
@@ -6263,11 +6263,11 @@ size
 )
 ;
 return
-false
+FALSE
 ;
 }
 return
-true
+TRUE
 ;
 }
 const
