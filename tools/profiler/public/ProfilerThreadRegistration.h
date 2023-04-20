@@ -804,7 +804,7 @@ nodiscard
 ]
 ]
 RWOnThreadWithLock
-LockedRWOnThread
+GetLockedRWOnThread
 (
 )
 {
@@ -839,7 +839,7 @@ aF
 RWOnThreadWithLock
 lockedData
 =
-LockedRWOnThread
+GetLockedRWOnThread
 (
 )
 ;
