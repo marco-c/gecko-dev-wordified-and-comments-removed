@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 This
 Source
