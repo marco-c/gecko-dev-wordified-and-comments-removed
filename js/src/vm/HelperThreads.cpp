@@ -3555,6 +3555,16 @@ unlock
 lock
 )
 ;
+JSContext
+*
+cx
+=
+TlsContext
+.
+get
+(
+)
+;
 AutoSetContextRuntime
 ascr
 (
@@ -3568,6 +3578,7 @@ DelazifyTask
 :
 Create
 (
+cx
 runtime
 contextOptions
 options
@@ -4781,6 +4792,7 @@ DelazifyTask
 :
 Create
 (
+cx
 runtime
 cx
 -
@@ -5396,6 +5408,9 @@ DelazifyTask
 :
 Create
 (
+JSContext
+*
+cx
 JSRuntime
 *
 runtime
@@ -5528,6 +5543,7 @@ frontend
 ExtensibleCompilationStencil
 >
 (
+cx
 options
 stencil
 .

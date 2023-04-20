@@ -44,12 +44,6 @@ ShellObjectMailbox
 100
 )
 \
-_
-(
-WellKnownParserAtomsInit
-100
-)
-\
 \
 _
 (
