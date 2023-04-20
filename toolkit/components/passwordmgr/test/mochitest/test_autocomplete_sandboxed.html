@@ -567,10 +567,12 @@ test_autocomplete_warning_no_logins
 )
 {
 const
-autocompleteItems
+{
+items
+}
 =
 await
-openAutocompletePopup
+openPopupOn
 (
 pword
 )
@@ -626,7 +628,7 @@ More
 ;
 checkAutoCompleteResults
 (
-autocompleteItems
+items
 expectedMenuItems
 hostname
 "

@@ -300,7 +300,9 @@ allow_to_cancel_set_user_input
 )
 ;
 const
+{
 input
+}
 =
 await
 openPopupOn
@@ -574,8 +576,9 @@ e
 )
 ;
 await
-promiseACShown
+notifyMenuChanged
 (
+2
 )
 ;
 inputFired
@@ -878,8 +881,9 @@ KEY_Backspace
 )
 ;
 await
-promiseACShown
+notifyMenuChanged
 (
+2
 )
 ;
 synthesizeKey
