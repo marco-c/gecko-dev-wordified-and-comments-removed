@@ -9817,6 +9817,13 @@ setTranslationY
 0f
 )
 ;
+mGeckoView
+.
+setVerticalClipping
+(
+0
+)
+;
 }
 }
 Override
