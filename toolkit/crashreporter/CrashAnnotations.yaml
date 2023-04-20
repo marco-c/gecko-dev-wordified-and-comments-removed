@@ -4712,7 +4712,7 @@ process
 instance
 type
 :
-integer
+string
 ping
 :
 true
