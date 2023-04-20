@@ -3860,6 +3860,12 @@ lock
 sMutex
 )
 ;
+cubeb_set_log_callback
+(
+CUBEB_LOG_DISABLED
+nullptr
+)
+;
 if
 (
 sCubebContext
