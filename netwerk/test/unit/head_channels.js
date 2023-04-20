@@ -164,6 +164,11 @@ CL_IGNORE_CL
 0x100
 ;
 const
+CL_IGNORE_DELAYS
+=
+0x200
+;
+const
 SUSPEND_DELAY
 =
 3000
@@ -766,6 +771,16 @@ failure
 }
 if
 (
+!
+(
+this
+.
+_flags
+&
+CL_IGNORE_DELAYS
+)
+&
+&
 current
 -
 this
@@ -2742,7 +2757,7 @@ with_proxy
 function
 createPrincipal
 (
-url
+uri
 )
 {
 var
@@ -2765,7 +2780,7 @@ io
 .
 newURI
 (
-url
+uri
 )
 {
 }

@@ -463,6 +463,7 @@ ChannelListener
 (
 firstTimeThrough
 null
+CL_IGNORE_DELAYS
 )
 )
 ;
@@ -516,6 +517,7 @@ ChannelListener
 (
 secondTimeThrough
 null
+CL_IGNORE_DELAYS
 )
 )
 ;
