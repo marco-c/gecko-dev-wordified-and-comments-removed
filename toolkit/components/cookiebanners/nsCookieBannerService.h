@@ -63,6 +63,13 @@ h
 #
 include
 "
+nsWeakReference
+.
+h
+"
+#
+include
+"
 mozilla
 /
 RefPtr

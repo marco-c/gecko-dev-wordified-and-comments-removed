@@ -31,6 +31,13 @@ h
 #
 include
 "
+nsClickRule
+.
+h
+"
+#
+include
+"
 nsCookieRule
 .
 h

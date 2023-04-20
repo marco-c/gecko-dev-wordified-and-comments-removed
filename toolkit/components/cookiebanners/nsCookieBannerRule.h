@@ -32,6 +32,15 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Logging
+.
+h
+"
 class
 nsIClickRule
 ;
