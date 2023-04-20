@@ -1930,7 +1930,7 @@ Operand
 }
 pub
 struct
-Frontend
+Parser
 <
 I
 >
@@ -2248,7 +2248,7 @@ Item
 u32
 >
 >
-Frontend
+Parser
 <
 I
 >
@@ -2269,7 +2269,7 @@ Options
 >
 Self
 {
-Frontend
+Parser
 {
 data
 data_offset
@@ -6956,9 +6956,9 @@ format
 "
 phi_
 {
-result_id
 }
 "
+result_id
 )
 ;
 let
@@ -29127,7 +29127,7 @@ unwrap
 )
 )
 ;
-Frontend
+Parser
 :
 :
 new

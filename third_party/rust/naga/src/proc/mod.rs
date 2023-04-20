@@ -1850,13 +1850,6 @@ Determinant
 Self
 :
 :
-CountLeadingZeros
-=
->
-1
-Self
-:
-:
 CountOneBits
 =
 >

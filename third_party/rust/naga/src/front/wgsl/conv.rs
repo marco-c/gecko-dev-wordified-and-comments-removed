@@ -1709,15 +1709,6 @@ Mf
 :
 Determinant
 "
-countLeadingZeros
-"
-=
->
-Mf
-:
-:
-CountLeadingZeros
-"
 countOneBits
 "
 =

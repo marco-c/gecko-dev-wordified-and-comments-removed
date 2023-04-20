@@ -55,7 +55,7 @@ VarDeclaration
 }
 Error
 ErrorKind
-Frontend
+Parser
 Span
 }
 proc
@@ -280,11 +280,11 @@ parse_external_declaration
 &
 mut
 self
-frontend
+parser
 :
 &
 mut
-Frontend
+Parser
 global_ctx
 :
 &
@@ -309,7 +309,7 @@ self
 .
 parse_declaration
 (
-frontend
+parser
 global_ctx
 global_body
 true
@@ -327,7 +327,7 @@ self
 .
 bump
 (
-frontend
+parser
 )
 ?
 ;
@@ -341,7 +341,7 @@ TokenValue
 :
 Semicolon
 if
-frontend
+parser
 .
 meta
 .
@@ -364,7 +364,7 @@ let
 expected
 =
 match
-frontend
+parser
 .
 meta
 .
@@ -444,11 +444,11 @@ parse_initializer
 &
 mut
 self
-frontend
+parser
 :
 &
 mut
-Frontend
+Parser
 ty
 :
 Handle
@@ -496,7 +496,7 @@ self
 .
 bump_if
 (
-frontend
+parser
 TokenValue
 :
 :
@@ -529,7 +529,7 @@ len
 )
 &
 mut
-frontend
+parser
 .
 module
 .
@@ -544,7 +544,7 @@ self
 .
 parse_initializer
 (
-frontend
+parser
 new_ty
 ctx
 body
@@ -561,7 +561,7 @@ self
 .
 bump
 (
-frontend
+parser
 )
 ?
 ;
@@ -595,7 +595,7 @@ self
 .
 bump_if
 (
-frontend
+parser
 TokenValue
 :
 :
@@ -723,7 +723,7 @@ self
 .
 parse_assignment
 (
-frontend
+parser
 ctx
 &
 mut
@@ -744,7 +744,7 @@ ctx
 lower_expect
 (
 stmt
-frontend
+parser
 expr
 ExprPos
 :
@@ -760,7 +760,7 @@ scalar_components
 scalar_components
 (
 &
-frontend
+parser
 .
 module
 .
@@ -788,7 +788,7 @@ ctx
 .
 implicit_conversion
 (
-frontend
+parser
 &
 mut
 init
@@ -815,11 +815,11 @@ parse_init_declarator_list
 &
 mut
 self
-frontend
+parser
 :
 &
 mut
-Frontend
+Parser
 mut
 ty
 :
@@ -846,7 +846,7 @@ self
 .
 peek
 (
-frontend
+parser
 )
 .
 map_or
@@ -870,7 +870,7 @@ self
 .
 next
 (
-frontend
+parser
 )
 ;
 }
@@ -883,7 +883,7 @@ self
 .
 bump
 (
-frontend
+parser
 )
 ?
 ;
@@ -970,7 +970,7 @@ self
 .
 parse_array_specifier
 (
-frontend
+parser
 &
 mut
 meta
@@ -987,7 +987,7 @@ self
 .
 bump_if
 (
-frontend
+parser
 TokenValue
 :
 :
@@ -1020,7 +1020,7 @@ self
 .
 parse_initializer
 (
-frontend
+parser
 ty
 ctx
 .
@@ -1037,7 +1037,7 @@ scalar_components
 scalar_components
 (
 &
-frontend
+parser
 .
 module
 .
@@ -1067,7 +1067,7 @@ ctx
 .
 implicit_conversion
 (
-frontend
+parser
 &
 mut
 expr
@@ -1138,7 +1138,7 @@ meta
 init
 {
 match
-frontend
+parser
 .
 solve_constant
 (
@@ -1195,7 +1195,7 @@ ctx
 .
 add_var
 (
-frontend
+parser
 ty
 name
 maybe_constant
@@ -1258,7 +1258,7 @@ self
 .
 bump
 (
-frontend
+parser
 )
 ?
 ;
@@ -1345,11 +1345,11 @@ parse_declaration
 &
 mut
 self
-frontend
+parser
 :
 &
 mut
-Frontend
+Parser
 ctx
 :
 &
@@ -1379,7 +1379,7 @@ self
 .
 peek_type_qualifier
 (
-frontend
+parser
 )
 |
 |
@@ -1387,7 +1387,7 @@ self
 .
 peek_type_name
 (
-frontend
+parser
 )
 {
 let
@@ -1398,7 +1398,7 @@ self
 .
 parse_type_qualifiers
 (
-frontend
+parser
 )
 ?
 ;
@@ -1407,7 +1407,7 @@ self
 .
 peek_type_name
 (
-frontend
+parser
 )
 {
 let
@@ -1421,7 +1421,7 @@ self
 .
 parse_type
 (
-frontend
+parser
 )
 ?
 ;
@@ -1432,7 +1432,7 @@ self
 .
 bump
 (
-frontend
+parser
 )
 ?
 ;
@@ -1458,7 +1458,7 @@ self
 .
 expect_peek
 (
-frontend
+parser
 )
 ?
 .
@@ -1475,7 +1475,7 @@ self
 .
 bump
 (
-frontend
+parser
 )
 ?
 ;
@@ -1518,7 +1518,7 @@ Context
 :
 new
 (
-frontend
+parser
 &
 mut
 body
@@ -1528,7 +1528,7 @@ self
 .
 parse_function_args
 (
-frontend
+parser
 &
 mut
 context
@@ -1545,7 +1545,7 @@ self
 .
 expect
 (
-frontend
+parser
 TokenValue
 :
 :
@@ -1569,7 +1569,7 @@ self
 .
 bump
 (
-frontend
+parser
 )
 ?
 ;
@@ -1586,7 +1586,7 @@ Semicolon
 =
 >
 {
-frontend
+parser
 .
 add_prototype
 (
@@ -1620,7 +1620,7 @@ parse_compound_statement
 token
 .
 meta
-frontend
+parser
 &
 mut
 context
@@ -1633,7 +1633,7 @@ None
 )
 ?
 ;
-frontend
+parser
 .
 add_function
 (
@@ -1799,7 +1799,7 @@ self
 .
 parse_init_declarator_list
 (
-frontend
+parser
 ty
 &
 mut
@@ -1810,7 +1810,7 @@ ctx
 }
 else
 {
-frontend
+parser
 .
 errors
 .
@@ -1858,7 +1858,7 @@ self
 .
 bump
 (
-frontend
+parser
 )
 ?
 ;
@@ -1882,7 +1882,7 @@ self
 .
 bump_if
 (
-frontend
+parser
 TokenValue
 :
 :
@@ -1897,7 +1897,7 @@ self
 .
 parse_block_declaration
 (
-frontend
+parser
 ctx
 body
 &
@@ -1929,7 +1929,7 @@ is_some
 (
 )
 {
-frontend
+parser
 .
 make_variable_invariant
 (
@@ -1948,7 +1948,7 @@ unused_errors
 (
 &
 mut
-frontend
+parser
 .
 errors
 )
@@ -1957,7 +1957,7 @@ self
 .
 expect
 (
-frontend
+parser
 TokenValue
 :
 :
@@ -2025,12 +2025,12 @@ local_size_x
 "
 &
 mut
-frontend
+parser
 .
 errors
 )
 {
-frontend
+parser
 .
 meta
 .
@@ -2058,12 +2058,12 @@ local_size_y
 "
 &
 mut
-frontend
+parser
 .
 errors
 )
 {
-frontend
+parser
 .
 meta
 .
@@ -2091,12 +2091,12 @@ local_size_z
 "
 &
 mut
-frontend
+parser
 .
 errors
 )
 {
-frontend
+parser
 .
 meta
 .
@@ -2108,7 +2108,7 @@ workgroup_size
 value
 ;
 }
-frontend
+parser
 .
 meta
 .
@@ -2124,7 +2124,7 @@ early_fragment_tests
 "
 &
 mut
-frontend
+parser
 .
 errors
 )
@@ -2135,7 +2135,7 @@ unused_errors
 (
 &
 mut
-frontend
+parser
 .
 errors
 )
@@ -2201,7 +2201,7 @@ self
 .
 peek
 (
-frontend
+parser
 )
 .
 map
@@ -2230,7 +2230,7 @@ self
 .
 bump
 (
-frontend
+parser
 )
 ?
 ;
@@ -2241,7 +2241,7 @@ self
 .
 bump
 (
-frontend
+parser
 )
 ?
 ;
@@ -2349,12 +2349,12 @@ self
 .
 parse_type_non_void
 (
-frontend
+parser
 )
 ?
 ;
 match
-frontend
+parser
 .
 module
 .
@@ -2391,7 +2391,7 @@ Sint
 _
 =
 >
-frontend
+parser
 .
 errors
 .
@@ -2430,7 +2430,7 @@ self
 .
 expect
 (
-frontend
+parser
 TokenValue
 :
 :
@@ -2463,11 +2463,11 @@ parse_block_declaration
 &
 mut
 self
-frontend
+parser
 :
 &
 mut
-Frontend
+Parser
 ctx
 :
 &
@@ -2598,7 +2598,7 @@ self
 .
 parse_struct_declaration_list
 (
-frontend
+parser
 &
 mut
 members
@@ -2610,7 +2610,7 @@ self
 .
 expect
 (
-frontend
+parser
 TokenValue
 :
 :
@@ -2622,7 +2622,7 @@ let
 mut
 ty
 =
-frontend
+parser
 .
 module
 .
@@ -2670,7 +2670,7 @@ self
 .
 bump
 (
-frontend
+parser
 )
 ?
 ;
@@ -2703,7 +2703,7 @@ self
 .
 parse_array_specifier
 (
-frontend
+parser
 &
 mut
 meta
@@ -2717,7 +2717,7 @@ self
 .
 expect
 (
-frontend
+parser
 TokenValue
 :
 :
@@ -2779,7 +2779,7 @@ meta
 let
 global
 =
-frontend
+parser
 .
 add_global_var
 (
@@ -2908,14 +2908,14 @@ ctx
 .
 add_global
 (
-frontend
+parser
 &
 k
 lookup
 body
 )
 ;
-frontend
+parser
 .
 global_variables
 .
@@ -2940,11 +2940,11 @@ parse_struct_declaration_list
 &
 mut
 self
-frontend
+parser
 :
 &
 mut
-Frontend
+Parser
 members
 :
 &
@@ -2993,7 +2993,7 @@ self
 .
 parse_type_non_void
 (
-frontend
+parser
 )
 ?
 ;
@@ -3007,7 +3007,7 @@ self
 .
 expect_ident
 (
-frontend
+parser
 )
 ?
 ;
@@ -3022,7 +3022,7 @@ self
 .
 parse_array_specifier
 (
-frontend
+parser
 &
 mut
 meta
@@ -3036,7 +3036,7 @@ self
 .
 expect
 (
-frontend
+parser
 TokenValue
 :
 :
@@ -3057,20 +3057,20 @@ meta
 layout
 &
 mut
-frontend
+parser
 .
 module
 .
 types
 &
-frontend
+parser
 .
 module
 .
 constants
 &
 mut
-frontend
+parser
 .
 errors
 )
@@ -3144,7 +3144,7 @@ self
 .
 expect_peek
 (
-frontend
+parser
 )
 ?
 .

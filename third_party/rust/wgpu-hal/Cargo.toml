@@ -804,7 +804,7 @@ version
 "
 0
 .
-22
+21
 "
 default_features
 =
@@ -1323,7 +1323,7 @@ naga
 rev
 =
 "
-4b796b157cb2b67b0ab166a2238fe4e9473bfd52
+f0edae8
 "
 version
 =
@@ -1331,8 +1331,6 @@ version
 0
 .
 11
-.
-0
 "
 features
 =
@@ -1371,7 +1369,7 @@ naga
 rev
 =
 "
-4b796b157cb2b67b0ab166a2238fe4e9473bfd52
+f0edae8
 "
 version
 =
@@ -1379,8 +1377,6 @@ version
 0
 .
 11
-.
-0
 "
 features
 =
