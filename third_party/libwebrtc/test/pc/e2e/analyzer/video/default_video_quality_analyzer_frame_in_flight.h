@@ -572,6 +572,14 @@ VideoFrame
 >
 frame_
 ;
+uint16_t
+frame_id_
+=
+VideoFrame
+:
+:
+kNotSetId
+;
 Timestamp
 captured_time_
 ;
