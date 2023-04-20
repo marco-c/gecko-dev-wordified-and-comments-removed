@@ -1907,17 +1907,6 @@ state_dir
 =
 state_dir
         
-hg_installed
-hg_modern
-=
-self
-.
-instance
-.
-ensure_mercurial_modern
-(
-)
-        
 hg
 =
 to_optional_path
@@ -2062,6 +2051,33 @@ which
 git
 "
 )
+)
+        
+hg_installed
+=
+bool
+(
+hg
+)
+        
+if
+checkout_type
+=
+=
+"
+hg
+"
+:
+            
+hg_installed
+hg_modern
+=
+self
+.
+instance
+.
+ensure_mercurial_modern
+(
 )
         
 if
@@ -3554,6 +3570,12 @@ git_dir
 exists
 (
 )
+or
+hg_dir
+.
+exists
+(
+)
 :
             
 moz_configure
@@ -3580,9 +3602,21 @@ path
 )
                 
 return
+(
 "
 git
 "
+if
+git_dir
+.
+exists
+(
+)
+else
+"
+hg
+"
+)
 path
         
 if
