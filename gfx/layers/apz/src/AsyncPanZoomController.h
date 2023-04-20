@@ -1800,10 +1800,6 @@ void
 RequestContentRepaint
 (
 const
-FrameMetrics
-&
-aFrameMetrics
-const
 ParentLayerPoint
 &
 aVelocity
