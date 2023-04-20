@@ -82,7 +82,7 @@ options
 manifest
 :
 {
-browser_specific_settings
+applications
 :
 {
 gecko

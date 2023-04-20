@@ -889,7 +889,7 @@ name
 "
 set_homepage
 "
-browser_specific_settings
+applications
 :
 {
 gecko
@@ -1308,7 +1308,7 @@ name
 "
 second_set_homepage
 "
-browser_specific_settings
+applications
 :
 {
 gecko
@@ -2300,7 +2300,7 @@ name
 "
 set_homepage
 "
-browser_specific_settings
+applications
 :
 {
 gecko
@@ -3208,7 +3208,7 @@ name
 "
 set_newtab
 "
-browser_specific_settings
+applications
 :
 {
 gecko
@@ -3586,7 +3586,7 @@ name
 "
 second_set_newtab
 "
-browser_specific_settings
+applications
 :
 {
 gecko
@@ -4026,7 +4026,7 @@ description
 Testing
 WebNotificationsDisable
 "
-browser_specific_settings
+applications
 :
 {
 gecko
@@ -5111,7 +5111,7 @@ name
 "
 set_tp
 "
-browser_specific_settings
+applications
 :
 {
 gecko
@@ -5275,7 +5275,7 @@ description
 Testing
 rememberSignons
 "
-browser_specific_settings
+applications
 :
 {
 gecko
@@ -6697,7 +6697,7 @@ name
 "
 set_proxy
 "
-browser_specific_settings
+applications
 :
 {
 gecko

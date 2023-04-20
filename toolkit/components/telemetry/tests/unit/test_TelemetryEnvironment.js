@@ -2349,7 +2349,7 @@ theme
 :
 {
 }
-browser_specific_settings
+applications
 :
 {
 gecko
@@ -2394,7 +2394,7 @@ dictionaries
 :
 {
 }
-browser_specific_settings
+applications
 :
 {
 gecko
@@ -2973,7 +2973,7 @@ version
 .
 0
 "
-browser_specific_settings
+applications
 :
 {
 gecko

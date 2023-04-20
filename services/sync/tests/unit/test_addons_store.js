@@ -361,7 +361,7 @@ createTempWebExtensionFile
 manifest
 :
 {
-browser_specific_settings
+applications
 :
 {
 gecko
@@ -458,7 +458,7 @@ test_addon1
 manifest
 :
 {
-browser_specific_settings
+applications
 :
 {
 gecko
@@ -494,7 +494,7 @@ test_addon2
 manifest
 :
 {
-browser_specific_settings
+applications
 :
 {
 gecko
@@ -513,7 +513,7 @@ test_addon3
 manifest
 :
 {
-browser_specific_settings
+applications
 :
 {
 gecko

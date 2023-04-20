@@ -436,7 +436,7 @@ manifest
 {
 name
 description
-browser_specific_settings
+applications
 :
 {
 gecko

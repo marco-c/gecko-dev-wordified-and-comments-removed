@@ -453,7 +453,7 @@ name
 Monochromatic
 Theme
 "
-browser_specific_settings
+applications
 :
 {
 gecko
