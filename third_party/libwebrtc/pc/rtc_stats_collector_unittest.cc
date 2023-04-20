@@ -5118,7 +5118,7 @@ graph
 sender_track_id
 =
 "
-RTCMediaStreamTrack_sender_
+DEPRECATED_RTCMediaStreamTrack_sender_
 "
 +
 rtc
@@ -5163,7 +5163,7 @@ graph
 receiver_track_id
 =
 "
-RTCMediaStreamTrack_receiver_
+DEPRECATED_RTCMediaStreamTrack_receiver_
 "
 +
 rtc
@@ -5928,7 +5928,7 @@ graph
 sender_track_id
 =
 "
-RTCMediaStreamTrack_sender_
+DEPRECATED_RTCMediaStreamTrack_sender_
 "
 +
 rtc
@@ -5973,7 +5973,7 @@ graph
 receiver_track_id
 =
 "
-RTCMediaStreamTrack_receiver_
+DEPRECATED_RTCMediaStreamTrack_receiver_
 "
 +
 rtc
