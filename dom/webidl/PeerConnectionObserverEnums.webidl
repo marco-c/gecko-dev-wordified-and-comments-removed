@@ -122,9 +122,6 @@ IceGatheringState
 "
 SignalingState
 "
-"
-ConnectionState
-"
 }
 ;
 enum
