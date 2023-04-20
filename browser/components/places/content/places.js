@@ -2030,13 +2030,15 @@ MigrationUtils
 showMigrationWizard
 (
 window
-[
+{
+entrypoint
+:
 MigrationUtils
 .
 MIGRATION_ENTRYPOINTS
 .
 PLACES
-]
+}
 )
 ;
 }
