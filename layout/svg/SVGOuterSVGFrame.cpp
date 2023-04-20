@@ -854,6 +854,12 @@ wm
 HasPercent
 (
 )
+|
+|
+!
+GetAspectRatio
+(
+)
 )
 {
 result
