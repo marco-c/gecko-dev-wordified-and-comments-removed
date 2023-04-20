@@ -444,7 +444,7 @@ db
 getSchemaVersion
 (
 )
-71
+CURRENT_SCHEMA_VERSION
 )
 ;
 let
