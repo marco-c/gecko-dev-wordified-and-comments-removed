@@ -20,16 +20,6 @@ nsISocketProviderService
 .
 idl
 "
-"
-nsISSLSocketControl
-.
-idl
-"
-"
-nsITransportSecurityInfo
-.
-idl
-"
 ]
 XPIDL_MODULE
 =

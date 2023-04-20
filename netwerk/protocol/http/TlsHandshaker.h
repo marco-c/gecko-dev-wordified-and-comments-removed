@@ -15,7 +15,7 @@ class
 nsISocketTransport
 ;
 class
-nsISSLSocketControl
+nsITLSSocketControl
 ;
 namespace
 mozilla
@@ -80,7 +80,7 @@ nodiscard
 nsresult
 SetupNPNList
 (
-nsISSLSocketControl
+nsITLSSocketControl
 *
 ssl
 uint32_t
@@ -283,7 +283,7 @@ TlsHandshaker
 void
 Check0RttEnabled
 (
-nsISSLSocketControl
+nsITLSSocketControl
 *
 ssl
 )

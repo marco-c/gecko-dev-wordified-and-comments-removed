@@ -404,7 +404,7 @@ bool
 *
 )
 (
-nsISSLSocketControl
+nsITLSSocketControl
 *
 )
 ;
