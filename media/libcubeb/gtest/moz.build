@@ -18,6 +18,16 @@ cpp
 /
 test
 /
+test_triple_buffer
+.
+cpp
+'
+'
+.
+.
+/
+test
+/
 test_utils
 .
 cpp
