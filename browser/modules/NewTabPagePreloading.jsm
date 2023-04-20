@@ -549,9 +549,16 @@ browser
 .
 loadURI
 (
+Services
+.
+io
+.
+newURI
+(
 window
 .
 BROWSER_NEW_TAB_URL
+)
 {
 triggeringPrincipal
 :

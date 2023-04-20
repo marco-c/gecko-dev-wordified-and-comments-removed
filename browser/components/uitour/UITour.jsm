@@ -2446,7 +2446,7 @@ loadURI
 (
 url
 .
-href
+URI
 {
 triggeringPrincipal
 :
@@ -2546,7 +2546,7 @@ loadURI
 (
 url
 .
-href
+URI
 {
 triggeringPrincipal
 :

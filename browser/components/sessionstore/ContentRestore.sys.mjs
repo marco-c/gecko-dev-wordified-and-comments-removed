@@ -1684,11 +1684,18 @@ webNavigation
 .
 loadURI
 (
+Services
+.
+io
+.
+newURI
+(
 "
 about
 :
 blank
 "
+)
 loadURIOptions
 )
 ;
@@ -2672,8 +2679,6 @@ webNavigation
 loadURI
 (
 newURI
-.
-spec
 loadURIOptions
 )
 ;
