@@ -9717,6 +9717,8 @@ performance
 -
 new
 /
+shared
+/
 symbolication
 .
 jsm
@@ -9732,6 +9734,8 @@ client
 performance
 -
 new
+/
+shared
 /
 symbolication
 .

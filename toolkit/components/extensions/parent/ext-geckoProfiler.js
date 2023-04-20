@@ -106,6 +106,8 @@ performance
 -
 new
 /
+shared
+/
 symbolication
 .
 jsm

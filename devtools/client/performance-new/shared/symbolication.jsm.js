@@ -672,6 +672,8 @@ performance
 -
 new
 /
+shared
+/
 symbolication
 -
 worker
@@ -740,6 +742,8 @@ client
 performance
 -
 new
+/
+shared
 /
 symbolication
 -

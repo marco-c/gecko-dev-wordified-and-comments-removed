@@ -18,6 +18,8 @@ performance
 -
 new
 /
+shared
+/
 profiler_get_symbols
 .
 js
