@@ -8157,6 +8157,7 @@ cubeb
 context
 )
 {
+{
 auto_lock
 lock
 (
@@ -8198,6 +8199,7 @@ context
 device_ids
 )
 ;
+}
 }
 delete
 context
