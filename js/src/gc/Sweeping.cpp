@@ -5645,6 +5645,7 @@ if
 markUntilBudgetExhausted
 (
 budget
+AllowParallelMarking
 )
 =
 =
@@ -8376,6 +8377,12 @@ isIdle
 ;
 if
 (
+markOnBackgroundThreadDuringSweeping
+)
+{
+if
+(
+!
 marker
 (
 )
@@ -8383,15 +8390,6 @@ marker
 isDrained
 (
 )
-)
-{
-return
-Finished
-;
-}
-if
-(
-markOnBackgroundThreadDuringSweeping
 )
 {
 AutoLockHelperThreadState
@@ -8421,6 +8419,7 @@ startOrRunIfIdle
 lock
 )
 ;
+}
 return
 Finished
 ;
@@ -8447,6 +8446,7 @@ return
 markUntilBudgetExhausted
 (
 budget
+AllowParallelMarking
 )
 ;
 }
@@ -8713,6 +8713,10 @@ this
 -
 >
 budget
+GCRuntime
+:
+:
+SingleThreadedMarking
 DontReportMarkTime
 )
 ;

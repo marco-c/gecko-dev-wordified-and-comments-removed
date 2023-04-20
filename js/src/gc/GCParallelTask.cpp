@@ -669,6 +669,13 @@ rt
 AutoLockHelperThreadState
 lock
 ;
+state_
+=
+State
+:
+:
+Running
+;
 runTask
 (
 gc
@@ -682,6 +689,13 @@ gcContext
 )
 lock
 )
+;
+state_
+=
+State
+:
+:
+Idle
 ;
 }
 class
