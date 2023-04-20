@@ -1191,10 +1191,10 @@ ShapeSetForAdd
 *
 MakeShapeSetForAdd
 (
-Shape
+SharedShape
 *
 shape1
-Shape
+SharedShape
 *
 shape2
 )
@@ -1332,7 +1332,7 @@ release
 }
 static
 MOZ_ALWAYS_INLINE
-Shape
+SharedShape
 *
 LookupShapeForAdd
 (
@@ -1367,7 +1367,7 @@ isSingleShapeForAdd
 )
 )
 {
-Shape
+SharedShape
 *
 newShape
 =
@@ -1441,7 +1441,7 @@ lookup
 )
 )
 {
-Shape
+SharedShape
 *
 newShape
 =
@@ -1694,7 +1694,7 @@ false
 }
 if
 (
-Shape
+auto
 *
 shape
 =
@@ -1983,7 +1983,7 @@ false
 bool
 allocatedNewShape
 ;
-Shape
+SharedShape
 *
 newShape
 =
@@ -2124,7 +2124,7 @@ isSingleShapeForAdd
 )
 )
 {
-Shape
+SharedShape
 *
 prevShape
 =
@@ -6582,7 +6582,7 @@ ShapeForAddHasher
 :
 match
 (
-Shape
+SharedShape
 *
 shape
 const
