@@ -170,9 +170,15 @@ move
 this
 )
 ;
+std
+:
+:
+move
+(
 sf
 .
 callback_
+)
 (
 sf
 .
