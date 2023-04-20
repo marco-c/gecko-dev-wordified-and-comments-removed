@@ -8368,6 +8368,12 @@ case
 nsIContentPolicy
 :
 :
+TYPE_INTERNAL_WORKER_STATIC_MODULE
+:
+case
+nsIContentPolicy
+:
+:
 TYPE_INTERNAL_AUDIOWORKLET
 :
 case
