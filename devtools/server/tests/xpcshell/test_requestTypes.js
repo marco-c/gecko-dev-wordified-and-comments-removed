@@ -115,15 +115,6 @@ rootSpec
 )
 )
 ;
-expectedRequestTypes
-.
-push
-(
-"
-echo
-"
-)
-;
 Assert
 .
 ok
