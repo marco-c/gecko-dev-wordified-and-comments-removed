@@ -36,6 +36,8 @@ stub
 generator
 -
 helpers
+.
+js
 "
 )
 ;
