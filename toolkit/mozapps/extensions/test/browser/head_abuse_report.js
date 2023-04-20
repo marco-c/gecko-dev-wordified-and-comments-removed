@@ -866,7 +866,6 @@ report
 -
 dialog
 "
-null
 )
 ;
 }

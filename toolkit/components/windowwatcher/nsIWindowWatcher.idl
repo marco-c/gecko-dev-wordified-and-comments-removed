@@ -130,9 +130,6 @@ getWindowByName
 in
 AString
 aTargetName
-in
-mozIDOMWindowProxy
-aCurrentWindow
 )
 ;
 readonly
