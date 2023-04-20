@@ -62,7 +62,7 @@ CrashMonitor
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -75,7 +75,9 @@ modules
 /
 CrashMonitor
 .
-jsm
+sys
+.
+mjs
 "
 )
 )
