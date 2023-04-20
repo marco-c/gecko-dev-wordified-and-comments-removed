@@ -2120,6 +2120,27 @@ profile
             
 ]
         
+if
+profile
+and
+not
+is_windows
+(
+)
+:
+            
+cmake_args
+.
+append
+(
+"
+-
+DLLVM_ENABLE_LTO
+=
+Thin
+"
+)
+        
 return
 cmake_args
     
