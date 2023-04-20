@@ -1614,7 +1614,7 @@ ImageBorder
 >
 (
 )
-84
+68
 "
 ImageBorder
 size
@@ -1658,7 +1658,7 @@ ImageBorderKey
 >
 (
 )
-104
+88
 "
 ImageBorderKey
 size
