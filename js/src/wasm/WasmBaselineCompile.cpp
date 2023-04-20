@@ -32757,7 +32757,7 @@ if
 !
 emitInstanceCall
 (
-SASigStructNew
+SASigStructNewUninit
 )
 )
 {
@@ -33660,7 +33660,7 @@ if
 !
 emitInstanceCall
 (
-SASigArrayNew
+SASigArrayNewUninit
 )
 )
 {

@@ -741,6 +741,13 @@ uint32_t
 numElements
 )
 ;
+template
+<
+bool
+ZeroFields
+=
+true
+>
 static
 WasmArrayObject
 *
@@ -996,6 +1003,13 @@ TypeDef
 typeDef
 )
 ;
+template
+<
+bool
+ZeroFields
+=
+true
+>
 static
 WasmStructObject
 *
