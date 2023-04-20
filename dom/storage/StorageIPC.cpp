@@ -2936,7 +2936,7 @@ aActor
 :
 mOwningEventTarget
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

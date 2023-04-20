@@ -60,7 +60,7 @@ FileCreatorParent
 :
 mBackgroundEventTarget
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

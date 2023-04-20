@@ -384,7 +384,7 @@ mProxyRequest
 )
 mCurrentEventTarget
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

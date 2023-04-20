@@ -317,7 +317,7 @@ mainThreadEventTarget
 ?
 mainThreadEventTarget
 :
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

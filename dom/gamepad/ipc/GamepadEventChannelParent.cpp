@@ -193,7 +193,7 @@ IsOnBackgroundThread
 ;
 mBackgroundEventTarget
 =
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

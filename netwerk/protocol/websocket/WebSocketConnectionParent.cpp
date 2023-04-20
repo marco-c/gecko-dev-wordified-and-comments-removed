@@ -73,7 +73,7 @@ aListener
 )
 mBackgroundThread
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

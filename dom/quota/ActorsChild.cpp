@@ -162,7 +162,7 @@ ifdef
 DEBUG
 mOwningThread
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
