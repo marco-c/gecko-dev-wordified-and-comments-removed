@@ -1201,12 +1201,7 @@ aReader
 ;
 if
 (
-aReader
--
->
-GetStream
-(
-)
+stream
 -
 >
 State
