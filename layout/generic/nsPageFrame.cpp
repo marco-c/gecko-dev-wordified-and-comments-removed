@@ -3012,7 +3012,7 @@ AsOrientation
 )
 =
 =
-StylePageOrientation
+StylePageSizeOrientation
 :
 :
 Portrait
@@ -3055,7 +3055,7 @@ AsOrientation
 )
 =
 =
-StylePageOrientation
+StylePageSizeOrientation
 :
 :
 Landscape

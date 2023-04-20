@@ -72,7 +72,7 @@ generics
 page
 :
 :
-PageOrientation
+PageSizeOrientation
 ;
 pub
 use
@@ -168,7 +168,7 @@ input
 .
 try_parse
 (
-PageOrientation
+PageSizeOrientation
 :
 :
 parse
@@ -176,7 +176,7 @@ parse
 .
 unwrap_or
 (
-PageOrientation
+PageSizeOrientation
 :
 :
 Portrait
@@ -207,7 +207,7 @@ input
 .
 try_parse
 (
-PageOrientation
+PageSizeOrientation
 :
 :
 parse

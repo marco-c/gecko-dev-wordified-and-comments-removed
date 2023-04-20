@@ -161,7 +161,7 @@ uint16_t
 ;
 enum
 class
-StylePageOrientation
+StylePageSizeOrientation
 :
 uint8_t
 ;
@@ -798,9 +798,9 @@ const
 ;
 Maybe
 <
-StylePageOrientation
+StylePageSizeOrientation
 >
-GetDefaultPageOrientation
+GetDefaultPageSizeOrientation
 (
 )
 ;
