@@ -251,6 +251,15 @@ Disconnecting
 Disconnected
 }
 ;
+void
+Disconnect
+(
+const
+nsACString
+&
+aReason
+)
+;
 protected
 :
 virtual
@@ -626,6 +635,11 @@ bool
 mDisconnectedByOnStartRequest
 =
 false
+;
+bool
+mBeforeOnStartRequest
+=
+true
 ;
 nsCOMPtr
 <

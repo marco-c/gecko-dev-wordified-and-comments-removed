@@ -158,6 +158,11 @@ aEndpoint
 )
 ;
 async
+DetachStreamFilters
+(
+)
+;
+async
 __delete__
 (
 )
