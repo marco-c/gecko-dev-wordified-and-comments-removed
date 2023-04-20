@@ -1474,7 +1474,7 @@ return
 f
 -
 >
-IsForElement
+IsForImageLoadingContent
 (
 )
 ;

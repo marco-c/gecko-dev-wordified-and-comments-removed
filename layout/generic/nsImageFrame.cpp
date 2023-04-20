@@ -1423,7 +1423,7 @@ nsImageFrame
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 ;
 }
@@ -1552,7 +1552,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 {
 return
@@ -1982,7 +1982,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 {
 MOZ_ASSERT
@@ -2128,7 +2128,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 {
 return
@@ -2456,7 +2456,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -2828,7 +2828,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 {
 nsCOMPtr
@@ -3085,7 +3085,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 ;
 if
@@ -3676,7 +3676,7 @@ nsImageFrame
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 {
 ScaleIntrinsicSizeForDensity
@@ -3850,7 +3850,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 {
 return
@@ -4259,7 +4259,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 {
 MOZ_ASSERT
@@ -4964,7 +4964,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 {
 nsLayoutUtils
@@ -5679,7 +5679,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 {
 return
@@ -6235,7 +6235,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 {
 return
@@ -7179,7 +7179,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 |
 |
 ImageOk
@@ -8593,7 +8593,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 |
 |
 ImageOk
@@ -9465,7 +9465,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 |
 |
 ImageOk
@@ -10729,7 +10729,7 @@ const
 if
 (
 !
-IsForElement
+IsForImageLoadingContent
 (
 )
 )
@@ -11912,7 +11912,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 {
 return
@@ -12087,7 +12087,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 |
 |
 ImageOk
@@ -12124,7 +12124,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 |
 |
 GetImageFromStyle
@@ -12270,7 +12270,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 {
 aLists
@@ -12706,7 +12706,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 {
 return
@@ -13512,7 +13512,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 {
 nsCOMPtr

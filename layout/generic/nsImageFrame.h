@@ -470,7 +470,7 @@ ShouldShowBrokenImageIcon
 const
 ;
 bool
-IsForElement
+IsForImageLoadingContent
 (
 )
 const
@@ -482,7 +482,7 @@ mKind
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 ;
 }
 const
@@ -825,7 +825,7 @@ Kind
 :
 uint8_t
 {
-ImageElement
+ImageLoadingContent
 ContentProperty
 ContentPropertyAtIndex
 ListStyleImage
@@ -979,7 +979,7 @@ aID
 Kind
 :
 :
-ImageElement
+ImageLoadingContent
 )
 {
 }
