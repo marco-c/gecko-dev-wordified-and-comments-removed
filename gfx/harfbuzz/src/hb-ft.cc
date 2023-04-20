@@ -132,7 +132,7 @@ hb_ft_advance_cache_t
 hb_cache_t
 <
 16
-8
+24
 8
 false
 >
