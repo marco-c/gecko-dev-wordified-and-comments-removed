@@ -3556,6 +3556,7 @@ namespace
 pingType
 version
 )
+namespace
 )
 ;
 }

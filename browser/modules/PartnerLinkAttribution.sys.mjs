@@ -1151,6 +1151,7 @@ sendStructuredIngestionPing
 (
 payload
 endpoint
+NAMESPACE_CONTEXUAL_SERVICES
 )
 ;
 }
