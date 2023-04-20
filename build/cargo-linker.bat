@@ -1,14 +1,10 @@
 echo
 off
 %
-PYTHON3
+MOZ_CARGO_WRAP_LD
 %
 %
-~
-dp0
-\
-cargo
--
-linker
+MOZ_CARGO_WRAP_LDFLAGS
+%
 %
 *
