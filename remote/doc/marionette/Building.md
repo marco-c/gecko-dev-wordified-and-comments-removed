@@ -1,12 +1,5 @@
+#
 Building
-=
-=
-=
-=
-=
-=
-=
-=
 Marionette
 is
 built
