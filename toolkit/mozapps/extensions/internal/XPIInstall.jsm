@@ -19386,6 +19386,12 @@ wrapper
 if
 (
 existing
+&
+&
+!
+existing
+.
+isBuiltinColorwayTheme
 )
 {
 lazy
@@ -19435,6 +19441,12 @@ true
 if
 (
 existing
+&
+&
+!
+existing
+.
+isBuiltinColorwayTheme
 )
 {
 await
