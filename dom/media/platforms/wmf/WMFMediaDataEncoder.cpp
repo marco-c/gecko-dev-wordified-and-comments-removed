@@ -36,6 +36,17 @@ Logging
 h
 "
 #
+include
+"
+mozilla
+/
+mscom
+/
+EnsureMTA
+.
+h
+"
+#
 define
 WMF_ENC_LOGD
 (
