@@ -68,11 +68,6 @@ TestHistograms
 cpp
 "
 "
-TestOrigins
-.
-cpp
-"
-"
 TestScalars
 .
 cpp
