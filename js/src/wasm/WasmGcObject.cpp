@@ -345,7 +345,9 @@ create
 JSContext
 *
 cx
+const
 TypeHandle
+&
 handle
 )
 {
@@ -554,7 +556,9 @@ rttCanon
 JSContext
 *
 cx
+const
 TypeHandle
+&
 handle
 )
 {
@@ -2484,8 +2488,6 @@ vp
 )
 ;
 }
-else
-{
 MOZ_ASSERT
 (
 is
@@ -2557,7 +2559,6 @@ type
 vp
 )
 ;
-}
 }
 bool
 WasmGcObject
@@ -2824,7 +2825,10 @@ PropertyKey
 :
 Int
 (
+int32_t
+(
 index
+)
 )
 ;
 properties

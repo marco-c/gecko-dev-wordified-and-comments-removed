@@ -1737,7 +1737,7 @@ returnAddressOffset
 void
 offsetBy
 (
-int32_t
+uint32_t
 delta
 )
 {

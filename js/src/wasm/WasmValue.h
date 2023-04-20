@@ -876,10 +876,10 @@ public
 union
 Cell
 {
-int32_t
+uint32_t
 i32_
 ;
-int64_t
+uint64_t
 i64_
 ;
 float
