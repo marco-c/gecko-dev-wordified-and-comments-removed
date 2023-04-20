@@ -135,7 +135,7 @@ FileTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -148,7 +148,9 @@ common
 /
 FileTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -209,7 +211,7 @@ TestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -222,7 +224,9 @@ common
 /
 TestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
