@@ -783,6 +783,12 @@ object
 }
 options
 *
+Options
+for
+the
+selector
+.
+*
 param
 {
 number
@@ -1222,6 +1228,11 @@ Recommendation
 ]
 }
 recommendations
+*
+The
+generated
+recommendations
+.
 *
 /
 #
@@ -1937,6 +1948,11 @@ param
 object
 }
 context
+*
+The
+new
+context
+.
 *
 param
 {

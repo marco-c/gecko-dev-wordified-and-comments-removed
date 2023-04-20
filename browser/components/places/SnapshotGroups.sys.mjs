@@ -1942,6 +1942,12 @@ object
 options
 ]
 *
+Options
+for
+the
+query
+.
+*
 param
 {
 number
@@ -2613,6 +2619,11 @@ param
 object
 }
 options
+Options
+for
+the
+query
+.
 *
 param
 {
@@ -2822,6 +2833,12 @@ param
 object
 }
 options
+*
+Options
+for
+the
+query
+.
 *
 param
 {
