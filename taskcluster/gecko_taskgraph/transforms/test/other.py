@@ -4463,18 +4463,16 @@ fetches
 ]
 [
 "
-fetch
+toolchain
 "
 ]
 .
 append
 (
 "
+macosx64
+-
 grcov
--
-osx
--
-x86_64
 "
 )
             
