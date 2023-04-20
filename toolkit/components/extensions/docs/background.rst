@@ -1110,7 +1110,7 @@ manifest
 key
 and
 implement
-Javscript
+Javascript
 functionality
 see
 the

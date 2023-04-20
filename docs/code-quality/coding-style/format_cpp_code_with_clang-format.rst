@@ -1990,7 +1990,7 @@ which
 should
 not
 be
-reformated
+reformatted
 /
 /
 clang

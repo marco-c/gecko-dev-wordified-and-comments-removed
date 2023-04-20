@@ -914,7 +914,7 @@ expected
 to
 be
 created
-quicky
+quickly
 the
 return
 value
@@ -1899,7 +1899,8 @@ void
 DoSomething
 (
 int32_t
-aNumber
+a
+number
 )
 ;
 double

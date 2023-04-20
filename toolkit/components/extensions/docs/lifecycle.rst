@@ -556,7 +556,7 @@ the
 browser
 and
 not
-delievered
+delivered
 via
 an
 experiment

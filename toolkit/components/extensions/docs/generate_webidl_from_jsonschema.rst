@@ -418,7 +418,7 @@ or
 just
 continue
 without
-changin
+changing
 the
 existing
 webidl
