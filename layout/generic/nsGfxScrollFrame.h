@@ -3086,6 +3086,10 @@ void
 CompleteAsyncScroll
 (
 const
+nsPoint
+&
+aScrollPosition
+const
 nsRect
 &
 aRange
