@@ -47867,6 +47867,9 @@ iterLists1
 mList
 :
 nsFrameList
+:
+:
+EmptyList
 (
 )
 ;
@@ -47890,6 +47893,9 @@ iterLists2
 mList
 :
 nsFrameList
+:
+:
+EmptyList
 (
 )
 ;
