@@ -113,6 +113,9 @@ inline
 MF_MEDIAKEYSESSION_TYPE
 ConvertSessionType
 (
+KeySystemConfig
+:
+:
 SessionType
 aType
 )
@@ -123,6 +126,9 @@ aType
 )
 {
 case
+KeySystemConfig
+:
+:
 SessionType
 :
 :
@@ -132,6 +138,9 @@ return
 MF_MEDIAKEYSESSION_TYPE_TEMPORARY
 ;
 case
+KeySystemConfig
+:
+:
 SessionType
 :
 :
@@ -427,6 +436,9 @@ MFCDMSession
 :
 Create
 (
+KeySystemConfig
+:
+:
 SessionType
 aSessionType
 IMFContentDecryptionModule
