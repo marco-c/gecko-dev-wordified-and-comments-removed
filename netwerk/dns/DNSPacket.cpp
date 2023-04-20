@@ -6267,7 +6267,7 @@ result
 ;
 static
 const
-int
+uint32_t
 kMinimumConfigContentLength
 =
 12
