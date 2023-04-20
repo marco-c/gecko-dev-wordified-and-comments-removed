@@ -5,10 +5,6 @@ decodebytes
 import
 pytest
 from
-.
-import
-load_pdf_document
-from
 tests
 .
 support
@@ -765,6 +761,7 @@ test_page_ranges_document
 (
 session
 inline
+load_pdf_document
 ranges
 expected
 )
@@ -932,8 +929,6 @@ pdf
     
 load_pdf_document
 (
-session
-inline
 value
 )
     
