@@ -192,6 +192,12 @@ RemoteWorkerServiceKeepAlive
 >
 mKeepAlive
 ;
+RefPtr
+<
+RemoteWorkerServiceShutdownBlocker
+>
+mShutdownBlocker
+;
 }
 ;
 }
