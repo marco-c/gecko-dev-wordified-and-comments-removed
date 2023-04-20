@@ -1040,6 +1040,16 @@ enabled
 =
 0
 ;
+virtual
+void
+SetNackHistory
+(
+TimeDelta
+history
+)
+=
+0
+;
 protected
 :
 virtual
