@@ -221,9 +221,9 @@ remote
 /
 content
 /
-marionette
+shared
 /
-capture
+Capture
 .
 sys
 .

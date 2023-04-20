@@ -129,13 +129,6 @@ Log
 .
 get
 (
-lazy
-.
-Log
-.
-TYPES
-.
-MARIONETTE
 )
 )
 ;
