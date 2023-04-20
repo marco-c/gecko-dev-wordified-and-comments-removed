@@ -117,12 +117,6 @@ mozrunner
 /
 mozbase
 /
-mozserve
-.
-.
-/
-mozbase
-/
 mozscreenshot
 .
 .

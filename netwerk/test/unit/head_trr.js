@@ -1798,7 +1798,9 @@ __dirname
 .
 .
 /
-node_ip
+node
+-
+ip
 )
 ;
 let
