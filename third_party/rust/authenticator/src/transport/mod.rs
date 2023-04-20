@@ -546,8 +546,6 @@ HIDDevice
 fn
 send_msg
 <
-'
-msg
 Out
 Req
 :
@@ -563,8 +561,6 @@ self
 msg
 :
 &
-'
-msg
 Req
 )
 -
@@ -627,8 +623,6 @@ msg
 fn
 send_cbor
 <
-'
-msg
 Req
 :
 RequestCtap2
@@ -640,8 +634,6 @@ self
 msg
 :
 &
-'
-msg
 Req
 )
 -
@@ -831,8 +823,6 @@ into
 fn
 send_ctap1
 <
-'
-msg
 Req
 :
 RequestCtap1
@@ -844,8 +834,6 @@ self
 msg
 :
 &
-'
-msg
 Req
 )
 -
@@ -879,7 +867,10 @@ self
 )
 ;
 let
+(
 data
+add_info
+)
 =
 msg
 .
@@ -1031,6 +1022,8 @@ handle_response_ctap1
 status
 &
 data
+&
+add_info
 )
 {
 Ok
@@ -1128,9 +1121,6 @@ Result
 HIDError
 >
 {
-let
-resp
-=
 <
 Self
 as
@@ -1234,7 +1224,8 @@ command
 }
 Ok
 (
-resp
+(
+)
 )
 }
 fn
@@ -1248,9 +1239,6 @@ self
 >
 BlinkResult
 {
-let
-resp
-;
 let
 supports_select_cmd
 =
@@ -1285,6 +1273,9 @@ FIDO_2_1
 )
 )
 ;
+let
+resp
+=
 if
 supports_select_cmd
 {
@@ -1295,8 +1286,6 @@ Selection
 {
 }
 ;
-resp
-=
 self
 .
 send_cbor
@@ -1304,7 +1293,6 @@ send_cbor
 &
 msg
 )
-;
 }
 else
 {
@@ -1373,8 +1361,6 @@ blink
 msg
 )
 ;
-resp
-=
 self
 .
 send_msg
@@ -1391,8 +1377,8 @@ _
 (
 )
 )
-;
 }
+;
 match
 resp
 {

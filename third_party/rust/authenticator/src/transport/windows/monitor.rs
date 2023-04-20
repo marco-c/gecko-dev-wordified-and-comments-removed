@@ -8,7 +8,10 @@ transport
 device_selector
 :
 :
+{
+DeviceID
 DeviceSelectorEvent
+}
 ;
 use
 crate
@@ -437,7 +440,7 @@ self
 path
 :
 &
-String
+DeviceID
 )
 {
 let
@@ -563,7 +566,7 @@ self
 path
 :
 &
-String
+DeviceID
 )
 {
 let

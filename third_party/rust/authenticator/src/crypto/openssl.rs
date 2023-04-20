@@ -775,7 +775,6 @@ group
 ;
 encapsulate_helper
 (
-&
 ec2key
 key
 .
@@ -904,10 +903,6 @@ curve
 key
 .
 curve
-.
-clone
-(
-)
 x
 :
 x
@@ -1676,7 +1671,6 @@ X509
 :
 from_der
 (
-&
 pub_key
 )
 ?

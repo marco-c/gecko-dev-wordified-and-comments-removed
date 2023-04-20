@@ -1147,7 +1147,6 @@ SECItemBorrowed
 :
 wrap
 (
-&
 spki
 )
 ;
@@ -2229,8 +2228,6 @@ peer_cose_key
 COSEKey
 {
 alg
-:
-alg
 key
 :
 COSEKeyType
@@ -2288,7 +2285,7 @@ rfc5915_ec_private_key_version
 ;
 let
 (
-curve_oid
+_curve_oid
 seq_len
 alg_len
 attr_len
@@ -2539,7 +2536,6 @@ pkcs8_priv
 .
 extend_from_slice
 (
-&
 my_pub_key
 )
 ;

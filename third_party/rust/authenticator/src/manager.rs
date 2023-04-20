@@ -2232,7 +2232,6 @@ RpIdHash
 :
 from
 (
-&
 app_id
 )
 ?
@@ -2368,10 +2367,6 @@ GetAssertion
 new
 (
 client_data
-.
-clone
-(
-)
 RelyingPartyWrapper
 :
 :

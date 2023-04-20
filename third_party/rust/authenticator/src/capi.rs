@@ -401,12 +401,8 @@ into_raw
 Box
 :
 :
-new
+default
 (
-vec
-!
-[
-]
 )
 )
 }
@@ -522,12 +518,8 @@ into_raw
 Box
 :
 :
-new
+default
 (
-vec
-!
-[
-]
 )
 )
 }

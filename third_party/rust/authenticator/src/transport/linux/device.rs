@@ -779,10 +779,6 @@ DeviceNotSupported
 res
 .
 path
-.
-clone
-(
-)
 )
 )
 }

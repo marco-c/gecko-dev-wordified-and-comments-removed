@@ -171,8 +171,6 @@ libc
 poll
 (
 (
-&
-mut
 fds
 [
 .

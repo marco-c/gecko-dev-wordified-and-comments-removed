@@ -298,8 +298,6 @@ bytes
 len
 (
 )
-as
-usize
 )
 }
 }
@@ -698,10 +696,6 @@ DeviceNotSupported
 res
 .
 path
-.
-clone
-(
-)
 )
 )
 }

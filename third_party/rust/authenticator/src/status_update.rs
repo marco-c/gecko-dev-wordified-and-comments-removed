@@ -147,8 +147,6 @@ StatusUpdate
 ?
 ;
 match
-&
-*
 self
 {
 StatusUpdate
@@ -356,15 +354,6 @@ pub
 mod
 tests
 {
-use
-crate
-:
-:
-consts
-:
-:
-U2F_AUTHENTICATE
-;
 use
 super
 :

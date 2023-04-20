@@ -519,8 +519,6 @@ Supported
 k
 =
 >
-{
-return
 Err
 (
 M
@@ -548,8 +546,6 @@ k
 )
 )
 )
-;
-}
 }
 }
 else
@@ -644,7 +640,6 @@ serializer
 .
 serialize_str
 (
-&
 "
 webauthn
 .
@@ -661,7 +656,6 @@ serializer
 .
 serialize_str
 (
-&
 "
 webauthn
 .
@@ -899,7 +893,6 @@ base64
 :
 encode_config
 (
-&
 input
 base64
 :
@@ -1881,7 +1874,6 @@ serde_json
 :
 from_str
 (
-&
 original_str
 )
 .
@@ -2159,7 +2151,6 @@ serde_json
 :
 from_str
 (
-&
 no_cross_origin_str
 )
 .
@@ -2426,9 +2417,7 @@ sha256sum
 -
 t
 ClientDataHash
-{
-0
-:
+(
 [
 0x75
 0x35
@@ -2463,7 +2452,7 @@ ClientDataHash
 0x2d
 0x80
 ]
-}
+)
 )
 ;
 }

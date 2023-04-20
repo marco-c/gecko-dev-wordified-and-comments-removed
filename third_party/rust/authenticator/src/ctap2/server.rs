@@ -146,7 +146,6 @@ base64
 :
 encode_config
 (
-&
 self
 .
 0
@@ -433,7 +432,6 @@ output
 .
 copy_from_slice
 (
-&
 hasher
 .
 finalize
@@ -1037,8 +1035,10 @@ alg
 =
 alg
 .
-ok_or
+ok_or_else
 (
+|
+|
 SerdeError
 :
 :
@@ -1705,8 +1705,10 @@ id
 =
 id
 .
-ok_or
+ok_or_else
 (
+|
+|
 SerdeError
 :
 :
@@ -1724,14 +1726,8 @@ transports
 =
 transports
 .
-unwrap_or
+unwrap_or_default
 (
-Vec
-:
-:
-new
-(
-)
 )
 ;
 Ok
