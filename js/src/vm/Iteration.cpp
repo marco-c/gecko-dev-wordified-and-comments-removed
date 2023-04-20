@@ -4006,8 +4006,6 @@ HandleIdVector
 props
 uint32_t
 numShapes
-HashNumber
-shapesHash
 )
 {
 if
@@ -4107,7 +4105,6 @@ propIter
 objBeingIterated
 props
 numShapes
-shapesHash
 &
 hadError
 )
@@ -4172,8 +4169,6 @@ HandleIdVector
 props
 uint32_t
 numShapes
-HashNumber
-shapesHash
 bool
 *
 hadError
@@ -4218,7 +4213,7 @@ propertyCursor_
 )
 shapesHash_
 (
-shapesHash
+0
 )
 flagsAndCount_
 (
@@ -6097,7 +6092,6 @@ cx
 obj
 keys
 numShapes
-0
 )
 ;
 if
@@ -7497,7 +7491,6 @@ CreatePropertyIterator
 cx
 nullptr
 props
-0
 0
 )
 ;
