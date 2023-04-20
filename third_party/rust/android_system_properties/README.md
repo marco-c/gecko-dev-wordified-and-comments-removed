@@ -1,13 +1,14 @@
 #
 android_system_properties
 A
-minimal
+thin
 rust
 wrapper
-over
-android
+for
+Android
 system
 properties
+.
 This
 crate
 is
