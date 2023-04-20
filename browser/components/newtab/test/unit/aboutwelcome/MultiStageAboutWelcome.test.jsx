@@ -68,7 +68,7 @@ enzyme
 ;
 import
 {
-DEFAULT_WELCOME_CONTENT
+AboutWelcomeDefaults
 }
 from
 "
@@ -121,7 +121,11 @@ DEFAULT_PROPS
 {
 screens
 :
-DEFAULT_WELCOME_CONTENT
+AboutWelcomeDefaults
+.
+getDefaults
+(
+)
 .
 screens
 metricsFlowUri
@@ -1420,7 +1424,11 @@ screen
 const
 screen
 =
-DEFAULT_WELCOME_CONTENT
+AboutWelcomeDefaults
+.
+getDefaults
+(
+)
 .
 screens
 .
