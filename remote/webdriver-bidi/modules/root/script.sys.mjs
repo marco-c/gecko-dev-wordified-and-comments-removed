@@ -755,7 +755,7 @@ this
 .
 messageHandler
 .
-addSessionData
+addSessionDataItem
 (
 {
 category
@@ -2775,7 +2775,7 @@ this
 .
 messageHandler
 .
-removeSessionData
+removeSessionDataItem
 (
 {
 category

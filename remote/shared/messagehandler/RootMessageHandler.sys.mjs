@@ -493,7 +493,7 @@ MessageHandlers
 .
 *
 /
-addSessionData
+addSessionDataItem
 (
 sessionData
 =
@@ -795,7 +795,7 @@ MessageHandlers
 .
 *
 /
-removeSessionData
+removeSessionDataItem
 (
 sessionData
 =

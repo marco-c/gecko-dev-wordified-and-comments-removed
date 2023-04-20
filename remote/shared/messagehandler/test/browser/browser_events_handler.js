@@ -52,7 +52,7 @@ created
 await
 rootMessageHandler
 .
-addSessionData
+addSessionDataItem
 (
 {
 moduleName
