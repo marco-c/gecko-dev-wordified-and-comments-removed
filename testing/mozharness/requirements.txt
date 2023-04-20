@@ -45,6 +45,12 @@ Fabric
 6
 .
 0
+PyYAML
+=
+=
+6
+.
+0
 coverage
 =
 =

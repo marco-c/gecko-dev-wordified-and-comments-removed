@@ -6226,6 +6226,10 @@ default
 :
 1
 month
+short
+:
+14
+days
 medium
 :
 1
@@ -6240,6 +6244,10 @@ default
 :
 1
 year
+short
+:
+3
+months
 medium
 :
 1
@@ -6264,6 +6272,10 @@ default
 :
 3
 months
+short
+:
+1
+month
 medium
 :
 1
