@@ -688,6 +688,7 @@ it
 -
 >
 adapter_type
+nullptr
 )
 ;
 if
