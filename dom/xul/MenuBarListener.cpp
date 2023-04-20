@@ -1239,7 +1239,7 @@ mMenuBar
 mMenuBar
 -
 >
-IsActive
+IsActiveByKeyboard
 (
 )
 )
