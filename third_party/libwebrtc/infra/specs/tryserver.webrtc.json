@@ -14685,6 +14685,12 @@ android_compile_x86_rel
 {
 }
 "
+fuchsia_rel
+"
+:
+{
+}
+"
 ios_compile_arm64_dbg
 "
 :
