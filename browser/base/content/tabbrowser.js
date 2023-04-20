@@ -10941,6 +10941,12 @@ registeredOpenURI
 lazyBrowserURI
 ;
 }
+if
+(
+!
+batchInsertingTabs
+)
+{
 SessionStore
 .
 setTabState
@@ -10981,6 +10987,7 @@ userContextId
 }
 )
 ;
+}
 }
 else
 {
