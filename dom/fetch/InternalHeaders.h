@@ -552,7 +552,7 @@ InternalHeaders
 *
 aHeaders
 RequestCredentials
-mCredentialsMode
+aCredentialsMode
 =
 RequestCredentials
 :
