@@ -329,9 +329,6 @@ once
 *
 /
 defineLazyGetter
-:
-function
-XPCU_defineLazyGetter
 (
 aObject
 aName
@@ -519,9 +516,6 @@ script
 *
 /
 defineLazyScriptGetter
-:
-function
-XPCU_defineLazyScriptGetter
 (
 aObject
 aNames
@@ -919,9 +913,6 @@ to
 *
 /
 defineLazyServiceGetter
-:
-function
-XPCU_defineLazyServiceGetter
 (
 aObject
 aName
@@ -935,10 +926,10 @@ defineLazyGetter
 (
 aObject
 aName
-function
-XPCU_serviceLambda
 (
 )
+=
+>
 {
 if
 (
@@ -1073,9 +1064,6 @@ defineLazyServiceGetter
 *
 /
 defineLazyServiceGetters
-:
-function
-XPCU_defineLazyServiceGetters
 (
 aObject
 aServices
@@ -1375,9 +1363,6 @@ imported
 *
 /
 defineLazyModuleGetter
-:
-function
-XPCU_defineLazyModuleGetter
 (
 aObject
 aName
@@ -1446,10 +1431,10 @@ defineLazyGetter
 (
 aObject
 aName
-function
-XPCU_moduleLambda
 (
 )
+=
+>
 {
 var
 temp
@@ -1606,9 +1591,6 @@ URI
 *
 /
 defineLazyModuleGetters
-:
-function
-XPCU_defineLazyModuleGetters
 (
 aObject
 aModules
@@ -1800,9 +1782,6 @@ getter
 *
 /
 defineLazyPreferenceGetter
-:
-function
-XPCU_defineLazyPreferenceGetter
 (
 aObject
 aName
@@ -2357,9 +2336,6 @@ object
 *
 /
 defineConstant
-:
-function
-XPCOMUtils__defineConstant
 (
 aObj
 aName
@@ -2870,9 +2846,6 @@ expected
 *
 /
 defineLazyProxy
-:
-function
-XPCOMUtils__defineLazyProxy
 (
 aObject
 aName
