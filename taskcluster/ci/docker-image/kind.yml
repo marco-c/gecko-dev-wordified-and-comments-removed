@@ -869,12 +869,6 @@ definition
 toolchain
 -
 build
-packages
-:
--
-deb11
--
-cmake
 android
 -
 build
