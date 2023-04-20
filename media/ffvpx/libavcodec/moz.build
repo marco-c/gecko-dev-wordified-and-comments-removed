@@ -391,6 +391,11 @@ atsc_a53
 c
 '
 '
+av1_frame_split_bsf
+.
+c
+'
+'
 av1dec
 .
 c
