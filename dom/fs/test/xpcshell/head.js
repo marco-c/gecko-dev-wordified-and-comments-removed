@@ -105,7 +105,6 @@ navigator
 {
 storage
 }
-TextEncoder
 }
 ;
 require_module

@@ -31,9 +31,6 @@ fs
 data
 {
 class
-FileSystemDataManager
-;
-class
 FileSystemFileManager
 ;
 class
@@ -46,9 +43,6 @@ public
 :
 FileSystemDatabaseManagerVersion001
 (
-FileSystemDataManager
-*
-aDataManager
 fs
 :
 :
@@ -72,10 +66,6 @@ EntryId
 aRootEntry
 )
 :
-mDataManager
-(
-aDataManager
-)
 mConnection
 (
 aConnection
@@ -296,11 +286,6 @@ UpdateUsage
 int64_t
 aDelta
 )
-;
-FileSystemDataManager
-*
-MOZ_NON_OWNING_REF
-mDataManager
 ;
 FileSystemConnection
 mConnection

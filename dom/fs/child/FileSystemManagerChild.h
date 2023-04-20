@@ -63,14 +63,6 @@ AllocPFileSystemAccessHandleChild
 (
 )
 ;
-already_AddRefed
-<
-PFileSystemWritableFileStreamChild
->
-AllocPFileSystemWritableFileStreamChild
-(
-)
-;
 :
 :
 mozilla
