@@ -2114,6 +2114,15 @@ const
 bool
 hasScrollLinkedEffect
 =
+!
+StaticPrefs
+:
+:
+apz_disable_for_scroll_linked_effects
+(
+)
+&
+&
 presContext
 -
 >
