@@ -31,3 +31,14 @@ clang
 -
 tidy
 "
+MACOS_AARCH64_CLANG_TIDY
+=
+"
+macosx64
+-
+aarch64
+-
+clang
+-
+tidy
+"
