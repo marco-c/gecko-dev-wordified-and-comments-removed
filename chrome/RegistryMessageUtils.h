@@ -7,9 +7,11 @@ mozilla_RegistryMessageUtils_h
 #
 include
 "
+mozilla
+/
 ipc
 /
-IPCMessageUtils
+IPDLParamTraits
 .
 h
 "
