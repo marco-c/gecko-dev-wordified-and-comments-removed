@@ -62832,7 +62832,7 @@ MOZ_WIDGET_ANDROID
 )
 value
 :
-IS_EARLY_BETA_OR_EARLIER
+true
 #
 elif
 defined
