@@ -19592,7 +19592,6 @@ screen
 :
 \
 "
-FEATURE_CALLOUT_1
 \
 "
 \
