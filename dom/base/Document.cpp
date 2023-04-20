@@ -14962,6 +14962,10 @@ ServoStyleSet
 this
 )
 ;
+RecomputeResistFingerprinting
+(
+)
+;
 return
 NS_OK
 ;
