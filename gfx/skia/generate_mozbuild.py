@@ -1578,7 +1578,7 @@ platform_sources
 )
 :
   
-blacklist
+ignorelist
 =
 [
     
@@ -1760,7 +1760,7 @@ SkGlobalInitialization
 ]
   
 def
-isblacklisted
+isignorelisted
 (
 value
 )
@@ -1769,7 +1769,7 @@ value
 for
 item
 in
-blacklist
+ignorelist
 :
       
 if
@@ -2044,7 +2044,7 @@ plat
 :
       
 if
-isblacklisted
+isignorelisted
 (
 value
 )
@@ -2201,7 +2201,7 @@ subsearch
 ]
   
 def
-iswhitelisted
+isallowlisted
 (
 value
 )
@@ -2270,7 +2270,7 @@ val_list
 :
     
 if
-iswhitelisted
+isallowlisted
 (
 val
 )
@@ -2311,7 +2311,7 @@ cflag
 n
 "
 )
-opt_whitelist
+opt_allowlist
 =
 [
   
@@ -2349,7 +2349,7 @@ cpp
 skcms
 '
 ]
-unified_blacklist
+unified_ignorelist
 =
 [
   
@@ -2498,7 +2498,7 @@ cpp
 '
 ]
 +
-opt_whitelist
+opt_allowlist
 def
 write_sources
 (
@@ -2509,7 +2509,7 @@ indent
 :
   
 def
-isblacklisted
+isignorelisted
 (
 value
 )
@@ -2518,7 +2518,7 @@ value
 for
 item
 in
-unified_blacklist
+unified_ignorelist
 :
       
 if
@@ -2573,7 +2573,7 @@ values
 :
     
 if
-isblacklisted
+isignorelisted
 (
 item
 )
@@ -2821,7 +2821,7 @@ sources
 common
 '
 ]
-opt_whitelist
+opt_allowlist
 '
 skia_opt_flags
 '
@@ -3044,7 +3044,7 @@ sources
 intel
 '
 ]
-opt_whitelist
+opt_allowlist
 '
 skia_opt_flags
 '
@@ -3120,7 +3120,7 @@ sources
 arm
 '
 ]
-opt_whitelist
+opt_allowlist
 '
 skia_opt_flags
 '
@@ -3180,7 +3180,7 @@ sources
 arm64
 '
 ]
-opt_whitelist
+opt_allowlist
 '
 skia_opt_flags
 '
