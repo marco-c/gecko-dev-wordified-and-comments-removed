@@ -3701,12 +3701,16 @@ msys
 :
         
 cinnabar_exe
-+
 =
+cinnabar_exe
+.
+with_suffix
+(
 "
 .
 exe
 "
+)
     
 if
 (
