@@ -896,7 +896,7 @@ uri
 "
 :
 "
-inline
+eval
 "
 }
 true
@@ -957,7 +957,7 @@ Ci
 .
 nsIContentSecurityPolicy
 .
-VIOLATION_TYPE_INLINE_SCRIPT
+VIOLATION_TYPE_EVAL
 null
 null
 selfuri
