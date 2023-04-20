@@ -504,6 +504,7 @@ use
 super
 :
 :
+{
 super
 :
 :
@@ -512,12 +513,6 @@ init
 SECFailure
 SECSuccess
 }
-;
-use
-super
-:
-:
-{
 secstatus_to_res
 PRErrorCode
 PR_SetError
