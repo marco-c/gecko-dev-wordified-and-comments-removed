@@ -2441,9 +2441,9 @@ logManager
 ERROR_LOG_WRITTEN
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 FxA

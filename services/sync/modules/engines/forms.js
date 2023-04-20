@@ -374,9 +374,9 @@ changes
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

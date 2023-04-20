@@ -1068,9 +1068,9 @@ utf
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 rest

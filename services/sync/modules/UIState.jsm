@@ -303,9 +303,9 @@ e
 =
 >
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -418,9 +418,9 @@ e
 =
 >
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -760,9 +760,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Error

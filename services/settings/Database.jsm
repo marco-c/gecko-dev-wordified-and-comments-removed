@@ -2160,9 +2160,9 @@ result
 NS_ERROR_DOM_INDEXEDDB_NOT_ALLOWED_ERR
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 ex
 )
