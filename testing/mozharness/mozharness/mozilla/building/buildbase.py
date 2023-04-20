@@ -9425,6 +9425,9 @@ MOZ_FETCHES_DIR
 "
 grcov
 "
+"
+grcov
+"
 )
         
 if
