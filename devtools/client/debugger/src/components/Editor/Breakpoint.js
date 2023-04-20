@@ -712,7 +712,7 @@ addLineClass
 (
 line
 "
-wrapClass
+wrap
 "
 "
 new
@@ -729,7 +729,7 @@ removeLineClass
 (
 line
 "
-wrapClass
+wrap
 "
 "
 breakpoint
@@ -746,7 +746,7 @@ removeLineClass
 (
 line
 "
-wrapClass
+wrap
 "
 "
 has
@@ -763,7 +763,7 @@ removeLineClass
 (
 line
 "
-wrapClass
+wrap
 "
 "
 has
@@ -787,7 +787,7 @@ addLineClass
 (
 line
 "
-wrapClass
+wrap
 "
 "
 breakpoint
@@ -814,7 +814,7 @@ addLineClass
 (
 line
 "
-wrapClass
+wrap
 "
 "
 has
@@ -842,7 +842,7 @@ addLineClass
 (
 line
 "
-wrapClass
+wrap
 "
 "
 has
@@ -936,7 +936,7 @@ removeLineClass
 (
 line
 "
-wrapClass
+wrap
 "
 "
 new
@@ -951,7 +951,7 @@ removeLineClass
 (
 line
 "
-wrapClass
+wrap
 "
 "
 breakpoint
@@ -966,7 +966,7 @@ removeLineClass
 (
 line
 "
-wrapClass
+wrap
 "
 "
 has
@@ -981,7 +981,7 @@ removeLineClass
 (
 line
 "
-wrapClass
+wrap
 "
 "
 has

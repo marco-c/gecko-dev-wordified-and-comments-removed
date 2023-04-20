@@ -484,7 +484,7 @@ addLineClass
 (
 editorLine
 "
-wrapClass
+wrap
 "
 "
 highlight
@@ -575,7 +575,7 @@ removeLineClass
 (
 editorLine
 "
-wrapClass
+wrap
 "
 "
 highlight
@@ -637,7 +637,7 @@ removeLineClass
 (
 editorLine
 "
-wrapClass
+wrap
 "
 "
 highlight

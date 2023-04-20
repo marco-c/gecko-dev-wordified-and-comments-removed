@@ -1064,7 +1064,7 @@ removeLineClass
 (
 line
 "
-wrapClass
+wrap
 "
 className
 )

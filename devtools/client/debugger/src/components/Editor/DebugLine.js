@@ -286,7 +286,7 @@ addLineClass
 (
 line
 "
-wrapClass
+wrap
 "
 lineClass
 )
@@ -459,7 +459,7 @@ removeLineClass
 (
 line
 "
-wrapClass
+wrap
 "
 lineClass
 )

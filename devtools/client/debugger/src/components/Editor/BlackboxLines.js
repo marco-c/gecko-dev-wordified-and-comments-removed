@@ -523,7 +523,7 @@ removeLineClass
 (
 lineHandle
 "
-wrapClass
+wrap
 "
 "
 blackboxed
@@ -547,7 +547,7 @@ addLineClass
 (
 lineHandle
 "
-wrapClass
+wrap
 "
 "
 blackboxed
