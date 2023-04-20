@@ -300,7 +300,7 @@ UpdateDone
 )
 ;
 void
-ShutdownWatcherThread
+ShutdownWorkerThread
 (
 )
 ;
@@ -313,7 +313,7 @@ nsCOMPtr
 <
 nsIThread
 >
-mProcessWatcher
+mWorkerThread
 ;
 StagedUpdateInfo
 mInfo
