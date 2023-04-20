@@ -1211,6 +1211,8 @@ aReferrerInfo
 nsICSSLoaderObserver
 *
 aObserver
+uint64_t
+aEarlyHintPreloaderId
 CORSMode
 =
 CORS_NONE
@@ -1685,6 +1687,8 @@ const
 nsAString
 &
 aIntegrity
+uint64_t
+aEarlyHintPreloaderId
 )
 ;
 RefPtr
@@ -1733,6 +1737,8 @@ LoadSheet
 SheetLoadData
 &
 SheetState
+uint64_t
+aEarlyHintPreloaderId
 PendingLoad
 =
 PendingLoad
