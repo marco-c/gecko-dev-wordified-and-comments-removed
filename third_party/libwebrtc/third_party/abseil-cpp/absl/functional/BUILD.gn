@@ -154,6 +154,12 @@ utility
 "
 ]
 }
+if
+(
+!
+moz_webrtc_build
+)
+{
 absl_source_set
 (
 "
@@ -279,6 +285,7 @@ googletest
 gtest
 "
 ]
+}
 }
 absl_source_set
 (
