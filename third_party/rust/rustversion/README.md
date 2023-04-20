@@ -248,6 +248,8 @@ io
 /
 github
 /
+actions
+/
 workflow
 /
 status
@@ -256,10 +258,14 @@ dtolnay
 /
 rustversion
 /
-CI
-/
-master
+ci
+.
+yml
 ?
+branch
+=
+master
+&
 style
 =
 for
