@@ -97,7 +97,11 @@ installSearchExtension
 (
 {
 }
+{
+skipUnload
+:
 true
+}
 )
 ;
 await

@@ -21,7 +21,11 @@ installSearchExtension
 (
 {
 }
+{
+skipUnload
+:
 true
+}
 )
 ;
 let
@@ -129,7 +133,11 @@ installSearchExtension
 (
 {
 }
+{
+skipUnload
+:
 true
+}
 )
 ;
 let
@@ -298,7 +306,11 @@ installSearchExtension
 (
 {
 }
+{
+skipUnload
+:
 true
+}
 )
 ;
 let
