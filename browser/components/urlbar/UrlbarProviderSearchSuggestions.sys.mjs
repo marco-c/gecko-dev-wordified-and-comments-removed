@@ -2876,6 +2876,11 @@ HIGHLIGHT
 .
 TYPED
 ]
+trending
+:
+entry
+.
+trending
 query
 :
 [
@@ -3332,6 +3337,8 @@ queryContext
 )
 {
 return
+!
+!
 (
 queryContext
 .

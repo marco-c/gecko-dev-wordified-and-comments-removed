@@ -2890,6 +2890,9 @@ isPrivateEngine
 heuristic
 =
 false
+trending
+=
+false
 type
 =
 UrlbarUtils
@@ -3140,6 +3143,14 @@ suggestion
 toLocaleLowerCase
 (
 )
+;
+result
+.
+payload
+.
+trending
+=
+trending
 ;
 }
 if
