@@ -205,6 +205,9 @@ Promise
 >
 &
 aPromise
+ErrorResult
+&
+aError
 )
 ;
 virtual
