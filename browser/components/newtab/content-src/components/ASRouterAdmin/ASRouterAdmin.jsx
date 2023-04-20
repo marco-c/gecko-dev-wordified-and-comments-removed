@@ -4058,7 +4058,7 @@ e
 {
 console
 .
-log
+error
 (
 Error
 parsing
@@ -4070,16 +4070,6 @@ name
 }
 )
 ;
-/
-/
-eslint
--
-disable
--
-line
-no
--
-console
 targetingParametersError
 =
 {

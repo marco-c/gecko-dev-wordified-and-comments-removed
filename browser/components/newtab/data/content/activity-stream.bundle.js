@@ -6957,7 +6957,7 @@ e
 {
 console
 .
-log
+error
 (
 Error
 parsing
@@ -26429,7 +26429,7 @@ err
 {
 console
 .
-log
+error
 (
 err
 )
