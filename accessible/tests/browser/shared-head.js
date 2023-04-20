@@ -3527,4 +3527,7 @@ expectedBounds
 }
 )
 ;
+return
+accBounds
+;
 }

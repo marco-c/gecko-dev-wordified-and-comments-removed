@@ -1805,6 +1805,12 @@ aOffset
 )
 const
 ;
+bool
+IsFixedPos
+(
+)
+const
+;
 virtual
 void
 ARIAGroupPosition
