@@ -208,6 +208,11 @@ Allowed
 absl
 :
 :
+AnyInvocable
+*
+absl
+:
+:
 bind_front
 *
 absl
