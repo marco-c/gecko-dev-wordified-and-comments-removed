@@ -703,6 +703,10 @@ dump_syms
 -
 win64
 -
+mozmake
+-
+win64
+-
 nasm
 win64
 /
@@ -799,6 +803,10 @@ dump_syms
 -
 win64
 -
+mozmake
+-
+win64
+-
 nasm
 win64
 -
@@ -900,3 +908,7 @@ clang
 win64
 -
 dump_syms
+-
+win64
+-
+mozmake
