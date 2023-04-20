@@ -8608,13 +8608,6 @@ av1
 dav1d_decoder
 "
 "
-codecs
-/
-av1
-:
-libaom_av1_decoder
-"
-"
 /
 /
 third_party

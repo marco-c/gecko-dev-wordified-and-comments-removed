@@ -103,7 +103,7 @@ codecs
 /
 av1
 /
-libaom_av1_decoder
+dav1d_decoder
 .
 h
 "
@@ -440,7 +440,7 @@ decoder_id
 )
 decoder_
 (
-CreateLibaomAv1Decoder
+CreateDav1dDecoder
 (
 )
 )
