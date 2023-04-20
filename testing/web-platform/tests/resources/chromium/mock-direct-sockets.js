@@ -123,7 +123,7 @@ stop
 )
 ;
 }
-openTcpSocket
+openTCPSocket
 (
 options
 receiver
@@ -144,7 +144,7 @@ result
 )
 ;
 }
-openUdpSocket
+openUDPSocket
 (
 options
 receiver
