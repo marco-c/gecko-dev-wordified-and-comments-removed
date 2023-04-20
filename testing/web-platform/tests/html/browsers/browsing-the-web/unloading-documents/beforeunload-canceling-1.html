@@ -60,6 +60,7 @@ valueToReturn
 expectCancelation
 setReturnValue
 expectedReturnValue
+cancel
 }
 )
 =
@@ -77,6 +78,18 @@ e
 =
 >
 {
+if
+(
+cancel
+)
+{
+e
+.
+preventDefault
+(
+)
+;
+}
 if
 (
 setReturnValue
