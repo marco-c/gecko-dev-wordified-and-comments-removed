@@ -174,7 +174,7 @@ Integer
 (
 QueryFeatureGetter
 <
-u32
+i32
 >
 )
 Float
