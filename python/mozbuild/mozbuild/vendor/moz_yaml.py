@@ -5228,7 +5228,7 @@ move
 file
 "
 "
-movie
+move
 -
 dir
 "
