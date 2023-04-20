@@ -313,15 +313,15 @@ extensionID
 *
 Uses
 the
-whitelist
-blacklist
+allowlist
+blocklist
 and
 settings
 to
 determine
 if
 an
-extension
+addon
 *
 may
 be
@@ -336,7 +336,7 @@ boolean
 true
 of
 the
-extension
+addon
 may
 be
 installed
@@ -361,7 +361,7 @@ to
 determine
 if
 an
-extension
+addon
 can
 be
 installed
@@ -380,7 +380,7 @@ boolean
 true
 of
 the
-extension
+addon
 may
 be
 installed
