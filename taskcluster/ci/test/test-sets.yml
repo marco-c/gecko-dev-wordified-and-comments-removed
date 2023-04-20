@@ -594,6 +594,12 @@ grandprix
 browsertime
 -
 responsiveness
+-
+browsertime
+-
+regression
+-
+tests
 browsertime
 -
 profiling
