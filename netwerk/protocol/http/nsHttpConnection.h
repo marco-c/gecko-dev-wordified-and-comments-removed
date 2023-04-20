@@ -1300,6 +1300,12 @@ mHasTLSTransportLayer
 false
 }
 ;
+bool
+mTransactionDisallowHttp3
+{
+false
+}
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
