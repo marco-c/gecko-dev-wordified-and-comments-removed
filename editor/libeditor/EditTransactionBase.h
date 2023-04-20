@@ -216,6 +216,14 @@ CompositionTransaction
 )
 NS_DECL_GETASTRANSACTION_BASE
 (
+DeleteContentTransactionBase
+)
+NS_DECL_GETASTRANSACTION_BASE
+(
+DeleteMultipleRangesTransaction
+)
+NS_DECL_GETASTRANSACTION_BASE
+(
 DeleteNodeTransaction
 )
 NS_DECL_GETASTRANSACTION_BASE

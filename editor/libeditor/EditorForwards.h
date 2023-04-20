@@ -257,6 +257,12 @@ class
 CompositionTransaction
 ;
 class
+DeleteContentTransactionBase
+;
+class
+DeleteMultipleRangesTransaction
+;
+class
 DeleteNodeTransaction
 ;
 class

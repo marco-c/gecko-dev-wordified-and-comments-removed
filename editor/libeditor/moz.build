@@ -145,6 +145,16 @@ CSSEditUtils
 cpp
 "
 "
+DeleteContentTransactionBase
+.
+cpp
+"
+"
+DeleteMultipleRangesTransaction
+.
+cpp
+"
+"
 DeleteNodeTransaction
 .
 cpp

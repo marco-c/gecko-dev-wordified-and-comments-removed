@@ -7,7 +7,7 @@ DeleteNodeTransaction_h
 #
 include
 "
-EditTransactionBase
+DeleteContentTransactionBase
 .
 h
 "
@@ -68,7 +68,7 @@ DeleteNodeTransaction
 final
 :
 public
-EditTransactionBase
+DeleteContentTransactionBase
 {
 protected
 :
@@ -109,7 +109,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 DeleteNodeTransaction
-EditTransactionBase
+DeleteContentTransactionBase
 )
 NS_DECL_EDITTRANSACTIONBASE
 NS_DECL_EDITTRANSACTIONBASE_GETASMETHODS_OVERRIDE
@@ -121,7 +121,14 @@ NS_IMETHOD
 RedoTransaction
 (
 )
-override
+final
+;
+EditorDOMPoint
+SuggestPointToPutCaret
+(
+)
+const
+final
 ;
 nsIContent
 *
@@ -165,12 +172,6 @@ DeleteNodeTransaction
 )
 =
 default
-;
-RefPtr
-<
-EditorBase
->
-mEditorBase
 ;
 nsCOMPtr
 <

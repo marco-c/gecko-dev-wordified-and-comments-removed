@@ -7,7 +7,7 @@ DeleteTextTransaction_h
 #
 include
 "
-EditTransactionBase
+DeleteContentTransactionBase
 .
 h
 "
@@ -72,7 +72,7 @@ DeleteTextTransaction
 final
 :
 public
-EditTransactionBase
+DeleteContentTransactionBase
 {
 protected
 :
@@ -166,7 +166,7 @@ const
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 DeleteTextTransaction
-EditTransactionBase
+DeleteContentTransactionBase
 )
 NS_IMETHOD
 QueryInterface
@@ -190,7 +190,14 @@ NS_IMETHOD
 RedoTransaction
 (
 )
-override
+final
+;
+EditorDOMPoint
+SuggestPointToPutCaret
+(
+)
+const
+final
 ;
 dom
 :
@@ -250,12 +257,6 @@ aTransaction
 ;
 protected
 :
-RefPtr
-<
-EditorBase
->
-mEditorBase
-;
 RefPtr
 <
 dom

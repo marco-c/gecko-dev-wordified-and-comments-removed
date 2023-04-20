@@ -171,6 +171,14 @@ aDidMerge
 )
 override
 ;
+void
+AppendChild
+(
+EditTransactionBase
+&
+aTransaction
+)
+;
 nsresult
 EndPlaceHolderBatch
 (

@@ -6483,7 +6483,7 @@ aRangesToDelete
 ;
 already_AddRefed
 <
-EditAggregateTransaction
+DeleteMultipleRangesTransaction
 >
 CreateTransactionForDeleteSelection
 (
@@ -6497,7 +6497,7 @@ aRangesToDelete
 ;
 already_AddRefed
 <
-EditTransactionBase
+DeleteContentTransactionBase
 >
 CreateTransactionForCollapsedRange
 (
