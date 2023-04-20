@@ -47,6 +47,7 @@ endif
 namespace
 mozilla
 {
+inline
 constexpr
 bool
 IsAscii
@@ -62,6 +63,7 @@ aChar
 0x80
 ;
 }
+inline
 constexpr
 bool
 IsAscii
@@ -85,6 +87,7 @@ aChar
 )
 ;
 }
+inline
 constexpr
 bool
 IsAscii
@@ -107,6 +110,7 @@ aChar
 )
 ;
 }
+inline
 constexpr
 bool
 IsAscii
@@ -121,6 +125,7 @@ aChar
 0x80
 ;
 }
+inline
 constexpr
 bool
 IsAscii
