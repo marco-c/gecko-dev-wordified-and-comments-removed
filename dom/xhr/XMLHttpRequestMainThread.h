@@ -784,6 +784,8 @@ nsIHttpChannel
 aChannel
 bool
 aStripRequestBodyHeader
+bool
+aStripAuthHeader
 )
 const
 ;

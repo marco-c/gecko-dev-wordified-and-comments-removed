@@ -192,7 +192,7 @@ get_host_info
 (
 )
 .
-HTTP_REMOTE_ORIGIN
+HTTPS_REMOTE_ORIGIN
 +
 "
 /
@@ -220,7 +220,7 @@ get_host_info
 (
 )
 .
-HTTP_ORIGIN
+HTTPS_ORIGIN
 +
 "
 /
