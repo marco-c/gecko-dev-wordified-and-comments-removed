@@ -306,9 +306,9 @@ darwin
 isysroot
 MOZ_FETCHES_DIR
 /
-MacOSX11
+MacOSX13
 .
-3
+0
 .
 sdk
 "
@@ -383,9 +383,9 @@ darwin
 isysroot
 MOZ_FETCHES_DIR
 /
-MacOSX11
+MacOSX13
 .
-3
+0
 .
 sdk
 "

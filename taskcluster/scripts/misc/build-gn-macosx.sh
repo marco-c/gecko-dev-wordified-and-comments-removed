@@ -31,9 +31,9 @@ CROSS_SYSROOT
 =
 MOZ_FETCHES_DIR
 /
-MacOSX11
+MacOSX13
 .
-3
+0
 .
 sdk
 export
