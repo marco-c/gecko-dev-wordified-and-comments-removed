@@ -4372,7 +4372,7 @@ PointerLock
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -4384,13 +4384,15 @@ actors
 /
 PointerLockParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -4402,7 +4404,9 @@ actors
 /
 PointerLockChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
