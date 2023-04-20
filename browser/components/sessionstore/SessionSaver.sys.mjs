@@ -2321,7 +2321,7 @@ SessionSaverInternal
 _idleDelay
 "
 PREF_IDLE_DELAY
-180
+180000
 /
 *
 3
