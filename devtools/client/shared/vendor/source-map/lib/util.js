@@ -104,8 +104,8 @@ obj
 )
 ;
 }
-(
 )
+(
 )
 ;
 function
@@ -830,11 +830,9 @@ ident
 =
 prefix
 +
-(
 id
 +
 +
-)
 ;
 if
 (
