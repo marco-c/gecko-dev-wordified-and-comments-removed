@@ -698,16 +698,6 @@ write_style
 ;
 self
 }
-#
-[
-allow
-(
-clippy
-:
-:
-wrong_self_convention
-)
-]
 pub
 (
 crate
