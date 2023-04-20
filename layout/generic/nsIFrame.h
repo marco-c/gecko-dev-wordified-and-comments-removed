@@ -10191,6 +10191,10 @@ bool
 aWithMouse
 =
 false
+bool
+aCheckVisibility
+=
+true
 )
 ;
 bool

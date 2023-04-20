@@ -51713,6 +51713,8 @@ IsFocusable
 (
 bool
 aWithMouse
+bool
+aCheckVisibility
 )
 {
 if
@@ -51760,6 +51762,9 @@ return
 }
 if
 (
+aCheckVisibility
+&
+&
 !
 IsVisibleConsideringAncestors
 (
