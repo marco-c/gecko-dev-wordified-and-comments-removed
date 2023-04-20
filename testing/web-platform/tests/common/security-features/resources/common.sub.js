@@ -3339,10 +3339,7 @@ py
 "
 invoker
 :
-(
 url
-additionalAttributes
-)
 =
 >
 requestViaSharedWorker
@@ -3350,7 +3347,6 @@ requestViaSharedWorker
 workerUrlThatImports
 (
 url
-additionalAttributes
 )
 {
 type
