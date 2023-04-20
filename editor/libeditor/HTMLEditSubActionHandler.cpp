@@ -7,6 +7,13 @@ h
 "
 #
 include
+"
+HTMLEditorInlines
+.
+h
+"
+#
+include
 <
 algorithm
 >
