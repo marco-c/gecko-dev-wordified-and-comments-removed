@@ -5194,7 +5194,7 @@ self
 longhand_id
 :
 LonghandId
-combined_duration
+combined_duration_seconds
 :
 f32
 before_change_style
@@ -5328,7 +5328,7 @@ is_some
 )
 )
 ;
-combined_duration
+combined_duration_seconds
 >
 0
 .
@@ -8780,6 +8780,10 @@ transition_combined_duration_at
 transition_property
 .
 index
+)
+.
+seconds
+(
 )
 before_change_style
 after_change_style
