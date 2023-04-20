@@ -28,11 +28,6 @@ nsIWebTransport
 .
 idl
 "
-"
-nsIWebTransportStream
-.
-idl
-"
 ]
 XPIDL_MODULE
 =
@@ -52,11 +47,6 @@ WebTransportSessionProxy
 .
 h
 "
-"
-WebTransportStreamProxy
-.
-h
-"
 ]
 UNIFIED_SOURCES
 +
@@ -64,11 +54,6 @@ UNIFIED_SOURCES
 [
 "
 WebTransportSessionProxy
-.
-cpp
-"
-"
-WebTransportStreamProxy
 .
 cpp
 "
