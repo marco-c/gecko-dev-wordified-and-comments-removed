@@ -84,6 +84,15 @@ TrackType
 kAudioTrack
 ;
 }
+already_AddRefed
+<
+MediaData
+>
+OutputData
+(
+)
+override
+;
 private
 :
 HRESULT
@@ -112,6 +121,9 @@ nsTArray
 BYTE
 >
 mAACUserData
+;
+AudioInfo
+mAudioInfo
 ;
 }
 ;
