@@ -4421,9 +4421,12 @@ y
 )
 ;
 return
+int64_t
+(
 x
 /
 y
+)
 ;
 }
 static
@@ -4552,9 +4555,12 @@ y
 )
 ;
 return
+int64_t
+(
 x
 %
 y
+)
 ;
 }
 static
@@ -4591,7 +4597,10 @@ input
 )
 {
 return
+int64_t
+(
 0x8000000000000000
+)
 ;
 }
 return
@@ -4636,7 +4645,10 @@ input
 )
 {
 return
+int64_t
+(
 0x8000000000000000
+)
 ;
 }
 return

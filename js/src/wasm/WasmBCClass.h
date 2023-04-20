@@ -4133,7 +4133,7 @@ atomicXchg
 (
 MemoryAccessDesc
 *
-desc
+access
 ValType
 type
 )
@@ -6626,7 +6626,7 @@ emitGcArrayBoundsCheck
 RegI32
 index
 RegI32
-length
+numElements
 )
 ;
 template

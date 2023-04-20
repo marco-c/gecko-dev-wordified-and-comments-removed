@@ -421,7 +421,9 @@ WasmInstanceObject
 *
 >
 object
+const
 SharedCode
+&
 code
 Handle
 <
@@ -458,7 +460,9 @@ WasmInstanceObject
 *
 >
 object
+const
 SharedCode
+&
 code
 uint32_t
 globalDataLength
@@ -1889,7 +1893,7 @@ instance
 uint32_t
 segElemIndex
 uint32_t
-size
+numElements
 void
 *
 arrayDescr

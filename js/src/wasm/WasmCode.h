@@ -1446,9 +1446,10 @@ WASM_DECLARE_CACHEABLE_POD
 (
 MetadataCacheablePod
 )
-typedef
-uint8_t
+using
 ModuleHash
+=
+uint8_t
 [
 8
 ]
