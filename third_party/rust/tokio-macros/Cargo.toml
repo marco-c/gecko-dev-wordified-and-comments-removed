@@ -125,7 +125,7 @@ version
 .
 8
 .
-0
+2
 "
 authors
 =
@@ -165,6 +165,13 @@ https
 tokio
 .
 rs
+"
+readme
+=
+"
+README
+.
+md
 "
 categories
 =
