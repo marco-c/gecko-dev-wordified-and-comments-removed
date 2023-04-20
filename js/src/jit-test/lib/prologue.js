@@ -48,9 +48,6 @@ verifypostbarriers
 "
 gcPreserveCode
 "
-"
-setMarkStackLimit
-"
 ]
 )
 {

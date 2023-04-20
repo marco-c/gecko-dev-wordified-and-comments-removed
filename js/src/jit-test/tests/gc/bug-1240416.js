@@ -1,0 +1,8 @@
+gcparam
+(
+'
+markStackLimit
+'
+0
+)
+;

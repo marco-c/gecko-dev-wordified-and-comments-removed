@@ -202,6 +202,15 @@ true
 _
 (
 "
+markStackLimit
+"
+JSGC_MARK_STACK_LIMIT
+true
+)
+\
+_
+(
+"
 highFrequencyTimeLimit
 "
 JSGC_HIGH_FREQUENCY_TIME_LIMIT
