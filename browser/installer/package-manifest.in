@@ -898,6 +898,9 @@ components
 ProcessSingleton
 .
 manifest
+#
+ifdef
+MOZ_SERVICES_SYNC
 RESPATH
 /
 components
@@ -905,6 +908,8 @@ components
 SyncComponents
 .
 manifest
+#
+endif
 RESPATH
 /
 components

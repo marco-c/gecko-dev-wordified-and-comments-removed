@@ -5113,6 +5113,13 @@ true
 }
 }
 ;
+if
+(
+AppConstants
+.
+MOZ_SERVICES_SYNC
+)
+{
 XPCOMUtils
 .
 defineLazyGetter
@@ -5147,6 +5154,7 @@ getService
 wrappedJSObject
 )
 ;
+}
 if
 (
 AppConstants
@@ -16810,6 +16818,7 @@ if
 lazy
 .
 WeaveService
+?
 .
 enabled
 )
