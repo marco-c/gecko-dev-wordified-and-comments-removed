@@ -1700,6 +1700,7 @@ bindgen_cflags_android
 bindgen_config_paths
 .
 clang_flags
+all_arm_flags
 )
 def
 basic_bindgen_cflags
@@ -1709,6 +1710,7 @@ is_unix
 compiler_info
 android_cflags
 clang_flags
+all_arm_flags
 )
 :
 args
@@ -1970,6 +1972,13 @@ args
 +
 (
 clang_flags
+or
+[
+]
+)
++
+(
+all_arm_flags
 or
 [
 ]

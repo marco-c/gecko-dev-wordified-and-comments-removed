@@ -771,7 +771,7 @@ float_abi_option
 soft_float_option
 )
 def
-all_flags
+all_arm_flags
 (
 arch
 thumb
@@ -798,7 +798,7 @@ add_old_configure_assignment
 "
 _ARM_FLAGS
 "
-all_flags
+all_arm_flags
 )
 add_old_configure_assignment
 (
@@ -811,7 +811,7 @@ depends
 (
 configure_cache
 c_compiler
-all_flags
+all_arm_flags
 )
 checking
 (
@@ -847,7 +847,7 @@ arm_target
 (
 configure_cache
 compiler
-all_flags
+all_arm_flags
 )
 :
 source
@@ -1017,7 +1017,7 @@ E
 "
 ]
 +
-all_flags
+all_arm_flags
 wrapper
 =
 compiler
