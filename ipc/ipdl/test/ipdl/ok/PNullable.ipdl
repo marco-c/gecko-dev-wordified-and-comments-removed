@@ -9,6 +9,10 @@ PNullable
 [
 ]
 ;
+nullable
+PNullable
+?
+;
 }
 ;
 protocol
@@ -36,6 +40,15 @@ N
 ;
 async
 Msg3
+(
+nullable
+PNullable
+?
+n
+)
+;
+async
+Msg4
 (
 Union
 u
