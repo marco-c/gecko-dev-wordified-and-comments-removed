@@ -506,6 +506,17 @@ PKG_BASENAME
 mozsearch
 -
 distinclude
+MOZSEARCH_SCIP_INDEX_BASENAME
+=
+(
+PKG_BASENAME
+)
+.
+mozsearch
+-
+scip
+-
+index
 #
 Mozharness
 naming
