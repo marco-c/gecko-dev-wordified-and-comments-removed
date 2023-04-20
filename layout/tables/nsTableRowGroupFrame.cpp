@@ -1882,12 +1882,6 @@ aReflowInput
 reflowInput
 )
 ;
-desiredSize
-.
-ClearSize
-(
-)
-;
 LogicalSize
 kidAvailSize
 =
