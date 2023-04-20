@@ -4594,7 +4594,7 @@ labelID
 ;
 if
 (
-audioInputDevices
+audioOutputDevices
 .
 length
 =
