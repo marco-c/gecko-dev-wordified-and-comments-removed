@@ -132,7 +132,7 @@ BufferSource
 or
 Blob
 or
-USVString
+UTF8String
 )
 ?
 data
@@ -145,7 +145,7 @@ BufferSource
 or
 Blob
 or
-USVString
+UTF8String
 or
 WriteParams
 )
