@@ -393,7 +393,11 @@ gn
 /
 linux
 -
-amd64
+{
+{
+arch
+}
+}
 '
 '
 version
