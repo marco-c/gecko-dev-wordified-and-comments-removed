@@ -1247,6 +1247,7 @@ PreloadReferrerPolicy
 (
 aReferrerPolicy
 )
+aEarlyHintPreloaderId
 )
 ;
 }
