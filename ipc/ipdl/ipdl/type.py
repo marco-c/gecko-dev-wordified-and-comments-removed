@@ -50,6 +50,12 @@ import
 NOT_NESTED
 INSIDE_SYNC_NESTED
 INSIDE_CPOW_NESTED
+from
+ipdl
+.
+ast
+import
+priorityList
 import
 ipdl
 .
@@ -6866,23 +6872,7 @@ all
 Priority
 "
 :
-(
-"
-normal
-"
-"
-input
-"
-"
-vsync
-"
-"
-mediumhigh
-"
-"
-control
-"
-)
+priorityList
                 
 "
 Nested
