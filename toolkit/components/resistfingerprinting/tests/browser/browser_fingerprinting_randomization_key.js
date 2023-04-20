@@ -1040,7 +1040,7 @@ true
 for
 (
 let
-private
+testPrivateWin
 of
 [
 true
@@ -1055,7 +1055,7 @@ window
 ;
 if
 (
-private
+testPrivateWin
 )
 {
 win
@@ -1309,7 +1309,7 @@ tabAnother
 ;
 if
 (
-private
+testPrivateWin
 )
 {
 await
