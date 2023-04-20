@@ -18,7 +18,7 @@ true
 ;
 const
 {
-lax_request_count_checking
+request_count_checking
 }
 =
 ChromeUtils
@@ -200,7 +200,7 @@ json
 )
 ;
 await
-lax_request_count_checking
+request_count_checking
 (
 test_103_error_
 {

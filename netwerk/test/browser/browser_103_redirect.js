@@ -24,6 +24,7 @@ true
 const
 {
 test_hint_preload
+request_count_checking
 }
 =
 ChromeUtils

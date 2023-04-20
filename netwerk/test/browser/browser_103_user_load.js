@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-lax_request_count_checking
+request_count_checking
 test_hint_preload_internal
 test_hint_preload
 }
@@ -348,7 +348,7 @@ normal
 }
 ;
 await
-lax_request_count_checking
+request_count_checking
 (
 "
 test_preload_user_initiated
