@@ -4691,23 +4691,6 @@ try_name
                 
 if
 "
-speedometer3
-"
-in
-try_name
-and
-"
-windows
-"
-in
-platform
-:
-                    
-return
-False
-                
-if
-"
 chrome
 "
 in

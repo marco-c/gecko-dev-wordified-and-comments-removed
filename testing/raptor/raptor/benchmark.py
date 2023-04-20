@@ -860,7 +860,14 @@ mozfile
 .
 remove
 (
+str
+(
 dest
+.
+resolve
+(
+)
+)
 )
             
 shutil
