@@ -14833,6 +14833,13 @@ aStyleDisplay
 aParentFrame
 )
 ;
+AutoFrameConstructionPageName
+pageNameTracker
+(
+aState
+blockFrame
+)
+;
 if
 (
 (
