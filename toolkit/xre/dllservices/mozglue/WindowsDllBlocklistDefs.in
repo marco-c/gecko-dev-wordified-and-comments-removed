@@ -1123,12 +1123,7 @@ CylanceMemDef64
 .
 dll
 "
-(
-2
-48
-4
-1125
-)
+ALL_VERSIONS
 )
 ]
 ALL_PROCESSES_TESTS
