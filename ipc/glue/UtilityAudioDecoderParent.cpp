@@ -371,7 +371,13 @@ MOZ_SANDBOX
 &
 defined
 (
-OS_WIN
+XP_WIN
+)
+&
+&
+defined
+(
+MOZ_FFPVX
 )
 UtilityProcessImpl
 :
