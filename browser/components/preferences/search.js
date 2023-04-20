@@ -3637,9 +3637,13 @@ e
 e
 .
 originalEngine
+.
+id
 =
 =
 newEngine
+.
+id
 )
 ;
 if
