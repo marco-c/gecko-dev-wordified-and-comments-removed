@@ -797,13 +797,6 @@ builds
 :
 true
 "
-disable
--
-pgo
-"
-:
-true
-"
 version
 "
 :
