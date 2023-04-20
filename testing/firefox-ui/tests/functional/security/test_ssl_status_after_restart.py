@@ -57,11 +57,11 @@ https
 :
 /
 /
-sha512
+www
 .
-badssl
+itisatrap
 .
-com
+org
 /
 "
         
