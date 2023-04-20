@@ -3517,6 +3517,11 @@ contextCreated
 "
 browsingContext
 .
+domContentLoaded
+"
+"
+browsingContext
+.
 load
 "
 ]

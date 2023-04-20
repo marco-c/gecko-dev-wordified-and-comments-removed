@@ -139,6 +139,16 @@ name
 "
 browsingContext
 .
+domContentLoaded
+"
+|
+|
+name
+=
+=
+"
+browsingContext
+.
 load
 "
 )
