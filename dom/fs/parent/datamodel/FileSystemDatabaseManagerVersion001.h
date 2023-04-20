@@ -109,6 +109,17 @@ const
 override
 ;
 virtual
+nsresult
+UpdateUsage
+(
+const
+EntryId
+&
+aEntry
+)
+override
+;
+virtual
 Result
 <
 EntryId
