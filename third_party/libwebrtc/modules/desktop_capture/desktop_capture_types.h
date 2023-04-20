@@ -43,6 +43,7 @@ CaptureType
 {
 kWindow
 kScreen
+kAnyScreenContent
 }
 ;
 typedef
