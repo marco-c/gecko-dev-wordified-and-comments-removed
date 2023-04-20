@@ -1917,7 +1917,9 @@ common
 /
 TestIntegration
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

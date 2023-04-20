@@ -1031,7 +1031,9 @@ modules
 /
 MockDocument
 .
-jsm
+sys
+.
+mjs
 "
 "
 tests
@@ -1040,7 +1042,9 @@ modules
 /
 OSKeyStoreTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 "
 tests
@@ -1049,7 +1053,9 @@ modules
 /
 PromiseTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 "
 tests
@@ -1058,7 +1064,9 @@ xpcshell
 /
 RegionTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 "
 tests
@@ -1067,7 +1075,9 @@ xpcshell
 /
 TestIntegration
 .
-jsm
+sys
+.
+mjs
 "
 ]
 SPHINX_TREES
