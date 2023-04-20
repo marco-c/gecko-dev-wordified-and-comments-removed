@@ -546,7 +546,12 @@ mPathMaxComplexity
 0
 ;
 bool
-mPathAccelStroke
+mPathAAStroke
+=
+true
+;
+bool
+mPathWGRStroke
 =
 false
 ;
