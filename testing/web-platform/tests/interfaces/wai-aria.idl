@@ -206,9 +206,12 @@ ariaDisabled
 CEReactions
 ]
 attribute
+FrozenArray
+<
 Element
+>
 ?
-ariaErrorMessageElement
+ariaErrorMessageElements
 ;
 [
 CEReactions

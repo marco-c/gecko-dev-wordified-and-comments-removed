@@ -11227,7 +11227,9 @@ enum
 ImageOrientation
 {
 "
-none
+from
+-
+image
 "
 "
 flipY
@@ -11283,7 +11285,9 @@ ImageOrientation
 imageOrientation
 =
 "
-none
+from
+-
+image
 "
 ;
 PremultiplyAlpha
