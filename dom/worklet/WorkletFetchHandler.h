@@ -101,8 +101,6 @@ aReferrer
 void
 ExecutionFailed
 (
-nsresult
-aRv
 )
 ;
 void
