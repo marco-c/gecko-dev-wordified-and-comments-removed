@@ -88761,7 +88761,7 @@ RelaxedAtomicBool
 if
 defined
 (
-_ARM64_
+MOZ_AARCH64
 )
 &
 &
