@@ -951,7 +951,16 @@ req_seq_nbr
 "
 already
 processed
+returning
+result
+=
 "
+<
+<
+ToString
+(
+last_processed_req_result_
+)
 ;
 responses
 .
@@ -960,10 +969,7 @@ push_back
 ReconfigurationResponseParameter
 (
 req_seq_nbr
-ResponseResult
-:
-:
-kSuccessNothingToDo
+last_processed_req_result_
 )
 )
 ;
@@ -1121,9 +1127,6 @@ responses
 )
 )
 {
-ResponseResult
-result
-;
 RTC_DLOG
 (
 LS_VERBOSE
@@ -1160,7 +1163,7 @@ request_sequence_number
 (
 )
 ;
-result
+last_processed_req_result_
 =
 reassembly_queue_
 -
@@ -1179,7 +1182,7 @@ last_cumulative_acked_tsn
 ;
 if
 (
-result
+last_processed_req_result_
 =
 =
 ResponseResult
@@ -1218,7 +1221,7 @@ req
 request_sequence_number
 (
 )
-result
+last_processed_req_result_
 )
 )
 ;
