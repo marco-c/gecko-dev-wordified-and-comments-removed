@@ -1700,7 +1700,6 @@ mWidget
 >
 CaptureRollupEvents
 (
-nullptr
 false
 )
 ;
@@ -10036,7 +10035,6 @@ mWidget
 >
 CaptureRollupEvents
 (
-nullptr
 false
 )
 ;
@@ -10080,7 +10078,6 @@ mWidget
 >
 CaptureRollupEvents
 (
-nullptr
 true
 )
 ;

@@ -16750,9 +16750,6 @@ nsWindow
 :
 CaptureRollupEvents
 (
-nsIRollupListener
-*
-aListener
 bool
 aDoCapture
 )
@@ -16762,10 +16759,6 @@ if
 aDoCapture
 )
 {
-gRollupListener
-=
-aListener
-;
 if
 (
 !
@@ -16792,10 +16785,6 @@ true
 }
 else
 {
-gRollupListener
-=
-nullptr
-;
 sProcessHook
 =
 false
@@ -31797,7 +31786,6 @@ nullptr
 ;
 CaptureRollupEvents
 (
-nullptr
 false
 )
 ;

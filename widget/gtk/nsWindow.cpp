@@ -18445,9 +18445,6 @@ nsWindow
 :
 CaptureRollupEvents
 (
-nsIRollupListener
-*
-aListener
 bool
 aDoCapture
 )
@@ -18482,10 +18479,6 @@ if
 aDoCapture
 )
 {
-gRollupListener
-=
-aListener
-;
 if
 (
 !
@@ -18542,10 +18535,6 @@ GTK_WIDGET
 mContainer
 )
 )
-;
-gRollupListener
-=
-nullptr
 ;
 }
 }
@@ -35257,13 +35246,6 @@ if
 rollupWidget
 )
 {
-nsBaseWidget
-:
-:
-gRollupListener
-=
-nullptr
-;
 return
 false
 ;
