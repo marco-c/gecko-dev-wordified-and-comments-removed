@@ -625,6 +625,16 @@ is_none
 [
 test
 ]
+#
+[
+allow
+(
+clippy
+:
+:
+redundant_clone
+)
+]
 fn
 test_clone
 (

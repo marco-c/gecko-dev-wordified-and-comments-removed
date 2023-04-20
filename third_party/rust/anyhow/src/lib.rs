@@ -20,7 +20,7 @@ anyhow
 .
 0
 .
-68
+69
 "
 )
 ]
@@ -304,9 +304,16 @@ format_err
 ;
 #
 [
+cfg_attr
+(
+not
+(
+doc
+)
 repr
 (
 transparent
+)
 )
 ]
 pub
