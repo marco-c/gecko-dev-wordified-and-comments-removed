@@ -4510,6 +4510,10 @@ color
 #
 e6e6e6
 ;
+overflow
+:
+clip
+;
 }
 :
 :
@@ -4676,6 +4680,10 @@ cccccc
 55
 %
 )
+;
+overflow
+:
+clip
 ;
 }
 :
