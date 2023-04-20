@@ -340,6 +340,16 @@ aInitialColor
 ;
 [
 mColorPanel
+setFrameOrigin
+:
+[
+NSEvent
+mouseLocation
+]
+]
+;
+[
+mColorPanel
 makeKeyAndOrderFront
 :
 nil
