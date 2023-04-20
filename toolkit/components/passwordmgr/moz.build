@@ -217,11 +217,6 @@ NewPasswordModel
 jsm
 "
 "
-OSCrypto
-.
-jsm
-"
-"
 PasswordGenerator
 .
 jsm

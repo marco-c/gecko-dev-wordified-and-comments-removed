@@ -20,7 +20,7 @@ gre
 /
 modules
 /
-OSCrypto
+OSCrypto_win
 .
 jsm
 "
