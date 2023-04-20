@@ -251,7 +251,7 @@ mozilla
 /
 layers
 /
-LayerAttributes
+ScrollableLayerGuid
 .
 h
 "
@@ -262,7 +262,7 @@ mozilla
 /
 layers
 /
-ScrollableLayerGuid
+ScrollbarData
 .
 h
 "
