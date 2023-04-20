@@ -1668,7 +1668,7 @@ is_linux
 &
 &
 !
-is_chromecast
+is_castos
 )
 {
 defines
@@ -2263,7 +2263,7 @@ is_linux
 &
 &
 !
-is_chromecast
+is_castos
 &
 &
 rtc_use_pipewire

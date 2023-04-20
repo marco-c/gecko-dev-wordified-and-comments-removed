@@ -700,7 +700,11 @@ is_nacl
 &
 &
 !
-is_chromecast
+is_castos
+&
+&
+!
+is_cast_android
 }
 else
 {
