@@ -302,7 +302,7 @@ storageDataSize
 {
 cacheObject
 .
-dataSize
+storageDataSize
 =
 cacheEntry
 .
@@ -344,7 +344,7 @@ expirationTime
 {
 cacheObject
 .
-expires
+expirationTime
 =
 cacheEntry
 .
@@ -408,7 +408,7 @@ deviceID
 {
 cacheObject
 .
-device
+deviceID
 =
 cacheEntry
 .

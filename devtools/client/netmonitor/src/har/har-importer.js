@@ -531,11 +531,6 @@ lastFetched
 afterRequest
 .
 lastFetched
-eTag
-:
-afterRequest
-.
-eTag
 _dataSize
 :
 afterRequest
