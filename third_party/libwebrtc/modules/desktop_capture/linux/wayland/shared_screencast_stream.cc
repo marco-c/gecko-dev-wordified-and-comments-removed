@@ -3203,7 +3203,7 @@ parameters
 ;
 if
 (
-pw_client_version_
+pw_server_version_
 >
 =
 kDropSingleModifierMinVersion
