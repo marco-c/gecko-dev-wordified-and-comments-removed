@@ -114,7 +114,7 @@ version
 "
 1
 .
-9
+10
 .
 0
 "
@@ -175,6 +175,8 @@ txt
 description
 =
 "
+"
+"
 This
 crate
 provides
@@ -184,8 +186,7 @@ Word
 and
 Sentence
 boundaries
-\
-naccording
+according
 to
 Unicode
 Standard
@@ -194,8 +195,8 @@ Annex
 29
 rules
 .
-\
-n
+"
+"
 "
 homepage
 =
