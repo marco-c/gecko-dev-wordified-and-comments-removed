@@ -5716,6 +5716,15 @@ video_idx
 .
 spatial_layers
 ;
+video_encoder_configs_
+[
+video_idx
+]
+.
+frame_drop_enabled
+=
+true
+;
 decode_all_receive_streams
 =
 params_

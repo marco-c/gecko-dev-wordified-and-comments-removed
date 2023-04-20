@@ -686,6 +686,13 @@ max_bitrate_bps
 configuration
 -
 >
+frame_drop_enabled
+=
+true
+;
+configuration
+-
+>
 simulcast_layers
 =
 std
