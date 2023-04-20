@@ -2862,10 +2862,10 @@ Element
 *
 animatingElement
 =
-EffectCompositor
+AnimationUtils
 :
 :
-GetElementToRestyle
+GetElementForRestyle
 (
 mTarget
 .
@@ -8243,10 +8243,10 @@ Element
 *
 elementForResolve
 =
-EffectCompositor
+AnimationUtils
 :
 :
-GetElementToRestyle
+GetElementForRestyle
 (
 mTarget
 .
