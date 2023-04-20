@@ -61,8 +61,12 @@ ipc
 :
 :
 IPCResult
-RecvFoo
+RecvClose
 (
+CloseResolver
+&
+&
+aResolver
 )
 ;
 void
