@@ -81,6 +81,17 @@ DATE_FORMAT_LOCAL
 (
 date
 )
+"
+Date
+picker
+opens
+when
+a
+showPicker
+method
+is
+called
+"
 )
 ;
 }
