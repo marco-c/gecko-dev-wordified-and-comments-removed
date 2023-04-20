@@ -288,6 +288,14 @@ spacing
 "
     
 "
+column
+-
+rule
+-
+width
+"
+    
+"
 max
 -
 height
