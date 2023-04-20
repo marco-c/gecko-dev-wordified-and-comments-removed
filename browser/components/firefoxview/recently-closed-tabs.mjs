@@ -1189,7 +1189,7 @@ recordEvent
 firefoxview
 "
 "
-recently_closed
+dismiss_closed_tab
 "
 "
 tabs
