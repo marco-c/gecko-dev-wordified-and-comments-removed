@@ -120,7 +120,9 @@ build
 mach
 lint
 -
-Ww
+W
+-
+w
 -
 o
 -

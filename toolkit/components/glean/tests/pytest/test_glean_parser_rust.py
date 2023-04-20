@@ -248,6 +248,8 @@ output_rust
 (
 all_objs
 output_fd
+{
+}
 options
 )
     
@@ -414,6 +416,8 @@ output_rust
 (
 all_objs
 output_fd
+{
+}
 options
 )
     
