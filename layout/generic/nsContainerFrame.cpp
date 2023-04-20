@@ -679,13 +679,7 @@ PresShell
 )
 nsFrameList
 (
-std
-:
-:
-move
-(
 aChildList
-)
 )
 ;
 SetProperty
@@ -7429,6 +7423,9 @@ aChild
 ;
 return
 nsFrameList
+:
+:
+EmptyList
 (
 )
 ;

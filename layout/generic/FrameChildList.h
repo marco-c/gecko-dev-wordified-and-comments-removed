@@ -84,9 +84,7 @@ aID
 )
 {
 }
-const
 nsFrameList
-&
 mList
 ;
 FrameChildListID
