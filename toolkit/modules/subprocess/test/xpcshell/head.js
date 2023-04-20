@@ -55,9 +55,9 @@ mjs
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -74,7 +74,9 @@ modules
 /
 Subprocess
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
