@@ -18558,10 +18558,12 @@ partialAdvance
 }
 if
 (
-!
 skippedEndOfTextPath
 )
 {
+break
+;
+}
 MOZ_ASSERT
 (
 j
@@ -18596,7 +18598,6 @@ partialAdvance
 +
 j
 ;
-}
 }
 gfxFloat
 halfAdvance
