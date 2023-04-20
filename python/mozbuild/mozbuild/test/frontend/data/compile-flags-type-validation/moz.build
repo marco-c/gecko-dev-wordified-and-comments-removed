@@ -72,6 +72,3 @@ test1
 c
 "
 ]
-REQUIRES_UNIFIED_BUILD
-=
-True
