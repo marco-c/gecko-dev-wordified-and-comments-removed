@@ -2621,9 +2621,6 @@ nativeEndAddr
 )
 )
 ;
-JitcodeGlobalEntry
-:
-:
 BytecodeLocationVector
 location
 ;
