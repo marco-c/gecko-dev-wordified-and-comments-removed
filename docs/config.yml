@@ -228,6 +228,12 @@ testing
 rust
 -
 code
+release_doc
+:
+-
+update
+-
+infrastructure
 l10n_doc
 :
 -
