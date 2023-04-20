@@ -942,6 +942,11 @@ output_dump_sampling_modulo
 1
 ;
 bool
+output_dump_use_fixed_framerate
+=
+false
+;
+bool
 show_on_screen
 =
 false

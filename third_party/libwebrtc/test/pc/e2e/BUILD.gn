@@ -1315,6 +1315,15 @@ simulcast_dummy_buffer_helper
 .
 .
 :
+fixed_fps_video_frame_writer_adapter
+"
+"
+.
+.
+/
+.
+.
+:
 test_renderer
 "
 "
