@@ -355,6 +355,9 @@ msix
 '
 pkg
 '
+'
+langpack
+'
 ]
 esr102
 :
@@ -385,6 +388,9 @@ msix
 '
 '
 pkg
+'
+'
+langpack
 '
 ]
 shipping
