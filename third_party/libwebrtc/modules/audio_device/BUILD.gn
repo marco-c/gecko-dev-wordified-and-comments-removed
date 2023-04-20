@@ -2725,12 +2725,6 @@ test
 :
 test_support
 "
-"
-.
-.
-/
-utility
-"
 ]
 absl_deps
 =
@@ -2926,6 +2920,12 @@ sdk
 android
 :
 native_test_jni_onload
+"
+"
+.
+.
+/
+utility
 "
 ]
 }

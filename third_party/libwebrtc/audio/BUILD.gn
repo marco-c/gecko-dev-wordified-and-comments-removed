@@ -1368,14 +1368,6 @@ rtp_rtcp_format
 .
 .
 /
-modules
-/
-utility
-"
-"
-.
-.
-/
 rtc_base
 :
 checks

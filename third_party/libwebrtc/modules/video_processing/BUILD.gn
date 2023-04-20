@@ -257,17 +257,6 @@ common_video
 .
 .
 /
-modules
-/
-utility
-"
-"
-.
-.
-/
-.
-.
-/
 rtc_base
 :
 checks

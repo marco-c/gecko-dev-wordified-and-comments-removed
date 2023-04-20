@@ -485,15 +485,6 @@ voip_engine_factory
 "
 /
 /
-modules
-/
-utility
-:
-utility
-"
-"
-/
-/
 rtc_base
 "
 "

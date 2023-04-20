@@ -219,13 +219,6 @@ sources
 "
 include
 /
-module
-.
-h
-"
-"
-include
-/
 module_common_types
 .
 h
@@ -1802,11 +1795,6 @@ remote_bitrate_estimator_unittests
 rtp_rtcp
 :
 rtp_rtcp_unittests
-"
-"
-utility
-:
-utility_unittests
 "
 "
 video_coding
