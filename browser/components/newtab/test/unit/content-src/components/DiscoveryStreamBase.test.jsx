@@ -171,6 +171,8 @@ src
 /
 components
 /
+DiscoveryStreamComponents
+/
 TopSites
 /
 TopSites
@@ -1710,18 +1712,6 @@ column
 -
 grid
 div
-"
-)
-.
-find
-(
-"
-.
-ds
--
-top
--
-sites
 "
 )
 .
