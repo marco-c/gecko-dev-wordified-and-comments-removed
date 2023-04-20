@@ -177,6 +177,11 @@ api_call_jitter_metrics
 h
 "
 "
+block
+.
+h
+"
+"
 block_buffer
 .
 cc
@@ -1164,6 +1169,11 @@ render_buffer
 sources
 =
 [
+"
+block
+.
+h
+"
 "
 block_buffer
 .

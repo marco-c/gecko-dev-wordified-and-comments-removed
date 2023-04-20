@@ -43,7 +43,6 @@ NumBandsForRate
 sample_rate_hz
 )
 num_channels
-kBlockSize
 )
 spectrum_buffer_
 (
