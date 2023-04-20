@@ -617,17 +617,6 @@ event
 =
 >
 {
-Glean
-.
-pingCentre
-.
-sendFailures
-.
-add
-(
-1
-)
-;
 Cu
 .
 reportError
