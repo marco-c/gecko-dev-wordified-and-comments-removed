@@ -93,6 +93,16 @@ transaction
 "
 store
 "
+"
+readonly
+"
+{
+durability
+:
+'
+relaxed
+'
+}
 )
 .
 objectStore

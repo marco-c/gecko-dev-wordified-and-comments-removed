@@ -175,6 +175,13 @@ cache
 '
 readwrite
 '
+{
+durability
+:
+'
+relaxed
+'
+}
 )
 ;
 transaction
@@ -843,6 +850,13 @@ cache
 '
 readonly
 '
+{
+durability
+:
+'
+relaxed
+'
+}
 )
 ;
 transaction

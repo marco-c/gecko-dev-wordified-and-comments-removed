@@ -93,6 +93,13 @@ store
 '
 readwrite
 '
+{
+durability
+:
+'
+relaxed
+'
+}
 )
 ;
 const
@@ -214,6 +221,13 @@ store
 '
 readonly
 '
+{
+durability
+:
+'
+relaxed
+'
+}
 )
 ;
 const

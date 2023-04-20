@@ -52,6 +52,13 @@ store
 '
 readwrite
 '
+{
+durability
+:
+'
+relaxed
+'
+}
 )
 ;
 transaction1
@@ -83,6 +90,13 @@ store
 '
 readonly
 '
+{
+durability
+:
+'
+relaxed
+'
+}
 )
 ;
 transaction2
