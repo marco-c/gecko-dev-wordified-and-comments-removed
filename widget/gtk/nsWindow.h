@@ -2924,10 +2924,14 @@ mDrawInTitlebar
 false
 }
 ;
-bool
-mIsDestroyed
+mozilla
 :
-1
+:
+Atomic
+<
+bool
+>
+mIsDestroyed
 ;
 bool
 mIsShown
