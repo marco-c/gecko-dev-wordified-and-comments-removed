@@ -605,6 +605,11 @@ SctpImplementation
 :
 kUnknown
 ;
+bool
+uses_message_interleaving
+=
+false
+;
 }
 ;
 class
