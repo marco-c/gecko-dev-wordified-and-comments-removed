@@ -356,6 +356,12 @@ width
 :
 0
 ;
+pointer
+-
+events
+:
+none
+;
 }
 #
 label
@@ -395,6 +401,15 @@ weight
 ;
 }
 dropmarker
+{
+pointer
+-
+events
+:
+none
+;
+}
+dropmarker
 :
 not
 (
@@ -420,7 +435,7 @@ width
 ;
 height
 :
-12px
+unset
 ;
 }
 dropmarker

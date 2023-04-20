@@ -1468,6 +1468,14 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 nsXULElement
 nsStyledElement
 )
+bool
+IsDisabled
+(
+)
+const
+=
+delete
+;
 void
 GetEventTargetParent
 (
