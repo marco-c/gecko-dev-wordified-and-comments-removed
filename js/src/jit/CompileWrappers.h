@@ -225,6 +225,13 @@ addressOfMegamorphicCache
 const
 void
 *
+addressOfMegamorphicSetPropCache
+(
+)
+;
+const
+void
+*
 addressOfStringToAtomCache
 (
 )
