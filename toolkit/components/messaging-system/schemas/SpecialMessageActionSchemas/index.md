@@ -1323,7 +1323,7 @@ modal
 #
 #
 #
-ENABLE_CBH
+RELOAD_BROWSER
 *
 args
 :
@@ -1331,10 +1331,9 @@ args
 none
 )
 Action
-that
-enables
+for
+reloading
 the
-cookie
-banner
-handling
-feature
+current
+browser
+.

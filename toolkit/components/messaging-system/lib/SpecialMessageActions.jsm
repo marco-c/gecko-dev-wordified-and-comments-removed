@@ -1955,14 +1955,12 @@ break
 ;
 case
 "
-ENABLE_CBH
+RELOAD_BROWSER
 "
 :
-window
+browser
 .
-gCookieBannerHandlingExperiment
-.
-onActivate
+reload
 (
 )
 ;

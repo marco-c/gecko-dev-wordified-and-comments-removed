@@ -3326,7 +3326,7 @@ enum
 :
 [
 "
-ENABLE_CBH
+RELOAD_BROWSER
 "
 ]
 }
@@ -3353,12 +3353,10 @@ description
 Message
 action
 that
-enables
+reloads
 the
-cookie
-banner
-handling
-feature
+current
+browser
 "
 }
 ]
