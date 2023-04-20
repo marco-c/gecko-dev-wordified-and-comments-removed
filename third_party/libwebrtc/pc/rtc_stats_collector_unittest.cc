@@ -11998,7 +11998,7 @@ connection_info
 .
 sent_ping_requests_total
 =
-2020
+2222
 ;
 connection_info
 .
@@ -12267,7 +12267,7 @@ expected_pair
 .
 requests_sent
 =
-2000
+2222
 ;
 expected_pair
 .
@@ -12286,7 +12286,7 @@ expected_pair
 consent_requests_sent
 =
 (
-2020
+2222
 -
 2000
 )

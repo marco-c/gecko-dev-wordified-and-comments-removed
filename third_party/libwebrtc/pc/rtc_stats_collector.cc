@@ -9976,7 +9976,7 @@ uint64_t
 (
 info
 .
-sent_ping_requests_before_first_response
+sent_ping_requests_total
 )
 ;
 candidate_pair_stats
