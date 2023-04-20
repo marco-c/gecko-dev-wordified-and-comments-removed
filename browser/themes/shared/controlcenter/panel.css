@@ -1273,16 +1273,6 @@ httpsonlymode
 -
 menulist
 {
-text
--
-overflow
-:
-ellipsis
-;
-overflow
-:
-hidden
-;
 width
 :
 11em
