@@ -250,6 +250,7 @@ instrumentation
 /
 a
 >
+.
 about
 -
 glean
@@ -975,13 +976,12 @@ ping
 names
 =
 Select
-the
-ping
 from
 the
 preceding
 list
-that
+the
+ping
 your
 instrumentation
 is
@@ -1217,7 +1217,7 @@ tag
 and
 submit
 the
-named
+selected
 ping
 .
 (
