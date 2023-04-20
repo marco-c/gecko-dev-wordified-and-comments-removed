@@ -28,14 +28,6 @@ IDL
 (
 draft
 )
-testing
-:
--
-context
-.
-2d
-.
-type
 canvasType
 :
 [
