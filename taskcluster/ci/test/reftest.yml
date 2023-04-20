@@ -866,6 +866,16 @@ linux1804
 debug
 :
 5
+.
+*
+-
+tsan
+-
+qr
+/
+opt
+:
+8
 macosx
 .
 *
