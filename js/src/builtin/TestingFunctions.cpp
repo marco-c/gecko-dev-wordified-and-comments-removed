@@ -545,7 +545,7 @@ js
 /
 experimental
 /
-JSStencil
+CompileScript
 .
 h
 "
@@ -556,7 +556,7 @@ js
 /
 experimental
 /
-ParseScript
+JSStencil
 .
 h
 "
@@ -37937,7 +37937,7 @@ stencil
 JS
 :
 :
-ParseGlobalScript
+CompileGlobalScriptToStencil
 (
 &
 fc

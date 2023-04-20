@@ -5,7 +5,7 @@ js
 /
 experimental
 /
-ParseScript
+CompileScript
 .
 h
 "
@@ -170,7 +170,7 @@ JS
 :
 Stencil
 >
-ParseGlobalScriptImpl
+CompileGlobalScriptToStencilImpl
 (
 JS
 :
@@ -332,7 +332,7 @@ Stencil
 JS
 :
 :
-ParseGlobalScript
+CompileGlobalScriptToStencil
 (
 JS
 :
@@ -382,7 +382,7 @@ stencilInput
 )
 {
 return
-ParseGlobalScriptImpl
+CompileGlobalScriptToStencilImpl
 (
 fc
 options
@@ -402,7 +402,7 @@ Stencil
 JS
 :
 :
-ParseGlobalScript
+CompileGlobalScriptToStencil
 (
 JS
 :
@@ -449,7 +449,7 @@ stencilInput
 )
 {
 return
-ParseGlobalScriptImpl
+CompileGlobalScriptToStencilImpl
 (
 fc
 options

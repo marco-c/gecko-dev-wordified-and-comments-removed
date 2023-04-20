@@ -187,6 +187,11 @@ CForEmitter
 cpp
 "
 "
+CompileScript
+.
+cpp
+"
+"
 DefaultEmitter
 .
 cpp
@@ -303,11 +308,6 @@ cpp
 "
 "
 ParserAtom
-.
-cpp
-"
-"
-ParseScript
 .
 cpp
 "
