@@ -4678,6 +4678,9 @@ interlaced
 (
 )
 ;
+#
+ifndef
+FUZZING_SNAPSHOT
 MOZ_DIAGNOSTIC_ASSERT
 (
 sDeviceUniqueIDs
@@ -4695,6 +4698,8 @@ end
 )
 )
 ;
+#
+endif
 sDeviceUniqueIDs
 .
 emplace
@@ -4712,6 +4717,9 @@ CurrentDeviceName
 )
 )
 ;
+#
+ifndef
+FUZZING_SNAPSHOT
 MOZ_DIAGNOSTIC_ASSERT
 (
 sAllRequestedCapabilities
@@ -4729,6 +4737,8 @@ end
 )
 )
 ;
+#
+endif
 sAllRequestedCapabilities
 .
 emplace
