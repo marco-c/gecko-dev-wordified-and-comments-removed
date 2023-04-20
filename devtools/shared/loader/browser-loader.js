@@ -319,6 +319,8 @@ shared
 source
 -
 map
+-
+loader
 "
 "
 resource

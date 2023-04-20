@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 SourceMapConsumer
@@ -6,6 +11,10 @@ SourceMapConsumer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client

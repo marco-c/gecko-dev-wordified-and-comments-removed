@@ -907,6 +907,8 @@ shared
 source
 -
 map
+-
+loader
 /
 worker
 .

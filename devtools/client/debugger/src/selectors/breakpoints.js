@@ -22,6 +22,8 @@ shared
 source
 -
 map
+-
+loader
 /
 index
 "
