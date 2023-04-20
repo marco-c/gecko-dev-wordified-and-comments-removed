@@ -1463,6 +1463,17 @@ TaskRunning
 1000
 )
 ;
+if
+(
+profiler_thread_is_being_profiled
+(
+ThreadProfilingFeatures
+:
+:
+Sampling
+)
+)
+{
 current
 -
 >
@@ -1477,6 +1488,7 @@ Now
 )
 )
 ;
+}
 LogRunnable
 :
 :
