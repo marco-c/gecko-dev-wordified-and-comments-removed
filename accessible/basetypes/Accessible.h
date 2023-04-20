@@ -1961,6 +1961,15 @@ const
 =
 0
 ;
+void
+ApplyImplicitState
+(
+uint64_t
+&
+aState
+)
+const
+;
 private
 :
 static
