@@ -557,6 +557,11 @@ BinaryName
 "
 Register
 "
+Deprecated
+=
+"
+U2FRegister
+"
 ]
 undefined
 register_impl
@@ -640,6 +645,11 @@ BinaryName
 =
 "
 Sign
+"
+Deprecated
+=
+"
+U2FSign
 "
 ]
 undefined
