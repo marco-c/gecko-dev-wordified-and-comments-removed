@@ -53,7 +53,7 @@ json
 "
 ;
 let
-reportErrorStub
+consoleErrorStub
 ;
 let
 globals
@@ -135,7 +135,7 @@ localProfileDir
 "
 }
 ;
-reportErrorStub
+consoleErrorStub
 =
 sandbox
 .
@@ -148,12 +148,12 @@ globals
 set
 (
 "
-Cu
+console
 "
 {
-reportError
+error
 :
-reportErrorStub
+consoleErrorStub
 }
 )
 ;
@@ -360,7 +360,7 @@ assert
 .
 calledOnce
 (
-reportErrorStub
+consoleErrorStub
 )
 ;
 cache
@@ -369,7 +369,7 @@ _cache
 =
 undefined
 ;
-reportErrorStub
+consoleErrorStub
 .
 resetHistory
 (
@@ -406,7 +406,7 @@ assert
 .
 calledOnce
 (
-reportErrorStub
+consoleErrorStub
 )
 ;
 cache
@@ -415,7 +415,7 @@ _cache
 =
 undefined
 ;
-reportErrorStub
+consoleErrorStub
 .
 resetHistory
 (
@@ -452,7 +452,7 @@ assert
 .
 notCalled
 (
-reportErrorStub
+consoleErrorStub
 )
 ;
 }

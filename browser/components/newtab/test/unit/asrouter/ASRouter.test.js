@@ -13058,9 +13058,9 @@ sandbox
 .
 stub
 (
-Cu
+console
 "
-reportError
+error
 "
 )
 ;
@@ -13089,9 +13089,9 @@ assert
 .
 calledTwice
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

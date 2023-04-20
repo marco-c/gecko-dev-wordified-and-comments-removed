@@ -829,9 +829,9 @@ path
 )
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Missing
 file
@@ -894,9 +894,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Failed
 to

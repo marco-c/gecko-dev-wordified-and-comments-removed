@@ -3142,9 +3142,9 @@ stub
 (
 global
 .
-Cu
+console
 "
-reportError
+error
 "
 )
 ;

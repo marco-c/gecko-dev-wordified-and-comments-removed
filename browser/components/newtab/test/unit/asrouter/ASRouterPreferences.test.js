@@ -2863,9 +2863,9 @@ stub
 (
 global
 .
-Cu
+console
 "
-reportError
+error
 "
 )
 ;
@@ -2883,9 +2883,9 @@ calledOnce
 (
 global
 .
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
