@@ -15,6 +15,9 @@ backgroundPage
 const
 STARTUP_MODULES
 =
+new
+Set
+(
 [
 "
 resource
@@ -108,6 +111,7 @@ ExtensionTelemetry
 jsm
 "
 ]
+)
 ;
 if
 (
@@ -130,7 +134,7 @@ remote
 {
 STARTUP_MODULES
 .
-push
+add
 (
 "
 resource
@@ -145,6 +149,12 @@ ExtensionChild
 .
 jsm
 "
+)
+;
+STARTUP_MODULES
+.
+add
+(
 "
 resource
 :
@@ -175,7 +185,7 @@ thunderbird
 {
 STARTUP_MODULES
 .
-push
+add
 (
 "
 resource
@@ -190,6 +200,12 @@ ExtensionChild
 .
 jsm
 "
+)
+;
+STARTUP_MODULES
+.
+add
+(
 "
 resource
 :
@@ -203,6 +219,12 @@ ExtensionContent
 .
 jsm
 "
+)
+;
+STARTUP_MODULES
+.
+add
+(
 "
 resource
 :
@@ -389,7 +411,12 @@ loadedModules
 sort
 (
 )
+Array
+.
+from
+(
 STARTUP_MODULES
+)
 .
 sort
 (
