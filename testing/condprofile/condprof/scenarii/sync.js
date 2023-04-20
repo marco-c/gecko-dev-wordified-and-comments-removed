@@ -5,7 +5,7 @@ triggerSync
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -22,7 +22,9 @@ automation
 /
 ServicesAutomation
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

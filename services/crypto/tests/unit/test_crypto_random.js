@@ -5,7 +5,7 @@ WeaveCrypto
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ crypto
 /
 WeaveCrypto
 .
-js
+sys
+.
+mjs
 "
 )
 ;
