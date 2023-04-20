@@ -346,6 +346,9 @@ onAfterChange
 this
 .
 onTabChanged
+tall
+:
+true
 }
 TabPanel
 (
