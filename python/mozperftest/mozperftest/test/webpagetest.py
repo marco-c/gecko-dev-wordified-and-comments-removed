@@ -1174,10 +1174,32 @@ test_list
 metadata
 )
         
+try
+:
+            
 self
 .
 test_runs_left_this_month
 (
+)
+        
+except
+Exception
+:
+            
+self
+.
+warning
+(
+"
+testBalance
+check
+had
+an
+issue
+please
+investigate
+"
 )
         
 return
