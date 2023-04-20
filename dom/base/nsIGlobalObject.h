@@ -755,6 +755,8 @@ ShouldResistFingerprinting
 (
 )
 const
+=
+0
 ;
 virtual
 uint32_t
