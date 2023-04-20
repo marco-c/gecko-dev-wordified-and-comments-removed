@@ -128,6 +128,9 @@ TypedArrayObject
 class
 WithScope
 ;
+class
+MegamorphicCacheEntry
+;
 namespace
 gc
 {
@@ -2161,7 +2164,7 @@ frame
 )
 ;
 bool
-GetNativeDataPropertyPure
+GetNativeDataPropertyByNamePure
 (
 JSContext
 *
@@ -2172,13 +2175,16 @@ obj
 PropertyName
 *
 name
+MegamorphicCacheEntry
+*
+entry
 Value
 *
 vp
 )
 ;
 bool
-GetNativeDataPropertyPureFallback
+GetNativeDataPropertyByIdPure
 (
 JSContext
 *
@@ -2188,6 +2194,9 @@ JSObject
 obj
 PropertyKey
 id
+MegamorphicCacheEntry
+*
+cacheEntry
 Value
 *
 vp
@@ -2202,6 +2211,9 @@ cx
 JSObject
 *
 obj
+MegamorphicCacheEntry
+*
+cacheEntry
 Value
 *
 vp
@@ -2221,6 +2233,9 @@ cx
 JSObject
 *
 obj
+MegamorphicCacheEntry
+*
+cacheEntry
 Value
 *
 vp
