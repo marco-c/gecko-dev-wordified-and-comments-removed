@@ -1246,6 +1246,8 @@ CGColorRef
 aColor
 bool
 aIsDRM
+bool
+aIsVideo
 )
 ;
 UpdateType
@@ -1273,6 +1275,16 @@ mOpaquenessTintLayer
 =
 nullptr
 ;
+#
+ifdef
+NIGHTLY_BUILD
+bool
+mLogNextVideoSurface
+=
+false
+;
+#
+endif
 bool
 mMutatedPosition
 :
