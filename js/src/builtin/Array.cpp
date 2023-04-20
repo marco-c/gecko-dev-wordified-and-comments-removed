@@ -22920,6 +22920,17 @@ ArrayFrom
 3
 0
 )
+JS_SELF_HOSTED_FN
+(
+"
+fromAsync
+"
+"
+ArrayFromAsync
+"
+3
+0
+)
 JS_FN
 (
 "
