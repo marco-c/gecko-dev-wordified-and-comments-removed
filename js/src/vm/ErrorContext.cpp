@@ -638,7 +638,7 @@ cx
 cx
 -
 >
-setOffThreadFrontendErrors
+setFrontendErrors
 (
 &
 errors_

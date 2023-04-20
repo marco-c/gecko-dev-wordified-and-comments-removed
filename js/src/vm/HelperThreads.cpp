@@ -2779,10 +2779,10 @@ false
 endif
 struct
 MOZ_RAII
-AutoSetContextOffThreadFrontendErrors
+AutoSetContextFrontendErrors
 {
 explicit
-AutoSetContextOffThreadFrontendErrors
+AutoSetContextFrontendErrors
 (
 OffThreadErrorContext
 *
@@ -2803,7 +2803,7 @@ get
 ;
 }
 ~
-AutoSetContextOffThreadFrontendErrors
+AutoSetContextFrontendErrors
 (
 )
 {
@@ -2814,7 +2814,7 @@ get
 )
 -
 >
-setOffThreadFrontendErrors
+setFrontendErrors
 (
 nullptr
 )
@@ -5455,7 +5455,7 @@ return
 nullptr
 ;
 }
-AutoSetContextOffThreadFrontendErrors
+AutoSetContextFrontendErrors
 recordErrors
 (
 &
@@ -6064,7 +6064,7 @@ ascr
 runtime
 )
 ;
-AutoSetContextOffThreadFrontendErrors
+AutoSetContextFrontendErrors
 recordErrors
 (
 &
@@ -8234,7 +8234,7 @@ isHelperThreadContext
 cx
 -
 >
-offThreadFrontendErrors
+frontendErrors
 (
 )
 ;

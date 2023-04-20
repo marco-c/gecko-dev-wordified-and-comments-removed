@@ -3708,11 +3708,11 @@ isHelperThreadContext
 {
 if
 (
-OffThreadFrontendErrors
+FrontendErrors
 *
 errors
 =
-offThreadFrontendErrors
+frontendErrors
 (
 )
 )
@@ -4916,11 +4916,11 @@ isHelperThreadContext
 {
 if
 (
-OffThreadFrontendErrors
+FrontendErrors
 *
 errors
 =
-offThreadFrontendErrors
+frontendErrors
 (
 )
 )

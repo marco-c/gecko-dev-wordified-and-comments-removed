@@ -346,7 +346,7 @@ struct
 AutoResolving
 ;
 struct
-OffThreadFrontendErrors
+FrontendErrors
 ;
 class
 InternalJobQueue
@@ -709,7 +709,7 @@ currentThread_
 js
 :
 :
-OffThreadFrontendErrors
+FrontendErrors
 *
 errors_
 ;
@@ -1496,12 +1496,12 @@ oldRealm
 )
 ;
 void
-setOffThreadFrontendErrors
+setFrontendErrors
 (
 js
 :
 :
-OffThreadFrontendErrors
+FrontendErrors
 *
 errors
 )
@@ -1514,9 +1514,9 @@ errors
 js
 :
 :
-OffThreadFrontendErrors
+FrontendErrors
 *
-offThreadFrontendErrors
+frontendErrors
 (
 )
 const
