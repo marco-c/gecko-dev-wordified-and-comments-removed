@@ -2254,14 +2254,11 @@ tagging
 .
 tagURI
 (
-uri
-(
 bm1
 .
 url
 .
-href
-)
+URI
 [
 "
 Test

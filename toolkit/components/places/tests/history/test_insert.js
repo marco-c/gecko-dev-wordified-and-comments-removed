@@ -1087,12 +1087,11 @@ object
 x
 =
 >
-new
 URL
+.
+fromURI
 (
 x
-.
-spec
 )
 referrer
 date

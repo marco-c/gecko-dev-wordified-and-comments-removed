@@ -330,11 +330,9 @@ desc
 let
 pageURI
 =
-Services
+PlacesUtils
 .
-io
-.
-newURI
+toURI
 (
 test
 .

@@ -9776,8 +9776,6 @@ toURI
 item
 .
 url
-.
-href
 )
 ;
 if

@@ -2029,14 +2029,13 @@ selectedBrowser
 let
 url
 =
-new
 URL
+.
+fromURI
 (
 browser
 .
 currentURI
-.
-spec
 )
 ;
 let
