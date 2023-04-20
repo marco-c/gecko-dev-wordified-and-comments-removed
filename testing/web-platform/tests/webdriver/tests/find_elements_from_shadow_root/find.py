@@ -91,7 +91,7 @@ test_null_parameter_value
 (
 session
 http
-get_shadow_page
+get_test_page
 )
 :
     
@@ -99,36 +99,11 @@ session
 .
 url
 =
-get_shadow_page
+get_test_page
 (
-"
-<
-div
->
-<
-a
-href
-=
-#
-id
-=
-linkText
->
-full
-link
-text
-<
-/
-a
->
-<
-/
-div
->
-"
 )
     
-custom_element
+host
 =
 session
 .
@@ -139,8 +114,6 @@ css
 "
 custom
 -
-shadow
--
 element
 "
 all
@@ -150,7 +123,7 @@ False
     
 shadow_root
 =
-custom_element
+host
 .
 shadow_root
     
@@ -297,7 +270,7 @@ get_test_page
 (
 )
     
-element
+host
 =
 session
 .
@@ -320,7 +293,7 @@ result
 find_elements
 (
 session
-element
+host
 .
 id
 "
@@ -328,12 +301,7 @@ css
 selector
 "
 "
-#
-in
--
-shadow
--
-dom
+input
 "
 )
     
@@ -408,7 +376,7 @@ get_test_page
 (
 )
     
-element
+host
 =
 session
 .
@@ -428,7 +396,7 @@ False
     
 shadow_root
 =
-element
+host
 .
 shadow_root
     
@@ -500,7 +468,7 @@ switch_frame
 0
 )
     
-element
+host
 =
 session
 .
@@ -520,7 +488,7 @@ False
     
 shadow_root
 =
-element
+host
 .
 shadow_root
     
@@ -631,7 +599,7 @@ switch_frame
 frame
 )
     
-element
+host
 =
 session
 .
@@ -651,7 +619,7 @@ False
     
 shadow_root
 =
-element
+host
 .
 shadow_root
     
@@ -673,7 +641,7 @@ remove
 args
 =
 [
-element
+host
 ]
 )
     
@@ -776,7 +744,7 @@ get_test_page
 (
 )
     
-custom_element
+host
 =
 session
 .
@@ -796,7 +764,7 @@ False
     
 shadow_root
 =
-custom_element
+host
 .
 shadow_root
     
@@ -866,21 +834,54 @@ def
 test_invalid_using_argument
 (
 session
+get_test_page
 using
 )
 :
+    
+session
+.
+url
+=
+get_test_page
+(
+)
+    
+host
+=
+session
+.
+find
+.
+css
+(
+"
+custom
+-
+element
+"
+all
+=
+False
+)
+    
+shadow_root
+=
+host
+.
+shadow_root
     
 response
 =
 find_elements
 (
 session
-"
-notReal
-"
+shadow_root
+.
+id
 using
 "
-value
+input
 "
 )
     
@@ -913,18 +914,51 @@ def
 test_invalid_selector_argument
 (
 session
+get_test_page
 value
 )
 :
+    
+session
+.
+url
+=
+get_test_page
+(
+)
+    
+host
+=
+session
+.
+find
+.
+css
+(
+"
+custom
+-
+element
+"
+all
+=
+False
+)
+    
+shadow_root
+=
+host
+.
+shadow_root
     
 response
 =
 find_elements
 (
 session
-"
-notReal
-"
+shadow_root
+.
+id
 "
 css
 selector
@@ -944,8 +978,7 @@ def
 test_find_elements_equivalence
 (
 session
-inline
-get_shadow_page
+get_test_page
 )
 :
     
@@ -953,11 +986,11 @@ session
 .
 url
 =
-inline
-(
-get_shadow_page
+get_test_page
 (
         
+shadow_doc
+=
 "
 <
 div
@@ -991,9 +1024,8 @@ div
 >
 "
 )
-)
     
-custom_element
+host
 =
 session
 .
@@ -1004,8 +1036,6 @@ css
 "
 custom
 -
-shadow
--
 element
 "
 all
@@ -1015,9 +1045,44 @@ False
     
 shadow_root
 =
-custom_element
+host
 .
 shadow_root
+    
+expected
+=
+session
+.
+execute_script
+(
+"
+"
+"
+        
+return
+arguments
+[
+0
+]
+.
+shadowRoot
+.
+querySelector
+(
+'
+input
+'
+)
+        
+"
+"
+"
+args
+=
+(
+host
+)
+)
     
 response
 =
@@ -1113,8 +1178,7 @@ def
 test_find_elements
 (
 session
-inline
-get_shadow_page
+get_test_page
 using
 value
 )
@@ -1124,10 +1188,10 @@ session
 .
 url
 =
-inline
+get_test_page
 (
-get_shadow_page
-(
+shadow_doc
+=
 "
 <
 div
@@ -1154,9 +1218,8 @@ div
 >
 "
 )
-)
     
-custom_element
+host
 =
 session
 .
@@ -1167,8 +1230,6 @@ css
 "
 custom
 -
-shadow
--
 element
 "
 all
@@ -1178,7 +1239,7 @@ False
     
 shadow_root
 =
-custom_element
+host
 .
 shadow_root
     
@@ -1364,8 +1425,7 @@ def
 test_find_elements_link_text
 (
 session
-inline
-get_shadow_page
+get_test_page
 document
 value
 )
@@ -1375,11 +1435,11 @@ session
 .
 url
 =
-inline
+get_test_page
 (
-get_shadow_page
-(
-        
+shadow_doc
+=
+f
 "
 <
 div
@@ -1401,22 +1461,16 @@ br
 /
 >
 {
-0
+document
 }
 <
 /
 div
 >
 "
-.
-format
-(
-document
-)
-)
 )
     
-custom_element
+host
 =
 session
 .
@@ -1427,8 +1481,6 @@ css
 "
 custom
 -
-shadow
--
 element
 "
 all
@@ -1438,7 +1490,7 @@ False
     
 shadow_root
 =
-custom_element
+host
 .
 shadow_root
     
@@ -1449,6 +1501,9 @@ session
 execute_script
 (
 "
+"
+"
+        
 return
 arguments
 [
@@ -1466,12 +1521,14 @@ a
 [
 1
 ]
+        
 "
-                                      
+"
+"
 args
 =
 (
-custom_element
+host
 )
 )
     
@@ -1513,17 +1570,13 @@ value
 =
 1
     
-found_element
-=
+assert_same_element
+(
+session
 value
 [
 0
 ]
-    
-assert_same_element
-(
-session
-found_element
 expected
 )
 pytest
@@ -1716,8 +1769,7 @@ def
 test_find_elements_partial_link_text
 (
 session
-inline
-get_shadow_page
+get_test_page
 document
 value
 )
@@ -1727,11 +1779,11 @@ session
 .
 url
 =
-inline
+get_test_page
 (
-get_shadow_page
-(
-        
+shadow_doc
+=
+f
 "
 <
 div
@@ -1753,22 +1805,16 @@ br
 /
 >
 {
-0
+document
 }
 <
 /
 div
 >
 "
-.
-format
-(
-document
-)
-)
 )
     
-custom_element
+host
 =
 session
 .
@@ -1779,8 +1825,6 @@ css
 "
 custom
 -
-shadow
--
 element
 "
 all
@@ -1790,7 +1834,7 @@ False
     
 shadow_root
 =
-custom_element
+host
 .
 shadow_root
     
@@ -1801,6 +1845,9 @@ session
 execute_script
 (
 "
+"
+"
+        
 return
 arguments
 [
@@ -1818,12 +1865,14 @@ a
 [
 1
 ]
+        
 "
-                                      
+"
+"
 args
 =
 (
-custom_element
+host
 )
 )
     
@@ -1866,16 +1915,12 @@ value
 =
 1
     
-found_element
-=
+assert_same_element
+(
+session
 value
 [
 0
 ]
-    
-assert_same_element
-(
-session
-found_element
 expected
 )
