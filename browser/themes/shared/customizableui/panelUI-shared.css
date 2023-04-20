@@ -8293,6 +8293,12 @@ color
 :
 transparent
 ;
+flex
+-
+shrink
+:
+0
+;
 }
 .
 subview
