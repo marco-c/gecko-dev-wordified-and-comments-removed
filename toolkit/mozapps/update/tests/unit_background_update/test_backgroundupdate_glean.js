@@ -160,6 +160,16 @@ reason
 =
 >
 {
+Assert
+.
+equal
+(
+reason
+"
+backgroundupdate_task
+"
+)
+;
 pingSubmitted
 =
 true
