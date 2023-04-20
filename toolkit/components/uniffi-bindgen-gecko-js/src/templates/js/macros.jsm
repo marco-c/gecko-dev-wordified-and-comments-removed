@@ -22,6 +22,12 @@ return_type
 )
 "
 "
+func
+.
+is_async
+(
+config
+)
 )
 -
 %
@@ -40,6 +46,7 @@ call_constructor
 (
 cons
 object_type
+is_async
 )
 %
 }
@@ -56,6 +63,7 @@ object_type
 )
 "
 "
+is_async
 )
 -
 %
@@ -74,6 +82,7 @@ call_method
 (
 method
 object_type
+is_async
 )
 %
 }
@@ -94,6 +103,7 @@ object_type
 ffi_converter
 (
 )
+is_async
 )
 -
 %
@@ -113,6 +123,7 @@ _call_scaffolding_function
 func
 return_type
 receiver_ffi_converter
+is_async
 )
 %
 }
@@ -282,11 +293,7 @@ endfor
 %
 -
 if
-func
-.
 is_async
-(
-)
 %
 }
 return
@@ -370,7 +377,7 @@ arguments
 {
 arg
 .
-lower_fn_name
+lower_fn
 (
 )
 }
@@ -398,11 +405,7 @@ endfor
 %
 -
 if
-func
-.
 is_async
-(
-)
 %
 }
 try

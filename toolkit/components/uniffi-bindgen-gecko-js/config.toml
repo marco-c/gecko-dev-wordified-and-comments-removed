@@ -1,0 +1,17 @@
+[
+fixture_callbacks
+.
+receiver_thread
+]
+default
+=
+"
+worker
+"
+main
+=
+[
+"
+log_even_numbers_main_thread
+"
+]
