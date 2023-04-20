@@ -3990,6 +3990,12 @@ true
 }
 }
 ;
+extern
+void
+PurgeCanonicalTypes
+(
+)
+;
 using
 SharedRecGroup
 =

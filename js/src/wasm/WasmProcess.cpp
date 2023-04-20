@@ -1544,6 +1544,10 @@ hasLiveRuntimes
 return
 ;
 }
+PurgeCanonicalTypes
+(
+)
+;
 ProcessCodeSegmentMap
 *
 map
