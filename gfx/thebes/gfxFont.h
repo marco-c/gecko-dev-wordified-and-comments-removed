@@ -8355,6 +8355,15 @@ sRGBColor
 *
 palette
 ;
+mozilla
+:
+:
+gfx
+:
+:
+Rect
+fontExtents
+;
 bool
 isVerticalFont
 ;
