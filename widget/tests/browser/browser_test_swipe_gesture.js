@@ -4631,10 +4631,10 @@ linkedBrowser
 is
 (
 wheelEventCount
-3
+2
 "
 Received
-3
+2
 wheel
 events
 "
