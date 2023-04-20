@@ -921,10 +921,10 @@ nsIPrincipal
 >
 principal
 =
-nsContentUtils
-:
-:
-GetSystemPrincipal
+mGlobal
+-
+>
+PrincipalOrNull
 (
 )
 ;
