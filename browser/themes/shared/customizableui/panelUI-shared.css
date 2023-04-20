@@ -1735,6 +1735,12 @@ panel
 widget
 -
 overflow
+#
+unified
+-
+extensions
+-
+panel
 {
 font
 :
@@ -10330,6 +10336,13 @@ toolbarseparator
 PanelUI
 -
 subView
+toolbarseparator
+#
+unified
+-
+extensions
+-
+panel
 toolbarseparator
 #
 permission
