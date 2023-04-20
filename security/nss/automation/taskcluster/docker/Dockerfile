@@ -16,9 +16,9 @@ taskcluster
 FROM
 ubuntu
 :
-18
-.
-04
+bionic
+-
+20221215
 LABEL
 maintainer
 =

@@ -1052,6 +1052,9 @@ ssl_signature_algorithms_cert_xtn
 ssl_tls13_key_share_xtn
 =
 51
+ssl_tls13_grease_xtn
+=
+0x0a0a
 ssl_next_proto_nego_xtn
 =
 13172
