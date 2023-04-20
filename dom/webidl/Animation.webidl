@@ -447,6 +447,7 @@ persist
 )
 ;
 [
+CEReactions
 Pref
 =
 "
