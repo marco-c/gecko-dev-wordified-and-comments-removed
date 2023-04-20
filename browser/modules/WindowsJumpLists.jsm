@@ -1825,15 +1825,6 @@ privateWindowTask
 )
 ;
 }
-else
-{
-this
-.
-_builtPb
-=
-true
-;
-}
 this
 .
 _builder

@@ -12521,13 +12521,6 @@ win
 &
 lazy
 .
-PrivateBrowsingUtils
-.
-enabled
-&
-&
-lazy
-.
 NimbusFeatures
 .
 majorRelease2022
