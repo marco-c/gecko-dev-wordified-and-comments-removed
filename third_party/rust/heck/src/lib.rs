@@ -33,6 +33,9 @@ mod
 title
 ;
 mod
+train
+;
+mod
 upper_camel
 ;
 pub
@@ -101,6 +104,16 @@ title
 {
 AsTitleCase
 ToTitleCase
+}
+;
+pub
+use
+train
+:
+:
+{
+AsTrainCase
+ToTrainCase
 }
 ;
 pub
