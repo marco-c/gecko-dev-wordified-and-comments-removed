@@ -126307,7 +126307,7 @@ UopProcessOfflineManifest
 UopMarkMalformedIfScript
 UopStreamEnded
 UopSetStyleLineNumber
-UopSetScriptLineAndColumnNumberAndFreeze
+UopSetScriptLineNumberAndFreeze
 UopSvgLoad
 UopMaybeComplainAboutCharset
 UopMaybeComplainAboutDeepTree
@@ -126333,7 +126333,7 @@ UopProcessOfflineManifest
 UopMarkMalformedIfScript
 UopStreamEnded
 UopSetStyleLineNumber
-UopSetScriptLineAndColumnNumberAndFreeze
+UopSetScriptLineNumberAndFreeze
 UopSvgLoad
 UopMaybeComplainAboutCharset
 UopMaybeComplainAboutDeepTree
@@ -136632,7 +136632,7 @@ UopProcessOfflineManifest
 UopMarkMalformedIfScript
 UopStreamEnded
 UopSetStyleLineNumber
-UopSetScriptLineAndColumnNumberAndFreeze
+UopSetScriptLineNumberAndFreeze
 UopSvgLoad
 UopMaybeComplainAboutCharset
 UopMaybeComplainAboutDeepTree
@@ -136739,7 +136739,7 @@ UopProcessOfflineManifest
 UopMarkMalformedIfScript
 UopStreamEnded
 UopSetStyleLineNumber
-UopSetScriptLineAndColumnNumberAndFreeze
+UopSetScriptLineNumberAndFreeze
 UopSvgLoad
 UopMaybeComplainAboutCharset
 UopMaybeComplainAboutDeepTree
@@ -136770,7 +136770,7 @@ UopProcessOfflineManifest
 UopMarkMalformedIfScript
 UopStreamEnded
 UopSetStyleLineNumber
-UopSetScriptLineAndColumnNumberAndFreeze
+UopSetScriptLineNumberAndFreeze
 UopSvgLoad
 UopMaybeComplainAboutCharset
 UopMaybeComplainAboutDeepTree
