@@ -1136,6 +1136,11 @@ PlacesBookmarkGuid
 h
 "
 "
+PlacesBookmarkKeyword
+.
+h
+"
+"
 PlacesBookmarkMoved
 .
 h
