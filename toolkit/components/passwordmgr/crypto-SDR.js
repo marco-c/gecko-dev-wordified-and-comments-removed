@@ -322,7 +322,8 @@ this
 .
 _uiBusy
 =
-true
+!
+wasLoggedIn
 ;
 try
 {
@@ -559,7 +560,8 @@ this
 .
 _uiBusy
 =
-true
+!
+wasLoggedIn
 ;
 try
 {
@@ -738,7 +740,8 @@ this
 .
 _uiBusy
 =
-true
+!
+wasLoggedIn
 ;
 try
 {
@@ -983,7 +986,8 @@ this
 .
 _uiBusy
 =
-true
+!
+wasLoggedIn
 ;
 try
 {
