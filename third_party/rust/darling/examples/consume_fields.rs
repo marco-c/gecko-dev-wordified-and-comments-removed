@@ -599,13 +599,6 @@ syn
 :
 :
 Type
-#
-[
-darling
-(
-default
-)
-]
 volume
 :
 Option

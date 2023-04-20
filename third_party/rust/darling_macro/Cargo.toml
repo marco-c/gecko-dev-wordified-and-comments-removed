@@ -112,9 +112,9 @@ version
 "
 0
 .
-13
+14
 .
-4
+2
 "
 authors
 =
@@ -135,6 +135,8 @@ com
 description
 =
 "
+"
+"
 Internal
 support
 for
@@ -149,8 +151,7 @@ attributes
 into
 structs
 when
-\
-nimplementing
+implementing
 custom
 derives
 .
@@ -170,8 +171,8 @@ in
 your
 code
 .
-\
-n
+"
+"
 "
 license
 =
@@ -212,9 +213,9 @@ version
 =
 0
 .
-13
+14
 .
-4
+2
 "
 [
 dependencies
@@ -228,7 +229,7 @@ version
 .
 0
 .
-9
+18
 "
 [
 dependencies
@@ -242,5 +243,5 @@ version
 .
 0
 .
-69
+91
 "

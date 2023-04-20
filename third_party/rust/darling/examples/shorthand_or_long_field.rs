@@ -153,13 +153,6 @@ Table
 name
 :
 String
-#
-[
-darling
-(
-default
-)
-]
 value
 :
 Option

@@ -97,13 +97,6 @@ pub
 foo
 :
 bool
-#
-[
-darling
-(
-default
-)
-]
 pub
 bar
 :
