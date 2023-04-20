@@ -2084,12 +2084,10 @@ const
 EditorDOMRange
 &
 aRange
-nsAtom
-*
-aProperty
-nsAtom
-*
-aAttribute
+const
+EditorInlineStyle
+&
+aStyle
 )
 ;
 [
