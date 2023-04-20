@@ -77,7 +77,7 @@ async
 {
 dispatch
 getState
-evaluationsParser
+parserWorker
 }
 )
 =
@@ -97,7 +97,7 @@ const
 expressionError
 =
 await
-evaluationsParser
+parserWorker
 .
 hasSyntaxError
 (
@@ -691,7 +691,7 @@ dispatch
 getState
 client
 sourceMaps
-evaluationsParser
+parserWorker
 }
 )
 {
@@ -766,7 +766,7 @@ null
 ;
 }
 return
-evaluationsParser
+parserWorker
 .
 mapExpression
 (

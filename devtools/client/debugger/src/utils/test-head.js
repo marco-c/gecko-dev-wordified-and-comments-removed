@@ -44,7 +44,6 @@ import
 searchWorker
 prettyPrintWorker
 parserWorker
-evaluationsParser
 }
 from
 "
@@ -170,7 +169,6 @@ sourceMapsMock
 :
 sourceMaps
 parserWorker
-evaluationsParser
 prettyPrintWorker
 searchWorker
 }

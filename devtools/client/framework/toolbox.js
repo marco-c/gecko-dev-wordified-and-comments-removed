@@ -6092,7 +6092,7 @@ _sourceMapLoader
 ;
 }
 get
-parserService
+parserWorker
 (
 )
 {
@@ -6100,13 +6100,13 @@ if
 (
 this
 .
-_parserService
+_parserWorker
 )
 {
 return
 this
 .
-_parserService
+_parserWorker
 ;
 }
 const
@@ -6141,7 +6141,7 @@ js
 ;
 this
 .
-_parserService
+_parserWorker
 =
 new
 ParserDispatcher
@@ -6151,7 +6151,7 @@ ParserDispatcher
 return
 this
 .
-_parserService
+_parserWorker
 ;
 }
 get
@@ -16155,12 +16155,12 @@ if
 (
 this
 .
-_parserService
+_parserWorker
 )
 {
 this
 .
-_parserService
+_parserWorker
 .
 stop
 (
@@ -16168,7 +16168,7 @@ stop
 ;
 this
 .
-_parserService
+_parserWorker
 =
 null
 ;
