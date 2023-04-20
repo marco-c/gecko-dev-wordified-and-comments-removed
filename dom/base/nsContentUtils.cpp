@@ -44540,6 +44540,15 @@ UrlClassifierCommon
 IsTrackingClassificationFlag
 (
 classificationFlags
+NS_UsePrivateBrowsing
+(
+document
+-
+>
+GetChannel
+(
+)
+)
 )
 ;
 }
