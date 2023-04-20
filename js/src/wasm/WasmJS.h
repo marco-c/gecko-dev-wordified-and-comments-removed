@@ -1857,7 +1857,7 @@ cx
 )
 ;
 static
-void
+bool
 discard
 (
 Handle
