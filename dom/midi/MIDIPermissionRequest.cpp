@@ -878,6 +878,15 @@ baseDelayMS
 uint32_t
 randomDelayMS
 =
+xpc
+:
+:
+IsInAutomation
+(
+)
+?
+0
+:
 RandomUint64OrDie
 (
 )
