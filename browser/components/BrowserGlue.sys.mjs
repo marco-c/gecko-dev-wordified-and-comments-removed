@@ -3156,10 +3156,6 @@ DOMDocElementInserted
 :
 {
 }
-MozAfterPaint
-:
-{
-}
 }
 }
 messageManagerGroups
