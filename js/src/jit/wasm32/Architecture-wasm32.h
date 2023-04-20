@@ -60,13 +60,6 @@ WasmCheckedCallEntryOffset
 =
 0u
 ;
-static
-constexpr
-uint32_t
-WasmCheckedTailEntryOffset
-=
-1u
-;
 class
 Registers
 {

@@ -1018,13 +1018,6 @@ WasmCheckedCallEntryOffset
 =
 0u
 ;
-static
-constexpr
-uint32_t
-WasmCheckedTailEntryOffset
-=
-4u
-;
 struct
 ImmTag
 :

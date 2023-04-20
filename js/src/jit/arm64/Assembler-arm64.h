@@ -1189,13 +1189,6 @@ WasmCheckedCallEntryOffset
 =
 0u
 ;
-static
-constexpr
-uint32_t
-WasmCheckedTailEntryOffset
-=
-16u
-;
 class
 Assembler
 :

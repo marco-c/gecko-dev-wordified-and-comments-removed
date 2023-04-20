@@ -1593,13 +1593,6 @@ WasmCheckedCallEntryOffset
 ;
 static
 constexpr
-uint32_t
-WasmCheckedTailEntryOffset
-=
-4u
-;
-static
-constexpr
 Scale
 ScalePointer
 =

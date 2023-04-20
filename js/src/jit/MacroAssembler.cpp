@@ -23420,6 +23420,15 @@ wasm
 CallIndirectIdKind
 :
 :
+AsmJS
+:
+case
+wasm
+:
+:
+CallIndirectIdKind
+:
+:
 None
 :
 break

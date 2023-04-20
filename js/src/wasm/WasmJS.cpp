@@ -21408,8 +21408,8 @@ moduleEnv
 declareFuncExported
 (
 0
-false
-false
+true
+true
 )
 ;
 CacheableName

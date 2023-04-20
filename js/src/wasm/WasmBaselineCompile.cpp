@@ -8126,7 +8126,7 @@ kind
 CallIndirectIdKind
 :
 :
-None
+AsmJS
 )
 ;
 const
