@@ -2838,7 +2838,7 @@ exists
 ;
 assert
 .
-equal
+isFalse
 (
 wrapper
 .
@@ -2855,7 +2855,6 @@ buttons
 exists
 (
 )
-false
 )
 ;
 }

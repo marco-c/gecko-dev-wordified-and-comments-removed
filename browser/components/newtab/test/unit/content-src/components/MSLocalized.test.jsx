@@ -86,6 +86,10 @@ find
 span
 "
 )
+.
+exists
+(
+)
 )
 ;
 assert
@@ -167,6 +171,10 @@ test_id
 '
 ]
 "
+)
+.
+exists
+(
 )
 )
 ;
@@ -301,6 +309,10 @@ test_id
 ]
 "
 )
+.
+exists
+(
+)
 )
 ;
 }
@@ -386,6 +398,10 @@ test
 '
 ]
 "
+)
+.
+exists
+(
 )
 )
 ;
