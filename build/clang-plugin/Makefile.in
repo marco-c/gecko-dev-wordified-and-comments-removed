@@ -64,7 +64,7 @@ config
 .
 mk
 HOST_LDFLAGS
-:
++
 =
 (
 LLVM_LDFLAGS
