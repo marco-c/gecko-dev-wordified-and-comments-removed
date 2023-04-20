@@ -11094,11 +11094,6 @@ policy
 .
 extension
 .
-id
-policy
-.
-extension
-.
 baseURI
 manifest
 locale
@@ -16578,9 +16573,6 @@ engine
 .
 updateFromManifest
 (
-extension
-.
-id
 extension
 .
 baseURI
