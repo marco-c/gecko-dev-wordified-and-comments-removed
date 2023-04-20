@@ -6510,6 +6510,8 @@ nodiscard
 bool
 emitArrayLen
 (
+bool
+decodeIgnoredTypeIndex
 )
 ;
 [
