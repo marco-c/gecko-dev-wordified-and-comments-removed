@@ -10,7 +10,7 @@ AboutPocketParent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -22,7 +22,9 @@ actors
 /
 AboutPocketParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
