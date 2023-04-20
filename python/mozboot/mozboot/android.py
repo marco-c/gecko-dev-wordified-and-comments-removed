@@ -520,16 +520,6 @@ android
 ac_add_options
 -
 -
-target
-=
-arm
--
-linux
--
-androideabi
-ac_add_options
--
--
 enable
 -
 artifact
