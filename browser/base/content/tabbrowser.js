@@ -10319,8 +10319,6 @@ triggeringPrincipal
 userContextId
 csp
 skipLoad
-=
-createLazyBrowser
 batchInsertingTabs
 globalHistoryOptions
 triggeringRemoteType
@@ -11904,6 +11902,9 @@ createLazyBrowser
 skipAnimation
 :
 true
+allowInheritPrincipal
+:
+true
 noInitialLabel
 :
 true
@@ -11919,7 +11920,8 @@ batchInsertingTabs
 true
 skipLoad
 :
-true
+!
+createLazyBrowser
 preferredRemoteType
 }
 )
@@ -19339,6 +19341,9 @@ true
 index
 :
 aIndex
+createLazyBrowser
+allowInheritPrincipal
+:
 createLazyBrowser
 }
 ;
