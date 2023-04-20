@@ -7,6 +7,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 double
 -
@@ -133,7 +138,14 @@ length
 ;
 i
 >
+std
+:
+:
+max
+(
 point
+0
+)
 ;
 i
 -
