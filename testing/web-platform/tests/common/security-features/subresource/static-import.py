@@ -1,7 +1,11 @@
 import
-os
-sys
+importlib
+import
 json
+import
+os
+import
+sys
 from
 urllib
 .
@@ -14,8 +18,6 @@ wptserve
 utils
 import
 isomorphic_decode
-import
-importlib
 subresource
 =
 importlib
@@ -311,11 +313,13 @@ response
 )
 :
     
+def
 payload_generator
-=
-lambda
+(
 _
+)
 :
+return
 generate_payload
 (
 request
@@ -371,7 +375,6 @@ get_csp_value
 (
 csp
 )
-;
     
 subresource
 .
