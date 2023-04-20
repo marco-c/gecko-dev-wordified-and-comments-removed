@@ -561,12 +561,9 @@ element
 stale_element
 (
 "
-<
-div
->
-"
-"
-div
+input
+#
+text
 "
 as_frame
 =

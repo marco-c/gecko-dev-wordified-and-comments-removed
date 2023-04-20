@@ -488,7 +488,6 @@ test_stale_element_reference
 (
 session
 stale_element
-checkbox_dom
 as_frame
 )
 :
@@ -497,11 +496,8 @@ element
 =
 stale_element
 (
-checkbox_dom
 "
 custom
--
-checkbox
 -
 element
 "
