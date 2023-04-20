@@ -1739,6 +1739,7 @@ GetParam
 decode_sync_
 :
 nullptr
+nullptr
 )
 ;
 video_receive_stream_

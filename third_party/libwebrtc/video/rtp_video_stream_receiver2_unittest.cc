@@ -1055,6 +1055,7 @@ mock_on_complete_frame_callback_
 nullptr
 nullptr
 field_trials_
+nullptr
 )
 ;
 rtp_video_stream_receiver_
@@ -6800,6 +6801,7 @@ mock_on_complete_frame_callback_
 nullptr
 mock_frame_transformer
 field_trials_
+nullptr
 )
 ;
 receiver

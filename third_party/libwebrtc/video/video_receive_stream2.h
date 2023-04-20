@@ -484,6 +484,9 @@ nack_periodic_processor
 DecodeSynchronizer
 *
 decode_sync
+RtcEventLog
+*
+event_log
 )
 ;
 ~
