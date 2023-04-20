@@ -68,6 +68,17 @@ label
 interventions
 =
 Interventions
+#
+Variables
+:
+#
+bug
+(
+string
+)
+-
+Bug
+number
 label
 -
 more

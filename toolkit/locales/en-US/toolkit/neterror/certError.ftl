@@ -59,7 +59,7 @@ Variables
 #
 hostname
 (
-String
+string
 )
 -
 Hostname
@@ -263,7 +263,7 @@ Variables
 #
 hostname
 (
-String
+string
 )
 -
 Hostname
@@ -514,7 +514,7 @@ Variables
 #
 hostname
 (
-String
+string
 )
 -
 Hostname
@@ -573,7 +573,7 @@ Variables
 #
 hostname
 (
-String
+string
 )
 -
 Hostname
@@ -589,7 +589,7 @@ alt
 -
 name
 (
-String
+string
 )
 -
 Alternate
@@ -684,7 +684,7 @@ Variables
 #
 hostname
 (
-String
+string
 )
 -
 Hostname
@@ -700,7 +700,7 @@ alt
 -
 name
 (
-String
+string
 )
 -
 Alternate
@@ -775,13 +775,27 @@ name
 Variables
 :
 #
+hostname
+(
+string
+)
+-
+Hostname
+of
+the
+website
+with
+cert
+error
+.
+#
 subject
 -
 alt
 -
 names
 (
-String
+string
 )
 -
 Alternate
@@ -861,7 +875,7 @@ Variables
 #
 hostname
 (
-String
+string
 )
 -
 Hostname
@@ -939,7 +953,7 @@ Variables
 #
 hostname
 (
-String
+string
 )
 -
 Hostname
@@ -1068,7 +1082,7 @@ Variables
 #
 error
 (
-String
+string
 )
 -
 NSS
@@ -1134,7 +1148,7 @@ Variables
 #
 hostname
 (
-String
+string
 )
 -
 Hostname
@@ -1148,7 +1162,7 @@ error
 #
 errorMessage
 (
-String
+string
 )
 -
 Error
@@ -1193,7 +1207,7 @@ Variables
 #
 hostname
 (
-String
+string
 )
 -
 Hostname
@@ -1435,7 +1449,7 @@ Variables
 #
 hostname
 (
-String
+string
 )
 -
 Hostname
@@ -1584,7 +1598,7 @@ Variables
 #
 hostname
 (
-String
+string
 )
 -
 Hostname
@@ -1626,7 +1640,7 @@ Variables
 #
 hostname
 (
-String
+string
 )
 -
 Hostname

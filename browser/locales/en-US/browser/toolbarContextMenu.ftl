@@ -182,6 +182,17 @@ Tabs
 accesskey
 =
 S
+#
+Variables
+#
+tabCount
+(
+number
+)
+-
+Number
+of
+tabs
 toolbar
 -
 context
