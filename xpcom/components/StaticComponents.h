@@ -773,14 +773,14 @@ kDefaultProtocolHandlerIndex
 StringOffset
 mScheme
 ;
-ModuleID
-mModuleID
-;
 uint32_t
 mProtocolFlags
 ;
 int32_t
 mDefaultPort
+;
+ModuleID
+mModuleID
 ;
 bool
 mHasDynamicFlags

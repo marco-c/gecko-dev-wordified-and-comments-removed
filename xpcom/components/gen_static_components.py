@@ -3582,13 +3582,6 @@ scheme
 }
           
 .
-mModuleID
-=
-{
-module_id
-}
-          
-.
 mProtocolFlags
 =
 {
@@ -3600,6 +3593,13 @@ mDefaultPort
 =
 {
 default_port
+}
+          
+.
+mModuleID
+=
+{
+module_id
 }
           
 .
