@@ -1010,6 +1010,15 @@ override
 {
 }
 void
+SetLossNotificationEnabled
+(
+bool
+enabled
+)
+override
+{
+}
+void
 SetRtpExtensions
 (
 std
