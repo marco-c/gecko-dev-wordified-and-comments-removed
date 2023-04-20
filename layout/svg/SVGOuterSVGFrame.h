@@ -212,7 +212,6 @@ registered
 }
 #
 endif
-virtual
 nscoord
 GetMinISize
 (
@@ -222,7 +221,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -232,7 +230,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 IntrinsicSize
 GetIntrinsicSize
 (
@@ -280,7 +277,6 @@ aFlags
 )
 override
 ;
-virtual
 void
 Reflow
 (
@@ -300,7 +296,6 @@ aStatus
 )
 override
 ;
-virtual
 void
 DidReflow
 (
@@ -326,7 +321,6 @@ aOverflowAreas
 )
 override
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -340,7 +334,6 @@ aLists
 )
 override
 ;
-virtual
 void
 Init
 (
@@ -387,7 +380,6 @@ eReplacedSizing
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -433,7 +425,6 @@ aPostDestroyData
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -447,7 +438,6 @@ aModType
 )
 override
 ;
-virtual
 nsContainerFrame
 *
 GetContentInsertionFrame
@@ -528,7 +518,6 @@ aResult
 )
 override
 ;
-virtual
 void
 NotifyViewportOrTransformChanged
 (
@@ -537,7 +526,6 @@ aFlags
 )
 override
 ;
-virtual
 void
 PaintSVG
 (
@@ -560,7 +548,6 @@ nullptr
 )
 override
 ;
-virtual
 SVGBBox
 GetBBoxContribution
 (
@@ -573,7 +560,6 @@ aFlags
 )
 override
 ;
-virtual
 gfxMatrix
 GetCanvasTM
 (
@@ -596,7 +582,6 @@ SVGForeignObjectFrame
 aFrame
 )
 ;
-virtual
 bool
 HasChildrenOnlyTransform
 (
@@ -821,7 +806,6 @@ SVGOuterSVGAnonChildFrame
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (
@@ -839,7 +823,6 @@ override
 ;
 #
 endif
-virtual
 void
 BuildDisplayList
 (
@@ -856,7 +839,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -894,7 +876,6 @@ aFromParentTransform
 const
 override
 ;
-virtual
 gfxMatrix
 GetCanvasTM
 (

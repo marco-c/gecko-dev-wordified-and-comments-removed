@@ -222,7 +222,6 @@ nullptr
 =
 0
 ;
-virtual
 void
 BuildDisplayList
 (

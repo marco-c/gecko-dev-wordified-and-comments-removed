@@ -217,7 +217,6 @@ aFrameList
 )
 override
 ;
-virtual
 void
 RemoveFrame
 (
@@ -229,7 +228,6 @@ aOldFrame
 )
 override
 ;
-virtual
 bool
 IsFrameOfType
 (
@@ -273,7 +271,6 @@ eSVGContainer
 )
 ;
 }
-virtual
 void
 BuildDisplayList
 (
@@ -384,7 +381,6 @@ aFrameList
 )
 override
 ;
-virtual
 void
 RemoveFrame
 (
@@ -396,7 +392,6 @@ aOldFrame
 )
 override
 ;
-virtual
 void
 Init
 (
@@ -412,7 +407,6 @@ aPrevInFlow
 )
 override
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -426,7 +420,6 @@ aLists
 )
 override
 ;
-virtual
 bool
 IsSVGTransformed
 (
@@ -444,7 +437,6 @@ nullptr
 const
 override
 ;
-virtual
 void
 PaintSVG
 (
@@ -467,7 +459,6 @@ nullptr
 )
 override
 ;
-virtual
 nsIFrame
 *
 GetFrameForPoint
@@ -479,14 +470,12 @@ aPoint
 )
 override
 ;
-virtual
 void
 ReflowSVG
 (
 )
 override
 ;
-virtual
 void
 NotifySVGChanged
 (
@@ -495,7 +484,6 @@ aFlags
 )
 override
 ;
-virtual
 SVGBBox
 GetBBoxContribution
 (
@@ -508,7 +496,6 @@ aFlags
 )
 override
 ;
-virtual
 bool
 IsDisplayContainer
 (
@@ -519,7 +506,6 @@ return
 true
 ;
 }
-virtual
 gfxMatrix
 GetCanvasTM
 (

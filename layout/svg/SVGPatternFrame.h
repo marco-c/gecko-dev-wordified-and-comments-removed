@@ -155,7 +155,6 @@ nsPresContext
 aPresContext
 )
 ;
-virtual
 already_AddRefed
 <
 gfxPattern
@@ -193,14 +192,12 @@ override
 ;
 public
 :
-virtual
 gfxMatrix
 GetCanvasTM
 (
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -217,7 +214,6 @@ override
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (
@@ -238,7 +234,6 @@ endif
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (

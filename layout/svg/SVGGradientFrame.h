@@ -164,7 +164,6 @@ NS_DECL_QUERYFRAME_TARGET
 (
 SVGGradientFrame
 )
-virtual
 already_AddRefed
 <
 gfxPattern
@@ -200,7 +199,6 @@ aOverrideBounds
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -217,7 +215,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -446,7 +443,6 @@ SVGLinearGradientFrame
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (
@@ -464,7 +460,6 @@ override
 ;
 #
 endif
-virtual
 nsresult
 AttributeChanged
 (
@@ -481,7 +476,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -515,7 +509,6 @@ uint32_t
 aIndex
 )
 ;
-virtual
 mozilla
 :
 :
@@ -540,14 +533,12 @@ aDefault
 )
 override
 ;
-virtual
 bool
 GradientVectorLengthIsZero
 (
 )
 override
 ;
-virtual
 already_AddRefed
 <
 gfxPattern
@@ -615,7 +606,6 @@ SVGRadialGradientFrame
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (
@@ -633,7 +623,6 @@ override
 ;
 #
 endif
-virtual
 nsresult
 AttributeChanged
 (
@@ -650,7 +639,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -709,7 +697,6 @@ SVGRadialGradientElement
 aElement
 )
 ;
-virtual
 mozilla
 :
 :
@@ -734,14 +721,12 @@ aDefault
 )
 override
 ;
-virtual
 bool
 GradientVectorLengthIsZero
 (
 )
 override
 ;
-virtual
 already_AddRefed
 <
 gfxPattern

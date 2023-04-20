@@ -147,7 +147,6 @@ NS_DECL_FRAMEARENA_HELPERS
 (
 SVGFilterFrame
 )
-virtual
 void
 BuildDisplayList
 (
@@ -162,7 +161,6 @@ aLists
 override
 {
 }
-virtual
 nsresult
 AttributeChanged
 (
@@ -179,7 +177,6 @@ override
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (

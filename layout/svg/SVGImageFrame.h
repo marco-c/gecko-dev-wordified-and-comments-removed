@@ -130,7 +130,6 @@ ComputedStyle
 aStyle
 )
 ;
-virtual
 bool
 CreateWebRenderCommands
 (
@@ -216,7 +215,6 @@ NS_DECL_FRAMEARENA_HELPERS
 (
 SVGImageFrame
 )
-virtual
 void
 PaintSVG
 (
@@ -239,7 +237,6 @@ nullptr
 )
 override
 ;
-virtual
 nsIFrame
 *
 GetFrameForPoint
@@ -251,21 +248,18 @@ aPoint
 )
 override
 ;
-virtual
 void
 ReflowSVG
 (
 )
 override
 ;
-virtual
 uint16_t
 GetHitTestFlags
 (
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -298,7 +292,6 @@ Nothing
 )
 override
 ;
-virtual
 void
 Init
 (
@@ -314,7 +307,6 @@ aPrevInFlow
 )
 override
 ;
-virtual
 void
 DestroyFrom
 (
@@ -354,7 +346,6 @@ const
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -379,14 +370,12 @@ aResult
 }
 #
 endif
-virtual
 bool
 ReflowFinished
 (
 )
 override
 ;
-virtual
 void
 ReflowCallbackCanceled
 (

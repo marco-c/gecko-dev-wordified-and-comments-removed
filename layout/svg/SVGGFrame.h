@@ -137,7 +137,6 @@ SVGGFrame
 #
 ifdef
 DEBUG
-virtual
 void
 Init
 (
@@ -158,7 +157,6 @@ endif
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -183,7 +181,6 @@ aResult
 }
 #
 endif
-virtual
 nsresult
 AttributeChanged
 (

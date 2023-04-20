@@ -609,7 +609,6 @@ NS_DECL_FRAMEARENA_HELPERS
 (
 SVGTextFrame
 )
-virtual
 void
 Init
 (
@@ -625,7 +624,6 @@ aPrevInFlow
 )
 override
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -639,7 +637,6 @@ aModType
 )
 override
 ;
-virtual
 nsContainerFrame
 *
 GetContentInsertionFrame
@@ -662,7 +659,6 @@ GetContentInsertionFrame
 )
 ;
 }
-virtual
 void
 BuildDisplayList
 (
@@ -679,7 +675,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -704,7 +699,6 @@ aResult
 }
 #
 endif
-virtual
 void
 FindCloserFrameForSelection
 (
@@ -718,7 +712,6 @@ aCurrentBestFrame
 )
 override
 ;
-virtual
 void
 NotifySVGChanged
 (
@@ -727,7 +720,6 @@ aFlags
 )
 override
 ;
-virtual
 void
 PaintSVG
 (
@@ -750,7 +742,6 @@ nullptr
 )
 override
 ;
-virtual
 nsIFrame
 *
 GetFrameForPoint
@@ -762,14 +753,12 @@ aPoint
 )
 override
 ;
-virtual
 void
 ReflowSVG
 (
 )
 override
 ;
-virtual
 SVGBBox
 GetBBoxContribution
 (

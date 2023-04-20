@@ -148,7 +148,6 @@ NS_DECL_FRAMEARENA_HELPERS
 (
 SVGClipPathFrame
 )
-virtual
 void
 BuildDisplayList
 (
@@ -163,7 +162,6 @@ aLists
 override
 {
 }
-virtual
 bool
 IsSVGTransformed
 (
@@ -261,7 +259,6 @@ IsValid
 (
 )
 ;
-virtual
 nsresult
 AttributeChanged
 (
@@ -275,7 +272,6 @@ aModType
 )
 override
 ;
-virtual
 void
 Init
 (
@@ -294,7 +290,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -344,7 +339,6 @@ aClippedFrame
 ;
 private
 :
-virtual
 gfxMatrix
 GetCanvasTM
 (
