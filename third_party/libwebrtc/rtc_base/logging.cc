@@ -743,6 +743,13 @@ log_timestamp_
 )
 {
 int64_t
+log_start_time
+=
+LogStartTime
+(
+)
+;
+int64_t
 time
 =
 TimeDiff
@@ -750,9 +757,7 @@ TimeDiff
 SystemTimeMillis
 (
 )
-LogStartTime
-(
-)
+log_start_time
 )
 ;
 WallClockStartTime
