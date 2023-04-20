@@ -9615,6 +9615,9 @@ typeDef
 break
 ;
 }
+#
+ifdef
+ENABLE_WASM_GC
 case
 TypeDefKind
 :
@@ -9699,6 +9702,8 @@ true
 break
 ;
 }
+#
+endif
 default
 :
 MOZ_CRASH
