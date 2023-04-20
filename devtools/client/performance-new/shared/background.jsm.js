@@ -280,6 +280,10 @@ BrowserModule
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -288,7 +292,11 @@ performance
 -
 new
 /
+shared
+/
 browser
+.
+js
 "
 )
 RecordingUtils

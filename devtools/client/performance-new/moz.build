@@ -84,11 +84,6 @@ shared
 DevToolsModules
 (
 "
-browser
-.
-js
-"
-"
 initializer
 .
 js
