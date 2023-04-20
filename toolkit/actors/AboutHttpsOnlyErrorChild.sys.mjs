@@ -508,6 +508,8 @@ webNav
 loadURI
 (
 newWWWURI
+.
+spec
 {
 triggeringPrincipal
 loadFlags

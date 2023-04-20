@@ -2817,7 +2817,7 @@ browser
 {
 browser
 .
-fixupAndLoadURIString
+loadURI
 =
 async
 (

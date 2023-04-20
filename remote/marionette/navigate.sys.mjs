@@ -1229,7 +1229,7 @@ true
 ;
 browsingContext
 .
-fixupAndLoadURIString
+loadURI
 (
 url
 opts

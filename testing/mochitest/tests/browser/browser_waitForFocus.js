@@ -54,14 +54,7 @@ linkedBrowser
 .
 loadURI
 (
-Services
-.
-io
-.
-newURI
-(
 url
-)
 )
 ;
 }

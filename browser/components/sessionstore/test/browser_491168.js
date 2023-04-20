@@ -323,12 +323,6 @@ browser
 .
 loadURI
 (
-Services
-.
-io
-.
-newURI
-(
 "
 http
 :
@@ -338,7 +332,6 @@ example
 .
 org
 "
-)
 {
 referrerInfo
 :

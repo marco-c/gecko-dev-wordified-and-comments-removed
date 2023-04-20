@@ -189,7 +189,7 @@ page
 .
 aBrowser
 .
-fixupAndLoadURIString
+loadURI
 (
 this
 .

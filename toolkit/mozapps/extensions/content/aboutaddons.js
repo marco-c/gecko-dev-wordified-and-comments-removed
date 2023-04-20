@@ -10320,7 +10320,7 @@ isConnectedAndReady
 {
 this
 .
-fixupAndLoadURIString
+loadURI
 (
 optionsURL
 )
@@ -10355,7 +10355,7 @@ then
 {
 this
 .
-fixupAndLoadURIString
+loadURI
 (
 optionsURL
 )
@@ -10368,9 +10368,9 @@ optionsURL
 )
 ;
 }
-fixupAndLoadURIString
+loadURI
 (
-uriString
+uri
 )
 {
 if
@@ -10405,9 +10405,9 @@ this
 .
 browser
 .
-fixupAndLoadURIString
+loadURI
 (
-uriString
+uri
 {
 triggeringPrincipal
 :

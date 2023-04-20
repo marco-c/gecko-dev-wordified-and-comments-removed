@@ -1589,7 +1589,7 @@ window
 .
 gBrowser
 .
-fixupAndLoadURIString
+loadURI
 (
 url
 {

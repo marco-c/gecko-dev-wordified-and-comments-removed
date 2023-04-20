@@ -1040,12 +1040,6 @@ chromeShell
 .
 loadURI
 (
-Services
-.
-io
-.
-newURI
-(
 "
 chrome
 :
@@ -1059,7 +1053,6 @@ dummy
 .
 xhtml
 "
-)
 loadURIOptions
 )
 ;
@@ -1551,7 +1544,7 @@ this
 .
 browser
 .
-fixupAndLoadURIString
+loadURI
 (
 url
 {

@@ -645,15 +645,15 @@ browser
 >
 {
 let
-browserFixupAndLoadURIString
+browserLoadURI
 =
 browser
 .
-fixupAndLoadURIString
+loadURI
 ;
 browser
 .
-fixupAndLoadURIString
+loadURI
 =
 function
 (
@@ -703,7 +703,7 @@ about
 blank
 "
 ;
-browserFixupAndLoadURIString
+browserLoadURI
 .
 apply
 (

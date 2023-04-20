@@ -1493,6 +1493,8 @@ loadURI
 submission
 .
 uri
+.
+spec
 {
 postData
 :

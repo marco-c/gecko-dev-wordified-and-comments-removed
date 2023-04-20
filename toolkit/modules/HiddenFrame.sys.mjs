@@ -80,12 +80,6 @@ mjs
 const
 XUL_PAGE
 =
-Services
-.
-io
-.
-newURI
-(
 "
 chrome
 :
@@ -99,7 +93,6 @@ win
 .
 xhtml
 "
-)
 ;
 const
 gAllHiddenFrames

@@ -1492,7 +1492,7 @@ LOAD_FLAGS_ALLOW_THIRD_PARTY_FIXUP
 ;
 webNavigation
 .
-fixupAndLoadURIString
+loadURI
 (
 tabData
 .
@@ -1684,18 +1684,11 @@ webNavigation
 .
 loadURI
 (
-Services
-.
-io
-.
-newURI
-(
 "
 about
 :
 blank
 "
-)
 loadURIOptions
 )
 ;
@@ -2679,6 +2672,8 @@ webNavigation
 loadURI
 (
 newURI
+.
+spec
 loadURIOptions
 )
 ;

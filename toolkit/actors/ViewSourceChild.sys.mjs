@@ -587,7 +587,7 @@ baseURI
 ;
 webNav
 .
-fixupAndLoadURIString
+loadURI
 (
 uri
 loadURIOptions
@@ -878,7 +878,7 @@ loadFlags
 ;
 webNav
 .
-fixupAndLoadURIString
+loadURI
 (
 URL
 loadURIOptions

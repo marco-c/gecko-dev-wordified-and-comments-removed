@@ -3878,8 +3878,6 @@ Assert
 equal
 (
 uri
-.
-spec
 "
 about
 :

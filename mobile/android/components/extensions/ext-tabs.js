@@ -598,7 +598,7 @@ LOAD_FLAGS_DISALLOW_INHERIT_PRINCIPAL
 }
 browser
 .
-fixupAndLoadURIString
+loadURI
 (
 url
 {

@@ -1075,7 +1075,7 @@ page
 .
 browser
 .
-fixupAndLoadURIString
+loadURI
 (
 this
 .
@@ -1771,14 +1771,7 @@ browser
 .
 loadURI
 (
-Services
-.
-io
-.
-newURI
-(
 offlinePagePath
-)
 {
 triggeringPrincipal
 }

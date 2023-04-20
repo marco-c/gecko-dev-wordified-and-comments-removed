@@ -474,7 +474,7 @@ this
 .
 browser
 .
-fixupAndLoadURIString
+loadURI
 (
 this
 .

@@ -2261,7 +2261,7 @@ LOAD_FLAGS_NONE
 ;
 browser
 .
-fixupAndLoadURIString
+loadURI
 (
 options_ui
 .

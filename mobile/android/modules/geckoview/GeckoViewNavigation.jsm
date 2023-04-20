@@ -1108,7 +1108,7 @@ this
 .
 browser
 .
-fixupAndLoadURIString
+loadURI
 (
 uri
 {
@@ -1950,6 +1950,8 @@ browser
 loadURI
 (
 uri
+.
+spec
 {
 triggeringPrincipal
 csp

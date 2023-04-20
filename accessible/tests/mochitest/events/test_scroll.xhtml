@@ -446,7 +446,7 @@ doTest
 )
 {
 const
-kURL
+URL
 =
 "
 http
@@ -510,14 +510,7 @@ tabBrowser
 .
 loadURI
 (
-Services
-.
-io
-.
-newURI
-(
-kURL
-)
+URL
 {
 triggeringPrincipal
 :
@@ -608,7 +601,7 @@ tabBrowser
 .
 addTab
 (
-kURL
+URL
 {
 referrerURI
 :

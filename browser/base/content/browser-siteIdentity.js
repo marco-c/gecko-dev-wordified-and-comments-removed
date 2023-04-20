@@ -2065,6 +2065,8 @@ gBrowser
 loadURI
 (
 newURI
+.
+spec
 {
 triggeringPrincipal
 :

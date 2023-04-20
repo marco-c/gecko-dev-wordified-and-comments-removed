@@ -3224,7 +3224,7 @@ oa
 ;
 browser
 .
-fixupAndLoadURIString
+loadURI
 (
 url
 loadURIOptions

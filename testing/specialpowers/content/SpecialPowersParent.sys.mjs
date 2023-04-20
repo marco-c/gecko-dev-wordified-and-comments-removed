@@ -503,12 +503,6 @@ chromeShell
 .
 loadURI
 (
-Services
-.
-io
-.
-newURI
-(
 "
 chrome
 :
@@ -522,7 +516,6 @@ dummy
 .
 xhtml
 "
-)
 {
 triggeringPrincipal
 :
