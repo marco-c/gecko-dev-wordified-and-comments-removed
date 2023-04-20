@@ -281,13 +281,6 @@ cpp
 "
 windows
 /
-WindowsScreenConfiguration
-.
-cpp
-"
-"
-windows
-/
 WindowsSensor
 .
 cpp
@@ -308,6 +301,13 @@ cpp
 windows
 /
 WindowsProcessPriority
+.
+cpp
+"
+"
+windows
+/
+WindowsScreenConfiguration
 .
 cpp
 "
