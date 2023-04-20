@@ -10,7 +10,6 @@ FfiConverterArrayBuffer
 static
 checkType
 (
-name
 value
 )
 {
@@ -42,7 +41,6 @@ ffi_converter
 .
 checkType
 (
-name
 value
 )
 }
