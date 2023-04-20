@@ -63,6 +63,7 @@ href
 }
 )
 ;
+await
 prepareForBFCache
 (
 rc1
@@ -85,6 +86,7 @@ historyBack
 (
 )
 ;
+await
 assert_not_bfcached
 (
 rc1

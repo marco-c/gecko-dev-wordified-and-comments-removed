@@ -63,6 +63,7 @@ href
 }
 )
 ;
+await
 prepareForBFCache
 (
 rc1
@@ -85,6 +86,7 @@ historyBack
 (
 )
 ;
+await
 assert_not_bfcached
 (
 rc1
@@ -111,6 +113,7 @@ WebSocket
 ]
 )
 ;
+await
 prepareForBFCache
 (
 rc1
@@ -130,6 +133,7 @@ historyBack
 (
 )
 ;
+await
 assert_implements_bfcache
 (
 rc1
