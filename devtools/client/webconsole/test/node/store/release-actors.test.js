@@ -91,7 +91,7 @@ enhancer
 let
 actions
 ;
-before
+beforeAll
 (
 (
 )
