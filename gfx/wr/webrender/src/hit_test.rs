@@ -420,7 +420,6 @@ ImageMask
 (
 rect
 _
-_
 polygon_handle
 )
 =
