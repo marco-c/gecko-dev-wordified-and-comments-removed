@@ -221,6 +221,16 @@ MOZ_GUARDED_BY
 mMutex
 )
 ;
+nsIThread
+:
+:
+QoSPriority
+mQoSPriority
+MOZ_GUARDED_BY
+(
+mMutex
+)
+;
 uint32_t
 mStackSize
 MOZ_GUARDED_BY
