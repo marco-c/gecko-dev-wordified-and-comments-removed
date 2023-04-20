@@ -1952,6 +1952,10 @@ stop
 (
 )
 ;
+resetDelayedMarking
+(
+)
+;
 js_delete
 (
 trc
