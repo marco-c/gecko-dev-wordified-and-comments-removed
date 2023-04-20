@@ -224,11 +224,6 @@ return
 mThread
 -
 >
-SerialEventTarget
-(
-)
--
->
 IsOnCurrentThread
 (
 )

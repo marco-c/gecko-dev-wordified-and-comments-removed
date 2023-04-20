@@ -1483,11 +1483,6 @@ mThread
 mThread
 -
 >
-EventTarget
-(
-)
--
->
 IsOnCurrentThread
 (
 )
