@@ -258,6 +258,7 @@ def
 test_frame_id_webelement_stale_element_reference
 (
 session
+iframe
 stale_element
 as_frame
 )
@@ -267,6 +268,14 @@ frame
 =
 stale_element
 (
+iframe
+(
+"
+<
+div
+>
+"
+)
 "
 iframe
 "

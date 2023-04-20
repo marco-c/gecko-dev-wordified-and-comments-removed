@@ -197,7 +197,6 @@ getOrCreateNodeReference_invalid
 {
 const
 {
-browser
 htmlEl
 nodeCache
 }
@@ -227,13 +226,6 @@ attributes
 [
 0
 ]
-browser
-.
-document
-.
-createDocumentFragment
-(
-)
 ]
 ;
 for
