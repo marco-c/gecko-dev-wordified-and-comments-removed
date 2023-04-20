@@ -15903,3 +15903,15 @@ radius
 inherit
 ;
 }
+.
+webextension
+-
+popup
+-
+stack
+{
+position
+:
+relative
+;
+}
