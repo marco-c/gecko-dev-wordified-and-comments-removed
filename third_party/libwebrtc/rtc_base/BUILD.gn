@@ -4646,11 +4646,6 @@ default_socket_server
 h
 "
 "
-message_handler
-.
-h
-"
-"
 network_monitor
 .
 cc
@@ -4687,11 +4682,6 @@ cc
 "
 "
 thread
-.
-h
-"
-"
-thread_message
 .
 h
 "
