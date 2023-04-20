@@ -2921,6 +2921,11 @@ IsFixedPos
 )
 const
 {
+MOZ_ASSERT
+(
+mCachedFields
+)
+;
 if
 (
 auto
@@ -3300,7 +3305,6 @@ remoteBounds
 )
 ;
 }
-}
 if
 (
 remoteAcc
@@ -3315,6 +3319,7 @@ encounteredFixedContainer
 =
 true
 ;
+}
 }
 acc
 =
