@@ -344,9 +344,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 err
 )
@@ -413,9 +413,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 err
 )
@@ -633,9 +633,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 err
 )
