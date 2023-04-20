@@ -104,6 +104,17 @@ aPrefixes
 )
 ;
 nsresult
+GetFixedLengthPrefixByIndex
+(
+uint32_t
+aIndex
+uint32_t
+*
+aOutPrefix
+)
+const
+;
+nsresult
 ApplyUpdate
 (
 RefPtr
