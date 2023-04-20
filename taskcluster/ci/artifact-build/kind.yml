@@ -102,6 +102,14 @@ gecko_taskgraph
 .
 transforms
 .
+artifact
+:
+transforms
+-
+gecko_taskgraph
+.
+transforms
+.
 task
 :
 transforms
