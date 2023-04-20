@@ -426,12 +426,9 @@ map
 ]
 =
 {
-sColorMap
 sFEFloodMap
-sFillStrokeMap
 sFiltersMap
 sGradientStopMap
-sGraphicsMap
 sLightingEffectsMap
 sMarkersMap
 sTextContentElementsMap
