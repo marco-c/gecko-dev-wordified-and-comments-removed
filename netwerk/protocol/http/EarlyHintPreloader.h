@@ -360,6 +360,11 @@ aCookieJarSettings
 )
 ;
 void
+PriorizeAsPreload
+(
+)
+;
+void
 SetLinkHeader
 (
 const
