@@ -107479,8 +107479,6 @@ F64
 :
 argMir
 =
-ToMIRType
-(
 sig
 .
 args
@@ -107489,6 +107487,9 @@ args
 [
 i
 ]
+.
+toMIRType
+(
 )
 ;
 break
@@ -107553,8 +107554,6 @@ Extern
 :
 argMir
 =
-ToMIRType
-(
 sig
 .
 args
@@ -107563,6 +107562,9 @@ args
 [
 i
 ]
+.
+toMIRType
+(
 )
 ;
 break
