@@ -77,11 +77,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 export
 const
 MESSAGE_TYPE_LIST
