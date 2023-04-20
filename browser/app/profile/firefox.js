@@ -15419,15 +15419,6 @@ https
 :
 /
 /
-support
-.
-mozilla
-.
-org
-https
-:
-/
-/
 install
 .
 mozilla
