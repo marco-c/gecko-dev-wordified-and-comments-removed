@@ -38171,12 +38171,7 @@ toConstantProto
 )
 -
 >
-receiverObject
-(
-)
--
->
-skipObjectGuards
+getReceiverObject
 (
 )
 ;
