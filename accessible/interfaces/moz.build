@@ -180,6 +180,11 @@ nsIAccessibleTextChangeEvent
 idl
 "
 "
+nsIAccessibleTextLeafRange
+.
+idl
+"
+"
 nsIAccessibleTextRange
 .
 idl

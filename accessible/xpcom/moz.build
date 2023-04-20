@@ -63,6 +63,11 @@ xpcAccessibleTableCell
 cpp
 "
 "
+xpcAccessibleTextLeafRange
+.
+cpp
+"
+"
 xpcAccessibleTextRange
 .
 cpp
