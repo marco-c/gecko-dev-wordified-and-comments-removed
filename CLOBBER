@@ -204,8 +204,11 @@ libwebrtc
 -
 Bug
 1790097
+(
+MOZ
+)
 -
-Vendor
-libwebrtc
-from
-bf0da440ea
+handle
+upstream
+removing
+desktop_capture_generic_gn
