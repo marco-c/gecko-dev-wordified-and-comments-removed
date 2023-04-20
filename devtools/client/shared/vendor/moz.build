@@ -18,6 +18,11 @@ jszip
 js
 '
 '
+md5
+.
+js
+'
+'
 react
 -
 dom
