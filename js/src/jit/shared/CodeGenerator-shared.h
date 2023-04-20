@@ -311,9 +311,6 @@ nativeToBytecodeMapSize_
 uint32_t
 nativeToBytecodeTableOffset_
 ;
-uint32_t
-nativeToBytecodeNumRegions_
-;
 bool
 isProfilerInstrumentationEnabled
 (
@@ -958,6 +955,8 @@ IonEntry
 ScriptList
 &
 scripts
+uint32_t
+numRegions
 )
 ;
 void
