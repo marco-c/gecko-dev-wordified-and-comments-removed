@@ -896,7 +896,7 @@ nsINetAddr
 FWD_TS_T_ADDREF
 (
 GetTlsSocketControl
-nsITLSSocketControl
+nsISSLSocketControl
 )
 ;
 FWD_TS_T_PTR

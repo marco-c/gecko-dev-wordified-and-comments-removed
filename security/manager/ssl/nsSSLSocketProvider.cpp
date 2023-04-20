@@ -87,7 +87,7 @@ PRFileDesc
 *
 *
 _result
-nsITLSSocketControl
+nsISSLSocketControl
 *
 *
 tlsSocketControl
@@ -151,7 +151,7 @@ tlsFlags
 PRFileDesc
 *
 aSocket
-nsITLSSocketControl
+nsISSLSocketControl
 *
 *
 tlsSocketControl

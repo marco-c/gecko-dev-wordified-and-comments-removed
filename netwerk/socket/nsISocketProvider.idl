@@ -9,7 +9,7 @@ interface
 nsIProxyInfo
 ;
 interface
-nsITLSSocketControl
+nsISSLSocketControl
 ;
 [
 ptr
@@ -112,7 +112,7 @@ out
 PRFileDescStar
 aFileDesc
 out
-nsITLSSocketControl
+nsISSLSocketControl
 aTLSSocketControl
 )
 ;
@@ -149,7 +149,7 @@ in
 PRFileDescStar
 aFileDesc
 out
-nsITLSSocketControl
+nsISSLSocketControl
 aTLSSocketControl
 )
 ;

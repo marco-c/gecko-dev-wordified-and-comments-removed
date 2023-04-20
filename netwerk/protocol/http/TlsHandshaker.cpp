@@ -15,9 +15,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs_network
+nsHttpConnectionInfo
 .
 h
 "
@@ -31,13 +29,6 @@ h
 #
 include
 "
-nsHttpConnectionInfo
-.
-h
-"
-#
-include
-"
 nsHttpHandler
 .
 h
@@ -45,7 +36,16 @@ h
 #
 include
 "
-nsITLSSocketControl
+nsISSLSocketControl
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs_network
 .
 h
 "
@@ -468,7 +468,7 @@ NS_ERROR_ABORT
 }
 nsCOMPtr
 <
-nsITLSSocketControl
+nsISSLSocketControl
 >
 ssl
 ;
@@ -616,7 +616,7 @@ TlsHandshaker
 :
 SetupNPNList
 (
-nsITLSSocketControl
+nsISSLSocketControl
 *
 ssl
 uint32_t
@@ -872,7 +872,7 @@ false
 }
 nsCOMPtr
 <
-nsITLSSocketControl
+nsISSLSocketControl
 >
 ssl
 ;
@@ -1152,7 +1152,7 @@ TlsHandshaker
 :
 Check0RttEnabled
 (
-nsITLSSocketControl
+nsISSLSocketControl
 *
 ssl
 )
@@ -1457,7 +1457,7 @@ if
 (
 tlsVersion
 >
-nsITLSSocketControl
+nsISSLSocketControl
 :
 :
 TLS_VERSION_1_2
