@@ -154,6 +154,10 @@ mozilla
 :
 dom
 {
+using
+namespace
+streams_abstract
+;
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 TransformStream
@@ -453,6 +457,9 @@ aGivenProto
 )
 ;
 }
+namespace
+streams_abstract
+{
 void
 TransformStreamErrorWritableAndUnblockWrite
 (
@@ -612,6 +619,7 @@ aError
 aRv
 )
 ;
+}
 }
 MOZ_CAN_RUN_SCRIPT
 static

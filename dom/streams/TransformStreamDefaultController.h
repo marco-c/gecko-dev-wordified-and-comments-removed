@@ -262,6 +262,9 @@ mTransformerAlgorithms
 ;
 }
 ;
+namespace
+streams_abstract
+{
 void
 SetUpTransformStreamDefaultController
 (
@@ -302,6 +305,7 @@ Transformer
 aTransformerDict
 )
 ;
+}
 }
 #
 endif
