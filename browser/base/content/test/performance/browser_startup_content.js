@@ -378,7 +378,9 @@ sessionstore
 /
 Utils
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -393,7 +395,9 @@ sessionstore
 /
 SessionHistory
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
