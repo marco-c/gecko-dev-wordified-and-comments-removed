@@ -30,7 +30,6 @@ jsm
 const
 {
 ExperimentAPI
-NimbusFeatures
 }
 =
 ChromeUtils
