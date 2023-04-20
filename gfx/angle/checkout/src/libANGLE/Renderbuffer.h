@@ -144,13 +144,6 @@ getInitState
 )
 const
 ;
-void
-setProtectedContent
-(
-bool
-hasProtectedContent
-)
-;
 private
 :
 friend
@@ -190,9 +183,6 @@ mSamples
 ;
 MultisamplingMode
 mMultisamplingMode
-;
-bool
-mHasProtectedContent
 ;
 InitState
 mInitState
@@ -246,10 +236,7 @@ context
 )
 override
 ;
-angle
-:
-:
-Result
+void
 setLabel
 (
 const
@@ -307,7 +294,7 @@ Context
 *
 context
 GLsizei
-samplesIn
+samples
 GLenum
 internalformat
 GLsizei
@@ -600,8 +587,6 @@ override
 InitState
 initState
 (
-GLenum
-binding
 const
 ImageIndex
 &
@@ -613,8 +598,6 @@ override
 void
 setInitState
 (
-GLenum
-binding
 const
 ImageIndex
 &

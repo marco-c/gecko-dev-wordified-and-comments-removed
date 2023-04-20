@@ -149,9 +149,9 @@ fCreateWindowSurface
 sContext
 -
 >
-mSurfaceConfig
+mConfig
 window
-nullptr
+0
 )
 ;
 +
@@ -372,7 +372,6 @@ egl
 eglConfig
 EGL_NO_SURFACE
 true
-eglConfig
 &
 ignored
 )

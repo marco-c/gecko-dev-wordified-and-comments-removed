@@ -246,9 +246,7 @@ BlendStateExt
 (
 blendStateExt
 .
-getDrawBufferCount
-(
-)
+mMaxDrawBuffers
 )
 ;
 const
@@ -285,9 +283,7 @@ ASSERT
 (
 blendStateExt
 .
-getDrawBufferCount
-(
-)
+mMaxDrawBuffers
 <
 =
 colorAttachmentsForRenderMask
@@ -430,9 +426,7 @@ if
 (
 blendStateExt
 .
-getEnabledMask
-(
-)
+mEnabledMask
 .
 test
 (
@@ -647,9 +641,7 @@ i
 <
 blendStateExt
 .
-getDrawBufferCount
-(
-)
+mMaxDrawBuffers
 ;
 i
 +
@@ -671,9 +663,7 @@ if
 (
 blendStateExt
 .
-getEnabledMask
-(
-)
+mEnabledMask
 .
 test
 (

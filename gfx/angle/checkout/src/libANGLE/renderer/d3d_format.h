@@ -15,13 +15,6 @@ Format
 .
 h
 "
-#
-include
-<
-d3d9
-.
-h
->
 namespace
 rx
 {

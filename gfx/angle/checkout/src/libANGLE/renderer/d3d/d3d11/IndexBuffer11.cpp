@@ -228,7 +228,7 @@ dynamic
 {
 mBuffer
 .
-setInternalName
+setDebugName
 (
 "
 IndexBuffer11
@@ -243,7 +243,7 @@ else
 {
 mBuffer
 .
-setInternalName
+setDebugName
 (
 "
 IndexBuffer11

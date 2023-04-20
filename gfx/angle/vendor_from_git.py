@@ -417,9 +417,7 @@ write
 b
 "
 \
-nAbove
-:
-cherries
+nCherries
 picked
 "
 )
@@ -451,9 +449,7 @@ write
 b
 "
 \
-nBelow
-:
-merge
+nMerge
 base
 from
 :

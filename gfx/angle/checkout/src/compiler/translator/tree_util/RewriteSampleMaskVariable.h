@@ -28,11 +28,7 @@ TSymbolTable
 class
 TIntermTyped
 ;
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 RewriteSampleMask
 (
@@ -51,11 +47,7 @@ TIntermTyped
 numSamplesUniform
 )
 ;
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 RewriteSampleMaskIn
 (

@@ -438,9 +438,6 @@ EGL_EXT_image_dma_buf_import_modifiers
 "
 EGL_MESA_image_dma_buf_export
 "
-"
-EGL_KHR_no_config_context
-"
 }
 ;
 PRLibrary

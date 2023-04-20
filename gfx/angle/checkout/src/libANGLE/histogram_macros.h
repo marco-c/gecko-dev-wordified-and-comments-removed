@@ -9,7 +9,7 @@ include
 <
 platform
 /
-PlatformMethods
+Platform
 .
 h
 >
@@ -334,11 +334,6 @@ key
 )
 \
 class
-[
-[
-nodiscard
-]
-]
 ScopedHistogramTimer
 #
 #

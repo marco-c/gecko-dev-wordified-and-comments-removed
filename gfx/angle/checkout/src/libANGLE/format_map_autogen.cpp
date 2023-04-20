@@ -2651,9 +2651,6 @@ GL_RG8
 case
 GL_RG
 :
-case
-GL_SRG8_EXT
-:
 return
 true
 ;
@@ -2865,9 +2862,6 @@ GL_SRGB8
 :
 case
 GL_RGB
-:
-case
-GL_RGBX8_ANGLE
 :
 return
 true

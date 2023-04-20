@@ -434,6 +434,7 @@ resource
 ;
 }
 }
+ANGLE_DISABLE_WEAK_TEMPLATE_VTABLES_WARNING
 template
 class
 TypedResourceManager
@@ -497,6 +498,7 @@ ProgramPipelineManager
 ProgramPipelineID
 >
 ;
+ANGLE_REENABLE_WEAK_TEMPLATE_VTABLES_WARNING
 BufferManager
 :
 :
@@ -1534,9 +1536,15 @@ factory
 FramebufferID
 handle
 const
-Context
+Caps
+&
+caps
+egl
+:
+:
+ShareGroup
 *
-context
+shareGroup
 )
 {
 ASSERT
@@ -1554,9 +1562,10 @@ return
 new
 Framebuffer
 (
-context
+caps
 factory
 handle
+shareGroup
 )
 ;
 }

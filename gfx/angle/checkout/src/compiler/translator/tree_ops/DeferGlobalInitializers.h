@@ -25,11 +25,7 @@ TIntermBlock
 class
 TSymbolTable
 ;
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 DeferGlobalInitializers
 (
@@ -45,8 +41,6 @@ bool
 canUseLoopsToInitialize
 bool
 highPrecisionSupported
-bool
-forceDeferGlobalInitializers
 TSymbolTable
 *
 symbolTable

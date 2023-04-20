@@ -353,7 +353,7 @@ GLenum
 *
 props
 GLsizei
-count
+bufSize
 GLsizei
 *
 length

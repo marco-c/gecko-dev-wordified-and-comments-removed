@@ -3774,6 +3774,9 @@ getDevice
 (
 )
 ;
+HRESULT
+hr
+=
 device
 -
 >
@@ -3790,6 +3793,8 @@ float
 )
 )
 ;
+hr
+=
 device
 -
 >
@@ -3805,6 +3810,8 @@ startScene
 (
 )
 ;
+hr
+=
 device
 -
 >

@@ -127,11 +127,7 @@ shaderVersion
 )
 {
 }
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 broadcastGLFragColor
 (

@@ -41,11 +41,7 @@ TIntermBlock
 class
 TSymbolTable
 ;
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 DeclareAndInitBuiltinsForInstancedMultiview
 (
@@ -59,9 +55,7 @@ unsigned
 numberOfViews
 GLenum
 shaderType
-const
 ShCompileOptions
-&
 compileOptions
 ShShaderOutput
 shaderOutput

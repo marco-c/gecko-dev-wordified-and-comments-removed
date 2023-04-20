@@ -89,12 +89,6 @@ override
 void
 setMarker
 (
-gl
-:
-:
-Context
-*
-context
 const
 char
 *
@@ -105,13 +99,6 @@ override
 bool
 getStatus
 (
-const
-gl
-:
-:
-Context
-*
-context
 )
 override
 ;

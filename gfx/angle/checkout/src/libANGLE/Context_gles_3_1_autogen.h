@@ -313,9 +313,9 @@ const
 GLenum
 *
 props
-GLsizei
-count
 \
+GLsizei
+bufSize
 GLsizei
 *
 length

@@ -176,11 +176,6 @@ mIter
 ;
 }
 class
-[
-[
-nodiscard
-]
-]
 MacroExpander
 :
 :

@@ -52,8 +52,9 @@ __ARM_ARCH
 error
 "
 Vulkan
-is
-not
+isn
+'
+t
 supported
 for
 the

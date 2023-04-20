@@ -384,7 +384,7 @@ gl
 )
 -
 >
-mSurfaceConfig
+mConfig
 )
 ;
 if

@@ -22,14 +22,7 @@ TCompiler
 class
 TIntermNode
 ;
-class
-TSymbolTable
-;
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 SeparateDeclarations
 (
@@ -39,9 +32,6 @@ compiler
 TIntermNode
 *
 root
-TSymbolTable
-*
-symbolTable
 )
 ;
 }

@@ -84,11 +84,7 @@ MemoryBuffer
 other
 )
 ;
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 resize
 (

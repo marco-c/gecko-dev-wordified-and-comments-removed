@@ -25,13 +25,6 @@ LoggingAnnotator
 :
 getStatus
 (
-const
-gl
-:
-:
-Context
-*
-context
 )
 {
 return
@@ -110,12 +103,6 @@ LoggingAnnotator
 :
 setMarker
 (
-gl
-:
-:
-Context
-*
-context
 const
 char
 *

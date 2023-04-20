@@ -185,10 +185,6 @@ sh
 :
 kDefaultBlockMemberInfo
 )
-outerArrayOffset
-(
-0
-)
 {
 }
 LinkedUniform
@@ -254,10 +250,6 @@ bufferIndexIn
 blockInfo
 (
 blockInfoIn
-)
-outerArrayOffset
-(
-0
 )
 {
 type
@@ -422,12 +414,6 @@ uniform
 .
 outerArraySizes
 )
-outerArrayOffset
-(
-uniform
-.
-outerArrayOffset
-)
 {
 }
 LinkedUniform
@@ -488,12 +474,6 @@ outerArraySizes
 uniform
 .
 outerArraySizes
-;
-outerArrayOffset
-=
-uniform
-.
-outerArrayOffset
 ;
 return
 *

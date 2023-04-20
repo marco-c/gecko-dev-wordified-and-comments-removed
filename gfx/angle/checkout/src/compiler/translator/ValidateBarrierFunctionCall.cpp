@@ -172,7 +172,7 @@ getOp
 )
 !
 =
-EOpBarrierTCS
+EOpBarrier
 )
 {
 return

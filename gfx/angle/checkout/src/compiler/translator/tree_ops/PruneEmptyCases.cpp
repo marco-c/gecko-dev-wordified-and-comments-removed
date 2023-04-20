@@ -43,7 +43,6 @@ namespace
 bool
 AreEmptyBlocks
 (
-const
 TIntermSequence
 *
 statements
@@ -137,7 +136,6 @@ false
 bool
 AreEmptyBlocks
 (
-const
 TIntermSequence
 *
 statements
@@ -196,11 +194,7 @@ TIntermTraverser
 {
 public
 :
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 static
 bool
 apply

@@ -6313,6 +6313,13 @@ GL_WRITEONLY_RENDERING_QCOM
 #
 endif
 #
+include
+"
+glext_angle
+.
+h
+"
+#
 ifdef
 __cplusplus
 }

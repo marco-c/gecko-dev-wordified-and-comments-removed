@@ -146,12 +146,6 @@ DebugAnnotator9
 :
 setMarker
 (
-gl
-:
-:
-Context
-*
-context
 const
 char
 *
@@ -166,7 +160,6 @@ LoggingAnnotator
 :
 setMarker
 (
-context
 markerName
 )
 ;
@@ -209,13 +202,6 @@ DebugAnnotator9
 :
 getStatus
 (
-const
-gl
-:
-:
-Context
-*
-context
 )
 {
 return

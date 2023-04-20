@@ -494,11 +494,7 @@ return
 true
 ;
 }
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 executeReplacements
 (
@@ -579,11 +575,7 @@ mReplacements
 }
 ;
 }
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 ReplaceShadowingVariables
 (

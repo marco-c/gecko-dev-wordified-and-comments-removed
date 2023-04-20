@@ -434,18 +434,6 @@ curRenderTarget
 )
 )
 ;
-{
-std
-:
-:
-unique_lock
-lock
-(
-mState
-.
-targetsLock
-)
-;
 for
 (
 egl
@@ -474,7 +462,6 @@ SubjectMessage
 SubjectChanged
 )
 ;
-}
 }
 return
 mRenderer

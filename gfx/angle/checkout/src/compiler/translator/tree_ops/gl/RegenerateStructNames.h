@@ -31,11 +31,7 @@ defined
 (
 ANGLE_ENABLE_GLSL
 )
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 RegenerateStructNames
 (
@@ -52,11 +48,7 @@ symbolTable
 ;
 #
 else
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 ANGLE_INLINE
 bool
 RegenerateStructNames

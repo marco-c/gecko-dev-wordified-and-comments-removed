@@ -76,11 +76,7 @@ TSymbolTable
 symbolTable
 )
 ;
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 InitializeUninitializedLocals
 (
@@ -101,11 +97,7 @@ TSymbolTable
 symbolTable
 )
 ;
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 InitializeVariables
 (

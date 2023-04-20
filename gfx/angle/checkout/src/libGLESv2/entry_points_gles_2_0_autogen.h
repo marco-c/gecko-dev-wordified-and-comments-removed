@@ -1267,7 +1267,7 @@ GLuint
 *
 shaders
 GLenum
-binaryFormat
+binaryformat
 const
 void
 *

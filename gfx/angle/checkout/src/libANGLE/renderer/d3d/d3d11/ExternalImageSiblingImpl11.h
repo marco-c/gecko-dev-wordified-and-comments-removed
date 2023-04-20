@@ -130,13 +130,6 @@ isYUV
 const
 override
 ;
-bool
-hasProtectedContent
-(
-)
-const
-override
-;
 gl
 :
 :
@@ -198,8 +191,6 @@ gl
 Context
 *
 context
-GLenum
-binding
 const
 gl
 :
@@ -271,6 +262,11 @@ false
 ;
 bool
 mIsTextureArray
+=
+false
+;
+bool
+mYUV
 =
 false
 ;

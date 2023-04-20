@@ -40,11 +40,7 @@ TSymbolTable
 class
 TIntermTyped
 ;
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 ReplaceClipDistanceAssignments
 (
@@ -66,11 +62,7 @@ TIntermTyped
 clipDistanceEnableFlags
 )
 ;
-[
-[
-nodiscard
-]
-]
+ANGLE_NO_DISCARD
 bool
 ReplaceCullDistanceAssignments
 (

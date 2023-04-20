@@ -40,6 +40,17 @@ compiler
 /
 translator
 /
+StaticType
+.
+h
+"
+#
+include
+"
+compiler
+/
+translator
+/
 SymbolTable
 .
 h

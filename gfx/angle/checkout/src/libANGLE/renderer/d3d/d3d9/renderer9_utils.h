@@ -36,7 +36,7 @@ include
 "
 platform
 /
-FeaturesD3D_autogen
+FeaturesD3D
 .
 h
 "

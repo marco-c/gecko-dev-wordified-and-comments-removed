@@ -218,7 +218,7 @@ numberOfViewsUnsignedConstant
 TType
 (
 EbtUInt
-EbpLow
+EbpHigh
 EvqConst
 )
 )
@@ -582,9 +582,7 @@ unsigned
 numberOfViews
 GLenum
 shaderType
-const
 ShCompileOptions
-&
 compileOptions
 ShShaderOutput
 shaderOutput
@@ -760,9 +758,14 @@ const
 bool
 selectView
 =
+(
 compileOptions
-.
-selectViewInNvGLSLVertexShader
+&
+SH_SELECT_VIEW_IN_NV_GLSL_VERTEX_SHADER
+)
+!
+=
+0
 ;
 ASSERT
 (
