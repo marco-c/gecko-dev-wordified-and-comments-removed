@@ -234,7 +234,7 @@ Replaceable
 ]
 readonly
 attribute
-any
+ExtensionSetting
 settings
 ;
 }
