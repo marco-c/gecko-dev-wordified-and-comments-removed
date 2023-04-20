@@ -335,6 +335,13 @@ handle
 INFINITE
 )
 ;
+#
+if
+!
+defined
+(
+MOZ_ASAN
+)
 DWORD
 exitCode
 ;
@@ -358,6 +365,8 @@ return
 1
 ;
 }
+#
+endif
 }
 return
 0

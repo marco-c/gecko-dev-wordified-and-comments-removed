@@ -955,6 +955,13 @@ INFINITE
 WAIT_OBJECT_0
 )
 ;
+#
+if
+!
+defined
+(
+MOZ_ASAN
+)
 DWORD
 exitCode
 ;
@@ -974,6 +981,8 @@ exitCode
 exitCode
 )
 ;
+#
+endif
 EXPECT_TRUE
 (
 !
@@ -1061,6 +1070,13 @@ INFINITE
 WAIT_OBJECT_0
 )
 ;
+#
+if
+!
+defined
+(
+MOZ_ASAN
+)
 EXPECT_TRUE
 (
 :
@@ -1077,6 +1093,8 @@ exitCode
 exitCode
 )
 ;
+#
+endif
 EXPECT_TRUE
 (
 !
