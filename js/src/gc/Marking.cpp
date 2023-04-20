@@ -9914,9 +9914,6 @@ runtime_
 (
 rt
 )
-stack
-(
-)
 state
 (
 NotActive
