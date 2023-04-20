@@ -306,7 +306,7 @@ RegExpZone
 struct
 RegExpCompilation
 {
-WeakHeapPtr
+HeapPtr
 <
 jit
 :
