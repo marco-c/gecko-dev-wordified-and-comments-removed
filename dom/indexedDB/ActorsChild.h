@@ -222,12 +222,6 @@ class
 IDBFactory
 ;
 class
-IDBFileRequest
-;
-class
-IDBMutableFile
-;
-class
 IDBOpenDBRequest
 ;
 class
