@@ -4132,6 +4132,14 @@ libjingle_peerconnection_api
 /
 api
 :
+mock_encoder_selector
+"
+"
+.
+.
+/
+api
+:
 mock_video_bitrate_allocator
 "
 "

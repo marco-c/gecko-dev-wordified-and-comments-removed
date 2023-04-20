@@ -597,6 +597,15 @@ const
 FieldTrialsView
 &
 field_trials
+webrtc
+:
+:
+VideoEncoderFactory
+:
+:
+EncoderSelectorInterface
+*
+encoder_selector
 )
 {
 std
@@ -678,6 +687,7 @@ encoder_queue
 )
 bitrate_allocation_callback_type
 field_trials
+encoder_selector
 )
 ;
 }
@@ -815,6 +825,9 @@ config_
 field_trials
 )
 field_trials
+config_
+.
+encoder_selector
 )
 )
 encoder_feedback_

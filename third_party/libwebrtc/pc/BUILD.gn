@@ -14447,6 +14447,14 @@ media_stream_interface
 /
 api
 :
+mock_encoder_selector
+"
+"
+.
+.
+/
+api
+:
 mock_video_track
 "
 "

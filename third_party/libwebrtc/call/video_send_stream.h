@@ -712,6 +712,15 @@ FrameEncryptorInterface
 >
 frame_encryptor
 ;
+VideoEncoderFactory
+:
+:
+EncoderSelectorInterface
+*
+encoder_selector
+=
+nullptr
+;
 CryptoOptions
 crypto_options
 ;
