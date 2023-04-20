@@ -429,13 +429,6 @@ c
 '
 src
 /
-opus_projection_encoder
-.
-c
-'
-'
-src
-/
 repacketizer
 .
 c
