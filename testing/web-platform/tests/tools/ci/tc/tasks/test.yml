@@ -835,10 +835,6 @@ use
 -
 trigger
 -
-daily
--
-trigger
--
 push
 do
 :
