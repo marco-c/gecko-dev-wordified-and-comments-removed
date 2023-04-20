@@ -179,7 +179,7 @@ mozilla
 dom
 :
 :
-NotReallyMovableButLetsPretendItIsRTCStatsCollection
+RTCStatsCollection
 from
 "
 mozilla
@@ -500,7 +500,10 @@ now
 )
 returns
 (
-NotReallyMovableButLetsPretendItIsRTCStatsCollection
+UniquePtr
+<
+RTCStatsCollection
+>
 stats
 )
 ;
