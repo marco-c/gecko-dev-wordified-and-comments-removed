@@ -94,6 +94,10 @@ cx
 aScriptURL
 true
 WorkerKindDedicated
+WorkerType
+:
+:
+Classic
 u
 "
 "
