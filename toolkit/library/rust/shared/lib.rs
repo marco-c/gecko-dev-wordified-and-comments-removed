@@ -347,6 +347,10 @@ regex_ffi
 ;
 extern
 crate
+rure
+;
+extern
+crate
 fluent_fallback
 ;
 extern
