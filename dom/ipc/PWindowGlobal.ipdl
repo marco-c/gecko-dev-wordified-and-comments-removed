@@ -378,6 +378,7 @@ title
 nsCString
 text
 ;
+nullable
 nsIURI
 url
 ;
@@ -475,6 +476,7 @@ ResetScalingZoom
 async
 SetContainerFeaturePolicy
 (
+nullable
 FeaturePolicy
 aContainerFeaturePolicy
 )
@@ -494,6 +496,7 @@ success
 async
 RestoreTabContent
 (
+nullable
 SessionStoreRestoreData
 aData
 )
@@ -525,6 +528,7 @@ LoadURI
 (
 MaybeDiscardedBrowsingContext
 aTargetBC
+nullable
 nsDocShellLoadState
 aLoadState
 bool
@@ -534,6 +538,7 @@ aSetNavigating
 async
 InternalLoad
 (
+nullable
 nsDocShellLoadState
 aLoadState
 )
@@ -544,6 +549,7 @@ LazySend
 async
 UpdateDocumentURI
 (
+nullable
 nsIURI
 aUri
 )
@@ -554,8 +560,10 @@ LazySend
 async
 UpdateDocumentPrincipal
 (
+nullable
 nsIPrincipal
 aPrincipal
+nullable
 nsIPrincipal
 aStoragePrincipal
 )
@@ -628,6 +636,7 @@ LazySend
 async
 UpdateDocumentSecurityInfo
 (
+nullable
 nsITransportSecurityInfo
 aSecurityInfo
 )
@@ -744,6 +753,7 @@ singleChannelId
 async
 SetDocumentDomain
 (
+nullable
 nsIURI
 aDomain
 )

@@ -371,6 +371,7 @@ BeginDestroy
 async
 LoadURL
 (
+nullable
 nsDocShellLoadState
 aLoadState
 )

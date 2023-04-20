@@ -491,6 +491,7 @@ CacheReadStream
 ?
 body
 ;
+nullable
 nsITransportSecurityInfo
 securityInfo
 ;

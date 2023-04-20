@@ -178,6 +178,7 @@ status
 nsHttpResponseHead
 ?
 responseHead
+nullable
 nsITransportSecurityInfo
 securityInfo
 bool

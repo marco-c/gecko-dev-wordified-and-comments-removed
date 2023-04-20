@@ -45,8 +45,10 @@ nsPoint
 h
 "
 ;
+[
+RefCounted
+]
 using
-refcounted
 class
 mozilla
 :
@@ -95,6 +97,7 @@ checked
 union
 FileContentData
 {
+nullable
 BlobImpl
 ;
 nsString
