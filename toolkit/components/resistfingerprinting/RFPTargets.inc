@@ -1,5 +1,15 @@
 ITEM_VALUE
 (
+IgnoreTargetAndReturnCachedValue
+0xFFFD
+)
+ITEM_VALUE
+(
+IsAlwaysEnabledForPrecompute
+0xFFFE
+)
+ITEM_VALUE
+(
 Unknown
 0xFFFF
 )
