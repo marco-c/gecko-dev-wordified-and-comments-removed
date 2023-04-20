@@ -1139,11 +1139,6 @@ RTC_RUN_ON
 packet_sequence_checker_
 )
 ;
-void
-UpdateHistograms
-(
-)
-;
 bool
 IsRedEnabled
 (

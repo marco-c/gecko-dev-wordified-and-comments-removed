@@ -196,10 +196,17 @@ UlpfecReceiver
 receiver
 (
 ulpfec_ssrc
+0
 &
 callback
 {
 }
+Clock
+:
+:
+GetRealTimeClock
+(
+)
 )
 ;
 test
@@ -326,7 +333,6 @@ receiver
 AddReceivedRedPacket
 (
 parsed_packet
-0
 )
 ;
 }
