@@ -372,12 +372,6 @@ extensionURL
 await
 onLoad
 ;
-gURLBar
-.
-select
-(
-)
-;
 await
 openPopup
 (
