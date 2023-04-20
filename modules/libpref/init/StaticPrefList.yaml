@@ -24089,14 +24089,12 @@ mirror
 :
 always
 #
-Enable
+Whether
+the
 Storage
 API
-for
-all
-platforms
-except
-Android
+is
+enabled
 .
 -
 name
@@ -24111,7 +24109,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_NOT_ANDROID
+true
 mirror
 :
 always
