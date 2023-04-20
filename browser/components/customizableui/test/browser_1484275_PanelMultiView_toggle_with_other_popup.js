@@ -211,6 +211,16 @@ platform
 "
 win
 "
+|
+|
+AppConstants
+.
+platform
+=
+=
+"
+macosx
+"
 )
 {
 await
