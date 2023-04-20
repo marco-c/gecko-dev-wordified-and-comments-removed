@@ -79,7 +79,11 @@ function
 const
 snap
 =
-GetEnvironmentVariable
+Services
+.
+env
+.
+get
 (
 "
 SNAP
