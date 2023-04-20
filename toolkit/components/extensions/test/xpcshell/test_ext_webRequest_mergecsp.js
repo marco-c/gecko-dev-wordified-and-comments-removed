@@ -1835,6 +1835,10 @@ src
 :
 [
 "
+http
+:
+/
+/
 example
 .
 com
@@ -1936,6 +1940,10 @@ src
 :
 [
 "
+http
+:
+/
+/
 example
 .
 com
@@ -2036,6 +2044,10 @@ src
 :
 [
 "
+http
+:
+/
+/
 example
 .
 com
@@ -2137,6 +2149,10 @@ src
 :
 [
 "
+http
+:
+/
+/
 example
 .
 com
