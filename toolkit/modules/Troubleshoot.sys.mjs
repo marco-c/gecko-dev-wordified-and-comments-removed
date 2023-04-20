@@ -1402,9 +1402,9 @@ n
 +
 err
 ;
-Cu
+console
 .
-reportError
+error
 (
 msg
 )
@@ -5801,9 +5801,9 @@ error
 =
 >
 {
-Cu
+console
 .
-reportError
+error
 (
 error
 )
