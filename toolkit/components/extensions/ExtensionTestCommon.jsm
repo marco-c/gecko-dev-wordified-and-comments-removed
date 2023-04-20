@@ -3081,11 +3081,6 @@ delayedStartup
 data
 .
 startupReason
-?
-?
-"
-ADDON_INSTALL
-"
 )
 ;
 }
