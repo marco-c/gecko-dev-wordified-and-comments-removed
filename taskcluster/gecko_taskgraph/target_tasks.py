@@ -4770,6 +4770,21 @@ try_name
                         
 return
 True
+                
+if
+"
+safari
+"
+and
+"
+benchmark
+"
+in
+try_name
+:
+                    
+return
+True
             
 else
 :
