@@ -1,13 +1,13 @@
 import
+glob
+import
 json
 import
 os
 import
-sys
-import
-glob
-import
 subprocess
+import
+sys
 import
 mozcrash
 from
@@ -15,8 +15,8 @@ mozbuild
 .
 base
 import
-MozbuildObject
 BinaryNotFoundException
+MozbuildObject
 from
 mozfile
 import
@@ -39,8 +39,8 @@ ServerLocations
 from
 mozrunner
 import
-FirefoxRunner
 CLI
+FirefoxRunner
 from
 six
 import

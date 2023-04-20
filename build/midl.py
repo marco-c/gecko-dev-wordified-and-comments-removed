@@ -1,13 +1,13 @@
 import
-buildconfig
+os
 import
 shutil
 import
 subprocess
 import
-os
-import
 sys
+import
+buildconfig
 def
 relativize
 (

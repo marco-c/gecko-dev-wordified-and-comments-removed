@@ -1,11 +1,11 @@
 import
-buildconfig
-import
 json
 import
 subprocess
 import
 sys
+import
+buildconfig
 if
 len
 (
