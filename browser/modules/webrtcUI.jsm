@@ -4317,8 +4317,7 @@ INDICATOR_CHROME_URI
 _blank
 "
 features
-[
-]
+null
 )
 ;
 }
@@ -4380,8 +4379,7 @@ LEGACY_INDICATOR_CHROME_URI
 _blank
 "
 features
-[
-]
+null
 )
 ;
 }
