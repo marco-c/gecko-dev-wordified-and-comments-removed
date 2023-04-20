@@ -7,13 +7,13 @@ logging
 import
 multiprocessing
 import
-re
-import
 os
 import
 platform
 import
 posixpath
+import
+re
 import
 shlex
 import

@@ -1,7 +1,7 @@
 import
-gdb
-import
 re
+import
+gdb
 patterns
 =
 [

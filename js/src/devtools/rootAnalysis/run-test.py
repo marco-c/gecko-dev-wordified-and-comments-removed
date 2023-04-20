@@ -3,13 +3,13 @@ __future__
 import
 print_function
 import
+argparse
+import
 os
 import
 site
 import
 subprocess
-import
-argparse
 from
 glob
 import

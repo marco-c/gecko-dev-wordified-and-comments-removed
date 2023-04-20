@@ -58,8 +58,6 @@ SpiderMonkey
 "
 "
 import
-gdb
-import
 os
 import
 subprocess
@@ -67,6 +65,8 @@ import
 tempfile
 import
 time
+import
+gdb
 import
 mozilla
 .

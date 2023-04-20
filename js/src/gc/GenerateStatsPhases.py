@@ -1,7 +1,7 @@
 import
-re
-import
 collections
+import
+re
 class
 PhaseKind
 :

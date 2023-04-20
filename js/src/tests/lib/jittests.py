@@ -55,8 +55,8 @@ from
 .
 progressbar
 import
-ProgressBar
 NullProgressBar
+ProgressBar
 from
 .
 results
@@ -4734,16 +4734,16 @@ slog
 :
     
 from
-.
-tasks_adb_remote
-import
-get_remote_results
-    
-from
 mozdevice
 import
 ADBError
 ADBTimeoutError
+    
+from
+.
+tasks_adb_remote
+import
+get_remote_results
     
 pb
 =

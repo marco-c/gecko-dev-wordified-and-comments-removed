@@ -80,11 +80,11 @@ andre
 from
 ctypes
 import
-windll
 Structure
+byref
 c_short
 c_ushort
-byref
+windll
 SHORT
 =
 c_short

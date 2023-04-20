@@ -69,9 +69,9 @@ Bytecode
 "
 "
 import
-sys
-import
 os
+import
+sys
 this_dir
 =
 os
@@ -98,8 +98,6 @@ insert
 0
 this_dir
 )
-import
-jsopcode
 from
 xml
 .
@@ -108,6 +106,8 @@ sax
 saxutils
 import
 escape
+import
+jsopcode
 try
 :
     

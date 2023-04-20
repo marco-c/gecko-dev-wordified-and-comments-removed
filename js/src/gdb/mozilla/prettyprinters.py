@@ -1,7 +1,7 @@
 import
-gdb
-import
 re
+import
+gdb
 def
 check_for_reused_pretty_printer
 (

@@ -129,6 +129,8 @@ __future__
 import
 print_function
 import
+json
+import
 math
 import
 optparse
@@ -140,8 +142,6 @@ as
 subp
 import
 sys
-import
-json
 from
 string
 import

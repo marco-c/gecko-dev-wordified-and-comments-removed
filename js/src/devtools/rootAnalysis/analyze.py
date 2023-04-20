@@ -9,10 +9,6 @@ analysis
 "
 "
 "
-from
-subprocess
-import
-Popen
 import
 argparse
 import
@@ -21,6 +17,10 @@ import
 subprocess
 import
 sys
+from
+subprocess
+import
+Popen
 try
 :
     

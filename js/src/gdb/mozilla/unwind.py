@@ -1,4 +1,6 @@
 import
+platform
+import
 gdb
 import
 gdb
@@ -23,8 +25,6 @@ mozilla
 prettyprinters
 import
 TypeCache
-import
-platform
 try
 :
     
