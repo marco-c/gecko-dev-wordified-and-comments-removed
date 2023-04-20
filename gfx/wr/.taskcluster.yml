@@ -396,7 +396,7 @@ test
 :
 debian
 -
-v9
+v10
 )
 was
 created
@@ -560,7 +560,7 @@ test
 :
 debian
 -
-v9
+v10
 '
 env
 :
@@ -778,7 +778,7 @@ test
 :
 debian
 -
-v9
+v10
 '
 env
 :

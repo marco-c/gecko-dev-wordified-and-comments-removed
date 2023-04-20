@@ -204,6 +204,8 @@ bug
 apt
 -
 get
+-
+y
 remove
 libfreetype
 -
