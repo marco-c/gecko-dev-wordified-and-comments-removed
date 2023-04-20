@@ -414,7 +414,7 @@ Nothing
 mOngoingEarlyHints
 -
 >
-CancelAllOngoingPreloads
+CancelAll
 (
 aReason
 )
