@@ -3024,9 +3024,11 @@ gn_args
 '
 :
 '
-is_fuchsia
+target_os
 =
-true
+"
+fuchsia
+"
 '
 }
 '
