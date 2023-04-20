@@ -8,7 +8,10 @@ use
 quote
 :
 :
+{
+quote
 ToTokens
+}
 ;
 use
 crate
@@ -152,6 +155,12 @@ input
 [
 :
 :
+darling
+:
+:
+export
+:
+:
 syn
 :
 :
@@ -289,6 +298,12 @@ input
 :
 &
 [
+:
+:
+darling
+:
+:
+export
 :
 :
 syn

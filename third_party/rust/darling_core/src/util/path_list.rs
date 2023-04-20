@@ -335,10 +335,17 @@ proc_macro2
 TokenStream
 ;
 use
+quote
+:
+:
+quote
+;
+use
 syn
 :
 :
 {
+parse_quote
 Attribute
 Meta
 }

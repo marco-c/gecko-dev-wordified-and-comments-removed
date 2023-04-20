@@ -33,10 +33,10 @@ options
 :
 :
 {
+DeriveInputShapeSet
 OuterFrom
 ParseAttribute
 ParseData
-Shape
 }
 ;
 use
@@ -89,7 +89,7 @@ supports
 :
 Option
 <
-Shape
+DeriveInputShapeSet
 >
 }
 impl

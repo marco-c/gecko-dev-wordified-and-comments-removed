@@ -8,7 +8,10 @@ use
 quote
 :
 :
+{
+quote
 ToTokens
+}
 ;
 use
 syn
@@ -37,8 +40,8 @@ options
 :
 :
 {
+DeriveInputShapeSet
 ForwardAttrs
-Shape
 }
 util
 :
@@ -141,7 +144,7 @@ Option
 &
 '
 a
-Shape
+DeriveInputShapeSet
 >
 }
 impl
@@ -236,6 +239,12 @@ from_derive_input
 input
 :
 &
+:
+:
+darling
+:
+:
+export
 :
 :
 syn
@@ -629,6 +638,12 @@ from_derive_input
 input
 :
 &
+:
+:
+darling
+:
+:
+export
 :
 :
 syn

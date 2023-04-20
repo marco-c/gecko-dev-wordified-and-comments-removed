@@ -5,6 +5,12 @@ proc_macro2
 TokenStream
 ;
 use
+quote
+:
+:
+quote
+;
+use
 crate
 :
 :
@@ -438,6 +444,12 @@ export
 :
 Vec
 <
+:
+:
+darling
+:
+:
+export
 :
 :
 syn

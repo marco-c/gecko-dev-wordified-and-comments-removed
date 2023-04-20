@@ -8,7 +8,10 @@ use
 quote
 :
 :
+{
+quote
 ToTokens
+}
 ;
 use
 syn
@@ -430,6 +433,12 @@ from_type_param
 input
 :
 &
+:
+:
+darling
+:
+:
+export
 :
 :
 syn

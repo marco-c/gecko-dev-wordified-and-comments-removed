@@ -20,7 +20,11 @@ use
 quote
 :
 :
+{
+quote
+quote_spanned
 ToTokens
+}
 ;
 use
 syn
