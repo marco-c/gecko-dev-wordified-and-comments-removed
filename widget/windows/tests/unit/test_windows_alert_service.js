@@ -1941,7 +1941,7 @@ Services
 .
 prefs
 .
-clearUserPref
+deleteBranch
 (
 "
 alerts
@@ -1965,13 +1965,6 @@ server
 pref
 is
 unset
-(
-i
-.
-e
-.
-default
-)
 "
 {
 profD
