@@ -46,7 +46,12 @@ av_color_space_name
 av_color_transfer_name
 av_compare_mod
 av_compare_ts
+#
+ifndef
+MOZ_FFVPX_AUDIOONLY
 av_content_light_metadata_create_side_data
+#
+endif
 av_cpu_count
 av_crc
 av_crc_get_table
@@ -193,7 +198,12 @@ av_log_set_flags
 av_log_set_level
 av_malloc
 av_mallocz
+#
+ifndef
+MOZ_FFVPX_AUDIOONLY
 av_mastering_display_metadata_create_side_data
+#
+endif
 av_match_list
 av_match_name
 av_max_alloc
