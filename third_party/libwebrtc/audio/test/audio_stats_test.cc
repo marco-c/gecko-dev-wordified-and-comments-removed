@@ -344,7 +344,7 @@ packets_rcvd
 ;
 EXPECT_EQ
 (
-0u
+0
 recv_stats
 .
 packets_lost

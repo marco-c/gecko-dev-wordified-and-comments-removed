@@ -228,7 +228,6 @@ RtpRtcp
 struct
 CallReceiveStatistics
 {
-unsigned
 int
 cumulativeLost
 ;

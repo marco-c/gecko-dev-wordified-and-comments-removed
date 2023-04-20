@@ -164,7 +164,7 @@ fec_packets_discarded
 =
 0
 ;
-uint32_t
+int32_t
 packets_lost
 =
 0
