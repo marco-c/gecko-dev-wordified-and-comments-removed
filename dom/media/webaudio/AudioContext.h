@@ -1550,6 +1550,10 @@ mRTPCallerType
 ;
 const
 bool
+mShouldResistFingerprinting
+;
+const
+bool
 mIsOffline
 ;
 bool
