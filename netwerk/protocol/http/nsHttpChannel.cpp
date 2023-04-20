@@ -38838,8 +38838,6 @@ ResolvedByTRR
 isTrr
 )
 ;
-MOZ_ALWAYS_SUCCEEDS
-(
 socketTransport
 -
 >
@@ -38847,7 +38845,6 @@ GetEffectiveTRRMode
 (
 &
 mEffectiveTRRMode
-)
 )
 ;
 socketTransport
