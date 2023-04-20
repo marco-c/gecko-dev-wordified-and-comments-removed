@@ -131,6 +131,3 @@ browser
 [
 shared_library
 ]
-REQUIRES_UNIFIED_BUILD
-=
-True

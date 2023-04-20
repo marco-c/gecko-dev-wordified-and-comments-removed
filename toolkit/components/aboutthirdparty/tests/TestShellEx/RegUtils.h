@@ -7,6 +7,13 @@ mozilla_TestShellEx_RegUtils_h
 #
 include
 <
+windows
+.
+h
+>
+#
+include
+<
 string
 >
 class
