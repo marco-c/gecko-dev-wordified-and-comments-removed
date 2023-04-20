@@ -5266,7 +5266,7 @@ resultMenu
 addEventListener
 (
 "
-popuphidden
+popuphiding
 "
 (
 )
