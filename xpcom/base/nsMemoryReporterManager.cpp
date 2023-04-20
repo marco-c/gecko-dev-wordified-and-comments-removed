@@ -8943,14 +8943,6 @@ forget
 }
 if
 (
-!
-IsRegistrationBlocked
-(
-)
-)
-{
-if
-(
 RefPtr
 <
 UtilityProcessManager
@@ -9013,7 +9005,6 @@ forget
 )
 )
 ;
-}
 }
 }
 }
