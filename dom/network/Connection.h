@@ -27,13 +27,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -125,12 +118,7 @@ Type
 const
 {
 return
-nsContentUtils
-:
-:
-ShouldResistFingerprinting
-(
-)
+mShouldResistFingerprinting
 ?
 static_cast
 <
