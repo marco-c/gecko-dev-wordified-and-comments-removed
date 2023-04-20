@@ -86,6 +86,10 @@ ReactDOM
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -97,6 +101,8 @@ vendor
 react
 -
 dom
+.
+js
 "
 )
 ;
@@ -106,6 +112,10 @@ React
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -115,6 +125,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -124,6 +136,10 @@ FluentReact
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -135,6 +151,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 ;
@@ -146,6 +164,10 @@ FluentL10n
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -159,6 +181,8 @@ l10n
 fluent
 -
 l10n
+.
+js
 "
 )
 ;
@@ -172,6 +196,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -183,6 +211,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 .
@@ -211,6 +241,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -222,6 +256,8 @@ new
 components
 /
 DevToolsPanel
+.
+js
 "
 )
 )
@@ -236,6 +272,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -247,6 +287,8 @@ new
 components
 /
 ProfilerEventHandling
+.
+js
 "
 )
 )
@@ -261,6 +303,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -272,6 +318,8 @@ new
 components
 /
 ProfilerPreferenceObserver
+.
+js
 "
 )
 )
@@ -282,6 +330,10 @@ createStore
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -293,6 +345,8 @@ redux
 create
 -
 store
+.
+js
 "
 )
 ;
@@ -302,6 +356,10 @@ selectors
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -313,6 +371,8 @@ new
 store
 /
 selectors
+.
+js
 "
 )
 ;
@@ -322,6 +382,10 @@ reducers
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -333,6 +397,8 @@ new
 store
 /
 reducers
+.
+js
 "
 )
 ;
@@ -342,6 +408,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -353,6 +423,8 @@ new
 store
 /
 actions
+.
+js
 "
 )
 ;
@@ -365,6 +437,10 @@ sharedLibrariesFromProfile
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -374,6 +450,8 @@ performance
 new
 /
 browser
+.
+js
 "
 )
 ;

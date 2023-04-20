@@ -11,6 +11,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -34,6 +40,10 @@ img
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -47,6 +57,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -58,6 +70,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -69,6 +85,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -78,6 +96,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -89,6 +111,8 @@ new
 store
 /
 actions
+.
+js
 "
 )
 ;
@@ -98,6 +122,10 @@ selectors
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -109,6 +137,8 @@ new
 store
 /
 selectors
+.
+js
 "
 )
 ;
@@ -118,6 +148,10 @@ React
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -127,6 +161,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -140,6 +176,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -151,6 +191,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 .

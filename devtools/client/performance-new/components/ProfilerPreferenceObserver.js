@@ -46,6 +46,10 @@ PureComponent
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -55,6 +59,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -66,6 +72,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -77,6 +87,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -86,6 +98,10 @@ selectors
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -97,6 +113,8 @@ new
 store
 /
 selectors
+.
+js
 "
 )
 ;
@@ -106,6 +124,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -117,6 +139,8 @@ new
 store
 /
 actions
+.
+js
 "
 )
 ;

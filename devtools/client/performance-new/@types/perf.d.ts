@@ -9,6 +9,10 @@ ReduxStore
 }
 from
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ shared
 vendor
 /
 redux
+.
+js
 "
 ;
 export

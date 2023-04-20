@@ -39,6 +39,10 @@ withCommonPathPrefixRemoved
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -48,6 +52,8 @@ performance
 new
 /
 utils
+.
+js
 "
 )
 ;

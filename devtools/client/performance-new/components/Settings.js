@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -40,6 +46,10 @@ span
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -53,6 +63,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -64,6 +76,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -75,6 +91,8 @@ new
 components
 /
 Range
+.
+js
 "
 )
 )
@@ -87,6 +105,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -98,6 +120,8 @@ new
 components
 /
 DirectoryPicker
+.
+js
 "
 )
 )
@@ -113,6 +137,10 @@ featureDescriptions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -122,6 +150,8 @@ performance
 new
 /
 utils
+.
+js
 "
 )
 ;
@@ -133,6 +163,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -144,6 +178,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -153,6 +189,10 @@ actions
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -164,6 +204,8 @@ new
 store
 /
 actions
+.
+js
 "
 )
 ;
@@ -173,6 +215,10 @@ selectors
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -184,6 +230,8 @@ new
 store
 /
 selectors
+.
+js
 "
 )
 ;
@@ -195,6 +243,10 @@ openFilePickerForObjdir
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -204,6 +256,8 @@ performance
 new
 /
 browser
+.
+js
 "
 )
 ;
@@ -215,6 +269,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -226,6 +284,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 .

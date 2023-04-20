@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -35,6 +41,10 @@ p
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -48,6 +58,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -59,6 +71,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -70,6 +86,8 @@ vendor
 fluent
 -
 react
+.
+js
 "
 )
 .
@@ -84,6 +102,10 @@ openDocLink
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -91,6 +113,8 @@ client
 shared
 /
 link
+.
+js
 "
 )
 ;

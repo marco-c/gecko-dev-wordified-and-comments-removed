@@ -9,6 +9,10 @@ selectors
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -20,6 +24,8 @@ new
 store
 /
 selectors
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ getEnvironmentVariable
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -40,6 +50,8 @@ performance
 new
 /
 browser
+.
+js
 "
 )
 ;

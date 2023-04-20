@@ -86,6 +86,10 @@ getEnvironmentVariable
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -95,6 +99,8 @@ performance
 new
 /
 browser
+.
+js
 "
 )
 ;

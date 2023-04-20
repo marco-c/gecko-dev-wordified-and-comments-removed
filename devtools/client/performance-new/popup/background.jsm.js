@@ -290,6 +290,10 @@ RecordingUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -301,6 +305,8 @@ new
 recording
 -
 utils
+.
+js
 "
 )
 CustomizableUI

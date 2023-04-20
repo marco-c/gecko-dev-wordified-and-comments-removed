@@ -12,6 +12,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -21,6 +25,8 @@ shared
 vendor
 /
 react
+.
+js
 "
 )
 ;
@@ -32,6 +38,10 @@ connect
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -43,6 +53,8 @@ vendor
 react
 -
 redux
+.
+js
 "
 )
 ;
@@ -55,6 +67,10 @@ hr
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -68,6 +84,8 @@ react
 dom
 -
 factories
+.
+js
 "
 )
 ;
@@ -79,6 +97,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -90,6 +112,8 @@ new
 components
 /
 RecordingButton
+.
+js
 "
 )
 )
@@ -102,6 +126,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -113,6 +141,8 @@ new
 components
 /
 Description
+.
+js
 "
 )
 )
@@ -125,6 +155,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -136,6 +170,8 @@ new
 components
 /
 DevToolsPresetSelection
+.
+js
 "
 )
 )
@@ -148,6 +184,10 @@ createFactory
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -159,6 +199,8 @@ new
 components
 /
 OnboardingMessage
+.
+js
 "
 )
 )
@@ -169,6 +211,10 @@ selectors
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -180,6 +226,8 @@ new
 store
 /
 selectors
+.
+js
 "
 )
 ;
