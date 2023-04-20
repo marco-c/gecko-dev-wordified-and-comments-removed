@@ -48,6 +48,9 @@ source
 "
 unknown
 "
+onClosed
+=
+null
 }
 =
 {
@@ -115,6 +118,7 @@ available
 }
 {
 source
+onClosed
 }
 )
 ;
