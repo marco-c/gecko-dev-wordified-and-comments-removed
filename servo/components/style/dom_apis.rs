@@ -1705,6 +1705,12 @@ let
 chosen_name
 =
 if
+name
+=
+=
+lower_name
+|
+|
 element
 .
 is_html_element_in_html_document
