@@ -652,6 +652,17 @@ aWindow
 ;
 fields
 .
+mShouldResistFingerprinting
+=
+doc
+-
+>
+ShouldResistFingerprinting
+(
+)
+;
+fields
+.
 mIsSecureContext
 =
 aWindow

@@ -215,6 +215,11 @@ attribute
 boolean
 isLocalIP
 ;
+readonly
+attribute
+boolean
+shouldResistFingerprinting
+;
 /
 *
 *
