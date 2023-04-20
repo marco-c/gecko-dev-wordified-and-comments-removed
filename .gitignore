@@ -1139,7 +1139,9 @@ storybook
 .
 storybook
 /
-rewrites
+chrome
+-
+map
 .
 js
 browser

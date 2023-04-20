@@ -1931,7 +1931,9 @@ storybook
 .
 storybook
 /
-rewrites
+chrome
+-
+map
 .
 js
 ^
