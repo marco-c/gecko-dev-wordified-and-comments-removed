@@ -6362,6 +6362,10 @@ default
 :
 1
 month
+shortest
+:
+7
+days
 short
 :
 14
@@ -6380,6 +6384,10 @@ default
 :
 1
 year
+shortest
+:
+14
+days
 short
 :
 3
@@ -6408,6 +6416,10 @@ default
 :
 3
 months
+shortest
+:
+7
+days
 short
 :
 1
