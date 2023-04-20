@@ -1081,12 +1081,6 @@ sdp
 )
 )
 ;
-SignalOnIceCandidateCreated
-(
-&
-sdp
-)
-;
 SignalOnIceCandidateReady
 (
 candidate
@@ -1216,12 +1210,6 @@ created
 <
 <
 sdp
-;
-SignalOnSdpCreated
-(
-&
-sdp
-)
 ;
 SetLocalDescription
 (
