@@ -333,7 +333,7 @@ JsepTransceiver
 &
 oldTransceiver
 bool
-aRemote
+rollbackLevel
 )
 {
 MOZ_ASSERT
@@ -394,7 +394,7 @@ mTransport
 ;
 if
 (
-aRemote
+rollbackLevel
 )
 {
 mLevel
@@ -408,12 +408,6 @@ mBundleLevel
 oldTransceiver
 .
 mBundleLevel
-;
-mSendTrack
-=
-oldTransceiver
-.
-mSendTrack
 ;
 }
 mRecvTrack

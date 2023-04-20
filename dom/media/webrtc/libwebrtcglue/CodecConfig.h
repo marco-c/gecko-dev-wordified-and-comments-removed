@@ -425,11 +425,6 @@ EncodingConstraints
 constraints
 ;
 bool
-active
-=
-true
-;
-bool
 operator
 =
 =
@@ -456,14 +451,6 @@ constraints
 aOther
 .
 constraints
-&
-&
-active
-=
-=
-aOther
-.
-active
 ;
 }
 }

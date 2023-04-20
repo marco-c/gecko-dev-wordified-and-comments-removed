@@ -263,14 +263,6 @@ init
 )
 ;
 }
-Services
-.
-fog
-.
-initializeFOG
-(
-)
-;
 }
 const
 IS_THUNDERBIRD

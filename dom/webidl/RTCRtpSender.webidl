@@ -157,11 +157,15 @@ undefined
 >
 setParameters
 (
-RTCRtpSendParameters
+optional
+RTCRtpParameters
 parameters
+=
+{
+}
 )
 ;
-RTCRtpSendParameters
+RTCRtpParameters
 getParameters
 (
 )

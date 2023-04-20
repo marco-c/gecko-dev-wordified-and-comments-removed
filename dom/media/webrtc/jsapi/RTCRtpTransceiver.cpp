@@ -1232,9 +1232,6 @@ mCallThread
 mStsThread
 mConduit
 mSendTrack
-aInit
-.
-mSendEncodings
 this
 )
 ;
@@ -2217,7 +2214,7 @@ UpdateConduit
 mSender
 -
 >
-MaybeUpdateConduit
+UpdateConduit
 (
 )
 ;
@@ -4675,6 +4672,14 @@ rid
 jsepEncoding
 .
 mRid
+;
+encoding
+.
+constraints
+=
+jsepEncoding
+.
+mConstraints
 ;
 config
 -
