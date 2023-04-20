@@ -632,7 +632,7 @@ ccov
 .
 *
 :
-6
+8
 .
 *
 -
@@ -680,6 +680,9 @@ by
 variant
 :
 msix
+:
+7200
+conditioned_profile
 :
 7200
 default
