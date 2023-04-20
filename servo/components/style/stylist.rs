@@ -8578,6 +8578,12 @@ clone
 )
 )
 ;
+if
+name
+!
+=
+lower_name
+{
 self
 .
 nth_of_attribute_dependencies
@@ -8592,6 +8598,7 @@ clone
 )
 ;
 }
+}
 self
 .
 attribute_dependencies
@@ -8605,6 +8612,12 @@ clone
 )
 )
 ;
+if
+name
+!
+=
+lower_name
+{
 self
 .
 attribute_dependencies
@@ -8618,6 +8631,7 @@ clone
 )
 )
 ;
+}
 true
 }
 fn
