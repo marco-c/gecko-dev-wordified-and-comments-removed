@@ -169,10 +169,6 @@ PositiveInfinity
 struct
 FoldInfo
 {
-JSContext
-*
-cx
-;
 FrontendContext
 *
 fc
@@ -7010,10 +7006,6 @@ Base
 =
 RewritingParseNodeVisitor
 ;
-JSContext
-*
-cx
-;
 ParserAtomsTable
 &
 parserAtoms
@@ -7031,7 +7023,6 @@ const
 return
 FoldInfo
 {
-cx
 fc_
 stackLimit_
 parserAtoms
@@ -7043,9 +7034,6 @@ public
 :
 FoldVisitor
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -7066,10 +7054,6 @@ RewritingParseNodeVisitor
 (
 fc
 stackLimit
-)
-cx
-(
-cx
 )
 parserAtoms
 (
@@ -8531,9 +8515,6 @@ static
 bool
 Fold
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -8557,7 +8538,6 @@ pnp
 FoldVisitor
 visitor
 (
-cx
 fc
 stackLimit
 parserAtoms
@@ -8591,9 +8571,6 @@ Fold
 (
 info
 .
-cx
-info
-.
 fc
 info
 .
@@ -8614,9 +8591,6 @@ frontend
 :
 FoldConstants
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -8640,7 +8614,6 @@ handler
 return
 Fold
 (
-cx
 fc
 stackLimit
 parserAtoms

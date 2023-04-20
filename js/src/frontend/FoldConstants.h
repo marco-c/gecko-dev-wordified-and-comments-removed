@@ -54,9 +54,6 @@ extern
 bool
 FoldConstants
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -86,9 +83,6 @@ inline
 bool
 FoldConstants
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
