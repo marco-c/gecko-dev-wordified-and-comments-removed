@@ -108,7 +108,7 @@ AT_logError
 AT_destroyTranslationsEngine
 AT_createTranslationsEngine
 AT_createLanguageIdEngine
-AT_translate
+AT_translateText
 AT_identifyLanguage
 *
 /
@@ -845,7 +845,7 @@ this
 .
 translationRequest
 =
-AT_translate
+AT_translateText
 (
 [
 messageToTranslate

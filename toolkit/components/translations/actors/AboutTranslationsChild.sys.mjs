@@ -681,7 +681,7 @@ AT_createTranslationsEngine
 AT_identifyLanguage
 "
 "
-AT_translate
+AT_translateText
 "
 "
 AT_destroyTranslationsEngine
@@ -1426,7 +1426,7 @@ this
 .
 translationsEngine
 .
-translate
+translateText
 (
 messageBatch
 )
