@@ -8,6 +8,11 @@ mozIJSSubScriptLoader
 idl
 "
 "
+nsIXPConnect
+.
+idl
+"
+"
 nsIXPCScriptable
 .
 idl

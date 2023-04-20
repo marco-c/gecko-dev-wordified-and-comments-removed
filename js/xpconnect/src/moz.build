@@ -13,11 +13,6 @@ JSServices
 h
 "
 "
-nsIXPConnect
-.
-h
-"
-"
 XPCJSMemoryReporter
 .
 h
