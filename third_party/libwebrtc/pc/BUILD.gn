@@ -349,14 +349,6 @@ event_tracer
 /
 rtc_base
 :
-location
-"
-"
-.
-.
-/
-rtc_base
-:
 rtc_event
 "
 "
