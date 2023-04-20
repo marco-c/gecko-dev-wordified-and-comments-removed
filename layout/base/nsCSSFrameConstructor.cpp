@@ -2917,7 +2917,7 @@ nsFrameList
 {
 nsContainerFrame
 *
-containingBlock
+mContainingBlock
 ;
 explicit
 AbsoluteFrameList
@@ -2929,7 +2929,7 @@ aContainingBlock
 nullptr
 )
 :
-containingBlock
+mContainingBlock
 (
 aContainingBlock
 )
@@ -3506,7 +3506,7 @@ popupContainer
 {
 mPopupList
 .
-containingBlock
+mContainingBlock
 =
 popupContainer
 -
@@ -4026,7 +4026,7 @@ IsFloatingStyle
 &
 mFloatedList
 .
-containingBlock
+mContainingBlock
 )
 {
 NS_ASSERTION
@@ -4049,7 +4049,7 @@ floating
 return
 mFloatedList
 .
-containingBlock
+mContainingBlock
 ;
 }
 if
@@ -4128,7 +4128,7 @@ MOZ_ASSERT
 (
 mTopLayerFixedList
 .
-containingBlock
+mContainingBlock
 "
 No
 root
@@ -4140,7 +4140,7 @@ frame
 return
 mTopLayerFixedList
 .
-containingBlock
+mContainingBlock
 ;
 }
 MOZ_ASSERT
@@ -4160,13 +4160,13 @@ MOZ_ASSERT
 (
 mTopLayerAbsoluteList
 .
-containingBlock
+mContainingBlock
 )
 ;
 return
 mTopLayerAbsoluteList
 .
-containingBlock
+mContainingBlock
 ;
 }
 if
@@ -4184,13 +4184,13 @@ Absolute
 &
 mAbsoluteList
 .
-containingBlock
+mContainingBlock
 )
 {
 return
 mAbsoluteList
 .
-containingBlock
+mContainingBlock
 ;
 }
 if
@@ -4210,7 +4210,7 @@ GetFixedList
 (
 )
 .
-containingBlock
+mContainingBlock
 )
 {
 return
@@ -4218,7 +4218,7 @@ GetFixedList
 (
 )
 .
-containingBlock
+mContainingBlock
 ;
 }
 return
@@ -4558,7 +4558,7 @@ MOZ_ASSERT
 (
 mPopupList
 .
-containingBlock
+mContainingBlock
 "
 Must
 have
@@ -5037,7 +5037,7 @@ outOfFlowFrameList
 outOfFlowFrameList
 -
 >
-containingBlock
+mContainingBlock
 )
 {
 MOZ_ASSERT
@@ -5053,7 +5053,7 @@ GetParent
 outOfFlowFrameList
 -
 >
-containingBlock
+mContainingBlock
 "
 Parent
 of
@@ -5368,7 +5368,7 @@ containingBlock
 =
 aFrameList
 .
-containingBlock
+mContainingBlock
 ;
 NS_ASSERTION
 (
@@ -16834,14 +16834,14 @@ aState
 .
 mPopupList
 .
-containingBlock
+mContainingBlock
 &
 &
 aState
 .
 mPopupList
 .
-containingBlock
+mContainingBlock
 -
 >
 IsPopupSetFrame
@@ -16869,7 +16869,7 @@ aState
 .
 mPopupList
 .
-containingBlock
+mContainingBlock
 :
 (
 allowOutOfFlow
@@ -17310,7 +17310,7 @@ aState
 .
 mPopupList
 .
-containingBlock
+mContainingBlock
 =
 newFrameAsContainer
 ;
@@ -24645,7 +24645,7 @@ aState
 .
 mPopupList
 .
-containingBlock
+mContainingBlock
 &
 &
 !
@@ -31790,7 +31790,7 @@ state
 .
 mFloatedList
 .
-containingBlock
+mContainingBlock
 ;
 bool
 haveFirstLetterStyle
@@ -31956,7 +31956,7 @@ state
 .
 mFloatedList
 .
-containingBlock
+mContainingBlock
 )
 ;
 prevSibling
@@ -31988,7 +31988,7 @@ state
 .
 mFloatedList
 .
-containingBlock
+mContainingBlock
 )
 ;
 LAYOUT_PHASE_TEMP_EXIT
@@ -32976,7 +32976,7 @@ state
 .
 mFloatedList
 .
-containingBlock
+mContainingBlock
 )
 ;
 }
