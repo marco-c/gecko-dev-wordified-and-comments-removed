@@ -20781,6 +20781,16 @@ blackbox
 )
 |
 |
+desktopEnv
+.
+EqualsLiteral
+(
+"
+lg3d
+"
+)
+|
+|
 StringBeginsWith
 (
 desktopEnv
