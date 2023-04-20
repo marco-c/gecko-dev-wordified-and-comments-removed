@@ -1884,6 +1884,11 @@ mPeerAllowsWebsockets
 bool
 mProcessedWaitingWebsockets
 ;
+bool
+mHasTransactionWaitingForWebsockets
+=
+false
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
