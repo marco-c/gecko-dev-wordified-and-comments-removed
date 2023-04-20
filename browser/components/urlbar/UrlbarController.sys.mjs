@@ -6632,9 +6632,7 @@ UrlbarPrefs
 get
 (
 "
-searchEngagementTelemetry
-.
-enabled
+searchEngagementTelemetryEnabled
 "
 )
 )
