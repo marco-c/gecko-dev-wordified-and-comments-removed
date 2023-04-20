@@ -1616,8 +1616,17 @@ RTC_GUARDED_BY
 network_thread_
 )
 ;
+const
 int64_t
 time_created_ms_
+RTC_GUARDED_BY
+(
+network_thread_
+)
+;
+const
+int64_t
+delta_internal_unix_epoch_ms_
 RTC_GUARDED_BY
 (
 network_thread_
