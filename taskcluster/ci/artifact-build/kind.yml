@@ -254,11 +254,6 @@ tooltool
 downloads
 :
 public
-need
--
-xvfb
-:
-true
 keep
 -
 artifacts

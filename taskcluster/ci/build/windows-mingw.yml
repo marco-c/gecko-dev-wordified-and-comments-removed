@@ -112,11 +112,6 @@ scripts
 fx_desktop_build
 .
 py
-need
--
-xvfb
-:
-false
 optimization
 :
 skip

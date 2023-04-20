@@ -234,11 +234,6 @@ builder
 repackage
 .
 sh
-need
--
-xvfb
-:
-false
 tooltool
 -
 downloads

@@ -234,11 +234,6 @@ tooltool
 downloads
 :
 public
-need
--
-xvfb
-:
-true
 use
 -
 sccache
@@ -438,11 +433,6 @@ tooltool
 downloads
 :
 public
-need
--
-xvfb
-:
-true
 use
 -
 sccache
@@ -639,11 +629,6 @@ tooltool
 downloads
 :
 public
-need
--
-xvfb
-:
-true
 fetches
 :
 toolchain
@@ -845,11 +830,6 @@ tooltool
 downloads
 :
 public
-need
--
-xvfb
-:
-true
 fetches
 :
 toolchain
