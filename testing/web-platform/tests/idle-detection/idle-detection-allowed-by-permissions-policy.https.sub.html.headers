@@ -1,10 +1,9 @@
-Feature
+Permissions
 -
 Policy
 :
 idle
 -
 detection
-'
-none
-'
+=
+*

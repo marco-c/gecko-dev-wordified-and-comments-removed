@@ -57,7 +57,7 @@ start
 }
 Inherited
 header
-feature
+permissions
 policy
 allows
 {
