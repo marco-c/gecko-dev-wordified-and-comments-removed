@@ -63,15 +63,8 @@ exit
 )
 ;
 void
-favorPerformanceHint
+geckoTaskBurst
 (
-in
-boolean
-favorPerfOverStarvation
-in
-unsigned
-long
-starvationDelay
 )
 ;
 void

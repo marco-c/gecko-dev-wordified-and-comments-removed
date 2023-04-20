@@ -173,9 +173,6 @@ bool
 *
 mBlockedWait
 ;
-int32_t
-mFavorPerf
-;
 mozilla
 :
 :
@@ -186,10 +183,7 @@ bool
 mNativeEventPending
 ;
 PRIntervalTime
-mStarvationDelay
-;
-PRIntervalTime
-mSwitchTime
+mGeckoTaskBurstStartTime
 ;
 PRIntervalTime
 mLastNativeEventTime
