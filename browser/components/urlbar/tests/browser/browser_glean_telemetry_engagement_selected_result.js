@@ -85,7 +85,7 @@ doEnter
 (
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -213,7 +213,7 @@ doEnter
 (
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -300,7 +300,7 @@ doEnter
 (
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -389,7 +389,7 @@ doEnter
 (
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -503,7 +503,7 @@ doEnter
 (
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -624,7 +624,7 @@ doEnter
 (
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -728,7 +728,7 @@ doEnter
 (
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -802,7 +802,7 @@ doEnter
 (
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -920,7 +920,7 @@ doEnter
 (
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -1064,7 +1064,7 @@ doEnter
 (
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -1142,7 +1142,7 @@ doEnter
 (
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -1238,7 +1238,7 @@ addons
 await
 onLoad
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -1351,7 +1351,7 @@ selectedTab
 tab
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -1448,7 +1448,7 @@ doEnter
 (
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -1540,7 +1540,7 @@ doEnter
 (
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -1719,7 +1719,7 @@ KEY_Enter
 await
 onComplete
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -1817,7 +1817,7 @@ doEnter
 (
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -1935,7 +1935,7 @@ KEY_Enter
 }
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -2061,7 +2061,7 @@ KEY_Enter
 }
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -2155,7 +2155,7 @@ doEnter
 (
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
@@ -2246,7 +2246,7 @@ doEnter
 (
 )
 ;
-assertGleanTelemetry
+assertEngagementTelemetry
 (
 [
 {
