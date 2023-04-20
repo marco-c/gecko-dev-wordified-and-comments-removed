@@ -903,6 +903,11 @@ mReceivedEOS
 false
 )
 {
+MOZ_COUNT_CTOR
+(
+MFMediaEngineStream
+)
+;
 }
 MFMediaEngineStream
 :
@@ -917,6 +922,11 @@ MOZ_ASSERT
 IsShutdown
 (
 )
+)
+;
+MOZ_COUNT_DTOR
+(
+MFMediaEngineStream
 )
 ;
 }
