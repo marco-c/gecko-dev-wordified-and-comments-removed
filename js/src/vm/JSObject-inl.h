@@ -2753,16 +2753,6 @@ T
 nullptr
 ;
 }
-bool
-NewObjectScriptedCall
-(
-JSContext
-*
-cx
-MutableHandleObject
-obj
-)
-;
 static
 inline
 gc
