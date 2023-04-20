@@ -105,16 +105,6 @@ cpp
 /
 test
 /
-test_logging
-.
-cpp
-'
-'
-.
-.
-/
-test
-/
 test_sanity
 .
 cpp
