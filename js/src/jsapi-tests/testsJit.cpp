@@ -143,6 +143,12 @@ defined
 (
 JS_CODEGEN_LOONG64
 )
+|
+|
+defined
+(
+JS_CODEGEN_RISCV64
+)
 save
 .
 add
@@ -269,6 +275,12 @@ JS_CODEGEN_MIPS64
 defined
 (
 JS_CODEGEN_LOONG64
+)
+|
+|
+defined
+(
+JS_CODEGEN_RISCV64
 )
 save
 .

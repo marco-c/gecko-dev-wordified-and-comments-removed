@@ -731,7 +731,7 @@ uncheckedCallEntry
 begin_
 <
 =
-UINT8_MAX
+UINT16_MAX
 )
 ;
 MOZ_ASSERT
@@ -743,7 +743,7 @@ tierEntry
 begin_
 <
 =
-UINT8_MAX
+UINT16_MAX
 )
 ;
 u

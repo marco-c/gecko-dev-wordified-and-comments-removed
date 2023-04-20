@@ -807,10 +807,10 @@ struct
 uint32_t
 lineOrBytecode_
 ;
-uint8_t
+uint16_t
 beginToUncheckedCallEntry_
 ;
-uint8_t
+uint16_t
 beginToTierEntry_
 ;
 }
