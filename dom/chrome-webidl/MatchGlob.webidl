@@ -130,7 +130,7 @@ Throws
 ]
 constructor
 (
-UTF8String
+DOMString
 glob
 optional
 boolean
@@ -157,7 +157,7 @@ glob
 boolean
 matches
 (
-UTF8String
+DOMString
 string
 )
 ;
@@ -179,7 +179,7 @@ Constant
 ]
 readonly
 attribute
-UTF8String
+DOMString
 glob
 ;
 }
