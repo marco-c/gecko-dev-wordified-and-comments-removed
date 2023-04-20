@@ -177,6 +177,7 @@ NS_IMPL_CYCLE_COLLECTION
 (
 ReadableStreamController
 mGlobal
+mAlgorithms
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
@@ -205,7 +206,6 @@ ReadableStreamDefaultController
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mAlgorithms
 mStrategySizeAlgorithm
 mStream
 )
@@ -227,7 +227,6 @@ ReadableStreamController
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mAlgorithms
 mStrategySizeAlgorithm
 mStream
 )
@@ -736,9 +735,8 @@ aController
 aController
 -
 >
-SetAlgorithms
+ClearAlgorithms
 (
-nullptr
 )
 ;
 aController
@@ -1788,6 +1786,7 @@ aController
 >
 SetAlgorithms
 (
+*
 aAlgorithms
 )
 ;

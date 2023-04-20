@@ -332,7 +332,6 @@ ReadableStreamController
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mByobRequest
-mAlgorithms
 mStream
 )
 tmp
@@ -359,7 +358,6 @@ ReadableStreamController
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mByobRequest
-mAlgorithms
 mStream
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
@@ -1049,9 +1047,8 @@ aController
 aController
 -
 >
-SetAlgorithms
+ClearAlgorithms
 (
-nullptr
 )
 ;
 }
@@ -7207,6 +7204,7 @@ aController
 >
 SetAlgorithms
 (
+*
 aAlgorithms
 )
 ;
