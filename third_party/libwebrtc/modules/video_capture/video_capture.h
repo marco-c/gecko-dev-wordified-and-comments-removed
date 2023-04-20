@@ -549,6 +549,17 @@ GetApplyRotation
 =
 0
 ;
+virtual
+void
+SetTrackingId
+(
+const
+char
+*
+aTrackingId
+)
+{
+}
 protected
 :
 ~
