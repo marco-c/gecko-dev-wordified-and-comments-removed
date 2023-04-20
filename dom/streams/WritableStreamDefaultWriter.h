@@ -366,6 +366,9 @@ mClosedPromise
 ;
 }
 ;
+namespace
+streams_abstract
+{
 void
 SetUpWritableStreamDefaultWriter
 (
@@ -487,6 +490,7 @@ ErrorResult
 aRv
 )
 ;
+}
 }
 #
 endif
