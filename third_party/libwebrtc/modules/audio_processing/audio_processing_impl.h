@@ -14,6 +14,11 @@ h
 #
 include
 <
+atomic
+>
+#
+include
+<
 list
 >
 #
@@ -936,7 +941,13 @@ ApmDataDumper
 data_dumper_
 ;
 static
+std
+:
+:
+atomic
+<
 int
+>
 instance_count_
 ;
 const

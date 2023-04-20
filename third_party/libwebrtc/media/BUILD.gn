@@ -1170,14 +1170,6 @@ video_coding_utility
 /
 rtc_base
 :
-atomicops
-"
-"
-.
-.
-/
-rtc_base
-:
 checks
 "
 "

@@ -7,6 +7,11 @@ MODULES_AUDIO_PROCESSING_GAIN_CONTROLLER2_H_
 #
 include
 <
+atomic
+>
+#
+include
+<
 memory
 >
 #
@@ -230,7 +235,13 @@ cpu_features_
 private
 :
 static
+std
+:
+:
+atomic
+<
 int
+>
 instance_count_
 ;
 const

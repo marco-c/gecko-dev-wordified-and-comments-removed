@@ -12,6 +12,11 @@ array
 #
 include
 <
+atomic
+>
+#
+include
+<
 memory
 >
 #
@@ -660,7 +665,13 @@ emr_transparent_
 }
 ;
 static
+std
+:
+:
+atomic
+<
 int
+>
 instance_count_
 ;
 std

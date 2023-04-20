@@ -817,14 +817,6 @@ video_processing
 /
 rtc_base
 :
-atomicops
-"
-"
-.
-.
-/
-rtc_base
-:
 checks
 "
 "

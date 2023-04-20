@@ -14,6 +14,11 @@ h
 #
 include
 <
+atomic
+>
+#
+include
+<
 memory
 >
 #
@@ -679,7 +684,13 @@ render_race_checker_
 )
 ;
 static
+std
+:
+:
+atomic
+<
 int
+>
 instance_count_
 ;
 std

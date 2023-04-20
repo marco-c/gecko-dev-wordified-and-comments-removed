@@ -6678,17 +6678,6 @@ api
 sequence_checker
 "
 "
-.
-.
-/
-.
-.
-/
-rtc_base
-:
-atomicops
-"
-"
 /
 /
 api

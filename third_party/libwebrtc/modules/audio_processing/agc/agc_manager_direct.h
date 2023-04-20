@@ -7,6 +7,11 @@ MODULES_AUDIO_PROCESSING_AGC_AGC_MANAGER_DIRECT_H_
 #
 include
 <
+atomic
+>
+#
+include
+<
 memory
 >
 #
@@ -424,7 +429,13 @@ ApmDataDumper
 data_dumper_
 ;
 static
+std
+:
+:
+atomic
+<
 int
+>
 instance_counter_
 ;
 const

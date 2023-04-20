@@ -19,6 +19,11 @@ array
 #
 include
 <
+atomic
+>
+#
+include
+<
 memory
 >
 #
@@ -227,7 +232,13 @@ config_change_duration_blocks_
 private
 :
 static
+std
+:
+:
+atomic
+<
 int
+>
 instance_count_
 ;
 std

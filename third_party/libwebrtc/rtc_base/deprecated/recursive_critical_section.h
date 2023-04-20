@@ -6,6 +6,11 @@ define
 RTC_BASE_DEPRECATED_RECURSIVE_CRITICAL_SECTION_H_
 #
 include
+<
+atomic
+>
+#
+include
 "
 rtc_base
 /
@@ -172,8 +177,13 @@ WEBRTC_MAC
 !
 RTC_USE_NATIVE_MUTEX_ON_MAC
 mutable
-volatile
+std
+:
+:
+atomic
+<
 int
+>
 lock_queue_
 ;
 mutable

@@ -7,6 +7,11 @@ MODULES_AUDIO_PROCESSING_RESIDUAL_ECHO_DETECTOR_H_
 #
 include
 <
+atomic
+>
+#
+include
+<
 vector
 >
 #
@@ -179,7 +184,13 @@ override
 private
 :
 static
+std
+:
+:
+atomic
+<
 int
+>
 instance_count_
 ;
 std
