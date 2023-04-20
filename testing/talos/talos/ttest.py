@@ -1566,10 +1566,12 @@ ask
 for
 help
 in
-irc
+matrix
 on
+the
 #
-perf
+perftest
+channel
 "
                     
 )
