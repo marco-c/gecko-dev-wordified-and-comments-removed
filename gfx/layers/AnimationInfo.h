@@ -212,14 +212,6 @@ TimeStamp
 aReadyTime
 )
 ;
-void
-TransferMutatedFlagToLayer
-(
-Layer
-*
-aLayer
-)
-;
 uint64_t
 GetCompositorAnimationsId
 (
