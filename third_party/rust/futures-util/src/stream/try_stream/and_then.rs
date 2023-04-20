@@ -542,7 +542,11 @@ usize
 let
 future_len
 =
-if
+usize
+:
+:
+from
+(
 self
 .
 future
@@ -550,13 +554,7 @@ future
 is_some
 (
 )
-{
-1
-}
-else
-{
-0
-}
+)
 ;
 let
 (

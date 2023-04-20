@@ -827,6 +827,9 @@ St1
 Item
 >
 {
+let
+first_done
+=
 match
 poll_side
 (
@@ -877,6 +880,7 @@ finish
 side
 )
 ;
+true
 }
 Poll
 :
@@ -884,8 +888,7 @@ Poll
 Pending
 =
 >
-(
-)
+false
 }
 ;
 let
@@ -924,6 +927,9 @@ finish
 other
 )
 ;
+if
+first_done
+{
 Poll
 :
 :
@@ -931,6 +937,14 @@ Ready
 (
 None
 )
+}
+else
+{
+Poll
+:
+:
+Pending
+}
 }
 a
 =

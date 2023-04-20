@@ -286,16 +286,6 @@ usize
 -
 >
 Self
-where
-St
-:
-Stream
-St
-:
-:
-Item
-:
-Future
 {
 Self
 {

@@ -369,8 +369,6 @@ lower
 self
 .
 remaining
-as
-usize
 )
 ;
 let
@@ -389,8 +387,6 @@ x
 self
 .
 remaining
-as
-usize
 =
 >
 Some
@@ -405,8 +401,6 @@ Some
 self
 .
 remaining
-as
-usize
 )
 }
 ;

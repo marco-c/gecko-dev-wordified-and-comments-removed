@@ -166,6 +166,13 @@ abort
 mod
 iter
 ;
+#
+[
+allow
+(
+unreachable_pub
+)
+]
 pub
 use
 self

@@ -617,7 +617,11 @@ usize
 let
 pending_len
 =
-if
+usize
+:
+:
+from
+(
 self
 .
 pending
@@ -625,13 +629,7 @@ pending
 is_some
 (
 )
-{
-1
-}
-else
-{
-0
-}
+)
 ;
 let
 (
