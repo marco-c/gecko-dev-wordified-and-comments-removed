@@ -2519,17 +2519,6 @@ aArgs
 }
 virtual
 bool
-IsSVGAnimationElement
-(
-)
-const
-{
-return
-false
-;
-}
-virtual
-bool
 IsSVGGraphicsElement
 (
 )
