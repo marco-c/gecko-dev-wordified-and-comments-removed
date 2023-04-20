@@ -1,3 +1,5 @@
+import
+math
 from
 tests
 .
@@ -191,6 +193,10 @@ div_centre
 x
 "
 :
+math
+.
+floor
+(
 div_rect
 [
 "
@@ -198,8 +204,6 @@ x
 "
 ]
 +
-int
-(
 div_rect
 [
 "
@@ -214,6 +218,10 @@ width
 y
 "
 :
+math
+.
+floor
+(
 div_rect
 [
 "
@@ -221,8 +229,6 @@ y
 "
 ]
 +
-int
-(
 div_rect
 [
 "
@@ -301,7 +307,7 @@ toString
 )
     
 assert
-lots_of_text
-=
-=
 actual_text
+=
+=
+lots_of_text
