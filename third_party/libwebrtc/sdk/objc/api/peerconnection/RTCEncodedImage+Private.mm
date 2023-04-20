@@ -27,15 +27,6 @@ safe_conversions
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-ref_counted_object
-.
-h
-"
 namespace
 {
 class

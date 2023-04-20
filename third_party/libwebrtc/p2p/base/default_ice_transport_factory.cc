@@ -17,6 +17,15 @@ utility
 #
 include
 "
+api
+/
+make_ref_counted
+.
+h
+"
+#
+include
+"
 p2p
 /
 base

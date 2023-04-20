@@ -8,9 +8,9 @@ h
 #
 include
 "
-rtc_base
+api
 /
-logging
+make_ref_counted
 .
 h
 "
@@ -19,7 +19,7 @@ include
 "
 rtc_base
 /
-ref_counted_object
+logging
 .
 h
 "

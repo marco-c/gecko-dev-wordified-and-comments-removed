@@ -7,15 +7,6 @@ local_audio_source
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-ref_counted_object
-.
-h
-"
 using
 webrtc
 :
