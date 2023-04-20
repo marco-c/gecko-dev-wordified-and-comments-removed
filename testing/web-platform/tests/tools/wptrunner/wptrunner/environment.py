@@ -1293,6 +1293,14 @@ self
 test_paths
 )
         
+config
+.
+inject_script
+=
+self
+.
+inject_script
+        
 return
 config
     
@@ -1307,13 +1315,22 @@ route_builder
 =
 serve
 .
-RoutesBuilder
+get_route_builder
 (
-inject_script
-=
+            
 self
 .
-inject_script
+server_logger
+            
+self
+.
+config
+.
+aliases
+            
+self
+.
+config
 )
         
 for
