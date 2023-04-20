@@ -2438,11 +2438,6 @@ NSMakeSize
 ]
 ;
 [
-mWindow
-disableCursorRects
-]
-;
-[
 [
 mWindow
 contentView
