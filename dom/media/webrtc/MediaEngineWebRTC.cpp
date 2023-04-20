@@ -345,15 +345,6 @@ MediaSourceEnum
 :
 :
 Window
-|
-|
-aMediaSource
-=
-=
-MediaSourceEnum
-:
-:
-Browser
 )
 ;
 #
