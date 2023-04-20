@@ -4027,6 +4027,15 @@ nsJSPrincipals
 Destroy
 )
 ;
+JS_InitReadPrincipalsCallback
+(
+cx
+nsJSPrincipals
+:
+:
+ReadPrincipals
+)
+;
 JS_SetWrapObjectCallbacks
 (
 cx

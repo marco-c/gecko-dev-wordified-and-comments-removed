@@ -26771,12 +26771,6 @@ JS
 CloneDataPolicy
 clonePolicy
 ;
-clonePolicy
-.
-allowErrorStackFrames
-(
-)
-;
 if
 (
 GetDocGroup

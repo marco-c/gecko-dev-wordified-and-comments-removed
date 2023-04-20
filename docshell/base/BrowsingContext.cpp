@@ -12632,12 +12632,6 @@ JS
 CloneDataPolicy
 clonePolicy
 ;
-clonePolicy
-.
-allowErrorStackFrames
-(
-)
-;
 if
 (
 callerInnerWindow
