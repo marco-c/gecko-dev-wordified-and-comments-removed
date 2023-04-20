@@ -831,11 +831,6 @@ RtpState
 suspended_ssrcs
 )
 ;
-void
-ConfigureRids
-(
-)
-;
 bool
 NackEnabled
 (
