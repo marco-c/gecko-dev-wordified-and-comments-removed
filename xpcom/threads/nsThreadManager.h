@@ -85,6 +85,11 @@ ShutdownMainThread
 )
 ;
 void
+ReleaseMainThread
+(
+)
+;
+void
 RegisterCurrentThread
 (
 nsThread
