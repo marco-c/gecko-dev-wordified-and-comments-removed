@@ -833,6 +833,9 @@ capture
 Compositor
 "
 "
+decoder
+"
+"
 GeckoMain
 "
 "
