@@ -219,6 +219,12 @@ DrawTargetSkia
 >
 mSkia
 ;
+RefPtr
+<
+DrawTargetSkia
+>
+mSkiaNoClip
+;
 mozilla
 :
 :
