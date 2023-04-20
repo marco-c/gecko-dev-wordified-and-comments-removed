@@ -260,9 +260,22 @@ _get_build_variables
 (
             
 application_ini_data
+            
 arch
+            
 version
+            
 build_number
+            
+depends
+=
+"
+{
+shlibs
+:
+Depends
+}
+"
         
 )
         
@@ -563,6 +576,8 @@ arch
 version_string
     
 build_number
+    
+depends
 )
 :
     
@@ -685,6 +700,12 @@ _DEB_ARCH
 [
 arch
 ]
+        
+"
+DEB_DEPENDS
+"
+:
+depends
     
 }
 def
