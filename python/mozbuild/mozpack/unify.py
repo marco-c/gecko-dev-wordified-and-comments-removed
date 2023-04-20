@@ -1583,11 +1583,9 @@ packaging
 It
 allows
     
-"
 *
 .
 manifest
-"
 files
 to
 differ
@@ -1596,11 +1594,9 @@ their
 order
 and
 unifies
-"
 buildconfig
 .
 html
-"
     
 files
 by

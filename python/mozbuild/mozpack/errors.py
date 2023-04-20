@@ -98,21 +98,24 @@ following
     
 functions
 :
-        
+      
+-
 errors
 .
 warn
 (
 message
 )
-        
+      
+-
 errors
 .
 error
 (
 message
 )
-        
+      
+-
 errors
 .
 fatal
@@ -164,7 +167,8 @@ ignored
 by
 calling
 :
-        
+      
+-
 errors
 .
 ignore_errors
@@ -231,6 +235,15 @@ a
 context
 manager
 :
+    
+.
+.
+code
+-
+block
+:
+:
+python
         
 with
 errors
@@ -260,6 +273,15 @@ errors
 context
 calls
 :
+    
+.
+.
+code
+-
+block
+:
+:
+python
         
 with
 errors
@@ -302,6 +324,15 @@ for
 function
 calls
 :
+    
+.
+.
+code
+-
+block
+:
+:
+python
         
 def
 func
@@ -315,7 +346,7 @@ warn
 (
 message
 )
-        
+            
 with
 errors
 .
@@ -325,7 +356,7 @@ filename
 linenumber
 )
 :
-            
+                
 func
 (
 )
@@ -372,6 +403,15 @@ a
 context
 manager
 :
+    
+.
+.
+code
+-
+block
+:
+:
+python
         
 with
 errors

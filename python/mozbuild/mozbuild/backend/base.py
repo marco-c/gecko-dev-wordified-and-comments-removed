@@ -1593,10 +1593,8 @@ an
 exception
 is
 raised
-|
 mach
 build
-|
 will
 fail
 with

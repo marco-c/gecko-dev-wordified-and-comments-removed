@@ -57,15 +57,18 @@ file
 and
 replacing
 some
+*
 #
 define
 /
 #
 undef
+*
     
 occurences
 :
-        
+      
+-
 "
 #
 undef
@@ -80,7 +83,8 @@ define
 NAME
 VALUE
 "
-        
+      
+-
 "
 #
 define
@@ -88,7 +92,8 @@ NAME
 "
 is
 unchanged
-        
+      
+-
 "
 #
 define
@@ -104,7 +109,8 @@ define
 NAME
 VALUE
 "
-        
+      
+-
 "
 #
 undef
@@ -122,7 +128,8 @@ UNKNOWN_NAME
 *
 /
 "
-        
+      
+-
 Whitespaces
 are
 preserved

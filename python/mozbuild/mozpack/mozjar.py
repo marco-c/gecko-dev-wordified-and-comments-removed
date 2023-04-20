@@ -206,6 +206,15 @@ field
     
 For
 example
+    
+.
+.
+code
+-
+block
+:
+:
+python
         
 STRUCT
 =
@@ -311,14 +320,16 @@ have
 two
 attributes
 :
-        
+      
+-
 obj
 [
 '
 version
 '
 ]
-        
+      
+-
 obj
 [
 '

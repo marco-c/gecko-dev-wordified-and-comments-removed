@@ -270,7 +270,7 @@ is
 identified
 by
 :
-        
+    
 -
 the
 file
@@ -281,7 +281,7 @@ OS
 2
 and
 WINNT
-        
+    
 -
 the
 file
@@ -299,7 +299,6 @@ GNU
 Linux
 Android
 BSD
-          
 Solaris
 )
     

@@ -10,11 +10,9 @@ directories
 and
 perform
 partial
-|
 mach
 build
 faster
-|
 builds
 .
 "

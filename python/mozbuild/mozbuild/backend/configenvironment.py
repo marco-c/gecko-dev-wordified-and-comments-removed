@@ -454,7 +454,6 @@ AC_DEFINE
 and
 AC_DEFINE_UNQUOTED
 in
-        
 autoconf
 .
       
@@ -558,6 +557,7 @@ mk
 It
 includes
 ACDEFINES
+.
         
 Only
 substs
@@ -615,7 +615,6 @@ value
 in
 the
 form
-        
 NAME
 =
 .
@@ -2216,7 +2215,7 @@ dictionary
 .
 This
 is
-      
+        
 intended
 to
 be
@@ -2231,7 +2230,7 @@ config
 .
 status
 so
-      
+        
 that
 scripts
 can

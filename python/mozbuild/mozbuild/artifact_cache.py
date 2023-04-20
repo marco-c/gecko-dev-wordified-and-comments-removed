@@ -310,7 +310,7 @@ we
 want
 here
 :
-    
+      
 -
 We
 have
@@ -328,7 +328,7 @@ t
 want
 purged
 .
-    
+      
 -
 Files
 that
@@ -343,9 +343,9 @@ shouldn
 '
 t
 be
+        
 purged
 .
-      
 (
 if
 for
@@ -359,9 +359,9 @@ more
 than
 the
 default
+        
 max
 size
-       
 we
 don
 '
