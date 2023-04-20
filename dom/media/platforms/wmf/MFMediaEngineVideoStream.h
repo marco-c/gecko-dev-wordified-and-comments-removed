@@ -180,9 +180,6 @@ MediaData
 >
 OutputData
 (
-MediaRawData
-*
-aSample
 )
 override
 ;

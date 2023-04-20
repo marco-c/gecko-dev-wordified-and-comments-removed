@@ -427,9 +427,6 @@ MediaData
 >
 OutputData
 (
-MediaRawData
-*
-aSample
 )
 {
 return
@@ -611,7 +608,13 @@ MediaQueue
 <
 MediaRawData
 >
-mRawDataQueue
+mRawDataQueueForFeedingEngine
+;
+MediaQueue
+<
+MediaRawData
+>
+mRawDataQueueForGeneratingOutput
 ;
 std
 :
