@@ -7776,6 +7776,12 @@ PropertiesFile
 aFile
 )
 ;
+static
+void
+RequestGeckoTaskBurst
+(
+)
+;
 private
 :
 static
