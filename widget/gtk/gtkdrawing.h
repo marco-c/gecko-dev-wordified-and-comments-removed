@@ -599,17 +599,6 @@ indicator_spacing
 )
 ;
 gint
-moz_gtk_get_focus_outline_size
-(
-gint
-*
-focus_h_width
-gint
-*
-focus_v_width
-)
-;
-gint
 moz_gtk_menuitem_get_horizontal_padding
 (
 gint
