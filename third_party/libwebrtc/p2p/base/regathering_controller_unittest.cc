@@ -229,6 +229,12 @@ kIcePwd
 TESTICEPWD00000000000000
 "
 ;
+constexpr
+uint64_t
+kTiebreakerDefault
+=
+44444
+;
 }
 namespace
 webrtc
@@ -345,6 +351,14 @@ get
 )
 )
 {
+allocator_
+-
+>
+SetIceTiebreaker
+(
+kTiebreakerDefault
+)
+;
 BasicRegatheringController
 :
 :
