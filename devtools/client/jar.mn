@@ -6601,6 +6601,8 @@ performance
 -
 new
 /
+panel
+/
 index
 .
 xhtml
@@ -6608,6 +6610,8 @@ xhtml
 performance
 -
 new
+/
+panel
 /
 index
 .

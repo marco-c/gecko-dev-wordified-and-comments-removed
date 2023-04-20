@@ -246,6 +246,8 @@ performance
 new
 /
 panel
+/
+panel
 .
 js
 "
@@ -1528,6 +1530,8 @@ content
 performance
 -
 new
+/
+panel
 /
 index
 .

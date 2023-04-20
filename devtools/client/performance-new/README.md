@@ -232,6 +232,8 @@ performance
 -
 new
 /
+panel
+/
 initializer
 .
 js
