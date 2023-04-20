@@ -768,6 +768,17 @@ x86_c_lib
 "
 )
 ;
+static_libs
+.
+push
+(
+"
+sha
+-
+x86_c_lib
+"
+)
+;
 }
 if
 target_arch
