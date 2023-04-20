@@ -3493,7 +3493,12 @@ false
 auto
 stencil
 =
-cx
+ec
+-
+>
+getAllocator
+(
+)
 -
 >
 make_unique
