@@ -118,10 +118,7 @@ abortsignal
 [
 Exposed
 =
-(
-Window
-Worker
-)
+*
 ]
 interface
 AbortSignal
