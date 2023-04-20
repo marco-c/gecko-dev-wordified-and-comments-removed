@@ -63745,7 +63745,7 @@ jit
 :
 JitOptions
 .
-traceRegExpParser
+trace_regexp_parser
 =
 true
 ;
@@ -63771,7 +63771,7 @@ jit
 :
 JitOptions
 .
-traceRegExpAssembler
+trace_regexp_assembler
 =
 true
 ;
@@ -63797,7 +63797,7 @@ jit
 :
 JitOptions
 .
-traceRegExpInterpreter
+trace_regexp_bytecodes
 =
 true
 ;
@@ -63823,7 +63823,7 @@ jit
 :
 JitOptions
 .
-traceRegExpPeephole
+trace_regexp_peephole_optimization
 =
 true
 ;
