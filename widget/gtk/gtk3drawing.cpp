@@ -2375,7 +2375,7 @@ style
 state
 -
 >
-scale
+image_scale
 )
 ;
 gtk_style_context_set_state
@@ -2745,7 +2745,7 @@ iconWidget
 state
 -
 >
-scale
+image_scale
 )
 ;
 if
@@ -2781,7 +2781,7 @@ style
 state
 -
 >
-scale
+image_scale
 )
 ;
 gtk_style_context_set_state
@@ -3044,7 +3044,7 @@ MOZ_GTK_CHECKBUTTON
 state
 -
 >
-scale
+image_scale
 direction
 state_flags
 )
@@ -3987,7 +3987,7 @@ MOZ_GTK_SPINBUTTON
 state
 -
 >
-scale
+image_scale
 direction
 GetStateFlagsFromGtkWidgetState
 (
@@ -4174,7 +4174,7 @@ MOZ_GTK_SPINBUTTON
 state
 -
 >
-scale
+image_scale
 direction
 )
 ;
@@ -4255,7 +4255,7 @@ MOZ_GTK_SPINBUTTON
 state
 -
 >
-scale
+image_scale
 direction
 GetStateFlagsFromGtkWidgetState
 (
@@ -4475,7 +4475,7 @@ widget
 state
 -
 >
-scale
+image_scale
 direction
 state_flags
 )
@@ -4812,7 +4812,7 @@ widget
 state
 -
 >
-scale
+image_scale
 direction
 state_flags
 )
@@ -4859,7 +4859,7 @@ MOZ_GTK_GRIPPER
 state
 -
 >
-scale
+image_scale
 direction
 GetStateFlagsFromGtkWidgetState
 (
@@ -4940,7 +4940,7 @@ MOZ_GTK_SPLITTER_SEPARATOR_HORIZONTAL
 state
 -
 >
-scale
+image_scale
 GTK_TEXT_DIR_LTR
 GetStateFlagsFromGtkWidgetState
 (
@@ -4999,7 +4999,7 @@ MOZ_GTK_SPLITTER_SEPARATOR_VERTICAL
 state
 -
 >
-scale
+image_scale
 GTK_TEXT_DIR_LTR
 GetStateFlagsFromGtkWidgetState
 (
@@ -5223,7 +5223,7 @@ MOZ_GTK_SCROLLED_WINDOW
 state
 -
 >
-scale
+image_scale
 direction
 state_flags
 )
@@ -5273,7 +5273,7 @@ MOZ_GTK_TEXT_VIEW
 state
 -
 >
-scale
+image_scale
 direction
 state_flags
 )
@@ -5304,7 +5304,7 @@ MOZ_GTK_TEXT_VIEW_TEXT
 state
 -
 >
-scale
+image_scale
 direction
 state_flags
 )
@@ -5385,7 +5385,7 @@ MOZ_GTK_SCROLLED_WINDOW
 state
 -
 >
-scale
+image_scale
 direction
 )
 ;
@@ -5417,7 +5417,7 @@ MOZ_GTK_TREEVIEW_VIEW
 state
 -
 >
-scale
+image_scale
 direction
 )
 ;
@@ -5463,7 +5463,7 @@ MOZ_GTK_SCROLLED_WINDOW
 state
 -
 >
-scale
+image_scale
 direction
 )
 ;
@@ -5623,7 +5623,7 @@ MOZ_GTK_TREE_HEADER_SORTARROW
 state
 -
 >
-scale
+image_scale
 direction
 GetStateFlagsFromGtkWidgetState
 (
@@ -5813,7 +5813,7 @@ MOZ_GTK_TREEVIEW_EXPANDER
 state
 -
 >
-scale
+image_scale
 direction
 state_flags
 )
@@ -5976,7 +5976,7 @@ MOZ_GTK_COMBOBOX_ARROW
 state
 -
 >
-scale
+image_scale
 )
 ;
 gtk_render_arrow
@@ -6025,7 +6025,7 @@ style
 state
 -
 >
-scale
+image_scale
 )
 ;
 gtk_style_context_get_style
@@ -6312,7 +6312,7 @@ MOZ_GTK_BUTTON_ARROW
 state
 -
 >
-scale
+image_scale
 direction
 state_flags
 )
@@ -6424,7 +6424,7 @@ style
 state
 -
 >
-scale
+image_scale
 )
 ;
 gtk_style_context_get_style
@@ -6487,7 +6487,7 @@ MOZ_GTK_COMBOBOX_ENTRY_ARROW
 state
 -
 >
-scale
+image_scale
 )
 ;
 gtk_render_arrow
@@ -6547,7 +6547,7 @@ widget_type
 state
 -
 >
-scale
+image_scale
 direction
 state_flags
 )
@@ -6630,7 +6630,7 @@ MOZ_GTK_CHECKBUTTON_CONTAINER
 state
 -
 >
-scale
+image_scale
 direction
 GetStateFlagsFromGtkWidgetState
 (
@@ -6691,7 +6691,7 @@ MOZ_GTK_TOOLBAR
 state
 -
 >
-scale
+image_scale
 direction
 )
 ;
@@ -6795,7 +6795,7 @@ MOZ_GTK_TOOLBAR
 state
 -
 >
-scale
+image_scale
 )
 ;
 gtk_style_context_get_style
@@ -6826,7 +6826,7 @@ MOZ_GTK_TOOLBAR_SEPARATOR
 state
 -
 >
-scale
+image_scale
 direction
 )
 ;
@@ -7024,7 +7024,7 @@ MOZ_GTK_TOOLTIP
 state
 -
 >
-scale
+image_scale
 direction
 )
 ;
@@ -7080,7 +7080,7 @@ MOZ_GTK_TOOLTIP_BOX
 state
 -
 >
-scale
+image_scale
 direction
 )
 ;
@@ -7172,7 +7172,7 @@ MOZ_GTK_TOOLTIP_BOX_LABEL
 state
 -
 >
-scale
+image_scale
 direction
 )
 ;
@@ -7216,7 +7216,7 @@ MOZ_GTK_RESIZER
 state
 -
 >
-scale
+image_scale
 GTK_TEXT_DIR_LTR
 GetStateFlagsFromGtkWidgetState
 (
@@ -7333,7 +7333,7 @@ MOZ_GTK_FRAME
 state
 -
 >
-scale
+image_scale
 direction
 )
 ;
@@ -7390,7 +7390,7 @@ MOZ_GTK_PROGRESS_TROUGH
 state
 -
 >
-scale
+image_scale
 direction
 )
 ;
@@ -7471,7 +7471,7 @@ MOZ_GTK_PROGRESS_CHUNK
 state
 -
 >
-scale
+image_scale
 direction
 )
 ;
@@ -7814,7 +7814,7 @@ widget
 state
 -
 >
-scale
+image_scale
 direction
 GetStateFlagsFromGtkTabFlags
 (
@@ -7989,7 +7989,7 @@ MOZ_GTK_TABPANELS
 state
 -
 >
-scale
+image_scale
 direction
 )
 ;
@@ -8438,7 +8438,7 @@ MOZ_GTK_TABPANELS
 state
 -
 >
-scale
+image_scale
 direction
 )
 ;
@@ -8785,7 +8785,7 @@ MOZ_GTK_TAB_SCROLLARROW
 state
 -
 >
-scale
+image_scale
 direction
 GetStateFlagsFromGtkWidgetState
 (
@@ -8868,7 +8868,7 @@ style
 state
 -
 >
-scale
+image_scale
 )
 ;
 gtk_render_background
@@ -8991,7 +8991,7 @@ style
 state
 -
 >
-scale
+image_scale
 )
 ;
 gtk_render_background
@@ -9119,7 +9119,7 @@ MOZ_GTK_MENUSEPARATOR
 state
 -
 >
-scale
+image_scale
 direction
 )
 ;
@@ -9335,7 +9335,7 @@ widget
 state
 -
 >
-scale
+image_scale
 direction
 state_flags
 )
@@ -9468,7 +9468,7 @@ MOZ_GTK_MENUITEM
 state
 -
 >
-scale
+image_scale
 direction
 state_flags
 )
@@ -9593,7 +9593,7 @@ widgetType
 state
 -
 >
-scale
+image_scale
 direction
 )
 ;
@@ -9711,7 +9711,7 @@ indicatorType
 state
 -
 >
-scale
+image_scale
 direction
 state_flags
 )
@@ -9939,7 +9939,7 @@ widgetType
 state
 -
 >
-scale
+image_scale
 GTK_TEXT_DIR_NONE
 state_flags
 )
@@ -9972,7 +9972,7 @@ containerType
 state
 -
 >
-scale
+image_scale
 GTK_TEXT_DIR_NONE
 state_flags
 )
@@ -10012,7 +10012,7 @@ MOZ_GTK_HEADERBAR_WINDOW
 state
 -
 >
-scale
+image_scale
 )
 ;
 const
@@ -10043,7 +10043,7 @@ MOZ_GTK_WINDOW_DECORATION
 state
 -
 >
-scale
+image_scale
 GTK_TEXT_DIR_LTR
 state_flags
 )
@@ -13153,7 +13153,7 @@ MOZ_GTK_SPINBUTTON_ENTRY
 state
 -
 >
-scale
+image_scale
 direction
 GetStateFlagsFromGtkWidgetState
 (
@@ -13258,7 +13258,7 @@ widget
 state
 -
 >
-scale
+image_scale
 direction
 GetStateFlagsFromGtkWidgetState
 (

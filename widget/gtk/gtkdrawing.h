@@ -73,7 +73,7 @@ gint32
 maxpos
 ;
 gint32
-scale
+image_scale
 ;
 }
 GtkWidgetState
