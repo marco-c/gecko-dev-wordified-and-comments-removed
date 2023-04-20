@@ -152,7 +152,7 @@ JS
 loader
 :
 :
-LoadContextCCBase
+LoadContextBase
 )
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
@@ -167,7 +167,7 @@ JS
 loader
 :
 :
-LoadContextCCBase
+LoadContextBase
 )
 if
 (
@@ -211,7 +211,7 @@ JS
 loader
 :
 :
-LoadContextCCBase
+LoadContextBase
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -227,7 +227,7 @@ JS
 loader
 :
 :
-LoadContextCCBase
+LoadContextBase
 )
 NS_IMPL_RELEASE_INHERITED
 (
@@ -238,7 +238,7 @@ JS
 loader
 :
 :
-LoadContextCCBase
+LoadContextBase
 )
 ScriptLoadContext
 :
@@ -253,7 +253,7 @@ JS
 loader
 :
 :
-LoadContextCCBase
+LoadContextBase
 (
 JS
 :
