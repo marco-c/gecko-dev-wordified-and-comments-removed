@@ -43,9 +43,6 @@ from
 .
 .
 /
-.
-.
-/
 source
 -
 maps

@@ -1131,11 +1131,15 @@ await
 getOriginalLocation
 (
 generatedLocation
+{
+sourceMapLoader
+:
 this
 .
 toolbox
 .
 sourceMapLoader
+}
 )
 ;
 await
