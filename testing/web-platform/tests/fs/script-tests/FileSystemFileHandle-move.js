@@ -937,7 +937,7 @@ promise_rejects_dom
 (
 t
 '
-NoModificationAllowedError
+InvalidModificationError
 '
 handle
 .
@@ -2944,7 +2944,7 @@ promise_rejects_dom
 (
 t
 '
-NoModificationAllowedError
+InvalidModificationError
 '
 file
 .
@@ -3158,7 +3158,7 @@ promise_rejects_dom
 (
 t
 '
-NoModificationAllowedError
+InvalidModificationError
 '
 file
 .
