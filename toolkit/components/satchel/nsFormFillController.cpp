@@ -3235,7 +3235,10 @@ datalistResult
 ;
 if
 (
+IsTextControl
+(
 mFocusedInput
+)
 )
 {
 rv
