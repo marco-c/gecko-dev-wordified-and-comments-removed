@@ -46,7 +46,9 @@ parserOptions
 {
 ecmaVersion
 :
-6
+"
+latest
+"
 }
 }
 )
