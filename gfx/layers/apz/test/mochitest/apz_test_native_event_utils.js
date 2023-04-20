@@ -6760,7 +6760,7 @@ PHASE_END
 promiseNativePanEvent
 :
 promiseNativeTouchpadPanEventAndWaitForObserver
-deltaOnRTL
+delta
 :
 -
 50
@@ -6794,7 +6794,7 @@ PHASE_END
 promiseNativePanEvent
 :
 promiseNativeTouchpadPanEventAndWaitForObserver
-deltaOnRTL
+delta
 :
 50
 }
@@ -6815,7 +6815,7 @@ endPhase
 promiseNativePanEvent
 :
 promiseNativePanGestureEventAndWaitForObserver
-deltaOnRTL
+delta
 :
 -
 50
@@ -6938,7 +6938,7 @@ aX
 aY
 NativePanHandler
 .
-deltaOnRTL
+delta
 *
 aMultiplier
 0
@@ -6957,7 +6957,9 @@ aX
 aY
 NativePanHandler
 .
-deltaOnRTL
+delta
+*
+aMultiplier
 0
 NativePanHandler
 .
@@ -6974,7 +6976,7 @@ aX
 aY
 NativePanHandler
 .
-deltaOnRTL
+delta
 *
 aMultiplier
 0
@@ -7058,7 +7060,7 @@ aY
 -
 NativePanHandler
 .
-deltaOnRTL
+delta
 *
 aMultiplier
 0
@@ -7089,7 +7091,7 @@ aY
 -
 NativePanHandler
 .
-deltaOnRTL
+delta
 *
 aMultiplier
 0
@@ -7109,7 +7111,7 @@ aY
 -
 NativePanHandler
 .
-deltaOnRTL
+delta
 *
 aMultiplier
 0
