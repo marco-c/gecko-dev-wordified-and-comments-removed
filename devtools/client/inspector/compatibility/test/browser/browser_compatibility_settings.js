@@ -14,9 +14,11 @@ body
 -
 moz
 -
-binding
+outline
+-
+radius
 :
-none
+25px
 ;
 }
 div
@@ -24,9 +26,11 @@ div
 -
 moz
 -
-binding
+outline
+-
+radius
 :
-none
+25px
 ;
 }
 <
