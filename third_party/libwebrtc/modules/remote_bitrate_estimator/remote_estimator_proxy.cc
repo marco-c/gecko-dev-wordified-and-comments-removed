@@ -1415,12 +1415,8 @@ seq
 if
 (
 arrival_time
-=
-=
-Timestamp
-:
-:
-Zero
+.
+IsInfinite
 (
 )
 )

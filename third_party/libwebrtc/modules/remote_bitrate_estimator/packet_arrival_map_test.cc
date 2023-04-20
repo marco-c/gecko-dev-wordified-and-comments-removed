@@ -214,9 +214,8 @@ AddPacket
 Timestamp
 :
 :
-Millis
+Zero
 (
-10
 )
 )
 ;
@@ -325,13 +324,12 @@ get
 Timestamp
 :
 :
-Millis
+Zero
 (
-10
 )
 )
 ;
-EXPECT_EQ
+EXPECT_LT
 (
 map
 .
@@ -347,7 +345,7 @@ Zero
 )
 )
 ;
-EXPECT_EQ
+EXPECT_LT
 (
 map
 .
