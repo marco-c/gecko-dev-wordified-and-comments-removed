@@ -1,8 +1,0 @@
-HRESULT
-GetAcceptLanguages
-(
-LPTSTR
-DWORD
-*
-)
-;
