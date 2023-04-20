@@ -81,6 +81,7 @@ toctree
 maxdepth
 :
 1
+Architecture
 DocumentAccessibilityLifecycle
 GeckoViewThreadTopography
 ColorsAndHighContrastMode
