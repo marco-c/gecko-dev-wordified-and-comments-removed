@@ -1643,6 +1643,16 @@ getType
 ccNumber
 )
 {
+if
+(
+!
+ccNumber
+)
+{
+return
+null
+;
+}
 for
 (
 let
