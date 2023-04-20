@@ -1646,6 +1646,13 @@ jsms
 [
 ]
         
+path
+=
+path_sep_from_native
+(
+path
+)
+        
 cmd
 =
 [
@@ -1809,6 +1816,13 @@ jss
 =
 [
 ]
+        
+path
+=
+path_sep_from_native
+(
+path
+)
         
 cmd
 =
