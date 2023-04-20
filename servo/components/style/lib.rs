@@ -273,6 +273,10 @@ pub
 mod
 bloom
 ;
+pub
+mod
+color
+;
 #
 [
 path

@@ -65,11 +65,13 @@ AbsoluteColor
 AngleOrNumber
 Color
 ColorComponentParser
+ColorFunction
 Lab
 Lch
 NumberOrPercentage
 Oklab
 Oklch
+PredefinedColorSpace
 RGBA
 }
 ;
