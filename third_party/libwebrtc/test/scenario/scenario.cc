@@ -1716,16 +1716,7 @@ task_queue_
 .
 PostDelayedTask
 (
-ToQueuedTask
-(
-std
-:
-:
-move
-(
 function
-)
-)
 TimeUntilTarget
 (
 offset

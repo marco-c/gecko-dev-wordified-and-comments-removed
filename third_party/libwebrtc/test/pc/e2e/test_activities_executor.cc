@@ -582,8 +582,6 @@ task_queue_
 >
 PostDelayedTask
 (
-ToQueuedTask
-(
 [
 activity
 start_time
@@ -604,7 +602,6 @@ start_time
 )
 ;
 }
-)
 remaining_delay
 .
 ms

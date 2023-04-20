@@ -1641,8 +1641,6 @@ task_queue_
 PostDelayedTaskWithPrecision
 (
 precision
-ToQueuedTask
-(
 [
 this
 next_send_time
@@ -1656,7 +1654,6 @@ next_send_time
 )
 ;
 }
-)
 time_to_next_process
 .
 RoundUpTo

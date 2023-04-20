@@ -334,8 +334,6 @@ task_queue_
 >
 PostDelayedHighPrecisionTask
 (
-ToQueuedTask
-(
 [
 frame
 this
@@ -357,7 +355,6 @@ copy
 )
 ;
 }
-)
 decode_delay_ms_
 )
 ;

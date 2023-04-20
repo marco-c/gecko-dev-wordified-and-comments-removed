@@ -1024,16 +1024,7 @@ task_queue_
 >
 PostDelayedTask
 (
-ToQueuedTask
-(
-std
-:
-:
-move
-(
 output_task
-)
-)
 delay
 )
 ;

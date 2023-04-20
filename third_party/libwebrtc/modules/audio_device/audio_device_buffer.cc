@@ -2384,8 +2384,6 @@ task_queue_
 .
 PostDelayedTask
 (
-ToQueuedTask
-(
 [
 this
 ]
@@ -2402,7 +2400,6 @@ LOG_ACTIVE
 )
 ;
 }
-)
 time_to_wait_ms
 )
 ;
