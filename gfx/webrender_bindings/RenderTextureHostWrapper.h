@@ -114,6 +114,13 @@ AsRenderDcompSurfaceTextureHost
 )
 override
 ;
+RenderTextureHostSWGL
+*
+AsRenderTextureHostSWGL
+(
+)
+override
+;
 size_t
 GetPlaneCount
 (
