@@ -1118,14 +1118,6 @@ hostTab
 ?
 .
 ownerGlobal
-|
-|
-this
-.
-options
-?
-.
-browserContentToolboxOpener
 ;
 if
 (
