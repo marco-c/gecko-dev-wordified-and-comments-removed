@@ -1471,7 +1471,7 @@ GetScrolledRect
 const
 ;
 nsRect
-GetScrolledRectInternal
+GetUnsnappedScrolledRectInternal
 (
 const
 nsRect
