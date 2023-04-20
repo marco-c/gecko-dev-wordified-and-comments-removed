@@ -13067,7 +13067,7 @@ monitor
 .
 enabled
 "
-true
+false
 )
 ;
 pref
