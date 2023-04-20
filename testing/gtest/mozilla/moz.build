@@ -107,6 +107,11 @@ MozAssertions
 .
 h
 "
+"
+MozHelpers
+.
+h
+"
 ]
 SOURCES
 +
@@ -124,6 +129,11 @@ cpp
 "
 "
 MozGTestBench
+.
+cpp
+"
+"
+MozHelpers
 .
 cpp
 "
