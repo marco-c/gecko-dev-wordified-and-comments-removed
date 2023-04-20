@@ -5699,8 +5699,6 @@ assert_eq
 !
 (
 n
-as
-i32
 upload_manager
 .
 upload_metrics

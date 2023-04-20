@@ -42,6 +42,9 @@ type
 Result
 <
 T
+E
+=
+Error
 >
 =
 result
@@ -50,7 +53,7 @@ result
 Result
 <
 T
-Error
+E
 >
 ;
 #
