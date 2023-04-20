@@ -109,7 +109,7 @@ version
 "
 1
 .
-38
+39
 "
 name
 =
@@ -123,7 +123,7 @@ version
 .
 0
 .
-62
+68
 "
 authors
 =
@@ -265,6 +265,16 @@ doc_cfg
 "
 ]
 [
+lib
+]
+doc
+-
+scrape
+-
+examples
+=
+false
+[
 dependencies
 .
 backtrace
@@ -365,7 +375,7 @@ version
 .
 0
 .
-49
+66
 "
 features
 =

@@ -264,6 +264,8 @@ io
 /
 github
 /
+actions
+/
 workflow
 /
 status
@@ -272,10 +274,14 @@ dtolnay
 /
 anyhow
 /
-CI
-/
-master
+ci
+.
+yml
 ?
+branch
+=
+master
+&
 style
 =
 for
@@ -383,7 +389,7 @@ requires
 rustc
 1
 .
-38
+39
 +
 *
 <

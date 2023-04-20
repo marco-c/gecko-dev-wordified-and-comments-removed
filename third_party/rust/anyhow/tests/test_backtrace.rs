@@ -1,14 +1,4 @@
 #
-!
-[
-cfg
-(
-any
-(
-)
-)
-]
-#
 [
 rustversion
 :
