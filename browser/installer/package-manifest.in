@@ -869,13 +869,6 @@ RESPATH
 /
 components
 /
-toolkitsearch
-.
-manifest
-RESPATH
-/
-components
-/
 extensions
 .
 manifest
