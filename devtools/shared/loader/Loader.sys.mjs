@@ -1285,6 +1285,14 @@ this
 .
 id
 ;
+globals
+.
+loader
+.
+invisibleToDebugger
+=
+invisibleToDebugger
+;
 /
 /
 Expose
