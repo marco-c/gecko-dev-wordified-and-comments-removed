@@ -406,6 +406,9 @@ t
 >
 hello
 worlf
+i
+love
+you
 <
 /
 textarea
@@ -501,7 +504,7 @@ attributedText
 length
 !
 =
-2
+3
 )
 {
 spellDone
