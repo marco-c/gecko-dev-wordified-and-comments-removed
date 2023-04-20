@@ -61,11 +61,12 @@ color
 hsl_to_rgb
 hwb_to_rgb
 parse_color_keyword
-AbsoluteColor
+parse_color_with
 AngleOrNumber
 Color
-ColorComponentParser
 ColorFunction
+ColorParser
+FromParsedColor
 Lab
 Lch
 NumberOrPercentage
