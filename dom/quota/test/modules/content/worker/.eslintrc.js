@@ -37,11 +37,6 @@ Utils
 .
 js
 "
-"
-UtilsChild
-.
-js
-"
 ]
 parserOptions
 :
