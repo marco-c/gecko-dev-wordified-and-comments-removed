@@ -146,13 +146,6 @@ packet
 )
 override
 ;
-Stats
-GetStats
-(
-)
-const
-override
-;
 void
 SetRtpExtensions
 (
