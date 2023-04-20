@@ -1146,6 +1146,8 @@ IPDLTestHelper
 :
 TestWrapper
 (
+bool
+aCrossProcess
 )
 {
 RefPtr
@@ -1154,15 +1156,7 @@ IPDLUnitTestParent
 >
 host
 =
-GetTestMode
-(
-)
-=
-=
-TestMode
-:
-:
-CrossProcess
+aCrossProcess
 ?
 IPDLUnitTestParent
 :
