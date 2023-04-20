@@ -529,6 +529,12 @@ blockingPromises
 [
 ]
 ;
+unsigned
+long
+failNextAfter
+=
+4294967295
+;
 }
 ;
 [
