@@ -1243,6 +1243,16 @@ Legacy
 ;
 enum
 class
+StyleMozBoxCollapse
+:
+uint8_t
+{
+Flex
+Legacy
+}
+;
+enum
+class
 StyleTextCombineUpright
 :
 uint8_t
