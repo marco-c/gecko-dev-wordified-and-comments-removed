@@ -953,6 +953,13 @@ EXPECT_FALSE
 (
 config
 .
+avg_frame_size_median
+)
+;
+EXPECT_FALSE
+(
+config
+.
 max_frame_size_percentile
 .
 has_value
@@ -964,7 +971,7 @@ EXPECT_FALSE
 (
 config
 .
-max_frame_size_window
+frame_size_window
 .
 has_value
 (
@@ -1026,6 +1033,11 @@ JitterEstimatorConfig
 /
 "
 "
+avg_frame_size_median
+:
+true
+"
+"
 max_frame_size_percentile
 :
 0
@@ -1033,7 +1045,7 @@ max_frame_size_percentile
 9
 "
 "
-max_frame_size_window
+frame_size_window
 :
 30
 "
@@ -1087,6 +1099,13 @@ GetConfigForTest
 (
 )
 ;
+EXPECT_TRUE
+(
+config
+.
+avg_frame_size_median
+)
+;
 EXPECT_EQ
 (
 *
@@ -1103,7 +1122,7 @@ EXPECT_EQ
 *
 config
 .
-max_frame_size_window
+frame_size_window
 30
 )
 ;
