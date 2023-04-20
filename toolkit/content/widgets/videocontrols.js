@@ -10089,7 +10089,7 @@ videocontrolsWidth
 0
 scrubberWidth
 :
-0
+Infinity
 }
 updateReflowedDimensions
 (
