@@ -19373,9 +19373,10 @@ RecordCorrespondence
 this
 )
 ;
-nsTArray
+AutoTArray
 <
 nsPoint
+64
 >
 charPositions
 ;
@@ -19492,9 +19493,10 @@ adjustingTextLength
 false
 ;
 }
-nsTArray
+AutoTArray
 <
 gfxPoint
+16
 >
 deltas
 ;
