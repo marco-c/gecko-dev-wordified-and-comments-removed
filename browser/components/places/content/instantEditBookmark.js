@@ -6404,6 +6404,15 @@ break
 ;
 }
 }
+get
+delayedApplyEnabled
+(
+)
+{
+return
+false
+;
+}
 }
 ;
 XPCOMUtils
