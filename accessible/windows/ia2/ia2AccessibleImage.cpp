@@ -15,7 +15,7 @@ c
 #
 include
 "
-ImageAccessibleWrap
+ImageAccessible
 .
 h
 "

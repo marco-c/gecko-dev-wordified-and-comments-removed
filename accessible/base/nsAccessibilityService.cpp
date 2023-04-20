@@ -22,7 +22,7 @@ h
 #
 include
 "
-ARIAGridAccessibleWrap
+ARIAGridAccessible
 .
 h
 "
@@ -101,7 +101,7 @@ h
 #
 include
 "
-HTMLTableAccessibleWrap
+HTMLTableAccessible
 .
 h
 "
@@ -232,7 +232,7 @@ h
 #
 include
 "
-TextLeafAccessibleWrap
+TextLeafAccessible
 .
 h
 "
@@ -500,14 +500,14 @@ h
 #
 include
 "
-XULListboxAccessibleWrap
+XULListboxAccessible
 .
 h
 "
 #
 include
 "
-XULMenuAccessibleWrap
+XULMenuAccessible
 .
 h
 "
@@ -521,7 +521,7 @@ h
 #
 include
 "
-XULTreeGridAccessibleWrap
+XULTreeGridAccessible
 .
 h
 "
@@ -6243,7 +6243,7 @@ IsTableRow
 newAcc
 =
 new
-ARIAGridCellAccessibleWrap
+ARIAGridCellAccessible
 (
 content
 document
@@ -6357,7 +6357,7 @@ eTable
 newAcc
 =
 new
-ARIAGridAccessibleWrap
+ARIAGridAccessible
 (
 content
 document
@@ -8209,7 +8209,7 @@ table
 newAcc
 =
 new
-HTMLTableAccessibleWrap
+HTMLTableAccessible
 (
 aContent
 document
@@ -8254,7 +8254,7 @@ IsHTMLTable
 newAcc
 =
 new
-HTMLTableCellAccessibleWrap
+HTMLTableCellAccessible
 (
 aContent
 document
@@ -8572,7 +8572,7 @@ document
 newAcc
 =
 new
-ImageAccessibleWrap
+ImageAccessible
 (
 aContent
 document
@@ -8601,7 +8601,7 @@ eTextLeafType
 newAcc
 =
 new
-TextLeafAccessibleWrap
+TextLeafAccessible
 (
 aContent
 document

@@ -1,7 +1,7 @@
 #
 include
 "
-XULTreeGridAccessibleWrap
+XULTreeGridAccessible
 .
 h
 "
@@ -1577,7 +1577,7 @@ XULTreeGridCellAccessible
 cell
 =
 new
-XULTreeGridCellAccessibleWrap
+XULTreeGridCellAccessible
 (
 mContent
 mDoc

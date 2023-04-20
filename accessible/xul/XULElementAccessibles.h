@@ -14,7 +14,7 @@ h
 #
 include
 "
-TextLeafAccessibleWrap
+TextLeafAccessible
 .
 h
 "
@@ -158,7 +158,7 @@ XULLabelTextLeafAccessible
 final
 :
 public
-TextLeafAccessibleWrap
+TextLeafAccessible
 {
 public
 :
@@ -172,7 +172,7 @@ DocAccessible
 aDoc
 )
 :
-TextLeafAccessibleWrap
+TextLeafAccessible
 (
 aContent
 aDoc

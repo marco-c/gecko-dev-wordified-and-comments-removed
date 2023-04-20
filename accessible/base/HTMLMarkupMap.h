@@ -1818,7 +1818,7 @@ eHTMLTableType
 {
 return
 new
-ARIAGridAccessibleWrap
+ARIAGridAccessible
 (
 aElement
 aContext
@@ -1919,7 +1919,7 @@ IsTableRowFrame
 {
 return
 new
-ARIAGridAccessibleWrap
+ARIAGridAccessible
 (
 aElement
 aContext
@@ -2046,7 +2046,7 @@ eHTMLTableCellType
 {
 return
 new
-ARIAGridCellAccessibleWrap
+ARIAGridCellAccessible
 (
 aElement
 aContext
@@ -2075,7 +2075,7 @@ scope
 {
 return
 new
-HTMLTableHeaderCellAccessibleWrap
+HTMLTableHeaderCellAccessible
 (
 aElement
 aContext
@@ -2185,7 +2185,7 @@ eHTMLTableCellType
 {
 return
 new
-ARIAGridCellAccessibleWrap
+ARIAGridCellAccessible
 (
 aElement
 aContext
@@ -2199,7 +2199,7 @@ Document
 }
 return
 new
-HTMLTableHeaderCellAccessibleWrap
+HTMLTableHeaderCellAccessible
 (
 aElement
 aContext
