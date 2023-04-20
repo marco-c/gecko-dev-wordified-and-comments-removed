@@ -933,6 +933,15 @@ Register
 next
 )
 ;
+void
+emitPostWriteBarrierElement
+(
+Register
+objreg
+Register
+index
+)
+;
 template
 <
 class

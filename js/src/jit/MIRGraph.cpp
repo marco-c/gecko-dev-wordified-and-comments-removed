@@ -2020,6 +2020,16 @@ return
 false
 ;
 }
+if
+(
+ins
+-
+>
+hasUses
+(
+)
+)
+{
 MPhi
 *
 phi
@@ -2169,6 +2179,7 @@ replaceProducer
 phi
 )
 ;
+}
 }
 }
 moveOuterResumePointTo

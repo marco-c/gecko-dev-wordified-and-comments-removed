@@ -22597,6 +22597,17 @@ bool
 hasOwn
 )
 ;
+void
+extractCurrentIndexAndKindFromIterator
+(
+Register
+iterator
+Register
+outIndex
+Register
+outKind
+)
+;
 #
 ifdef
 JS_CODEGEN_X86
