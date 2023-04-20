@@ -40,8 +40,7 @@ getBuildConfiguration
 simulator
 |
 |
-getBuildConfiguration
+!
+wasmMozIntGemmEnabled
 (
 )
-.
-release_or_beta
