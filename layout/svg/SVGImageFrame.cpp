@@ -35,6 +35,15 @@ include
 "
 mozilla
 /
+ComputedStyleInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 image
 /
 WebRenderImageProvider
