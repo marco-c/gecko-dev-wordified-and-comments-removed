@@ -4398,6 +4398,17 @@ else
                 
 )
                 
+extra_env
+[
+"
+MACH_VENDOR
+"
+]
+=
+"
+1
+"
+                
 self
 .
 run_process
