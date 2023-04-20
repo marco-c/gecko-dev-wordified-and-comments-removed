@@ -1283,17 +1283,6 @@ style
 "
 importableLearnMore
 "
-|
-|
-r
-.
-style
-=
-=
-=
-"
-generic
-"
 )
 {
 return
