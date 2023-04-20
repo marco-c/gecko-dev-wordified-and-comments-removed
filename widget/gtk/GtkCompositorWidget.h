@@ -489,6 +489,9 @@ Atomic
 bool
 >
 mIsRenderingSuspended
+{
+true
+}
 ;
 }
 ;

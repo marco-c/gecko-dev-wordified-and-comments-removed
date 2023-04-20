@@ -125,7 +125,10 @@ HeadlessWidget
 *
 mWidget
 ;
+DataMutex
+<
 LayoutDeviceIntSize
+>
 mClientSize
 ;
 }
