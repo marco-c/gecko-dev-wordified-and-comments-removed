@@ -866,9 +866,9 @@ this
 _window
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 DOMRequestHelper
@@ -925,9 +925,9 @@ this
 _window
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 DOMRequestHelper
