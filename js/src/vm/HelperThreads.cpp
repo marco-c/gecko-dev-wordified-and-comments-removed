@@ -6074,15 +6074,6 @@ this
 ec_
 )
 ;
-gc
-:
-:
-AutoSuppressNurseryCellAlloc
-noNurseryAlloc
-(
-cx
-)
-;
 using
 namespace
 js
