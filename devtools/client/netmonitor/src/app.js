@@ -364,7 +364,6 @@ SearchWorker
 start
 (
 SEARCH_WORKER_URL
-win
 )
 ;
 const
