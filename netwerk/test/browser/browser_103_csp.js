@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-lax_request_count_checking
+request_count_checking
 }
 =
 ChromeUtils
@@ -285,7 +285,7 @@ normal
 }
 ;
 await
-lax_request_count_checking
+request_count_checking
 (
 "
 test_preload_csp_imgsrc_none

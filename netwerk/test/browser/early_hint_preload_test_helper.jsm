@@ -8,7 +8,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-lax_request_count_checking
+request_count_checking
 "
 "
 test_hint_preload
@@ -90,7 +90,7 @@ browser
 ;
 async
 function
-lax_request_count_checking
+request_count_checking
 (
 testName
 got
@@ -117,7 +117,6 @@ stringify
 expected
 )
 ;
-await
 Assert
 .
 ok
@@ -125,7 +124,7 @@ ok
 got
 .
 hinted
-<
+=
 =
 expected
 .
@@ -141,8 +140,6 @@ hinted
 request
 made
 expected
-at
-most
 {
 expected
 .
@@ -172,12 +169,7 @@ expected_normal
 expected
 .
 normal
-+
-expected
-.
-hinted
 ;
-await
 Assert
 .
 ok
@@ -185,7 +177,7 @@ ok
 got
 .
 normal
-<
+=
 =
 expected_normal
 {
@@ -199,8 +191,6 @@ normal
 request
 made
 expected
-at
-most
 {
 expected_normal
 }
@@ -435,7 +425,7 @@ json
 )
 ;
 await
-lax_request_count_checking
+request_count_checking
 (
 testName
 gotRequestCount
