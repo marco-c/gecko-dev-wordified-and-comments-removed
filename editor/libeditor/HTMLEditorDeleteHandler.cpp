@@ -24885,6 +24885,12 @@ return
 result
 ;
 }
+trackStartOfRightBlock
+.
+FlushAndStopTracking
+(
+)
+;
 if
 (
 NS_WARN_IF
@@ -25017,6 +25023,12 @@ return
 result
 ;
 }
+trackStartOfRightBlock
+.
+FlushAndStopTracking
+(
+)
+;
 if
 (
 NS_WARN_IF
