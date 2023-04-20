@@ -1563,7 +1563,7 @@ setCurrentContext
 :
 [
 NSGraphicsContext
-graphicsContextWithGraphicsPort
+graphicsContextWithCGContext
 :
 ctx
 flipped
