@@ -70,13 +70,7 @@ of
 DOM
 nodes
 :
-{
-.
-brush
-:
-.
 js
-}
 var
 toolbarButtonCount
 =

@@ -943,7 +943,7 @@ path
 code
 :
 :
-svg
+html
 <
 path
 d
@@ -967,7 +967,7 @@ this
 code
 :
 :
-svg
+html
 <
 path
 d
@@ -988,7 +988,7 @@ polygon
 code
 :
 :
-svg
+html
 <
 polygon
 points
@@ -1015,7 +1015,7 @@ this
 code
 :
 :
-svg
+html
 <
 polygon
 points
@@ -2726,7 +2726,7 @@ example
 code
 :
 :
-svg
+xml
 <
 g
 transform
@@ -2769,7 +2769,7 @@ to
 code
 :
 :
-svg
+xml
 <
 shape
 transform

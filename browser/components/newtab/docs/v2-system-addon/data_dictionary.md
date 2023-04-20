@@ -1028,7 +1028,11 @@ application_menu
 }
 "
 }
-eval_rst
+{
+eval
+-
+rst
+}
 +
 -
 -
@@ -18590,7 +18594,11 @@ lib
 TelemetryFeed
 .
 jsm
-eval_rst
+{
+eval
+-
+rst
+}
 +
 -
 -

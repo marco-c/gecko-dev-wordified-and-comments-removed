@@ -228,7 +228,11 @@ the
 following
 properties
 :
-eval_rst
+{
+eval
+-
+rst
+}
 +
 -
 -

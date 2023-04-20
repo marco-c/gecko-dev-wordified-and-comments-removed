@@ -156,7 +156,7 @@ Cargo
 .
 toml
 :
-cargo
+ini
 [
 dependencies
 ]

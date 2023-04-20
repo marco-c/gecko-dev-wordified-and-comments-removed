@@ -2649,7 +2649,7 @@ this
 code
 :
 :
-xhtml
+html
 <
 ?
 xml

@@ -57,10 +57,9 @@ why
 and
 how
 .
+{
 warning
-:
-:
-|
+}
 This
 documentation
 page
@@ -114,8 +113,6 @@ and
 content
 process
 .
-|
-|
 This
 page
 will
@@ -234,6 +231,7 @@ the
 child
 process
 :
+js
 const
 {
 DevToolsServer
@@ -454,6 +452,7 @@ the
 parent
 process
 :
+js
 exports
 .
 setupParentProcess

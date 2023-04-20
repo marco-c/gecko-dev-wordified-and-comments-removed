@@ -82,13 +82,7 @@ super
 -
 user
 :
-{
-.
-brush
-:
-.
 bash
-}
 sudo
 turbostat
 If
@@ -118,6 +112,7 @@ the
 following
 command
 :
+bash
 sudo
 modprobe
 msr

@@ -58,13 +58,7 @@ Heres
 the
 code
 :
-{
-.
-brush
-:
-.
 js
-}
 var
 MONSTER_COUNT
 =

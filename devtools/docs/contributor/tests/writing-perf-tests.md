@@ -46,10 +46,9 @@ run
 in
 DAMP
 .
+{
 note
-:
-:
-|
+}
 *
 *
 Reuse
@@ -60,8 +59,6 @@ possible
 !
 *
 *
-|
-|
 If
 a
 custom
@@ -89,8 +86,6 @@ new
 individual
 test
 .
-|
-|
 New
 individual
 tests
@@ -140,8 +135,6 @@ extending
 DAMP
 coverage
 .
-|
-|
 custom
 tests
 are
@@ -224,8 +217,6 @@ pages
 custom
 )
 .
-|
-|
 If
 your
 test

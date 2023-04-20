@@ -522,7 +522,7 @@ ReactDOM
 .
 render
 :
-jsx
+javascript
 ReactDOM
 .
 render
@@ -1691,7 +1691,7 @@ subtree
 *
 *
 .
-jsx
+javascript
 class
 ComplexPanel
 extends
@@ -2016,7 +2016,7 @@ for
 reference
 equality
 .
-jsx
+javascript
 class
 ComplexPanel
 extends
