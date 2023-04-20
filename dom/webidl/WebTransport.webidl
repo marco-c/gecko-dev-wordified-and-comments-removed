@@ -216,7 +216,7 @@ closeCode
 =
 0
 ;
-UTF8String
+DOMString
 reason
 =
 "
@@ -391,9 +391,6 @@ enabled
 interface
 WebTransport
 {
-[
-Throws
-]
 constructor
 (
 USVString
