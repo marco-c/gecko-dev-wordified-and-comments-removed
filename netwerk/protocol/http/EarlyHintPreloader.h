@@ -206,6 +206,16 @@ nsresult
 aStatus
 )
 ;
+void
+OnParentReady
+(
+nsIParentChannel
+*
+aParent
+uint64_t
+aChannelId
+)
+;
 private
 :
 explicit

@@ -10763,6 +10763,14 @@ navigationStartTimeStamp
 =
 navigationStartTimeStamp
 ;
+openArgs
+.
+earlyHintPreloaderId
+(
+)
+=
+mEarlyHintPreloaderId
+;
 SetEventTarget
 (
 )
