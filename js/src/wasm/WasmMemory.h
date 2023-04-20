@@ -621,6 +621,13 @@ GuardSize
 =
 PageSize
 ;
+static
+const
+size_t
+NullPtrGuardSize
+=
+4096
+;
 }
 }
 #
