@@ -2465,6 +2465,10 @@ local_sub_rect
 ;
 surface_rect
 .
+round_out
+(
+)
+.
 translate
 (
 -
