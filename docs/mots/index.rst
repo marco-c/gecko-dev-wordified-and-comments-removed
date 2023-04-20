@@ -35265,9 +35265,8 @@ __
 Bugzilla
 Components
 -
-Firefox
-Build
-System
+Developer
+Infrastructure
 :
 :
 Try
