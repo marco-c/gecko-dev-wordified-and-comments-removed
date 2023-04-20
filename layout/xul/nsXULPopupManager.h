@@ -775,9 +775,6 @@ nsMenuChainItem
 aParent
 )
 ;
-void
-Detach
-(
 mozilla
 :
 :
@@ -785,8 +782,8 @@ UniquePtr
 <
 nsMenuChainItem
 >
-&
-aRoot
+Detach
+(
 )
 ;
 }
@@ -2038,6 +2035,13 @@ nsMenuChainItem
 *
 GetTopVisibleMenu
 (
+)
+;
+void
+RemoveMenuChainItem
+(
+nsMenuChainItem
+*
 )
 ;
 void
