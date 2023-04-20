@@ -583,6 +583,8 @@ PeerConnectionTestWrapper
 "
 caller
 "
+&
+pss_
 network_thread_
 .
 get
@@ -608,6 +610,8 @@ PeerConnectionTestWrapper
 "
 callee
 "
+&
+pss_
 network_thread_
 .
 get

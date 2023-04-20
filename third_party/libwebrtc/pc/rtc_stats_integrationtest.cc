@@ -626,6 +626,8 @@ PeerConnectionTestWrapper
 "
 caller
 "
+&
+virtual_socket_server_
 network_thread_
 .
 get
@@ -651,6 +653,8 @@ PeerConnectionTestWrapper
 "
 callee
 "
+&
+virtual_socket_server_
 network_thread_
 .
 get

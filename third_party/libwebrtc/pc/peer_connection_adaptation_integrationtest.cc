@@ -542,6 +542,8 @@ PeerConnectionTestWrapper
 >
 (
 name
+&
+virtual_socket_server_
 network_thread_
 .
 get
