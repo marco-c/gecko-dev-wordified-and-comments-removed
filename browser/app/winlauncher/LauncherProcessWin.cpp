@@ -2473,13 +2473,13 @@ get
 bool
 disableDynamicBlocklist
 =
+IsDynamicBlocklistDisabled
+(
 isSafeMode
 .
 value
 (
 )
-|
-|
 mozilla
 :
 :
@@ -2511,6 +2511,7 @@ mozilla
 :
 :
 ARG_FOUND
+)
 ;
 LauncherVoidResult
 setupResult
