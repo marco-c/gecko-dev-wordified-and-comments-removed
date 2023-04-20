@@ -224,11 +224,6 @@ return
 this
 ;
 }
-void
-UpdateTexImageIfNecessary
-(
-)
-;
 mozilla
 :
 :
