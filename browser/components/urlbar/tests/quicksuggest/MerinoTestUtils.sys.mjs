@@ -1725,10 +1725,9 @@ QuickSuggest
 .
 weather
 .
-_test_setFetchIntervalMs
-(
+_test_fetchIntervalMs
+=
 WEATHER_FETCH_INTERVAL_MS
-)
 ;
 /
 /
@@ -1869,11 +1868,10 @@ QuickSuggest
 .
 weather
 .
-_test_setFetchIntervalMs
-(
+_test_fetchIntervalMs
+=
 -
 1
-)
 ;
 }
 )
