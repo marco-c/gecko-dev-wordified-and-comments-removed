@@ -58,7 +58,9 @@ EXTRA_JS_MODULES
 "
 Bits
 .
-jsm
+sys
+.
+mjs
 "
 ]
 FINAL_LIBRARY
