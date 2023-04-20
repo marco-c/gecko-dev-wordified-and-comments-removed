@@ -319,7 +319,7 @@ upstream
 commit
 .
 export
-MOZ_GIT_RELEASE_BRANCH
+MOZ_TARGET_UPSTREAM_BRANCH_HEAD
 =
 "
 branch
