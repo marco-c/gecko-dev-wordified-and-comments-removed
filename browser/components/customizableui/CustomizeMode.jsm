@@ -3063,8 +3063,6 @@ areaNode
 getAttribute
 (
 "
-default
--
 overflowtarget
 "
 )

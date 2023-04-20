@@ -27,8 +27,6 @@ navbar
 getAttribute
 (
 "
-default
--
 overflowtarget
 "
 )
