@@ -81,6 +81,8 @@ modules
 video_coding
 /
 timing
+/
+timing
 .
 h
 "

@@ -3948,8 +3948,7 @@ deps
 modules
 /
 video_coding
-:
-timing
+/
 "
 "
 .
@@ -3962,6 +3961,9 @@ modules
 /
 video_coding
 /
+timing
+:
+timing_module
 "
 "
 .
