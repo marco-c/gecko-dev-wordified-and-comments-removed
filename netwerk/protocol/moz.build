@@ -49,4 +49,7 @@ viewsource
 "
 websocket
 "
+"
+webtransport
+"
 ]

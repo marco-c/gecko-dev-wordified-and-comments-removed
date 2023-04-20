@@ -30,6 +30,9 @@ nsIPrincipal
 interface
 nsILoadInfo
 ;
+interface
+nsIWebTransport
+;
 webidl
 Node
 ;
@@ -289,6 +292,11 @@ aSecurityFlags
 in
 nsContentPolicyType
 aContentPolicyType
+)
+;
+nsIWebTransport
+newWebTransport
+(
 )
 ;
 attribute
