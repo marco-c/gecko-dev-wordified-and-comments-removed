@@ -4439,6 +4439,19 @@ overflow
 hidden
 ;
 }
+media
+(
+prefers
+-
+reduced
+-
+motion
+:
+no
+-
+preference
+)
+{
 scrollbox
 [
 smoothscroll
@@ -4452,6 +4465,7 @@ behavior
 :
 smooth
 ;
+}
 }
 /
 *
