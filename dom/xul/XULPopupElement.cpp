@@ -1558,6 +1558,14 @@ widget
 GdkIsWaylandDisplay
 (
 )
+|
+|
+widget
+:
+:
+IsXWaylandProtocol
+(
+)
 ;
 #
 else
