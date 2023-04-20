@@ -1758,7 +1758,6 @@ LOCALE
 )
 ;
 }
-else
 if
 (
 aProvider
@@ -1787,7 +1786,6 @@ ANY
 )
 ;
 }
-else
 if
 (
 aProvider
