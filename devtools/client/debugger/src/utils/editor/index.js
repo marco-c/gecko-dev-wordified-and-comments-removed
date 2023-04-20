@@ -320,14 +320,12 @@ fromEditorLine
 (
 sourceId
 line
+sourceIsWasm
 )
 {
 if
 (
-isWasm
-(
-sourceId
-)
+sourceIsWasm
 )
 {
 return
@@ -995,6 +993,10 @@ fromEditorLine
 (
 sourceId
 line
+isWasm
+(
+sourceId
+)
 )
 column
 :
