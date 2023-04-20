@@ -74,6 +74,10 @@ adp
 "
 "
 .
+afploc
+"
+"
+.
 air
 "
 "
@@ -109,6 +113,10 @@ asp
 "
 .
 asx
+"
+"
+.
+atloc
 "
 "
 .
@@ -349,6 +357,10 @@ fileloc
 "
 .
 fon
+"
+"
+.
+ftploc
 "
 "
 .

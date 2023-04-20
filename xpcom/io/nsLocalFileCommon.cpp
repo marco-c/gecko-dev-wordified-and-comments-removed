@@ -119,6 +119,10 @@ adp
 "
 "
 .
+afploc
+"
+"
+.
 air
 "
 "
@@ -132,6 +136,10 @@ application
 "
 .
 asp
+"
+"
+.
+atloc
 "
 "
 .
@@ -176,6 +184,10 @@ exe
 "
 .
 fileloc
+"
+"
+.
+ftploc
 "
 "
 .
