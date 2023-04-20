@@ -1230,7 +1230,7 @@ void
 SendGetAccessHandle
 (
 const
-FileSystemGetFileRequest
+FileSystemGetAccessHandleRequest
 &
 request
 mozilla

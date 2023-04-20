@@ -699,7 +699,7 @@ FileSystemManagerParent
 :
 RecvGetAccessHandle
 (
-FileSystemGetFileRequest
+FileSystemGetAccessHandleRequest
 &
 &
 aRequest
