@@ -56,10 +56,10 @@ Path
 import
 six
 from
-looseversion
+packaging
+.
+version
 import
-LooseVersion
-as
 Version
 MOZBUILD_METRICS_PATH
 =

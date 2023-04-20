@@ -19,12 +19,6 @@ pathlib
 import
 Path
 from
-looseversion
-import
-LooseVersion
-as
-Version
-from
 mozboot
 .
 base
@@ -36,6 +30,12 @@ mozbuild
 util
 import
 mozilla_build_version
+from
+packaging
+.
+version
+import
+Version
 def
 is_aarch64_host
 (
