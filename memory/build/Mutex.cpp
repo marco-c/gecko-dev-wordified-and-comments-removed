@@ -19,6 +19,14 @@ SpinInKernelSpace
 (
 )
 {
+#
+ifdef
+__aarch64__
+return
+true
+;
+#
+else
 if
 (
 __builtin_available
@@ -38,7 +46,10 @@ true
 return
 false
 ;
+#
+endif
 }
+const
 bool
 Mutex
 :
