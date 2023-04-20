@@ -107,7 +107,7 @@ h
 #
 include
 "
-Index
+ByteStream
 .
 h
 "
@@ -121,7 +121,7 @@ h
 #
 include
 "
-ByteStream
+SampleIterator
 .
 h
 "

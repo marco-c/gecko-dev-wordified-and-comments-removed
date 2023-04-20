@@ -1018,7 +1018,7 @@ encoderDelayFrameCount
 )
 ;
 }
-Index
+MP4SampleIndex
 :
 :
 Indice
