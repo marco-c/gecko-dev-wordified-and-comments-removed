@@ -17,6 +17,9 @@ lib
 str
 ;
 pub
+(
+super
+)
 struct
 Buf
 <

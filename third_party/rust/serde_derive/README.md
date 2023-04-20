@@ -78,6 +78,8 @@ io
 /
 github
 /
+actions
+/
 workflow
 /
 status
@@ -88,8 +90,12 @@ rs
 /
 serde
 /
-CI
-/
+ci
+.
+yml
+?
+branch
+=
 master
 [
 actions
