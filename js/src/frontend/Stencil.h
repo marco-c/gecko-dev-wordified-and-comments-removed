@@ -2524,6 +2524,9 @@ initModule
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 CompilationAtomCache
 &
 atomCache

@@ -7014,6 +7014,10 @@ cx_
 (
 cx
 )
+ec_
+(
+ec
+)
 eitherParser_
 (
 eitherParser
@@ -7042,9 +7046,9 @@ ModuleBuilder
 :
 noteFunctionDeclaration
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 uint32_t
 funIndex
 )
@@ -7065,7 +7069,7 @@ js
 :
 ReportOutOfMemory
 (
-cx
+ec
 )
 ;
 return
@@ -7145,7 +7149,7 @@ js
 :
 ReportOutOfMemory
 (
-cx_
+ec_
 )
 ;
 return
@@ -7263,7 +7267,7 @@ js
 :
 ReportOutOfMemory
 (
-cx_
+ec_
 )
 ;
 return
@@ -7300,7 +7304,7 @@ js
 :
 ReportOutOfMemory
 (
-cx_
+ec_
 )
 ;
 return
@@ -7358,7 +7362,7 @@ js
 :
 ReportOutOfMemory
 (
-cx_
+ec_
 )
 ;
 return
@@ -7401,7 +7405,7 @@ js
 :
 ReportOutOfMemory
 (
-cx_
+ec_
 )
 ;
 return
@@ -7429,7 +7433,7 @@ js
 :
 ReportOutOfMemory
 (
-cx_
+ec_
 )
 ;
 return
@@ -8294,6 +8298,9 @@ initModule
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 frontend
 :
 :
@@ -8473,7 +8480,7 @@ js
 :
 ReportOutOfMemory
 (
-cx
+ec
 )
 ;
 return
@@ -8867,7 +8874,7 @@ js
 :
 ReportOutOfMemory
 (
-cx_
+ec_
 )
 ;
 return
@@ -11384,7 +11391,7 @@ js
 :
 ReportOutOfMemory
 (
-cx_
+ec_
 )
 ;
 return

@@ -1148,7 +1148,7 @@ noteFunctionDeclaration
 bce_
 -
 >
-cx
+ec
 index
 )
 ;
