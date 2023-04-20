@@ -101,6 +101,8 @@ uint8
 "
 )
 ;
+Assert
+.
 ok
 (
 Number
@@ -165,6 +167,8 @@ correct
 "
 )
 ;
+Assert
+.
 ok
 (
 password
@@ -196,6 +200,8 @@ character
 "
 )
 ;
+Assert
+.
 ok
 (
 password
@@ -227,6 +233,8 @@ character
 "
 )
 ;
+Assert
+.
 ok
 (
 password
@@ -253,6 +261,8 @@ digit
 "
 )
 ;
+Assert
+.
 ok
 (
 password
@@ -415,6 +425,8 @@ pow
 "
 )
 ;
+Assert
+.
 ok
 (
 password
@@ -497,6 +509,8 @@ correct
 "
 )
 ;
+Assert
+.
 ok
 (
 password
@@ -656,6 +670,8 @@ correct
 "
 )
 ;
+Assert
+.
 ok
 (
 password
@@ -705,6 +721,8 @@ escapedSpecialCharacters
 }
 )
 ;
+Assert
+.
 ok
 (
 password
@@ -750,6 +768,8 @@ correct
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -770,6 +790,8 @@ character
 "
 )
 ;
+Assert
+.
 ok
 (
 password

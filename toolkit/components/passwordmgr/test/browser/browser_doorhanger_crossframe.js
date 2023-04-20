@@ -240,7 +240,9 @@ ShowDoorhanger
 "
 )
 {
-is
+Assert
+.
+equal
 (
 data
 .
@@ -311,7 +313,9 @@ actual
 await
 notifyPromise
 ;
-is
+Assert
+.
+equal
 (
 actual
 .
@@ -374,6 +378,8 @@ index
 }
 else
 {
+Assert
+.
 ok
 (
 false
@@ -416,6 +422,8 @@ PopupAutoComplete
 "
 )
 ;
+Assert
+.
 ok
 (
 popup
@@ -450,6 +458,8 @@ loginWithOrigin
 ]
 )
 ;
+Assert
+.
 ok
 (
 autocompleteLoginResult

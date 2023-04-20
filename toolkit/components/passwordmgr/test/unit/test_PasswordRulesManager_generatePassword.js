@@ -712,6 +712,8 @@ parsePasswordRules
 rules
 )
 ;
+Assert
+.
 ok
 (
 rules
@@ -734,6 +736,8 @@ PasswordRulesManagerParent
 (
 )
 ;
+Assert
+.
 ok
 (
 PRMP
@@ -758,6 +762,8 @@ generatePassword
 TEST_ORIGIN
 )
 ;
+Assert
+.
 ok
 (
 generatedPassword
@@ -928,6 +934,8 @@ parsePasswordRules
 rules
 )
 ;
+Assert
+.
 ok
 (
 rules
@@ -950,6 +958,8 @@ PasswordRulesManagerParent
 (
 )
 ;
+Assert
+.
 ok
 (
 PRMP
@@ -974,6 +984,8 @@ generatePassword
 TEST_ORIGIN
 )
 ;
+Assert
+.
 ok
 (
 generatedPassword
@@ -1139,6 +1151,8 @@ parsePasswordRules
 rules
 )
 ;
+Assert
+.
 ok
 (
 rules
@@ -1161,6 +1175,8 @@ PasswordRulesManagerParent
 (
 )
 ;
+Assert
+.
 ok
 (
 PRMP
@@ -1185,6 +1201,8 @@ generatePassword
 TEST_ORIGIN
 )
 ;
+Assert
+.
 ok
 (
 generatedPassword
@@ -1368,6 +1386,8 @@ parsePasswordRules
 rules
 )
 ;
+Assert
+.
 ok
 (
 rules
@@ -1390,6 +1410,8 @@ PasswordRulesManagerParent
 (
 )
 ;
+Assert
+.
 ok
 (
 PRMP
@@ -1424,6 +1446,8 @@ generatePassword
 TEST_ORIGIN
 )
 ;
+Assert
+.
 ok
 (
 generatedPassword
@@ -1499,6 +1523,8 @@ of
 disallowedSpecialCharacters
 )
 {
+Assert
+.
 ok
 (
 !
@@ -1532,6 +1558,8 @@ of
 digits
 )
 {
+Assert
+.
 ok
 (
 !
@@ -1921,6 +1949,8 @@ parsePasswordRules
 rules
 )
 ;
+Assert
+.
 ok
 (
 rules
@@ -1954,6 +1984,8 @@ generatePassword
 TEST_ORIGIN
 )
 ;
+Assert
+.
 ok
 (
 generatedPassword
@@ -2046,6 +2078,8 @@ escapedSpecialCharacters
 ]
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -2183,6 +2217,8 @@ generatePassword
 TEST_ORIGIN
 )
 ;
+Assert
+.
 ok
 (
 generatedPassword
@@ -2241,6 +2277,8 @@ generatePassword
 TEST_ORIGIN
 )
 ;
+Assert
+.
 ok
 (
 generatedPassword
@@ -2549,6 +2587,8 @@ UPPER_CASE_ALPHA
 ]
 )
 ;
+Assert
+.
 ok
 (
 generatedPassword
@@ -2595,6 +2635,8 @@ LOWER_CASE_ALPHA
 ]
 )
 ;
+Assert
+.
 ok
 (
 generatedPassword
@@ -2641,6 +2683,8 @@ DIGITS
 ]
 )
 ;
+Assert
+.
 ok
 (
 generatedPassword
@@ -2728,6 +2772,8 @@ escapedSpecialCharacters
 ]
 )
 ;
+Assert
+.
 ok
 (
 generatedPassword
@@ -2757,6 +2803,8 @@ _characters
 =
 value
 ;
+Assert
+.
 ok
 (
 checkCharacters
@@ -2793,6 +2841,8 @@ minlength
 "
 )
 {
+Assert
+.
 ok
 (
 generatedPassword
@@ -2826,6 +2876,8 @@ maxlength
 "
 )
 {
+Assert
+.
 ok
 (
 generatedPassword
@@ -2861,6 +2913,8 @@ consecutive
 "
 )
 {
+Assert
+.
 ok
 (
 checkConsecutiveCharacters

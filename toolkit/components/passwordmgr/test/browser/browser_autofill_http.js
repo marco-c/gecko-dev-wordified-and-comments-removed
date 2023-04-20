@@ -292,7 +292,9 @@ contentPassword
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 username
 scheme
@@ -315,7 +317,9 @@ correctly
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 password
 scheme
@@ -478,7 +482,9 @@ value
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 username
 scheme
@@ -501,7 +507,9 @@ correctly
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 password
 scheme
@@ -658,7 +666,9 @@ value
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 username
 type
@@ -681,7 +691,9 @@ correctly
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 password
 type

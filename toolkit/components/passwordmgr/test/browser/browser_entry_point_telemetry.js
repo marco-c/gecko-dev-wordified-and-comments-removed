@@ -144,7 +144,9 @@ visible
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 mainMenu
 .
@@ -217,7 +219,9 @@ shown
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 mainMenu
 .

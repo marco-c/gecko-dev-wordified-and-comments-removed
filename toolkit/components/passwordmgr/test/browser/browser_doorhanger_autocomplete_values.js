@@ -677,6 +677,8 @@ tc
 expectUsernameDropmarker
 )
 {
+Assert
+.
 ok
 (
 !
@@ -703,6 +705,8 @@ values
 }
 else
 {
+Assert
+.
 ok
 (
 !
@@ -1226,6 +1230,8 @@ querySelector
 USERNAME_DROPMARKER_SELECTOR
 )
 ;
+Assert
+.
 ok
 (
 BrowserTestUtils
@@ -1320,6 +1326,8 @@ actual
 )
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1381,6 +1389,8 @@ expectedNotFound
 }
 )
 ;
+Assert
+.
 ok
 (
 !

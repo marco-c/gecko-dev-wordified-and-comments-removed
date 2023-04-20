@@ -281,6 +281,8 @@ item
 0
 ]
 ;
+Assert
+.
 ok
 (
 firstLoginItem
@@ -300,6 +302,8 @@ waitForTick
 (
 )
 ;
+Assert
+.
 ok
 (
 BrowserTestUtils
@@ -379,7 +383,9 @@ firstLoginItem
 label
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -409,7 +415,9 @@ username
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 usernameOriginalValue
 usernameNewValue
@@ -535,6 +543,8 @@ login
 "
 )
 ;
+Assert
+.
 ok
 (
 popupHeader
@@ -649,6 +659,8 @@ login
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -668,6 +680,8 @@ visible
 "
 )
 ;
+Assert
+.
 ok
 (
 !

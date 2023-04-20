@@ -37,6 +37,8 @@ init
 "
 )
 ;
+Assert
+.
 ok
 (
 nsLoginInfo
@@ -268,6 +270,8 @@ pword
 "
 )
 ;
+Assert
+.
 ok
 (
 uname
@@ -278,6 +282,8 @@ found
 "
 )
 ;
+Assert
+.
 ok
 (
 pword
@@ -288,7 +294,9 @@ found
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 doc
 .
@@ -304,7 +312,9 @@ focused
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 uname
 .
@@ -319,7 +329,9 @@ empty
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 pword
 .
@@ -362,7 +374,9 @@ autocompletePopup
 .
 richlistbox
 ;
-is
+Assert
+.
+equal
 (
 richlistbox
 .
@@ -505,7 +519,9 @@ pword
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 uname
 .
@@ -521,7 +537,9 @@ filled
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 pword
 .

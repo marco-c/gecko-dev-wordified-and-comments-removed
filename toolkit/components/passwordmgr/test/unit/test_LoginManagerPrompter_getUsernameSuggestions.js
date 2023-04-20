@@ -802,6 +802,8 @@ expectedArr
 actualArr
 )
 {
+Assert
+.
 ok
 (
 !
@@ -816,6 +818,8 @@ truthy
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -830,6 +834,8 @@ truthy
 "
 )
 ;
+Assert
+.
 ok
 (
 expectedArr
@@ -887,6 +893,8 @@ actualArr
 i
 ]
 ;
+Assert
+.
 ok
 (
 expected
@@ -926,6 +934,8 @@ text
 '
 )
 ;
+Assert
+.
 ok
 (
 expected

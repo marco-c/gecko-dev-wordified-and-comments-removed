@@ -83,6 +83,8 @@ PopupAutoComplete
 "
 )
 ;
+Assert
+.
 ok
 (
 popup
@@ -130,6 +132,8 @@ insecureWarning
 ]
 )
 ;
+Assert
+.
 ok
 (
 warningItem
@@ -197,6 +201,8 @@ supportTab
 await
 supportTabPromise
 ;
+Assert
+.
 ok
 (
 supportTab

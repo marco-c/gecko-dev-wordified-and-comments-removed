@@ -60,6 +60,8 @@ openPasswordManager
 openingFunc
 )
 ;
+Assert
+.
 ok
 (
 passwordManager
@@ -171,7 +173,9 @@ openingFunc
 true
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordManager
 .
@@ -283,6 +287,8 @@ tab
 await
 tabOpenPromise
 ;
+Assert
+.
 ok
 (
 tab
@@ -420,6 +426,8 @@ tab
 await
 tabOpenPromise
 ;
+Assert
+.
 ok
 (
 tab
@@ -511,6 +519,8 @@ args
 0
 ]
 ;
+Assert
+.
 ok
 (
 !
@@ -542,7 +552,9 @@ param
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 0
 url
@@ -586,7 +598,9 @@ an
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 url
 "
@@ -614,6 +628,8 @@ URL
 "
 )
 ;
+Assert
+.
 ok
 (
 passwordManager
@@ -710,6 +726,8 @@ args
 0
 ]
 ;
+Assert
+.
 ok
 (
 url
@@ -740,7 +758,9 @@ param
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 1
 url
@@ -790,7 +810,9 @@ s
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 url
 "
@@ -822,6 +844,8 @@ URL
 "
 )
 ;
+Assert
+.
 ok
 (
 passwordManager
@@ -916,6 +940,8 @@ args
 0
 ]
 ;
+Assert
+.
 ok
 (
 !
@@ -947,6 +973,8 @@ param
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -978,7 +1006,9 @@ param
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 0
 url
@@ -1027,7 +1057,9 @@ one
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 url
 "
@@ -1053,6 +1085,8 @@ URL
 "
 )
 ;
+Assert
+.
 ok
 (
 passwordManager

@@ -182,7 +182,9 @@ addLogin
 login
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -424,7 +426,9 @@ username
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 username
 .
@@ -441,7 +445,9 @@ match
 )
 ;
 }
-is
+Assert
+.
+equal
 (
 password
 .
@@ -518,7 +524,9 @@ getAllLogins
 (
 )
 ;
-is
+Assert
+.
+equal
 (
 logins
 .
@@ -535,7 +543,9 @@ saved
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 logins
 [

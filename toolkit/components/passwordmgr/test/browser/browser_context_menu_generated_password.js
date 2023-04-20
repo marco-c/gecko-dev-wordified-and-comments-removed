@@ -131,7 +131,9 @@ getAllLogins
 (
 )
 ;
-is
+Assert
+.
+equal
 (
 logins
 .
@@ -243,6 +245,8 @@ password
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -352,6 +356,8 @@ password
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -467,6 +473,8 @@ password
 "
 )
 ;
+Assert
+.
 ok
 (
 BrowserTestUtils
@@ -484,6 +492,8 @@ visible
 "
 )
 ;
+Assert
+.
 ok
 (
 generatedPasswordItem
@@ -584,7 +594,9 @@ querySelector
 inputSelector
 )
 ;
-is
+Assert
+.
+equal
 (
 input
 .
@@ -600,6 +612,8 @@ empty
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -687,7 +701,9 @@ querySelector
 inputSelector
 )
 ;
-is
+Assert
+.
+equal
 (
 input
 .
@@ -710,6 +726,8 @@ password
 "
 )
 ;
+Assert
+.
 ok
 (
 input
@@ -800,6 +818,8 @@ generatedPassword
 ]
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -916,6 +936,8 @@ querySelector
 inputSelector
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1003,7 +1025,9 @@ querySelector
 inputSelector
 )
 ;
-is
+Assert
+.
+equal
 (
 input
 .
@@ -1026,6 +1050,8 @@ password
 "
 )
 ;
+Assert
+.
 ok
 (
 input
@@ -1233,7 +1259,9 @@ checkInitialFieldValue
 inputSelector
 )
 {
-is
+Assert
+.
+equal
 (
 content
 .
@@ -1322,7 +1350,9 @@ querySelector
 inputSelector
 )
 ;
-is
+Assert
+.
+equal
 (
 input
 .
@@ -1345,6 +1375,8 @@ password
 "
 )
 ;
+Assert
+.
 ok
 (
 input
@@ -1580,7 +1612,9 @@ querySelector
 inputSelector
 )
 ;
-is
+Assert
+.
+equal
 (
 input
 .
@@ -1635,7 +1669,9 @@ getAllLogins
 (
 )
 ;
-is
+Assert
+.
+equal
 (
 logins
 .
@@ -1761,7 +1797,9 @@ querySelector
 inputSelector
 )
 ;
-is
+Assert
+.
+equal
 (
 input
 .
@@ -1777,6 +1815,8 @@ empty
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1864,7 +1904,9 @@ querySelector
 inputSelector
 )
 ;
-is
+Assert
+.
+equal
 (
 input
 .
@@ -1887,6 +1929,8 @@ password
 "
 )
 ;
+Assert
+.
 ok
 (
 input
@@ -2133,7 +2177,9 @@ querySelector
 inputSelector
 )
 ;
-is
+Assert
+.
+equal
 (
 input
 .

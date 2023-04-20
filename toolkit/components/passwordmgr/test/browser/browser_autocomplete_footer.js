@@ -230,6 +230,8 @@ PopupAutoComplete
 "
 )
 ;
+Assert
+.
 ok
 (
 popup
@@ -270,6 +272,8 @@ loginsFooter
 ]
 )
 ;
+Assert
+.
 ok
 (
 footer
@@ -346,6 +350,8 @@ opened
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -478,6 +484,8 @@ PopupAutoComplete
 "
 )
 ;
+Assert
+.
 ok
 (
 popup
@@ -518,6 +526,8 @@ loginsFooter
 ]
 )
 ;
+Assert
+.
 ok
 (
 footer
@@ -624,6 +634,8 @@ opened
 "
 )
 ;
+Assert
+.
 ok
 (
 !

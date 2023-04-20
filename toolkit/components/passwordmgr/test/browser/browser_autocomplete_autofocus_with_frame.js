@@ -197,6 +197,8 @@ formFilled
 await
 popupShown
 ;
+Assert
+.
 ok
 (
 true
@@ -235,6 +237,8 @@ click
 await
 promiseHidden
 ;
+Assert
+.
 ok
 (
 true
@@ -283,7 +287,9 @@ value
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 password
 "

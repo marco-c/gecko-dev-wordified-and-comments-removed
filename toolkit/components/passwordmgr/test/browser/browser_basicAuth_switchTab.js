@@ -123,7 +123,9 @@ dialog
 await
 authPromptShown
 ;
-is
+Assert
+.
+equal
 (
 gBrowser
 .

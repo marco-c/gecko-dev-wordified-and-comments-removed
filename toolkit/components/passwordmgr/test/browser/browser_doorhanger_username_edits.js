@@ -537,6 +537,8 @@ any
 "
 )
 ;
+Assert
+.
 ok
 (
 !

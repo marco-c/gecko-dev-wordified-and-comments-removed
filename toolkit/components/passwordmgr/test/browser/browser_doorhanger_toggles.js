@@ -1026,6 +1026,8 @@ expectedDoorhanger
 type
 )
 ;
+Assert
+.
 ok
 (
 notif
@@ -1036,7 +1038,9 @@ popup
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 notif
 .
@@ -1063,7 +1067,9 @@ ownerGlobal
 .
 PopupNotifications
 ;
-is
+Assert
+.
+equal
 (
 panel
 .
@@ -1123,6 +1129,8 @@ waitForTick
 (
 )
 ;
+Assert
+.
 ok
 (
 panel
@@ -1268,6 +1276,8 @@ expectedDoorhanger
 type
 )
 ;
+Assert
+.
 ok
 (
 notif
@@ -1278,7 +1288,9 @@ popup
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 notif
 .
@@ -1294,6 +1306,8 @@ property
 "
 )
 ;
+Assert
+.
 ok
 (
 panel
@@ -1448,7 +1462,9 @@ visibilityToggle
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 panel
 .
@@ -1463,6 +1479,8 @@ open
 "
 )
 ;
+Assert
+.
 ok
 (
 BrowserTestUtils
@@ -1499,6 +1517,8 @@ expected
 toggleVisible
 )
 {
+Assert
+.
 ok
 (
 BrowserTestUtils
@@ -1519,6 +1539,8 @@ shown
 }
 else
 {
+Assert
+.
 ok
 (
 BrowserTestUtils
@@ -1542,7 +1564,9 @@ if
 initialToggleState
 )
 {
-is
+Assert
+.
+equal
 (
 toggleCheckbox
 .
@@ -1568,7 +1592,9 @@ unchecked
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordTextbox
 .
@@ -1595,6 +1621,8 @@ if
 afterToggleClick0
 )
 {
+Assert
+.
 ok
 (
 !
@@ -1642,7 +1670,9 @@ waitForTick
 (
 )
 ;
-is
+Assert
+.
+equal
 (
 toggleCheckbox
 .
@@ -1673,7 +1703,9 @@ checked
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordTextbox
 .
@@ -1704,6 +1736,8 @@ if
 afterToggleClick1
 )
 {
+Assert
+.
 ok
 (
 !
@@ -1752,7 +1786,9 @@ waitForTick
 (
 )
 ;
-is
+Assert
+.
+equal
 (
 toggleCheckbox
 .
@@ -1783,7 +1819,9 @@ checked
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordTextbox
 .
@@ -1933,7 +1971,9 @@ querySelector
 sel
 )
 ;
-is
+Assert
+.
+equal
 (
 field
 .

@@ -185,6 +185,8 @@ if
 warning
 )
 {
+Assert
+.
 ok
 (
 warningPatternHandler
@@ -586,6 +588,8 @@ warning
 originMessage
 )
 {
+Assert
+.
 ok
 (
 warning
@@ -628,7 +632,9 @@ source
 }
 ]
 ;
-is
+Assert
+.
+equal
 (
 originMessage
 fullMessage

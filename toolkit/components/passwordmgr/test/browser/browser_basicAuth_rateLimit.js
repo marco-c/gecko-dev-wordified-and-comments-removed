@@ -141,6 +141,8 @@ sjs
 await
 authShown
 ;
+Assert
+.
 ok
 (
 true
@@ -155,6 +157,8 @@ number
 await
 browserLoaded
 ;
+Assert
+.
 ok
 (
 true
@@ -241,6 +245,8 @@ cancelDialogLimit
 await
 authShown
 ;
+Assert
+.
 ok
 (
 true
@@ -258,6 +264,8 @@ i
 await
 browserLoaded
 ;
+Assert
+.
 ok
 (
 true
@@ -330,6 +338,8 @@ click
 await
 authShown
 ;
+Assert
+.
 ok
 (
 true
@@ -344,6 +354,8 @@ number
 await
 browserLoaded
 ;
+Assert
+.
 ok
 (
 true
@@ -541,6 +553,8 @@ cancelDialogLimit
 await
 authShown
 ;
+Assert
+.
 ok
 (
 true
@@ -558,6 +572,8 @@ i
 await
 iframeLoaded
 ;
+Assert
+.
 ok
 (
 true
@@ -691,6 +707,8 @@ loaded
 await
 iframeLoaded
 ;
+Assert
+.
 ok
 (
 true

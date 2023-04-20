@@ -409,7 +409,9 @@ b
 timeCreated
 )
 ;
-is
+Assert
+.
+equal
 (
 allLogins
 .
@@ -488,7 +490,9 @@ undefined
 "
 )
 {
-is
+Assert
+.
+equal
 (
 login
 .
@@ -517,7 +521,9 @@ undefined
 "
 )
 {
-is
+Assert
+.
+equal
 (
 login
 .
@@ -548,7 +554,9 @@ undefined
 "
 )
 {
-is
+Assert
+.
+equal
 (
 login
 .
@@ -577,7 +585,9 @@ undefined
 "
 )
 {
-is
+Assert
+.
+equal
 (
 login
 .
@@ -606,6 +616,8 @@ undefined
 "
 )
 {
+Assert
+.
 ok
 (
 login
@@ -636,6 +648,8 @@ undefined
 "
 )
 {
+Assert
+.
 ok
 (
 login
@@ -666,7 +680,9 @@ undefined
 "
 )
 {
-is
+Assert
+.
+equal
 (
 login
 .
@@ -1116,6 +1132,8 @@ function
 browser
 )
 {
+Assert
+.
 ok
 (
 true
@@ -1141,6 +1159,8 @@ sjs
 "
 )
 ;
+Assert
+.
 ok
 (
 true
@@ -1217,7 +1237,9 @@ getAllLogins
 (
 )
 ;
-is
+Assert
+.
+equal
 (
 logins
 .
@@ -1232,6 +1254,8 @@ login
 "
 )
 ;
+Assert
+.
 ok
 (
 logins
@@ -1248,7 +1272,9 @@ QI
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 logins
 [
@@ -1268,6 +1294,8 @@ submission
 "
 )
 ;
+Assert
+.
 ok
 (
 logins
@@ -1294,7 +1322,9 @@ if
 justChanged
 )
 {
-is
+Assert
+.
+equal
 (
 logins
 [
@@ -1319,7 +1349,9 @@ timePasswordChanged
 }
 else
 {
-is
+Assert
+.
+equal
 (
 logins
 [
@@ -1426,6 +1458,8 @@ browser
 null
 )
 {
+Assert
+.
 ok
 (
 true
@@ -1494,7 +1528,9 @@ any
 notification
 )
 {
-is
+Assert
+.
+equal
 (
 notification
 .
@@ -1522,7 +1558,9 @@ change
 "
 )
 {
-is
+Assert
+.
+equal
 (
 notification
 .
@@ -1557,7 +1595,9 @@ save
 "
 )
 {
-is
+Assert
+.
+equal
 (
 notification
 .
@@ -1827,6 +1867,8 @@ panel
 .
 children
 ;
+Assert
+.
 ok
 (
 !
@@ -1843,6 +1885,8 @@ displayed
 "
 )
 ;
+Assert
+.
 ok
 (
 true
@@ -1922,6 +1966,8 @@ aPopup
 aButtonIndex
 )
 {
+Assert
+.
 ok
 (
 true
@@ -1955,6 +2001,8 @@ button
 "
 )
 {
+Assert
+.
 ok
 (
 true
@@ -1977,6 +2025,8 @@ secondaryButton
 "
 )
 {
+Assert
+.
 ok
 (
 true
@@ -1990,6 +2040,8 @@ action
 }
 else
 {
+Assert
+.
 ok
 (
 true
@@ -2315,7 +2367,9 @@ popupshown
 )
 ;
 }
-is
+Assert
+.
+equal
 (
 panel
 .
@@ -2793,6 +2847,8 @@ indexOf
 text
 )
 ;
+Assert
+.
 ok
 (
 targetIndex
@@ -2913,6 +2969,8 @@ tab
 await
 tabPromise
 ;
+Assert
+.
 ok
 (
 tab
@@ -3114,6 +3172,8 @@ shown
 await
 promiseShown
 ;
+Assert
+.
 ok
 (
 shown
@@ -3702,6 +3762,8 @@ separator
 "
 )
 ;
+Assert
+.
 ok
 (
 BrowserTestUtils
@@ -3719,6 +3781,8 @@ visible
 "
 )
 ;
+Assert
+.
 ok
 (
 BrowserTestUtils
@@ -3746,6 +3810,8 @@ PopupAutoComplete
 "
 )
 ;
+Assert
+.
 ok
 (
 popup
@@ -4243,7 +4309,9 @@ await
 changedPromise
 ;
 }
-is
+Assert
+.
+equal
 (
 str
 input
@@ -4323,7 +4391,9 @@ shown
 ;
 try
 {
-is
+Assert
+.
+equal
 (
 hintElem
 .
@@ -4339,6 +4409,8 @@ open
 "
 )
 ;
+Assert
+.
 ok
 (
 BrowserTestUtils
@@ -4357,7 +4429,9 @@ visible
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 hintElem
 .
@@ -4447,6 +4521,8 @@ catch
 ex
 )
 {
+Assert
+.
 ok
 (
 false

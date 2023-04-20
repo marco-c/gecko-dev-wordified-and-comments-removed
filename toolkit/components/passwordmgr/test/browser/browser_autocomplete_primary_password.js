@@ -125,7 +125,9 @@ Required
 +
 BRAND_FULL_NAME
 ;
-is
+Assert
+.
+equal
 (
 dialog
 .
@@ -611,6 +613,8 @@ topic
 data
 )
 {
+Assert
+.
 ok
 (
 false
@@ -666,7 +670,9 @@ origin
 data
 )
 ;
-is
+Assert
+.
+equal
 (
 results
 .

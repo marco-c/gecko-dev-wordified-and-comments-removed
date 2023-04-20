@@ -218,7 +218,9 @@ false
 await
 promiseChanged
 ;
-is
+Assert
+.
+equal
 (
 countDisabledHosts
 (
@@ -310,7 +312,9 @@ true
 await
 promiseChanged
 ;
-is
+Assert
+.
+equal
 (
 countDisabledHosts
 (
@@ -446,6 +450,8 @@ btnAllow
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -460,6 +466,8 @@ visible
 "
 )
 ;
+Assert
+.
 ok
 (
 btnCookieSession
@@ -475,6 +483,8 @@ visible
 "
 )
 ;
+Assert
+.
 ok
 (
 btnAllow
@@ -489,6 +499,8 @@ visible
 "
 )
 ;
+Assert
+.
 ok
 (
 btnHttpsOnlyOff
@@ -506,6 +518,8 @@ visible
 "
 )
 ;
+Assert
+.
 ok
 (
 btnHttpsOnlyOffTmp
@@ -523,6 +537,8 @@ visible
 "
 )
 ;
+Assert
+.
 ok
 (
 btnBlock
@@ -537,6 +553,8 @@ disabled
 "
 )
 ;
+Assert
+.
 ok
 (
 btnCookieSession
@@ -552,6 +570,8 @@ disabled
 "
 )
 ;
+Assert
+.
 ok
 (
 btnAllow
@@ -566,6 +586,8 @@ disabled
 "
 )
 ;
+Assert
+.
 ok
 (
 btnHttpsOnlyOff
@@ -584,6 +606,8 @@ disabled
 "
 )
 ;
+Assert
+.
 ok
 (
 btnHttpsOnlyOffTmp
@@ -611,6 +635,8 @@ LOGIN_HOST
 dialog
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -632,6 +658,8 @@ input
 "
 )
 ;
+Assert
+.
 ok
 (
 btnCookieSession
@@ -654,6 +682,8 @@ input
 "
 )
 ;
+Assert
+.
 ok
 (
 btnAllow
@@ -675,6 +705,8 @@ input
 "
 )
 ;
+Assert
+.
 ok
 (
 btnHttpsOnlyOff
@@ -700,6 +732,8 @@ input
 "
 )
 ;
+Assert
+.
 ok
 (
 btnHttpsOnlyOffTmp
@@ -726,7 +760,9 @@ input
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 countDisabledHosts
 (
@@ -760,7 +796,9 @@ return
 dialog
 )
 ;
-is
+Assert
+.
+equal
 (
 countDisabledHosts
 (
@@ -777,6 +815,8 @@ added
 "
 )
 ;
+Assert
+.
 ok
 (
 btnBlock

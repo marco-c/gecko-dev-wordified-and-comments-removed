@@ -620,6 +620,8 @@ any
 "
 )
 ;
+Assert
+.
 ok
 (
 !

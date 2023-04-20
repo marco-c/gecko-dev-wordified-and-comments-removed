@@ -228,6 +228,8 @@ submit
 await
 promise
 ;
+Assert
+.
 ok
 (
 true
@@ -426,6 +428,8 @@ p2
 ]
 )
 ;
+Assert
+.
 ok
 (
 true

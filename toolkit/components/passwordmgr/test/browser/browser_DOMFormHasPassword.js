@@ -56,6 +56,8 @@ unexpectedContentEvent
 evt
 )
 {
+Assert
+.
 ok
 (
 false
@@ -261,7 +263,9 @@ test_inputAddHandler
 false
 )
 ;
-is
+Assert
+.
+equal
 (
 evt
 .
@@ -354,7 +358,9 @@ test_inputChangeFormHandler
 false
 )
 ;
-is
+Assert
+.
+equal
 (
 evt
 .
@@ -446,7 +452,9 @@ test_inputChangesTypeHandler
 false
 )
 ;
-is
+Assert
+.
+equal
 (
 evt
 .
@@ -649,6 +657,8 @@ html
 await
 promise
 ;
+Assert
+.
 ok
 (
 true

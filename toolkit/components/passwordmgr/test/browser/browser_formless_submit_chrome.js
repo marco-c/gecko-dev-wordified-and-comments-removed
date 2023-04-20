@@ -32,6 +32,8 @@ undefined
 aBrowser
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -95,6 +97,8 @@ any
 "
 )
 ;
+Assert
+.
 ok
 (
 notif
@@ -203,6 +207,8 @@ any
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -582,6 +588,8 @@ resolve
 )
 )
 ;
+Assert
+.
 ok
 (
 !
