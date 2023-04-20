@@ -151,6 +151,15 @@ browser
 /
 screenshots
 /
+fileHelpers
+.
+mjs
+content
+/
+browser
+/
+screenshots
+/
 icon
 -
 welcome
