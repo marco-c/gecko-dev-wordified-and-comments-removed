@@ -2186,9 +2186,8 @@ cx
 JSObject
 *
 obj
-PropertyName
-*
-name
+PropertyKey
+id
 Value
 *
 vp

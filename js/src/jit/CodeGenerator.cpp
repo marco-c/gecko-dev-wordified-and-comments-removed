@@ -24791,8 +24791,6 @@ masm
 .
 emitMegamorphicCacheLookup
 (
-NameToId
-(
 lir
 -
 >
@@ -24803,7 +24801,6 @@ mir
 >
 name
 (
-)
 )
 obj
 temp0
@@ -24857,9 +24854,8 @@ cx
 JSObject
 *
 obj
-PropertyName
-*
-name
+PropertyKey
+id
 Value
 *
 vp
@@ -24894,9 +24890,7 @@ obj
 ;
 masm
 .
-movePtr
-(
-ImmGCPtr
+movePropertyKey
 (
 lir
 -
@@ -24908,7 +24902,6 @@ mir
 >
 name
 (
-)
 )
 temp1
 )

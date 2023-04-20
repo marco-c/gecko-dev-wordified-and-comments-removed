@@ -5524,8 +5524,7 @@ arguments
 :
 name
 :
-PropertyName
-*
+PropertyKey
 result_type
 :
 Value
@@ -5601,6 +5600,9 @@ instruction
 guard
 :
 true
+folds_to
+:
+custom
 congruent_to
 :
 if_operands_equal
