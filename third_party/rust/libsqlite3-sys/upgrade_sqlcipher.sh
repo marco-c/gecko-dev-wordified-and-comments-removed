@@ -85,7 +85,7 @@ SQLCIPHER_VERSION
 .
 5
 .
-1
+2
 "
 #
 Download

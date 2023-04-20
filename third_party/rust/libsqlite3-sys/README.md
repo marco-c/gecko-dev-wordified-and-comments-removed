@@ -500,7 +500,7 @@ version
 "
 0
 .
-27
+28
 .
 0
 "
@@ -2064,6 +2064,19 @@ create_collation
 html
 )
 .
+*
+winsqlite3
+allows
+linking
+against
+the
+SQLite
+present
+in
+newer
+versions
+of
+Windows
 #
 #
 Notes
@@ -2220,7 +2233,7 @@ currently
 SQLite
 3
 .
-38
+39
 .
 0
 (
@@ -2229,7 +2242,7 @@ of
 rusqlite
 0
 .
-27
+28
 .
 0
 /
@@ -2238,7 +2251,7 @@ libsqlite3
 sys
 0
 .
-24
+25
 .
 0
 )
@@ -2280,7 +2293,7 @@ version
 "
 0
 .
-27
+28
 .
 0
 "
@@ -2314,7 +2327,7 @@ will
 also
 honor
 a
-LIBSQLITE_FLAGS
+LIBSQLITE3_FLAGS
 variable
 which
 can

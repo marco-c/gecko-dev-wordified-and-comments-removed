@@ -114,7 +114,7 @@ version
 "
 0
 .
-24
+25
 .
 2
 "
@@ -148,6 +148,13 @@ to
 the
 libsqlite3
 library
+"
+readme
+=
+"
+README
+.
+md
 "
 keywords
 =
@@ -222,7 +229,7 @@ version
 "
 0
 .
-59
+60
 "
 features
 =
@@ -466,9 +473,6 @@ winsqlite3
 [
 "
 min_sqlite_version_3_7_16
-"
-"
-buildtime_bindgen
 "
 ]
 with

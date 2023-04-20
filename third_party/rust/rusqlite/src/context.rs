@@ -314,9 +314,7 @@ length
 c_int
 :
 :
-max_value
-(
-)
+MAX
 as
 usize
 {
@@ -409,9 +407,7 @@ length
 c_int
 :
 :
-max_value
-(
-)
+MAX
 as
 usize
 {

@@ -38,9 +38,6 @@ crate
 struct
 SmallCString
 (
-smallvec
-:
-:
 SmallVec
 <
 [

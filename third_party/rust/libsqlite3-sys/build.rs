@@ -21,9 +21,6 @@ win_target
 >
 bool
 {
-std
-:
-:
 env
 :
 :
@@ -67,9 +64,6 @@ android_target
 >
 bool
 {
-std
-:
-:
 env
 :
 :
@@ -106,9 +100,6 @@ str
 >
 bool
 {
-std
-:
-:
 env
 :
 :
@@ -1423,9 +1414,6 @@ cfg
 .
 include
 (
-std
-:
-:
 env
 :
 :
@@ -3644,9 +3632,7 @@ value
 i32
 :
 :
-min_value
-(
-)
+MIN
 as
 i64
 &
@@ -3657,9 +3643,7 @@ value
 i32
 :
 :
-max_value
-(
-)
+MAX
 as
 i64
 {

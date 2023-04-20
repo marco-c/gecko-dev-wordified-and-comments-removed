@@ -540,6 +540,7 @@ fn
 open
 (
 &
+mut
 self
 )
 -
