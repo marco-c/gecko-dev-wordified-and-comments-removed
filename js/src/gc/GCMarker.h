@@ -1030,6 +1030,15 @@ reset
 ;
 template
 <
+uint32_t
+=
+gc
+:
+:
+MarkingOptions
+:
+:
+None
 typename
 T
 >
