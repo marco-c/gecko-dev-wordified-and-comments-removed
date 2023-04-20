@@ -7565,10 +7565,6 @@ ip_address
 "
 "
 :
-location
-"
-"
-:
 logging
 "
 "
@@ -8004,10 +8000,6 @@ histogram_percentile_counter
 "
 :
 ip_address
-"
-"
-:
-location
 "
 "
 :

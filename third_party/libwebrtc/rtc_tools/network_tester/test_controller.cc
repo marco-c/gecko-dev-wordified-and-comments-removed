@@ -197,12 +197,8 @@ Start
 packet_sender_thread_
 -
 >
-Invoke
-<
-void
->
+BlockingCall
 (
-RTC_FROM_HERE
 [
 &
 ]
@@ -288,12 +284,8 @@ test_controller_thread_checker_
 packet_sender_thread_
 -
 >
-Invoke
-<
-void
->
+BlockingCall
 (
-RTC_FROM_HERE
 [
 this
 ]

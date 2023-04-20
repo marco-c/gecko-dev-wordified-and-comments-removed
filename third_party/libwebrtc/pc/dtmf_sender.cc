@@ -611,7 +611,6 @@ Create
 ;
 QueueInsertDtmf
 (
-RTC_FROM_HERE
 1
 )
 ;
@@ -700,13 +699,6 @@ DtmfSender
 :
 QueueInsertDtmf
 (
-const
-rtc
-:
-:
-Location
-&
-posted_from
 uint32_t
 delay_ms
 )
@@ -987,7 +979,6 @@ first_tone_pos
 ;
 QueueInsertDtmf
 (
-RTC_FROM_HERE
 tone_gap
 )
 ;

@@ -100,15 +100,6 @@ h
 #
 include
 "
-rtc_base
-/
-location
-.
-h
-"
-#
-include
-"
 system_wrappers
 /
 include

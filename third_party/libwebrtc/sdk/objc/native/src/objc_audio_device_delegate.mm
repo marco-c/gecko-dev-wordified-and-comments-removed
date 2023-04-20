@@ -859,12 +859,8 @@ else
 thread
 -
 >
-Invoke
-<
-void
->
+BlockingCall
 (
-RTC_FROM_HERE
 [
 block
 ]
