@@ -10277,9 +10277,6 @@ ScriptSource
 :
 initFromOptions
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
