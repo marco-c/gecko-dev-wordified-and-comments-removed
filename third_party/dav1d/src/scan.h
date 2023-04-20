@@ -20,7 +20,7 @@ levels
 .
 h
 "
-extern
+EXTERN
 const
 uint16_t
 *

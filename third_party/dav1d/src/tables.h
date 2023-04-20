@@ -29,7 +29,7 @@ levels
 .
 h
 "
-extern
+EXTERN
 const
 uint8_t
 dav1d_al_part_ctx
@@ -43,7 +43,7 @@ N_BL_LEVELS
 N_PARTITIONS
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_block_sizes
@@ -57,7 +57,7 @@ N_PARTITIONS
 2
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_block_dimensions
@@ -85,7 +85,7 @@ ctx
 }
 TxfmInfo
 ;
-extern
+EXTERN
 const
 TxfmInfo
 dav1d_txfm_dimensions
@@ -93,7 +93,7 @@ dav1d_txfm_dimensions
 N_RECT_TX_SIZES
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_max_txfm_size_for_bs
@@ -104,7 +104,7 @@ N_BS_SIZES
 4
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_txtp_from_uvmode
@@ -112,7 +112,7 @@ dav1d_txtp_from_uvmode
 N_UV_INTRA_PRED_MODES
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_comp_inter_pred_modes
@@ -123,7 +123,7 @@ N_COMP_INTER_PRED_MODES
 2
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_partition_type_count
@@ -131,7 +131,7 @@ dav1d_partition_type_count
 N_BL_LEVELS
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_tx_types_per_set
@@ -139,7 +139,7 @@ dav1d_tx_types_per_set
 40
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_filter_mode_to_y_mode
@@ -147,7 +147,7 @@ dav1d_filter_mode_to_y_mode
 5
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_ymode_size_context
@@ -155,7 +155,7 @@ dav1d_ymode_size_context
 N_BS_SIZES
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_lo_ctx_offsets
@@ -169,7 +169,7 @@ dav1d_lo_ctx_offsets
 5
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_skip_ctx
@@ -180,7 +180,7 @@ dav1d_skip_ctx
 5
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_tx_type_class
@@ -188,7 +188,7 @@ dav1d_tx_type_class
 N_TX_TYPES_PLUS_LL
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_filter_2d
@@ -199,7 +199,7 @@ DAV1D_N_FILTERS
 DAV1D_N_FILTERS
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_filter_dir
@@ -210,7 +210,7 @@ N_2D_FILTERS
 2
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_intra_mode_context
@@ -218,7 +218,7 @@ dav1d_intra_mode_context
 N_INTRA_PRED_MODES
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_wedge_ctx_lut
@@ -451,12 +451,12 @@ BS_8x16
 BS_8x8
 )
 ;
-extern
+EXTERN
 const
 Dav1dWarpedMotionParams
 dav1d_default_wm_params
 ;
-extern
+EXTERN
 const
 int8_t
 dav1d_cdef_directions
@@ -467,7 +467,7 @@ dav1d_cdef_directions
 2
 ]
 ;
-extern
+EXTERN
 const
 uint16_t
 dav1d_sgr_params
@@ -478,7 +478,7 @@ dav1d_sgr_params
 2
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_sgr_x_by_x
@@ -486,7 +486,7 @@ dav1d_sgr_x_by_x
 256
 ]
 ;
-extern
+EXTERN
 const
 int8_t
 dav1d_mc_subpel_filters
@@ -500,7 +500,7 @@ dav1d_mc_subpel_filters
 8
 ]
 ;
-extern
+EXTERN
 const
 int8_t
 dav1d_mc_warp_filter
@@ -511,7 +511,7 @@ dav1d_mc_warp_filter
 8
 ]
 ;
-extern
+EXTERN
 const
 int8_t
 dav1d_resize_filter
@@ -522,7 +522,7 @@ dav1d_resize_filter
 8
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_sm_weights
@@ -530,7 +530,7 @@ dav1d_sm_weights
 128
 ]
 ;
-extern
+EXTERN
 const
 uint16_t
 dav1d_dr_intra_derivative
@@ -538,7 +538,7 @@ dav1d_dr_intra_derivative
 44
 ]
 ;
-extern
+EXTERN
 const
 int8_t
 dav1d_filter_intra_taps
@@ -549,7 +549,7 @@ dav1d_filter_intra_taps
 64
 ]
 ;
-extern
+EXTERN
 const
 uint8_t
 dav1d_obmc_masks
@@ -557,7 +557,7 @@ dav1d_obmc_masks
 64
 ]
 ;
-extern
+EXTERN
 const
 int16_t
 dav1d_gaussian_sequence

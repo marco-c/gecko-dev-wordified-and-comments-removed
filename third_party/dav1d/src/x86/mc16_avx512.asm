@@ -10480,7 +10480,7 @@ buf
 +
 12
 ]
-cmp
+sub
 wd
 16
 je

@@ -2116,7 +2116,7 @@ Dav1dFilmGrainData
 const
 data
 const
-int
+size_t
 pw
 const
 uint8_t
@@ -2363,7 +2363,7 @@ offsets
 ;
 for
 (
-int
+unsigned
 bx
 =
 0
@@ -2391,9 +2391,14 @@ BLOCK_SIZE
 >
 >
 sx
+(
+int
+)
+(
 pw
 -
 bx
+)
 )
 ;
 if

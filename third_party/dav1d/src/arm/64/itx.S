@@ -4497,7 +4497,7 @@ o3
 v7
 .
 4s
-rshrn
+sqrshrn
 \
 o0
 \
@@ -4514,7 +4514,7 @@ o0
 4s
 #
 12
-rshrn
+sqrshrn
 \
 o2
 \
@@ -4531,7 +4531,7 @@ o2
 4s
 #
 12
-rshrn
+sqrshrn
 \
 o1
 \
@@ -4548,7 +4548,7 @@ o1
 4s
 #
 12
-rshrn
+sqrshrn
 \
 o3
 \
@@ -4950,7 +4950,7 @@ v5
 v3
 .
 4s
-rshrn
+sqrshrn
 v18
 .
 4h
@@ -4959,7 +4959,7 @@ v18
 4s
 #
 12
-rshrn2
+sqrshrn2
 v18
 .
 8h
@@ -4968,7 +4968,7 @@ v19
 4s
 #
 12
-rshrn
+sqrshrn
 \
 o0
 \
@@ -4981,7 +4981,7 @@ v16
 4s
 #
 12
-rshrn2
+sqrshrn2
 \
 o0
 \
@@ -5008,7 +5008,7 @@ v18
 16b
 .
 endif
-rshrn
+sqrshrn
 \
 o1
 \
@@ -5021,7 +5021,7 @@ v6
 4s
 #
 12
-rshrn2
+sqrshrn2
 \
 o1
 \
@@ -5034,7 +5034,7 @@ v7
 4s
 #
 12
-rshrn
+sqrshrn
 \
 o3
 \
@@ -5047,7 +5047,7 @@ v4
 4s
 #
 12
-rshrn2
+sqrshrn2
 \
 o3
 \
