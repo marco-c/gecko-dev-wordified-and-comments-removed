@@ -83,6 +83,17 @@ hand
 #
 #
 #
+CMMFLAGS
++
+=
+[
+"
+-
+fobjc
+-
+arc
+"
+]
 COMPILE_FLAGS
 [
 "
