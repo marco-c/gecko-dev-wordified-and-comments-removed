@@ -50501,6 +50501,13 @@ ShouldGenerateComputedInfo
 )
 )
 {
+RemoveProperty
+(
+GridFragmentInfo
+(
+)
+)
+;
 const
 auto
 *
