@@ -99,6 +99,9 @@ enum
 "
 declarativeNetRequest
 "
+"
+declarativeNetRequestFeedback
+"
 ]
 "
 min_manifest_version
@@ -134,9 +137,6 @@ enum
 "
 :
 [
-"
-declarativeNetRequestFeedback
-"
 "
 declarativeNetRequestWithHostAccess
 "
