@@ -3045,6 +3045,17 @@ kwargs
 kwargs
 [
 "
+app_binary
+"
+]
+=
+self
+.
+app_binary
+        
+kwargs
+[
+"
 xpcshell
 "
 ]

@@ -4117,6 +4117,21 @@ application
 "
 )
 )
+        
+self
+.
+install_dir
+=
+os
+.
+path
+.
+dirname
+(
+self
+.
+binary_path
+)
     
 def
 uninstall_app
