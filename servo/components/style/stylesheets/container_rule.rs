@@ -738,7 +738,6 @@ fn
 traverse_container
 <
 E
-S
 F
 R
 >
@@ -752,7 +751,7 @@ originating_element_style
 Option
 <
 &
-S
+ComputedValues
 >
 evaluator
 :
@@ -779,7 +778,7 @@ E
 Option
 <
 &
-S
+ComputedValues
 >
 )
 -
@@ -1022,10 +1021,7 @@ originating_element_style
 Option
 <
 &
-Arc
-<
 ComputedValues
->
 >
 )
 -
@@ -1088,6 +1084,9 @@ TraversalResult
 InProgress
 }
 ;
+&
+*
+*
 data
 .
 styles
@@ -1215,7 +1214,7 @@ style
 =
 style
 .
-clone
+to_arc
 (
 )
 ;
@@ -1257,10 +1256,7 @@ originating_element_style
 Option
 <
 &
-Arc
-<
 ComputedValues
->
 >
 )
 -
@@ -1340,10 +1336,7 @@ originating_element_style
 Option
 <
 &
-Arc
-<
 ComputedValues
->
 >
 invalidation_flags
 :
