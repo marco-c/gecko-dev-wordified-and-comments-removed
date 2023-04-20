@@ -23376,9 +23376,11 @@ metrics
 >
 aveCharWidth
 :
-mFUnitsConvFactor
-*
 advance
+/
+65536
+.
+0
 ;
 }
 }
