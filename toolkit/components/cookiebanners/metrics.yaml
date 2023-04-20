@@ -225,8 +225,6 @@ reject
 -
 reject_or_accept
 -
-detect_only
--
 invalid
 telemetry_mirror
 :
