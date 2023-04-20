@@ -72,9 +72,7 @@ require
 .
 .
 /
-node
--
-ip
+node_ip
 '
 )
 const
