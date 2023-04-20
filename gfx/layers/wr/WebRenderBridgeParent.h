@@ -717,6 +717,13 @@ ipc
 IPCResult
 RecvParentCommands
 (
+const
+wr
+:
+:
+IdNamespace
+&
+aIdNamespace
 nsTArray
 <
 WebRenderParentCommand
