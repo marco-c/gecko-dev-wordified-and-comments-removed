@@ -1771,7 +1771,14 @@ browser
 .
 loadURI
 (
+Services
+.
+io
+.
+newURI
+(
 offlinePagePath
+)
 {
 triggeringPrincipal
 }
