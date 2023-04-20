@@ -703,11 +703,6 @@ AudioStream
 h
 "
 "
-AudioThreadRegistry
-.
-h
-"
-"
 BackgroundVideoDecodingPermissionObserver
 .
 h
@@ -739,6 +734,11 @@ h
 "
 "
 ByteWriter
+.
+h
+"
+"
+CallbackThreadRegistry
 .
 h
 "
@@ -1319,6 +1319,11 @@ cpp
 "
 "
 BitWriter
+.
+cpp
+"
+"
+CallbackThreadRegistry
 .
 cpp
 "

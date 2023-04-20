@@ -42,7 +42,7 @@ namespace
 mozilla
 {
 class
-AudioThreadRegistry
+CallbackThreadRegistry
 ;
 namespace
 CubebUtils
@@ -98,12 +98,6 @@ ShutdownLibrary
 ;
 bool
 SandboxEnabled
-(
-)
-;
-AudioThreadRegistry
-*
-GetAudioThreadRegistry
 (
 )
 ;
