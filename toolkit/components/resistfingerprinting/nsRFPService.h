@@ -442,6 +442,7 @@ KeyboardHashKey
 &
 aOther
 )
+noexcept
 ;
 ~
 KeyboardHashKey
@@ -819,6 +820,9 @@ nsRFPService
 =
 default
 ;
+nsCString
+mInitialTZValue
+;
 void
 UpdateRFPPref
 (
@@ -959,9 +963,6 @@ ClearSessionKey
 bool
 aIsPrivate
 )
-;
-nsCString
-mInitialTZValue
 ;
 Maybe
 <
