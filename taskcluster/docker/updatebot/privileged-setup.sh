@@ -126,8 +126,6 @@ recommends
 \
 arcanist
 \
-bzr
-\
 ca
 -
 certificates
@@ -145,16 +143,6 @@ gcc
 libc6
 -
 dev
-\
-python
--
-requests
-\
-python
--
-requests
--
-unixsocket
 \
 python3
 -
@@ -416,7 +404,7 @@ cloud_sql_proxy
 go
 mod
 init
-.
+cloud_sql_proxy
 go
 get
 github

@@ -1315,7 +1315,7 @@ try
 )
 parent
 :
-debian10
+debian11
 -
 base
 decision
