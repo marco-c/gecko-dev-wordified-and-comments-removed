@@ -212,7 +212,7 @@ X509
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -227,7 +227,9 @@ psm
 /
 X509
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
