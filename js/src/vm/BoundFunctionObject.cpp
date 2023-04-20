@@ -1536,6 +1536,11 @@ class_
 "
 BoundFunctionObject
 "
+JSCLASS_HAS_CACHED_PROTO
+(
+JSProto_BoundFunction
+)
+|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 BoundFunctionObject
