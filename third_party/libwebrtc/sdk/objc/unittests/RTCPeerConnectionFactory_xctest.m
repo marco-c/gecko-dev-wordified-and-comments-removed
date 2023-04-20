@@ -710,10 +710,6 @@ crash
 )
 ;
 }
-#
-if
-!
-TARGET_IPHONE_SIMULATOR
 -
 (
 void
@@ -739,6 +735,12 @@ alloc
 ]
 init
 ]
+;
+config
+.
+sdpSemantics
+=
+RTCSdpSemanticsPlanB
 ;
 RTC_OBJC_TYPE
 (
@@ -891,6 +893,12 @@ alloc
 ]
 init
 ]
+;
+config
+.
+sdpSemantics
+=
+RTCSdpSemanticsPlanB
 ;
 RTC_OBJC_TYPE
 (
@@ -1140,8 +1148,6 @@ crash
 )
 ;
 }
-#
-endif
 -
 (
 void

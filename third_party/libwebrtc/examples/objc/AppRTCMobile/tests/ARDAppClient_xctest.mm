@@ -930,10 +930,6 @@ pragma
 mark
 -
 Cases
-#
-if
-!
-TARGET_IPHONE_SIMULATOR
 -
 (
 void
@@ -1267,8 +1263,6 @@ error
 ]
 ;
 }
-#
-endif
 #
 if
 !
