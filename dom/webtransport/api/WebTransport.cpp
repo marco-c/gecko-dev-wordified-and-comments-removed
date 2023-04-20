@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+RefPtr
+.
+h
+"
+#
+include
+"
 nsUTF8Utils
 .
 h
