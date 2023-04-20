@@ -1405,7 +1405,7 @@ NS_OK
 {
 mCallbackTarget
 =
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

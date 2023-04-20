@@ -1467,7 +1467,7 @@ target
 {
 target
 =
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

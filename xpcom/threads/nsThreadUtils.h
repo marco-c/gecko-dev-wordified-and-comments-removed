@@ -7980,12 +7980,6 @@ mLastCurrentThread
 ;
 nsIEventTarget
 *
-GetCurrentEventTarget
-(
-)
-;
-nsIEventTarget
-*
 GetMainThreadEventTarget
 (
 )

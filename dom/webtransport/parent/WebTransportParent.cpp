@@ -427,7 +427,7 @@ parent
 >
 mOwningEventTarget
 =
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

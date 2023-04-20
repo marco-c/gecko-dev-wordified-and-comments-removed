@@ -1212,7 +1212,7 @@ nsIEventTarget
 >
 target
 =
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

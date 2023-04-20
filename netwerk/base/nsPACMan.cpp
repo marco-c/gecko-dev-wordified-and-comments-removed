@@ -2499,7 +2499,7 @@ forget
 )
 )
 :
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 -

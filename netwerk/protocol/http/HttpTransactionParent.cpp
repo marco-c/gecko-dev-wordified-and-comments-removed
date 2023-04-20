@@ -494,7 +494,7 @@ eventsink
 ;
 mTargetThread
 =
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

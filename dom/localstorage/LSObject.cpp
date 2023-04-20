@@ -494,7 +494,7 @@ aObject
 )
 mOwningEventTarget
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

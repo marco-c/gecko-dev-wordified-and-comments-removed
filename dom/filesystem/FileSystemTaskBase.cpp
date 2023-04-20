@@ -642,7 +642,7 @@ aParent
 )
 mBackgroundEventTarget
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

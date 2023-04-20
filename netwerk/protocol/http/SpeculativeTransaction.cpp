@@ -213,7 +213,7 @@ resolver
 >
 FetchHTTPSRRInternal
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 getter_AddRefs

@@ -5377,7 +5377,7 @@ DatastoreOperationBase
 )
 mOwningEventTarget
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

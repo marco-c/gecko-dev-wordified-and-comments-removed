@@ -143,7 +143,7 @@ aCopier
 )
 mTarget
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

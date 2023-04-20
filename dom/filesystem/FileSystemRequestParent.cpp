@@ -418,7 +418,7 @@ aPath
 )
 mBackgroundEventTarget
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

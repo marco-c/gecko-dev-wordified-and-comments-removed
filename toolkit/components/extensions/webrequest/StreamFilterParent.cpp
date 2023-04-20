@@ -381,7 +381,7 @@ StreamFilterParent
 :
 mMainThread
 (
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

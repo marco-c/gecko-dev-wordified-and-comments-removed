@@ -293,7 +293,7 @@ image_mem_shared_unmap_min_expiration_ms_AtStartup
 mozilla
 :
 :
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

@@ -1985,7 +1985,7 @@ this
 mozilla
 :
 :
-GetCurrentEventTarget
+GetCurrentSerialEventTarget
 (
 )
 attrs
