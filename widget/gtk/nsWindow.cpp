@@ -29381,6 +29381,7 @@ mWaylandVsyncSource
 new
 WaylandVsyncSource
 (
+this
 )
 ;
 mWaylandVsyncDispatcher
