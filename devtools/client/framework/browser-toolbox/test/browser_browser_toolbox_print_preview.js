@@ -170,11 +170,6 @@ ToolboxTask
 await
 initBrowserToolboxTask
 (
-{
-enableBrowserToolboxFission
-:
-true
-}
 )
 ;
 await
