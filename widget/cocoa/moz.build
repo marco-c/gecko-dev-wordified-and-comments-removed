@@ -214,11 +214,6 @@ nsLookAndFeel
 mm
 "
 "
-nsMacCursor
-.
-mm
-"
-"
 nsMacDockSupport
 .
 mm
