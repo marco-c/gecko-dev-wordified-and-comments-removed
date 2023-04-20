@@ -8,7 +8,8 @@ function
 runTest
 (
 src
-expectation
+process
+decoder
 )
 {
 info
@@ -43,7 +44,8 @@ await
 play
 (
 tab
-expectation
+process
+decoder
 )
 ;
 info
@@ -225,6 +227,11 @@ ogg
 Utility
 Generic
 "
+"
+vorbis
+audio
+decoder
+"
 )
 ;
 const
@@ -329,6 +336,11 @@ ogg
 "
 Utility
 Generic
+"
+"
+vorbis
+audio
+decoder
 "
 )
 ;

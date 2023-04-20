@@ -222,6 +222,11 @@ play
 (
 tab
 expectation
+.
+process
+expectation
+.
+decoder
 )
 ;
 info
@@ -236,6 +241,8 @@ await
 crashDecoder
 (
 expectation
+.
+process
 )
 ;
 if
@@ -305,6 +312,11 @@ play
 (
 tab
 expectation
+.
+process
+expectation
+.
+decoder
 )
 ;
 info
