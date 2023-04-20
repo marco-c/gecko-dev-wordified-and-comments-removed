@@ -14,15 +14,6 @@ commands
 js
 "
 "
-content
--
-process
--
-forward
-.
-js
-"
-"
 eager
 -
 ecma

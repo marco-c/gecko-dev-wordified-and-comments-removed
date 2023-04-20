@@ -31,13 +31,6 @@ service
 js
 "
 "
-content
--
-process
-.
-js
-"
-"
 document
 -
 events
