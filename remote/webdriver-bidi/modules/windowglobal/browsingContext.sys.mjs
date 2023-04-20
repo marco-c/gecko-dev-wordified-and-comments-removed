@@ -295,6 +295,13 @@ id
 navigation
 :
 null
+timestamp
+:
+Date
+.
+now
+(
+)
 url
 :
 data
