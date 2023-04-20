@@ -1165,6 +1165,15 @@ display
 :
 block
 ;
+-
+moz
+-
+box
+-
+flex
+:
+1
+;
 }
 label
 [
