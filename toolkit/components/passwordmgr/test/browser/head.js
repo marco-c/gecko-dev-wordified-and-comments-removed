@@ -65,7 +65,7 @@ jsm
 "
 )
 ;
-const
+var
 {
 LoginTestUtils
 }
