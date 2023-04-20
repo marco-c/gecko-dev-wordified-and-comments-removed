@@ -1366,7 +1366,7 @@ cookieBehavior
 "
 CookieBehavior
 .
-ACCEPT_NON_TRACKERS
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
 )
 ;
 final
@@ -1393,7 +1393,7 @@ pbmode
 "
 CookieBehavior
 .
-ACCEPT_NON_TRACKERS
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
 )
 ;
 final
@@ -4254,6 +4254,9 @@ ACCEPT_VISITED
 CookieBehavior
 .
 ACCEPT_NON_TRACKERS
+CookieBehavior
+.
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
 }
 )
 public
