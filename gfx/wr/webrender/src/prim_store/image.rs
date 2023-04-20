@@ -1151,6 +1151,9 @@ frame_state
 gpu_cache
 frame_state
 .
+frame_gpu_data
+frame_state
+.
 rg_builder
 None
 descriptor
@@ -1172,6 +1175,7 @@ frame_state
 surface_builder
 |
 rg_builder
+_
 |
 {
 let

@@ -2957,11 +2957,6 @@ render_tasks
 :
 &
 RenderTaskGraph
-gpu_cache
-:
-&
-mut
-GpuCache
 )
 {
 profile_scope
@@ -3286,7 +3281,6 @@ to_instance
 (
 &
 target_rect
-gpu_cache
 )
 )
 ;
@@ -3314,7 +3308,6 @@ to_instance
 (
 &
 target_rect
-gpu_cache
 )
 )
 ;
@@ -3342,7 +3335,6 @@ to_instance
 (
 &
 target_rect
-gpu_cache
 )
 )
 ;

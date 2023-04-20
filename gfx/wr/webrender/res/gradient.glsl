@@ -500,7 +500,7 @@ texels
 2
 ]
 =
-fetch_from_gpu_cache_2
+fetch_from_gpu_buffer_2
 (
 v_gradient_address
 .

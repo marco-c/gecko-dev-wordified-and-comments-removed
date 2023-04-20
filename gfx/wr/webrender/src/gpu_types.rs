@@ -2492,7 +2492,7 @@ PrimitiveHeaderIndex
 pub
 polygons_address
 :
-GpuCacheAddress
+i32
 pub
 z
 :
@@ -2534,10 +2534,6 @@ prim_header_index
 instance
 .
 polygons_address
-.
-as_int
-(
-)
 instance
 .
 z

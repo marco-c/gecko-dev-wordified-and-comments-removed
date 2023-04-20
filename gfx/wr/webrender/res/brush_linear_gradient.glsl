@@ -65,6 +65,7 @@ include
 shared
 prim_shared
 brush
+gpu_buffer
 gradient_shared
 /
 /
@@ -350,8 +351,8 @@ address
 =
 swgl_validateGradient
 (
-sGpuCache
-get_gpu_cache_uv
+sGpuBuffer
+get_gpu_buffer_uv
 (
 v_gradient_address
 .
@@ -379,7 +380,7 @@ return
 }
 swgl_commitLinearGradientRGBA8
 (
-sGpuCache
+sGpuBuffer
 address
 GRADIENT_ENTRIES
 true

@@ -62,6 +62,7 @@ shared
 rect
 render_task
 gpu_cache
+gpu_buffer
 gradient
 varying
 vec2
@@ -304,8 +305,8 @@ address
 =
 swgl_validateGradient
 (
-sGpuCache
-get_gpu_cache_uv
+sGpuBuffer
+get_gpu_buffer_uv
 (
 v_gradient_address
 .
@@ -333,7 +334,7 @@ return
 }
 swgl_commitLinearGradientRGBA8
 (
-sGpuCache
+sGpuBuffer
 address
 GRADIENT_ENTRIES
 false

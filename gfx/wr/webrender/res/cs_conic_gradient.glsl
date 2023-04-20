@@ -62,6 +62,7 @@ shared
 rect
 render_task
 gpu_cache
+gpu_buffer
 gradient
 #
 define

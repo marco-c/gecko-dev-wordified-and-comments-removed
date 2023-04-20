@@ -56,9 +56,6 @@ MPL
 .
 *
 /
-#
-ifdef
-WR_VERTEX_SHADER
 uniform
 HIGHP_SAMPLER_FLOAT
 sampler2D
@@ -165,5 +162,3 @@ ivec2
 )
 ;
 }
-#
-endif
