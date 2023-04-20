@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_PendingAnimationTracker_h
+mozilla_dom_PendingAnimationTracker_h
 #
 define
-mozilla_PendingAnimationTracker_h
+mozilla_dom_PendingAnimationTracker_h
 #
 include
 "
