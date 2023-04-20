@@ -981,9 +981,6 @@ bool
 isHttp3
 ;
 bool
-webTransport
-;
-bool
 hasIPHintAddress
 ;
 nsCString
