@@ -5111,7 +5111,7 @@ expect_val_
 attr
 -
 >
-GetString
+string_view
 (
 )
 )

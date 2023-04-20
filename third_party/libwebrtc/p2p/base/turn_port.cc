@@ -5945,7 +5945,7 @@ set_realm
 realm_attr
 -
 >
-GetString
+string_view
 (
 )
 )
@@ -5998,7 +5998,7 @@ set_nonce
 nonce_attr
 -
 >
-GetString
+string_view
 (
 )
 )
@@ -7809,7 +7809,7 @@ set_realm
 realm_attr
 -
 >
-GetString
+string_view
 (
 )
 )
@@ -7872,7 +7872,7 @@ set_nonce
 nonce_attr
 -
 >
-GetString
+string_view
 (
 )
 )
@@ -8079,7 +8079,7 @@ set_realm
 realm_attr
 -
 >
-GetString
+string_view
 (
 )
 )
@@ -8140,7 +8140,7 @@ set_nonce
 nonce_attr
 -
 >
-GetString
+string_view
 (
 )
 )

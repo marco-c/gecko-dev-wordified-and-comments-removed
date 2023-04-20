@@ -405,6 +405,8 @@ TCPTYPE_SIMOPEN_STR
 ;
 enum
 IcePriorityValue
+:
+uint8_t
 {
 ICE_TYPE_PREFERENCE_RELAY_TLS
 =
@@ -1650,7 +1652,10 @@ remote_username
 )
 const
 ;
-void
+std
+:
+:
+string
 CreateStunUsername
 (
 const
@@ -1660,12 +1665,6 @@ std
 string
 &
 remote_username
-std
-:
-:
-string
-*
-stun_username_attr_str
 )
 const
 ;
