@@ -1656,6 +1656,9 @@ isWindowPrivate
 =
 >
 false
+permanentPrivateBrowsing
+:
+false
 }
 DownloadsViewUI
 :
