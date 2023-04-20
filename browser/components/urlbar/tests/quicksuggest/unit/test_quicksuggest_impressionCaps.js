@@ -655,7 +655,7 @@ gSandbox
 .
 stub
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 "
 _getStartupDateMs
 "
@@ -10822,13 +10822,13 @@ correct
 "
 )
 ;
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _impressionStats
 =
 null
 ;
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _loadImpressionStats
 (
@@ -10838,7 +10838,7 @@ Assert
 .
 deepEqual
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _impressionStats
 {
@@ -11028,7 +11028,7 @@ Assert
 .
 deepEqual
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _impressionStats
 expectedStats
@@ -11066,7 +11066,7 @@ Assert
 .
 deepEqual
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _impressionStats
 expectedStats
@@ -11108,7 +11108,7 @@ Assert
 .
 deepEqual
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _impressionStats
 expectedStats
@@ -11207,7 +11207,7 @@ Assert
 .
 deepEqual
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _impressionStats
 expectedStats
@@ -11285,7 +11285,7 @@ Assert
 .
 deepEqual
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _impressionStats
 expectedStats
@@ -11368,7 +11368,7 @@ Assert
 .
 deepEqual
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _impressionStats
 stats
@@ -11475,7 +11475,7 @@ async
 =
 >
 {
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _resetElapsedImpressionCounters
 (
@@ -11669,7 +11669,7 @@ async
 =
 >
 {
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _resetElapsedImpressionCounters
 (
@@ -11814,7 +11814,7 @@ async
 =
 >
 {
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _resetElapsedImpressionCounters
 (
@@ -11959,7 +11959,7 @@ async
 =
 >
 {
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _resetElapsedImpressionCounters
 (
@@ -12104,7 +12104,7 @@ async
 =
 >
 {
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _resetElapsedImpressionCounters
 (
@@ -12126,7 +12126,7 @@ async
 =
 >
 {
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _resetElapsedImpressionCounters
 (
@@ -12199,7 +12199,7 @@ async
 =
 >
 {
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _resetElapsedImpressionCounters
 (
@@ -12221,7 +12221,7 @@ async
 =
 >
 {
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _resetElapsedImpressionCounters
 (
@@ -12366,7 +12366,7 @@ async
 =
 >
 {
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _resetElapsedImpressionCounters
 (
@@ -12511,7 +12511,7 @@ async
 =
 >
 {
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _resetElapsedImpressionCounters
 (
@@ -12533,7 +12533,7 @@ async
 =
 >
 {
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _resetElapsedImpressionCounters
 (
@@ -12606,7 +12606,7 @@ async
 =
 >
 {
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _resetElapsedImpressionCounters
 (
@@ -12628,7 +12628,7 @@ async
 =
 >
 {
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _resetElapsedImpressionCounters
 (
@@ -12773,7 +12773,7 @@ async
 =
 >
 {
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _resetElapsedImpressionCounters
 (
@@ -12906,7 +12906,7 @@ gSandbox
 .
 spy
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 "
 _resetElapsedImpressionCounters
 "
@@ -13115,13 +13115,13 @@ gSandbox
 .
 spy
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 "
 _resetElapsedImpressionCounters
 "
 )
 ;
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _setImpressionCountersResetInterval
 (
@@ -13142,7 +13142,7 @@ r
 )
 )
 ;
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _setImpressionCountersResetInterval
 (
@@ -13302,7 +13302,7 @@ gSandbox
 .
 stub
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 "
 _getStartupDateMs
 "
@@ -13365,7 +13365,7 @@ stats
 "
 )
 ;
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _impressionStats
 =

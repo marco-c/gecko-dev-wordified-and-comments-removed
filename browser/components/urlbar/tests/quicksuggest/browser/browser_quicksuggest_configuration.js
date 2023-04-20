@@ -183,7 +183,7 @@ sandbox
 .
 spy
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 "
 _updateFeatureState
 "
@@ -291,7 +291,7 @@ sandbox
 .
 spy
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 "
 _updateFeatureState
 "

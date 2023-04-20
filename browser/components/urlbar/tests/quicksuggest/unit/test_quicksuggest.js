@@ -59,7 +59,7 @@ TIMESTAMP_TEMPLATE
 TIMESTAMP_LENGTH
 }
 =
-UrlbarProviderQuickSuggest
+QuickSuggest
 ;
 const
 TIMESTAMP_SEARCH_STRING
@@ -5331,7 +5331,7 @@ blockedSuggestionsAPI
 )
 {
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 clearBlockedSuggestions
 (
@@ -5341,7 +5341,7 @@ Assert
 .
 equal
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _blockedDigests
 .
@@ -5441,7 +5441,7 @@ i
 )
 {
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 blockSuggestion
 (
@@ -5474,7 +5474,7 @@ Assert
 equal
 (
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 isSuggestionBlocked
 (
@@ -5516,7 +5516,7 @@ Assert
 ok
 (
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 isSuggestionBlocked
 (
@@ -5536,7 +5536,7 @@ Assert
 .
 equal
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _blockedDigests
 .
@@ -5628,7 +5628,7 @@ array
 )
 ;
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _blockTaskQueue
 .
@@ -5647,7 +5647,7 @@ Assert
 ok
 (
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 isSuggestionBlocked
 (
@@ -5667,7 +5667,7 @@ Assert
 .
 equal
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _blockedDigests
 .
@@ -5702,7 +5702,7 @@ block
 "
 ;
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 blockSuggestion
 (
@@ -5729,7 +5729,7 @@ Assert
 ok
 (
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 isSuggestionBlocked
 (
@@ -5749,7 +5749,7 @@ Assert
 .
 equal
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _blockedDigests
 .
@@ -5870,7 +5870,7 @@ array
 push
 (
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _getDigest
 (
@@ -5896,7 +5896,7 @@ array
 )
 ;
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _blockTaskQueue
 .
@@ -5915,7 +5915,7 @@ Assert
 ok
 (
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 isSuggestionBlocked
 (
@@ -5935,7 +5935,7 @@ Assert
 .
 equal
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _blockedDigests
 .
@@ -5963,7 +5963,7 @@ blockedDigests
 )
 ;
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _blockTaskQueue
 .
@@ -5984,7 +5984,7 @@ ok
 !
 (
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 isSuggestionBlocked
 (
@@ -6007,7 +6007,7 @@ Assert
 .
 equal
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _blockedDigests
 .
@@ -6030,7 +6030,7 @@ urls
 )
 {
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 blockSuggestion
 (
@@ -6051,7 +6051,7 @@ Assert
 ok
 (
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 isSuggestionBlocked
 (
@@ -6068,7 +6068,7 @@ url
 ;
 }
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 clearBlockedSuggestions
 (
@@ -6089,7 +6089,7 @@ ok
 !
 (
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 isSuggestionBlocked
 (
@@ -6112,7 +6112,7 @@ Assert
 .
 equal
 (
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 _blockedDigests
 .
@@ -6146,7 +6146,7 @@ REMOTE_SETTINGS_DATA
 )
 {
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 blockSuggestion
 (
@@ -6203,7 +6203,7 @@ matches
 ;
 }
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 clearBlockedSuggestions
 (

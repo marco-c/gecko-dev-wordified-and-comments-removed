@@ -2158,7 +2158,7 @@ let
 TIMESTAMP_TEMPLATE
 }
 =
-UrlbarProviderQuickSuggest
+QuickSuggest
 ;
 suggestion
 .
@@ -2587,7 +2587,7 @@ suggestions
 )
 {
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 blockSuggestion
 (
@@ -2631,7 +2631,7 @@ EXPECTED_REMOTE_SETTINGS_RESULT
 )
 ;
 await
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
 clearBlockedSuggestions
 (

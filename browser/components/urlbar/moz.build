@@ -110,6 +110,13 @@ sys
 mjs
 "
 "
+QuickSuggest
+.
+sys
+.
+mjs
+"
+"
 UrlbarController
 .
 sys
