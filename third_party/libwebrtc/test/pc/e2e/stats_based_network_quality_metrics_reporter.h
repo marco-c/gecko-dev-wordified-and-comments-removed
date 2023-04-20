@@ -330,13 +330,7 @@ packets_sent
 struct
 NetworkLayerStats
 {
-std
-:
-:
-unique_ptr
-<
 EmulatedNetworkStats
->
 stats
 ;
 std
