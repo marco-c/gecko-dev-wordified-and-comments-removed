@@ -1,14 +1,3 @@
-#
-!
-[
-allow
-(
-clippy
-:
-:
-mutex_atomic
-)
-]
 use
 crate
 :
