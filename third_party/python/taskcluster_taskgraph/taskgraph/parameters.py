@@ -176,15 +176,6 @@ str
 Required
 (
 "
-enable_always_target
-"
-)
-:
-bool
-        
-Required
-(
-"
 existing_tasks
 "
 )
@@ -264,19 +255,6 @@ Required
 (
 "
 next_version
-"
-)
-:
-Any
-(
-str
-None
-)
-        
-Required
-(
-"
-optimize_strategies
 "
 )
 :
@@ -591,12 +569,6 @@ do_not_optimize
 ]
         
 "
-enable_always_target
-"
-:
-True
-        
-"
 existing_tasks
 "
 :
@@ -684,12 +656,6 @@ S
         
 "
 next_version
-"
-:
-None
-        
-"
-optimize_strategies
 "
 :
 None

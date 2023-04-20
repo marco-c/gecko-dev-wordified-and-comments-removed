@@ -956,15 +956,6 @@ target_tasks_method
 parameters
 [
 "
-optimize_strategies
-"
-]
-=
-None
-    
-parameters
-[
-"
 optimize_target_tasks
 "
 ]
@@ -990,15 +981,6 @@ do_not_optimize
 =
 [
 ]
-    
-parameters
-[
-"
-enable_always_target
-"
-]
-=
-True
     
 parameters
 [
@@ -1227,11 +1209,14 @@ target_tasks_method
 ]
     
 if
+(
+        
 "
 DONTBUILD
 "
 in
 commit_message
+        
 and
 options
 [
@@ -1246,6 +1231,16 @@ hg
 -
 push
 "
+        
+and
+project
+!
+=
+"
+toolchains
+"
+    
+)
 :
         
 parameters
