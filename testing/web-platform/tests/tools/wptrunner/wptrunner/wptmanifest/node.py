@@ -46,6 +46,9 @@ self
 data
 =
 None
+comments
+=
+None
 )
 :
         
@@ -65,6 +68,15 @@ self
 .
 children
 =
+[
+]
+        
+self
+.
+comments
+=
+comments
+or
 [
 ]
     
@@ -293,6 +305,9 @@ __class__
 self
 .
 data
+self
+.
+comments
 )
         
 for
