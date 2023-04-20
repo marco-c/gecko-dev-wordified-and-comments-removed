@@ -216,7 +216,7 @@ mkdtemp
 (
 )
     
-extract_dir
+source_dir
 =
 os
 .
@@ -238,14 +238,14 @@ mozfile
 extract_tarball
 (
 infile
-extract_dir
+source_dir
 )
         
 application_ini_data
 =
 _extract_application_ini_data
 (
-extract_dir
+source_dir
 )
         
 build_variables
@@ -254,47 +254,23 @@ _get_build_variables
 (
             
 application_ini_data
-            
 arch
-            
 version
-=
-version
-            
-build_number
-=
 build_number
         
 )
         
 _copy_plain_deb_config
 (
-            
-input_template_dir
-=
 template_dir
-            
 source_dir
-=
-extract_dir
-        
 )
         
 _render_deb_templates
 (
-            
-input_template_dir
-=
 template_dir
-            
 source_dir
-=
-extract_dir
-            
 build_variables
-=
-build_variables
-        
 )
         
 app_name
@@ -314,7 +290,7 @@ mozpath
 .
 join
 (
-extract_dir
+source_dir
 app_name
 .
 lower
@@ -355,23 +331,14 @@ n
         
 _inject_deb_distribution_folder
 (
-            
 source_dir
-=
-extract_dir
-            
 app_name
-=
-app_name
-        
 )
         
 _generate_deb_archive
 (
             
 source_dir
-=
-extract_dir
             
 target_dir
 =
