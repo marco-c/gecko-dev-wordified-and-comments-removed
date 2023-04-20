@@ -123,9 +123,9 @@ version
 "
 6
 .
-3
+4
 .
-0
+1
 "
 authors
 =
@@ -262,11 +262,6 @@ dylni
 /
 os_str_bytes
 "
-resolver
-=
-"
-2
-"
 [
 package
 .
@@ -334,7 +329,7 @@ version
 "
 0
 .
-6
+7
 "
 optional
 =

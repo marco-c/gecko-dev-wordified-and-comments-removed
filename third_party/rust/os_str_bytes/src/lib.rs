@@ -736,6 +736,7 @@ unwrap
 [
 derive
 (
+Clone
 Debug
 Eq
 PartialEq
