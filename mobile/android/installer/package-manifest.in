@@ -543,6 +543,9 @@ Browser
 Chrome
 Files
 ]
+#
+ifdef
+NIGHTLY_BUILD
 BINPATH
 /
 chrome
@@ -557,6 +560,8 @@ chrome
 pdfjs
 /
 *
+#
+endif
 BINPATH
 /
 chrome

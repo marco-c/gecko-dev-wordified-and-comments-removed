@@ -1426,6 +1426,8 @@ initialized
 "
 :
 {
+try
+{
 lazy
 .
 PdfJs
@@ -1437,6 +1439,10 @@ this
 _isNewProfile
 )
 ;
+}
+catch
+{
+}
 break
 ;
 }

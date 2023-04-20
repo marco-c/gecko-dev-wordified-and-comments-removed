@@ -434,6 +434,9 @@ Warn
 "
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 pref
 (
 "
@@ -477,3 +480,5 @@ disabled
 true
 )
 ;
+#
+endif
