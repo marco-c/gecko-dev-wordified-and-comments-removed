@@ -7,11 +7,8 @@ enableShellAllocationMetadataBuilder
 (
 )
 ;
-gcparam
+setMarkStackLimit
 (
-"
-markStackLimit
-"
 1
 )
 ;

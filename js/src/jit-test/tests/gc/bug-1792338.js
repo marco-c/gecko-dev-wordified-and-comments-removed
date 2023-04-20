@@ -56,11 +56,8 @@ enqueueMark
 }
 )
 ;
-gcparam
+setMarkStackLimit
 (
-"
-markStackLimit
-"
 1
 )
 ;
