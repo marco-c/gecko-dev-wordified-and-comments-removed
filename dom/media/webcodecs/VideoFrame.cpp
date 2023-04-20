@@ -7777,6 +7777,10 @@ GetParentObject
 )
 const
 {
+AssertIsOnOwningThread
+(
+)
+;
 return
 mParent
 .
@@ -7806,6 +7810,10 @@ JSObject
 aGivenProto
 )
 {
+AssertIsOnOwningThread
+(
+)
+;
 return
 VideoFrame_Binding
 :
