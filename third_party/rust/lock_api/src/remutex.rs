@@ -2785,7 +2785,6 @@ F
 FnOnce
 (
 &
-mut
 T
 )
 -
@@ -2793,7 +2792,6 @@ T
 Option
 <
 &
-mut
 U
 >
 {
@@ -2816,7 +2814,6 @@ f
 unsafe
 {
 &
-mut
 *
 s
 .
