@@ -2,7 +2,8 @@ These
 tests
 confirm
 that
-Trust
+Private
+State
 Tokens
 protocol
 operations

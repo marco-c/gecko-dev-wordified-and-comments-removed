@@ -19,12 +19,11 @@ title
 Tests
 the
 Private
-State
 Token
 API
 '
 s
-hasPrivateStateToken
+hasPrivateToken
 behavior
 in
 documents
@@ -157,7 +156,7 @@ assert_equals
 (
 cachedDocument
 .
-hasPrivateStateToken
+hasPrivateToken
 (
 "
 https
@@ -168,6 +167,13 @@ issuer
 .
 example
 "
+'
+private
+-
+state
+-
+token
+'
 )
 undefined
 "
@@ -188,7 +194,7 @@ context
 ;
 }
 '
-hasPrivateStateToken
+hasPrivateToken
 in
 a
 destroyed
