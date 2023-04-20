@@ -56,12 +56,16 @@ GetContent
 )
 -
 >
-IsXULElement
+IsAnyOfXULElements
 (
 nsGkAtoms
 :
 :
 treecols
+nsGkAtoms
+:
+:
+treecol
 )
 )
 ;
