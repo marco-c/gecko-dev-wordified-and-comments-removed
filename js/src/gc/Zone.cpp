@@ -247,7 +247,7 @@ rt
 >
 gc
 .
-barrierTracer
+marker
 kind
 )
 jitHeapThreshold

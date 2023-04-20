@@ -991,6 +991,7 @@ shadowZoneFromAnyThread
 ;
 if
 (
+!
 zone
 -
 >
@@ -999,6 +1000,9 @@ needsIncrementalBarrier
 )
 )
 {
+return
+;
+}
 MOZ_ASSERT
 (
 !
@@ -1028,7 +1032,6 @@ PerformIncrementalBarrierDuringFlattening
 str
 )
 ;
-}
 }
 #
 ifdef
