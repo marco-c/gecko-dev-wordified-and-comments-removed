@@ -52,6 +52,9 @@ ID
 "
 )
 ;
+let
+contentPromise
+=
 invokeContentTask
 (
 browser
@@ -105,6 +108,9 @@ in
 cache
 "
 )
+;
+await
+contentPromise
 ;
 }
 {
