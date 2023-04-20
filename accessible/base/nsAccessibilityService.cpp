@@ -7012,7 +7012,7 @@ semantics_
 newAcc
 =
 new
-HyperTextAccessible
+HyperTextAccessibleWrap
 (
 content
 document
@@ -7128,6 +7128,14 @@ content
 -
 >
 IsHTMLElement
+(
+)
+|
+|
+content
+-
+>
+IsMathMLElement
 (
 )
 )
