@@ -576,6 +576,8 @@ TRR_ONLY_MODE
 ]
 )
 {
+Services
+.
 dns
 .
 clearCache
@@ -751,6 +753,8 @@ push
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -982,6 +986,8 @@ change
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1168,6 +1174,8 @@ checkDnsSuffixInMode
 mode
 )
 {
+Services
+.
 dns
 .
 clearCache
@@ -1583,6 +1591,8 @@ asyncResolveWithTrrServer
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1677,6 +1687,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1773,6 +1785,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1869,6 +1883,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -1966,6 +1982,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2112,6 +2130,8 @@ responseIP
 4
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2217,6 +2237,8 @@ com
 true
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2378,6 +2400,8 @@ org
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2521,6 +2545,8 @@ skip
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2628,6 +2654,8 @@ encoding
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2731,6 +2759,8 @@ redirect
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2816,6 +2846,8 @@ com
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -2938,6 +2970,8 @@ pending
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3089,6 +3123,8 @@ mode
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3174,6 +3210,8 @@ skip
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3283,6 +3321,8 @@ skip
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3436,6 +3476,8 @@ setDetectedTrrURI
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3551,6 +3593,8 @@ org
 "
 )
 ;
+Services
+.
 dns
 .
 setDetectedTrrURI
@@ -3619,6 +3663,8 @@ default_provider_uri
 defaultURI
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3667,6 +3713,8 @@ org
 "
 )
 ;
+Services
+.
 dns
 .
 setDetectedTrrURI
@@ -3721,6 +3769,8 @@ org
 "
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -3820,6 +3870,8 @@ org
 "
 )
 ;
+Services
+.
 dns
 .
 setDetectedTrrURI
@@ -4055,6 +4107,8 @@ uriChanged
 }
 equal
 (
+Services
+.
 dns
 .
 currentTrrURI
@@ -4292,6 +4346,8 @@ doThenCheckURI
 =
 >
 {
+Services
+.
 dns
 .
 setDetectedTrrURI
@@ -4473,6 +4529,8 @@ doThenCheckURI
 =
 >
 {
+Services
+.
 dns
 .
 setDetectedTrrURI
@@ -4657,6 +4715,8 @@ mode
 ;
 equal
 (
+Services
+.
 dns
 .
 currentTrrMode
@@ -4678,6 +4738,8 @@ modeChanged
 ;
 if
 (
+Services
+.
 dns
 .
 currentTrrMode
@@ -4763,6 +4825,8 @@ modeChanged
 }
 equal
 (
+Services
+.
 dns
 .
 currentTrrMode
@@ -4986,6 +5050,8 @@ mode
 ;
 equal
 (
+Services
+.
 dns
 .
 currentTrrMode
@@ -5009,6 +5075,8 @@ mode
 ;
 equal
 (
+Services
+.
 dns
 .
 currentTrrMode
@@ -5262,6 +5330,8 @@ test_old_bootstrap_pref
 (
 )
 {
+Services
+.
 dns
 .
 clearCache
@@ -5384,6 +5454,8 @@ length
 pad_length
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5433,6 +5505,8 @@ request
 none
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5482,6 +5556,8 @@ request
 ecs
 )
 ;
+Services
+.
 dns
 .
 clearCache
@@ -5531,6 +5607,8 @@ request
 padding
 )
 ;
+Services
+.
 dns
 .
 clearCache

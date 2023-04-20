@@ -810,6 +810,10 @@ resolve
 )
 )
 ;
+Services
+.
+dns
+;
 await
 TestUtils
 .
