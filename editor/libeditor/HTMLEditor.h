@@ -8162,9 +8162,9 @@ dom
 Blob
 *
 aBlob
-nsIGlobalObject
+nsPIDOMWindowOuter
 *
-aGlobal
+aWindow
 BlobReader
 *
 aBlobReader
