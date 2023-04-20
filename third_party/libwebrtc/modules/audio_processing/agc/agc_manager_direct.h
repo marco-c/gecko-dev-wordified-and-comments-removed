@@ -537,8 +537,6 @@ ApmDataDumper
 *
 data_dumper
 int
-startup_min_level
-int
 clipped_level_min
 bool
 disable_digital_adaptive
@@ -702,16 +700,6 @@ return
 min_mic_level_
 ;
 }
-int
-startup_min_level
-(
-)
-const
-{
-return
-startup_min_level_
-;
-}
 private
 :
 void
@@ -796,9 +784,6 @@ bool
 startup_
 =
 true
-;
-int
-startup_min_level_
 ;
 int
 calls_since_last_gain_log_
