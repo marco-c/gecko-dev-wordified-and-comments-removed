@@ -574,8 +574,16 @@ uuid
 :
 followed
 by
-0123456789abcdefABCDEF
+[
+0
 -
+9a
+-
+fA
+-
+F
+-
+]
 found
 Z
 at
