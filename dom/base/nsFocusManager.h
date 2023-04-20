@@ -585,6 +585,8 @@ dom
 :
 CallerType
 aCallerType
+uint64_t
+aActionId
 )
 ;
 void
@@ -806,10 +808,7 @@ aActive
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-Maybe
-<
-uint64_t
->
+void
 SetFocusInner
 (
 mozilla
@@ -827,6 +826,8 @@ bool
 aFocusChanged
 bool
 aAdjustWidget
+uint64_t
+aActionId
 )
 ;
 bool

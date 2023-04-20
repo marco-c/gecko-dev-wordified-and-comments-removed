@@ -1098,7 +1098,7 @@ OwnerDoc
 (
 )
 .
-ElementWithAutoFocusInserted
+SetAutoFocusElement
 (
 this
 )
