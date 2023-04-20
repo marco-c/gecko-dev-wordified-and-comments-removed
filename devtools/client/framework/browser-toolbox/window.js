@@ -700,6 +700,12 @@ client
 }
 )
 ;
+gCommands
+.
+shouldCloseClient
+=
+false
+;
 await
 openToolbox
 (

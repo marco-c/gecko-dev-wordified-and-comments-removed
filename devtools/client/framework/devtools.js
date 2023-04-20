@@ -2014,14 +2014,6 @@ extensionId
 }
 )
 ;
-commands
-.
-descriptorFront
-.
-shouldCloseClient
-=
-true
-;
 return
 this
 .
