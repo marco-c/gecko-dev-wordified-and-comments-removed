@@ -4614,7 +4614,7 @@ tests
 or
 when
 the
-explict_done
+explicit_done
 property
 has
 been

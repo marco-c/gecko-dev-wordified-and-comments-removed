@@ -1012,7 +1012,7 @@ and
 must
 match
 any
-explictly
+explicitly
 set
 context
 .
