@@ -286,7 +286,7 @@ expectedAdKey
 "
 example
 :
-sap
+tagged
 "
 adUrls
 :
@@ -381,7 +381,7 @@ expectedAdKey
 "
 example
 :
-sap
+tagged
 -
 follow
 -
@@ -988,7 +988,9 @@ browser
 .
 search
 .
-ad_clicks
+adclicks
+.
+unknown
 "
 in
 scalars
@@ -1017,7 +1019,9 @@ browser
 .
 search
 .
-ad_clicks
+adclicks
+.
+unknown
 "
 expectedAdKey
 1

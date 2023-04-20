@@ -214,7 +214,7 @@ expectedAdKey
 "
 google
 :
-sap
+tagged
 "
 adUrls
 :
@@ -868,7 +868,7 @@ expectedAdKey
 "
 bing
 :
-sap
+tagged
 "
 adUrls
 :
@@ -1515,7 +1515,7 @@ expectedAdKey
 "
 duckduckgo
 :
-sap
+tagged
 "
 adUrls
 :
@@ -2120,7 +2120,7 @@ expectedAdKey
 "
 baidu
 :
-sap
+tagged
 "
 adUrls
 :
@@ -2566,7 +2566,9 @@ browser
 .
 search
 .
-ad_clicks
+adclicks
+.
+unknown
 "
 in
 scalars
@@ -2595,7 +2597,9 @@ browser
 .
 search
 .
-ad_clicks
+adclicks
+.
+unknown
 "
 expectedAdKey
 1
