@@ -31,7 +31,6 @@ plane_split
 {
 make_grid
 BspSplitter
-Splitter
 }
 ;
 use
