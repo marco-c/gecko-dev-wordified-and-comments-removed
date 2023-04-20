@@ -347,9 +347,9 @@ dbg
 .
 remove
 -
-get
--
 watchpoint
+-
+get
 "
 )
 ;
@@ -366,9 +366,9 @@ dbg
 .
 remove
 -
-get
--
 watchpoint
+-
+get
 "
 )
 ;
@@ -654,9 +654,9 @@ dbg
 .
 remove
 -
-get
--
 watchpoint
+-
+get
 "
 )
 ;
@@ -673,9 +673,9 @@ dbg
 .
 remove
 -
-get
--
 watchpoint
+-
+get
 "
 )
 ;
