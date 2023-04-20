@@ -100,6 +100,9 @@ webtransport
 captive_portals
 .
 md
+neqo_triage_guideline
+.
+md
 .
 .
 _HTTP
