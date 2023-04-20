@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-17713efc0e352b133df62c3393bbc3d79fbaa9a9
+b432ce7fe42f255896924a37d9ab9772f68a0a31
 '
 #
 Keep
@@ -146,9 +146,9 @@ version
 :
 9
 .
-20220811
+20220812
 .
-2
+0
 .
 1
 '
@@ -192,7 +192,7 @@ chromium
 src
 /
 base
-a558a42d656240f3b0182eb6005f899a6b255678
+4696250a24ae16fc080624791c02c4dfa3bbe9bd
 '
 '
 src
@@ -216,7 +216,7 @@ chromium
 src
 /
 build
-1ecd4e6c212102af8bded379ef4ccfb4c06c819b
+1995e7aaf3e34bad0999961687d8c5f38d1077c7
 '
 '
 src
@@ -336,7 +336,7 @@ chromium
 src
 /
 ios
-a1c4da0415c7f040252d13683b01d65ae48c3bd2
+3202c9caf747d2031660bb36aab76ad9faa90cfc
 '
 '
 condition
@@ -368,7 +368,7 @@ chromium
 src
 /
 testing
-f2e7e36ca9ab054dbf2bcc014934174312894fff
+fe7cb69ebd0724474e079cd2438d88bc8ed9b18a
 '
 '
 src
@@ -392,7 +392,7 @@ chromium
 src
 /
 third_party
-4f618cc59878ffc8858c58369ad0196290ab343d
+6be916966945a46725feec9f1dcc795f2ed45f18
 '
 '
 src
@@ -731,7 +731,7 @@ project
 libunwind
 .
 git
-a097a1ada6ca6a585f90299b934695dffb88914c
+754d0167693b7b7ca0f5df6a448a153af916e39e
 '
 '
 src
@@ -1001,7 +1001,7 @@ breakpad
 breakpad
 .
 git
-a7a8b9c3002dc4027708f6a644496496877a4b62
+e085b3b50bde862d0cf3ce4594e3f391bcf5faec
 '
 '
 src
@@ -2062,7 +2062,7 @@ libyuv
 libyuv
 .
 git
-9b17af9bef41aec80373a7d4689bb77bac33eab5
+1c5a8bb17ac4092da557e55cf519bf4df105d8f1
 '
 '
 src
@@ -2398,7 +2398,7 @@ chromium
 src
 /
 tools
-9cfcd03fbc45e83968ab01f9543df69df5b10553
+6a6564666eb210a84faf52e218c70547ea68169d
 '
 '
 src
