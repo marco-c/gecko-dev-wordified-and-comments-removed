@@ -4311,7 +4311,14 @@ const
 0xFFFFFFFF
 type
 =
+lambda
+x
+:
 int
+(
+x
+16
+)
                              
 help
 =

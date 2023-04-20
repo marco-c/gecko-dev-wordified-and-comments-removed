@@ -1769,7 +1769,7 @@ MOZ_CHAOSMODE
 "
 ]
 =
-str
+hex
 (
 chaos_mode_flags
 )
