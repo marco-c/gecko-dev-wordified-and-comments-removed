@@ -409,6 +409,9 @@ TYPE_BITS
 PING_INDEX_BITS
 =
 16
+PHF_SIZE
+=
+512
 def
 ping_entry
 (
@@ -1219,7 +1222,7 @@ name_phf
 PerfectHash
 (
 category_map
-64
+PHF_SIZE
 )
     
 category_by_name_lookup
@@ -1355,7 +1358,7 @@ metric_phf
 PerfectHash
 (
 metric_map
-64
+PHF_SIZE
 )
     
 metric_by_name_lookup
@@ -1687,7 +1690,7 @@ ping_phf
 PerfectHash
 (
 ping_map
-64
+PHF_SIZE
 )
     
 ping_by_name_lookup

@@ -44,7 +44,7 @@ impl
 :
 :
 Ping
-NotMetrics
+NotDeletionRequest
 (
 2
 )
@@ -70,7 +70,7 @@ impl
 :
 :
 Ping
-NotDeletionRequest
+NotMetrics
 (
 4
 )

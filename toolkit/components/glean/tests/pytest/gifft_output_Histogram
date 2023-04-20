@@ -550,7 +550,7 @@ aId
 )
 {
 case
-12
+3
 :
 {
 return
@@ -559,12 +559,12 @@ Some
 HistogramID
 :
 :
-SOME_TIME_HISTOGRAM_MS
+SOME_LINEAR_HISTOGRAM
 )
 ;
 }
 case
-13
+10
 :
 {
 return
@@ -587,7 +587,7 @@ Some
 HistogramID
 :
 :
-SOME_LINEAR_HISTOGRAM
+SOME_TIME_HISTOGRAM_MS
 )
 ;
 }
