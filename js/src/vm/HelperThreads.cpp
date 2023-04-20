@@ -4026,6 +4026,7 @@ frontend
 PrepareForInstantiate
 (
 cx
+ec
 *
 stencilInput_
 *
@@ -4209,6 +4210,7 @@ frontend
 PrepareForInstantiate
 (
 cx
+ec
 *
 stencilInput_
 *
@@ -4439,6 +4441,7 @@ frontend
 PrepareForInstantiate
 (
 cx
+ec
 *
 stencilInput_
 *
