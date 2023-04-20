@@ -1,4 +1,6 @@
 import
+json
+import
 os
 import
 socket
@@ -501,6 +503,12 @@ None
         
 self
 .
+remote_agent_host
+=
+None
+        
+self
+.
 remote_agent_port
 =
 None
@@ -594,7 +602,7 @@ use_bidi
             
 self
 .
-bidi_port_file
+webdriver_bidi_file
 =
 os
 .
@@ -609,7 +617,9 @@ profile
 .
 profile
 "
-WebDriverBiDiActivePort
+WebDriverBiDiServer
+.
+json
 "
             
 )
@@ -627,7 +637,7 @@ remove
 (
 self
 .
-bidi_port_file
+webdriver_bidi_file
 )
         
 binary
@@ -768,7 +778,7 @@ exists
 (
 self
 .
-bidi_port_file
+webdriver_bidi_file
 )
 :
                 
@@ -781,22 +791,47 @@ sleep
 1
 )
             
+data
+=
+json
+.
+loads
+(
+open
+(
+self
+.
+webdriver_bidi_file
+)
+.
+read
+(
+)
+)
+            
+self
+.
+remote_agent_host
+=
+data
+[
+"
+ws_host
+"
+]
+            
 self
 .
 remote_agent_port
 =
 int
 (
-open
-(
-self
-.
-bidi_port_file
-)
-.
-read
-(
-)
+data
+[
+"
+ws_port
+"
+]
 )
         
 if
