@@ -3840,6 +3840,7 @@ if
 !
 AddTimerInternal
 (
+*
 aTimer
 )
 )
@@ -3997,6 +3998,7 @@ if
 !
 RemoveTimerInternal
 (
+*
 aTimer
 )
 )
@@ -4310,7 +4312,7 @@ TimerThread
 AddTimerInternal
 (
 nsTimerImpl
-*
+&
 aTimer
 )
 {
@@ -4321,8 +4323,7 @@ AssertCurrentThreadOwns
 )
 ;
 aTimer
--
->
+.
 mMutex
 .
 AssertCurrentThreadOwns
@@ -4348,6 +4349,7 @@ LogTimerEvent
 :
 LogDispatch
 (
+&
 aTimer
 )
 ;
@@ -4357,8 +4359,7 @@ TimeStamp
 timeout
 =
 aTimer
--
->
+.
 mTimeout
 ;
 const
@@ -4689,7 +4690,7 @@ TimerThread
 RemoveTimerInternal
 (
 nsTimerImpl
-*
+&
 aTimer
 )
 {
@@ -4700,8 +4701,7 @@ AssertCurrentThreadOwns
 )
 ;
 aTimer
--
->
+.
 mMutex
 .
 AssertCurrentThreadOwns
@@ -4717,23 +4717,7 @@ if
 (
 !
 aTimer
-)
-{
-COUNT_TIMERS_STATS
-(
-TimerThread_RemoveTimerInternal_nullptr
-)
-;
-return
-false
-;
-}
-if
-(
-!
-aTimer
--
->
+.
 IsInTimerThread
 (
 )
@@ -4771,6 +4755,7 @@ Value
 )
 =
 =
+&
 aTimer
 )
 {
@@ -4789,8 +4774,7 @@ MOZ_ASSERT
 (
 !
 aTimer
--
->
+.
 IsInTimerThread
 (
 )
@@ -5088,11 +5072,8 @@ mMonitor
 ;
 RemoveTimerInternal
 (
+*
 timer
-.
-get
-(
-)
 )
 ;
 }
