@@ -25983,9 +25983,6 @@ CompilationState
 :
 appendGCThings
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec

@@ -6254,9 +6254,6 @@ ec
 bool
 appendGCThings
 (
-JSContext
-*
-cx
 ErrorContext
 *
 ec
