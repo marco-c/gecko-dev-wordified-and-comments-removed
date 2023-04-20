@@ -31,6 +31,15 @@ ModuleLoadInfo
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ProcessType
+.
+h
+"
 namespace
 mozilla
 {
@@ -187,9 +196,7 @@ const
 IMAGE_THUNK_DATA
 *
 const
-bool
-const
-bool
+GeckoProcessType
 )
 ;
 using
