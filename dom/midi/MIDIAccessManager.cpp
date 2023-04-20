@@ -520,13 +520,6 @@ move
 mgr
 )
 ;
-mChild
--
->
-SetActorAlive
-(
-)
-;
 }
 else
 {

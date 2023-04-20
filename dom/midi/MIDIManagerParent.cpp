@@ -36,15 +36,6 @@ ActorDestroyReason
 aWhy
 )
 {
-}
-void
-MIDIManagerParent
-:
-:
-Teardown
-(
-)
-{
 if
 (
 MIDIPlatformService
@@ -116,10 +107,6 @@ RecvShutdown
 (
 )
 {
-Teardown
-(
-)
-;
 Unused
 <
 <
