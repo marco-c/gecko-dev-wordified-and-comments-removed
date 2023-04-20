@@ -108,9 +108,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -127,7 +127,9 @@ modules
 /
 Preferences
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

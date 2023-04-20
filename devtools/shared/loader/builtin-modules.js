@@ -498,7 +498,7 @@ clearTimeout
 return
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -511,7 +511,9 @@ modules
 /
 Timer
 .
-jsm
+sys
+.
+mjs
 "
 )
 .
@@ -533,7 +535,7 @@ setTimeout
 return
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -546,7 +548,9 @@ modules
 /
 Timer
 .
-jsm
+sys
+.
+mjs
 "
 )
 .
@@ -568,7 +572,7 @@ clearInterval
 return
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -581,7 +585,9 @@ modules
 /
 Timer
 .
-jsm
+sys
+.
+mjs
 "
 )
 .
@@ -603,7 +609,7 @@ setInterval
 return
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -616,7 +622,9 @@ modules
 /
 Timer
 .
-jsm
+sys
+.
+mjs
 "
 )
 .

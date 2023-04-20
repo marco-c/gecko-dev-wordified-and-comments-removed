@@ -69,7 +69,7 @@ DeferredTask
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -82,7 +82,9 @@ modules
 /
 DeferredTask
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 Preferences
-"
+:
 "
 resource
 :
@@ -17,8 +17,11 @@ modules
 /
 Preferences
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 ChromeUtils

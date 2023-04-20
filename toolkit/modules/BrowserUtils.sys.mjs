@@ -1,12 +1,8 @@
-const
+import
 {
 AppConstants
 }
-=
-ChromeUtils
-.
-import
-(
+from
 "
 resource
 :
@@ -18,9 +14,10 @@ modules
 /
 AppConstants
 .
-jsm
+sys
+.
+mjs
 "
-)
 ;
 import
 {

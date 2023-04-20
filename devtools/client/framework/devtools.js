@@ -709,7 +709,7 @@ Deprecated
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -722,7 +722,9 @@ modules
 /
 Deprecated
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

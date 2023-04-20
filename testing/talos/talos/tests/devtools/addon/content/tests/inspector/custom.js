@@ -280,7 +280,7 @@ ContentDOMReference
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -293,7 +293,9 @@ modules
 /
 ContentDOMReference
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

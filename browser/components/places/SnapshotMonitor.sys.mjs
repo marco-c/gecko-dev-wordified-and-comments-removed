@@ -137,15 +137,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-lazy
-{
 clearTimeout
 :
 "
@@ -159,7 +150,9 @@ modules
 /
 Timer
 .
-jsm
+sys
+.
+mjs
 "
 setTimeout
 :
@@ -174,7 +167,9 @@ modules
 /
 Timer
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

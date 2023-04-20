@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 PrivateBrowsingUtils
-"
+:
 "
 resource
 :
@@ -17,8 +17,11 @@ modules
 /
 PrivateBrowsingUtils
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 ChromeUtils

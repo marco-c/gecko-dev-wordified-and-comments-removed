@@ -85,7 +85,7 @@ setTimeout
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -98,7 +98,9 @@ modules
 /
 Timer
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

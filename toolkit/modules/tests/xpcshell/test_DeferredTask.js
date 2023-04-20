@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 DeferredTask
-"
+:
 "
 resource
 :
@@ -17,8 +17,11 @@ modules
 /
 DeferredTask
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 const

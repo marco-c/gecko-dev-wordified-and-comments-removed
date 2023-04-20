@@ -1,6 +1,6 @@
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -17,7 +17,9 @@ modules
 /
 E10SUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

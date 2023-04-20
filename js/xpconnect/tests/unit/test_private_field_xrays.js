@@ -4,9 +4,9 @@ strict
 '
 ChromeUtils
 .
-import
+importESModule
 (
-'
+"
 resource
 :
 /
@@ -17,8 +17,10 @@ modules
 /
 Preferences
 .
-jsm
-'
+sys
+.
+mjs
+"
 )
 ;
 add_task

@@ -10,7 +10,7 @@ AppConstants
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 AppConstants
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -109,7 +111,7 @@ PrivateBrowsingUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -122,7 +124,9 @@ modules
 /
 PrivateBrowsingUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

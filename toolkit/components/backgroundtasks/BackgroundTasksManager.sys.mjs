@@ -105,9 +105,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -124,7 +124,9 @@ modules
 /
 Timer
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
@@ -149,7 +151,7 @@ ConsoleAPI
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -162,7 +164,9 @@ modules
 /
 Console
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

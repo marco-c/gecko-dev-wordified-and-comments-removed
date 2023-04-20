@@ -269,7 +269,7 @@ ConsoleAPI
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -282,7 +282,9 @@ modules
 /
 Console
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

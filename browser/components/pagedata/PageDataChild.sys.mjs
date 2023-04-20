@@ -107,15 +107,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-lazy
-{
 PrivateBrowsingUtils
 :
 "
@@ -129,7 +120,9 @@ modules
 /
 PrivateBrowsingUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

@@ -83,9 +83,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -102,7 +102,9 @@ modules
 /
 EventEmitter
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

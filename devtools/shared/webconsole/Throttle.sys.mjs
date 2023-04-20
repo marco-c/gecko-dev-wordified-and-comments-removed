@@ -162,9 +162,9 @@ nsIHttpActivityDistributor
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -181,7 +181,9 @@ modules
 /
 Timer
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

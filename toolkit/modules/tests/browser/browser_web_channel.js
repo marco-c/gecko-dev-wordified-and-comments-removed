@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 WebChannel
-"
+:
 "
 resource
 :
@@ -17,8 +17,11 @@ modules
 /
 WebChannel
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 const

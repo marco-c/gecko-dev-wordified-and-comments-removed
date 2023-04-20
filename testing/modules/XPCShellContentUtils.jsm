@@ -83,7 +83,7 @@ jsm
 ;
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -96,7 +96,9 @@ modules
 /
 ActorManagerParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

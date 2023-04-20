@@ -60,7 +60,7 @@ Preferences
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -73,7 +73,9 @@ modules
 /
 Preferences
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -226,7 +228,7 @@ ConsoleAPI
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -239,7 +241,9 @@ modules
 /
 Console
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

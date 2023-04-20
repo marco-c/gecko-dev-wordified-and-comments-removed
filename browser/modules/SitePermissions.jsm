@@ -39,9 +39,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -58,7 +58,9 @@ modules
 /
 Timer
 .
-jsm
+sys
+.
+mjs
 "
 setTimeout
 :
@@ -73,7 +75,9 @@ modules
 /
 Timer
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
