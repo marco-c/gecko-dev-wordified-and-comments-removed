@@ -363,7 +363,7 @@ win
 return
 win
 .
-windowUtils
+browsingContext
 .
 fullZoom
 ;
