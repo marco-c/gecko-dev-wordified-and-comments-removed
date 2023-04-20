@@ -29927,6 +29927,9 @@ AddStartMenuSC
 {
 EndIf
 }
+!
+ifdef
+MOZ_PRIVATE_BROWSING
 ReadINIStr
 R8
 R7
@@ -29964,6 +29967,8 @@ AddPrivateBrowsingSC
 {
 EndIf
 }
+!
+endif
 ReadINIStr
 R8
 R7
@@ -30293,6 +30298,9 @@ R8
 StartMenuShortcut
 "
 AddStartMenuSC
+!
+ifdef
+MOZ_PRIVATE_BROWSING
 {
 InstallGetOption
 }
@@ -30301,6 +30309,8 @@ R8
 PrivateBrowsingShortcut
 "
 AddPrivateBrowsingSC
+!
+endif
 {
 InstallGetOption
 }
