@@ -4762,7 +4762,7 @@ ASRouter
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -4774,13 +4774,15 @@ actors
 /
 ASRouterParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -4792,7 +4794,9 @@ actors
 /
 ASRouterChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
