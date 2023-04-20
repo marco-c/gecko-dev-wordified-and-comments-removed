@@ -481,6 +481,10 @@ install
 \
 -
 -
+locked
+\
+-
+-
 verbose
 \
 -
