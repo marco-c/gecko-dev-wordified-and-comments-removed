@@ -47204,13 +47204,7 @@ HTMLEditUtils
 IsInlineStyleSetByElement
 (
 aContent
-*
 style
-.
-mHTMLProperty
-style
-.
-mAttribute
 nullptr
 &
 value
