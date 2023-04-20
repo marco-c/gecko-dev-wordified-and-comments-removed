@@ -159,7 +159,8 @@ none
 important
 ;
 }
-body
+:
+root
 {
 -
 -
@@ -821,7 +822,8 @@ color
 inherit
 ;
 }
-body
+:
+root
 [
 lwt
 -
@@ -1217,7 +1219,8 @@ prefers
 contrast
 )
 {
-body
+:
+root
 {
 -
 -
