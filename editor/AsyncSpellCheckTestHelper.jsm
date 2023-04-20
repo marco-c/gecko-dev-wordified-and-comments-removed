@@ -200,9 +200,9 @@ topic
 expectedTopic
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Expected

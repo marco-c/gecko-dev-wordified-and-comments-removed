@@ -951,9 +951,9 @@ catch
 error
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Failed
 to
@@ -1050,9 +1050,9 @@ catch
 error
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 error
 )
@@ -1076,9 +1076,9 @@ catch
 error
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 error
 )
