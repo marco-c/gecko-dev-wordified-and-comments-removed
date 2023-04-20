@@ -543,12 +543,8 @@ return
 }
 MOZ_ASSERT
 (
-IsFetching
-(
-)
-|
-|
-IsLoadingImports
+!
+IsReadyToRun
 (
 )
 )
