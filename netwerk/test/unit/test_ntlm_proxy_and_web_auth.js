@@ -1395,8 +1395,11 @@ break
 ;
 default
 :
-dump
+Assert
+.
+ok
 (
+false
 "
 ERROR
 :
@@ -1409,12 +1412,6 @@ not
 be
 reused
 "
-)
-;
-Assert
-.
-fail
-(
 )
 ;
 }
