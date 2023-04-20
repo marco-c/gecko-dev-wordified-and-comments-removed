@@ -89,7 +89,7 @@ which
 keyboard
 controls
 to
-show
+disable
 for
 a
 qualified
@@ -101,7 +101,7 @@ const
 KEYBOARD_CONTROLS
 =
 {
-NONE
+ALL
 :
 0
 PLAY_PAUSE
