@@ -5435,6 +5435,20 @@ else
 http
 "
         
+http_scheme
+=
+"
+https
+"
+if
+self
+.
+use_ssl
+else
+"
+http
+"
+        
 self
 .
 logger
@@ -5449,6 +5463,12 @@ http_type
 }
 server
 on
+{
+http_scheme
+}
+:
+/
+/
 {
 self
 .
