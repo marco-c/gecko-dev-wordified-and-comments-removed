@@ -939,11 +939,11 @@ sensitivity
 .
 *
 param
-aEnforceWhitelist
+aEnforceAllowlist
 True
 if
 the
-whitelist
+allowlist
 of
 allowed
 targets
@@ -957,7 +957,7 @@ this
 is
 true
 the
-whitelist
+allowlist
 must
 be
 enforced
@@ -987,7 +987,7 @@ not
 used
 then
 the
-whitelist
+allowlist
 is
 always
 enforced
@@ -1020,7 +1020,7 @@ boolean
 aWasRedirected
 in
 boolean
-aEnforceWhitelist
+aEnforceAllowlist
 )
 ;
 /
