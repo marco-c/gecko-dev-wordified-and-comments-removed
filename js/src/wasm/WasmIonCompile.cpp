@@ -3598,9 +3598,6 @@ def
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_FUNCTION_REFERENCES
 MDefinition
 *
 compareIsNull
@@ -3792,6 +3789,9 @@ return
 true
 ;
 }
+#
+ifdef
+ENABLE_WASM_FUNCTION_REFERENCES
 bool
 brOnNull
 (
