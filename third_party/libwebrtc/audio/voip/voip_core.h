@@ -685,6 +685,15 @@ RTC_GUARDED_BY
 lock_
 )
 ;
+bool
+initialized_
+RTC_GUARDED_BY
+(
+lock_
+)
+=
+false
+;
 }
 ;
 }
