@@ -10,7 +10,7 @@ FxAccountsClient
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -23,9 +23,7 @@ modules
 /
 FxAccountsClient
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

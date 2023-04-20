@@ -83,6 +83,7 @@ mjs
 ;
 var
 {
+AccountState
 MockFxaStorageManager
 SyncTestingInfrastructure
 configureFxAccountIdentity

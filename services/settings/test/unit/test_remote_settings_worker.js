@@ -57,7 +57,7 @@ RemoteSettingsWorker
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -70,9 +70,7 @@ settings
 /
 RemoteSettingsWorker
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -83,7 +81,7 @@ RemoteSettingsClient
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -96,9 +94,7 @@ settings
 /
 RemoteSettingsClient
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -109,7 +105,7 @@ Database
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -122,9 +118,7 @@ settings
 /
 Database
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

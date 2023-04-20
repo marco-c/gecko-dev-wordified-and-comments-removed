@@ -62,7 +62,7 @@ Downloader
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -75,9 +75,7 @@ settings
 /
 Attachments
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -191,7 +189,7 @@ RemoteSettings
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -206,9 +204,7 @@ remote
 -
 settings
 .
-sys
-.
-mjs
+js
 "
 )
 ;

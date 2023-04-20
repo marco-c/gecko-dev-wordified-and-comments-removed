@@ -66,7 +66,7 @@ FxAccountsWebChannel
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -79,9 +79,7 @@ modules
 /
 FxAccountsWebChannel
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

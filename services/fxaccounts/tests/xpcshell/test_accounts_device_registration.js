@@ -10,7 +10,7 @@ FxAccounts
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -23,9 +23,7 @@ modules
 /
 FxAccounts
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -36,7 +34,7 @@ FxAccountsClient
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -49,9 +47,7 @@ modules
 /
 FxAccountsClient
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -62,7 +58,7 @@ FxAccountsDevice
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -75,9 +71,7 @@ modules
 /
 FxAccountsDevice
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -117,7 +111,7 @@ AccountState
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -130,9 +124,7 @@ modules
 /
 FxAccounts
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

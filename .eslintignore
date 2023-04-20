@@ -1481,9 +1481,7 @@ fxaccounts
 /
 FxAccountsPairingChannel
 .
-sys
-.
-mjs
+js
 #
 Servo
 is

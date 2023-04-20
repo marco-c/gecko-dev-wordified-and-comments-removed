@@ -84,7 +84,7 @@ RemoteSettingsClient
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -97,9 +97,7 @@ settings
 /
 RemoteSettingsClient
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -134,7 +132,7 @@ SyncHistory
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -147,9 +145,7 @@ settings
 /
 SyncHistory
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -162,7 +158,7 @@ BROADCAST_ID
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -177,9 +173,7 @@ remote
 -
 settings
 .
-sys
-.
-mjs
+js
 "
 )
 ;

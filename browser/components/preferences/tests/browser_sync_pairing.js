@@ -36,7 +36,7 @@ FxAccountsPairingFlow
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -49,9 +49,7 @@ modules
 /
 FxAccountsPairing
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

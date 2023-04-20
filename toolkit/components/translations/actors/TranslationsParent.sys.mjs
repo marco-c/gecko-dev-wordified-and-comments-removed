@@ -200,9 +200,9 @@ sys
 mjs
 "
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 lazy
 {
@@ -221,9 +221,7 @@ remote
 -
 settings
 .
-sys
-.
-mjs
+js
 "
 }
 )
