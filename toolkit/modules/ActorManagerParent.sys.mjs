@@ -1601,7 +1601,7 @@ NetError
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -1614,13 +1614,15 @@ actors
 /
 NetErrorParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -1633,7 +1635,9 @@ actors
 /
 NetErrorChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
