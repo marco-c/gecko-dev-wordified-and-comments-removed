@@ -13,9 +13,11 @@ Prompter
 jsm
 "
 "
-SharedPromptUtils
+PromptUtils
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS

@@ -57,7 +57,7 @@ PromptUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -68,9 +68,11 @@ gre
 /
 modules
 /
-SharedPromptUtils
+PromptUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

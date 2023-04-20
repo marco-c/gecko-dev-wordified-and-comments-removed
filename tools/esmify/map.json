@@ -19238,7 +19238,7 @@ prompts
 /
 src
 /
-SharedPromptUtils
+PromptUtils
 .
 jsm
 "
