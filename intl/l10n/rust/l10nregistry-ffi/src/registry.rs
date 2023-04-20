@@ -1209,7 +1209,7 @@ source
 =
 reg
 .
-get_source
+file_source_by_name
 (
 &
 name
@@ -2027,7 +2027,7 @@ source
 =
 reg
 .
-get_source
+file_source_by_name
 (
 &
 name

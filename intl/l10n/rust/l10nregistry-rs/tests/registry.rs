@@ -193,7 +193,7 @@ toolkit
 =
 lock
 .
-get_source
+file_source_by_name
 (
 0
 "
@@ -210,7 +210,7 @@ browser
 =
 lock
 .
-get_source
+file_source_by_name
 (
 0
 "
