@@ -382,6 +382,17 @@ wgsl
 in
 "
 ]
+vulkan
+-
+portability
+=
+[
+"
+hal
+/
+vulkan
+"
+]
 #
 Features
 that
@@ -595,7 +606,7 @@ naga
 rev
 =
 "
-e98bd92
+e7fc8e6
 "
 version
 =

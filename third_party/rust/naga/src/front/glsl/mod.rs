@@ -264,11 +264,7 @@ self
 workgroup_size
 =
 [
-u32
-:
-:
-from
-(
+if
 stage
 =
 =
@@ -276,7 +272,13 @@ ShaderStage
 :
 :
 Compute
-)
+{
+1
+}
+else
+{
+0
+}
 ;
 3
 ]

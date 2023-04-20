@@ -1015,9 +1015,6 @@ ash
 :
 :
 Entry
-_driver_api_version
-:
-u32
 flags
 :
 crate
@@ -1307,7 +1304,7 @@ push
 vk
 :
 :
-ExtSwapchainColorspaceFn
+KhrGetPhysicalDeviceProperties2Fn
 :
 :
 name
@@ -1322,7 +1319,7 @@ push
 vk
 :
 :
-KhrGetPhysicalDeviceProperties2Fn
+ExtSwapchainColorspaceFn
 :
 :
 name
@@ -1756,6 +1753,15 @@ let
 get_physical_device_properties
 =
 if
+driver_api_version
+>
+=
+vk
+:
+:
+API_VERSION_1_1
+&
+&
 extensions
 .
 contains
@@ -3406,7 +3412,6 @@ required_extensions
 (
 &
 entry
-driver_api_version
 desc
 .
 flags

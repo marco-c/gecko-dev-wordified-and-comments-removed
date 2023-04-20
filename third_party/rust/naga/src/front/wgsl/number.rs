@@ -2047,8 +2047,10 @@ is_finite
 (
 )
 .
-then_some
+then
 (
+|
+|
 Number
 :
 :
@@ -2100,8 +2102,10 @@ is_finite
 (
 )
 .
-then_some
+then
 (
+|
+|
 Number
 :
 :

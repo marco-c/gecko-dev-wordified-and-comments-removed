@@ -232,7 +232,7 @@ self
 .
 fp
 .
-cmd_draw_indirect_count_khr
+cmd_draw_indexed_indirect_count_khr
 )
 (
 command_buffer
