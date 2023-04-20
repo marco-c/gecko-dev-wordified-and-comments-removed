@@ -563,6 +563,9 @@ const
 nsAString
 &
 aURL
+nsIPrincipal
+*
+aPrincipal
 const
 bool
 &
