@@ -472,15 +472,7 @@ mac
 "
 ffmpeg
 -
-4
-.
-1
-.
-1
--
-macos64
--
-static
+macos
 "
     
 "
@@ -492,9 +484,9 @@ ffmpeg
 -
 4
 .
-1
-.
 4
+.
+1
 -
 i686
 -
@@ -510,13 +502,11 @@ ffmpeg
 -
 4
 .
-1
+4
 .
 1
 -
-win64
--
-static
+full_build
 "
 }
 class
@@ -8172,10 +8162,6 @@ FFMPEG_LOCAL_CACHE
 mac
 "
 ]
-                
-"
-bin
-"
             
 )
         
