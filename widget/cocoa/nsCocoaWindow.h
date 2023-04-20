@@ -1749,8 +1749,6 @@ BorderStyle
 aBorderStyle
 bool
 aRectIsFrameRect
-bool
-aIsPrivateBrowsing
 )
 ;
 nsresult

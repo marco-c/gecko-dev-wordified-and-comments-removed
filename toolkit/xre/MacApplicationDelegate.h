@@ -13,9 +13,7 @@ void
 void
 SetupMacApplicationDelegate
 (
-bool
-*
-gRestartedByOS
+void
 )
 ;
 void
