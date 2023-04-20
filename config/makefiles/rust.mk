@@ -336,6 +336,17 @@ cargo_build_flags
 )
 )
 )
+ifdef
+NO_ANSI
+cargo_build_flags
++
+=
+-
+-
+color
+=
+never
+else
 cargo_build_flags
 +
 =
@@ -344,6 +355,7 @@ cargo_build_flags
 color
 =
 always
+endif
 endif
 endif
 #
