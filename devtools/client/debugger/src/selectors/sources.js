@@ -133,7 +133,7 @@ state
 .
 sources
 .
-sources
+mutableSources
 .
 has
 (
@@ -154,7 +154,7 @@ state
 .
 sources
 .
-sources
+mutableSources
 .
 get
 (
@@ -534,7 +534,7 @@ state
 .
 sources
 .
-sources
+mutableSources
 .
 values
 (
@@ -554,7 +554,7 @@ state
 .
 sources
 .
-sources
+mutableSources
 .
 size
 ;
