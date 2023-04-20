@@ -8135,12 +8135,11 @@ mDoc
 )
 {
 return
-nsContentUtils
-:
-:
+mDoc
+-
+>
 ShouldResistFingerprinting
 (
-mDoc
 )
 ;
 }
