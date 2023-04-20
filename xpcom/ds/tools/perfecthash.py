@@ -824,10 +824,7 @@ byte
 in
 memoryview
 (
-ensure_bytes
-(
 key
-)
 )
 :
             
@@ -980,10 +977,7 @@ key
 if
 memoryview
 (
-ensure_bytes
-(
 key
-)
 )
 !
 =
