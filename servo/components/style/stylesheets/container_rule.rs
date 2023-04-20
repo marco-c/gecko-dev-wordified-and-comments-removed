@@ -738,6 +738,7 @@ fn
 traverse_container
 <
 E
+S
 F
 R
 >
@@ -751,10 +752,7 @@ originating_element_style
 Option
 <
 &
-Arc
-<
-ComputedValues
->
+S
 >
 evaluator
 :
@@ -781,10 +779,7 @@ E
 Option
 <
 &
-Arc
-<
-ComputedValues
->
+S
 >
 )
 -
@@ -2502,10 +2497,7 @@ originating_element_style
 Option
 <
 &
-Arc
-<
 ComputedValues
->
 >
 )
 -
@@ -2565,6 +2557,9 @@ TraversalResult
 InProgress
 }
 ;
+&
+*
+*
 data
 .
 styles
@@ -2743,10 +2738,7 @@ originating_element_style
 Option
 <
 &
-Arc
-<
 ComputedValues
->
 >
 )
 -
@@ -2845,10 +2837,7 @@ Option
 &
 '
 a
-Arc
-<
 ComputedValues
->
 >
 )
 -
@@ -2935,6 +2924,9 @@ map
 |
 data
 |
+&
+*
+*
 data
 .
 styles
@@ -3033,10 +3025,7 @@ Option
 &
 '
 a
-Arc
-<
 ComputedValues
->
 >
 )
 -

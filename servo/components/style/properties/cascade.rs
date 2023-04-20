@@ -1364,7 +1364,12 @@ ContainerSizeQuery
 for_option_element
 (
 element
-None
+pseudo
+.
+and
+(
+parent_style
+)
 )
 ;
 let
