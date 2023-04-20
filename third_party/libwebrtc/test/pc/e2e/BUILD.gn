@@ -2944,6 +2944,10 @@ test_peer_factory
 "
 "
 :
+video_frame_tracking_id_injector
+"
+"
+:
 video_quality_analyzer_injection_helper
 "
 "

@@ -575,6 +575,11 @@ pc
 slow_peer_connection_unittests
 "
 "
+pc
+:
+svc_tests
+"
+"
 rtc_tools
 :
 rtp_generator
