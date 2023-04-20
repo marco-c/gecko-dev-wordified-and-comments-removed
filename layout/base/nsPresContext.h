@@ -3264,7 +3264,7 @@ intl
 :
 Bidi
 &
-GetBidiEngine
+BidiEngine
 (
 )
 ;
