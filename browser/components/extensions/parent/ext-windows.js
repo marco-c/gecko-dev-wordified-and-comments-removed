@@ -379,11 +379,6 @@ left
 =
 Math
 .
-max
-(
-availLeft
-Math
-.
 min
 (
 availLeft
@@ -391,6 +386,11 @@ availLeft
 availWidth
 -
 width
+Math
+.
+max
+(
+availLeft
 params
 .
 left
@@ -403,11 +403,6 @@ top
 =
 Math
 .
-max
-(
-availTop
-Math
-.
 min
 (
 availTop
@@ -415,6 +410,11 @@ availTop
 availHeight
 -
 height
+Math
+.
+max
+(
+availTop
 params
 .
 top
