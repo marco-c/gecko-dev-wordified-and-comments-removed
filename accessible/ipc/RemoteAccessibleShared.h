@@ -422,10 +422,10 @@ GetPosition
 (
 uint32_t
 *
-aColIdx
+aRowIdx
 uint32_t
 *
-aRowIdx
+aColIdx
 )
 ;
 uint32_t
