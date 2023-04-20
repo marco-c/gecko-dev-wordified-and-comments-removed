@@ -75,6 +75,9 @@ StreamFilterDataEvent
 :
 Constructor
 (
+dom
+:
+:
 EventTarget
 *
 aEventTarget
@@ -83,6 +86,9 @@ nsAString
 &
 aType
 const
+dom
+:
+:
 StreamFilterDataEventInit
 &
 aParam
@@ -183,6 +189,9 @@ aGivenProto
 )
 {
 return
+dom
+:
+:
 StreamFilterDataEvent_Binding
 :
 :
