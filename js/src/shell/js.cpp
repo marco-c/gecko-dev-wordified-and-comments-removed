@@ -29435,8 +29435,6 @@ builder
 (
 cx
 &
-ec
-&
 parser
 )
 ;
@@ -31046,8 +31044,6 @@ CompilationState
 compilationState
 (
 cx
-&
-ec
 allocScope
 input
 .
@@ -31551,8 +31547,6 @@ CompilationState
 compilationState
 (
 cx
-&
-ec
 allocScope
 input
 .
