@@ -3018,9 +3018,9 @@ rust
 minidump
 0
 .
-14
+15
 .
-0
+2
 source
 code
 (
@@ -3054,7 +3054,7 @@ minidump
 /
 revision
 :
-a6a486b8992008c6865ee70fc68421c38e45ef42
+0d782e53650f4059ede143e10686c6ce9947dbc4
 fix
 -
 stacks
