@@ -731,6 +731,7 @@ _chromeUserDataPath
 let
 path
 =
+await
 lazy
 .
 ChromeMigrationUtils
