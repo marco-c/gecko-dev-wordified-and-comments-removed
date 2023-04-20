@@ -1597,10 +1597,6 @@ ModuleRtpRtcp
 const
 rtp_rtcp_
 ;
-const
-uint32_t
-main_ssrc_
-;
 RegisteredSsrcs
 registered_ssrcs_
 ;
