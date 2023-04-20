@@ -932,7 +932,6 @@ NON_PREMULTIPLIED
 }
 EnsurePipeline
 (
-true
 )
 ;
 forwarder
@@ -966,7 +965,6 @@ return
 }
 EnsurePipeline
 (
-false
 )
 ;
 auto

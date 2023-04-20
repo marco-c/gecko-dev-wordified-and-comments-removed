@@ -1305,6 +1305,11 @@ RemoteTextureOwnerId
 >
 mRemoteTextureOwnerId
 ;
+bool
+mNeedsRemoteTextureSync
+=
+true
+;
 public
 :
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
@@ -3278,6 +3283,11 @@ layers
 RemoteTextureOwnerId
 >
 mRemoteTextureOwnerId
+;
+bool
+mNeedsRemoteTextureSync
+=
+true
 ;
 public
 :
