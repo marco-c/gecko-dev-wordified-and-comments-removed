@@ -24843,16 +24843,6 @@ n
 return
 ;
 }
-#
-ifdef
-MOZ_X11
-if
-(
-GdkIsX11Display
-(
-)
-)
-{
 if
 (
 !
@@ -24917,9 +24907,6 @@ GDK_WINDOW_STATE_MAXIMIZED
 )
 ;
 }
-}
-#
-endif
 if
 (
 IsChromeWindowTitlebar
