@@ -1,3 +1,15 @@
+use
+std
+:
+:
+os
+:
+:
+raw
+:
+:
+c_char
+;
 const
 LOG_LIMIT
 :
@@ -343,7 +355,7 @@ fn
 (
 *
 const
-i8
+c_char
 .
 .
 .
