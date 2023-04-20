@@ -730,11 +730,6 @@ IntrinsicObjectHasPrototype
 \
 _
 (
-IntrinsicFinishBoundFunctionInit
-)
-\
-_
-(
 IntrinsicIsPackedArray
 )
 \

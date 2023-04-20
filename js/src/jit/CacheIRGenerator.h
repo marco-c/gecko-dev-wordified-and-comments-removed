@@ -2805,11 +2805,6 @@ isMap
 )
 ;
 AttachDecision
-tryAttachFinishBoundFunctionInit
-(
-)
-;
-AttachDecision
 tryAttachNewArrayIterator
 (
 )
