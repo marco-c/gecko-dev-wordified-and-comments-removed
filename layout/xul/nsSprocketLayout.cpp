@@ -4944,11 +4944,6 @@ IsXULHorizontal
 aBox
 )
 ;
-nscoord
-biggestPref
-=
-0
-;
 nsFrameState
 frameState
 =
