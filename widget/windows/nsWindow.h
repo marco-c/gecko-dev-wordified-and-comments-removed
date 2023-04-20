@@ -1076,13 +1076,9 @@ WidgetToScreenOffset
 )
 override
 ;
-LayoutDeviceIntSize
-ClientToWindowSize
+LayoutDeviceIntMargin
+ClientToWindowMargin
 (
-const
-LayoutDeviceIntSize
-&
-aClientSize
 )
 override
 ;
