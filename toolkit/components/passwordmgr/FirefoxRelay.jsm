@@ -250,6 +250,17 @@ browser
 /
 branding
 /
+sync
+-
+brand
+.
+ftl
+"
+"
+browser
+/
+branding
+/
 brandings
 .
 ftl
