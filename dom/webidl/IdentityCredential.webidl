@@ -312,6 +312,7 @@ FedCM
 manifest
 [
 GenerateInit
+GenerateConversionToJS
 ]
 dictionary
 IdentityInternalManifest
