@@ -55,7 +55,7 @@ nsIFilePicker
 Mode
 :
 :
-modeGetFolder
+modeOpenMultiple
 >
 {
 }
