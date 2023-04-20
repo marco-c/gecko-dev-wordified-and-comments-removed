@@ -15258,13 +15258,13 @@ id
 FROM
 moz_places
 WHERE
-frecency
-<
-0
+recalc_frecency
+=
+1
 ORDER
 BY
 frecency
-ASC
+DESC
 LIMIT
 :
 limit

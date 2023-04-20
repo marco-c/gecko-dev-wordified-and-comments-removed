@@ -5694,12 +5694,12 @@ exec
 UPDATE
 moz_places
 SET
-frecency
+recalc_frecency
 =
--
-frecency
+1
 WHERE
 frecency
+<
 >
 0
 AND
@@ -6137,10 +6137,9 @@ format
 UPDATE
 moz_places
 SET
-frecency
+recalc_frecency
 =
--
-frecency
+1
 WHERE
 id
 IN
@@ -6164,6 +6163,7 @@ IN
 )
 AND
 frecency
+<
 >
 0
 "

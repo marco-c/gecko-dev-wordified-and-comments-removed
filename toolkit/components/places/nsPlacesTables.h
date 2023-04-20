@@ -129,6 +129,15 @@ id
 "
 \
 "
+recalc_frecency
+INTEGER
+NOT
+NULL
+DEFAULT
+0
+"
+\
+"
 )
 "
 )

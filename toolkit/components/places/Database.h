@@ -85,7 +85,7 @@ h
 #
 define
 DATABASE_SCHEMA_VERSION
-69
+70
 #
 define
 TOPIC_PLACES_INIT_COMPLETE
@@ -558,6 +558,11 @@ return
 mMobileRootId
 ;
 }
+nsresult
+RecalculateOriginFrecencyStatsInternal
+(
+)
+;
 protected
 :
 void
@@ -786,6 +791,11 @@ MigrateV68Up
 ;
 nsresult
 MigrateV69Up
+(
+)
+;
+nsresult
+MigrateV70Up
 (
 )
 ;
