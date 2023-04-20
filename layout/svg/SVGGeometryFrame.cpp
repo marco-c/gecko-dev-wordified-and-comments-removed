@@ -3496,7 +3496,7 @@ IsVisible
 )
 {
 return
-false
+true
 ;
 }
 constexpr
