@@ -1882,10 +1882,7 @@ retValue
 GetRandomTimelineSeed
 (
 )
-false
-CrossOriginIsolated
-(
-)
+mRTPCallerType
 )
 ;
 }
