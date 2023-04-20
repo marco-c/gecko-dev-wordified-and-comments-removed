@@ -609,6 +609,10 @@ rv
 )
 )
 {
+rv
+=
+NS_ERROR_DOM_SYNTAX_ERR
+;
 promise
 -
 >
@@ -649,6 +653,10 @@ rv
 )
 )
 {
+rv
+=
+NS_ERROR_DOM_SYNTAX_ERR
+;
 promise
 -
 >
