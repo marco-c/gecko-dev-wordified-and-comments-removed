@@ -349,6 +349,7 @@ DOMCacheThread
 DataChannel
 IO
 DataStorage
+DesktopCapture
 FileWatcher
 IO
 Font
@@ -408,6 +409,7 @@ TRR
 Background
 URL
 Classifier
+VideoCapture
 VRService
 VsyncIOThread
 Wifi
