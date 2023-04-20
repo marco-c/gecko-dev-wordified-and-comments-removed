@@ -721,7 +721,6 @@ allow
 /
 allowAllRequests
 *
-*
 /
 /
 /
@@ -2936,8 +2935,16 @@ RequestDetails
 *
 param
 {
+object
+}
+options
+*
+param
+{
 nsIURI
 }
+options
+.
 requestURI
 -
 URL
@@ -2952,6 +2959,8 @@ param
 nsIURI
 }
 [
+options
+.
 initiatorURI
 ]
 -
@@ -2970,6 +2979,8 @@ param
 {
 string
 }
+options
+.
 type
 -
 ResourceType
@@ -2983,6 +2994,8 @@ param
 string
 }
 [
+options
+.
 method
 ]
 -
@@ -2994,9 +3007,10 @@ param
 integer
 }
 [
+options
+.
 tabId
 ]
-*
 *
 /
 constructor
@@ -4883,7 +4897,6 @@ given
 domains
 .
 *
-*
 /
 #
 matchesDomains
@@ -5460,7 +5473,6 @@ MatchedRule
 [
 ]
 }
-*
 *
 /
 function

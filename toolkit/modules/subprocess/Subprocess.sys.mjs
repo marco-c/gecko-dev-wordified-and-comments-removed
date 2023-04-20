@@ -438,6 +438,7 @@ sub
 processes
 .
 *
+*
 namespace
 *
 /
@@ -881,7 +882,7 @@ Process
 }
 *
 *
-rejects
+throws
 {
 Error
 }

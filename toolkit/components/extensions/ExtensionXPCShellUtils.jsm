@@ -3742,6 +3742,8 @@ args
 }
 loadContentPage
 (
+url
+options
 .
 .
 .
@@ -3753,6 +3755,8 @@ XPCShellContentUtils
 .
 loadContentPage
 (
+url
+options
 .
 .
 .

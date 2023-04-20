@@ -1485,7 +1485,7 @@ completed
 .
 *
 *
-rejects
+throws
 {
 object
 }
@@ -2559,7 +2559,7 @@ ArrayBuffer
 }
 *
 *
-rejects
+throws
 {
 object
 }
@@ -2781,7 +2781,7 @@ object
 }
 *
 *
-rejects
+throws
 {
 object
 }
@@ -3097,7 +3097,7 @@ string
 }
 *
 *
-rejects
+throws
 {
 object
 }
@@ -3291,7 +3291,7 @@ integer
 }
 *
 *
-rejects
+throws
 {
 object
 }
@@ -3400,7 +3400,7 @@ buffer
 class
 Process
 *
-extends
+augments
 BaseProcess
 *
 /
