@@ -132,17 +132,9 @@ self
 .
 wrench_dir
 =
-(
-            
 "
 /
-storage
-/
-emulated
-/
-0
-/
-Android
+data
 /
 data
 /
@@ -157,8 +149,6 @@ files
 wrench
 "
         
-)
-        
 super
 (
 AndroidWrench
@@ -168,6 +158,12 @@ self
 __init__
 (
 )
+        
+self
+.
+use_root
+=
+False
         
 if
 self

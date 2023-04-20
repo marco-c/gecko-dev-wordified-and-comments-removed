@@ -3250,7 +3250,7 @@ native_activity
 (
 )
 .
-external_data_path
+internal_data_path
 (
 )
 .
@@ -3574,7 +3574,7 @@ native_activity
 (
 )
 .
-external_data_path
+internal_data_path
 (
 )
 .
@@ -4059,7 +4059,7 @@ native_activity
 (
 )
 .
-external_data_path
+internal_data_path
 (
 )
 .

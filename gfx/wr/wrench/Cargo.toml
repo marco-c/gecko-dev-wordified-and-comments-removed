@@ -629,3 +629,6 @@ label
 "
 Wrench
 "
+debuggable
+=
+true
