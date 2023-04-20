@@ -5599,7 +5599,7 @@ rs
 "
 :
 "
-11f9e772428cf3d0dd19e3dad1370bda66b5ce7858aeff50c3941b767c8962ef
+1eb0fa3574dfb7b250c2e923b1720577f97fe64192518d9e9886ba634a5a0d2a
 "
 "
 src
@@ -6486,7 +6486,7 @@ rs
 "
 :
 "
-b7024be06876065d1275b416af219dad9411fb05ae4d361635d0abd978118dca
+606a751f2b494346ff089cb00d3d9730d257bf8b49c58e216a7f196c247327ae
 "
 "
 tests
@@ -6498,6 +6498,17 @@ avif
 :
 "
 d3e7be873bb342b4cf2046201dcc4fa6aa649dfead6306dcb55949d5ee00cc8e
+"
+"
+tests
+/
+unknown_mdat_in_oversized_meta
+.
+avif
+"
+:
+"
+e66fa5d6bd5f685cd6fa4fbe3c9b3308b4b5dc83e3fbf2adb3bc63f67cc9b7d6
 "
 "
 tests
