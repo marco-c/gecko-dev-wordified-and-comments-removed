@@ -22,11 +22,14 @@ wasmDwarfSetAssetRootURL
 require
 (
 "
-devtools
--
+.
+.
+/
 wasm
 -
 dwarf
+/
+wasmAsset
 "
 )
 ;

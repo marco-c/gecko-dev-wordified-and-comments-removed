@@ -51,11 +51,14 @@ convertToJSON
 require
 (
 "
-devtools
--
+.
+.
+/
 wasm
 -
 dwarf
+/
+convertToJSON
 "
 )
 ;
