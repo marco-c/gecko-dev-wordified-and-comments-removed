@@ -463,11 +463,16 @@ manifest
 vendoring
 "
 ]
-[
+.
+get
+(
 "
 tracking
 "
-]
+"
+commit
+"
+)
         
 flavor
 =
