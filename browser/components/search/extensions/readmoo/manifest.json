@@ -25,7 +25,7 @@ version
 "
 1
 .
-1
+2
 "
 "
 browser_specific_settings
@@ -136,12 +136,6 @@ keyword
 pi
 =
 0
-&
-q
-=
-{
-searchTerms
-}
 &
 st
 =
