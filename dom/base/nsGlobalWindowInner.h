@@ -951,13 +951,6 @@ ShouldResistFingerprinting
 const
 final
 ;
-uint32_t
-GetPrincipalHashValue
-(
-)
-const
-final
-;
 mozilla
 :
 :

@@ -456,13 +456,6 @@ ShouldResistFingerprinting
 const
 final
 ;
-uint32_t
-GetPrincipalHashValue
-(
-)
-const
-final
-;
 OriginTrials
 Trials
 (
@@ -703,13 +696,6 @@ protected
 WorkerGlobalScopeBase
 (
 )
-;
-bool
-IsSystemPrincipal
-(
-)
-const
-final
 ;
 CheckedUnsafePtr
 <
