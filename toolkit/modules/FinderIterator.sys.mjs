@@ -169,8 +169,10 @@ more
 *
 /
 export
-function
+class
 FinderIterator
+{
+constructor
 (
 )
 {
@@ -243,13 +245,8 @@ useSubFrames
 false
 ;
 }
-FinderIterator
-.
-prototype
-=
-{
 _timeout
-:
+=
 Services
 .
 prefs
@@ -258,6 +255,7 @@ getIntPref
 (
 kTimeoutPref
 )
+;
 /
 /
 Expose
@@ -5066,4 +5064,3 @@ isInsideLink
 ;
 }
 }
-;
