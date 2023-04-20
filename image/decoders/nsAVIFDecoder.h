@@ -249,7 +249,7 @@ CreateDecoder
 )
 ;
 DecodeResult
-Decode
+DoDecodeInternal
 (
 SourceBufferIterator
 &
