@@ -180,7 +180,7 @@ kPsnrThreshold
 =
 30
 .
-50
+4
 ;
 struct
 ToyRateCtrl

@@ -1089,7 +1089,7 @@ temp2
 temp1
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp0
@@ -1103,7 +1103,7 @@ temp2
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp1
@@ -1245,7 +1245,7 @@ output
 *
 16
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp0

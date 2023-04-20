@@ -2116,6 +2116,7 @@ fp_mb_stats
 emulate_hardware
 non_greedy_mv
 rate_ctrl
+collect_component_timing
 "
 CONFIG_LIST
 =
@@ -2169,7 +2170,6 @@ encode_perf_tests
 multi_res_encoding
 temporal_denoising
 vp9_temporal_denoising
-consistent_recode
 coefficient_range_checking
 vp9_highbitdepth
 better_hw_compatibility
@@ -2239,7 +2239,6 @@ encode_perf_tests
 multi_res_encoding
 temporal_denoising
 vp9_temporal_denoising
-consistent_recode
 coefficient_range_checking
 better_hw_compatibility
 vp9_highbitdepth

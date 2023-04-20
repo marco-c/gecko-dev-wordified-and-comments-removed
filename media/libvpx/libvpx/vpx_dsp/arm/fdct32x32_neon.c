@@ -287,7 +287,7 @@ temp5
 temp4
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp1
@@ -301,7 +301,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp2
@@ -315,7 +315,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp3
@@ -329,7 +329,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp4
@@ -531,7 +531,7 @@ output
 temp5
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp1
@@ -545,7 +545,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp2
@@ -559,7 +559,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp3
@@ -573,7 +573,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp4
@@ -779,7 +779,7 @@ output
 temp5
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp1
@@ -793,7 +793,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp2
@@ -807,7 +807,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp3
@@ -821,7 +821,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp4
@@ -1027,7 +1027,7 @@ output
 temp5
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp1
@@ -1041,7 +1041,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp2
@@ -1055,7 +1055,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp3
@@ -1069,7 +1069,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp4
@@ -1408,7 +1408,7 @@ temp5
 temp4
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp1
@@ -1422,7 +1422,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp2
@@ -1436,7 +1436,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp3
@@ -1450,7 +1450,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp4
@@ -1652,7 +1652,7 @@ output
 temp5
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp1
@@ -1666,7 +1666,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp2
@@ -1680,7 +1680,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp3
@@ -1694,7 +1694,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp4
@@ -1900,7 +1900,7 @@ output
 temp5
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp1
@@ -1914,7 +1914,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp2
@@ -1928,7 +1928,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp3
@@ -1942,7 +1942,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp4
@@ -2148,7 +2148,7 @@ output
 temp5
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp1
@@ -2162,7 +2162,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp2
@@ -2176,7 +2176,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp3
@@ -2190,7 +2190,7 @@ temp0
 ]
 )
 ;
-transpose_s16_8x8_new
+transpose_s16_8x8q
 (
 &
 temp4
