@@ -3208,7 +3208,7 @@ rhsId
 )
 ;
 AttachDecision
-tryAttachBoolStringOrNumber
+tryAttachStringBoolean
 (
 ValOperandId
 lhsId
