@@ -712,17 +712,6 @@ ReleaseD3D11
 (
 )
 {
-#
-ifdef
-DEBUG
-MutexAutoLock
-lock
-(
-mDeviceLock
-)
-;
-#
-endif
 MOZ_ASSERT
 (
 !
@@ -4818,7 +4807,7 @@ createCompositorDevice
 &
 &
 !
-CreateCompositorDevices
+CreateCompositorDevicesLocked
 (
 )
 )
