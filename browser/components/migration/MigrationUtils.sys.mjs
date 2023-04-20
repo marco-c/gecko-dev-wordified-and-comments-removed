@@ -349,6 +349,9 @@ edge
 ie
 "
 "
+opera
+"
+"
 brave
 "
 "
@@ -406,6 +409,9 @@ firefox
 safari
 "
 "
+opera
+"
+"
 brave
 "
 "
@@ -443,6 +449,9 @@ return
 [
 "
 firefox
+"
+"
+opera
 "
 "
 brave
@@ -4582,6 +4591,11 @@ Nightly
 "
 firefox
 "
+Opera
+:
+"
+opera
+"
 "
 Brave
 Web
@@ -7627,6 +7641,9 @@ beta
 brave
 :
 11
+opera
+:
+12
 }
 getSourceIdForTelemetry
 (
