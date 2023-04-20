@@ -15,17 +15,6 @@ utility
 #
 include
 "
-api
-/
-task_queue
-/
-to_queued_task
-.
-h
-"
-#
-include
-"
 rtc_base
 /
 buffer
@@ -412,8 +401,6 @@ channel_receive_thread_
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 delegate
 =
@@ -453,7 +440,6 @@ frame
 )
 ;
 }
-)
 )
 ;
 }
