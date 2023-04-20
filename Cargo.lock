@@ -25887,9 +25887,6 @@ num
 -
 traits
 "
-"
-serde
-"
 ]
 [
 [
@@ -27439,7 +27436,7 @@ version
 .
 9
 .
-2
+3
 "
 source
 =
@@ -27467,7 +27464,7 @@ index
 checksum
 =
 "
-5082e028484c60920c1b0dc8ab6bd4663f075e15095c5a9009fae779c01f6364
+b4f1641177943b4e6faf7622463ae6dfe0f143eb88799e91e2e2e68ede568af5
 "
 dependencies
 =
