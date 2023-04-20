@@ -44,7 +44,7 @@ TelemetryEnvironment
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -57,7 +57,9 @@ modules
 /
 TelemetryEnvironment
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

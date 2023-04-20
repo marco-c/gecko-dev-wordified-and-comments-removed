@@ -10,7 +10,7 @@ TelemetryArchive
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 TelemetryArchive
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -34,7 +36,7 @@ TelemetryUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +49,9 @@ modules
 /
 TelemetryUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -58,7 +62,7 @@ TelemetryTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -71,7 +75,9 @@ common
 /
 TelemetryTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -82,7 +88,7 @@ TelemetryArchiveTesting
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -95,7 +101,9 @@ common
 /
 TelemetryArchiveTesting
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

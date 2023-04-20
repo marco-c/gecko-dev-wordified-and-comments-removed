@@ -5,7 +5,7 @@ ClientID
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ modules
 /
 ClientID
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -29,7 +31,7 @@ TelemetrySession
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -42,7 +44,9 @@ modules
 /
 TelemetrySession
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -53,7 +57,7 @@ TelemetryEnvironment
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -66,7 +70,9 @@ modules
 /
 TelemetryEnvironment
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -77,7 +83,7 @@ TelemetryReportingPolicy
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -90,7 +96,9 @@ modules
 /
 TelemetryReportingPolicy
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -401,7 +409,7 @@ Policy
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -414,7 +422,9 @@ modules
 /
 TelemetrySession
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -1045,7 +1045,9 @@ unit
 /
 TelemetryTestUtils
 .
-jsm
+sys
+.
+mjs
 module
 to
 make

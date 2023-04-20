@@ -89,9 +89,9 @@ jsm
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -108,7 +108,9 @@ modules
 /
 TelemetryEnvironment
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

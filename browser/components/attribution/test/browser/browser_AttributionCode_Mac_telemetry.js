@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 TelemetryTestUtils
-"
+:
 "
 resource
 :
@@ -17,8 +17,11 @@ common
 /
 TelemetryTestUtils
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 const

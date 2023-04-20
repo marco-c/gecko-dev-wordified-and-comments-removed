@@ -10,7 +10,7 @@ TelemetryArchiveTesting
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ common
 /
 TelemetryArchiveTesting
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

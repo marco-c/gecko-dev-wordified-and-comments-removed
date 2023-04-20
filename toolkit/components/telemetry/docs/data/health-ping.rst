@@ -266,7 +266,7 @@ behavior
 -
 -
 -
-TelemetryHealthPing
+HealthPing
 .
 jsm
 tracks

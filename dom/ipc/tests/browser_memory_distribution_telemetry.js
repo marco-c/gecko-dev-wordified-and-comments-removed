@@ -10,7 +10,7 @@ TelemetrySession
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 TelemetrySession
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

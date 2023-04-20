@@ -1,12 +1,8 @@
-const
+import
 {
 TelemetryArchive
 }
-=
-ChromeUtils
-.
-import
-(
+from
 "
 resource
 :
@@ -18,9 +14,10 @@ modules
 /
 TelemetryArchive
 .
-jsm
+sys
+.
+mjs
 "
-)
 ;
 function
 checkForProperties

@@ -18,7 +18,7 @@ TelemetryReportingPolicy
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -31,7 +31,9 @@ modules
 /
 TelemetryReportingPolicy
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

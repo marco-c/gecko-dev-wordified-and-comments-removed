@@ -534,7 +534,9 @@ in
 /
 TelemetryEnvironmentTesting
 .
-jsm
+sys
+.
+mjs
 and
 record
 the

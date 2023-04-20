@@ -110,15 +110,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-lazy
-{
 TelemetryController
 :
 "
@@ -132,7 +123,9 @@ modules
 /
 TelemetryController
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

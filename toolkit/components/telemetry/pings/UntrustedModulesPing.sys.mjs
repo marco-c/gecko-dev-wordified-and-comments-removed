@@ -161,9 +161,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -180,7 +180,9 @@ modules
 /
 TelemetryController
 .
-jsm
+sys
+.
+mjs
 "
 TelemetryUtils
 :
@@ -195,7 +197,9 @@ modules
 /
 TelemetryUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

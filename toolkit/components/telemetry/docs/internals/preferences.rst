@@ -1439,7 +1439,9 @@ defined
 in
 TelemetryReportingPolicy
 .
-jsm
+sys
+.
+mjs
 .
 datareporting
 .

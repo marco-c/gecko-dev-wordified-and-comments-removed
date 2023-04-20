@@ -116,7 +116,9 @@ exposed
 by
 TelemetryEnvironment
 .
-jsm
+sys
+.
+mjs
 .
 The
 following

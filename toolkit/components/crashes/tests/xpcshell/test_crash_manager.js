@@ -34,7 +34,7 @@ TelemetryArchiveTesting
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +47,9 @@ common
 /
 TelemetryArchiveTesting
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -84,7 +86,7 @@ TelemetryEnvironment
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -97,7 +99,9 @@ modules
 /
 TelemetryEnvironment
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
