@@ -685,9 +685,11 @@ virtual
 bool
 ShouldTaintReplacementChannelOrigin
 (
-nsIURI
+nsIChannel
 *
-aNewURI
+aNewChannel
+uint32_t
+aRedirectFlags
 )
 override
 {
