@@ -46,7 +46,7 @@ webrtc
 namespace
 test
 {
-MetricsLogger
+DefaultMetricsLogger
 *
 GetGlobalMetricsLogger
 (

@@ -91,14 +91,14 @@ webrtc
 namespace
 test
 {
-MetricsLogger
+DefaultMetricsLogger
 *
 GetGlobalMetricsLogger
 (
 )
 {
 static
-MetricsLogger
+DefaultMetricsLogger
 *
 logger_
 =
