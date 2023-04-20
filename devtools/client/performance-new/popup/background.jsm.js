@@ -1640,6 +1640,11 @@ case
 aboutprofiling
 "
 :
+case
+"
+aboutlogging
+"
+:
 return
 "
 "
