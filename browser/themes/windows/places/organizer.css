@@ -2687,9 +2687,7 @@ color
 ;
 }
 #
-editBMPanel_tagsSelectorRow
->
-richlistbox
+editBMPanel_tagsSelector
 {
 appearance
 :
@@ -2744,9 +2742,7 @@ radius
 ;
 }
 #
-editBMPanel_tagsSelectorRow
->
-richlistbox
+editBMPanel_tagsSelector
 >
 richlistitem
 {
@@ -2758,9 +2754,7 @@ transparent
 ;
 }
 #
-editBMPanel_tagsSelectorRow
->
-richlistbox
+editBMPanel_tagsSelector
 >
 richlistitem
 :
@@ -2796,9 +2790,7 @@ color
 ;
 }
 #
-editBMPanel_tagsSelectorRow
->
-richlistbox
+editBMPanel_tagsSelector
 >
 richlistitem
 [
