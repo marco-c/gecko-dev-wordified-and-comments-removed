@@ -27,6 +27,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 BlockingResourceBase
 .
 h
@@ -738,10 +747,8 @@ RWLock
 >
 AutoWriteLock
 ;
-namespace
-detail
-{
 class
+MOZ_ONLY_USED_TO_AVOID_STATIC_CONSTRUCTORS
 MOZ_CAPABILITY
 StaticRWLock
 {
@@ -1032,7 +1039,6 @@ StaticRWLock
 >
 StaticAutoWriteLock
 ;
-}
 }
 #
 endif

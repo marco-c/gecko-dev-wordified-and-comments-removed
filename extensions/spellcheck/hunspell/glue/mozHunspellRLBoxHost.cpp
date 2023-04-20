@@ -398,9 +398,6 @@ sCurrentFreshId
 mozilla
 :
 :
-detail
-:
-:
 StaticRWLock
 mozHunspellCallbacks
 :
@@ -453,9 +450,6 @@ aFilename
 mozilla
 :
 :
-detail
-:
-:
 StaticAutoWriteLock
 lock
 (
@@ -479,9 +473,6 @@ Clear
 )
 {
 mozilla
-:
-:
-detail
 :
 :
 StaticAutoWriteLock
@@ -529,9 +520,6 @@ t_aFilename
 )
 {
 mozilla
-:
-:
-detail
 :
 :
 StaticAutoWriteLock
@@ -734,9 +722,6 @@ t_aFd
 )
 {
 mozilla
-:
-:
-detail
 :
 :
 StaticAutoReadLock
@@ -998,9 +983,6 @@ t_aFd
 )
 {
 mozilla
-:
-:
-detail
 :
 :
 StaticAutoWriteLock
