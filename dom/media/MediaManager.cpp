@@ -14745,6 +14745,16 @@ device
 >
 mRawID
 ;
+if
+(
+!
+id
+.
+IsEmpty
+(
+)
+)
+{
 nsContentUtils
 :
 :
@@ -14754,6 +14764,7 @@ id
 aOriginKey
 )
 ;
+}
 nsString
 groupId
 =
