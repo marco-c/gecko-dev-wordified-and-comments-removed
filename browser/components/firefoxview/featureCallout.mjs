@@ -187,12 +187,6 @@ tour
 '
 {
 "
-message
-"
-:
-"
-"
-"
 screen
 "
 :

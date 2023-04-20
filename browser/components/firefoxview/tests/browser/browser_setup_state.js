@@ -625,11 +625,6 @@ JSON
 stringify
 (
 {
-message
-:
-"
-FIREFOX_VIEW_FEATURE_TOUR
-"
 screen
 :
 FEATURE_CALLOUT_1
@@ -3268,11 +3263,6 @@ JSON
 stringify
 (
 {
-message
-:
-"
-FIREFOX_VIEW_FEATURE_TOUR
-"
 screen
 :
 FEATURE_CALLOUT_1

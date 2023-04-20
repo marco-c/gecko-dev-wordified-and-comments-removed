@@ -19078,17 +19078,6 @@ tour
 {
 \
 "
-message
-\
-"
-:
-\
-"
-FIREFOX_VIEW_FEATURE_TOUR
-\
-"
-\
-"
 screen
 \
 "
