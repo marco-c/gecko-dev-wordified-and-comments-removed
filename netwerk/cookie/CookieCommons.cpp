@@ -2782,7 +2782,7 @@ isForeign
 *
 aHadCrossSiteRedirects
 =
-true
+isForeign
 ;
 return
 true
