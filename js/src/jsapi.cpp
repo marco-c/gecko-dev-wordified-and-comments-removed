@@ -4806,14 +4806,7 @@ false
 )
 ;
 return
-GlobalObject
-:
-:
-getOrCreateObjectPrototype
-(
-cx
-global
-)
+true
 ;
 }
 JS_PUBLIC_API
