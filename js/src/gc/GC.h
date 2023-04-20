@@ -459,6 +459,15 @@ false
 _
 (
 "
+markingThreadCount
+"
+JSGC_MARKING_THREAD_COUNT
+true
+)
+\
+_
+(
+"
 systemPageSizeKB
 "
 JSGC_SYSTEM_PAGE_SIZE_KB
