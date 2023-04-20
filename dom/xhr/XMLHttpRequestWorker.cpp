@@ -1369,7 +1369,7 @@ aWorkerPrivate
 StopSyncLoop
 (
 mSyncLoopTarget
-true
+NS_OK
 )
 ;
 }
@@ -3227,7 +3227,7 @@ move
 (
 mSyncLoopTarget
 )
-false
+NS_ERROR_FAILURE
 )
 ;
 MOZ_ALWAYS_TRUE
@@ -7136,11 +7136,14 @@ Clear
 bool
 succeeded
 =
+NS_SUCCEEDED
+(
 autoSyncLoop
 -
 >
 Run
 (
+)
 )
 ;
 mStateData

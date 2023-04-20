@@ -1007,7 +1007,7 @@ MainThreadStopSyncLoopRunnable
 public
 WorkerSyncRunnable
 {
-bool
+nsresult
 mResult
 ;
 public
@@ -1024,7 +1024,7 @@ nsIEventTarget
 &
 &
 aSyncLoopTarget
-bool
+nsresult
 aResult
 )
 ;

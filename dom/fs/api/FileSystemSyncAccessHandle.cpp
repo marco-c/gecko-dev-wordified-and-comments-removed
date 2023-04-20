@@ -1777,7 +1777,7 @@ workerPrivate
 StopSyncLoop
 (
 syncLoopTarget
-true
+NS_OK
 )
 ;
 return
@@ -1799,7 +1799,7 @@ __func__
 throwAndReturn
 )
 ;
-MOZ_ALWAYS_TRUE
+MOZ_ALWAYS_SUCCEEDS
 (
 syncLoop
 .

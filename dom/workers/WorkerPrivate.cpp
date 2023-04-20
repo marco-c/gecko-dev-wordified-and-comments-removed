@@ -5975,11 +5975,11 @@ mEventTarget
 (
 aEventTarget
 )
-mCompleted
-(
-false
-)
 mResult
+(
+NS_ERROR_FAILURE
+)
+mCompleted
 (
 false
 )
@@ -18085,7 +18085,7 @@ forget
 )
 ;
 }
-bool
+nsresult
 WorkerPrivate
 :
 :
@@ -18400,7 +18400,7 @@ currentLoopIndex
 )
 ;
 }
-bool
+nsresult
 WorkerPrivate
 :
 :
@@ -18466,7 +18466,7 @@ MOZ_ASSERT
 nestedEventTarget
 )
 ;
-bool
+nsresult
 result
 =
 loopInfo
@@ -19062,7 +19062,7 @@ StopSyncLoop
 nsIEventTarget
 *
 aSyncLoopTarget
-bool
+nsresult
 aResult
 )
 {

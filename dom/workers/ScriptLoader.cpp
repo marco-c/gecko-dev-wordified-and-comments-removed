@@ -4814,6 +4814,10 @@ StopSyncLoop
 (
 mSyncLoopTarget
 aResult
+?
+NS_OK
+:
+NS_ERROR_FAILURE
 )
 ;
 mCleanedUp
