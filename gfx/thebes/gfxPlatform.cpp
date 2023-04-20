@@ -11033,7 +11033,7 @@ IsEmpty
 {
 gCMSOutputProfile
 =
-qcms_profile_from_memory
+qcms_profile_from_memory_curves_only
 (
 outputProfileData
 .
