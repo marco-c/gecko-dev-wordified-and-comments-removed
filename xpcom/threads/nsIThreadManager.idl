@@ -147,6 +147,11 @@ blockDispatch
 =
 false
 ;
+bool
+isUiThread
+=
+false
+;
 }
 ;
 %
