@@ -248,6 +248,13 @@ uint32_t
 aRedirectFlags
 uint32_t
 aLoadFlags
+const
+nsTArray
+<
+EarlyHintConnectArgs
+>
+&
+aEarlyHints
 )
 {
 LOG
@@ -1130,6 +1137,9 @@ mRedirectFlags
 aResolveValue
 .
 mLoadFlags
+aResolveValue
+.
+mEarlyHints
 )
 -
 >
