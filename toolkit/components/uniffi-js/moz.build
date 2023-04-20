@@ -13,6 +13,11 @@ OwnedRustBuffer
 cpp
 "
 "
+UniFFICallbacks
+.
+cpp
+"
+"
 UniFFIGeneratedScaffolding
 .
 cpp
@@ -74,6 +79,11 @@ h
 "
 "
 ScaffoldingConverter
+.
+h
+"
+"
+UniFFICallbacks
 .
 h
 "

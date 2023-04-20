@@ -16,6 +16,9 @@ CustomTypes
 ExternalTypes
 "
 "
+FixtureCallbacks
+"
+"
 Geometry
 "
 "
