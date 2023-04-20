@@ -3291,7 +3291,7 @@ hidden
 false
 ;
 let
-learnMoreLink
+trrOnlyLearnMoreLink
 =
 document
 .
@@ -3339,7 +3339,7 @@ cgi
 id
 =
 1806257
-learnMoreLink
+trrOnlyLearnMoreLink
 .
 href
 =
