@@ -1740,8 +1740,8 @@ n
 0
 }
 1
-FALSE
-FALSE
+false
+false
 0
 0
 {
@@ -2292,7 +2292,7 @@ cnv
 .
 isExtraLocal
 =
-TRUE
+true
 ;
 return
 &
@@ -2373,7 +2373,7 @@ xcnv
 pUniChar
 &
 value
-FALSE
+false
 )
 ;
 if
@@ -2411,7 +2411,7 @@ groups_tried
 group
 ]
 =
-TRUE
+true
 ;
 return
 0
@@ -4102,7 +4102,7 @@ args
 >
 source
 1
-FALSE
+false
 )
 ;
 +
@@ -4125,7 +4125,7 @@ args
 >
 source
 2
-FALSE
+false
 )
 ;
 args
@@ -4227,7 +4227,7 @@ ucnv_MBCSSimpleGetNextUChar
 cnv
 bytes
 2
-FALSE
+false
 )
 ;
 }
@@ -4308,7 +4308,7 @@ source
 -
 1
 1
-FALSE
+false
 )
 ;
 }
@@ -4331,7 +4331,7 @@ source
 -
 1
 2
-FALSE
+false
 )
 ;
 +

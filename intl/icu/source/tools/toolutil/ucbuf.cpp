@@ -272,7 +272,7 @@ conv
 NULL
 ;
 return
-FALSE
+false
 ;
 }
 *
@@ -309,7 +309,7 @@ start
 *
 signatureLength
 NULL
-FALSE
+false
 error
 )
 ;
@@ -377,7 +377,7 @@ U_INTERNAL_PROGRAM_ERROR
 ;
 }
 return
-TRUE
+true
 ;
 }
 static
@@ -407,7 +407,7 @@ cp
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -427,7 +427,7 @@ cp
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -447,7 +447,7 @@ cp
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -467,7 +467,7 @@ cp
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -487,7 +487,7 @@ cp
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -507,7 +507,7 @@ cp
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -527,7 +527,7 @@ cp
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -545,7 +545,7 @@ cp
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -565,7 +565,7 @@ cp
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -585,11 +585,11 @@ cp
 )
 {
 return
-TRUE
+true
 ;
 }
 return
-FALSE
+false
 ;
 }
 U_CAPI
@@ -1171,7 +1171,7 @@ buf
 showWarning
 =
 =
-TRUE
+true
 )
 {
 fprintf
@@ -1361,7 +1361,7 @@ buf
 showWarning
 =
 =
-TRUE
+true
 )
 {
 fprintf
@@ -1637,7 +1637,7 @@ error
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1740,7 +1740,7 @@ error
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1926,7 +1926,7 @@ error
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -2298,7 +2298,7 @@ error
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-FALSE
+NULL
 ;
 }
 if
@@ -2570,7 +2570,7 @@ buf
 showWarning
 =
 =
-TRUE
+true
 )
 )
 {
@@ -3098,7 +3098,7 @@ start
 +
 numRead
 NULL
-FALSE
+false
 error
 )
 ;
@@ -3650,12 +3650,12 @@ case
 0x2029
 :
 return
-TRUE
+true
 ;
 default
 :
 return
-FALSE
+false
 ;
 }
 }

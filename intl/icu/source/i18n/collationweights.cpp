@@ -1122,7 +1122,7 @@ n
 #
 endif
 return
-FALSE
+false
 ;
 }
 if
@@ -1176,7 +1176,7 @@ upperLimit
 #
 endif
 return
-FALSE
+false
 ;
 }
 }
@@ -1584,7 +1584,7 @@ start
 UBool
 merged
 =
-FALSE
+false
 ;
 if
 (
@@ -1666,7 +1666,7 @@ length
 ;
 merged
 =
-TRUE
+true
 ;
 }
 else
@@ -1737,7 +1737,7 @@ count
 ;
 merged
 =
-TRUE
+true
 ;
 }
 }
@@ -2239,14 +2239,14 @@ WeightRange
 )
 compareRanges
 NULL
-FALSE
+false
 &
 errorCode
 )
 ;
 }
 return
-TRUE
+true
 ;
 }
 n
@@ -2261,7 +2261,7 @@ count
 ;
 }
 return
-FALSE
+false
 ;
 }
 UBool
@@ -2341,7 +2341,7 @@ nextCountBytes
 )
 {
 return
-FALSE
+false
 ;
 }
 uint32_t
@@ -2660,7 +2660,7 @@ rangeCount
 ;
 }
 return
-TRUE
+true
 ;
 }
 UBool
@@ -2719,7 +2719,7 @@ n
 #
 endif
 return
-FALSE
+false
 ;
 }
 for
@@ -2790,7 +2790,7 @@ n
 #
 endif
 return
-FALSE
+false
 ;
 }
 if
@@ -2968,7 +2968,7 @@ rangeIndex
 0
 ;
 return
-TRUE
+true
 ;
 }
 uint32_t

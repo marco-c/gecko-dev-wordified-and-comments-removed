@@ -286,7 +286,7 @@ defined
 (
 U_COMMON_IMPLEMENTATION
 )
-U_CFUNC
+U_CAPI
 const
 uint8_t
 utf8_countTrailBytes

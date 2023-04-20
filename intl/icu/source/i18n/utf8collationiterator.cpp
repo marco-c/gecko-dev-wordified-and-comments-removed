@@ -422,13 +422,13 @@ length
 pos
 ;
 return
-TRUE
+true
 ;
 }
 else
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -442,7 +442,7 @@ forbidSurrogateCodePoints
 const
 {
 return
-TRUE
+true
 ;
 }
 UChar32
@@ -1233,7 +1233,7 @@ c
 )
 {
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -1316,7 +1316,7 @@ c
 )
 {
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -1441,13 +1441,13 @@ length
 pos
 ;
 return
-TRUE
+true
 ;
 }
 else
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -2105,7 +2105,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 U_ASSERT
@@ -2291,7 +2291,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 start
@@ -2311,7 +2311,7 @@ pos
 0
 ;
 return
-TRUE
+true
 ;
 }
 prevCC
@@ -2360,7 +2360,7 @@ state
 IN_FCD_SEGMENT
 ;
 return
-TRUE
+true
 ;
 }
 void
@@ -2486,7 +2486,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 U_ASSERT
@@ -2690,7 +2690,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 limit
@@ -2714,7 +2714,7 @@ length
 )
 ;
 return
-TRUE
+true
 ;
 }
 nextCC
@@ -2768,7 +2768,7 @@ state
 IN_FCD_SEGMENT
 ;
 return
-TRUE
+true
 ;
 }
 UBool

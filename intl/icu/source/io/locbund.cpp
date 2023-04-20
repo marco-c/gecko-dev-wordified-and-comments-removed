@@ -127,7 +127,7 @@ NULL
 ;
 }
 return
-TRUE
+true
 ;
 }
 U_CDECL_END

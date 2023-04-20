@@ -349,7 +349,7 @@ scsu
 >
 toUIsSingleByteMode
 =
-TRUE
+true
 ;
 scsu
 -
@@ -408,7 +408,7 @@ scsu
 >
 fromUIsSingleByteMode
 =
-TRUE
+true
 ;
 scsu
 -
@@ -1356,7 +1356,7 @@ nextSourceIndex
 ;
 isSingleByteMode
 =
-FALSE
+false
 ;
 goto
 fastUnicode
@@ -2179,7 +2179,7 @@ nextSourceIndex
 ;
 isSingleByteMode
 =
-TRUE
+true
 ;
 goto
 fastSingle
@@ -2207,7 +2207,7 @@ UD0
 ;
 isSingleByteMode
 =
-TRUE
+true
 ;
 cnv
 -
@@ -2245,7 +2245,7 @@ UDX
 {
 isSingleByteMode
 =
-TRUE
+true
 ;
 cnv
 -
@@ -3031,7 +3031,7 @@ SCU
 {
 isSingleByteMode
 =
-FALSE
+false
 ;
 goto
 fastUnicode
@@ -3718,7 +3718,7 @@ UC0
 ;
 isSingleByteMode
 =
-TRUE
+true
 ;
 goto
 fastSingle
@@ -3746,7 +3746,7 @@ UD0
 ;
 isSingleByteMode
 =
-TRUE
+true
 ;
 cnv
 -
@@ -3784,7 +3784,7 @@ UDX
 {
 isSingleByteMode
 =
-TRUE
+true
 ;
 cnv
 -
@@ -5239,7 +5239,7 @@ else
 {
 isSingleByteMode
 =
-FALSE
+false
 ;
 *
 target
@@ -5675,7 +5675,7 @@ source
 {
 isSingleByteMode
 =
-FALSE
+false
 ;
 c
 |
@@ -5955,7 +5955,7 @@ c
 {
 isSingleByteMode
 =
-TRUE
+true
 ;
 c
 |
@@ -6006,7 +6006,7 @@ c
 {
 isSingleByteMode
 =
-TRUE
+true
 ;
 dynamicWindow
 =
@@ -6080,7 +6080,7 @@ offset
 {
 isSingleByteMode
 =
-TRUE
+true
 ;
 dynamicWindow
 =
@@ -6295,7 +6295,7 @@ source
 {
 isSingleByteMode
 =
-TRUE
+true
 ;
 dynamicWindow
 =
@@ -6381,7 +6381,7 @@ offset
 {
 isSingleByteMode
 =
-TRUE
+true
 ;
 code
 -
@@ -7672,7 +7672,7 @@ else
 {
 isSingleByteMode
 =
-FALSE
+false
 ;
 *
 target
@@ -8092,7 +8092,7 @@ source
 {
 isSingleByteMode
 =
-FALSE
+false
 ;
 c
 |
@@ -8341,7 +8341,7 @@ c
 {
 isSingleByteMode
 =
-TRUE
+true
 ;
 c
 |
@@ -8392,7 +8392,7 @@ c
 {
 isSingleByteMode
 =
-TRUE
+true
 ;
 dynamicWindow
 =
@@ -8466,7 +8466,7 @@ offset
 {
 isSingleByteMode
 =
-TRUE
+true
 ;
 dynamicWindow
 =
@@ -8677,7 +8677,7 @@ source
 {
 isSingleByteMode
 =
-TRUE
+true
 ;
 dynamicWindow
 =
@@ -8763,7 +8763,7 @@ offset
 {
 isSingleByteMode
 =
-TRUE
+true
 ;
 code
 -
@@ -9426,7 +9426,7 @@ cnv
 .
 isExtraLocal
 =
-TRUE
+true
 ;
 return
 &
@@ -9488,8 +9488,8 @@ UCNV_SCSU
 0
 }
 3
-FALSE
-FALSE
+false
+false
 0
 0
 {

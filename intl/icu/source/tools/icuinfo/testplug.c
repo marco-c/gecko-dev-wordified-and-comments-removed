@@ -13,6 +13,13 @@ UCONFIG_ENABLE_PLUGINS
 #
 include
 <
+stdbool
+.
+h
+>
+#
+include
+<
 stdio
 .
 h
@@ -1018,7 +1025,7 @@ n
 uplug_setPlugNoUnload
 (
 data
-TRUE
+true
 )
 ;
 }

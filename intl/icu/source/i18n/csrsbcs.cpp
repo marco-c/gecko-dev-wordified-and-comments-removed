@@ -384,7 +384,7 @@ b
 bool
 ignoreSpace
 =
-FALSE
+false
 ;
 while
 (
@@ -996,7 +996,7 @@ b
 bool
 ignoreSpace
 =
-FALSE
+false
 ;
 while
 (

@@ -1725,6 +1725,8 @@ MVR
 MVR
 "
 "
+Malediven
+-
 Rufiyaa
 "
 }
@@ -5754,13 +5756,17 @@ MVR
 one
 {
 "
+Malediven
+-
 Rufiyaa
 "
 }
 other
 {
 "
-Rufiyaa
+Malediven
+-
+Rupien
 "
 }
 }

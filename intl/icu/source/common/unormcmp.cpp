@@ -1572,7 +1572,7 @@ pErrorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1600,7 +1600,7 @@ normalized
 .
 setTo
 (
-FALSE
+false
 str
 .
 getBuffer
@@ -1630,12 +1630,12 @@ pErrorCode
 )
 {
 return
-TRUE
+true
 ;
 }
 }
 return
-FALSE
+false
 ;
 }
 U_CAPI

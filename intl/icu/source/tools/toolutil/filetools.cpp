@@ -168,7 +168,7 @@ isDir
 UBool
 isLatest
 =
-TRUE
+true
 ;
 if
 (
@@ -185,7 +185,7 @@ NULL
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -193,7 +193,7 @@ if
 isDir
 =
 =
-TRUE
+true
 )
 {
 #
@@ -347,7 +347,7 @@ status
 )
 ;
 return
-FALSE
+false
 ;
 }
 if
@@ -427,7 +427,7 @@ latest
 {
 isLatest
 =
-FALSE
+false
 ;
 break
 ;
@@ -461,7 +461,7 @@ checkAgainst
 )
 ;
 return
-FALSE
+false
 ;
 }
 #
@@ -501,7 +501,7 @@ latest
 {
 isLatest
 =
-FALSE
+false
 ;
 }
 }
@@ -509,7 +509,7 @@ else
 {
 isLatest
 =
-FALSE
+false
 ;
 }
 }

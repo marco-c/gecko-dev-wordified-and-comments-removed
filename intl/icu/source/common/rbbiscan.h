@@ -365,6 +365,8 @@ RBBIRuleScanner
 &
 other
 )
+=
+delete
 ;
 RBBIRuleScanner
 &
@@ -376,6 +378,8 @@ RBBIRuleScanner
 &
 other
 )
+=
+delete
 ;
 }
 ;

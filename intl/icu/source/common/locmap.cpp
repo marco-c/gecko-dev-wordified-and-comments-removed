@@ -4146,7 +4146,7 @@ localeIndex
 UBool
 bLookup
 =
-TRUE
+true
 ;
 const
 char
@@ -4246,7 +4246,7 @@ i
 ;
 bLookup
 =
-FALSE
+false
 ;
 for
 (
@@ -4311,7 +4311,7 @@ i
 ;
 bLookup
 =
-TRUE
+true
 ;
 break
 ;
@@ -4751,7 +4751,7 @@ UPRV_LENGTHOF
 (
 asciiBCP47Tag
 )
-FALSE
+false
 status
 )
 ;

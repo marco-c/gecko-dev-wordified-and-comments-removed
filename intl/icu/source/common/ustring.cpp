@@ -125,7 +125,7 @@ match
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -155,11 +155,11 @@ matchLimit
 )
 {
 return
-FALSE
+false
 ;
 }
 return
-TRUE
+true
 ;
 }
 U_CAPI
@@ -2379,7 +2379,7 @@ _matchFromSet
 (
 string
 matchSet
-TRUE
+true
 )
 ;
 if
@@ -2429,7 +2429,7 @@ _matchFromSet
 (
 string
 matchSet
-TRUE
+true
 )
 ;
 if
@@ -2476,7 +2476,7 @@ _matchFromSet
 (
 string
 matchSet
-FALSE
+false
 )
 ;
 if
@@ -3852,7 +3852,7 @@ s1
 length1
 s2
 length2
-FALSE
+false
 codePointOrder
 )
 ;
@@ -3881,8 +3881,8 @@ s1
 s2
 -
 1
-FALSE
-TRUE
+false
+true
 )
 ;
 }
@@ -4001,8 +4001,8 @@ s1
 n
 s2
 n
-TRUE
-TRUE
+true
+true
 )
 ;
 }
@@ -4364,7 +4364,7 @@ number
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -4382,7 +4382,7 @@ length
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -4419,7 +4419,7 @@ s
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -4431,7 +4431,7 @@ number
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -4486,7 +4486,7 @@ number
 )
 {
 return
-TRUE
+true
 ;
 }
 maxSupplementary
@@ -4504,7 +4504,7 @@ maxSupplementary
 )
 {
 return
-FALSE
+false
 ;
 }
 limit
@@ -4528,7 +4528,7 @@ limit
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -4540,7 +4540,7 @@ number
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -4582,7 +4582,7 @@ maxSupplementary
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -4846,8 +4846,8 @@ s1
 count
 s2
 count
-FALSE
-TRUE
+false
+true
 )
 ;
 }
@@ -5094,7 +5094,7 @@ dig
 UBool
 braces
 =
-FALSE
+false
 ;
 if
 (
@@ -5202,7 +5202,7 @@ offset
 ;
 braces
 =
-TRUE
+true
 ;
 maxDig
 =

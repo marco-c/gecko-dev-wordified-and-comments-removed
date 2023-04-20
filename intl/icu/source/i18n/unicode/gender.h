@@ -118,6 +118,8 @@ GenderInfo
 &
 other
 )
+=
+delete
 ;
 GenderInfo
 &
@@ -128,6 +130,8 @@ const
 GenderInfo
 &
 )
+=
+delete
 ;
 GenderInfo
 (

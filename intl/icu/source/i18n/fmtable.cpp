@@ -1275,12 +1275,12 @@ case
 kInt64
 :
 return
-TRUE
+true
 ;
 default
 :
 return
-FALSE
+false
 ;
 }
 }

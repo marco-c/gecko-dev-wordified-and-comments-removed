@@ -2105,7 +2105,7 @@ isHelp
 printUsage
 (
 pname
-TRUE
+true
 )
 ;
 return
@@ -2145,7 +2145,7 @@ U_MEMORY_ALLOCATION_ERROR
 }
 isModified
 =
-FALSE
+false
 ;
 int
 autoPrefix
@@ -2216,7 +2216,7 @@ n
 printUsage
 (
 pname
-FALSE
+false
 )
 ;
 return
@@ -2255,7 +2255,7 @@ autoPrefix
 printUsage
 (
 pname
-FALSE
+false
 )
 ;
 return
@@ -2362,7 +2362,7 @@ n
 printUsage
 (
 pname
-FALSE
+false
 )
 ;
 return
@@ -2375,7 +2375,7 @@ NULL
 ;
 isPackage
 =
-TRUE
+true
 ;
 }
 else
@@ -2405,7 +2405,7 @@ inFilename
 ;
 isPackage
 =
-TRUE
+true
 ;
 }
 else
@@ -2421,7 +2421,7 @@ inFilename
 ;
 isPackage
 =
-FALSE
+false
 ;
 }
 }
@@ -2460,7 +2460,7 @@ argv
 {
 isModified
 =
-TRUE
+true
 ;
 }
 }
@@ -2539,7 +2539,7 @@ type
 printUsage
 (
 pname
-FALSE
+false
 )
 ;
 return
@@ -2580,7 +2580,7 @@ default
 printUsage
 (
 pname
-FALSE
+false
 )
 ;
 return
@@ -2645,7 +2645,7 @@ doesOccur
 {
 isModified
 =
-TRUE
+true
 ;
 }
 if
@@ -2715,7 +2715,7 @@ doesOccur
 printUsage
 (
 pname
-FALSE
+false
 )
 ;
 return
@@ -2835,7 +2835,7 @@ else
 printUsage
 (
 pname
-FALSE
+false
 )
 ;
 return
@@ -2899,7 +2899,7 @@ OPT_REMOVE_LIST
 ]
 .
 value
-FALSE
+false
 listPkg
 )
 )
@@ -2918,7 +2918,7 @@ listPkg
 ;
 isModified
 =
-TRUE
+true
 ;
 }
 else
@@ -2926,7 +2926,7 @@ else
 printUsage
 (
 pname
-FALSE
+false
 )
 ;
 return
@@ -2994,7 +2994,7 @@ OPT_ADD_LIST
 ]
 .
 value
-TRUE
+true
 addListPkg
 )
 )
@@ -3010,7 +3010,7 @@ addListPkg
 ;
 isModified
 =
-TRUE
+true
 ;
 }
 else
@@ -3018,7 +3018,7 @@ else
 printUsage
 (
 pname
-FALSE
+false
 )
 ;
 return
@@ -3082,7 +3082,7 @@ OPT_EXTRACT_LIST
 ]
 .
 value
-FALSE
+false
 listPkg
 )
 )
@@ -3107,7 +3107,7 @@ else
 printUsage
 (
 pname
-FALSE
+false
 )
 ;
 return

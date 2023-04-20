@@ -1522,6 +1522,7 @@ fSignum
 fApproximately
 fPlural
 fPerMilleReplacesPercent
+false
 currentAffix
 )
 ;

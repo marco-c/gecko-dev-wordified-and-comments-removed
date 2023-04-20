@@ -113,7 +113,7 @@ seenFirst
 {
 seenFirst
 =
-TRUE
+true
 ;
 pos
 .

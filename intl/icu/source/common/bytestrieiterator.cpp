@@ -495,7 +495,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -524,7 +524,7 @@ isEmpty
 )
 {
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -624,7 +624,7 @@ NULL
 )
 {
 return
-TRUE
+true
 ;
 }
 }
@@ -746,7 +746,7 @@ node
 ;
 }
 return
-TRUE
+true
 ;
 }
 if
@@ -816,7 +816,7 @@ NULL
 )
 {
 return
-TRUE
+true
 ;
 }
 }
@@ -958,7 +958,7 @@ value_
 1
 ;
 return
-TRUE
+true
 ;
 }
 const

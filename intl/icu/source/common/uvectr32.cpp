@@ -520,12 +520,12 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 return
-TRUE
+true
 ;
 }
 UBool
@@ -578,12 +578,12 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 return
-TRUE
+true
 ;
 }
 UBool
@@ -601,7 +601,7 @@ other
 UBool
 changed
 =
-FALSE
+false
 ;
 for
 (
@@ -651,7 +651,7 @@ j
 ;
 changed
 =
-TRUE
+true
 ;
 }
 }
@@ -674,7 +674,7 @@ other
 UBool
 changed
 =
-FALSE
+false
 ;
 for
 (
@@ -724,7 +724,7 @@ j
 ;
 changed
 =
-TRUE
+true
 ;
 }
 }
@@ -831,7 +831,7 @@ count
 )
 {
 return
-FALSE
+false
 ;
 }
 for
@@ -866,12 +866,12 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 return
-TRUE
+true
 ;
 }
 int32_t
@@ -948,7 +948,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -963,7 +963,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 if
@@ -975,7 +975,7 @@ minimumCapacity
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -995,7 +995,7 @@ status
 U_BUFFER_OVERFLOW_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 if
@@ -1016,7 +1016,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -1077,7 +1077,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -1112,7 +1112,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 elements
@@ -1124,7 +1124,7 @@ capacity
 newCap
 ;
 return
-TRUE
+true
 ;
 }
 void

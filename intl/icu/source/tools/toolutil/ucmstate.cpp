@@ -1075,7 +1075,7 @@ s
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -1094,7 +1094,7 @@ CHARMAP
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1419,7 +1419,7 @@ U_INVALID_TABLE_FORMAT
 ;
 }
 return
-TRUE
+true
 ;
 }
 else
@@ -1537,7 +1537,7 @@ U_INVALID_TABLE_FORMAT
 ;
 }
 return
-TRUE
+true
 ;
 }
 else
@@ -1638,7 +1638,7 @@ U_INVALID_TABLE_FORMAT
 ;
 }
 return
-TRUE
+true
 ;
 }
 else
@@ -1776,7 +1776,7 @@ pValue
 )
 ;
 return
-TRUE
+true
 ;
 }
 else
@@ -1846,11 +1846,11 @@ pValue
 )
 ;
 return
-TRUE
+true
 ;
 }
 return
-FALSE
+false
 ;
 }
 static
@@ -1874,7 +1874,7 @@ allStatesReady
 ;
 allStatesReady
 =
-FALSE
+false
 ;
 for
 (
@@ -1901,7 +1901,7 @@ count
 {
 allStatesReady
 =
-TRUE
+true
 ;
 for
 (
@@ -1942,7 +1942,7 @@ MBCS_STATE_FLAG_READY
 {
 allStatesReady
 =
-FALSE
+false
 ;
 sum
 =
@@ -5051,7 +5051,7 @@ belowSavings
 ;
 haveAssigned
 =
-FALSE
+false
 ;
 for
 (
@@ -5129,7 +5129,7 @@ savings
 {
 haveAssigned
 =
-TRUE
+true
 ;
 }
 else
@@ -5251,7 +5251,7 @@ else
 {
 haveAssigned
 =
-TRUE
+true
 ;
 }
 break
@@ -5289,7 +5289,7 @@ else
 {
 haveAssigned
 =
-TRUE
+true
 ;
 }
 break
@@ -5663,7 +5663,7 @@ _MBCSToUFallback
 )
 compareFallbacks
 NULL
-FALSE
+false
 &
 errorCode
 )

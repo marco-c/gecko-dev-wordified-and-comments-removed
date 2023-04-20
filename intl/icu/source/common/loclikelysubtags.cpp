@@ -1441,8 +1441,8 @@ nullptr
 ;
 UInitOnce
 gInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 UBool
 U_CALLCONV
@@ -1464,7 +1464,7 @@ reset
 )
 ;
 return
-TRUE
+true
 ;
 }
 }

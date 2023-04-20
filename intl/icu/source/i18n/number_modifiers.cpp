@@ -73,8 +73,8 @@ icu
 :
 UInitOnce
 gDefaultCurrencySpacingInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 UnicodeSet
 *
@@ -115,7 +115,7 @@ reset
 )
 ;
 return
-TRUE
+true
 ;
 }
 void

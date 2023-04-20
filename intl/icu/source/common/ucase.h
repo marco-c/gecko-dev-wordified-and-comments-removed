@@ -201,6 +201,8 @@ const
 FullCaseFoldingIterator
 &
 )
+=
+delete
 ;
 FullCaseFoldingIterator
 &
@@ -211,6 +213,8 @@ const
 FullCaseFoldingIterator
 &
 )
+=
+delete
 ;
 const
 UChar

@@ -56,15 +56,13 @@ ff_Latn_SL
 {
 Currencies
 {
-SLL
+SLE
 {
 "
 Le
 "
 "
-Lewoon
-Seraa
-Liyon
+SLE
 "
 }
 }

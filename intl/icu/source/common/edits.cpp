@@ -1214,7 +1214,7 @@ errorCode_
 U_INDEX_OUTOFBOUNDS_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 else
@@ -1260,7 +1260,7 @@ errorCode_
 U_INDEX_OUTOFBOUNDS_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 uint16_t
@@ -1294,7 +1294,7 @@ errorCode_
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 uprv_memcpy
@@ -1322,7 +1322,7 @@ capacity
 newCapacity
 ;
 return
-TRUE
+true
 ;
 }
 UBool
@@ -1346,7 +1346,7 @@ outErrorCode
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -1358,7 +1358,7 @@ errorCode_
 )
 {
 return
-FALSE
+false
 ;
 }
 outErrorCode
@@ -1366,7 +1366,7 @@ outErrorCode
 errorCode_
 ;
 return
-TRUE
+true
 ;
 }
 Edits
@@ -1423,10 +1423,10 @@ getFineIterator
 UBool
 abHasNext
 =
-TRUE
+true
 bcHasNext
 =
-TRUE
+true
 ;
 int32_t
 aLength
@@ -2065,7 +2065,7 @@ dir
 )
 changed
 (
-FALSE
+false
 )
 oldLength_
 (
@@ -2323,7 +2323,7 @@ dir
 ;
 changed
 =
-FALSE
+false
 ;
 oldLength_
 =
@@ -2332,7 +2332,7 @@ newLength_
 0
 ;
 return
-FALSE
+false
 ;
 }
 UBool
@@ -2360,7 +2360,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -2400,7 +2400,7 @@ dir
 1
 ;
 return
-TRUE
+true
 ;
 }
 }
@@ -2429,7 +2429,7 @@ remaining
 remaining
 ;
 return
-TRUE
+true
 ;
 }
 remaining
@@ -2471,7 +2471,7 @@ MAX_UNCHANGED
 {
 changed
 =
-FALSE
+false
 ;
 oldLength_
 =
@@ -2546,13 +2546,13 @@ index
 else
 {
 return
-TRUE
+true
 ;
 }
 }
 changed
 =
-TRUE
+true
 ;
 if
 (
@@ -2634,7 +2634,7 @@ num
 ;
 }
 return
-TRUE
+true
 ;
 }
 }
@@ -2678,7 +2678,7 @@ coarse
 )
 {
 return
-TRUE
+true
 ;
 }
 }
@@ -2791,7 +2791,7 @@ u
 }
 }
 return
-TRUE
+true
 ;
 }
 UBool
@@ -2817,7 +2817,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -2852,7 +2852,7 @@ dir
 1
 ;
 return
-TRUE
+true
 ;
 }
 updateNextIndexes
@@ -2915,7 +2915,7 @@ updatePreviousIndexes
 )
 ;
 return
-TRUE
+true
 ;
 }
 remaining
@@ -2957,7 +2957,7 @@ MAX_UNCHANGED
 {
 changed
 =
-FALSE
+false
 ;
 oldLength_
 =
@@ -3008,12 +3008,12 @@ updatePreviousIndexes
 )
 ;
 return
-TRUE
+true
 ;
 }
 changed
 =
-TRUE
+true
 ;
 if
 (
@@ -3099,7 +3099,7 @@ updatePreviousIndexes
 )
 ;
 return
-TRUE
+true
 ;
 }
 }
@@ -3216,7 +3216,7 @@ updatePreviousIndexes
 )
 ;
 return
-TRUE
+true
 ;
 }
 }
@@ -3345,7 +3345,7 @@ updatePreviousIndexes
 )
 ;
 return
-TRUE
+true
 ;
 }
 int32_t
@@ -3660,7 +3660,7 @@ while
 (
 next
 (
-FALSE
+false
 errorCode
 )
 )
@@ -3813,7 +3813,7 @@ where
 findIndex
 (
 i
-TRUE
+true
 errorCode
 )
 ;
@@ -3891,7 +3891,7 @@ where
 findIndex
 (
 i
-FALSE
+false
 errorCode
 )
 ;

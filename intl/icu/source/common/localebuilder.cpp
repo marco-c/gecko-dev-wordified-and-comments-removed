@@ -98,6 +98,7 @@ UPRV_ISDIGIT
 c
 )
 )
+constexpr
 const
 char
 *
@@ -2829,7 +2830,7 @@ outErrorCode
 )
 {
 return
-TRUE
+true
 ;
 }
 outErrorCode

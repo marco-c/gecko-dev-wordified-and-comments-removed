@@ -565,6 +565,6 @@ pFree
 NULL
 ;
 return
-TRUE
+true
 ;
 }

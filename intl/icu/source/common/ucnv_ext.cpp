@@ -528,7 +528,7 @@ srcLength
 }
 flush
 =
-TRUE
+true
 ;
 }
 for
@@ -1049,7 +1049,7 @@ pErrorCode
 )
 ;
 return
-TRUE
+true
 ;
 }
 else
@@ -1171,13 +1171,13 @@ int8_t
 match
 ;
 return
-TRUE
+true
 ;
 }
 else
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -1233,7 +1233,7 @@ NULL
 &
 value
 useFallback
-TRUE
+true
 )
 ;
 if
@@ -2775,7 +2775,7 @@ pErrorCode
 )
 ;
 return
-TRUE
+true
 ;
 }
 else
@@ -2858,7 +2858,7 @@ int8_t
 match
 ;
 return
-TRUE
+true
 ;
 }
 else
@@ -2875,16 +2875,16 @@ cnv
 >
 useSubChar1
 =
-TRUE
+true
 ;
 return
-FALSE
+false
 ;
 }
 else
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -2924,7 +2924,7 @@ NULL
 &
 value
 useFallback
-TRUE
+true
 )
 ;
 if
@@ -3382,7 +3382,7 @@ cnv
 >
 useSubChar1
 =
-TRUE
+true
 ;
 }
 cnv
@@ -3459,7 +3459,7 @@ UCNV_EXT_FROM_U_ROUNDTRIP_FLAG
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -3478,7 +3478,7 @@ UCNV_EXT_FROM_U_RESERVED_MASK
 )
 {
 return
-FALSE
+false
 ;
 }
 }

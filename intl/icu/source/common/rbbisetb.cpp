@@ -897,7 +897,7 @@ usetNode
 ;
 fSawBOF
 =
-TRUE
+true
 ;
 }
 }
@@ -2349,7 +2349,7 @@ usetNode
 -
 >
 fLeftChild
-TRUE
+true
 )
 ;
 }

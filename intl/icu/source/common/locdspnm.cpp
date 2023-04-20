@@ -1939,7 +1939,7 @@ _parent
 :
 hasCapitalizationUsage
 (
-FALSE
+false
 )
 parent
 (
@@ -2219,11 +2219,11 @@ fCapitalization
 usageEnum
 ]
 =
-TRUE
+true
 ;
 hasCapitalizationUsage
 =
-TRUE
+true
 ;
 }
 }
@@ -2575,7 +2575,7 @@ UCONFIG_NO_BREAK_ITERATION
 UBool
 needBrkIter
 =
-FALSE
+false
 ;
 if
 (
@@ -3102,11 +3102,11 @@ isBogus
 {
 hasScript
 =
-FALSE
+false
 ;
 hasCountry
 =
-FALSE
+false
 ;
 break
 ;
@@ -3152,7 +3152,7 @@ isBogus
 {
 hasScript
 =
-FALSE
+false
 ;
 break
 ;
@@ -3198,7 +3198,7 @@ isBogus
 {
 hasCountry
 =
-FALSE
+false
 ;
 break
 ;
@@ -3207,7 +3207,7 @@ break
 }
 while
 (
-FALSE
+false
 )
 ;
 }
@@ -3280,7 +3280,7 @@ scriptDisplayName
 (
 script
 temp
-TRUE
+true
 )
 ;
 if
@@ -3322,7 +3322,7 @@ regionDisplayName
 (
 country
 temp
-TRUE
+true
 )
 ;
 if
@@ -3363,7 +3363,7 @@ variantDisplayName
 (
 variant
 temp
-TRUE
+true
 )
 ;
 if
@@ -3513,7 +3513,7 @@ keyDisplayName
 (
 key
 temp
-TRUE
+true
 )
 ;
 temp
@@ -3537,7 +3537,7 @@ keyValueDisplayName
 key
 value
 temp2
-TRUE
+true
 )
 ;
 temp2
@@ -4325,7 +4325,7 @@ scriptDisplayName
 (
 script
 result
-FALSE
+false
 )
 ;
 }
@@ -4352,7 +4352,7 @@ uscript_getName
 scriptCode
 )
 result
-FALSE
+false
 )
 ;
 }
@@ -4487,7 +4487,7 @@ regionDisplayName
 (
 region
 result
-FALSE
+false
 )
 ;
 }
@@ -4578,7 +4578,7 @@ variantDisplayName
 (
 variant
 result
-FALSE
+false
 )
 ;
 }
@@ -4669,7 +4669,7 @@ keyDisplayName
 (
 key
 result
-FALSE
+false
 )
 ;
 }
@@ -4908,7 +4908,7 @@ keyValueDisplayName
 key
 value
 result
-FALSE
+false
 )
 ;
 }

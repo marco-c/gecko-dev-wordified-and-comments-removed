@@ -2434,8 +2434,8 @@ UCNV_UTF32_BigEndian
 0xfd
 }
 4
-FALSE
-FALSE
+false
+false
 0
 0
 {
@@ -4822,8 +4822,8 @@ UCNV_UTF32_LittleEndian
 0
 }
 4
-FALSE
-FALSE
+false
+false
 0
 0
 {
@@ -5291,7 +5291,7 @@ pArgs
 >
 flush
 =
-FALSE
+false
 ;
 T_UConverter_toUnicode_UTF32_BE
 (
@@ -5703,8 +5703,8 @@ else
 4
 #
 endif
-FALSE
-FALSE
+false
+false
 0
 0
 {

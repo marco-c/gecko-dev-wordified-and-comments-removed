@@ -527,7 +527,7 @@ numSubstitutions
 }
 while
 (
-TRUE
+true
 )
 ;
 }

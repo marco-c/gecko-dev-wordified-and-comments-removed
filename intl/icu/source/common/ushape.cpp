@@ -2111,7 +2111,7 @@ U_RIGHT_TO_LEFT
 :
 lastStrongWasAL
 =
-FALSE
+false
 ;
 break
 ;
@@ -2120,7 +2120,7 @@ U_RIGHT_TO_LEFT_ARABIC
 :
 lastStrongWasAL
 =
-TRUE
+true
 ;
 break
 ;
@@ -2207,7 +2207,7 @@ U_RIGHT_TO_LEFT
 :
 lastStrongWasAL
 =
-FALSE
+false
 ;
 break
 ;
@@ -2216,7 +2216,7 @@ U_RIGHT_TO_LEFT_ARABIC
 :
 lastStrongWasAL
 =
-TRUE
+true
 ;
 break
 ;
@@ -8586,7 +8586,7 @@ U_SHAPE_TEXT_DIRECTION_MASK
 =
 U_SHAPE_TEXT_DIRECTION_LOGICAL
 )
-FALSE
+false
 )
 ;
 break
@@ -8612,7 +8612,7 @@ U_SHAPE_TEXT_DIRECTION_MASK
 =
 U_SHAPE_TEXT_DIRECTION_LOGICAL
 )
-TRUE
+true
 )
 ;
 break

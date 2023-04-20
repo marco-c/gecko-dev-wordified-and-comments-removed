@@ -58,7 +58,7 @@ cldrVersion
 "
 :
 "
-41
+42
 "
 "
 aliases
@@ -211,6 +211,13 @@ sat_IN
 :
 "
 sat_Olck_IN
+"
+"
+sd_IN
+"
+:
+"
+sd_Deva_IN
 "
 "
 sd_PK

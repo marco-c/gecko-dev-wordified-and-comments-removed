@@ -526,12 +526,6 @@ override
 private
 :
 void
-reset
-(
-void
-)
-;
-void
 init
 (
 UErrorCode

@@ -1046,7 +1046,7 @@ getTimestamp
 )
 {
 return
-TRUE
+true
 ;
 }
 status
@@ -1055,7 +1055,7 @@ U_ENUM_OUT_OF_SYNC_ERROR
 ;
 }
 return
-FALSE
+false
 ;
 }
 virtual

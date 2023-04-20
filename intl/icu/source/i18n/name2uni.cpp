@@ -339,7 +339,7 @@ return
 UnicodeString
 openPat
 (
-TRUE
+true
 OPEN
 -
 1

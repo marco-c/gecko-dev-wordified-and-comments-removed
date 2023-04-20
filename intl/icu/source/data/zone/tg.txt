@@ -336,10 +336,6 @@ regionFormatDaylight
 {
 0
 }
-(
-+
-1
-)
 "
 }
 regionFormatStandard
@@ -348,10 +344,6 @@ regionFormatStandard
 {
 0
 }
-(
-+
-0
-)
 "
 }
 }

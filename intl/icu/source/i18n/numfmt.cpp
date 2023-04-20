@@ -525,7 +525,7 @@ gLastResortScientificPat
 NULL
 NULL
 NULL
-NULL
+gLastResortDecimalPat
 NULL
 gLastResortIsoCurrencyPat
 gLastResortPluralCurrencyPat
@@ -739,8 +739,8 @@ icu
 :
 UInitOnce
 gNSCacheInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 #
 if
@@ -762,8 +762,8 @@ icu
 :
 UInitOnce
 gServiceInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 #
 endif
@@ -844,7 +844,7 @@ NULL
 ;
 }
 return
-TRUE
+true
 ;
 }
 U_CDECL_END
@@ -970,7 +970,7 @@ NumberFormat
 :
 fGroupingUsed
 (
-TRUE
+true
 )
 fMaxIntegerDigits
 (
@@ -990,11 +990,11 @@ fMinFractionDigits
 )
 fParseIntegerOnly
 (
-FALSE
+false
 )
 fLenient
 (
-FALSE
+false
 )
 fCapitalizationContext
 (
@@ -1186,7 +1186,7 @@ FMT_DEBUG
 UBool
 first
 =
-TRUE
+true
 ;
 if
 (
@@ -1216,7 +1216,7 @@ printf
 ;
 first
 =
-FALSE
+false
 ;
 }
 else
@@ -1277,7 +1277,7 @@ printf
 ;
 first
 =
-FALSE
+false
 ;
 }
 else
@@ -1337,7 +1337,7 @@ printf
 ;
 first
 =
-FALSE
+false
 ;
 }
 else
@@ -1388,7 +1388,7 @@ printf
 ;
 first
 =
-FALSE
+false
 ;
 }
 else
@@ -1438,7 +1438,7 @@ printf
 ;
 first
 =
-FALSE
+false
 ;
 }
 else
@@ -1492,7 +1492,7 @@ printf
 ;
 first
 =
-FALSE
+false
 ;
 }
 else
@@ -1542,7 +1542,7 @@ printf
 ;
 first
 =
-FALSE
+false
 ;
 }
 else
@@ -1592,7 +1592,7 @@ printf
 ;
 first
 =
-FALSE
+false
 ;
 }
 else
@@ -2170,7 +2170,7 @@ obj
 )
 fWasCurrency
 (
-FALSE
+false
 )
 {
 const
@@ -2238,7 +2238,7 @@ getNumber
 ;
 fWasCurrency
 =
-TRUE
+true
 ;
 }
 else
@@ -4175,7 +4175,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -4203,7 +4203,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 }
@@ -5281,6 +5281,19 @@ NULL
 }
 if
 (
+style
+=
+=
+UNUM_NUMBERING_SYSTEM
+)
+{
+style
+=
+UNUM_DECIMAL
+;
+}
+if
+(
 !
 isStyleSupported
 (
@@ -5357,7 +5370,7 @@ host
 UBool
 curr
 =
-TRUE
+true
 ;
 switch
 (
@@ -5369,7 +5382,7 @@ UNUM_DECIMAL
 :
 curr
 =
-FALSE
+false
 ;
 U_FALLTHROUGH
 ;
@@ -5685,7 +5698,7 @@ pattern
 =
 UnicodeString
 (
-TRUE
+true
 patternPtr
 -
 1
@@ -6001,13 +6014,13 @@ findAndReplace
 (
 UnicodeString
 (
-TRUE
+true
 gSingleCurrencySign
 1
 )
 UnicodeString
 (
-TRUE
+true
 gDoubleCurrencySign
 2
 )

@@ -271,6 +271,8 @@ const
 UVector64
 &
 )
+=
+delete
 ;
 UVector64
 &
@@ -281,6 +283,8 @@ const
 UVector64
 &
 )
+=
+delete
 ;
 public
 :

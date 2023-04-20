@@ -2024,7 +2024,10 @@ Kongo
 CI
 {
 "
-Aayforikoost
+C
+te
+d
+Ivoire
 "
 }
 CZ
@@ -2039,6 +2042,14 @@ FK
 "
 Jasiiradaha
 Fookland
+"
+}
+NZ
+{
+"
+Aotearoa
+New
+Zealand
 "
 }
 SZ

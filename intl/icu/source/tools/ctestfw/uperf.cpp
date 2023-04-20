@@ -591,7 +591,7 @@ encoding
 )
 uselen
 (
-FALSE
+false
 )
 fileName
 (
@@ -613,7 +613,7 @@ numLines
 )
 line_mode
 (
-TRUE
+true
 )
 buffer
 (
@@ -625,11 +625,11 @@ bufferLen
 )
 verbose
 (
-FALSE
+false
 )
 bulk_mode
 (
-FALSE
+false
 )
 passes
 (
@@ -707,7 +707,7 @@ encoding
 )
 uselen
 (
-FALSE
+false
 )
 fileName
 (
@@ -729,7 +729,7 @@ numLines
 )
 line_mode
 (
-TRUE
+true
 )
 buffer
 (
@@ -741,11 +741,11 @@ bufferLen
 )
 verbose
 (
-FALSE
+false
 )
 bulk_mode
 (
-FALSE
+false
 )
 passes
 (
@@ -911,7 +911,7 @@ doesOccur
 {
 verbose
 =
-TRUE
+true
 ;
 }
 if
@@ -966,7 +966,7 @@ doesOccur
 {
 uselen
 =
-TRUE
+true
 ;
 }
 if
@@ -1095,11 +1095,11 @@ doesOccur
 {
 line_mode
 =
-TRUE
+true
 ;
 bulk_mode
 =
-FALSE
+false
 ;
 }
 if
@@ -1114,11 +1114,11 @@ doesOccur
 {
 bulk_mode
 =
-TRUE
+true
 ;
 line_mode
 =
-FALSE
+false
 ;
 }
 if
@@ -1222,8 +1222,8 @@ ucbuf_open
 resolvedFileName
 &
 encoding
-TRUE
-FALSE
+true
+false
 &
 status
 )
@@ -1608,7 +1608,7 @@ runTest
 UBool
 res
 =
-FALSE
+false
 ;
 for
 (
@@ -1660,7 +1660,7 @@ if
 verbose
 =
 =
-TRUE
+true
 )
 {
 }
@@ -1744,7 +1744,7 @@ name
 )
 ;
 return
-FALSE
+false
 ;
 }
 }
@@ -1876,7 +1876,7 @@ usage
 ;
 rval
 =
-TRUE
+true
 ;
 }
 else
@@ -1992,7 +1992,7 @@ run_this_test
 UBool
 rval
 =
-FALSE
+false
 ;
 UErrorCode
 status
@@ -2035,7 +2035,7 @@ this
 runIndexedTest
 (
 index
-FALSE
+false
 name
 )
 ;
@@ -2065,7 +2065,7 @@ testname
 {
 run_this_test
 =
-TRUE
+true
 ;
 }
 else
@@ -2102,7 +2102,7 @@ this
 runIndexedTest
 (
 index
-TRUE
+true
 name
 par
 )
@@ -2113,7 +2113,7 @@ execCount
 ;
 rval
 =
-TRUE
+true
 ;
 if
 (
@@ -2137,7 +2137,7 @@ name
 )
 ;
 return
-FALSE
+false
 ;
 }
 ops
@@ -2177,7 +2177,7 @@ name
 )
 ;
 return
-FALSE
+false
 ;
 }
 if
@@ -2197,7 +2197,7 @@ if
 verbose
 =
 =
-TRUE
+true
 )
 {
 fprintf
@@ -2315,7 +2315,7 @@ duration
 )
 ;
 return
-FALSE
+false
 ;
 }
 }
@@ -2410,7 +2410,7 @@ if
 verbose
 =
 =
-TRUE
+true
 )
 {
 fprintf
@@ -2541,7 +2541,7 @@ if
 verbose
 =
 =
-TRUE
+true
 )
 {
 if
@@ -3048,7 +3048,7 @@ verbose
 ;
 verbose
 =
-TRUE
+true
 ;
 fprintf
 (
@@ -3102,7 +3102,7 @@ this
 runIndexedTest
 (
 index
-FALSE
+false
 name
 )
 ;

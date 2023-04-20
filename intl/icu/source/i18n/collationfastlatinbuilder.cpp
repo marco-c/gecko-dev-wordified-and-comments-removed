@@ -365,7 +365,7 @@ firstShortPrimary
 )
 shortPrimaryOverflow
 (
-FALSE
+false
 )
 headerLength
 (
@@ -411,7 +411,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -429,7 +429,7 @@ errorCode
 U_INVALID_STATE_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 if
@@ -443,7 +443,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 firstShortPrimary
@@ -466,7 +466,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -498,7 +498,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -560,7 +560,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 headerLength
@@ -636,7 +636,7 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 result
@@ -692,11 +692,11 @@ firstLatinPrimary
 )
 {
 return
-FALSE
+false
 ;
 }
 return
-TRUE
+true
 ;
 }
 UBool
@@ -737,7 +737,7 @@ firstShortPrimary
 )
 {
 return
-FALSE
+false
 ;
 }
 uint32_t
@@ -772,7 +772,7 @@ lastVariablePrimary
 )
 {
 return
-FALSE
+false
 ;
 }
 U_ASSERT
@@ -835,7 +835,7 @@ lastPrimary
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -862,7 +862,7 @@ removeAllElements
 ;
 shortPrimaryOverflow
 =
-FALSE
+false
 ;
 result
 .
@@ -1189,7 +1189,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 ce32
@@ -1352,7 +1352,7 @@ break
 else
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -1428,7 +1428,7 @@ break
 else
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -1483,7 +1483,7 @@ break
 default
 :
 return
-FALSE
+false
 ;
 }
 }
@@ -1524,7 +1524,7 @@ p0
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1535,7 +1535,7 @@ lastLatinPrimary
 )
 {
 return
-FALSE
+false
 ;
 }
 uint32_t
@@ -1575,7 +1575,7 @@ COMMON_SECONDARY_CE
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -1597,7 +1597,7 @@ COMMON_WEIGHT16
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1641,7 +1641,7 @@ p1
 )
 {
 return
-FALSE
+false
 ;
 }
 uint32_t
@@ -1666,7 +1666,7 @@ lower32_1
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1704,7 +1704,7 @@ COMMON_SECONDARY_CE
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -1726,7 +1726,7 @@ COMMON_WEIGHT16
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -1750,11 +1750,11 @@ QUATERNARY_MASK
 )
 {
 return
-FALSE
+false
 ;
 }
 return
-TRUE
+true
 ;
 }
 UBool
@@ -1783,7 +1783,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -1883,7 +1883,7 @@ prevX
 UBool
 addContraction
 =
-FALSE
+false
 ;
 UCharsTrie
 :
@@ -1971,7 +1971,7 @@ errorCode
 ;
 addContraction
 =
-FALSE
+false
 ;
 }
 continue
@@ -2025,7 +2025,7 @@ errorCode
 {
 addContraction
 =
-TRUE
+true
 ;
 }
 else
@@ -2043,7 +2043,7 @@ errorCode
 ;
 addContraction
 =
-FALSE
+false
 ;
 }
 prevX
@@ -2074,7 +2074,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 ce0
@@ -2101,7 +2101,7 @@ ce1
 0
 ;
 return
-TRUE
+true
 ;
 }
 void
@@ -2335,7 +2335,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 uprv_free
@@ -2373,7 +2373,7 @@ errorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -2699,7 +2699,7 @@ p
 endif
 shortPrimaryOverflow
 =
-TRUE
+true
 ;
 miniCEs
 [
@@ -3231,7 +3231,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -3454,7 +3454,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -3561,7 +3561,7 @@ continue
 UBool
 firstTriple
 =
-TRUE
+true
 ;
 for
 (
@@ -3778,7 +3778,7 @@ miniCE
 }
 firstTriple
 =
-FALSE
+false
 ;
 }
 result
@@ -3841,7 +3841,7 @@ errorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 #
@@ -4106,7 +4106,7 @@ puts
 #
 endif
 return
-TRUE
+true
 ;
 }
 uint32_t

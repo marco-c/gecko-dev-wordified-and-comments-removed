@@ -1901,11 +1901,11 @@ Package
 :
 doAutoPrefix
 (
-FALSE
+false
 )
 prefixEndsWithType
 (
-FALSE
+false
 )
 {
 inPkgName
@@ -3637,7 +3637,7 @@ i
 .
 isDataOwned
 =
-FALSE
+false
 ;
 }
 items
@@ -4057,7 +4057,7 @@ NULL
 :
 udata_openSwapper
 (
-TRUE
+true
 U_ASCII_FAMILY
 outIsBigEndian
 outCharset
@@ -4079,7 +4079,7 @@ NULL
 :
 udata_openSwapper
 (
-FALSE
+false
 U_ASCII_FAMILY
 outIsBigEndian
 outCharset
@@ -4108,7 +4108,7 @@ NULL
 :
 udata_openSwapper
 (
-TRUE
+true
 U_EBCDIC_FAMILY
 outIsBigEndian
 outCharset
@@ -4590,7 +4590,7 @@ name
 =
 allocString
 (
-FALSE
+false
 length
 +
 prefixLength
@@ -4669,7 +4669,7 @@ memset
 (
 allocString
 (
-FALSE
+false
 length
 -
 1
@@ -5883,7 +5883,7 @@ addItem
 name
 NULL
 0
-FALSE
+false
 U_ICUDATA_TYPE_LETTER
 [
 0
@@ -5993,7 +5993,7 @@ name
 =
 allocString
 (
-TRUE
+true
 static_cast
 <
 int32_t
@@ -6130,7 +6130,7 @@ addItem
 name
 data
 length
-TRUE
+true
 type
 )
 ;
@@ -6194,7 +6194,7 @@ pItem
 -
 >
 length
-FALSE
+false
 pItem
 -
 >
@@ -7020,7 +7020,7 @@ me
 >
 isMissingItems
 =
-TRUE
+true
 ;
 fprintf
 (
@@ -7054,7 +7054,7 @@ checkDependencies
 {
 isMissingItems
 =
-FALSE
+false
 ;
 enumDependencies
 (
@@ -7242,7 +7242,7 @@ Item
 )
 compareItems
 NULL
-FALSE
+false
 &
 errorCode
 )

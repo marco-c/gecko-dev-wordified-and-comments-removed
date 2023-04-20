@@ -1010,7 +1010,7 @@ num_states
 ]
 =
 "
-FALSE
+false
 "
 ;
 if
@@ -1031,7 +1031,7 @@ num_states
 ]
 =
 "
-TRUE
+true
 "
 ;
 shift
@@ -2728,7 +2728,7 @@ doNOP
 0
 0
 0
-TRUE
+true
 }
 \
 n

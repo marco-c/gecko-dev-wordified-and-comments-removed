@@ -737,6 +737,15 @@ if
 quantity
 <
 0
+&
+&
+unitsConverters_
+.
+length
+(
+)
+>
+1
 )
 {
 quantity
