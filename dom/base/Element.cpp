@@ -9988,7 +9988,7 @@ pseudoType
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 this
 pseudoType
@@ -19458,7 +19458,7 @@ effects
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 aElement
 aPseudoType
@@ -19658,7 +19658,7 @@ marker
 {
 if
 (
-EffectSet
+auto
 *
 const
 effects
@@ -19666,7 +19666,7 @@ effects
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 &
 aOther
@@ -19674,7 +19674,7 @@ pseudoType
 )
 )
 {
-EffectSet
+auto
 *
 const
 clonedEffects
@@ -19682,7 +19682,7 @@ clonedEffects
 EffectSet
 :
 :
-GetOrCreateEffectSet
+GetOrCreate
 (
 this
 pseudoType

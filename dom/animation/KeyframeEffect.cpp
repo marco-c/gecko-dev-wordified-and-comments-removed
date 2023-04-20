@@ -1545,7 +1545,7 @@ aEffects
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 mTarget
 .
@@ -1693,7 +1693,7 @@ aEffects
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 mTarget
 .
@@ -3392,7 +3392,7 @@ effectSet
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 mTarget
 .
@@ -4692,7 +4692,7 @@ effectSet
 EffectSet
 :
 :
-GetOrCreateEffectSet
+GetOrCreate
 (
 mTarget
 .
@@ -4790,7 +4790,7 @@ effectSet
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 mTarget
 .
@@ -7026,7 +7026,7 @@ effectSet
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 mTarget
 .
@@ -7211,7 +7211,7 @@ effectSet
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 mTarget
 .
@@ -7884,7 +7884,7 @@ effectSet
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 mTarget
 .
@@ -8658,7 +8658,7 @@ effectSet
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 mTarget
 .
@@ -9071,7 +9071,7 @@ aEffectSet
 EffectSet
 :
 :
-GetEffectSet
+Get
 (
 mTarget
 .

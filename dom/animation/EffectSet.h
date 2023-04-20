@@ -163,7 +163,7 @@ aCallback
 static
 EffectSet
 *
-GetEffectSet
+Get
 (
 const
 dom
@@ -179,7 +179,7 @@ aPseudoType
 static
 EffectSet
 *
-GetOrCreateEffectSet
+GetOrCreate
 (
 dom
 :
@@ -194,7 +194,7 @@ aPseudoType
 static
 EffectSet
 *
-GetEffectSetForFrame
+GetForFrame
 (
 const
 nsIFrame
@@ -209,7 +209,7 @@ aProperties
 static
 EffectSet
 *
-GetEffectSetForFrame
+GetForFrame
 (
 const
 nsIFrame
@@ -222,7 +222,7 @@ aDisplayItemType
 static
 EffectSet
 *
-GetEffectSetForStyleFrame
+GetForStyleFrame
 (
 const
 nsIFrame
@@ -233,7 +233,7 @@ aStyleFrame
 static
 EffectSet
 *
-GetEffectSetForEffect
+GetForEffect
 (
 const
 dom

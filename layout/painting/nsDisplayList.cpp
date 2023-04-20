@@ -1543,14 +1543,14 @@ Nothing
 )
 )
 {
-EffectSet
+auto
 *
 effects
 =
 EffectSet
 :
 :
-GetEffectSetForFrame
+GetForFrame
 (
 aItem
 -

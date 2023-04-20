@@ -3661,7 +3661,7 @@ effectSet
 EffectSet
 :
 :
-GetEffectSetForStyleFrame
+GetForStyleFrame
 (
 this
 )
@@ -4515,7 +4515,7 @@ HasCSSTransitions
 EffectSet
 :
 :
-GetEffectSetForStyleFrame
+GetForStyleFrame
 (
 this
 )
@@ -15873,7 +15873,7 @@ effectSetForOpacity
 EffectSet
 :
 :
-GetEffectSetForFrame
+GetForFrame
 (
 this
 nsCSSPropertyIDSet
