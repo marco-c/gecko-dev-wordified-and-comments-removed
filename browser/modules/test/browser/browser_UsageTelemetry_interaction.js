@@ -2375,13 +2375,6 @@ unload
 (
 )
 ;
-if
-(
-gUnifiedExtensions
-.
-isEnabled
-)
-{
 const
 extension3
 =
@@ -2524,7 +2517,6 @@ unload
 (
 )
 ;
-}
 }
 )
 ;

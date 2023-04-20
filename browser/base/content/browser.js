@@ -32782,12 +32782,6 @@ hidden
 =
 !
 addon
-|
-|
-!
-gUnifiedExtensions
-.
-isEnabled
 ;
 }
 reportExtension
@@ -32804,13 +32798,6 @@ gAddonAbuseReportEnabled
 if
 (
 addon
-)
-{
-if
-(
-gUnifiedExtensions
-.
-isEnabled
 )
 {
 popup
@@ -32901,7 +32888,6 @@ checked
 inToolbar
 )
 ;
-}
 }
 }
 removeExtension
