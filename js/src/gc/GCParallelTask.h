@@ -407,6 +407,12 @@ State
 >
 state_
 ;
+mozilla
+:
+:
+TimeStamp
+maybeQueueTime_
+;
 MainThreadOrGCTaskData
 <
 mozilla

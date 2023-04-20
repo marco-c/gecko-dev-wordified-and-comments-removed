@@ -7,6 +7,15 @@ vm_HelperThreadTask_h
 #
 include
 "
+mozilla
+/
+TimeStamp
+.
+h
+"
+#
+include
+"
 js
 /
 Utility

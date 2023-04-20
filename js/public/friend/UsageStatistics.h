@@ -296,6 +296,12 @@ _
 GC_PARALLEL_MARK_INTERRUPTIONS
 Integer
 )
+\
+_
+(
+GC_TASK_START_DELAY_US
+TimeDuration_US
+)
 #
 define
 ENUM_DEF
