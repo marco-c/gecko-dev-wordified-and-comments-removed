@@ -988,9 +988,6 @@ test
 -
 platform
 "
-"
-variant
-"
 bool
             
 )
@@ -1339,10 +1336,6 @@ test
 platform
 "
             
-"
-variant
-"
-            
 Any
 (
                 
@@ -1478,6 +1471,16 @@ mozharness
 extra
 -
 options
+"
+        
+"
+mozharness
+.
+requires
+-
+signed
+-
+builds
 "
         
 "
