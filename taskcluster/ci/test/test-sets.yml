@@ -1066,8 +1066,6 @@ mochitest
 -
 webgpu
 -
-reftest
--
 xpcshell
 windows32
 -
@@ -1123,6 +1121,8 @@ gpu
 mochitest
 -
 remote
+-
+reftest
 -
 telemetry
 -
