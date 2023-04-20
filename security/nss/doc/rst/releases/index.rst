@@ -41,10 +41,13 @@ rst
 nss_3_80
 .
 rst
-nss_3_79
+nss_3_79_2
 .
 rst
 nss_3_79_1
+.
+rst
+nss_3_79
 .
 rst
 nss_3_78_1
@@ -157,7 +160,7 @@ NSS
 .
 79
 .
-1
+2
 *
 *
 is
@@ -178,7 +181,7 @@ here
 :
 ref
 :
-mozilla_projects_nss_nss_3_79_1_release_notes
+mozilla_projects_nss_nss_3_79_2_release_notes
 .
 .
 container
