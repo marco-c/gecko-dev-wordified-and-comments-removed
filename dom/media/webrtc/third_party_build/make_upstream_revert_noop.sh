@@ -462,6 +462,8 @@ set
 -
 eEuo
 pipefail
+find_base_commit
+find_next_commit
 echo
 "
 MOZ_LIBWEBRTC_BASE
