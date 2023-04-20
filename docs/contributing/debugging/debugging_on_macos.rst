@@ -144,11 +144,13 @@ mozconfig
 code
 :
 :
+ac_add_options
 -
 -
 disable
 -
 optimize
+ac_add_options
 -
 -
 enable
@@ -175,6 +177,7 @@ in
 code
 :
 :
+ac_add_options
 -
 -
 enable
