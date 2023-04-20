@@ -213,6 +213,13 @@ padding
 slotted
 (
 hr
+:
+not
+(
+[
+hidden
+]
+)
 )
 {
 display
