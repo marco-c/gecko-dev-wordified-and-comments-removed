@@ -3477,9 +3477,6 @@ FunctionScope
 :
 isSpecialName
 (
-JSContext
-*
-cx
 frontend
 :
 :
