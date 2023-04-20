@@ -160,11 +160,8 @@ api_lock_
 void
 SetTrackingId
 (
-const
-char
-*
-_Nonnull
-aTrackingId
+uint32_t
+aTrackingIdProcId
 )
 MOZ_EXCLUDES
 (
@@ -243,7 +240,10 @@ mozilla
 :
 Maybe
 <
-nsCString
+mozilla
+:
+:
+TrackingId
 >
 mTrackingId
 MOZ_GUARDED_BY
