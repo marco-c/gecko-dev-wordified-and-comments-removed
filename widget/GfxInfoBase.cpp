@@ -6831,6 +6831,15 @@ aFeature
 nsIGfxInfo
 :
 :
+FEATURE_VIDEO_OVERLAY
+|
+|
+aFeature
+=
+=
+nsIGfxInfo
+:
+:
 FEATURE_HW_DECODED_VIDEO_ZERO_COPY
 ;
 }
