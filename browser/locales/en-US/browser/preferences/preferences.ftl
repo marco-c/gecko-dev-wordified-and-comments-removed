@@ -1391,14 +1391,6 @@ history
 and
 autofill
 data
-from
-a
-different
-browser
-or
-a
-password
-manager
 into
 {
 -
