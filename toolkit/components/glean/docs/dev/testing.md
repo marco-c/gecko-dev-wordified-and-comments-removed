@@ -157,8 +157,10 @@ rusttests
 /
 mach
 gtest
+"
 FOG
 *
+"
 &
 &
 python3
