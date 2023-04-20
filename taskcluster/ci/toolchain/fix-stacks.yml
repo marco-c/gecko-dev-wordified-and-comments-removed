@@ -100,9 +100,11 @@ script
 :
 build
 -
-fix
+rust
 -
-stacks
+based
+-
+toolchain
 .
 sh
 toolchain
