@@ -373,6 +373,10 @@ LoadInfoArgs
 >
 &
 aOptionalLoadInfoArgs
+const
+nsACString
+&
+aOriginRemoteType
 nsILoadInfo
 *
 *
@@ -395,6 +399,10 @@ LoadInfoArgs
 >
 &
 aOptionalLoadInfoArgs
+const
+nsACString
+&
+aOriginRemoteType
 nsINode
 *
 aCspToInheritLoadingContext
@@ -417,6 +425,10 @@ LoadInfoArgs
 >
 &
 aOptionalLoadInfoArgs
+const
+nsACString
+&
+aOriginRemoteType
 mozilla
 :
 :
@@ -442,6 +454,10 @@ LoadInfoArgs
 >
 &
 aOptionalLoadInfoArgs
+const
+nsACString
+&
+aOriginRemoteType
 nsINode
 *
 aCspToInheritLoadingContext

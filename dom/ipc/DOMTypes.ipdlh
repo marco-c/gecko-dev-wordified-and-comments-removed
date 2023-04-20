@@ -977,6 +977,9 @@ uint32_t
 TriggeringSandboxFlags
 ;
 nsCString
+TriggeringRemoteType
+;
+nsCString
 ?
 OriginalURIString
 ;

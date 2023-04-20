@@ -652,6 +652,10 @@ binaryTriggeringPrincipal
 )
 ;
 attribute
+AUTF8String
+triggeringRemoteType
+;
+attribute
 nsIPrincipal
 principalToInherit
 ;

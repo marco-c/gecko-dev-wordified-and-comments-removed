@@ -2084,6 +2084,7 @@ ipc
 LoadInfoArgsToLoadInfo
 (
 loadInfoArgs
+NOT_REMOTE_TYPE
 getter_AddRefs
 (
 loadInfo

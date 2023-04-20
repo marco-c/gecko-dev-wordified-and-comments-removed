@@ -829,6 +829,12 @@ aLoadState
 TriggeringPrincipal
 (
 )
+aLoadState
+-
+>
+GetEffectiveTriggeringRemoteType
+(
+)
 securityFlags
 sandboxFlags
 )
@@ -865,6 +871,12 @@ aLoadState
 -
 >
 TriggeringPrincipal
+(
+)
+aLoadState
+-
+>
+GetEffectiveTriggeringRemoteType
 (
 )
 attrs

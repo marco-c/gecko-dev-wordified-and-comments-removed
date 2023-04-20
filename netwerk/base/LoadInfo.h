@@ -158,6 +158,10 @@ LoadInfoArgs
 >
 &
 aLoadInfoArgs
+const
+nsACString
+&
+aOriginRemoteType
 nsINode
 *
 aCspToInheritLoadingContext
@@ -245,6 +249,10 @@ nsIPrincipal
 *
 aTriggeringPrincipal
 const
+nsACString
+&
+aTriggeringRemoteType
+const
 OriginAttributes
 &
 aOriginAttributes
@@ -270,6 +278,10 @@ aBrowsingContext
 nsIPrincipal
 *
 aTriggeringPrincipal
+const
+nsACString
+&
+aTriggeringRemoteType
 nsSecurityFlags
 aSecurityFlags
 uint32_t
@@ -414,6 +426,10 @@ nsIPrincipal
 *
 aTriggeringPrincipal
 const
+nsACString
+&
+aTriggeringRemoteType
+const
 OriginAttributes
 &
 aOriginAttributes
@@ -434,6 +450,10 @@ aBrowsingContext
 nsIPrincipal
 *
 aTriggeringPrincipal
+const
+nsACString
+&
+aTriggeringRemoteType
 nsSecurityFlags
 aSecurityFlags
 uint32_t
@@ -451,6 +471,10 @@ aParentWGP
 nsIPrincipal
 *
 aTriggeringPrincipal
+const
+nsACString
+&
+aTriggeringRemoteType
 nsContentPolicyType
 aContentPolicyType
 nsSecurityFlags
@@ -613,6 +637,10 @@ aCookieJarSettings
 nsIContentSecurityPolicy
 *
 aCspToInherit
+const
+nsACString
+&
+aTriggeringRemoteType
 const
 nsID
 &
@@ -867,6 +895,10 @@ LoadInfoArgs
 >
 &
 aLoadInfoArgs
+const
+nsACString
+&
+aOriginRemoteType
 nsINode
 *
 aCspToInheritLoadingContext
@@ -1007,6 +1039,9 @@ nsCOMPtr
 nsIContentSecurityPolicy
 >
 mCspToInherit
+;
+nsCString
+mTriggeringRemoteType
 ;
 nsID
 mSandboxedNullPrincipalID
