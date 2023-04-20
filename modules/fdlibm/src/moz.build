@@ -239,11 +239,6 @@ s_ceilf
 cpp
 '
 '
-s_copysign
-.
-cpp
-'
-'
 s_cos
 .
 cpp
