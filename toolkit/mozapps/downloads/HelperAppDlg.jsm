@@ -1454,6 +1454,9 @@ getFinalLeafName
 result
 .
 leafName
+"
+"
+true
 )
 =
 =
@@ -1512,6 +1515,7 @@ result
 leafName
 null
 allowOverwrite
+true
 )
 ;
 }
@@ -1581,6 +1585,7 @@ getFinalLeafName
 (
 aLeafName
 aFileExt
+aAfterFilePicker
 )
 {
 return
@@ -1590,6 +1595,15 @@ DownloadPaths
 sanitize
 (
 aLeafName
+{
+compressWhitespaces
+:
+!
+aAfterFilePicker
+allowInvalidFilenames
+:
+aAfterFilePicker
+}
 )
 |
 |
@@ -1618,6 +1632,9 @@ aLocalFolder
 aLeafName
 aFileExt
 aAllowExisting
+=
+false
+aAfterFilePicker
 =
 false
 )
@@ -1666,6 +1683,7 @@ getFinalLeafName
 (
 aLeafName
 aFileExt
+aAfterFilePicker
 )
 ;
 aLocalFolder
