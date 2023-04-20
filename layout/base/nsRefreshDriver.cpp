@@ -6392,7 +6392,7 @@ nsAPostRefreshObserver
 aObserver
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 mPostRefreshObservers
