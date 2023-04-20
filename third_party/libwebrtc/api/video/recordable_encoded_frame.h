@@ -66,15 +66,6 @@ video_codec_type
 .
 h
 "
-#
-include
-"
-rtc_base
-/
-ref_count
-.
-h
-"
 namespace
 webrtc
 {

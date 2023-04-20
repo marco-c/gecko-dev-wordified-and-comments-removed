@@ -230,6 +230,12 @@ bitrate_allocation
 .
 .
 :
+make_ref_counted
+"
+"
+.
+.
+:
 scoped_refptr
 "
 "
