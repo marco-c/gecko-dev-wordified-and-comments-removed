@@ -1763,11 +1763,6 @@ mIsBSizeSetByAspectRatio
 :
 1
 ;
-bool
-mCanHaveClassABreakpoints
-:
-1
-;
 }
 ;
 Flags
