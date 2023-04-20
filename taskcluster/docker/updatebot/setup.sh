@@ -139,4 +139,7 @@ bin
 poetry
 install
 -
-vv
+-
+no
+-
+ansi
