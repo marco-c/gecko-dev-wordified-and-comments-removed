@@ -217,6 +217,9 @@ false
 WorkerKindDedicated
 aOptions
 .
+mCredentials
+aOptions
+.
 mType
 aOptions
 .
