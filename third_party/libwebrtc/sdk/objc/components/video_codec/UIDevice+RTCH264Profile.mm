@@ -3,7 +3,7 @@ import
 "
 UIDevice
 +
-H264Profile
+RTCH264Profile
 .
 h
 "
@@ -1129,7 +1129,7 @@ nullopt
 implementation
 UIDevice
 (
-H264Profile
+RTCH264Profile
 )
 +
 (
@@ -1144,7 +1144,7 @@ webrtc
 H264ProfileLevelId
 >
 )
-maxSupportedH264Profile
+rtc_maxSupportedH264Profile
 {
 return
 FindMaxSupportedProfileForDevice

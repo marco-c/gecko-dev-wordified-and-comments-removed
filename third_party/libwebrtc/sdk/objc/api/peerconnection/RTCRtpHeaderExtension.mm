@@ -14,7 +14,7 @@ helpers
 /
 NSString
 +
-StdString
+RTCStdString
 .
 h
 "
@@ -89,7 +89,7 @@ _uri
 =
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 nativeParameters
 .
@@ -134,7 +134,7 @@ uri
 =
 [
 NSString
-stdStringForString
+rtc_stdStringForString
 :
 _uri
 ]

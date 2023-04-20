@@ -14,7 +14,7 @@ helpers
 /
 NSString
 +
-StdString
+RTCStdString
 .
 h
 "
@@ -175,7 +175,7 @@ protocol
 return
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 _nativeDataChannelInit
 .
@@ -201,7 +201,7 @@ protocol
 =
 [
 NSString
-stdStringForString
+rtc_stdStringForString
 :
 protocol
 ]

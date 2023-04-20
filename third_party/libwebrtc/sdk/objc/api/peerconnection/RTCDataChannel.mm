@@ -14,7 +14,7 @@ helpers
 /
 NSString
 +
-StdString
+RTCStdString
 .
 h
 "
@@ -455,7 +455,7 @@ label
 return
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 _nativeDataChannel
 -
@@ -548,7 +548,7 @@ protocol
 return
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 _nativeDataChannel
 -

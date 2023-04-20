@@ -21,7 +21,7 @@ h
 interface
 UIDevice
 (
-H264Profile
+RTCH264Profile
 )
 +
 (
@@ -36,6 +36,6 @@ webrtc
 H264ProfileLevelId
 >
 )
-maxSupportedH264Profile
+rtc_maxSupportedH264Profile
 ;
 end

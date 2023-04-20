@@ -62,7 +62,7 @@ helpers
 /
 NSString
 +
-StdString
+RTCStdString
 .
 h
 "
@@ -437,7 +437,7 @@ WritePerfResults
 (
 [
 NSString
-stdStringForString
+rtc_stdStringForString
 :
 outputPath
 ]

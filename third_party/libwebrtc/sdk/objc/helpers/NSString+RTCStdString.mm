@@ -3,7 +3,7 @@ import
 "
 NSString
 +
-StdString
+RTCStdString
 .
 h
 "
@@ -21,7 +21,7 @@ h
 implementation
 NSString
 (
-StdString
+RTCStdString
 )
 -
 (
@@ -35,7 +35,7 @@ stdString
 return
 [
 NSString
-stdStringForString
+rtc_stdStringForString
 :
 self
 ]
@@ -48,7 +48,7 @@ std
 :
 string
 )
-stdStringForString
+rtc_stdStringForString
 :
 (
 NSString
@@ -95,7 +95,7 @@ length
 NSString
 *
 )
-stringForStdString
+rtc_stringForStdString
 :
 (
 const
@@ -137,14 +137,14 @@ end
 implementation
 NSString
 (
-AbslStringView
+RTCAbslStringView
 )
 +
 (
 NSString
 *
 )
-stringForAbslStringView
+rtc_stringForAbslStringView
 :
 (
 const

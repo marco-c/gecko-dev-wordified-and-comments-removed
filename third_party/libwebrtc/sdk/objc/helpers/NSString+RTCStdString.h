@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 interface
 NSString
 (
-StdString
+RTCStdString
 )
 property
 (
@@ -47,7 +47,7 @@ std
 :
 string
 )
-stdStringForString
+rtc_stdStringForString
 :
 (
 NSString
@@ -60,7 +60,7 @@ nsString
 NSString
 *
 )
-stringForStdString
+rtc_stringForStdString
 :
 (
 const
@@ -76,14 +76,14 @@ end
 interface
 NSString
 (
-AbslStringView
+RTCAbslStringView
 )
 +
 (
 NSString
 *
 )
-stringForAbslStringView
+rtc_stringForAbslStringView
 :
 (
 const

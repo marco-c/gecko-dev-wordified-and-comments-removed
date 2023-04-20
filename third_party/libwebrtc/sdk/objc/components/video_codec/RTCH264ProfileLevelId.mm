@@ -12,7 +12,7 @@ helpers
 /
 NSString
 +
-StdString
+RTCStdString
 .
 h
 "
@@ -27,7 +27,7 @@ import
 "
 UIDevice
 +
-H264Profile
+RTCH264Profile
 .
 h
 "
@@ -152,7 +152,7 @@ profileLevelId
 =
 [
 UIDevice
-maxSupportedH264Profile
+rtc_maxSupportedH264Profile
 ]
 ;
 if
@@ -205,7 +205,7 @@ profileString
 return
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 *
 profileString

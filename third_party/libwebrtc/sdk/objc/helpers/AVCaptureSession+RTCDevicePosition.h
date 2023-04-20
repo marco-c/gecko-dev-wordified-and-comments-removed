@@ -20,13 +20,13 @@ NS_ASSUME_NONNULL_BEGIN
 interface
 AVCaptureSession
 (
-DevicePosition
+RTCDevicePosition
 )
 +
 (
 AVCaptureDevicePosition
 )
-devicePositionForSampleBuffer
+rtc_devicePositionForSampleBuffer
 :
 (
 CMSampleBufferRef

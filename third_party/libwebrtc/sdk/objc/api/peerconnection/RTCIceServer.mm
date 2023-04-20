@@ -14,7 +14,7 @@ helpers
 /
 NSString
 +
-StdString
+RTCStdString
 .
 h
 "
@@ -628,7 +628,7 @@ username
 =
 [
 NSString
-stdStringForString
+rtc_stdStringForString
 :
 _username
 ]
@@ -639,7 +639,7 @@ password
 =
 [
 NSString
-stdStringForString
+rtc_stdStringForString
 :
 _credential
 ]
@@ -650,7 +650,7 @@ hostname
 =
 [
 NSString
-stdStringForString
+rtc_stdStringForString
 :
 _hostname
 ]
@@ -841,7 +841,7 @@ addObject
 :
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 url
 ]
@@ -854,7 +854,7 @@ username
 =
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 nativeServer
 .
@@ -867,7 +867,7 @@ credential
 =
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 nativeServer
 .
@@ -880,7 +880,7 @@ hostname
 =
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 nativeServer
 .
@@ -922,7 +922,7 @@ addObject
 :
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 proto
 ]
@@ -964,7 +964,7 @@ addObject
 :
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 curve
 ]

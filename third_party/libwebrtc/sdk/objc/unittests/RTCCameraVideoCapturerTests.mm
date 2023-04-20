@@ -66,7 +66,7 @@ helpers
 /
 AVCaptureSession
 +
-DevicePosition
+RTCDevicePosition
 .
 h
 "
@@ -1887,7 +1887,7 @@ cameraPosition
 =
 [
 AVCaptureSession
-devicePositionForSampleBuffer
+rtc_devicePositionForSampleBuffer
 :
 sampleBuffer
 ]

@@ -140,7 +140,7 @@ helpers
 /
 NSString
 +
-StdString
+RTCStdString
 .
 h
 "
@@ -351,7 +351,7 @@ str
 =
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 error
 .
@@ -539,7 +539,7 @@ str
 =
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 error
 .
@@ -1615,7 +1615,7 @@ nsstr_reason
 =
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 event
 .
@@ -2885,7 +2885,7 @@ str
 =
 [
 NSString
-stringForStdString
+rtc_stringForStdString
 :
 error
 .
@@ -4400,7 +4400,7 @@ nativeKind
 =
 [
 NSString
-stdStringForString
+rtc_stdStringForString
 :
 kind
 ]
@@ -4413,7 +4413,7 @@ nativeStreamId
 =
 [
 NSString
-stdStringForString
+rtc_stdStringForString
 :
 streamId
 ]
