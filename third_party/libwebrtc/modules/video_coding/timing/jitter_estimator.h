@@ -126,7 +126,6 @@ FieldTrialsView
 field_trials
 )
 ;
-virtual
 ~
 JitterEstimator
 (
@@ -167,7 +166,6 @@ DataSize
 frame_size
 )
 ;
-virtual
 TimeDelta
 GetJitterEstimate
 (
