@@ -318,7 +318,7 @@ generatedSource
 const
 {
 code
-mappings
+sourceMap
 }
 =
 await
@@ -344,9 +344,7 @@ applySourceMap
 generatedSource
 .
 id
-url
-code
-mappings
+sourceMap
 )
 ;
 for
@@ -365,9 +363,7 @@ sourceMapLoader
 applySourceMap
 (
 actor
-url
-code
-mappings
+sourceMap
 )
 ;
 }
