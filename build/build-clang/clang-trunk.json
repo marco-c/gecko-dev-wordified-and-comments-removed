@@ -211,12 +211,5 @@ profile
 .
 patch
 "
-"
-profdata
--
-compat
-.
-patch
-"
 ]
 }
