@@ -537,6 +537,8 @@ extensions
 item
 -
 action
+-
+button
 >
 .
 toolbarbutton
@@ -568,6 +570,8 @@ extensions
 item
 -
 action
+-
+button
 .
 widget
 -
@@ -601,6 +605,8 @@ extensions
 item
 -
 action
+-
+button
 {
 background
 -
@@ -727,6 +733,8 @@ extensions
 item
 -
 action
+-
+button
 >
 .
 toolbarbutton
@@ -811,6 +819,8 @@ extensions
 item
 -
 action
+-
+button
 {
 background
 -
@@ -892,6 +902,8 @@ extensions
 item
 -
 action
+-
+button
 :
 -
 moz
@@ -974,6 +986,8 @@ extensions
 item
 -
 action
+-
+button
 {
 background
 -
@@ -1100,6 +1114,8 @@ extensions
 item
 -
 action
+-
+button
 {
 background
 -
@@ -1161,6 +1177,8 @@ extensions
 item
 -
 action
+-
+button
 :
 -
 moz
@@ -1223,6 +1241,8 @@ extensions
 item
 -
 action
+-
+button
 {
 overflow
 :
@@ -1299,6 +1319,8 @@ extensions
 item
 -
 action
+-
+button
 {
 padding
 -
@@ -1315,6 +1337,8 @@ extensions
 item
 -
 action
+-
+button
 [
 disabled
 ]
@@ -1343,6 +1367,8 @@ extensions
 item
 -
 action
+-
+button
 [
 disabled
 ]
@@ -1387,6 +1413,8 @@ extensions
 item
 -
 action
+-
+button
 .
 subviewbutton
 {
@@ -1674,9 +1702,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 .
 subviewbutton
 {
@@ -1776,9 +1804,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 .
 subviewbutton
 >
@@ -1863,9 +1891,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 {
 display
 :
@@ -2046,9 +2074,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 .
 subviewbutton
 {
@@ -2167,9 +2195,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 .
 subviewbutton
 {
@@ -2291,6 +2319,8 @@ extensions
 item
 -
 action
+-
+button
 .
 toolbarbutton
 -
@@ -2340,6 +2370,8 @@ extensions
 item
 -
 action
+-
+button
 :
 not
 (
@@ -2356,9 +2388,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 .
 subviewbutton
 toolbaritem
@@ -2372,8 +2404,12 @@ item
 unified
 -
 extensions
+-
+item
 -
 action
+-
+button
 :
 not
 (
@@ -2397,9 +2433,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 .
 subviewbutton
 {
@@ -2476,6 +2512,8 @@ extensions
 item
 -
 action
+-
+button
 [
 disabled
 ]
@@ -2501,6 +2539,8 @@ extensions
 item
 -
 action
+-
+button
 [
 disabled
 ]
@@ -2537,6 +2577,8 @@ extensions
 item
 -
 action
+-
+button
 [
 disabled
 ]
@@ -2556,6 +2598,8 @@ extensions
 item
 -
 action
+-
+button
 :
 not
 (
@@ -2585,6 +2629,8 @@ extensions
 item
 -
 action
+-
+button
 :
 not
 (
@@ -2620,6 +2666,8 @@ extensions
 item
 -
 action
+-
+button
 :
 not
 (
@@ -2636,9 +2684,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 .
 subviewbutton
 toolbaritem
@@ -2652,8 +2700,12 @@ item
 unified
 -
 extensions
+-
+item
 -
 action
+-
+button
 :
 not
 (
@@ -2677,9 +2729,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 .
 subviewbutton
 )
@@ -2753,6 +2805,8 @@ extensions
 item
 -
 action
+-
+button
 :
 not
 (
@@ -2769,9 +2823,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 .
 subviewbutton
 toolbaritem
@@ -2785,8 +2839,12 @@ item
 unified
 -
 extensions
+-
+item
 -
 action
+-
+button
 :
 not
 (
@@ -2810,9 +2868,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 .
 subviewbutton
 )

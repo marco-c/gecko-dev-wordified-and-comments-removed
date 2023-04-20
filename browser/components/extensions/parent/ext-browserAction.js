@@ -1057,6 +1057,8 @@ extensions
 item
 -
 action
+-
+button
 "
 "
 subviewbutton
@@ -1300,9 +1302,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 "
 "
 subviewbutton
@@ -1681,6 +1683,8 @@ extensions
 item
 -
 action
+-
+button
 "
 )
 ;
@@ -1832,9 +1836,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 "
 )
 ;
@@ -2031,6 +2035,8 @@ extensions
 item
 -
 action
+-
+button
 "
 )
 )
@@ -2059,9 +2065,9 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 "
 )
 )
@@ -3901,6 +3907,8 @@ extensions
 item
 -
 action
+-
+button
 "
 )
 ;

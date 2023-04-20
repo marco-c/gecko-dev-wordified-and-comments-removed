@@ -56,7 +56,7 @@ if
 (
 this
 .
-_openMenuButton
+_menuButton
 )
 {
 return
@@ -111,12 +111,14 @@ extensions
 item
 -
 action
+-
+button
 "
 )
 ;
 this
 .
-_openMenuButton
+_menuButton
 =
 this
 .
@@ -130,15 +132,15 @@ extensions
 -
 item
 -
-open
--
 menu
+-
+button
 "
 )
 ;
 this
 .
-_openMenuButton
+_menuButton
 .
 addEventListener
 (
@@ -150,7 +152,7 @@ this
 ;
 this
 .
-_openMenuButton
+_menuButton
 .
 addEventListener
 (
@@ -229,7 +231,7 @@ target
 =
 this
 .
-_openMenuButton
+_menuButton
 )
 {
 const
@@ -363,7 +365,7 @@ target
 =
 this
 .
-_openMenuButton
+_menuButton
 )
 {
 this
@@ -419,7 +421,7 @@ target
 =
 this
 .
-_openMenuButton
+_menuButton
 )
 {
 this
@@ -901,7 +903,7 @@ _hasAction
 ;
 this
 .
-_openMenuButton
+_menuButton
 .
 dataset
 .
@@ -915,7 +917,7 @@ id
 ;
 this
 .
-_openMenuButton
+_menuButton
 .
 setAttribute
 (
