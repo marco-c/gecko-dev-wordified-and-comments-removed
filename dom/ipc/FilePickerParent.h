@@ -109,7 +109,10 @@ FilePickerParent
 void
 Done
 (
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 aResult
 )
 ;
@@ -368,7 +371,10 @@ mTitle
 int16_t
 mMode
 ;
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 mResult
 ;
 }

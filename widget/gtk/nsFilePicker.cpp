@@ -1464,7 +1464,10 @@ nsFilePicker
 :
 Show
 (
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 *
 aReturn
 )
@@ -2504,7 +2507,10 @@ mRunning
 =
 false
 ;
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 result
 ;
 switch

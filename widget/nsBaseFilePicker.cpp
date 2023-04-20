@@ -364,7 +364,10 @@ thread
 "
 )
 ;
-int16_t
+nsIFilePicker
+:
+:
+ResultCode
 result
 =
 nsIFilePicker
