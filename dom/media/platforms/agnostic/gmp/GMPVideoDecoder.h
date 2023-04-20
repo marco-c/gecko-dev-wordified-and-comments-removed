@@ -50,6 +50,13 @@ h
 #
 include
 "
+PerformanceRecorder
+.
+h
+"
+#
+include
+"
 PlatformDecoderModule
 .
 h
@@ -439,6 +446,12 @@ layers
 KnowsCompositor
 >
 mKnowsCompositor
+;
+PerformanceRecorderMulti
+<
+DecodeStage
+>
+mPerformanceRecorder
 ;
 MozPromiseHolder
 <
