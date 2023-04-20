@@ -5,8 +5,8 @@ absolute_import
 from
 marionette_driver
 import
-errors
 Wait
+errors
 from
 marionette_harness
 import

@@ -4,8 +4,6 @@ import
 absolute_import
 print_function
 import
-mozinfo
-import
 os
 import
 pprint
@@ -14,13 +12,15 @@ re
 import
 shutil
 import
-six
-import
 sys
 import
 tempfile
 import
 unittest
+import
+mozinfo
+import
+six
 from
 mozlog
 import
