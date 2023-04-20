@@ -15474,6 +15474,16 @@ nullptr
 ;
 if
 (
+StaticPrefs
+:
+:
+dom_memory_foreground_content_processes_have_larger_page_cache
+(
+)
+)
+{
+if
+(
 mProcessPriority
 >
 =
@@ -15515,6 +15525,7 @@ moz_set_max_dirty_page_modifier
 0
 )
 ;
+}
 }
 return
 IPC_OK
