@@ -845,6 +845,13 @@ RtpPacketSinkInterface
 packet_sink
 )
 ;
+void
+SetLossNotificationEnabled
+(
+bool
+enabled
+)
+;
 absl
 :
 :
@@ -990,6 +997,11 @@ override
 ;
 void
 SendBufferedRtcpFeedback
+(
+)
+;
+void
+ClearLossNotificationState
 (
 )
 ;
@@ -1347,6 +1359,10 @@ unique_ptr
 LossNotificationController
 >
 loss_notification_controller_
+RTC_GUARDED_BY
+(
+packet_sequence_checker_
+)
 ;
 VCMReceiveStatisticsCallback
 *

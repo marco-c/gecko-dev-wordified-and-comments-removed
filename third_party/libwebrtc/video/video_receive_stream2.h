@@ -642,6 +642,14 @@ flexfec_sink
 )
 override
 ;
+void
+SetLossNotificationEnabled
+(
+bool
+enabled
+)
+override
+;
 webrtc
 :
 :

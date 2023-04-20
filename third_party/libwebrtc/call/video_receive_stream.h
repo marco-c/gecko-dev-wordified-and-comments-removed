@@ -1030,6 +1030,16 @@ flexfec_sink
 =
 0
 ;
+virtual
+void
+SetLossNotificationEnabled
+(
+bool
+enabled
+)
+=
+0
+;
 protected
 :
 virtual
