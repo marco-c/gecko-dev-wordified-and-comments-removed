@@ -479,6 +479,7 @@ RefPtr
 <
 AbstractRange
 >
+&
 range
 :
 mRanges
@@ -512,8 +513,11 @@ selection
 >
 AddHighlightRangeAndSelectFramesAndNotifyListeners
 (
+MOZ_KnownLive
+(
 *
 range
+)
 aRv
 )
 ;
@@ -604,6 +608,7 @@ RefPtr
 <
 HighlightRegistry
 >
+&
 registry
 :
 mHighlightRegistries
@@ -630,7 +635,10 @@ AddFrameSelection
 frameSelection
 )
 ;
+MOZ_KnownLive
+(
 registry
+)
 -
 >
 MaybeAddRangeToHighlightSelection
