@@ -5170,6 +5170,17 @@ return
 true
 ;
 }
+get
+bookmarkState
+(
+)
+{
+return
+this
+.
+_bookmarkState
+;
+}
 }
 ;
 XPCOMUtils
