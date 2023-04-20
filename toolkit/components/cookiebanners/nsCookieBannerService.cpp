@@ -1194,10 +1194,14 @@ GetRuleForURI
 nsIURI
 *
 aURI
+bool
+aIsTopLevel
 nsICookieBannerRule
 *
 *
 aRule
+bool
+aReportTelemetry
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -1273,8 +1277,9 @@ return
 GetRuleForDomain
 (
 baseDomain
-true
+aIsTopLevel
 aRule
+aReportTelemetry
 )
 ;
 }
@@ -1571,6 +1576,7 @@ rv
 GetRuleForURI
 (
 aURI
+true
 getter_AddRefs
 (
 rule
@@ -1765,11 +1771,12 @@ rv
 GetRuleForDomain
 (
 aDomain
-true
+aIsTopLevel
 getter_AddRefs
 (
 ruleForDomain
 )
+true
 )
 ;
 NS_ENSURE_SUCCESS
