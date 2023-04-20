@@ -11463,12 +11463,9 @@ extents
 .
 Intersects
 (
-textDrawer
--
->
-GeckoClipRect
-(
-)
+runParams
+.
+clipRect
 )
 )
 {
