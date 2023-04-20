@@ -55,17 +55,6 @@ include
 "
 api
 /
-units
-/
-timestamp
-.
-h
-"
-#
-include
-"
-api
-/
 video
 /
 encoded_frame
@@ -144,7 +133,7 @@ FrameBuffer
 =
 default
 ;
-void
+bool
 InsertFrame
 (
 std
