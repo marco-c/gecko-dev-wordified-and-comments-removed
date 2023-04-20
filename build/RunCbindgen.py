@@ -15,9 +15,9 @@ path
 as
 mozpath
 import
-pytoml
-import
 six
+import
+toml
 def
 _get_crate_name
 (
@@ -55,7 +55,7 @@ f
 :
             
 return
-pytoml
+toml
 .
 load
 (

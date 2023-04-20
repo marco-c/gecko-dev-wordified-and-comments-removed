@@ -15,7 +15,7 @@ dedent
 import
 mozunit
 import
-pytoml
+toml
 import
 voluptuous
 from
@@ -487,6 +487,8 @@ file
 txt
 "
 :
+\
+n
 oops
 '
     
@@ -895,9 +897,7 @@ errors
 )
 =
 =
-pytoml
-.
-TomlError
+FeatureGateException
     
 def
 test_empty_feature
