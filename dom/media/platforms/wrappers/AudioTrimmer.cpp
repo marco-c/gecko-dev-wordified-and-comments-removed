@@ -680,7 +680,7 @@ IsEmpty
 )
 )
 {
-LOGV
+LOG
 (
 "
 No
@@ -775,7 +775,7 @@ IsEmpty
 )
 )
 {
-LOGV
+LOG
 (
 "
 sample
@@ -921,7 +921,7 @@ sampleInterval
 )
 )
 {
-LOGV
+LOG
 (
 "
 sample
@@ -983,7 +983,7 @@ i
 continue
 ;
 }
-LOGV
+LOG
 (
 "
 Trimming
@@ -1152,7 +1152,7 @@ Frames
 0
 )
 {
-LOGV
+LOG
 (
 "
 sample
@@ -1257,7 +1257,7 @@ on
 "
 )
 ;
-LOGV
+LOG
 (
 "
 DecodeBatch
@@ -1367,7 +1367,7 @@ aRaw
 mOriginalPresentationWindow
 )
 {
-LOGV
+LOG
 (
 "
 sample
