@@ -409,6 +409,12 @@ oldTransceiver
 .
 mBundleLevel
 ;
+mSendTrack
+=
+oldTransceiver
+.
+mSendTrack
+;
 }
 mRecvTrack
 =
