@@ -86,7 +86,6 @@ if
 mDone
 )
 {
-return
 mMonitor
 .
 Wait
@@ -94,6 +93,16 @@ Wait
 aInterval
 )
 ;
+if
+(
+!
+mDone
+)
+{
+return
+NS_ERROR_ABORT
+;
+}
 }
 return
 NS_OK
