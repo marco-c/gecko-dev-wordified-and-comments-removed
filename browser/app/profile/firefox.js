@@ -15402,7 +15402,7 @@ auth
 .
 enabled
 "
-false
+true
 )
 ;
 pref
