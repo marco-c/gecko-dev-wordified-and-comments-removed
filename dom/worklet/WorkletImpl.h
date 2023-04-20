@@ -290,6 +290,16 @@ mSharedMemoryAllowed
 ;
 }
 bool
+IsSystemPrincipal
+(
+)
+const
+{
+return
+mIsSystemPrincipal
+;
+}
+bool
 ShouldResistFingerprinting
 (
 )
@@ -372,6 +382,9 @@ nsCOMPtr
 nsIPrincipal
 >
 mPrincipal
+;
+bool
+mIsSystemPrincipal
 ;
 const
 WorkletLoadInfo
