@@ -78,6 +78,11 @@ eslintrc
 *
 .
 js
+!
+.
+prettierrc
+.
+js
 #
 Always
 ignore
