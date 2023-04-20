@@ -474,7 +474,6 @@ function
 waitForText
 (
 dbg
-url
 text
 )
 {
@@ -1226,9 +1225,6 @@ waitForText
 dbg
 expected
 .
-file
-expected
-.
 text
 )
 ;
@@ -1330,9 +1326,6 @@ await
 waitForText
 (
 dbg
-expected
-.
-file
 expected
 .
 text
@@ -1707,7 +1700,6 @@ await
 waitForText
 (
 dbg
-null
 textToWaitFor
 )
 ;
