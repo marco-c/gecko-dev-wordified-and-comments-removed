@@ -323,9 +323,6 @@ float
 y_to_x
 float
 y_to_b
-uint64_t
-*
-total_estimated_area_reached
 Spline
 &
 result

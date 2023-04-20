@@ -416,10 +416,6 @@ arg
 <
 =
 max
-*
-1
-.
-0
 ;
 }
 namespace

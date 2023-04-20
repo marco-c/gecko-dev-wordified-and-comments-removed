@@ -501,8 +501,8 @@ cinfo
 -
 >
 data_precision
-kJpegPrecision
-kJpegPrecision
+8
+8
 )
 ;
 JPEG_VERIFY_INPUT
@@ -1114,7 +1114,7 @@ num_components
 i
 )
 {
-DecJPEGComponent
+JPEGComponent
 *
 c
 =

@@ -68,9 +68,6 @@ h
 "
 namespace
 {
-#
-if
-JXL_ENABLE_ASSERT
 bool
 Abort
 (
@@ -121,6 +118,9 @@ __builtin_trap
 #
 endif
 }
+#
+if
+JXL_ENABLE_ASSERT
 #
 define
 JXL_ASSERT

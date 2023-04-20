@@ -24291,7 +24291,7 @@ code
 &
 code
 [
-1
+0
 ]
 ;
 ProcessImageAreaPalette
@@ -24438,7 +24438,7 @@ raw_counts
 =
 raw_counts
 [
-1
+c
 ]
 ;
 sample_collectors
@@ -24450,7 +24450,7 @@ lz77_counts
 =
 lz77_counts
 [
-1
+c
 ]
 ;
 }

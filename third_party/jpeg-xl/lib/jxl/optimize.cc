@@ -5,7 +5,7 @@ lib
 /
 jxl
 /
-enc_optimize
+optimize
 .
 h
 "

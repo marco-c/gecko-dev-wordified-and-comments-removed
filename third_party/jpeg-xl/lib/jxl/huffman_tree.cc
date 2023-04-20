@@ -5,7 +5,7 @@ lib
 /
 jxl
 /
-enc_huffman_tree
+huffman_tree
 .
 h
 "
