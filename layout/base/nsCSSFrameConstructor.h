@@ -5547,11 +5547,6 @@ mCountersDirty
 1
 ;
 bool
-mIsDestroyingFrameTree
-:
-1
-;
-bool
 mAlwaysCreateFramesForIgnorableWhitespace
 :
 1
