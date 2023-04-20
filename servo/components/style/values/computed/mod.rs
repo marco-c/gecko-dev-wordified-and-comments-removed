@@ -1507,7 +1507,7 @@ in_media_query
 true
 in_container_query
 :
-true
+false
 quirks_mode
 for_smil_animation
 :
