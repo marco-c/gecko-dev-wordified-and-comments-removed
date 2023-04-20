@@ -36729,7 +36729,7 @@ alloc
 )
 LMegamorphicSetElement
 (
-useRegisterAtStart
+useFixedAtStart
 (
 ins
 -
@@ -36737,6 +36737,7 @@ ins
 object
 (
 )
+CallTempReg0
 )
 useBoxFixedAtStart
 (
@@ -36762,7 +36763,7 @@ CallTempReg4
 )
 tempFixed
 (
-CallTempReg0
+CallTempReg5
 )
 )
 ;
