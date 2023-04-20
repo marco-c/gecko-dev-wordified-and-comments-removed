@@ -266,6 +266,15 @@ nspr_libs
 "
 nspr
 "
+if
+not
+CONFIG
+[
+"
+ENABLE_TESTS
+"
+]
+:
 gyp_vars
 [
 "
