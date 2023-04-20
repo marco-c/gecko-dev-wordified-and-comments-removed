@@ -268,10 +268,10 @@ sjs
 {
 hinted
 :
-1
+2
 normal
 :
-1
+0
 }
 )
 ;
@@ -345,10 +345,10 @@ sjs
 {
 hinted
 :
-1
+2
 normal
 :
-1
+0
 }
 )
 ;
