@@ -1665,7 +1665,7 @@ int
 ice_candidate_pool_size
 ;
 bool
-disable_ipv6
+DEPRECATED_disable_ipv6
 ;
 bool
 disable_ipv6_on_wifi
@@ -2076,12 +2076,12 @@ o
 media_config
 &
 &
-disable_ipv6
+DEPRECATED_disable_ipv6
 =
 =
 o
 .
-disable_ipv6
+DEPRECATED_disable_ipv6
 &
 &
 disable_ipv6_on_wifi
@@ -12151,7 +12151,7 @@ if
 (
 configuration
 .
-disable_ipv6
+DEPRECATED_disable_ipv6
 )
 {
 port_allocator_flags

@@ -11184,7 +11184,7 @@ kRelay
 ;
 config
 .
-disable_ipv6
+DEPRECATED_disable_ipv6
 =
 true
 ;
@@ -26065,7 +26065,7 @@ g
 ;
 g
 .
-disable_ipv6
+DEPRECATED_disable_ipv6
 =
 true
 ;
