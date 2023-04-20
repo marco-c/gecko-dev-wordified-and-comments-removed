@@ -2107,12 +2107,10 @@ const
 EditorDOMPoint
 &
 aPointToSplit
-nsAtom
-*
-aProperty
-nsAtom
-*
-aAttribute
+const
+EditorInlineStyle
+&
+aStyle
 SplitAtEdges
 aSplitAtEdges
 )

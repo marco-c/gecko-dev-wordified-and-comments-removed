@@ -2669,8 +2669,12 @@ aHTMLEditor
 SplitAncestorStyledInlineElementsAt
 (
 pointToMoveFirstLineContent
-nullptr
-nullptr
+EditorInlineStyle
+:
+:
+RemoveAllStyles
+(
+)
 HTMLEditor
 :
 :
