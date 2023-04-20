@@ -12394,7 +12394,7 @@ nsISessionStoreFunctions
 >
 funcs
 =
-do_ImportModule
+do_ImportESModule
 (
 "
 resource
@@ -12407,7 +12407,9 @@ modules
 /
 SessionStoreFunctions
 .
-jsm
+sys
+.
+mjs
 "
 fallible
 )
