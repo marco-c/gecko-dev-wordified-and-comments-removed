@@ -2711,6 +2711,13 @@ shutdown
 (
 )
 {
+if
+(
+this
+.
+_initPromise
+)
+{
 Services
 .
 obs
@@ -2725,6 +2732,7 @@ changed
 "
 )
 ;
+}
 this
 .
 wrappersMapByOrigin
