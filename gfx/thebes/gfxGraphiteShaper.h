@@ -136,7 +136,7 @@ aRounding
 ;
 friend
 class
-gfxFontEntry
+gfxFontEntryCallbacks
 ;
 static
 tainted_opaque_gr
