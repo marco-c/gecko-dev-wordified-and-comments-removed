@@ -6498,6 +6498,11 @@ CloseEvent
 webidl
 "
 "
+ContentVisibilityAutoStateChangeEvent
+.
+webidl
+"
+"
 DeviceLightEvent
 .
 webidl
