@@ -175,7 +175,9 @@ size
 3
 )
 ;
-params
+url
+.
+searchParams
 .
 delete
 (
@@ -194,7 +196,9 @@ size
 1
 )
 ;
-params
+url
+.
+searchParams
 .
 append
 (
