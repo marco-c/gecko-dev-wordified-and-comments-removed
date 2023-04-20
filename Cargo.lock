@@ -34640,6 +34640,9 @@ objc
 rayon
 "
 "
+remove_dir_all
+"
+"
 swgl
 "
 "
@@ -34663,9 +34666,6 @@ winapi
 "
 "
 wr_malloc_size_of
-"
-"
-remove_dir_all
 "
 ]
 [
