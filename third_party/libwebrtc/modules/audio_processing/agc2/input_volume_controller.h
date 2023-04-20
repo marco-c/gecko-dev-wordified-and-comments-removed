@@ -328,10 +328,6 @@ int
 >
 min_mic_level_override_
 ;
-const
-bool
-use_min_channel_level_
-;
 int
 recommended_input_volume_
 =
