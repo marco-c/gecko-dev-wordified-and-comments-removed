@@ -8278,8 +8278,6 @@ nsGlobalWindowInner
 :
 ShouldResistFingerprinting
 (
-RFPTarget
-aTarget
 )
 const
 {
@@ -8294,7 +8292,6 @@ mDoc
 >
 ShouldResistFingerprinting
 (
-aTarget
 )
 ;
 }
@@ -8336,7 +8333,6 @@ the
 global
 pref
 "
-aTarget
 )
 ;
 }
