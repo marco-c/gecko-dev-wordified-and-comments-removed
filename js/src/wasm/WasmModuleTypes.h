@@ -1456,7 +1456,7 @@ TagOffsetVector
 Vector
 <
 uint32_t
-0
+2
 SystemAllocPolicy
 >
 ;
