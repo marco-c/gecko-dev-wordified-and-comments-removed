@@ -1895,6 +1895,14 @@ getString
 value
 "
 )
+info
+.
+getStringArray
+(
+"
+predefinedValues
+"
+)
 observer
 )
 ;

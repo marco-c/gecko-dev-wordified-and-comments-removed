@@ -11639,6 +11639,10 @@ Nullable
 String
 Nullable
 String
+Nullable
+String
+[
+]
 NonNull
 GeckoSession
 .
@@ -11670,6 +11674,15 @@ public
 final
 String
 defaultValue
+;
+field
+Nullable
+public
+final
+String
+[
+]
+predefinedValues
 ;
 }
 public
