@@ -22,13 +22,6 @@ jsimd
 .
 h
 "
-#
-include
-"
-jconfigint
-.
-h
-"
 typedef
 struct
 {

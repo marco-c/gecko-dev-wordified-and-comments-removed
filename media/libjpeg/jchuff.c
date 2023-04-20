@@ -24,13 +24,6 @@ h
 "
 #
 include
-"
-jconfigint
-.
-h
-"
-#
-include
 <
 limits
 .

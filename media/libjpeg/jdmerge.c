@@ -30,13 +30,6 @@ jsimd
 h
 "
 #
-include
-"
-jconfigint
-.
-h
-"
-#
 ifdef
 UPSAMPLE_MERGING_SUPPORTED
 #

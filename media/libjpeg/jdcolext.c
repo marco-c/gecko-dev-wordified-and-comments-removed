@@ -261,7 +261,7 @@ outptr
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -381,7 +381,7 @@ outptr
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -538,7 +538,7 @@ outptr
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif

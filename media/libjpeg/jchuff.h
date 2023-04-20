@@ -17,6 +17,11 @@ MAX_COEF_BITS
 #
 endif
 typedef
+unsigned
+short
+UJCOEF
+;
+typedef
 struct
 {
 unsigned

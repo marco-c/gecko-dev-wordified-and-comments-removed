@@ -22,13 +22,6 @@ jdmaster
 .
 h
 "
-#
-include
-"
-jconfigint
-.
-h
-"
 GLOBAL
 (
 void

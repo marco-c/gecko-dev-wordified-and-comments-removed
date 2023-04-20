@@ -12,13 +12,6 @@ jdmainct
 .
 h
 "
-#
-include
-"
-jconfigint
-.
-h
-"
 METHODDEF
 (
 void

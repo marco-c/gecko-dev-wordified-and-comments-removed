@@ -252,7 +252,7 @@ outptr
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -312,7 +312,7 @@ outptr
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -424,7 +424,7 @@ outptr
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -709,7 +709,7 @@ outptr0
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -769,7 +769,7 @@ outptr0
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -829,7 +829,7 @@ outptr1
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -889,7 +889,7 @@ outptr1
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -1001,7 +1001,7 @@ outptr0
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif
@@ -1054,7 +1054,7 @@ outptr1
 RGB_ALPHA
 ]
 =
-0xFF
+MAXJSAMPLE
 ;
 #
 endif

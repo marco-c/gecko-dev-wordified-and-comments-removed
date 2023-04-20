@@ -22,13 +22,6 @@ jpegcomp
 .
 h
 "
-#
-include
-"
-jconfigint
-.
-h
-"
 typedef
 enum
 {

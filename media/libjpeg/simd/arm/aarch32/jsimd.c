@@ -102,6 +102,7 @@ ctype
 h
 >
 static
+THREAD_LOCAL
 unsigned
 int
 simd_support
@@ -110,6 +111,7 @@ simd_support
 0
 ;
 static
+THREAD_LOCAL
 unsigned
 int
 simd_huffman
@@ -3319,7 +3321,7 @@ int
 Sl
 int
 Al
-JCOEF
+UJCOEF
 *
 values
 size_t
@@ -3405,7 +3407,7 @@ int
 Sl
 int
 Al
-JCOEF
+UJCOEF
 *
 absvalues
 size_t

@@ -4,13 +4,6 @@ JPEG_INTERNALS
 #
 include
 "
-jconfigint
-.
-h
-"
-#
-include
-"
 .
 .
 /
