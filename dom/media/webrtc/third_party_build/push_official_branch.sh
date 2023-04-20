@@ -182,6 +182,8 @@ set
 -
 eEo
 pipefail
+cd
+MOZ_LIBWEBRTC_SRC
 echo
 "
 Creating
