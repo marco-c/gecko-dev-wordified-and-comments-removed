@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-bac0ff1a2fea8525ee0f4897f95cd41cd3570e4f
+b5895b16b1053cb88ae49e800f271e3a984b7e4a
 '
 #
 Keep
@@ -148,7 +148,7 @@ version
 .
 20220701
 .
-0
+2
 .
 1
 '
@@ -192,7 +192,7 @@ chromium
 src
 /
 base
-5650bc6a103a5cb003e4f7d24ef238029eb36a12
+ba94246c920eb14f38c5cd06d4d1548d3bef332b
 '
 '
 src
@@ -216,7 +216,7 @@ chromium
 src
 /
 build
-b09cdd74ca8b5d2c509be62497e8a3787fa8fa1f
+473484fe926069d0b49fa6e23ba98991cadd6302
 '
 '
 src
@@ -336,7 +336,7 @@ chromium
 src
 /
 ios
-90479fbd3f5ef05347b1799ba819e5181fa3513d
+e87365a15a3829379158e72acfc16ac01ca357d6
 '
 '
 condition
@@ -368,7 +368,7 @@ chromium
 src
 /
 testing
-cc7d6973e12eb8d0d4aea9bcb495c2b6356912e7
+b97d5810aaed30472742719bd04ee2de0acbbd54
 '
 '
 src
@@ -392,7 +392,7 @@ chromium
 src
 /
 third_party
-38968a908c5deaa90f0d14287829ffb80a4c14b3
+227535f25a195cc122f4e2deccab59bacf3395e1
 '
 '
 src
@@ -433,7 +433,7 @@ version
 '
 git_revision
 :
-29accf5ac2eadfc53e687081583b7bc1592a8839
+ecaaf4b9e58a312a1610a37999eeccf58f73e264
 '
 }
 ]
@@ -491,7 +491,7 @@ version
 '
 git_revision
 :
-29accf5ac2eadfc53e687081583b7bc1592a8839
+ecaaf4b9e58a312a1610a37999eeccf58f73e264
 '
 }
 ]
@@ -545,7 +545,7 @@ version
 '
 git_revision
 :
-29accf5ac2eadfc53e687081583b7bc1592a8839
+ecaaf4b9e58a312a1610a37999eeccf58f73e264
 '
 }
 ]
@@ -606,7 +606,7 @@ clang
 format
 .
 git
-e435ad79c17b1888b34df88d6a30a094936e3836
+8b525d2747f2584fc35d8c7e612e66f377858df7
 '
 '
 src
@@ -1349,7 +1349,7 @@ third_party
 freetype2
 .
 git
-2db58e061ecc0d738a41d13ed8908e967bd0014c
+bec4ef415ef07ad1fa9542978136d9863dd7a6d0
 '
 '
 src
@@ -2037,7 +2037,7 @@ external
 perfetto
 .
 git
-f413bdf83590b039eb4815d1b8b334ebbf2bd649
+63cdebc57fc66b8782b36f38b46637879210b1b6
 '
 '
 src
@@ -2482,7 +2482,7 @@ chromium
 src
 /
 tools
-0b0dd91d7b978c1995e5d91a458833ec71d5473a
+efc278b7d55011f0ee9ca9e4cda45bc689e12164
 '
 '
 src
@@ -2978,9 +2978,11 @@ version
 '
 :
 '
-lYZhX1u
+qYbZhGFI6Byx
 -
-VWgsLITQXwIxYzbrN3URNzSwPTP2iuDhPBQC
+h1
+-
+gMAwav_sOAyRgupup2LcOewkUwYC
 '
 }
 ]
