@@ -3369,12 +3369,6 @@ Ci
 nsIClearDataService
 .
 CLEAR_CERT_EXCEPTIONS
-|
-Ci
-.
-nsIClearDataService
-.
-CLEAR_CREDENTIAL_MANAGER_STATE
 )
 ;
 TelemetryStopwatch
