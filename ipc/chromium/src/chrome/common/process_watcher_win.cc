@@ -60,6 +60,18 @@ kWaitInterval
 =
 2000
 ;
+#
+ifdef
+MOZ_CODE_COVERAGE
+static
+constexpr
+DWORD
+kShutdownWaitMs
+=
+80000
+;
+#
+else
 static
 constexpr
 DWORD
@@ -67,6 +79,8 @@ kShutdownWaitMs
 =
 8000
 ;
+#
+endif
 namespace
 {
 static
