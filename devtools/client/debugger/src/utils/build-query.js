@@ -221,16 +221,6 @@ let
 query
 =
 originalQuery
-.
-replace
-(
-/
-\
-\
-/
-"
-"
-)
 ;
 if
 (
