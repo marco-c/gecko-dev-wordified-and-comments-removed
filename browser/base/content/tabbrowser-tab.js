@@ -2021,6 +2021,14 @@ on_dragstart
 event
 )
 {
+event
+.
+dataTransfer
+.
+mozShowFailAnimation
+=
+false
+;
 if
 (
 event

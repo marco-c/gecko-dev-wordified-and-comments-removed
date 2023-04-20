@@ -1019,6 +1019,8 @@ uint32_t
 aDragImageX
 uint32_t
 aDragImageY
+bool
+aShowFailAnimation
 )
 :
 mParent
@@ -1078,6 +1080,10 @@ aDragImageX
 mDragImageY
 (
 aDragImageY
+)
+mShowFailAnimation
+(
+aShowFailAnimation
 )
 {
 MOZ_ASSERT
@@ -4072,6 +4078,7 @@ mItems
 mDragImage
 mDragImageX
 mDragImageY
+mShowFailAnimation
 )
 ;
 newDataTransfer
