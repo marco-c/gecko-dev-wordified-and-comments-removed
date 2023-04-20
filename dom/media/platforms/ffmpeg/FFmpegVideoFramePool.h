@@ -429,6 +429,12 @@ bool
 >
 mTextureCreationWorks
 ;
+Maybe
+<
+bool
+>
+mTextureCopyWorks
+;
 }
 ;
 }
