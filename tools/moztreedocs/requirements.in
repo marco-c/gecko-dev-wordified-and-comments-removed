@@ -178,9 +178,9 @@ Markdown
 MarkupSafe
 =
 =
-1
+2
 .
-1
+0
 .
 1
 mock
@@ -224,7 +224,7 @@ parsimonious
 =
 0
 .
-7
+10
 .
 0
 pyasn1
@@ -292,7 +292,7 @@ PyYAML
 =
 5
 .
-3
+4
 .
 1
 redo
@@ -308,9 +308,9 @@ requests
 =
 2
 .
-24
+28
 .
-0
+1
 rsa
 =
 =
@@ -394,7 +394,7 @@ js
 =
 3
 .
-0
+2
 .
 1
 sphinx
