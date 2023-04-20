@@ -15,6 +15,13 @@ h
 #
 include
 "
+ExtensionAPIBase
+.
+h
+"
+#
+include
+"
 js
 /
 Promise

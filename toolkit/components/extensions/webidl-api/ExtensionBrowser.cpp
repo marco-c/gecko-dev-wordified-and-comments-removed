@@ -8,6 +8,13 @@ h
 #
 include
 "
+ExtensionAPIRequestForwarder
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

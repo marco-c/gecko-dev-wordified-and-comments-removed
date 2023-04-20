@@ -277,6 +277,9 @@ ExtensionRuntime
 :
 GetId
 (
+dom
+:
+:
 DOMString
 &
 aRetval

@@ -64,6 +64,13 @@ WorkerPrivate
 .
 h
 "
+#
+include
+"
+ExtensionBrowser
+.
+h
+"
 class
 nsIGlobalObject
 ;

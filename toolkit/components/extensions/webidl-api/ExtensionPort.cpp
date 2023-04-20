@@ -8,6 +8,13 @@ h
 #
 include
 "
+ExtensionBrowser
+.
+h
+"
+#
+include
+"
 ExtensionEventManager
 .
 h
