@@ -92,8 +92,7 @@ filters
 Exposed
 =
 (
-DedicatedWorker
-SharedWorker
+Worker
 Window
 )
 SecureContext
@@ -162,10 +161,7 @@ usb
 [
 Exposed
 =
-(
-DedicatedWorker
-SharedWorker
-)
+Worker
 SecureContext
 ]
 partial

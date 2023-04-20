@@ -374,6 +374,9 @@ decoderImplementation
 DOMString
 playoutId
 ;
+boolean
+powerEfficientDecoder
+;
 }
 ;
 dictionary
@@ -522,6 +525,9 @@ pliCount
 ;
 DOMString
 encoderImplementation
+;
+boolean
+powerEfficientEncoder
 ;
 boolean
 active

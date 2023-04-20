@@ -338,6 +338,11 @@ attribute
 AbortSignal
 signal
 ;
+readonly
+attribute
+RequestDuplex
+duplex
+;
 [
 NewObject
 ]

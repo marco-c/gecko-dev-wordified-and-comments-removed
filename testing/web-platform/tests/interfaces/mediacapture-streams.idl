@@ -716,6 +716,7 @@ videoinput
 Exposed
 =
 Window
+SecureContext
 ]
 interface
 InputDeviceInfo
