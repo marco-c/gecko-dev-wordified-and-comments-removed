@@ -202,7 +202,7 @@ args
 =
 [
 "
-install
+ci
 "
 ]
 )
