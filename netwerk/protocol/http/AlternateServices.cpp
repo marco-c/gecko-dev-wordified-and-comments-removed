@@ -1994,7 +1994,6 @@ originAttributes
 mAlternateHost
 mAlternatePort
 mIsHttp3
-false
 )
 ;
 if
