@@ -4676,14 +4676,6 @@ PatchWrite_NearCallSize
 )
 )
 ;
-lastOsiPointOffset_
-=
-masm
-.
-currentOffset
-(
-)
-;
 }
 uint32_t
 CodeGeneratorShared
@@ -4749,6 +4741,10 @@ so
 )
 )
 )
+;
+lastOsiPointOffset_
+=
+offset
 ;
 return
 offset
