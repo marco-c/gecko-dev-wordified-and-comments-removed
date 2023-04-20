@@ -82,7 +82,7 @@ tabs
 label
 =
 Search
-Tabs
+tabs
 all
 -
 tabs
@@ -99,8 +99,8 @@ context
 label
 =
 New
-Container
-Tab
+container
+tab
 all
 -
 tabs
@@ -115,7 +115,7 @@ tabs
 label
 =
 Hidden
-Tabs
+tabs
 all
 -
 tabs
@@ -132,7 +132,7 @@ context
 label
 =
 Manage
-Containers
+containers
 .
 accesskey
 =
