@@ -3965,6 +3965,9 @@ pref
 "
 restrict
 "
+"
+telemetryLabel
+"
 ]
 ;
 for
