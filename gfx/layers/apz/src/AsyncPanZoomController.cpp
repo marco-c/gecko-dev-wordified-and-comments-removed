@@ -7008,7 +7008,6 @@ EventStateManager
 :
 MIN_MULTIPLIER_VALUE_ALLOWING_OVER_ONE_PAGE_SCROLL
 ;
-;
 }
 ParentLayerPoint
 AsyncPanZoomController
