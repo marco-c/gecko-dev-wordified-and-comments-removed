@@ -26,17 +26,6 @@ h
 #
 include
 "
-api
-/
-task_queue
-/
-to_queued_task
-.
-h
-"
-#
-include
-"
 modules
 /
 rtp_rtcp
@@ -204,8 +193,6 @@ task_queue_
 .
 PostTask
 (
-ToQueuedTask
-(
 [
 rtcp_rtt_stats
 rtt
@@ -221,7 +208,6 @@ rtt
 ;
 }
 )
-)
 ;
 }
 protected
@@ -235,8 +221,6 @@ task_queue_
 .
 PostTask
 (
-ToQueuedTask
-(
 [
 this
 ]
@@ -248,8 +232,6 @@ PostTask
 [
 this
 ]
-(
-)
 {
 loop_
 .
@@ -261,7 +243,6 @@ Quit
 )
 ;
 }
-)
 )
 ;
 loop_

@@ -37,17 +37,6 @@ include
 "
 api
 /
-task_queue
-/
-to_queued_task
-.
-h
-"
-#
-include
-"
-api
-/
 video
 /
 video_stream_encoder_settings
@@ -1155,7 +1144,7 @@ rtp_transport_queue_
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 transport_queue_safety_
 [
@@ -1221,8 +1210,6 @@ rtp_transport_queue_
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 this
 ]
@@ -1247,7 +1234,6 @@ Set
 )
 ;
 }
-)
 )
 ;
 thread_sync_event_
@@ -1307,7 +1293,7 @@ rtp_transport_queue_
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 transport_queue_safety_
 [

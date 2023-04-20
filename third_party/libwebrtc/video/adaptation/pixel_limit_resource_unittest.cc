@@ -22,11 +22,11 @@ utility
 #
 include
 "
-api
+absl
 /
-task_queue
+functional
 /
-to_queued_task
+any_invocable
 .
 h
 "
@@ -215,12 +215,16 @@ current_pixels
 void
 RunTaskOnTaskQueue
 (
-std
+absl
 :
 :
-unique_ptr
+AnyInvocable
 <
-QueuedTask
+void
+(
+)
+&
+&
 >
 task
 )
@@ -290,8 +294,6 @@ resource_listener
 ;
 RunTaskOnTaskQueue
 (
-ToQueuedTask
-(
 [
 &
 ]
@@ -356,7 +358,6 @@ nullptr
 ;
 }
 )
-)
 ;
 }
 TEST_F
@@ -383,8 +384,6 @@ MockResourceListener
 resource_listener
 ;
 RunTaskOnTaskQueue
-(
-ToQueuedTask
 (
 [
 &
@@ -543,7 +542,6 @@ nullptr
 ;
 }
 )
-)
 ;
 }
 TEST_F
@@ -579,8 +577,6 @@ MockResourceListener
 resource_listener
 ;
 RunTaskOnTaskQueue
-(
-ToQueuedTask
 (
 [
 &
@@ -738,7 +734,6 @@ nullptr
 )
 ;
 }
-)
 )
 ;
 }

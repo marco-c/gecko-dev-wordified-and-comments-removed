@@ -2503,7 +2503,7 @@ task_queue_
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 task_safety_flag_
 [
@@ -3497,7 +3497,7 @@ task_queue_
 >
 PostTask
 (
-ToQueuedTask
+SafeTask
 (
 task_safety_flag_
 [
