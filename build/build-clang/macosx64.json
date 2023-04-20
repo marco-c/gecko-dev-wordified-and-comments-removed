@@ -1,9 +1,15 @@
 {
 "
-osx_cross_compile
+target
 "
 :
-true
+"
+x86_64
+-
+apple
+-
+darwin
+"
 "
 cc
 "
