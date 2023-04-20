@@ -2917,6 +2917,7 @@ WorkerLoadContext
 (
 kind
 clientInfo
+this
 )
 ;
 ReferrerPolicy

@@ -45,6 +45,15 @@ ClientInfo
 >
 &
 aClientInfo
+workerinternals
+:
+:
+loader
+:
+:
+WorkerScriptLoader
+*
+aScriptLoader
 )
 :
 JS
@@ -73,6 +82,10 @@ aKind
 mClientInfo
 (
 aClientInfo
+)
+mScriptLoader
+(
+aScriptLoader
 )
 {
 }
