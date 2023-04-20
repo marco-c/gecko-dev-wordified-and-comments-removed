@@ -129,8 +129,12 @@ on
 -
 projects
 :
-[
-]
+-
+"
+mozilla
+-
+central
+"
 worker
 -
 type
