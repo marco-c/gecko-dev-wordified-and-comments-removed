@@ -1178,14 +1178,14 @@ self
 :
         
 import
-requests
-        
-import
 concurrent
 .
 futures
 as
 futures
+        
+import
+requests
         
 session
 =

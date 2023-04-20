@@ -15,13 +15,13 @@ import
 absolute_import
 print_function
 import
-mozprofile
-import
 optparse
 import
 os
 import
 sys
+import
+mozprofile
 __all__
 =
 [

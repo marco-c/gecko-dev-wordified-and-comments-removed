@@ -7,25 +7,25 @@ ctypes
 import
 (
     
-c_void_p
-    
 POINTER
     
-sizeof
+WINFUNCTYPE
     
 Structure
     
-windll
-    
 WinError
-    
-WINFUNCTYPE
     
 addressof
     
 c_size_t
     
 c_ulong
+    
+c_void_p
+    
+sizeof
+    
+windll
 )
 from
 ctypes

@@ -12,8 +12,6 @@ import
 pickle
 import
 sys
-import
-six
 from
 abc
 import
@@ -29,11 +27,13 @@ mozpack
 path
 as
 mozpath
+import
+six
 from
 manifestparser
 import
-combine_fields
 TestManifest
+combine_fields
 from
 mozbuild
 .
@@ -45,8 +45,8 @@ mozbuild
 .
 testing
 import
-TEST_MANIFESTS
 REFTEST_FLAVORS
+TEST_MANIFESTS
 from
 mozbuild
 .
@@ -6959,10 +6959,10 @@ sys
 path
         
 import
-manifestupdate
+logging
         
 import
-logging
+manifestupdate
         
 logger
 =

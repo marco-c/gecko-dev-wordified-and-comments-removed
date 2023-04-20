@@ -33,9 +33,6 @@ from
 .
 import
 errors
-from
-.
-import
 transport
 from
 .

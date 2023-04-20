@@ -2,10 +2,6 @@ from
 __future__
 import
 absolute_import
-from
-telnetlib
-import
-Telnet
 import
 datetime
 import
@@ -19,6 +15,10 @@ tempfile
 import
 time
 from
+telnetlib
+import
+Telnet
+from
 mozdevice
 import
 ADBHost
@@ -26,6 +26,12 @@ from
 mozprocess
 import
 ProcessHandler
+from
+.
+.
+errors
+import
+TimeoutException
 from
 .
 base
@@ -46,12 +52,6 @@ from
 emulator_screen
 import
 EmulatorScreen
-from
-.
-.
-errors
-import
-TimeoutException
 class
 ArchContext
 (

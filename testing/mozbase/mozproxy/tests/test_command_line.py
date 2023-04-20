@@ -19,13 +19,13 @@ import
 threading
 import
 time
+import
+mozunit
 from
 buildconfig
 import
-topsrcdir
 topobjdir
-import
-mozunit
+topsrcdir
 from
 mozprocess
 import

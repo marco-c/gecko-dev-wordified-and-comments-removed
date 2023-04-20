@@ -6,9 +6,9 @@ print_function
 import
 re
 import
-six
-import
 time
+import
+six
 from
 .
 adb

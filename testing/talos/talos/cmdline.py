@@ -7,14 +7,14 @@ import
 argparse
 import
 os
+import
+six
 from
 mozlog
 .
 commandline
 import
 add_logging_group
-import
-six
 class
 _StopAction
 (

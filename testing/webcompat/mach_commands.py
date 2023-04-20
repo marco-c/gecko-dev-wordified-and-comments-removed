@@ -939,10 +939,10 @@ kwargs
 :
         
 import
-runner
+mozlog
         
 import
-mozlog
+runner
         
 mozlog
 .

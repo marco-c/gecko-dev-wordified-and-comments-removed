@@ -16,12 +16,8 @@ unittest
 .
 case
 import
-(
-    
-skip
-    
 SkipTest
-)
+skip
 from
 .
 decorators
@@ -50,11 +46,11 @@ import
     
 CommonTestCase
     
-expectedFailure
-    
 MarionetteTestCase
     
 MetaParameterized
+    
+expectedFailure
     
 unexpectedSuccess
 )

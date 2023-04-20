@@ -1,9 +1,9 @@
 import
-re
-import
 os
 .
 path
+import
+re
 class
 TPSTestPhase
 (

@@ -31,12 +31,8 @@ building
 .
 buildbase
 import
-(
-    
-get_mozconfig_path
-    
 MozconfigPathError
-)
+get_mozconfig_path
 class
 FakeLogger
 (

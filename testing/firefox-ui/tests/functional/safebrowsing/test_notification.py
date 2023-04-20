@@ -8,8 +8,8 @@ from
 marionette_driver
 import
 By
-expected
 Wait
+expected
 from
 marionette_harness
 import

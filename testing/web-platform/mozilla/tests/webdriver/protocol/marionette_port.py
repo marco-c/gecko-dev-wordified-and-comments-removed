@@ -1,9 +1,9 @@
+import
+os
 from
 copy
 import
 deepcopy
-import
-os
 import
 pytest
 pytest

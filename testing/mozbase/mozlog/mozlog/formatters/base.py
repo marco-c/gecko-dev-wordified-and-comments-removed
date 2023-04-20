@@ -3,12 +3,6 @@ __future__
 import
 absolute_import
 from
-.
-.
-reader
-import
-LogHandler
-from
 mozlog
 .
 handlers
@@ -16,6 +10,12 @@ handlers
 messagehandler
 import
 MessageHandler
+from
+.
+.
+reader
+import
+LogHandler
 class
 BaseFormatter
 (

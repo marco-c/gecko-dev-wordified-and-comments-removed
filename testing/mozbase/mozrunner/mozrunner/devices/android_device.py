@@ -18,8 +18,6 @@ shutil
 import
 signal
 import
-six
-import
 subprocess
 import
 sys
@@ -37,11 +35,13 @@ from
 enum
 import
 Enum
+import
+six
 from
 mozdevice
 import
-ADBHost
 ADBDeviceFactory
+ADBHost
 from
 six
 .

@@ -17,20 +17,16 @@ from
 unittest
 import
 mock
-import
-pytest
 from
 unittest
 .
 mock
 import
 Mock
-from
-six
-import
-reraise
 import
 mozunit
+import
+pytest
 from
 mozprofile
 import
@@ -41,6 +37,10 @@ mozrunner
 errors
 import
 RunnerNotStartedError
+from
+six
+import
+reraise
 here
 =
 os
@@ -90,18 +90,18 @@ raptor_dir
 from
 browsertime
 import
-BrowsertimeDesktop
 BrowsertimeAndroid
+BrowsertimeDesktop
 from
 webextension
 import
 (
     
-WebExtensionFirefox
+WebExtensionAndroid
     
 WebExtensionDesktopChrome
     
-WebExtensionAndroid
+WebExtensionFirefox
 )
 DEFAULT_TIMEOUT
 =

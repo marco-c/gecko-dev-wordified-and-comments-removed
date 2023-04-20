@@ -5,12 +5,8 @@ absolute_import
 from
 collections
 import
-(
-    
 defaultdict
-    
 namedtuple
-)
 RunSummary
 =
 namedtuple

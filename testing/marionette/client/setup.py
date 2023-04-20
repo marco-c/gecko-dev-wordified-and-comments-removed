@@ -9,8 +9,8 @@ re
 from
 setuptools
 import
-setup
 find_packages
+setup
 THIS_DIR
 =
 os

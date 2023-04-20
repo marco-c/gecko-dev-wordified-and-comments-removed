@@ -21,13 +21,13 @@ __future__
 import
 absolute_import
 import
-os
-import
 glob
 import
-sys
+os
 import
 shlex
+import
+sys
 sys
 .
 path

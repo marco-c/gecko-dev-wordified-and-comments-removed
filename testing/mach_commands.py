@@ -11,37 +11,32 @@ logging
 import
 os
 import
-sys
-import
 subprocess
+import
+sys
 from
 mach
 .
 decorators
 import
-(
-    
-CommandArgument
-    
 Command
-    
+CommandArgument
 SettingsProvider
-    
 SubCommand
-)
 from
 mozbuild
 .
 base
 import
-(
-    
 BuildEnvironmentNotFoundException
-    
+from
+mozbuild
+.
+base
+import
 MachCommandConditions
 as
 conditions
-)
 UNKNOWN_TEST
 =
 "
@@ -1020,10 +1015,10 @@ kwargs
 :
     
 import
-addtest
+io
     
 import
-io
+addtest
     
 from
 moztest
@@ -2499,9 +2494,9 @@ moztest
 .
 resolve
 import
-get_suite_definition
-TestResolver
 TEST_SUITES
+TestResolver
+get_suite_definition
     
 resolver
 =
@@ -3292,9 +3287,9 @@ android_device
 import
 (
             
-verify_android_device
-            
 InstallIntent
+            
+verify_android_device
         
 )
         

@@ -5,11 +5,11 @@ absolute_import
 import
 os
 import
-six
-import
 sys
 import
 mozunit
+import
+six
 from
 mozfile
 import

@@ -2,10 +2,8 @@ from
 __future__
 import
 absolute_import
-from
-uuid
 import
-uuid4
+argparse
 import
 json
 from
@@ -15,8 +13,10 @@ server
 import
 BaseHTTPRequestHandler
 HTTPServer
+from
+uuid
 import
-argparse
+uuid4
 _SESSIONS
 =
 {

@@ -42,13 +42,13 @@ power
 import
 (
     
-init_android_power_test
-    
-finish_android_power_test
+disable_charging
     
 enable_charging
     
-disable_charging
+finish_android_power_test
+    
+init_android_power_test
 )
 from
 signal_handler

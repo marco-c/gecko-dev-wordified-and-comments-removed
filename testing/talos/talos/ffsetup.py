@@ -33,6 +33,8 @@ import
 mozinfo
 import
 mozrunner
+import
+six
 from
 mozlog
 import
@@ -46,6 +48,7 @@ Profile
 from
 talos
 import
+heavy
 utils
 from
 talos
@@ -60,12 +63,6 @@ utils
 import
 TalosError
 run_in_debug_mode
-from
-talos
-import
-heavy
-import
-six
 here
 =
 os

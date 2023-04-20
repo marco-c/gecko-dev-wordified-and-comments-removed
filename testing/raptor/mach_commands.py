@@ -37,12 +37,7 @@ mozbuild
 .
 base
 import
-(
-    
-MozbuildObject
-    
 BinaryNotFoundException
-)
 from
 mozbuild
 .
@@ -51,6 +46,12 @@ import
 MachCommandConditions
 as
 Conditions
+from
+mozbuild
+.
+base
+import
+MozbuildObject
 HERE
 =
 os
@@ -1382,12 +1383,12 @@ try
 :
             
 import
+platform
+            
+import
 mach_commands
 as
 browsertime
-            
-import
-platform
             
 self
 .
@@ -2169,6 +2170,16 @@ directory
 "
 "
     
+import
+platform
+    
+from
+distutils
+.
+version
+import
+StrictVersion
+    
 from
 mozbuild
 .
@@ -2182,16 +2193,6 @@ mozbuild
 nodeutil
 import
 find_node_executable
-    
-from
-distutils
-.
-version
-import
-StrictVersion
-    
-import
-platform
     
 print
 (
@@ -2724,8 +2725,8 @@ raptor
 .
 power
 import
-enable_charging
 disable_charging
+enable_charging
     
 build_obj
 =
@@ -2766,6 +2767,11 @@ is_android
 :
         
 from
+mozdevice
+import
+ADBDeviceFactory
+        
+from
 mozrunner
 .
 devices
@@ -2774,16 +2780,11 @@ android_device
 import
 (
             
-verify_android_device
-            
 InstallIntent
+            
+verify_android_device
         
 )
-        
-from
-mozdevice
-import
-ADBDeviceFactory
         
 install
 =

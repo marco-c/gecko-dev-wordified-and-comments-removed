@@ -9,8 +9,6 @@ array
 import
 re
 import
-six
-import
 socket
 import
 struct
@@ -22,6 +20,8 @@ import
 mozinfo
 import
 mozlog
+import
+six
 if
 mozinfo
 .

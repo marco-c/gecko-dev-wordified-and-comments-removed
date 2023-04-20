@@ -9,9 +9,9 @@ shutil
 import
 unittest
 import
-mozunit
-import
 mozfile
+import
+mozunit
 import
 stubs
 class

@@ -10,13 +10,13 @@ os
 import
 re
 import
-six
-import
 sys
 from
 optparse
 import
 OptionParser
+import
+six
 def
 main
 (

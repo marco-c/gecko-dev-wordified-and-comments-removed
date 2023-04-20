@@ -56,8 +56,8 @@ PY2
 from
 urllib2
 import
-urlopen
 Request
+urlopen
 else
 :
     
@@ -66,8 +66,8 @@ urllib
 .
 request
 import
-urlopen
 Request
+urlopen
     
 basestring
 =

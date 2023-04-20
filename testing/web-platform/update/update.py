@@ -14,33 +14,33 @@ wptrunner
 .
 update
 .
+tree
+import
+NoVCSTree
+from
+wptrunner
+.
+update
+.
 update
 import
 (
     
 LoadConfig
     
+RemoveObsolete
+    
 SyncFromUpstream
     
 UpdateMetadata
-    
-RemoveObsolete
 )
 from
-wptrunner
-.
-update
 .
 tree
 import
-NoVCSTree
-from
-.
-tree
-import
+GeckoCommit
 GitTree
 HgTree
-GeckoCommit
 from
 .
 upstream

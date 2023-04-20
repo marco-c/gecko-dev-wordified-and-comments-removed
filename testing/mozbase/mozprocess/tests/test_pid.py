@@ -6,12 +6,12 @@ import
 os
 import
 mozunit
+import
+proctest
 from
 mozprocess
 import
 processhandler
-import
-proctest
 here
 =
 os

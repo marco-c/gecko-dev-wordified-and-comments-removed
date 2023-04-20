@@ -3,13 +3,13 @@ __future__
 import
 absolute_import
 import
-threading
-import
-time
+signal
 import
 sys
 import
-signal
+threading
+import
+time
 if
 "
 deadlock

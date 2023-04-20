@@ -8,9 +8,9 @@ os
 import
 sys
 import
-pytest
-import
 mozunit
+import
+pytest
 here
 =
 os

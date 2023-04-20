@@ -4,6 +4,11 @@ import
 absolute_import
 from
 .
+android
+import
+BrowsertimeAndroid
+from
+.
 base
 import
 Browsertime
@@ -12,8 +17,3 @@ from
 desktop
 import
 BrowsertimeDesktop
-from
-.
-android
-import
-BrowsertimeAndroid

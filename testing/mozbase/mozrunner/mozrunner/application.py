@@ -3,7 +3,9 @@ __future__
 import
 absolute_import
 import
-six
+os
+import
+posixpath
 from
 abc
 import
@@ -16,9 +18,7 @@ spawn
 import
 find_executable
 import
-os
-import
-posixpath
+six
 from
 mozdevice
 import
@@ -28,13 +28,13 @@ mozprofile
 import
 (
     
-Profile
-    
 ChromeProfile
     
 ChromiumProfile
     
 FirefoxProfile
+    
+Profile
     
 ThunderbirdProfile
 )

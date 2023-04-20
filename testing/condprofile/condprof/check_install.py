@@ -33,11 +33,11 @@ __future__
 import
 absolute_import
 import
-sys
-import
 os
 import
 subprocess
+import
+sys
 PY3
 =
 sys

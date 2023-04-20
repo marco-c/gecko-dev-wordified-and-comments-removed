@@ -5,8 +5,8 @@ support
 .
 network
 import
-websocket_request
 get_host
+websocket_request
 pytest
 .
 mark

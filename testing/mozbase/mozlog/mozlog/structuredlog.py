@@ -4,15 +4,6 @@ import
 absolute_import
 print_function
 unicode_literals
-from
-multiprocessing
-import
-current_process
-from
-threading
-import
-current_thread
-Lock
 import
 json
 import
@@ -22,43 +13,50 @@ time
 import
 traceback
 from
+multiprocessing
+import
+current_process
+from
+threading
+import
+Lock
+current_thread
+import
+six
+from
 .
 logtypes
 import
 (
     
-Unicode
+Any
     
-TestId
+Boolean
     
-TestList
+Dict
+    
+Int
+    
+List
+    
+Nullable
     
 Status
     
 SubStatus
     
-Dict
+TestId
     
-List
-    
-Int
-    
-Any
+TestList
     
 Tuple
     
-Boolean
+Unicode
     
-Nullable
-)
-from
-.
-logtypes
-import
-log_action
 convertor_registry
-import
-six
+    
+log_action
+)
 "
 "
 "

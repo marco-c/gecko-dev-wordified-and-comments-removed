@@ -3,8 +3,6 @@ __future__
 import
 absolute_import
 import
-six
-import
 argparse
 import
 os
@@ -14,6 +12,8 @@ from
 collections
 import
 defaultdict
+import
+six
 from
 mozharness
 .

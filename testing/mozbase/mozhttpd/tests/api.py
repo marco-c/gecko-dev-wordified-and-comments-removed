@@ -9,6 +9,10 @@ json
 import
 os
 import
+mozhttpd
+import
+mozunit
+import
 pytest
 from
 six
@@ -48,10 +52,6 @@ install_opener
     
 urlopen
 )
-import
-mozunit
-import
-mozhttpd
 def
 httpd_url
 (

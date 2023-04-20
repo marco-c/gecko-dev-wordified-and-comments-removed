@@ -8,12 +8,6 @@ import
 io
 import
 os
-from
-six
-.
-moves
-import
-configparser
 import
 sys
 import
@@ -24,6 +18,12 @@ from
 mozversion
 import
 errors
+from
+six
+.
+moves
+import
+configparser
 INI_DATA_MAPPING
 =
 (

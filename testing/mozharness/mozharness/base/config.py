@@ -185,16 +185,16 @@ ImportError
 from
 urllib
 .
-request
+error
 import
-urlopen
+URLError
     
 from
 urllib
 .
-error
+request
 import
-URLError
+urlopen
 try
 :
     

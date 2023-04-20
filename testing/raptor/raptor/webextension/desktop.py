@@ -7,6 +7,12 @@ os
 import
 shutil
 from
+logger
+.
+logger
+import
+RaptorLogger
+from
 mozpower
 import
 MozPower
@@ -14,12 +20,6 @@ from
 mozrunner
 import
 runners
-from
-logger
-.
-logger
-import
-RaptorLogger
 from
 outputhandler
 import

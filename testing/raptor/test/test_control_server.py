@@ -4,11 +4,9 @@ import
 absolute_import
 unicode_literals
 import
-mozunit
-import
 os
 import
-requests
+shutil
 import
 sys
 from
@@ -16,7 +14,9 @@ unittest
 import
 mock
 import
-shutil
+mozunit
+import
+requests
 try
 :
     
@@ -39,8 +39,8 @@ mozlog
 .
 structuredlog
 import
-set_default_logger
 StructuredLogger
+set_default_logger
 from
 raptor
 .

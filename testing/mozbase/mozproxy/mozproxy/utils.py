@@ -13,10 +13,6 @@ __future__
 import
 absolute_import
 import
-subprocess
-import
-time
-import
 bz2
 import
 gzip
@@ -25,9 +21,18 @@ os
 import
 signal
 import
+socket
+import
+subprocess
+import
 sys
 import
-socket
+time
+from
+redo
+import
+retriable
+retry
 from
 six
 .
@@ -38,11 +43,6 @@ urllib
 request
 import
 urlretrieve
-from
-redo
-import
-retriable
-retry
 try
 :
     
@@ -78,8 +78,8 @@ ProcessHandler
 from
 mozproxy
 import
-mozharness_dir
 mozbase_dir
+mozharness_dir
 LOG
 =
 get_proxy_logger

@@ -2,43 +2,41 @@ from
 __future__
 import
 absolute_import
-unicode_literals
 print_function
+unicode_literals
 import
 os
 import
 sys
 from
-six
-import
-iteritems
-from
-mozbuild
-.
-base
-import
-(
-    
-MachCommandConditions
-as
-conditions
-    
-MozbuildObject
-)
-from
 mach
 .
 decorators
 import
-(
-    
 Command
-)
 from
 mach_commands_base
 import
 WebPlatformTestsRunner
 create_parser_wpt
+from
+mozbuild
+.
+base
+import
+MachCommandConditions
+as
+conditions
+from
+mozbuild
+.
+base
+import
+MozbuildObject
+from
+six
+import
+iteritems
 class
 WebPlatformTestsRunnerSetup
 (
@@ -333,11 +331,11 @@ android_device
 import
 (
                 
+InstallIntent
+                
 get_adb_path
                 
 verify_android_device
-                
-InstallIntent
             
 )
             
@@ -1641,6 +1639,12 @@ tools
         
 )
         
+import
+logging
+        
+import
+manifestupdate
+        
 from
 serve
 import
@@ -1650,12 +1654,6 @@ from
 wptrunner
 import
 wptcommandline
-        
-import
-manifestupdate
-        
-import
-logging
         
 logger
 =
@@ -2159,21 +2157,21 @@ tools
         
 )
         
-from
-wptrunner
 import
-wptcommandline
+logging
+        
+import
+manifestupdate
         
 from
 manifest
 import
 testpaths
         
+from
+wptrunner
 import
-manifestupdate
-        
-import
-logging
+wptcommandline
         
 logger
 =
@@ -2434,10 +2432,10 @@ kwargs
 :
         
 import
-mozlog
+fissionregressions
         
 import
-fissionregressions
+mozlog
         
 src_root
 =
@@ -2489,10 +2487,10 @@ Exception
 :
             
 import
-traceback
+pdb
             
 import
-pdb
+traceback
             
 traceback
 .

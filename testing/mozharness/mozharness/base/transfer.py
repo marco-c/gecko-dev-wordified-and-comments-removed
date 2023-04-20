@@ -35,6 +35,8 @@ urllib
 request
 import
 urlopen
+import
+json
 from
 mozharness
 .
@@ -43,8 +45,6 @@ base
 log
 import
 DEBUG
-import
-json
 class
 TransferMixin
 (

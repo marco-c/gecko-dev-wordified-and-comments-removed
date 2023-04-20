@@ -3,6 +3,12 @@ json
 import
 pytest
 from
+support
+.
+context
+import
+using_context
+from
 tests
 .
 support
@@ -10,12 +16,6 @@ support
 http_request
 import
 HTTPRequest
-from
-support
-.
-context
-import
-using_context
 def
 test_debugger_address_not_set
 (

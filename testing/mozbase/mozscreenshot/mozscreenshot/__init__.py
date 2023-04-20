@@ -6,11 +6,11 @@ print_function
 import
 os
 import
-mozinfo
+subprocess
 import
 tempfile
 import
-subprocess
+mozinfo
 from
 mozlog
 .

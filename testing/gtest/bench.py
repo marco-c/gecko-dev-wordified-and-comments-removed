@@ -5,13 +5,13 @@ absolute_import
 division
 print_function
 import
-sys
-import
-subprocess
-import
 json
 import
 statistics
+import
+subprocess
+import
+sys
 proc
 =
 subprocess

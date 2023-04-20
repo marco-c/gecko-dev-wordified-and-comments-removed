@@ -48,9 +48,9 @@ mozproxy
 .
 utils
 import
+LOG
 download_file_from_url
 tooltool_download
-LOG
 try
 :
     

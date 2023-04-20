@@ -20,8 +20,8 @@ setup_logging
 from
 talos
 import
-utils
 test
+utils
 from
 talos
 .

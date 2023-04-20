@@ -8,11 +8,11 @@ os
 import
 zipfile
 import
+mozprofile
+import
 mozunit
 import
 pytest
-import
-mozprofile
 from
 addon_stubs
 import

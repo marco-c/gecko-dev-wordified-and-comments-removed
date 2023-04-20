@@ -4,6 +4,12 @@ import
 absolute_import
 import
 os
+import
+mozhttpd
+import
+mozunit
+import
+pytest
 from
 six
 .
@@ -14,12 +20,6 @@ urllib
 request
 import
 urlopen
-import
-pytest
-import
-mozhttpd
-import
-mozunit
 def
 log_requests
 (

@@ -5,8 +5,8 @@ absolute_import
 from
 setuptools
 import
-setup
 find_packages
+setup
 PACKAGE_NAME
 =
 "

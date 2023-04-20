@@ -8,13 +8,13 @@ os
 import
 re
 from
-talos
-import
-allowlist
-from
 collections
 import
 OrderedDict
+from
+talos
+import
+allowlist
 SCRIPT_DIR
 =
 os

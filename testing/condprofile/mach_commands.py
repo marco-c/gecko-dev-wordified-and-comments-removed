@@ -5,9 +5,9 @@ absolute_import
 import
 logging
 import
-sys
-import
 os
+import
+sys
 import
 tempfile
 from
@@ -15,8 +15,8 @@ mach
 .
 decorators
 import
-CommandArgument
 Command
+CommandArgument
 from
 mozbuild
 .

@@ -11,9 +11,9 @@ socket
 import
 sys
 import
-six
-import
 webbrowser
+import
+six
 from
 mozlog
 import
@@ -57,9 +57,9 @@ PY2
 :
     
 from
-SocketServer
+urllib
 import
-TCPServer
+quote
     
 from
 SimpleHTTPServer
@@ -67,16 +67,11 @@ import
 SimpleHTTPRequestHandler
     
 from
-urllib
-import
-quote
-else
-:
-    
-from
-socketserver
+SocketServer
 import
 TCPServer
+else
+:
     
 from
 http
@@ -84,6 +79,11 @@ http
 server
 import
 SimpleHTTPRequestHandler
+    
+from
+socketserver
+import
+TCPServer
     
 from
 urllib

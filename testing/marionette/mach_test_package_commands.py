@@ -17,10 +17,7 @@ mach
 .
 decorators
 import
-(
-    
 Command
-)
 parser
 =
 None
@@ -39,8 +36,8 @@ marionette
 .
 runtests
 import
-MarionetteTestRunner
 MarionetteHarness
+MarionetteTestRunner
     
 from
 mozlog

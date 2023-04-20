@@ -4,6 +4,10 @@ import
 absolute_import
 import
 datetime
+import
+os
+import
+time
 from
 unittest
 import
@@ -11,11 +15,9 @@ mock
 import
 mozunit
 import
-os
-import
 pytest
 import
-time
+six
 from
 mozpower
 .
@@ -31,8 +33,6 @@ IPGTimeoutError
     
 IPGUnknownValueTypeError
 )
-import
-six
 def
 thread_is_alive
 (

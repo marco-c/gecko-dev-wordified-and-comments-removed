@@ -1,4 +1,10 @@
 from
+support
+.
+context
+import
+using_context
+from
 tests
 .
 support
@@ -6,12 +12,6 @@ support
 asserts
 import
 assert_success
-from
-support
-.
-context
-import
-using_context
 def
 get_window_handles
 (

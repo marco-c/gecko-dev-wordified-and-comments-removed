@@ -11,11 +11,13 @@ unittest
 import
 mock
 import
+conftest
+import
 mozunit
 import
 pytest
 import
-conftest
+six
 from
 talos
 .
@@ -23,19 +25,19 @@ config
 import
 (
     
-get_active_tests
-    
-get_test
-    
-get_config
-    
-get_browser_config
-    
-get_configs
+DEFAULTS
     
 ConfigurationError
     
-DEFAULTS
+get_active_tests
+    
+get_browser_config
+    
+get_config
+    
+get_configs
+    
+get_test
 )
 from
 talos
@@ -43,8 +45,6 @@ talos
 test
 import
 PageloaderTest
-import
-six
 ORIGINAL_DEFAULTS
 =
 copy

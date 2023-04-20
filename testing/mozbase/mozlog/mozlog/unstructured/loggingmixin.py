@@ -6,12 +6,8 @@ from
 .
 logger
 import
-(
-    
 Logger
-    
 getLogger
-)
 class
 LoggingMixin
 (

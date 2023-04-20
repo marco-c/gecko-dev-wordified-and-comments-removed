@@ -236,9 +236,9 @@ __future__
 import
 absolute_import
 import
-sys
-import
 re
+import
+sys
 if
 sys
 .

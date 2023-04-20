@@ -9,11 +9,11 @@ import
 *
 from
 .
-loglistener
-import
-LogMessageServer
-from
-.
 loggingmixin
 import
 LoggingMixin
+from
+.
+loglistener
+import
+LogMessageServer

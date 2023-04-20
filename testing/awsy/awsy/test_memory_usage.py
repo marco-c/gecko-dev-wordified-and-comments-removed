@@ -7,9 +7,9 @@ os
 import
 sys
 import
-yaml
-import
 mozinfo
+import
+yaml
 from
 marionette_driver
 .

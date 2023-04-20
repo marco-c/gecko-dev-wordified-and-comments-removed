@@ -11,9 +11,9 @@ json
 import
 os
 import
-sys
-import
 subprocess
+import
+sys
 sys
 .
 path
@@ -85,10 +85,9 @@ mozilla
 .
 testing
 .
-testbase
+codecoverage
 import
-TestingMixin
-testing_config_options
+CodeCoverageMixin
 from
 mozharness
 .
@@ -96,9 +95,10 @@ mozilla
 .
 testing
 .
-codecoverage
+testbase
 import
-CodeCoverageMixin
+TestingMixin
+testing_config_options
 SUITE_DEFAULT_E10S
 =
 [

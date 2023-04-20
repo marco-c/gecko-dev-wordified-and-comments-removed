@@ -17,9 +17,9 @@ sys
 import
 tempfile
 import
-zipfile
-import
 uuid
+import
+zipfile
 import
 mozinfo
 from
@@ -29,12 +29,8 @@ base
 .
 script
 import
-(
-    
-PreScriptAction
-    
 PostScriptAction
-)
+PreScriptAction
 from
 mozharness
 .

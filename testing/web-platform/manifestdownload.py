@@ -4,19 +4,19 @@ import
 absolute_import
 import
 os
+import
+tarfile
 from
 datetime
 import
 datetime
 timedelta
 import
-tarfile
+mozversioncontrol
 import
 requests
 import
 six
-import
-mozversioncontrol
 try
 :
     

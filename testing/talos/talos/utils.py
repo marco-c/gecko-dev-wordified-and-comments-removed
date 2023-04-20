@@ -18,18 +18,18 @@ import
 platform
 import
 re
-from
-sys
-import
-stdout
-import
-urllib
-.
-parse
 import
 string
 import
 time
+import
+urllib
+.
+parse
+from
+sys
+import
+stdout
 try
 :
     

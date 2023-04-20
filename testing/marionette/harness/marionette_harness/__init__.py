@@ -19,9 +19,11 @@ import
     
 CommonTestCase
     
-expectedFailure
-    
 MarionetteTestCase
+    
+SkipTest
+    
+expectedFailure
     
 parameterized
     
@@ -32,8 +34,6 @@ skip
 skip_if_chrome
     
 skip_if_desktop
-    
-SkipTest
     
 skip_unless_browser_pref
     

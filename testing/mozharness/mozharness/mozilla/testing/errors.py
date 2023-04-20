@@ -79,9 +79,9 @@ base
 .
 log
 import
+ERROR
 INFO
 WARNING
-ERROR
 _mochitest_summary
 =
 {

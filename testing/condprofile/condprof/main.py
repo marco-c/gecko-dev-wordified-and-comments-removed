@@ -15,9 +15,9 @@ __future__
 import
 absolute_import
 import
-os
-import
 argparse
+import
+os
 import
 sys
 if

@@ -16,8 +16,8 @@ mozlog
 .
 structuredlog
 import
-set_default_logger
 StructuredLogger
+set_default_logger
 here
 =
 os

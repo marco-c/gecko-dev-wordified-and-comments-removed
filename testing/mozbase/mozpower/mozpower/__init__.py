@@ -20,14 +20,9 @@ from
 .
 mozpower
 import
-(
-    
 MissingProcessorInfoError
-    
 MozPower
-    
 OsCpuComboMissingError
-)
 from
 .
 powerbase

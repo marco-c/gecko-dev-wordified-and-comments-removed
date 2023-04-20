@@ -16,11 +16,11 @@ print_function
 import
 difflib
 import
-profile
-import
 optparse
 import
 os
+import
+profile
 import
 sys
 __all__

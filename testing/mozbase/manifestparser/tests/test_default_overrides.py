@@ -12,9 +12,6 @@ from
 manifestparser
 import
 ManifestParser
-from
-manifestparser
-import
 combine_fields
 here
 =

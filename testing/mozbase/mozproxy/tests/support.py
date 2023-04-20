@@ -4,9 +4,9 @@ import
 absolute_import
 print_function
 import
-shutil
-import
 contextlib
+import
+shutil
 import
 tempfile
 contextlib

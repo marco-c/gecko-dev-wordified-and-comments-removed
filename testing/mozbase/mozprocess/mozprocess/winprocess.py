@@ -2,8 +2,8 @@ from
 __future__
 import
 absolute_import
-unicode_literals
 print_function
+unicode_literals
 import
 subprocess
 import
@@ -13,25 +13,25 @@ ctypes
 import
 (
     
-cast
+POINTER
     
-create_unicode_buffer
+WINFUNCTYPE
+    
+Structure
+    
+WinError
     
 c_ulong
     
 c_void_p
     
-POINTER
+cast
+    
+create_unicode_buffer
     
 sizeof
     
-Structure
-    
 windll
-    
-WinError
-    
-WINFUNCTYPE
 )
 from
 ctypes

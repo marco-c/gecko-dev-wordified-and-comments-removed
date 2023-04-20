@@ -15,8 +15,8 @@ mozunit
 from
 manifestparser
 import
-TestManifest
 ParseError
+TestManifest
 from
 manifestparser
 .

@@ -14,37 +14,39 @@ os
 import
 sys
 from
-mozlog
+multiprocessing
 import
-structured
-from
-mozbuild
-.
-base
-import
-(
-    
-MozbuildObject
-    
-MachCommandConditions
-as
-conditions
-    
-BinaryNotFoundException
-)
+cpu_count
 from
 mach
 .
 decorators
 import
-(
-    
 Command
-)
 from
-multiprocessing
+mozbuild
+.
+base
 import
-cpu_count
+BinaryNotFoundException
+from
+mozbuild
+.
+base
+import
+MachCommandConditions
+as
+conditions
+from
+mozbuild
+.
+base
+import
+MozbuildObject
+from
+mozlog
+import
+structured
 from
 xpcshellcommandline
 import
@@ -1692,11 +1694,11 @@ android_device
 import
 (
             
-verify_android_device
+InstallIntent
             
 get_adb_path
             
-InstallIntent
+verify_android_device
         
 )
         

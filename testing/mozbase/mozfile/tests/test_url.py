@@ -13,12 +13,12 @@ import
 absolute_import
 import
 unittest
+import
+mozunit
 from
 mozfile
 import
 is_url
-import
-mozunit
 class
 TestIsUrl
 (

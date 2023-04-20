@@ -17,11 +17,11 @@ powerbase
 import
 (
     
-PowerBase
-    
 IPGExecutableMissingError
     
 PlatformUnsupportedError
+    
+PowerBase
 )
 def
 test_powerbase_intialization
