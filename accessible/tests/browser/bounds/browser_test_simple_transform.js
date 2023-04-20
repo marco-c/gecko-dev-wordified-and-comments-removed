@@ -758,7 +758,7 @@ const
 tree
 =
 {
-SECTION
+TEXT_CONTAINER
 :
 [
 {
@@ -919,7 +919,7 @@ should
 not
 be
 a
-section
+div
 accessible
 .
 "
@@ -997,7 +997,7 @@ const
 tree
 =
 {
-SECTION
+TEXT_CONTAINER
 :
 [
 {
