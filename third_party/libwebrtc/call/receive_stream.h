@@ -156,7 +156,7 @@ ReceiveStreamInterface
 }
 ;
 class
-MediaReceiveStream
+MediaReceiveStreamInterface
 :
 public
 ReceiveStreamInterface

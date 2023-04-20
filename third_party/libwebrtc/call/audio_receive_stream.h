@@ -118,7 +118,7 @@ class
 AudioReceiveStream
 :
 public
-MediaReceiveStream
+MediaReceiveStreamInterface
 {
 public
 :
