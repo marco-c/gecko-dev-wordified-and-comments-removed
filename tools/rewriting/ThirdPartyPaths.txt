@@ -1123,11 +1123,7 @@ mobile
 /
 android
 /
-geckoview
-/
-src
-/
-thirdparty
+exoplayer2
 /
 modules
 /
