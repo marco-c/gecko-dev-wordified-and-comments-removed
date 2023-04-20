@@ -7330,13 +7330,10 @@ indexOfOldRangeToKeep
 ]
 -
 >
-GetSelection
+IsInSelection
 (
-)
-=
-=
-&
 aSpellCheckerSelection
+)
 )
 {
 MOZ_LOG

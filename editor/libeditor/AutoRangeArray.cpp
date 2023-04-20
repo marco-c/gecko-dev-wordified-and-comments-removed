@@ -2545,7 +2545,7 @@ MOZ_ASSERT
 range
 -
 >
-IsInSelection
+IsInAnySelection
 (
 )
 "
@@ -4631,7 +4631,7 @@ MOZ_ASSERT
 range
 -
 >
-IsInSelection
+IsInAnySelection
 (
 )
 )

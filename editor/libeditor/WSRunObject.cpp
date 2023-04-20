@@ -21801,7 +21801,7 @@ MOZ_ASSERT
 !
 aRange
 .
-IsInSelection
+IsInAnySelection
 (
 )
 "
