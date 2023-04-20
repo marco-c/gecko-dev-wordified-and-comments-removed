@@ -813,6 +813,10 @@ fuse
 ld
 =
 lld
+-
+DLLVM_ENABLE_TERMINFO
+=
+OFF
 "
 ;
 ;
