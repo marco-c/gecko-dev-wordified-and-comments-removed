@@ -285,7 +285,8 @@ widget
 and
 call
 the
-destructor
+teardown
+method
 later
 on
 .
@@ -316,7 +317,7 @@ the
 UAWidgetsChild
 calls
 the
-destructor
+teardown
 (
 )
 method
@@ -383,7 +384,7 @@ state
 toggled
 by
 the
-destructor
+teardown
 .
 When
 a
@@ -427,7 +428,7 @@ i
 e
 .
 the
-destructor
+teardown
 method
 is
 called

@@ -700,7 +700,7 @@ stroke
 ;
 }
 }
-destructor
+teardown
 (
 )
 {

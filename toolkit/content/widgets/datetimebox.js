@@ -122,7 +122,7 @@ aDestroy
 {
 this
 .
-destructor
+teardown
 (
 )
 ;
@@ -194,7 +194,7 @@ local
 "
 ;
 }
-destructor
+teardown
 (
 )
 {
