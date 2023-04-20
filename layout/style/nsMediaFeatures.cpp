@@ -588,7 +588,7 @@ size
 height
 ;
 }
-uint32_t
+int32_t
 Gecko_MediaFeatures_GetMonochromeBitsPerPixel
 (
 const
@@ -599,7 +599,7 @@ aDocument
 {
 static
 constexpr
-uint32_t
+int32_t
 kDefaultMonochromeBpp
 =
 8
@@ -729,7 +729,7 @@ return
 colorGamut
 ;
 }
-uint32_t
+int32_t
 Gecko_MediaFeatures_GetColorDepth
 (
 const
@@ -753,7 +753,7 @@ return
 0
 ;
 }
-uint32_t
+int32_t
 depth
 =
 24
