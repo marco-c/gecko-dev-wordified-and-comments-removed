@@ -10,7 +10,7 @@ TestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ common
 /
 TestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -34,7 +36,7 @@ XPCShellContentUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +49,9 @@ common
 /
 XPCShellContentUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
