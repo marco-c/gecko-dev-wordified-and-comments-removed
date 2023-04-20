@@ -345,7 +345,7 @@ present
 )
 ;
 await
-testBoundsInContent
+testBoundsWithContent
 (
 iframeDocAcc
 ELEM_ID
