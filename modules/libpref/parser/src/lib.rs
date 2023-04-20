@@ -143,6 +143,7 @@ c_char
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
