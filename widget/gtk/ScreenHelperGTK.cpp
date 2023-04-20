@@ -2744,7 +2744,10 @@ return
 }
 RefPtr
 <
-nsIScreen
+widget
+:
+:
+Screen
 >
 ScreenGetterWayland
 :
@@ -2842,7 +2845,10 @@ monitor
 endif
 RefPtr
 <
-nsIScreen
+widget
+:
+:
+Screen
 >
 ScreenHelperGTK
 :

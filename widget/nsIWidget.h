@@ -309,9 +309,6 @@ class
 ViewWrapper
 ;
 class
-nsIScreen
-;
-class
 nsIRunnable
 ;
 namespace
@@ -423,6 +420,9 @@ CompositorWidget
 ;
 class
 CompositorWidgetInitData
+;
+class
+Screen
 ;
 }
 namespace
@@ -1383,6 +1383,17 @@ widget
 :
 :
 TransparencyMode
+;
+using
+Screen
+=
+mozilla
+:
+:
+widget
+:
+:
+Screen
 ;
 struct
 ThemeGeometry
@@ -2637,7 +2648,7 @@ CleanupFullscreenTransition
 virtual
 already_AddRefed
 <
-nsIScreen
+Screen
 >
 GetWidgetScreen
 (

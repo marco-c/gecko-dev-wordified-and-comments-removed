@@ -22,6 +22,9 @@ TypedEnumBits
 .
 h
 "
+#
+undef
+None
 namespace
 mozilla
 :

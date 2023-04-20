@@ -618,6 +618,13 @@ CurrentX11TimeGetter
 ;
 #
 endif
+namespace
+widget
+{
+class
+Screen
+;
+}
 }
 class
 nsWindow
@@ -1107,7 +1114,7 @@ override
 ;
 already_AddRefed
 <
-nsIScreen
+Screen
 >
 GetWidgetScreen
 (
