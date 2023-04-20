@@ -166,6 +166,11 @@ super
 path
 :
 null
+sanitizedBasename
+:
+"
+GeckoViewStorage
+"
 }
 )
 ;
