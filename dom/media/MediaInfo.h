@@ -1861,6 +1861,15 @@ Maybe
 gfx
 :
 :
+ColorSpace2
+>
+mColorPrimaries
+;
+Maybe
+<
+gfx
+:
+:
 TransferFunction
 >
 mTransferFunction

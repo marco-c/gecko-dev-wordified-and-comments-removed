@@ -469,6 +469,15 @@ const
 gfx
 :
 :
+ColorSpace2
+GetFrameColorPrimaries
+(
+)
+const
+;
+gfx
+:
+:
 ColorRange
 GetFrameColorRange
 (
