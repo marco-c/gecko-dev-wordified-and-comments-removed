@@ -828,7 +828,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-OTHER_NETWORK
+ADDON
 .
 .
 .
@@ -1016,7 +1016,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-OTHER_NETWORK
+ADDON
 .
 .
 .

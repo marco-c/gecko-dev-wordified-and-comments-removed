@@ -5519,6 +5519,15 @@ RESULT_SOURCE
 .
 OTHER_LOCAL
 :
+case
+lazy
+.
+UrlbarUtils
+.
+RESULT_SOURCE
+.
+ADDON
+:
 default
 :
 if

@@ -951,6 +951,9 @@ OTHER_NETWORK
 ACTIONS
 :
 7
+ADDON
+:
+8
 }
 /
 /
