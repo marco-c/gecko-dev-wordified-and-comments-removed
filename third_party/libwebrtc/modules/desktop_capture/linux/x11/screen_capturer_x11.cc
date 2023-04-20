@@ -996,6 +996,12 @@ UpdateMonitors
 (
 )
 {
+queue_
+.
+Reset
+(
+)
+;
 if
 (
 monitors_
