@@ -2488,18 +2488,6 @@ newInstance
 (
 )
 {
-#
-if
-defined
-(
-SOUNDTOUCH_ALLOW_MMX
-)
-|
-|
-defined
-(
-SOUNDTOUCH_ALLOW_SSE
-)
 uint
 uExtensions
 ;
@@ -2509,8 +2497,6 @@ detectCPUextensions
 (
 )
 ;
-#
-endif
 #
 ifdef
 SOUNDTOUCH_ALLOW_MMX
