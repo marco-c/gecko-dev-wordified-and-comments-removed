@@ -2972,7 +2972,7 @@ android
 -
 hw
 -
-p2
+p5
 -
 debug
 :
@@ -2984,7 +2984,7 @@ wrench
 reftests
 on
 Android
-Pixel2
+Pixel5
 attributes
 :
 build_platform
@@ -3002,7 +3002,7 @@ gw
 -
 unit
 -
-p2
+p5
 worker
 :
 max
@@ -3217,9 +3217,9 @@ android
 -
 hw
 -
-p2
+p5
 -
-8
+13
 -
 0
 -
@@ -3289,7 +3289,7 @@ android
 -
 hw
 -
-p2
+p5
 -
 opt
 :
@@ -3301,7 +3301,7 @@ wrench
 reftests
 on
 Android
-Pixel2
+Pixel5
 attributes
 :
 build_platform
@@ -3319,7 +3319,7 @@ gw
 -
 unit
 -
-p2
+p5
 worker
 :
 max
@@ -3534,9 +3534,9 @@ android
 -
 hw
 -
-p2
+p5
 -
-8
+13
 -
 0
 -
