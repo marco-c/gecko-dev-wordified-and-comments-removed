@@ -7722,10 +7722,7 @@ v
 }
 \
 static
-mozilla
-:
-:
-Maybe
+ReadResult
 <
 paramType
 >
@@ -7747,10 +7744,7 @@ ByteBuf
 in
 ;
 \
-mozilla
-:
-:
-Maybe
+ReadResult
 <
 paramType
 >
@@ -7837,9 +7831,7 @@ result
 }
 \
 result
-.
-emplace
-(
+=
 std
 :
 :
@@ -7850,7 +7842,6 @@ value
 .
 addr
 (
-)
 )
 )
 ;
