@@ -1422,6 +1422,14 @@ bool
 ?
 printLandscape
 ;
+float
+?
+pageWidth
+;
+float
+?
+pageHeight
+;
 }
 ;
 [

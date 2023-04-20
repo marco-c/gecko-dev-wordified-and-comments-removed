@@ -532,6 +532,13 @@ infallible
 ]
 attribute
 boolean
+usePageRuleSizeAsPaperSize
+;
+[
+infallible
+]
+attribute
+boolean
 ignoreUnwriteableMargins
 ;
 [

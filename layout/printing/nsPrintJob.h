@@ -806,6 +806,15 @@ bool
 >
 mMaybeCSSPageLandscape
 ;
+mozilla
+:
+:
+Maybe
+<
+nsSize
+>
+mMaybeCSSPageSize
+;
 bool
 mPreparingForPrint
 =
