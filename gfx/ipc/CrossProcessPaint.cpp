@@ -1507,7 +1507,7 @@ promise
 >
 Then
 (
-GetCurrentSerialEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 __func__
