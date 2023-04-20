@@ -97,6 +97,10 @@ storage
 /
 resources
 /
+shared
+-
+storage
+-
 permissions
 -
 policy
@@ -150,6 +154,7 @@ shared
 storage
 =
 (
+self
 )
 '
 ;
@@ -168,7 +173,7 @@ AreSharedStorageMethodsAllowedByPermissionsPolicy
 (
 )
 ;
-assert_false
+assert_true
 (
 allowed
 )
@@ -177,7 +182,7 @@ allowed
 header
 +
 '
-disallows
+allows
 sharedStorage
 in
 the
@@ -202,14 +207,14 @@ storage
 '
 t
 same_origin_src
-expect_feature_unavailable_default
+expect_feature_available_default
 )
 ;
 }
 header
 +
 '
-disallows
+allows
 sharedStorage
 in
 same
