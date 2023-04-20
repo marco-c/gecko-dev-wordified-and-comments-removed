@@ -1035,6 +1035,11 @@ pause_after_test
 =
 False
                  
+reftest_screenshot
+=
+"
+unexpected
+"
 *
 *
 kwargs
@@ -1060,6 +1065,10 @@ timeout_multiplier
 debug_info
 =
 debug_info
+                                     
+reftest_screenshot
+=
+reftest_screenshot
 )
         
 self
@@ -1077,6 +1086,12 @@ self
 screenshot_cache
 =
 screenshot_cache
+        
+self
+.
+reftest_screenshot
+=
+reftest_screenshot
         
 self
 .
