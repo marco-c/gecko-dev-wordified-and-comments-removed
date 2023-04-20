@@ -313,14 +313,6 @@ aMallocSizeOf
 const
 ;
 void
-SetWindow
-(
-nsPIDOMWindowInner
-*
-aInnerWindow
-)
-;
-void
 OnNavigation
 (
 )
