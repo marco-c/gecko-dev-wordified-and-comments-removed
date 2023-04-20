@@ -1291,10 +1291,15 @@ ENOMEM
 break
 ;
 }
-needed
-+
+size_t
+increased
 =
 needed
+;
+increased
++
+=
+increased
 /
 8
 ;
@@ -1308,7 +1313,7 @@ char
 ]
 >
 (
-needed
+increased
 )
 ;
 memcpy
@@ -1335,6 +1340,10 @@ move
 (
 tmp
 )
+;
+needed
+=
+increased
 ;
 }
 if
