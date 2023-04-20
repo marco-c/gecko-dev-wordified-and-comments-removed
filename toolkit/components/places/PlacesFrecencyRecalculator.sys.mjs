@@ -1269,6 +1269,13 @@ moz_updateoriginsupdate_temp
 }
 )
 ;
+if
+(
+affected
+.
+length
+)
+{
 PlacesObservers
 .
 notifyListeners
@@ -1281,6 +1288,7 @@ PlacesRanking
 ]
 )
 ;
+}
 if
 (
 affected
