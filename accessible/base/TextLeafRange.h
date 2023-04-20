@@ -638,6 +638,12 @@ mEnd
 aEnd
 ;
 }
+LayoutDeviceIntRect
+Bounds
+(
+)
+const
+;
 private
 :
 TextLeafPoint
