@@ -69,7 +69,7 @@ include
 "
 pc
 /
-stats_collector_interface
+legacy_stats_collector_interface
 .
 h
 "
@@ -153,9 +153,9 @@ usage_pattern
 PeerConnectionObserver
 *
 observer
-StatsCollectorInterface
+LegacyStatsCollectorInterface
 *
-stats
+legacy_stats
 std
 :
 :
@@ -184,9 +184,9 @@ observer_
 (
 observer
 )
-stats_
+legacy_stats_
 (
-stats
+legacy_stats
 )
 on_negotiation_needed_
 (
@@ -1389,7 +1389,7 @@ worker_thread
 (
 )
 id
-stats_
+legacy_stats_
 this
 )
 )

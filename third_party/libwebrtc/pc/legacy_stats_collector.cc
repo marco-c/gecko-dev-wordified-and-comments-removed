@@ -3,7 +3,7 @@ include
 "
 pc
 /
-stats_collector
+legacy_stats_collector
 .
 h
 "
@@ -2913,7 +2913,7 @@ StatsReport
 Id
 &
 transport_id
-StatsCollector
+LegacyStatsCollector
 *
 collector
 StatsReport
@@ -3243,10 +3243,10 @@ return
 ;
 }
 }
-StatsCollector
+LegacyStatsCollector
 :
 :
-StatsCollector
+LegacyStatsCollector
 (
 PeerConnectionInternal
 *
@@ -3282,11 +3282,11 @@ pc_
 )
 ;
 }
-StatsCollector
+LegacyStatsCollector
 :
 :
 ~
-StatsCollector
+LegacyStatsCollector
 (
 )
 {
@@ -3302,7 +3302,7 @@ signaling_thread
 ;
 }
 double
-StatsCollector
+LegacyStatsCollector
 :
 :
 GetTimeNow
@@ -3325,7 +3325,7 @@ TimeUTCMillis
 ;
 }
 void
-StatsCollector
+LegacyStatsCollector
 :
 :
 AddStream
@@ -3389,7 +3389,7 @@ track_ids_
 ;
 }
 void
-StatsCollector
+LegacyStatsCollector
 :
 :
 AddTrack
@@ -3482,7 +3482,7 @@ kind
 }
 }
 void
-StatsCollector
+LegacyStatsCollector
 :
 :
 AddLocalAudioTrack
@@ -3628,7 +3628,7 @@ id
 }
 }
 void
-StatsCollector
+LegacyStatsCollector
 :
 :
 RemoveLocalAudioTrack
@@ -3708,7 +3708,7 @@ end
 ;
 }
 void
-StatsCollector
+LegacyStatsCollector
 :
 :
 GetStats
@@ -3955,7 +3955,7 @@ r
 }
 }
 void
-StatsCollector
+LegacyStatsCollector
 :
 :
 UpdateStats
@@ -4065,7 +4065,7 @@ UpdateTrackReports
 }
 StatsReport
 *
-StatsCollector
+LegacyStatsCollector
 :
 :
 PrepareReport
@@ -4226,7 +4226,7 @@ report
 }
 StatsReport
 *
-StatsCollector
+LegacyStatsCollector
 :
 :
 PrepareADMReport
@@ -4283,7 +4283,7 @@ report
 ;
 }
 bool
-StatsCollector
+LegacyStatsCollector
 :
 :
 IsValidTrack
@@ -4321,7 +4321,7 @@ nullptr
 }
 StatsReport
 *
-StatsCollector
+LegacyStatsCollector
 :
 :
 AddCertificateReports
@@ -4509,7 +4509,7 @@ first_report
 }
 StatsReport
 *
-StatsCollector
+LegacyStatsCollector
 :
 :
 AddConnectionInfoReport
@@ -4954,7 +4954,7 @@ report
 }
 StatsReport
 *
-StatsCollector
+LegacyStatsCollector
 :
 :
 AddCandidateReport
@@ -5270,7 +5270,7 @@ std
 :
 string
 >
-StatsCollector
+LegacyStatsCollector
 :
 :
 ExtractSessionInfo
@@ -5283,7 +5283,7 @@ TRACE_EVENT0
 webrtc
 "
 "
-StatsCollector
+LegacyStatsCollector
 :
 :
 ExtractSessionInfo
@@ -5391,11 +5391,11 @@ transport_names_by_mid
 )
 ;
 }
-StatsCollector
+LegacyStatsCollector
 :
 :
 SessionStats
-StatsCollector
+LegacyStatsCollector
 :
 :
 ExtractSessionInfo_n
@@ -5449,7 +5449,7 @@ TRACE_EVENT0
 webrtc
 "
 "
-StatsCollector
+LegacyStatsCollector
 :
 :
 ExtractSessionInfo_n
@@ -5765,7 +5765,7 @@ stats
 ;
 }
 void
-StatsCollector
+LegacyStatsCollector
 :
 :
 ExtractSessionInfo_s
@@ -6287,7 +6287,7 @@ id
 }
 }
 void
-StatsCollector
+LegacyStatsCollector
 :
 :
 ExtractBweInfo
@@ -6576,7 +6576,7 @@ virtual
 void
 ExtractStats
 (
-StatsCollector
+LegacyStatsCollector
 *
 collector
 )
@@ -6643,7 +6643,7 @@ SenderT
 void
 ExtractSenderReceiverStats
 (
-StatsCollector
+LegacyStatsCollector
 *
 collector
 const
@@ -6770,7 +6770,7 @@ true
 void
 ExtractStats
 (
-StatsCollector
+LegacyStatsCollector
 *
 collector
 )
@@ -6918,7 +6918,7 @@ video_media_info
 void
 ExtractStats
 (
-StatsCollector
+LegacyStatsCollector
 *
 collector
 )
@@ -7068,7 +7068,7 @@ channel
 }
 }
 void
-StatsCollector
+LegacyStatsCollector
 :
 :
 ExtractMediaInfo
@@ -7603,7 +7603,7 @@ has_remote_audio
 ;
 }
 void
-StatsCollector
+LegacyStatsCollector
 :
 :
 ExtractSenderInfo
@@ -7810,7 +7810,7 @@ input_height
 }
 }
 void
-StatsCollector
+LegacyStatsCollector
 :
 :
 ExtractDataInfo
@@ -7979,7 +7979,7 @@ state
 }
 StatsReport
 *
-StatsCollector
+LegacyStatsCollector
 :
 :
 GetReport
@@ -8053,7 +8053,7 @@ direction
 ;
 }
 void
-StatsCollector
+LegacyStatsCollector
 :
 :
 UpdateStatsFromExistingLocalAudioTracks
@@ -8210,7 +8210,7 @@ has_remote_tracks
 }
 }
 void
-StatsCollector
+LegacyStatsCollector
 :
 :
 UpdateReportFromAudioTrack
@@ -8322,7 +8322,7 @@ apm_statistics
 }
 }
 void
-StatsCollector
+LegacyStatsCollector
 :
 :
 UpdateTrackReports
@@ -8377,7 +8377,7 @@ stats_gathering_started_
 }
 }
 void
-StatsCollector
+LegacyStatsCollector
 :
 :
 InvalidateCache

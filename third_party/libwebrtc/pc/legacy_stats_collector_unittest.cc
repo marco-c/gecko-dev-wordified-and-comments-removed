@@ -3,7 +3,7 @@ include
 "
 pc
 /
-stats_collector
+legacy_stats_collector
 .
 h
 "
@@ -3768,22 +3768,22 @@ decoding_codec_plc
 ;
 }
 class
-StatsCollectorForTest
+LegacyStatsCollectorForTest
 :
 public
-StatsCollector
+LegacyStatsCollector
 {
 public
 :
 explicit
-StatsCollectorForTest
+LegacyStatsCollectorForTest
 (
 PeerConnectionInternal
 *
 pc
 )
 :
-StatsCollector
+LegacyStatsCollector
 (
 pc
 )
@@ -3811,7 +3811,7 @@ time_now_
 }
 ;
 class
-StatsCollectorTest
+LegacyStatsCollectorTest
 :
 public
 :
@@ -3851,7 +3851,7 @@ std
 :
 unique_ptr
 <
-StatsCollectorForTest
+LegacyStatsCollectorForTest
 >
 CreateStatsCollector
 (
@@ -3866,7 +3866,7 @@ std
 :
 make_unique
 <
-StatsCollectorForTest
+LegacyStatsCollectorForTest
 >
 (
 pc
@@ -3879,7 +3879,7 @@ VerifyAudioTrackStats
 FakeAudioTrack
 *
 audio_track
-StatsCollectorForTest
+LegacyStatsCollectorForTest
 *
 stats
 const
@@ -4960,7 +4960,7 @@ class
 StatsCollectorTrackTest
 :
 public
-StatsCollectorTest
+LegacyStatsCollectorTest
 public
 :
 :
@@ -4980,7 +4980,7 @@ AddOutgoingVideoTrack
 FakePeerConnectionForStats
 *
 pc
-StatsCollectorForTest
+LegacyStatsCollectorForTest
 *
 stats
 )
@@ -5091,7 +5091,7 @@ AddIncomingVideoTrack
 FakePeerConnectionForStats
 *
 pc
-StatsCollectorForTest
+LegacyStatsCollectorForTest
 *
 stats
 )
@@ -5203,7 +5203,7 @@ AddOutgoingAudioTrack
 FakePeerConnectionForStats
 *
 pc
-StatsCollectorForTest
+LegacyStatsCollectorForTest
 *
 stats
 )
@@ -5303,7 +5303,7 @@ AddIncomingAudioTrack
 FakePeerConnectionForStats
 *
 pc
-StatsCollectorForTest
+LegacyStatsCollectorForTest
 *
 stats
 )
@@ -5459,7 +5459,7 @@ audio_track_
 ;
 TEST_F
 (
-StatsCollectorTest
+LegacyStatsCollectorTest
 FilterOutNegativeDataChannelId
 )
 {
@@ -5554,7 +5554,7 @@ value_in_report
 }
 TEST_F
 (
-StatsCollectorTest
+LegacyStatsCollectorTest
 ExtractDataInfo
 )
 {
@@ -6440,7 +6440,7 @@ kStatsValueNameBucketDelay
 }
 TEST_F
 (
-StatsCollectorTest
+LegacyStatsCollectorTest
 SessionObjectExists
 )
 {
@@ -6503,7 +6503,7 @@ kStatsReportTypeSession
 }
 TEST_F
 (
-StatsCollectorTest
+LegacyStatsCollectorTest
 OnlyOneSessionObjectExists
 )
 {
@@ -7728,7 +7728,7 @@ track_id
 }
 TEST_F
 (
-StatsCollectorTest
+LegacyStatsCollectorTest
 IceCandidateReport
 )
 {
@@ -8347,7 +8347,7 @@ kStatsValueNameCandidateNetworkType
 }
 TEST_F
 (
-StatsCollectorTest
+LegacyStatsCollectorTest
 ChainedCertificateReportsCreated
 )
 {
@@ -8498,7 +8498,7 @@ remote_ders
 }
 TEST_F
 (
-StatsCollectorTest
+LegacyStatsCollectorTest
 ChainlessCertificateReportsCreated
 )
 {
@@ -8595,7 +8595,7 @@ remote_der
 }
 TEST_F
 (
-StatsCollectorTest
+LegacyStatsCollectorTest
 NoTransport
 )
 {
@@ -8758,7 +8758,7 @@ srtp_crypto_suite
 }
 TEST_F
 (
-StatsCollectorTest
+LegacyStatsCollectorTest
 UnsupportedDigestIgnored
 )
 {

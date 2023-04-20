@@ -1514,9 +1514,9 @@ return
 nullptr
 ;
 }
-StatsCollector
+LegacyStatsCollector
 *
-stats
+legacy_stats
 (
 )
 override

@@ -99,7 +99,7 @@ class
 DataChannelController
 ;
 class
-StatsCollector
+LegacyStatsCollector
 ;
 class
 PeerConnectionSdpMethods
@@ -298,9 +298,9 @@ port_allocator
 0
 ;
 virtual
-StatsCollector
+LegacyStatsCollector
 *
-stats
+legacy_stats
 (
 )
 =

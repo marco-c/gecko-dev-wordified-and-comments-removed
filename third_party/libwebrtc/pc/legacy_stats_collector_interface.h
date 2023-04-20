@@ -1,9 +1,9 @@
 #
 ifndef
-PC_STATS_COLLECTOR_INTERFACE_H_
+PC_LEGACY_STATS_COLLECTOR_INTERFACE_H_
 #
 define
-PC_STATS_COLLECTOR_INTERFACE_H_
+PC_LEGACY_STATS_COLLECTOR_INTERFACE_H_
 #
 include
 <
@@ -33,13 +33,13 @@ namespace
 webrtc
 {
 class
-StatsCollectorInterface
+LegacyStatsCollectorInterface
 {
 public
 :
 virtual
 ~
-StatsCollectorInterface
+LegacyStatsCollectorInterface
 (
 )
 {
