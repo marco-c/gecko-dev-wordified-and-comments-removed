@@ -8590,12 +8590,8 @@ threading
 .
 /
 rtc_base
-/
-third_party
-/
-sigslot
 :
-sigslot
+weak_ptr
 "
 ]
 absl_deps
