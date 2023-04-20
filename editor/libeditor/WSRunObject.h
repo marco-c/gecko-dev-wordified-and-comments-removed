@@ -5297,7 +5297,7 @@ MOZ_CAN_RUN_SCRIPT
 static
 Result
 <
-EditorDOMPoint
+InsertTextResult
 nsresult
 >
 InsertText
@@ -5339,7 +5339,7 @@ MOZ_CAN_RUN_SCRIPT
 static
 Result
 <
-EditorDOMPoint
+InsertTextResult
 nsresult
 >
 ReplaceText
