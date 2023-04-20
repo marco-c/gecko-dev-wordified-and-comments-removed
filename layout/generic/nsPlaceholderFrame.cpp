@@ -621,7 +621,7 @@ return
 nsIFrame
 :
 :
-kAbsoluteList
+kPopupList
 ;
 }
 if
