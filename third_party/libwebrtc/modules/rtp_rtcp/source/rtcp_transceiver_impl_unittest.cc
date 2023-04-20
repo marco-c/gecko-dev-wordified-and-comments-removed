@@ -51,17 +51,6 @@ include
 "
 api
 /
-task_queue
-/
-to_queued_task
-.
-h
-"
-#
-include
-"
-api
-/
 test
 /
 create_time_controller
@@ -1238,8 +1227,6 @@ queue
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 rtcp_transceiver
 &
@@ -1261,7 +1248,6 @@ done
 true
 ;
 }
-)
 )
 ;
 ASSERT_TRUE
@@ -1346,8 +1332,6 @@ queue
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 &
 ]
@@ -1369,7 +1353,6 @@ done
 true
 ;
 }
-)
 )
 ;
 ASSERT_TRUE
@@ -1555,8 +1538,6 @@ queue
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 &
 ]
@@ -1569,7 +1550,6 @@ config
 )
 ;
 }
-)
 )
 ;
 EXPECT_TRUE
@@ -1603,8 +1583,6 @@ queue
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 &
 ]
@@ -1627,7 +1605,6 @@ done
 true
 ;
 }
-)
 )
 ;
 ASSERT_TRUE
@@ -1743,8 +1720,6 @@ queue
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 &
 ]
@@ -1763,7 +1738,6 @@ config
 )
 ;
 }
-)
 )
 ;
 EXPECT_TRUE
@@ -1811,8 +1785,6 @@ queue
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 &
 ]
@@ -1835,7 +1807,6 @@ done
 true
 ;
 }
-)
 )
 ;
 ASSERT_TRUE
@@ -1941,8 +1912,6 @@ queue
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 &
 ]
@@ -1955,7 +1924,6 @@ config
 )
 ;
 }
-)
 )
 ;
 EXPECT_TRUE
@@ -1987,8 +1955,6 @@ queue
 >
 PostDelayedTask
 (
-ToQueuedTask
-(
 [
 &
 ]
@@ -2011,18 +1977,11 @@ non_periodic
 true
 ;
 }
-)
-(
 config
 .
 report_period
 /
 2
-)
-.
-ms
-(
-)
 )
 ;
 EXPECT_TRUE
@@ -2090,8 +2049,6 @@ queue
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 &
 ]
@@ -2114,7 +2071,6 @@ done
 true
 ;
 }
-)
 )
 ;
 ASSERT_TRUE
@@ -2485,8 +2441,6 @@ queue
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 &
 ]
@@ -2500,7 +2454,6 @@ true
 )
 ;
 }
-)
 )
 ;
 EXPECT_TRUE
@@ -2521,8 +2474,6 @@ queue
 -
 >
 PostTask
-(
-ToQueuedTask
 (
 [
 &
@@ -2546,7 +2497,6 @@ done
 true
 ;
 }
-)
 )
 ;
 ASSERT_TRUE
