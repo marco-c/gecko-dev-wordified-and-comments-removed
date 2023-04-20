@@ -38,7 +38,7 @@ test_console_log_cached_messages
 bidi_session
 wait_for_event
 log_type
-top_context
+new_tab
 )
 :
     
@@ -60,45 +60,13 @@ entryAdded
 ]
 )
     
-await
-bidi_session
-.
-browsing_context
-.
-navigate
-(
-        
-context
-=
-top_context
-[
-"
-context
-"
-]
-url
-=
-top_context
-[
-"
-url
-"
-]
-wait
-=
-"
-complete
-"
-    
-)
-    
 expected_text
 =
 await
 create_log
 (
 bidi_session
-top_context
+new_tab
 log_type
 "
 cached_message
@@ -140,17 +108,6 @@ entryAdded
 on_event
 )
     
-on_entry_added
-=
-wait_for_event
-(
-"
-log
-.
-entryAdded
-"
-)
-    
 await
 bidi_session
 .
@@ -168,9 +125,6 @@ entryAdded
 "
 ]
 )
-    
-await
-on_entry_added
     
 assert
 len
@@ -192,7 +146,7 @@ text
 expected_text
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -236,16 +190,6 @@ entryAdded
 ]
 )
     
-await
-asyncio
-.
-sleep
-(
-0
-.
-5
-)
-    
 assert
 len
 (
@@ -272,7 +216,7 @@ await
 create_log
 (
 bidi_session
-top_context
+new_tab
 log_type
 "
 live_message
@@ -302,7 +246,7 @@ text
 expected_text
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -334,21 +278,10 @@ await
 create_log
 (
 bidi_session
-top_context
+new_tab
 log_type
 "
 cached_message_2
-"
-)
-    
-on_entry_added
-=
-wait_for_event
-(
-"
-log
-.
-entryAdded
 "
 )
     
@@ -370,9 +303,6 @@ entryAdded
 ]
 )
     
-await
-on_entry_added
-    
 assert
 len
 (
@@ -393,7 +323,7 @@ text
 expected_text
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -434,7 +364,7 @@ test_console_log_cached_message_after_refresh
     
 bidi_session
 wait_for_event
-top_context
+new_tab
 log_type
 )
 :
@@ -455,38 +385,6 @@ log
 entryAdded
 "
 ]
-)
-    
-await
-bidi_session
-.
-browsing_context
-.
-navigate
-(
-        
-context
-=
-top_context
-[
-"
-context
-"
-]
-url
-=
-top_context
-[
-"
-url
-"
-]
-wait
-=
-"
-complete
-"
-    
 )
     
 events
@@ -524,14 +422,16 @@ entryAdded
 on_event
 )
     
+expected_text_1
+=
 await
 create_log
 (
 bidi_session
-top_context
+new_tab
 log_type
 "
-missed_message
+cached_message_1
 "
 )
     
@@ -545,7 +445,7 @@ navigate
         
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -553,7 +453,7 @@ context
 ]
 url
 =
-top_context
+new_tab
 [
 "
 url
@@ -567,27 +467,16 @@ complete
     
 )
     
-expected_text
+expected_text_2
 =
 await
 create_log
 (
 bidi_session
-top_context
+new_tab
 log_type
 "
-cached_message
-"
-)
-    
-on_entry_added
-=
-wait_for_event
-(
-"
-log
-.
-entryAdded
+cached_message_2
 "
 )
     
@@ -609,19 +498,6 @@ entryAdded
 ]
 )
     
-await
-on_entry_added
-    
-await
-asyncio
-.
-sleep
-(
-0
-.
-5
-)
-    
 assert
 len
 (
@@ -629,7 +505,7 @@ events
 )
 =
 =
-1
+2
     
 assert_base_entry
 (
@@ -639,7 +515,18 @@ events
 ]
 text
 =
-expected_text
+expected_text_1
+)
+    
+assert_base_entry
+(
+events
+[
+1
+]
+text
+=
+expected_text_2
 )
     
 remove_listener

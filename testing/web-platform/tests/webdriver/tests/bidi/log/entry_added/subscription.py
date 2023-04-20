@@ -35,7 +35,7 @@ def
 test_subscribe_twice
 (
 bidi_session
-top_context
+new_tab
 wait_for_event
 log_type
 )
@@ -129,7 +129,7 @@ await
 create_log
 (
 bidi_session
-top_context
+new_tab
 log_type
 "
 text1
@@ -209,7 +209,7 @@ def
 test_subscribe_unsubscribe
 (
 bidi_session
-top_context
+new_tab
 wait_for_event
 log_type
 )
@@ -248,10 +248,11 @@ await
 create_log
 (
 bidi_session
-top_context
+new_tab
 log_type
 "
-text1
+some
+text
 "
 )
     
@@ -311,14 +312,16 @@ entryAdded
 on_event
 )
     
+expected_text_0
+=
 await
 create_log
 (
 bidi_session
-top_context
+new_tab
 log_type
 "
-text2
+text_0
 "
 )
     
@@ -351,7 +354,7 @@ navigate
         
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -359,7 +362,7 @@ context
 ]
 url
 =
-top_context
+new_tab
 [
 "
 url
@@ -373,14 +376,16 @@ complete
     
 )
     
+expected_text_1
+=
 await
 create_log
 (
 bidi_session
-top_context
+new_tab
 log_type
 "
-text3
+text_1
 "
 )
     
@@ -413,7 +418,7 @@ navigate
         
 context
 =
-top_context
+new_tab
 [
 "
 context
@@ -421,7 +426,7 @@ context
 ]
 url
 =
-top_context
+new_tab
 [
 "
 url
@@ -453,6 +458,15 @@ entryAdded
 ]
 )
     
+assert
+len
+(
+events
+)
+=
+=
+2
+    
 on_entry_added
 =
 wait_for_event
@@ -464,16 +478,16 @@ entryAdded
 "
 )
     
-expected_text
+expected_text_2
 =
 await
 create_log
 (
 bidi_session
-top_context
+new_tab
 log_type
 "
-text4
+text_2
 "
 )
     
@@ -487,7 +501,7 @@ events
 )
 =
 =
-1
+3
     
 assert_base_entry
 (
@@ -497,10 +511,48 @@ events
 ]
 text
 =
-expected_text
+expected_text_0
 context
 =
-top_context
+new_tab
+[
+"
+context
+"
+]
+)
+    
+assert_base_entry
+(
+events
+[
+1
+]
+text
+=
+expected_text_1
+context
+=
+new_tab
+[
+"
+context
+"
+]
+)
+    
+assert_base_entry
+(
+events
+[
+2
+]
+text
+=
+expected_text_2
+context
+=
+new_tab
 [
 "
 context
@@ -535,7 +587,7 @@ entryAdded
 "
 )
     
-expected_text
+expected_text_3
 =
 await
 create_log
@@ -544,7 +596,7 @@ bidi_session
 new_context
 log_type
 "
-text5
+text_3
 "
 )
     
@@ -558,17 +610,17 @@ events
 )
 =
 =
-2
+4
     
 assert_base_entry
 (
 events
 [
-1
+3
 ]
 text
 =
-expected_text
+expected_text_3
 context
 =
 new_context
