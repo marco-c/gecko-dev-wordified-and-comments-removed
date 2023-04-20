@@ -815,6 +815,11 @@ gain_applier
 "
 agc2
 :
+input_volume_controller
+"
+"
+agc2
+:
 vad_wrapper
 "
 ]
