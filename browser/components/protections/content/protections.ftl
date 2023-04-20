@@ -152,7 +152,7 @@ link
 =
 Get
 the
-Extension
+extension
 vpn
 -
 title
