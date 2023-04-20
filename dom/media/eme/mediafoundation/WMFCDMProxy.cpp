@@ -266,6 +266,7 @@ mInitDataTypes
 mPersistentStateRequired
 mDistinctiveIdentifierRequired
 false
+mProxyCallback
 }
 ;
 mCDM

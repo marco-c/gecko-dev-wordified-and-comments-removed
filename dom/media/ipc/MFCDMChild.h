@@ -35,6 +35,9 @@ namespace
 mozilla
 {
 class
+WMFCDMProxyCallback
+;
+class
 MFCDMChild
 final
 :
@@ -152,6 +155,9 @@ aDistinctiveID
 const
 bool
 aHWSecure
+WMFCDMProxyCallback
+*
+aProxyCallback
 )
 ;
 using
@@ -307,8 +313,6 @@ private
 MFCDMChild
 (
 )
-=
-default
 ;
 using
 RemotePromise
@@ -429,6 +433,12 @@ MozPromiseRequestHolder
 CreateSessionAndGenerateRequestPromise
 >
 mCreateSessionRequest
+;
+RefPtr
+<
+WMFCDMProxyCallback
+>
+mProxyCallback
 ;
 }
 ;

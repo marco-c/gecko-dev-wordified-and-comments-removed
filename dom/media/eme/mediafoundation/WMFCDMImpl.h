@@ -76,6 +76,9 @@ namespace
 mozilla
 {
 class
+WMFCDMProxyCallback
+;
+class
 WMFCDMImpl
 final
 {
@@ -150,6 +153,10 @@ mDistinctiveIdentifierRequired
 ;
 bool
 mHWSecure
+;
+WMFCDMProxyCallback
+*
+mProxyCallback
 ;
 }
 ;
