@@ -47,6 +47,7 @@ BlockedByNullEntry
 BlockedByAfterPrefix
 BlockedByBacktrackingPrefix
 InvalidBareSpecifier
+Length
 }
 ;
 struct
