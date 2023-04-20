@@ -33970,10 +33970,6 @@ org
 /
 pub
 /
-mozilla
-.
-org
-/
 labs
 /
 devtools
