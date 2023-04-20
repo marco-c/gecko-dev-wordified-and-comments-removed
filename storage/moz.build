@@ -294,11 +294,6 @@ ObfuscatingVFS
 cpp
 "
 "
-QuotaVFS
-.
-cpp
-"
-"
 ReadOnlyNoLockVFS
 .
 cpp
