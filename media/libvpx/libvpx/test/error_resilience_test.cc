@@ -2389,7 +2389,6 @@ virtual
 void
 EndPassHook
 (
-void
 )
 {
 duration_

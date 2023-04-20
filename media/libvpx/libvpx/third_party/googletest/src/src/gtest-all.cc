@@ -13,6 +13,10 @@ include
 src
 /
 gtest
+-
+assertion
+-
+result
 .
 cc
 "
@@ -96,6 +100,15 @@ gtest
 typed
 -
 test
+.
+cc
+"
+#
+include
+"
+src
+/
+gtest
 .
 cc
 "

@@ -160,6 +160,10 @@ unsigned
 int
 sum_diff
 =
+(
+unsigned
+int
+)
 abs
 (
 _mm_cvtsi128_si32

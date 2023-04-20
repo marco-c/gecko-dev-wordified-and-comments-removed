@@ -1049,7 +1049,9 @@ config_line
 }
 "
 |
-egrep
+grep
+-
+E
 -
 q
 '
@@ -1637,7 +1639,9 @@ s
 }
 "
 |
-egrep
+grep
+-
+E
 -
 q
 {

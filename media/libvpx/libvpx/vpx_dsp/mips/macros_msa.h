@@ -574,6 +574,7 @@ val_lw_m
 __asm__
 __volatile__
 (
+\
 "
 lwr
 %
@@ -687,6 +688,7 @@ val_ld_m
 __asm__
 __volatile__
 (
+\
 "
 ldr
 %

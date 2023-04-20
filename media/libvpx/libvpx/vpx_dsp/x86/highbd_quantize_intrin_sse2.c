@@ -112,8 +112,7 @@ count
 4
 eob_i
 =
--
-1
+0
 ;
 __m128i
 zbins
@@ -624,6 +623,9 @@ int
 (
 abs_qcoeff
 ^
+(
+uint32_t
+)
 coeff_sign
 [
 j
@@ -680,8 +682,6 @@ eob_i
 eob_ptr
 =
 eob_i
-+
-1
 ;
 }
 void
@@ -759,8 +759,7 @@ int
 i
 eob
 =
--
-1
+0
 ;
 const
 int
@@ -1199,6 +1198,9 @@ int
 (
 abs_qcoeff
 ^
+(
+uint32_t
+)
 coeff_sign
 )
 -
@@ -1255,8 +1257,6 @@ eob
 eob_ptr
 =
 eob
-+
-1
 ;
 }
 #

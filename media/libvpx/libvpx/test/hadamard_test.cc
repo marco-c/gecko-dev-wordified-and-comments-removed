@@ -1856,6 +1856,12 @@ HadamardFuncWithSize
 vpx_hadamard_16x16_neon
 16
 )
+HadamardFuncWithSize
+(
+&
+vpx_hadamard_32x32_neon
+32
+)
 )
 )
 ;

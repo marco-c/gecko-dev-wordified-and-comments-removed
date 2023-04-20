@@ -127,6 +127,18 @@ a
 parent
 directory
 .
+#
+Ignore
+this
+file
+during
+non
+-
+NDK
+builds
+.
+ifdef
+NDK_ROOT
 CUR_WD
 :
 =
@@ -512,3 +524,6 @@ include
 (
 BUILD_EXECUTABLE
 )
+endif
+#
+NDK_ROOT

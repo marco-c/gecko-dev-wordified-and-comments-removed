@@ -32,6 +32,15 @@ include
 "
 vpx_ports
 /
+compiler_attributes
+.
+h
+"
+#
+include
+"
+vpx_ports
+/
 mem
 .
 h
@@ -166,6 +175,7 @@ br
 )
 ;
 static
+VPX_NO_UNSIGNED_SHIFT_CHECK
 int
 vp8dx_decode_bool
 (

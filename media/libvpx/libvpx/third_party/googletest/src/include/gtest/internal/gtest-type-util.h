@@ -306,11 +306,13 @@ None
 #
 define
 GTEST_TEMPLATE_
+\
 template
 <
 typename
 T
 >
+\
 class
 template
 <
@@ -346,7 +348,6 @@ GTEST_BIND_
 TmplSel
 T
 )
-\
 TmplSel
 :
 :

@@ -165,6 +165,10 @@ tmp_1
 ;
 __m128i
 below_context
+=
+_mm_setzero_si128
+(
+)
 ;
 s
 =

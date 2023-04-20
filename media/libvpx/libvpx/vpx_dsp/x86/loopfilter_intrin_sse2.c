@@ -976,9 +976,8 @@ const
 __m128i
 zero
 =
-_mm_set1_epi16
+_mm_setzero_si128
 (
-0
 )
 ;
 const
@@ -1324,9 +1323,8 @@ const
 __m128i
 zero
 =
-_mm_set1_epi16
+_mm_setzero_si128
 (
-0
 )
 ;
 const
@@ -1936,9 +1934,8 @@ const
 __m128i
 zero
 =
-_mm_set1_epi16
+_mm_setzero_si128
 (
-0
 )
 ;
 const
@@ -4649,9 +4646,8 @@ const
 __m128i
 zero
 =
-_mm_set1_epi16
+_mm_setzero_si128
 (
-0
 )
 ;
 const
@@ -7702,9 +7698,8 @@ const
 __m128i
 zero
 =
-_mm_set1_epi16
+_mm_setzero_si128
 (
-0
 )
 ;
 const
@@ -9501,9 +9496,8 @@ const
 __m128i
 zero
 =
-_mm_set1_epi16
+_mm_setzero_si128
 (
-0
 )
 ;
 const
@@ -11563,9 +11557,8 @@ const
 __m128i
 zero
 =
-_mm_set1_epi16
+_mm_setzero_si128
 (
-0
 )
 ;
 __m128i

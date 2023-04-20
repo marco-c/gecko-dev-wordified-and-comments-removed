@@ -429,9 +429,7 @@ EncodeFrame
 VideoSource
 *
 video
-const
-unsigned
-long
+vpx_enc_frame_flags_t
 frame_flags
 )
 ;
@@ -941,9 +939,7 @@ const
 VideoSource
 &
 video
-const
-unsigned
-long
+vpx_enc_frame_flags_t
 frame_flags
 )
 ;
@@ -1281,8 +1277,7 @@ unsigned
 long
 init_flags_
 ;
-unsigned
-long
+vpx_enc_frame_flags_t
 frame_flags_
 ;
 }

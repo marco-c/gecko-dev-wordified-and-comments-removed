@@ -185,6 +185,16 @@ GTEST_OS_FUCHSIA
 elif
 defined
 (
+__GNU__
+)
+#
+define
+GTEST_OS_GNU_HURD
+1
+#
+elif
+defined
+(
 __GLIBC__
 )
 &

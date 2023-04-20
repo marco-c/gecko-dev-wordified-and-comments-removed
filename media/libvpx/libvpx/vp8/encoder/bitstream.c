@@ -100,6 +100,15 @@ include
 "
 vpx_ports
 /
+compiler_attributes
+.
+h
+"
+#
+include
+"
+vpx_ports
+/
 system_state
 .
 h
@@ -737,6 +746,7 @@ x
 ;
 }
 void
+VPX_NO_UNSIGNED_SHIFT_CHECK
 vp8_pack_tokens
 (
 vp8_writer

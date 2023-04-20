@@ -16,6 +16,15 @@ include
 "
 vpx_ports
 /
+compiler_attributes
+.
+h
+"
+#
+include
+"
+vpx_ports
+/
 mem
 .
 h
@@ -100,6 +109,7 @@ br
 ;
 static
 INLINE
+VPX_NO_UNSIGNED_SHIFT_CHECK
 void
 vpx_write
 (

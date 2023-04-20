@@ -34,6 +34,16 @@ bitops
 .
 h
 "
+#
+include
+"
+vpx_ports
+/
+compiler_attributes
+.
+h
+"
+VPX_NO_UNSIGNED_SHIFT_CHECK
 void
 vp8_regular_quantize_b_sse4_1
 (

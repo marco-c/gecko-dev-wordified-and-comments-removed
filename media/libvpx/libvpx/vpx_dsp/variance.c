@@ -3555,7 +3555,7 @@ HIGHBD_MSE
 8
 )
 void
-vpx_highbd_comp_avg_pred
+vpx_highbd_comp_avg_pred_c
 (
 uint16_t
 *

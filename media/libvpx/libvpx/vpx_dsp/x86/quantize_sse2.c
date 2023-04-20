@@ -361,8 +361,6 @@ scan_for_eob
 qcoeff0
 &
 qcoeff1
-cmp_mask0
-cmp_mask1
 iscan
 0
 zero
@@ -539,8 +537,6 @@ scan_for_eob
 qcoeff0
 &
 qcoeff1
-cmp_mask0
-cmp_mask1
 iscan
 index
 zero

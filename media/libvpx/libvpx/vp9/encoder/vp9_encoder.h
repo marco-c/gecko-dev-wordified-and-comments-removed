@@ -2915,6 +2915,9 @@ endif
 EXT_RATECTRL
 ext_ratectrl
 ;
+int
+fixed_qp_onepass
+;
 }
 VP9_COMP
 ;
@@ -4736,7 +4739,7 @@ flags
 static
 INLINE
 int
-is_one_pass_cbr_svc
+is_one_pass_svc
 (
 const
 struct

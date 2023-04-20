@@ -296,7 +296,9 @@ includes
 LC_ALL
 =
 C
-egrep
+grep
+-
+E
 -
 i
 "

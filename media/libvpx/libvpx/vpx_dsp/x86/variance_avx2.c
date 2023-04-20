@@ -4018,7 +4018,6 @@ sum
 ;
 }
 static
-unsigned
 int
 sub_pixel_variance32xh_avx2
 (
@@ -4064,7 +4063,6 @@ sse
 ;
 }
 static
-unsigned
 int
 sub_pixel_avg_variance32xh_avx2
 (

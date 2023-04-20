@@ -3746,8 +3746,6 @@ kind
 case
 VPX_CODEC_PSNR_PKT
 :
-{
-}
 +
 +
 si
@@ -3759,10 +3757,8 @@ break
 ;
 default
 :
-{
 break
 ;
-}
 }
 }
 return

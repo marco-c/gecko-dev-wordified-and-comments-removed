@@ -227,7 +227,6 @@ char
 *
 Get
 (
-void
 )
 {
 static

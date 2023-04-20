@@ -93,6 +93,18 @@ tree
 #
 #
 #
+Ignore
+this
+file
+during
+non
+-
+NDK
+builds
+.
+ifdef
+NDK_ROOT
+#
 #
 This
 file
@@ -1620,3 +1632,6 @@ android
 cpufeatures
 )
 endif
+endif
+#
+NDK_ROOT

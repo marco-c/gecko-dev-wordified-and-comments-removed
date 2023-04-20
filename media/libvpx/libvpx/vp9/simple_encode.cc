@@ -5344,6 +5344,9 @@ ret
 field
 )
 \
+do
+{
+\
 if
 (
 strcmp
@@ -5379,6 +5382,12 @@ ret
 ;
 \
 }
+\
+}
+while
+(
+false
+)
 static
 void
 UpdateEncodeConfig

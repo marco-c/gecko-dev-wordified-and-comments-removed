@@ -21,14 +21,14 @@ internal
 .
 h
 "
-namespace
-testing
-{
 GTEST_DECLARE_string_
 (
 death_test_style
 )
 ;
+namespace
+testing
+{
 #
 if
 GTEST_HAS_DEATH_TEST
@@ -249,7 +249,6 @@ EXPECT_DEBUG_DEATH
 statement
 regex
 )
-\
 EXPECT_DEATH
 (
 statement
@@ -262,7 +261,6 @@ ASSERT_DEBUG_DEATH
 statement
 regex
 )
-\
 ASSERT_DEATH
 (
 statement
@@ -303,7 +301,6 @@ GTEST_LOG_
 (
 WARNING
 )
-\
 <
 <
 "

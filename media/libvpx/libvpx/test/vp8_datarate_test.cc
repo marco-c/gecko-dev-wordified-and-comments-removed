@@ -552,7 +552,6 @@ virtual
 void
 EndPassHook
 (
-void
 )
 {
 if

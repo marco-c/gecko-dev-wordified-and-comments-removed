@@ -629,6 +629,9 @@ tmp
 ;
 tmp
 =
+(
+int
+)
 near_mvs
 [
 CNT_NEAREST
@@ -657,6 +660,9 @@ CNT_NEAR
 .
 as_int
 =
+(
+uint32_t
+)
 tmp
 ;
 }

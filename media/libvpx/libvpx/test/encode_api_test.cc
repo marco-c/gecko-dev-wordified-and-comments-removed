@@ -1360,7 +1360,11 @@ static_threshold
 2
 ]
 =
-INT_MIN
+UINT_MAX
+/
+2
++
+1
 ;
 roi
 .
@@ -1369,7 +1373,7 @@ static_threshold
 3
 ]
 =
-INT_MAX
+UINT_MAX
 ;
 for
 (
@@ -2141,6 +2145,9 @@ i
 {
 vpx_codec_enc_cfg_t
 cfg
+=
+{
+}
 ;
 struct
 Encoder

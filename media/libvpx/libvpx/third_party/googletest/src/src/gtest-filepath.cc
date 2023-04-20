@@ -23,11 +23,9 @@ include
 "
 gtest
 /
-internal
-/
 gtest
 -
-port
+message
 .
 h
 "
@@ -36,9 +34,11 @@ include
 "
 gtest
 /
+internal
+/
 gtest
 -
-message
+port
 .
 h
 "

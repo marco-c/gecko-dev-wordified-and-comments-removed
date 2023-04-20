@@ -149,6 +149,7 @@ mvpis_short
 )
 ;
 do
+{
 vp8_write
 (
 w
@@ -168,6 +169,7 @@ i
 ]
 )
 ;
+}
 while
 (
 +
@@ -184,6 +186,7 @@ mvlong_width
 1
 ;
 do
+{
 vp8_write
 (
 w
@@ -203,6 +206,7 @@ i
 ]
 )
 ;
+}
 while
 (
 -

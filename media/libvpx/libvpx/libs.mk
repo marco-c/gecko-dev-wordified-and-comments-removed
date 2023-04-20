@@ -4089,7 +4089,9 @@ CREATE
 LC_ALL
 =
 C
-egrep
+grep
+-
+E
 "
 #
 define
@@ -4159,7 +4161,9 @@ CREATE
 LC_ALL
 =
 C
-egrep
+grep
+-
+E
 "
 #
 define

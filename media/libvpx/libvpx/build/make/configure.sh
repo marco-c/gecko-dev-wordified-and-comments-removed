@@ -4591,7 +4591,7 @@ darwin2
 [
 0
 -
-1
+2
 ]
 *
 )
@@ -5557,7 +5557,7 @@ darwin2
 [
 0
 -
-1
+2
 ]
 -
 *
@@ -9139,8 +9139,10 @@ inline
 "
 static
 inline
+int
 function
 (
+void
 )
 {
 }

@@ -5831,6 +5831,17 @@ sse2
 neon
 /
 ;
+specialize
+qw
+/
+vpx_highbd_fdct4x4_1
+neon
+/
+;
+vpx_highbd_fdct4x4_1_neon
+=
+vpx_fdct4x4_1_neon
+;
 add_proto
 qw
 /
@@ -6037,6 +6048,7 @@ qw
 /
 vpx_highbd_fdct4x4
 sse2
+neon
 /
 ;
 add_proto
@@ -6062,6 +6074,7 @@ qw
 /
 vpx_highbd_fdct8x8
 sse2
+neon
 /
 ;
 add_proto
@@ -6116,6 +6129,7 @@ qw
 /
 vpx_highbd_fdct16x16
 sse2
+neon
 /
 ;
 add_proto
@@ -6136,6 +6150,13 @@ int
 stride
 "
 ;
+specialize
+qw
+/
+vpx_highbd_fdct16x16_1
+neon
+/
+;
 add_proto
 qw
 /
@@ -6159,6 +6180,7 @@ qw
 /
 vpx_highbd_fdct32x32
 sse2
+neon
 /
 ;
 add_proto
@@ -6184,6 +6206,7 @@ qw
 /
 vpx_highbd_fdct32x32_rd
 sse2
+neon
 /
 ;
 add_proto
@@ -6203,6 +6226,13 @@ output
 int
 stride
 "
+;
+specialize
+qw
+/
+vpx_highbd_fdct32x32_1
+neon
+/
 ;
 }
 else
@@ -7701,6 +7731,7 @@ vpx_quantize_b_32x32
 neon
 ssse3
 avx
+avx2
 vsx
 lsx
 /
@@ -7775,7 +7806,9 @@ specialize
 qw
 /
 vpx_highbd_quantize_b
+neon
 sse2
+avx2
 /
 ;
 add_proto
@@ -7834,7 +7867,9 @@ specialize
 qw
 /
 vpx_highbd_quantize_b_32x32
+neon
 sse2
+avx2
 /
 ;
 }
@@ -7900,6 +7935,7 @@ neon
 msa
 mmi
 sse2
+avx2
 vsx
 lsx
 /
@@ -8546,6 +8582,7 @@ qw
 vpx_hadamard_32x32
 sse2
 avx2
+neon
 /
 ;
 add_proto
@@ -8758,6 +8795,7 @@ qw
 vpx_hadamard_32x32
 sse2
 avx2
+neon
 /
 ;
 add_proto
@@ -10100,6 +10138,14 @@ int
 bd
 "
 ;
+specialize
+qw
+/
+vpx_highbd_subtract_block
+neon
+avx2
+/
+;
 #
 #
 Single
@@ -10133,6 +10179,8 @@ qw
 /
 vpx_highbd_sad64x64
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -10162,6 +10210,8 @@ qw
 /
 vpx_highbd_sad64x32
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -10191,6 +10241,8 @@ qw
 /
 vpx_highbd_sad32x64
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -10220,6 +10272,8 @@ qw
 /
 vpx_highbd_sad32x32
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -10249,6 +10303,8 @@ qw
 /
 vpx_highbd_sad32x16
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -10278,6 +10334,8 @@ qw
 /
 vpx_highbd_sad16x32
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -10307,6 +10365,8 @@ qw
 /
 vpx_highbd_sad16x16
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -10336,6 +10396,8 @@ qw
 /
 vpx_highbd_sad16x8
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -10365,6 +10427,7 @@ qw
 /
 vpx_highbd_sad8x16
 sse2
+neon
 /
 ;
 add_proto
@@ -10394,6 +10457,7 @@ qw
 /
 vpx_highbd_sad8x8
 sse2
+neon
 /
 ;
 add_proto
@@ -10423,6 +10487,7 @@ qw
 /
 vpx_highbd_sad8x4
 sse2
+neon
 /
 ;
 add_proto
@@ -10447,6 +10512,13 @@ int
 ref_stride
 "
 ;
+specialize
+qw
+/
+vpx_highbd_sad4x8
+neon
+/
+;
 add_proto
 qw
 /
@@ -10468,6 +10540,13 @@ ref_ptr
 int
 ref_stride
 "
+;
+specialize
+qw
+/
+vpx_highbd_sad4x4
+neon
+/
 ;
 #
 #
@@ -10577,6 +10656,8 @@ qw
 /
 vpx_highbd_sad64x64_avg
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -10610,6 +10691,8 @@ qw
 /
 vpx_highbd_sad64x32_avg
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -10643,6 +10726,8 @@ qw
 /
 vpx_highbd_sad32x64_avg
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -10676,6 +10761,8 @@ qw
 /
 vpx_highbd_sad32x32_avg
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -10709,6 +10796,8 @@ qw
 /
 vpx_highbd_sad32x16_avg
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -10742,6 +10831,8 @@ qw
 /
 vpx_highbd_sad16x32_avg
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -10775,6 +10866,8 @@ qw
 /
 vpx_highbd_sad16x16_avg
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -10808,6 +10901,8 @@ qw
 /
 vpx_highbd_sad16x8_avg
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -10841,6 +10936,7 @@ qw
 /
 vpx_highbd_sad8x16_avg
 sse2
+neon
 /
 ;
 add_proto
@@ -10874,6 +10970,7 @@ qw
 /
 vpx_highbd_sad8x8_avg
 sse2
+neon
 /
 ;
 add_proto
@@ -10907,6 +11004,7 @@ qw
 /
 vpx_highbd_sad8x4_avg
 sse2
+neon
 /
 ;
 add_proto
@@ -10935,6 +11033,13 @@ uint8_t
 second_pred
 "
 ;
+specialize
+qw
+/
+vpx_highbd_sad4x8_avg
+neon
+/
+;
 add_proto
 qw
 /
@@ -10960,6 +11065,13 @@ uint8_t
 *
 second_pred
 "
+;
+specialize
+qw
+/
+vpx_highbd_sad4x4_avg
+neon
+/
 ;
 #
 #
@@ -11010,6 +11122,8 @@ qw
 /
 vpx_highbd_sad64x64x4d
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -11047,6 +11161,8 @@ qw
 /
 vpx_highbd_sad64x32x4d
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -11084,6 +11200,8 @@ qw
 /
 vpx_highbd_sad32x64x4d
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -11121,6 +11239,8 @@ qw
 /
 vpx_highbd_sad32x32x4d
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -11158,6 +11278,8 @@ qw
 /
 vpx_highbd_sad32x16x4d
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -11195,6 +11317,8 @@ qw
 /
 vpx_highbd_sad16x32x4d
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -11232,6 +11356,8 @@ qw
 /
 vpx_highbd_sad16x16x4d
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -11269,6 +11395,8 @@ qw
 /
 vpx_highbd_sad16x8x4d
 sse2
+neon
+avx2
 /
 ;
 add_proto
@@ -11306,6 +11434,7 @@ qw
 /
 vpx_highbd_sad8x16x4d
 sse2
+neon
 /
 ;
 add_proto
@@ -11343,6 +11472,7 @@ qw
 /
 vpx_highbd_sad8x8x4d
 sse2
+neon
 /
 ;
 add_proto
@@ -11380,6 +11510,7 @@ qw
 /
 vpx_highbd_sad8x4x4d
 sse2
+neon
 /
 ;
 add_proto
@@ -11417,6 +11548,7 @@ qw
 /
 vpx_highbd_sad4x8x4d
 sse2
+neon
 /
 ;
 add_proto
@@ -11454,6 +11586,7 @@ qw
 /
 vpx_highbd_sad4x4x4d
 sse2
+neon
 /
 ;
 #
@@ -13502,6 +13635,7 @@ qw
 /
 vpx_highbd_12_variance64x64
 sse2
+neon
 /
 ;
 add_proto
@@ -13535,6 +13669,7 @@ qw
 /
 vpx_highbd_12_variance64x32
 sse2
+neon
 /
 ;
 add_proto
@@ -13568,6 +13703,7 @@ qw
 /
 vpx_highbd_12_variance32x64
 sse2
+neon
 /
 ;
 add_proto
@@ -13601,6 +13737,7 @@ qw
 /
 vpx_highbd_12_variance32x32
 sse2
+neon
 /
 ;
 add_proto
@@ -13634,6 +13771,7 @@ qw
 /
 vpx_highbd_12_variance32x16
 sse2
+neon
 /
 ;
 add_proto
@@ -13667,6 +13805,7 @@ qw
 /
 vpx_highbd_12_variance16x32
 sse2
+neon
 /
 ;
 add_proto
@@ -13700,6 +13839,7 @@ qw
 /
 vpx_highbd_12_variance16x16
 sse2
+neon
 /
 ;
 add_proto
@@ -13733,6 +13873,7 @@ qw
 /
 vpx_highbd_12_variance16x8
 sse2
+neon
 /
 ;
 add_proto
@@ -13766,6 +13907,7 @@ qw
 /
 vpx_highbd_12_variance8x16
 sse2
+neon
 /
 ;
 add_proto
@@ -13799,6 +13941,7 @@ qw
 /
 vpx_highbd_12_variance8x8
 sse2
+neon
 /
 ;
 add_proto
@@ -13827,6 +13970,13 @@ int
 sse
 "
 ;
+specialize
+qw
+/
+vpx_highbd_12_variance8x4
+neon
+/
+;
 add_proto
 qw
 /
@@ -13852,6 +14002,13 @@ int
 *
 sse
 "
+;
+specialize
+qw
+/
+vpx_highbd_12_variance4x8
+neon
+/
 ;
 add_proto
 qw
@@ -13879,6 +14036,13 @@ int
 sse
 "
 ;
+specialize
+qw
+/
+vpx_highbd_12_variance4x4
+neon
+/
+;
 add_proto
 qw
 /
@@ -13910,6 +14074,7 @@ qw
 /
 vpx_highbd_10_variance64x64
 sse2
+neon
 /
 ;
 add_proto
@@ -13943,6 +14108,7 @@ qw
 /
 vpx_highbd_10_variance64x32
 sse2
+neon
 /
 ;
 add_proto
@@ -13976,6 +14142,7 @@ qw
 /
 vpx_highbd_10_variance32x64
 sse2
+neon
 /
 ;
 add_proto
@@ -14009,6 +14176,7 @@ qw
 /
 vpx_highbd_10_variance32x32
 sse2
+neon
 /
 ;
 add_proto
@@ -14042,6 +14210,7 @@ qw
 /
 vpx_highbd_10_variance32x16
 sse2
+neon
 /
 ;
 add_proto
@@ -14075,6 +14244,7 @@ qw
 /
 vpx_highbd_10_variance16x32
 sse2
+neon
 /
 ;
 add_proto
@@ -14108,6 +14278,7 @@ qw
 /
 vpx_highbd_10_variance16x16
 sse2
+neon
 /
 ;
 add_proto
@@ -14141,6 +14312,7 @@ qw
 /
 vpx_highbd_10_variance16x8
 sse2
+neon
 /
 ;
 add_proto
@@ -14174,6 +14346,7 @@ qw
 /
 vpx_highbd_10_variance8x16
 sse2
+neon
 /
 ;
 add_proto
@@ -14207,6 +14380,7 @@ qw
 /
 vpx_highbd_10_variance8x8
 sse2
+neon
 /
 ;
 add_proto
@@ -14235,6 +14409,13 @@ int
 sse
 "
 ;
+specialize
+qw
+/
+vpx_highbd_10_variance8x4
+neon
+/
+;
 add_proto
 qw
 /
@@ -14260,6 +14441,13 @@ int
 *
 sse
 "
+;
+specialize
+qw
+/
+vpx_highbd_10_variance4x8
+neon
+/
 ;
 add_proto
 qw
@@ -14287,6 +14475,13 @@ int
 sse
 "
 ;
+specialize
+qw
+/
+vpx_highbd_10_variance4x4
+neon
+/
+;
 add_proto
 qw
 /
@@ -14318,6 +14513,7 @@ qw
 /
 vpx_highbd_8_variance64x64
 sse2
+neon
 /
 ;
 add_proto
@@ -14351,6 +14547,7 @@ qw
 /
 vpx_highbd_8_variance64x32
 sse2
+neon
 /
 ;
 add_proto
@@ -14384,6 +14581,7 @@ qw
 /
 vpx_highbd_8_variance32x64
 sse2
+neon
 /
 ;
 add_proto
@@ -14417,6 +14615,7 @@ qw
 /
 vpx_highbd_8_variance32x32
 sse2
+neon
 /
 ;
 add_proto
@@ -14450,6 +14649,7 @@ qw
 /
 vpx_highbd_8_variance32x16
 sse2
+neon
 /
 ;
 add_proto
@@ -14483,6 +14683,7 @@ qw
 /
 vpx_highbd_8_variance16x32
 sse2
+neon
 /
 ;
 add_proto
@@ -14516,6 +14717,7 @@ qw
 /
 vpx_highbd_8_variance16x16
 sse2
+neon
 /
 ;
 add_proto
@@ -14549,6 +14751,7 @@ qw
 /
 vpx_highbd_8_variance16x8
 sse2
+neon
 /
 ;
 add_proto
@@ -14582,6 +14785,7 @@ qw
 /
 vpx_highbd_8_variance8x16
 sse2
+neon
 /
 ;
 add_proto
@@ -14615,6 +14819,7 @@ qw
 /
 vpx_highbd_8_variance8x8
 sse2
+neon
 /
 ;
 add_proto
@@ -14643,6 +14848,13 @@ int
 sse
 "
 ;
+specialize
+qw
+/
+vpx_highbd_8_variance8x4
+neon
+/
+;
 add_proto
 qw
 /
@@ -14668,6 +14880,13 @@ int
 *
 sse
 "
+;
+specialize
+qw
+/
+vpx_highbd_8_variance4x8
+neon
+/
 ;
 add_proto
 qw
@@ -14695,6 +14914,13 @@ int
 sse
 "
 ;
+specialize
+qw
+/
+vpx_highbd_8_variance4x4
+neon
+/
+;
 add_proto
 qw
 /
@@ -14728,6 +14954,7 @@ qw
 /
 vpx_highbd_8_get16x16var
 sse2
+neon
 /
 ;
 add_proto
@@ -14763,6 +14990,7 @@ qw
 /
 vpx_highbd_8_get8x8var
 sse2
+neon
 /
 ;
 add_proto
@@ -14798,6 +15026,7 @@ qw
 /
 vpx_highbd_10_get16x16var
 sse2
+neon
 /
 ;
 add_proto
@@ -14833,6 +15062,7 @@ qw
 /
 vpx_highbd_10_get8x8var
 sse2
+neon
 /
 ;
 add_proto
@@ -14868,6 +15098,7 @@ qw
 /
 vpx_highbd_12_get16x16var
 sse2
+neon
 /
 ;
 add_proto
@@ -14903,6 +15134,7 @@ qw
 /
 vpx_highbd_12_get8x8var
 sse2
+neon
 /
 ;
 add_proto
@@ -14936,6 +15168,7 @@ qw
 /
 vpx_highbd_8_mse16x16
 sse2
+neon
 /
 ;
 add_proto
@@ -14964,6 +15197,13 @@ int
 sse
 "
 ;
+specialize
+qw
+/
+vpx_highbd_8_mse16x8
+neon
+/
+;
 add_proto
 qw
 /
@@ -14990,6 +15230,13 @@ int
 sse
 "
 ;
+specialize
+qw
+/
+vpx_highbd_8_mse8x16
+neon
+/
+;
 add_proto
 qw
 /
@@ -15021,6 +15268,7 @@ qw
 /
 vpx_highbd_8_mse8x8
 sse2
+neon
 /
 ;
 add_proto
@@ -15054,6 +15302,7 @@ qw
 /
 vpx_highbd_10_mse16x16
 sse2
+neon
 /
 ;
 add_proto
@@ -15082,6 +15331,13 @@ int
 sse
 "
 ;
+specialize
+qw
+/
+vpx_highbd_10_mse16x8
+neon
+/
+;
 add_proto
 qw
 /
@@ -15108,6 +15364,13 @@ int
 sse
 "
 ;
+specialize
+qw
+/
+vpx_highbd_10_mse8x16
+neon
+/
+;
 add_proto
 qw
 /
@@ -15139,6 +15402,7 @@ qw
 /
 vpx_highbd_10_mse8x8
 sse2
+neon
 /
 ;
 add_proto
@@ -15172,6 +15436,7 @@ qw
 /
 vpx_highbd_12_mse16x16
 sse2
+neon
 /
 ;
 add_proto
@@ -15200,6 +15465,13 @@ int
 sse
 "
 ;
+specialize
+qw
+/
+vpx_highbd_12_mse16x8
+neon
+/
+;
 add_proto
 qw
 /
@@ -15225,6 +15497,13 @@ int
 *
 sse
 "
+;
+specialize
+qw
+/
+vpx_highbd_12_mse8x16
+neon
+/
 ;
 add_proto
 qw
@@ -15257,6 +15536,7 @@ qw
 /
 vpx_highbd_12_mse8x8
 sse2
+neon
 /
 ;
 add_proto
@@ -15284,6 +15564,14 @@ ref
 int
 ref_stride
 "
+;
+specialize
+qw
+/
+vpx_highbd_comp_avg_pred
+neon
+sse2
+/
 ;
 #
 #
@@ -15323,6 +15611,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_variance64x64
 sse2
+neon
 /
 ;
 add_proto
@@ -15358,6 +15647,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_variance64x32
 sse2
+neon
 /
 ;
 add_proto
@@ -15393,6 +15683,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_variance32x64
 sse2
+neon
 /
 ;
 add_proto
@@ -15428,6 +15719,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_variance32x32
 sse2
+neon
 /
 ;
 add_proto
@@ -15463,6 +15755,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_variance32x16
 sse2
+neon
 /
 ;
 add_proto
@@ -15498,6 +15791,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_variance16x32
 sse2
+neon
 /
 ;
 add_proto
@@ -15533,6 +15827,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_variance16x16
 sse2
+neon
 /
 ;
 add_proto
@@ -15568,6 +15863,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_variance16x8
 sse2
+neon
 /
 ;
 add_proto
@@ -15603,6 +15899,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_variance8x16
 sse2
+neon
 /
 ;
 add_proto
@@ -15638,6 +15935,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_variance8x8
 sse2
+neon
 /
 ;
 add_proto
@@ -15673,6 +15971,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_variance8x4
 sse2
+neon
 /
 ;
 add_proto
@@ -15703,6 +16002,13 @@ uint32_t
 sse
 "
 ;
+specialize
+qw
+/
+vpx_highbd_12_sub_pixel_variance4x8
+neon
+/
+;
 add_proto
 qw
 /
@@ -15731,6 +16037,13 @@ uint32_t
 sse
 "
 ;
+specialize
+qw
+/
+vpx_highbd_12_sub_pixel_variance4x4
+neon
+/
+;
 add_proto
 qw
 /
@@ -15764,6 +16077,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_variance64x64
 sse2
+neon
 /
 ;
 add_proto
@@ -15799,6 +16113,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_variance64x32
 sse2
+neon
 /
 ;
 add_proto
@@ -15834,6 +16149,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_variance32x64
 sse2
+neon
 /
 ;
 add_proto
@@ -15869,6 +16185,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_variance32x32
 sse2
+neon
 /
 ;
 add_proto
@@ -15904,6 +16221,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_variance32x16
 sse2
+neon
 /
 ;
 add_proto
@@ -15939,6 +16257,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_variance16x32
 sse2
+neon
 /
 ;
 add_proto
@@ -15974,6 +16293,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_variance16x16
 sse2
+neon
 /
 ;
 add_proto
@@ -16009,6 +16329,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_variance16x8
 sse2
+neon
 /
 ;
 add_proto
@@ -16044,6 +16365,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_variance8x16
 sse2
+neon
 /
 ;
 add_proto
@@ -16079,6 +16401,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_variance8x8
 sse2
+neon
 /
 ;
 add_proto
@@ -16114,6 +16437,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_variance8x4
 sse2
+neon
 /
 ;
 add_proto
@@ -16144,6 +16468,13 @@ uint32_t
 sse
 "
 ;
+specialize
+qw
+/
+vpx_highbd_10_sub_pixel_variance4x8
+neon
+/
+;
 add_proto
 qw
 /
@@ -16172,6 +16503,13 @@ uint32_t
 sse
 "
 ;
+specialize
+qw
+/
+vpx_highbd_10_sub_pixel_variance4x4
+neon
+/
+;
 add_proto
 qw
 /
@@ -16205,6 +16543,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_variance64x64
 sse2
+neon
 /
 ;
 add_proto
@@ -16240,6 +16579,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_variance64x32
 sse2
+neon
 /
 ;
 add_proto
@@ -16275,6 +16615,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_variance32x64
 sse2
+neon
 /
 ;
 add_proto
@@ -16310,6 +16651,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_variance32x32
 sse2
+neon
 /
 ;
 add_proto
@@ -16345,6 +16687,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_variance32x16
 sse2
+neon
 /
 ;
 add_proto
@@ -16380,6 +16723,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_variance16x32
 sse2
+neon
 /
 ;
 add_proto
@@ -16415,6 +16759,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_variance16x16
 sse2
+neon
 /
 ;
 add_proto
@@ -16450,6 +16795,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_variance16x8
 sse2
+neon
 /
 ;
 add_proto
@@ -16485,6 +16831,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_variance8x16
 sse2
+neon
 /
 ;
 add_proto
@@ -16520,6 +16867,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_variance8x8
 sse2
+neon
 /
 ;
 add_proto
@@ -16555,6 +16903,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_variance8x4
 sse2
+neon
 /
 ;
 add_proto
@@ -16585,6 +16934,13 @@ uint32_t
 sse
 "
 ;
+specialize
+qw
+/
+vpx_highbd_8_sub_pixel_variance4x8
+neon
+/
+;
 add_proto
 qw
 /
@@ -16613,6 +16969,13 @@ uint32_t
 sse
 "
 ;
+specialize
+qw
+/
+vpx_highbd_8_sub_pixel_variance4x4
+neon
+/
+;
 add_proto
 qw
 /
@@ -16650,6 +17013,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_avg_variance64x64
 sse2
+neon
 /
 ;
 add_proto
@@ -16689,6 +17053,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_avg_variance64x32
 sse2
+neon
 /
 ;
 add_proto
@@ -16728,6 +17093,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_avg_variance32x64
 sse2
+neon
 /
 ;
 add_proto
@@ -16767,6 +17133,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_avg_variance32x32
 sse2
+neon
 /
 ;
 add_proto
@@ -16806,6 +17173,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_avg_variance32x16
 sse2
+neon
 /
 ;
 add_proto
@@ -16845,6 +17213,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_avg_variance16x32
 sse2
+neon
 /
 ;
 add_proto
@@ -16884,6 +17253,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_avg_variance16x16
 sse2
+neon
 /
 ;
 add_proto
@@ -16923,6 +17293,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_avg_variance16x8
 sse2
+neon
 /
 ;
 add_proto
@@ -16962,6 +17333,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_avg_variance8x16
 sse2
+neon
 /
 ;
 add_proto
@@ -17001,6 +17373,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_avg_variance8x8
 sse2
+neon
 /
 ;
 add_proto
@@ -17040,6 +17413,7 @@ qw
 /
 vpx_highbd_12_sub_pixel_avg_variance8x4
 sse2
+neon
 /
 ;
 add_proto
@@ -17074,6 +17448,13 @@ uint8_t
 second_pred
 "
 ;
+specialize
+qw
+/
+vpx_highbd_12_sub_pixel_avg_variance4x8
+neon
+/
+;
 add_proto
 qw
 /
@@ -17106,6 +17487,13 @@ uint8_t
 second_pred
 "
 ;
+specialize
+qw
+/
+vpx_highbd_12_sub_pixel_avg_variance4x4
+neon
+/
+;
 add_proto
 qw
 /
@@ -17143,6 +17531,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_avg_variance64x64
 sse2
+neon
 /
 ;
 add_proto
@@ -17182,6 +17571,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_avg_variance64x32
 sse2
+neon
 /
 ;
 add_proto
@@ -17221,6 +17611,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_avg_variance32x64
 sse2
+neon
 /
 ;
 add_proto
@@ -17260,6 +17651,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_avg_variance32x32
 sse2
+neon
 /
 ;
 add_proto
@@ -17299,6 +17691,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_avg_variance32x16
 sse2
+neon
 /
 ;
 add_proto
@@ -17338,6 +17731,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_avg_variance16x32
 sse2
+neon
 /
 ;
 add_proto
@@ -17377,6 +17771,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_avg_variance16x16
 sse2
+neon
 /
 ;
 add_proto
@@ -17416,6 +17811,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_avg_variance16x8
 sse2
+neon
 /
 ;
 add_proto
@@ -17455,6 +17851,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_avg_variance8x16
 sse2
+neon
 /
 ;
 add_proto
@@ -17494,6 +17891,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_avg_variance8x8
 sse2
+neon
 /
 ;
 add_proto
@@ -17533,6 +17931,7 @@ qw
 /
 vpx_highbd_10_sub_pixel_avg_variance8x4
 sse2
+neon
 /
 ;
 add_proto
@@ -17567,6 +17966,13 @@ uint8_t
 second_pred
 "
 ;
+specialize
+qw
+/
+vpx_highbd_10_sub_pixel_avg_variance4x8
+neon
+/
+;
 add_proto
 qw
 /
@@ -17599,6 +18005,13 @@ uint8_t
 second_pred
 "
 ;
+specialize
+qw
+/
+vpx_highbd_10_sub_pixel_avg_variance4x4
+neon
+/
+;
 add_proto
 qw
 /
@@ -17636,6 +18049,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_avg_variance64x64
 sse2
+neon
 /
 ;
 add_proto
@@ -17675,6 +18089,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_avg_variance64x32
 sse2
+neon
 /
 ;
 add_proto
@@ -17714,6 +18129,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_avg_variance32x64
 sse2
+neon
 /
 ;
 add_proto
@@ -17753,6 +18169,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_avg_variance32x32
 sse2
+neon
 /
 ;
 add_proto
@@ -17792,6 +18209,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_avg_variance32x16
 sse2
+neon
 /
 ;
 add_proto
@@ -17831,6 +18249,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_avg_variance16x32
 sse2
+neon
 /
 ;
 add_proto
@@ -17870,6 +18289,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_avg_variance16x16
 sse2
+neon
 /
 ;
 add_proto
@@ -17909,6 +18329,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_avg_variance16x8
 sse2
+neon
 /
 ;
 add_proto
@@ -17948,6 +18369,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_avg_variance8x16
 sse2
+neon
 /
 ;
 add_proto
@@ -17987,6 +18409,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_avg_variance8x8
 sse2
+neon
 /
 ;
 add_proto
@@ -18026,6 +18449,7 @@ qw
 /
 vpx_highbd_8_sub_pixel_avg_variance8x4
 sse2
+neon
 /
 ;
 add_proto
@@ -18060,6 +18484,13 @@ uint8_t
 second_pred
 "
 ;
+specialize
+qw
+/
+vpx_highbd_8_sub_pixel_avg_variance4x8
+neon
+/
+;
 add_proto
 qw
 /
@@ -18091,6 +18522,13 @@ uint8_t
 *
 second_pred
 "
+;
+specialize
+qw
+/
+vpx_highbd_8_sub_pixel_avg_variance4x4
+neon
+/
 ;
 }
 #

@@ -752,9 +752,8 @@ const
 __m256i
 kZero
 =
-_mm256_set1_epi16
+_mm256_setzero_si256
 (
-0
 )
 ;
 const
