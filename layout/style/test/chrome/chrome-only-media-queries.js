@@ -256,16 +256,6 @@ placement
 -
 moz
 -
-box
--
-flexbox
--
-emulation
-"
-"
--
-moz
--
 panel
 -
 animations

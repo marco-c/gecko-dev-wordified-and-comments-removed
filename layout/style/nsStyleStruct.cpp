@@ -13859,7 +13859,7 @@ mMozBoxLayout
 StyleMozBoxLayout
 :
 :
-Legacy
+Flex
 )
 mPrintColorAdjust
 (

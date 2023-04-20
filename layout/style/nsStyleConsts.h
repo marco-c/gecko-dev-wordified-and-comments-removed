@@ -1237,8 +1237,8 @@ StyleMozBoxLayout
 :
 uint8_t
 {
-Legacy
 Flex
+Legacy
 }
 ;
 enum
