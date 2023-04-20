@@ -212,7 +212,7 @@ Map
 uint32_t
 timestamp
 const
-VCMFrameInformation
+FrameInformation
 &
 frameInfo
 )
@@ -245,7 +245,7 @@ _timing
 Mutex
 lock_
 ;
-VCMTimestampMap
+TimestampMap
 _timestampMap
 RTC_GUARDED_BY
 (
