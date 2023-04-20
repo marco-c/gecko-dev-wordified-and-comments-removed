@@ -5387,14 +5387,6 @@ x
 y
 )
 ;
-mUpdatedDimensions
-=
-false
-;
-UpdatePosition
-(
-)
-;
 return
 IPC_OK
 (
