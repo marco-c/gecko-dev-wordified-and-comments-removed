@@ -125,17 +125,6 @@ definition
 Exposed
 =
 *
-Pref
-=
-"
-dom
-.
-streams
-.
-byte_streams
-.
-enabled
-"
 ]
 interface
 ReadableByteStreamController

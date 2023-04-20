@@ -127,17 +127,6 @@ definition
 Exposed
 =
 *
-Pref
-=
-"
-dom
-.
-streams
-.
-writable_streams
-.
-enabled
-"
 ]
 interface
 WritableStreamDefaultController

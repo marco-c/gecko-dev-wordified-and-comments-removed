@@ -129,17 +129,6 @@ Transferable
 See
 Bug
 1734240
-Pref
-=
-"
-dom
-.
-streams
-.
-writable_streams
-.
-enabled
-"
 ]
 interface
 WritableStream

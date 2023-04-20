@@ -127,17 +127,6 @@ definition
 Exposed
 =
 *
-Pref
-=
-"
-dom
-.
-streams
-.
-transform_streams
-.
-enabled
-"
 ]
 interface
 TransformStreamDefaultController

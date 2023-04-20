@@ -127,17 +127,6 @@ definition
 Exposed
 =
 *
-Pref
-=
-"
-dom
-.
-streams
-.
-readable_stream_default_controller
-.
-enabled
-"
 ]
 interface
 ReadableStreamDefaultController

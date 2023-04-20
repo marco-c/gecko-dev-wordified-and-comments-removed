@@ -190,17 +190,6 @@ reason
 Exposed
 =
 *
-Pref
-=
-"
-dom
-.
-streams
-.
-readable_stream_default_reader
-.
-enabled
-"
 ]
 interface
 ReadableStreamDefaultReader
