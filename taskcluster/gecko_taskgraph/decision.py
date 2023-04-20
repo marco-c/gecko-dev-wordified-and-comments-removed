@@ -479,6 +479,22 @@ kaios_tasks
 }
     
 "
+toolchains
+"
+:
+{
+        
+"
+target_tasks_method
+"
+:
+"
+mozilla_central_tasks
+"
+    
+}
+    
+"
 default
 "
 :
