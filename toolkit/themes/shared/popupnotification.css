@@ -422,6 +422,11 @@ body
 width
 )
 ;
+flex
+:
+1
+auto
+;
 }
 .
 popup
