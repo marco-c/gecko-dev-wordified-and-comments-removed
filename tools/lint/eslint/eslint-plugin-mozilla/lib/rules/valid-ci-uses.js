@@ -43,6 +43,14 @@ windows
 ]
 [
 "
+nsIAboutWindowsMessages
+"
+"
+windows
+"
+]
+[
+"
 nsIJumpListItem
 "
 "
