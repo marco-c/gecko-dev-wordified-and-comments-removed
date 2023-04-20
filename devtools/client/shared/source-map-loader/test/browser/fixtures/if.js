@@ -8,9 +8,9 @@ console
 .
 log
 (
-'
+"
 start
-'
+"
 )
 ;
 const
@@ -65,9 +65,9 @@ console
 .
 log
 (
-'
+"
 done
-'
+"
 )
 ;
 }

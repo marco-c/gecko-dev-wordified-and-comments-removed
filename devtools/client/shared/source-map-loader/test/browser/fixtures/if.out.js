@@ -1,7 +1,7 @@
-'
+"
 use
 strict
-'
+"
 ;
 function
 componentWillReceiveProps
@@ -13,9 +13,9 @@ console
 .
 log
 (
-'
+"
 start
-'
+"
 )
 ;
 var
@@ -70,9 +70,9 @@ console
 .
 log
 (
-'
+"
 done
-'
+"
 )
 ;
 }

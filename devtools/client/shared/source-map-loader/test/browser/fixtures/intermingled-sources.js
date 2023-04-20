@@ -6,6 +6,7 @@ strict
 var
 decl
 =
+(
 function
 (
 )
@@ -42,6 +43,7 @@ while
 {
 switch
 (
+(
 _context
 .
 prev
@@ -49,6 +51,7 @@ prev
 _context
 .
 next
+)
 )
 {
 case
@@ -107,6 +110,7 @@ arguments
 }
 ;
 }
+)
 (
 )
 ;
