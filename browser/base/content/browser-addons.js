@@ -5944,7 +5944,7 @@ false
 ;
 }
 const
-extension
+policy
 =
 WebExtensionPolicy
 .
@@ -5954,14 +5954,11 @@ addon
 .
 id
 )
-?
-.
-extension
 ;
 if
 (
 !
-extension
+policy
 ?
 .
 canAccessWindow
@@ -5979,8 +5976,9 @@ all
 |
 |
 !
+policy
+.
 extension
-?
 .
 hasBrowserActionUI
 ;
