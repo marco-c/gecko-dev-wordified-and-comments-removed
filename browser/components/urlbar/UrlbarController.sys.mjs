@@ -2104,7 +2104,7 @@ this
 .
 view
 .
-visibleElementCount
+visibleRowCount
 this
 .
 view

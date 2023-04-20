@@ -1458,7 +1458,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_ArrowDown
+KEY_Tab
 "
 )
 ;
@@ -1524,7 +1524,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_ArrowDown
+KEY_Tab
 "
 )
 ;
@@ -1617,8 +1617,13 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_ArrowUp
+KEY_Tab
 "
+{
+shiftKey
+:
+true
+}
 )
 ;
 Assert
@@ -1683,8 +1688,13 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_ArrowUp
+KEY_Tab
 "
+{
+shiftKey
+:
+true
+}
 )
 ;
 Assert
@@ -1899,7 +1909,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_ArrowDown
+KEY_Tab
 "
 {
 repeat
@@ -2164,7 +2174,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_ArrowDown
+KEY_Tab
 "
 {
 repeat
