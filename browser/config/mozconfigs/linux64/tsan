@@ -39,6 +39,16 @@ unix
 /
 mozconfig
 .
+linux
+.
+topsrcdir
+/
+build
+/
+unix
+/
+mozconfig
+.
 tsan
 ac_add_options
 -
