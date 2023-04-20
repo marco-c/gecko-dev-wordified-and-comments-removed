@@ -8202,6 +8202,17 @@ EnsureOpaqueResponseIsAllowedAfterSniff
 this
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+mORB
+-
+>
+IsSniffing
+(
+)
+)
+;
 if
 (
 NS_FAILED
