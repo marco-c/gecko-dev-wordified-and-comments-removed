@@ -21994,14 +21994,10 @@ return
 nullptr
 ;
 }
-ShareableBytes
-*
+SharedBytes
 shareableBytes
 =
-cx
--
->
-new_
+js_new
 <
 ShareableBytes
 >
