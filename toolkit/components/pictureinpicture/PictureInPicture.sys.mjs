@@ -774,7 +774,7 @@ case
 "
 PictureInPicture
 :
-EnableSubtitlesButton
+ShowSubtitlesButton
 "
 :
 {
@@ -795,7 +795,7 @@ player
 {
 player
 .
-enableSubtitlesButton
+showSubtitlesButton
 (
 )
 ;
@@ -807,7 +807,7 @@ case
 "
 PictureInPicture
 :
-DisableSubtitlesButton
+HideSubtitlesButton
 "
 :
 {
@@ -828,7 +828,7 @@ player
 {
 player
 .
-disableSubtitlesButton
+hideSubtitlesButton
 (
 )
 ;

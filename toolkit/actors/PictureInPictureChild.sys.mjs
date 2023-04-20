@@ -9858,7 +9858,7 @@ sendAsyncMessage
 "
 PictureInPicture
 :
-EnableSubtitlesButton
+ShowSubtitlesButton
 "
 )
 ;
@@ -15237,7 +15237,7 @@ sendAsyncMessage
 "
 PictureInPicture
 :
-DisableSubtitlesButton
+HideSubtitlesButton
 "
 )
 ;
@@ -16396,7 +16396,7 @@ sendAsyncMessage
 "
 PictureInPicture
 :
-EnableSubtitlesButton
+ShowSubtitlesButton
 "
 )
 ;
