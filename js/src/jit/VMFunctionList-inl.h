@@ -1430,6 +1430,15 @@ GetIterator
 \
 _
 (
+GetIteratorWithIndices
+js
+:
+:
+GetIteratorWithIndices
+)
+\
+_
+(
 GetNonSyntacticGlobalThis
 js
 :
