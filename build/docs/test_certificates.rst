@@ -258,11 +258,7 @@ security
 /
 manager
 /
-ssl
-/
-tests
-/
-unit
+tools
 /
 pycert
 .
@@ -296,11 +292,7 @@ security
 /
 manager
 /
-ssl
-/
-tests
-/
-unit
+tools
 /
 pykey
 .
