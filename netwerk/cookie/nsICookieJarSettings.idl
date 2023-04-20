@@ -116,6 +116,14 @@ attribute
 AString
 partitionKey
 ;
+readonly
+attribute
+Array
+<
+uint8_t
+>
+fingerprintingRandomizationKey
+;
 unsigned
 long
 cookiePermission
