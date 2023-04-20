@@ -2899,6 +2899,16 @@ message
 {
 if
 (
+!
+message
+)
+{
+return
+null
+;
+}
+if
+(
 message
 .
 level
