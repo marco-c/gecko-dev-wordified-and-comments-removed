@@ -15424,9 +15424,6 @@ dependencies
 byteorder
 "
 "
-once_cell
-"
-"
 pkcs11
 -
 bindings
