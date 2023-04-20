@@ -439,6 +439,12 @@ RefPtr
 <
 nsWindow
 >
+mSourceWindow
+;
+RefPtr
+<
+nsWindow
+>
 mPendingWindow
 ;
 mozilla

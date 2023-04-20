@@ -90,6 +90,11 @@ GdkIsX11Display
 (
 )
 ;
+bool
+IsXWaylandProtocol
+(
+)
+;
 GdkDevice
 *
 GdkGetPointer
