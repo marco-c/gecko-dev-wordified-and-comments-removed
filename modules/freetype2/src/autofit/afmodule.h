@@ -35,7 +35,7 @@ root
 FT_UInt
 fallback_style
 ;
-FT_UInt
+AF_Script
 default_script
 ;
 FT_Bool

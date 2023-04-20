@@ -1615,6 +1615,8 @@ is_set
 =
 1
 ;
+FALL_THROUGH
+;
 case
 SDF_EDGE_CONIC
 :
@@ -1767,6 +1769,8 @@ is_set
 1
 ;
 }
+FALL_THROUGH
+;
 case
 SDF_EDGE_LINE
 :
@@ -5833,6 +5837,11 @@ bB
 ;
 FT_26D6_Vec
 nearest_point
+=
+{
+0
+0
+}
 ;
 FT_26D6_Vec
 direction
@@ -6583,6 +6592,11 @@ cC
 ;
 FT_26D6_Vec
 nearest_point
+=
+{
+0
+0
+}
 ;
 FT_26D6_Vec
 direction
@@ -9006,6 +9020,9 @@ const
 FT_16D16
 fixed_spread
 =
+(
+FT_16D16
+)
 FT_INT_16D16
 (
 spread

@@ -27,7 +27,7 @@ C
 )
 2001
 -
-2022
+2023
 by
 #
 David
@@ -143,7 +143,7 @@ program
 #
 #
 serial
-6
+7
 #
 AC_CHECK_FT2
 (
@@ -1043,6 +1043,7 @@ h
 int
 main
 (
+void
 )
 {
 FT_Library

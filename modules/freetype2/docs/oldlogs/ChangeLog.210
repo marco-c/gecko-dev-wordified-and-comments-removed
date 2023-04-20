@@ -569,7 +569,8 @@ beginning
 of
 function
 .
-Inspite
+In
+spite
 of
 C99
 compliance
@@ -1070,7 +1071,7 @@ ftgrays
 .
 c
 (
-grat_TWorker
+gray_TWorker
 )
 :
 Replace
@@ -2804,7 +2805,7 @@ but
 TT_Get_MM_Blend
 and
 TT_Get_Var_Design
-explictly
+explicitly
 call
 tt_set_mm_blend
 with
@@ -4177,7 +4178,7 @@ h
 Cut
 section
 layer
-managament
+management
 containing
 '
 COLR
@@ -7541,7 +7542,7 @@ cid_read_subrs
 )
 :
 Tweak
-allocaton
+allocation
 macro
 .
 2021
@@ -7584,7 +7585,7 @@ other
 )
 :
 Tweak
-allocaton
+allocation
 macros
 .
 *
@@ -7631,7 +7632,7 @@ load_format_
 )
 :
 Tweak
-allocaton
+allocation
 macros
 .
 2021
@@ -7660,7 +7661,7 @@ Load_SBit_Png
 )
 :
 Tweak
-allocaton
+allocation
 macro
 .
 2021
@@ -17012,7 +17013,7 @@ ftsdfcommon
 .
 h
 :
-Commmon
+Common
 properties
 and
 functions
@@ -17528,6 +17529,7 @@ use
 .
 16
 fixed
+-
 point
 to
 get
@@ -17560,6 +17562,7 @@ uses
 .
 6
 fixed
+-
 point
 .
 *
@@ -26197,7 +26200,7 @@ caused
 a
 lot
 of
-polution
+pollution
 in
 the
 release
@@ -32520,7 +32523,7 @@ new
 pointer
 must
 be
-propogated
+propagated
 back
 to
 the
@@ -36170,7 +36173,7 @@ it
 work
 .
 Very
-embarassing
+embarrassing
 :
 -
 )
@@ -38829,7 +38832,7 @@ cffparse
 .
 c
 (
-destrict_c2s_item
+destruct_c2s_item
 )
 :
 Guard
@@ -40106,7 +40109,9 @@ Updated
 *
 src
 /
-cffcffdrivr
+cff
+/
+cffdrivr
 .
 c
 (
@@ -40310,7 +40315,7 @@ automatically
 upgraded
 for
 the
-approriate
+appropriate
 Visual
 C
 +
@@ -42869,7 +42874,7 @@ charmap_handle
 *
 src
 /
-bdfdrvr
+bdfdrivr
 .
 h
 (
@@ -56139,7 +56144,7 @@ C
 )
 2018
 -
-2022
+2023
 by
 David
 Turner

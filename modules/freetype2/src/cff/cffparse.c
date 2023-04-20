@@ -2744,6 +2744,9 @@ matrix
 >
 xx
 /
+(
+double
+)
 *
 upm
 /
@@ -2756,6 +2759,9 @@ matrix
 >
 xy
 /
+(
+double
+)
 *
 upm
 /
@@ -2768,6 +2774,9 @@ matrix
 >
 yx
 /
+(
+double
+)
 *
 upm
 /
@@ -2780,6 +2789,9 @@ matrix
 >
 yy
 /
+(
+double
+)
 *
 upm
 /
@@ -2792,6 +2804,9 @@ offset
 >
 x
 /
+(
+double
+)
 *
 upm
 /
@@ -2804,6 +2819,9 @@ offset
 >
 y
 /
+(
+double
+)
 *
 upm
 /

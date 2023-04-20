@@ -178,11 +178,11 @@ FT_Vector
 FT_16D16_Vec
 ;
 typedef
-FT_Fixed
+FT_Int32
 FT_16D16
 ;
 typedef
-FT_Fixed
+FT_Int32
 FT_26D6
 ;
 typedef

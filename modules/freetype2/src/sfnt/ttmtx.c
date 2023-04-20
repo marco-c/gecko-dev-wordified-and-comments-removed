@@ -780,6 +780,12 @@ TT_CONFIG_OPTION_GX_VAR_SUPPORT
 if
 (
 var
+&
+&
+face
+-
+>
+blend
 )
 {
 FT_Face

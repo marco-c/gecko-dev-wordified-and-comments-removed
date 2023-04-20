@@ -68,13 +68,6 @@ loader
 =
 loader
 ;
-glyph
--
->
-path_begun
-=
-0
-;
 FT_GlyphLoader_Rewind
 (
 loader

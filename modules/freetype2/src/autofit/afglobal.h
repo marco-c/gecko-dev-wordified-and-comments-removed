@@ -179,7 +179,7 @@ AF_FaceGlobalsRec_
 FT_Face
 face
 ;
-FT_Long
+FT_UInt
 glyph_count
 ;
 FT_UShort
@@ -274,7 +274,7 @@ AF_FaceGlobals
 globals
 )
 ;
-FT_LOCAL_DEF
+FT_LOCAL
 (
 FT_Bool
 )

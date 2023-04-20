@@ -349,7 +349,7 @@ unit
 =
 1
 /
-64th
+64
 of
 a
 pixel
@@ -4355,7 +4355,7 @@ C
 )
 2003
 -
-2022
+2023
 by
 David
 Turner

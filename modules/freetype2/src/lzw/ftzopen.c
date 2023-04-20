@@ -587,7 +587,7 @@ return
 }
 if
 (
-FT_QRENEW_ARRAY
+FT_QREALLOC
 (
 state
 -
@@ -1322,6 +1322,8 @@ phase
 FT_LZW_PHASE_CODE
 ;
 }
+FALL_THROUGH
+;
 case
 FT_LZW_PHASE_CODE
 :
@@ -1515,6 +1517,8 @@ phase
 FT_LZW_PHASE_STACK
 ;
 }
+FALL_THROUGH
+;
 case
 FT_LZW_PHASE_STACK
 :

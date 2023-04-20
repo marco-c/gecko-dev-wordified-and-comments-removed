@@ -4580,9 +4580,6 @@ style_flags
 flags
 ;
 }
-#
-ifndef
-FT_CONFIG_OPTION_NO_GLYPH_NAMES
 if
 (
 dict
@@ -4605,8 +4602,6 @@ face_flags
 =
 FT_FACE_FLAG_GLYPH_NAMES
 ;
-#
-endif
 if
 (
 dict

@@ -12273,7 +12273,7 @@ return
 FT_Err_Ok
 ;
 }
-FT_LOCAL
+FT_LOCAL_DEF
 (
 FT_Error
 )

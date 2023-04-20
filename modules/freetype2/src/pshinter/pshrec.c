@@ -2378,7 +2378,7 @@ memory
 )
 ;
 }
-FT_LOCAL
+FT_LOCAL_DEF
 (
 void
 )
@@ -2437,7 +2437,7 @@ memory
 NULL
 ;
 }
-FT_LOCAL
+FT_LOCAL_DEF
 (
 void
 )

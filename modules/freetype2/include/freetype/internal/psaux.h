@@ -203,9 +203,6 @@ init
 FT_Int
 max_elems
 ;
-FT_Int
-num_elems
-;
 FT_Byte
 *
 *

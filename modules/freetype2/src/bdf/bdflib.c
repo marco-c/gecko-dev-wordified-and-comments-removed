@@ -64,7 +64,7 @@ bdflib
 static
 const
 bdf_options_t
-_bdf_opts
+bdf_opts_
 =
 {
 1
@@ -76,7 +76,7 @@ BDF_PROPORTIONAL
 static
 const
 bdf_property_t
-_bdf_properties
+bdf_properties_
 [
 ]
 =
@@ -917,16 +917,16 @@ static
 const
 unsigned
 long
-_num_bdf_properties
+num_bdf_properties_
 =
 sizeof
 (
-_bdf_properties
+bdf_properties_
 )
 /
 sizeof
 (
-_bdf_properties
+bdf_properties_
 [
 0
 ]
@@ -1517,7 +1517,7 @@ typedef
 FT_Error
 (
 *
-_bdf_line_func_t
+bdf_line_func_t_
 )
 (
 char
@@ -1539,7 +1539,7 @@ client_data
 ;
 typedef
 struct
-_bdf_list_t_
+bdf_list_t__
 {
 char
 *
@@ -1558,11 +1558,11 @@ FT_Memory
 memory
 ;
 }
-_bdf_list_t
+bdf_list_t_
 ;
 typedef
 struct
-_bdf_parse_t_
+bdf_parse_t__
 {
 unsigned
 long
@@ -1609,7 +1609,7 @@ bdf_options_t
 *
 opts
 ;
-_bdf_list_t
+bdf_list_t_
 list
 ;
 FT_Memory
@@ -1620,7 +1620,7 @@ long
 size
 ;
 }
-_bdf_parse_t
+bdf_parse_t_
 ;
 #
 define
@@ -1698,9 +1698,9 @@ cc
 )
 static
 void
-_bdf_list_init
+bdf_list_init_
 (
-_bdf_list_t
+bdf_list_t_
 *
 list
 FT_Memory
@@ -1722,9 +1722,9 @@ memory
 }
 static
 void
-_bdf_list_done
+bdf_list_done_
 (
-_bdf_list_t
+bdf_list_t_
 *
 list
 )
@@ -1759,9 +1759,9 @@ list
 }
 static
 FT_Error
-_bdf_list_ensure
+bdf_list_ensure_
 (
-_bdf_list_t
+bdf_list_t_
 *
 list
 unsigned
@@ -1900,9 +1900,9 @@ error
 }
 static
 void
-_bdf_list_shift
+bdf_list_shift_
 (
-_bdf_list_t
+bdf_list_t_
 *
 list
 unsigned
@@ -2021,9 +2021,9 @@ empty
 static
 char
 *
-_bdf_list_join
+bdf_list_join_
 (
-_bdf_list_t
+bdf_list_t_
 *
 list
 int
@@ -2175,9 +2175,9 @@ dp
 }
 static
 FT_Error
-_bdf_list_split
+bdf_list_split_
 (
-_bdf_list_t
+bdf_list_t_
 *
 list
 const
@@ -2474,7 +2474,7 @@ size
 {
 error
 =
-_bdf_list_ensure
+bdf_list_ensure_
 (
 list
 list
@@ -2611,7 +2611,7 @@ size
 {
 error
 =
-_bdf_list_ensure
+bdf_list_ensure_
 (
 list
 list
@@ -2694,11 +2694,11 @@ char
 /
 static
 FT_Error
-_bdf_readstream
+bdf_readstream_
 (
 FT_Stream
 stream
-_bdf_line_func_t
+bdf_line_func_t_
 callback
 void
 *
@@ -2709,7 +2709,7 @@ long
 lno
 )
 {
-_bdf_line_func_t
+bdf_line_func_t_
 cb
 ;
 unsigned
@@ -3009,7 +3009,7 @@ FT_ERROR
 (
 (
 "
-_bdf_readstream
+bdf_readstream_
 :
 "
 ERRMSG6
@@ -3511,7 +3511,7 @@ hdigits
 static
 unsigned
 long
-_bdf_atoul
+bdf_atoul_
 (
 const
 char
@@ -3601,7 +3601,7 @@ v
 }
 static
 long
-_bdf_atol
+bdf_atol_
 (
 const
 char
@@ -3724,7 +3724,7 @@ v
 static
 unsigned
 short
-_bdf_atous
+bdf_atous_
 (
 const
 char
@@ -3820,7 +3820,7 @@ v
 }
 static
 short
-_bdf_atos
+bdf_atos_
 (
 const
 char
@@ -4184,7 +4184,7 @@ NULL
 ;
 n
 =
-_num_bdf_properties
+num_bdf_properties_
 +
 font
 -
@@ -4296,7 +4296,7 @@ if
 propid
 >
 =
-_num_bdf_properties
+num_bdf_properties_
 )
 return
 font
@@ -4308,7 +4308,7 @@ user_props
 *
 propid
 -
-_num_bdf_properties
+num_bdf_properties_
 )
 ;
 return
@@ -4316,7 +4316,7 @@ return
 bdf_property_t
 *
 )
-_bdf_properties
+bdf_properties_
 +
 *
 propid
@@ -4405,7 +4405,7 @@ BDF_GLYPH_HEIGHT_CHECK_
 0x80000000UL
 static
 FT_Error
-_bdf_add_comment
+bdf_add_comment_
 (
 bdf_font_t
 *
@@ -4507,7 +4507,7 @@ error
 }
 static
 FT_Error
-_bdf_set_default_spacing
+bdf_set_default_spacing_
 (
 bdf_font_t
 *
@@ -4529,7 +4529,7 @@ name
 256
 ]
 ;
-_bdf_list_t
+bdf_list_t_
 list
 ;
 FT_Memory
@@ -4592,7 +4592,7 @@ font
 >
 memory
 ;
-_bdf_list_init
+bdf_list_init_
 (
 &
 list
@@ -4633,7 +4633,7 @@ FT_ERROR
 (
 (
 "
-_bdf_set_default_spacing
+bdf_set_default_spacing_
 :
 "
 ERRMSG7
@@ -4664,7 +4664,7 @@ len
 ;
 error
 =
-_bdf_list_split
+bdf_list_split_
 (
 &
 list
@@ -4770,7 +4770,7 @@ break
 }
 Fail
 :
-_bdf_list_done
+bdf_list_done_
 (
 &
 list
@@ -4784,7 +4784,7 @@ error
 }
 static
 int
-_bdf_is_atom
+bdf_is_atom_
 (
 char
 *
@@ -5059,7 +5059,7 @@ return
 }
 static
 FT_Error
-_bdf_add_property
+bdf_add_property_
 (
 bdf_font_t
 *
@@ -5200,7 +5200,7 @@ value
 .
 l
 =
-_bdf_atol
+bdf_atol_
 (
 value
 )
@@ -5217,7 +5217,7 @@ value
 .
 ul
 =
-_bdf_atoul
+bdf_atoul_
 (
 value
 )
@@ -5334,7 +5334,7 @@ if
 propid
 >
 =
-_num_bdf_properties
+num_bdf_properties_
 )
 prop
 =
@@ -5347,7 +5347,7 @@ user_props
 *
 propid
 -
-_num_bdf_properties
+num_bdf_properties_
 )
 ;
 else
@@ -5357,7 +5357,7 @@ prop
 bdf_property_t
 *
 )
-_bdf_properties
+bdf_properties_
 +
 *
 propid
@@ -5464,7 +5464,7 @@ value
 .
 l
 =
-_bdf_atol
+bdf_atol_
 (
 value
 )
@@ -5481,7 +5481,7 @@ value
 .
 ul
 =
-_bdf_atoul
+bdf_atoul_
 (
 value
 )
@@ -5652,7 +5652,7 @@ FT_ERROR
 (
 (
 "
-_bdf_add_property
+bdf_add_property_
 :
 "
 ERRMSG8
@@ -5825,7 +5825,7 @@ nibble_mask
 ;
 static
 FT_Error
-_bdf_parse_end
+bdf_parse_end_
 (
 char
 *
@@ -5875,7 +5875,7 @@ FT_Err_Ok
 }
 static
 FT_Error
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 (
 char
 *
@@ -5913,11 +5913,11 @@ i
 slen
 nibbles
 ;
-_bdf_line_func_t
+bdf_line_func_t_
 *
 next
 ;
-_bdf_parse_t
+bdf_parse_t_
 *
 p
 ;
@@ -5945,7 +5945,7 @@ lineno
 next
 =
 (
-_bdf_line_func_t
+bdf_line_func_t_
 *
 )
 call_data
@@ -5953,7 +5953,7 @@ call_data
 p
 =
 (
-_bdf_parse_t
+bdf_parse_t_
 *
 )
 client_data
@@ -6029,7 +6029,7 @@ linelen
 }
 error
 =
-_bdf_add_comment
+bdf_add_comment_
 (
 p
 -
@@ -6076,7 +6076,7 @@ FT_ERROR
 (
 (
 "
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 :
 "
 ERRMSG1
@@ -6100,7 +6100,7 @@ Exit
 }
 error
 =
-_bdf_list_split
+bdf_list_split_
 (
 &
 p
@@ -6131,7 +6131,7 @@ font
 >
 glyphs_size
 =
-_bdf_atoul
+bdf_atoul_
 (
 p
 -
@@ -6180,7 +6180,7 @@ FT_TRACE2
 (
 (
 "
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 :
 "
 ACMSG17
@@ -6224,7 +6224,7 @@ FT_ERROR
 (
 (
 "
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 :
 "
 ERRMSG5
@@ -6304,7 +6304,7 @@ FT_ERROR
 (
 (
 "
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 :
 "
 ERRMSG1
@@ -6359,7 +6359,7 @@ BDF_START_
 *
 next
 =
-_bdf_parse_end
+bdf_parse_end_
 ;
 goto
 Exit
@@ -6465,7 +6465,7 @@ FT_ERROR
 (
 (
 "
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 :
 "
 ERRMSG1
@@ -6497,7 +6497,7 @@ glyph_name
 ;
 error
 =
-_bdf_list_split
+bdf_list_split_
 (
 &
 p
@@ -6518,7 +6518,7 @@ error
 goto
 Exit
 ;
-_bdf_list_shift
+bdf_list_shift_
 (
 &
 p
@@ -6530,7 +6530,7 @@ list
 ;
 s
 =
-_bdf_list_join
+bdf_list_join_
 (
 &
 p
@@ -6553,7 +6553,7 @@ FT_ERROR
 (
 (
 "
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 :
 "
 ERRMSG8
@@ -6656,7 +6656,7 @@ FT_ERROR
 (
 (
 "
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 :
 "
 ERRMSG1
@@ -6680,7 +6680,7 @@ Exit
 }
 error
 =
-_bdf_list_split
+bdf_list_split_
 (
 &
 p
@@ -6706,7 +6706,7 @@ p
 >
 glyph_enc
 =
-_bdf_atol
+bdf_atol_
 (
 p
 -
@@ -6763,7 +6763,7 @@ p
 >
 glyph_enc
 =
-_bdf_atol
+bdf_atol_
 (
 p
 -
@@ -7161,7 +7161,7 @@ FT_TRACE2
 (
 (
 "
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 :
 "
 ACMSG13
@@ -7311,7 +7311,7 @@ FT_TRACE2
 (
 (
 "
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 :
 "
 ACMSG16
@@ -7403,7 +7403,7 @@ FT_TRACE2
 (
 (
 "
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 :
 "
 ACMSG14
@@ -7451,7 +7451,7 @@ SWIDTH
 {
 error
 =
-_bdf_list_split
+bdf_list_split_
 (
 &
 p
@@ -7477,7 +7477,7 @@ glyph
 >
 swidth
 =
-_bdf_atous
+bdf_atous_
 (
 p
 -
@@ -7519,7 +7519,7 @@ DWIDTH
 {
 error
 =
-_bdf_list_split
+bdf_list_split_
 (
 &
 p
@@ -7545,7 +7545,7 @@ glyph
 >
 dwidth
 =
-_bdf_atous
+bdf_atous_
 (
 p
 -
@@ -7575,7 +7575,7 @@ FT_TRACE2
 (
 (
 "
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 :
 "
 ACMSG9
@@ -7645,7 +7645,7 @@ BBX
 {
 error
 =
-_bdf_list_split
+bdf_list_split_
 (
 &
 p
@@ -7673,7 +7673,7 @@ bbx
 .
 width
 =
-_bdf_atous
+bdf_atous_
 (
 p
 -
@@ -7693,7 +7693,7 @@ bbx
 .
 height
 =
-_bdf_atous
+bdf_atous_
 (
 p
 -
@@ -7713,7 +7713,7 @@ bbx
 .
 x_offset
 =
-_bdf_atos
+bdf_atos_
 (
 p
 -
@@ -7733,7 +7733,7 @@ bbx
 .
 y_offset
 =
-_bdf_atos
+bdf_atos_
 (
 p
 -
@@ -7941,7 +7941,7 @@ FT_TRACE2
 (
 (
 "
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 :
 "
 ACMSG10
@@ -8080,7 +8080,7 @@ FT_ERROR
 (
 (
 "
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 :
 "
 ERRMSG1
@@ -8162,7 +8162,7 @@ FT_ERROR
 (
 (
 "
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 :
 "
 ERRMSG4
@@ -8233,7 +8233,7 @@ FT_ERROR
 (
 (
 "
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 :
 "
 ERRMSG9
@@ -8257,7 +8257,7 @@ FT_ERROR
 (
 (
 "
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 :
 "
 ERRMSG1
@@ -8305,7 +8305,7 @@ error
 }
 static
 FT_Error
-_bdf_parse_properties
+bdf_parse_properties_
 (
 char
 *
@@ -8328,11 +8328,11 @@ unsigned
 long
 vlen
 ;
-_bdf_line_func_t
+bdf_line_func_t_
 *
 next
 ;
-_bdf_parse_t
+bdf_parse_t_
 *
 p
 ;
@@ -8363,7 +8363,7 @@ lineno
 next
 =
 (
-_bdf_line_func_t
+bdf_line_func_t_
 *
 )
 call_data
@@ -8371,7 +8371,7 @@ call_data
 p
 =
 (
-_bdf_parse_t
+bdf_parse_t_
 *
 )
 client_data
@@ -8446,7 +8446,7 @@ ascent
 ;
 error
 =
-_bdf_add_property
+bdf_add_property_
 (
 p
 -
@@ -8470,7 +8470,7 @@ FT_TRACE2
 (
 (
 "
-_bdf_parse_properties
+bdf_parse_properties_
 :
 "
 ACMSG1
@@ -8542,7 +8542,7 @@ descent
 ;
 error
 =
-_bdf_add_property
+bdf_add_property_
 (
 p
 -
@@ -8566,7 +8566,7 @@ FT_TRACE2
 (
 (
 "
-_bdf_parse_properties
+bdf_parse_properties_
 :
 "
 ACMSG2
@@ -8595,7 +8595,7 @@ BDF_PROPS_
 *
 next
 =
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 ;
 goto
 Exit
@@ -8658,7 +8658,7 @@ value
 ;
 error
 =
-_bdf_add_property
+bdf_add_property_
 (
 p
 -
@@ -8680,7 +8680,7 @@ Exit
 else
 if
 (
-_bdf_is_atom
+bdf_is_atom_
 (
 line
 linelen
@@ -8697,7 +8697,7 @@ font
 {
 error
 =
-_bdf_add_property
+bdf_add_property_
 (
 p
 -
@@ -8720,7 +8720,7 @@ else
 {
 error
 =
-_bdf_list_split
+bdf_list_split_
 (
 &
 p
@@ -8753,7 +8753,7 @@ field
 0
 ]
 ;
-_bdf_list_shift
+bdf_list_shift_
 (
 &
 p
@@ -8765,7 +8765,7 @@ list
 ;
 value
 =
-_bdf_list_join
+bdf_list_join_
 (
 &
 p
@@ -8780,7 +8780,7 @@ vlen
 ;
 error
 =
-_bdf_add_property
+bdf_add_property_
 (
 p
 -
@@ -8807,7 +8807,7 @@ error
 }
 static
 FT_Error
-_bdf_parse_start
+bdf_parse_start_
 (
 char
 *
@@ -8830,11 +8830,11 @@ unsigned
 long
 slen
 ;
-_bdf_line_func_t
+bdf_line_func_t_
 *
 next
 ;
-_bdf_parse_t
+bdf_parse_t_
 *
 p
 ;
@@ -8864,7 +8864,7 @@ lineno
 next
 =
 (
-_bdf_line_func_t
+bdf_line_func_t_
 *
 )
 call_data
@@ -8872,7 +8872,7 @@ call_data
 p
 =
 (
-_bdf_parse_t
+bdf_parse_t_
 *
 )
 client_data
@@ -8957,7 +8957,7 @@ linelen
 }
 error
 =
-_bdf_add_comment
+bdf_add_comment_
 (
 p
 -
@@ -9101,11 +9101,11 @@ prop
 bdf_property_t
 *
 )
-_bdf_properties
+bdf_properties_
 ;
 i
 <
-_num_bdf_properties
+num_bdf_properties_
 ;
 i
 +
@@ -9250,7 +9250,7 @@ FT_ERROR
 (
 (
 "
-_bdf_parse_start
+bdf_parse_start_
 :
 "
 ERRMSG1
@@ -9274,7 +9274,7 @@ Exit
 }
 error
 =
-_bdf_list_split
+bdf_list_split_
 (
 &
 p
@@ -9308,7 +9308,7 @@ font
 >
 props_size
 =
-_bdf_atoul
+bdf_atoul_
 (
 p
 -
@@ -9350,7 +9350,7 @@ FT_ERROR
 (
 (
 "
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 :
 "
 ERRMSG5
@@ -9415,7 +9415,7 @@ BDF_PROPS_
 *
 next
 =
-_bdf_parse_properties
+bdf_parse_properties_
 ;
 goto
 Exit
@@ -9453,7 +9453,7 @@ FT_ERROR
 (
 (
 "
-_bdf_parse_start
+bdf_parse_start_
 :
 "
 ERRMSG1
@@ -9477,7 +9477,7 @@ Exit
 }
 error
 =
-_bdf_list_split
+bdf_list_split_
 (
 &
 p
@@ -9508,7 +9508,7 @@ bbx
 .
 width
 =
-_bdf_atous
+bdf_atous_
 (
 p
 -
@@ -9531,7 +9531,7 @@ bbx
 .
 height
 =
-_bdf_atous
+bdf_atous_
 (
 p
 -
@@ -9554,7 +9554,7 @@ bbx
 .
 x_offset
 =
-_bdf_atos
+bdf_atos_
 (
 p
 -
@@ -9577,7 +9577,7 @@ bbx
 .
 y_offset
 =
-_bdf_atos
+bdf_atos_
 (
 p
 -
@@ -9680,7 +9680,7 @@ FONT
 {
 error
 =
-_bdf_list_split
+bdf_list_split_
 (
 &
 p
@@ -9701,7 +9701,7 @@ error
 goto
 Exit
 ;
-_bdf_list_shift
+bdf_list_shift_
 (
 &
 p
@@ -9713,7 +9713,7 @@ list
 ;
 s
 =
-_bdf_list_join
+bdf_list_join_
 (
 &
 p
@@ -9736,7 +9736,7 @@ FT_ERROR
 (
 (
 "
-_bdf_parse_start
+bdf_parse_start_
 :
 "
 ERRMSG8
@@ -9805,7 +9805,7 @@ slen
 ;
 error
 =
-_bdf_set_default_spacing
+bdf_set_default_spacing_
 (
 p
 -
@@ -9869,7 +9869,7 @@ FT_ERROR
 (
 (
 "
-_bdf_parse_start
+bdf_parse_start_
 :
 "
 ERRMSG1
@@ -9893,7 +9893,7 @@ Exit
 }
 error
 =
-_bdf_list_split
+bdf_list_split_
 (
 &
 p
@@ -9922,7 +9922,7 @@ font
 >
 point_size
 =
-_bdf_atoul
+bdf_atoul_
 (
 p
 -
@@ -9943,7 +9943,7 @@ font
 >
 resolution_x
 =
-_bdf_atoul
+bdf_atoul_
 (
 p
 -
@@ -9964,7 +9964,7 @@ font
 >
 resolution_y
 =
-_bdf_atoul
+bdf_atoul_
 (
 p
 -
@@ -9996,7 +9996,7 @@ bpp
 ;
 bpp
 =
-_bdf_atous
+bdf_atous_
 (
 p
 -
@@ -10087,7 +10087,7 @@ FT_TRACE2
 (
 (
 "
-_bdf_parse_start
+bdf_parse_start_
 :
 "
 ACMSG11
@@ -10163,7 +10163,7 @@ FT_ERROR
 (
 (
 "
-_bdf_parse_start
+bdf_parse_start_
 :
 "
 ERRMSG1
@@ -10223,7 +10223,7 @@ ascent
 ;
 error
 =
-_bdf_add_property
+bdf_add_property_
 (
 p
 -
@@ -10247,7 +10247,7 @@ FT_TRACE2
 (
 (
 "
-_bdf_parse_properties
+bdf_parse_properties_
 :
 "
 ACMSG1
@@ -10301,7 +10301,7 @@ descent
 ;
 error
 =
-_bdf_add_property
+bdf_add_property_
 (
 p
 -
@@ -10325,7 +10325,7 @@ FT_TRACE2
 (
 (
 "
-_bdf_parse_properties
+bdf_parse_properties_
 :
 "
 ACMSG2
@@ -10344,7 +10344,7 @@ descent
 *
 next
 =
-_bdf_parse_glyphs
+bdf_parse_glyphs_
 ;
 error
 =
@@ -10359,7 +10359,7 @@ FT_ERROR
 (
 (
 "
-_bdf_parse_start
+bdf_parse_start_
 :
 "
 ERRMSG9
@@ -10405,7 +10405,7 @@ lineno
 =
 0
 ;
-_bdf_parse_t
+bdf_parse_t_
 *
 p
 =
@@ -10441,7 +10441,7 @@ opts
 opts
 :
 &
-_bdf_opts
+bdf_opts_
 )
 ;
 p
@@ -10468,7 +10468,7 @@ memory
 =
 memory
 ;
-_bdf_list_init
+bdf_list_init_
 (
 &
 p
@@ -10480,10 +10480,10 @@ memory
 ;
 error
 =
-_bdf_readstream
+bdf_readstream_
 (
 stream
-_bdf_parse_start
+bdf_parse_start_
 (
 void
 *
@@ -11119,7 +11119,7 @@ if
 p
 )
 {
-_bdf_list_done
+bdf_list_done_
 (
 &
 p

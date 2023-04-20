@@ -1323,6 +1323,8 @@ tail
 <
 16
 ;
+FALL_THROUGH
+;
 case
 14
 :
@@ -1339,6 +1341,8 @@ tail
 <
 <
 8
+;
+FALL_THROUGH
 ;
 case
 13
@@ -1377,6 +1381,8 @@ h4
 =
 k4
 ;
+FALL_THROUGH
+;
 case
 12
 :
@@ -1393,6 +1399,8 @@ tail
 <
 <
 24
+;
+FALL_THROUGH
 ;
 case
 11
@@ -1411,6 +1419,8 @@ tail
 <
 16
 ;
+FALL_THROUGH
+;
 case
 10
 :
@@ -1427,6 +1437,8 @@ tail
 <
 <
 8
+;
+FALL_THROUGH
 ;
 case
 9
@@ -1465,6 +1477,8 @@ h3
 =
 k3
 ;
+FALL_THROUGH
+;
 case
 8
 :
@@ -1481,6 +1495,8 @@ tail
 <
 <
 24
+;
+FALL_THROUGH
 ;
 case
 7
@@ -1499,6 +1515,8 @@ tail
 <
 16
 ;
+FALL_THROUGH
+;
 case
 6
 :
@@ -1515,6 +1533,8 @@ tail
 <
 <
 8
+;
+FALL_THROUGH
 ;
 case
 5
@@ -1553,6 +1573,8 @@ h2
 =
 k2
 ;
+FALL_THROUGH
+;
 case
 4
 :
@@ -1569,6 +1591,8 @@ tail
 <
 <
 24
+;
+FALL_THROUGH
 ;
 case
 3
@@ -1587,6 +1611,8 @@ tail
 <
 16
 ;
+FALL_THROUGH
+;
 case
 2
 :
@@ -1603,6 +1629,8 @@ tail
 <
 <
 8
+;
+FALL_THROUGH
 ;
 case
 1

@@ -140,13 +140,6 @@ init
 table
 -
 >
-num_elems
-=
-0
-;
-table
--
->
 block
 =
 NULL
@@ -607,9 +600,6 @@ memory
 ;
 if
 (
-(
-FT_ULong
-)
 table
 -
 >

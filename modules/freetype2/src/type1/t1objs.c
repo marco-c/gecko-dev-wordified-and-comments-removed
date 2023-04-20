@@ -473,6 +473,13 @@ FT_GlyphSlot
 slot
 )
 {
+if
+(
+slot
+-
+>
+internal
+)
 slot
 -
 >

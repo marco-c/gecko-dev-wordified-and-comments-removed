@@ -735,17 +735,6 @@ style_class
 AF_WritingSystemClass
 writing_system_class
 ;
-if
-(
-!
-size
-)
-return
-FT_THROW
-(
-Invalid_Size_Handle
-)
-;
 FT_ZERO
 (
 &

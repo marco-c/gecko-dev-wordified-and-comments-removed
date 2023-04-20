@@ -106,11 +106,12 @@ face
 )
 ;
 }
-FT_Set_Charmap
-(
 face
+-
+>
+charmap
+=
 oldmap
-)
 ;
 return
 FT_Err_Ok

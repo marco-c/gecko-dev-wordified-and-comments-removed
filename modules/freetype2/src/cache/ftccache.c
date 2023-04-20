@@ -959,7 +959,7 @@ node
 count
 (
 %
-d
+u
 )
 \
 n

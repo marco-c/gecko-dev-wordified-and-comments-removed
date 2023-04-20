@@ -113,7 +113,7 @@ C
 )
 2018
 -
-2022
+2023
 by
 *
 /
@@ -297,8 +297,8 @@ h
 define
 FT_VERSION
 2
-12
-1
+13
+0
 0
 #
 define
@@ -306,9 +306,9 @@ FT_VERSION_STR
 "
 2
 .
-12
+13
 .
-1
+0
 "
 VS_VERSION_INFO
 VERSIONINFO
@@ -360,7 +360,7 @@ StringFileInfo
 BEGIN
 BLOCK
 "
-040904E4
+040904B0
 "
 BEGIN
 VALUE
@@ -402,12 +402,13 @@ VALUE
 "
 LegalCopyright
 "
+L
 "
 \
-251
+x00A9
 2000
 -
-2022
+2023
 The
 FreeType
 Project
@@ -493,6 +494,6 @@ VALUE
 Translation
 "
 0x409
-1252
+1200
 END
 END

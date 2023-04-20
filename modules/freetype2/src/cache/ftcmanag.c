@@ -1132,6 +1132,13 @@ max_bytes
 manager
 -
 >
+cur_weight
+=
+0
+;
+manager
+-
+>
 request_face
 =
 requester
@@ -1444,9 +1451,6 @@ cache_index
 ;
 if
 (
-(
-FT_UInt
-)
 node
 -
 >
@@ -1471,7 +1475,7 @@ cache
 index
 =
 %
-ld
+hu
 \
 n
 "
@@ -1608,11 +1612,11 @@ cache
 node
 count
 %
-d
+u
 instead
 of
 %
-d
+u
 \
 n
 "
@@ -1680,7 +1684,7 @@ ld
 nodes
 =
 %
-d
+u
 \
 n
 "
@@ -2174,9 +2178,6 @@ node
 manager
 &
 &
-(
-FT_UInt
-)
 node
 -
 >

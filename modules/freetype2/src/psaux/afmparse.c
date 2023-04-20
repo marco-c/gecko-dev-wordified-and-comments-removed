@@ -1649,7 +1649,7 @@ return
 FT_Err_Ok
 ;
 }
-FT_LOCAL
+FT_LOCAL_DEF
 (
 void
 )
@@ -3870,6 +3870,8 @@ error
 )
 goto
 Fail
+;
+FALL_THROUGH
 ;
 case
 AFM_TOKEN_ENDFONTMETRICS

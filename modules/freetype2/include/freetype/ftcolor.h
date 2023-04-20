@@ -262,6 +262,9 @@ FT_Byte
 *
 p
 ;
+FT_Bool
+read_variable
+;
 }
 FT_ColorStopIterator
 ;
@@ -282,7 +285,7 @@ typedef
 struct
 FT_ColorStop_
 {
-FT_F2Dot14
+FT_Fixed
 stop_offset
 ;
 FT_ColorIndex

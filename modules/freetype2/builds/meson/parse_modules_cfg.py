@@ -376,7 +376,7 @@ RASTER_MODULES
 ]
 :
         
-name
+names
 =
 {
             
@@ -384,25 +384,44 @@ name
 raster
 "
 :
+(
 "
 ft_raster1
 "
+)
             
 "
 smooth
 "
 :
+(
 "
 ft_smooth
 "
+)
             
 "
 svg
 "
 :
+(
 "
 ft_svg
 "
+)
+            
+"
+sdf
+"
+:
+(
+"
+ft_sdf
+"
+"
+ft_bitmap_sdf
+"
+)
         
 }
 .
@@ -411,11 +430,17 @@ get
 module
 )
         
+for
+name
+in
+names
+:
+            
 result
 +
 =
 (
-            
+                
 "
 FT_USE_MODULE
 (
@@ -428,7 +453,7 @@ n
 "
 %
 name
-        
+            
 )
     
 for

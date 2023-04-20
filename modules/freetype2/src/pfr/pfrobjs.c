@@ -556,8 +556,10 @@ pfrface
 -
 >
 face_flags
+&
 =
-0
+~
+FT_FACE_FLAG_SCALABLE
 ;
 else
 {
@@ -594,6 +596,7 @@ Exit
 }
 if
 (
+!
 (
 phy_font
 -
@@ -602,9 +605,6 @@ flags
 &
 PFR_PHY_PROPORTIONAL
 )
-=
-=
-0
 )
 pfrface
 -
@@ -1406,6 +1406,7 @@ Exit
 }
 if
 (
+!
 (
 load_flags
 &
@@ -1415,9 +1416,6 @@ FT_LOAD_NO_SCALE
 FT_LOAD_NO_BITMAP
 )
 )
-=
-=
-0
 )
 {
 error
@@ -2066,22 +2064,10 @@ y
 =
 0
 ;
-if
-(
-glyph1
->
-0
-)
 glyph1
 -
 -
 ;
-if
-(
-glyph2
->
-0
-)
 glyph2
 -
 -
@@ -2090,6 +2076,7 @@ if
 (
 glyph1
 >
+=
 phy_font
 -
 >
@@ -2098,6 +2085,7 @@ num_chars
 |
 glyph2
 >
+=
 phy_font
 -
 >

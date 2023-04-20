@@ -958,8 +958,6 @@ png
 NULL
 )
 ;
-return
-;
 }
 ft_memcpy
 (
@@ -1586,6 +1584,8 @@ color_type
 {
 default
 :
+FALL_THROUGH
+;
 case
 PNG_COLOR_TYPE_RGB_ALPHA
 :

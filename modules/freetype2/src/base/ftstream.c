@@ -1316,7 +1316,7 @@ result
 }
 FT_BASE_DEF
 (
-FT_UShort
+FT_UInt16
 )
 FT_Stream_GetUShort
 (
@@ -1328,7 +1328,7 @@ FT_Byte
 *
 p
 ;
-FT_UShort
+FT_UInt16
 result
 ;
 FT_ASSERT
@@ -1384,7 +1384,7 @@ result
 }
 FT_BASE_DEF
 (
-FT_UShort
+FT_UInt16
 )
 FT_Stream_GetUShortLE
 (
@@ -1396,7 +1396,7 @@ FT_Byte
 *
 p
 ;
-FT_UShort
+FT_UInt16
 result
 ;
 FT_ASSERT
@@ -1452,7 +1452,7 @@ result
 }
 FT_BASE_DEF
 (
-FT_ULong
+FT_UInt32
 )
 FT_Stream_GetUOffset
 (
@@ -1464,7 +1464,7 @@ FT_Byte
 *
 p
 ;
-FT_ULong
+FT_UInt32
 result
 ;
 FT_ASSERT
@@ -1520,7 +1520,7 @@ result
 }
 FT_BASE_DEF
 (
-FT_ULong
+FT_UInt32
 )
 FT_Stream_GetULong
 (
@@ -1532,7 +1532,7 @@ FT_Byte
 *
 p
 ;
-FT_ULong
+FT_UInt32
 result
 ;
 FT_ASSERT
@@ -1588,7 +1588,7 @@ result
 }
 FT_BASE_DEF
 (
-FT_ULong
+FT_UInt32
 )
 FT_Stream_GetULongLE
 (
@@ -1600,7 +1600,7 @@ FT_Byte
 *
 p
 ;
-FT_ULong
+FT_UInt32
 result
 ;
 FT_ASSERT
@@ -1809,7 +1809,7 @@ result
 }
 FT_BASE_DEF
 (
-FT_UShort
+FT_UInt16
 )
 FT_Stream_ReadUShort
 (
@@ -1830,7 +1830,7 @@ FT_Byte
 *
 p
 ;
-FT_UShort
+FT_UInt16
 result
 =
 0
@@ -1988,7 +1988,7 @@ result
 }
 FT_BASE_DEF
 (
-FT_UShort
+FT_UInt16
 )
 FT_Stream_ReadUShortLE
 (
@@ -2009,7 +2009,7 @@ FT_Byte
 *
 p
 ;
-FT_UShort
+FT_UInt16
 result
 =
 0
@@ -2346,7 +2346,7 @@ result
 }
 FT_BASE_DEF
 (
-FT_ULong
+FT_UInt32
 )
 FT_Stream_ReadULong
 (
@@ -2367,7 +2367,7 @@ FT_Byte
 *
 p
 ;
-FT_ULong
+FT_UInt32
 result
 =
 0
@@ -2525,7 +2525,7 @@ result
 }
 FT_BASE_DEF
 (
-FT_ULong
+FT_UInt32
 )
 FT_Stream_ReadULongLE
 (
@@ -2546,7 +2546,7 @@ FT_Byte
 *
 p
 ;
-FT_ULong
+FT_UInt32
 result
 =
 0

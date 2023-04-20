@@ -192,6 +192,9 @@ unsigned
 endif
 #
 endif
+#
+ifndef
+Z_FREETYPE
 extern
 z_const
 char
@@ -202,6 +205,8 @@ z_errmsg
 10
 ]
 ;
+#
+endif
 #
 define
 ERR_MSG
@@ -849,6 +854,17 @@ OF
 (
 uLong
 uLong
+z_off_t
+)
+)
+;
+ZEXTERN
+uLong
+ZEXPORT
+crc32_combine_gen64
+OF
+(
+(
 z_off_t
 )
 )

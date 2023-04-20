@@ -3248,6 +3248,8 @@ goto
 Fail
 ;
 }
+FALL_THROUGH
+;
 case
 BEFORE_TABLE_DIR
 :
@@ -3539,6 +3541,8 @@ goto
 Fail
 ;
 }
+FALL_THROUGH
+;
 case
 OTHER_TABLES
 :

@@ -427,11 +427,6 @@ n
 }
 #
 endif
-if
-(
-!
-error
-)
 result
 =
 (
@@ -979,7 +974,7 @@ in
 load_flags
 0x
 %
-x
+lx
 are
 dropped
 \
@@ -1551,7 +1546,7 @@ in
 load_flags
 0x
 %
-x
+lx
 are
 dropped
 \

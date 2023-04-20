@@ -4,6 +4,15 @@ FT_MAKE_OPTION_SINGLE_OBJECT
 #
 include
 "
+ft
+-
+hb
+.
+c
+"
+#
+include
+"
 afblue
 .
 c

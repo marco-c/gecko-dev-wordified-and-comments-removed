@@ -47,6 +47,7 @@ DISTS
 }
 codetype
 ;
+static
 int
 ZLIB_INTERNAL
 inflate_table

@@ -116,7 +116,7 @@ FT_Int32
 load_flags
 )
 ;
-FT_LOCAL_DEF
+FT_LOCAL
 (
 FT_Fixed
 )
