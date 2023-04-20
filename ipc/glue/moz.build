@@ -244,11 +244,6 @@ RandomAccessStreamUtils
 h
 "
 "
-RawShmem
-.
-h
-"
-"
 ScopedPort
 .
 h
@@ -881,11 +876,6 @@ cpp
 "
 "
 RandomAccessStreamUtils
-.
-cpp
-"
-"
-RawShmem
 .
 cpp
 "
