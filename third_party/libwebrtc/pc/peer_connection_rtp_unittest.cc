@@ -834,6 +834,12 @@ observer
 )
 ;
 }
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 }
 ;
 class

@@ -342,6 +342,12 @@ kGenerationTimeoutMs
 =
 10000
 ;
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 scoped_refptr
 <
 RTCCertificateGeneratorFixture

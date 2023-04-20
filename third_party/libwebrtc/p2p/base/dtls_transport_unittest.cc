@@ -2188,6 +2188,12 @@ protected
 rtc
 :
 :
+AutoThread
+main_thread_
+;
+rtc
+:
+:
 ScopedFakeClock
 fake_clock_
 ;

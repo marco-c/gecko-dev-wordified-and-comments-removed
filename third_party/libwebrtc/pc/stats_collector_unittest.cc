@@ -4656,6 +4656,14 @@ srtp_crypto_suite
 )
 ;
 }
+private
+:
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 }
 ;
 static

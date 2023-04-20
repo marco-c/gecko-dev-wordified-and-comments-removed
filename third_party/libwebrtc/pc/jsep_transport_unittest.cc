@@ -1152,6 +1152,12 @@ signal_rtcp_mux_active_received_
 true
 ;
 }
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 std
 :
 :

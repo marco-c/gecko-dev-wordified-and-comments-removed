@@ -314,6 +314,12 @@ true
 }
 protected
 :
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 StunRequestManager
 manager_
 ;

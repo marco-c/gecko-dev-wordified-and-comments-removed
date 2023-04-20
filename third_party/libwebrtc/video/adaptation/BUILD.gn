@@ -996,6 +996,17 @@ task_queue_for_test
 .
 /
 rtc_base
+:
+threading
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
 /
 task_utils
 :

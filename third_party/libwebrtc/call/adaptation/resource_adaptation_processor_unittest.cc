@@ -667,6 +667,12 @@ ProcessMessages
 }
 protected
 :
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 webrtc
 :
 :

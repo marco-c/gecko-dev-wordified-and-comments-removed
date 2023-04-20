@@ -9685,6 +9685,12 @@ MoveValue
 rtc
 :
 :
+AutoThread
+main_thread_
+;
+rtc
+:
+:
 scoped_refptr
 <
 PeerConnectionFactoryInterface

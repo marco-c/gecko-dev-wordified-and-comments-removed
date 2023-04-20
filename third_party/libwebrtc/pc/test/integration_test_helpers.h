@@ -10129,6 +10129,12 @@ sdp_semantics_
 ;
 private
 :
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 std
 :
 :

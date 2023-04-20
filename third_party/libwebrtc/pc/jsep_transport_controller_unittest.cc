@@ -2276,6 +2276,12 @@ return
 true
 ;
 }
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 cricket
 :
 :

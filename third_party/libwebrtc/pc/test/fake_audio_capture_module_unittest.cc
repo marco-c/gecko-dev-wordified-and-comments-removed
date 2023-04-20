@@ -487,6 +487,12 @@ return
 min_buffer_size
 ;
 }
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 mutable
 webrtc
 :

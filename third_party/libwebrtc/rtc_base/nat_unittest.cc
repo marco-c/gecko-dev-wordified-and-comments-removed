@@ -1373,6 +1373,12 @@ test
 ScopedKeyValueConfig
 field_trials
 ;
+rtc
+:
+:
+AutoThread
+main_thread
+;
 PhysicalSocketServer
 socket_server
 ;
@@ -1818,6 +1824,12 @@ int
 family
 )
 {
+rtc
+:
+:
+AutoThread
+main_thread
+;
 std
 :
 :

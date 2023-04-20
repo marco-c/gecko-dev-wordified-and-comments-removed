@@ -4544,6 +4544,12 @@ GetIdentityForTesting
 )
 ;
 }
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 std
 :
 :

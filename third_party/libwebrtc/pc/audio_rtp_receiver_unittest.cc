@@ -265,6 +265,12 @@ nullptr
 rtc
 :
 :
+AutoThread
+main_thread_
+;
+rtc
+:
+:
 Thread
 *
 worker_

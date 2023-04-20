@@ -9038,6 +9038,12 @@ media_channel
 )
 ;
 }
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 const
 bool
 verify_playout_

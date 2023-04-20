@@ -519,6 +519,12 @@ RtpVideoStreamReceiverFrameTransformerDelegateTest
 ManageFrameOnTransformedFrame
 )
 {
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 TestRtpVideoFrameReceiver
 receiver
 ;

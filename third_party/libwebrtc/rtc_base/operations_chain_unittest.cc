@@ -1753,6 +1753,12 @@ OperationsChainTest
 OnChainEmptyCallback
 )
 {
+rtc
+:
+:
+AutoThread
+main_thread
+;
 OperationTrackerProxy
 operation_tracker_proxy
 ;

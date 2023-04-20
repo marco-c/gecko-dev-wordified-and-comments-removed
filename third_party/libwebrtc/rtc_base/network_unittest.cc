@@ -1850,6 +1850,12 @@ test
 ScopedKeyValueConfig
 field_trials_
 ;
+rtc
+:
+:
+AutoThread
+main_thread_
+;
 bool
 callback_called_
 ;

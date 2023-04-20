@@ -272,11 +272,6 @@ RemoteAudioSource
 (
 )
 {
-RTC_DCHECK_RUN_ON
-(
-main_thread_
-)
-;
 RTC_DCHECK
 (
 audio_observers_

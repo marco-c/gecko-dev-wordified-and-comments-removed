@@ -155,6 +155,11 @@ Current
 )
 )
 {
+RTC_DCHECK
+(
+network_thread_
+)
+;
 }
 ~
 FakeIceTransport

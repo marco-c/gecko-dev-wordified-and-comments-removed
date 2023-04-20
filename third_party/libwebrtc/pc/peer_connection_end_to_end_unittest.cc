@@ -1399,6 +1399,12 @@ protected
 rtc
 :
 :
+AutoThread
+main_thread_
+;
+rtc
+:
+:
 PhysicalSocketServer
 pss_
 ;

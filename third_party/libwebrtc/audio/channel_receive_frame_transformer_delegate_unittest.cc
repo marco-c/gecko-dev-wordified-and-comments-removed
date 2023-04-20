@@ -291,6 +291,12 @@ TransformRunsChannelReceiveCallback
 rtc
 :
 :
+AutoThread
+main_thread
+;
+rtc
+:
+:
 scoped_refptr
 <
 MockFrameTransformer
@@ -494,6 +500,12 @@ ChannelReceiveFrameTransformerDelegateTest
 OnTransformedDoesNotRunChannelReceiveCallbackAfterReset
 )
 {
+rtc
+:
+:
+AutoThread
+main_thread
+;
 rtc
 :
 :
