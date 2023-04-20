@@ -5509,6 +5509,7 @@ IntSize
 1
 1
 )
+TEST_CASE_IS_TRANSPARENT
 )
 ;
 }
