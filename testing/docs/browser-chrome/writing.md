@@ -370,8 +370,6 @@ be
 something
 like
 :
-lang
-=
 js
 add_task
 (
@@ -471,8 +469,6 @@ SpecialPowers
 .
 spawn
 :
-lang
-=
 js
 let
 result
@@ -616,8 +612,6 @@ available
 on
 BrowserTestUtils
 :
-lang
-=
 js
 await
 BrowserTestUtils
@@ -650,8 +644,6 @@ SpecialPowers
 .
 pushPrefEnv
 :
-lang
-=
 js
 await
 SpecialPowers
@@ -757,8 +749,6 @@ TestUtils
 topicObserved
 )
 :
-lang
-=
 js
 await
 TestUtils
@@ -789,8 +779,6 @@ waitForEvent
 )
 respectively
 :
-lang
-=
 js
 await
 BrowserTestUtils
@@ -884,8 +872,6 @@ using
 something
 like
 :
-lang
-=
 js
 const
 {
@@ -959,8 +945,6 @@ browser
 ini
 file
 :
-lang
-=
 ini
 [
 browser_foo
