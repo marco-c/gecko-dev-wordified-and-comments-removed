@@ -3537,6 +3537,10 @@ true
 )
 ;
 }
+RecomputeCanExecuteScripts
+(
+)
+;
 }
 class
 MOZ_STACK_CLASS
