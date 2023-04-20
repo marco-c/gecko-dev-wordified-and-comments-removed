@@ -77,11 +77,6 @@ ViewTimeline
 (
 viewTimelineOptions
 )
-fill
-:
-'
-none
-'
 }
 )
 ;
@@ -130,6 +125,11 @@ waitForNextFrame
 const
 anim
 =
+options
+.
+anim
+|
+|
 CreateViewTimelineOpacityAnimation
 (
 t
@@ -298,6 +298,9 @@ message
 }
 )
 ;
+return
+anim
+;
 }
 async
 function
@@ -422,7 +425,7 @@ both
 '
 }
 ;
-await
+return
 runTimelineRangeTest
 (
 t
@@ -489,7 +492,7 @@ join
 '
 )
 ;
-await
+return
 runTimelineRangeTest
 (
 t
