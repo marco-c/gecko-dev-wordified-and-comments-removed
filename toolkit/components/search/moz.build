@@ -140,6 +140,16 @@ sys
 mjs
 "
 ]
+EXTRA_COMPONENTS
++
+=
+[
+"
+toolkitsearch
+.
+manifest
+"
+]
 XPCOM_MANIFESTS
 +
 =
