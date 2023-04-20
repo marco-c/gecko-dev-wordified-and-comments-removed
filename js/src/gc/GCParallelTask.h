@@ -595,6 +595,14 @@ runFromMainThread
 )
 ;
 void
+runFromMainThread
+(
+AutoLockHelperThreadState
+&
+lock
+)
+;
+void
 startOrRunIfIdle
 (
 AutoLockHelperThreadState
