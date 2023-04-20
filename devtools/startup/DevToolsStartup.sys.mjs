@@ -2850,6 +2850,16 @@ this
 isDisabledByPolicy
 (
 )
+|
+|
+AppConstants
+.
+MOZ_APP_NAME
+=
+=
+"
+thunderbird
+"
 )
 {
 return
