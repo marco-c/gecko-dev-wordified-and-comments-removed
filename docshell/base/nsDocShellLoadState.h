@@ -900,14 +900,6 @@ GetUnstrippedURI
 )
 const
 ;
-void
-SetUnstrippedURI
-(
-nsIURI
-*
-aUnstrippedURI
-)
-;
 nsresult
 SetupInheritingPrincipal
 (
@@ -1215,6 +1207,11 @@ dom
 BrowsingContext
 *
 aContext
+nsIURI
+*
+aCurrentUnstrippedURI
+=
+nullptr
 )
 ;
 protected

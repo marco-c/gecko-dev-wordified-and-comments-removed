@@ -138,12 +138,6 @@ mResultPrincipalURI
 ;
 nsCOMPtr
 <
-nsIURI
->
-mUnstrippedURI
-;
-nsCOMPtr
-<
 nsIReferrerInfo
 >
 mReferrerInfo
