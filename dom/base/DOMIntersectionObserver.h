@@ -746,6 +746,17 @@ Document
 &
 )
 ;
+static
+already_AddRefed
+<
+DOMIntersectionObserver
+>
+CreateContentVisibilityObserver
+(
+Document
+&
+)
+;
 protected
 :
 void

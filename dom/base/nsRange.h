@@ -1480,6 +1480,12 @@ NotifySelectionListenersAfterRangeSet
 (
 )
 ;
+nsINode
+*
+GetRegisteredClosestCommonInclusiveAncestor
+(
+)
+;
 protected
 :
 void
@@ -1544,12 +1550,6 @@ bool
 aNotInsertedYet
 =
 false
-)
-;
-nsINode
-*
-GetRegisteredClosestCommonInclusiveAncestor
-(
 )
 ;
 class
