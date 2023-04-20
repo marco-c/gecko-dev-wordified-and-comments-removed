@@ -2591,6 +2591,14 @@ packetsSent
 ;
 stats
 .
+total_packet_send_delay
+=
+call_stats
+.
+total_packet_send_delay
+;
+stats
+.
 retransmitted_packets_sent
 =
 call_stats
