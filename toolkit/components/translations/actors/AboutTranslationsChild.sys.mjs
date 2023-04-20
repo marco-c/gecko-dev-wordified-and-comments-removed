@@ -1454,6 +1454,12 @@ string
 }
 messageBatch
 *
+param
+{
+number
+}
+innerWindowId
+*
 returns
 {
 Promise
@@ -1468,6 +1474,7 @@ string
 AT_translate
 (
 messageBatch
+innerWindowId
 )
 {
 if
@@ -1513,6 +1520,7 @@ translationsEngine
 translateHTML
 (
 messageBatch
+innerWindowId
 )
 :
 this
@@ -1522,6 +1530,7 @@ translationsEngine
 translateText
 (
 messageBatch
+innerWindowId
 )
 ;
 return

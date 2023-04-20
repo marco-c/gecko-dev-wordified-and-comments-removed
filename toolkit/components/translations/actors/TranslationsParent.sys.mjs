@@ -449,8 +449,6 @@ coordinate
 the
 downloads
 .
-See
-getLanguagePair
 *
 *
 type
