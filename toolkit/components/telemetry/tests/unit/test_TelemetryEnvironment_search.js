@@ -1981,11 +1981,11 @@ engine
 .
 wrappedJSObject
 .
-updateFromManifest
+update
 (
-extension
-.
-baseURI
+{
+manifest
+:
 SearchTestUtils
 .
 createEngineManifest
@@ -2020,6 +2020,7 @@ fake2
 "
 }
 )
+}
 )
 ;
 await
