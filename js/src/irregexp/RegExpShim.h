@@ -6260,6 +6260,11 @@ JitCode
 }
 ;
 class
+InstructionStream
+{
+}
+;
+class
 Label
 {
 public
