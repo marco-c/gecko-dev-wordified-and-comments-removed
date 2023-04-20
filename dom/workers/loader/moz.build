@@ -58,11 +58,6 @@ ScriptResponseHeaderProcessor
 .
 h
 "
-"
-WorkerModuleLoader
-.
-h
-"
 ]
 UNIFIED_SOURCES
 +
@@ -85,11 +80,6 @@ cpp
 "
 "
 WorkerLoadContext
-.
-cpp
-"
-"
-WorkerModuleLoader
 .
 cpp
 "

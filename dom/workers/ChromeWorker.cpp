@@ -94,14 +94,6 @@ cx
 aScriptURL
 true
 WorkerKindDedicated
-RequestCredentials
-:
-:
-Omit
-WorkerType
-:
-:
-Classic
 u
 "
 "

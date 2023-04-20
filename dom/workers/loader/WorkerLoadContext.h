@@ -128,7 +128,6 @@ Kind
 {
 MainScript
 ImportScript
-StaticImport
 DebuggerScript
 }
 ;
