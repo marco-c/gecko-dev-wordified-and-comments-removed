@@ -61,9 +61,6 @@ import
 actionCreators
 as
 ac
-actionTypes
-as
-at
 }
 from
 "
@@ -215,6 +212,7 @@ _dispatchImpressionStats
 {
 const
 {
+actionType
 tile
 }
 =
@@ -222,6 +220,15 @@ this
 .
 props
 ;
+if
+(
+!
+actionType
+)
+{
+return
+;
+}
 this
 .
 props
@@ -235,9 +242,7 @@ OnlyToMain
 {
 type
 :
-at
-.
-TOP_SITES_IMPRESSION_STATS
+actionType
 data
 :
 {
@@ -720,6 +725,9 @@ document
 global
 .
 document
+actionType
+:
+null
 tile
 :
 null

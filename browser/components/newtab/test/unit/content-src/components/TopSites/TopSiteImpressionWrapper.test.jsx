@@ -169,6 +169,11 @@ const
 DEFAULT_PROPS
 =
 {
+actionType
+:
+at
+.
+TOP_SITES_SPONSORED_IMPRESSION_STATS
 tile
 :
 {
@@ -462,7 +467,7 @@ action
 type
 at
 .
-TOP_SITES_IMPRESSION_STATS
+TOP_SITES_SPONSORED_IMPRESSION_STATS
 )
 ;
 assert
@@ -600,7 +605,7 @@ action
 type
 at
 .
-TOP_SITES_IMPRESSION_STATS
+TOP_SITES_SPONSORED_IMPRESSION_STATS
 )
 ;
 assert
