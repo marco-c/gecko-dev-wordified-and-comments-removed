@@ -182,7 +182,6 @@ from
 Chromium
 .
 *
-*
 see
 https
 :
@@ -231,7 +230,6 @@ from
 Chromium
 .
 *
-*
 see
 https
 :
@@ -278,7 +276,6 @@ from
 Chromium
 .
 *
-*
 see
 https
 :
@@ -324,7 +321,6 @@ kEncryptionVersionPrefix
 from
 Chromium
 .
-*
 *
 see
 https
@@ -384,7 +380,6 @@ in
 decimal
 )
 .
-*
 *
 see
 https
@@ -836,7 +831,6 @@ a
 string
 .
 *
-*
 param
 {
 number
@@ -974,7 +968,7 @@ bytes
 *
 param
 {
-Array
+array
 }
 ciphertextArray
 ciphertext
