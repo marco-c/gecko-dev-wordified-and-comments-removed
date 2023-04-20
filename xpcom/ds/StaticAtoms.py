@@ -25752,17 +25752,6 @@ line
 PseudoElementAtom
 (
 "
-PseudoElement_highlight
-"
-"
-:
-highlight
-"
-)
-    
-PseudoElementAtom
-(
-"
 PseudoElement_selection
 "
 "
