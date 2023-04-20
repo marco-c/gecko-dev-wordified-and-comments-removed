@@ -763,9 +763,6 @@ override
 ;
 protected
 :
-class
-EncodeTask
-;
 TaskQueueFactory
 *
 const

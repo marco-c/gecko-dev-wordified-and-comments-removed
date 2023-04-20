@@ -759,8 +759,6 @@ task_queue_
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 this
 size
@@ -916,7 +914,6 @@ CurrentTime
 )
 ;
 }
-)
 )
 ;
 }
@@ -1392,8 +1389,6 @@ task_queue_
 >
 PostDelayedTask
 (
-ToQueuedTask
-(
 [
 this
 seq_num
@@ -1411,12 +1406,7 @@ CurrentTime
 )
 ;
 }
-)
 kPacketTimeout
-.
-ms
-(
-)
 )
 ;
 }
