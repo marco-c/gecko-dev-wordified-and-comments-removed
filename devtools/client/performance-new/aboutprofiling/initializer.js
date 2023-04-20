@@ -276,6 +276,8 @@ new
 /
 components
 /
+shared
+/
 ProfilerPreferenceObserver
 .
 js
@@ -318,6 +320,8 @@ performance
 new
 /
 components
+/
+aboutprofiling
 /
 AboutProfiling
 .

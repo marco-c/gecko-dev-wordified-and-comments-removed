@@ -90,6 +90,8 @@ new
 /
 components
 /
+aboutprofiling
+/
 Range
 .
 js
@@ -118,6 +120,8 @@ performance
 new
 /
 components
+/
+aboutprofiling
 /
 DirectoryPicker
 .

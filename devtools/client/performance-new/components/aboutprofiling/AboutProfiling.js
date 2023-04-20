@@ -143,6 +143,8 @@ new
 /
 components
 /
+aboutprofiling
+/
 Settings
 .
 js
@@ -171,6 +173,8 @@ performance
 new
 /
 components
+/
+aboutprofiling
 /
 Presets
 .
