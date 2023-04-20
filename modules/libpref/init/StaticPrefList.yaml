@@ -11665,7 +11665,7 @@ type
 int32_t
 value
 :
-360000
+30000
 mirror
 :
 always
