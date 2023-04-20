@@ -9112,6 +9112,9 @@ dependencies
 "
 log
 "
+"
+termcolor
+"
 ]
 [
 [

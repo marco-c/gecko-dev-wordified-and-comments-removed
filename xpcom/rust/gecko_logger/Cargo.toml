@@ -80,6 +80,13 @@ default
 features
 =
 false
+features
+=
+[
+"
+termcolor
+"
+]
 }
 #
 disable
