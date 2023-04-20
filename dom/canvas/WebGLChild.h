@@ -52,6 +52,11 @@ flushedCmdBytes
 =
 0
 ;
+size_t
+overhead
+=
+0
+;
 }
 ;
 class
@@ -85,6 +90,11 @@ mPendingCmdsPos
 =
 0
 ;
+size_t
+mPendingCmdsAlignmentOverhead
+=
+0
+;
 FlushedCmdInfo
 mFlushedCmdInfo
 ;
@@ -113,6 +123,8 @@ uint8_t
 AllocPendingCmdBytes
 (
 size_t
+size_t
+fyiAlignmentOverhead
 )
 ;
 void

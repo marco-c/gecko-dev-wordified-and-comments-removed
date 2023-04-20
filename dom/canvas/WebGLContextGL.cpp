@@ -6239,7 +6239,10 @@ const
 Range
 <
 const
-uint8_t
+webgl
+:
+:
+UniformDataVal
 >
 &
 data
@@ -6367,11 +6370,6 @@ data
 .
 length
 (
-)
-/
-sizeof
-(
-float
 )
 ;
 const

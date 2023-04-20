@@ -3272,6 +3272,10 @@ transpose
 const
 RawBuffer
 <
+webgl
+:
+:
+UniformDataVal
 >
 &
 data
