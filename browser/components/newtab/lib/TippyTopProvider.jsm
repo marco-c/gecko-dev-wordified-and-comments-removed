@@ -231,9 +231,9 @@ catch
 error
 )
 {
-console
+Cu
 .
-error
+reportError
 (
 "
 Failed

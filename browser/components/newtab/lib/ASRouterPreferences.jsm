@@ -346,9 +346,9 @@ catch
 e
 )
 {
-console
+Cu
 .
-error
+reportError
 (
 e
 )
@@ -417,9 +417,9 @@ catch
 e
 )
 {
-console
+Cu
 .
-error
+reportError
 (
 Could
 not
@@ -587,9 +587,9 @@ if
 config
 )
 {
-console
+Cu
 .
-error
+reportError
 (
 Cannot
 set

@@ -13089,9 +13089,9 @@ assert
 .
 calledTwice
 (
-console
+Cu
 .
-error
+reportError
 )
 ;
 }

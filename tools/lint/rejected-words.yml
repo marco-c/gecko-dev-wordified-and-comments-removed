@@ -118,16 +118,6 @@ kt
 exclude
 :
 -
-'
-*
-*
-/
-.
-eslintrc
-.
-js
-'
--
 browser
 /
 app

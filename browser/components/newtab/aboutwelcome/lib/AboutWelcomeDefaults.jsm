@@ -3502,9 +3502,9 @@ catch
 e
 )
 {
-console
+Cu
 .
-error
+reportError
 (
 "
 Failed

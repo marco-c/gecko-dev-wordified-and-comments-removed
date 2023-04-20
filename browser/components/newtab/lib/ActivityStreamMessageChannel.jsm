@@ -522,9 +522,9 @@ includes
 )
 )
 {
-console
+Cu
 .
-error
+reportError
 (
 "
 Invalid
@@ -1144,9 +1144,9 @@ data
 type
 )
 {
-console
+Cu
 .
-error
+reportError
 (
 new
 Error

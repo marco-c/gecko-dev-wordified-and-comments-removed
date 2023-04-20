@@ -1432,9 +1432,9 @@ catch
 e
 )
 {
-console
+Cu
 .
-error
+reportError
 (
 e
 )
@@ -1802,9 +1802,9 @@ catch
 err
 )
 {
-console
+Cu
 .
-error
+reportError
 (
 err
 )
@@ -1852,9 +1852,9 @@ catch
 err
 )
 {
-console
+Cu
 .
-error
+reportError
 (
 err
 )
@@ -1902,9 +1902,9 @@ catch
 err
 )
 {
-console
+Cu
 .
-error
+reportError
 (
 err
 )

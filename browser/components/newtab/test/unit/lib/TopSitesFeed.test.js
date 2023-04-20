@@ -5353,9 +5353,9 @@ assert
 .
 calledOnce
 (
-console
+Cu
 .
-error
+reportError
 )
 ;
 }
