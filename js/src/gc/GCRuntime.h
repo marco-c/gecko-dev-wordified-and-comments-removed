@@ -5857,6 +5857,12 @@ MainThreadData
 <
 bool
 >
+parallelMarkingEnabled
+;
+MainThreadData
+<
+bool
+>
 rootsRemoved
 ;
 #

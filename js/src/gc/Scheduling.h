@@ -264,6 +264,13 @@ true
 static
 const
 bool
+ParallelMarkingEnabled
+=
+false
+;
+static
+const
+bool
 BalancedHeapLimitsEnabled
 =
 false
