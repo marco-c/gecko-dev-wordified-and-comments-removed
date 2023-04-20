@@ -82,6 +82,13 @@ state
 :
 STATE_DOWNLOADING
 }
+expectedStateOverride
+:
+Ci
+.
+nsIApplicationUpdateService
+.
+STATE_DOWNLOADING
 }
 ]
 )
