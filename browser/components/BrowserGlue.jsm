@@ -12446,6 +12446,13 @@ feltPrivacyWindowSeparation
 )
 &
 &
+lazy
+.
+PrivateBrowsingUtils
+.
+enabled
+&
+&
 !
 Services
 .
