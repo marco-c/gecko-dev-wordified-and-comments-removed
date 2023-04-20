@@ -109,6 +109,15 @@ ScalabilityMode
 scalability_mode
 )
 ;
+ScalabilityMode
+LimitNumSpatialLayers
+(
+ScalabilityMode
+scalability_mode
+int
+max_spatial_layers
+)
+;
 }
 #
 endif
