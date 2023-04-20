@@ -38,6 +38,7 @@ dataForContent
 disabled
 runInPage
 languagePairs
+prefs
 }
 )
 {
@@ -73,6 +74,16 @@ logLevel
 All
 "
 ]
+.
+.
+.
+(
+prefs
+?
+?
+[
+]
+)
 ]
 }
 )
