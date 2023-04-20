@@ -397,7 +397,7 @@ desired
 *
 property
 {
-function
+Function
 }
 getCurrentSessionUrls
 *
@@ -870,7 +870,7 @@ sources
 *
 param
 {
-function
+Function
 }
 [
 options
@@ -1932,11 +1932,20 @@ a
 property
 .
 *
+*
+param
+{
+object
+}
+context
+*
 param
 {
 string
 }
 [
+context
+.
 url
 ]
 *
@@ -1953,6 +1962,8 @@ param
 number
 }
 [
+context
+.
 time
 ]
 *
@@ -1973,6 +1984,8 @@ PageDataSchema
 DATA_TYPE
 }
 [
+context
+.
 type
 ]
 *
@@ -1990,6 +2003,8 @@ param
 number
 }
 [
+context
+.
 sessionStartTime
 ]
 *
@@ -2012,6 +2027,8 @@ param
 string
 }
 [
+context
+.
 rebuildImmediately
 ]
 (
