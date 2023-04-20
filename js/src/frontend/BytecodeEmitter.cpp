@@ -913,7 +913,7 @@ parent
 )
 bytecodeSection_
 (
-cx
+ec
 sc
 -
 >
@@ -933,7 +933,13 @@ column
 )
 perScriptData_
 (
+ec
 cx
+-
+>
+frontendCollectionPool
+(
+)
 compilationState
 )
 errorReporter_
