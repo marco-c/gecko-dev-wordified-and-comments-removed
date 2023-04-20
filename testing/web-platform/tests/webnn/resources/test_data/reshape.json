@@ -841,8 +841,8 @@ being
 the
 special
 value
--
-1
+of
+null
 )
 "
 "
@@ -972,8 +972,7 @@ newShape
 :
 [
 4
--
-1
+null
 3
 1
 ]
@@ -1376,8 +1375,7 @@ tensor
 newShape
 =
 [
--
-1
+null
 ]
 "
 "
@@ -1506,8 +1504,7 @@ newShape
 "
 :
 [
--
-1
+null
 ]
 "
 expected
