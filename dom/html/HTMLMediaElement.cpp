@@ -1016,7 +1016,7 @@ LazyLogModule
 gMediaElementLog
 (
 "
-nsMediaElement
+HTMLMediaElement
 "
 )
 ;
@@ -1027,7 +1027,7 @@ LazyLogModule
 gMediaElementEventsLog
 (
 "
-nsMediaElementEvents
+HTMLMediaElementEvents
 "
 )
 ;
