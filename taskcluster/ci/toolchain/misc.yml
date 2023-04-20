@@ -1962,3 +1962,9 @@ toolchain
 linux64
 -
 clang
+-
+linux64
+-
+toolchain
+-
+sysroot
