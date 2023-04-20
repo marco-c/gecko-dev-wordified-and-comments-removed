@@ -677,7 +677,7 @@ tools_webrtc
 /
 perf
 /
-process_perf_results_py2
+process_perf_results
 .
 py
 '
@@ -843,7 +843,7 @@ tools_webrtc
 /
 perf
 /
-process_perf_results_py2
+process_perf_results
 .
 py
 '
