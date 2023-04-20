@@ -84,11 +84,6 @@ gr_font
 cpp
 '
 '
-gr_logging
-.
-cpp
-'
-'
 gr_segment
 .
 cpp
