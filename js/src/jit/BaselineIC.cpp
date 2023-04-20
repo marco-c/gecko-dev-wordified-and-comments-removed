@@ -3218,6 +3218,10 @@ next
 )
 ;
 }
+clearHasFoldedStub
+(
+)
+;
 }
 static
 void
