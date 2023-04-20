@@ -311,7 +311,9 @@ firefox
 REVIEWERS
 :
 "
-ryanvm
+release
+-
+managers
 "
 command
 :
