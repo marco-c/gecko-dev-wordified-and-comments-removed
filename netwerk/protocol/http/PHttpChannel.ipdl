@@ -266,6 +266,13 @@ Redirect3Complete
 )
 ;
 async
+RedirectFailed
+(
+nsresult
+status
+)
+;
+async
 ReportSecurityMessage
 (
 nsString
