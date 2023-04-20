@@ -251,6 +251,14 @@ arena_id_t
 )
 {
 }
+static
+void
+moz_set_max_dirty_page_modifier
+(
+int32_t
+)
+{
+}
 #
 define
 MALLOC_DECL

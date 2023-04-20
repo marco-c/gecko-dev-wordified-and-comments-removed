@@ -261,6 +261,12 @@ moz_dispose_arena
 void
 arena_id_t
 )
+MALLOC_DECL
+(
+moz_set_max_dirty_page_modifier
+void
+int32_t
+)
 #
 endif
 #

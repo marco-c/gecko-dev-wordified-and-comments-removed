@@ -91,6 +91,12 @@ arena_params_s
 size_t
 mMaxDirty
 ;
+int32_t
+mMaxDirtyIncreaseOverride
+;
+int32_t
+mMaxDirtyDecreaseOverride
+;
 uint32_t
 mFlags
 ;
@@ -102,6 +108,14 @@ arena_params_s
 )
 :
 mMaxDirty
+(
+0
+)
+mMaxDirtyIncreaseOverride
+(
+0
+)
+mMaxDirtyDecreaseOverride
 (
 0
 )
