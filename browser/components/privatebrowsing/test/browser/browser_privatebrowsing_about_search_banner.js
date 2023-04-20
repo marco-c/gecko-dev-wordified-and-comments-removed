@@ -5,7 +5,7 @@ AboutPrivateBrowsingParent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -17,7 +17,9 @@ actors
 /
 AboutPrivateBrowsingParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

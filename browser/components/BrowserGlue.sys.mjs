@@ -2578,7 +2578,7 @@ AboutPrivateBrowsing
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2590,13 +2590,15 @@ actors
 /
 AboutPrivateBrowsingParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2608,7 +2610,9 @@ actors
 /
 AboutPrivateBrowsingChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
