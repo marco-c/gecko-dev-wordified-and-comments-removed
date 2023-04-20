@@ -1311,6 +1311,7 @@ ok
 (
 extractedTotalNumber
 <
+=
 1024
 Unitless
 total
@@ -1553,6 +1554,7 @@ deltaTotalNumber
 &
 deltaTotalNumber
 <
+=
 1024
 Unitless
 delta
