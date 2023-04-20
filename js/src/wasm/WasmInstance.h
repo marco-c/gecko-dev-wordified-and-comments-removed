@@ -1611,7 +1611,7 @@ instance
 uint32_t
 byteOffset
 uint32_t
-len
+byteLen
 uint8_t
 *
 memBase
@@ -1627,7 +1627,7 @@ instance
 uint32_t
 byteOffset
 uint32_t
-len
+byteLen
 uint8_t
 *
 memBase
@@ -1643,7 +1643,7 @@ instance
 uint64_t
 byteOffset
 uint64_t
-len
+byteLen
 uint8_t
 *
 memBase
@@ -1659,7 +1659,7 @@ instance
 uint64_t
 byteOffset
 uint64_t
-len
+byteLen
 uint8_t
 *
 memBase
