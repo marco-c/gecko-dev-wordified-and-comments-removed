@@ -9599,6 +9599,9 @@ arguments
 offset
 :
 uint32_t
+preBarrierKind
+:
+WasmPreBarrierKind
 num_temps
 :
 1

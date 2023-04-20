@@ -41136,6 +41136,12 @@ temp
 (
 )
 valueOffset
+ins
+-
+>
+preBarrierKind
+(
+)
 )
 ins
 )
@@ -52207,6 +52213,12 @@ temp
 (
 )
 offset
+ins
+-
+>
+preBarrierKind
+(
+)
 )
 ins
 )
