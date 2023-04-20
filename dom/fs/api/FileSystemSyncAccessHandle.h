@@ -64,6 +64,9 @@ class
 Promise
 ;
 class
+StrongWorkerRef
+;
+class
 FileSystemSyncAccessHandle
 final
 :
@@ -297,6 +300,12 @@ nsCOMPtr
 nsIRandomAccessStream
 >
 mStream
+;
+RefPtr
+<
+StrongWorkerRef
+>
+mWorkerRef
 ;
 const
 fs
