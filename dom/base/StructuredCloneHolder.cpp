@@ -2310,7 +2310,7 @@ Clear
 (
 )
 ;
-mImages
+mVideoFrameImages
 .
 Clear
 (
@@ -5499,7 +5499,7 @@ ReadStructuredClone
 aCx
 mGlobal
 aReader
-Images
+VideoFrameImages
 (
 )
 [
