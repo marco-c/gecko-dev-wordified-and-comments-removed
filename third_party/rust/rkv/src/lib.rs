@@ -3,6 +3,14 @@
 [
 allow
 (
+warnings
+)
+]
+#
+!
+[
+allow
+(
 clippy
 :
 :
