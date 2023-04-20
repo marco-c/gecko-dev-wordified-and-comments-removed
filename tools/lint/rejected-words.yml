@@ -2470,7 +2470,9 @@ actors
 /
 RemotePageChild
 .
-jsm
+sys
+.
+mjs
 -
 toolkit
 /
