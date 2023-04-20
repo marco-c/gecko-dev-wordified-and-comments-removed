@@ -33,6 +33,9 @@ true
 require
 :
 true
+DebuggerNotificationObserver
+:
+true
 }
 overrides
 :

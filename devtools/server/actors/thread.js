@@ -4,16 +4,6 @@ strict
 "
 ;
 const
-DebuggerNotificationObserver
-=
-require
-(
-"
-DebuggerNotificationObserver
-"
-)
-;
-const
 {
 Pool
 }

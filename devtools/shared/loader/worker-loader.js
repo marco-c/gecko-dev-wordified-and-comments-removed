@@ -1671,6 +1671,7 @@ create
 null
 )
 ChromeUtils
+DebuggerNotificationObserver
 Cc
 :
 undefined
@@ -1696,7 +1697,6 @@ modules
 {
 Debugger
 xpcInspector
-DebuggerNotificationObserver
 }
 paths
 :
