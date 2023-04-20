@@ -3227,6 +3227,7 @@ if
 (
 DOUBLE_DECIMAL_IN_SHORTEST_LOW
 <
+=
 d
 &
 &
@@ -3263,6 +3264,7 @@ d
 &
 d
 <
+=
 -
 DOUBLE_DECIMAL_IN_SHORTEST_LOW
 )
