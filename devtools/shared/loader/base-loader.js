@@ -598,6 +598,12 @@ Headers
 InspectorUtils
 "
 "
+MIDIInputMap
+"
+"
+MIDIOutputMap
+"
+"
 Node
 "
 "
