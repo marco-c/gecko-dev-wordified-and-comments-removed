@@ -26,12 +26,6 @@ defined
 (
 ENABLE_TESTS
 )
-&
-&
-defined
-(
-MOZ_DEBUG
-)
 static
 const
 std
