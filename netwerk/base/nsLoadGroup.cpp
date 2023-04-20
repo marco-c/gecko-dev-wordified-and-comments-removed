@@ -1138,9 +1138,10 @@ rv
 request
 -
 >
-Cancel
+CancelWithReason
 (
 status
+mCanceledReason
 )
 ;
 if
