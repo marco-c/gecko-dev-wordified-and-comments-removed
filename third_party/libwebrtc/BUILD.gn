@@ -2690,16 +2690,6 @@ Foundation
 framework
 "
 ]
-cflags
-=
-[
-"
--
-fobjc
--
-arc
-"
-]
 }
 }
 if
