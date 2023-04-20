@@ -4618,7 +4618,7 @@ PanelAnimations
 :
 aResult
 =
-0
+sCSDAvailable
 ;
 break
 ;
