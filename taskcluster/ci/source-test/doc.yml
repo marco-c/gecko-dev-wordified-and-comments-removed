@@ -284,6 +284,13 @@ fatal
 warnings
 -
 -
+check
+-
+num
+-
+warnings
+-
+-
 dump
 -
 trees
@@ -557,6 +564,13 @@ serve
 -
 -
 fatal
+-
+warnings
+-
+-
+check
+-
+num
 -
 warnings
 -
