@@ -102,6 +102,12 @@ fs
 /
 include
 "
+"
+/
+netwerk
+/
+base
+"
 ]
 FINAL_LIBRARY
 =
