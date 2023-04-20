@@ -11,9 +11,9 @@ Text
     
 await_element
     
-load_page_and_wait_for_iframe
-    
 find_element
+    
+load_page_and_wait_for_iframe
 )
 URL
 =
