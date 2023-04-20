@@ -2676,6 +2676,15 @@ off
 {
 }
 }
+cookieBannerHandling
+:
+{
+getVariable
+(
+)
+{
+}
+}
 }
 TelemetryEnvironment
 :
