@@ -320,11 +320,6 @@ nsISizeOf
 h
 "
 "
-nsISupportsBase
-.
-h
-"
-"
 nsISupportsImpl
 .
 h

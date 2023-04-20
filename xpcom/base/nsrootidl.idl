@@ -118,6 +118,13 @@ nscore
 .
 h
 "
+#
+include
+"
+nsID
+.
+h
+"
 typedef
 int64_t
 PRTime
