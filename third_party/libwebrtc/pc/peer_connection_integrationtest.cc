@@ -8023,7 +8023,7 @@ GetAs
 webrtc
 :
 :
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 (
 *
@@ -8244,7 +8244,7 @@ GetAs
 webrtc
 :
 :
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 (
 *
@@ -8641,7 +8641,7 @@ GetStatsOfType
 webrtc
 :
 :
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 (
 )
@@ -8858,7 +8858,7 @@ GetStatsOfType
 webrtc
 :
 :
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 (
 )
@@ -8975,7 +8975,7 @@ GetStatsOfType
 webrtc
 :
 :
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 (
 )
@@ -16873,7 +16873,7 @@ GetStatsOfType
 webrtc
 :
 :
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 (
 )
@@ -16882,7 +16882,7 @@ const
 webrtc
 :
 :
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 *
 remote_track_stats
 =

@@ -592,7 +592,7 @@ if
 type
 =
 =
-RTCMediaStreamStats
+DEPRECATED_RTCMediaStreamStats
 :
 :
 kType
@@ -606,7 +606,7 @@ stream
 static_cast
 <
 const
-RTCMediaStreamStats
+DEPRECATED_RTCMediaStreamStats
 &
 >
 (
@@ -629,7 +629,7 @@ if
 type
 =
 =
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 :
 :
 kType
@@ -643,7 +643,7 @@ track
 static_cast
 <
 const
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 &
 >
 (

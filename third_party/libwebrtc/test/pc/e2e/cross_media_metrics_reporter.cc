@@ -256,7 +256,7 @@ report
 >
 GetAs
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 (
 *
@@ -498,7 +498,7 @@ report
 >
 GetAs
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 (
 *
@@ -516,7 +516,7 @@ report
 >
 GetAs
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 (
 *

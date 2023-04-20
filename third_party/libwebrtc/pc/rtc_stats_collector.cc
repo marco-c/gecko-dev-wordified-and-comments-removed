@@ -653,7 +653,7 @@ std
 :
 :
 string
-RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
+DEPRECATED_RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
 (
 const
 char
@@ -2314,7 +2314,7 @@ const
 MediaStreamTrackInterface
 &
 track
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 *
 track_stats
 )
@@ -5941,7 +5941,7 @@ std
 :
 unique_ptr
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 ProduceMediaStreamTrackStatsFromVoiceSenderInfo
 (
@@ -5966,7 +5966,7 @@ std
 :
 unique_ptr
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 audio_track_stats
 (
@@ -5975,10 +5975,10 @@ std
 :
 make_unique
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 (
-RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
+DEPRECATED_RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
 (
 kDirectionOutbound
 attachment_id
@@ -6096,7 +6096,7 @@ std
 :
 unique_ptr
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 ProduceMediaStreamTrackStatsFromVoiceReceiverInfo
 (
@@ -6122,7 +6122,7 @@ std
 :
 unique_ptr
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 audio_track_stats
 (
@@ -6131,10 +6131,10 @@ std
 :
 make_unique
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 (
-RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
+DEPRECATED_RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
 (
 kDirectionInbound
 attachment_id
@@ -6358,7 +6358,7 @@ std
 :
 unique_ptr
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 ProduceMediaStreamTrackStatsFromVideoSenderInfo
 (
@@ -6384,7 +6384,7 @@ std
 :
 unique_ptr
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 video_track_stats
 (
@@ -6393,10 +6393,10 @@ std
 :
 make_unique
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 (
-RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
+DEPRECATED_RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
 (
 kDirectionOutbound
 attachment_id
@@ -6504,7 +6504,7 @@ std
 :
 unique_ptr
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 ProduceMediaStreamTrackStatsFromVideoReceiverInfo
 (
@@ -6530,7 +6530,7 @@ std
 :
 unique_ptr
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 video_track_stats
 (
@@ -6539,10 +6539,10 @@ std
 :
 make_unique
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 (
-RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
+DEPRECATED_RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
 (
 kDirectionInbound
 attachment_id
@@ -6941,7 +6941,7 @@ std
 :
 unique_ptr
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 audio_track_stats
 =
@@ -7115,7 +7115,7 @@ std
 :
 unique_ptr
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 video_track_stats
 =
@@ -7264,7 +7264,7 @@ std
 :
 unique_ptr
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 audio_track_stats
 =
@@ -7367,7 +7367,7 @@ std
 :
 unique_ptr
 <
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 >
 video_track_stats
 =
@@ -7476,7 +7476,7 @@ std
 string
 track_id
 =
-RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
+DEPRECATED_RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
 (
 kDirectionOutbound
 sender_selector
@@ -7576,7 +7576,7 @@ std
 string
 track_id
 =
-RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
+DEPRECATED_RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
 (
 kDirectionInbound
 receiver_selector
@@ -10215,7 +10215,7 @@ std
 string
 track_id
 =
-RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
+DEPRECATED_RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
 (
 kDirectionOutbound
 sender
@@ -10280,7 +10280,7 @@ std
 string
 track_id
 =
-RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
+DEPRECATED_RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
 (
 kDirectionInbound
 receiver
@@ -10342,7 +10342,7 @@ std
 :
 unique_ptr
 <
-RTCMediaStreamStats
+DEPRECATED_RTCMediaStreamStats
 >
 stream_stats
 (
@@ -10351,7 +10351,7 @@ std
 :
 make_unique
 <
-RTCMediaStreamStats
+DEPRECATED_RTCMediaStreamStats
 >
 (
 "
@@ -11452,7 +11452,7 @@ inbound_audio
 >
 track_id
 =
-RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
+DEPRECATED_RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
 (
 kDirectionInbound
 stats
@@ -11773,7 +11773,7 @@ outbound_audio
 >
 track_id
 =
-RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
+DEPRECATED_RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
 (
 kDirectionOutbound
 attachment_id
@@ -12136,7 +12136,7 @@ inbound_video
 >
 track_id
 =
-RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
+DEPRECATED_RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
 (
 kDirectionInbound
 stats
@@ -12361,7 +12361,7 @@ outbound_video
 >
 track_id
 =
-RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
+DEPRECATED_RTCMediaStreamTrackStatsIDFromDirectionAndAttachment
 (
 kDirectionOutbound
 attachment_id

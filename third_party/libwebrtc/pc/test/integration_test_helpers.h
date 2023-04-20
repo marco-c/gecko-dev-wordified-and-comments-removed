@@ -1307,7 +1307,7 @@ const
 webrtc
 :
 :
-RTCMediaStreamTrackStats
+DEPRECATED_RTCMediaStreamTrackStats
 *
 >
 &
