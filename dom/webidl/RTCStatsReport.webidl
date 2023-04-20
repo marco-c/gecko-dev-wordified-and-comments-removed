@@ -254,6 +254,9 @@ DOMString
 kind
 ;
 DOMString
+mediaType
+;
+DOMString
 transportId
 ;
 DOMString
