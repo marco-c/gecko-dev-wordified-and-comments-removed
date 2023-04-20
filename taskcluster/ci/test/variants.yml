@@ -839,7 +839,7 @@ eval
 :
 '
 "
-windows1
+windows10
 "
 in
 task
@@ -1014,7 +1014,7 @@ eval
 :
 '
 "
-windows1
+windows10
 "
 in
 task
@@ -1181,7 +1181,7 @@ eval
 :
 '
 "
-windows1
+windows10
 "
 in
 task
@@ -1345,7 +1345,7 @@ eval
 :
 '
 "
-windows1
+windows10
 "
 in
 task
@@ -1721,7 +1721,7 @@ eval
 :
 '
 "
-windows1
+windows10
 "
 in
 task
@@ -1905,20 +1905,7 @@ eval
 :
 '
 "
-windows1
-"
-in
-task
-[
-"
-test
--
-platform
-"
-]
-&
-&
-"
+windows10
 -
 64
 "
