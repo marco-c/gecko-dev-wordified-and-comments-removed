@@ -233,7 +233,7 @@ source
 =
 self
 .
-source_idx
+filesource
 (
 metasource
 source_idx
@@ -884,7 +884,7 @@ lock
 (
 )
 .
-source_idx
+filesource
 (
 self
 .
