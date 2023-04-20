@@ -90,9 +90,9 @@ self
 writer
 "
 {
+err
 }
 "
-err
 )
 .
 expect
@@ -132,9 +132,9 @@ writer
 note
 :
 {
+note
 }
 "
-note
 )
 .
 expect
@@ -190,13 +190,13 @@ format
 (
 "
 {
+label_key
 }
 =
 {
+label_value
 }
 "
-label_key
-label_value
 )
 )
 ;
