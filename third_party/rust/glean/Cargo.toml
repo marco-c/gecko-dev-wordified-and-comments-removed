@@ -109,7 +109,7 @@ version
 "
 1
 .
-62
+60
 "
 name
 =
@@ -121,9 +121,9 @@ version
 "
 52
 .
-4
+3
 .
-2
+0
 "
 authors
 =
@@ -284,9 +284,9 @@ version
 "
 52
 .
-4
+3
 .
-2
+0
 "
 [
 dependencies

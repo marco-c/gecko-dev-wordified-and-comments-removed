@@ -4431,10 +4431,7 @@ data_path
 let
 _
 =
-std
-:
-:
-fs
+remove_dir_all
 :
 :
 remove_dir_all
