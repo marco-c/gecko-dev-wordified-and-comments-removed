@@ -1099,7 +1099,7 @@ time_controller_
 ;
 MATCHER_P2
 (
-Resolution
+MatchResolution
 w
 h
 "
@@ -4903,7 +4903,7 @@ EXPECT_CALL
 callback
 Call
 (
-Resolution
+MatchResolution
 (
 test
 :
@@ -5051,7 +5051,7 @@ EXPECT_CALL
 callback
 Call
 (
-Resolution
+MatchResolution
 (
 1080u
 720u

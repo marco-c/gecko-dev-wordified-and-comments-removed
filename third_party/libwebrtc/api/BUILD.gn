@@ -2463,6 +2463,11 @@ system
 rtc_export
 "
 "
+video
+:
+resolution
+"
+"
 video_codecs
 :
 scalability_mode
