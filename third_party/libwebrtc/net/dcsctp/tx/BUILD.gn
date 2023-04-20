@@ -1363,6 +1363,14 @@ mock_callbacks
 .
 .
 /
+socket
+:
+mock_callbacks
+"
+"
+.
+.
+/
 testing
 :
 data_generator

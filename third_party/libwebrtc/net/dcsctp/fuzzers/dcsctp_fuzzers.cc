@@ -2825,6 +2825,15 @@ absl
 :
 nullopt
 ;
+options
+.
+lifecycle_id
+=
+LifecycleId
+(
+42
+)
+;
 size_t
 payload_exponent
 =

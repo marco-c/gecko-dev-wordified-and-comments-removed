@@ -515,6 +515,8 @@ message_interleaving
 retransmission_queue_
 (
 log_prefix
+&
+callbacks_
 my_initial_tsn
 a_rwnd
 send_queue
