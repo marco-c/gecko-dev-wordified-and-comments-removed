@@ -153,6 +153,15 @@ aEpoch
 )
 ;
 async
+UnloadLayersWhileInterruptingJS
+(
+TabId
+tabId
+LayersObserverEpoch
+aEpoch
+)
+;
+async
 CancelContentJSExecutionIfRunning
 (
 TabId
