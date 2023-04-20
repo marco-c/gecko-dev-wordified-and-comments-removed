@@ -2506,9 +2506,9 @@ true
 }
 }
 }
-observeHistoryDetails
+skipHistoryDetailsNotifications
 =
-false
+true
 ;
 nodeHistoryDetailsChanged
 (

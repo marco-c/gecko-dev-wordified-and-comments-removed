@@ -1312,6 +1312,11 @@ NS_OK
 ;
 }
 ;
+nsresult
+OnVisitsRemoved
+(
+)
+;
 protected
 :
 virtual
@@ -1947,6 +1952,14 @@ OnRemoving
 (
 )
 override
+;
+nsresult
+OnVisitsRemoved
+(
+nsIURI
+*
+aURI
+)
 ;
 bool
 AreChildrenVisible

@@ -2189,7 +2189,7 @@ it
 will
 default
 to
-true
+false
 .
 *
 In
@@ -2226,7 +2226,7 @@ dynamically
 readonly
 attribute
 boolean
-observeHistoryDetails
+skipHistoryDetailsNotifications
 ;
 /
 *

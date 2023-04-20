@@ -2,9 +2,9 @@ function
 accumulateNotifications
 (
 result
-observeHistoryDetails
+skipHistoryDetailsNotifications
 =
-true
+false
 )
 {
 let
@@ -64,12 +64,12 @@ name
 =
 =
 "
-observeHistoryDetails
+skipHistoryDetailsNotifications
 "
 )
 {
 return
-observeHistoryDetails
+skipHistoryDetailsNotifications
 ;
 }
 if
@@ -307,7 +307,7 @@ notifications
 accumulateNotifications
 (
 result
-false
+true
 )
 ;
 let
@@ -685,7 +685,7 @@ notifications
 accumulateNotifications
 (
 result
-false
+true
 )
 ;
 let
@@ -798,7 +798,7 @@ notifications
 accumulateNotifications
 (
 result
-false
+true
 )
 ;
 result
@@ -825,7 +825,7 @@ notifications
 accumulateNotifications
 (
 result
-false
+true
 )
 ;
 await
