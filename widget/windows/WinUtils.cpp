@@ -10323,6 +10323,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 const
 char
 *
@@ -10378,7 +10380,5 @@ mStr
 nullptr
 ;
 }
-#
-endif
 }
 }
