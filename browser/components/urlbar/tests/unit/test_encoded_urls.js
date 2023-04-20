@@ -96,9 +96,6 @@ url
 completed
 :
 url
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -263,9 +260,6 @@ q
 completed
 :
 url
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -414,9 +408,6 @@ url
 completed
 :
 url
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -560,9 +551,6 @@ url
 completed
 :
 url
-hasAutofillTitle
-:
-true
 matches
 :
 [

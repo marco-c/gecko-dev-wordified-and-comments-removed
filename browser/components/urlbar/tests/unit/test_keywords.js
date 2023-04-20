@@ -125,9 +125,6 @@ mozilla
 org
 /
 "
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -147,7 +144,7 @@ mozilla
 org
 /
 "
-title
+fallbackTitle
 :
 "
 mozilla
@@ -489,9 +486,6 @@ mozilla
 org
 /
 "
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -511,7 +505,7 @@ mozilla
 org
 /
 "
-title
+fallbackTitle
 :
 "
 mozilla
@@ -694,9 +688,6 @@ mozilla
 org
 /
 "
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -716,7 +707,7 @@ mozilla
 org
 /
 "
-title
+fallbackTitle
 :
 "
 mozilla
@@ -1077,9 +1068,6 @@ mozilla
 com
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -1300,9 +1288,6 @@ mozilla
 com
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [

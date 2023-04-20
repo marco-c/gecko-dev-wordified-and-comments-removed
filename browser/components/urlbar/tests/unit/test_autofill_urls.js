@@ -149,9 +149,6 @@ com
 foo
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -293,9 +290,6 @@ com
 /
 foo
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -593,9 +587,6 @@ foo
 bar
 /
 "
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -621,7 +612,7 @@ foo
 bar
 /
 "
-title
+fallbackTitle
 :
 "
 example
@@ -808,9 +799,6 @@ bar
 /
 baz
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -1479,9 +1467,6 @@ com
 #
 TEST
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -1613,9 +1598,6 @@ example
 com
 /
 "
-hasAutofillTitle
-:
-false
 results
 :
 [
@@ -1638,7 +1620,7 @@ example
 com
 /
 "
-title
+fallbackTitle
 :
 "
 example
@@ -1727,9 +1709,6 @@ example
 com
 /
 "
-hasAutofillTitle
-:
-false
 results
 :
 [
@@ -1752,7 +1731,7 @@ example
 com
 /
 "
-title
+fallbackTitle
 :
 "
 example
@@ -1847,9 +1826,6 @@ com
 ABC
 /
 "
-hasAutofillTitle
-:
-false
 results
 :
 [
@@ -1874,7 +1850,7 @@ com
 ABC
 /
 "
-title
+fallbackTitle
 :
 "
 example
@@ -1971,9 +1947,6 @@ com
 ABC
 /
 "
-hasAutofillTitle
-:
-false
 results
 :
 [
@@ -1998,7 +1971,7 @@ com
 ABC
 /
 "
-title
+fallbackTitle
 :
 "
 example
@@ -2095,9 +2068,6 @@ com
 ABC
 /
 "
-hasAutofillTitle
-:
-false
 results
 :
 [
@@ -2122,7 +2092,7 @@ com
 ABC
 /
 "
-title
+fallbackTitle
 :
 "
 example
@@ -2220,9 +2190,6 @@ com
 abc
 /
 "
-hasAutofillTitle
-:
-false
 results
 :
 [
@@ -2247,7 +2214,7 @@ com
 abc
 /
 "
-title
+fallbackTitle
 :
 "
 example
@@ -2348,9 +2315,6 @@ ABC
 /
 DEF
 "
-hasAutofillTitle
-:
-true
 results
 :
 [
@@ -2443,9 +2407,6 @@ ABC
 /
 DEF
 "
-hasAutofillTitle
-:
-true
 results
 :
 [
@@ -2538,9 +2499,6 @@ abc
 /
 def
 "
-hasAutofillTitle
-:
-false
 results
 :
 [
@@ -2566,7 +2524,7 @@ abc
 /
 def
 "
-title
+fallbackTitle
 :
 "
 example
@@ -2672,9 +2630,6 @@ com
 ABC
 /
 "
-hasAutofillTitle
-:
-false
 results
 :
 [
@@ -2699,7 +2654,7 @@ com
 ABC
 /
 "
-title
+fallbackTitle
 :
 "
 example
@@ -2805,9 +2760,6 @@ com
 abc
 /
 "
-hasAutofillTitle
-:
-false
 results
 :
 [
@@ -2832,7 +2784,7 @@ com
 abc
 /
 "
-title
+fallbackTitle
 :
 "
 example
@@ -2941,9 +2893,6 @@ ABC
 /
 DEF
 "
-hasAutofillTitle
-:
-true
 results
 :
 [
@@ -3044,9 +2993,6 @@ abc
 /
 def
 "
-hasAutofillTitle
-:
-false
 results
 :
 [
@@ -3072,7 +3018,7 @@ abc
 /
 def
 "
-title
+fallbackTitle
 :
 "
 example
@@ -3182,9 +3128,6 @@ ABC
 /
 DEF
 "
-hasAutofillTitle
-:
-true
 results
 :
 [
@@ -3285,9 +3228,6 @@ abc
 /
 def
 "
-hasAutofillTitle
-:
-false
 results
 :
 [
@@ -3313,7 +3253,7 @@ abc
 /
 def
 "
-title
+fallbackTitle
 :
 "
 example
@@ -3415,11 +3355,6 @@ completed
 expected
 .
 completed
-hasAutofillTitle
-:
-expected
-.
-hasAutofillTitle
 matches
 :
 expected
@@ -3556,9 +3491,6 @@ com
 /
 foo
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -3696,9 +3628,6 @@ localhost
 /
 foo
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -3834,9 +3763,6 @@ localhost
 foo
 /
 "
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -3858,7 +3784,7 @@ localhost
 foo
 /
 "
-title
+fallbackTitle
 :
 "
 localhost
@@ -3974,9 +3900,6 @@ foo
 /
 bar
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -4222,9 +4145,6 @@ check_results
 context
 completed
 autofilled
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -4456,9 +4376,6 @@ check_results
 context
 completed
 autofilled
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -4719,9 +4636,6 @@ example
 com
 /
 "
-hasAutofillTitle
-:
-true
 results
 :
 [
@@ -4826,9 +4740,6 @@ example
 com
 /
 "
-hasAutofillTitle
-:
-true
 results
 :
 [
@@ -4937,9 +4848,6 @@ com
 /
 abc
 "
-hasAutofillTitle
-:
-true
 results
 :
 [
@@ -5049,9 +4957,6 @@ com
 /
 ABC
 "
-hasAutofillTitle
-:
-false
 results
 :
 [
@@ -5077,7 +4982,7 @@ com
 /
 ABC
 "
-title
+fallbackTitle
 :
 "
 https
@@ -5179,11 +5084,6 @@ autofilled
 expected
 .
 autofilled
-hasAutofillTitle
-:
-expected
-.
-hasAutofillTitle
 matches
 :
 expected

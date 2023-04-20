@@ -212,9 +212,6 @@ mozilla
 org
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -434,9 +431,6 @@ mozilla
 org
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -634,9 +628,6 @@ bacon
 =
 delicious
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -827,9 +818,6 @@ delicious
 #
 bar
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [

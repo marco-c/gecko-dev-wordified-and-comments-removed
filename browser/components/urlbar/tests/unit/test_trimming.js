@@ -152,9 +152,6 @@ mozilla
 org
 /
 "
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -176,7 +173,7 @@ mozilla
 org
 /
 "
-title
+fallbackTitle
 :
 "
 https
@@ -354,9 +351,6 @@ org
 test
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -508,9 +502,6 @@ mozilla
 org
 /
 "
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -530,7 +521,7 @@ mozilla
 org
 /
 "
-title
+fallbackTitle
 :
 "
 https
@@ -697,9 +688,6 @@ org
 test
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
@@ -852,9 +840,6 @@ mozilla
 org
 /
 "
-hasAutofillTitle
-:
-false
 matches
 :
 [
@@ -876,7 +861,7 @@ mozilla
 org
 /
 "
-title
+fallbackTitle
 :
 "
 www
@@ -1050,9 +1035,6 @@ org
 test
 /
 "
-hasAutofillTitle
-:
-true
 matches
 :
 [
