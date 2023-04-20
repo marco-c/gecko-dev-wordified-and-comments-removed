@@ -4179,7 +4179,10 @@ mozilla
 StyleTextSizeAdjust
 mTextSizeAdjust
 ;
-uint8_t
+mozilla
+:
+:
+StyleTextCombineUpright
 mTextCombineUpright
 ;
 mozilla

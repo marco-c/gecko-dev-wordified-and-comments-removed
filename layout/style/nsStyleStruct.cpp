@@ -14966,7 +14966,10 @@ Auto
 )
 mTextCombineUpright
 (
-NS_STYLE_TEXT_COMBINE_UPRIGHT_NONE
+StyleTextCombineUpright
+:
+:
+None
 )
 mMozControlCharacterVisibility
 (
