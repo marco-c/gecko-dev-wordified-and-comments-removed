@@ -1275,6 +1275,17 @@ desktop
 continue
 ;
 }
+const
+validateFeatures
+=
+validationEnabled
+&
+&
+!
+r
+.
+featureValidationOptOut
+;
 if
 (
 validationEnabled
@@ -1503,7 +1514,7 @@ experiment
 ;
 if
 (
-validationEnabled
+validateFeatures
 )
 {
 const
