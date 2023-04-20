@@ -44,11 +44,6 @@ intoOwnedChars
 {
 MOZ_ASSERT
 (
-inner_
-)
-;
-MOZ_ASSERT
-(
 chars
 )
 ;
@@ -74,8 +69,7 @@ auto
 locked
 =
 inner_
--
->
+.
 lock
 (
 )
@@ -162,9 +156,7 @@ move
 ownedChars
 )
 length
-this
--
->
+&
 inner_
 )
 ;
@@ -249,11 +241,6 @@ intoOwnedTwoByteChars
 {
 MOZ_ASSERT
 (
-inner_
-)
-;
-MOZ_ASSERT
-(
 chars
 )
 ;
@@ -297,8 +284,7 @@ auto
 locked
 =
 inner_
--
->
+.
 lock
 (
 )
@@ -412,9 +398,7 @@ sizeof
 (
 char16_t
 )
-this
--
->
+&
 inner_
 )
 ;
