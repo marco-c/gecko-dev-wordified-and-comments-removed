@@ -1239,12 +1239,17 @@ copier
 .
 copy
 (
+            
 self
 .
 staging_dir
 remove_empty_directories
 =
 False
+remove_unaccounted
+=
+False
+        
 )
         
 with
