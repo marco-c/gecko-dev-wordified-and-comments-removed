@@ -1444,6 +1444,12 @@ _loadAvailableLanguages
 )
 ;
 }
+let
+languageName
+=
+"
+"
+;
 for
 (
 var
@@ -1515,7 +1521,8 @@ i
 code
 )
 {
-return
+languageName
+=
 this
 .
 _availableLanguagesList
@@ -1528,8 +1535,7 @@ name
 }
 }
 return
-"
-"
+languageName
 ;
 }
 moveUp

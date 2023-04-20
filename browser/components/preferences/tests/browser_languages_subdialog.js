@@ -324,6 +324,10 @@ value
 =
 "
 English
+(
+United
+States
+)
 [
 en
 -
