@@ -1360,9 +1360,9 @@ AppConstants
 MOZ_UPDATER
 )
 {
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -1379,7 +1379,9 @@ modules
 /
 UpdateListener
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
@@ -1392,9 +1394,9 @@ AppConstants
 MOZ_UPDATE_AGENT
 )
 {
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -1411,7 +1413,9 @@ modules
 /
 BackgroundUpdate
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
