@@ -29978,9 +29978,6 @@ FuncType
 *
 funcType
 ;
-bool
-maybeNull
-;
 MDefinition
 *
 callee
@@ -30001,8 +29998,6 @@ readCallRef
 (
 &
 funcType
-&
-maybeNull
 &
 callee
 &
@@ -30029,9 +30024,6 @@ true
 }
 if
 (
-maybeNull
-&
-&
 !
 f
 .

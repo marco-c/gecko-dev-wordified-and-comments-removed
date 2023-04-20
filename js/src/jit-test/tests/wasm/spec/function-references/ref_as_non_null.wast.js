@@ -33,6 +33,7 @@ i32
 )
 (
 call_ref
+t
 (
 ref
 .
@@ -64,6 +65,7 @@ i32
 )
 (
 call_ref
+t
 (
 ref
 .
