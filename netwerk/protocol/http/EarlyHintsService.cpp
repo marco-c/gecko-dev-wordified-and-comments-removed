@@ -345,6 +345,10 @@ EarlyHintsService
 :
 Cancel
 (
+const
+nsACString
+&
+aReason
 )
 {
 CollectTelemetry
@@ -359,6 +363,7 @@ mOngoingEarlyHints
 >
 CancelAllOngoingPreloads
 (
+aReason
 )
 ;
 }

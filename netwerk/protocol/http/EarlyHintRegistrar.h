@@ -105,6 +105,12 @@ aEarlyHintPreloaderId
 )
 ;
 static
+void
+CleanUp
+(
+)
+;
+static
 already_AddRefed
 <
 EarlyHintRegistrar
@@ -113,6 +119,8 @@ GetOrCreate
 (
 )
 ;
+private
+:
 EarlyHintHashtable
 mEarlyHint
 ;
