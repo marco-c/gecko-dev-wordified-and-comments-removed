@@ -585,6 +585,7 @@ Ci
 nsIContentSecurityPolicy
 .
 SCRIPT_SRC_ELEM_DIRECTIVE
+false
 "
 "
 false
@@ -864,6 +865,7 @@ Ci
 nsIContentSecurityPolicy
 .
 SCRIPT_SRC_ELEM_DIRECTIVE
+false
 "
 "
 false

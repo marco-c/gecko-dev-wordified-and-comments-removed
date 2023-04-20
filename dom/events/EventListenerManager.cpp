@@ -5231,6 +5231,7 @@ nsIContentSecurityPolicy
 :
 :
 SCRIPT_SRC_ATTR_DIRECTIVE
+true
 u
 "
 "

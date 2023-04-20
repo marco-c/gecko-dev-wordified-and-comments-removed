@@ -4145,6 +4145,7 @@ nsIContentSecurityPolicy
 :
 :
 SCRIPT_SRC_ELEM_DIRECTIVE
+false
 nonce
 parserCreated
 scriptContent
