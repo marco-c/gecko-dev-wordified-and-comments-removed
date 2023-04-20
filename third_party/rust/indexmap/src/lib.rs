@@ -73,6 +73,9 @@ self
 Vec
 }
 ;
+mod
+arbitrary
+;
 #
 [
 macro_use
