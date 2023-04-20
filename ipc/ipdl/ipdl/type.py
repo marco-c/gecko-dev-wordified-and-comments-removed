@@ -596,16 +596,6 @@ return
 False
     
 def
-isUniquePtr
-(
-self
-)
-:
-        
-return
-False
-    
-def
 typename
 (
 self
@@ -982,6 +972,16 @@ False
     
 def
 isMaybe
+(
+self
+)
+:
+        
+return
+False
+    
+def
+isUniquePtr
 (
 self
 )
