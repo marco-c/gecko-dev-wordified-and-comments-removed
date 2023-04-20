@@ -169,16 +169,6 @@ const
 0
 ;
 virtual
-void
-SetMinBitrate
-(
-int
-min_bitrate_bps
-)
-=
-0
-;
-virtual
 TimeDelta
 Process
 (

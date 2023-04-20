@@ -1386,12 +1386,7 @@ std
 :
 max
 (
-congestion_controller
-:
-:
-GetMinBitrate
-(
-)
+kCongestionControllerMinBitrate
 best_candidate
 .
 loss_limited_bandwidth

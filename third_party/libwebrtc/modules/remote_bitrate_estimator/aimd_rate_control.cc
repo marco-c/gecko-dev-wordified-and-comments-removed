@@ -420,12 +420,7 @@ send_side
 :
 min_configured_bitrate_
 (
-congestion_controller
-:
-:
-GetMinBitrate
-(
-)
+kCongestionControllerMinBitrate
 )
 max_configured_bitrate_
 (

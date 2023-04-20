@@ -710,12 +710,7 @@ delay_based_bwe_
 >
 SetMinBitrate
 (
-congestion_controller
-:
-:
-GetMinBitrate
-(
-)
+kCongestionControllerMinBitrate
 )
 ;
 }
@@ -1882,12 +1877,7 @@ std
 max
 (
 min_target_rate_
-congestion_controller
-:
-:
-GetMinBitrate
-(
-)
+kCongestionControllerMinBitrate
 )
 ;
 if

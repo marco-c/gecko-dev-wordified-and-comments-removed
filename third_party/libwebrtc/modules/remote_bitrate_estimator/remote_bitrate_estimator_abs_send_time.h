@@ -316,14 +316,6 @@ LatestEstimate
 const
 override
 ;
-void
-SetMinBitrate
-(
-int
-min_bitrate_bps
-)
-override
-;
 private
 :
 struct
