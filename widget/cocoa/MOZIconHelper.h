@@ -86,14 +86,6 @@ ComputedStyle
 *
 )
 aComputedStyle
-subrect
-:
-(
-const
-nsIntRect
-&
-)
-aSubRect
 scaleFactor
 :
 (

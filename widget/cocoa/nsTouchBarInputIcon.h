@@ -148,9 +148,6 @@ Document
 >
 mDocument
 ;
-nsIntRect
-mImageRegionRect
-;
 bool
 mSetIcon
 ;

@@ -536,9 +536,6 @@ nullptr
 computedStyle
 :
 nullptr
-subrect
-:
-mImageRegionRect
 scaleFactor
 :
 kHiDPIScalingFactor

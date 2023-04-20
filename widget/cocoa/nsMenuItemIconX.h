@@ -160,9 +160,6 @@ Listener
 *
 mListener
 ;
-nsIntRect
-mImageRegionRect
-;
 RefPtr
 <
 const
