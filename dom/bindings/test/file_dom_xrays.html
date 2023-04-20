@@ -9,13 +9,13 @@ html
 <
 script
 >
-document
+window
 .
 expando
 =
 42
 ;
-document
+window
 .
 shadowedIframe
 =
@@ -25,12 +25,12 @@ Object
 .
 setPrototypeOf
 (
-document
+window
 Object
 .
 create
 (
-HTMLDocument
+Window
 .
 prototype
 {
@@ -48,7 +48,7 @@ value
 :
 42
 }
-defaultView
+document
 :
 {
 value
@@ -73,7 +73,7 @@ value
 )
 )
 ;
-document
+window
 .
 documentElement
 .
@@ -85,7 +85,7 @@ Object
 .
 defineProperty
 (
-document
+window
 .
 documentElement
 "

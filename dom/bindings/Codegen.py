@@ -13198,7 +13198,6 @@ descriptor
 binaryNameFor
 (
 name
-True
 )
 )
         
@@ -62739,11 +62738,6 @@ descriptor
 binaryNameFor
 (
 name
-method
-.
-isStatic
-(
-)
 )
 )
 class
@@ -63313,7 +63307,6 @@ descriptor
 binaryNameFor
 (
 name
-False
 )
 )
         
@@ -65886,11 +65879,6 @@ descriptor
 binaryNameFor
 (
 name
-attr
-.
-isStatic
-(
-)
 )
 )
         
@@ -66955,11 +66943,6 @@ descriptor
 binaryNameFor
 (
 name
-attr
-.
-isStatic
-(
-)
 )
 )
 class
@@ -83243,7 +83226,6 @@ descriptor
 binaryNameFor
 (
 operation
-False
 )
 )
         
@@ -119634,7 +119616,6 @@ Get
 +
 MakeNativeName
 (
-        
 descriptor
 .
 binaryNameFor
@@ -119644,13 +119625,7 @@ attr
 identifier
 .
 name
-attr
-.
-isStatic
-(
 )
-)
-    
 )
 def
 callbackSetterName
@@ -119667,7 +119642,6 @@ Set
 +
 MakeNativeName
 (
-        
 descriptor
 .
 binaryNameFor
@@ -119677,13 +119651,7 @@ attr
 identifier
 .
 name
-attr
-.
-isStatic
-(
 )
-)
-    
 )
 class
 CGJSImplGetter
@@ -123683,11 +123651,6 @@ m
 identifier
 .
 name
-m
-.
-isStatic
-(
-)
 )
             
 for
@@ -126805,7 +126768,6 @@ descriptor
 binaryNameFor
 (
 jsName
-False
 )
         
 CallbackMethod
@@ -127257,7 +127219,6 @@ descriptor
 binaryNameFor
 (
 jsName
-False
 )
 )
             
@@ -127661,7 +127622,6 @@ binaryNameFor
 self
 .
 attrName
-False
 )
             
 )
@@ -127908,7 +127868,6 @@ binaryNameFor
 self
 .
 attrName
-False
 )
             
 )
@@ -136299,6 +136258,10 @@ binaryMemberName
 binaryNameFor
 (
 m
+.
+identifier
+.
+name
 )
             
 return
@@ -136418,23 +136381,17 @@ structs
 .
 append
 (
-                
 buildAtomCacheStructure
 (
 dict
 lambda
-m
+x
 :
-m
-.
-identifier
-.
-name
+x
 dict
 .
 members
 )
-            
 )
         
 for
@@ -136587,26 +136544,15 @@ buildAtomCacheStructure
 d
 .
 interface
-                    
 lambda
-m
+x
 :
 d
 .
 binaryNameFor
 (
-m
-.
-identifier
-.
-name
-m
-.
-isStatic
-(
+x
 )
-)
-                    
 members
                 
 )
