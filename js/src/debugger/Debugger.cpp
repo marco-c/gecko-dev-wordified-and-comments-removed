@@ -31207,7 +31207,6 @@ get
 .
 initForGlobal
 (
-cx
 &
 fc
 )

@@ -3159,7 +3159,6 @@ input
 .
 initForGlobal
 (
-cx
 fc
 )
 )

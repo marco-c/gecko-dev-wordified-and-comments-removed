@@ -2626,9 +2626,6 @@ private
 bool
 initScriptSource
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -2639,9 +2636,6 @@ public
 bool
 initForGlobal
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -2657,7 +2651,6 @@ Global
 return
 initScriptSource
 (
-cx
 fc
 )
 ;
@@ -2686,7 +2679,6 @@ cx
 return
 initScriptSource
 (
-cx
 &
 fc
 )
@@ -2715,7 +2707,6 @@ if
 !
 initScriptSource
 (
-cx
 fc
 )
 )
@@ -2749,9 +2740,6 @@ true
 bool
 initForStandaloneFunctionInNonSyntacticScope
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -2766,9 +2754,6 @@ functionEnclosingScope
 bool
 initForEval
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -2792,7 +2777,6 @@ if
 !
 initScriptSource
 (
-cx
 fc
 )
 )
@@ -2815,9 +2799,6 @@ true
 bool
 initForModule
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -2835,7 +2816,6 @@ if
 !
 initScriptSource
 (
-cx
 fc
 )
 )

@@ -1553,7 +1553,6 @@ input
 .
 initForGlobal
 (
-cx
 fc
 )
 )
@@ -2941,7 +2940,6 @@ get
 .
 initForEval
 (
-cx
 &
 fc
 enclosingScope
@@ -4772,7 +4770,6 @@ input
 .
 initForModule
 (
-cx
 fc
 )
 )
@@ -8073,7 +8070,6 @@ get
 .
 initForStandaloneFunctionInNonSyntacticScope
 (
-cx
 &
 fc
 enclosingScope

@@ -962,7 +962,6 @@ get
 .
 initForGlobal
 (
-cx
 &
 fc
 )
