@@ -702,9 +702,9 @@ if
 isWorker
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 errorString
 )

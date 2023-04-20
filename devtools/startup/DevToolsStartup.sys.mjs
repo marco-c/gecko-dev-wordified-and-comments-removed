@@ -8319,9 +8319,9 @@ contentPrincipal
 isNullPrincipal
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Got
