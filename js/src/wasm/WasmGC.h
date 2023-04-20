@@ -95,6 +95,9 @@ wasm
 class
 ArgTypeVector
 ;
+class
+BytecodeOffset
+;
 using
 jit
 :
@@ -1817,6 +1820,9 @@ valueOffset
 Label
 *
 skipBarrier
+BytecodeOffset
+*
+trapOffset
 )
 ;
 void
