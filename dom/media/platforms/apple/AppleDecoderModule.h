@@ -194,8 +194,13 @@ RegisterSupplementalVP9Decoder
 ;
 static
 bool
-CanCreateVP9Decoder
+CanCreateHWDecoder
 (
+media
+:
+:
+MediaCodec
+aCodec
 )
 ;
 }
