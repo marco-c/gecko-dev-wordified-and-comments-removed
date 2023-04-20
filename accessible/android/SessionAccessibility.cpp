@@ -5291,6 +5291,8 @@ ValueOf
 (
 *
 rowIndex
+-
+1
 )
 )
 ;
@@ -6445,6 +6447,8 @@ PopulateNodeCollectionItemInfo
 aNodeInfo
 *
 rowIndex
+-
+1
 1
 0
 1

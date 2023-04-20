@@ -10390,7 +10390,8 @@ assertThat
 "
 Item
 has
-collectionItemInfo
+correct
+rowIndex
 "
 firstListFirstItem
 .
@@ -10399,7 +10400,7 @@ collectionItemInfo
 rowIndex
 equalTo
 (
-1
+0
 )
 )
 }
