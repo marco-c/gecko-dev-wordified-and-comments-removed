@@ -3091,6 +3091,15 @@ Document
 bool
 Gecko_MediaFeatures_WindowsNonNativeMenus
 (
+const
+mozilla
+:
+:
+dom
+:
+:
+Document
+*
 )
 ;
 bool
