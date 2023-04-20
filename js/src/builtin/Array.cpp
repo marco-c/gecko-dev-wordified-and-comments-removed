@@ -23684,7 +23684,7 @@ JSContext
 cx
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -23778,10 +23778,6 @@ MOZ_ASSERT
 shape
 -
 >
-asShared
-(
-)
-.
 slotSpan
 (
 )
@@ -23880,7 +23876,7 @@ arr
 ;
 }
 static
-Shape
+SharedShape
 *
 GetArrayShapeWithProto
 (
@@ -24022,7 +24018,7 @@ return
 shape
 ;
 }
-Shape
+SharedShape
 *
 GlobalObject
 :
@@ -24081,7 +24077,7 @@ return
 nullptr
 ;
 }
-Shape
+SharedShape
 *
 shape
 =
@@ -24154,7 +24150,7 @@ nullptr
 {
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -24217,7 +24213,7 @@ newKind
 {
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -26704,7 +26700,7 @@ cx
 {
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape

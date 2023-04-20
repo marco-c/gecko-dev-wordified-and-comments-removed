@@ -79,7 +79,7 @@ InitialHeap
 heap
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -160,10 +160,6 @@ MOZ_ASSERT
 shape
 -
 >
-asShared
-(
-)
-.
 slotSpan
 (
 )

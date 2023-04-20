@@ -162,7 +162,7 @@ InitialHeap
 heap
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
