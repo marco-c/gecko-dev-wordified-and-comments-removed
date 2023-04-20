@@ -898,7 +898,7 @@ DecodeResult
 Decode
 (
 bool
-aIsMetadataDecode
+aShouldSendTelemetry
 const
 Mp4parseAvifInfo
 &
