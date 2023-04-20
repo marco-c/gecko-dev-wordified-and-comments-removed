@@ -14324,6 +14324,14 @@ mock_encoder_selector
 /
 api
 :
+mock_packet_socket_factory
+"
+"
+.
+.
+/
+api
+:
 mock_video_track
 "
 "
