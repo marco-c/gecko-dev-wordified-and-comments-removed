@@ -578,4 +578,16 @@ define
 uncompress2
 MOZ_Z_uncompress2
 #
+define
+crc32_combine_gen
+MOZ_Z_crc32_combine_gen
+#
+define
+crc32_combine_gen64
+MOZ_Z_crc32_combine_gen64
+#
+define
+crc32_combine_op
+MOZ_Z_crc32_combine_op
+#
 endif
