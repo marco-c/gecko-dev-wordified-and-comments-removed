@@ -18601,6 +18601,11 @@ if
 value
 >
 imgDimension
+&
+&
+imgDimension
+>
+0
 )
 {
 value
