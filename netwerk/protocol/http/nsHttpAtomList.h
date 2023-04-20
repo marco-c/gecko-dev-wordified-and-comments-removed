@@ -181,6 +181,17 @@ Range
 )
 HTTP_ATOM
 (
+Content_Security_Policy
+"
+Content
+-
+Security
+-
+Policy
+"
+)
+HTTP_ATOM
+(
 Content_Type
 "
 Content

@@ -272,6 +272,8 @@ nsCString
 linkHeader
 nsCString
 referrerPolicy
+nsCString
+cspHeader
 )
 ;
 child

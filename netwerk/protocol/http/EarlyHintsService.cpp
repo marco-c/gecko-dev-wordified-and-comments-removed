@@ -149,6 +149,10 @@ const
 nsACString
 &
 aReferrerPolicy
+const
+nsACString
+&
+aCSPHeader
 )
 {
 mEarlyHintsCount
@@ -363,6 +367,7 @@ aBaseURI
 principal
 cookieJarSettings
 aReferrerPolicy
+aCSPHeader
 )
 ;
 }

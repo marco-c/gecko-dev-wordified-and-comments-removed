@@ -94,6 +94,10 @@ const
 nsACString
 &
 aReferrerPolicy
+const
+nsACString
+&
+aCSPHeader
 )
 ;
 void

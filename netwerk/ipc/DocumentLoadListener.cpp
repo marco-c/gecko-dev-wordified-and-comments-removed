@@ -14009,6 +14009,10 @@ const
 nsACString
 &
 aReferrerPolicy
+const
+nsACString
+&
+aCSPHeader
 )
 {
 LOG
@@ -14036,6 +14040,7 @@ GetChannelCreationURI
 )
 mChannel
 aReferrerPolicy
+aCSPHeader
 )
 ;
 return
