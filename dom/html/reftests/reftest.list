@@ -835,6 +835,10 @@ fails
 if
 (
 geckoview
+&
+&
+!
+swgl
 )
 =
 =
@@ -875,6 +879,10 @@ fails
 if
 (
 geckoview
+&
+&
+!
+swgl
 )
 =
 =
