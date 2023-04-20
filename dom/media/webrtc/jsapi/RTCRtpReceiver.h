@@ -309,10 +309,6 @@ RTCStatsPromise
 >
 GetStatsInternal
 (
-bool
-aSkipIceStats
-=
-false
 )
 ;
 void
