@@ -1996,6 +1996,12 @@ y
 :
 scroll
 ;
+scrollbar
+-
+width
+:
+none
+;
 scroll
 -
 snap
