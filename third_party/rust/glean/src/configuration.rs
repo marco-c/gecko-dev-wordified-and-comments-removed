@@ -99,8 +99,4 @@ pub
 use_core_mps
 :
 bool
-pub
-trim_data_to_registered_pings
-:
-bool
 }

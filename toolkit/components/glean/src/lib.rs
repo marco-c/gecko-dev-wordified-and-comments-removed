@@ -109,7 +109,6 @@ pings
 :
 register_pings
 (
-None
 )
 ;
 }

@@ -251,7 +251,7 @@ X
 "
 elf_id
 .
-as_simple
+to_simple_ref
 (
 )
 )

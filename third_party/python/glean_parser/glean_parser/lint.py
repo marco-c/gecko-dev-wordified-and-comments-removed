@@ -3051,13 +3051,10 @@ stderr
     
 parser_config
 :
-Optional
-[
 Dict
 [
 str
 Any
-]
 ]
 =
 None
