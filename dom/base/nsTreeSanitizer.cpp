@@ -11284,6 +11284,9 @@ dom
 SanitizerConfig
 &
 aOptions
+ErrorResult
+&
+aRv
 )
 {
 if
