@@ -87,6 +87,12 @@ search
 >
 (
 {
+WorkerDispatcher
+(
+)
+{
+return
+{
 getMatches
 :
 (
@@ -103,6 +109,14 @@ result
 "
 ]
 )
+clear
+(
+)
+{
+}
+}
+;
+}
 }
 )
 )
