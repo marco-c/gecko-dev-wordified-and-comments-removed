@@ -1,7 +1,7 @@
 #
 include
 "
-Index
+SampleIterator
 .
 h
 "
@@ -275,7 +275,7 @@ SampleIterator
 :
 SampleIterator
 (
-Index
+MP4SampleIndex
 *
 aIndex
 )
@@ -2266,10 +2266,10 @@ return
 1
 ;
 }
-Index
+MP4SampleIndex
 :
 :
-Index
+MP4SampleIndex
 (
 const
 IndiceWrapper
@@ -2790,18 +2790,18 @@ Clear
 }
 }
 }
-Index
+MP4SampleIndex
 :
 :
 ~
-Index
+MP4SampleIndex
 (
 )
 =
 default
 ;
 void
-Index
+MP4SampleIndex
 :
 :
 UpdateMoofIndex
@@ -2820,7 +2820,7 @@ false
 ;
 }
 void
-Index
+MP4SampleIndex
 :
 :
 UpdateMoofIndex
@@ -2963,7 +2963,7 @@ moofs
 }
 }
 Microseconds
-Index
+MP4SampleIndex
 :
 :
 GetEndCompositionIfBuffered
@@ -3129,7 +3129,7 @@ return
 ;
 }
 TimeIntervals
-Index
+MP4SampleIndex
 :
 :
 ConvertByteRangesToTimeRanges
@@ -3868,7 +3868,7 @@ ranges
 ;
 }
 uint64_t
-Index
+MP4SampleIndex
 :
 :
 GetEvictionOffset
@@ -4059,7 +4059,7 @@ offset
 ;
 }
 void
-Index
+MP4SampleIndex
 :
 :
 RegisterIterator
@@ -4078,7 +4078,7 @@ aIterator
 ;
 }
 void
-Index
+MP4SampleIndex
 :
 :
 UnregisterIterator
