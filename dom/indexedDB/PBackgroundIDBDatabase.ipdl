@@ -73,10 +73,6 @@ protocol
 PBackgroundIDBVersionChangeTransaction
 ;
 include
-protocol
-PBackgroundMutableFile
-;
-include
 IPCBlob
 ;
 include
@@ -189,9 +185,6 @@ PBackgroundIDBTransaction
 manages
 PBackgroundIDBVersionChangeTransaction
 ;
-manages
-PBackgroundMutableFile
-;
 parent
 :
 async
@@ -265,15 +258,6 @@ int64_t
 nextObjectStoreId
 int64_t
 nextIndexId
-)
-;
-async
-PBackgroundMutableFile
-(
-nsString
-name
-nsString
-type
 )
 ;
 }

@@ -65,10 +65,6 @@ protocol
 PBackgroundIDBVersionChangeTransaction
 ;
 include
-protocol
-PBackgroundMutableFile
-;
-include
 PBackgroundIDBSharedTypes
 ;
 include
