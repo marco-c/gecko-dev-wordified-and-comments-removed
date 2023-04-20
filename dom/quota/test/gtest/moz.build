@@ -43,6 +43,11 @@ TestEncryptedStream
 cpp
 "
 "
+TestFileOutputStream
+.
+cpp
+"
+"
 TestFlatten
 .
 cpp
