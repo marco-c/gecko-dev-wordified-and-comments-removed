@@ -5117,7 +5117,7 @@ Preferences
 =
 ChromeUtils
 .
-import
+importESModules
 (
                  
 "
@@ -5131,7 +5131,9 @@ modules
 /
 Preferences
 .
-jsm
+sys
+.
+mjs
 "
                
 )
@@ -5311,7 +5313,7 @@ Preferences
 =
 ChromeUtils
 .
-import
+importESModules
 (
                   
 "
@@ -5325,7 +5327,9 @@ modules
 /
 Preferences
 .
-jsm
+sys
+.
+mjs
 "
                 
 )
@@ -5586,7 +5590,7 @@ Preferences
 =
 ChromeUtils
 .
-import
+importESModules
 (
                   
 "
@@ -5600,7 +5604,9 @@ modules
 /
 Preferences
 .
-jsm
+sys
+.
+mjs
 "
                 
 )

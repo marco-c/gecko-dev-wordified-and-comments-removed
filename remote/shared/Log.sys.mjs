@@ -290,7 +290,9 @@ logger
 from
 Log
 .
-jsm
+sys
+.
+mjs
 .
 *
 /
@@ -540,7 +542,9 @@ t
 use
 Preferences
 .
-jsm
+sys
+.
+mjs
 before
 first
 paint
