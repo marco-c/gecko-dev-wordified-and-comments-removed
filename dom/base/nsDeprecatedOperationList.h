@@ -196,6 +196,10 @@ OffscreenCanvasToBlob
 )
 DEPRECATED_OPERATION
 (
+IDBMutableFileOpen
+)
+DEPRECATED_OPERATION
+(
 MozPreservesPitchDeprecatedPrefix
 )
 DEPRECATED_OPERATION

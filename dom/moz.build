@@ -149,6 +149,9 @@ fetch
 file
 "
 "
+filehandle
+"
+"
 filesystem
 "
 "

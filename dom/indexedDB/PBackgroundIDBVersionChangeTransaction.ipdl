@@ -73,6 +73,10 @@ protocol
 PBackgroundIDBRequest
 ;
 include
+protocol
+PBackgroundMutableFile
+;
+include
 PBackgroundIDBSharedTypes
 ;
 include
