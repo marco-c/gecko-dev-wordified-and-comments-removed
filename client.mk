@@ -305,6 +305,8 @@ C
 (
 OBJDIR
 )
+ifdef
+MOZBUILD_MANAGE_SCCACHE_DAEMON
 #
 In
 automation
@@ -419,6 +421,7 @@ true
 exit
 x
 )
+endif
 #
 The
 default
