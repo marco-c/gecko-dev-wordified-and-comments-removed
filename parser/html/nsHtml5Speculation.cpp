@@ -21,6 +21,8 @@ int32_t
 aStart
 int32_t
 aStartLineNumber
+int32_t
+aStartColumnNumber
 nsAHtml5TreeBuilderState
 *
 aSnapshot
@@ -37,6 +39,10 @@ aStart
 mStartLineNumber
 (
 aStartLineNumber
+)
+mStartColumnNumber
+(
+aStartColumnNumber
 )
 mSnapshot
 (
