@@ -357,7 +357,7 @@ REMOTE_SETTINGS_SERVER_URL
 {
 log
 .
-warning
+warn
 (
 "
 Ignoring
@@ -372,7 +372,7 @@ server
 ;
 log
 .
-warning
+warn
 (
 "
 Allow
