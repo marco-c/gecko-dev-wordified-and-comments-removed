@@ -503,12 +503,6 @@ resolvedOptions
 locale
 "
 sv
--
-u
--
-co
--
-reformed
 "
 )
 ;
@@ -578,7 +572,7 @@ resolvedOptions
 .
 collation
 "
-reformed
+default
 "
 )
 ;
