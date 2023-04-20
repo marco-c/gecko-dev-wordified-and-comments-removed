@@ -695,9 +695,9 @@ videoinput
 )
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Media
@@ -742,9 +742,9 @@ audioinput
 )
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Media
@@ -902,9 +902,9 @@ if
 video
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Media
@@ -975,9 +975,9 @@ if
 audio
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Media

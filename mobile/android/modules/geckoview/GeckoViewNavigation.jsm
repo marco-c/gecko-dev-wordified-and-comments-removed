@@ -1029,9 +1029,9 @@ headerFilter
 )
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Ignoring
 invalid

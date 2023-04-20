@@ -1333,14 +1333,6 @@ chrome
 *
 "
 "
-mobile
-/
-android
-/
-*
-*
-"
-"
 security
 /
 manager
