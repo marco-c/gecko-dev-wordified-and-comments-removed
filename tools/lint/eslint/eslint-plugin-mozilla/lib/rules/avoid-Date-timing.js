@@ -155,7 +155,10 @@ context
 .
 report
 (
+{
 node
+message
+:
 "
 use
 performance
@@ -177,6 +180,7 @@ timing
 "
 measurements
 "
+}
 )
 ;
 }
@@ -230,7 +234,10 @@ context
 .
 report
 (
+{
 node
+message
+:
 "
 use
 performance
@@ -251,6 +258,7 @@ timing
 "
 measurements
 "
+}
 )
 ;
 }

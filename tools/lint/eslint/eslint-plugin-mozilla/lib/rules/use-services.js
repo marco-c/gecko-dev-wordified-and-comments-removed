@@ -199,7 +199,10 @@ context
 .
 report
 (
+{
 node
+message
+:
 Use
 Services
 .
@@ -210,6 +213,7 @@ rather
 than
 defineLazyServiceGetter
 .
+}
 )
 ;
 return
@@ -346,9 +350,14 @@ context
 .
 report
 (
+{
+node
+:
 property
 .
 value
+message
+:
 Use
 Services
 .
@@ -359,6 +368,7 @@ rather
 than
 defineLazyServiceGetters
 .
+}
 )
 ;
 }
