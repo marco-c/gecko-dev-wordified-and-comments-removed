@@ -108,7 +108,7 @@ mozilla
 unicode
 :
 :
-IsClusterExtender
+IsClusterExtenderExcludingJoiners
 (
 aChars
 [
