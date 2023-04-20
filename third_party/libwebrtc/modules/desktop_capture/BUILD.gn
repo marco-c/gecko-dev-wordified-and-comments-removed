@@ -1898,6 +1898,11 @@ cropping_window_capturer
 h
 "
 "
+delegated_source_list_controller
+.
+h
+"
+"
 desktop_and_cursor_composer
 .
 cc
@@ -4064,6 +4069,11 @@ desktop_capture
 sources
 =
 [
+"
+delegated_source_list_controller
+.
+h
+"
 "
 desktop_capture_options
 .
