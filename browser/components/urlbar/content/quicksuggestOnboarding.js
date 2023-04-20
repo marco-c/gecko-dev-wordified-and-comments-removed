@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-ONBOARDING_CHOICE
+QuickSuggest
 }
 =
 ChromeUtils
@@ -27,6 +27,13 @@ sys
 mjs
 "
 )
+;
+const
+{
+ONBOARDING_CHOICE
+}
+=
+QuickSuggest
 ;
 const
 VARIATION_MAP
