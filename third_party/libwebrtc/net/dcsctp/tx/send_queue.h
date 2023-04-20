@@ -136,6 +136,16 @@ InfiniteFuture
 (
 )
 ;
+LifecycleId
+lifecycle_id
+=
+LifecycleId
+:
+:
+NotSet
+(
+)
+;
 }
 ;
 virtual
