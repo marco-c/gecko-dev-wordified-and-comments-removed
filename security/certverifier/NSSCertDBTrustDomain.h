@@ -1063,6 +1063,9 @@ responseSource
 bool
 &
 expired
+uint32_t
+&
+ageInHours
 )
 ;
 TimeDuration
