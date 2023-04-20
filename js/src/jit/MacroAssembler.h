@@ -22286,6 +22286,13 @@ dest
 )
 ;
 void
+loadStringToAtomCacheLastLookups
+(
+Register
+dest
+)
+;
+void
 loadAtomOrSymbolAndHash
 (
 ValueOperand
