@@ -281,6 +281,16 @@ metrics
 .
 yaml
 "
+    
+"
+widget
+/
+cocoa
+/
+metrics
+.
+yaml
+"
 ]
 background_update_metrics
 =
