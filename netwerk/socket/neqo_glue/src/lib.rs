@@ -626,6 +626,9 @@ u64
 version_negotiation
 :
 bool
+webtransport
+:
+bool
 qlog_dir
 :
 &
@@ -922,6 +925,11 @@ max_concurrent_push_streams
 connection_parameters
 (
 params
+)
+.
+webtransport
+(
+webtransport
 )
 ;
 let
@@ -1455,6 +1463,9 @@ u64
 version_negotiation
 :
 bool
+webtransport
+:
+bool
 qlog_dir
 :
 &
@@ -1496,6 +1507,7 @@ max_blocked_streams
 max_data
 max_stream_data
 version_negotiation
+webtransport
 qlog_dir
 )
 {
