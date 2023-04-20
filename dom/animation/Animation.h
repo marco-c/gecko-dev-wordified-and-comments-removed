@@ -41,6 +41,15 @@ include
 "
 mozilla
 /
+BasePrincipal
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DOMEventTargetHelper
 .
 h
@@ -1937,6 +1946,9 @@ bool
 mResetCurrentTimeOnResume
 =
 false
+;
+RTPCallerType
+mRTPCallerType
 ;
 private
 :
