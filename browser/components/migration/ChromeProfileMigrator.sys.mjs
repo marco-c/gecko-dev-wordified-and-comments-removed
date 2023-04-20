@@ -283,9 +283,14 @@ understands
 *
 *
 param
+{
+object
+[
+]
+}
 items
-*
-bookmark
+Chrome
+Bookmark
 items
 to
 be
@@ -295,8 +300,10 @@ this
 parent
 *
 param
+{
+Function
+}
 errorAccumulator
-*
 function
 that
 gets
@@ -304,6 +311,7 @@ called
 with
 any
 errors
+*
 thrown
 so
 we
@@ -316,6 +324,13 @@ on
 the
 floor
 .
+*
+returns
+{
+object
+[
+]
+}
 *
 /
 function
@@ -3553,7 +3568,6 @@ a53e
 Chromium
 migration
 *
-*
 /
 export
 function
@@ -3675,7 +3689,6 @@ Not
 available
 on
 Linux
-*
 *
 /
 export
