@@ -118,6 +118,13 @@ VideoFrame
 {
 public
 :
+static
+constexpr
+uint16_t
+kNotSetId
+=
+0
+;
 struct
 RTC_EXPORT
 UpdateRect
@@ -418,7 +425,7 @@ private
 uint16_t
 id_
 =
-0
+kNotSetId
 ;
 rtc
 :
