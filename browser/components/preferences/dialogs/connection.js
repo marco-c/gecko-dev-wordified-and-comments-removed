@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 DoHConfigController
-"
+:
 "
 resource
 :
@@ -16,8 +16,11 @@ modules
 /
 DoHConfig
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 document
