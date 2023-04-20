@@ -923,7 +923,7 @@ NIGHTLY_BUILD
 std
 :
 :
-cerr
+cout
 <
 <
 "
@@ -933,6 +933,13 @@ cerr
 #
 #
 TimestampExtrapolator
+"
+<
+<
+this
+<
+<
+"
 DEBUG
 start_
 =
