@@ -3095,7 +3095,7 @@ bufferColumn
 ;
 return
 function
-write
+innerWrite
 (
 str
 line
