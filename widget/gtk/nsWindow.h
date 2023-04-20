@@ -2157,10 +2157,12 @@ ifdef
 MOZ_WAYLAND
 static
 void
-TransferFocusToWaylandWindow
+RequestFocusWaylandWindow
 (
+RefPtr
+<
 nsWindow
-*
+>
 aWindow
 )
 ;
@@ -3778,6 +3780,12 @@ nullptr
 zwp_relative_pointer_v1
 *
 mRelativePointer
+=
+nullptr
+;
+xdg_activation_token_v1
+*
+mXdgToken
 =
 nullptr
 ;
