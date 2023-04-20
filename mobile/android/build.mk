@@ -176,12 +176,6 @@ builds
 merge
 -
 %
-installers
--
-%
-langpack
--
-%
 chrome
 -
 %
