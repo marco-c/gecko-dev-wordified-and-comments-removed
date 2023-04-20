@@ -74,6 +74,8 @@ GenericPromise
 >
 Launch
 (
+uint32_t
+aLaunchArch
 const
 nsTArray
 <

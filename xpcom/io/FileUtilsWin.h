@@ -667,6 +667,15 @@ nsAString
 aFilename
 )
 ;
+uint32_t
+GetExecutableArchitecture
+(
+const
+wchar_t
+*
+aPath
+)
+;
 }
 #
 endif
