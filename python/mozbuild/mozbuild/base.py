@@ -518,7 +518,7 @@ topsrcdir
 =
 mozpath
 .
-normsep
+realpath
 (
 topsrcdir
 )
@@ -553,7 +553,7 @@ _topobjdir
 =
 mozpath
 .
-normsep
+realpath
 (
 topobjdir
 )
@@ -1048,7 +1048,7 @@ topsrcdir
 =
 mozpath
 .
-normsep
+realpath
 (
 topsrcdir
 )
@@ -1061,16 +1061,9 @@ topobjdir
 =
 mozpath
 .
-normsep
-(
-os
-.
-path
-.
-normpath
+realpath
 (
 topobjdir
-)
 )
             
 if
