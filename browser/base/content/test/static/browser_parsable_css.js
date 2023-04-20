@@ -177,6 +177,8 @@ sourceName
 \
 b
 (
+scrollbars
+|
 xul
 |
 html
