@@ -319,7 +319,7 @@ Create
 report
 -
 >
-timestamp_us
+timestamp
 (
 )
 )

@@ -3737,6 +3737,11 @@ system
 :
 rtc_export
 "
+"
+units
+:
+timestamp
+"
 ]
 }
 rtc_library
