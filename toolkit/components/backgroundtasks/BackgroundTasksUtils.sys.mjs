@@ -1530,7 +1530,7 @@ use
 *
 returns
 {
-string
+object
 }
 *
 /
