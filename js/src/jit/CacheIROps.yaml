@@ -1881,7 +1881,7 @@ name
 GuardAndGetIterator
 shared
 :
-false
+true
 transpile
 :
 false
