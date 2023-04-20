@@ -566,6 +566,8 @@ const
 AudioInfo
 &
 info
+bool
+aShouldResistFingerprinting
 )
 ;
 bool

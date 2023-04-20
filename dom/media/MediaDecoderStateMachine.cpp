@@ -16637,6 +16637,15 @@ IsMSE
 (
 )
 )
+mShouldResistFingerprinting
+(
+aDecoder
+-
+>
+ShouldResistFingerprinting
+(
+)
+)
 mSeamlessLoopingAllowed
 (
 false
@@ -17143,6 +17152,7 @@ Info
 )
 .
 mAudio
+mShouldResistFingerprinting
 )
 ;
 mAudibleListener

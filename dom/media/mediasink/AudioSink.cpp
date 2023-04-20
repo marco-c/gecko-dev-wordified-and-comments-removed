@@ -210,6 +210,8 @@ const
 AudioInfo
 &
 aInfo
+bool
+aShouldResistFingerprinting
 )
 :
 mPlaying
@@ -237,6 +239,7 @@ mOutputRate
 DecideAudioPlaybackSampleRate
 (
 aInfo
+aShouldResistFingerprinting
 )
 )
 mOutputChannels

@@ -1054,6 +1054,8 @@ const
 AudioInfo
 &
 aInfo
+bool
+aShouldResistFingerprinting
 )
 {
 bool
@@ -1103,11 +1105,12 @@ else
 {
 rate
 =
-AudioStream
+CubebUtils
 :
 :
-GetPreferredRate
+PreferredSampleRate
 (
+aShouldResistFingerprinting
 )
 ;
 if

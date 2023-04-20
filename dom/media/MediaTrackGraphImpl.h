@@ -375,6 +375,8 @@ GraphDriverType
 aGraphDriverRequested
 uint64_t
 aWindowID
+bool
+aShouldResistFingerprinting
 TrackRate
 aSampleRate
 CubebUtils
@@ -394,6 +396,8 @@ GetInstanceIfExists
 (
 uint64_t
 aWindowID
+bool
+aShouldResistFingerprinting
 TrackRate
 aSampleRate
 CubebUtils

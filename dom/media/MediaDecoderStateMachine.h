@@ -1233,6 +1233,10 @@ const
 bool
 mIsMSE
 ;
+const
+bool
+mShouldResistFingerprinting
+;
 bool
 mSeamlessLoopingAllowed
 ;

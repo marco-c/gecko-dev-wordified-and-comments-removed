@@ -959,6 +959,17 @@ CubebUtils
 :
 PreferredSampleRate
 (
+aNode
+-
+>
+Context
+(
+)
+-
+>
+ShouldResistFingerprinting
+(
+)
 )
 )
 mVolume

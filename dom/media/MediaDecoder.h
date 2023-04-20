@@ -932,6 +932,16 @@ IsVideoDecodingSuspended
 )
 const
 ;
+bool
+ShouldResistFingerprinting
+(
+)
+const
+{
+return
+mShouldResistFingerprinting
+;
+}
 virtual
 void
 ChangeState
@@ -1611,6 +1621,10 @@ mForcedHidden
 ;
 bool
 mHasSuspendTaint
+;
+const
+bool
+mShouldResistFingerprinting
 ;
 MediaDecoderOwner
 :

@@ -846,6 +846,8 @@ bool
 aIsOffline
 float
 aSampleRate
+bool
+aShouldResistFingerprinting
 )
 {
 if
@@ -878,6 +880,7 @@ CubebUtils
 :
 PreferredSampleRate
 (
+aShouldResistFingerprinting
 )
 )
 ;
@@ -917,6 +920,17 @@ GetSampleRateForAudioContext
 (
 aIsOffline
 aSampleRate
+aWindow
+-
+>
+AsGlobal
+(
+)
+-
+>
+ShouldResistFingerprinting
+(
+)
 )
 )
 mAudioContextState

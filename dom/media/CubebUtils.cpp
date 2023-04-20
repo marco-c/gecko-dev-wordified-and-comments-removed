@@ -2127,6 +2127,8 @@ true
 uint32_t
 PreferredSampleRate
 (
+bool
+aShouldResistFingerprinting
 )
 {
 if
@@ -2140,12 +2142,7 @@ sCubebForcedSampleRate
 }
 if
 (
-nsContentUtils
-:
-:
-ShouldResistFingerprinting
-(
-)
+aShouldResistFingerprinting
 )
 {
 return

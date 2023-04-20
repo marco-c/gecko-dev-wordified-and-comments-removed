@@ -424,6 +424,15 @@ const
 =
 0
 ;
+virtual
+bool
+ShouldResistFingerprinting
+(
+)
+const
+=
+0
+;
 }
 ;
 }

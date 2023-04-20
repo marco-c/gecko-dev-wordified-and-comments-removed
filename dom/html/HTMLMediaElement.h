@@ -1002,6 +1002,13 @@ HadCrossOriginRedirects
 (
 )
 ;
+bool
+ShouldResistFingerprinting
+(
+)
+const
+override
+;
 already_AddRefed
 <
 nsIPrincipal

@@ -683,6 +683,7 @@ MediaTrackGraph
 :
 AUDIO_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -707,6 +708,7 @@ MediaTrackGraph
 :
 AUDIO_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -737,6 +739,7 @@ MediaTrackGraph
 :
 AUDIO_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -761,6 +764,7 @@ MediaTrackGraph
 :
 AUDIO_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -969,6 +973,7 @@ MediaTrackGraph
 :
 AUDIO_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -1121,6 +1126,7 @@ MediaTrackGraph
 :
 AUDIO_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -1291,6 +1297,7 @@ MediaTrackGraph
 :
 SYSTEM_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -2437,6 +2444,7 @@ MediaTrackGraph
 :
 SYSTEM_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -3165,6 +3173,7 @@ MediaTrackGraph
 :
 SYSTEM_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -3803,6 +3812,7 @@ MediaTrackGraph
 :
 SYSTEM_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -5272,6 +5282,7 @@ MediaTrackGraph
 :
 SYSTEM_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -6572,6 +6583,7 @@ MediaTrackGraph
 :
 SYSTEM_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -7001,6 +7013,7 @@ MediaTrackGraph
 :
 SYSTEM_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -7520,6 +7533,7 @@ MediaTrackGraph
 :
 SYSTEM_THREAD_DRIVER
 1
+false
 rate
 nullptr
 GetMainThreadSerialEventTarget
@@ -8410,6 +8424,7 @@ MediaTrackGraph
 :
 SYSTEM_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -9077,6 +9092,7 @@ MediaTrackGraph
 :
 SYSTEM_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -9965,6 +9981,7 @@ MediaTrackGraph
 :
 SYSTEM_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -11367,6 +11384,7 @@ MediaTrackGraph
 :
 SYSTEM_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -11873,6 +11891,7 @@ MediaTrackGraph
 :
 SYSTEM_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -12314,6 +12333,7 @@ MediaTrackGraph
 :
 SYSTEM_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -12775,6 +12795,7 @@ MediaTrackGraph
 :
 SYSTEM_THREAD_DRIVER
 1
+false
 MediaTrackGraph
 :
 :
@@ -14342,6 +14363,7 @@ MediaTrackGraph
 :
 SYSTEM_THREAD_DRIVER
 1
+false
 aInputRate
 nullptr
 GetMainThreadSerialEventTarget
@@ -14363,6 +14385,7 @@ MediaTrackGraph
 :
 SYSTEM_THREAD_DRIVER
 1
+false
 aOutputRate
 reinterpret_cast
 <
