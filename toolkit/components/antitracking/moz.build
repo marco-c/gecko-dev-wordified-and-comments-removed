@@ -26,6 +26,11 @@ XPIDL_SOURCES
 =
 [
 "
+nsIContentBlockingAllowList
+.
+idl
+"
+"
 nsIPartitioningExceptionListService
 .
 idl
