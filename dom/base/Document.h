@@ -5643,15 +5643,6 @@ GetTopLayer
 )
 const
 ;
-void
-AsyncRequestFullscreen
-(
-UniquePtr
-<
-FullscreenRequest
->
-)
-;
 bool
 FullscreenElementReadyCheck
 (

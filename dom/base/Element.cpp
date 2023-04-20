@@ -18429,7 +18429,7 @@ OwnerDoc
 )
 -
 >
-AsyncRequestFullscreen
+RequestFullscreen
 (
 std
 :
