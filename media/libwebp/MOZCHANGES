@@ -10,9 +10,9 @@ mozilla
 org
 developers
 .
-2022
+2023
 /
-05
+03
 /
 06
 -
@@ -21,11 +21,10 @@ Cherry
 -
 pick
 upstream
-crash
 fix
 (
 bug
-1761275
+1819244
 )
 .
 2022
