@@ -389,6 +389,12 @@ ALLOC_UPDATE_FROM_SURFACE
 <
 <
 7
+ALLOC_DO_NOT_ACCELERATE
+=
+1
+<
+<
+8
 }
 ;
 enum
