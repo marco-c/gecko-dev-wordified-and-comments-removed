@@ -62,6 +62,18 @@ crate
 queries
 :
 :
+condition
+:
+:
+KleeneValue
+;
+use
+crate
+:
+:
+queries
+:
+:
 feature
 :
 :
@@ -95,18 +107,6 @@ queries
 FeatureType
 QueryCondition
 }
-;
-use
-crate
-:
-:
-queries
-:
-:
-condition
-:
-:
-KleeneValue
 ;
 use
 crate
@@ -153,8 +153,8 @@ computed
 :
 :
 {
-ContainerType
 CSSPixelLength
+ContainerType
 Context
 Ratio
 }
@@ -2493,7 +2493,6 @@ ContainerType
 Size
 =
 >
-{
 TraversalResult
 :
 :
@@ -2513,7 +2512,6 @@ size
 height
 }
 )
-}
 ContainerType
 :
 :
@@ -2607,7 +2605,6 @@ element
 |
 e
 |
-{
 Self
 :
 :
@@ -2615,7 +2612,6 @@ evaluate_potential_size_container
 (
 e
 )
-}
 )
 {
 Some
@@ -2627,6 +2623,7 @@ result
 )
 =
 >
+{
 if
 result
 .
@@ -2650,6 +2647,7 @@ lookup
 container
 )
 )
+}
 }
 None
 =
@@ -2760,7 +2758,6 @@ new
 move
 |
 |
-{
 Self
 :
 :
@@ -2768,7 +2765,6 @@ lookup
 (
 element
 )
-}
 )
 )
 ;
