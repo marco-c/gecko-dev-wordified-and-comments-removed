@@ -437,11 +437,7 @@ element_type_
 using
 difference_type
 =
-typename
-SpanT
-:
-:
-index_type
+ptrdiff_t
 ;
 using
 reference
