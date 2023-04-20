@@ -5967,6 +5967,14 @@ fake_frame_encryptor
 /
 api
 :
+field_trials_view
+"
+"
+.
+.
+/
+api
+:
 frame_generator_api
 "
 "

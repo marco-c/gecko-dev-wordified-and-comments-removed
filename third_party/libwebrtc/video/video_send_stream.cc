@@ -658,6 +658,7 @@ OveruseFrameDetector
 >
 (
 stats_proxy
+field_trials
 )
 FrameCadenceAdapterInterface
 :
