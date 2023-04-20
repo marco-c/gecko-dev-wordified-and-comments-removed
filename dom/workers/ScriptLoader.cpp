@@ -6317,7 +6317,6 @@ return
 true
 ;
 }
-}
 MOZ_ASSERT
 (
 mScriptLoader
@@ -6384,6 +6383,7 @@ MaybeMoveToLoadedList
 request
 )
 ;
+}
 }
 return
 mScriptLoader
