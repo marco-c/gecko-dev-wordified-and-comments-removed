@@ -426,7 +426,7 @@ get
 *
 param
 {
-IdentityProvider
+IdentityProviderConfig
 [
 ]
 }
@@ -444,7 +444,7 @@ from
 *
 param
 {
-IdentityInternalManifest
+IdentityProviderAPIConfig
 [
 ]
 }
@@ -1678,7 +1678,7 @@ get
 *
 param
 {
-IdentityProvider
+IdentityProviderConfig
 }
 identityProvider
 -
@@ -1695,7 +1695,7 @@ use
 *
 param
 {
-IdentityInternalManifest
+IdentityProviderAPIConfig
 }
 identityManifest
 -
@@ -2457,7 +2457,7 @@ get
 *
 param
 {
-IdentityAccountList
+IdentityProviderAccountList
 }
 accountList
 -
@@ -2472,7 +2472,7 @@ from
 *
 param
 {
-IdentityProvider
+IdentityProviderConfig
 }
 provider
 -
@@ -2483,7 +2483,7 @@ provider
 *
 param
 {
-IdentityInternalManifest
+IdentityProviderAPIConfig
 }
 providerManifest
 -
@@ -2499,7 +2499,7 @@ returns
 {
 Promise
 <
-IdentityAccount
+IdentityProviderAccount
 >
 }
 The
