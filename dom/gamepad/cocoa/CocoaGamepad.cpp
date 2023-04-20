@@ -1541,7 +1541,7 @@ buffer
 256
 ]
 ;
-sprintf
+SprintfLiteral
 (
 buffer
 "

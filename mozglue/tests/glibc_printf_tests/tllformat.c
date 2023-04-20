@@ -170,9 +170,13 @@ iptr
 +
 )
 {
-sprintf
+snprintf
 (
 buffer
+sizeof
+(
+buffer
+)
 iptr
 -
 >
