@@ -11112,11 +11112,6 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-*
-aDiskCapacity
-=
-0
-;
 nsresult
 rv
 =
