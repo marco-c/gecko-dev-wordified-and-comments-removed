@@ -983,12 +983,22 @@ grcov_dir
 =
 os
 .
+path
+.
+join
+(
+os
+.
 environ
 [
 "
 MOZ_FETCHES_DIR
 "
 ]
+"
+grcov
+"
+)
         
 if
 not
