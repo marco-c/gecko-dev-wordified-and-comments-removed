@@ -113,6 +113,12 @@ aOther
 mMaxVersion
 ;
 }
+bool
+IsValidDynamicBlocklistEntry
+(
+)
+const
+;
 static
 const
 uint64_t
