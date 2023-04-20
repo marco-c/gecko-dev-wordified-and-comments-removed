@@ -136,6 +136,11 @@ nsMenuPopupFrame
 cpp
 "
 "
+nsPopupSetFrame
+.
+cpp
+"
+"
 nsRepeatService
 .
 cpp
