@@ -1684,6 +1684,15 @@ vrMojom
 XRSessionFeature
 .
 CAMERA_ACCESS
+'
+layers
+'
+:
+vrMojom
+.
+XRSessionFeature
+.
+LAYERS
 }
 ;
 static
