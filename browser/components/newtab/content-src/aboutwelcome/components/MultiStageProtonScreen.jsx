@@ -124,6 +124,7 @@ Themes
 ;
 import
 {
+OnboardingVideo
 SecondaryCTA
 StepsIndicator
 }
@@ -165,17 +166,6 @@ from
 .
 /
 HeroImage
-"
-;
-import
-{
-OnboardingVideo
-}
-from
-"
-.
-/
-OnboardingVideo
 "
 ;
 export
