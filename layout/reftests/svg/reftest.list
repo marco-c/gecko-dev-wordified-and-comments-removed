@@ -3001,13 +3001,7 @@ color
 06
 .
 svg
-fallback
--
-color
--
-06
--
-ref
+pass
 .
 svg
 =

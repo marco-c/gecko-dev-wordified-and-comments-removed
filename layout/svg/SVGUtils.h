@@ -1256,7 +1256,7 @@ nsStyleSVG
 *
 aFillOrStroke
 nscolor
-aDefaultFallbackColor
+aDefaultContextFallbackColor
 )
 ;
 static
