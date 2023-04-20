@@ -257,9 +257,23 @@ metavar
 REPO
 "
     
-required
+default
 =
-True
+"
+https
+:
+/
+/
+github
+.
+com
+/
+puppeteer
+/
+puppeteer
+.
+git
+"
     
 help
 =
@@ -267,7 +281,7 @@ help
 The
 (
 possibly
-remote
+local
 )
 repository
 to
