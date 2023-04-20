@@ -1011,7 +1011,7 @@ aTs
 }
 }
 using
-OptionalBacktraceCaptureFunction
+BacktraceCaptureFunction
 =
 bool
 (
@@ -1070,8 +1070,8 @@ MarkerOptions
 &
 &
 aOptions
-OptionalBacktraceCaptureFunction
-aOptionalBacktraceCaptureFunction
+BacktraceCaptureFunction
+aBacktraceCaptureFunction
 const
 Ts
 &
@@ -1151,12 +1151,6 @@ StackCaptureOptions
 :
 :
 NoStack
-&
-&
-aOptionalBacktraceCaptureFunction
-!
-=
-nullptr
 )
 {
 auto
@@ -1179,7 +1173,7 @@ StackRef
 .
 UseRequestedBacktrace
 (
-aOptionalBacktraceCaptureFunction
+aBacktraceCaptureFunction
 (
 aChunkedBuffer
 captureOptions
