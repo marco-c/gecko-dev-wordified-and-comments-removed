@@ -888,6 +888,9 @@ CompileInfo
 void
 DumpMIRExpressions
 (
+GenericPrinter
+&
+out
 MIRGraph
 &
 graph
@@ -899,6 +902,17 @@ const
 char
 *
 phase
+)
+;
+void
+DumpMIRDefinition
+(
+GenericPrinter
+&
+out
+MDefinition
+*
+def
 )
 ;
 }

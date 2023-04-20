@@ -5671,6 +5671,14 @@ AssertBasicGraphCoherency
 graph
 )
 ;
+if
+(
+JitSpewEnabled
+(
+JitSpew_MIRExpressions
+)
+)
+{
 JitSpewCont
 (
 JitSpew_MIRExpressions
@@ -5682,6 +5690,9 @@ n
 ;
 DumpMIRExpressions
 (
+JitSpewPrinter
+(
+)
 graph
 mir
 -
@@ -5701,6 +5712,7 @@ OptimizeMIR
 "
 )
 ;
+}
 if
 (
 !
@@ -7931,6 +7943,14 @@ graph
 true
 )
 ;
+if
+(
+JitSpewEnabled
+(
+JitSpew_MIRExpressions
+)
+)
+{
 JitSpewCont
 (
 JitSpew_MIRExpressions
@@ -7942,6 +7962,9 @@ n
 ;
 DumpMIRExpressions
 (
+JitSpewPrinter
+(
+)
 graph
 mir
 -
@@ -7961,6 +7984,7 @@ OptimizeMIR
 "
 )
 ;
+}
 return
 true
 ;
