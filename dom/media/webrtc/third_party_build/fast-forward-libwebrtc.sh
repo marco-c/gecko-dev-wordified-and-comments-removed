@@ -863,6 +863,8 @@ MOZ_LIBWEBRTC_NEXT_BASE
 \
 &
 >
+LOG_DIR
+/
 log
 -
 rebase
@@ -1070,6 +1072,8 @@ third_party
 libwebrtc
 &
 >
+LOG_DIR
+/
 log
 -
 regen
@@ -1202,6 +1206,8 @@ UPSTREAM_ADDED_FILES
 "
 &
 >
+LOG_DIR
+/
 log
 -
 new
@@ -1335,6 +1341,8 @@ UPSTREAM_DELETED_FILES
 "
 &
 >
+LOG_DIR
+/
 log
 -
 deleted
@@ -1486,6 +1494,8 @@ UPSTREAM_RENAMED_FILES
 "
 &
 >
+LOG_DIR
+/
 log
 -
 renamed
