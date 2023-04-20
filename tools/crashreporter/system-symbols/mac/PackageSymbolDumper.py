@@ -1052,36 +1052,14 @@ payload
 "
 )
             
-extract
-=
-"
+from
 extract_pbzx
-.
-py
-"
+import
+extract_pbzx
             
-payload_dir
-=
-os
-.
-path
-.
-dirname
+extract_pbzx
 (
 payload_path
-)
-            
-subprocess
-.
-check_call
-(
-[
-extract
-payload_path
-]
-cwd
-=
-payload_dir
 )
             
 pax_proc
