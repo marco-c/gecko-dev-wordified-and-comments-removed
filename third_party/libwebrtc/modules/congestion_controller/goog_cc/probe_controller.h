@@ -262,6 +262,12 @@ bool
 >
 limit_probe_target_rate_to_loss_bwe
 ;
+FieldTrialParameter
+<
+double
+>
+skip_if_estimate_larger_than_fraction_of_max
+;
 }
 ;
 class
