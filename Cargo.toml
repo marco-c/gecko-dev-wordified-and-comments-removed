@@ -1843,7 +1843,7 @@ uniffi
 .
 21
 .
-0
+1
 "
 uniffi_bindgen
 =
@@ -1853,7 +1853,7 @@ uniffi_bindgen
 .
 21
 .
-0
+1
 "
 uniffi_build
 =
@@ -1863,7 +1863,7 @@ uniffi_build
 .
 21
 .
-0
+1
 "
 uniffi_macros
 =
@@ -1873,7 +1873,7 @@ uniffi_macros
 .
 21
 .
-0
+1
 "
 weedle2
 =
