@@ -70,6 +70,9 @@ Mac_UserPreferencesDirectory
 Mac_PictureDocumentsDirectory
 =
 108
+Mac_DefaultScreenshotDirectory
+=
+109
 Win_SystemDirectory
 =
 201

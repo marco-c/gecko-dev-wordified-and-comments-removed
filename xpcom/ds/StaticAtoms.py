@@ -25448,6 +25448,16 @@ Pct
 Atom
 (
 "
+DirectoryService_DefaultScreenshotDirectory
+"
+"
+Scrnshts
+"
+)
+    
+Atom
+(
+"
 DirectoryService_WindowsDirectory
 "
 "
