@@ -3,8 +3,10 @@ use
 strict
 "
 ;
-function
+class
 Alarm
+{
+constructor
 (
 api
 name
@@ -182,11 +184,6 @@ timer
 timer
 ;
 }
-Alarm
-.
-prototype
-=
-{
 clear
 (
 )
@@ -336,7 +333,6 @@ periodInMinutes
 ;
 }
 }
-;
 this
 .
 alarms
