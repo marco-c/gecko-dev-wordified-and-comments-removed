@@ -936,6 +936,25 @@ False
 )
 )
     
+keep_going
+=
+keep_going
+or
+bool
+(
+os
+.
+environ
+.
+get
+(
+"
+MOZ_AUTOMATION
+"
+False
+)
+)
+    
 append_env
 =
 None

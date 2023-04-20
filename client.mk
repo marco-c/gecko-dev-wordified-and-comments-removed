@@ -570,9 +570,6 @@ SCCACHE_STOP_ON_FAILURE
 )
 ifdef
 MOZ_AUTOMATION
-build
-:
-:
 +
 (
 MOZ_MAKE
