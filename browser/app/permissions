@@ -237,3 +237,16 @@ fpn
 firefox
 .
 com
+#
+autoplay
+video
+/
+audio
+origin
+autoplay
+-
+media
+1
+about
+:
+welcome

@@ -15,17 +15,6 @@ didSeeAboutWelcome
 "
 ;
 const
-MR_TEMPLATE_PREF
-=
-"
-browser
-.
-aboutwelcome
-.
-templateMR
-"
-;
-const
 TEST_PROTON_CONTENT
 =
 [
