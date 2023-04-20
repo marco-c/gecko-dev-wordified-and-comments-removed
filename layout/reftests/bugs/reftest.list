@@ -7740,7 +7740,6 @@ html
 ref
 .
 html
-random
 =
 =
 328829
@@ -7755,12 +7754,6 @@ xhtml
 ref
 .
 xhtml
-#
-bug
-369046
-(
-intermittent
-)
 =
 =
 328829
