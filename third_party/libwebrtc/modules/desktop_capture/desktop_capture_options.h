@@ -830,7 +830,7 @@ WEBRTC_USE_PIPEWIRE
 bool
 allow_pipewire_
 =
-true
+false
 ;
 uint32_t
 width_
