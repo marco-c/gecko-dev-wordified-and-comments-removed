@@ -2539,6 +2539,7 @@ GetTrackIndice
 uint32_t
 aTrackId
 )
+const
 {
 Mp4parseByteData
 indiceRawData
