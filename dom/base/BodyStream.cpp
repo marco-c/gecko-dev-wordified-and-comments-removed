@@ -173,6 +173,11 @@ include
 <
 cstdint
 >
+#
+include
+<
+utility
+>
 namespace
 mozilla
 :
@@ -309,7 +314,13 @@ WorkerThreadUnchangedBusyCount
 )
 mStream
 (
+std
+:
+:
+move
+(
 aStream
+)
 )
 {
 }
@@ -1001,7 +1012,7 @@ Handle
 JSObject
 *
 >
-aChunk
+aBuffer
 uint32_t
 aLength
 uint32_t
@@ -1011,7 +1022,7 @@ aByteWritten
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
-aChunk
+aBuffer
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -1076,7 +1087,7 @@ buffer
 =
 JS_GetArrayBufferViewData
 (
-aChunk
+aBuffer
 &
 isSharedMemory
 noGC
