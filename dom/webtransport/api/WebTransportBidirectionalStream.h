@@ -133,7 +133,7 @@ override
 ;
 already_AddRefed
 <
-ReadableStream
+WebTransportReceiveStream
 >
 Readable
 (
@@ -145,7 +145,7 @@ nullptr
 }
 already_AddRefed
 <
-WritableStream
+WebTransportSendStream
 >
 Writable
 (
