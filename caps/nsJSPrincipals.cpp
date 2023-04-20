@@ -151,13 +151,6 @@ AddRef
 (
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 MOZ_ASSERT
 (
 int32_t
@@ -209,13 +202,6 @@ Release
 (
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 MOZ_ASSERT
 (
 0
