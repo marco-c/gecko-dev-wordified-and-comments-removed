@@ -639,7 +639,6 @@ connectionPrefix
 const
 isMatchingContext
 =
-(
 sessionContext
 .
 type
@@ -648,18 +647,6 @@ type
 "
 all
 "
-&
-&
-actor
-.
-typeName
-=
-=
-=
-"
-parentProcessTarget
-"
-)
 |
 |
 (
