@@ -272,13 +272,6 @@ nsIFile
 >
 mTempFile
 ;
-private
-:
-nsresult
-DoEndDocument
-(
-)
-;
 }
 ;
 class
