@@ -1,33 +1,13 @@
-from
-__future__
-import
-print_function
 import
 re
 import
 codecs
 import
-time
+importlib
 import
 os
 import
-shutil
-import
 sys
-import
-xml
-.
-dom
-.
-minidom
-from
-xml
-.
-dom
-.
-minidom
-import
-Node
 try
 :
     
@@ -54,6 +34,47 @@ ImportError
     
 import
 yaml
+class
+Error
+(
+Exception
+)
+:
+    
+"
+"
+"
+Base
+class
+for
+all
+exceptions
+raised
+by
+this
+module
+"
+"
+"
+class
+InvalidTestDefinitionError
+(
+Error
+)
+:
+    
+"
+"
+"
+Raised
+on
+invalid
+test
+definition
+.
+"
+"
+"
 def
 genTestUtils_union
 (
@@ -109,12 +130,12 @@ output
 def
 simpleEscapeJS
 (
-str
+string
 )
 :
         
 return
-str
+string
 .
 replace
 (
@@ -145,18 +166,18 @@ replace
 def
 escapeJS
 (
-str
+string
 )
 :
         
-str
+string
 =
 simpleEscapeJS
 (
-str
+string
 )
         
-str
+string
 =
 re
 .
@@ -193,70 +214,11 @@ r
 "
 ]
 '
-str
+string
 )
         
 return
-str
-    
-def
-escapeHTML
-(
-str
-)
-:
-        
-return
-str
-.
-replace
-(
-'
-&
-'
-'
-&
-amp
-;
-'
-)
-.
-replace
-(
-'
-<
-'
-'
-&
-lt
-;
-'
-)
-.
-replace
-(
-            
-'
->
-'
-'
-&
-gt
-;
-'
-)
-.
-replace
-(
-'
-"
-'
-'
-&
-quot
-;
-'
-)
+string
     
 def
 expand_nonfinite
@@ -430,7 +392,7 @@ split
 )
 :
             
-a
+match
 =
 re
 .
@@ -446,6 +408,44 @@ match
 '
 arg
 )
+            
+if
+match
+is
+None
+:
+                
+raise
+InvalidTestDefinitionError
+(
+                    
+f
+"
+Expected
+arg
+to
+match
+format
+'
+<
+(
+.
+*
+)
+>
+'
+but
+was
+:
+{
+arg
+}
+"
+)
+            
+a
+=
+match
 .
 group
 (
@@ -601,6 +601,7 @@ depth
 >
 0
 :
+                        
 calls
 .
 append
@@ -688,8 +689,16 @@ test
 '
 :
         
-import
 doctest
+=
+importlib
+.
+import_module
+(
+'
+doctest
+'
+)
         
 doctest
 .
@@ -1080,6 +1089,7 @@ d
 )
         
 except
+FileExistsError
 :
             
 pass
@@ -1172,6 +1182,9 @@ mapping
                   
 name
 )
+            
+return
+name
         
 if
 '
@@ -1891,7 +1904,7 @@ OffscreenCanvas_test
 False
             
 for
-type
+canvas_type
 in
 test
 .
@@ -1904,7 +1917,7 @@ canvasType
 :
                 
 if
-type
+canvas_type
 .
 lower
 (
@@ -1921,7 +1934,7 @@ HTMLCanvas_test
 True
                 
 elif
-type
+canvas_type
 .
 lower
 (
@@ -2001,15 +2014,6 @@ map_name
 (
 name
 )
-        
-if
-not
-mapped_name
-:
-            
-mapped_name
-=
-name
         
 cat_total
 =
@@ -2590,7 +2594,7 @@ height
 '
 )
         
-prev
+prev_test
 =
 tests
 [
@@ -2613,7 +2617,7 @@ else
 index
 '
         
-next
+next_test
 =
 tests
 [
@@ -2853,7 +2857,7 @@ images
 '
         
 for
-i
+src
 in
 test
 .
@@ -2867,9 +2871,9 @@ images
 )
 :
             
-id
+img_id
 =
-i
+src
 .
 split
 (
@@ -2888,17 +2892,17 @@ if
 '
 not
 in
-i
+src
 :
                 
 used_images
 [
-i
+src
 ]
 =
 1
                 
-i
+src
 =
 '
 .
@@ -2910,7 +2914,7 @@ images
 s
 '
 %
-i
+src
             
 images
 +
@@ -2941,12 +2945,13 @@ n
 '
 %
 (
-i
-id
+src
+                                                                     
+img_id
 )
         
 for
-i
+src
 in
 test
 .
@@ -2960,9 +2965,9 @@ svgimages
 )
 :
             
-id
+img_id
 =
-i
+src
 .
 split
 (
@@ -2981,17 +2986,17 @@ if
 '
 not
 in
-i
+src
 :
                 
 used_images
 [
-i
+src
 ]
 =
 1
                 
-i
+src
 =
 '
 .
@@ -3003,7 +3008,7 @@ images
 s
 '
 %
-i
+src
             
 images
 +
@@ -3047,8 +3052,8 @@ n
 '
 %
 (
-i
-id
+src
+img_id
 )
 )
         
@@ -3083,7 +3088,7 @@ fonthack
 '
         
 for
-i
+font
 in
 test
 .
@@ -3143,8 +3148,8 @@ n
 '
 %
 (
-i
-i
+font
+font
 )
 )
             
@@ -3198,7 +3203,7 @@ span
 n
 '
 %
-i
+font
 )
         
 if
@@ -3403,13 +3408,13 @@ escaped_desc
 prev
 '
 :
-prev
+prev_test
                 
 '
 next
 '
 :
-next
+next_test
                 
 '
 notes
