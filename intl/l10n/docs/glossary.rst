@@ -81,10 +81,6 @@ chars
 *
 n
 *
-L12y
-Numeronym
-for
-Localizability
 l10n
 -
 merge

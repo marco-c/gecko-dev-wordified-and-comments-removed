@@ -894,8 +894,6 @@ and
 string
 properties
 and
-DTD
-and
 FTL
 files
 .

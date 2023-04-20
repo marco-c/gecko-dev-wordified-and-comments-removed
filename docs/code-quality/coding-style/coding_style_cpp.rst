@@ -2068,7 +2068,6 @@ character
 set
 for
 XUL
-DTD
 script
 and
 properties
