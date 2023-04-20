@@ -23769,17 +23769,6 @@ setURI
 aLocationURI
 aIsSimulated
 isSessionRestore
-aRequest
-instanceof
-Ci
-.
-nsIChannel
-?
-aRequest
-.
-originalURI
-:
-null
 )
 ;
 BookmarkingUI
