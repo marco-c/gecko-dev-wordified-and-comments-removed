@@ -3338,14 +3338,9 @@ if
 reducedStillPicture
 )
 {
-aDestInfo
-=
-tempInfo
-;
-return
-NS_OK
-;
 }
+else
+{
 br
 .
 ReadBit
@@ -3464,6 +3459,7 @@ ReadBits
 3
 )
 ;
+}
 }
 br
 .
@@ -4048,8 +4044,7 @@ AV1
 sequence
 header
 was
-parsed
-incorrectly
+corrupted
 "
 )
 ;
