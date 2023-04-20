@@ -43443,13 +43443,6 @@ takeUnchecked
 result
 )
 ;
-volatileRegs
-.
-addUnchecked
-(
-floatScratch0
-)
-;
 masm
 .
 PushRegsInMask
