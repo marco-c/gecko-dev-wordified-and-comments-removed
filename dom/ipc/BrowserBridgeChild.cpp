@@ -1120,12 +1120,12 @@ PresShell
 presShell
 -
 >
-ScrollFrameRectIntoView
+ScrollFrameIntoView
 (
 frame
-rect
-nsMargin
+Some
 (
+rect
 )
 aVertical
 aHorizontal
