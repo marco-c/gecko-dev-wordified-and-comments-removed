@@ -10,159 +10,13 @@ modules
 script
 import
 ContextTarget
-page_data
-=
-"
-"
-"
-    
-<
-div
-id
-=
-"
-deep
-"
->
-<
-p
->
-<
-span
->
-<
-/
-span
->
-<
-/
-p
->
-<
-br
-/
->
-<
-/
-div
->
-    
-<
-div
-id
-=
-"
-text
--
-node
-"
->
-<
-p
->
-<
-/
-p
->
-Lorem
-<
-/
-div
->
-    
-<
-br
-/
->
-    
-<
-svg
-id
-=
-"
-foo
-"
->
-<
-/
-svg
->
-    
-<
-div
-id
-=
-"
-comment
-"
->
-<
-!
--
--
-Comment
--
--
->
-<
-/
-div
->
-    
-<
-script
->
-        
-var
-svg
-=
-document
+from
 .
-querySelector
-(
-"
-svg
-"
-)
-;
-        
-svg
 .
-setAttributeNS
-(
-"
-http
-:
-/
-/
-www
 .
-w3
-.
-org
-/
-2000
-/
-svg
-"
-"
-svg
-:
-foo
-"
-"
-bar
-"
-)
-;
-    
-<
-/
-script
->
-"
-"
-"
+import
+any_string
+recursive_compare
 pytest
 .
 mark
@@ -216,6 +70,12 @@ node
 "
                 
 "
+sharedId
+"
+:
+any_string
+                
+"
 value
 "
 :
@@ -315,6 +175,12 @@ node
 "
                 
 "
+sharedId
+"
+:
+any_string
+                
+"
 value
 "
 :
@@ -325,14 +191,6 @@ attributes
 "
 :
 {
-                        
-"
-id
-"
-:
-"
-foo
-"
                         
 "
 svg
@@ -414,8 +272,9 @@ document
 querySelector
 (
 "
-div
 #
+with
+-
 text
 -
 node
@@ -437,6 +296,12 @@ node
 "
                 
 "
+sharedId
+"
+:
+any_string
+                
+"
 value
 "
 :
@@ -452,6 +317,8 @@ id
 "
 :
 "
+with
+-
 text
 -
 node
@@ -462,7 +329,7 @@ node
 childNodeCount
 "
 :
-2
+1
                     
 "
 children
@@ -480,70 +347,10 @@ node
 "
                         
 "
-value
+sharedId
 "
 :
-{
-                            
-"
-attributes
-"
-:
-{
-}
-                            
-"
-childNodeCount
-"
-:
-0
-                            
-"
-localName
-"
-:
-"
-p
-"
-                            
-"
-namespaceURI
-"
-:
-"
-http
-:
-/
-/
-www
-.
-w3
-.
-org
-/
-1999
-/
-xhtml
-"
-                            
-"
-nodeType
-"
-:
-1
-                        
-}
-                    
-}
-{
-                        
-"
-type
-"
-:
-"
-node
-"
+any_string
                         
 "
 value
@@ -631,9 +438,10 @@ document
 querySelector
 (
 "
-div
 #
-deep
+with
+-
+children
 "
 )
             
@@ -652,6 +460,12 @@ node
 "
                 
 "
+sharedId
+"
+:
+any_string
+                
+"
 value
 "
 :
@@ -667,7 +481,9 @@ id
 "
 :
 "
-deep
+with
+-
+children
 "
 }
                     
@@ -691,6 +507,12 @@ type
 "
 node
 "
+                        
+"
+sharedId
+"
+:
+any_string
                         
 "
 value
@@ -757,6 +579,12 @@ type
 "
 node
 "
+                        
+"
+sharedId
+"
+:
+any_string
                         
 "
 value
@@ -890,6 +718,12 @@ node
 "
                 
 "
+sharedId
+"
+:
+any_string
+                
+"
 value
 "
 :
@@ -988,7 +822,7 @@ test_element_node
 (
     
 bidi_session
-inline
+get_test_page
 top_context
 function_declaration
 expected
@@ -1013,9 +847,8 @@ context
 ]
 url
 =
-inline
+get_test_page
 (
-page_data
 )
 wait
 =
@@ -1057,11 +890,11 @@ False
     
 )
     
-assert
-result
-=
-=
+recursive_compare
+(
 expected
+result
+)
 pytest
 .
 mark
@@ -1096,7 +929,9 @@ document
 querySelector
 (
 "
-svg
+input
+#
+button
 "
 )
 .
@@ -1118,6 +953,12 @@ type
 "
 node
 "
+                
+"
+sharedId
+"
+:
+any_string
                 
 "
 value
@@ -1163,7 +1004,7 @@ nodeValue
 "
 :
 "
-foo
+button
 "
                 
 }
@@ -1192,7 +1033,7 @@ svg
 .
 attributes
 [
-1
+0
 ]
             
 "
@@ -1208,6 +1049,12 @@ type
 "
 node
 "
+                
+"
+sharedId
+"
+:
+any_string
                 
 "
 value
@@ -1297,7 +1144,7 @@ test_attribute_node
 (
     
 bidi_session
-inline
+get_test_page
 top_context
 function_declaration
 expected
@@ -1322,9 +1169,8 @@ context
 ]
 url
 =
-inline
+get_test_page
 (
-page_data
 )
 wait
 =
@@ -1366,11 +1212,11 @@ False
     
 )
     
-assert
-result
-=
-=
+recursive_compare
+(
 expected
+result
+)
 pytest
 .
 mark
@@ -1405,8 +1251,9 @@ document
 querySelector
 (
 "
-div
 #
+with
+-
 text
 -
 node
@@ -1415,7 +1262,7 @@ node
 .
 childNodes
 [
-1
+0
 ]
             
 "
@@ -1431,6 +1278,12 @@ type
 "
 node
 "
+                
+"
+sharedId
+"
+:
+any_string
                 
 "
 value
@@ -1486,8 +1339,9 @@ async
 def
 test_text_node
 (
+    
 bidi_session
-inline
+get_test_page
 top_context
 function_declaration
 expected
@@ -1512,9 +1366,8 @@ context
 ]
 url
 =
-inline
+get_test_page
 (
-page_data
 )
 wait
 =
@@ -1556,11 +1409,11 @@ False
     
 )
     
-assert
-result
-=
-=
+recursive_compare
+(
 expected
+result
+)
 pytest
 .
 mark
@@ -1617,6 +1470,12 @@ type
 "
 node
 "
+                
+"
+sharedId
+"
+:
+any_string
                 
 "
 value
@@ -1780,11 +1639,11 @@ False
     
 )
     
-assert
-result
-=
-=
+recursive_compare
+(
 expected
+result
+)
 pytest
 .
 mark
@@ -1847,6 +1706,12 @@ type
 "
 node
 "
+                
+"
+sharedId
+"
+:
+any_string
                 
 "
 value
@@ -2000,11 +1865,11 @@ False
     
 )
     
-assert
-result
-=
-=
+recursive_compare
+(
 expected
+result
+)
 pytest
 .
 mark
@@ -2039,8 +1904,9 @@ document
 querySelector
 (
 "
-div
 #
+with
+-
 comment
 "
 )
@@ -2063,6 +1929,12 @@ type
 "
 node
 "
+                
+"
+sharedId
+"
+:
+any_string
                 
 "
 value
@@ -2120,7 +1992,7 @@ test_comment_node
 (
     
 bidi_session
-inline
+get_test_page
 top_context
 function_declaration
 expected
@@ -2145,9 +2017,8 @@ context
 ]
 url
 =
-inline
+get_test_page
 (
-page_data
 )
 wait
 =
@@ -2189,11 +2060,11 @@ False
     
 )
     
-assert
-result
-=
-=
+recursive_compare
+(
 expected
+result
+)
 pytest
 .
 mark
@@ -2240,6 +2111,12 @@ node
 "
                 
 "
+sharedId
+"
+:
+any_string
+                
+"
 value
 "
 :
@@ -2265,6 +2142,12 @@ type
 "
 node
 "
+                        
+"
+sharedId
+"
+:
+any_string
                         
 "
 value
@@ -2296,6 +2179,12 @@ type
 "
 node
 "
+                        
+"
+sharedId
+"
+:
+any_string
                         
 "
 value
@@ -2384,7 +2273,7 @@ test_document_node
 (
     
 bidi_session
-inline
+get_test_page
 top_context
 function_declaration
 expected
@@ -2409,9 +2298,8 @@ context
 ]
 url
 =
-inline
+get_test_page
 (
-page_data
 )
 wait
 =
@@ -2453,11 +2341,11 @@ False
     
 )
     
-assert
-result
-=
-=
+recursive_compare
+(
 expected
+result
+)
 pytest
 .
 mark
@@ -2504,6 +2392,12 @@ type
 "
 node
 "
+                
+"
+sharedId
+"
+:
+any_string
                 
 "
 value
@@ -2553,7 +2447,7 @@ test_doctype_node
 (
     
 bidi_session
-inline
+get_test_page
 top_context
 function_declaration
 expected
@@ -2578,9 +2472,8 @@ context
 ]
 url
 =
-inline
+get_test_page
 (
-page_data
 )
 wait
 =
@@ -2622,11 +2515,11 @@ False
     
 )
     
-assert
-result
-=
-=
+recursive_compare
+(
 expected
+result
+)
 pytest
 .
 mark
@@ -2656,8 +2549,167 @@ expected
 )
 =
 >
-new
-DocumentFragment
+document
+.
+querySelector
+(
+"
+#
+custom
+-
+element
+"
+)
+.
+shadowRoot
+            
+"
+"
+"
+            
+{
+                
+"
+type
+"
+:
+"
+node
+"
+                
+"
+sharedId
+"
+:
+any_string
+                
+"
+value
+"
+:
+{
+                    
+"
+childNodeCount
+"
+:
+1
+                    
+"
+children
+"
+:
+[
+{
+                        
+"
+type
+"
+:
+"
+node
+"
+                        
+"
+sharedId
+"
+:
+any_string
+                        
+"
+value
+"
+:
+{
+                            
+"
+attributes
+"
+:
+{
+"
+id
+"
+:
+"
+in
+-
+shadow
+-
+dom
+"
+}
+                            
+"
+childNodeCount
+"
+:
+1
+                            
+"
+localName
+"
+:
+"
+div
+"
+                            
+"
+namespaceURI
+"
+:
+"
+http
+:
+/
+/
+www
+.
+w3
+.
+org
+/
+1999
+/
+xhtml
+"
+                            
+"
+nodeType
+"
+:
+1
+                        
+}
+                    
+}
+]
+                    
+"
+nodeType
+"
+:
+11
+                
+}
+            
+}
+        
+)
+        
+(
+            
+"
+"
+"
+                
+(
+)
+=
+>
+document
+.
+createDocumentFragment
 (
 )
             
@@ -2674,6 +2726,12 @@ type
 "
 node
 "
+                
+"
+sharedId
+"
+:
+any_string
                 
 "
 value
@@ -2712,7 +2770,13 @@ ids
 [
         
 "
-basic
+shadow
+root
+"
+        
+"
+not
+connected
 "
     
 ]
@@ -2723,7 +2787,7 @@ test_document_fragment_node
 (
     
 bidi_session
-inline
+get_test_page
 top_context
 function_declaration
 expected
@@ -2748,9 +2812,8 @@ context
 ]
 url
 =
-inline
+get_test_page
 (
-page_data
 )
 wait
 =
@@ -2792,11 +2855,11 @@ False
     
 )
     
-assert
-result
-=
-=
+recursive_compare
+(
 expected
+result
+)
 pytest
 .
 mark
@@ -2807,7 +2870,7 @@ def
 test_node_within_object
 (
 bidi_session
-inline
+get_test_page
 top_context
 )
 :
@@ -2830,9 +2893,8 @@ context
 ]
 url
 =
-inline
+get_test_page
 (
-page_data
 )
 wait
 =
@@ -2872,7 +2934,7 @@ document
 querySelector
 (
 "
-span
+img
 "
 )
 }
@@ -2899,9 +2961,7 @@ False
     
 )
     
-assert
-result
-=
+expected
 =
 {
         
@@ -2934,6 +2994,12 @@ node
 "
                 
 "
+sharedId
+"
+:
+any_string
+                
+"
 value
 "
 :
@@ -2957,7 +3023,7 @@ localName
 "
 :
 "
-span
+img
 "
                     
 "
@@ -2994,6 +3060,12 @@ nodeType
 ]
     
 }
+    
+recursive_compare
+(
+expected
+result
+)
 pytest
 .
 mark
@@ -3025,7 +3097,7 @@ document
 getElementsByTagName
 (
 '
-span
+img
 '
 )
 "
@@ -3057,6 +3129,12 @@ node
 "
                         
 "
+sharedId
+"
+:
+any_string
+                        
+"
 value
 "
 :
@@ -3080,7 +3158,7 @@ localName
 "
 :
 "
-span
+img
 "
                             
 "
@@ -3131,7 +3209,7 @@ document
 querySelectorAll
 (
 '
-span
+img
 '
 )
 "
@@ -3163,6 +3241,12 @@ node
 "
                         
 "
+sharedId
+"
+:
+any_string
+                        
+"
 value
 "
 :
@@ -3186,7 +3270,7 @@ localName
 "
 :
 "
-span
+img
 "
                             
 "
@@ -3247,7 +3331,7 @@ test_node_within_dom_collection
     
 bidi_session
     
-inline
+get_test_page
     
 top_context
     
@@ -3275,9 +3359,8 @@ context
 ]
 url
 =
-inline
+get_test_page
 (
-page_data
 )
 wait
 =
@@ -3319,8 +3402,8 @@ False
     
 )
     
-assert
-result
-=
-=
+recursive_compare
+(
 expected
+result
+)
