@@ -1,14 +1,16 @@
 import
 copy
+import
+logging
+import
+os
+import
+re
 from
 datetime
 import
 datetime
 timedelta
-import
-os
-import
-re
 from
 redo
 import
@@ -69,6 +71,180 @@ hg
 import
 find_hg_revision_push_info
 get_hg_commit_message
+logger
+=
+logging
+.
+getLogger
+(
+__name__
+)
+def
+register_target_task
+(
+name
+enable_always_target
+=
+True
+)
+:
+    
+"
+"
+"
+Wrapper
+around
+taskgraph
+.
+_target_task
+which
+supports
+the
+always_target
+attribute
+.
+"
+"
+"
+    
+def
+wrap
+(
+func
+)
+:
+        
+def
+always_target_wrapper
+(
+full_task_graph
+parameters
+graph_config
+)
+:
+            
+target_tasks
+=
+func
+(
+full_task_graph
+parameters
+graph_config
+)
+            
+if
+not
+enable_always_target
+or
+parameters
+[
+"
+tasks_for
+"
+]
+!
+=
+"
+hg
+-
+push
+"
+:
+                
+return
+target_tasks
+            
+target_tasks
+=
+set
+(
+target_tasks
+)
+            
+always_target_tasks
+=
+{
+                
+t
+.
+label
+                
+for
+t
+in
+full_task_graph
+.
+tasks
+.
+values
+(
+)
+                
+if
+t
+.
+attributes
+.
+get
+(
+"
+always_target
+"
+)
+            
+}
+            
+logger
+.
+info
+(
+                
+"
+Adding
+%
+d
+tasks
+with
+always_target
+attribute
+"
+                
+%
+(
+len
+(
+always_target_tasks
+)
+-
+len
+(
+always_target_tasks
+&
+target_tasks
+)
+)
+            
+)
+            
+return
+list
+(
+target_tasks
+|
+always_target_tasks
+)
+        
+return
+_target_task
+(
+name
+)
+(
+always_target_wrapper
+)
+    
+return
+wrap
 UNCOMMON_TRY_TASK_LABELS
 =
 [
@@ -2118,7 +2294,7 @@ exception
     
 return
 target_tasks_labels
-_target_task
+register_target_task
 (
 "
 try_tasks
@@ -2182,7 +2358,7 @@ else
 return
 [
 ]
-_target_task
+register_target_task
 (
 "
 try_select_tasks
@@ -2219,7 +2395,7 @@ filter_by_uncommon_try_tasks
 l
 )
 ]
-_target_task
+register_target_task
 (
 "
 try_select_tasks_uncommon
@@ -2361,7 +2537,7 @@ sorted
 (
 tasks
 )
-_target_task
+register_target_task
 (
 "
 try_auto
@@ -2612,7 +2788,7 @@ t
 )
     
 ]
-_target_task
+register_target_task
 (
 "
 default
@@ -2692,7 +2868,7 @@ parameters
 )
     
 ]
-_target_task
+register_target_task
 (
 "
 autoland_tasks
@@ -2841,7 +3017,7 @@ l
 ]
 )
 ]
-_target_task
+register_target_task
 (
 "
 mozilla_central_tasks
@@ -3045,7 +3221,7 @@ l
 ]
 )
 ]
-_target_task
+register_target_task
 (
 "
 graphics_tasks
@@ -3166,7 +3342,7 @@ l
 ]
 )
 ]
-_target_task
+register_target_task
 (
 "
 mozilla_beta_tasks
@@ -3260,7 +3436,7 @@ parameters
 )
     
 ]
-_target_task
+register_target_task
 (
 "
 mozilla_release_tasks
@@ -3354,7 +3530,7 @@ parameters
 )
     
 ]
-_target_task
+register_target_task
 (
 "
 mozilla_esr102_tasks
@@ -3497,7 +3673,7 @@ filter
 t
 )
 ]
-_target_task
+register_target_task
 (
 "
 promote_desktop
@@ -3759,7 +3935,7 @@ firefox
 "
     
 )
-_target_task
+register_target_task
 (
 "
 push_desktop
@@ -3916,7 +4092,7 @@ filter
 t
 )
 ]
-_target_task
+register_target_task
 (
 "
 ship_desktop
@@ -4126,7 +4302,7 @@ filter
 t
 )
 ]
-_target_task
+register_target_task
 (
 "
 pine_tasks
@@ -4247,7 +4423,7 @@ filter
 t
 )
 ]
-_target_task
+register_target_task
 (
 "
 kaios_tasks
@@ -4308,7 +4484,7 @@ filter
 t
 )
 ]
-_target_task
+register_target_task
 (
 "
 ship_geckoview
@@ -4532,7 +4708,7 @@ filter
 t
 )
 ]
-_target_task
+register_target_task
 (
 "
 general_perf_testing
@@ -5092,7 +5268,7 @@ l10n
     
 return
 filter
-_target_task
+register_target_task
 (
 "
 nightly_linux
@@ -5186,7 +5362,7 @@ t
 parameters
 )
 ]
-_target_task
+register_target_task
 (
 "
 nightly_macosx
@@ -5275,7 +5451,7 @@ t
 parameters
 )
 ]
-_target_task
+register_target_task
 (
 "
 nightly_win32
@@ -5366,7 +5542,7 @@ t
 parameters
 )
 ]
-_target_task
+register_target_task
 (
 "
 nightly_win64
@@ -5457,7 +5633,7 @@ t
 parameters
 )
 ]
-_target_task
+register_target_task
 (
 "
 nightly_win64_aarch64
@@ -5550,7 +5726,7 @@ t
 parameters
 )
 ]
-_target_task
+register_target_task
 (
 "
 nightly_asan
@@ -5654,7 +5830,7 @@ t
 parameters
 )
 ]
-_target_task
+register_target_task
 (
 "
 daily_releases
@@ -5751,7 +5927,7 @@ filter
 t
 )
 ]
-_target_task
+register_target_task
 (
 "
 nightly_desktop
@@ -6009,7 +6185,7 @@ release_tasks
 )
     
 )
-_target_task
+register_target_task
 (
 "
 searchfox_index
@@ -6131,7 +6307,7 @@ summary
 "
     
 ]
-_target_task
+register_target_task
 (
 "
 linux64_clang_trunk_perf
@@ -6220,7 +6396,7 @@ t
 label
 )
 ]
-_target_task
+register_target_task
 (
 "
 updatebot_cron
@@ -6260,7 +6436,7 @@ updatebot
 cron
 "
 ]
-_target_task
+register_target_task
 (
 "
 customv8_update
@@ -6305,7 +6481,7 @@ custom
 v8
 "
 ]
-_target_task
+register_target_task
 (
 "
 chromium_update
@@ -6372,7 +6548,7 @@ chromium
 "
     
 ]
-_target_task
+register_target_task
 (
 "
 file_update
@@ -6448,7 +6624,7 @@ filter
 t
 )
 ]
-_target_task
+register_target_task
 (
 "
 l10n_bump
@@ -6521,7 +6697,7 @@ filter
 t
 )
 ]
-_target_task
+register_target_task
 (
 "
 merge_automation
@@ -6594,7 +6770,7 @@ filter
 t
 )
 ]
-_target_task
+register_target_task
 (
 "
 scriptworker_canary
@@ -6667,7 +6843,7 @@ filter
 t
 )
 ]
-_target_task
+register_target_task
 (
 "
 cron_bouncer_check
@@ -6755,7 +6931,7 @@ filter
 t
 )
 ]
-_target_task
+register_target_task
 (
 "
 staging_release_builds
@@ -6930,7 +7106,7 @@ filter
 t
 )
 ]
-_target_task
+register_target_task
 (
 "
 release_simulation
@@ -7188,7 +7364,7 @@ t
 )
     
 ]
-_target_task
+register_target_task
 (
 "
 codereview
@@ -7287,7 +7463,7 @@ filter
 t
 )
 ]
-_target_task
+register_target_task
 (
 "
 nothing
@@ -7317,7 +7493,7 @@ pushes
 return
 [
 ]
-_target_task
+register_target_task
 (
 "
 daily_beta_perf
@@ -7652,7 +7828,7 @@ filter
 t
 )
 ]
-_target_task
+register_target_task
 (
 "
 weekly_release_perf
@@ -7889,7 +8065,7 @@ filter
 t
 )
 ]
-_target_task
+register_target_task
 (
 "
 raptor_tp6m
@@ -8070,7 +8246,7 @@ filter
 t
 )
 ]
-_target_task
+register_target_task
 (
 "
 backfill_all_browsertime
@@ -8576,7 +8752,7 @@ e
 return
 [
 ]
-_target_task
+register_target_task
 (
 "
 condprof
@@ -8643,7 +8819,7 @@ name
                 
 yield
 name
-_target_task
+register_target_task
 (
 "
 system_symbols
@@ -8723,7 +8899,7 @@ reprocess
             
 yield
 name
-_target_task
+register_target_task
 (
 "
 perftest
@@ -8797,7 +8973,7 @@ False
             
 yield
 name
-_target_task
+register_target_task
 (
 "
 perftest
@@ -8892,7 +9068,7 @@ view
             
 yield
 name
-_target_task
+register_target_task
 (
 "
 l10n
@@ -8973,7 +9149,7 @@ filter
 t
 )
 ]
-_target_task
+register_target_task
 (
 "
 are
