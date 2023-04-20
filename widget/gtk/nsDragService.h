@@ -325,6 +325,17 @@ aTime
 )
 ;
 bool
+SourceDataGetImage
+(
+nsITransferable
+*
+aItem
+GtkSelectionData
+*
+aSelectionData
+)
+;
+bool
 SourceDataGetXDND
 (
 nsITransferable
