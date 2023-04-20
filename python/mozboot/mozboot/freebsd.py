@@ -399,15 +399,6 @@ True
 )
     
 def
-ensure_clang_static_analysis_package
-(
-self
-)
-:
-        
-pass
-    
-def
 upgrade_mercurial
 (
 self
