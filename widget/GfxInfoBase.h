@@ -605,14 +605,6 @@ GfxInfoBase
 )
 ;
 virtual
-OperatingSystem
-GetOperatingSystem
-(
-)
-=
-0
-;
-virtual
 nsresult
 GetFeatureStatusImpl
 (
