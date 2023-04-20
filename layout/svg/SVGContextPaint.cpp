@@ -324,6 +324,8 @@ nsStyleSVG
 :
 *
 aFillOrStroke
+nscolor
+aDefaultFallbackColor
 imgDrawingParams
 &
 aImgParams
@@ -547,6 +549,7 @@ Style
 (
 )
 aFillOrStroke
+aDefaultFallbackColor
 )
 ;
 aTargetPaint
@@ -654,6 +657,12 @@ nsStyleSVG
 :
 :
 mFill
+NS_RGB
+(
+0
+0
+0
+)
 aImgParams
 )
 ;
@@ -723,6 +732,13 @@ nsStyleSVG
 :
 :
 mStroke
+NS_RGBA
+(
+0
+0
+0
+0
+)
 aImgParams
 )
 ;

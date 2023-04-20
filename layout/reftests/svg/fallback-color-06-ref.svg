@@ -55,7 +55,7 @@ title
 >
 Reference
 for
-stroke
+fill
 fallback
 colours
 <
@@ -83,7 +83,7 @@ cgi
 ?
 id
 =
-368840
+1807479
 -
 -
 >
@@ -116,7 +116,7 @@ height
 fill
 =
 "
-white
+black
 "
 /
 >
