@@ -3673,7 +3673,7 @@ Length
 )
 Integer
 (
-i32
+u32
 )
 Float
 (
@@ -3966,7 +3966,7 @@ length
 Length
 :
 :
-parse
+parse_non_negative
 (
 context
 input
@@ -3998,7 +3998,7 @@ integer
 Integer
 :
 :
-parse
+parse_non_negative
 (
 context
 input
@@ -4015,6 +4015,8 @@ integer
 value
 (
 )
+as
+u32
 )
 }
 Evaluator

@@ -669,7 +669,7 @@ Context
 )
 -
 >
-i32
+u32
 {
 unsafe
 {
@@ -700,7 +700,7 @@ Context
 )
 -
 >
-i32
+u32
 {
 0
 }
@@ -714,7 +714,7 @@ Context
 )
 -
 >
-i32
+u32
 {
 unsafe
 {
