@@ -135,6 +135,11 @@ _retval
 )
 override
 ;
+void
+UpdateDefaultInfoIfStale
+(
+)
+;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIPROPERTYBAG
 void
@@ -158,6 +163,10 @@ GetDefaultApplication
 (
 )
 {
+UpdateDefaultInfoIfStale
+(
+)
+;
 return
 mDefaultApplication
 ;
