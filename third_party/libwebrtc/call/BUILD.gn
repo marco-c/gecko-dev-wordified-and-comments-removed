@@ -4440,11 +4440,6 @@ fake_network_pipe_unittest
 .
 cc
 "
-"
-simulated_network_unittest
-.
-cc
-"
 ]
 deps
 =

@@ -186,11 +186,6 @@ packet_overhead
 =
 0
 ;
-bool
-codel_active_queue_management
-=
-false
-;
 }
 ;
 class
