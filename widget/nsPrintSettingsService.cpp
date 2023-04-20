@@ -4842,14 +4842,6 @@ if
 XRE_IsContentProcess
 (
 )
-&
-&
-StaticPrefs
-:
-:
-print_print_via_parent
-(
-)
 )
 {
 return
