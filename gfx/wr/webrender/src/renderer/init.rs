@@ -742,6 +742,10 @@ pub
 low_quality_pinch_zoom
 :
 bool
+pub
+max_shared_surface_size
+:
+i32
 }
 impl
 WebRenderOptions
@@ -958,6 +962,9 @@ false
 low_quality_pinch_zoom
 :
 false
+max_shared_surface_size
+:
+2048
 }
 }
 }
@@ -2024,6 +2031,11 @@ get_capabilities
 )
 .
 uses_native_antialiasing
+max_shared_surface_size
+:
+options
+.
+max_shared_surface_size
 }
 ;
 info
