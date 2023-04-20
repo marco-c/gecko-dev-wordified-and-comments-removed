@@ -492,11 +492,6 @@ AtomicLoad
 AtomicStore
 AtomicBinOp
 AtomicCompareExchange
-OldAtomicLoad
-OldAtomicStore
-OldAtomicBinOp
-OldAtomicCompareExchange
-OldAtomicExchange
 MemOrTableCopy
 DataOrElemDrop
 MemFill
