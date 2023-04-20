@@ -692,6 +692,8 @@ GetModuleLoader
 JSContext
 *
 aCx
+=
+nullptr
 )
 override
 {
