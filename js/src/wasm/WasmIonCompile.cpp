@@ -18431,7 +18431,7 @@ nodiscard
 ]
 MDefinition
 *
-loadGcCanon
+loadTypeDef
 (
 uint32_t
 typeIndex
@@ -18464,7 +18464,7 @@ alloc
 MIRType
 :
 :
-RefOrNull
+Pointer
 typeIdOffset
 true
 instancePointer_
@@ -19417,9 +19417,9 @@ numElements
 {
 MDefinition
 *
-arrayRtt
+arrayTypeDef
 =
-loadGcCanon
+loadTypeDef
 (
 typeIndex
 )
@@ -19427,7 +19427,7 @@ typeIndex
 if
 (
 !
-arrayRtt
+arrayTypeDef
 )
 {
 return
@@ -19446,7 +19446,7 @@ emitInstanceCall2
 lineOrBytecode
 SASigArrayNew
 numElements
-arrayRtt
+arrayTypeDef
 &
 arrayObject
 )
@@ -20306,7 +20306,7 @@ MDefinition
 ref
 MDefinition
 *
-castToRTT
+castToTypeDef
 )
 {
 MDefinition
@@ -20321,7 +20321,7 @@ emitInstanceCall2
 lineOrBytecode
 SASigRefTest
 ref
-castToRTT
+castToTypeDef
 &
 success
 )
@@ -20361,7 +20361,7 @@ MDefinition
 ref
 MDefinition
 *
-castToRTT
+castToTypeDef
 )
 {
 MDefinition
@@ -20376,7 +20376,7 @@ emitInstanceCall2
 lineOrBytecode
 SASigRefTest
 ref
-castToRTT
+castToTypeDef
 &
 success
 )
@@ -20469,9 +20469,9 @@ false
 }
 MDefinition
 *
-castToRTT
+castToTypeDef
 =
-loadGcCanon
+loadTypeDef
 (
 castTypeIndex
 )
@@ -20479,7 +20479,7 @@ castTypeIndex
 if
 (
 !
-castToRTT
+castToTypeDef
 )
 {
 return
@@ -20535,7 +20535,7 @@ emitInstanceCall2
 lineOrBytecode
 SASigRefTest
 ref
-castToRTT
+castToTypeDef
 &
 success
 )
@@ -33012,11 +33012,11 @@ length
 ;
 MDefinition
 *
-structRTT
+structTypeDef
 =
 f
 .
-loadGcCanon
+loadTypeDef
 (
 typeIndex
 )
@@ -33024,7 +33024,7 @@ typeIndex
 if
 (
 !
-structRTT
+structTypeDef
 )
 {
 return
@@ -33044,7 +33044,7 @@ emitInstanceCall1
 (
 lineOrBytecode
 SASigStructNew
-structRTT
+structTypeDef
 &
 structObject
 )
@@ -33199,11 +33199,11 @@ true
 }
 MDefinition
 *
-structRTT
+structTypeDef
 =
 f
 .
-loadGcCanon
+loadTypeDef
 (
 typeIndex
 )
@@ -33211,7 +33211,7 @@ typeIndex
 if
 (
 !
-structRTT
+structTypeDef
 )
 {
 return
@@ -33231,7 +33231,7 @@ emitInstanceCall1
 (
 lineOrBytecode
 SASigStructNew
-structRTT
+structTypeDef
 &
 structObject
 )
@@ -34063,11 +34063,11 @@ true
 }
 MDefinition
 *
-arrayRtt
+arrayTypeDef
 =
 f
 .
-loadGcCanon
+loadTypeDef
 (
 typeIndex
 )
@@ -34075,7 +34075,7 @@ typeIndex
 if
 (
 !
-arrayRtt
+arrayTypeDef
 )
 {
 return
@@ -34121,7 +34121,7 @@ lineOrBytecode
 SASigArrayNewData
 segByteOffset
 numElements
-arrayRtt
+arrayTypeDef
 segIndexM
 &
 arrayObject
@@ -34218,11 +34218,11 @@ true
 }
 MDefinition
 *
-arrayRtt
+arrayTypeDef
 =
 f
 .
-loadGcCanon
+loadTypeDef
 (
 typeIndex
 )
@@ -34230,7 +34230,7 @@ typeIndex
 if
 (
 !
-arrayRtt
+arrayTypeDef
 )
 {
 return
@@ -34276,7 +34276,7 @@ lineOrBytecode
 SASigArrayNewElem
 segElemIndex
 numElements
-arrayRtt
+arrayTypeDef
 segIndexM
 &
 arrayObject
@@ -34977,11 +34977,11 @@ true
 }
 MDefinition
 *
-castToRTT
+castToTypeDef
 =
 f
 .
-loadGcCanon
+loadTypeDef
 (
 typeIndex
 )
@@ -34989,7 +34989,7 @@ typeIndex
 if
 (
 !
-castToRTT
+castToTypeDef
 )
 {
 return
@@ -35006,7 +35006,7 @@ refTest
 (
 lineOrBytecode
 ref
-castToRTT
+castToTypeDef
 )
 ;
 if
@@ -35096,11 +35096,11 @@ true
 }
 MDefinition
 *
-castToRTT
+castToTypeDef
 =
 f
 .
-loadGcCanon
+loadTypeDef
 (
 typeIndex
 )
@@ -35108,7 +35108,7 @@ typeIndex
 if
 (
 !
-castToRTT
+castToTypeDef
 )
 {
 return
@@ -35124,7 +35124,7 @@ refCast
 (
 lineOrBytecode
 ref
-castToRTT
+castToTypeDef
 )
 )
 {

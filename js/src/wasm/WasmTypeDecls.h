@@ -109,9 +109,6 @@ WasmTagObject
 class
 WasmExceptionObject
 ;
-class
-RttValue
-;
 using
 WasmInstanceObjectVector
 =

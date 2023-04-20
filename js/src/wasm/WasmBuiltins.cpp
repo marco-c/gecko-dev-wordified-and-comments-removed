@@ -1428,7 +1428,7 @@ _FailOnNullPtr
 2
 {
 _PTR
-_RoN
+_PTR
 _END
 }
 }
@@ -1486,7 +1486,7 @@ _FailOnNullPtr
 {
 _PTR
 _I32
-_RoN
+_PTR
 _END
 }
 }
@@ -1507,7 +1507,7 @@ _FailOnNullPtr
 _PTR
 _I32
 _I32
-_RoN
+_PTR
 _I32
 _END
 }
@@ -1529,7 +1529,7 @@ _FailOnNullPtr
 _PTR
 _I32
 _I32
-_RoN
+_PTR
 _I32
 _END
 }
@@ -1574,7 +1574,7 @@ _Infallible
 {
 _PTR
 _RoN
-_RoN
+_PTR
 _END
 }
 }

@@ -6647,8 +6647,8 @@ bc
 ;
 }
 ;
-void
-emitGcCanon
+RegPtr
+loadTypeDef
 (
 uint32_t
 typeIndex
