@@ -1,0 +1,16 @@
+-
+-
+-
+command
+:
+cargo
+-
+clippy
+continue_on_error
+:
+true
+#
+cargo_build_flags
+:
+[
+]

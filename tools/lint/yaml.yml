@@ -46,6 +46,10 @@ testing
 mozharness
 -
 tools
+-
+build
+/
+cargo
 extensions
 :
 [
