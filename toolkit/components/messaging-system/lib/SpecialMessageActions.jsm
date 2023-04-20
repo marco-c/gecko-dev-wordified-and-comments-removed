@@ -1006,7 +1006,9 @@ lazy
 .
 MigrationUtils
 .
-MIGRATION_ENTRYPOINT_NEWTAB
+MIGRATION_ENTRYPOINTS
+.
+NEWTAB
 action
 .
 data
