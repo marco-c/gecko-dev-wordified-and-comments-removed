@@ -1325,10 +1325,6 @@ deps
 field_trial_parser
 "
 "
-:
-rate_control_settings
-"
-"
 .
 .
 /
