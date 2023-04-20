@@ -70,7 +70,7 @@ struct
 IceFieldTrials
 ;
 struct
-IceControllerEvent
+IceRecheckEvent
 {
 enum
 Type
@@ -103,7 +103,7 @@ org
 )
 ]
 ]
-IceControllerEvent
+IceRecheckEvent
 (
 const
 Type
@@ -124,7 +124,7 @@ _type
 )
 {
 }
-IceControllerEvent
+IceRecheckEvent
 (
 IceSwitchReason
 _reason
@@ -187,6 +187,11 @@ recheck_delay_ms
 ;
 }
 ;
+using
+IceControllerEvent
+=
+IceRecheckEvent
+;
 class
 IceControllerInterface
 {
@@ -211,7 +216,7 @@ absl
 :
 optional
 <
-IceControllerEvent
+IceRecheckEvent
 >
 recheck_event
 ;
@@ -440,7 +445,7 @@ virtual
 SwitchResult
 ShouldSwitchConnection
 (
-IceControllerEvent
+IceRecheckEvent
 reason
 const
 Connection
@@ -451,7 +456,7 @@ connection
 return
 ShouldSwitchConnection
 (
-IceControllerEvent
+IceRecheckEvent
 :
 :
 FromType
@@ -498,14 +503,14 @@ virtual
 SwitchResult
 SortAndSwitchConnection
 (
-IceControllerEvent
+IceRecheckEvent
 reason
 )
 {
 return
 SortAndSwitchConnection
 (
-IceControllerEvent
+IceRecheckEvent
 :
 :
 FromType
