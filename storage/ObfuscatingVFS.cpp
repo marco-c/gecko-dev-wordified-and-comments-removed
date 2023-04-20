@@ -3320,7 +3320,10 @@ sizeof
 ObfsFile
 )
 )
-1024
+pOrig
+-
+>
+mxPathname
 nullptr
 GetObfuscatingVFSName
 (
