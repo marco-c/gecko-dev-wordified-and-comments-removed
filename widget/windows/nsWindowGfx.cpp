@@ -1847,6 +1847,15 @@ bool
 aEnable
 )
 {
+if
+(
+!
+mCompositorSession
+)
+{
+return
+;
+}
 bool
 enabled
 =
