@@ -239,6 +239,16 @@ blockingEnabled
 "
 true
 ]
+[
+"
+browser
+.
+urlbar
+.
+resultMenu
+"
+false
+]
 ]
 }
 )
