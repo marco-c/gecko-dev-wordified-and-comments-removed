@@ -369,7 +369,7 @@ mozilla
 message
 .
 network
-span
+a
 [
 title
 =
