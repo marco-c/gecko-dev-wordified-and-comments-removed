@@ -301,6 +301,14 @@ fallible_t
 )
 ;
 static
+nsAutoString
+TypeToString
+(
+Type
+aType
+)
+;
+static
 nsAutoCString
 TypeToText
 (
