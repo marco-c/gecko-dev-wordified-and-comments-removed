@@ -1793,7 +1793,10 @@ nsDNSRecord
 :
 GetEffectiveTRRMode
 (
-uint32_t
+nsIRequest
+:
+:
+TRRMode
 *
 aMode
 )
