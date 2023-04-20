@@ -325,7 +325,6 @@ path
 )
 =
 >
-{
 StoreError
 :
 :
@@ -333,7 +332,6 @@ UnsuitableEnvironmentPath
 (
 path
 )
-}
 ErrorImpl
 :
 :

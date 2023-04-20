@@ -820,6 +820,7 @@ bincode
 :
 deserialize
 (
+&
 bytes
 )
 {
@@ -1741,10 +1742,9 @@ max_dbs
 &
 &
 name
-.
-is_some
-(
-)
+!
+=
+None
 {
 return
 Err
@@ -2133,10 +2133,12 @@ push
 DEFAULT_DB_FILENAME
 )
 ;
+return
 vec
 !
 [
 db_filename
 ]
+;
 }
 }
