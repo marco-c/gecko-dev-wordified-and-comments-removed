@@ -2930,8 +2930,6 @@ dataPath
 await
 migrator
 .
-wrappedJSObject
-.
 _getChromeUserDataPathIfExists
 (
 )
