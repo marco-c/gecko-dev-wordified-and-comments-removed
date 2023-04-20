@@ -57,6 +57,9 @@ browser
 .
 jar
 :
+#
+ifdef
+NIGHTLY_BUILD
 content
 /
 browser
@@ -93,3 +96,5 @@ messagepreview
 messagepreview
 .
 css
+#
+endif

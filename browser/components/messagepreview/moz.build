@@ -1,11 +1,3 @@
-if
-CONFIG
-[
-"
-NIGHTLY_BUILD
-"
-]
-:
 JAR_MANIFESTS
 +
 =
