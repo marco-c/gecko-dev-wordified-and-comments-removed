@@ -125,6 +125,10 @@ client
 \
 python3
 -
+pip
+\
+python3
+-
 requests
 \
 python3
@@ -236,3 +240,14 @@ fetch
 chromium
 .
 py
+RUN
+pip3
+install
+redo
+=
+=
+2
+.
+0
+.
+4
