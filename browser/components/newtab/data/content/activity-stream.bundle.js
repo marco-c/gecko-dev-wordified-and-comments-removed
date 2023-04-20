@@ -39707,6 +39707,9 @@ label
 }
 if
 (
+source
+&
+&
 timeToRead
 )
 {

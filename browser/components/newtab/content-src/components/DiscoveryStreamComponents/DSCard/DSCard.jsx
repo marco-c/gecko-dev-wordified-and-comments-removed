@@ -374,6 +374,9 @@ value
 .
 if
 (
+source
+&
+&
 timeToRead
 )
 {
