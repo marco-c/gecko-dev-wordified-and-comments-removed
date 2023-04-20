@@ -1082,6 +1082,17 @@ js
 jit
 :
 :
+LinearizeForCharAccessPure
+)
+\
+_
+(
+js
+:
+:
+jit
+:
+:
 ObjectHasGetterSetterPure
 )
 \
