@@ -140,6 +140,12 @@ override
 ;
 public
 :
+NS_IMPL_FROMNODE_WITH_TAG
+(
+SVGSwitchElement
+kNameSpaceID_SVG
+svgSwitch
+)
 nsIContent
 *
 GetActiveChild

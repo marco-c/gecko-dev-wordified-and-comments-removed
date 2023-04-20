@@ -134,6 +134,12 @@ override
 ;
 public
 :
+NS_IMPL_FROMNODE_WITH_TAG
+(
+SVGFEMergeNodeElement
+kNameSpaceID_SVG
+feMergeNode
+)
 nsresult
 Clone
 (

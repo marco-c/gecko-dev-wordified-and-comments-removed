@@ -137,6 +137,12 @@ override
 ;
 public
 :
+NS_IMPL_FROMNODE_WITH_TAG
+(
+SVGAnimateMotionElement
+kNameSpaceID_SVG
+animateMotion
+)
 nsresult
 Clone
 (

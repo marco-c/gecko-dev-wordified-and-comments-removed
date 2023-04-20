@@ -166,6 +166,12 @@ override
 ;
 public
 :
+NS_IMPL_FROMNODE_WITH_TAG
+(
+SVGFilterElement
+kNameSpaceID_SVG
+filter
+)
 nsresult
 Clone
 (

@@ -181,6 +181,12 @@ override
 ;
 public
 :
+NS_IMPL_FROMNODE_WITH_TAG
+(
+SVGViewElement
+kNameSpaceID_SVG
+view
+)
 nsresult
 Clone
 (
