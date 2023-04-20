@@ -969,6 +969,12 @@ flags
 }
 }
 ;
+resolve
+.
+wpl
+=
+wpl
+;
 webProgress
 .
 addProgressListener
@@ -1073,6 +1079,12 @@ request
 }
 }
 }
+;
+resolve
+.
+wpl
+=
+wpl
 ;
 webProgress
 .
