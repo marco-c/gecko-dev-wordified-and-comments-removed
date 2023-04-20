@@ -738,9 +738,9 @@ safe_load
 open
 (
 TEMPLATEFILE
-"
+'
 r
-"
+'
 )
 .
 read
@@ -757,9 +757,9 @@ safe_load
 open
 (
 NAME2DIRFILE
-"
+'
 r
-"
+'
 )
 .
 read
@@ -774,11 +774,11 @@ tests
     
 test_yaml_directory
 =
-"
+'
 yaml
 /
 element
-"
+'
     
 if
 ISOFFSCREENCANVAS
@@ -786,11 +786,11 @@ ISOFFSCREENCANVAS
         
 test_yaml_directory
 =
-"
+'
 yaml
 /
 offscreen
-"
+'
     
 TESTSFILES
 =
@@ -820,10 +820,10 @@ f
 .
 endswith
 (
-"
+'
 .
 yaml
-"
+'
 )
     
 ]
@@ -841,9 +841,9 @@ safe_load
 open
 (
 f
-"
+'
 r
-"
+'
 )
 .
 read
@@ -1069,13 +1069,13 @@ testdirs
 .
 append
 (
-"
+'
 %
 s
 /
 %
 s
-"
+'
 %
 (
 TESTOUTPUTDIR
@@ -1159,13 +1159,13 @@ mn
                 
 mapped_name
 =
-"
+'
 %
 s
 /
 %
 s
-"
+'
 %
 (
 name_mapping
@@ -1184,7 +1184,7 @@ mapped_name
             
 print
 (
-"
+'
 LIKELY
 ERROR
 :
@@ -1196,7 +1196,7 @@ defined
 target
 directory
 mapping
-"
+'
 %
                   
 name
@@ -1216,10 +1216,10 @@ test
 mapped_name
 +
 =
-"
+'
 -
 manual
-"
+'
         
 return
 mapped_name
@@ -1857,8 +1857,8 @@ moz
 UniversalBrowserRead
 ;
 '
-"
-"
+'
+'
 code
 )
         
@@ -1909,24 +1909,24 @@ name
         
 print
 (
-"
+'
 \
 r
 (
 %
 s
 )
-"
+'
 %
 name
-"
-"
+'
+'
 *
 32
-"
+'
 \
 t
-"
+'
 )
         
 if
@@ -1937,14 +1937,14 @@ used_tests
             
 print
 (
-"
+'
 Test
 %
 s
 is
 defined
 twice
-"
+'
 %
 name
 )
@@ -2102,7 +2102,7 @@ code
             
 print
 (
-"
+'
 Probable
 incorrect
 pixel
@@ -2110,7 +2110,7 @@ test
 in
 %
 s
-"
+'
 %
 name
 )
@@ -2174,7 +2174,7 @@ green
                 
 expected_img
 =
-"
+'
 /
 images
 /
@@ -2183,7 +2183,7 @@ green
 100x50
 .
 png
-"
+'
             
 elif
 expected
@@ -2196,7 +2196,7 @@ clear
                 
 expected_img
 =
-"
+'
 /
 images
 /
@@ -2205,7 +2205,7 @@ clear
 100x50
 .
 png
-"
+'
             
 else
 :
@@ -2220,13 +2220,13 @@ expected
                     
 print
 (
-"
+'
 Found
 semicolon
 in
 %
 s
-"
+'
 %
 name
 )
@@ -2292,10 +2292,10 @@ mapped_name
 .
 endswith
 (
-"
+'
 -
 manual
-"
+'
 )
 :
                     
@@ -2307,10 +2307,10 @@ mapped_name
 -
 len
 (
-"
+'
 -
 manual
-"
+'
 )
 ]
                 
@@ -2387,12 +2387,12 @@ cairo
                 
 expected_img
 =
-"
+'
 %
 s
 .
 png
-"
+'
 %
 name
             
@@ -2947,18 +2947,18 @@ images
 .
 replace
 (
-"
+'
 .
 .
 /
 images
 /
-"
-"
+'
+'
 /
 images
 /
-"
+'
 )
         
 fonts
