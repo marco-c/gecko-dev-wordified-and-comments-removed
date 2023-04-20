@@ -136,6 +136,8 @@ override
 void
 EnsurePipeline
 (
+bool
+aIsAsync
 )
 override
 ;
