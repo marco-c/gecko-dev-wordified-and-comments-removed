@@ -197,6 +197,9 @@ std
 string
 >
 metadata
+=
+{
+}
 )
 ;
 void
@@ -235,6 +238,9 @@ std
 string
 >
 metadata
+=
+{
+}
 )
 ;
 void
@@ -276,6 +282,9 @@ std
 string
 >
 metadata
+=
+{
+}
 )
 ;
 std
