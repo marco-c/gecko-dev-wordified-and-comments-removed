@@ -83,6 +83,12 @@ h
 "
 ;
 using
+mozilla
+:
+:
+dom
+:
+:
 ServiceWorkerUpdateViaCache
 from
 "
@@ -160,7 +166,9 @@ dynamically
 if
 necessary
 .
-comparable
+[
+Comparable
+]
 struct
 IPCServiceWorkerRegistrationDescriptor
 {

@@ -1500,6 +1500,12 @@ h
 "
 ;
 using
+mozilla
+:
+:
+dom
+:
+:
 JSActorMessageKind
 from
 "
@@ -1513,6 +1519,12 @@ h
 "
 ;
 using
+mozilla
+:
+:
+dom
+:
+:
 JSActorMessageMeta
 from
 "

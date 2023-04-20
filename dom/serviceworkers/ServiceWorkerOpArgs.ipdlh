@@ -77,6 +77,12 @@ h
 "
 ;
 using
+mozilla
+:
+:
+dom
+:
+:
 ServiceWorkerState
 from
 "

@@ -71,6 +71,12 @@ h
 "
 ;
 using
+mozilla
+:
+:
+dom
+:
+:
 ServiceWorkerState
 from
 "
@@ -134,7 +140,9 @@ dynamically
 if
 necessary
 .
-comparable
+[
+Comparable
+]
 struct
 IPCServiceWorkerDescriptor
 {

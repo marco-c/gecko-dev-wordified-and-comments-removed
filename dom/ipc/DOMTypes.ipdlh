@@ -194,6 +194,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 hal
 :
 :
@@ -208,6 +211,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 LayoutDeviceIntRect
 from
 "
@@ -217,6 +223,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 DesktopIntRect
 from
 "
@@ -226,6 +235,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 DesktopToLayoutDeviceScale
 from
 "
@@ -235,6 +247,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 CSSToLayoutDeviceScale
 from
 "
@@ -244,6 +259,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 CSSRect
 from
 "
@@ -253,6 +271,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 CSSSize
 from
 "
@@ -262,6 +283,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 ScreenIntSize
 from
 "
@@ -292,6 +316,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 ScrollbarPreference
 from
 "

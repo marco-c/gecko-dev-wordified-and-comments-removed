@@ -114,6 +114,12 @@ h
 "
 ;
 using
+mozilla
+:
+:
+dom
+:
+:
 JSActorMessageKind
 from
 "

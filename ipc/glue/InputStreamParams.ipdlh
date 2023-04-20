@@ -80,7 +80,12 @@ h
 RefCounted
 ]
 using
-class
+mozilla
+:
+:
+ipc
+:
+:
 DataPipeReceiver
 from
 "
@@ -97,7 +102,6 @@ h
 RefCounted
 ]
 using
-class
 mozilla
 :
 :
