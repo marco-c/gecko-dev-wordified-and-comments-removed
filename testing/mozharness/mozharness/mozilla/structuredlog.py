@@ -482,8 +482,6 @@ self
 critical
 (
                         
-(
-                            
 "
 Test
 harness
@@ -495,21 +493,15 @@ valid
 structured
 log
 message
-:
 "
-                            
-"
-\
-n
-%
-s
-"
-                        
-)
-                        
-%
-line
                     
+)
+                    
+self
+.
+info
+(
+line
 )
                 
 else
@@ -517,7 +509,7 @@ else
                     
 self
 .
-critical
+info
 (
 line
 )
