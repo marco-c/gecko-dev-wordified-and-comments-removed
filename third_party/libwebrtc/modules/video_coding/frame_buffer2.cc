@@ -1098,14 +1098,7 @@ size
 (
 )
 >
-static_cast
-<
-unsigned
-int
->
-(
 zero_playout_delay_max_decode_queue_size_
-)
 ?
 true
 :

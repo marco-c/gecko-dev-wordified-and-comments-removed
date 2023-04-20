@@ -1190,17 +1190,7 @@ earliest_next_decode_start_time
 =
 last_decode_scheduled_
 +
-static_cast
-<
-const
-webrtc
-:
-:
-TimeDelta
->
-(
 zero_playout_delay_min_pacing_
-)
 ;
 TimeDelta
 max_wait_time
