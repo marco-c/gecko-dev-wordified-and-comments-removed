@@ -2464,6 +2464,12 @@ isPrivate
 )
 ;
 await
+ensureMaximizedWindow
+(
+aWin
+)
+;
+await
 openExtensionsPanel
 (
 aWin
