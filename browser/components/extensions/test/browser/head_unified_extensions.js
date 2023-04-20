@@ -8,6 +8,10 @@ promiseEnableUnifiedExtensions
 =
 async
 (
+options
+=
+{
+}
 )
 =
 >
@@ -40,6 +44,7 @@ BrowserTestUtils
 .
 openNewBrowserWindow
 (
+options
 )
 ;
 }
@@ -602,6 +607,7 @@ arrayOfManifestData
 useAddonManager
 =
 true
+incognitoOverride
 }
 =
 {
@@ -666,6 +672,7 @@ temporary
 "
 :
 undefined
+incognitoOverride
 }
 )
 )
