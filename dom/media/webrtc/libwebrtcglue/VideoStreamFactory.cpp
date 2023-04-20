@@ -818,6 +818,14 @@ mEncodings
 idx
 ]
 ;
+video_stream
+.
+active
+=
+encoding
+.
+active
+;
 MOZ_ASSERT
 (
 encoding
