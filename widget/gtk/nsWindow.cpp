@@ -2903,14 +2903,6 @@ Destroy
 (
 )
 {
-if
-(
-mIsDestroyed
-)
-{
-return
-;
-}
 MOZ_DIAGNOSTIC_ASSERT
 (
 NS_IsMainThread
@@ -2920,6 +2912,9 @@ NS_IsMainThread
 ;
 if
 (
+mIsDestroyed
+|
+|
 !
 mCreated
 )
