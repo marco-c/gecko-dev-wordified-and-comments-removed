@@ -1081,7 +1081,7 @@ Handle
 <
 T
 >
-GetJSArgHandle
+GetJSArgHandleForCall
 (
 JS
 :
@@ -1094,6 +1094,12 @@ T
 aArg
 )
 {
+aArg
+.
+exposeToActiveJS
+(
+)
+;
 return
 JS
 :
@@ -1201,7 +1207,7 @@ mArgs
 .
 .
 .
-GetJSArgHandle
+GetJSArgHandleForCall
 (
 std
 :
