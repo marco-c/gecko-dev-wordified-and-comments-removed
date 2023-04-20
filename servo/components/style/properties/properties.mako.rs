@@ -14434,7 +14434,7 @@ size_of_test
 !
 (
 SourcePropertyDeclaration
-664
+632
 )
 ;
 impl

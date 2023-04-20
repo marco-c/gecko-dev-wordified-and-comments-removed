@@ -27868,11 +27868,6 @@ variation
 -
 settings
 "
-"
-font
--
-palette
-"
 ]
 "
 supports
