@@ -2663,7 +2663,9 @@ duplicated
 from
 BrowserTestUtils
 .
-jsm
+sys
+.
+mjs
 .
 *
 *
@@ -2969,7 +2971,9 @@ duplicated
 from
 TestUtils
 .
-jsm
+sys
+.
+mjs
 .
 *
 *
