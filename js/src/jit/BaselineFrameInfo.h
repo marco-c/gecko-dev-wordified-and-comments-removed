@@ -778,6 +778,10 @@ CompilerFrameInfo
 public
 FrameInfo
 {
+friend
+class
+BaselinePerfSpewer
+;
 JSScript
 *
 script

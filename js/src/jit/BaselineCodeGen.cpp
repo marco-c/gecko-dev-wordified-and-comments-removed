@@ -32922,8 +32922,14 @@ perfSpewer_
 .
 recordInstruction
 (
+cx
 masm
-op
+handler
+.
+pc
+(
+)
+frame
 )
 ;
 #
