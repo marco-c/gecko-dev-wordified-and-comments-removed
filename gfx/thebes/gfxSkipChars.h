@@ -7,6 +7,15 @@ GFX_SKIP_CHARS_H
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -398,6 +407,7 @@ mCharCount
 }
 ;
 class
+MOZ_STACK_CLASS
 gfxSkipCharsIterator
 {
 public
