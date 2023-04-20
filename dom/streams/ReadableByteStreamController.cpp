@@ -7295,7 +7295,10 @@ Promise
 :
 CreateInfallible
 (
-GetIncumbentGlobal
+aStream
+-
+>
+GetParentObject
 (
 )
 )

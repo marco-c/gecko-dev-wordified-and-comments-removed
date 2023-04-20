@@ -586,6 +586,11 @@ PropagateUserInteraction
 aPropagateUserInteraction
 )
 {
+MOZ_ASSERT
+(
+aGlobal
+)
+;
 RefPtr
 <
 Promise
