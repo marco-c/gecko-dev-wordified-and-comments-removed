@@ -4561,6 +4561,9 @@ Rhs
 rhs
 )
 ;
+#
+ifdef
+ENABLE_WASM_GC
 [
 [
 nodiscard
@@ -4580,6 +4583,8 @@ bool
 onSuccess
 )
 ;
+#
+endif
 template
 <
 typename
