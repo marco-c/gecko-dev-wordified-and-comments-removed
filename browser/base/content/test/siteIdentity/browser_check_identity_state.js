@@ -229,9 +229,7 @@ connection
 getPropertyValue
 (
 "
-list
--
-style
+background
 -
 image
 "

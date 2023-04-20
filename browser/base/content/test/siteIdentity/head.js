@@ -1289,9 +1289,7 @@ popup
 -
 securityView
 -
-extended
--
-info
+body
 "
 )
 .
@@ -1494,9 +1492,7 @@ connection
 getPropertyValue
 (
 "
-list
--
-style
+background
 -
 image
 "
@@ -1544,9 +1540,7 @@ connection
 getPropertyValue
 (
 "
-list
--
-style
+background
 -
 image
 "
