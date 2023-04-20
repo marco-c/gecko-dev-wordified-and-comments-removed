@@ -179,6 +179,13 @@ Drain
 )
 override
 ;
+bool
+IsEncrypted
+(
+)
+const
+override
+;
 private
 :
 HRESULT
@@ -299,6 +306,11 @@ MediaDataDecoder
 DecodePromise
 >
 mPendingDrainPromise
+;
+bool
+mIsEncrypted
+=
+false
 ;
 }
 ;
