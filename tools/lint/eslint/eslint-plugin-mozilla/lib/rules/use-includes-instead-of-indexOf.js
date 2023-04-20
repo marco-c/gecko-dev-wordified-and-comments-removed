@@ -58,6 +58,10 @@ indexOf
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

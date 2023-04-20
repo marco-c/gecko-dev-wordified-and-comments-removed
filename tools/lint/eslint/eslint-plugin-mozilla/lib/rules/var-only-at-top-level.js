@@ -71,6 +71,10 @@ level
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

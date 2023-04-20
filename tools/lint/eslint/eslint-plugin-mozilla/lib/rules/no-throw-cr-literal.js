@@ -341,6 +341,10 @@ Exception
 instead
 "
 }
+schema
+:
+[
+]
 type
 :
 "

@@ -56,6 +56,10 @@ values
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

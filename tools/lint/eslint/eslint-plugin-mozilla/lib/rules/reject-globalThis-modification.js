@@ -153,6 +153,10 @@ modification
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

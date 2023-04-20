@@ -65,6 +65,10 @@ services
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

@@ -578,6 +578,10 @@ property
 }
 "
 }
+schema
+:
+[
+]
 type
 :
 "

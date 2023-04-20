@@ -162,6 +162,10 @@ those
 calls
 "
 }
+schema
+:
+[
+]
 type
 :
 "

@@ -100,6 +100,10 @@ requires
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

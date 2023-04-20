@@ -61,6 +61,10 @@ fixable
 "
 code
 "
+schema
+:
+[
+]
 type
 :
 "

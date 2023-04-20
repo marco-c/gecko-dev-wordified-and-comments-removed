@@ -52,6 +52,10 @@ returnValue
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

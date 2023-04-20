@@ -84,6 +84,10 @@ name
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

@@ -390,6 +390,10 @@ fixable
 "
 code
 "
+schema
+:
+[
+]
 type
 :
 "

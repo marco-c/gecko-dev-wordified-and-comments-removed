@@ -149,6 +149,10 @@ used
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

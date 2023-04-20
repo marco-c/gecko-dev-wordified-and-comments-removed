@@ -58,6 +58,10 @@ literals
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

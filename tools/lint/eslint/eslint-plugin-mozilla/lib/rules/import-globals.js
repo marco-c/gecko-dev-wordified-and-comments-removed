@@ -52,6 +52,10 @@ globals
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

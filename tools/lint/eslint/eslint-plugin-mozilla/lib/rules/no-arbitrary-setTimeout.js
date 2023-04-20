@@ -83,6 +83,10 @@ setTimeout
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

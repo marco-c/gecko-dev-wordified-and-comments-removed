@@ -539,6 +539,10 @@ object
 holder
 "
 }
+schema
+:
+[
+]
 type
 :
 "

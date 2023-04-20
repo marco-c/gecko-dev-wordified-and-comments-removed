@@ -65,6 +65,10 @@ removeChild
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

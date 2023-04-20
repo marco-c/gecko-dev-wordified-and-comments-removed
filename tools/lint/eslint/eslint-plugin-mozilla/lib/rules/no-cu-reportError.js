@@ -406,6 +406,10 @@ Cu
 reportError
 "
 }
+schema
+:
+[
+]
 type
 :
 "

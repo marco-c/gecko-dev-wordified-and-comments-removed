@@ -72,6 +72,10 @@ await
 .
 "
 }
+schema
+:
+[
+]
 type
 :
 "

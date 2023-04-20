@@ -155,6 +155,10 @@ globals
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

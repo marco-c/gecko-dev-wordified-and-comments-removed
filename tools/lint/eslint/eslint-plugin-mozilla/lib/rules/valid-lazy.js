@@ -499,6 +499,10 @@ lazy
 .
 "
 }
+schema
+:
+[
+]
 type
 :
 "

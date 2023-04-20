@@ -83,6 +83,10 @@ scriptableunicodeconverter
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

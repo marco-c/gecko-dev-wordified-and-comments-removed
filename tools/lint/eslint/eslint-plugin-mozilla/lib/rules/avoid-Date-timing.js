@@ -54,6 +54,10 @@ timing
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

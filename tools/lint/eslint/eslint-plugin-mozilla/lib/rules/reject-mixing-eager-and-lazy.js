@@ -242,6 +242,10 @@ getter
 .
 '
 }
+schema
+:
+[
+]
 type
 :
 "

@@ -96,6 +96,10 @@ globals
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

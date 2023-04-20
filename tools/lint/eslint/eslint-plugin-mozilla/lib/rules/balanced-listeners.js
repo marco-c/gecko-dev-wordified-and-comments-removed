@@ -52,6 +52,10 @@ listeners
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

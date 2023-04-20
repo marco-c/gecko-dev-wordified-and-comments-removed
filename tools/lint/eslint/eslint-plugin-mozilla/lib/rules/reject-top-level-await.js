@@ -89,6 +89,10 @@ files
 .
 "
 }
+schema
+:
+[
+]
 type
 :
 "

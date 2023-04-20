@@ -101,6 +101,10 @@ formatValues
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

@@ -67,6 +67,10 @@ this
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "

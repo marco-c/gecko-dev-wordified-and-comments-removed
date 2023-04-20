@@ -91,6 +91,10 @@ modules
 .
 "
 }
+schema
+:
+[
+]
 type
 :
 "

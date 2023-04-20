@@ -73,6 +73,10 @@ consistent
 .
 "
 }
+schema
+:
+[
+]
 type
 :
 "

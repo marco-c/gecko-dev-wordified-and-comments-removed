@@ -69,6 +69,10 @@ used
 html
 "
 }
+schema
+:
+[
+]
 type
 :
 "
