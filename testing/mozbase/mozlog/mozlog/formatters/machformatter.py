@@ -159,11 +159,11 @@ normal
 "
     
 "
-dim
+bright_black
 "
 :
 "
-dim
+bright_black
 "
 }
 def
@@ -1182,7 +1182,7 @@ self
 .
 color_formatter
 .
-dim
+bright_black
 (
 stack
 .
