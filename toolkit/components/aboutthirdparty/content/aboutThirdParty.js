@@ -501,7 +501,7 @@ Ci
 .
 nsIAboutThirdParty
 .
-ModuleType_BlockedByUser
+ModuleType_BlockedByUserAtLaunch
 )
 &
 &

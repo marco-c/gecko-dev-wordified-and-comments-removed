@@ -293,6 +293,12 @@ nsStringCaseInsensitiveHashKey
 >
 mDynamicBlocklist
 ;
+nsTHashSet
+<
+nsStringCaseInsensitiveHashKey
+>
+mDynamicBlocklistAtLaunch
+;
 #
 endif
 ~

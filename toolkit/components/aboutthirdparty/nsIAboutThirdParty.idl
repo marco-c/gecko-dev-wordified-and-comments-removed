@@ -97,6 +97,16 @@ ModuleType_BlockedByUser
 <
 3
 ;
+const
+unsigned
+long
+ModuleType_BlockedByUserAtLaunch
+=
+1
+<
+<
+4
+;
 unsigned
 long
 lookupModuleType
