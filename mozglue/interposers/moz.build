@@ -12,6 +12,16 @@ IMPL_MFBT
 ]
 =
 True
+UNIFIED_SOURCES
++
+=
+[
+"
+env_interposer
+.
+cpp
+"
+]
 if
 CONFIG
 [
