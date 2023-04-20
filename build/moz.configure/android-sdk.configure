@@ -298,7 +298,7 @@ namespace
 build_tools_version
 =
 "
-31
+33
 .
 0
 .
@@ -307,7 +307,7 @@ build_tools_version
 target_sdk_version
 =
 "
-31
+33
 "
 min_sdk_version
 =

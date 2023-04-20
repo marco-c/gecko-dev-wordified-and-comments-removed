@@ -611,7 +611,7 @@ sdk
 configure
 target_sdk_version
 =
-31
+33
 min_sdk_version
 =
 18
