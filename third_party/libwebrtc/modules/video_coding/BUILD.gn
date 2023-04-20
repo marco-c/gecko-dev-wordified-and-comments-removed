@@ -8879,6 +8879,11 @@ svc_config_unittest
 cc
 "
 "
+decoder_database_unittest
+.
+cc
+"
+"
 decoding_state_unittest
 .
 cc
@@ -9054,6 +9059,11 @@ cc
 "
 "
 video_codec_initializer_unittest
+.
+cc
+"
+"
+video_receiver2_unittest
 .
 cc
 "

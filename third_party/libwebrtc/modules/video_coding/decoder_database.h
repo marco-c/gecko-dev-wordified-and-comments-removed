@@ -156,6 +156,11 @@ uint8_t
 payload_type
 )
 ;
+void
+DeregisterReceiveCodecs
+(
+)
+;
 VCMGenericDecoder
 *
 GetDecoder

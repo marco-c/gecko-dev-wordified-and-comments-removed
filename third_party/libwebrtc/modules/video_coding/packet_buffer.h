@@ -381,6 +381,11 @@ ForceSpsPpsIdrIsH264Keyframe
 (
 )
 ;
+void
+ResetSpsPpsIdrIsH264Keyframe
+(
+)
+;
 private
 :
 void
