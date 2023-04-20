@@ -1525,6 +1525,8 @@ this
 .
 richlistbox
 .
+style
+.
 height
 =
 Math
@@ -1533,6 +1535,10 @@ ceil
 (
 height
 )
++
+"
+px
+"
 ;
 }
 _appendCurrentResult
