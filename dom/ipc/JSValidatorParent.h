@@ -87,7 +87,6 @@ function
 <
 void
 (
-bool
 Maybe
 <
 mozilla
@@ -98,6 +97,7 @@ ipc
 :
 Shmem
 >
+ValidatorResult
 )
 >
 &
