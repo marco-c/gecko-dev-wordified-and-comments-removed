@@ -176,13 +176,6 @@ thread_annotations
 h
 "
 namespace
-cricket
-{
-class
-ChannelManager
-;
-}
-namespace
 rtc
 {
 class
