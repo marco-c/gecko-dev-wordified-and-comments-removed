@@ -12191,8 +12191,8 @@ _ns
 return
 ;
 }
-if
-(
+mSkippedComposite
+=
 wr
 :
 :
@@ -12213,6 +12213,10 @@ GetId
 (
 )
 )
+;
+if
+(
+mSkippedComposite
 )
 {
 mSkippedComposite
