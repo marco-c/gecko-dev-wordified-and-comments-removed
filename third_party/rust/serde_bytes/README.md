@@ -21,6 +21,8 @@ io
 /
 github
 /
+actions
+/
 workflow
 /
 status
@@ -31,8 +33,12 @@ rs
 /
 bytes
 /
-CI
-/
+ci
+.
+yml
+?
+branch
+=
 master
 )
 ]
