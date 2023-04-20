@@ -2562,6 +2562,13 @@ gTabsPanel
 showHiddenTabsPanel
 (
 event
+'
+hidden
+-
+tabs
+-
+menuitem
+'
 )
 ;
 "
