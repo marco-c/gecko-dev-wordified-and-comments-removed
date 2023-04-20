@@ -5728,6 +5728,11 @@ listeners
 onHeadersReceived
 .
 size
+|
+|
+this
+.
+dnrActive
 )
 {
 this
