@@ -184,13 +184,6 @@ f32
 }
 ;
 const
-MAX_SHARED_SURFACE_SIZE
-:
-i32
-=
-2048
-;
-const
 TEXTURE_DIMENSION_MASK
 :
 i32
@@ -1107,6 +1100,9 @@ Vec
 <
 DeferredResolve
 >
+max_shared_surface_size
+:
+i32
 )
 -
 >
@@ -1758,7 +1754,7 @@ size
 width
 <
 =
-MAX_SHARED_SURFACE_SIZE
+max_shared_surface_size
 &
 &
 size
@@ -1766,7 +1762,7 @@ size
 height
 <
 =
-MAX_SHARED_SURFACE_SIZE
+max_shared_surface_size
 ;
 let
 surface_size
@@ -1779,8 +1775,8 @@ DeviceIntSize
 :
 new
 (
-MAX_SHARED_SURFACE_SIZE
-MAX_SHARED_SURFACE_SIZE
+max_shared_surface_size
+max_shared_surface_size
 )
 }
 else
