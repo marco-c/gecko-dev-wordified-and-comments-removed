@@ -1492,7 +1492,7 @@ LOAD_FLAGS_ALLOW_THIRD_PARTY_FIXUP
 ;
 webNavigation
 .
-loadURI
+fixupAndLoadURIString
 (
 tabData
 .

@@ -1108,7 +1108,7 @@ this
 .
 browser
 .
-loadURI
+fixupAndLoadURIString
 (
 uri
 {
