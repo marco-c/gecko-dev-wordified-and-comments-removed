@@ -710,12 +710,6 @@ repeating_task
 /
 system_wrappers
 "
-"
-.
-.
-/
-utility
-"
 ]
 }
 rtc_library
@@ -2803,12 +2797,6 @@ rtp_rtcp_format
 rtp_rtcp
 :
 rtp_video_header
-"
-"
-.
-.
-/
-utility
 "
 "
 timing
