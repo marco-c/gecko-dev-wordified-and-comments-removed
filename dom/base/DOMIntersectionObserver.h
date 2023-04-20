@@ -390,11 +390,6 @@ nsRect
 >
 mRemoteDocumentVisibleRect
 ;
-bool
-mIsForContentVisibility
-=
-false
-;
 }
 ;
 struct
@@ -733,7 +728,7 @@ void
 Update
 (
 Document
-*
+&
 aDocument
 DOMHighResTimeStamp
 time

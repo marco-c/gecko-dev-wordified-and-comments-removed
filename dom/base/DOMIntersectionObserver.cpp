@@ -3391,7 +3391,7 @@ DOMIntersectionObserver
 Update
 (
 Document
-*
+&
 aDocument
 DOMHighResTimeStamp
 time
@@ -3402,7 +3402,6 @@ input
 =
 ComputeInput
 (
-*
 aDocument
 mRoot
 &
@@ -3413,8 +3412,7 @@ IgnoreContentVisibility
 ignoreContentVisibility
 =
 aDocument
--
->
+.
 GetContentVisibilityObserver
 (
 )
