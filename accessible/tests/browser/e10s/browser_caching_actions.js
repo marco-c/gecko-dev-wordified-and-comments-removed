@@ -1855,12 +1855,10 @@ topLevel
 isWinNoCache
 iframe
 :
-!
-isWinNoCache
+false
 remoteIframe
 :
-!
-isWinNoCache
+false
 }
 )
 ;
