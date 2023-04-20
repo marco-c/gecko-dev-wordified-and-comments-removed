@@ -11356,7 +11356,7 @@ return
 StaticPrefs
 :
 :
-privacy_resistFingerprinting
+privacy_resistFingerprinting_DoNotUseDirectly
 (
 )
 ;

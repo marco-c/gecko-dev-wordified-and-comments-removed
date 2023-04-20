@@ -118,6 +118,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -2133,10 +2140,10 @@ sCubebForcedSampleRate
 }
 if
 (
-StaticPrefs
+nsContentUtils
 :
 :
-privacy_resistFingerprinting
+ShouldResistFingerprinting
 (
 )
 )
