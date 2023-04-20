@@ -223,7 +223,7 @@ trr
 -
 only
 -
-title
+title2
 "
 "
 fileNotFound
@@ -2696,7 +2696,7 @@ trr
 -
 only
 -
-title
+title2
 "
 ;
 document
@@ -2707,11 +2707,6 @@ setAttributes
 (
 docTitle
 pageTitleId
-{
-hostname
-:
-HOST_NAME
-}
 )
 ;
 bodyTitleId
@@ -2727,7 +2722,7 @@ trr
 -
 only
 -
-title
+title2
 "
 ;
 document
@@ -2738,11 +2733,6 @@ setAttributes
 (
 bodyTitle
 bodyTitleId
-{
-hostname
-:
-HOST_NAME
-}
 )
 ;
 shortDesc
