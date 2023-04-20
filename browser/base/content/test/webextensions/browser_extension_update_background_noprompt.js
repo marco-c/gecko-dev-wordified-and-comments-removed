@@ -53,6 +53,10 @@ initMochitest
 this
 )
 ;
+hookExtensionsTelemetry
+(
+)
+;
 AddonTestUtils
 .
 hookAMTelemetryEvents
