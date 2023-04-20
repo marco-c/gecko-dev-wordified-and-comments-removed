@@ -5229,6 +5229,10 @@ rv
 =
 %
 d
+osError
+=
+%
+d
 "
 static_cast
 <
@@ -5237,6 +5241,16 @@ int32_t
 (
 rv
 )
+NS_FAILED
+(
+rv
+)
+?
+PR_GetOSError
+(
+)
+:
+0
 )
 )
 ;
