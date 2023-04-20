@@ -411,6 +411,8 @@ getComputedStyle
 widget
 .
 node
+.
+firstElementChild
 )
 .
 listStyleImage

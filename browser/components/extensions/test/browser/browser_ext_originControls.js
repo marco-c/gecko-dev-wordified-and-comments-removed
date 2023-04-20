@@ -403,9 +403,7 @@ id
 )
 }
 -
-browser
--
-action
+BAP
 ;
 button
 =

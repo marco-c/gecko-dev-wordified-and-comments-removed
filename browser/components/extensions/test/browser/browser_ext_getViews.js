@@ -2366,6 +2366,8 @@ widget
 .
 node
 .
+firstElementChild
+.
 dispatchEvent
 (
 mouseOverEvent

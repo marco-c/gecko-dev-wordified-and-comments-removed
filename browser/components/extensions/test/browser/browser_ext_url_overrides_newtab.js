@@ -877,9 +877,7 @@ id
 "
 newtabignore_mochi_test
 -
-browser
--
-action
+BAP
 "
 "
 The

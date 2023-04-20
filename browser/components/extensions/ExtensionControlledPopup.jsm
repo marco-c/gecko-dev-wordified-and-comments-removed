@@ -1286,6 +1286,8 @@ win
 )
 .
 node
+.
+firstElementChild
 ;
 }
 anchorButton

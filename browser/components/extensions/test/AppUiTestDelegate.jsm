@@ -576,6 +576,8 @@ widget
 .
 node
 .
+firstElementChild
+.
 click
 (
 )

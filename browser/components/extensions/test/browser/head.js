@@ -1486,6 +1486,8 @@ win
 )
 .
 node
+.
+firstElementChild
 ;
 if
 (

@@ -2202,6 +2202,8 @@ window
 )
 .
 node
+.
+firstElementChild
 ;
 let
 pageActionImage
