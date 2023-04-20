@@ -131,7 +131,7 @@ video_quality_analyzer
 test
 :
 :
-GetGlobalMetricsLoggerAndExporter
+GetGlobalMetricsLogger
 (
 )
 )
