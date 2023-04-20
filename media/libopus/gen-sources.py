@@ -2,6 +2,28 @@ import
 sys
 import
 re
+ignore_list
+=
+[
+]
+def
+should_ignore
+(
+value
+)
+:
+    
+return
+any
+(
+item
+in
+value
+for
+item
+in
+ignore_list
+)
 def
 add_value
 (
@@ -34,6 +56,12 @@ strip
     
 if
 text
+and
+not
+should_ignore
+(
+text
+)
 :
         
 values
