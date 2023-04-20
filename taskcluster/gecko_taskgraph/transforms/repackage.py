@@ -1470,6 +1470,32 @@ linux
 /
 debian
 "
+            
+"
+-
+-
+version
+"
+            
+"
+{
+version_display
+}
+"
+            
+"
+-
+-
+build
+-
+number
+"
+            
+"
+{
+build_number
+}
+"
         
 ]
         
@@ -2613,6 +2639,9 @@ build_type
 "
                 
 "
+{
+version
+}
 build
 into
 a
@@ -2649,6 +2678,17 @@ get
 build_type
 "
 )
+                
+version
+=
+config
+.
+params
+[
+"
+version
+"
+]
             
 )
         
@@ -2817,6 +2857,19 @@ mar
 channel
 -
 id
+"
+]
+                
+"
+build_number
+"
+:
+config
+.
+params
+[
+"
+build_number
 "
 ]
             
@@ -3631,6 +3684,34 @@ mkbom
 ]
             
 )
+        
+if
+"
+shipping
+-
+phase
+"
+in
+job
+:
+            
+task
+[
+"
+shipping
+-
+phase
+"
+]
+=
+job
+[
+"
+shipping
+-
+phase
+"
+]
         
 yield
 task

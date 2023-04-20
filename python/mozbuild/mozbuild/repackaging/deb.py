@@ -103,6 +103,8 @@ infile
 output
 template_dir
 arch
+version
+build_number
 )
 :
     
@@ -311,20 +313,6 @@ App
 value
 =
 "
-Version
-"
-)
-            
-dict
-(
-section
-=
-"
-App
-"
-value
-=
-"
 BuildID
 "
 )
@@ -338,7 +326,7 @@ next
 values
 )
         
-displayname
+display_name
 =
 next
 (
@@ -352,21 +340,14 @@ next
 values
 )
         
-remotingname
+remoting_name
 =
 next
 (
 values
 )
         
-version
-=
-next
-(
-values
-)
-        
-buildid
+build_id
 =
 next
 (
@@ -381,7 +362,7 @@ datetime
 .
 strptime
 (
-buildid
+build_id
 "
 %
 Y
@@ -397,6 +378,44 @@ M
 S
 "
 )
+        
+if
+"
+a
+"
+in
+version
+:
+            
+deb_pkg_version
+=
+f
+"
+{
+version
+}
+~
+{
+build_id
+}
+"
+        
+else
+:
+            
+deb_pkg_version
+=
+f
+"
+{
+version
+}
+~
+build
+{
+build_number
+}
+"
         
 os
 .
@@ -457,7 +476,7 @@ f
 vendor
 }
 {
-displayname
+display_name
 }
 "
             
@@ -465,7 +484,7 @@ displayname
 DEB_PKG_NAME
 "
 :
-remotingname
+remoting_name
 .
 lower
 (
@@ -475,16 +494,7 @@ lower
 DEB_PKG_VERSION
 "
 :
-f
-"
-{
-version
-}
-.
-{
-buildid
-}
-"
+deb_pkg_version
             
 "
 DEB_CHANGELOG_DATE
