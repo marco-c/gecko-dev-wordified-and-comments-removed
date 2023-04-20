@@ -933,6 +933,16 @@ value
 ;
 }
 ;
+searchBarPref
+.
+on
+(
+"
+change
+"
+updateCheckboxEnabled
+)
+;
 onNimbus
 (
 )
