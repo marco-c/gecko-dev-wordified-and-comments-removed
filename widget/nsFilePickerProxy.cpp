@@ -258,7 +258,10 @@ nsFilePickerProxy
 :
 GetCapture
 (
-int16_t
+nsIFilePicker
+:
+:
+CaptureTarget
 *
 aCapture
 )
@@ -278,7 +281,10 @@ nsFilePickerProxy
 :
 SetCapture
 (
-int16_t
+nsIFilePicker
+:
+:
+CaptureTarget
 aCapture
 )
 {

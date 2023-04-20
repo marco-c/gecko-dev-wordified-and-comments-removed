@@ -37,6 +37,18 @@ using
 nsIFilePicker
 :
 :
+CaptureTarget
+from
+"
+nsIFilePicker
+.
+h
+"
+;
+using
+nsIFilePicker
+:
+:
 ResultCode
 from
 "
@@ -123,7 +135,7 @@ nsString
 displaySpecialDirectory
 nsString
 okButtonLabel
-int16_t
+CaptureTarget
 capture
 )
 ;
