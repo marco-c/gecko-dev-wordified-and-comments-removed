@@ -348,7 +348,7 @@ def
 test_no_such_element_from_other_frame
 (
 session
-url
+get_test_page
 closed
 )
 :
@@ -357,22 +357,11 @@ session
 .
 url
 =
-url
+get_test_page
 (
-"
-/
-webdriver
-/
-tests
-/
-support
-/
-html
-/
-subframe
-.
-html
-"
+as_frame
+=
+True
 )
     
 frame
@@ -384,10 +373,7 @@ find
 css
 (
 "
-#
-delete
--
-frame
+iframe
 "
 all
 =
@@ -401,7 +387,7 @@ switch_frame
 frame
 )
     
-button
+element
 =
 session
 .
@@ -410,33 +396,46 @@ find
 css
 (
 "
-#
-remove
--
-parent
+div
 "
 all
 =
 False
+)
+    
+session
+.
+switch_frame
+(
+"
+parent
+"
 )
     
 if
 closed
 :
         
-button
-.
-click
-(
-)
-    
 session
 .
-switch_frame
+execute_script
 (
 "
-parent
+arguments
+[
+0
+]
+.
+remove
+(
+)
+;
 "
+args
+=
+[
+frame
+]
 )
     
 result
@@ -452,7 +451,7 @@ true
 args
 =
 [
-button
+element
 ]
 )
     
