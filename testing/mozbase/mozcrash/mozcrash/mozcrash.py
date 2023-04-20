@@ -16,8 +16,6 @@ shutil
 import
 signal
 import
-six
-import
 subprocess
 import
 sys
@@ -29,16 +27,18 @@ from
 collections
 import
 namedtuple
-from
-redo
-import
-retriable
 import
 mozfile
 import
 mozinfo
 import
 mozlog
+import
+six
+from
+redo
+import
+retriable
 __all__
 =
 [
@@ -575,7 +575,6 @@ java_stack
             
 output
 =
-u
 "
 PROCESS
 -
@@ -612,7 +611,6 @@ quiet
 stackwalk_output
 =
 [
-u
 "
 Crash
 dump
@@ -763,7 +761,6 @@ frame
             
 output
 =
-u
 "
 PROCESS
 -
@@ -1455,6 +1452,43 @@ minidump_stackwalk
 "
 ]
             
+state_dir
+=
+os
+.
+environ
+.
+get
+(
+                
+"
+MOZBUILD_STATE_PATH
+"
+                
+os
+.
+path
+.
+expanduser
+(
+os
+.
+path
+.
+join
+(
+"
+~
+"
+"
+.
+mozbuild
+"
+)
+)
+            
+)
+            
 for
 possible_name
 in
@@ -1467,31 +1501,11 @@ os
 .
 path
 .
-expanduser
+join
 (
-                    
-"
-~
-/
-.
-mozbuild
-/
-{
-name
-}
-/
-{
-name
-}
-"
-.
-format
-(
-name
-=
+state_dir
 possible_name
-)
-                
+possible_name
 )
                 
 if
@@ -2334,7 +2348,6 @@ logger
 .
 info
 (
-u
 "
 Copy
 /
@@ -2987,7 +3000,6 @@ logger
 info
 (
             
-u
 "
 Saved
 minidump
@@ -3050,7 +3062,6 @@ logger
 info
 (
                 
-u
 "
 Saved
 app
@@ -3473,7 +3484,6 @@ output
 =
 (
                         
-u
 "
 PROCESS
 -
@@ -3531,7 +3541,6 @@ else
 print
 (
                     
-u
 "
 Automation
 Error
@@ -3792,7 +3801,6 @@ log
 info
 (
                 
-u
 "
 Using
 {
@@ -3838,7 +3846,6 @@ log
 .
 error
 (
-u
 "
 minidumpwriter
 not
@@ -3903,7 +3910,6 @@ log
 .
 info
 (
-u
 "
 Writing
 a
