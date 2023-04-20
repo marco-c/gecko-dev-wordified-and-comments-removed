@@ -604,9 +604,9 @@ kotlin_version
 '
 1
 .
-7
+6
 .
-20
+21
 '
 dependencies
 {
@@ -640,9 +640,9 @@ gradle
 :
 7
 .
-3
+2
 .
-0
+2
 '
 classpath
 '
