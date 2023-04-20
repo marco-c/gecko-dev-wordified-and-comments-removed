@@ -115,6 +115,13 @@ sys
 mjs
 "
 "
+InternalTestingProfileMigrator
+.
+sys
+.
+mjs
+"
+"
 MigrationUtils
 .
 sys

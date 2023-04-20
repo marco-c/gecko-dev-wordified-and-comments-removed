@@ -4068,6 +4068,17 @@ wantUntrusted
 :
 true
 }
+"
+MigrationWizard
+:
+BeginMigration
+"
+:
+{
+wantsUntrusted
+:
+true
+}
 }
 }
 includeChrome
