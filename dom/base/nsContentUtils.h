@@ -6431,15 +6431,6 @@ aDataTransferItem
 nsIWritableVariant
 *
 aVariant
-mozilla
-:
-:
-ipc
-:
-:
-IProtocol
-*
-aActor
 )
 ;
 static

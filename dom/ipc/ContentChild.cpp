@@ -17559,7 +17559,6 @@ IPCTransferableItemToVariant
 (
 item
 variant
-this
 )
 ;
 if

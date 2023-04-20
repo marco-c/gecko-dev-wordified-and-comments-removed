@@ -360,7 +360,6 @@ IPCTransferableItemToVariant
 (
 item
 variant
-mBrowserParent
 )
 ;
 if
