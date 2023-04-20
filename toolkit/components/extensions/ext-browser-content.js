@@ -1177,7 +1177,6 @@ maxWidth
 this
 .
 maxHeight
-0
 w
 h
 )

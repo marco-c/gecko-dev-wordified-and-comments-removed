@@ -1176,9 +1176,8 @@ window
 .
 sizeToContentConstrained
 (
-{
 prefWidth
-}
+0
 )
 ;
 }

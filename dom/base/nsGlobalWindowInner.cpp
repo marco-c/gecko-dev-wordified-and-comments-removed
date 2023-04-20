@@ -18358,8 +18358,8 @@ FORWARD_TO_OUTER_OR_THROW
 SizeToContentOuter
 (
 aCallerType
-{
-}
+0
+0
 aError
 )
 aError
@@ -18372,10 +18372,10 @@ nsGlobalWindowInner
 :
 SizeToContentConstrained
 (
-const
-SizeToContentConstraints
-&
-aConstraints
+int32_t
+aMaxWidth
+int32_t
+aMaxHeight
 ErrorResult
 &
 aError
@@ -18389,7 +18389,8 @@ CallerType
 :
 :
 System
-aConstraints
+aMaxWidth
+aMaxHeight
 aError
 )
 aError
