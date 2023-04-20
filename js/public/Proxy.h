@@ -662,6 +662,17 @@ true
 }
 virtual
 bool
+throwOnPrivateField
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
+bool
 call
 (
 JSContext
