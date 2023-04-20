@@ -372,12 +372,6 @@ NS_DECL_CYCLE_COLLECTION_SKIPPABLE_WRAPPERCACHE_CLASS_INHERITED
 FragmentOrElement
 nsIContent
 )
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-void
-FireNodeRemovedForChildren
-(
-)
-;
 static
 void
 ClearContentUnbinder

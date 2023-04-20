@@ -4641,6 +4641,12 @@ UnoptimizableCCNode
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+void
+FireNodeRemovedForChildren
+(
+)
+;
 private
 :
 mozilla
