@@ -996,6 +996,10 @@ init_opt
 =
 {
 }
+rule_extras
+=
+{
+}
 )
 {
 const
@@ -1197,7 +1201,10 @@ init_remote
 .
 execute_script
 (
+(
 url
+rule_extras
+)
 =
 >
 {
@@ -1279,6 +1286,10 @@ urls
 [
 url
 ]
+.
+.
+.
+rule_extras
 }
 ]
 }
@@ -1296,6 +1307,7 @@ rules
 }
 [
 url
+rule_extras
 ]
 )
 ;
