@@ -1490,7 +1490,7 @@ Maybe
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -1710,7 +1710,7 @@ Maybe
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats

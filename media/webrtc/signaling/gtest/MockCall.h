@@ -255,7 +255,7 @@ public
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 {
 public
 :
@@ -556,7 +556,7 @@ mCallWrapper
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats
@@ -788,7 +788,7 @@ public
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 {
 public
 :
@@ -1007,7 +1007,7 @@ mCallWrapper
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -1127,7 +1127,7 @@ send_stream
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 CreateAudioReceiveStream
 (
@@ -1135,7 +1135,7 @@ const
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1174,7 +1174,7 @@ DestroyAudioReceiveStream
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 receive_stream
 )
@@ -1319,14 +1319,14 @@ send_stream
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 CreateVideoReceiveStream
 (
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1370,7 +1370,7 @@ DestroyVideoReceiveStream
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 receive_stream
 )
@@ -1521,7 +1521,7 @@ OnLocalSsrcUpdated
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 &
 stream
 uint32_t
@@ -1536,7 +1536,7 @@ OnLocalSsrcUpdated
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 &
 stream
 uint32_t
@@ -1566,7 +1566,7 @@ OnUpdateSyncGroup
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 &
 stream
 absl
@@ -1712,7 +1712,7 @@ Maybe
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -1742,7 +1742,7 @@ Maybe
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

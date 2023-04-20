@@ -1968,7 +1968,7 @@ Maybe
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats

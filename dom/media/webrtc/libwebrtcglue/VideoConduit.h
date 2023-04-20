@@ -726,7 +726,7 @@ Maybe
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -1545,7 +1545,7 @@ mRecvBitrate
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 mRecvStream
 =
@@ -1700,7 +1700,7 @@ mVideoStreamFactory
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

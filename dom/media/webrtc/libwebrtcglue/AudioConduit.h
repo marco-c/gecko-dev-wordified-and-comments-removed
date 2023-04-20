@@ -649,7 +649,7 @@ Maybe
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Stats
@@ -853,7 +853,7 @@ mRecvTransport
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 :
 :
 Config
@@ -862,7 +862,7 @@ mRecvStreamConfig
 webrtc
 :
 :
-AudioReceiveStream
+AudioReceiveStreamInterface
 *
 mRecvStream
 ;
