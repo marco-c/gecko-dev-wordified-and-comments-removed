@@ -441,7 +441,7 @@ echo
 "
 looking
 for
-~
+STATE_DIR
 /
 MOZ_LIBWEBRTC_NEXT_BASE
 .
@@ -459,7 +459,7 @@ if
 [
 -
 f
-~
+STATE_DIR
 /
 MOZ_LIBWEBRTC_NEXT_BASE
 .
@@ -1807,7 +1807,7 @@ if
 [
 -
 f
-~
+STATE_DIR
 /
 MOZ_LIBWEBRTC_NEXT_BASE
 .
@@ -1824,7 +1824,7 @@ msg
 ;
 then
 cat
-~
+STATE_DIR
 /
 MOZ_LIBWEBRTC_NEXT_BASE
 .
@@ -1851,7 +1851,7 @@ commit_msg
 .
 txt
 rm
-~
+STATE_DIR
 /
 MOZ_LIBWEBRTC_NEXT_BASE
 .

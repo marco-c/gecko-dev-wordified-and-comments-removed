@@ -830,7 +830,7 @@ ff
 =
 looking
 for
-~
+STATE_DIR
 /
 MOZ_LIBWEBRTC_NEXT_BASE
 .
@@ -848,7 +848,7 @@ if
 [
 -
 f
-~
+STATE_DIR
 /
 MOZ_LIBWEBRTC_NEXT_BASE
 .

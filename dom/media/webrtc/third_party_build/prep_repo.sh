@@ -718,7 +718,7 @@ commit
 "
 \
 >
-~
+STATE_DIR
 /
 SHORT_SHA
 .
