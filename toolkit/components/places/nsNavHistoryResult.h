@@ -570,6 +570,15 @@ aEvents
 )
 override
 ;
+bool
+IsBulkPageRemovedEvent
+(
+const
+PlacesEventSequence
+&
+aEvents
+)
+;
 void
 OnMobilePrefChanged
 (
