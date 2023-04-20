@@ -424,7 +424,7 @@ crosshairs
 {
 this
 .
-endScreenshotsOverlay
+requestCancelScreenshot
 (
 )
 ;
