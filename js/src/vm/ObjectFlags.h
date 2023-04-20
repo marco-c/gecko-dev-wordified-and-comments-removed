@@ -95,7 +95,7 @@ HadGetterSetterChange
 <
 <
 10
-UseWatchtowerTestingCallback
+UseWatchtowerTestingLog
 =
 1
 <

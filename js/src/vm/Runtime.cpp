@@ -638,6 +638,10 @@ scriptAndCountsVector
 (
 nullptr
 )
+watchtowerTestingLog
+(
+nullptr
+)
 lcovOutput_
 (
 )
@@ -1045,6 +1049,16 @@ destroyInstance
 ;
 #
 endif
+watchtowerTestingLog
+.
+ref
+(
+)
+.
+reset
+(
+)
+;
 caches
 (
 )
