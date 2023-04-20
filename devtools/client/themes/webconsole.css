@@ -7046,8 +7046,13 @@ nums
 .
 consoletable
 tr
-.
+:
+nth
+-
+child
+(
 even
+)
 td
 {
 background
