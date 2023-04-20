@@ -8785,12 +8785,6 @@ or
 "
 and
 "
-"
-auto
-"
-"
-normal
-"
 ]
 ;
 idents
