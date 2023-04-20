@@ -21038,8 +21038,7 @@ usize
 Result
 <
 UploadPBO
-(
-)
+String
 >
 {
 let
@@ -21199,8 +21198,7 @@ ok_or_else
 (
 |
 |
-{
-error
+format
 !
 (
 "
@@ -21221,8 +21219,6 @@ pbo
 .
 reserved_size
 )
-;
-}
 )
 ?
 ;
@@ -21450,14 +21446,13 @@ ok_or_else
 (
 |
 |
-{
-error
+format
 !
 (
 "
 Failed
 to
-persistently
+transiently
 map
 PBO
 of
@@ -21470,8 +21465,6 @@ pbo
 .
 reserved_size
 )
-;
-}
 )
 ?
 ;
@@ -21562,8 +21555,7 @@ ok_or_else
 (
 |
 |
-{
-error
+format
 !
 (
 "
@@ -21582,8 +21574,6 @@ pbo
 .
 reserved_size
 )
-;
-}
 )
 ?
 ;
@@ -22285,8 +22275,7 @@ UploadStagingBuffer
 '
 a
 >
-(
-)
+String
 >
 {
 assert
