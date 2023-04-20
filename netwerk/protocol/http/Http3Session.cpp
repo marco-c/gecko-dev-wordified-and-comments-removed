@@ -4197,8 +4197,7 @@ NS_OK
 )
 ;
 }
-return
-NS_OK
+break
 ;
 }
 if
