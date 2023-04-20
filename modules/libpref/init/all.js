@@ -27973,6 +27973,12 @@ src
 self
 '
 ;
+upgrade
+-
+insecure
+-
+requests
+;
 "
 )
 ;

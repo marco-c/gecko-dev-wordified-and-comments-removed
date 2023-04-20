@@ -826,6 +826,9 @@ ExtensionTestUtils
 loadExtension
 (
 {
+allowInsecureRequests
+:
+true
 background
 manifest
 :
@@ -1087,6 +1090,9 @@ dnr_registered
 ;
 }
 temporarilyInstalled
+:
+true
+allowInsecureRequests
 :
 true
 manifest
@@ -1490,6 +1496,9 @@ tested_dnr_upgradeScheme
 ;
 }
 temporarilyInstalled
+:
+true
+allowInsecureRequests
 :
 true
 manifest
@@ -2126,6 +2135,9 @@ background
 temporarilyInstalled
 :
 true
+allowInsecureRequests
+:
+true
 manifest
 :
 {
@@ -2522,6 +2534,9 @@ loadExtension
 {
 background
 temporarilyInstalled
+:
+true
+allowInsecureRequests
 :
 true
 manifest
@@ -3097,6 +3112,9 @@ background
 temporarilyInstalled
 :
 true
+allowInsecureRequests
+:
+true
 manifest
 :
 {
@@ -3391,6 +3409,9 @@ loadExtension
 {
 background
 temporarilyInstalled
+:
+true
+allowInsecureRequests
 :
 true
 manifest
@@ -3809,6 +3830,9 @@ loadExtension
 {
 background
 temporarilyInstalled
+:
+true
+allowInsecureRequests
 :
 true
 manifest
