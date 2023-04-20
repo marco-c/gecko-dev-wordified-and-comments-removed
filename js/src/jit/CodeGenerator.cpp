@@ -48299,6 +48299,16 @@ tryNotes
 tryNoteIndex
 ]
 ;
+if
+(
+!
+masm
+.
+oom
+(
+)
+)
+{
 tryNote
 .
 setTryBodyEnd
@@ -48310,6 +48320,7 @@ currentOffset
 )
 )
 ;
+}
 LBlock
 *
 block
