@@ -1244,6 +1244,9 @@ M
 "
 hg
 bookmark
+-
+r
+MOZ_TOP_FF
 MOZ_BOOKMARK
 hg
 update
