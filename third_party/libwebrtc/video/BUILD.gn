@@ -2406,6 +2406,14 @@ timestamp
 .
 /
 rtc_base
+:
+logging
+"
+"
+.
+.
+/
+rtc_base
 /
 task_utils
 :

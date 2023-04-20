@@ -169,6 +169,12 @@ OnEncodedFrameReleased
 (
 )
 ;
+TimeDelta
+TimeUntilTimeout
+(
+)
+const
+;
 private
 :
 TimeDelta
