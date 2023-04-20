@@ -3587,13 +3587,13 @@ nullptr
 ;
 RefPtr
 <
-nsNSSSocketInfo
+NSSSocketControl
 >
 info
 (
 static_cast
 <
-nsNSSSocketInfo
+NSSSocketControl
 *
 >
 (
