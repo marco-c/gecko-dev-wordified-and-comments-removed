@@ -339,9 +339,6 @@ class
 nsITransaction
 ;
 class
-nsITransactionListener
-;
-class
 nsIWidget
 ;
 class
