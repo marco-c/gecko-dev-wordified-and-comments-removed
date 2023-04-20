@@ -10401,15 +10401,6 @@ dependencies
 "
 fog
 "
-"
-jog
-"
-"
-mozbuild
-"
-"
-nsstring
-"
 ]
 [
 [
