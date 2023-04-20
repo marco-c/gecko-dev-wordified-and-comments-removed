@@ -520,7 +520,7 @@ a51
 -
 0
 -
-arm7
+aarch64
 -
 shippable
 /
@@ -688,7 +688,7 @@ a51
 -
 0
 -
-arm7
+aarch64
 -
 shippable
 /
@@ -856,7 +856,7 @@ a51
 -
 0
 -
-arm7
+aarch64
 -
 shippable
 /
@@ -1024,7 +1024,7 @@ a51
 -
 0
 -
-arm7
+aarch64
 -
 shippable
 /
