@@ -37,7 +37,8 @@ UNSUPPORTED_TEXT
 "
 not
 support
-Firefox
+Internet
+Explorer
 "
 pytest
 .
