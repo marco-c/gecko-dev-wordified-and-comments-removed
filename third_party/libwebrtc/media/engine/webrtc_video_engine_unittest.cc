@@ -63139,5 +63139,14 @@ codec
 name
 )
 ;
+channel_
+-
+>
+SetEncoderSelector
+(
+kSsrc
+nullptr
+)
+;
 }
 }
