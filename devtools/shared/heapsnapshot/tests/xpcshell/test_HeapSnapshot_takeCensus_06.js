@@ -282,15 +282,6 @@ Pattern
 .
 NATURAL
 }
-Environment
-:
-{
-count
-:
-Pattern
-.
-NATURAL
-}
 Memory
 :
 {
