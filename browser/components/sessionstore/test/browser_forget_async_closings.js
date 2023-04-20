@@ -269,7 +269,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 PAGE

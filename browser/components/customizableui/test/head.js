@@ -2342,7 +2342,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 aURL

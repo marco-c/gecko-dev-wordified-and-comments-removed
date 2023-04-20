@@ -1552,7 +1552,7 @@ test_panel_has_a_manage_extensions_button
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .
@@ -2577,7 +2577,7 @@ getActivePolicies
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .

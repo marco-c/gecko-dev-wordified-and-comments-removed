@@ -352,7 +352,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 iFramePage

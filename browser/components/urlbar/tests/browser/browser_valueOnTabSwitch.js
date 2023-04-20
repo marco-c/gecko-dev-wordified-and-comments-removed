@@ -130,7 +130,7 @@ testURL
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 deletedURLTab
 .
@@ -140,7 +140,7 @@ testURL
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 fullURLTab
 .
@@ -150,7 +150,7 @@ testURL
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 partialURLTab
 .

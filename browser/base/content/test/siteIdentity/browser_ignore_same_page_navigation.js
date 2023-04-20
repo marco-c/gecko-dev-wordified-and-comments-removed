@@ -134,7 +134,7 @@ html
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 uri

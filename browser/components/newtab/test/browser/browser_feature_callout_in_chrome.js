@@ -170,7 +170,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 selectedBrowser
 url
@@ -1298,7 +1298,7 @@ url
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .

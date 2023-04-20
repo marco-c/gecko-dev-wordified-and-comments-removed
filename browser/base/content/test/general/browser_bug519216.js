@@ -30,7 +30,7 @@ progressListener3
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 "

@@ -84,7 +84,7 @@ ico
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 extraTab
 .

@@ -328,7 +328,7 @@ innerWindowID
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -352,7 +352,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

@@ -36,7 +36,7 @@ tab
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 TEST_URL
@@ -349,7 +349,7 @@ tab
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 TEST_URL

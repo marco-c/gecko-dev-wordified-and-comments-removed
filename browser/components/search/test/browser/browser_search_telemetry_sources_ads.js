@@ -1925,7 +1925,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .

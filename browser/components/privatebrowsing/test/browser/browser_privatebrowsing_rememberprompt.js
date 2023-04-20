@@ -241,7 +241,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 aURL
@@ -290,7 +290,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 privateBrowser
 aURL

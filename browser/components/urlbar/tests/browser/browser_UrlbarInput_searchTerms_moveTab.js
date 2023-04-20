@@ -523,7 +523,7 @@ expectedSearchUrl
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 expectedSearchUrl

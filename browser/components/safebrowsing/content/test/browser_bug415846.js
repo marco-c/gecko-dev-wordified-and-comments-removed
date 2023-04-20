@@ -96,7 +96,7 @@ false
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 url

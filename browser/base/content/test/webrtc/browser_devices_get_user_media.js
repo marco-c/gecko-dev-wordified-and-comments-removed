@@ -4534,7 +4534,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 browser

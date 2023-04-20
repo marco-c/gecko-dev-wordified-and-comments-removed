@@ -608,7 +608,7 @@ remote
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

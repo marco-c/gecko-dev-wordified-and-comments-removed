@@ -397,7 +397,7 @@ url
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 url
@@ -595,7 +595,7 @@ url
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 url

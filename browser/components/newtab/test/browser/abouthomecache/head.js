@@ -721,7 +721,7 @@ home
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

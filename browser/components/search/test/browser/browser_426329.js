@@ -1321,7 +1321,7 @@ length
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .
@@ -1807,7 +1807,7 @@ false
 }
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

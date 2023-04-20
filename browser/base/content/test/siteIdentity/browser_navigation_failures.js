@@ -103,7 +103,7 @@ com
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TLS_HANDSHAKE_FAILURE_URI
@@ -226,7 +226,7 @@ somethingthatdoesnotexist
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 BAD_ABOUT_PAGE_URI
@@ -624,7 +624,7 @@ port
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TLS_HANDSHAKE_FAILURE_URI

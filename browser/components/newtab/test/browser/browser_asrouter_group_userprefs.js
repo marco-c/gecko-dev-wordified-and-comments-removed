@@ -867,7 +867,7 @@ TEST_URL
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab1
 .
@@ -1014,7 +1014,7 @@ TEST_URL
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab2
 .

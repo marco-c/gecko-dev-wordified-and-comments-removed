@@ -808,7 +808,7 @@ iframe
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 DATA_URI

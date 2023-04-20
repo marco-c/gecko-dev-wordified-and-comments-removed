@@ -1432,7 +1432,7 @@ _lastRecordTabCount
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -1848,7 +1848,7 @@ _lastRecordTabCount
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -1961,7 +1961,7 @@ _lastRecordTabCount
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -2474,7 +2474,7 @@ all
 [
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 lazyTab
 .

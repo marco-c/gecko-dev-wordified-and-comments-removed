@@ -397,7 +397,7 @@ page
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

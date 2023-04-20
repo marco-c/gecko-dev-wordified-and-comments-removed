@@ -74,7 +74,7 @@ html
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 testBrowser
 testURI

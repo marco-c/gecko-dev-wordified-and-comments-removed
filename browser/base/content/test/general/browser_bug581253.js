@@ -131,7 +131,7 @@ bookmarked
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 testURL

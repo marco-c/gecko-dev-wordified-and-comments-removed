@@ -145,7 +145,7 @@ verifyUInotDegraded
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gTestBrowser
 url

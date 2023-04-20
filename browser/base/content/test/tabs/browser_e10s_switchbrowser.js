@@ -1674,7 +1674,7 @@ robots
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .
@@ -1756,7 +1756,7 @@ DUMMY_PATH
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

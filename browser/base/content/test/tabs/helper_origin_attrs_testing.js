@@ -468,7 +468,7 @@ uri
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 uri

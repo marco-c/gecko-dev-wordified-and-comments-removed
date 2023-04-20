@@ -1032,7 +1032,7 @@ com
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 "

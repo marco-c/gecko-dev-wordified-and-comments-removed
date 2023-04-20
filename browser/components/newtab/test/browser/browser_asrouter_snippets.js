@@ -879,7 +879,7 @@ browser
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

@@ -265,7 +265,7 @@ sentence
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -396,7 +396,7 @@ sentence
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -516,7 +516,7 @@ sentence
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -647,7 +647,7 @@ sentence
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -766,7 +766,7 @@ sentence
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

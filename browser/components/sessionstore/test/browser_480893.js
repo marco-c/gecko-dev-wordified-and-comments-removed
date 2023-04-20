@@ -160,7 +160,7 @@ page
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

@@ -575,7 +575,7 @@ change
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .
@@ -606,7 +606,7 @@ function
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

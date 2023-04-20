@@ -264,7 +264,7 @@ tab
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

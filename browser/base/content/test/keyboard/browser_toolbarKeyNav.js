@@ -1713,7 +1713,7 @@ nothing
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 aBrowser
 "

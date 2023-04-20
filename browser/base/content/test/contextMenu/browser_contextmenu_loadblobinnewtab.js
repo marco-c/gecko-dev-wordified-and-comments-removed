@@ -87,7 +87,7 @@ RESOURCE_LINK
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .
@@ -399,7 +399,7 @@ RESOURCE_LINK
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

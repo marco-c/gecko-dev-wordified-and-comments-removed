@@ -141,7 +141,7 @@ _dialogReady
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -758,7 +758,7 @@ hidden
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

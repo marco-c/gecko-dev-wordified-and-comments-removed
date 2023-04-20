@@ -147,7 +147,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 NON_REMOTE_PAGE

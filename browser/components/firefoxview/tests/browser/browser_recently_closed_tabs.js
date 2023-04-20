@@ -2501,7 +2501,7 @@ FINAL_URL
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 newTab
 .

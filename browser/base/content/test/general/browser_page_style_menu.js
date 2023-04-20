@@ -193,7 +193,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 WEB_ROOT

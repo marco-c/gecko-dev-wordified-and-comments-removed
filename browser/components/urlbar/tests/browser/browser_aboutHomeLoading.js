@@ -331,7 +331,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 newTabBrowser
 "

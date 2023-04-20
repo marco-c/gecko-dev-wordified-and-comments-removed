@@ -1379,7 +1379,7 @@ clearEvents
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .

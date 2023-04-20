@@ -260,7 +260,7 @@ config
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tabBrowser
 url
@@ -865,7 +865,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tabBrowser
 "

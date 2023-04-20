@@ -683,7 +683,7 @@ correctly
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser2
 "

@@ -47,7 +47,7 @@ gBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

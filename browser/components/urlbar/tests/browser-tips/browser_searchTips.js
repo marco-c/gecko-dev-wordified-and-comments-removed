@@ -1709,7 +1709,7 @@ SEARCH_SERP_URL
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 newWindow
 .
@@ -2008,7 +2008,7 @@ SEARCH_SERP_URL
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

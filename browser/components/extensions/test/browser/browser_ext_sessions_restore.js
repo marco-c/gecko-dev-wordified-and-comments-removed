@@ -507,7 +507,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .
@@ -1343,7 +1343,7 @@ openNewBrowserWindow
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .

@@ -249,7 +249,7 @@ tab
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 DUMMY
@@ -351,7 +351,7 @@ tab
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 "

@@ -202,7 +202,7 @@ i
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 URL
@@ -241,7 +241,7 @@ MAX_BACK
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

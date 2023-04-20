@@ -161,7 +161,7 @@ getHeuristicResultFor
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

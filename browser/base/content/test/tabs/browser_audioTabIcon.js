@@ -2412,7 +2412,7 @@ soundplaying
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

@@ -330,7 +330,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TEST_URL2
@@ -366,7 +366,7 @@ exactTypingTime
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -460,7 +460,7 @@ sentence
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TEST_URL2
@@ -498,7 +498,7 @@ typingTimeIsGreaterThan
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

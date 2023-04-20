@@ -218,7 +218,7 @@ aCallback
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 aWindow
 .

@@ -653,7 +653,7 @@ loadUrl
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 loadUrl

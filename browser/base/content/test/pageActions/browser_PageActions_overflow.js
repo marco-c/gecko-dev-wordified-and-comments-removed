@@ -106,7 +106,7 @@ than
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .
@@ -509,7 +509,7 @@ win
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .

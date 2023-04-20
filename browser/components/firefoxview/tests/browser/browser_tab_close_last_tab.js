@@ -164,7 +164,7 @@ URL
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 win
 .
