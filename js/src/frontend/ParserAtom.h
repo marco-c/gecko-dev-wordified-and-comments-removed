@@ -3638,9 +3638,9 @@ const
 UniqueChars
 toNewUTF8CharsZ
 (
-JSContext
+FrontendContext
 *
-cx
+fc
 TaggedParserAtomIndex
 index
 )
