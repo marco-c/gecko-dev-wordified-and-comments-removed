@@ -8382,6 +8382,16 @@ true
 name
 :
 "
+onscrollend
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 onsecuritypolicyviolation
 "
 insecureContext
