@@ -24,7 +24,7 @@ shared
 /
 loader
 /
-Loader
+DistinctSystemPrincipalLoader
 .
 sys
 .
