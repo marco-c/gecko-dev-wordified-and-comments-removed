@@ -249,7 +249,7 @@ source_dir
         
 application_ini_data
 =
-_extract_application_ini_data
+_extract_application_ini_data_from_directory
 (
 source_dir
 )
@@ -387,9 +387,9 @@ rmtree
 tmpdir
 )
 def
-_extract_application_ini_data
+_extract_application_ini_data_from_directory
 (
-application_director
+application_directory
 )
 :
     
@@ -398,7 +398,7 @@ values
 get_application_ini_values
 (
         
-application_director
+application_directory
         
 dict
 (

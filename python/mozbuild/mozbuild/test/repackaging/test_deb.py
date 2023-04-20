@@ -34,7 +34,7 @@ repackaging
 import
 deb
 def
-test_extract_application_ini_data
+test_extract_application_ini_data_from_directory
 (
 )
 :
@@ -113,7 +113,7 @@ BuildID
 assert
 deb
 .
-_extract_application_ini_data
+_extract_application_ini_data_from_directory
 (
 d
 )
