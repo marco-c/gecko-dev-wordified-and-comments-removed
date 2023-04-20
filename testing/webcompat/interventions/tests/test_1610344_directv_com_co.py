@@ -37,6 +37,20 @@ compatible
 incompatible
 "
 )
+BLOCKED_TEXT
+=
+Text
+(
+"
+request
+was
+blocked
+by
+the
+security
+rules
+"
+)
 DENIED_TEXT
 =
 Text
@@ -66,6 +80,7 @@ URL
     
 [
 denied
+blocked
 incompatible
 ]
 =
@@ -75,6 +90,7 @@ await_first_element_of
 session
 [
 DENIED_TEXT
+BLOCKED_TEXT
 INCOMPATIBLE_CSS
 ]
     
@@ -82,6 +98,8 @@ INCOMPATIBLE_CSS
     
 if
 denied
+or
+blocked
 :
         
 pytest

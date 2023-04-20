@@ -154,7 +154,7 @@ URL
     
 username
 =
-find_element
+await_element
 (
 session
 USERNAME_CSS
