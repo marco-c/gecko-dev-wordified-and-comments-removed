@@ -756,13 +756,7 @@ string
 >
 transport_name
 ;
-std
-:
-:
-unique_ptr
-<
 TrackMediaInfoMap
->
 track_media_info_map
 ;
 }
