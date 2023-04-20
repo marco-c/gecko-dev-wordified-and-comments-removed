@@ -33836,14 +33836,6 @@ tempFixed
 (
 CallTempReg1
 )
-tempFixed
-(
-CallTempReg2
-)
-tempFixed
-(
-CallTempReg3
-)
 )
 ;
 assignSnapshot

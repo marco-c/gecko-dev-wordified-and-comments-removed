@@ -8540,7 +8540,7 @@ id
 BoxedValue
 num_temps
 :
-4
+2
 call_instruction
 :
 true
