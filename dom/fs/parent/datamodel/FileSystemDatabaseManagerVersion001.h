@@ -31,6 +31,9 @@ fs
 data
 {
 class
+FileSystemDataManager
+;
+class
 FileSystemFileManager
 ;
 class
