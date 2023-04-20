@@ -1213,7 +1213,6 @@ return
 config
 ;
 }
-;
 class
 AgcManagerDirectTestHelper
 {
