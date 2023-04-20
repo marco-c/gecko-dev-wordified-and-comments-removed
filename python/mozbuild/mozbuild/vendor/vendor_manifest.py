@@ -3200,6 +3200,7 @@ set
 (
             
 [
+                
 os
 .
 path
@@ -3208,6 +3209,7 @@ abspath
 (
 f
 )
+                
 for
 f
 in
@@ -3217,7 +3219,13 @@ repository
 .
 get_changed_files
 (
+mode
+=
+"
+staged
+"
 )
+            
 ]
         
 )
