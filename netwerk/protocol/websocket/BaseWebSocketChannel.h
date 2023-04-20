@@ -539,7 +539,10 @@ mPingForced
 bool
 mIsServerSide
 ;
+Atomic
+<
 uint32_t
+>
 mPingInterval
 ;
 uint32_t

@@ -5647,15 +5647,6 @@ stop
 }
 )
 ;
-let
-WebSocketListener
-=
-function
-(
-)
-{
-}
-;
 WebSocketListener
 .
 prototype

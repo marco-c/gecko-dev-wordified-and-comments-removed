@@ -25,6 +25,11 @@ Http2StreamBase
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+Http2Stream
+override
+)
 Http2Stream
 (
 nsAHttpTransaction

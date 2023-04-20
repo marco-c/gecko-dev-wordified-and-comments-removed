@@ -65,13 +65,6 @@ h
 #
 include
 "
-Http2ConnectTransaction
-.
-h
-"
-#
-include
-"
 mozilla
 /
 BasePrincipal
