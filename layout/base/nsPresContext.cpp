@@ -5005,9 +5005,8 @@ frame
 mContainerQueryFrames
 )
 {
-if
+MOZ_ASSERT
 (
-!
 frame
 -
 >
@@ -5015,10 +5014,7 @@ IsPrimaryFrame
 (
 )
 )
-{
-continue
 ;
-}
 auto
 type
 =
