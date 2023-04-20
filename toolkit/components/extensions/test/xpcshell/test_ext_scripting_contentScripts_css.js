@@ -125,6 +125,9 @@ true
 .
 manifestProps
 }
+allowInsecureRequests
+:
+true
 temporarilyInstalled
 :
 true

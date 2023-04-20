@@ -543,6 +543,12 @@ src
 '
 self
 '
+;
+upgrade
+-
+insecure
+-
+requests
 "
 "
 WASM
