@@ -1888,13 +1888,6 @@ IRGenerator
 HandleValue
 val_
 ;
-Handle
-<
-PropertyIteratorObject
-*
->
-iterObj_
-;
 AttachDecision
 tryAttachObject
 (
@@ -1931,12 +1924,6 @@ ICState
 state
 HandleValue
 value
-Handle
-<
-PropertyIteratorObject
-*
->
-iterObj
 )
 ;
 AttachDecision
