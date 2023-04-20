@@ -4932,6 +4932,10 @@ aStartPoint
 EditorDOMPoint
 *
 aEndPoint
+const
+Element
+&
+aEditingHost
 )
 {
 MOZ_ASSERT
@@ -4996,6 +5000,7 @@ aStartPoint
 *
 aEndPoint
 )
+aEditingHost
 )
 ;
 NS_WARNING_ASSERTION
@@ -5045,6 +5050,10 @@ const
 EditorDOMPoint
 &
 aEndPoint
+const
+Element
+&
+aEditingHost
 )
 {
 MOZ_ASSERT
@@ -5083,6 +5092,7 @@ EditorDOMRange
 aStartPoint
 aEndPoint
 )
+aEditingHost
 )
 ;
 NS_WARNING_ASSERTION
@@ -5128,6 +5138,10 @@ const
 EditorDOMRange
 &
 aRange
+const
+Element
+&
+aEditingHost
 )
 {
 MOZ_ASSERT
@@ -5153,6 +5167,7 @@ MakeSureToKeepVisibleStateOfWhiteSpacesAroundDeletingRange
 (
 aHTMLEditor
 aRange
+aEditingHost
 )
 ;
 NS_WARNING_ASSERTION
@@ -5511,7 +5526,11 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 static
+Result
+<
+CaretPoint
 nsresult
+>
 DeleteContentNodeAndJoinTextNodesAroundIt
 (
 HTMLEditor
@@ -5524,6 +5543,10 @@ const
 EditorDOMPoint
 &
 aCaretPoint
+const
+Element
+&
+aEditingHost
 )
 ;
 template
@@ -5573,6 +5596,10 @@ const
 EditorDOMRange
 &
 aRangeToDelete
+const
+Element
+&
+aEditingHost
 )
 ;
 [
