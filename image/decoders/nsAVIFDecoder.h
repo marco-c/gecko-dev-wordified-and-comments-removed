@@ -282,7 +282,7 @@ uint8_t
 >
 mBufferedData
 ;
-UniquePtr
+RefPtr
 <
 AVIFDecoderStream
 >

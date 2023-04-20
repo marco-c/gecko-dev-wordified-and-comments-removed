@@ -7297,10 +7297,8 @@ this
 ;
 mBufferStream
 =
-MakeUnique
-<
+new
 AVIFDecoderStream
->
 (
 &
 mBufferedData
