@@ -2394,6 +2394,8 @@ extract
 test
 -
 corpus
+.
+js
 ?
 "
                 
@@ -2408,28 +2410,49 @@ raise
 e
         
 for
+i
 message
 in
+enumerate
+(
 messages
+)
 :
             
 template
 =
 message
-[
+.
+get
+(
 "
 template
 "
-]
+"
+(
+no
+template
+)
+"
+)
             
 msg_id
 =
 message
-[
+.
+get
+(
 "
 id
 "
-]
+f
+"
+index
+{
+i
+}
+"
+)
             
 print
 (
