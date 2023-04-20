@@ -1248,11 +1248,6 @@ onboarding
 -
 button
 "
-role
-:
-"
-button
-"
 class
 :
 "
