@@ -557,11 +557,31 @@ save
 (
 font
 )
-for
+def
+generateTestFor
+(
 mathvariant
-in
-mathvariantTransforms
+mathml
+)
 :
+    
+assert
+mathml
+or
+mathvariant
+=
+=
+"
+auto
+"
+"
+These
+tests
+have
+been
+removed
+!
+"
     
 print
 (
@@ -583,6 +603,10 @@ end
 "
 )
     
+if
+mathml
+:
+        
 reftest
 =
 open
@@ -610,7 +634,7 @@ mathvariant
 w
 "
 )
-    
+        
 reftestReference
 =
 open
@@ -641,7 +665,10 @@ w
 "
 )
     
-CSSreftest
+else
+:
+        
+reftest
 =
 open
 (
@@ -674,8 +701,6 @@ math
 s
 -
 001
-.
-tentative
 .
 html
 "
@@ -685,8 +710,8 @@ mathvariant
 w
 "
 )
-    
-CSSreftestReference
+        
+reftestReference
 =
 open
 (
@@ -719,8 +744,6 @@ math
 s
 -
 001
-.
-tentative
 -
 ref
 .
@@ -784,6 +807,10 @@ title
 n
 '
     
+if
+mathml
+:
+        
 reftest
 .
 write
@@ -800,7 +827,7 @@ s
 mathvariant
 )
 )
-    
+        
 reftestReference
 .
 write
@@ -821,7 +848,10 @@ mathvariant
 )
 )
     
-CSSreftest
+else
+:
+        
+reftest
 .
 write
 (
@@ -841,8 +871,8 @@ s
 mathvariant
 )
 )
-    
-CSSreftestReference
+        
+reftestReference
 .
 write
 (
@@ -950,6 +980,10 @@ mapping
 =
 mathvariant
     
+if
+mathml
+:
+        
 source
 =
 '
@@ -1134,7 +1168,7 @@ s
 \
 n
 '
-    
+        
 reftest
 .
 write
@@ -1148,6 +1182,9 @@ mathAssert
 )
 )
     
+else
+:
+        
 source
 =
 '
@@ -1276,8 +1313,6 @@ math
 s
 -
 001
-.
-tentative
 -
 ref
 .
@@ -1329,8 +1364,8 @@ character
 \
 n
 '
-    
-CSSreftest
+        
+reftest
 .
 write
 (
@@ -1556,13 +1591,17 @@ n
 %
 WOFFfont
     
+if
+mathml
+:
+        
 reftest
 .
 write
 (
 source
 )
-    
+        
 reftestReference
 .
 write
@@ -1570,14 +1609,17 @@ write
 source
 )
     
-CSSreftest
+else
+:
+        
+reftest
 .
 write
 (
 source
 )
-    
-CSSreftestReference
+        
+reftestReference
 .
 write
 (
@@ -1708,6 +1750,10 @@ mtext
 %
 transformedChar
         
+if
+mathml
+:
+            
 reftest
 .
 write
@@ -1751,7 +1797,7 @@ tokenTag
 transformedChar
 )
 )
-        
+            
 reftestReference
 .
 write
@@ -1796,7 +1842,10 @@ transformedChar
 )
 )
         
-CSSreftest
+else
+:
+            
+reftest
 .
 write
 (
@@ -1856,8 +1905,8 @@ baseChar
 transformedChar
 )
 )
-        
-CSSreftestReference
+            
+reftestReference
 .
 write
 (
@@ -1942,30 +1991,6 @@ br
 >
 '
 )
-            
-CSSreftest
-.
-write
-(
-'
-<
-br
-/
->
-'
-)
-            
-CSSreftestReference
-.
-write
-(
-'
-<
-br
-/
->
-'
-)
         
 reftest
 .
@@ -1978,26 +2003,6 @@ n
 )
         
 reftestReference
-.
-write
-(
-'
-\
-n
-'
-)
-        
-CSSreftest
-.
-write
-(
-'
-\
-n
-'
-)
-        
-CSSreftestReference
 .
 write
 (
@@ -2038,20 +2043,6 @@ write
 source
 )
     
-CSSreftest
-.
-write
-(
-source
-)
-    
-CSSreftestReference
-.
-write
-(
-source
-)
-    
 reftest
 .
 close
@@ -2064,22 +2055,34 @@ close
 (
 )
     
-CSSreftest
-.
-close
-(
-)
-    
-CSSreftestReference
-.
-close
-(
-)
-    
 print
 (
 "
 done
 .
 "
+)
+generateTestFor
+(
+mathvariant
+=
+"
+auto
+"
+mathml
+=
+False
+)
+for
+mathvariant
+in
+mathvariantTransforms
+:
+    
+generateTestFor
+(
+mathvariant
+mathml
+=
+True
 )
