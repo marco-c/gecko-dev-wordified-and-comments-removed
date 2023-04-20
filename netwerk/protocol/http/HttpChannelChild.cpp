@@ -11929,7 +11929,10 @@ nsCString
 aType
 )
 aPredictedSize
+WrapNotNull
+(
 this
+)
 )
 )
 {

@@ -9458,8 +9458,11 @@ WebRenderBridgeParent
 :
 RecvGetSnapshot
 (
+NotNull
+<
 PTextureParent
 *
+>
 aTexture
 bool
 *

@@ -3996,7 +3996,10 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 return
 FileAddInfo
 {
+WrapNotNull
+(
 fileActor
+)
 StructuredCloneFileBase
 :
 :
@@ -4065,7 +4068,10 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 return
 FileAddInfo
 {
+WrapNotNull
+(
 fileActor
+)
 file
 .
 Type

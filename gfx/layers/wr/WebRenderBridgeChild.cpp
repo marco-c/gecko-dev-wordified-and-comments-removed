@@ -2057,7 +2057,10 @@ AddOpDestroy
 (
 OpDestroy
 (
+WrapNotNull
+(
 aTexture
+)
 )
 )
 ;
@@ -2173,11 +2176,14 @@ GetIPCHandle
 )
 OpRemoveTexture
 (
+WrapNotNull
+(
 aTexture
 -
 >
 GetIPDLActor
 (
+)
 )
 )
 )
@@ -2296,6 +2302,8 @@ AppendElement
 (
 TimedTexture
 (
+WrapNotNull
+(
 t
 .
 mTextureClient
@@ -2303,6 +2311,7 @@ mTextureClient
 >
 GetIPDLActor
 (
+)
 )
 t
 .

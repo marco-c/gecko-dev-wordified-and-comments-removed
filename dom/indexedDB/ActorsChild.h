@@ -430,8 +430,11 @@ const
 DatabaseSpec
 &
 aSpec
+NotNull
+<
 PBackgroundIDBFactoryRequestChild
 *
+>
 aRequest
 )
 override

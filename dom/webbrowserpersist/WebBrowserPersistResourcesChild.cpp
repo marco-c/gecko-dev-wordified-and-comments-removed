@@ -133,7 +133,10 @@ NS_ERROR_FAILURE
 }
 SendVisitDocument
 (
+WrapNotNull
+(
 subActor
+)
 )
 ;
 subActor
