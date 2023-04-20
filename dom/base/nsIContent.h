@@ -42,6 +42,9 @@ mozilla
 class
 EventChainPreVisitor
 ;
+class
+HTMLEditor
+;
 struct
 URLExtraData
 ;
@@ -1583,6 +1586,17 @@ rc
 0
 ;
 }
+bool
+InclusiveDescendantMayNeedSpellchecking
+(
+mozilla
+:
+:
+HTMLEditor
+*
+aEditor
+)
+;
 protected
 :
 class
