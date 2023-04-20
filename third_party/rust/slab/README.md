@@ -101,6 +101,8 @@ io
 /
 github
 /
+actions
+/
 workflow
 /
 status
@@ -111,8 +113,12 @@ rs
 /
 slab
 /
-CI
-/
+ci
+.
+yml
+?
+branch
+=
 master
 [
 ci
