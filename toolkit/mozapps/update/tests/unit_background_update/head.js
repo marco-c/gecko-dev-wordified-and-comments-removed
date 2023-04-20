@@ -18,7 +18,7 @@ BackgroundTasksTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -31,7 +31,9 @@ common
 /
 BackgroundTasksTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -93,7 +95,7 @@ maybeSubmitBackgroundUpdatePing
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -108,7 +110,9 @@ backgroundtasks
 /
 BackgroundTask_backgroundupdate
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -119,7 +123,7 @@ BackgroundUpdate
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -132,7 +136,9 @@ modules
 /
 BackgroundUpdate
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

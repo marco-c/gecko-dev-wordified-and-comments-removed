@@ -31,7 +31,7 @@ BackgroundTasksTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -44,7 +44,9 @@ common
 /
 BackgroundTasksTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
