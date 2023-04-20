@@ -89,7 +89,7 @@ modules
 /
 video_coding
 /
-inter_frame_delay
+jitter_estimator
 .
 h
 "
@@ -100,7 +100,9 @@ modules
 /
 video_coding
 /
-jitter_estimator
+timing
+/
+inter_frame_delay
 .
 h
 "
@@ -673,7 +675,7 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
-VCMInterFrameDelay
+InterFrameDelay
 inter_frame_delay_
 RTC_GUARDED_BY
 (

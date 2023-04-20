@@ -5,6 +5,8 @@ modules
 /
 video_coding
 /
+timing
+/
 inter_frame_delay
 .
 h
@@ -71,10 +73,10 @@ KiloHertz
 )
 ;
 }
-VCMInterFrameDelay
+InterFrameDelay
 :
 :
-VCMInterFrameDelay
+InterFrameDelay
 (
 )
 {
@@ -84,7 +86,7 @@ Reset
 ;
 }
 void
-VCMInterFrameDelay
+InterFrameDelay
 :
 :
 Reset
@@ -110,7 +112,7 @@ optional
 <
 TimeDelta
 >
-VCMInterFrameDelay
+InterFrameDelay
 :
 :
 CalculateDelay

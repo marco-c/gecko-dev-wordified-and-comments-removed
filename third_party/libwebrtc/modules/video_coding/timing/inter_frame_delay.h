@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_VIDEO_CODING_INTER_FRAME_DELAY_H_
+MODULES_VIDEO_CODING_TIMING_INTER_FRAME_DELAY_H_
 #
 define
-MODULES_VIDEO_CODING_INTER_FRAME_DELAY_H_
+MODULES_VIDEO_CODING_TIMING_INTER_FRAME_DELAY_H_
 #
 include
 <
@@ -59,11 +59,11 @@ namespace
 webrtc
 {
 class
-VCMInterFrameDelay
+InterFrameDelay
 {
 public
 :
-VCMInterFrameDelay
+InterFrameDelay
 (
 )
 ;

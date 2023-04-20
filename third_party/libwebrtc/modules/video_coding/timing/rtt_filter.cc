@@ -5,6 +5,8 @@ modules
 /
 video_coding
 /
+timing
+/
 rtt_filter
 .
 h
@@ -108,10 +110,10 @@ kDriftStdDev
 5
 ;
 }
-VCMRttFilter
+RttFilter
 :
 :
-VCMRttFilter
+RttFilter
 (
 )
 :
@@ -164,7 +166,7 @@ Reset
 ;
 }
 void
-VCMRttFilter
+RttFilter
 :
 :
 Reset
@@ -231,7 +233,7 @@ Zero
 ;
 }
 void
-VCMRttFilter
+RttFilter
 :
 :
 Update
@@ -411,7 +413,7 @@ old_var
 }
 }
 bool
-VCMRttFilter
+RttFilter
 :
 :
 JumpDetection
@@ -564,7 +566,7 @@ true
 ;
 }
 bool
-VCMRttFilter
+RttFilter
 :
 :
 DriftDetection
@@ -662,7 +664,7 @@ true
 ;
 }
 void
-VCMRttFilter
+RttFilter
 :
 :
 ShortRttFilter
@@ -747,7 +749,7 @@ size
 ;
 }
 TimeDelta
-VCMRttFilter
+RttFilter
 :
 :
 Rtt
