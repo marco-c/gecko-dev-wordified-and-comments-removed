@@ -170,6 +170,9 @@ namespace
 gfx
 {
 class
+DrawTarget
+;
+class
 SourceSurface
 ;
 class
@@ -726,6 +729,14 @@ GetSurfaceSnapshot
 gfxAlphaType
 *
 aOutAlphaType
+=
+nullptr
+gfx
+:
+:
+DrawTarget
+*
+aTarget
 =
 nullptr
 )

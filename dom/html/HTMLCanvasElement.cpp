@@ -6299,6 +6299,9 @@ gfxAlphaType
 *
 const
 aOutAlphaType
+DrawTarget
+*
+aTarget
 )
 {
 if
@@ -6310,8 +6313,9 @@ return
 mCurrentContext
 -
 >
-GetSurfaceSnapshot
+GetOptimizedSnapshot
 (
+aTarget
 aOutAlphaType
 )
 ;

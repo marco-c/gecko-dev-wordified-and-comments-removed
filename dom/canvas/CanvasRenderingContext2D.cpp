@@ -9262,8 +9262,11 @@ SourceSurface
 CanvasRenderingContext2D
 :
 :
-GetSurfaceSnapshot
+GetOptimizedSnapshot
 (
+DrawTarget
+*
+aTarget
 gfxAlphaType
 *
 aOutAlphaType
@@ -9348,6 +9351,7 @@ mBufferProvider
 >
 BorrowSnapshot
 (
+aTarget
 )
 ;
 RefPtr
