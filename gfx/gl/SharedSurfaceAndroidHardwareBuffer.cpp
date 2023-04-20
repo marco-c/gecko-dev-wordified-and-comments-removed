@@ -680,12 +680,6 @@ layers
 :
 SurfaceDescriptorAndroidHardwareBuffer
 (
-ipc
-:
-:
-FileDescriptor
-(
-)
 mAndroidHardwareBuffer
 -
 >
@@ -710,13 +704,6 @@ WaitForBufferOwnership
 (
 )
 {
-mAndroidHardwareBuffer
--
->
-WaitForBufferOwnership
-(
-)
-;
 ipc
 :
 :

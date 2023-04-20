@@ -625,9 +625,6 @@ Comparable
 struct
 SurfaceDescriptorAndroidHardwareBuffer
 {
-FileDescriptor
-handle
-;
 uint64_t
 bufferId
 ;
