@@ -535,6 +535,10 @@ uint16_t
 frame_id
 int32_t
 error_code
+const
+DecoderStats
+&
+stats
 )
 {
 RTC_LOG
