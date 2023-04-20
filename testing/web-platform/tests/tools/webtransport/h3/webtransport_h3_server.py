@@ -759,6 +759,18 @@ protocol
 "
 )
             
+origin
+=
+headers
+.
+get
+(
+b
+"
+origin
+"
+)
+            
 if
 method
 =
@@ -775,6 +787,8 @@ b
 "
 webtransport
 "
+and
+origin
 :
                 
 self
@@ -796,6 +810,14 @@ headers
 else
 :
                 
+status_code
+=
+404
+if
+origin
+else
+403
+                
 self
 .
 _send_error_response
@@ -803,7 +825,7 @@ _send_error_response
 event
 .
 stream_id
-400
+status_code
 )
         
 if
