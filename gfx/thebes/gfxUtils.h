@@ -149,6 +149,9 @@ gfxASurface
 class
 gfxDrawable
 ;
+class
+gfxTextRun
+;
 struct
 gfxQuad
 ;
@@ -1160,6 +1163,8 @@ mTag
 ;
 friend
 class
+:
+:
 gfxTextRun
 ;
 nsTArray
