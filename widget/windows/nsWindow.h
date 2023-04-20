@@ -3140,6 +3140,8 @@ aFullScreen
 void
 OnFullscreenChanged
 (
+nsSizeMode
+aOldSizeMode
 bool
 aFullScreen
 )
