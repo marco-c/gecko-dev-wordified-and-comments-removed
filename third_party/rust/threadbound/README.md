@@ -247,6 +247,8 @@ io
 /
 github
 /
+actions
+/
 workflow
 /
 status
@@ -255,10 +257,14 @@ dtolnay
 /
 threadbound
 /
-CI
-/
-master
+ci
+.
+yml
 ?
+branch
+=
+master
+&
 style
 =
 for
