@@ -1115,16 +1115,6 @@ mIgnoreProgress
 1
 ;
 uint8_t
-mSentRedirect1BeginFailed
-:
-1
-;
-uint8_t
-mReceivedRedirect2Verify
-:
-1
-;
-uint8_t
 mHasSuspendedByBackPressure
 :
 1
