@@ -70,9 +70,7 @@ js
 ;
 import
 {
-describeChromeOnly
 getTestState
-itFailsWindows
 }
 from
 '
@@ -165,7 +163,7 @@ extension
 '
 )
 ;
-describeChromeOnly
+describe
 (
 '
 headful
@@ -1197,7 +1195,7 @@ close
 }
 )
 ;
-itFailsWindows
+it
 (
 '
 headless
@@ -1419,7 +1417,9 @@ true
 }
 )
 ;
-xit
+it
+.
+skip
 (
 '
 OOPIF

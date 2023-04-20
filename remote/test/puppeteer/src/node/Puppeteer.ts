@@ -69,7 +69,7 @@ from
 .
 .
 /
-common
+api
 /
 Browser
 .

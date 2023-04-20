@@ -14,7 +14,7 @@ from
 .
 .
 /
-common
+api
 /
 Browser
 .

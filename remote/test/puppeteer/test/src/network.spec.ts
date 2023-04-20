@@ -35,9 +35,6 @@ import
 getTestState
 setupTestBrowserHooks
 setupTestPageAndContextHooks
-itFailsFirefox
-itChromeOnly
-itFirefoxOnly
 }
 from
 '
@@ -908,7 +905,7 @@ function
 (
 )
 {
-itChromeOnly
+it
 (
 '
 should
@@ -981,7 +978,7 @@ Chrome
 }
 )
 ;
-itFirefoxOnly
+it
 (
 '
 should
@@ -6215,7 +6212,7 @@ false
 }
 )
 ;
-itFailsFirefox
+it
 (
 '
 should

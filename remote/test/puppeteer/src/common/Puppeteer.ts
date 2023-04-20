@@ -5,6 +5,9 @@ Browser
 from
 '
 .
+.
+/
+api
 /
 Browser
 .
@@ -14,7 +17,7 @@ js
 import
 {
 BrowserConnectOptions
-_connectToBrowser
+_connectToCDPBrowser
 }
 from
 '
@@ -181,7 +184,7 @@ Browser
 >
 {
 return
-_connectToBrowser
+_connectToCDPBrowser
 (
 options
 )

@@ -57,7 +57,6 @@ js
 ;
 import
 {
-describeFailsFirefox
 getTestState
 setupTestBrowserHooks
 setupTestPageAndContextHooks
@@ -86,7 +85,7 @@ utils
 js
 '
 ;
-describeFailsFirefox
+describe
 (
 '
 Workers

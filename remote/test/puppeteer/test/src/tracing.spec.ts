@@ -22,7 +22,6 @@ expect
 import
 {
 getTestState
-describeChromeOnly
 }
 from
 '
@@ -53,7 +52,7 @@ cjs
 /
 puppeteer
 /
-common
+api
 /
 Browser
 .
@@ -85,7 +84,7 @@ Page
 js
 '
 ;
-describeChromeOnly
+describe
 (
 '
 Tracing

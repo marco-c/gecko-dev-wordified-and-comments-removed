@@ -19,7 +19,6 @@ import
 getTestState
 setupTestBrowserHooks
 setupTestPageAndContextHooks
-describeChromeOnly
 }
 from
 '
@@ -32,7 +31,7 @@ utils
 js
 '
 ;
-describeChromeOnly
+describe
 (
 '
 Chromium
@@ -956,7 +955,7 @@ disconnectedEventPromise
 }
 )
 ;
-describeChromeOnly
+describe
 (
 '
 Chromium

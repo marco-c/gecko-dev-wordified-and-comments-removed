@@ -67,7 +67,6 @@ js
 import
 {
 getTestState
-itFailsFirefox
 setupTestBrowserHooks
 setupTestPageAndContextHooks
 }
@@ -491,7 +490,7 @@ toBeTruthy
 }
 )
 ;
-itFailsFirefox
+it
 (
 '
 should

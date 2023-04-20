@@ -23,7 +23,6 @@ import
 getTestState
 setupTestBrowserHooks
 setupTestPageAndContextHooks
-describeChromeOnly
 }
 from
 '
@@ -61,7 +60,7 @@ ErrorLike
 js
 '
 ;
-describeChromeOnly
+describe
 (
 '
 Target

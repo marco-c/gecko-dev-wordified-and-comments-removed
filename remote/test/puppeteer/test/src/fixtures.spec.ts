@@ -8,7 +8,6 @@ expect
 import
 {
 getTestState
-itHeadlessOnly
 }
 from
 '
@@ -37,7 +36,7 @@ function
 (
 )
 {
-itHeadlessOnly
+it
 (
 '
 dumpio

@@ -33,7 +33,7 @@ cjs
 /
 puppeteer
 /
-common
+api
 /
 Browser
 .

@@ -10,7 +10,6 @@ import
 getTestState
 setupTestPageAndContextHooks
 setupTestBrowserHooks
-describeChromeOnly
 }
 from
 '
@@ -33,7 +32,7 @@ function
 (
 )
 {
-describeChromeOnly
+describe
 (
 '
 JSCoverage
@@ -1184,7 +1183,9 @@ txt
 }
 )
 ;
-xit
+it
+.
+skip
 (
 '
 should
@@ -1685,7 +1686,9 @@ toBeTruthy
 }
 )
 ;
-xit
+it
+.
+skip
 (
 '
 should
@@ -1763,7 +1766,7 @@ stopJSCoverage
 }
 )
 ;
-describeChromeOnly
+describe
 (
 '
 CSSCoverage

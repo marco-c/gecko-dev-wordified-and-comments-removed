@@ -134,7 +134,9 @@ bigint
 ?
 it
 :
-xit
+it
+.
+skip
 )
 (
 '
@@ -1661,7 +1663,9 @@ bigint
 ?
 it
 :
-xit
+it
+.
+skip
 )
 (
 '

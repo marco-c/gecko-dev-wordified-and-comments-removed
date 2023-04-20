@@ -87,6 +87,9 @@ generated
 '
 util
 '
+'
+api
+'
 ]
 ;
 (
@@ -274,7 +277,7 @@ browser
 target
 :
 '
-ES2019
+ES2022
 '
 }
 )

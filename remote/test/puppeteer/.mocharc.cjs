@@ -180,6 +180,9 @@ test
 build
 /
 *
+*
+/
+*
 .
 spec
 .
@@ -216,9 +219,7 @@ env
 PARALLEL
 timeout
 :
-25
-*
-1000
+25_000
 reporter
 :
 process

@@ -22,8 +22,6 @@ os
 import
 {
 getTestState
-describeFailsFirefox
-itFailsWindows
 }
 from
 '
@@ -67,7 +65,7 @@ cjs
 /
 puppeteer
 /
-common
+api
 /
 Browser
 .
@@ -230,7 +228,7 @@ emptyPagePath
 }
 ;
 }
-describeFailsFirefox
+describe
 (
 '
 request
@@ -1032,7 +1030,7 @@ toEqual
 }
 )
 ;
-itFailsWindows
+it
 (
 '
 should

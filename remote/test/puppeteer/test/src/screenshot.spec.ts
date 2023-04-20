@@ -10,8 +10,6 @@ import
 getTestState
 setupTestBrowserHooks
 setupTestPageAndContextHooks
-itHeadfulOnly
-itChromeOnly
 }
 from
 '
@@ -1357,7 +1355,7 @@ png
 }
 )
 ;
-itHeadfulOnly
+it
 (
 '
 should
@@ -1593,7 +1591,7 @@ png
 }
 )
 ;
-itChromeOnly
+it
 (
 '
 should
