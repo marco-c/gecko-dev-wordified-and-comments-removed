@@ -1205,7 +1205,7 @@ xpt
 )
 endif
 #
-COMPILE_ENVIRONMENT
+MOZ_ARTIFACT_BUILDS
 prepare
 -
 package
