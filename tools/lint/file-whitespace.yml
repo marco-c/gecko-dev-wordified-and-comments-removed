@@ -988,6 +988,16 @@ lint
 /
 eslint
 -
+tools
+/
+lint
+/
+test
+/
+test_clang_format
+.
+py
+-
 view
 /
 crashtests
@@ -1219,6 +1229,9 @@ md
 -
 .
 properties
+-
+.
+py
 -
 .
 rs
