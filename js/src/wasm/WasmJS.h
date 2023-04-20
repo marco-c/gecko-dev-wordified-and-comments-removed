@@ -1700,6 +1700,13 @@ methods
 static
 const
 JSFunctionSpec
+memoryControlMethods
+[
+]
+;
+static
+const
+JSFunctionSpec
 static_methods
 [
 ]
