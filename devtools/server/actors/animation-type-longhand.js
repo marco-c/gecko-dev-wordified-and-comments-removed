@@ -359,6 +359,13 @@ font
 -
 variant
 -
+emoji
+"
+"
+font
+-
+variant
+-
 ligatures
 "
 "

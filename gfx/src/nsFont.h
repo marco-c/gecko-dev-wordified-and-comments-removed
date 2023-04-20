@@ -203,6 +203,14 @@ variantWidth
 =
 NS_FONT_VARIANT_WIDTH_NORMAL
 ;
+StyleFontVariantEmoji
+variantEmoji
+=
+StyleFontVariantEmoji
+:
+:
+Normal
+;
 uint8_t
 smoothing
 =

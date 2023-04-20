@@ -418,6 +418,16 @@ aOther
 .
 variantWidth
 )
+|
+|
+(
+variantEmoji
+!
+=
+aOther
+.
+variantEmoji
+)
 )
 {
 return

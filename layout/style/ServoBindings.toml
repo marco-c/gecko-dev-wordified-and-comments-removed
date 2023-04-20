@@ -1103,6 +1103,9 @@ mozilla
 :
 StyleWritingModeProperty
 "
+"
+StyleFontVariantEmoji
+"
 ]
 allowlist
 -
