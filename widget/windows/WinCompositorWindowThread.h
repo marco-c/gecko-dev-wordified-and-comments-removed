@@ -159,6 +159,11 @@ mThread
 Monitor
 mMonitor
 ;
+bool
+mHasAttemptedShutdown
+=
+false
+;
 }
 ;
 }
