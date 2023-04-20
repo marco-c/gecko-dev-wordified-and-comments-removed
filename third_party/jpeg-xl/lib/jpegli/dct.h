@@ -68,13 +68,6 @@ ImageF
 &
 qf
 const
-jxl
-:
-:
-FrameDimensions
-&
-frame_dim
-const
 float
 *
 qm

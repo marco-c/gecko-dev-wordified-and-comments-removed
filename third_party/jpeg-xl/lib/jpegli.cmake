@@ -511,6 +511,9 @@ GTest
 :
 :
 Main
+{
+JPEG_LIBRARIES
+}
 )
 #
 Output

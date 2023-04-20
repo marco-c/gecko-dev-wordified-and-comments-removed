@@ -795,6 +795,15 @@ JXL_BOOL
 is_gray
 )
 ;
+JXL_EXPORT
+void
+JxlEncoderAllowExpertOptions
+(
+JxlEncoder
+*
+enc
+)
+;
 #
 if
 defined
