@@ -713,6 +713,8 @@ bool
 aIsChromeWorker
 WorkerKind
 aWorkerKind
+RequestCredentials
+aRequestCredentials
 const
 WorkerType
 aWorkerType
@@ -2474,6 +2476,16 @@ return
 mWorkerName
 ;
 }
+RequestCredentials
+WorkerCredentials
+(
+)
+const
+{
+return
+mCredentialsMode
+;
+}
 enum
 WorkerType
 WorkerType
@@ -4120,6 +4132,8 @@ bool
 aIsChromeWorker
 WorkerKind
 aWorkerKind
+RequestCredentials
+aRequestCredentials
 enum
 WorkerType
 aWorkerType
@@ -4542,6 +4556,10 @@ mScriptURL
 const
 nsString
 mWorkerName
+;
+const
+RequestCredentials
+mCredentialsMode
 ;
 enum
 WorkerType
