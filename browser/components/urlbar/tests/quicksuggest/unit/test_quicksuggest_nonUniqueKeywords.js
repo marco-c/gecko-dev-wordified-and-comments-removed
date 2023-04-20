@@ -441,6 +441,9 @@ id
 is_sponsored
 :
 isSponsored
+is_top_pick
+:
+false
 score
 :
 typeof
