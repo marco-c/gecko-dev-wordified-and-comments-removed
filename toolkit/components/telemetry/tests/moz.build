@@ -33,7 +33,9 @@ utils
 /
 TelemetryTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 ]
 if

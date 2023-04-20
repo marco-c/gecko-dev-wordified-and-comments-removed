@@ -152,7 +152,9 @@ modules
 /
 TelemetryControllerBase
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -165,7 +167,9 @@ modules
 /
 TelemetryControllerContent
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
