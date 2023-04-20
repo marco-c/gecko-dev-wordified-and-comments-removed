@@ -259,6 +259,7 @@ nsIGlobalObject
 GetParentObject
 (
 )
+const
 ;
 int32_t
 Identifier

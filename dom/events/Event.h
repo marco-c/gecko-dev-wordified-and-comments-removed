@@ -334,6 +334,7 @@ nsIGlobalObject
 GetParentObject
 (
 )
+const
 {
 return
 mOwner

@@ -17068,10 +17068,10 @@ return
 }
 if
 (
-nsContentUtils
+nsIGlobalObject
 :
 :
-ResistFingerprinting
+ShouldResistFingerprinting
 (
 aCallerType
 )
@@ -34585,10 +34585,10 @@ aCallerType
 {
 if
 (
-nsContentUtils
+nsIGlobalObject
 :
 :
-ResistFingerprinting
+ShouldResistFingerprinting
 (
 aCallerType
 )
