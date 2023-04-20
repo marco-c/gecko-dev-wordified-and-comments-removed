@@ -348,11 +348,6 @@ tls_subcerts_unittest
 .
 cc
 '
-'
-tls_grease_unittest
-.
-cc
-'
 ]
 '
 dependencies

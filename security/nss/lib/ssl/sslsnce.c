@@ -8420,7 +8420,7 @@ SECSuccess
 ;
 }
 static
-SECStatus
+PRBool
 ssl_GenerateSelfEncryptKeys
 (
 void

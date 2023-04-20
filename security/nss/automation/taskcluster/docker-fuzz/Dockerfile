@@ -76,9 +76,9 @@ issuecomment
 FROM
 ubuntu
 :
-bionic
--
-20221215
+18
+.
+04
 LABEL
 maintainer
 =
