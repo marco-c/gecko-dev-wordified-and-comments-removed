@@ -229,11 +229,6 @@ VIEW_TEMPLATE
 attributes
 :
 {
-role
-:
-"
-group
-"
 selectable
 :
 "
