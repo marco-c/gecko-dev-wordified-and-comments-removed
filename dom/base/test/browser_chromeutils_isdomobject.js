@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 add_task
 (
 async
@@ -7,7 +12,7 @@ invalidArgument
 )
 {
 const
-arguments
+args
 =
 [
 undefined
@@ -23,7 +28,7 @@ for
 const
 argument
 of
-arguments
+args
 )
 {
 let
@@ -77,7 +82,7 @@ NoUnwrap
 )
 {
 const
-arguments
+args
 =
 [
 window
@@ -116,7 +121,7 @@ for
 const
 argument
 of
-arguments
+args
 )
 {
 ok
@@ -190,7 +195,7 @@ DOMObjects
 )
 {
 const
-arguments
+args
 =
 [
 window
@@ -230,7 +235,7 @@ for
 const
 argument
 of
-arguments
+args
 )
 {
 ok
@@ -269,7 +274,7 @@ nonDOMObjects
 )
 {
 const
-arguments
+args
 =
 [
 new
@@ -287,7 +292,7 @@ for
 const
 argument
 of
-arguments
+args
 )
 {
 ok
@@ -366,7 +371,7 @@ async
 >
 {
 const
-arguments
+args
 =
 [
 content
@@ -416,7 +421,7 @@ for
 const
 argument
 of
-arguments
+args
 )
 {
 ok
@@ -479,7 +484,7 @@ for
 const
 argument
 of
-arguments
+args
 )
 {
 ok
