@@ -116,7 +116,7 @@ version
 .
 1
 .
-0
+1
 "
 authors
 =
@@ -126,6 +126,16 @@ Dana
 Keeler
 <
 dkeeler
+mozilla
+.
+com
+>
+"
+"
+John
+Schanck
+<
+jschanck
 mozilla
 .
 com
@@ -172,6 +182,11 @@ mozilla
 pkcs11
 -
 bindings
+"
+resolver
+=
+"
+1
 "
 [
 build

@@ -400,6 +400,14 @@ enable_sslkeylogfile
 gyp_vars
 [
 "
+disable_ckbi
+"
+]
+=
+1
+gyp_vars
+[
+"
 zlib_libs
 "
 ]

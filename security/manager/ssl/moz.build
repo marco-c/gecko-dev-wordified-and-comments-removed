@@ -53,6 +53,14 @@ DIRS
 ipcclientcerts
 "
 ]
+DIRS
++
+=
+[
+"
+builtins
+"
+]
 TEST_DIRS
 +
 =
