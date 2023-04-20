@@ -60,6 +60,11 @@ mozilla
 {
 class
 MOZ_CAPABILITY
+(
+"
+mutex
+"
+)
 MultiWriterQueueReaderLocking_Mutex
 {
 public
@@ -119,6 +124,12 @@ mMutex
 ;
 class
 MOZ_CAPABILITY
+(
+"
+dummy
+lock
+"
+)
 MultiWriterQueueReaderLocking_None
 {
 public

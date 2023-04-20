@@ -115,6 +115,11 @@ options
 endif
 struct
 MOZ_CAPABILITY
+(
+"
+mutex
+"
+)
 Mutex
 {
 #
@@ -474,6 +479,11 @@ XP_WIN
 )
 struct
 MOZ_CAPABILITY
+(
+"
+mutex
+"
+)
 StaticMutex
 {
 SRWLOCK

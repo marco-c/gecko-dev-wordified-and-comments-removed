@@ -27,6 +27,11 @@ mozilla
 {
 class
 MOZ_CAPABILITY
+(
+"
+monitor
+"
+)
 Monitor
 {
 public

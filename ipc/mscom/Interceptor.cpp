@@ -217,6 +217,11 @@ detail
 {
 class
 MOZ_CAPABILITY
+(
+"
+mutex
+"
+)
 LiveSet
 final
 {

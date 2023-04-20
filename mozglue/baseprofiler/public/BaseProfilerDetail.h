@@ -69,6 +69,11 @@ detail
 {
 class
 MOZ_CAPABILITY
+(
+"
+mutex
+"
+)
 BaseProfilerMutex
 :
 private

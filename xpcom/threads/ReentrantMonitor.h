@@ -65,6 +65,12 @@ mozilla
 {
 class
 MOZ_CAPABILITY
+(
+"
+reentrant
+monitor
+"
+)
 ReentrantMonitor
 :
 BlockingResourceBase

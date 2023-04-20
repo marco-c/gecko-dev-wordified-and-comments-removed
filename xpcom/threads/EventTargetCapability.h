@@ -30,6 +30,12 @@ T
 >
 class
 MOZ_CAPABILITY
+(
+"
+event
+target
+"
+)
 EventTargetCapability
 final
 {

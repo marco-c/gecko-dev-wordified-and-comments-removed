@@ -236,9 +236,15 @@ x
 #
 define
 MOZ_CAPABILITY
+(
+x
+)
 MOZ_THREAD_ANNOTATION_ATTRIBUTE__
 (
-lockable
+capability
+(
+x
+)
 )
 #
 define

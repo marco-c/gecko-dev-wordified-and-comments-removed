@@ -114,6 +114,11 @@ detail
 {
 class
 MOZ_CAPABILITY
+(
+"
+mutex
+"
+)
 PortMutex
 :
 private

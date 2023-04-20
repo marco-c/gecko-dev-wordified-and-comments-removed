@@ -434,6 +434,11 @@ WorkerThread
 ;
 class
 MOZ_CAPABILITY
+(
+"
+mutex
+"
+)
 SharedMutex
 {
 using
@@ -446,6 +451,11 @@ Mutex
 ;
 class
 MOZ_CAPABILITY
+(
+"
+mutex
+"
+)
 RefCountedMutex
 final
 :
