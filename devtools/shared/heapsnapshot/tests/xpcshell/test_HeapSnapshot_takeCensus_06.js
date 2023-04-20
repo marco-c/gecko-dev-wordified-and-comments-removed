@@ -282,15 +282,6 @@ Pattern
 .
 NATURAL
 }
-Memory
-:
-{
-count
-:
-Pattern
-.
-NATURAL
-}
 }
 )
 .
