@@ -2219,7 +2219,7 @@ WebChannel
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2232,13 +2232,15 @@ actors
 /
 WebChannelParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2251,7 +2253,9 @@ actors
 /
 WebChannelChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :

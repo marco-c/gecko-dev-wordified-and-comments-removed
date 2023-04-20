@@ -429,11 +429,15 @@ mjs
 "
 WebChannelChild
 .
-jsm
+sys
+.
+mjs
 "
 "
 WebChannelParent
 .
-jsm
+sys
+.
+mjs
 "
 ]

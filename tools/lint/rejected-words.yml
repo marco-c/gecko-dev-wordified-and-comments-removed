@@ -3500,7 +3500,9 @@ actors
 /
 WebChannelChild
 .
-jsm
+sys
+.
+mjs
 -
 toolkit
 /
