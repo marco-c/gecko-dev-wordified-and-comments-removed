@@ -4522,8 +4522,6 @@ os
 :
 "
 Mac
--
-11
 "
 }
 properties
