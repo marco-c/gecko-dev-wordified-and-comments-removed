@@ -59,6 +59,11 @@ DoNotCheckCheckedUnsafePtrs
 {
 }
 ;
+#
+if
+__cplusplus
+<
+202002L
 static_assert
 (
 std
@@ -73,6 +78,8 @@ NoCheckTestType
 >
 )
 ;
+#
+endif
 static_assert
 (
 std
