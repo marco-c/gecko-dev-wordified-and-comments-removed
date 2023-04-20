@@ -667,7 +667,9 @@ rely
 on
 Preferences
 .
-jsm
+sys
+.
+mjs
 *
 in
 Marionette
