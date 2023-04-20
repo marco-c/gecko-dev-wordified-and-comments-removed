@@ -232,7 +232,7 @@ extension
 label
 =
 Manage
-extension
+Extension
 unified
 -
 extensions
@@ -249,7 +249,7 @@ extension
 label
 =
 Remove
-extension
+Extension
 unified
 -
 extensions
@@ -266,4 +266,4 @@ extension
 label
 =
 Report
-extension
+Extension
