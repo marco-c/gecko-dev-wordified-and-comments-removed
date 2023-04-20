@@ -194,12 +194,12 @@ format
 Usage
 :
 {
+program
 }
 [
 options
 ]
 "
-program
 )
 ;
 print
@@ -589,9 +589,9 @@ println
 (
 "
 {
+e
 }
 "
-e
 )
 ;
 print_usage
@@ -822,9 +822,9 @@ device
 available
 :
 {
+dev_info
 }
 "
-dev_info
 )
 }
 Ok
@@ -850,9 +850,9 @@ device
 unavailable
 :
 {
+dev_info
 }
 "
-dev_info
 )
 }
 Ok
@@ -879,9 +879,9 @@ using
 device
 :
 {
+dev_info
 }
 "
-dev_info
 )
 ;
 }

@@ -286,9 +286,9 @@ nullptr
 for
 property
 {
+prop_name
 }
 "
-prop_name
 )
 )
 )
@@ -336,9 +336,9 @@ type
 for
 property
 {
+prop_name
 }
 "
-prop_name
 )
 )
 )

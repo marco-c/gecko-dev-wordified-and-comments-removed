@@ -415,6 +415,13 @@ Option
 <
 Pin
 >
+pub
+alternate_rp_id
+:
+Option
+<
+String
+>
 }
 #
 [
@@ -4741,6 +4748,9 @@ default
 (
 )
 pin
+:
+None
+alternate_rp_id
 :
 None
 }

@@ -1203,6 +1203,16 @@ Option
 <
 PinAuth
 >
+pub
+(
+crate
+)
+alternate_rp_id
+:
+Option
+<
+String
+>
 }
 impl
 GetAssertion
@@ -1234,6 +1244,12 @@ pin
 Option
 <
 Pin
+>
+alternate_rp_id
+:
+Option
+<
+String
 >
 )
 -
@@ -1269,6 +1285,7 @@ pin
 pin_auth
 :
 None
+alternate_rp_id
 }
 )
 }
@@ -3914,11 +3931,11 @@ unexpected
 key
 :
 {
+k
 :
 ?
 }
 "
-k
 )
 )
 )
@@ -4394,6 +4411,7 @@ Default
 default
 (
 )
+None
 None
 )
 .
@@ -6047,6 +6065,7 @@ default
 (
 )
 None
+None
 )
 .
 expect
@@ -6530,6 +6549,7 @@ Default
 default
 (
 )
+None
 None
 )
 .

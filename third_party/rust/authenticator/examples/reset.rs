@@ -81,12 +81,12 @@ format
 Usage
 :
 {
+program
 }
 [
 options
 ]
 "
-program
 )
 ;
 print
@@ -417,9 +417,9 @@ println
 (
 "
 {
+e
 }
 "
-e
 )
 ;
 print_usage
@@ -813,9 +813,9 @@ with
 device
 :
 {
+dev_info
 }
 "
-dev_info
 )
 ;
 break

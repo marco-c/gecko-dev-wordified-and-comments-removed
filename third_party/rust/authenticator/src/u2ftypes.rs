@@ -76,11 +76,11 @@ format
 (
 "
 {
+byte
 :
 02x
 }
 "
-byte
 )
 )
 .

@@ -53,6 +53,12 @@ CTAP2_SIGN_RESULT_USER_NAME
 =
 5
 ;
+const
+uint8_t
+CTAP2_SIGN_RESULT_RP_ID_HASH
+=
+6
+;
 typedef
 struct
 {
@@ -277,6 +283,10 @@ const
 char
 *
 relying_party_id
+const
+char
+*
+alternate_relying_party_id
 const
 char
 *
