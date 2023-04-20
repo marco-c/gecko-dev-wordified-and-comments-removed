@@ -333,6 +333,10 @@ new
 )
 ;
 }
+#
+[
+automatically_derived
+]
 impl
 #
 impl_generics

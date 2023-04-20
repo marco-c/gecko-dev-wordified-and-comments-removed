@@ -125,7 +125,7 @@ version
 .
 2
 .
-0
+3
 "
 authors
 =
@@ -276,11 +276,6 @@ fuzz
 arbitrary
 /
 "
-resolver
-=
-"
-1
-"
 [
 [
 example
@@ -340,9 +335,9 @@ version
 "
 1
 .
-1
+2
 .
-6
+3
 "
 optional
 =
