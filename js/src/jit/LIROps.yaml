@@ -8714,7 +8714,7 @@ id
 BoxedValue
 num_temps
 :
-2
+3
 call_instruction
 :
 true
