@@ -157,8 +157,9 @@ ms
 ;
 }
 export
+async
 function
-downloadFile
+saveAsLocalFile
 (
 content
 fileName
@@ -178,6 +179,7 @@ text
 )
 {
 return
+null
 ;
 }
 const
@@ -195,6 +197,7 @@ content
 value
 )
 ;
+return
 DevToolsUtils
 .
 saveAs

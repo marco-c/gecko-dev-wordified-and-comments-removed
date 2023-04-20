@@ -96,6 +96,13 @@ org
 /
 svg
 "
+fill
+=
+"
+context
+-
+fill
+"
 >
 <
 path

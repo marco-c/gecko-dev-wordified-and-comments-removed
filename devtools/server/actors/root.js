@@ -330,6 +330,9 @@ true
 supportsJavascriptTracing
 :
 true
+isOverridesSupported
+:
+true
 }
 ;
 }

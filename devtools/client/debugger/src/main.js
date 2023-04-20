@@ -288,6 +288,7 @@ function
 loadInitialState
 (
 commands
+toolbox
 )
 {
 const
@@ -352,6 +353,18 @@ initialSourcesState
 (
 {
 blackboxedRanges
+isOverridesSupported
+:
+toolbox
+.
+target
+.
+getTrait
+(
+"
+isOverridesSupported
+"
+)
 }
 )
 ;
@@ -413,6 +426,9 @@ await
 loadInitialState
 (
 commands
+panel
+.
+toolbox
 )
 ;
 const
