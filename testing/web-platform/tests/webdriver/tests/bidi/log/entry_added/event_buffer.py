@@ -42,24 +42,6 @@ new_tab
 )
 :
     
-await
-bidi_session
-.
-session
-.
-unsubscribe
-(
-events
-=
-[
-"
-log
-.
-entryAdded
-"
-]
-)
-    
 expected_text
 =
 await
@@ -331,6 +313,24 @@ context
 ]
 )
     
+await
+bidi_session
+.
+session
+.
+unsubscribe
+(
+events
+=
+[
+"
+log
+.
+entryAdded
+"
+]
+)
+    
 remove_listener
 (
 )
@@ -363,29 +363,11 @@ test_console_log_cached_message_after_refresh
 (
     
 bidi_session
-wait_for_event
+subscribe_events
 new_tab
 log_type
 )
 :
-    
-await
-bidi_session
-.
-session
-.
-unsubscribe
-(
-events
-=
-[
-"
-log
-.
-entryAdded
-"
-]
-)
     
 events
 =
@@ -481,11 +463,7 @@ cached_message_2
 )
     
 await
-bidi_session
-.
-session
-.
-subscribe
+subscribe_events
 (
 events
 =
