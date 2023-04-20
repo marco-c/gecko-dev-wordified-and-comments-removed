@@ -1941,6 +1941,12 @@ PopClip
 )
 override
 ;
+bool
+RemoveAllClips
+(
+)
+override
+;
 void
 PushLayer
 (

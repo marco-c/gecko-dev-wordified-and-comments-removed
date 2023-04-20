@@ -705,6 +705,13 @@ PopClip
 override
 ;
 virtual
+bool
+RemoveAllClips
+(
+)
+override
+;
+virtual
 void
 PushLayer
 (

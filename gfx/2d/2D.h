@@ -6503,6 +6503,16 @@ DetachAllSnapshots
 =
 0
 ;
+virtual
+bool
+RemoveAllClips
+(
+)
+{
+return
+false
+;
+}
 protected
 :
 UserData
