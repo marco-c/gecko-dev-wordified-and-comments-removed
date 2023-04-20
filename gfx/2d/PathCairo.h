@@ -153,6 +153,17 @@ BackendType
 CAIRO
 ;
 }
+static
+already_AddRefed
+<
+PathBuilder
+>
+Create
+(
+FillRule
+aFillRule
+)
+;
 private
 :
 friend

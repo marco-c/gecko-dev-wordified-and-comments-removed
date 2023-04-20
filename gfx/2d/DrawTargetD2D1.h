@@ -731,7 +731,17 @@ FILL_WINDING
 )
 const
 override
+{
+return
+PathBuilderD2D
+:
+:
+Create
+(
+aFillRule
+)
 ;
+}
 virtual
 already_AddRefed
 <

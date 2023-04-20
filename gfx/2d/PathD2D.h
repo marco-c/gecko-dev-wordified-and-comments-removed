@@ -200,6 +200,17 @@ return
 mFigureActive
 ;
 }
+static
+already_AddRefed
+<
+PathBuilder
+>
+Create
+(
+FillRule
+aFillRule
+)
+;
 private
 :
 friend
