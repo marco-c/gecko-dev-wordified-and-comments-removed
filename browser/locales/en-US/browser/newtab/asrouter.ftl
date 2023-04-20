@@ -2029,9 +2029,11 @@ cookiebanner
 accept
 -
 button
+-
+v2
 =
-Dismiss
-Banners
+Reject
+Requests
 .
 accesskey
 =
