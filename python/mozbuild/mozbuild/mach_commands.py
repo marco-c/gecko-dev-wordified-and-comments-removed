@@ -7,6 +7,8 @@ unicode_literals
 import
 argparse
 import
+errno
+import
 itertools
 import
 json
@@ -30,8 +32,10 @@ import
 tempfile
 import
 time
+from
+pathlib
 import
-errno
+Path
 import
 mozbuild
 .
@@ -43,21 +47,17 @@ path
 as
 mozpath
 from
-pathlib
-import
-Path
-from
 mach
 .
 decorators
 import
 (
     
+Command
+    
 CommandArgument
     
 CommandArgumentGroup
-    
-Command
     
 SettingsProvider
     
@@ -68,18 +68,22 @@ mozbuild
 .
 base
 import
-(
-    
 BinaryNotFoundException
-    
 BuildEnvironmentNotFoundException
-    
+from
+mozbuild
+.
+base
+import
 MachCommandConditions
 as
 conditions
-    
+from
+mozbuild
+.
+base
+import
 MozbuildObject
-)
 from
 mozbuild
 .
@@ -6896,13 +6900,13 @@ True
         
 )
     
+import
+functools
+    
 from
 mozprocess
 import
 ProcessHandlerMixin
-    
-import
-functools
     
 def
 handle_line
@@ -7191,8 +7195,8 @@ devices
 .
 android_device
 import
-verify_android_device
 get_adb_path
+verify_android_device
     
 verify_android_device
 (
@@ -7756,9 +7760,9 @@ android_device
 import
 (
             
-verify_android_device
-            
 InstallIntent
+            
+verify_android_device
         
 )
         
@@ -10063,11 +10067,11 @@ android_device
 import
 (
         
-verify_android_device
+InstallIntent
         
 _get_device
         
-InstallIntent
+verify_android_device
     
 )
     
@@ -12221,8 +12225,8 @@ show_dump_stats
 from
 mozprofile
 import
-Profile
 Preferences
+Profile
     
 try
 :
@@ -14611,65 +14615,6 @@ s
 "
 %
 input
-)
-        
-return
-1
-    
-if
-not
-os
-.
-path
-.
-exists
-(
-os
-.
-path
-.
-join
-(
-command_context
-.
-topobjdir
-"
-config
-.
-status
-"
-)
-)
-:
-        
-print
-(
-            
-"
-config
-.
-status
-not
-found
-.
-Please
-run
-|
-mach
-configure
-|
-"
-            
-"
-prior
-to
-|
-mach
-repackage
-|
-.
-"
-        
 )
         
 return

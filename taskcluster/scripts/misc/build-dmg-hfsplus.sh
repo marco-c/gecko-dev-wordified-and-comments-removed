@@ -205,7 +205,7 @@ queue_base
 task
 /
 (
-python
+python3
 -
 c
 '
@@ -214,6 +214,7 @@ json
 os
 ;
 print
+(
 "
 {
 task
@@ -251,7 +252,7 @@ MOZ_FETCHES
 )
 if
 "
-libdmg
+dmg
 -
 hfsplus
 "
@@ -262,6 +263,7 @@ f
 artifact
 "
 ]
+)
 )
 )
 '
