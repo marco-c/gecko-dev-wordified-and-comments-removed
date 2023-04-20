@@ -18114,8 +18114,6 @@ return
 aKnownRectRelativeToTarget
 ;
 }
-nsIFrame
-*
 container
 =
 nsLayoutUtils
