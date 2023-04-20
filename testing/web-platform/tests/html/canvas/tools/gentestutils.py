@@ -2687,7 +2687,7 @@ write_text
 templates
 [
 '
-w3coffscreencanvas
+offscreen
 '
 ]
 %
@@ -2721,7 +2721,7 @@ write_text
 templates
 [
 '
-w3cworker
+worker
 '
 ]
 %
@@ -2756,7 +2756,7 @@ write_text
 templates
 [
 '
-w3ccanvas
+element
 '
 ]
 %
