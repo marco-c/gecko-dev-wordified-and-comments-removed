@@ -194,8 +194,11 @@ critical
 ;
 mockPressureService
 .
-sendUpdate
+startPlatformCollector
 (
+1
+.
+0
 )
 ;
 return
