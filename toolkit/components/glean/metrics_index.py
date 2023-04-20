@@ -119,14 +119,6 @@ metrics
 .
 yaml
 "
-    
-"
-xpcom
-/
-metrics
-.
-yaml
-"
 ]
 firefox_desktop_metrics
 =
