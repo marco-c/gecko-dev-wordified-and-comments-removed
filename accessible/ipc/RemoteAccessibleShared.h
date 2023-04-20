@@ -82,6 +82,13 @@ IsSearchbox
 )
 const
 ;
+nsStaticAtom
+*
+ARIARoleAtom
+(
+)
+const
+;
 virtual
 mozilla
 :
