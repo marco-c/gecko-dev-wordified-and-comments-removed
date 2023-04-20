@@ -2214,6 +2214,15 @@ cacheKey
 (
 )
 ;
+StoreIsProxyUsed
+(
+aArgs
+.
+isProxyUsed
+(
+)
+)
+;
 mRequestHead
 .
 SetHeaders

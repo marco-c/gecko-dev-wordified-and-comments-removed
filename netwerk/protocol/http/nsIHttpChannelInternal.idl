@@ -874,5 +874,13 @@ nsHttpConnectionInfo
 aInfo
 )
 ;
+[
+must_use
+]
+readonly
+attribute
+boolean
+isProxyUsed
+;
 }
 ;
