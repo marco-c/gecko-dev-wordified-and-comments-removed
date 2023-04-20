@@ -4012,14 +4012,6 @@ Length
 (
 )
 ;
-MOZ_ASSERT
-(
-aLength
->
-=
-nextFrameHeaderOffset
-)
-;
 return
 aLength
 >
