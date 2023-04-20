@@ -1483,6 +1483,12 @@ roles
 :
 SWITCH
 :
+case
+roles
+:
+:
+CHECK_MENU_ITEM
+:
 return
 [
 mozCheckboxAccessible
@@ -1494,6 +1500,12 @@ roles
 :
 :
 RADIOBUTTON
+:
+case
+roles
+:
+:
+RADIO_MENU_ITEM
 :
 return
 [
