@@ -641,7 +641,7 @@ border
 :
 2px
 inset
-ThreeDLightShadow
+ButtonBorder
 ;
 background
 -
@@ -739,7 +739,7 @@ border
 :
 2px
 inset
-ThreeDLightShadow
+ButtonBorder
 ;
 padding
 :
@@ -1435,7 +1435,7 @@ border
 -
 color
 :
-ThreeDLightShadow
+ButtonBorder
 ;
 font
 :
@@ -3079,7 +3079,7 @@ border
 :
 2px
 outset
-ThreeDLightShadow
+ButtonBorder
 ;
 background
 -
