@@ -900,7 +900,7 @@ anchored
 (
 )
 "
-failure
+dead
 state
 should
 only
@@ -1314,7 +1314,7 @@ anchored
 (
 )
 "
-failure
+dead
 state
 should
 only

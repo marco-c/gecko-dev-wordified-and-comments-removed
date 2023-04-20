@@ -1,7 +1,7 @@
 Teddy
 is
 a
-simd
+SIMD
 accelerated
 multiple
 substring
@@ -3398,7 +3398,7 @@ github
 .
 com
 /
-01org
+intel
 /
 hyperscan
 )
@@ -3410,11 +3410,12 @@ https
 :
 /
 /
-01
+www
 .
-org
-/
 hyperscan
+.
+io
+/
 )
 -
 *
@@ -3495,7 +3496,7 @@ FSTTCS
 PDF
 ]
 (
-http
+https
 :
 /
 /
@@ -3588,7 +3589,7 @@ tcs
 PDF
 ]
 (
-http
+https
 :
 /
 /
@@ -3665,7 +3666,7 @@ jda
 PDF
 ]
 (
-http
+https
 :
 /
 /
@@ -3755,7 +3756,7 @@ DOI
 PDF
 ]
 (
-http
+https
 :
 /
 /
@@ -3767,7 +3768,6 @@ unict
 .
 it
 /
-~
 faro
 /
 papers
@@ -3828,7 +3828,7 @@ pp
 PDF
 ]
 (
-http
+https
 :
 /
 /
@@ -3840,7 +3840,6 @@ unict
 .
 it
 /
-~
 faro
 /
 papers
@@ -3912,7 +3911,7 @@ Mathematics
 PDF
 ]
 (
-http
+https
 :
 /
 /
@@ -3995,7 +3994,7 @@ github
 .
 com
 /
-01org
+intel
 /
 hyperscan
 [

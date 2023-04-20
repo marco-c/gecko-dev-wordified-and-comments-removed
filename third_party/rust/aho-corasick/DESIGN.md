@@ -2499,7 +2499,7 @@ Always
 .
 state_id
 =
-trie
+dfa
 .
 next_state
 (
@@ -2508,7 +2508,7 @@ b
 )
 ;
 if
-fsm
+dfa
 .
 is_match
 (
@@ -2725,7 +2725,7 @@ a
 DFA
 is
 that
-is
+it
 uses
 more
 memory
@@ -4232,7 +4232,7 @@ search
 is
 not
 stored
-contiguous
+contiguously
 in
 memory
 or
