@@ -457,6 +457,9 @@ closeInfo
 }
 )
 ;
+[
+Throws
+]
 readonly
 attribute
 WebTransportDatagramDuplexStream

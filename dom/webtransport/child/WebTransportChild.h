@@ -74,10 +74,11 @@ CloseAll
 (
 )
 ;
-virtual
 void
 Shutdown
 (
+bool
+aClose
 )
 ;
 :

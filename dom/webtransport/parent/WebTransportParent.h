@@ -241,6 +241,12 @@ uint8_t
 &
 >
 ;
+nsCOMPtr
+<
+nsISerialEventTarget
+>
+mSocketThread
+;
 std
 :
 :
