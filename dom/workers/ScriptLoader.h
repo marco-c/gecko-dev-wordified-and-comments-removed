@@ -148,9 +148,6 @@ class
 ScriptExecutorRunnable
 ;
 class
-AbruptCancellationRunnable
-;
-class
 CachePromiseHandler
 ;
 class
@@ -179,10 +176,6 @@ nsINamed
 friend
 class
 ScriptExecutorRunnable
-;
-friend
-class
-AbruptCancellationRunnable
 ;
 friend
 class
@@ -581,11 +574,6 @@ bool
 aMutedError
 )
 ;
-void
-AbruptShutdown
-(
-)
-;
 private
 :
 ~
@@ -619,11 +607,6 @@ NS_OK
 }
 void
 TryShutdown
-(
-)
-;
-void
-DispatchAbruptShutdown
 (
 )
 ;
