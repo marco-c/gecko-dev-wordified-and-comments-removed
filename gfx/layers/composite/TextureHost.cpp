@@ -2352,6 +2352,12 @@ ref
 )
 )
 ;
+mExternalImageId
+=
+Nothing
+(
+)
+;
 }
 void
 TextureHost
