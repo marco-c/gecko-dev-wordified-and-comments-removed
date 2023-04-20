@@ -46,6 +46,12 @@ _get_env_prefix
 from
 taskgraph
 .
+generator
+import
+TaskGraphGenerator
+from
+taskgraph
+.
 parameters
 import
 Parameters
@@ -111,11 +117,6 @@ from
 actions
 import
 render_actions_json
-from
-.
-generator
-import
-TaskGraphGenerator
 from
 .
 parameters

@@ -497,7 +497,7 @@ easier
 "
     
 from
-gecko_taskgraph
+taskgraph
 .
 generator
 import

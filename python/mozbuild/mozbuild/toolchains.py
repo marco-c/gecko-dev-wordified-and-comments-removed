@@ -12,8 +12,11 @@ toolchain_task_definitions
 )
 :
     
-from
+import
 gecko_taskgraph
+    
+from
+taskgraph
 .
 generator
 import
