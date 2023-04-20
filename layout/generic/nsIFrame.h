@@ -7982,12 +7982,6 @@ IsContentDisabled
 )
 const
 ;
-bool
-IsContentVisibilityPropertyApplicable
-(
-)
-const
-;
 enum
 class
 IncludeContentVisibility
