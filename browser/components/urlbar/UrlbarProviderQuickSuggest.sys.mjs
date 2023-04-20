@@ -2045,7 +2045,9 @@ lazy
 .
 QuickSuggest
 .
-blockSuggestion
+blockedSuggestions
+.
+add
 (
 result
 .
@@ -3906,7 +3908,9 @@ lazy
 .
 QuickSuggest
 .
-isSuggestionBlocked
+blockedSuggestions
+.
+has
 (
 suggestion
 .

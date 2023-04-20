@@ -2587,7 +2587,9 @@ suggestions
 await
 QuickSuggest
 .
-blockSuggestion
+blockedSuggestions
+.
+add
 (
 suggestion
 .
@@ -2631,7 +2633,9 @@ EXPECTED_REMOTE_SETTINGS_RESULT
 await
 QuickSuggest
 .
-clearBlockedSuggestions
+blockedSuggestions
+.
+clear
 (
 )
 ;
