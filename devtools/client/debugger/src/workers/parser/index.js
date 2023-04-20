@@ -44,15 +44,12 @@ ParserDispatcher
 extends
 WorkerDispatcher
 {
-start
+constructor
 (
 jestUrl
 )
 {
-return
 super
-.
-start
 (
 jestUrl
 |

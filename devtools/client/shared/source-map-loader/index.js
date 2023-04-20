@@ -123,6 +123,7 @@ dispatcher
 new
 WorkerDispatcher
 (
+SOURCE_MAP_WORKER_URL
 )
 ;
 const
@@ -505,17 +506,6 @@ return
 rv
 ;
 }
-startSourceMapWorker
-:
-dispatcher
-.
-start
-.
-bind
-(
-dispatcher
-SOURCE_MAP_WORKER_URL
-)
 stopSourceMapWorker
 :
 dispatcher

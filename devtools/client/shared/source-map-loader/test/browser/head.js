@@ -67,7 +67,6 @@ js
 ;
 const
 {
-startSourceMapWorker
 getOriginalURLs
 getOriginalLocation
 getGeneratedLocation
@@ -76,10 +75,6 @@ clearSourceMaps
 }
 =
 SourceMapLoader
-;
-startSourceMapWorker
-(
-)
 ;
 function
 fetchFixtureSourceMap
