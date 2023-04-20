@@ -213,12 +213,6 @@ clang
 .
 py
 export
-CROSS_CCTOOLS_PATH
-=
-MOZ_FETCHES_DIR
-/
-cctools
-export
 CROSS_SYSROOT
 =
 (
@@ -236,10 +230,6 @@ export
 PATH
 =
 PATH
-:
-CROSS_CCTOOLS_PATH
-/
-bin
 :
 ORIGPWD
 /
