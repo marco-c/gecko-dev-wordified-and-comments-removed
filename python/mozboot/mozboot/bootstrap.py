@@ -1343,16 +1343,26 @@ self
 .
 instance
 .
-ensure_fix_stacks_packages
+install_toolchain_artifact
 (
+"
+fix
+-
+stacks
+"
 )
         
 self
 .
 instance
 .
-ensure_minidump_stackwalk_packages
+install_toolchain_artifact
 (
+"
+minidump
+-
+stackwalk
+"
 )
         
 if
