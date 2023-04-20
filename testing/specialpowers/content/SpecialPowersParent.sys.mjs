@@ -7264,6 +7264,15 @@ data
 id
 ;
 let
+args
+=
+aMessage
+.
+data
+.
+args
+;
+let
 extension
 =
 this
@@ -7280,6 +7289,10 @@ extension
 .
 terminateBackground
 (
+.
+.
+.
+args
 )
 ;
 }

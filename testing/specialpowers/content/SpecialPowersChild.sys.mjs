@@ -11224,6 +11224,10 @@ tabId
 }
 terminateBackground
 (
+.
+.
+.
+args
 )
 {
 return
@@ -11236,6 +11240,7 @@ SPExtensionTerminateBackground
 "
 {
 id
+args
 }
 )
 ;
