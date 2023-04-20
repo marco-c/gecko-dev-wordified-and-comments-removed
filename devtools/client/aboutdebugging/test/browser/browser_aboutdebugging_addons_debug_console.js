@@ -331,6 +331,11 @@ popup
 .
 html
 "
+default_area
+:
+"
+navbar
+"
 }
 }
 files
@@ -561,6 +566,11 @@ other
 popup
 .
 html
+"
+default_area
+:
+"
+navbar
 "
 }
 }
@@ -1527,6 +1537,11 @@ popup
 .
 html
 "
+default_area
+:
+"
+navbar
+"
 }
 }
 files
@@ -2001,6 +2016,11 @@ default_popup
 popup
 .
 html
+"
+default_area
+:
+"
+navbar
 "
 }
 }
