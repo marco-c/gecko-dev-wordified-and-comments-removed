@@ -2524,6 +2524,8 @@ i
 )
 {
 return
+bool
+(
 (
 *
 this
@@ -2531,6 +2533,7 @@ this
 [
 i
 ]
+)
 ;
 }
 JS
@@ -2755,6 +2758,8 @@ false
 ;
 }
 return
+bool
+(
 (
 *
 p
@@ -2762,6 +2767,7 @@ p
 [
 leafIndex
 ]
+)
 ;
 }
 JS
