@@ -239,14 +239,17 @@ aBlockedString
 nsIURI
 *
 aOriginalURI
+const
 nsAString
 &
 aViolatedDirective
 uint32_t
 aViolatedPolicyIndex
+const
 nsAString
 &
 aSourceFile
+const
 nsAString
 &
 aScriptSample
