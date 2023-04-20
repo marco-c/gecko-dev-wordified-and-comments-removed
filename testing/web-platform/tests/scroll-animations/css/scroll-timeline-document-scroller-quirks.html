@@ -232,6 +232,11 @@ animation
 :
 anim
 forwards
+;
+animation
+-
+timeline
+:
 scroll
 (
 root
@@ -277,6 +282,11 @@ script
 use
 strict
 '
+;
+setup
+(
+assert_implements_animation_timeline
+)
 ;
 promise_test
 (

@@ -254,6 +254,11 @@ use
 strict
 '
 ;
+setup
+(
+assert_implements_animation_timeline
+)
+;
 promise_test
 (
 async
@@ -328,6 +333,15 @@ animation
 anim
 100s
 linear
+'
+;
+div
+.
+style
+.
+animationTimeline
+=
+'
 scroll
 (
 root
