@@ -2966,11 +2966,6 @@ childNodes
 .
 length
 ;
-let
-children
-=
-null
-;
 if
 (
 maxDepth
@@ -2980,6 +2975,7 @@ maxDepth
 0
 )
 {
+const
 children
 =
 [
@@ -3025,13 +3021,13 @@ realm
 )
 ;
 }
-}
 serialized
 .
 children
 =
 children
 ;
+}
 if
 (
 isElement
