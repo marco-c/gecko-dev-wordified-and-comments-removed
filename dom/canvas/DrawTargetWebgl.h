@@ -1212,6 +1212,9 @@ ClearCachesIfNecessary
 void
 WaitForShmem
 (
+DrawTargetWebgl
+*
+aTarget
 )
 ;
 }
@@ -2394,6 +2397,7 @@ mSharedContext
 >
 WaitForShmem
 (
+this
 )
 ;
 }

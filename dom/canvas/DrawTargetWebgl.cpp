@@ -1300,6 +1300,7 @@ mSharedContext
 >
 WaitForShmem
 (
+this
 )
 ;
 auto
@@ -18099,6 +18100,9 @@ SharedContext
 :
 WaitForShmem
 (
+DrawTargetWebgl
+*
+aTarget
 )
 {
 if
@@ -18120,7 +18124,12 @@ mWaitForShmem
 =
 false
 ;
-mCurrentTarget
+if
+(
+aTarget
+)
+{
+aTarget
 -
 >
 mProfile
@@ -18129,6 +18138,7 @@ OnReadback
 (
 )
 ;
+}
 }
 }
 void
