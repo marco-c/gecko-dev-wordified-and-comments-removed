@@ -157,6 +157,8 @@ name
 :
 build
 /
+fenix
+/
 arm64
 -
 v8a
@@ -190,6 +192,8 @@ v7a
 name
 :
 build
+/
+fenix
 /
 armeabi
 -

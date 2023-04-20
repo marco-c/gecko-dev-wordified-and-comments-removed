@@ -182,6 +182,8 @@ public
 /
 build
 /
+fenix
+/
 {
 architecture
 }
