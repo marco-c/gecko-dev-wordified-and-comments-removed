@@ -3,6 +3,11 @@ UNIFIED_SOURCES
 =
 [
 "
+TestBackgroundThreadPrincipal
+.
+cpp
+"
+"
 TestNullPrincipalPrecursor
 .
 cpp
