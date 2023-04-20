@@ -4082,6 +4082,13 @@ source
 shoud
 throw
 exception
+canvasType
+:
+[
+'
+HTMLCanvas
+'
+]
 code
 :
 |
@@ -4771,6 +4778,13 @@ name
 drawImage
 .
 clip
+canvasType
+:
+[
+'
+HTMLCanvas
+'
+]
 images
 :
 -
