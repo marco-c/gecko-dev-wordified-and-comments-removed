@@ -3874,12 +3874,16 @@ RecordSampledResult
 apzc
 -
 >
-GetCurrentAsyncScrollOffsetInCssPixels
+GetCurrentAsyncVisualViewport
 (
 AsyncPanZoomController
 :
 :
 eForCompositing
+)
+.
+TopLeft
+(
 )
 (
 aSampleTime

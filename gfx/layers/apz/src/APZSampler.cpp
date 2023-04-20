@@ -782,7 +782,7 @@ ScrollOffsetAndRange
 apzc
 -
 >
-GetCurrentAsyncScrollOffsetInCssPixels
+GetCurrentAsyncVisualViewport
 (
 AsyncPanZoomController
 :
@@ -791,6 +791,10 @@ AsyncTransformConsumer
 :
 :
 eForCompositing
+)
+.
+TopLeft
+(
 )
 apzc
 -

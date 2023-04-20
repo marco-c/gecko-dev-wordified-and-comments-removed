@@ -2204,8 +2204,8 @@ aMode
 )
 const
 ;
-CSSPoint
-GetCurrentAsyncScrollOffsetInCssPixels
+CSSRect
+GetCurrentAsyncVisualViewport
 (
 AsyncTransformConsumer
 aMode
