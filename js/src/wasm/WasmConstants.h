@@ -1111,6 +1111,12 @@ BrOnCast
 BrOnCastFail
 =
 0x47
+ExternInternalize
+=
+0x70
+ExternExternalize
+=
+0x71
 Limit
 }
 ;
