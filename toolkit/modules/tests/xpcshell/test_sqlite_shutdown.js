@@ -40,7 +40,7 @@ AsyncShutdown
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -53,7 +53,9 @@ modules
 /
 AsyncShutdown
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

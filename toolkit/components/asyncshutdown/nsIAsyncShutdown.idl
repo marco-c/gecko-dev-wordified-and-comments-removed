@@ -95,7 +95,9 @@ rather
 use
 AsyncShutdown
 .
-jsm
+sys
+.
+mjs
 *
 which
 provides
@@ -709,7 +711,9 @@ See
 *
 AsyncShutdown
 .
-jsm
+sys
+.
+mjs
 for
 more
 information
