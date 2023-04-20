@@ -3710,6 +3710,15 @@ page
 color
 )
 ;
+-
+moz
+-
+box
+-
+layout
+:
+flex
+;
 }
 :
 root
