@@ -688,6 +688,9 @@ loadExtension
 manifest
 :
 {
+manifest_version
+:
+3
 name
 :
 "
