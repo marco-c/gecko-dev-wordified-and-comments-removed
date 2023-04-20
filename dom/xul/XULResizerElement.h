@@ -148,6 +148,15 @@ GetContentToResize
 )
 const
 ;
+Maybe
+<
+nsSize
+>
+GetCurrentSize
+(
+)
+const
+;
 struct
 SizeInfo
 {
