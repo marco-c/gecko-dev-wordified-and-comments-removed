@@ -1345,12 +1345,6 @@ RTC_GUARDED_BY
 decode_queue_
 )
 ;
-FieldTrialParameter
-<
-int
->
-maximum_pre_stream_decoders_
-;
 rtc
 :
 :
