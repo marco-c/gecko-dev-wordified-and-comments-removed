@@ -4068,6 +4068,8 @@ uri
 =
 gBrowser
 .
+selectedBrowser
+.
 currentURI
 ;
 let
