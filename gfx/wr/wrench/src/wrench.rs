@@ -1387,8 +1387,12 @@ no_subpixel_aa
 debug_flags
 enable_clear_scissor
 :
-!
 no_scissor
+.
+then_some
+(
+false
+)
 max_recorded_profiles
 :
 16
