@@ -1114,11 +1114,6 @@ buffer
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 .
 encode

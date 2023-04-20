@@ -1378,11 +1378,6 @@ encoder
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 ;
 return

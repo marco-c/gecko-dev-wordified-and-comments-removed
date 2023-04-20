@@ -285,11 +285,6 @@ test_text_byte_array
 new
 TextEncoder
 (
-'
-utf
--
-8
-'
 )
 .
 encode
@@ -829,11 +824,6 @@ mime
 new
 TextEncoder
 (
-'
-utf
--
-8
-'
 )
 .
 encode

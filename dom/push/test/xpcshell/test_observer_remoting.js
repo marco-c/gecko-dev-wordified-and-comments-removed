@@ -360,11 +360,6 @@ data
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 .
 encode

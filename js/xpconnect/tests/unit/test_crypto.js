@@ -131,11 +131,6 @@ SHA
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 .
 encode
@@ -220,11 +215,6 @@ SHA
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 .
 encode

@@ -42,11 +42,6 @@ ENCRYPT_INFO
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 .
 encode
@@ -66,11 +61,6 @@ NONCE_INFO
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 .
 encode
@@ -550,11 +540,6 @@ return
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 .
 encode

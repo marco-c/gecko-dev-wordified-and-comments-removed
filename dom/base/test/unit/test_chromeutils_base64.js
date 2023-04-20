@@ -322,11 +322,6 @@ textEncoder
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 ;
 for
@@ -667,11 +662,6 @@ textEncoder
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 ;
 for

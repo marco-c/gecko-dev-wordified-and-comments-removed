@@ -252,11 +252,6 @@ utf8
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 .
 encode

@@ -1551,11 +1551,6 @@ encoder
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 ;
 filter
@@ -1943,11 +1938,6 @@ encoder
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 ;
 let

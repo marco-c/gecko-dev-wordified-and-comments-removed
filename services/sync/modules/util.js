@@ -2850,11 +2850,6 @@ utf8Encoder
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 )
 ;

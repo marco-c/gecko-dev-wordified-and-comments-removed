@@ -103,11 +103,6 @@ encoded
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 .
 encode
@@ -1582,7 +1577,6 @@ encoding
 new
 TextEncoder
 (
-encoding
 )
 .
 encode
@@ -2110,11 +2104,6 @@ ascii_encoded
 new
 TextEncoder
 (
-"
-utf
--
-8
-"
 )
 .
 encode
