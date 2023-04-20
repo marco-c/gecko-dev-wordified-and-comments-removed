@@ -73,13 +73,11 @@ resource
 /
 devtools
 /
-server
-/
-actors
+shared
 /
 network
 -
-monitor
+observer
 /
 NetworkObserver
 .

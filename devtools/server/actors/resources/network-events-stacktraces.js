@@ -88,15 +88,11 @@ resource
 /
 devtools
 /
-server
-/
-actors
+shared
 /
 network
 -
-monitor
-/
-utils
+observer
 /
 NetworkUtils
 .
