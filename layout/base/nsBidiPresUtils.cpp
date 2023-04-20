@@ -9761,12 +9761,6 @@ nsBidiPresUtils
 :
 CalculateBidiClass
 (
-intl
-:
-:
-Bidi
-*
-aBidiEngine
 const
 char16_t
 *
@@ -10521,7 +10515,6 @@ subRunCount
 {
 CalculateBidiClass
 (
-aBidiEngine
 text
 lineOffset
 typeLimit
@@ -11075,7 +11068,6 @@ subRunCount
 ;
 CalculateBidiClass
 (
-aBidiEngine
 aText
 start
 aLength

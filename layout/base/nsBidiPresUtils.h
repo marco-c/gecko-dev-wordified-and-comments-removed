@@ -1272,15 +1272,6 @@ static
 void
 CalculateBidiClass
 (
-mozilla
-:
-:
-intl
-:
-:
-Bidi
-*
-aBidiEngine
 const
 char16_t
 *
