@@ -7,6 +7,7 @@ add_task
 (
 async
 function
+dragTest
 (
 )
 {
@@ -211,6 +212,7 @@ add_task
 (
 async
 function
+dragTest1Point5Zoom
 (
 )
 {
@@ -294,10 +296,10 @@ helper
 .
 dragOverlay
 (
-10
-10
-500
-500
+300
+100
+350
+150
 )
 ;
 let
@@ -386,7 +388,7 @@ Math
 .
 floor
 (
-490
+50
 *
 (
 await
@@ -453,6 +455,7 @@ add_task
 (
 async
 function
+clickOverlayResetState
 (
 )
 {
@@ -584,6 +587,7 @@ add_task
 (
 async
 function
+overlayCancelButton
 (
 )
 {
@@ -701,6 +705,7 @@ add_task
 (
 async
 function
+preserveBoxSizeWhenMovingOutOfWindowBounds
 (
 )
 {
@@ -1048,6 +1053,7 @@ add_task
 (
 async
 function
+resizeAllEdges
 (
 )
 {
@@ -1717,6 +1723,7 @@ add_task
 (
 async
 function
+resizeAllCorners
 (
 )
 {
