@@ -10,7 +10,7 @@ SyncHistory
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ settings
 /
 SyncHistory
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
