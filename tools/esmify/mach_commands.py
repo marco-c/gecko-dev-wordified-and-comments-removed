@@ -3600,6 +3600,12 @@ target_path
 "
 w
 "
+newline
+=
+"
+\
+n
+"
 )
 as
 f
@@ -3837,6 +3843,12 @@ target_path
 "
 w
 "
+newline
+=
+"
+\
+n
+"
 )
 as
 f
@@ -3960,7 +3972,7 @@ sys
 mjs
 and
 fix
-refereces
+references
 to
 the
 file
