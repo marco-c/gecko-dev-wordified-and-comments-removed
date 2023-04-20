@@ -330,7 +330,7 @@ format
 "
 pkcs8
 "
-pkcs8
+data
 :
 new
 Uint8Array
@@ -567,9 +567,6 @@ invalidJWKKeyData
 =
 [
 {
-data
-:
-{
 crv
 :
 "
@@ -590,7 +587,6 @@ kty
 "
 OKP
 "
-}
 }
 ]
 ;
