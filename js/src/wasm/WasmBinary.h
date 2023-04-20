@@ -4804,6 +4804,15 @@ types
 length
 (
 )
+|
+|
+uint32_t
+(
+x
+)
+>
+=
+MaxTypeIndex
 )
 {
 return
