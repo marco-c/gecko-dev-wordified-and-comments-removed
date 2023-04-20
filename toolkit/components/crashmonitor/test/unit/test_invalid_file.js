@@ -14,9 +14,11 @@ data
 "
 ;
 await
-IOUtils
+OS
 .
-writeUTF8
+File
+.
+writeAtomic
 (
 sessionCheckpointsPath
 data
