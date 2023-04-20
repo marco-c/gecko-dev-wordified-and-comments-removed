@@ -69,10 +69,6 @@ PFileSystemWritableFileStreamChild
 >
 AllocPFileSystemWritableFileStreamChild
 (
-const
-FileDescriptor
-&
-aFileDescriptor
 )
 ;
 :
