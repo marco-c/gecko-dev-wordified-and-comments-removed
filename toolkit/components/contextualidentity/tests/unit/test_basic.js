@@ -17,7 +17,7 @@ ContextualIdentityService
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -30,9 +30,7 @@ modules
 /
 ContextualIdentityService
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
