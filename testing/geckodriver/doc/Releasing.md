@@ -156,6 +156,7 @@ Cargo
 .
 toml
 :
+cargo
 [
 dependencies
 ]
@@ -449,6 +450,7 @@ do
 that
 run
 :
+shell
 %
 .
 /
@@ -806,6 +808,7 @@ can
 be
 used
 :
+shell
 %
 hg
 log
@@ -1163,6 +1166,7 @@ the
 version
 number
 run
+shell
 %
 .
 /
@@ -1440,6 +1444,7 @@ publish
 the
 crate
 :
+shell
 %
 cargo
 publish
@@ -1481,6 +1486,7 @@ canonical
 GitHub
 repository
 is
+<
 https
 :
 /
@@ -1494,6 +1500,7 @@ mozilla
 geckodriver
 .
 git
+>
 so
 make
 sure
@@ -1586,12 +1593,14 @@ mozilla
 -
 central
 :
+shell
 %
 hg
 update
 RELEASE_REVISION
 Or
 :
+shell
 %
 git
 checkout
@@ -1634,6 +1643,7 @@ a
 pull
 request
 :
+shell
 %
 cd
 SRC
@@ -1688,6 +1698,7 @@ correctly
 by
 running
 :
+shell
 %
 cargo
 build
@@ -1784,6 +1795,7 @@ marked
 as
 verified
 .
+shell
 %
 git
 add
@@ -1834,6 +1846,7 @@ use
 signing
 use
 :
+shell
 %
 git
 add
@@ -1884,6 +1897,7 @@ a
 pull
 request
 :
+shell
 %
 git
 push

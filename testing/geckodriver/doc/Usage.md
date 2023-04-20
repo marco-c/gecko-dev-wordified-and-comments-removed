@@ -1,9 +1,5 @@
+#
 Usage
-=
-=
-=
-=
-=
 geckodriver
 is
 an
@@ -31,15 +27,9 @@ your
 use
 case
 .
+#
+#
 Selenium
--
--
--
--
--
--
--
--
 If
 you
 are
@@ -187,6 +177,7 @@ system
 property
 ]
 :
+java
 System
 .
 setProperty
@@ -225,6 +216,7 @@ java
 ]
 launcher
 :
+shell
 %
 java
 -
@@ -303,6 +295,7 @@ the
 PATH
 variable
 :
+shell
 %
 export
 PATH
@@ -385,6 +378,8 @@ Windows
 console
 window
 :
+shell
+%
 set
 PATH
 =
@@ -398,17 +393,9 @@ C
 bin
 \
 geckodriver
+#
+#
 Standalone
--
--
--
--
--
--
--
--
--
--
 Since
 geckodriver
 is
@@ -489,6 +476,7 @@ curl
 )
 ]
 :
+shell
 %
 geckodriver
 &
@@ -725,7 +713,6 @@ fg
 geckodriver
 ^
 C
-%
 Using
 the
 Python
@@ -734,6 +721,7 @@ wdclient
 ]
 library
 :
+python
 import
 webdriver
 with
@@ -785,6 +773,7 @@ And
 to
 run
 :
+shell
 %
 geckodriver
 &
@@ -834,7 +823,6 @@ fg
 geckodriver
 ^
 C
-%
 [
 Selenium
 ]

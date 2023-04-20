@@ -1,5 +1,5 @@
 #
-macOS
+MacOS
 notarization
 With
 the
