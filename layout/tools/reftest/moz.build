@@ -132,13 +132,6 @@ chrome
 "
 chrome
 /
-binding
-.
-xml
-"
-"
-chrome
-/
 userContent
 -
 import
