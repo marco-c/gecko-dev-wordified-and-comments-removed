@@ -358,6 +358,11 @@ absl
 :
 nullopt
 ;
+bool
+decoder_failed
+=
+false
+;
 }
 ;
 enum
