@@ -32,11 +32,4 @@ pipewire
 .
 h
 >
-#
-include
-<
-xf86drm
-.
-h
->
 }
