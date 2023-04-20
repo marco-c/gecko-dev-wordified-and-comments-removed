@@ -2312,15 +2312,6 @@ use
 std
 :
 :
-fs
-:
-:
-remove_dir_all
-;
-use
-std
-:
-:
 time
 :
 :
@@ -2355,6 +2346,9 @@ now
 (
 )
 ;
+remove_dir_all
+:
+:
 remove_dir_all
 (
 &
