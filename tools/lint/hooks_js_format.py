@@ -154,6 +154,19 @@ jsx
 .
 jsm
 "
+"
+.
+mjs
+"
+"
+sjs
+"
+"
+html
+"
+"
+xhtml
+"
 )
     
 path_list
