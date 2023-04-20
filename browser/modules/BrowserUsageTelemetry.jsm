@@ -5341,6 +5341,17 @@ profile_count
 valueToReport
 )
 ;
+Glean
+.
+browserEngagement
+.
+profileCount
+.
+set
+(
+valueToReport
+)
+;
 }
 async
 reportInstallationTelemetry
