@@ -5,6 +5,15 @@ __DEFAULT_BROWSER_AGENT_COMMON_H__
 define
 __DEFAULT_BROWSER_AGENT_COMMON_H__
 #
+include
+"
+mozilla
+/
+WinHeaderOnlyUtils
+.
+h
+"
+#
 define
 AGENT_REGKEY_NAME
 \

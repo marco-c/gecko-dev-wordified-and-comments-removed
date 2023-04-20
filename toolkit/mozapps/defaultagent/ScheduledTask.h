@@ -11,6 +11,13 @@ windows
 .
 h
 >
+#
+include
+<
+wtypes
+.
+h
+>
 HRESULT
 RegisterTask
 (

@@ -13,6 +13,11 @@ iostream
 #
 include
 <
+string
+>
+#
+include
+<
 windows
 .
 h
@@ -28,6 +33,13 @@ h
 include
 "
 common
+.
+h
+"
+#
+include
+"
+EventLog
 .
 h
 "

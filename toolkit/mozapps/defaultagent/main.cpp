@@ -28,6 +28,11 @@ h
 >
 #
 include
+<
+iostream
+>
+#
+include
 "
 nsAutoRef
 .
@@ -53,6 +58,13 @@ h
 include
 "
 common
+.
+h
+"
+#
+include
+"
+Policy
 .
 h
 "

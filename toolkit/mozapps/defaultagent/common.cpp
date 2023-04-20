@@ -7,6 +7,13 @@ h
 "
 #
 include
+"
+EventLog
+.
+h
+"
+#
+include
 <
 windows
 .
