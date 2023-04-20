@@ -490,7 +490,7 @@ aLocal
 if
 defined
 (
-MOZ_SANDBOX
+MOZ_CONTENT_TEMP_DIR
 )
 nsresult
 LoadContentProcessTempDir
@@ -551,7 +551,7 @@ false
 if
 defined
 (
-MOZ_SANDBOX
+MOZ_CONTENT_TEMP_DIR
 )
 nsCOMPtr
 <

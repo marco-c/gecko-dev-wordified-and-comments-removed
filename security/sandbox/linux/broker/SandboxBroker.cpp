@@ -357,6 +357,12 @@ aClientFd
 1
 ;
 }
+#
+if
+defined
+(
+MOZ_CONTENT_TEMP_DIR
+)
 nsCOMPtr
 <
 nsIFile
@@ -409,6 +415,8 @@ Truncate
 ;
 }
 }
+#
+endif
 }
 UniquePtr
 <
@@ -3080,6 +3088,12 @@ return
 aPathLen
 ;
 }
+#
+if
+defined
+(
+MOZ_CONTENT_TEMP_DIR
+)
 size_t
 SandboxBroker
 :
@@ -3226,6 +3240,8 @@ return
 aPathLen
 ;
 }
+#
+endif
 nsCString
 SandboxBroker
 :
@@ -3578,6 +3594,12 @@ SandboxInfo
 kPermissive
 )
 ;
+#
+if
+defined
+(
+MOZ_CONTENT_TEMP_DIR
+)
 nsCOMPtr
 <
 nsIFile
@@ -3751,6 +3773,8 @@ Truncate
 ;
 }
 }
+#
+endif
 while
 (
 true
@@ -4250,6 +4274,12 @@ pathLen
 )
 )
 ;
+#
+if
+defined
+(
+MOZ_CONTENT_TEMP_DIR
+)
 if
 (
 !
@@ -4283,6 +4313,8 @@ pathLen
 )
 ;
 }
+#
+endif
 if
 (
 !

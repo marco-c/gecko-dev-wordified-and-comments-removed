@@ -2260,6 +2260,12 @@ aProcessType
 GeckoProcessType_Content
 )
 {
+#
+if
+defined
+(
+MOZ_CONTENT_TEMP_DIR
+)
 nsCOMPtr
 <
 nsIFile
@@ -2295,6 +2301,8 @@ mTmpDirName
 )
 ;
 }
+#
+endif
 }
 else
 if

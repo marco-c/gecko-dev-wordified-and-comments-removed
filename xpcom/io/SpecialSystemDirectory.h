@@ -120,17 +120,6 @@ Win_Documents
 228
 #
 endif
-#
-if
-defined
-(
-MOZ_SANDBOX
-)
-Win_LocalAppdataLow
-=
-232
-#
-endif
 Unix_HomeDirectory
 =
 303
