@@ -127,7 +127,19 @@ Driver
 long_description
 =
 "
-See
+"
+"
+Note
+marionette_driver
+is
+no
+longer
+supported
+.
+For
+more
+information
+see
 https
 :
 /
@@ -148,6 +160,8 @@ marionette_driver
 .
 html
 "
+"
+"
     
 classifiers
 =
@@ -158,11 +172,9 @@ Development
 Status
 :
 :
-5
+7
 -
-Production
-/
-Stable
+Inactive
 "
         
 "
