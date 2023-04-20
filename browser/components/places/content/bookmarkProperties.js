@@ -2202,6 +2202,11 @@ nsINavHistoryResultNode
 .
 RESULT_TYPE_FOLDER
 }
+children
+:
+info
+.
+children
 }
 )
 ;
