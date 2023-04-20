@@ -36,6 +36,9 @@ h
 html
 -
 .
+idl
+-
+.
 jsm
 -
 .
@@ -46,6 +49,9 @@ m
 -
 .
 m4s
+-
+.
+md
 -
 .
 mjs
@@ -63,6 +69,9 @@ png
 rs
 -
 .
+rst
+-
+.
 svg
 -
 .
@@ -70,6 +79,9 @@ ttf
 -
 .
 wasm
+-
+.
+webidl
 -
 .
 xhtml
