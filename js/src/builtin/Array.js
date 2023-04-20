@@ -991,6 +991,11 @@ return
 A
 ;
 }
+SetIsInlinableLargeFunction
+(
+ArrayFilter
+)
+;
 #
 ifdef
 NIGHTLY_BUILD
@@ -1858,6 +1863,11 @@ return
 undefined
 ;
 }
+SetIsInlinableLargeFunction
+(
+ArrayFind
+)
+;
 function
 ArrayFindIndex
 (
@@ -1984,6 +1994,11 @@ return
 1
 ;
 }
+SetIsInlinableLargeFunction
+(
+ArrayFindIndex
+)
+;
 function
 ArrayCopyWithin
 (
@@ -5001,6 +5016,11 @@ return
 undefined
 ;
 }
+SetIsInlinableLargeFunction
+(
+ArrayFindLast
+)
+;
 function
 ArrayFindLastIndex
 (
@@ -5130,3 +5150,8 @@ return
 1
 ;
 }
+SetIsInlinableLargeFunction
+(
+ArrayFindLastIndex
+)
+;
