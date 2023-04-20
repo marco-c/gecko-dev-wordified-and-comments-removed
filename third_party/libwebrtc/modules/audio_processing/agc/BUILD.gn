@@ -320,14 +320,6 @@ clipping_predictor
 /
 agc2
 :
-clipping_predictor_evaluator
-"
-"
-.
-.
-/
-agc2
-:
 gain_map
 "
 "
