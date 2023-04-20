@@ -116,16 +116,6 @@ nsLeafBoxFrame
 cpp
 "
 "
-nsMenuBarFrame
-.
-cpp
-"
-"
-nsMenuBarListener
-.
-cpp
-"
-"
 nsMenuPopupFrame
 .
 cpp
