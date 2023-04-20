@@ -1,3 +1,7 @@
+include
+protocol
+PWindowsLocation
+;
 namespace
 mozilla
 {
@@ -7,6 +11,16 @@ dom
 protocol
 PWindowsUtils
 {
+manages
+PWindowsLocation
+;
+child
+:
+async
+PWindowsLocation
+(
+)
+;
 }
 ;
 }
