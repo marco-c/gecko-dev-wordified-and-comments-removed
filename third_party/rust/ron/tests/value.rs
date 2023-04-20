@@ -666,8 +666,8 @@ error
 :
 {
 Error
-ErrorCode
 Position
+SpannedError
 }
 ;
 assert_eq
@@ -725,11 +725,11 @@ Value
 )
 Err
 (
-Error
+SpannedError
 {
 code
 :
-ErrorCode
+Error
 :
 :
 Eof

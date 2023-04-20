@@ -742,9 +742,12 @@ canvas
 }
 else
 {
-unreachable
-!
+Err
 (
+crate
+:
+:
+InstanceError
 )
 }
 }

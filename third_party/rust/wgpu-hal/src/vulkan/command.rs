@@ -701,7 +701,9 @@ vk
 CommandPoolResetFlags
 :
 :
-RELEASE_RESOURCES
+default
+(
+)
 )
 ;
 }

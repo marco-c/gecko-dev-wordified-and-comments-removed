@@ -34,7 +34,7 @@ Error
 ExpressionContext
 Lexer
 Parser
-Scope
+Rule
 Span
 Token
 }
@@ -1355,7 +1355,7 @@ assert_eq
 (
 parser
 .
-scopes
+rules
 .
 last
 (
@@ -1367,11 +1367,11 @@ map
 &
 (
 ref
-scope
+rule
 _
 )
 |
-scope
+rule
 .
 clone
 (
@@ -1379,7 +1379,7 @@ clone
 )
 Some
 (
-Scope
+Rule
 :
 :
 PrimaryExpr
@@ -1955,7 +1955,7 @@ span
 =
 parser
 .
-pop_scope
+pop_rule_span
 (
 lexer
 )
@@ -3377,7 +3377,7 @@ from
 (
 parser
 .
-pop_scope
+pop_rule_span
 (
 lexer
 )

@@ -479,7 +479,7 @@ Enum
 {
 A
 (
-A
+Inner
 )
 B
 }

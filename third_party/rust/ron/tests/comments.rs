@@ -8,10 +8,10 @@ de
 {
 from_str
 Error
+Position
+SpannedError
 as
 RonErr
-ErrorCode
-Position
 }
 ;
 #
@@ -296,7 +296,7 @@ RonErr
 {
 code
 :
-ErrorCode
+Error
 :
 :
 UnclosedBlockComment
