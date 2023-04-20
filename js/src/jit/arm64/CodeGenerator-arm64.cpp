@@ -1474,6 +1474,7 @@ template
 typename
 T
 >
+static
 ARMRegister
 toWRegister
 (
@@ -1499,6 +1500,7 @@ template
 typename
 T
 >
+static
 ARMRegister
 toXRegister
 (
