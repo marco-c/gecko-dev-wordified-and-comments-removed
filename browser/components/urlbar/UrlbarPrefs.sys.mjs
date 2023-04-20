@@ -3498,6 +3498,9 @@ quickSuggestRemoteSettingsDataType
 "
 data
 "
+recordNavigationalSuggestionTelemetry
+:
+false
 weatherKeywords
 :
 null

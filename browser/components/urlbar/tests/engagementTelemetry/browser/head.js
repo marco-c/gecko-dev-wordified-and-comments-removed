@@ -470,6 +470,17 @@ async
 function
 ensureQuickSuggestInit
 (
+{
+merinoSuggestions
+=
+undefined
+config
+=
+undefined
+}
+=
+{
+}
 )
 {
 return
@@ -480,6 +491,8 @@ QuickSuggestTestUtils
 ensureQuickSuggestInit
 (
 {
+config
+merinoSuggestions
 remoteSettingsResults
 :
 [

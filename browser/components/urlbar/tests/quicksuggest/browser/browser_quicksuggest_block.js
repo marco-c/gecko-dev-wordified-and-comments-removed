@@ -323,6 +323,11 @@ ensureQuickSuggestInit
 remoteSettingsResults
 :
 REMOTE_SETTINGS_RESULTS
+config
+:
+QuickSuggestTestUtils
+.
+BEST_MATCH_CONFIG
 }
 )
 ;

@@ -6563,6 +6563,14 @@ quicksuggest
 weather
 "
 "
+dynamic
+-
+wikipedia
+"
+"
+navigational
+"
+"
 none
 "
 provider
@@ -23171,6 +23179,9 @@ wikipedia
 "
 "
 weather
+"
+"
+navigational
 "
 source
 :

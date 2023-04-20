@@ -274,6 +274,15 @@ cleanupQuickSuggest
 await
 ensureQuickSuggestInit
 (
+{
+config
+:
+lazy
+.
+QuickSuggestTestUtils
+.
+BEST_MATCH_CONFIG
+}
 )
 ;
 for
