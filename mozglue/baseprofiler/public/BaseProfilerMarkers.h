@@ -149,14 +149,6 @@ move
 (
 aOptions
 )
-profiler_active_without_feature
-(
-ProfilerFeature
-:
-:
-NoMarkerStacks
-)
-?
 :
 :
 mozilla
@@ -166,8 +158,6 @@ baseprofiler
 :
 :
 profiler_capture_backtrace_into
-:
-nullptr
 aPayloadArguments
 .
 .
