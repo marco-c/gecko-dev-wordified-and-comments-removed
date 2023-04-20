@@ -2416,7 +2416,7 @@ SessionHistory
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -2431,7 +2431,9 @@ sessionstore
 /
 SessionHistory
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -2464,7 +2466,7 @@ SessionHistory
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -2479,7 +2481,9 @@ sessionstore
 /
 SessionHistory
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
