@@ -395,11 +395,9 @@ null
 MS_PER_SEC
 )
 ;
-assert_throws_dom
+assert_throws_js
 (
-'
-NotSupportedError
-'
+TypeError
 (
 )
 =
@@ -422,11 +420,9 @@ parse
 }
 )
 ;
-assert_throws_dom
+assert_throws_js
 (
-'
-NotSupportedError
-'
+TypeError
 (
 )
 =
