@@ -183,6 +183,7 @@ JSPropertyProvider
 {
 dbgObject
 environment
+frameActorId
 inputValue
 cursor
 authorizedEvaluations
@@ -278,6 +279,9 @@ eager
 :
 true
 selectedNodeActor
+frameActor
+:
+frameActorId
 }
 webconsoleActor
 )
