@@ -847,6 +847,12 @@ GetLayoutScrollRange
 const
 ;
 nsRect
+GetUnsnappedLayoutScrollRange
+(
+)
+const
+;
+nsRect
 GetScrollRange
 (
 nscoord
