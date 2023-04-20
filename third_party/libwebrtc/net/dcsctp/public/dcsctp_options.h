@@ -87,6 +87,14 @@ max_message_size
 *
 1024
 ;
+StreamPriority
+default_stream_priority
+=
+StreamPriority
+(
+256
+)
+;
 size_t
 max_receiver_window_buffer_size
 =
