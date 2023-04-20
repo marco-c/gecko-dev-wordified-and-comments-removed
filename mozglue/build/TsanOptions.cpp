@@ -472,6 +472,13 @@ steal
 n
 "
 "
+race
+:
+tzset_internal
+\
+n
+"
+"
 thread
 :
 StartupCache
