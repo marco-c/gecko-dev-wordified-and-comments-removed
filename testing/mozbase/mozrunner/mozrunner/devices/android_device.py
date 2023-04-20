@@ -1060,8 +1060,24 @@ path
 installed
 =
 True
+            
+elif
+os
+.
+path
+.
+isfile
+(
+path
+)
+:
                 
-break
+os
+.
+remove
+(
+path
+)
         
 if
 not
