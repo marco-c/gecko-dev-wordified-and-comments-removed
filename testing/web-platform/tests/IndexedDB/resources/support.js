@@ -1157,6 +1157,14 @@ onupgradeneeded
 =
 >
 {
+if
+(
+version
+=
+=
+1
+)
+{
 request
 .
 result
@@ -1168,6 +1176,7 @@ store
 '
 )
 ;
+}
 }
 request
 .
