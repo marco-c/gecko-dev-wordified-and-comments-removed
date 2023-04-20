@@ -300,6 +300,22 @@ libc
 issue
 '
 )
+    
+print
+(
+'
+Clobber
+because
+of
+libc
++
++
+issue
+-
+take
+2
+'
+)
   
 if
 host_os
