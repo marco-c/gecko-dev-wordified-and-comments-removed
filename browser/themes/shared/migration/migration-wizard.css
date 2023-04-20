@@ -141,6 +141,12 @@ items
 :
 center
 ;
+width
+:
+fit
+-
+content
+;
 }
 button
 {
