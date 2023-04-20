@@ -545,6 +545,14 @@ metrics
 pseudo
 -
 main
+-
+new
+-
+metric
+-
+capture
+-
+emulation
 renderer_time_no_sc
 :
 type
