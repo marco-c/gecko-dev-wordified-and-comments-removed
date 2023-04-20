@@ -91,6 +91,7 @@ enum
 ENameValueFlag
 {
 eNameOK
+eNoNameOnPurpose
 eNameFromSubtree
 eNameFromTooltip
 }
