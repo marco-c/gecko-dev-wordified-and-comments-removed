@@ -263,9 +263,6 @@ cl
 AllowCompilerWarnings
 (
 )
-REQUIRES_UNIFIED_BUILD
-=
-True
 TEST_DIRS
 +
 =
