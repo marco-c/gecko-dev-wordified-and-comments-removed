@@ -12058,12 +12058,6 @@ uninit
 (
 )
 ;
-gUnifiedExtensions
-.
-uninit
-(
-)
-;
 try
 {
 gBrowser
