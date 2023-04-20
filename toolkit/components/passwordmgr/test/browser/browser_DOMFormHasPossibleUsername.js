@@ -743,7 +743,7 @@ task
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -937,7 +937,7 @@ task
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -1144,7 +1144,7 @@ task
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

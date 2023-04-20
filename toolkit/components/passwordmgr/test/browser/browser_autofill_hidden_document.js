@@ -381,7 +381,7 @@ FormProcessed
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab1
 .
@@ -505,7 +505,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab1
 .
@@ -1018,7 +1018,7 @@ FormProcessed
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab1
 .

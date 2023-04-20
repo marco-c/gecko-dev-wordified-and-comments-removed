@@ -201,7 +201,7 @@ file
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

@@ -504,7 +504,7 @@ browser
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 secondLocation
@@ -935,7 +935,7 @@ browser
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 secondLocation
@@ -2860,7 +2860,7 @@ browser
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 SECOND_PAGE_URL

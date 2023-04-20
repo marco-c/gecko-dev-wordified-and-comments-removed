@@ -125,7 +125,7 @@ expectedPayloadReady
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

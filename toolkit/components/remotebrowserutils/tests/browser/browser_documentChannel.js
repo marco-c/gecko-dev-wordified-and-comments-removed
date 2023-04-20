@@ -838,7 +838,7 @@ true
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 target

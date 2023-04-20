@@ -591,7 +591,7 @@ length
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

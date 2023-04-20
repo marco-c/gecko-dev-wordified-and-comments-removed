@@ -933,7 +933,7 @@ E10S_PARENT_TEST_PAGE_URI
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 E10S_PARENT_TEST_PAGE_URI

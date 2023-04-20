@@ -280,7 +280,7 @@ async
 >
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 target
@@ -831,7 +831,7 @@ start
 return
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 _browser
 start
@@ -1115,7 +1115,7 @@ async
 >
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 target
@@ -1183,7 +1183,7 @@ async
 >
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 target
@@ -1251,7 +1251,7 @@ async
 >
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 target
@@ -1323,7 +1323,7 @@ async
 >
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 target

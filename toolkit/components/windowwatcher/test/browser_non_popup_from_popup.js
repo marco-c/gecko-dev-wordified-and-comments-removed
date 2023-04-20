@@ -166,7 +166,7 @@ OPEN_PAGE
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 POPUP_OPENER

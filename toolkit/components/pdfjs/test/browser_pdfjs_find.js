@@ -648,7 +648,7 @@ webpage
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

@@ -874,7 +874,7 @@ status
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

@@ -247,7 +247,7 @@ onVisits
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

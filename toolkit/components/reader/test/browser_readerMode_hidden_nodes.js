@@ -245,7 +245,7 @@ complete
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

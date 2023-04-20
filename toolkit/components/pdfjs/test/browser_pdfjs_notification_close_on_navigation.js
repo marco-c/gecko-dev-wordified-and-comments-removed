@@ -175,7 +175,7 @@ fallback
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

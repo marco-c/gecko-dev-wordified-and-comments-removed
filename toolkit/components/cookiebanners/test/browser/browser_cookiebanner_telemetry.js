@@ -337,7 +337,7 @@ testInTop
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 page
@@ -348,7 +348,7 @@ else
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TEST_ORIGIN_C
@@ -2137,7 +2137,7 @@ optIn
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -2430,7 +2430,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

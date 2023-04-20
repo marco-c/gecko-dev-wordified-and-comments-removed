@@ -200,7 +200,7 @@ menu_copy_disabled
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -359,7 +359,7 @@ closeMenu
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -523,7 +523,7 @@ closeMenu
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -721,7 +721,7 @@ closeMenu
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

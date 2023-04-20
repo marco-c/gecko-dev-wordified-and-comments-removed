@@ -809,7 +809,7 @@ browser
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 SECOND_TEST_URL

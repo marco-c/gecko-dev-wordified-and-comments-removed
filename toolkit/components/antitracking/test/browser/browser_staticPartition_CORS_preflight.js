@@ -467,7 +467,7 @@ cache
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

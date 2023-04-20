@@ -2343,7 +2343,7 @@ else
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 uri

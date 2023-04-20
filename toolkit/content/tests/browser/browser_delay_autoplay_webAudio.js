@@ -159,7 +159,7 @@ blank
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

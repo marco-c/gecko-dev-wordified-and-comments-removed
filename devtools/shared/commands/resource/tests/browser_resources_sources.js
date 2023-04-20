@@ -969,7 +969,7 @@ resources
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
