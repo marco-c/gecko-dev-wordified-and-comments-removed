@@ -340,6 +340,14 @@ securityInfo
 .
 cipherName
 ;
+info
+.
+secretKeyLength
+=
+securityInfo
+.
+secretKeyLength
+;
 if
 (
 securityInfo
