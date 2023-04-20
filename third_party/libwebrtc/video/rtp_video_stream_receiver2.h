@@ -725,12 +725,6 @@ buffering_allowed
 override
 ;
 bool
-IsUlpfecEnabled
-(
-)
-const
-;
-bool
 IsDecryptable
 (
 )
