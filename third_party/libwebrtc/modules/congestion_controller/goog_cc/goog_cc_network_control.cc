@@ -2390,11 +2390,11 @@ send_time
 TimeDelta
 min_pending_time
 =
+max_recv_time
+-
 feedback
 .
 receive_time
--
-max_recv_time
 ;
 TimeDelta
 propagation_rtt
