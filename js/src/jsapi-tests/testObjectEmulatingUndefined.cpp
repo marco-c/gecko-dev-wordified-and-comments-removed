@@ -103,10 +103,8 @@ JS_InitClass
 cx
 global
 nullptr
-nullptr
-"
-ObjectEmulatingUndefined
-"
+&
+ObjectEmulatingUndefinedClass
 ObjectEmulatingUndefinedConstructor
 0
 nullptr
@@ -295,10 +293,8 @@ JS_InitClass
 cx
 global
 nullptr
-nullptr
-"
-ObjectEmulatingUndefined
-"
+&
+ObjectEmulatingUndefinedClass
 ObjectEmulatingUndefinedConstructor
 0
 nullptr

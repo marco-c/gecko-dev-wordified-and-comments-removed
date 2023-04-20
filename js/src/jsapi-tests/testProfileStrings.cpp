@@ -453,10 +453,8 @@ JS_InitClass
 cx
 global
 nullptr
-nullptr
-"
-Prof
-"
+&
+ptestClass
 Prof
 0
 nullptr

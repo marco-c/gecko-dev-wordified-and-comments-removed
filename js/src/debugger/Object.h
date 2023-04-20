@@ -1229,6 +1229,12 @@ promiseTimeToResolution
 )
 const
 ;
+bool
+isInstance
+(
+)
+const
+;
 Debugger
 *
 owner
