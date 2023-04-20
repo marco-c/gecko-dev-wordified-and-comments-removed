@@ -4130,9 +4130,9 @@ recordNew
 .
 catch
 (
-console
+Cu
 .
-error
+reportError
 )
 ;
 }
@@ -4159,9 +4159,9 @@ aSubscriptionUri
 .
 catch
 (
-console
+Cu
 .
-error
+reportError
 )
 ;
 }

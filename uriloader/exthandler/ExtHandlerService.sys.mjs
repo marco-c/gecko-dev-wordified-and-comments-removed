@@ -730,9 +730,9 @@ catch
 ex
 )
 {
-console
+Cu
 .
-error
+reportError
 (
 ex
 )
@@ -2075,9 +2075,9 @@ catch
 ex
 )
 {
-console
+Cu
 .
-error
+reportError
 (
 ex
 )
@@ -2156,9 +2156,9 @@ false
 .
 catch
 (
-console
+Cu
 .
-error
+reportError
 )
 ;
 }
@@ -2343,9 +2343,9 @@ _ensureStoreInitialized
 .
 catch
 (
-console
+Cu
 .
-error
+reportError
 )
 ;
 }

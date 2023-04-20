@@ -637,9 +637,9 @@ exception
 ex
 )
 ;
-console
+Cu
 .
-error
+reportError
 (
 ex
 )
@@ -1354,9 +1354,9 @@ catch
 e
 )
 {
-console
+Cu
 .
-error
+reportError
 (
 e
 )
