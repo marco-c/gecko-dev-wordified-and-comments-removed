@@ -70,6 +70,13 @@ ws2ipdef
 :
 SOCKADDR_IN6_LH_u
 ;
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 SockAddr
