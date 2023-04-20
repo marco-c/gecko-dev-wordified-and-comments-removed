@@ -589,7 +589,6 @@ frontend
 ExtensibleCompilationStencil
 >
 (
-cx
 stencil
 -
 >
