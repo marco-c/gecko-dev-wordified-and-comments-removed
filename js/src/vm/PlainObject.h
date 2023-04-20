@@ -112,7 +112,7 @@ JS
 :
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -142,7 +142,7 @@ JS
 :
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -280,7 +280,7 @@ optimized
 )
 ;
 extern
-Shape
+SharedShape
 *
 ThisShapeForFunction
 (

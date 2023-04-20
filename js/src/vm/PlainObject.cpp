@@ -108,7 +108,7 @@ Rooted
 ;
 static
 MOZ_ALWAYS_INLINE
-Shape
+SharedShape
 *
 GetPlainObjectShapeWithProto
 (
@@ -183,7 +183,7 @@ nfixed
 )
 ;
 }
-Shape
+SharedShape
 *
 js
 :
@@ -276,7 +276,7 @@ NewObjectGCKind
 (
 )
 ;
-Shape
+SharedShape
 *
 res
 ;
@@ -586,7 +586,7 @@ asShared
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -650,7 +650,7 @@ shape
 )
 ;
 }
-Shape
+SharedShape
 *
 GlobalObject
 :
@@ -677,7 +677,7 @@ kind
 ;
 HeapPtr
 <
-Shape
+SharedShape
 *
 >
 &
@@ -723,7 +723,7 @@ getObjectPrototype
 (
 )
 ;
-Shape
+SharedShape
 *
 shape
 =
@@ -804,7 +804,7 @@ allocKind
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -864,7 +864,7 @@ newKind
 {
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -984,7 +984,7 @@ allocKind
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -1075,7 +1075,7 @@ newKind
 }
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -1415,7 +1415,7 @@ newPlainObjectWithPropsCache
 ;
 if
 (
-Shape
+SharedShape
 *
 shape
 =
@@ -1430,7 +1430,7 @@ nproperties
 {
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shapeRoot

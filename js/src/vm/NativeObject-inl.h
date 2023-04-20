@@ -2401,7 +2401,7 @@ js
 :
 Handle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -2502,10 +2502,6 @@ slotSpan
 shape
 -
 >
-asShared
-(
-)
-.
 slotSpan
 (
 )

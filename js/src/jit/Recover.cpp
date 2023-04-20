@@ -9985,7 +9985,7 @@ const
 {
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -10006,6 +10006,10 @@ as
 <
 Shape
 >
+(
+)
+.
+asShared
 (
 )
 )
@@ -11107,7 +11111,7 @@ CallObject
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -11116,7 +11120,7 @@ cx
 templateObj
 -
 >
-shape
+sharedShape
 (
 )
 )

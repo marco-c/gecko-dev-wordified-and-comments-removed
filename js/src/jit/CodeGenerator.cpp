@@ -41718,7 +41718,7 @@ JSContext
 *
 Handle
 <
-Shape
+SharedShape
 *
 >
 gc
@@ -42386,7 +42386,7 @@ JSContext
 *
 Handle
 <
-Shape
+SharedShape
 *
 >
 )
@@ -42412,7 +42412,7 @@ ImmGCPtr
 templateObj
 -
 >
-shape
+sharedShape
 (
 )
 )

@@ -656,7 +656,7 @@ PlainObjectSlotsKind
 Limit
 HeapPtr
 <
-Shape
+SharedShape
 *
 >
 >
@@ -5026,7 +5026,7 @@ cx
 )
 ;
 static
-Shape
+SharedShape
 *
 getPlainObjectShapeWithDefaultProto
 (
@@ -5048,7 +5048,7 @@ PlainObjectSlotsKindFromAllocKind
 kind
 )
 ;
-Shape
+SharedShape
 *
 shape
 =
@@ -5090,7 +5090,7 @@ kind
 ;
 }
 static
-Shape
+SharedShape
 *
 createPlainObjectShapeWithDefaultProto
 (

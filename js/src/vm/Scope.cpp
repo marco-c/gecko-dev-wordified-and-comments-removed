@@ -519,7 +519,7 @@ ScopeKind
 )
 ;
 }
-Shape
+SharedShape
 *
 js
 :
@@ -671,7 +671,7 @@ objectFlags
 )
 ;
 }
-Shape
+SharedShape
 *
 js
 :
@@ -1588,7 +1588,7 @@ Scope
 enclosing
 Handle
 <
-Shape
+SharedShape
 *
 >
 envShape
@@ -1634,7 +1634,7 @@ Scope
 enclosing
 Handle
 <
-Shape
+SharedShape
 *
 >
 envShape
@@ -3279,7 +3279,7 @@ envShape
 )
 ;
 }
-Shape
+SharedShape
 *
 LexicalScope
 :
@@ -8609,7 +8609,7 @@ BaseScopeData
 scopeData
 MutableHandle
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -9167,7 +9167,7 @@ nullptr
 }
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape

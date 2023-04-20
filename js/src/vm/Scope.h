@@ -1661,7 +1661,7 @@ kind_
 const
 HeapPtr
 <
-Shape
+SharedShape
 *
 >
 environmentShape_
@@ -1680,7 +1680,7 @@ kind
 Scope
 *
 enclosing
-Shape
+SharedShape
 *
 environmentShape
 )
@@ -1721,7 +1721,7 @@ Scope
 enclosing
 Handle
 <
-Shape
+SharedShape
 *
 >
 envShape
@@ -1805,7 +1805,7 @@ Scope
 enclosing
 Handle
 <
-Shape
+SharedShape
 *
 >
 envShape
@@ -1974,7 +1974,7 @@ ScopeKind
 StrictNamedLambda
 ;
 }
-Shape
+SharedShape
 *
 environmentShape
 (
@@ -2624,7 +2624,7 @@ nextFrameSlot
 ;
 }
 static
-Shape
+SharedShape
 *
 getEmptyExtensibleEnvironmentShape
 (
@@ -2908,7 +2908,7 @@ nextFrameSlot
 ;
 }
 static
-Shape
+SharedShape
 *
 getEmptyExtensibleEnvironmentShape
 (
@@ -6691,7 +6691,7 @@ jsbytecode
 pc
 )
 ;
-Shape
+SharedShape
 *
 EmptyEnvironmentShape
 (
@@ -6713,7 +6713,7 @@ template
 class
 T
 >
-Shape
+SharedShape
 *
 EmptyEnvironmentShape
 (
@@ -6959,7 +6959,7 @@ kind
 )
 ;
 }
-Shape
+SharedShape
 *
 environmentShape
 (
@@ -7459,7 +7459,7 @@ kind
 )
 ;
 }
-Shape
+SharedShape
 *
 environmentShape
 (
@@ -7559,7 +7559,7 @@ operator
 }
 }
 ;
-Shape
+SharedShape
 *
 CreateEnvironmentShape
 (
@@ -7579,7 +7579,7 @@ ObjectFlags
 objectFlags
 )
 ;
-Shape
+SharedShape
 *
 EmptyEnvironmentShape
 (

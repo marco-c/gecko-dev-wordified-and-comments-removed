@@ -1506,7 +1506,7 @@ Indexed
 ;
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -1802,7 +1802,7 @@ nullptr
 }
 Rooted
 <
-Shape
+SharedShape
 *
 >
 shape
@@ -1811,7 +1811,7 @@ cx
 templateObj
 -
 >
-shape
+sharedShape
 (
 )
 )
