@@ -231,13 +231,13 @@ ComputedStyle
 aStyle
 )
 ;
-virtual
 void
 SetInitialChildList
 (
 ChildListID
 aListID
 nsFrameList
+&
 &
 aChildList
 )

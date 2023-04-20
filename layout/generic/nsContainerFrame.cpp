@@ -429,6 +429,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aChildList
 )
 {

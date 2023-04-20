@@ -204,13 +204,13 @@ nsRect
 aDirtyRect
 )
 ;
-virtual
 void
 SetInitialChildList
 (
 ChildListID
 aListID
 nsFrameList
+&
 &
 aChildList
 )

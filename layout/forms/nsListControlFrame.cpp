@@ -2670,6 +2670,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aChildList
 )
 {
@@ -2712,7 +2713,13 @@ nsHTMLScrollFrame
 SetInitialChildList
 (
 aListID
+std
+:
+:
+move
+(
 aChildList
+)
 )
 ;
 }

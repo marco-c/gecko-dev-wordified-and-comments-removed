@@ -317,6 +317,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aChildList
 )
 {
@@ -360,7 +361,13 @@ nsBoxFrame
 SetInitialChildList
 (
 aListID
+std
+:
+:
+move
+(
 aChildList
+)
 )
 ;
 }

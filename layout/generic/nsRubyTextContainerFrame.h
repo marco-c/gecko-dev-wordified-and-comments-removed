@@ -96,13 +96,13 @@ override
 ;
 #
 endif
-virtual
 void
 SetInitialChildList
 (
 ChildListID
 aListID
 nsFrameList
+&
 &
 aChildList
 )

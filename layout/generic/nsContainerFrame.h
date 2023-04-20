@@ -311,6 +311,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aChildList
 )
 ;

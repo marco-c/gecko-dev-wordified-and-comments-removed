@@ -566,6 +566,7 @@ SetInitialChildList
 ChildListID
 nsFrameList
 &
+&
 )
 override
 ;
