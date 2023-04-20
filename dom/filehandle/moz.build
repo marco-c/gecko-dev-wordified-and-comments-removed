@@ -69,11 +69,6 @@ IPDL_SOURCES
 =
 [
 "
-PBackgroundFileHandle
-.
-ipdl
-"
-"
 PBackgroundMutableFile
 .
 ipdl
