@@ -173,9 +173,6 @@ denoisingOn
 bool
 automaticResizeOn
 ;
-bool
-frameDroppingOn
-;
 int
 keyFrameInterval
 ;
@@ -243,9 +240,6 @@ numberOfTemporalLayers
 bool
 denoisingOn
 ;
-bool
-frameDroppingOn
-;
 int
 keyFrameInterval
 ;
@@ -305,9 +299,6 @@ other
 )
 ;
 }
-bool
-frameDroppingOn
-;
 int
 keyFrameInterval
 ;
@@ -599,14 +590,10 @@ scalability_mode_
 VideoCodecComplexity
 complexity_
 ;
-absl
-:
-:
-optional
-<
 bool
->
 frame_drop_enabled_
+=
+false
 ;
 }
 ;
