@@ -29652,7 +29652,7 @@ nsGkAtoms
 style
 )
 {
-nsAutoString
+nsString
 existingValue
 ;
 aElement
@@ -29668,6 +29668,16 @@ style
 existingValue
 )
 ;
+if
+(
+!
+existingValue
+.
+IsEmpty
+(
+)
+)
+{
 existingValue
 .
 Append
@@ -29678,6 +29688,7 @@ HTMLEditUtils
 kSpace
 )
 ;
+}
 existingValue
 .
 Append
