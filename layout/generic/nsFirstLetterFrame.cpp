@@ -325,10 +325,7 @@ MOZ_ASSERT
 aListID
 =
 =
-FrameChildListID
-:
-:
-Principal
+kPrincipalList
 "
 Principal
 child
@@ -1649,10 +1646,7 @@ parent
 >
 InsertFrames
 (
-FrameChildListID
-:
-:
-NoReflowPrincipal
+kNoReflowPrincipalList
 placeholderFrame
 nullptr
 nsFrameList

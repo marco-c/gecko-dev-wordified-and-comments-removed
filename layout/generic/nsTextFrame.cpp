@@ -6677,10 +6677,10 @@ aFrame
 >
 GetChildList
 (
-FrameChildListID
+nsIFrame
 :
 :
-Overflow
+kOverflowList
 )
 .
 FirstChild
@@ -49472,10 +49472,10 @@ parent
 >
 RemoveFrame
 (
-FrameChildListID
+nsIFrame
 :
 :
-NoReflowPrincipal
+kNoReflowPrincipalList
 aFrame
 )
 ;
@@ -49639,10 +49639,7 @@ GetParent
 >
 InsertFrames
 (
-FrameChildListID
-:
-:
-NoReflowPrincipal
+kNoReflowPrincipalList
 this
 aLineLayout
 -

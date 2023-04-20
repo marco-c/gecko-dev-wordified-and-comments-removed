@@ -4641,8 +4641,12 @@ tableFrame
 tableFrame
 -
 >
-PrincipalChildList
+GetChildList
 (
+nsIFrame
+:
+:
+kPrincipalList
 )
 .
 FirstChild

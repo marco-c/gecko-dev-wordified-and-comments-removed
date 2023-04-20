@@ -2810,10 +2810,7 @@ MOZ_ASSERT
 aListID
 =
 =
-FrameChildListID
-:
-:
-Principal
+kPrincipalList
 )
 ;
 mFrames
@@ -2871,10 +2868,7 @@ MOZ_ASSERT
 aListID
 =
 =
-FrameChildListID
-:
-:
-Principal
+kPrincipalList
 )
 ;
 mFrames
@@ -2922,10 +2916,7 @@ MOZ_ASSERT
 aListID
 =
 =
-FrameChildListID
-:
-:
-Principal
+kPrincipalList
 )
 ;
 mFrames

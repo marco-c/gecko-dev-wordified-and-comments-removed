@@ -340,7 +340,11 @@ aView
 }
 private
 :
+virtual
 mozilla
+:
+:
+layout
 :
 :
 FrameChildListID
@@ -351,10 +355,7 @@ const
 override
 {
 return
-FrameChildListID
-:
-:
-Fixed
+kFixedList
 ;
 }
 nsView

@@ -84,7 +84,10 @@ CSSOrderAwareFrameIteratorT
 nsIFrame
 *
 aContainer
-FrameChildListID
+nsIFrame
+:
+:
+ChildListID
 aListID
 ChildFilter
 aFilter
@@ -1151,7 +1154,10 @@ nsIFrame
 *
 mContainer
 ;
-FrameChildListID
+nsIFrame
+:
+:
+ChildListID
 mListID
 ;
 #

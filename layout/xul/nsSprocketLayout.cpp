@@ -129,10 +129,13 @@ ret
 emplace
 (
 aBoxFrame
-FrameChildListID
+mozilla
 :
 :
-Principal
+layout
+:
+:
+kPrincipalList
 CSSOrderAwareFrameIterator
 :
 :
