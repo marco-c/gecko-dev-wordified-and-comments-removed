@@ -178,7 +178,6 @@ renderer
 :
 :
 {
-GpuBuffer
 GpuBufferBuilder
 }
 ;
@@ -2748,10 +2747,6 @@ pub
 valid_rect
 :
 DeviceIntRect
-pub
-gpu_buffer
-:
-GpuBuffer
 }
 #
 [
