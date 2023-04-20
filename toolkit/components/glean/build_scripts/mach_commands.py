@@ -174,13 +174,13 @@ None
 )
 :
     
+import
+sys
+    
 from
 os
 import
 path
-    
-import
-sys
     
 sys
 .
@@ -205,9 +205,9 @@ pardir
 )
     
 from
-metrics_index
+pathlib
 import
-metrics_yamls
+Path
     
 from
 glean_parser
@@ -215,9 +215,9 @@ import
 data_review
     
 from
-pathlib
+metrics_index
 import
-Path
+metrics_yamls
     
 return
 data_review
@@ -316,13 +316,13 @@ None
 )
 :
     
+import
+sys
+    
 from
 os
 import
 path
-    
-import
-sys
     
 sys
 .
@@ -365,13 +365,13 @@ __file__
 )
 )
     
-import
-perf_data_review
-    
 from
 pathlib
 import
 Path
+    
+import
+perf_data_review
     
 return
 perf_data_review
@@ -1008,13 +1008,13 @@ version
 )
 :
     
+import
+textwrap
+    
 from
 pathlib
 import
 Path
-    
-import
-textwrap
     
 topsrcdir
 =

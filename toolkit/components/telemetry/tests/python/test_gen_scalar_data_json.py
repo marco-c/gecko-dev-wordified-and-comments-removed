@@ -1,8 +1,6 @@
 import
 json
 import
-mozunit
-import
 os
 import
 sys
@@ -18,6 +16,8 @@ from
 os
 import
 path
+import
+mozunit
 TELEMETRY_ROOT_PATH
 =
 path

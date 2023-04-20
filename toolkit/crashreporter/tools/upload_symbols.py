@@ -11,13 +11,13 @@ logging
 import
 os
 import
-redo
-import
-requests
-import
 shutil
 import
 sys
+import
+redo
+import
+requests
 log
 =
 logging
@@ -499,6 +499,18 @@ zst
 )
 :
         
+import
+gzip
+        
+import
+tarfile
+        
+import
+tempfile
+        
+import
+zstandard
+        
 from
 mozpack
 .
@@ -512,18 +524,6 @@ mozpack
 mozjar
 import
 JarWriter
-        
-import
-gzip
-        
-import
-tarfile
-        
-import
-tempfile
-        
-import
-zstandard
         
 def
 prepare_zip_from

@@ -1,5 +1,5 @@
 import
-mozunit
+sys
 from
 os
 import
@@ -9,7 +9,7 @@ pathlib
 import
 Path
 import
-sys
+mozunit
 FOG_ROOT_PATH
 =
 path

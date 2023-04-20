@@ -1,7 +1,7 @@
 import
 io
 import
-mozunit
+sys
 from
 os
 import
@@ -11,7 +11,7 @@ pathlib
 import
 Path
 import
-sys
+mozunit
 from
 expect_helper
 import

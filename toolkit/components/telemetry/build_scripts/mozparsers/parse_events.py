@@ -1,13 +1,13 @@
 import
 atexit
 import
-re
-import
-yaml
-import
 itertools
 import
+re
+import
 string
+import
+yaml
 from
 .
 import

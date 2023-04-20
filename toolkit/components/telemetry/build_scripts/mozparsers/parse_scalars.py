@@ -1,11 +1,11 @@
 import
+atexit
+import
 io
 import
 re
 import
 yaml
-import
-atexit
 from
 .
 import

@@ -1,3 +1,7 @@
+import
+os
+import
+sys
 from
 marionette_driver
 import
@@ -8,10 +12,6 @@ marionette_driver
 addons
 import
 Addons
-import
-os
-import
-sys
 sys
 .
 path
@@ -32,15 +32,15 @@ service_worker_testutils
 import
 (
     
-MarionetteServiceWorkerTestCase
+EXT_DIR_PATH
     
 EXT_ID
-    
-EXT_DIR_PATH
     
 PREF_BG_SW_ENABLED
     
 PREF_PERSIST_TEMP_ADDONS
+    
+MarionetteServiceWorkerTestCase
 )
 class
 PurgeExtensionServiceWorkersOnPrefDisabled

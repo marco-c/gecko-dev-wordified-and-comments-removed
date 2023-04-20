@@ -1,11 +1,11 @@
 import
-mozunit
+sys
 from
 os
 import
 path
 import
-sys
+mozunit
 FOG_ROOT_PATH
 =
 path

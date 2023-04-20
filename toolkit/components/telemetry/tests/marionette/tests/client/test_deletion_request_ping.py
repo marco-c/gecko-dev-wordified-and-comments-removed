@@ -1,12 +1,6 @@
 from
 telemetry_harness
 .
-testcase
-import
-TelemetryTestCase
-from
-telemetry_harness
-.
 ping_filters
 import
 (
@@ -17,6 +11,12 @@ DELETION_REQUEST_PING
     
 MAIN_SHUTDOWN_PING
 )
+from
+telemetry_harness
+.
+testcase
+import
+TelemetryTestCase
 class
 TestDeletionRequestPing
 (

@@ -15,12 +15,12 @@ PerfectHash
 PHFSIZE
 =
 1024
+import
+sys
 from
 mozparsers
 import
 parse_user_interactions
-import
-sys
 banner
 =
 "

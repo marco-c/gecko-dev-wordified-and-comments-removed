@@ -1,9 +1,9 @@
 import
 argparse
 import
-sys
-import
 os
+import
+sys
 try
 :
     
@@ -74,11 +74,11 @@ GenerateWebIDLBindings
 import
 (
     
+APIEntry
+    
 load_and_parse_JSONSchema
     
 set_logging_level
-    
-APIEntry
 )
 def
 get_args_and_argparser

@@ -39,10 +39,7 @@ setup
 from
 GenerateWebIDLBindings
 import
-(
-    
 load_and_parse_JSONSchema
-)
 def
 test_all_jsonschema_load_and_parse_smoketest
 (

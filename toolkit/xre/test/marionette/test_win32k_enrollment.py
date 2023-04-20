@@ -4,13 +4,13 @@ import
 absolute_import
 print_function
 from
-marionette_harness
-import
-MarionetteTestCase
-from
 contextlib
 import
 contextmanager
+from
+marionette_harness
+import
+MarionetteTestCase
 class
 ExperimentStatus
 :

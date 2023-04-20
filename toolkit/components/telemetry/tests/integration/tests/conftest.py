@@ -1,11 +1,7 @@
 import
 contextlib
 import
-mozinstall
-import
 os
-import
-pytest
 import
 re
 import
@@ -14,6 +10,10 @@ import
 textwrap
 import
 time
+import
+mozinstall
+import
+pytest
 from
 marionette_driver
 import

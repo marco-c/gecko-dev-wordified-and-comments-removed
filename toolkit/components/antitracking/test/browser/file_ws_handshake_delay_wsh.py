@@ -1,9 +1,9 @@
+import
+time
 from
 mod_pywebsocket
 import
 msgutil
-import
-time
 def
 web_socket_do_extra_handshake
 (
