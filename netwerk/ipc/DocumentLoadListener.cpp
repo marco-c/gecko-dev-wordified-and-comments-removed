@@ -2172,14 +2172,8 @@ aLoadingContext
 nsDocShellLoadState
 *
 aLoadState
-DocumentLoadListener
-*
-aDLL
 bool
 aIsDocumentLoad
-LoadInfo
-*
-aLoadInfo
 )
 {
 nsAutoCString
@@ -2963,9 +2957,7 @@ CheckRecursiveLoad
 (
 loadingContext
 aLoadState
-this
 mIsDocumentLoad
-aLoadInfo
 )
 )
 {
