@@ -4224,6 +4224,7 @@ above
 /
 [
 infallible
+setter_can_run_script
 ]
 attribute
 nsIDocShell_MetaViewportOverride
