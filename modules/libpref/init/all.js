@@ -6429,7 +6429,7 @@ mem
 .
 gc_small_heap_incremental_limit
 "
-140
+150
 )
 ;
 pref

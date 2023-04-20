@@ -134,7 +134,7 @@ SmallHeapIncrementalLimit
 =
 1
 .
-40
+50
 ;
 static
 const
