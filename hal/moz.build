@@ -274,14 +274,14 @@ UNIFIED_SOURCES
 "
 fallback
 /
-FallbackScreenConfiguration
+FallbackVibration
 .
 cpp
 "
 "
-fallback
+windows
 /
-FallbackVibration
+WindowsScreenConfiguration
 .
 cpp
 "

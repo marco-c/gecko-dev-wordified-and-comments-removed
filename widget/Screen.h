@@ -154,6 +154,15 @@ return
 mScreenOrientation
 ;
 }
+hal
+:
+:
+ScreenOrientation
+GetDefaultOrientationType
+(
+)
+const
+;
 float
 GetDPI
 (
