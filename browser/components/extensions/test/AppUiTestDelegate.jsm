@@ -1084,6 +1084,7 @@ AppUiTestInternals
 {
 awaitBrowserLoaded
 getBrowserActionWidget
+getBrowserActionWidgetId
 getPageActionButton
 getPageActionPopup
 getPanelForNode
