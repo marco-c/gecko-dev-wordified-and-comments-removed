@@ -86,8 +86,8 @@ kYV12
 kUYVY
 kMJPEG
 kNV21
-kNV12
 kBGRA
+kNV12
 }
 ;
 const
