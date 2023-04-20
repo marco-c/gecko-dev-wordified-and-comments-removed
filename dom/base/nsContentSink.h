@@ -429,6 +429,8 @@ net
 LinkHeader
 &
 aHeader
+uint64_t
+aEarlyHintPreloaderId
 )
 ;
 virtual
@@ -523,6 +525,8 @@ const
 nsAString
 &
 aReferrerPolicy
+uint64_t
+aEarlyHintPreloaderId
 )
 ;
 void

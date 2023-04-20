@@ -6046,6 +6046,7 @@ PreloadFont
 uri
 aCrossOrigin
 aReferrerPolicy
+0
 )
 ;
 }
@@ -6106,6 +6107,7 @@ PreloadFetch
 uri
 aCrossOrigin
 aReferrerPolicy
+0
 )
 ;
 }
