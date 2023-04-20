@@ -153,7 +153,7 @@ endif
 #
 define
 MAX_KEY_LEN
-512
+1024
 #
 define
 PATH_LEN

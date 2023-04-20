@@ -112,6 +112,16 @@ pubk
 ;
 extern
 unsigned
+SECKEY_PrivateKeyStrengthInBits
+(
+const
+SECKEYPrivateKey
+*
+privk
+)
+;
+extern
+unsigned
 SECKEY_SignatureLen
 (
 const
