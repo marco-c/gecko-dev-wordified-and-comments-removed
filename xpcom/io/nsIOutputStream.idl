@@ -80,6 +80,11 @@ flush
 (
 )
 ;
+void
+streamStatus
+(
+)
+;
 unsigned
 long
 write
