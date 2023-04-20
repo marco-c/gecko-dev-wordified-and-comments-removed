@@ -2609,13 +2609,9 @@ this
 #
 networkObserver
 .
-openResponses
-.
-getByChannelId
+getResponseByChannel
 (
 channel
-.
-channelId
 )
 ;
 if
@@ -2639,9 +2635,7 @@ this
 #
 networkObserver
 .
-openResponses
-.
-delete
+deleteResponseByChannel
 (
 channel
 )
