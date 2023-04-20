@@ -36,5 +36,8 @@ followOnCookies
 "
 extraAdServersRegexps
 "
+"
+adServerAttributes
+"
 ]
 }
