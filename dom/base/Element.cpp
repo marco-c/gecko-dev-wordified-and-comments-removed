@@ -19805,6 +19805,15 @@ clonedEffect
 timeline
 )
 ;
+if
+(
+!
+clonedAnimation
+)
+{
+continue
+;
+}
 clonedEffects
 -
 >
