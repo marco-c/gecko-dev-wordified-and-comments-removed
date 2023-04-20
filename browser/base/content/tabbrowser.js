@@ -1211,7 +1211,7 @@ _featureCalloutPanelId
 }
 _instantiateFeatureCalloutTour
 (
-location
+browser
 panelId
 )
 {
@@ -1257,6 +1257,7 @@ FeatureCallout
 win
 :
 window
+browser
 prefName
 :
 "
@@ -4536,7 +4537,7 @@ this
 .
 _featureCallout
 .
-_endTour
+endTour
 (
 true
 )
@@ -4576,8 +4577,6 @@ this
 _instantiateFeatureCalloutTour
 (
 newBrowser
-.
-currentURI
 newTab
 .
 linkedPanel
@@ -26879,7 +26878,7 @@ gBrowser
 .
 featureCallout
 .
-_endTour
+endTour
 (
 true
 )
@@ -26916,7 +26915,9 @@ gBrowser
 .
 instantiateFeatureCalloutTour
 (
-aLocation
+gBrowser
+.
+selectedBrowser
 gBrowser
 .
 selectedTab

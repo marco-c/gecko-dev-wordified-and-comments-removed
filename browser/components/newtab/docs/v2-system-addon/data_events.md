@@ -9483,6 +9483,11 @@ its
 dismiss
 button
 directly
+or
+pressing
+the
+Escape
+key
 .
 With
 a
@@ -9574,6 +9579,9 @@ source
 [
 "
 dismiss_button
+"
+"
+KEY_Escape
 "
 "
 PAGE_EVENT
