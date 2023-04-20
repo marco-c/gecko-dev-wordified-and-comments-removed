@@ -798,7 +798,7 @@ lazy
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 selectedBrowser
 HOME_PAGE
@@ -1326,7 +1326,7 @@ lazy
 .
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

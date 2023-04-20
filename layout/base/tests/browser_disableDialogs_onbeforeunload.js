@@ -274,7 +274,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 PAGE_URL
@@ -330,7 +330,7 @@ name
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

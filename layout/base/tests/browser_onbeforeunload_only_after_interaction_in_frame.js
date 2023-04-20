@@ -325,7 +325,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 PAGE_URL
@@ -440,7 +440,7 @@ state
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

@@ -310,7 +310,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 newWin
 .
