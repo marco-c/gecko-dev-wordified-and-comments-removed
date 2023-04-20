@@ -4583,7 +4583,7 @@ SearchSERPTelemetry
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -4595,13 +4595,15 @@ actors
 /
 SearchSERPTelemetryParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -4613,7 +4615,9 @@ actors
 /
 SearchSERPTelemetryChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :

@@ -143,7 +143,9 @@ actors
 /
 SearchSERPTelemetryChild
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
