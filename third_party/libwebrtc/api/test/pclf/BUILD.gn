@@ -784,6 +784,10 @@ deps
 [
 "
 :
+media_configuration
+"
+"
+:
 media_quality_test_params
 "
 "

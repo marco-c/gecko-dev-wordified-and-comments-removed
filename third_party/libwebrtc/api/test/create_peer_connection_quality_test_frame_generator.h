@@ -43,7 +43,9 @@ api
 /
 test
 /
-peerconnection_quality_test_fixture
+pclf
+/
+media_configuration
 .
 h
 "
@@ -66,9 +68,6 @@ FrameGeneratorInterface
 CreateSquareFrameGenerator
 (
 const
-PeerConnectionE2EQualityTestFixture
-:
-:
 VideoConfig
 &
 video_config
@@ -101,9 +100,6 @@ FrameGeneratorInterface
 CreateFromYuvFileFrameGenerator
 (
 const
-PeerConnectionE2EQualityTestFixture
-:
-:
 VideoConfig
 &
 video_config
@@ -127,16 +123,10 @@ FrameGeneratorInterface
 CreateScreenShareFrameGenerator
 (
 const
-PeerConnectionE2EQualityTestFixture
-:
-:
 VideoConfig
 &
 video_config
 const
-PeerConnectionE2EQualityTestFixture
-:
-:
 ScreenShareConfig
 &
 screen_share_config

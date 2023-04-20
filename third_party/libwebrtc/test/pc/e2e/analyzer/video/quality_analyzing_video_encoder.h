@@ -42,7 +42,9 @@ api
 /
 test
 /
-peerconnection_quality_test_fixture
+pclf
+/
+media_configuration
 .
 h
 "
@@ -173,9 +175,6 @@ absl
 :
 optional
 <
-PeerConnectionE2EQualityTestFixture
-:
-:
 EmulatedSFUConfig
 >
 >

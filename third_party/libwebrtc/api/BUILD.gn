@@ -3463,10 +3463,6 @@ create_frame_generator
 frame_generator_api
 "
 "
-:
-peer_connection_quality_test_fixture_api
-"
-"
 .
 .
 /
@@ -3481,6 +3477,13 @@ checks
 test
 :
 fileutils
+"
+"
+test
+/
+pclf
+:
+media_configuration
 "
 ]
 absl_deps

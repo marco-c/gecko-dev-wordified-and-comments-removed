@@ -63,7 +63,9 @@ api
 /
 test
 /
-peerconnection_quality_test_fixture
+pclf
+/
+media_configuration
 .
 h
 "
@@ -119,9 +121,6 @@ absl
 :
 string_view
 sender_peer_name
-PeerConnectionE2EQualityTestFixture
-:
-:
 VideoConfig
 config
 )
@@ -140,9 +139,6 @@ std
 :
 :
 string
-PeerConnectionE2EQualityTestFixture
-:
-:
 VideoConfig
 >
 >
@@ -230,9 +226,6 @@ std
 :
 :
 string
-PeerConnectionE2EQualityTestFixture
-:
-:
 VideoConfig
 >
 >

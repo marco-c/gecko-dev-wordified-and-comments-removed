@@ -58,7 +58,9 @@ api
 /
 test
 /
-peerconnection_quality_test_fixture
+pclf
+/
+media_configuration
 .
 h
 "
@@ -255,7 +257,12 @@ public
 using
 VideoConfig
 =
-PeerConnectionE2EQualityTestFixture
+:
+:
+webrtc
+:
+:
+webrtc_pc_e2e
 :
 :
 VideoConfig
@@ -407,9 +414,6 @@ absl
 string_view
 peer_name
 const
-PeerConnectionE2EQualityTestFixture
-:
-:
 VideoSubscription
 &
 subscription

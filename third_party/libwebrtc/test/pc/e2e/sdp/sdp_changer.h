@@ -75,7 +75,9 @@ api
 /
 test
 /
-peerconnection_quality_test_fixture
+pclf
+/
+media_configuration
 .
 h
 "
@@ -129,9 +131,6 @@ rtc
 ArrayView
 <
 const
-PeerConnectionE2EQualityTestFixture
-:
-:
 VideoCodecConfig
 >
 video_codecs
@@ -296,9 +295,6 @@ SessionDescriptionInterface
 >
 offer
 const
-PeerConnectionE2EQualityTestFixture
-:
-:
 VideoCodecConfig
 &
 first_codec
@@ -316,9 +312,6 @@ SessionDescriptionInterface
 >
 answer
 const
-PeerConnectionE2EQualityTestFixture
-:
-:
 VideoCodecConfig
 &
 first_codec
