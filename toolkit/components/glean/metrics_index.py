@@ -89,6 +89,18 @@ toolkit
 /
 components
 /
+crashes
+/
+metrics
+.
+yaml
+"
+    
+"
+toolkit
+/
+components
+/
 glean
 /
 metrics
@@ -304,6 +316,18 @@ gecko_pings
     
 "
 dom
+/
+pings
+.
+yaml
+"
+    
+"
+toolkit
+/
+components
+/
+crashes
 /
 pings
 .
