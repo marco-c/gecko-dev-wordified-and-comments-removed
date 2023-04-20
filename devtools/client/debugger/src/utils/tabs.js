@@ -587,13 +587,10 @@ tab
 .
 .
 tab
-sourceId
+source
 :
 null
-threadActorId
-:
-null
-sourceActorId
+sourceActor
 :
 null
 }
