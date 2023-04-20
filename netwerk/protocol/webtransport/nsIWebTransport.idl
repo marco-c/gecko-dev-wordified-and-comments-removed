@@ -194,6 +194,17 @@ getMaxDatagramSize
 (
 )
 ;
+[
+noscript
+]
+void
+retargetTo
+(
+in
+nsIEventTarget
+aTarget
+)
+;
 }
 ;
 [

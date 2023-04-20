@@ -205,6 +205,7 @@ CloseSession
 (
 uint32_t
 aStatus
+const
 nsACString
 &
 aReason
@@ -215,6 +216,7 @@ OnSessionClosed
 (
 uint32_t
 aStatus
+const
 nsACString
 &
 aReason
