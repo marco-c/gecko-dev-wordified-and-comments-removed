@@ -1469,14 +1469,6 @@ GlobalObject
 &
 )
 ;
-static
-void
-EnsureJSOracleStarted
-(
-GlobalObject
-&
-)
-;
 }
 ;
 }
