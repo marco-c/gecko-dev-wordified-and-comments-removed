@@ -156,7 +156,7 @@ FfiType
 =
 {
 {
-FFIType
+FfiType
 :
 :
 from

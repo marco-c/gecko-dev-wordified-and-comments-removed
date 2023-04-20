@@ -14,7 +14,7 @@ crate
 interface
 :
 :
-FFIType
+FfiType
 ;
 pub
 trait
@@ -116,7 +116,7 @@ self
 ffi_type
 :
 &
-FFIType
+FfiType
 )
 -
 >

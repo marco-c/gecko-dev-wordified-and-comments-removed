@@ -1,19 +1,9 @@
-uniffi_macros
+uniffi
 :
 :
 build_foreign_language_testcases
 !
 (
-[
-"
-src
-/
-geometry
-.
-udl
-"
-]
-[
 "
 tests
 /
@@ -50,6 +40,5 @@ test_geometry
 .
 swift
 "
-]
 )
 ;

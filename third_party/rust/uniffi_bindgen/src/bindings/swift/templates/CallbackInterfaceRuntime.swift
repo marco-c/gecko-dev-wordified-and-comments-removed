@@ -44,12 +44,12 @@ f
 }
 fileprivate
 typealias
-Handle
+UniFFICallbackHandle
 =
 UInt64
 fileprivate
 class
-ConcurrentHandleMap
+UniFFICallbackHandleMap
 <
 T
 >
@@ -59,7 +59,7 @@ var
 leftMap
 :
 [
-Handle
+UniFFICallbackHandle
 :
 T
 ]
@@ -72,7 +72,7 @@ var
 counter
 :
 [
-Handle
+UniFFICallbackHandle
 :
 UInt64
 ]
@@ -87,7 +87,7 @@ rightMap
 [
 ObjectIdentifier
 :
-Handle
+UniFFICallbackHandle
 ]
 =
 [
@@ -104,14 +104,14 @@ private
 var
 currentHandle
 :
-Handle
+UniFFICallbackHandle
 =
 0
 private
 let
 stride
 :
-Handle
+UniFFICallbackHandle
 =
 1
 func
@@ -123,7 +123,7 @@ T
 )
 -
 >
-Handle
+UniFFICallbackHandle
 {
 lock
 .
@@ -198,7 +198,7 @@ get
 (
 handle
 :
-Handle
+UniFFICallbackHandle
 )
 -
 >
@@ -220,7 +220,7 @@ delete
 (
 handle
 :
-Handle
+UniFFICallbackHandle
 )
 {
 remove
@@ -236,7 +236,7 @@ remove
 (
 handle
 :
-Handle
+UniFFICallbackHandle
 )
 -
 >

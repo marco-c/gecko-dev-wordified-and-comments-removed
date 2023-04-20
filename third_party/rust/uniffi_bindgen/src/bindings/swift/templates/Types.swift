@@ -135,7 +135,7 @@ function
 To
 keep
 things
-managable
+manageable
 let
 '
 s

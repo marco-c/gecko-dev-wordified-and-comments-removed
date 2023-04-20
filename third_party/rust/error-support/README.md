@@ -706,7 +706,7 @@ this
 conversion
 the
 handle_error
-!
+procedural
 macro
 can
 be

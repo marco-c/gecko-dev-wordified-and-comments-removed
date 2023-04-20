@@ -543,6 +543,12 @@ android_sdk_version
 =
 null
 ;
+i64
+?
+windows_build_number
+=
+null
+;
 }
 ;
 [

@@ -34,7 +34,7 @@ store
 mod
 sync
 ;
-uniffi_macros
+uniffi
 :
 :
 include_scaffolding

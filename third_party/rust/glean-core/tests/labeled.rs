@@ -1910,9 +1910,9 @@ format
 "
 label
 {
+i
 }
 "
-i
 )
 ;
 labeled
@@ -1970,9 +1970,9 @@ format
 "
 label
 {
+i
 }
 "
-i
 )
 ;
 assert_eq
@@ -2076,9 +2076,9 @@ format
 "
 label
 {
+i
 }
 "
-i
 )
 ;
 assert_eq
@@ -2239,9 +2239,9 @@ format
 "
 label
 {
+i
 }
 "
-i
 )
 ;
 labeled
@@ -2423,9 +2423,9 @@ format
 "
 label
 {
+i
 }
 "
-i
 )
 ;
 labeled

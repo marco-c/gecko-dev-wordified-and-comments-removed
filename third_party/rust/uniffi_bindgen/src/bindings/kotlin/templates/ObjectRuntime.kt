@@ -1550,7 +1550,7 @@ finally
 /
 This
 decrement
-aways
+always
 matches
 the
 increment

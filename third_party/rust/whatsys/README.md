@@ -156,6 +156,8 @@ io
 /
 github
 /
+actions
+/
 workflow
 /
 status
@@ -164,8 +166,14 @@ badboy
 /
 whatsys
 /
-CI
+ci
+.
+yml
 ?
+branch
+=
+main
+&
 style
 =
 flat
@@ -187,6 +195,12 @@ badboy
 whatsys
 /
 actions
+/
+workflows
+/
+ci
+.
+yml
 ?
 query
 =

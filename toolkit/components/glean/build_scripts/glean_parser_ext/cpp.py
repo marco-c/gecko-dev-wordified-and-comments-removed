@@ -33,6 +33,7 @@ jinja2
 from
 glean_parser
 import
+metrics
 util
 from
 util
@@ -320,12 +321,13 @@ name
 )
 )
 and
-suffix
-=
-=
-"
-Keys
-"
+isinstance
+(
+obj
+metrics
+.
+Event
+)
 :
                 
 return

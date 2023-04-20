@@ -238,9 +238,7 @@ None
             
 call_status
 .
-err_buf
-.
-contents
+error_buf
 .
 free
 (

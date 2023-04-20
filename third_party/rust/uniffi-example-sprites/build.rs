@@ -3,7 +3,7 @@ main
 (
 )
 {
-uniffi_build
+uniffi
 :
 :
 generate_scaffolding

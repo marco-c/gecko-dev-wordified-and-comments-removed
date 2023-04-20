@@ -119,6 +119,14 @@ system
 get_os_version
 (
 )
+windows_build_number
+:
+system
+:
+:
+get_windows_build_number
+(
+)
 architecture
 :
 system

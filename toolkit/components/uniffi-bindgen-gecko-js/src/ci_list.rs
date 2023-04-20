@@ -58,7 +58,7 @@ interface
 {
 CallbackInterface
 ComponentInterface
-FFIFunction
+FfiFunction
 Object
 }
 ;
@@ -740,7 +740,7 @@ ComponentInterface
 func
 :
 &
-FFIFunction
+FfiFunction
 )
 -
 >
@@ -787,7 +787,7 @@ ComponentInterface
 func
 :
 &
-FFIFunction
+FfiFunction
 )
 -
 >

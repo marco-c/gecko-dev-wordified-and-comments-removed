@@ -55,9 +55,9 @@ interface
 {
 CallbackInterface
 ComponentInterface
-FFIArgument
-FFIFunction
-FFIType
+FfiArgument
+FfiFunction
+FfiType
 Object
 }
 ;
@@ -289,7 +289,7 @@ self
 Vec
 <
 &
-FFIFunction
+FfiFunction
 >
 {
 let
@@ -396,7 +396,7 @@ self
 ffi_type
 :
 &
-FFIType
+FfiType
 )
 -
 >
@@ -405,7 +405,7 @@ String
 match
 ffi_type
 {
-FFIType
+FfiType
 :
 :
 RustArcPtr
@@ -463,7 +463,7 @@ self
 func
 :
 &
-FFIFunction
+FfiFunction
 )
 -
 >
@@ -593,7 +593,7 @@ FFIFunctionCppExt
 ]
 pub
 impl
-FFIFunction
+FfiFunction
 {
 fn
 nm
@@ -754,7 +754,7 @@ FFITypeCppExt
 ]
 pub
 impl
-FFIType
+FfiType
 {
 fn
 rust_type
@@ -769,7 +769,7 @@ String
 match
 self
 {
-FFIType
+FfiType
 :
 :
 UInt8
@@ -778,7 +778,7 @@ UInt8
 "
 uint8_t
 "
-FFIType
+FfiType
 :
 :
 Int8
@@ -787,7 +787,7 @@ Int8
 "
 int8_t
 "
-FFIType
+FfiType
 :
 :
 UInt16
@@ -796,7 +796,7 @@ UInt16
 "
 uint16_t
 "
-FFIType
+FfiType
 :
 :
 Int16
@@ -805,7 +805,7 @@ Int16
 "
 int16_t
 "
-FFIType
+FfiType
 :
 :
 UInt32
@@ -814,7 +814,7 @@ UInt32
 "
 uint32_t
 "
-FFIType
+FfiType
 :
 :
 Int32
@@ -823,7 +823,7 @@ Int32
 "
 int32_t
 "
-FFIType
+FfiType
 :
 :
 UInt64
@@ -832,7 +832,7 @@ UInt64
 "
 uint64_t
 "
-FFIType
+FfiType
 :
 :
 Int64
@@ -841,7 +841,7 @@ Int64
 "
 int64_t
 "
-FFIType
+FfiType
 :
 :
 Float32
@@ -850,7 +850,7 @@ Float32
 "
 float
 "
-FFIType
+FfiType
 :
 :
 Float64
@@ -859,16 +859,19 @@ Float64
 "
 double
 "
-FFIType
+FfiType
 :
 :
 RustBuffer
+(
+_
+)
 =
 >
 "
 RustBuffer
 "
-FFIType
+FfiType
 :
 :
 RustArcPtr
@@ -881,7 +884,7 @@ _
 void
 *
 "
-FFIType
+FfiType
 :
 :
 ForeignCallback
@@ -890,7 +893,7 @@ ForeignCallback
 "
 ForeignCallback
 "
-FFIType
+FfiType
 :
 :
 ForeignBytes
@@ -923,7 +926,7 @@ FFIArgumentCppExt
 ]
 pub
 impl
-FFIArgument
+FfiArgument
 {
 fn
 rust_type

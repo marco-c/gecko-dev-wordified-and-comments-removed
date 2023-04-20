@@ -7,7 +7,7 @@ Kotlin
 s
 enum
 class
-constuct
+construct
 doesn
 '
 t

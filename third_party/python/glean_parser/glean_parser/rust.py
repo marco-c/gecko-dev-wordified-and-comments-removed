@@ -708,6 +708,10 @@ generate_enums
 )
 :
         
+generic
+=
+None
+        
 for
 name
 suffix
@@ -716,7 +720,6 @@ generate_enums
 :
             
 if
-not
 len
 (
 getattr
@@ -725,38 +728,51 @@ obj
 name
 )
 )
-and
-suffix
-=
-=
-"
-Keys
-"
 :
                 
-return
-class_name
+generic
+=
+util
+.
+Camelize
 (
 obj
 .
-type
+name
 )
 +
-"
-<
-NoExtraKeys
->
-"
+suffix
             
 else
 :
                 
-suffix
+if
+isinstance
+(
+obj
+metrics
+.
+Event
+)
+:
+                    
+generic
 =
 "
-Extra
+NoExtra
 "
                 
+else
+:
+                    
+generic
+=
+"
+No
+"
++
+suffix
+        
 return
 "
 {
@@ -769,24 +785,13 @@ return
 .
 format
 (
-                    
 class_name
 (
 obj
 .
 type
 )
-util
-.
-Camelize
-(
-obj
-.
-name
-)
-+
-suffix
-                
+generic
 )
     
 return

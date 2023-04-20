@@ -252,7 +252,7 @@ ByteOrder
 %
 -
 for
-imported_class
+req
 in
 self
 .
@@ -261,10 +261,13 @@ imports
 )
 %
 }
-import
 {
 {
-imported_class
+req
+.
+render
+(
+)
 }
 }
 {

@@ -383,9 +383,9 @@ format
 r
 #
 {
+name
 }
 "
-name
 )
 Type
 :
@@ -411,10 +411,10 @@ Arc
 r
 #
 {
+name
 }
 >
 "
-name
 )
 Type
 :
@@ -435,10 +435,10 @@ dyn
 r
 #
 {
+name
 }
 >
 "
-name
 )
 Type
 :
@@ -559,9 +559,9 @@ format
 r
 #
 {
+name
 }
 "
-name
 )
 Type
 :
@@ -624,7 +624,7 @@ type_ffi
 type_
 :
 &
-FFIType
+FfiType
 )
 -
 >
@@ -642,7 +642,7 @@ Ok
 match
 type_
 {
-FFIType
+FfiType
 :
 :
 Int8
@@ -655,7 +655,7 @@ i8
 into
 (
 )
-FFIType
+FfiType
 :
 :
 UInt8
@@ -668,7 +668,7 @@ u8
 into
 (
 )
-FFIType
+FfiType
 :
 :
 Int16
@@ -681,7 +681,7 @@ i16
 into
 (
 )
-FFIType
+FfiType
 :
 :
 UInt16
@@ -694,7 +694,7 @@ u16
 into
 (
 )
-FFIType
+FfiType
 :
 :
 Int32
@@ -707,7 +707,7 @@ i32
 into
 (
 )
-FFIType
+FfiType
 :
 :
 UInt32
@@ -720,7 +720,7 @@ u32
 into
 (
 )
-FFIType
+FfiType
 :
 :
 Int64
@@ -733,7 +733,7 @@ i64
 into
 (
 )
-FFIType
+FfiType
 :
 :
 UInt64
@@ -746,7 +746,7 @@ u64
 into
 (
 )
-FFIType
+FfiType
 :
 :
 Float32
@@ -759,7 +759,7 @@ f32
 into
 (
 )
-FFIType
+FfiType
 :
 :
 Float64
@@ -772,7 +772,7 @@ f64
 into
 (
 )
-FFIType
+FfiType
 :
 :
 RustArcPtr
@@ -799,10 +799,13 @@ c_void
 into
 (
 )
-FFIType
+FfiType
 :
 :
 RustBuffer
+(
+_
+)
 =
 >
 "
@@ -815,7 +818,7 @@ RustBuffer
 into
 (
 )
-FFIType
+FfiType
 :
 :
 ForeignBytes
@@ -831,7 +834,7 @@ ForeignBytes
 into
 (
 )
-FFIType
+FfiType
 :
 :
 ForeignCallback
@@ -936,10 +939,10 @@ Arc
 r
 #
 {
+name
 }
 >
 "
-name
 )
 Type
 :
@@ -1121,9 +1124,9 @@ format
 "
 FfiConverterType
 {
+name
 }
 "
-name
 )
 }
 Type

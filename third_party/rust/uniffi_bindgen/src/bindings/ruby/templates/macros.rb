@@ -501,7 +501,7 @@ in
 the
 UniFFILib
 function
-declations
+declarations
 .
 /
 /

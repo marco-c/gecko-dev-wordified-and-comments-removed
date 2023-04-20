@@ -11,7 +11,7 @@ Eq
 ]
 pub
 enum
-FFIType
+FfiType
 {
 UInt8
 Int8
@@ -28,6 +28,12 @@ RustArcPtr
 String
 )
 RustBuffer
+(
+Option
+<
+String
+>
+)
 ForeignBytes
 ForeignCallback
 }
@@ -42,7 +48,7 @@ Clone
 ]
 pub
 struct
-FFIFunction
+FfiFunction
 {
 pub
 (
@@ -59,7 +65,7 @@ arguments
 :
 Vec
 <
-FFIArgument
+FfiArgument
 >
 pub
 (
@@ -69,11 +75,11 @@ return_type
 :
 Option
 <
-FFIType
+FfiType
 >
 }
 impl
-FFIFunction
+FfiFunction
 {
 pub
 fn
@@ -104,7 +110,7 @@ self
 Vec
 <
 &
-FFIArgument
+FfiArgument
 >
 {
 self
@@ -131,7 +137,7 @@ self
 Option
 <
 &
-FFIType
+FfiType
 >
 {
 self
@@ -153,7 +159,7 @@ Clone
 ]
 pub
 struct
-FFIArgument
+FfiArgument
 {
 pub
 (
@@ -168,10 +174,10 @@ super
 )
 type_
 :
-FFIType
+FfiType
 }
 impl
-FFIArgument
+FfiArgument
 {
 pub
 fn
@@ -199,7 +205,7 @@ self
 )
 -
 >
-FFIType
+FfiType
 {
 self
 .

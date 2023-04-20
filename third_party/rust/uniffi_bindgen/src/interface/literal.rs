@@ -28,6 +28,10 @@ derive
 (
 Debug
 Clone
+PartialEq
+Eq
+PartialOrd
+Ord
 Checksum
 )
 ]
@@ -76,6 +80,10 @@ derive
 Debug
 Clone
 Copy
+PartialEq
+Eq
+PartialOrd
+Ord
 Checksum
 )
 ]

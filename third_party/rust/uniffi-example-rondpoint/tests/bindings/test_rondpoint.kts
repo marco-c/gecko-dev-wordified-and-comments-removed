@@ -1254,7 +1254,7 @@ toStringU64
 Floats
 /
 /
-MIN_VAUE
+MIN_VALUE
 is
 1
 .
@@ -2366,7 +2366,7 @@ OptionneurDictionnaire
 (
 )
 val
-explicite
+explicites
 =
 OptionneurDictionnaire
 (
@@ -2435,7 +2435,7 @@ assert
 defaultes
 =
 =
-explicite
+explicites
 )
 /
 /

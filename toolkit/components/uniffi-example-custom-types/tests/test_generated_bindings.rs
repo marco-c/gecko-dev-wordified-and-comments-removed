@@ -1,4 +1,4 @@
-uniffi_macros
+uniffi
 :
 :
 build_foreign_language_testcases

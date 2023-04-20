@@ -555,10 +555,9 @@ generate_enums
 )
 :
         
-template_args
+generic
 =
-[
-]
+None
         
 for
 member
@@ -579,15 +578,6 @@ member
 :
                 
 if
-suffix
-=
-=
-"
-Extra
-"
-:
-                    
-if
 isinstance
 (
 obj
@@ -596,20 +586,9 @@ metrics
 Event
 )
 :
-                        
-template_args
-.
-append
-(
-"
-NoExtraKeys
-"
-)
                     
-template_args
-.
-append
-(
+generic
+=
 util
 .
 Camelize
@@ -620,15 +599,12 @@ name
 )
 +
 suffix
-)
                 
 else
 :
                     
-template_args
-.
-append
-(
+generic
+=
 util
 .
 camelize
@@ -639,8 +615,10 @@ name
 )
 +
 suffix
-)
-                    
+            
+else
+:
+                
 if
 isinstance
 (
@@ -650,59 +628,23 @@ metrics
 Event
 )
 :
-                        
-template_args
-.
-append
-(
+                    
+generic
+=
 "
 NoExtras
 "
-)
-            
-else
-:
-                
-if
-suffix
-=
-=
-"
-Keys
-"
-:
-                    
-template_args
-.
-append
-(
-"
-NoExtraKeys
-"
-)
-                    
-template_args
-.
-append
-(
-"
-NoExtras
-"
-)
                 
 else
 :
                     
-template_args
-.
-append
-(
+generic
+=
 "
 No
 "
 +
 suffix
-)
         
 return
 "
@@ -722,13 +664,7 @@ obj
 .
 type
 )
-"
-"
-.
-join
-(
-template_args
-)
+generic
 )
     
 return

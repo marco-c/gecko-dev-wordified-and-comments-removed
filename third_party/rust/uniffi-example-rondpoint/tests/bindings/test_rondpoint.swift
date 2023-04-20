@@ -1951,7 +1951,7 @@ OptionneurDictionnaire
 (
 )
 let
-explicite
+explicites
 =
 OptionneurDictionnaire
 (
@@ -2058,7 +2058,7 @@ assert
 defaultes
 =
 =
-explicite
+explicites
 )
 [
 defaultes

@@ -231,7 +231,7 @@ name
 class_name_rb
 }
 }
-intance
+instance
 got
 #
 {

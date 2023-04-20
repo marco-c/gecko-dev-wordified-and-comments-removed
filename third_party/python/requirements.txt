@@ -1079,9 +1079,9 @@ glean
 parser
 =
 =
-6
+7
 .
-4
+0
 .
 0
 \
@@ -1091,7 +1091,7 @@ hash
 =
 sha256
 :
-011c187aeb655af03a24bf1970aeac685e29a8ff1cbdfe9ccbd441bca9d7005e
+c9df09b8cbe149e840125153e0ffebda264f45cd9e51805dbc0288bf203c54ab
 \
 -
 -
@@ -1099,7 +1099,7 @@ hash
 =
 sha256
 :
-f7e53d911324710634b636a8e8f9a2d124ea874c70d29154d3fc595e56b090a3
+c48960dd6fc0dc506f54e1229ff92ed10766cc65e598e9b9c8b798be81a4ccd5
 idna
 -
 ssl

@@ -646,7 +646,7 @@ endfor
 %
 }
 }
-fileprivate
+public
 struct
 {
 {
@@ -668,6 +668,7 @@ SwiftType
 type_name
 }
 }
+public
 static
 func
 read
@@ -675,7 +676,17 @@ read
 from
 buf
 :
-Reader
+inout
+(
+data
+:
+Data
+offset
+:
+Data
+.
+Index
+)
 )
 throws
 -
@@ -692,10 +703,10 @@ v
 UInt64
 =
 try
-buf
-.
 readInt
 (
+&
+buf
 )
 /
 /
@@ -775,6 +786,7 @@ ptr
 !
 )
 }
+public
 static
 func
 write
@@ -790,7 +802,10 @@ type_name
 into
 buf
 :
-Writer
+inout
+[
+UInt8
+]
 )
 {
 /
@@ -833,10 +848,10 @@ in
 a
 UInt64
 .
-buf
-.
 writeInt
 (
+&
+buf
 UInt64
 (
 bitPattern
@@ -856,6 +871,7 @@ value
 )
 )
 }
+public
 static
 func
 lift
@@ -886,6 +902,7 @@ unsafeFromRawPointer
 pointer
 )
 }
+public
 static
 func
 lower
