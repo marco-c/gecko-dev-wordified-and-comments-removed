@@ -5856,15 +5856,6 @@ mGoawayReceived
 |
 mShouldClose
 )
-&
-&
-!
-mConnInfo
--
->
-GetWebTransport
-(
-)
 ;
 }
 void
