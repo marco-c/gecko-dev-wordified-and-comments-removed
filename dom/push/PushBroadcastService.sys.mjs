@@ -1329,7 +1329,7 @@ module
 =
 ChromeUtils
 .
-import
+importESModule
 (
 moduleURI
 )
