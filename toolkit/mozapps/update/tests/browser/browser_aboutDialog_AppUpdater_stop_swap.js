@@ -188,6 +188,13 @@ state
 :
 STATE_PENDING
 }
+expectedStateOverride
+:
+Ci
+.
+nsIApplicationUpdateService
+.
+STATE_STAGING
 }
 ]
 )
