@@ -2979,11 +2979,6 @@ create_peerconnection_factory
 "
 api
 :
-libjingle_peerconnection_api
-"
-"
-api
-:
 rtc_error
 "
 "
