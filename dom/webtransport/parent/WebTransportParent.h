@@ -76,8 +76,9 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 WebTransportParent
 override
 )
-bool
-Init
+static
+void
+Create
 (
 const
 nsAString
