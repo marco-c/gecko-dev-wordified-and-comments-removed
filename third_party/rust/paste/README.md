@@ -271,6 +271,8 @@ io
 /
 github
 /
+actions
+/
 workflow
 /
 status
@@ -279,10 +281,14 @@ dtolnay
 /
 paste
 /
-CI
-/
-master
+ci
+.
+yml
 ?
+branch
+=
+master
+&
 style
 =
 for
