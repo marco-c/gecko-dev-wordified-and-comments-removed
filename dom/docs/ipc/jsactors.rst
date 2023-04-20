@@ -5417,7 +5417,7 @@ chrome
 -
 webidl
 /
-JSWindowActor
+JSProcessActor
 .
 webidl
 .
