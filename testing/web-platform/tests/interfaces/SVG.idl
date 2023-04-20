@@ -94,10 +94,6 @@ GlobalEventHandlers
 ;
 SVGElement
 includes
-DocumentAndElementEventHandlers
-;
-SVGElement
-includes
 SVGElementInstance
 ;
 SVGElement

@@ -71,9 +71,5 @@ GlobalEventHandlers
 ;
 MathMLElement
 includes
-DocumentAndElementEventHandlers
-;
-MathMLElement
-includes
 HTMLOrSVGElement
 ;

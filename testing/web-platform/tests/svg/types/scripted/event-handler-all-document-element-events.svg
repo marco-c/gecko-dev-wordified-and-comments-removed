@@ -59,7 +59,11 @@ xhtml
 <
 title
 >
-DocumentAndElementEventHandlers
+oncopy
+/
+oncut
+/
+onpaste
 <
 /
 title
@@ -255,7 +259,7 @@ property
 name
 }
 :
-DocumentAndElementEventHandlers
+property
 must
 be
 on
