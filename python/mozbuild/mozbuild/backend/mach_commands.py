@@ -14,6 +14,19 @@ import
 subprocess
 import
 sys
+import
+mozpack
+.
+path
+as
+mozpath
+from
+mach
+.
+decorators
+import
+Command
+CommandArgument
 from
 mozbuild
 import
@@ -22,19 +35,6 @@ from
 mozfile
 import
 which
-from
-mach
-.
-decorators
-import
-CommandArgument
-Command
-import
-mozpack
-.
-path
-as
-mozpath
 Command
 (
     
@@ -831,13 +831,13 @@ return
 rc
     
 import
-multiprocessing
+difflib
     
 import
 json
     
 import
-difflib
+multiprocessing
     
 from
 mozbuild
@@ -931,6 +931,42 @@ json
 "
     
 ]
+    
+file_associations_json
+=
+{
+        
+"
+files
+.
+associations
+"
+:
+{
+            
+"
+*
+.
+jsm
+"
+:
+"
+javascript
+"
+            
+"
+*
+.
+sjs
+"
+:
+"
+javascript
+"
+        
+}
+    
+}
     
 clangd_json
 =
@@ -1311,6 +1347,9 @@ old_settings
 *
 *
 clangd_json
+*
+*
+file_associations_json
 }
         
 if
