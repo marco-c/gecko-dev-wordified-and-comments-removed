@@ -737,7 +737,7 @@ SELECTION
 migrators
 :
 FAKE_BROWSER_LIST
-withImportAll
+showImportAll
 :
 false
 }
@@ -776,7 +776,7 @@ SELECTION
 migrators
 :
 FAKE_BROWSER_LIST
-withImportAll
+showImportAll
 :
 true
 }
