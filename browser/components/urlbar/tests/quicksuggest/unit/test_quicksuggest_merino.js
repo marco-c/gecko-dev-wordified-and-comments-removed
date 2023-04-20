@@ -1596,7 +1596,7 @@ histograms
 response
 :
 "
-success
+no_suggestion
 "
 latencyRecorded
 :
