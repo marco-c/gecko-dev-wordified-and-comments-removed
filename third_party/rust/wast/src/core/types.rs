@@ -514,7 +514,7 @@ Func
 Extern
 Any
 Eq
-Data
+Struct
 Array
 I31
 Index
@@ -745,7 +745,9 @@ peek
 kw
 :
 :
-data
+r
+#
+struct
 >
 (
 )
@@ -759,7 +761,9 @@ parse
 kw
 :
 :
-data
+r
+#
+struct
 >
 (
 )
@@ -770,7 +774,7 @@ Ok
 HeapType
 :
 :
-Data
+Struct
 )
 }
 else
@@ -974,7 +978,9 @@ cursor
 kw
 :
 :
-data
+r
+#
+struct
 :
 :
 peek
@@ -1190,7 +1196,9 @@ Eq
 }
 pub
 fn
-data
+r
+#
+struct
 (
 )
 -
@@ -1207,7 +1215,7 @@ heap
 HeapType
 :
 :
-Data
+Struct
 }
 }
 pub
@@ -1517,7 +1525,7 @@ peek
 kw
 :
 :
-dataref
+structref
 >
 (
 )
@@ -1531,7 +1539,7 @@ parse
 kw
 :
 :
-dataref
+structref
 >
 (
 )
@@ -1542,7 +1550,9 @@ Ok
 RefType
 :
 :
-data
+r
+#
+struct
 (
 )
 )
@@ -1869,7 +1879,7 @@ cursor
 kw
 :
 :
-dataref
+structref
 :
 :
 peek

@@ -116,7 +116,7 @@ version
 .
 11
 .
-5
+8
 "
 authors
 =
@@ -242,11 +242,6 @@ wasm
 -
 smith
 "
-resolver
-=
-"
-2
-"
 [
 [
 bench
@@ -303,7 +298,9 @@ version
 "
 1
 .
-6
+9
+.
+1
 "
 [
 dependencies
@@ -328,6 +325,10 @@ version
 =
 "
 1
+.
+0
+.
+137
 "
 features
 =
@@ -351,9 +352,9 @@ version
 "
 0
 .
-17
+19
 .
-0
+1
 "
 [
 dependencies
@@ -365,7 +366,7 @@ version
 "
 0
 .
-91
+94
 .
 0
 "
@@ -417,7 +418,7 @@ version
 .
 8
 .
-0
+4
 "
 features
 =

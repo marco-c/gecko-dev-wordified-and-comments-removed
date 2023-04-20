@@ -52,6 +52,10 @@ align
 :
 u8
 pub
+max_align
+:
+u8
+pub
 offset
 :
 u64
@@ -711,7 +715,7 @@ pos
 }
 pub
 fn
-visit_with_offset
+visit_operator
 <
 T
 >
@@ -1101,9 +1105,6 @@ visit
 &
 mut
 self
-offset
-:
-usize
 (
 (
 arg
@@ -1152,9 +1153,6 @@ visit_operator
 &
 mut
 self
-offset
-:
-usize
 op
 :
 &
@@ -1232,7 +1230,6 @@ self
 .
 visit
 (
-offset
 (
 (
 arg

@@ -110,7 +110,7 @@ wast
 version
 =
 "
-47
+49
 .
 0
 .
@@ -232,11 +232,6 @@ crates
 /
 wast
 "
-resolver
-=
-"
-2
-"
 [
 [
 test
@@ -263,6 +258,8 @@ version
 0
 .
 2
+.
+4
 "
 [
 dependencies
@@ -306,9 +303,9 @@ version
 "
 0
 .
-17
+19
 .
-0
+1
 "
 [
 dev
@@ -323,6 +320,8 @@ version
 1
 .
 0
+.
+58
 "
 [
 dev
@@ -336,7 +335,7 @@ version
 "
 1
 .
-0
+3
 "
 [
 features

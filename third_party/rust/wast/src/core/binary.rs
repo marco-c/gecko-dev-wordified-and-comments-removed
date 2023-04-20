@@ -1581,7 +1581,7 @@ e
 .
 push
 (
-0x45
+0x4f
 )
 ;
 self
@@ -1838,7 +1838,7 @@ push
 HeapType
 :
 :
-Data
+Struct
 =
 >
 e
@@ -1993,7 +1993,7 @@ heap
 HeapType
 :
 :
-Data
+Struct
 }
 =
 >

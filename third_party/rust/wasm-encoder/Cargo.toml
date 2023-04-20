@@ -114,9 +114,9 @@ version
 "
 0
 .
-17
+19
 .
-0
+1
 "
 authors
 =
@@ -236,11 +236,6 @@ wasm
 -
 encoder
 "
-resolver
-=
-"
-2
-"
 [
 dependencies
 .
@@ -269,7 +264,7 @@ version
 .
 0
 .
-38
+58
 "
 [
 dev

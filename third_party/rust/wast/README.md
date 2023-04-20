@@ -380,7 +380,7 @@ to
 write
 an
 extension
-do
+to
 the
 WebAssembly
 text
