@@ -52,7 +52,7 @@ enable
 -
 linker
 =
-gold
+lld
 unset
 MOZ_STDCXX_COMPAT
 #

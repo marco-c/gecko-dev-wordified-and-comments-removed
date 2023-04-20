@@ -140,6 +140,8 @@ zlib
 "
 #
 gold
+or
+lld
 is
 required
 for
@@ -154,7 +156,7 @@ enable
 -
 linker
 =
-gold
+lld
 ac_add_options
 -
 -

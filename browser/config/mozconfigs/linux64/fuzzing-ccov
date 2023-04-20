@@ -137,6 +137,8 @@ disable
 crashreporter
 #
 gold
+or
+lld
 is
 required
 for
@@ -151,4 +153,4 @@ enable
 -
 linker
 =
-gold
+lld
