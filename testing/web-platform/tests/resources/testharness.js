@@ -2103,9 +2103,9 @@ name_counter
 +
 ;
 return
-"
-Untitled
-"
+get_title
+(
+)
 +
 suffix
 ;
