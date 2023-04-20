@@ -235,7 +235,9 @@ in
 "
 MOZ_FETCHES_DIR
 /
-clang
+llvm
+-
+symbolizer
 /
 bin
 /
