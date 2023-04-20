@@ -418,19 +418,6 @@ openee_url
 '
 )
 ;
-send
-(
-"
-{
-this_window_token
-}
-"
-"
-ACK
-1
-"
-)
-;
 )
 ;
 /
@@ -454,7 +441,6 @@ this_window_token
 "
 "
 ACK
-1
 "
 )
 ;
@@ -464,7 +450,6 @@ assert_equals
 (
 "
 ACK
-1
 "
 await
 receive
