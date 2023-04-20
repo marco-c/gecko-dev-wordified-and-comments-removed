@@ -215,6 +215,15 @@ double
 max_frame_rate
 )
 ;
+void
+UpdateMin
+(
+const
+VideoSourceRestrictions
+&
+other
+)
+;
 private
 :
 absl

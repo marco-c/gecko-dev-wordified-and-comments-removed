@@ -6647,6 +6647,11 @@ config
 :
 streams_config
 "
+"
+config
+:
+video_config_tests
+"
 ]
 absl_deps
 =
