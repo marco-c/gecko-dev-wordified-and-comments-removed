@@ -144,6 +144,16 @@ GeckoViewPermissionProcessParent
 jsm
 "
 "
+GeckoViewPrintDelegateChild
+.
+jsm
+"
+"
+GeckoViewPrintDelegateParent
+.
+jsm
+"
+"
 GeckoViewPromptChild
 .
 jsm
