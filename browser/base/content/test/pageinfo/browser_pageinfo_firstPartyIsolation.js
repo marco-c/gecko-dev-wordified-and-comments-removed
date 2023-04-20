@@ -166,7 +166,7 @@ waitForEvent
 (
 preview
 "
-loadend
+load
 "
 )
 ;
