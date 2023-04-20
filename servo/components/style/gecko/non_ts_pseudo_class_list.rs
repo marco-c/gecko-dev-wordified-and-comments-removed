@@ -113,7 +113,7 @@ closed
 "
 Closed
 CLOSED
-_
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
 "
@@ -422,7 +422,7 @@ open
 "
 Open
 OPEN
-_
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
 (
 "
