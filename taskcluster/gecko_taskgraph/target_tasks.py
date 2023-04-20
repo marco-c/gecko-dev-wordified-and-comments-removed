@@ -4691,6 +4691,23 @@ try_name
                 
 if
 "
+speedometer3
+"
+in
+try_name
+and
+"
+windows
+"
+in
+platform
+:
+                    
+return
+False
+                
+if
+"
 chrome
 "
 in
@@ -4799,6 +4816,17 @@ benchmark
 in
 try_name
 :
+                    
+if
+"
+speedometer3
+"
+in
+try_name
+:
+                        
+return
+False
                     
 return
 True
