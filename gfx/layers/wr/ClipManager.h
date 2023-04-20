@@ -231,7 +231,9 @@ DisplayListBuilder
 *
 mBuilder
 ;
-typedef
+using
+ClipIdMap
+=
 std
 :
 :
@@ -249,7 +251,6 @@ WrClipId
 4
 >
 >
-ClipIdMap
 ;
 std
 :
