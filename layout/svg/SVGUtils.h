@@ -660,6 +660,7 @@ static
 bool
 NeedsReflowSVG
 (
+const
 nsIFrame
 *
 aFrame
@@ -911,6 +912,7 @@ static
 gfxRect
 GetClipRectForFrame
 (
+const
 nsIFrame
 *
 aFrame
@@ -945,6 +947,7 @@ static
 bool
 CanOptimizeOpacity
 (
+const
 nsIFrame
 *
 aFrame
@@ -958,6 +961,7 @@ const
 gfxMatrix
 &
 aMatrix
+const
 SVGAnimatedEnumeration
 *
 aUnits
@@ -1062,6 +1066,7 @@ static
 gfxPoint
 FrameSpaceInCSSPxToUserSpaceOffset
 (
+const
 nsIFrame
 *
 aFrame
@@ -1141,6 +1146,7 @@ static
 bool
 GetNonScalingStrokeTransform
 (
+const
 nsIFrame
 *
 aFrame
@@ -1157,6 +1163,7 @@ const
 gfxRect
 &
 aPathExtents
+const
 nsTextFrame
 *
 aFrame
@@ -1174,6 +1181,7 @@ const
 gfxRect
 &
 aPathExtents
+const
 SVGGeometryFrame
 *
 aFrame
@@ -1324,6 +1332,7 @@ GetOpacity
 const
 StyleSVGOpacity
 &
+const
 SVGContextPaint
 *
 )
@@ -1332,9 +1341,11 @@ static
 bool
 HasStroke
 (
+const
 nsIFrame
 *
 aFrame
+const
 SVGContextPaint
 *
 aContextPaint
@@ -1346,9 +1357,11 @@ static
 float
 GetStrokeWidth
 (
+const
 nsIFrame
 *
 aFrame
+const
 SVGContextPaint
 *
 aContextPaint
@@ -1377,6 +1390,7 @@ static
 uint16_t
 GetGeometryHitTestFlags
 (
+const
 nsIFrame
 *
 aFrame
@@ -1454,6 +1468,7 @@ static
 bool
 GetSVGGlyphExtents
 (
+const
 Element
 *
 aElement
@@ -1562,6 +1577,7 @@ static
 void
 DetermineMaskUsage
 (
+const
 nsIFrame
 *
 aFrame
@@ -1576,6 +1592,7 @@ static
 float
 ComputeOpacity
 (
+const
 nsIFrame
 *
 aFrame
@@ -1587,6 +1604,7 @@ static
 gfxMatrix
 GetCSSPxToDevPxMatrix
 (
+const
 nsIFrame
 *
 aNonSVGFrame

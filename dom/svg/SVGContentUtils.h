@@ -357,9 +357,7 @@ const
 ComputedStyle
 *
 aComputedStyle
-mozilla
-:
-:
+const
 SVGContextPaint
 *
 aContextPaint
@@ -373,6 +371,7 @@ static
 Float
 GetStrokeWidth
 (
+const
 dom
 :
 :
@@ -383,9 +382,7 @@ const
 ComputedStyle
 *
 aComputedStyle
-mozilla
-:
-:
+const
 SVGContextPaint
 *
 aContextPaint
@@ -395,6 +392,7 @@ static
 float
 GetFontSize
 (
+const
 mozilla
 :
 :
@@ -410,6 +408,7 @@ static
 float
 GetFontSize
 (
+const
 nsIFrame
 *
 aFrame
@@ -430,6 +429,7 @@ static
 float
 GetFontXHeight
 (
+const
 mozilla
 :
 :
@@ -445,6 +445,7 @@ static
 float
 GetFontXHeight
 (
+const
 nsIFrame
 *
 aFrame
@@ -465,6 +466,7 @@ static
 nsresult
 ReportToConsole
 (
+const
 dom
 :
 :
@@ -525,6 +527,7 @@ static
 bool
 EstablishesViewport
 (
+const
 nsIContent
 *
 aContent
@@ -869,6 +872,7 @@ static
 float
 CoordToFloat
 (
+const
 dom
 :
 :

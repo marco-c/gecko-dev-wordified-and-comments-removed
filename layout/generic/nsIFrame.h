@@ -9747,11 +9747,13 @@ bool
 IsVisibleForPainting
 (
 )
+const
 ;
 bool
 IsVisibleOrCollapsedForPainting
 (
 )
+const
 ;
 bool
 IsStackingContext

@@ -1089,6 +1089,7 @@ SVGUtils
 :
 NeedsReflowSVG
 (
+const
 nsIFrame
 *
 aFrame
@@ -2207,6 +2208,7 @@ SVGUtils
 :
 ComputeOpacity
 (
+const
 nsIFrame
 *
 aFrame
@@ -2268,6 +2270,7 @@ SVGUtils
 :
 DetermineMaskUsage
 (
+const
 nsIFrame
 *
 aFrame
@@ -4811,6 +4814,7 @@ SVGUtils
 :
 GetClipRectForFrame
 (
+const
 nsIFrame
 *
 aFrame
@@ -5881,6 +5885,7 @@ SVGUtils
 :
 FrameSpaceInCSSPxToUserSpaceOffset
 (
+const
 nsIFrame
 *
 aFrame
@@ -6253,6 +6258,7 @@ SVGUtils
 :
 CanOptimizeOpacity
 (
+const
 nsIFrame
 *
 aFrame
@@ -6416,6 +6422,7 @@ const
 gfxMatrix
 &
 aMatrix
+const
 SVGAnimatedEnumeration
 *
 aUnits
@@ -6557,6 +6564,7 @@ SVGUtils
 :
 GetNonScalingStrokeTransform
 (
+const
 nsIFrame
 *
 aFrame
@@ -6676,6 +6684,7 @@ const
 gfxRect
 &
 aPathExtents
+const
 nsIFrame
 *
 aFrame
@@ -6804,6 +6813,7 @@ const
 gfxRect
 &
 aPathExtents
+const
 nsTextFrame
 *
 aFrame
@@ -6857,6 +6867,7 @@ const
 gfxRect
 &
 aPathExtents
+const
 SVGGeometryFrame
 *
 aFrame
@@ -7994,6 +8005,7 @@ const
 StyleSVGOpacity
 &
 aOpacity
+const
 SVGContextPaint
 *
 aContextPaint
@@ -8092,9 +8104,11 @@ SVGUtils
 :
 HasStroke
 (
+const
 nsIFrame
 *
 aFrame
+const
 SVGContextPaint
 *
 aContextPaint
@@ -8136,9 +8150,11 @@ SVGUtils
 :
 GetStrokeWidth
 (
+const
 nsIFrame
 *
 aFrame
+const
 SVGContextPaint
 *
 aContextPaint
@@ -8370,6 +8386,7 @@ SVGUtils
 :
 GetGeometryHitTestFlags
 (
+const
 nsIFrame
 *
 aFrame
@@ -8857,6 +8874,7 @@ SVGUtils
 :
 GetSVGGlyphExtents
 (
+const
 Element
 *
 aElement
@@ -9032,6 +9050,7 @@ SVGUtils
 :
 GetCSSPxToDevPxMatrix
 (
+const
 nsIFrame
 *
 aNonSVGFrame

@@ -817,6 +817,7 @@ const
 nsStyleSVG
 *
 aStyleSVG
+const
 SVGContextPaint
 *
 aContextPaint
@@ -1318,6 +1319,7 @@ const
 ComputedStyle
 *
 aComputedStyle
+const
 SVGContextPaint
 *
 aContextPaint
@@ -1633,6 +1635,7 @@ SVGContentUtils
 :
 GetStrokeWidth
 (
+const
 SVGElement
 *
 aElement
@@ -1640,6 +1643,7 @@ const
 ComputedStyle
 *
 aComputedStyle
+const
 SVGContextPaint
 *
 aContextPaint
@@ -1817,6 +1821,7 @@ SVGContentUtils
 :
 GetFontSize
 (
+const
 Element
 *
 aElement
@@ -1938,6 +1943,7 @@ SVGContentUtils
 :
 GetFontSize
 (
+const
 nsIFrame
 *
 aFrame
@@ -2026,6 +2032,7 @@ SVGContentUtils
 :
 GetFontXHeight
 (
+const
 Element
 *
 aElement
@@ -2147,6 +2154,7 @@ SVGContentUtils
 :
 GetFontXHeight
 (
+const
 nsIFrame
 *
 aFrame
@@ -2276,6 +2284,7 @@ SVGContentUtils
 :
 ReportToConsole
 (
+const
 Document
 *
 doc
@@ -2322,6 +2331,7 @@ SVGContentUtils
 :
 EstablishesViewport
 (
+const
 nsIContent
 *
 aContent
@@ -4507,6 +4517,7 @@ SVGContentUtils
 :
 CoordToFloat
 (
+const
 SVGElement
 *
 aContent

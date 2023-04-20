@@ -41417,6 +41417,7 @@ nsIFrame
 IsVisibleForPainting
 (
 )
+const
 {
 return
 StyleVisibility
@@ -41436,6 +41437,7 @@ nsIFrame
 IsVisibleOrCollapsedForPainting
 (
 )
+const
 {
 return
 StyleVisibility
