@@ -504,10 +504,6 @@ json
 "
 )
 }
-lastPrivateContextExited
-:
-{
-}
 documentEvent
 :
 {
