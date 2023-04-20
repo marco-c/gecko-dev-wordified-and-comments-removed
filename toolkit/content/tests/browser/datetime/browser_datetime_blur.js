@@ -803,7 +803,7 @@ KEY_Tab
 {
 repeat
 :
-3
+2
 }
 )
 ;
