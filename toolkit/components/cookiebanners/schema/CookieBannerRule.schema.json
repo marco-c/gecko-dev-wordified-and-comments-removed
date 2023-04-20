@@ -502,6 +502,11 @@ domain
 "
 ]
 "
+additionalProperties
+"
+:
+false
+"
 properties
 "
 :
