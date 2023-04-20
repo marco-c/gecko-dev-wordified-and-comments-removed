@@ -632,11 +632,9 @@ Extension_Signing
 pref
 (
 "
-devtools
+extensions
 .
-storage
-.
-extensionStorage
+unifiedExtensions
 .
 enabled
 "
