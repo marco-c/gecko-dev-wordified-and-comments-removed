@@ -556,7 +556,6 @@ call_function
             
 function_declaration
 =
-            
 "
 "
 "
