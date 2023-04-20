@@ -2178,6 +2178,14 @@ effectiveTRRMode
 (
 )
 ;
+mTRRSkipReason
+=
+aArgs
+.
+trrSkipReason
+(
+)
+;
 SetApplyConversion
 (
 aArgs
