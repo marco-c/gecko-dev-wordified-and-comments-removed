@@ -4868,6 +4868,16 @@ temporary_permission_expire_time_ms
 pref
 (
 "
+privacy
+.
+authPromptSpoofingProtection
+"
+true
+)
+;
+pref
+(
+"
 network
 .
 proxy
