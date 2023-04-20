@@ -7,6 +7,7 @@ const
 buildConcat
 =
 (
+operationName
 builder
 resources
 )
@@ -72,8 +73,9 @@ name
 ]
 =
 builder
-.
-concat
+[
+operationName
+]
 (
 inputOperands
 resources
