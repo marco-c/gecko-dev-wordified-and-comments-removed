@@ -181,6 +181,11 @@ config
 delay
 .
 delay_candidate_detection_threshold
+config
+.
+delay
+.
+detect_pre_echo
 )
 matched_filter_lag_aggregator_
 (
@@ -193,8 +198,6 @@ GetMaxFilterLag
 config
 .
 delay
-.
-delay_selection_thresholds
 )
 {
 RTC_DCHECK
@@ -364,7 +367,7 @@ Aggregate
 (
 matched_filter_
 .
-GetLagEstimates
+GetBestLagEstimate
 (
 )
 )
@@ -394,12 +397,11 @@ clockdrift_detector_
 .
 Update
 (
-(
-*
-aggregated_matched_filter_lag
-)
+matched_filter_lag_aggregator_
 .
-delay
+GetDelayAtHighestPeak
+(
+)
 )
 ;
 data_dumper_

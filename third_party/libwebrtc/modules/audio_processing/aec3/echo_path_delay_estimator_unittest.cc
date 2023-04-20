@@ -469,6 +469,14 @@ config
 .
 delay
 .
+delay_headroom_samples
+=
+0
+;
+config
+.
+delay
+.
 down_sampling_factor
 =
 down_sampling_factor
@@ -693,7 +701,9 @@ EXPECT_NEAR
 (
 delay_ds
 estimated_delay_ds
-1
+kBlockSize
+/
+down_sampling_factor
 )
 ;
 }
