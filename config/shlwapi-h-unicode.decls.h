@@ -1,0 +1,8 @@
+HRESULT
+GetAcceptLanguages
+(
+LPTSTR
+DWORD
+*
+)
+;
