@@ -7,6 +7,15 @@ expect
 ;
 import
 {
+KnownDevices
+}
+from
+'
+puppeteer
+'
+;
+import
+{
 getTestState
 setupTestBrowserHooks
 setupTestPageAndContextHooks
@@ -55,7 +64,6 @@ async
 {
 const
 {
-puppeteer
 page
 server
 }
@@ -67,9 +75,7 @@ getTestState
 const
 iPhone
 =
-puppeteer
-.
-devices
+KnownDevices
 [
 '
 iPhone
@@ -165,7 +171,6 @@ async
 {
 const
 {
-puppeteer
 page
 server
 }
@@ -177,9 +182,7 @@ getTestState
 const
 iPhone
 =
-puppeteer
-.
-devices
+KnownDevices
 [
 '
 iPhone

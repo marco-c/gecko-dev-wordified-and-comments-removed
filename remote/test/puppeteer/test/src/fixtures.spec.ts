@@ -71,7 +71,7 @@ headless
 =
 =
 '
-chrome
+new
 '
 )
 {

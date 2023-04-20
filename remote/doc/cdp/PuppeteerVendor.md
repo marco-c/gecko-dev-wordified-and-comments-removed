@@ -113,6 +113,8 @@ git
 checkout
 tags
 /
+puppeteer
+-
 v10
 .
 0

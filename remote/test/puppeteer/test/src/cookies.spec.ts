@@ -2520,7 +2520,7 @@ be
 able
 to
 set
-unsecure
+insecure
 cookie
 for
 HTTP

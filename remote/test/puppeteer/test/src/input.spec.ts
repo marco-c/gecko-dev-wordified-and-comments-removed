@@ -29,6 +29,15 @@ utils
 js
 '
 ;
+import
+{
+TimeoutError
+}
+from
+'
+puppeteer
+'
+;
 const
 FILE_TO_UPLOAD
 =
@@ -675,7 +684,6 @@ async
 const
 {
 page
-puppeteer
 }
 =
 getTestState
@@ -723,10 +731,6 @@ error
 .
 toBeInstanceOf
 (
-puppeteer
-.
-errors
-.
 TimeoutError
 )
 ;
@@ -756,7 +760,6 @@ async
 const
 {
 page
-puppeteer
 }
 =
 getTestState
@@ -806,10 +809,6 @@ error
 .
 toBeInstanceOf
 (
-puppeteer
-.
-errors
-.
 TimeoutError
 )
 ;
@@ -836,7 +835,6 @@ async
 const
 {
 page
-puppeteer
 }
 =
 getTestState
@@ -891,10 +889,6 @@ error
 .
 toBeInstanceOf
 (
-puppeteer
-.
-errors
-.
 TimeoutError
 )
 ;
