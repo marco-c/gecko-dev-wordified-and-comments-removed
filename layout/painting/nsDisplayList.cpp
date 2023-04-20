@@ -16392,6 +16392,7 @@ IsForEventDelivery
 )
 |
 |
+(
 EffectCompositor
 :
 :
@@ -16402,6 +16403,11 @@ DisplayItemType
 :
 :
 TYPE_BACKGROUND_COLOR
+)
+&
+&
+!
+isThemed
 )
 )
 {
