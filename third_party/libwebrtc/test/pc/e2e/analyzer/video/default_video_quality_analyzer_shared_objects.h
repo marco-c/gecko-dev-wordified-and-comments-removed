@@ -418,9 +418,6 @@ SamplesStatsCounter
 resolution_of_decoded_frame
 ;
 SamplesStatsCounter
-resolution_of_rendered_frame
-;
-SamplesStatsCounter
 target_encode_bitrate
 ;
 int64_t
