@@ -2367,7 +2367,7 @@ private
 js
 :
 :
-NativeIterator
+NativeIteratorListHead
 enumerators_
 ;
 public
@@ -2375,7 +2375,7 @@ public
 js
 :
 :
-NativeIterator
+NativeIteratorListHead
 *
 enumeratorsAddr
 (
