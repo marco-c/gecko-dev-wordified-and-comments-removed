@@ -1392,7 +1392,7 @@ add_task
 (
 async
 function
-test_newtab_init_sends_ping
+test_newtab_categorization_sends_ping
 (
 )
 {
@@ -1489,9 +1489,10 @@ component_init
 }
 )
 ;
+await
 TelemetryFeed
 .
-init
+sendPageTakeoverData
 (
 )
 ;
