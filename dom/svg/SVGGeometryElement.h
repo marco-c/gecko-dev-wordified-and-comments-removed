@@ -250,7 +250,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 nsresult
 AfterSetAttr
 (
@@ -788,7 +787,6 @@ rv
 ;
 protected
 :
-virtual
 NumberAttributesInfo
 GetNumberInfo
 (

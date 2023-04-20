@@ -142,7 +142,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 SVGAnimationElement
 SVGAnimationElementBase
 )
-virtual
 nsresult
 Clone
 (
@@ -161,7 +160,6 @@ override
 =
 0
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -173,7 +171,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -182,7 +179,6 @@ aNullParent
 )
 override
 ;
-virtual
 bool
 ParseAttribute
 (
@@ -204,7 +200,6 @@ aResult
 )
 override
 ;
-virtual
 nsresult
 AfterSetAttr
 (
@@ -276,7 +271,6 @@ AnimationFunction
 =
 0
 ;
-virtual
 bool
 IsEventAttributeNameInternal
 (
@@ -424,7 +418,6 @@ aAnimationElement
 }
 protected
 :
-virtual
 void
 ElementChanged
 (
@@ -454,7 +447,6 @@ AnimationTargetChanged
 )
 ;
 }
-virtual
 bool
 IsPersistent
 (

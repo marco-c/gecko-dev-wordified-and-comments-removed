@@ -328,7 +328,6 @@ Length
 )
 ;
 }
-virtual
 JSObject
 *
 WrapObject

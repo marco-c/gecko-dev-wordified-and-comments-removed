@@ -96,7 +96,6 @@ SVGMotionSMILAnimationFunction
 (
 )
 ;
-virtual
 bool
 SetAttr
 (
@@ -118,7 +117,6 @@ nullptr
 )
 override
 ;
-virtual
 bool
 UnsetAttr
 (
@@ -153,7 +151,6 @@ ePathSourceType_PathAttr
 ePathSourceType_Mpath
 }
 ;
-virtual
 SMILCalcMode
 GetCalcMode
 (
@@ -175,7 +172,6 @@ aResult
 )
 override
 ;
-virtual
 void
 CheckValueListDependentAttrs
 (
@@ -184,7 +180,6 @@ aNumValues
 )
 override
 ;
-virtual
 bool
 IsToAnimation
 (

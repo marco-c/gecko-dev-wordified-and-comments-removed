@@ -134,7 +134,6 @@ aNodeInfo
 )
 {
 }
-virtual
 JSObject
 *
 WrapNode
@@ -156,7 +155,6 @@ override
 ;
 public
 :
-virtual
 FilterPrimitiveDescription
 GetPrimitiveDescription
 (
@@ -186,7 +184,6 @@ aInputImages
 )
 override
 ;
-virtual
 bool
 AttributeAffectsRendering
 (
@@ -199,7 +196,6 @@ aAttribute
 const
 override
 ;
-virtual
 SVGAnimatedString
 &
 GetResultImageName
@@ -214,7 +210,6 @@ RESULT
 ]
 ;
 }
-virtual
 void
 GetSourceImageNames
 (
@@ -227,7 +222,6 @@ aSources
 )
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -244,7 +238,6 @@ aResult
 const
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -315,21 +308,18 @@ SVGFilterInstance
 aInstance
 )
 ;
-virtual
 NumberPairAttributesInfo
 GetNumberPairInfo
 (
 )
 override
 ;
-virtual
 EnumAttributesInfo
 GetEnumInfo
 (
 )
 override
 ;
-virtual
 StringAttributesInfo
 GetStringInfo
 (

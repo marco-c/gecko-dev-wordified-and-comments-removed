@@ -225,7 +225,6 @@ SVGUseElement
 (
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -295,7 +294,6 @@ NS_DECL_NSIMUTATIONOBSERVER_CONTENTAPPENDED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTINSERTED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
 NS_DECL_NSIMUTATIONOBSERVER_NODEWILLBEDESTROYED
-virtual
 gfxMatrix
 PrependLocalTransformsTo
 (
@@ -311,7 +309,6 @@ eAllTransforms
 const
 override
 ;
-virtual
 bool
 HasValidDimensions
 (
@@ -319,7 +316,6 @@ HasValidDimensions
 const
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -563,14 +559,12 @@ GetFrame
 )
 const
 ;
-virtual
 LengthAttributesInfo
 GetLengthInfo
 (
 )
 override
 ;
-virtual
 StringAttributesInfo
 GetStringInfo
 (

@@ -210,7 +210,6 @@ FromParser
 aFromParser
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -299,7 +298,6 @@ aVisitor
 )
 override
 ;
-virtual
 bool
 IsEventAttributeNameInternal
 (
@@ -309,7 +307,6 @@ aName
 )
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -534,7 +531,6 @@ ErrorResult
 rv
 )
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -546,7 +542,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -555,7 +550,6 @@ aNullParent
 )
 override
 ;
-virtual
 SVGAnimatedTransformList
 *
 GetAnimatedTransformList
@@ -657,7 +651,6 @@ GetCurrentViewElement
 )
 const
 ;
-virtual
 SVGPreserveAspectRatio
 GetPreserveAspectRatioWithOverride
 (
@@ -715,7 +708,6 @@ ClearPreserveAspectRatioProperty
 (
 )
 ;
-virtual
 const
 SVGAnimatedViewBox
 &
@@ -725,7 +717,6 @@ GetViewBoxInternal
 const
 override
 ;
-virtual
 SVGAnimatedTransformList
 *
 GetTransformInternal
@@ -734,7 +725,6 @@ GetTransformInternal
 const
 override
 ;
-virtual
 EnumAttributesInfo
 GetEnumInfo
 (

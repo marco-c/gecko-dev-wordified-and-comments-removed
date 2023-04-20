@@ -71,7 +71,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -118,7 +117,6 @@ aNodeInfo
 )
 )
 ;
-virtual
 already_AddRefed
 <
 Path
@@ -133,7 +131,6 @@ override
 ;
 public
 :
-virtual
 nsresult
 Clone
 (

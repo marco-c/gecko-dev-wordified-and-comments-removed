@@ -119,7 +119,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -141,7 +140,6 @@ override
 ;
 public
 :
-virtual
 nsresult
 Clone
 (
@@ -192,7 +190,6 @@ sEnumInfo
 1
 ]
 ;
-virtual
 EnumAttributesInfo
 GetEnumInfo
 (

@@ -113,7 +113,6 @@ aNodeInfo
 )
 {
 }
-virtual
 JSObject
 *
 WrapNode
@@ -135,7 +134,6 @@ override
 ;
 public
 :
-virtual
 bool
 SubregionIsUnionOfRegions
 (
@@ -146,7 +144,6 @@ return
 false
 ;
 }
-virtual
 FilterPrimitiveDescription
 GetPrimitiveDescription
 (
@@ -176,7 +173,6 @@ aInputImages
 )
 override
 ;
-virtual
 SVGAnimatedString
 &
 GetResultImageName
@@ -205,7 +201,6 @@ aAttribute
 const
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -222,7 +217,6 @@ aResult
 const
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -237,7 +231,6 @@ override
 ;
 protected
 :
-virtual
 bool
 ProducesSRGB
 (
@@ -248,7 +241,6 @@ return
 true
 ;
 }
-virtual
 StringAttributesInfo
 GetStringInfo
 (

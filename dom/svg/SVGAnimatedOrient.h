@@ -650,7 +650,6 @@ SVGElement
 *
 mSVGElement
 ;
-virtual
 nsresult
 ValueFromString
 (
@@ -675,7 +674,6 @@ aPreventCachingOfSandwich
 const
 override
 ;
-virtual
 SMILValue
 GetBaseValue
 (
@@ -683,14 +681,12 @@ GetBaseValue
 const
 override
 ;
-virtual
 void
 ClearAnimValue
 (
 )
 override
 ;
-virtual
 nsresult
 SetAnimValue
 (

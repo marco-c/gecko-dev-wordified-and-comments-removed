@@ -116,7 +116,6 @@ aNodeInfo
 )
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -138,7 +137,6 @@ override
 ;
 public
 :
-virtual
 nsresult
 Clone
 (
@@ -155,7 +153,6 @@ aResult
 const
 override
 ;
-virtual
 SMILAnimationFunction
 &
 AnimationFunction
@@ -178,7 +175,6 @@ aLocalName
 const
 override
 ;
-virtual
 nsStaticAtom
 *
 GetPathDataAttrName

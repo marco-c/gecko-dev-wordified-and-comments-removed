@@ -303,7 +303,6 @@ Length
 )
 ;
 }
-virtual
 JSObject
 *
 WrapObject

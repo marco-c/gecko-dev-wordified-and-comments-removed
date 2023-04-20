@@ -206,7 +206,6 @@ const
 =
 0
 ;
-virtual
 float
 GetAxisLength
 (
@@ -239,7 +238,6 @@ aCtx
 nullptr
 )
 ;
-virtual
 float
 GetEmLength
 (
@@ -247,7 +245,6 @@ GetEmLength
 const
 override
 ;
-virtual
 float
 GetExLength
 (
@@ -255,7 +252,6 @@ GetExLength
 const
 override
 ;
-virtual
 float
 GetAxisLength
 (
@@ -300,7 +296,6 @@ nsIFrame
 aFrame
 )
 ;
-virtual
 float
 GetEmLength
 (
@@ -308,7 +303,6 @@ GetEmLength
 const
 override
 ;
-virtual
 float
 GetExLength
 (
@@ -316,7 +310,6 @@ GetExLength
 const
 override
 ;
-virtual
 gfx
 :
 :
@@ -956,7 +949,6 @@ SVGElement
 *
 mSVGElement
 ;
-virtual
 nsresult
 ValueFromString
 (
@@ -981,7 +973,6 @@ aPreventCachingOfSandwich
 const
 override
 ;
-virtual
 SMILValue
 GetBaseValue
 (
@@ -989,14 +980,12 @@ GetBaseValue
 const
 override
 ;
-virtual
 void
 ClearAnimValue
 (
 )
 override
 ;
-virtual
 nsresult
 SetAnimValue
 (

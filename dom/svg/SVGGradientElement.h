@@ -152,7 +152,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -176,7 +175,6 @@ override
 ;
 public
 :
-virtual
 nsresult
 Clone
 (
@@ -221,7 +219,6 @@ aFlags
 )
 override
 ;
-virtual
 nsStaticAtom
 *
 GetTransformListAttrName
@@ -271,14 +268,12 @@ Href
 ;
 protected
 :
-virtual
 EnumAttributesInfo
 GetEnumInfo
 (
 )
 override
 ;
-virtual
 StringAttributesInfo
 GetStringInfo
 (
@@ -424,7 +419,6 @@ override
 ;
 public
 :
-virtual
 nsresult
 Clone
 (
@@ -475,7 +469,6 @@ Y2
 ;
 protected
 :
-virtual
 LengthAttributesInfo
 GetLengthInfo
 (
@@ -592,7 +585,6 @@ override
 ;
 public
 :
-virtual
 nsresult
 Clone
 (
@@ -659,7 +651,6 @@ Fr
 ;
 protected
 :
-virtual
 LengthAttributesInfo
 GetLengthInfo
 (

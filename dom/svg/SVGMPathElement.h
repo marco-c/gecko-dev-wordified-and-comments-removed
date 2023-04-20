@@ -137,7 +137,6 @@ SVGMPathElement
 (
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -166,7 +165,6 @@ SVGMPathElement
 SVGMPathElementBase
 )
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
-virtual
 nsresult
 Clone
 (
@@ -183,7 +181,6 @@ aResult
 const
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -195,7 +192,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -204,7 +200,6 @@ aNullParent
 )
 override
 ;
-virtual
 bool
 ParseAttribute
 (
@@ -226,7 +221,6 @@ aResult
 )
 override
 ;
-virtual
 nsresult
 AfterSetAttr
 (
@@ -292,7 +286,6 @@ aMpathElement
 }
 protected
 :
-virtual
 void
 ElementChanged
 (
@@ -356,7 +349,6 @@ GetParent
 )
 ;
 }
-virtual
 bool
 IsPersistent
 (
@@ -376,7 +368,6 @@ mMpathElement
 ;
 }
 ;
-virtual
 StringAttributesInfo
 GetStringInfo
 (

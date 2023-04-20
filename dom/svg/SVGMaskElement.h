@@ -126,7 +126,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -148,7 +147,6 @@ override
 ;
 public
 :
-virtual
 nsresult
 Clone
 (
@@ -179,7 +177,6 @@ aAttribute
 const
 override
 ;
-virtual
 bool
 HasValidDimensions
 (
@@ -237,14 +234,12 @@ Height
 ;
 protected
 :
-virtual
 LengthAttributesInfo
 GetLengthInfo
 (
 )
 override
 ;
-virtual
 EnumAttributesInfo
 GetEnumInfo
 (

@@ -292,7 +292,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMSVGPointList
 )
-virtual
 JSObject
 *
 WrapObject

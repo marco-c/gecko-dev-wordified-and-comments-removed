@@ -347,7 +347,6 @@ empty
 )
 ;
 }
-virtual
 bool
 Parse
 (

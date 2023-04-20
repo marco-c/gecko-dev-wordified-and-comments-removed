@@ -118,7 +118,6 @@ aNodeInfo
 )
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -140,7 +139,6 @@ override
 ;
 public
 :
-virtual
 nsresult
 Clone
 (
@@ -157,7 +155,6 @@ aResult
 const
 override
 ;
-virtual
 SMILAnimationFunction
 &
 AnimationFunction

@@ -123,7 +123,6 @@ SVGTitleElement
 =
 default
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -150,7 +149,6 @@ NS_DECL_NSIMUTATIONOBSERVER_CHARACTERDATACHANGED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTAPPENDED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTINSERTED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
-virtual
 nsresult
 Clone
 (
@@ -167,7 +165,6 @@ aResult
 const
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -179,7 +176,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -190,7 +186,6 @@ true
 )
 override
 ;
-virtual
 void
 DoneAddingChildren
 (

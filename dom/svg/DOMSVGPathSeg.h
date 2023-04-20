@@ -208,7 +208,6 @@ DOMSVGPathSeg
 *
 /
 \
-virtual
 uint32_t
 Type
 (
@@ -221,7 +220,6 @@ segType
 ;
 }
 \
-virtual
 DOMSVGPathSeg
 *
 Clone
@@ -279,7 +277,6 @@ args
 \
 }
 \
-virtual
 float
 *
 PtrToMemberArgs
@@ -293,7 +290,6 @@ mArgs
 }
 \
 \
-virtual
 JSObject
 *
 WrapObject
@@ -301,7 +297,6 @@ WrapObject
 JSContext
 *
 aCx
-\
 JS
 :
 :
@@ -312,6 +307,7 @@ JSObject
 >
 aGivenProto
 )
+\
 override
 {
 \

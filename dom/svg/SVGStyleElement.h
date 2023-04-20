@@ -136,7 +136,6 @@ SVGStyleElement
 =
 default
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -164,7 +163,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 SVGStyleElement
 SVGStyleElementBase
 )
-virtual
 nsresult
 BindToTree
 (
@@ -176,7 +174,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -234,7 +231,6 @@ aResult
 )
 override
 ;
-virtual
 nsresult
 Clone
 (

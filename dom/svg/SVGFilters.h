@@ -342,7 +342,6 @@ aAttribute
 const
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -364,7 +363,6 @@ override
 =
 0
 ;
-virtual
 bool
 HasValidDimensions
 (
@@ -564,7 +562,6 @@ StyleIsSetToSRGB
 (
 )
 ;
-virtual
 LengthAttributesInfo
 GetLengthInfo
 (
@@ -655,7 +652,6 @@ aNodeInfo
 }
 public
 :
-virtual
 nsresult
 Clone
 (
@@ -751,7 +747,6 @@ NS_INLINE_DECL_REFCOUNTING_INHERITED
 SVGFELightingElement
 SVGFELightingElementBase
 )
-virtual
 bool
 AttributeAffectsRendering
 (
@@ -764,7 +759,6 @@ aAttribute
 const
 override
 ;
-virtual
 SVGAnimatedString
 &
 GetResultImageName
@@ -779,7 +773,6 @@ RESULT
 ]
 ;
 }
-virtual
 void
 GetSourceImageNames
 (
@@ -808,7 +801,6 @@ override
 ;
 protected
 :
-virtual
 bool
 OperatesOnSRGB
 (
@@ -823,21 +815,18 @@ return
 true
 ;
 }
-virtual
 NumberAttributesInfo
 GetNumberInfo
 (
 )
 override
 ;
-virtual
 NumberPairAttributesInfo
 GetNumberPairInfo
 (
 )
 override
 ;
-virtual
 StringAttributesInfo
 GetStringInfo
 (

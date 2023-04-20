@@ -109,7 +109,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -145,7 +144,6 @@ aAttribute
 const
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -172,7 +170,6 @@ Offset
 ;
 protected
 :
-virtual
 NumberAttributesInfo
 GetNumberInfo
 (

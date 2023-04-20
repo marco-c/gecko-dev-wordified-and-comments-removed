@@ -166,7 +166,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -202,7 +201,6 @@ name
 const
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -219,7 +217,6 @@ aResult
 const
 override
 ;
-virtual
 bool
 HasValidDimensions
 (
@@ -242,7 +239,6 @@ aFlags
 )
 override
 ;
-virtual
 nsStaticAtom
 *
 GetTransformListAttrName
@@ -340,21 +336,18 @@ Href
 ;
 protected
 :
-virtual
 LengthAttributesInfo
 GetLengthInfo
 (
 )
 override
 ;
-virtual
 EnumAttributesInfo
 GetEnumInfo
 (
 )
 override
 ;
-virtual
 StringAttributesInfo
 GetStringInfo
 (
@@ -369,7 +362,6 @@ GetAnimatedPreserveAspectRatio
 )
 override
 ;
-virtual
 SVGAnimatedViewBox
 *
 GetAnimatedViewBox

@@ -107,7 +107,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -134,7 +133,6 @@ Init
 ;
 public
 :
-virtual
 nsresult
 Clone
 (

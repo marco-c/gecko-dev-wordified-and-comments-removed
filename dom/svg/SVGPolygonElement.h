@@ -80,7 +80,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -129,7 +128,6 @@ aNodeInfo
 ;
 public
 :
-virtual
 void
 GetMarkPoints
 (
@@ -142,7 +140,6 @@ aMarks
 )
 override
 ;
-virtual
 already_AddRefed
 <
 Path
@@ -155,7 +152,6 @@ aBuilder
 )
 override
 ;
-virtual
 nsresult
 Clone
 (

@@ -137,7 +137,6 @@ aNodeInfo
 )
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -184,7 +183,6 @@ aVisitor
 )
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -201,7 +199,6 @@ aResult
 const
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -213,7 +210,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -280,7 +276,6 @@ HasHref
 )
 const
 ;
-virtual
 ElementState
 IntrinsicState
 (
@@ -542,7 +537,6 @@ SVGAElement
 =
 default
 ;
-virtual
 StringAttributesInfo
 GetStringInfo
 (

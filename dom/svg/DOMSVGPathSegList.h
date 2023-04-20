@@ -239,7 +239,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMSVGPathSegList
 )
-virtual
 JSObject
 *
 WrapObject

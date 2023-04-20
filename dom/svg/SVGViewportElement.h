@@ -256,7 +256,6 @@ aAttribute
 const
 override
 ;
-virtual
 gfxMatrix
 PrependLocalTransformsTo
 (
@@ -272,7 +271,6 @@ eAllTransforms
 const
 override
 ;
-virtual
 bool
 HasValidDimensions
 (
@@ -459,7 +457,6 @@ PreserveAspectRatio
 (
 )
 ;
-virtual
 SVGAnimatedViewBox
 *
 GetAnimatedViewBox
@@ -583,14 +580,12 @@ sLengthInfo
 4
 ]
 ;
-virtual
 LengthAttributesInfo
 GetLengthInfo
 (
 )
 override
 ;
-virtual
 SVGAnimatedPreserveAspectRatio
 *
 GetAnimatedPreserveAspectRatio

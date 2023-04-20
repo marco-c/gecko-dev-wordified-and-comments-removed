@@ -88,7 +88,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -151,7 +150,6 @@ aAttribute
 const
 override
 ;
-virtual
 bool
 HasValidDimensions
 (
@@ -159,7 +157,6 @@ HasValidDimensions
 const
 override
 ;
-virtual
 bool
 GetGeometryBounds
 (
@@ -183,7 +180,6 @@ nullptr
 )
 override
 ;
-virtual
 void
 GetAsSimplePath
 (
@@ -193,7 +189,6 @@ aSimplePath
 )
 override
 ;
-virtual
 already_AddRefed
 <
 Path
@@ -208,7 +203,6 @@ nullptr
 )
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -297,7 +291,6 @@ Ry
 ;
 protected
 :
-virtual
 LengthAttributesInfo
 GetLengthInfo
 (

@@ -160,7 +160,6 @@ aNodeInfo
 )
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -182,7 +181,6 @@ override
 ;
 public
 :
-virtual
 nsresult
 Clone
 (
@@ -243,7 +241,6 @@ PreserveAspectRatio
 ;
 private
 :
-virtual
 EnumAttributesInfo
 GetEnumInfo
 (
@@ -274,7 +271,6 @@ sEnumInfo
 1
 ]
 ;
-virtual
 SVGAnimatedViewBox
 *
 GetAnimatedViewBox

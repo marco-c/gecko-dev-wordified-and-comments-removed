@@ -125,7 +125,6 @@ aNodeInfo
 )
 )
 ;
-virtual
 JSObject
 *
 WrapNode
@@ -163,7 +162,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 void
 GetAsSimplePath
 (
@@ -190,7 +188,6 @@ name
 const
 override
 ;
-virtual
 bool
 HasValidDimensions
 (
@@ -198,7 +195,6 @@ HasValidDimensions
 const
 override
 ;
-virtual
 bool
 AttributeDefinesGeometry
 (
@@ -209,14 +205,12 @@ aName
 )
 override
 ;
-virtual
 bool
 IsMarkable
 (
 )
 override
 ;
-virtual
 void
 GetMarkPoints
 (
@@ -229,7 +223,6 @@ aMarks
 )
 override
 ;
-virtual
 already_AddRefed
 <
 Path
@@ -242,7 +235,6 @@ aBuilder
 )
 override
 ;
-virtual
 already_AddRefed
 <
 Path
@@ -264,7 +256,6 @@ aOutput
 )
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -281,7 +272,6 @@ aResult
 const
 override
 ;
-virtual
 SVGAnimatedPathSegList
 *
 GetAnimPathSegList
@@ -294,7 +284,6 @@ return
 mD
 ;
 }
-virtual
 nsStaticAtom
 *
 GetPathDataAttrName

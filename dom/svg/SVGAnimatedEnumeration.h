@@ -329,7 +329,6 @@ DOMSVGAnimatedEnumeration
 :
 SetBaseVal
 ;
-virtual
 uint16_t
 BaseVal
 (
@@ -345,7 +344,6 @@ GetBaseValue
 )
 ;
 }
-virtual
 void
 SetBaseVal
 (
@@ -368,7 +366,6 @@ aRv
 )
 ;
 }
-virtual
 uint16_t
 AnimVal
 (
@@ -429,7 +426,6 @@ SVGElement
 *
 mSVGElement
 ;
-virtual
 nsresult
 ValueFromString
 (
@@ -454,7 +450,6 @@ aPreventCachingOfSandwich
 const
 override
 ;
-virtual
 SMILValue
 GetBaseValue
 (
@@ -462,14 +457,12 @@ GetBaseValue
 const
 override
 ;
-virtual
 void
 ClearAnimValue
 (
 )
 override
 ;
-virtual
 nsresult
 SetAnimValue
 (

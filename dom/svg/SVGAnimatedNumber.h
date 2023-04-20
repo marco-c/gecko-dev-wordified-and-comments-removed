@@ -305,7 +305,6 @@ SVGAnimatedNumber
 *
 mVal
 ;
-virtual
 float
 BaseVal
 (
@@ -321,7 +320,6 @@ GetBaseValue
 )
 ;
 }
-virtual
 void
 SetBaseVal
 (
@@ -348,7 +346,6 @@ mSVGElement
 )
 ;
 }
-virtual
 float
 AnimVal
 (
@@ -434,7 +431,6 @@ aPreventCachingOfSandwich
 const
 override
 ;
-virtual
 SMILValue
 GetBaseValue
 (
@@ -442,14 +438,12 @@ GetBaseValue
 const
 override
 ;
-virtual
 void
 ClearAnimValue
 (
 )
 override
 ;
-virtual
 nsresult
 SetAnimValue
 (
