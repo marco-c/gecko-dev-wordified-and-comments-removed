@@ -243,6 +243,13 @@ targetTimeInSecond
 )
 ;
 async
+SetCDMProxyId
+(
+uint64_t
+type
+)
+;
+async
 SetVolume
 (
 double
