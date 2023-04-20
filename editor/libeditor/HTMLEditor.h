@@ -7414,12 +7414,10 @@ IsRemovableParentStyleWithNewSpanElement
 nsIContent
 &
 aContent
-nsAtom
-*
-aHTMLProperty
-nsAtom
-*
-aAttribute
+const
+EditorInlineStyle
+&
+aStyle
 )
 const
 ;
