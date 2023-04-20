@@ -100,6 +100,13 @@ stream
 _ns
 ;
 }
+nsCString
+GetCodecName
+(
+)
+const
+override
+;
 TrackInfo
 :
 :

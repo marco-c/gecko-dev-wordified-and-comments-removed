@@ -136,6 +136,13 @@ decoder
 _ns
 ;
 }
+nsCString
+GetCodecName
+(
+)
+const
+override
+;
 private
 :
 HRESULT

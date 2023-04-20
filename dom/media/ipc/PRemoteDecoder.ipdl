@@ -155,6 +155,12 @@ type
 nsCString
 decoderDescription
 ;
+nsCString
+decoderProcessName
+;
+nsCString
+decoderCodecName
+;
 bool
 hardware
 ;

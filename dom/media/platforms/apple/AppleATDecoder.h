@@ -139,6 +139,13 @@ decoder
 _ns
 ;
 }
+nsCString
+GetCodecName
+(
+)
+const
+override
+;
 const
 AudioInfo
 mConfig

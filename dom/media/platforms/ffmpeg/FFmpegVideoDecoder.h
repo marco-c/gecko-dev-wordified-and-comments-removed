@@ -286,6 +286,13 @@ _ns
 #
 endif
 }
+nsCString
+GetCodecName
+(
+)
+const
+override
+;
 ConversionRequired
 NeedsConversion
 (
