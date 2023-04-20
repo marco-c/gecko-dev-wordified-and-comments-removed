@@ -1160,6 +1160,16 @@ max_framerate_fps
 aOther
 .
 max_framerate_fps
+&
+&
+aThis
+.
+resolution_alignment
+=
+=
+aOther
+.
+resolution_alignment
 ;
 }
 bool
