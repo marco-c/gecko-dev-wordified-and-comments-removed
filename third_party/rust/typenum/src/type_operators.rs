@@ -2861,4 +2861,9 @@ to_int
 >
 T
 ;
+const
+INT
+:
+T
+;
 }
