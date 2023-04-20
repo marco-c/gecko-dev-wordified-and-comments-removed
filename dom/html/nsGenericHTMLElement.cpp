@@ -9582,7 +9582,6 @@ idVal
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -9592,7 +9591,6 @@ nameVal
 ;
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -9664,6 +9662,11 @@ false
 AfterClearForm
 (
 aUnbindOrDelete
+)
+;
+UpdateState
+(
+true
 )
 ;
 }
