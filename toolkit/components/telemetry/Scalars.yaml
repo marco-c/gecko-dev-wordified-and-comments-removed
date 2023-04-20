@@ -6366,6 +6366,8 @@ bug_numbers
 1689269
 -
 1754650
+-
+1811156
 description
 :
 >
@@ -6390,6 +6392,10 @@ result
 .
 Currently
 :
+CTAPRegisterFinish
+CTAPRegisterAbort
+CTAPSignFinish
+CTAPSignAbort
 U2FRegisterFinish
 U2FRegisterAbort
 U2FSignFinish
@@ -6398,7 +6404,7 @@ U2FSignAbort
 expires
 :
 "
-112
+118
 "
 kind
 :
@@ -6416,7 +6422,7 @@ mozilla
 .
 com
 -
-rmf
+jschanck
 mozilla
 .
 com
