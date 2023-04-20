@@ -1577,9 +1577,11 @@ url
 :
 url
 (
+'
 {
 spocImgURL
 }
+'
 )
 }
 ;
