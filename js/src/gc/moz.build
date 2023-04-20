@@ -133,6 +133,11 @@ Heap
 cpp
 "
 "
+MallocedBlockCache
+.
+cpp
+"
+"
 Marking
 .
 cpp
