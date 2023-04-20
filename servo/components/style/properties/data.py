@@ -241,26 +241,8 @@ font_family
 font_size
 font_style
                            
-font_variant_caps
 font_stretch
-font_kerning
-                           
-font_variant_position
 font_weight
-                           
-font_size_adjust
-font_variant_alternates
-                           
-font_variant_ligatures
-font_variant_east_asian
-                           
-font_variant_numeric
-font_language_override
-                           
-font_feature_settings
-font_variation_settings
-                           
-font_optical_sizing
 "
 "
 "

@@ -480,7 +480,7 @@ featureSettings
 mozilla
 :
 :
-StyleVariantAlternatesList
+StyleFontVariantAlternates
 variantAlternates
 ;
 RefPtr

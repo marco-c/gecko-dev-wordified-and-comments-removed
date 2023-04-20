@@ -6150,7 +6150,7 @@ TextEmphasisPosition
 gecko
 =
 "
-StyleVariantAlternatesList
+StyleFontVariantAlternates
 "
 servo
 =
@@ -6167,7 +6167,7 @@ specified
 font
 :
 :
-VariantAlternatesList
+FontVariantAlternates
 "
 }
 {

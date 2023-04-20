@@ -170,7 +170,7 @@ NORMAL
 mozilla
 :
 :
-StyleVariantAlternatesList
+StyleFontVariantAlternates
 variantAlternates
 ;
 uint16_t
