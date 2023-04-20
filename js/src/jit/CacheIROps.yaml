@@ -5878,6 +5878,9 @@ StringId
 index
 :
 Int32Id
+handleOOB
+:
+BoolImm
 -
 name
 :
@@ -5899,6 +5902,9 @@ StringId
 index
 :
 Int32Id
+handleOOB
+:
+BoolImm
 -
 name
 :
