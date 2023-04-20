@@ -5,7 +5,6 @@ strict
 ;
 const
 {
-Translation
 TranslationTelemetry
 }
 =
