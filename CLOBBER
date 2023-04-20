@@ -205,7 +205,12 @@ libwebrtc
 Bug
 1790097
 -
-Vendor
-libwebrtc
-from
-fbf66ddddf
+(
+fix
+-
+2377226851
+)
+restrict
+deps
+in
+timing_unittests

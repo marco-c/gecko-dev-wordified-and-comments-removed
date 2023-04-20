@@ -226,7 +226,9 @@ modules
 /
 video_coding
 /
-inter_frame_delay
+timing
+/
+codec_timer
 .
 cc
 "
@@ -1433,6 +1435,6 @@ True
 Library
 (
 "
-inter_frame_delay_gn
+codec_timer_gn
 "
 )
