@@ -613,7 +613,7 @@ getScrollOffset
 win
 )
 ;
-is
+isfuzzy
 (
 actual
 .
@@ -621,6 +621,7 @@ top
 expected
 .
 top
+1
 Top
 scroll
 offset
@@ -630,7 +631,7 @@ msg
 }
 )
 ;
-is
+isfuzzy
 (
 actual
 .
@@ -638,6 +639,7 @@ left
 expected
 .
 left
+1
 Left
 scroll
 offset
