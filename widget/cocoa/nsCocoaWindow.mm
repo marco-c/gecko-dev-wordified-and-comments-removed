@@ -12038,7 +12038,11 @@ NSRect
 newFrame
 {
 return
-newFrame
+window
+.
+screen
+.
+frame
 ;
 }
 void
