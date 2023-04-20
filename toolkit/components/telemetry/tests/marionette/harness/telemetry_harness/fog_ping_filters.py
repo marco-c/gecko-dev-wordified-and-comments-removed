@@ -163,17 +163,3 @@ ping
 only
 "
 )
-FOG_NODC_PING
-=
-FOGDocTypePingFilter
-(
-"
-new
--
-metric
--
-capture
--
-emulation
-"
-)
