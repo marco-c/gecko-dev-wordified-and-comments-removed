@@ -8793,7 +8793,14 @@ isVisible
 )
 {
 return
-true
+AddonManager
+.
+hasAddonType
+(
+this
+.
+name
+)
 ;
 }
 get

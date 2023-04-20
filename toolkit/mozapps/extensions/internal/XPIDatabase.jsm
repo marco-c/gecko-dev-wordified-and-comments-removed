@@ -894,6 +894,8 @@ theme
 "
 "
 sitepermission
+-
+deprecated
 "
 ]
 )
@@ -1543,6 +1545,8 @@ type
 =
 "
 sitepermission
+-
+deprecated
 "
 )
 {
@@ -3512,6 +3516,8 @@ type
 =
 "
 sitepermission
+-
+deprecated
 "
 )
 &

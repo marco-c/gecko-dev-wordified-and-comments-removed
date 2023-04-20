@@ -506,6 +506,8 @@ break
 case
 "
 sitepermission
+-
+deprecated
 "
 :
 additionalProps
@@ -617,6 +619,8 @@ type
 =
 "
 sitepermission
+-
+deprecated
 "
 )
 {

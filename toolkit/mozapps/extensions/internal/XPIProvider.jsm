@@ -971,6 +971,8 @@ locale
 "
 "
 sitepermission
+-
+deprecated
 "
 "
 theme
@@ -6908,6 +6910,8 @@ break
 case
 "
 sitepermission
+-
+deprecated
 "
 :
 this

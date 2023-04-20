@@ -118,6 +118,11 @@ theme
 "
 sitepermission
 "
+"
+sitepermission
+-
+deprecated
+"
 ]
 ;
 const

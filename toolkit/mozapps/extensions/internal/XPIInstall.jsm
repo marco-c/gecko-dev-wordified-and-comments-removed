@@ -2379,6 +2379,8 @@ type
 =
 "
 sitepermission
+-
+deprecated
 "
 )
 {

@@ -3397,6 +3397,7 @@ com
 function
 MockProvider
 (
+addonTypes
 )
 {
 this
@@ -3417,6 +3418,9 @@ this
 .
 addonTypes
 =
+addonTypes
+?
+?
 [
 "
 extension

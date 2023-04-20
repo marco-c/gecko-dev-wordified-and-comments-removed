@@ -3088,6 +3088,8 @@ type
 :
 "
 sitepermission
+-
+deprecated
 "
 }
 }
