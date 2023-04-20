@@ -159,6 +159,10 @@ python3
 -
 pytoml
 \
+python3
+-
+toml
+\
 scons
 \
 subversion
