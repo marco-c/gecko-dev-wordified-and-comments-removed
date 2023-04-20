@@ -1206,8 +1206,7 @@ dlopen
 .
 rtc_link_pipewire
 =
-!
-build_with_mozilla
+false
 #
 Experimental
 :
