@@ -77,7 +77,7 @@ namespace
 webrtc
 {
 class
-ReceiveStream
+ReceiveStreamInterface
 {
 public
 :
@@ -148,7 +148,7 @@ protected
 :
 virtual
 ~
-ReceiveStream
+ReceiveStreamInterface
 (
 )
 {
@@ -159,7 +159,7 @@ class
 MediaReceiveStream
 :
 public
-ReceiveStream
+ReceiveStreamInterface
 {
 public
 :
@@ -233,6 +233,16 @@ const
 0
 ;
 }
+;
+using
+ReceiveStream
+[
+[
+deprecated
+]
+]
+=
+ReceiveStreamInterface
 ;
 }
 #
