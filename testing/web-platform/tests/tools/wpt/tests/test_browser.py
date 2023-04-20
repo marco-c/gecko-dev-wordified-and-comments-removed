@@ -433,7 +433,9 @@ mocked_call
 return_value
 =
 '
-MSEdgeDriver
+Microsoft
+Edge
+WebDriver
 84
 .
 0
@@ -467,7 +469,9 @@ mocked_call
 return_value
 =
 '
-MSEdgeDriver
+Microsoft
+Edge
+WebDriver
 87
 .
 0
@@ -540,7 +544,9 @@ mocked_call
 return_value
 =
 '
-MSEdgeDriver
+Microsoft
+Edge
+WebDriver
 New
 84
 .
