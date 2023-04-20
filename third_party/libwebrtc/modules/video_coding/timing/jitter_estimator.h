@@ -152,10 +152,6 @@ TimeDelta
 frame_delay
 DataSize
 frame_size
-bool
-incomplete_frame
-=
-false
 )
 ;
 virtual
@@ -226,8 +222,6 @@ EstimateRandomJitter
 (
 double
 d_dT
-bool
-incomplete_frame
 )
 ;
 double
