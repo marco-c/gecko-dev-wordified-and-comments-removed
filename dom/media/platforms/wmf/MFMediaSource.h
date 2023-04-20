@@ -433,6 +433,11 @@ HANDLE
 aDCompSurfaceHandle
 )
 ;
+void
+ShutdownTaskQueue
+(
+)
+;
 private
 :
 void
