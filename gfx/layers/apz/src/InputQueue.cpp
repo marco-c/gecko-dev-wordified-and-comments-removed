@@ -2384,7 +2384,7 @@ mOverscrollBehaviorAllowsSwipe
 &
 event
 .
-RequiresContentResponseIfCannotScrollHorizontallyInStartDirection
+MayTriggerSwipe
 (
 )
 &

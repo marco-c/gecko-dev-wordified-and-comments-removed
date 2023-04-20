@@ -8403,7 +8403,7 @@ WriteParam
 aWriter
 aParam
 .
-mRequiresContentResponseIfCannotScrollHorizontallyInStartDirection
+mMayTriggerSwipe
 )
 ;
 WriteParam
@@ -8591,7 +8591,7 @@ aResult
 paramType
 :
 :
-SetRequiresContentResponseIfCannotScrollHorizontallyInStartDirection
+SetMayTriggerSwipe
 )
 &
 &
