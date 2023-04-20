@@ -3273,6 +3273,7 @@ CreateTunnelStream
 httpTransaction
 mCallbacks
 mRtt
+aIsWebSocket
 )
 ;
 if

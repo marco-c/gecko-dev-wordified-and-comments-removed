@@ -1117,6 +1117,10 @@ nsIInterfaceRequestor
 aCallbacks
 PRIntervalTime
 aRtt
+bool
+aIsWebSocket
+=
+false
 )
 override
 ;
@@ -1155,6 +1159,8 @@ bcId
 nsHttpConnectionInfo
 *
 connInfo
+bool
+isWebSocket
 )
 ;
 enum
