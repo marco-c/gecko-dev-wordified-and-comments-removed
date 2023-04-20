@@ -36,6 +36,7 @@ all_architecture_names
 =
 set
 (
+    
 [
 "
 x86
@@ -53,6 +54,9 @@ arm64
 loong64
 "
 "
+riscv64
+"
+"
 wasm32
 "
 ]
@@ -61,6 +65,7 @@ all_shared_architecture_names
 =
 set
 (
+    
 [
 "
 x86_shared
@@ -73,6 +78,9 @@ arm64
 "
 "
 loong64
+"
+"
+riscv64
 "
 "
 wasm32
