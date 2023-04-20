@@ -161,6 +161,13 @@ nsIEnterprisePolicies
 policies
 "
 "
+nsIEnvironment
+"
+:
+"
+env
+"
+"
 nsIEventListenerService
 "
 :
