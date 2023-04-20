@@ -6,6 +6,7 @@ strict
 const
 {
 SearchSERPTelemetry
+SearchSERPTelemetryUtils
 }
 =
 ChromeUtils
@@ -752,6 +753,9 @@ assertImpressionEvents
 (
 [
 {
+impression
+:
+{
 provider
 :
 "
@@ -770,6 +774,7 @@ ff
 source
 :
 expectedScalarSource
+}
 }
 ]
 )
@@ -876,6 +881,9 @@ assertImpressionEvents
 (
 [
 {
+impression
+:
+{
 provider
 :
 "
@@ -894,6 +902,20 @@ ff
 source
 :
 expectedScalarSource
+}
+engagements
+:
+[
+{
+action
+:
+SearchSERPTelemetryUtils
+.
+ACTIONS
+.
+CLICKED
+}
+]
 }
 ]
 )
