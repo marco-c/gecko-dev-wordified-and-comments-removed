@@ -1203,6 +1203,9 @@ css
 dtd
 -
 .
+idl
+-
+.
 ftl
 -
 .
@@ -1219,6 +1222,9 @@ rs
 -
 .
 rst
+-
+.
+webidl
 -
 .
 xhtml
