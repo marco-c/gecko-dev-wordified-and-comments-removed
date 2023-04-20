@@ -967,7 +967,7 @@ NimbusFeatures
 .
 urlbar
 .
-off
+offUpdate
 (
 onNimbus
 )

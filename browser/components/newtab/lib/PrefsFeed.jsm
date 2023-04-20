@@ -1199,7 +1199,7 @@ NimbusFeatures
 .
 newtab
 .
-off
+offUpdate
 (
 this
 .
@@ -1212,7 +1212,7 @@ NimbusFeatures
 .
 pocketNewtab
 .
-off
+offUpdate
 (
 this
 .

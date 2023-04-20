@@ -633,7 +633,7 @@ sinon
 stub
 (
 )
-off
+offUpdate
 :
 sinon
 .
