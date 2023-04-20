@@ -235,9 +235,6 @@ nsDateTimeControlFrame
 :
 GetNaturalBaselineBOffset
 (
-mozilla
-:
-:
 WritingMode
 aWM
 BaselineSharingGroup
