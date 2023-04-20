@@ -7815,7 +7815,7 @@ topobjdir
         
 backend_file
 .
-write
+write_once
 (
 "
 CARGO_TARGET_DIR
