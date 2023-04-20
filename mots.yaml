@@ -8805,7 +8805,6 @@ Various
 url
 :
 '
-[
 https
 :
 /
@@ -8821,10 +8820,6 @@ Firefox
 firefox
 -
 dev
-firefox
--
-dev
-]
 #
 nodejs
 on
@@ -8939,7 +8934,6 @@ ISO
 -
 1
 PDF
-'
 format
 .
 includes
