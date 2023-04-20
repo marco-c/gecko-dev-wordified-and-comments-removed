@@ -11,7 +11,7 @@ CONTEXTUAL_SERVICES_PING_TYPES
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 PartnerLinkAttribution
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
