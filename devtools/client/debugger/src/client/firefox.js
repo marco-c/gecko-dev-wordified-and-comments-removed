@@ -794,6 +794,16 @@ if
 (
 event
 .
+isFrameSwitching
+)
+{
+continue
+;
+}
+if
+(
+event
+.
 name
 =
 =
