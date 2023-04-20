@@ -29,7 +29,9 @@ of
 [
 null
 true
-1
+"
+foo
+"
 [
 ]
 {
@@ -77,7 +79,7 @@ match
 /
 backendNodeId
 :
-string
+number
 value
 expected
 /
@@ -130,10 +132,8 @@ resolveNode
 {
 backendNodeId
 :
-"
 -
 1
-"
 }
 )
 ;
