@@ -58,7 +58,7 @@ MPL
 /
 import
 {
-MigrationWizard
+MigrationWizardConstants
 }
 from
 "
@@ -75,6 +75,8 @@ migration
 migration
 -
 wizard
+-
+constants
 .
 mjs
 "
@@ -220,7 +222,7 @@ setComponentState
 migrators
 page
 :
-MigrationWizard
+MigrationWizardConstants
 .
 PAGES
 .
