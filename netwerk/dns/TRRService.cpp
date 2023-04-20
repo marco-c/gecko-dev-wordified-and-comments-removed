@@ -350,6 +350,16 @@ shaw
 ca
 "
 _ns
+"
+dooh
+.
+cloudflare
+-
+dns
+.
+com
+"
+_ns
 }
 ;
 void
