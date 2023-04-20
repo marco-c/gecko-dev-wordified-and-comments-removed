@@ -1721,7 +1721,7 @@ root
 not
 (
 [
-inDOMFullscreen
+inFullscreen
 ]
 )
 #
@@ -1743,7 +1743,7 @@ root
 not
 (
 [
-inDOMFullscreen
+inFullscreen
 ]
 [
 chromehidden
@@ -1769,7 +1769,7 @@ root
 not
 (
 [
-inDOMFullscreen
+inFullscreen
 ]
 [
 chromehidden
