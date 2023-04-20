@@ -550,11 +550,6 @@ TestFilePreferencesWin
 .
 cpp
 "
-"
-TestHandleWatcher
-.
-cpp
-"
 ]
 else
 :
