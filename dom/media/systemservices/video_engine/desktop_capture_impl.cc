@@ -263,7 +263,7 @@ unique_ptr
 DesktopDeviceInfo
 >
 (
-DesktopDeviceInfoImpl
+DesktopDeviceInfo
 :
 :
 Create
@@ -664,7 +664,7 @@ unique_ptr
 DesktopDeviceInfo
 >
 (
-DesktopDeviceInfoImpl
+DesktopDeviceInfo
 :
 :
 Create
@@ -1045,7 +1045,7 @@ unique_ptr
 DesktopDeviceInfo
 >
 (
-DesktopDeviceInfoImpl
+DesktopDeviceInfo
 :
 :
 Create
