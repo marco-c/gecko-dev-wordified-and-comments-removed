@@ -145,6 +145,12 @@ PortalNotifier
 {
 public
 :
+static
+bool
+IsSupported
+(
+)
+;
 BaseCapturerPipeWire
 (
 const
