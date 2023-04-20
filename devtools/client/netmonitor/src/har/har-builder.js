@@ -2045,9 +2045,6 @@ cacheEntry
 storageDataSize
 "
 "
-dataSize
-"
-"
 _dataSize
 "
 ]
@@ -2080,9 +2077,6 @@ cacheEntry
 [
 "
 deviceID
-"
-"
-device
 "
 "
 _device
