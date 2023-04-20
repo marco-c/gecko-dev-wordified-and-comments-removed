@@ -65,6 +65,10 @@ requirements
 .
 in
 "
+    
+"
+ansicon
+"
 }
 class
 VendorPython
