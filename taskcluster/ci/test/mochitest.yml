@@ -2796,17 +2796,6 @@ android
 :
 [
 ]
-.
-*
--
-tsan
--
-qr
-/
-opt
-:
-[
-]
 linux
 .
 *
