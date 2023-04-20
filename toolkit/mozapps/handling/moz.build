@@ -25,7 +25,9 @@ EXTRA_JS_MODULES
 "
 ContentDispatchChooser
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS
