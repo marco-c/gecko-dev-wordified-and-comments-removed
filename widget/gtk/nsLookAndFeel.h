@@ -191,6 +191,11 @@ NS_RGB
 255
 )
 ;
+void
+OnColorSchemeSettingChanged
+(
+)
+;
 protected
 :
 static
