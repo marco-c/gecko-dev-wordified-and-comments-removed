@@ -71,7 +71,7 @@ class
 GlobalObject
 ;
 class
-OwningArrayBufferViewOrArrayBufferOrBlobOrUTF8String
+OwningArrayBufferViewOrArrayBufferOrBlobOrUSVString
 ;
 class
 Promise
@@ -124,7 +124,7 @@ NS_DOM_BLOB_IID
 using
 BlobPart
 =
-OwningArrayBufferViewOrArrayBufferOrBlobOrUTF8String
+OwningArrayBufferViewOrArrayBufferOrBlobOrUSVString
 ;
 static
 Blob

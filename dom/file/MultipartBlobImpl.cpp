@@ -1114,7 +1114,7 @@ if
 (
 data
 .
-IsUTF8String
+IsUSVString
 (
 )
 )
@@ -1123,11 +1123,11 @@ aRv
 =
 blobSet
 .
-AppendUTF8String
+AppendString
 (
 data
 .
-GetAsUTF8String
+GetAsUSVString
 (
 )
 aNativeEOL

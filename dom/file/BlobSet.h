@@ -71,12 +71,12 @@ nodiscard
 ]
 ]
 nsresult
-AppendUTF8String
+AppendString
 (
 const
-nsACString
+nsAString
 &
-aUTF8String
+aString
 bool
 nativeEOL
 )

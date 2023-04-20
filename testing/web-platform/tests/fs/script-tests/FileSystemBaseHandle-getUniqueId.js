@@ -665,15 +665,10 @@ const
 writable
 =
 await
-cleanup_writable
-(
-t
-await
 handle
 .
 createWritable
 (
-)
 )
 ;
 await
