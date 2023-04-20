@@ -3437,15 +3437,6 @@ mIsDestroyed
 return
 ;
 }
-Manager
-(
-)
--
->
-NotifyTabWillDestroy
-(
-)
-;
 DestroyInternal
 (
 )
