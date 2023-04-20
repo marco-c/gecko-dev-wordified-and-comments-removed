@@ -603,6 +603,16 @@ libwebrtc
 /
 api
 /
+make_ref_counted_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+api
+/
 media_stream_interface_gn
 "
 "
