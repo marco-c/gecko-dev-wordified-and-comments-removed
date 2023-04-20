@@ -1013,7 +1013,7 @@ context
 }
 }
 fn
-set_selector_flags
+apply_selector_flags
 (
 &
 self
