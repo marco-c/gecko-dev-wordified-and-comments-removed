@@ -9623,9 +9623,6 @@ JS
 UniqueChars
 FormatIntroducedFilename
 (
-JSContext
-*
-cx
 const
 char
 *

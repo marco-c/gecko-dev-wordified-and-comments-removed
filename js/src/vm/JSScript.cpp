@@ -10141,9 +10141,6 @@ js
 :
 FormatIntroducedFilename
 (
-JSContext
-*
-cx
 const
 char
 *
@@ -10209,10 +10206,7 @@ introducerLen
 UniqueChars
 formatted
 (
-cx
--
->
-pod_malloc
+js_pod_malloc
 <
 char
 >
@@ -10387,7 +10381,6 @@ formatted
 =
 FormatIntroducedFilename
 (
-cx
 filename
 options
 .
@@ -10403,6 +10396,11 @@ if
 formatted
 )
 {
+ReportOutOfMemory
+(
+fc
+)
+;
 return
 false
 ;

@@ -74,6 +74,15 @@ h
 #
 include
 "
+frontend
+/
+FrontendContext
+.
+h
+"
+#
+include
+"
 gc
 /
 GCContext
@@ -2817,7 +2826,6 @@ filename
 =
 FormatIntroducedFilename
 (
-cx
 af
 .
 get
@@ -2839,6 +2847,11 @@ caller
 filename
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
