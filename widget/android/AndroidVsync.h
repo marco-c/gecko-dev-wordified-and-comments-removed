@@ -142,11 +142,6 @@ ObserverType
 aType
 )
 ;
-TimeDuration
-GetVsyncRate
-(
-)
-;
 private
 :
 friend
@@ -171,9 +166,6 @@ void
 UpdateObservingVsync
 (
 )
-;
-TimeDuration
-mVsyncDuration
 ;
 nsTArray
 <
