@@ -8262,9 +8262,7 @@ deploy
 [
 exemptions
 .
-sha
--
-1
+sha1
 ]
 ]
 version

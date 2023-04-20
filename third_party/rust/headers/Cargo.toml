@@ -109,7 +109,7 @@ version
 .
 3
 .
-7
+8
 "
 authors
 =
@@ -284,9 +284,7 @@ version
 [
 dependencies
 .
-sha
--
-1
+sha1
 ]
 version
 =

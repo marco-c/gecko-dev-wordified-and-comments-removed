@@ -12,9 +12,6 @@ use
 digest
 :
 :
-generic_array
-:
-:
 typenum
 :
 :
@@ -237,13 +234,6 @@ Sha1Core
 ]
 )
 {
-#
-[
-allow
-(
-unsafe_code
-)
-]
 let
 blocks
 :
