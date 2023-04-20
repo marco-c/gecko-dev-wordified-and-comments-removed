@@ -1824,8 +1824,6 @@ worker_thread
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 &
 ]
@@ -1922,7 +1920,6 @@ Set
 ;
 }
 )
-)
 ;
 std
 :
@@ -1989,8 +1986,6 @@ worker_thread
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 &
 ]
@@ -2054,7 +2049,6 @@ Set
 )
 ;
 }
-)
 )
 ;
 sync_event
@@ -3525,8 +3519,6 @@ worker_thread
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 &
 ]
@@ -3570,7 +3562,6 @@ Set
 )
 ;
 }
-)
 )
 ;
 event

@@ -33,17 +33,6 @@ h
 #
 include
 "
-api
-/
-task_queue
-/
-to_queued_task
-.
-h
-"
-#
-include
-"
 rtc_base
 /
 ip_address
@@ -190,8 +179,6 @@ thread_
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 callback
 addr
@@ -207,7 +194,6 @@ name
 )
 ;
 }
-)
 )
 ;
 }
@@ -273,8 +259,6 @@ thread_
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 callback
 result
@@ -288,7 +272,6 @@ result
 )
 ;
 }
-)
 )
 ;
 }
