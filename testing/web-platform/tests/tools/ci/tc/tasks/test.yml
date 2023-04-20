@@ -477,7 +477,9 @@ TOXENV
 py36
 PY_COLORS
 :
+"
 0
+"
 install
 :
 -
@@ -507,7 +509,9 @@ TOXENV
 py310
 PY_COLORS
 :
+"
 0
+"
 install
 :
 -
