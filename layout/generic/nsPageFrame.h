@@ -154,17 +154,6 @@ return
 mPD
 ;
 }
-bool
-HonorPrintBackgroundSettings
-(
-)
-const
-override
-{
-return
-false
-;
-}
 void
 PaintHeaderFooter
 (

@@ -437,14 +437,6 @@ aReflowInput
 override
 ;
 virtual
-bool
-HonorPrintBackgroundSettings
-(
-)
-const
-override
-;
-virtual
 void
 BuildDisplayListForChildren
 (

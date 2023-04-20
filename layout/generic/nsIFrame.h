@@ -9769,17 +9769,6 @@ IsStackingContext
 (
 )
 ;
-virtual
-bool
-HonorPrintBackgroundSettings
-(
-)
-const
-{
-return
-true
-;
-}
 struct
 ShouldPaintBackground
 {

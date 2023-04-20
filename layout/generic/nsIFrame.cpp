@@ -13273,12 +13273,6 @@ settings
 }
 if
 (
-!
-HonorPrintBackgroundSettings
-(
-)
-|
-|
 StyleVisibility
 (
 )

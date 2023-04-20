@@ -320,17 +320,6 @@ DoPageEnd
 (
 )
 ;
-bool
-HonorPrintBackgroundSettings
-(
-)
-const
-override
-{
-return
-false
-;
-}
 ComputeTransformFunction
 GetTransformGetter
 (
