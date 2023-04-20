@@ -3995,6 +3995,7 @@ default
 }
 pseudo
 guards
+None
 parent
 None
 )
@@ -4289,6 +4290,10 @@ pseudo
 guards
 Some
 (
+originating_element_style
+)
+Some
+(
 parent_style
 )
 Some
@@ -4318,6 +4323,13 @@ guards
 :
 &
 StylesheetGuards
+originating_element_style
+:
+Option
+<
+&
+ComputedValues
+>
 parent_style
 :
 Option
@@ -4354,6 +4366,7 @@ pseudo
 )
 inputs
 guards
+originating_element_style
 parent_style
 parent_style
 parent_style
@@ -4397,6 +4410,13 @@ guards
 :
 &
 StylesheetGuards
+originating_element_style
+:
+Option
+<
+&
+ComputedValues
+>
 parent_style
 :
 Option
@@ -4571,6 +4591,7 @@ root
 )
 )
 guards
+originating_element_style
 parent_style
 parent_style_ignoring_first_line
 layout_parent_style
@@ -6019,6 +6040,7 @@ root
 )
 }
 )
+None
 Some
 (
 parent_style
