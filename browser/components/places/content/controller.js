@@ -3071,6 +3071,9 @@ aEvent
 this
 .
 _view
+PlacesSearchBox
+.
+updateHistorySearchTelemetry
 )
 ;
 }

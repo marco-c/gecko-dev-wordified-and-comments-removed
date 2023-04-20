@@ -6903,7 +6903,9 @@ param
 Function
 =
 }
+[
 updateTelemetryFn
+]
 *
 Optional
 function
