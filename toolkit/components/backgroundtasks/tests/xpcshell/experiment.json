@@ -158,6 +158,13 @@ title
 Treatment
 A
 "
+"
+tag
+"
+:
+"
+should_be_overridden_a
+"
 }
 "
 trigger
