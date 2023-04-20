@@ -1233,7 +1233,7 @@ WebPBlendAlpha
 (
 WebPPicture
 *
-pic
+picture
 uint32_t
 background_rgb
 )
@@ -1283,7 +1283,7 @@ y
 ;
 if
 (
-pic
+picture
 =
 =
 NULL
@@ -1293,7 +1293,7 @@ return
 if
 (
 !
-pic
+picture
 -
 >
 use_argb
@@ -1304,7 +1304,7 @@ int
 uv_width
 =
 (
-pic
+picture
 -
 >
 width
@@ -1369,7 +1369,7 @@ const
 int
 has_alpha
 =
-pic
+picture
 -
 >
 colorspace
@@ -1380,7 +1380,7 @@ uint8_t
 *
 y_ptr
 =
-pic
+picture
 -
 >
 y
@@ -1389,7 +1389,7 @@ uint8_t
 *
 u_ptr
 =
-pic
+picture
 -
 >
 u
@@ -1398,7 +1398,7 @@ uint8_t
 *
 v_ptr
 =
-pic
+picture
 -
 >
 v
@@ -1407,7 +1407,7 @@ uint8_t
 *
 a_ptr
 =
-pic
+picture
 -
 >
 a
@@ -1433,7 +1433,7 @@ y
 ;
 y
 <
-pic
+picture
 -
 >
 height
@@ -1451,7 +1451,7 @@ x
 ;
 x
 <
-pic
+picture
 -
 >
 width
@@ -1517,7 +1517,7 @@ y
 1
 =
 =
-pic
+picture
 -
 >
 height
@@ -1527,7 +1527,7 @@ a_ptr
 :
 a_ptr
 +
-pic
+picture
 -
 >
 a_stride
@@ -1620,7 +1620,7 @@ alpha
 }
 if
 (
-pic
+picture
 -
 >
 width
@@ -1691,7 +1691,7 @@ else
 u_ptr
 +
 =
-pic
+picture
 -
 >
 uv_stride
@@ -1699,7 +1699,7 @@ uv_stride
 v_ptr
 +
 =
-pic
+picture
 -
 >
 uv_stride
@@ -1709,7 +1709,7 @@ memset
 (
 a_ptr
 0xff
-pic
+picture
 -
 >
 width
@@ -1718,7 +1718,7 @@ width
 a_ptr
 +
 =
-pic
+picture
 -
 >
 a_stride
@@ -1726,7 +1726,7 @@ a_stride
 y_ptr
 +
 =
-pic
+picture
 -
 >
 y_stride
@@ -1739,7 +1739,7 @@ uint32_t
 *
 argb
 =
-pic
+picture
 -
 >
 argb
@@ -1763,7 +1763,7 @@ y
 ;
 y
 <
-pic
+picture
 -
 >
 height
@@ -1781,7 +1781,7 @@ x
 ;
 x
 <
-pic
+picture
 -
 >
 width
@@ -1922,7 +1922,7 @@ background
 argb
 +
 =
-pic
+picture
 -
 >
 argb_stride

@@ -255,7 +255,6 @@ f
 ;
 ok
 =
-(
 VP8LEncodeStream
 (
 &
@@ -264,10 +263,6 @@ config
 picture
 bw
 0
-)
-=
-=
-VP8_ENC_OK
 )
 ;
 WebPPictureFree

@@ -90,7 +90,7 @@ DMUX_MIN_VERSION
 #
 define
 DMUX_REV_VERSION
-2
+4
 typedef
 struct
 {
@@ -3529,11 +3529,6 @@ f
 >
 frame_num_
 ;
-int
-frame_count
-=
-0
-;
 for
 (
 ;
@@ -3778,10 +3773,6 @@ return
 0
 ;
 }
-+
-+
-frame_count
-;
 }
 }
 return

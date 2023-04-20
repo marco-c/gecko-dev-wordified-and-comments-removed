@@ -2004,11 +2004,12 @@ Y
 int
 i
 ;
-double
+float
 retval
 =
 0
 .
+f
 ;
 int
 sumX
@@ -2371,9 +2372,6 @@ sumXY
 )
 ;
 return
-(
-float
-)
 retval
 ;
 }

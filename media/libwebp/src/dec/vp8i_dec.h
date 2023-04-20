@@ -98,7 +98,7 @@ DEC_MIN_VERSION
 #
 define
 DEC_REV_VERSION
-2
+4
 #
 define
 YUV_SIZE

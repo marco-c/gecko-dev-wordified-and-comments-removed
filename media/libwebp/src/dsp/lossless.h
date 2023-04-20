@@ -855,7 +855,7 @@ VP8LPredictorsSub_C
 ]
 ;
 typedef
-double
+float
 (
 *
 VP8LCostFunc
@@ -870,7 +870,7 @@ length
 )
 ;
 typedef
-double
+float
 (
 *
 VP8LCostCombinedFunc
@@ -945,7 +945,7 @@ VP8LStreaks
 typedef
 struct
 {
-double
+float
 entropy
 ;
 uint32_t
