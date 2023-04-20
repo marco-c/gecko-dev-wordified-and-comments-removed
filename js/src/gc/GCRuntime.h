@@ -1308,6 +1308,16 @@ return
 zone
 ;
 }
+Zone
+*
+maybeSharedAtomsZone
+(
+)
+{
+return
+sharedAtomsZone_
+;
+}
 [
 [
 nodiscard
