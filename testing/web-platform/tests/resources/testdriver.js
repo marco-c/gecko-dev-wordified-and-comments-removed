@@ -975,9 +975,6 @@ function
 (
 descriptor
 state
-one_realm
-=
-false
 context
 =
 null
@@ -989,9 +986,6 @@ permission_params
 {
 descriptor
 state
-oneRealm
-:
-one_realm
 }
 ;
 return

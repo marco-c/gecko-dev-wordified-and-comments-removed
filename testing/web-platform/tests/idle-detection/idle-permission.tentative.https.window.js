@@ -27,7 +27,6 @@ detection
 '
 denied
 '
-false
 )
 ;
 let
@@ -90,7 +89,6 @@ detection
 '
 granted
 '
-false
 )
 ;
 let
@@ -198,7 +196,6 @@ detection
 '
 prompt
 '
-false
 )
 ;
 await

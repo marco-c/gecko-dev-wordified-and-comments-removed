@@ -45,7 +45,6 @@ detection
 '
 granted
 '
-false
 )
 ;
 self

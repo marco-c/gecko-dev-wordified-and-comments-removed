@@ -27,7 +27,6 @@ detection
 '
 granted
 '
-false
 )
 ;
 await
