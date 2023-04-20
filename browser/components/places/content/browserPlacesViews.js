@@ -4005,6 +4005,9 @@ generateQI
 (
 [
 "
+nsINamed
+"
+"
 nsITimerCallback
 "
 .
@@ -7254,6 +7257,17 @@ TYPE_ONE_SHOT
 ;
 return
 timer
+;
+}
+get
+name
+(
+)
+{
+return
+"
+PlacesToolbar
+"
 ;
 }
 notify
