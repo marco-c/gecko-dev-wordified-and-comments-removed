@@ -211,6 +211,7 @@ GTKCSDCloseButtonPosition
 GTKCSDReversedPlacement
 SystemUsesDarkTheme
 PrefersReducedMotion
+PrefersReducedTransparency
 PrimaryPointerCapabilities
 AllPointerCapabilities
 SystemScrollbarSize

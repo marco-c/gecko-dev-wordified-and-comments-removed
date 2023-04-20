@@ -700,6 +700,12 @@ IntID
 :
 PrefersReducedMotion
 :
+case
+IntID
+:
+:
+PrefersReducedTransparency
+:
 aResult
 =
 0

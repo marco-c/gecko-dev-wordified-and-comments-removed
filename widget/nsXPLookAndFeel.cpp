@@ -990,6 +990,11 @@ prefersReducedMotion
 "
 ui
 .
+prefersReducedTransparency
+"
+"
+ui
+.
 primaryPointerCapabilities
 "
 "

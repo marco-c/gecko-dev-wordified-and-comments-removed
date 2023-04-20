@@ -4534,7 +4534,12 @@ IntID
 :
 UseAccessibilityTheme
 :
-{
+case
+IntID
+:
+:
+PrefersReducedTransparency
+:
 EnsureInit
 (
 )
@@ -4547,7 +4552,6 @@ mHighContrast
 ;
 break
 ;
-}
 case
 IntID
 :
