@@ -4809,6 +4809,7 @@ _ns
 contentCharset
 ;
 }
+}
 IgnoredErrorResult
 result
 ;
@@ -4842,11 +4843,11 @@ Failed
 )
 )
 ;
-}
 if
 (
 contentLength
 >
+=
 0
 )
 {
