@@ -1161,7 +1161,7 @@ LockedInstance
 )
 final
 {
-NS_DispatchToCurrentThread
+NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
