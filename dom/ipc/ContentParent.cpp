@@ -9266,10 +9266,7 @@ ifdef
 ACCESSIBILITY
 if
 (
-PresShell
-:
-:
-IsAccessibilityActive
+GetAccService
 (
 )
 )

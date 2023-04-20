@@ -1303,10 +1303,7 @@ nsAccessibilityService
 *
 acc
 =
-PresShell
-:
-:
-GetAccessibilityService
+GetAccService
 (
 )
 )
@@ -1591,10 +1588,7 @@ nsAccessibilityService
 *
 acc
 =
-PresShell
-:
-:
-GetAccessibilityService
+GetAccService
 (
 )
 )
