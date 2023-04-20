@@ -37,6 +37,11 @@ namespace
 webrtc
 {
 class
+ABSL_DEPRECATED
+(
+"
+"
+)
 RtpRtcp
 :
 public
