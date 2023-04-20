@@ -854,6 +854,15 @@ aObserver
 )
 ;
 [
+must_use
+]
+attribute
+unsigned
+long
+long
+earlyHintPreloaderId
+;
+[
 notxpcom
 nostdcall
 ]
