@@ -413,6 +413,14 @@ logoutRpsStatus_
 ;
 }
 async
+setIdpSigninStatus
+(
+origin
+status
+)
+{
+}
+async
 reset
 (
 )
