@@ -215,15 +215,6 @@ aChannel
 ;
 static
 nsresult
-CheckFTPSubresourceLoad
-(
-nsIChannel
-*
-aChannel
-)
-;
-static
-nsresult
 CheckAllowLoadInSystemPrivilegedContext
 (
 nsIChannel

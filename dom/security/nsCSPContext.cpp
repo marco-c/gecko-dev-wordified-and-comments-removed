@@ -4382,7 +4382,7 @@ outStrippedURI
 )
 {
 bool
-isHttpFtpOrWs
+isHttpOrWs
 =
 (
 aURI
@@ -4413,17 +4413,6 @@ aURI
 SchemeIs
 (
 "
-ftp
-"
-)
-|
-|
-aURI
--
->
-SchemeIs
-(
-"
 ws
 "
 )
@@ -4443,7 +4432,7 @@ wss
 if
 (
 !
-isHttpFtpOrWs
+isHttpOrWs
 )
 {
 aURI
