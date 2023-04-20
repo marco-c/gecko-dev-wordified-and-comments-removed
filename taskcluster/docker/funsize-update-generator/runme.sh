@@ -487,8 +487,6 @@ disable
 =
 SC2086
 python3
-.
-8
 /
 home
 /
