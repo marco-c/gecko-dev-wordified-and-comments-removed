@@ -25,9 +25,6 @@ nsDisplayTransform
 namespace
 layers
 {
-class
-Layer
-;
 template
 <
 typename
@@ -680,7 +677,7 @@ template
 void
 BSPTree
 <
-Layer
+BSPTestData
 >
 :
 :
@@ -688,13 +685,13 @@ BuildTree
 (
 BSPTreeNode
 <
-Layer
+BSPTestData
 >
 *
 aRoot
 PolygonList
 <
-Layer
+BSPTestData
 >
 &
 aLayers
@@ -704,7 +701,7 @@ template
 void
 BSPTree
 <
-Layer
+BSPTestData
 >
 :
 :
@@ -712,7 +709,7 @@ BuildDrawOrder
 (
 BSPTreeNode
 <
-Layer
+BSPTestData
 >
 *
 aNode
@@ -720,7 +717,7 @@ nsTArray
 <
 BSPPolygon
 <
-Layer
+BSPTestData
 >
 >
 &
