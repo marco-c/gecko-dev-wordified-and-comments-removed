@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-8d9ffcd097a342c1bdb6115a8bfa38e19d9ee4d8
+3aed89bb309c8f82f013396b27a19f794b946b58
 '
 #
 Keep
@@ -146,9 +146,9 @@ version
 :
 8
 .
-20220614
+20220622
 .
-2
+1
 .
 1
 '
@@ -205,7 +205,7 @@ chromium
 src
 /
 base
-6868b3234ab516ea648af221776603b4bc7b79ed
+8fee1bb5b4c0d89709e2774fcac4c25a4358b4a3
 '
 '
 src
@@ -229,7 +229,7 @@ chromium
 src
 /
 build
-7eec98d54067738ee1e436132e35b705b9f734b6
+a70bcd5e11781058592b6483cdd0df4e28690b7b
 '
 '
 src
@@ -349,7 +349,7 @@ chromium
 src
 /
 ios
-089bde89420193cd4983412f1e3bc72e2d8b1d9b
+63865030bed23516c8a10b7d6cbffaf6aebbc897
 '
 '
 condition
@@ -381,7 +381,7 @@ chromium
 src
 /
 testing
-47eac19cdf80543def9d919bcf344b67cae66478
+6a44e5f8eed21b209f799ab7539a671015bac174
 '
 '
 src
@@ -405,7 +405,7 @@ chromium
 src
 /
 third_party
-f35ce53be107b69318b52997869b14dad09b0a5a
+b7bdfc166f117dcc5e8148a916f0ceb4be403f38
 '
 '
 src
@@ -446,7 +446,7 @@ version
 '
 git_revision
 :
-8883070fe77f9b484818e73e5892c08ca8a0fe7f
+29accf5ac2eadfc53e687081583b7bc1592a8839
 '
 }
 ]
@@ -504,7 +504,7 @@ version
 '
 git_revision
 :
-8883070fe77f9b484818e73e5892c08ca8a0fe7f
+29accf5ac2eadfc53e687081583b7bc1592a8839
 '
 }
 ]
@@ -558,7 +558,7 @@ version
 '
 git_revision
 :
-8883070fe77f9b484818e73e5892c08ca8a0fe7f
+29accf5ac2eadfc53e687081583b7bc1592a8839
 '
 }
 ]
@@ -704,7 +704,7 @@ project
 libcxxabi
 .
 git
-92ef8d47d097facc2b119ee0172767cb786fcf79
+b5f3d3b904425613311516b1ee27fa2bae57b1e4
 '
 '
 src
@@ -1036,7 +1036,7 @@ com
 catapult
 .
 git
-4ea19a6a7078a6ad6b5e859bc0f7620769a38eb1
+c083518eecae6cecd78e0b63ab7288231e4e7788
 '
 '
 src
@@ -1166,7 +1166,7 @@ tools
 depot_tools
 .
 git
-39e4055004da058d34682e11ffb1f0a035289149
+1d5d7803fa53fb3a86684d45fa968ea05330dbf1
 '
 '
 src
@@ -1362,7 +1362,7 @@ third_party
 freetype2
 .
 git
-2848378be56ea26376e3aff68b1b4b8aa8f8611b
+117df36b4c3a5f7850a3789e92ce54d9341673ff
 '
 '
 src
@@ -2050,7 +2050,7 @@ external
 perfetto
 .
 git
-2b0a2135f09e99334d902dee6052569bfc26d212
+0eba417b2c72264fa825dc21067b9adc9b8adf70
 '
 '
 src
@@ -2106,7 +2106,7 @@ libyuv
 libyuv
 .
 git
-e906ba9fe9df1cdc32307dbb1dcb1223d41bfd56
+fe4a50df8e2a787e2919a8321dbe1412b94b20c6
 '
 '
 src
@@ -2495,7 +2495,7 @@ chromium
 src
 /
 tools
-9a74d76d18420717b48ba4a8470954021e404963
+e7c5cee0442c945675a0517649cae7524e2dad1c
 '
 '
 src
