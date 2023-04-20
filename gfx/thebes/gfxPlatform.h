@@ -879,12 +879,6 @@ IsHeadless
 ;
 static
 bool
-UseWebRender
-(
-)
-;
-static
-bool
 UseRemoteCanvas
 (
 )
