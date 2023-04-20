@@ -569,7 +569,7 @@ min_sdk_version
 21
 target_sdk_version
 =
-29
+31
 deps
 =
 [
@@ -1623,7 +1623,7 @@ min_sdk_version
 21
 target_sdk_version
 =
-21
+31
 sources
 =
 [
