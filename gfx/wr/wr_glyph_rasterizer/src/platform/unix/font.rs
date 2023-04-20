@@ -226,7 +226,7 @@ use
 crate
 :
 :
-glyph_rasterizer
+rasterizer
 :
 :
 {
@@ -239,7 +239,7 @@ use
 crate
 :
 :
-glyph_rasterizer
+rasterizer
 :
 :
 {
@@ -252,13 +252,10 @@ use
 crate
 :
 :
-internal_types
+types
 :
 :
-{
 FastHashMap
-ResourceCacheError
-}
 ;
 #
 [
@@ -277,7 +274,7 @@ android
 feature
 =
 "
-no_static_freetype
+dynamic_freetype
 "
 )
 )
@@ -517,7 +514,7 @@ android
 feature
 =
 "
-no_static_freetype
+dynamic_freetype
 "
 )
 )
@@ -704,7 +701,7 @@ not
 feature
 =
 "
-no_static_freetype
+dynamic_freetype
 "
 )
 )
@@ -2680,14 +2677,8 @@ new
 )
 -
 >
-Result
-<
 FontContext
-ResourceCacheError
->
 {
-Ok
-(
 FontContext
 {
 fonts
@@ -2699,7 +2690,6 @@ default
 (
 )
 }
-)
 }
 pub
 fn

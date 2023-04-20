@@ -68,9 +68,6 @@ CoordinateSystemId
 }
 ;
 use
-crate
-:
-:
 glyph_rasterizer
 :
 :

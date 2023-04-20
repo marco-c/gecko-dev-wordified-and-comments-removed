@@ -139,9 +139,6 @@ filterdata
 FilterDataIntern
 ;
 use
-crate
-:
-:
 glyph_rasterizer
 :
 :

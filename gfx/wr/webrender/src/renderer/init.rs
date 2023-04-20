@@ -113,9 +113,6 @@ glyph_cache
 GlyphCache
 ;
 use
-crate
-:
-:
 glyph_rasterizer
 :
 :
@@ -2338,7 +2335,6 @@ get_capabilities
 .
 supports_r8_texture_upload
 )
-?
 ;
 let
 (

@@ -218,9 +218,6 @@ FrameBuilderConfig
 }
 ;
 use
-crate
-:
-:
 glyph_rasterizer
 :
 :

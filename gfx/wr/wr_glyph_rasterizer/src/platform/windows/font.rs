@@ -38,7 +38,7 @@ use
 crate
 :
 :
-glyph_rasterizer
+rasterizer
 :
 :
 {
@@ -51,7 +51,7 @@ use
 crate
 :
 :
-glyph_rasterizer
+rasterizer
 :
 :
 {
@@ -65,7 +65,7 @@ use
 crate
 :
 :
-glyph_rasterizer
+rasterizer
 :
 :
 apply_multistrike_bold
@@ -74,13 +74,12 @@ use
 crate
 :
 :
-internal_types
+types
 :
 :
 {
 FastHashMap
 FastHashSet
-ResourceCacheError
 }
 ;
 use
@@ -808,14 +807,8 @@ new
 )
 -
 >
-Result
-<
 FontContext
-ResourceCacheError
->
 {
-Ok
-(
 FontContext
 {
 fonts
@@ -843,7 +836,6 @@ default
 (
 )
 }
-)
 }
 fn
 add_font_descriptor

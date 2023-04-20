@@ -218,9 +218,6 @@ FrameScratchBuffer
 }
 ;
 use
-crate
-:
-:
 glyph_rasterizer
 :
 :

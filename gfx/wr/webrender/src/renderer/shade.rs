@@ -59,9 +59,6 @@ default
 Transform3D
 ;
 use
-crate
-:
-:
 glyph_rasterizer
 :
 :

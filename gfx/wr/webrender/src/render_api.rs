@@ -240,9 +240,6 @@ api_resources
 ApiResources
 ;
 use
-crate
-:
-:
 glyph_rasterizer
 :
 :

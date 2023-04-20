@@ -269,7 +269,7 @@ png
 profiler
 "
 "
-no_static_freetype
+dynamic_freetype
 "
 "
 leak_checks
