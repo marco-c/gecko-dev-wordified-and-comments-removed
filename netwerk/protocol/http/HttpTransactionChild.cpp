@@ -2179,17 +2179,6 @@ protocol
 )
 ;
 }
-nsAutoCString
-unused
-;
-securityInfo
--
->
-GetPeerId
-(
-unused
-)
-;
 }
 UniquePtr
 <
