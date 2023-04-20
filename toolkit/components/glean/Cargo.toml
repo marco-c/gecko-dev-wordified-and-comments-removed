@@ -164,7 +164,11 @@ once_cell
 .
 0
 "
-fog
+firefox
+-
+on
+-
+glean
 =
 {
 path
@@ -252,7 +256,11 @@ with_gecko
 =
 [
 "
-fog
+firefox
+-
+on
+-
+glean
 /
 with_gecko
 "

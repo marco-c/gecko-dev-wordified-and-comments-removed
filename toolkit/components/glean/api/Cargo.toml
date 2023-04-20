@@ -4,7 +4,11 @@ package
 name
 =
 "
-fog
+firefox
+-
+on
+-
+glean
 "
 version
 =

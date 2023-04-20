@@ -1,7 +1,12 @@
-pub
-extern
-crate
-fog
+use
+firefox_on_glean
+:
+:
+{
+ipc
+metrics
+pings
+}
 ;
 use
 nserror
@@ -101,9 +106,6 @@ fog_register_pings
 (
 )
 {
-fog
-:
-:
 pings
 :
 :
@@ -154,9 +156,6 @@ Some
 buf
 )
 =
-fog
-:
-:
 ipc
 :
 :
@@ -306,9 +305,6 @@ buf_len
 let
 res
 =
-fog
-:
-:
 ipc
 :
 :
@@ -347,9 +343,6 @@ loss
 "
 )
 ;
-fog
-:
-:
 metrics
 :
 :

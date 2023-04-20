@@ -111,7 +111,11 @@ gecko
 =
 [
 "
-fog
+firefox
+-
+on
+-
+glean
 "
 "
 glean
@@ -257,7 +261,11 @@ optional
 =
 true
 }
-fog
+firefox
+-
+on
+-
+glean
 =
 {
 version
