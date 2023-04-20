@@ -277,6 +277,17 @@ MFCDMProxy
 aCDMProxy
 )
 ;
+MFCDMProxy
+*
+GetCDMProxy
+(
+)
+const
+{
+return
+mCDMProxy
+;
+}
 private
 :
 HRESULT

@@ -478,6 +478,12 @@ ShutdownTaskQueue
 (
 )
 ;
+bool
+IsEncrypted
+(
+)
+const
+;
 private
 :
 void
