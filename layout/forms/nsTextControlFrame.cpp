@@ -1207,10 +1207,6 @@ scrollableFrame
 >
 GetDesiredScrollbarSizes
 (
-PresContext
-(
-)
-aRenderingContext
 )
 )
 ;
