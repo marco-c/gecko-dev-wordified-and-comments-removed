@@ -4839,7 +4839,7 @@ false
 ;
 lazy
 .
-UrlbarQuickSuggest
+QuickSuggest
 .
 _recordedExposureEvent
 =
@@ -4895,7 +4895,7 @@ equal
 (
 lazy
 .
-UrlbarQuickSuggest
+QuickSuggest
 .
 _recordedExposureEvent
 expectedRecorded

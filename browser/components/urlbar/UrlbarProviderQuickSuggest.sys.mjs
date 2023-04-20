@@ -1944,7 +1944,7 @@ bestmatch
 {
 lazy
 .
-UrlbarQuickSuggest
+QuickSuggest
 .
 ensureExposureEventRecorded
 (
@@ -1975,7 +1975,7 @@ modal
 {
 lazy
 .
-UrlbarQuickSuggest
+QuickSuggest
 .
 ensureExposureEventRecorded
 (
