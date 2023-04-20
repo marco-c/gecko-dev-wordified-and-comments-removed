@@ -5694,6 +5694,7 @@ GetPreloadReferrerPolicy
 (
 aReferrerPolicy
 )
+0
 )
 ;
 }
