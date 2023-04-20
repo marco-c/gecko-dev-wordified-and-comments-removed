@@ -15,7 +15,7 @@ tar
 .
 zst
 :
-short
+shortest
 linux
 :
 target
@@ -30,7 +30,7 @@ tar
 .
 zst
 :
-short
+shortest
 macos
 :
 target
@@ -45,7 +45,7 @@ tar
 .
 zst
 :
-short
+shortest
 android
 :
 target
@@ -60,4 +60,4 @@ tar
 .
 zst
 :
-short
+shortest
