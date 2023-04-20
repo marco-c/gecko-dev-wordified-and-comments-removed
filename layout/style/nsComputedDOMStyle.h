@@ -1231,14 +1231,6 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetLineHeight
-(
-)
-;
-already_AddRefed
-<
-CSSValue
->
 DoGetTransform
 (
 )

@@ -3373,13 +3373,14 @@ ReflowInput
 :
 CalcLineHeight
 (
-GetContent
-(
-)
+*
 Style
 (
 )
 PresContext
+(
+)
+GetContent
 (
 )
 contentRect
