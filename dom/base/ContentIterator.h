@@ -101,7 +101,10 @@ virtual
 nsresult
 Init
 (
-nsRange
+dom
+:
+:
+AbstractRange
 *
 aRange
 )
@@ -690,7 +693,10 @@ virtual
 nsresult
 Init
 (
-nsRange
+dom
+:
+:
+AbstractRange
 *
 aRange
 )
@@ -835,7 +841,10 @@ const
 ;
 RefPtr
 <
-nsRange
+dom
+:
+:
+AbstractRange
 >
 mRange
 ;

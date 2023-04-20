@@ -6813,7 +6813,7 @@ rv
 =
 aSelection
 .
-GetRangesForIntervalArray
+GetDynamicRangesForIntervalArray
 (
 aNode
 aOffset

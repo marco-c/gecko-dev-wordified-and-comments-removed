@@ -8611,7 +8611,7 @@ rv
 domSel
 -
 >
-GetRangesForIntervalArray
+GetDynamicRangesForIntervalArray
 (
 startNode
 0

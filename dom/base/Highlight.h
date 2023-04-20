@@ -316,7 +316,7 @@ aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-void
+bool
 Delete
 (
 AbstractRange
@@ -329,15 +329,6 @@ aRv
 ;
 private
 :
-MOZ_CAN_RUN_SCRIPT
-void
-NotifyChangesToRegistries
-(
-ErrorResult
-&
-aRv
-)
-;
 RefPtr
 <
 nsPIDOMWindowInner

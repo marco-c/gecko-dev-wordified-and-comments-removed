@@ -72,6 +72,10 @@ h
 namespace
 mozilla
 {
+using
+namespace
+dom
+;
 static
 bool
 ComparePostMode
@@ -838,7 +842,7 @@ ContentIteratorBase
 :
 Init
 (
-nsRange
+AbstractRange
 *
 aRange
 )
@@ -3395,7 +3399,7 @@ ContentSubtreeIterator
 :
 Init
 (
-nsRange
+AbstractRange
 *
 aRange
 )
