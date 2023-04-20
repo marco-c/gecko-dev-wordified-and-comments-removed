@@ -199,7 +199,7 @@ MockRegistry
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -212,7 +212,9 @@ common
 /
 MockRegistry
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -38,7 +38,7 @@ SpecialPowers
 .
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -49,7 +49,9 @@ specialpowers
 /
 AppTestDelegate
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
