@@ -4335,8 +4335,9 @@ aLoadType
 nsIURI
 *
 aCurrentURI
-bool
-aHadActiveEntry
+SessionHistoryInfo
+*
+aPreviousActiveEntry
 bool
 aPersist
 bool
