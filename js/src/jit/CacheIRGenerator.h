@@ -3208,15 +3208,6 @@ rhsId
 )
 ;
 AttachDecision
-tryAttachStringBoolean
-(
-ValOperandId
-lhsId
-ValOperandId
-rhsId
-)
-;
-AttachDecision
 tryAttachBigIntInt32
 (
 ValOperandId
