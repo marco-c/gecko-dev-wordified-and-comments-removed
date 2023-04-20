@@ -1,5 +1,10 @@
 ITEM_VALUE
 (
+TouchEvents
+0x0001
+)
+ITEM_VALUE
+(
 IgnoreTargetAndReturnCachedValue
 0xFFFD
 )
