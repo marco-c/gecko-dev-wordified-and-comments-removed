@@ -10625,6 +10625,12 @@ mPopupAnchor
 =
 POPUPALIGNMENT_BOTTOMLEFT
 ;
+mXPos
+=
+mYPos
+=
+0
+;
 }
 else
 {
