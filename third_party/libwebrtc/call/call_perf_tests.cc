@@ -4427,10 +4427,13 @@ VideoStream
 CreateEncoderStreams
 (
 int
-width
+frame_width
 int
-height
+frame_height
 const
+webrtc
+:
+:
 VideoEncoderConfig
 &
 encoder_config
@@ -4451,8 +4454,8 @@ test
 :
 CreateVideoStreams
 (
-width
-height
+frame_width
+frame_height
 encoder_config
 )
 ;

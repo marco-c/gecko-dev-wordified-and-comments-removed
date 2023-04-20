@@ -13530,9 +13530,9 @@ VideoStream
 CreateEncoderStreams
 (
 int
-width
+frame_width
 int
-height
+frame_height
 const
 VideoEncoderConfig
 &
@@ -13554,8 +13554,8 @@ test
 :
 CreateVideoStreams
 (
-width
-height
+frame_width
+frame_height
 encoder_config
 )
 ;
@@ -21324,6 +21324,15 @@ encoder_config
 )
 override
 {
+webrtc
+:
+:
+VideoEncoder
+:
+:
+EncoderInfo
+encoder_info
+;
 send_config
 -
 >
@@ -21396,6 +21405,7 @@ payload_name_
 56
 false
 false
+encoder_info
 )
 ;
 encoder_config

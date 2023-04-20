@@ -669,9 +669,9 @@ VideoStream
 CreateEncoderStreams
 (
 int
-width
+frame_width
 int
-height
+frame_height
 const
 VideoEncoderConfig
 &
@@ -693,8 +693,8 @@ test
 :
 CreateVideoStreams
 (
-width
-height
+frame_width
+frame_height
 encoder_config
 )
 ;

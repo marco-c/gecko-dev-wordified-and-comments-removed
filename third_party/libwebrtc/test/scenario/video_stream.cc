@@ -1418,6 +1418,15 @@ VideoStreamConfig
 config
 )
 {
+webrtc
+:
+:
+VideoEncoder
+:
+:
+EncoderInfo
+encoder_info
+;
 VideoEncoderConfig
 encoder_config
 ;
@@ -1572,6 +1581,7 @@ cricket_codec
 kDefaultMaxQp
 screenshare
 screenshare
+encoder_info
 )
 ;
 }

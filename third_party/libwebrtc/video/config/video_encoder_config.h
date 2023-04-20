@@ -349,9 +349,9 @@ VideoStream
 CreateEncoderStreams
 (
 int
-width
+frame_width
 int
-height
+frame_height
 const
 VideoEncoderConfig
 &

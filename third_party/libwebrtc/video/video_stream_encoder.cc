@@ -5250,6 +5250,12 @@ kScreen
 encoder_config_
 .
 legacy_conference_mode
+encoder_
+-
+>
+GetEncoderInfo
+(
+)
 )
 ;
 streams

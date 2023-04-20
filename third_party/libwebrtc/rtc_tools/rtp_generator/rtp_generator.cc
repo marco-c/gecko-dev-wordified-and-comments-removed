@@ -1123,6 +1123,15 @@ stream_count
 =
 0
 ;
+webrtc
+:
+:
+VideoEncoder
+:
+:
+EncoderInfo
+encoder_info
+;
 for
 (
 const
@@ -1499,6 +1508,7 @@ payload_name
 56
 false
 false
+encoder_info
 )
 ;
 std
