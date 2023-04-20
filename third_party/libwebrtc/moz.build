@@ -563,6 +563,16 @@ libwebrtc
 /
 api
 /
+field_trials_registry_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+api
+/
 field_trials_view_gn
 "
 "
