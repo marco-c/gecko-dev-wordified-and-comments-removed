@@ -88,6 +88,7 @@ SITEPERMS_ADDON_PROVIDER_PREF
 SITEPERMS_ADDON_TYPE
 isGatedPermissionType
 isKnownPublicSuffix
+isPrincipalInSitePermissionsBlocklist
 }
 from
 "
@@ -2325,6 +2326,19 @@ scheme
 "
 https
 "
+)
+{
+return
+;
+}
+if
+(
+isPrincipalInSitePermissionsBlocklist
+(
+permission
+.
+principal
+)
 )
 {
 return
