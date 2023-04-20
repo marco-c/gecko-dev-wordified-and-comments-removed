@@ -12205,6 +12205,7 @@ inline
 fn
 has_stable
 (
+&
 self
 )
 -
