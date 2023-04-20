@@ -157,12 +157,6 @@ this
 "
 getSheetOwnerNode
 "
-"
-UPDATE_GENERAL
-"
-"
-UPDATE_PRESERVING_RULES
-"
 ]
 "
 resource
@@ -297,6 +291,16 @@ important
 ;
 }
 )
+;
+const
+UPDATE_PRESERVING_RULES
+=
+0
+;
+const
+UPDATE_GENERAL
+=
+1
 ;
 const
 modifiedStyleSheets
@@ -2847,5 +2851,7 @@ exports
 =
 {
 StyleSheetsManager
+UPDATE_GENERAL
+UPDATE_PRESERVING_RULES
 }
 ;
