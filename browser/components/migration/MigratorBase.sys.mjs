@@ -2666,6 +2666,7 @@ from
 another
 profile
 .
+await
 (
 async
 function
@@ -2877,6 +2878,7 @@ TOPIC_DID_IMPORT_BOOKMARKS
 await
 placesInitedPromise
 ;
+await
 doMigrate
 (
 )
@@ -2889,6 +2891,7 @@ doMigrate
 return
 ;
 }
+await
 doMigrate
 (
 )
