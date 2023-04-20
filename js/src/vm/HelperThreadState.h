@@ -1132,6 +1132,16 @@ return
 gcParallelWorklist_
 ;
 }
+size_t
+getGCParallelThreadCount
+(
+)
+const
+{
+return
+gcParallelThreadCount
+;
+}
 void
 setGCParallelThreadCount
 (
