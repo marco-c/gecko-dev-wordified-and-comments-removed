@@ -1129,6 +1129,13 @@ sRuntime
 )
 ;
 }
+session
+.
+loadUri
+(
+url
+)
+;
 result
 .
 complete

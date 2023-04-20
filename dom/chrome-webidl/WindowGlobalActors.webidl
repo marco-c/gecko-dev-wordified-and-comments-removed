@@ -1185,14 +1185,6 @@ long
 innerWIndowId
 )
 ;
-BrowsingContext
-?
-findBrowsingContextWithName
-(
-DOMString
-name
-)
-;
 /
 *
 *
