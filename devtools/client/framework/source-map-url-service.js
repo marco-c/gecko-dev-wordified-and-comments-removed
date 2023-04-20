@@ -164,7 +164,7 @@ source
 -
 map
 -
-applied
+created
 "
 this
 .
@@ -589,7 +589,7 @@ callback
 async
 newSourceMapCreated
 (
-id
+ids
 )
 {
 await
@@ -599,6 +599,14 @@ _ensureAllSourcesPopulated
 (
 )
 ;
+for
+(
+const
+id
+of
+ids
+)
+{
 const
 map
 =
@@ -617,7 +625,7 @@ if
 map
 )
 {
-return
+continue
 ;
 }
 map
@@ -670,6 +678,7 @@ _dispatchQuery
 query
 )
 ;
+}
 }
 }
 }

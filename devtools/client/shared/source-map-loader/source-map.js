@@ -2109,9 +2109,9 @@ end
 ;
 }
 function
-applySourceMap
+setSourceMapForGeneratedSources
 (
-generatedId
+generatedSourceIds
 map
 )
 {
@@ -2124,6 +2124,14 @@ SourceMapConsumer
 map
 )
 ;
+for
+(
+const
+generatedId
+of
+generatedSourceIds
+)
+{
 setSourceMap
 (
 generatedId
@@ -2135,6 +2143,7 @@ sourceMapConsumer
 )
 )
 ;
+}
 }
 function
 clearSourceMaps
@@ -2169,7 +2178,7 @@ getOriginalLocations
 getOriginalSourceText
 getGeneratedRangesForOriginal
 getFileGeneratedRange
-applySourceMap
+setSourceMapForGeneratedSources
 clearSourceMaps
 }
 ;
