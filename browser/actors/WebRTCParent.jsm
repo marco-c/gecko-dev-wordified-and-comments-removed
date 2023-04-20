@@ -2875,6 +2875,12 @@ previewVideo
 "
 )
 ;
+video
+.
+deviceId
+=
+null
+;
 if
 (
 video
