@@ -1500,14 +1500,14 @@ aProvider
 const
 Tuple
 <
-IdentityToken
+IdentityProviderToken
 IdentityAccount
 >
 &
 promiseResult
 )
 {
-IdentityToken
+IdentityProviderToken
 token
 ;
 IdentityAccount
@@ -3175,7 +3175,7 @@ NS_ConvertUTF16toUTF8
 (
 aManifest
 .
-mId_token_endpoint
+mId_assertion_endpoint
 )
 ;
 rv
@@ -3747,7 +3747,7 @@ nullptr
 return
 FetchJSONStructure
 <
-IdentityToken
+IdentityProviderToken
 >
 (
 request
@@ -3765,7 +3765,7 @@ aAccount
 ]
 (
 const
-IdentityToken
+IdentityProviderToken
 &
 token
 )

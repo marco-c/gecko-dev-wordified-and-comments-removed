@@ -326,7 +326,7 @@ server_metadata
 .
 json
 "
-id_token_endpoint
+id_assertion_endpoint
 :
 "
 https

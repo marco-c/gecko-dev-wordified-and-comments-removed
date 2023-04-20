@@ -127,7 +127,7 @@ server_simple_metadata
 .
 sjs
 "
-id_token_endpoint
+id_assertion_endpoint
 :
 "
 https
