@@ -541,7 +541,7 @@ uint32_t
 )
 )
 ;
-WebPUint32ToMem
+WebPInt32ToMem
 (
 (
 uint8_t
@@ -865,7 +865,7 @@ A
 =
 _mm_cvtsi32_si128
 (
-WebPMemToUint32
+WebPMemToInt32
 (
 src
 )
@@ -1318,9 +1318,11 @@ mask
 =
 _mm_set_epi32
 (
-0xffffffffu
+~
 0
-0xffffffffu
+0
+~
+0
 0
 )
 ;

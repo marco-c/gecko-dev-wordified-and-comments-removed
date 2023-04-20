@@ -23,13 +23,6 @@ h
 >
 #
 include
-<
-stdint
-.
-h
->
-#
-include
 "
 src
 /

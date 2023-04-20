@@ -661,8 +661,7 @@ step
 uint32_t
 low
 =
--
-1
+0xffffffffu
 ;
 uint32_t
 mask
