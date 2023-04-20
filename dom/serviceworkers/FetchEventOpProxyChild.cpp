@@ -1274,9 +1274,6 @@ FetchDriverObserver
 :
 :
 eAborted
-Nothing
-(
-)
 )
 ;
 mPreloadResponseEndPromise
