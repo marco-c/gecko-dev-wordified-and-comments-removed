@@ -854,7 +854,6 @@ ctx
 rpc
 (
 )
-?
 ;
 let
 create_params
@@ -1334,6 +1333,9 @@ drop
 let
 _
 =
+send_recv
+!
+(
 self
 .
 context
@@ -1341,16 +1343,6 @@ context
 rpc
 (
 )
-.
-and_then
-(
-|
-rpc
-|
-send_recv
-!
-(
-rpc
 StreamDestroy
 (
 self
@@ -1360,7 +1352,6 @@ token
 =
 >
 StreamDestroyed
-)
 )
 ;
 debug
@@ -1435,7 +1426,6 @@ context
 rpc
 (
 )
-?
 ;
 send_recv
 !
@@ -1481,7 +1471,6 @@ context
 rpc
 (
 )
-?
 ;
 send_recv
 !
@@ -1526,7 +1515,6 @@ context
 rpc
 (
 )
-?
 ;
 send_recv
 !
@@ -1573,7 +1561,6 @@ context
 rpc
 (
 )
-?
 ;
 send_recv
 !
@@ -1620,7 +1607,6 @@ context
 rpc
 (
 )
-?
 ;
 send_recv
 !
@@ -1671,7 +1657,6 @@ context
 rpc
 (
 )
-?
 ;
 send_recv
 !
@@ -1722,7 +1707,6 @@ context
 rpc
 (
 )
-?
 ;
 send_recv
 !
@@ -1773,7 +1757,6 @@ context
 rpc
 (
 )
-?
 ;
 match
 send_recv
@@ -1955,7 +1938,6 @@ context
 rpc
 (
 )
-?
 ;
 let
 enable

@@ -395,6 +395,16 @@ flags
 )
 ?
 ;
+#
+[
+allow
+(
+clippy
+:
+:
+unnecessary_cast
+)
+]
 let
 controllen
 =
