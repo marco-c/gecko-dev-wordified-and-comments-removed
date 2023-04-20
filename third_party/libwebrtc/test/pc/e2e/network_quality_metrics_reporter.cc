@@ -829,6 +829,9 @@ AverageSendRate
 )
 .
 kbps
+<
+double
+>
 (
 )
 :
@@ -993,6 +996,9 @@ AverageReceiveRate
 )
 .
 kbps
+<
+double
+>
 (
 )
 :
