@@ -2093,6 +2093,17 @@ imgIContainer
 FLAG_SYNC_DECODE
 ;
 }
+else
+{
+drawFlags
+|
+=
+imgIContainer
+:
+:
+FLAG_SYNC_DECODE_IF_FAST
+;
+}
 if
 (
 aImageRendererFlags
