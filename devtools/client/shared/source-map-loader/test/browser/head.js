@@ -38,7 +38,9 @@ this
 )
 ;
 const
+{
 SourceMapLoader
+}
 =
 require
 (
@@ -66,15 +68,12 @@ js
 )
 ;
 const
-{
-getOriginalURLs
-getOriginalLocation
-getGeneratedLocation
-getGeneratedRangesForOriginal
-clearSourceMaps
-}
+gSourceMapLoader
 =
+new
 SourceMapLoader
+(
+)
 ;
 function
 fetchFixtureSourceMap
@@ -82,6 +81,8 @@ fetchFixtureSourceMap
 name
 )
 {
+gSourceMapLoader
+.
 clearSourceMaps
 (
 )
@@ -121,6 +122,8 @@ js
 }
 ;
 return
+gSourceMapLoader
+.
 getOriginalURLs
 (
 source
