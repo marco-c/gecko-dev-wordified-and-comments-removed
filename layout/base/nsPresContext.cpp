@@ -12975,11 +12975,12 @@ ToMilliseconds
 (
 )
 )
-docURI
--
->
-GetSpecOrDefault
+nsContentUtils
+:
+:
+TruncatedURLForDisplay
 (
+docURI
 )
 .
 get
