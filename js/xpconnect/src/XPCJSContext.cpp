@@ -3515,7 +3515,7 @@ bool
 >
 sArrayGroupingEnabled
 (
-true
+false
 )
 ;
 #
