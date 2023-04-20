@@ -2903,6 +2903,15 @@ browser
 messages
 )
 {
+if
+(
+!
+browser
+)
+{
+return
+;
+}
 const
 win
 =
