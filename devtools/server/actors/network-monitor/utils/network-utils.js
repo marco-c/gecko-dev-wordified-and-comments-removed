@@ -372,6 +372,17 @@ TYPE_WEB_MANIFEST
 "
 webManifest
 "
+[
+Ci
+.
+nsIContentPolicy
+.
+TYPE_WEB_IDENTITY
+]
+:
+"
+webidentity
+"
 }
 ;
 exports

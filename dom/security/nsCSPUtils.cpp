@@ -1520,6 +1520,12 @@ nsIContentPolicy
 :
 TYPE_INTERNAL_FETCH_PRELOAD
 :
+case
+nsIContentPolicy
+:
+:
+TYPE_WEB_IDENTITY
+:
 return
 nsIContentSecurityPolicy
 :
