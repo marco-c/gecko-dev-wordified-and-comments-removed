@@ -449,6 +449,8 @@ sh
 edit
 -
 dictionary
+.
+sh
 to
 edit
 using
@@ -472,6 +474,8 @@ sh
 edit
 -
 dictionary
+.
+sh
 if
 you
 have
@@ -784,6 +788,8 @@ make
 new
 -
 dict
+.
+sh
 to
 generate
 a
@@ -811,6 +817,8 @@ make
 new
 -
 dict
+.
+sh
 _
 section
 .
@@ -865,6 +873,8 @@ install
 new
 -
 dict
+.
+sh
 to
 copy
 the
@@ -971,6 +981,8 @@ make
 new
 -
 dict
+.
+sh
 script
 will
 add
@@ -1194,6 +1206,11 @@ make
 new
 -
 dict
+.
+sh
+-
+-
+-
 -
 -
 -
@@ -1216,6 +1233,8 @@ make
 new
 -
 dict
+.
+sh
 works
 by
 expanding
@@ -1588,6 +1607,8 @@ install
 new
 -
 dict
+.
+sh
 script
 .
 install
@@ -1595,6 +1616,11 @@ install
 new
 -
 dict
+.
+sh
+-
+-
+-
 -
 -
 -
@@ -1663,6 +1689,8 @@ make
 new
 -
 dict
+.
+sh
 from
 UTF
 -
