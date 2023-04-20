@@ -135,12 +135,6 @@ sessionContext
 ;
 this
 .
-_conn
-=
-conn
-;
-this
-.
 _onNetworkEventUpdate
 =
 onNetworkEventUpdate
@@ -926,7 +920,7 @@ LongStringActor
 (
 this
 .
-_conn
+conn
 rawHeaders
 )
 ;
@@ -1061,7 +1055,7 @@ LongStringActor
 (
 this
 .
-_conn
+conn
 postData
 .
 text
@@ -1125,7 +1119,7 @@ LongStringActor
 (
 this
 .
-_conn
+conn
 rawHeaders
 )
 ;
@@ -1417,7 +1411,7 @@ LongStringActor
 (
 this
 .
-_conn
+conn
 content
 .
 text
@@ -1617,7 +1611,7 @@ LongStringActor
 (
 this
 .
-_conn
+conn
 header
 .
 value

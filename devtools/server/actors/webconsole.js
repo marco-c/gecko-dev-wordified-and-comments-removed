@@ -1371,12 +1371,6 @@ dbg
 =
 null
 ;
-this
-.
-conn
-=
-null
-;
 }
 createEnvironmentActor
 (

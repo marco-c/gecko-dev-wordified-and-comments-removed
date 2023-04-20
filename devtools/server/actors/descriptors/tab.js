@@ -205,12 +205,6 @@ tabDescriptorSpec
 ;
 this
 .
-_conn
-=
-connection
-;
-this
-.
 _browser
 =
 browser
@@ -508,7 +502,7 @@ if
 !
 this
 .
-_conn
+conn
 )
 {
 return
@@ -627,7 +621,7 @@ connectToFrame
 (
 this
 .
-_conn
+conn
 this
 .
 _browser
