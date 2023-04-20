@@ -147,6 +147,13 @@ js
 "
 storage
 -
+extension
+.
+js
+"
+"
+storage
+-
 indexed
 -
 db
