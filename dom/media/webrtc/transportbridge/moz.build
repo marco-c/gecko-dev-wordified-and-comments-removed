@@ -127,14 +127,6 @@ RtpLogger
 cpp
 "
 ]
-DEFINES
-[
-"
-TRACING
-"
-]
-=
-True
 FINAL_LIBRARY
 =
 "

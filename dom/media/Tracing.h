@@ -85,7 +85,7 @@ StopAudioCallbackTracing
 ;
 #
 ifdef
-TRACING
+MOZ_REAL_TIME_TRACING
 #
 define
 TRACE

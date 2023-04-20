@@ -609,14 +609,6 @@ error
 attributes
 "
 ]
-DEFINES
-[
-"
-TRACING
-"
-]
-=
-True
 FINAL_LIBRARY
 =
 "

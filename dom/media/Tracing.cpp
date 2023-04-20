@@ -53,7 +53,7 @@ StartAudioCallbackTracing
 {
 #
 ifdef
-TRACING
+MOZ_REAL_TIME_TRACING
 int
 cnt
 =
@@ -93,7 +93,7 @@ StopAudioCallbackTracing
 {
 #
 ifdef
-TRACING
+MOZ_REAL_TIME_TRACING
 int
 cnt
 =
@@ -148,6 +148,9 @@ TracingPhase
 aPhase
 )
 {
+#
+ifdef
+MOZ_REAL_TIME_TRACING
 mLogger
 .
 Log
@@ -158,6 +161,8 @@ aComment
 aPhase
 )
 ;
+#
+endif
 }
 void
 AutoTracer
@@ -181,6 +186,9 @@ uint64_t
 aSampleRate
 )
 {
+#
+ifdef
+MOZ_REAL_TIME_TRACING
 mLogger
 .
 LogDuration
@@ -192,6 +200,8 @@ aFrames
 aSampleRate
 )
 ;
+#
+endif
 }
 AutoTracer
 :

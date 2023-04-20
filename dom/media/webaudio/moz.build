@@ -723,14 +723,6 @@ CONFIG
 SSE2_FLAGS
 "
 ]
-DEFINES
-[
-"
-TRACING
-"
-]
-=
-True
 include
 (
 "

@@ -1834,14 +1834,6 @@ MOZILLA_INTERNAL_API
 ]
 =
 True
-DEFINES
-[
-"
-TRACING
-"
-]
-=
-True
 if
 CONFIG
 [
