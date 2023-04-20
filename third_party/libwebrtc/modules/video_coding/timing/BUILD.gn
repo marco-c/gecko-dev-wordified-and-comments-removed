@@ -316,6 +316,12 @@ inlined_vector
 "
 ]
 }
+if
+(
+!
+build_with_mozilla
+)
+{
 rtc_library
 (
 "
@@ -447,4 +453,5 @@ types
 optional
 "
 ]
+}
 }
