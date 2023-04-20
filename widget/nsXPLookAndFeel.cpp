@@ -1012,6 +1012,11 @@ ui
 .
 videoDynamicRange
 "
+"
+ui
+.
+panelAnimations
+"
 }
 ;
 static_assert

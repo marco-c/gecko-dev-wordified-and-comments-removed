@@ -262,6 +262,14 @@ flexbox
 -
 emulation
 "
+"
+-
+moz
+-
+panel
+-
+animations
+"
 ]
 ;
 const
