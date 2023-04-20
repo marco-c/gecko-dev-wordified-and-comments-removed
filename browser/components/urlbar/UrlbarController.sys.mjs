@@ -6947,7 +6947,10 @@ currentResults
 queryContext
 ?
 .
-results
+view
+?
+.
+visibleResults
 ?
 ?
 [
