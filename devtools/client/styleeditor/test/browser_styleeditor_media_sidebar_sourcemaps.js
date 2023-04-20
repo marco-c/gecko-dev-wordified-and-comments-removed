@@ -135,7 +135,7 @@ openEditor
 mediaEditor
 )
 ;
-testMediaEditor
+testAtRulesEditor
 (
 mediaEditor
 )
@@ -153,7 +153,7 @@ MAP_PREF
 )
 ;
 function
-testMediaEditor
+testAtRulesEditor
 (
 editor
 )
