@@ -37,6 +37,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+URL
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h

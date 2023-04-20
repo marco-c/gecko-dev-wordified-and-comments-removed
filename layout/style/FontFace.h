@@ -73,6 +73,9 @@ h
 class
 gfxFontFaceBufferSource
 ;
+class
+nsIGlobalObject
+;
 struct
 RawServoFontFaceRule
 ;
@@ -154,14 +157,12 @@ return
 mParent
 ;
 }
-virtual
 JSObject
 *
 WrapObject
 (
 JSContext
 *
-aCx
 JS
 :
 :
