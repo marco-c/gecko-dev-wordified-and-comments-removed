@@ -780,6 +780,11 @@ result
 -
 menu
 "
+consumeoutsideclicks
+=
+"
+false
+"
 /
 >
 <
