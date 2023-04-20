@@ -3,14 +3,6 @@
 [
 allow
 (
-warnings
-)
-]
-#
-!
-[
-allow
-(
 clippy
 :
 :
