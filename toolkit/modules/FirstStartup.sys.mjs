@@ -511,7 +511,9 @@ spinEventLoopUntil
 "
 FirstStartup
 .
-jsm
+sys
+.
+mjs
 :
 init
 "
