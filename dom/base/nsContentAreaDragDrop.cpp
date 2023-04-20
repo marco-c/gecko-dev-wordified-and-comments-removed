@@ -3048,7 +3048,7 @@ transferable
 >
 GetTransferData
 (
-kUnicodeMime
+kTextMime
 getter_AddRefs
 (
 supports

@@ -3092,12 +3092,12 @@ as
 raw
 URL
 text
-TYPE_UNICODE
+TYPE_PLAINTEXT
 :
 "
 text
 /
-unicode
+plain
 "
 /
 /
@@ -7125,7 +7125,7 @@ Otherwise
 we
 wrap
 as
-TYPE_UNICODE
+TYPE_PLAINTEXT
 .
 return
 gatherDataFromNode
@@ -7560,7 +7560,7 @@ break
 case
 this
 .
-TYPE_UNICODE
+TYPE_PLAINTEXT
 :
 {
 let
@@ -7612,7 +7612,7 @@ list
 is
 converted
 to
-TYPE_UNICODE
+TYPE_PLAINTEXT
 but
 it
 could

@@ -1047,7 +1047,7 @@ transferable
 >
 AddDataFlavor
 (
-kUnicodeMime
+kTextMime
 )
 ;
 NS_WARNING_ASSERTION
@@ -1062,7 +1062,7 @@ nsITransferable
 :
 AddDataFlavor
 (
-kUnicodeMime
+kTextMime
 )
 failed
 but

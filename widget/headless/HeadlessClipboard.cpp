@@ -102,7 +102,7 @@ aTransferable
 >
 GetTransferData
 (
-kUnicodeMime
+kTextMime
 getter_AddRefs
 (
 clip
@@ -254,7 +254,7 @@ aTransferable
 >
 SetTransferData
 (
-kUnicodeMime
+kTextMime
 genericDataWrapper
 )
 ;
@@ -362,7 +362,7 @@ flavor
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 &
 &

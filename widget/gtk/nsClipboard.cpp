@@ -1583,7 +1583,7 @@ flavorStr
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 )
 {
@@ -3244,7 +3244,7 @@ flavorStr
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 )
 {
@@ -3252,7 +3252,7 @@ LOGCLIP
 (
 "
 Getting
-unicode
+text
 %
 s
 MIME
@@ -3291,7 +3291,7 @@ LOGCLIP
 failed
 to
 get
-unicode
+text
 data
 \
 n
@@ -3338,7 +3338,7 @@ LOGCLIP
 (
 "
 got
-unicode
+text
 data
 length
 %
@@ -3938,7 +3938,7 @@ dataLength
 nsLiteralCString
 flavor
 (
-kUnicodeMime
+kTextMime
 )
 ;
 SetTransferableData
@@ -4002,7 +4002,7 @@ DataPromiseHandler
 (
 aTransferable
 dataPromise
-kUnicodeMime
+kTextMime
 )
 )
 ;
@@ -4563,7 +4563,7 @@ aFlavorStr
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 )
 {
@@ -5550,7 +5550,7 @@ flavor
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 &
 &
@@ -5586,7 +5586,7 @@ LOGCLIP
 (
 "
 has
-kUnicodeMime
+kTextMime
 \
 n
 "
@@ -5937,7 +5937,7 @@ flavor
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 &
 &
@@ -5959,7 +5959,7 @@ LOGCLIP
 (
 "
 has
-kUnicodeMime
+kTextMime
 \
 n
 "
@@ -6312,7 +6312,7 @@ LOGCLIP
 providing
 text
 /
-unicode
+plain
 data
 \
 n
@@ -6329,7 +6329,7 @@ GetTransferData
 "
 text
 /
-unicode
+plain
 "
 getter_AddRefs
 (
@@ -6360,7 +6360,7 @@ to
 get
 text
 /
-unicode
+plain
 !
 \
 n

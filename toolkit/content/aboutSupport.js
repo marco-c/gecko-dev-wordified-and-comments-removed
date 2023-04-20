@@ -8903,7 +8903,7 @@ addDataFlavor
 "
 text
 /
-unicode
+plain
 "
 )
 ;
@@ -8914,7 +8914,7 @@ setTransferData
 "
 text
 /
-unicode
+plain
 "
 str
 )
@@ -9154,7 +9154,7 @@ addDataFlavor
 "
 text
 /
-unicode
+plain
 "
 )
 ;
@@ -9171,7 +9171,7 @@ setTransferData
 "
 text
 /
-unicode
+plain
 "
 ssText
 )

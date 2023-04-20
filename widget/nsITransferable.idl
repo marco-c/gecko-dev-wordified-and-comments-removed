@@ -224,14 +224,6 @@ rtf
 "
 #
 define
-kUnicodeMime
-"
-text
-/
-unicode
-"
-#
-define
 kMozTextInternal
 "
 text

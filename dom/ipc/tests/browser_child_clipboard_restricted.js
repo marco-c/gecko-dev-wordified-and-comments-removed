@@ -142,7 +142,7 @@ addDataFlavor
 "
 text
 /
-unicode
+plain
 "
 )
 ;
@@ -153,7 +153,7 @@ setTransferData
 "
 text
 /
-unicode
+plain
 "
 string
 )
@@ -204,7 +204,7 @@ hasDataMatchingFlavors
 "
 text
 /
-unicode
+plain
 "
 ]
 Services
@@ -319,7 +319,7 @@ hasDataMatchingFlavors
 "
 text
 /
-unicode
+plain
 "
 ]
 Services
@@ -334,7 +334,7 @@ should
 have
 text
 /
-unicode
+plain
 "
 )
 ;
@@ -345,7 +345,7 @@ readClipboard
 "
 text
 /
-unicode
+plain
 "
 )
 "
@@ -357,7 +357,7 @@ string
 for
 text
 /
-unicode
+plain
 "
 )
 ;

@@ -53,7 +53,7 @@ flavor
 "
 text
 /
-unicode
+plain
 "
 ;
 const

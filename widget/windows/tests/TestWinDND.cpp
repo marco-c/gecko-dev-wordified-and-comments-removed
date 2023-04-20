@@ -1013,7 +1013,7 @@ SetTransferData
 "
 text
 /
-unicode
+plain
 "
 genericWrapper
 mozString
@@ -1130,7 +1130,7 @@ SetTransferData
 "
 text
 /
-unicode
+plain
 "
 genericWrapper
 mozString

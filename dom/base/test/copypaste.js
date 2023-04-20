@@ -293,7 +293,7 @@ hasDataMatchingFlavors
 "
 text
 /
-unicode
+plain
 "
 ]
 1
@@ -302,7 +302,7 @@ unicode
 check
 text
 /
-unicode
+plain
 "
 )
 ;
@@ -942,7 +942,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 This
@@ -1051,7 +1051,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 bla
@@ -1182,7 +1182,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 mozilla
@@ -1317,7 +1317,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 mzla
@@ -1466,7 +1466,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 Tt
@@ -1671,7 +1671,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 T
@@ -1884,7 +1884,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 "
@@ -1956,7 +1956,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 "
@@ -2028,7 +2028,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 "
@@ -2096,7 +2096,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 div9
@@ -3244,7 +3244,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 __
@@ -3297,7 +3297,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 foo
@@ -3334,7 +3334,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 1
@@ -3495,7 +3495,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 1
@@ -3622,7 +3622,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 Xdiv11
@@ -3737,7 +3737,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 Xdiv12
@@ -3856,7 +3856,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 aabb
@@ -3880,7 +3880,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 XaabbY
@@ -3924,7 +3924,7 @@ testClipboardValue
 "
 text
 /
-unicode
+plain
 "
 "
 Xaabb

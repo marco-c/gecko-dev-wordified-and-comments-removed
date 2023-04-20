@@ -54,7 +54,7 @@ addDataFlavor
 "
 text
 /
-unicode
+plain
 "
 )
 ;
@@ -85,7 +85,7 @@ getTransferData
 "
 text
 /
-unicode
+plain
 "
 data
 )

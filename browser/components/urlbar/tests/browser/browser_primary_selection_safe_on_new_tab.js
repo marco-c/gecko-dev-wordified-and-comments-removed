@@ -209,7 +209,7 @@ getClipboardData
 "
 text
 /
-unicode
+plain
 "
 SpecialPowers
 .

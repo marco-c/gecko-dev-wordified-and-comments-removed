@@ -87,7 +87,7 @@ addDataFlavor
 "
 text
 /
-unicode
+plain
 "
 )
 ;

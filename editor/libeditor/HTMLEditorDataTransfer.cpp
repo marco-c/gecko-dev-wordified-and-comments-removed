@@ -7552,7 +7552,7 @@ aTransferable
 .
 AddDataFlavor
 (
-kUnicodeMime
+kTextMime
 )
 ;
 NS_WARNING_ASSERTION
@@ -7567,7 +7567,7 @@ nsITransferable
 :
 AddDataFlavor
 (
-kUnicodeMime
+kTextMime
 )
 failed
 but
@@ -10571,7 +10571,7 @@ bestFlavor
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 |
 |
@@ -13381,7 +13381,7 @@ textEditorFlavors
 ]
 =
 {
-kUnicodeMime
+kTextMime
 }
 ;
 static
@@ -13393,7 +13393,7 @@ textHtmlEditorFlavors
 ]
 =
 {
-kUnicodeMime
+kTextMime
 kHTMLMime
 kJPEGImageMime
 kJPGImageMime
@@ -14745,7 +14745,7 @@ transferable
 >
 AddDataFlavor
 (
-kUnicodeMime
+kTextMime
 )
 ;
 NS_WARNING_ASSERTION
@@ -14760,7 +14760,7 @@ nsITransferable
 :
 AddDataFlavor
 (
-kUnicodeMime
+kTextMime
 )
 failed
 but
@@ -14853,7 +14853,7 @@ flavor
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 )
 {

@@ -477,7 +477,11 @@ mimeType
 .
 AssignLiteral
 (
-kUnicodeMime
+"
+text
+/
+unicode
+"
 )
 ;
 uint32_t
@@ -1138,7 +1142,7 @@ aTransferable
 aEncodedDocumentWithContext
 .
 mSerializationForTextUnicode
-kUnicodeMime
+kTextMime
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1242,7 +1246,7 @@ aTransferable
 aEncodedDocumentWithContext
 .
 mSerializationForTextUnicode
-kUnicodeMime
+kTextMime
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2006,7 +2010,7 @@ NS_ConvertUTF8toUTF16
 (
 location
 )
-kUnicodeMime
+kTextMime
 )
 ;
 NS_ENSURE_SUCCESS

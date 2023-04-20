@@ -148,7 +148,7 @@ flavorStr
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 )
 {
@@ -166,7 +166,7 @@ aTransferable
 >
 GetTransferData
 (
-kUnicodeMime
+kTextMime
 getter_AddRefs
 (
 item
@@ -428,7 +428,7 @@ flavorStr
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 |
 |

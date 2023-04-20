@@ -5257,7 +5257,7 @@ aFlavor
 "
 text
 /
-unicode
+plain
 "
 ;
 let
@@ -5723,7 +5723,7 @@ preExpectedVal
 "
 text
 /
-unicode
+plain
 "
 false
 )

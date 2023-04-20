@@ -265,7 +265,7 @@ getData
 "
 text
 /
-unicode
+plain
 "
 )
 ;

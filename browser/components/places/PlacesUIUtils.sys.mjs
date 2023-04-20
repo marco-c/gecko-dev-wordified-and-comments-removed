@@ -11325,7 +11325,7 @@ lazy
 .
 PlacesUtils
 .
-TYPE_UNICODE
+TYPE_PLAINTEXT
 entries
 :
 [
@@ -12810,7 +12810,7 @@ lazy
 .
 PlacesUtils
 .
-TYPE_UNICODE
+TYPE_PLAINTEXT
 ]
 ;
 }
@@ -14189,7 +14189,7 @@ lazy
 .
 PlacesUtils
 .
-TYPE_UNICODE
+TYPE_PLAINTEXT
 ?
 item
 .

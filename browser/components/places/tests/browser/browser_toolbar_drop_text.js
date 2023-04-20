@@ -598,11 +598,6 @@ plain
 "
 text
 /
-unicode
-"
-"
-text
-/
 x
 -
 moz

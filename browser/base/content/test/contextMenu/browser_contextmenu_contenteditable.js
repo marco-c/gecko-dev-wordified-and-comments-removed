@@ -452,7 +452,7 @@ addDataFlavor
 "
 text
 /
-unicode
+plain
 "
 )
 ;
@@ -463,7 +463,7 @@ setTransferData
 "
 text
 /
-unicode
+plain
 "
 PlacesUtils
 .

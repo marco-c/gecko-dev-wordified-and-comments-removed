@@ -1673,7 +1673,7 @@ url
 "
 text
 /
-unicode
+plain
 "
 ]
 ;

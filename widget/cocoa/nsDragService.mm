@@ -1887,7 +1887,7 @@ dataFlavor
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 )
 {

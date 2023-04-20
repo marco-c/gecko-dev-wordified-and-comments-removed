@@ -860,8 +860,9 @@ NSData
 *
 stringData
 ;
-if
-(
+bool
+isRTF
+=
 [
 pboardType
 isEqualToString
@@ -873,6 +874,10 @@ stringFromPboardType
 NSPasteboardTypeRTF
 ]
 ]
+;
+if
+(
+isRTF
 )
 {
 stringData
@@ -945,7 +950,7 @@ nsLinebreakHelpers
 :
 ConvertPlatformToDOMLinebreaks
 (
-flavorStr
+isRTF
 &
 clipboardDataPtr
 &
@@ -4139,7 +4144,7 @@ aMIMEType
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 )
 {

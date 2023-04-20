@@ -2463,7 +2463,7 @@ url
 "
 text
 /
-unicode
+plain
 "
 ]
 ;

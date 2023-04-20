@@ -316,7 +316,7 @@ bestFlavor
 .
 EqualsLiteral
 (
-kUnicodeMime
+kTextMime
 )
 |
 |
@@ -1378,7 +1378,7 @@ textEditorFlavors
 {
 nsDependentCString
 (
-kUnicodeMime
+kTextMime
 )
 }
 ;
@@ -1472,7 +1472,7 @@ aTransferable
 >
 GetTransferData
 (
-kUnicodeMime
+kTextMime
 getter_AddRefs
 (
 data
@@ -1491,7 +1491,7 @@ nsITransferable
 :
 GetTransferData
 (
-kUnicodeMime
+kTextMime
 )
 failed
 "
