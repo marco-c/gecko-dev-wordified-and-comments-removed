@@ -106,6 +106,17 @@ MIDIPermissionRequest
 =
 default
 ;
+nsresult
+DoPrompt
+(
+)
+;
+nsCOMPtr
+<
+nsITimer
+>
+mCancelTimer
+;
 RefPtr
 <
 Promise
