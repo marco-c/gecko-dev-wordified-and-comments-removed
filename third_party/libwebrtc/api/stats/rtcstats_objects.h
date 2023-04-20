@@ -2438,6 +2438,15 @@ uint64_t
 >
 qp_sum
 ;
+RTCStatsMember
+<
+std
+:
+:
+string
+>
+goog_timing_frame_info
+;
 RTCNonStandardStatsMember
 <
 uint64_t
