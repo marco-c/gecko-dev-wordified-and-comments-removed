@@ -64,16 +64,7 @@ MPL
 DevToolsModules
 (
 "
-menu
--
-button
-.
-jsm
-.
-js
-"
-"
-panel
+background
 .
 jsm
 .
