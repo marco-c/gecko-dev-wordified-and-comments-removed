@@ -1462,7 +1462,7 @@ nsTHashMap
 uint64_t
 nsTHashMap
 <
-uint64_t
+RelationType
 nsTArray
 <
 uint64_t
