@@ -259,7 +259,7 @@ checkInvariants
 ;
 JSContext
 *
-context
+maybeCx
 ;
 private
 :
@@ -308,7 +308,9 @@ Sprinter
 (
 JSContext
 *
-cx
+maybeCx
+=
+nullptr
 bool
 shouldReportOOM
 =

@@ -9583,7 +9583,6 @@ parserAtoms_
 .
 toPrintableString
 (
-cx_
 name
 )
 )
@@ -9597,6 +9596,14 @@ bytes
 get
 (
 )
+)
+;
+}
+else
+{
+ReportOutOfMemory
+(
+cx_
 )
 ;
 }
