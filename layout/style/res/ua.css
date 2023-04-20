@@ -569,6 +569,16 @@ paint
 '
 *
 /
+container
+:
+inherit
+;
+/
+*
+Bug
+1805588
+*
+/
 scroll
 -
 margin
