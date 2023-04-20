@@ -154,6 +154,14 @@ LastRelease
 }
 public
 :
+enum
+class
+HoldDropJSObjectsCaller
+{
+Implicit
+Explicit
+}
+;
 explicit
 WritableStream
 (
@@ -161,6 +169,8 @@ const
 GlobalObject
 &
 aGlobal
+HoldDropJSObjectsCaller
+aHoldDropCaller
 )
 ;
 explicit
@@ -169,6 +179,8 @@ WritableStream
 nsIGlobalObject
 *
 aGlobal
+HoldDropJSObjectsCaller
+aHoldDropCaller
 )
 ;
 enum
@@ -839,6 +851,9 @@ nsCOMPtr
 nsIGlobalObject
 >
 mGlobal
+;
+HoldDropJSObjectsCaller
+mHoldDropCaller
 ;
 }
 ;
