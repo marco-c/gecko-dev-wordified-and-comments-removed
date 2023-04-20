@@ -3426,10 +3426,6 @@ Cell
 cell
 MarkColor
 color
-const
-AutoLockGC
-&
-lock
 )
 ;
 bool
@@ -6282,6 +6278,13 @@ js
 :
 Mutex
 lock
+MOZ_UNANNOTATED
+;
+js
+:
+:
+Mutex
+delayedMarkingLock
 MOZ_UNANNOTATED
 ;
 friend
