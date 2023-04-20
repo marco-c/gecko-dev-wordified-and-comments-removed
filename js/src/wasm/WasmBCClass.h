@@ -373,6 +373,14 @@ stackArgAreaSize
 ;
 enum
 class
+PreBarrierKind
+{
+None
+Normal
+}
+;
+enum
+class
 PostBarrierKind
 {
 Precise
@@ -4483,8 +4491,10 @@ RegPtr
 valueAddr
 RegRef
 value
+PreBarrierKind
+preBarrierKind
 PostBarrierKind
-kind
+postBarrierKind
 )
 ;
 void
@@ -6825,6 +6835,8 @@ FieldType
 fieldType
 AnyReg
 value
+PreBarrierKind
+preBarrierKind
 )
 ;
 [
@@ -6847,6 +6859,8 @@ ArrayType
 array
 AnyReg
 value
+PreBarrierKind
+preBarrierKind
 )
 ;
 #
