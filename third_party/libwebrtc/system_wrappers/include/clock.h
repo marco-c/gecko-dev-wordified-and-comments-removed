@@ -124,7 +124,6 @@ us
 )
 ;
 }
-virtual
 NtpTime
 CurrentNtpTime
 (
