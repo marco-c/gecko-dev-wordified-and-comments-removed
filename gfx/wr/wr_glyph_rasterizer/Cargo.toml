@@ -113,6 +113,9 @@ gecko
 "
 fog
 "
+"
+glean
+"
 ]
 [
 dependencies
@@ -240,6 +243,9 @@ fxhash
 "
 glean
 =
+{
+version
+=
 "
 51
 .
@@ -247,6 +253,10 @@ glean
 .
 2
 "
+optional
+=
+true
+}
 fog
 =
 {
