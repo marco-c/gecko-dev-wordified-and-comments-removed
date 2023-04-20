@@ -1520,6 +1520,34 @@ chrome
 "
                     
 "
+media
+-
+bc
+"
+                    
+None
+                
+)
+:
+"
+mochitest
+-
+browser
+-
+media
+"
+                
+(
+                    
+"
+mochitest
+-
+browser
+-
+chrome
+"
+                    
+"
 devtools
 "
                     
