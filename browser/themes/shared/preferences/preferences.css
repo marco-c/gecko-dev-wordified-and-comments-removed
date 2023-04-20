@@ -5389,15 +5389,13 @@ max
 -
 width
 :
-150px
+10em
 ;
 font
 -
 size
 :
-1
-.
-25rem
+1rem
 ;
 position
 :
@@ -5406,7 +5404,8 @@ absolute
 padding
 :
 0
-10px
+.
+7em
 ;
 background
 -
