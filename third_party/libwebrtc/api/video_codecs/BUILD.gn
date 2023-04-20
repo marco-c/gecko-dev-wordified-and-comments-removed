@@ -900,6 +900,17 @@ video_codecs_api
 .
 .
 /
+api
+:
+array_view
+"
+"
+.
+.
+/
+.
+.
+/
 modules
 /
 video_coding
