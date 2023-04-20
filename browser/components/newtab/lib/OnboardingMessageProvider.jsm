@@ -4911,6 +4911,9 @@ small
 -
 icon
 "
+persistent_doorhanger
+:
+true
 heading_text
 :
 {
@@ -5054,6 +5057,13 @@ value
 false
 }
 }
+}
+{
+type
+:
+"
+RELOAD_BROWSER
+"
 }
 ]
 }
