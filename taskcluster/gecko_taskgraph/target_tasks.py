@@ -1555,6 +1555,23 @@ False
     
 if
 "
+p5
+"
+in
+platform
+and
+"
+aarch64
+"
+in
+platform
+:
+        
+return
+False
+    
+if
+"
 g5
 "
 in
@@ -4817,6 +4834,7 @@ in
 try_name
 and
 (
+                
 "
 -
 a51
@@ -4830,6 +4848,14 @@ p2
 "
 in
 platform
+or
+"
+-
+p5
+"
+in
+platform
+            
 )
 :
                 

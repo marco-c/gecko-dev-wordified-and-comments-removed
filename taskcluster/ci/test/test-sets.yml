@@ -2060,7 +2060,7 @@ android
 -
 hw
 -
-aarch64
+p5
 :
 -
 crashtest
@@ -2070,6 +2070,12 @@ qr
 reftest
 -
 qr
+android
+-
+hw
+-
+aarch64
+:
 -
 mochitest
 -
