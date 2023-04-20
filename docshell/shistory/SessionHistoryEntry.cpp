@@ -2132,6 +2132,7 @@ LoadingSessionHistoryInfo
 SessionHistoryEntry
 *
 aEntry
+const
 LoadingSessionHistoryInfo
 *
 aInfo
