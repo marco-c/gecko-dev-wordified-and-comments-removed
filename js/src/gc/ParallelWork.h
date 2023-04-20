@@ -309,12 +309,6 @@ MaxParallelWorkers
 =
 8
 ;
-extern
-size_t
-ParallelWorkerCount
-(
-)
-;
 template
 <
 typename
