@@ -515,9 +515,6 @@ nullptr
 ;
 baseURL
 =
-workerPrivate
--
->
 GetBaseURI
 (
 )

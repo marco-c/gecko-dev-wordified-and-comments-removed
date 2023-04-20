@@ -885,19 +885,6 @@ EmptyWorkerSourceWarning
 )
 ;
 }
-if
-(
-loadContext
--
->
-mRequest
--
->
-IsModuleRequest
-(
-)
-)
-{
 nsCOMPtr
 <
 nsIURI
@@ -940,7 +927,6 @@ mBaseURL
 )
 )
 ;
-}
 nsCOMPtr
 <
 nsIURI
