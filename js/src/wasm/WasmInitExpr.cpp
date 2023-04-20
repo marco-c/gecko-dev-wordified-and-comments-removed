@@ -1031,6 +1031,8 @@ readArrayNewFixed
 typeIndex
 &
 len
+&
+nothings
 )
 )
 {

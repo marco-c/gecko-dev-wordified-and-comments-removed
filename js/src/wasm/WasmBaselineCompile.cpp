@@ -28005,8 +28005,11 @@ t
 ValType
 :
 :
-hostPtr
+fromMIRType
 (
+TargetWordMIRType
+(
+)
 )
 ;
 break
@@ -33260,6 +33263,11 @@ uint32_t
 typeIndex
 numElements
 ;
+BaseNothingVector
+nothings
+{
+}
+;
 if
 (
 !
@@ -33271,6 +33279,8 @@ readArrayNewFixed
 typeIndex
 &
 numElements
+&
+nothings
 )
 )
 {

@@ -4282,6 +4282,8 @@ readArrayNewFixed
 unusedUint1
 &
 unusedUint2
+&
+nothings
 )
 )
 ;

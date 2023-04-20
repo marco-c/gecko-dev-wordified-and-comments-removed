@@ -23400,6 +23400,12 @@ Compare_UInt32
 compareType_
 =
 =
+Compare_UInt64
+|
+|
+compareType_
+=
+=
 Compare_Double
 |
 |
