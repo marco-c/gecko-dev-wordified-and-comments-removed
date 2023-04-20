@@ -220,8 +220,6 @@ connection
 await
 websockets
 .
-client
-.
 connect
 (
 self
