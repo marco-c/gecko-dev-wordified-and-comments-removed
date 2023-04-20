@@ -1317,6 +1317,11 @@ _maybeScheduleProgressUpdate
 {
 if
 (
+this
+.
+indicator
+&
+&
 !
 this
 .
