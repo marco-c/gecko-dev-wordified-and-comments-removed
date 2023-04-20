@@ -966,6 +966,10 @@ ownerGlobal
 ;
 let
 result
+;
+try
+{
+result
 =
 await
 taskFn
@@ -975,6 +979,9 @@ tab
 linkedBrowser
 )
 ;
+}
+finally
+{
 let
 finalWindow
 =
@@ -1084,6 +1091,7 @@ called
 "
 )
 ;
+}
 }
 return
 Promise
