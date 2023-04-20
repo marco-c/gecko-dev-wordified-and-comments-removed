@@ -227,6 +227,9 @@ _conn
 :
 &
 Connection
+_db_empty
+:
+bool
 )
 -
 >
@@ -496,9 +499,9 @@ NAME
 )
 ;
 let
-run_init
+db_empty
 =
-should_init
+is_db_empty
 (
 &
 conn
@@ -529,6 +532,7 @@ prepare
 (
 &
 conn
+db_empty
 )
 ?
 ;
@@ -558,7 +562,7 @@ Immediate
 ?
 ;
 if
-run_init
+db_empty
 {
 log
 :
@@ -729,7 +733,7 @@ assert
 !
 (
 !
-run_init
+db_empty
 "
 existing
 writer
@@ -1176,7 +1180,7 @@ err
 }
 }
 fn
-should_init
+is_db_empty
 (
 conn
 :
@@ -1928,6 +1932,9 @@ conn
 :
 &
 Connection
+_
+:
+bool
 )
 -
 >

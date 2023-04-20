@@ -18,9 +18,6 @@ bridged_engine
 {
 ApplyResults
 BridgedEngine
-IncomingEnvelope
-OutgoingEnvelope
-PayloadError
 }
 ;
 pub

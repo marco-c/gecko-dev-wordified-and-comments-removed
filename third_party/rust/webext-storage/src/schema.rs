@@ -125,6 +125,9 @@ conn
 :
 &
 Connection
+_db_empty
+:
+bool
 )
 -
 >

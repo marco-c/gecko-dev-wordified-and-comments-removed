@@ -291,6 +291,10 @@ Error
 error
 (
 "
+Sync
+Payload
+Error
+:
 {
 0
 }
@@ -306,10 +310,7 @@ from
 sync15
 :
 :
-engine
-:
-:
-PayloadError
+Error
 )
 }
 error_support
@@ -363,10 +364,7 @@ IncomingPayloadError
 sync15
 :
 :
-engine
-:
-:
-PayloadError
+Error
 )
 (
 OpenDatabaseError

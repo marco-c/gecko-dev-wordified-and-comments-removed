@@ -20,15 +20,10 @@ use
 crate
 :
 :
-ServerTimestamp
-;
-use
-crate
-:
-:
 {
 EncryptedPayload
 KeyBundle
+ServerTimestamp
 }
 ;
 use
@@ -148,7 +143,7 @@ CryptoKeysRecord
 =
 record
 .
-decrypt_and_parse_payload
+decrypt_into
 (
 root_key
 )

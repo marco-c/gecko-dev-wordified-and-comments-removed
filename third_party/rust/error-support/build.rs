@@ -3,17 +3,6 @@ main
 (
 )
 {
-#
-[
-cfg
-(
-feature
-=
-"
-reporting
-"
-)
-]
 uniffi_build
 :
 :
