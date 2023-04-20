@@ -256,6 +256,14 @@ ComputePageSize
 )
 ;
 }
+nsIFrame
+*
+FirstContinuation
+(
+)
+const
+final
+;
 protected
 :
 explicit
