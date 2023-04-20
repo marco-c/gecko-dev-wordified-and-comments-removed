@@ -1,8 +1,9 @@
-Feature
+Permissions
 -
 Policy
 :
 geolocation
-'
+=
+(
 self
-'
+)
