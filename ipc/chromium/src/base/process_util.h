@@ -709,6 +709,10 @@ IsProcessDead
 (
 ProcessHandle
 handle
+bool
+blocking
+=
+false
 )
 ;
 #
