@@ -373,13 +373,6 @@ opus_sources
 '
 src
 /
-mapping_matrix
-.
-c
-'
-'
-src
-/
 opus
 .
 c
@@ -416,13 +409,6 @@ c
 src
 /
 opus_multistream_encoder
-.
-c
-'
-'
-src
-/
-opus_projection_decoder
 .
 c
 '
