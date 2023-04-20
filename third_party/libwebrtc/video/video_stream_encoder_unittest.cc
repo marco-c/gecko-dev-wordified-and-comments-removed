@@ -4682,7 +4682,7 @@ MOCK_METHOD
 void
 UpdateLayerQualityConvergence
 (
-int
+size_t
 spatial_index
 bool
 converged
@@ -4697,7 +4697,7 @@ MOCK_METHOD
 void
 UpdateLayerStatus
 (
-int
+size_t
 spatial_index
 bool
 enabled
@@ -53521,7 +53521,7 @@ ZeroHertzModeParams
 num_simulcast_layers
 Eq
 (
-0
+0u
 )
 )
 )
@@ -53595,7 +53595,7 @@ ZeroHertzModeParams
 num_simulcast_layers
 Gt
 (
-0
+0u
 )
 )
 )
