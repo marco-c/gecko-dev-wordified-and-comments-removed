@@ -92,7 +92,7 @@ EXPECTED_MESSAGE_COUNTS
 {
 cfr_doorhanger
 :
-2
+1
 milestone_message
 :
 0
