@@ -251,7 +251,7 @@ aElement
 )
 ;
 bool
-IsWhitelistedEvent
+IsEventAllowedWhenScriptingIsDisabled
 (
 )
 ;

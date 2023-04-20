@@ -1045,7 +1045,7 @@ bool
 SMILTimeValueSpec
 :
 :
-IsWhitelistedEvent
+IsEventAllowedWhenScriptingIsDisabled
 (
 )
 {
@@ -1212,7 +1212,7 @@ IsScriptEnabled
 &
 &
 !
-IsWhitelistedEvent
+IsEventAllowedWhenScriptingIsDisabled
 (
 )
 )
