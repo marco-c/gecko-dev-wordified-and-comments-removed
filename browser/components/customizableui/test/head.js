@@ -568,8 +568,6 @@ tb
 setAttribute
 (
 "
-default
--
 overflowpanel
 "
 overflowPanel
@@ -582,8 +580,6 @@ tb
 setAttribute
 (
 "
-default
--
 overflowtarget
 "
 overflowList
@@ -596,8 +592,6 @@ tb
 setAttribute
 (
 "
-default
--
 overflowbutton
 "
 chevron

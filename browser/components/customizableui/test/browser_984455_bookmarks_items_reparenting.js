@@ -27,8 +27,6 @@ gNavBar
 getAttribute
 (
 "
-default
--
 overflowtarget
 "
 )
