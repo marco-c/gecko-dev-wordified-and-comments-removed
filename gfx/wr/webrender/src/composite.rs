@@ -39,10 +39,7 @@ use
 euclid
 :
 :
-{
 Box2D
-Transform3D
-}
 ;
 use
 crate
@@ -2656,10 +2653,6 @@ tile_cache
 .
 transform_index
 )
-.
-to_transform
-(
-)
 ;
 let
 image_rendering
@@ -3298,10 +3291,6 @@ get_compositor_transform
 external_surface
 .
 transform_index
-)
-.
-to_transform
-(
 )
 image_dependencies
 :
@@ -4216,12 +4205,7 @@ pub
 type
 CompositorSurfaceTransform
 =
-Transform3D
-<
-f32
-DevicePixel
-DevicePixel
->
+ScaleOffset
 ;
 pub
 trait
