@@ -555,6 +555,8 @@ WindowId
 aWindowId
 bool
 aRender
+bool
+aTrackedFrame
 )
 ;
 void
@@ -1124,6 +1126,8 @@ WindowId
 aWindowId
 bool
 aRender
+bool
+aTrackedFrame
 )
 ;
 void
