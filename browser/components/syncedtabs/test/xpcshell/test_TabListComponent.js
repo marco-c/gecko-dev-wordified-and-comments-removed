@@ -614,15 +614,6 @@ resolve
 ;
 }
 }
-PlacesUtils
-:
-{
-bookmarksMenuFolderId
-:
-"
-id
-"
-}
 }
 openDialog
 (
