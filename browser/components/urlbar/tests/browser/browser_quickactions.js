@@ -221,7 +221,7 @@ label
 "
 quickactions
 -
-downloads
+downloads2
 "
 onPick
 :
@@ -444,7 +444,7 @@ window
 value
 :
 "
-Open
+View
 Dow
 "
 }
@@ -1288,7 +1288,7 @@ label
 "
 quickactions
 -
-downloads
+downloads2
 "
 }
 )

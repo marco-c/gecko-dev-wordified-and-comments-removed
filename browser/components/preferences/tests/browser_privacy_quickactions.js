@@ -110,7 +110,7 @@ label
 "
 quickactions
 -
-downloads
+downloads2
 "
 }
 )
