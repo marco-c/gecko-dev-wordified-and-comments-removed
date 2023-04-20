@@ -4799,14 +4799,6 @@ aFrame
 IsHTMLButtonControlFrame
 (
 )
-|
-|
-aFrame
--
->
-IsTableCellFrame
-(
-)
 )
 {
 return
