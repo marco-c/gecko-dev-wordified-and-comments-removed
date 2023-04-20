@@ -101,6 +101,7 @@ worker
 .
 onmessage
 =
+async
 function
 (
 event
@@ -183,6 +184,7 @@ mjs
 )
 ;
 }
+await
 modules
 [
 moduleName
