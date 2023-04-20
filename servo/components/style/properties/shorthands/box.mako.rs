@@ -279,6 +279,11 @@ queries
 .
 enabled
 "
+enabled_in
+=
+"
+ua
+"
 spec
 =
 "
