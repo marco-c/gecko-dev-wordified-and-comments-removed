@@ -409,7 +409,6 @@ SCTP_TIMERQ_LOCK
 ;
 if
 (
-!
 (
 c
 -
@@ -418,6 +417,9 @@ c_flags
 &
 SCTP_CALLOUT_PENDING
 )
+=
+=
+0
 )
 {
 c

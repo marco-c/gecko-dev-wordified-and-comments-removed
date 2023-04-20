@@ -1576,6 +1576,9 @@ socket
 sock
 uint32_t
 sb_free
+void
+*
+ulp_info
 )
 {
 RefPtr
