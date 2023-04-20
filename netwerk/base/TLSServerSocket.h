@@ -7,6 +7,13 @@ mozilla_net_TLSServerSocket_h
 #
 include
 "
+nsIInterfaceRequestor
+.
+h
+"
+#
+include
+"
 nsITLSServerSocket
 .
 h

@@ -1043,6 +1043,9 @@ this
 nullptr
 ;
 {
+mozilla
+:
+:
 MutexAutoLock
 lock
 (
@@ -1106,6 +1109,9 @@ nsIInputStreamCallback
 callback
 ;
 {
+mozilla
+:
+:
 MutexAutoLock
 lock
 (
@@ -1703,6 +1709,9 @@ this
 nullptr
 ;
 {
+mozilla
+:
+:
 MutexAutoLock
 lock
 (
@@ -1745,6 +1754,9 @@ nsIInputStreamLengthCallback
 callback
 ;
 {
+mozilla
+:
+:
 MutexAutoLock
 lock
 (

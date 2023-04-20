@@ -100,6 +100,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsStreamUtils
 .
 h
@@ -109,13 +116,6 @@ include
 <
 algorithm
 >
-static
-NS_DEFINE_CID
-(
-kStreamTransportServiceCID
-NS_STREAMTRANSPORTSERVICE_CID
-)
-;
 static
 mozilla
 :
@@ -472,6 +472,9 @@ ReadSegments
 CallPeekFunc
 &
 data
+mozilla
+:
+:
 net
 :
 :
@@ -537,6 +540,9 @@ mLabeledMainThreadTarget
 :
 do_AddRef
 (
+mozilla
+:
+:
 GetMainThreadSerialEventTarget
 (
 )
@@ -2636,6 +2642,9 @@ mLabeledMainThreadTarget
 >
 Dispatch
 (
+mozilla
+:
+:
 NewRunnableMethod
 (
 "

@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIServerSocket
 .
 h
