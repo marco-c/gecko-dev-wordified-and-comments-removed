@@ -76,7 +76,7 @@ bool
 AsyncEmitter
 :
 :
-prepareForParamsWithExpression
+prepareForParamsWithExpressionOrDestructuring
 (
 )
 {
@@ -137,7 +137,7 @@ bool
 AsyncEmitter
 :
 :
-prepareForParamsWithoutExpression
+prepareForParamsWithoutExpressionOrDestructuring
 (
 )
 {
