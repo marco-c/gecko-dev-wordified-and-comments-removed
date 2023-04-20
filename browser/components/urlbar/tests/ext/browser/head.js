@@ -28,8 +28,6 @@ urlbar
 /
 tests
 /
-ext
-/
 browser
 /
 head
