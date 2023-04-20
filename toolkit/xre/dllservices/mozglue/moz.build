@@ -159,6 +159,11 @@ glue
 =
 [
 "
+SharedSection
+.
+h
+"
+"
 WindowsDllServices
 .
 h

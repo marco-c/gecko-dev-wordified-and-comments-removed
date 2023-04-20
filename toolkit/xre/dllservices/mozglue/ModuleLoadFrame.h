@@ -111,9 +111,9 @@ aNewObserver
 nt
 :
 :
-WinLauncherFunctions
+WinLauncherServices
 *
-aOutWinLauncherFunctions
+aOutWinLauncher
 )
 ;
 private
