@@ -29,9 +29,9 @@ netwerk
 /
 dns
 /
-TRRSkippedReason
+nsITRRSkipReason
 .
-h
+idl
 )
 and
 are
