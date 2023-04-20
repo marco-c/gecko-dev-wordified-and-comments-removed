@@ -834,6 +834,15 @@ initialize
 \
 n
 "
+"
+race
+:
+libvulkan_lvp
+.
+so
+\
+n
+"
 ;
 }
 #
