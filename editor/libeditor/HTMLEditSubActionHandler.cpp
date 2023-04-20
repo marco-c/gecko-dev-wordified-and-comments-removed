@@ -33908,7 +33908,7 @@ IsInContent
 NS_WARNING
 (
 "
-Mutaiton
+Mutation
 event
 listener
 might
@@ -33935,7 +33935,9 @@ IsSet
 ?
 pointToPutCaret
 :
-GetFirstSelectionStartPoint
+aRanges
+.
+GetFirstRangeStartPoint
 <
 EditorDOMPoint
 >
