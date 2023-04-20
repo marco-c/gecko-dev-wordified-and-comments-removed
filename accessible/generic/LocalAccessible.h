@@ -2089,6 +2089,17 @@ aBusy
 const
 override
 ;
+virtual
+Maybe
+<
+bool
+>
+ARIASelected
+(
+)
+const
+override
+;
 protected
 :
 virtual

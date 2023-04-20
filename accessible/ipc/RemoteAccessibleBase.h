@@ -876,6 +876,17 @@ const
 override
 ;
 virtual
+Maybe
+<
+bool
+>
+ARIASelected
+(
+)
+const
+override
+;
+virtual
 uint8_t
 ActionCount
 (
