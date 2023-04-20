@@ -187,9 +187,6 @@ hal_sandbox
 {
 [
 ManualDealloc
-NestedUpTo
-=
-inside_cpow
 ChildImpl
 =
 virtual

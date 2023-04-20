@@ -10,9 +10,6 @@ net
 {
 [
 ManualDealloc
-NestedUpTo
-=
-inside_cpow
 NeedsOtherPid
 ]
 sync
