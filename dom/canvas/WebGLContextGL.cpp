@@ -6651,7 +6651,7 @@ destIndex
 =
 texUnits
 .
-size
+Length
 (
 )
 )
@@ -6662,7 +6662,13 @@ texUnits
 destIndex
 ]
 =
+AssertedCast
+<
+uint8_t
+>
+(
 val
+)
 ;
 destIndex
 +
