@@ -140,6 +140,14 @@ OnFailedToProcessBuffer
 =
 0
 ;
+virtual
+void
+OnStreamConfigured
+(
+)
+=
+0
+;
 protected
 :
 Observer
