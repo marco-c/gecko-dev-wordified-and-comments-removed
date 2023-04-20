@@ -830,6 +830,13 @@ uint32_t
 local_ssrc
 )
 ;
+void
+SetRtcpMode
+(
+RtcpMode
+mode
+)
+;
 absl
 :
 :

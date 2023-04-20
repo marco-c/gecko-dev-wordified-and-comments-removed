@@ -625,6 +625,14 @@ transport_cc
 )
 override
 ;
+void
+SetRtcpMode
+(
+RtcpMode
+mode
+)
+override
+;
 webrtc
 :
 :

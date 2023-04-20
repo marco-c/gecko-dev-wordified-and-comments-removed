@@ -161,6 +161,16 @@ nullptr
 ;
 }
 ;
+virtual
+void
+SetRtcpMode
+(
+RtcpMode
+mode
+)
+=
+0
+;
 }
 ;
 }
