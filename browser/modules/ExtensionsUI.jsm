@@ -2427,12 +2427,16 @@ eventCallback
 removeOnDismissal
 :
 true
+popupOptions
+:
+{
 position
 :
 "
 bottomright
 topright
 "
+}
 }
 ;
 if
