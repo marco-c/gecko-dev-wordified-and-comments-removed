@@ -69,6 +69,7 @@ close
 (
 )
 ;
+await
 IOUtils
 .
 remove
@@ -93,6 +94,15 @@ testgetRowsFromDBWithoutLocksRetries
 )
 {
 let
+deferred
+=
+PromiseUtils
+.
+defer
+(
+)
+;
+let
 promise
 =
 MigrationUtils
@@ -112,6 +122,9 @@ SELECT
 FROM
 moz_temp_table
 "
+deferred
+.
+promise
 )
 ;
 await
@@ -143,6 +156,13 @@ PRIMARY
 KEY
 )
 "
+)
+.
+then
+(
+deferred
+.
+resolve
 )
 ;
 await
