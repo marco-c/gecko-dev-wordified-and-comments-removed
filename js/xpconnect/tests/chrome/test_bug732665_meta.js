@@ -22,12 +22,6 @@ inner
 {
 try
 {
-with
-(
-{
-}
-)
-{
 stackTop
 =
 stackPointerInfo
@@ -46,7 +40,6 @@ inner
 "
 )
 ;
-}
 return
 stepsFromLimit
 +
