@@ -3011,6 +3011,11 @@ Gecko_IsMainThread
 (
 )
 ;
+bool
+Gecko_IsDOMWorkerThread
+(
+)
+;
 mozilla
 :
 :
