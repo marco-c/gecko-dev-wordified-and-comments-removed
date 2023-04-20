@@ -33,13 +33,14 @@ ExtensionsChild
 final
 :
 public
-nsISupports
+nsIObserver
 public
 PExtensionsChild
 {
 public
 :
 NS_DECL_ISUPPORTS
+NS_DECL_NSIOBSERVER
 static
 already_AddRefed
 <
