@@ -203,6 +203,12 @@ offset
 count
 )
 {
+read_stream
+(
+stream
+count
+)
+;
 request
 .
 QueryInterface
@@ -396,6 +402,12 @@ offset
 count
 )
 {
+read_stream
+(
+stream
+count
+)
+;
 }
 onStopRequest
 (
