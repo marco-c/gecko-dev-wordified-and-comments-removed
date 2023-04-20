@@ -3034,6 +3034,16 @@ aEnable
 ;
 virtual
 void
+CaptureMouse
+(
+bool
+aCapture
+)
+=
+0
+;
+virtual
+void
 SetWindowClass
 (
 const

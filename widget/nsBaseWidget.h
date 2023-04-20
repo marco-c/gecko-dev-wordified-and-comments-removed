@@ -617,6 +617,15 @@ aBorderStyle
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
 void
+CaptureMouse
+(
+bool
+aCapture
+)
+override
+{
+}
+void
 CaptureRollupEvents
 (
 bool
