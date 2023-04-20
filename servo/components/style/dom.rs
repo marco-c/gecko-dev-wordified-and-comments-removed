@@ -3738,7 +3738,7 @@ SelectorImpl
 BorrowedNamespaceUrl
 ;
 fn
-primary_box_size
+primary_content_box_size
 (
 &
 self
