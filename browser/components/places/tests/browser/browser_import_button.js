@@ -431,9 +431,9 @@ Migration
 :
 ItemAfterMigrate
 "
-MigrationUtils
+Ci
 .
-resourceTypes
+nsIBrowserProfileMigrator
 .
 BOOKMARKS
 )
@@ -502,9 +502,9 @@ Migration
 :
 ItemAfterMigrate
 "
-MigrationUtils
+Ci
 .
-resourceTypes
+nsIBrowserProfileMigrator
 .
 BOOKMARKS
 )
@@ -849,9 +849,9 @@ Migration
 :
 ItemError
 "
-MigrationUtils
+Ci
 .
-resourceTypes
+nsIBrowserProfileMigrator
 .
 BOOKMARKS
 )
@@ -922,9 +922,9 @@ Migration
 :
 ItemError
 "
-MigrationUtils
+Ci
 .
-resourceTypes
+nsIBrowserProfileMigrator
 .
 BOOKMARKS
 )
