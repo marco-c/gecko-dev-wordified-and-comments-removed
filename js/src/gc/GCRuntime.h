@@ -3431,12 +3431,9 @@ template
 AllowGC
 allowGC
 >
-JS
-:
-:
-BigInt
+Cell
 *
-tryNewNurseryBigInt
+tryNewNurseryBigIntCell
 (
 JSContext
 *
