@@ -2014,9 +2014,7 @@ toolbox
 >
 toolbox
 .
-commands
-.
-descriptorFront
+target
 .
 isLocalTab
 }
@@ -3096,11 +3094,12 @@ value
 }
 if
 (
+!
 this
 .
 target
 .
-isTabDescriptor
+chrome
 )
 {
 const
