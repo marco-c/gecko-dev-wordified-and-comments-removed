@@ -1,3 +1,22 @@
+#
+!
+[
+allow
+(
+dead_code
+)
+]
+#
+!
+[
+allow
+(
+clippy
+:
+:
+upper_case_acronyms
+)
+]
 use
 std
 :
@@ -1249,7 +1268,6 @@ pb_upper
 fn
 parse_meta_data
 (
-mut
 cursor
 :
 &
@@ -1366,8 +1384,6 @@ Database
 :
 new
 (
-&
-mut
 cursor
 bits
 )
@@ -1379,8 +1395,6 @@ Database
 :
 new
 (
-&
-mut
 cursor
 bits
 )
@@ -2900,9 +2914,9 @@ out
 database
 =
 {
+database
 }
 "
-database
 )
 ?
 ;
@@ -3012,11 +3026,11 @@ write
 out
 "
 {
+byte
 :
 02x
 }
 "
-byte
 )
 ?
 ;
@@ -3054,11 +3068,11 @@ write
 out
 "
 {
+byte
 :
 02x
 }
 "
-byte
 )
 ?
 ;
@@ -3253,7 +3267,6 @@ str
 :
 from_utf8
 (
-&
 subdb_name
 )
 ?
@@ -3378,7 +3391,6 @@ str
 :
 from_utf8
 (
-&
 subdb_name
 )
 ?
@@ -4267,6 +4279,10 @@ err
 panic
 !
 (
+"
+{
+}
+"
 err
 )
 Ok
@@ -4275,7 +4291,6 @@ ref_len
 )
 =
 >
-{
 match
 new_file
 .
@@ -4293,6 +4308,10 @@ err
 panic
 !
 (
+"
+{
+}
+"
 err
 )
 Ok
@@ -4338,7 +4357,6 @@ new_len
 ]
 )
 ;
-}
 }
 }
 }
@@ -5121,7 +5139,6 @@ Migrator
 :
 new
 (
-&
 new_env
 .
 path
@@ -5326,7 +5343,6 @@ Migrator
 :
 new
 (
-&
 new_env
 .
 path
@@ -5617,7 +5633,6 @@ new
 .
 open
 (
-&
 old_env
 .
 path
@@ -5671,7 +5686,6 @@ Migrator
 :
 new
 (
-&
 old_env
 .
 path
@@ -5701,7 +5715,6 @@ Migrator
 :
 new
 (
-&
 new_env
 .
 path
@@ -5870,7 +5883,6 @@ new
 .
 open
 (
-&
 old_env
 .
 path
