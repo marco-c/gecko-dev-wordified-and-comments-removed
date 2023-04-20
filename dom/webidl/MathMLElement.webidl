@@ -162,6 +162,10 @@ HTMLOrForeignElement
 ;
 MathMLElement
 includes
+DocumentAndElementEventHandlers
+;
+MathMLElement
+includes
 ElementCSSInlineStyle
 ;
 MathMLElement
