@@ -556,15 +556,6 @@ nsBoxFrame
 )
 ;
 virtual
-bool
-GetInitialEqualSize
-(
-bool
-&
-aEqualSize
-)
-;
-virtual
 void
 GetInitialOrientation
 (
