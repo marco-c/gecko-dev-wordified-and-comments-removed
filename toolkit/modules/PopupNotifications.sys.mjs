@@ -7730,7 +7730,7 @@ tabbrowser
 .
 selectedBrowser
 .
-showingSearchTerms
+searchTerms
 )
 {
 this
