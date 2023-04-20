@@ -1877,15 +1877,11 @@ eAudioComplete
 EventNameType_None
 eBasicEventClass
 )
-NON_IDL_EVENT
+EVENT
 (
 scrollend
 eScrollend
-(
-EventNameType_HTMLXUL
-|
-EventNameType_SVGSVG
-)
+EventNameType_All
 eBasicEventClass
 )
 #
