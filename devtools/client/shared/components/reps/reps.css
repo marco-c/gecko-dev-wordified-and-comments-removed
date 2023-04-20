@@ -1037,7 +1037,13 @@ display
 :
 inline
 -
-block
+flex
+;
+flex
+-
+direction
+:
+column
 ;
 width
 :
