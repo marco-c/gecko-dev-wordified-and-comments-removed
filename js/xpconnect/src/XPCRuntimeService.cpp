@@ -31,6 +31,15 @@ include
 "
 mozilla
 /
+Result
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BindingUtils
