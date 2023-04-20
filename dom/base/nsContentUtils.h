@@ -7768,6 +7768,14 @@ uint32_t
 aType
 )
 ;
+static
+nsresult
+EnsureAndLoadStringBundle
+(
+PropertiesFile
+aFile
+)
+;
 private
 :
 static
