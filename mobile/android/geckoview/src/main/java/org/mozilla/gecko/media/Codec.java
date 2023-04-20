@@ -2172,6 +2172,17 @@ configureCodec
 name
 fmt
 surface
+!
+=
+null
+?
+surface
+.
+getSurface
+(
+)
+:
+null
 flags
 drmStubId
 )
