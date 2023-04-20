@@ -17290,7 +17290,7 @@ acc
 doc
 -
 >
-GetAccessibleOrContainer
+GetAccessible
 (
 content
 )
