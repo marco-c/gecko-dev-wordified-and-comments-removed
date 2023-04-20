@@ -322,7 +322,7 @@ nsFrameList
 aOther
 )
 =
-default
+delete
 ;
 nsFrameList
 (
