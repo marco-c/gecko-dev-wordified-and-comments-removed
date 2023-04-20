@@ -1357,11 +1357,6 @@ RM_AlwaysDefault
 <
 <
 1
-RM_NormalOrDefault
-=
-RM_Normal
-|
-RM_AlwaysDefault
 }
 ;
 private
