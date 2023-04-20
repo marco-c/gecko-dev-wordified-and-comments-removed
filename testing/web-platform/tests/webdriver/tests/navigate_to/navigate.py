@@ -494,7 +494,7 @@ raises
 (
 error
 .
-StaleElementReferenceException
+NoSuchElementException
 )
 :
         

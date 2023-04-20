@@ -2017,11 +2017,14 @@ null
 {
 if
 (
-rv
-instanceof
 lazy
 .
 WebReference
+.
+isReference
+(
+rv
+)
 |
 |
 typeof
