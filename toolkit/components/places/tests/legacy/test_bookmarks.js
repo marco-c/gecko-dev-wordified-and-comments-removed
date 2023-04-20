@@ -374,17 +374,6 @@ ok
 (
 bs
 .
-placesRoot
->
-0
-)
-;
-Assert
-.
-ok
-(
-bs
-.
 bookmarksMenuFolder
 >
 0
