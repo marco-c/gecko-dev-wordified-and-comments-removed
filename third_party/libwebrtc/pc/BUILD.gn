@@ -13918,6 +13918,11 @@ peer_connection_simulcast_unittest
 cc
 "
 "
+peer_connection_svc_integrationtest
+.
+cc
+"
+"
 peer_connection_wrapper
 .
 cc
