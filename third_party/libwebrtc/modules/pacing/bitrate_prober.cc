@@ -140,7 +140,7 @@ TimeDelta
 :
 Millis
 (
-1
+2
 )
 )
 max_probe_delay
@@ -877,8 +877,6 @@ send_bitrate_bps
 )
 ;
 return
-2
-*
 send_rate
 *
 config_
