@@ -569,7 +569,6 @@ assert_eq
 (
 hash_output
 (
-&
 owned
 )
 hash_output
