@@ -54,6 +54,12 @@ aSecondsToWait
 in
 ACString
 aOtherFoldersSuffix
+[
+optional
+]
+in
+ACString
+aMetricsId
 )
 ;
 }

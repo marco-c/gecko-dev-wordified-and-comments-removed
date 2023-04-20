@@ -20982,6 +20982,10 @@ path
 aCacheDirName
 aSecondsToWait
 aPurgeExtension
+"
+HttpCache
+"
+_ns
 )
 ;
 #
