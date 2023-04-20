@@ -201,6 +201,8 @@ virtual
 void
 GetPrefix
 (
+CounterValue
+aOrdinal
 nsAString
 &
 aResult
@@ -212,6 +214,8 @@ virtual
 void
 GetSuffix
 (
+CounterValue
+aOrdinal
 nsAString
 &
 aResult
@@ -370,6 +374,15 @@ return
 nullptr
 ;
 }
+virtual
+CounterStyle
+*
+ResolveFallbackFor
+(
+CounterValue
+aOrdinal
+)
+;
 protected
 :
 const
@@ -410,6 +423,8 @@ virtual
 void
 GetPrefix
 (
+CounterValue
+aOrdinal
 nsAString
 &
 aResult
@@ -420,6 +435,8 @@ virtual
 void
 GetSuffix
 (
+CounterValue
+aOrdinal
 nsAString
 &
 aResult
