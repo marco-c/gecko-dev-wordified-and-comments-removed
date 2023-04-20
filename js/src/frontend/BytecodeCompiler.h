@@ -204,7 +204,7 @@ ParseModuleToStencil
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -244,7 +244,7 @@ ParseModuleToStencil
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
