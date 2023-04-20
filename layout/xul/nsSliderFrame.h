@@ -872,6 +872,9 @@ uint64_t
 >
 mAPZDragInitiated
 ;
+nscoord
+mThumbMinLength
+;
 static
 bool
 gMiddlePref

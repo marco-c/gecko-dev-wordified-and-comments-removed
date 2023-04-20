@@ -514,6 +514,10 @@ mSuppressionActive
 (
 false
 )
+mThumbMinLength
+(
+0
+)
 {
 }
 nsSliderFrame
@@ -2462,6 +2466,16 @@ height
 appUnitsPerCss
 )
 ;
+const
+CSSCoord
+minThumbLength
+=
+NSAppUnitsToFloatPixels
+(
+mThumbMinLength
+appUnitsPerCss
+)
+;
 nsIFrame
 *
 scrollbarBox
@@ -2857,6 +2871,7 @@ GetThumbRatio
 )
 thumbStart
 thumbLength
+minThumbLength
 isAsyncDraggable
 sliderTrackStart
 sliderTrackLength
@@ -3066,6 +3081,10 @@ width
 thumbSize
 .
 height
+;
+mThumbMinLength
+=
+thumbLength
 ;
 if
 (
