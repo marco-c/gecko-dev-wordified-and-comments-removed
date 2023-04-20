@@ -355,9 +355,10 @@ aOverflowAreas
 {
 if
 (
-mState
-&
+HasAnyStateBits
+(
 NS_FRAME_IS_NONDISPLAY
+)
 )
 {
 return
@@ -585,11 +586,6 @@ NS_STATE_SVG_CLIPPATH_CHILD
 )
 ;
 }
-AddStateBits
-(
-NS_FRAME_MAY_BE_TRANSFORMED
-)
-;
 SVGContainerFrame
 :
 :
@@ -1317,9 +1313,8 @@ return
 bool
 isFirstReflow
 =
+HasAnyStateBits
 (
-mState
-&
 NS_FRAME_FIRST_REFLOW
 )
 ;

@@ -3649,9 +3649,10 @@ SetEmpty
 }
 if
 (
-mState
-&
+HasAnyStateBits
+(
 NS_FRAME_FIRST_REFLOW
+)
 )
 {
 SVGObserverUtils

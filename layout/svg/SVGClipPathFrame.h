@@ -139,6 +139,10 @@ false
 AddStateBits
 (
 NS_FRAME_IS_NONDISPLAY
+|
+NS_STATE_SVG_CLIPPATH_CHILD
+|
+NS_FRAME_MAY_BE_TRANSFORMED
 )
 ;
 }
@@ -272,6 +276,9 @@ aModType
 )
 override
 ;
+#
+ifdef
+DEBUG
 void
 Init
 (
@@ -287,6 +294,8 @@ aPrevInFlow
 )
 override
 ;
+#
+endif
 #
 ifdef
 DEBUG_FRAME_DUMP

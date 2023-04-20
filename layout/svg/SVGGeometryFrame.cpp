@@ -503,11 +503,6 @@ aParent
 aPrevInFlow
 )
 ;
-AddStateBits
-(
-NS_FRAME_MAY_BE_TRANSFORMED
-)
-;
 }
 nsresult
 SVGGeometryFrame
@@ -1707,9 +1702,10 @@ AppUnitsPerCSSPixel
 ;
 if
 (
-mState
-&
+HasAnyStateBits
+(
 NS_FRAME_FIRST_REFLOW
+)
 )
 {
 SVGObserverUtils
