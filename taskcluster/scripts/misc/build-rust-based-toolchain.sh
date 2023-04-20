@@ -140,7 +140,7 @@ clang
 +
 +
 export
-CFLAGS
+TARGET_CFLAGS
 =
 "
 -
@@ -158,7 +158,7 @@ linux
 gnu
 "
 export
-CXXFLAGS
+TARGET_CXXFLAGS
 =
 "
 -
@@ -286,10 +286,9 @@ clang
 +
 "
 export
-TARGET_CC
+TARGET_CFLAGS
 =
 "
-CC
 -
 isysroot
 MOZ_FETCHES_DIR
@@ -301,10 +300,9 @@ MacOSX13
 sdk
 "
 export
-TARGET_CXX
+TARGET_CXXFLAGS
 =
 "
-CXX
 -
 isysroot
 MOZ_FETCHES_DIR
