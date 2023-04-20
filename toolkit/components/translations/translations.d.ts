@@ -376,6 +376,16 @@ LanguageModelFiles
 [
 ]
 }
+interface
+LanguageIdEnginePayload
+{
+wasmBuffer
+:
+ArrayBuffer
+modelBuffer
+:
+ArrayBuffer
+}
 export
 type
 NodeVisibility
