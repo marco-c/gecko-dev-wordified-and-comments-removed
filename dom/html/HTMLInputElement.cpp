@@ -20830,6 +20830,13 @@ UpdateBarredFromConstraintValidation
 ;
 if
 (
+!
+HasDirAuto
+(
+)
+&
+&
+(
 oldType
 =
 =
@@ -20846,6 +20853,7 @@ FormControlType
 :
 :
 InputTel
+)
 )
 {
 RecomputeDirectionality
