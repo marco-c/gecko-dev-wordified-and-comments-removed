@@ -1177,10 +1177,7 @@ None
 )
 mMathStyle
 (
-StyleMathStyle
-:
-:
-Normal
+NS_STYLE_MATH_STYLE_NORMAL
 )
 mMinFontSizeRatio
 (
