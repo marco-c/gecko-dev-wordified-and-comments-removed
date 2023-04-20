@@ -1301,6 +1301,7 @@ tab_to_search
 top_site
 calc
 unit
+site_specific_contextual_search
 suggest_sponsor
 and
 suggest_non_sponsor
@@ -1648,6 +1649,7 @@ tab_to_search
 top_site
 calc
 unit
+site_specific_contextual_search
 suggest_sponsor
 and
 suggest_non_sponsor
