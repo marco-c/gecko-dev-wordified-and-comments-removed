@@ -6413,6 +6413,15 @@ outbound_stream
 mid
 )
 ;
+verifier
+.
+TestMemberIsDefined
+(
+outbound_stream
+.
+active
+)
+;
 if
 (
 outbound_stream
