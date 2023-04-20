@@ -104,12 +104,6 @@ defined
 (
 WEBRTC_USE_PIPEWIRE
 )
-|
-|
-defined
-(
-WEBRTC_USE_X11
-)
 #
 include
 "
@@ -372,12 +366,6 @@ if
 defined
 (
 WEBRTC_USE_PIPEWIRE
-)
-|
-|
-defined
-(
-WEBRTC_USE_X11
 )
 std
 :

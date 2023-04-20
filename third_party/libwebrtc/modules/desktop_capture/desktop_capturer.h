@@ -350,12 +350,6 @@ defined
 (
 WEBRTC_USE_PIPEWIRE
 )
-|
-|
-defined
-(
-WEBRTC_USE_X11
-)
 static
 std
 :
@@ -479,12 +473,6 @@ if
 defined
 (
 WEBRTC_USE_PIPEWIRE
-)
-|
-|
-defined
-(
-WEBRTC_USE_X11
 )
 static
 std
