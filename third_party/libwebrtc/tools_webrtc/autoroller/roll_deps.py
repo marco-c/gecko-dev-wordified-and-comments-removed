@@ -197,6 +197,14 @@ extras
 '
 src
 /
+third_party
+/
+proguard
+'
+    
+'
+src
+/
 tools
 '
 ]
