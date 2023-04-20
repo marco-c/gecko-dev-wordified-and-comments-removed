@@ -282,9 +282,8 @@ UpdateUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
-                    
 "
 resource
 :
@@ -296,11 +295,8 @@ modules
 /
 UpdateUtils
 .
-sys
-.
-mjs
+jsm
 "
-                
 )
 ;
                 
@@ -747,9 +743,8 @@ UpdateUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
-                    
 "
 resource
 :
@@ -761,11 +756,8 @@ modules
 /
 UpdateUtils
 .
-sys
-.
-mjs
+jsm
 "
-                
 )
 ;
                 
@@ -1153,9 +1145,8 @@ AppMenuNotifications
 =
 ChromeUtils
 .
-importESModule
+import
 (
-                
 "
 resource
 :
@@ -1167,11 +1158,8 @@ modules
 /
 AppMenuNotifications
 .
-sys
-.
-mjs
+jsm
 "
-            
 )
 ;
             

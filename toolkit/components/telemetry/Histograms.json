@@ -69458,9 +69458,7 @@ getAppUpdateAutoEnabled
 from
 UpdateUtils
 .
-sys
-.
-mjs
+jsm
 does
 not
 return
@@ -69572,9 +69570,7 @@ getAppUpdateAutoEnabled
 from
 UpdateUtils
 .
-sys
-.
-mjs
+jsm
 does
 not
 return
@@ -69683,9 +69679,7 @@ getAppUpdateAutoEnabled
 from
 UpdateUtils
 .
-sys
-.
-mjs
+jsm
 does
 not
 return

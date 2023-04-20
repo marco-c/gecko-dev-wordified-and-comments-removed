@@ -2659,9 +2659,7 @@ instead
 of
 Timer
 .
-sys
-.
-mjs
+jsm
 to
 avoid
 the
@@ -2673,9 +2671,7 @@ of
 loading
 Timer
 .
-sys
-.
-mjs
+jsm
 in
 case
 it

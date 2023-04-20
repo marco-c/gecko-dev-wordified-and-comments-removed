@@ -2548,7 +2548,7 @@ central
 /
 rev
 /
-c5c002f81f08a73e04868e0c2bf0eb113f200b03
+e0b0c38ee83f99d3cf868bad525ace4a395039f1
 /
 toolkit
 /
@@ -2556,11 +2556,9 @@ modules
 /
 NewTabUtils
 .
-sys
-.
-mjs
+jsm
 #
-1059
+1087
 )
 #
 #
@@ -2777,7 +2775,7 @@ central
 /
 rev
 /
-c5c002f81f08a73e04868e0c2bf0eb113f200b03
+05a22d864814cb1e4352faa4004e1f975c7d2eb9
 /
 toolkit
 /
@@ -2785,11 +2783,9 @@ modules
 /
 AppConstants
 .
-sys
-.
-mjs
+jsm
 #
-153
+156
 )
 .
 #

@@ -301,9 +301,7 @@ Ensuring
 that
 Sqlite
 .
-sys
-.
-mjs
+jsm
 doesn
 '
 t
@@ -548,9 +546,7 @@ Now
 shutdown
 Sqlite
 .
-sys
-.
-mjs
+jsm
 synchronously
 "
 )
@@ -686,9 +682,7 @@ includes
 "
 Sqlite
 .
-sys
-.
-mjs
+jsm
 has
 been
 shutdown

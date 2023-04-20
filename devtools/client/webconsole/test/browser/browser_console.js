@@ -1145,9 +1145,7 @@ info
 "
 Log
 .
-sys
-.
-mjs
+jsm
 content
 process
 messsage
@@ -1425,9 +1423,7 @@ hud
 "
 Log
 .
-sys
-.
-mjs
+jsm
 content
 process
 messsage

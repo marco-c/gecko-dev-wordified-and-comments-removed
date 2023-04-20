@@ -1373,9 +1373,7 @@ consumers
 of
 JSONFile
 .
-sys
-.
-mjs
+jsm
 that
 have
 configured
@@ -2165,9 +2163,7 @@ consumers
 of
 JSONFile
 .
-sys
-.
-mjs
+jsm
 that
 have
 configured

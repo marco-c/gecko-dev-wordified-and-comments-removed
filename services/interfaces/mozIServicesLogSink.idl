@@ -69,9 +69,7 @@ Adapts
 a
 Log
 .
-sys
-.
-mjs
+jsm
 logger
 so
 that

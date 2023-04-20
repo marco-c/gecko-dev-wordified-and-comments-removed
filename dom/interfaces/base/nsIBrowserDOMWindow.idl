@@ -1203,9 +1203,7 @@ in
 *
 BrowserUtils
 .
-sys
-.
-mjs
+jsm
 for
 a
 simple

@@ -1215,9 +1215,7 @@ used
 by
 Finder
 .
-sys
-.
-mjs
+jsm
 to
 take
 care
@@ -1248,9 +1246,7 @@ Finder
 finder
 Finder
 .
-sys
-.
-mjs
+jsm
 instance
 *
 param
@@ -5355,9 +5351,7 @@ for
 *
 Geometry
 .
-sys
-.
-mjs
+jsm
 takes
 care
 of

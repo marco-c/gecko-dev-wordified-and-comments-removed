@@ -3635,9 +3635,7 @@ modules
 /
 Console
 .
-sys
-.
-mjs
+jsm
 )
 return
 {

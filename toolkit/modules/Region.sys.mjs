@@ -422,9 +422,7 @@ prefix
 "
 Region
 .
-sys
-.
-mjs
+jsm
 "
 maxLogLevel
 :
@@ -768,9 +766,7 @@ fired
 by
 Region
 .
-sys
-.
-mjs
+jsm
 .
 REGION_TOPIC
 =

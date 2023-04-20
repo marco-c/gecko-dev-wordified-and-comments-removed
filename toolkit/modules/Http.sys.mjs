@@ -262,11 +262,9 @@ e
 .
 g
 .
-Log
+log
 .
-sys
-.
-mjs
+jsm
 )
 .
 *

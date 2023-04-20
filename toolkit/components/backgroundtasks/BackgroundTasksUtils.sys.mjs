@@ -179,9 +179,7 @@ LOG_LEVELS
 in
 Console
 .
-sys
-.
-mjs
+jsm
 for
 details
 .

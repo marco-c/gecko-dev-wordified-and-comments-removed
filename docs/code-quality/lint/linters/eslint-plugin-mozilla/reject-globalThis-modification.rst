@@ -153,9 +153,9 @@ value
 }
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineESModuleGetters
+defineLazyModuleGetters
 (
 globalThis
 {
@@ -172,9 +172,7 @@ modules
 /
 AppConstants
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

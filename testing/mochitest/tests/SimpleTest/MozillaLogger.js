@@ -27,9 +27,9 @@ n
 ;
 }
 function
-importMJS
+importJSM
 (
-mjs
+jsm
 )
 {
 if
@@ -47,9 +47,9 @@ object
 return
 ChromeUtils
 .
-importESModule
+import
 (
-mjs
+jsm
 )
 ;
 }
@@ -58,9 +58,9 @@ SpecialPowers
 .
 ChromeUtils
 .
-importESModule
+import
 (
-mjs
+jsm
 )
 ;
 }
@@ -198,7 +198,7 @@ const
 FileUtils
 }
 =
-importMJS
+importJSM
 (
 "
 resource
@@ -211,9 +211,7 @@ modules
 /
 FileUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

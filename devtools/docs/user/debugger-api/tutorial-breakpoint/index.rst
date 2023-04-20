@@ -529,7 +529,7 @@ console
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -542,9 +542,7 @@ modules
 /
 Console
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

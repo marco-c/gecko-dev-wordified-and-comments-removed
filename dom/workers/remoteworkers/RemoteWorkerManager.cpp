@@ -468,7 +468,7 @@ nsIE10SUtils
 >
 e10sUtils
 =
-do_ImportESModule
+do_ImportModule
 (
 "
 resource
@@ -481,9 +481,7 @@ modules
 /
 E10SUtils
 .
-sys
-.
-mjs
+jsm
 "
 "
 E10SUtils

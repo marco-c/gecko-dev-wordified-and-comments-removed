@@ -239,9 +239,7 @@ for
 the
 Console
 .
-sys
-.
-mjs
+jsm
 messages
 "
 )

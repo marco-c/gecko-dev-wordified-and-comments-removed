@@ -775,9 +775,7 @@ verbosity
 per
 Log
 .
-sys
-.
-mjs
+jsm
 .
 The
 available

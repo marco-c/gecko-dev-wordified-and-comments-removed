@@ -9391,9 +9391,7 @@ a
 shared
 Sqlite
 .
-sys
-.
-mjs
+jsm
 readonly
 connection
 to
@@ -9570,9 +9568,7 @@ Returns
 a
 Sqlite
 .
-sys
-.
-mjs
+jsm
 wrapper
 for
 the
@@ -9629,9 +9625,7 @@ through
 a
 Sqlite
 .
-sys
-.
-mjs
+jsm
 *
 wrapped
 connection
@@ -9847,9 +9841,7 @@ argument
 a
 Sqlite
 .
-sys
-.
-mjs
+jsm
 *
 connection
 and
@@ -14203,9 +14195,7 @@ state
 Closed
 Sqlite
 .
-sys
-.
-mjs
+jsm
 connection
 .
 "
@@ -14230,9 +14220,7 @@ to
 closed
 Sqlite
 .
-sys
-.
-mjs
+jsm
 connection
 :
 "
@@ -14303,9 +14291,7 @@ sure
 that
 Sqlite
 .
-sys
-.
-mjs
+jsm
 doesn
 '
 t
@@ -14340,9 +14326,7 @@ closed
 before
 Sqlite
 .
-sys
-.
-mjs
+jsm
 (
 )
 =

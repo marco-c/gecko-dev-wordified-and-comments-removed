@@ -2299,9 +2299,7 @@ allowlist
 in
 Troubleshoot
 .
-sys
-.
-mjs
+jsm
 .
 The
 allowlist

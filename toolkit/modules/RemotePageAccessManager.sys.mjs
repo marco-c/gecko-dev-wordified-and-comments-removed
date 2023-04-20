@@ -160,9 +160,7 @@ allowed
 within
 AsyncPrefs
 .
-sys
-.
-mjs
+jsm
 .
 *
 /

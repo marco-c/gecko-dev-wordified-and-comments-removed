@@ -4038,13 +4038,10 @@ ones
 in
 E10SUtils
 .
-sys
-.
-mjs
+jsm
 RemoteTypes
 .
 h
-*
 ProcInfo
 .
 h
