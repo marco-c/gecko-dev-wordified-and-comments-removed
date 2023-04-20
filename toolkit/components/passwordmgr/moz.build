@@ -145,11 +145,6 @@ FirefoxRelay
 jsm
 "
 "
-FirefoxRelayTelemetry
-.
-mjs
-"
-"
 InsecurePasswordUtils
 .
 jsm
