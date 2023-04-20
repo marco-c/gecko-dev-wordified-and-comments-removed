@@ -10161,9 +10161,9 @@ setAttribute
 "
 href
 "
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
-bestMatchHelpUrl
+HELP_URL
 )
 ;
 let
@@ -10194,9 +10194,9 @@ setAttribute
 "
 href
 "
-UrlbarProviderQuickSuggest
+QuickSuggest
 .
-helpUrl
+HELP_URL
 )
 ;
 }

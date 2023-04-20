@@ -2071,6 +2071,17 @@ async
 =
 >
 {
+if
+(
+!
+this
+.
+_rs
+)
+{
+return
+;
+}
 /
 /
 Remove
