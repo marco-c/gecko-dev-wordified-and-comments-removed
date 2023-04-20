@@ -289,6 +289,9 @@ mReadIntoRequests
 ;
 }
 ;
+namespace
+streams_abstract
+{
 already_AddRefed
 <
 ReadableStreamBYOBReader
@@ -369,6 +372,7 @@ ErrorResult
 aRv
 )
 ;
+}
 }
 #
 endif

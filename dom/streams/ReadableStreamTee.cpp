@@ -182,6 +182,10 @@ mozilla
 :
 dom
 {
+using
+namespace
+streams_abstract
+;
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 ReadableStreamDefaultTeeSourceAlgorithms
@@ -4386,6 +4390,9 @@ aThisReader
 )
 ;
 }
+namespace
+streams_abstract
+{
 void
 ReadableByteStreamTee
 (
@@ -4582,5 +4589,6 @@ Branch2
 )
 )
 ;
+}
 }
 }

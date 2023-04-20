@@ -695,6 +695,9 @@ mReader
 aReader
 ;
 }
+namespace
+streams_abstract
+{
 bool
 ReadableStreamHasBYOBReader
 (
@@ -770,6 +773,7 @@ IsDefault
 (
 )
 ;
+}
 }
 already_AddRefed
 <
@@ -1158,6 +1162,9 @@ return
 mReader
 ;
 }
+namespace
+streams_abstract
+{
 static
 void
 InitializeReadableStream
@@ -1911,6 +1918,7 @@ forget
 )
 ;
 }
+}
 already_AddRefed
 <
 Promise
@@ -1985,6 +1993,9 @@ aRv
 )
 ;
 }
+namespace
+streams_abstract
+{
 already_AddRefed
 <
 ReadableStreamDefaultReader
@@ -2043,6 +2054,7 @@ forget
 (
 )
 ;
+}
 }
 void
 ReadableStream
@@ -2159,6 +2171,9 @@ SetAsReadableStreamBYOBReader
 byobReader
 ;
 }
+namespace
+streams_abstract
+{
 bool
 IsReadableStreamLocked
 (
@@ -2175,6 +2190,7 @@ Locked
 (
 )
 ;
+}
 }
 MOZ_CAN_RUN_SCRIPT
 already_AddRefed
@@ -2350,6 +2366,9 @@ get
 ;
 }
 ;
+namespace
+streams_abstract
+{
 double
 ReadableStreamGetNumReadRequests
 (
@@ -2767,6 +2786,7 @@ insertBack
 aReadRequest
 )
 ;
+}
 }
 MOZ_CAN_RUN_SCRIPT
 already_AddRefed
@@ -4299,6 +4319,9 @@ aRv
 )
 ;
 }
+namespace
+streams_abstract
+{
 void
 ReadableStreamAddReadIntoRequest
 (
@@ -4469,6 +4492,7 @@ forget
 (
 )
 ;
+}
 }
 already_AddRefed
 <

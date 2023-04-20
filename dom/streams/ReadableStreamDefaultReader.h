@@ -398,6 +398,9 @@ mReadRequests
 ;
 }
 ;
+namespace
+streams_abstract
+{
 void
 SetUpReadableStreamDefaultReader
 (
@@ -451,6 +454,7 @@ ErrorResult
 aRv
 )
 ;
+}
 }
 #
 endif
