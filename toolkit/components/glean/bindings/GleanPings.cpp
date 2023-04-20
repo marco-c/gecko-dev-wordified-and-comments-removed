@@ -326,6 +326,13 @@ pingName
 aName
 )
 ;
+JOG
+:
+:
+EnsureRuntimeMetricsRegistered
+(
+)
+;
 Maybe
 <
 uint32_t
