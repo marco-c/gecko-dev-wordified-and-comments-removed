@@ -7811,6 +7811,12 @@ mContent
 GetFlattenedTreeParentNode
 (
 )
+&
+&
+this
+!
+=
+mDoc
 )
 {
 mDoc
