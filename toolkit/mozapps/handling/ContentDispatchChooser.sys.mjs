@@ -505,6 +505,8 @@ aURI
 aBrowsingContext
 )
 ;
+return
+;
 }
 catch
 (
