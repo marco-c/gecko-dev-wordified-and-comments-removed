@@ -649,8 +649,6 @@ registerPrefixHandler
 (
 "
 /
-json
-/
 "
 new
 lazy
