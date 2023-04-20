@@ -1183,7 +1183,7 @@ vec
 ;
 let
 mut
-has_moz_keyword
+has_alt_content
 =
 false
 ;
@@ -1784,7 +1784,7 @@ content
 =
 >
 {
-has_moz_keyword
+has_alt_content
 =
 true
 ;
@@ -1813,10 +1813,6 @@ chrome_rules_enabled
 =
 >
 {
-has_moz_keyword
-=
-true
-;
 generics
 :
 :
@@ -1906,7 +1902,7 @@ is_empty
 |
 |
 (
-has_moz_keyword
+has_alt_content
 &
 &
 content
