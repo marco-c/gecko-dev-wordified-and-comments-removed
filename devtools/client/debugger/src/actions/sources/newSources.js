@@ -450,6 +450,12 @@ if
 (
 !
 data
+|
+|
+!
+data
+.
+length
 )
 {
 dispatch
