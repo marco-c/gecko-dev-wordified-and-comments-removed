@@ -124,7 +124,7 @@ CompileGlobalScriptToStencil
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -167,7 +167,7 @@ CompileGlobalScriptToStencil
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -213,7 +213,7 @@ CompileGlobalScriptToExtensibleStencil
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -250,7 +250,7 @@ CompileGlobalScriptToExtensibleStencil
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -339,7 +339,7 @@ CompileGlobalScript
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -375,7 +375,7 @@ CompileGlobalScript
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
