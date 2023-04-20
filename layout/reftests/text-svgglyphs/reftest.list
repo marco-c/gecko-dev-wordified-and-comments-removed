@@ -28,6 +28,8 @@ svg
 glyph
 -
 basic
+-
+disabled
 .
 svg
 svg
@@ -106,6 +108,8 @@ svg
 glyph
 -
 positioning
+-
+disabled
 .
 svg
 svg
