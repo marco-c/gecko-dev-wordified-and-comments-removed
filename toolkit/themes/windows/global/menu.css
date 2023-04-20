@@ -295,6 +295,12 @@ appearance
 :
 menuitem
 ;
+flex
+-
+shrink
+:
+0
+;
 align
 -
 items
