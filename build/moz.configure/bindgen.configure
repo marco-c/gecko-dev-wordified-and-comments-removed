@@ -555,6 +555,7 @@ clang
 -
 path
 "
+configure_cache
 c_compiler
 cxx_compiler
 clang_search_path
@@ -589,6 +590,7 @@ def
 bindgen_clang_compiler
 (
 clang_path
+configure_cache
 c_compiler
 cxx_compiler
 clang_search_path
@@ -834,6 +836,7 @@ info
 =
 check_compiler
 (
+configure_cache
 [
 clang_path
 ]
@@ -861,6 +864,7 @@ info
 =
 check_compiler
 (
+configure_cache
 [
 clang_path
 ]

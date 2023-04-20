@@ -809,6 +809,7 @@ thumb_option
 )
 depends
 (
+configure_cache
 c_compiler
 all_flags
 )
@@ -844,6 +845,7 @@ dedent
 def
 arm_target
 (
+configure_cache
 compiler
 all_flags
 )
@@ -994,10 +996,7 @@ result
 =
 try_invoke_compiler
 (
-compiler
-.
-wrapper
-+
+configure_cache
 [
 compiler
 .
@@ -1019,6 +1018,11 @@ E
 ]
 +
 all_flags
+wrapper
+=
+compiler
+.
+wrapper
 )
 data
 =

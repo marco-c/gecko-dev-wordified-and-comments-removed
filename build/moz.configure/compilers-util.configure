@@ -271,6 +271,7 @@ dependable
 header
 )
 onerror
+configure_cache
 when
 =
 when
@@ -285,6 +286,7 @@ extra_flags
 stlport_flags
 header
 onerror
+configure_cache
 )
 :
 flags
@@ -366,10 +368,7 @@ if
 (
 try_invoke_compiler
 (
-compiler
-.
-wrapper
-+
+configure_cache
 [
 compiler
 .
@@ -389,6 +388,11 @@ flags
 onerror
 =
 onerror
+wrapper
+=
+compiler
+.
+wrapper
 )
 is
 not
