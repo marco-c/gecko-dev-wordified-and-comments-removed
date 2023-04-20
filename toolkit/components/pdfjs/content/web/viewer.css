@@ -5350,8 +5350,6 @@ rgba
 -
 progressBar
 -
-indeterminate
--
 bg
 -
 color
@@ -5367,8 +5365,6 @@ rgba
 -
 -
 progressBar
--
-indeterminate
 -
 blend
 -
@@ -6798,8 +6794,6 @@ rgba
 -
 progressBar
 -
-indeterminate
--
 bg
 -
 color
@@ -6815,8 +6809,6 @@ rgba
 -
 -
 progressBar
--
-indeterminate
 -
 blend
 -
@@ -8597,7 +8589,7 @@ var
 (
 -
 -
-body
+progressBar
 -
 bg
 -
@@ -8808,8 +8800,6 @@ var
 -
 progressBar
 -
-indeterminate
--
 bg
 -
 color
@@ -8871,8 +8861,6 @@ var
 -
 progressBar
 -
-indeterminate
--
 blend
 -
 color
@@ -8884,8 +8872,6 @@ var
 -
 progressBar
 -
-indeterminate
--
 bg
 -
 color
@@ -8896,8 +8882,6 @@ var
 -
 -
 progressBar
--
-indeterminate
 -
 bg
 -
@@ -8927,8 +8911,6 @@ var
 -
 -
 progressBar
--
-indeterminate
 -
 blend
 -
