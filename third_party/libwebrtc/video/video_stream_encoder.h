@@ -1858,14 +1858,14 @@ int
 >
 vp9_low_tier_core_threshold_
 ;
+ScopedTaskSafety
+task_safety_
+;
 rtc
 :
 :
 TaskQueue
 encoder_queue_
-;
-ScopedTaskSafety
-task_safety_
 ;
 }
 ;
