@@ -359,6 +359,8 @@ UniquePtr
 ClientSource
 >
 aClientSource
+bool
+mShouldResistFingerprinting
 )
 ;
 virtual
@@ -734,6 +736,9 @@ nsCOMPtr
 nsISerialEventTarget
 >
 mSerialEventTarget
+;
+bool
+mShouldResistFingerprinting
 ;
 #
 ifdef
@@ -1530,6 +1535,8 @@ const
 nsString
 &
 aName
+bool
+aShouldResistFingerprinting
 )
 ;
 bool
@@ -1720,6 +1727,8 @@ const
 nsString
 &
 aName
+bool
+aShouldResistFingerprinting
 )
 ;
 bool
@@ -1789,6 +1798,8 @@ const
 ServiceWorkerRegistrationDescriptor
 &
 aRegistrationDescriptor
+bool
+aShouldResistFingerprinting
 )
 ;
 bool
