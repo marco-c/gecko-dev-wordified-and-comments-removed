@@ -4974,8 +4974,17 @@ ErrorResult
 aRv
 )
 ;
+[
+[
+nodiscard
+]
+]
 MOZ_CAN_RUN_SCRIPT
+Result
+<
+CaretPoint
 nsresult
+>
 DeleteTextWithTransaction
 (
 dom
