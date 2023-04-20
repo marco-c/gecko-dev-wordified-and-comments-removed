@@ -360,6 +360,11 @@ testJSEvaluateScript
 cpp
 "
 "
+testJSON
+.
+cpp
+"
+"
 testLargeArrayBuffers
 .
 cpp
