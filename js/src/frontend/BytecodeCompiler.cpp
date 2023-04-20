@@ -557,9 +557,6 @@ protected
 explicit
 SourceAwareCompiler
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -618,9 +615,6 @@ nodiscard
 bool
 init
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -662,7 +656,6 @@ false
 return
 createSourceAndParser
 (
-cx
 fc
 )
 ;
@@ -675,9 +668,6 @@ nodiscard
 bool
 createSourceAndParser
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -888,9 +878,6 @@ public
 explicit
 ScriptCompiler
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -915,7 +902,6 @@ sourceBuffer
 :
 Base
 (
-cx
 fc
 stackLimit
 parserAllocScope
@@ -1582,7 +1568,6 @@ Unit
 >
 compiler
 (
-cx
 fc
 stackLimit
 parserAllocScope
@@ -1597,7 +1582,6 @@ compiler
 .
 init
 (
-cx
 fc
 scopeCache
 )
@@ -2995,7 +2979,6 @@ Unit
 >
 compiler
 (
-cx
 &
 fc
 stackLimit
@@ -3015,7 +2998,6 @@ compiler
 .
 init
 (
-cx
 &
 fc
 scopeCache
@@ -3266,9 +3248,6 @@ public
 explicit
 ModuleCompiler
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -3293,7 +3272,6 @@ sourceBuffer
 :
 Base
 (
-cx
 fc
 stackLimit
 parserAllocScope
@@ -3410,9 +3388,6 @@ public
 explicit
 StandaloneFunctionCompiler
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -3437,7 +3412,6 @@ sourceBuffer
 :
 Base
 (
-cx
 fc
 stackLimit
 parserAllocScope
@@ -3526,9 +3500,6 @@ Unit
 :
 createSourceAndParser
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -4803,7 +4774,6 @@ Unit
 >
 compiler
 (
-cx
 fc
 stackLimit
 parserAllocScope
@@ -4818,7 +4788,6 @@ compiler
 .
 init
 (
-cx
 fc
 scopeCache
 )
@@ -8173,7 +8142,6 @@ char16_t
 >
 compiler
 (
-cx
 &
 fc
 stackLimit
@@ -8193,7 +8161,6 @@ compiler
 .
 init
 (
-cx
 &
 fc
 scopeCache
