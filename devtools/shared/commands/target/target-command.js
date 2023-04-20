@@ -3201,6 +3201,13 @@ targetForm
 .
 consoleActor
 )
+|
+|
+target
+.
+isDestroyed
+(
+)
 )
 {
 continue
