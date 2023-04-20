@@ -738,6 +738,10 @@ nsIComponentName
 idl
 .
 .
+_contract_ids
+:
+.
+.
 code
 :
 :
