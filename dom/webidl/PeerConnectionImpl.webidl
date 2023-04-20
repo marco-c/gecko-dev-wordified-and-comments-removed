@@ -639,6 +639,11 @@ iceGatheringState
 ;
 readonly
 attribute
+RTCPeerConnectionState
+connectionState
+;
+readonly
+attribute
 RTCSignalingState
 signalingState
 ;
