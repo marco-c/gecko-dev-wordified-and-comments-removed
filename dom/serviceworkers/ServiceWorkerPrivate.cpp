@@ -3104,14 +3104,6 @@ baseScriptURL
 VoidString
 (
 )
-WorkerType
-:
-:
-Classic
-RequestCredentials
-:
-:
-Omit
 principalInfo
 principalInfo
 partitionedPrincipalInfo
