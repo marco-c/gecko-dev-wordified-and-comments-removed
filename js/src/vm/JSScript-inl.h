@@ -1502,8 +1502,6 @@ JSScript
 :
 incWarmUpCounter
 (
-uint32_t
-amount
 )
 {
 if
@@ -1519,7 +1517,6 @@ warmUpData_
 .
 incWarmUpCount
 (
-amount
 )
 ;
 }
@@ -1534,7 +1531,6 @@ toJitScript
 >
 incWarmUpCount
 (
-amount
 )
 ;
 }

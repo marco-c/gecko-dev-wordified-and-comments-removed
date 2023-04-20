@@ -5150,8 +5150,6 @@ count
 void
 incWarmUpCount
 (
-uint32_t
-amount
 )
 {
 MOZ_ASSERT
@@ -5166,7 +5164,7 @@ data_
 =
 uintptr_t
 (
-amount
+1
 )
 <
 <
@@ -7881,10 +7879,6 @@ inline
 void
 incWarmUpCounter
 (
-uint32_t
-amount
-=
-1
 )
 ;
 inline
