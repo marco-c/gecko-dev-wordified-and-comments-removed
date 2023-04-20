@@ -152,7 +152,7 @@ with
 -
 enable
 -
-application
+project
 =
 browser
 .

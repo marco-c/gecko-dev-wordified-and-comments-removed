@@ -36,7 +36,7 @@ ac_add_options
 -
 enable
 -
-application
+project
 =
 mobile
 /

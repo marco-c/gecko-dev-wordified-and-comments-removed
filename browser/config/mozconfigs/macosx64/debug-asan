@@ -23,7 +23,7 @@ ac_add_options
 -
 enable
 -
-application
+project
 =
 browser
 ac_add_options

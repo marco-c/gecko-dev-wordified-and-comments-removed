@@ -1229,6 +1229,12 @@ to
 enable
 -
 application
+/
+-
+-
+enable
+-
+project
 .
 There
 '
@@ -1237,9 +1243,9 @@ a
 further
 wrinkle
 on
+        
 macOS
 where
-        
 the
 real
 application

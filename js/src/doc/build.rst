@@ -351,7 +351,7 @@ ac_add_options
 -
 enable
 -
-application
+project
 =
 js
 #
@@ -870,7 +870,7 @@ ac_add_options
 -
 enable
 -
-application
+project
 =
 js
 #
