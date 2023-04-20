@@ -363,6 +363,10 @@ block
 ;
 width
 :
+min
+(
+100
+%
 var
 (
 -
@@ -373,6 +377,15 @@ pane
 -
 width
 )
+)
+;
+min
+-
+width
+:
+min
+-
+content
 ;
 }
 #
