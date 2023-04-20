@@ -7357,9 +7357,6 @@ CompilationSyntaxParseCache
 :
 init
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -7383,7 +7380,6 @@ if
 !
 copyFunctionInfo
 (
-cx
 fc
 parseAtoms
 atomCache
@@ -7420,7 +7416,6 @@ if
 !
 copyScriptInfo
 (
-cx
 fc
 alloc
 parseAtoms
@@ -7438,7 +7433,6 @@ if
 !
 copyClosedOverBindings
 (
-cx
 fc
 alloc
 parseAtoms
@@ -7486,9 +7480,6 @@ CompilationSyntaxParseCache
 :
 copyFunctionInfo
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -7596,9 +7587,6 @@ CompilationSyntaxParseCache
 :
 copyScriptInfo
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -7877,10 +7865,10 @@ asCell
 (
 )
 ;
-RootedFunction
+JSFunction
+*
 fun
-(
-cx
+=
 &
 cell
 -
@@ -7898,7 +7886,6 @@ as
 JSFunction
 >
 (
-)
 )
 ;
 gcThingsData
@@ -8097,9 +8084,6 @@ CompilationSyntaxParseCache
 :
 copyScriptInfo
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -8510,9 +8494,6 @@ CompilationSyntaxParseCache
 :
 copyClosedOverBindings
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -8766,9 +8747,6 @@ CompilationSyntaxParseCache
 :
 copyClosedOverBindings
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc

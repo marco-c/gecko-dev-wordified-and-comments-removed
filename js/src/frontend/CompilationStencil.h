@@ -3426,9 +3426,6 @@ nodiscard
 bool
 init
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -3495,9 +3492,6 @@ nodiscard
 bool
 copyFunctionInfo
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -3521,9 +3515,6 @@ nodiscard
 bool
 copyScriptInfo
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -3549,9 +3540,6 @@ nodiscard
 bool
 copyScriptInfo
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -3578,9 +3566,6 @@ nodiscard
 bool
 copyClosedOverBindings
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -3606,9 +3591,6 @@ nodiscard
 bool
 copyClosedOverBindings
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -6132,7 +6114,6 @@ previousParseCache
 .
 init
 (
-cx
 fc
 alloc
 parserAtoms
