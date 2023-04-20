@@ -2138,32 +2138,13 @@ get_devedition_signing_cert_scope
 config
 )
     
-elif
-is_shippable
+else
 :
         
 return
 get_signing_cert_scope
 (
 config
-)
-    
-else
-:
-        
-return
-add_scope_prefix
-(
-config
-"
-signing
-:
-cert
-:
-dep
--
-signing
-"
 )
 def
 generate_beetmover_upstream_artifacts
