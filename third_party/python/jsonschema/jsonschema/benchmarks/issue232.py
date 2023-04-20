@@ -21,7 +21,9 @@ github
 .
 com
 /
-Julian
+python
+-
+jsonschema
 /
 jsonschema
 /
@@ -33,13 +35,9 @@ pull
 "
 "
 from
-twisted
-.
-python
-.
-filepath
+pathlib
 import
-FilePath
+Path
 from
 pyperf
 import
@@ -65,17 +63,16 @@ Version
     
 path
 =
-FilePath
+Path
 (
 __file__
 )
 .
-sibling
-(
+parent
+/
 "
 issue232
 "
-)
     
 remotes
 =
