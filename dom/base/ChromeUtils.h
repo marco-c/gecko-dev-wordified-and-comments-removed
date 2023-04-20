@@ -1470,6 +1470,14 @@ GlobalObject
 )
 ;
 static
+void
+EnsureJSOracleStarted
+(
+GlobalObject
+&
+)
+;
+static
 unsigned
 AliveUtilityProcesses
 (
