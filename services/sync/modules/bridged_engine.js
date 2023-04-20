@@ -108,9 +108,6 @@ BridgeWrapperXPCOM
 BridgedEngine
 "
 "
-BridgedStore
-"
-"
 LogAdapter
 "
 ]
