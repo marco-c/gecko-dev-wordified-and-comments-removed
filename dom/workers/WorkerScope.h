@@ -693,6 +693,13 @@ WorkerGlobalScopeBase
 (
 )
 ;
+bool
+IsSystemPrincipal
+(
+)
+const
+final
+;
 CheckedUnsafePtr
 <
 WorkerPrivate
