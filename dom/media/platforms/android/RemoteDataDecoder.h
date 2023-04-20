@@ -171,8 +171,9 @@ virtual
 RemoteDataDecoder
 (
 )
-{
-}
+=
+default
+;
 RemoteDataDecoder
 (
 MediaData
