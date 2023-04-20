@@ -660,6 +660,10 @@ Modifiers
 aModifiers
 =
 MODIFIER_NONE
+bool
+aSimulateMomentum
+=
+false
 )
 {
 PanGestureInput
@@ -675,6 +679,12 @@ aPoint
 aDelta
 aModifiers
 )
+;
+input
+.
+mSimulateMomentum
+=
+aSimulateMomentum
 ;
 return
 aTarget
