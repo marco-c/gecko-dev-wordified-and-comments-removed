@@ -33,13 +33,6 @@ h
 #
 include
 "
-nsGlobalWindowInner
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
@@ -3056,6 +3049,7 @@ return
 false
 ;
 }
+else
 if
 (
 doc
@@ -3108,6 +3102,7 @@ return
 false
 ;
 }
+else
 if
 (
 doc
@@ -3148,6 +3143,7 @@ return
 false
 ;
 }
+else
 if
 (
 doc
@@ -3189,6 +3185,7 @@ return
 false
 ;
 }
+else
 if
 (
 doc
@@ -3238,17 +3235,12 @@ true
 }
 return
 !
-nsGlobalWindowInner
+nsContentUtils
 :
 :
-Cast
-(
-window
-)
--
->
 ShouldResistFingerprinting
 (
+doc
 )
 ;
 }
