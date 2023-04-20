@@ -384,9 +384,12 @@ array
 ;
 if
 (
-a
-instanceof
 File
+.
+isInstance
+(
+a
+)
 )
 return
 '
@@ -395,9 +398,12 @@ file
 ;
 if
 (
-a
-instanceof
 Blob
+.
+isInstance
+(
+a
+)
 )
 return
 '
@@ -1062,8 +1068,6 @@ cloneInto
 (
 {
 a
-:
-function
 (
 )
 {
@@ -1445,8 +1449,6 @@ test
 =
 {
 a
-:
-function
 (
 )
 {
@@ -1477,8 +1479,6 @@ test
 =
 {
 a
-:
-function
 (
 obj
 )
