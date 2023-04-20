@@ -220,9 +220,7 @@ defined
 (
 OS_WIN
 )
-:
-:
-LoadLibraryW
+LoadLibraryOrCrash
 (
 L
 "
