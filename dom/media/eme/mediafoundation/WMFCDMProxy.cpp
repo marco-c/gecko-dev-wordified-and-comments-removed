@@ -82,7 +82,7 @@ aTopLevelOrigin
 const
 nsAString
 &
-aGMPName
+aName
 )
 {
 MOZ_ASSERT

@@ -128,7 +128,7 @@ aTopLevelOrigin
 const
 nsAString
 &
-aGMPName
+aName
 )
 override
 ;
