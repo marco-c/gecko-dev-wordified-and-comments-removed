@@ -5018,7 +5018,7 @@ margin
 shrinkToFit
 :
 false
-printBackground
+background
 :
 true
 }
@@ -5049,6 +5049,8 @@ printToBinaryString
 win
 .
 gBrowser
+.
+browsingContext
 printSettings
 )
 ;

@@ -4381,6 +4381,8 @@ print
 printToBinaryString
 (
 linkedBrowser
+.
+browsingContext
 printSettings
 )
 ;
