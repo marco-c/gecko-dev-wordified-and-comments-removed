@@ -542,13 +542,3 @@ GleanPings
 webidl
 "
 ]
-WEBIDL_FILES
-+
-=
-[
-"
-PrioEncoder
-.
-webidl
-"
-]
