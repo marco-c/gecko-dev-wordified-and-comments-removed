@@ -431,7 +431,7 @@ override
 ;
 private
 :
-bool
+void
 ApplyOptions
 (
 const
