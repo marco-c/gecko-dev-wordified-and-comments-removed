@@ -72,7 +72,7 @@ init
 -
 9324
 -
-g01859da84bad
+g01859da84bad_clang_16
 .
 patch
 "
@@ -117,7 +117,7 @@ init
 -
 11205
 -
-gcead4eceb01b
+gcead4eceb01b_clang_16
 .
 patch
 "
