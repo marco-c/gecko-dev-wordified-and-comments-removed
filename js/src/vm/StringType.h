@@ -621,6 +621,15 @@ static_assert
 (
 TYPE_FLAGS_MASK
 &
+js
+:
+:
+gc
+:
+:
+HeaderWord
+:
+:
 RESERVED_MASK
 )
 =
