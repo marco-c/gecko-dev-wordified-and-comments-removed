@@ -458,7 +458,7 @@ fetchOptions
 targetAddressSpace
 :
 correctAddressSpace
-method
+mode
 :
 "
 no
@@ -470,7 +470,7 @@ expected
 :
 FetchTestResult
 .
-SUCCESS
+OPAQUE
 }
 )
 ;
