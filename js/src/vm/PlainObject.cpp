@@ -1136,6 +1136,10 @@ MOZ_ASSERT
 shape
 -
 >
+asShared
+(
+)
+.
 slotSpan
 (
 )
@@ -1201,6 +1205,10 @@ if
 shape
 -
 >
+asShared
+(
+)
+.
 slotSpan
 (
 )

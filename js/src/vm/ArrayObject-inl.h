@@ -160,6 +160,10 @@ MOZ_ASSERT
 shape
 -
 >
+asShared
+(
+)
+.
 slotSpan
 (
 )

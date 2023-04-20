@@ -28455,6 +28455,10 @@ numSlots_
 shape
 -
 >
+asShared
+(
+)
+.
 slotSpan
 (
 )
@@ -28662,6 +28666,10 @@ shape
 )
 -
 >
+asShared
+(
+)
+.
 slotSpan
 (
 )

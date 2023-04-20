@@ -2916,7 +2916,7 @@ MOZ_ASSERT
 numSlots
 =
 =
-shape
+sharedShape
 (
 )
 -
@@ -3250,7 +3250,7 @@ const
 uint32_t
 nslots
 =
-shape
+sharedShape
 (
 )
 -
@@ -3307,7 +3307,7 @@ dictionarySlotSpan
 )
 ;
 return
-shape
+sharedShape
 (
 )
 -
