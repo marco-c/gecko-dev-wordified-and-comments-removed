@@ -610,7 +610,10 @@ false
 ;
 }
 }
-CheckPerf
+PerfSpewer
+:
+:
+Init
 (
 )
 ;
