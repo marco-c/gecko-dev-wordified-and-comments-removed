@@ -371,7 +371,7 @@ aKeySystem
 .
 EqualsLiteral
 (
-kPlayReadyKeySystemNameDeprecated
+kPlayReadyKeySystemHardware
 )
 ;
 }

@@ -75,7 +75,7 @@ recommendation
 inline
 constexpr
 char
-kPlayReadyKeySystemNameDeprecated
+kPlayReadyKeySystemHardware
 [
 ]
 =
@@ -85,6 +85,10 @@ com
 microsoft
 .
 playready
+.
+recommendation
+.
+3000
 "
 ;
 #
