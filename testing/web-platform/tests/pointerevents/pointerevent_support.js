@@ -3184,6 +3184,12 @@ eventName
 ;
 }
 function
+arePointerEventsBeforeCompatMouseEvents
+(
+events
+)
+{
+function
 arePointerAndMouseEventCompatible
 (
 pointerEventName
@@ -3228,12 +3234,6 @@ substring
 )
 ;
 }
-function
-arePointerEventsBeforeCompatMouseEvents
-(
-events
-)
-{
 function
 arePointerAndMouseEventInProperOrder
 (
