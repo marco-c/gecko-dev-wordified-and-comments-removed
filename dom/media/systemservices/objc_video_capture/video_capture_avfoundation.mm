@@ -665,6 +665,11 @@ VideoCaptureAvFoundation
 (
 )
 {
+MOZ_RELEASE_ASSERT
+(
+mOkToDestroy
+)
+;
 StopCapture
 (
 )
