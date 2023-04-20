@@ -14,8 +14,6 @@ description
 "
 "
 "
-import
-copy
 from
 taskgraph
 .
@@ -24,6 +22,14 @@ transforms
 base
 import
 TransformSequence
+from
+gecko_taskgraph
+.
+util
+.
+copy_task
+import
+copy_task
 transforms
 =
 TransformSequence
@@ -76,9 +82,7 @@ chunk_locales
             
 locale_job
 =
-copy
-.
-deepcopy
+copy_task
 (
 job
 )

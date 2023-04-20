@@ -1,6 +1,4 @@
 import
-copy
-import
 json
 import
 logging
@@ -26,6 +24,14 @@ import
 get_artifact
 get_task_definition
 list_artifacts
+from
+gecko_taskgraph
+.
+util
+.
+copy_task
+import
+copy_task
 from
 .
 registry
@@ -830,9 +836,7 @@ indent
     
 task_definition
 =
-copy
-.
-deepcopy
+copy_task
 (
 task_definition
 )
@@ -987,9 +991,7 @@ suite
     
 command
 =
-copy
-.
-deepcopy
+copy_task
 (
 task_definition
 [
