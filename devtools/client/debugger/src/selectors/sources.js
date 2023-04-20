@@ -621,11 +621,7 @@ getSelectedSource
 createSelector
 (
 getSelectedLocation
-getSourcesMap
-(
 selectedLocation
-sourcesMap
-)
 =
 >
 {
@@ -640,14 +636,9 @@ undefined
 ;
 }
 return
-sourcesMap
-.
-get
-(
 selectedLocation
 .
-sourceId
-)
+source
 ;
 }
 )
