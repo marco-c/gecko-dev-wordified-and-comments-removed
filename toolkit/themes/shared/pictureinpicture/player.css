@@ -2973,6 +2973,16 @@ direction
 :
 ltr
 ;
+background
+-
+color
+:
+transparent
+;
+padding
+:
+6px
+;
 }
 #
 scrubber
