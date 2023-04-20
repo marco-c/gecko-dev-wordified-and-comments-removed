@@ -538,7 +538,7 @@ nsIFile
 mProfileLocalDir
 ;
 bool
-mProfileNotified
+mAppStarted
 =
 false
 ;
