@@ -170,6 +170,13 @@ LoginManager
 jsm
 "
 "
+LoginManager
+.
+shared
+.
+mjs
+"
+"
 LoginManagerAuthPrompter
 .
 jsm
