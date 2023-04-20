@@ -81,6 +81,11 @@ MFCDMProxy
 h
 "
 "
+MFCDMSession
+.
+h
+"
+"
 MFContentProtectionManager
 .
 h
@@ -122,6 +127,11 @@ UNIFIED_SOURCES
 [
 "
 MFCDMProxy
+.
+cpp
+"
+"
+MFCDMSession
 .
 cpp
 "
