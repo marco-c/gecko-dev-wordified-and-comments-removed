@@ -71,8 +71,6 @@ private
 nsSyncStreamListener
 (
 )
-=
-default
 ;
 ~
 nsSyncStreamListener
