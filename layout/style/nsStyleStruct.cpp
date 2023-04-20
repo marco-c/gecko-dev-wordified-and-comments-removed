@@ -14901,7 +14901,7 @@ nsChangeHint
 ;
 }
 static
-StyleRGBA
+StyleAbsoluteColor
 DefaultColor
 (
 const
@@ -14911,7 +14911,7 @@ aDocument
 )
 {
 return
-StyleRGBA
+StyleAbsoluteColor
 :
 :
 FromColor

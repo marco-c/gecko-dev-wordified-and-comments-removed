@@ -23,9 +23,6 @@ crate
 ArcSlice
 ;
 use
-cssparser
-;
-use
 servo_arc
 :
 :
@@ -320,10 +317,13 @@ OwnedStr
 trivial_to_resolved_value
 !
 (
-cssparser
+crate
 :
 :
-RGBA
+color
+:
+:
+AbsoluteColor
 )
 ;
 trivial_to_resolved_value

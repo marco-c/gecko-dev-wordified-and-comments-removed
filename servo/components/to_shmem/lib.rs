@@ -852,15 +852,6 @@ impl_trivial_to_shmem
 cssparser
 :
 :
-RGBA
-)
-;
-impl_trivial_to_shmem
-!
-(
-cssparser
-:
-:
 SourceLocation
 )
 ;

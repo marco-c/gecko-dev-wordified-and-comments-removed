@@ -1776,7 +1776,8 @@ aIndex
 mozilla
 :
 :
-StyleRGBA
+StyleAbsoluteColor
+*
 aColor
 )
 ;

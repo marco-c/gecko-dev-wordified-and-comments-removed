@@ -125,13 +125,13 @@ None
 mozilla
 :
 :
-StyleRGBA
+StyleAbsoluteColor
 fontSmoothingBackgroundColor
 =
 mozilla
 :
 :
-StyleRGBA
+StyleAbsoluteColor
 :
 :
 Transparent

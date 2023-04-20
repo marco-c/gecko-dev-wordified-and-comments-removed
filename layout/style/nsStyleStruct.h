@@ -4083,7 +4083,7 @@ const
 mozilla
 :
 :
-StyleRGBA
+StyleAbsoluteColor
 mColor
 ;
 mozilla

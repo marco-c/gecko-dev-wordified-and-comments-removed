@@ -2,6 +2,15 @@ use
 crate
 :
 :
+color
+:
+:
+AbsoluteColor
+;
+use
+crate
+:
+:
 context
 :
 :
@@ -36,8 +45,8 @@ values
 :
 :
 {
-convert_nscolor_to_rgba
-convert_rgba_to_nscolor
+convert_absolute_color_to_nscolor
+convert_nscolor_to_absolute_color
 }
 ;
 use
@@ -178,12 +187,6 @@ app_units
 Au
 AU_PER_PX
 }
-;
-use
-cssparser
-:
-:
-RGBA
 ;
 use
 euclid
@@ -938,7 +941,7 @@ set_body_text_color
 self
 color
 :
-RGBA
+AbsoluteColor
 )
 {
 self
@@ -947,7 +950,7 @@ body_text_color
 .
 store
 (
-convert_rgba_to_nscolor
+convert_absolute_color_to_nscolor
 (
 &
 color
@@ -1307,9 +1310,9 @@ self
 )
 -
 >
-RGBA
+AbsoluteColor
 {
-convert_nscolor_to_rgba
+convert_nscolor_to_absolute_color
 (
 self
 .
@@ -2522,7 +2525,7 @@ self
 )
 -
 >
-RGBA
+AbsoluteColor
 {
 let
 normal
@@ -2534,7 +2537,7 @@ normal
 (
 )
 ;
-convert_nscolor_to_rgba
+convert_nscolor_to_absolute_color
 (
 self
 .
@@ -2558,7 +2561,7 @@ self
 )
 -
 >
-RGBA
+AbsoluteColor
 {
 let
 normal
@@ -2570,7 +2573,7 @@ normal
 (
 )
 ;
-convert_nscolor_to_rgba
+convert_nscolor_to_absolute_color
 (
 self
 .
