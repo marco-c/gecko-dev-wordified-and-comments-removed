@@ -428,15 +428,6 @@ ONE_DAY
 static
 const
 uint32_t
-STARTUP_WINDOW
-=
-5U
-*
-60U
-;
-static
-const
-uint32_t
 METADATA_VERSION
 =
 1

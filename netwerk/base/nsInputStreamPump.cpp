@@ -100,6 +100,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsStreamUtils
 .
 h
@@ -472,6 +479,9 @@ ReadSegments
 CallPeekFunc
 &
 data
+mozilla
+:
+:
 net
 :
 :
@@ -537,6 +547,9 @@ mLabeledMainThreadTarget
 :
 do_AddRef
 (
+mozilla
+:
+:
 GetMainThreadSerialEventTarget
 (
 )
@@ -2636,6 +2649,9 @@ mLabeledMainThreadTarget
 >
 Dispatch
 (
+mozilla
+:
+:
 NewRunnableMethod
 (
 "
