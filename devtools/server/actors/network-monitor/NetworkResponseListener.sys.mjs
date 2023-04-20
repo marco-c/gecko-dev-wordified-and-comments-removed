@@ -2436,7 +2436,7 @@ owner
 .
 openResponses
 .
-getChannelById
+getByChannelId
 (
 channel
 .

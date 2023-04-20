@@ -4216,7 +4216,7 @@ this
 .
 openRequests
 .
-getChannelById
+getByChannelId
 (
 channel
 .
