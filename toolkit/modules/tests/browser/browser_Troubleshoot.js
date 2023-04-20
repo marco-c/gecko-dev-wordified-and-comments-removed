@@ -1359,7 +1359,7 @@ withStub
 (
 PreferenceExperiments
 "
-getAllActive
+getAllActiveExperiments
 "
 {
 returnValue
@@ -1383,7 +1383,7 @@ withStub
 (
 AddonStudies
 "
-getAllActive
+getAllActiveExperiments
 "
 {
 returnValue
@@ -1407,7 +1407,7 @@ withStub
 (
 PreferenceRollouts
 "
-getAllActive
+getAllActiveExperiments
 "
 {
 returnValue

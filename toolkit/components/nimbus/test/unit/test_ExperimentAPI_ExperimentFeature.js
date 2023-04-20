@@ -1148,7 +1148,7 @@ manager
 .
 store
 "
-getAllActive
+getAllActiveExperiments
 "
 )
 .
@@ -1353,7 +1353,7 @@ manager
 .
 store
 "
-getAllRollouts
+getAllActiveRollouts
 "
 )
 .

@@ -607,7 +607,7 @@ of
 await
 this
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 )
@@ -774,7 +774,7 @@ of
 await
 this
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 )
@@ -1418,7 +1418,7 @@ getAll
 ;
 }
 async
-getAllActive
+getAllActiveExperiments
 (
 )
 {
@@ -1499,7 +1499,7 @@ of
 await
 this
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 )
