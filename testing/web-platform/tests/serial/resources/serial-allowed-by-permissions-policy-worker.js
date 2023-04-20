@@ -52,7 +52,7 @@ getPorts
 )
 Inherited
 header
-feature
+permissions
 policy
 allows
 {

@@ -1,8 +1,7 @@
-Feature
+Permissions
 -
 Policy
 :
 serial
-'
-none
-'
+=
+*
