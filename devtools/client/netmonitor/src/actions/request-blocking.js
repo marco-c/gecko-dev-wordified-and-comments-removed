@@ -236,7 +236,7 @@ async
 {
 dispatch
 getState
-connector
+commands
 }
 )
 =
@@ -272,7 +272,9 @@ const
 responses
 =
 await
-connector
+commands
+.
+networkCommand
 .
 getBlockedUrls
 (

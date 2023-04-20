@@ -56,7 +56,7 @@ REMOVE_ALL_BLOCKED_URLS
 function
 requestBlockingMiddleware
 (
-connector
+commands
 )
 {
 return
@@ -149,7 +149,9 @@ arr
 ]
 ;
 await
-connector
+commands
+.
+networkCommand
 .
 setBlockedUrls
 (
