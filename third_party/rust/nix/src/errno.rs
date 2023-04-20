@@ -301,14 +301,10 @@ i32
 {
 unsafe
 {
-(
 *
 errno_location
 (
 )
-)
-as
-i32
 }
 }
 impl

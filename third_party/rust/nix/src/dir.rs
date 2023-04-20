@@ -963,6 +963,16 @@ clippy
 useless_conversion
 )
 ]
+#
+[
+allow
+(
+clippy
+:
+:
+unnecessary_cast
+)
+]
 pub
 fn
 ino

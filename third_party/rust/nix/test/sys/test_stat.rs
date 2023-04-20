@@ -1,5 +1,15 @@
 #
 [
+allow
+(
+clippy
+:
+:
+useless_conversion
+)
+]
+#
+[
 cfg
 (
 target_os

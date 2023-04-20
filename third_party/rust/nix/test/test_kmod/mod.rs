@@ -96,7 +96,6 @@ hello
 .
 c
 "
-&
 tmp_dir
 .
 path
@@ -140,7 +139,6 @@ hello_mod
 /
 Makefile
 "
-&
 tmp_dir
 .
 path

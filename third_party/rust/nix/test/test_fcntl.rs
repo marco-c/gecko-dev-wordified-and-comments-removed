@@ -566,7 +566,6 @@ File
 :
 create
 (
-&
 old_path
 )
 .
@@ -822,7 +821,6 @@ File
 :
 create
 (
-&
 old_path
 )
 .
@@ -1466,7 +1464,6 @@ File
 :
 create
 (
-&
 old_path
 )
 .
@@ -1537,7 +1534,6 @@ File
 :
 create
 (
-&
 new_path
 )
 .
@@ -1737,13 +1733,11 @@ fs
 :
 symlink
 (
-&
 src
 .
 as_path
 (
 )
-&
 dst
 .
 as_path
