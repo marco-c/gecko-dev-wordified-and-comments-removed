@@ -6362,7 +6362,7 @@ settings
 *
 type
 {
-array
+Array
 }
 *
 /
@@ -6405,7 +6405,7 @@ settings
 *
 type
 {
-array
+Array
 }
 *
 /
@@ -6465,7 +6465,7 @@ order
 *
 type
 {
-array
+Array
 }
 *
 /
@@ -10186,7 +10186,7 @@ listed
 *
 param
 {
-array
+Array
 }
 engineConfigs
 *
@@ -10203,7 +10203,7 @@ schema
 *
 returns
 {
-array
+Array
 .
 <
 nsISearchEngine
@@ -15158,6 +15158,7 @@ the
 visible
 engines
 .
+*
 *
 returns
 {
@@ -22767,7 +22768,7 @@ SearchDefaultOverrideAllowlistHandler
 *
 param
 {
-function
+Function
 }
 listener
 *
@@ -23093,7 +23094,7 @@ quick
 *
 returns
 {
-array
+Array
 }
 *
 An

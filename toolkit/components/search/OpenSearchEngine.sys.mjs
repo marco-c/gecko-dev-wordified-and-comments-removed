@@ -396,6 +396,7 @@ fatal
 errors
 .
 *
+*
 param
 {
 *
@@ -681,7 +682,7 @@ from
 *
 param
 {
-function
+Function
 }
 [
 callback
@@ -966,7 +967,7 @@ complete
 *
 param
 {
-function
+Function
 }
 callback
 *
@@ -986,7 +987,7 @@ null
 *
 param
 {
-array
+Array
 }
 bytes
 *

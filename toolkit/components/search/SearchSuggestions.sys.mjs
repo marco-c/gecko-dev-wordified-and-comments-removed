@@ -173,7 +173,8 @@ is
 identical
 .
 *
-constructor
+*
+class
 *
 /
 class
@@ -425,7 +426,7 @@ string
 *
 param
 {
-array
+Array
 }
 results
 *
@@ -1265,7 +1266,8 @@ web
 searches
 .
 *
-constructor
+*
+class
 *
 /
 export

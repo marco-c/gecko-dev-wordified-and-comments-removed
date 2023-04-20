@@ -304,7 +304,7 @@ writeSuggestions
 *
 param
 {
-array
+Array
 }
 data
 *

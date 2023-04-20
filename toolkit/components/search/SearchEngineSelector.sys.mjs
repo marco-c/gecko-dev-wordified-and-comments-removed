@@ -493,7 +493,7 @@ SearchEngineSelector
 *
 param
 {
-function
+Function
 }
 listener
 *
@@ -789,7 +789,7 @@ not
 *
 returns
 {
-array
+Array
 }
 *
 An
@@ -2109,6 +2109,7 @@ ordered
 correctly
 .
 *
+*
 param
 {
 object
@@ -2230,6 +2231,7 @@ search
 engine
 .
 *
+*
 param
 {
 object
@@ -2292,6 +2294,7 @@ but
 ignore
 some
 keys
+*
 *
 param
 {
@@ -2459,6 +2462,7 @@ they
 are
 using
 .
+*
 *
 param
 {

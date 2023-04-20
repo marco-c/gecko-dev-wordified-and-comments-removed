@@ -255,7 +255,7 @@ to
 *
 param
 {
-function
+Function
 }
 callback
 *
@@ -1428,6 +1428,7 @@ nsIIOService
 :
 newURI
 .
+*
 *
 param
 {

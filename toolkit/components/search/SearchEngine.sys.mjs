@@ -529,6 +529,7 @@ console
 friendly
 sizes
 *
+*
 param
 {
 string
@@ -635,7 +636,7 @@ size
 *
 param
 {
-array
+Array
 }
 byteArray
 *
@@ -675,7 +676,7 @@ size
 *
 returns
 {
-array
+Array
 }
 *
 An
@@ -1194,6 +1195,7 @@ for
 a
 parameter
 *
+*
 see
 nsISearchEngine
 :
@@ -1654,6 +1656,7 @@ substitution
 on
 aParamValue
 .
+*
 *
 see
 http
@@ -5595,7 +5598,7 @@ param
 {
 string
 |
-array
+Array
 }
 [
 params
@@ -5669,7 +5672,7 @@ param
 {
 string
 |
-array
+Array
 }
 [
 params
@@ -7803,6 +7806,7 @@ represents
 this
 engine
 .
+*
 *
 returns
 {
