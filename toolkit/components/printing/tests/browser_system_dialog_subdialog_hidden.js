@@ -395,8 +395,9 @@ withClosingFn
 {
 helper
 .
-rejectShowSystemDialog
+resolveShowSystemDialog
 (
+false
 )
 ;
 }
