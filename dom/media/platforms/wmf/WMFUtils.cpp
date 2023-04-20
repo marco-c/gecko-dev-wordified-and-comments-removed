@@ -1411,13 +1411,6 @@ return
 MFT_MESSAGE_NOTIFY_START_OF_STREAM
 "
 ;
-#
-if
-!
-defined
-(
-__MINGW32__
-)
 case
 MFT_MESSAGE_DROP_SAMPLES
 :
@@ -1474,8 +1467,6 @@ return
 MFT_MESSAGE_COMMAND_FLUSH_OUTPUT_STREAM
 "
 ;
-#
-endif
 default
 :
 return
