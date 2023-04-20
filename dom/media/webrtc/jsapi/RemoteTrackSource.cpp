@@ -158,6 +158,13 @@ IsDestroyed
 mStream
 -
 >
+End
+(
+)
+;
+mStream
+-
+>
 Destroy
 (
 )
