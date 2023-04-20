@@ -356,11 +356,8 @@ util
 import
 find_library
 from
-pip
 .
-_vendor
 .
-urllib3
 .
 packages
 .

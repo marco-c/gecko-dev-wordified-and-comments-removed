@@ -74,6 +74,8 @@ Callable
     
 Dict
     
+Generator
+    
 Iterable
     
 Iterator
@@ -132,16 +134,6 @@ canonicalize_name
 from
 pip
 .
-_vendor
-.
-six
-import
-ensure_str
-ensure_text
-reraise
-from
-pip
-.
 _internal
 .
 exceptions
@@ -162,8 +154,14 @@ _internal
 .
 metadata
 import
+(
+    
 BaseDistribution
+    
+FilesystemWheel
+    
 get_wheel_distribution
+)
 from
 pip
 .
@@ -256,22 +254,27 @@ Protocol
 :
         
 src_record_path
-=
-None
+:
+"
+RecordPath
+"
         
 dest_path
-=
-None
+:
+str
         
 changed
-=
-None
+:
+bool
         
 def
 save
 (
 self
 )
+-
+>
+None
 :
             
 pass
@@ -287,9 +290,9 @@ RecordPath
 =
 NewType
 (
-'
+"
 RecordPath
-'
+"
 str
 )
 InstalledCSVRow
@@ -308,13 +311,24 @@ def
 rehash
 (
 path
+:
+str
 blocksize
+:
+int
 =
 1
 <
 <
 20
 )
+-
+>
+Tuple
+[
+str
+str
+]
 :
     
 "
@@ -348,34 +362,32 @@ blocksize
     
 digest
 =
-'
+"
 sha256
 =
-'
+"
 +
 urlsafe_b64encode
 (
-        
 h
 .
 digest
 (
 )
-    
 )
 .
 decode
 (
-'
+"
 latin1
-'
+"
 )
 .
 rstrip
 (
-'
+"
 =
-'
+"
 )
     
 return
@@ -390,7 +402,16 @@ def
 csv_io_kwargs
 (
 mode
+:
+str
 )
+-
+>
+Dict
+[
+str
+Any
+]
 :
     
 "
@@ -418,32 +439,37 @@ mode
     
 return
 {
-'
+"
 mode
-'
+"
 :
 mode
-'
+"
 newline
-'
+"
 :
-'
-'
-'
+"
+"
+"
 encoding
-'
+"
 :
-'
+"
 utf
 -
 8
-'
+"
 }
 def
 fix_script
 (
 path
+:
+str
 )
+-
+>
+bool
 :
     
 "
@@ -489,9 +515,9 @@ with
 open
 (
 path
-'
+"
 rb
-'
+"
 )
 as
 script
@@ -512,11 +538,11 @@ firstline
 startswith
 (
 b
-'
+"
 #
 !
 python
-'
+"
 )
 :
             
@@ -541,10 +567,10 @@ getfilesystemencoding
 firstline
 =
 b
-'
+"
 #
 !
-'
+"
 +
 exename
 +
@@ -571,9 +597,9 @@ with
 open
 (
 path
-'
+"
 wb
-'
+"
 )
 as
 script
@@ -599,7 +625,12 @@ def
 wheel_root_is_purelib
 (
 metadata
+:
+Message
 )
+-
+>
+bool
 :
     
 return
@@ -721,7 +752,18 @@ def
 message_about_scripts_not_on_PATH
 (
 scripts
+:
+Sequence
+[
+str
+]
 )
+-
+>
+Optional
+[
+str
+]
 :
     
 "
@@ -772,6 +814,15 @@ return
 None
     
 grouped_by_dir
+:
+Dict
+[
+str
+Set
+[
+str
+]
+]
 =
 collections
 .
@@ -837,10 +888,10 @@ os
 .
 sep
 )
+        
 for
 i
 in
-        
 os
 .
 environ
@@ -887,12 +938,22 @@ executable
 )
     
 warn_for
+:
+Dict
+[
+str
+Set
+[
+str
+]
+]
 =
 {
         
 parent_dir
 :
 scripts
+        
 for
 parent_dir
 scripts
@@ -943,6 +1004,11 @@ items
 :
         
 sorted_scripts
+:
+List
+[
+str
+]
 =
 sorted
 (
@@ -1038,12 +1104,13 @@ on
 PATH
 .
 "
-            
 .
 format
 (
+                
 start_text
 parent_dir
+            
 )
         
 )
@@ -1227,8 +1294,25 @@ msg_lines
 def
 _normalized_outrows
 (
+    
 outrows
+:
+Iterable
+[
+InstalledCSVRow
+]
 )
+-
+>
+List
+[
+Tuple
+[
+str
+str
+str
+]
+]
 :
     
 "
@@ -1336,24 +1420,13 @@ sorted
 (
         
 (
-ensure_str
-(
 record_path
-encoding
-=
-'
-utf
--
-8
-'
-)
 hash_
 str
 (
 size
 )
 )
-        
 for
 record_path
 hash_
@@ -1366,65 +1439,77 @@ def
 _record_to_fs_path
 (
 record_path
+:
+RecordPath
+lib_dir
+:
+str
 )
+-
+>
+str
 :
     
 return
+os
+.
+path
+.
+join
+(
+lib_dir
 record_path
+)
 def
 _fs_to_record_path
 (
 path
-relative_to
-=
-None
+:
+str
+lib_dir
+:
+str
 )
+-
+>
+RecordPath
 :
     
 if
-relative_to
-is
-not
-None
+os
+.
+path
+.
+splitdrive
+(
+path
+)
+[
+0
+]
+.
+lower
+(
+)
+=
+=
+os
+.
+path
+.
+splitdrive
+(
+lib_dir
+)
+[
+0
+]
+.
+lower
+(
+)
 :
         
-if
-os
-.
-path
-.
-splitdrive
-(
-path
-)
-[
-0
-]
-.
-lower
-(
-)
-=
-=
-\
-                
-os
-.
-path
-.
-splitdrive
-(
-relative_to
-)
-[
-0
-]
-.
-lower
-(
-)
-:
-            
 path
 =
 os
@@ -1434,7 +1519,7 @@ path
 relpath
 (
 path
-relative_to
+lib_dir
 )
     
 path
@@ -1448,62 +1533,65 @@ os
 path
 .
 sep
-'
+"
 /
-'
+"
 )
     
 return
 cast
 (
-'
+"
 RecordPath
-'
+"
 path
-)
-def
-_parse_record_path
-(
-record_column
-)
-:
-    
-p
-=
-ensure_text
-(
-record_column
-encoding
-=
-'
-utf
--
-8
-'
-)
-    
-return
-cast
-(
-'
-RecordPath
-'
-p
 )
 def
 get_csv_rows_for_installed
 (
     
 old_csv_rows
+:
+List
+[
+List
+[
+str
+]
+]
     
 installed
+:
+Dict
+[
+RecordPath
+RecordPath
+]
     
 changed
+:
+Set
+[
+RecordPath
+]
     
 generated
+:
+List
+[
+str
+]
     
 lib_dir
+:
+str
 )
+-
+>
+List
+[
+InstalledCSVRow
+]
 :
     
 "
@@ -1532,6 +1620,11 @@ path
 "
     
 installed_rows
+:
+List
+[
+InstalledCSVRow
+]
 =
 [
 ]
@@ -1555,7 +1648,7 @@ logger
 .
 warning
 (
-'
+"
 RECORD
 line
 has
@@ -1566,14 +1659,17 @@ elements
 :
 %
 s
-'
+"
 row
 )
         
 old_record_path
 =
-_parse_record_path
+cast
 (
+"
+RecordPath
+"
 row
 [
 0
@@ -1604,6 +1700,7 @@ rehash
 _record_to_fs_path
 (
 new_record_path
+lib_dir
 )
 )
         
@@ -1624,8 +1721,8 @@ row
 >
 1
 else
-'
-'
+"
+"
             
 length
 =
@@ -1641,8 +1738,8 @@ row
 >
 2
 else
-'
-'
+"
+"
         
 installed_rows
 .
@@ -1704,10 +1801,10 @@ append
 (
 (
 installed_record_path
-'
-'
-'
-'
+"
+"
+"
+"
 )
 )
     
@@ -1717,7 +1814,19 @@ def
 get_console_script_specs
 (
 console
+:
+Dict
+[
+str
+str
+]
 )
+-
+>
+List
+[
+str
+]
 :
     
 "
@@ -1764,9 +1873,9 @@ console
 .
 pop
 (
-'
+"
 pip
-'
+"
 None
 )
     
@@ -1789,10 +1898,10 @@ scripts_to_generate
 .
 append
 (
-'
+"
 pip
 =
-'
+"
 +
 pip_script
 )
@@ -1822,14 +1931,14 @@ scripts_to_generate
 append
 (
                 
-'
+"
 pip
 {
 }
 =
 {
 }
-'
+"
 .
 format
 (
@@ -1848,9 +1957,8 @@ scripts_to_generate
 .
 append
 (
-            
 f
-'
+"
 pip
 {
 get_major_minor_version
@@ -1861,8 +1969,7 @@ get_major_minor_version
 {
 pip_script
 }
-'
-        
+"
 )
         
 pip_ep
@@ -1879,21 +1986,23 @@ re
 match
 (
 r
-'
+"
 pip
 (
 \
 d
++
 (
 \
 .
 \
 d
++
 )
 ?
 )
 ?
-'
+"
 k
 )
 ]
@@ -1916,9 +2025,9 @@ console
 .
 pop
 (
-'
+"
 easy_install
-'
+"
 None
 )
     
@@ -1941,14 +2050,12 @@ scripts_to_generate
 .
 append
 (
-                
-'
+"
 easy_install
 =
-'
+"
 +
 easy_install_script
-            
 )
         
 scripts_to_generate
@@ -1956,7 +2063,7 @@ scripts_to_generate
 append
 (
             
-'
+"
 easy_install
 -
 {
@@ -1964,7 +2071,7 @@ easy_install
 =
 {
 }
-'
+"
 .
 format
 (
@@ -1993,19 +2100,21 @@ re
 match
 (
 r
-'
+"
 easy_install
 (
 -
 \
 d
++
 \
 .
 \
 d
++
 )
 ?
-'
+"
 k
 )
         
@@ -2029,13 +2138,13 @@ extend
 (
 starmap
 (
-'
+"
 {
 }
 =
 {
 }
-'
+"
 .
 format
 console
@@ -2055,11 +2164,22 @@ ZipBackedFile
 def
 __init__
 (
+        
 self
 src_record_path
+:
+RecordPath
 dest_path
+:
+str
 zip_file
+:
+ZipFile
+    
 )
+-
+>
+None
 :
         
 self
@@ -2091,6 +2211,9 @@ _getinfo
 (
 self
 )
+-
+>
+ZipInfo
 :
         
 return
@@ -2110,6 +2233,9 @@ save
 (
 self
 )
+-
+>
+None
 :
         
 parent_dir
@@ -2217,7 +2343,14 @@ __init__
 (
 self
 file
+:
+"
+File
+"
 )
+-
+>
+None
 :
         
 self
@@ -2257,6 +2390,9 @@ save
 (
 self
 )
+-
+>
+None
 :
         
 self
@@ -2289,7 +2425,12 @@ __init__
 (
 self
 entry_point
+:
+str
 )
+-
+>
+None
 :
         
 super
@@ -2362,7 +2503,12 @@ def
 _raise_for_invalid_entrypoint
 (
 specification
+:
+str
 )
+-
+>
+None
 :
     
 entry
@@ -2403,12 +2549,31 @@ ScriptMaker
 def
 make
 (
+        
 self
 specification
+:
+str
 options
+:
+Optional
+[
+Dict
+[
+str
+Any
+]
+]
 =
 None
+    
 )
+-
+>
+List
+[
+str
+]
 :
         
 _raise_for_invalid_entrypoint
@@ -2431,29 +2596,51 @@ _install_wheel
 (
     
 name
+:
+str
     
 wheel_zip
+:
+ZipFile
     
 wheel_path
+:
+str
     
 scheme
+:
+Scheme
     
 pycompile
+:
+bool
 =
 True
     
 warn_script_location
+:
+bool
 =
 True
     
 direct_url
+:
+Optional
+[
+DirectUrl
+]
 =
 None
     
 requested
+:
+bool
 =
 False
 )
+-
+>
+None
 :
     
 "
@@ -2613,17 +2800,33 @@ scheme
 platlib
     
 installed
+:
+Dict
+[
+RecordPath
+RecordPath
+]
 =
 {
 }
     
 changed
+:
+Set
+[
+RecordPath
+]
 =
 set
 (
 )
     
 generated
+:
+List
+[
+str
+]
 =
 [
 ]
@@ -2631,12 +2834,23 @@ generated
 def
 record_installed
 (
+        
 srcfile
+:
+RecordPath
 destfile
+:
+str
 modified
+:
+bool
 =
 False
+    
 )
+-
+>
+None
 :
         
 "
@@ -2678,54 +2892,19 @@ changed
 .
 add
 (
-_fs_to_record_path
-(
-destfile
-)
-)
-    
-def
-all_paths
-(
-)
-:
-        
-names
-=
-wheel_zip
-.
-namelist
-(
-)
-        
-decoded_names
-=
-map
-(
-ensure_text
-names
-)
-        
-for
-name
-in
-decoded_names
-:
-            
-yield
-cast
-(
-"
-RecordPath
-"
-name
+newpath
 )
     
 def
 is_dir_path
 (
 path
+:
+RecordPath
 )
+-
+>
+bool
 :
         
 return
@@ -2742,8 +2921,15 @@ def
 assert_no_path_traversal
 (
 dest_dir_path
+:
+str
 target_path
+:
+str
 )
+-
+>
+None
 :
         
 if
@@ -2809,16 +2995,40 @@ dest_dir_path
 def
 root_scheme_file_maker
 (
+        
 zip_file
+:
+ZipFile
 dest
+:
+str
+    
 )
+-
+>
+Callable
+[
+[
+RecordPath
+]
+"
+File
+"
+]
 :
         
 def
 make_root_scheme_file
 (
 record_path
+:
+RecordPath
 )
+-
+>
+"
+File
+"
 :
             
 normed_path
@@ -2864,57 +3074,56 @@ make_root_scheme_file
 def
 data_scheme_file_maker
 (
+        
 zip_file
+:
+ZipFile
 scheme
+:
+Scheme
+    
 )
+-
+>
+Callable
+[
+[
+RecordPath
+]
+"
+File
+"
+]
 :
         
 scheme_paths
 =
 {
-}
-        
-for
 key
-in
-SCHEME_KEYS
 :
-            
-encoded_key
-=
-ensure_text
-(
-key
-)
-            
-scheme_paths
-[
-encoded_key
-]
-=
-ensure_text
-(
-                
 getattr
 (
 scheme
 key
 )
-encoding
-=
-sys
-.
-getfilesystemencoding
-(
-)
-            
-)
+for
+key
+in
+SCHEME_KEYS
+}
         
 def
 make_data_scheme_file
 (
 record_path
+:
+RecordPath
 )
+-
+>
+"
+File
+"
 :
             
 normed_path
@@ -3087,12 +3296,10 @@ key
 .
 format
 (
-                    
 wheel_path
 scheme_key
 record_path
 valid_scheme_keys
-                
 )
                 
 raise
@@ -3134,7 +3341,12 @@ def
 is_data_scheme_path
 (
 path
+:
+RecordPath
 )
+-
+>
+bool
 :
         
 return
@@ -3161,8 +3373,17 @@ data
     
 paths
 =
-all_paths
+cast
 (
+List
+[
+RecordPath
+]
+wheel_zip
+.
+namelist
+(
+)
 )
     
 file_paths
@@ -3178,34 +3399,24 @@ data_scheme_paths
 =
 partition
 (
-        
 is_data_scheme_path
 file_paths
-    
 )
     
 make_root_scheme_file
 =
 root_scheme_file_maker
 (
-        
 wheel_zip
-        
-ensure_text
-(
 lib_dir
-encoding
-=
-sys
-.
-getfilesystemencoding
-(
-)
-)
-    
 )
     
 files
+:
+Iterator
+[
+File
+]
 =
 map
 (
@@ -3217,7 +3428,12 @@ def
 is_script_scheme_path
 (
 path
+:
+RecordPath
 )
+-
+>
+bool
 :
         
 parts
@@ -3233,8 +3449,6 @@ split
 )
         
 return
-(
-            
 len
 (
 parts
@@ -3242,7 +3456,6 @@ parts
 >
 2
 and
-            
 parts
 [
 0
@@ -3256,7 +3469,6 @@ data
 "
 )
 and
-            
 parts
 [
 1
@@ -3266,8 +3478,6 @@ parts
 "
 scripts
 "
-        
-)
     
 other_scheme_paths
 script_scheme_paths
@@ -3308,11 +3518,17 @@ distribution
 =
 get_wheel_distribution
 (
+        
+FilesystemWheel
+(
 wheel_path
+)
+        
 canonicalize_name
 (
 name
 )
+    
 )
     
 console
@@ -3327,7 +3543,14 @@ def
 is_entrypoint_wrapper
 (
 file
+:
+"
+File
+"
 )
+-
+>
+bool
 :
         
 path
@@ -3356,10 +3579,10 @@ lower
 .
 endswith
 (
-'
+"
 .
 exe
-'
+"
 )
 :
             
@@ -3381,12 +3604,12 @@ lower
 .
 endswith
 (
-'
+"
 -
 script
 .
 py
-'
+"
 )
 :
             
@@ -3432,7 +3655,6 @@ matchname
 name
         
 return
-(
 matchname
 in
 console
@@ -3440,24 +3662,28 @@ or
 matchname
 in
 gui
-)
     
 script_scheme_files
+:
+Iterator
+[
+File
+]
 =
 map
 (
+        
 make_data_scheme_file
 script_scheme_paths
+    
 )
     
 script_scheme_files
 =
 filterfalse
 (
-        
 is_entrypoint_wrapper
 script_scheme_files
-    
 )
     
 script_scheme_files
@@ -3505,6 +3731,14 @@ def
 pyc_source_file_paths
 (
 )
+-
+>
+Generator
+[
+str
+None
+None
+]
 :
         
 for
@@ -3555,10 +3789,10 @@ full_installed_path
 .
 endswith
 (
-'
+"
 .
 py
-'
+"
 )
 :
                 
@@ -3571,7 +3805,12 @@ def
 pyc_output_path
 (
 path
+:
+str
 )
+-
+>
+str
 :
         
 "
@@ -3589,7 +3828,6 @@ been
 written
 to
 .
-        
 "
 "
 "
@@ -3628,9 +3866,9 @@ warnings
 .
 filterwarnings
 (
-'
+"
 ignore
-'
+"
 )
                 
 for
@@ -3641,37 +3879,19 @@ pyc_source_file_paths
 )
 :
                     
-path_arg
-=
-ensure_str
-(
-                        
-path
-encoding
-=
-sys
-.
-getfilesystemencoding
-(
-)
-                    
-)
-                    
 success
 =
 compileall
 .
 compile_file
 (
-                        
-path_arg
+path
 force
 =
 True
 quiet
 =
 True
-                    
 )
                     
 if
@@ -3757,8 +3977,8 @@ maker
 variants
 =
 {
-'
-'
+"
+"
 }
     
 maker
@@ -3780,13 +4000,13 @@ list
 (
 starmap
 (
-'
+"
 {
 }
 =
 {
 }
-'
+"
 .
 format
 gui
@@ -3817,21 +4037,19 @@ generated
 .
 extend
 (
-        
 maker
 .
 make_multiple
 (
 gui_scripts_to_generate
 {
-'
+"
 gui
-'
+"
 :
 True
 }
 )
-    
 )
     
 if
@@ -3876,10 +4094,22 @@ def
 _generate_file
 (
 path
+:
+str
 *
 *
 kwargs
+:
+Any
 )
+-
+>
+Generator
+[
+BinaryIO
+None
+None
+]
 :
         
 with
@@ -3936,9 +4166,9 @@ path
 join
 (
 dest_info_dir
-'
+"
 INSTALLER
-'
+"
 )
     
 with
@@ -3955,11 +4185,11 @@ installer_file
 write
 (
 b
-'
+"
 pip
 \
 n
-'
+"
 )
     
 generated
@@ -4037,9 +4267,9 @@ path
 join
 (
 dest_info_dir
-'
+"
 REQUESTED
-'
+"
 )
         
 with
@@ -4067,9 +4297,9 @@ distribution
 .
 read_text
 (
-'
+"
 RECORD
-'
+"
 )
     
 record_rows
@@ -4110,6 +4340,7 @@ generated
 lib_dir
 =
 lib_dir
+    
 )
     
 record_path
@@ -4121,9 +4352,9 @@ path
 join
 (
 dest_info_dir
-'
+"
 RECORD
-'
+"
 )
     
 with
@@ -4134,9 +4365,9 @@ record_path
 *
 csv_io_kwargs
 (
-'
+"
 w
-'
+"
 )
 )
 as
@@ -4151,12 +4382,12 @@ writer
 (
 cast
 (
-'
+"
 IO
 [
 str
 ]
-'
+"
 record_file
 )
 )
@@ -4177,7 +4408,17 @@ def
 req_error_context
 (
 req_description
+:
+str
 )
+-
+>
+Generator
+[
+None
+None
+None
+]
 :
     
 try
@@ -4215,52 +4456,63 @@ args
 ]
 )
         
-reraise
-(
-            
-InstallationError
+raise
 InstallationError
 (
 message
 )
-sys
-.
-exc_info
-(
-)
-[
-2
-]
-        
-)
+from
+e
 def
 install_wheel
 (
     
 name
+:
+str
     
 wheel_path
+:
+str
     
 scheme
+:
+Scheme
     
 req_description
+:
+str
     
 pycompile
+:
+bool
 =
 True
     
 warn_script_location
+:
+bool
 =
 True
     
 direct_url
+:
+Optional
+[
+DirectUrl
+]
 =
 None
     
 requested
+:
+bool
 =
 False
 )
+-
+>
+None
 :
     
 with

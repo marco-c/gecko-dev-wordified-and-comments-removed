@@ -15,9 +15,7 @@ of
 chardet
 from
 within
-setup
-.
-py
+setuptools
 and
 from
 chardet
@@ -42,9 +40,9 @@ com
 __version__
 =
 "
-4
+5
 .
-0
+1
 .
 0
 "
@@ -54,7 +52,7 @@ __version__
 .
 split
 (
-'
+"
 .
-'
+"
 )

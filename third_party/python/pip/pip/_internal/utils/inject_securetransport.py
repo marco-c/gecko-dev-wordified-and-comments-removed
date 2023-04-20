@@ -66,6 +66,9 @@ def
 inject_securetransport
 (
 )
+-
+>
+None
 :
     
 if

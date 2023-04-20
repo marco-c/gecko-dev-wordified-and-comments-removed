@@ -5,7 +5,7 @@ logging
 from
 typing
 import
-Iterator
+Generator
 List
 Optional
 Sequence
@@ -42,6 +42,7 @@ __all__
 "
 RequirementSet
 "
+    
 "
 InstallRequirement
 "
@@ -49,6 +50,7 @@ InstallRequirement
 "
 parse_requirements
 "
+    
 "
 install_given_reqs
 "
@@ -123,13 +125,15 @@ InstallRequirement
 )
 -
 >
-Iterator
+Generator
 [
 Tuple
 [
 str
 InstallRequirement
 ]
+None
+None
 ]
 :
     
@@ -279,17 +283,17 @@ logger
 info
 (
             
-'
+"
 Installing
 collected
 packages
 :
 %
 s
-'
+"
             
-'
-'
+"
+"
 .
 join
 (
@@ -334,13 +338,13 @@ logger
 .
 info
 (
-'
+"
 Attempting
 uninstall
 :
 %
 s
-'
+"
 req_name
 )
                 
@@ -356,11 +360,9 @@ requirement
 .
 uninstall
 (
-                        
 auto_confirm
 =
 True
-                    
 )
             
 else

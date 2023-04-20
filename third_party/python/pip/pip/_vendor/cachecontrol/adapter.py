@@ -19,6 +19,7 @@ from
 controller
 import
 CacheController
+PERMANENT_REDIRECT_STATUSES
 from
 .
 cache
@@ -41,6 +42,9 @@ invalidating_methods
 {
 "
 PUT
+"
+"
+PATCH
 "
 "
 DELETE
@@ -443,12 +447,14 @@ response
 cached_response
             
 elif
+int
+(
 response
 .
 status
-=
-=
-301
+)
+in
+PERMANENT_REDIRECT_STATUSES
 :
                 
 self

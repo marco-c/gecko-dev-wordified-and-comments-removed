@@ -6,8 +6,9 @@ import
 TYPE_CHECKING
 BinaryIO
 Dict
-Iterator
+Iterable
 List
+Optional
 from
 pip
 .
@@ -93,9 +94,24 @@ __init__
 (
 self
 hashes
+:
+Optional
+[
+Dict
+[
+str
+List
+[
+str
+]
+]
+]
 =
 None
 )
+-
+>
+None
 :
         
 "
@@ -168,7 +184,16 @@ __and__
 (
 self
 other
+:
+"
+Hashes
+"
 )
+-
+>
+"
+Hashes
+"
 :
         
 if
@@ -263,6 +288,9 @@ digest_count
 (
 self
 )
+-
+>
+int
 :
         
 return
@@ -287,14 +315,17 @@ values
 def
 is_hash_allowed
 (
-        
 self
-        
 hash_name
-        
+:
+str
 hex_digest
-    
+:
+str
 )
+-
+>
+bool
 :
         
 "
@@ -332,7 +363,15 @@ check_against_chunks
 (
 self
 chunks
+:
+Iterable
+[
+bytes
+]
 )
+-
+>
+None
 :
         
 "
@@ -481,7 +520,20 @@ _raise
 (
 self
 gots
+:
+Dict
+[
+str
+"
+_Hash
+"
+]
 )
+-
+>
+"
+NoReturn
+"
 :
         
 raise
@@ -498,7 +550,12 @@ check_against_file
 (
 self
 file
+:
+BinaryIO
 )
+-
+>
+None
 :
         
 "
@@ -541,7 +598,12 @@ check_against_path
 (
 self
 path
+:
+str
 )
+-
+>
+None
 :
         
 with
@@ -565,10 +627,13 @@ file
 )
     
 def
-__nonzero__
+__bool__
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -597,25 +662,16 @@ _allowed
 )
     
 def
-__bool__
-(
-self
-)
-:
-        
-return
-self
-.
-__nonzero__
-(
-)
-    
-def
 __eq__
 (
 self
 other
+:
+object
 )
+-
+>
+bool
 :
         
 if
@@ -645,6 +701,9 @@ __hash__
 (
 self
 )
+-
+>
+int
 :
         
 return
@@ -750,6 +809,9 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -788,7 +850,20 @@ _raise
 (
 self
 gots
+:
+Dict
+[
+str
+"
+_Hash
+"
+]
 )
+-
+>
+"
+NoReturn
+"
 :
         
 raise

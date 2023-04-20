@@ -38,14 +38,8 @@ utils
 .
 subprocess
 import
-(
-    
-LOG_DIVIDER
-    
 call_subprocess
-    
 format_command_args
-)
 logger
 =
 logging
@@ -59,9 +53,19 @@ format_command_result
 (
     
 command_args
+:
+List
+[
+str
+]
     
 command_output
+:
+str
 )
+-
+>
+str
 :
     
 "
@@ -87,7 +91,7 @@ command_args
 text
 =
 f
-'
+"
 Command
 arguments
 :
@@ -96,7 +100,7 @@ command_desc
 }
 \
 n
-'
+"
     
 if
 not
@@ -106,12 +110,12 @@ command_output
 text
 +
 =
-'
+"
 Command
 output
 :
 None
-'
+"
     
 elif
 logger
@@ -128,7 +132,7 @@ DEBUG
 text
 +
 =
-'
+"
 Command
 output
 :
@@ -140,7 +144,7 @@ verbose
 to
 show
 ]
-'
+"
     
 else
 :
@@ -151,26 +155,26 @@ command_output
 .
 endswith
 (
-'
+"
 \
 n
-'
+"
 )
 :
             
 command_output
 +
 =
-'
+"
 \
 n
-'
+"
         
 text
 +
 =
 f
-'
+"
 Command
 output
 :
@@ -179,10 +183,7 @@ n
 {
 command_output
 }
-{
-LOG_DIVIDER
-}
-'
+"
     
 return
 text
@@ -191,15 +192,37 @@ get_legacy_build_wheel_path
 (
     
 names
+:
+List
+[
+str
+]
     
 temp_dir
+:
+str
     
 name
+:
+str
     
 command_args
+:
+List
+[
+str
+]
     
 command_output
+:
+str
 )
+-
+>
+Optional
+[
+str
+]
 :
     
 "
@@ -236,8 +259,7 @@ names
 msg
 =
 (
-            
-'
+"
 Legacy
 build
 of
@@ -253,8 +275,7 @@ files
 .
 \
 n
-'
-        
+"
 )
 .
 format
@@ -294,7 +315,7 @@ msg
 =
 (
             
-'
+"
 Legacy
 build
 of
@@ -312,9 +333,9 @@ file
 .
 \
 n
-'
+"
             
-'
+"
 Filenames
 (
 choosing
@@ -325,7 +346,7 @@ first
 }
 \
 n
-'
+"
         
 )
 .
@@ -369,17 +390,41 @@ build_wheel_legacy
 (
     
 name
+:
+str
     
 setup_py_path
+:
+str
     
 source_dir
+:
+str
     
 global_options
+:
+List
+[
+str
+]
     
 build_options
+:
+List
+[
+str
+]
     
 tempd
+:
+str
 )
+-
+>
+Optional
+[
+str
+]
 :
     
 "
@@ -439,7 +484,7 @@ tempd
 spin_message
 =
 f
-'
+"
 Building
 wheel
 for
@@ -451,7 +496,7 @@ setup
 .
 py
 )
-'
+"
     
 with
 open_spinner
@@ -466,13 +511,13 @@ logger
 .
 debug
 (
-'
+"
 Destination
 directory
 :
 %
 s
-'
+"
 tempd
 )
         
@@ -485,6 +530,16 @@ call_subprocess
 (
                 
 wheel_args
+                
+command_desc
+=
+"
+python
+setup
+.
+py
+bdist_wheel
+"
                 
 cwd
 =
@@ -513,14 +568,14 @@ logger
 .
 error
 (
-'
+"
 Failed
 building
 wheel
 for
 %
 s
-'
+"
 name
 )
             

@@ -76,25 +76,60 @@ install_editable
 (
     
 install_options
+:
+List
+[
+str
+]
     
 global_options
+:
+Sequence
+[
+str
+]
     
 prefix
+:
+Optional
+[
+str
+]
     
 home
+:
+Optional
+[
+str
+]
     
 use_user_site
+:
+bool
     
 name
+:
+str
     
 setup_py_path
+:
+str
     
 isolated
+:
+bool
     
 build_env
+:
+BuildEnvironment
     
 unpacked_source_directory
+:
+str
 )
+-
+>
+None
 :
     
 "
@@ -126,7 +161,7 @@ logger
 .
 info
 (
-'
+"
 Running
 setup
 .
@@ -135,7 +170,7 @@ develop
 for
 %
 s
-'
+"
 name
 )
     
@@ -186,6 +221,16 @@ call_subprocess
 (
                 
 args
+                
+command_desc
+=
+"
+python
+setup
+.
+py
+develop
+"
                 
 cwd
 =

@@ -280,7 +280,7 @@ links
 )
     
 def
-__nonzero__
+__bool__
 (
 self
 )
@@ -309,23 +309,6 @@ bool
 self
 .
 links
-)
-    
-def
-__bool__
-(
-self
-)
--
->
-bool
-:
-        
-return
-self
-.
-__nonzero__
-(
 )
     
 def

@@ -229,27 +229,28 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 i
-'
-'
+"
+            
+"
 -
 -
 index
-'
+"
             
 dest
 =
-'
+"
 index
-'
+"
             
 metavar
 =
-'
+"
 URL
-'
+"
             
 default
 =
@@ -259,7 +260,7 @@ pypi_url
             
 help
 =
-'
+"
 Base
 URL
 of
@@ -271,7 +272,8 @@ default
 %
 default
 )
-'
+"
+        
 )
         
 self
@@ -313,7 +315,7 @@ args
 raise
 CommandError
 (
-'
+"
 Missing
 required
 argument
@@ -322,7 +324,7 @@ search
 query
 )
 .
-'
+"
 )
         
 query
@@ -460,20 +462,20 @@ pypi
 search
 (
 {
-'
+"
 name
-'
+"
 :
 query
-'
+"
 summary
-'
+"
 :
 query
 }
-'
+"
 or
-'
+"
 )
         
 except
@@ -634,27 +636,27 @@ name
 =
 hit
 [
-'
+"
 name
-'
+"
 ]
         
 summary
 =
 hit
 [
-'
+"
 summary
-'
+"
 ]
         
 version
 =
 hit
 [
-'
+"
 version
-'
+"
 ]
         
 if
@@ -675,21 +677,21 @@ name
 =
 {
                 
-'
+"
 name
-'
+"
 :
 name
                 
-'
+"
 summary
-'
+"
 :
 summary
                 
-'
+"
 versions
-'
+"
 :
 [
 version
@@ -705,9 +707,9 @@ packages
 name
 ]
 [
-'
+"
 versions
-'
+"
 ]
 .
 append
@@ -726,9 +728,9 @@ packages
 name
 ]
 [
-'
+"
 versions
-'
+"
 ]
 )
 :
@@ -738,9 +740,9 @@ packages
 name
 ]
 [
-'
+"
 summary
-'
+"
 ]
 =
 summary
@@ -808,7 +810,7 @@ latest
                 
 write_output
 (
-'
+"
 INSTALLED
 :
 %
@@ -816,7 +818,7 @@ s
 (
 latest
 )
-'
+"
 dist
 .
 version
@@ -827,12 +829,12 @@ else
                 
 write_output
 (
-'
+"
 INSTALLED
 :
 %
 s
-'
+"
 dist
 .
 version
@@ -849,7 +851,8 @@ pre
                     
 write_output
 (
-'
+                        
+"
 LATEST
 :
 %
@@ -860,20 +863,20 @@ pre
 release
 ;
 install
-'
-                                 
-'
-with
 "
+                        
+"
+with
 pip
 install
 -
 -
 pre
-"
 )
-'
+"
+                        
 latest
+                    
 )
                 
 else
@@ -881,12 +884,12 @@ else
                     
 write_output
 (
-'
+"
 LATEST
 :
 %
 s
-'
+"
 latest
 )
 def
@@ -940,17 +943,20 @@ None
         
 name_column_width
 =
+(
+            
 max
 (
+                
 [
-            
+                    
 len
 (
 hit
 [
-'
+"
 name
-'
+"
 ]
 )
 +
@@ -962,27 +968,31 @@ hit
 .
 get
 (
-'
+"
 versions
-'
+"
 [
-'
+"
 -
-'
+"
 ]
 )
 )
 )
-            
+                    
 for
 hit
 in
 hits
-        
+                
 ]
+            
 )
+            
 +
 4
+        
+)
     
 for
 hit
@@ -994,22 +1004,22 @@ name
 =
 hit
 [
-'
+"
 name
-'
+"
 ]
         
 summary
 =
 hit
 [
-'
+"
 summary
-'
+"
 ]
 or
-'
-'
+"
+"
         
 latest
 =
@@ -1019,13 +1029,13 @@ hit
 .
 get
 (
-'
+"
 versions
-'
+"
 [
-'
+"
 -
-'
+"
 ]
 )
 )
@@ -1064,13 +1074,13 @@ target_width
 summary
 =
 (
-'
+"
 \
 n
-'
+"
 +
-'
-'
+"
+"
 *
 (
 name_column_width
@@ -1081,14 +1091,13 @@ name_column_width
 .
 join
 (
-                    
 summary_lines
 )
         
 name_latest
 =
 f
-'
+"
 {
 name
 }
@@ -1097,12 +1106,12 @@ name
 latest
 }
 )
-'
+"
         
 line
 =
 f
-'
+"
 {
 name_latest
 :
@@ -1114,7 +1123,7 @@ name_column_width
 {
 summary
 }
-'
+"
         
 try
 :

@@ -1,15 +1,3 @@
-#
--
-*
--
-coding
-:
-utf
--
-8
--
-*
--
 "
 "
 "
@@ -61,11 +49,11 @@ imports
 "
 "
 import
+calendar
+import
 copy
 import
 time
-import
-calendar
 from
 .
 _internal_utils
@@ -75,11 +63,11 @@ from
 .
 compat
 import
+Morsel
+MutableMapping
 cookielib
 urlparse
 urlunparse
-Morsel
-MutableMapping
 try
 :
     
@@ -95,9 +83,6 @@ as
 threading
 class
 MockRequest
-(
-object
-)
 :
     
 "
@@ -295,9 +280,9 @@ headers
 .
 get
 (
-'
+"
 Host
-'
+"
 )
 :
             
@@ -318,17 +303,17 @@ _r
 .
 headers
 [
-'
+"
 Host
-'
+"
 ]
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
         
 parsed
@@ -345,27 +330,33 @@ url
 return
 urlunparse
 (
-[
             
+[
+                
 parsed
 .
 scheme
+                
 host
+                
 parsed
 .
 path
+                
 parsed
 .
 params
+                
 parsed
 .
 query
-            
+                
 parsed
 .
 fragment
-        
+            
 ]
+        
 )
     
 def
@@ -469,6 +460,7 @@ one
 raise
 NotImplementedError
 (
+            
 "
 Cookie
 headers
@@ -480,6 +472,7 @@ add_unredirected_header
 (
 )
 "
+        
 )
     
 def
@@ -561,9 +554,6 @@ get_host
 )
 class
 MockResponse
-(
-object
-)
 :
     
 "
@@ -750,12 +740,11 @@ not
 hasattr
 (
 response
-'
+"
 _original_response
-'
+"
 )
 and
-            
 response
 .
 _original_response
@@ -848,9 +837,9 @@ get_new_headers
 .
 get
 (
-'
+"
 Cookie
-'
+"
 )
 def
 remove_cookie_by_name
@@ -1338,6 +1327,7 @@ None
             
 remove_cookie_by_name
 (
+                
 self
 name
 domain
@@ -1346,9 +1336,9 @@ kwargs
 .
 get
 (
-'
+"
 domain
-'
+"
 )
 path
 =
@@ -1356,10 +1346,11 @@ kwargs
 .
 get
 (
-'
+"
 path
-'
+"
 )
+            
 )
             
 return
@@ -2062,8 +2053,6 @@ self
             
 if
 (
-                
-(
 domain
 is
 None
@@ -2076,8 +2065,8 @@ domain
 domain
 )
 and
-                
 (
+                
 path
 is
 None
@@ -2088,7 +2077,6 @@ path
 =
 =
 path
-)
             
 )
 :
@@ -2121,8 +2109,6 @@ try
 return
 super
 (
-RequestsCookieJar
-self
 )
 .
 __contains__
@@ -2337,15 +2323,18 @@ kwargs
 :
         
 if
+(
+            
 hasattr
 (
 cookie
 .
 value
-'
+"
 startswith
-'
+"
 )
+            
 and
 cookie
 .
@@ -2357,6 +2346,7 @@ startswith
 "
 '
 )
+            
 and
 cookie
 .
@@ -2367,6 +2357,8 @@ endswith
 '
 "
 '
+)
+        
 )
 :
             
@@ -2385,15 +2377,13 @@ replace
 \
 "
 '
-'
-'
+"
+"
 )
         
 return
 super
 (
-RequestsCookieJar
-self
 )
 .
 set_cookie
@@ -2466,8 +2456,6 @@ else
             
 super
 (
-RequestsCookieJar
-self
 )
 .
 update
@@ -2630,26 +2618,30 @@ value
 raise
 KeyError
 (
-'
+f
+"
 name
 =
-%
-r
-domain
-=
-%
-r
-path
-=
-%
-r
-'
-%
-(
+{
 name
+!
+r
+}
 domain
+=
+{
+domain
+!
+r
+}
 path
-)
+=
+{
+path
+!
+r
+}
+"
 )
     
 def
@@ -2823,20 +2815,22 @@ None
 raise
 CookieConflictError
 (
-'
+                                
+f
+"
 There
 are
 multiple
 cookies
 with
 name
-%
-r
-'
-%
-(
+{
 name
-)
+!
+r
+}
+"
+                            
 )
                         
 toReturn
@@ -2855,26 +2849,30 @@ toReturn
 raise
 KeyError
 (
-'
+f
+"
 name
 =
-%
-r
-domain
-=
-%
-r
-path
-=
-%
-r
-'
-%
-(
+{
 name
+!
+r
+}
 domain
+=
+{
+domain
+!
+r
+}
 path
-)
+=
+{
+path
+!
+r
+}
+"
 )
     
 def
@@ -2914,9 +2912,9 @@ state
 .
 pop
 (
-'
+"
 _cookies_lock
-'
+"
 )
         
 return
@@ -2956,9 +2954,9 @@ state
 )
         
 if
-'
+"
 _cookies_lock
-'
+"
 not
 in
 self
@@ -3068,9 +3066,9 @@ if
 hasattr
 (
 jar
-'
+"
 copy
-'
+"
 )
 :
         
@@ -3180,90 +3178,90 @@ result
 =
 {
         
-'
+"
 version
-'
+"
 :
 0
         
-'
+"
 name
-'
+"
 :
 name
         
-'
+"
 value
-'
+"
 :
 value
         
-'
+"
 port
-'
+"
 :
 None
         
-'
+"
 domain
-'
+"
 :
-'
-'
+"
+"
         
-'
+"
 path
-'
+"
 :
-'
+"
 /
-'
+"
         
-'
+"
 secure
-'
+"
 :
 False
         
-'
+"
 expires
-'
+"
 :
 None
         
-'
+"
 discard
-'
+"
 :
 True
         
-'
+"
 comment
-'
+"
 :
 None
         
-'
+"
 comment_url
-'
+"
 :
 None
         
-'
+"
 rest
-'
+"
 :
 {
-'
+"
 HttpOnly
-'
+"
 :
 None
 }
         
-'
+"
 rfc2109
-'
+"
 :
 False
     
@@ -3285,9 +3283,12 @@ if
 badargs
 :
         
-err
-=
-'
+raise
+TypeError
+(
+            
+f
+"
 create_cookie
 (
 )
@@ -3296,19 +3297,14 @@ unexpected
 keyword
 arguments
 :
-%
-s
-'
-        
-raise
-TypeError
-(
-err
-%
+{
 list
 (
 badargs
 )
+}
+"
+        
 )
     
 result
@@ -3320,73 +3316,73 @@ kwargs
     
 result
 [
-'
+"
 port_specified
-'
+"
 ]
 =
 bool
 (
 result
 [
-'
+"
 port
-'
+"
 ]
 )
     
 result
 [
-'
+"
 domain_specified
-'
+"
 ]
 =
 bool
 (
 result
 [
-'
+"
 domain
-'
+"
 ]
 )
     
 result
 [
-'
+"
 domain_initial_dot
-'
+"
 ]
 =
 result
 [
-'
+"
 domain
-'
+"
 ]
 .
 startswith
 (
-'
+"
 .
-'
+"
 )
     
 result
 [
-'
+"
 path_specified
-'
+"
 ]
 =
 bool
 (
 result
 [
-'
+"
 path
-'
+"
 ]
 )
     
@@ -3435,11 +3431,11 @@ None
 if
 morsel
 [
-'
+"
 max
 -
 age
-'
+"
 ]
 :
         
@@ -3460,11 +3456,11 @@ int
 (
 morsel
 [
-'
+"
 max
 -
 age
-'
+"
 ]
 )
 )
@@ -3476,18 +3472,13 @@ ValueError
 raise
 TypeError
 (
-'
+f
+"
 max
 -
 age
 :
-%
-s
-must
-be
-integer
-'
-%
+{
 morsel
 [
 '
@@ -3496,20 +3487,25 @@ max
 age
 '
 ]
+}
+must
+be
+integer
+"
 )
     
 elif
 morsel
 [
-'
+"
 expires
-'
+"
 ]
 :
         
 time_template
 =
-'
+"
 %
 a
 %
@@ -3529,7 +3525,7 @@ M
 %
 S
 GMT
-'
+"
         
 expires
 =
@@ -3537,20 +3533,18 @@ calendar
 .
 timegm
 (
-            
 time
 .
 strptime
 (
 morsel
 [
-'
+"
 expires
-'
+"
 ]
 time_template
 )
-        
 )
     
 return
@@ -3561,9 +3555,9 @@ comment
 =
 morsel
 [
-'
+"
 comment
-'
+"
 ]
         
 comment_url
@@ -3572,9 +3566,9 @@ bool
 (
 morsel
 [
-'
+"
 comment
-'
+"
 ]
 )
         
@@ -3586,9 +3580,9 @@ domain
 =
 morsel
 [
-'
+"
 domain
-'
+"
 ]
         
 expires
@@ -3605,9 +3599,9 @@ path
 =
 morsel
 [
-'
+"
 path
-'
+"
 ]
         
 port
@@ -3617,15 +3611,15 @@ None
 rest
 =
 {
-'
+"
 HttpOnly
-'
+"
 :
 morsel
 [
-'
+"
 httponly
-'
+"
 ]
 }
         
@@ -3639,9 +3633,9 @@ bool
 (
 morsel
 [
-'
+"
 secure
-'
+"
 ]
 )
         
@@ -3655,9 +3649,9 @@ version
 =
 morsel
 [
-'
+"
 version
-'
+"
 ]
 or
 0
@@ -3888,14 +3882,14 @@ CookieJar
 raise
 ValueError
 (
-'
+"
 You
 can
 only
 merge
 into
 CookieJar
-'
+"
 )
     
 if
@@ -3910,7 +3904,6 @@ cookiejar
 =
 cookiejar_from_dict
 (
-            
 cookies
 cookiejar
 =

@@ -1,14 +1,30 @@
 from
+typing
+import
+Optional
+Union
+from
+.
+chardistribution
+import
+CharDistributionAnalysis
+from
 .
 charsetprober
 import
 CharSetProber
 from
 .
+codingstatemachine
+import
+CodingStateMachine
+from
+.
 enums
 import
-ProbingState
+LanguageFilter
 MachineState
+ProbingState
 class
 MultiByteCharSetProber
 (
@@ -31,15 +47,20 @@ __init__
 (
 self
 lang_filter
+:
+LanguageFilter
 =
-None
+LanguageFilter
+.
+NONE
 )
+-
+>
+None
 :
         
 super
 (
-MultiByteCharSetProber
-self
 )
 .
 __init__
@@ -52,12 +73,22 @@ lang_filter
 self
 .
 distribution_analyzer
+:
+Optional
+[
+CharDistributionAnalysis
+]
 =
 None
         
 self
 .
 coding_sm
+:
+Optional
+[
+CodingStateMachine
+]
 =
 None
         
@@ -65,22 +96,29 @@ self
 .
 _last_char
 =
-[
+bytearray
+(
+b
+"
+\
 0
+\
 0
-]
+"
+)
     
 def
 reset
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-MultiByteCharSetProber
-self
 )
 .
 reset
@@ -119,52 +157,57 @@ self
 .
 _last_char
 =
-[
-0
-0
-]
-    
-property
-    
-def
-charset_name
+bytearray
 (
-self
+b
+"
+\
+0
+\
+0
+"
 )
-:
-        
-raise
-NotImplementedError
-    
-property
-    
-def
-language
-(
-self
-)
-:
-        
-raise
-NotImplementedError
     
 def
 feed
 (
 self
 byte_str
-)
 :
+Union
+[
+bytes
+bytearray
+]
+)
+-
+>
+ProbingState
+:
+        
+assert
+self
+.
+coding_sm
+is
+not
+None
+        
+assert
+self
+.
+distribution_analyzer
+is
+not
+None
         
 for
 i
+byte
 in
-range
-(
-len
+enumerate
 (
 byte_str
-)
 )
 :
             
@@ -176,10 +219,7 @@ coding_sm
 .
 next_state
 (
-byte_str
-[
-i
-]
+byte
 )
             
 if
@@ -197,7 +237,8 @@ logger
 .
 debug
 (
-'
+                    
+"
 %
 s
 %
@@ -209,15 +250,18 @@ at
 byte
 %
 s
-'
-                                  
+"
+                    
 self
 .
 charset_name
+                    
 self
 .
 language
+                    
 i
+                
 )
                 
 self
@@ -230,7 +274,7 @@ NOT_ME
                 
 break
             
-elif
+if
 coding_state
 =
 =
@@ -249,7 +293,7 @@ FOUND_IT
                 
 break
             
-elif
+if
 coding_state
 =
 =
@@ -282,10 +326,7 @@ _last_char
 1
 ]
 =
-byte_str
-[
-0
-]
+byte
                     
 self
 .
@@ -318,7 +359,6 @@ i
 +
 1
 ]
-                                                    
 char_len
 )
         
@@ -347,7 +387,6 @@ DETECTING
 :
             
 if
-(
 self
 .
 distribution_analyzer
@@ -356,8 +395,8 @@ got_enough_data
 (
 )
 and
-                    
 (
+                
 self
 .
 get_confidence
@@ -367,7 +406,7 @@ get_confidence
 self
 .
 SHORTCUT_THRESHOLD
-)
+            
 )
 :
                 
@@ -389,7 +428,18 @@ get_confidence
 (
 self
 )
+-
+>
+float
 :
+        
+assert
+self
+.
+distribution_analyzer
+is
+not
+None
         
 return
 self

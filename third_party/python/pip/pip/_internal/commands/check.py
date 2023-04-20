@@ -7,7 +7,6 @@ Values
 from
 typing
 import
-Any
 List
 from
 pip
@@ -110,7 +109,7 @@ args
 :
 List
 [
-Any
+str
 ]
 )
 -
@@ -176,7 +175,9 @@ installed
 "
                     
 project_name
+                    
 version
+                    
 dependency
 [
 0
@@ -233,9 +234,13 @@ s
 "
                     
 project_name
+                    
 version
+                    
 req
+                    
 dep_name
+                    
 dep_version
                 
 )

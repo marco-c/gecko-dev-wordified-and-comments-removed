@@ -82,7 +82,12 @@ key
 value
 )
         
-else
+elif
+isinstance
+(
+expires
+datetime
+)
 :
             
 expires
@@ -110,6 +115,20 @@ total_seconds
 (
 )
 )
+value
+)
+        
+else
+:
+            
+self
+.
+conn
+.
+setex
+(
+key
+expires
 value
 )
     

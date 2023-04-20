@@ -115,7 +115,7 @@ re
 .
 compile
 (
-br
+rb
 "
 coding
 [

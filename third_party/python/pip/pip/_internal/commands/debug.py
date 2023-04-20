@@ -1,4 +1,8 @@
 import
+importlib
+.
+resources
+import
 locale
 import
 logging
@@ -45,12 +49,6 @@ import
 parse
 as
 parse_version
-from
-pip
-import
-__file__
-as
-pip_location
 from
 pip
 .
@@ -152,13 +150,13 @@ logger
 .
 info
 (
-'
+"
 %
 s
 :
 %
 s
-'
+"
 name
 value
 )
@@ -175,12 +173,12 @@ logger
 .
 info
 (
-'
+"
 sys
 .
 implementation
 :
-'
+"
 )
     
 implementation_name
@@ -199,9 +197,9 @@ indent_log
         
 show_value
 (
-'
+"
 name
-'
+"
 implementation_name
 )
 def
@@ -217,40 +215,23 @@ str
 ]
 :
     
-vendor_txt_path
-=
-os
+with
+importlib
 .
-path
+resources
 .
-join
+open_text
 (
-        
-os
+"
+pip
 .
-path
-.
-dirname
-(
-pip_location
-)
-        
-'
 _vendor
-'
-        
-'
+"
+"
 vendor
 .
 txt
-'
-    
-)
-    
-with
-open
-(
-vendor_txt_path
+"
 )
 as
 f
@@ -259,6 +240,7 @@ f
 lines
 =
 [
+            
 line
 .
 strip
@@ -267,14 +249,13 @@ strip
 .
 split
 (
-'
-'
+"
+"
 1
 )
 [
 0
 ]
-                 
 for
 line
 in
@@ -284,12 +265,13 @@ readlines
 (
 )
 if
-'
+"
 =
 =
-'
+"
 in
 line
+        
 ]
     
 return
@@ -299,10 +281,10 @@ line
 .
 split
 (
-'
+"
 =
 =
-'
+"
 1
 )
 for
@@ -329,27 +311,36 @@ module_name
 lower
 (
 )
+.
+replace
+(
+"
+-
+"
+"
+_
+"
+)
     
 if
 module_name
 =
 =
-'
+"
 setuptools
-'
+"
 :
         
 module_name
 =
-'
+"
 pkg_resources
-'
+"
     
 __import__
 (
-        
 f
-'
+"
 pip
 .
 _vendor
@@ -357,20 +348,16 @@ _vendor
 {
 module_name
 }
-'
-        
+"
 globals
 (
 )
-        
 locals
 (
 )
-        
 level
 =
 0
-    
 )
     
 return
@@ -408,9 +395,9 @@ version
 getattr
 (
 module
-'
+"
 __version__
-'
+"
 None
 )
     
@@ -418,6 +405,14 @@ if
 not
 version
 :
+        
+assert
+module
+.
+__file__
+is
+not
+None
         
 env
 =
@@ -522,8 +517,8 @@ items
         
 extra_message
 =
-'
-'
+"
+"
         
 actual_version
 =
@@ -539,7 +534,9 @@ actual_version
             
 extra_message
 =
-'
+(
+                
+"
 (
 Unable
 to
@@ -548,17 +545,18 @@ actual
 module
 version
 using
-'
-\
-                            
-'
+"
+                
+"
 vendor
 .
 txt
 specified
 version
 )
-'
+"
+            
+)
             
 actual_version
 =
@@ -579,7 +577,9 @@ expected_version
             
 extra_message
 =
-'
+(
+                
+"
 (
 CONFLICT
 :
@@ -589,26 +589,27 @@ txt
 suggests
 version
 should
-'
-\
-                            
-'
+"
+                
+"
 be
 {
 }
 )
-'
+"
 .
 format
 (
 expected_version
+)
+            
 )
         
 logger
 .
 info
 (
-'
+"
 %
 s
 =
@@ -617,7 +618,7 @@ s
 s
 %
 s
-'
+"
 module_name
 actual_version
 extra_message
@@ -635,12 +636,12 @@ logger
 .
 info
 (
-'
+"
 vendored
 library
 versions
 :
-'
+"
 )
     
 vendor_txt_versions
@@ -700,8 +701,8 @@ format_given
     
 suffix
 =
-'
-'
+"
+"
     
 if
 formatted_target
@@ -710,7 +711,7 @@ formatted_target
 suffix
 =
 f
-'
+"
 (
 target
 :
@@ -718,11 +719,11 @@ target
 formatted_target
 }
 )
-'
+"
     
 msg
 =
-'
+"
 Compatible
 tags
 :
@@ -730,7 +731,7 @@ tags
 }
 {
 }
-'
+"
 .
 format
 (
@@ -812,15 +813,12 @@ msg
 =
 (
                 
-'
+"
 .
 .
 .
 \
 n
-'
-                
-'
 [
 First
 {
@@ -838,7 +836,7 @@ show
 all
 .
 ]
-'
+"
             
 )
 .
@@ -892,9 +890,9 @@ key
 .
 split
 (
-'
+"
 .
-'
+"
 )
 [
 0
@@ -915,15 +913,15 @@ specified
 levels_that_override_global
 =
 [
-'
+"
 install
-'
-'
+"
+"
 wheel
-'
-'
+"
+"
 download
-'
+"
 ]
     
 global_overriding_level
@@ -948,14 +946,14 @@ global_overriding_level
 :
         
 return
-'
+"
 global
-'
+"
     
 if
-'
+"
 global
-'
+"
 in
 levels
 :
@@ -964,9 +962,9 @@ levels
 .
 remove
 (
-'
+"
 global
-'
+"
 )
     
 return
@@ -1130,10 +1128,10 @@ notice
         
 show_value
 (
-'
+"
 pip
 version
-'
+"
 get_pip_version
 (
 )
@@ -1141,11 +1139,11 @@ get_pip_version
         
 show_value
 (
-'
+"
 sys
 .
 version
-'
+"
 sys
 .
 version
@@ -1153,11 +1151,11 @@ version
         
 show_value
 (
-'
+"
 sys
 .
 executable
-'
+"
 sys
 .
 executable
@@ -1165,11 +1163,11 @@ executable
         
 show_value
 (
-'
+"
 sys
 .
 getdefaultencoding
-'
+"
 sys
 .
 getdefaultencoding
@@ -1179,11 +1177,11 @@ getdefaultencoding
         
 show_value
 (
-'
+"
 sys
 .
 getfilesystemencoding
-'
+"
 sys
 .
 getfilesystemencoding
@@ -1194,11 +1192,12 @@ getfilesystemencoding
 show_value
 (
             
-'
+"
 locale
 .
 getpreferredencoding
-'
+"
+            
 locale
 .
 getpreferredencoding
@@ -1209,11 +1208,11 @@ getpreferredencoding
         
 show_value
 (
-'
+"
 sys
 .
 platform
-'
+"
 sys
 .
 platform
@@ -1253,9 +1252,9 @@ environ
 .
 get
 (
-'
+"
 REQUESTS_CA_BUNDLE
-'
+"
 )
 )
         
@@ -1270,9 +1269,9 @@ environ
 .
 get
 (
-'
+"
 CURL_CA_BUNDLE
-'
+"
 )
 )
         

@@ -2632,11 +2632,11 @@ sha256
 pip
 =
 =
-21
+23
 .
-2
+0
 .
-4
+1
 ;
 python_version
 >
@@ -2644,7 +2644,7 @@ python_version
 "
 3
 .
-6
+7
 "
 \
 -
@@ -2653,7 +2653,7 @@ hash
 =
 sha256
 :
-fa9ebb85d3fd607617c0c44aca302b1b45d87f9c2a1649b46c26167ca4296323
+236bcb61156d76c4b8a05821b988c7b8c35bf0da28a4b614e8d6ab5212c25c6f
 \
 -
 -
@@ -2661,7 +2661,7 @@ hash
 =
 sha256
 :
-0eb8a1516c3d138ae8689c0c1a60fde7143310832f9dc77e11d8a4bc62de193b
+cd015ea1bfb0fcef59d8a286c1f8bebcb983f6317719d415dc5351efb7cd7024
 pkgutil
 -
 resolve

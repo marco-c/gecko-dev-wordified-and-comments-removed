@@ -24,7 +24,6 @@ shutil
 from
 typing
 import
-Any
 Callable
 Iterable
 List
@@ -76,6 +75,7 @@ _internal
 .
 metadata
 import
+FilesystemWheel
 get_wheel_distribution
 from
 pip
@@ -118,6 +118,18 @@ operations
 .
 build
 .
+wheel_editable
+import
+build_wheel_editable
+from
+pip
+.
+_internal
+.
+operations
+.
+build
+.
 wheel_legacy
 import
 build_wheel_legacy
@@ -131,6 +143,21 @@ req
 req_install
 import
 InstallRequirement
+from
+pip
+.
+_internal
+.
+utils
+.
+deprecation
+import
+(
+    
+LegacyInstallReasonMissingWheelPackage
+    
+LegacyInstallReasonNoBinaryForcesSetuptoolsInstall
+)
 from
 pip
 .
@@ -216,7 +243,7 @@ re
 compile
 (
 r
-'
+"
 (
 [
 a
@@ -243,12 +270,12 @@ z0
 ]
 +
 )
-'
+"
 re
 .
 IGNORECASE
 )
-BinaryAllowedPredicate
+BdistWheelAllowedPredicate
 =
 Callable
 [
@@ -274,7 +301,12 @@ def
 _contains_egg_info
 (
 s
+:
+str
 )
+-
+>
+bool
 :
     
 "
@@ -328,11 +360,25 @@ _should_build
 (
     
 req
+:
+InstallRequirement
     
 need_wheel
+:
+bool
     
-check_binary_allowed
+check_bdist_wheel
+:
+Optional
+[
+BdistWheelAllowedPredicate
+]
+=
+None
 )
+-
+>
+bool
 :
     
 "
@@ -377,7 +423,7 @@ logger
 info
 (
                 
-'
+"
 Skipping
 %
 s
@@ -387,7 +433,8 @@ already
 being
 wheel
 .
-'
+"
+                
 req
 .
 name
@@ -405,10 +452,6 @@ return
 True
     
 if
-req
-.
-editable
-or
 not
 req
 .
@@ -421,49 +464,44 @@ False
 if
 req
 .
+editable
+:
+        
+return
+req
+.
+supports_pyproject_editable
+(
+)
+    
+if
+req
+.
 use_pep517
 :
         
 return
 True
     
+assert
+check_bdist_wheel
+is
+not
+None
+    
 if
 not
-check_binary_allowed
+check_bdist_wheel
 (
 req
 )
 :
         
-logger
-.
-info
-(
-            
-"
-Skipping
-wheel
-build
-for
-%
-s
-due
-to
-binaries
-"
-            
-"
-being
-disabled
-for
-it
-.
-"
 req
 .
-name
-        
-)
+legacy_install_reason
+=
+LegacyInstallReasonNoBinaryForcesSetuptoolsInstall
         
 return
 False
@@ -475,41 +513,11 @@ is_wheel_installed
 )
 :
         
-logger
-.
-info
-(
-            
-"
-Using
-legacy
-'
-setup
-.
-py
-install
-'
-for
-%
-s
-"
-            
-"
-since
-package
-'
-wheel
-'
-is
-not
-installed
-.
-"
 req
 .
-name
-        
-)
+legacy_install_reason
+=
+LegacyInstallReasonMissingWheelPackage
         
 return
 False
@@ -521,30 +529,37 @@ should_build_for_wheel_command
 (
     
 req
+:
+InstallRequirement
 )
+-
+>
+bool
 :
     
 return
 _should_build
 (
-        
 req
 need_wheel
 =
 True
-check_binary_allowed
-=
-_always_true
-    
 )
 def
 should_build_for_install_command
 (
     
 req
+:
+InstallRequirement
     
-check_binary_allowed
+check_bdist_wheel_allowed
+:
+BdistWheelAllowedPredicate
 )
+-
+>
+bool
 :
     
 return
@@ -555,9 +570,9 @@ req
 need_wheel
 =
 False
-check_binary_allowed
+check_bdist_wheel
 =
-check_binary_allowed
+check_bdist_wheel_allowed
     
 )
 def
@@ -565,7 +580,15 @@ _should_cache
 (
     
 req
+:
+InstallRequirement
 )
+-
+>
+Optional
+[
+bool
+]
 :
     
 "
@@ -719,9 +742,16 @@ _get_cache_dir
 (
     
 req
+:
+InstallRequirement
     
 wheel_cache
+:
+WheelCache
 )
+-
+>
+str
 :
     
 "
@@ -800,20 +830,18 @@ link
 return
 cache_dir
 def
-_always_true
-(
-_
-)
-:
-    
-return
-True
-def
 _verify_one
 (
 req
+:
+InstallRequirement
 wheel_path
+:
+str
 )
+-
+>
+None
 :
     
 canonical_name
@@ -894,7 +922,10 @@ dist
 =
 get_wheel_distribution
 (
+FilesystemWheel
+(
 wheel_path
+)
 canonical_name
 )
     
@@ -1016,7 +1047,6 @@ msg
 )
     
 if
-(
 metadata_version
 >
 =
@@ -1028,7 +1058,6 @@ Version
 2
 "
 )
-            
 and
 not
 isinstance
@@ -1037,7 +1066,6 @@ dist
 .
 version
 Version
-)
 )
 :
         
@@ -1077,15 +1105,41 @@ _build_one
 (
     
 req
+:
+InstallRequirement
     
 output_dir
+:
+str
     
 verify
+:
+bool
     
 build_options
+:
+List
+[
+str
+]
     
 global_options
+:
+List
+[
+str
+]
+    
+editable
+:
+bool
 )
+-
+>
+Optional
+[
+str
+]
 :
     
 "
@@ -1117,6 +1171,18 @@ failed
 "
 "
     
+artifact
+=
+"
+editable
+"
+if
+editable
+else
+"
+wheel
+"
+    
 try
 :
         
@@ -1138,7 +1204,8 @@ warning
             
 "
 Building
-wheel
+%
+s
 for
 %
 s
@@ -1148,9 +1215,12 @@ failed
 s
 "
             
+artifact
+            
 req
 .
 name
+            
 e
         
 )
@@ -1173,6 +1243,7 @@ req
 output_dir
 build_options
 global_options
+editable
         
 )
     
@@ -1206,7 +1277,8 @@ warning
 (
 "
 Built
-wheel
+%
+s
 for
 %
 s
@@ -1216,6 +1288,7 @@ invalid
 %
 s
 "
+artifact
 req
 .
 name
@@ -1232,13 +1305,37 @@ _build_one_inside_env
 (
     
 req
+:
+InstallRequirement
     
 output_dir
+:
+str
     
 build_options
+:
+List
+[
+str
+]
     
 global_options
+:
+List
+[
+str
+]
+    
+editable
+:
+bool
 )
+-
+>
+Optional
+[
+str
+]
 :
     
 with
@@ -1284,7 +1381,7 @@ logger
 warning
 (
                     
-'
+"
 Ignoring
 -
 -
@@ -1298,7 +1395,7 @@ s
 using
 PEP
 517
-'
+"
 req
 .
 name
@@ -1314,7 +1411,7 @@ logger
 warning
 (
                     
-'
+"
 Ignoring
 -
 -
@@ -1328,42 +1425,80 @@ s
 using
 PEP
 517
-'
+"
 req
 .
 name
                 
 )
             
+if
+editable
+:
+                
 wheel_path
 =
-build_wheel_pep517
+build_wheel_editable
 (
-                
+                    
 name
 =
 req
 .
 name
-                
+                    
 backend
 =
 req
 .
 pep517_backend
-                
+                    
 metadata_directory
 =
 req
 .
 metadata_directory
-                
+                    
 tempd
 =
 temp_dir
 .
 path
+                
+)
             
+else
+:
+                
+wheel_path
+=
+build_wheel_pep517
+(
+                    
+name
+=
+req
+.
+name
+                    
+backend
+=
+req
+.
+pep517_backend
+                    
+metadata_directory
+=
+req
+.
+metadata_directory
+                    
+tempd
+=
+temp_dir
+.
+path
+                
 )
         
 else
@@ -1461,16 +1596,14 @@ logger
 .
 info
 (
-'
+                    
+"
 Created
 wheel
 for
 %
 s
 :
-'
-                            
-'
 filename
 =
 %
@@ -1483,33 +1616,36 @@ sha256
 =
 %
 s
-'
-                            
+"
+                    
 req
 .
 name
+                    
 wheel_name
+                    
 length
-                            
+                    
 wheel_hash
 .
 hexdigest
 (
 )
+                
 )
                 
 logger
 .
 info
 (
-'
+"
 Stored
 in
 directory
 :
 %
 s
-'
+"
 output_dir
 )
                 
@@ -1542,6 +1678,7 @@ s
 req
 .
 name
+                    
 e
                 
 )
@@ -1565,8 +1702,18 @@ def
 _clean_one_legacy
 (
 req
+:
+InstallRequirement
 global_options
+:
+List
+[
+str
+]
 )
+-
+>
+bool
 :
     
 clean_args
@@ -1588,7 +1735,7 @@ logger
 .
 info
 (
-'
+"
 Running
 setup
 .
@@ -1597,7 +1744,7 @@ clean
 for
 %
 s
-'
+"
 req
 .
 name
@@ -1608,12 +1755,23 @@ try
         
 call_subprocess
 (
+            
 clean_args
+command_desc
+=
+"
+python
+setup
+.
+py
+clean
+"
 cwd
 =
 req
 .
 source_dir
+        
 )
         
 return
@@ -1627,7 +1785,7 @@ logger
 .
 error
 (
-'
+"
 Failed
 cleaning
 build
@@ -1635,7 +1793,7 @@ dir
 for
 %
 s
-'
+"
 req
 .
 name
@@ -1648,15 +1806,37 @@ build
 (
     
 requirements
+:
+Iterable
+[
+InstallRequirement
+]
     
 wheel_cache
+:
+WheelCache
     
 verify
+:
+bool
     
 build_options
+:
+List
+[
+str
+]
     
 global_options
+:
+List
+[
+str
+]
 )
+-
+>
+BuildResult
 :
     
 "
@@ -1709,7 +1889,7 @@ logger
 info
 (
         
-'
+"
 Building
 wheels
 for
@@ -1718,10 +1898,10 @@ packages
 :
 %
 s
-'
+"
         
-'
-'
+"
+"
 .
 join
 (
@@ -1756,6 +1936,11 @@ in
 requirements
 :
             
+assert
+req
+.
+name
+            
 cache_dir
 =
 _get_cache_dir
@@ -1770,16 +1955,47 @@ _build_one
 (
                 
 req
+                
 cache_dir
+                
 verify
+                
 build_options
+                
 global_options
+                
+req
+.
+editable
+and
+req
+.
+permit_editable_wheels
             
 )
             
 if
 wheel_file
 :
+                
+if
+req
+.
+download_info
+is
+not
+None
+:
+                    
+wheel_cache
+.
+record_download_origin
+(
+cache_dir
+req
+.
+download_info
+)
                 
 req
 .
@@ -1836,15 +2052,15 @@ logger
 info
 (
             
-'
+"
 Successfully
 built
 %
 s
-'
+"
             
-'
-'
+"
+"
 .
 join
 (
@@ -1870,16 +2086,16 @@ logger
 info
 (
             
-'
+"
 Failed
 to
 build
 %
 s
-'
+"
             
-'
-'
+"
+"
 .
 join
 (

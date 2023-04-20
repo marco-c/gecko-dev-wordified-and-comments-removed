@@ -54,11 +54,28 @@ pip
 .
 _internal
 .
+operations
+.
+build
+.
+build_tracker
+import
+get_build_tracker
+from
+pip
+.
+_internal
+.
 req
 .
-req_tracker
+req_install
 import
-get_requirement_tracker
+(
+    
+LegacySetupPyOptionsCheckMode
+    
+check_legacy_setup_py_options
+)
 from
 pip
 .
@@ -304,19 +321,6 @@ add_option
 (
 cmdoptions
 .
-build_dir
-(
-)
-)
-        
-self
-.
-cmd_opts
-.
-add_option
-(
-cmdoptions
-.
 no_deps
 (
 )
@@ -473,6 +477,19 @@ add_option
 (
 cmdoptions
 .
+check_build_deps
+(
+)
+)
+        
+self
+.
+cmd_opts
+.
+add_option
+(
+cmdoptions
+.
 ignore_requires_python
 (
 )
@@ -485,41 +502,44 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 d
-'
-'
+"
+            
+"
 -
 -
 dest
-'
-'
+"
+            
+"
 -
 -
 destination
 -
 dir
-'
-'
+"
+            
+"
 -
 -
 destination
 -
 directory
-'
+"
             
 dest
 =
-'
+"
 download_dir
-'
+"
             
 metavar
 =
-'
+"
 dir
-'
+"
             
 default
 =
@@ -529,7 +549,6 @@ curdir
             
 help
 =
-(
 "
 Download
 packages
@@ -539,7 +558,6 @@ dir
 >
 .
 "
-)
         
 )
         
@@ -693,13 +711,13 @@ ignore_requires_python
         
 )
         
-req_tracker
+build_tracker
 =
 self
 .
 enter_context
 (
-get_requirement_tracker
+get_build_tracker
 (
 )
 )
@@ -740,6 +758,17 @@ finder
 session
 )
         
+check_legacy_setup_py_options
+(
+            
+options
+reqs
+LegacySetupPyOptionsCheckMode
+.
+DOWNLOAD
+        
+)
+        
 preparer
 =
 self
@@ -755,9 +784,9 @@ options
 =
 options
             
-req_tracker
+build_tracker
 =
-req_tracker
+build_tracker
             
 session
 =
@@ -776,6 +805,12 @@ download_dir
 use_user_site
 =
 False
+            
+verbosity
+=
+self
+.
+verbosity
         
 )
         
@@ -804,6 +839,12 @@ options
 .
 ignore_requires_python
             
+use_pep517
+=
+options
+.
+use_pep517
+            
 py_version_info
 =
 options
@@ -825,12 +866,10 @@ resolver
 .
 resolve
 (
-            
 reqs
 check_supported_wheels
 =
 True
-        
 )
         
 downloaded
@@ -893,14 +932,14 @@ downloaded
             
 write_output
 (
-'
+"
 Successfully
 downloaded
 %
 s
-'
-'
-'
+"
+"
+"
 .
 join
 (

@@ -7,7 +7,7 @@ from
 typing
 import
 ContextManager
-Iterator
+Generator
 TypeVar
 _T
 =
@@ -65,8 +65,10 @@ self
 )
 -
 >
-Iterator
+Generator
 [
+None
+None
 None
 ]
 :

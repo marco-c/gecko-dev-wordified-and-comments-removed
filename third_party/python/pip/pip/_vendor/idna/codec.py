@@ -49,12 +49,23 @@ encode
 (
 self
 data
+:
+str
 errors
+:
+str
 =
 '
 strict
 '
 )
+-
+>
+Tuple
+[
+bytes
+int
+]
 :
         
 if
@@ -113,12 +124,23 @@ decode
 (
 self
 data
+:
+bytes
 errors
+:
+str
 =
 '
 strict
 '
 )
+-
+>
+Tuple
+[
+str
+int
+]
 :
         
 if
@@ -184,9 +206,22 @@ _buffer_encode
 (
 self
 data
+:
+str
 errors
+:
+str
 final
+:
+bool
 )
+-
+>
+Tuple
+[
+str
+int
+]
 :
         
 if
@@ -371,9 +406,22 @@ _buffer_decode
 (
 self
 data
+:
+str
 errors
+:
+str
 final
+:
+bool
 )
+-
+>
+Tuple
+[
+str
+int
+]
 :
         
 if
@@ -574,6 +622,11 @@ def
 getregentry
 (
 )
+-
+>
+codecs
+.
+CodecInfo
 :
     
 return

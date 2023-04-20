@@ -163,6 +163,10 @@ indexes
 "
 "
     
+ignore_require_venv
+=
+True
+    
 usage
 =
 "
@@ -301,7 +305,7 @@ args
 :
 List
 [
-Any
+str
 ]
 )
 -
@@ -597,7 +601,7 @@ args
 raise
 CommandError
 (
-'
+"
 You
 need
 to
@@ -605,7 +609,7 @@ specify
 exactly
 one
 argument
-'
+"
 )
         
 target_python
@@ -678,7 +682,6 @@ Version
 candidate
 .
 version
-                
 for
 candidate
 in
@@ -701,17 +704,18 @@ pre
 versions
 =
 (
+                    
 version
 for
 version
 in
 versions
-                            
 if
 not
 version
 .
 is_prerelease
+                
 )
             
 versions
@@ -730,7 +734,7 @@ raise
 DistributionNotFound
 (
                     
-'
+"
 No
 matching
 distribution
@@ -738,12 +742,13 @@ found
 for
 {
 }
-'
+"
 .
 format
 (
 query
 )
+                
 )
             
 formatted_versions
@@ -758,7 +763,6 @@ ver
 in
 sorted
 (
-                
 versions
 reverse
 =
@@ -775,14 +779,14 @@ formatted_versions
         
 write_output
 (
-'
+"
 {
 }
 (
 {
 }
 )
-'
+"
 .
 format
 (
@@ -793,19 +797,18 @@ latest
         
 write_output
 (
-'
+"
 Available
 versions
 :
 {
 }
-'
+"
 .
 format
 (
-            
-'
-'
+"
+"
 .
 join
 (

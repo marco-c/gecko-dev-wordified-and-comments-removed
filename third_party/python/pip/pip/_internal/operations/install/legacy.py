@@ -20,14 +20,6 @@ import
 logging
 import
 os
-import
-sys
-from
-distutils
-.
-util
-import
-change_root
 from
 typing
 import
@@ -50,6 +42,17 @@ _internal
 exceptions
 import
 InstallationError
+LegacyInstallFailure
+from
+pip
+.
+_internal
+.
+locations
+.
+base
+import
+change_root
 from
 pip
 .
@@ -60,16 +63,6 @@ models
 scheme
 import
 Scheme
-from
-pip
-.
-_internal
-.
-utils
-.
-logging
-import
-indent_log
 from
 pip
 .
@@ -118,29 +111,6 @@ getLogger
 (
 __name__
 )
-class
-LegacyInstallFailure
-(
-Exception
-)
-:
-    
-def
-__init__
-(
-self
-)
-:
-        
-self
-.
-parent
-=
-sys
-.
-exc_info
-(
-)
 def
 write_installed_files_from_setuptools_record
 (
@@ -172,7 +142,12 @@ def
 prepend_root
 (
 path
+:
+str
 )
+-
+>
+str
 :
         
 if
@@ -226,12 +201,12 @@ directory
 .
 endswith
 (
-'
+"
 .
 egg
 -
 info
-'
+"
 )
 :
             
@@ -345,7 +320,6 @@ new_lines
 .
 append
 (
-            
 os
 .
 path
@@ -358,7 +332,6 @@ filename
 )
 egg_info_dir
 )
-        
 )
     
 new_lines
@@ -381,22 +354,22 @@ path
 join
 (
 egg_info_dir
-'
+"
 installed
 -
 files
 .
 txt
-'
+"
 )
     
 with
 open
 (
 inst_files_path
-'
+"
 w
-'
+"
 )
 as
 f
@@ -406,53 +379,99 @@ f
 .
 write
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
 new_lines
 )
 +
-'
+"
 \
 n
-'
+"
 )
 def
 install
 (
     
 install_options
+:
+List
+[
+str
+]
     
 global_options
+:
+Sequence
+[
+str
+]
     
 root
+:
+Optional
+[
+str
+]
     
 home
+:
+Optional
+[
+str
+]
     
 prefix
+:
+Optional
+[
+str
+]
     
 use_user_site
+:
+bool
     
 pycompile
+:
+bool
     
 scheme
+:
+Scheme
     
 setup_py_path
+:
+str
     
 isolated
+:
+bool
     
 req_name
+:
+str
     
 build_env
+:
+BuildEnvironment
     
 unpacked_source_directory
+:
+str
     
 req_description
+:
+str
 )
+-
+>
+bool
 :
     
 header_dir
@@ -488,13 +507,13 @@ join
 temp_dir
 .
 path
-'
+"
 install
 -
 record
 .
 txt
-'
+"
 )
             
 install_args
@@ -567,9 +586,6 @@ req_name
 )
             
 with
-indent_log
-(
-)
 build_env
 :
                 
@@ -602,14 +618,14 @@ logger
 .
 debug
 (
-'
+"
 Record
 file
 %
 s
 not
 found
-'
+"
 record_filename
 )
                 
@@ -618,10 +634,19 @@ False
         
 except
 Exception
+as
+e
 :
             
 raise
 LegacyInstallFailure
+(
+package_details
+=
+req_name
+)
+from
+e
         
 with
 open

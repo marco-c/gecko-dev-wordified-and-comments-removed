@@ -982,7 +982,6 @@ self
 filename
 signer
 sign_password
-                         
 keystore
 =
 None

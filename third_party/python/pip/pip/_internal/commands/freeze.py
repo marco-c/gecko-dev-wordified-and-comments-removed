@@ -59,18 +59,18 @@ stdlib_pkgs
 DEV_PKGS
 =
 {
-'
+"
 pip
-'
-'
+"
+"
 setuptools
-'
-'
+"
+"
 distribute
-'
-'
+"
+"
 wheel
-'
+"
 }
 class
 FreezeCommand
@@ -162,27 +162,28 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 r
-'
-'
+"
+            
+"
 -
 -
 requirement
-'
+"
             
 dest
 =
-'
+"
 requirements
-'
+"
             
 action
 =
-'
+"
 append
-'
+"
             
 default
 =
@@ -191,12 +192,14 @@ default
             
 metavar
 =
-'
+"
 file
-'
+"
             
 help
 =
+(
+                
 "
 Use
 the
@@ -209,7 +212,7 @@ file
 and
 its
 "
-                 
+                
 "
 comments
 when
@@ -221,13 +224,16 @@ option
 can
 be
 "
-                 
+                
 "
 used
 multiple
 times
 .
 "
+            
+)
+        
 )
         
 self
@@ -237,27 +243,28 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 l
-'
-'
+"
+            
+"
 -
 -
 local
-'
+"
             
 dest
 =
-'
+"
 local
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 default
 =
@@ -265,7 +272,9 @@ False
             
 help
 =
-'
+(
+                
+"
 If
 in
 a
@@ -277,15 +286,18 @@ access
 do
 not
 output
-'
-                 
-'
+"
+                
+"
 globally
 -
 installed
 packages
 .
-'
+"
+            
+)
+        
 )
         
 self
@@ -295,23 +307,23 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 user
-'
+"
             
 dest
 =
-'
+"
 user
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 default
 =
@@ -319,7 +331,7 @@ False
             
 help
 =
-'
+"
 Only
 output
 packages
@@ -329,7 +341,8 @@ user
 -
 site
 .
-'
+"
+        
 )
         
 self
@@ -352,27 +365,29 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 all
-'
+"
             
 dest
 =
-'
+"
 freeze_all
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 help
 =
-'
+(
+                
+"
 Do
 not
 skip
@@ -382,23 +397,26 @@ in
 the
 output
 :
-'
-                 
-'
+"
+                
+"
 {
 }
-'
+"
 .
 format
 (
-'
-'
+"
+"
 .
 join
 (
 DEV_PKGS
 )
 )
+            
+)
+        
 )
         
 self
@@ -408,36 +426,37 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 exclude
 -
 editable
-'
+"
             
 dest
 =
-'
+"
 exclude_editable
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 help
 =
-'
+"
 Exclude
 editable
 package
 from
 output
 .
-'
+"
+        
 )
         
 self
@@ -584,10 +603,10 @@ write
 (
 line
 +
-'
+"
 \
 n
-'
+"
 )
         
 return

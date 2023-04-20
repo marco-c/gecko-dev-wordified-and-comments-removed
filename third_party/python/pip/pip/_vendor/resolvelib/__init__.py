@@ -47,7 +47,7 @@ __version__
 "
 0
 .
-7
+8
 .
 1
 "
@@ -72,11 +72,11 @@ InconsistentCandidate
     
 RequirementsConflicted
     
-Resolver
-    
 ResolutionError
     
 ResolutionImpossible
     
 ResolutionTooDeep
+    
+Resolver
 )

@@ -49,7 +49,6 @@ candidate
 for
 installation
 .
-    
 "
 "
 "
@@ -172,9 +171,11 @@ format
 self
 .
 name
+            
 self
 .
 version
+            
 self
 .
 link
@@ -192,7 +193,7 @@ str
 :
         
 return
-'
+"
 {
 !
 r
@@ -206,7 +207,7 @@ at
 {
 }
 )
-'
+"
 .
 format
 (
@@ -214,9 +215,11 @@ format
 self
 .
 name
+            
 self
 .
 version
+            
 self
 .
 link

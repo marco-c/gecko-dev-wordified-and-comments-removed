@@ -11,6 +11,12 @@ def
 glibc_version_string
 (
 )
+-
+>
+Optional
+[
+str
+]
 :
     
 "
@@ -39,6 +45,12 @@ def
 glibc_version_string_confstr
 (
 )
+-
+>
+Optional
+[
+str
+]
 :
     
 "
@@ -103,6 +115,12 @@ def
 glibc_version_string_ctypes
 (
 )
+-
+>
+Optional
+[
+str
+]
 :
     
 "
@@ -193,6 +211,13 @@ def
 libc_ver
 (
 )
+-
+>
+Tuple
+[
+str
+str
+]
 :
     
 "

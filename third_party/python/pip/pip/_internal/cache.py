@@ -15,6 +15,10 @@ logging
 import
 os
 from
+pathlib
+import
+Path
+from
 typing
 import
 Any
@@ -52,6 +56,16 @@ _internal
 exceptions
 import
 InvalidWheelFilename
+from
+pip
+.
+_internal
+.
+models
+.
+direct_url
+import
+DirectUrl
 from
 pip
 .
@@ -111,11 +125,27 @@ getLogger
 (
 __name__
 )
+ORIGIN_JSON_NAME
+=
+"
+origin
+.
+json
+"
 def
 _hash_dict
 (
 d
+:
+Dict
+[
+str
+str
+]
 )
+-
+>
+str
 :
     
 "
@@ -193,7 +223,7 @@ for
 data
 from
 links
-        
+    
 :
 param
 cache_dir
@@ -204,7 +234,7 @@ of
 the
 cache
 .
-        
+    
 :
 param
 format_control
@@ -216,7 +246,7 @@ FormatControl
 class
 to
 limit
-            
+        
 binaries
 being
 read
@@ -224,7 +254,7 @@ from
 the
 cache
 .
-        
+    
 :
 param
 allowed_formats
@@ -238,7 +268,7 @@ cache
 should
 store
 .
-            
+        
 (
 '
 binary
@@ -261,11 +291,25 @@ values
 def
 __init__
 (
+        
 self
 cache_dir
+:
+str
 format_control
+:
+FormatControl
 allowed_formats
+:
+Set
+[
+str
+]
+    
 )
+-
+>
+None
 :
         
 super
@@ -338,7 +382,15 @@ _get_cache_path_parts
 (
 self
 link
+:
+Link
 )
+-
+>
+List
+[
+str
+]
 :
         
 "
@@ -358,7 +410,6 @@ path
 joined
 with
 cache_dir
-        
 "
 "
 "
@@ -483,28 +534,32 @@ _get_candidates
 (
 self
 link
+:
+Link
 canonical_package_name
+:
+str
 )
+-
+>
+List
+[
+Any
+]
 :
         
 can_not_cache
 =
-(
-            
 not
 self
 .
 cache_dir
 or
-            
 not
 canonical_package_name
 or
-            
 not
 link
-        
-)
         
 if
 can_not_cache
@@ -522,9 +577,7 @@ format_control
 .
 get_allowed_formats
 (
-            
 canonical_package_name
-        
 )
         
 if
@@ -597,7 +650,12 @@ get_path_for_link
 (
 self
 link
+:
+Link
 )
+-
+>
+str
 :
         
 "
@@ -614,7 +672,6 @@ in
 for
 link
 .
-        
 "
 "
 "
@@ -631,12 +688,27 @@ get
 self
         
 link
+:
+Link
         
 package_name
+:
+Optional
+[
+str
+]
         
 supported_tags
+:
+List
+[
+Tag
+]
     
 )
+-
+>
+Link
 :
         
 "
@@ -686,7 +758,6 @@ for
 future
 installs
 .
-    
 "
 "
 "
@@ -696,8 +767,15 @@ __init__
 (
 self
 cache_dir
+:
+str
 format_control
+:
+FormatControl
 )
+-
+>
+None
 :
         
 super
@@ -720,7 +798,12 @@ get_path_for_link
 (
 self
 link
+:
+Link
 )
+-
+>
+str
 :
         
 "
@@ -911,12 +994,27 @@ get
 self
         
 link
+:
+Link
         
 package_name
+:
+Optional
+[
+str
+]
         
 supported_tags
+:
+List
+[
+Tag
+]
     
 )
+-
+>
+Link
 :
         
 candidates
@@ -947,10 +1045,8 @@ self
 .
 _get_candidates
 (
-            
 link
 canonical_package_name
-        
 )
 :
             
@@ -1014,7 +1110,9 @@ s
 "
                     
 wheel_name
+                    
 link
+                    
 package_name
                 
 )
@@ -1109,7 +1207,6 @@ own
 temporary
 cache
 directory
-    
 "
 "
 "
@@ -1119,7 +1216,12 @@ __init__
 (
 self
 format_control
+:
+FormatControl
 )
+-
+>
+None
 :
         
 self
@@ -1165,8 +1267,12 @@ __init__
 self
         
 link
+:
+Link
         
 persistent
+:
+bool
     
 )
 :
@@ -1182,6 +1288,55 @@ self
 persistent
 =
 persistent
+        
+self
+.
+origin
+:
+Optional
+[
+DirectUrl
+]
+=
+None
+        
+origin_direct_url_path
+=
+Path
+(
+self
+.
+link
+.
+file_path
+)
+.
+parent
+/
+ORIGIN_JSON_NAME
+        
+if
+origin_direct_url_path
+.
+exists
+(
+)
+:
+            
+self
+.
+origin
+=
+DirectUrl
+.
+from_json
+(
+origin_direct_url_path
+.
+read_text
+(
+)
+)
 class
 WheelCache
 (
@@ -1235,11 +1390,37 @@ first
 def
 __init__
 (
+        
 self
 cache_dir
-format_control
-)
 :
+str
+format_control
+:
+Optional
+[
+FormatControl
+]
+=
+None
+    
+)
+-
+>
+None
+:
+        
+if
+format_control
+is
+None
+:
+            
+format_control
+=
+FormatControl
+(
+)
         
 super
 (
@@ -1250,9 +1431,9 @@ __init__
 cache_dir
 format_control
 {
-'
+"
 binary
-'
+"
 }
 )
         
@@ -1280,7 +1461,12 @@ get_path_for_link
 (
 self
 link
+:
+Link
 )
+-
+>
+str
 :
         
 return
@@ -1298,7 +1484,12 @@ get_ephem_path_for_link
 (
 self
 link
+:
+Link
 )
+-
+>
+str
 :
         
 return
@@ -1318,12 +1509,27 @@ get
 self
         
 link
+:
+Link
         
 package_name
+:
+Optional
+[
+str
+]
         
 supported_tags
+:
+List
+[
+Tag
+]
     
 )
+-
+>
+Link
 :
         
 cache_entry
@@ -1358,12 +1564,30 @@ get_cache_entry
 self
         
 link
+:
+Link
         
 package_name
+:
+Optional
+[
+str
+]
         
 supported_tags
+:
+List
+[
+Tag
+]
     
 )
+-
+>
+Optional
+[
+CacheEntry
+]
 :
         
 "
@@ -1488,3 +1712,131 @@ False
         
 return
 None
+    
+staticmethod
+    
+def
+record_download_origin
+(
+cache_dir
+:
+str
+download_info
+:
+DirectUrl
+)
+-
+>
+None
+:
+        
+origin_path
+=
+Path
+(
+cache_dir
+)
+/
+ORIGIN_JSON_NAME
+        
+if
+origin_path
+.
+is_file
+(
+)
+:
+            
+origin
+=
+DirectUrl
+.
+from_json
+(
+origin_path
+.
+read_text
+(
+)
+)
+            
+if
+origin
+.
+url
+!
+=
+download_info
+.
+url
+:
+                
+logger
+.
+warning
+(
+                    
+"
+Origin
+URL
+%
+s
+in
+cache
+entry
+%
+s
+does
+not
+match
+download
+URL
+%
+s
+.
+"
+                    
+"
+This
+is
+likely
+a
+pip
+bug
+or
+a
+cache
+corruption
+issue
+.
+"
+                    
+origin
+.
+url
+                    
+cache_dir
+                    
+download_info
+.
+url
+                
+)
+        
+origin_path
+.
+write_text
+(
+download_info
+.
+to_json
+(
+)
+encoding
+=
+"
+utf
+-
+8
+"
+)

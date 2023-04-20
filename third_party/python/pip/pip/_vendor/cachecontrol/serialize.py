@@ -69,6 +69,11 @@ decode
 utf8
 "
 )
+_default_body_read
+=
+object
+(
+)
 class
 Serializer
 (
@@ -351,6 +356,9 @@ loads
 self
 request
 data
+body_file
+=
+None
 )
 :
         
@@ -465,6 +473,7 @@ ver
 (
 request
 data
+body_file
 )
         
 except
@@ -479,6 +488,9 @@ prepare_response
 self
 request
 cached
+body_file
+=
+None
 )
 :
         
@@ -643,6 +655,12 @@ headers
 try
 :
             
+if
+body_file
+is
+None
+:
+                
 body
 =
 io
@@ -651,6 +669,13 @@ BytesIO
 (
 body_raw
 )
+            
+else
+:
+                
+body
+=
+body_file
         
 except
 TypeError
@@ -697,6 +722,9 @@ _loads_v0
 self
 request
 data
+body_file
+=
+None
 )
 :
         
@@ -708,6 +736,9 @@ _loads_v1
 self
 request
 data
+body_file
+=
+None
 )
 :
         
@@ -736,6 +767,7 @@ prepare_response
 (
 request
 cached
+body_file
 )
     
 def
@@ -744,8 +776,16 @@ _loads_v2
 self
 request
 data
+body_file
+=
+None
 )
 :
+        
+assert
+body_file
+is
+None
         
 try
 :
@@ -936,6 +976,7 @@ prepare_response
 (
 request
 cached
+body_file
 )
     
 def
@@ -944,6 +985,7 @@ _loads_v3
 self
 request
 data
+body_file
 )
 :
         
@@ -955,6 +997,9 @@ _loads_v4
 self
 request
 data
+body_file
+=
+None
 )
 :
         
@@ -986,4 +1031,5 @@ prepare_response
 (
 request
 cached
+body_file
 )

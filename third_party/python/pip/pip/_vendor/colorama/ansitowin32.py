@@ -17,6 +17,7 @@ from
 .
 winterm
 import
+enable_vt_processing
 WinTerm
 WinColor
 WinStyle
@@ -183,6 +184,32 @@ kwargs
 )
     
 def
+__setstate__
+(
+self
+state
+)
+:
+        
+self
+.
+__dict__
+=
+state
+    
+def
+__getstate__
+(
+self
+)
+:
+        
+return
+self
+.
+__dict__
+    
+def
 write
 (
 self
@@ -294,7 +321,10 @@ stream
 closed
         
 except
+(
 AttributeError
+ValueError
+)
 :
             
 return
@@ -483,17 +513,38 @@ winapi_test
 (
 )
         
-if
-strip
-is
-None
+try
 :
             
-strip
+fd
 =
-conversion_supported
+wrapped
+.
+fileno
+(
+)
+        
+except
+Exception
+:
+            
+fd
+=
+-
+1
+        
+system_has_native_ansi
+=
+not
+on_windows
 or
+enable_vt_processing
 (
+fd
+)
+        
+have_tty
+=
 not
 self
 .
@@ -501,7 +552,6 @@ stream
 .
 closed
 and
-not
 self
 .
 stream
@@ -509,7 +559,26 @@ stream
 isatty
 (
 )
-)
+        
+need_conversion
+=
+conversion_supported
+and
+not
+system_has_native_ansi
+        
+if
+strip
+is
+None
+:
+            
+strip
+=
+need_conversion
+or
+not
+have_tty
         
 self
 .
@@ -525,22 +594,9 @@ None
             
 convert
 =
-conversion_supported
+need_conversion
 and
-not
-self
-.
-stream
-.
-closed
-and
-self
-.
-stream
-.
-isatty
-(
-)
+have_tty
         
 self
 .
@@ -1936,3 +1992,18 @@ params
         
 return
 text
+    
+def
+flush
+(
+self
+)
+:
+        
+self
+.
+wrapped
+.
+flush
+(
+)

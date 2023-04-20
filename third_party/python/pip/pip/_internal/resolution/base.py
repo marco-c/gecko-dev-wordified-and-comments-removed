@@ -3,6 +3,7 @@ typing
 import
 Callable
 List
+Optional
 from
 pip
 .
@@ -27,9 +28,13 @@ InstallRequirementProvider
 =
 Callable
 [
+    
 [
 str
+Optional
+[
 InstallRequirement
+]
 ]
 InstallRequirement
 ]

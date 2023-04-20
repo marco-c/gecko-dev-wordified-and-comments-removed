@@ -20,7 +20,7 @@ typing
 import
 Any
 Dict
-Iterator
+Generator
 Optional
 TypeVar
 Union
@@ -88,6 +88,11 @@ build
 "
 )
 _tempdir_manager
+:
+Optional
+[
+ExitStack
+]
 =
 None
 contextmanager
@@ -95,6 +100,14 @@ def
 global_tempdir_manager
 (
 )
+-
+>
+Generator
+[
+None
+None
+None
+]
 :
     
 global
@@ -145,11 +158,20 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 self
 .
 _should_delete
+:
+Dict
+[
+str
+bool
+]
 =
 {
 }
@@ -159,8 +181,15 @@ set_delete
 (
 self
 kind
+:
+str
 value
+:
+bool
 )
+-
+>
+None
 :
         
 "
@@ -200,7 +229,12 @@ get_delete
 (
 self
 kind
+:
+str
 )
+-
+>
+bool
 :
         
 "
@@ -237,6 +271,11 @@ kind
 True
 )
 _tempdir_registry
+:
+Optional
+[
+TempDirectoryTypeRegistry
+]
 =
 None
 contextmanager
@@ -244,6 +283,14 @@ def
 tempdir_registry
 (
 )
+-
+>
+Generator
+[
+TempDirectoryTypeRegistry
+None
+None
+]
 :
     
 "
@@ -426,20 +473,36 @@ __init__
 self
         
 path
+:
+Optional
+[
+str
+]
 =
 None
         
 delete
+:
+Union
+[
+bool
+None
+_Default
+]
 =
 _default
         
 kind
+:
+str
 =
 "
 temp
 "
         
 globally_managed
+:
+bool
 =
 False
     
@@ -541,6 +604,9 @@ path
 (
 self
 )
+-
+>
+str
 :
         
 assert
@@ -573,6 +639,9 @@ __repr__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -600,7 +669,12 @@ def
 __enter__
 (
 self
+:
+_T
 )
+-
+>
+_T
 :
         
 return
@@ -611,9 +685,18 @@ __exit__
 (
 self
 exc
+:
+Any
 value
+:
+Any
 tb
+:
+Any
 )
+-
+>
+None
 :
         
 if
@@ -668,7 +751,12 @@ _create
 (
 self
 kind
+:
+str
 )
+-
+>
+str
 :
         
 "
@@ -739,6 +827,9 @@ cleanup
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -883,10 +974,20 @@ __init__
 (
 self
 original
+:
+str
 delete
+:
+Optional
+[
+bool
+]
 =
 None
 )
+-
+>
+None
 :
         
 self
@@ -922,7 +1023,17 @@ _generate_names
 (
 cls
 name
+:
+str
 )
+-
+>
+Generator
+[
+str
+None
+None
+]
 :
         
 "
@@ -1099,7 +1210,12 @@ _create
 (
 self
 kind
+:
+str
 )
+-
+>
+str
 :
         
 root

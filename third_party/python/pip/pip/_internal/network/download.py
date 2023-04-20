@@ -11,7 +11,9 @@ indicators
 "
 "
 import
-cgi
+email
+.
+message
 import
 logging
 import
@@ -44,7 +46,7 @@ cli
 .
 progress_bars
 import
-DownloadProgressProvider
+get_download_progress_renderer
 from
 pip
 .
@@ -364,14 +366,20 @@ show_progress
 return
 chunks
     
-return
-DownloadProgressProvider
+renderer
+=
+get_download_progress_renderer
 (
+bar_type
+=
 progress_bar
-max
+size
 =
 total_length
 )
+    
+return
+renderer
 (
 chunks
 )
@@ -466,21 +474,32 @@ empty
 "
 "
     
-_type
-params
+m
 =
-cgi
+email
 .
-parse_header
+message
+.
+Message
 (
-content_disposition
 )
+    
+m
+[
+"
+content
+-
+type
+"
+]
+=
+content_disposition
     
 filename
 =
-params
+m
 .
-get
+get_param
 (
 "
 filename
@@ -495,7 +514,10 @@ filename
 =
 sanitize_content_filename
 (
+str
+(
 filename
+)
 )
     
 return

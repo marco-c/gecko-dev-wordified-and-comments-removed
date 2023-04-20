@@ -136,6 +136,9 @@ def
 current_umask
 (
 )
+-
+>
+int
 :
     
 "
@@ -179,7 +182,15 @@ def
 split_leading_dir
 (
 path
+:
+str
 )
+-
+>
+List
+[
+str
+]
 :
     
 path
@@ -294,7 +305,15 @@ def
 has_leading_dir
 (
 paths
+:
+Iterable
+[
+str
+]
 )
+-
+>
+bool
 :
     
 "
@@ -383,8 +402,15 @@ def
 is_within_directory
 (
 directory
+:
+str
 target
+:
+str
 )
+-
+>
+bool
 :
     
 "
@@ -453,7 +479,12 @@ def
 set_extracted_file_to_default_mode_plus_executable
 (
 path
+:
+str
 )
+-
+>
+None
 :
     
 "
@@ -513,7 +544,12 @@ def
 zip_item_is_executable
 (
 info
+:
+ZipInfo
 )
+-
+>
+bool
 :
     
 mode
@@ -545,11 +581,20 @@ def
 unzip_file
 (
 filename
+:
+str
 location
+:
+str
 flatten
+:
+bool
 =
 True
 )
+-
+>
+None
 :
     
 "
@@ -902,8 +947,15 @@ def
 untar_file
 (
 filename
+:
+str
 location
+:
+str
 )
+-
+>
+None
 :
     
 "
@@ -1486,13 +1538,25 @@ unpack_file
 (
     
 filename
+:
+str
     
 location
+:
+str
     
 content_type
+:
+Optional
+[
+str
+]
 =
 None
 )
+-
+>
+None
 :
     
 filename

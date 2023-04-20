@@ -7,9 +7,20 @@ def
 main
 (
 args
+:
+Optional
+[
+List
+[
+str
+]
+]
 =
 None
 )
+-
+>
+int
 :
     
 "

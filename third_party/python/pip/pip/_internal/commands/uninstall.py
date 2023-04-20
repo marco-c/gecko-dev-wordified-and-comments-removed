@@ -24,6 +24,14 @@ pip
 _internal
 .
 cli
+import
+cmdoptions
+from
+pip
+.
+_internal
+.
+cli
 .
 base_command
 import
@@ -89,7 +97,12 @@ utils
 .
 misc
 import
+(
+    
+check_externally_managed
+    
 protect_pip_from_modification_on_windows
+)
 logger
 =
 logging
@@ -222,27 +235,28 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 r
-'
-'
+"
+            
+"
 -
 -
 requirement
-'
+"
             
 dest
 =
-'
+"
 requirements
-'
+"
             
 action
 =
-'
+"
 append
-'
+"
             
 default
 =
@@ -251,13 +265,15 @@ default
             
 metavar
 =
-'
+"
 file
-'
+"
             
 help
 =
-'
+(
+                
+"
 Uninstall
 all
 the
@@ -267,9 +283,9 @@ in
 the
 given
 requirements
-'
-                 
-'
+"
+                
+"
 file
 .
 This
@@ -280,7 +296,9 @@ used
 multiple
 times
 .
-'
+"
+            
+)
         
 )
         
@@ -291,27 +309,28 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 y
-'
-'
+"
+            
+"
 -
 -
 yes
-'
+"
             
 dest
 =
-'
+"
 yes
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 help
 =
@@ -327,6 +346,33 @@ uninstall
 deletions
 .
 "
+        
+)
+        
+self
+.
+cmd_opts
+.
+add_option
+(
+cmdoptions
+.
+root_user_action
+(
+)
+)
+        
+self
+.
+cmd_opts
+.
+add_option
+(
+cmdoptions
+.
+override_externally_managed
+(
+)
 )
         
 self
@@ -386,6 +432,7 @@ install_req_from_line
 (
                 
 name
+                
 isolated
 =
 options
@@ -460,16 +507,15 @@ parsed_req
 in
 parse_requirements
 (
-                    
+                
 filename
-                    
 options
 =
 options
-                    
 session
 =
 session
+            
 )
 :
                 
@@ -479,7 +525,6 @@ install_req_from_parsed_requirement
 (
                     
 parsed_req
-                    
 isolated
 =
 options
@@ -516,7 +561,7 @@ InstallationError
 (
                 
 f
-'
+"
 You
 must
 give
@@ -532,7 +577,7 @@ name
 }
 (
 see
-'
+"
                 
 f
 '
@@ -548,6 +593,17 @@ name
 )
 '
             
+)
+        
+if
+not
+options
+.
+override_externally_managed
+:
+            
+check_externally_managed
+(
 )
         
 protect_pip_from_modification_on_windows
@@ -585,6 +641,7 @@ auto_confirm
 options
 .
 yes
+                
 verbose
 =
 self
@@ -605,6 +662,17 @@ commit
 (
 )
         
+if
+options
+.
+root_user_action
+=
+=
+"
+warn
+"
+:
+            
 warn_if_run_as_root
 (
 )

@@ -29,11 +29,13 @@ com
 "
 "
 "
+from
+enum
+import
+Enum
+Flag
 class
 InputState
-(
-object
-)
 :
     
 "
@@ -72,7 +74,7 @@ HIGH_BYTE
 class
 LanguageFilter
 (
-object
+Flag
 )
 :
     
@@ -99,6 +101,10 @@ UniversalDetector
 "
 "
 "
+    
+NONE
+=
+0x00
     
 CHINESE_SIMPLIFIED
 =
@@ -140,7 +146,7 @@ KOREAN
 class
 ProbingState
 (
-object
+Enum
 )
 :
     
@@ -178,9 +184,6 @@ NOT_ME
 2
 class
 MachineState
-(
-object
-)
 :
     
 "
@@ -218,9 +221,6 @@ ITS_ME
 2
 class
 SequenceLikelihood
-(
-object
-)
 :
     
 "
@@ -268,6 +268,9 @@ get_num_categories
 (
 cls
 )
+-
+>
+int
 :
         
 "
@@ -293,9 +296,6 @@ return
 4
 class
 CharacterCategory
-(
-object
-)
 :
     
 "

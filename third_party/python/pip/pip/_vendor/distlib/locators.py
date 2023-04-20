@@ -4910,10 +4910,9 @@ _fetch
             
 t
 .
-setDaemon
-(
+daemon
+=
 True
-)
             
 t
 .
@@ -8031,10 +8030,6 @@ default_locator
 =
 AggregatingLocator
 (
-                    
-JSONLocator
-(
-)
                     
 SimpleScrapingLocator
 (

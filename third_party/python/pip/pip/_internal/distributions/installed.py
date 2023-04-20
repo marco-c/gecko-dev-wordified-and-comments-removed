@@ -1,16 +1,4 @@
 from
-typing
-import
-Optional
-from
-pip
-.
-_vendor
-.
-pkg_resources
-import
-Distribution
-from
 pip
 .
 _internal
@@ -30,6 +18,14 @@ index
 package_finder
 import
 PackageFinder
+from
+pip
+.
+_internal
+.
+metadata
+import
+BaseDistribution
 class
 InstalledDistribution
 (
@@ -68,17 +64,29 @@ computed
 "
     
 def
-get_pkg_resources_distribution
+get_metadata_distribution
 (
 self
 )
 -
 >
-Optional
-[
-Distribution
-]
+BaseDistribution
 :
+        
+assert
+self
+.
+req
+.
+satisfied_by
+is
+not
+None
+"
+not
+actually
+installed
+"
         
 return
 self
@@ -92,10 +100,16 @@ prepare_distribution_metadata
 (
         
 self
+        
 finder
 :
 PackageFinder
+        
 build_isolation
+:
+bool
+        
+check_build_deps
 :
 bool
     

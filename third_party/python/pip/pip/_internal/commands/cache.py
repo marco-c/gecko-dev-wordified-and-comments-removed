@@ -234,23 +234,23 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 format
-'
+"
             
 action
 =
-'
+"
 store
-'
+"
             
 dest
 =
-'
+"
 list_format
-'
+"
             
 default
 =
@@ -261,12 +261,12 @@ human
 choices
 =
 (
-'
+"
 human
-'
-'
+"
+"
 abspath
-'
+"
 )
             
 help
@@ -311,7 +311,7 @@ args
 :
 List
 [
-Any
+str
 ]
 )
 -
@@ -382,9 +382,6 @@ cache
 commands
 can
 not
-"
-                         
-"
 function
 since
 cache
@@ -517,11 +514,11 @@ args
 raise
 CommandError
 (
-'
+"
 Too
 many
 arguments
-'
+"
 )
         
 logger
@@ -559,11 +556,11 @@ args
 raise
 CommandError
 (
-'
+"
 Too
 many
 arguments
-'
+"
 )
         
 num_http_files
@@ -587,9 +584,9 @@ self
 _find_wheels
 (
 options
-'
+"
 *
-'
+"
 )
 )
         
@@ -600,9 +597,9 @@ self
 _cache_dir
 (
 options
-'
+"
 http
-'
+"
 )
         
 wheels_cache_location
@@ -612,9 +609,9 @@ self
 _cache_dir
 (
 options
-'
+"
 wheels
-'
+"
 )
         
 http_cache_size
@@ -632,21 +629,22 @@ filesystem
 .
 format_directory_size
 (
-            
 wheels_cache_location
-        
 )
         
 message
 =
+(
+            
 textwrap
 .
 dedent
 (
+                
 "
 "
 "
-            
+                    
 Package
 index
 page
@@ -656,7 +654,7 @@ location
 {
 http_cache_location
 }
-            
+                    
 Package
 index
 page
@@ -666,7 +664,7 @@ size
 {
 http_cache_size
 }
-            
+                    
 Number
 of
 HTTP
@@ -675,65 +673,76 @@ files
 {
 num_http_files
 }
-            
-Wheels
+                    
+Locally
+built
+wheels
 location
 :
 {
 wheels_cache_location
 }
-            
-Wheels
+                    
+Locally
+built
+wheels
 size
 :
 {
 wheels_cache_size
 }
-            
+                    
 Number
 of
+locally
+built
 wheels
 :
 {
 package_count
 }
-        
+                
 "
 "
 "
+            
 )
+            
 .
 format
 (
-            
+                
 http_cache_location
 =
 http_cache_location
-            
+                
 http_cache_size
 =
 http_cache_size
-            
+                
 num_http_files
 =
 num_http_files
-            
+                
 wheels_cache_location
 =
 wheels_cache_location
-            
+                
 package_count
 =
 num_packages
-            
+                
 wheels_cache_size
 =
 wheels_cache_size
-        
+            
 )
+            
 .
 strip
 (
+)
+        
 )
         
 logger
@@ -774,11 +783,11 @@ args
 raise
 CommandError
 (
-'
+"
 Too
 many
 arguments
-'
+"
 )
         
 if
@@ -797,9 +806,9 @@ else
             
 pattern
 =
-'
+"
 *
-'
+"
         
 files
 =
@@ -817,9 +826,9 @@ options
 list_format
 =
 =
-'
+"
 human
-'
+"
 :
             
 self
@@ -864,11 +873,14 @@ logger
 .
 info
 (
-'
-Nothing
+"
+No
+locally
+built
+wheels
 cached
 .
-'
+"
 )
             
 return
@@ -909,7 +921,7 @@ results
 append
 (
 f
-'
+"
 -
 {
 wheel
@@ -919,30 +931,30 @@ wheel
 size
 }
 )
-'
+"
 )
         
 logger
 .
 info
 (
-'
+"
 Cache
 contents
 :
 \
 n
-'
+"
 )
         
 logger
 .
 info
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -998,10 +1010,10 @@ logger
 .
 info
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -1043,11 +1055,11 @@ args
 raise
 CommandError
 (
-'
+"
 Too
 many
 arguments
-'
+"
 )
         
 if
@@ -1058,12 +1070,12 @@ args
 raise
 CommandError
 (
-'
+"
 Please
 provide
 a
 pattern
-'
+"
 )
         
 files
@@ -1079,6 +1091,14 @@ args
 ]
 )
         
+no_matching_msg
+=
+"
+No
+matching
+packages
+"
+        
 if
 args
 [
@@ -1086,9 +1106,9 @@ args
 ]
 =
 =
-'
+"
 *
-'
+"
 :
             
 files
@@ -1101,19 +1121,39 @@ _find_http_files
 options
 )
         
+else
+:
+            
+no_matching_msg
++
+=
+'
+for
+pattern
+"
+{
+}
+"
+'
+.
+format
+(
+args
+[
+0
+]
+)
+        
 if
 not
 files
 :
             
-raise
-CommandError
+logger
+.
+warning
 (
-'
-No
-matching
-packages
-'
+no_matching_msg
 )
         
 for
@@ -1184,11 +1224,11 @@ args
 raise
 CommandError
 (
-'
+"
 Too
 many
 arguments
-'
+"
 )
         
 return
@@ -1198,9 +1238,9 @@ remove_cache_items
 (
 options
 [
-'
+"
 *
-'
+"
 ]
 )
     
@@ -1256,9 +1296,9 @@ self
 _cache_dir
 (
 options
-'
+"
 http
-'
+"
 )
         
 return
@@ -1267,9 +1307,9 @@ filesystem
 find_files
 (
 http_dir
-'
+"
 *
-'
+"
 )
     
 def
@@ -1298,9 +1338,9 @@ self
 _cache_dir
 (
 options
-'
+"
 wheels
-'
+"
 )
         
 pattern

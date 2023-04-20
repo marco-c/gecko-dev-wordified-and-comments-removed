@@ -141,7 +141,7 @@ re
 compile
 (
 r
-'
+"
 <
 url
 >
@@ -153,7 +153,7 @@ url
 /
 url
 >
-'
+"
 )
 class
 Subversion
@@ -164,53 +164,51 @@ VersionControl
     
 name
 =
-'
+"
 svn
-'
+"
     
 dirname
 =
-'
+"
 .
 svn
-'
+"
     
 repo_name
 =
-'
+"
 checkout
-'
+"
     
 schemes
 =
 (
-        
-'
+"
 svn
 +
 ssh
-'
-'
+"
+"
 svn
 +
 http
-'
-'
+"
+"
 svn
 +
 https
-'
-'
+"
+"
 svn
 +
 svn
-'
-'
+"
+"
 svn
 +
 file
-'
-    
+"
 )
     
 classmethod
@@ -220,7 +218,12 @@ should_add_vcs_url_prefix
 (
 cls
 remote_url
+:
+str
 )
+-
+>
+bool
 :
         
 return
@@ -232,15 +235,23 @@ def
 get_base_rev_args
 (
 rev
+:
+str
 )
+-
+>
+List
+[
+str
+]
 :
         
 return
 [
-'
+"
 -
 r
-'
+"
 rev
 ]
     
@@ -251,7 +262,12 @@ get_revision
 (
 cls
 location
+:
+str
 )
+-
+>
+str
 :
         
 "
@@ -331,9 +347,9 @@ base
 cls
 .
 dirname
-'
+"
 entries
-'
+"
 )
             
 if
@@ -377,9 +393,9 @@ base
 =
 dirurl
 +
-'
+"
 /
-'
+"
             
 elif
 not
@@ -423,10 +439,33 @@ classmethod
 def
 get_netloc_and_auth
 (
+        
 cls
 netloc
+:
+str
 scheme
+:
+str
+    
 )
+-
+>
+Tuple
+[
+str
+Tuple
+[
+Optional
+[
+str
+]
+Optional
+[
+str
+]
+]
+]
 :
         
 "
@@ -470,9 +509,9 @@ if
 scheme
 =
 =
-'
+"
 ssh
-'
+"
 :
             
 return
@@ -499,7 +538,20 @@ get_url_rev_and_auth
 (
 cls
 url
+:
+str
 )
+-
+>
+Tuple
+[
+str
+Optional
+[
+str
+]
+AuthInfo
+]
 :
         
 url
@@ -520,21 +572,21 @@ url
 .
 startswith
 (
-'
+"
 ssh
 :
 /
 /
-'
+"
 )
 :
             
 url
 =
-'
+"
 svn
 +
-'
+"
 +
 url
         
@@ -548,12 +600,29 @@ staticmethod
 def
 make_rev_args
 (
+        
 username
+:
+Optional
+[
+str
+]
 password
+:
+Optional
+[
+HiddenText
+]
+    
 )
+-
+>
+CommandArgs
 :
         
 extra_args
+:
+CommandArgs
 =
 [
 ]
@@ -566,11 +635,11 @@ extra_args
 +
 =
 [
-'
+"
 -
 -
 username
-'
+"
 username
 ]
         
@@ -582,11 +651,11 @@ extra_args
 +
 =
 [
-'
+"
 -
 -
 password
-'
+"
 password
 ]
         
@@ -600,7 +669,12 @@ get_remote_url
 (
 cls
 location
+:
+str
 )
+-
+>
+str
 :
         
 orig_location
@@ -699,7 +773,19 @@ _get_svn_url_rev
 (
 cls
 location
+:
+str
 )
+-
+>
+Tuple
+[
+Optional
+[
+str
+]
+int
+]
 :
         
 from
@@ -723,9 +809,9 @@ location
 cls
 .
 dirname
-'
+"
 entries
-'
+"
 )
         
 if
@@ -761,43 +847,39 @@ else
             
 data
 =
-'
-'
+"
+"
         
 url
 =
 None
         
 if
-(
 data
 .
 startswith
 (
-'
+"
 8
-'
+"
 )
 or
-                
 data
 .
 startswith
 (
-'
+"
 9
-'
+"
 )
 or
-                
 data
 .
 startswith
 (
-'
+"
 10
-'
-)
+"
 )
 :
             
@@ -814,14 +896,14 @@ data
 .
 split
 (
-'
+"
 \
 n
 \
 x0c
 \
 n
-'
+"
 )
 )
 )
@@ -882,11 +964,11 @@ data
 .
 startswith
 (
-'
+"
 <
 ?
 xml
-'
+"
 )
 :
             
@@ -908,7 +990,7 @@ raise
 ValueError
 (
 f
-'
+"
 Badly
 formatted
 data
@@ -918,7 +1000,7 @@ data
 !
 r
 }
-'
+"
 )
             
 url
@@ -971,14 +1053,14 @@ run_command
 (
                     
 [
-'
+"
 info
-'
-'
+"
+"
 -
 -
 xml
-'
+"
 location
 ]
                     
@@ -1019,7 +1101,6 @@ group
 revs
 =
 [
-                    
 int
 (
 m
@@ -1038,7 +1119,6 @@ finditer
 (
 xml
 )
-                
 ]
             
 except
@@ -1081,8 +1161,18 @@ is_commit_id_equal
 (
 cls
 dest
+:
+str
 name
+:
+Optional
+[
+str
+]
 )
+-
+>
+bool
 :
         
 "
@@ -1108,9 +1198,17 @@ __init__
 (
 self
 use_interactive
+:
+Optional
+[
+bool
+]
 =
 None
 )
+-
+>
+None
 :
         
 if
@@ -1134,6 +1232,17 @@ use_interactive
 self
 .
 _vcs_version
+:
+Optional
+[
+Tuple
+[
+int
+.
+.
+.
+]
+]
 =
 None
         
@@ -1150,6 +1259,15 @@ call_vcs_version
 (
 self
 )
+-
+>
+Tuple
+[
+int
+.
+.
+.
+]
 :
         
 "
@@ -1212,10 +1330,10 @@ installed
         
 version_prefix
 =
-'
+"
 svn
 version
-'
+"
         
 version
 =
@@ -1223,13 +1341,12 @@ self
 .
 run_command
 (
-            
 [
-'
+"
 -
 -
 version
-'
+"
 ]
 show_stdout
 =
@@ -1237,7 +1354,6 @@ False
 stdout_only
 =
 True
-        
 )
         
 if
@@ -1278,9 +1394,9 @@ version
 .
 partition
 (
-'
+"
 -
-'
+"
 )
 [
 0
@@ -1288,9 +1404,9 @@ partition
 .
 split
 (
-'
+"
 .
-'
+"
 )
         
 try
@@ -1323,6 +1439,15 @@ get_vcs_version
 (
 self
 )
+-
+>
+Tuple
+[
+int
+.
+.
+.
+]
 :
         
 "
@@ -1439,6 +1564,9 @@ get_remote_call_options
 (
 self
 )
+-
+>
+CommandArgs
 :
         
 "
@@ -1512,13 +1640,13 @@ use_interactive
             
 return
 [
-'
+"
 -
 -
 non
 -
 interactive
-'
+"
 ]
         
 svn_version
@@ -1541,13 +1669,13 @@ svn_version
             
 return
 [
-'
+"
 -
 -
 force
 -
 interactive
-'
+"
 ]
         
 return
@@ -1557,11 +1685,25 @@ return
 def
 fetch_new
 (
+        
 self
 dest
+:
+str
 url
+:
+HiddenText
 rev_options
+:
+RevOptions
+verbosity
+:
+int
+    
 )
+-
+>
+None
 :
         
 rev_display
@@ -1577,7 +1719,7 @@ logger
 info
 (
             
-'
+"
 Checking
 out
 %
@@ -1587,7 +1729,7 @@ s
 to
 %
 s
-'
+"
             
 url
             
@@ -1600,18 +1742,40 @@ dest
         
 )
         
-cmd_args
+if
+verbosity
+<
 =
-make_command
-(
+0
+:
             
-'
-checkout
-'
-'
+flag
+=
+"
 -
-q
-'
+-
+quiet
+"
+        
+else
+:
+            
+flag
+=
+"
+"
+        
+cmd_args
+=
+make_command
+(
+            
+"
+checkout
+"
+            
+flag
+            
 self
 .
 get_remote_call_options
@@ -1623,7 +1787,9 @@ rev_options
 to_args
 (
 )
+            
 url
+            
 dest
         
 )
@@ -1640,9 +1806,18 @@ switch
 (
 self
 dest
+:
+str
 url
+:
+HiddenText
 rev_options
+:
+RevOptions
 )
+-
+>
+None
 :
         
 cmd_args
@@ -1650,14 +1825,16 @@ cmd_args
 make_command
 (
             
-'
+"
 switch
-'
+"
+            
 self
 .
 get_remote_call_options
 (
 )
+            
 rev_options
 .
 to_args
@@ -1665,6 +1842,7 @@ to_args
 )
             
 url
+            
 dest
         
 )
@@ -1681,9 +1859,18 @@ update
 (
 self
 dest
+:
+str
 url
+:
+HiddenText
 rev_options
+:
+RevOptions
 )
+-
+>
+None
 :
         
 cmd_args
@@ -1691,14 +1878,16 @@ cmd_args
 make_command
 (
             
-'
+"
 update
-'
+"
+            
 self
 .
 get_remote_call_options
 (
 )
+            
 rev_options
 .
 to_args

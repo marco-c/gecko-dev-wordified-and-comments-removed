@@ -18,11 +18,9 @@ pip
 .
 _vendor
 .
-pep517
-.
-wrappers
+pyproject_hooks
 import
-Pep517HookCaller
+BuildBackendHookCaller
 from
 pip
 .
@@ -31,6 +29,19 @@ _internal
 build_env
 import
 BuildEnvironment
+from
+pip
+.
+_internal
+.
+exceptions
+import
+(
+    
+InstallationSubprocessError
+    
+MetadataGenerationFailed
+)
 from
 pip
 .
@@ -54,9 +65,20 @@ TempDirectory
 def
 generate_metadata
 (
+    
 build_env
+:
+BuildEnvironment
 backend
+:
+BuildBackendHookCaller
+details
+:
+str
 )
+-
+>
+str
 :
     
 "
@@ -87,7 +109,6 @@ metadata_tmpdir
 =
 TempDirectory
 (
-        
 kind
 =
 "
@@ -98,7 +119,6 @@ metadata
 globally_managed
 =
 True
-    
 )
     
 metadata_dir
@@ -117,8 +137,12 @@ runner_with_spinner_message
 (
 "
 Preparing
-wheel
 metadata
+(
+pyproject
+.
+toml
+)
 "
 )
         
@@ -131,16 +155,33 @@ runner
 )
 :
             
+try
+:
+                
 distinfo_dir
 =
 backend
 .
 prepare_metadata_for_build_wheel
 (
-                
 metadata_dir
-            
 )
+            
+except
+InstallationSubprocessError
+as
+error
+:
+                
+raise
+MetadataGenerationFailed
+(
+package_details
+=
+details
+)
+from
+error
     
 return
 os

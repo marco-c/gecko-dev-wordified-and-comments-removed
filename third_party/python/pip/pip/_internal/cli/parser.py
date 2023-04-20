@@ -27,7 +27,7 @@ typing
 import
 Any
 Dict
-Iterator
+Generator
 List
 Tuple
 from
@@ -1191,17 +1191,21 @@ exit
 def
 _get_ordered_configuration_items
 (
+        
 self
+    
 )
 -
 >
-Iterator
+Generator
 [
 Tuple
 [
 str
 Any
 ]
+None
+None
 ]
 :
         

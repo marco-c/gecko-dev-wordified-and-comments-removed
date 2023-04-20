@@ -177,9 +177,9 @@ guess
 raise
 CommandError
 (
-'
+"
 -
-'
+"
 .
 join
 (

@@ -150,7 +150,12 @@ def
 _combining_class
 (
 cp
+:
+int
 )
+-
+>
+int
 :
     
 v
@@ -202,8 +207,15 @@ def
 _is_script
 (
 cp
+:
+str
 script
+:
+str
 )
+-
+>
+bool
 :
     
 return
@@ -224,7 +236,12 @@ def
 _punycode
 (
 s
+:
+str
 )
+-
+>
+bytes
 :
     
 return
@@ -240,7 +257,12 @@ def
 _unot
 (
 s
+:
+int
 )
+-
+>
+str
 :
     
 return
@@ -261,7 +283,16 @@ def
 valid_label_length
 (
 label
+:
+Union
+[
+bytes
+str
+]
 )
+-
+>
+bool
 :
     
 if
@@ -282,8 +313,19 @@ def
 valid_string_length
 (
 label
+:
+Union
+[
+bytes
+str
+]
 trailing_dot
+:
+bool
 )
+-
+>
+bool
 :
     
 if
@@ -310,10 +352,17 @@ def
 check_bidi
 (
 label
+:
+str
 check_ltr
+:
+bool
 =
 False
 )
+-
+>
+bool
 :
     
 bidi_label
@@ -785,7 +834,12 @@ def
 check_initial_combiner
 (
 label
+:
+str
 )
+-
+>
+bool
 :
     
 if
@@ -828,7 +882,12 @@ def
 check_hyphen_ok
 (
 label
+:
+str
 )
+-
+>
+bool
 :
     
 if
@@ -907,7 +966,12 @@ def
 check_nfc
 (
 label
+:
+str
 )
+-
+>
+None
 :
     
 if
@@ -942,8 +1006,15 @@ def
 valid_contextj
 (
 label
+:
+str
 pos
+:
+int
 )
+-
+>
+bool
 :
     
 cp_value
@@ -1197,11 +1268,20 @@ def
 valid_contexto
 (
 label
+:
+str
 pos
+:
+int
 exception
+:
+bool
 =
 False
 )
+-
+>
+bool
 :
     
 cp_value
@@ -1478,7 +1558,17 @@ def
 check_label
 (
 label
+:
+Union
+[
+str
+bytes
+bytearray
+]
 )
+-
+>
+None
 :
     
 if
@@ -1781,7 +1871,12 @@ def
 alabel
 (
 label
+:
+str
 )
+-
+>
+bytes
 :
     
 try
@@ -1893,7 +1988,17 @@ def
 ulabel
 (
 label
+:
+Union
+[
+str
+bytes
+bytearray
+]
 )
+-
+>
+str
 :
     
 if
@@ -2044,6 +2149,9 @@ ascii
 '
 )
     
+try
+:
+        
 label
 =
 label_bytes
@@ -2052,6 +2160,21 @@ decode
 (
 '
 punycode
+'
+)
+    
+except
+UnicodeError
+:
+        
+raise
+IDNAError
+(
+'
+Invalid
+A
+-
+label
 '
 )
     
@@ -2066,13 +2189,22 @@ def
 uts46_remap
 (
 domain
+:
+str
 std3_rules
+:
+bool
 =
 True
 transitional
+:
+bool
 =
 False
 )
+-
+>
+str
 :
     
 "
@@ -2341,19 +2473,37 @@ def
 encode
 (
 s
+:
+Union
+[
+str
+bytes
+bytearray
+]
 strict
+:
+bool
 =
 False
 uts46
+:
+bool
 =
 False
 std3_rules
+:
+bool
 =
 False
 transitional
+:
+bool
 =
 False
 )
+-
+>
+bytes
 :
     
 if
@@ -2367,6 +2517,9 @@ bytearray
 )
 :
         
+try
+:
+            
 s
 =
 s
@@ -2375,6 +2528,31 @@ decode
 (
 '
 ascii
+'
+)
+        
+except
+UnicodeDecodeError
+:
+            
+raise
+IDNAError
+(
+'
+should
+pass
+a
+unicode
+string
+to
+the
+function
+rather
+than
+a
+byte
+string
+.
 '
 )
     
@@ -2558,18 +2736,37 @@ def
 decode
 (
 s
+:
+Union
+[
+str
+bytes
+bytearray
+]
 strict
+:
+bool
 =
 False
 uts46
+:
+bool
 =
 False
 std3_rules
+:
+bool
 =
 False
 )
+-
+>
+str
 :
     
+try
+:
+        
 if
 isinstance
 (
@@ -2580,7 +2777,7 @@ bytearray
 )
 )
 :
-        
+            
 s
 =
 s
@@ -2589,6 +2786,23 @@ decode
 (
 '
 ascii
+'
+)
+    
+except
+UnicodeDecodeError
+:
+        
+raise
+IDNAError
+(
+'
+Invalid
+ASCII
+in
+A
+-
+label
 '
 )
     

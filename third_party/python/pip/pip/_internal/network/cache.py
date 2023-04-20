@@ -17,7 +17,7 @@ contextmanager
 from
 typing
 import
-Iterator
+Generator
 Optional
 from
 pip
@@ -98,8 +98,10 @@ suppressed_cache_errors
 )
 -
 >
-Iterator
+Generator
 [
+None
+None
 None
 ]
 :
@@ -339,6 +341,14 @@ str
 value
 :
 bytes
+expires
+:
+Optional
+[
+int
+]
+=
+None
 )
 -
 >

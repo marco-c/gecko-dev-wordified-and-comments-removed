@@ -18,7 +18,6 @@ re
 from
 typing
 import
-TYPE_CHECKING
 List
 Optional
 Tuple
@@ -32,6 +31,8 @@ packaging
 tags
 import
 (
+    
+PythonVersion
     
 Tag
     
@@ -47,20 +48,6 @@ interpreter_version
     
 mac_platforms
 )
-if
-TYPE_CHECKING
-:
-    
-from
-pip
-.
-_vendor
-.
-packaging
-.
-tags
-import
-PythonVersion
 _osx_arch_pat
 =
 re
@@ -510,9 +497,7 @@ str
 )
 -
 >
-"
 PythonVersion
-"
 :
     
 if
@@ -816,9 +801,7 @@ python_version
 :
 Optional
 [
-"
 PythonVersion
-"
 ]
 =
 None

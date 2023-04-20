@@ -204,16 +204,18 @@ it
 :
     
 import
+pip
+.
+_vendor
+.
 urllib3
 .
 contrib
 .
 securetransport
+as
+securetransport
     
-urllib3
-.
-contrib
-.
 securetransport
 .
 inject_into_urllib3

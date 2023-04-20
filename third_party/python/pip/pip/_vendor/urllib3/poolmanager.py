@@ -136,6 +136,10 @@ ssl_context
 "
 key_password
 "
+    
+"
+server_hostname
+"
 )
 _key_fields
 =

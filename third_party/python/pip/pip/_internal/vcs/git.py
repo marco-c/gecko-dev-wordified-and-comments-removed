@@ -162,7 +162,7 @@ re
 .
 compile
 (
-'
+"
 ^
 [
 a
@@ -176,7 +176,7 @@ F0
 {
 40
 }
-'
+"
 )
 SCP_REGEX
 =
@@ -184,6 +184,7 @@ re
 .
 compile
 (
+    
 r
 "
 "
@@ -299,9 +300,11 @@ w
 ]
 *
 )
+    
 "
 "
 "
+    
 re
 .
 VERBOSE
@@ -310,7 +313,12 @@ def
 looks_like_hash
 (
 sha
+:
+str
 )
+-
+>
+bool
 :
     
 return
@@ -332,71 +340,75 @@ VersionControl
     
 name
 =
-'
+"
 git
-'
+"
     
 dirname
 =
-'
+"
 .
 git
-'
+"
     
 repo_name
 =
-'
+"
 clone
-'
+"
     
 schemes
 =
 (
         
-'
+"
 git
 +
 http
-'
-'
+"
+        
+"
 git
 +
 https
-'
-'
+"
+        
+"
 git
 +
 ssh
-'
-'
+"
+        
+"
 git
 +
 git
-'
-'
+"
+        
+"
 git
 +
 file
-'
+"
     
 )
     
 unset_environ
 =
 (
-'
+"
 GIT_DIR
-'
-'
+"
+"
 GIT_WORK_TREE
-'
+"
 )
     
 default_arg_rev
 =
-'
+"
 HEAD
-'
+"
     
 staticmethod
     
@@ -404,7 +416,15 @@ def
 get_base_rev_args
 (
 rev
+:
+str
 )
+-
+>
+List
+[
+str
+]
 :
         
 return
@@ -417,8 +437,15 @@ is_immutable_rev_checkout
 (
 self
 url
+:
+str
 dest
+:
+str
 )
+-
+>
+bool
 :
         
 _
@@ -464,7 +491,6 @@ is_tag_or_branch
 =
 bool
 (
-            
 self
 .
 get_revision_sha
@@ -477,7 +503,6 @@ rev
 [
 0
 ]
-        
 )
         
 return
@@ -508,13 +533,22 @@ run_command
 (
             
 [
-'
+"
 version
-'
+"
 ]
+            
+command_desc
+=
+"
+git
+version
+"
+            
 show_stdout
 =
 False
+            
 stdout_only
 =
 True
@@ -534,6 +568,24 @@ if
 not
 match
 :
+            
+logger
+.
+warning
+(
+"
+Can
+'
+t
+parse
+git
+version
+:
+%
+s
+"
+version
+)
             
 return
 (
@@ -563,7 +615,15 @@ get_current_branch
 (
 cls
 location
+:
+str
 )
+-
+>
+Optional
+[
+str
+]
 :
         
 "
@@ -602,18 +662,18 @@ HEAD
 args
 =
 [
-'
+"
 symbolic
 -
 ref
-'
-'
+"
+"
 -
 q
-'
-'
+"
+"
 HEAD
-'
+"
 ]
         
 output
@@ -658,12 +718,12 @@ ref
 .
 startswith
 (
-'
+"
 refs
 /
 heads
 /
-'
+"
 )
 :
             
@@ -672,12 +732,12 @@ ref
 [
 len
 (
-'
+"
 refs
 /
 heads
 /
-'
+"
 )
 :
 ]
@@ -692,8 +752,22 @@ get_revision_sha
 (
 cls
 dest
+:
+str
 rev
+:
+str
 )
+-
+>
+Tuple
+[
+Optional
+[
+str
+]
+bool
+]
 :
         
 "
@@ -754,11 +828,11 @@ run_command
 (
             
 [
-'
+"
 show
 -
 ref
-'
+"
 rev
 ]
             
@@ -776,9 +850,9 @@ True
             
 on_returncode
 =
-'
+"
 ignore
-'
+"
         
 )
         
@@ -849,7 +923,7 @@ raise
 ValueError
 (
 f
-'
+"
 unexpected
 show
 -
@@ -861,7 +935,7 @@ line
 !
 r
 }
-'
+"
 )
             
 refs
@@ -874,7 +948,7 @@ ref_sha
 branch_ref
 =
 f
-'
+"
 refs
 /
 remotes
@@ -884,12 +958,12 @@ origin
 {
 rev
 }
-'
+"
         
 tag_ref
 =
 f
-'
+"
 refs
 /
 tags
@@ -897,7 +971,7 @@ tags
 {
 rev
 }
-'
+"
         
 sha
 =
@@ -943,8 +1017,15 @@ _should_fetch
 (
 cls
 dest
+:
+str
 rev
+:
+str
 )
+-
+>
+bool
 :
         
 "
@@ -1060,11 +1141,22 @@ classmethod
 def
 resolve_revision
 (
+        
 cls
 dest
+:
+str
 url
+:
+HiddenText
 rev_options
+:
+RevOptions
+    
 )
+-
+>
+RevOptions
 :
         
 "
@@ -1215,13 +1307,13 @@ run_command
             
 make_command
 (
-'
+"
 fetch
-'
-'
+"
+"
 -
 q
-'
+"
 url
 rev_options
 .
@@ -1245,9 +1337,9 @@ get_revision
 dest
 rev
 =
-'
+"
 FETCH_HEAD
-'
+"
 )
         
 rev_options
@@ -1269,8 +1361,18 @@ is_commit_id_equal
 (
 cls
 dest
+:
+str
 name
+:
+Optional
+[
+str
+]
 )
+-
+>
+bool
 :
         
 "
@@ -1332,11 +1434,25 @@ name
 def
 fetch_new
 (
+        
 self
 dest
+:
+str
 url
+:
+HiddenText
 rev_options
+:
+RevOptions
+verbosity
+:
+int
+    
 )
+-
+>
+None
 :
         
 rev_display
@@ -1351,7 +1467,7 @@ logger
 .
 info
 (
-'
+"
 Cloning
 %
 s
@@ -1360,7 +1476,7 @@ s
 to
 %
 s
-'
+"
 url
 rev_display
 display_path
@@ -1369,19 +1485,122 @@ dest
 )
 )
         
+if
+verbosity
+<
+=
+0
+:
+            
+flags
+:
+Tuple
+[
+str
+.
+.
+.
+]
+=
+(
+"
+-
+-
+quiet
+"
+)
+        
+elif
+verbosity
+=
+=
+1
+:
+            
+flags
+=
+(
+)
+        
+else
+:
+            
+flags
+=
+(
+"
+-
+-
+verbose
+"
+"
+-
+-
+progress
+"
+)
+        
+if
+self
+.
+get_git_version
+(
+)
+>
+=
+(
+2
+17
+)
+:
+            
+self
+.
+run_command
+(
+                
+make_command
+(
+                    
+"
+clone
+"
+                    
+"
+-
+-
+filter
+=
+blob
+:
+none
+"
+                    
+*
+flags
+                    
+url
+                    
+dest
+                
+)
+            
+)
+        
+else
+:
+            
 self
 .
 run_command
 (
 make_command
 (
-'
+"
 clone
-'
-'
--
-q
-'
+"
+*
+flags
 url
 dest
 )
@@ -1409,10 +1628,27 @@ branch_name
 getattr
 (
 rev_options
-'
+"
 branch_name
-'
+"
 None
+)
+            
+logger
+.
+debug
+(
+"
+Rev
+options
+%
+s
+branch_name
+%
+s
+"
+rev_options
+branch_name
 )
             
 if
@@ -1439,13 +1675,15 @@ cmd_args
 make_command
 (
                         
-'
+"
 checkout
-'
-'
+"
+                        
+"
 -
 q
-'
+"
+                        
 rev_options
 .
 to_args
@@ -1479,31 +1717,35 @@ branch_name
 track_branch
 =
 f
-'
+"
 origin
 /
 {
 branch_name
 }
-'
+"
                 
 cmd_args
 =
 [
                     
-'
+"
 checkout
-'
-'
+"
+                    
+"
 -
 b
-'
+"
+                    
 branch_name
-'
+                    
+"
 -
 -
 track
-'
+"
+                    
 track_branch
                 
 ]
@@ -1570,9 +1812,18 @@ switch
 (
 self
 dest
+:
+str
 url
+:
+HiddenText
 rev_options
+:
+RevOptions
 )
+-
+>
+None
 :
         
 self
@@ -1582,16 +1833,16 @@ run_command
             
 make_command
 (
-'
+"
 config
-'
-'
+"
+"
 remote
 .
 origin
 .
 url
-'
+"
 url
 )
             
@@ -1605,13 +1856,13 @@ cmd_args
 =
 make_command
 (
-'
+"
 checkout
-'
-'
+"
+"
 -
 q
-'
+"
 rev_options
 .
 to_args
@@ -1641,9 +1892,18 @@ update
 (
 self
 dest
+:
+str
 url
+:
+HiddenText
 rev_options
+:
+RevOptions
 )
+-
+>
+None
 :
         
 if
@@ -1665,18 +1925,18 @@ self
 run_command
 (
 [
-'
+"
 fetch
-'
-'
+"
+"
 -
 q
-'
-'
+"
+"
 -
 -
 tags
-'
+"
 ]
 cwd
 =
@@ -1691,13 +1951,13 @@ self
 run_command
 (
 [
-'
+"
 fetch
-'
-'
+"
+"
 -
 q
-'
+"
 ]
 cwd
 =
@@ -1719,18 +1979,18 @@ cmd_args
 =
 make_command
 (
-'
+"
 reset
-'
-'
+"
+"
 -
 -
 hard
-'
-'
+"
+"
 -
 q
-'
+"
 rev_options
 .
 to_args
@@ -1762,7 +2022,12 @@ get_remote_url
 (
 cls
 location
+:
+str
 )
+-
+>
+str
 :
         
 "
@@ -1805,18 +2070,18 @@ run_command
 (
             
 [
-'
+"
 config
-'
-'
+"
+"
 -
 -
 get
 -
 regexp
-'
+"
 r
-'
+"
 remote
 \
 .
@@ -1825,7 +2090,7 @@ remote
 \
 .
 url
-'
+"
 ]
             
 extra_ok_returncodes
@@ -1884,13 +2149,13 @@ remote
 .
 startswith
 (
-'
+"
 remote
 .
 origin
 .
 url
-'
+"
 )
 :
                 
@@ -1906,8 +2171,8 @@ found_remote
 .
 split
 (
-'
-'
+"
+"
 )
 [
 1
@@ -1931,7 +2196,12 @@ def
 _git_remote_to_pip_url
 (
 url
+:
+str
 )
+-
+>
+str
 :
         
 "
@@ -2166,8 +2436,15 @@ has_commit
 (
 cls
 location
+:
+str
 rev
+:
+str
 )
+-
+>
+bool
 :
         
 "
@@ -2202,20 +2479,20 @@ run_command
 (
                 
 [
-'
+"
 rev
 -
 parse
-'
-'
+"
+"
 -
 q
-'
-'
+"
+"
 -
 -
 verify
-'
+"
 "
 sha
 ^
@@ -2254,10 +2531,20 @@ get_revision
 (
 cls
 location
+:
+str
 rev
+:
+Optional
+[
+str
+]
 =
 None
 )
+-
+>
+str
 :
         
 if
@@ -2268,9 +2555,9 @@ None
             
 rev
 =
-'
+"
 HEAD
-'
+"
         
 current_rev
 =
@@ -2280,11 +2567,11 @@ run_command
 (
             
 [
-'
+"
 rev
 -
 parse
-'
+"
 rev
 ]
             
@@ -2316,7 +2603,15 @@ get_subdirectory
 (
 cls
 location
+:
+str
 )
+-
+>
+Optional
+[
+str
+]
 :
         
 "
@@ -2362,18 +2657,18 @@ run_command
 (
             
 [
-'
+"
 rev
 -
 parse
-'
-'
+"
+"
 -
 -
 git
 -
 dir
-'
+"
 ]
             
 show_stdout
@@ -2433,10 +2728,10 @@ path
 join
 (
 git_dir
-'
+"
 .
 .
-'
+"
 )
 )
         
@@ -2454,7 +2749,20 @@ get_url_rev_and_auth
 (
 cls
 url
+:
+str
 )
+-
+>
+Tuple
+[
+str
+Optional
+[
+str
+]
+AuthInfo
+]
 :
         
 "
@@ -2558,9 +2866,9 @@ scheme
 .
 endswith
 (
-'
+"
 file
-'
+"
 )
 :
             
@@ -2576,20 +2884,17 @@ path
 .
 lstrip
 (
-'
+"
 /
-'
+"
 )
 )
 ]
             
 newpath
 =
-(
-                
 initial_slashes
 +
-                
 urllib
 .
 request
@@ -2598,26 +2903,25 @@ url2pathname
 (
 path
 )
-                
 .
 replace
 (
-'
+                
+"
 \
 \
-'
-'
+"
+"
 /
-'
+"
+            
 )
 .
 lstrip
 (
-'
+"
 /
-'
-)
-            
+"
 )
             
 after_plus
@@ -2626,9 +2930,9 @@ scheme
 .
 find
 (
-'
+"
 +
-'
+"
 )
 +
 1
@@ -2659,21 +2963,21 @@ fragment
 )
         
 if
-'
+"
 :
 /
 /
-'
+"
 not
 in
 url
 :
             
 assert
-'
+"
 file
 :
-'
+"
 not
 in
 url
@@ -2684,18 +2988,18 @@ url
 .
 replace
 (
-'
+"
 git
 +
-'
-'
+"
+"
 git
 +
 ssh
 :
 /
 /
-'
+"
 )
             
 url
@@ -2717,14 +3021,14 @@ url
 .
 replace
 (
-'
+"
 ssh
 :
 /
 /
-'
-'
-'
+"
+"
+"
 )
         
 else
@@ -2755,7 +3059,12 @@ update_submodules
 (
 cls
 location
+:
+str
 )
+-
+>
+None
 :
         
 if
@@ -2773,10 +3082,10 @@ path
 join
 (
 location
-'
+"
 .
 gitmodules
-'
+"
 )
 )
 :
@@ -2789,26 +3098,26 @@ run_command
 (
             
 [
-'
+"
 submodule
-'
-'
+"
+"
 update
-'
-'
+"
+"
 -
 -
 init
-'
-'
+"
+"
 -
 -
 recursive
-'
-'
+"
+"
 -
 q
-'
+"
 ]
             
 cwd
@@ -2824,7 +3133,15 @@ get_repository_root
 (
 cls
 location
+:
+str
 )
+-
+>
+Optional
+[
+str
+]
 :
         
 loc
@@ -2856,18 +3173,18 @@ run_command
 (
                 
 [
-'
+"
 rev
 -
 parse
-'
-'
+"
+"
 -
 -
 show
 -
 toplevel
-'
+"
 ]
                 
 cwd
@@ -2884,9 +3201,9 @@ True
                 
 on_returncode
 =
-'
+"
 raise
-'
+"
                 
 log_failed_cmd
 =
@@ -2902,6 +3219,7 @@ logger
 .
 debug
 (
+                
 "
 could
 not
@@ -2914,7 +3232,7 @@ under
 git
 control
 "
-                         
+                
 "
 because
 git
@@ -2922,7 +3240,9 @@ is
 not
 available
 "
+                
 location
+            
 )
             
 return
@@ -2946,12 +3266,12 @@ r
 .
 rstrip
 (
-'
+"
 \
 r
 \
 n
-'
+"
 )
 )
     
@@ -2961,7 +3281,12 @@ def
 should_add_vcs_url_prefix
 (
 repo_url
+:
+str
 )
+-
+>
+bool
 :
         
 "
@@ -2981,7 +3306,6 @@ with
 git
 +
 .
-        
 "
 "
 "

@@ -1,6 +1,8 @@
 import
 errno
 import
+json
+import
 operator
 import
 os
@@ -29,6 +31,14 @@ packaging
 utils
 import
 canonicalize_name
+from
+pip
+.
+_vendor
+.
+rich
+import
+print_json
 from
 pip
 .
@@ -123,6 +133,28 @@ pip
 .
 _internal
 .
+models
+.
+installation_report
+import
+InstallationReport
+from
+pip
+.
+_internal
+.
+operations
+.
+build
+.
+build_tracker
+import
+get_build_tracker
+from
+pip
+.
+_internal
+.
 operations
 .
 check
@@ -146,17 +178,14 @@ req
 .
 req_install
 import
+(
+    
 InstallRequirement
-from
-pip
-.
-_internal
-.
-req
-.
-req_tracker
-import
-get_requirement_tracker
+    
+LegacySetupPyOptionsCheckMode
+    
+check_legacy_setup_py_options
+)
 from
 pip
 .
@@ -167,6 +196,21 @@ utils
 compat
 import
 WINDOWS
+from
+pip
+.
+_internal
+.
+utils
+.
+deprecation
+import
+(
+    
+LegacyInstallReasonFailedBdistWheel
+    
+deprecated
+)
 from
 pip
 .
@@ -207,6 +251,8 @@ utils
 misc
 import
 (
+    
+check_externally_managed
     
 ensure_dir
     
@@ -250,7 +296,7 @@ wheel_builder
 import
 (
     
-BinaryAllowedPredicate
+BdistWheelAllowedPredicate
     
 build
     
@@ -263,15 +309,16 @@ getLogger
 __name__
 )
 def
-get_check_binary_allowed
+get_check_bdist_wheel_allowed
 (
+    
 format_control
 :
 FormatControl
 )
 -
 >
-BinaryAllowedPredicate
+BdistWheelAllowedPredicate
 :
     
 def
@@ -577,27 +624,106 @@ cmd_opts
 add_option
 (
             
-'
--
-t
-'
-'
+"
 -
 -
-target
-'
+dry
+-
+run
+"
+            
+action
+=
+"
+store_true
+"
             
 dest
 =
+"
+dry_run
+"
+            
+default
+=
+False
+            
+help
+=
+(
+                
+"
+Don
 '
+t
+actually
+install
+anything
+just
+print
+what
+would
+be
+.
+"
+                
+"
+Can
+be
+used
+in
+combination
+with
+-
+-
+ignore
+-
+installed
+"
+                
+"
+to
+'
+resolve
+'
+the
+requirements
+.
+"
+            
+)
+        
+)
+        
+self
+.
+cmd_opts
+.
+add_option
+(
+            
+"
+-
+t
+"
+            
+"
+-
+-
+target
+"
+            
+dest
+=
+"
 target_dir
-'
+"
             
 metavar
 =
-'
+"
 dir
-'
+"
             
 default
 =
@@ -605,7 +731,9 @@ None
             
 help
 =
-'
+(
+                
+"
 Install
 packages
 into
@@ -613,9 +741,9 @@ into
 dir
 >
 .
-'
-                 
-'
+"
+                
+"
 By
 default
 this
@@ -627,9 +755,9 @@ files
 /
 folders
 in
-'
-                 
-'
+"
+                
+"
 <
 dir
 >
@@ -646,14 +774,16 @@ in
 <
 dir
 >
-'
-                 
-'
+"
+                
+"
 with
 new
 versions
 .
-'
+"
+            
+)
         
 )
         
@@ -673,26 +803,28 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 user
-'
+"
             
 dest
 =
-'
+"
 use_user_site
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 help
 =
+(
+                
 "
 Install
 to
@@ -704,7 +836,7 @@ directory
 for
 your
 "
-                 
+                
 "
 platform
 .
@@ -723,7 +855,7 @@ APPDATA
 Python
 on
 "
-                 
+                
 "
 Windows
 .
@@ -737,7 +869,7 @@ site
 .
 USER_BASE
 "
-                 
+                
 "
 for
 full
@@ -745,6 +877,9 @@ details
 .
 )
 "
+            
+)
+        
 )
         
 self
@@ -754,29 +889,30 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 no
 -
 user
-'
+"
             
 dest
 =
-'
+"
 use_user_site
-'
+"
             
 action
 =
-'
+"
 store_false
-'
+"
             
 help
 =
 SUPPRESS_HELP
+        
 )
         
 self
@@ -786,23 +922,23 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 root
-'
+"
             
 dest
 =
-'
+"
 root_path
-'
+"
             
 metavar
 =
-'
+"
 dir
-'
+"
             
 default
 =
@@ -818,12 +954,10 @@ to
 this
 alternate
 root
-"
-                 
-"
 directory
 .
 "
+        
 )
         
 self
@@ -833,23 +967,23 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 prefix
-'
+"
             
 dest
 =
-'
+"
 prefix_path
-'
+"
             
 metavar
 =
-'
+"
 dir
-'
+"
             
 default
 =
@@ -857,6 +991,8 @@ None
             
 help
 =
+(
+                
 "
 Installation
 prefix
@@ -869,25 +1005,15 @@ top
 -
 level
 "
-                 
+                
 "
 folders
 are
 placed
 "
+            
 )
         
-self
-.
-cmd_opts
-.
-add_option
-(
-cmdoptions
-.
-build_dir
-(
-)
 )
         
 self
@@ -910,31 +1036,34 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 U
-'
-'
+"
+            
+"
 -
 -
 upgrade
-'
+"
             
 dest
 =
-'
+"
 upgrade
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 help
 =
-'
+(
+                
+"
 Upgrade
 all
 specified
@@ -943,9 +1072,9 @@ to
 the
 newest
 available
-'
-                 
-'
+"
+                
+"
 version
 .
 The
@@ -955,15 +1084,17 @@ dependencies
 depends
 on
 the
-'
-                 
-'
+"
+                
+"
 upgrade
 -
 strategy
 used
 .
-'
+"
+            
+)
         
 )
         
@@ -974,48 +1105,50 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 upgrade
 -
 strategy
-'
+"
             
 dest
 =
-'
+"
 upgrade_strategy
-'
+"
             
 default
 =
-'
+"
 only
 -
 if
 -
 needed
-'
+"
             
 choices
 =
 [
-'
+"
 only
 -
 if
 -
 needed
-'
-'
+"
+"
 eager
-'
+"
 ]
             
 help
 =
-'
+(
+                
+"
 Determines
 how
 dependency
@@ -1023,9 +1156,9 @@ upgrading
 should
 be
 handled
-'
-                 
-'
+"
+                
+"
 [
 default
 :
@@ -1033,8 +1166,8 @@ default
 default
 ]
 .
-'
-                 
+"
+                
 '
 "
 eager
@@ -1046,8 +1179,8 @@ upgraded
 regardless
 of
 '
-                 
-'
+                
+"
 whether
 the
 currently
@@ -1055,9 +1188,9 @@ installed
 version
 satisfies
 the
-'
-                 
-'
+"
+                
+"
 requirements
 of
 the
@@ -1067,8 +1200,8 @@ package
 s
 )
 .
-'
-                 
+"
+                
 '
 "
 only
@@ -1086,8 +1219,8 @@ they
 do
 not
 '
-                 
-'
+                
+"
 satisfy
 the
 requirements
@@ -1099,7 +1232,9 @@ package
 s
 )
 .
-'
+"
+            
+)
         
 )
         
@@ -1110,29 +1245,29 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 -
 force
 -
 reinstall
-'
+"
             
 dest
 =
-'
+"
 force_reinstall
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 help
 =
-'
+"
 Reinstall
 all
 packages
@@ -1141,16 +1276,14 @@ if
 they
 are
 already
-'
-                 
-'
 up
 -
 to
 -
 date
 .
-'
+"
+        
 )
         
 self
@@ -1160,33 +1293,36 @@ cmd_opts
 add_option
 (
             
-'
+"
 -
 I
-'
-'
+"
+            
+"
 -
 -
 ignore
 -
 installed
-'
+"
             
 dest
 =
-'
+"
 ignore_installed
-'
+"
             
 action
 =
-'
+"
 store_true
-'
+"
             
 help
 =
-'
+(
+                
+"
 Ignore
 the
 installed
@@ -1194,9 +1330,9 @@ packages
 overwriting
 them
 .
-'
-                 
-'
+"
+                
+"
 This
 can
 break
@@ -1206,9 +1342,9 @@ if
 the
 existing
 package
-'
-                 
-'
+"
+                
+"
 is
 of
 a
@@ -1217,16 +1353,18 @@ version
 or
 was
 installed
-'
-                 
-'
+"
+                
+"
 with
 a
 different
 package
 manager
 !
-'
+"
+            
+)
         
 )
         
@@ -1278,6 +1416,45 @@ add_option
 cmdoptions
 .
 no_use_pep517
+(
+)
+)
+        
+self
+.
+cmd_opts
+.
+add_option
+(
+cmdoptions
+.
+check_build_deps
+(
+)
+)
+        
+self
+.
+cmd_opts
+.
+add_option
+(
+cmdoptions
+.
+override_externally_managed
+(
+)
+)
+        
+self
+.
+cmd_opts
+.
+add_option
+(
+cmdoptions
+.
+config_settings
 (
 )
 )
@@ -1553,6 +1730,19 @@ progress_bar
 )
 )
         
+self
+.
+cmd_opts
+.
+add_option
+(
+cmdoptions
+.
+root_user_action
+(
+)
+)
+        
 index_opts
 =
 cmdoptions
@@ -1590,6 +1780,136 @@ insert_option_group
 self
 .
 cmd_opts
+)
+        
+self
+.
+cmd_opts
+.
+add_option
+(
+            
+"
+-
+-
+report
+"
+            
+dest
+=
+"
+json_report_file
+"
+            
+metavar
+=
+"
+file
+"
+            
+default
+=
+None
+            
+help
+=
+(
+                
+"
+Generate
+a
+JSON
+file
+describing
+what
+pip
+did
+to
+install
+"
+                
+"
+the
+provided
+requirements
+.
+"
+                
+"
+Can
+be
+used
+in
+combination
+with
+-
+-
+dry
+-
+run
+and
+-
+-
+ignore
+-
+installed
+"
+                
+"
+to
+'
+resolve
+'
+the
+requirements
+.
+"
+                
+"
+When
+-
+is
+used
+as
+file
+name
+it
+writes
+to
+stdout
+.
+"
+                
+"
+When
+writing
+to
+stdout
+please
+combine
+with
+the
+-
+-
+quiet
+option
+"
+                
+"
+to
+avoid
+mixing
+pip
+logging
+output
+with
+JSON
+output
+.
+"
+            
+)
+        
 )
     
 with_cleanup
@@ -1647,11 +1967,60 @@ target
 "
 )
         
-cmdoptions
-.
-check_install_build_global
+installing_into_current_environment
+=
+(
+            
+not
 (
 options
+.
+dry_run
+and
+options
+.
+json_report_file
+)
+            
+and
+options
+.
+root_path
+is
+None
+            
+and
+options
+.
+target_dir
+is
+None
+            
+and
+options
+.
+prefix_path
+is
+None
+        
+)
+        
+if
+(
+            
+installing_into_current_environment
+            
+and
+not
+options
+.
+override_externally_managed
+        
+)
+:
+            
+check_externally_managed
+(
 )
         
 upgrade_strategy
@@ -1793,6 +2162,7 @@ target_dir
             
 if
 (
+                
 os
 .
 path
@@ -1804,8 +2174,8 @@ options
 target_dir
 )
 and
+                
 not
-                    
 os
 .
 path
@@ -1816,6 +2186,7 @@ options
 .
 target_dir
 )
+            
 )
 :
                 
@@ -1834,9 +2205,6 @@ a
 directory
 will
 not
-"
-                    
-"
 continue
 .
 "
@@ -1919,25 +2287,13 @@ ignore_requires_python
         
 )
         
-wheel_cache
-=
-WheelCache
-(
-options
-.
-cache_dir
-options
-.
-format_control
-)
-        
-req_tracker
+build_tracker
 =
 self
 .
 enter_context
 (
-get_requirement_tracker
+get_build_tracker
 (
 )
 )
@@ -1981,14 +2337,178 @@ finder
 session
 )
             
-reject_location_related_install_options
+check_legacy_setup_py_options
 (
                 
+options
+reqs
+LegacySetupPyOptionsCheckMode
+.
+INSTALL
+            
+)
+            
+if
+"
+no
+-
+binary
+-
+enable
+-
+wheel
+-
+cache
+"
+in
+options
+.
+features_enabled
+:
+                
+wheel_cache
+=
+WheelCache
+(
+options
+.
+cache_dir
+)
+            
+else
+:
+                
+if
+options
+.
+format_control
+.
+no_binary
+:
+                    
+deprecated
+(
+                        
+reason
+=
+(
+                            
+"
+-
+-
+no
+-
+binary
+currently
+disables
+reading
+from
+"
+                            
+"
+the
+cache
+of
+locally
+built
+wheels
+.
+In
+the
+future
+"
+                            
+"
+-
+-
+no
+-
+binary
+will
+not
+influence
+the
+wheel
+cache
+.
+"
+                        
+)
+                        
+replacement
+=
+"
+to
+use
+the
+-
+-
+no
+-
+cache
+-
+dir
+option
+"
+                        
+feature_flag
+=
+"
+no
+-
+binary
+-
+enable
+-
+wheel
+-
+cache
+"
+                        
+issue
+=
+11453
+                        
+gone_in
+=
+"
+23
+.
+1
+"
+                    
+)
+                
+wheel_cache
+=
+WheelCache
+(
+options
+.
+cache_dir
+options
+.
+format_control
+)
+            
+for
+req
+in
+reqs
+:
+                
+req
+.
+permit_editable_wheels
+=
+True
+            
+reject_location_related_install_options
+(
 reqs
 options
 .
 install_options
-            
 )
             
 preparer
@@ -2006,9 +2526,9 @@ options
 =
 options
                 
-req_tracker
+build_tracker
 =
-req_tracker
+build_tracker
                 
 session
 =
@@ -2023,6 +2543,12 @@ use_user_site
 options
 .
 use_user_site
+                
+verbosity
+=
+self
+.
+verbosity
             
 )
             
@@ -2109,6 +2635,162 @@ target_dir
             
 )
             
+if
+options
+.
+json_report_file
+:
+                
+report
+=
+InstallationReport
+(
+requirement_set
+.
+requirements_to_install
+)
+                
+if
+options
+.
+json_report_file
+=
+=
+"
+-
+"
+:
+                    
+print_json
+(
+data
+=
+report
+.
+to_dict
+(
+)
+)
+                
+else
+:
+                    
+with
+open
+(
+options
+.
+json_report_file
+"
+w
+"
+encoding
+=
+"
+utf
+-
+8
+"
+)
+as
+f
+:
+                        
+json
+.
+dump
+(
+report
+.
+to_dict
+(
+)
+f
+indent
+=
+2
+ensure_ascii
+=
+False
+)
+            
+if
+options
+.
+dry_run
+:
+                
+would_install_items
+=
+sorted
+(
+                    
+(
+r
+.
+metadata
+[
+"
+name
+"
+]
+r
+.
+metadata
+[
+"
+version
+"
+]
+)
+                    
+for
+r
+in
+requirement_set
+.
+requirements_to_install
+                
+)
+                
+if
+would_install_items
+:
+                    
+write_output
+(
+                        
+"
+Would
+install
+%
+s
+"
+                        
+"
+"
+.
+join
+(
+"
+-
+"
+.
+join
+(
+item
+)
+for
+item
+in
+would_install_items
+)
+                    
+)
+                
+return
+SUCCESS
+            
 try
 :
                 
@@ -2144,16 +2826,14 @@ None
             
 protect_pip_from_modification_on_windows
 (
-                
 modifying_pip
 =
 modifying_pip
-            
 )
             
-check_binary_allowed
+check_bdist_wheel_allowed
 =
-get_check_binary_allowed
+get_check_bdist_wheel_allowed
 (
                 
 finder
@@ -2167,6 +2847,7 @@ reqs_to_build
 [
                 
 r
+                
 for
 r
 in
@@ -2181,10 +2862,8 @@ values
 if
 should_build_for_install_command
 (
-                    
 r
-check_binary_allowed
-                
+check_bdist_wheel_allowed
 )
             
 ]
@@ -2212,8 +2891,7 @@ build_options
                 
 global_options
 =
-[
-]
+global_options
             
 )
             
@@ -2229,7 +2907,6 @@ str
 r
 .
 name
-                
 for
 r
 in
@@ -2258,17 +2935,19 @@ for
 {
 }
 which
-use
+is
+required
+to
 "
                     
 "
-PEP
-517
-and
-cannot
-be
-installed
-directly
+install
+pyproject
+.
+toml
+-
+based
+projects
 "
 .
 format
@@ -2303,7 +2982,7 @@ r
 .
 legacy_install_reason
 =
-8368
+LegacyInstallReasonFailedBdistWheel
             
 to_install
 =
@@ -2311,9 +2990,7 @@ resolver
 .
 get_installation_order
 (
-                
 requirement_set
-            
 )
             
 conflicts
@@ -2334,7 +3011,6 @@ options
 .
 ignore_dependencies
 and
-                
 options
 .
 warn_about_conflicts
@@ -2471,9 +3147,9 @@ operator
 .
 attrgetter
 (
-'
+"
 name
-'
+"
 )
 )
             
@@ -2568,8 +3244,8 @@ options
             
 installed_desc
 =
-'
-'
+"
+"
 .
 join
 (
@@ -2583,12 +3259,13 @@ installed_desc
 write_output
 (
                     
-'
+"
 Successfully
 installed
 %
 s
-'
+"
+                    
 installed_desc
                 
 )
@@ -2601,14 +3278,12 @@ error
             
 show_traceback
 =
-(
 self
 .
 verbosity
 >
 =
 1
-)
             
 message
 =
@@ -2616,7 +3291,9 @@ create_os_error_message
 (
                 
 error
+                
 show_traceback
+                
 options
 .
 use_user_site
@@ -2660,6 +3337,17 @@ upgrade
             
 )
         
+if
+options
+.
+root_user_action
+=
+=
+"
+warn
+"
+:
+            
 warn_if_run_as_root
 (
 )
@@ -2702,8 +3390,8 @@ scheme
 =
 get_scheme
 (
-'
-'
+"
+"
 home
 =
 target_temp_dir
@@ -2880,7 +3568,7 @@ logger
 warning
 (
                             
-'
+"
 Target
 directory
 %
@@ -2889,9 +3577,9 @@ already
 exists
 .
 Specify
-'
+"
                             
-'
+"
 -
 -
 upgrade
@@ -2899,7 +3587,7 @@ to
 force
 replacement
 .
-'
+"
                             
 target_item_dir
                         
@@ -2923,7 +3611,7 @@ logger
 warning
 (
                             
-'
+"
 Target
 directory
 %
@@ -2932,9 +3620,9 @@ already
 exists
 and
 is
-'
+"
                             
-'
+"
 a
 link
 .
@@ -2943,21 +3631,21 @@ will
 not
 automatically
 replace
-'
+"
                             
-'
+"
 links
 please
 remove
 if
 replacement
 is
-'
+"
                             
-'
+"
 desired
 .
-'
+"
                             
 target_item_dir
                         
@@ -2997,7 +3685,6 @@ shutil
 .
 move
 (
-                    
 os
 .
 path
@@ -3007,9 +3694,7 @@ join
 lib_dir
 item
 )
-                    
 target_item_dir
-                
 )
     
 def
@@ -3464,13 +4149,13 @@ parts
 def
 get_lib_location_guesses
 (
-        
+    
 user
 :
 bool
 =
 False
-        
+    
 home
 :
 Optional
@@ -3479,7 +4164,7 @@ str
 ]
 =
 None
-        
+    
 root
 :
 Optional
@@ -3488,13 +4173,13 @@ str
 ]
 =
 None
-        
+    
 isolated
 :
 bool
 =
 False
-        
+    
 prefix
 :
 Optional
@@ -3517,8 +4202,8 @@ scheme
 get_scheme
 (
         
-'
-'
+"
+"
         
 user
 =
@@ -3577,12 +4262,12 @@ test_writable_dir
 (
 d
 )
+        
 for
 d
 in
 set
 (
-            
 get_lib_location_guesses
 (
 root
@@ -3940,6 +4625,7 @@ logger
 .
 info
 (
+        
 "
 Defaulting
 to
@@ -3951,12 +4637,13 @@ site
 -
 packages
 "
-                
+        
 "
 is
 not
 writeable
 "
+    
 )
     
 return
@@ -4161,7 +4848,6 @@ line
 .
 format
 (
-                    
 format_options
 (
 location_options
@@ -4170,7 +4856,6 @@ keys
 (
 )
 )
-                
 )
             
 )
@@ -4236,7 +4921,6 @@ instead
 .
 format
 (
-            
 "
 ;
 "
@@ -4245,7 +4929,6 @@ join
 (
 offenders
 )
-        
 )
     
 )
@@ -4410,20 +5093,23 @@ parts
 .
 extend
 (
-[
                 
+[
+                    
 user_option_part
+                    
 "
 or
 "
-                
+                    
 permissions_part
 .
 lower
 (
 )
-            
+                
 ]
+            
 )
         
 else
@@ -4449,7 +5135,9 @@ n
     
 if
 (
+        
 WINDOWS
+        
 and
 error
 .
@@ -4459,12 +5147,13 @@ errno
 errno
 .
 ENOENT
+        
 and
 error
 .
 filename
+        
 and
-            
 len
 (
 error
@@ -4473,6 +5162,7 @@ filename
 )
 >
 260
+    
 )
 :
         

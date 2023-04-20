@@ -1,58 +1,75 @@
 from
+typing
+import
+Tuple
+Union
+from
 .
-euctwfreq
+big5freq
 import
 (
-EUCTW_CHAR_TO_FREQ_ORDER
-EUCTW_TABLE_SIZE
-                        
-EUCTW_TYPICAL_DISTRIBUTION_RATIO
+    
+BIG5_CHAR_TO_FREQ_ORDER
+    
+BIG5_TABLE_SIZE
+    
+BIG5_TYPICAL_DISTRIBUTION_RATIO
 )
 from
 .
 euckrfreq
 import
 (
+    
 EUCKR_CHAR_TO_FREQ_ORDER
+    
 EUCKR_TABLE_SIZE
-                        
+    
 EUCKR_TYPICAL_DISTRIBUTION_RATIO
+)
+from
+.
+euctwfreq
+import
+(
+    
+EUCTW_CHAR_TO_FREQ_ORDER
+    
+EUCTW_TABLE_SIZE
+    
+EUCTW_TYPICAL_DISTRIBUTION_RATIO
 )
 from
 .
 gb2312freq
 import
 (
+    
 GB2312_CHAR_TO_FREQ_ORDER
+    
 GB2312_TABLE_SIZE
-                         
+    
 GB2312_TYPICAL_DISTRIBUTION_RATIO
-)
-from
-.
-big5freq
-import
-(
-BIG5_CHAR_TO_FREQ_ORDER
-BIG5_TABLE_SIZE
-                       
-BIG5_TYPICAL_DISTRIBUTION_RATIO
 )
 from
 .
 jisfreq
 import
 (
+    
 JIS_CHAR_TO_FREQ_ORDER
+    
 JIS_TABLE_SIZE
-                      
+    
 JIS_TYPICAL_DISTRIBUTION_RATIO
 )
+from
+.
+johabfreq
+import
+JOHAB_TO_EUCKR_ORDER_TABLE
 class
 CharDistributionAnalysis
-(
-object
-)
 :
     
 ENOUGH_DATA_THRESHOLD
@@ -80,43 +97,58 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 self
 .
 _char_to_freq_order
+:
+Tuple
+[
+int
+.
+.
+.
+]
 =
-None
+tuple
+(
+)
         
 self
 .
 _table_size
 =
-None
+0
         
 self
 .
 typical_distribution_ratio
 =
-None
+0
+.
+0
         
 self
 .
 _done
 =
-None
+False
         
 self
 .
 _total_chars
 =
-None
+0
         
 self
 .
 _freq_chars
 =
-None
+0
         
 self
 .
@@ -129,6 +161,9 @@ reset
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -166,8 +201,19 @@ feed
 (
 self
 char
+:
+Union
+[
+bytes
+bytearray
+]
 char_len
+:
+int
 )
+-
+>
+None
 :
         
 "
@@ -252,6 +298,9 @@ get_confidence
 (
 self
 )
+-
+>
+float
 :
         
 "
@@ -303,12 +352,12 @@ _freq_chars
             
 r
 =
-(
 self
 .
 _freq_chars
 /
 (
+                
 (
 self
 .
@@ -318,12 +367,11 @@ self
 .
 _freq_chars
 )
-                 
 *
 self
 .
 typical_distribution_ratio
-)
+            
 )
             
 if
@@ -347,6 +395,9 @@ got_enough_data
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -362,8 +413,17 @@ def
 get_order
 (
 self
-byte_str
+_
+:
+Union
+[
+bytes
+bytearray
+]
 )
+-
+>
+int
 :
         
 return
@@ -381,12 +441,13 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-EUCTWDistributionAnalysis
-self
 )
 .
 __init__
@@ -416,7 +477,16 @@ get_order
 (
 self
 byte_str
+:
+Union
+[
+bytes
+bytearray
+]
 )
+-
+>
+int
 :
         
 first_char
@@ -449,9 +519,6 @@ byte_str
 -
 0xA1
         
-else
-:
-            
 return
 -
 1
@@ -467,12 +534,13 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-EUCKRDistributionAnalysis
-self
 )
 .
 __init__
@@ -502,7 +570,16 @@ get_order
 (
 self
 byte_str
+:
+Union
+[
+bytes
+bytearray
+]
 )
+-
+>
+int
 :
         
 first_char
@@ -535,9 +612,106 @@ byte_str
 -
 0xA1
         
-else
+return
+-
+1
+class
+JOHABDistributionAnalysis
+(
+CharDistributionAnalysis
+)
+:
+    
+def
+__init__
+(
+self
+)
+-
+>
+None
+:
+        
+super
+(
+)
+.
+__init__
+(
+)
+        
+self
+.
+_char_to_freq_order
+=
+EUCKR_CHAR_TO_FREQ_ORDER
+        
+self
+.
+_table_size
+=
+EUCKR_TABLE_SIZE
+        
+self
+.
+typical_distribution_ratio
+=
+EUCKR_TYPICAL_DISTRIBUTION_RATIO
+    
+def
+get_order
+(
+self
+byte_str
+:
+Union
+[
+bytes
+bytearray
+]
+)
+-
+>
+int
+:
+        
+first_char
+=
+byte_str
+[
+0
+]
+        
+if
+0x88
+<
+=
+first_char
+<
+0xD4
 :
             
+code
+=
+first_char
+*
+256
++
+byte_str
+[
+1
+]
+            
+return
+JOHAB_TO_EUCKR_ORDER_TABLE
+.
+get
+(
+code
+-
+1
+)
+        
 return
 -
 1
@@ -553,12 +727,13 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-GB2312DistributionAnalysis
-self
 )
 .
 __init__
@@ -588,7 +763,16 @@ get_order
 (
 self
 byte_str
+:
+Union
+[
+bytes
+bytearray
+]
 )
+-
+>
+int
 :
         
 first_char
@@ -632,9 +816,6 @@ second_char
 -
 0xA1
         
-else
-:
-            
 return
 -
 1
@@ -650,12 +831,13 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-Big5DistributionAnalysis
-self
 )
 .
 __init__
@@ -685,7 +867,16 @@ get_order
 (
 self
 byte_str
+:
+Union
+[
+bytes
+bytearray
+]
 )
+-
+>
+int
 :
         
 first_char
@@ -729,9 +920,6 @@ second_char
 +
 63
             
-else
-:
-                
 return
 157
 *
@@ -745,9 +933,6 @@ second_char
 -
 0x40
         
-else
-:
-            
 return
 -
 1
@@ -763,12 +948,13 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-SJISDistributionAnalysis
-self
 )
 .
 __init__
@@ -798,7 +984,16 @@ get_order
 (
 self
 byte_str
+:
+Union
+[
+bytes
+bytearray
+]
 )
+-
+>
+int
 :
         
 first_char
@@ -814,19 +1009,13 @@ byte_str
 ]
         
 if
-(
-first_char
->
-=
 0x81
-)
-and
-(
+<
+=
 first_char
 <
 =
 0x9F
-)
 :
             
 order
@@ -840,19 +1029,13 @@ first_char
 )
         
 elif
-(
-first_char
->
-=
 0xE0
-)
-and
-(
+<
+=
 first_char
 <
 =
 0xEF
-)
 :
             
 order
@@ -907,12 +1090,13 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 super
 (
-EUCJPDistributionAnalysis
-self
 )
 .
 __init__
@@ -942,7 +1126,16 @@ get_order
 (
 self
 byte_str
+:
+Union
+[
+bytes
+bytearray
+]
 )
+-
+>
+int
 :
         
 char
@@ -973,11 +1166,8 @@ byte_str
 1
 ]
 -
-0xa1
+0xA1
         
-else
-:
-            
 return
 -
 1

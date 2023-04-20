@@ -1292,7 +1292,9 @@ bool
 (
 http_response
 .
-getheader
+headers
+.
+get
 (
 "
 Retry
