@@ -8,7 +8,9 @@ const
 NetworkThrottleManager
 }
 =
-require
+ChromeUtils
+.
+importESModule
 (
 "
 resource
@@ -21,9 +23,11 @@ shared
 /
 webconsole
 /
-throttle
+Throttle
 .
-js
+sys
+.
+mjs
 "
 )
 ;
