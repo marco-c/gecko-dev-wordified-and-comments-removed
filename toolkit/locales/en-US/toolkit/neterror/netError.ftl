@@ -1090,7 +1090,7 @@ heuristic
 =
 DNS
 over
-HTTPs
+HTTPS
 has
 been
 disabled
