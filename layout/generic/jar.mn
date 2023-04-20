@@ -71,17 +71,3 @@ image
 .
 png
 )
-res
-/
-loading
--
-image
-.
-png
-(
-loading
--
-image
-.
-png
-)
