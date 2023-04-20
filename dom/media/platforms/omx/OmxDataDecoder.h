@@ -46,6 +46,13 @@ h
 #
 include
 "
+PerformanceRecorder
+.
+h
+"
+#
+include
+"
 PlatformDecoderModule
 .
 h
@@ -579,6 +586,12 @@ RefPtr
 MediaDataHelper
 >
 mMediaDataHelper
+;
+PerformanceRecorderMulti
+<
+DecodeStage
+>
+mPerformanceRecorder
 ;
 }
 ;
