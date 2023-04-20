@@ -1,10 +1,6 @@
 #
 include
 "
-mozilla
-/
-dom
-/
 StreamUtils
 .
 h
