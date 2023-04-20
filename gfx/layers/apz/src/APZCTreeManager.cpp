@@ -9380,6 +9380,12 @@ AddInputBlockCallback
 mResult
 .
 mInputBlockId
+{
+mResult
+.
+GetStatus
+(
+)
 std
 :
 :
@@ -9387,6 +9393,7 @@ move
 (
 aCallback
 )
+}
 )
 ;
 }
@@ -13789,10 +13796,10 @@ AddInputBlockCallback
 (
 uint64_t
 aInputBlockId
-InputBlockCallback
+InputBlockCallbackInfo
 &
 &
-aCallback
+aCallbackInfo
 )
 {
 APZThreadUtils
@@ -13813,7 +13820,7 @@ std
 :
 move
 (
-aCallback
+aCallbackInfo
 )
 )
 ;

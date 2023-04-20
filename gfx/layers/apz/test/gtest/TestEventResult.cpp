@@ -371,6 +371,12 @@ AddInputBlockCallback
 result
 .
 mInputBlockId
+{
+result
+.
+GetStatus
+(
+)
 [
 &
 ]
@@ -395,6 +401,7 @@ delayedAnswer
 =
 answer
 ;
+}
 }
 )
 ;
@@ -2097,6 +2104,12 @@ AddInputBlockCallback
 result
 .
 mInputBlockId
+{
+result
+.
+GetStatus
+(
+)
 [
 &
 ]
@@ -2121,6 +2134,7 @@ delayedAnswer
 =
 answer
 ;
+}
 }
 )
 ;
@@ -2257,6 +2271,12 @@ AddInputBlockCallback
 result
 .
 mInputBlockId
+{
+result
+.
+GetStatus
+(
+)
 [
 &
 ]
@@ -2281,6 +2301,7 @@ delayedAnswer
 =
 answer
 ;
+}
 }
 )
 ;
@@ -2451,6 +2472,12 @@ AddInputBlockCallback
 result
 .
 mInputBlockId
+{
+result
+.
+GetStatus
+(
+)
 [
 &
 ]
@@ -2475,6 +2502,7 @@ delayedAnswer
 =
 answer
 ;
+}
 }
 )
 ;

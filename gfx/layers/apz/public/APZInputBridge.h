@@ -378,9 +378,9 @@ return
 GetStatus
 (
 )
+!
 =
-=
-nsEventStatus_eConsumeDoDefault
+nsEventStatus_eConsumeNoDefault
 &
 &
 !
