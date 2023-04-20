@@ -2269,6 +2269,7 @@ TableRowsCollection
 :
 NodeWillBeDestroyed
 (
+const
 nsINode
 *
 aNode

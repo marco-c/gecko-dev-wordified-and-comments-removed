@@ -98,6 +98,7 @@ StyleSheetList
 :
 NodeWillBeDestroyed
 (
+const
 nsINode
 *
 aNode

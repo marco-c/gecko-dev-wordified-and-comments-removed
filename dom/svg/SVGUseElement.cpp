@@ -1188,6 +1188,7 @@ SVGUseElement
 :
 NodeWillBeDestroyed
 (
+const
 nsINode
 *
 aNode

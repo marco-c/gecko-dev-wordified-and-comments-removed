@@ -278,6 +278,7 @@ nsMenuGroupOwnerX
 :
 NodeWillBeDestroyed
 (
+const
 nsINode
 *
 aNode

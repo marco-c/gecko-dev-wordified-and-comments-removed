@@ -1255,6 +1255,7 @@ nsAttributeTextNode
 :
 NodeWillBeDestroyed
 (
+const
 nsINode
 *
 aNode
