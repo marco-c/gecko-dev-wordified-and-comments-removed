@@ -125,6 +125,15 @@ nsIRequest
 h
 "
 ;
+using
+TRRSkippedReason
+from
+"
+nsITRRSkipReason
+.
+h
+"
+;
 namespace
 mozilla
 {
@@ -227,6 +236,9 @@ isProxyUsed
 ;
 TRRMode
 effectiveTRRMode
+;
+TRRSkippedReason
+trrSkipReason
 ;
 }
 ;

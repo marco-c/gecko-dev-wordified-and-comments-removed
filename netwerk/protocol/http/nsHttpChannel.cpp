@@ -40090,6 +40090,15 @@ GetEffectiveTRRMode
 mEffectiveTRRMode
 )
 ;
+r
+-
+>
+GetTrrSkipReason
+(
+&
+mTRRSkipReason
+)
+;
 }
 LOG
 (
