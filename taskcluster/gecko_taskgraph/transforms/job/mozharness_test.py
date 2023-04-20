@@ -2427,6 +2427,26 @@ win10
 64
 "
 )
+or
+job
+[
+"
+worker
+-
+type
+"
+]
+.
+startswith
+(
+            
+"
+win11
+-
+64
+"
+        
+)
 :
             
 worker
