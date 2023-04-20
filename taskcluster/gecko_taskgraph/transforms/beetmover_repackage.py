@@ -508,6 +508,12 @@ mar
 signing
 "
         
+attribution_name
+=
+"
+attribution
+"
+        
 if
 job
 .
@@ -561,6 +567,14 @@ mar_signing_name
 mar
 -
 signing
+-
+l10n
+"
+            
+attribution_name
+=
+"
+attribution
 -
 l10n
 "
@@ -687,6 +701,22 @@ signing
 upstream_deps
 [
 repackage_signing_name
+]
+        
+if
+attribution_name
+in
+upstream_deps
+:
+            
+dependencies
+[
+attribution_name
+]
+=
+upstream_deps
+[
+attribution_name
 ]
         
 attributes
