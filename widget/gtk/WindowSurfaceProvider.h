@@ -104,6 +104,9 @@ namespace
 widget
 {
 class
+GtkCompositorWidget
+;
+class
 WindowSurfaceProvider
 final
 {
@@ -131,6 +134,14 @@ RefPtr
 nsWindow
 >
 aWidget
+)
+;
+void
+Initialize
+(
+GtkCompositorWidget
+*
+aCompositorWidget
 )
 ;
 #
@@ -240,6 +251,12 @@ RefPtr
 nsWindow
 >
 mWidget
+;
+GtkCompositorWidget
+*
+mCompositorWidget
+=
+nullptr
 ;
 #
 endif
