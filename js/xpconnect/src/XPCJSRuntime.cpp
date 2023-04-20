@@ -16459,6 +16459,12 @@ Get
 obj
 )
 ;
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 nsCOMPtr
 <
 nsIXPCScriptable
