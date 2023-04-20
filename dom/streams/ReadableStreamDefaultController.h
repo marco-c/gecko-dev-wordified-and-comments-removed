@@ -596,9 +596,6 @@ mStrategySizeAlgorithm
 ;
 }
 ;
-namespace
-streams_abstract
-{
 MOZ_CAN_RUN_SCRIPT
 void
 SetUpReadableStreamDefaultController
@@ -781,7 +778,6 @@ ReadableStreamDefaultController
 aController
 )
 ;
-}
 }
 #
 endif

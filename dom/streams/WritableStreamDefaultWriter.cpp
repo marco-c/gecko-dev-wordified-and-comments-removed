@@ -152,10 +152,6 @@ mozilla
 :
 dom
 {
-using
-namespace
-streams_abstract
-;
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 WritableStreamDefaultWriter
@@ -456,9 +452,6 @@ forget
 )
 ;
 }
-namespace
-streams_abstract
-{
 Nullable
 <
 double
@@ -559,7 +552,6 @@ GetDesiredSize
 (
 )
 ;
-}
 }
 Nullable
 <
@@ -866,9 +858,6 @@ aRv
 )
 ;
 }
-namespace
-streams_abstract
-{
 void
 WritableStreamDefaultWriterRelease
 (
@@ -1005,7 +994,6 @@ nullptr
 )
 ;
 }
-}
 void
 WritableStreamDefaultWriter
 :
@@ -1060,9 +1048,6 @@ thisRefPtr
 )
 ;
 }
-namespace
-streams_abstract
-{
 already_AddRefed
 <
 Promise
@@ -1399,7 +1384,6 @@ forget
 )
 ;
 }
-}
 already_AddRefed
 <
 Promise
@@ -1458,9 +1442,6 @@ aRv
 )
 ;
 }
-namespace
-streams_abstract
-{
 void
 SetUpWritableStreamDefaultWriter
 (
@@ -2340,6 +2321,5 @@ aWriter
 aRv
 )
 ;
-}
 }
 }

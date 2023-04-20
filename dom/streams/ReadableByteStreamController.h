@@ -1366,9 +1366,6 @@ default
 ;
 }
 ;
-namespace
-streams_abstract
-{
 MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamControllerRespond
@@ -1604,7 +1601,6 @@ ErrorResult
 aRv
 )
 ;
-}
 }
 #
 endif

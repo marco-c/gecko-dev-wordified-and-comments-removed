@@ -316,10 +316,6 @@ mozilla
 :
 dom
 {
-using
-namespace
-streams_abstract
-;
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 ReadableByteStreamController
@@ -560,9 +556,6 @@ clear
 )
 ;
 }
-namespace
-streams_abstract
-{
 already_AddRefed
 <
 ReadableStreamBYOBRequest
@@ -772,7 +765,6 @@ forget
 )
 ;
 }
-}
 already_AddRefed
 <
 ReadableStreamBYOBRequest
@@ -935,9 +927,6 @@ aGivenProto
 )
 ;
 }
-namespace
-streams_abstract
-{
 static
 void
 ReadableByteStreamControllerInvalidateBYOBRequest
@@ -1379,7 +1368,6 @@ aRv
 )
 ;
 }
-}
 void
 ReadableByteStreamController
 :
@@ -1459,9 +1447,6 @@ aRv
 )
 ;
 }
-namespace
-streams_abstract
-{
 void
 ReadableByteStreamControllerEnqueueChunkToQueue
 (
@@ -3658,7 +3643,6 @@ aRv
 )
 ;
 }
-}
 void
 ReadableByteStreamController
 :
@@ -3993,9 +3977,6 @@ forget
 )
 ;
 }
-namespace
-streams_abstract
-{
 void
 ReadableByteStreamControllerHandleQueueDrain
 (
@@ -4090,7 +4071,6 @@ aController
 aRv
 )
 ;
-}
 }
 void
 ReadableByteStreamController
@@ -4377,9 +4357,6 @@ firstPendingPullInto
 ;
 }
 }
-namespace
-streams_abstract
-{
 already_AddRefed
 <
 PullIntoDescriptor
@@ -7589,6 +7566,5 @@ autoAllocateChunkSize
 aRv
 )
 ;
-}
 }
 }

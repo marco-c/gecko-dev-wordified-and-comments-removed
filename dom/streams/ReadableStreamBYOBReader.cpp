@@ -133,10 +133,6 @@ mozilla
 :
 dom
 {
-using
-namespace
-streams_abstract
-;
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_INHERITED
 (
 ReadableStreamBYOBReader
@@ -734,9 +730,6 @@ NS_INTERFACE_MAP_END_INHERITING
 (
 ReadIntoRequest
 )
-namespace
-streams_abstract
-{
 void
 ReadableStreamBYOBReaderRead
 (
@@ -883,7 +876,6 @@ aReadIntoRequest
 aRv
 )
 ;
-}
 }
 already_AddRefed
 <
@@ -1164,9 +1156,6 @@ forget
 )
 ;
 }
-namespace
-streams_abstract
-{
 void
 ReadableStreamBYOBReaderErrorReadIntoRequests
 (
@@ -1350,7 +1339,6 @@ aRv
 )
 ;
 }
-}
 void
 ReadableStreamBYOBReader
 :
@@ -1423,9 +1411,6 @@ aRv
 )
 ;
 }
-namespace
-streams_abstract
-{
 already_AddRefed
 <
 ReadableStreamBYOBReader
@@ -1485,6 +1470,5 @@ forget
 (
 )
 ;
-}
 }
 }

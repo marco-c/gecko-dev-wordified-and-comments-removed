@@ -401,9 +401,6 @@ mWritable
 ;
 }
 ;
-namespace
-streams_abstract
-{
 MOZ_CAN_RUN_SCRIPT
 void
 TransformStreamErrorWritableAndUnblockWrite
@@ -456,7 +453,6 @@ ErrorResult
 aRv
 )
 ;
-}
 }
 #
 endif

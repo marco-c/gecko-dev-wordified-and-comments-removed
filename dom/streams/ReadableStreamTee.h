@@ -316,9 +316,6 @@ default
 ;
 }
 ;
-namespace
-streams_abstract
-{
 MOZ_CAN_RUN_SCRIPT
 void
 ReadableByteStreamTee
@@ -343,7 +340,6 @@ ErrorResult
 aRv
 )
 ;
-}
 }
 #
 endif

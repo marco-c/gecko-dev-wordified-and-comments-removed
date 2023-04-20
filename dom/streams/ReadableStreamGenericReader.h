@@ -281,9 +281,6 @@ mStream
 ;
 }
 ;
-namespace
-streams_abstract
-{
 bool
 ReadableStreamReaderGenericInitialize
 (
@@ -306,7 +303,6 @@ ErrorResult
 aRv
 )
 ;
-}
 }
 #
 endif

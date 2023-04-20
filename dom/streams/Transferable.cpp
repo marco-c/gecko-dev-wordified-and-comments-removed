@@ -221,10 +221,6 @@ mozilla
 :
 dom
 {
-using
-namespace
-streams_abstract
-;
 static
 void
 PackAndPostMessage
