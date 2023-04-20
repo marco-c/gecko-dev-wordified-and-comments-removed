@@ -284,6 +284,7 @@ return
 promises
 ;
 }
+static
 void
 AddWindowTabSizes
 (
