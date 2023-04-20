@@ -8,12 +8,6 @@ Result
 }
 ;
 use
-uniffi_meta
-:
-:
-Checksum
-;
-use
 super
 :
 :
@@ -28,7 +22,7 @@ derive
 (
 Debug
 Clone
-Checksum
+Hash
 )
 ]
 pub
@@ -76,7 +70,7 @@ derive
 Debug
 Clone
 Copy
-Checksum
+Hash
 )
 ]
 pub

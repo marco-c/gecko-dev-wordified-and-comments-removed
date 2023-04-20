@@ -37,12 +37,6 @@ heck
 ToUpperCamelCase
 ;
 use
-uniffi_meta
-:
-:
-Checksum
-;
-use
 super
 :
 :
@@ -88,7 +82,7 @@ Debug
 Clone
 Eq
 PartialEq
-Checksum
+Hash
 Ord
 PartialOrd
 )
