@@ -60,6 +60,11 @@ MPL
 website
 -
 name
+hbox
+.
+website
+-
+status
 {
 overflow
 :
@@ -124,6 +129,7 @@ height
 35px
 ;
 }
+menulist
 .
 website
 -
