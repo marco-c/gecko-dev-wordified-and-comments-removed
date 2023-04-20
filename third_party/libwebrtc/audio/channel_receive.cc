@@ -3675,14 +3675,6 @@ rtp_stats
 .
 jitter
 ;
-stats
-.
-rttMs
-=
-GetRTT
-(
-)
-;
 if
 (
 statistician
