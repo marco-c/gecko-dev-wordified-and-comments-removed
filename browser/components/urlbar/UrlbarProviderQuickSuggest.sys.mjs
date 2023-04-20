@@ -5599,9 +5599,7 @@ UrlbarPrefs
 get
 (
 "
-merino
-.
-clientVariants
+merinoClientVariants
 "
 )
 ;
@@ -5633,9 +5631,7 @@ UrlbarPrefs
 get
 (
 "
-merino
-.
-providers
+merinoProviders
 "
 )
 ;
