@@ -13418,6 +13418,7 @@ AppConstants
 MOZ_UPDATE_AGENT
 task
 :
+async
 (
 )
 =
@@ -13471,6 +13472,7 @@ disabledForTesting
 {
 try
 {
+await
 lazy
 .
 BackgroundUpdate
@@ -13507,6 +13509,7 @@ e
 )
 ;
 }
+await
 lazy
 .
 BackgroundUpdate
