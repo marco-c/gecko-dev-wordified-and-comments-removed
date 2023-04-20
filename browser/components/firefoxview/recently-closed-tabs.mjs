@@ -423,6 +423,7 @@ event
 {
 if
 (
+(
 event
 .
 type
@@ -431,6 +432,13 @@ type
 "
 click
 "
+&
+&
+!
+event
+.
+altKey
+)
 |
 |
 (
