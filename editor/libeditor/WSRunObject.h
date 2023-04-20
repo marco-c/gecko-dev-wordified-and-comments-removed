@@ -5457,7 +5457,11 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 static
+Result
+<
+CaretPoint
 nsresult
+>
 DeletePreviousWhiteSpace
 (
 HTMLEditor
@@ -5467,6 +5471,10 @@ const
 EditorDOMPoint
 &
 aPoint
+const
+Element
+&
+aEditingHost
 )
 ;
 [
@@ -5476,7 +5484,11 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 static
+Result
+<
+CaretPoint
 nsresult
+>
 DeleteInclusiveNextWhiteSpace
 (
 HTMLEditor
@@ -5486,6 +5498,10 @@ const
 EditorDOMPoint
 &
 aPoint
+const
+Element
+&
+aEditingHost
 )
 ;
 [
