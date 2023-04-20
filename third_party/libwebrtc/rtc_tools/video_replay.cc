@@ -1987,7 +1987,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 receive_streams
@@ -2513,7 +2513,7 @@ file_passthrough
 )
 )
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -2697,7 +2697,7 @@ get
 (
 )
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder

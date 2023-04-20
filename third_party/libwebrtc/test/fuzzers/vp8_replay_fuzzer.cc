@@ -63,7 +63,7 @@ StreamState
 (
 )
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -78,7 +78,7 @@ transport
 )
 )
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -173,7 +173,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

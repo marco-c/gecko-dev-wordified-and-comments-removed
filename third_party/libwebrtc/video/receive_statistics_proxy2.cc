@@ -4172,7 +4172,7 @@ last_estimated_playout_ntp_timestamp_ms_
 elapsed_ms
 ;
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats

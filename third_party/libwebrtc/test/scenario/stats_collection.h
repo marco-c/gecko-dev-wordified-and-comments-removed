@@ -418,7 +418,7 @@ public
 void
 AddStats
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats

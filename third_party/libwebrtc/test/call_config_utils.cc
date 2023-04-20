@@ -23,7 +23,7 @@ webrtc
 namespace
 test
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -47,7 +47,7 @@ json
 auto
 receive_config
 =
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -70,7 +70,7 @@ decoders
 ]
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -606,7 +606,7 @@ Value
 GenerateVideoReceiveStreamJsonConfig
 (
 const
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

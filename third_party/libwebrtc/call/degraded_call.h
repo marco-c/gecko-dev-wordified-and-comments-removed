@@ -422,11 +422,11 @@ send_stream
 )
 override
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 CreateVideoReceiveStream
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -437,7 +437,7 @@ override
 void
 DestroyVideoReceiveStream
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 receive_stream
 )
@@ -557,7 +557,7 @@ override
 void
 OnLocalSsrcUpdated
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 &
 stream
 uint32_t

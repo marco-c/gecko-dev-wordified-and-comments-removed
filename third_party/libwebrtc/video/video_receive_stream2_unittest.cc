@@ -1480,7 +1480,7 @@ renderer
 &
 fake_renderer_
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -1528,7 +1528,7 @@ aMljiA
 }
 )
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -1573,7 +1573,7 @@ absl
 :
 optional
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 RecordingState
@@ -1727,7 +1727,7 @@ MockVideoDecoderFactory
 >
 mock_h264_decoder_factory_
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -4032,7 +4032,7 @@ video_receive_stream_
 >
 SetAndGetRecordingState
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 RecordingState
@@ -4122,7 +4122,7 @@ video_receive_stream_
 >
 SetAndGetRecordingState
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 RecordingState
@@ -4143,7 +4143,7 @@ Stop
 (
 )
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 RecordingState
@@ -4154,7 +4154,7 @@ video_receive_stream_
 >
 SetAndGetRecordingState
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 RecordingState
@@ -4531,7 +4531,7 @@ video_receive_stream_
 >
 SetAndGetRecordingState
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 RecordingState
@@ -4679,7 +4679,7 @@ video_receive_stream_
 >
 SetAndGetRecordingState
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 RecordingState

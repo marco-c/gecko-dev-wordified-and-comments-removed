@@ -527,7 +527,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 &
@@ -800,7 +800,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1204,7 +1204,7 @@ i
 ;
 for
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

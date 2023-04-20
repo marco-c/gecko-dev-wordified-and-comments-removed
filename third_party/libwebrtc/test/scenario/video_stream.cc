@@ -2174,7 +2174,7 @@ framerate
 ;
 }
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -2188,7 +2188,7 @@ feedback_transport
 VideoDecoderFactory
 *
 decoder_factory
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -2210,7 +2210,7 @@ uint32_t
 rtx_ssrc
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -3821,7 +3821,7 @@ InternalDecoderFactory
 )
 ;
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -4325,7 +4325,7 @@ Stop
 )
 ;
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -4346,7 +4346,7 @@ empty
 )
 )
 return
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats

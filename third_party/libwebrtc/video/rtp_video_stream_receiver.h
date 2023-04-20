@@ -509,7 +509,7 @@ PacketRouter
 *
 packet_router
 const
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -572,7 +572,7 @@ PacketRouter
 *
 packet_router
 const
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1331,7 +1331,7 @@ const
 clock_
 ;
 const
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

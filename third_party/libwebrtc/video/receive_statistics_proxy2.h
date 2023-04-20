@@ -266,7 +266,7 @@ ReceiveStatisticsProxy
 )
 override
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -695,7 +695,7 @@ main_thread_
 )
 ;
 mutable
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats

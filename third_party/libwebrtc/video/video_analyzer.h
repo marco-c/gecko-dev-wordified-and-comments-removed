@@ -294,7 +294,7 @@ stream
 void
 SetReceiveStream
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 stream
 )
@@ -964,7 +964,7 @@ VideoSendStream
 *
 send_stream_
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 receive_stream_
 ;

@@ -1471,7 +1471,7 @@ ConfigureReceiverRtp
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -2079,7 +2079,7 @@ sp
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -2116,7 +2116,7 @@ WebRtcVideoReceiveStream
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 &
 stream
 (
@@ -2373,7 +2373,7 @@ stream_params_
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 stream_
 ;
@@ -2384,7 +2384,7 @@ default_stream_
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

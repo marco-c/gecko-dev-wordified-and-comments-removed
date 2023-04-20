@@ -388,7 +388,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 &
@@ -431,7 +431,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

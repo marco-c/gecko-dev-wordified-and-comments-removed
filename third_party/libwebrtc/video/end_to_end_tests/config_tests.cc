@@ -501,7 +501,7 @@ ConfigEndToEndTest
 VerifyDefaultVideoReceiveConfigParameters
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

@@ -1116,7 +1116,7 @@ VideoReceiveStatsCollector
 :
 AddStats
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats

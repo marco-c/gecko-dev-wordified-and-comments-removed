@@ -4666,7 +4666,7 @@ Seconds
 )
 ;
 }
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats

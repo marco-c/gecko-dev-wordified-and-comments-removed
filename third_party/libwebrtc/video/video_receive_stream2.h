@@ -392,7 +392,7 @@ public
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 public
 rtc
 :
@@ -437,7 +437,7 @@ num_cpu_cores
 PacketRouter
 *
 packet_router
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -606,7 +606,7 @@ transport_cc
 webrtc
 :
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -959,7 +959,7 @@ TransportAdapter
 transport_adapter_
 ;
 const
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

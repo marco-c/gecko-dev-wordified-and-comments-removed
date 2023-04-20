@@ -187,7 +187,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 receive_streams
@@ -239,7 +239,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -261,7 +261,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -289,7 +289,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

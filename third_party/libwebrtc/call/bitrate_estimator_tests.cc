@@ -880,7 +880,7 @@ video_encoder_config
 ;
 receive_config_
 =
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1216,7 +1216,7 @@ Start
 (
 )
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -1473,7 +1473,7 @@ VideoSendStream
 *
 send_stream_
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 video_receive_stream_
 ;
@@ -1524,7 +1524,7 @@ DirectTransport
 >
 receive_transport_
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

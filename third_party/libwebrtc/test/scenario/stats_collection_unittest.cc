@@ -334,7 +334,7 @@ AddStats
 receive_stats
 )
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats

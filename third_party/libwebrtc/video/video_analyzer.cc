@@ -907,7 +907,7 @@ VideoAnalyzer
 :
 SetReceiveStream
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 stream
 )
@@ -2538,7 +2538,7 @@ receive_stream_
 nullptr
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats

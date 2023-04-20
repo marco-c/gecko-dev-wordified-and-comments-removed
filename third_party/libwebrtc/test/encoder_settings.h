@@ -150,7 +150,7 @@ VideoEncoderConfig
 configuration
 )
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder
@@ -167,7 +167,7 @@ string
 payload_name
 )
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Decoder

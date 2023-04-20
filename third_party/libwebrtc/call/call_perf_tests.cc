@@ -702,7 +702,7 @@ receive_stream_
 )
 return
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -847,7 +847,7 @@ sync_offset_ms
 void
 set_receive_stream
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 receive_stream
 )
@@ -917,7 +917,7 @@ first_time_in_sync_
 -
 1
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 receive_stream_
 =
@@ -2875,7 +2875,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -3701,7 +3701,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -4055,7 +4055,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 &
@@ -4096,7 +4096,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -4741,7 +4741,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -4825,7 +4825,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 &
@@ -6066,7 +6066,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 &
@@ -6108,7 +6108,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

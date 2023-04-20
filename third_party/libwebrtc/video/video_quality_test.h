@@ -520,7 +520,7 @@ transport
 void
 StartEncodedFrameLogs
 (
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 stream
 )
@@ -675,7 +675,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -687,7 +687,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 thumbnail_receive_streams_

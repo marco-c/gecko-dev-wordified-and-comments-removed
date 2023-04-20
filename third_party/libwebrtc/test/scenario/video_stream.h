@@ -420,7 +420,7 @@ Stop
 (
 )
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -464,7 +464,7 @@ std
 :
 vector
 <
-VideoReceiveStream
+VideoReceiveStreamInterface
 *
 >
 receive_streams_

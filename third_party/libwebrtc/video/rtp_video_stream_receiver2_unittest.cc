@@ -1376,7 +1376,7 @@ packet
 }
 protected
 :
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1384,7 +1384,7 @@ CreateConfig
 (
 )
 {
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config
@@ -1457,7 +1457,7 @@ test
 ScopedKeyValueConfig
 field_trials_
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Config

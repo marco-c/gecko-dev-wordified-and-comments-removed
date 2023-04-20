@@ -229,7 +229,7 @@ ReceiveStatisticsProxy
 =
 default
 ;
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
@@ -649,7 +649,7 @@ mutex_
 )
 ;
 mutable
-VideoReceiveStream
+VideoReceiveStreamInterface
 :
 :
 Stats
