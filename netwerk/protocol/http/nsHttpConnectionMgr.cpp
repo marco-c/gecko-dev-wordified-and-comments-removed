@@ -5959,7 +5959,7 @@ ent
 >
 AppendPendingQForFocusedWindow
 (
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 pendingQ
 maxFocusedWindowConnections
 )
@@ -5978,7 +5978,7 @@ ent
 >
 AppendPendingQForNonFocusedWindows
 (
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 pendingQ
 availableConnections
 )
@@ -6008,7 +6008,7 @@ ent
 >
 AppendPendingQForFocusedWindow
 (
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 pendingQ
 maxFocusedWindowConnections
 )
@@ -6023,7 +6023,7 @@ ent
 >
 AppendPendingQForNonFocusedWindows
 (
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 remainingPendingQ
 maxNonFocusedWindowConnections
 )
@@ -6045,7 +6045,7 @@ ent
 >
 AppendPendingQForFocusedWindow
 (
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 pendingQ
 maxNonFocusedWindowConnections
 -
@@ -6074,7 +6074,7 @@ ent
 >
 AppendPendingQForNonFocusedWindows
 (
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 remainingPendingQ
 maxFocusedWindowConnections
 -
@@ -14758,7 +14758,7 @@ nsresult
 nsHttpConnectionMgr
 :
 :
-UpdateCurrentTopBrowsingContextId
+UpdateCurrentBrowserId
 (
 uint64_t
 aId
@@ -14783,7 +14783,7 @@ PostEvent
 nsHttpConnectionMgr
 :
 :
-OnMsgUpdateCurrentTopBrowsingContextId
+OnMsgUpdateCurrentBrowserId
 0
 idWrapper
 )
@@ -15035,7 +15035,7 @@ false
 .
 Get
 (
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 )
 ;
 au
@@ -15060,7 +15060,7 @@ true
 .
 Get
 (
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 )
 ;
 at
@@ -15200,7 +15200,7 @@ tabId
 aTrans
 -
 >
-TopBrowsingContextId
+BrowserId
 (
 )
 ;
@@ -15286,7 +15286,7 @@ tabId
 tabId
 =
 =
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 throttled
 )
 )
@@ -15303,7 +15303,7 @@ if
 tabId
 =
 =
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 )
 {
 mActiveTabTransactionsExist
@@ -15378,7 +15378,7 @@ tabId
 aTrans
 -
 >
-TopBrowsingContextId
+BrowserId
 (
 )
 ;
@@ -15388,7 +15388,7 @@ forActiveTab
 tabId
 =
 =
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 ;
 bool
 throttled
@@ -15705,7 +15705,7 @@ true
 .
 Get
 (
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 )
 )
 ;
@@ -15939,7 +15939,7 @@ tabId
 aTrans
 -
 >
-TopBrowsingContextId
+BrowserId
 (
 )
 ;
@@ -15949,7 +15949,7 @@ forActiveTab
 tabId
 =
 =
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 ;
 bool
 throttled
@@ -16269,7 +16269,7 @@ ent
 >
 PendingQueueLengthForWindow
 (
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 )
 >
 0
@@ -17139,7 +17139,7 @@ GetKey
 )
 =
 =
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 )
 {
 continue
@@ -17202,7 +17202,7 @@ void
 nsHttpConnectionMgr
 :
 :
-NotifyConnectionOfBrowsingContextIdChange
+NotifyConnectionOfBrowserIdChange
 (
 uint64_t
 previousId
@@ -17345,7 +17345,7 @@ false
 .
 Get
 (
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 )
 ;
 addConnectionHelper
@@ -17379,7 +17379,7 @@ true
 .
 Get
 (
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 )
 ;
 addConnectionHelper
@@ -17400,9 +17400,9 @@ connections
 conn
 -
 >
-TopBrowsingContextIdChanged
+CurrentBrowserIdChanged
 (
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 )
 ;
 }
@@ -17411,7 +17411,7 @@ void
 nsHttpConnectionMgr
 :
 :
-OnMsgUpdateCurrentTopBrowsingContextId
+OnMsgUpdateCurrentBrowserId
 (
 int32_t
 aLoading
@@ -17452,7 +17452,7 @@ GetValue
 ;
 if
 (
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 =
 =
 id
@@ -17469,9 +17469,9 @@ mActiveTabTransactionsExist
 uint64_t
 previousId
 =
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 ;
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 =
 id
 ;
@@ -17485,7 +17485,7 @@ ActiveTabPriority
 )
 )
 {
-NotifyConnectionOfBrowsingContextIdChange
+NotifyConnectionOfBrowserIdChange
 (
 previousId
 )
@@ -17498,7 +17498,7 @@ LOG
 nsHttpConnectionMgr
 :
 :
-OnMsgUpdateCurrentTopBrowsingContextId
+OnMsgUpdateCurrentBrowserId
 "
 "
 id
@@ -17510,7 +17510,7 @@ PRIx64
 \
 n
 "
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 )
 )
 ;
@@ -17535,7 +17535,7 @@ false
 .
 Get
 (
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 )
 ;
 mActiveTabUnthrottledTransactionsExist
@@ -17559,7 +17559,7 @@ true
 .
 Get
 (
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 )
 ;
 }

@@ -82,7 +82,7 @@ ipc
 :
 :
 IPCResult
-RecvUpdateCurrentTopBrowsingContextId
+RecvUpdateCurrentBrowserId
 (
 const
 uint64_t

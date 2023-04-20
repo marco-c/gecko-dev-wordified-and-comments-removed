@@ -78,7 +78,7 @@ ActiveTabPriority
 transaction
 -
 >
-TopBrowsingContextId
+BrowserId
 (
 )
 :
@@ -218,7 +218,7 @@ Transaction
 )
 -
 >
-TopBrowsingContextId
+BrowserId
 (
 )
 )

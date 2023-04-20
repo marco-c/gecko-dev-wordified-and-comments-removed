@@ -308,7 +308,7 @@ NS_IMETHODIMP
 NullHttpChannel
 :
 :
-GetTopBrowsingContextId
+GetBrowserId
 (
 uint64_t
 *
@@ -322,7 +322,7 @@ NS_IMETHODIMP
 NullHttpChannel
 :
 :
-SetTopBrowsingContextId
+SetBrowserId
 (
 uint64_t
 )

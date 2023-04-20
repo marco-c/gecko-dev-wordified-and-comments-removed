@@ -178,7 +178,7 @@ stop
 function
 createHttpRequest
 (
-windowId
+browserId
 requestId
 priority
 )
@@ -198,9 +198,9 @@ uri
 ;
 chan
 .
-topBrowsingContextId
+browserId
 =
-windowId
+browserId
 ;
 chan
 .
@@ -473,7 +473,7 @@ function
 check_response_id
 (
 responses
-windowId
+browserId
 )
 {
 for
@@ -522,11 +522,11 @@ id
 id
 +
 "
-windowId
+browserId
 =
 "
 +
-windowId
+browserId
 )
 ;
 Assert
@@ -534,7 +534,7 @@ Assert
 equal
 (
 id
-windowId
+browserId
 )
 ;
 }

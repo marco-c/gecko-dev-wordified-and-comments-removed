@@ -121,7 +121,7 @@ TryActivating
 )
 ;
 void
-TopBrowsingContextIdChanged
+CurrentBrowserIdChanged
 (
 uint64_t
 id
@@ -313,13 +313,13 @@ uint8_t
 mFlatResponseHeaders
 ;
 uint64_t
-mTransactionTabId
+mTransactionBrowserId
 {
 0
 }
 ;
 uint64_t
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 ;
 uint8_t
 mPriorityUrgency

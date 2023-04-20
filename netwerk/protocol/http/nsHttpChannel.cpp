@@ -7050,7 +7050,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 ;
 }
-EnsureTopBrowsingContextId
+EnsureBrowserId
 (
 )
 ;
@@ -7159,7 +7159,7 @@ GetCurrentSerialEventTarget
 )
 callbacks
 this
-mTopBrowsingContextId
+mBrowserId
 category
 mRequestContext
 mClassOfService

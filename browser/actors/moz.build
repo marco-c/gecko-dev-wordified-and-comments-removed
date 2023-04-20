@@ -325,13 +325,6 @@ sys
 mjs
 "
 "
-BrowserTabParent
-.
-sys
-.
-mjs
-"
-"
 ClickHandlerChild
 .
 sys

@@ -323,7 +323,7 @@ requestContentLength
 bool
 requestBodyHasHeaders
 uint64_t
-topLevelOuterContentWindowId
+browserId
 uint8_t
 httpTrafficCategory
 uint64_t
@@ -634,7 +634,7 @@ GetCurrentSerialEventTarget
 )
 nullptr
 this
-topLevelOuterContentWindowId
+browserId
 static_cast
 <
 HttpTrafficCategory

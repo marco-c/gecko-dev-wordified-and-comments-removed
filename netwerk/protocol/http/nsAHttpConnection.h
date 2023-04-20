@@ -409,7 +409,7 @@ Version
 ;
 virtual
 void
-TopBrowsingContextIdChanged
+CurrentBrowserIdChanged
 (
 uint64_t
 id
@@ -617,7 +617,7 @@ override
 ;
 \
 void
-TopBrowsingContextIdChanged
+CurrentBrowserIdChanged
 (
 uint64_t
 id

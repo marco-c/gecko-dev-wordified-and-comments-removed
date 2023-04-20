@@ -947,7 +947,7 @@ mPreviousPingThreshold
 =
 mPingThreshold
 ;
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 =
 gHttpHandler
 -
@@ -957,7 +957,7 @@ ConnMgr
 )
 -
 >
-CurrentTopBrowsingContextId
+CurrentBrowserId
 (
 )
 ;
@@ -2713,7 +2713,7 @@ Http2Stream
 aHttpTransaction
 this
 aPriority
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 )
 ;
 break
@@ -2927,7 +2927,7 @@ refStream
 CreateTunnelStreamFromConnInfo
 (
 this
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 aHttpTransaction
 -
 >
@@ -10728,7 +10728,7 @@ promisedID
 self
 -
 >
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 )
 )
 ;
@@ -24085,7 +24085,7 @@ void
 Http2Session
 :
 :
-TopBrowsingContextIdChanged
+CurrentBrowserIdChanged
 (
 uint64_t
 id
@@ -24104,7 +24104,7 @@ thread
 "
 )
 ;
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 =
 id
 ;
@@ -24125,7 +24125,7 @@ Values
 stream
 -
 >
-TopBrowsingContextIdChanged
+CurrentBrowserIdChanged
 (
 id
 )

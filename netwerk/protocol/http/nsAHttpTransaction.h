@@ -549,7 +549,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 virtual
 uint64_t
-TopBrowsingContextId
+BrowserId
 (
 )
 {

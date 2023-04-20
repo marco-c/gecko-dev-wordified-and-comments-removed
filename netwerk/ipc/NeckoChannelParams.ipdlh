@@ -798,7 +798,7 @@ uint64_t
 contentWindowId
 ;
 uint64_t
-topBrowsingContextId
+browserId
 ;
 uint64_t
 earlyHintPreloaderId

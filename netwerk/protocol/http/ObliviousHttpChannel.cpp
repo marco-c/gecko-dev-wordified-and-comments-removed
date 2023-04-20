@@ -207,7 +207,7 @@ NS_IMETHODIMP
 ObliviousHttpChannel
 :
 :
-GetTopBrowsingContextId
+GetBrowserId
 (
 uint64_t
 *
@@ -218,7 +218,7 @@ return
 mInnerChannel
 -
 >
-GetTopBrowsingContextId
+GetBrowserId
 (
 aWindowId
 )
@@ -228,7 +228,7 @@ NS_IMETHODIMP
 ObliviousHttpChannel
 :
 :
-SetTopBrowsingContextId
+SetBrowserId
 (
 uint64_t
 aId
@@ -238,7 +238,7 @@ return
 mInnerChannel
 -
 >
-SetTopBrowsingContextId
+SetBrowserId
 (
 aId
 )

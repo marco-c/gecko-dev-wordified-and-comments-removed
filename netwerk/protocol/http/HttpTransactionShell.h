@@ -229,7 +229,7 @@ nsITransportEventSink
 *
 eventsink
 uint64_t
-topBrowsingContextId
+browserId
 HttpTrafficCategory
 trafficCategory
 nsIRequestContext
@@ -707,7 +707,7 @@ nsITransportEventSink
 *
 eventsink
 uint64_t
-topBrowsingContextId
+browserId
 \
 HttpTrafficCategory
 trafficCategory

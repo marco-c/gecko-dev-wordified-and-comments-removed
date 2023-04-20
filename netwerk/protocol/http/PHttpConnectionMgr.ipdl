@@ -71,7 +71,7 @@ aArgs
 )
 ;
 async
-UpdateCurrentTopBrowsingContextId
+UpdateCurrentBrowserId
 (
 uint64_t
 aId

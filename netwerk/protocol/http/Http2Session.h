@@ -1865,7 +1865,7 @@ bool
 mJoinConnectionCache
 ;
 uint64_t
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 ;
 uint32_t
 mCntActivated

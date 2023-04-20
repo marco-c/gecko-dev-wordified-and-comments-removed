@@ -339,7 +339,7 @@ true
 }
 virtual
 void
-TopBrowsingContextIdChanged
+CurrentBrowserIdChanged
 (
 uint64_t
 )

@@ -289,7 +289,7 @@ this
 )
 )
 ;
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 =
 gHttpHandler
 -
@@ -299,7 +299,7 @@ ConnMgr
 )
 -
 >
-CurrentTopBrowsingContextId
+CurrentBrowserId
 (
 )
 ;
@@ -5902,7 +5902,7 @@ Http3Stream
 aHttpTransaction
 this
 cos
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 )
 ;
 }
@@ -10273,7 +10273,7 @@ void
 Http3Session
 :
 :
-TopBrowsingContextIdChanged
+CurrentBrowserIdChanged
 (
 uint64_t
 id
@@ -10292,7 +10292,7 @@ thread
 "
 )
 ;
-mCurrentTopBrowsingContextId
+mCurrentBrowserId
 =
 id
 ;
@@ -10331,7 +10331,7 @@ httpStream
 httpStream
 -
 >
-TopBrowsingContextIdChanged
+CurrentBrowserIdChanged
 (
 id
 )
