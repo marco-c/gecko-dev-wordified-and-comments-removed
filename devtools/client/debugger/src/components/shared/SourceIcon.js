@@ -118,6 +118,11 @@ iconClass
 PropTypes
 .
 string
+forTab
+:
+PropTypes
+.
+bool
 }
 ;
 }
@@ -202,6 +207,7 @@ props
 {
 const
 {
+forTab
 source
 }
 =
@@ -228,6 +234,10 @@ source
 const
 hasMatchingPrettyTab
 =
+!
+forTab
+&
+&
 hasPrettyTab
 (
 state
