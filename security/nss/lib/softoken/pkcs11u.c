@@ -3551,6 +3551,9 @@ tokObjHashTable
 void
 *
 )
+(
+uintptr_t
+)
 handle
 )
 ;

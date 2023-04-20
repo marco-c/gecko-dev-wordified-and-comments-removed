@@ -1620,6 +1620,9 @@ char
 name
 )
 {
+#
+ifndef
+NSS_FIPS_DISABLED
 SECMODModuleList
 *
 mlp
@@ -1629,6 +1632,8 @@ SECMODModuleList
 *
 mlpp
 ;
+#
+endif
 SECStatus
 rv
 =
@@ -1680,7 +1685,7 @@ return
 rv
 ;
 #
-endif
+else
 SECMOD_GetWriteLock
 (
 moduleLock
@@ -2021,6 +2026,8 @@ newModule
 return
 rv
 ;
+#
+endif
 }
 SECStatus
 SECMOD_AddModule

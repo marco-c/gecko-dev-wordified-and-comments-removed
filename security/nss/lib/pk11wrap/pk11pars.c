@@ -5830,7 +5830,6 @@ moduleSpec
 ;
 }
 )
-;
 NSSUTIL_HANDLE_STRING_ARG
 (
 moduleSpec
@@ -5850,7 +5849,6 @@ moduleSpec
 ;
 }
 )
-;
 NSSUTIL_HANDLE_STRING_ARG
 (
 moduleSpec
@@ -5896,7 +5894,6 @@ tmp
 }
 }
 )
-;
 NSSUTIL_HANDLE_STRING_ARG
 (
 moduleSpec
@@ -5942,7 +5939,6 @@ tmp
 }
 }
 )
-;
 NSSUTIL_HANDLE_STRING_ARG
 (
 moduleSpec
@@ -5987,7 +5983,6 @@ tmp
 }
 }
 )
-;
 NSSUTIL_HANDLE_STRING_ARG
 (
 moduleSpec
@@ -6032,7 +6027,6 @@ tmp
 }
 }
 )
-;
 NSSUTIL_HANDLE_FINAL_ARG
 (
 moduleSpec

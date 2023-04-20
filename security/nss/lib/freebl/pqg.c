@@ -1192,6 +1192,17 @@ s
 ;
 if
 (
+sizeof
+(
+addend
+)
+<
+sizeof
+(
+mp_digit
+)
+|
+|
 addend
 <
 MP_DIGIT_MAX

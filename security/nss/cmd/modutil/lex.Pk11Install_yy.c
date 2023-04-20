@@ -127,7 +127,7 @@ YY_USE_CONST
 else
 #
 if
-__STDC__
+__STDC_VERSION__
 #
 define
 YY_USE_PROTOS
@@ -1790,7 +1790,7 @@ YY_MALLOC_DECL
 else
 #
 if
-__STDC__
+__STDC_VERSION__
 #
 ifndef
 __cplusplus

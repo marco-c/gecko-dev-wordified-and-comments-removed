@@ -426,6 +426,12 @@ clang
 -
 format
 -
+sort
+-
+includes
+=
+false
+-
 i
 {
 }

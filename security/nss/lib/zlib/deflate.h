@@ -887,6 +887,9 @@ sym_next
 +
 ]
 =
+(
+uch
+)
 dist
 ;
 \
@@ -903,10 +906,15 @@ sym_next
 +
 ]
 =
+(
+uch
+)
+(
 dist
 >
 >
 8
+)
 ;
 \
 s

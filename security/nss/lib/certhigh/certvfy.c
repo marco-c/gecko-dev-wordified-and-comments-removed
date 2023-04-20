@@ -310,15 +310,10 @@ return
 SECFailure
 ;
 }
-else
-{
 return
 SECSuccess
 ;
 }
-}
-else
-{
 PORT_SetError
 (
 SEC_ERROR_UNSUPPORTED_ELLIPTIC_CURVE
@@ -326,10 +321,6 @@ SEC_ERROR_UNSUPPORTED_ELLIPTIC_CURVE
 ;
 return
 SECFailure
-;
-}
-return
-SECSuccess
 ;
 case
 SEC_OID_PKCS1_RSA_PSS_SIGNATURE

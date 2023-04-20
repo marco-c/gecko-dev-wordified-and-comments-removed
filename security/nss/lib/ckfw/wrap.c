@@ -408,12 +408,13 @@ switch
 error
 )
 {
-PRInt32
-remainingInstances
-;
 case
 CKR_OK
 :
+{
+PRInt32
+remainingInstances
+;
 remainingInstances
 =
 PR_ATOMIC_DECREMENT
@@ -435,6 +436,7 @@ nssArena_Shutdown
 }
 break
 ;
+}
 case
 CKR_CRYPTOKI_NOT_INITIALIZED
 :

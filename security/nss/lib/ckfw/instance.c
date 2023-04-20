@@ -10,6 +10,13 @@ h
 "
 #
 endif
+#
+include
+<
+stdint
+.
+h
+>
 struct
 NSSCKFWInstanceStr
 {
@@ -1678,6 +1685,9 @@ const
 void
 *
 )
+(
+uintptr_t
+)
 hSession
 (
 const
@@ -1800,6 +1810,9 @@ const
 void
 *
 )
+(
+uintptr_t
+)
 hSession
 )
 ;
@@ -1886,6 +1899,9 @@ const
 void
 *
 )
+(
+uintptr_t
+)
 hSession
 )
 ;
@@ -1904,6 +1920,9 @@ sessionHandleHash
 const
 void
 *
+)
+(
+uintptr_t
 )
 hSession
 )
@@ -2133,6 +2152,9 @@ const
 void
 *
 )
+(
+uintptr_t
+)
 hObject
 (
 const
@@ -2258,6 +2280,9 @@ const
 void
 *
 )
+(
+uintptr_t
+)
 hObject
 )
 ;
@@ -2362,6 +2387,9 @@ const
 void
 *
 )
+(
+uintptr_t
+)
 hObject
 )
 ;
@@ -2392,6 +2420,9 @@ objectHandleHash
 const
 void
 *
+)
+(
+uintptr_t
 )
 hObject
 )
@@ -2429,6 +2460,9 @@ objectHandleHash
 const
 void
 *
+)
+(
+uintptr_t
 )
 hObject
 (
@@ -2524,6 +2558,9 @@ const
 void
 *
 )
+(
+uintptr_t
+)
 hObject
 )
 ;
@@ -2542,6 +2579,9 @@ objectHandleHash
 const
 void
 *
+)
+(
+uintptr_t
 )
 hObject
 )

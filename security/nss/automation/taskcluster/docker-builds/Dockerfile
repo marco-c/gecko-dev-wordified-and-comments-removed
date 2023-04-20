@@ -215,9 +215,7 @@ clang
 -
 format
 -
-3
-.
-9
+10
 \
 sqlite3
 \
@@ -396,9 +394,7 @@ clang
 -
 format
 -
-3
-.
-9
+10
 )
 10
 ENV

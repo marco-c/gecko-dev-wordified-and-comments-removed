@@ -60,9 +60,7 @@ clang
 -
 format
 -
-3
-.
-9
+10
 \
 locales
 \
@@ -154,9 +152,7 @@ clang
 -
 format
 -
-3
-.
-9
+10
 )
 10
 ENV
