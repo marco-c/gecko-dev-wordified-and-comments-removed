@@ -75,6 +75,7 @@ context
 }
 ;
 }
+async
 function
 CreateFrameHelper
 (
@@ -139,6 +140,7 @@ if
 fetchTests
 )
 {
+await
 fetch_tests_from_window
 (
 frame
