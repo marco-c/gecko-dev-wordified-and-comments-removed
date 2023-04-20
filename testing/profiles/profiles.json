@@ -147,6 +147,9 @@ unittest
 -
 features
 "
+"
+valgrind
+"
 ]
 "
 xpcshell
