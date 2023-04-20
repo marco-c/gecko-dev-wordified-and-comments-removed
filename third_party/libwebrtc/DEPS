@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-2fe18c5940543e1380c1b89be95efe881dc156a5
+ae499b5a6c1ef53c3bf5ee5628c475ea284cefbd
 '
 #
 Keep
@@ -266,7 +266,7 @@ chromium
 src
 /
 base
-0efc92e419c3458d076f349ffc320213c8b486d1
+29eb97497d32c9b563d67486bec192af8e4bfc55
 '
 '
 src
@@ -290,7 +290,7 @@ chromium
 src
 /
 build
-7fcdda4d2b2d699319260a31093af77712604f9c
+237be0ab6c7c963b108a2ac306cc79fcd6168366
 '
 '
 src
@@ -314,7 +314,7 @@ chromium
 src
 /
 buildtools
-b79692f320d80b158ce069f166f32861c36c6074
+7fca26a6d1f24d2898bceff41cd43c75493d0457
 '
 #
 Gradle
@@ -410,7 +410,7 @@ chromium
 src
 /
 ios
-17d8594fb9ce055581fd3db56a3e9df99399fe12
+c798350a348bb5bed9964691e155a20b7d18a247
 '
 '
 condition
@@ -442,7 +442,7 @@ chromium
 src
 /
 testing
-9df4b2c5588ea496905a13ebdcacb42671d988f2
+cddecff250725136464acb2294e50401e4a8f1e9
 '
 '
 src
@@ -466,7 +466,7 @@ chromium
 src
 /
 third_party
-3deedbc463ac597f96aa97e2e536409f47d89030
+73e87bc5c2acb4d9cb264d828487f87790769f5d
 '
 '
 src
@@ -781,7 +781,7 @@ project
 libcxx
 .
 git
-a4dc7f17ca393e764685d475bbf65ff8f71a0800
+c23f69f322353518166ec969533b64dfb2a1cf98
 '
 '
 src
@@ -1156,7 +1156,7 @@ com
 catapult
 .
 git
-5b90d5e7568beef38c375ca5787802ee37fc50c9
+5eb0675d9cbb3946b32d1b4f2d5a1721ec682eab
 '
 '
 src
@@ -1286,7 +1286,7 @@ tools
 depot_tools
 .
 git
-08bb5c487f80147a236360ea50f4544890530779
+9ef048cd501f4e52fcb8f29f93c063ed5955175e
 '
 '
 src
@@ -1441,7 +1441,7 @@ third_party
 freetype2
 .
 git
-33ceac2afc3608be2d12b3dece071a91e34c3062
+c9c326312f1156bc5865d076620fa13953d24a8c
 '
 '
 src
@@ -2066,7 +2066,7 @@ com
 aom
 .
 git
-fd35001068a3d726e8184e1721e186dd50fd20e6
+6ed0c7a325496866640ea0f8b3d6862d409d9a15
 '
 '
 src
@@ -2101,7 +2101,7 @@ third_party
 libunwindstack
 .
 git
-3c86843ae0f8d560ae0d15b92e34ce88cf83057a
+e184bd94bf23148bf5f3a983f9d740ddb86fd46e
 '
 '
 condition
@@ -2137,7 +2137,7 @@ external
 perfetto
 .
 git
-768b3f226580167fd3ca2d07774033648ebacd2e
+e78894f91b4e126e50dba767a03ed6bebafbd920
 '
 '
 src
@@ -2469,7 +2469,9 @@ version
 '
 :
 '
-Qn31g4m2cofkyvGgm46Uzkzds5DKdNYrdPePwRkVnv4C
+xSIcikL1PDal0LfVuHAK
+-
+q1NOalVeNp3x9KaFZ8Yju4C
 '
 }
 ]
@@ -2615,7 +2617,7 @@ chromium
 src
 /
 tools
-35efe9a8f5006a6dd2fc068b3e2ec8483218754d
+1b7f9d69b7c6969e2fc688fd4172debd025ff426
 '
 '
 src
