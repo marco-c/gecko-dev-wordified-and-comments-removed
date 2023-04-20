@@ -165,7 +165,7 @@ table_size
 }
 protected
 :
-HBFixed
+F16DOT16
 track
 ;
 NameID
@@ -220,7 +220,7 @@ nSizes
 hb_array_t
 <
 const
-HBFixed
+F16DOT16
 >
 size_table
 (
@@ -435,7 +435,7 @@ sizes
 hb_array_t
 <
 const
-HBFixed
+F16DOT16
 >
 size_table
 (
@@ -571,7 +571,7 @@ NNOffset32To
 <
 UnsizedArrayOf
 <
-HBFixed
+F16DOT16
 >
 >
 sizeTable

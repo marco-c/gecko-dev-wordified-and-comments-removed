@@ -46,7 +46,7 @@ fvar
 hb_array_t
 <
 const
-HBFixed
+F16DOT16
 >
 get_coordinates
 (
@@ -131,7 +131,7 @@ const
 hb_array_t
 <
 const
-HBFixed
+F16DOT16
 >
 coords
 =
@@ -377,7 +377,7 @@ flags
 ;
 UnsizedArrayOf
 <
-HBFixed
+F16DOT16
 >
 coordinatesZ
 ;
@@ -802,13 +802,13 @@ axisTag
 ;
 protected
 :
-HBFixed
+F16DOT16
 minValue
 ;
-HBFixed
+F16DOT16
 defaultValue
 ;
-HBFixed
+F16DOT16
 maxValue
 ;
 public
@@ -1447,7 +1447,7 @@ coords_length
 hb_array_t
 <
 const
-HBFixed
+F16DOT16
 >
 instanceCoords
 =
@@ -1676,7 +1676,7 @@ const
 hb_pair_t
 <
 const
-HBFixed
+F16DOT16
 &
 unsigned
 >

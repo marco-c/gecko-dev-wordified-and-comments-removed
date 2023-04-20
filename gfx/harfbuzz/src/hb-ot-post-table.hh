@@ -1370,7 +1370,7 @@ FixedVersion
 >
 version
 ;
-HBFixed
+F16DOT16
 italicAngle
 ;
 FWORD

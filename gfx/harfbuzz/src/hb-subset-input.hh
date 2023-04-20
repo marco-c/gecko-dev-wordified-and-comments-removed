@@ -121,6 +121,11 @@ hb_set_t
 unsigned
 flags
 ;
+bool
+attach_accelerator_data
+=
+false
+;
 hb_hashmap_t
 <
 hb_tag_t

@@ -695,9 +695,13 @@ p
 '
 '
 ;
-sprintf
+snprintf
 (
 p
+sizeof
+(
+buf
+)
 "
 %
 u

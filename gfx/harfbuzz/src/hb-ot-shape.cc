@@ -2563,7 +2563,7 @@ if
 (
 unlikely
 (
-hb_in_range
+hb_in_ranges
 <
 hb_codepoint_t
 >
@@ -2574,6 +2574,8 @@ i
 ]
 .
 codepoint
+0xFF9Eu
+0xFF9Fu
 0xE0020u
 0xE007Fu
 )
