@@ -92,12 +92,9 @@ OnDestroyMenuBarFrame
 )
 ;
 static
-nsresult
+int32_t
 GetMenuAccessKey
 (
-int32_t
-*
-aAccessKey
 )
 ;
 static
