@@ -168,6 +168,16 @@ sources
 =
 [
 "
+av1_profile
+.
+cc
+"
+"
+av1_profile
+.
+h
+"
+"
 h264_profile_level_id
 .
 cc
