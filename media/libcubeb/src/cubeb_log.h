@@ -148,11 +148,13 @@ log_callback
 cubeb_log_level
 cubeb_log_get_level
 (
+void
 )
 ;
 cubeb_log_callback
 cubeb_log_get_callback
 (
+void
 )
 ;
 void
@@ -259,7 +261,7 @@ if
 cubeb_log_get_level
 (
 )
-<
+>
 =
 level
 &
@@ -307,7 +309,7 @@ if
 cubeb_log_get_level
 (
 )
-<
+>
 =
 level
 &
