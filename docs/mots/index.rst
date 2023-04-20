@@ -4183,11 +4183,6 @@ Christian
 Biesinger
 Shawn
 Wilsher
-(
-ping
-on
-irc
-)
 Ehsan
 Akhgari
 *
@@ -16816,11 +16811,6 @@ Christian
 Biesinger
 Shawn
 Wilsher
-(
-ping
-on
-irc
-)
 Honza
 Bambas
 *
