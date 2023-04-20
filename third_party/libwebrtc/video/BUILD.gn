@@ -1200,6 +1200,11 @@ adaptation
 :
 video_adaptation
 "
+"
+render
+:
+incoming_video_stream
+"
 ]
 absl_deps
 =
