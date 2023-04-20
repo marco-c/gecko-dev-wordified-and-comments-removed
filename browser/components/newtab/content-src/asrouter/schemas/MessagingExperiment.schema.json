@@ -4914,13 +4914,13 @@ enum
 FOCUS
 "
 "
-RALLY
-"
-"
 VPN
 "
 "
 PIN
+"
+"
+COOKIE_BANNERS
 "
 "
 OTHER
