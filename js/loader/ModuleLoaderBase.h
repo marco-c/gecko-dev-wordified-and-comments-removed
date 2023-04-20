@@ -426,12 +426,6 @@ nsIGlobalObject
 >
 mGlobalObject
 ;
-nsCOMPtr
-<
-nsISerialEventTarget
->
-mEventTarget
-;
 bool
 mImportMapsAllowed
 =
@@ -439,6 +433,12 @@ true
 ;
 protected
 :
+nsCOMPtr
+<
+nsISerialEventTarget
+>
+mEventTarget
+;
 RefPtr
 <
 ScriptLoaderInterface
