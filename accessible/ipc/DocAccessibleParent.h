@@ -1420,6 +1420,16 @@ aURL
 )
 const
 ;
+virtual
+Relation
+RelationByType
+(
+RelationType
+aType
+)
+const
+override
+;
 nsTHashMap
 <
 uint64_t
