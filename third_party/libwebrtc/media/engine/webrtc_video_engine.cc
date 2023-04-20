@@ -3108,13 +3108,6 @@ automaticResizeOn
 =
 automatic_resize
 ;
-RTC_DCHECK
-(
-vp9_settings
-.
-frameDroppingOn
-)
-;
 if
 (
 !
@@ -14506,6 +14499,12 @@ rtp_parameters_
 =
 1
 )
+;
+encoder_config
+.
+frame_drop_enabled
+=
+true
 ;
 int
 max_qp

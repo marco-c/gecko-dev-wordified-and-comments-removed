@@ -1439,13 +1439,8 @@ config
 ;
 codec_settings
 .
-VP9
+SetFrameDropEnabled
 (
-)
--
->
-frameDroppingOn
-=
 (
 config
 &
@@ -1459,6 +1454,7 @@ config
 !
 =
 0
+)
 ;
 codec_settings
 .

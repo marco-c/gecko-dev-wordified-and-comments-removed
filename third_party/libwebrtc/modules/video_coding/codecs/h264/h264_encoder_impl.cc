@@ -1281,12 +1281,9 @@ frame_dropping_on
 =
 codec_
 .
-H264
+GetFrameDropEnabled
 (
 )
--
->
-frameDroppingOn
 ;
 configurations_
 [

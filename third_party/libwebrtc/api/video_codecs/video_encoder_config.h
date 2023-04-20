@@ -485,6 +485,9 @@ spatial_layers
 ContentType
 content_type
 ;
+bool
+frame_drop_enabled
+;
 rtc
 :
 :

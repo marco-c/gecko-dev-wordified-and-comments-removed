@@ -3854,11 +3854,9 @@ rc_dropframe_thresh
 inst
 -
 >
-VP9
+GetFrameDropEnabled
 (
 )
-.
-frameDroppingOn
 ?
 30
 :

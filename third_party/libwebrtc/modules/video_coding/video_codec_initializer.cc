@@ -404,6 +404,15 @@ legacy_conference_mode
 ;
 video_codec
 .
+SetFrameDropEnabled
+(
+config
+.
+frame_drop_enabled
+)
+;
+video_codec
+.
 numberOfSimulcastStreams
 =
 static_cast

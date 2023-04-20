@@ -826,6 +826,13 @@ VP9
 0
 ;
 }
+encoder_config
+-
+>
+frame_drop_enabled
+=
+true
+;
 SetEncoderSpecific
 (
 encoder_config

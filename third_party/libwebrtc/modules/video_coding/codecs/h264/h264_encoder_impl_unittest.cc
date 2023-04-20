@@ -111,14 +111,10 @@ height
 codec_settings
 -
 >
-H264
+SetFrameDropEnabled
 (
-)
--
->
-frameDroppingOn
-=
 true
+)
 ;
 codec_settings
 -
