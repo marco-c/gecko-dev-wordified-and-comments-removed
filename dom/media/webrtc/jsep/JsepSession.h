@@ -665,7 +665,7 @@ nullptr
 ;
 }
 virtual
-nsresult
+void
 AddTransceiver
 (
 RefPtr
