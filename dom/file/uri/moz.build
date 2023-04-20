@@ -42,11 +42,6 @@ BlobURLProtocolHandler
 .
 h
 "
-"
-FontTableURIProtocolHandler
-.
-h
-"
 ]
 UNIFIED_SOURCES
 +
@@ -69,11 +64,6 @@ cpp
 "
 "
 BlobURLProtocolHandler
-.
-cpp
-"
-"
-FontTableURIProtocolHandler
 .
 cpp
 "
