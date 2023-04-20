@@ -209,6 +209,12 @@ FieldTrialParameter
 <
 double
 >
+network_state_estimate_drop_down_rate
+;
+FieldTrialParameter
+<
+double
+>
 network_state_probe_scale
 ;
 FieldTrialParameter
@@ -254,7 +260,7 @@ FieldTrialParameter
 <
 bool
 >
-probe_if_bwe_limited_due_to_loss
+limit_probe_target_rate_to_loss_bwe
 ;
 }
 ;
