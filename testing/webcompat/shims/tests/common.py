@@ -28,7 +28,7 @@ async
 def
 is_gtag_placeholder_displayed
 (
-helper
+client
 url
 finder
 *
@@ -38,7 +38,7 @@ kwargs
 :
     
 await
-helper
+client
 .
 navigate
 (
@@ -48,15 +48,7 @@ url
 kwargs
 )
     
-await
-helper
-.
-await_element
-(
-finder
-)
-    
-helper
+client
 .
 execute_async_script
 (
@@ -153,21 +145,22 @@ done
 )
     
 return
-helper
+client
+.
+is_displayed
+(
+client
 .
 find_element
 (
 finder
 )
-.
-is_displayed
-(
 )
 async
 def
 clicking_link_navigates
 (
-helper
+client
 url
 finder
 *
@@ -177,7 +170,7 @@ kwargs
 :
     
 await
-helper
+client
 .
 navigate
 (
@@ -189,8 +182,7 @@ kwargs
     
 elem
 =
-await
-helper
+client
 .
 await_element
 (
@@ -198,7 +190,7 @@ finder
 )
     
 return
-helper
+client
 .
 session
 .

@@ -1,10 +1,5 @@
 import
 pytest
-from
-helpers
-import
-Css
-await_element
 URL
 =
 (
@@ -76,24 +71,21 @@ picture
 "
 GALLERY_CSS
 =
-Css
-(
 "
 .
 swiper
 -
 wrapper
 "
-)
 def
 get_picture_width
 (
-session
+client
 )
 :
     
 return
-session
+client
 .
 execute_script
 (
@@ -138,24 +130,32 @@ pytest
 .
 mark
 .
+asyncio
+pytest
+.
+mark
+.
 with_interventions
+async
 def
 test_enabled
 (
-session
+client
 )
 :
     
-session
+await
+client
 .
-get
+navigate
 (
 URL
 )
     
-await_element
+client
+.
+await_css
 (
-session
 GALLERY_CSS
 )
     
@@ -167,30 +167,38 @@ assert
 =
 get_picture_width
 (
-session
+client
 )
 pytest
 .
 mark
 .
+asyncio
+pytest
+.
+mark
+.
 without_interventions
+async
 def
 test_disabled
 (
-session
+client
 )
 :
     
-session
+await
+client
 .
-get
+navigate
 (
 URL
 )
     
-await_element
+client
+.
+await_css
 (
-session
 GALLERY_CSS
 )
     
@@ -202,5 +210,5 @@ assert
 =
 get_picture_width
 (
-session
+client
 )

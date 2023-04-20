@@ -2,12 +2,6 @@ import
 time
 import
 pytest
-from
-helpers
-import
-Css
-await_element
-find_element
 URL
 =
 "
@@ -29,8 +23,6 @@ movies
 "
 SEARCH_FIELD_CSS
 =
-Css
-(
 "
 input
 [
@@ -49,11 +41,8 @@ search
 '
 ]
 "
-)
 SEARCH_BUTTON_CSS
 =
-Css
-(
 "
 #
 search
@@ -62,38 +51,42 @@ icon
 -
 legacy
 "
-)
 FILTER_BAR_CSS
 =
-Css
-(
 "
 #
 filter
 -
 menu
 "
-)
 PERF_NOW_CONSTANT
 =
 11111
 def
 change_performance_now
 (
-session
+client
 )
 :
     
 return
-session
+client
 .
 execute_script
 (
         
-f
 "
 "
 "
+        
+const
+PERF_NOW
+=
+arguments
+[
+0
+]
+;
         
 Object
 .
@@ -106,27 +99,17 @@ performance
 now
 "
 {
-{
           
 value
 :
-function
 (
 )
-{
-{
-            
-return
-{
+=
+>
+PERF_NOW
+        
+}
 PERF_NOW_CONSTANT
-}
-;
-          
-}
-}
-      
-}
-}
 )
 ;
     
@@ -135,48 +118,54 @@ PERF_NOW_CONSTANT
 "
     
 )
+async
 def
 search_for_term
 (
-session
+client
 )
 :
     
-session
+await
+client
 .
-get
+navigate
 (
 URL
 )
     
 search
 =
-await_element
+client
+.
+await_css
 (
-session
 SEARCH_FIELD_CSS
 )
     
 button
 =
-find_element
+client
+.
+find_css
 (
-session
 SEARCH_BUTTON_CSS
 )
     
 assert
-search
+client
 .
 is_displayed
 (
+search
 )
     
 assert
-button
+client
 .
 is_displayed
 (
+button
 )
     
 search
@@ -209,43 +198,49 @@ pytest
 .
 mark
 .
+asyncio
+pytest
+.
+mark
+.
 with_interventions
+async
 def
 test_enabled
 (
-session
+client
 )
 :
     
+await
 search_for_term
 (
-session
+client
 )
     
 filter_bar
 =
-await_element
+client
+.
+await_css
 (
-session
 FILTER_BAR_CSS
-None
-True
 )
     
-session
+client
 .
 back
 (
 )
     
 assert
-filter_bar
+not
+client
 .
 is_displayed
 (
+filter_bar
 )
-is
-False
 pytest
 .
 mark
@@ -270,25 +265,32 @@ pytest
 .
 mark
 .
+asyncio
+pytest
+.
+mark
+.
 without_interventions
+async
 def
 test_disabled
 (
-session
+client
 )
 :
     
 change_performance_now
 (
-session
+client
 )
     
+await
 search_for_term
 (
-session
+client
 )
     
-session
+client
 .
 back
 (
@@ -296,15 +298,17 @@ back
     
 filter_bar
 =
-await_element
+client
+.
+await_css
 (
-session
 FILTER_BAR_CSS
 )
     
 assert
-filter_bar
+client
 .
 is_displayed
 (
+filter_bar
 )

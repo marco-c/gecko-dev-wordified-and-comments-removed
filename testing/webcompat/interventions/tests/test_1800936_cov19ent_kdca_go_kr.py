@@ -23,22 +23,24 @@ header
 .
 mouseOn
 "
+async
 def
 get_header_position
 (
-session
+client
 )
 :
     
-session
+await
+client
 .
-get
+navigate
 (
 URL
 )
     
 return
-session
+client
 .
 execute_script
 (
@@ -83,11 +85,17 @@ pytest
 .
 mark
 .
+asyncio
+pytest
+.
+mark
+.
 with_interventions
+async
 def
 test_enabled
 (
-session
+client
 )
 :
     
@@ -97,19 +105,26 @@ absolute
 "
 =
 =
+await
 get_header_position
 (
-session
+client
 )
 pytest
 .
 mark
 .
+asyncio
+pytest
+.
+mark
+.
 without_interventions
+async
 def
 test_disabled
 (
-session
+client
 )
 :
     
@@ -119,7 +134,8 @@ absolute
 "
 !
 =
+await
 get_header_position
 (
-session
+client
 )

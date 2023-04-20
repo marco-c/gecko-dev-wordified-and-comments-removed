@@ -1,10 +1,5 @@
 import
 pytest
-from
-helpers
-import
-Css
-await_element
 URL
 =
 "
@@ -28,17 +23,12 @@ stampsenquiries
 "
 COOKIES_ACCEPT_CSS
 =
-Css
-(
 "
 #
 consent_prompt_submit
 "
-)
 POSTCODE_CSS
 =
-Css
-(
 "
 input
 [
@@ -49,7 +39,6 @@ rn_AddressControl_15textbox
 '
 ]
 "
-)
 OPTION_CSS
 =
 "
@@ -80,23 +69,26 @@ address1_1
 '
 ]
 "
+async
 def
 getResult
 (
-session
+client
 )
 :
     
-session
+await
+client
 .
-get
+navigate
 (
 URL
 )
     
-await_element
+client
+.
+await_css
 (
-session
 COOKIES_ACCEPT_CSS
 )
 .
@@ -104,7 +96,7 @@ click
 (
 )
     
-session
+client
 .
 execute_script
 (
@@ -213,9 +205,10 @@ def
     
 )
     
-await_element
+client
+.
+await_css
 (
-session
 POSTCODE_CSS
 )
 .
@@ -227,17 +220,15 @@ W1A
 "
 )
     
-await_element
-(
-session
-Css
+client
+.
+await_css
 (
 OPTION_CSS
 )
-)
     
 return
-session
+client
 .
 execute_script
 (
@@ -264,34 +255,48 @@ pytest
 .
 mark
 .
+asyncio
+pytest
+.
+mark
+.
 with_interventions
+async
 def
 test_enabled
 (
-session
+client
 )
 :
     
 assert
+await
 getResult
 (
-session
+client
 )
 pytest
 .
 mark
 .
+asyncio
+pytest
+.
+mark
+.
 without_interventions
+async
 def
 test_disabled
 (
-session
+client
 )
 :
     
 assert
 not
+await
 getResult
 (
-session
+client
 )
