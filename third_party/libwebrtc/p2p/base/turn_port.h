@@ -1280,6 +1280,16 @@ channel_number
 bool
 CreateOrRefreshEntry
 (
+Connection
+*
+conn
+int
+channel_number
+)
+;
+bool
+CreateOrRefreshEntry
+(
 const
 rtc
 :
