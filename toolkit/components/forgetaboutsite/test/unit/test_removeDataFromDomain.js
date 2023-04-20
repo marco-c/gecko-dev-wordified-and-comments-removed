@@ -1388,7 +1388,7 @@ org
 check_login_exists
 (
 TEST_HOST
-false
+true
 )
 ;
 }
@@ -1433,7 +1433,7 @@ org
 check_login_exists
 (
 TEST_HOST
-false
+true
 )
 ;
 }
