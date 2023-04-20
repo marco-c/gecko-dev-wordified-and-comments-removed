@@ -211,12 +211,7 @@ wantUntrusted
 [
 Exposed
 =
-(
-Window
-Worker
-WorkerDebugger
-AudioWorklet
-)
+*
 ]
 interface
 EventTarget
