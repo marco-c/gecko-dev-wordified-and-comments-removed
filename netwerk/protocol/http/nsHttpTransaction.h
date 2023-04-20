@@ -129,7 +129,7 @@ h
 #
 include
 "
-nsISSLSocketControl
+nsITLSSocketControl
 .
 h
 "
@@ -1292,7 +1292,7 @@ mConsumerTarget
 ;
 nsCOMPtr
 <
-nsISSLSocketControl
+nsITLSSocketControl
 >
 mTLSSocketControl
 ;

@@ -64,7 +64,7 @@ ba62
 )
 ]
 interface
-nsISSLSocketControl
+nsITLSSocketControl
 :
 nsISupports
 {

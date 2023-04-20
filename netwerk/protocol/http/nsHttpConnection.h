@@ -148,7 +148,7 @@ class
 nsISocketTransport
 ;
 class
-nsISSLSocketControl
+nsITLSSocketControl
 ;
 namespace
 mozilla
@@ -801,7 +801,7 @@ IsAlive
 void
 StartSpdy
 (
-nsISSLSocketControl
+nsITLSSocketControl
 *
 ssl
 SpdyVersion

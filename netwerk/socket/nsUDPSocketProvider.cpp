@@ -52,7 +52,7 @@ PRFileDesc
 *
 *
 aFileDesc
-nsISSLSocketControl
+nsITLSSocketControl
 *
 *
 aTLSSocketControl
@@ -118,7 +118,7 @@ struct
 PRFileDesc
 *
 aFileDesc
-nsISSLSocketControl
+nsITLSSocketControl
 *
 *
 aTLSSocketControl

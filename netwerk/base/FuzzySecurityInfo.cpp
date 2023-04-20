@@ -65,7 +65,7 @@ NS_IMPL_ISUPPORTS
 FuzzySecurityInfo
 nsITransportSecurityInfo
 nsIInterfaceRequestor
-nsISSLSocketControl
+nsITLSSocketControl
 )
 NS_IMETHODIMP
 FuzzySecurityInfo
@@ -702,7 +702,7 @@ aSSLVersionUsed
 *
 aSSLVersionUsed
 =
-nsISSLSocketControl
+nsITLSSocketControl
 :
 :
 TLS_VERSION_1_2
@@ -725,7 +725,7 @@ aSSLVersionOffered
 *
 aSSLVersionOffered
 =
-nsISSLSocketControl
+nsITLSSocketControl
 :
 :
 TLS_VERSION_1_2
@@ -748,7 +748,7 @@ aMac
 *
 aMac
 =
-nsISSLSocketControl
+nsITLSSocketControl
 :
 :
 SSL_MAC_AEAD
