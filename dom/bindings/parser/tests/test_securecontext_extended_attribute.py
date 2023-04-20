@@ -1,3 +1,5 @@
+import
+WebIDL
 def
 WebIDLTest
 (
@@ -280,8 +282,6 @@ SecureContext
 "
 )
         
-(
-            
 "
 [
 SecureContext
@@ -291,17 +291,12 @@ propagate
 from
 interface
 to
-"
-            
-"
 constant
 members
 from
 partial
 interface
 "
-        
-)
     
 )
     
@@ -327,8 +322,6 @@ SecureContext
 "
 )
         
-(
-            
 "
 [
 SecureContext
@@ -338,17 +331,12 @@ propagate
 from
 interface
 to
-"
-            
-"
 attribute
 members
 from
 partial
 interface
 "
-        
-)
     
 )
     
@@ -674,8 +662,6 @@ SecureContext
 "
 )
         
-(
-            
 "
 [
 SecureContext
@@ -688,14 +674,9 @@ to
 constant
 members
 from
-"
-            
-"
 partial
 interface
 "
-        
-)
     
 )
     
@@ -721,8 +702,6 @@ SecureContext
 "
 )
         
-(
-            
 "
 [
 SecureContext
@@ -735,14 +714,9 @@ to
 attribute
 members
 from
-"
-            
-"
 partial
 interface
 "
-        
-)
     
 )
     
@@ -768,8 +742,6 @@ SecureContext
 "
 )
         
-(
-            
 "
 [
 SecureContext
@@ -783,13 +755,8 @@ method
 members
 from
 partial
-"
-            
-"
 interface
 "
-        
-)
     
 )
     
@@ -973,8 +940,6 @@ SecureContext
 is
 None
         
-(
-            
 "
 [
 SecureContext
@@ -991,14 +956,9 @@ the
 interface
 '
 s
-"
-            
-"
 constant
 members
 "
-        
-)
     
 )
     
@@ -1026,8 +986,6 @@ SecureContext
 is
 None
         
-(
-            
 "
 [
 SecureContext
@@ -1044,14 +1002,9 @@ the
 interface
 '
 s
-"
-            
-"
 attribute
 members
 "
-        
-)
     
 )
     
@@ -1079,8 +1032,6 @@ SecureContext
 is
 None
         
-(
-            
 "
 [
 SecureContext
@@ -1097,14 +1048,9 @@ the
 interface
 '
 s
-"
-            
-"
 method
 members
 "
-        
-)
     
 )
     
@@ -2304,7 +2250,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -2408,7 +2353,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -2422,8 +2366,6 @@ ok
         
 threw
         
-(
-            
 "
 If
 [
@@ -2440,13 +2382,8 @@ MUST
 appear
 on
 all
-"
-            
-"
 overloads
 "
-        
-)
     
 )
     
@@ -2530,7 +2467,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -2627,7 +2563,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -2727,7 +2662,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -2741,8 +2675,6 @@ ok
         
 threw
         
-(
-            
 "
 [
 SecureContext
@@ -2759,9 +2691,6 @@ one
 of
 the
 partial
-"
-            
-"
 interface
 '
 s
@@ -2769,8 +2698,6 @@ member
 '
 s
 "
-        
-)
     
 )
     
@@ -2844,7 +2771,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -2858,8 +2784,6 @@ ok
         
 threw
         
-(
-            
 "
 [
 SecureContext
@@ -2878,15 +2802,10 @@ partial
 interface
 '
 s
-"
-            
-"
 member
 '
 s
 "
-        
-)
     
 )
     
@@ -2957,7 +2876,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -2971,8 +2889,6 @@ ok
         
 threw
         
-(
-            
 "
 [
 SecureContext
@@ -2988,13 +2904,8 @@ another
 [
 SecureContext
 ]
-"
-            
-"
 interface
 "
-        
-)
     
 )
     
@@ -3098,20 +3009,13 @@ members
         
 4
         
-(
-            
 "
 TestSecureContextInterfaceThatImplementsNonSecureContextInterface
 should
 have
 four
-"
-            
-"
 members
 "
-        
-)
     
 )
     
@@ -3167,8 +3071,6 @@ SecureContext
 "
 )
         
-(
-            
 "
 [
 SecureContext
@@ -3183,9 +3085,6 @@ members
 even
 when
 other
-"
-            
-"
 members
 are
 copied
@@ -3198,8 +3097,6 @@ SecureContext
 ]
 interface
 "
-        
-)
     
 )
     

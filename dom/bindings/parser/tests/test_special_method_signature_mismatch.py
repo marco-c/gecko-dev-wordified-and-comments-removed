@@ -45,6 +45,8 @@ index
         
 )
         
+results
+=
 parser
 .
 finish
@@ -52,7 +54,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -111,6 +112,8 @@ index
         
 )
         
+results
+=
 parser
 .
 finish
@@ -118,7 +121,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -179,6 +181,8 @@ extraArg
         
 )
         
+results
+=
 parser
 .
 finish
@@ -186,7 +190,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -248,6 +251,8 @@ index
         
 )
         
+results
+=
 parser
 .
 finish
@@ -255,7 +260,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -315,6 +319,8 @@ index
         
 )
         
+results
+=
 parser
 .
 finish
@@ -322,7 +328,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -378,6 +383,8 @@ foo
         
 )
         
+results
+=
 parser
 .
 finish
@@ -385,7 +392,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -444,6 +450,8 @@ index
         
 )
         
+results
+=
 parser
 .
 finish
@@ -451,7 +459,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -512,6 +519,8 @@ extraArg
         
 )
         
+results
+=
 parser
 .
 finish
@@ -519,7 +528,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -581,6 +589,8 @@ index
         
 )
         
+results
+=
 parser
 .
 finish
@@ -588,7 +598,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -648,6 +657,8 @@ index
         
 )
         
+results
+=
 parser
 .
 finish
@@ -655,7 +666,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -711,6 +721,8 @@ foo
         
 )
         
+results
+=
 parser
 .
 finish
@@ -718,7 +730,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -780,6 +791,8 @@ value
         
 )
         
+results
+=
 parser
 .
 finish
@@ -787,7 +800,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -851,6 +863,8 @@ extraArg
         
 )
         
+results
+=
 parser
 .
 finish
@@ -858,7 +872,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -922,6 +935,8 @@ value
         
 )
         
+results
+=
 parser
 .
 finish
@@ -929,7 +944,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -991,6 +1005,8 @@ value
         
 )
         
+results
+=
 parser
 .
 finish
@@ -998,7 +1014,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -1054,6 +1069,8 @@ foo
         
 )
         
+results
+=
 parser
 .
 finish
@@ -1061,7 +1078,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw

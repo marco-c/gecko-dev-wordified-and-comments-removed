@@ -1,11 +1,11 @@
 import
-argparse
-import
-runpy
+sys
 import
 string
 import
-sys
+argparse
+import
+runpy
 def
 generateLine
 (

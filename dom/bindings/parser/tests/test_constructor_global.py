@@ -1,3 +1,5 @@
+import
+traceback
 def
 WebIDLTest
 (
@@ -47,6 +49,8 @@ constructor
         
 )
         
+results
+=
 parser
 .
 finish
@@ -54,7 +58,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -122,6 +125,8 @@ TestLegacyFactoryFunctionGlobal
         
 )
         
+results
+=
 parser
 .
 finish
@@ -129,7 +134,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -197,6 +201,8 @@ TestLegacyFactoryFunctionGlobal
         
 )
         
+results
+=
 parser
 .
 finish
@@ -204,7 +210,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -276,6 +281,8 @@ constructor
         
 )
         
+results
+=
 parser
 .
 finish
@@ -283,7 +290,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw

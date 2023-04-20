@@ -1,3 +1,5 @@
+import
+WebIDL
 def
 WebIDLTest
 (
@@ -442,7 +444,6 @@ a1
 )
             
 except
-Exception
 :
                 
 continue
@@ -459,7 +460,6 @@ attr
 )
             
 except
-Exception
 :
                 
 harness
@@ -574,7 +574,6 @@ attr
 )
             
 except
-Exception
 :
                 
 harness

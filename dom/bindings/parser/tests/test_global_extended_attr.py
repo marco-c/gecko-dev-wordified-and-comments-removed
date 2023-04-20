@@ -189,6 +189,8 @@ arg
         
 )
         
+results
+=
 parser
 .
 finish
@@ -196,7 +198,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -292,6 +293,8 @@ name
         
 )
         
+results
+=
 parser
 .
 finish
@@ -299,7 +302,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -380,6 +382,8 @@ Foo
         
 )
         
+results
+=
 parser
 .
 finish
@@ -387,7 +391,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -485,6 +488,8 @@ Bar
         
 )
         
+results
+=
 parser
 .
 finish
@@ -492,7 +497,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -590,6 +594,8 @@ Foo
         
 )
         
+results
+=
 parser
 .
 finish
@@ -597,7 +603,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw

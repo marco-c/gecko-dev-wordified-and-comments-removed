@@ -1,4 +1,8 @@
 import
+WebIDL
+import
+itertools
+import
 string
 def
 chain
@@ -1060,7 +1064,6 @@ finish
 )
         
 except
-Exception
 :
             
 threw

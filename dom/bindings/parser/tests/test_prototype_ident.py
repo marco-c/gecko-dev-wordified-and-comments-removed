@@ -41,6 +41,8 @@ prototype
         
 )
         
+results
+=
 parser
 .
 finish
@@ -48,7 +50,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -120,6 +121,8 @@ prototype
         
 )
         
+results
+=
 parser
 .
 finish
@@ -127,7 +130,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -199,6 +201,8 @@ true
         
 )
         
+results
+=
 parser
 .
 finish
@@ -206,7 +210,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw

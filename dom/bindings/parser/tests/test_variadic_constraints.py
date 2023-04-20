@@ -48,6 +48,8 @@ arg2
         
 )
         
+results
+=
 parser
 .
 finish
@@ -55,7 +57,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -138,6 +139,8 @@ arg2
         
 )
         
+results
+=
 parser
 .
 finish
@@ -145,7 +148,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -226,6 +228,8 @@ arg1
         
 )
         
+results
+=
 parser
 .
 finish
@@ -233,7 +237,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -315,6 +318,8 @@ arg1
         
 )
         
+results
+=
 parser
 .
 finish
@@ -322,7 +327,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw

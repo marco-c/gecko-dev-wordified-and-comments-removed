@@ -50,6 +50,8 @@ thing1
         
 )
         
+results
+=
 parser
 .
 finish
@@ -57,7 +59,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw

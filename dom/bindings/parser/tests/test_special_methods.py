@@ -633,7 +633,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw

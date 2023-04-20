@@ -1,3 +1,5 @@
+import
+WebIDL
 def
 WebIDLTest
 (
@@ -195,7 +197,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -283,7 +284,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw
@@ -360,7 +360,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw

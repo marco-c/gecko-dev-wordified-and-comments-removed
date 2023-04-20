@@ -970,7 +970,6 @@ finish
 )
     
 except
-Exception
 :
         
 threw

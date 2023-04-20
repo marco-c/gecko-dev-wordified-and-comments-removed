@@ -646,6 +646,8 @@ arg
     
 except
 Exception
+as
+x
 :
         
 threw
@@ -722,6 +724,8 @@ arg
     
 except
 Exception
+as
+x
 :
         
 threw
@@ -805,6 +809,8 @@ arg
     
 except
 Exception
+as
+x
 :
         
 threw
@@ -892,6 +898,8 @@ arg
     
 except
 Exception
+as
+x
 :
         
 threw
@@ -972,6 +980,8 @@ foo
     
 except
 Exception
+as
+x
 :
         
 threw
