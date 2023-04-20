@@ -9845,7 +9845,7 @@ fileutils
 /
 test
 :
-scoped_key_value_config
+run_loop
 "
 "
 .
@@ -9856,7 +9856,7 @@ scoped_key_value_config
 /
 test
 :
-test_common
+scoped_key_value_config
 "
 "
 .
