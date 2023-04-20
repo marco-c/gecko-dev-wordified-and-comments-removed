@@ -33,6 +33,9 @@ use
 crate
 :
 :
+transport
+:
+:
 hidproto
 :
 :

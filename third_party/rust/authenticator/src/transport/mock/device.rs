@@ -1161,6 +1161,7 @@ fn
 is_u2f
 (
 &
+mut
 self
 )
 -
