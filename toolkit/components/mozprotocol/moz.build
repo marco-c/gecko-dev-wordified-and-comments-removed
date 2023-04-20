@@ -24,7 +24,9 @@ EXTRA_JS_MODULES
 "
 MozProtocolHandler
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS
