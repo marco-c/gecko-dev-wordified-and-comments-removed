@@ -2639,15 +2639,6 @@ handleAction
 div
 >
 {
-this
-.
-props
-.
-totalNumberOfScreens
->
-1
-&
-&
 !
 hideStepsIndicator
 ?

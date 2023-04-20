@@ -1448,9 +1448,9 @@ progress_bar
 :
 true
 }
-totalNumberOfScreens
+isSingleScreen
 :
-1
+true
 }
 ;
 const
