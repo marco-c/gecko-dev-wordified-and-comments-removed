@@ -137,6 +137,9 @@ serial
 -
 pass
 "
+"
+strict_asserts
+"
 ]
 [
 dependencies
