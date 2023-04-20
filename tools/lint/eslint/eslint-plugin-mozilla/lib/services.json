@@ -105,6 +105,13 @@ nsICookieService
 cookies
 "
 "
+nsICrashReporter
+"
+:
+"
+appinfo
+"
+"
 nsIDOMRequestService
 "
 :

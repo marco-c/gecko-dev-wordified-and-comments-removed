@@ -139,7 +139,7 @@ reporter
 readonly
 attribute
 boolean
-enabled
+crashReporterEnabled
 ;
 /
 *
