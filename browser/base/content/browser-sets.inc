@@ -229,7 +229,9 @@ oncommand
 "
 BrowserOpenTab
 (
+{
 event
+}
 )
 ;
 "
