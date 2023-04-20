@@ -324,11 +324,7 @@ flag
 predicate
 *
 /
-!
-IsFuzzingIon
-(
-cx
-)
+true
 \
 /
 *
