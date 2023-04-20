@@ -2256,16 +2256,6 @@ candidate
 override
 ;
 void
-ReportSdpFormatReceived
-(
-const
-SessionDescriptionInterface
-&
-remote_description
-)
-override
-;
-void
 ReportSdpBundleUsage
 (
 const

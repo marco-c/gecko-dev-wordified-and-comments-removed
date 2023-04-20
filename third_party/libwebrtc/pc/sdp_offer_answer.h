@@ -2228,15 +2228,6 @@ desc
 )
 ;
 void
-ReportNegotiatedSdpSemantics
-(
-const
-SessionDescriptionInterface
-&
-answer
-)
-;
-void
 UpdateEndedRemoteMediaStreams
 (
 )
