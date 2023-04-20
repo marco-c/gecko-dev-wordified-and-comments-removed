@@ -2570,6 +2570,11 @@ noise_estimator_unittests
 "
 agc2
 :
+speech_level_estimator_unittest
+"
+"
+agc2
+:
 test_utils
 "
 "

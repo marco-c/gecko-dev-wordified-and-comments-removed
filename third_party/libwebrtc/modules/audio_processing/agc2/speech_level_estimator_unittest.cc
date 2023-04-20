@@ -7,7 +7,7 @@ audio_processing
 /
 agc2
 /
-adaptive_mode_level_estimator
+speech_level_estimator
 .
 h
 "
@@ -119,7 +119,7 @@ float
 peak_dbfs
 float
 speech_probability
-AdaptiveModeLevelEstimator
+SpeechLevelEstimator
 &
 level_estimator
 )
@@ -219,7 +219,7 @@ std
 :
 make_unique
 <
-AdaptiveModeLevelEstimator
+SpeechLevelEstimator
 >
 (
 &
@@ -309,7 +309,7 @@ std
 :
 unique_ptr
 <
-AdaptiveModeLevelEstimator
+SpeechLevelEstimator
 >
 estimator
 ;
@@ -329,7 +329,7 @@ level_peak_dbfs
 ;
 TEST
 (
-GainController2AdaptiveModeLevelEstimator
+GainController2SpeechLevelEstimator
 LevelStabilizes
 )
 {
@@ -403,7 +403,7 @@ estimated_level_dbfs
 }
 TEST
 (
-GainController2AdaptiveModeLevelEstimator
+GainController2SpeechLevelEstimator
 IsNotConfident
 )
 {
@@ -446,7 +446,7 @@ IsConfident
 }
 TEST
 (
-GainController2AdaptiveModeLevelEstimator
+GainController2SpeechLevelEstimator
 IsConfident
 )
 {
@@ -487,7 +487,7 @@ IsConfident
 }
 TEST
 (
-GainController2AdaptiveModeLevelEstimator
+GainController2SpeechLevelEstimator
 EstimatorIgnoresNonSpeechFrames
 )
 {
@@ -558,7 +558,7 @@ estimated_level_dbfs
 }
 TEST
 (
-GainController2AdaptiveModeLevelEstimator
+GainController2SpeechLevelEstimator
 ConvergenceSpeedBeforeConfidence
 )
 {
@@ -603,7 +603,7 @@ kConvergenceSpeedTestsLevelTolerance
 }
 TEST
 (
-GainController2AdaptiveModeLevelEstimator
+GainController2SpeechLevelEstimator
 ConvergenceSpeedAfterConfidence
 )
 {
@@ -709,7 +709,7 @@ kConvergenceSpeedTestsLevelTolerance
 ;
 }
 class
-AdaptiveModeLevelEstimatorParametrization
+SpeechLevelEstimatorParametrization
 :
 public
 :
@@ -740,7 +740,7 @@ GetParam
 ;
 TEST_P
 (
-AdaptiveModeLevelEstimatorParametrization
+SpeechLevelEstimatorParametrization
 DoNotAdaptToShortSpeechSegments
 )
 {
@@ -860,7 +860,7 @@ level_dbfs
 }
 TEST_P
 (
-AdaptiveModeLevelEstimatorParametrization
+SpeechLevelEstimatorParametrization
 AdaptToEnoughSpeechSegments
 )
 {
@@ -945,7 +945,7 @@ level_dbfs
 INSTANTIATE_TEST_SUITE_P
 (
 GainController2
-AdaptiveModeLevelEstimatorParametrization
+SpeechLevelEstimatorParametrization
 :
 :
 testing

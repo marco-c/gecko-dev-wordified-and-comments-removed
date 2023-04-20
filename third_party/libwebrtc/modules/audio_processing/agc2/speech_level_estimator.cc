@@ -7,7 +7,7 @@ audio_processing
 /
 agc2
 /
-adaptive_mode_level_estimator
+speech_level_estimator
 .
 h
 "
@@ -134,7 +134,7 @@ headroom_db
 }
 }
 bool
-AdaptiveModeLevelEstimator
+SpeechLevelEstimator
 :
 :
 LevelEstimatorState
@@ -145,7 +145,7 @@ operator
 =
 (
 const
-AdaptiveModeLevelEstimator
+SpeechLevelEstimator
 :
 :
 LevelEstimatorState
@@ -188,7 +188,7 @@ denominator
 ;
 }
 float
-AdaptiveModeLevelEstimator
+SpeechLevelEstimator
 :
 :
 LevelEstimatorState
@@ -216,10 +216,10 @@ numerator
 denominator
 ;
 }
-AdaptiveModeLevelEstimator
+SpeechLevelEstimator
 :
 :
-AdaptiveModeLevelEstimator
+SpeechLevelEstimator
 (
 ApmDataDumper
 *
@@ -278,7 +278,7 @@ Reset
 ;
 }
 void
-AdaptiveModeLevelEstimator
+SpeechLevelEstimator
 :
 :
 Update
@@ -515,7 +515,7 @@ DumpDebugData
 ;
 }
 bool
-AdaptiveModeLevelEstimator
+SpeechLevelEstimator
 :
 :
 IsConfident
@@ -584,7 +584,7 @@ time_to_confidence_ms
 ;
 }
 void
-AdaptiveModeLevelEstimator
+SpeechLevelEstimator
 :
 :
 Reset
@@ -611,7 +611,7 @@ num_adjacent_speech_frames_
 ;
 }
 void
-AdaptiveModeLevelEstimator
+SpeechLevelEstimator
 :
 :
 ResetLevelEstimatorState
@@ -648,7 +648,7 @@ denominator
 ;
 }
 void
-AdaptiveModeLevelEstimator
+SpeechLevelEstimator
 :
 :
 DumpDebugData
