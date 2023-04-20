@@ -263,6 +263,11 @@ DIRS
 "
 system
 /
+commonproxy
+"
+"
+system
+/
 osxproxy
 "
 ]
@@ -283,6 +288,11 @@ DIRS
 +
 =
 [
+"
+system
+/
+commonproxy
+"
 "
 system
 /
