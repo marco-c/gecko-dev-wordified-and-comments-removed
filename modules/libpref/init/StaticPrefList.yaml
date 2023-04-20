@@ -61577,7 +61577,7 @@ RelaxedAtomicBool
 if
 defined
 (
-MOZ_MF_CDM
+MOZ_WMF_CDM
 )
 &
 &
