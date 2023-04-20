@@ -2168,12 +2168,10 @@ const
 EditorDOMPoint
 &
 aPoint
-nsAtom
-*
-aProperty
-nsAtom
-*
-aAttribute
+const
+EditorInlineStyle
+&
+aStyleToRemove
 SpecifiedStyle
 aSpecifiedStyle
 )

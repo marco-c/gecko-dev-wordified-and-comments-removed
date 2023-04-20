@@ -3261,8 +3261,12 @@ AnchorRef
 (
 )
 )
-nullptr
-nullptr
+EditorInlineStyle
+:
+:
+RemoveAllStyles
+(
+)
 SpecifiedStyle
 :
 :
