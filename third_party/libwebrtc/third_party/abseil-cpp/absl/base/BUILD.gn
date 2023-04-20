@@ -880,6 +880,7 @@ type_traits
 "
 ]
 }
+}
 absl_source_set
 (
 "
@@ -939,6 +940,12 @@ absl
 "
 ]
 }
+if
+(
+!
+moz_webrtc_build
+)
+{
 absl_source_set
 (
 "
