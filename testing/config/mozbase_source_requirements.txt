@@ -183,6 +183,15 @@ editable
 /
 mozbase
 /
+mozserve
+-
+-
+editable
+.
+.
+/
+mozbase
+/
 mozscreenshot
 -
 -

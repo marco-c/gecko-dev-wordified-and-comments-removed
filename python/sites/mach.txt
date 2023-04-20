@@ -244,6 +244,13 @@ testing
 /
 mozbase
 /
+mozserve
+pth
+:
+testing
+/
+mozbase
+/
 mozsystemmonitor
 pth
 :

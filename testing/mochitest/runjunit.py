@@ -178,6 +178,18 @@ verbose
 =
 False
         
+self
+.
+http3Server
+=
+None
+        
+self
+.
+dohServer
+=
+None
+        
 if
 (
             
@@ -756,6 +768,14 @@ self
 .
 options
 .
+http3ServerPath
+=
+None
+        
+self
+.
+options
+.
 keep_open
 =
 False
@@ -784,6 +804,14 @@ options
 xrePath
 =
 None
+        
+self
+.
+options
+.
+useHttp3Server
+=
+False
         
 if
 build_obj
