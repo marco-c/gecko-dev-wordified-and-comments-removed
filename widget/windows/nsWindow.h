@@ -1431,6 +1431,14 @@ const
 nsAString
 &
 xulWinType
+const
+nsAString
+&
+xulWinClass
+const
+nsAString
+&
+xulWinName
 )
 override
 ;
