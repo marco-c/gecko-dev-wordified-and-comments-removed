@@ -749,10 +749,10 @@ perOrigin
 {
 min
 :
-100
+50
 max
 :
-102
+51
 }
 ;
 if
