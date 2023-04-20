@@ -28468,6 +28468,10 @@ numFixedSlots_
 shape
 -
 >
+asShared
+(
+)
+.
 numFixedSlots
 (
 )

@@ -5571,7 +5571,7 @@ cx
 ;
 Rooted
 <
-Shape
+NativeShape
 *
 >
 fromShape
@@ -9187,7 +9187,7 @@ cx
 ;
 Rooted
 <
-Shape
+NativeShape
 *
 >
 objShape

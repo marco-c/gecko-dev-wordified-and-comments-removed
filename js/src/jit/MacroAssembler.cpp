@@ -12439,7 +12439,7 @@ and32
 (
 Imm32
 (
-Shape
+NativeShape
 :
 :
 fixedSlotsMask
@@ -12453,7 +12453,7 @@ rshift32
 (
 Imm32
 (
-Shape
+NativeShape
 :
 :
 fixedSlotsShift
@@ -25125,7 +25125,7 @@ offsetOfImmutableFlags
 )
 Imm32
 (
-Shape
+NativeShape
 :
 :
 fixedSlotsMask

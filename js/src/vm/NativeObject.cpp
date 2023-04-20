@@ -6670,6 +6670,10 @@ MOZ_ASSERT
 newShape
 -
 >
+asShared
+(
+)
+.
 lastProperty
 (
 )
@@ -6686,6 +6690,10 @@ cx
 newShape
 -
 >
+asShared
+(
+)
+.
 lastProperty
 (
 )
@@ -6711,6 +6719,10 @@ slot
 newShape
 -
 >
+asShared
+(
+)
+.
 lastProperty
 (
 )
@@ -13456,7 +13468,7 @@ cx
 ;
 Rooted
 <
-Shape
+NativeShape
 *
 >
 fromShape
