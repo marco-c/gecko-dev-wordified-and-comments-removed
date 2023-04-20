@@ -271,6 +271,13 @@ dav1d_decoder
 "
 )
 {
+visibility
+=
+[
+"
+*
+"
+]
 poisonous
 =
 [
