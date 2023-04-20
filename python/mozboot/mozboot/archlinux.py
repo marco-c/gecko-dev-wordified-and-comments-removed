@@ -50,19 +50,6 @@ bootstrapper
 "
 "
     
-SYSTEM_PACKAGES
-=
-[
-"
-base
--
-devel
-"
-"
-unzip
-"
-]
-    
 BROWSER_PACKAGES
 =
 [
@@ -186,20 +173,36 @@ kwargs
 )
     
 def
-install_system_packages
+install_packages
 (
 self
+packages
 )
 :
+        
+packages
+=
+[
+p
+for
+p
+in
+packages
+if
+p
+!
+=
+"
+watchman
+"
+]
         
 self
 .
 pacman_install
 (
 *
-self
-.
-SYSTEM_PACKAGES
+packages
 )
     
 def
