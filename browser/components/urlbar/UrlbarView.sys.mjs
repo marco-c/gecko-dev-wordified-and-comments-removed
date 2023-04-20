@@ -10061,7 +10061,7 @@ _buttons
 has
 (
 "
-block
+help
 "
 )
 |
