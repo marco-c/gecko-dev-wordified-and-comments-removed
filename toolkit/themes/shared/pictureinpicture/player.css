@@ -3548,8 +3548,12 @@ height
 200px
 )
 {
-#
+.
 scrubber
+-
+no
+-
+drag
 {
 display
 :
@@ -3565,8 +3569,12 @@ width
 300px
 )
 {
-#
+.
 scrubber
+-
+no
+-
+drag
 #
 seekForward
 #
