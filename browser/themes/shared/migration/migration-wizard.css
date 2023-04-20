@@ -123,6 +123,13 @@ border
 ;
 }
 label
+:
+not
+(
+[
+hidden
+]
+)
 {
 display
 :
