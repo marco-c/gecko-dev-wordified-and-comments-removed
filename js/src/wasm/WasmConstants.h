@@ -154,6 +154,9 @@ Array
 BlockVoid
 =
 0x40
+RecGroup
+=
+0x45
 Limit
 =
 0x80
@@ -2538,6 +2541,13 @@ MaxTypeIndex
 ;
 #
 endif
+static
+const
+unsigned
+MaxRecGroups
+=
+1000000
+;
 static
 const
 unsigned

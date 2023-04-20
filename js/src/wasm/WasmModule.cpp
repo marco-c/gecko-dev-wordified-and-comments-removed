@@ -2806,10 +2806,15 @@ i
 ;
 if
 (
-exportFuncType
 !
-=
+FuncType
+:
+:
+strictlyEquals
+(
+exportFuncType
 importFuncType
+)
 )
 {
 const
