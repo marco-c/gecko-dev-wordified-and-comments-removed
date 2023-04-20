@@ -1234,6 +1234,8 @@ so
 NUM_DROPS
 has
 been
+/
+/
 incremented
 .
 assert_eq
@@ -1631,7 +1633,7 @@ Rust
 *
 1
 .
-54
+56
 *
 *
 and
