@@ -1066,13 +1066,6 @@ h
 #
 include
 "
-nsMenuFrame
-.
-h
-"
-#
-include
-"
 nsTreeBodyFrame
 .
 h
@@ -41459,6 +41452,8 @@ WidgetMouseEvent
 aMouseEvent
 )
 {
+if
+(
 nsXULPopupManager
 *
 pm
@@ -41469,10 +41464,6 @@ nsXULPopupManager
 GetInstance
 (
 )
-;
-if
-(
-pm
 )
 {
 nsIFrame
@@ -41508,7 +41499,7 @@ popupFrame
 )
 -
 >
-GetCurrentMenuItem
+GetCurrentMenuItemFrame
 (
 )
 ;

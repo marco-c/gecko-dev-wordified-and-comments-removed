@@ -126,11 +126,6 @@ nsMenuBarListener
 cpp
 "
 "
-nsMenuFrame
-.
-cpp
-"
-"
 nsMenuPopupFrame
 .
 cpp
