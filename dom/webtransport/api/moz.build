@@ -36,6 +36,11 @@ WebTransportSendStream
 .
 h
 "
+"
+WebTransportStreams
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -58,6 +63,11 @@ cpp
 "
 "
 WebTransportError
+.
+cpp
+"
+"
+WebTransportStreams
 .
 cpp
 "
