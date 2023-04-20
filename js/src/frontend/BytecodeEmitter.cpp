@@ -44298,6 +44298,7 @@ StringBuffer
 storedMethodName
 (
 cx
+ec
 )
 ;
 if
