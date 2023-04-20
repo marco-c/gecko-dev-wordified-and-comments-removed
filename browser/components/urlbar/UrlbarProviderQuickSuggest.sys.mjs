@@ -526,6 +526,9 @@ tag
 "
 span
 "
+overflowable
+:
+true
 children
 :
 [
@@ -651,6 +654,9 @@ tag
 "
 span
 "
+overflowable
+:
+true
 children
 :
 [
