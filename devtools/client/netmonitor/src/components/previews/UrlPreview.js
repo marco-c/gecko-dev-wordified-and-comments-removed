@@ -1261,8 +1261,12 @@ return
 map
 ;
 }
-{
-}
+Object
+.
+create
+(
+null
+)
 )
 ;
 }
