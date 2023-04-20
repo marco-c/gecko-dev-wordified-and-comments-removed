@@ -493,7 +493,7 @@ string
 output_checksum
 =
 "
-919e5eb3ba901192878f2354b981a15508c8373c
+fec6827bb9ee0b21770bbbb4a3a6f8823bf537dc
 |
 "
 "
@@ -508,7 +508,7 @@ string
 network_stats_checksum
 =
 "
-3d043e47e5f4bb81d37e7bce8c44bf802965c853
+076662525572dba753b11578330bd491923f7f5e
 "
 ;
 DecodeAndCompare
@@ -602,7 +602,7 @@ string
 output_checksum
 =
 "
-5cea4a8e750842ac67b79e8e2ce6a0a1c01f8130
+b3c4899eab5378ef5e54f2302948872149f6ad5e
 |
 "
 "
