@@ -80080,7 +80080,7 @@ nativeToBytecodeScriptList_
 entry
 -
 >
-ionEntry
+asIon
 (
 )
 )
