@@ -996,6 +996,12 @@ selector
 null
 )
 ;
+readonly
+attribute
+RTCSctpTransport
+?
+sctp
+;
 /
 /
 Data
