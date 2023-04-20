@@ -548,11 +548,9 @@ recordInstruction
 MacroAssembler
 &
 masm
-LNode
-:
-:
-Opcode
-op
+LInstruction
+*
+ins
 )
 ;
 void
