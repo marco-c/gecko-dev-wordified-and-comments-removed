@@ -5312,12 +5312,10 @@ result
 >
 SetAsBool
 (
-navHistory
--
->
-IsFrecencyDecaying
-(
-)
+nsNavHistory
+:
+:
+sIsFrecencyDecaying
 )
 ;
 NS_ENSURE_SUCCESS
