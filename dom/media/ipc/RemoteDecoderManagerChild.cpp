@@ -2548,9 +2548,7 @@ p
 >
 Then
 (
-GetCurrentSerialEventTarget
-(
-)
+managerThread
 __func__
 [
 ]
@@ -2977,9 +2975,7 @@ p
 >
 Then
 (
-GetCurrentSerialEventTarget
-(
-)
+managerThread
 __func__
 [
 aLocation
