@@ -5373,7 +5373,7 @@ StyleFONT_STRETCH_FRACTION_BITS
 "
 "
 "
-ScrollTimelineName
+AnimationName
 "
 =
 "
@@ -5381,7 +5381,7 @@ ScrollTimelineName
 "
 public
 :
-StyleScrollTimelineName
+StyleAnimationName
 (
 )
 :
