@@ -217,6 +217,9 @@ false
 WorkerKindDedicated
 aOptions
 .
+mType
+aOptions
+.
 mName
 VoidCString
 (
