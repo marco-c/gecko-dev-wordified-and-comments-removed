@@ -614,6 +614,17 @@ CloseInputAndReleaseObjects
 )
 ;
 }
+BodyStreamHolder
+*
+GetBodyStreamHolder
+(
+)
+override
+{
+return
+mUnderlyingSource
+;
+}
 protected
 :
 ~

@@ -165,6 +165,17 @@ ReleaseObjects
 )
 {
 }
+virtual
+BodyStreamHolder
+*
+GetBodyStreamHolder
+(
+)
+{
+return
+nullptr
+;
+}
 protected
 :
 virtual
