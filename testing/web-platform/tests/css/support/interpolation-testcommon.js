@@ -389,8 +389,9 @@ expectFlip
 (
 from
 to
--
-Infinity
+0
+.
+5
 )
 ;
 }
