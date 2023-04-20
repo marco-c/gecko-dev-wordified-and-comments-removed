@@ -209,7 +209,7 @@ SetValidationOptionsCommon
 )
 ;
 void
-NSSShutdownForSocketProcess
+PrepareForShutdownInSocketProcess
 (
 )
 ;
@@ -297,7 +297,7 @@ InitializeNSS
 )
 ;
 void
-ShutdownNSS
+PrepareForShutdown
 (
 )
 ;
@@ -490,9 +490,6 @@ mMutex
 static
 int
 mInstanceCount
-;
-bool
-mLoadLoadableCertsTaskDispatched
 ;
 nsCOMPtr
 <

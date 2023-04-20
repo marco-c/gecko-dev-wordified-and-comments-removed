@@ -7710,7 +7710,7 @@ gCallbackSecurityPrefs
 this
 )
 ;
-NSSShutdownForSocketProcess
+PrepareForShutdownInSocketProcess
 (
 )
 ;
