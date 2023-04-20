@@ -1985,6 +1985,11 @@ if
 PrincipalOrNull
 (
 )
+&
+&
+PrincipalOrNull
+(
+)
 -
 >
 IsSystemPrincipal
