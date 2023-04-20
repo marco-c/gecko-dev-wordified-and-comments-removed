@@ -53,10 +53,12 @@ PortInterface
 :
 SupportsProtocol
 (
-absl
+const
+std
 :
 :
-string_view
+string
+&
 protocol
 )
 const
@@ -64,10 +66,10 @@ const
 return
 SupportsProtocol
 (
-std
+absl
 :
 :
-string
+string_view
 (
 protocol
 )
