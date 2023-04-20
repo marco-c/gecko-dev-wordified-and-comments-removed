@@ -194,10 +194,6 @@ button
 "
 }
 }
-topSites
-:
-[
-]
 messageId
 :
 "
