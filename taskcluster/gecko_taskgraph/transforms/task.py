@@ -64,6 +64,10 @@ import
 re
 import
 time
+from
+copy
+import
+deepcopy
 import
 attr
 from
@@ -166,14 +170,6 @@ import
 TRUNK_PROJECTS
 is_try
 release_level
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 from
 gecko_taskgraph
 .
@@ -3414,29 +3410,6 @@ utcnow
 (
 )
         
-task_exp
-=
-task_def
-[
-"
-expires
-"
-]
-[
-"
-relative
--
-datestamp
-"
-]
-        
-task_exp_from_now
-=
-fromNow
-(
-task_exp
-)
-        
 for
 artifact
 in
@@ -3462,8 +3435,26 @@ after
 expires_policy
 )
             
+task_exp
+=
+task_def
+[
+"
+expires
+"
+]
+[
+"
+relative
+-
+datestamp
+"
+]
+            
 expires
 =
+(
+                
 art_exp
 if
 fromNow
@@ -3472,9 +3463,15 @@ art_exp
 now
 )
 <
-task_exp_from_now
+fromNow
+(
+task_exp
+now
+)
 else
 task_exp
+            
+)
             
 artifacts
 [
@@ -4750,29 +4747,6 @@ utcnow
 (
 )
     
-task_exp
-=
-task_def
-[
-"
-expires
-"
-]
-[
-"
-relative
--
-datestamp
-"
-]
-    
-task_exp_from_now
-=
-fromNow
-(
-task_exp
-)
-    
 for
 artifact
 in
@@ -4820,6 +4794,8 @@ datestamp
         
 expires
 =
+(
+            
 art_exp
 if
 fromNow
@@ -4828,9 +4804,15 @@ art_exp
 now
 )
 <
-task_exp_from_now
+fromNow
+(
+task_exp
+now
+)
 else
 task_exp
+        
+)
         
 a
 =
@@ -4923,7 +4905,7 @@ artifacts
     
 mounts
 =
-copy_task
+deepcopy
 (
 worker
 .

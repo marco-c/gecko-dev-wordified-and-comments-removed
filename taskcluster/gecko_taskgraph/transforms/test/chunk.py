@@ -1,4 +1,6 @@
 import
+copy
+import
 taskgraph
 from
 taskgraph
@@ -52,14 +54,6 @@ get_runtimes
     
 guess_mozinfo_from_task
 )
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 from
 gecko_taskgraph
 .
@@ -1156,7 +1150,9 @@ i
             
 chunked
 =
-copy_task
+copy
+.
+deepcopy
 (
 task
 )

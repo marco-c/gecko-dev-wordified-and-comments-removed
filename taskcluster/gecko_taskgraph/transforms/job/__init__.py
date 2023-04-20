@@ -57,6 +57,8 @@ job
 "
 "
 import
+copy
+import
 json
 import
 logging
@@ -123,14 +125,6 @@ transforms
 task
 import
 task_description_schema
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 from
 gecko_taskgraph
 .
@@ -1455,7 +1449,9 @@ worker
         
 taskdesc
 =
-copy_task
+copy
+.
+deepcopy
 (
 job
 )

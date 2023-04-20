@@ -1,4 +1,8 @@
 from
+copy
+import
+deepcopy
+from
 taskgraph
 .
 transforms
@@ -39,14 +43,6 @@ transforms
 test
 import
 test_description_schema
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 transforms
 =
 TransformSequence
@@ -641,7 +637,7 @@ continue
             
 atest
 =
-copy_task
+deepcopy
 (
 test
 )
@@ -889,19 +885,24 @@ test
             
 continue
         
-for
 chunk_number
+=
+0
+        
+for
 subtest
 in
-enumerate
-(
 subtests
-)
 :
+            
+chunk_number
++
+=
+1
             
 chunked
 =
-copy_task
+deepcopy
 (
 test
 )
@@ -1226,7 +1227,7 @@ symbol
 %
 s
 is
-larger
+lager
 than
 10
 char
@@ -1498,6 +1499,10 @@ options
             
 )
             
+ind
+=
+None
+            
 for
 i
 opt
@@ -1518,14 +1523,22 @@ in
 opt
 :
                     
+ind
+=
+i
+                    
+break
+            
+if
+ind
+:
+                
 extra_options
 .
 pop
 (
-i
+ind
 )
-                    
-break
         
 if
 "
@@ -1562,6 +1575,10 @@ options
             
 )
             
+ind
+=
+None
+            
 for
 i
 opt
@@ -1586,9 +1603,19 @@ in
 opt
 :
                     
+ind
+=
+i
+                    
+break
+            
+if
+ind
+:
+                
 extra_options
 [
-i
+ind
 ]
 +
 =
@@ -1596,8 +1623,6 @@ i
 -
 youtube
 "
-                    
-break
         
 if
 "
@@ -1635,6 +1660,10 @@ options
             
 )
             
+ind
+=
+None
+            
 for
 i
 opt
@@ -1657,14 +1686,22 @@ in
 opt
 :
                     
+ind
+=
+i
+                    
+break
+            
+if
+ind
+:
+                
 extra_options
 .
 pop
 (
-i
+ind
 )
-                    
-break
         
 yield
 test

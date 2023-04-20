@@ -1,3 +1,5 @@
+import
+copy
 from
 taskgraph
 .
@@ -16,14 +18,6 @@ from
 voluptuous
 import
 Required
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 schema
 =
 Schema
@@ -420,7 +414,9 @@ job
 .
 update
 (
-copy_task
+copy
+.
+deepcopy
 (
 job_template
 )

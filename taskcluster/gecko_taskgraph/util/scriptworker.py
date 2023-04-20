@@ -152,6 +152,10 @@ json
 import
 os
 from
+copy
+import
+deepcopy
+from
 datetime
 import
 datetime
@@ -187,14 +191,6 @@ util
 yaml
 import
 load_yaml
-from
-gecko_taskgraph
-.
-util
-.
-copy_task
-import
-copy_task
 "
 "
 "
@@ -2337,6 +2333,8 @@ platform
     
 map_config
 =
+deepcopy
+(
 cached_load_yaml
 (
 job
@@ -2350,6 +2348,7 @@ attributes
 artifact_map
 "
 ]
+)
 )
     
 upstream_artifacts
@@ -2365,15 +2364,12 @@ locale
         
 locales
 =
-copy_task
-(
 map_config
 [
 "
 default_locales
 "
 ]
-)
     
 elif
 isinstance
@@ -2658,7 +2654,7 @@ continue
             
 file_config
 =
-copy_task
+deepcopy
 (
 map_config
 [
@@ -2865,8 +2861,6 @@ dep
 taskType
 "
 :
-copy_task
-(
 map_config
 [
 "
@@ -2877,7 +2871,6 @@ tasktype_map
 get
 (
 dep
-)
 )
                 
 "
@@ -3082,7 +3075,7 @@ platform
     
 map_config
 =
-copy_task
+deepcopy
 (
 cached_load_yaml
 (
@@ -3398,7 +3391,7 @@ continue
             
 file_config
 =
-copy_task
+deepcopy
 (
 map_config
 [
@@ -3669,7 +3662,7 @@ continue
         
 platforms
 =
-copy_task
+deepcopy
 (
 map_config
 .
@@ -4079,7 +4072,7 @@ platform
     
 map_config
 =
-copy_task
+deepcopy
 (
 cached_load_yaml
 (
@@ -4185,7 +4178,7 @@ platform
     
 platforms
 =
-copy_task
+deepcopy
 (
 map_config
 .
@@ -4341,7 +4334,7 @@ continue
             
 file_config
 =
-copy_task
+deepcopy
 (
 map_config
 [
