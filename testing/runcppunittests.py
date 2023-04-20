@@ -922,6 +922,10 @@ pathvar
 =
 libpath
         
+symbolizer_path
+=
+None
+        
 if
 mozinfo
 .
@@ -933,10 +937,38 @@ asan
 ]
 :
             
-if
+symbolizer_path
+=
 "
 ASAN_SYMBOLIZER_PATH
 "
+        
+elif
+mozinfo
+.
+info
+[
+"
+tsan
+"
+]
+:
+            
+symbolizer_path
+=
+"
+TSAN_SYMBOLIZER_PATH
+"
+        
+if
+symbolizer_path
+is
+not
+None
+:
+            
+if
+symbolizer_path
 in
 env
 and
@@ -946,14 +978,10 @@ path
 .
 isfile
 (
-                
 env
 [
-"
-ASAN_SYMBOLIZER_PATH
-"
+symbolizer_path
 ]
-            
 )
 :
                 
@@ -961,9 +989,7 @@ llvmsym
 =
 env
 [
-"
-ASAN_SYMBOLIZER_PATH
-"
+symbolizer_path
 ]
             
 else
@@ -1011,9 +1037,7 @@ llvmsym
                 
 env
 [
-"
-ASAN_SYMBOLIZER_PATH
-"
+symbolizer_path
 ]
 =
 llvmsym
@@ -1025,8 +1049,8 @@ log
 info
 (
 "
-ASan
-using
+Using
+LLVM
 symbolizer
 at
 %
@@ -1049,7 +1073,7 @@ info
 Failed
 to
 find
-ASan
+LLVM
 symbolizer
 at
 %
