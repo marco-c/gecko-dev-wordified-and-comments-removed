@@ -33,7 +33,7 @@ SiteDataTestUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -46,9 +46,7 @@ common
 /
 SiteDataTestUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
