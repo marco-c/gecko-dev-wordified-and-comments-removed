@@ -415,6 +415,7 @@ init
 aParent
 aTitle
 aInitialColor
+aDefaultColors
 )
 {
 this
@@ -428,6 +429,12 @@ this
 initialColor
 =
 aInitialColor
+;
+this
+.
+defaultColors
+=
+aDefaultColors
 ;
 }
 initialColor

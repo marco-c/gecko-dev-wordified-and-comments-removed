@@ -1861,6 +1861,13 @@ const
 nsString
 &
 aInitialColor
+const
+nsTArray
+<
+nsString
+>
+&
+aDefaultColors
 )
 ;
 bool

@@ -1782,6 +1782,10 @@ nsString
 title
 nsString
 initialColor
+nsString
+[
+]
+defaultColors
 )
 ;
 async
