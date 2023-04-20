@@ -8831,6 +8831,9 @@ true
 android
 :
 false
+nightlyAndroid
+:
+true
 }
 {
 name
