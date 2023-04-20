@@ -2601,7 +2601,6 @@ sharedData
 .
 addAndShare
 (
-cx
 fc
 scriptIndex
 sharedData
