@@ -1364,7 +1364,7 @@ remote
 settings
 "
 "
-bucket
+collection
 "
 :
 "

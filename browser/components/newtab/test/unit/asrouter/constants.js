@@ -414,10 +414,10 @@ remote
 -
 settings
 "
-bucket
+collection
 :
 "
-bucketname
+collectionname
 "
 enabled
 :

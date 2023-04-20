@@ -944,7 +944,7 @@ remote
 -
 settings
 "
-bucket
+collection
 :
 "
 cfr

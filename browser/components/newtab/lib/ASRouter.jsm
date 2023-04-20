@@ -1420,7 +1420,7 @@ if
 (
 provider
 .
-bucket
+collection
 )
 {
 try
@@ -1434,7 +1434,7 @@ _getRemoteSettingsMessages
 (
 provider
 .
-bucket
+collection
 )
 ;
 if
@@ -1640,13 +1640,13 @@ messages
 }
 _getRemoteSettingsMessages
 (
-bucket
+collection
 )
 {
 return
 RemoteSettings
 (
-bucket
+collection
 )
 .
 get

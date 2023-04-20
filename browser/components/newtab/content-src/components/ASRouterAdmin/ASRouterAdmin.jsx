@@ -7374,7 +7374,7 @@ settings
 {
 provider
 .
-bucket
+collection
 }
 )
 ;

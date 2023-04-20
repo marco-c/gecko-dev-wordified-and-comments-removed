@@ -264,7 +264,7 @@ remote
 settings
 "
 "
-bucket
+collection
 "
 :
 "
@@ -667,7 +667,7 @@ remote
 settings
 "
 "
-bucket
+collection
 "
 :
 "

@@ -10322,7 +10322,7 @@ settings
 {
 provider
 .
-bucket
+collection
 }
 )
 ;
