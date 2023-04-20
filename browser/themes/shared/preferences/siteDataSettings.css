@@ -70,6 +70,11 @@ dialog
 #
 sitesList
 {
+flex
+:
+1
+auto
+;
 height
 :
 20em
