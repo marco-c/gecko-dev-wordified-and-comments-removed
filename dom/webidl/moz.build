@@ -6193,11 +6193,6 @@ RTCStatsReport
 webidl
 "
 "
-WebrtcDeprecated
-.
-webidl
-"
-"
 WebrtcGlobalInformation
 .
 webidl
