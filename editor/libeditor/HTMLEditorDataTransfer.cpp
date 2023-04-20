@@ -8895,14 +8895,10 @@ warningFlag
 Editor
 "
 _ns
-mPointToInsert
-.
-GetContainer
-(
-)
+mHTMLEditor
 -
 >
-OwnerDoc
+GetDocument
 (
 )
 nsContentUtils
