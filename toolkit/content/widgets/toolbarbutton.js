@@ -224,7 +224,7 @@ text
 crop
 =
 "
-right
+end
 "
 flex
 =
@@ -328,7 +328,7 @@ text
 crop
 =
 "
-right
+end
 "
 flex
 =

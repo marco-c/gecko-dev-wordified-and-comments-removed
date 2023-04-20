@@ -520,7 +520,7 @@ label
 crop
 =
 "
-right
+end
 "
 flex
 =
@@ -551,7 +551,7 @@ label
 crop
 =
 "
-right
+end
 "
 flex
 =
