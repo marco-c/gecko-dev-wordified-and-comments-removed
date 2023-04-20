@@ -1286,6 +1286,7 @@ if
 (
 MOZ_UNLIKELY
 (
+!
 mTrackingId
 )
 )
