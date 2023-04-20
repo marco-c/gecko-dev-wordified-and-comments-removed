@@ -3,14 +3,14 @@ __future__
 import
 absolute_import
 print_function
+import
+os
 from
 jinja2
 import
 Environment
 FileSystemLoader
 StrictUndefined
-import
-os
 def
 main
 (
