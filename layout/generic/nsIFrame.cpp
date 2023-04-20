@@ -42632,12 +42632,8 @@ child
 aFrame
 -
 >
-GetChildList
+PrincipalChildList
 (
-nsIFrame
-:
-:
-kPrincipalList
 )
 .
 LastChild
