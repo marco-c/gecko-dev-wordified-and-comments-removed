@@ -31534,6 +31534,15 @@ html
 ref
 .
 html
+skip
+-
+if
+(
+Android
+&
+&
+emulator
+)
 =
 =
 1024473
