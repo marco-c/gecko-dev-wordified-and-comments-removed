@@ -121,6 +121,13 @@ agent
 index
 components
 /
+migration
+/
+docs
+/
+index
+components
+/
 pagedata
 /
 docs
