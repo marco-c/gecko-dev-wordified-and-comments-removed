@@ -847,12 +847,6 @@ GetLayoutScrollRange
 const
 ;
 nsRect
-GetUnsnappedLayoutScrollRange
-(
-)
-const
-;
-nsRect
 GetScrollRange
 (
 nscoord
@@ -1467,7 +1461,7 @@ GetScrolledRect
 const
 ;
 nsRect
-GetUnsnappedScrolledRectInternal
+GetScrolledRectInternal
 (
 const
 nsRect
