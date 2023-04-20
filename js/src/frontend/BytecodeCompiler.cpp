@@ -1128,6 +1128,7 @@ source
 >
 assignSource
 (
+cx
 ec
 input
 .
@@ -3521,6 +3522,7 @@ source
 >
 assignSource
 (
+cx
 ec
 options
 sourceBuffer_
@@ -6025,6 +6027,7 @@ make_unique
 ExtensibleCompilationStencil
 >
 (
+cx
 input
 )
 ;
