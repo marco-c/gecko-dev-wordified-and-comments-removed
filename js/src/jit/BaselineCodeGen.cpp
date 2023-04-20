@@ -15730,6 +15730,7 @@ frame
 push
 (
 R1
+JSVAL_TYPE_BOOLEAN
 )
 ;
 return
@@ -15822,6 +15823,7 @@ frame
 push
 (
 R0
+JSVAL_TYPE_BOOLEAN
 )
 ;
 return
@@ -15868,6 +15870,7 @@ frame
 push
 (
 R0
+JSVAL_TYPE_BOOLEAN
 )
 ;
 return
@@ -15942,6 +15945,7 @@ frame
 push
 (
 R0
+JSVAL_TYPE_BOOLEAN
 )
 ;
 return
@@ -17182,6 +17186,7 @@ frame
 push
 (
 R1
+JSVAL_TYPE_BOOLEAN
 )
 ;
 return
@@ -22508,6 +22513,7 @@ frame
 push
 (
 R0
+JSVAL_TYPE_BOOLEAN
 )
 ;
 return
@@ -25199,6 +25205,7 @@ frame
 push
 (
 R0
+JSVAL_TYPE_BOOLEAN
 )
 ;
 return
