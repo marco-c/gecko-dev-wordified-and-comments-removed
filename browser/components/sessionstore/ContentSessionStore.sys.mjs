@@ -3721,7 +3721,9 @@ onLoadFinished
 Tell
 SessionStore
 .
-jsm
+sys
+.
+mjs
 that
 it
 may
@@ -3800,7 +3802,9 @@ message
 to
 SessionStore
 .
-jsm
+sys
+.
+mjs
 so
 that
 it
@@ -3965,7 +3969,9 @@ back
 to
 SessionStore
 .
-jsm
+sys
+.
+mjs
 .
 let
 didStartLoad
@@ -3988,7 +3994,9 @@ isRemotenessUpdate
 Tell
 SessionStore
 .
-jsm
+sys
+.
+mjs
 that
 it
 may

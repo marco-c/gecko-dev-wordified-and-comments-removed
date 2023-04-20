@@ -132,7 +132,9 @@ handled
 by
 SessionStore
 .
-jsm
+sys
+.
+mjs
 .
 The
 functions
@@ -155,7 +157,9 @@ received
 from
 SessionStore
 .
-jsm
+sys
+.
+mjs
 *
 (
 or
@@ -283,7 +287,9 @@ message
 to
 SessionStore
 .
-jsm
+sys
+.
+mjs
 which
 may
 cause
@@ -342,7 +348,9 @@ any
 time
 SessionStore
 .
-jsm
+sys
+.
+mjs
 can
 cancel
 the
@@ -2290,7 +2298,9 @@ to
 *
 SessionStore
 .
-jsm
+sys
+.
+mjs
 so
 that
 it
@@ -2699,7 +2709,9 @@ class
 informs
 SessionStore
 .
-jsm
+sys
+.
+mjs
 whenever
 the
 network
@@ -2728,7 +2740,9 @@ signal
 for
 SessionStore
 .
-jsm
+sys
+.
+mjs
 to
 kick
 off

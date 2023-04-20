@@ -937,7 +937,9 @@ Called
 from
 SessionStore
 .
-jsm
+sys
+.
+mjs
 in
 mozilla
 -
@@ -1003,7 +1005,9 @@ Called
 from
 SessionStore
 .
-jsm
+sys
+.
+mjs
 in
 mozilla
 -
