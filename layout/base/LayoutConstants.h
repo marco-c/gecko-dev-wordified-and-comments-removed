@@ -143,7 +143,6 @@ class
 ContentRelevancyReason
 {
 Visible
-DescendantOfTopLayerElement
 FocusInSubtree
 Selected
 }
