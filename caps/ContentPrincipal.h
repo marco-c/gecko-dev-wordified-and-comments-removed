@@ -185,6 +185,9 @@ const
 nsACString
 &
 aOriginNoSuffix
+nsIURI
+*
+aInitialDomain
 )
 ;
 ContentPrincipal

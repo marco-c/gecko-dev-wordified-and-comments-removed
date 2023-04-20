@@ -5342,6 +5342,9 @@ const
 OriginAttributes
 &
 aAttrs
+nsIURI
+*
+aInitialDomain
 )
 {
 MOZ_ASSERT
@@ -5388,6 +5391,7 @@ CreateContentPrincipal
 aURI
 aAttrs
 originNoSuffix
+aInitialDomain
 )
 ;
 }
@@ -5411,6 +5415,9 @@ const
 nsACString
 &
 aOriginNoSuffix
+nsIURI
+*
+aInitialDomain
 )
 {
 MOZ_ASSERT
@@ -5546,6 +5553,7 @@ CreateContentPrincipal
 (
 origin
 attrs
+aInitialDomain
 )
 ;
 return
@@ -5587,6 +5595,24 @@ MOZ_ASSERT
 blobPrincipal
 )
 ;
+MOZ_ASSERT
+(
+!
+aInitialDomain
+"
+an
+initial
+domain
+for
+a
+blob
+URI
+makes
+no
+sense
+"
+)
+;
 RefPtr
 <
 BasePrincipal
@@ -5618,6 +5644,7 @@ ContentPrincipal
 aURI
 aAttrs
 aOriginNoSuffix
+aInitialDomain
 )
 ;
 return
@@ -5824,6 +5851,7 @@ ContentPrincipal
 uri
 aOriginAttributes
 originNoSuffix
+nullptr
 )
 ;
 return

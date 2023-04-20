@@ -1124,6 +1124,11 @@ const
 OriginAttributes
 &
 aAttrs
+nsIURI
+*
+aInitialDomain
+=
+nullptr
 )
 ;
 const
@@ -1579,6 +1584,9 @@ const
 nsACString
 &
 aOriginNoSuffix
+nsIURI
+*
+aInitialDomain
 )
 ;
 bool
