@@ -38077,15 +38077,6 @@ handleEvent
 event
 )
 {
-let
-fullZoom
-=
-window
-.
-windowUtils
-.
-fullZoom
-;
 this
 .
 _x
@@ -38093,8 +38084,6 @@ _x
 event
 .
 screenX
-/
-fullZoom
 -
 window
 .
@@ -38107,8 +38096,6 @@ _y
 event
 .
 screenY
-/
-fullZoom
 -
 window
 .
