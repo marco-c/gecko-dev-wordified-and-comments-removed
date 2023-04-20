@@ -689,6 +689,7 @@ tab
 remote_tab
 addon
 tip_onboard
+tip_persist
 tip_redirect
 tip_unknown
 intervention_clear
@@ -1288,6 +1289,7 @@ tab
 remote_tab
 addon
 tip_onboard
+tip_persist
 tip_redirect
 tip_unknown
 intervention_clear
@@ -1599,6 +1601,7 @@ tab
 remote_tab
 addon
 tip_onboard
+tip_persist
 tip_redirect
 tip_unknown
 intervention_clear
@@ -2310,6 +2313,7 @@ tab
 remote_tab
 addon
 tip_onboard
+tip_persist
 tip_redirect
 tip_unknown
 intervention_clear
