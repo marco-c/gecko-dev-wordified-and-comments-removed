@@ -17,6 +17,11 @@ UNIFIED_SOURCES
 =
 [
 "
+FileSystemDatabaseManager
+.
+cpp
+"
+"
 FileSystemDatabaseManagerVersion001
 .
 cpp
