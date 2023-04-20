@@ -416,7 +416,7 @@ const
 VideoBitrateAllocation
 &
 target_bitrate
-SpatialLayer
+SimulcastStream
 simulcast_streams
 [
 kMaxSimulcastStreams

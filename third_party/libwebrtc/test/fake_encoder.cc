@@ -458,7 +458,7 @@ unsigned
 char
 num_simulcast_streams
 ;
-SpatialLayer
+SimulcastStream
 simulcast_streams
 [
 kMaxSimulcastStreams
@@ -893,7 +893,7 @@ const
 VideoBitrateAllocation
 &
 target_bitrate
-SpatialLayer
+SimulcastStream
 simulcast_streams
 [
 kMaxSimulcastStreams

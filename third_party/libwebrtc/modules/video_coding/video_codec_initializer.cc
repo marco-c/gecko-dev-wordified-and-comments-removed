@@ -581,7 +581,7 @@ size
 i
 )
 {
-SpatialLayer
+SimulcastStream
 *
 sim_stream
 =

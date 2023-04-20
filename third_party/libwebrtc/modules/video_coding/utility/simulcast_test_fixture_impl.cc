@@ -1124,7 +1124,7 @@ int
 target_bitrate
 float
 max_framerate
-SpatialLayer
+SimulcastStream
 *
 stream
 int

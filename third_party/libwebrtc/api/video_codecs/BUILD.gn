@@ -188,6 +188,11 @@ sdp_video_format
 h
 "
 "
+simulcast_stream
+.
+h
+"
+"
 spatial_layer
 .
 cc
