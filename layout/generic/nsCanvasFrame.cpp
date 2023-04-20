@@ -1198,7 +1198,10 @@ NS_ASSERTION
 aListID
 !
 =
-kPrincipalList
+FrameChildListID
+:
+:
+Principal
 |
 |
 aChildList
@@ -1266,7 +1269,10 @@ MOZ_ASSERT
 aListID
 =
 =
-kPrincipalList
+FrameChildListID
+:
+:
+Principal
 "
 unexpected
 child
@@ -1411,7 +1417,10 @@ MOZ_ASSERT
 aListID
 =
 =
-kPrincipalList
+FrameChildListID
+:
+:
+Principal
 "
 unexpected
 child

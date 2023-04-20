@@ -5140,7 +5140,10 @@ MOZ_ASSERT
 (
 GetChildList
 (
-kOverflowContainersList
+FrameChildListID
+:
+:
+OverflowContainers
 )
 .
 IsEmpty
@@ -5150,7 +5153,10 @@ IsEmpty
 &
 GetChildList
 (
-kExcessOverflowContainersList
+FrameChildListID
+:
+:
+ExcessOverflowContainers
 )
 .
 IsEmpty
@@ -5499,7 +5505,10 @@ MOZ_ASSERT
 aListID
 !
 =
-kPrincipalList
+FrameChildListID
+:
+:
+Principal
 |
 |
 aChildList

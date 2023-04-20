@@ -738,7 +738,10 @@ MOZ_ASSERT
 mChildListID
 =
 =
-kFixedList
+FrameChildListID
+:
+:
+Fixed
 )
 ;
 aOverflowAreas

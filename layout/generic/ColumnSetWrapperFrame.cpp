@@ -265,8 +265,14 @@ listIDs
 ]
 =
 {
-kPrincipalList
-kOverflowList
+FrameChildListID
+:
+:
+Principal
+FrameChildListID
+:
+:
+Overflow
 }
 ;
 for

@@ -3087,7 +3087,10 @@ newParent
 >
 InsertFrames
 (
-kNoReflowPrincipalList
+FrameChildListID
+:
+:
+NoReflowPrincipal
 nullptr
 nullptr
 std
@@ -3146,7 +3149,10 @@ grandparent
 >
 InsertFrames
 (
-kNoReflowPrincipalList
+FrameChildListID
+:
+:
+NoReflowPrincipal
 parent
 parentLine
 nsFrameList
@@ -3650,7 +3656,10 @@ parent
 >
 InsertFrames
 (
-kNoReflowPrincipalList
+FrameChildListID
+:
+:
+NoReflowPrincipal
 aFrame
 parentLine
 nsFrameList
@@ -6389,7 +6398,10 @@ frame
 >
 GetChildList
 (
-kOverflowList
+FrameChildListID
+:
+:
+Overflow
 )
 .
 FirstChild

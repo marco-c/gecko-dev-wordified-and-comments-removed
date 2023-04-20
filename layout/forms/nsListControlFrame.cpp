@@ -2679,7 +2679,10 @@ if
 aListID
 =
 =
-kPrincipalList
+FrameChildListID
+:
+:
+Principal
 )
 {
 mIsAllContentHere

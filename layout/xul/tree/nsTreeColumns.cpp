@@ -2292,7 +2292,10 @@ CSSOrderAwareFrameIterator
 iter
 (
 colFrame
-kPrincipalList
+FrameChildListID
+:
+:
+Principal
 CSSOrderAwareFrameIterator
 :
 :

@@ -252,7 +252,10 @@ NS_ASSERTION
 aListID
 =
 =
-kPrincipalList
+FrameChildListID
+:
+:
+Principal
 "
 unexpected
 child
@@ -320,7 +323,10 @@ NS_ASSERTION
 aListID
 =
 =
-kPrincipalList
+FrameChildListID
+:
+:
+Principal
 "
 unexpected
 child
