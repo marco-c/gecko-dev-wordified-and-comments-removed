@@ -27655,7 +27655,10 @@ StyleList
 mListStylePosition
 =
 =
-NS_STYLE_LIST_STYLE_POSITION_OUTSIDE
+StyleListStylePosition
+:
+:
+Outside
 |
 |
 !

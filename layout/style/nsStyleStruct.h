@@ -3046,7 +3046,10 @@ GetListStyleImageURI
 )
 const
 ;
-uint8_t
+mozilla
+:
+:
+StyleListStylePosition
 mListStylePosition
 ;
 mozilla

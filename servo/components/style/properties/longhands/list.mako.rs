@@ -69,6 +69,11 @@ layout
 .
 unimplemented
 "
+gecko_enum_prefix
+=
+"
+StyleListStylePosition
+"
 animation_value_type
 =
 "
