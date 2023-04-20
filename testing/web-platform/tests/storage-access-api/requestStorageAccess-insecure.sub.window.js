@@ -457,17 +457,9 @@ t
 =
 >
 {
-const
-{
-promise
-}
-=
 await
 RunCallbackWithGesture
 (
-'
-b1
-'
 (
 )
 =
@@ -496,9 +488,6 @@ context
 ;
 }
 )
-;
-return
-promise
 ;
 }
 '
