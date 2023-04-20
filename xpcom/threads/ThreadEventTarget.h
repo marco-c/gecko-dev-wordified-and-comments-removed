@@ -137,6 +137,17 @@ this
 n
 ;
 }
+#
+ifdef
+DEBUG
+static
+void
+XPCOMShutdownThreadsNotificationFinished
+(
+)
+;
+#
+endif
 private
 :
 ~
