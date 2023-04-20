@@ -64,7 +64,7 @@ h
 #
 include
 "
-time
+fftime
 .
 h
 "

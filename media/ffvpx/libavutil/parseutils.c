@@ -43,13 +43,6 @@ h
 #
 include
 "
-random_seed
-.
-h
-"
-#
-include
-"
 time_internal
 .
 h
@@ -64,7 +57,7 @@ h
 #
 include
 "
-time
+fftime
 .
 h
 "
@@ -2699,9 +2692,7 @@ bikeshed
 int
 rgba
 =
-av_get_random_seed
-(
-)
+0xffffffff
 ;
 rgba_color
 [

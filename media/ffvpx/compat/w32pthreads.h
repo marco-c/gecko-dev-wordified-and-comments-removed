@@ -69,7 +69,7 @@ include
 "
 libavutil
 /
-time
+fftime
 .
 h
 "

@@ -127,12 +127,17 @@ hwcontext
 h
 "
 #
+if
+CONFIG_LIBDRM
+#
 include
 "
 hwcontext_drm
 .
 h
 "
+#
+endif
 #
 include
 "
