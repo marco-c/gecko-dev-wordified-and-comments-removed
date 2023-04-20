@@ -1090,7 +1090,10 @@ NONE
 }
 mStyle
 {
-NS_STYLE_TEXT_DECORATION_STYLE_NONE
+StyleTextDecorationStyle
+:
+:
+None
 }
 {
 }
@@ -1112,7 +1115,10 @@ return
 mColor
 ;
 }
-uint8_t
+mozilla
+:
+:
+StyleTextDecorationStyle
 Style
 (
 )
@@ -1250,7 +1256,10 @@ mozilla
 StyleTextDecorationLine
 mLine
 ;
-uint8_t
+mozilla
+:
+:
+StyleTextDecorationStyle
 mStyle
 ;
 }

@@ -1503,7 +1503,16 @@ SpellCheckerUnderlineStyle
 :
 aResult
 =
-NS_STYLE_TEXT_DECORATION_STYLE_WAVY
+reinterpret_cast
+<
+int32_t
+>
+(
+StyleTextDecorationStyle
+:
+:
+Wavy
+)
 ;
 break
 ;

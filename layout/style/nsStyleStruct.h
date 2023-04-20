@@ -4017,7 +4017,10 @@ mozilla
 StyleTextDecorationLine
 mTextDecorationLine
 ;
-uint8_t
+mozilla
+:
+:
+StyleTextDecorationStyle
 mTextDecorationStyle
 ;
 mozilla

@@ -6439,8 +6439,10 @@ The
 values
 same
 as
-NS_STYLE_TEXT_DECORATION_STYLE_
-*
+mozilla
+:
+:
+StyleTextDecorationStyle
 defined
 in
 nsStyleConsts
