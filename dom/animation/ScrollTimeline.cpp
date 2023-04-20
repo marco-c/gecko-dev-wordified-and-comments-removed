@@ -800,13 +800,7 @@ orientation
 )
 {
 return
-TimeDuration
-:
-:
-FromMilliseconds
-(
-PROGRESS_TIMELINE_DURATION_MILLISEC
-)
+nullptr
 ;
 }
 const
