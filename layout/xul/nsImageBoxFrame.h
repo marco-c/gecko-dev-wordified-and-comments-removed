@@ -531,9 +531,6 @@ imgIRequest
 aRequest
 )
 ;
-nsRect
-mSubRect
-;
 nsSize
 mIntrinsicSize
 ;

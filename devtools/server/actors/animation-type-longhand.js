@@ -1819,14 +1819,6 @@ font
 weight
 "
 "
--
-moz
--
-image
--
-region
-"
-"
 mask
 -
 position

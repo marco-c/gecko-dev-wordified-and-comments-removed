@@ -1494,9 +1494,6 @@ aUseContext
 ComputedStyle
 *
 aComputedStyle
-bool
-&
-aAllowImageRegions
 imgIContainer
 *
 *
@@ -1523,12 +1520,8 @@ GetImageDestSize
 (
 ComputedStyle
 *
-aComputedStyle
-bool
-useImageRegion
 imgIContainer
 *
-image
 )
 ;
 nsRect
@@ -1536,12 +1529,8 @@ GetImageSourceRect
 (
 ComputedStyle
 *
-aComputedStyle
-bool
-useImageRegion
 imgIContainer
 *
-image
 )
 ;
 int32_t

@@ -4502,12 +4502,6 @@ nsPoint
 aAnchorPoint
 =
 nullptr
-const
-nsRect
-*
-aSourceArea
-=
-nullptr
 )
 ;
 static
