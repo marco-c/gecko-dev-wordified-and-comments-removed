@@ -24,11 +24,10 @@ title
 >
 CSS
 Color
+Level
 5
 :
-Parsing
-and
-serialization
+Computation
 of
 colors
 using
@@ -96,6 +95,40 @@ colors
 "
 >
 <
+link
+rel
+=
+"
+help
+"
+href
+=
+"
+https
+:
+/
+/
+drafts
+.
+csswg
+.
+org
+/
+css
+-
+color
+-
+5
+/
+#
+serial
+-
+relative
+-
+color
+"
+>
+<
 meta
 name
 =
@@ -105,16 +138,17 @@ assert
 content
 =
 "
-colors
+computed
+value
+of
+color
 using
 relative
 color
 syntax
-parse
-and
-serialize
-as
+matches
 expected
+values
 "
 >
 <
@@ -161,7 +195,7 @@ css
 /
 support
 /
-parsing
+computed
 -
 testcommon
 .
@@ -234,6 +268,18 @@ head
 body
 >
 <
+div
+id
+=
+"
+target
+"
+>
+<
+/
+div
+>
+<
 script
 >
 /
@@ -251,7 +297,7 @@ Testing
 no
 modifications
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -270,7 +316,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -291,7 +337,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -325,7 +371,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -366,7 +412,7 @@ nesting
 relative
 colors
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -405,7 +451,7 @@ see
 gamut
 mapping
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -449,7 +495,7 @@ rgb
 0
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -493,7 +539,7 @@ rgb
 255
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -553,7 +599,7 @@ correspond
 with
 sRGB
 black
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -592,7 +638,7 @@ rgb
 255
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -647,7 +693,7 @@ correspond
 with
 sRGB
 black
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -691,7 +737,7 @@ rgb
 255
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -735,7 +781,7 @@ rgb
 24
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -778,7 +824,7 @@ rgb
 255
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -828,7 +874,7 @@ replacement
 with
 0
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -847,7 +893,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -869,7 +915,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -890,7 +936,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -911,7 +957,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -932,7 +978,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -954,7 +1000,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -988,7 +1034,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1022,7 +1068,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1056,7 +1102,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1096,7 +1142,7 @@ with
 a
 number
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1117,7 +1163,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1138,7 +1184,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1159,7 +1205,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1184,7 +1230,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1218,7 +1264,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1252,7 +1298,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1286,7 +1332,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1329,7 +1375,7 @@ with
 a
 percentage
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1351,7 +1397,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1373,7 +1419,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1395,7 +1441,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1420,7 +1466,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1455,7 +1501,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1490,7 +1536,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1525,7 +1571,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1576,7 +1622,7 @@ percent
 for
 alpha
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1601,7 +1647,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1626,7 +1672,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1651,7 +1697,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1686,7 +1732,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1721,7 +1767,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1761,7 +1807,7 @@ rgba
 Testing
 permutation
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1780,7 +1826,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1804,7 +1850,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1828,7 +1874,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1849,7 +1895,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1878,7 +1924,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1912,7 +1958,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -1946,7 +1992,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2003,7 +2049,7 @@ relative
 syntax
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2023,7 +2069,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2043,7 +2089,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2063,7 +2109,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2093,7 +2139,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2123,7 +2169,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2180,7 +2226,7 @@ calc
 (
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2208,7 +2254,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2232,7 +2278,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2257,7 +2303,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2287,7 +2333,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2317,7 +2363,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2371,7 +2417,7 @@ with
 none
 '
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2390,7 +2436,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2412,7 +2458,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2431,7 +2477,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2452,7 +2498,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2474,7 +2520,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2509,7 +2555,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2561,7 +2607,7 @@ to
 the
 constants
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2585,7 +2631,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2614,7 +2660,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2640,7 +2686,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -2687,7 +2733,7 @@ Testing
 no
 modifications
 .
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -2706,7 +2752,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -2727,7 +2773,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -2761,7 +2807,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -2802,7 +2848,7 @@ nesting
 relative
 colors
 .
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -2841,7 +2887,7 @@ see
 gamut
 mapping
 .
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -2885,7 +2931,7 @@ rgb
 0
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -2929,7 +2975,7 @@ rgb
 255
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -2989,7 +3035,7 @@ correspond
 with
 sRGB
 black
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3028,7 +3074,7 @@ rgb
 255
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3083,7 +3129,7 @@ correspond
 with
 sRGB
 black
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3127,7 +3173,7 @@ rgb
 255
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3171,7 +3217,7 @@ rgb
 24
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3214,7 +3260,7 @@ rgb
 255
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3264,7 +3310,7 @@ replacement
 with
 0
 .
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3285,7 +3331,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3306,7 +3352,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3330,7 +3376,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3354,7 +3400,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3375,7 +3421,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3396,7 +3442,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3418,7 +3464,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3440,7 +3486,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3462,7 +3508,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3496,7 +3542,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3530,7 +3576,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3565,7 +3611,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3600,7 +3646,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3640,7 +3686,7 @@ with
 a
 constant
 .
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3661,7 +3707,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3682,7 +3728,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3704,7 +3750,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3726,7 +3772,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3751,7 +3797,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3785,7 +3831,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3819,7 +3865,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3854,7 +3900,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3889,7 +3935,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3934,7 +3980,7 @@ types
 match
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3953,7 +3999,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -3977,7 +4023,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4001,7 +4047,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4022,7 +4068,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4051,7 +4097,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4085,7 +4131,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4119,7 +4165,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4161,7 +4207,7 @@ calc
 (
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4189,7 +4235,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4243,7 +4289,7 @@ with
 none
 '
 .
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4262,7 +4308,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4284,7 +4330,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4303,7 +4349,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4324,7 +4370,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4346,7 +4392,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4367,7 +4413,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4401,7 +4447,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4433,7 +4479,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4486,7 +4532,7 @@ to
 the
 constants
 .
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4510,7 +4556,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4539,7 +4585,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4567,7 +4613,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4598,7 +4644,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -4647,7 +4693,7 @@ Testing
 no
 modifications
 .
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -4666,7 +4712,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -4687,7 +4733,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -4721,7 +4767,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -4762,7 +4808,7 @@ nesting
 relative
 colors
 .
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -4801,7 +4847,7 @@ see
 gamut
 mapping
 .
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -4845,7 +4891,7 @@ rgb
 0
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -4889,7 +4935,7 @@ rgb
 255
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -4949,7 +4995,7 @@ correspond
 with
 sRGB
 black
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -4988,7 +5034,7 @@ rgb
 255
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5043,7 +5089,7 @@ correspond
 with
 sRGB
 black
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5087,7 +5133,7 @@ rgb
 255
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5131,7 +5177,7 @@ rgb
 24
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5174,7 +5220,7 @@ rgb
 255
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5224,7 +5270,7 @@ replacement
 with
 0
 .
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5245,7 +5291,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5266,7 +5312,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5290,7 +5336,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5314,7 +5360,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5335,7 +5381,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5356,7 +5402,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5378,7 +5424,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5400,7 +5446,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5422,7 +5468,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5456,7 +5502,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5490,7 +5536,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5525,7 +5571,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5560,7 +5606,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5600,7 +5646,7 @@ with
 a
 constant
 .
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5621,7 +5667,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5642,7 +5688,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5664,7 +5710,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5686,7 +5732,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5711,7 +5757,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5745,7 +5791,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5779,7 +5825,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5814,7 +5860,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5849,7 +5895,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5894,7 +5940,7 @@ types
 match
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5913,7 +5959,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5937,7 +5983,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5961,7 +6007,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -5982,7 +6028,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6011,7 +6057,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6045,7 +6091,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6079,7 +6125,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6121,7 +6167,7 @@ calc
 (
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6149,7 +6195,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6203,7 +6249,7 @@ with
 none
 '
 .
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6222,7 +6268,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6244,7 +6290,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6263,7 +6309,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6284,7 +6330,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6306,7 +6352,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6327,7 +6373,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6361,7 +6407,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6393,7 +6439,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6446,7 +6492,7 @@ to
 the
 constants
 .
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6470,7 +6516,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6499,7 +6545,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6527,7 +6573,7 @@ rgb
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6558,7 +6604,7 @@ rgba
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 hwb
@@ -6613,7 +6659,7 @@ Testing
 no
 modifications
 .
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -6643,7 +6689,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -6675,7 +6721,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -6714,7 +6760,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -6749,7 +6795,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -6799,7 +6845,7 @@ nesting
 relative
 colors
 .
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -6851,7 +6897,7 @@ to
 see
 conversion
 .
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -6891,7 +6937,7 @@ replacement
 with
 0
 .
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -6921,7 +6967,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -6955,7 +7001,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -6987,7 +7033,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7019,7 +7065,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7051,7 +7097,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7085,7 +7131,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7124,7 +7170,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7163,7 +7209,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7202,7 +7248,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7247,7 +7293,7 @@ with
 a
 constant
 .
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7279,7 +7325,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7311,7 +7357,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7343,7 +7389,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7380,7 +7426,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7419,7 +7465,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7458,7 +7504,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7497,7 +7543,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7537,7 +7583,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7574,7 +7620,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7629,7 +7675,7 @@ types
 match
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7659,7 +7705,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7691,7 +7737,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7724,7 +7770,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7767,7 +7813,7 @@ calc
 (
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7806,7 +7852,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7865,7 +7911,7 @@ with
 none
 '
 .
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7895,7 +7941,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7929,7 +7975,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7959,7 +8005,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -7991,7 +8037,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -8025,7 +8071,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -8064,7 +8110,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -8120,7 +8166,7 @@ to
 the
 constants
 .
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -8150,7 +8196,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -8186,7 +8232,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -8216,7 +8262,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -8269,7 +8315,7 @@ percent
 scaling
 differences
 .
-test_valid_value
+test_computed_value
 (
 color
 lab
@@ -8300,7 +8346,7 @@ lab
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 lab
@@ -8327,7 +8373,7 @@ lab
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 lab
@@ -8354,7 +8400,7 @@ lab
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 lab
@@ -8388,7 +8434,7 @@ lab
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 lab
@@ -8422,7 +8468,7 @@ lab
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 lab
@@ -8456,7 +8502,7 @@ lab
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 oklab
@@ -8487,7 +8533,7 @@ oklab
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 oklab
@@ -8514,7 +8560,7 @@ oklab
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 oklab
@@ -8541,7 +8587,7 @@ oklab
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 oklab
@@ -8577,7 +8623,7 @@ oklab
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 oklab
@@ -8613,7 +8659,7 @@ oklab
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 oklab
@@ -8688,7 +8734,7 @@ Testing
 no
 modifications
 .
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -8722,7 +8768,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -8758,7 +8804,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -8801,7 +8847,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -8836,7 +8882,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -8884,7 +8930,7 @@ nesting
 relative
 colors
 .
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -8953,7 +8999,7 @@ color
 space
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -8986,7 +9032,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9033,7 +9079,7 @@ replacement
 with
 0
 .
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9065,75 +9111,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
-(
-color
-{
-colorSpace
-}
-(
-from
-{
-colorSpace
-}
-(
-0
-.
-7
-45
-30
-)
-0
-0
-0deg
-)
-{
-colorSpace
-}
-(
-0
-0
-0
-)
-)
-;
-test_valid_value
-(
-color
-{
-colorSpace
-}
-(
-from
-{
-colorSpace
-}
-(
-0
-.
-7
-45
-30
-)
-0
-0
-0
-/
-0
-)
-{
-colorSpace
-}
-(
-0
-0
-0
-/
-0
-)
-)
-;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9154,6 +9132,38 @@ colorSpace
 0
 0
 0deg
+)
+{
+colorSpace
+}
+(
+0
+0
+0
+)
+)
+;
+test_computed_value
+(
+color
+{
+colorSpace
+}
+(
+from
+{
+colorSpace
+}
+(
+0
+.
+7
+45
+30
+)
+0
+0
+0
 /
 0
 )
@@ -9169,7 +9179,43 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
+(
+color
+{
+colorSpace
+}
+(
+from
+{
+colorSpace
+}
+(
+0
+.
+7
+45
+30
+)
+0
+0
+0deg
+/
+0
+)
+{
+colorSpace
+}
+(
+0
+0
+0
+/
+0
+)
+)
+;
+test_computed_value
 (
 color
 {
@@ -9203,7 +9249,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9239,7 +9285,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9275,7 +9321,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9311,7 +9357,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9349,7 +9395,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9390,7 +9436,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9433,7 +9479,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9476,7 +9522,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9519,7 +9565,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9568,7 +9614,7 @@ with
 a
 constant
 .
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9602,7 +9648,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9638,7 +9684,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9674,7 +9720,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9710,7 +9756,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9751,7 +9797,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9792,7 +9838,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9835,7 +9881,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9878,7 +9924,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9921,7 +9967,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -9965,7 +10011,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10002,7 +10048,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10045,7 +10091,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10082,7 +10128,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10155,7 +10201,7 @@ angle
 number
 >
 .
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10190,7 +10236,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10240,7 +10286,7 @@ calc
 (
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10283,7 +10329,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10346,7 +10392,7 @@ with
 none
 '
 .
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10378,7 +10424,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10414,7 +10460,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10448,7 +10494,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10484,7 +10530,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10522,7 +10568,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10565,7 +10611,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10625,7 +10671,7 @@ to
 the
 constants
 .
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10655,7 +10701,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10691,7 +10737,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10725,7 +10771,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 {
@@ -10782,7 +10828,7 @@ percent
 scaling
 differences
 .
-test_valid_value
+test_computed_value
 (
 color
 lch
@@ -10813,7 +10859,7 @@ lch
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 lch
@@ -10840,7 +10886,7 @@ lch
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 lch
@@ -10867,7 +10913,7 @@ lch
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 lch
@@ -10901,7 +10947,7 @@ lch
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 lch
@@ -10935,7 +10981,7 @@ lch
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 lch
@@ -10969,7 +11015,7 @@ lch
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 oklch
@@ -11000,7 +11046,7 @@ oklch
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 oklch
@@ -11027,7 +11073,7 @@ oklch
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 oklch
@@ -11054,7 +11100,7 @@ oklch
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 oklch
@@ -11090,7 +11136,7 @@ oklch
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 oklch
@@ -11126,7 +11172,7 @@ oklch
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 oklch
@@ -11203,7 +11249,7 @@ Testing
 no
 modifications
 .
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -11248,7 +11294,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -11295,7 +11341,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -11343,7 +11389,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -11404,7 +11450,7 @@ nesting
 relative
 colors
 .
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -11466,7 +11512,7 @@ replacement
 with
 0
 .
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -11505,7 +11551,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -11548,7 +11594,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -11593,7 +11639,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -11638,7 +11684,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -11683,7 +11729,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -11732,7 +11778,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -11784,7 +11830,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -11836,7 +11882,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -11888,7 +11934,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -11948,7 +11994,7 @@ with
 a
 constant
 .
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -11997,7 +12043,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12045,7 +12091,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12094,7 +12140,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12142,7 +12188,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12191,7 +12237,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12239,7 +12285,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12292,7 +12338,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12344,7 +12390,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12400,7 +12446,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12455,7 +12501,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12511,7 +12557,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12566,7 +12612,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12622,7 +12668,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12677,7 +12723,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12733,7 +12779,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12788,7 +12834,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12827,7 +12873,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12868,7 +12914,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12913,7 +12959,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -12963,7 +13009,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13005,7 +13051,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13050,7 +13096,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13098,7 +13144,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13162,7 +13208,7 @@ types
 match
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13207,7 +13253,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13256,7 +13302,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13307,7 +13353,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13348,7 +13394,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13396,7 +13442,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13450,7 +13496,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13504,7 +13550,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13566,7 +13612,7 @@ of
 gamut
 components
 .
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13611,7 +13657,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13658,7 +13704,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13706,7 +13752,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13756,7 +13802,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13807,7 +13853,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13860,7 +13906,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13915,7 +13961,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -13982,7 +14028,7 @@ calc
 (
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14036,7 +14082,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14110,7 +14156,7 @@ with
 none
 '
 .
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14149,7 +14195,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14192,7 +14238,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14235,7 +14281,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14280,7 +14326,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14329,7 +14375,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14381,7 +14427,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14452,7 +14498,7 @@ to
 the
 constants
 .
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14485,7 +14531,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14524,7 +14570,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14565,7 +14611,7 @@ colorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14663,7 +14709,7 @@ Testing
 no
 modifications
 .
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14702,7 +14748,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14743,7 +14789,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14785,7 +14831,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14840,7 +14886,7 @@ nesting
 relative
 colors
 .
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14896,7 +14942,7 @@ replacement
 with
 0
 .
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14932,7 +14978,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -14972,7 +15018,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15013,7 +15059,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15051,7 +15097,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15092,7 +15138,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15135,7 +15181,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15183,7 +15229,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15228,7 +15274,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15276,7 +15322,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15330,7 +15376,7 @@ with
 a
 constant
 .
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15375,7 +15421,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15417,7 +15463,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15462,7 +15508,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15509,7 +15555,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15555,7 +15601,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15607,7 +15653,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15656,7 +15702,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15708,7 +15754,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15768,7 +15814,7 @@ types
 match
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15807,7 +15853,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15845,7 +15891,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15887,7 +15933,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15936,7 +15982,7 @@ calc
 (
 )
 .
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -15984,7 +16030,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -16052,7 +16098,7 @@ with
 none
 '
 .
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -16088,7 +16134,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -16128,7 +16174,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -16167,7 +16213,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -16208,7 +16254,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -16251,7 +16297,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -16299,7 +16345,7 @@ none
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -16364,7 +16410,7 @@ to
 the
 constants
 .
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -16397,7 +16443,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -16436,7 +16482,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -16469,7 +16515,7 @@ resultColorSpace
 )
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 color
@@ -16524,7 +16570,7 @@ Examples
 Example
 11
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -16545,6 +16591,15 @@ b
 80
 %
 )
+rgba
+(
+0
+0
+255
+0
+.
+8
+)
 )
 ;
 /
@@ -16552,7 +16607,7 @@ b
 Example
 12
 .
-test_valid_value
+test_computed_value
 (
 color
 lch
@@ -16573,6 +16628,18 @@ l
 c
 h
 )
+lch
+(
+23
+.
+138971
+67
+.
+989716
+134
+.
+39125
+)
 )
 ;
 /
@@ -16580,7 +16647,7 @@ h
 Example
 13
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -16646,77 +16713,12 @@ b
 )
 rgb
 (
-from
-var
-(
--
--
-color
-)
-calc
-(
-r
-*
-0
-.
-3
-+
-g
-*
-0
-.
-59
-+
-b
-*
-0
-.
-11
-)
-calc
-(
-r
-*
-0
-.
-3
-+
-g
-*
-0
-.
-59
-+
-b
-*
-0
-.
-11
-)
-calc
-(
-r
-*
-0
-.
-3
-+
-g
-*
-0
-.
-59
-+
-b
-*
-0
-.
-11
+76
+76
+76
 )
 )
-)
-;
-test_valid_value
+test_computed_value
 (
 color
 lch
@@ -16732,14 +16734,23 @@ l
 0
 h
 )
+lch
+(
+46
+.
+277943
+0
+134
+.
+39125
 )
-;
+)
 /
 /
 Example
 14
 .
-test_valid_value
+test_computed_value
 (
 color
 rgb
@@ -16763,7 +16774,7 @@ rgb
 Example
 15
 .
-test_valid_value
+test_computed_value
 (
 color
 hsl
@@ -16784,6 +16795,12 @@ h
 s
 l
 )
+rgb
+(
+178
+32
+40
+)
 )
 ;
 /
@@ -16791,7 +16808,7 @@ l
 Example
 16
 .
-test_valid_value
+test_computed_value
 (
 color
 lab
@@ -16810,9 +16827,22 @@ b
 100
 %
 )
+lab
+(
+62
+.
+751923
+52
+.
+45802
+-
+34
+.
+117283
+)
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 lab
@@ -16837,9 +16867,26 @@ alpha
 8
 )
 )
+lab
+(
+62
+.
+751923
+52
+.
+45802
+-
+34
+.
+117283
+/
+0
+.
+8
+)
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 lab
@@ -16863,6 +16910,23 @@ alpha
 %
 )
 )
+lab
+(
+62
+.
+751923
+52
+.
+45802
+-
+34
+.
+117283
+/
+0
+.
+8
+)
 )
 ;
 /
@@ -16870,7 +16934,7 @@ alpha
 Example
 17
 .
-test_valid_value
+test_computed_value
 (
 color
 lab
@@ -16886,6 +16950,14 @@ l
 0
 0
 )
+lab
+(
+62
+.
+751923
+0
+0
+)
 )
 ;
 /
@@ -16893,7 +16965,7 @@ l
 Example
 18
 .
-test_valid_value
+test_computed_value
 (
 color
 lch
@@ -16930,7 +17002,7 @@ lch
 Example
 19
 .
-test_valid_value
+test_computed_value
 (
 color
 LCH
@@ -16951,6 +17023,18 @@ h
 180deg
 )
 )
+lch
+(
+65
+.
+49473
+39
+.
+446903
+10
+.
+114471
+)
 )
 ;
 /
@@ -16958,7 +17042,7 @@ h
 Example
 20
 .
-test_valid_value
+test_computed_value
 (
 color
 lch
@@ -16974,9 +17058,19 @@ l
 0
 h
 )
+lch
+(
+62
+.
+751923
+0
+326
+.
+96112
+)
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 var
@@ -16985,9 +17079,19 @@ var
 -
 mygray
 )
+lch
+(
+62
+.
+751923
+0
+326
+.
+96112
+)
 )
 ;
-test_valid_value
+test_computed_value
 (
 color
 lch
@@ -17002,6 +17106,16 @@ mygray
 l
 30
 h
+)
+lch
+(
+62
+.
+751923
+30
+326
+.
+96112
 )
 )
 ;
