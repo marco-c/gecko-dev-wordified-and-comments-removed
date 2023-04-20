@@ -524,7 +524,7 @@ _level
 level
 =
 "
-Error
+error
 "
         
 else
@@ -533,7 +533,7 @@ else
 level
 =
 "
-Warning
+warning
 "
         
 if

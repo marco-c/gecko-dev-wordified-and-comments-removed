@@ -3854,7 +3854,7 @@ exception
 )
             
 '
-Error
+error
 :
 "
 content
@@ -3924,7 +3924,7 @@ exception
 )
             
 '
-Error
+error
 :
 "
 content
@@ -4022,7 +4022,7 @@ exception
 )
             
 '
-Error
+error
 :
 "
 content
@@ -4260,7 +4260,7 @@ exception
 )
             
 '
-Error
+error
 :
 "
 skin
@@ -4358,7 +4358,7 @@ exception
 )
             
 '
-Error
+error
 :
 "
 locale
@@ -4433,7 +4433,7 @@ get_output
 [
                 
 '
-Warning
+warning
 :
 "
 content

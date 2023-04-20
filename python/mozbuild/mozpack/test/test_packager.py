@@ -3584,7 +3584,7 @@ exception
 )
             
 '
-Error
+error
 :
 "
 bar
@@ -3758,7 +3758,7 @@ exception
 )
             
 '
-Error
+error
 :
 "
 bar
