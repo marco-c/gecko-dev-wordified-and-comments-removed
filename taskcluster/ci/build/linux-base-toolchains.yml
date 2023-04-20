@@ -294,6 +294,10 @@ node
 -
 12
 -
+linux64
+-
+pkgconf
+-
 sysroot
 -
 x86_64
@@ -493,6 +497,10 @@ node
 -
 12
 -
+linux64
+-
+pkgconf
+-
 sysroot
 -
 x86_64
@@ -683,6 +691,10 @@ linux64
 node
 -
 12
+-
+linux64
+-
+pkgconf
 -
 sysroot
 -
@@ -884,6 +896,10 @@ linux64
 node
 -
 12
+-
+linux64
+-
+pkgconf
 -
 sysroot
 -

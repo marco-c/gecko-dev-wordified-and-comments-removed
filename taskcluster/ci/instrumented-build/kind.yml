@@ -339,6 +339,10 @@ linux64
 -
 node
 -
+linux64
+-
+pkgconf
+-
 sysroot
 -
 i686
@@ -473,6 +477,10 @@ nasm
 linux64
 -
 node
+-
+linux64
+-
+pkgconf
 -
 sysroot
 -
