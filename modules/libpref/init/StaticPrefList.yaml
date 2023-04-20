@@ -61345,13 +61345,6 @@ true
 mirror
 :
 always
-#
-Should
-enable
-this
-in
-bug1799205
-.
 -
 name
 :
@@ -61367,7 +61360,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_NIGHTLY_BUILD
+true
 mirror
 :
 always
