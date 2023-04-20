@@ -69417,7 +69417,7 @@ State
 :
 Initial
 :
-QM_TRY
+QM_WARNONLY_TRY
 (
 MOZ_TO_RESULT
 (
@@ -69425,7 +69425,6 @@ Open
 (
 )
 )
-NS_OK
 handleError
 )
 ;
@@ -69437,7 +69436,7 @@ State
 :
 FinishOpen
 :
-QM_TRY
+QM_WARNONLY_TRY
 (
 MOZ_TO_RESULT
 (
@@ -69445,7 +69444,6 @@ FinishOpen
 (
 )
 )
-NS_OK
 handleError
 )
 ;
@@ -69476,7 +69474,7 @@ State
 :
 DatabaseWorkOpen
 :
-QM_TRY
+QM_WARNONLY_TRY
 (
 MOZ_TO_RESULT
 (
@@ -69484,7 +69482,6 @@ DoDatabaseWork
 (
 )
 )
-NS_OK
 handleError
 )
 ;
@@ -69496,7 +69493,7 @@ State
 :
 BeginVersionChange
 :
-QM_TRY
+QM_WARNONLY_TRY
 (
 MOZ_TO_RESULT
 (
@@ -69504,7 +69501,6 @@ BeginVersionChange
 (
 )
 )
-NS_OK
 handleError
 )
 ;
@@ -69516,7 +69512,7 @@ State
 :
 WaitingForTransactionsToComplete
 :
-QM_TRY
+QM_WARNONLY_TRY
 (
 MOZ_TO_RESULT
 (
@@ -69524,7 +69520,6 @@ DispatchToWorkThread
 (
 )
 )
-NS_OK
 handleError
 )
 ;
