@@ -725,6 +725,7 @@ StringifyJSON
 cx
 convertedValue
 aStackString
+UndefinedIsNullStringLiteral
 )
 )
 {

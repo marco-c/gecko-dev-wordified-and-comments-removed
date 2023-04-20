@@ -136,6 +136,7 @@ StringifyJSON
 aCx
 aValue
 aSerializedValue
+UndefinedIsNullStringLiteral
 )
 NS_ERROR_XPC_BAD_CONVERT_JS
 )
