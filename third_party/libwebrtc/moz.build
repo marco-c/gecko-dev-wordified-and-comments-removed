@@ -3649,7 +3649,9 @@ modules
 /
 video_coding
 /
-timing_gn
+timing
+/
+timing_module_gn
 "
 "
 /

@@ -227,6 +227,8 @@ modules
 video_coding
 /
 timing
+/
+timing
 .
 cc
 "
@@ -1458,6 +1460,6 @@ True
 Library
 (
 "
-timing_gn
+timing_module_gn
 "
 )
