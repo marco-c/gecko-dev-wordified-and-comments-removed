@@ -553,7 +553,7 @@ ComputeLifetime
 (
 const
 TurnMessage
-*
+&
 msg
 )
 ;

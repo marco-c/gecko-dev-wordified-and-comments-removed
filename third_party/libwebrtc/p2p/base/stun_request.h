@@ -316,11 +316,6 @@ StunRequest
 )
 override
 ;
-void
-Construct
-(
-)
-;
 StunRequestManager
 *
 manager
@@ -391,6 +386,11 @@ protected
 friend
 class
 StunRequestManager
+;
+void
+Construct
+(
+)
 ;
 virtual
 void

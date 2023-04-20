@@ -140,6 +140,15 @@ else
 {
 StunMessage
 response
+(
+STUN_BINDING_RESPONSE
+msg
+-
+>
+transaction_id
+(
+)
+)
 ;
 GetStunBindResponse
 (

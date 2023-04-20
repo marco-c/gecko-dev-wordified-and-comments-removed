@@ -4967,7 +4967,7 @@ IceMessage
 >
 CreateStunMessage
 (
-int
+StunMessageType
 type
 )
 {
@@ -4982,21 +4982,7 @@ make_unique
 IceMessage
 >
 (
-)
-;
-msg
--
->
-SetType
-(
 type
-)
-;
-msg
--
->
-SetTransactionID
-(
 "
 TESTTESTTEST
 "
@@ -5015,7 +5001,7 @@ IceMessage
 >
 CreateStunMessageWithUsername
 (
-int
+StunMessageType
 type
 const
 std
@@ -15804,7 +15790,7 @@ AddFingerprint
 in_msg
 -
 >
-SetTransactionID
+SetTransactionIdForTesting
 (
 "
 TESTTESTBADD
@@ -15954,7 +15940,7 @@ AddFingerprint
 in_msg
 -
 >
-SetTransactionID
+SetTransactionIdForTesting
 (
 "
 TESTTESTBADD
@@ -16105,7 +16091,7 @@ AddFingerprint
 in_msg
 -
 >
-SetTransactionID
+SetTransactionIdForTesting
 (
 "
 TESTTESTBADD
@@ -23290,7 +23276,7 @@ GOOG_PING_ERROR_RESPONSE
 ;
 error_response
 .
-SetTransactionID
+SetTransactionIdForTesting
 (
 response2
 -
