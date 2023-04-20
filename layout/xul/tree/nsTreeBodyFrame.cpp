@@ -1124,7 +1124,7 @@ nsTreeColumn
 *
 col
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -1194,6 +1194,10 @@ GetCellWidth
 row
 col
 rc
+.
+get
+(
+)
 desiredWidth
 currentWidth
 )
@@ -4932,7 +4936,7 @@ cellContext
 cellRect
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -6137,7 +6141,7 @@ PresContext
 (
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -7337,7 +7341,7 @@ aCol
 return
 NS_ERROR_INVALID_ARG
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -7359,6 +7363,10 @@ GetCellWidth
 aRow
 aCol
 rc
+.
+get
+(
+)
 desiredSize
 currentSize
 )

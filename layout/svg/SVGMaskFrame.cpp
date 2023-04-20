@@ -393,7 +393,7 @@ return
 nullptr
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >

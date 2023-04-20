@@ -1520,7 +1520,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -1545,6 +1545,10 @@ gfxUtils
 DrawPixelSnapped
 (
 ctx
+.
+get
+(
+)
 aDrawable
 SizeDouble
 (

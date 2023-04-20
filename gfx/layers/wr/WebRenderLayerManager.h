@@ -1135,10 +1135,8 @@ CompositionPayload
 >
 mPayload
 ;
-RefPtr
-<
 gfxContext
->
+*
 mTarget
 ;
 uint32_t

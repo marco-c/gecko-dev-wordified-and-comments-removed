@@ -626,7 +626,7 @@ SetDPI
 )
 ;
 }
-already_AddRefed
+UniquePtr
 <
 gfxContext
 >
@@ -644,7 +644,7 @@ false
 )
 ;
 }
-already_AddRefed
+UniquePtr
 <
 gfxContext
 >
@@ -662,7 +662,7 @@ true
 )
 ;
 }
-already_AddRefed
+UniquePtr
 <
 gfxContext
 >
@@ -841,7 +841,7 @@ void
 nullptr
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -888,10 +888,6 @@ transform
 ;
 return
 pContext
-.
-forget
-(
-)
 ;
 }
 uint32_t

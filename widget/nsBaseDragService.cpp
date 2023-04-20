@@ -4210,7 +4210,7 @@ IsValid
 return
 NS_ERROR_FAILURE
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -4241,6 +4241,10 @@ imgContainer
 Draw
 (
 ctx
+.
+get
+(
+)
 destSize
 ImageRegion
 :

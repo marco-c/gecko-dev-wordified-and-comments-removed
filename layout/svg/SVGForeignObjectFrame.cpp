@@ -2251,7 +2251,7 @@ kid
 return
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -2289,6 +2289,10 @@ reflowInput
 presContext
 kid
 renderingContext
+.
+get
+(
+)
 LogicalSize
 (
 wm

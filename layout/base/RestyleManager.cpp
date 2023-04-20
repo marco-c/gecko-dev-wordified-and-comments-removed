@@ -3723,7 +3723,7 @@ return
 true
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -3803,6 +3803,10 @@ PresContext
 )
 parentFrame
 rc
+.
+get
+(
+)
 parentSize
 )
 ;
@@ -3902,6 +3906,10 @@ PresContext
 )
 cbFrame
 rc
+.
+get
+(
+)
 cbSize
 )
 ;

@@ -6671,7 +6671,7 @@ return
 false
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >

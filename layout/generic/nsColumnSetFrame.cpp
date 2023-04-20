@@ -364,7 +364,7 @@ nsDisplayListBuilder
 aDisplayListBuilder
 )
 {
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -409,6 +409,10 @@ CreateBorderRenderers
 (
 mBorderRenderers
 screenRefCtx
+.
+get
+(
+)
 GetBounds
 (
 aDisplayListBuilder

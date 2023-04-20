@@ -959,7 +959,7 @@ GetFormat
 )
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -1016,6 +1016,10 @@ Paint
 (
 aBuilder
 ctx
+.
+get
+(
+)
 aAppUnitsPerDevPixel
 )
 ;

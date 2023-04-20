@@ -19165,7 +19165,7 @@ return
 FALSE
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -19460,6 +19460,10 @@ setupLayerManager
 (
 this
 ctx
+.
+get
+(
+)
 layerBuffering
 )
 ;

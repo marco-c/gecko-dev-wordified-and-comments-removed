@@ -85,7 +85,7 @@ mDeviceContext
 aDeviceContext
 )
 {
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -308,7 +308,7 @@ SurfaceFormat
 aFormat
 )
 {
-RefPtr
+UniquePtr
 <
 gfxContext
 >

@@ -3559,10 +3559,8 @@ ActiveScrolledRoot
 aAsr
 )
 ;
-already_AddRefed
-<
 gfxContext
->
+*
 GetTextContext
 (
 wr
@@ -3911,7 +3909,10 @@ TextDrawTarget
 >
 mCachedTextDT
 ;
-RefPtr
+mozilla
+:
+:
+UniquePtr
 <
 gfxContext
 >

@@ -1397,7 +1397,7 @@ height
 break
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -1422,6 +1422,10 @@ setupLayerManager
 (
 this
 thebesContext
+.
+get
+(
+)
 doubleBuffering
 )
 ;

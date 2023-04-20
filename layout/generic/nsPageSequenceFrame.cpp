@@ -2779,7 +2779,7 @@ mCalledBeginPage
 =
 true
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -3191,7 +3191,7 @@ mCurrentSheetIdx
 )
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -3238,6 +3238,10 @@ nsLayoutUtils
 PaintFrame
 (
 gCtx
+.
+get
+(
+)
 currentSheetFrame
 drawingRegion
 NS_RGBA

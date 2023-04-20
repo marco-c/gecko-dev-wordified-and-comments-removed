@@ -19995,7 +19995,7 @@ target
 return
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -20025,6 +20025,10 @@ DrawParams
 params
 (
 thebes
+.
+get
+(
+)
 )
 ;
 params
@@ -26004,7 +26008,7 @@ autoRestoreTransform
 mTarget
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -26141,6 +26145,10 @@ mImgContainer
 Draw
 (
 context
+.
+get
+(
+)
 scaledImageSize
 ImageRegion
 :
@@ -27287,7 +27295,7 @@ sh
 return
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -27599,6 +27607,10 @@ r
 renderDocFlags
 backgroundColor
 thebes
+.
+get
+(
+)
 )
 ;
 EnsureTarget

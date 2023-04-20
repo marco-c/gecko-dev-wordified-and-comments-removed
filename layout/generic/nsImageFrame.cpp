@@ -10577,7 +10577,7 @@ inner
 true
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >

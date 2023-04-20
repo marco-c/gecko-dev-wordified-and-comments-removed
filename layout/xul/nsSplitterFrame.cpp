@@ -2661,7 +2661,7 @@ PresContext
 (
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -2684,6 +2684,10 @@ state
 (
 outerPresContext
 rc
+.
+get
+(
+)
 )
 ;
 mDidDrag

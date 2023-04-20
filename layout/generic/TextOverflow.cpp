@@ -207,7 +207,7 @@ GetRefDrawTarget
 )
 override
 {
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -1583,7 +1583,7 @@ this
 bounds
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -1601,6 +1601,10 @@ Paint
 (
 aDisplayListBuilder
 captureCtx
+.
+get
+(
+)
 )
 ;
 textDrawer
@@ -5258,7 +5262,7 @@ mISize
 }
 else
 {
-RefPtr
+UniquePtr
 <
 gfxContext
 >

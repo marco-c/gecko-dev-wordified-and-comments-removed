@@ -233,7 +233,10 @@ nsIDeviceContextSpec
 aDevSpec
 )
 ;
-already_AddRefed
+mozilla
+:
+:
+UniquePtr
 <
 gfxContext
 >
@@ -241,7 +244,10 @@ CreateRenderingContext
 (
 )
 ;
-already_AddRefed
+mozilla
+:
+:
+UniquePtr
 <
 gfxContext
 >
@@ -490,7 +496,10 @@ nsDeviceContext
 (
 )
 ;
-already_AddRefed
+mozilla
+:
+:
+UniquePtr
 <
 gfxContext
 >

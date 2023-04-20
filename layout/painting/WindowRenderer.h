@@ -685,10 +685,8 @@ EndTransactionFlags
 aFlags
 )
 ;
-RefPtr
-<
 gfxContext
->
+*
 mTarget
 ;
 layers

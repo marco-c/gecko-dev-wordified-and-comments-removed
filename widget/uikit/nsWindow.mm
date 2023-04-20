@@ -1966,7 +1966,7 @@ gfxQuartzSurface
 >
 targetSurface
 ;
-RefPtr
+UniquePtrPtr
 <
 gfxContext
 >

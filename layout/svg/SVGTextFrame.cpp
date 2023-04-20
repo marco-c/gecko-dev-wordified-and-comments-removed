@@ -20804,7 +20804,7 @@ kid
 return
 ;
 }
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -20846,6 +20846,10 @@ kid
 GetPrefISize
 (
 renderingContext
+.
+get
+(
+)
 )
 ;
 WritingMode
@@ -20864,6 +20868,10 @@ reflowInput
 presContext
 kid
 renderingContext
+.
+get
+(
+)
 LogicalSize
 (
 wm

@@ -552,7 +552,7 @@ IsValid
 return
 nullptr
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -574,6 +574,10 @@ ctx
 Draw
 (
 ctx
+.
+get
+(
+)
 gfxRect
 (
 0

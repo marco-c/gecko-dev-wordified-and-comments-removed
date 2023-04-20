@@ -1959,7 +1959,7 @@ AppUnitsPerDevPixel
 )
 )
 ;
-RefPtr
+UniquePtr
 <
 gfxContext
 >
@@ -2206,6 +2206,10 @@ gfxContextMatrixAutoSaveRestore
 matRestore
 (
 maskContext
+.
+get
+(
+)
 )
 ;
 maskContext

@@ -122,7 +122,10 @@ gfxAlphaBoxBlur
 (
 )
 ;
-already_AddRefed
+mozilla
+:
+:
+UniquePtr
 <
 gfxContext
 >
