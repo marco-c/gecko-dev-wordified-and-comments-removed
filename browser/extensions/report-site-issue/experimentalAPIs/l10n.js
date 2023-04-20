@@ -160,9 +160,9 @@ l10nManifest
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Cannot
@@ -173,7 +173,7 @@ chrome
 .
 manifest
 for
-registring
+registering
 translated
 strings
 "
