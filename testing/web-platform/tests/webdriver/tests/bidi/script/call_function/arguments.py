@@ -943,7 +943,7 @@ False
 )
         
 (
-             
+            
 "
 window
 .
@@ -978,6 +978,49 @@ value
 "
 :
 3
+}
+        
+)
+        
+(
+            
+"
+document
+.
+createElement
+(
+'
+div
+'
+)
+"
+            
+"
+(
+node
+)
+=
+>
+node
+.
+tagName
+"
+            
+{
+"
+type
+"
+:
+"
+string
+"
+"
+value
+"
+:
+"
+DIV
+"
 }
         
 )
@@ -1458,7 +1501,6 @@ call_function
         
 function_declaration
 =
-        
 f
 "
 "
@@ -1584,7 +1626,6 @@ call_function
         
 function_declaration
 =
-        
 f
 "
 "
@@ -1723,7 +1764,7 @@ foobar
 "
 Array
 "
-        
+         
 )
         
 (
@@ -1806,7 +1847,7 @@ foobar
 "
 Map
 "
-        
+         
 )
         
 (
@@ -1855,7 +1896,7 @@ foobar
 "
 Object
 "
-        
+         
 )
         
 (
@@ -1936,7 +1977,7 @@ foobar
 "
 Set
 "
-        
+         
 )
     
 ]
@@ -1964,7 +2005,6 @@ call_function
         
 function_declaration
 =
-        
 f
 "
 "
