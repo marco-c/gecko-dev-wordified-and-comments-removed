@@ -105,7 +105,7 @@ const
 0
 ;
 virtual
-ErrorContext
+FrontendContext
 *
 getContext
 (

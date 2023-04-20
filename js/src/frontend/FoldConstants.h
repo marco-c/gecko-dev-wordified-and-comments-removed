@@ -28,11 +28,6 @@ js
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 namespace
 frontend
 {
@@ -62,7 +57,7 @@ FoldConstants
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -94,7 +89,7 @@ FoldConstants
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS

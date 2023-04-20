@@ -91,11 +91,6 @@ js
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 class
 JSONPrinter
 ;
@@ -692,7 +687,7 @@ nodiscard
 bool
 pushByte
 (
-ErrorContext
+FrontendContext
 *
 ec
 uint8_t
@@ -734,7 +729,7 @@ nodiscard
 bool
 prepareBytes
 (
-ErrorContext
+FrontendContext
 *
 ec
 size_t
@@ -803,7 +798,7 @@ nodiscard
 bool
 pushRawData
 (
-ErrorContext
+FrontendContext
 *
 ec
 T
@@ -860,7 +855,7 @@ nodiscard
 bool
 pushOpAndName
 (
-ErrorContext
+FrontendContext
 *
 ec
 ObjLiteralOpcode
@@ -924,7 +919,7 @@ nodiscard
 bool
 pushValueArg
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -984,7 +979,7 @@ nodiscard
 bool
 pushAtomArg
 (
-ErrorContext
+FrontendContext
 *
 ec
 frontend
@@ -1046,7 +1041,7 @@ CodeVector
 bool
 checkForDuplicatedNames
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -1487,7 +1482,7 @@ nodiscard
 bool
 propWithConstNumericValue
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -1550,7 +1545,7 @@ nodiscard
 bool
 propWithAtomValue
 (
-ErrorContext
+FrontendContext
 *
 ec
 frontend
@@ -1626,7 +1621,7 @@ nodiscard
 bool
 propWithNullValue
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -1666,7 +1661,7 @@ nodiscard
 bool
 propWithUndefinedValue
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -1695,7 +1690,7 @@ nodiscard
 bool
 propWithTrueValue
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -1735,7 +1730,7 @@ nodiscard
 bool
 propWithFalseValue
 (
-ErrorContext
+FrontendContext
 *
 ec
 )

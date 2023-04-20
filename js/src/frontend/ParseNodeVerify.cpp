@@ -64,7 +64,7 @@ public
 :
 ParseNodeVerifier
 (
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -200,7 +200,7 @@ frontend
 :
 CheckParseTree
 (
-ErrorContext
+FrontendContext
 *
 ec
 JS

@@ -186,11 +186,6 @@ js
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 namespace
 frontend
 {
@@ -1937,7 +1932,7 @@ ImmutableScriptData
 >
 new_
 (
-ErrorContext
+FrontendContext
 *
 ec
 uint32_t
@@ -2011,7 +2006,7 @@ ImmutableScriptData
 >
 new_
 (
-ErrorContext
+FrontendContext
 *
 ec
 uint32_t
@@ -2747,7 +2742,7 @@ SharedImmutableScriptData
 *
 create
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -2759,7 +2754,7 @@ SharedImmutableScriptData
 *
 createWith
 (
-ErrorContext
+FrontendContext
 *
 ec
 js
@@ -2833,7 +2828,7 @@ shareScriptData
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 RefPtr

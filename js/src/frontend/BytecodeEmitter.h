@@ -303,11 +303,6 @@ js
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 namespace
 frontend
 {
@@ -385,7 +380,7 @@ cx
 =
 nullptr
 ;
-ErrorContext
+FrontendContext
 *
 const
 ec
@@ -691,7 +686,7 @@ BytecodeEmitter
 BytecodeEmitter
 *
 parent
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -734,7 +729,7 @@ public
 :
 BytecodeEmitter
 (
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -765,7 +760,7 @@ Unit
 >
 BytecodeEmitter
 (
-ErrorContext
+FrontendContext
 *
 ec
 JS

@@ -28,11 +28,6 @@ js
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 namespace
 frontend
 {
@@ -53,7 +48,7 @@ NameFunctions
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS

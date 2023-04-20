@@ -88,11 +88,6 @@ ScriptSourceObject
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 namespace
 frontend
 {
@@ -130,7 +125,7 @@ CompileModule
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -163,7 +158,7 @@ CompileModule
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -201,7 +196,7 @@ ParseModuleToStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -235,7 +230,7 @@ ParseModuleToStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -272,7 +267,7 @@ ParseModuleToExtensibleStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -306,7 +301,7 @@ ParseModuleToExtensibleStencil
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS

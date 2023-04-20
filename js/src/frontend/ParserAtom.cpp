@@ -625,7 +625,7 @@ ParserAtom
 :
 allocate
 (
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -820,7 +820,7 @@ instantiateString
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomIndex
@@ -935,7 +935,7 @@ instantiateAtom
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomIndex
@@ -1041,7 +1041,7 @@ instantiatePermanentAtom
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 AtomSet
@@ -1914,7 +1914,7 @@ ParserAtomsTable
 :
 addEntry
 (
-ErrorContext
+FrontendContext
 *
 ec
 EntryMap
@@ -2057,7 +2057,7 @@ ParserAtomsTable
 :
 internChar16Seq
 (
-ErrorContext
+FrontendContext
 *
 ec
 EntryMap
@@ -2140,7 +2140,7 @@ ParserAtomsTable
 :
 internAscii
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -2181,7 +2181,7 @@ ParserAtomsTable
 :
 internLatin1
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -2363,7 +2363,7 @@ ParserAtomsTable
 :
 internExternalParserAtomImpl
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -2575,7 +2575,7 @@ ParserAtomsTable
 :
 internExternalParserAtom
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -2625,7 +2625,7 @@ ParserAtomsTable
 :
 addPlaceholder
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -2698,7 +2698,7 @@ ParserAtomsTable
 :
 internExternalParserAtomIndex
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -2939,7 +2939,7 @@ ParserAtomSpanBuilder
 :
 allocate
 (
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -3120,7 +3120,7 @@ ParserAtomsTable
 :
 internUtf8
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -3382,7 +3382,7 @@ ParserAtomsTable
 :
 internChar16
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -3532,7 +3532,7 @@ internJSAtom
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 CompilationAtomCache
@@ -6445,7 +6445,7 @@ toJSAtom
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 TaggedParserAtomIndex
@@ -6894,7 +6894,7 @@ InstantiateMarkedAtoms
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -7054,7 +7054,7 @@ InstantiateMarkedAtomsAsPermanent
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 AtomSet

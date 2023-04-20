@@ -1903,7 +1903,7 @@ internInto
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomsTable
@@ -1920,7 +1920,7 @@ isEqualTo
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomsTable
@@ -2166,7 +2166,7 @@ init
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 CompilationInput
@@ -2204,7 +2204,7 @@ searchInEnclosingScope
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 CompilationInput
@@ -2281,7 +2281,7 @@ searchInEnclosingScopeWithCache
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 CompilationInput
@@ -2300,7 +2300,7 @@ searchInEnclosingScopeNoCache
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 CompilationInput
@@ -2330,7 +2330,7 @@ cachePrivateFieldsForEval
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 CompilationInput
@@ -2354,7 +2354,7 @@ cacheEnclosingScopeBindingForEval
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 CompilationInput
@@ -2371,7 +2371,7 @@ addToEnclosingLexicalBindingCache
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomsTable
@@ -2489,7 +2489,7 @@ const
 bool
 setAtomAt
 (
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomIndex
@@ -2502,7 +2502,7 @@ atom
 bool
 allocate
 (
-ErrorContext
+FrontendContext
 *
 ec
 size_t
@@ -2656,7 +2656,7 @@ initScriptSource
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -2669,7 +2669,7 @@ initForGlobal
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -2725,7 +2725,7 @@ initForStandaloneFunction
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -2779,7 +2779,7 @@ initForStandaloneFunctionInNonSyntacticScope
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 Handle
@@ -2796,7 +2796,7 @@ initForEval
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 Handle
@@ -2845,7 +2845,7 @@ initForModule
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -3456,7 +3456,7 @@ init
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -3525,7 +3525,7 @@ copyFunctionInfo
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomsTable
@@ -3551,7 +3551,7 @@ copyScriptInfo
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -3579,7 +3579,7 @@ copyScriptInfo
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -3608,7 +3608,7 @@ copyClosedOverBindings
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -3636,7 +3636,7 @@ copyClosedOverBindings
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -3950,7 +3950,7 @@ nodiscard
 bool
 initVector
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -3963,7 +3963,7 @@ nodiscard
 bool
 initMap
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -3978,7 +3978,7 @@ nodiscard
 bool
 convertFromSingleToMap
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -4279,7 +4279,7 @@ nodiscard
 bool
 prepareStorageFor
 (
-ErrorContext
+FrontendContext
 *
 ec
 size_t
@@ -4296,7 +4296,7 @@ nodiscard
 bool
 cloneFrom
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -4328,7 +4328,7 @@ addAndShare
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ScriptIndex
@@ -4349,7 +4349,7 @@ nodiscard
 bool
 addExtraWithoutShare
 (
-ErrorContext
+FrontendContext
 *
 ec
 ScriptIndex
@@ -4767,7 +4767,7 @@ static
 bool
 prepareForInstantiate
 (
-ErrorContext
+FrontendContext
 *
 ec
 CompilationAtomCache
@@ -4927,7 +4927,7 @@ deserializeStencils
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 CompilationInput
@@ -5845,7 +5845,7 @@ nodiscard
 bool
 steal
 (
-ErrorContext
+FrontendContext
 *
 ec
 RefPtr
@@ -5865,7 +5865,7 @@ nodiscard
 bool
 cloneFrom
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -5882,7 +5882,7 @@ nodiscard
 bool
 cloneFrom
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -5906,7 +5906,7 @@ nodiscard
 bool
 cloneFromImpl
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -6072,7 +6072,7 @@ CompilationState
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 LifoAllocScope
@@ -6089,7 +6089,7 @@ init
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ScopeBindingCache
@@ -6199,7 +6199,7 @@ asmJSCount
 bool
 prepareSharedDataStorage
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -6233,7 +6233,7 @@ allocateGCThingsUninitialized
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ScriptIndex
@@ -6249,7 +6249,7 @@ cursor
 bool
 appendScriptStencilAndData
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -6257,7 +6257,7 @@ ec
 bool
 appendGCThings
 (
-ErrorContext
+FrontendContext
 *
 ec
 ScriptIndex
@@ -6695,7 +6695,7 @@ nodiscard
 bool
 ensureReserved
 (
-ErrorContext
+FrontendContext
 *
 ec
 size_t
@@ -6756,7 +6756,7 @@ nodiscard
 bool
 ensureReservedWithBaseIndex
 (
-ErrorContext
+FrontendContext
 *
 ec
 ScriptIndex
@@ -7373,7 +7373,7 @@ nodiscard
 bool
 buildFunctionKeyToIndex
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -7409,7 +7409,7 @@ nodiscard
 bool
 buildAtomIndexMap
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -7437,7 +7437,7 @@ nodiscard
 bool
 setInitial
 (
-ErrorContext
+FrontendContext
 *
 ec
 UniquePtr
@@ -7457,7 +7457,7 @@ nodiscard
 bool
 addDelazification
 (
-ErrorContext
+FrontendContext
 *
 ec
 const

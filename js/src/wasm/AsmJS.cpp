@@ -6722,7 +6722,7 @@ JSContext
 *
 cx_
 ;
-ErrorContext
+FrontendContext
 *
 ec_
 ;
@@ -6810,7 +6810,7 @@ ModuleValidatorShared
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -7343,7 +7343,7 @@ true
 }
 public
 :
-ErrorContext
+FrontendContext
 *
 ec
 (
@@ -9962,7 +9962,7 @@ ModuleValidator
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -12820,7 +12820,7 @@ m
 FunctionNode
 *
 fn
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -12877,7 +12877,7 @@ m
 FunctionNode
 *
 fn
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -12910,7 +12910,7 @@ return
 m_
 ;
 }
-ErrorContext
+FrontendContext
 *
 ec
 (
@@ -36836,7 +36836,7 @@ CheckModule
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -40184,7 +40184,7 @@ static
 bool
 NoExceptionPending
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -40621,7 +40621,7 @@ DoCompileAsmJS
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -40768,7 +40768,7 @@ CompileAsmJS
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -40815,7 +40815,7 @@ CompileAsmJS
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS

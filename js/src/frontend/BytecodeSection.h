@@ -212,7 +212,7 @@ firstScopeIndex
 explicit
 GCThingList
 (
-ErrorContext
+FrontendContext
 *
 ec
 CompilationState
@@ -717,7 +717,7 @@ list
 explicit
 CGTryNoteList
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -803,7 +803,7 @@ list
 explicit
 CGScopeNoteList
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -914,7 +914,7 @@ list
 explicit
 CGResumeOffsetList
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -1030,7 +1030,7 @@ public
 :
 BytecodeSection
 (
-ErrorContext
+FrontendContext
 *
 ec
 uint32_t
@@ -1592,7 +1592,7 @@ public
 explicit
 PerScriptData
 (
-ErrorContext
+FrontendContext
 *
 ec
 NameCollectionPool
@@ -1614,7 +1614,7 @@ nodiscard
 bool
 init
 (
-ErrorContext
+FrontendContext
 *
 ec
 )

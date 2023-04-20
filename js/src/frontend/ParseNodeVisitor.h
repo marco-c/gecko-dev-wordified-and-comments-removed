@@ -48,11 +48,6 @@ js
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 namespace
 frontend
 {
@@ -66,7 +61,7 @@ ParseNodeVisitor
 {
 public
 :
-ErrorContext
+FrontendContext
 *
 ec_
 ;
@@ -78,7 +73,7 @@ stackLimit_
 ;
 ParseNodeVisitor
 (
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -274,7 +269,7 @@ RewritingParseNodeVisitor
 {
 public
 :
-ErrorContext
+FrontendContext
 *
 ec_
 ;
@@ -286,7 +281,7 @@ stackLimit_
 ;
 RewritingParseNodeVisitor
 (
-ErrorContext
+FrontendContext
 *
 ec
 JS

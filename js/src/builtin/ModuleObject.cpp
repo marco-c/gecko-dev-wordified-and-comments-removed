@@ -6998,7 +6998,7 @@ ModuleBuilder
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -7046,7 +7046,7 @@ ModuleBuilder
 :
 noteFunctionDeclaration
 (
-ErrorContext
+FrontendContext
 *
 ec
 uint32_t
@@ -8298,7 +8298,7 @@ initModule
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 frontend

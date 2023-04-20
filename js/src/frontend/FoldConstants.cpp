@@ -173,7 +173,7 @@ JSContext
 *
 cx
 ;
-ErrorContext
+FrontendContext
 *
 ec
 ;
@@ -7049,7 +7049,7 @@ FoldVisitor
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -8537,7 +8537,7 @@ Fold
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -8620,7 +8620,7 @@ FoldConstants
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS

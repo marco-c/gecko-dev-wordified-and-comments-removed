@@ -866,7 +866,7 @@ BytecodeEmitter
 BytecodeEmitter
 *
 parent
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -1033,7 +1033,7 @@ BytecodeEmitter
 :
 BytecodeEmitter
 (
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -53277,7 +53277,7 @@ static
 bool
 AllocSrcNote
 (
-ErrorContext
+FrontendContext
 *
 ec
 SrcNotesVector

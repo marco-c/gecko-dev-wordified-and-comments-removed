@@ -429,11 +429,6 @@ EnterDebuggeeNoExecute
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 class
 StaticStrings
 ;
@@ -484,7 +479,7 @@ MOZ_COLD
 void
 ReportAllocationOverflow
 (
-ErrorContext
+FrontendContext
 *
 ec
 )

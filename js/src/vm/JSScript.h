@@ -276,11 +276,6 @@ js
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 class
 ScriptSource
 ;
@@ -2359,7 +2354,7 @@ initFromOptions
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -2381,7 +2376,7 @@ MinimumCompressibleLength
 SharedImmutableString
 getOrCreateStringZ
 (
-ErrorContext
+FrontendContext
 *
 ec
 UniqueChars
@@ -2393,7 +2388,7 @@ str
 SharedImmutableTwoByteString
 getOrCreateStringZ
 (
-ErrorContext
+FrontendContext
 *
 ec
 UniqueTwoByteChars
@@ -2437,7 +2432,7 @@ nodiscard
 bool
 assignSource
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -3953,7 +3948,7 @@ setFilename
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -3970,7 +3965,7 @@ nodiscard
 bool
 setFilename
 (
-ErrorContext
+FrontendContext
 *
 ec
 UniqueChars
@@ -4012,7 +4007,7 @@ setIntroducerFilename
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -4029,7 +4024,7 @@ nodiscard
 bool
 setIntroducerFilename
 (
-ErrorContext
+FrontendContext
 *
 ec
 UniqueChars
@@ -4088,7 +4083,7 @@ setDisplayURL
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -4108,7 +4103,7 @@ setDisplayURL
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 UniqueTwoByteChars
@@ -4156,7 +4151,7 @@ setSourceMapURL
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -4173,7 +4168,7 @@ nodiscard
 bool
 setSourceMapURL
 (
-ErrorContext
+FrontendContext
 *
 ec
 UniqueTwoByteChars

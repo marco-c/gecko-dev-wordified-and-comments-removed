@@ -153,7 +153,7 @@ validateResultCode
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 JS

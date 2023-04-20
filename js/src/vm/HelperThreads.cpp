@@ -3665,7 +3665,7 @@ parse
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -3723,7 +3723,7 @@ parse
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -3772,7 +3772,7 @@ parse
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -3820,7 +3820,7 @@ parse
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -3902,7 +3902,7 @@ parse
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -4117,7 +4117,7 @@ parse
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -4296,7 +4296,7 @@ parse
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -4508,7 +4508,7 @@ parse
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -4843,7 +4843,7 @@ DelazifyStrategy
 :
 add
 (
-ErrorContext
+FrontendContext
 *
 ec
 const

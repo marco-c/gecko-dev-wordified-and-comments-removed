@@ -163,11 +163,6 @@ js
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 namespace
 frontend
 {
@@ -541,7 +536,7 @@ JSContext
 const
 cx_
 ;
-ErrorContext
+FrontendContext
 *
 const
 ec_
@@ -708,7 +703,7 @@ SharedContext
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 Kind
@@ -1185,7 +1180,7 @@ GlobalSharedContext
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ScopeKind
@@ -1264,7 +1259,7 @@ EvalSharedContext
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 CompilationState
@@ -1325,7 +1320,7 @@ SuspendableContext
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 Kind
@@ -1607,7 +1602,7 @@ FunctionBox
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 SourceExtent

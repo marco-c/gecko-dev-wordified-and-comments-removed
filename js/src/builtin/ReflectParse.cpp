@@ -858,7 +858,7 @@ JSContext
 *
 cx
 ;
-ErrorContext
+FrontendContext
 *
 ec
 ;
@@ -900,7 +900,7 @@ NodeBuilder
 JSContext
 *
 c
-ErrorContext
+FrontendContext
 *
 e
 bool
@@ -9077,7 +9077,7 @@ JSContext
 *
 cx
 ;
-ErrorContext
+FrontendContext
 *
 ec
 ;
@@ -9769,7 +9769,7 @@ ASTSerializer
 JSContext
 *
 c
-ErrorContext
+FrontendContext
 *
 e
 bool

@@ -45,11 +45,6 @@ js
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 class
 ScriptSource
 ;
@@ -138,7 +133,7 @@ SetSourceOptions
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ScriptSource

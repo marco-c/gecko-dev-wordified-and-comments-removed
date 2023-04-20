@@ -96,7 +96,7 @@ ModuleSharedContext
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const

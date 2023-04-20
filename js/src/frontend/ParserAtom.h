@@ -1969,7 +1969,7 @@ ParserAtom
 *
 allocate
 (
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -2178,7 +2178,7 @@ instantiateString
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomIndex
@@ -2196,7 +2196,7 @@ instantiateAtom
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomIndex
@@ -2214,7 +2214,7 @@ instantiatePermanentAtom
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 AtomSet
@@ -3112,7 +3112,7 @@ InstantiateMarkedAtoms
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -3130,7 +3130,7 @@ InstantiateMarkedAtomsAsPermanent
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 AtomSet
@@ -3309,7 +3309,7 @@ private
 TaggedParserAtomIndex
 addEntry
 (
-ErrorContext
+FrontendContext
 *
 ec
 EntryMap
@@ -3333,7 +3333,7 @@ SeqCharT
 TaggedParserAtomIndex
 internChar16Seq
 (
-ErrorContext
+FrontendContext
 *
 ec
 EntryMap
@@ -3361,7 +3361,7 @@ AtomCharT
 TaggedParserAtomIndex
 internExternalParserAtomImpl
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -3375,7 +3375,7 @@ public
 TaggedParserAtomIndex
 internAscii
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -3389,7 +3389,7 @@ length
 TaggedParserAtomIndex
 internLatin1
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -3406,7 +3406,7 @@ length
 TaggedParserAtomIndex
 internUtf8
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -3423,7 +3423,7 @@ nbyte
 TaggedParserAtomIndex
 internChar16
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -3440,7 +3440,7 @@ internJSAtom
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 CompilationAtomCache
@@ -3454,7 +3454,7 @@ atom
 TaggedParserAtomIndex
 internExternalParserAtom
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -3466,7 +3466,7 @@ atom
 TaggedParserAtomIndex
 internExternalParserAtomIndex
 (
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -3494,7 +3494,7 @@ const
 bool
 addPlaceholder
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -3675,7 +3675,7 @@ toJSAtom
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 TaggedParserAtomIndex
@@ -3967,7 +3967,7 @@ entries
 bool
 allocate
 (
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc

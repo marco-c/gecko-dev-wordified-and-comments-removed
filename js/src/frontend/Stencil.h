@@ -467,7 +467,7 @@ createRegExpAndEnsureAtom
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomsTable
@@ -559,7 +559,7 @@ nodiscard
 bool
 init
 (
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -921,7 +921,7 @@ static
 bool
 appendScopeStencilAndData
 (
-ErrorContext
+FrontendContext
 *
 ec
 CompilationState
@@ -948,7 +948,7 @@ static
 bool
 createForFunctionScope
 (
-ErrorContext
+FrontendContext
 *
 ec
 CompilationState
@@ -985,7 +985,7 @@ static
 bool
 createForLexicalScope
 (
-ErrorContext
+FrontendContext
 *
 ec
 CompilationState
@@ -1018,7 +1018,7 @@ static
 bool
 createForClassBodyScope
 (
-ErrorContext
+FrontendContext
 *
 ec
 CompilationState
@@ -1051,7 +1051,7 @@ static
 bool
 createForVarScope
 (
-ErrorContext
+FrontendContext
 *
 ec
 CompilationState
@@ -1086,7 +1086,7 @@ static
 bool
 createForGlobalScope
 (
-ErrorContext
+FrontendContext
 *
 ec
 CompilationState
@@ -1109,7 +1109,7 @@ static
 bool
 createForEvalScope
 (
-ErrorContext
+FrontendContext
 *
 ec
 CompilationState
@@ -1140,7 +1140,7 @@ static
 bool
 createForModuleScope
 (
-ErrorContext
+FrontendContext
 *
 ec
 CompilationState
@@ -1169,7 +1169,7 @@ static
 bool
 createForWithScope
 (
-ErrorContext
+FrontendContext
 *
 ec
 CompilationState
@@ -2524,7 +2524,7 @@ initModule
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 CompilationAtomCache

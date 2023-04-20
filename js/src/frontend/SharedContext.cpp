@@ -188,7 +188,7 @@ SharedContext
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 Kind
@@ -390,7 +390,7 @@ GlobalSharedContext
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ScopeKind
@@ -469,7 +469,7 @@ EvalSharedContext
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 CompilationState
@@ -559,7 +559,7 @@ SuspendableContext
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 Kind
@@ -618,7 +618,7 @@ FunctionBox
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 SourceExtent
@@ -1528,7 +1528,7 @@ ModuleSharedContext
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 const

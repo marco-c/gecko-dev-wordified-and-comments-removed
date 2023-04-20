@@ -6294,7 +6294,7 @@ decimalPoint_
 TaggedParserAtomIndex
 toAtom
 (
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomsTable
@@ -8102,7 +8102,7 @@ create
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 ParserAtomsTable
@@ -11067,7 +11067,7 @@ public
 explicit
 ParseNodeAllocator
 (
-ErrorContext
+FrontendContext
 *
 ec
 LifoAlloc
@@ -11095,7 +11095,7 @@ size
 ;
 private
 :
-ErrorContext
+FrontendContext
 *
 ec
 ;

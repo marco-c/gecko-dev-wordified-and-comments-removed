@@ -202,7 +202,7 @@ ObjLiteralWriter
 :
 checkForDuplicatedNames
 (
-ErrorContext
+FrontendContext
 *
 ec
 )

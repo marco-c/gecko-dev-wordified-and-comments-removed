@@ -116,11 +116,6 @@ js
 class
 FrontendContext
 ;
-using
-ErrorContext
-=
-FrontendContext
-;
 #
 ifdef
 __wasi__
@@ -163,7 +158,7 @@ JS_PUBLIC_API
 void
 IncWasiRecursionDepth
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -174,7 +169,7 @@ JS_PUBLIC_API
 void
 DecWasiRecursionDepth
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -185,7 +180,7 @@ JS_PUBLIC_API
 bool
 CheckWasiRecursionLimit
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -282,7 +277,7 @@ Variant
 <
 JSContext
 *
-ErrorContext
+FrontendContext
 *
 >
 context_
@@ -330,7 +325,7 @@ explicit
 MOZ_ALWAYS_INLINE
 AutoCheckRecursionLimit
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -421,7 +416,7 @@ cx
 }
 else
 {
-ErrorContext
+FrontendContext
 *
 ec
 =
@@ -429,7 +424,7 @@ context_
 .
 as
 <
-ErrorContext
+FrontendContext
 *
 >
 (
@@ -483,7 +478,7 @@ cx
 }
 else
 {
-ErrorContext
+FrontendContext
 *
 ec
 =
@@ -491,7 +486,7 @@ context_
 .
 as
 <
-ErrorContext
+FrontendContext
 *
 >
 (
@@ -554,7 +549,7 @@ false
 }
 else
 {
-ErrorContext
+FrontendContext
 *
 ec
 =
@@ -562,7 +557,7 @@ context_
 .
 as
 <
-ErrorContext
+FrontendContext
 *
 >
 (
@@ -632,7 +627,7 @@ MOZ_ALWAYS_INLINE
 bool
 check
 (
-ErrorContext
+FrontendContext
 *
 ec
 JS
@@ -826,7 +821,7 @@ JS_PUBLIC_API
 void
 ReportOverRecursed
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -1063,7 +1058,7 @@ AutoCheckRecursionLimit
 :
 check
 (
-ErrorContext
+FrontendContext
 *
 ec
 JS

@@ -52,11 +52,6 @@ class
 FrontendContext
 ;
 using
-ErrorContext
-=
-FrontendContext
-;
-using
 JSAllocator
 =
 JSContext
@@ -181,7 +176,7 @@ extern
 void
 ReportCompileErrorLatin1
 (
-ErrorContext
+FrontendContext
 *
 ec
 ErrorMetadata
@@ -204,7 +199,7 @@ extern
 void
 ReportCompileErrorUTF8
 (
-ErrorContext
+FrontendContext
 *
 ec
 ErrorMetadata
@@ -232,7 +227,7 @@ extern
 bool
 ReportCompileWarning
 (
-ErrorContext
+FrontendContext
 *
 ec
 ErrorMetadata
@@ -387,7 +382,7 @@ extern
 bool
 ExpandErrorArgumentsVA
 (
-ErrorContext
+FrontendContext
 *
 ec
 JSErrorCallback
@@ -416,7 +411,7 @@ extern
 bool
 ExpandErrorArgumentsVA
 (
-ErrorContext
+FrontendContext
 *
 ec
 JSErrorCallback
@@ -445,7 +440,7 @@ extern
 bool
 ExpandErrorArgumentsVA
 (
-ErrorContext
+FrontendContext
 *
 ec
 JSErrorCallback
@@ -469,7 +464,7 @@ extern
 bool
 ExpandErrorArgumentsVA
 (
-ErrorContext
+FrontendContext
 *
 ec
 JSErrorCallback

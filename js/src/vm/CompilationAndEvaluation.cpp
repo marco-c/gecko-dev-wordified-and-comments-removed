@@ -1139,7 +1139,7 @@ FunctionCompiler
 JSContext
 *
 cx
-ErrorContext
+FrontendContext
 *
 ec
 )

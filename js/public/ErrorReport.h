@@ -502,7 +502,7 @@ addNoteVA
 js
 :
 :
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -578,7 +578,7 @@ addNoteASCII
 js
 :
 :
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -639,7 +639,7 @@ addNoteLatin1
 js
 :
 :
-ErrorContext
+FrontendContext
 *
 ec
 const
@@ -700,7 +700,7 @@ addNoteUTF8
 js
 :
 :
-ErrorContext
+FrontendContext
 *
 ec
 const
