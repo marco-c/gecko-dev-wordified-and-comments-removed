@@ -335,7 +335,7 @@ popover
 '
 )
 ;
-assert_false
+assert_true
 (
 popover
 .
@@ -350,10 +350,17 @@ open
 changing
 focus
 should
+not
 close
 the
 popover
 '
+)
+;
+popover
+.
+hidePopover
+(
 )
 ;
 /

@@ -1018,7 +1018,7 @@ popover
 '
 )
 ;
-assert_false
+assert_true
 (
 popover1
 .
@@ -1031,6 +1031,12 @@ open
 )
 )
 ;
+popover1
+.
+hidePopover
+(
+)
+;
 }
 '
 Moving
@@ -1038,7 +1044,8 @@ focus
 outside
 the
 popover
-will
+should
+not
 dismiss
 the
 popover
