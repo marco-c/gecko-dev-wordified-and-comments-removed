@@ -6933,6 +6933,15 @@ GdkIsX11Display
 )
 &
 &
+!
+widget
+:
+:
+IsXWaylandProtocol
+(
+)
+&
+&
 flavorStr
 .
 EqualsLiteral
