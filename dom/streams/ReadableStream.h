@@ -435,11 +435,6 @@ return
 nullptr
 ;
 }
-void
-ReleaseObjectsFromBodyStream
-(
-)
-;
 MOZ_CAN_RUN_SCRIPT
 bool
 Transfer
