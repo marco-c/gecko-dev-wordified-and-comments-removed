@@ -5827,11 +5827,6 @@ XRE_IsGPUProcess
 XRE_IsSocketProcess
 (
 )
-|
-|
-XRE_IsUtilityProcess
-(
-)
 )
 {
 useTelemetry

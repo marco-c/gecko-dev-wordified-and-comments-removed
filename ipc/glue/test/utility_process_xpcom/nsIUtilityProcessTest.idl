@@ -44,10 +44,5 @@ stopProcess
 (
 )
 ;
-void
-testTelemetryProbes
-(
-)
-;
 }
 ;
