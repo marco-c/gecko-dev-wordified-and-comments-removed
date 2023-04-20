@@ -4619,6 +4619,12 @@ PanelAnimations
 aResult
 =
 sCSDAvailable
+&
+&
+!
+GdkIsWaylandDisplay
+(
+)
 ;
 break
 ;
