@@ -1545,12 +1545,10 @@ Services
 .
 io
 .
-getProtocolHandler
+getDefaultPort
 (
 scheme
 )
-.
-defaultPort
 ;
 }
 }
