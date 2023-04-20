@@ -2789,10 +2789,6 @@ macosx64
 -
 sdk
 -
-11
-.
-3
--
 sysroot
 -
 wasm32
@@ -2953,10 +2949,6 @@ sccache
 macosx64
 -
 sdk
--
-11
-.
-3
 -
 sysroot
 -
