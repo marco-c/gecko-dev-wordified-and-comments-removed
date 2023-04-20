@@ -174,7 +174,7 @@ manifest
 {
 name
 version
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -392,7 +392,7 @@ name
 __MSG_searchName__
 "
 version
-applications
+browser_specific_settings
 :
 {
 gecko

@@ -493,7 +493,7 @@ s
 a
 webextension
 "
-applications
+browser_specific_settings
 :
 {
 gecko

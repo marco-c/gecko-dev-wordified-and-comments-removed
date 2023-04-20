@@ -154,7 +154,7 @@ description
 Test
 Description
 "
-applications
+browser_specific_settings
 :
 {
 gecko
