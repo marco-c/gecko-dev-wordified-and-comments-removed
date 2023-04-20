@@ -38,12 +38,6 @@ essential
 "
         
 "
-libpython3
--
-dev
-"
-        
-"
 m4
 "
         

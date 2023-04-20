@@ -346,19 +346,6 @@ perl
 FindBin
 "
 )
-        
-self
-.
-packages
-+
-=
-[
-"
-python3
--
-devel
-"
-]
     
 def
 install_system_packages
