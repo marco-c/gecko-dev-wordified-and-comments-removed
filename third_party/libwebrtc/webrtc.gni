@@ -1533,17 +1533,6 @@ is_clang
 #
 Enable
 this
-to
-allow
-vp9
-codec
-support
-rtc_libvpx_build_vp9
-=
-true
-#
-Enable
-this
 flag
 to
 make
@@ -2048,6 +2037,9 @@ rtc_build_libvpx
 =
 !
 build_with_mozilla
+rtc_libvpx_build_vp9
+=
+true
 rtc_build_opus
 =
 !
