@@ -586,6 +586,9 @@ UpdateBackpressure
 (
 bool
 aBackpressure
+ErrorResult
+&
+aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -954,6 +957,9 @@ WritableStreamAddWriteRequest
 WritableStream
 *
 aStream
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed

@@ -189,6 +189,9 @@ close
 (
 )
 ;
+[
+Throws
+]
 undefined
 releaseLock
 (

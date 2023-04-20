@@ -290,6 +290,9 @@ aReader
 ReadableStream
 *
 aStream
+ErrorResult
+&
+aRv
 )
 ;
 void
