@@ -87,6 +87,12 @@ GlobalHelperThreadState
 \
 _
 (
+StringsCache
+500
+)
+\
+_
+(
 FutexThread
 500
 )
