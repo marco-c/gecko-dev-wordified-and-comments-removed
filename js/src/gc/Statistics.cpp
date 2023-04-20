@@ -10134,7 +10134,7 @@ phase
 PhaseKind
 :
 :
-None
+NONE
 )
 {
 \
@@ -10156,7 +10156,6 @@ phaseTimes
 ;
 \
 }
-\
 FOR_EACH_GC_PROFILE_TIME
 (
 GET_PROFILE_TIME
