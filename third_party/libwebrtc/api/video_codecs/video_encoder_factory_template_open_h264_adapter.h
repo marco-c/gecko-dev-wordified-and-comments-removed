@@ -58,6 +58,7 @@ SupportedFormats
 return
 SupportedH264Codecs
 (
+true
 )
 ;
 }

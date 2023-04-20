@@ -97,6 +97,10 @@ std
 string
 &
 packetization_mode
+bool
+add_scalability_modes
+=
+false
 )
 ;
 RTC_EXPORT
@@ -114,6 +118,10 @@ SdpVideoFormat
 >
 SupportedH264Codecs
 (
+bool
+add_scalability_modes
+=
+false
 )
 ;
 std

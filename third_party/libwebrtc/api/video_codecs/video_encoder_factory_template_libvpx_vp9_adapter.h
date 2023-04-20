@@ -52,6 +52,7 @@ SupportedFormats
 return
 SupportedVP9Codecs
 (
+true
 )
 ;
 }
