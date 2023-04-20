@@ -2444,12 +2444,10 @@ pm
 HidePopup
 (
 mDragPopup
-{
-HidePopupOption
-:
-:
-DeselectMenu
-}
+false
+true
+false
+false
 )
 ;
 }
