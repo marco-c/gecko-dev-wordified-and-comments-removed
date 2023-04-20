@@ -1,0 +1,17 @@
+abortSignalAnySignalOnlyTests
+(
+TaskSignal
+)
+;
+abortSignalAnyTests
+(
+TaskSignal
+AbortController
+)
+;
+abortSignalAnyTests
+(
+TaskSignal
+TaskController
+)
+;
