@@ -49,6 +49,11 @@ popup
 .
 html
 "
+default_area
+:
+"
+navbar
+"
 unrecognized_property
 :
 "

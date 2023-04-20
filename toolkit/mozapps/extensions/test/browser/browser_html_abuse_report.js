@@ -3700,6 +3700,11 @@ BASE_TEST_MANIFEST
 browser_action
 :
 {
+default_area
+:
+"
+navbar
+"
 }
 browser_specific_settings
 :
