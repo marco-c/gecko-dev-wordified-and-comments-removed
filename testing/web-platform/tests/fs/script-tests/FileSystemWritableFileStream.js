@@ -1,3 +1,8 @@
+'
+use
+strict
+'
+;
 directory_test
 (
 async
