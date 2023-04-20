@@ -10434,6 +10434,12 @@ AssertAlive
 MOZ_DIAGNOSTIC_ASSERT
 (
 !
+mIsSignaledImpendingShutdown
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
 IsDead
 (
 )
