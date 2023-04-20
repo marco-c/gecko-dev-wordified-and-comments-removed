@@ -1652,6 +1652,15 @@ cpp
 "
 riscv64
 /
+AssemblerMatInt
+.
+cpp
+.
+cpp
+"
+"
+riscv64
+/
 CodeGenerator
 -
 riscv64
