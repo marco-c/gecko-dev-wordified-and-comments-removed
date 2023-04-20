@@ -1451,6 +1451,15 @@ regex
 ffi
 "
 }
+rure
+=
+"
+0
+.
+2
+.
+2
+"
 rust_minidump_writer_linux
 =
 {
