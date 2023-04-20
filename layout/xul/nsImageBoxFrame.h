@@ -336,11 +336,6 @@ UpdateImage
 (
 )
 ;
-void
-UpdateLoadFlags
-(
-)
-;
 virtual
 void
 BuildDisplayList
@@ -556,9 +551,6 @@ nsCOMPtr
 imgINotificationObserver
 >
 mListener
-;
-int32_t
-mLoadFlags
 ;
 bool
 mRequestRegistered

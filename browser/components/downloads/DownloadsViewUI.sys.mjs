@@ -2987,11 +2987,6 @@ class
 "
 downloadTypeIcon
 "
-validate
-=
-"
-always
-"
 /
 >
 <
