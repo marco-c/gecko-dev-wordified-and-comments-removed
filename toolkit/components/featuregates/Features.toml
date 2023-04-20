@@ -1074,6 +1074,9 @@ value
 default
 =
 false
+nightly
+=
+true
 android
 =
 true
