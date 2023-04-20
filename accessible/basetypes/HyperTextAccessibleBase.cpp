@@ -1369,7 +1369,6 @@ nsIAccessibleText
 :
 BOUNDARY_CHAR
 eDirPrevious
-false
 )
 ;
 if
@@ -1540,7 +1539,6 @@ nsIAccessibleText
 :
 BOUNDARY_CHAR
 eDirPrevious
-false
 )
 ;
 TextLeafPoint
@@ -1589,7 +1587,6 @@ nsIAccessibleText
 :
 BOUNDARY_CHAR
 eDirNext
-false
 )
 )
 {
@@ -2326,7 +2323,13 @@ FindBoundary
 (
 aBoundaryType
 eDirPrevious
-true
+TextLeafPoint
+:
+:
+BoundaryFlags
+:
+:
+eIncludeOrigin
 )
 ;
 bool
@@ -2716,7 +2719,13 @@ FindBoundary
 (
 aBoundaryType
 eDirPrevious
-true
+TextLeafPoint
+:
+:
+BoundaryFlags
+:
+:
+eIncludeOrigin
 )
 ;
 bool
