@@ -1701,7 +1701,7 @@ HttpConnectionUDP
 :
 GetTLSSocketControl
 (
-nsITLSSocketControl
+nsISSLSocketControl
 *
 *
 secinfo

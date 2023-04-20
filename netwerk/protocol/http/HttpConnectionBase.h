@@ -119,7 +119,7 @@ class
 nsISocketTransport
 ;
 class
-nsITLSSocketControl
+nsISSLSocketControl
 ;
 namespace
 mozilla
@@ -451,7 +451,7 @@ virtual
 void
 GetTLSSocketControl
 (
-nsITLSSocketControl
+nsISSLSocketControl
 *
 *
 result
@@ -904,7 +904,7 @@ override
 void
 GetTLSSocketControl
 (
-nsITLSSocketControl
+nsISSLSocketControl
 *
 *
 result

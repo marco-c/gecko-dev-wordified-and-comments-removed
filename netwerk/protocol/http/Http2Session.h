@@ -888,7 +888,7 @@ static
 bool
 ALPNCallback
 (
-nsITLSSocketControl
+nsISSLSocketControl
 *
 tlsSocketControl
 )

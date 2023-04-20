@@ -581,7 +581,7 @@ mSocketOutWrapper
 ;
 nsCOMPtr
 <
-nsITLSSocketControl
+nsISSLSocketControl
 >
 mTLSSocketControl
 ;
