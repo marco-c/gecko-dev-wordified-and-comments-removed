@@ -301,6 +301,7 @@ nsAString
 &
 aValue
 )
+const
 {
 GetURIAttr
 (
@@ -346,6 +347,7 @@ nsAString
 &
 aValue
 )
+const
 ;
 void
 SetTarget
@@ -380,6 +382,7 @@ DOMString
 &
 aValue
 )
+const
 {
 GetHTMLAttr
 (
@@ -424,6 +427,7 @@ DOMString
 &
 aValue
 )
+const
 {
 GetHTMLAttr
 (
@@ -468,6 +472,7 @@ DOMString
 &
 aValue
 )
+const
 {
 GetHTMLAttr
 (
@@ -538,6 +543,7 @@ DOMString
 &
 aPolicy
 )
+const
 {
 GetEnumAttr
 (
@@ -564,6 +570,7 @@ DOMString
 &
 aValue
 )
+const
 {
 GetHTMLAttr
 (
@@ -608,6 +615,7 @@ nsAString
 &
 aValue
 )
+const
 {
 GetHTMLAttr
 (
@@ -626,6 +634,7 @@ DOMString
 &
 aValue
 )
+const
 {
 GetHTMLAttr
 (
@@ -699,6 +708,7 @@ DOMString
 &
 aValue
 )
+const
 {
 GetHTMLAttr
 (
@@ -743,6 +753,7 @@ DOMString
 &
 aValue
 )
+const
 {
 GetHTMLAttr
 (
@@ -787,6 +798,7 @@ DOMString
 &
 aValue
 )
+const
 {
 GetHTMLAttr
 (
@@ -805,6 +817,7 @@ nsAString
 &
 aValue
 )
+const
 {
 GetHTMLAttr
 (
@@ -849,6 +862,7 @@ DOMString
 &
 aValue
 )
+const
 {
 GetHTMLAttr
 (
@@ -893,6 +907,7 @@ DOMString
 &
 aValue
 )
+const
 {
 GetHTMLAttr
 (
@@ -937,6 +952,7 @@ nsAString
 &
 aResult
 )
+const
 {
 GetHref
 (
@@ -951,7 +967,14 @@ nsAString
 &
 aSource
 )
+const
+{
+GetHref
+(
+aSource
+)
 ;
+}
 void
 NodeInfoChanged
 (

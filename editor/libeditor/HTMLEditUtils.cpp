@@ -1984,6 +1984,7 @@ HTMLEditUtils
 :
 IsLink
 (
+const
 nsINode
 *
 aNode
@@ -2011,6 +2012,7 @@ false
 }
 RefPtr
 <
+const
 dom
 :
 :
