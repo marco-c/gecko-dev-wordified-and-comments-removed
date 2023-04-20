@@ -102,6 +102,10 @@ attribute
 boolean
 majorUpgrade
 ;
+attribute
+boolean
+firstRunProfile
+;
 /
 *
 *
