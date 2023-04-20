@@ -722,6 +722,11 @@ I32x4DotI8x16I7x16AddS
 0x113
 ;
 const
+F32x4RelaxedDotBF16x8AddF32x4
+=
+0x114
+;
+const
 FirstInvalidOpcode
 =
 0xc5
