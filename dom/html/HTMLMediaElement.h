@@ -4063,7 +4063,7 @@ mLoadedDataFired
 false
 ;
 bool
-mAutoplaying
+mCanAutoplayFlag
 =
 true
 ;

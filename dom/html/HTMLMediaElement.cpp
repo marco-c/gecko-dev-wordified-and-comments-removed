@@ -10098,7 +10098,7 @@ mLoadedDataFired
 =
 false
 ;
-mAutoplaying
+mCanAutoplayFlag
 =
 true
 ;
@@ -15299,7 +15299,7 @@ mPaused
 =
 true
 ;
-mAutoplaying
+mCanAutoplayFlag
 =
 false
 ;
@@ -21149,7 +21149,7 @@ mPaused
 =
 false
 ;
-mAutoplaying
+mCanAutoplayFlag
 =
 false
 ;
@@ -26035,7 +26035,7 @@ if
 mSrcStream
 )
 {
-mAutoplaying
+mCanAutoplayFlag
 =
 true
 ;
@@ -28212,7 +28212,7 @@ false
 if
 (
 !
-mAutoplaying
+mCanAutoplayFlag
 )
 {
 return
