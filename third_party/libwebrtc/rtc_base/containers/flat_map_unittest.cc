@@ -22,6 +22,11 @@ string
 #
 include
 <
+type_traits
+>
+#
+include
+<
 vector
 >
 #
@@ -1670,7 +1675,7 @@ string
 &
 const_ref
 =
-webrtc
+std
 :
 :
 as_const
@@ -1801,7 +1806,7 @@ a
 EXPECT_EQ
 (
 2
-webrtc
+std
 :
 :
 as_const
