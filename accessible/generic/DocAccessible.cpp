@@ -4349,6 +4349,11 @@ IsSelect
 )
 )
 {
+SetViewportCacheDirty
+(
+true
+)
+;
 AccSelChangeEvent
 :
 :
