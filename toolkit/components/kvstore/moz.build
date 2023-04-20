@@ -24,7 +24,9 @@ EXTRA_JS_MODULES
 "
 kvstore
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCSHELL_TESTS_MANIFESTS
