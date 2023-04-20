@@ -611,10 +611,7 @@ const
 auto
 tag
 =
-Span
-{
 aIv
-}
 .
 Last
 (
@@ -625,10 +622,7 @@ const
 auto
 iv
 =
-Span
-{
 aIv
-}
 .
 First
 (
