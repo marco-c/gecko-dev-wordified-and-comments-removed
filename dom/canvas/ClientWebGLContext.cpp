@@ -24164,7 +24164,7 @@ layers
 :
 Image
 >
-imageWaitPingResponse
+keepAliveImage
 ;
 if
 (
@@ -24416,12 +24416,6 @@ mNotLost
 >
 inProcess
 ;
-if
-(
-!
-inProcess
-)
-{
 MOZ_ASSERT
 (
 desc
@@ -24430,14 +24424,13 @@ desc
 image
 )
 ;
-imageWaitPingResponse
+keepAliveImage
 =
 desc
 -
 >
 image
 ;
-}
 if
 (
 sdD3D
@@ -24970,7 +24963,7 @@ if
 tempShmem
 |
 |
-imageWaitPingResponse
+keepAliveImage
 )
 {
 const
@@ -25000,7 +24993,7 @@ eventTarget
 __func__
 [
 tempShmem
-imageWaitPingResponse
+keepAliveImage
 ]
 (
 )
