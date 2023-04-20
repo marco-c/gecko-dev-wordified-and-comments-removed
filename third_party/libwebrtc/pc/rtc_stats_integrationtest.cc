@@ -5482,6 +5482,15 @@ RTCRemoteOutboundRtpStreamStats
 kType
 )
 ;
+verifier
+.
+TestMemberIsDefined
+(
+inbound_stream
+.
+track_identifier
+)
+;
 if
 (
 inbound_stream

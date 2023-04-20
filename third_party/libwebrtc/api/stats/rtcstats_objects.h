@@ -2118,6 +2118,15 @@ std
 :
 string
 >
+track_identifier
+;
+RTCStatsMember
+<
+std
+:
+:
+string
+>
 remote_id
 ;
 RTCStatsMember
