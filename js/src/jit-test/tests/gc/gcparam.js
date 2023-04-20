@@ -197,6 +197,13 @@ sliceTimeBudgetMS
 testChangeParam
 (
 "
+markStackLimit
+"
+)
+;
+testChangeParam
+(
+"
 highFrequencyTimeLimit
 "
 )

@@ -64,8 +64,11 @@ try
 {
 try
 {
-setMarkStackLimit
+gcparam
 (
+"
+markStackLimit
+"
 1
 )
 ;
