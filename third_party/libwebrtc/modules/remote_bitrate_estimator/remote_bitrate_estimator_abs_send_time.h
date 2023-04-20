@@ -285,14 +285,8 @@ header
 )
 override
 ;
-void
+TimeDelta
 Process
-(
-)
-override
-;
-int64_t
-TimeUntilNextProcess
 (
 )
 override
