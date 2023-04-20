@@ -1142,14 +1142,12 @@ as_ref
 ;
 can_resume
 (
-&
 token1
 false
 )
 ;
 can_resume
 (
-&
 token2
 false
 )
@@ -1370,14 +1368,12 @@ as_ref
 ;
 can_resume
 (
-&
 token1
 true
 )
 ;
 can_resume
 (
-&
 token2
 true
 )
@@ -1504,7 +1500,6 @@ unwrap
 ;
 can_resume
 (
-&
 token
 false
 )

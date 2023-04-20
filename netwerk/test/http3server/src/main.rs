@@ -3462,6 +3462,9 @@ SessionClosed
 {
 session
 reason
+headers
+:
+_
 }
 )
 =

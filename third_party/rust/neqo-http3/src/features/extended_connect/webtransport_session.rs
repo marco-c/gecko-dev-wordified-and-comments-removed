@@ -1150,6 +1150,7 @@ from
 (
 close_type
 )
+None
 )
 ;
 }
@@ -1256,6 +1257,10 @@ new
 (
 )
 }
+Some
+(
+headers
+)
 )
 ;
 self
@@ -1380,6 +1385,10 @@ new
 (
 )
 }
+Some
+(
+headers
+)
 )
 ;
 SessionState
@@ -1403,6 +1412,7 @@ self
 .
 session_id
 status
+headers
 )
 ;
 SessionState
@@ -1432,6 +1442,10 @@ SessionCloseReason
 Status
 (
 status
+)
+Some
+(
+headers
 )
 )
 ;
@@ -1811,6 +1825,7 @@ Clean
 error
 message
 }
+None
 )
 ;
 self
@@ -1868,6 +1883,7 @@ new
 (
 )
 }
+None
 )
 ;
 self

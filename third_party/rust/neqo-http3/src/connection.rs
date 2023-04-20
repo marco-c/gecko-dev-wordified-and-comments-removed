@@ -2668,6 +2668,8 @@ StreamId
 from
 (
 id
+*
+4
 )
 )
 )
@@ -6852,6 +6854,11 @@ HSettingType
 :
 :
 EnableWebTransport
+|
+HSettingType
+:
+:
+EnableH3Datagram
 =
 >
 (

@@ -4183,6 +4183,9 @@ Session
 {
 stream_id
 status
+headers
+:
+_
 }
 =
 >
@@ -4251,6 +4254,9 @@ SessionClosed
 {
 stream_id
 reason
+headers
+:
+_
 }
 =
 >
