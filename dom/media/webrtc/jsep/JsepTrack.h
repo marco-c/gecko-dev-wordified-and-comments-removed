@@ -1117,7 +1117,7 @@ answer
 )
 ;
 virtual
-void
+nsresult
 Negotiate
 (
 const
