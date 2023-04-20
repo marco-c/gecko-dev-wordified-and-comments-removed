@@ -1490,15 +1490,6 @@ std
 :
 string
 trials
-=
-"
-WebRTC
--
-VideoFrameTrackingIdAdvertised
-/
-Enabled
-/
-"
 ;
 if
 (
