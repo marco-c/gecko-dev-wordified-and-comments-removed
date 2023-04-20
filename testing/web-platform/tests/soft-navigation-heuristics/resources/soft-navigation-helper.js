@@ -20,7 +20,6 @@ const
 URL
 =
 "
-/
 foobar
 .
 html
