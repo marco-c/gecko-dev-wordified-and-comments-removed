@@ -2573,6 +2573,16 @@ getExperiment
 )
 {
 }
+getExperimentMetaData
+(
+)
+{
+}
+getRolloutMetaData
+(
+)
+{
+}
 on
 :
 (
