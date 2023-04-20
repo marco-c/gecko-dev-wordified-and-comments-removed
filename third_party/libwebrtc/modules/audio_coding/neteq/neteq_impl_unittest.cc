@@ -3975,11 +3975,11 @@ EXPECT_EQ
 neteq_
 -
 >
-GetOperationsAndState
+GetLifetimeStatistics
 (
 )
 .
-discarded_primary_packets
+packets_discarded
 )
 ;
 ASSERT_THAT

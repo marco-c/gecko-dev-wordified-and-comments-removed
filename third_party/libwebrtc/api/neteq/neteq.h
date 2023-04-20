@@ -203,6 +203,11 @@ fec_packets_discarded
 0
 ;
 uint64_t
+packets_discarded
+=
+0
+;
+uint64_t
 delayed_packet_outage_samples
 =
 0
@@ -249,11 +254,6 @@ accelerate_samples
 ;
 uint64_t
 packet_buffer_flushes
-=
-0
-;
-uint64_t
-discarded_primary_packets
 =
 0
 ;
