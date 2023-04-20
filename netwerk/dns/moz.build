@@ -101,7 +101,9 @@ dns
 "
 PublicSuffixList
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCSHELL_TESTS_MANIFESTS

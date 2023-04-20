@@ -57,7 +57,9 @@ EXTRA_JS_MODULES
 "
 UrlClassifierExceptionListService
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS
