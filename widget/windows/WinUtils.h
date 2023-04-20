@@ -237,6 +237,16 @@ WINVER
 <
 0x0602
 )
+&
+&
+\
+(
+!
+defined
+(
+__MINGW32__
+)
+)
 enum
 tagAR_STATE
 {
