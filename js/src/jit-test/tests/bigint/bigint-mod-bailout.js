@@ -1,15 +1,3 @@
-setJitCompilerOption
-(
-"
-ion
-.
-warmup
-.
-trigger
-"
-20
-)
-;
 function
 testBailout
 (
