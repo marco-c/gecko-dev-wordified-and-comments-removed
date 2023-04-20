@@ -998,7 +998,7 @@ vec2
 xyB
 )
 {
-constexpr
+const
 auto
 M_BFD
 =
