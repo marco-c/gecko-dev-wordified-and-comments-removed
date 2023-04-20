@@ -535,13 +535,6 @@ override
 static
 const
 MappedAttributeEntry
-sFillStrokeMap
-[
-]
-;
-static
-const
-MappedAttributeEntry
 sGraphicsMap
 [
 ]

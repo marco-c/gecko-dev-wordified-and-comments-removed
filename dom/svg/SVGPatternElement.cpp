@@ -567,7 +567,6 @@ map
 {
 sColorMap
 sFEFloodMap
-sFillStrokeMap
 sFiltersMap
 sGradientStopMap
 sGraphicsMap

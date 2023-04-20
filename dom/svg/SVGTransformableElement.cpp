@@ -102,7 +102,6 @@ map
 =
 {
 sColorMap
-sFillStrokeMap
 sGraphicsMap
 }
 ;
