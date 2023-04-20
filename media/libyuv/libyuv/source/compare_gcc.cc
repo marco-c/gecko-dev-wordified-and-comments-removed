@@ -463,10 +463,9 @@ r10
 )
 ;
 return
-static_cast
-<
+(
 uint32_t
->
+)
 (
 diff
 )

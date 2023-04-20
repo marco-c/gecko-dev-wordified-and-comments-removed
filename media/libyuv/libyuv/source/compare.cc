@@ -185,9 +185,7 @@ count
 (
 uint64_t
 )
-(
 kBlockSize
-)
 )
 {
 seed
@@ -1772,8 +1770,6 @@ ssim_d
 =
 =
 0
-.
-0
 )
 {
 return
@@ -1781,12 +1777,14 @@ DBL_MAX
 ;
 }
 return
+(
+double
+)
 ssim_n
-*
-1
-.
-0
 /
+(
+double
+)
 ssim_d
 ;
 }

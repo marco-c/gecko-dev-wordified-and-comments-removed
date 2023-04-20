@@ -321,7 +321,9 @@ JPEG_INCLUDE_DIR
 )
 target_link_libraries
 (
-yuvconvert
+{
+ly_lib_shared
+}
 {
 JPEG_LIBRARY
 }
