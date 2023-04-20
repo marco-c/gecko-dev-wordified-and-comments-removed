@@ -193,12 +193,6 @@ nightly_build
 True
         
 "
-non_native_theme
-"
-:
-True
-        
-"
 normandy
 "
 :
@@ -540,12 +534,6 @@ True
         
 "
 nightly_build
-"
-:
-True
-        
-"
-non_native_theme
 "
 :
 True
@@ -899,12 +887,6 @@ nightly_build
 "
 :
 True
-        
-"
-non_native_theme
-"
-:
-False
         
 "
 normandy

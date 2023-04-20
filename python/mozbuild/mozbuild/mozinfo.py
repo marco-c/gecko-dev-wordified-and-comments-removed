@@ -862,15 +862,6 @@ CC_TYPE
 d
 [
 "
-non_native_theme
-"
-]
-=
-True
-    
-d
-[
-"
 domstreams
 "
 ]
