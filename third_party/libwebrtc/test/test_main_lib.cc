@@ -1078,12 +1078,6 @@ version
 }
 "
 ;
-result_file
-.
-close
-(
-)
-;
 }
 #
 endif
