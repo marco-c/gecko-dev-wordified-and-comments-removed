@@ -1,7 +1,3 @@
-from
-datetime
-import
-datetime
 import
 io
 import
@@ -9,13 +5,17 @@ os
 import
 sys
 from
+datetime
+import
+datetime
+import
+buildconfig
+from
 mozbuild
 .
 preprocessor
 import
 Preprocessor
-import
-buildconfig
 TEMPLATE
 =
 "

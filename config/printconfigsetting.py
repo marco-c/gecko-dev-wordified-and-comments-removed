@@ -3,14 +3,9 @@ sys
 from
 configparser
 import
-(
-    
 ConfigParser
-    
 NoOptionError
-    
 NoSectionError
-)
 try
 :
     

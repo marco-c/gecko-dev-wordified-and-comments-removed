@@ -3,11 +3,11 @@ __future__
 import
 absolute_import
 import
-buildconfig
-import
 subprocess
 import
 sys
+import
+buildconfig
 def
 main
 (

@@ -5,9 +5,9 @@ absolute_import
 import
 re
 import
-textwrap
-import
 string
+import
+textwrap
 comment_re
 =
 re
