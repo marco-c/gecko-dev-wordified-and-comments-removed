@@ -112,11 +112,7 @@ EndDocument
 (
 )
 override
-{
-return
-NS_OK
 ;
-}
 NS_IMETHOD
 BeginPage
 (
