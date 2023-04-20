@@ -4241,11 +4241,6 @@ OverflowAreas
 )
 NS_DECLARE_FRAME_PROPERTY_DELETABLE
 (
-CachedBorderImageDataProperty
-CachedBorderImageData
-)
-NS_DECLARE_FRAME_PROPERTY_DELETABLE
-(
 OverflowAreasProperty
 mozilla
 :

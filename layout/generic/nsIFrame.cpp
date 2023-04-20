@@ -6975,13 +6975,6 @@ HasImageRequest
 )
 )
 {
-RemoveProperty
-(
-CachedBorderImageDataProperty
-(
-)
-)
-;
 loader
 -
 >

@@ -16167,14 +16167,6 @@ HasRatio
 (
 )
 ;
-mImageRenderer
-.
-PurgeCacheForViewportChange
-(
-svgViewportSize
-hasIntrinsicRatio
-)
-;
 enum
 {
 LEFT
