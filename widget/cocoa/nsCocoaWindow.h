@@ -932,13 +932,9 @@ GetClientOffset
 override
 ;
 virtual
-LayoutDeviceIntSize
-ClientToWindowSize
+LayoutDeviceIntMargin
+ClientToWindowMargin
 (
-const
-LayoutDeviceIntSize
-&
-aClientSize
 )
 override
 ;
