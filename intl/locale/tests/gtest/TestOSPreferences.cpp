@@ -43,6 +43,17 @@ mozilla
 /
 intl
 /
+LocaleService
+.
+h
+"
+#
+include
+"
+mozilla
+/
+intl
+/
 OSPreferences
 .
 h
