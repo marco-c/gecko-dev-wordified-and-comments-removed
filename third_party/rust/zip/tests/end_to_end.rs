@@ -108,10 +108,10 @@ Writing
 file
 with
 {
+method
 }
 compression
 "
-method
 )
 ;
 write_test_archive

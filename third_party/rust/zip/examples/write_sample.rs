@@ -129,9 +129,9 @@ File
 written
 to
 {
+filename
 }
 "
-filename
 )
 Err
 (
@@ -146,11 +146,11 @@ println
 Error
 :
 {
+e
 :
 ?
 }
 "
-e
 )
 }
 0
@@ -208,7 +208,6 @@ File
 :
 create
 (
-&
 path
 )
 .

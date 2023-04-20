@@ -126,7 +126,6 @@ File
 :
 open
 (
-&
 fname
 )
 .
@@ -259,14 +258,14 @@ println
 "
 Entry
 {
+i
 }
 comment
 :
 {
+comment
 }
 "
-i
-comment
 )
 ;
 }

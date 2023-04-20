@@ -126,7 +126,6 @@ File
 :
 open
 (
-&
 fname
 )
 .
@@ -236,9 +235,9 @@ println
 (
 "
 {
+contents
 }
 "
-contents
 )
 ;
 0

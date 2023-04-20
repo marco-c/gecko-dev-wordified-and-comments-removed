@@ -123,7 +123,6 @@ File
 :
 open
 (
-&
 fname
 )
 .
@@ -228,14 +227,14 @@ println
 "
 File
 {
+i
 }
 comment
 :
 {
+comment
 }
 "
-i
-comment
 )
 ;
 }
@@ -357,7 +356,6 @@ fs
 :
 create_dir_all
 (
-&
 p
 )
 .
