@@ -30515,6 +30515,7 @@ masm
 instance
 scratch
 valueAddr
+0
 &
 skipBarrier
 )
@@ -30570,6 +30571,7 @@ masm
 instance
 scratch
 valueAddr
+0
 )
 ;
 masm

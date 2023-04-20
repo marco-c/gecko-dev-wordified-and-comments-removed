@@ -1812,6 +1812,8 @@ Register
 scratch
 Register
 valueAddr
+size_t
+valueOffset
 Label
 *
 skipBarrier
@@ -1832,6 +1834,8 @@ Register
 scratch
 Register
 valueAddr
+size_t
+valueOffset
 )
 ;
 void

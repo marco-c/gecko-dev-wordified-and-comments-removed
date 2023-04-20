@@ -8244,6 +8244,12 @@ case
 SymbolicAddress
 :
 :
+PostBarrierPreciseWithOffset
+:
+case
+SymbolicAddress
+:
+:
 PostBarrierFiltering
 :
 return

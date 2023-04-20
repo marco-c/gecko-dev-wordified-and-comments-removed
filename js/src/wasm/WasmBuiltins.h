@@ -144,6 +144,7 @@ RefTest
 PreBarrierFiltering
 PostBarrier
 PostBarrierPrecise
+PostBarrierPreciseWithOffset
 PostBarrierFiltering
 StructNew
 ExceptionNew
@@ -509,6 +510,11 @@ extern
 const
 SymbolicAddressSignature
 SASigPostBarrierPrecise
+;
+extern
+const
+SymbolicAddressSignature
+SASigPostBarrierPreciseWithOffset
 ;
 extern
 const
