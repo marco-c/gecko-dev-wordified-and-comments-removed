@@ -1049,6 +1049,27 @@ ignore_modified
         
 self
 .
+logInfo
+(
+{
+}
+"
+Checking
+for
+update
+actions
+"
+)
+        
+self
+.
+update_files
+(
+new_revision
+)
+        
+self
+.
 update_yaml
 (
 new_revision
@@ -2047,7 +2068,11 @@ True
 )
 )
         
-return
+final_paths
+=
+sorted
+(
+            
 [
 mozpath
 .
@@ -2070,6 +2095,11 @@ isdir
 path
 )
 ]
+        
+)
+        
+return
+final_paths
     
 def
 fetch_and_unpack
