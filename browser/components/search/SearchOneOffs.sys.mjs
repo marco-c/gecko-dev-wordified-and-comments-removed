@@ -3211,7 +3211,7 @@ DOM
 *
 param
 {
-array
+Array
 }
 engines
 *
@@ -3223,7 +3223,7 @@ add
 *
 param
 {
-array
+Array
 }
 addEngines
 *

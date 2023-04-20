@@ -908,6 +908,7 @@ search
 mode
 .
 *
+*
 param
 {
 object
