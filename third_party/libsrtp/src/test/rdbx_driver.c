@@ -494,9 +494,6 @@ rdbx
 index
 &
 est
-(
-srtp_sequence_number_t
-)
 idx
 )
 ;
@@ -596,9 +593,6 @@ rdbx
 index
 &
 est
-(
-srtp_sequence_number_t
-)
 idx
 )
 ;
@@ -686,9 +680,6 @@ rdbx
 index
 &
 est
-(
-srtp_sequence_number_t
-)
 idx
 )
 ;
@@ -1351,9 +1342,6 @@ rdbx
 index
 &
 est
-(
-srtp_sequence_number_t
-)
 i
 )
 ;

@@ -529,9 +529,6 @@ srtp_index_advance
 (
 &
 local
-(
-srtp_sequence_number_t
-)
 delta
 )
 ;

@@ -276,6 +276,10 @@ return
 1
 ;
 }
+return
+-
+1
+;
 }
 uint8_t
 nibble_to_hex_char
@@ -408,9 +412,6 @@ hex_len
 }
 x
 =
-(
-uint8_t
-)
 (
 tmp
 <
@@ -666,15 +667,9 @@ sextets
 i
 ]
 =
-(
-unsigned
-char
-)
-(
 p
 -
 b64chars
-)
 ;
 }
 else
