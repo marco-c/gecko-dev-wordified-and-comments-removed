@@ -87,7 +87,7 @@ sourceActor
 {
 dispatch
 getState
-parser
+parserWorker
 }
 )
 {
@@ -133,7 +133,7 @@ null
 PROMISE
 ]
 :
-parser
+parserWorker
 .
 getSymbols
 (
