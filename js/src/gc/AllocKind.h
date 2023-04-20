@@ -333,7 +333,7 @@ Shape
 js
 :
 :
-Shape
+SizedShape
 true
 false
 true
