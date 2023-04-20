@@ -1145,11 +1145,6 @@ h
 "
 rtp_sender_interface
 .
-cc
-"
-"
-rtp_sender_interface
-.
 h
 "
 "

@@ -186,6 +186,8 @@ dtls_transport
 (
 )
 const
+=
+0
 ;
 virtual
 uint32_t
@@ -256,8 +258,9 @@ string
 &
 stream_ids
 )
-{
-}
+=
+0
+;
 virtual
 std
 :
@@ -270,6 +273,8 @@ init_send_encodings
 (
 )
 const
+=
+0
 ;
 virtual
 RtpParameters
@@ -320,6 +325,8 @@ FrameEncryptorInterface
 >
 frame_encryptor
 )
+=
+0
 ;
 virtual
 rtc
@@ -333,6 +340,8 @@ GetFrameEncryptor
 (
 )
 const
+=
+0
 ;
 virtual
 void
@@ -347,6 +356,8 @@ FrameTransformerInterface
 >
 frame_transformer
 )
+=
+0
 ;
 virtual
 void
@@ -364,8 +375,9 @@ EncoderSelectorInterface
 >
 encoder_selector
 )
-{
-}
+=
+0
+;
 protected
 :
 ~
