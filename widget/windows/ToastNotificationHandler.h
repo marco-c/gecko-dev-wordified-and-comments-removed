@@ -242,7 +242,12 @@ rv
 )
 ;
 void
-HideIfPrivate
+HideAlert
+(
+)
+;
+bool
+IsPrivate
 (
 )
 ;
@@ -550,11 +555,6 @@ TryShowAlert
 ;
 bool
 ShowAlert
-(
-)
-;
-void
-HideAlert
 (
 )
 ;
