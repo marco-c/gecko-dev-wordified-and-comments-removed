@@ -62,7 +62,13 @@ LitElement
 }
 from
 "
-.
+chrome
+:
+/
+/
+global
+/
+content
 /
 vendor
 /
