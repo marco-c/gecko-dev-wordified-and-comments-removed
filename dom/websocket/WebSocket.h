@@ -560,16 +560,6 @@ nsAString
 aReason
 )
 ;
-static
-bool
-IsValidProtocolString
-(
-const
-nsString
-&
-aValue
-)
-;
 void
 UpdateMustKeepAlive
 (
