@@ -21,6 +21,17 @@ include
 "
 mozilla
 /
+dom
+/
+ScreenBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Hal
 .
 h
