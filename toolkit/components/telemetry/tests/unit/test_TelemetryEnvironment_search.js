@@ -706,10 +706,8 @@ loadPath
 :
 "
 [
-other
+addon
 ]
-addEngineWithDetails
-:
 telemetrySearchIdentifier
 search
 .
@@ -1103,10 +1101,8 @@ SEARCH_ENGINE_ID
 loadPath
 :
 [
-other
+addon
 ]
-addEngineWithDetails
-:
 {
 SEARCH_ENGINE_ID
 }
@@ -1920,10 +1916,8 @@ loadPath
 :
 "
 [
-other
+addon
 ]
-addEngineWithDetails
-:
 testengine
 tests
 .
@@ -2062,10 +2056,8 @@ loadPath
 :
 "
 [
-other
+addon
 ]
-addEngineWithDetails
-:
 testengine
 tests
 .

@@ -372,10 +372,8 @@ loadPath
 :
 "
 [
-other
+addon
 ]
-addEngineWithDetails
-:
 "
 +
 extensionId

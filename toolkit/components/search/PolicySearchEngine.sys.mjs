@@ -267,15 +267,8 @@ loadPath
 :
 "
 [
-other
-]
-addEngineWithDetails
-:
-set
--
-via
--
 policy
+]
 "
 id
 }

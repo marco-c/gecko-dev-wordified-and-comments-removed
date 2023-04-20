@@ -1778,7 +1778,7 @@ SETTINGS_VERSION
 )
 {
 return
-7
+8
 ;
 }
 /

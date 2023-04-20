@@ -421,10 +421,8 @@ For
 example
 :
 [
-other
+addon
 ]
-addEngineWithDetails
-:
 <
 extension
 id
@@ -1595,10 +1593,8 @@ For
 example
 :
 [
-other
+addon
 ]
-addEngineWithDetails
-:
 <
 extension
 id

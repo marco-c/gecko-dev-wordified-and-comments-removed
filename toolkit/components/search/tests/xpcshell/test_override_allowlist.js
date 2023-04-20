@@ -1507,10 +1507,8 @@ loadPath
 :
 "
 [
-other
+addon
 ]
-addEngineWithDetails
-:
 simple
 search
 .
