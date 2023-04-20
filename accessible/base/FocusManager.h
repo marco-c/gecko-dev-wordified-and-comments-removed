@@ -33,6 +33,9 @@ namespace
 a11y
 {
 class
+Accessible
+;
+class
 AccEvent
 ;
 class
@@ -55,6 +58,13 @@ FocusManager
 LocalAccessible
 *
 FocusedLocalAccessible
+(
+)
+const
+;
+Accessible
+*
+FocusedAccessible
 (
 )
 const
