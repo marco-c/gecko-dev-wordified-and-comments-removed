@@ -2536,11 +2536,14 @@ prevAllowContentJS_
 extern
 JS_PUBLIC_API
 uint64_t
-GetMemoryUsageForObjectZone
+GetMemoryUsageForZone
 (
-JSObject
+JS
+:
+:
+Zone
 *
-obj
+zone
 )
 ;
 extern
