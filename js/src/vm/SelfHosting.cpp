@@ -14617,13 +14617,9 @@ n
 )
 ;
 }
-for
+if
 (
-CompileError
-&
-error
-:
-errors
+maybeError
 (
 )
 )
@@ -14635,7 +14631,10 @@ PrintError
 (
 stderr
 &
-error
+*
+maybeError
+(
+)
 true
 )
 ;
