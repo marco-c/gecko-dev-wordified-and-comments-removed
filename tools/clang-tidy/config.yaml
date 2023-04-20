@@ -220,17 +220,6 @@ no
 -
 name
 :
-alpha
--
-unused
--
-includes
-reliability
-:
-medium
--
-name
-:
 bugprone
 -
 argument
