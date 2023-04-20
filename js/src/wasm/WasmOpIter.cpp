@@ -3509,7 +3509,7 @@ case
 SimdOp
 :
 :
-F32x4RelaxedFms
+F32x4RelaxedFnma
 :
 case
 SimdOp
@@ -3521,7 +3521,7 @@ case
 SimdOp
 :
 :
-F64x2RelaxedFms
+F64x2RelaxedFnma
 :
 case
 SimdOp

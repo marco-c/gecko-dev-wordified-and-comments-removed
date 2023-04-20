@@ -652,7 +652,7 @@ F32x4RelaxedFmaCode
 0x105
 ;
 const
-F32x4RelaxedFmsCode
+F32x4RelaxedFnmaCode
 =
 0x106
 ;
@@ -662,7 +662,7 @@ F64x2RelaxedFmaCode
 0x107
 ;
 const
-F64x2RelaxedFmsCode
+F64x2RelaxedFnmaCode
 =
 0x108
 ;

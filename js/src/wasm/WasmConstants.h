@@ -1832,13 +1832,13 @@ I32x4RelaxedTruncSatF64x2UZero
 F32x4RelaxedFma
 =
 0x105
-F32x4RelaxedFms
+F32x4RelaxedFnma
 =
 0x106
 F64x2RelaxedFma
 =
 0x107
-F64x2RelaxedFms
+F64x2RelaxedFnma
 =
 0x108
 I8x16RelaxedLaneSelect
