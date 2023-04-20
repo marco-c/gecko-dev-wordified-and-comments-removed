@@ -61,7 +61,6 @@ function
 PlacesInsertionPoint
 (
 {
-parentId
 parentGuid
 index
 =
@@ -86,12 +85,6 @@ null
 }
 )
 {
-this
-.
-itemId
-=
-parentId
-;
 this
 .
 guid

@@ -1118,17 +1118,6 @@ uri
 ;
 data
 .
-concreteId
-=
-PlacesUtils
-.
-getConcreteItemId
-(
-aNode
-)
-;
-data
-.
 concreteGuid
 =
 PlacesUtils

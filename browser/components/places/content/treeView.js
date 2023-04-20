@@ -6281,14 +6281,6 @@ new
 PlacesInsertionPoint
 (
 {
-parentId
-:
-PlacesUtils
-.
-getConcreteItemId
-(
-container
-)
 parentGuid
 :
 PlacesUtils
