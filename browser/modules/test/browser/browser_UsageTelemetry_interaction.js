@@ -1558,7 +1558,7 @@ version
 "
 1
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1941,7 +1941,7 @@ version
 "
 1
 "
-applications
+browser_specific_settings
 :
 {
 gecko
