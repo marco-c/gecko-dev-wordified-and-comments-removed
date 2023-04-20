@@ -391,6 +391,14 @@ async
 =
 >
 {
+await
+SpecialPowers
+.
+contentTransformsReceived
+(
+content
+)
+;
 const
 input
 =
