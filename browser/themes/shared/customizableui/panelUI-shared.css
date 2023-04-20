@@ -13364,6 +13364,14 @@ separator
 color
 )
 ;
+box
+-
+sizing
+:
+border
+-
+box
+;
 }
 #
 protections
