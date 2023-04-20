@@ -2283,8 +2283,8 @@ mutex_capture_
 =
 0
 ;
-AnalogGainStatsReporter
-input_volume_stats_reporter_
+InputVolumeStatsReporter
+applied_input_volume_stats_reporter_
 RTC_GUARDED_BY
 (
 mutex_capture_

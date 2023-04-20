@@ -5630,7 +5630,7 @@ has_value
 )
 )
 {
-input_volume_stats_reporter_
+applied_input_volume_stats_reporter_
 .
 UpdateStatistics
 (
