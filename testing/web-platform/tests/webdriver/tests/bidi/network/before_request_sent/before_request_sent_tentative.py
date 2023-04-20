@@ -200,7 +200,7 @@ f
 "
 "
 "
-               
+                 
 fetch
 (
 "
@@ -210,18 +210,31 @@ url
 "
 {
 {
-                 
+                   
 {
 method_arg
 }
-                 
+                   
 {
 headers_arg
 }
-               
+                 
 }
 }
 )
+.
+then
+(
+response
+=
+>
+response
+.
+text
+(
+)
+)
+;
 "
 "
 "
@@ -240,7 +253,7 @@ context
             
 await_promise
 =
-False
+True
         
 )
     
