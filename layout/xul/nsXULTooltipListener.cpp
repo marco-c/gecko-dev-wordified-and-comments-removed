@@ -2306,8 +2306,10 @@ pm
 HidePopup
 (
 currentTooltip
-{
-}
+false
+false
+false
+false
 )
 ;
 }
