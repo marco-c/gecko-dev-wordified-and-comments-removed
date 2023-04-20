@@ -826,13 +826,6 @@ frame
 >
 HidesContent
 (
-nsIFrame
-:
-:
-IncludeContentVisibility
-:
-:
-Hidden
 )
 |
 |
@@ -841,13 +834,6 @@ frame
 >
 IsHiddenByContentVisibilityOnAnyAncestor
 (
-nsIFrame
-:
-:
-IncludeContentVisibility
-:
-:
-Hidden
 )
 )
 {
