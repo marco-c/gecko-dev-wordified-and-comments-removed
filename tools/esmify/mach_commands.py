@@ -3757,6 +3757,15 @@ text
 "
 )
     
+if
+type
+(
+target
+)
+is
+str
+:
+        
 target_path
 =
 find_file
@@ -3764,15 +3773,15 @@ find_file
 path
 target
 )
-    
+        
 if
 not
 target_path
 :
-        
+            
 return
 False
-    
+        
 jsm_relative_path
 =
 jsm_path
@@ -3783,8 +3792,8 @@ target_path
 .
 parent
 )
-    
-jsm_relative_str
+        
+jsm_path_str
 =
 path_sep_from_native
 (
@@ -3794,7 +3803,24 @@ jsm_relative_path
 )
 )
     
-jsm_name_re
+else
+:
+        
+target_path
+=
+target
+        
+jsm_path_str
+=
+path_sep_from_native
+(
+str
+(
+jsm_path
+)
+)
+    
+jsm_path_re
 =
 re
 .
@@ -3806,7 +3832,7 @@ r
 b
 "
 +
-jsm_name
+jsm_path_str
 .
 replace
 (
@@ -3827,7 +3853,7 @@ b
 "
 )
     
-jsm_relative_re
+jsm_name_re
 =
 re
 .
@@ -3839,7 +3865,7 @@ r
 b
 "
 +
-jsm_relative_str
+jsm_name
 .
 replace
 (
@@ -3888,7 +3914,7 @@ f
 :
             
 if
-jsm_relative_re
+jsm_path_re
 .
 search
 (
@@ -4471,6 +4497,42 @@ process
 .
 ini
 "
+        
+pathlib
+.
+Path
+(
+"
+tools
+"
+"
+lint
+"
+"
+eslint
+.
+yml
+"
+)
+        
+pathlib
+.
+Path
+(
+"
+tools
+"
+"
+lint
+"
+"
+rejected
+-
+words
+.
+yml
+"
+)
     
 ]
     
