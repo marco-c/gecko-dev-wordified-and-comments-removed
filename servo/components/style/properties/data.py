@@ -2865,6 +2865,10 @@ FontStyle
 "
                 
 "
+FontStyleAdjust
+"
+                
+"
 FontSynthesis
 "
                 
