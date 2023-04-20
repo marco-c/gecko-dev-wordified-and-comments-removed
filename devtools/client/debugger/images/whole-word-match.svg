@@ -96,6 +96,13 @@ fillrule
 "
 evenodd
 "
+fill
+=
+"
+context
+-
+fill
+"
 >
 <
 rect
