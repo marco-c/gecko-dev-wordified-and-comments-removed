@@ -1716,7 +1716,7 @@ SETTINGS_VERSION
 )
 {
 return
-6
+7
 ;
 }
 /
