@@ -2177,6 +2177,16 @@ Endianness
 :
 Big
 )
+(
+Architecture
+:
+:
+Xtensa
+Endianness
+:
+:
+Little
+)
 ]
 .
 iter
