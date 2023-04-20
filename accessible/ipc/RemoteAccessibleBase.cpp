@@ -3967,6 +3967,11 @@ RemoteParent
 )
 ;
 }
+if
+(
+ancestor
+)
+{
 Pivot
 p
 =
@@ -4020,6 +4025,7 @@ match
 rule
 )
 ;
+}
 }
 return
 rel
