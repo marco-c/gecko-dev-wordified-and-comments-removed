@@ -56,6 +56,8 @@ argv
 ]
 bool
 save_chartjson_result
+bool
+export_perf_results_new_api
 absl
 :
 :
