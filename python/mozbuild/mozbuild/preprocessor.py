@@ -3552,7 +3552,19 @@ in
 args
 :
                 
-with
+if
+not
+isinstance
+(
+f
+io
+.
+TextIOBase
+)
+:
+                    
+f
+=
 io
 .
 open
@@ -3569,8 +3581,11 @@ utf
 8
 "
 )
+                
+with
+f
 as
-input
+input_
 :
                     
 self
@@ -3579,7 +3594,7 @@ processFile
 (
 input
 =
-input
+input_
 output
 =
 out
