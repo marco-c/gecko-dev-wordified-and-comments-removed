@@ -113,6 +113,10 @@ enum
 class
 SuggestCaret
 ;
+enum
+class
+WithTransaction
+;
 using
 CollectChildrenOptions
 =
@@ -320,6 +324,9 @@ WSRunScanner
 ;
 class
 WSScanResult
+;
+class
+EditorElementStyle
 ;
 struct
 EditorInlineStyle
