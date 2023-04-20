@@ -9584,14 +9584,6 @@ MarkSubtreeDirty
 (
 )
 ;
-SVGObserverUtils
-:
-:
-InvalidateRenderingObservers
-(
-this
-)
-;
 MaybeReflowAnonymousBlockChild
 (
 )
