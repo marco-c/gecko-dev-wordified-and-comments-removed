@@ -347,6 +347,12 @@ jxl
 {
 namespace
 {
+constexpr
+bool
+kPrintTree
+=
+false
+;
 static
 const
 float
@@ -8524,6 +8530,9 @@ decoded_tree
 ;
 if
 (
+kPrintTree
+&
+&
 WantDebugOutput
 (
 aux_out

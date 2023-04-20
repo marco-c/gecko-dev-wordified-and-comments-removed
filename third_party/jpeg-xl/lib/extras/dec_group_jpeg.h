@@ -43,18 +43,7 @@ jxl
 /
 base
 /
-status
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
-image
+compiler_specific
 .
 h
 "
@@ -70,6 +59,7 @@ GatherBlockStats
 const
 int16_t
 *
+JXL_RESTRICT
 coeffs
 const
 size_t
@@ -90,6 +80,7 @@ DecodeJpegBlock
 const
 int16_t
 *
+JXL_RESTRICT
 qblock
 const
 float

@@ -4797,6 +4797,9 @@ all
 echo
 1
 )
+{
+TEST_SELECTOR
+}
 -
 -
 output

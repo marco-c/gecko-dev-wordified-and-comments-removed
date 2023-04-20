@@ -34444,7 +34444,10 @@ dec
 TEST
 (
 DecodeTest
+JXL_BOXES_TEST
+(
 BoxTest
+)
 )
 {
 size_t
@@ -34958,7 +34961,10 @@ dec
 TEST
 (
 DecodeTest
+JXL_BOXES_TEST
+(
 ExifBrobBoxTest
+)
 )
 {
 size_t
@@ -36042,7 +36048,10 @@ dec
 TEST
 (
 DecodeTest
+JXL_BOXES_TEST
+(
 PartialCodestreamBoxTest
+)
 )
 {
 size_t

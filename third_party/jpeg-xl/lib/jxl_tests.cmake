@@ -44,6 +44,11 @@ dec
 pgx_test
 .
 cc
+extras
+/
+decode_jpeg_test
+.
+cc
 jxl
 /
 ac_strategy_test

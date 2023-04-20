@@ -26,6 +26,11 @@ endif
 #
 include
 <
+cmath
+>
+#
+include
+<
 hwy
 /
 aligned_allocator

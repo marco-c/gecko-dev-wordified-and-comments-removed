@@ -353,7 +353,7 @@ encoded
 ;
 encoded_size
 =
-FastLosslessEncode
+JxlFastLosslessEncode
 (
 png
 width
