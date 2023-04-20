@@ -184,6 +184,11 @@ IPDLParamTraits
 h
 "
 "
+IPDLStructMember
+.
+h
+"
+"
 LibrarySandboxPreload
 .
 h
