@@ -1,0 +1,14 @@
+Content
+-
+Security
+-
+Policy
+:
+sandbox
+allow
+-
+scripts
+allow
+-
+popups
+;
