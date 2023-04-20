@@ -309,6 +309,27 @@ f
         
 proc
 =
+None
+        
+def
+timeout_handler
+(
+)
+:
+            
+mozcrash
+.
+kill_and_get_minidump
+(
+proc
+.
+pid
+cwd
+utility_path
+)
+        
+proc
+=
 mozprocess
 .
 ProcessHandler
@@ -336,6 +357,16 @@ cwd
 env
 =
 env
+            
+kill_on_timeout
+=
+False
+            
+onTimeout
+=
+(
+timeout_handler
+)
             
 processOutputLine
 =
@@ -449,6 +480,19 @@ GTests
 .
 TEST_PROC_TIMEOUT
                 
+)
+            
+mozcrash
+.
+check_for_crashes
+(
+cwd
+symbols_path
+test_name
+=
+"
+gtest
+"
 )
             
 return
