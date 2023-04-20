@@ -633,10 +633,8 @@ evaluate
 .
 fromJSON
 (
-{
-obj
-:
 args
+{
 seenEls
 win
 :

@@ -605,10 +605,8 @@ evaluate
 .
 fromJSON
 (
-{
-obj
-:
 serializedData
+{
 seenEls
 :
 null

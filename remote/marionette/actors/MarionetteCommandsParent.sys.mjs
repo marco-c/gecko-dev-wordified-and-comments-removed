@@ -327,9 +327,13 @@ evaluate
 toJSON
 (
 data
+{
+seenEls
+:
 lazy
 .
 elementIdCache
+}
 )
 ;
 /
@@ -414,12 +418,10 @@ evaluate
 .
 fromJSON
 (
-{
-obj
-:
 result
 .
 data
+{
 seenEls
 :
 lazy
