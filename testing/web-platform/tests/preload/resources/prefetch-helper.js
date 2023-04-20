@@ -67,6 +67,14 @@ rel
 prefetch
 "
 ;
+link
+.
+as
+=
+p
+.
+as
+;
 if
 (
 p
