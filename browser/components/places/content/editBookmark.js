@@ -5719,11 +5719,6 @@ id
 "
 editBMPanel_folderTree
 "
-flex
-=
-"
-1
-"
 class
 =
 "
