@@ -40336,6 +40336,9 @@ null
 allowFocusCheckbox
 =
 false
+hideContent
+=
+false
 }
 =
 {
@@ -40507,6 +40510,7 @@ closingCallback
 closedCallback
 :
 resolveClosed
+hideContent
 }
 .
 .
