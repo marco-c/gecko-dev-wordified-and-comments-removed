@@ -632,7 +632,7 @@ result
 .
 publicKey
 algorithm
-true
+extractable
 usages
 "
 public

@@ -88,20 +88,6 @@ r
 n
 "
     
-output
-+
-=
-b
-"
-Connection
-:
-close
-\
-r
-\
-n
-"
-    
 if
 length
 =

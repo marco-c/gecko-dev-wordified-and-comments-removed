@@ -28,22 +28,6 @@ plain
     
 response
 .
-headers
-.
-set
-(
-b
-"
-Connection
-"
-b
-"
-close
-"
-)
-    
-response
-.
 status
 =
 200

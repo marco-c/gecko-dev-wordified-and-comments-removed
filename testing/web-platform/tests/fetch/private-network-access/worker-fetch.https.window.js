@@ -581,7 +581,7 @@ preflight
 :
 PreflightBehavior
 .
-optionalSuccess
+success
 (
 token
 (

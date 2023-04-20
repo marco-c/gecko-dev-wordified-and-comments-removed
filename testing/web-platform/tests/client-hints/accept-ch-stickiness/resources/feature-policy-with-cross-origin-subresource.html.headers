@@ -1,4 +1,4 @@
-Permissions
+Feature
 -
 Policy
 :
@@ -7,5 +7,5 @@ ch
 device
 -
 memory
-=
 *
+;
