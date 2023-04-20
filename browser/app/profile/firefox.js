@@ -11211,7 +11211,7 @@ sendToPocket
 .
 enabled
 "
-false
+true
 )
 ;
 pref
