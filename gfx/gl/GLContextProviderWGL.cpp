@@ -965,17 +965,6 @@ MOZ_ASSERT
 extString
 )
 ;
-MOZ_ASSERT
-(
-HasExtension
-(
-extString
-"
-WGL_ARB_extensions_string
-"
-)
-)
-;
 if
 (
 HasExtension
