@@ -5952,6 +5952,14 @@ COOKIE_BANNER_MODE_REJECT_OR_ACCEPT
 =
 2
 ;
+public
+static
+final
+int
+COOKIE_BANNER_MODE_DETECT_ONLY
+=
+3
+;
 protected
 CookieBannerMode
 (
@@ -5977,6 +5985,9 @@ COOKIE_BANNER_MODE_REJECT
 CookieBannerMode
 .
 COOKIE_BANNER_MODE_REJECT_OR_ACCEPT
+CookieBannerMode
+.
+COOKIE_BANNER_MODE_DETECT_ONLY
 }
 )
 public
