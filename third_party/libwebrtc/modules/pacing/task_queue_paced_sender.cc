@@ -205,13 +205,6 @@ pacing_controller_
 clock
 packet_sender
 field_trials
-PacingController
-:
-:
-ProcessMode
-:
-:
-kDynamic
 )
 next_process_time_
 (
