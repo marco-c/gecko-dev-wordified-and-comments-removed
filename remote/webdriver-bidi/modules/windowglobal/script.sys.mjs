@@ -478,6 +478,8 @@ columnNumber
 frame
 .
 columnNumber
+-
+1
 functionName
 :
 frame
@@ -507,6 +509,8 @@ columnNumber
 stack
 .
 column
+-
+1
 exception
 :
 lazy
