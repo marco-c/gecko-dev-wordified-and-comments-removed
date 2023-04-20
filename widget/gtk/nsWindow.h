@@ -3228,6 +3228,12 @@ ConfigureCompositor
 (
 )
 ;
+bool
+IsAlwaysUndecoratedWindow
+(
+)
+const
+;
 WindowRenderer
 *
 GetWindowRenderer
