@@ -6869,7 +6869,7 @@ isKnownPublicSuffix
 (
 aInstallingPrincipal
 .
-siteOrigin
+siteOriginNoSuffix
 )
 )
 {
@@ -6890,7 +6890,7 @@ eTLDs
 {
 aInstallingPrincipal
 .
-siteOrigin
+siteOriginNoSuffix
 }
 Cr
 .
