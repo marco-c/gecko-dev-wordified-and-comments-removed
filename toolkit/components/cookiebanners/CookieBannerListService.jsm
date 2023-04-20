@@ -1270,6 +1270,12 @@ if
 (
 !
 click
+|
+|
+!
+click
+.
+presence
 )
 {
 return
