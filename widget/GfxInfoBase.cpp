@@ -6944,15 +6944,6 @@ nsIGfxInfo
 :
 :
 FEATURE_HW_DECODED_VIDEO_ZERO_COPY
-|
-|
-aFeature
-=
-=
-nsIGfxInfo
-:
-:
-FEATURE_REUSE_DECODER_DEVICE
 ;
 }
 nsresult
