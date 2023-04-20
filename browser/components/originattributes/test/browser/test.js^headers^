@@ -5,3 +5,10 @@ Cookie
 test
 =
 foo
+;
+SameSite
+=
+None
+;
+Secure
+;
