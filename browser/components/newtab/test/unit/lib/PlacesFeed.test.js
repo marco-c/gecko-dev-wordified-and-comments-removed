@@ -5154,6 +5154,8 @@ sandbox
 .
 stub
 (
+global
+.
 AboutNewTab
 .
 activityStream
@@ -5731,6 +5733,8 @@ sandbox
 .
 stub
 (
+global
+.
 AboutNewTab
 .
 activityStream
