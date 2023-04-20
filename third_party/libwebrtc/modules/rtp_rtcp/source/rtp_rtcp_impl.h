@@ -494,17 +494,6 @@ SSRC
 ;
 }
 void
-SetRid
-(
-absl
-:
-:
-string_view
-rid
-)
-override
-;
-void
 SetMid
 (
 absl

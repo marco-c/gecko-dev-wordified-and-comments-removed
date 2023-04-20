@@ -573,17 +573,6 @@ local_media_ssrc
 const
 ;
 void
-SetRid
-(
-absl
-:
-:
-string_view
-rid
-)
-override
-;
-void
 SetMid
 (
 absl
