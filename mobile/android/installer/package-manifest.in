@@ -543,9 +543,6 @@ Browser
 Chrome
 Files
 ]
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 BINPATH
 /
 chrome
@@ -560,8 +557,6 @@ chrome
 pdfjs
 /
 *
-#
-endif
 BINPATH
 /
 chrome

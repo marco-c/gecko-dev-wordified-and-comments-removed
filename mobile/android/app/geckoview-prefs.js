@@ -422,9 +422,6 @@ Warn
 "
 )
 ;
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 pref
 (
 "
@@ -458,17 +455,3 @@ annotationEditorMode
 1
 )
 ;
-#
-else
-pref
-(
-"
-pdfjs
-.
-disabled
-"
-true
-)
-;
-#
-endif
