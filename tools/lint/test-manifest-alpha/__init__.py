@@ -1,4 +1,6 @@
 import
+difflib
+import
 os
 import
 sys
@@ -329,6 +331,31 @@ level
 error
 "
             
+diff_instance
+=
+difflib
+.
+Differ
+(
+)
+            
+diff_result
+=
+diff_instance
+.
+compare
+(
+test_names
+sorted_test_names
+)
+            
+diff_list
+=
+list
+(
+diff_result
+)
+            
 res
 =
 {
@@ -403,6 +430,20 @@ level
 "
 :
 level
+                
+"
+diff
+"
+:
+"
+\
+n
+"
+.
+join
+(
+diff_list
+)
             
 }
             
