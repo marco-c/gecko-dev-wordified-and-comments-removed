@@ -66,6 +66,13 @@ ScalabilityMode
 scalability_mode
 )
 ;
+int
+ScalabilityModeToNumTemporalLayers
+(
+ScalabilityMode
+scalability_mode
+)
+;
 }
 #
 endif

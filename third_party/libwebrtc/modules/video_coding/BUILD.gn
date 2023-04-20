@@ -1947,6 +1947,10 @@ video_coding_utility
 "
 "
 :
+webrtc_vp8_scalability
+"
+"
+:
 webrtc_vp9_helpers
 "
 "
@@ -2630,6 +2634,11 @@ codecs
 av1
 :
 av1_svc_config
+"
+"
+svc
+:
+scalability_mode_util
 "
 ]
 absl_deps
@@ -5022,6 +5031,10 @@ webrtc_libvpx_interface
 "
 "
 :
+webrtc_vp8_scalability
+"
+"
+:
 webrtc_vp8_temporal_layers
 "
 "
@@ -5248,6 +5261,11 @@ field_trial
 system_wrappers
 :
 metrics
+"
+"
+svc
+:
+scalability_mode_util
 "
 #
 "
