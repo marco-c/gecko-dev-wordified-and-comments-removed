@@ -2787,7 +2787,7 @@ close
 (
 )
             
-frames
+crashing_thread
 =
 crash_json
 .
@@ -2797,6 +2797,13 @@ get
 crashing_thread
 "
 )
+or
+{
+}
+            
+frames
+=
+crashing_thread
 .
 get
 (
@@ -2804,6 +2811,9 @@ get
 frames
 "
 )
+or
+[
+]
             
 flattened_frames
 =
@@ -2896,6 +2906,13 @@ func
 in
 flattened_frames
 :
+                
+if
+not
+func
+:
+                    
+continue
                 
 signature
 =
