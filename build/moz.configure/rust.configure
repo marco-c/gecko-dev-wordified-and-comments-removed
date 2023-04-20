@@ -517,6 +517,8 @@ lambda
 c_compiler
 rustc_info
 :
+rustc_info
+and
 c_compiler
 .
 type
