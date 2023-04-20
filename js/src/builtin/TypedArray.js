@@ -1189,10 +1189,7 @@ O
 k
 ]
 ;
-var
-selected
-=
-ToBoolean
+if
 (
 callContentFunction
 (
@@ -1202,11 +1199,6 @@ kValue
 k
 O
 )
-)
-;
-if
-(
-selected
 )
 {
 kept
