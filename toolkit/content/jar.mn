@@ -25,6 +25,15 @@ content
 /
 global
 /
+minimal
+-
+xul
+.
+css
+content
+/
+global
+/
 xul
 .
 css

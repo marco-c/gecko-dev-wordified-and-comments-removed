@@ -3555,6 +3555,15 @@ nsGkAtoms
 :
 :
 resizer
+|
+|
+tag
+=
+=
+nsGkAtoms
+:
+:
+label
 "
 Unexpected
 XUL

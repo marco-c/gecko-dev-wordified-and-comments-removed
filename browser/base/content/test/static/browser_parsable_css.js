@@ -179,6 +179,10 @@ b
 (
 xul
 |
+minimal
+-
+xul
+|
 html
 |
 mathml
@@ -225,7 +229,9 @@ sourceName
 :
 /
 (
-scrollbars
+minimal
+-
+xul
 |
 xul
 )
@@ -542,7 +548,9 @@ sourceName
 \
 b
 (
-scrollbars
+minimal
+-
+xul
 |
 mathml
 )
