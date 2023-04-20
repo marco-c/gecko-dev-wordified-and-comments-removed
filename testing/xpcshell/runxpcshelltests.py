@@ -13308,6 +13308,16 @@ MOZ_CHAOSMODE
 0xfb
 "
                 
+self
+.
+harness_timeout
+=
+self
+.
+harness_timeout
+*
+2
+                
 for
 i
 in
@@ -13365,6 +13375,16 @@ mobileArgs
 kwargs
                 
 )
+                
+self
+.
+harness_timeout
+=
+self
+.
+harness_timeout
+/
+2
                 
 return
 status

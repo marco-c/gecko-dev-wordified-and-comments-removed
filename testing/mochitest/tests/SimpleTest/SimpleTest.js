@@ -6013,6 +6013,13 @@ _inChaosMode
 =
 true
 ;
+SimpleTest
+.
+requestLongerTimeout
+(
+20
+)
+;
 }
 ;
 SimpleTest
