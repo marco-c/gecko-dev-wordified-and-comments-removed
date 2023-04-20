@@ -5484,6 +5484,17 @@ windowDims
 NS_ERROR_FAILURE
 )
 ;
+windowDims
+.
+SizeTo
+(
+mRect
+.
+Size
+(
+)
+)
+;
 UpdateDimensions
 (
 windowDims
