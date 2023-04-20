@@ -1424,6 +1424,11 @@ if
 hit
 .
 mTargetApzc
+&
+&
+hit
+.
+mTargetApzc
 -
 >
 IsRootContent
