@@ -130,7 +130,7 @@ modules
 /
 video_coding
 /
-jitter_estimator
+timing
 .
 h
 "
@@ -142,6 +142,8 @@ modules
 video_coding
 /
 timing
+/
+jitter_estimator
 .
 h
 "
