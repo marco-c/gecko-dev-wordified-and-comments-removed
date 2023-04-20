@@ -174,6 +174,9 @@ warning
 self
 msg
 files
+restricted
+=
+True
 )
 :
         
@@ -253,6 +256,25 @@ is
 about
 .
         
+:
+param
+boolean
+restricted
+:
+If
+the
+param
+is
+False
+the
+lint
+error
+can
+be
+used
+anywhere
+.
+        
 "
 "
 "
@@ -307,6 +329,8 @@ PATHS
 :
                 
 if
+restricted
+and
 str
 (
 path

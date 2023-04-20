@@ -21,11 +21,20 @@ perfdocs
 .
 utils
 import
+(
+    
 ON_TRY
+    
 are_dirs_equal
+    
+get_changed_files
+    
 read_file
+    
 read_yaml
+    
 save_file
+)
 logger
 =
 PerfDocLogger
@@ -1639,8 +1648,15 @@ issue
                     
 files
 =
-get_possibly_changed_files
+get_changed_files
 (
+self
+.
+_workspace
 )
+                    
+restricted
+=
+False
                 
 )
