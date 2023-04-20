@@ -1128,7 +1128,6 @@ source
 >
 assignSource
 (
-cx
 ec
 input
 .
@@ -3522,7 +3521,6 @@ source
 >
 assignSource
 (
-cx
 ec
 options
 sourceBuffer_
