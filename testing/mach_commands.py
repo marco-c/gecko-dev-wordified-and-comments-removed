@@ -5376,6 +5376,41 @@ CommandArgument
 "
 -
 -
+show
+-
+testruns
+"
+    
+action
+=
+"
+store_true
+"
+    
+help
+=
+"
+Include
+total
+number
+of
+runs
+the
+test
+has
+if
+there
+are
+failures
+.
+"
+)
+CommandArgument
+(
+    
+"
+-
+-
 filter
 -
 values
@@ -5669,6 +5704,8 @@ verbose
 start
     
 end
+    
+show_testruns
 )
 :
     
@@ -5758,6 +5795,8 @@ output_file
 start
         
 end
+        
+show_testruns
     
 )
 SubCommand

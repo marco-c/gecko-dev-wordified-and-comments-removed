@@ -3965,6 +3965,8 @@ output_file
 start
         
 end
+        
+show_testruns
     
 )
 :
@@ -4204,6 +4206,10 @@ start
 end
 )
         
+if
+show_testruns
+:
+            
 runcount
 =
 self
@@ -5441,10 +5447,14 @@ count
 "
 ]
                             
+if
+show_testruns
+:
+                                
 total_runs
 =
 0
-                            
+                                
 for
 m
 in
@@ -5455,7 +5465,7 @@ manifest
 "
 ]
 :
-                                
+                                    
 total_runs
 +
 =
@@ -5475,13 +5485,13 @@ m
 ]
 ]
 )
-                            
+                                
 if
 total_runs
 >
 0
 :
-                                
+                                    
 test_info
 [
 "
