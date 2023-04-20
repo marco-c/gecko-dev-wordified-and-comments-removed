@@ -4419,7 +4419,7 @@ mDeferClearingContentForTSF
 false
 ;
 bool
-mDeferNotifyingTSF
+mDeferNotifyingTSFUntilNextUpdate
 =
 false
 ;
