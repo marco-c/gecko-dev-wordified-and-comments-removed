@@ -115,6 +115,9 @@ RenderBufferTextureHost
 class
 RenderTextureHostSWGL
 ;
+class
+RenderTextureHostWrapper
+;
 void
 ActivateBindAndTexParameteri
 (
@@ -371,6 +374,10 @@ const
 ;
 bool
 mIsFromDRMSource
+;
+friend
+class
+RenderTextureHostWrapper
 ;
 }
 ;

@@ -80,11 +80,6 @@ SurfaceFormat
 aFormat
 bool
 aContinuousUpdate
-gl
-:
-:
-OriginPos
-aOriginPos
 Maybe
 <
 gfx
@@ -263,13 +258,6 @@ mFormat
 const
 bool
 mContinuousUpdate
-;
-const
-gl
-:
-:
-OriginPos
-mOriginPos
 ;
 const
 Maybe
