@@ -10651,6 +10651,17 @@ double
 aCy
 )
 {
+double
+adjustedStartAngle
+=
+aAngle
++
+M_PI
+/
+2
+.
+0
+;
 return
 MakeAndAddRef
 <
@@ -10658,7 +10669,7 @@ CanvasConicGradient
 >
 (
 this
-aAngle
+adjustedStartAngle
 Point
 (
 aCx
