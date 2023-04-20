@@ -967,9 +967,9 @@ if
 currentNotification
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 updateButtonLabel

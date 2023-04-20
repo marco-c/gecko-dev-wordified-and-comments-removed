@@ -1045,9 +1045,9 @@ true
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 LoginManagerAuthPrompter
@@ -2552,9 +2552,9 @@ epicfail
 =
 true
 ;
-Cu
+console
 .
-reportError
+error
 (
 "
 LoginManagerAuthPrompter
@@ -2987,9 +2987,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 LoginManagerAuthPrompter
@@ -3260,9 +3260,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 LoginManagerAuthPrompter

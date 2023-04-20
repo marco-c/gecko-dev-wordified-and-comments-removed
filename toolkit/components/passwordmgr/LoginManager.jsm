@@ -1552,9 +1552,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -2615,9 +2615,9 @@ chrome
 )
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 ex
 )

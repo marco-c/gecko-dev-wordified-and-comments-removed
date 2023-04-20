@@ -749,9 +749,9 @@ autofillManifest
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Cannot

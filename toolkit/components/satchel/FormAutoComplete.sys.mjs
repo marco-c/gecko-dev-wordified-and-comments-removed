@@ -701,9 +701,9 @@ if
 callback
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 FormHistoryClient
@@ -1593,9 +1593,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Invalid

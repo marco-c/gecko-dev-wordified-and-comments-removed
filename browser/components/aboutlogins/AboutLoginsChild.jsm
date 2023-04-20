@@ -161,9 +161,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 AboutLoginsChild
