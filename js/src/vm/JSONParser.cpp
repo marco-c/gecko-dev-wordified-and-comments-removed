@@ -1754,7 +1754,6 @@ if
 !
 GetFullInteger
 (
-cx
 digitStart
 .
 get
@@ -1775,6 +1774,11 @@ d
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 token
 (
