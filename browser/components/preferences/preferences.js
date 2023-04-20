@@ -2126,9 +2126,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 new
 Error
