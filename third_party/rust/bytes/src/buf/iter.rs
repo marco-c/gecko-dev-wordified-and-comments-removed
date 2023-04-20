@@ -32,9 +32,6 @@ T
 >
 {
 pub
-(
-crate
-)
 fn
 new
 (
