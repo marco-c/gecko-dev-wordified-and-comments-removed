@@ -273,12 +273,11 @@ aString
 )
 ;
 return
-mLoader
+mRequestHandle
 -
 >
 OnStreamComplete
 (
-mRequestHandle
 rv
 )
 ;
@@ -362,7 +361,7 @@ aStatus
 }
 if
 (
-mLoader
+mRequestHandle
 -
 >
 IsCancelled
@@ -371,7 +370,7 @@ IsCancelled
 )
 {
 return
-mLoader
+mRequestHandle
 -
 >
 GetCancelResult
@@ -1368,7 +1367,7 @@ GetContext
 ;
 if
 (
-mLoader
+mRequestHandle
 -
 >
 IsCancelled
