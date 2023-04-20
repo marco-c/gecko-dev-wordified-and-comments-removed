@@ -380,6 +380,16 @@ browser
 hasValidUserGestureActivation
 :
 true
+triggeringRemoteType
+:
+this
+.
+manager
+.
+domProcess
+?
+.
+remoteType
 }
 ;
 if

@@ -3195,6 +3195,7 @@ let
 {
 referrerInfo
 triggeringPrincipal
+triggeringRemoteType
 postData
 headers
 csp
@@ -3227,6 +3228,7 @@ loadURIOptions
 =
 {
 triggeringPrincipal
+triggeringRemoteType
 csp
 referrerInfo
 loadFlags
