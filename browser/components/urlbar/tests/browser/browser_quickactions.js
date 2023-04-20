@@ -886,13 +886,6 @@ mode
 )
 ;
 await
-SpecialPowers
-.
-popPrefEnv
-(
-)
-;
-await
 UrlbarTestUtils
 .
 exitSearchMode
