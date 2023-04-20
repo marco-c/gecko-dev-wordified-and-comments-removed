@@ -1369,13 +1369,6 @@ gFlags
 )
 #
 endif
-#
-include
-"
-nsTreeColFrame
-.
-h
-"
 nsIFrame
 *
 NS_NewLeafBoxFrame
@@ -19154,11 +19147,6 @@ SIMPLE_XUL_CREATE
 (
 treechildren
 NS_NewTreeBodyFrame
-)
-SIMPLE_XUL_CREATE
-(
-treecol
-NS_NewTreeColFrame
 )
 SIMPLE_TAG_CHAIN
 (
