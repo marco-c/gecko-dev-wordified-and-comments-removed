@@ -13893,7 +13893,7 @@ return
 OpaqueResponse
 :
 :
-Alllow
+Allow
 ;
 }
 if
@@ -13908,7 +13908,7 @@ return
 OpaqueResponse
 :
 :
-Alllow
+Allow
 ;
 }
 nsAutoCString
@@ -13971,7 +13971,7 @@ return
 OpaqueResponse
 :
 :
-Alllow
+Allow
 ;
 case
 OpaqueResponseBlockedReason
@@ -14098,7 +14098,7 @@ return
 OpaqueResponse
 :
 :
-Alllow
+Allow
 ;
 }
 }
@@ -14457,7 +14457,7 @@ return
 OpaqueResponse
 :
 :
-Alllow
+Allow
 ;
 }
 if
