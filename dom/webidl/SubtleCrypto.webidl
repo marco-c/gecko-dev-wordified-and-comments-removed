@@ -667,7 +667,10 @@ Serializable
 SecureContext
 Exposed
 =
+(
 Window
+Worker
+)
 ]
 interface
 CryptoKey
