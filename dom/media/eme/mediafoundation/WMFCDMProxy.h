@@ -176,8 +176,7 @@ nsAString
 aSessionId
 )
 override
-{
-}
+;
 void
 SetServerCertificate
 (
@@ -540,6 +539,12 @@ MFCDMChild
 SessionPromise
 >
 mCreateSessionRequest
+;
+MozPromiseRequestHolder
+<
+GenericPromise
+>
+mLoadSessionRequest
 ;
 const
 dom
