@@ -441,9 +441,6 @@ id
 is_sponsored
 :
 isSponsored
-is_top_pick
-:
-false
 score
 :
 typeof
@@ -470,9 +467,6 @@ icon
 :
 null
 position
-:
-undefined
-_test_is_best_match
 :
 undefined
 }
@@ -625,7 +619,11 @@ QuickSuggestTestUtils
 .
 ensureQuickSuggestInit
 (
+{
+remoteSettingsResults
+:
 qsResults
+}
 )
 ;
 for

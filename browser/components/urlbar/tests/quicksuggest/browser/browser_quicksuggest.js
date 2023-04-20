@@ -19,7 +19,7 @@ quicksuggest
 "
 ;
 const
-TEST_DATA
+REMOTE_SETTINGS_RESULTS
 =
 [
 {
@@ -203,7 +203,11 @@ QuickSuggestTestUtils
 .
 ensureQuickSuggestInit
 (
-TEST_DATA
+{
+remoteSettingsResults
+:
+REMOTE_SETTINGS_RESULTS
+}
 )
 ;
 }

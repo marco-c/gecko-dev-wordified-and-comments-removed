@@ -109,7 +109,7 @@ TIMESTAMP_TEMPLATE
 foo
 ;
 const
-REMOTE_SETTINGS_DATA
+REMOTE_SETTINGS_RESULTS
 =
 [
 {
@@ -1253,7 +1253,11 @@ QuickSuggestTestUtils
 .
 ensureQuickSuggestInit
 (
-REMOTE_SETTINGS_DATA
+{
+remoteSettingsResults
+:
+REMOTE_SETTINGS_RESULTS
+}
 )
 ;
 }
@@ -6374,9 +6378,9 @@ block
 for
 (
 const
-suggestion
+result
 of
-REMOTE_SETTINGS_DATA
+REMOTE_SETTINGS_RESULTS
 )
 {
 await
@@ -6386,7 +6390,7 @@ blockedSuggestions
 .
 add
 (
-suggestion
+result
 .
 url
 )
@@ -6395,9 +6399,9 @@ url
 for
 (
 const
-suggestion
+result
 of
-REMOTE_SETTINGS_DATA
+REMOTE_SETTINGS_RESULTS
 )
 {
 const
@@ -6405,7 +6409,7 @@ context
 =
 createContext
 (
-suggestion
+result
 .
 keywords
 [
@@ -6654,7 +6658,7 @@ QuickSuggestTestUtils
 .
 ensureQuickSuggestInit
 (
-REMOTE_SETTINGS_DATA
+REMOTE_SETTINGS_RESULTS
 )
 ;
 }

@@ -76,7 +76,7 @@ TELEMETRY_SCALARS
 UrlbarProviderQuickSuggest
 ;
 const
-SUGGESTIONS
+REMOTE_SETTINGS_RESULTS
 =
 [
 {
@@ -215,9 +215,9 @@ Education
 ]
 ;
 const
-SPONSORED_SUGGESTION
+SPONSORED_RESULT
 =
-SUGGESTIONS
+REMOTE_SETTINGS_RESULTS
 [
 0
 ]
@@ -306,7 +306,11 @@ QuickSuggestTestUtils
 .
 ensureQuickSuggestInit
 (
-SUGGESTIONS
+{
+remoteSettingsResults
+:
+REMOTE_SETTINGS_RESULTS
+}
 )
 ;
 }
@@ -355,7 +359,7 @@ assertIsQuickSuggest
 window
 url
 :
-SPONSORED_SUGGESTION
+SPONSORED_RESULT
 .
 url
 }
@@ -939,7 +943,7 @@ promiseAutocompleteResultPopup
 window
 value
 :
-SUGGESTIONS
+REMOTE_SETTINGS_RESULTS
 [
 0
 ]
@@ -1146,7 +1150,7 @@ window
 await
 doEngagementWithoutAddingResultToView
 (
-SUGGESTIONS
+REMOTE_SETTINGS_RESULTS
 [
 0
 ]
@@ -1223,7 +1227,7 @@ async
 let
 firstSuggestion
 =
-SUGGESTIONS
+REMOTE_SETTINGS_RESULTS
 [
 0
 ]
@@ -1273,7 +1277,7 @@ url
 await
 doEngagementWithoutAddingResultToView
 (
-SUGGESTIONS
+REMOTE_SETTINGS_RESULTS
 [
 1
 ]

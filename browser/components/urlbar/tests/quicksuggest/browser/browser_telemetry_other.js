@@ -30,8 +30,9 @@ mjs
 )
 ;
 const
-SPONSORED_SUGGESTION
+REMOTE_SETTINGS_RESULTS
 =
+[
 {
 id
 :
@@ -94,6 +95,7 @@ advertiser
 testadvertiser
 "
 }
+]
 ;
 add_setup
 (
@@ -164,9 +166,11 @@ QuickSuggestTestUtils
 .
 ensureQuickSuggestInit
 (
-[
-SPONSORED_SUGGESTION
-]
+{
+remoteSettingsResults
+:
+REMOTE_SETTINGS_RESULTS
+}
 )
 ;
 }
@@ -1353,7 +1357,10 @@ index
 1
 url
 :
-SPONSORED_SUGGESTION
+REMOTE_SETTINGS_RESULTS
+[
+0
+]
 .
 url
 }

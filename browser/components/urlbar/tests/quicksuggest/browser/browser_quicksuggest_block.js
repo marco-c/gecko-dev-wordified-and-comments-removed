@@ -43,7 +43,7 @@ TIMESTAMP_TEMPLATE
 QuickSuggest
 ;
 const
-SUGGESTIONS
+REMOTE_SETTINGS_RESULTS
 =
 [
 {
@@ -319,7 +319,11 @@ QuickSuggestTestUtils
 .
 ensureQuickSuggestInit
 (
-SUGGESTIONS
+{
+remoteSettingsResults
+:
+REMOTE_SETTINGS_RESULTS
+}
 )
 ;
 }
@@ -366,9 +370,9 @@ isBestMatch
 for
 (
 let
-suggestion
+result
 of
-SUGGESTIONS
+REMOTE_SETTINGS_RESULTS
 )
 {
 info
@@ -387,7 +391,7 @@ stringify
 (
 {
 isBestMatch
-suggestion
+result
 }
 )
 }
@@ -398,7 +402,7 @@ fn
 (
 {
 isBestMatch
-suggestion
+result
 }
 )
 ;
@@ -447,7 +451,7 @@ function
 basic_keyboard
 (
 {
-suggestion
+result
 isBestMatch
 }
 )
@@ -456,7 +460,7 @@ await
 doBasicBlockTest
 (
 {
-suggestion
+result
 isBestMatch
 block
 :
@@ -502,7 +506,7 @@ function
 basic_mouse
 (
 {
-suggestion
+result
 isBestMatch
 }
 )
@@ -511,7 +515,7 @@ await
 doBasicBlockTest
 (
 {
-suggestion
+result
 isBestMatch
 block
 :
@@ -542,7 +546,7 @@ function
 basic_keyShortcut
 (
 {
-suggestion
+result
 isBestMatch
 }
 )
@@ -551,7 +555,7 @@ await
 doBasicBlockTest
 (
 {
-suggestion
+result
 isBestMatch
 block
 :
@@ -595,7 +599,7 @@ function
 doBasicBlockTest
 (
 {
-suggestion
+result
 isBestMatch
 block
 }
@@ -616,7 +620,7 @@ promiseAutocompleteResultPopup
 window
 value
 :
-suggestion
+result
 .
 keywords
 [
@@ -654,7 +658,7 @@ suggestion
 let
 isSponsored
 =
-suggestion
+result
 .
 keywords
 [
@@ -680,7 +684,7 @@ isBestMatch
 isSponsored
 originalUrl
 :
-suggestion
+result
 .
 url
 }
@@ -770,7 +774,7 @@ blockedSuggestions
 .
 has
 (
-suggestion
+result
 .
 url
 )
@@ -987,7 +991,7 @@ payload
 match_type
 block_id
 :
-suggestion
+result
 .
 id
 is_clicked
@@ -1010,12 +1014,12 @@ payload
 match_type
 block_id
 :
-suggestion
+result
 .
 id
 iab_category
 :
-suggestion
+result
 .
 iab_category
 position
@@ -1097,7 +1101,7 @@ i
 ;
 i
 <
-SUGGESTIONS
+REMOTE_SETTINGS_RESULTS
 .
 length
 ;
@@ -1112,7 +1116,7 @@ keywords
 url
 }
 =
-SUGGESTIONS
+REMOTE_SETTINGS_RESULTS
 [
 i
 ]
@@ -1214,7 +1218,7 @@ j
 ;
 j
 <
-SUGGESTIONS
+REMOTE_SETTINGS_RESULTS
 .
 length
 ;
@@ -1234,7 +1238,7 @@ blockedSuggestions
 .
 has
 (
-SUGGESTIONS
+REMOTE_SETTINGS_RESULTS
 [
 j
 ]
@@ -1300,7 +1304,7 @@ function
 disabled_both
 (
 {
-suggestion
+result
 isBestMatch
 }
 )
@@ -1309,7 +1313,7 @@ await
 doDisabledTest
 (
 {
-suggestion
+result
 isBestMatch
 quickSuggestBlockingEnabled
 :
@@ -1330,7 +1334,7 @@ function
 disabled_quickSuggest
 (
 {
-suggestion
+result
 isBestMatch
 }
 )
@@ -1339,7 +1343,7 @@ await
 doDisabledTest
 (
 {
-suggestion
+result
 isBestMatch
 quickSuggestBlockingEnabled
 :
@@ -1360,7 +1364,7 @@ function
 disabled_bestMatch
 (
 {
-suggestion
+result
 isBestMatch
 }
 )
@@ -1369,7 +1373,7 @@ await
 doDisabledTest
 (
 {
-suggestion
+result
 isBestMatch
 quickSuggestBlockingEnabled
 :
@@ -1388,7 +1392,7 @@ function
 doDisabledTest
 (
 {
-suggestion
+result
 isBestMatch
 bestMatchBlockingEnabled
 quickSuggestBlockingEnabled
@@ -1441,7 +1445,7 @@ promiseAutocompleteResultPopup
 window
 value
 :
-suggestion
+result
 .
 keywords
 [
@@ -1494,12 +1498,12 @@ window
 isBestMatch
 originalUrl
 :
-suggestion
+result
 .
 url
 isSponsored
 :
-suggestion
+result
 .
 keywords
 [
@@ -1644,12 +1648,12 @@ window
 isBestMatch
 originalUrl
 :
-suggestion
+result
 .
 url
 isSponsored
 :
-suggestion
+result
 .
 keywords
 [
@@ -1676,7 +1680,7 @@ blockedSuggestions
 .
 has
 (
-suggestion
+result
 .
 url
 )
@@ -1745,7 +1749,7 @@ blockedSuggestions
 .
 has
 (
-suggestion
+result
 .
 url
 )
