@@ -2045,10 +2045,7 @@ const
 override
 ;
 virtual
-Maybe
-<
 float
->
 Opacity
 (
 )

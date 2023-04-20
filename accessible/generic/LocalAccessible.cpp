@@ -19418,10 +19418,7 @@ display
 )
 ;
 }
-Maybe
-<
 float
->
 opacity
 =
 Opacity
@@ -19431,6 +19428,11 @@ Opacity
 if
 (
 opacity
+!
+=
+1
+.
+0f
 )
 {
 fields
@@ -19442,7 +19444,6 @@ nsGkAtoms
 :
 :
 opacity
-*
 opacity
 )
 ;
@@ -20969,10 +20970,7 @@ return
 nullptr
 ;
 }
-Maybe
-<
 float
->
 LocalAccessible
 :
 :
@@ -20993,8 +20991,6 @@ GetFrame
 )
 {
 return
-Some
-(
 frame
 -
 >
@@ -21004,13 +21000,12 @@ StyleEffects
 -
 >
 mOpacity
-)
 ;
 }
 return
-Nothing
-(
-)
+1
+.
+0f
 ;
 }
 void
