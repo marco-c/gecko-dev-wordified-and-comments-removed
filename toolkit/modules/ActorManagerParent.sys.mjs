@@ -631,8 +631,15 @@ of
 the
 page
 appears
+to
+inject
+functions
 .
 DOMDocElementInserted
+:
+{
+}
+DOMContentLoaded
 :
 {
 }
