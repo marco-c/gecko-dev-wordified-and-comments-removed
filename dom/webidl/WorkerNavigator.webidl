@@ -86,6 +86,10 @@ WorkerNavigator
 includes
 NavigatorStorage
 ;
+WorkerNavigator
+includes
+GlobalPrivacyControl
+;
 /
 /
 http

@@ -531,6 +531,10 @@ Navigator
 includes
 GPUProvider
 ;
+Navigator
+includes
+GlobalPrivacyControl
+;
 interface
 mixin
 NavigatorID
@@ -942,9 +946,9 @@ gpc
 -
 spec
 /
-partial
 interface
-Navigator
+mixin
+GlobalPrivacyControl
 {
 [
 Pref

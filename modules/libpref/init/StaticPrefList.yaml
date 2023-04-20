@@ -77713,7 +77713,7 @@ globalprivacycontrol
 enabled
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 false
@@ -77771,7 +77771,7 @@ functionality
 enabled
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 false
