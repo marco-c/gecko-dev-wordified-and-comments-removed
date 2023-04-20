@@ -742,7 +742,7 @@ getSavedFieldNames
 }
 async
 *
-getDuplicateRecord
+getDuplicateRecords
 (
 record
 )
