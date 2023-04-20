@@ -899,6 +899,14 @@ TextureFlags
 :
 DEALLOCATE_CLIENT
 ;
+aFlags
+|
+=
+TextureFlags
+:
+:
+DUMMY_TEXTURE
+;
 UniquePtr
 <
 TextureData
