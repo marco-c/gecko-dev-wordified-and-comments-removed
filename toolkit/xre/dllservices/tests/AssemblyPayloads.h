@@ -994,6 +994,13 @@ nop
 )
 ;
 }
+#
+if
+!
+defined
+(
+MOZ_CODE_COVERAGE
+)
 __attribute__
 (
 (
@@ -1109,6 +1116,8 @@ aCallee
 )
 ;
 }
+#
+endif
 #
 elif
 defined
