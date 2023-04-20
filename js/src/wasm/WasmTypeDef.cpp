@@ -329,7 +329,7 @@ case
 RefType
 :
 :
-Eq
+Any
 :
 return
 true
@@ -478,7 +478,7 @@ case
 RefType
 :
 :
-Eq
+Any
 :
 return
 7

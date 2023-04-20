@@ -19880,12 +19880,12 @@ false
 ;
 }
 ValType
-eqrefType
+anyrefType
 (
 RefType
 :
 :
-eq
+any
 (
 )
 )
@@ -20037,7 +20037,7 @@ labelTypeNumValues
 1
 ]
 =
-eqrefType
+anyrefType
 ;
 return
 checkTopTypeMatches
@@ -20133,12 +20133,12 @@ false
 ;
 }
 ValType
-eqrefType
+anyrefType
 (
 RefType
 :
 :
-eq
+any
 (
 )
 )
@@ -20259,7 +20259,7 @@ if
 !
 popWithType
 (
-eqrefType
+anyrefType
 &
 ignored
 )
