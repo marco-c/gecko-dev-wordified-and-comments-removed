@@ -986,7 +986,7 @@ correct
 ;
 is
 (
-node
+button
 .
 getAttribute
 (
