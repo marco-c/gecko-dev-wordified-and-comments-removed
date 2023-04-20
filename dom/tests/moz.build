@@ -1466,6 +1466,15 @@ ini
 "
 mochitest
 /
+fs
+/
+chrome
+.
+ini
+"
+"
+mochitest
+/
 general
 /
 chrome
