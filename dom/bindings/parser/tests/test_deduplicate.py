@@ -1,5 +1,3 @@
-import
-WebIDL
 def
 WebIDLTest
 (

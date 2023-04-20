@@ -1,5 +1,3 @@
-import
-WebIDL
 def
 WebIDLTest
 (
@@ -54,8 +52,6 @@ name
         
 )
         
-results
-=
 parser
 .
 finish
@@ -63,6 +59,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -128,8 +125,6 @@ name
         
 )
         
-results
-=
 parser
 .
 finish
@@ -137,6 +132,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -201,8 +197,6 @@ name
         
 )
         
-results
-=
 parser
 .
 finish
@@ -210,6 +204,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw

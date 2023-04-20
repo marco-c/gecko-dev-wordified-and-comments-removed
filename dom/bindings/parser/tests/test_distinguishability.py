@@ -1,5 +1,3 @@
-import
-traceback
 def
 firstArgType
 (
@@ -990,8 +988,6 @@ arg3
         
 )
         
-results
-=
 parser
 .
 finish
@@ -999,6 +995,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -1119,8 +1116,6 @@ arg3
         
 )
         
-results
-=
 parser
 .
 finish
@@ -1128,6 +1123,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -1560,14 +1556,6 @@ undefineds
 primitives
 +
 strings
-    
-objects
-=
-allBut
-(
-argTypes
-nonObjects
-)
     
 bufferSourceTypes
 =
@@ -2720,8 +2708,6 @@ parse
 idl
 )
             
-results
-=
 parser
 .
 finish
@@ -2729,6 +2715,7 @@ finish
 )
         
 except
+Exception
 :
             
 threw

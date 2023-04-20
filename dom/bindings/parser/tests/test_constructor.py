@@ -1751,14 +1751,22 @@ parser
 parse
 (
         
+(
+            
 "
+\
+n
 "
+            
 "
-        
 interface
 TestPrefChromeOnlySCFuncConstructor
 {
+\
+n
+"
             
+'
 [
 ChromeOnly
 Pref
@@ -1771,6 +1779,9 @@ webidl
 test1
 "
 SecureContext
+'
+            
+'
 Func
 =
 "
@@ -1780,18 +1791,27 @@ Document
 IsWebAnimationsEnabled
 "
 ]
+\
+n
+'
             
+"
 constructor
 (
 )
 ;
-        
+\
+n
+"
+            
+"
 }
 ;
-    
+\
+n
 "
-"
-"
+        
+)
     
 )
     
@@ -2102,6 +2122,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -2184,6 +2205,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -2259,6 +2281,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -2343,6 +2366,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -2431,6 +2455,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -2518,6 +2543,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -2609,6 +2635,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -2704,6 +2731,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -2794,6 +2822,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -2891,6 +2920,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -2989,6 +3019,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -3078,6 +3109,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -3171,6 +3203,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -3260,6 +3293,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw

@@ -38,8 +38,6 @@ foo
         
 )
         
-results
-=
 parser
 .
 finish

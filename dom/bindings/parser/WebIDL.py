@@ -2532,6 +2532,7 @@ identifier
 )
         
 except
+Exception
 :
             
 raise
@@ -5291,6 +5292,7 @@ identifier
 )
         
 except
+Exception
 :
             
 return
@@ -10117,8 +10119,8 @@ any
             
 (
 (
-not
 a
+not
 in
 exclusions
 )
@@ -10406,12 +10408,17 @@ raise
 WebIDLError
 (
                         
+(
+                            
 "
 LegacyFactoryFunction
 must
 either
 take
 an
+"
+                            
+"
 identifier
 or
 take
@@ -10420,6 +10427,8 @@ named
 argument
 list
 "
+                        
+)
                         
 [
 attr
@@ -10445,16 +10454,6 @@ hasArgs
 else
 [
 ]
-                
-retType
-=
-IDLWrapperType
-(
-self
-.
-location
-self
-)
                 
 method
 =
@@ -14598,6 +14597,7 @@ name
 )
         
 except
+Exception
 :
             
 raise
@@ -14732,18 +14732,6 @@ self
 .
 location
 obj
-)
-        
-name
-=
-self
-.
-name
-.
-resolve
-(
-scope
-None
 )
         
 return
@@ -20888,9 +20876,9 @@ legacyNullToEmptyString
 /
 allowShared
 arguments
+        
 are
 used
-        
 to
 create
 instances
@@ -20904,11 +20892,11 @@ attributes
 attached
 .
 Use
+        
 .
 clamped
 (
 )
-        
 .
 rangeEnforced
 (
@@ -25077,6 +25065,7 @@ location
 )
                 
 except
+Exception
 :
                     
 pass
@@ -25220,6 +25209,7 @@ location
 )
                 
 except
+Exception
 :
                     
 pass
@@ -26152,7 +26142,7 @@ on
 attribute
 "
 %
-dependsOn
+affects
 [
 self
 .
@@ -29066,6 +29056,7 @@ location
 )
                 
 except
+Exception
 :
                     
 pass
@@ -33473,8 +33464,8 @@ key
 )
             
 elif
-not
 key
+not
 in
 attributeOnlyExtAttrs
 :
@@ -36643,6 +36634,8 @@ raise
 WebIDLError
 (
                 
+(
+                    
 "
 Overloaded
 identifier
@@ -36651,6 +36644,9 @@ s
 appears
 with
 different
+"
+                    
+"
 values
 of
 the
@@ -36659,11 +36655,12 @@ legacycaller
 '
 attribute
 "
-                
 %
 method
 .
 identifier
+                
+)
                 
 [
 method
@@ -40717,6 +40714,7 @@ value
 )
         
 except
+Exception
 :
             
 raise
@@ -50562,6 +50560,7 @@ p
 return
         
 except
+Exception
 :
             
 pass
@@ -51966,6 +51965,8 @@ raise
 WebIDLError
 (
                 
+(
+                    
 "
 Syntax
 Error
@@ -51977,6 +51978,9 @@ file
 Possibly
 due
 to
+"
+                    
+"
 missing
 semicolon
 (
@@ -51989,6 +51993,8 @@ braces
 or
 both
 "
+                
+)
                 
 [
 self
@@ -52226,11 +52232,8 @@ builtin
 .
 name
             
-typedef
-=
 IDLTypedef
 (
-                
 BuiltinLocation
 (
 "
@@ -52243,7 +52246,6 @@ type
 scope
 builtin
 name
-            
 )
     
 staticmethod
