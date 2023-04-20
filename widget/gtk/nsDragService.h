@@ -341,7 +341,7 @@ GtkSelectionData
 aSelectionData
 )
 ;
-bool
+void
 SourceDataGetImage
 (
 nsITransferable
@@ -352,7 +352,7 @@ GtkSelectionData
 aSelectionData
 )
 ;
-bool
+void
 SourceDataGetXDND
 (
 nsITransferable

@@ -8716,7 +8716,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-bool
+void
 nsDragService
 :
 :
@@ -8765,10 +8765,9 @@ data
 )
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 rv
-false
 )
 ;
 LOGDRAGSERVICE
@@ -8809,7 +8808,6 @@ n
 )
 ;
 return
-false
 ;
 }
 RefPtr
@@ -8843,7 +8841,6 @@ n
 )
 ;
 return
-false
 ;
 }
 gtk_selection_data_set_pixbuf
@@ -8864,10 +8861,9 @@ n
 )
 ;
 return
-true
 ;
 }
-bool
+void
 nsDragService
 :
 :
@@ -8963,7 +8959,6 @@ GdkWindow
 )
 ;
 return
-false
 ;
 }
 guchar
@@ -9007,7 +9002,6 @@ property
 )
 ;
 return
-false
 ;
 }
 data
@@ -9031,7 +9025,6 @@ data
 )
 {
 return
-false
 ;
 }
 data
@@ -9090,7 +9083,6 @@ uri
 )
 ;
 return
-false
 ;
 }
 nsCString
@@ -9143,7 +9135,6 @@ infoService
 )
 {
 return
-false
 ;
 }
 nsAutoCString
@@ -9213,7 +9204,6 @@ hostname
 )
 ;
 return
-false
 ;
 }
 }
@@ -9257,7 +9247,6 @@ file
 )
 ;
 return
-false
 ;
 }
 nsCOMPtr
@@ -9304,7 +9293,6 @@ filenamePrimitive
 )
 {
 return
-false
 ;
 }
 nsAutoString
@@ -9361,7 +9349,6 @@ promiseData
 NS_ENSURE_SUCCESS
 (
 rv
-false
 )
 ;
 gtk_selection_data_set
@@ -9380,7 +9367,6 @@ S
 )
 ;
 return
-true
 ;
 }
 bool
@@ -9773,8 +9759,6 @@ gTextPlainUTF8Type
 )
 )
 {
-if
-(
 SourceDataGetText
 (
 item
@@ -9785,11 +9769,9 @@ kUnicodeMime
 true
 aSelectionData
 )
-)
-{
+;
 return
 ;
-}
 }
 else
 if
@@ -9959,19 +9941,15 @@ gXdndDirectSaveType
 )
 )
 {
-if
-(
 SourceDataGetXDND
 (
 item
 aContext
 aSelectionData
 )
-)
-{
+;
 return
 ;
-}
 }
 else
 if
@@ -10008,18 +9986,14 @@ kGIFImageMime
 )
 )
 {
-if
-(
 SourceDataGetImage
 (
 item
 aSelectionData
 )
-)
-{
+;
 return
 ;
-}
 }
 else
 if
