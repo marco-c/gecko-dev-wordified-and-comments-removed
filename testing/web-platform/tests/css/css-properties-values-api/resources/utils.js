@@ -935,6 +935,7 @@ discrete_animation_test
 syntax
 fromValue
 toValue
+description
 )
 {
 test
@@ -1094,6 +1095,9 @@ toValue
 )
 ;
 }
+description
+|
+|
 Animating
 a
 custom
