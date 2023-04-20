@@ -39,7 +39,10 @@ use
 coll_state
 :
 :
+{
 CollState
+LocalCollStateMachine
+}
 ;
 pub
 (
