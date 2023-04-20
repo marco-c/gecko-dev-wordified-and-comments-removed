@@ -518,6 +518,7 @@ foo
 "
 true
 )
+;
 /
 /
 This
@@ -799,6 +800,7 @@ JSON
 -
 Default
 :
+json
 {
 "
 api_key_pref
