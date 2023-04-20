@@ -1249,10 +1249,6 @@ done
 Wait
 (
 kTimeout
-.
-ms
-(
-)
 )
 )
 ;
@@ -1380,10 +1376,6 @@ done
 Wait
 (
 kTimeout
-.
-ms
-(
-)
 )
 )
 ;
@@ -1686,10 +1678,6 @@ done
 Wait
 (
 kTimeout
-.
-ms
-(
-)
 )
 )
 ;
@@ -1808,10 +1796,6 @@ done
 Wait
 (
 kTimeout
-.
-ms
-(
-)
 )
 )
 ;

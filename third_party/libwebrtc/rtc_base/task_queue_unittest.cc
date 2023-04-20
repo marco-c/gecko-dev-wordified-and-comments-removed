@@ -288,7 +288,16 @@ event
 .
 Wait
 (
-1000
+webrtc
+:
+:
+TimeDelta
+:
+:
+Seconds
+(
+1
+)
 )
 )
 ;

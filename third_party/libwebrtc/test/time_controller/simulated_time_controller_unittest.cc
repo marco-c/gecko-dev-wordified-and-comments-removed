@@ -841,7 +841,12 @@ yield_event
 .
 Wait
 (
-0
+TimeDelta
+:
+:
+Zero
+(
+)
 )
 ;
 }

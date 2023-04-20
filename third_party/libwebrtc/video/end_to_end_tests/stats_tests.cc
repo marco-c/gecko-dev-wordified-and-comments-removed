@@ -1924,7 +1924,13 @@ check_stats_event_
 .
 Wait
 (
+TimeDelta
+:
+:
+Millis
+(
 time_until_timeout_ms
+)
 )
 ;
 now_ms

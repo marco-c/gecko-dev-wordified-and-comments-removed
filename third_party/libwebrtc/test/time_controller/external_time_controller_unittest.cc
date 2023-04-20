@@ -777,7 +777,13 @@ event
 .
 Wait
 (
+TimeDelta
+:
+:
+Millis
+(
 200
+)
 )
 )
 ;
@@ -894,7 +900,13 @@ event
 .
 Wait
 (
+TimeDelta
+:
+:
+Millis
+(
 200
+)
 )
 )
 ;

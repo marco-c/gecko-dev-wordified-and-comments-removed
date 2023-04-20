@@ -517,10 +517,6 @@ CallTest
 :
 :
 kDefaultTimeout
-.
-ms
-(
-)
 )
 ;
 }

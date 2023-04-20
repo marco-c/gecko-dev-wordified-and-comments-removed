@@ -5827,7 +5827,12 @@ fourth
 .
 Wait
 (
-0
+TimeDelta
+:
+:
+Zero
+(
+)
 )
 )
 ;

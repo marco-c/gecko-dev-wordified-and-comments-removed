@@ -65,7 +65,13 @@ event_
 .
 Wait
 (
+TimeDelta
+:
+:
+Millis
+(
 max_time_ms
+)
 )
 ?
 kEventSignaled

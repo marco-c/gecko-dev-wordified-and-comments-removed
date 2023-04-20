@@ -397,10 +397,6 @@ event_
 Wait
 (
 kDefaultTimeout
-.
-ms
-(
-)
 )
 ;
 }
@@ -846,10 +842,6 @@ event_
 Wait
 (
 kDefaultTimeout
-.
-ms
-(
-)
 )
 ;
 }

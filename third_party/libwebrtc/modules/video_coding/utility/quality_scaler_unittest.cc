@@ -24,6 +24,17 @@ string
 #
 include
 "
+api
+/
+units
+/
+time_delta
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 checks
@@ -100,11 +111,17 @@ kMinFramesNeededToScale
 60
 ;
 static
-const
-size_t
-kDefaultTimeoutMs
+constexpr
+TimeDelta
+kDefaultTimeout
 =
+TimeDelta
+:
+:
+Millis
+(
 150
+)
 ;
 }
 class
@@ -549,7 +566,7 @@ event
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 )
 ;
@@ -603,7 +620,7 @@ event
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 )
 ;
@@ -657,7 +674,7 @@ event
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 )
 ;
@@ -748,7 +765,7 @@ event
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 )
 ;
@@ -832,7 +849,7 @@ event
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 )
 ;
@@ -948,7 +965,7 @@ event
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 )
 ;
@@ -1006,7 +1023,7 @@ event
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 )
 ;
@@ -1060,7 +1077,7 @@ event
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 )
 ;
@@ -1114,7 +1131,7 @@ event
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 )
 ;
@@ -1161,7 +1178,7 @@ event
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 )
 ;
@@ -1238,7 +1255,7 @@ event
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 )
 ;
@@ -1271,7 +1288,7 @@ event
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 )
 ;
@@ -1322,7 +1339,7 @@ event
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 )
 ;
@@ -1399,7 +1416,7 @@ event
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 )
 ;
@@ -1467,7 +1484,7 @@ event
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 )
 ;

@@ -678,13 +678,12 @@ return
 capturing_
 ;
 }
-bool
+void
 WaitForRecordingEnd
 (
 )
 override
 {
-return
 done_capturing_
 .
 Wait

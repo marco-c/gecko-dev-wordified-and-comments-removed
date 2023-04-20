@@ -487,7 +487,7 @@ override
 0
 ;
 virtual
-bool
+void
 WaitForRecordingEnd
 (
 )

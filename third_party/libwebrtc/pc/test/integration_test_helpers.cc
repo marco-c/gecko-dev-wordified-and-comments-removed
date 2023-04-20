@@ -462,7 +462,13 @@ stop_event
 .
 Wait
 (
-1000
+TimeDelta
+:
+:
+Seconds
+(
+1
+)
 )
 ;
 }

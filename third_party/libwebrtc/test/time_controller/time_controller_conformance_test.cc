@@ -1021,7 +1021,13 @@ event
 .
 Wait
 (
+TimeDelta
+:
+:
+Millis
+(
 100
+)
 )
 )
 ;

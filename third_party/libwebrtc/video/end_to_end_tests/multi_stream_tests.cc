@@ -247,9 +247,13 @@ done_
 .
 Wait
 (
+TimeDelta
+:
+:
+Seconds
+(
 30
-*
-1000
+)
 )
 ;
 }
