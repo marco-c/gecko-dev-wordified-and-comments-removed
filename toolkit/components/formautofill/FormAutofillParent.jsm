@@ -2029,9 +2029,7 @@ FormAutofillPrompter
 promptToSaveAddress
 (
 browser
-"
-updateAddress
-"
+address
 description
 )
 ;
@@ -2366,9 +2364,7 @@ FormAutofillPrompter
 promptToSaveAddress
 (
 browser
-"
-firstTimeUse
-"
+address
 description
 )
 ;
