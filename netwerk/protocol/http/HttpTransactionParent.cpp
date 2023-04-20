@@ -4505,6 +4505,17 @@ return
 mSupportsHTTP3
 ;
 }
+void
+HttpTransactionParent
+:
+:
+SetIsForWebTransport
+(
+bool
+SetIsForWebTransport
+)
+{
+}
 mozilla
 :
 :

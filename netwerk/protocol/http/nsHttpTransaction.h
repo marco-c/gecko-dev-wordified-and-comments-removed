@@ -2017,6 +2017,12 @@ mSupportsHTTP3
 false
 ;
 bool
+mIsForWebTransport
+{
+false
+}
+;
+bool
 mEarlyDataWasAvailable
 =
 false
