@@ -57,7 +57,9 @@ DAMP
 awsy
 fxrecord
 mach
+-
 try
+-
 perf
 mozperftest
 raptor
@@ -145,7 +147,9 @@ fxrecord
 doc
 :
 mach
+-
 try
+-
 perf
 *
 :

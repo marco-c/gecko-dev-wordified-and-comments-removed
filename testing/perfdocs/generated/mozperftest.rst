@@ -9,7 +9,7 @@
 =
 =
 =
-mozperftest
+Mozperftest
 =
 =
 =
@@ -23,7 +23,7 @@ mozperftest
 =
 *
 *
-mozperftest
+Mozperftest
 *
 *
 can
