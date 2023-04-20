@@ -213,6 +213,7 @@ uint8_t
 }
 ;
 struct
+MOZ_STACK_CLASS
 gfxTextRunDrawCallbacks
 {
 explicit

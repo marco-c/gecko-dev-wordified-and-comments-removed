@@ -2039,6 +2039,7 @@ NotifySelectionDecorationLinePathEmitted
 }
 ;
 struct
+MOZ_STACK_CLASS
 PaintTextParams
 {
 gfxContext
