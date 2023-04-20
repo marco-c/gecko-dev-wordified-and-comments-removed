@@ -796,6 +796,13 @@ MESSAGING_EXPERIMENTS_DEFAULT_FEATURES
 cfr
 "
 "
+fxms
+-
+message
+-
+1
+"
+"
 infobar
 "
 "
