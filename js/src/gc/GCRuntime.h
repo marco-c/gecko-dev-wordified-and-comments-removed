@@ -3270,14 +3270,6 @@ lifo
 )
 ;
 void
-queueAllLifoBlocksForFree
-(
-LifoAlloc
-*
-lifo
-)
-;
-void
 queueAllLifoBlocksForFreeAfterMinorGC
 (
 LifoAlloc
