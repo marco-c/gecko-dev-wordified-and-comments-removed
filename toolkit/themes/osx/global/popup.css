@@ -272,7 +272,12 @@ corners
 *
 /
 }
+:
+is
+(
 panel
+menupopup
+)
 [
 type
 =
@@ -468,7 +473,12 @@ orient
 vertical
 ;
 }
+:
+is
+(
 panel
+menupopup
+)
 [
 type
 =

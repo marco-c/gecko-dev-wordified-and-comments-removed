@@ -553,7 +553,12 @@ margin
 )
 ;
 }
+:
+is
+(
 panel
+menupopup
+)
 [
 type
 =
