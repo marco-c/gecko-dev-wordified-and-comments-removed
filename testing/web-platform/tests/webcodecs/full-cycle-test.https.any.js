@@ -32,6 +32,9 @@ av01
 .
 08
 '
+hasEmbeddedColorSpace
+:
+true
 }
 '
 ?
