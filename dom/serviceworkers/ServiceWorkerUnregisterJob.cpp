@@ -150,6 +150,8 @@ const
 nsACString
 &
 aScope
+bool
+aSendToParent
 )
 :
 ServiceWorkerJob
@@ -167,6 +169,10 @@ _ns
 mResult
 (
 false
+)
+mSendToParent
+(
+aSendToParent
 )
 {
 }
@@ -388,6 +394,11 @@ NS_OK
 return
 ;
 }
+if
+(
+mSendToParent
+)
+{
 swm
 -
 >
@@ -397,6 +408,7 @@ mPrincipal
 mScope
 )
 ;
+}
 swm
 -
 >
