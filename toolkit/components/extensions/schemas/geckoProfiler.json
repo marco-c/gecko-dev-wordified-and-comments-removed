@@ -136,9 +136,6 @@ jsallocations
 nostacksampling
 "
 "
-preferencereads
-"
-"
 nativeallocations
 "
 "
