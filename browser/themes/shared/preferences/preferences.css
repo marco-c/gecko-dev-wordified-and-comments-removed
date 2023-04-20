@@ -2990,6 +2990,15 @@ hidden
 html
 |
 dialog
+{
+padding
+:
+24px
+;
+}
+html
+|
+dialog
 :
 :
 backdrop

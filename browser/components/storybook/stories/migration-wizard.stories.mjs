@@ -554,15 +554,6 @@ resourceTypes
 "
 HISTORY
 "
-"
-FORMDATA
-"
-"
-PASSWORDS
-"
-"
-BOOKMARKS
-"
 ]
 profile
 :

@@ -1133,7 +1133,7 @@ in
 the
 list
 and
-click
+choose
 Open
 migration
 -
