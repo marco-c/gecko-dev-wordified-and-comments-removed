@@ -4333,6 +4333,8 @@ cx
 CacheIRWriter
 &
 writer
+NativeGetPropKind
+kind
 NativeObject
 *
 obj
@@ -4345,6 +4347,19 @@ ValOperandId
 receiverId
 )
 {
+MOZ_ASSERT
+(
+IsCacheableGetPropCall
+(
+obj
+holder
+prop
+)
+=
+=
+kind
+)
+;
 JSFunction
 *
 target
@@ -4386,12 +4401,7 @@ realm
 ;
 switch
 (
-IsCacheableGetPropCall
-(
-obj
-holder
-prop
-)
+kind
 )
 {
 case
@@ -4743,6 +4753,8 @@ cx
 CacheIRWriter
 &
 writer
+NativeGetPropKind
+kind
 NativeObject
 *
 obj
@@ -4779,6 +4791,7 @@ EmitCallGetterResultNoGuards
 (
 cx
 writer
+kind
 obj
 holder
 prop
@@ -5644,6 +5657,7 @@ EmitCallGetterResult
 (
 cx_
 writer
+kind
 nobj
 holder
 id
@@ -6187,6 +6201,7 @@ EmitCallGetterResult
 (
 cx_
 writer
+kind
 windowObj
 holder
 id
@@ -8063,6 +8078,7 @@ EmitCallGetterResultNoGuards
 (
 cx_
 writer
+kind
 nativeExpandoObj
 nativeExpandoObj
 *
@@ -8585,6 +8601,7 @@ EmitCallGetterResultNoGuards
 (
 cx_
 writer
+kind
 nativeCheckObj
 holder
 *
@@ -12193,6 +12210,7 @@ EmitCallGetterResult
 (
 cx_
 writer
+kind
 nproto
 holder
 id
@@ -15850,6 +15868,7 @@ EmitCallGetterResultNoGuards
 (
 cx_
 writer
+kind
 global
 holder
 *
