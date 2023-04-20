@@ -465,6 +465,8 @@ removeUnnecessaryBitops
 (
 )
 ;
+private
+:
 bool
 canTruncate
 (
