@@ -130,6 +130,13 @@ MinSuperTypeVectorLength
 =
 3
 ;
+static
+const
+uint32_t
+JumpTableJitEntryOffset
+=
+0
+;
 }
 }
 #
