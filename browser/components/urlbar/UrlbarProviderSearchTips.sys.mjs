@@ -3428,13 +3428,8 @@ lazy
 .
 UrlbarPrefs
 .
-get
+isPersistedSearchTermsEnabled
 (
-"
-showSearchTerms
-.
-featureGate
-"
 )
 &
 &
