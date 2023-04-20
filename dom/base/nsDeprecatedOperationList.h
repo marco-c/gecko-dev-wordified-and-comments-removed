@@ -206,3 +206,11 @@ DEPRECATED_OPERATION
 (
 MozPreservesPitchDeprecatedPrefix
 )
+DEPRECATED_OPERATION
+(
+SVGNearestViewportElement
+)
+DEPRECATED_OPERATION
+(
+SVGFarthestViewportElement
+)
