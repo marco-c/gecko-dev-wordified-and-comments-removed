@@ -2403,9 +2403,6 @@ SetFlexFecPayload
 (
 int
 payload_type
-bool
-&
-flexfec_needs_recreation
 )
 ;
 void

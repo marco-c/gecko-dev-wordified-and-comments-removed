@@ -28453,7 +28453,7 @@ nullptr
 TEST_F
 (
 WebRtcVideoChannelFlexfecRecvTest
-EnablingFlexfecRecreatesVideoReceiveStream
+EnablingFlexfecDoesNotRecreateVideoReceiveStream
 )
 {
 cricket
@@ -28622,7 +28622,7 @@ recv_parameters
 ;
 EXPECT_EQ
 (
-3
+2
 fake_call_
 -
 >
@@ -28636,8 +28636,12 @@ GetNumCreatedReceiveStreams
 Enabling
 FlexFEC
 should
+not
 create
-FlexfecReceiveStream
+VideoReceiveStreamInterface
+(
+1
+)
 .
 "
 ;
@@ -28664,6 +28668,9 @@ should
 not
 create
 VideoReceiveStreamInterface
+(
+2
+)
 .
 "
 ;
