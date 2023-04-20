@@ -561,9 +561,6 @@ CreateLoadingSessionHistoryEntryForLoad
 nsDocShellLoadState
 *
 aLoadState
-SessionHistoryEntry
-*
-aExistingEntry
 nsIChannel
 *
 aChannel
@@ -1828,17 +1825,6 @@ aHasPostData
 )
 ;
 }
-already_AddRefed
-<
-nsDocShellLoadState
->
-CreateLoadInfo
-(
-SessionHistoryEntry
-*
-aEntry
-)
-;
 uint64_t
 mProcessId
 ;
