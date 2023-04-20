@@ -224,6 +224,13 @@ true
 "
 android
 :
+usesCleartextTraffic
+=
+"
+true
+"
+android
+:
 theme
 =
 "
