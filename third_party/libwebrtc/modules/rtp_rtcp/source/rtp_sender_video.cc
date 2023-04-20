@@ -579,9 +579,11 @@ return
 true
 ;
 }
-#
-if
-RTC_TRACE_EVENTS_ENABLED
+[
+[
+maybe_unused
+]
+]
 const
 char
 *
@@ -641,8 +643,6 @@ return
 ;
 }
 }
-#
-endif
 bool
 IsNoopDelay
 (
@@ -2416,9 +2416,6 @@ int64_t
 expected_retransmission_time_ms
 )
 {
-#
-if
-RTC_TRACE_EVENTS_ENABLED
 TRACE_EVENT_ASYNC_STEP1
 (
 "
@@ -2442,8 +2439,6 @@ frame_type
 )
 )
 ;
-#
-endif
 RTC_CHECK_RUNS_SERIALIZED
 (
 &
