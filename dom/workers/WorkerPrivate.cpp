@@ -6215,7 +6215,7 @@ void
 WorkerPrivate
 :
 :
-SetCSP
+SetCsp
 (
 nsIContentSecurityPolicy
 *

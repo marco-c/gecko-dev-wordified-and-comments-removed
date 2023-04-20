@@ -849,7 +849,7 @@ true
 )
 ;
 }
-getCSP
+getCsp
 (
 aEvent
 )

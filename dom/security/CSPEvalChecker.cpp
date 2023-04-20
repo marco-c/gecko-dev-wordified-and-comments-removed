@@ -370,7 +370,7 @@ CheckInternal
 mWorkerPrivate
 -
 >
-GetCSP
+GetCsp
 (
 )
 mWorkerPrivate

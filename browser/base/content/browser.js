@@ -16528,7 +16528,7 @@ aEvent
 )
 ;
 }
-getCSP
+getCsp
 (
 aEvent
 )
@@ -16538,7 +16538,7 @@ Services
 .
 droppedLinkHandler
 .
-getCSP
+getCsp
 (
 aEvent
 )
@@ -16959,7 +16959,7 @@ csp
 =
 browserDragAndDrop
 .
-getCSP
+getCsp
 (
 aEvent
 )
@@ -17112,7 +17112,7 @@ csp
 =
 browserDragAndDrop
 .
-getCSP
+getCsp
 (
 aEvent
 )

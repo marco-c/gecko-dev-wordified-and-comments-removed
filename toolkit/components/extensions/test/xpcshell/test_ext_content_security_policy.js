@@ -720,7 +720,7 @@ csp
 "
 window
 .
-getCSP
+getCsp
 (
 )
 )
@@ -744,7 +744,7 @@ csp
 "
 window
 .
-getCSP
+getCsp
 (
 )
 )
@@ -1155,7 +1155,7 @@ target
 ownerGlobal
 ;
 function
-getCSP
+getCsp
 (
 )
 {
@@ -1185,13 +1185,13 @@ Cu
 .
 exportFunction
 (
-getCSP
+getCsp
 win
 {
 defineAs
 :
 "
-getCSP
+getCsp
 "
 }
 )
@@ -1390,7 +1390,7 @@ contentWindow
 .
 wrappedJSObject
 .
-getCSP
+getCsp
 (
 )
 ;

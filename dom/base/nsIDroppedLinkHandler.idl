@@ -614,7 +614,7 @@ it
 *
 /
 nsIContentSecurityPolicy
-getCSP
+getCsp
 (
 in
 DragEvent

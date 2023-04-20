@@ -4131,7 +4131,7 @@ csp
 =
 browserDragAndDrop
 .
-getCSP
+getCsp
 (
 event
 )
