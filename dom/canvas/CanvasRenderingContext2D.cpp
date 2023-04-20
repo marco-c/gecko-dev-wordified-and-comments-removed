@@ -17734,6 +17734,14 @@ ToFloat
 )
 )
 ;
+aUsedFont
+.
+Append
+(
+"
+"
+)
+;
 }
 if
 (
