@@ -5173,8 +5173,7 @@ alignmentFlags
 )
 ;
 }
-FlexItem
-*
+void
 nsFlexContainerFrame
 :
 :
@@ -5612,9 +5611,10 @@ ComputedMaxBSize
 )
 ;
 FlexItem
-*
+&
 item
 =
+*
 aLine
 .
 Items
@@ -5673,8 +5673,7 @@ NS_UNCONSTRAINEDSIZE
 )
 {
 item
--
->
+.
 ResolveStretchedCrossSize
 (
 aTentativeContentBoxCrossSize
@@ -5683,8 +5682,7 @@ aTentativeContentBoxCrossSize
 }
 }
 item
--
->
+.
 ResolveFlexBaseSizeFromAspectRatio
 (
 childRI
@@ -5709,8 +5707,7 @@ flexShrink
 )
 {
 item
--
->
+.
 Freeze
 (
 )
@@ -5723,8 +5720,7 @@ mainMinSize
 )
 {
 item
--
->
+.
 SetWasMinClamped
 (
 )
@@ -5739,8 +5735,7 @@ mainMaxSize
 )
 {
 item
--
->
+.
 SetWasMaxClamped
 (
 )
@@ -5749,14 +5744,10 @@ SetWasMaxClamped
 }
 ResolveAutoFlexBasisAndMinSize
 (
-*
 item
 childRI
 aAxisTracker
 )
-;
-return
-item
 ;
 }
 static

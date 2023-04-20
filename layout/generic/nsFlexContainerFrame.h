@@ -978,8 +978,7 @@ const
 ;
 #
 endif
-FlexItem
-*
+void
 GenerateFlexItemForChild
 (
 FlexLine
