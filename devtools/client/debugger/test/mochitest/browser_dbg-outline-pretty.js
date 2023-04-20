@@ -73,7 +73,7 @@ prettyPrintButton
 )
 ;
 await
-waitForLoadedSource
+waitForSource
 (
 dbg
 "

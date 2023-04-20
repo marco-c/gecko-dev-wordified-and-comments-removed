@@ -31,7 +31,6 @@ search
 import
 {
 getSource
-getFirstSourceActorForGeneratedSource
 hasPrettySource
 getSourceList
 getSourceContent
@@ -504,19 +503,6 @@ cancelled
 return
 ;
 }
-const
-sourceActor
-=
-getFirstSourceActorForGeneratedSource
-(
-getState
-(
-)
-source
-.
-id
-)
-;
 await
 dispatch
 (
@@ -525,7 +511,6 @@ loadSourceText
 {
 cx
 source
-sourceActor
 }
 )
 )

@@ -167,7 +167,6 @@ create
 import
 {
 getSource
-getFirstSourceActorForGeneratedSource
 getSourceFromId
 getSourceByURL
 getSelectedLocation
@@ -587,19 +586,6 @@ pretty_print
 )
 ;
 }
-const
-sourceActor
-=
-getFirstSourceActorForGeneratedSource
-(
-getState
-(
-)
-source
-.
-id
-)
-;
 await
 dispatch
 (
@@ -608,7 +594,6 @@ loadSourceText
 {
 cx
 source
-sourceActor
 }
 )
 )
@@ -730,7 +715,6 @@ cx
 source
 :
 newPrettySource
-sourceActor
 }
 )
 )

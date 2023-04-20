@@ -283,7 +283,6 @@ dbg
 selectSource
 (
 id
-sourceActorId
 line
 column
 )
