@@ -849,13 +849,12 @@ render_delay_
 if
 (
 delayed
-<
-TimeDelta
-:
-:
-Zero
+.
+ms
 (
 )
+<
+0
 )
 {
 return
