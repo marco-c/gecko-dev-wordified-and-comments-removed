@@ -2156,7 +2156,7 @@ result
 .
 heuristic
 =
-true
+false
 ;
 result
 .
