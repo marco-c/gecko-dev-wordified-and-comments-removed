@@ -53,6 +53,11 @@ include
 <
 cmath
 >
+#
+include
+<
+cstdint
+>
 namespace
 mozilla
 {

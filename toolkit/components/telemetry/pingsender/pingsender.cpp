@@ -6,6 +6,11 @@ cstdlib
 #
 include
 <
+cstdint
+>
+#
+include
+<
 cstring
 >
 #
