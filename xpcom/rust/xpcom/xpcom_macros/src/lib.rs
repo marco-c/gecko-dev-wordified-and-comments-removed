@@ -3881,6 +3881,8 @@ libc
 :
 c_void
 new
+as
+usize
 #
 name_for_logs
 #
@@ -3963,6 +3965,8 @@ libc
 :
 c_void
 new
+as
+usize
 #
 name_for_logs
 #

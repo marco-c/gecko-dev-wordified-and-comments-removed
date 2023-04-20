@@ -1643,15 +1643,6 @@ pub
 mod
 trace_refcnt
 {
-use
-crate
-:
-:
-interfaces
-:
-:
-nsrefcnt
-;
 extern
 "
 C
@@ -1721,7 +1712,7 @@ libc
 c_void
 aRefcnt
 :
-nsrefcnt
+usize
 aClass
 :
 *
@@ -1749,7 +1740,7 @@ libc
 c_void
 aRefcnt
 :
-nsrefcnt
+usize
 aClass
 :
 *
@@ -1783,15 +1774,6 @@ pub
 mod
 trace_refcnt
 {
-use
-crate
-:
-:
-interfaces
-:
-:
-nsrefcnt
-;
 #
 [
 inline
@@ -1906,7 +1888,7 @@ libc
 c_void
 _
 :
-nsrefcnt
+usize
 _
 :
 *
@@ -1951,7 +1933,7 @@ libc
 c_void
 _
 :
-nsrefcnt
+usize
 _
 :
 *
