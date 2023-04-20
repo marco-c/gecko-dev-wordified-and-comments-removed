@@ -3397,6 +3397,10 @@ GetSelectionTextColors
 (
 SelectionType
 aSelectionType
+const
+nsAtom
+*
+aHighlightName
 nsTextPaintStyle
 &
 aTextPaintStyle
