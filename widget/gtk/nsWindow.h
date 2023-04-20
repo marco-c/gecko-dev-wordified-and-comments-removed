@@ -1053,14 +1053,6 @@ WidgetToScreenOffset
 override
 ;
 void
-CaptureMouse
-(
-bool
-aCapture
-)
-override
-;
-void
 CaptureRollupEvents
 (
 bool
@@ -3139,6 +3131,11 @@ mConfiguredClearColor
 ;
 bool
 mGotNonBlankPaint
+:
+1
+;
+bool
+mNeedsToRetryCapturingMouse
 :
 1
 ;
