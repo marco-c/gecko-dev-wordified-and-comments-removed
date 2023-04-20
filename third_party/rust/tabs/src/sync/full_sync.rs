@@ -113,6 +113,7 @@ sync_impl
 .
 reset
 (
+&
 EngineSyncAssociation
 :
 :

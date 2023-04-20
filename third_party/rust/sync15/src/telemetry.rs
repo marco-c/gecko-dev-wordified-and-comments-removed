@@ -97,7 +97,6 @@ serde_json
 :
 to_value
 (
-&
 v
 )
 .

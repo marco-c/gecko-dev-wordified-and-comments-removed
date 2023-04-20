@@ -842,7 +842,6 @@ Connection
 :
 open_with_flags
 (
-&
 filename
 flags
 )

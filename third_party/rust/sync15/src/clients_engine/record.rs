@@ -61,7 +61,6 @@ String
 [
 serde
 (
-default
 rename
 =
 "
@@ -72,13 +71,10 @@ type
 pub
 typ
 :
-Option
-<
 crate
 :
 :
 DeviceType
->
 #
 [
 serde
