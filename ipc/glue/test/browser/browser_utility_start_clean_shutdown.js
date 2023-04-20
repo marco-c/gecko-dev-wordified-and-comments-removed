@@ -11,6 +11,9 @@ async
 =
 >
 {
+const
+pid
+=
 await
 startUtilityProcess
 (
@@ -19,6 +22,7 @@ startUtilityProcess
 await
 cleanUtilityProcessShutdown
 (
+pid
 )
 ;
 }

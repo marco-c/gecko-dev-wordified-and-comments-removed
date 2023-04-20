@@ -41,12 +41,6 @@ MOZ_WMF_MEDIA_ENGINE
 MF_MEDIA_ENGINE_CDM
 #
 endif
-#
-ifdef
-XP_WIN
-WINDOWS_UTILS
-#
-endif
 COUNT
 }
 ;
