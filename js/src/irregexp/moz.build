@@ -57,6 +57,16 @@ type
 -
 limits
 "
+"
+-
+Wno
+-
+error
+=
+return
+-
+type
+"
 ]
 UNIFIED_SOURCES
 +
