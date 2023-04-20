@@ -429,6 +429,9 @@ DIRS
 aboutthirdparty
 "
 "
+aboutwindowsmessages
+"
+"
 gfx
 "
 ]
