@@ -11,7 +11,7 @@ assert_success
 from
 .
 import
-execute_script
+execute_async_script
 def
 test_collection_self_reference
 (
@@ -21,7 +21,7 @@ session
     
 response
 =
-execute_script
+execute_async_script
 (
 session
 "
@@ -43,8 +43,13 @@ arr
 )
 ;
         
-return
+arguments
+[
+0
+]
+(
 arr
+)
 ;
         
 "
@@ -103,7 +108,7 @@ False
     
 response
 =
-execute_script
+execute_async_script
 (
 session
 "
@@ -130,8 +135,13 @@ reference
 div
 ;
         
-return
+arguments
+[
+0
+]
+(
 div
+)
 ;
         
 "
@@ -161,7 +171,7 @@ session
     
 response
 =
-execute_script
+execute_async_script
 (
 session
 "
@@ -182,8 +192,13 @@ reference
 obj
 ;
         
-return
+arguments
+[
+0
+]
+(
 obj
+)
 ;
         
 "
@@ -208,7 +223,7 @@ session
     
 response
 =
-execute_script
+execute_async_script
 (
 session
 "
@@ -230,7 +245,11 @@ arr
 )
 ;
         
-return
+arguments
+[
+0
+]
+(
 {
 '
 value
@@ -238,6 +257,7 @@ value
 :
 arr
 }
+)
 ;
         
 "
@@ -262,7 +282,7 @@ session
     
 response
 =
-execute_script
+execute_async_script
 (
 session
 "
@@ -283,10 +303,15 @@ reference
 obj
 ;
         
-return
+arguments
+[
+0
+]
+(
 [
 obj
 ]
+)
 ;
         
 "
@@ -342,7 +367,7 @@ div
     
 response
 =
-execute_script
+execute_async_script
 (
 session
 "
@@ -369,10 +394,15 @@ reference
 div
 ;
         
-return
+arguments
+[
+0
+]
+(
 [
 div
 ]
+)
 ;
         
 "
@@ -447,7 +477,7 @@ False
     
 response
 =
-execute_script
+execute_async_script
 (
 session
 "
@@ -474,12 +504,17 @@ reference
 div
 ;
         
-return
+arguments
+[
+0
+]
+(
 {
 foo
 :
 div
 }
+)
 ;
         
 "
