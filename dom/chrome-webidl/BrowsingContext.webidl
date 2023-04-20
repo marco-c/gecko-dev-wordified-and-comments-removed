@@ -494,6 +494,11 @@ attribute
 boolean
 isInBFCache
 ;
+readonly
+attribute
+boolean
+isDiscarded
+;
 /
 *
 *
