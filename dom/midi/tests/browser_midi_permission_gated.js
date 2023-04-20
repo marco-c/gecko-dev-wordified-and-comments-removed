@@ -801,12 +801,6 @@ midi
 sysex
 "
 [
-Site
-Permissions
-for
-{
-testPageHost
-}
 testPageHost
 ]
 )
@@ -1229,12 +1223,6 @@ headerWithGatedPerms
 midi
 "
 [
-Site
-Permissions
-for
-{
-testPageHost
-}
 testPageHost
 ]
 )
