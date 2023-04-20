@@ -8703,6 +8703,9 @@ return
 uint32_t
 perm
 =
+media
+:
+:
 AutoplayPolicy
 :
 :
@@ -9000,6 +9003,9 @@ txn
 .
 SetAutoplayPermission
 (
+media
+:
+:
 AutoplayPolicy
 :
 :
