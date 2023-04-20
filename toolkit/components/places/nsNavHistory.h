@@ -1065,6 +1065,16 @@ bool
 sIsFrecencyDecaying
 ;
 static
+mozilla
+:
+:
+Atomic
+<
+bool
+>
+sShouldStartFrecencyRecalculation
+;
+static
 void
 StoreLastInsertedId
 (
