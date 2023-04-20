@@ -279,6 +279,15 @@ MOZ_GUARDED_BY
 mMutex
 )
 ;
+bool
+mStopRequestCalled
+MOZ_GUARDED_BY
+(
+mMutex
+)
+=
+false
+;
 nsTArray
 <
 std
@@ -302,6 +311,10 @@ nsCOMPtr
 nsIEventTarget
 >
 mTarget
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 }
 ;
