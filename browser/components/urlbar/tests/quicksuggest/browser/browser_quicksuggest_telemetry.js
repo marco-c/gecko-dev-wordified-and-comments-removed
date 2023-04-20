@@ -690,9 +690,7 @@ doImpressionTest
 suggestion
 improve_suggest_experience_checked
 :
-QuickSuggestTestUtils
-.
-DATA_COLLECTION_OFFLINE
+false
 isBestMatch
 :
 true
@@ -1863,9 +1861,7 @@ doClickTest
 suggestion
 improve_suggest_experience_checked
 :
-QuickSuggestTestUtils
-.
-DATA_COLLECTION_OFFLINE
+false
 useKeyboard
 :
 true
@@ -1917,9 +1913,7 @@ doClickTest
 suggestion
 improve_suggest_experience_checked
 :
-QuickSuggestTestUtils
-.
-DATA_COLLECTION_OFFLINE
+false
 isBestMatch
 :
 true
@@ -5754,9 +5748,7 @@ payload
 {
 improve_suggest_experience_checked
 :
-QuickSuggestTestUtils
-.
-DATA_COLLECTION_OFFLINE
+false
 block_id
 :
 firstSuggestion
