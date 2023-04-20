@@ -303,6 +303,11 @@ CachingDatabaseConnection
 cpp
 "
 "
+CanonicalQuotaObject
+.
+cpp
+"
+"
 Client
 .
 cpp
@@ -379,11 +384,6 @@ cpp
 "
 "
 QuotaManagerService
-.
-cpp
-"
-"
-QuotaObject
 .
 cpp
 "

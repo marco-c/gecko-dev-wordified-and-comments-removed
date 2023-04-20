@@ -81,6 +81,10 @@ final
 {
 friend
 class
+CanonicalQuotaObject
+;
+friend
+class
 GroupInfoPair
 ;
 friend
@@ -90,10 +94,6 @@ OriginInfo
 friend
 class
 QuotaManager
-;
-friend
-class
-QuotaObject
 ;
 public
 :
