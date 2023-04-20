@@ -1170,7 +1170,6 @@ ObjectCreationArgs
 struct
 DocumentChannelCreationArgs
 {
-nullable
 nsDocShellLoadState
 loadState
 ;
@@ -1185,7 +1184,6 @@ cacheKey
 ;
 nullable
 nsDOMNavigationTiming
-?
 timing
 ;
 IPCClientInfo
@@ -1268,7 +1266,6 @@ loadStateLoadType
 ;
 nullable
 nsDOMNavigationTiming
-?
 timing
 ;
 nsString

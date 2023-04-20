@@ -41576,9 +41576,12 @@ false
 ;
 Maybe
 <
+NotNull
+<
 RefPtr
 <
 nsDocShellLoadState
+>
 >
 >
 loadState
@@ -41625,9 +41628,12 @@ bool
 const
 Maybe
 <
+NotNull
+<
 RefPtr
 <
 nsDocShellLoadState
+>
 >
 >
 &
