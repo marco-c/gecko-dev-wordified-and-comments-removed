@@ -70,6 +70,9 @@ Right
 struct
 Node
 {
+T
+item
+;
 Node
 *
 left
@@ -81,9 +84,6 @@ right
 Tag
 tag
 ;
-T
-item
-;
 explicit
 Node
 (
@@ -93,6 +93,10 @@ T
 item
 )
 :
+item
+(
+item
+)
 left
 (
 nullptr
@@ -107,10 +111,6 @@ Tag
 :
 :
 None
-)
-item
-(
-item
 )
 {
 }
