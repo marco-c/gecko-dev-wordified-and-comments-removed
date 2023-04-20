@@ -27,7 +27,7 @@ elementSize
 {
 if
 (
-largeArrayBufferEnabled
+largeArrayBufferSupported
 (
 )
 )

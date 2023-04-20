@@ -9,7 +9,7 @@ gb
 ;
 if
 (
-largeArrayBufferEnabled
+largeArrayBufferSupported
 (
 )
 )
