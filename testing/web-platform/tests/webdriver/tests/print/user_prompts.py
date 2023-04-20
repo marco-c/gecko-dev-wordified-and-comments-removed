@@ -1,7 +1,3 @@
-from
-base64
-import
-decodebytes
 import
 pytest
 from
@@ -15,11 +11,17 @@ assert_dialog_handled
 assert_error
 assert_success
 from
+tests
 .
-printcmd
+support
+.
+pdf
+import
+assert_pdf
+from
+.
 import
 do_print
-assert_pdf
 pytest
 .
 fixture
@@ -78,17 +80,6 @@ assert_success
 response
 )
         
-pdf
-=
-decodebytes
-(
-value
-.
-encode
-(
-)
-)
-        
 assert_dialog_handled
 (
 session
@@ -102,7 +93,7 @@ retval
         
 assert_pdf
 (
-pdf
+value
 )
     
 return
