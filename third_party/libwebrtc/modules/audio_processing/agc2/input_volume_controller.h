@@ -505,6 +505,16 @@ true
 ;
 }
 int
+clipped_level_min
+(
+)
+const
+{
+return
+clipped_level_min_
+;
+}
+int
 min_mic_level
 (
 )
