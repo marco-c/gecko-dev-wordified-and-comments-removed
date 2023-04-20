@@ -15447,12 +15447,16 @@ packets
 ;
 info
 .
-total_packet_send_delay_ms
+total_packet_send_delay
 +
 =
 stream_stats
 .
-total_packet_send_delay_ms
+rtp_stats
+.
+transmitted
+.
+total_packet_delay
 ;
 info
 .
@@ -15850,7 +15854,7 @@ packets_sent
 ;
 info
 .
-total_packet_send_delay_ms
+total_packet_send_delay
 +
 =
 infos
@@ -15858,7 +15862,7 @@ infos
 i
 ]
 .
-total_packet_send_delay_ms
+total_packet_send_delay
 ;
 info
 .

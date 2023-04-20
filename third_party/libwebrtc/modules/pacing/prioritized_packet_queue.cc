@@ -953,6 +953,16 @@ queue_time_sum_
 =
 time_in_non_paused_state
 ;
+packet
+.
+packet
+-
+>
+set_time_in_send_queue
+(
+time_in_non_paused_state
+)
+;
 RTC_DCHECK
 (
 size_packets_

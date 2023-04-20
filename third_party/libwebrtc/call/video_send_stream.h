@@ -322,11 +322,6 @@ max_delay_ms
 =
 0
 ;
-uint64_t
-total_packet_send_delay_ms
-=
-0
-;
 StreamDataCounters
 rtp_stats
 ;

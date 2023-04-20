@@ -666,13 +666,6 @@ RTC_GUARDED_BY
 lock_
 )
 ;
-uint64_t
-total_packet_send_delay_ms_
-RTC_GUARDED_BY
-(
-lock_
-)
-;
 StreamDataCounters
 rtp_stats_
 RTC_GUARDED_BY

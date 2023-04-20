@@ -577,10 +577,6 @@ sum_delays_ms_
 (
 0
 )
-total_packet_send_delay_ms_
-(
-0
-)
 send_rates_
 (
 kNumMediaTypes
@@ -2541,11 +2537,6 @@ max_delay_ms
 =
 0
 ;
-uint64_t
-total_packet_send_delay_ms
-=
-0
-;
 {
 MutexLock
 lock
@@ -2855,15 +2846,6 @@ sum_delays_ms_
 =
 new_send_delay
 ;
-total_packet_send_delay_ms_
-+
-=
-new_send_delay
-;
-total_packet_send_delay_ms
-=
-total_packet_send_delay_ms_
-;
 size_t
 num_delays
 =
@@ -2978,7 +2960,6 @@ SendSideDelayUpdated
 (
 avg_delay_ms
 max_delay_ms
-total_packet_send_delay_ms
 ssrc
 )
 ;
