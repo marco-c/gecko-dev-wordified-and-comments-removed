@@ -44,10 +44,10 @@ class
 nsIRequestContext
 ;
 class
-nsISSLSocketControl
+nsISVCBRecord
 ;
 class
-nsISVCBRecord
+nsITLSSocketControl
 ;
 class
 nsITransport
@@ -439,7 +439,7 @@ virtual
 nsresult
 GetTransactionTLSSocketControl
 (
-nsISSLSocketControl
+nsITLSSocketControl
 *
 *
 )

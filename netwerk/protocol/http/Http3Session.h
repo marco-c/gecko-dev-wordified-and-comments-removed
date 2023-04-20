@@ -456,7 +456,7 @@ nodiscard
 nsresult
 GetTransactionTLSSocketControl
 (
-nsISSLSocketControl
+nsITLSSocketControl
 *
 *
 )

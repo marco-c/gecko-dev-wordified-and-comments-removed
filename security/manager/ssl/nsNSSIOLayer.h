@@ -41,13 +41,6 @@ h
 #
 include
 "
-nsTHashMap
-.
-h
-"
-#
-include
-"
 nsIProxyInfo
 .
 h
@@ -55,7 +48,7 @@ h
 #
 include
 "
-nsISSLSocketControl
+nsITLSSocketControl
 .
 h
 "
@@ -70,6 +63,13 @@ h
 include
 "
 nsNSSCertificate
+.
+h
+"
+#
+include
+"
+nsTHashMap
 .
 h
 "
@@ -418,7 +418,7 @@ PRFileDesc
 *
 *
 fd
-nsISSLSocketControl
+nsITLSSocketControl
 *
 *
 tlsSocketControl
@@ -451,7 +451,7 @@ originAttributes
 PRFileDesc
 *
 fd
-nsISSLSocketControl
+nsITLSSocketControl
 *
 *
 tlsSocketControl

@@ -296,7 +296,7 @@ h
 #
 include
 "
-nsISSLSocketControl
+nsITLSSocketControl
 .
 h
 "
@@ -3535,7 +3535,7 @@ true
 ;
 nsCOMPtr
 <
-nsISSLSocketControl
+nsITLSSocketControl
 >
 tlsSocketControl
 ;
@@ -5826,7 +5826,7 @@ mConnection
 ;
 nsCOMPtr
 <
-nsISSLSocketControl
+nsITLSSocketControl
 >
 socketControl
 ;
@@ -6420,7 +6420,7 @@ static
 void
 MaybeRemoveSSLToken
 (
-nsISSLSocketControl
+nsITLSSocketControl
 *
 aSocketControl
 )
@@ -6807,7 +6807,7 @@ mConnected
 {
 nsCOMPtr
 <
-nsISSLSocketControl
+nsITLSSocketControl
 >
 tlsSocketControl
 ;
@@ -14088,7 +14088,7 @@ true
 ;
 nsCOMPtr
 <
-nsISSLSocketControl
+nsITLSSocketControl
 >
 tlsSocketControl
 ;
@@ -14758,7 +14758,7 @@ v3_0
 ;
 nsCOMPtr
 <
-nsISSLSocketControl
+nsITLSSocketControl
 >
 socketControl
 ;

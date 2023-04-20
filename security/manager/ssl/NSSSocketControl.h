@@ -169,7 +169,7 @@ void
 override
 ;
 using
-nsISSLSocketControl
+nsITLSSocketControl
 :
 :
 GetKEAUsed
