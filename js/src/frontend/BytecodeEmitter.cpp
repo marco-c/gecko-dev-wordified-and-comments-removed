@@ -892,6 +892,13 @@ sc
 (
 sc
 )
+cx
+(
+sc
+-
+>
+cx_
+)
 fc
 (
 fc
@@ -53812,8 +53819,10 @@ compilationState
 .
 sharedData
 .
-add
+addAndShare
 (
+cx
+fc
 scriptIndex
 sharedData
 )

@@ -4311,8 +4311,14 @@ nodiscard
 ]
 ]
 bool
-add
+addAndShare
 (
+JSContext
+*
+cx
+FrontendContext
+*
+fc
 ScriptIndex
 index
 js

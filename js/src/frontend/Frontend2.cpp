@@ -2600,8 +2600,10 @@ compilationState
 .
 sharedData
 .
-add
+addAndShare
 (
+cx
+fc
 scriptIndex
 sharedData
 )
