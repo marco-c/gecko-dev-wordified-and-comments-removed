@@ -113,7 +113,6 @@ h
 define
 QUIET_FGETS
 quiet_fgets
-static
 char
 *
 quiet_fgets
