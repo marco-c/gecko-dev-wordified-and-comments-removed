@@ -110,11 +110,6 @@ tab
 -
 throbber
 "
-layer
-=
-"
-true
-"
 /
 >
 <
