@@ -1324,6 +1324,26 @@ mkdtemp
 (
 )
     
+if
+kwargs
+.
+get
+(
+"
+output
+"
+)
+:
+        
+kwargs
+.
+pop
+(
+"
+output
+"
+)
+    
 s
 =
 SideBySide
