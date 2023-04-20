@@ -390,6 +390,12 @@ ClearValidating
 (
 )
 ;
+void
+SetCancelable
+(
+bool
+)
+;
 already_AddRefed
 <
 nsIEventTarget
@@ -737,6 +743,11 @@ mLockCount
 ;
 uint32_t
 mAnimationConsumers
+;
+bool
+mCancelable
+:
+1
 ;
 bool
 mCanceled
