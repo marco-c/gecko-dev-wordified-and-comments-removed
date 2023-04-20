@@ -33,6 +33,10 @@ echo
 ERROR_HELP
 "
 }
+ERROR_HELP
+=
+"
+"
 #
 Print
 an
@@ -201,10 +205,6 @@ HANDLE_NOOP_COMMIT
 "
 "
 fi
-ERROR_HELP
-=
-"
-"
 RESUME
 =
 "

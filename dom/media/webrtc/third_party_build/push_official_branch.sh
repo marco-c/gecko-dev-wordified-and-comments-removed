@@ -110,6 +110,10 @@ echo
 ERROR_HELP
 "
 }
+ERROR_HELP
+=
+"
+"
 #
 Print
 an
@@ -147,10 +151,6 @@ third_party_build
 use_config_env
 .
 sh
-ERROR_HELP
-=
-"
-"
 #
 After
 this

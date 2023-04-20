@@ -33,6 +33,10 @@ echo
 ERROR_HELP
 "
 }
+ERROR_HELP
+=
+"
+"
 #
 Print
 an
@@ -93,10 +97,6 @@ echo
 MOZ_PRIOR_LIBWEBRTC_BRANCH
 :
 MOZ_PRIOR_LIBWEBRTC_BRANCH
-"
-ERROR_HELP
-=
-"
 "
 #
 After

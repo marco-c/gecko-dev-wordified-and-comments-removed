@@ -324,6 +324,10 @@ echo
 ERROR_HELP
 "
 }
+ERROR_HELP
+=
+"
+"
 #
 Print
 an
@@ -521,10 +525,6 @@ commit_message
 txt
 bash
 0
-"
-ERROR_HELP
-=
-"
 "
 COMMIT_LIST_FILE
 =

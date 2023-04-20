@@ -268,7 +268,15 @@ complete
 successfully
 !
 "
+echo
+"
+ERROR_HELP
+"
 }
+ERROR_HELP
+=
+"
+"
 #
 Print
 an

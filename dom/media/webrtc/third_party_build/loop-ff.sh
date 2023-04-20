@@ -90,6 +90,10 @@ echo_log
 ERROR_HELP
 "
 }
+ERROR_HELP
+=
+"
+"
 #
 Print
 an
@@ -297,10 +301,6 @@ MOZ_CHANGED
 GIT_CHANGED
 =
 0
-ERROR_HELP
-=
-"
-"
 HANDLE_NOOP_COMMIT
 =
 "
