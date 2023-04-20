@@ -17579,7 +17579,13 @@ DestroyFrames
 }
 childList
 =
+std
+:
+:
+move
+(
 newList
+)
 ;
 }
 if

@@ -26731,7 +26731,13 @@ mismatch
 *
 aPropValue
 =
+std
+:
+:
+move
+(
 aList
+)
 ;
 }
 else
