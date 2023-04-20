@@ -2802,6 +2802,10 @@ nsImageListener
 this
 )
 ;
+GetImageMap
+(
+)
+;
 if
 (
 !
