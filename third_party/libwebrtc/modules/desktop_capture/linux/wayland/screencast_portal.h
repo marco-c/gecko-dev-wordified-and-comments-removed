@@ -285,6 +285,12 @@ Start
 )
 override
 ;
+void
+Stop
+(
+)
+override
+;
 xdg_portal
 :
 :
@@ -313,11 +319,6 @@ GDBusProxy
 proxy
 )
 override
-;
-void
-Cleanup
-(
-)
 ;
 void
 SetSessionDetails

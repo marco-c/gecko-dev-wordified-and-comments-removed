@@ -146,6 +146,13 @@ Start
 }
 virtual
 void
+Stop
+(
+)
+{
+}
+virtual
+void
 OnPortalDone
 (
 xdg_portal

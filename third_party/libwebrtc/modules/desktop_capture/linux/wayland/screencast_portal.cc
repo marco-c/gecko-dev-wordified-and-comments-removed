@@ -212,7 +212,7 @@ ScreenCastPortal
 (
 )
 {
-Cleanup
+Stop
 (
 )
 ;
@@ -221,7 +221,7 @@ void
 ScreenCastPortal
 :
 :
-Cleanup
+Stop
 (
 )
 {
@@ -256,6 +256,11 @@ proxy_
 =
 nullptr
 ;
+restore_token_
+=
+"
+"
+;
 if
 (
 pw_fd_
@@ -269,6 +274,11 @@ close
 (
 pw_fd_
 )
+;
+pw_fd_
+=
+-
+1
 ;
 }
 }
@@ -483,7 +493,7 @@ RequestResponse
 kSuccess
 )
 {
-Cleanup
+Stop
 (
 )
 ;
