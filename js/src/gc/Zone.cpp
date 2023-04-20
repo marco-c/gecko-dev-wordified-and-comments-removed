@@ -247,8 +247,6 @@ rt
 gc
 .
 marker
-(
-)
 .
 tracer
 (
@@ -2918,8 +2916,6 @@ runtimeFromMainThread
 gc
 .
 marker
-(
-)
 .
 severWeakDelegate
 (
@@ -2982,8 +2978,6 @@ runtimeFromMainThread
 gc
 .
 marker
-(
-)
 .
 restoreWeakDelegate
 (

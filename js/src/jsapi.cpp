@@ -7157,7 +7157,6 @@ gc
 .
 setParameter
 (
-cx
 key
 value
 )
@@ -7187,7 +7186,6 @@ gc
 .
 resetParameter
 (
-cx
 key
 )
 ;

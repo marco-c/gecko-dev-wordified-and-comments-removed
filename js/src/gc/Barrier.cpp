@@ -645,11 +645,6 @@ zoneFromAnyThread
 (
 )
 )
-|
-|
-CurrentThreadIsPerformingGC
-(
-)
 )
 ;
 Zone

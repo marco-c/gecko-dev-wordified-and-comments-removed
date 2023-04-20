@@ -394,14 +394,12 @@ Mark
 6
         
 [
-            
 getPhaseKind
 (
 "
 MARK_ROOTS
 "
 )
-            
 addPhaseKind
 (
 "
@@ -413,14 +411,6 @@ Delayed
 "
 8
 )
-            
-getPhaseKind
-(
-"
-JOIN_PARALLEL_TASKS
-"
-)
-        
 ]
     
 )
@@ -533,13 +523,6 @@ Mark
 Gray
 "
 15
-)
-                    
-getPhaseKind
-(
-"
-JOIN_PARALLEL_TASKS
-"
 )
                 
 ]
