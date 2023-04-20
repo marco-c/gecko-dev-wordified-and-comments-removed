@@ -1276,7 +1276,9 @@ this
 .
 #
 ownerGlobal
-[
+{
+entrypoint
+:
 lazy
 .
 MigrationUtils
@@ -1284,7 +1286,7 @@ MigrationUtils
 MIGRATION_ENTRYPOINTS
 .
 PASSWORDS
-]
+}
 )
 ;
 }

@@ -1907,7 +1907,9 @@ getRootBrowser
 )
 .
 ownerGlobal
-[
+{
+entrypoint
+:
 lazy
 .
 MigrationUtils
@@ -1915,8 +1917,10 @@ MigrationUtils
 MIGRATION_ENTRYPOINTS
 .
 PASSWORDS
+migratorKey
+:
 browserId
-]
+}
 )
 ;
 }
