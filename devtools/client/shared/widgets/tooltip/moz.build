@@ -76,6 +76,11 @@ SwatchFilterTooltip
 js
 "
 "
+SwatchLinearEasingFunctionTooltip
+.
+js
+"
+"
 TooltipToggle
 .
 js

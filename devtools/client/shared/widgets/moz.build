@@ -29,6 +29,11 @@ FilterWidget
 js
 "
 "
+LinearEasingFunctionWidget
+.
+js
+"
+"
 ShapesInContextEditor
 .
 js
