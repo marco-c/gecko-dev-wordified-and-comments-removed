@@ -1710,7 +1710,7 @@ get
 the
 texts
 from
-SourceMapService
+SourceMapLoader
 .
 /
 /

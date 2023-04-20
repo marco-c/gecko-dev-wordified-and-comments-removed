@@ -351,7 +351,7 @@ this
 .
 toolbox
 .
-sourceMapService
+sourceMapLoader
 evaluationsParser
 :
 this

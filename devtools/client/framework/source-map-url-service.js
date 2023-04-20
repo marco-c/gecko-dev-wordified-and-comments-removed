@@ -26,7 +26,7 @@ SourceMapURLService
 constructor
 (
 commands
-sourceMapService
+sourceMapLoader
 )
 {
 this
@@ -37,9 +37,9 @@ commands
 ;
 this
 .
-_sourceMapService
+_sourceMapLoader
 =
-sourceMapService
+sourceMapLoader
 ;
 this
 .
@@ -155,7 +155,7 @@ _syncPrevValue
 ;
 this
 .
-_sourceMapService
+_sourceMapLoader
 .
 on
 (
@@ -734,7 +734,7 @@ _clearAllState
 {
 this
 .
-_sourceMapService
+_sourceMapLoader
 .
 clearSourceMaps
 (
@@ -1117,7 +1117,7 @@ loaded
 =
 this
 .
-_sourceMapService
+_sourceMapLoader
 .
 getOriginalURLs
 (
@@ -1174,7 +1174,7 @@ position
 await
 this
 .
-_sourceMapService
+_sourceMapLoader
 .
 getOriginalLocation
 (

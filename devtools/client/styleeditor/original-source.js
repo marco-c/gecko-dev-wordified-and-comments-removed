@@ -8,7 +8,7 @@ OriginalSource
 (
 url
 sourceId
-sourceMapService
+sourceMapLoader
 )
 {
 this
@@ -31,9 +31,9 @@ sourceId
 ;
 this
 .
-_sourceMapService
+_sourceMapLoader
 =
-sourceMapService
+sourceMapLoader
 ;
 }
 OriginalSource
@@ -92,7 +92,7 @@ _sourcePromise
 =
 this
 .
-_sourceMapService
+_sourceMapLoader
 .
 getOriginalSourceText
 (
@@ -159,7 +159,7 @@ nodeHref
 return
 this
 .
-_sourceMapService
+_sourceMapLoader
 .
 getOriginalLocation
 (
