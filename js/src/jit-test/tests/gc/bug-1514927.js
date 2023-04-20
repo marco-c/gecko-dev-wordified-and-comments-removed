@@ -25,11 +25,8 @@ x
 =
 0
 ;
-gcparam
+setMarkStackLimit
 (
-"
-markStackLimit
-"
 4
 )
 ;

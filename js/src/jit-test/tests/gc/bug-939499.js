@@ -11,11 +11,8 @@ verifyprebarriers
 (
 )
 ;
-gcparam
+setMarkStackLimit
 (
-'
-markStackLimit
-'
 5
 )
 ;

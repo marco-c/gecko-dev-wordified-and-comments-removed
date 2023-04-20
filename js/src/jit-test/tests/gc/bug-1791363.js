@@ -52,11 +52,8 @@ newGlobal
 )
 )
 ;
-gcparam
+setMarkStackLimit
 (
-"
-markStackLimit
-"
 1
 )
 ;
