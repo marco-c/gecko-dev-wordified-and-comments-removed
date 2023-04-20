@@ -576,6 +576,12 @@ removeActorPool
 this
 )
 ;
+this
+.
+conn
+=
+null
+;
 }
 }
 exports
