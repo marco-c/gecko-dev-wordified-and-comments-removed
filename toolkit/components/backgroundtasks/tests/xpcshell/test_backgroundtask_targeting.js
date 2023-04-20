@@ -10,7 +10,7 @@ EXIT_CODE
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,11 +23,11 @@ modules
 /
 BackgroundTasksManager
 .
-jsm
+sys
+.
+mjs
 "
 )
-.
-BackgroundTasksManager
 ;
 add_task
 (

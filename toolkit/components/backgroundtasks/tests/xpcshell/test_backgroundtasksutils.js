@@ -5,7 +5,7 @@ BackgroundTasksUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ modules
 /
 BackgroundTasksUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

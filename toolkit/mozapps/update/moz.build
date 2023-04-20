@@ -136,7 +136,9 @@ backgroundtasks
 "
 BackgroundTask_backgroundupdate
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS

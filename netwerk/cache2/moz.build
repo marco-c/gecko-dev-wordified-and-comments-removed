@@ -260,7 +260,9 @@ backgroundtasks
 "
 BackgroundTask_purgeHTTPCache
 .
-jsm
+sys
+.
+mjs
 "
 ]
 DEFINES

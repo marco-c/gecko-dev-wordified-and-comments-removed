@@ -38,7 +38,7 @@ jsm
 ;
 const
 {
-BackgroundTasksManager
+EXIT_CODE
 }
 =
 ChromeUtils
@@ -3212,8 +3212,6 @@ EXIT_CODE
 {
 .
 .
-.
-BackgroundTasksManager
 .
 EXIT_CODE
 DEFAULT_PROFILE_DOES_NOT_EXIST
