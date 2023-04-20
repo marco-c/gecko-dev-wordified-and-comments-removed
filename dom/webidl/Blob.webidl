@@ -145,7 +145,7 @@ BufferSource
 or
 Blob
 or
-USVString
+UTF8String
 )
 BlobPart
 ;
