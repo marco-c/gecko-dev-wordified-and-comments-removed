@@ -3349,6 +3349,15 @@ link
 ;
 }
 }
+uint32_t
+nsDisplayListBuilder
+:
+:
+sPaintSequenceNumber
+(
+1
+)
+;
 nsDisplayListBuilder
 :
 :
