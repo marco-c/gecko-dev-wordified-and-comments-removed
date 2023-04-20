@@ -121,7 +121,7 @@ mozilla
 dom
 :
 :
-Event
+CallerType
 ;
 using
 mozilla
@@ -130,7 +130,7 @@ mozilla
 dom
 :
 :
-CallerType
+Event
 ;
 nsMenuItemX
 :
