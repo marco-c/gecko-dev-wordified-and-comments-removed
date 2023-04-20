@@ -101,15 +101,12 @@ final
 public
 nsIProtocolHandler
 public
-nsIProtocolHandlerWithDynamicFlags
-public
 nsSupportsWeakReference
 {
 public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIPROTOCOLHANDLER
-NS_DECL_NSIPROTOCOLHANDLERWITHDYNAMICFLAGS
 BlobURLProtocolHandler
 (
 )
