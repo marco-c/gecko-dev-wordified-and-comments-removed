@@ -8889,7 +8889,7 @@ search_shortcut_button
 "
 :
 "
-unknown
+input_field
 "
 ;
 }
