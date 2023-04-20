@@ -246,15 +246,6 @@ time_controller_
 GetClock
 (
 )
-time_controller_
--
->
-CreateProcessThread
-(
-"
-Pacer
-"
-)
 )
 )
 ;

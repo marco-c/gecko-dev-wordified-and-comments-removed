@@ -723,14 +723,6 @@ nullptr
 bitrate_config_
 time_controller_
 .
-CreateProcessThread
-(
-"
-PacerThread
-"
-)
-time_controller_
-.
 GetTaskQueueFactory
 (
 )

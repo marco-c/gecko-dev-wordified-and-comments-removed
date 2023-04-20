@@ -65,14 +65,6 @@ config
 Clock
 *
 clock
-std
-:
-:
-unique_ptr
-<
-ProcessThread
->
-process_thread
 )
 =
 0
