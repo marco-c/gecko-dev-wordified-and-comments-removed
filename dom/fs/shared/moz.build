@@ -33,6 +33,11 @@ fs
 =
 [
 "
+ManagedMozPromiseRequestHolder
+.
+h
+"
+"
 TargetPtrHolder
 .
 h
