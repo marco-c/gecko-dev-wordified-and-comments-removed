@@ -67,16 +67,6 @@ aFrame
 )
 override
 ;
-ScrollbarSizes
-GetScrollbarSizes
-(
-nsPresContext
-*
-StyleScrollbarWidth
-Overlay
-)
-override
-;
 template
 <
 typename

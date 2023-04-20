@@ -209,8 +209,7 @@ SystemUsesDarkTheme
 PrefersReducedMotion
 PrimaryPointerCapabilities
 AllPointerCapabilities
-SystemVerticalScrollbarWidth
-SystemHorizontalScrollbarHeight
+SystemScrollbarSize
 TouchDeviceSupportPresent
 TitlebarRadius
 GtkMenuRadius

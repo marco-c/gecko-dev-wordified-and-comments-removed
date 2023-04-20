@@ -985,12 +985,7 @@ allPointerCapabilities
 "
 ui
 .
-systemVerticalScrollbarWidth
-"
-"
-ui
-.
-systemHorizontalScrollbarHeight
+systemScrollbarSize
 "
 "
 ui
