@@ -43,7 +43,6 @@ subscriptions
 =
 [
 ]
-;
     
 async
 def
@@ -55,7 +54,7 @@ contexts
 None
 )
 :
-       
+        
 await
 bidi_session
 .
@@ -70,7 +69,7 @@ contexts
 =
 contexts
 )
-       
+        
 subscriptions
 .
 append
@@ -111,7 +110,7 @@ events
 contexts
 =
 contexts
-        
+                
 )
         
 except

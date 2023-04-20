@@ -3,12 +3,6 @@ asyncio
 import
 pytest
 from
-webdriver
-.
-error
-import
-TimeoutException
-from
 tests
 .
 support
@@ -16,6 +10,12 @@ support
 sync
 import
 AsyncPoll
+from
+webdriver
+.
+error
+import
+TimeoutException
 pytest
 .
 mark
