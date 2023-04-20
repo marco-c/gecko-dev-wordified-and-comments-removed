@@ -1134,7 +1134,7 @@ action
 _target
 .
 browser
-forceForeground
+fromChrome
 :
 false
 globalHistoryOptions

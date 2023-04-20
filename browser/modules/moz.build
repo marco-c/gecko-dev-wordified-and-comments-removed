@@ -1002,13 +1002,6 @@ TransientPrefs
 jsm
 "
 "
-URILoadingHelper
-.
-sys
-.
-mjs
-"
-"
 webrtcUI
 .
 jsm

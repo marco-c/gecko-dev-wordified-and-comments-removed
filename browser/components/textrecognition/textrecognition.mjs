@@ -916,7 +916,7 @@ href
 tab
 "
 {
-forceForeground
+fromChrome
 :
 true
 triggeringPrincipal
