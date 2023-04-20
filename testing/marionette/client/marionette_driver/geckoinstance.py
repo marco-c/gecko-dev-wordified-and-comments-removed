@@ -921,6 +921,18 @@ telemetry
 dummy
 /
 "
+        
+"
+widget
+.
+windows
+.
+window_occlusion_tracking
+.
+enabled
+"
+:
+False
     
 }
     
