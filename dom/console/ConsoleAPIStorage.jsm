@@ -444,9 +444,9 @@ index
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Attempted
@@ -573,9 +573,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )

@@ -1206,15 +1206,6 @@ DOMRequestHelper
 "
 dom
 /
-console
-/
-ConsoleAPIStorage
-.
-*
-"
-"
-dom
-/
 push
 /
 PushComponents
