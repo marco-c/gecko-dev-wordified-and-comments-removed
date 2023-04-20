@@ -344,6 +344,7 @@ testloader
 ManifestLoader
 (
 test_paths
+                                               
 force_manifest_update
 =
 kwargs
@@ -368,6 +369,11 @@ load
 )
     
 manifest_filters
+=
+[
+]
+    
+test_filters
 =
 [
 ]
@@ -426,6 +432,32 @@ update_include_for_groups
 (
 test_groups
 include
+)
+    
+if
+kwargs
+[
+"
+tags
+"
+]
+:
+        
+test_filters
+.
+append
+(
+testloader
+.
+TagFilter
+(
+kwargs
+[
+"
+tags
+"
+]
+)
 )
     
 if
@@ -544,6 +576,10 @@ run_info
 manifest_filters
 =
 manifest_filters
+                                        
+test_filters
+=
+test_filters
                                         
 chunk_type
 =

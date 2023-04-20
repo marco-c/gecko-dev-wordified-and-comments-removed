@@ -938,17 +938,11 @@ def
 __call__
 (
 self
-test_iter
+test
 )
 :
         
-for
-test
-in
-test_iter
-:
-            
-if
+return
 test
 .
 tags
@@ -956,10 +950,6 @@ tags
 self
 .
 tags
-:
-                
-yield
-test
 class
 ManifestLoader
 :
@@ -1241,6 +1231,10 @@ manifest_filters
 =
 None
                  
+test_filters
+=
+None
+                 
 chunk_type
 =
 "
@@ -1300,6 +1294,20 @@ manifest_filters
 manifest_filters
 if
 manifest_filters
+is
+not
+None
+else
+[
+]
+        
+self
+.
+test_filters
+=
+test_filters
+if
+test_filters
 is
 not
 None
@@ -1878,9 +1886,8 @@ in
 tests
 :
                 
-yield
-test_path
-test_type
+wpt_test
+=
 self
 .
 get_test
@@ -1890,6 +1897,27 @@ test
 inherit_metadata
 test_metadata
 )
+                
+if
+all
+(
+f
+(
+wpt_test
+)
+for
+f
+in
+self
+.
+test_filters
+)
+:
+                    
+yield
+test_path
+test_type
+wpt_test
     
 def
 _load_tests
