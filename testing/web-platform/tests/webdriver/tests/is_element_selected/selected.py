@@ -579,10 +579,10 @@ element
 =
 stale_element
 (
-check_doc
 "
+input
 #
-checked
+checkbox
 "
 as_frame
 =
