@@ -5758,16 +5758,6 @@ name
 target_sysroot
 .
 bootstrapped
-when
-=
-kwargs
-.
-get
-(
-"
-when
-"
-)
 )
 def
 no_system_lib_in_sysroot

@@ -70,9 +70,6 @@ with
 pkgconfig
 )
 "
-when
-=
-use_pkg_config
 )
 use_system_ffi
 =
@@ -87,9 +84,6 @@ system
 -
 ffi
 "
-when
-=
-use_pkg_config
 )
 (
 lambda

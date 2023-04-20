@@ -16,9 +16,6 @@ Use
 system
 NSS
 "
-when
-=
-use_pkg_config
 )
 imply_option
 (
