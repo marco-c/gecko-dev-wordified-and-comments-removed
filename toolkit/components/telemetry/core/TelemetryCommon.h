@@ -136,6 +136,14 @@ Socket
 <
 GeckoProcessType_Socket
 )
+Utility
+=
+(
+1
+<
+<
+GeckoProcessType_Utility
+)
 AllChildren
 =
 0xFFFF
