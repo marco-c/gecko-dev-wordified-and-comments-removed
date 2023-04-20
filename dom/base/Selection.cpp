@@ -15104,6 +15104,14 @@ frameSelection
 =
 mFrameSelection
 ;
+frameSelection
+-
+>
+SetIsDoubleClickSelection
+(
+false
+)
+;
 if
 (
 frameSelection

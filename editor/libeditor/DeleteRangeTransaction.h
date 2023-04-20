@@ -166,6 +166,15 @@ override
 protected
 :
 nsresult
+MaybeExtendDeletingRangeWithSurroundingWhitespace
+(
+nsRange
+&
+aRange
+)
+const
+;
+nsresult
 CreateTxnsToDeleteBetween
 (
 const

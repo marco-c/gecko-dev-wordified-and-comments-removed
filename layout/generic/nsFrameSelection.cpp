@@ -7070,6 +7070,15 @@ nsISelectionListener
 MOUSEUP_REASON
 )
 ;
+AutoRestore
+<
+bool
+>
+restoreIsDoubleClickSelectionFlag
+(
+mIsDoubleClickSelection
+)
+;
 NotifySelectionListeners
 (
 SelectionType
