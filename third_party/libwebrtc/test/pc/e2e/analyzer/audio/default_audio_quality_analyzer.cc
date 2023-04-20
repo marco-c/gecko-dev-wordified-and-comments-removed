@@ -115,7 +115,7 @@ report
 >
 GetStatsOfType
 <
-RTCMediaStreamTrackStats
+RTCInboundRTPStreamStats
 >
 (
 )
@@ -156,14 +156,6 @@ RTCMediaStreamTrackKind
 :
 kAudio
 )
-|
-|
-!
-*
-stat
--
->
-remote_source
 )
 {
 continue

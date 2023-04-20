@@ -1681,12 +1681,6 @@ relative_packet_arrival_delay
 ;
 RTCNonStandardStatsMember
 <
-double
->
-jitter_buffer_target_delay
-;
-RTCNonStandardStatsMember
-<
 uint32_t
 >
 interruption_count
@@ -2179,6 +2173,12 @@ RTCStatsMember
 double
 >
 jitter_buffer_delay
+;
+RTCStatsMember
+<
+double
+>
+jitter_buffer_target_delay
 ;
 RTCStatsMember
 <

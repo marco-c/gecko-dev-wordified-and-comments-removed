@@ -150,6 +150,9 @@ uint64_t
 jitterBufferDelayMs
 ;
 uint64_t
+jitterBufferTargetDelayMs
+;
+uint64_t
 jitterBufferEmittedCount
 ;
 uint64_t
@@ -166,9 +169,6 @@ fecPacketsDiscarded
 ;
 uint64_t
 packetsDiscarded
-;
-uint64_t
-jitterBufferTargetDelayMs
 ;
 uint16_t
 currentExpandRate
