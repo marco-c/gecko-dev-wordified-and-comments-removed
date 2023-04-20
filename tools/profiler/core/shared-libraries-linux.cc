@@ -528,6 +528,9 @@ getId
 (
 path
 )
+nsCString
+(
+)
 nameStr
 pathStr
 nameStr

@@ -656,6 +656,9 @@ modStart
 modEnd
 0
 breakpadId
+nsCString
+(
+)
 PromiseFlatString
 (
 moduleNameStr

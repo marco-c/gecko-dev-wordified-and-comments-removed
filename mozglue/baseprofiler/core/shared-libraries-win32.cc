@@ -1057,6 +1057,12 @@ modStart
 modEnd
 0
 breakpadId
+std
+:
+:
+string
+{
+}
 moduleNameStr
 modulePathStr
 pdbNameStr

@@ -914,6 +914,9 @@ start
 size
 0
 uuid
+nsCString
+(
+)
 nameStr
 pathStr
 nameStr
