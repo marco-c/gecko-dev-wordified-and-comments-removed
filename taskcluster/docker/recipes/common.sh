@@ -68,9 +68,7 @@ cat
 manifest
 .
 tt
-python2
-.
-7
+python3
 /
 setup
 /
