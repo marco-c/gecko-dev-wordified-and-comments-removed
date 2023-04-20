@@ -2127,9 +2127,6 @@ protected_by_flexfec
 =
 true
 ;
-webrtc
-:
-:
 FlexfecReceiveStream
 :
 :
@@ -2782,9 +2779,6 @@ field_trials
 )
 task_queue_factory_
 (
-webrtc
-:
-:
 CreateDefaultTaskQueueFactory
 (
 field_trials_
@@ -3644,9 +3638,6 @@ std
 string
 rtp_dump_path_
 ;
-webrtc
-:
-:
 RtcEventLogNull
 event_log_
 ;
