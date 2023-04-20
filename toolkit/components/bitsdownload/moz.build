@@ -88,6 +88,3 @@ Application
 Update
 "
 )
-REQUIRES_UNIFIED_BUILD
-=
-True
