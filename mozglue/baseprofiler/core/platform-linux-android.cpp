@@ -1908,14 +1908,13 @@ defined
 (
 HAVE_NATIVE_UNWIND
 )
-void
-Registers
-:
-:
-SyncPopulate
+#
+define
+REGISTERS_SYNC_POPULATE
 (
+regs
 )
-{
+\
 MOZ_CRASH
 (
 "
@@ -1926,7 +1925,6 @@ unsupported
 "
 )
 ;
-}
 #
 endif
 }
