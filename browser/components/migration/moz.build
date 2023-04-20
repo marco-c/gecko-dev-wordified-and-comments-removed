@@ -103,6 +103,13 @@ sys
 mjs
 "
 "
+MigratorBase
+.
+sys
+.
+mjs
+"
+"
 ProfileMigrator
 .
 sys
