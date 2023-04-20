@@ -168,15 +168,6 @@ GainController2
 )
 ;
 void
-Initialize
-(
-int
-sample_rate_hz
-int
-num_channels
-)
-;
-void
 SetFixedGainDb
 (
 float
