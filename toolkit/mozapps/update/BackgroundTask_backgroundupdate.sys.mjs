@@ -355,7 +355,9 @@ LOG_LEVELS
 in
 Console
 .
-jsm
+sys
+.
+mjs
 for
 details
 .
@@ -1528,7 +1530,9 @@ application
 in
 Troubleshoot
 .
-jsm
+sys
+.
+mjs
 .
 When
 adding
