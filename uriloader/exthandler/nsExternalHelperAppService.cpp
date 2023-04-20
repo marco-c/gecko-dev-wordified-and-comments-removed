@@ -2877,6 +2877,8 @@ Audio
 VIDEO_MP4
 "
 mp4
+m4a
+m4b
 "
 "
 MPEG
