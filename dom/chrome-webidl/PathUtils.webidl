@@ -289,6 +289,14 @@ an
 absolute
 path
 .
+There
+must
+be
+at
+least
+one
+component
+.
 *
 /
 [
