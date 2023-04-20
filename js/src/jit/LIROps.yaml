@@ -9220,6 +9220,9 @@ size_t
 type
 :
 MIRType
+wideningOp
+:
+MWideningOp
 -
 name
 :
@@ -9257,6 +9260,9 @@ size_t
 type
 :
 MIRType
+narrowingOp
+:
+MNarrowingOp
 -
 name
 :

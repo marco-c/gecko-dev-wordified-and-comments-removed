@@ -6416,8 +6416,8 @@ nodiscard
 bool
 emitStructGet
 (
-FieldExtension
-extension
+FieldWideningOp
+wideningOp
 )
 ;
 [
@@ -6488,8 +6488,8 @@ nodiscard
 bool
 emitArrayGet
 (
-FieldExtension
-extension
+FieldWideningOp
+wideningOp
 )
 ;
 [
@@ -6623,8 +6623,8 @@ emitGcGet
 (
 FieldType
 type
-FieldExtension
-extension
+FieldWideningOp
+wideningOp
 const
 T
 &

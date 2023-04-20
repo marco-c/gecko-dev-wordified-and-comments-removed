@@ -4119,7 +4119,7 @@ readStructGet
 unusedUint1
 &
 unusedUint2
-FieldExtension
+FieldWideningOp
 :
 :
 None
@@ -4153,7 +4153,7 @@ readStructGet
 unusedUint1
 &
 unusedUint2
-FieldExtension
+FieldWideningOp
 :
 :
 Signed
@@ -4187,7 +4187,7 @@ readStructGet
 unusedUint1
 &
 unusedUint2
-FieldExtension
+FieldWideningOp
 :
 :
 Unsigned
@@ -4398,7 +4398,7 @@ readArrayGet
 (
 &
 unusedUint1
-FieldExtension
+FieldWideningOp
 :
 :
 None
@@ -4431,7 +4431,7 @@ readArrayGet
 (
 &
 unusedUint1
-FieldExtension
+FieldWideningOp
 :
 :
 Signed
@@ -4464,7 +4464,7 @@ readArrayGet
 (
 &
 unusedUint1
-FieldExtension
+FieldWideningOp
 :
 :
 Unsigned
