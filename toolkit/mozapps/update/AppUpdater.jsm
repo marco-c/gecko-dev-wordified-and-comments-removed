@@ -1420,7 +1420,7 @@ Update
 check
 failed
 ;
-CHECKING_FAILED
+NO_UPDATES_FOUND
 "
 )
 ;
@@ -1433,7 +1433,7 @@ AppUpdater
 .
 STATUS
 .
-CHECKING_FAILED
+NO_UPDATES_FOUND
 )
 ;
 return
@@ -3435,9 +3435,6 @@ READY_FOR_RESTART
 INTERNAL_ERROR
 :
 13
-CHECKING_FAILED
-:
-14
 isTerminalStatus
 (
 status
