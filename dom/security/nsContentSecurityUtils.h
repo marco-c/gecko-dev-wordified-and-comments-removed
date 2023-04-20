@@ -152,6 +152,15 @@ aChannel
 )
 ;
 static
+bool
+CheckCSPFrameAncestorAndXFO
+(
+nsIChannel
+*
+aChannel
+)
+;
+static
 long
 ClassifyDownload
 (
