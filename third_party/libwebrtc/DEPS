@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-886b8ceda814a3c8f2b2d136cdabc01a8e58775e
+df6cc2e8bec0b4306ef9933a17b92576349dbd37
 '
 #
 Keep
@@ -165,7 +165,7 @@ chromium
 src
 /
 base
-8212e03630b5462a306f12311ccc0c1e51a312fa
+52e4647860d021bbf5fa31261d781b0a01fca5ce
 '
 '
 src
@@ -189,7 +189,7 @@ chromium
 src
 /
 build
-10ff7caa978e1e019c733a3ef83cd0e2df8b2687
+6c6b225c4a260306b043b48d6c9504a60dccd645
 '
 '
 src
@@ -309,7 +309,7 @@ chromium
 src
 /
 ios
-95dd35055494789682f8b10f17e0af6e73e59715
+e39805c97ec8131a1f9563648398467de5229e24
 '
 '
 condition
@@ -341,7 +341,7 @@ chromium
 src
 /
 testing
-c74cccc959d03bdfcd1de0e36a7fc4d1febbbd2a
+5d48c79a8ad528baad971439e17caf0fd9de5df5
 '
 '
 src
@@ -365,7 +365,7 @@ chromium
 src
 /
 third_party
-69e9a9eb1c31a90d3cbc7b7fb28371bc6ac664c0
+a75ebb06a2339eeb318d06a06b7cc087bd5d2f33
 '
 '
 src
@@ -406,7 +406,7 @@ version
 '
 git_revision
 :
-2f71761a90bdccdb5f4a99e8b231c96aba0967d9
+fd6cae41bd7d5d255dc2fb96004a8bf74ac9d972
 '
 }
 ]
@@ -464,7 +464,7 @@ version
 '
 git_revision
 :
-2f71761a90bdccdb5f4a99e8b231c96aba0967d9
+fd6cae41bd7d5d255dc2fb96004a8bf74ac9d972
 '
 }
 ]
@@ -518,7 +518,7 @@ version
 '
 git_revision
 :
-2f71761a90bdccdb5f4a99e8b231c96aba0967d9
+fd6cae41bd7d5d255dc2fb96004a8bf74ac9d972
 '
 }
 ]
@@ -2014,7 +2014,7 @@ external
 perfetto
 .
 git
-c05294a1704cc6992869ad438342328ca2b38b8d
+2e22f4e894ed9800027ff05dc0c7fe2217b033d6
 '
 '
 src
@@ -2506,7 +2506,7 @@ chromium
 src
 /
 tools
-0a963764bb7b4eec274af7ce1b5d1ea15d7a3bca
+6513b29940c042a36bf16e5c63392f56dbaf47a4
 '
 '
 src
@@ -2938,7 +2938,7 @@ version
 '
 :
 '
-j5iQQcfEJWgNhcd2zCVNcBHd4gFj3fzcuU6Q1EENWQ4C
+JPzPwtVT1B0wxFtrYWysxKnlZrx9hVhFuT00NvADQ64C
 '
 }
 ]
