@@ -847,6 +847,11 @@ div
 banner
 "
 false
+Ci
+.
+nsIClickRule
+.
+RUN_ALL
 null
 "
 button
@@ -935,6 +940,11 @@ div
 banner
 "
 false
+Ci
+.
+nsIClickRule
+.
+RUN_ALL
 null
 null
 "
@@ -1026,6 +1036,11 @@ div
 nonExistingBanner
 "
 false
+Ci
+.
+nsIClickRule
+.
+RUN_ALL
 null
 null
 "
@@ -1117,6 +1132,11 @@ div
 nonExistingBanner2
 "
 false
+Ci
+.
+nsIClickRule
+.
+RUN_ALL
 null
 "
 button

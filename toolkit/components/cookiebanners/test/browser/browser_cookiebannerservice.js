@@ -463,6 +463,7 @@ example
 .
 com
 "
+true
 )
 ;
 }
@@ -1501,6 +1502,11 @@ div
 presence
 "
 false
+Ci
+.
+nsIClickRule
+.
+RUN_TOP
 "
 div
 #
@@ -1720,6 +1726,11 @@ div
 presence
 "
 false
+Ci
+.
+nsIClickRule
+.
+RUN_TOP
 null
 null
 "
@@ -1968,6 +1979,7 @@ example
 .
 com
 "
+true
 )
 ;
 is
@@ -2202,6 +2214,7 @@ example
 .
 org
 "
+true
 )
 ;
 is
@@ -3685,6 +3698,11 @@ addClickRule
 cookieBannerExample
 "
 false
+Ci
+.
+nsIClickRule
+.
+RUN_TOP
 "
 #
 btnOptOut
@@ -3812,6 +3830,11 @@ addClickRule
 globalCookieBanner
 "
 false
+Ci
+.
+nsIClickRule
+.
+RUN_TOP
 "
 #
 btnOptOut
@@ -3894,6 +3917,11 @@ addClickRule
 globalCookieBannerB
 "
 false
+Ci
+.
+nsIClickRule
+.
+RUN_TOP
 "
 #
 btnOptOutB
@@ -3990,6 +4018,7 @@ example
 .
 com
 "
+true
 )
 .
 length
@@ -4077,6 +4106,7 @@ thishasnorule
 com
 "
 )
+true
 )
 ;
 is
@@ -4279,6 +4309,7 @@ thishasnorule
 com
 "
 )
+true
 )
 .
 length
