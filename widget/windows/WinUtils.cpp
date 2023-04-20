@@ -3964,9 +3964,9 @@ AsyncFaviconDataReady
 nsIURI
 *
 aNewURI
-RefPtr
+nsCOMPtr
 <
-LazyIdleThread
+nsIThread
 >
 &
 aIOThread
@@ -5459,9 +5459,9 @@ aFaviconPageURI
 nsString
 &
 aICOFilePath
-RefPtr
+nsCOMPtr
 <
-LazyIdleThread
+nsIThread
 >
 &
 aIOThread
@@ -5975,9 +5975,9 @@ nsCOMPtr
 nsIFile
 >
 aICOFile
-RefPtr
+nsCOMPtr
 <
-LazyIdleThread
+nsIThread
 >
 &
 aIOThread

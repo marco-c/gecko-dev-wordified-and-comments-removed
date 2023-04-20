@@ -62,12 +62,12 @@ nsIFile
 .
 h
 "
+class
+nsIThread
+;
 namespace
 mozilla
 {
-class
-LazyIdleThread
-;
 namespace
 safebrowsing
 {
@@ -679,9 +679,9 @@ bool
 >
 mIsClosed
 ;
-RefPtr
+nsCOMPtr
 <
-LazyIdleThread
+nsIThread
 >
 mUpdateThread
 ;

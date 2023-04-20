@@ -2284,6 +2284,7 @@ DEFAULT_THREAD_TIMEOUT_MS
 "
 nsDataObj
 "
+_ns
 LazyIdleThread
 :
 :

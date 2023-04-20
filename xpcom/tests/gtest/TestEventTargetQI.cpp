@@ -109,17 +109,10 @@ nsISupports
 *
 >
 (
-static_cast
-<
-nsIEventTarget
-*
->
-(
 aPtr1
 .
 get
 (
-)
 )
 )
 )
@@ -342,9 +335,9 @@ TestEventTargetQI
 LazyIdleThread
 )
 {
-RefPtr
+nsCOMPtr
 <
-LazyIdleThread
+nsIThread
 >
 thing
 =
@@ -355,6 +348,7 @@ LazyIdleThread
 "
 TestThread
 "
+_ns
 )
 ;
 EXPECT_TRUE
