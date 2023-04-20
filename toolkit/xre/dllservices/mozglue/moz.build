@@ -42,6 +42,11 @@ ModuleLoadFrame
 cpp
 "
 "
+WindowsBCryptInitialization
+.
+cpp
+"
+"
 WindowsFallbackLoaderAPI
 .
 cpp
@@ -131,6 +136,11 @@ h
 "
 "
 ModuleLoadInfo
+.
+h
+"
+"
+WindowsBCryptInitialization
 .
 h
 "
