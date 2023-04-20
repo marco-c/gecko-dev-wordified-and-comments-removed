@@ -314,9 +314,6 @@ exportEntries_
 AtomSet
 exportNames_
 ;
-frontend
-:
-:
 FunctionDeclarationVector
 functionDecls_
 ;
