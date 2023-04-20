@@ -1628,6 +1628,7 @@ runEventTest
 (
 {
 mode
+detectOnly
 initFn
 triggerFn
 testURL
@@ -1653,6 +1654,16 @@ mode
 "
 mode
 ]
+[
+"
+cookiebanners
+.
+service
+.
+detectOnly
+"
+detectOnly
+]
 ]
 }
 )
@@ -1677,6 +1688,11 @@ MODE_DISABLED
 let
 expectEventHandled
 =
+!
+detectOnly
+&
+&
+(
 mode
 =
 =
@@ -1695,6 +1711,7 @@ Ci
 nsICookieBannerService
 .
 MODE_REJECT_OR_ACCEPT
+)
 ;
 let
 eventObservedDetected
