@@ -224,7 +224,7 @@ ipc
 IPCResult
 RecvGetAccessHandle
 (
-FileSystemGetFileRequest
+FileSystemGetAccessHandleRequest
 &
 &
 aRequest
