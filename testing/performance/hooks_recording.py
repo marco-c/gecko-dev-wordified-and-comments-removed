@@ -640,7 +640,7 @@ name
 [
             
 "
-mitm7
+mitm8
 "
             
 platform_name

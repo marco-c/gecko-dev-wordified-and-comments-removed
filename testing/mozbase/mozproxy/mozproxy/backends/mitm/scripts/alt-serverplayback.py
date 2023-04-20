@@ -1,9 +1,19 @@
 import
 hashlib
 import
+urllib
+from
+collections
+.
+abc
+import
+Hashable
+Sequence
+from
 typing
 import
-urllib
+Any
+Optional
 import
 mitmproxy
 .
@@ -36,16 +46,10 @@ AltServerPlayback
     
 flowmap
 :
-typing
-.
-Dict
+dict
 [
-typing
-.
 Hashable
-typing
-.
-List
+list
 [
 http
 .
@@ -211,8 +215,6 @@ add_option
 alt_server_replay_use_headers
 "
             
-typing
-.
 Sequence
 [
 str
@@ -243,8 +245,6 @@ add_option
 alt_server_replay
 "
             
-typing
-.
 Sequence
 [
 str
@@ -307,8 +307,6 @@ add_option
 alt_server_replay_ignore_params
 "
             
-typing
-.
 Sequence
 [
 str
@@ -354,8 +352,6 @@ add_option
 alt_server_replay_ignore_payload_params
 "
             
-typing
-.
 Sequence
 [
 str
@@ -540,8 +536,6 @@ load_flows
 self
 flows
 :
-typing
-.
 Sequence
 [
 flow
@@ -834,8 +828,6 @@ HTTPFlow
 )
 -
 >
-typing
-.
 Hashable
 :
         
@@ -897,12 +889,8 @@ True
         
 key
 :
-typing
-.
-List
+list
 [
-typing
-.
 Any
 ]
 =
@@ -1251,8 +1239,6 @@ HTTPFlow
 )
 -
 >
-typing
-.
 Optional
 [
 http
