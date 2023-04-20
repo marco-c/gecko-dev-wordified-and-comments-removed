@@ -8885,7 +8885,7 @@ s
 Gerald
 Squelart
 (
-gerald
+mozbugz
 )
 <
 https
@@ -8902,7 +8902,7 @@ s
 ?
 query
 =
-gerald
+mozbugz
 >
 __
 |
@@ -33609,7 +33609,11 @@ s
 )
 -
 |
+Jared
+Hirsch
+(
 jhirsch
+)
 <
 https
 :
