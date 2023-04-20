@@ -117,7 +117,7 @@ is_axis_aligned
 id
 >
 >
-24
+23
 )
 =
 =
@@ -128,7 +128,7 @@ index
 =
 id
 &
-0x00ffffff
+0x007fffff
 ;
 /
 /
