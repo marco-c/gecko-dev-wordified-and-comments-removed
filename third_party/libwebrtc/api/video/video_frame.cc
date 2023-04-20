@@ -831,6 +831,7 @@ timestamp_rtp_
 ntp_time_ms_
 rotation_
 color_space_
+render_parameters_
 update_rect_
 packet_infos_
 )
@@ -1313,6 +1314,10 @@ ColorSpace
 &
 color_space
 const
+RenderParameters
+&
+render_parameters
+const
 absl
 :
 :
@@ -1353,6 +1358,10 @@ rotation
 color_space_
 (
 color_space
+)
+render_parameters_
+(
+render_parameters
 )
 update_rect_
 (
