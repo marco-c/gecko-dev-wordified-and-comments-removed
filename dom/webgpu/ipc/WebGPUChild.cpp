@@ -5199,7 +5199,7 @@ WasPassed
 )
 )
 {
-LossyCopyUTF16toASCII
+CopyUTF16toUTF8
 (
 aDesc
 .
@@ -5263,7 +5263,7 @@ mModule
 >
 mId
 ;
-LossyCopyUTF16toASCII
+CopyUTF16toUTF8
 (
 aDesc
 .
@@ -6056,7 +6056,7 @@ mModule
 >
 mId
 ;
-LossyCopyUTF16toASCII
+CopyUTF16toUTF8
 (
 stage
 .
@@ -6319,7 +6319,7 @@ mModule
 >
 mId
 ;
-LossyCopyUTF16toASCII
+CopyUTF16toUTF8
 (
 stage
 .
