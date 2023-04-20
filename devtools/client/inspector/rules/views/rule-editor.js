@@ -2124,7 +2124,7 @@ inspector
 .
 toolbox
 .
-viewSourceInStyleEditorByFront
+viewSourceInStyleEditorByResource
 (
 this
 .
@@ -2487,15 +2487,6 @@ rule
 sheet
 .
 resourceId
-|
-|
-this
-.
-rule
-.
-sheet
-.
-actorID
 this
 .
 rule

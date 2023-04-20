@@ -126,13 +126,6 @@ array
 :
 domstylerule
 "
-sheets
-:
-"
-array
-:
-stylesheet
-"
 }
 )
 ;

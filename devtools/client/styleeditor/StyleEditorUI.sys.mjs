@@ -6942,7 +6942,7 @@ URL
 find
 a
 stylesheet
-front
+resource
 with
 that
 URL
@@ -6972,7 +6972,8 @@ way
 to
 get
 a
-StyleSheetFront
+StyleSheet
+resource
 *
 multiple
 sheets
@@ -7015,13 +7016,13 @@ for
 *
 return
 {
-StyleSheetFront
+StyleSheetResource
 |
 null
 }
 *
 /
-getStylesheetFrontForGeneratedURL
+getStylesheetResourceForGeneratedURL
 (
 url
 )
@@ -7097,11 +7098,9 @@ line
 *
 param
 {
-StyleSheetFront
+StyleSheetResource
 }
-[
 stylesheet
-]
 *
 Stylesheet
 to
@@ -7117,9 +7116,7 @@ param
 {
 Number
 }
-[
 line
-]
 *
 Line
 to
@@ -7140,9 +7137,7 @@ param
 {
 Number
 }
-[
 col
-]
 *
 Column
 to

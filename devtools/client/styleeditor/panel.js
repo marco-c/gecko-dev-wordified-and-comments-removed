@@ -402,7 +402,7 @@ level
 }
 selectStyleSheet
 (
-front
+stylesheet
 line
 col
 )
@@ -426,7 +426,7 @@ UI
 .
 selectStyleSheet
 (
-front
+stylesheet
 line
 -
 1
@@ -492,7 +492,7 @@ col
 )
 ;
 }
-getStylesheetFrontForGeneratedURL
+getStylesheetResourceForGeneratedURL
 (
 url
 )
@@ -514,7 +514,7 @@ this
 .
 UI
 .
-getStylesheetFrontForGeneratedURL
+getStylesheetResourceForGeneratedURL
 (
 url
 )

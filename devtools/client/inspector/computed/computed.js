@@ -6459,15 +6459,6 @@ generatedLocation
 sheet
 .
 resourceId
-|
-|
-this
-.
-generatedLocation
-.
-sheet
-.
-actorID
 this
 .
 generatedLocation
@@ -7010,7 +7001,7 @@ inspector
 .
 toolbox
 .
-viewSourceInStyleEditorByFront
+viewSourceInStyleEditorByResource
 (
 sheet
 line

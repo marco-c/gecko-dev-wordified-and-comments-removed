@@ -17347,9 +17347,9 @@ column
 ;
 }
 async
-viewSourceInStyleEditorByFront
+viewSourceInStyleEditorByResource
 (
-stylesheetFront
+stylesheetResource
 line
 column
 )
@@ -17357,11 +17357,11 @@ column
 if
 (
 !
-stylesheetFront
+stylesheetResource
 |
 |
 typeof
-stylesheetFront
+stylesheetResource
 !
 =
 =
@@ -17443,7 +17443,7 @@ viewSource
 viewSourceInStyleEditor
 (
 this
-stylesheetFront
+stylesheetResource
 line
 column
 )
