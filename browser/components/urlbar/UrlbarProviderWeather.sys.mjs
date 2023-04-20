@@ -2554,7 +2554,7 @@ it
 *
 -
 "
-quicksuggest
+weather
 "
 :
 The
@@ -2800,7 +2800,7 @@ selType
 {
 case
 "
-quicksuggest
+weather
 "
 :
 clickScalars
@@ -2944,7 +2944,7 @@ selType
 =
 =
 "
-quicksuggest
+weather
 "
 ?
 "

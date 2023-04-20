@@ -128,7 +128,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-lazy
+this
 "
 MerinoTestUtils
 "

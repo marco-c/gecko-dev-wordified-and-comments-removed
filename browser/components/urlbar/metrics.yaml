@@ -701,8 +701,10 @@ top_site
 calc
 unit
 suggest_sponsor
-and
 suggest_non_sponsor
+quicksuggest
+and
+weather
 .
 If
 the
@@ -1302,6 +1304,7 @@ top_site
 calc
 unit
 site_specific_contextual_search
+quicksuggest
 weather
 experimental_addon
 suggest_sponsor
@@ -1693,6 +1696,7 @@ top_site
 calc
 unit
 site_specific_contextual_search
+quicksuggest
 weather
 experimental_addon
 suggest_sponsor
@@ -2425,8 +2429,10 @@ top_site
 calc
 unit
 suggest_sponsor
-and
 suggest_non_sponsor
+quicksuggest
+and
+weather
 .
 If
 the
