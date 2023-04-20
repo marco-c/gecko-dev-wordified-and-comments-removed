@@ -10,7 +10,9 @@ proc_macro_hack
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 unexpected
 .

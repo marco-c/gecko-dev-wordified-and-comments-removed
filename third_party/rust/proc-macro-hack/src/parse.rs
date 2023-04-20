@@ -86,7 +86,6 @@ parse_visibility
 (
 tokens
 )
-?
 ;
 let
 kw
@@ -1044,11 +1043,7 @@ Iter
 )
 -
 >
-Result
-<
 Visibility
-Error
->
 {
 if
 let
@@ -1102,12 +1097,9 @@ vis
 =
 >
 return
-Ok
-(
 Some
 (
 vis
-)
 )
 _
 =
@@ -1119,10 +1111,7 @@ unreachable
 }
 }
 }
-Ok
-(
 None
-)
 }
 fn
 parse_attributes

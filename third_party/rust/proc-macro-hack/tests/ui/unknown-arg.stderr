@@ -11,7 +11,9 @@ only_hack_old_rustc
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 unknown
 -

@@ -23,7 +23,9 @@ use
 -
 -
 >
-DIR
+tests
+/
+ui
 /
 unexpected
 -
