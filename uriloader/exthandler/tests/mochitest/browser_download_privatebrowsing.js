@@ -62,7 +62,7 @@ FileTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -75,7 +75,9 @@ common
 /
 FileTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -86,7 +88,7 @@ MockRegistrar
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -99,7 +101,9 @@ common
 /
 MockRegistrar
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

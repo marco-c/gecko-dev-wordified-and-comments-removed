@@ -66,7 +66,7 @@ FileTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -79,7 +79,9 @@ common
 /
 FileTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

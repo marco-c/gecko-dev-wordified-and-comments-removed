@@ -43,7 +43,7 @@ ContentTaskUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -56,7 +56,9 @@ common
 /
 ContentTaskUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
