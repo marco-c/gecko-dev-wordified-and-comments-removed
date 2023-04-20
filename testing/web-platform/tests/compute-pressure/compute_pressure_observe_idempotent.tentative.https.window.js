@@ -17,10 +17,7 @@ await
 new
 Promise
 (
-(
 resolve
-reject
-)
 =
 >
 {
@@ -63,11 +60,6 @@ observe
 cpu
 '
 )
-.
-catch
-(
-reject
-)
 ;
 observer
 .
@@ -77,11 +69,6 @@ observe
 cpu
 '
 )
-.
-catch
-(
-reject
-)
 ;
 observer
 .
@@ -90,11 +77,6 @@ observe
 '
 cpu
 '
-)
-.
-catch
-(
-reject
 )
 ;
 }

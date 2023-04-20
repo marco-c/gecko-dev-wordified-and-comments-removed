@@ -92,7 +92,6 @@ await
 new
 Promise
 (
-async
 resolve
 =
 >
@@ -127,7 +126,6 @@ disconnect
 )
 )
 ;
-await
 observer
 .
 observe
