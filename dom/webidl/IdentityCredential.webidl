@@ -440,6 +440,10 @@ id
 metadata
 -
 endpoint
+[
+GenerateInit
+GenerateConversionToJS
+]
 dictionary
 IdentityClientMetadata
 {
