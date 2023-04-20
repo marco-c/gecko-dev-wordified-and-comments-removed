@@ -2347,7 +2347,10 @@ aStyleFont
 mMathStyle
 =
 =
-NS_STYLE_MATH_STYLE_NORMAL
+StyleMathStyle
+:
+:
+Normal
 &
 &
 NS_MATHML_OPERATOR_IS_LARGEOP
@@ -4091,7 +4094,10 @@ StyleFont
 mMathStyle
 =
 =
-NS_STYLE_MATH_STYLE_NORMAL
+StyleMathStyle
+:
+:
+Normal
 &
 &
 NS_MATHML_OPERATOR_IS_LARGEOP
