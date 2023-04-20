@@ -862,15 +862,6 @@ a
 >
 >
 {
-use
-crate
-:
-:
-parser
-:
-:
-Parse
-;
 let
 name
 =
@@ -884,7 +875,7 @@ input
 ContainerName
 :
 :
-parse
+parse_for_query
 (
 context
 input
