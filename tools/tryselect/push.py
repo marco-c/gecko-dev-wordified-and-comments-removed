@@ -1040,6 +1040,10 @@ False
 files_to_change
 =
 None
+    
+allow_log_capture
+=
+False
 )
 :
     
@@ -1337,6 +1341,9 @@ vcs
 push_to_try
 (
 commit_message
+allow_log_capture
+=
+allow_log_capture
 )
         
 except
