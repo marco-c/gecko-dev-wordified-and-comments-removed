@@ -1757,6 +1757,16 @@ return
 this
 ;
 }
+bool
+IsWrappingSurfaceTextureHost
+(
+)
+override
+{
+return
+true
+;
+}
 void
 CreateRenderTexture
 (

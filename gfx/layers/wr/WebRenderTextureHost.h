@@ -216,6 +216,12 @@ IsWrappingBufferTextureHost
 )
 override
 ;
+bool
+IsWrappingSurfaceTextureHost
+(
+)
+override
+;
 virtual
 void
 PrepareForUse

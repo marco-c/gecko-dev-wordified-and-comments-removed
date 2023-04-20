@@ -6448,6 +6448,15 @@ SurfaceDescriptor
 :
 TSurfaceDescriptorMacIOSurface
 :
+case
+layers
+:
+:
+SurfaceDescriptor
+:
+:
+TSurfaceTextureDescriptor
+:
 keepAlive
 =
 surf

@@ -1785,6 +1785,16 @@ false
 ;
 }
 virtual
+bool
+IsWrappingSurfaceTextureHost
+(
+)
+{
+return
+false
+;
+}
+virtual
 void
 CreateRenderTexture
 (
@@ -2214,8 +2224,7 @@ void
 PrepareForUse
 (
 )
-{
-}
+;
 virtual
 void
 NotifyNotUsed

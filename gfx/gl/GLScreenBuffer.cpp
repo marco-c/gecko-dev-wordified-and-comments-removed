@@ -172,6 +172,16 @@ mPool
 ;
 }
 }
+const
+auto
+poolSize
+=
+mDestroyedCallback
+?
+0
+:
+kPoolSize
+;
 if
 (
 !
@@ -184,7 +194,7 @@ empty
 &
 (
 !
-kPoolSize
+poolSize
 |
 |
 mPool
@@ -194,7 +204,7 @@ size
 )
 =
 =
-kPoolSize
+poolSize
 )
 )
 {
@@ -266,7 +276,7 @@ size
 (
 )
 >
-kPoolSize
+poolSize
 )
 {
 mPool

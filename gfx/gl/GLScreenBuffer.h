@@ -302,6 +302,11 @@ move
 aDestroyedCallback
 )
 ;
+mPool
+=
+{
+}
+;
 }
 }
 ;
