@@ -483,7 +483,7 @@ info
 .
 is_hardware_accelerated
 =
-false
+true
 ;
 return
 info

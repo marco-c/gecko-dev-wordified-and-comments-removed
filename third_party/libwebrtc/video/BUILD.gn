@@ -5517,6 +5517,10 @@ video_stream_decoder_impl
 video_stream_encoder_impl
 "
 "
+:
+video_stream_encoder_interface
+"
+"
 .
 .
 /

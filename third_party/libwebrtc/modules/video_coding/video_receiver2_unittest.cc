@@ -205,11 +205,14 @@ override
 MOCK_METHOD
 (
 void
-OnDecoderImplementationName
+OnDecoderInfoChanged
 (
 const
-char
-*
+VideoDecoder
+:
+:
+DecoderInfo
+&
 )
 (
 override
@@ -672,7 +675,7 @@ kPayloadType
 EXPECT_CALL
 (
 receive_callback_
-OnDecoderImplementationName
+OnDecoderInfoChanged
 )
 ;
 EXPECT_EQ

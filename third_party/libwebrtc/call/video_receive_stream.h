@@ -398,6 +398,15 @@ decoder_implementation_name
 unknown
 "
 ;
+absl
+:
+:
+optional
+<
+bool
+>
+power_efficient_decoder
+;
 FrameCounts
 frame_counts
 ;
