@@ -7145,13 +7145,13 @@ sendrecv
 }
 )
 ;
-}
 transceiver
 .
 setAddTrackMagic
 (
 )
 ;
+}
 this
 .
 updateNegotiationNeeded
