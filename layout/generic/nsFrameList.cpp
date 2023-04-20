@@ -847,8 +847,6 @@ Clear
 return
 Slice
 (
-*
-this
 firstNewFrame
 nextSibling
 )

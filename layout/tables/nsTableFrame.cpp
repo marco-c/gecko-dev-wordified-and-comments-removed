@@ -4533,7 +4533,6 @@ nsFrameList
 :
 Slice
 (
-mFrames
 nullptr
 nullptr
 )
@@ -10167,7 +10166,6 @@ nsFrameList
 :
 Slice
 (
-mColGroups
 f
 f
 -
@@ -10210,7 +10208,6 @@ nsFrameList
 :
 Slice
 (
-mFrames
 f
 nullptr
 )
@@ -11555,7 +11552,6 @@ nsFrameList
 :
 Slice
 (
-mFrames
 nullptr
 nullptr
 )
