@@ -232,7 +232,7 @@ Integration
 .
 downloads
 .
-defineModuleGetter
+defineESModuleGetter
 (
 lazy
 "
@@ -249,7 +249,9 @@ modules
 /
 DownloadIntegration
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
