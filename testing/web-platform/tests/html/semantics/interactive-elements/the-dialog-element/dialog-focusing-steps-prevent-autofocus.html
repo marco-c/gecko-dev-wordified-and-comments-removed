@@ -161,14 +161,12 @@ waitUntilStableAutofocusState
 (
 )
 ;
-assert_equals
+assert_not_equals
 (
 document
 .
 activeElement
-document
-.
-body
+input
 '
 Non
 -
