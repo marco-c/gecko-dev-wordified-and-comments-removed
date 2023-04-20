@@ -2212,14 +2212,6 @@ test
 unity
 -
 webgl
-fetches
-:
-fetch
-:
--
-unity
--
-webgl
 browsertime
 -
 power
