@@ -635,6 +635,15 @@ get
 )
 )
 ;
+if
+(
+msg
+.
+has_applied_input_volume
+(
+)
+)
+{
 apm_
 -
 >
@@ -647,6 +656,7 @@ applied_input_volume
 )
 )
 ;
+}
 RTC_CHECK_EQ
 (
 AudioProcessing

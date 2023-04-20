@@ -262,6 +262,7 @@ absl
 :
 :
 nullopt
+false
 &
 ab
 )
@@ -1578,6 +1579,7 @@ absl
 :
 :
 nullopt
+false
 &
 audio_buffer
 )
@@ -1599,6 +1601,7 @@ absl
 :
 :
 nullopt
+false
 &
 audio_buffer
 )
@@ -1928,6 +1931,7 @@ kSpeechProbabilities
 [
 j
 ]
+false
 &
 audio_buffer
 )
@@ -1951,6 +1955,7 @@ absl
 :
 :
 nullopt
+false
 &
 audio_buffer_reference
 )
@@ -2332,6 +2337,7 @@ kSpeechProbabilities
 [
 j
 ]
+false
 &
 audio_buffer
 )
@@ -2355,6 +2361,7 @@ absl
 :
 :
 nullopt
+false
 &
 audio_buffer_reference
 )
@@ -2720,6 +2727,7 @@ absl
 :
 :
 nullopt
+false
 &
 audio_buffer_reference
 )
@@ -2735,10 +2743,9 @@ frame
 audio_buffer
 )
 ;
-agc2
-.
-Process
-(
+float
+speech_probability
+=
 vad
 .
 Analyze
@@ -2766,6 +2773,13 @@ num_frames
 )
 )
 )
+;
+agc2
+.
+Process
+(
+speech_probability
+false
 &
 audio_buffer
 )
