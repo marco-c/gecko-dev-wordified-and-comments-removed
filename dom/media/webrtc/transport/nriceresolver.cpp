@@ -552,10 +552,16 @@ PendingResolution
 >
 pr
 ;
-uint32_t
+nsIDNSService
+:
+:
+DNSFlags
 resolve_flags
 =
-0
+nsIDNSService
+:
+:
+RESOLVE_DEFAULT_FLAGS
 ;
 OriginAttributes
 attrs
@@ -644,7 +650,6 @@ case
 AF_INET
 :
 resolve_flags
-|
 =
 nsIDNSService
 :
@@ -657,7 +662,6 @@ case
 AF_INET6
 :
 resolve_flags
-|
 =
 nsIDNSService
 :
