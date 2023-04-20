@@ -19,9 +19,9 @@ sys
 import
 tempfile
 import
-yaml
-import
 buildconfig
+import
+yaml
 def
 shell_main
 (

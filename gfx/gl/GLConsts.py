@@ -171,10 +171,6 @@ Enjoy
 "
 "
 "
-from
-typing
-import
-List
 import
 pathlib
 import
@@ -185,6 +181,10 @@ xml
 etree
 .
 ElementTree
+from
+typing
+import
+List
 (
 _
 XML_DIR_STR
