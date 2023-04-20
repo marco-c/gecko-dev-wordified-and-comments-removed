@@ -445,10 +445,7 @@ MatchingMode
 :
 Normal
 None
-Some
-(
 nth_index_cache
-)
 VisitedHandlingMode
 :
 :

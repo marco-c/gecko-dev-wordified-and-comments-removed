@@ -2066,10 +2066,7 @@ Some
 (
 bloom_filter
 )
-Some
-(
 nth_index_cache
-)
 visited_handling
 self
 .
@@ -2452,10 +2449,7 @@ Some
 (
 bloom_filter
 )
-Some
-(
 nth_index_cache
-)
 visited_handling
 self
 .
