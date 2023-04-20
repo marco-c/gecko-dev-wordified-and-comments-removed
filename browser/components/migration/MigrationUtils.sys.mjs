@@ -352,6 +352,9 @@ ie
 opera
 "
 "
+vivaldi
+"
+"
 brave
 "
 "
@@ -412,6 +415,9 @@ safari
 opera
 "
 "
+vivaldi
+"
+"
 brave
 "
 "
@@ -452,6 +458,9 @@ firefox
 "
 "
 opera
+"
+"
+vivaldi
 "
 "
 brave
@@ -4596,6 +4605,11 @@ Opera
 "
 opera
 "
+Vivaldi
+:
+"
+vivaldi
+"
 "
 Brave
 Web
@@ -7840,6 +7854,9 @@ brave
 opera
 :
 12
+vivaldi
+:
+13
 }
 getSourceIdForTelemetry
 (
