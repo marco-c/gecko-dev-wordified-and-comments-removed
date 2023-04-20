@@ -2788,8 +2788,6 @@ _asrouter_templates_FirstRun_addUtmParams__WEBPACK_IMPORTED_MODULE_5__
 BASE_PARAMS
 utm_term
 :
-aboutwelcome
--
 {
 UTMTerm
 }
@@ -2865,8 +2863,6 @@ addUtmParams
 )
 (
 url
-aboutwelcome
--
 {
 UTMTerm
 }
@@ -13469,6 +13465,8 @@ let
 UTMTerm
 =
 "
+aboutwelcome
+-
 default
 "
 ;
@@ -13500,6 +13498,8 @@ branchId
 {
 UTMTerm
 =
+aboutwelcome
+-
 {
 experimentId
 }

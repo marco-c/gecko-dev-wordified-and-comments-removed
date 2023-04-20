@@ -2190,8 +2190,6 @@ params
 BASE_PARAMS
 utm_term
 :
-aboutwelcome
--
 {
 UTMTerm
 }
@@ -2262,8 +2260,6 @@ args
 addUtmParams
 (
 url
-aboutwelcome
--
 {
 UTMTerm
 }

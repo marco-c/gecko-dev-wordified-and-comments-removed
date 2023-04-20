@@ -3048,8 +3048,6 @@ stream
 utm_term
 :
 "
-aboutwelcome
--
 you_tee_emm
 -
 screen
