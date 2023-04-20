@@ -6850,7 +6850,7 @@ svg
 newAcc
 =
 new
-EnumRoleAccessible
+EnumRoleHyperTextAccessible
 <
 roles
 :
@@ -6887,7 +6887,7 @@ content
 newAcc
 =
 new
-EnumRoleAccessible
+EnumRoleHyperTextAccessible
 <
 roles
 :
