@@ -205,6 +205,15 @@ video
 -
 wrappers
 /
+cbc
+.
+js
+"
+"
+video
+-
+wrappers
+/
 dailymotion
 .
 js
