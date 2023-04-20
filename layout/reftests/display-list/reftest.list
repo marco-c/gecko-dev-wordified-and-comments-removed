@@ -960,11 +960,7 @@ needs
 -
 focus
 fuzzy
--
-if
 (
-!
-nativeThemePref
 0
 -
 3

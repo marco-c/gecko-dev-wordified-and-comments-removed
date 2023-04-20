@@ -1980,10 +1980,6 @@ fuzzy
 if
 (
 winWidget
-&
-&
-!
-nativeThemePref
 0
 -
 4

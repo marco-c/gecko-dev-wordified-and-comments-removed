@@ -421,11 +421,7 @@ builds
 bug
 1621141
 fuzzy
--
-if
 (
-!
-nativeThemePref
 0
 -
 1
@@ -944,11 +940,7 @@ if
 Android
 )
 fuzzy
--
-if
 (
-!
-nativeThemePref
 0
 -
 2

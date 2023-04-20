@@ -230,10 +230,6 @@ fuzzy
 if
 (
 cocoaWidget
-&
-&
-!
-nativeThemePref
 0
 -
 7
@@ -246,10 +242,6 @@ fuzzy
 if
 (
 Android
-&
-&
-!
-nativeThemePref
 0
 -
 3

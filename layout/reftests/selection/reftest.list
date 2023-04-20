@@ -1077,11 +1077,7 @@ needs
 -
 focus
 fuzzy
--
-if
 (
-!
-nativeThemePref
 0
 -
 5
@@ -1115,11 +1111,7 @@ needs
 -
 focus
 fuzzy
--
-if
 (
-!
-nativeThemePref
 0
 -
 3

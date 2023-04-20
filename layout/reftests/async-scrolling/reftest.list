@@ -1318,10 +1318,6 @@ fuzzy
 if
 (
 gtkWidget
-&
-&
-!
-nativeThemePref
 0
 -
 1
@@ -1334,10 +1330,6 @@ fuzzy
 if
 (
 winWidget
-&
-&
-!
-nativeThemePref
 0
 -
 1
@@ -2668,10 +2660,6 @@ fuzzy
 if
 (
 winWidget
-&
-&
-!
-nativeThemePref
 0
 -
 4

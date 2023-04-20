@@ -734,11 +734,7 @@ ref
 .
 html
 fuzzy
--
-if
 (
-!
-nativeThemePref
 0
 -
 5
