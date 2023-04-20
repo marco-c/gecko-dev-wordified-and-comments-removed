@@ -17927,6 +17927,12 @@ UrlbarUtils
 RESULT_SOURCE
 .
 HISTORY
+&
+&
+!
+result
+.
+autofill
 )
 {
 commands
