@@ -6832,7 +6832,7 @@ AccumulateTimeDelta
 Telemetry
 :
 :
-NETWORK_DNS_END_TO_CONNECT_START_MS
+NETWORK_DNS_END_TO_CONNECT_START_EXP_MS
 protocolVersion
 +
 "
