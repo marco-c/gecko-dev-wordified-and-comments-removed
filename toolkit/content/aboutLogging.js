@@ -332,6 +332,12 @@ playback
 modules
 :
 "
+HTMLMediaElement
+:
+4
+HTMLMediaElementEvents
+:
+4
 cubeb
 :
 5
