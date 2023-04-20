@@ -55,9 +55,6 @@ rust
 "
 unzip
 "
-"
-zip
-"
 ]
         
 self

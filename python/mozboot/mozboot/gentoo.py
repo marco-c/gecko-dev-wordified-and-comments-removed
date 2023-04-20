@@ -82,7 +82,6 @@ self
 .
 run_as_root
 (
-            
 [
 "
 emerge
@@ -98,13 +97,6 @@ noreplace
 quiet
 "
 "
-app
--
-arch
-/
-zip
-"
-"
 dev
 -
 util
@@ -112,7 +104,6 @@ util
 watchman
 "
 ]
-        
 )
     
 def

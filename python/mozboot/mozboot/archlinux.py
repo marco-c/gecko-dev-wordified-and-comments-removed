@@ -99,9 +99,6 @@ devel
 "
 unzip
 "
-"
-zip
-"
 ]
     
 BROWSER_PACKAGES
