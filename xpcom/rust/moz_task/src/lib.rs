@@ -333,6 +333,8 @@ create_thread
 name
 :
 &
+'
+static
 str
 )
 -
