@@ -989,8 +989,11 @@ ExportNameVector
 =
 GCVector
 <
+HeapPtr
+<
 JSAtom
 *
+>
 0
 SystemAllocPolicy
 >
