@@ -615,6 +615,7 @@ GmpVideoCodec
 :
 CreateEncoder
 (
+aFormat
 mPCHandle
 )
 )

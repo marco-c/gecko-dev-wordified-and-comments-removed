@@ -22,6 +22,13 @@ GmpVideoCodec
 :
 CreateEncoder
 (
+const
+webrtc
+:
+:
+SdpVideoFormat
+&
+aFormat
 std
 :
 :
@@ -36,6 +43,7 @@ WebrtcVideoEncoderProxy
 new
 WebrtcGmpVideoEncoder
 (
+aFormat
 std
 :
 :
