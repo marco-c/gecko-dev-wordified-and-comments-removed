@@ -28743,11 +28743,6 @@ parentWidget
 ;
 if
 (
-GdkIsWaylandDisplay
-(
-)
-&
-&
 mPopupHint
 !
 =
