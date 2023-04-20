@@ -113,11 +113,6 @@ clang
 query
 .
 rst
-compiler
--
-explorer
-.
-rst
 writing
 -
 matchers

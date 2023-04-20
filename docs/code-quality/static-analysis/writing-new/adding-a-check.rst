@@ -30,9 +30,6 @@ using
 clang
 -
 query
-on
-Compiler
-Explorer
 it
 '
 s
