@@ -50,3 +50,17 @@ the
 Warning
 level
 .
+-
+browser
+/
+base
+/
+content
+/
+test
+/
+about
+/
+browser
+.
+ini
