@@ -764,7 +764,7 @@ readPointerSprite
 const
 pointerId
 =
-3
+5
 ;
 const
 res
@@ -803,7 +803,7 @@ value
 const
 pointerId
 =
-3
+5
 ;
 UniFFIScaffolding
 .
@@ -1424,7 +1424,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-66
+86
 FfiConverterOptionalTypePoint
 .
 lower
@@ -1530,7 +1530,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-67
+87
 FfiConverterTypePoint
 .
 lower
@@ -1619,7 +1619,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-68
+88
 FfiConverterTypeSprite
 .
 lower
@@ -1708,7 +1708,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-69
+89
 FfiConverterTypeSprite
 .
 lower
@@ -1803,7 +1803,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-70
+90
 FfiConverterTypeSprite
 .
 lower
@@ -2663,7 +2663,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-71
+91
 FfiConverterTypePoint
 .
 lower

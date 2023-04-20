@@ -1896,7 +1896,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-0
+20
 FfiConverterTypeLine
 .
 lower
@@ -2011,7 +2011,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-1
+21
 FfiConverterTypeLine
 .
 lower

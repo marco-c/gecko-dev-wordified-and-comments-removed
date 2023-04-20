@@ -1531,7 +1531,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-2
+22
 FfiConverterU64
 .
 lower
@@ -1662,7 +1662,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-3
+23
 FfiConverterU64
 .
 lower
@@ -1783,7 +1783,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-4
+24
 FfiConverterU64
 .
 lower
@@ -1904,7 +1904,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-5
+25
 FfiConverterU64
 .
 lower

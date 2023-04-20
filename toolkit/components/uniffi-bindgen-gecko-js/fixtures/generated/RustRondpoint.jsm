@@ -764,7 +764,7 @@ readPointerRetourneur
 const
 pointerId
 =
-0
+2
 ;
 const
 res
@@ -803,7 +803,7 @@ value
 const
 pointerId
 =
-0
+2
 ;
 UniFFIScaffolding
 .
@@ -836,7 +836,7 @@ readPointerStringifier
 const
 pointerId
 =
-1
+3
 ;
 const
 res
@@ -875,7 +875,7 @@ value
 const
 pointerId
 =
-1
+3
 ;
 UniFFIScaffolding
 .
@@ -908,7 +908,7 @@ readPointerOptionneur
 const
 pointerId
 =
-2
+4
 ;
 const
 res
@@ -947,7 +947,7 @@ value
 const
 pointerId
 =
-2
+4
 ;
 UniFFIScaffolding
 .
@@ -2772,7 +2772,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-35
+55
 )
 }
 try
@@ -2862,7 +2862,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-36
+56
 FfiConverterTypeOptionneur
 .
 lower
@@ -2966,7 +2966,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-37
+57
 FfiConverterTypeOptionneur
 .
 lower
@@ -3069,7 +3069,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-38
+58
 FfiConverterTypeOptionneur
 .
 lower
@@ -3171,7 +3171,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-39
+59
 FfiConverterTypeOptionneur
 .
 lower
@@ -3273,7 +3273,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-40
+60
 FfiConverterTypeOptionneur
 .
 lower
@@ -3375,7 +3375,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-41
+61
 FfiConverterTypeOptionneur
 .
 lower
@@ -3478,7 +3478,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-42
+62
 FfiConverterTypeOptionneur
 .
 lower
@@ -3580,7 +3580,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-43
+63
 FfiConverterTypeOptionneur
 .
 lower
@@ -3682,7 +3682,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-44
+64
 FfiConverterTypeOptionneur
 .
 lower
@@ -3784,7 +3784,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-45
+65
 FfiConverterTypeOptionneur
 .
 lower
@@ -3886,7 +3886,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-46
+66
 FfiConverterTypeOptionneur
 .
 lower
@@ -3988,7 +3988,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-47
+67
 FfiConverterTypeOptionneur
 .
 lower
@@ -4090,7 +4090,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-48
+68
 FfiConverterTypeOptionneur
 .
 lower
@@ -4192,7 +4192,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-49
+69
 FfiConverterTypeOptionneur
 .
 lower
@@ -4295,7 +4295,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-50
+70
 FfiConverterTypeOptionneur
 .
 lower
@@ -4397,7 +4397,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-51
+71
 FfiConverterTypeOptionneur
 .
 lower
@@ -4499,7 +4499,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-52
+72
 FfiConverterTypeOptionneur
 .
 lower
@@ -4601,7 +4601,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-53
+73
 FfiConverterTypeOptionneur
 .
 lower
@@ -4703,7 +4703,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-54
+74
 FfiConverterTypeOptionneur
 .
 lower
@@ -4805,7 +4805,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-55
+75
 FfiConverterTypeOptionneur
 .
 lower
@@ -4907,7 +4907,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-56
+76
 FfiConverterTypeOptionneur
 .
 lower
@@ -5009,7 +5009,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-57
+77
 FfiConverterTypeOptionneur
 .
 lower
@@ -5113,7 +5113,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-58
+78
 FfiConverterTypeOptionneur
 .
 lower
@@ -5217,7 +5217,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-59
+79
 FfiConverterTypeOptionneur
 .
 lower
@@ -5321,7 +5321,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-60
+80
 FfiConverterTypeOptionneur
 .
 lower
@@ -5619,7 +5619,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-6
+26
 )
 }
 try
@@ -5707,7 +5707,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-7
+27
 FfiConverterTypeRetourneur
 .
 lower
@@ -5807,7 +5807,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-8
+28
 FfiConverterTypeRetourneur
 .
 lower
@@ -5907,7 +5907,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-9
+29
 FfiConverterTypeRetourneur
 .
 lower
@@ -6007,7 +6007,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-10
+30
 FfiConverterTypeRetourneur
 .
 lower
@@ -6107,7 +6107,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-11
+31
 FfiConverterTypeRetourneur
 .
 lower
@@ -6207,7 +6207,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-12
+32
 FfiConverterTypeRetourneur
 .
 lower
@@ -6307,7 +6307,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-13
+33
 FfiConverterTypeRetourneur
 .
 lower
@@ -6407,7 +6407,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-14
+34
 FfiConverterTypeRetourneur
 .
 lower
@@ -6507,7 +6507,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-15
+35
 FfiConverterTypeRetourneur
 .
 lower
@@ -6607,7 +6607,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-16
+36
 FfiConverterTypeRetourneur
 .
 lower
@@ -6707,7 +6707,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-17
+37
 FfiConverterTypeRetourneur
 .
 lower
@@ -6807,7 +6807,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-18
+38
 FfiConverterTypeRetourneur
 .
 lower
@@ -6907,7 +6907,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-19
+39
 FfiConverterTypeRetourneur
 .
 lower
@@ -7007,7 +7007,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-20
+40
 FfiConverterTypeRetourneur
 .
 lower
@@ -7107,7 +7107,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-21
+41
 FfiConverterTypeRetourneur
 .
 lower
@@ -7405,7 +7405,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-22
+42
 )
 }
 try
@@ -7493,7 +7493,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-23
+43
 FfiConverterTypeStringifier
 .
 lower
@@ -7593,7 +7593,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-24
+44
 FfiConverterTypeStringifier
 .
 lower
@@ -7693,7 +7693,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-25
+45
 FfiConverterTypeStringifier
 .
 lower
@@ -7793,7 +7793,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-26
+46
 FfiConverterTypeStringifier
 .
 lower
@@ -7893,7 +7893,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-27
+47
 FfiConverterTypeStringifier
 .
 lower
@@ -7993,7 +7993,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-28
+48
 FfiConverterTypeStringifier
 .
 lower
@@ -8093,7 +8093,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-29
+49
 FfiConverterTypeStringifier
 .
 lower
@@ -8193,7 +8193,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-30
+50
 FfiConverterTypeStringifier
 .
 lower
@@ -8293,7 +8293,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-31
+51
 FfiConverterTypeStringifier
 .
 lower
@@ -8393,7 +8393,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-32
+52
 FfiConverterTypeStringifier
 .
 lower
@@ -8493,7 +8493,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-33
+53
 FfiConverterTypeStringifier
 .
 lower
@@ -8593,7 +8593,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-34
+54
 FfiConverterTypeStringifier
 .
 lower
@@ -12640,7 +12640,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-61
+81
 FfiConverterTypeDictionnaire
 .
 lower
@@ -12744,7 +12744,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-62
+82
 FfiConverterTypeEnumeration
 .
 lower
@@ -12848,7 +12848,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-63
+83
 FfiConverterSequenceTypeEnumeration
 .
 lower
@@ -12952,7 +12952,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-64
+84
 FfiConverterMapStringTypeEnumerationAvecDonnees
 .
 lower
@@ -13056,7 +13056,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-65
+85
 FfiConverterBool
 .
 lower

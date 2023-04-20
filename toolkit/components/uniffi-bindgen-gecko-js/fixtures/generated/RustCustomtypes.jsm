@@ -1866,7 +1866,7 @@ UniFFIScaffolding
 .
 callAsync
 (
-87
+107
 FfiConverterOptionalTypeCustomTypesDemo
 .
 lower
