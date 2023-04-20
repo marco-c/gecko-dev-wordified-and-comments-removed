@@ -30,10 +30,10 @@ h
 namespace
 webrtc
 {
-VCMDecoderDataBase
+VCMDecoderDatabase
 :
 :
-VCMDecoderDataBase
+VCMDecoderDatabase
 (
 )
 {
@@ -46,7 +46,7 @@ Detach
 }
 VideoDecoder
 *
-VCMDecoderDataBase
+VCMDecoderDatabase
 :
 :
 DeregisterExternalDecoder
@@ -133,7 +133,7 @@ ret
 ;
 }
 void
-VCMDecoderDataBase
+VCMDecoderDatabase
 :
 :
 RegisterExternalDecoder
@@ -171,7 +171,7 @@ external_decoder
 }
 }
 bool
-VCMDecoderDataBase
+VCMDecoderDatabase
 :
 :
 IsExternalDecoderRegistered
@@ -204,7 +204,7 @@ end
 ;
 }
 void
-VCMDecoderDataBase
+VCMDecoderDatabase
 :
 :
 RegisterReceiveCodec
@@ -245,7 +245,7 @@ settings
 ;
 }
 bool
-VCMDecoderDataBase
+VCMDecoderDatabase
 :
 :
 DeregisterReceiveCodec
@@ -292,7 +292,7 @@ true
 ;
 }
 void
-VCMDecoderDataBase
+VCMDecoderDatabase
 :
 :
 DeregisterReceiveCodecs
@@ -315,7 +315,7 @@ clear
 }
 VCMGenericDecoder
 *
-VCMDecoderDataBase
+VCMDecoderDatabase
 :
 :
 GetDecoder
@@ -480,7 +480,7 @@ current_decoder_
 ;
 }
 void
-VCMDecoderDataBase
+VCMDecoderDatabase
 :
 :
 CreateAndInitDecoder

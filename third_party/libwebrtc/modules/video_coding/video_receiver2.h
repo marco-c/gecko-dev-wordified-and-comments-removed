@@ -237,7 +237,7 @@ VideoDecoder
 >
 video_decoders_
 ;
-VCMDecoderDataBase
+VCMDecoderDatabase
 codec_database_
 ;
 }
