@@ -480,6 +480,11 @@ JSJitFrameIter
 iter
 size_t
 inlineDepth
+MaybeReadFallback
+:
+:
+FallbackConsequence
+consequence
 )
 {
 MOZ_ASSERT
@@ -584,6 +589,7 @@ cx
 this
 &
 iter
+consequence
 )
 ;
 AutoRealmUnchecked

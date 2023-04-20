@@ -1213,6 +1213,17 @@ savedExc
 cx
 )
 ;
+MaybeReadFallback
+:
+:
+FallbackConsequence
+consequence
+=
+MaybeReadFallback
+:
+:
+Fallback_DoNothing
+;
 rematFrame
 =
 act
@@ -1231,6 +1242,7 @@ frame
 frameNo
 (
 )
+consequence
 )
 ;
 if
