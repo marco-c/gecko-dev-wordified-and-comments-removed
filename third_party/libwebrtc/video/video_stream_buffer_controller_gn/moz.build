@@ -224,7 +224,7 @@ libwebrtc
 /
 video
 /
-frame_buffer_proxy
+video_stream_buffer_controller
 .
 cc
 "
@@ -1462,6 +1462,6 @@ True
 Library
 (
 "
-frame_buffer_proxy_gn
+video_stream_buffer_controller_gn
 "
 )
