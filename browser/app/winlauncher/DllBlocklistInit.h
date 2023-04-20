@@ -39,6 +39,9 @@ aCachedNtdllThunk
 const
 bool
 aIsUtilityProcess
+const
+bool
+aIsSocketProcess
 )
 ;
 LauncherVoidResultWithLineInfo

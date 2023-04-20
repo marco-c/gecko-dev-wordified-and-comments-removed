@@ -85,6 +85,12 @@ UTILITY_PROCESSES_ONLY
 <
 <
 6
+SOCKET_PROCESSES_ONLY
+=
+1
+<
+<
+7
 }
 mFlags
 ;
