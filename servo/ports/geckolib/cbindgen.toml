@@ -1058,6 +1058,9 @@ ImageRendering
 PrintColorAdjust
 "
 "
+ForcedColorAdjust
+"
+"
 ScrollbarGutter
 "
 "

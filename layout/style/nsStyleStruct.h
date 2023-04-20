@@ -4130,6 +4130,12 @@ mColor
 mozilla
 :
 :
+StyleForcedColorAdjust
+mForcedColorAdjust
+;
+mozilla
+:
+:
 StyleTextTransform
 mTextTransform
 ;

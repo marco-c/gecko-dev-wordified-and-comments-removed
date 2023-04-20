@@ -413,6 +413,13 @@ image
 icon
 "
 "
+forced
+-
+color
+-
+adjust
+"
+"
 grid
 -
 auto
