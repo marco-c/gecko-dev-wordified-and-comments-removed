@@ -939,6 +939,7 @@ test_closed_0ms
 (
 )
 {
+await
 test_closed
 (
 "
@@ -958,6 +959,7 @@ test_closed_100ms
 (
 )
 {
+await
 test_closed
 (
 "
