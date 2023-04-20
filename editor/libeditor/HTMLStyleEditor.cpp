@@ -14233,6 +14233,8 @@ ignored
 )
 ;
 }
+else
+{
 pointToPutCaretOrError
 .
 unwrap
@@ -14243,6 +14245,7 @@ IgnoreCaretPointSuggestion
 (
 )
 ;
+}
 continue
 ;
 }
