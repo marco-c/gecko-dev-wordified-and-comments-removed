@@ -396,7 +396,7 @@ MOZ_LIBWEBRTC_BASE
 ^
 .
 .
-main
+master
 \
 |
 head
@@ -431,7 +431,7 @@ eE
 All
 commands
 should
-succede
+succeed
 .
 #
 *
@@ -456,7 +456,7 @@ of
 all
 pipes
 should
-succede
+succeed
 .
 set
 -
@@ -1540,14 +1540,19 @@ echo
 "
 hg
 commit
+\
 -
 m
 "
 Bug
-1766646
+MOZ_FASTFORWARD_BUG
 -
 Vendor
 libwebrtc
 from
 MOZ_LIBWEBRTC_NEXT_BASE
 "
+\
+third_party
+/
+libwebrtc
