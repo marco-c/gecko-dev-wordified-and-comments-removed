@@ -305,6 +305,13 @@ IsSharedMemoryAllowed
 const
 override
 ;
+bool
+ShouldResistFingerprinting
+(
+)
+const
+override
+;
 protected
 :
 ~
