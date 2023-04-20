@@ -1503,10 +1503,7 @@ SpellCheckerUnderlineStyle
 :
 aResult
 =
-reinterpret_cast
-<
 int32_t
->
 (
 StyleTextDecorationStyle
 :
