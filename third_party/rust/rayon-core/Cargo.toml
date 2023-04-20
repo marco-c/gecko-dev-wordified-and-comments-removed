@@ -125,7 +125,7 @@ version
 .
 10
 .
-1
+2
 "
 authors
 =
@@ -269,9 +269,6 @@ stack_overflow_crash
 .
 rs
 "
-harness
-=
-false
 [
 [
 test
