@@ -1029,16 +1029,6 @@ VideoReceiveStreamInterface
 }
 }
 ;
-using
-VideoReceiveStream
-[
-[
-deprecated
-]
-]
-=
-VideoReceiveStreamInterface
-;
 }
 #
 endif
