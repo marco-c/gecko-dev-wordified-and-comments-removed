@@ -431,6 +431,16 @@ webauthn_enable_usbtoken
 "
 true
 ]
+[
+"
+security
+.
+webauthn
+.
+ctap2
+"
+false
+]
 ]
 }
 )

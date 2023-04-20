@@ -509,6 +509,7 @@ AndroidWebAuthnTokenManager
 )
 {
 }
+virtual
 RefPtr
 <
 U2FRegisterPromise
@@ -521,9 +522,16 @@ WebAuthnMakeCredentialInfo
 aInfo
 bool
 aForceNoneAttestation
+void
+status_callback
+(
+rust_ctap2_status_update_res
+*
+)
 )
 override
 ;
+virtual
 RefPtr
 <
 U2FSignPromise
@@ -534,6 +542,12 @@ const
 WebAuthnGetAssertionInfo
 &
 aInfo
+void
+status_callback
+(
+rust_ctap2_status_update_res
+*
+)
 )
 override
 ;
