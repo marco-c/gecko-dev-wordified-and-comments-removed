@@ -2354,9 +2354,9 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 GetInlineStyles
 (
-nsIContent
+Element
 &
-aContent
+aElement
 AutoPendingStyleCacheArray
 &
 aPendingStyleCacheArray
@@ -2371,9 +2371,9 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 CacheInlineStyles
 (
-nsIContent
+Element
 &
-aContent
+aElement
 )
 ;
 [
