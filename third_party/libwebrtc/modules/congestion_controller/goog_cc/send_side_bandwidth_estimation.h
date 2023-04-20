@@ -356,6 +356,12 @@ target_rate
 )
 const
 ;
+DataRate
+delay_based_limit
+(
+)
+const
+;
 uint8_t
 fraction_loss
 (
