@@ -71,6 +71,7 @@ CreateLibaomAv1Encoder
 }
 #
 else
+ABSL_CONST_INIT
 const
 bool
 kIsLibaomAv1EncoderSupported
