@@ -1467,7 +1467,7 @@ deps
 /
 api
 :
-field_trials_view
+field_trials_registry
 "
 "
 .
@@ -1542,7 +1542,7 @@ field_trial
 /
 api
 :
-field_trials_view
+field_trials_registry
 "
 "
 .

@@ -345,7 +345,7 @@ deps
 /
 api
 :
-field_trials_view
+field_trials_registry
 "
 "
 .

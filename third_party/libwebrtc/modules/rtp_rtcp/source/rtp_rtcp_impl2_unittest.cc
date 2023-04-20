@@ -52,9 +52,7 @@ include
 "
 api
 /
-transport
-/
-field_trial_based_config
+field_trials_registry
 .
 h
 "
@@ -906,7 +904,7 @@ class
 FieldTrialConfig
 :
 public
-FieldTrialsView
+FieldTrialsRegistry
 {
 public
 :
@@ -964,11 +962,13 @@ overhead_enabled_
 enabled
 ;
 }
+private
+:
 std
 :
 :
 string
-Lookup
+GetValue
 (
 absl
 :
@@ -1010,8 +1010,6 @@ return
 "
 ;
 }
-private
-:
 bool
 overhead_enabled_
 ;

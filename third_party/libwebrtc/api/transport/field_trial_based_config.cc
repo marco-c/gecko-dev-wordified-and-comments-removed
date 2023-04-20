@@ -30,7 +30,7 @@ string
 FieldTrialBasedConfig
 :
 :
-Lookup
+GetValue
 (
 absl
 :

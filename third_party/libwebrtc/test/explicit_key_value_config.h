@@ -35,7 +35,7 @@ include
 "
 api
 /
-field_trials_view
+field_trials_registry
 .
 h
 "
@@ -49,7 +49,7 @@ class
 ExplicitKeyValueConfig
 :
 public
-FieldTrialsView
+FieldTrialsRegistry
 {
 public
 :
@@ -63,11 +63,13 @@ string_view
 s
 )
 ;
+private
+:
 std
 :
 :
 string
-Lookup
+GetValue
 (
 absl
 :
@@ -78,8 +80,6 @@ key
 const
 override
 ;
-private
-:
 std
 :
 :

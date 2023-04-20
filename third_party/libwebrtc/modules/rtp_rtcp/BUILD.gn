@@ -4742,6 +4742,17 @@ create_time_controller
 /
 api
 :
+field_trials_registry
+"
+"
+.
+.
+/
+.
+.
+/
+api
+:
 libjingle_peerconnection_api
 "
 "
