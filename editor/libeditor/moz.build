@@ -110,11 +110,6 @@ HTMLEditorController
 h
 "
 "
-HTMLEditUtils
-.
-h
-"
-"
 JoinSplitNodeDirection
 .
 h

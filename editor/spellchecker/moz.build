@@ -79,6 +79,17 @@ TextServicesDocument
 cpp
 "
 ]
+LOCAL_INCLUDES
++
+=
+[
+"
+/
+editor
+/
+libeditor
+"
+]
 FINAL_LIBRARY
 =
 "
