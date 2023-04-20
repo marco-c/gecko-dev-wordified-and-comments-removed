@@ -7784,7 +7784,7 @@ unwrappedGenerator
 override
 {
 return
-pushGenerator
+maybePushGenerator
 (
 cx
 unwrappedGenerator
@@ -7807,7 +7807,7 @@ unwrappedGenerator
 override
 {
 return
-pushGenerator
+maybePushGenerator
 (
 cx
 unwrappedGenerator
@@ -7865,7 +7865,7 @@ recordVal
 ;
 }
 bool
-pushGenerator
+maybePushGenerator
 (
 JSContext
 *
