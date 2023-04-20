@@ -1567,6 +1567,12 @@ destroy
 context
 )
 ;
+cubeb_set_log_callback
+(
+CUBEB_LOG_DISABLED
+NULL
+)
+;
 }
 int
 cubeb_stream_init
