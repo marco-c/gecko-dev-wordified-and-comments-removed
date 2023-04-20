@@ -1,7 +1,7 @@
 #
 include
 <
-WinUser
+winuser
 .
 h
 >
