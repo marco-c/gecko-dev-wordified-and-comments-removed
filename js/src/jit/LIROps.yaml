@@ -1170,7 +1170,7 @@ true
 -
 name
 :
-NewBoundFunction
+BindFunction
 result_type
 :
 WordSized

@@ -27224,7 +27224,7 @@ auto
 *
 bound
 =
-MNewBoundFunction
+MBindFunction
 :
 :
 New

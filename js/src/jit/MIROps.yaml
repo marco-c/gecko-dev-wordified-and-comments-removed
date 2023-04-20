@@ -1823,7 +1823,7 @@ false
 -
 name
 :
-NewBoundFunction
+BindFunction
 gen_boilerplate
 :
 false
