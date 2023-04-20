@@ -73,14 +73,6 @@ set
 (
 {
 ASRouter
-ASRouterTargeting
-:
-{
-Environment
-:
-{
-}
-}
 }
 )
 ;
@@ -534,9 +526,6 @@ expression
 }
 )
 ;
-const
-evaluatedStrings
-=
 await
 AWScreenUtils
 .
@@ -549,7 +538,7 @@ assert
 .
 deepEqual
 (
-evaluatedStrings
+screens
 expectedScreens
 )
 ;
@@ -644,9 +633,6 @@ targeting
 }
 )
 ;
-const
-evaluatedStrings
-=
 await
 AWScreenUtils
 .
@@ -659,7 +645,7 @@ assert
 .
 deepEqual
 (
-evaluatedStrings
+screens
 expectedScreens
 )
 ;
