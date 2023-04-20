@@ -127,6 +127,9 @@ TEST_DIRS
 TestDllBlocklist_AllowByVersion
 "
 "
+TestDllBlocklist_GPUProcessOnly
+"
+"
 TestDllBlocklist_MatchByName
 "
 "
