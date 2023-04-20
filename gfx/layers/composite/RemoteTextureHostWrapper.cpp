@@ -1026,11 +1026,6 @@ GetRemoteTextureForDisplayList
 this
 )
 ;
-MOZ_ASSERT
-(
-mRemoteTextureForDisplayList
-)
-;
 }
 return
 !
