@@ -154,9 +154,9 @@ translations
 "
 )
 .
-EnginePayload
+TranslationsEnginePayload
 }
-EnginePayload
+TranslationsEnginePayload
 *
 /
 export
@@ -859,7 +859,7 @@ toLanguage
 *
 param
 {
-EnginePayload
+TranslationsEnginePayload
 }
 enginePayload
 *
@@ -2083,7 +2083,7 @@ returns
 {
 null
 |
-EnginePayload
+TranslationsEnginePayload
 }
 *
 /

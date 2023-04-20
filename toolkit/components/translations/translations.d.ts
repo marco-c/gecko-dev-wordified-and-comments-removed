@@ -365,7 +365,7 @@ AlignedMemory
 }
 ;
 interface
-EnginePayload
+TranslationsEnginePayload
 {
 bergamotWasmArrayBuffer
 :
