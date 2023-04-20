@@ -15285,6 +15285,15 @@ GenerateKey
 (
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+keyOrErr
+.
+isOk
+(
+)
+)
+;
 return
 keyOrErr
 .
