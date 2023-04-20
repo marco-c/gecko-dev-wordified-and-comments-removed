@@ -131,9 +131,6 @@ exclude
 #
 dirs
 -
-.
-github
--
 cmake
 -
 docs

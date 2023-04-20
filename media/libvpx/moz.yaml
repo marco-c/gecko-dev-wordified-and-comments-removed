@@ -285,12 +285,6 @@ build
 exclude
 :
 -
-.
-gitattributes
--
-.
-gitignore
--
 third_party
 /
 libwebm

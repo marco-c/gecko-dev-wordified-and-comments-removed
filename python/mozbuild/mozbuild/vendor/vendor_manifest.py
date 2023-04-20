@@ -61,6 +61,14 @@ DEFAULT_EXCLUDE_FILES
 git
 *
 "
+"
+.
+git
+*
+/
+*
+*
+"
 ]
 DEFAULT_KEEP_FILES
 =

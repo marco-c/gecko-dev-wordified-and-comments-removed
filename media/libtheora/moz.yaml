@@ -152,16 +152,6 @@ autogen
 sh
 -
 .
-gitignore
--
-.
-gitlab
--
-ci
-.
-yml
--
-.
 travis
 .
 yml

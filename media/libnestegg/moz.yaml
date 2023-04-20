@@ -103,9 +103,6 @@ build
 exclude
 :
 -
-.
-github
--
 configure
 .
 ac
