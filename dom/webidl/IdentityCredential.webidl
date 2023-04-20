@@ -155,6 +155,9 @@ providers
 ;
 }
 ;
+[
+GenerateConversionToJS
+]
 dictionary
 IdentityProvider
 {
@@ -381,6 +384,7 @@ accounts
 endpoint
 [
 GenerateInit
+GenerateConversionToJS
 ]
 dictionary
 IdentityAccountList
