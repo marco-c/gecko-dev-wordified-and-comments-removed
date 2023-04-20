@@ -94,6 +94,7 @@ enabled
 true
 )
 ;
+await
 MerinoTestUtils
 .
 server

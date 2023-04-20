@@ -53,6 +53,7 @@ MerinoClient
 (
 )
 ;
+await
 MerinoTestUtils
 .
 server

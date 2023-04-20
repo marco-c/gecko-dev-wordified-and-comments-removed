@@ -446,6 +446,7 @@ shouldShowOnboardingDialog
 false
 )
 ;
+await
 MerinoTestUtils
 .
 server
