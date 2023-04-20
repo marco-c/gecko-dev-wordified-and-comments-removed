@@ -43,7 +43,13 @@ chrome
 /
 MyAccount
 "
-null
+"
+chrome
+:
+/
+/
+myaccount
+"
 ]
 [
 "
