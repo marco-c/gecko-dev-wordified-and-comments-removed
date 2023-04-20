@@ -2570,11 +2570,6 @@ mgr
 )
 )
 ;
-NS_ProcessPendingEvents
-(
-thread
-)
-;
 gfxPlatform
 :
 :
@@ -2611,11 +2606,6 @@ XPCOMShutdownThreadsNotificationFinished
 ;
 #
 endif
-NS_ProcessPendingEvents
-(
-thread
-)
-;
 nsTimerImpl
 :
 :
@@ -2691,11 +2681,6 @@ ShutdownPhase
 :
 :
 XPCOMShutdownFinal
-)
-;
-NS_ProcessPendingEvents
-(
-thread
 )
 ;
 nsThreadManager
