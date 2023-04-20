@@ -6186,6 +6186,12 @@ mir
 compilingWasm
 (
 )
+&
+&
+!
+JitOptions
+.
+disableIteratorIndices
 )
 {
 if

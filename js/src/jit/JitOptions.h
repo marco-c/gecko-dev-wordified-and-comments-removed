@@ -171,6 +171,9 @@ bool
 disableInstructionReordering
 ;
 bool
+disableIteratorIndices
+;
+bool
 disableRangeAnalysis
 ;
 bool

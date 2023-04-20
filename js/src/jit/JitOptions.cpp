@@ -401,6 +401,12 @@ false
 ;
 SET_DEFAULT
 (
+disableIteratorIndices
+false
+)
+;
+SET_DEFAULT
+(
 disableInstructionReordering
 false
 )
