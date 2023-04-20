@@ -1,0 +1,16 @@
+"
+use
+strict
+"
+;
+createGenericResizeTests
+(
+10
+10
+true
+"
+Resize
+repeat
+"
+)
+;

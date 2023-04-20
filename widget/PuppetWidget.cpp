@@ -4703,7 +4703,10 @@ GetOwningBrowserChild
 >
 GetDimensions
 (
-0
+DimensionKind
+:
+:
+Outer
 &
 winX
 &
