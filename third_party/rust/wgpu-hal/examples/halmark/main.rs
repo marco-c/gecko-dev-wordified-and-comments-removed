@@ -1006,7 +1006,7 @@ front
 wgsl
 :
 :
-Parser
+Frontend
 :
 :
 new

@@ -1,3 +1,14 @@
+#
+!
+[
+allow
+(
+clippy
+:
+:
+needless_borrowed_reference
+)
+]
 use
 criterion
 :
@@ -222,7 +233,7 @@ front
 glsl
 :
 :
-Parser
+Frontend
 :
 :
 default
@@ -373,7 +384,7 @@ wgsl
 ;
 let
 mut
-parser
+frontend
 =
 naga
 :
@@ -384,7 +395,7 @@ front
 wgsl
 :
 :
-Parser
+Frontend
 :
 :
 new
@@ -427,7 +438,7 @@ unwrap
 let
 module
 =
-parser
+frontend
 .
 parse
 (
@@ -592,7 +603,7 @@ _
 ;
 let
 mut
-parser
+frontend
 =
 naga
 :
@@ -603,7 +614,7 @@ front
 wgsl
 :
 :
-Parser
+Frontend
 :
 :
 new
@@ -628,7 +639,7 @@ iter
 (
 )
 {
-parser
+frontend
 .
 parse
 (
@@ -764,7 +775,7 @@ front
 spv
 :
 :
-Parser
+Frontend
 :
 :
 new
@@ -947,7 +958,7 @@ wgsl
 ;
 let
 mut
-parser
+frontend
 =
 naga
 :
@@ -958,7 +969,7 @@ front
 wgsl
 :
 :
-Parser
+Frontend
 :
 :
 new
@@ -995,7 +1006,7 @@ unwrap
 (
 )
 ;
-parser
+frontend
 .
 parse
 (

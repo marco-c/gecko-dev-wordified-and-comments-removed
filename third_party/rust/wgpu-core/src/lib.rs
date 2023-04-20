@@ -49,6 +49,10 @@ clippy
 :
 too_many_arguments
 unused_braces
+clippy
+:
+:
+needless_borrowed_reference
 )
 ]
 #

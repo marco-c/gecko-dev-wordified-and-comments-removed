@@ -29,7 +29,7 @@ types
 scalar_components
 type_power
 }
-Parser
+Frontend
 Result
 }
 ;
@@ -254,10 +254,10 @@ pub
 fn
 new
 (
-parser
+frontend
 :
 &
-Parser
+Frontend
 body
 :
 &
@@ -379,7 +379,7 @@ name
 lookup
 )
 in
-parser
+frontend
 .
 global_variables
 .
@@ -391,7 +391,7 @@ this
 .
 add_global
 (
-parser
+frontend
 name
 lookup
 body
@@ -406,10 +406,10 @@ add_global
 &
 mut
 self
-parser
+frontend
 :
 &
-Parser
+Frontend
 name
 :
 &
@@ -459,7 +459,7 @@ v
 let
 span
 =
-parser
+frontend
 .
 module
 .
@@ -489,7 +489,7 @@ v
 )
 span
 )
-parser
+frontend
 .
 module
 .
@@ -530,7 +530,7 @@ index
 let
 span
 =
-parser
+frontend
 .
 module
 .
@@ -592,7 +592,7 @@ expr
 let
 ty
 =
-parser
+frontend
 .
 module
 .
@@ -604,7 +604,7 @@ handle
 ty
 ;
 match
-parser
+frontend
 .
 module
 .
@@ -648,7 +648,7 @@ Dynamic
 .
 }
 =
-parser
+frontend
 .
 module
 .
@@ -696,7 +696,7 @@ ty
 let
 span
 =
-parser
+frontend
 .
 module
 .
@@ -989,11 +989,11 @@ add_function_arg
 &
 mut
 self
-parser
+frontend
 :
 &
 mut
-Parser
+Frontend
 body
 :
 &
@@ -1079,7 +1079,7 @@ let
 opaque
 =
 match
-parser
+frontend
 .
 module
 .
@@ -1126,7 +1126,7 @@ is_lhs
 let
 span
 =
-parser
+frontend
 .
 module
 .
@@ -1143,7 +1143,7 @@ arg
 .
 ty
 =
-parser
+frontend
 .
 module
 .
@@ -1426,11 +1426,11 @@ mut
 stmt
 :
 StmtContext
-parser
+frontend
 :
 &
 mut
-Parser
+Frontend
 expr
 :
 Handle
@@ -1471,7 +1471,7 @@ lower_inner
 (
 &
 stmt
-parser
+frontend
 expr
 pos
 body
@@ -1507,11 +1507,11 @@ mut
 stmt
 :
 StmtContext
-parser
+frontend
 :
 &
 mut
-Parser
+Frontend
 expr
 :
 Handle
@@ -1549,7 +1549,7 @@ lower_expect_inner
 (
 &
 stmt
-parser
+frontend
 expr
 pos
 body
@@ -1585,11 +1585,11 @@ stmt
 :
 &
 StmtContext
-parser
+frontend
 :
 &
 mut
-Parser
+Frontend
 expr
 :
 Handle
@@ -1629,7 +1629,7 @@ self
 lower_inner
 (
 stmt
-parser
+frontend
 expr
 pos
 body
@@ -1925,11 +1925,11 @@ stmt
 :
 &
 StmtContext
-parser
+frontend
 :
 &
 mut
-Parser
+Frontend
 expr
 :
 Handle
@@ -2035,7 +2035,7 @@ self
 lower_expect_inner
 (
 stmt
-parser
+frontend
 index
 ExprPos
 :
@@ -2061,7 +2061,7 @@ None
 _
 =
 >
-parser
+frontend
 .
 solve_constant
 (
@@ -2083,7 +2083,7 @@ self
 lower_expect_inner
 (
 stmt
-parser
+frontend
 base
 pos
 .
@@ -2127,7 +2127,7 @@ base
 index
 :
 match
-parser
+frontend
 .
 module
 .
@@ -2255,7 +2255,7 @@ pos
 let
 resolved
 =
-parser
+frontend
 .
 resolve_type
 (
@@ -2325,7 +2325,7 @@ self
 lower_expect_inner
 (
 stmt
-parser
+frontend
 base
 pos
 body
@@ -2334,7 +2334,7 @@ body
 .
 0
 ;
-parser
+frontend
 .
 field_selection
 (
@@ -2412,7 +2412,7 @@ self
 lower_expect_inner
 (
 stmt
-parser
+frontend
 left
 ExprPos
 :
@@ -2434,7 +2434,7 @@ self
 lower_expect_inner
 (
 stmt
-parser
+frontend
 right
 ExprPos
 :
@@ -2462,7 +2462,7 @@ self
 .
 implicit_conversion
 (
-parser
+frontend
 &
 mut
 right
@@ -2481,7 +2481,7 @@ self
 .
 binary_implicit_conversion
 (
-parser
+frontend
 &
 mut
 left
@@ -2493,7 +2493,7 @@ right_meta
 )
 ?
 }
-parser
+frontend
 .
 typifier_grow
 (
@@ -2503,7 +2503,7 @@ left_meta
 )
 ?
 ;
-parser
+frontend
 .
 typifier_grow
 (
@@ -2524,7 +2524,7 @@ get
 (
 left
 &
-parser
+frontend
 .
 module
 .
@@ -2542,7 +2542,7 @@ get
 (
 right
 &
-parser
+frontend
 .
 module
 .
@@ -2633,7 +2633,7 @@ left_width
 =
 right_width
 {
-parser
+frontend
 .
 errors
 .
@@ -2657,17 +2657,17 @@ apply
 operation
 to
 {
+left_inner
 :
 ?
 }
 and
 {
+right_inner
 :
 ?
 }
 "
-left_inner
-right_inner
 )
 .
 into
@@ -2799,7 +2799,7 @@ Compose
 {
 ty
 :
-parser
+frontend
 .
 module
 .
@@ -3510,7 +3510,7 @@ left_width
 =
 right_width
 {
-parser
+frontend
 .
 errors
 .
@@ -3534,17 +3534,17 @@ apply
 operation
 to
 {
+left_inner
 :
 ?
 }
 and
 {
+right_inner
 :
 ?
 }
 "
-left_inner
-right_inner
 )
 .
 into
@@ -3688,7 +3688,7 @@ Compose
 {
 ty
 :
-parser
+frontend
 .
 module
 .
@@ -3783,7 +3783,7 @@ left_width
 =
 right_width
 {
-parser
+frontend
 .
 errors
 .
@@ -3807,17 +3807,17 @@ apply
 operation
 to
 {
+left_inner
 :
 ?
 }
 and
 {
+right_inner
 :
 ?
 }
 "
-left_inner
-right_inner
 )
 .
 into
@@ -3961,7 +3961,7 @@ Compose
 {
 ty
 :
-parser
+frontend
 .
 module
 .
@@ -4069,7 +4069,7 @@ self
 lower_expect_inner
 (
 stmt
-parser
+frontend
 expr
 ExprPos
 :
@@ -4123,7 +4123,7 @@ var
 .
 mutable
 {
-parser
+frontend
 .
 errors
 .
@@ -4308,7 +4308,7 @@ Lhs
 let
 maybe_expr
 =
-parser
+frontend
 .
 function_or_constructor_call
 (
@@ -4368,7 +4368,7 @@ self
 lower_expect_inner
 (
 stmt
-parser
+frontend
 condition
 ExprPos
 :
@@ -4421,7 +4421,7 @@ self
 lower_expect_inner
 (
 stmt
-parser
+frontend
 accept
 pos
 &
@@ -4451,7 +4451,7 @@ self
 lower_expect_inner
 (
 stmt
-parser
+frontend
 reject
 pos
 &
@@ -4495,7 +4495,7 @@ self
 .
 expr_scalar_components
 (
-parser
+frontend
 accept
 accept_meta
 )
@@ -4527,7 +4527,7 @@ self
 .
 expr_scalar_components
 (
-parser
+frontend
 reject
 reject_meta
 )
@@ -4670,7 +4670,7 @@ body
 let
 ty
 =
-parser
+frontend
 .
 resolve_type_handle
 (
@@ -4833,7 +4833,7 @@ self
 lower_expect_inner
 (
 stmt
-parser
+frontend
 tgt
 ExprPos
 :
@@ -4855,7 +4855,7 @@ self
 lower_expect_inner
 (
 stmt
-parser
+frontend
 value
 ExprPos
 :
@@ -4870,7 +4870,7 @@ ty
 =
 match
 *
-parser
+frontend
 .
 resolve_type
 (
@@ -4892,7 +4892,7 @@ base
 =
 >
 &
-parser
+frontend
 .
 module
 .
@@ -4928,7 +4928,7 @@ self
 .
 implicit_conversion
 (
-parser
+frontend
 &
 mut
 value
@@ -4982,7 +4982,7 @@ self
 lower_expect_inner
 (
 stmt
-parser
+frontend
 expr
 ExprPos
 :
@@ -5128,7 +5128,7 @@ res
 =
 match
 *
-parser
+frontend
 .
 resolve_type
 (
@@ -5308,7 +5308,7 @@ None
 =
 >
 {
-parser
+frontend
 .
 errors
 .
@@ -5363,7 +5363,7 @@ meta
 let
 constant_1
 =
-parser
+frontend
 .
 module
 .
@@ -5449,7 +5449,7 @@ columns
 let
 ty
 =
-parser
+frontend
 .
 module
 .
@@ -5594,7 +5594,7 @@ self
 lower_expect_inner
 (
 stmt
-parser
+frontend
 *
 e
 ExprPos
@@ -5642,7 +5642,7 @@ is_empty
 (
 )
 {
-parser
+frontend
 .
 errors
 .
@@ -5687,7 +5687,7 @@ self
 lower_expect_inner
 (
 stmt
-parser
+frontend
 object
 pos
 body
@@ -5699,7 +5699,7 @@ body
 let
 array_type
 =
-parser
+frontend
 .
 resolve_type
 (
@@ -5759,7 +5759,7 @@ self
 .
 forced_conversion
 (
-parser
+frontend
 &
 mut
 array_length
@@ -5841,10 +5841,10 @@ unknown
 method
 '
 {
+name
 }
 '
 "
-name
 )
 .
 into
@@ -5972,10 +5972,10 @@ expr_scalar_components
 &
 mut
 self
-parser
+frontend
 :
 &
-Parser
+Frontend
 expr
 :
 Handle
@@ -6005,7 +6005,7 @@ Bytes
 let
 ty
 =
-parser
+frontend
 .
 resolve_type
 (
@@ -6030,10 +6030,10 @@ expr_power
 &
 mut
 self
-parser
+frontend
 :
 &
-Parser
+Frontend
 expr
 :
 Handle
@@ -6060,7 +6060,7 @@ self
 .
 expr_scalar_components
 (
-parser
+frontend
 expr
 meta
 )
@@ -6160,10 +6160,10 @@ implicit_conversion
 &
 mut
 self
-parser
+frontend
 :
 &
-Parser
+Frontend
 expr
 :
 &
@@ -6216,7 +6216,7 @@ self
 .
 expr_power
 (
-parser
+frontend
 *
 expr
 meta
@@ -6255,10 +6255,10 @@ forced_conversion
 &
 mut
 self
-parser
+frontend
 :
 &
-Parser
+Frontend
 expr
 :
 &
@@ -6302,7 +6302,7 @@ self
 .
 expr_scalar_components
 (
-parser
+frontend
 *
 expr
 meta
@@ -6347,10 +6347,10 @@ binary_implicit_conversion
 &
 mut
 self
-parser
+frontend
 :
 &
-Parser
+Frontend
 left
 :
 &
@@ -6389,7 +6389,7 @@ self
 .
 expr_scalar_components
 (
-parser
+frontend
 *
 left
 left_meta
@@ -6403,7 +6403,7 @@ self
 .
 expr_scalar_components
 (
-parser
+frontend
 *
 right
 right_meta
@@ -6570,10 +6570,10 @@ implicit_splat
 &
 mut
 self
-parser
+frontend
 :
 &
-Parser
+Frontend
 expr
 :
 &
@@ -6603,7 +6603,7 @@ Result
 let
 expr_type
 =
-parser
+frontend
 .
 resolve_type
 (

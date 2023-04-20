@@ -358,7 +358,7 @@ Default
 ]
 pub
 struct
-Parser
+Frontend
 {
 meta
 :
@@ -409,7 +409,7 @@ module
 Module
 }
 impl
-Parser
+Frontend
 {
 fn
 reset

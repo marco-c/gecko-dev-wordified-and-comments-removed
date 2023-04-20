@@ -8574,6 +8574,11 @@ arg
 Mf
 :
 :
+CountLeadingZeros
+|
+Mf
+:
+:
 CountOneBits
 |
 Mf
