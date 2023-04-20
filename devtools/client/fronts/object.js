@@ -770,7 +770,6 @@ response
 async
 customFormatterBody
 (
-customFormatterIndex
 )
 {
 const
@@ -781,7 +780,6 @@ super
 .
 customFormatterBody
 (
-customFormatterIndex
 )
 ;
 if

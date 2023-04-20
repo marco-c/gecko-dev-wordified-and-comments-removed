@@ -331,7 +331,6 @@ rv
 processFormatterForHeader
 (
 {
-customFormatterIndex
 customFormatterObjectTagDepth
 valueDbgObj
 configDbgObj
@@ -437,7 +436,6 @@ function
 processFormatterForHeader
 (
 {
-customFormatterIndex
 customFormatterObjectTagDepth
 formatter
 valueDbgObj
@@ -862,7 +860,6 @@ return
 useCustomFormatter
 :
 true
-customFormatterIndex
 header
 :
 sanitizedHeader
@@ -874,6 +871,7 @@ hasBody
 ?
 .
 return
+formatter
 }
 ;
 }
@@ -882,7 +880,7 @@ function
 customFormatterBody
 (
 objectActor
-customFormatterIndex
+formatter
 )
 {
 const
@@ -911,6 +909,18 @@ globalWrapper
 ?
 .
 wrappedJSObject
+;
+const
+customFormatterIndex
+=
+global
+.
+devtoolsFormatters
+.
+indexOf
+(
+formatter
+)
 ;
 const
 dbg
@@ -949,16 +959,6 @@ makeGlobalObjectReference
 (
 global
 )
-;
-const
-formatter
-=
-global
-.
-devtoolsFormatters
-[
-customFormatterIndex
-]
 ;
 if
 (
