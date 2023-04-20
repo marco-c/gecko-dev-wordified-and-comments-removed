@@ -1276,6 +1276,15 @@ OS_TARGET
 Android
 "
 :
+CXXFLAGS
++
+=
+[
+"
+-
+msse2
+"
+]
 OS_LIBS
 +
 =

@@ -497,6 +497,15 @@ CPU_ARCH
 x86
 "
 :
+CXXFLAGS
++
+=
+[
+"
+-
+msse2
+"
+]
 OS_LIBS
 +
 =

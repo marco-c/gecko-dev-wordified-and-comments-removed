@@ -2580,6 +2580,15 @@ OS_TARGET
 Linux
 "
 :
+CXXFLAGS
++
+=
+[
+"
+-
+msse2
+"
+]
 DEFINES
 [
 "

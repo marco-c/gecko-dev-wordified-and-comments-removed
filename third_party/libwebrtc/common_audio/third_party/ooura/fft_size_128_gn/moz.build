@@ -1413,6 +1413,10 @@ CXXFLAGS
 -
 msse2
 "
+"
+-
+msse2
+"
 ]
 OS_LIBS
 +
@@ -1601,6 +1605,10 @@ CXXFLAGS
 +
 =
 [
+"
+-
+msse2
+"
 "
 -
 msse2
