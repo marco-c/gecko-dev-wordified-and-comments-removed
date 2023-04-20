@@ -5030,7 +5030,6 @@ IsAllZero
 )
 |
 |
-(
 !
 IsXULCollapsedXULFrame
 (
@@ -5039,7 +5038,6 @@ aFrame
 >
 GetParent
 (
-)
 )
 )
 )
