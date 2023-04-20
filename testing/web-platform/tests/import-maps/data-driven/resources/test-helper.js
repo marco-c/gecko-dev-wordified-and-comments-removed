@@ -132,8 +132,11 @@ html
 ;
 iframe
 .
-onload
-=
+addEventListener
+(
+'
+load
+'
 (
 )
 =
@@ -157,6 +160,12 @@ close
 )
 ;
 }
+{
+once
+:
+true
+}
+)
 ;
 }
 document
