@@ -1,11 +1,3 @@
-#
-[
-macro_use
-]
-extern
-crate
-matches
-;
 use
 percent_encoding
 :
@@ -1945,8 +1937,6 @@ const
 [
 u8
 ]
-;
-raw_utf8
 =
 utf8
 .
