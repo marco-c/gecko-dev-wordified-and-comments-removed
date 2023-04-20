@@ -366,7 +366,7 @@ Francisco
 url
 :
 "
-http
+https
 :
 /
 /
@@ -404,7 +404,7 @@ current_conditions
 url
 :
 "
-http
+https
 :
 /
 /
@@ -448,7 +448,7 @@ forecast
 url
 :
 "
-http
+https
 :
 /
 /
