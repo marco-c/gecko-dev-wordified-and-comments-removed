@@ -11219,12 +11219,8 @@ childFrame
 containerFrame
 -
 >
-GetChildList
+PrincipalChildList
 (
-nsIFrame
-:
-:
-kPrincipalList
 )
 )
 {
@@ -42632,12 +42628,8 @@ child
 aFrame
 -
 >
-GetChildList
+PrincipalChildList
 (
-nsIFrame
-:
-:
-kPrincipalList
 )
 .
 LastChild

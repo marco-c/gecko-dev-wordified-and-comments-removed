@@ -25828,9 +25828,8 @@ return
 aParentFrame
 -
 >
-GetChildList
+PrincipalChildList
 (
-kPrincipalList
 )
 .
 LastChild
@@ -50236,9 +50235,8 @@ prevSibling
 parentPrevCont
 -
 >
-GetChildList
+PrincipalChildList
 (
-kPrincipalList
 )
 .
 LastChild
