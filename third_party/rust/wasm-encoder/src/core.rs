@@ -32,6 +32,9 @@ mod
 names
 ;
 mod
+producers
+;
+mod
 start
 ;
 mod
@@ -116,6 +119,13 @@ memories
 pub
 use
 names
+:
+:
+*
+;
+pub
+use
+producers
 :
 :
 *

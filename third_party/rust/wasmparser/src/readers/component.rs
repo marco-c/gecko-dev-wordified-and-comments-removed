@@ -14,6 +14,9 @@ mod
 instances
 ;
 mod
+names
+;
+mod
 start
 ;
 mod
@@ -65,6 +68,16 @@ self
 :
 :
 instances
+:
+:
+*
+;
+pub
+use
+self
+:
+:
+names
 :
 :
 *

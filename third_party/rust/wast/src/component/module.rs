@@ -89,9 +89,6 @@ a
 pub
 exports
 :
-core
-:
-:
 InlineExport
 <
 '

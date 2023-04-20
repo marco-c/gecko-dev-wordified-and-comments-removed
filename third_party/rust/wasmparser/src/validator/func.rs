@@ -349,7 +349,7 @@ cnt
 =
 reader
 .
-read_var_u32
+read
 (
 )
 ?
@@ -359,7 +359,7 @@ ty
 =
 reader
 .
-read_val_type
+read
 (
 )
 ?

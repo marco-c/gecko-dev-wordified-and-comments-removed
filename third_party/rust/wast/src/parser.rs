@@ -1735,10 +1735,10 @@ cursor
 cur_span
 (
 )
-&
 msg
 )
 }
+pub
 fn
 error_at
 (
@@ -1748,8 +1748,7 @@ span
 Span
 msg
 :
-&
-dyn
+impl
 fmt
 :
 :
@@ -2171,7 +2170,6 @@ self
 cur_span
 (
 )
-&
 msg
 )
 }
