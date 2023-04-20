@@ -3736,6 +3736,16 @@ data
 }
 data
 .
+desktopEnvironment
+=
+Services
+.
+appinfo
+.
+desktopEnvironment
+;
+data
+.
 numTotalWindows
 =
 0
@@ -4140,9 +4150,6 @@ TargetFrameRate
 targetFrameRate
 "
 windowProtocol
-:
-null
-desktopEnvironment
 :
 null
 }

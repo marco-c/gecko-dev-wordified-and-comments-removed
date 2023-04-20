@@ -113,15 +113,6 @@ aWindowProtocol
 override
 ;
 NS_IMETHOD
-GetDesktopEnvironment
-(
-nsAString
-&
-aDesktopEnvironment
-)
-override
-;
-NS_IMETHOD
 GetTestType
 (
 nsAString
