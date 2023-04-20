@@ -284,8 +284,8 @@ body
 =
 b
 "
-dummy
-value
+{
+}
 "
     
 return

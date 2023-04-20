@@ -4410,9 +4410,6 @@ audioDecoder_WMF
 "
 mfMediaEngineCDM
 "
-"
-jSOracle
-"
 }
 ;
 dictionary
