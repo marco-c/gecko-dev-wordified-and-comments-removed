@@ -1057,7 +1057,7 @@ markedAtoms
 (
 )
 .
-getBit
+readonlyThreadsafeGetBit
 (
 bit
 )
