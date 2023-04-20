@@ -8671,6 +8671,17 @@ deps
 :
 android_codec_factory_helper
 "
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
+stringutils
+"
 ]
 }
 if
