@@ -7255,6 +7255,12 @@ newArea
 newPosition
 )
 ;
+this
+.
+updateAttention
+(
+)
+;
 }
 }
 ;
