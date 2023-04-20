@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-e647d8aafa544b4a0321279eee197f745ea7ab3b
+857ff5a922b85df88a46c36b059b430aaa443e0e
 '
 #
 Keep
@@ -146,9 +146,9 @@ version
 :
 9
 .
-20220918
+20220919
 .
-3
+1
 .
 1
 '
@@ -232,7 +232,7 @@ chromium
 src
 /
 base
-04a289020498d3e8c4582b405360df4a32ac33cb
+49464f1a903ebb1d7270a2adc29623e7d4dccca3
 '
 '
 src
@@ -376,7 +376,7 @@ chromium
 src
 /
 ios
-b99b40e9f6f93f6a10c6b35f50e4c64fa5bf4c27
+730eee44bf1eac94f924746696f1d9c5af510403
 '
 '
 condition
@@ -408,7 +408,7 @@ chromium
 src
 /
 testing
-78ed61932dd5d01112f3ffd45c4e0bf93e61c92d
+99a8693287681ac65127f4943e5ea520998dbe17
 '
 '
 src
@@ -432,7 +432,7 @@ chromium
 src
 /
 third_party
-9dc4d5681e86ee3d8d0c1b933b6d0aa2b4c9aab9
+a9c61d5e2ff8b2487689399d9ac98ac4bb58cfb5
 '
 '
 src
@@ -2581,7 +2581,7 @@ chromium
 src
 /
 tools
-22175c559474c835f63a8881e08f967ec23ec8a5
+fa6b89e62902acda0af4803028841792fb3b2326
 '
 '
 src
@@ -3027,9 +3027,9 @@ version
 '
 :
 '
-AYvQ0esaflIAo3TIi1RiQRaC6dRKgb43RQH8A
+57GvG50OUQda15ok8arvlweTpZAfD2QHyBuSpD1
 -
-6feBEC
+LY0C
 '
 }
 ]
