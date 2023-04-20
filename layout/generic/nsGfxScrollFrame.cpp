@@ -22400,10 +22400,17 @@ GetPendingVisualScrollUpdate
 )
 {
 return
+GetScrollRangeForUserInputEvents
+(
+)
+.
+ClampPoint
+(
 pendingUpdate
 -
 >
 mVisualScrollOffset
+)
 ;
 }
 return
