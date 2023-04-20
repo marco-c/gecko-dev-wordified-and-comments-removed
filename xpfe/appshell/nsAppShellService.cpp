@@ -2507,6 +2507,11 @@ nsIWebBrowserChrome
 :
 :
 CHROME_OPENAS_CHROME
+|
+nsIWebBrowserChrome
+:
+:
+CHROME_WINDOW_RESIZE
 ;
 uint32_t
 barMask
