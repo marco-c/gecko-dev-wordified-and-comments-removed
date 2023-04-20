@@ -765,9 +765,15 @@ Path
 :
     
 with
+requirements_txt
+.
 open
 (
-requirements_txt
+mode
+=
+"
+r
+"
 )
 as
 f
@@ -786,11 +792,26 @@ markerless_lines
 [
 ]
     
+continuation_token
+=
+"
+\
+\
+"
+    
 for
 line
 in
 lines
 :
+        
+line
+=
+line
+.
+rstrip
+(
+)
         
 if
 not
@@ -811,12 +832,25 @@ startswith
 #
 "
 )
+and
+"
+;
+"
+in
+line
 :
             
-markerless_lines
+has_continuation_token
+=
+line
 .
-append
+endswith
 (
+continuation_token
+)
+            
+line
+=
 line
 .
 split
@@ -828,6 +862,21 @@ split
 [
 0
 ]
+            
+if
+has_continuation_token
+:
+                
+line
++
+=
+continuation_token
+            
+markerless_lines
+.
+append
+(
+line
 )
         
 else
@@ -841,9 +890,12 @@ line
 )
     
 with
+requirements_txt
+.
 open
 (
-requirements_txt
+mode
+=
 "
 w
 "
@@ -854,9 +906,17 @@ f
         
 f
 .
-writelines
+write
+(
+"
+\
+n
+"
+.
+join
 (
 markerless_lines
+)
 )
 def
 _purge_vendor_dir
