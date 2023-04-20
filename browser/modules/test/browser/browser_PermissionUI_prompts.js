@@ -36,7 +36,7 @@ PermissionUI
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -48,9 +48,7 @@ modules
 /
 PermissionUI
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
