@@ -15436,6 +15436,10 @@ PlacesEventType
 Bookmark_url_changed
 )
 ;
+mIsBookmarksObserver
+=
+false
+;
 }
 if
 (
