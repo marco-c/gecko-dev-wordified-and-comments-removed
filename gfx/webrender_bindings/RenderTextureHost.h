@@ -92,6 +92,9 @@ namespace
 wr
 {
 class
+RenderAndroidHardwareBufferTextureHost
+;
+class
 RenderAndroidSurfaceTextureHost
 ;
 class
@@ -289,6 +292,17 @@ virtual
 RenderMacIOSurfaceTextureHost
 *
 AsRenderMacIOSurfaceTextureHost
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+RenderAndroidHardwareBufferTextureHost
+*
+AsRenderAndroidHardwareBufferTextureHost
 (
 )
 {
