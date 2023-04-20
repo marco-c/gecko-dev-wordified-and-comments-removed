@@ -96,7 +96,7 @@ print0
 tar
 TAR_FLAGS
 -
-cf
+cvf
 -
 -
 -
