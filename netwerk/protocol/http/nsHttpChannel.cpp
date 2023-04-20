@@ -45933,6 +45933,10 @@ const
 nsACString
 &
 linkHeader
+const
+nsACString
+&
+referrerPolicy
 )
 {
 LOG
@@ -45986,6 +45990,7 @@ mEarlyHintObserver
 EarlyHint
 (
 linkHeader
+referrerPolicy
 )
 ;
 }

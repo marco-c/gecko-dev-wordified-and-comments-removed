@@ -138,6 +138,10 @@ aBaseURI
 nsIChannel
 *
 aChannel
+const
+nsACString
+&
+aReferrerPolicy
 )
 {
 mEarlyHintsCount
@@ -311,6 +315,7 @@ linkHeader
 aBaseURI
 principal
 cookieJarSettings
+aReferrerPolicy
 )
 ;
 }

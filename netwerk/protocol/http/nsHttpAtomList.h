@@ -514,6 +514,15 @@ Referer
 )
 HTTP_ATOM
 (
+Referrer_Policy
+"
+Referrer
+-
+Policy
+"
+)
+HTTP_ATOM
+(
 Retry_After
 "
 Retry
