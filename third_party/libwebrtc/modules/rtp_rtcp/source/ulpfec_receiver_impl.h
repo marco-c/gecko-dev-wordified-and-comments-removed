@@ -161,7 +161,7 @@ ulpfec_payload_type
 )
 override
 ;
-int32_t
+void
 ProcessReceivedFec
 (
 )

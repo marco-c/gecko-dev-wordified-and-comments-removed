@@ -146,7 +146,7 @@ ulpfec_payload_type
 0
 ;
 virtual
-int32_t
+void
 ProcessReceivedFec
 (
 )

@@ -722,7 +722,7 @@ return
 true
 ;
 }
-int32_t
+void
 UlpfecReceiverImpl
 :
 :
@@ -1014,8 +1014,5 @@ size
 )
 ;
 }
-return
-0
-;
 }
 }
