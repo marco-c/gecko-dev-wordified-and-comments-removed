@@ -1,0 +1,16 @@
+export
+declare
+const
+MAIN_WORLD
+:
+unique
+symbol
+;
+export
+declare
+const
+PUPPETEER_WORLD
+:
+unique
+symbol
+;

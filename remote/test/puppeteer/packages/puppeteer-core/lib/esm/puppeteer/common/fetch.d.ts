@@ -1,0 +1,15 @@
+export
+declare
+const
+getFetch
+:
+(
+)
+=
+>
+Promise
+<
+typeof
+fetch
+>
+;

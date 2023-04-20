@@ -1,0 +1,12 @@
+export
+declare
+function
+downloadBrowser
+(
+)
+:
+Promise
+<
+void
+>
+;
