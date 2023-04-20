@@ -185,9 +185,6 @@ SharedContext
 :
 SharedContext
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -206,10 +203,6 @@ SourceExtent
 extent
 )
 :
-cx_
-(
-cx
-)
 fc_
 (
 fc
@@ -387,9 +380,6 @@ GlobalSharedContext
 :
 GlobalSharedContext
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -410,7 +400,6 @@ extent
 :
 SharedContext
 (
-cx
 fc
 Kind
 :
@@ -466,9 +455,6 @@ EvalSharedContext
 :
 EvalSharedContext
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -481,7 +467,6 @@ extent
 :
 SharedContext
 (
-cx
 fc
 Kind
 :
@@ -556,9 +541,6 @@ SuspendableContext
 :
 SuspendableContext
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -583,7 +565,6 @@ isAsync
 :
 SharedContext
 (
-cx
 fc
 kind
 options
@@ -615,9 +596,6 @@ FunctionBox
 :
 FunctionBox
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -644,7 +622,6 @@ index
 :
 SuspendableContext
 (
-cx
 fc
 Kind
 :
@@ -1462,7 +1439,12 @@ compilationState_
 .
 asmJS
 =
-cx_
+fc_
+-
+>
+getAllocator
+(
+)
 -
 >
 new_
@@ -1525,9 +1507,6 @@ ModuleSharedContext
 :
 ModuleSharedContext
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -1547,7 +1526,6 @@ extent
 :
 SuspendableContext
 (
-cx
 fc
 Kind
 :

@@ -1638,7 +1638,6 @@ column
 GlobalSharedContext
 globalsc
 (
-cx
 fc
 scopeKind
 input
@@ -3065,7 +3064,6 @@ column
 EvalSharedContext
 evalsc
 (
-cx
 &
 fc
 compiler
@@ -4261,7 +4259,6 @@ column
 ModuleSharedContext
 modulesc
 (
-cx
 fc
 options
 builder

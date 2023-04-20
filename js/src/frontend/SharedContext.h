@@ -142,10 +142,6 @@ StencilEnums
 .
 h
 "
-struct
-JS_PUBLIC_API
-JSContext
-;
 namespace
 JS
 {
@@ -531,11 +527,6 @@ SharedContext
 {
 public
 :
-JSContext
-*
-const
-cx_
-;
 FrontendContext
 *
 const
@@ -700,9 +691,6 @@ public
 :
 SharedContext
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -1177,9 +1165,6 @@ bindings
 ;
 GlobalSharedContext
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -1256,9 +1241,6 @@ bindings
 ;
 EvalSharedContext
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -1317,9 +1299,6 @@ public
 :
 SuspendableContext
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -1599,9 +1578,6 @@ isStandalone
 ;
 FunctionBox
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
