@@ -1802,7 +1802,7 @@ ifdef
 MOZ_WAYLAND
 nsMenuPopupFrame
 *
-menuPopupFrame
+f
 =
 do_QueryFrame
 (
@@ -1812,7 +1812,10 @@ GetPrimaryFrame
 )
 ;
 return
-menuPopupFrame
+f
+&
+&
+f
 -
 >
 IsDragSource
