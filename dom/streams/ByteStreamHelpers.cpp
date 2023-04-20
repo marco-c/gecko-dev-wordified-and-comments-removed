@@ -593,6 +593,8 @@ forget
 (
 )
 ;
+if
+(
 RefPtr
 <
 BodyStream
@@ -605,7 +607,8 @@ holder
 GetBodyStream
 (
 )
-;
+)
+{
 bodyStream
 -
 >
@@ -613,6 +616,7 @@ CloseInputAndReleaseObjects
 (
 )
 ;
+}
 }
 BodyStreamHolder
 *

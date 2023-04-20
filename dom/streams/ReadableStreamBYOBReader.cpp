@@ -1058,7 +1058,7 @@ aRv
 ThrowTypeError
 (
 "
-Detatched
+Detached
 Buffer
 "
 )
