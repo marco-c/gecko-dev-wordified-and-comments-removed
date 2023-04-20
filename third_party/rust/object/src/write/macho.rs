@@ -379,7 +379,6 @@ StandardSection
 ReadOnlyDataWithRel
 =
 >
-{
 (
 &
 b
@@ -402,9 +401,8 @@ __const
 SectionKind
 :
 :
-ReadOnlyData
+ReadOnlyDataWithRel
 )
-}
 StandardSection
 :
 :
@@ -2520,6 +2518,11 @@ SectionKind
 :
 :
 ReadOnlyData
+|
+SectionKind
+:
+:
+ReadOnlyDataWithRel
 =
 >
 0
