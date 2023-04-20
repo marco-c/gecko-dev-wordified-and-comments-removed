@@ -384,6 +384,15 @@ biguint64
 \
 MACRO_
 (
+bound
+bound
+"
+bound
+"
+)
+\
+MACRO_
+(
 boundWithSpace
 boundWithSpace
 "

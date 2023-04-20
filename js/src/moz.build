@@ -2354,6 +2354,13 @@ cpp
 "
 vm
 /
+BoundFunctionObject
+.
+cpp
+"
+"
+vm
+/
 BuildId
 .
 cpp

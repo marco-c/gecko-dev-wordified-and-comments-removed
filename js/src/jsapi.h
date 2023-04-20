@@ -2111,11 +2111,11 @@ fun
 extern
 JS_PUBLIC_API
 bool
-JS_IsFunctionBound
+JS_ObjectIsBoundFunction
 (
-JSFunction
+JSObject
 *
-fun
+obj
 )
 ;
 extern
@@ -2124,9 +2124,9 @@ JSObject
 *
 JS_GetBoundFunctionTarget
 (
-JSFunction
+JSObject
 *
-fun
+obj
 )
 ;
 extern
