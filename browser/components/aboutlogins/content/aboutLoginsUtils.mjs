@@ -80,7 +80,9 @@ to
 the
 AboutLoginsChild
 .
-jsm
+sys
+.
+mjs
 script
 which
 *
