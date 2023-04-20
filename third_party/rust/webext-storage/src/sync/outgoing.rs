@@ -1130,7 +1130,6 @@ unwrap
 assert
 !
 (
-!
 outgoing_map
 .
 contains_key
@@ -1175,7 +1174,7 @@ outgoing_map
 len
 (
 )
-2
+3
 )
 ;
 }
