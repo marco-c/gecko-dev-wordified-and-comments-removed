@@ -6441,6 +6441,13 @@ helperThreadCount
 return
 ;
 }
+static
+constexpr
+size_t
+SpareThreadsDuringParallelMarking
+=
+2
+;
 if
 (
 rt
@@ -6517,6 +6524,8 @@ markingThreadCount
 ref
 (
 )
++
+SpareThreadsDuringParallelMarking
 )
 ;
 AutoLockHelperThreadState
@@ -6542,6 +6551,14 @@ GetHelperThreadCount
 (
 )
 ;
+MOZ_ASSERT
+(
+availableThreadCount
+!
+=
+0
+)
+;
 targetCount
 =
 std
@@ -6581,6 +6598,8 @@ ref
 (
 )
 availableThreadCount
+-
+SpareThreadsDuringParallelMarking
 )
 ;
 HelperThreadState

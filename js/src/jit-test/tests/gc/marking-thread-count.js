@@ -1,11 +1,4 @@
 let
-initialHelperThreadCount
-=
-helperThreadCount
-(
-)
-;
-let
 initialGCHelperThreadCount
 =
 gcparam
@@ -18,7 +11,9 @@ helperThreadCount
 let
 prevHelperThreadCount
 =
-initialHelperThreadCount
+helperThreadCount
+(
+)
 ;
 for
 (
@@ -67,9 +62,12 @@ initialGCHelperThreadCount
 ;
 assertEq
 (
+true
 helperThreadCount
 (
 )
+>
+=
 Math
 .
 max
