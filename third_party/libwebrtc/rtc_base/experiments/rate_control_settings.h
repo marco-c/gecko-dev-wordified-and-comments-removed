@@ -202,11 +202,6 @@ trust_vp9
 true
 ;
 bool
-probe_max_allocation
-=
-true
-;
-bool
 bitrate_adjuster
 =
 true
@@ -390,12 +385,6 @@ const
 ;
 bool
 Vp8BaseHeavyTl3RateAllocation
-(
-)
-const
-;
-bool
-TriggerProbeOnMaxAllocatedBitrateChange
 (
 )
 const
