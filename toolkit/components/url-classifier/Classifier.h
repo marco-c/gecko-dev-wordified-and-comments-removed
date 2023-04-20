@@ -35,6 +35,15 @@ h
 #
 include
 "
+mozilla
+/
+Atomics
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -664,7 +673,10 @@ mNewLookupCaches
 bool
 mUpdateInterrupted
 ;
+Atomic
+<
 bool
+>
 mIsClosed
 ;
 nsCOMPtr
