@@ -653,6 +653,16 @@ fields
 ;
 }
 }
+if
+(
+!
+cache
+.
+IsEmpty
+(
+)
+)
+{
 Unused
 <
 <
@@ -667,6 +677,7 @@ cache
 aSuppressShowEvent
 )
 ;
+}
 }
 }
 void
