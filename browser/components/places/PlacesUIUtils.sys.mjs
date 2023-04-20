@@ -3238,6 +3238,9 @@ features
 centerscreen
 chrome
 modal
+resizable
+=
+no
 "
 ;
 let
