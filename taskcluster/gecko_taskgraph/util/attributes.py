@@ -208,6 +208,19 @@ toolchains
 )
     
 "
+trunk
+-
+only
+"
+:
+lambda
+project
+:
+project
+in
+TRUNK_PROJECTS
+    
+"
 autoland
 "
 :
