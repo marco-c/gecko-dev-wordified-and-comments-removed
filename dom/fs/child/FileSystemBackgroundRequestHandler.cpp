@@ -215,6 +215,15 @@ mCreatingFileSystemManagerChild
 =
 false
 ;
+Unused
+<
+<
+mCreateFileSystemManagerChildPromiseHolder
+.
+Steal
+(
+)
+;
 }
 }
 const

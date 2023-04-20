@@ -821,6 +821,11 @@ NoteTerminating
 (
 )
 ;
+void
+NoteShuttingDown
+(
+)
+;
 RefPtr
 <
 ServiceWorkerRegistration

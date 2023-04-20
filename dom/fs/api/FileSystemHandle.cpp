@@ -1613,6 +1613,9 @@ return
 nullptr
 ;
 }
+#
+if
+0
 auto
 fileSystemManager
 =
@@ -1646,6 +1649,13 @@ forget
 (
 )
 ;
+#
+else
+return
+nullptr
+;
+#
+endif
 }
 already_AddRefed
 <
@@ -1697,6 +1707,9 @@ return
 nullptr
 ;
 }
+#
+if
+0
 auto
 fileSystemManager
 =
@@ -1730,5 +1743,12 @@ forget
 (
 )
 ;
+#
+else
+return
+nullptr
+;
+#
+endif
 }
 }
