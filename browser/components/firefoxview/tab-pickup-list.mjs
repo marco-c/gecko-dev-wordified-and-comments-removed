@@ -1792,8 +1792,6 @@ lastUsedMs
 tab
 .
 lastUsed
-*
-1000
 ;
 const
 time
