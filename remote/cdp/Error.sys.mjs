@@ -201,9 +201,9 @@ notify
 (
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 this
 )
