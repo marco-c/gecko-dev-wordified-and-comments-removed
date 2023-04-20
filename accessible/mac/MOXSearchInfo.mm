@@ -559,6 +559,14 @@ return
 !
 !
 mSearchText
+&
+&
+[
+mSearchText
+length
+]
+>
+0
 ;
 }
 -
