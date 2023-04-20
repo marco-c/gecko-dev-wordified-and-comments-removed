@@ -1313,6 +1313,11 @@ mSentPlaybackEndedEvent
 =
 false
 ;
+bool
+mHasReceivedFirstDecodedVideoFrame
+=
+false
+;
 const
 RefPtr
 <
