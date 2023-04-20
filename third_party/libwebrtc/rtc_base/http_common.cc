@@ -1578,9 +1578,13 @@ buffer
 256
 ]
 ;
-sprintf
+snprintf
 (
 buffer
+sizeof
+(
+buffer
+)
 "
 %
 d
