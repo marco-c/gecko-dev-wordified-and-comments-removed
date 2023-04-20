@@ -113,6 +113,8 @@ migration
 migration
 -
 dialog
+-
+window
 .
 html
 (
@@ -121,6 +123,8 @@ content
 migration
 -
 dialog
+-
+window
 .
 html
 )
@@ -133,6 +137,8 @@ migration
 migration
 -
 dialog
+-
+window
 .
 js
 (
@@ -141,6 +147,8 @@ content
 migration
 -
 dialog
+-
+window
 .
 js
 )

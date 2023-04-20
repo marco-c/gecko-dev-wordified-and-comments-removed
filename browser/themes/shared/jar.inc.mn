@@ -1573,6 +1573,8 @@ migration
 migration
 -
 dialog
+-
+window
 .
 css
 (
@@ -1586,6 +1588,8 @@ migration
 migration
 -
 dialog
+-
+window
 .
 css
 )
