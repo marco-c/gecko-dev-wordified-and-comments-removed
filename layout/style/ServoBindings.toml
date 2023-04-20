@@ -432,6 +432,13 @@ StyleGeneric
 .
 *
 "
+"
+.
+*
+ErrorResult
+.
+*
+"
 ]
 bitfield
 -
@@ -446,12 +453,6 @@ mozilla
 :
 :
 OriginFlags
-"
-"
-mozilla
-:
-:
-StyleTextUnderlinePosition
 "
 ]
 rusty
