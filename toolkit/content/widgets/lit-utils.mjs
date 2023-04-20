@@ -706,6 +706,16 @@ connectedCallback
 ;
 if
 (
+this
+.
+renderRoot
+=
+=
+this
+.
+shadowRoot
+&
+&
 !
 this
 .
