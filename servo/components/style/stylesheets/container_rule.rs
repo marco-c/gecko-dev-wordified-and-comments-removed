@@ -1108,7 +1108,7 @@ size
 =
 potential_container
 .
-primary_content_box_size
+query_container_size
 (
 )
 ;
@@ -2468,7 +2468,7 @@ size
 =
 e
 .
-primary_content_box_size
+query_container_size
 (
 )
 ;
