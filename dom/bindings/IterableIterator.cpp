@@ -980,6 +980,7 @@ nsIGlobalObject
 &
 aGlobalObject
 )
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 return
 NextSteps
@@ -1361,6 +1362,7 @@ Value
 >
 aVal
 )
+MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 return
 ReturnSteps

@@ -127,6 +127,7 @@ HasRejectedCallback
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ResolvedCallback
 (
@@ -150,6 +151,7 @@ aRv
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 RejectedCallback
 (
@@ -183,6 +185,7 @@ PromiseNativeThenHandlerBase
 =
 default
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 already_AddRefed
 <
@@ -211,6 +214,7 @@ aRv
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 already_AddRefed
 <
@@ -988,6 +992,7 @@ isSome
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -1025,6 +1030,7 @@ aRv
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -1123,6 +1129,7 @@ size_t
 .
 JSIndices
 >
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -1218,6 +1225,7 @@ template
 typename
 TCallback
 >
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
