@@ -199,6 +199,18 @@ GlobalObject
 (
 )
 ;
+if
+(
+globalObj
+.
+maybeWindowProxy
+(
+)
+!
+=
+windowProxy
+)
+{
 globalObj
 .
 setWindowProxy
@@ -217,6 +229,7 @@ setWindowProxyThisObject
 windowProxy
 )
 ;
+}
 }
 JSObject
 *
