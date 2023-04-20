@@ -2039,6 +2039,7 @@ Logger
 .
 AssertTrue
 (
+await
 lazy
 .
 BrowserTabs
@@ -2099,6 +2100,7 @@ Logger
 .
 AssertTrue
 (
+await
 !
 lazy
 .
