@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TESTS
 =
@@ -318,7 +323,7 @@ async
 function
 doTests
 (
-private
+usePrivate
 container
 )
 {
@@ -345,6 +350,8 @@ openNewBrowserWindow
 (
 {
 private
+:
+usePrivate
 }
 )
 ;
@@ -386,7 +393,7 @@ id
 private
 =
 {
-private
+usePrivate
 }
 container
 =
@@ -524,7 +531,7 @@ isWindowPrivate
 (
 window
 )
-private
+usePrivate
 "
 Private
 status
