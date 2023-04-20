@@ -2926,7 +2926,7 @@ deps
 /
 rtc_base
 :
-divide_round
+rtc_numerics
 "
 "
 /
