@@ -501,6 +501,7 @@ initialBrowser
 frameLoader
 .
 remoteTab
+?
 .
 hasLayers
 ;
