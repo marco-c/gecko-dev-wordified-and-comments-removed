@@ -648,6 +648,11 @@ resetRules
 )
 {
 }
+resetDomainTelemetryRecord
+(
+)
+{
+}
 }
 ;
 registerCleanupFunction
