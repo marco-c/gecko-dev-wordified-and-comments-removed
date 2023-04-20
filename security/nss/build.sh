@@ -936,6 +936,13 @@ msan
 ;
 -
 -
+sourcecov
+)
+enable_sourcecov
+;
+;
+-
+-
 ubsan
 )
 enable_ubsan

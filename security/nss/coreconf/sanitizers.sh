@@ -338,6 +338,13 @@ sancov
 sancov
 "
 }
+enable_sourcecov
+(
+)
+{
+enable_sanitizer
+sourcecov
+}
 enable_ubsan
 (
 )
