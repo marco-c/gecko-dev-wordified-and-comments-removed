@@ -3,18 +3,8 @@ __future__
 import
 absolute_import
 unicode_literals
-try
-:
-    
 import
-blessings
-except
-ImportError
-:
-    
-blessings
-=
-None
+blessed
 import
 codecs
 import
@@ -683,8 +673,6 @@ terminal
 normal
 if
 terminal
-and
-blessings
 else
 "
 "
@@ -1339,8 +1327,6 @@ not
 self
 .
 _terminal
-and
-blessings
 :
             
 try
@@ -1348,7 +1334,7 @@ try
                 
 terminal
 =
-blessings
+blessed
 .
 Terminal
 (
