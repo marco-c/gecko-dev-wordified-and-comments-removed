@@ -992,6 +992,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 HidePopover
 (
@@ -1000,6 +1001,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 TogglePopover
 (

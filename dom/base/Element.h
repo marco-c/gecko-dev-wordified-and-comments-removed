@@ -1722,6 +1722,12 @@ IsAutoPopover
 )
 const
 ;
+bool
+IsPopoverOpen
+(
+)
+const
+;
 ElementAnimationData
 *
 GetAnimationData
