@@ -555,8 +555,6 @@ urlResult
 element
 .
 row
-.
-_content
 )
 ;
 Assert
