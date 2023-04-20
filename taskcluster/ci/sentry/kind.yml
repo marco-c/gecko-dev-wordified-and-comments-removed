@@ -116,6 +116,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 taskcluster
