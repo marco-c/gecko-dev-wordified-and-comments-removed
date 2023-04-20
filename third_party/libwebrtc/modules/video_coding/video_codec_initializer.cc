@@ -2076,13 +2076,14 @@ case
 kVideoCodecH264
 :
 {
-if
+RTC_CHECK
 (
 !
 config
 .
 encoder_specific_settings
 )
+;
 *
 video_codec
 .
