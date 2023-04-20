@@ -27,8 +27,10 @@ js
 "
 )
 ;
-function
+class
 BreakpointActorMap
+{
+constructor
 (
 threadActor
 )
@@ -47,11 +49,6 @@ _actors
 }
 ;
 }
-BreakpointActorMap
-.
-prototype
-=
-{
 _locationKey
 (
 location
@@ -216,7 +213,6 @@ key
 ;
 }
 }
-;
 exports
 .
 BreakpointActorMap

@@ -3,8 +3,10 @@ use
 strict
 "
 ;
-function
+class
 SourceLocation
+{
+constructor
 (
 actor
 line
@@ -48,11 +50,6 @@ _column
 column
 ;
 }
-SourceLocation
-.
-prototype
-=
-{
 get
 sourceActor
 (
@@ -218,7 +215,6 @@ column
 ;
 }
 }
-;
 exports
 .
 SourceLocation

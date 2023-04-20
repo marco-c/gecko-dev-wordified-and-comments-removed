@@ -384,8 +384,10 @@ error
 )
 ;
 }
-function
+class
 CustomizedReload
+{
+constructor
 (
 params
 )
@@ -455,13 +457,8 @@ WeakSet
 )
 ;
 }
-CustomizedReload
-.
-prototype
-=
-{
 QueryInterface
-:
+=
 ChromeUtils
 .
 generateQI
@@ -475,6 +472,7 @@ nsISupportsWeakReference
 "
 ]
 )
+;
 get
 window
 (
@@ -1037,7 +1035,6 @@ true
 ;
 }
 }
-;
 class
 WebExtensionInspectedWindowActor
 extends

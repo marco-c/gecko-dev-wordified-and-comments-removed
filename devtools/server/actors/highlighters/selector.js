@@ -64,8 +64,10 @@ MAX_HIGHLIGHTED_ELEMENTS
 =
 100
 ;
-function
+class
 SelectorHighlighter
+{
+constructor
 (
 highlighterEnv
 )
@@ -84,11 +86,6 @@ _highlighters
 ]
 ;
 }
-SelectorHighlighter
-.
-prototype
-=
-{
 async
 show
 (
@@ -309,7 +306,6 @@ null
 ;
 }
 }
-;
 exports
 .
 SelectorHighlighter
