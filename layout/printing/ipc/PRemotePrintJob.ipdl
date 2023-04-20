@@ -60,15 +60,6 @@ FinalizePrint
 )
 ;
 async
-StateChange
-(
-long
-aStateFlags
-nsresult
-aStatus
-)
-;
-async
 ProgressChange
 (
 long
