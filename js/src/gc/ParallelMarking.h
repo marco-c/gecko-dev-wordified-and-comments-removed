@@ -120,11 +120,11 @@ waitingTaskCount
 ;
 }
 void
-stealWorkFrom
+donateWorkFrom
 (
 GCMarker
 *
-victim
+src
 )
 ;
 private
@@ -339,7 +339,7 @@ lock
 override
 ;
 void
-markOrSteal
+markOrRequestWork
 (
 AutoLockGC
 &
@@ -355,7 +355,7 @@ lock
 )
 ;
 bool
-tryStealing
+requestWork
 (
 AutoLockGC
 &
