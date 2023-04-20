@@ -342,9 +342,6 @@ class
 OutOfLineAbortingWasmTrap
 ;
 class
-OutOfLineZeroIfNaN
-;
-class
 OutOfLineGuardNumberToIntPtrIndex
 ;
 class
@@ -788,14 +785,6 @@ void
 visitOutOfLineNaNToZero
 (
 OutOfLineNaNToZero
-*
-ool
-)
-;
-void
-visitOutOfLineZeroIfNaN
-(
-OutOfLineZeroIfNaN
 *
 ool
 )
