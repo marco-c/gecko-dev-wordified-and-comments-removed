@@ -189,13 +189,6 @@ signal
 .
 c
 '
-'
-libevent
-/
-strlcpy
-.
-c
-'
 ]
 SOURCES
 +
