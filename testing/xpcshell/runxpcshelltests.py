@@ -9969,6 +9969,14 @@ ports
 ]
 +
 )
+(
+[
+0
+-
+9
+]
++
+)
 and
 (
 [
@@ -10059,7 +10067,7 @@ self
 env
 [
 "
-MOZHTTP3_PORT_NO_RESPONSE
+MOZHTTP3_PORT_PROXY
 "
 ]
 =
@@ -10075,7 +10083,7 @@ self
 env
 [
 "
-MOZHTTP3_ECH
+MOZHTTP3_PORT_NO_RESPONSE
 "
 ]
 =
@@ -10084,6 +10092,22 @@ searchObj
 group
 (
 5
+)
+                    
+self
+.
+env
+[
+"
+MOZHTTP3_ECH
+"
+]
+=
+searchObj
+.
+group
+(
+6
 )
         
 except
