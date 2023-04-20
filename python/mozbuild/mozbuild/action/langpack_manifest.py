@@ -1587,7 +1587,7 @@ manifest_version
 2
         
 "
-applications
+browser_specific_settings
 "
 :
 {
