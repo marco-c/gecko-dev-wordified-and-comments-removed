@@ -183,12 +183,3 @@ update
 docs
 /
 index
-components
-/
-antitracking
-/
-anti
--
-tracking
-/
-index

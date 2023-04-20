@@ -398,15 +398,3 @@ gtest
 REQUIRES_UNIFIED_BUILD
 =
 True
-SPHINX_TREES
-[
-"
-anti
--
-tracking
-"
-]
-=
-"
-docs
-"
