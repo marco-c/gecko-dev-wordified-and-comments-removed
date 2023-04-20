@@ -141,8 +141,6 @@ config
 \
 procps
 \
-python2
-\
 python3
 -
 distutils

@@ -31,7 +31,7 @@ MAC_CROSS
 "
 ;
 then
-python
+python3
 build
 /
 gen
@@ -51,7 +51,7 @@ commit
 -
 position
 else
-python
+python3
 build
 /
 gen
