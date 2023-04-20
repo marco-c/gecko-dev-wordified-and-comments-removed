@@ -552,6 +552,9 @@ bannerId
 "
 banner
 "
+keepTabOpen
+=
+false
 }
 )
 {
@@ -599,6 +602,12 @@ expected
 bannerId
 )
 ;
+if
+(
+!
+keepTabOpen
+)
+{
 BrowserTestUtils
 .
 removeTab
@@ -606,6 +615,7 @@ removeTab
 tab
 )
 ;
+}
 }
 async
 function
