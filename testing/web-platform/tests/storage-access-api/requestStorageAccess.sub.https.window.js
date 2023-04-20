@@ -12,6 +12,15 @@ processQueryParams
 (
 )
 ;
+test_driver
+.
+set_test_context
+(
+window
+.
+top
+)
+;
 test
 (
 (
