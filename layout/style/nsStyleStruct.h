@@ -5939,6 +5939,14 @@ mAxis
 aOther
 .
 mAxis
+&
+&
+mInset
+=
+=
+aOther
+.
+mInset
 ;
 }
 bool
@@ -5976,6 +5984,9 @@ StyleScrollAxis
 :
 :
 Block
+;
+StyleViewTimelineInset
+mInset
 ;
 }
 ;
@@ -9091,6 +9102,9 @@ mViewTimelineNameCount
 ;
 uint32_t
 mViewTimelineAxisCount
+;
+uint32_t
+mViewTimelineInsetCount
 ;
 }
 ;
