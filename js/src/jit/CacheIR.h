@@ -852,9 +852,6 @@ CacheKindNames
 [
 ]
 ;
-#
-ifdef
-DEBUG
 extern
 size_t
 NumInputsForCacheKind
@@ -863,8 +860,6 @@ CacheKind
 kind
 )
 ;
-#
-endif
 enum
 class
 CacheOp

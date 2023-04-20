@@ -656,9 +656,6 @@ undef
 OPHEALTH
 }
 ;
-#
-ifdef
-DEBUG
 size_t
 js
 :
@@ -850,8 +847,6 @@ kind
 ;
 }
 #
-endif
-#
 ifdef
 DEBUG
 void
@@ -910,7 +905,7 @@ StubField
 CacheIRWriter
 :
 :
-readStubFieldForIon
+readStubField
 (
 uint32_t
 offset
