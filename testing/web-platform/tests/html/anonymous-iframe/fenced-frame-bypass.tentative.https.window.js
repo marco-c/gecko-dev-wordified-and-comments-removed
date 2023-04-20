@@ -45,9 +45,9 @@ token
 )
 ;
 const
-anonymous_iframe_1
+iframe_credentialless_1
 =
-newAnonymousIframe
+newIframeCredentialless
 (
 cross_origin
 )
@@ -149,9 +149,9 @@ frame
 "
 ;
 const
-anonymous_iframe_2
+iframe_credentialless_2
 =
-newAnonymousIframe
+newIframeCredentialless
 (
 "
 {
@@ -168,13 +168,13 @@ send
 msg_queue
 }
 "
-anonymous_iframe_2
+iframe_credentialless_2
 )
 ;
 )
 ;
 const
-anonymous_iframe_2
+iframe_credentialless_2
 =
 await
 receive
@@ -191,7 +191,7 @@ token
 ;
 send
 (
-anonymous_iframe_1
+iframe_credentialless_1
 const
 bc
 =
@@ -255,7 +255,7 @@ registered
 await
 send
 (
-anonymous_iframe_2
+iframe_credentialless_2
 const
 bc
 =

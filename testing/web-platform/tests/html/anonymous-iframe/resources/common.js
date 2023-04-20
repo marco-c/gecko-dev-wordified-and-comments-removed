@@ -1,5 +1,5 @@
 const
-newAnonymousIframe
+newIframeCredentialless
 =
 (
 child_origin
@@ -53,7 +53,7 @@ sub_document_token
 ;
 iframe
 .
-anonymous
+credentialless
 =
 true
 ;
@@ -116,7 +116,7 @@ sub_document_token
 ;
 iframe
 .
-anonymous
+credentialless
 =
 false
 document

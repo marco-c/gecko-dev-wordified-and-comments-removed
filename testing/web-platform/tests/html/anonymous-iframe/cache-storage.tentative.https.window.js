@@ -219,9 +219,9 @@ token
 )
 ;
 const
-iframe_anonymous
+iframe_credentialless
 =
-newAnonymousIframe
+newIframeCredentialless
 (
 origin
 )
@@ -250,7 +250,7 @@ token
 ;
 send
 (
-iframe_anonymous
+iframe_credentialless
 store_script
 (
 key_1
@@ -300,7 +300,7 @@ stored
 ;
 send
 (
-iframe_anonymous
+iframe_credentialless
 load_script
 (
 key_2
@@ -346,7 +346,7 @@ found
 ;
 send
 (
-iframe_anonymous
+iframe_credentialless
 load_script
 (
 key_1

@@ -230,9 +230,9 @@ token
 )
 ;
 const
-iframe_anonymous
+iframe_credentialless
 =
-newAnonymousIframe
+newIframeCredentialless
 (
 origin
 )
@@ -261,7 +261,7 @@ token
 ;
 send
 (
-iframe_anonymous
+iframe_credentialless
 acquire_script
 (
 key_1
@@ -306,7 +306,7 @@ locked
 await
 assertHeldKeys
 (
-iframe_anonymous
+iframe_credentialless
 [
 key_1
 ]
@@ -323,7 +323,7 @@ key_2
 ;
 send
 (
-iframe_anonymous
+iframe_credentialless
 acquire_script
 (
 key_2
@@ -368,7 +368,7 @@ locked
 await
 assertHeldKeys
 (
-iframe_anonymous
+iframe_credentialless
 [
 key_1
 key_2
@@ -387,7 +387,7 @@ key_2
 ;
 send
 (
-iframe_anonymous
+iframe_credentialless
 release_script
 (
 response_queue_1
@@ -421,7 +421,7 @@ unlocked
 await
 assertHeldKeys
 (
-iframe_anonymous
+iframe_credentialless
 [
 ]
 )
@@ -472,7 +472,7 @@ unlocked
 await
 assertHeldKeys
 (
-iframe_anonymous
+iframe_credentialless
 [
 ]
 )

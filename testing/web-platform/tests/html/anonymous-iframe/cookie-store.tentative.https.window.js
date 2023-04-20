@@ -23,9 +23,9 @@ token
 (
 )
 const
-anonymous_iframe
+credentialless_iframe
 =
-newAnonymousIframe
+newIframeCredentialless
 (
 cross_origin
 )
@@ -41,7 +41,7 @@ async
 await
 send
 (
-anonymous_iframe
+credentialless_iframe
 window
 .
 getMyCookie
@@ -226,7 +226,7 @@ token
 ;
 send
 (
-anonymous_iframe
+credentialless_iframe
 document
 .
 cookie
@@ -293,7 +293,7 @@ token
 ;
 send
 (
-anonymous_iframe
+credentialless_iframe
 fetch
 (
 "
@@ -412,7 +412,7 @@ token
 ;
 send
 (
-anonymous_iframe
+credentialless_iframe
 const
 next_cookie_value
 =
@@ -524,7 +524,7 @@ token
 ;
 send
 (
-anonymous_iframe
+credentialless_iframe
 const
 next_cookie_value
 =

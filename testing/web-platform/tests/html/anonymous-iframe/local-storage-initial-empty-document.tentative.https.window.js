@@ -8,7 +8,7 @@ test
 const
 iframe_B
 =
-newAnonymousIframe
+newIframeCredentialless
 (
 origin
 )
@@ -401,7 +401,7 @@ partitioned
 with
 regards
 to
-anonymous
+credentialless
 iframe
 "
 +

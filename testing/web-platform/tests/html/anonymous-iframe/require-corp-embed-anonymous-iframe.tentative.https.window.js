@@ -136,7 +136,7 @@ iframe
 ;
 child
 .
-anonymous
+credentialless
 =
 true
 ;
@@ -207,7 +207,7 @@ child
 )
 "
 The
-anonymous
+credentialless
 iframe
 should
 be
@@ -287,7 +287,7 @@ The
 child
 of
 the
-anonymous
+credentialless
 iframe
 should
 be
@@ -299,8 +299,8 @@ allowed
 }
 '
 Loading
-an
-anonymous
+a
+credentialless
 iframe
 with
 COEP

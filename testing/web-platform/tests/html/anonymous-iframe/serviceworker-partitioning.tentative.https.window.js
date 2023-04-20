@@ -54,7 +54,7 @@ name
 "
 normal
 "
-anonymous
+credentialless
 :
 false
 }
@@ -64,7 +64,7 @@ name
 "
 normal_control
 "
-anonymous
+credentialless
 :
 false
 }
@@ -72,9 +72,9 @@ false
 name
 :
 "
-anonymous
+credentialless
 "
-anonymous
+credentialless
 :
 true
 }
@@ -82,9 +82,9 @@ true
 name
 :
 "
-anonymous_control
+credentialless_control
 "
-anonymous
+credentialless
 :
 true
 }
@@ -96,7 +96,7 @@ async
 (
 {
 name
-anonymous
+credentialless
 }
 )
 =
@@ -153,11 +153,11 @@ html
 ;
 if
 (
-anonymous
+credentialless
 )
 iframe
 .
-anonymous
+credentialless
 =
 true
 ;
@@ -413,7 +413,7 @@ msgs
 ]
 [
 "
-anonymous
+credentialless
 "
 ]
 )
@@ -428,7 +428,7 @@ msgs
 ]
 [
 "
-anonymous_control
+credentialless_control
 "
 ]
 )
@@ -473,7 +473,7 @@ msgs
 ]
 [
 "
-anonymous
+credentialless
 "
 ]
 )
@@ -488,7 +488,7 @@ msgs
 ]
 [
 "
-anonymous_control
+credentialless_control
 "
 ]
 )
@@ -533,7 +533,7 @@ msgs
 ]
 [
 "
-anonymous
+credentialless
 "
 ]
 )
@@ -548,7 +548,7 @@ msgs
 ]
 [
 "
-anonymous_control
+credentialless_control
 "
 ]
 )
@@ -593,7 +593,7 @@ msgs
 ]
 [
 "
-anonymous
+credentialless
 "
 ]
 )
@@ -608,14 +608,14 @@ msgs
 ]
 [
 "
-anonymous_control
+credentialless_control
 "
 ]
 )
 ;
 }
 "
-Anonymous
+credentialless
 iframes
 get
 partitioned

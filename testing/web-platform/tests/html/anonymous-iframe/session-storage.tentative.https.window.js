@@ -161,17 +161,17 @@ token
 )
 ;
 const
-iframe_anonymous_1
+iframe_credentialless_1
 =
-newAnonymousIframe
+newIframeCredentialless
 (
 origin
 )
 ;
 const
-iframe_anonymous_2
+iframe_credentialless_2
 =
-newAnonymousIframe
+newIframeCredentialless
 (
 origin
 )
@@ -200,7 +200,7 @@ all
 [
 store
 (
-iframe_anonymous_1
+iframe_credentialless_1
 key_1
 "
 value_1
@@ -225,7 +225,7 @@ all
 [
 load
 (
-iframe_anonymous_1
+iframe_credentialless_1
 key_1
 "
 value_1
@@ -233,7 +233,7 @@ value_1
 )
 load
 (
-iframe_anonymous_2
+iframe_credentialless_2
 key_1
 "
 value_1
@@ -241,7 +241,7 @@ value_1
 )
 load
 (
-iframe_anonymous_1
+iframe_credentialless_1
 key_2
 "
 not
@@ -250,7 +250,7 @@ found
 )
 load
 (
-iframe_anonymous_2
+iframe_credentialless_2
 key_2
 "
 not
@@ -304,7 +304,7 @@ partitioned
 with
 regards
 to
-anonymous
+credentialless
 iframe
 "
 )

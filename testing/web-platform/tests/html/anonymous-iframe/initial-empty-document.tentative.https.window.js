@@ -28,7 +28,7 @@ iframe
 ;
 parent
 .
-anonymous
+credentialless
 =
 true
 ;
@@ -74,7 +74,7 @@ assert_true
 (
 parent
 .
-anonymous
+credentialless
 )
 ;
 const
@@ -104,7 +104,7 @@ assert_false
 (
 child
 .
-anonymous
+credentialless
 )
 ;
 assert_true
@@ -113,7 +113,7 @@ child
 .
 contentWindow
 .
-anonymouslyFramed
+credentialless
 )
 ;
 }
@@ -192,7 +192,7 @@ assert_false
 (
 parent
 .
-anonymous
+credentialless
 )
 ;
 const
@@ -209,7 +209,7 @@ iframe
 ;
 child
 .
-anonymous
+credentialless
 =
 true
 ;
@@ -228,7 +228,7 @@ assert_true
 (
 child
 .
-anonymous
+credentialless
 )
 ;
 assert_true
@@ -237,7 +237,7 @@ child
 .
 contentWindow
 .
-anonymouslyFramed
+credentialless
 )
 ;
 }
@@ -253,7 +253,7 @@ s
 iframe
 '
 s
-anonymous
+credentialless
 attribute
 .
 "

@@ -16,7 +16,7 @@ embeds
 same
 -
 origin
-anonymous
+credentialless
 iframe
 "
 {
@@ -35,7 +35,7 @@ embeds
 cross
 -
 origin
-anonymous
+credentialless
 iframe
 "
 {
@@ -62,7 +62,7 @@ embeds
 same
 -
 origin
-anonymous
+credentialless
 iframe
 "
 {
@@ -89,7 +89,7 @@ embeds
 cross
 -
 origin
-anonymous
+credentialless
 iframe
 "
 {
@@ -117,7 +117,7 @@ embeds
 same
 -
 origin
-anonymous
+credentialless
 iframe
 "
 {
@@ -142,7 +142,7 @@ embeds
 cross
 -
 origin
-anonymous
+credentialless
 iframe
 "
 {
@@ -177,7 +177,7 @@ embeds
 same
 -
 origin
-anonymous
+credentialless
 iframe
 "
 {
@@ -211,7 +211,7 @@ embeds
 cross
 -
 origin
-anonymous
+credentialless
 iframe
 "
 {
@@ -246,7 +246,7 @@ embeds
 same
 -
 origin
-anonymous
+credentialless
 iframe
 "
 {
@@ -278,7 +278,7 @@ embeds
 cross
 -
 origin
-anonymous
+credentialless
 iframe
 "
 {
@@ -308,7 +308,7 @@ CSP
 frame
 -
 ancestore
-anonymous
+credentialless
 iframe
 "
 {
@@ -352,7 +352,7 @@ same
 -
 origin
 COEP
-anonymous
+credentialless
 iframe
 "
 {
@@ -387,7 +387,7 @@ cross
 -
 origin
 COEP
-anonymous
+credentialless
 iframe
 "
 {
