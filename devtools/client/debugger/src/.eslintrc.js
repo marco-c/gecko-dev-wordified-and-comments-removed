@@ -1134,13 +1134,6 @@ isnan
 "
 valid
 -
-jsdoc
-"
-:
-0
-"
-valid
--
 typeof
 "
 :
