@@ -250,7 +250,7 @@ nsIInputStream
 >
 mCacheReadStream
 ;
-RefPtr
+nsMainThreadPtrHandle
 <
 workerinternals
 :
