@@ -823,9 +823,6 @@ maxTouchPoints
 DimensionInfo
 dimensions
 ;
-bool
-hasSiblings
-;
 }
 ;
 struct

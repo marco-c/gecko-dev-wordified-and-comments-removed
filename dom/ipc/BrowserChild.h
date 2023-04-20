@@ -3735,11 +3735,6 @@ mIsTopLevel
 1
 ;
 bool
-mHasSiblings
-:
-1
-;
-bool
 mIsTransparent
 :
 1
