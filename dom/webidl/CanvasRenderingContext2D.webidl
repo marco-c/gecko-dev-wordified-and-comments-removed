@@ -320,6 +320,15 @@ Deprecated
 "
 PrefixedImageSmoothingEnabled
 "
+Pref
+=
+"
+dom
+.
+mozImageSmoothingEnabled
+.
+enabled
+"
 BinaryName
 =
 "
