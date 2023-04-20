@@ -590,7 +590,13 @@ SendOptions
 send_options
 )
 ;
+absl
+:
+:
+optional
+<
 DataToSend
+>
 Produce
 (
 TimeMs
@@ -710,9 +716,8 @@ const
 bool
 HasDataToSend
 (
-TimeMs
-now
 )
+const
 ;
 void
 set_priority
@@ -967,8 +972,6 @@ OutgoingStream
 iterator
 GetNextStream
 (
-TimeMs
-now
 )
 ;
 const
