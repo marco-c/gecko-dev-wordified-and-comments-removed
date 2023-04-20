@@ -19416,6 +19416,15 @@ nsLayoutUtils
 CalculateCompositionSizeForFrame
 (
 mOuter
+true
+nullptr
+nsLayoutUtils
+:
+:
+IncludeDynamicToolbar
+:
+:
+Force
 )
 )
 ;
