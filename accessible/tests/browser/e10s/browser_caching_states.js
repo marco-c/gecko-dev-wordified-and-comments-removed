@@ -948,6 +948,10 @@ opacity
 ;
 "
 ;
+elm
+.
+offsetTop
+;
 }
 )
 ;
@@ -1007,6 +1011,10 @@ opacity
 1
 ;
 "
+;
+elm
+.
+offsetTop
 ;
 }
 )
