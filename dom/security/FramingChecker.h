@@ -54,9 +54,6 @@ aChannel
 nsIContentSecurityPolicy
 *
 aCSP
-bool
-&
-outIsFrameCheckingSkipped
 )
 ;
 protected
