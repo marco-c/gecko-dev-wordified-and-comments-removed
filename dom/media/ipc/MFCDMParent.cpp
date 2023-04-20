@@ -3007,7 +3007,7 @@ session
 ;
 aResolver
 (
-NS_ERROR_FAILURE
+NS_ERROR_DOM_MEDIA_CDM_NO_SESSION_ERR
 )
 ;
 return
@@ -3047,7 +3047,7 @@ Length
 (
 )
 )
-NS_ERROR_FAILURE
+NS_ERROR_DOM_MEDIA_CDM_SESSION_OPERATION_ERR
 )
 ;
 ConnectSessionEvents
@@ -3184,7 +3184,7 @@ session
 {
 aResolver
 (
-NS_ERROR_FAILURE
+NS_ERROR_DOM_MEDIA_CDM_NO_SESSION_ERR
 )
 ;
 return
@@ -3202,7 +3202,7 @@ Load
 (
 aSessionId
 )
-NS_ERROR_FAILURE
+NS_ERROR_DOM_MEDIA_CDM_SESSION_OPERATION_ERR
 )
 ;
 aResolver
@@ -3286,7 +3286,7 @@ session
 {
 aResolver
 (
-NS_ERROR_FAILURE
+NS_ERROR_DOM_MEDIA_CDM_NO_SESSION_ERR
 )
 ;
 return
@@ -3304,7 +3304,7 @@ Update
 (
 aResponse
 )
-NS_ERROR_FAILURE
+NS_ERROR_DOM_MEDIA_CDM_SESSION_OPERATION_ERR
 )
 ;
 aResolver
@@ -3381,7 +3381,7 @@ session
 {
 aResolver
 (
-NS_ERROR_FAILURE
+NS_ERROR_DOM_MEDIA_CDM_NO_SESSION_ERR
 )
 ;
 return
@@ -3398,7 +3398,7 @@ session
 Close
 (
 )
-NS_ERROR_FAILURE
+NS_ERROR_DOM_MEDIA_CDM_SESSION_OPERATION_ERR
 )
 ;
 aResolver
@@ -3475,7 +3475,7 @@ session
 {
 aResolver
 (
-NS_ERROR_FAILURE
+NS_ERROR_DOM_MEDIA_CDM_NO_SESSION_ERR
 )
 ;
 return
@@ -3492,7 +3492,7 @@ session
 Remove
 (
 )
-NS_ERROR_FAILURE
+NS_ERROR_DOM_MEDIA_CDM_SESSION_OPERATION_ERR
 )
 ;
 aResolver
