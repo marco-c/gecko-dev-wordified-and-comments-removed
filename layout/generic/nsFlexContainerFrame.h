@@ -492,6 +492,17 @@ return
 true
 ;
 }
+void
+UnionChildOverflow
+(
+mozilla
+:
+:
+OverflowAreas
+&
+)
+final
+;
 bool
 DrainSelfOverflowList
 (
