@@ -522,12 +522,6 @@ WebAuthnMakeCredentialInfo
 aInfo
 bool
 aForceNoneAttestation
-void
-status_callback
-(
-rust_ctap2_status_update_res
-*
-)
 )
 override
 ;
@@ -542,12 +536,6 @@ const
 WebAuthnGetAssertionInfo
 &
 aInfo
-void
-status_callback
-(
-rust_ctap2_status_update_res
-*
-)
 )
 override
 ;

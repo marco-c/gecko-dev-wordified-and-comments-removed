@@ -24,9 +24,6 @@ MozPromise
 .
 h
 "
-struct
-rust_ctap2_status_update_res
-;
 namespace
 mozilla
 :
@@ -102,12 +99,6 @@ WebAuthnMakeCredentialInfo
 aInfo
 bool
 aForceNoneAttestation
-void
-status_callback
-(
-rust_ctap2_status_update_res
-*
-)
 )
 =
 0
@@ -123,12 +114,6 @@ const
 WebAuthnGetAssertionInfo
 &
 aInfo
-void
-status_callback
-(
-rust_ctap2_status_update_res
-*
-)
 )
 =
 0

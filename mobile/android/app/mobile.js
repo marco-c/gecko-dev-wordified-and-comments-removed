@@ -4266,15 +4266,3 @@ enforceRemoteTypeRestrictions
 false
 )
 ;
-pref
-(
-"
-security
-.
-webauth
-.
-webauthn_enable_android_fido2
-"
-true
-)
-;

@@ -424,12 +424,6 @@ WebAuthnMakeCredentialInfo
 aInfo
 bool
 aForceNoneAttestation
-void
-_status_callback
-(
-rust_ctap2_status_update_res
-*
-)
 )
 {
 mozilla
@@ -860,12 +854,6 @@ const
 WebAuthnGetAssertionInfo
 &
 aInfo
-void
-_status_callback
-(
-rust_ctap2_status_update_res
-*
-)
 )
 {
 mozilla

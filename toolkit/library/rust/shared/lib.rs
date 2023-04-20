@@ -76,7 +76,7 @@ audioipc_server
 ;
 extern
 crate
-authenticator
+authrs_bridge
 ;
 #
 [
