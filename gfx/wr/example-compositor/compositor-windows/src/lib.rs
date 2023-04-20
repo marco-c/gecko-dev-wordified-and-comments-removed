@@ -282,16 +282,6 @@ mut
 Window
 )
 ;
-fn
-deinit
-(
-window
-:
-*
-mut
-Window
-)
-;
 }
 pub
 fn
@@ -722,7 +712,7 @@ pub
 fn
 deinit
 (
-window
+_window
 :
 *
 mut
