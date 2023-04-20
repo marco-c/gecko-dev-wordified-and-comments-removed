@@ -453,15 +453,6 @@ aInfo
 )
 override
 ;
-bool
-SetCDMProxy
-(
-CDMProxy
-*
-aProxy
-)
-override
-;
 nsISerialEventTarget
 *
 ManagerThread
