@@ -128,6 +128,14 @@ Gpu
 <
 GeckoProcessType_GPU
 )
+Rdd
+=
+(
+1
+<
+<
+GeckoProcessType_RDD
+)
 Socket
 =
 (

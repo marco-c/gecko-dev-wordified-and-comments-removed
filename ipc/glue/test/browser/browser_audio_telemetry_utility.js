@@ -114,6 +114,15 @@ utility
 codecs
 )
 ;
+await
+verifyNoTelemetryForProcess
+(
+"
+rdd
+"
+codecs
+)
+;
 }
 )
 ;
