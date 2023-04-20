@@ -270,6 +270,11 @@ pth
 :
 testing
 /
+mozharness
+pth
+:
+testing
+/
 raptor
 pth
 :
