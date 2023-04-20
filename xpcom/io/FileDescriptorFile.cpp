@@ -1086,6 +1086,9 @@ Remove
 (
 bool
 aRecursive
+uint32_t
+*
+aRemoveCount
 )
 {
 return
