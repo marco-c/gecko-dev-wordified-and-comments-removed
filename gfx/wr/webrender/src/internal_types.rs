@@ -985,8 +985,6 @@ PlaneSplitter
 =
 BspSplitter
 <
-f64
-WorldPixel
 PlaneSplitAnchor
 >
 ;
