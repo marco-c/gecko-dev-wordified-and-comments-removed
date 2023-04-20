@@ -1073,7 +1073,6 @@ ChromeObserver
 :
 NodeWillBeDestroyed
 (
-const
 nsINode
 *
 aNode

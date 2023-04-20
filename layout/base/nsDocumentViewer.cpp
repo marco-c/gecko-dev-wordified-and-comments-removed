@@ -1287,7 +1287,6 @@ BFCachePreventionObserver
 :
 NodeWillBeDestroyed
 (
-const
 nsINode
 *
 aNode
