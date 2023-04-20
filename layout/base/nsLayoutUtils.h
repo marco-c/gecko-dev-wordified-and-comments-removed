@@ -547,16 +547,6 @@ mozilla
 layers
 :
 :
-Layer
-Layer
-;
-typedef
-mozilla
-:
-:
-layers
-:
-:
 StackingContextHelper
 StackingContextHelper
 ;

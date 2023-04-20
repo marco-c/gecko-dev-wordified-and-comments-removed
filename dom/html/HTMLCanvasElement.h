@@ -354,13 +354,6 @@ typedef
 layers
 :
 :
-Layer
-Layer
-;
-typedef
-layers
-:
-:
 LayerManager
 LayerManager
 ;

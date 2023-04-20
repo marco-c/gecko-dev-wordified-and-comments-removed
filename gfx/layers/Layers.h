@@ -371,11 +371,6 @@ TransformData
 struct
 PropertyAnimationGroup
 ;
-class
-Layer
-{
-}
-;
 #
 ifdef
 MOZ_DUMP_PAINTING

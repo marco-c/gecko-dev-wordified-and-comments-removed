@@ -97,16 +97,6 @@ mozilla
 layers
 :
 :
-Layer
-Layer
-;
-typedef
-mozilla
-:
-:
-layers
-:
-:
 LayerManager
 LayerManager
 ;

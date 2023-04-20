@@ -255,17 +255,6 @@ layers
 ScrollSnapInfo
 ;
 using
-Layer
-=
-mozilla
-:
-:
-layers
-:
-:
-Layer
-;
-using
 WebRenderLayerManager
 =
 mozilla

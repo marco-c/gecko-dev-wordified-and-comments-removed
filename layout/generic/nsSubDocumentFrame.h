@@ -892,16 +892,6 @@ mozilla
 layers
 :
 :
-Layer
-Layer
-;
-typedef
-mozilla
-:
-:
-layers
-:
-:
 LayersId
 LayersId
 ;
