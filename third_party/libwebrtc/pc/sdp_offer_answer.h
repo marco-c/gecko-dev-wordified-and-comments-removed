@@ -2641,6 +2641,12 @@ return
 video_options_
 ;
 }
+bool
+ConfiguredForMedia
+(
+)
+const
+;
 PeerConnectionSdpMethods
 *
 const
