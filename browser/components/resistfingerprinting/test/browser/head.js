@@ -286,6 +286,7 @@ linkedBrowser
 list
 :
 PERFORMANCE_TIMINGS
+resistFingerprinting
 precision
 :
 expectedPrecision

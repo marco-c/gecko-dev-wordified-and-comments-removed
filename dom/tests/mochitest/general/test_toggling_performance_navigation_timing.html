@@ -187,9 +187,12 @@ PerformanceNavigationTiming
 ;
 if
 (
+enable_performance_navigation_timing
+&
+&
 resistFingerprinting
 )
-is
+isnot
 (
 p
 undefined
@@ -198,7 +201,6 @@ window
 .
 PerformanceNavigationTiming
 should
-not
 be
 exposed
 when
