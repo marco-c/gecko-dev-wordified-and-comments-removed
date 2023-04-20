@@ -223,6 +223,12 @@ TimeDelta
 >
 network_state_probe_duration
 ;
+FieldTrialParameter
+<
+bool
+>
+probe_on_max_allocated_bitrate_change
+;
 FieldTrialOptional
 <
 double
@@ -420,13 +426,6 @@ RequestProbe
 (
 Timestamp
 at_time
-)
-;
-void
-SetMaxBitrate
-(
-DataRate
-max_bitrate
 )
 ;
 void

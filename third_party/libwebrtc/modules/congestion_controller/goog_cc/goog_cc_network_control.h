@@ -743,9 +743,6 @@ min_total_allocated_bitrate_
 DataRate
 max_padding_rate_
 ;
-DataRate
-max_total_allocated_bitrate_
-;
 bool
 previously_in_alr_
 =
