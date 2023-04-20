@@ -2909,10 +2909,11 @@ rect
 =
 this
 .
-_panel
-.
-getOuterScreenRect
+_getBoundsWithoutFlushing
 (
+this
+.
+_panel
 )
 ;
 this
