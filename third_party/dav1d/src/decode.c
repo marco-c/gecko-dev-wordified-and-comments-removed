@@ -34617,10 +34617,7 @@ i
 .
 p
 .
-data
-[
-0
-]
+frame_hdr
 )
 dav1d_thread_picture_unref
 (
@@ -38690,10 +38687,7 @@ p
 .
 p
 .
-data
-[
-0
-]
+frame_hdr
 )
 dav1d_thread_picture_unref
 (
@@ -38992,10 +38986,7 @@ p
 .
 p
 .
-data
-[
-0
-]
+frame_hdr
 )
 dav1d_thread_picture_unref
 (
@@ -39150,10 +39141,7 @@ i
 .
 p
 .
-data
-[
-0
-]
+frame_hdr
 )
 dav1d_thread_picture_unref
 (

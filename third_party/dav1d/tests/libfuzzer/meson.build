@@ -378,12 +378,6 @@ dav1d_fuzzer_sources
 include_directories
 :
 dav1d_inc_dirs
-c_args
-:
-[
-stackalign_flag
-stackrealign_flag
-]
 link_args
 :
 fuzzer_ldflags
@@ -416,8 +410,6 @@ dav1d_inc_dirs
 c_args
 :
 [
-stackalign_flag
-stackrealign_flag
 '
 -
 DDAV1D_MT_FUZZING
@@ -617,8 +609,6 @@ dav1d_inc_dirs
 c_args
 :
 [
-stackalign_flag
-stackrealign_flag
 '
 -
 DDAV1D_ALLOC_FAIL

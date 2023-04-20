@@ -382,7 +382,6 @@ format
 (
 bitdepth
 )
-stackalign_flag
 ]
 install
 :
@@ -552,12 +551,6 @@ true
 include_directories
 :
 dav1d_inc_dirs
-c_args
-:
-[
-stackalign_flag
-stackrealign_flag
-]
 build_by_default
 :
 false
