@@ -5,6 +5,11 @@ SDK_ANDROID_NATIVE_API_JNI_JNI_INT_WRAPPER_H_
 define
 SDK_ANDROID_NATIVE_API_JNI_JNI_INT_WRAPPER_H_
 #
+include
+<
+cstdint
+>
+#
 ifdef
 NDEBUG
 typedef

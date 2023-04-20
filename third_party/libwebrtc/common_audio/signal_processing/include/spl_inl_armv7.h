@@ -4,6 +4,13 @@ COMMON_AUDIO_SIGNAL_PROCESSING_INCLUDE_SPL_INL_ARMV7_H_
 #
 define
 COMMON_AUDIO_SIGNAL_PROCESSING_INCLUDE_SPL_INL_ARMV7_H_
+#
+include
+<
+stdint
+.
+h
+>
 static
 __inline
 int32_t

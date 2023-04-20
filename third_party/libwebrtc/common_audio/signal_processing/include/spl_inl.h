@@ -6,6 +6,13 @@ define
 COMMON_AUDIO_SIGNAL_PROCESSING_INCLUDE_SPL_INL_H_
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 rtc_base
 /

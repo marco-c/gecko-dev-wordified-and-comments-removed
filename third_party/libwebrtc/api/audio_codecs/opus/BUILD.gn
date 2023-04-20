@@ -270,6 +270,16 @@ audio_decoder_multi_channel_opus_config
 h
 "
 ]
+deps
+=
+[
+"
+.
+.
+:
+audio_codecs_api
+"
+]
 }
 rtc_library
 (

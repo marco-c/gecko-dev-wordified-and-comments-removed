@@ -909,6 +909,15 @@ turn_customizer
 h
 "
 ]
+deps
+=
+[
+"
+transport
+:
+stun_types
+"
+]
 }
 rtc_source_set
 (

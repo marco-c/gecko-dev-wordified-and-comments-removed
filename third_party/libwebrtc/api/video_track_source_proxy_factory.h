@@ -13,6 +13,15 @@ media_stream_interface
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+thread
+.
+h
+"
 namespace
 webrtc
 {

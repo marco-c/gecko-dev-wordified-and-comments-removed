@@ -17,6 +17,17 @@ vector
 #
 include
 "
+api
+/
+video_codecs
+/
+sdp_video_format
+.
+h
+"
+#
+include
+"
 modules
 /
 video_coding

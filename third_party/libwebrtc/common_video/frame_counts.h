@@ -4,6 +4,11 @@ COMMON_VIDEO_FRAME_COUNTS_H_
 #
 define
 COMMON_VIDEO_FRAME_COUNTS_H_
+#
+include
+<
+cstdint
+>
 namespace
 webrtc
 {

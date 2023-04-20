@@ -9,6 +9,17 @@ include
 <
 vector
 >
+#
+include
+"
+api
+/
+audio_codecs
+/
+audio_decoder
+.
+h
+"
 namespace
 webrtc
 {

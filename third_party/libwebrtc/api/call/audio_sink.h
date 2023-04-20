@@ -7,6 +7,13 @@ API_CALL_AUDIO_SINK_H_
 #
 include
 <
+stddef
+.
+h
+>
+#
+include
+<
 stdint
 .
 h

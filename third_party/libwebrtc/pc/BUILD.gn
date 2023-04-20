@@ -16535,6 +16535,14 @@ audio_options_api
 /
 api
 :
+call_api
+"
+"
+.
+.
+/
+api
+:
 create_frame_generator
 "
 "
