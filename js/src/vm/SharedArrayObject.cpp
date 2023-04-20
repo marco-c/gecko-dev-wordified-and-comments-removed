@@ -979,7 +979,7 @@ mappedSizeWithHeader
 wasmBuf
 -
 >
-wasmMappedSize
+mappedSize
 (
 )
 +

@@ -169,8 +169,8 @@ size_t
 mappedSize
 )
 ;
-int32_t
-LiveMappedBufferCount
+uint64_t
+WasmReservedBytes
 (
 )
 ;

@@ -581,7 +581,7 @@ sourceMaxPages_
 ;
 }
 size_t
-wasmMappedSize
+mappedSize
 (
 )
 const
@@ -1118,7 +1118,7 @@ rawWasmBufferObject
 )
 -
 >
-wasmMappedSize
+mappedSize
 (
 )
 ;
