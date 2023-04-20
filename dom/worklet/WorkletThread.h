@@ -99,6 +99,7 @@ WorkletImpl
 aWorkletImpl
 )
 ;
+static
 void
 EnsureCycleCollectedJSContext
 (
