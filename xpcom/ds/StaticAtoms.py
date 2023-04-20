@@ -25447,6 +25447,16 @@ CurWorkD
 Atom
 (
 "
+DirectoryService_OS_SystemConfigDir
+"
+"
+SysConfD
+"
+)
+    
+Atom
+(
+"
 DirectoryService_OS_DesktopDirectory
 "
 "

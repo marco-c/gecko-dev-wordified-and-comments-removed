@@ -140,6 +140,9 @@ Unix_XDG_Desktop
 Unix_XDG_Download
 =
 306
+Unix_SystemConfigDirectory
+=
+307
 }
 ;
 nsresult
