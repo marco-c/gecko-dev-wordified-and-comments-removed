@@ -273,9 +273,6 @@ let
 callback
 =
 {
-__proto__
-:
-SyncServerCallback
 onRequest
 (
 req
@@ -345,6 +342,14 @@ expected
 ;
 }
 }
+;
+Object
+.
+setPrototypeOf
+(
+callback
+SyncServerCallback
+)
 ;
 let
 server

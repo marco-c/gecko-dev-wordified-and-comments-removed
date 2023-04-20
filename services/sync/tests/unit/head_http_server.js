@@ -3207,11 +3207,12 @@ callback
 callback
 |
 |
-{
-__proto__
-:
+Object
+.
+create
+(
 SyncServerCallback
-}
+)
 ;
 this
 .

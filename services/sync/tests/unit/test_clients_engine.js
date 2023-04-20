@@ -453,9 +453,6 @@ let
 callback
 =
 {
-__proto__
-:
-SyncServerCallback
 onItemDeleted
 (
 username
@@ -492,6 +489,14 @@ coll
 ;
 }
 }
+;
+Object
+.
+setPrototypeOf
+(
+callback
+SyncServerCallback
+)
 ;
 let
 server
