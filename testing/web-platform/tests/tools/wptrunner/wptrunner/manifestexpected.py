@@ -1,15 +1,7 @@
-import
-os
 from
 collections
 import
 deque
-from
-urllib
-.
-parse
-import
-urljoin
 from
 .
 wptmanifest
@@ -1438,7 +1430,6 @@ __init__
 self
 node
 test_path
-url_base
 )
 :
         
@@ -1505,20 +1496,6 @@ this
 manifest
 .
         
-:
-param
-url_base
-:
-Base
-url
-for
-serving
-the
-tests
-in
-this
-manifest
-        
 "
 "
 "
@@ -1567,24 +1544,6 @@ path
 "
 )
         
-if
-url_base
-is
-None
-:
-            
-raise
-ValueError
-(
-"
-ExpectedManifest
-requires
-a
-base
-url
-"
-)
-        
 ManifestItem
 .
 __init__
@@ -1605,12 +1564,6 @@ self
 test_path
 =
 test_path
-        
-self
-.
-url_base
-=
-url_base
     
 def
 append
@@ -1737,43 +1690,6 @@ child_map
 get
 (
 test_id
-)
-    
-property
-    
-def
-url
-(
-self
-)
-:
-        
-return
-urljoin
-(
-self
-.
-url_base
-                       
-"
-/
-"
-.
-join
-(
-self
-.
-test_path
-.
-split
-(
-os
-.
-path
-.
-sep
-)
-)
 )
     
 property
@@ -2519,17 +2435,9 @@ self
 :
         
 return
-urljoin
-(
-self
-.
-parent
-.
-url
 self
 .
 name
-)
     
 property
     
@@ -2974,7 +2882,6 @@ get_manifest
 (
 metadata_root
 test_path
-url_base
 run_info
 )
 :
@@ -3035,20 +2942,6 @@ to
 the
 test
 root
-    
-:
-param
-url_base
-:
-Base
-url
-for
-serving
-the
-tests
-in
-this
-manifest
     
 :
 param
@@ -3117,10 +3010,6 @@ data_cls_getter
 test_path
 =
 test_path
-                                  
-url_base
-=
-url_base
 )
     
 except

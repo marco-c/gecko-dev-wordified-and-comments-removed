@@ -588,12 +588,6 @@ data_cls_getter
 test_path
 =
 test_path
-                                                    
-url_base
-=
-"
-/
-"
 )
     
 test
@@ -641,6 +635,17 @@ get_test
 test
 .
 id
+.
+rpartition
+(
+'
+/
+'
+)
+[
+-
+1
+]
 )
 )
 def
@@ -1662,12 +1667,6 @@ fuzzy
 .
 html
 "
-                                                    
-url_base
-=
-"
-/
-"
 )
     
 test
@@ -1708,6 +1707,17 @@ get_test
 test
 .
 id
+.
+rpartition
+(
+'
+/
+'
+)
+[
+-
+1
+]
 )
 )
     

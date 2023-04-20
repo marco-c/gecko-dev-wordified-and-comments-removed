@@ -1537,6 +1537,17 @@ get_test
 manifest_test
 .
 id
+.
+rpartition
+(
+'
+/
+'
+)
+[
+-
+1
+]
 )
         
 return
@@ -1712,9 +1723,6 @@ get_manifest
             
 metadata_path
 test_path
-test_manifest
-.
-url_base
 self
 .
 run_info
