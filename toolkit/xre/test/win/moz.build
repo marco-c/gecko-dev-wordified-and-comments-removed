@@ -71,6 +71,9 @@ advapi32
 comctl32
 "
 "
+ole32
+"
+"
 shell32
 "
 "
