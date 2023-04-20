@@ -1,0 +1,16 @@
+"
+use
+strict
+"
+;
+createGenericResizeTests
+(
+10
+0
+true
+"
+Resize
+revert
+"
+)
+;
