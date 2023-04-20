@@ -185,6 +185,17 @@ send
 )
 ;
 async
+RemoteClosed
+(
+bool
+cleanly
+uint32_t
+code
+nsCString
+reason
+)
+;
+async
 CloseAll
 (
 )
