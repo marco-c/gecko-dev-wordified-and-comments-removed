@@ -245,7 +245,7 @@ flags
 )
 {
 return
-IsUnicode
+IsEitherUnicode
 (
 flags
 )

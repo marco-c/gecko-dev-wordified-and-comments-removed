@@ -1594,7 +1594,9 @@ CanReadUnaligned
 const
 {
 return
-FLAG_enable_regexp_unaligned_accesses
+v8_flags
+.
+enable_regexp_unaligned_accesses
 &
 &
 !

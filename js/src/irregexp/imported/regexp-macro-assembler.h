@@ -604,7 +604,7 @@ on_outside_input
 ;
 virtual
 bool
-CheckSpecialCharacterClass
+CheckSpecialClassRanges
 (
 StandardCharacterSet
 type

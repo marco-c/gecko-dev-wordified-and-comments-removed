@@ -1434,7 +1434,7 @@ read_backward
 }
 TextNode
 (
-RegExpCharacterClass
+RegExpClassRanges
 *
 that
 bool
@@ -1482,7 +1482,7 @@ Add
 TextElement
 :
 :
-CharClass
+ClassRanges
 (
 that
 )

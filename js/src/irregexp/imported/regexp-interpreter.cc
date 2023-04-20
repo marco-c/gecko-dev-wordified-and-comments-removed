@@ -398,7 +398,9 @@ bytecode_name
 {
 if
 (
-FLAG_trace_regexp_bytecodes
+v8_flags
+.
+trace_regexp_bytecodes
 )
 {
 const
@@ -2126,7 +2128,9 @@ ifdef
 DEBUG
 if
 (
-FLAG_trace_regexp_bytecodes
+v8_flags
+.
+trace_regexp_bytecodes
 )
 {
 PrintF
@@ -5839,7 +5843,9 @@ call_origin
 {
 if
 (
-FLAG_regexp_tier_up
+v8_flags
+.
+regexp_tier_up
 )
 regexp
 .

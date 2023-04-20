@@ -4727,7 +4727,9 @@ if
 did_optimize
 &
 &
-FLAG_trace_regexp_peephole_optimization
+v8_flags
+.
+trace_regexp_peephole_optimization
 )
 {
 PrintF

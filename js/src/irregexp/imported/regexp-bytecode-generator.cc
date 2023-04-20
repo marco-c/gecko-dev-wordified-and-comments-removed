@@ -1907,7 +1907,9 @@ array
 ;
 if
 (
-FLAG_regexp_peephole_optimization
+v8_flags
+.
+regexp_peephole_optimization
 )
 {
 array

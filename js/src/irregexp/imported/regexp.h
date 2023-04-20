@@ -141,6 +141,15 @@ CanGenerateBytecode
 (
 )
 ;
+V8_EXPORT_PRIVATE
+static
+bool
+VerifyFlags
+(
+RegExpFlags
+flags
+)
+;
 template
 <
 class

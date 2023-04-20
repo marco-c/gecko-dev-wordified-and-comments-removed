@@ -2404,7 +2404,7 @@ bool
 RegExpMacroAssemblerTracer
 :
 :
-CheckSpecialCharacterClass
+CheckSpecialClassRanges
 (
 StandardCharacterSet
 type
@@ -2419,7 +2419,7 @@ supported
 assembler_
 -
 >
-CheckSpecialCharacterClass
+CheckSpecialClassRanges
 (
 type
 on_no_match
@@ -2428,7 +2428,7 @@ on_no_match
 PrintF
 (
 "
-CheckSpecialCharacterClass
+CheckSpecialClassRanges
 (
 type
 =
