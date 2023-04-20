@@ -1772,13 +1772,6 @@ gc_compacting
 "
 JSGC_COMPACTING_ENABLED
 )
-PREF
-(
-"
-gc_parallel_marking
-"
-JSGC_PARALLEL_MARKING_ENABLED
-)
 }
 ;
 #

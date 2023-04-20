@@ -5124,6 +5124,14 @@ JSGC_PARALLEL_MARKING_ENABLED
 :
 parallelMarkingEnabled
 =
+rt
+-
+>
+isMainRuntime
+(
+)
+&
+&
 value
 !
 =
