@@ -333,8 +333,16 @@ MALLOC_DECOMMIT
 #
 endif
 #
-ifndef
+ifdef
 MOZ_DEBUG
+#
+define
+MALLOC_RUNTIME_CONFIG
+#
+endif
+#
+ifndef
+MALLOC_RUNTIME_CONFIG
 #
 if
 !
@@ -4200,7 +4208,7 @@ kAllocPoison
 ;
 #
 ifdef
-MOZ_DEBUG
+MALLOC_RUNTIME_CONFIG
 static
 bool
 opt_junk
@@ -18056,7 +18064,7 @@ break
 ;
 #
 ifdef
-MOZ_DEBUG
+MALLOC_RUNTIME_CONFIG
 case
 '
 j
