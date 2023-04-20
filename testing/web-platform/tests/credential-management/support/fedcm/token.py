@@ -178,7 +178,6 @@ header
 )
   
 if
-not
 request
 .
 headers
@@ -198,8 +197,36 @@ return
 [
 ]
 "
-Missing
+Should
+not
+have
 Referer
+"
+)
+  
+if
+not
+request
+.
+headers
+.
+get
+(
+b
+"
+Origin
+"
+)
+:
+    
+return
+(
+535
+[
+]
+"
+Missing
+Origin
 "
 )
   
@@ -220,7 +247,7 @@ client_id
     
 return
 (
-535
+536
 [
 ]
 "
@@ -250,7 +277,7 @@ account_id
     
 return
 (
-536
+537
 [
 ]
 "
@@ -280,7 +307,7 @@ disclosure_text_shown
     
 return
 (
-537
+538
 [
 ]
 "
