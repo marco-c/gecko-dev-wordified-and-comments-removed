@@ -42,6 +42,17 @@ none
 ;
 ch
 -
+prefers
+-
+reduced
+-
+motion
+'
+none
+'
+;
+ch
+-
 viewport
 -
 height
