@@ -1206,6 +1206,14 @@ Destroy
 if
 (
 prevTexture
+&
+&
+prevTexture
+-
+>
+IsValid
+(
+)
 )
 {
 RefPtr
