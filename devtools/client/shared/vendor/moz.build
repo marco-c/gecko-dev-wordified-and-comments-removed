@@ -73,13 +73,6 @@ reselect
 js
 '
 '
-seamless
--
-immutable
-.
-js
-'
-'
 WasmDis
 .
 js
