@@ -106,6 +106,15 @@ Experiments
 /
 MozButtonGroup
 "
+component
+:
+"
+moz
+-
+button
+-
+group
+"
 argTypes
 :
 {

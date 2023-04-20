@@ -115,6 +115,13 @@ Experiments
 /
 MozToggle
 "
+component
+:
+"
+moz
+-
+toggle
+"
 parameters
 :
 {
