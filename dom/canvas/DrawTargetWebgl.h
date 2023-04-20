@@ -519,6 +519,11 @@ mPathVertexCapacity
 =
 0
 ;
+uint32_t
+mPathMaxComplexity
+=
+0
+;
 RefPtr
 <
 WebGLProgramJS
