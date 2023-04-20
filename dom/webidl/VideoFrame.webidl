@@ -133,13 +133,9 @@ Exposed
 Window
 DedicatedWorker
 )
+Serializable
 /
 *
-Serializable
-(
-bug
-1774302
-)
 Transferable
 (
 bug
