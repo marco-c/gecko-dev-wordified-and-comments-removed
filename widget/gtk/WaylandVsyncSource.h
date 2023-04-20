@@ -280,7 +280,11 @@ TimeStamp
 mLastVsyncTimeStamp
 ;
 guint
-mIdleTimeoutID
+mIdleTimerID
+;
+const
+guint
+mIdleTimeout
 ;
 }
 ;
