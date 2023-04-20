@@ -924,11 +924,6 @@ layout
 =
 [
 "
-FrameChildList
-.
-h
-"
-"
 ScrollAnchorContainer
 .
 h
@@ -970,11 +965,6 @@ cpp
 "
 "
 CSSOrderAwareFrameIterator
-.
-cpp
-"
-"
-FrameChildList
 .
 cpp
 "
