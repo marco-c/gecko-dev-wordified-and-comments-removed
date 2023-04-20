@@ -445,9 +445,6 @@ aName
 )
 const
 {
-bool
-hasAltAttrib
-=
 mContent
 -
 >
@@ -502,10 +499,6 @@ return
 nameFlag
 ;
 return
-hasAltAttrib
-?
-eNoNameOnPurpose
-:
 eNameOK
 ;
 }

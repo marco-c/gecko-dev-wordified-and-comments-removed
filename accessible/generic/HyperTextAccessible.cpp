@@ -9911,11 +9911,6 @@ aName
 )
 const
 {
-bool
-hasImgAlt
-=
-false
-;
 if
 (
 mContent
@@ -9930,8 +9925,6 @@ img
 )
 )
 {
-hasImgAlt
-=
 mContent
 -
 >
@@ -10020,10 +10013,6 @@ CompressWhitespace
 ;
 }
 return
-hasImgAlt
-?
-eNoNameOnPurpose
-:
 eNameOK
 ;
 }
