@@ -46,7 +46,7 @@ abstractions
 built
 around
 the
-blessed
+blessings
 module
 .
 "
