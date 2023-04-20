@@ -2636,7 +2636,6 @@ aBounds
 bool
 aTight
 )
-const
 {
 CGRect
 bb

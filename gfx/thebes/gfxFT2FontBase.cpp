@@ -3777,7 +3777,6 @@ aBounds
 bool
 aTight
 )
-const
 {
 IntRect
 bounds
