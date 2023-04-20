@@ -5849,6 +5849,15 @@ Document
 aDocument
 )
 ;
+static
+void
+ClearPendingFullscreenRequests
+(
+Document
+*
+aDocument
+)
+;
 void
 ClearOrientationPendingPromise
 (

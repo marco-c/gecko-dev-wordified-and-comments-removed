@@ -55481,15 +55481,6 @@ pendingEvent
 ;
 }
 }
-static
-void
-ClearPendingFullscreenRequests
-(
-Document
-*
-aDoc
-)
-;
 void
 Document
 :
@@ -71680,8 +71671,10 @@ return
 handled
 ;
 }
-static
 void
+Document
+:
+:
 ClearPendingFullscreenRequests
 (
 Document
