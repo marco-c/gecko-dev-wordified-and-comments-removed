@@ -760,7 +760,7 @@ r2
 jg
 .
 loop
-REP_RET
+RET
 ;
 -
 -
@@ -1060,7 +1060,7 @@ r2
 jg
 .
 loop
-REP_RET
+RET
 %
 endmacro
 INIT_MMX
@@ -1441,7 +1441,7 @@ r3d
 jg
 .
 loop
-REP_RET
+RET
 %
 endmacro
 INIT_XMM
@@ -1763,7 +1763,7 @@ r5d
 jg
 .
 loop
-REP_RET
+RET
 %
 if
 HAVE_AVX2_EXTERNAL
@@ -1946,7 +1946,7 @@ iterationd
 jg
 .
 loop
-REP_RET
+RET
 %
 endif
 ;
@@ -3079,7 +3079,7 @@ r4
 jg
 .
 loop
-REP_RET
+RET
 %
 endmacro
 INIT_XMM
@@ -3792,7 +3792,7 @@ r4
 jg
 .
 loop
-REP_RET
+RET
 %
 endmacro
 INIT_XMM
@@ -4277,7 +4277,7 @@ r2
 jg
 .
 loop
-REP_RET
+RET
 %
 endmacro
 INIT_MMX
@@ -5478,7 +5478,7 @@ r3d
 jg
 .
 loop
-REP_RET
+RET
 ;
 -
 -
@@ -5771,7 +5771,7 @@ r5d
 jg
 .
 loop
-REP_RET
+RET
 INIT_XMM
 ssse3
 cglobal
@@ -5889,7 +5889,7 @@ r2d
 jg
 .
 loop
-REP_RET
+RET
 ;
 dest
 left
@@ -12368,7 +12368,7 @@ r5d
 jg
 .
 loop
-REP_RET
+RET
 INIT_XMM
 ssse3
 cglobal

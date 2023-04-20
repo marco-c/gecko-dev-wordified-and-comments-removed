@@ -2319,7 +2319,14 @@ MAP
 HEVC
 HEVC_REXT
 None
-ff_vaapi_parse_hevc_rext_profile
+ff_vaapi_parse_hevc_rext_scc_profile
+)
+MAP
+(
+HEVC
+HEVC_SCC
+None
+ff_vaapi_parse_hevc_rext_scc_profile
 )
 #
 endif

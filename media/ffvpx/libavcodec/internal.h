@@ -147,11 +147,6 @@ AVPacket
 *
 last_pkt_props
 ;
-struct
-AVFifo
-*
-pkt_props
-;
 uint8_t
 *
 byte_buffer

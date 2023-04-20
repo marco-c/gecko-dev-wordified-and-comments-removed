@@ -682,7 +682,7 @@ lenq
 jge
 .
 loop
-REP_RET
+RET
 %
 endmacro
 INIT_XMM
@@ -1521,7 +1521,7 @@ lenq
 jge
 .
 loop
-REP_RET
+RET
 %
 endmacro
 INIT_XMM
@@ -1798,7 +1798,7 @@ mmsize
 jge
 .
 loop
-REP_RET
+RET
 %
 endmacro
 INIT_XMM
@@ -2301,7 +2301,7 @@ mmsize
 jge
 .
 loop
-REP_RET
+RET
 %
 endmacro
 INIT_XMM
@@ -2632,7 +2632,7 @@ mmsize
 jge
 .
 loop
-REP_RET
+RET
 %
 endmacro
 INIT_XMM
@@ -2949,7 +2949,7 @@ mmsize
 jl
 .
 loop
-REP_RET
+RET
 ;
 -
 -
@@ -3280,7 +3280,7 @@ mmsize
 jge
 .
 loop
-REP_RET
+RET
 %
 endmacro
 INIT_XMM
@@ -3658,7 +3658,7 @@ mmsize
 jge
 .
 loop
-REP_RET
+RET
 %
 endmacro
 INIT_XMM
@@ -4509,4 +4509,4 @@ mmsize
 jl
 .
 loop
-REP_RET
+RET

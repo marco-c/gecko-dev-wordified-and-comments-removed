@@ -1406,7 +1406,7 @@ row
 jg
 .
 nextrow
-REP_RET
+RET
 cglobal
 put_vp8_epel
 %
@@ -1534,7 +1534,7 @@ row
 jg
 .
 nextrow
-REP_RET
+RET
 cglobal
 put_vp8_epel
 %
@@ -1687,7 +1687,7 @@ row
 jg
 .
 nextrow
-REP_RET
+RET
 cglobal
 put_vp8_epel
 %
@@ -1888,7 +1888,7 @@ row
 jg
 .
 nextrow
-REP_RET
+RET
 %
 endmacro
 INIT_MMX
@@ -2207,7 +2207,7 @@ row
 jg
 .
 nextrow
-REP_RET
+RET
 ;
 4x4
 block
@@ -2622,7 +2622,7 @@ row
 jg
 .
 nextrow
-REP_RET
+RET
 INIT_XMM
 sse2
 cglobal
@@ -2822,7 +2822,7 @@ row
 jg
 .
 nextrow
-REP_RET
+RET
 INIT_XMM
 sse2
 cglobal
@@ -3103,7 +3103,7 @@ row
 jg
 .
 nextrow
-REP_RET
+RET
 %
 macro
 FILTER_V
@@ -3329,7 +3329,7 @@ row
 jg
 .
 nextrow
-REP_RET
+RET
 ;
 4x4
 block
@@ -3611,7 +3611,7 @@ row
 jg
 .
 nextrow
-REP_RET
+RET
 %
 endmacro
 INIT_MMX
@@ -3999,7 +3999,7 @@ heightd
 jg
 .
 nextrow
-REP_RET
+RET
 %
 if
 cpuflag
@@ -4390,7 +4390,7 @@ heightd
 jg
 .
 nextrow
-REP_RET
+RET
 %
 endmacro
 INIT_MMX
@@ -4484,7 +4484,7 @@ heightd
 jg
 .
 nextrow
-REP_RET
+RET
 INIT_XMM
 sse
 cglobal
@@ -4560,7 +4560,7 @@ heightd
 jg
 .
 nextrow
-REP_RET
+RET
 ;
 -
 -

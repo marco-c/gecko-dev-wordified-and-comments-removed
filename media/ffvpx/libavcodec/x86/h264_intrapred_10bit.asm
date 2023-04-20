@@ -3336,7 +3336,7 @@ r2d
 jg
 .
 loop
-REP_RET
+RET
 ;
 -
 -
@@ -4714,7 +4714,7 @@ r2d
 jg
 .
 loop
-REP_RET
+RET
 ;
 -
 -
@@ -8907,7 +8907,7 @@ r2d
 jg
 .
 loop
-REP_RET
+RET
 ;
 -
 -
@@ -9150,7 +9150,7 @@ r2d
 jg
 .
 vloop
-REP_RET
+RET
 ;
 -
 -
@@ -9464,7 +9464,7 @@ r3d
 jg
 .
 loop
-REP_RET
+RET
 ;
 -
 -
@@ -9708,7 +9708,7 @@ r2d
 jg
 .
 loop
-REP_RET
+RET
 ;
 -
 -
@@ -9993,7 +9993,7 @@ r3d
 jg
 .
 loop
-REP_RET
+RET
 ;
 -
 -
@@ -10211,4 +10211,4 @@ r2d
 jg
 .
 loop
-REP_RET
+RET

@@ -126,6 +126,15 @@ FF_CODEC_CAP_ICC_PROFILES
 )
 #
 define
+FF_CODEC_CAP_EOF_FLUSH
+(
+1
+<
+<
+10
+)
+#
+define
 FF_CODEC_TAGS_END
 -
 1

@@ -178,16 +178,6 @@ frame_count
 int
 last_non_b_pict_type
 ;
-void
-*
-non_lavc_opaque
-;
-float
-dry_run_qscale
-;
-int
-last_picture_number
-;
 AVExpr
 *
 rc_eq_eval

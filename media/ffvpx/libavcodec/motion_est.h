@@ -111,9 +111,6 @@ uint8_t
 *
 temp
 ;
-int
-best_bits
-;
 uint32_t
 *
 map

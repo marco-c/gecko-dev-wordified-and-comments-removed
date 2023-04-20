@@ -860,7 +860,7 @@ loop2x1
 .
 ret
 :
-REP_RET
+RET
 %
 macro
 UPDATE_LLS
@@ -1547,7 +1547,7 @@ loop2x1
 .
 ret
 :
-REP_RET
+RET
 %
 endmacro
 ;

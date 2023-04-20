@@ -287,6 +287,9 @@ src_linesize
 +
 start_x
 *
+(
+ptrdiff_t
+)
 sizeof
 (
 pixel
@@ -414,6 +417,9 @@ buf_linesize
 +
 start_x
 *
+(
+ptrdiff_t
+)
 sizeof
 (
 pixel

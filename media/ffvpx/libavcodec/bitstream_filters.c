@@ -133,6 +133,11 @@ ff_imx_dump_header_bsf
 extern
 const
 FFBitStreamFilter
+ff_media100_to_mjpegb_bsf
+;
+extern
+const
+FFBitStreamFilter
 ff_mjpeg2jpeg_bsf
 ;
 extern

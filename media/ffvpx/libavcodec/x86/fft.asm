@@ -3556,7 +3556,7 @@ _interleave
 +
 SUFFIX
 r1
-REP_RET
+RET
 %
 endif
 INIT_XMM
@@ -3688,7 +3688,7 @@ loop
 .
 end
 :
-REP_RET
+RET
 cglobal
 fft_permute
 2
@@ -3871,7 +3871,7 @@ r2
 jl
 .
 loopcopy
-REP_RET
+RET
 INIT_XMM
 sse
 cglobal
@@ -4025,7 +4025,7 @@ mmsize
 jl
 .
 loop
-REP_RET
+RET
 %
 ifdef
 PIC

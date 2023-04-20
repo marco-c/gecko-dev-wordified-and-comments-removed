@@ -21,7 +21,7 @@ avcodec
 h
 "
 VAProfile
-ff_vaapi_parse_hevc_rext_profile
+ff_vaapi_parse_hevc_rext_scc_profile
 (
 AVCodecContext
 *

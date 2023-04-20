@@ -648,7 +648,7 @@ loop_sample
 .
 ret
 :
-REP_RET
+RET
 %
 endmacro
 %
@@ -1044,7 +1044,7 @@ lenq
 jl
 .
 loop
-REP_RET
+RET
 %
 endmacro
 INIT_XMM
@@ -1388,7 +1388,7 @@ mmsize
 jg
 .
 loop
-REP_RET
+RET
 %
 endmacro
 INIT_XMM
@@ -2226,7 +2226,7 @@ mmsize
 jg
 .
 loop
-REP_RET
+RET
 %
 endmacro
 INIT_XMM

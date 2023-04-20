@@ -3405,7 +3405,7 @@ platform
 doesn
 '
 t
-suppport
+support
 "
 "
 hardware
