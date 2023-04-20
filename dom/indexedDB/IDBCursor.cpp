@@ -288,6 +288,10 @@ DropJSObjects
 (
 )
 ;
+mTransaction
+=
+nullptr
+;
 if
 (
 mBackgroundActor

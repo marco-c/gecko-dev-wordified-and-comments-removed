@@ -216,7 +216,6 @@ IDBRequest
 >
 mRequest
 ;
-const
 CheckedUnsafePtr
 <
 IDBTransaction
