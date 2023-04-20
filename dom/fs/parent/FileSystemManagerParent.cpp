@@ -953,7 +953,6 @@ if
 SendPFileSystemAccessHandleConstructor
 (
 accessHandleParent
-fileDescriptor
 )
 )
 {
@@ -970,9 +969,11 @@ IPC_OK
 }
 aResolver
 (
-FileSystemGetAccessHandleResponse
+FileSystemAccessHandleProperties
 (
+fileDescriptor
 accessHandleParent
+nullptr
 )
 )
 ;

@@ -49,10 +49,6 @@ PFileSystemAccessHandleChild
 >
 AllocPFileSystemAccessHandleChild
 (
-const
-FileDescriptor
-&
-aFileDescriptor
 )
 ;
 :
