@@ -1012,6 +1012,16 @@ oldInput
 ;
 }
 [
+_videoDataOutput
+setSampleBufferDelegate
+:
+nil
+queue
+:
+nil
+]
+;
+[
 self
 .
 captureSession
