@@ -414,13 +414,6 @@ UrlbarUtils
 RESULT_GROUP
 .
 OMNIBOX
-availableSpan
-:
-UrlbarUtils
-.
-MAX_OMNIBOX_RESULT_COUNT
--
-1
 }
 {
 flexChildren
@@ -724,13 +717,6 @@ UrlbarUtils
 RESULT_GROUP
 .
 OMNIBOX
-availableSpan
-:
-UrlbarUtils
-.
-MAX_OMNIBOX_RESULT_COUNT
--
-1
 }
 {
 flexChildren
