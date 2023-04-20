@@ -49,7 +49,6 @@ range
 }
 SharpYuvColorSpace
 ;
-SHARPYUV_EXTERN
 void
 SharpYuvComputeConversionMatrix
 (
@@ -76,7 +75,6 @@ kSharpYuvMatrixNum
 }
 SharpYuvMatrixType
 ;
-SHARPYUV_EXTERN
 const
 SharpYuvConversionMatrix
 *

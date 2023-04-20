@@ -151,8 +151,3 @@ VP8GetCPUInfo
 =
 MozCPUInfo
 ;
-VP8CPUInfo
-SharpYuvGetCPUInfo
-=
-MozCPUInfo
-;

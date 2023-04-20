@@ -2036,7 +2036,7 @@ static
 void
 AddSingleSubGreen
 (
-uint32_t
+int
 p
 uint32_t
 *
@@ -2052,9 +2052,6 @@ const
 int
 green
 =
-(
-int
-)
 p
 >
 >
@@ -2066,9 +2063,6 @@ r
 [
 (
 (
-(
-int
-)
 p
 >
 >
@@ -2087,9 +2081,6 @@ b
 [
 (
 (
-(
-int
-)
 p
 >
 >
@@ -7821,7 +7812,7 @@ TRANSFORM_PRESENT
 VP8LPutBits
 (
 bw
-SUBTRACT_GREEN_TRANSFORM
+SUBTRACT_GREEN
 2
 )
 ;

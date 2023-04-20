@@ -61,7 +61,7 @@ all_0xff
 _mm_set1_epi32
 (
 ~
-0
+0u
 )
 ;
 __m128i
