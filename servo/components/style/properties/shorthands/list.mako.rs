@@ -713,10 +713,10 @@ have_one_non_initial_value
 {
 dest
 .
-write_str
+write_char
 (
-"
-"
+'
+'
 )
 ?
 ;
@@ -755,10 +755,10 @@ have_one_non_initial_value
 {
 dest
 .
-write_str
+write_char
 (
-"
-"
+'
+'
 )
 ?
 ;

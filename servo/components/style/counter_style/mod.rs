@@ -1584,11 +1584,11 @@ write_str
 +
 dest
 .
-write_str
+write_char
 (
-"
+'
 }
-"
+'
 )
 }
 }

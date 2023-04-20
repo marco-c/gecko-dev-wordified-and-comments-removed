@@ -2131,10 +2131,10 @@ is_empty
 {
 dest
 .
-write_str
+write_char
 (
-"
-"
+'
+'
 )
 ?
 ;

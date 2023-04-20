@@ -1396,10 +1396,10 @@ dest
 ;
 dest
 .
-write_str
+write_char
 (
-"
-"
+'
+'
 )
 ?
 ;
@@ -1427,10 +1427,10 @@ dest
 ;
 dest
 .
-write_str
+write_char
 (
-"
-"
+'
+'
 )
 ?
 ;
