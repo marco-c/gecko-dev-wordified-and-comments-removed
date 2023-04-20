@@ -164,11 +164,11 @@ frames
 )
 )
 def
-test_frame_id_webelement_no_element_reference
+test_frame_id_webelement_no_such_element
 (
 session
-inline
 iframe
+inline
 )
 :
     
@@ -255,7 +255,7 @@ child_context
 ]
 )
 def
-test_stale_element_reference
+test_frame_id_webelement_stale_element_reference
 (
 session
 iframe

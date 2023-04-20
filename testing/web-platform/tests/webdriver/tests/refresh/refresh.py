@@ -2,11 +2,8 @@ import
 pytest
 from
 webdriver
-.
-error
 import
-NoSuchElementException
-StaleElementReferenceException
+error
 from
 tests
 .
@@ -180,6 +177,8 @@ pytest
 .
 raises
 (
+error
+.
 StaleElementReferenceException
 )
 :
@@ -278,6 +277,8 @@ pytest
 .
 raises
 (
+error
+.
 StaleElementReferenceException
 )
 :
@@ -425,6 +426,8 @@ pytest
 .
 raises
 (
+error
+.
 StaleElementReferenceException
 )
 :
@@ -711,6 +714,8 @@ pytest
 .
 raises
 (
+error
+.
 StaleElementReferenceException
 )
 :
@@ -762,6 +767,8 @@ pytest
 .
 raises
 (
+error
+.
 NoSuchElementException
 )
 :
