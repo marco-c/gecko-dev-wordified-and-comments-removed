@@ -475,13 +475,6 @@ char
 mode
 )
 ;
-size_t
-SamplesFromRate
-(
-int
-rate
-)
-;
 void
 SetFrameSampleRate
 (
