@@ -573,7 +573,8 @@ BUG_COMPONENT
 Firefox
 "
 "
-Preferences
+Settings
+UI
 "
 )
 with
@@ -593,7 +594,8 @@ BUG_COMPONENT
 Firefox
 "
 "
-Preferences
+Settings
+UI
 "
 )
 with
@@ -613,7 +615,8 @@ BUG_COMPONENT
 Firefox
 "
 "
-Preferences
+Settings
+UI
 "
 )
 with
@@ -675,7 +678,8 @@ BUG_COMPONENT
 Firefox
 "
 "
-Preferences
+Settings
+UI
 "
 )
 with
