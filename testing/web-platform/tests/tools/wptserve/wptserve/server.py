@@ -3649,6 +3649,50 @@ req_handler
 =
 None
         
+def
+cleanup
+(
+)
+:
+            
+if
+rfile
+:
+                
+try
+:
+                    
+rfile
+.
+close
+(
+)
+                
+except
+OSError
+:
+                    
+pass
+            
+if
+wfile
+:
+                
+try
+:
+                    
+wfile
+.
+close
+(
+)
+                
+except
+OSError
+:
+                    
+pass
+        
 while
 not
 self
@@ -3711,23 +3755,7 @@ RequestReceived
 )
 :
                 
-if
-rfile
-:
-                    
-rfile
-.
-close
-(
-)
-                
-if
-wfile
-:
-                    
-wfile
-.
-close
+cleanup
 (
 )
                 
@@ -4009,23 +4037,7 @@ stream_id
                 
 break
         
-if
-rfile
-:
-            
-rfile
-.
-close
-(
-)
-        
-if
-wfile
-:
-            
-wfile
-.
-close
+cleanup
 (
 )
     
@@ -5533,10 +5545,9 @@ self
 .
 server_thread
 .
-setDaemon
-(
+daemon
+=
 True
-)
         
 self
 .
