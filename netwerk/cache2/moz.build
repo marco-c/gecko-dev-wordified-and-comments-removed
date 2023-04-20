@@ -265,11 +265,3 @@ sys
 mjs
 "
 ]
-DEFINES
-[
-"
-MOZ_BACKGROUNDTASKS
-"
-]
-=
-True

@@ -426,16 +426,6 @@ DMOZ_NOTIFICATION_SERVER
 =
 1
 endif
-ifdef
-MOZ_BACKGROUNDTASKS
-DEFINES
-+
-=
--
-DMOZ_BACKGROUNDTASKS
-=
-1
-endif
 ifeq
 (
 cocoa
