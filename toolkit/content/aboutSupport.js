@@ -7001,6 +7001,9 @@ macosx
 "
 linux
 "
+"
+android
+"
 ]
 .
 includes
