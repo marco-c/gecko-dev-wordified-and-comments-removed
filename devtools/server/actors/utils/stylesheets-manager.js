@@ -247,6 +247,17 @@ root
 TRANSITION_PSEUDO_CLASS
 }
 *
+:
+not
+(
+:
+-
+moz
+-
+native
+-
+anonymous
+)
 ;
 const
 TRANSITION_SHEET
