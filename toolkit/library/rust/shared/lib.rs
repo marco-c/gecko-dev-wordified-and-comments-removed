@@ -367,6 +367,10 @@ wpf_gpu_raster
 ;
 extern
 crate
+aa_stroke
+;
+extern
+crate
 unic_langid
 ;
 extern
