@@ -1,0 +1,8 @@
+python
+.
+exe
+-
+m
+pydoc
+%
+*
