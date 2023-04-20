@@ -11486,7 +11486,7 @@ neteq_api
 /
 test
 :
-audio_codec_mocks
+audio_test_common
 "
 "
 .
@@ -14935,6 +14935,17 @@ system_wrappers
 test
 :
 audio_codec_mocks
+"
+"
+.
+.
+/
+.
+.
+/
+test
+:
+audio_test_common
 "
 "
 .
