@@ -704,7 +704,7 @@ cfg
 feature
 =
 "
-termcolor
+color
 "
 )
 ]
@@ -730,7 +730,7 @@ not
 feature
 =
 "
-termcolor
+color
 "
 )
 )
@@ -888,7 +888,7 @@ cfg
 feature
 =
 "
-termcolor
+color
 "
 )
 ]
@@ -932,7 +932,7 @@ not
 feature
 =
 "
-termcolor
+color
 "
 )
 )
@@ -1072,7 +1072,7 @@ cfg
 feature
 =
 "
-termcolor
+color
 "
 )
 ]
@@ -1099,7 +1099,7 @@ not
 feature
 =
 "
-termcolor
+color
 "
 )
 )
