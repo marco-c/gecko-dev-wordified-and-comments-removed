@@ -310,6 +310,8 @@ BrowserTestUtils
 .
 waitForEvent
 (
+browserWindow
+.
 PanelUI
 .
 panel
