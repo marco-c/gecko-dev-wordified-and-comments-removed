@@ -1756,7 +1756,6 @@ stats
 override
 {
 }
-static
 std
 :
 :
