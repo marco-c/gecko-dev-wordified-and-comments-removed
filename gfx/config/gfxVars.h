@@ -645,6 +645,13 @@ UseAcceleratedCanvas2D
 bool
 false
 )
+\
+_
+(
+UseWebRenderDCompSwVideoOverlayWin
+bool
+false
+)
 class
 gfxVars
 final
