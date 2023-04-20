@@ -20741,17 +20741,6 @@ StyleMozBoxLayout
 :
 :
 Legacy
-|
-|
-aElement
-.
-IsXULElement
-(
-nsGkAtoms
-:
-:
-scrollcorner
-)
 )
 {
 static
