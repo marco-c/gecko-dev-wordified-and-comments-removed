@@ -11,13 +11,11 @@ BUG_COMPONENT
 =
 (
 "
-Core
+Toolkit
 "
 "
-DOM
-:
-Content
-Processes
+Performance
+Monitoring
 "
 )
 XPIDL_MODULE
