@@ -36,6 +36,8 @@ TESTING_JS_MODULES
 "
 PerfTestHelpers
 .
-jsm
+sys
+.
+mjs
 "
 ]

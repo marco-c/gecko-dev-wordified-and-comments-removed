@@ -80,7 +80,7 @@ PerfTestHelpers
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -93,7 +93,9 @@ common
 /
 PerfTestHelpers
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

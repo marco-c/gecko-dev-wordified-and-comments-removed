@@ -14,7 +14,9 @@ gTestPath
 "
 FullscreenFrame
 .
-jsm
+sys
+.
+mjs
 "
 ;
 const
@@ -363,7 +365,7 @@ actorName
 child
 :
 {
-moduleURI
+esModuleURI
 :
 actorModuleURI
 events

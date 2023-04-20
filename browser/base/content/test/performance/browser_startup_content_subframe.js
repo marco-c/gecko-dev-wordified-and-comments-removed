@@ -14,7 +14,9 @@ gTestPath
 "
 StartupContentSubframe
 .
-jsm
+sys
+.
+mjs
 "
 ;
 const
@@ -515,14 +517,14 @@ StartupContentSubframe
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 actorModuleURI
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 actorModuleURI
 events
