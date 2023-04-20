@@ -2144,7 +2144,7 @@ initBrowser
 ;
 browser
 .
-loadURI
+fixupAndLoadURIString
 (
 popupURL
 {

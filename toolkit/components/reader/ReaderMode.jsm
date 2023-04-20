@@ -736,7 +736,7 @@ referrerURI
 ;
 webNav
 .
-loadURI
+fixupAndLoadURIString
 (
 originalURL
 loadURIOptions

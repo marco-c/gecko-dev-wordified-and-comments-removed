@@ -1075,7 +1075,7 @@ page
 .
 browser
 .
-loadURI
+fixupAndLoadURIString
 (
 this
 .

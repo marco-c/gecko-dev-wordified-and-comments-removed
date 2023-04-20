@@ -652,7 +652,7 @@ chromeEventHandler
 ;
 browser
 .
-loadURI
+fixupAndLoadURIString
 (
 url
 {
