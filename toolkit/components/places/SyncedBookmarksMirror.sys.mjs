@@ -316,7 +316,7 @@ the
 merge
 then
 dispatches
-nsINavBookmarkObserver
+PlacesObservers
 notifications
 .
 Places
