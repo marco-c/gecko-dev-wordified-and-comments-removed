@@ -107,9 +107,6 @@ userContextPersonal
 .
 accesskey
 "
-telemetryId
-:
-1
 }
 {
 userContextId
@@ -142,9 +139,6 @@ userContextWork
 .
 accesskey
 "
-telemetryId
-:
-2
 }
 {
 userContextId
@@ -177,9 +171,6 @@ userContextBanking
 .
 accesskey
 "
-telemetryId
-:
-3
 }
 {
 userContextId
@@ -212,9 +203,6 @@ userContextShopping
 .
 accesskey
 "
-telemetryId
-:
-4
 }
 {
 userContextId

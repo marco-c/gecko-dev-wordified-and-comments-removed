@@ -17850,13 +17850,6 @@ if
 userContextId
 )
 {
-ContextualIdentityService
-.
-telemetry
-(
-userContextId
-)
-;
 tab
 .
 setUserContextId
