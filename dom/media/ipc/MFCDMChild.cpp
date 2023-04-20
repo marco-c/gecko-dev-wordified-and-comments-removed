@@ -995,8 +995,8 @@ nsString
 (
 aOrigin
 )
-aPersistentState
 aDistinctiveID
+aPersistentState
 aHWSecure
 }
 ;
