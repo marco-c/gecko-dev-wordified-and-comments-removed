@@ -126,10 +126,15 @@ str
 )
 Naga
 (
+Cow
+<
+'
+static
 naga
 :
 :
 Module
+>
 )
 }
 #
