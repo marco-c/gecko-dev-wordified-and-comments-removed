@@ -2535,6 +2535,9 @@ decodable_tu_info
 -
 >
 last_rtp_timestamp
+MaxWait
+(
+)
 IsTooManyFramesQueued
 (
 )

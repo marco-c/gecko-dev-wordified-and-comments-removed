@@ -149,6 +149,8 @@ uint32_t
 next_temporal_unit_rtp
 uint32_t
 last_temporal_unit_rtp
+TimeDelta
+max_wait_for_frame
 bool
 too_many_frames_queued
 )
