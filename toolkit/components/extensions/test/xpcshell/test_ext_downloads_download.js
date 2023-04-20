@@ -1332,6 +1332,8 @@ join
 WINDOWS
 ?
 "
+C
+:
 \
 \
 tmp
