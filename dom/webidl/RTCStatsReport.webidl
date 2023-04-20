@@ -359,6 +359,10 @@ framesDecoded
 ;
 unsigned
 long
+framesDropped
+;
+unsigned
+long
 frameWidth
 ;
 unsigned
