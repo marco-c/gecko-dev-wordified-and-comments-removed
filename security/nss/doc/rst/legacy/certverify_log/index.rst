@@ -133,7 +133,6 @@ log
 code
 :
 :
-eval
 #
 include
 "
@@ -238,7 +237,6 @@ h
 code
 :
 :
-eval
 /
 *
 *

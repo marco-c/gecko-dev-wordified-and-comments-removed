@@ -104,7 +104,6 @@ g
 code
 :
 :
-eval
 gmake
 variable
 =
@@ -133,7 +132,6 @@ shells
 code
 :
 :
-eval
 variable
 =
 value
@@ -529,7 +527,6 @@ follows
 code
 :
 :
-notranslate
 yum
 install
 binutils220
@@ -572,7 +569,6 @@ follows
 code
 :
 :
-notranslate
 export
 PATH
 =
@@ -754,7 +750,6 @@ repositories
 code
 :
 :
-notranslate
 hg
 clone
 https
@@ -813,7 +808,6 @@ tags
 code
 :
 :
-notranslate
 cd
 nspr
 hg
@@ -1189,7 +1183,6 @@ NSS
 code
 :
 :
-notranslate
 cvs
 co
 -

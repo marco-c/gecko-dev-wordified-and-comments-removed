@@ -88,7 +88,6 @@ container
 code
 :
 :
-eval
 CK_RV
 FC_GetInfo
 (
@@ -492,7 +491,6 @@ structure
 code
 :
 :
-eval
 #
 include
 <

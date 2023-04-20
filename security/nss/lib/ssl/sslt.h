@@ -851,6 +851,9 @@ char
 *
 echPublicName
 ;
+PRBool
+ticketSupportsEarlyData
+;
 }
 SSLPreliminaryChannelInfo
 ;

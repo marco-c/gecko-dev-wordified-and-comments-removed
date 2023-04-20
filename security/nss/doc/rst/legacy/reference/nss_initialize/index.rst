@@ -85,7 +85,6 @@ container
 code
 :
 :
-eval
 SECStatus
 NSS_Initialize
 (
@@ -822,7 +821,6 @@ container
 code
 :
 :
-eval
 #
 include
 <

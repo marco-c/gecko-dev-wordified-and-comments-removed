@@ -114,7 +114,6 @@ container
 code
 :
 :
-notranslate
 /
 *
 *

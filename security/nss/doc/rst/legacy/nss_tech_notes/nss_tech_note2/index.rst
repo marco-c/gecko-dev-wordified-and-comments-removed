@@ -192,7 +192,6 @@ use
 code
 :
 :
-notranslate
 NSS_DEBUG_PKCS11_MODULE
 =
 "
@@ -245,7 +244,6 @@ use
 code
 :
 :
-notranslate
 set
 NSS_DEBUG_PKCS11_MODULE
 =
@@ -374,7 +372,6 @@ set
 code
 :
 :
-notranslate
 NSPR_LOG_MODULES
 =
 nss_mod_log
@@ -395,7 +392,6 @@ is
 code
 :
 :
-notranslate
 OSThreadID
 [
 NSPRThreadID
@@ -417,7 +413,6 @@ example
 code
 :
 :
-notranslate
 1024
 [
 805ef10
@@ -492,7 +487,6 @@ set
 code
 :
 :
-notranslate
 NSPR_LOG_MODULES
 =
 nss_mod_log
@@ -513,7 +507,6 @@ is
 code
 :
 :
-notranslate
 OSThreadID
 [
 NSPRThreadID
@@ -554,7 +547,6 @@ example
 code
 :
 :
-notranslate
 1024
 [
 805ef10
@@ -705,7 +697,6 @@ set
 code
 :
 :
-notranslate
 NSPR_LOG_MODULES
 =
 nss_mod_log
@@ -736,7 +727,6 @@ example
 code
 :
 :
-notranslate
 1024
 [
 805ef10

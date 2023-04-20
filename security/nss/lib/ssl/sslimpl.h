@@ -3692,7 +3692,7 @@ enabled
 )
 ;
 extern
-void
+SECStatus
 ssl_FinishHandshake
 (
 sslSocket

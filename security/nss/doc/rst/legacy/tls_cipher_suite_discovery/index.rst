@@ -519,7 +519,6 @@ follows
 code
 :
 :
-notranslate
 /
 *
 constant
@@ -621,7 +620,6 @@ follows
 code
 :
 :
-notranslate
 SSL_IMPORT
 SECStatus
 SSL_GetCipherSuiteInfo
@@ -710,7 +708,6 @@ h
 code
 :
 :
-notranslate
 typedef
 struct
 SSLCipherSuiteInfoStr

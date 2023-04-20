@@ -589,7 +589,6 @@ syntax
 code
 :
 :
-notranslate
 #
 include
 <
@@ -602,7 +601,6 @@ h
 code
 :
 :
-notranslate
 typedef
 struct
 CERTCertDBHandleStr
@@ -641,7 +639,6 @@ syntax_2
 code
 :
 :
-notranslate
 #
 include
 <
@@ -654,7 +651,6 @@ h
 code
 :
 :
-notranslate
 typedef
 struct
 CERTCertificateStr
@@ -843,7 +839,6 @@ syntax_3
 code
 :
 :
-notranslate
 #
 include
 <
@@ -891,7 +886,6 @@ syntax_4
 code
 :
 :
-notranslate
 #
 include
 <
@@ -918,7 +912,6 @@ h
 code
 :
 :
-notranslate
 typedef
 enum
 {
@@ -940,7 +933,6 @@ SECItemType
 code
 :
 :
-notranslate
 typedef
 struct
 SECItemStr
@@ -951,7 +943,6 @@ SECItem
 code
 :
 :
-notranslate
 struct
 SECItemStr
 {
@@ -1060,7 +1051,6 @@ syntax_5
 code
 :
 :
-notranslate
 #
 include
 <
@@ -1073,7 +1063,6 @@ h
 code
 :
 :
-notranslate
 typedef
 struct
 SECKEYPrivateKeyStr
@@ -1208,7 +1197,6 @@ syntax_6
 code
 :
 :
-notranslate
 #
 include
 <
@@ -1221,7 +1209,6 @@ h
 code
 :
 :
-notranslate
 typedef
 enum
 {
@@ -1363,7 +1350,6 @@ enumerators
 code
 :
 :
-notranslate
 |
 Reserved
 for
@@ -1485,7 +1471,6 @@ SECWouldBlock
 code
 :
 :
-notranslate
 |
 The
 operation
@@ -1613,7 +1598,6 @@ SECFailure
 code
 :
 :
-notranslate
 |
 The
 operation
@@ -1878,7 +1862,6 @@ syntax_7
 code
 :
 :
-notranslate
 #
 include
 <
@@ -1891,7 +1874,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SECItem_FreeItem
 (
@@ -2403,7 +2385,6 @@ syntax_8
 code
 :
 :
-notranslate
 #
 include
 <
@@ -2416,7 +2397,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SECItem_ZfreeItem
 (

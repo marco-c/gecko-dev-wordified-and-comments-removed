@@ -2053,7 +2053,6 @@ shell
 code
 :
 :
-notranslate
 ssltap
 www
 .
@@ -2385,7 +2384,6 @@ command
 code
 :
 :
-notranslate
 ssltap
 .
 exe
@@ -2421,7 +2419,6 @@ Output
 code
 :
 :
-notranslate
 Connected
 to
 interzone
@@ -2486,7 +2483,6 @@ suites
 code
 :
 :
-notranslate
 (
 0x010080
 )
@@ -2657,7 +2653,6 @@ challenge
 code
 :
 :
-notranslate
 0x2592
 }
 }
@@ -2795,7 +2790,6 @@ c7
 code
 :
 :
-notranslate
 \
 .
 uC
@@ -2820,7 +2814,6 @@ length
 code
 :
 :
-notranslate
 contents
 =
 {
@@ -3160,7 +3153,6 @@ encrypted
 code
 :
 :
-notranslate
 }
 ]
 <
@@ -3252,7 +3244,6 @@ encrypted
 code
 :
 :
-notranslate
 }
 ]
 -
@@ -3341,7 +3332,6 @@ encrypted
 code
 :
 :
-notranslate
 }
 ]
 <
@@ -3388,7 +3378,6 @@ encrypted
 code
 :
 :
-notranslate
 }
 SSLRecord
 {
@@ -3495,7 +3484,6 @@ command_2
 code
 :
 :
-notranslate
 ssltap
 .
 exe
@@ -3530,7 +3518,6 @@ output_2
 code
 :
 :
-notranslate
 Connected
 to
 interzone
@@ -4213,7 +4200,6 @@ command_3
 code
 :
 :
-notranslate
 ssltap
 .
 exe
@@ -4248,7 +4234,6 @@ output_3
 code
 :
 :
-notranslate
 Connected
 to
 interzone
@@ -4951,7 +4936,6 @@ command_4
 code
 :
 :
-notranslate
 ssltap
 .
 exe
@@ -4986,7 +4970,6 @@ output_4
 code
 :
 :
-notranslate
 Connected
 to
 interzone

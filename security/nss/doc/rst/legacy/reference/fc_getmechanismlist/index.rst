@@ -98,7 +98,6 @@ container
 code
 :
 :
-eval
 CK_RV
 FC_GetMechanismList
 (

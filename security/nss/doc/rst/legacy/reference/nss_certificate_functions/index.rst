@@ -305,7 +305,6 @@ syntax
 code
 :
 :
-eval
 #
 include
 <
@@ -318,7 +317,6 @@ h
 code
 :
 :
-eval
 SECStatus
 CERT_VerifyCertNow
 (
@@ -662,7 +660,6 @@ syntax_2
 code
 :
 :
-eval
 #
 include
 <
@@ -675,7 +672,6 @@ h
 code
 :
 :
-eval
 SECStatus
 CERT_VerifyCert
 (
@@ -1011,7 +1007,6 @@ syntax_3
 code
 :
 :
-eval
 #
 include
 <
@@ -1024,7 +1019,6 @@ h
 code
 :
 :
-eval
 SECStatus
 CERT_VerifyCertName
 (
@@ -1359,7 +1353,6 @@ syntax_4
 code
 :
 :
-eval
 #
 include
 <
@@ -1379,7 +1372,6 @@ h
 code
 :
 :
-eval
 SECCertTimeValidity
 CERT_CheckCertValidTimes
 (
@@ -1476,7 +1468,6 @@ SECCertTimeValidity
 code
 :
 :
-eval
 typedef
 enum
 {
@@ -1534,7 +1525,6 @@ syntax_5
 code
 :
 :
-eval
 #
 include
 <
@@ -1719,7 +1709,6 @@ syntax_6
 code
 :
 :
-eval
 #
 include
 <
@@ -1732,7 +1721,6 @@ h
 code
 :
 :
-eval
 CERTCertificate
 *
 CERT_DupCertificate
@@ -1853,7 +1841,6 @@ syntax_7
 code
 :
 :
-eval
 #
 include
 <
@@ -1873,7 +1860,6 @@ h
 code
 :
 :
-eval
 void
 CERT_DestroyCertificate
 (
@@ -2145,7 +2131,6 @@ syntax_8
 code
 :
 :
-eval
 #
 include
 <
@@ -2158,7 +2143,6 @@ h
 code
 :
 :
-eval
 CERTCertificate
 *
 CERT_FindCertByName
@@ -2274,7 +2258,6 @@ syntax_9
 code
 :
 :
-eval
 #
 include
 <
@@ -2294,7 +2277,6 @@ h
 code
 :
 :
-eval
 CERTCertNicknames
 *
 CERT_GetCertNicknames
@@ -2500,7 +2482,6 @@ syntax_10
 code
 :
 :
-eval
 #
 include
 <
@@ -2513,7 +2494,6 @@ h
 code
 :
 :
-eval
 void
 CERT_FreeNicknames
 (
@@ -2587,7 +2567,6 @@ syntax_11
 code
 :
 :
-eval
 #
 include
 <
@@ -2600,7 +2579,6 @@ h
 code
 :
 :
-eval
 CERTCertDBHandle
 *
 CERT_GetDefaultCertDB
@@ -2692,7 +2670,6 @@ syntax_12
 code
 :
 :
-eval
 #
 include
 <
@@ -2705,7 +2682,6 @@ h
 code
 :
 :
-eval
 SSLKEAType
 NSS_FindCertKEAType
 (
@@ -2823,7 +2799,6 @@ syntax_13
 code
 :
 :
-eval
 #
 include
 <
@@ -2843,7 +2818,6 @@ h
 code
 :
 :
-eval
 SECComparison
 SECITEM_CompareItem
 (
@@ -2926,7 +2900,6 @@ SECComparison
 code
 :
 :
-eval
 typedef
 enum
 _SECComparison

@@ -2378,7 +2378,6 @@ distribution
 code
 :
 :
-notranslate
 cd
 mozilla
 /

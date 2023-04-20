@@ -5745,7 +5745,6 @@ this
 code
 :
 :
-notranslate
 +
 Pkcs11_install_script
 :
@@ -5764,7 +5763,6 @@ following
 code
 :
 :
-notranslate
 ForwardCompatible
 {
 IRIX
@@ -6084,7 +6082,6 @@ follows
 code
 :
 :
-notranslate
 -
 -
 >
@@ -6094,7 +6091,6 @@ valuelist
 code
 :
 :
-notranslate
 valuelist
 -
 -
@@ -6109,7 +6105,6 @@ null
 code
 :
 :
-notranslate
 value
 -
 -
@@ -6122,7 +6117,6 @@ string
 code
 :
 :
-notranslate
 key_value_pair
 -
 -
@@ -6136,7 +6130,6 @@ valuelist
 code
 :
 :
-notranslate
 key
 -
 -
@@ -6147,7 +6140,6 @@ string
 code
 :
 :
-notranslate
 string
 -
 -
@@ -6161,7 +6153,6 @@ complex_string
 code
 :
 :
-notranslate
 simple_string
 -
 -
@@ -6195,7 +6186,6 @@ braces
 code
 :
 :
-notranslate
 complex_string
 -
 -
@@ -6662,7 +6652,6 @@ strings
 code
 :
 :
-notranslate
 IRIX
 :
 6
@@ -6928,7 +6917,6 @@ to
 code
 :
 :
-notranslate
 RSA
 :
 0x00000001
@@ -7035,7 +7023,6 @@ to
 code
 :
 :
-notranslate
 FORTEZZA
 :
 0x0000
@@ -7483,7 +7470,6 @@ constants
 code
 :
 :
-notranslate
 user
 read
 :
@@ -7785,7 +7771,6 @@ directory
 code
 :
 :
-notranslate
 modutil
 -
 create
@@ -7809,7 +7794,6 @@ warning
 code
 :
 :
-notranslate
 WARNING
 :
 Performing
@@ -7872,7 +7856,6 @@ following
 code
 :
 :
-notranslate
 Creating
 "
 c
@@ -8019,7 +8002,6 @@ module
 code
 :
 :
-notranslate
 modutil
 -
 list
@@ -8053,7 +8035,6 @@ this
 code
 :
 :
-notranslate
 Using
 database
 directory
@@ -8191,7 +8172,6 @@ MD2
 code
 :
 :
-notranslate
 Slot
 :
 Communicator
@@ -8286,7 +8266,6 @@ Initialized
 code
 :
 :
-notranslate
 Slot
 :
 Communicator
@@ -8472,7 +8451,6 @@ mechanisms
 code
 :
 :
-notranslate
 modutil
 -
 default
@@ -8507,7 +8485,6 @@ warning
 code
 :
 :
-notranslate
 WARNING
 :
 Performing
@@ -8570,7 +8547,6 @@ following
 code
 :
 :
-notranslate
 Using
 database
 directory
@@ -8586,7 +8562,6 @@ databases
 code
 :
 :
-notranslate
 Successfully
 changed
 defaults
@@ -8662,7 +8637,6 @@ module
 code
 :
 :
-notranslate
 modutil
 -
 enable
@@ -8696,7 +8670,6 @@ warning
 code
 :
 :
-notranslate
 WARNING
 :
 Performing
@@ -8759,7 +8732,6 @@ following
 code
 :
 :
-notranslate
 Using
 database
 directory
@@ -8775,7 +8747,6 @@ databases
 code
 :
 :
-notranslate
 Slot
 "
 Cryptographic
@@ -8876,7 +8847,6 @@ module
 code
 :
 :
-notranslate
 modutil
 -
 dbdir
@@ -8903,7 +8873,6 @@ warning
 code
 :
 :
-notranslate
 WARNING
 :
 Performing
@@ -8968,7 +8937,6 @@ following
 code
 :
 :
-notranslate
 FIPS
 mode
 enabled
@@ -9073,7 +9041,6 @@ database
 code
 :
 :
-notranslate
 C
 :
 \
@@ -9131,7 +9098,6 @@ warning
 code
 :
 :
-notranslate
 WARNING
 :
 Performing
@@ -9194,7 +9160,6 @@ following
 code
 :
 :
-notranslate
 Using
 database
 directory
@@ -9365,7 +9330,6 @@ script
 code
 :
 :
-notranslate
 Platforms
 {
 WinNT
@@ -9485,7 +9449,6 @@ winnt
 code
 :
 :
-notranslate
 C
 :
 \
@@ -9527,7 +9490,6 @@ warning
 code
 :
 :
-notranslate
 WARNING
 :
 Performing
@@ -9590,7 +9552,6 @@ following
 code
 :
 :
-notranslate
 Using
 database
 directory
@@ -9606,7 +9567,6 @@ databases
 code
 :
 :
-notranslate
 This
 installation
 JAR
@@ -9666,7 +9626,6 @@ by
 code
 :
 :
-notranslate
 *
 *
 SUBJECT
@@ -9678,7 +9637,6 @@ NAME
 code
 :
 :
-notranslate
 C
 =
 US
@@ -9875,7 +9833,6 @@ Network
 code
 :
 :
-notranslate
 Do
 you
 wish
@@ -9989,7 +9946,6 @@ database
 code
 :
 :
-notranslate
 Installation
 completed
 successfully
@@ -10108,7 +10064,6 @@ module
 code
 :
 :
-notranslate
 C
 :
 \
@@ -10144,7 +10099,6 @@ warning
 code
 :
 :
-notranslate
 WARNING
 :
 Performing
@@ -10207,7 +10161,6 @@ following
 code
 :
 :
-notranslate
 Using
 database
 directory

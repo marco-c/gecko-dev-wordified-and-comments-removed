@@ -293,7 +293,6 @@ syntax
 code
 :
 :
-notranslate
 #
 include
 "
@@ -579,7 +578,6 @@ syntax_2
 code
 :
 :
-notranslate
 #
 include
 "
@@ -760,7 +758,6 @@ syntax_3
 code
 :
 :
-notranslate
 #
 include
 <
@@ -882,7 +879,6 @@ syntax_4
 code
 :
 :
-notranslate
 #
 include
 "
@@ -1593,7 +1589,6 @@ syntax_5
 code
 :
 :
-notranslate
 #
 include
 <
@@ -1812,7 +1807,6 @@ syntax_6
 code
 :
 :
-notranslate
 #
 include
 <
@@ -2027,7 +2021,6 @@ syntax_7
 code
 :
 :
-notranslate
 #
 include
 <
@@ -2192,7 +2185,6 @@ syntax_8
 code
 :
 :
-notranslate
 #
 include
 <
@@ -2362,7 +2354,6 @@ syntax_9
 code
 :
 :
-notranslate
 #
 include
 <
@@ -2487,7 +2478,6 @@ syntax_10
 code
 :
 :
-notranslate
 #
 include
 <
@@ -2607,7 +2597,6 @@ syntax_11
 code
 :
 :
-notranslate
 #
 include
 <
@@ -2740,7 +2729,6 @@ syntax_12
 code
 :
 :
-notranslate
 #
 include
 <
@@ -2897,7 +2885,6 @@ prototype
 code
 :
 :
-eval
 typedef
 char
 *

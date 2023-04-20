@@ -262,7 +262,6 @@ syntax
 code
 :
 :
-notranslate
 #
 include
 <
@@ -282,7 +281,6 @@ h
 code
 :
 :
-notranslate
 SECKEYKeyDBHandle
 *
 SECKEY_GetDefaultKeyDB
@@ -384,7 +382,6 @@ syntax_2
 code
 :
 :
-notranslate
 #
 include
 <
@@ -404,7 +401,6 @@ h
 code
 :
 :
-notranslate
 void
 SECKEY_DestroyPrivateKey
 (
@@ -537,7 +533,6 @@ parameter
 code
 :
 :
-notranslate
 |
 A
 pointer

@@ -102,7 +102,6 @@ container
 code
 :
 :
-eval
 CK_RV
 FC_GetFunctionList
 (
@@ -355,7 +354,6 @@ container
 code
 :
 :
-eval
 #
 include
 <

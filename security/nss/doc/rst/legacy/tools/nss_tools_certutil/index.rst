@@ -394,7 +394,6 @@ command
 code
 :
 :
-notranslate
 certutil
 option
 [
@@ -9811,7 +9810,6 @@ required
 code
 :
 :
-notranslate
 -
 N
 [
@@ -9824,7 +9822,6 @@ certdir
 code
 :
 :
-notranslate
 -
 S
 -
@@ -9913,7 +9910,6 @@ file
 code
 :
 :
-notranslate
 -
 R
 -
@@ -9958,7 +9954,6 @@ file
 code
 :
 :
-notranslate
 -
 C
 -
@@ -10035,7 +10030,6 @@ certdir
 code
 :
 :
-notranslate
 -
 A
 -
@@ -10072,7 +10066,6 @@ file
 code
 :
 :
-notranslate
 -
 L
 [
@@ -10098,7 +10091,6 @@ a
 code
 :
 :
-notranslate
 -
 V
 -
@@ -10130,7 +10122,6 @@ certdir
 code
 :
 :
-notranslate
 -
 M
 -
@@ -10149,7 +10140,6 @@ certdir
 code
 :
 :
-notranslate
 -
 H
 -
@@ -10398,7 +10388,6 @@ directory
 code
 :
 :
-notranslate
 certutil
 -
 N
@@ -10545,7 +10534,6 @@ directory
 code
 :
 :
-notranslate
 certutil
 -
 L
@@ -10877,7 +10865,6 @@ directory
 code
 :
 :
-notranslate
 certutil
 -
 R
@@ -10940,7 +10927,6 @@ password
 code
 :
 :
-notranslate
 Enter
 Password
 or
@@ -11083,7 +11069,6 @@ directory
 code
 :
 :
-notranslate
 certutil
 -
 S
@@ -11168,7 +11153,6 @@ myissuer
 code
 :
 :
-notranslate
 certutil
 -
 C
@@ -11306,7 +11290,6 @@ database
 code
 :
 :
-notranslate
 certutil
 -
 A
@@ -11348,7 +11331,6 @@ command
 code
 :
 :
-notranslate
 certutil
 -
 L
@@ -12126,7 +12108,6 @@ certificate
 code
 :
 :
-notranslate
 certutil
 -
 V
@@ -12162,7 +12143,6 @@ to
 code
 :
 :
-notranslate
 Certificate
 :
 '
@@ -12180,7 +12160,6 @@ or
 code
 :
 :
-notranslate
 UID
 =
 jsmith
@@ -12212,7 +12191,6 @@ or
 code
 :
 :
-notranslate
 UID
 =
 jsmith

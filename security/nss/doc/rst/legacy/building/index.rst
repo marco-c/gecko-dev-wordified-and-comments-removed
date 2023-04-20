@@ -487,7 +487,6 @@ commands
 code
 :
 :
-notranslate
 hg
 clone
 https
@@ -573,7 +572,6 @@ script
 code
 :
 :
-notranslate
 nss
 /
 build
@@ -674,7 +672,6 @@ slower
 code
 :
 :
-notranslate
 make
 -
 C
@@ -903,7 +900,6 @@ by
 code
 :
 :
-notranslate
 HOST
 =
 localhost
@@ -1086,7 +1082,6 @@ follows
 code
 :
 :
-notranslate
 127
 .
 0

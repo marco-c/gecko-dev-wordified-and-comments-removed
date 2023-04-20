@@ -186,7 +186,6 @@ container
 code
 :
 :
-notranslate
 /
 *
 Example

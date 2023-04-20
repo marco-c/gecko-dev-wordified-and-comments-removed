@@ -86,7 +86,6 @@ container
 code
 :
 :
-eval
 CK_RV
 NSC_Login
 (

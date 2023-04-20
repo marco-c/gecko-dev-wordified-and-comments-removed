@@ -405,7 +405,6 @@ syntax
 code
 :
 :
-notranslate
 #
 include
 <
@@ -418,7 +417,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 CERT_VerifyCertNow
 (
@@ -561,7 +559,6 @@ parameters
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -686,7 +683,6 @@ handle
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -812,7 +808,6 @@ cert
 code
 :
 :
-notranslate
 |
 Indicates
 whether
@@ -962,7 +957,6 @@ checked
 code
 :
 :
-notranslate
 |
 One
 of
@@ -1131,7 +1125,6 @@ certUsageProtectedObjectSigner
 code
 :
 :
-notranslate
 |
 The
 PIN
@@ -1444,7 +1437,6 @@ syntax_2
 code
 :
 :
-notranslate
 #
 include
 <
@@ -1457,7 +1449,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 CERT_VerifyCertName
 (
@@ -1593,7 +1584,6 @@ parameters
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -1725,7 +1715,6 @@ cert
 code
 :
 :
-notranslate
 |
 The
 hostname
@@ -2146,7 +2135,6 @@ syntax_3
 code
 :
 :
-notranslate
 #
 include
 <
@@ -2166,7 +2154,6 @@ h
 code
 :
 :
-notranslate
 SECCertTimeValidity
 CERT_CheckCertValidTimes
 (
@@ -2301,7 +2288,6 @@ parameters
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -2432,7 +2418,6 @@ cert
 code
 :
 :
-notranslate
 |
 The
 time
@@ -2590,7 +2575,6 @@ SECCertTimeValidity
 code
 :
 :
-notranslate
 typedef
 enum
 {
@@ -2648,7 +2632,6 @@ syntax_4
 code
 :
 :
-notranslate
 #
 include
 <
@@ -2661,7 +2644,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 NSS_CmpCertChainWCANames
 (
@@ -2797,7 +2779,6 @@ parameters
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -2931,7 +2912,6 @@ checked
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -3261,7 +3241,6 @@ syntax_5
 code
 :
 :
-notranslate
 #
 include
 <
@@ -3274,7 +3253,6 @@ h
 code
 :
 :
-notranslate
 CERTCertificate
 *
 CERT_DupCertificate
@@ -3407,7 +3385,6 @@ parameter
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -3617,7 +3594,6 @@ syntax_6
 code
 :
 :
-notranslate
 #
 include
 <
@@ -3637,7 +3613,6 @@ h
 code
 :
 :
-notranslate
 void
 CERT_DestroyCertificate
 (
@@ -3770,7 +3745,6 @@ parameter
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -4213,7 +4187,6 @@ syntax_7
 code
 :
 :
-notranslate
 #
 include
 <
@@ -4226,7 +4199,6 @@ h
 code
 :
 :
-notranslate
 CERTCertificate
 *
 CERT_FindCertByName
@@ -4363,7 +4335,6 @@ parameters
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -4488,7 +4459,6 @@ handle
 code
 :
 :
-notranslate
 |
 The
 subject
@@ -4677,7 +4647,6 @@ syntax_8
 code
 :
 :
-notranslate
 #
 include
 <
@@ -4697,7 +4666,6 @@ h
 code
 :
 :
-notranslate
 CERTCertNicknames
 *
 CERT_GetCertNicknames
@@ -4836,7 +4804,6 @@ parameters
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -4961,7 +4928,6 @@ handle
 code
 :
 :
-notranslate
 |
 One
 of
@@ -5100,7 +5066,6 @@ SEC_CERT_NICKNAMES_CA
 code
 :
 :
-notranslate
 |
 The
 PIN
@@ -5367,7 +5332,6 @@ syntax_9
 code
 :
 :
-notranslate
 #
 include
 <
@@ -5380,7 +5344,6 @@ h
 code
 :
 :
-notranslate
 void
 CERT_FreeNicknames
 (
@@ -5513,7 +5476,6 @@ parameter
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -5668,7 +5630,6 @@ syntax_10
 code
 :
 :
-notranslate
 #
 include
 <
@@ -5681,7 +5642,6 @@ h
 code
 :
 :
-notranslate
 CERTCertDBHandle
 *
 CERT_GetDefaultCertDB
@@ -5781,7 +5741,6 @@ syntax_11
 code
 :
 :
-notranslate
 #
 include
 <
@@ -5794,7 +5753,6 @@ h
 code
 :
 :
-notranslate
 SSLKEAType
 NSS_FindCertKEAType
 (
@@ -5927,7 +5885,6 @@ parameter
 code
 :
 :
-notranslate
 |
 The
 certificate
@@ -6197,7 +6154,6 @@ syntax_12
 code
 :
 :
-notranslate
 #
 include
 <
@@ -6217,7 +6173,6 @@ h
 code
 :
 :
-notranslate
 SECComparison
 SECITEM_CompareItem
 (
@@ -6353,7 +6308,6 @@ parameters
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -6481,7 +6435,6 @@ a
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -6627,7 +6580,6 @@ SECComparison
 code
 :
 :
-notranslate
 typedef
 enum
 _SECComparison

@@ -4499,7 +4499,6 @@ is
 code
 :
 :
-notranslate
 "
 (
 #
@@ -4645,7 +4644,6 @@ h
 code
 :
 :
-notranslate
 #
 ifdef
 DEBUG
@@ -6133,7 +6131,6 @@ add
 code
 :
 :
-notranslate
 typedef
 struct
 SECMyOpaqueDataStr
@@ -6161,7 +6158,6 @@ example
 code
 :
 :
-notranslate
 struct
 SECMyOpaqueDataStr
 {
@@ -7241,7 +7237,6 @@ this
 code
 :
 :
-notranslate
 NSSImplement
 rv
 *
@@ -10115,7 +10110,6 @@ signature
 code
 :
 :
-notranslate
 SECStatus
 MY_FunctionName
 (
@@ -10192,7 +10186,6 @@ signature
 code
 :
 :
-notranslate
 SECStatus
 PK11_DigestOp
 (

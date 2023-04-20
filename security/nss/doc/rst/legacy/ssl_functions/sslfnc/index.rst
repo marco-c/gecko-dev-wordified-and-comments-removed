@@ -538,7 +538,6 @@ syntax
 code
 :
 :
-notranslate
 #
 include
 "
@@ -551,7 +550,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 NSS_Init
 (
@@ -1141,7 +1139,6 @@ syntax_2
 code
 :
 :
-notranslate
 #
 include
 "
@@ -1154,7 +1151,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 NSS_InitReadWrite
 (
@@ -1666,7 +1662,6 @@ syntax_3
 code
 :
 :
-notranslate
 #
 include
 "
@@ -1679,7 +1674,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 NSS_NoDB_Init
 (
@@ -1993,7 +1987,6 @@ syntax_4
 code
 :
 :
-notranslate
 #
 include
 "
@@ -2006,7 +1999,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_OptionSetDefault
 (
@@ -4416,7 +4408,6 @@ syntax_5
 code
 :
 :
-notranslate
 #
 include
 "
@@ -4429,7 +4420,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_OptionGetDefault
 (
@@ -5041,7 +5031,6 @@ syntax_6
 code
 :
 :
-notranslate
 #
 include
 "
@@ -5054,7 +5043,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_CipherPrefSetDefault
 (
@@ -6413,7 +6401,6 @@ syntax_7
 code
 :
 :
-notranslate
 #
 include
 "
@@ -6426,7 +6413,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_CipherPrefSetDefault
 (
@@ -6978,7 +6964,6 @@ syntax_8
 code
 :
 :
-notranslate
 #
 include
 "
@@ -6991,7 +6976,6 @@ h
 code
 :
 :
-notranslate
 void
 SSL_ClearSessionCache
 (
@@ -7200,7 +7184,6 @@ syntax_9
 code
 :
 :
-notranslate
 #
 include
 "
@@ -7213,7 +7196,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_ConfigServerSessionIDCache
 (
@@ -8684,7 +8666,6 @@ syntax_10
 code
 :
 :
-notranslate
 #
 include
 "
@@ -8697,7 +8678,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_ConfigMPServerSIDCache
 (
@@ -9859,7 +9839,6 @@ syntax_11
 code
 :
 :
-notranslate
 #
 include
 "
@@ -9872,7 +9851,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_InheritMPServerSIDCache
 (
@@ -10911,7 +10889,6 @@ syntax_12
 code
 :
 :
-notranslate
 #
 include
 "
@@ -10924,7 +10901,6 @@ h
 code
 :
 :
-notranslate
 extern
 SECStatus
 NSS_SetDomesticPolicy
@@ -11351,7 +11327,6 @@ syntax_13
 code
 :
 :
-notranslate
 #
 include
 "
@@ -11364,7 +11339,6 @@ h
 code
 :
 :
-notranslate
 extern
 SECStatus
 NSS_SetExportPolicy
@@ -11778,7 +11752,6 @@ syntax_14
 code
 :
 :
-notranslate
 #
 include
 "
@@ -11791,7 +11764,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 NSS_SetFrancePolicy
 (
@@ -12167,7 +12139,6 @@ syntax_15
 code
 :
 :
-notranslate
 #
 include
 "
@@ -12187,7 +12158,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_CipherPolicySet
 (
@@ -13501,7 +13471,6 @@ syntax_16
 code
 :
 :
-notranslate
 #
 include
 "
@@ -13521,7 +13490,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_CipherPolicyGet
 (
@@ -14274,7 +14242,6 @@ syntax_17
 code
 :
 :
-notranslate
 #
 include
 "
@@ -14287,7 +14254,6 @@ h
 code
 :
 :
-notranslate
 PRFileDesc
 *
 SSL_ImportFD
@@ -14781,7 +14747,6 @@ syntax_18
 code
 :
 :
-notranslate
 #
 include
 "
@@ -14794,7 +14759,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_OptionSet
 (
@@ -17395,7 +17359,6 @@ syntax_19
 code
 :
 :
-notranslate
 #
 include
 "
@@ -17408,7 +17371,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_OptionGet
 (
@@ -18053,7 +18015,6 @@ syntax_20
 code
 :
 :
-notranslate
 #
 include
 "
@@ -18073,7 +18034,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_CipherPrefSet
 (
@@ -19045,7 +19005,6 @@ syntax_21
 code
 :
 :
-notranslate
 #
 include
 "
@@ -19065,7 +19024,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_CipherPrefGet
 (
@@ -19716,7 +19674,6 @@ syntax_22
 code
 :
 :
-notranslate
 #
 include
 "
@@ -19729,7 +19686,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_ConfigSecureServer
 (
@@ -20781,7 +20737,6 @@ syntax_23
 code
 :
 :
-notranslate
 #
 include
 "
@@ -20794,7 +20749,6 @@ h
 code
 :
 :
-notranslate
 int
 SSL_SetURL
 (
@@ -21221,7 +21175,6 @@ syntax_24
 code
 :
 :
-notranslate
 #
 include
 "
@@ -21234,7 +21187,6 @@ h
 code
 :
 :
-notranslate
 int
 SSL_SetPKCS11PinArg
 (
@@ -22167,7 +22119,6 @@ syntax_25
 code
 :
 :
-notranslate
 #
 include
 "
@@ -22180,7 +22131,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_AuthCertificateHook
 (
@@ -22831,7 +22781,6 @@ prototype
 code
 :
 :
-notranslate
 typedef
 SECStatus
 (
@@ -23893,7 +23842,6 @@ syntax_26
 code
 :
 :
-notranslate
 #
 include
 "
@@ -23906,7 +23854,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_AuthCertificate
 (
@@ -24859,7 +24806,6 @@ syntax_27
 code
 :
 :
-notranslate
 #
 include
 "
@@ -24872,7 +24818,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_BadCertHook
 (
@@ -25502,7 +25447,6 @@ prototype
 code
 :
 :
-notranslate
 typedef
 SECStatus
 (
@@ -25995,7 +25939,6 @@ syntax_28
 code
 :
 :
-notranslate
 #
 include
 "
@@ -26008,7 +25951,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_GetClientAuthDataHook
 (
@@ -26675,7 +26617,6 @@ prototype
 code
 :
 :
-notranslate
 typedef
 SECStatus
 (
@@ -27039,7 +26980,6 @@ syntax_29
 code
 :
 :
-notranslate
 #
 include
 "
@@ -27052,7 +26992,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 NSS_GetClientAuthData
 (
@@ -28025,7 +27964,6 @@ syntax_30
 code
 :
 :
-notranslate
 #
 include
 "
@@ -28038,7 +27976,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_HandshakeCallback
 (
@@ -28606,7 +28543,6 @@ prototype
 code
 :
 :
-notranslate
 typedef
 void
 (
@@ -29193,7 +29129,6 @@ syntax_31
 code
 :
 :
-notranslate
 #
 include
 "
@@ -29206,7 +29141,6 @@ h
 code
 :
 :
-notranslate
 int
 SSL_InvalidateSession
 (
@@ -29504,7 +29438,6 @@ syntax_32
 code
 :
 :
-notranslate
 #
 include
 "
@@ -29517,7 +29450,6 @@ h
 code
 :
 :
-notranslate
 int
 SSL_DataPending
 (
@@ -29891,7 +29823,6 @@ syntax_33
 code
 :
 :
-notranslate
 #
 include
 "
@@ -29904,7 +29835,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_SecurityStatus
 (
@@ -31428,7 +31358,6 @@ syntax_34
 code
 :
 :
-notranslate
 #
 include
 "
@@ -31441,7 +31370,6 @@ h
 code
 :
 :
-notranslate
 SECItem
 *
 SSL_GetSessionID
@@ -31727,7 +31655,6 @@ syntax_35
 code
 :
 :
-notranslate
 #
 include
 "
@@ -31740,7 +31667,6 @@ h
 code
 :
 :
-notranslate
 int
 SSL_SetSockPeerID
 (
@@ -32797,7 +32723,6 @@ syntax_36
 code
 :
 :
-notranslate
 #
 include
 "
@@ -32810,7 +32735,6 @@ h
 code
 :
 :
-notranslate
 CERTCertificate
 *
 SSL_PeerCertificate
@@ -33167,7 +33091,6 @@ syntax_37
 code
 :
 :
-notranslate
 #
 include
 "
@@ -33180,7 +33103,6 @@ h
 code
 :
 :
-notranslate
 char
 *
 SSL_RevealURL
@@ -33512,7 +33434,6 @@ syntax_38
 code
 :
 :
-notranslate
 #
 include
 "
@@ -33525,7 +33446,6 @@ h
 code
 :
 :
-notranslate
 void
 *
 SSL_RevealPinArg
@@ -33933,7 +33853,6 @@ syntax_39
 code
 :
 :
-notranslate
 #
 include
 "
@@ -33946,7 +33865,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_ForceHandshake
 (
@@ -34492,7 +34410,6 @@ syntax_40
 code
 :
 :
-notranslate
 #
 include
 "
@@ -34505,7 +34422,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_RedoHandshake
 (
@@ -35212,7 +35128,6 @@ syntax_41
 code
 :
 :
-notranslate
 #
 include
 "
@@ -35225,7 +35140,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_ResetHandshake
 (
@@ -35992,7 +35906,6 @@ syntax_42
 code
 :
 :
-notranslate
 #
 include
 "
@@ -36005,7 +35918,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 NSS_Shutdown
 (
@@ -36228,7 +36140,6 @@ syntax_43
 code
 :
 :
-notranslate
 #
 include
 "
@@ -36241,7 +36152,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_EnableDefault
 (
@@ -36760,7 +36670,6 @@ syntax_44
 code
 :
 :
-notranslate
 #
 include
 "
@@ -36773,7 +36682,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_Enable
 (
@@ -37447,7 +37355,6 @@ syntax_45
 code
 :
 :
-notranslate
 #
 include
 "
@@ -37467,7 +37374,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_EnableCipher
 (
@@ -37993,7 +37899,6 @@ syntax_46
 code
 :
 :
-notranslate
 #
 include
 <
@@ -38013,7 +37918,6 @@ h
 code
 :
 :
-notranslate
 SECStatus
 SSL_SetPolicy
 (
@@ -38602,7 +38506,6 @@ syntax_47
 code
 :
 :
-notranslate
 #
 include
 "
@@ -38615,7 +38518,6 @@ h
 code
 :
 :
-notranslate
 int
 SSL_RedoHandshake
 (

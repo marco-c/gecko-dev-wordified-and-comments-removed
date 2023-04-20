@@ -123,7 +123,6 @@ explicitly
 code
 :
 :
-notranslate
 config
 =
 "
@@ -159,7 +158,6 @@ allowed
 code
 :
 :
-notranslate
 config
 =
 "
@@ -212,7 +210,6 @@ more
 code
 :
 :
-notranslate
 config
 =
 "
@@ -260,7 +257,6 @@ curves
 code
 :
 :
-notranslate
 config
 =
 "
@@ -303,7 +299,6 @@ md5
 code
 :
 :
-notranslate
 config
 =
 "
@@ -324,7 +319,6 @@ SSL
 code
 :
 :
-notranslate
 config
 =
 "
@@ -363,7 +357,6 @@ appear
 code
 :
 :
-notranslate
 Future
 key
 words

@@ -313,7 +313,6 @@ syntax
 code
 :
 :
-notranslate
 #
 include
 <
@@ -333,7 +332,6 @@ h
 code
 :
 :
-notranslate
 CERTCertificate
 *
 PK11_FindCertFromNickname
@@ -470,7 +468,6 @@ parameters
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -604,7 +601,6 @@ nickname
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -954,7 +950,6 @@ syntax_2
 code
 :
 :
-notranslate
 #
 include
 <
@@ -981,7 +976,6 @@ h
 code
 :
 :
-notranslate
 SECKEYPrivateKey
 *
 PK11_FindKeyByAnyCert
@@ -1118,7 +1112,6 @@ parameters
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -1246,7 +1239,6 @@ cert
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -1544,7 +1536,6 @@ syntax_3
 code
 :
 :
-notranslate
 #
 include
 <
@@ -1557,7 +1548,6 @@ h
 code
 :
 :
-notranslate
 char
 *
 PK11_GetSlotName
@@ -1691,7 +1681,6 @@ parameter
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -1930,7 +1919,6 @@ syntax_4
 code
 :
 :
-notranslate
 #
 include
 <
@@ -1943,7 +1931,6 @@ h
 code
 :
 :
-notranslate
 char
 *
 PK11_GetTokenName
@@ -2077,7 +2064,6 @@ parameter
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -2321,7 +2307,6 @@ syntax_5
 code
 :
 :
-notranslate
 #
 include
 <
@@ -2341,7 +2326,6 @@ h
 code
 :
 :
-notranslate
 PRBool
 PK11_IsHW
 (
@@ -2474,7 +2458,6 @@ parameter
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -2667,7 +2650,6 @@ syntax_6
 code
 :
 :
-notranslate
 #
 include
 <
@@ -2687,7 +2669,6 @@ h
 code
 :
 :
-notranslate
 PRBool
 PK11_IsPresent
 (
@@ -2820,7 +2801,6 @@ parameter
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -3008,7 +2988,6 @@ syntax_7
 code
 :
 :
-notranslate
 #
 include
 <
@@ -3028,7 +3007,6 @@ h
 code
 :
 :
-notranslate
 PRBool
 PK11_IsReadOnly
 (
@@ -3161,7 +3139,6 @@ parameter
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -3362,7 +3339,6 @@ syntax_8
 code
 :
 :
-notranslate
 #
 include
 <
@@ -3382,7 +3358,6 @@ h
 code
 :
 :
-notranslate
 void
 PK11_SetPasswordFunc
 (
@@ -3514,7 +3489,6 @@ parameter
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -3740,7 +3714,6 @@ prototype
 code
 :
 :
-notranslate
 typedef
 char
 *
@@ -3874,7 +3847,6 @@ parameters
 code
 :
 :
-notranslate
 |
 A
 pointer
@@ -3999,7 +3971,6 @@ slot
 code
 :
 :
-notranslate
 |
 Set
 to
@@ -4137,7 +4108,6 @@ password
 code
 :
 :
-notranslate
 |
 A
 pointer

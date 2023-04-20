@@ -31,6 +31,9 @@ either
 asan
 "
 "
+fuzzer
+"
+"
 msan
 "
 "
@@ -340,6 +343,35 @@ end
         
 return
     
+if
+sanitizer
+=
+=
+"
+fuzzer
+"
+:
+        
+print
+(
+'
+-
+fsanitize
+=
+fuzzer
+-
+no
+-
+link
+'
+end
+=
+'
+'
+)
+        
+return
+    
 raise
 Exception
 (
@@ -348,6 +380,9 @@ Specify
 either
 "
 asan
+"
+"
+fuzzer
 "
 "
 msan

@@ -474,7 +474,6 @@ structure
 code
 :
 :
-eval
 CertificateSequence
 :
 :
@@ -583,7 +582,6 @@ line
 code
 :
 :
-eval
 -
 -
 -
@@ -664,7 +662,6 @@ line
 code
 :
 :
-eval
 -
 -
 -
@@ -1864,7 +1861,6 @@ is
 code
 :
 :
-eval
 netscape
 OBJECT
 IDENTIFIER
@@ -1895,7 +1891,6 @@ is
 code
 :
 :
-eval
 0x60
 0x86
 0x48
@@ -1917,7 +1912,6 @@ document
 code
 :
 :
-eval
 netscape
 -
 data

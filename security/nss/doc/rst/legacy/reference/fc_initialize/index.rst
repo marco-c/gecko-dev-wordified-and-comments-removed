@@ -307,7 +307,6 @@ format
 code
 :
 :
-notranslate
 "
 configdir
 =
@@ -354,7 +353,6 @@ databases
 code
 :
 :
-notranslate
 "
 configdir
 =
@@ -398,7 +396,6 @@ Windows
 code
 :
 :
-notranslate
 "
 configdir
 =
@@ -779,7 +776,6 @@ container
 code
 :
 :
-eval
 #
 include
 <

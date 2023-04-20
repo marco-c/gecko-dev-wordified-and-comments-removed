@@ -1160,7 +1160,6 @@ operations
 code
 :
 :
-notranslate
 /
 /
 Lookup

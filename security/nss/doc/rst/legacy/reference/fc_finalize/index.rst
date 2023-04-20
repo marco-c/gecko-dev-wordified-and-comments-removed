@@ -92,7 +92,6 @@ container
 code
 :
 :
-eval
 CK_RV
 FC_Finalize
 (
@@ -349,7 +348,6 @@ container
 code
 :
 :
-eval
 #
 include
 <

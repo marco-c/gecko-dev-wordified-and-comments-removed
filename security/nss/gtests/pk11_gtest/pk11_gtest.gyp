@@ -109,6 +109,11 @@ sources
 :
 [
 '
+json_reader
+.
+cc
+'
+'
 pk11_aes_cmac_unittest
 .
 cc

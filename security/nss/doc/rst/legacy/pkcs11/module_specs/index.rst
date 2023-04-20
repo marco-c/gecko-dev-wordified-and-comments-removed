@@ -662,7 +662,6 @@ as
 code
 :
 :
-notranslate
 typedef
 struct
 CK_C_INITIALIZE_ARGS
@@ -900,7 +899,6 @@ them
 code
 :
 :
-eval
 NSS
 =
 "
@@ -1798,7 +1796,6 @@ file
 code
 :
 :
-notranslate
 library
 =
 name
@@ -2743,7 +2740,6 @@ mode
 code
 :
 :
-eval
 tokens
 =
 <
@@ -2800,7 +2796,6 @@ mode
 code
 :
 :
-eval
 tokens
 =
 <

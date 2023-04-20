@@ -84,7 +84,6 @@ container
 code
 :
 :
-notranslate
 #
 include
 <
@@ -721,7 +720,6 @@ container
 code
 :
 :
-notranslate
 CERTIssuerAndSN
 issuerSN
 ;

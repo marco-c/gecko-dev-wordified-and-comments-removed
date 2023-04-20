@@ -336,7 +336,6 @@ Linux
 code
 :
 :
-notranslate
 sudo
 apt
 install
@@ -368,7 +367,6 @@ MacOS
 code
 :
 :
-notranslate
 brew
 install
 mercurial
@@ -433,7 +431,6 @@ this
 code
 :
 :
-notranslate
 export
 PATH
 =
@@ -465,7 +462,6 @@ Windows
 code
 :
 :
-notranslate
 <
 TODO
 >
@@ -781,7 +777,6 @@ commands
 code
 :
 :
-notranslate
 hg
 clone
 https
@@ -849,7 +844,6 @@ instead
 code
 :
 :
-notranslate
 git
 clone
 hg
@@ -956,7 +950,6 @@ directory
 code
 :
 :
-notranslate
 cd
 nss
 .
@@ -1121,7 +1114,6 @@ slower
 code
 :
 :
-notranslate
 USE_64
 =
 1
@@ -1435,7 +1427,6 @@ by
 code
 :
 :
-notranslate
 HOST
 =
 localhost
@@ -1617,7 +1608,6 @@ follows
 code
 :
 :
-notranslate
 127
 .
 0

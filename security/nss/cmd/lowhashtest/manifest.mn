@@ -66,9 +66,6 @@ MODULE
 nss
 REQUIRES
 =
-seccmd
-dbm
-softoken
 INCLUDES
 +
 =
@@ -96,6 +93,3 @@ c
 (
 NULL
 )
-USE_STATIC_LIBS
-=
-1

@@ -683,7 +683,6 @@ definition
 code
 :
 :
-notranslate
 RSAPublicKey
 :
 :
@@ -735,7 +734,6 @@ NSS
 code
 :
 :
-notranslate
 struct
 MyRSAPublicKey
 {

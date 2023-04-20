@@ -322,7 +322,6 @@ tree
 code
 :
 :
-notranslate
 cvs
 co
 -
@@ -339,7 +338,6 @@ or
 code
 :
 :
-notranslate
 cvs
 co
 -
@@ -404,7 +402,6 @@ Unix
 code
 :
 :
-notranslate
 setenv
 JAVA_HOME
 /
@@ -435,7 +432,6 @@ Windows
 code
 :
 :
-notranslate
 set
 JAVA_HOME
 =
@@ -470,7 +466,6 @@ Cygnus
 code
 :
 :
-notranslate
 JAVA_HOME
 =
 /
@@ -511,7 +506,6 @@ WIN95
 code
 :
 :
-notranslate
 As
 of
 NSS
@@ -685,7 +679,6 @@ JSS
 code
 :
 :
-notranslate
 cd
 mozilla
 /
@@ -705,7 +698,6 @@ jar
 code
 :
 :
-notranslate
 If
 you
 '

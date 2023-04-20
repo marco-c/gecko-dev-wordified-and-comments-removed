@@ -84,6 +84,10 @@ SECITEM_CompareItem
 SECITEM_CompareItem_stub
 #
 define
+SECITEM_ItemsAreEqual
+SECITEM_ItemsAreEqual_stub
+#
+define
 SECITEM_CopyItem
 SECITEM_CopyItem_stub
 #
