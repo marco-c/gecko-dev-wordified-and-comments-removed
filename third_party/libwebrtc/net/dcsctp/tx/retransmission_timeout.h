@@ -119,8 +119,6 @@ true
 ;
 int32_t
 scaled_srtt_
-=
-0
 ;
 int32_t
 scaled_rtt_var_

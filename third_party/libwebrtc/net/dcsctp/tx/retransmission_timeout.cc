@@ -76,6 +76,16 @@ options
 .
 min_rtt_variance
 )
+scaled_srtt_
+(
+*
+options
+.
+rto_initial
+<
+<
+kRttShift
+)
 rto_
 (
 *
