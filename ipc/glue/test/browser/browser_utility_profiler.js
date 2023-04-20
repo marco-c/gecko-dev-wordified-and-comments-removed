@@ -46,7 +46,7 @@ ensureNoExistingProcess
 )
 {
 await
-killUtilityProcesses
+killPendingUtilityProcess
 (
 )
 ;
@@ -360,6 +360,7 @@ StopProfiler
 await
 cleanUtilityProcessShutdown
 (
+utilityPid
 )
 ;
 }
