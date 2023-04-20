@@ -551,6 +551,12 @@ aIgnoreListItemMarker
 )
 const
 ;
+LayoutDeviceIntRect
+ComputeBoundsFromFrame
+(
+)
+const
+;
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
