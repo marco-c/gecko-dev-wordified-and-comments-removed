@@ -1767,6 +1767,15 @@ name
 svg
 "
 )
+&
+&
+strcmp
+(
+name
+"
+webp
+"
+)
 )
 {
 gdk_pixbuf_format_set_disabled
