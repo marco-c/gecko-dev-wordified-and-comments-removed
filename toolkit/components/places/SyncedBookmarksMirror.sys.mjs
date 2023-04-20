@@ -763,7 +763,9 @@ Adapts
 a
 Log
 .
-jsm
+sys
+.
+mjs
 logger
 to
 a
@@ -7168,7 +7170,9 @@ else
 /
 Sqlite
 .
-jsm
+sys
+.
+mjs
 callbacks
 swallow
 exceptions

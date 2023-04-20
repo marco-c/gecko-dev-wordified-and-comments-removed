@@ -769,7 +769,9 @@ what
 *
 Sqlite
 .
-jsm
+sys
+.
+mjs
 does
 under
 the
@@ -823,7 +825,9 @@ and
 *
 Sqlite
 .
-jsm
+sys
+.
+mjs
 use
 an
 internal
@@ -878,7 +882,9 @@ started
 by
 Sqlite
 .
-jsm
+sys
+.
+mjs
 and
 vice
 versa
