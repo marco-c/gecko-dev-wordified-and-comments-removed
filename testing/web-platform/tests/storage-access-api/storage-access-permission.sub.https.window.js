@@ -700,17 +700,10 @@ granted
 )
 ;
 await
-RunCallbackWithGesture
-(
-(
-)
-=
->
 document
 .
 requestStorageAccess
 (
-)
 )
 ;
 const
