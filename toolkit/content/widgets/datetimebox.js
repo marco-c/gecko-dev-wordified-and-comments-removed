@@ -1294,13 +1294,6 @@ height
 "
 16
 "
-fill
-=
-"
-context
--
-fill
-"
 >
 <
 path
