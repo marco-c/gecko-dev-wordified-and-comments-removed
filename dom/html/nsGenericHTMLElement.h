@@ -1335,7 +1335,6 @@ aRv
 )
 ;
 }
-virtual
 bool
 IsEventAttributeNameInternal
 (
@@ -1791,7 +1790,6 @@ default
 ;
 public
 :
-virtual
 nsresult
 BindToTree
 (
@@ -1803,7 +1801,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -1814,7 +1811,6 @@ true
 )
 override
 ;
-virtual
 bool
 IsFocusableInternal
 (
@@ -1858,7 +1854,6 @@ aTabIndex
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 mozilla
 :
 :
@@ -1932,7 +1927,6 @@ Compact
 )
 ;
 }
-virtual
 void
 UpdateEditableState
 (
@@ -1941,7 +1935,6 @@ aNotify
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1975,7 +1968,6 @@ aNotify
 )
 ;
 }
-virtual
 bool
 ParseAttribute
 (
@@ -2028,7 +2020,6 @@ aAttribute
 const
 override
 ;
-virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
 (
@@ -2552,7 +2543,6 @@ hidden
 )
 ;
 }
-virtual
 bool
 IsLabelable
 (
@@ -2795,7 +2785,6 @@ aDoReg
 }
 protected
 :
-virtual
 nsresult
 BeforeSetAttr
 (
@@ -2814,7 +2803,6 @@ aNotify
 override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
 nsresult
 AfterSetAttr
 (
@@ -2839,7 +2827,6 @@ aNotify
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -3564,7 +3551,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -3576,7 +3562,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -3635,7 +3620,6 @@ nsGenericHTMLFormElement
 =
 default
 ;
-virtual
 nsresult
 BeforeSetAttr
 (
@@ -3653,7 +3637,6 @@ aNotify
 )
 override
 ;
-virtual
 nsresult
 AfterSetAttr
 (
@@ -3925,33 +3908,18 @@ aFlags
 const
 override
 ;
-virtual
 void
 SaveSubtreeState
 (
 )
 override
 ;
-virtual
 IMEState
 GetDesiredIMEState
 (
 )
 override
 ;
-virtual
-nsresult
-BindToTree
-(
-BindContext
-&
-nsINode
-&
-aParent
-)
-override
-;
-virtual
 void
 UnbindFromTree
 (
@@ -3962,7 +3930,6 @@ true
 )
 override
 ;
-virtual
 void
 GetAutocapitalize
 (
@@ -3973,7 +3940,6 @@ aValue
 const
 override
 ;
-virtual
 bool
 IsHTMLFocusable
 (
@@ -4000,7 +3966,6 @@ aVisitor
 )
 override
 ;
-virtual
 nsresult
 PreHandleEvent
 (
@@ -4013,7 +3978,6 @@ aVisitor
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -4027,7 +3991,6 @@ GetFieldSet
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -4046,7 +4009,6 @@ return
 mForm
 ;
 }
-virtual
 void
 SetForm
 (
@@ -4062,7 +4024,6 @@ aForm
 )
 override
 ;
-virtual
 void
 ClearForm
 (
@@ -4073,7 +4034,6 @@ aUnbindOrDelete
 )
 override
 ;
-virtual
 bool
 AllowDrop
 (
@@ -4092,7 +4052,6 @@ nsGenericHTMLFormControlElement
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -4106,7 +4065,6 @@ IntrinsicState
 const
 override
 ;
-virtual
 bool
 IsLabelable
 (
@@ -4296,7 +4254,6 @@ bool
 aRead
 )
 ;
-virtual
 void
 NodeInfoChanged
 (
