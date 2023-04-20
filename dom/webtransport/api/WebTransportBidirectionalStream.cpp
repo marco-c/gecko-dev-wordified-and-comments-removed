@@ -26,6 +26,8 @@ NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 WebTransportBidirectionalStream
 mGlobal
+mReadable
+mWritable
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
