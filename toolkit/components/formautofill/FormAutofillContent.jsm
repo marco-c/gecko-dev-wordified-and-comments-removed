@@ -1942,7 +1942,6 @@ _onFormSubmit
 (
 profile
 domWin
-timeStartedFillingMS
 )
 {
 let
@@ -1962,10 +1961,7 @@ FormAutofill
 :
 OnFormSubmit
 "
-{
 profile
-timeStartedFillingMS
-}
 )
 ;
 }
@@ -2219,9 +2215,6 @@ _onFormSubmit
 (
 records
 domWin
-handler
-.
-timeStartedFillingMS
 )
 ;
 }
