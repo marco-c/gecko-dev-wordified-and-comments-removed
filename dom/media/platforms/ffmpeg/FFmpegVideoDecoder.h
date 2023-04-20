@@ -224,6 +224,11 @@ bool
 aLowLatency
 bool
 aDisableHardwareDecoding
+Maybe
+<
+TrackingId
+>
+aTrackingId
 )
 ;
 ~
@@ -809,6 +814,13 @@ AVDiscard
 mFrameDrop
 =
 AVDISCARD_DEFAULT
+;
+const
+Maybe
+<
+TrackingId
+>
+mTrackingId
 ;
 PerformanceRecorderMulti
 <

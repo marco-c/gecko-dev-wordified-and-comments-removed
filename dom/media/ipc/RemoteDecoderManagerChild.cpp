@@ -1924,6 +1924,9 @@ Nothing
 params
 .
 mMediaEngineId
+params
+.
+mTrackingId
 )
 ;
 if
@@ -3245,6 +3248,13 @@ uint64_t
 >
 &
 aMediaEngineId
+const
+Maybe
+<
+TrackingId
+>
+&
+aTrackingId
 )
 {
 MOZ_ASSERT

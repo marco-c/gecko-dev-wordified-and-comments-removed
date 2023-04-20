@@ -346,6 +346,12 @@ mMediaDecoderOwnerID
 =
 nullptr
 ;
+Maybe
+<
+TrackingId
+>
+mTrackingId
+;
 }
 ;
 DDLoggedTypeDeclName
@@ -3308,6 +3314,13 @@ Maybe
 uint64_t
 >
 mMediaEngineId
+;
+const
+Maybe
+<
+TrackingId
+>
+mTrackingId
 ;
 }
 ;

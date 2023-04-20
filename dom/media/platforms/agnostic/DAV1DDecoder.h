@@ -273,6 +273,13 @@ KnowsCompositor
 >
 mImageAllocator
 ;
+const
+Maybe
+<
+TrackingId
+>
+mTrackingId
+;
 PerformanceRecorderMulti
 <
 DecodeStage

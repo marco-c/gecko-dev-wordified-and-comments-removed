@@ -282,6 +282,9 @@ mOptions
 aParams
 .
 mKnowsCompositor
+aParams
+.
+mTrackingId
 )
 ;
 }
@@ -1108,6 +1111,9 @@ nullptr
 {
 }
 nullptr
+Nothing
+(
+)
 )
 ;
 MediaResult

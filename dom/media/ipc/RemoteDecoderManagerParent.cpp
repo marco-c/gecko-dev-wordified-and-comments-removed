@@ -1082,6 +1082,13 @@ uint64_t
 >
 &
 aMediaEngineId
+const
+Maybe
+<
+TrackingId
+>
+&
+aTrackingId
 )
 {
 RefPtr
@@ -1156,6 +1163,7 @@ aIdentifier
 sRemoteDecoderManagerParentThread
 decodeTaskQueue
 aMediaEngineId
+aTrackingId
 )
 ;
 }

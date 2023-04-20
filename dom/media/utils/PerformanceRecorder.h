@@ -502,6 +502,8 @@ DecodeStage
 (
 nsCString
 aSource
+TrackingId
+aTrackingId
 MediaInfoFlag
 aFlag
 )
@@ -514,6 +516,16 @@ std
 move
 (
 aSource
+)
+)
+mTrackingId
+(
+std
+:
+:
+move
+(
+aTrackingId
 )
 )
 mFlag
@@ -641,6 +653,9 @@ aColorDepth
 }
 nsCString
 mSource
+;
+TrackingId
+mTrackingId
 ;
 MediaInfoFlag
 mFlag

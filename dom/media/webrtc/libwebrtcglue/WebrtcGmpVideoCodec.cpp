@@ -3534,6 +3534,8 @@ std
 :
 string
 aPCHandle
+TrackingId
+aTrackingId
 )
 :
 mGMP
@@ -3573,6 +3575,16 @@ std
 move
 (
 aPCHandle
+)
+)
+mTrackingId
+(
+std
+:
+:
+move
+(
+aTrackingId
 )
 )
 {
@@ -4340,6 +4352,7 @@ Timestamp
 WebrtcGmpVideoDecoder
 "
 _ns
+mTrackingId
 flag
 )
 ;

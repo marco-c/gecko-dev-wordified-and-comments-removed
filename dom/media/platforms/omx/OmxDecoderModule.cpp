@@ -121,6 +121,9 @@ mConfig
 aParams
 .
 mImageContainer
+aParams
+.
+mTrackingId
 )
 ;
 return
@@ -159,6 +162,9 @@ aParams
 .
 mConfig
 nullptr
+aParams
+.
+mTrackingId
 )
 ;
 return

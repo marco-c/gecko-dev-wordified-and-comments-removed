@@ -1535,7 +1535,6 @@ GMPVideoDecoderCallbackProxy
 {
 public
 :
-explicit
 WebrtcGmpVideoDecoder
 (
 std
@@ -1543,6 +1542,8 @@ std
 :
 string
 aPCHandle
+TrackingId
+aTrackingId
 )
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -1968,6 +1969,10 @@ std
 string
 mPCHandle
 ;
+const
+TrackingId
+mTrackingId
+;
 PerformanceRecorderMulti
 <
 DecodeStage
@@ -2004,6 +2009,8 @@ std
 :
 string
 aPCHandle
+TrackingId
+aTrackingId
 )
 :
 mDecoderImpl
@@ -2017,6 +2024,13 @@ std
 move
 (
 aPCHandle
+)
+std
+:
+:
+move
+(
+aTrackingId
 )
 )
 )

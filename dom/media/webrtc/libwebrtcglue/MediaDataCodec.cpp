@@ -124,6 +124,8 @@ webrtc
 :
 VideoCodecType
 aCodecType
+TrackingId
+aTrackingId
 )
 {
 switch
@@ -309,6 +311,7 @@ new
 WebrtcMediaDataDecoder
 (
 codec
+aTrackingId
 )
 ;
 }

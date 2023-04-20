@@ -103,6 +103,12 @@ aParams
 .
 mMediaEngineId
 )
+mTrackingId
+(
+aParams
+.
+mTrackingId
+)
 {
 }
 CreateDecoderParamsForAsync

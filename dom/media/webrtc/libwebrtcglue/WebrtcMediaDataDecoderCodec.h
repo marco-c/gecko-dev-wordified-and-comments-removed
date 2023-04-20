@@ -107,12 +107,13 @@ WebrtcVideoDecoder
 {
 public
 :
-explicit
 WebrtcMediaDataDecoder
 (
 nsACString
 &
 aCodecMimeType
+TrackingId
+aTrackingId
 )
 ;
 bool
@@ -283,6 +284,10 @@ bool
 mDisabledHardwareAcceleration
 =
 false
+;
+const
+TrackingId
+mTrackingId
 ;
 }
 ;

@@ -131,6 +131,11 @@ layers
 KnowsCompositor
 *
 aKnowsCompositor
+Maybe
+<
+TrackingId
+>
+aTrackingId
 )
 ;
 class
@@ -539,6 +544,13 @@ mKnowsCompositor
 const
 bool
 mUseSoftwareImages
+;
+const
+Maybe
+<
+TrackingId
+>
+mTrackingId
 ;
 Atomic
 <
