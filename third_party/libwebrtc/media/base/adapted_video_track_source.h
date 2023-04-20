@@ -178,6 +178,11 @@ VideoFrame
 frame
 )
 ;
+void
+OnFrameDropped
+(
+)
+;
 bool
 AdaptFrame
 (

@@ -147,6 +147,13 @@ Millis
 1000
 )
 ;
+static
+constexpr
+int
+kOnDiscardedFrameRefreshFramePeriod
+=
+3
+;
 struct
 ZeroHertzModeParams
 {
