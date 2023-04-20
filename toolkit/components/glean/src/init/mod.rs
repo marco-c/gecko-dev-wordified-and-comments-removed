@@ -892,6 +892,9 @@ uploader
 :
 None
 use_core_mps
+trim_data_to_registered_pings
+:
+false
 }
 ;
 Ok

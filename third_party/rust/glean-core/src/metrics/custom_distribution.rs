@@ -11,6 +11,15 @@ use
 crate
 :
 :
+common_metric_data
+:
+:
+CommonMetricDataInternal
+;
+use
+crate
+:
+:
 error_recording
 :
 :
@@ -83,7 +92,7 @@ meta
 :
 Arc
 <
-CommonMetricData
+CommonMetricDataInternal
 >
 range_min
 :
@@ -191,7 +200,7 @@ self
 -
 >
 &
-CommonMetricData
+CommonMetricDataInternal
 {
 &
 self
@@ -236,6 +245,10 @@ Arc
 new
 (
 meta
+.
+into
+(
+)
 )
 range_min
 :
@@ -696,6 +709,8 @@ meta
 (
 )
 .
+inner
+.
 send_in_pings
 [
 0
@@ -725,6 +740,8 @@ glean
 self
 .
 meta
+.
+inner
 .
 lifetime
 )
