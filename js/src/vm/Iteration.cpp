@@ -3585,6 +3585,12 @@ js
 SupportDifferentialTesting
 (
 )
+&
+&
+!
+supportsIndices
+(
+)
 )
 {
 jsid
