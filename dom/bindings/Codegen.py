@@ -5550,9 +5550,15 @@ None
                 
 classString
 =
-"
-Object
-"
+self
+.
+descriptor
+.
+interface
+.
+identifier
+.
+name
             
 else
 :
@@ -5680,7 +5686,9 @@ objectOps
               
 }
               
-eInterface
+{
+type
+}
               
 {
 needsHasInstance
@@ -5737,6 +5745,28 @@ descriptor
 objectOps
 =
 objectOps
+            
+type
+=
+"
+eNamespace
+"
+            
+if
+self
+.
+descriptor
+.
+interface
+.
+isNamespace
+(
+)
+            
+else
+"
+eInterface
+"
             
 needsHasInstance
 =
