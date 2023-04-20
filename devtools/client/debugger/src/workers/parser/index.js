@@ -72,17 +72,6 @@ findOutOfScopeLocations
 "
 )
 ;
-getNextStep
-=
-this
-.
-task
-(
-"
-getNextStep
-"
-)
-;
 getScopes
 =
 this
