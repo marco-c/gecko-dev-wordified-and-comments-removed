@@ -197,19 +197,6 @@ inline
 always
 )
 ]
-/
-/
-Unsafe
-to
-match
-the
-intrinsic
-which
-is
-needlessly
-unsafe
-.
-unsafe
 fn
 likely
 (
@@ -230,19 +217,6 @@ inline
 always
 )
 ]
-/
-/
-Unsafe
-to
-match
-the
-intrinsic
-which
-is
-needlessly
-unsafe
-.
-unsafe
 fn
 unlikely
 (
@@ -4947,8 +4921,6 @@ true
 ;
 }
 if
-unsafe
-{
 unlikely
 (
 second
@@ -4962,7 +4934,6 @@ second
 =
 0x9E
 )
-}
 {
 let
 third
@@ -6051,8 +6022,6 @@ byte
 0x80
 {
 if
-unsafe
-{
 unlikely
 (
 byte
@@ -6060,7 +6029,6 @@ byte
 =
 0xD6
 )
-}
 {
 if
 byte
@@ -6131,8 +6099,6 @@ byte
 0xF0
 {
 if
-unsafe
-{
 unlikely
 (
 !
@@ -6149,7 +6115,6 @@ byte
 =
 0xE1
 )
-}
 {
 let
 second
@@ -6383,8 +6348,6 @@ read
 ]
 ;
 if
-unsafe
-{
 unlikely
 (
 byte
@@ -6406,7 +6369,6 @@ second
 0x9E
 )
 )
-}
 {
 let
 third
@@ -7809,8 +7771,6 @@ dst
 )
 ;
 if
-unsafe
-{
 likely
 (
 read
@@ -7822,7 +7782,6 @@ len
 (
 )
 )
-}
 {
 return
 (

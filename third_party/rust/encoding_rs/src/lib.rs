@@ -37,7 +37,6 @@ accel
 "
 feature
 (
-stdsimd
 core_intrinsics
 )
 )
