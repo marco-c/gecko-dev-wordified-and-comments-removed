@@ -1499,11 +1499,6 @@ return
 mContainer
 ;
 }
-LayoutDeviceIntSize
-GetMozContainerSize
-(
-)
-;
 GdkWindow
 *
 GetGdkWindow
