@@ -39,9 +39,6 @@ UTF8String
 aLocales
 )
 ;
-[
-Throws
-]
 undefined
 connectRoot
 (
@@ -49,9 +46,6 @@ Node
 aElement
 )
 ;
-[
-Throws
-]
 undefined
 disconnectRoot
 (
@@ -59,17 +53,11 @@ Node
 aElement
 )
 ;
-[
-Throws
-]
 undefined
 pauseObserving
 (
 )
 ;
-[
-Throws
-]
 undefined
 resumeObserving
 (
