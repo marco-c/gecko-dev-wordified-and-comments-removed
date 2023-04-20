@@ -7,7 +7,6 @@ interfaces
 :
 {
 nsISupports
-nsrefcnt
 }
 ;
 use
@@ -103,6 +102,12 @@ threadbound
 :
 :
 ThreadBound
+;
+pub
+type
+MozExternalRefCountType
+=
+u32
 ;
 pub
 unsafe
@@ -1343,7 +1348,7 @@ self
 )
 -
 >
-nsrefcnt
+MozExternalRefCountType
 {
 let
 new
@@ -1387,7 +1392,7 @@ self
 )
 -
 >
-nsrefcnt
+MozExternalRefCountType
 {
 let
 new
@@ -1489,7 +1494,7 @@ self
 )
 -
 >
-nsrefcnt
+MozExternalRefCountType
 {
 let
 result
@@ -1529,7 +1534,7 @@ self
 )
 -
 >
-nsrefcnt
+MozExternalRefCountType
 {
 let
 result
