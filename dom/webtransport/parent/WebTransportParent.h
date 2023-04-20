@@ -185,6 +185,11 @@ aReason
 IPCResult
 RecvCreateUnidirectionalStream
 (
+Maybe
+<
+int64_t
+>
+aSendOrder
 CreateUnidirectionalStreamResolver
 &
 &
@@ -194,6 +199,11 @@ aResolver
 IPCResult
 RecvCreateBidirectionalStream
 (
+Maybe
+<
+int64_t
+>
+aSendOrder
 CreateBidirectionalStreamResolver
 &
 &
