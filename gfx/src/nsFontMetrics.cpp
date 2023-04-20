@@ -177,7 +177,7 @@ const
 char
 *
 aString
-int32_t
+uint32_t
 aLength
 )
 {
@@ -237,7 +237,7 @@ const
 char16_t
 *
 aString
-int32_t
+uint32_t
 aLength
 )
 {
