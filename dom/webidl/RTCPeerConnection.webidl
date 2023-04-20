@@ -816,6 +816,9 @@ RTCRtpSender
 sender
 )
 ;
+[
+Throws
+]
 RTCRtpTransceiver
 addTransceiver
 (
