@@ -181,12 +181,13 @@ Editor
 options
 styleeditor
 -
-media
+at
 -
 rules
 =
-Media
-Queries
+At
+-
+rules
 styleeditor
 -
 editor

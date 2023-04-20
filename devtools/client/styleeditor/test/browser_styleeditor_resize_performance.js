@@ -122,7 +122,9 @@ info
 "
 Wait
 for
-media
+at
+-
+rules
 -
 list
 -

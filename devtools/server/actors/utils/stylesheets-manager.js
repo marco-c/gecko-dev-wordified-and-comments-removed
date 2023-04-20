@@ -1110,12 +1110,12 @@ null
 ;
 }
 const
-mediaRules
+atRules
 =
 await
 this
 .
-_getMediaRules
+getAtRules
 (
 styleSheet
 )
@@ -1134,7 +1134,7 @@ resourceId
 updateKind
 :
 "
-media
+at
 -
 rules
 -
@@ -1146,7 +1146,7 @@ updates
 resourceUpdates
 :
 {
-mediaRules
+atRules
 }
 }
 }
@@ -1775,7 +1775,7 @@ importedStyleSheets
 ;
 }
 async
-_getMediaRules
+getAtRules
 (
 styleSheet
 )
@@ -2068,7 +2068,7 @@ path
 :
 [
 "
-mediaRules
+atRules
 "
 index
 "

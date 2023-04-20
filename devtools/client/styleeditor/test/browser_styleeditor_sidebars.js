@@ -17,14 +17,14 @@ html
 "
 ;
 const
-PREF_SHOW_MEDIA_SIDEBAR
+PREF_SHOW_AT_RULES_SIDEBAR
 =
 "
 devtools
 .
 styleeditor
 .
-showMediaSidebar
+showAtRulesSidebar
 "
 ;
 const
@@ -35,7 +35,7 @@ devtools
 .
 styleeditor
 .
-mediaSidebarWidth
+atRulesSidebarWidth
 "
 ;
 const
@@ -69,7 +69,7 @@ function
 await
 pushPref
 (
-PREF_SHOW_MEDIA_SIDEBAR
+PREF_SHOW_AT_RULES_SIDEBAR
 true
 )
 ;
