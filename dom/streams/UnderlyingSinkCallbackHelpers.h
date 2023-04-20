@@ -191,6 +191,13 @@ aRv
 =
 0
 ;
+virtual
+void
+ReleaseObjects
+(
+)
+{
+}
 protected
 :
 virtual
