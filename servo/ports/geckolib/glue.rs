@@ -23421,6 +23421,11 @@ element
 &
 pseudo
 rule_inclusion
+styles
+.
+primary
+(
+)
 base
 is_probe
 matching_func
