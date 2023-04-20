@@ -79,8 +79,11 @@ _retval
 {
 if
 (
-mDefaultApplication
+GetDefaultApplication
+(
 )
+)
+{
 return
 nsMIMEInfoImpl
 :
@@ -90,6 +93,7 @@ GetHasDefaultHandler
 _retval
 )
 ;
+}
 *
 _retval
 =
@@ -207,8 +211,11 @@ aFile
 {
 if
 (
-mDefaultApplication
+GetDefaultApplication
+(
 )
+)
+{
 return
 nsMIMEInfoImpl
 :
@@ -218,6 +225,7 @@ LaunchDefaultWithFile
 aFile
 )
 ;
+}
 nsAutoCString
 nativePath
 ;

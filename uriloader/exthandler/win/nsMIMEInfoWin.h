@@ -152,6 +152,16 @@ aDefaultApplication
 }
 protected
 :
+nsIFile
+*
+GetDefaultApplication
+(
+)
+{
+return
+mDefaultApplication
+;
+}
 virtual
 nsresult
 LoadUriInternal
