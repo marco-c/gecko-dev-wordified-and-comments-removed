@@ -168,12 +168,6 @@ open
 "
 )
 ;
-inspectA11YPropsItem
-.
-click
-(
-)
-;
 const
 popupHidden
 =
@@ -189,8 +183,9 @@ popuphidden
 ;
 contextMenu
 .
-hidePopup
+activateItem
 (
+inspectA11YPropsItem
 )
 ;
 await

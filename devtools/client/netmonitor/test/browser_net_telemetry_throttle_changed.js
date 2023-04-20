@@ -147,6 +147,9 @@ click
 (
 )
 ;
+const
+item
+=
 toolbox
 .
 topWindow
@@ -166,9 +169,14 @@ GPRS
 ]
 "
 )
+;
+item
 .
-click
+parentNode
+.
+activateItem
 (
+item
 )
 ;
 await

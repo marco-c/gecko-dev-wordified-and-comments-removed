@@ -221,7 +221,8 @@ monitor
 1
 )
 ;
-getContextMenuItem
+await
+selectContextMenuItem
 (
 monitor
 "
@@ -235,10 +236,6 @@ resend
 -
 only
 "
-)
-.
-click
-(
 )
 ;
 await
