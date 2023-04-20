@@ -194,6 +194,11 @@ nsIBackgroundTasksManager
 .
 idl
 "
+"
+nsIBackgroundTasksRunner
+.
+idl
+"
 ]
 XPIDL_MODULE
 =
