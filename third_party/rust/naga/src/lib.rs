@@ -1344,6 +1344,12 @@ Rgba16Float
 Rgba32Uint
 Rgba32Sint
 Rgba32Float
+R16Unorm
+R16Snorm
+Rg16Unorm
+Rg16Snorm
+Rgba16Unorm
+Rgba16Snorm
 }
 #
 [

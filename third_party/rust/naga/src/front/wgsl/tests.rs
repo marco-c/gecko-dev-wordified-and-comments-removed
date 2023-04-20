@@ -235,7 +235,7 @@ parse_types
 parse_str
 (
 "
-let
+const
 a
 :
 i32
@@ -255,7 +255,7 @@ assert
 parse_str
 (
 "
-let
+const
 a
 :
 x32
@@ -460,7 +460,7 @@ parse_type_cast
 parse_str
 (
 "
-let
+const
 a
 :
 i32

@@ -100,6 +100,13 @@ TextureDescriptor
 <
 (
 )
+Vec
+<
+wgt
+:
+:
+TextureFormat
+>
 >
 )
 -

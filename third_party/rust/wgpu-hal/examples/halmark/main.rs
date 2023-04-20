@@ -597,6 +597,15 @@ empty
 (
 )
 }
+dx12_shader_compiler
+:
+wgt
+:
+:
+Dx12Compiler
+:
+:
+Fxc
 }
 ;
 let
@@ -1908,6 +1917,9 @@ MemoryFlags
 empty
 (
 )
+allow_different_view_format
+:
+false
 }
 ;
 let
