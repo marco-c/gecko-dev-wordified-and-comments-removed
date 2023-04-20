@@ -43,12 +43,6 @@ TOP_SITES_SPOC_CONTEXT_MENU_OPTIONS
 =
 [
 "
-PinTopSite
-"
-"
-Separator
-"
-"
 OpenInNewWindow
 "
 "
