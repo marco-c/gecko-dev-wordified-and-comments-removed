@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-a5257ccce72e2742512143cfc69a735536336254
+c29d1550aec779748a8b76c72285a317a99b5cf4
 '
 #
 Keep
@@ -184,11 +184,11 @@ re_client_version
 :
 0
 .
-76
+77
 .
-0
+2
 .
-f4c4bc4
+9cc22cf
 -
 gomaip
 '
@@ -232,7 +232,7 @@ chromium
 src
 /
 base
-7be4260b43b22c1ffee29953851582a35a23bcdc
+a630d2c8b0ad1774421fbbee5391e183a15e0a5c
 '
 '
 src
@@ -256,7 +256,7 @@ chromium
 src
 /
 build
-ac6f31c56b461be2fbc6ee8c1a9e99fd75f51c2c
+adc338f326ca8046c5e1b8c1bfe3b0110de52776
 '
 '
 src
@@ -376,7 +376,7 @@ chromium
 src
 /
 ios
-c30b19ab9676b778da5637953a2c65a36a0fa1fb
+cf8dbb15c8b6a7f1490b5b429cef01a61bb0dd64
 '
 '
 condition
@@ -408,7 +408,7 @@ chromium
 src
 /
 testing
-d44ba81111da3d57c9fd238df47bfd0d23688cde
+548d3c6ae2e3dc525290c2e31e8b73088b5a36a0
 '
 '
 src
@@ -432,7 +432,7 @@ chromium
 src
 /
 third_party
-21a726fae5996ab515967bed3a4d30c376b1ef18
+24f9481c36aec72ee54f70dbc18cc9df5abea523
 '
 '
 src
@@ -747,7 +747,7 @@ project
 libcxx
 .
 git
-26e3467ee8494629799408ac63e2bc3a77948aed
+e5670a0e0e4992f6a120142358b07e49c7d96918
 '
 '
 src
@@ -1124,7 +1124,7 @@ com
 catapult
 .
 git
-2417ba3d0d766848fcd0bc65d6cf2819f68c16e5
+6552f9ba7bb598399ca8ace6ed5310bf70bd6ff3
 '
 '
 src
@@ -1254,7 +1254,7 @@ tools
 depot_tools
 .
 git
-b7ec673cccc42bce346234209dfd194b7911e169
+f41670fdadc9eca7fff99ab8563190dd41d27ee8
 '
 '
 src
@@ -1409,7 +1409,7 @@ third_party
 freetype2
 .
 git
-4797b2ff22906ce4ff4e6dcee300a70f94dcc43a
+dd91f6e7f5a051818070c49715125fb72074023e
 '
 '
 src
@@ -2505,7 +2505,7 @@ chromium
 src
 /
 tools
-b5cc5a154c15d8b39b30493f225969de24fec107
+844646463fde5ee75a802c79cd27173534b107dd
 '
 '
 src
