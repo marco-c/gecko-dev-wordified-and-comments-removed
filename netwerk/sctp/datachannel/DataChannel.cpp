@@ -4645,7 +4645,7 @@ paddrparams
 .
 spp_pathmtu
 =
-1200
+1179
 ;
 paddrparams
 .
