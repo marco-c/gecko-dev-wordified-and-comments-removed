@@ -1265,6 +1265,9 @@ field_trial
 "
 )
 {
+testonly
+=
+true
 visibility
 =
 [
@@ -1349,10 +1352,6 @@ deps
 =
 [
 "
-:
-field_trial
-"
-"
 .
 .
 /
@@ -1396,6 +1395,9 @@ scoped_key_value_config
 "
 )
 {
+testonly
+=
+true
 visibility
 =
 [
