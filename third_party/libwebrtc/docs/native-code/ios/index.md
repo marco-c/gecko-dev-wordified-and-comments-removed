@@ -708,7 +708,7 @@ file
 named
 all
 .
-xcworkspace
+xcodeproj
 placed
 in
 your
@@ -756,7 +756,7 @@ ios
 /
 all
 .
-xcworkspace
+xcodeproj
 *
 Compile
 and
