@@ -3066,17 +3066,6 @@ acc
 )
 )
 {
-if
-(
-!
-StaticPrefs
-:
-:
-accessibility_cache_enabled_AtStartup
-(
-)
-)
-{
 document
 -
 >
@@ -3089,7 +3078,6 @@ EVENT_TABLE_STYLING_CHANGED
 table
 )
 ;
-}
 document
 -
 >

@@ -6687,17 +6687,6 @@ IsTable
 )
 )
 {
-if
-(
-!
-StaticPrefs
-:
-:
-accessibility_cache_enabled_AtStartup
-(
-)
-)
-{
 FireDelayedEvent
 (
 nsIAccessibleEvent
@@ -6707,7 +6696,6 @@ EVENT_TABLE_STYLING_CHANGED
 table
 )
 ;
-}
 QueueCacheUpdate
 (
 table
