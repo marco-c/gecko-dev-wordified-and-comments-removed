@@ -889,7 +889,7 @@ action
 {
 const
 {
-sourceActors
+items
 }
 =
 action
@@ -918,7 +918,7 @@ for
 const
 sourceActor
 of
-sourceActors
+items
 )
 {
 state
@@ -966,7 +966,7 @@ thread
 const
 scriptActors
 =
-sourceActors
+items
 .
 filter
 (

@@ -250,8 +250,6 @@ dispatch
 loadSourceActorBreakableLines
 (
 {
-sourceActorId
-:
 id
 cx
 }
