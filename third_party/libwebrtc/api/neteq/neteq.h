@@ -347,7 +347,7 @@ const
 int
 sample_rate_hz
 =
-16000
+48000
 ;
 bool
 enable_post_decode_vad
