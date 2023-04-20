@@ -282,15 +282,6 @@ Pattern
 .
 NATURAL
 }
-Source
-:
-{
-count
-:
-Pattern
-.
-NATURAL
-}
 Environment
 :
 {
