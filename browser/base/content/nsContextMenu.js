@@ -7716,9 +7716,7 @@ menuitem
 -
 screenshot
 "
-"
-context_menu
-"
+true
 )
 ;
 }
