@@ -179,6 +179,16 @@ logLevel
 Debug
 "
 ]
+[
+"
+cookiebanners
+.
+listService
+.
+testSkipRemoteSettings
+"
+true
+]
 ]
 }
 )

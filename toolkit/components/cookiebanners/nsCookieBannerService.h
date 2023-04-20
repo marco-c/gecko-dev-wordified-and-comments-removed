@@ -282,6 +282,8 @@ BrowsingContext
 *
 aBrowsingContext
 bool
+aIgnoreDomainPref
+bool
 &
 aHasClickRule
 bool
@@ -375,6 +377,8 @@ dom
 BrowsingContext
 *
 aBrowsingContext
+bool
+aIgnoreDomainPref
 nsICookieBannerService
 :
 :
