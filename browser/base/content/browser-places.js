@@ -6964,6 +6964,12 @@ hasAttribute
 initialized
 "
 )
+&
+&
+!
+this
+.
+_isCustomizing
 )
 {
 return
