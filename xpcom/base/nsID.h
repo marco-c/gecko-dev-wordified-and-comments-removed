@@ -22,6 +22,14 @@ h
 define
 NSID_LENGTH
 39
+#
+ifndef
+XPCOM_GLUE_AVOID_NSPR
+class
+nsIDToCString
+;
+#
+endif
 struct
 nsID
 {
@@ -257,8 +265,7 @@ aIDStr
 #
 ifndef
 XPCOM_GLUE_AVOID_NSPR
-char
-*
+nsIDToCString
 ToString
 (
 )
