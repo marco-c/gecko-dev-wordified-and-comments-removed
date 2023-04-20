@@ -2566,6 +2566,8 @@ context
 source
 :
 "
+about
+:
 firefoxview
 "
 }

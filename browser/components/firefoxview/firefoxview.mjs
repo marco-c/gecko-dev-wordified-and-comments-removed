@@ -292,6 +292,13 @@ feature
 -
 tour
 "
+page
+:
+"
+about
+:
+firefoxview
+"
 }
 )
 ;
