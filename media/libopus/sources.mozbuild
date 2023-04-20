@@ -542,13 +542,6 @@ c
 '
 silk
 /
-debug
-.
-c
-'
-'
-silk
-/
 dec_API
 .
 c
