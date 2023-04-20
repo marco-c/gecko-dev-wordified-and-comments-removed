@@ -10,6 +10,17 @@ non_upper_case_globals
 missing_docs
 )
 ]
+#
+[
+cfg_attr
+(
+test
+allow
+(
+deref_nullptr
+)
+)
+]
 pub
 mod
 structs
