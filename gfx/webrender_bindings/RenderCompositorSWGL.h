@@ -281,6 +281,12 @@ mDT
 LayoutDeviceIntRegion
 mDirtyRegion
 ;
+Maybe
+<
+LayoutDeviceIntSize
+>
+mRenderWidgetSize
+;
 RefPtr
 <
 gfx
@@ -304,6 +310,9 @@ mMappedStride
 #
 ifdef
 MOZ_WAYLAND
+LayoutDeviceIntSize
+mLastRenderWidgetSize
+;
 bool
 mRequestFullRender
 =
