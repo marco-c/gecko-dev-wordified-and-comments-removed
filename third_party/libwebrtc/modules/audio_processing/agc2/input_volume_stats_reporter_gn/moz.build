@@ -245,9 +245,9 @@ modules
 /
 audio_processing
 /
-agc
+agc2
 /
-analog_gain_stats_reporter
+input_volume_stats_reporter
 .
 cc
 "
@@ -1480,6 +1480,6 @@ True
 Library
 (
 "
-analog_gain_stats_reporter_gn
+input_volume_stats_reporter_gn
 "
 )
