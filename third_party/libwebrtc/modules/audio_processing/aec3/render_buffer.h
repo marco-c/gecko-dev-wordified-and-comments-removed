@@ -160,7 +160,7 @@ RenderBuffer
 const
 Block
 &
-Block
+GetBlock
 (
 int
 buffer_offset_blocks

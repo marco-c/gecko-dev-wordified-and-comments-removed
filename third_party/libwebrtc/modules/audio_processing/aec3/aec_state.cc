@@ -1090,7 +1090,7 @@ aligned_render_block
 =
 render_buffer
 .
-Block
+GetBlock
 (
 -
 delay_state_

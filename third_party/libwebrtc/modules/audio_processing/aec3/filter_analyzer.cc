@@ -788,7 +788,7 @@ ch
 region_
 render_buffer
 .
-Block
+GetBlock
 (
 -
 filter_delays_blocks_
