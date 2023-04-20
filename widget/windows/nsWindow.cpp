@@ -23757,6 +23757,11 @@ userMovedMouse
 true
 ;
 }
+if
+(
+userMovedMouse
+)
+{
 result
 =
 DispatchMouseEvent
@@ -23781,11 +23786,6 @@ wParam
 )
 )
 ;
-if
-(
-userMovedMouse
-)
-{
 DispatchPendingEvents
 (
 )
