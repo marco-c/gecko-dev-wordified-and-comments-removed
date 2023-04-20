@@ -2029,6 +2029,13 @@ result
 )
 ;
 ObjOperandId
+emitFunCallOrApplyGuard
+(
+Int32OperandId
+argcId
+)
+;
+ObjOperandId
 emitFunCallGuard
 (
 Int32OperandId
