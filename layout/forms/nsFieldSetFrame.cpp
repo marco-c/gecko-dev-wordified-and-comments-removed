@@ -3104,10 +3104,8 @@ ComputedMinBSize
 {
 kidReflowInput
 .
-ComputedMinBSize
+SetComputedMinBSize
 (
-)
-=
 std
 :
 :
@@ -3121,6 +3119,7 @@ ComputedMinBSize
 )
 -
 mLegendSpace
+)
 )
 ;
 }
@@ -3138,10 +3137,8 @@ NS_UNCONSTRAINEDSIZE
 {
 kidReflowInput
 .
-ComputedMaxBSize
+SetComputedMaxBSize
 (
-)
-=
 std
 :
 :
@@ -3155,6 +3152,7 @@ ComputedMaxBSize
 )
 -
 mLegendSpace
+)
 )
 ;
 }
