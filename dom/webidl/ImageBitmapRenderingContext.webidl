@@ -387,9 +387,6 @@ applied
 as
 usual
 .
-[
-Throws
-]
 undefined
 transferFromImageBitmap
 (
@@ -410,7 +407,6 @@ Deprecated
 "
 ImageBitmapRenderingContext_TransferImageBitmap
 "
-Throws
 ]
 undefined
 transferImageBitmap

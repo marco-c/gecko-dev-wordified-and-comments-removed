@@ -180,9 +180,6 @@ TransferImageBitmap
 ImageBitmap
 &
 aImageBitmap
-ErrorResult
-&
-aRv
 )
 ;
 void
@@ -191,9 +188,6 @@ TransferFromImageBitmap
 ImageBitmap
 *
 aImageBitmap
-ErrorResult
-&
-aRv
 )
 ;
 virtual
