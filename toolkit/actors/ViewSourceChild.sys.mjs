@@ -723,6 +723,11 @@ forceEncodingDetection
 )
 ;
 }
+if
+(
+lineNumber
+)
+{
 lazy
 .
 ViewSourcePageChild
@@ -732,6 +737,7 @@ setInitialLineNumber
 lineNumber
 )
 ;
+}
 if
 (
 !
