@@ -27163,6 +27163,12 @@ failed
 "
 )
 ;
+moveChildrenResult
+.
+IgnoreCaretPointSuggestion
+(
+)
+;
 return
 moveNodeOrChildrenResult
 ;
