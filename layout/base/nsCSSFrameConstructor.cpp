@@ -10803,6 +10803,13 @@ mBits
 FCDATA_USE_CHILD_ITEMS
 )
 {
+AutoFrameConstructionPageName
+pageNameTracker
+(
+aState
+cellInnerFrame
+)
+;
 ConstructFramesFromItemList
 (
 aState
