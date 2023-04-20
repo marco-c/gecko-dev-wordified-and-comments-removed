@@ -2869,7 +2869,13 @@ InsertFrames
 (
 this
 aPrevFrame
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 ChildListChanged

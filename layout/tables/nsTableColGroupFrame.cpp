@@ -1161,7 +1161,13 @@ InsertFrames
 (
 this
 aPrevFrame
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 nsIFrame

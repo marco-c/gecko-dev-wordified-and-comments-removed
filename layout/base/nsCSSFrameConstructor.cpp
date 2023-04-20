@@ -45758,7 +45758,13 @@ InsertFrames
 (
 nullptr
 prevFrame
+std
+:
+:
+move
+(
 letterFrames
+)
 )
 ;
 }

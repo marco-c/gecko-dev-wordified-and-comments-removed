@@ -667,7 +667,13 @@ InsertFrames
 (
 nullptr
 nullptr
+std
+:
+:
+move
+(
 aPopupFrameList
+)
 )
 ;
 }

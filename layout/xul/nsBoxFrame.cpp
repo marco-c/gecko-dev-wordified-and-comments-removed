@@ -3398,7 +3398,13 @@ InsertFrames
 (
 this
 aPrevFrame
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 if
