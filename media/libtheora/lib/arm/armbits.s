@@ -675,7 +675,7 @@ available
 =
 >
 HI
-LDRHIB
+LDRBHI
 r14
 [
 r11
@@ -707,6 +707,7 @@ Stall
 .
 .
 ORRHI
+r2
 r2
 r14
 LSL
@@ -745,7 +746,7 @@ available
 =
 >
 HI
-LDRHIB
+LDRBHI
 r14
 [
 r11
@@ -777,6 +778,7 @@ Stall
 .
 .
 ORRHI
+r2
 r2
 r14
 LSL
@@ -815,7 +817,7 @@ available
 =
 >
 HI
-LDRHIB
+LDRBHI
 r14
 [
 r11
@@ -847,6 +849,7 @@ Stall
 .
 .
 ORRHI
+r2
 r2
 r14
 LSL
@@ -885,7 +888,7 @@ available
 =
 >
 HI
-LDRHIB
+LDRBHI
 r14
 [
 r11
@@ -917,6 +920,7 @@ Stall
 .
 .
 ORRHI
+r2
 r2
 r14
 LSL
@@ -1086,7 +1090,7 @@ up
 the
 window
 .
-LDRLOB
+LDRBLO
 r14
 [
 r11
@@ -1179,6 +1183,7 @@ available
 =
 OC_LOTS_OF_BITS
 ORRLO
+r2
 r2
 r14
 LSL
@@ -1819,7 +1824,7 @@ stop
 =
 >
 HI
-LDRHIB
+LDRBHI
 r14
 [
 r3
@@ -1868,6 +1873,7 @@ r5
 available
 ORRHI
 r4
+r4
 r14
 LSL
 r5
@@ -1893,7 +1899,7 @@ stop
 =
 >
 HI
-LDRHIB
+LDRBHI
 r14
 [
 r3
@@ -1925,6 +1931,7 @@ Stall
 .
 .
 ORRHI
+r4
 r4
 r14
 LSL
@@ -2014,7 +2021,7 @@ available
 =
 >
 HI
-LDRHIB
+LDRBHI
 r14
 [
 r3
@@ -2046,6 +2053,7 @@ Stall
 .
 .
 ORRHI
+r4
 r4
 r14
 LSL
@@ -2104,7 +2112,7 @@ available
 =
 >
 HI
-LDRHIB
+LDRBHI
 r14
 [
 r3
@@ -2142,6 +2150,7 @@ Stall
 .
 .
 ORRHI
+r4
 r4
 r14
 LSL

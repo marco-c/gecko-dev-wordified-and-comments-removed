@@ -144,6 +144,17 @@ proc_stack
 (
 )
 ;
+printf
+(
+"
+.
+syntax
+unified
+\
+n
+"
+)
+;
 LINE
 :
 while
