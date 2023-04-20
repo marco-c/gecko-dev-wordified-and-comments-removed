@@ -83,6 +83,13 @@ logging
 .
 h
 "
+#
+include
+"
+screencast_portal
+.
+h
+"
 namespace
 webrtc
 {
@@ -116,6 +123,8 @@ const
 DesktopCaptureOptions
 &
 options
+CaptureType
+type
 )
 :
 BaseCapturerPipeWire
@@ -129,13 +138,7 @@ make_unique
 ScreenCastPortal
 >
 (
-ScreenCastPortal
-:
-:
-CaptureSourceType
-:
-:
-kAnyScreenContent
+type
 this
 )
 )

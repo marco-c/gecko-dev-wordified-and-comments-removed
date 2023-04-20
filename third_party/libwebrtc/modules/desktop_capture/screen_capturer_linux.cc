@@ -125,6 +125,10 @@ BaseCapturerPipeWire
 >
 (
 options
+CaptureType
+:
+:
+kScreen
 )
 ;
 }
