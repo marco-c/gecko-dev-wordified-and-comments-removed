@@ -4045,12 +4045,6 @@ undef
 ]
 }
 }
-if
-(
-!
-build_with_mozilla
-)
-{
 rtc_library
 (
 "
@@ -4103,6 +4097,12 @@ deps
 stringutils
 "
 ]
+if
+(
+!
+build_with_mozilla
+)
+{
 all_dependent_configs
 =
 [
@@ -4116,6 +4116,7 @@ jsoncpp
 jsoncpp_config
 "
 ]
+}
 if
 (
 rtc_build_json
@@ -4197,7 +4198,6 @@ absl
 strings
 "
 ]
-}
 }
 rtc_library
 (
