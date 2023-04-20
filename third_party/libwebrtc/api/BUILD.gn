@@ -2913,6 +2913,13 @@ media_quality_test_params
 "
 test
 /
+pclf
+:
+peer_configurer
+"
+"
+test
+/
 video
 :
 video_frame_writer

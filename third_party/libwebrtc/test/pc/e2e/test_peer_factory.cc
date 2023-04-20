@@ -1711,7 +1711,7 @@ std
 :
 unique_ptr
 <
-PeerConfigurerImpl
+PeerConfigurer
 >
 configurer
 std
@@ -1793,7 +1793,7 @@ std
 :
 vector
 <
-PeerConfigurerImpl
+PeerConfigurer
 :
 :
 VideoSource

@@ -320,14 +320,6 @@ PeerConnectionE2EQualityTestFixture
 public
 :
 using
-PeerConfigurer
-=
-PeerConnectionE2EQualityTestFixture
-:
-:
-PeerConfigurer
-;
-using
 QualityMetricsReporter
 =
 PeerConnectionE2EQualityTestFixture
@@ -774,7 +766,7 @@ std
 :
 unique_ptr
 <
-PeerConfigurerImpl
+PeerConfigurer
 >
 >
 peer_configurations_

@@ -92,17 +92,6 @@ api
 /
 test
 /
-peerconnection_quality_test_fixture
-.
-h
-"
-#
-include
-"
-api
-/
-test
-/
 time_controller
 .
 h
@@ -285,7 +274,7 @@ std
 :
 unique_ptr
 <
-PeerConfigurerImpl
+PeerConfigurer
 >
 configurer
 std
