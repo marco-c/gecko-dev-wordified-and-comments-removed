@@ -231,9 +231,7 @@ attributes
 {
 selectable
 :
-"
 true
-"
 }
 children
 :
