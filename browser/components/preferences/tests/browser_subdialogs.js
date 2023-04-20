@@ -2991,6 +2991,8 @@ getPropertyValue
 "
 -
 -
+subdialog
+-
 inner
 -
 height
@@ -3010,6 +3012,8 @@ getPropertyValue
 (
 "
 -
+-
+subdialog
 -
 inner
 -
