@@ -1710,7 +1710,7 @@ template
 uint32_t
 markingOptions
 >
-void
+bool
 processMarkStackTop
 (
 SliceBudget
