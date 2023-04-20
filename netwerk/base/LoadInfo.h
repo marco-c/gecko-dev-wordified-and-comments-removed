@@ -839,6 +839,8 @@ aUnstrippedURI
 nsIInterceptionInfo
 *
 aInterceptionInfo
+bool
+aHasInjectedCookieForCookieBannerHandling
 )
 ;
 LoadInfo
@@ -1416,6 +1418,11 @@ nsCOMPtr
 nsIInterceptionInfo
 >
 mInterceptionInfo
+;
+bool
+mHasInjectedCookieForCookieBannerHandling
+=
+false
 ;
 }
 ;

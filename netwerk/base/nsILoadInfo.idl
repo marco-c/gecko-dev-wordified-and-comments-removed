@@ -2419,5 +2419,12 @@ nsIInterceptionInfo
 info
 )
 ;
+[
+infallible
+]
+attribute
+boolean
+hasInjectedCookieForCookieBannerHandling
+;
 }
 ;

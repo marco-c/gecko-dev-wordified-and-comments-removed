@@ -514,6 +514,9 @@ RedirectHistoryEntryInfo
 ]
 redirectChain
 ;
+bool
+hasInjectedCookieForCookieBannerHandling
+;
 IPCClientInfo
 ?
 clientInfo

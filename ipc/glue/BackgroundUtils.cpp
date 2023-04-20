@@ -3175,6 +3175,12 @@ GetOriginAttributes
 )
 redirectChainIncludingInternalRedirects
 redirectChain
+aLoadInfo
+-
+>
+GetHasInjectedCookieForCookieBannerHandling
+(
+)
 ipcClientInfo
 ipcReservedClientInfo
 ipcInitialClientInfo
@@ -4920,6 +4926,11 @@ unstrippedURI
 (
 )
 interceptionInfo
+loadInfoArgs
+.
+hasInjectedCookieForCookieBannerHandling
+(
+)
 )
 ;
 if
