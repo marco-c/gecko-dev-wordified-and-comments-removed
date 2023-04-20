@@ -45,15 +45,6 @@ include
 "
 mozilla
 /
-ServoStyleConstsInlines
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h
