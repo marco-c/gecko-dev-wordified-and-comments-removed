@@ -89,15 +89,6 @@ aEnforceFileOrJar
 true
 )
 ;
-explicit
-SubstitutingProtocolHandler
-(
-const
-char
-*
-aScheme
-)
-;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 SubstitutingProtocolHandler
@@ -375,10 +366,7 @@ aBaseURI
 nsCString
 mScheme
 ;
-Maybe
-<
 uint32_t
->
 mFlags
 ;
 RWLock
