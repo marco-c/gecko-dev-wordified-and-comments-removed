@@ -1624,6 +1624,8 @@ PanGestureInput
 aSwipeStartEvent
 uint32_t
 aAllowedDirections
+uint64_t
+aInputBlockId
 )
 ;
 struct
