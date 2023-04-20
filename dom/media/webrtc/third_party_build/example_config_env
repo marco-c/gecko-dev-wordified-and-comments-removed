@@ -370,7 +370,7 @@ rel110
 '
 .
 export
-MOZ_LIBWEBRTC_COMMIT
+MOZ_LIBWEBRTC_BRANCH
 =
 "
 mozpatches

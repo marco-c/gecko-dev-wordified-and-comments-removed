@@ -182,7 +182,7 @@ if
 [
 "
 x
-MOZ_LIBWEBRTC_COMMIT
+MOZ_LIBWEBRTC_BRANCH
 "
 =
 "
@@ -193,7 +193,7 @@ x
 then
 echo
 "
-MOZ_LIBWEBRTC_COMMIT
+MOZ_LIBWEBRTC_BRANCH
 is
 not
 defined
