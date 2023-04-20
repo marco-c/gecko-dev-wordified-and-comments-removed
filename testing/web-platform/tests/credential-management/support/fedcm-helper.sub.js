@@ -1,3 +1,4 @@
+export
 const
 alt_manifest_origin
 =
