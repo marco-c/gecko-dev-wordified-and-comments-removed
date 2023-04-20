@@ -1568,6 +1568,7 @@ interface
 Navigator
 {
 [
+Throws
 Pref
 =
 "
@@ -1737,6 +1738,7 @@ interface
 Navigator
 {
 [
+Throws
 Pref
 =
 "
