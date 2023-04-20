@@ -33,7 +33,9 @@ EXTRA_JS_MODULES
 "
 ForgetAboutSite
 .
-jsm
+sys
+.
+mjs
 "
 ]
 with
