@@ -96,6 +96,13 @@ argc
 argv
 )
 ;
+#
+if
+!
+defined
+(
+WEBRTC_FUCHSIA
+)
 absl
 :
 :
@@ -110,6 +117,8 @@ InstallFailureSignalHandler
 options
 )
 ;
+#
+endif
 std
 :
 :
