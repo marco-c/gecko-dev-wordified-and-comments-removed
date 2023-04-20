@@ -836,6 +836,12 @@ RTCIceServerTransportProtocol
 ?
 relayProtocol
 ;
+readonly
+attribute
+DOMString
+?
+url
+;
 RTCIceCandidateInit
 toJSON
 (
@@ -1374,6 +1380,9 @@ true
 unsigned
 long
 maxBitrate
+;
+double
+maxFramerate
 ;
 double
 scaleResolutionDownBy

@@ -161,6 +161,12 @@ decodedBodySize
 ;
 readonly
 attribute
+unsigned
+short
+responseStatus
+;
+readonly
+attribute
 RenderBlockingStatusType
 renderBlockingStatus
 ;
