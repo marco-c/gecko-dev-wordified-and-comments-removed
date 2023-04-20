@@ -22992,7 +22992,7 @@ refPoint
 }
 if
 (
-mIsPIPWindow
+mAlwaysOnTop
 &
 &
 aEvent
