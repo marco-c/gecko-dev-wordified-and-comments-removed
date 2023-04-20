@@ -1449,6 +1449,15 @@ return
 subscribed_streams
 ;
 }
+std
+:
+:
+string
+ToString
+(
+)
+const
+;
 private
 :
 absl
