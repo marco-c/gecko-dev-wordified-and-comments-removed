@@ -354,10 +354,10 @@ return
 cid
 ;
 }
-registerJSM
+registerESM
 (
 contractID
-jsm
+esmPath
 symbol
 )
 {
@@ -377,9 +377,9 @@ exports
 =
 ChromeUtils
 .
-import
+importESModule
 (
-jsm
+esmPath
 )
 ;
 return
