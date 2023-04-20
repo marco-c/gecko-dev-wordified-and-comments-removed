@@ -55936,7 +55936,7 @@ XP_MACOSX
 )
 value
 :
-false
+IS_NIGHTLY_BUILD
 #
 else
 value
@@ -56007,7 +56007,7 @@ XP_MACOSX
 )
 value
 :
-false
+IS_NIGHTLY_BUILD
 #
 else
 value
