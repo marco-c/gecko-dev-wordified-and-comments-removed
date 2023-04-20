@@ -171,12 +171,7 @@ E0533
 ]
 :
 expected
-unit
-struct
-unit
-variant
-or
-constant
+value
 found
 struct
 variant
@@ -221,3 +216,6 @@ V
 ^
 ^
 ^
+not
+a
+value

@@ -261,6 +261,8 @@ io
 /
 github
 /
+actions
+/
 workflow
 /
 status
@@ -271,10 +273,14 @@ async
 -
 trait
 /
-CI
-/
-master
+ci
+.
+yml
 ?
+branch
+=
+master
+&
 style
 =
 for
