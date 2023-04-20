@@ -569,7 +569,7 @@ mozilla
 :
 Array
 <
-Shape
+SharedShape
 *
 NumEntries
 >
@@ -586,7 +586,7 @@ purge
 )
 ;
 }
-Shape
+SharedShape
 *
 lookup
 (
@@ -601,7 +601,7 @@ const
 void
 add
 (
-Shape
+SharedShape
 *
 shape
 )
