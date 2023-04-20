@@ -664,7 +664,6 @@ Buttonface
 Buttonhighlight
 Buttonshadow
 Buttontext
-Buttonborder
 Captiontext
 #
 [
@@ -711,8 +710,6 @@ fieldtext
 )
 ]
 Fieldtext
-Mark
-Marktext
 MozComboboxtext
 MozCombobox
 Graytext
