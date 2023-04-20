@@ -106,6 +106,15 @@ h
 "
 #
 include
+"
+transportbridge
+/
+MediaPipeline
+.
+h
+"
+#
+include
 <
 vector
 >
@@ -115,9 +124,6 @@ nsPIDOMWindowInner
 namespace
 mozilla
 {
-class
-MediaPipelineReceive
-;
 class
 MediaSessionConduit
 ;
@@ -167,6 +173,8 @@ public
 nsISupports
 public
 nsWrapperCache
+public
+MediaPipelineReceiveControlInterface
 {
 public
 :
@@ -336,11 +344,6 @@ BreakCycles
 ;
 void
 Stop
-(
-)
-;
-void
-Start
 (
 )
 ;
@@ -642,6 +645,7 @@ bool
 CanonicalReceiving
 (
 )
+override
 {
 return
 &

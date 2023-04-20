@@ -14,6 +14,13 @@ h
 #
 include
 "
+MediaPipeline
+.
+h
+"
+#
+include
+"
 WaitFor
 .
 h
@@ -362,6 +369,10 @@ public
 AudioConduitControlInterface
 public
 VideoConduitControlInterface
+public
+MediaPipelineReceiveControlInterface
+public
+MediaPipelineTransmitControlInterface
 private
 ConcreteCanonicals
 {
