@@ -8888,9 +8888,6 @@ true
 name
 :
 MegamorphicStoreSlot
-result_type
-:
-BoxedValue
 operands
 :
 object
