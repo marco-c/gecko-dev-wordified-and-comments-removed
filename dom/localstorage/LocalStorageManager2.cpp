@@ -384,7 +384,7 @@ aManager
 )
 mOwningEventTarget
 (
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 )

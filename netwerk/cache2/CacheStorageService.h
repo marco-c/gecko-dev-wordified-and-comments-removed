@@ -1316,7 +1316,7 @@ ProxyRelease
 (
 aName
 object
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 )

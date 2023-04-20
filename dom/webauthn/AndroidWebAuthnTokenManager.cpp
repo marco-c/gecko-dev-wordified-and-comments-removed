@@ -454,7 +454,7 @@ ClearPromises
 (
 )
 ;
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 -
@@ -1663,7 +1663,7 @@ ClearPromises
 (
 )
 ;
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 -

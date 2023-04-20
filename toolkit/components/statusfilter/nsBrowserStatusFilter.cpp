@@ -39,7 +39,7 @@ nsBrowserStatusFilter
 :
 mTarget
 (
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 )

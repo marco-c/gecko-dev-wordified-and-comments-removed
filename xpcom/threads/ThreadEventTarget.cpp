@@ -377,11 +377,11 @@ DISPATCH_SYNC
 {
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
 current
 =
-NS_GetCurrentThread
+GetCurrentEventTarget
 (
 )
 ;

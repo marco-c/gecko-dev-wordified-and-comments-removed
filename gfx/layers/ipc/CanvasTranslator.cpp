@@ -1923,7 +1923,7 @@ SyncRunnable
 :
 DispatchToThread
 (
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 runnable

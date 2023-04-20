@@ -9365,6 +9365,11 @@ SafeRefPtrFromThis
 (
 )
 mIOThread
+-
+>
+SerialEventTarget
+(
+)
 MakeSafeRefPtr
 <
 SetupAction

@@ -1425,7 +1425,7 @@ aState
 if
 (
 !
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 -
@@ -1435,7 +1435,7 @@ IsOnCurrentThread
 )
 )
 {
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 -

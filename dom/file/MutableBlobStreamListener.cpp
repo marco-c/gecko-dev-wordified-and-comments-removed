@@ -91,7 +91,7 @@ mEventTarget
 {
 mEventTarget
 =
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 ;

@@ -10029,7 +10029,7 @@ target
 {
 target
 =
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 ;
@@ -13128,7 +13128,7 @@ mODATarget
 {
 target
 =
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;

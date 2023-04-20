@@ -282,7 +282,7 @@ this
 ;
 mMainThread
 =
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 ;

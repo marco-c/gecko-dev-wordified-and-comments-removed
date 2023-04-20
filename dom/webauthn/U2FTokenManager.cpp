@@ -1542,7 +1542,7 @@ json
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 -
@@ -2322,7 +2322,7 @@ notification_json
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 -

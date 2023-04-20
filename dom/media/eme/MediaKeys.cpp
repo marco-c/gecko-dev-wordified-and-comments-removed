@@ -812,7 +812,7 @@ mParent
 =
 nullptr
 ;
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 -

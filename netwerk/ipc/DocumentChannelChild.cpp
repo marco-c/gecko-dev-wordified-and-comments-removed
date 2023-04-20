@@ -1683,7 +1683,7 @@ aArgs
 redirectFlags
 (
 )
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 )

@@ -3080,7 +3080,7 @@ callback
 ;
 mCallbackTarget
 =
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 ;

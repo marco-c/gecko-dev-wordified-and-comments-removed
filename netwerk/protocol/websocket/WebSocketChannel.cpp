@@ -14298,7 +14298,7 @@ nsIEventTarget
 >
 main
 =
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 ;
@@ -17254,7 +17254,7 @@ ref
 (
 )
 =
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 ;

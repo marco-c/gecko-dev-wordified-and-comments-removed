@@ -155,7 +155,7 @@ XRE_IsParentProcess
 return
 do_AddRef
 (
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 )

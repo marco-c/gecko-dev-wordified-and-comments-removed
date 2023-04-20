@@ -168,7 +168,7 @@ GetOrCreateWorkerManagerRunnable
 )
 mBackgroundEventTarget
 (
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 )

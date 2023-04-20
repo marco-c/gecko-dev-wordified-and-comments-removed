@@ -2908,7 +2908,7 @@ target
 mozilla
 :
 :
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;

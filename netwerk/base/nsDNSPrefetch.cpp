@@ -312,7 +312,7 @@ target
 mozilla
 :
 :
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -598,7 +598,7 @@ target
 mozilla
 :
 :
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;

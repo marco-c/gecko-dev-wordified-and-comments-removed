@@ -1929,7 +1929,7 @@ aDirectoryMetadata
 )
 mInitiatingThread
 (
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 )

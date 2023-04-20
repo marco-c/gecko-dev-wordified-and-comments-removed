@@ -423,7 +423,7 @@ UINT32_MAX
 ;
 mControlEventTarget
 =
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;

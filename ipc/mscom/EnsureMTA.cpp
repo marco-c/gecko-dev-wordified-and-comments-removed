@@ -732,6 +732,11 @@ return
 InvokeAsync
 (
 mtaThread
+-
+>
+SerialEventTarget
+(
+)
 __func__
 std
 :

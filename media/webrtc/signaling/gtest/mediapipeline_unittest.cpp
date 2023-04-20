@@ -251,7 +251,7 @@ Create
 (
 do_AddRef
 (
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 )

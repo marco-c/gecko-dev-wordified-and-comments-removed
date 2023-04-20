@@ -512,7 +512,7 @@ nsIDNSService
 RESOLVE_SPECULATE
 nullptr
 this
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 mTransaction

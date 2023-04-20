@@ -8694,7 +8694,7 @@ DatabaseOperationBase
 )
 mOwningEventTarget
 (
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -36870,7 +36870,7 @@ aDatabaseInfo
 )
 mOwningEventTarget
 (
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -37493,7 +37493,7 @@ aCallback
 )
 mOwningEventTarget
 (
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -40590,7 +40590,7 @@ aInPrivateBrowsing
 )
 mBackgroundThread
 (
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -56994,7 +56994,7 @@ return
 }
 mBackgroundThread
 =
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -58167,7 +58167,7 @@ DeleteFilesRunnable
 )
 mOwningEventTarget
 (
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 )

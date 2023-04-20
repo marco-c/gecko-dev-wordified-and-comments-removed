@@ -773,7 +773,7 @@ nsIEventTarget
 >
 mainThread
 (
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 )

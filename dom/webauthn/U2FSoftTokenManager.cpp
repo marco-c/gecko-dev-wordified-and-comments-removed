@@ -884,7 +884,7 @@ get
 )
 )
 ;
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 -
@@ -4568,7 +4568,7 @@ counter
 =
 mCounter
 ;
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 -

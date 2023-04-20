@@ -4651,7 +4651,7 @@ ServiceWorkerRegistrarSaveDataRunnable
 )
 mEventTarget
 (
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 )

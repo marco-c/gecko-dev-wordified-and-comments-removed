@@ -722,7 +722,7 @@ mCallbackTarget
 {
 mCallbackTarget
 =
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 ;

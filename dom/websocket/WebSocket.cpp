@@ -12044,7 +12044,7 @@ forget
 )
 )
 :
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 -

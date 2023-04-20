@@ -1962,7 +1962,7 @@ mTransportHandler
 =
 nullptr
 ;
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 -

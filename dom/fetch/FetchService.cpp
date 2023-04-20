@@ -835,7 +835,7 @@ clonePtr
 )
 mPrincipal
 mLoadGroup
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 mCookieJarSettings

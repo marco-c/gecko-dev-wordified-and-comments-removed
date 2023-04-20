@@ -4028,7 +4028,7 @@ NS_IsMainThread
 )
 )
 {
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 -

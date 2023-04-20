@@ -155,7 +155,7 @@ aTimeOutInMs
 0
 )
 {
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 -

@@ -4559,7 +4559,7 @@ window
 )
 {
 return
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 ;

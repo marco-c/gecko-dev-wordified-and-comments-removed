@@ -85,7 +85,7 @@ nullptr
 {
 mMainThread
 =
-GetMainThreadSerialEventTarget
+GetMainThreadEventTarget
 (
 )
 ;

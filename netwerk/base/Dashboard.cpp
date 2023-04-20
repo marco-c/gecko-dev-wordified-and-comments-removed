@@ -2488,7 +2488,7 @@ socketData
 >
 mEventTarget
 =
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -3183,7 +3183,7 @@ httpData
 >
 mEventTarget
 =
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -4519,7 +4519,7 @@ wsRequest
 >
 mEventTarget
 =
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -4887,7 +4887,7 @@ dnsData
 >
 mEventTarget
 =
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -5717,7 +5717,7 @@ helper
 >
 mEventTarget
 =
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -5855,7 +5855,7 @@ helper
 >
 mEventTarget
 =
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -5928,7 +5928,7 @@ rcwnData
 >
 mEventTarget
 =
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -6555,7 +6555,7 @@ connectionData
 >
 mEventTarget
 =
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -6881,7 +6881,7 @@ mSocket
 SetEventSink
 (
 connectionData
-GetCurrentSerialEventTarget
+GetCurrentEventTarget
 (
 )
 )
