@@ -416,6 +416,12 @@ NumBandsForRate
 kSampleRateHz
 )
 ;
+Random
+random_generator
+(
+42U
+)
+;
 Block
 render
 (
@@ -498,12 +504,6 @@ delay_samples
 }
 )
 {
-Random
-random_generator
-(
-42U
-)
-;
 SCOPED_TRACE
 (
 ProduceDebugText
