@@ -1792,6 +1792,7 @@ viewCacheId
 this
 .
 node
+?
 .
 getAttribute
 (
