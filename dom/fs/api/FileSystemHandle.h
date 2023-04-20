@@ -99,9 +99,6 @@ args
 class
 nsIGlobalObject
 ;
-struct
-PRFileDesc
-;
 namespace
 mozilla
 {
@@ -158,16 +155,6 @@ ErrorResult
 namespace
 dom
 {
-nsresult
-TruncFile
-(
-PRFileDesc
-*
-aFD
-int64_t
-aEOF
-)
-;
 class
 FileSystemDirectoryHandle
 ;
