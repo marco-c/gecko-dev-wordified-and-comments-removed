@@ -12,6 +12,17 @@ processQueryParams
 (
 )
 ;
+if
+(
+window
+!
+=
+=
+window
+.
+top
+)
+{
 test_driver
 .
 set_test_context
@@ -21,6 +32,7 @@ window
 top
 )
 ;
+}
 test
 (
 (
