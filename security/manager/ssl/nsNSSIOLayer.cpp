@@ -6191,6 +6191,16 @@ ssl_sig_rsa_pss_sha512
 ssl_sig_rsa_pkcs1_sha256
 ssl_sig_rsa_pkcs1_sha384
 ssl_sig_rsa_pkcs1_sha512
+#
+if
+!
+defined
+(
+EARLY_BETA_OR_EARLIER
+)
+ssl_sig_ecdsa_sha1
+#
+endif
 ssl_sig_rsa_pkcs1_sha1
 }
 ;
