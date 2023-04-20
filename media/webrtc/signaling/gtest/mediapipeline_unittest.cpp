@@ -2178,6 +2178,9 @@ get
 )
 )
 nullptr
+TrackingId
+(
+)
 PRINCIPAL_HANDLE_NONE
 PrincipalPrivacy
 :
