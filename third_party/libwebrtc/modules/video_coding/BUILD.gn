@@ -4660,12 +4660,6 @@ rtc_libvpx_dir
 ]
 }
 }
-if
-(
-!
-build_with_mozilla
-)
-{
 rtc_library
 (
 "
@@ -4708,7 +4702,6 @@ test
 test_support
 "
 ]
-}
 }
 #
 This
