@@ -182,7 +182,7 @@ languagePairs
 {
 TranslationsParent
 .
-mock
+mockLanguagePairs
 (
 languagePairs
 )
@@ -234,7 +234,7 @@ languagePairs
 {
 TranslationsParent
 .
-mock
+mockLanguagePairs
 (
 null
 )
