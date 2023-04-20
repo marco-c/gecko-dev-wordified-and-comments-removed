@@ -6426,8 +6426,7 @@ const
 {
 return
 mSkipCharsIterator
--
->
+.
 IsOriginalCharSkipped
 (
 )
@@ -6607,10 +6606,7 @@ mSubtree
 ;
 #
 endif
-Maybe
-<
 gfxSkipCharsIterator
->
 mSkipCharsIterator
 ;
 mutable
@@ -6728,8 +6724,6 @@ AtEnd
 {
 mSkipCharsIterator
 =
-Some
-(
 TextFrame
 (
 )
@@ -6741,7 +6735,6 @@ nsTextFrame
 :
 :
 eInflated
-)
 )
 ;
 mTextRun
@@ -7111,8 +7104,7 @@ mTextRun
 IsLigatureGroupStart
 (
 mSkipCharsIterator
--
->
+.
 GetSkippedOffset
 (
 )
@@ -7125,8 +7117,7 @@ mTextRun
 IsClusterStart
 (
 mSkipCharsIterator
--
->
+.
 GetSkippedOffset
 (
 )
@@ -7176,8 +7167,7 @@ mTextRun
 FindFirstGlyphRunContaining
 (
 mSkipCharsIterator
--
->
+.
 GetSkippedOffset
 (
 )
@@ -7300,8 +7290,7 @@ uint32_t
 index
 =
 mSkipCharsIterator
--
->
+.
 GetOriginalOffset
 (
 )
@@ -7429,8 +7418,7 @@ uint32_t
 offset
 =
 mSkipCharsIterator
--
->
+.
 GetSkippedOffset
 (
 )
@@ -7492,8 +7480,7 @@ mTextElementCharIndex
 +
 ;
 mSkipCharsIterator
--
->
+.
 AdvanceOriginal
 (
 1
@@ -7502,8 +7489,7 @@ AdvanceOriginal
 if
 (
 mSkipCharsIterator
--
->
+.
 GetOriginalOffset
 (
 )
@@ -7555,8 +7541,8 @@ TextFrame
 )
 {
 mSkipCharsIterator
-.
-reset
+=
+gfxSkipCharsIterator
 (
 )
 ;
@@ -7566,8 +7552,6 @@ false
 }
 mSkipCharsIterator
 =
-Some
-(
 TextFrame
 (
 )
@@ -7579,7 +7563,6 @@ nsTextFrame
 :
 :
 eInflated
-)
 )
 ;
 mTextRun
