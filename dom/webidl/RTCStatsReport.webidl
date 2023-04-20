@@ -346,6 +346,10 @@ RTCInboundRtpStreamStats
 :
 RTCReceivedRtpStreamStats
 {
+required
+DOMString
+trackIdentifier
+;
 DOMString
 remoteId
 ;
