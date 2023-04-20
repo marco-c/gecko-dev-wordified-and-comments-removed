@@ -1350,7 +1350,6 @@ nack_periodic_processor
 &
 stats_proxy_
 this
-nullptr
 this
 std
 :

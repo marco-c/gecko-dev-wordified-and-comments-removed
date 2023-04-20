@@ -511,9 +511,6 @@ vcm_receive_statistics
 NackSender
 *
 nack_sender
-KeyFrameRequestSender
-*
-keyframe_request_sender
 OnCompleteFrameCallback
 *
 complete_frame_callback
@@ -1299,11 +1296,6 @@ rtp_rtcp_
 OnCompleteFrameCallback
 *
 complete_frame_callback_
-;
-KeyFrameRequestSender
-*
-const
-keyframe_request_sender_
 ;
 const
 KeyFrameReqMethod
