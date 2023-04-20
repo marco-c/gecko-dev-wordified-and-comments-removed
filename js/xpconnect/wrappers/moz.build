@@ -97,6 +97,3 @@ src
 caps
 "
 ]
-REQUIRES_UNIFIED_BUILD
-=
-True
