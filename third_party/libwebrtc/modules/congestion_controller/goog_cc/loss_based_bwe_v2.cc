@@ -823,8 +823,6 @@ LossBasedBweV2
 :
 GetLossBasedResult
 (
-DataRate
-delay_based_limit
 )
 const
 {
@@ -948,10 +946,10 @@ bandwidth_estimate
 =
 IsValid
 (
-delay_based_limit
+delay_based_estimate_
 )
 ?
-delay_based_limit
+delay_based_estimate_
 :
 DataRate
 :
@@ -968,7 +966,7 @@ if
 (
 IsValid
 (
-delay_based_limit
+delay_based_estimate_
 )
 )
 {
@@ -988,7 +986,7 @@ loss_limited_bandwidth
 GetInstantUpperBound
 (
 )
-delay_based_limit
+delay_based_estimate_
 }
 )
 ;
@@ -1299,6 +1297,10 @@ DataRate
 probe_bitrate
 )
 {
+delay_based_estimate_
+=
+delay_based_estimate
+;
 if
 (
 !
@@ -1441,7 +1443,6 @@ candidate
 :
 GetCandidates
 (
-delay_based_estimate
 )
 )
 {
@@ -1695,7 +1696,7 @@ if
 (
 IsValid
 (
-delay_based_estimate
+delay_based_estimate_
 )
 &
 &
@@ -1703,7 +1704,7 @@ best_candidate
 .
 loss_limited_bandwidth
 <
-delay_based_estimate
+delay_based_estimate_
 )
 {
 current_state_
@@ -1719,7 +1720,7 @@ if
 (
 IsValid
 (
-delay_based_estimate
+delay_based_estimate_
 )
 &
 &
@@ -1728,7 +1729,7 @@ best_candidate
 loss_limited_bandwidth
 =
 =
-delay_based_estimate
+delay_based_estimate_
 )
 {
 current_state_
@@ -4380,8 +4381,6 @@ LossBasedBweV2
 :
 GetCandidateBandwidthUpperBound
 (
-DataRate
-delay_based_estimate
 )
 const
 {
@@ -4433,7 +4432,7 @@ if
 (
 IsValid
 (
-delay_based_estimate
+delay_based_estimate_
 )
 )
 {
@@ -4444,7 +4443,7 @@ std
 :
 min
 (
-delay_based_estimate
+delay_based_estimate_
 candidate_bandwidth_upper_bound
 )
 ;
@@ -4550,8 +4549,6 @@ LossBasedBweV2
 :
 GetCandidates
 (
-DataRate
-delay_based_estimate
 )
 const
 {
@@ -4648,7 +4645,7 @@ if
 (
 IsValid
 (
-delay_based_estimate
+delay_based_estimate_
 )
 &
 &
@@ -4663,7 +4660,7 @@ if
 can_increase_bitrate
 &
 &
-delay_based_estimate
+delay_based_estimate_
 >
 current_estimate_
 .
@@ -4674,7 +4671,7 @@ bandwidths
 .
 push_back
 (
-delay_based_estimate
+delay_based_estimate_
 )
 ;
 }
@@ -4685,7 +4682,6 @@ candidate_bandwidth_upper_bound
 =
 GetCandidateBandwidthUpperBound
 (
-delay_based_estimate
 )
 ;
 std

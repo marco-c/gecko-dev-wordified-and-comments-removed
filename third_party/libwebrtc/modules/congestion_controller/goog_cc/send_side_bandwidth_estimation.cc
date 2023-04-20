@@ -2965,7 +2965,6 @@ loss_based_bandwidth_estimator_v2_
 .
 GetLossBasedResult
 (
-delay_based_limit_
 )
 ;
 loss_based_state_
