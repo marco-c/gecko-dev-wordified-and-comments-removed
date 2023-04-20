@@ -95,9 +95,17 @@ WITH_SIMD
 #
 define
 ALIGN_SIZE
+MAX
+(
+sizeof
+(
+void
+*
+)
 sizeof
 (
 double
+)
 )
 #
 else

@@ -609,6 +609,9 @@ jpeg_component_info
 *
 compptr
 ;
+#
+ifdef
+UPSAMPLE_MERGING_SUPPORTED
 my_master_ptr
 master
 =
@@ -620,7 +623,10 @@ cinfo
 >
 master
 ;
+#
+endif
 if
+(
 (
 cinfo
 -
@@ -629,6 +635,16 @@ global_state
 !
 =
 DSTATE_SCANNING
+&
+&
+cinfo
+-
+>
+global_state
+!
+=
+DSTATE_BUFIMAGE
+)
 |
 |
 cinfo
@@ -777,6 +793,9 @@ output_width
 *
 width
 ;
+#
+ifdef
+UPSAMPLE_MERGING_SUPPORTED
 if
 (
 master
@@ -821,6 +840,8 @@ cinfo
 out_color_components
 ;
 }
+#
+endif
 cinfo
 -
 >
@@ -1302,6 +1323,9 @@ num_lines
 JDIMENSION
 n
 ;
+#
+ifdef
+UPSAMPLE_MERGING_SUPPORTED
 my_master_ptr
 master
 =
@@ -1313,6 +1337,8 @@ cinfo
 >
 master
 ;
+#
+endif
 JSAMPLE
 dummy_sample
 [
@@ -1452,6 +1478,9 @@ color_quantize
 noop_quantize
 ;
 }
+#
+ifdef
+UPSAMPLE_MERGING_SUPPORTED
 if
 (
 master
@@ -1489,6 +1518,8 @@ upsample
 spare_row
 ;
 }
+#
+endif
 for
 (
 n
@@ -2175,6 +2206,12 @@ inputctl
 -
 >
 has_multiple_scans
+|
+|
+cinfo
+-
+>
+buffered_image
 )
 {
 if

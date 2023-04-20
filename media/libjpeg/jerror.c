@@ -479,7 +479,7 @@ if
 (
 isstring
 )
-snprintf
+SNPRINTF
 (
 buffer
 JMSG_LENGTH_MAX
@@ -493,7 +493,7 @@ s
 )
 ;
 else
-snprintf
+SNPRINTF
 (
 buffer
 JMSG_LENGTH_MAX
