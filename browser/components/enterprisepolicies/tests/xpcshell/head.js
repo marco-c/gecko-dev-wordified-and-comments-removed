@@ -69,7 +69,7 @@ getAppInfo
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -82,7 +82,9 @@ common
 /
 AppInfo
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -93,7 +95,7 @@ FileTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -106,7 +108,9 @@ common
 /
 FileTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
