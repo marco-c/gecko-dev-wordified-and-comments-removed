@@ -544,7 +544,9 @@ sessionstore
 /
 ContentSessionStore
 .
-jsm
+sys
+.
+mjs
 -
 browser
 /

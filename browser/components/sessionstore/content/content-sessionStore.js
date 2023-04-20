@@ -10,7 +10,7 @@ ContentSessionStore
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -24,7 +24,9 @@ sessionstore
 /
 ContentSessionStore
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

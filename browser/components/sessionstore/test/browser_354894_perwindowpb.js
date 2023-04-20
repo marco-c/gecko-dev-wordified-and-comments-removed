@@ -10,7 +10,7 @@ SessionStartup
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -24,7 +24,9 @@ sessionstore
 /
 SessionStartup
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

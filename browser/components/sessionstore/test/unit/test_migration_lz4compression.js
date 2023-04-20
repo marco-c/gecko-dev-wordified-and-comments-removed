@@ -10,7 +10,7 @@ SessionWriter
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -24,7 +24,9 @@ sessionstore
 /
 SessionWriter
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -42,7 +44,7 @@ SessionFile
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -56,7 +58,9 @@ sessionstore
 /
 SessionFile
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

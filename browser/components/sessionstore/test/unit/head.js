@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 SessionStartup
-"
+:
 "
 resource
 :
@@ -18,8 +18,11 @@ sessionstore
 /
 SessionStartup
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 function

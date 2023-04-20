@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 SessionStore
-"
+:
 "
 resource
 :
@@ -18,8 +18,11 @@ sessionstore
 /
 SessionStore
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 add_task
