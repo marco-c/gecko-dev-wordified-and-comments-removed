@@ -11,7 +11,7 @@ SendTab
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -24,7 +24,9 @@ modules
 /
 FxAccountsCommands
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -35,7 +37,7 @@ FxAccountsClient
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -48,7 +50,9 @@ modules
 /
 FxAccountsClient
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

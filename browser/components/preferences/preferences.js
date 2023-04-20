@@ -168,7 +168,7 @@ getFxAccountsSingleton
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -181,7 +181,9 @@ modules
 /
 FxAccounts
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

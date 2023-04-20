@@ -31,7 +31,7 @@ FxAccounts
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -44,7 +44,9 @@ modules
 /
 FxAccounts
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -97,15 +99,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-this
-{
 FxAccountsPairingFlow
 :
 "
@@ -119,7 +112,9 @@ modules
 /
 FxAccountsPairing
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
