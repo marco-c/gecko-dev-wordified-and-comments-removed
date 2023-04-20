@@ -12869,9 +12869,7 @@ nelems
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 |
 |
 byteOffset
@@ -12879,9 +12877,7 @@ byteOffset
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 )
 {
 JS_ReportErrorNumberASCII
@@ -13228,9 +13224,7 @@ byteLength
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 |
 |
 byteOffset
@@ -13238,9 +13232,7 @@ byteOffset
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 )
 {
 JS_ReportErrorNumberASCII
@@ -13393,9 +13385,7 @@ nbytes
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 )
 {
 JS_ReportErrorNumberASCII
@@ -13592,9 +13582,7 @@ byteLength
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 )
 {
 JS_ReportErrorNumberASCII
@@ -16320,9 +16308,7 @@ extraData
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 )
 ;
 size_t

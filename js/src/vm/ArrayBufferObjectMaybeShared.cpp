@@ -440,14 +440,12 @@ MaxByteLengthForSmallBuffer
 ;
 #
 else
-MOZ_ASSERT
+static_assert
 (
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 =
 =
 ArrayBufferObject

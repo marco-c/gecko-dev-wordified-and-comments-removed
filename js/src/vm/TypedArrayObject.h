@@ -660,9 +660,7 @@ return
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 ;
 }
 static

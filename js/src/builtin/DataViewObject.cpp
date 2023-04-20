@@ -520,9 +520,7 @@ offset
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 )
 ;
 uint64_t
@@ -618,9 +616,7 @@ viewByteLength
 ArrayBufferObject
 :
 :
-maxBufferByteLength
-(
-)
+MaxByteLength
 )
 ;
 *
