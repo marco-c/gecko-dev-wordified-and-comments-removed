@@ -493,6 +493,16 @@ true
 ;
 }
 void
+UnionInFlowChildOverflow
+(
+mozilla
+:
+:
+OverflowAreas
+&
+)
+;
+void
 UnionChildOverflow
 (
 mozilla
