@@ -30,15 +30,6 @@ use
 std
 :
 :
-marker
-:
-:
-Unpin
-;
-use
-std
-:
-:
 pin
 :
 :
@@ -240,8 +231,6 @@ T
 impl
 <
 T
-:
-Unpin
 >
 Throttle
 <
