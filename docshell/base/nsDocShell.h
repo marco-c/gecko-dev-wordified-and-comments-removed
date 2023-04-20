@@ -2957,6 +2957,9 @@ aPersist
 nsIRequest
 *
 aRequest
+nsIURI
+*
+aPreviousURI
 )
 ;
 nsPresContext
@@ -3246,6 +3249,9 @@ bool
 aExpired
 uint32_t
 aCacheKey
+nsIURI
+*
+aPreviousURI
 )
 ;
 void

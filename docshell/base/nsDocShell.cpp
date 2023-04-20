@@ -26071,6 +26071,9 @@ aPersist
 nsIRequest
 *
 aRequest
+nsIURI
+*
+aPreviousURI
 )
 {
 PersistLayoutHistoryState
@@ -26312,6 +26315,7 @@ MoveLoadingToActiveEntry
 aPersist
 expired
 cacheKey
+aPreviousURI
 )
 ;
 }
@@ -30631,6 +30635,7 @@ aActor
 true
 false
 nullptr
+mCurrentURI
 )
 ;
 NS_ENSURE_SUCCESS
@@ -35198,6 +35203,14 @@ mLoadingURI
 )
 ;
 }
+nsCOMPtr
+<
+nsIURI
+>
+previousURI
+=
+mCurrentURI
+;
 FirePageHideNotification
 (
 !
@@ -35896,6 +35909,7 @@ finalURI
 aOpenedChannel
 )
 aOpenedChannel
+previousURI
 )
 NS_ERROR_FAILURE
 )
@@ -60008,6 +60022,9 @@ bool
 aExpired
 uint32_t
 aCacheKey
+nsIURI
+*
+aPreviousURI
 )
 {
 MOZ_ASSERT
@@ -60251,7 +60268,7 @@ SessionHistoryCommit
 *
 loadingEntry
 loadType
-mCurrentURI
+aPreviousURI
 hadActiveEntry
 aPersist
 false

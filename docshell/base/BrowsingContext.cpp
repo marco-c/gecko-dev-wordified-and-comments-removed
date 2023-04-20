@@ -18291,7 +18291,7 @@ ShouldAddEntryForRefresh
 (
 nsIURI
 *
-aCurrentURI
+aPreviousURI
 const
 SessionHistoryInfo
 &
@@ -18301,7 +18301,7 @@ aInfo
 return
 ShouldAddEntryForRefresh
 (
-aCurrentURI
+aPreviousURI
 aInfo
 .
 GetURI
@@ -18323,7 +18323,7 @@ ShouldAddEntryForRefresh
 (
 nsIURI
 *
-aCurrentURI
+aPreviousURI
 nsIURI
 *
 aNewURI
@@ -18347,10 +18347,10 @@ false
 ;
 if
 (
-aCurrentURI
+aPreviousURI
 )
 {
-aCurrentURI
+aPreviousURI
 -
 >
 Equals
@@ -18380,7 +18380,7 @@ uint32_t
 aLoadType
 nsIURI
 *
-aCurrentURI
+aPreviousURI
 bool
 aHadActiveEntry
 bool
@@ -18477,7 +18477,7 @@ LOAD_FLAGS_IS_REFRESH
 |
 ShouldAddEntryForRefresh
 (
-aCurrentURI
+aPreviousURI
 aInfo
 .
 mInfo
