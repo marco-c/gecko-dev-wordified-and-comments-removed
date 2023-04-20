@@ -432,6 +432,21 @@ filename
             
 continue
         
+if
+filename
+=
+=
+"
+regexp
+-
+ast
+.
+o
+"
+:
+            
+continue
+        
 fn
 =
 m
