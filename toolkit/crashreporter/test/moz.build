@@ -408,7 +408,9 @@ unit
 "
 CrashTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 ]
 TEST_HARNESS_FILES
@@ -428,7 +430,9 @@ unit_ipc
 "
 CrashTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 ]
 include

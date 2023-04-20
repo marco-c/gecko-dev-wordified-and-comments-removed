@@ -151,7 +151,7 @@ CrashTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -162,7 +162,9 @@ test
 /
 CrashTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -6263,7 +6263,7 @@ CrashReports
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -6276,7 +6276,9 @@ modules
 /
 CrashReports
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
