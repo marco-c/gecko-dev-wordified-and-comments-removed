@@ -125,6 +125,9 @@ Miri
 MIRI_NIGHTLY
 "
 rustup
+override
+unset
+rustup
 default
 "
 MIRI_NIGHTLY
@@ -163,3 +166,7 @@ verbose
 all
 -
 features
+rustup
+override
+set
+nightly
