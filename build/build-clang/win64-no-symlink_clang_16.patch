@@ -139,8 +139,8 @@ endif
 14
 12
 +
-20
-8
+19
+7
 function
 (
 install_symlink
@@ -228,6 +228,10 @@ outdir
 }
 "
 )
+-
+endif
+(
+)
 +
 COMMAND
 "
@@ -257,9 +261,6 @@ WORKING_DIRECTORY
 outdir
 }
 "
-)
-endif
-(
 )
 endfunction
 (
