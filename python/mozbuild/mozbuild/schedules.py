@@ -302,10 +302,6 @@ wdspec
 "
     
 "
-webrender
-"
-    
-"
 nss
 "
 ]
