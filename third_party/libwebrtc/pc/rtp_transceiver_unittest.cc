@@ -857,7 +857,16 @@ receiver_
 channel_manager_
 channel_manager_
 .
-GetSupportedAudioRtpHeaderExtensions
+media_engine
+(
+)
+-
+>
+voice
+(
+)
+.
+GetRtpHeaderExtensions
 (
 )
 [
