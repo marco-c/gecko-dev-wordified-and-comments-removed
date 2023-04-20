@@ -1055,12 +1055,7 @@ payload
 from
 extract_pbzx
 import
-extract_pbzx
-            
-extract_pbzx
-(
-payload_path
-)
+Pbzx
             
 pax_proc
 =
@@ -1106,28 +1101,20 @@ output_path
             
 )
             
-with
-open
-(
-payload_path
-+
-"
-.
-cpio
-"
-"
-rb
-"
-)
-as
-f
-:
-                
 shutil
 .
 copyfileobj
 (
-f
+Pbzx
+(
+open
+(
+payload_path
+"
+rb
+"
+)
+)
 pax_proc
 .
 stdin
