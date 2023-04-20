@@ -203,13 +203,13 @@ FieldTrialParameter
 <
 double
 >
-network_state_estimate_fast_rampup_rate
+probe_if_estimate_lower_than_network_state_estimate_ratio
 ;
 FieldTrialParameter
 <
-double
+TimeDelta
 >
-network_state_estimate_drop_down_rate
+estimate_lower_than_network_state_estimate_probing_interval
 ;
 FieldTrialParameter
 <
@@ -563,9 +563,6 @@ DataRate
 Zero
 (
 )
-;
-bool
-send_probe_on_next_process_interval_
 ;
 absl
 :
