@@ -325,7 +325,7 @@ is
 str
 "
 lo
-th
+this
 "
 "
 AXStringForRange
