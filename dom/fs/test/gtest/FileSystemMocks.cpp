@@ -306,7 +306,6 @@ nsContentUtils
 StringifyJSON
 (
 cx
-&
 vp
 aString
 )

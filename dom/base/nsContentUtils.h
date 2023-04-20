@@ -7554,14 +7554,14 @@ aCx
 JS
 :
 :
-MutableHandle
+Handle
 <
 JS
 :
 :
 Value
 >
-vp
+aValue
 nsAString
 &
 aOutStr

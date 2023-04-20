@@ -723,7 +723,6 @@ nsContentUtils
 StringifyJSON
 (
 cx
-&
 convertedValue
 aStackString
 )
