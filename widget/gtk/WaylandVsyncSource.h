@@ -158,9 +158,6 @@ DisableMonitor
 void
 FrameCallback
 (
-wl_callback
-*
-aCallback
 uint32_t
 aTime
 )
@@ -331,16 +328,6 @@ mMutex
 )
 =
 0
-;
-wl_callback
-*
-mCallback
-MOZ_GUARDED_BY
-(
-mMutex
-)
-=
-nullptr
 ;
 nsWindow
 *
