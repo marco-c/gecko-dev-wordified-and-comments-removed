@@ -13289,8 +13289,11 @@ return
 let
 win
 =
-getTopWin
+URILoadingHelper
+.
+getTargetWindow
 (
+window
 )
 ;
 if
@@ -17707,8 +17710,11 @@ readOnly
 let
 win
 =
+URILoadingHelper
+.
 getTopWin
 (
+window
 {
 skipPopups
 :
