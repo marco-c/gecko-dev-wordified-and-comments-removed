@@ -298,6 +298,7 @@ attribute
 boolean
 resumed
 ;
+readonly
 attribute
 boolean
 isBuiltCertChainRootBuiltInRoot
