@@ -39,7 +39,7 @@ getPayloadsOfType
 (
 thread
 "
-PreferenceRead
+Preference
 "
 )
 )
@@ -314,7 +314,8 @@ kContentPref
 contentThread
 )
 0
-PreferenceRead
+Preference
+Read
 profile
 markers
 for
