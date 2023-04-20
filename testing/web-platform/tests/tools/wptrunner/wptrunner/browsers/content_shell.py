@@ -48,10 +48,13 @@ executors
 executorcontentshell
 import
 (
-ContentShellRefTestExecutor
-                                              
+    
 ContentShellCrashtestExecutor
-                                              
+    
+ContentShellPrintRefTestExecutor
+    
+ContentShellRefTestExecutor
+    
 ContentShellTestharnessExecutor
 )
 __wptrunner__
@@ -86,13 +89,6 @@ executor
 "
 :
 {
-"
-reftest
-"
-:
-"
-ContentShellRefTestExecutor
-"
                      
 "
 crashtest
@@ -103,12 +99,31 @@ ContentShellCrashtestExecutor
 "
                      
 "
+print
+-
+reftest
+"
+:
+"
+ContentShellPrintRefTestExecutor
+"
+                     
+"
+reftest
+"
+:
+"
+ContentShellRefTestExecutor
+"
+                     
+"
 testharness
 "
 :
 "
 ContentShellTestharnessExecutor
 "
+                 
 }
                  
 "
