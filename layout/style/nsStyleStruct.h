@@ -4011,7 +4011,10 @@ mTextDecorationLine
 uint8_t
 mTextDecorationStyle
 ;
-uint8_t
+mozilla
+:
+:
+StyleUnicodeBidi
 mUnicodeBidi
 ;
 nscoord

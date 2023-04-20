@@ -34578,8 +34578,12 @@ StyleTextReset
 -
 >
 mUnicodeBidi
-&
-NS_STYLE_UNICODE_BIDI_PLAINTEXT
+=
+=
+StyleUnicodeBidi
+:
+:
+Plaintext
 )
 {
 if

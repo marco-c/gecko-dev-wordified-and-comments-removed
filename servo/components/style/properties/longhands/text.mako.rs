@@ -147,6 +147,11 @@ servo
 -
 2013
 "
+gecko_enum_prefix
+=
+"
+StyleUnicodeBidi
+"
 animation_value_type
 =
 "
