@@ -248,10 +248,10 @@ element
 =
 Element
 (
+session
 "
 foo
 "
-session
 )
     
 response
@@ -339,10 +339,10 @@ element
 =
 Element
 (
+session
 "
 foo
 "
-session
 )
     
 response
@@ -376,10 +376,10 @@ element
 =
 Element
 (
+session
 "
 foo
 "
-session
 )
     
 response

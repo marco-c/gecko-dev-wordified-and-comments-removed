@@ -5362,8 +5362,8 @@ def
 __init__
 (
 self
-id
 session
+id
 )
 :
         
@@ -5381,6 +5381,16 @@ representation
         
 :
 param
+session
+:
+Current
+webdriver
+.
+Session
+.
+        
+:
+param
 id
 :
 Web
@@ -5391,20 +5401,9 @@ must
 be
 unique
 across
-            
 all
 browsing
 contexts
-.
-        
-:
-param
-session
-:
-Current
-webdriver
-.
-Session
 .
         
 "
@@ -5510,8 +5509,8 @@ identifier
 return
 cls
 (
-uuid
 session
+uuid
 )
     
 def
