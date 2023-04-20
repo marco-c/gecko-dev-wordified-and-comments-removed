@@ -429,6 +429,15 @@ Utils
 .
 jsm
 "
+}
+)
+;
+ChromeUtils
+.
+defineESModuleGetters
+(
+lazy
+{
 MacAttribution
 :
 "
@@ -441,7 +450,9 @@ modules
 /
 MacAttribution
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
@@ -614,7 +625,7 @@ AttributionCode
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -626,7 +637,9 @@ modules
 /
 AttributionCode
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -438,10 +438,10 @@ equal
 (
 ex
 .
-name
-"
+result
+Cr
+.
 NS_ERROR_FILE_NOT_FOUND
-"
 "
 Test
 environment
