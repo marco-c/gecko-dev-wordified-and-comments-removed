@@ -398,7 +398,7 @@ wasi
 -
 clang
 -
-14
+15
 :
 description
 :
@@ -424,7 +424,7 @@ sysroot
 -
 wasi
 -
-14
+15
 )
 run
 :
@@ -470,7 +470,7 @@ fetch
 -
 clang
 -
-14
+15
 -
 wasi
 -
@@ -482,7 +482,7 @@ linux64
 -
 clang
 -
-14
+15
 sysroot
 -
 wasm32
