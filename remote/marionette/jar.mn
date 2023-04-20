@@ -757,7 +757,9 @@ marionette
 /
 PerTestCoverageUtils
 .
-jsm
+sys
+.
+mjs
 (
 .
 .
@@ -773,7 +775,9 @@ coverage
 /
 PerTestCoverageUtils
 .
-jsm
+sys
+.
+mjs
 )
 #
 endif

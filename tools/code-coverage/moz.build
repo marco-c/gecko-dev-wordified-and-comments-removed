@@ -5,7 +5,9 @@ TESTING_JS_MODULES
 "
 PerTestCoverageUtils
 .
-jsm
+sys
+.
+mjs
 "
 ]
 if
