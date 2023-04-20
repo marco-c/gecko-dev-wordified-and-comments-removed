@@ -32,7 +32,7 @@ puppeteer
 /
 common
 /
-FrameManager
+Frame
 .
 js
 '

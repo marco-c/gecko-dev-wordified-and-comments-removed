@@ -664,14 +664,6 @@ toEqual
 otherPage
 )
 ;
-await
-otherPage
-!
-.
-close
-(
-)
-;
 }
 )
 ;

@@ -115,8 +115,6 @@ exec
 npm
 run
 build
-:
-tsc
 '
 )
 .

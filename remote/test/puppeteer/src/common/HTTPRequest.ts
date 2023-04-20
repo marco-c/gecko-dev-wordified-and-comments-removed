@@ -35,6 +35,9 @@ assert
 from
 '
 .
+.
+/
+util
 /
 assert
 .
@@ -75,7 +78,7 @@ from
 '
 .
 /
-FrameManager
+Frame
 .
 js
 '

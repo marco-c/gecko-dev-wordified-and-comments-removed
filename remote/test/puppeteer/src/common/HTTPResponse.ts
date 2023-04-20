@@ -38,7 +38,7 @@ from
 '
 .
 /
-FrameManager
+Frame
 .
 js
 '

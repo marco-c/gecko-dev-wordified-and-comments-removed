@@ -2690,13 +2690,7 @@ expect
 elementHandle
 !
 .
-executionContext
-(
-)
-.
 frame
-(
-)
 )
 .
 toBe
@@ -2844,13 +2838,7 @@ expect
 elementHandle
 !
 .
-executionContext
-(
-)
-.
 frame
-(
-)
 )
 .
 toBe
@@ -5901,9 +5889,6 @@ toEqual
 [
 '
 shown
-'
-'
-hidden
 '
 ]
 )

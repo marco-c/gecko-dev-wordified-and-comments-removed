@@ -73,11 +73,9 @@ path
 .
 .
 /
-src
-/
 tsconfig
 .
-cjs
+lib
 .
 json
 "

@@ -22,6 +22,8 @@ from
 .
 /
 custom_markdown_documenter
+.
+js
 '
 ;
 export

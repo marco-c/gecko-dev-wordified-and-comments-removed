@@ -87,4 +87,17 @@ json
 "
 }
 ]
+"
+exclude
+"
+:
+[
+"
+injected
+/
+injected
+.
+ts
+"
+]
 }
