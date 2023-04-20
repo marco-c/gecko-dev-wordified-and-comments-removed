@@ -261,6 +261,11 @@ builds
 strict_asserts
 =
 [
+"
+wgt
+/
+strict_asserts
+"
 ]
 angle
 =
