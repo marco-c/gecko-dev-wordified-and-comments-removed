@@ -1709,12 +1709,6 @@ begin
 remove_first_n
 )
 ;
-bitrates
-.
-pop_back
-(
-)
-;
 double
 sum
 =
@@ -2962,7 +2956,7 @@ AllOf
 (
 Ge
 (
-540
+520
 )
 Le
 (

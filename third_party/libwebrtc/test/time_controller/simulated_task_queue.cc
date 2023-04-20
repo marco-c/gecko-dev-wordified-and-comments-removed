@@ -506,17 +506,7 @@ CurrentTime
 (
 )
 +
-TimeDelta
-:
-:
-Millis
-(
 delay
-.
-ms
-(
-)
-)
 ;
 delayed_tasks_
 [
