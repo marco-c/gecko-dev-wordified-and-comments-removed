@@ -510,7 +510,7 @@ AboutHttpsOnlyError
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -523,13 +523,15 @@ actors
 /
 AboutHttpsOnlyErrorParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -542,7 +544,9 @@ actors
 /
 AboutHttpsOnlyErrorChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
