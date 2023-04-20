@@ -187,7 +187,7 @@ phabricator_diff
 :
 tasks_for
 :
-actions
+action
 test_manifest_loader
 :
 default
