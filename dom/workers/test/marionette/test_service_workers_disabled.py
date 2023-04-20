@@ -18,15 +18,11 @@ __file__
 )
 )
 from
-marionette_driver
-import
-Wait
-from
 service_worker_utils
 import
 MarionetteServiceWorkerTestCase
 class
-ServiceWorkerAtStartupTestCase
+ServiceWorkersDisabledTestCase
 (
 MarionetteServiceWorkerTestCase
 )
@@ -41,7 +37,7 @@ self
         
 super
 (
-ServiceWorkerAtStartupTestCase
+ServiceWorkersDisabledTestCase
 self
 )
 .
@@ -85,7 +81,7 @@ True
         
 super
 (
-ServiceWorkerAtStartupTestCase
+ServiceWorkersDisabledTestCase
 self
 )
 .
@@ -94,11 +90,38 @@ tearDown
 )
     
 def
-test_registered_service_worker_after_restart
+test_service_workers_disabled_at_startup
 (
 self
 )
 :
+        
+self
+.
+marionette
+.
+instance
+.
+profile
+.
+set_preferences
+(
+            
+{
+                
+"
+dom
+.
+serviceWorkers
+.
+enabled
+"
+:
+False
+            
+}
+        
+)
         
 self
 .
@@ -108,41 +131,23 @@ restart
 (
 )
         
-Wait
-(
 self
 .
-marionette
-)
-.
-until
+assertFalse
 (
             
-lambda
-_
-:
 self
 .
 is_service_worker_registered
             
-message
-=
 "
 Service
 worker
-not
-registered
-after
-restart
+registration
+should
+have
+been
+purged
 "
         
-)
-        
-self
-.
-assertTrue
-(
-self
-.
-is_service_worker_registered
 )
