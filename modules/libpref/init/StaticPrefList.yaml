@@ -87513,12 +87513,6 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-&
-&
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
 value
 :
 true
