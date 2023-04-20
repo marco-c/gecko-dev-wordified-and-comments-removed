@@ -2730,9 +2730,6 @@ wellKnownMap_
 bool
 initSingle
 (
-JSContext
-*
-cx
 const
 WellKnownAtomInfo
 &
@@ -2746,9 +2743,6 @@ public
 bool
 init
 (
-JSContext
-*
-cx
 )
 ;
 static
