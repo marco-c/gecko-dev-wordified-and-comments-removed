@@ -4884,7 +4884,11 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 static
+Result
+<
+CaretPoint
 nsresult
+>
 DeleteInvisibleASCIIWhiteSpaces
 (
 HTMLEditor
