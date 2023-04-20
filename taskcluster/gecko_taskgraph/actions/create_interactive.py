@@ -13,8 +13,8 @@ util
 .
 taskcluster
 import
-get_task_definition
 get_root_url
+get_task_definition
 send_email
 from
 gecko_taskgraph

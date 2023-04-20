@@ -42,6 +42,10 @@ Optional
 Required
 from
 gecko_taskgraph
+import
+GECKO
+from
+gecko_taskgraph
 .
 transforms
 .
@@ -66,10 +70,6 @@ util
 hash
 import
 hash_path
-from
-gecko_taskgraph
-import
-GECKO
 DSC_PACKAGE_RE
 =
 re

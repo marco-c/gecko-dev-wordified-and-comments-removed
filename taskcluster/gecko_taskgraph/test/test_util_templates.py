@@ -9,8 +9,8 @@ util
 .
 templates
 import
-merge_to
 merge
+merge_to
 class
 MergeTest
 (

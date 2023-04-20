@@ -29,8 +29,8 @@ Schema
 from
 voluptuous
 import
-Required
 Optional
+Required
 from
 gecko_taskgraph
 .
@@ -38,8 +38,8 @@ transforms
 .
 job
 import
-run_job_using
 configure_taskdesc_for_run
+run_job_using
 python_test_schema
 =
 Schema

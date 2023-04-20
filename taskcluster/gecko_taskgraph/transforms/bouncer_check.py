@@ -1,5 +1,7 @@
 import
 json
+import
+logging
 from
 pipes
 import
@@ -38,8 +40,6 @@ util
 scriptworker
 import
 get_release_config
-import
-logging
 logger
 =
 logging

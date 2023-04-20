@@ -38,9 +38,9 @@ partners
 import
 (
     
-get_repack_ids_by_platform
-    
 apply_partner_priority
+    
+get_repack_ids_by_platform
 )
 transforms
 =

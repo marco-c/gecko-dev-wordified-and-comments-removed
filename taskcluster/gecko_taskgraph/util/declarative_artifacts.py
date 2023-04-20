@@ -9,9 +9,9 @@ scriptworker
 import
 (
     
-generate_beetmover_upstream_artifacts
-    
 generate_beetmover_artifact_map
+    
+generate_beetmover_upstream_artifacts
 )
 _ARTIFACT_ID_PER_PLATFORM
 =

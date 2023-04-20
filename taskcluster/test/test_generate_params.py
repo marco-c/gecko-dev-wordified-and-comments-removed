@@ -7,6 +7,10 @@ subprocess
 import
 pytest
 from
+gecko_taskgraph
+import
+GECKO
+from
 mozunit
 import
 main
@@ -16,10 +20,6 @@ taskgraph
 taskgraph
 import
 TaskGraph
-from
-gecko_taskgraph
-import
-GECKO
 pytestmark
 =
 pytest

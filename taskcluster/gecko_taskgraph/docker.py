@@ -27,8 +27,8 @@ util
 .
 taskcluster
 import
-get_session
 get_artifact_url
+get_session
 from
 gecko_taskgraph
 .

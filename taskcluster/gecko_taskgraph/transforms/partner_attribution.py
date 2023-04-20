@@ -15,14 +15,14 @@ description
 "
 "
 "
-from
-collections
-import
-defaultdict
 import
 json
 import
 logging
+from
+collections
+import
+defaultdict
 from
 taskgraph
 .
@@ -44,9 +44,9 @@ apply_partner_priority
     
 check_if_partners_enabled
     
-get_partner_config_by_kind
-    
 generate_attribution_code
+    
+get_partner_config_by_kind
 )
 log
 =

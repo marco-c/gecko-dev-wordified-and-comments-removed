@@ -49,6 +49,14 @@ craft_release_properties
 from
 gecko_taskgraph
 .
+transforms
+.
+task
+import
+task_description_schema
+from
+gecko_taskgraph
+.
 util
 .
 attributes
@@ -67,18 +75,10 @@ generate_beetmover_artifact_map
     
 generate_beetmover_upstream_artifacts
     
-get_beetmover_bucket_scope
-    
 get_beetmover_action_scope
+    
+get_beetmover_bucket_scope
 )
-from
-gecko_taskgraph
-.
-transforms
-.
-task
-import
-task_description_schema
 beetmover_checksums_description_schema
 =
 schema

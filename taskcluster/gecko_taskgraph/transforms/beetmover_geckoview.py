@@ -33,13 +33,13 @@ util
 .
 schema
 import
-resolve_keyed_by
 optionally_keyed_by
+resolve_keyed_by
 from
 voluptuous
 import
-Required
 Optional
+Required
 from
 gecko_taskgraph
 .
@@ -64,6 +64,14 @@ beetmover_craft_release_properties
 from
 gecko_taskgraph
 .
+transforms
+.
+task
+import
+task_description_schema
+from
+gecko_taskgraph
+.
 util
 .
 attributes
@@ -83,20 +91,12 @@ declarative_artifacts
 import
 (
     
+get_geckoview_artifact_id
+    
 get_geckoview_artifact_map
     
 get_geckoview_upstream_artifacts
-    
-get_geckoview_artifact_id
 )
-from
-gecko_taskgraph
-.
-transforms
-.
-task
-import
-task_description_schema
 beetmover_description_schema
 =
 schema

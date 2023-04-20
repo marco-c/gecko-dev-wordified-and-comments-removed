@@ -10,9 +10,9 @@ optionally_keyed_by
 from
 voluptuous
 import
-Required
-Optional
 Any
+Optional
+Required
 graph_config_schema
 =
 Schema

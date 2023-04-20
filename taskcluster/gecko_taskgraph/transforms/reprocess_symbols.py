@@ -57,10 +57,7 @@ util
 .
 attributes
 import
-(
-    
 copy_attributes_from_dependent_job
-)
 logger
 =
 logging

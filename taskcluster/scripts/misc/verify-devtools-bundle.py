@@ -102,9 +102,9 @@ mercurial
 "
 "
 import
-sys
-import
 subprocess
+import
+sys
 overall_failure
 =
 False

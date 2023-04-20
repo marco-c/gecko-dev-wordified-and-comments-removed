@@ -35,8 +35,8 @@ util
 .
 schema
 import
-resolve_keyed_by
 optionally_keyed_by
+resolve_keyed_by
 from
 taskgraph
 .

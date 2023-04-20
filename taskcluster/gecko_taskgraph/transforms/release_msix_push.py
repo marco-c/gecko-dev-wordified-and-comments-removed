@@ -33,9 +33,9 @@ util
 .
 schema
 import
+Schema
 optionally_keyed_by
 resolve_keyed_by
-Schema
 from
 voluptuous
 import

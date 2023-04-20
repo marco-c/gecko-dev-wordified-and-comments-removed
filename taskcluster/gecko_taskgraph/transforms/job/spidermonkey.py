@@ -23,9 +23,9 @@ Schema
 from
 voluptuous
 import
-Required
 Any
 Optional
+Required
 from
 gecko_taskgraph
 .
@@ -33,12 +33,8 @@ transforms
 .
 job
 import
-(
-    
-run_job_using
-    
 configure_taskdesc_for_run
-)
+run_job_using
 from
 gecko_taskgraph
 .

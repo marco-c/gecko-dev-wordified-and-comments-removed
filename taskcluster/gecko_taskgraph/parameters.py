@@ -11,12 +11,8 @@ extend_parameters_schema
 from
 voluptuous
 import
-(
-    
 Any
-    
 Required
-)
 from
 gecko_taskgraph
 import

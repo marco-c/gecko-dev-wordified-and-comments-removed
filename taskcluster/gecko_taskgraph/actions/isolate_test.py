@@ -35,9 +35,9 @@ from
 .
 util
 import
+add_args_to_command
 create_task_from_def
 fetch_graph_and_labels
-add_args_to_command
 logger
 =
 logging

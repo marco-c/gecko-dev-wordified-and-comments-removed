@@ -1,9 +1,9 @@
 import
 logging
 import
-requests
-import
 redo
+import
+requests
 from
 gecko_taskgraph
 .

@@ -46,8 +46,8 @@ inherit_treeherder_from_dep
 from
 voluptuous
 import
-Required
 Optional
+Required
 from
 gecko_taskgraph
 .

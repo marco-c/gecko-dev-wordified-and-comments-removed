@@ -1,6 +1,10 @@
 import
 pytest
 from
+mozunit
+import
+main
+from
 taskgraph
 .
 graph
@@ -28,10 +32,6 @@ from
 gecko_taskgraph
 import
 morph
-from
-mozunit
-import
-main
 pytest
 .
 fixture

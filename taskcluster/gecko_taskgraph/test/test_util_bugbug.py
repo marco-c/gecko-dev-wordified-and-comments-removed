@@ -7,12 +7,8 @@ util
 .
 bugbug
 import
-(
-    
 BUGBUG_BASE_URL
-    
 push_schedules
-)
 def
 test_group_translation
 (

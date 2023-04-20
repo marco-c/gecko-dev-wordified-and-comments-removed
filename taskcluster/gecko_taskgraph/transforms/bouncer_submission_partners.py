@@ -41,15 +41,24 @@ bouncer_submission
 import
 (
     
-FTP_PLATFORMS_PER_BOUNCER_PLATFORM
-    
 CONFIG_PER_BOUNCER_PRODUCT
 as
 CONFIG_PER_BOUNCER_PRODUCT_VANILLA
+)
+from
+gecko_taskgraph
+.
+transforms
+.
+bouncer_submission
+import
+(
     
-_craft_ftp_product
+FTP_PLATFORMS_PER_BOUNCER_PLATFORM
     
 _craft_filename_product
+    
+_craft_ftp_product
 )
 from
 gecko_taskgraph

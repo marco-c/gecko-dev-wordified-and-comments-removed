@@ -5,8 +5,6 @@ logging
 import
 os
 import
-requests
-import
 xml
 .
 etree
@@ -24,6 +22,8 @@ urllib
 parse
 import
 urlencode
+import
+requests
 import
 yaml
 from
