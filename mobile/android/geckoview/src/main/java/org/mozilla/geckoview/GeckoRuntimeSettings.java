@@ -122,7 +122,7 @@ java
 .
 util
 .
-ArrayList
+LinkedHashMap
 ;
 import
 java
@@ -2267,16 +2267,16 @@ computeAcceptLanguages
 )
 {
 final
-ArrayList
+LinkedHashMap
 <
+String
 String
 >
 locales
 =
 new
-ArrayList
+LinkedHashMap
 <
-String
 >
 (
 )
@@ -2300,7 +2300,7 @@ mRequestedLocales
 {
 locales
 .
-add
+put
 (
 locale
 .
@@ -2310,6 +2310,7 @@ Locale
 .
 ROOT
 )
+locale
 )
 ;
 }
@@ -2343,7 +2344,7 @@ if
 !
 locales
 .
-contains
+containsKey
 (
 localeLowerCase
 )
@@ -2351,9 +2352,10 @@ localeLowerCase
 {
 locales
 .
-add
+put
 (
 localeLowerCase
+locale
 )
 ;
 }
@@ -2366,6 +2368,10 @@ join
 "
 "
 locales
+.
+values
+(
+)
 )
 ;
 }

@@ -1913,7 +1913,7 @@ android
 "
 en
 -
-us
+US
 "
 ]
 :
