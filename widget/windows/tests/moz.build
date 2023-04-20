@@ -9,6 +9,13 @@ linkage
 =
 None
 )
+DIRS
+=
+[
+"
+gtest
+"
+]
 LOCAL_INCLUDES
 +
 =
