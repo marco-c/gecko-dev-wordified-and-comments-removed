@@ -515,6 +515,9 @@ public
 :
 OutgoingStream
 (
+RRSendQueue
+*
+parent
 StreamScheduler
 *
 scheduler
@@ -532,9 +535,6 @@ void
 )
 >
 on_buffered_amount_low
-ThresholdWatcher
-&
-total_buffered_amount
 const
 DcSctpSocketHandoverState
 :
@@ -546,6 +546,11 @@ state
 nullptr
 )
 :
+parent_
+(
+*
+parent
+)
 scheduler_stream_
 (
 scheduler
@@ -609,10 +614,6 @@ move
 (
 on_buffered_amount_low
 )
-)
-total_buffered_amount_
-(
-total_buffered_amount
 )
 {
 }
@@ -944,6 +945,10 @@ IsConsistent
 )
 const
 ;
+RRSendQueue
+&
+parent_
+;
 const
 std
 :
@@ -985,10 +990,6 @@ items_
 ;
 ThresholdWatcher
 buffered_amount_
-;
-ThresholdWatcher
-&
-total_buffered_amount_
 ;
 }
 ;
