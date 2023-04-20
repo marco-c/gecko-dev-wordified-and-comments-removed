@@ -1541,10 +1541,13 @@ gfxCriticalNote
 <
 <
 "
-Receive
+CompositorBridgeChild
+receives
 IPC
 close
 with
+"
+"
 reason
 =
 AbnormalShutdown
