@@ -41677,7 +41677,7 @@ MozXULElement
 insertFTLIfNeeded
 (
 "
-browser
+toolkit
 /
 branding
 /

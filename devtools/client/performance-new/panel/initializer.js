@@ -638,7 +638,7 @@ options
 ftl
 "
 "
-browser
+toolkit
 /
 branding
 /
