@@ -123,6 +123,8 @@ public
 :
 PrintEvent
 (
+HWND
+hwnd
 UINT
 msg
 WPARAM
@@ -162,6 +164,10 @@ bool
 PrintEventInternal
 (
 )
+;
+const
+HWND
+mHwnd
 ;
 const
 UINT

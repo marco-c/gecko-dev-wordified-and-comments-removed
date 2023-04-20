@@ -166,6 +166,8 @@ PrintEvent
 :
 PrintEvent
 (
+HWND
+hwnd
 UINT
 msg
 WPARAM
@@ -176,6 +178,10 @@ LRESULT
 retValue
 )
 :
+mHwnd
+(
+hwnd
+)
 mMsg
 (
 msg
@@ -981,6 +987,9 @@ Info
 "
 %
 6ld
+0x
+%
+08llX
 -
 0x
 %
@@ -1005,6 +1014,13 @@ mEventCounter
 valueOr
 (
 gEventCounter
+)
+reinterpret_cast
+<
+uint64_t
+>
+(
+mHwnd
 )
 mMsg
 paramInfo
