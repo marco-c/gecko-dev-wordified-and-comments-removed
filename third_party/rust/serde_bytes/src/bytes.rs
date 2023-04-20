@@ -142,9 +142,16 @@ Ord
 ]
 #
 [
+cfg_attr
+(
+not
+(
+doc
+)
 repr
 (
-C
+transparent
+)
 )
 ]
 pub
