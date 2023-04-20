@@ -170,7 +170,7 @@ ExperimentManager
 .
 store
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 .
@@ -265,7 +265,7 @@ ExperimentManager
 .
 store
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 .

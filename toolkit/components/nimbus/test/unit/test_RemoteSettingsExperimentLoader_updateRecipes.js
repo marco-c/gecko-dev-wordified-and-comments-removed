@@ -308,7 +308,7 @@ manager
 .
 store
 "
-getAllActive
+getAllActiveExperiments
 "
 )
 .
@@ -466,7 +466,7 @@ manager
 .
 store
 "
-getAllActive
+getAllActiveExperiments
 "
 )
 .
@@ -693,7 +693,7 @@ manager
 .
 store
 "
-getAllActive
+getAllActiveExperiments
 "
 )
 .
@@ -911,7 +911,7 @@ manager
 .
 store
 "
-getAllActive
+getAllActiveExperiments
 "
 )
 .
@@ -1056,7 +1056,7 @@ manager
 .
 store
 "
-getAllActive
+getAllActiveExperiments
 "
 )
 .
@@ -3127,7 +3127,7 @@ manager
 .
 store
 "
-getAllActive
+getAllActiveExperiments
 "
 )
 .
@@ -3145,7 +3145,7 @@ manager
 .
 store
 "
-getAllRollouts
+getAllActiveRollouts
 "
 )
 .
@@ -3609,7 +3609,7 @@ manager
 .
 store
 "
-getAllActive
+getAllActiveExperiments
 "
 )
 .
@@ -3627,7 +3627,7 @@ manager
 .
 store
 "
-getAllRollouts
+getAllActiveRollouts
 "
 )
 .
@@ -4836,7 +4836,7 @@ manager
 .
 store
 "
-getAllActive
+getAllActiveExperiments
 "
 )
 .
@@ -4854,7 +4854,7 @@ manager
 .
 store
 "
-getAllRollouts
+getAllActiveRollouts
 "
 )
 .
@@ -5138,7 +5138,7 @@ manager
 .
 store
 "
-getAllActive
+getAllActiveExperiments
 "
 )
 .
@@ -5156,7 +5156,7 @@ manager
 .
 store
 "
-getAllRollouts
+getAllActiveRollouts
 "
 )
 .

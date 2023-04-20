@@ -186,7 +186,7 @@ manager
 .
 store
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 .
@@ -208,7 +208,7 @@ manager
 .
 store
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 [
