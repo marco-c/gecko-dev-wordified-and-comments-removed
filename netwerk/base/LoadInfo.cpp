@@ -6973,7 +6973,6 @@ GetComputedReferrer
 )
 ;
 }
-}
 nsCOMPtr
 <
 nsIHttpChannelInternal
@@ -7002,6 +7001,7 @@ GetRemoteAddress
 remoteAddress
 )
 ;
+}
 }
 nsCOMPtr
 <
