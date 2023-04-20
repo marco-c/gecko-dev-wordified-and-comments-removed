@@ -167,13 +167,6 @@ c
         
 ]
         
-self
-.
-mobile_android_packages
-=
-[
-]
-        
 if
 self
 .
@@ -353,21 +346,6 @@ perl
 FindBin
 "
 )
-            
-self
-.
-mobile_android_packages
-+
-=
-[
-"
-ncurses
--
-compat
--
-libs
-"
-]
         
 self
 .
@@ -456,41 +434,6 @@ mozconfig_builder
 artifact_mode
 =
 True
-)
-    
-def
-install_mobile_android_packages
-(
-self
-mozconfig_builder
-artifact_mode
-=
-False
-)
-:
-        
-self
-.
-dnf_install
-(
-*
-self
-.
-mobile_android_packages
-)
-        
-super
-(
-)
-.
-install_mobile_android_packages
-(
-            
-mozconfig_builder
-artifact_mode
-=
-artifact_mode
-        
 )
     
 def
