@@ -22,16 +22,6 @@ lint
 /
 python
 /
-pylint_requirements
-.
-txt
--
-tools
-/
-lint
-/
-python
-/
 black_requirements
 .
 txt

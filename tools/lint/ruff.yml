@@ -108,6 +108,8 @@ warning
 rules
 :
 [
+PLR
+PLW
 ]
 type
 :
