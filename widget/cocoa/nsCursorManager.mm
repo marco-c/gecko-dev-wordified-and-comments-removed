@@ -112,8 +112,6 @@ nsCursorManager
 )
 sharedInstance
 {
-NS_OBJC_BEGIN_TRY_BLOCK_RETURN
-;
 if
 (
 !
@@ -134,11 +132,6 @@ init
 return
 gInstance
 ;
-NS_OBJC_END_TRY_BLOCK_RETURN
-(
-nil
-)
-;
 }
 +
 (
@@ -146,8 +139,6 @@ void
 )
 dispose
 {
-NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
-;
 [
 gInstance
 release
@@ -156,8 +147,6 @@ release
 gInstance
 =
 nil
-;
-NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 +
@@ -173,8 +162,6 @@ nsCursor
 )
 aCursor
 {
-NS_OBJC_BEGIN_TRY_BLOCK_RETURN
-;
 switch
 (
 aCursor
@@ -920,11 +907,6 @@ aCursor
 ]
 ;
 }
-NS_OBJC_END_TRY_BLOCK_RETURN
-(
-nil
-)
-;
 }
 -
 (
@@ -932,8 +914,6 @@ id
 )
 init
 {
-NS_OBJC_BEGIN_TRY_BLOCK_RETURN
-;
 if
 (
 (
@@ -962,11 +942,6 @@ initWithCapacity
 return
 self
 ;
-NS_OBJC_END_TRY_BLOCK_RETURN
-(
-nil
-)
-;
 }
 -
 (
@@ -984,8 +959,6 @@ Cursor
 )
 aCursor
 {
-NS_OBJC_BEGIN_TRY_BLOCK_RETURN
-;
 [
 self
 setMacCursor
@@ -1007,11 +980,6 @@ aCursor
 return
 NS_OK
 ;
-NS_OBJC_END_TRY_BLOCK_RETURN
-(
-NS_ERROR_FAILURE
-)
-;
 }
 -
 (
@@ -1025,8 +993,6 @@ nsMacCursor
 )
 aMacCursor
 {
-NS_OBJC_BEGIN_TRY_BLOCK_RETURN
-;
 nsCursor
 oldType
 =
@@ -1124,11 +1090,6 @@ aMacCursor
 return
 NS_OK
 ;
-NS_OBJC_END_TRY_BLOCK_RETURN
-(
-NS_ERROR_FAILURE
-)
-;
 }
 -
 (
@@ -1152,8 +1113,6 @@ CGFloat
 )
 scaleFactor
 {
-NS_OBJC_BEGIN_TRY_BLOCK_RETURN
-;
 if
 (
 sCurrentCursor
@@ -1418,11 +1377,6 @@ release
 return
 NS_OK
 ;
-NS_OBJC_END_TRY_BLOCK_RETURN
-(
-NS_ERROR_FAILURE
-)
-;
 }
 -
 (
@@ -1437,8 +1391,6 @@ nsCursor
 )
 aCursor
 {
-NS_OBJC_BEGIN_TRY_BLOCK_RETURN
-;
 nsMacCursor
 *
 result
@@ -1489,11 +1441,6 @@ aCursor
 return
 result
 ;
-NS_OBJC_END_TRY_BLOCK_RETURN
-(
-nil
-)
-;
 }
 -
 (
@@ -1501,8 +1448,6 @@ void
 )
 dealloc
 {
-NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
-;
 [
 mCurrentMacCursor
 unset
@@ -1527,8 +1472,6 @@ sCurrentCursor
 super
 dealloc
 ]
-;
-NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
 end
