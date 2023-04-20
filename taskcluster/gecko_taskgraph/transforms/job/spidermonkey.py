@@ -728,10 +728,7 @@ mozilla
 build
 \
 \
-msys2
-\
-\
-usr
+msys
 \
 \
 bin
