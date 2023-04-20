@@ -7,6 +7,13 @@ WMFMediaDataEncoder_h_
 #
 include
 "
+ImageContainer
+.
+h
+"
+#
+include
+"
 MFTEncoder
 .
 h
@@ -1069,6 +1076,9 @@ mEncoder
 )
 ;
 const
+layers
+:
+:
 PlanarYCbCrImage
 *
 image
@@ -1089,6 +1099,9 @@ image
 )
 ;
 const
+layers
+:
+:
 PlanarYCbCrData
 *
 yuv
