@@ -8107,6 +8107,15 @@ public
 static
 final
 int
+LOAD_FLAGS_BYPASS_LOAD_URI_DELEGATE
+=
+128
+;
+field
+public
+static
+final
+int
 LOAD_FLAGS_BYPASS_PROXY
 =
 2
