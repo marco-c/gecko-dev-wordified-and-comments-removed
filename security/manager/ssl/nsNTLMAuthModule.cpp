@@ -2975,6 +2975,9 @@ password
 ntlmHash
 )
 ;
+mozilla
+:
+:
 HMAC
 ntlmv2HashHmac
 ;
@@ -2985,6 +2988,9 @@ ntlmv2HashHmac
 Begin
 (
 SEC_OID_MD5
+mozilla
+:
+:
 Span
 (
 ntlmHash
@@ -3103,6 +3109,9 @@ client_random
 NTLM_CHAL_LEN
 )
 ;
+mozilla
+:
+:
 HMAC
 lmv2ResponseHmac
 ;
@@ -3113,6 +3122,9 @@ lmv2ResponseHmac
 Begin
 (
 SEC_OID_MD5
+mozilla
+:
+:
 Span
 (
 ntlmv2Hash
@@ -3313,6 +3325,9 @@ ntlmv2_blob1
 NTLM_CHAL_LEN
 )
 ;
+mozilla
+:
+:
 HMAC
 ntlmv2ResponseHmac
 ;
@@ -3323,6 +3338,9 @@ ntlmv2ResponseHmac
 Begin
 (
 SEC_OID_MD5
+mozilla
+:
+:
 Span
 (
 ntlmv2Hash

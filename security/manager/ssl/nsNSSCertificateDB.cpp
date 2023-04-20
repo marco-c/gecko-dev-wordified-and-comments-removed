@@ -5977,9 +5977,6 @@ hasThirdPartyRoots
 NS_DISPATCH_EVENT_MAY_BLOCK
 )
 ;
-return
-NS_OK
-;
 }
 nsresult
 VerifyCertAtTime

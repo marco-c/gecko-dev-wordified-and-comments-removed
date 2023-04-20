@@ -48,6 +48,13 @@ nsSerializationHelper
 .
 h
 "
+#
+include
+"
+secerr
+.
+h
+"
 extern
 mozilla
 :

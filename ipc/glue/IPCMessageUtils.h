@@ -55,7 +55,9 @@ include
 "
 mozilla
 /
-MacroForEach
+ipc
+/
+IPCCore
 .
 h
 "
@@ -64,9 +66,7 @@ include
 "
 mozilla
 /
-ipc
-/
-IPCCore
+MacroForEach
 .
 h
 "

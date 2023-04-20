@@ -128,6 +128,17 @@ include
 "
 mozilla
 /
+ipc
+/
+IPDLParamTraits
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 DNS

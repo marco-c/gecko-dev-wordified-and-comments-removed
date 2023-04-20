@@ -3499,9 +3499,6 @@ modelSocket
 )
 ;
 }
-return
-0
-;
 }
 }
 }

@@ -93,6 +93,13 @@ h
 #
 include
 "
+secerr
+.
+h
+"
+#
+include
+"
 ssl
 .
 h
@@ -1053,6 +1060,9 @@ return
 NS_OK
 ;
 }
+pkix
+:
+:
 Input
 serverCertInput
 ;
@@ -1086,6 +1096,9 @@ if
 rv
 !
 =
+pkix
+:
+:
 Success
 )
 {
@@ -1093,6 +1106,9 @@ return
 NS_OK
 ;
 }
+pkix
+:
+:
 Input
 hostnameInput
 ;
@@ -1130,6 +1146,9 @@ if
 rv
 !
 =
+pkix
+:
+:
 Success
 )
 {
@@ -1150,6 +1169,9 @@ if
 rv
 !
 =
+pkix
+:
+:
 Success
 )
 {
@@ -1257,6 +1279,9 @@ hostname
 BeginReading
 (
 )
+pkix
+:
+:
 Now
 (
 )
@@ -1961,6 +1986,9 @@ nsITransportSecurityInfo
 securityInfo
 (
 new
+psm
+:
+:
 TransportSecurityInfo
 (
 mSecurityState

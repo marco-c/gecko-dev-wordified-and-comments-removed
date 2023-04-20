@@ -92,6 +92,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+ToJSValue
+.
+h
+"
+#
+include
+"
 nsAppDirectoryServiceDefs
 .
 h

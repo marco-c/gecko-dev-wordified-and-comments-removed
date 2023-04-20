@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 ssl
 .
 h
