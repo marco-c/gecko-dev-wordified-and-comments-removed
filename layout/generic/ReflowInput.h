@@ -2590,6 +2590,12 @@ ShouldApplyAutomaticMinimumOnBlockAxis
 )
 const
 ;
+bool
+IsInFragmentedContext
+(
+)
+const
+;
 static
 mozilla
 :
