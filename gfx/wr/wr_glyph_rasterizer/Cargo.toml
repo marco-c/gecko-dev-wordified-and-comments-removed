@@ -111,11 +111,7 @@ gecko
 =
 [
 "
-firefox
--
-on
--
-glean
+fog
 "
 "
 glean
@@ -261,11 +257,7 @@ optional
 =
 true
 }
-firefox
--
-on
--
-glean
+fog
 =
 {
 version

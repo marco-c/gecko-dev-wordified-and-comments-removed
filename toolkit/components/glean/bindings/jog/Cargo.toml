@@ -52,11 +52,7 @@ MPL
 [
 dependencies
 ]
-firefox
--
-on
--
-glean
+fog
 =
 {
 path

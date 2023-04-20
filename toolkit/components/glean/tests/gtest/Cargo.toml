@@ -50,11 +50,7 @@ crate
 [
 dependencies
 ]
-firefox
--
-on
--
-glean
+fog
 =
 {
 path

@@ -31,15 +31,6 @@ path
 :
 PathBuf
 ;
-use
-firefox_on_glean
-:
-:
-{
-metrics
-pings
-}
-;
 #
 [
 cfg
@@ -438,6 +429,9 @@ Result
 nsresult
 >
 {
+fog
+:
+:
 metrics
 :
 :
@@ -605,6 +599,9 @@ Configuration
 conf
 )
 ;
+fog
+:
+:
 pings
 :
 :
@@ -628,6 +625,9 @@ conf
 client_info
 )
 ;
+fog
+:
+:
 metrics
 :
 :

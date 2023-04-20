@@ -54,11 +54,7 @@ RUST_TESTS
 =
 [
 "
-firefox
--
-on
--
-glean
+fog
 "
 "
 l10nregistry

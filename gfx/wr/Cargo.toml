@@ -94,11 +94,7 @@ crates
 -
 io
 ]
-firefox
--
-on
--
-glean
+fog
 =
 {
 path

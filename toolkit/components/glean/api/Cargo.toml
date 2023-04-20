@@ -4,11 +4,7 @@ package
 name
 =
 "
-firefox
--
-on
--
-glean
+fog
 "
 version
 =

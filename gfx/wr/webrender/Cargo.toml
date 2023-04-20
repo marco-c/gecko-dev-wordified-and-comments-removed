@@ -205,11 +205,7 @@ gecko
 =
 [
 "
-firefox
--
-on
--
-glean
+fog
 "
 "
 glyph_rasterizer
@@ -598,11 +594,7 @@ glean
 .
 0
 "
-firefox
--
-on
--
-glean
+fog
 =
 {
 version
