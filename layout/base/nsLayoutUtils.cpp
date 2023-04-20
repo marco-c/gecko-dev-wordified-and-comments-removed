@@ -30235,7 +30235,7 @@ kidPosition
 aFrame
 -
 >
-GetLogicalUsedBorderAndPadding
+GetLogicalUsedBorder
 (
 aWM
 )
