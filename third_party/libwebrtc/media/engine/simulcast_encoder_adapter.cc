@@ -3997,6 +3997,17 @@ stream_params
 .
 active
 ;
+codec_params
+.
+SetScalabilityMode
+(
+stream_params
+.
+GetScalabilityMode
+(
+)
+)
+;
 if
 (
 is_lowest_quality_stream
