@@ -472,7 +472,7 @@ features
 ProfilerFeature
 :
 :
-NoIOStacks
+NoMarkerStacks
 )
 ;
 if
