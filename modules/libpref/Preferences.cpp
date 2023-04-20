@@ -21473,7 +21473,7 @@ MarkerTable
 ;
 schema
 .
-AddKeyLabelFormat
+AddKeyLabelFormatSearchable
 (
 "
 prefName
@@ -21488,6 +21488,13 @@ Format
 :
 :
 String
+MS
+:
+:
+Searchable
+:
+:
+Searchable
 )
 ;
 schema
