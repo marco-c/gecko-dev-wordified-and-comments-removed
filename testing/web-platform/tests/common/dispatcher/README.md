@@ -343,6 +343,7 @@ tests
 Note
 that
 executor
+*
 files
 under
 /
@@ -358,6 +359,14 @@ RemoteContext
 execute_script
 (
 )
+.
+Use
+remote
+-
+executor
+.
+html
+instead
 .
 This
 is
