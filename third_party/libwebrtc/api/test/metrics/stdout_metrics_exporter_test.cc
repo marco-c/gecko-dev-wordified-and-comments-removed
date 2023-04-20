@@ -244,7 +244,7 @@ stddev
 TEST
 (
 StdoutMetricsExporterTest
-MAYBE_ExportMetricFormatCorrect
+ExportMetricFormatCorrect
 )
 {
 Metric
