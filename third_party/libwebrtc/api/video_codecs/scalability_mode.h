@@ -51,9 +51,7 @@ uint8_t
 {
 kL1T1
 kL1T2
-kL1T2h
 kL1T3
-kL1T3h
 kL2T1
 kL2T1h
 kL2T1_KEY
@@ -100,15 +98,7 @@ kL1T2
 ScalabilityMode
 :
 :
-kL1T2h
-ScalabilityMode
-:
-:
 kL1T3
-ScalabilityMode
-:
-:
-kL1T3h
 ScalabilityMode
 :
 :
