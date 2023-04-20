@@ -1692,12 +1692,6 @@ GetFormat
 const
 override
 ;
-void
-NotifyNotUsed
-(
-)
-override
-;
 already_AddRefed
 <
 gfx
@@ -1877,11 +1871,6 @@ false
 }
 protected
 :
-bool
-EnsureAttached
-(
-)
-;
 mozilla
 :
 :
