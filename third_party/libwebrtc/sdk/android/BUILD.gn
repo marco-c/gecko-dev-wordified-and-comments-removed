@@ -4219,15 +4219,6 @@ src
 /
 jni
 /
-jni_generator_helper
-.
-h
-"
-"
-src
-/
-jni
-/
 native_capturer_observer
 .
 cc
