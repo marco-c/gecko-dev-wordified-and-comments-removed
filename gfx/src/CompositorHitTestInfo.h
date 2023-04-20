@@ -43,7 +43,7 @@ eInactiveScrollframe
 eTouchActionPanXDisabled
 eTouchActionPanYDisabled
 eTouchActionPinchZoomDisabled
-eTouchActionDoubleTapZoomDisabled
+eTouchActionAnimatingZoomDisabled
 eScrollbar
 eScrollbarThumb
 eScrollbarVertical
@@ -82,7 +82,7 @@ eTouchActionPinchZoomDisabled
 CompositorHitTestFlags
 :
 :
-eTouchActionDoubleTapZoomDisabled
+eTouchActionAnimatingZoomDisabled
 )
 ;
 constexpr

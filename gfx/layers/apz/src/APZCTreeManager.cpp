@@ -8975,7 +8975,7 @@ PINCH_ZOOM
 AllowedTouchBehavior
 :
 :
-DOUBLE_TAP_ZOOM
+ANIMATING_ZOOM
 ;
 if
 (
@@ -9055,7 +9055,7 @@ contains
 CompositorHitTestFlags
 :
 :
-eTouchActionDoubleTapZoomDisabled
+eTouchActionAnimatingZoomDisabled
 )
 )
 {
@@ -9066,7 +9066,7 @@ result
 AllowedTouchBehavior
 :
 :
-DOUBLE_TAP_ZOOM
+ANIMATING_ZOOM
 ;
 }
 }

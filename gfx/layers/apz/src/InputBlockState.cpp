@@ -3375,7 +3375,7 @@ behavior
 AllowedTouchBehavior
 :
 :
-DOUBLE_TAP_ZOOM
+ANIMATING_ZOOM
 )
 )
 {

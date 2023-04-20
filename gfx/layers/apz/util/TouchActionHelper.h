@@ -72,6 +72,15 @@ WidgetTouchEvent
 aPoint
 )
 ;
+static
+TouchBehaviorFlags
+GetAllowedTouchBehaviorForFrame
+(
+nsIFrame
+*
+aFrame
+)
+;
 }
 ;
 }
