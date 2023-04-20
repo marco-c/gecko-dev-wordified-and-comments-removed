@@ -4451,6 +4451,14 @@ if
 (
 !
 aContextClosed
+|
+|
+handler
+-
+>
+IsPrivate
+(
+)
 )
 {
 handler
