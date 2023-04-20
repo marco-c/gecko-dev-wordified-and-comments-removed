@@ -8672,6 +8672,13 @@ UrlbarUtils
 .
 RESULT_GROUP
 .
+TAIL_SUGGESTION
+:
+case
+UrlbarUtils
+.
+RESULT_GROUP
+.
 REMOTE_SUGGESTION
 :
 {
@@ -8751,13 +8758,6 @@ UrlbarUtils
 RESULT_GROUP
 .
 GENERAL_PARENT
-:
-case
-UrlbarUtils
-.
-RESULT_GROUP
-.
-TAIL_SUGGESTION
 :
 {
 return
