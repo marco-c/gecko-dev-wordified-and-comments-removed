@@ -1644,6 +1644,13 @@ mRecvState
 =
 RECV_DONE
 ;
+mSession
+-
+>
+CloseWebTransportConn
+(
+)
+;
 }
 void
 Http3WebTransportSession
@@ -1699,6 +1706,13 @@ nullptr
 mRecvState
 =
 RECV_DONE
+;
+mSession
+-
+>
+CloseWebTransportConn
+(
+)
 ;
 }
 void
