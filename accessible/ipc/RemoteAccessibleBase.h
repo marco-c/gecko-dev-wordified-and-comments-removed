@@ -1748,7 +1748,11 @@ ApplyTransform
 (
 nsRect
 &
-aBounds
+aCumulativeBounds
+const
+nsRect
+&
+aParentRelativeBounds
 )
 const
 ;
