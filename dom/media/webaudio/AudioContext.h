@@ -1545,6 +1545,10 @@ uint32_t
 mNumberOfChannels
 ;
 const
+RTPCallerType
+mRTPCallerType
+;
+const
 bool
 mIsOffline
 ;
