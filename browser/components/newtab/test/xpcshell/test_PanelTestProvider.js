@@ -104,7 +104,7 @@ whatsnew_panel_message
 7
 spotlight
 :
-5
+2
 pb_newtab
 :
 2
