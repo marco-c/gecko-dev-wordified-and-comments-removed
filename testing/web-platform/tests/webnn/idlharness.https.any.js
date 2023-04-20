@@ -124,7 +124,7 @@ filter
 output
 '
 ]
-MLOperator
+MLActivation
 :
 [
 '
