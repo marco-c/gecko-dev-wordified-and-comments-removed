@@ -1100,6 +1100,9 @@ menuseparator
 meter
 "
 "
+meterbar
+"
+"
 meterchunk
 "
 "
@@ -1114,6 +1117,9 @@ input
 progress
 -
 bar
+"
+"
+progressbar
 "
 "
 progresschunk
@@ -1274,6 +1280,11 @@ textarea
 "
 "
 textfield
+"
+"
+textfield
+-
+multiline
 "
 "
 toolbar
@@ -6261,6 +6272,9 @@ menuseparator
 meter
 "
 "
+meterbar
+"
+"
 meterchunk
 "
 "
@@ -6275,6 +6289,9 @@ input
 progress
 -
 bar
+"
+"
+progressbar
 "
 "
 progresschunk
@@ -6435,6 +6452,11 @@ textarea
 "
 "
 textfield
+"
+"
+textfield
+-
+multiline
 "
 "
 toolbar
@@ -15253,6 +15275,9 @@ menuseparator
 meter
 "
 "
+meterbar
+"
+"
 meterchunk
 "
 "
@@ -15267,6 +15292,9 @@ input
 progress
 -
 bar
+"
+"
+progressbar
 "
 "
 progresschunk
@@ -15427,6 +15455,11 @@ textarea
 "
 "
 textfield
+"
+"
+textfield
+-
+multiline
 "
 "
 toolbar
