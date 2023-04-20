@@ -669,7 +669,13 @@ mFrames
 AppendFrames
 (
 this
+std
+:
+:
+move
+(
 aChildList
+)
 )
 ;
 }
@@ -889,7 +895,13 @@ mFrames
 AppendFrames
 (
 this
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 InsertColsReflow

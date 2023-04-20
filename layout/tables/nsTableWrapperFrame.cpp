@@ -608,7 +608,13 @@ mCaptionFrames
 AppendFrames
 (
 nullptr
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 PresShell
