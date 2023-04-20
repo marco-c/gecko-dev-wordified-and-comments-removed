@@ -5167,14 +5167,9 @@ for
 let
 tab
 of
-Array
-.
-from
-(
 gBrowser
 .
 _removingTabs
-)
 )
 {
 gBrowser
