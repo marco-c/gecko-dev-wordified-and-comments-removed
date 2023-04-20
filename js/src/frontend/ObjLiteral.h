@@ -1215,9 +1215,6 @@ Shape
 bool
 setPropName
 (
-JSContext
-*
-cx
 frontend
 :
 :

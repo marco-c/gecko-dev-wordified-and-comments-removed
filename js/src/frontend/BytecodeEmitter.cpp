@@ -12890,9 +12890,6 @@ BytecodeEmitter
 :
 createImmutableScriptData
 (
-JSContext
-*
-cx
 )
 {
 uint32_t
@@ -32758,7 +32755,6 @@ kind
 =
 ParserAtomToResumeKind
 (
-cx
 kindNode
 -
 >
@@ -42359,7 +42355,6 @@ writer
 .
 setPropName
 (
-cx
 parserAtoms
 (
 )
@@ -42728,7 +42723,6 @@ writer
 .
 setPropName
 (
-cx
 parserAtoms
 (
 )
@@ -48584,9 +48578,6 @@ ParseNode
 *
 FindConstructor
 (
-JSContext
-*
-cx
 ListNode
 *
 classMethods
@@ -49132,7 +49123,6 @@ constructor
 =
 FindConstructor
 (
-cx
 classMembers
 )
 ;
@@ -53763,7 +53753,6 @@ immutableScriptData
 =
 createImmutableScriptData
 (
-cx
 )
 ;
 if
@@ -53818,7 +53807,6 @@ compilationState
 .
 appendGCThings
 (
-cx
 ec
 scriptIndex
 things
