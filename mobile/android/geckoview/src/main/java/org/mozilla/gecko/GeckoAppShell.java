@@ -7779,6 +7779,8 @@ catch
 (
 final
 SecurityException
+|
+NullPointerException
 e
 )
 {
