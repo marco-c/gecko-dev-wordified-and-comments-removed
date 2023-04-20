@@ -178,8 +178,6 @@ MKFSHFS
 MOZ_FETCHES_DIR
 /
 hfsplus
--
-tools
 /
 newfs_hfs
 export
