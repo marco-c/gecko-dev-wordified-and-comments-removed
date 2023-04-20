@@ -659,6 +659,10 @@ aFormat
 KnowsCompositor
 *
 aKnowsCompositor
+bool
+aWillReadFrequently
+=
+false
 )
 ;
 bool
@@ -787,6 +791,13 @@ return
 false
 ;
 }
+bool
+IsAccelerated
+(
+)
+const
+override
+;
 protected
 :
 PersistentBufferProviderShared
@@ -810,6 +821,8 @@ TextureClient
 >
 &
 aTexture
+bool
+aWillReadFrequently
 )
 ;
 ~
@@ -906,6 +919,11 @@ Maybe
 uint32_t
 >
 mFront
+;
+bool
+mWillReadFrequently
+=
+false
 ;
 RefPtr
 <
