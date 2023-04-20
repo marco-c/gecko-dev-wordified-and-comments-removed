@@ -16873,6 +16873,10 @@ encoder_specific_settings
 =
 NULL
 ;
+UpdateSendState
+(
+)
+;
 if
 (
 source_
@@ -16890,10 +16894,6 @@ GetDegradationPreference
 )
 ;
 }
-UpdateSendState
-(
-)
-;
 }
 WebRtcVideoChannel
 :
