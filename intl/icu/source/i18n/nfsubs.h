@@ -384,8 +384,6 @@ NFSubstitution
 &
 other
 )
-=
-delete
 ;
 NFSubstitution
 &
@@ -397,8 +395,6 @@ NFSubstitution
 &
 other
 )
-=
-delete
 ;
 public
 :

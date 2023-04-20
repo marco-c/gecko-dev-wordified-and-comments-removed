@@ -481,10 +481,6 @@ MidLetter
 [
 \
 :
-\
-uFE55
-\
-uFF1A
 ]
 ]
 ;

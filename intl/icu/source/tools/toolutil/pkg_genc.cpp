@@ -1180,12 +1180,12 @@ idx
 hexType
 ;
 return
-true
+TRUE
 ;
 }
 }
 return
-false
+FALSE
 ;
 }
 U_CAPI
@@ -4089,7 +4089,7 @@ U_PLATFORM_HAS_WIN32_API
 *
 pIsBigEndian
 =
-false
+FALSE
 ;
 #
 if
@@ -4641,7 +4641,7 @@ IMAGE_FILE_MACHINE_I386
 *
 pIsBigEndian
 =
-false
+FALSE
 ;
 #
 else

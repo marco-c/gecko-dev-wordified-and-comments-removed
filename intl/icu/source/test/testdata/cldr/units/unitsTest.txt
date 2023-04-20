@@ -2176,7 +2176,9 @@ x
 7
 mass
 ;
-tonne
+metric
+-
+ton
 ;
 kilogram
 ;

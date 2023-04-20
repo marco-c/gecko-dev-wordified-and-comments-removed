@@ -422,7 +422,7 @@ status
 return
 UnicodeString
 (
-true
+TRUE
 r
 len
 )
@@ -720,7 +720,7 @@ status
 return
 UnicodeString
 (
-true
+TRUE
 r
 len
 )
@@ -765,7 +765,7 @@ status
 return
 UnicodeString
 (
-true
+TRUE
 r
 len
 )
@@ -868,7 +868,7 @@ status
 return
 UnicodeString
 (
-true
+TRUE
 r
 len
 )
@@ -1036,7 +1036,7 @@ status
 return
 UnicodeString
 (
-true
+TRUE
 r
 len
 )

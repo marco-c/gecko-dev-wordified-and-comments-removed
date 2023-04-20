@@ -574,8 +574,6 @@ AlphabeticIndex
 &
 other
 )
-=
-delete
 ;
 AlphabeticIndex
 &

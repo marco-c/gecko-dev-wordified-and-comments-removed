@@ -421,7 +421,7 @@ variableTopString
 )
 variableTopSet
 (
-false
+FALSE
 )
 {
 for
@@ -1429,7 +1429,7 @@ spec
 >
 variableTopSet
 =
-true
+TRUE
 ;
 }
 return
@@ -3267,7 +3267,7 @@ ucol_getContractionsAndExpansions
 coll
 contractions
 NULL
-false
+FALSE
 status
 )
 ;

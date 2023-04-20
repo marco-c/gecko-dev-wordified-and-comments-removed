@@ -336,8 +336,6 @@ IDNAInfo
 &
 other
 )
-=
-delete
 ;
 IDNAInfo
 &
@@ -349,8 +347,6 @@ IDNAInfo
 &
 other
 )
-=
-delete
 ;
 void
 reset

@@ -729,7 +729,7 @@ skipWhitespace
 (
 id
 pos
-true
+TRUE
 )
 ;
 if
@@ -760,7 +760,7 @@ pos
 start
 ;
 return
-false
+FALSE
 ;
 }
 +
@@ -768,7 +768,7 @@ false
 pos
 ;
 return
-true
+TRUE
 ;
 }
 int32_t
@@ -1618,7 +1618,7 @@ toPattern
 pat
 escapeUnprintable
 )
-true
+TRUE
 escapeUnprintable
 quoteBuf
 )

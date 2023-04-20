@@ -293,8 +293,6 @@ private
 IslamicCalendar
 (
 )
-=
-delete
 ;
 protected
 :

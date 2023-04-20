@@ -228,7 +228,6 @@ class
 DateIntervalFormat
 ;
 struct
-U_HIDDEN
 DateIntervalSink
 ;
 enum

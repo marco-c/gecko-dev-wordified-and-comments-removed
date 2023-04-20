@@ -66,8 +66,8 @@ icu
 :
 UInitOnce
 gDefaultPropertiesInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 void
 U_CALLCONV

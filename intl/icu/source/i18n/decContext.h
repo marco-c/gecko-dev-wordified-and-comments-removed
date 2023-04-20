@@ -885,6 +885,14 @@ decContext
 )
 ;
 U_CAPI
+int32_t
+U_EXPORT2
+uprv_decContextTestEndian
+(
+uint8_t
+)
+;
+U_CAPI
 uint32_t
 U_EXPORT2
 uprv_decContextTestSavedStatus

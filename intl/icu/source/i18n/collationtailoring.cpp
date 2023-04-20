@@ -348,7 +348,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -381,7 +381,7 @@ errorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 ownedData
@@ -406,7 +406,7 @@ errorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 }
@@ -415,7 +415,7 @@ data
 ownedData
 ;
 return
-true
+TRUE
 ;
 }
 void

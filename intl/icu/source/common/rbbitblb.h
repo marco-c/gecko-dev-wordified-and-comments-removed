@@ -506,8 +506,6 @@ RBBIStateDescriptor
 &
 other
 )
-=
-delete
 ;
 RBBIStateDescriptor
 &
@@ -519,8 +517,6 @@ RBBIStateDescriptor
 &
 other
 )
-=
-delete
 ;
 }
 ;

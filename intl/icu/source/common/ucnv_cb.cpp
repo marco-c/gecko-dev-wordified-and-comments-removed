@@ -166,7 +166,7 @@ targetLimit
 source
 sourceLimit
 NULL
-false
+FALSE
 err
 )
 ;
@@ -326,7 +326,7 @@ newTargetLimit
 source
 sourceLimit
 NULL
-false
+FALSE
 &
 err2
 )

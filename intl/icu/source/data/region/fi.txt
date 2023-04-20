@@ -2101,12 +2101,6 @@ Malvinassaaret
 )
 "
 }
-NZ
-{
-"
-Aotearoa
-"
-}
 SZ
 {
 "

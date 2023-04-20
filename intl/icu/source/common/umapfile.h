@@ -29,9 +29,8 @@ putilimp
 .
 h
 "
-U_CAPI
+U_CFUNC
 UBool
-U_EXPORT2
 uprv_mapFile
 (
 UDataMemory

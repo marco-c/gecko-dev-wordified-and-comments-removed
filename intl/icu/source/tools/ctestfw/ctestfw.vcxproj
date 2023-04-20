@@ -706,11 +706,7 @@ OutputFile
 IcuBinOutputDir
 )
 \
-icutest
-(
-IcuMajorVersion
-)
-d
+icutest71d
 .
 exe
 <
@@ -871,10 +867,7 @@ OutputFile
 IcuBinOutputDir
 )
 \
-icutest
-(
-IcuMajorVersion
-)
+icutest71
 .
 exe
 <

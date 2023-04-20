@@ -5478,7 +5478,9 @@ kilogram
 .
 1
 ;
-tonne
+metric
+-
+ton
 mass
 ;
 default
@@ -5499,7 +5501,9 @@ kilogram
 .
 0
 ;
-tonne
+metric
+-
+ton
 mass
 ;
 default

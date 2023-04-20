@@ -75,12 +75,6 @@ Sorting
 }
 Languages
 {
-bla
-{
-"
-Siksika
-"
-}
 mus
 {
 "
@@ -93,6 +87,12 @@ nds_NL
 West
 Low
 German
+"
+}
+sah
+{
+"
+Yakut
 "
 }
 }

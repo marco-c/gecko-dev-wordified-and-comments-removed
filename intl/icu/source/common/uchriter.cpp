@@ -685,9 +685,9 @@ pos
 <
 end
 ?
-true
+TRUE
 :
-false
+FALSE
 )
 ;
 }
@@ -739,9 +739,9 @@ pos
 >
 begin
 ?
-true
+TRUE
 :
-false
+FALSE
 )
 ;
 }

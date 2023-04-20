@@ -2013,17 +2013,6 @@ dnam
 "
 }
 }
-quarter
-{
-other
-{
-"
-{
-0
-}
-"
-}
-}
 second
 {
 other

@@ -324,7 +324,7 @@ textLimit
 )
 {
 return
-false
+FALSE
 ;
 }
 while
@@ -450,7 +450,7 @@ limit
 ;
 }
 return
-true
+TRUE
 ;
 }
 void
@@ -1253,7 +1253,7 @@ U_ZERO_ERROR
 Hashtable
 seen
 (
-true
+TRUE
 ec
 )
 ;
@@ -1447,7 +1447,7 @@ STVtoID
 (
 UnicodeString
 (
-true
+TRUE
 ANY
 3
 )
@@ -1504,11 +1504,11 @@ _registerSpecialInverse
 target
 UnicodeString
 (
-true
+TRUE
 NULL_ID
 4
 )
-false
+FALSE
 )
 ;
 }

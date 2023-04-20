@@ -165,8 +165,7 @@ Amer
 ka
 nor
 an
-Mex
-k
+Mexik
 "
 }
 029
@@ -2349,17 +2348,6 @@ Falklandseyjar
 (
 Malvinas
 )
-"
-}
-NZ
-{
-"
-Aotearoa
-N
-ja
--
-Sj
-land
 "
 }
 TL

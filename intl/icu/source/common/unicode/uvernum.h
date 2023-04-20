@@ -46,7 +46,7 @@ html
 #
 define
 U_ICU_VERSION_MAJOR_NUM
-72
+71
 #
 define
 U_ICU_VERSION_MINOR_NUM
@@ -67,7 +67,7 @@ endif
 #
 define
 U_ICU_VERSION_SUFFIX
-_72
+_71
 #
 ifndef
 U_DISABLE_VERSION_SUFFIX
@@ -225,7 +225,7 @@ endif
 define
 U_ICU_VERSION
 "
-72
+71
 .
 1
 "
@@ -233,7 +233,7 @@ U_ICU_VERSION
 define
 U_ICU_VERSION_SHORT
 "
-72
+71
 "
 #
 ifndef
@@ -242,7 +242,7 @@ U_HIDE_INTERNAL_API
 define
 U_ICU_DATA_VERSION
 "
-72
+71
 .
 1
 "

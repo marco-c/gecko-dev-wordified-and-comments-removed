@@ -1181,7 +1181,7 @@ NULL
 ;
 }
 return
-true
+TRUE
 ;
 }
 UBool
@@ -1257,7 +1257,7 @@ NULL
 ;
 }
 return
-true
+TRUE
 ;
 }
 class
@@ -1464,7 +1464,7 @@ anchorStart
 =
 anchorEnd
 =
-false
+FALSE
 ;
 nextSegmentNumber
 =
@@ -1521,12 +1521,12 @@ limit
 text
 UnicodeString
 (
-true
+TRUE
 ILLEGAL_TOP
 -
 1
 )
-false
+FALSE
 status
 )
 ;
@@ -1599,7 +1599,7 @@ scratch
 UBool
 done
 =
-false
+FALSE
 ;
 int32_t
 quoteStart
@@ -2132,7 +2132,7 @@ anchorStart
 {
 anchorStart
 =
-true
+TRUE
 ;
 }
 else
@@ -2179,12 +2179,12 @@ limit
 buf
 UnicodeString
 (
-true
+TRUE
 ILLEGAL_SEG
 -
 1
 )
-true
+TRUE
 status
 )
 ;
@@ -2368,12 +2368,12 @@ limit
 buf
 UnicodeString
 (
-true
+TRUE
 ILLEGAL_FUNC
 -
 1
 )
-true
+TRUE
 status
 )
 ;
@@ -2469,7 +2469,7 @@ limit
 {
 anchorEnd
 =
-true
+TRUE
 ;
 break
 ;
@@ -2587,7 +2587,7 @@ length
 {
 anchorEnd
 =
-true
+TRUE
 ;
 break
 ;
@@ -2879,7 +2879,7 @@ SEGMENT_CLOSE
 :
 done
 =
-true
+TRUE
 ;
 break
 ;
@@ -3253,7 +3253,7 @@ anchorStart
 =
 anchorEnd
 =
-false
+FALSE
 ;
 }
 UBool
@@ -3317,12 +3317,12 @@ c
 )
 {
 return
-false
+FALSE
 ;
 }
 }
 return
-true
+TRUE
 ;
 }
 UBool
@@ -3386,12 +3386,12 @@ c
 )
 {
 return
-false
+FALSE
 ;
 }
 }
 return
-true
+TRUE
 ;
 }
 TransliteratorParser
@@ -3613,7 +3613,7 @@ offset
 UBool
 parsingIDs
 =
-true
+TRUE
 ;
 int32_t
 ruleCount
@@ -4018,7 +4018,7 @@ NULL
 }
 parsingIDs
 =
-true
+TRUE
 ;
 }
 TransliteratorIDParser
@@ -4308,7 +4308,7 @@ remove
 ;
 parsingIDs
 =
-false
+FALSE
 ;
 curData
 =
@@ -5238,7 +5238,7 @@ pos
 limit
 UnicodeString
 (
-true
+TRUE
 PRAGMA_USE
 4
 )
@@ -5292,7 +5292,7 @@ pos
 limit
 UnicodeString
 (
-true
+TRUE
 PRAGMA_VARIABLE_RANGE
 -
 1
@@ -5337,7 +5337,7 @@ pos
 limit
 UnicodeString
 (
-true
+TRUE
 PRAGMA_MAXIMUM_BACKUP
 -
 1
@@ -5377,7 +5377,7 @@ pos
 limit
 UnicodeString
 (
-true
+TRUE
 PRAGMA_NFD_RULES
 -
 1
@@ -5414,7 +5414,7 @@ pos
 limit
 UnicodeString
 (
-true
+TRUE
 PRAGMA_NFC_RULES
 -
 1
@@ -6962,7 +6962,7 @@ UnicodeSet
 (
 UnicodeString
 (
-true
+TRUE
 DOT_SET
 -
 1
@@ -7163,7 +7163,7 @@ c
 UBool
 quoted
 =
-false
+FALSE
 ;
 int32_t
 index
@@ -7483,7 +7483,7 @@ LF
 {
 quoted
 =
-false
+FALSE
 ;
 while
 (

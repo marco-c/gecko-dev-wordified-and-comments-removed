@@ -2094,14 +2094,6 @@ Malvinska
 ostrva
 "
 }
-NZ
-{
-"
-Novi
-Zeland
-Aotearoa
-"
-}
 SZ
 {
 "

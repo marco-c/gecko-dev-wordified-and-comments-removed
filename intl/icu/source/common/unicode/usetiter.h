@@ -116,6 +116,9 @@ getString
 (
 )
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 inline
 UnicodeSetIterator
 &
@@ -141,6 +144,8 @@ return
 this
 ;
 }
+#
+endif
 UBool
 next
 (

@@ -110,8 +110,6 @@ private
 CollationDataReader
 (
 )
-=
-delete
 ;
 }
 ;

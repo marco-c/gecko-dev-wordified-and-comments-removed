@@ -1,7 +1,7 @@
 #
 NormalizationCorrections
 -
-15
+14
 .
 0
 .
@@ -11,14 +11,14 @@ txt
 #
 Date
 :
-2022
--
-05
+2021
 -
 03
-18
+-
+16
+22
 :
-53
+07
 :
 00
 GMT
@@ -27,7 +27,7 @@ KW
 LI
 ]
 #
-2022
+2021
 Unicode
 Inc
 .
@@ -37,7 +37,7 @@ terms
 of
 use
 see
-https
+http
 :
 /
 /
@@ -59,7 +59,7 @@ Database
 For
 documentation
 see
-https
+http
 :
 /
 /

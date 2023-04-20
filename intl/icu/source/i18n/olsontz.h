@@ -560,8 +560,8 @@ finalZoneWithStartYear
 ;
 UInitOnce
 transitionRulesInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 }
 ;

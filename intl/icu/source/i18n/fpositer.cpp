@@ -417,7 +417,7 @@ pos
 )
 {
 return
-false
+FALSE
 ;
 }
 pos
@@ -489,7 +489,7 @@ pos
 ;
 }
 return
-true
+TRUE
 ;
 }
 U_NAMESPACE_END

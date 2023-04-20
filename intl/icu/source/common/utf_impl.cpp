@@ -40,7 +40,11 @@ uassert
 .
 h
 "
-U_CAPI
+extern
+"
+C
+"
+U_EXPORT
 const
 uint8_t
 utf8_countTrailBytes
@@ -1200,7 +1204,7 @@ NULL
 *
 pIsError
 =
-true
+TRUE
 ;
 }
 else

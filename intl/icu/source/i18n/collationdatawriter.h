@@ -96,8 +96,6 @@ private
 CollationDataWriter
 (
 )
-=
-delete
 ;
 static
 int32_t

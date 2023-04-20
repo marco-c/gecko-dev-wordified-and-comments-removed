@@ -421,7 +421,7 @@ int32_t
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -572,7 +572,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 int32_t
@@ -640,7 +640,7 @@ SetNotOk
 )
 ;
 return
-false
+FALSE
 ;
 }
 buffer_
@@ -659,7 +659,7 @@ capacity_
 newCapacity
 ;
 return
-true
+TRUE
 ;
 }
 RuleBasedCollator
@@ -782,7 +782,7 @@ explicitlySetAttributes
 )
 actualLocaleIsSameAsValid
 (
-false
+FALSE
 )
 {
 if
@@ -1010,7 +1010,7 @@ explicitlySetAttributes
 )
 actualLocaleIsSameAsValid
 (
-false
+FALSE
 )
 {
 settings
@@ -1186,7 +1186,7 @@ actualLocale
 ;
 actualLocaleIsSameAsValid
 =
-false
+FALSE
 ;
 }
 RuleBasedCollator
@@ -1693,7 +1693,7 @@ actualLocale
 {
 actualLocaleIsSameAsValid
 =
-false
+FALSE
 ;
 }
 else
@@ -1708,7 +1708,7 @@ valid
 ;
 actualLocaleIsSameAsValid
 =
-true
+TRUE
 ;
 }
 validLocale
@@ -2241,7 +2241,7 @@ ContractionsAndExpansions
 set
 NULL
 NULL
-false
+FALSE
 )
 .
 forCodePoint
@@ -2946,14 +2946,11 @@ UColReorderCode
 (
 UCOL_REORDER_CODE_FIRST
 +
-int32_t
-{
 defaultSettings
 .
 getMaxVariable
 (
 )
-}
 )
 ;
 }
@@ -3057,15 +3054,12 @@ UColReorderCode
 (
 UCOL_REORDER_CODE_FIRST
 +
-int32_t
-{
 settings
 -
 >
 getMaxVariable
 (
 )
-}
 )
 ;
 }
@@ -5120,7 +5114,7 @@ textLength
 u8ci
 (
 data
-false
+FALSE
 text
 0
 textLength
@@ -5227,7 +5221,7 @@ startIndex
 uici
 (
 data
-false
+FALSE
 it
 startIndex
 )
@@ -6294,7 +6288,7 @@ equalPrefixLength
 UBool
 unsafe
 =
-false
+FALSE
 ;
 if
 (
@@ -7635,7 +7629,7 @@ Collation
 :
 PRIMARY_LEVEL
 callback
-true
+TRUE
 errorCode
 )
 ;
@@ -7670,7 +7664,7 @@ Collation
 :
 PRIMARY_LEVEL
 callback
-true
+TRUE
 errorCode
 )
 ;
@@ -7979,13 +7973,13 @@ GetRemainingCapacity
 )
 ;
 return
-true
+TRUE
 ;
 }
 else
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -8235,7 +8229,7 @@ settings
 sink
 level
 callback
-false
+FALSE
 errorCode
 )
 ;
@@ -8267,7 +8261,7 @@ settings
 sink
 level
 callback
-false
+FALSE
 errorCode
 )
 ;

@@ -234,8 +234,6 @@ MessageFormat
 SelectFormat
 (
 )
-=
-delete
 ;
 static
 int32_t

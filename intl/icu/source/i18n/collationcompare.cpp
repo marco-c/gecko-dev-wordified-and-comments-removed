@@ -140,7 +140,7 @@ variableTop
 UBool
 anyVariable
 =
-false
+FALSE
 ;
 for
 (
@@ -192,7 +192,7 @@ MERGE_SEPARATOR_PRIMARY
 {
 anyVariable
 =
-true
+TRUE
 ;
 do
 {
@@ -327,7 +327,7 @@ MERGE_SEPARATOR_PRIMARY
 {
 anyVariable
 =
-true
+TRUE
 ;
 do
 {

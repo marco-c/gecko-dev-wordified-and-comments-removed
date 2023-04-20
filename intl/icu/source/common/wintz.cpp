@@ -898,7 +898,7 @@ appendInvariantChars
 (
 UnicodeString
 (
-true
+TRUE
 windowsTimeZoneName
 -
 1

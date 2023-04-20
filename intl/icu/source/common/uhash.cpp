@@ -891,7 +891,7 @@ result
 >
 allocated
 =
-false
+FALSE
 ;
 _uhash_internalSetResizePolicy
 (
@@ -1005,7 +1005,7 @@ result
 >
 allocated
 =
-true
+TRUE
 ;
 if
 (
@@ -3767,7 +3767,7 @@ hash2
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -3818,7 +3818,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 count1
@@ -3844,7 +3844,7 @@ count2
 )
 {
 return
-false
+FALSE
 ;
 }
 pos
@@ -3935,16 +3935,16 @@ val2
 )
 =
 =
-false
+FALSE
 )
 {
 return
-false
+FALSE
 ;
 }
 }
 return
-true
+TRUE
 ;
 }
 U_CAPI
@@ -3997,7 +3997,7 @@ p2
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -4015,7 +4015,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 while
@@ -4108,7 +4108,7 @@ p2
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -4126,7 +4126,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 while
@@ -4219,7 +4219,7 @@ p2
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -4237,7 +4237,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 while

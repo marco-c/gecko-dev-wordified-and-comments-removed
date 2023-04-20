@@ -592,7 +592,7 @@ result
 >
 ownPv
 =
-true
+TRUE
 ;
 }
 U_CAPI
@@ -981,7 +981,7 @@ newSelector
 >
 ownEncodingStrings
 =
-true
+TRUE
 ;
 newSelector
 -

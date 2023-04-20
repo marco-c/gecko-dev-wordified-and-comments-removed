@@ -94,13 +94,6 @@ endif
 #
 include
 <
-stdbool
-.
-h
->
-#
-include
-<
 stdio
 .
 h
@@ -323,7 +316,7 @@ argv
 UBool
 verbose
 =
-true
+TRUE
 ;
 char
 writeCode
@@ -903,7 +896,7 @@ doesOccur
 {
 verbose
 =
-false
+FALSE
 ;
 }
 while

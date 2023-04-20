@@ -3028,7 +3028,7 @@ ld
 {
 "
 Srjej
-noeuropejski
+oeuropski
 l
 ojski
 cas
@@ -3038,7 +3038,7 @@ lg
 {
 "
 Srjej
-noeuropejski
+oeuropski
 cas
 "
 }
@@ -3046,7 +3046,7 @@ ls
 {
 "
 Srjej
-noeuropejski
+oeuropski
 standardny
 cas
 "
@@ -3081,7 +3081,7 @@ ld
 "
 P
 dzajt
-noeuropejski
+noeuropski
 l
 ojski
 cas
@@ -3092,7 +3092,7 @@ lg
 "
 P
 dzajt
-noeuropejski
+noeuropski
 cas
 "
 }
@@ -3101,7 +3101,7 @@ ls
 "
 P
 dzajt
-noeuropejski
+noeuropski
 standardny
 cas
 "
@@ -3149,7 +3149,7 @@ ld
 {
 "
 P
-dwjacornoeuropejski
+dwjacornoeuropski
 l
 ojski
 cas
@@ -3159,7 +3159,7 @@ lg
 {
 "
 P
-dwjacornoeuropejski
+dwjacornoeuropski
 cas
 "
 }
@@ -3167,7 +3167,7 @@ ls
 {
 "
 P
-dwjacornoeuropejski
+dwjacornoeuropski
 standardny
 cas
 "

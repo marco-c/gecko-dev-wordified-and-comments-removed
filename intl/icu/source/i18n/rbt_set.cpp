@@ -568,7 +568,7 @@ rule
 toRule
 (
 r
-true
+TRUE
 )
 ;
 buf
@@ -714,7 +714,7 @@ rule1
 toRule
 (
 r
-false
+FALSE
 )
 ;
 len
@@ -763,7 +763,7 @@ rule2
 toRule
 (
 r
-false
+FALSE
 )
 ;
 len
@@ -1823,7 +1823,7 @@ pos
 )
 ;
 return
-true
+TRUE
 ;
 case
 U_PARTIAL_MATCH
@@ -1843,7 +1843,7 @@ pos
 )
 ;
 return
-false
+FALSE
 ;
 default
 :
@@ -1880,7 +1880,7 @@ pos
 )
 ;
 return
-true
+TRUE
 ;
 }
 UnicodeString

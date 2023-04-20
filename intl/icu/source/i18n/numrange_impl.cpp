@@ -574,10 +574,6 @@ nsName
 ;
 if
 (
-!
-fSameFormatters
-&
-&
 uprv_strcmp
 (
 nsName

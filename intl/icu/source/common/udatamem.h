@@ -54,10 +54,9 @@ length
 ;
 }
 ;
-U_CAPI
+U_CFUNC
 UDataMemory
 *
-U_EXPORT2
 UDataMemory_createNewInstance
 (
 UErrorCode

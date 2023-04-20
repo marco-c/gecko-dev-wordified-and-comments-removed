@@ -5338,8 +5338,8 @@ UCNV_BOCU1
 0
 }
 1
-false
-false
+FALSE
+FALSE
 0
 0
 {

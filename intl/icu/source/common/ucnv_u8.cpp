@@ -152,7 +152,7 @@ cnv
 if
 UCONFIG_ONLY_HTML_CONVERSION
 return
-false
+FALSE
 ;
 #
 else
@@ -4279,8 +4279,8 @@ UCNV_UTF8
 0
 }
 3
-false
-false
+FALSE
+FALSE
 0
 0
 {
@@ -4371,8 +4371,8 @@ UCNV_CESU8
 0
 }
 3
-false
-false
+FALSE
+FALSE
 0
 0
 {

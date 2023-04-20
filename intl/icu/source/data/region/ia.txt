@@ -2102,15 +2102,6 @@ Malvinas
 )
 "
 }
-NZ
-{
-"
-Aotearoa
-/
-Nove
-Zelanda
-"
-}
 SZ
 {
 "

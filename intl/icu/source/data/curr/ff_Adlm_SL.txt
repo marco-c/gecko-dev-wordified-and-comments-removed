@@ -64,13 +64,12 @@ GNF
 "
 "
 }
-SLE
+SLL
 {
 "
 Le
 "
 "
-SLE
 "
 }
 }

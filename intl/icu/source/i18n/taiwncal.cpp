@@ -536,8 +536,8 @@ icu
 :
 UInitOnce
 gSystemDefaultCenturyInit
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 UBool
 TaiwanCalendar
@@ -549,7 +549,7 @@ haveDefaultCentury
 const
 {
 return
-true
+TRUE
 ;
 }
 static

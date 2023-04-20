@@ -414,8 +414,8 @@ UConverterSharedData
 1
 NULL
 NULL
-false
-true
+FALSE
+TRUE
 &
 _MBCSImpl
 0
@@ -1206,7 +1206,7 @@ pErrorCode
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -1482,7 +1482,7 @@ codePoints
 )
 {
 return
-false
+FALSE
 ;
 }
 anyCodePoints
@@ -1494,7 +1494,7 @@ anyCodePoints
 }
 }
 return
-true
+TRUE
 ;
 }
 static
@@ -3227,7 +3227,7 @@ cnv
 >
 useSubChar1
 =
-false
+FALSE
 ;
 if
 (
@@ -3934,7 +3934,7 @@ U_NL
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -3976,7 +3976,7 @@ U_NL
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -4017,7 +4017,7 @@ U_LF
 )
 {
 return
-false
+FALSE
 ;
 }
 stage2Entry
@@ -4055,7 +4055,7 @@ U_NL
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -4085,7 +4085,7 @@ pErrorCode
 U_INVALID_FORMAT_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 size
@@ -4128,7 +4128,7 @@ pErrorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 newStateTable
@@ -4377,7 +4377,7 @@ newStateTable
 ;
 }
 return
-true
+TRUE
 ;
 }
 static
@@ -4746,7 +4746,7 @@ c
 ;
 }
 return
-true
+TRUE
 ;
 }
 static
@@ -5149,7 +5149,7 @@ headerLength
 UBool
 noFromU
 =
-false
+FALSE
 ;
 if
 (
@@ -5979,7 +5979,7 @@ mbcsTable
 >
 stateTableOwned
 =
-true
+TRUE
 ;
 mbcsTable
 -
@@ -6351,7 +6351,7 @@ mbcsTable
 >
 utf8Friendly
 =
-true
+TRUE
 ;
 if
 (
@@ -9481,7 +9481,7 @@ MBCS_STATE_ILLEGAL
 )
 {
 return
-true
+TRUE
 ;
 }
 entry
@@ -9510,7 +9510,7 @@ MBCS_STATE_ILLEGAL
 )
 {
 return
-true
+TRUE
 ;
 }
 for
@@ -9555,7 +9555,7 @@ MBCS_STATE_ILLEGAL
 )
 {
 return
-true
+TRUE
 ;
 }
 }
@@ -9604,12 +9604,12 @@ entry
 )
 {
 return
-true
+TRUE
 ;
 }
 }
 return
-false
+FALSE
 ;
 }
 static
@@ -9700,7 +9700,7 @@ isDBCSOnly
 )
 {
 return
-false
+FALSE
 ;
 }
 else
@@ -23289,7 +23289,7 @@ cnv
 >
 useSubChar1
 =
-false
+FALSE
 ;
 if
 (

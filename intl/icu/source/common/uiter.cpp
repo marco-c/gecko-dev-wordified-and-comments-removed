@@ -149,7 +149,7 @@ UCharIterator
 )
 {
 return
-false
+FALSE
 ;
 }
 static
@@ -2778,7 +2778,7 @@ delta
 ;
 havePos
 =
-true
+TRUE
 ;
 break
 ;
@@ -2807,7 +2807,7 @@ delta
 ;
 havePos
 =
-true
+TRUE
 ;
 }
 else
@@ -2818,7 +2818,7 @@ pos
 ;
 havePos
 =
-false
+FALSE
 ;
 }
 break
@@ -2851,7 +2851,7 @@ delta
 ;
 havePos
 =
-true
+TRUE
 ;
 }
 else
@@ -2901,7 +2901,7 @@ pos
 ;
 havePos
 =
-false
+FALSE
 ;
 }
 }

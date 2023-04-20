@@ -5487,8 +5487,7 @@ Fiji
 ec
 {
 "
-F
-dj
+Fidj
 "
 }
 }
@@ -7185,7 +7184,7 @@ ls
 {
 "
 T
-mi
+minn
 T
 mor
 -
@@ -8892,7 +8891,7 @@ lg
 {
 "
 T
-mi
+minn
 Omsk
 "
 }
@@ -9836,7 +9835,7 @@ lg
 {
 "
 T
-mi
+minn
 Yakutsk
 "
 }

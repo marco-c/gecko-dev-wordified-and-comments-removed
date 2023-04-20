@@ -132,7 +132,7 @@ U_ZERO_ERROR
 UBool
 result
 =
-true
+TRUE
 ;
 BasicTimeZone
 *
@@ -755,7 +755,7 @@ else
 {
 result
 =
-false
+FALSE
 ;
 }
 delete
@@ -789,7 +789,7 @@ length
 UBool
 result
 =
-false
+FALSE
 ;
 UnicodeString
 id
@@ -895,7 +895,7 @@ standardDate
 ;
 result
 =
-true
+TRUE
 ;
 }
 }
@@ -930,13 +930,13 @@ length
 )
 {
 return
-true
+TRUE
 ;
 }
 else
 {
 return
-false
+FALSE
 ;
 }
 }

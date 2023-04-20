@@ -174,7 +174,7 @@ start
 )
 ;
 return
-true
+TRUE
 ;
 }
 U_CFUNC

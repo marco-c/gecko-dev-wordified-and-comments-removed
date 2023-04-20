@@ -2032,7 +2032,7 @@ runCount
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -2211,7 +2211,7 @@ runsMemory
 else
 {
 return
-false
+FALSE
 ;
 }
 runIndex
@@ -2661,7 +2661,7 @@ insertRemove
 }
 }
 return
-true
+TRUE
 ;
 }
 static
@@ -2708,7 +2708,7 @@ length
 )
 {
 return
-false
+FALSE
 ;
 }
 minLevel
@@ -2752,7 +2752,7 @@ UBIDI_MAX_EXPLICIT_LEVEL
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -2815,7 +2815,7 @@ start
 ;
 }
 return
-true
+TRUE
 ;
 }
 U_CAPI

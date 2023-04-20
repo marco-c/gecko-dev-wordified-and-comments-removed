@@ -230,7 +230,7 @@ NULL
 ;
 }
 return
-true
+TRUE
 ;
 }
 U_CDECL_END
@@ -3093,7 +3093,7 @@ useDaylightTime
 )
 )
 return
-false
+FALSE
 ;
 (
 (
@@ -3129,7 +3129,7 @@ UCAL_DST_OFFSET
 0
 )
 :
-false
+FALSE
 )
 ;
 }
@@ -3152,8 +3152,8 @@ icu
 :
 UInitOnce
 gSystemDefaultCenturyInit
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 UBool
 IslamicCalendar
@@ -3165,7 +3165,7 @@ haveDefaultCentury
 const
 {
 return
-true
+TRUE
 ;
 }
 UDate

@@ -160,8 +160,8 @@ icu
 :
 UInitOnce
 gCanonicalIDCacheInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 static
 UHashtable
@@ -176,8 +176,8 @@ icu
 :
 UInitOnce
 gOlsonToMetaInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 static
 icu
@@ -202,8 +202,8 @@ icu
 :
 UInitOnce
 gMetaZoneIDsInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 static
 icu
@@ -231,8 +231,8 @@ icu
 :
 UInitOnce
 gCountryInfoVectorsInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 U_CDECL_BEGIN
 static
@@ -343,7 +343,7 @@ reset
 )
 ;
 return
-true
+TRUE
 ;
 }
 static
@@ -1278,7 +1278,7 @@ canonicalID
 UBool
 isInputCanonical
 =
-false
+FALSE
 ;
 char
 id
@@ -1399,7 +1399,7 @@ tzid
 ;
 isInputCanonical
 =
-true
+TRUE
 ;
 }
 if
@@ -1590,7 +1590,7 @@ derefer
 ;
 isInputCanonical
 =
-true
+TRUE
 ;
 }
 }
@@ -1856,7 +1856,7 @@ systemID
 .
 setTo
 (
-true
+TRUE
 canonicalID
 -
 1
@@ -2058,7 +2058,7 @@ NULL
 *
 isPrimary
 =
-false
+FALSE
 ;
 }
 const
@@ -2161,12 +2161,12 @@ country
 UBool
 cached
 =
-false
+FALSE
 ;
 UBool
 singleZone
 =
-false
+FALSE
 ;
 umtx_lock
 (
@@ -2285,7 +2285,7 @@ idsLen
 {
 singleZone
 =
-true
+TRUE
 ;
 }
 delete
@@ -2388,7 +2388,7 @@ singleZone
 *
 isPrimary
 =
-true
+TRUE
 ;
 }
 else
@@ -2478,7 +2478,7 @@ idLen
 *
 isPrimary
 =
-true
+TRUE
 ;
 }
 else
@@ -2519,7 +2519,7 @@ idLen
 *
 isPrimary
 =
-true
+TRUE
 ;
 }
 }
@@ -2557,7 +2557,7 @@ result
 UBool
 isSet
 =
-false
+FALSE
 ;
 const
 UVector
@@ -2647,7 +2647,7 @@ mzid
 ;
 isSet
 =
-true
+TRUE
 ;
 break
 ;
@@ -4202,7 +4202,7 @@ offset
 UBool
 negative
 =
-false
+FALSE
 ;
 int32_t
 tmp
@@ -4218,7 +4218,7 @@ offset
 {
 negative
 =
-true
+TRUE
 ;
 tmp
 =

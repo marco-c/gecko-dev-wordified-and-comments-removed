@@ -414,6 +414,6 @@ ucln_unRegisterAutomaticCleanup
 #
 endif
 return
-true
+TRUE
 ;
 }

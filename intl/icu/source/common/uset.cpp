@@ -2125,7 +2125,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -2155,7 +2155,7 @@ bmpLength
 0
 ;
 return
-false
+FALSE
 ;
 }
 length
@@ -2201,7 +2201,7 @@ bmpLength
 0
 ;
 return
-false
+FALSE
 ;
 }
 fillSet
@@ -2241,7 +2241,7 @@ bmpLength
 0
 ;
 return
-false
+FALSE
 ;
 }
 fillSet
@@ -2267,7 +2267,7 @@ length
 length
 ;
 return
-true
+TRUE
 ;
 }
 U_CAPI
@@ -2575,7 +2575,7 @@ c
 )
 {
 return
-false
+FALSE
 ;
 }
 array
@@ -3052,7 +3052,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 array
@@ -3163,7 +3163,7 @@ pEnd
 ;
 }
 return
-true
+TRUE
 ;
 }
 else
@@ -3271,13 +3271,13 @@ pEnd
 ;
 }
 return
-true
+TRUE
 ;
 }
 else
 {
 return
-false
+FALSE
 ;
 }
 }

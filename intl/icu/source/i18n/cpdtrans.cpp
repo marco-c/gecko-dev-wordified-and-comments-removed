@@ -193,7 +193,7 @@ init
 (
 id
 direction
-true
+TRUE
 status
 )
 ;
@@ -232,7 +232,7 @@ init
 (
 id
 UTRANS_FORWARD
-true
+TRUE
 status
 )
 ;
@@ -279,7 +279,7 @@ init
 (
 list
 UTRANS_FORWARD
-false
+FALSE
 status
 )
 ;
@@ -319,7 +319,7 @@ init
 (
 list
 UTRANS_FORWARD
-false
+FALSE
 status
 )
 ;
@@ -361,7 +361,7 @@ init
 (
 list
 UTRANS_FORWARD
-false
+FALSE
 status
 )
 ;
@@ -896,7 +896,7 @@ i
 UBool
 failed
 =
-false
+FALSE
 ;
 if
 (
@@ -1039,7 +1039,7 @@ NULL
 {
 failed
 =
-true
+TRUE
 ;
 break
 ;
@@ -1215,7 +1215,7 @@ i
 UBool
 failed
 =
-false
+FALSE
 ;
 for
 (
@@ -1260,7 +1260,7 @@ NULL
 {
 failed
 =
-true
+TRUE
 ;
 break
 ;

@@ -652,8 +652,6 @@ formatAliasesCapacity
 MessageFormat
 (
 )
-=
-delete
 ;
 class
 U_I18N_API
@@ -921,6 +919,14 @@ cacheExplicitFormats
 UErrorCode
 &
 status
+)
+;
+int32_t
+skipLeadingSpaces
+(
+UnicodeString
+&
+style
 )
 ;
 Format

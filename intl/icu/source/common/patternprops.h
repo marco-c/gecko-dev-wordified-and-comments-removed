@@ -125,8 +125,6 @@ private
 PatternProps
 (
 )
-=
-delete
 ;
 }
 ;

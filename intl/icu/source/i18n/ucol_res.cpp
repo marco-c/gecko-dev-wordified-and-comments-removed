@@ -236,8 +236,8 @@ NULL
 static
 UInitOnce
 gInitOnceUcolRes
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 }
 U_CDECL_BEGIN
@@ -272,7 +272,7 @@ reset
 )
 ;
 return
-true
+TRUE
 ;
 }
 void
@@ -821,7 +821,7 @@ typesTried
 )
 typeFallback
 (
-false
+FALSE
 )
 bundle
 (
@@ -1627,7 +1627,7 @@ U_USING_DEFAULT_WARNING
 ;
 typeFallback
 =
-true
+TRUE
 ;
 if
 (
@@ -2139,7 +2139,7 @@ rules
 .
 setTo
 (
-true
+TRUE
 s
 len
 )
@@ -3148,7 +3148,7 @@ errorCode
 )
 hasDefault
 (
-false
+FALSE
 )
 {
 }
@@ -3327,14 +3327,14 @@ ulist_addItemBeginList
 (
 values
 ownedDefault
-true
+TRUE
 &
 errorCode
 )
 ;
 hasDefault
 =
-true
+TRUE
 ;
 }
 }
@@ -3383,7 +3383,7 @@ ulist_addItemEndList
 (
 values
 key
-false
+FALSE
 &
 errorCode
 )
@@ -3598,7 +3598,7 @@ collations
 keyword
 locale
 isAvailable
-true
+TRUE
 status
 )
 ;

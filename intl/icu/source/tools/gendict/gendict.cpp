@@ -1274,7 +1274,7 @@ isFailure
 )
 {
 return
-false
+FALSE
 ;
 }
 const
@@ -1375,13 +1375,13 @@ fileLine
 .
 setTo
 (
-false
+FALSE
 line
 lineLength
 )
 ;
 return
-true
+TRUE
 ;
 }
 int
@@ -1860,8 +1860,8 @@ ucbuf_open
 wordFileName
 &
 codepage
-true
-false
+TRUE
+FALSE
 status
 )
 )
@@ -2046,12 +2046,12 @@ dictionary
 UBool
 hasValues
 =
-false
+FALSE
 ;
 UBool
 hasValuelessContents
 =
-false
+FALSE
 ;
 int
 lineCount
@@ -2076,7 +2076,7 @@ maxlen
 UBool
 isOk
 =
-true
+TRUE
 ;
 while
 (
@@ -2168,7 +2168,7 @@ lineCount
 ;
 isOk
 =
-false
+FALSE
 ;
 continue
 ;
@@ -2252,7 +2252,7 @@ lineCount
 ;
 isOk
 =
-false
+FALSE
 ;
 continue
 ;
@@ -2348,7 +2348,7 @@ lineCount
 ;
 isOk
 =
-false
+FALSE
 ;
 continue
 ;
@@ -2373,7 +2373,7 @@ status
 ;
 hasValues
 =
-true
+TRUE
 ;
 wordCount
 +
@@ -2419,7 +2419,7 @@ status
 ;
 hasValuelessContents
 =
-true
+TRUE
 ;
 wordCount
 +

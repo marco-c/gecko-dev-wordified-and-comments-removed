@@ -154,8 +154,8 @@ icu
 :
 UInitOnce
 gServiceInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 #
 endif
@@ -165,8 +165,8 @@ icu
 :
 UInitOnce
 gAvailableLocaleListInitOnce
-{
-}
+=
+U_INITONCE_INITIALIZER
 ;
 U_CDECL_BEGIN
 static
@@ -228,7 +228,7 @@ reset
 )
 ;
 return
-true
+TRUE
 ;
 }
 U_CDECL_END
@@ -257,7 +257,7 @@ void
 const
 {
 return
-true
+TRUE
 ;
 }
 UnicodeString
@@ -1506,11 +1506,9 @@ codes
 [
 USCRIPT_CODE_LIMIT
 +
-(
 UCOL_REORDER_CODE_LIMIT
 -
 UCOL_REORDER_CODE_FIRST
-)
 ]
 ;
 int32_t
@@ -3299,7 +3297,7 @@ U_ILLEGAL_ARGUMENT_ERROR
 ;
 }
 return
-false
+FALSE
 ;
 }
 #

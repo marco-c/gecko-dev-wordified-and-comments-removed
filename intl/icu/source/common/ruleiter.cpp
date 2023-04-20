@@ -156,7 +156,7 @@ DONE
 ;
 isEscaped
 =
-false
+FALSE
 ;
 for
 (
@@ -364,7 +364,7 @@ offset
 ;
 isEscaped
 =
-true
+TRUE
 ;
 if
 (

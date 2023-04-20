@@ -2117,14 +2117,6 @@ Malvin
 orollari
 "
 }
-NZ
-{
-"
-Aotearoa
-Yangi
-Zelandiya
-"
-}
 TL
 {
 "

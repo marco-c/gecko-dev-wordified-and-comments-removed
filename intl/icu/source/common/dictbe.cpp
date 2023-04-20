@@ -643,11 +643,11 @@ current
 )
 ;
 return
-true
+TRUE
 ;
 }
 return
-false
+FALSE
 ;
 }
 static
@@ -5091,7 +5091,7 @@ inString
 .
 setTo
 (
-false
+FALSE
 inText
 -
 >

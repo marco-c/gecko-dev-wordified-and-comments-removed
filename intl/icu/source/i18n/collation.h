@@ -478,13 +478,6 @@ CONTRACT_TRAILING_CCC
 static
 const
 uint32_t
-CONTRACT_HAS_STARTER
-=
-0x800
-;
-static
-const
-uint32_t
 HANGUL_NO_SPECIAL_JAMO
 =
 0x100
@@ -1319,8 +1312,6 @@ private
 Collation
 (
 )
-=
-delete
 ;
 }
 ;

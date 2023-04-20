@@ -908,13 +908,6 @@ en_GB
 )
 "
 }
-en_US
-{
-"
-(
-)
-"
-}
 }
 Scripts
 {
@@ -1009,7 +1002,6 @@ codePatterns
 language
 {
 "
-:
 {
 0
 }
@@ -1018,7 +1010,6 @@ language
 script
 {
 "
-:
 {
 0
 }
@@ -1027,7 +1018,6 @@ script
 territory
 {
 "
-:
 {
 0
 }

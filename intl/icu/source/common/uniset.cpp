@@ -257,7 +257,7 @@ set
 toPattern
 (
 str
-true
+TRUE
 )
 ;
 char
@@ -322,7 +322,7 @@ set
 toPattern
 (
 str
-true
+TRUE
 )
 ;
 char
@@ -827,7 +827,7 @@ return
 copyFrom
 (
 o
-false
+FALSE
 )
 ;
 }
@@ -1158,7 +1158,7 @@ UnicodeSet
 (
 *
 this
-true
+TRUE
 )
 ;
 }
@@ -1467,7 +1467,7 @@ UNICODESET_HIGH
 )
 {
 return
-false
+FALSE
 ;
 }
 int32_t
@@ -1751,7 +1751,7 @@ i
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -1927,7 +1927,7 @@ i
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -2093,7 +2093,7 @@ high
 )
 {
 return
-true
+TRUE
 ;
 }
 }
@@ -2121,7 +2121,7 @@ high
 )
 {
 return
-true
+TRUE
 ;
 }
 }
@@ -2206,13 +2206,13 @@ v
 )
 {
 return
-true
+TRUE
 ;
 }
 }
 }
 return
-false
+FALSE
 ;
 }
 UMatchDegree
@@ -6496,7 +6496,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 strings
@@ -6523,7 +6523,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-false
+FALSE
 ;
 }
 if
@@ -6542,11 +6542,11 @@ strings
 NULL
 ;
 return
-false
+FALSE
 ;
 }
 return
-true
+TRUE
 ;
 }
 int32_t

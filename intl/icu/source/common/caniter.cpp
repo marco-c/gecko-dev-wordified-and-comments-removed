@@ -328,7 +328,7 @@ reset
 {
 done
 =
-false
+FALSE
 ;
 for
 (
@@ -444,7 +444,7 @@ i
 {
 done
 =
-true
+TRUE
 ;
 break
 ;
@@ -545,7 +545,7 @@ return
 }
 done
 =
-false
+FALSE
 ;
 cleanPieces
 (
@@ -2107,7 +2107,7 @@ length
 UBool
 ok
 =
-false
+FALSE
 ;
 UChar32
 cp
@@ -2178,7 +2178,7 @@ i
 ;
 ok
 =
-true
+TRUE
 ;
 break
 ;

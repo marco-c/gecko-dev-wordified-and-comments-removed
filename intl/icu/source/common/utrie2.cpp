@@ -297,7 +297,7 @@ trie
 >
 newTrie
 c
-true
+TRUE
 )
 ;
 }
@@ -380,7 +380,7 @@ trie
 >
 newTrie
 c
-false
+FALSE
 )
 ;
 }
@@ -1000,7 +1000,7 @@ trie
 >
 isMemoryOwned
 =
-false
+FALSE
 ;
 #
 ifdef
@@ -1394,7 +1394,7 @@ trie
 >
 isMemoryOwned
 =
-true
+TRUE
 ;
 if
 (

@@ -26,6 +26,9 @@ uobject
 .
 h
 "
+#
+ifndef
+UCNV_H
 struct
 ZTrans
 ;
@@ -34,6 +37,8 @@ struct
 ZTrans
 ZTrans
 ;
+#
+endif
 U_CAPI
 ZTrans
 *

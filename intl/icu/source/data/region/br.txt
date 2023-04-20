@@ -2118,15 +2118,6 @@ Malo
 )
 "
 }
-NZ
-{
-"
-Aotearoa
-Zeland
--
-Nevez
-"
-}
 SZ
 {
 "

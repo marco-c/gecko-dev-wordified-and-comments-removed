@@ -237,7 +237,7 @@ NULL
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -271,7 +271,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -283,7 +283,7 @@ a2
 )
 {
 return
-true
+TRUE
 ;
 }
 return
@@ -1044,7 +1044,7 @@ ec
 UnicodeString
 ruleID
 (
-true
+TRUE
 ruleIdUStr
 len
 )
@@ -1803,7 +1803,7 @@ dstoff
 getHistoricalOffset
 (
 date
-true
+TRUE
 kDaylight
 kStandard
 rawoff
@@ -1958,7 +1958,7 @@ else
 getHistoricalOffset
 (
 date
-true
+TRUE
 nonExistingTimeOpt
 duplicatedTimeOpt
 rawoff
@@ -1997,10 +1997,15 @@ dst
 ;
 getOffset
 (
+(
+double
+)
 uprv_getUTCtime
 (
 )
-false
+*
+U_MILLIS_PER_SECOND
+FALSE
 raw
 dst
 ec
@@ -2997,12 +3002,12 @@ i
 )
 {
 return
-true
+TRUE
 ;
 }
 }
 return
-false
+FALSE
 ;
 }
 int32_t
@@ -3061,7 +3066,7 @@ dst
 getOffset
 (
 date
-false
+FALSE
 raw
 dst
 ec
@@ -3097,7 +3102,7 @@ other
 )
 {
 return
-true
+TRUE
 ;
 }
 const
@@ -3125,7 +3130,7 @@ NULL
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -3140,7 +3145,7 @@ typeMapData
 )
 {
 return
-true
+TRUE
 ;
 }
 if
@@ -3208,7 +3213,7 @@ finalZone
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -3240,7 +3245,7 @@ finalStartMillis
 )
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -3283,7 +3288,7 @@ transitionCountPost32
 )
 {
 return
-false
+FALSE
 ;
 }
 return
@@ -4474,7 +4479,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -4507,7 +4512,7 @@ result
 firstFinalTZTransition
 ;
 return
-true
+TRUE
 ;
 }
 else
@@ -4549,7 +4554,7 @@ result
 else
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -4647,13 +4652,13 @@ result
 firstFinalTZTransition
 ;
 return
-true
+TRUE
 ;
 }
 else
 {
 return
-false
+FALSE
 ;
 }
 }
@@ -4671,7 +4676,7 @@ result
 firstTZTransition
 ;
 return
-true
+TRUE
 ;
 }
 else
@@ -4816,12 +4821,12 @@ clone
 )
 ;
 return
-true
+TRUE
 ;
 }
 }
 return
-false
+FALSE
 ;
 }
 UBool
@@ -4859,7 +4864,7 @@ status
 )
 {
 return
-false
+FALSE
 ;
 }
 if
@@ -4892,7 +4897,7 @@ result
 firstFinalTZTransition
 ;
 return
-true
+TRUE
 ;
 }
 else
@@ -4938,7 +4943,7 @@ result
 firstFinalTZTransition
 ;
 return
-true
+TRUE
 ;
 }
 }
@@ -5014,7 +5019,7 @@ firstTZTransitionIdx
 )
 {
 return
-false
+FALSE
 ;
 }
 else
@@ -5032,7 +5037,7 @@ result
 firstTZTransition
 ;
 return
-true
+TRUE
 ;
 }
 else
@@ -5175,12 +5180,12 @@ clone
 )
 ;
 return
-true
+TRUE
 ;
 }
 }
 return
-false
+FALSE
 ;
 }
 int32_t

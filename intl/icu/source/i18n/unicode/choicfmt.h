@@ -423,8 +423,6 @@ string
 ChoiceFormat
 (
 )
-=
-delete
 ;
 ChoiceFormat
 (

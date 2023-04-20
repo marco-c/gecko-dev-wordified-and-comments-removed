@@ -1225,7 +1225,7 @@ bytes
 +
 bytesLength
 NULL
-true
+TRUE
 &
 errorCode
 )
@@ -1495,7 +1495,7 @@ releaseBuffer
 ;
 flush
 =
-false
+FALSE
 ;
 for
 (
@@ -1573,7 +1573,7 @@ bytes
 +
 bytesLength
 NULL
-false
+FALSE
 &
 errorCode
 )
@@ -1676,7 +1676,7 @@ bytesLength
 {
 flush
 =
-true
+TRUE
 ;
 }
 }
@@ -1938,7 +1938,7 @@ status
 )
 =
 =
-false
+FALSE
 )
 {
 error
@@ -2065,7 +2065,7 @@ status
 )
 =
 =
-false
+FALSE
 )
 {
 replaceCharRefs
