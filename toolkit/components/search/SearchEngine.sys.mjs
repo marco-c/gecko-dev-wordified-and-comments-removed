@@ -9862,13 +9862,6 @@ url
 .
 template
 )
-.
-QueryInterface
-(
-Ci
-.
-nsIURL
-)
 ;
 return
 {
