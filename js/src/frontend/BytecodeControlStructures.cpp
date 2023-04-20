@@ -1308,7 +1308,7 @@ forOfIterCloseScopeStarts
 bce_
 -
 >
-cx
+ec
 )
 ;
 bool
