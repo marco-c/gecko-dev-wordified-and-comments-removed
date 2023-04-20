@@ -369,7 +369,7 @@ gAssertionChallenge
 )
 ;
 let
-invalidCred
+unknownCredType
 =
 {
 type
@@ -447,7 +447,7 @@ test_unexpected_transport
 ;
 add_task
 (
-test_invalid_credential
+test_unknown_credential_type
 )
 ;
 add_task
@@ -462,7 +462,7 @@ test_too_many_credentials
 ;
 add_task
 (
-test_unexpected_option_invalid_credential
+test_unexpected_option_unknown_credential_type
 )
 ;
 add_task
@@ -1193,11 +1193,12 @@ arrivingHereIsBad
 Test
 with
 an
-invalid
+unknown
 credential
+type
 async
 function
-test_invalid_credential
+test_unknown_credential_type
 (
 )
 {
@@ -1211,7 +1212,7 @@ gAssertionChallenge
 allowCredentials
 :
 [
-invalidCred
+unknownCredType
 ]
 }
 ;
@@ -1230,7 +1231,7 @@ arrivingHereIsBad
 .
 catch
 (
-expectTypeError
+expectInvalidStateError
 )
 ;
 }
@@ -1346,11 +1347,12 @@ unexpected
 option
 and
 an
-invalid
+unknown
 credential
+type
 async
 function
-test_unexpected_option_invalid_credential
+test_unexpected_option_unknown_credential_type
 (
 )
 {
@@ -1369,7 +1371,7 @@ hi
 allowCredentials
 :
 [
-invalidCred
+unknownCredType
 ]
 }
 ;
@@ -1388,7 +1390,7 @@ arrivingHereIsBad
 .
 catch
 (
-expectTypeError
+expectInvalidStateError
 )
 ;
 }
