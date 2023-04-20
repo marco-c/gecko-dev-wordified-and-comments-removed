@@ -8493,6 +8493,10 @@ MarkChanged
 (
 )
 ;
+PushAllClips
+(
+)
+;
 bool
 patternSupported
 =
@@ -8512,10 +8516,6 @@ aOp
 patternSupported
 )
 {
-PushAllClips
-(
-)
-;
 FlushTransformToDC
 (
 )
