@@ -1523,13 +1523,6 @@ sources
 =
 [
 "
-resampler
-/
-sinc_resampler_avx2
-.
-cc
-"
-"
 fir_filter_avx2
 .
 cc
@@ -1538,6 +1531,13 @@ cc
 fir_filter_avx2
 .
 h
+"
+"
+resampler
+/
+sinc_resampler_avx2
+.
+cc
 "
 ]
 cflags
