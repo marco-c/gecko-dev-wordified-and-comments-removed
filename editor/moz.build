@@ -82,7 +82,9 @@ TESTING_JS_MODULES
 "
 AsyncSpellCheckTestHelper
 .
-jsm
+sys
+.
+mjs
 "
 ]
 with

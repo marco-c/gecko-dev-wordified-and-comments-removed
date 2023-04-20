@@ -160,7 +160,7 @@ onSpellCheck
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -171,7 +171,9 @@ reftest
 /
 AsyncSpellCheckTestHelper
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

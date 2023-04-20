@@ -1061,7 +1061,9 @@ res
 /
 AsyncSpellCheckTestHelper
 .
-jsm
+sys
+.
+mjs
 (
 .
 .
@@ -1076,7 +1078,9 @@ editor
 /
 AsyncSpellCheckTestHelper
 .
-jsm
+sys
+.
+mjs
 )
 res
 /

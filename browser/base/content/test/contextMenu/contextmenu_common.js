@@ -110,7 +110,7 @@ SpecialPowers
 .
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -123,7 +123,9 @@ common
 /
 AsyncSpellCheckTestHelper
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1941,7 +1943,7 @@ onSpellCheck
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1954,7 +1956,9 @@ common
 /
 AsyncSpellCheckTestHelper
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
