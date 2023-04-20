@@ -14,6 +14,10 @@ set
 -
 o
 pipefail
+script
+=
+1
+shift
 artifact
 =
 (
@@ -39,11 +43,7 @@ dirname
 0
 )
 /
-unpack
--
-sdk
-.
-py
+script
 "
 "
 dir
