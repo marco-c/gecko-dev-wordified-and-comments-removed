@@ -31,9 +31,9 @@ nsIExternalProtocolService
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -52,7 +52,9 @@ handlers
 /
 HandlerList
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
