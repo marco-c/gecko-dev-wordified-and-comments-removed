@@ -56,7 +56,7 @@ browser
 {
 BrowserTestUtils
 .
-loadURIString
+loadURI
 (
 browser
 "
@@ -150,7 +150,7 @@ newtab
 ;
 BrowserTestUtils
 .
-loadURIString
+loadURI
 (
 browser
 "
@@ -184,7 +184,7 @@ com
 ;
 BrowserTestUtils
 .
-loadURIString
+loadURI
 (
 browser
 "
