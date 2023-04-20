@@ -1154,6 +1154,7 @@ disabled
 )
 ;
 return
+false
 ;
 }
 if
@@ -1205,6 +1206,7 @@ toString
 )
 ;
 return
+false
 ;
 }
 if
@@ -1240,10 +1242,12 @@ sync
 )
 ;
 return
+false
 ;
 }
 try
 {
+return
 await
 this
 .
@@ -1274,7 +1278,7 @@ getLastSync
 ;
 try
 {
-await
+return
 this
 .
 _doQuickWrite
@@ -1343,6 +1347,9 @@ in
 progress
 "
 )
+;
+return
+false
 ;
 }
 }
@@ -1530,6 +1537,9 @@ name
 null
 )
 ;
+return
+true
+;
 }
 catch
 (
@@ -1557,6 +1567,9 @@ onEngineStop
 name
 ex
 )
+;
+return
+false
 ;
 }
 finally
