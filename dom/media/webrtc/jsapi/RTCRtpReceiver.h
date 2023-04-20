@@ -496,6 +496,13 @@ aChanges
 )
 ;
 void
+UpdatePrincipalPrivacy
+(
+PrincipalPrivacy
+aPrivacy
+)
+;
+void
 OnRtcpBye
 (
 )

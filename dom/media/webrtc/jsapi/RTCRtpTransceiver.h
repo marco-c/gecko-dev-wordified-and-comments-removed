@@ -261,6 +261,13 @@ UpdateConduit
 )
 ;
 void
+UpdatePrincipalPrivacy
+(
+PrincipalPrivacy
+aPrivacy
+)
+;
+void
 ResetSync
 (
 )
