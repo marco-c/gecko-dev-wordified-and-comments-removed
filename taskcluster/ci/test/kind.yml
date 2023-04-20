@@ -78,6 +78,16 @@ signing
 -
 repackage
 -
+signing
+-
+shippable
+-
+l10n
+-
+msix
+-
+repackage
+-
 fetch
 -
 toolchain
