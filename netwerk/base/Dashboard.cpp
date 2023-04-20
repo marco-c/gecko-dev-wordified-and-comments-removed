@@ -5736,7 +5736,10 @@ nsIDNSService
 :
 :
 RESOLVE_TYPE_DEFAULT
-0
+nsIDNSService
+:
+:
+RESOLVE_DEFAULT_FLAGS
 nullptr
 helper
 .
@@ -5871,7 +5874,10 @@ nsIDNSService
 :
 :
 RESOLVE_TYPE_HTTPSSVC
-0
+nsIDNSService
+:
+:
+RESOLVE_DEFAULT_FLAGS
 nullptr
 helper
 .
