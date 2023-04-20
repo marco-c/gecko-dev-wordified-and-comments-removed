@@ -91,10 +91,7 @@ BufferSource
 [
 Exposed
 =
-(
-Window
-Worker
-)
+*
 Serializable
 ]
 interface
