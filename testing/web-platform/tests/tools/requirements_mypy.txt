@@ -71,9 +71,11 @@ requests
 =
 2
 .
-27
+28
 .
-29
+11
+.
+5
 types
 -
 setuptools
