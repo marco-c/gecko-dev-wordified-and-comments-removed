@@ -10541,7 +10541,7 @@ firstFocusable
 root
 -
 >
-GetFirstFocusable
+GetFocusDelegate
 (
 aFlags
 &

@@ -15669,7 +15669,7 @@ firstFocusable
 root
 -
 >
-GetFirstFocusable
+GetFocusDelegate
 (
 true
 )
