@@ -9043,6 +9043,9 @@ processed_filename
             
 )
             
+try
+:
+                
 self
 .
 _artifact_job
@@ -9052,6 +9055,31 @@ process_artifact
 filename
 processed_filename
 )
+            
+except
+Exception
+as
+e
+:
+                
+try
+:
+                    
+os
+.
+remove
+(
+processed_filename
+)
+                
+except
+FileNotFoundError
+:
+                    
+pass
+                
+raise
+e
         
 self
 .
