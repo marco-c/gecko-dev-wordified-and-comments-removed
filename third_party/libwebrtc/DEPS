@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-904ec4874a7b5711ddbd21cca09a28a2151feddf
+d5197a5f61aca38bdbb16852a36854ad2c142812
 '
 #
 Keep
@@ -146,7 +146,7 @@ version
 :
 9
 .
-20220806
+20220808
 .
 1
 .
@@ -192,7 +192,7 @@ chromium
 src
 /
 base
-03f07649eb4592c9d8d04b9efceef3a30b8b8d80
+0672b38bfaf1c6bea1ee7e1a9232141df1a59b4f
 '
 '
 src
@@ -240,7 +240,7 @@ chromium
 src
 /
 buildtools
-416d16f002c61439cf94a536718db0437fa0539f
+145342204bb0dbcf234452530c9b304dae65ef8b
 '
 #
 Gradle
@@ -336,7 +336,7 @@ chromium
 src
 /
 ios
-941b3b3159abded702482debf4bb0d2f53eb9cef
+82bf060677a4ff1e17012c7edc8f01eddb762e85
 '
 '
 condition
@@ -368,7 +368,7 @@ chromium
 src
 /
 testing
-82939172bb5910365c67a6019d9fe6e552c94af2
+c85b2cfda0cb8d3479d5f6a3e718fc33fa7d751e
 '
 '
 src
@@ -392,7 +392,7 @@ chromium
 src
 /
 third_party
-0a27ba583adfd0c910ae6cb72d1dcdf4ead3f3b3
+0bfe4df4ba140a2ae21a3e88d2cfcb030390008b
 '
 '
 src
@@ -2006,7 +2006,7 @@ external
 perfetto
 .
 git
-f44970fbdaa94f4edc67f0914b2a51aa9a237463
+14ae2bfe87400a574ca21edfe99a046f7e5ab80b
 '
 '
 src
@@ -2398,7 +2398,7 @@ chromium
 src
 /
 tools
-31eaf15672e072dc207603f4558e314da7f22c0e
+3840892f3d8e213b0790ece1044410934f6f4d15
 '
 '
 src
