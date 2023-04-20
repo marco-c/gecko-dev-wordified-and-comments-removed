@@ -776,7 +776,7 @@ priority
 ;
 }
 void
-set_priority
+SetPriority
 (
 StreamPriority
 priority
@@ -785,7 +785,7 @@ priority
 scheduler_stream_
 -
 >
-set_priority
+SetPriority
 (
 priority
 )

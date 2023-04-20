@@ -229,6 +229,13 @@ default_priority_
 (
 default_priority
 )
+scheduler_
+(
+DcSctpOptions
+:
+:
+kMaxSafeMTUSize
+)
 on_buffered_amount_low_
 (
 std
@@ -2883,7 +2890,7 @@ stream_id
 ;
 stream
 .
-set_priority
+SetPriority
 (
 priority
 )
