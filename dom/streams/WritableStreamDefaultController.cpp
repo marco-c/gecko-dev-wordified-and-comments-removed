@@ -149,6 +149,10 @@ mozilla
 :
 dom
 {
+using
+namespace
+streams_abstract
+;
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 WritableStreamDefaultController
@@ -530,6 +534,9 @@ mSignal
 aSignal
 ;
 }
+namespace
+streams_abstract
+{
 MOZ_CAN_RUN_SCRIPT
 static
 void
@@ -2316,5 +2323,6 @@ return
 return
 chunkSize
 ;
+}
 }
 }

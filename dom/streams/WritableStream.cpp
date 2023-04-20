@@ -256,6 +256,10 @@ mozilla
 :
 dom
 {
+using
+namespace
+streams_abstract
+;
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_WITH_JS_MEMBERS
 (
 WritableStream
@@ -1821,6 +1825,9 @@ forget
 )
 ;
 }
+namespace
+streams_abstract
+{
 already_AddRefed
 <
 Promise
@@ -2198,6 +2205,7 @@ forget
 )
 ;
 }
+}
 already_AddRefed
 <
 Promise
@@ -2270,6 +2278,9 @@ aRv
 )
 ;
 }
+namespace
+streams_abstract
+{
 already_AddRefed
 <
 Promise
@@ -2509,6 +2520,7 @@ forget
 )
 ;
 }
+}
 already_AddRefed
 <
 Promise
@@ -2598,6 +2610,9 @@ aRv
 )
 ;
 }
+namespace
+streams_abstract
+{
 already_AddRefed
 <
 WritableStreamDefaultWriter
@@ -2753,6 +2768,7 @@ forget
 )
 ;
 }
+}
 already_AddRefed
 <
 WritableStreamDefaultWriter
@@ -2775,6 +2791,9 @@ aRv
 )
 ;
 }
+namespace
+streams_abstract
+{
 already_AddRefed
 <
 Promise
@@ -2847,6 +2866,7 @@ forget
 (
 )
 ;
+}
 }
 void
 WritableStream

@@ -547,6 +547,9 @@ mStream
 ;
 }
 ;
+namespace
+streams_abstract
+{
 MOZ_CAN_RUN_SCRIPT
 void
 SetUpWritableStreamDefaultController
@@ -726,6 +729,7 @@ ErrorResult
 aRv
 )
 ;
+}
 }
 #
 endif
