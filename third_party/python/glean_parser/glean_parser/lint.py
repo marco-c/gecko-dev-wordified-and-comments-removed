@@ -2426,10 +2426,8 @@ GlinterNit
 ]
     
 for
-(
 ping_name
 ping
-)
 in
 sorted
 (
@@ -2454,12 +2452,10 @@ Ping
 )
         
 for
-(
 check_name
 (
 check_func
 check_type
-)
 )
 in
 PING_CHECKS
@@ -2689,10 +2685,8 @@ tags
 ]
     
 for
-(
 category_name
 category
-)
 in
 sorted
 (
@@ -2775,12 +2769,10 @@ Metric
 )
         
 for
-(
 cat_check_name
 (
 cat_check_func
 check_type
-)
 )
 in
 CATEGORY_CHECKS
@@ -2842,10 +2834,8 @@ values
 )
         
 for
-(
 _metric_name
 metric
-)
 in
 sorted
 (
@@ -2861,12 +2851,10 @@ items
 :
             
 for
-(
 check_name
 (
 check_func
 check_type
-)
 )
 in
 METRIC_CHECKS
@@ -3337,10 +3325,8 @@ file
 )
         
 for
-(
 path
 p
-)
 in
 nits
 :

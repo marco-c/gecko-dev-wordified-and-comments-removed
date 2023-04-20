@@ -1175,10 +1175,13 @@ for
 category_key
 category_val
 in
+sorted
+(
 content
 .
 items
 (
+)
 )
 :
         
@@ -1313,10 +1316,13 @@ for
 metric_key
 metric_val
 in
+sorted
+(
 category_val
 .
 items
 (
+)
 )
 :
             
@@ -1752,10 +1758,13 @@ for
 ping_key
 ping_val
 in
+sorted
+(
 content
 .
 items
 (
+)
 )
 :
         
@@ -2157,10 +2166,13 @@ for
 tag_key
 tag_val
 in
+sorted
+(
 content
 .
 items
 (
+)
 )
 :
         

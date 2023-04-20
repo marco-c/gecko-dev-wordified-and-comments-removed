@@ -390,10 +390,8 @@ Any
 }
     
 for
-(
 category_name
 category_val
-)
 in
 objects
 .
