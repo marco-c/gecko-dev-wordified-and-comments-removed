@@ -10233,24 +10233,23 @@ self
 .
 mozInfo
 [
-            
 "
 fission
 "
-        
 ]
 or
-not
 prefs
 .
 get
 (
+            
 "
 fission
 .
-disableSessionHistoryInParent
+sessionHistoryInParent
 "
 False
+        
 )
         
 self
