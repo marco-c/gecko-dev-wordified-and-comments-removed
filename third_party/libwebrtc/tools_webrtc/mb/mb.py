@@ -285,6 +285,23 @@ gn_args
 '
 ]
     
+is_fuchsia
+=
+'
+target_os
+=
+"
+fuchsia
+"
+'
+in
+vals
+[
+'
+gn_args
+'
+]
+    
 is_linux
 =
 self
@@ -584,6 +601,25 @@ store
 tombstones
 '
       
+]
+    
+elif
+is_fuchsia
+:
+      
+cmdline
++
+=
+[
+'
+bin
+/
+run_
+%
+s
+'
+%
+target
 ]
     
 elif
