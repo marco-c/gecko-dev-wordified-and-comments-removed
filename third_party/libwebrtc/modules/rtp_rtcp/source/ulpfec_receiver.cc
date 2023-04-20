@@ -132,6 +132,13 @@ ssrc_
 )
 )
 {
+RTC_DCHECK_GE
+(
+ulpfec_payload_type_
+-
+1
+)
+;
 }
 UlpfecReceiver
 :
