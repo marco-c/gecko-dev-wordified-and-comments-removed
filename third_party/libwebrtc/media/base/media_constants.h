@@ -519,6 +519,13 @@ kH264ProfileLevelConstrainedHigh
 ;
 extern
 const
+char
+kVP9ProfileId
+[
+]
+;
+extern
+const
 int
 kDefaultVideoMaxFramerate
 ;
