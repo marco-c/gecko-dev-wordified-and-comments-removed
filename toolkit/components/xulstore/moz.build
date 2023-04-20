@@ -80,8 +80,6 @@ EXTRA_JS_MODULES
 "
 XULStore
 .
-sys
-.
-mjs
+jsm
 "
 ]

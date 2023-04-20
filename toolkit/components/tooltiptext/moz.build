@@ -17,9 +17,7 @@ EXTRA_JS_MODULES
 "
 TooltipTextProvider
 .
-sys
-.
-mjs
+jsm
 "
 ]
 XPCOM_MANIFESTS
