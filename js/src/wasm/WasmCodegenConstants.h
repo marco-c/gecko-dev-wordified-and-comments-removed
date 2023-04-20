@@ -123,6 +123,13 @@ MaxInlineMemoryFillLength
 ;
 #
 endif
+static
+const
+uint32_t
+MinSuperTypeVectorLength
+=
+3
+;
 }
 }
 #

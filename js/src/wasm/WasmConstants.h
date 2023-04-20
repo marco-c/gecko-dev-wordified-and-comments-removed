@@ -2578,6 +2578,13 @@ MaxRecGroups
 static
 const
 unsigned
+MaxSubTypingDepth
+=
+31
+;
+static
+const
+unsigned
 MaxTags
 =
 1000000
