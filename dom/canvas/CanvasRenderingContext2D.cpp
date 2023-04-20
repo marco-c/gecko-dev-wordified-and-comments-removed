@@ -22137,7 +22137,6 @@ nullptr
 0
 &
 totalWidthCoord
-&
 mBidiEngine
 )
 ;
@@ -22852,7 +22851,6 @@ MODE_DRAW
 nullptr
 0
 nullptr
-&
 mBidiEngine
 )
 ;

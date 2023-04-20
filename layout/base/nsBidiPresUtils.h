@@ -963,7 +963,7 @@ intl
 :
 :
 Bidi
-*
+&
 aBidiEngine
 )
 ;
