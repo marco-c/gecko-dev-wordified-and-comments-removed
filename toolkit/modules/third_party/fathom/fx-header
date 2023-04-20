@@ -5,7 +5,7 @@ NOT
 TOUCH
 fathom
 .
-jsm
+mjs
 DIRECTLY
 .
 See
@@ -74,18 +74,3 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
-this
-.
-EXPORTED_SYMBOLS
-=
-[
-"
-fathom
-"
-]
-;
