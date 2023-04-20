@@ -111,6 +111,11 @@ DoPrompt
 (
 )
 ;
+void
+CancelWithRandomizedDelay
+(
+)
+;
 nsCOMPtr
 <
 nsITimer
