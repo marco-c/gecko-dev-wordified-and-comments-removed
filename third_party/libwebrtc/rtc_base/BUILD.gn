@@ -5889,11 +5889,6 @@ rtc_certificate_generator
 .
 h
 "
-"
-sigslot_repeater
-.
-h
-"
 #
 "
 socket_adapters
