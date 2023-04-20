@@ -15,9 +15,26 @@ json
 "
 ;
 const
-CURRENT_CC_VERSION
+{
+CREDIT_CARD_SCHEMA_VERSION
+}
 =
-3
+ChromeUtils
+.
+import
+(
+"
+resource
+:
+/
+/
+autofill
+/
+FormAutofillStorageBase
+.
+jsm
+"
+)
 ;
 const
 ADDRESS_RECONCILE_TESTCASES
@@ -2171,7 +2188,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -2227,7 +2244,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -2294,7 +2311,7 @@ e3680e9f890d
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -2350,7 +2367,7 @@ e3680e9f890d
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -2418,7 +2435,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -2483,7 +2500,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -2560,7 +2577,7 @@ be3ef97f8285
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -2616,7 +2633,7 @@ be3ef97f8285
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -2702,7 +2719,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -2767,7 +2784,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -2844,7 +2861,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -2918,7 +2935,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -2990,7 +3007,7 @@ e087a06dfc57
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -3064,7 +3081,7 @@ e087a06dfc57
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -3150,7 +3167,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -3234,7 +3251,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -3331,7 +3348,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -3387,7 +3404,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -3457,7 +3474,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -3513,7 +3530,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -3606,7 +3623,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -3680,7 +3697,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -3800,7 +3817,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -3865,7 +3882,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -3976,7 +3993,7 @@ fff9fa27fa18
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -4050,7 +4067,7 @@ fff9fa27fa18
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -4155,7 +4172,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -4202,7 +4219,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -4299,7 +4316,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
@@ -4367,7 +4384,7 @@ guid
 "
 version
 :
-CURRENT_CC_VERSION
+CREDIT_CARD_SCHEMA_VERSION
 "
 cc
 -
