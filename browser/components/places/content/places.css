@@ -605,3 +605,15 @@ color
 currentColor
 ;
 }
+.
+places
+-
+tooltip
+-
+box
+{
+display
+:
+block
+;
+}
