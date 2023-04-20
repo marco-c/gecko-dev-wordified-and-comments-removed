@@ -50,6 +50,8 @@ Protocol
                        
 SelectorProtocolPart
                        
+AccessibilityProtocolPart
+                       
 ClickProtocolPart
                        
 CookiesProtocolPart
@@ -1147,6 +1149,59 @@ css
 selector
 )
 class
+WebDriverAccessibilityProtocolPart
+(
+AccessibilityProtocolPart
+)
+:
+    
+def
+setup
+(
+self
+)
+:
+        
+self
+.
+webdriver
+=
+self
+.
+parent
+.
+webdriver
+    
+def
+get_computed_label
+(
+self
+element
+)
+:
+        
+return
+element
+.
+get_computed_label
+(
+)
+    
+def
+get_computed_role
+(
+self
+element
+)
+:
+        
+return
+element
+.
+get_computed_role
+(
+)
+class
 WebDriverClickProtocolPart
 (
 ClickProtocolPart
@@ -2235,6 +2290,8 @@ WebDriverBaseProtocolPart
 WebDriverTestharnessProtocolPart
                   
 WebDriverSelectorProtocolPart
+                  
+WebDriverAccessibilityProtocolPart
                   
 WebDriverClickProtocolPart
                   
