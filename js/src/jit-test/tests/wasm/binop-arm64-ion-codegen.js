@@ -959,8 +959,8 @@ double32
 f
 '
 '
-2b000000
-adds
+0b000000
+add
 w0
 w0
 w0

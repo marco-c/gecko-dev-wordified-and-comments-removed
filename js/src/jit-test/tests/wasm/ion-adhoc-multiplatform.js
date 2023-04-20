@@ -725,8 +725,8 @@ eax
 eax
 arm64
 :
-2b000000
-adds
+0b000000
+add
 w0
 w0
 w0
@@ -1916,8 +1916,8 @@ eax
 eax
 arm64
 :
-2b000000
-adds
+0b000000
+add
 w0
 w0
 w0
