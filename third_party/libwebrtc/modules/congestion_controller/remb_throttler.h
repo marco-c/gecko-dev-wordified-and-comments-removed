@@ -54,7 +54,9 @@ modules
 /
 remote_bitrate_estimator
 /
-remote_estimator_proxy
+include
+/
+remote_bitrate_estimator
 .
 h
 "
