@@ -3577,7 +3577,7 @@ rtc_event_field
 /
 api
 :
-libjingle_logging_api
+dtls_transport_interface
 "
 "
 .
@@ -3585,15 +3585,8 @@ libjingle_logging_api
 /
 api
 :
-libjingle_peerconnection_api
+libjingle_logging_api
 "
-#
-For
-api
-/
-dtls_transport_interface
-.
-h
 "
 .
 .
