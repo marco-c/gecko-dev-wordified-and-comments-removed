@@ -64,6 +64,17 @@ rust
 -
 servo
 /
+-
+'
+*
+*
+/
+*
+.
+mako
+.
+rs
+'
 extensions
 :
 -
