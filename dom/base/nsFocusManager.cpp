@@ -16765,7 +16765,10 @@ pm
 >
 GetTopPopup
 (
-ePopupTypePanel
+PopupType
+:
+:
+Panel
 )
 ;
 }

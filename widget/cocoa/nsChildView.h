@@ -853,9 +853,8 @@ const
 LayoutDeviceIntRect
 &
 aRect
-nsWidgetInitData
+InitData
 *
-aInitData
 =
 nullptr
 )

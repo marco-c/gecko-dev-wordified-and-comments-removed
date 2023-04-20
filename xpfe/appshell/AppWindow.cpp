@@ -812,7 +812,10 @@ int32_t
 aInitialHeight
 bool
 aIsHiddenWindow
-nsWidgetInitData
+widget
+:
+:
+InitData
 &
 widgetInitData
 )

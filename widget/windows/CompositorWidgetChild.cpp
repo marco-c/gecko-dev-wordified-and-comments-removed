@@ -339,7 +339,7 @@ CompositorWidgetChild
 :
 UpdateTransparency
 (
-nsTransparencyMode
+TransparencyMode
 aMode
 )
 {

@@ -381,7 +381,10 @@ GetTransparencyMode
 )
 !
 =
-eTransparencyOpaque
+TransparencyMode
+:
+:
+Opaque
 |
 |
 widget

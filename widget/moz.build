@@ -828,11 +828,6 @@ nsUserIdleService
 h
 "
 "
-nsWidgetInitData
-.
-h
-"
-"
 nsWidgetsCID
 .
 h
@@ -990,6 +985,11 @@ h
 "
 "
 IMEData
+.
+h
+"
+"
+InitData
 .
 h
 "

@@ -727,7 +727,7 @@ const
 LayoutDeviceIntRect
 &
 aRect
-nsWidgetInitData
+InitData
 *
 aInitData
 )
@@ -1139,7 +1139,7 @@ GetLastUserInputTime
 gint
 ConvertBorderStyles
 (
-nsBorderStyle
+BorderStyle
 aStyle
 )
 ;
@@ -1739,12 +1739,12 @@ ClearTransparencyBitmap
 void
 SetTransparencyMode
 (
-nsTransparencyMode
+TransparencyMode
 aMode
 )
 override
 ;
-nsTransparencyMode
+TransparencyMode
 GetTransparencyMode
 (
 )
@@ -2373,7 +2373,7 @@ nsIWidget
 >
 mParent
 ;
-nsPopupType
+PopupType
 mPopupHint
 {
 }
@@ -2517,7 +2517,7 @@ void
 void
 SetWindowDecoration
 (
-nsBorderStyle
+BorderStyle
 aStyle
 )
 ;

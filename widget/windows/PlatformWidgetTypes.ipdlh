@@ -49,7 +49,7 @@ h
 "
 ;
 using
-nsTransparencyMode
+TransparencyMode
 from
 "
 nsIWidget
@@ -72,7 +72,7 @@ hWnd
 uintptr_t
 widgetKey
 ;
-nsTransparencyMode
+TransparencyMode
 transparencyMode
 ;
 nsSizeMode

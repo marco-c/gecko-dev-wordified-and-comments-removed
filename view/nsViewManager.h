@@ -155,10 +155,13 @@ aBounds
 nsView
 *
 aParent
-nsViewVisibility
+ViewVisibility
 aVisibilityFlag
 =
-nsViewVisibility_kShow
+ViewVisibility
+:
+:
+Show
 )
 ;
 nsView
@@ -309,7 +312,7 @@ SetViewVisibility
 nsView
 *
 aView
-nsViewVisibility
+ViewVisibility
 aVisible
 )
 ;

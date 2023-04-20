@@ -1835,7 +1835,10 @@ GetVisibility
 )
 =
 =
-nsViewVisibility_kHide
+ViewVisibility
+:
+:
+Hide
 )
 {
 return

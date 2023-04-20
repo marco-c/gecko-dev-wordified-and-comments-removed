@@ -154,7 +154,7 @@ virtual
 void
 UpdateTransparency
 (
-nsTransparencyMode
+TransparencyMode
 aMode
 )
 =

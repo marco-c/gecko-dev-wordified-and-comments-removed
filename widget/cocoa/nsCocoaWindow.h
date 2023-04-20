@@ -785,9 +785,8 @@ const
 DesktopIntRect
 &
 aRect
-nsWidgetInitData
+InitData
 *
-aInitData
 =
 nullptr
 )
@@ -811,9 +810,8 @@ const
 LayoutDeviceIntRect
 &
 aRect
-nsWidgetInitData
+InitData
 *
-aInitData
 =
 nullptr
 )
@@ -1349,7 +1347,7 @@ HasPendingInputEvent
 override
 ;
 virtual
-nsTransparencyMode
+TransparencyMode
 GetTransparencyMode
 (
 )
@@ -1359,7 +1357,7 @@ virtual
 void
 SetTransparencyMode
 (
-nsTransparencyMode
+TransparencyMode
 aMode
 )
 override
@@ -1751,7 +1749,7 @@ const
 NSRect
 &
 aRect
-nsBorderStyle
+BorderStyle
 aBorderStyle
 bool
 aRectIsFrameRect
@@ -1764,9 +1762,8 @@ const
 LayoutDeviceIntRect
 &
 aRect
-nsWidgetInitData
+InitData
 *
-aInitData
 )
 ;
 void
