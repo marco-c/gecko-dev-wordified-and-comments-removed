@@ -484,7 +484,7 @@ suggest
 reporting_url
 :
 "
-http
+https
 :
 /
 /
@@ -548,7 +548,7 @@ suggest
 reporting_url
 :
 "
-http
+https
 :
 /
 /
