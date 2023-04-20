@@ -1745,14 +1745,6 @@ int64_t
 aTotal
 )
 ;
-void
-SetRequestObserver
-(
-nsIRequestObserver
-*
-aObserver
-)
-;
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
 XMLHttpRequestMainThread
@@ -2582,10 +2574,6 @@ nsIProgressEventSink
 >
 mProgressEventSink
 ;
-nsIRequestObserver
-*
-mRequestObserver
-;
 nsCOMPtr
 <
 nsIURI
@@ -2779,9 +2767,6 @@ const
 ProgressEventType
 aType
 )
-;
-bool
-mFirstStartRequestSeen
 ;
 bool
 mInLoadProgressEvent
