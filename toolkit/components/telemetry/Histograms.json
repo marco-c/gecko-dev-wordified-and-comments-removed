@@ -16490,6 +16490,9 @@ ispe_mismatch
 render_size_mismatch
 "
 "
+frame_size_changed
+"
+"
 invalid_cicp
 "
 "

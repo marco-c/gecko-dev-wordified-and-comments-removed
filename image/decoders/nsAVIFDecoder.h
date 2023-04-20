@@ -222,6 +222,7 @@ AlphaYSizeMismatch
 AlphaYColorDepthMismatch
 MetadataImageSizeMismatch
 RenderSizeMismatch
+FrameSizeChanged
 InvalidCICP
 NoSamples
 }
