@@ -748,6 +748,8 @@ const
 urls
 =
 await
+gSourceMapLoader
+.
 getOriginalURLs
 (
 source
@@ -792,6 +794,8 @@ column
 }
 =
 await
+gSourceMapLoader
+.
 getOriginalLocation
 (
 {
