@@ -960,6 +960,11 @@ source
 '
 document
 '
+eagerness
+:
+'
+eager
+'
 where
 :
 predicate
