@@ -240,12 +240,6 @@ init
 "
 )
 ;
-readonly
-attribute
-unsigned
-long
-size
-;
 undefined
 append
 (
