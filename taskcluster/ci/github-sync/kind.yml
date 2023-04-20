@@ -128,6 +128,8 @@ type
 b
 -
 linux
+-
+gcp
 treeherder
 :
 platform
