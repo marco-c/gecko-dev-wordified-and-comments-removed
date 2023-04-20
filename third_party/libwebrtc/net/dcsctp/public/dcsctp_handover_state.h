@@ -93,6 +93,16 @@ reconfig
 =
 false
 ;
+uint16_t
+negotiated_maximum_incoming_streams
+=
+0
+;
+uint16_t
+negotiated_maximum_outgoing_streams
+=
+0
+;
 }
 ;
 Capabilities
