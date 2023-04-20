@@ -1869,6 +1869,15 @@ entry
 mTimers
 )
 {
+if
+(
+entry
+.
+Value
+(
+)
+)
+{
 timers
 .
 AppendElement
@@ -1880,6 +1889,7 @@ Take
 )
 )
 ;
+}
 }
 mTimers
 .
@@ -1901,11 +1911,11 @@ timer
 timers
 )
 {
-if
+MOZ_ASSERT
 (
 timer
 )
-{
+;
 timer
 -
 >
@@ -1913,7 +1923,6 @@ Cancel
 (
 )
 ;
-}
 }
 mThread
 -
