@@ -96,6 +96,12 @@ mIsInitialized
 false
 ;
 static
+bool
+IsEnabledForCurrentPrefState
+(
+)
+;
+static
 void
 OnPrefChange
 (
