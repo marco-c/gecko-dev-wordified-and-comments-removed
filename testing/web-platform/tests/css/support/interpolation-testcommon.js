@@ -3415,6 +3415,12 @@ roundNumbers
 =
 roundNumbers
 ;
+window
+.
+normalizeValue
+=
+normalizeValue
+;
 }
 )
 (
