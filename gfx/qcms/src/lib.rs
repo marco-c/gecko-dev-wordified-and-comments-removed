@@ -67,7 +67,7 @@ raw_ref_op
 [
 repr
 (
-u32
+C
 )
 ]
 #
