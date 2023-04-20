@@ -97,6 +97,7 @@ checked
 union
 FileContentData
 {
+nullable
 BlobImpl
 ;
 nsString

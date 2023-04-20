@@ -836,6 +836,7 @@ CreateWebTransportParent
 (
 nsString
 aURL
+nullable
 nsIPrincipal
 aPrincipal
 bool

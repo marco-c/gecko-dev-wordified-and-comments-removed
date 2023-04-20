@@ -196,6 +196,7 @@ closed
 struct
 RemoteLazyInputStreamParams
 {
+nullable
 RemoteLazyInputStream
 stream
 ;
@@ -204,6 +205,7 @@ stream
 struct
 DataPipeReceiverStreamParams
 {
+nullable
 DataPipeReceiver
 pipe
 ;

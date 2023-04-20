@@ -628,6 +628,7 @@ loadingEmbedderPolicy
 bool
 originTrialCoepCredentiallessEnabledForTopLevel
 ;
+nullable
 nsIURI
 unstrippedURI
 ;
@@ -700,6 +701,7 @@ isThirdPartyContextToTopWindow
 bool
 isInThirdPartyContext
 ;
+nullable
 nsIURI
 unstrippedURI
 ;
@@ -738,21 +740,27 @@ unsafeHeaders
 struct
 HttpChannelOpenArgs
 {
+nullable
 nsIURI
 uri
 ;
+nullable
 nsIURI
 original
 ;
+nullable
 nsIURI
 doc
 ;
+nullable
 nsIReferrerInfo
 referrerInfo
 ;
+nullable
 nsIURI
 apiRedirectTo
 ;
+nullable
 nsIURI
 topWindowURI
 ;
@@ -1162,6 +1170,7 @@ ObjectCreationArgs
 struct
 DocumentChannelCreationArgs
 {
+nullable
 nsDocShellLoadState
 loadState
 ;
@@ -1174,6 +1183,7 @@ channelId
 uint32_t
 cacheKey
 ;
+nullable
 nsDOMNavigationTiming
 ?
 timing
@@ -1207,6 +1217,7 @@ RedirectToRealChannelArgs
 uint32_t
 registrarId
 ;
+nullable
 nsIURI
 uri
 ;
@@ -1224,6 +1235,7 @@ loadInfo
 uint64_t
 channelId
 ;
+nullable
 nsIURI
 originalURI
 ;
@@ -1241,6 +1253,7 @@ nsString
 ?
 contentDispositionFilename
 ;
+nullable
 nsIPropertyBag2
 properties
 ;
@@ -1253,6 +1266,7 @@ loadStateInternalLoadFlags
 uint32_t
 loadStateLoadType
 ;
+nullable
 nsDOMNavigationTiming
 ?
 timing
@@ -1260,6 +1274,7 @@ timing
 nsString
 srcdocData
 ;
+nullable
 nsIURI
 baseUri
 ;
@@ -1496,6 +1511,7 @@ GIOChannelConnectArgs
 struct
 RemoteStreamInfo
 {
+nullable
 nsIInputStream
 inputStream
 ;

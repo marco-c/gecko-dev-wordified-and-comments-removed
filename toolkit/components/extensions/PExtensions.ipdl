@@ -68,6 +68,7 @@ MaybeDiscardedBrowsingContext
 bc
 FrameTransitionData
 transitionData
+nullable
 nsIURI
 location
 )
@@ -79,6 +80,7 @@ MaybeDiscardedBrowsingContext
 bc
 FrameTransitionData
 transitionData
+nullable
 nsIURI
 location
 bool
@@ -92,6 +94,7 @@ StateChange
 (
 MaybeDiscardedBrowsingContext
 bc
+nullable
 nsIURI
 requestURI
 nsresult
@@ -116,6 +119,7 @@ DOMContentLoaded
 (
 MaybeDiscardedBrowsingContext
 bc
+nullable
 nsIURI
 documentURI
 )
