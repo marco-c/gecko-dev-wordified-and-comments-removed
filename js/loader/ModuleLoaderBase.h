@@ -1242,7 +1242,6 @@ ModuleLoadRequest
 aRequest
 )
 ;
-static
 nsresult
 ResolveRequestedModules
 (
@@ -1289,7 +1288,6 @@ nsIURI
 aURI
 )
 ;
-static
 void
 FinishDynamicImportAndReject
 (
