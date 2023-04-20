@@ -651,16 +651,6 @@ svc
 :
 scalable_video_controller
 "
-]
-if
-(
-enable_libaom
-)
-{
-deps
-+
-=
-[
 "
 /
 /
@@ -669,7 +659,6 @@ third_party
 libaom
 "
 ]
-}
 absl_deps
 =
 [
