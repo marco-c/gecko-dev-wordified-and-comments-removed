@@ -300,7 +300,7 @@ debug
 warn
 "
 "
-warning
+warn
 "
 )
     
