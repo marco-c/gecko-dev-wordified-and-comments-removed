@@ -823,8 +823,15 @@ GetStorageKey
 (
 )
 ;
+mozilla
+:
+:
+Result
+<
 bool
-IsEqualStorageKey
+nsresult
+>
+HasEqualStorageKey
 (
 const
 mozilla
@@ -835,7 +842,7 @@ ipc
 :
 PrincipalInfo
 &
-aPrincipalInfo
+aStorageKey
 )
 ;
 protected

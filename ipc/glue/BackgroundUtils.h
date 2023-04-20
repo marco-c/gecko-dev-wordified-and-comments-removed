@@ -244,7 +244,7 @@ false
 )
 ;
 bool
-NonExpandedPrincipalInfoEquals
+StorageKeysEqual
 (
 const
 PrincipalInfo
