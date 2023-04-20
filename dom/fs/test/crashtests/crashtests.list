@@ -22,6 +22,17 @@ fs
 enabled
 true
 )
+pref
+(
+dom
+.
+fs
+.
+writable_file_stream
+.
+enabled
+true
+)
 load
 1798773
 .
