@@ -301,6 +301,9 @@ mTelemetryExclSqliteVFS
 AutoVFSRegistration
 mObfuscatingSqliteVFS
 ;
+AutoVFSRegistration
+mReadOnlyNoLockSqliteVFS
+;
 Mutex
 mRegistrationMutex
 MOZ_UNANNOTATED
