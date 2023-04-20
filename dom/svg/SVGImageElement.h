@@ -248,12 +248,12 @@ const
 override
 {
 return
-!
+SVGGraphicsElement
+:
+:
+IsNodeOfType
 (
 aFlags
-&
-~
-eUSE_TARGET
 )
 ;
 }

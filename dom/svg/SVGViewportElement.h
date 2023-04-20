@@ -233,15 +233,6 @@ default
 ;
 public
 :
-bool
-IsNodeOfType
-(
-uint32_t
-aFlags
-)
-const
-override
-;
 NS_IMETHOD_
 (
 bool

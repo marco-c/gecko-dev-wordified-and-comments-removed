@@ -75,6 +75,13 @@ default
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
+NS_IMPL_FROMNODE_HELPER
+(
+SVGGraphicsElement
+IsSVGGraphicsElement
+(
+)
+)
 SVGElement
 *
 GetNearestViewportElement
@@ -137,6 +144,12 @@ return
 true
 ;
 }
+using
+nsINode
+:
+:
+Clone
+;
 SVGElement
 *
 AsSVGElement
