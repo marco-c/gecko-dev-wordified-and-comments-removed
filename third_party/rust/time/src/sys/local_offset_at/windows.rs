@@ -2,15 +2,6 @@ use
 core
 :
 :
-convert
-:
-:
-TryInto
-;
-use
-core
-:
-:
 mem
 :
 :
@@ -37,6 +28,10 @@ C
 allow
 (
 non_snake_case
+clippy
+:
+:
+missing_docs_in_private_items
 )
 ]
 struct
@@ -61,6 +56,10 @@ C
 allow
 (
 non_snake_case
+clippy
+:
+:
+missing_docs_in_private_items
 )
 ]
 struct
@@ -132,7 +131,7 @@ lpTimeZoneInformation
 :
 *
 const
-std
+core
 :
 :
 ffi
