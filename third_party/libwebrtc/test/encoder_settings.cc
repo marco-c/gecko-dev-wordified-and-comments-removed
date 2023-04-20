@@ -501,6 +501,17 @@ stream_settings
 i
 ]
 .
+scalability_mode
+=
+stream
+.
+scalability_mode
+;
+stream_settings
+[
+i
+]
+.
 target_bitrate_bps
 =
 target_bitrate_bps
