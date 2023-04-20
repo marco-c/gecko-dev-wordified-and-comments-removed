@@ -2883,8 +2883,6 @@ searchString
 pattern
 .
 matchingLogins
-[
-]
 pattern
 .
 formOrigin
