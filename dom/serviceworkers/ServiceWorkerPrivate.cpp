@@ -7827,6 +7827,13 @@ fetchService
 >
 Fetch
 (
+AsVariant
+(
+FetchService
+:
+:
+NavigationPreloadArgs
+{
 std
 :
 :
@@ -7835,6 +7842,8 @@ move
 preloadRequest
 )
 underlyingChannel
+}
+)
 )
 ;
 }

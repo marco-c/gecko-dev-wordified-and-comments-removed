@@ -270,11 +270,12 @@ uuid
 ;
 }
 ;
-struct
+union
 ParentToChildStream
 {
 RemoteLazyInputStream
-stream
+;
+IPCStream
 ;
 }
 ;
@@ -417,6 +418,12 @@ securityInfo
 PrincipalInfo
 ?
 principalInfo
+;
+nsCString
+bodyBlobURISpec
+;
+nsString
+bodyLocalPath
 ;
 }
 ;
