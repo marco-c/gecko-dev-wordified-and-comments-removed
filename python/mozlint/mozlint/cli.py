@@ -2709,6 +2709,25 @@ result
 )
         
 if
+not
+out
+and
+formatter_name
+=
+=
+"
+json
+"
+:
+            
+out
+=
+"
+{
+}
+"
+        
+if
 out
 :
             
