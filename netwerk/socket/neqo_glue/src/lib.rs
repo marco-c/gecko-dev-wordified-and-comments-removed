@@ -1541,7 +1541,6 @@ e
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -2555,7 +2554,6 @@ NS_ERROR_UNEXPECTED
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -5617,7 +5615,6 @@ NS_OK
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C

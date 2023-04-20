@@ -654,7 +654,6 @@ GkRust_Shutdown
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -698,7 +697,6 @@ to_string_lossy
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -717,6 +715,8 @@ message
 const
 c_char
 )
+{
+unsafe
 {
 info
 !
@@ -759,4 +759,5 @@ unwrap
 )
 )
 ;
+}
 }
