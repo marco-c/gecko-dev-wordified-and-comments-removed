@@ -1013,6 +1013,7 @@ sink
 NS_IsMainThread
 (
 )
+false
 )
 ;
 MutexAutoLock
