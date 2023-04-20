@@ -146,7 +146,7 @@ u8
 ]
 pub
 enum
-ColorSpace
+InterpolationColorSpace
 {
 Srgb
 LinearSrgb
@@ -171,7 +171,7 @@ Hwb
 Lch
 }
 impl
-ColorSpace
+InterpolationColorSpace
 {
 pub
 fn
@@ -298,7 +298,7 @@ ColorInterpolationMethod
 pub
 space
 :
-ColorSpace
+InterpolationColorSpace
 pub
 hue
 :
@@ -320,7 +320,7 @@ Self
 {
 space
 :
-ColorSpace
+InterpolationColorSpace
 :
 :
 Srgb
@@ -388,7 +388,7 @@ in
 let
 space
 =
-ColorSpace
+InterpolationColorSpace
 :
 :
 parse
