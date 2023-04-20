@@ -2848,7 +2848,7 @@ ContextMenu
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2860,13 +2860,15 @@ actors
 /
 ContextMenuParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -2878,7 +2880,9 @@ actors
 /
 ContextMenuChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
