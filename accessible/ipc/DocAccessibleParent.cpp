@@ -5271,6 +5271,10 @@ mShutdown
 =
 true
 ;
+mBrowsingContext
+=
+nullptr
+;
 MOZ_DIAGNOSTIC_ASSERT
 (
 LiveDocs
