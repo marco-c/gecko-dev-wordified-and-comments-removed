@@ -306,8 +306,7 @@ Info
 "
 Pipe
 wait
-timed
-out
+signaled
 "
 )
 )
