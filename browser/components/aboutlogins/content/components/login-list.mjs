@@ -5260,6 +5260,12 @@ nearest
 }
 )
 ;
+this
+.
+clickSelected
+(
+)
+;
 }
 }
 /
