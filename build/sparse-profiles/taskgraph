@@ -140,6 +140,15 @@ config
 whats_new_page
 .
 yml
+path
+:
+browser
+/
+installer
+/
+attribution
+.
+yml
 #
 Lots
 of
