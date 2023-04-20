@@ -604,6 +604,10 @@ std
 :
 string
 aPCHandle
+const
+TrackingId
+&
+aRecvTrackingId
 )
 ;
 virtual
@@ -1267,6 +1271,12 @@ nsCOMPtr
 nsISerialEventTarget
 >
 mStsThread
+;
+nsCOMPtr
+<
+nsISerialEventTarget
+>
+mFrameSendingThread
 ;
 struct
 Control

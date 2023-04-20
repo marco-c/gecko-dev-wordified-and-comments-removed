@@ -108,6 +108,17 @@ aPrincipal
 nsString
 (
 )
+TrackingId
+(
+TrackingId
+:
+:
+Source
+:
+:
+AudioDestinationNode
+0
+)
 )
 mTrack
 (

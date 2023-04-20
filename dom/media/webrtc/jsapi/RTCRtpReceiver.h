@@ -93,6 +93,13 @@ h
 #
 include
 "
+PerformanceRecorder
+.
+h
+"
+#
+include
+"
 RTCStatsReport
 .
 h
@@ -179,6 +186,10 @@ aConduit
 RTCRtpTransceiver
 *
 aTransceiver
+const
+TrackingId
+&
+aTrackingId
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

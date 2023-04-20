@@ -1570,6 +1570,10 @@ std
 :
 string
 aPCHandle
+const
+TrackingId
+&
+aRecvTrackingId
 )
 {
 MOZ_ASSERT
@@ -1647,6 +1651,7 @@ move
 (
 aPCHandle
 )
+aRecvTrackingId
 )
 ;
 if
@@ -1895,6 +1900,10 @@ std
 :
 string
 aPCHandle
+const
+TrackingId
+&
+aRecvTrackingId
 )
 :
 mRendererMonitor

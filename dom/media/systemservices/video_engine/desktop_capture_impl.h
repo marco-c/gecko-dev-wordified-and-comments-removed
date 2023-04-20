@@ -888,6 +888,13 @@ kMaxDesktopCaptureCpuUsage
 int32_t
 _id
 ;
+const
+mozilla
+:
+:
+TrackingId
+_tracking_id
+;
 std
 :
 :

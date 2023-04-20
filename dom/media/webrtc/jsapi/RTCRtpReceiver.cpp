@@ -378,6 +378,10 @@ nsIPrincipal
 >
 &
 aPrincipal
+const
+TrackingId
+&
+aTrackingId
 )
 {
 MediaTrackGraph
@@ -458,6 +462,7 @@ remote
 audio
 "
 _ns
+aTrackingId
 )
 ;
 track
@@ -503,6 +508,7 @@ remote
 video
 "
 _ns
+aTrackingId
 )
 ;
 track
@@ -591,6 +597,10 @@ aConduit
 RTCRtpTransceiver
 *
 aTransceiver
+const
+TrackingId
+&
+aTrackingId
 )
 :
 mWindow
@@ -704,6 +714,7 @@ principalHandle
 get
 (
 )
+aTrackingId
 )
 ;
 if
