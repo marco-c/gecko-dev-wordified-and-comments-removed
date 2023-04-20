@@ -194,6 +194,9 @@ OffscreenCanvas
 :
 EventTarget
 {
+[
+Throws
+]
 constructor
 (
 [

@@ -580,3 +580,16 @@ load
 1
 .
 html
+pref
+(
+dom
+.
+webgpu
+.
+enabled
+true
+)
+load
+1816140
+.
+html

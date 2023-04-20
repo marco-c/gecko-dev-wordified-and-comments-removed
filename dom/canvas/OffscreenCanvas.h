@@ -303,6 +303,9 @@ uint32_t
 aWidth
 uint32_t
 aHeight
+ErrorResult
+&
+aRv
 )
 ;
 void
