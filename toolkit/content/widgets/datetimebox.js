@@ -5831,6 +5831,16 @@ value
 <
 12
 :
+if
+(
+!
+this
+.
+getDayPeriodValue
+(
+)
+)
+{
 this
 .
 setDayPeriodValue
@@ -5840,6 +5850,7 @@ this
 mAMIndicator
 )
 ;
+}
 break
 ;
 case
@@ -7488,7 +7499,6 @@ setInputValueFromFields
 }
 getDayPeriodValue
 (
-aValue
 )
 {
 if
