@@ -6009,14 +6009,6 @@ modReq
 ;
 }
 }
-{
-mozilla
-:
-:
-nsAutoMicroTask
-mt
-;
-}
 nsresult
 rv
 =
