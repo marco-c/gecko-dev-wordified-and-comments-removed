@@ -5122,14 +5122,6 @@ WidgetGUIEvent
 aGUIEvent
 )
 ;
-void
-UpdateWheelEventTarget
-(
-WidgetGUIEvent
-*
-aGUIEvent
-)
-;
 RefPtr
 <
 PresShell
