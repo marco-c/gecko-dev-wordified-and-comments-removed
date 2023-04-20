@@ -2793,10 +2793,12 @@ bool
 {
 self
 .
-pref_sheet_prefs
+document
 (
 )
 .
-mIsChrome
+mDocURISchemeIsChrome
+(
+)
 }
 }
