@@ -3137,7 +3137,7 @@ html
 SET
 TIMEOUT
 :
-unload
+pending
 -
 beacon
 /
