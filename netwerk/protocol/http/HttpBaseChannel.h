@@ -2956,6 +2956,14 @@ uint32_t
 redirectFlags
 )
 ;
+bool
+IsNewChannelSameOrigin
+(
+nsIChannel
+*
+aNewChannel
+)
+;
 virtual
 bool
 ShouldTaintReplacementChannelOrigin
