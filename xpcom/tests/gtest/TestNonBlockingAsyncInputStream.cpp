@@ -1373,6 +1373,16 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHOD
+StreamStatus
+(
+)
+override
+{
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+}
+NS_IMETHOD
 Read
 (
 char

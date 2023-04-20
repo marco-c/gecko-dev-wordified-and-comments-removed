@@ -404,6 +404,12 @@ _retval
 override
 ;
 NS_IMETHOD
+StreamStatus
+(
+)
+override
+;
+NS_IMETHOD
 ReadSegments
 (
 nsWriteSegmentFun
