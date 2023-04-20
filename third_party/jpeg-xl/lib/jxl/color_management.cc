@@ -157,17 +157,6 @@ lib
 /
 jxl
 /
-linalg
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 opsin_params
 .
 h

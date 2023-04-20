@@ -93,7 +93,7 @@ lib
 /
 jxl
 /
-linalg
+matrix_ops
 .
 h
 "

@@ -100,6 +100,11 @@ h
 namespace
 jxl
 {
+size_t
+VectorSize
+(
+)
+;
 struct
 PlaneBase
 {

@@ -279,6 +279,17 @@ j_decompress_ptr
 cinfo
 )
 ;
+void
+jpegli_set_output_format
+(
+j_decompress_ptr
+cinfo
+JpegliDataType
+data_type
+JpegliEndianness
+endianness
+)
+;
 #
 if
 defined

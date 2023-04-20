@@ -123,7 +123,7 @@ lib
 /
 jxl
 /
-linalg
+matrix_ops
 .
 h
 "
@@ -4273,13 +4273,10 @@ beta
 3
 ]
 ;
-MatMul
+Mul3x3Vector
 (
 A
 gamma
-3
-3
-1
 beta
 )
 ;

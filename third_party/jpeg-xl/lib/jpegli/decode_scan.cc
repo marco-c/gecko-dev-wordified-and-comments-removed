@@ -1650,7 +1650,7 @@ cur_comp_info
 i
 ]
 ;
-JPEGComponent
+DecJPEGComponent
 *
 c
 =
@@ -1870,7 +1870,7 @@ cur_comp_info
 i
 ]
 ;
-JPEGComponent
+DecJPEGComponent
 *
 c
 =
@@ -2350,7 +2350,7 @@ cur_comp_info
 i
 ]
 ;
-JPEGComponent
+DecJPEGComponent
 *
 c
 =
