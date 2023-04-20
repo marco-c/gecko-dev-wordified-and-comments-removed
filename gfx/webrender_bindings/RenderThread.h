@@ -1112,12 +1112,6 @@ DeferredRenderTextureHostDestroy
 void
 ShutDownTask
 (
-layers
-:
-:
-SynchronousTask
-*
-aTask
 )
 ;
 void
