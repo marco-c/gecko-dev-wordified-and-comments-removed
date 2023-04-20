@@ -126,6 +126,18 @@ discard
 "
 }
 ;
+/
+/
+[
+Serializable
+]
+is
+implemented
+without
+adding
+attribute
+here
+.
 [
 Exposed
 =
@@ -133,7 +145,6 @@ Exposed
 Window
 DedicatedWorker
 )
-Serializable
 /
 *
 Transferable
