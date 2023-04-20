@@ -37,10 +37,6 @@ debug
 (
 false
 )
-debugShaderPrecision
-(
-true
-)
 {
 }
 TPragma
@@ -59,10 +55,6 @@ debug
 (
 d
 )
-debugShaderPrecision
-(
-true
-)
 {
 }
 bool
@@ -70,9 +62,6 @@ optimize
 ;
 bool
 debug
-;
-bool
-debugShaderPrecision
 ;
 STDGL
 stdgl

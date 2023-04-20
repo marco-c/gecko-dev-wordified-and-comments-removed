@@ -884,7 +884,10 @@ false
 }
 if
 (
-IsAtomicFunction
+BuiltInGroup
+:
+:
+IsAtomicMemory
 (
 node
 -
@@ -1060,13 +1063,13 @@ if
 qual
 =
 =
-EvqInOut
+EvqParamInOut
 |
 |
 qual
 =
 =
-EvqOut
+EvqParamOut
 )
 {
 TIntermBinary

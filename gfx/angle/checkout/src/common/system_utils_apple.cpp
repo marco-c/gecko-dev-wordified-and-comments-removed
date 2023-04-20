@@ -219,7 +219,7 @@ lastPathSepLoc
 ;
 }
 double
-GetCurrentTime
+GetCurrentSystemTime
 (
 )
 {

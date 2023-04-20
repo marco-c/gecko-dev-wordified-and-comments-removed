@@ -36,7 +36,11 @@ TSymbolTable
 class
 PerformanceDiagnostics
 ;
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 bool
 RemoveDynamicIndexingOfNonSSBOVectorOrMatrix
 (
@@ -54,7 +58,11 @@ PerformanceDiagnostics
 perfDiagnostics
 )
 ;
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 bool
 RemoveDynamicIndexingOfSwizzledVector
 (

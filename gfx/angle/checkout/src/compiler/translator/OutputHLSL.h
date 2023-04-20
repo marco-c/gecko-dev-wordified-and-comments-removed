@@ -181,7 +181,9 @@ ShaderVariable
 >
 &
 uniforms
+const
 ShCompileOptions
+&
 compileOptions
 sh
 :
@@ -217,6 +219,8 @@ InterfaceBlock
 >
 &
 shaderStorageBlocks
+bool
+isEarlyFragmentTestsSpecified
 )
 ;
 ~
@@ -759,8 +763,10 @@ TInfoSinkBase
 out
 Visit
 visit
-TOperator
-op
+const
+TFunction
+*
+function
 )
 ;
 bool
@@ -887,7 +893,9 @@ const
 ShShaderOutput
 mOutputType
 ;
+const
 ShCompileOptions
+&
 mCompileOptions
 ;
 bool
@@ -1225,6 +1233,9 @@ node
 ShaderStorageBlockOutputHLSL
 *
 mSSBOOutputHLSL
+;
+bool
+mIsEarlyFragmentTestsSpecified
 ;
 bool
 mNeedStructMapping

@@ -134,14 +134,11 @@ freeTlsIndices
 ;
 #
 endif
-bool
-gUseAndroidOpenGLTlsSlot
-=
-false
-;
 TLSIndex
 CreateTLSIndex
 (
+PthreadKeyDestructor
+destructor
 )
 {
 TLSIndex
@@ -215,7 +212,7 @@ pthread_key_create
 (
 &
 index
-nullptr
+destructor
 )
 )
 !
@@ -240,8 +237,6 @@ TLS_INVALID_INDEX
 &
 "
 CreateTLSIndex
-(
-)
 :
 Unable
 to

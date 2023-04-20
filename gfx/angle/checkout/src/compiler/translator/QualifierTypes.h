@@ -841,6 +841,8 @@ const
 TTypeQualifier
 getParameterTypeQualifier
 (
+TBasicType
+parameterBasicType
 TDiagnostics
 *
 diagnostics

@@ -246,7 +246,10 @@ context
 )
 override
 ;
-void
+angle
+:
+:
+Result
 setLabel
 (
 const
@@ -469,7 +472,7 @@ getPrimitivesDrawn
 ;
 }
 bool
-buffersBoundForOtherUse
+buffersBoundForOtherUseInWebGL
 (
 )
 const

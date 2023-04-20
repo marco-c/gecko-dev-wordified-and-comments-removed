@@ -22,7 +22,11 @@ TCompiler
 class
 TIntermBlock
 ;
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 bool
 RemoveArrayLengthMethod
 (

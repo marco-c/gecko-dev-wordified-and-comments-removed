@@ -51,7 +51,11 @@ InterfaceBlock
 #
 ifdef
 ANGLE_ENABLE_GLSL
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 bool
 UseInterfaceBlockFields
 (
@@ -73,7 +77,11 @@ symbolTable
 ;
 #
 else
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 ANGLE_INLINE
 bool
 UseInterfaceBlockFields

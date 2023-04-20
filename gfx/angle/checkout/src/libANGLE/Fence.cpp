@@ -362,7 +362,10 @@ mFence
 )
 ;
 }
-void
+angle
+:
+:
+Result
 Sync
 :
 :
@@ -384,6 +387,15 @@ label
 mLabel
 =
 label
+;
+return
+angle
+:
+:
+Result
+:
+:
+Continue
 ;
 }
 const

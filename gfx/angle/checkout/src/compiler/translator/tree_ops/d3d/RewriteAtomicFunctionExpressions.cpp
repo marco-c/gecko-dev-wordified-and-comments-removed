@@ -448,7 +448,10 @@ node
 if
 (
 !
-IsAtomicFunction
+BuiltInGroup
+:
+:
+IsAtomicMemory
 (
 node
 -
@@ -521,7 +524,10 @@ PostVisit
 ;
 if
 (
-IsAtomicFunction
+BuiltInGroup
+:
+:
+IsAtomicMemory
 (
 node
 -

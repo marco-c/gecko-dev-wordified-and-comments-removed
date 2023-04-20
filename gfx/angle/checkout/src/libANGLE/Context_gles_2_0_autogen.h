@@ -1181,7 +1181,7 @@ ShaderProgramID
 *
 shadersPacked
 GLenum
-binaryformat
+binaryFormat
 \
 const
 void
