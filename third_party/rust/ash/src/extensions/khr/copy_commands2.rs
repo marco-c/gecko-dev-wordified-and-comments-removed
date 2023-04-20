@@ -111,6 +111,10 @@ Self
 fp
 }
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -145,6 +149,10 @@ command_buffer
 copy_buffer_info
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -179,6 +187,10 @@ command_buffer
 copy_image_info
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -213,6 +225,10 @@ command_buffer
 copy_buffer_to_image_info
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -247,6 +263,10 @@ command_buffer
 copy_image_to_buffer_info
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -281,6 +301,10 @@ command_buffer
 blit_image_info
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -315,6 +339,10 @@ command_buffer
 resolve_image_info
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -338,6 +366,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp

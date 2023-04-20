@@ -129,6 +129,10 @@ handle
 fp
 }
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -169,6 +173,10 @@ memory_requirements
 )
 ;
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -209,6 +217,10 @@ memory_requirements
 )
 ;
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -261,6 +273,10 @@ count
 as
 usize
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -335,6 +351,10 @@ len
 )
 ;
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -358,6 +378,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -378,6 +402,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 device

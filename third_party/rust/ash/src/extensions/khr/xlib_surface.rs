@@ -138,6 +138,10 @@ handle
 fp
 }
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -211,6 +215,10 @@ result_with_success
 surface
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -267,6 +275,10 @@ b
 >
 0
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -290,6 +302,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -310,6 +326,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 instance

@@ -1885,7 +1885,7 @@ texture_tracker
 .
 set_single
 (
-storage
+dst_texture
 dst_texture_id
 .
 0
@@ -1896,8 +1896,6 @@ clear_usage
 unwrap
 (
 )
-.
-1
 .
 map
 (
@@ -2245,6 +2243,7 @@ fill
 a
 single
 row
+\
 of
 a
 texture

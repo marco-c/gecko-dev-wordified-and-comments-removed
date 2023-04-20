@@ -217,6 +217,8 @@ libloading
 Error
 >
 =
+unsafe
+{
 libloading
 :
 :
@@ -248,6 +250,7 @@ RTLD_NOW
 |
 RTLD_NOLOAD
 )
+}
 .
 map
 (
@@ -378,6 +381,8 @@ GetApiFn
 >
 =
 match
+unsafe
+{
 renderdoc_lib
 .
 get
@@ -389,6 +394,7 @@ RENDERDOC_GetAPI
 0
 "
 )
+}
 {
 Ok
 (
@@ -452,6 +458,8 @@ null_mut
 )
 ;
 match
+unsafe
+{
 get_api
 (
 10401
@@ -459,6 +467,7 @@ get_api
 mut
 obj
 )
+}
 {
 1
 =
@@ -474,6 +483,8 @@ RenderDocApi
 {
 api
 :
+unsafe
+{
 *
 (
 obj
@@ -485,6 +496,7 @@ renderdoc_sys
 :
 RENDERDOC_API_1_4_1
 )
+}
 lib
 :
 renderdoc_lib
@@ -636,6 +648,8 @@ entry
 =
 >
 {
+unsafe
+{
 entry
 .
 api
@@ -649,6 +663,7 @@ unwrap
 device_handle
 window_handle
 )
+}
 ;
 true
 }
@@ -719,6 +734,8 @@ entry
 =
 >
 {
+unsafe
+{
 entry
 .
 api
@@ -732,6 +749,7 @@ unwrap
 device_handle
 window_handle
 )
+}
 ;
 }
 Self

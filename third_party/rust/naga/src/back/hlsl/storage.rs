@@ -2791,7 +2791,7 @@ TypeInner
 :
 Matrix
 {
-columns
+rows
 width
 .
 .
@@ -2810,7 +2810,7 @@ Alignment
 :
 from
 (
-columns
+rows
 )
 *
 width

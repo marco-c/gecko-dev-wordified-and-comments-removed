@@ -1204,7 +1204,7 @@ wgt
 TextureFormatFeatureFlags
 :
 :
-MULTISAMPLE
+MULTISAMPLE_X4
 |
 wgt
 :

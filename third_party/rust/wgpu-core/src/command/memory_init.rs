@@ -1149,6 +1149,7 @@ range
 with
 a
 start
+\
 not
 aligned
 to
@@ -1193,6 +1194,7 @@ range
 with
 an
 end
+\
 not
 aligned
 to

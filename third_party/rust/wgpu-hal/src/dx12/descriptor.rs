@@ -881,6 +881,8 @@ destroy
 self
 )
 {
+unsafe
+{
 self
 .
 raw
@@ -888,6 +890,7 @@ raw
 destroy
 (
 )
+}
 ;
 }
 }
@@ -1250,11 +1253,14 @@ self
 .
 heaps
 {
+unsafe
+{
 heap
 .
 destroy
 (
 )
+}
 ;
 }
 }
@@ -1495,6 +1501,8 @@ destroy
 self
 )
 {
+unsafe
+{
 self
 .
 inner
@@ -1508,6 +1516,7 @@ raw
 destroy
 (
 )
+}
 ;
 }
 }
@@ -1659,6 +1668,8 @@ u64
 )
 ?
 ;
+unsafe
+{
 device
 .
 CopyDescriptors
@@ -1692,6 +1703,7 @@ ty
 as
 u32
 )
+}
 ;
 Ok
 (

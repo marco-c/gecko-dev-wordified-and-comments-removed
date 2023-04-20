@@ -120,6 +120,10 @@ Self
 fp
 }
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -182,6 +186,10 @@ result_with_success
 surface_capabilities
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -252,6 +260,10 @@ as
 usize
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -345,6 +357,10 @@ result
 (
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -368,6 +384,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp

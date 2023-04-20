@@ -111,6 +111,10 @@ Self
 fp
 }
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -146,6 +150,10 @@ first_task
 )
 ;
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -195,6 +203,10 @@ stride
 )
 ;
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -258,6 +270,10 @@ stride
 )
 ;
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -281,6 +297,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp

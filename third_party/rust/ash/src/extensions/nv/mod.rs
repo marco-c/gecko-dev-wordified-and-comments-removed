@@ -3,6 +3,16 @@ use
 self
 :
 :
+coverage_reduction_mode
+:
+:
+CoverageReductionMode
+;
+pub
+use
+self
+:
+:
 device_diagnostic_checkpoints
 :
 :
@@ -27,6 +37,9 @@ ray_tracing
 :
 :
 RayTracing
+;
+mod
+coverage_reduction_mode
 ;
 mod
 device_diagnostic_checkpoints

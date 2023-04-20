@@ -111,6 +111,10 @@ Self
 fp
 }
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -141,6 +145,10 @@ command_buffer
 patch_control_points
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -175,6 +183,10 @@ into
 )
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -209,6 +221,10 @@ into
 )
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -242,6 +258,10 @@ command_buffer
 logic_op
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -276,6 +296,10 @@ into
 )
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -299,6 +323,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp

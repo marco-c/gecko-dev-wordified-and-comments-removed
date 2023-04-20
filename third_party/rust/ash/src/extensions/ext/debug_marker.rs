@@ -132,6 +132,10 @@ handle
 fp
 }
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -173,6 +177,10 @@ result
 (
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -208,6 +216,10 @@ marker_info
 )
 ;
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -235,6 +247,10 @@ command_buffer
 )
 ;
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -270,6 +286,10 @@ marker_info
 )
 ;
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -293,6 +313,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -313,6 +337,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 device

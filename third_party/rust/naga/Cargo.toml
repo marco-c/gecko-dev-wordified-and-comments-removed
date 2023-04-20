@@ -26,7 +26,7 @@ Developers
 edition
 =
 "
-2018
+2021
 "
 description
 =
@@ -68,12 +68,6 @@ gfx
 rs
 /
 naga
-/
-tree
-/
-v0
-.
-9
 "
 keywords
 =

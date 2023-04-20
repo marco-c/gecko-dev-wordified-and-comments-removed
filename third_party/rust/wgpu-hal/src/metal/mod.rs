@@ -343,6 +343,8 @@ managed_metal_layer_delegate
 ;
 Ok
 (
+unsafe
+{
 Surface
 :
 :
@@ -353,6 +355,7 @@ handle
 ui_view
 None
 )
+}
 )
 }
 #
@@ -380,6 +383,8 @@ handle
 >
 Ok
 (
+unsafe
+{
 Surface
 :
 :
@@ -396,6 +401,7 @@ self
 managed_metal_layer_delegate
 )
 )
+}
 )
 _
 =
@@ -420,11 +426,14 @@ surface
 Surface
 )
 {
+unsafe
+{
 surface
 .
 dispose
 (
 )
+}
 ;
 }
 unsafe
@@ -906,7 +915,10 @@ max_total_threadgroup_memory
 u32
 sample_count_mask
 :
-u8
+crate
+:
+:
+TextureFormatCapabilities
 supports_debug_markers
 :
 bool
@@ -938,6 +950,9 @@ supports_depth_clip_control
 :
 bool
 supports_preserve_invariance
+:
+bool
+supports_shader_primitive_index
 :
 bool
 has_unified_memory

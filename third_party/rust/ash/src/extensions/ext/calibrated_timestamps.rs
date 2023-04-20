@@ -5,10 +5,7 @@ crate
 prelude
 :
 :
-{
-read_into_uninitialized_vector
-VkResult
-}
+*
 ;
 use
 crate
@@ -135,6 +132,10 @@ handle
 fp
 }
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -184,6 +185,10 @@ data
 }
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -296,6 +301,10 @@ max_deviation
 )
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -319,6 +328,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -339,6 +352,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 instance

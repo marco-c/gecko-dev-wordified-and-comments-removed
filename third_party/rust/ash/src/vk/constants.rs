@@ -230,6 +230,14 @@ usize
 ;
 pub
 const
+MAX_SHADER_MODULE_IDENTIFIER_SIZE_EXT
+:
+usize
+=
+32
+;
+pub
+const
 SHADER_UNUSED_NV
 :
 u32

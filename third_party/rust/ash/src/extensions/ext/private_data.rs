@@ -138,6 +138,10 @@ handle
 fp
 }
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -211,6 +215,10 @@ result_with_success
 private_data_slot
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -255,6 +263,10 @@ as_raw_ptr
 )
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -319,6 +331,10 @@ result
 (
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -387,6 +403,10 @@ data
 ;
 data
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -410,6 +430,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -430,6 +454,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 device

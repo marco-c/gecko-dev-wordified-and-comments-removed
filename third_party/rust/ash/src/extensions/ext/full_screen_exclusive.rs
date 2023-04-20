@@ -132,6 +132,10 @@ handle
 fp
 }
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -172,6 +176,10 @@ result
 (
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -229,6 +237,10 @@ data
 }
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -269,6 +281,10 @@ result
 (
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -327,6 +343,10 @@ result_with_success
 present_modes
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -350,6 +370,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -370,6 +394,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 device

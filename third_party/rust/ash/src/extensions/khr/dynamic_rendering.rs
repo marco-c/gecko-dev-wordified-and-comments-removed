@@ -111,6 +111,10 @@ Self
 fp
 }
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -145,6 +149,10 @@ command_buffer
 rendering_info
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -171,6 +179,10 @@ cmd_end_rendering_khr
 command_buffer
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -194,6 +206,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp

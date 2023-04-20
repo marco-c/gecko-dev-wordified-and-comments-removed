@@ -2409,6 +2409,7 @@ bind_group
 .
 validate_dynamic_bindings
 (
+index
 &
 temp_offsets
 &
@@ -4023,6 +4024,8 @@ usize
 let
 redundant
 =
+unsafe
+{
 pass
 .
 current_bind_groups
@@ -4041,6 +4044,7 @@ dynamic_offsets
 offsets
 offset_length
 )
+}
 ;
 if
 redundant
@@ -4234,6 +4238,8 @@ bytes
 let
 data_slice
 =
+unsafe
+{
 slice
 :
 :
@@ -4244,6 +4250,7 @@ size_bytes
 as
 usize
 )
+}
 ;
 let
 value_offset
@@ -4486,6 +4493,8 @@ u32
 let
 bytes
 =
+unsafe
+{
 ffi
 :
 :
@@ -4496,6 +4505,7 @@ from_ptr
 (
 label
 )
+}
 .
 to_bytes
 (
@@ -4600,6 +4610,8 @@ u32
 let
 bytes
 =
+unsafe
+{
 ffi
 :
 :
@@ -4610,6 +4622,7 @@ from_ptr
 (
 label
 )
+}
 .
 to_bytes
 (

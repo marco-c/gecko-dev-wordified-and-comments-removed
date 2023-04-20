@@ -120,6 +120,10 @@ Self
 fp
 }
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -154,6 +158,10 @@ command_buffer
 dependency_info
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -194,6 +202,10 @@ event
 stage_mask
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -235,6 +247,10 @@ event
 dependency_info
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -311,6 +327,10 @@ as_ptr
 )
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -355,6 +375,10 @@ query_pool
 query
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -420,6 +444,10 @@ result
 (
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -443,6 +471,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp

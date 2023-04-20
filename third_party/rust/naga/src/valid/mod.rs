@@ -1168,11 +1168,7 @@ Type
 name
 :
 String
-#
-[
 source
-]
-error
 :
 TypeError
 }
@@ -1211,11 +1207,7 @@ Constant
 name
 :
 String
-#
-[
 source
-]
-error
 :
 ConstantError
 }
@@ -1255,11 +1247,7 @@ GlobalVariable
 name
 :
 String
-#
-[
 source
-]
-error
 :
 GlobalVariableError
 }
@@ -1298,11 +1286,7 @@ Function
 name
 :
 String
-#
-[
 source
-]
-error
 :
 FunctionError
 }
@@ -1338,11 +1322,7 @@ ShaderStage
 name
 :
 String
-#
-[
 source
-]
-error
 :
 EntryPointError
 }
@@ -2265,7 +2245,7 @@ types
 map_err
 (
 |
-error
+source
 |
 {
 ValidationError
@@ -2287,7 +2267,7 @@ clone
 unwrap_or_default
 (
 )
-error
+source
 }
 .
 with_span_handle
@@ -2338,7 +2318,7 @@ constants
 map_err
 (
 |
-error
+source
 |
 {
 ValidationError
@@ -2360,7 +2340,7 @@ clone
 unwrap_or_default
 (
 )
-error
+source
 }
 .
 with_span_handle
@@ -2428,7 +2408,7 @@ types
 map_err
 (
 |
-error
+source
 |
 {
 ValidationError
@@ -2452,7 +2432,7 @@ clone
 unwrap_or_default
 (
 )
-error
+source
 }
 .
 with_span_handle
@@ -2561,7 +2541,7 @@ error
 and_then
 (
 |
-error
+source
 |
 {
 ValidationError
@@ -2583,7 +2563,7 @@ clone
 unwrap_or_default
 (
 )
-error
+source
 }
 .
 with_span_handle
@@ -2661,7 +2641,7 @@ name
 clone
 (
 )
-error
+source
 :
 EntryPointError
 :
@@ -2725,7 +2705,7 @@ error
 and_then
 (
 |
-inner
+source
 |
 {
 ValidationError
@@ -2747,9 +2727,7 @@ name
 clone
 (
 )
-error
-:
-inner
+source
 }
 .
 with_span
@@ -2758,6 +2736,7 @@ with_span
 }
 )
 )
+;
 }
 }
 }

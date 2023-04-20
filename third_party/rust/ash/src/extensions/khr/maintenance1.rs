@@ -123,6 +123,10 @@ handle
 fp
 }
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -160,6 +164,10 @@ flags
 )
 ;
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -183,6 +191,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -203,6 +215,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 device

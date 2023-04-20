@@ -138,6 +138,10 @@ handle
 fp
 }
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -197,6 +201,10 @@ b
 0
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -253,6 +261,10 @@ data
 }
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -314,6 +326,10 @@ result_with_success
 surface_capabilities
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -370,6 +386,10 @@ data
 }
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -415,6 +435,10 @@ as_raw_ptr
 )
 ;
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -438,6 +462,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -458,6 +486,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 instance

@@ -33,6 +33,10 @@ PhysicalDeviceDrm
 impl
 PhysicalDeviceDrm
 {
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -105,6 +109,10 @@ props
 }
 props_drm
 }
+#
+[
+inline
+]
 pub
 const
 fn

@@ -390,6 +390,8 @@ build
 let
 cmd_buf_vec
 =
+unsafe
+{
 self
 .
 device
@@ -402,6 +404,7 @@ allocate_command_buffers
 vk_info
 )
 ?
+}
 ;
 self
 .
@@ -428,6 +431,8 @@ unwrap
 (
 )
 ;
+unsafe
+{
 self
 .
 device
@@ -448,6 +453,7 @@ unwrap_or_default
 (
 )
 )
+}
 ;
 self
 .
@@ -483,6 +489,8 @@ build
 (
 )
 ;
+unsafe
+{
 self
 .
 device
@@ -495,6 +503,7 @@ raw
 &
 vk_info
 )
+}
 ?
 ;
 self
@@ -552,6 +561,8 @@ null
 (
 )
 ;
+unsafe
+{
 self
 .
 device
@@ -562,6 +573,7 @@ end_command_buffer
 (
 raw
 )
+}
 ?
 ;
 Ok
@@ -684,6 +696,8 @@ discarded
 let
 _
 =
+unsafe
+{
 self
 .
 device
@@ -705,6 +719,7 @@ default
 (
 )
 )
+}
 ;
 }
 unsafe
@@ -890,6 +905,8 @@ is_empty
 (
 )
 {
+unsafe
+{
 self
 .
 device
@@ -920,6 +937,7 @@ vk_barriers
 [
 ]
 )
+}
 ;
 }
 }
@@ -1177,6 +1195,8 @@ is_empty
 (
 )
 {
+unsafe
+{
 self
 .
 device
@@ -1207,6 +1227,7 @@ empty
 ]
 vk_barriers
 )
+}
 ;
 }
 }
@@ -1231,6 +1252,8 @@ crate
 :
 MemoryRange
 )
+{
+unsafe
 {
 self
 .
@@ -1258,6 +1281,7 @@ range
 start
 0
 )
+}
 ;
 }
 unsafe
@@ -1338,6 +1362,8 @@ get
 }
 )
 ;
+unsafe
+{
 self
 .
 device
@@ -1379,6 +1405,7 @@ from_iter
 vk_regions_iter
 )
 )
+}
 ;
 }
 unsafe
@@ -1555,6 +1582,8 @@ extent
 }
 )
 ;
+unsafe
+{
 self
 .
 device
@@ -1598,6 +1627,7 @@ from_iter
 vk_regions_iter
 )
 )
+}
 ;
 }
 unsafe
@@ -1651,6 +1681,8 @@ map_buffer_copies
 regions
 )
 ;
+unsafe
+{
 self
 .
 device
@@ -1693,6 +1725,7 @@ from_iter
 vk_regions_iter
 )
 )
+}
 ;
 }
 unsafe
@@ -1766,6 +1799,8 @@ map_buffer_copies
 regions
 )
 ;
+unsafe
+{
 self
 .
 device
@@ -1808,6 +1843,7 @@ from_iter
 vk_regions_iter
 )
 )
+}
 ;
 }
 unsafe
@@ -1828,6 +1864,8 @@ index
 :
 u32
 )
+{
+unsafe
 {
 self
 .
@@ -1854,6 +1892,7 @@ empty
 (
 )
 )
+}
 ;
 }
 unsafe
@@ -1875,6 +1914,8 @@ index
 u32
 )
 {
+unsafe
+{
 self
 .
 device
@@ -1891,6 +1932,7 @@ set
 raw
 index
 )
+}
 ;
 }
 unsafe
@@ -1911,6 +1953,8 @@ index
 :
 u32
 )
+{
+unsafe
 {
 self
 .
@@ -1935,6 +1979,7 @@ set
 raw
 index
 )
+}
 ;
 }
 unsafe
@@ -1958,6 +2003,8 @@ Range
 u32
 >
 )
+{
+unsafe
 {
 self
 .
@@ -1984,6 +2031,7 @@ range
 .
 start
 )
+}
 ;
 }
 unsafe
@@ -2026,6 +2074,8 @@ wgt
 :
 BufferSize
 )
+{
+unsafe
 {
 self
 .
@@ -2076,6 +2126,7 @@ QueryResultFlags
 :
 WAIT
 )
+}
 ;
 }
 unsafe
@@ -2234,11 +2285,14 @@ ClearValue
 {
 color
 :
+unsafe
+{
 cat
 .
 make_vk_clear_color
 (
 )
+}
 }
 )
 ;
@@ -2356,12 +2410,15 @@ vk_clear_values
 .
 push
 (
+unsafe
+{
 mem
 :
 :
 zeroed
 (
 )
+}
 )
 ;
 vk_image_views
@@ -2869,12 +2926,15 @@ desc
 .
 label
 {
+unsafe
+{
 self
 .
 begin_debug_marker
 (
 label
 )
+}
 ;
 self
 .
@@ -2883,6 +2943,8 @@ rpass_debug_marker_active
 true
 ;
 }
+unsafe
+{
 self
 .
 device
@@ -2939,6 +3001,8 @@ SubpassContents
 INLINE
 )
 ;
+}
+;
 self
 .
 bind_point
@@ -2960,6 +3024,8 @@ end_render_pass
 mut
 self
 )
+{
+unsafe
 {
 self
 .
@@ -2991,6 +3057,7 @@ rpass_debug_marker_active
 =
 false
 ;
+}
 }
 }
 unsafe
@@ -3042,6 +3109,8 @@ raw
 )
 ]
 ;
+unsafe
+{
 self
 .
 device
@@ -3064,6 +3133,7 @@ index
 sets
 dynamic_offsets
 )
+}
 ;
 }
 unsafe
@@ -3096,6 +3166,8 @@ data
 u32
 ]
 )
+{
+unsafe
 {
 self
 .
@@ -3140,6 +3212,7 @@ len
 4
 )
 )
+}
 ;
 }
 unsafe
@@ -3204,6 +3277,8 @@ build
 (
 )
 ;
+unsafe
+{
 ext
 .
 cmd_insert_debug_utils_label
@@ -3214,6 +3289,7 @@ active
 &
 vk_label
 )
+}
 ;
 }
 }
@@ -3279,6 +3355,8 @@ build
 (
 )
 ;
+unsafe
+{
 ext
 .
 cmd_begin_debug_utils_label
@@ -3289,6 +3367,7 @@ active
 &
 vk_label
 )
+}
 ;
 }
 }
@@ -3316,6 +3395,8 @@ debug_messenger
 (
 )
 {
+unsafe
+{
 ext
 .
 cmd_end_debug_utils_label
@@ -3324,6 +3405,7 @@ self
 .
 active
 )
+}
 ;
 }
 }
@@ -3342,6 +3424,8 @@ super
 :
 RenderPipeline
 )
+{
+unsafe
 {
 self
 .
@@ -3365,6 +3449,7 @@ pipeline
 .
 raw
 )
+}
 ;
 }
 unsafe
@@ -3400,6 +3485,8 @@ wgt
 IndexFormat
 )
 {
+unsafe
+{
 self
 .
 device
@@ -3427,6 +3514,7 @@ map_index_format
 format
 )
 )
+}
 ;
 }
 unsafe
@@ -3479,6 +3567,8 @@ binding
 offset
 ]
 ;
+unsafe
+{
 self
 .
 device
@@ -3496,6 +3586,7 @@ vk_buffers
 &
 vk_offsets
 )
+}
 ;
 }
 unsafe
@@ -3586,6 +3677,8 @@ end
 }
 ]
 ;
+unsafe
+{
 self
 .
 device
@@ -3601,6 +3694,7 @@ active
 &
 vk_viewports
 )
+}
 ;
 }
 unsafe
@@ -3674,6 +3768,8 @@ h
 }
 ]
 ;
+unsafe
+{
 self
 .
 device
@@ -3689,6 +3785,7 @@ active
 &
 vk_scissors
 )
+}
 ;
 }
 unsafe
@@ -3702,6 +3799,8 @@ value
 :
 u32
 )
+{
+unsafe
 {
 self
 .
@@ -3723,6 +3822,7 @@ StencilFaceFlags
 FRONT_AND_BACK
 value
 )
+}
 ;
 }
 unsafe
@@ -3742,6 +3842,8 @@ f32
 ]
 )
 {
+unsafe
+{
 self
 .
 device
@@ -3755,6 +3857,7 @@ self
 active
 color
 )
+}
 ;
 }
 unsafe
@@ -3778,6 +3881,8 @@ instance_count
 u32
 )
 {
+unsafe
+{
 self
 .
 device
@@ -3794,6 +3899,7 @@ instance_count
 start_vertex
 start_instance
 )
+}
 ;
 }
 unsafe
@@ -3820,6 +3926,8 @@ instance_count
 u32
 )
 {
+unsafe
+{
 self
 .
 device
@@ -3837,6 +3945,7 @@ start_index
 base_vertex
 start_instance
 )
+}
 ;
 }
 unsafe
@@ -3863,6 +3972,8 @@ draw_count
 :
 u32
 )
+{
+unsafe
 {
 self
 .
@@ -3897,6 +4008,7 @@ DrawIndirectArgs
 as
 u32
 )
+}
 ;
 }
 unsafe
@@ -3923,6 +4035,8 @@ draw_count
 :
 u32
 )
+{
+unsafe
 {
 self
 .
@@ -3957,6 +4071,7 @@ DrawIndexedIndirectArgs
 as
 u32
 )
+}
 ;
 }
 unsafe
@@ -4034,6 +4149,8 @@ t
 =
 >
 {
+unsafe
+{
 t
 .
 cmd_draw_indirect_count
@@ -4052,6 +4169,7 @@ count_offset
 max_count
 stride
 )
+}
 ;
 }
 None
@@ -4144,6 +4262,8 @@ t
 =
 >
 {
+unsafe
+{
 t
 .
 cmd_draw_indexed_indirect_count
@@ -4162,6 +4282,7 @@ count_offset
 max_count
 stride
 )
+}
 ;
 }
 None
@@ -4218,12 +4339,15 @@ desc
 .
 label
 {
+unsafe
+{
 self
 .
 begin_debug_marker
 (
 label
 )
+}
 ;
 self
 .
@@ -4247,11 +4371,14 @@ self
 .
 rpass_debug_marker_active
 {
+unsafe
+{
 self
 .
 end_debug_marker
 (
 )
+}
 ;
 self
 .
@@ -4276,6 +4403,8 @@ super
 ComputePipeline
 )
 {
+unsafe
+{
 self
 .
 device
@@ -4298,6 +4427,7 @@ pipeline
 .
 raw
 )
+}
 ;
 }
 unsafe
@@ -4315,6 +4445,8 @@ u32
 3
 ]
 )
+{
+unsafe
 {
 self
 .
@@ -4340,6 +4472,7 @@ count
 2
 ]
 )
+}
 ;
 }
 unsafe
@@ -4364,6 +4497,8 @@ wgt
 BufferAddress
 )
 {
+unsafe
+{
 self
 .
 device
@@ -4380,6 +4515,7 @@ buffer
 raw
 offset
 )
+}
 }
 }
 #

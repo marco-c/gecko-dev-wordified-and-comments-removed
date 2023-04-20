@@ -138,6 +138,10 @@ handle
 fp
 }
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -196,6 +200,10 @@ result_with_success
 handle
 )
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -260,6 +268,10 @@ result_with_success
 memory_win32_handle_properties
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -283,6 +295,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -303,6 +319,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 device

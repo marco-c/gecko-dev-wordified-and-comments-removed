@@ -120,6 +120,10 @@ Self
 fp
 }
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -186,6 +190,10 @@ as_ptr
 )
 ;
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -237,6 +245,10 @@ p_data
 )
 ;
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -260,6 +272,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp

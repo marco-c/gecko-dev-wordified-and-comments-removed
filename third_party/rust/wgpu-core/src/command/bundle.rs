@@ -3873,12 +3873,15 @@ base
 .
 label
 {
+unsafe
+{
 raw
 .
 begin_debug_marker
 (
 label
 )
+}
 ;
 }
 for
@@ -3924,6 +3927,8 @@ unwrap
 (
 )
 ;
+unsafe
+{
 raw
 .
 set_bind_group
@@ -3956,6 +3961,7 @@ as
 usize
 ]
 )
+}
 ;
 offsets
 =
@@ -3994,6 +4000,8 @@ unwrap
 (
 )
 ;
+unsafe
+{
 raw
 .
 set_render_pipeline
@@ -4003,6 +4011,7 @@ pipeline
 .
 raw
 )
+}
 ;
 pipeline_layout_id
 =
@@ -4074,6 +4083,8 @@ offset
 size
 }
 ;
+unsafe
+{
 raw
 .
 set_index_buffer
@@ -4081,6 +4092,7 @@ set_index_buffer
 bb
 index_format
 )
+}
 ;
 }
 RenderCommand
@@ -4141,6 +4153,8 @@ offset
 size
 }
 ;
+unsafe
+{
 raw
 .
 set_vertex_buffer
@@ -4148,6 +4162,7 @@ set_vertex_buffer
 slot
 bb
 )
+}
 ;
 }
 RenderCommand
@@ -4226,6 +4241,8 @@ usize
 values_end_offset
 ]
 ;
+unsafe
+{
 raw
 .
 set_push_constants
@@ -4238,6 +4255,7 @@ stages
 offset
 data_slice
 )
+}
 }
 else
 {
@@ -4253,6 +4271,8 @@ clear_offset
 clear_data
 |
 {
+unsafe
+{
 raw
 .
 set_push_constants
@@ -4265,6 +4285,7 @@ stages
 clear_offset
 clear_data
 )
+}
 ;
 }
 )
@@ -4284,6 +4305,8 @@ first_instance
 =
 >
 {
+unsafe
+{
 raw
 .
 draw
@@ -4293,6 +4316,7 @@ vertex_count
 first_instance
 instance_count
 )
+}
 ;
 }
 RenderCommand
@@ -4309,6 +4333,8 @@ first_instance
 =
 >
 {
+unsafe
+{
 raw
 .
 draw_indexed
@@ -4319,6 +4345,7 @@ base_vertex
 first_instance
 instance_count
 )
+}
 ;
 }
 RenderCommand
@@ -4370,6 +4397,8 @@ buffer_id
 )
 ?
 ;
+unsafe
+{
 raw
 .
 draw_indirect
@@ -4378,6 +4407,7 @@ buffer
 offset
 1
 )
+}
 ;
 }
 RenderCommand
@@ -4429,6 +4459,8 @@ buffer_id
 )
 ?
 ;
+unsafe
+{
 raw
 .
 draw_indexed_indirect
@@ -4437,6 +4469,7 @@ buffer
 offset
 1
 )
+}
 ;
 }
 RenderCommand
@@ -4618,11 +4651,14 @@ base
 .
 label
 {
+unsafe
+{
 raw
 .
 end_debug_marker
 (
 )
+}
 ;
 }
 Ok
@@ -6683,6 +6719,8 @@ usize
 let
 redundant
 =
+unsafe
+{
 bundle
 .
 current_bind_groups
@@ -6701,6 +6739,7 @@ dynamic_offsets
 offsets
 offset_length
 )
+}
 ;
 if
 redundant
@@ -7006,6 +7045,8 @@ bytes
 let
 data_slice
 =
+unsafe
+{
 slice
 :
 :
@@ -7016,6 +7057,7 @@ size_bytes
 as
 usize
 )
+}
 ;
 let
 value_offset

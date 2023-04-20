@@ -2303,15 +2303,6 @@ Option
 u32
 >
 {
-use
-std
-:
-:
-convert
-:
-:
-TryInto
-;
 match
 self
 .

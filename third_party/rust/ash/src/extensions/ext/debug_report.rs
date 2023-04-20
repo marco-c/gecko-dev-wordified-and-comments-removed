@@ -138,6 +138,10 @@ handle
 fp
 }
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -183,6 +187,10 @@ as_raw_ptr
 )
 ;
 }
+#
+[
+inline
+]
 pub
 unsafe
 fn
@@ -256,6 +264,10 @@ result_with_success
 debug_cb
 )
 }
+#
+[
+inline
+]
 pub
 const
 fn
@@ -279,6 +291,10 @@ name
 (
 )
 }
+#
+[
+inline
+]
 pub
 fn
 fp
@@ -299,6 +315,10 @@ self
 .
 fp
 }
+#
+[
+inline
+]
 pub
 fn
 instance

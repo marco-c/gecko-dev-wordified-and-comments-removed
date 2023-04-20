@@ -5728,6 +5728,17 @@ unwrap
 (
 )
 ;
+objc
+:
+:
+rc
+:
+:
+autoreleasepool
+(
+|
+|
+{
 let
 encoder
 =
@@ -5769,6 +5780,9 @@ encoder
 to_owned
 (
 )
+)
+;
+}
 )
 ;
 }
