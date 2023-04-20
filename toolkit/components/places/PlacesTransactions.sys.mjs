@@ -10497,9 +10497,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Unable
 to
@@ -11687,9 +11687,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Invalid

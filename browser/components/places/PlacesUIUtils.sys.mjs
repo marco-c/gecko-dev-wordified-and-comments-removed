@@ -607,9 +607,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 When
@@ -11556,9 +11556,9 @@ the
 button
 then
 :
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -13551,9 +13551,9 @@ type
 )
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Tried

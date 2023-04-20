@@ -961,9 +961,9 @@ from
 being
 loaded
 .
-Cu
+console
 .
-reportError
+error
 (
 ex
 )
@@ -998,9 +998,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 ex
 )
@@ -1212,9 +1212,9 @@ from
 being
 saved
 .
-Cu
+console
 .
-reportError
+error
 (
 ex
 )

@@ -2502,9 +2502,9 @@ reason
 =
 >
 {
-Cu
+console
 .
-reportError
+error
 (
 reason
 )

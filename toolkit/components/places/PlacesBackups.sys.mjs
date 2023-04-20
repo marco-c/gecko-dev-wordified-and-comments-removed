@@ -1797,9 +1797,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 new
 Error
@@ -3270,9 +3270,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Unable
