@@ -460,15 +460,6 @@ ConversionRequired
 kNeedNone
 ;
 }
-virtual
-bool
-IsEncrypted
-(
-)
-const
-=
-0
-;
 protected
 :
 HRESULT

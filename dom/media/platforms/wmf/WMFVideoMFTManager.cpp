@@ -1733,9 +1733,6 @@ Mode
 }
 if
 (
-gfx
-:
-:
 gfxVars
 :
 :
