@@ -552,9 +552,13 @@ f
 targetScrollPosition
 .
 y
+.
+value
 geckoScrollPosition
 .
 y
+.
+value
 )
 .
 get
@@ -618,9 +622,13 @@ f
 targetScrollPosition
 .
 x
+.
+value
 geckoScrollPosition
 .
 x
+.
+value
 )
 .
 get

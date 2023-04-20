@@ -91,15 +91,6 @@ typename
 struct
 IsPixel
 ;
-namespace
-gfx
-{
-struct
-UnknownUnits
-{
-}
-;
-}
 template
 <
 >

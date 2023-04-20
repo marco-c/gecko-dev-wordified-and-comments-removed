@@ -3087,6 +3087,8 @@ min
 hotspot
 .
 x
+.
+value
 mSize
 .
 width
@@ -3113,6 +3115,8 @@ min
 hotspot
 .
 y
+.
+value
 mSize
 .
 height

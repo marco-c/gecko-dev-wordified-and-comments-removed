@@ -824,8 +824,12 @@ mVelocity
 aStartingVelocity
 .
 x
+.
+value
 /
 mVelocity
+.
+value
 ;
 float
 coeffY
@@ -842,8 +846,12 @@ mVelocity
 aStartingVelocity
 .
 y
+.
+value
 /
 mVelocity
+.
+value
 ;
 mTargetDistance
 =

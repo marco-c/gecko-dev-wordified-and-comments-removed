@@ -50,6 +50,11 @@ IsPixel
 namespace
 gfx
 {
+struct
+UnknownUnits
+{
+}
+;
 template
 <
 class
@@ -439,8 +444,6 @@ Rep
 >
 >
 public
-Units
-public
 CoordOperatorsHelper
 <
 true
@@ -587,8 +590,6 @@ Units
 F
 >
 >
-public
-Units
 public
 CoordOperatorsHelper
 <
@@ -912,6 +913,13 @@ value
 ;
 }
 }
+;
+typedef
+CoordTyped
+<
+UnknownUnits
+>
+Coord
 ;
 }
 }

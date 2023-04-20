@@ -922,10 +922,14 @@ mSurface
 pt
 .
 x
+.
+value
 &
 pt
 .
 y
+.
+value
 )
 ;
 return

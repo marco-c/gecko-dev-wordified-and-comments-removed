@@ -787,6 +787,8 @@ mGlyphs
 mPosition
 .
 x
+.
+value
 )
 decltype
 (
@@ -821,6 +823,8 @@ mGlyphs
 mPosition
 .
 y
+.
+value
 )
 decltype
 (

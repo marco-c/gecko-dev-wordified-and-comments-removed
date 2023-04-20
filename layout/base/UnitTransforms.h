@@ -62,6 +62,7 @@ LayerIsImage
 ExternalIsScreen
 ContentProcessIsLayerInUiProcess
 PropagatingToChildProcess
+DeltaIsPageProportion
 }
 ;
 template

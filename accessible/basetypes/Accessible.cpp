@@ -716,10 +716,14 @@ ConvertScreenCoordsTo
 point
 .
 x
+.
+value
 &
 point
 .
 y
+.
+value
 aCoordType
 this
 )

@@ -507,10 +507,10 @@ AdjustDisplacement
 (
 ParentLayerCoord
 aDisplacement
-float
+ParentLayerCoord
 &
 aDisplacementOut
-float
+ParentLayerCoord
 &
 aOverscrollAmountOut
 bool

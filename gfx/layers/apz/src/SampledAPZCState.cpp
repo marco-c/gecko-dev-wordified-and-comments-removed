@@ -419,9 +419,13 @@ FuzzyEqualsAdditive
 paintedOffset
 .
 x
+.
+value
 asyncOffset
 .
 x
+.
+value
 EPSILON
 .
 value
@@ -433,9 +437,13 @@ FuzzyEqualsAdditive
 paintedOffset
 .
 y
+.
+value
 asyncOffset
 .
 y
+.
+value
 EPSILON
 .
 value

@@ -3700,10 +3700,14 @@ target
 offset
 .
 x
+.
+value
 &
 offset
 .
 y
+.
+value
 )
 ;
 IntPoint

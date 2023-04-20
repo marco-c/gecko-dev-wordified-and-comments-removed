@@ -1862,10 +1862,14 @@ GetPosition
 coords
 .
 x
+.
+value
 &
 coords
 .
 y
+.
+value
 )
 ;
 }

@@ -244,6 +244,8 @@ FuzzyEqualsAdditive
 aPoint
 .
 x
+.
+value
 0
 .
 0f
@@ -258,6 +260,8 @@ FuzzyEqualsAdditive
 aPoint
 .
 y
+.
+value
 0
 .
 0f

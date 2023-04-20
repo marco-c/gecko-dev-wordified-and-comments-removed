@@ -246,6 +246,8 @@ i
 ]
 .
 x
+.
+value
 min_x
 )
 ;
@@ -262,6 +264,8 @@ i
 ]
 .
 x
+.
+value
 max_x
 )
 ;
@@ -278,6 +282,8 @@ i
 ]
 .
 y
+.
+value
 min_y
 )
 ;
@@ -294,6 +300,8 @@ i
 ]
 .
 y
+.
+value
 max_y
 )
 ;

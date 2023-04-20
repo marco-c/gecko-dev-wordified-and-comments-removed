@@ -1024,6 +1024,8 @@ aWriter
 aParam
 .
 x
+.
+value
 )
 ;
 WriteParam
@@ -1032,6 +1034,8 @@ aWriter
 aParam
 .
 y
+.
+value
 )
 ;
 }
@@ -1057,6 +1061,8 @@ aResult
 -
 >
 x
+.
+value
 )
 &
 &
@@ -1068,6 +1074,8 @@ aResult
 -
 >
 y
+.
+value
 )
 )
 ;

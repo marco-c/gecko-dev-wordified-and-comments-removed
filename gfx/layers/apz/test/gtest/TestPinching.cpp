@@ -891,6 +891,8 @@ int
 mFocus
 .
 x
+.
+value
 +
 panDistance
 )
@@ -901,6 +903,8 @@ int
 mFocus
 .
 y
+.
+value
 )
 )
 ;
