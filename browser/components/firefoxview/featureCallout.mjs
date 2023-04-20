@@ -1320,7 +1320,7 @@ document
 .
 documentElement
 .
-offsetHeight
+clientHeight
 -
 getOffset
 (
@@ -1331,12 +1331,12 @@ top
 -
 parentEl
 .
-offsetHeight
+clientHeight
 neededSpace
 :
 container
 .
-offsetHeight
+clientHeight
 -
 overlap
 position
@@ -1364,7 +1364,7 @@ top
 +
 parentEl
 .
-offsetHeight
+clientHeight
 -
 overlap
 ;
@@ -1421,7 +1421,7 @@ neededSpace
 :
 container
 .
-offsetHeight
+clientHeight
 -
 overlap
 position
@@ -1449,7 +1449,7 @@ top
 -
 container
 .
-offsetHeight
+clientHeight
 +
 overlap
 ;
@@ -1506,7 +1506,7 @@ neededSpace
 :
 container
 .
-offsetWidth
+clientWidth
 -
 overlap
 position
@@ -1537,7 +1537,7 @@ left
 -
 container
 .
-offsetWidth
+clientWidth
 +
 overlap
 ;
@@ -1600,7 +1600,7 @@ document
 .
 documentElement
 .
-offsetWidth
+clientWidth
 -
 getOffset
 (
@@ -1612,7 +1612,7 @@ neededSpace
 :
 container
 .
-offsetWidth
+clientWidth
 -
 overlap
 position
@@ -1643,7 +1643,7 @@ left
 +
 parentEl
 .
-offsetWidth
+clientWidth
 -
 overlap
 ;
@@ -1734,7 +1734,7 @@ top
 +
 parentEl
 .
-offsetHeight
+clientHeight
 -
 overlap
 ;
@@ -1749,11 +1749,7 @@ Math
 .
 max
 (
-container
-.
-offsetHeight
--
-overlap
+0
 containerTop
 )
 }
@@ -2167,11 +2163,11 @@ sideOffset
 (
 parentEl
 .
-offsetWidth
+clientWidth
 -
 container
 .
-offsetWidth
+clientWidth
 )
 /
 2
@@ -2185,7 +2181,7 @@ document
 .
 documentElement
 .
-offsetWidth
+clientWidth
 -
 getOffset
 (
@@ -2260,11 +2256,11 @@ left
 +
 parentEl
 .
-offsetWidth
+clientWidth
 -
 container
 .
-offsetWidth
+clientWidth
 ;
 container
 .
