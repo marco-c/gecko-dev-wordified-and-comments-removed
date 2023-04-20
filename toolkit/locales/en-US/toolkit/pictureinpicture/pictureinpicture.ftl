@@ -86,7 +86,7 @@ pictureinpicture
 -
 pause
 -
-cmd
+btn
 =
 .
 aria
@@ -95,7 +95,7 @@ label
 =
 Pause
 .
-title
+tooltip
 =
 Pause
 (
@@ -105,7 +105,7 @@ pictureinpicture
 -
 play
 -
-cmd
+btn
 =
 .
 aria
@@ -114,7 +114,7 @@ label
 =
 Play
 .
-title
+tooltip
 =
 Play
 (
@@ -124,7 +124,7 @@ pictureinpicture
 -
 mute
 -
-cmd
+btn
 =
 .
 aria
@@ -133,7 +133,7 @@ label
 =
 Mute
 .
-title
+tooltip
 =
 Mute
 (
@@ -145,7 +145,7 @@ pictureinpicture
 -
 unmute
 -
-cmd
+btn
 =
 .
 aria
@@ -154,7 +154,7 @@ label
 =
 Unmute
 .
-title
+tooltip
 =
 Unmute
 (
@@ -166,7 +166,7 @@ pictureinpicture
 -
 unpip
 -
-cmd
+btn
 =
 .
 aria
@@ -178,7 +178,7 @@ back
 to
 tab
 .
-title
+tooltip
 =
 Back
 to
@@ -187,7 +187,7 @@ pictureinpicture
 -
 close
 -
-cmd
+btn
 =
 .
 aria
@@ -196,7 +196,7 @@ label
 =
 Close
 .
-title
+tooltip
 =
 Close
 (
@@ -208,7 +208,7 @@ pictureinpicture
 -
 subtitles
 -
-cmd
+btn
 =
 .
 aria
@@ -217,7 +217,7 @@ label
 =
 Subtitles
 .
-title
+tooltip
 =
 Subtitles
 #
@@ -226,7 +226,7 @@ pictureinpicture
 -
 fullscreen
 -
-cmd
+btn
 =
 .
 aria
@@ -235,7 +235,7 @@ label
 =
 Fullscreen
 .
-title
+tooltip
 =
 Fullscreen
 (
@@ -249,7 +249,7 @@ exit
 -
 fullscreen
 -
-cmd
+btn
 =
 .
 aria
@@ -259,7 +259,7 @@ label
 Exit
 fullscreen
 .
-title
+tooltip
 =
 Exit
 fullscreen
@@ -272,7 +272,7 @@ pictureinpicture
 -
 seekbackward
 -
-cmd
+btn
 =
 .
 aria
@@ -281,7 +281,7 @@ label
 =
 Backward
 .
-title
+tooltip
 =
 Backward
 (
@@ -290,7 +290,7 @@ pictureinpicture
 -
 seekforward
 -
-cmd
+btn
 =
 .
 aria
@@ -299,7 +299,7 @@ label
 =
 Forward
 .
-title
+tooltip
 =
 Forward
 (
