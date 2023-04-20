@@ -725,15 +725,6 @@ MediaDecoderStateMachineBase
 aDecoder
 aReader
 )
-mVideoFrameContainer
-(
-aDecoder
--
->
-GetVideoFrameContainer
-(
-)
-)
 {
 LOG
 (
