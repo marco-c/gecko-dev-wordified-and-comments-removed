@@ -124,6 +124,9 @@ centos
 "
 rocky
 "
+"
+oracle
+"
 )
 :
             
