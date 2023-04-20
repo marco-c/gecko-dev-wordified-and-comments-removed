@@ -1301,6 +1301,26 @@ CARGO_NO_ERR
 1
 "
         
+if
+cargo_command
+=
+=
+"
+audit
+"
+:
+            
+append_env
+[
+"
+CARGO_NO_AUTO_ARG
+"
+]
+=
+"
+1
+"
+        
 ret
 =
 command_context
