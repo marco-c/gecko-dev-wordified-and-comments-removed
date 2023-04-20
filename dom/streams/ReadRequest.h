@@ -88,6 +88,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 (
 ReadRequest
 )
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 ChunkSteps
