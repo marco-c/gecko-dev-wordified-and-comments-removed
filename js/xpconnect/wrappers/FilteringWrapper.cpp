@@ -52,6 +52,13 @@ h
 #
 include
 "
+xpcprivate
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -332,6 +339,9 @@ length
 (
 )
 +
+mozilla
+:
+:
 ArrayLength
 (
 sCrossOriginWhitelistedSymbolCodes
