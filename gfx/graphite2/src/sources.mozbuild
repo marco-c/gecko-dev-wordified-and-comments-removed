@@ -44,11 +44,6 @@ FeatureMap
 cpp
 '
 '
-FileFace
-.
-cpp
-'
-'
 Font
 .
 cpp
@@ -95,11 +90,6 @@ cpp
 '
 '
 Intervals
-.
-cpp
-'
-'
-json
 .
 cpp
 '
