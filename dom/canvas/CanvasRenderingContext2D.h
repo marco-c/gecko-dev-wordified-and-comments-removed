@@ -3750,11 +3750,6 @@ mAllowAcceleration
 =
 true
 ;
-bool
-mWillReadFrequently
-=
-false
-;
 RefPtr
 <
 CanvasShutdownObserver
