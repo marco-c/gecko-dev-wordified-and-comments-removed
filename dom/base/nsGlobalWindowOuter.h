@@ -4209,14 +4209,6 @@ ShouldShowFocusRing
 )
 override
 ;
-void
-SetKeyboardIndicators
-(
-UIStateChangeType
-aShowFocusRings
-)
-override
-;
 public
 :
 already_AddRefed
@@ -4249,11 +4241,6 @@ UpdateParentTarget
 (
 )
 override
-;
-void
-InitializeShowFocusRings
-(
-)
 ;
 protected
 :

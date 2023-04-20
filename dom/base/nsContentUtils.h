@@ -6310,17 +6310,6 @@ aCallback
 )
 ;
 static
-void
-SetKeyboardIndicatorsOnRemoteChildren
-(
-nsPIDOMWindowOuter
-*
-aWindow
-UIStateChangeType
-aShowFocusRings
-)
-;
-static
 nsresult
 DeserializeDataTransferImageContainer
 (

@@ -7186,11 +7186,6 @@ UpdateParentTarget
 override
 ;
 void
-InitializeShowFocusRings
-(
-)
-;
-void
 ClearDocumentDependentSlots
 (
 JSContext

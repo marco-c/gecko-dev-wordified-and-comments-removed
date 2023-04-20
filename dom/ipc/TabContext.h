@@ -76,12 +76,6 @@ ChromeOuterWindowID
 )
 const
 ;
-UIStateChangeType
-ShowFocusRings
-(
-)
-const
-;
 uint32_t
 MaxTouchPoints
 (
@@ -112,8 +106,6 @@ SetTabContext
 (
 uint64_t
 aChromeOuterWindowID
-UIStateChangeType
-aShowFocusRings
 uint32_t
 aMaxTouchPoints
 )
@@ -157,9 +149,6 @@ mChromeOuterWindowID
 int32_t
 mJSPluginID
 ;
-UIStateChangeType
-mShowFocusRings
-;
 uint32_t
 mMaxTouchPoints
 ;
@@ -197,8 +186,6 @@ SetTabContext
 (
 uint64_t
 aChromeOuterWindowID
-UIStateChangeType
-aShowFocusRings
 uint32_t
 aMaxTouchPoints
 )
@@ -210,7 +197,6 @@ TabContext
 SetTabContext
 (
 aChromeOuterWindowID
-aShowFocusRings
 aMaxTouchPoints
 )
 ;

@@ -14,15 +14,6 @@ protocol
 PBrowser
 ;
 using
-UIStateChangeType
-from
-"
-nsPIDOMWindow
-.
-h
-"
-;
-using
 mozilla
 :
 :
@@ -60,9 +51,6 @@ FrameIPCTabContext
 {
 uint64_t
 chromeOuterWindowID
-;
-UIStateChangeType
-showFocusRings
 ;
 uint32_t
 maxTouchPoints
