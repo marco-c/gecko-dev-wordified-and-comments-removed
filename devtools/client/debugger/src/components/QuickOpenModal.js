@@ -435,6 +435,11 @@ PropTypes
 func
 .
 isRequired
+projectDirectoryRoot
+:
+PropTypes
+.
+string
 }
 ;
 }
@@ -2395,6 +2400,11 @@ expanded
 expanded
 }
 showClose
+=
+{
+false
+}
+showSearchModifiers
 =
 {
 false
