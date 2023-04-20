@@ -667,11 +667,9 @@ dispatch
 (
 loadSourceText
 (
-{
 cx
 source
 sourceActor
-}
 )
 )
 ;
@@ -717,9 +715,7 @@ getSourceTextContent
 getState
 (
 )
-source
-.
-id
+location
 )
 ;
 if
@@ -749,9 +745,7 @@ canPrettyPrintSource
 getState
 (
 )
-loadedSource
-.
-id
+location
 )
 &
 &

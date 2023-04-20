@@ -599,8 +599,6 @@ getSourceTextContent
 (
 state
 location
-.
-sourceId
 )
 ;
 if

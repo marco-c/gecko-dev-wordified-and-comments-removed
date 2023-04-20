@@ -170,7 +170,7 @@ dbg
 .
 store
 "
-LOAD_SOURCE_TEXT
+LOAD_ORIGINAL_SOURCE_TEXT
 "
 )
 ;

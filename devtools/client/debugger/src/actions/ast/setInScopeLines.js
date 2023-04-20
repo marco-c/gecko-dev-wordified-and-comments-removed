@@ -153,9 +153,7 @@ getSourceTextContent
 getState
 (
 )
-source
-.
-id
+location
 )
 ;
 let
@@ -365,8 +363,6 @@ getState
 (
 )
 location
-.
-sourceId
 )
 ;
 if

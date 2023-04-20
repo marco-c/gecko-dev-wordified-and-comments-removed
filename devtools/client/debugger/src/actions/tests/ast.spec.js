@@ -359,13 +359,10 @@ dispatch
 (
 actions
 .
-loadSourceText
+loadGeneratedSourceText
 (
 {
 cx
-source
-:
-base
 sourceActor
 :
 baseSourceActor
