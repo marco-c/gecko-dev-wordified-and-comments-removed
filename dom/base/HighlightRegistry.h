@@ -242,8 +242,6 @@ ErrorResult
 aRv
 )
 ;
-private
-:
 RefPtr
 <
 nsFrameSelection
@@ -252,6 +250,8 @@ GetFrameSelection
 (
 )
 ;
+private
+:
 RefPtr
 <
 Document
