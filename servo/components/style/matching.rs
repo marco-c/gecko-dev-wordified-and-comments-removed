@@ -950,6 +950,15 @@ visited_rules
 cloned
 (
 )
+flags
+:
+primary_style
+.
+flags
+.
+for_cascade_inputs
+(
+)
 }
 ;
 let

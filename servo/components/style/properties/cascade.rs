@@ -293,6 +293,9 @@ Option
 &
 StrongRuleNode
 >
+cascade_input_flags
+:
+ComputedValueFlags
 quirks_mode
 :
 QuirksMode
@@ -342,6 +345,7 @@ Unvisited
 {
 visited_rules
 }
+cascade_input_flags
 quirks_mode
 rule_cache
 rule_cache_conditions
@@ -880,6 +884,9 @@ ComputedValues
 cascade_mode
 :
 CascadeMode
+cascade_input_flags
+:
+ComputedValueFlags
 quirks_mode
 :
 QuirksMode
@@ -947,6 +954,7 @@ parent_style
 parent_style_ignoring_first_line
 layout_parent_style
 cascade_mode
+cascade_input_flags
 quirks_mode
 rule_cache
 rule_cache_conditions
@@ -1044,6 +1052,9 @@ ComputedValues
 cascade_mode
 :
 CascadeMode
+cascade_input_flags
+:
+ComputedValueFlags
 quirks_mode
 :
 QuirksMode
@@ -1390,6 +1401,17 @@ is_root_element
 quirks_mode
 rule_cache_conditions
 container_size_query
+)
+;
+context
+.
+style
+(
+)
+.
+add_flags
+(
+cascade_input_flags
 )
 ;
 let
@@ -3398,6 +3420,12 @@ Visited
 {
 writing_mode
 }
+Default
+:
+:
+default
+(
+)
 self
 .
 context

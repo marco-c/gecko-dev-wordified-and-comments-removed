@@ -2,6 +2,15 @@ use
 crate
 :
 :
+computed_value_flags
+:
+:
+ComputedValueFlags
+;
+use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -1544,6 +1553,10 @@ pub
 invalidation_data
 :
 InvalidationMatchingData
+pub
+cascade_input_flags
+:
+ComputedValueFlags
 }
 impl
 :
