@@ -169,6 +169,9 @@ T
 class
 Optional
 ;
+class
+WindowContext
+;
 #
 define
 NS_DATATRANSFER_IID
@@ -780,6 +783,14 @@ already_AddRefed
 nsINode
 >
 GetMozSourceNode
+(
+)
+;
+already_AddRefed
+<
+WindowContext
+>
+GetSourceWindowContext
 (
 )
 ;
