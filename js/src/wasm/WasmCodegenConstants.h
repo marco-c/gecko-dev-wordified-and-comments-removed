@@ -55,7 +55,7 @@ MaxRegisterResults
 static
 const
 unsigned
-FailFP
+FailInstanceReg
 =
 0xbad
 ;
