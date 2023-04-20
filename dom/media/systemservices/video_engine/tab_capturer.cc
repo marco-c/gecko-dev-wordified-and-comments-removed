@@ -1462,11 +1462,17 @@ c_str
 ;
 desktop_tab_list_
 [
+static_cast
+<
+intptr_t
+>
+(
 desktopTab
 -
 >
 getTabBrowserId
 (
+)
 )
 ]
 =
