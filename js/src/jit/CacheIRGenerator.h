@@ -2816,16 +2816,6 @@ tryAttachTypedArrayConstructor
 )
 ;
 AttachDecision
-tryAttachNumber
-(
-)
-;
-AttachDecision
-tryAttachNumberParseInt
-(
-)
-;
-AttachDecision
 tryAttachNumberToString
 (
 )

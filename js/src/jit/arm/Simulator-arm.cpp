@@ -179,7 +179,6 @@ extern
 C
 "
 {
-MOZ_EXPORT
 int64_t
 __aeabi_idivmod
 (
@@ -245,7 +244,6 @@ hi
 lo
 ;
 }
-MOZ_EXPORT
 int64_t
 __aeabi_uidivmod
 (
