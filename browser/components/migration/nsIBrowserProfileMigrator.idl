@@ -130,5 +130,10 @@ attribute
 boolean
 sourceLocked
 ;
+readonly
+attribute
+boolean
+enabled
+;
 }
 ;

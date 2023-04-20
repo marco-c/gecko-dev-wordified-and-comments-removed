@@ -1258,6 +1258,9 @@ migratorKey
 if
 (
 migrator
+?
+.
+enabled
 )
 {
 if
