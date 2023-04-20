@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-beee8267c92a6569b2a66b0d9c76f18477607467
+37e6feabf4a99fe9704492a98bde5205ff340466
 '
 #
 Keep
@@ -146,9 +146,9 @@ version
 :
 9
 .
-20220802
+20220803
 .
-3
+1
 .
 1
 '
@@ -192,7 +192,7 @@ chromium
 src
 /
 base
-e6aabe4cb0df1a83f7d41d1676c09fb37df33688
+83c3b824128ea293f0b2263812b727aaf8eea6bd
 '
 '
 src
@@ -216,7 +216,7 @@ chromium
 src
 /
 build
-6423f04a6f6c8d23397592db98dd89cecb5aa674
+ba5f61d4390262562dae3adbea38dd917981f178
 '
 '
 src
@@ -336,7 +336,7 @@ chromium
 src
 /
 ios
-0622f2176edf62d6fd5738ee5eacca279d3e0003
+e74dc7b4ed81d0416f7d2ba7b3bc0335f488bc69
 '
 '
 condition
@@ -368,7 +368,7 @@ chromium
 src
 /
 testing
-48be0fd309b41d533c29e2f0036786cb4395c8fc
+609411237dba81c7a231df8b2f5c61e4f26b402d
 '
 '
 src
@@ -392,7 +392,7 @@ chromium
 src
 /
 third_party
-c2931967588d070780424f2e15f7d5e76d75fa6a
+cf86a7918c6cd842aa56a14c0e712c952a74eff6
 '
 '
 src
@@ -433,7 +433,7 @@ version
 '
 git_revision
 :
-9ef321772ecc161937db69acb346397e0ccc484d
+c8c63300ac8ecb66d8126af5407257209ae59044
 '
 }
 ]
@@ -491,7 +491,7 @@ version
 '
 git_revision
 :
-9ef321772ecc161937db69acb346397e0ccc484d
+c8c63300ac8ecb66d8126af5407257209ae59044
 '
 }
 ]
@@ -545,7 +545,7 @@ version
 '
 git_revision
 :
-9ef321772ecc161937db69acb346397e0ccc484d
+c8c63300ac8ecb66d8126af5407257209ae59044
 '
 }
 ]
@@ -731,7 +731,7 @@ project
 libunwind
 .
 git
-012c3438e0795fa6ad1626f1f5e1c0ab577b91f6
+c5d3129a8b4fd25e0ff8e37dd937830db846c44e
 '
 '
 src
@@ -1023,7 +1023,7 @@ com
 catapult
 .
 git
-7f8536d0bbce1a7b63c5091f2baecaee56687a2f
+47a2365de2ea5e4d233f5fdb4db2e2501edfe94f
 '
 '
 src
@@ -2004,7 +2004,7 @@ external
 perfetto
 .
 git
-ce19ce7576b6563e5344885ab151cad5089da9e7
+470bc189f52bdbd4900e67dacb8e7bad1bac5fe1
 '
 '
 src
@@ -2250,7 +2250,7 @@ version
 '
 :
 '
-fyrZX7YFSdaFh8Uqs1iTtsYtS8351A4ndoz7WiIIrDgC
+8RiUzjctgueOdfuqGNeXwdR_7AGlMwPM9A01M3uKD88C
 '
 }
 ]
@@ -2396,7 +2396,7 @@ chromium
 src
 /
 tools
-c2974f15f5da0d68cd50a48e469a3f2d77359a9b
+3cf8a7b6f7da32ea6699a4267f316fc3f264c98b
 '
 '
 src
