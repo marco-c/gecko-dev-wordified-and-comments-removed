@@ -103,6 +103,12 @@ TextureTracker
 TextureUsageScope
 }
 ;
+use
+wgt
+:
+:
+strict_assert_ne
+;
 #
 [
 derive
