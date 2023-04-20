@@ -188,11 +188,12 @@ b
 a
 }
 =
-InspectorUtils
+colorUtils
 .
 colorToRGBA
 (
 color
+true
 )
 ;
 const

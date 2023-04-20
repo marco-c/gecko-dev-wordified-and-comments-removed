@@ -354,6 +354,9 @@ aB
 nsAString
 &
 aResult
+ErrorResult
+&
+aRv
 )
 ;
 static

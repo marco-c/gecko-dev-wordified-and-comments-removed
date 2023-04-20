@@ -325,6 +325,9 @@ UTF8String
 property
 )
 ;
+[
+Throws
+]
 DOMString
 rgbToColorName
 (
