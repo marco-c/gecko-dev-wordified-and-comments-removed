@@ -4030,6 +4030,11 @@ none
 "
 flipY
 "
+"
+from
+-
+image
+"
 }
 ;
 enum
