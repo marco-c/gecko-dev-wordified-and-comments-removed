@@ -112,9 +112,9 @@ version
 "
 3
 .
-11
+12
 .
-1
+0
 "
 authors
 =
@@ -235,11 +235,6 @@ com
 fitzgen
 /
 bumpalo
-"
-resolver
-=
-"
-2
 "
 [
 package
