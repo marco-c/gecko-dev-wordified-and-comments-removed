@@ -16,14 +16,6 @@ CanvasRenderingContext2D
 prototype
 "
 "
-mozTextStyle
-"
-]
-[
-"
-prototype
-"
-"
 mozImageSmoothingEnabled
 "
 ]
