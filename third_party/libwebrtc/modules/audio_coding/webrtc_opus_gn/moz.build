@@ -211,6 +211,15 @@ src
 "
 "
 /
+media
+/
+libopus
+/
+include
+/
+"
+"
+/
 third_party
 /
 libwebrtc
