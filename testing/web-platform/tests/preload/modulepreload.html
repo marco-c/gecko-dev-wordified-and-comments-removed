@@ -77,6 +77,9 @@ verifyNumberOfDownloads
 (
 url
 number
+allowTransferSizeOfZero
+=
+false
 )
 {
 var
@@ -118,6 +121,9 @@ entry
 transferSize
 >
 0
+|
+|
+allowTransferSizeOfZero
 )
 {
 numDownloads
@@ -921,6 +927,7 @@ py
 ?
 crossOriginNone
 1
+true
 )
 ;
 /
@@ -1020,6 +1027,7 @@ py
 ?
 crossOriginNone
 1
+true
 )
 ;
 }
@@ -1131,6 +1139,7 @@ py
 ?
 crossOriginAnonymous
 1
+true
 )
 ;
 /
@@ -1238,6 +1247,7 @@ py
 ?
 crossOriginAnonymous
 1
+true
 )
 ;
 }
@@ -1354,6 +1364,7 @@ py
 ?
 crossOriginUseCredentials
 1
+true
 )
 ;
 /
@@ -1463,6 +1474,7 @@ py
 ?
 crossOriginUseCredentials
 1
+true
 )
 ;
 }
