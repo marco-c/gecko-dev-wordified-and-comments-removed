@@ -3552,7 +3552,10 @@ mozilla
 StyleGridAutoFlow
 mGridAutoFlow
 ;
-uint8_t
+mozilla
+:
+:
+StyleMasonryAutoFlow
 mMasonryAutoFlow
 ;
 mozilla

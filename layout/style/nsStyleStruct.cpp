@@ -5605,7 +5605,16 @@ ROW
 )
 mMasonryAutoFlow
 (
-NS_STYLE_MASONRY_AUTO_FLOW_INITIAL_VALUE
+{
+StyleMasonryPlacement
+:
+:
+Pack
+StyleMasonryItemOrder
+:
+:
+DefiniteFirst
+}
 )
 mAlignContent
 (

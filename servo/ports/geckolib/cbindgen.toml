@@ -776,6 +776,15 @@ WillChange
 TextDecorationLine
 "
 "
+MasonryAutoFlow
+"
+"
+MasonryPlacement
+"
+"
+MasonryItemOrder
+"
+"
 TextUnderlinePosition
 "
 "
