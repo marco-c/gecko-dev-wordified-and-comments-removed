@@ -2813,11 +2813,6 @@ write_perf_output_on_ios
 "
 -
 -
-nologs
-"
-"
--
--
 xcode
 -
 build
