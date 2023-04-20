@@ -417,7 +417,7 @@ primary
 content
 area
 in
-device
+CSS
 pixels
 .
 This
@@ -461,7 +461,7 @@ primary
 content
 area
 in
-device
+CSS
 pixels
 .
 This
@@ -504,7 +504,7 @@ the
 root
 docshell
 in
-device
+CSS
 pixels
 .
 *
@@ -530,7 +530,7 @@ the
 root
 docshell
 in
-device
+CSS
 pixels
 .
 *
