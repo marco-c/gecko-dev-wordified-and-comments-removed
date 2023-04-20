@@ -859,11 +859,11 @@ event
 aEvent
 )
 ;
-nsIEventTarget
+nsISerialEventTarget
 *
 thread
 =
-GetCurrentEventTarget
+NS_GetCurrentThread
 (
 )
 ;
@@ -1096,11 +1096,11 @@ event
 aEvent
 )
 ;
-nsIEventTarget
+nsISerialEventTarget
 *
 thread
 =
-GetCurrentEventTarget
+NS_GetCurrentThread
 (
 )
 ;
