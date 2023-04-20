@@ -2343,8 +2343,7 @@ button
 is
 focused
 on
-down
-arrow
+tab
 "
 )
 ;
@@ -2380,7 +2379,7 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_ArrowDown
+KEY_Tab
 "
 )
 ;
@@ -2452,8 +2451,9 @@ button
 is
 focused
 on
-up
-arrow
+shift
++
+tab
 "
 )
 ;
@@ -2470,8 +2470,13 @@ EventUtils
 synthesizeKey
 (
 "
-KEY_ArrowUp
+KEY_Tab
 "
+{
+shiftKey
+:
+true
+}
 )
 ;
 event
