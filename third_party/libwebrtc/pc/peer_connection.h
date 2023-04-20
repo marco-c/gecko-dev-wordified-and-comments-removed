@@ -2275,6 +2275,17 @@ remote_description
 )
 override
 ;
+void
+ReportFirstConnectUsageMetrics
+(
+)
+RTC_RUN_ON
+(
+signaling_thread
+(
+)
+)
+;
 bool
 IsUnifiedPlan
 (
