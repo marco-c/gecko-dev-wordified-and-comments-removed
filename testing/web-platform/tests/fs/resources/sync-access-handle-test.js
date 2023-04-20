@@ -113,14 +113,12 @@ createSyncAccessHandle
 (
 )
 ;
-await
 test
 (
 t
 syncHandle
 )
 ;
-await
 syncHandle
 .
 close

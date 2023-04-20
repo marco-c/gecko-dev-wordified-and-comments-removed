@@ -410,7 +410,6 @@ place
 }
 )
 ;
-await
 access_handle
 .
 close

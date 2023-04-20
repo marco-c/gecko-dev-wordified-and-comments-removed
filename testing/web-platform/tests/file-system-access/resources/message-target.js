@@ -401,7 +401,6 @@ createSyncAccessHandle
 (
 )
 ;
-await
 access_handle
 .
 close

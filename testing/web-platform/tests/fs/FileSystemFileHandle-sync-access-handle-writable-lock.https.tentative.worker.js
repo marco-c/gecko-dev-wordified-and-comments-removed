@@ -99,7 +99,6 @@ createSyncAccessHandle
 )
 )
 ;
-await
 syncHandle1
 .
 close
@@ -116,7 +115,6 @@ createSyncAccessHandle
 (
 )
 ;
-await
 syncHandle2
 .
 close
@@ -239,7 +237,6 @@ createSyncAccessHandle
 )
 )
 ;
-await
 barSyncHandle1
 .
 close
@@ -256,7 +253,6 @@ createSyncAccessHandle
 (
 )
 ;
-await
 barSyncHandle2
 .
 close
@@ -604,6 +600,7 @@ NoModificationAllowedError
 cleanup_writable
 (
 t
+await
 fileHandle
 .
 createWritable
@@ -612,7 +609,6 @@ createWritable
 )
 )
 ;
-await
 syncHandle
 .
 close
@@ -770,7 +766,6 @@ createSyncAccessHandle
 (
 )
 ;
-await
 syncHandle
 .
 close
