@@ -1277,20 +1277,6 @@ cmd_args_clippy
 cargo
 ]
     
-if
-fix
-:
-        
-cmd_args_clippy
-+
-=
-[
-"
-+
-nightly
-"
-]
-    
 cmd_args_clippy
 +
 =
@@ -1324,15 +1310,6 @@ cmd_args_clippy
 -
 -
 fix
-"
-"
--
-Z
-"
-"
-unstable
--
-options
 "
 ]
     
