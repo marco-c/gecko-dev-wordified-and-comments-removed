@@ -217,7 +217,7 @@ mozilla
 com
 expires
 :
-113
+never
 buttons
 :
 type
@@ -336,7 +336,7 @@ mozilla
 com
 expires
 :
-113
+never
 used
 :
 bugs
