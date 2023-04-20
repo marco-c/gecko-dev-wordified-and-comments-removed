@@ -214,12 +214,6 @@ JS_FREED_ARENA_PATTERN
 ;
 const
 uint8_t
-JS_SWEPT_TI_PATTERN
-=
-0x6F
-;
-const
-uint8_t
 JS_FRESH_MARK_STACK_PATTERN
 =
 0x9F
