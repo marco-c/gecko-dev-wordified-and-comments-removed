@@ -615,6 +615,9 @@ clickPromise
 await
 ClickButtonWithGesture
 (
+'
+b1
+'
 (
 )
 =
