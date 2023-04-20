@@ -1017,7 +1017,9 @@ base
 -
 loader
 .
-js
+sys
+.
+mjs
 -
 >
 resource
@@ -1057,7 +1059,9 @@ base
 -
 loader
 .
-js
+sys
+.
+mjs
 -
 >
 resource
@@ -1099,7 +1103,9 @@ base
 -
 loader
 .
-js
+sys
+.
+mjs
 -
 >
 resource
@@ -1139,7 +1145,9 @@ base
 -
 loader
 .
-js
+sys
+.
+mjs
 -
 >
 resource

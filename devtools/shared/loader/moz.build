@@ -37,7 +37,9 @@ base
 -
 loader
 .
-js
+sys
+.
+mjs
 "
 "
 builtin

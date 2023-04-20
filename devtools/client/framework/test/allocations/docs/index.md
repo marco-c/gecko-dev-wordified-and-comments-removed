@@ -1511,7 +1511,9 @@ base
 -
 loader
 .
-js
+sys
+.
+mjs
 :
 160
 .
@@ -1540,7 +1542,9 @@ base
 -
 loader
 .
-js
+sys
+.
+mjs
 :
 155
 .
@@ -1703,7 +1707,9 @@ base
 -
 loader
 .
-js
+sys
+.
+mjs
 at
 line
 155

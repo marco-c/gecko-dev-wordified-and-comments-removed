@@ -8,7 +8,7 @@ BaseLoader
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -25,7 +25,9 @@ base
 -
 loader
 .
-js
+sys
+.
+mjs
 "
 )
 ;

@@ -3097,7 +3097,9 @@ base
 -
 loader
 .
-js
+sys
+.
+mjs
 renders
 as
 expected
@@ -3170,7 +3172,9 @@ base
 -
 loader
 .
-js
+sys
+.
+mjs
 renders
 as
 expected
