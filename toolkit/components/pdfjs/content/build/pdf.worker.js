@@ -525,7 +525,7 @@ workerVersion
 .
 4
 .
-97
+110
 '
 ;
 if
@@ -454640,14 +454640,14 @@ pdfjsVersion
 .
 4
 .
-97
+110
 '
 ;
 const
 pdfjsBuild
 =
 '
-22618213c
+255e98254
 '
 ;
 }
