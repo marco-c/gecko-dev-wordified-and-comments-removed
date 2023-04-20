@@ -663,16 +663,6 @@ aFromHostRecord
 >
 mDoomed
 ;
-mTtl
-=
-uint32_t
-(
-aFromHostRecord
--
->
-mTtl
-)
-;
 }
 bool
 nsHostRecord
