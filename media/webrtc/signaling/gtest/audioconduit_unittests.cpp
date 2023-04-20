@@ -21,7 +21,7 @@ h
 #
 include
 "
-ConcreteConduitControl
+Canonicals
 .
 h
 "
@@ -169,7 +169,7 @@ WebrtcAudioConduit
 >
 mAudioConduit
 ;
-ConcreteConduitControl
+ConcreteControl
 mControl
 ;
 }

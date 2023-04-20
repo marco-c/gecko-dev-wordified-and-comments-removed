@@ -1,9 +1,9 @@
 #
 ifndef
-MEDIA_WEBRTC_SIGNALING_GTEST_CONCRETECONDUITCONTROL_H_
+MEDIA_WEBRTC_SIGNALING_GTEST_CANONICALS_H_
 #
 define
-MEDIA_WEBRTC_SIGNALING_GTEST_CONCRETECONDUITCONTROL_H_
+MEDIA_WEBRTC_SIGNALING_GTEST_CANONICALS_H_
 #
 include
 "
@@ -356,7 +356,7 @@ mVideoCodecMode
 undef
 INIT_CANONICAL
 class
-ConcreteConduitControl
+ConcreteControl
 :
 public
 AudioConduitControlInterface
@@ -376,7 +376,7 @@ mTarget
 public
 :
 explicit
-ConcreteConduitControl
+ConcreteControl
 (
 RefPtr
 <
