@@ -5230,10 +5230,7 @@ rangeFrame
 return
 ;
 }
-nsTArray
-<
-double
->
+auto
 tickMarks
 =
 rangeFrame
@@ -5950,13 +5947,7 @@ rangeFrame
 >
 GetDoubleAsFractionOfRange
 (
-Decimal
-:
-:
-fromDouble
-(
 tickMark
-)
 )
 )
 ;

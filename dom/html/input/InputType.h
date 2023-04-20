@@ -418,12 +418,6 @@ ValueSetterOptions
 aOptions
 )
 ;
-Decimal
-GetStepBase
-(
-)
-const
-;
 nsIFrame
 *
 GetPrimaryFrame
