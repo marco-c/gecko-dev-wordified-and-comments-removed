@@ -47,7 +47,7 @@ in
 nsIURI
 aURI
 in
-int32_t
+uint32_t
 aLineNo
 )
 ;
