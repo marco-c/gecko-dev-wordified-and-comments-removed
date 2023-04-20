@@ -184,6 +184,8 @@ ping
 types
 like
 EventPing
+or
+PrioPing
 More
 details
 on

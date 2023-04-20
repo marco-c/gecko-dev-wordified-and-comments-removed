@@ -7818,6 +7818,15 @@ GetContentBlockingLog
 )
 -
 >
+ReportOrigins
+(
+)
+;
+GetContentBlockingLog
+(
+)
+-
+>
 ReportEmailTrackingLog
 (
 DocumentPrincipal
