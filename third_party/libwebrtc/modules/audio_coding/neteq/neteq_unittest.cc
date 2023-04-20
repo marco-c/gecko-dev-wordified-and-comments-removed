@@ -508,6 +508,10 @@ string
 network_stats_checksum
 =
 "
+3d043e47e5f4bb81d37e7bce8c44bf802965c853
+|
+"
+"
 076662525572dba753b11578330bd491923f7f5e
 "
 ;
