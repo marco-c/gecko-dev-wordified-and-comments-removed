@@ -250,12 +250,6 @@ chrome
 :
 "
 "
-android
--
-startup
-:
-"
-"
 browser
 /
 base
