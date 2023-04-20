@@ -1662,10 +1662,7 @@ MainThreadOrTRRThread
 (
 )
 ;
-nsIDNSService
-:
-:
-DNSFlags
+uint32_t
 flags
 =
 nsIDNSService

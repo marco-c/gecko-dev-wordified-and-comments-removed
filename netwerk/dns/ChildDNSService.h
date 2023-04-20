@@ -119,7 +119,7 @@ aTRRDomain
 )
 ;
 void
-GetTRRDomainKey
+GetTRRDomain
 (
 nsACString
 &
@@ -156,10 +156,7 @@ const
 OriginAttributes
 &
 aOriginAttributes
-nsIDNSService
-:
-:
-DNSFlags
+uint32_t
 aFlags
 uintptr_t
 aListenerAddr
@@ -177,10 +174,7 @@ nsACString
 hostname
 uint16_t
 type
-nsIDNSService
-:
-:
-DNSFlags
+uint32_t
 flags
 nsIDNSAdditionalInfo
 *
@@ -210,10 +204,7 @@ nsACString
 aHostname
 uint16_t
 aType
-nsIDNSService
-:
-:
-DNSFlags
+uint32_t
 aFlags
 nsIDNSAdditionalInfo
 *

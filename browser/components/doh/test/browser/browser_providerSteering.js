@@ -241,9 +241,7 @@ changed
 >
 {
 return
-Services
-.
-dns
+gDNSService
 .
 currentTrrURI
 =
@@ -262,9 +260,7 @@ trrURIChanged
 ;
 is
 (
-Services
-.
-dns
+gDNSService
 .
 currentTrrURI
 expectedURI

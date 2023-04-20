@@ -391,16 +391,6 @@ ProviderKey
 (
 )
 ;
-static
-void
-SetProviderDomain
-(
-const
-nsACString
-&
-aTRRDomain
-)
-;
 void
 InitTRRConnectionInfo
 (

@@ -153,18 +153,6 @@ IdType
 h
 "
 ;
-using
-nsIDNSService
-:
-:
-DNSFlags
-from
-"
-nsIDNSService
-.
-h
-"
-;
 [
 RefCounted
 ]
@@ -360,7 +348,7 @@ uint16_t
 type
 OriginAttributes
 originAttributes
-DNSFlags
+uint32_t
 flags
 )
 ;
@@ -433,7 +421,7 @@ bool
 isHttps
 OriginAttributes
 originAttributes
-DNSFlags
+uint32_t
 flags
 )
 ;
@@ -446,7 +434,7 @@ bool
 isHttps
 OriginAttributes
 originAttributes
-DNSFlags
+uint32_t
 flags
 nsresult
 reason

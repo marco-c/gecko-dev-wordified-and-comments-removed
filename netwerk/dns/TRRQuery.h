@@ -190,10 +190,7 @@ nsACString
 aTrrServer
 uint16_t
 type
-nsIDNSService
-:
-:
-DNSFlags
+uint16_t
 flags
 uint16_t
 af

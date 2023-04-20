@@ -172,10 +172,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsIDNSService
-:
-:
-DNSFlags
+uint32_t
 flags
 =
 nsIDNSService
@@ -447,10 +444,7 @@ dns
 return
 ;
 }
-nsIDNSService
-:
-:
-DNSFlags
+uint32_t
 flags
 =
 nsIDNSService
