@@ -962,6 +962,11 @@ root
 '
 file
 -
+after
+'
+'
+file
+-
 before
 '
 ]
