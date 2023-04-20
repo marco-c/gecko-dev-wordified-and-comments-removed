@@ -89,7 +89,7 @@ defineESModuleGetters
 (
 lazy
 {
-CacheEntry
+getCacheEntry
 :
 "
 resource
@@ -2108,8 +2108,6 @@ this
 httpActivity
 ;
 lazy
-.
-CacheEntry
 .
 getCacheEntry
 (
