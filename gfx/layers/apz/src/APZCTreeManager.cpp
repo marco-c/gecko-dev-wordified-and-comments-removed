@@ -10577,7 +10577,7 @@ GetTransformToThis
 )
 )
 ;
-CSSCoord
+OuterCSSCoord
 dragStart
 =
 aApzc
@@ -10614,7 +10614,7 @@ lock
 )
 ;
 }
-CSSCoord
+OuterCSSCoord
 thumbStart
 =
 thumbData

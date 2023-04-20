@@ -2790,7 +2790,7 @@ const
 AsyncDragMetrics
 &
 aDragMetrics
-CSSCoord
+OuterCSSCoord
 aInitialThumbPos
 )
 {
@@ -3206,7 +3206,7 @@ lock
 mRecursiveMutex
 )
 ;
-CSSCoord
+OuterCSSCoord
 thumbPosition
 ;
 if
@@ -3236,7 +3236,7 @@ aDragMetrics
 mScrollbarDragOffset
 ;
 }
-CSSCoord
+OuterCSSCoord
 maxThumbPos
 =
 scrollbarData
@@ -6885,7 +6885,7 @@ Nothing
 )
 ;
 }
-CSSCoord
+OuterCSSCoord
 AsyncPanZoomController
 :
 :
@@ -6941,7 +6941,8 @@ GetZoom
 )
 ;
 }
-scrollbarPoint
+OuterCSSPoint
+outerScrollbarPoint
 =
 scrollbarPoint
 *
@@ -6949,18 +6950,18 @@ Metrics
 (
 )
 .
-GetPresShellResolution
+GetCSSToOuterCSSScale
 (
 )
 ;
-CSSRect
+OuterCSSRect
 cssCompositionBound
 =
 Metrics
 (
 )
 .
-CalculateCompositionBoundsInCssPixelsOfSurroundingContent
+CalculateCompositionBoundsInOuterCssPixels
 (
 )
 ;
@@ -6971,7 +6972,7 @@ GetAxisStart
 aThumbData
 .
 mDirection
-scrollbarPoint
+outerScrollbarPoint
 )
 -
 GetAxisStart

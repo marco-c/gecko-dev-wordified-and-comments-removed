@@ -808,7 +808,7 @@ this
 void
 SetInitialThumbPos
 (
-CSSCoord
+OuterCSSCoord
 aThumbPos
 )
 ;
@@ -837,7 +837,7 @@ private
 AsyncDragMetrics
 mDragMetrics
 ;
-CSSCoord
+OuterCSSCoord
 mInitialThumbPos
 ;
 bool

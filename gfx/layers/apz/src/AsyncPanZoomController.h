@@ -911,7 +911,7 @@ const
 AsyncDragMetrics
 &
 aDragMetrics
-CSSCoord
+OuterCSSCoord
 aInitialThumbPos
 )
 ;
@@ -1227,7 +1227,7 @@ CanScrollDownwards
 )
 const
 ;
-CSSCoord
+OuterCSSCoord
 ConvertScrollbarPoint
 (
 const

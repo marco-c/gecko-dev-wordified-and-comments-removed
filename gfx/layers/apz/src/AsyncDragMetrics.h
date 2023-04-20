@@ -105,7 +105,7 @@ uint32_t
 aPresShellId
 uint64_t
 aDragStartSequenceNumber
-CSSCoord
+OuterCSSCoord
 aScrollbarDragOffset
 ScrollDirection
 aDirection
@@ -148,7 +148,7 @@ mPresShellId
 uint64_t
 mDragStartSequenceNumber
 ;
-CSSCoord
+OuterCSSCoord
 mScrollbarDragOffset
 ;
 Maybe
