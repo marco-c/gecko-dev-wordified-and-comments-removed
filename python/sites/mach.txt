@@ -467,13 +467,6 @@ third_party
 /
 python
 /
-blessings
-vendored
-:
-third_party
-/
-python
-/
 cbor2
 vendored
 :
