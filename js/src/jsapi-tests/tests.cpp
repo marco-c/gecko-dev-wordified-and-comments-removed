@@ -669,11 +669,6 @@ creationOptions
 (
 )
 .
-setStreamsEnabled
-(
-true
-)
-.
 setWeakRefsEnabled
 (
 JS
