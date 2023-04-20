@@ -299,6 +299,14 @@ n
 )
 :
         
+maxTimeout
+=
+5
+*
+60
+*
+1000
+        
 return
 self
 .
@@ -349,6 +357,10 @@ n
 new_sandbox
 =
 False
+            
+script_timeout
+=
+maxTimeout
         
 )
     
@@ -837,6 +849,49 @@ ensureCleanCallback
 (
 )
 :
+            
+Wait
+(
+self
+.
+marionette
+timeout
+=
+60
+)
+.
+until
+(
+                
+lambda
+x
+:
+(
+self
+.
+getUsage
+(
+)
+-
+beforeUsage
+)
+                
+<
+EXPECTED_CACHEDIR_SIZE_AFTER_CLEANUP
+                
+message
+=
+"
+Cache
+directory
+is
+not
+cleaned
+up
+properly
+"
+            
+)
             
 return
 (
