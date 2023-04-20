@@ -12588,12 +12588,11 @@ loadInfo
 .
 mShouldResistFingerprinting
 =
-nsContentUtils
-:
-:
+document
+-
+>
 ShouldResistFingerprinting
 (
-document
 )
 ;
 if
