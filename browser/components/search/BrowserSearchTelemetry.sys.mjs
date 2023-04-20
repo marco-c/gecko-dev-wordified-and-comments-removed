@@ -1670,8 +1670,13 @@ object
 }
 details
 *
-see
+See
+{
+link
+BrowserSearchTelemetryHandler
+.
 recordSearch
+}
 *
 /
 _handleSearchAndUrlbar

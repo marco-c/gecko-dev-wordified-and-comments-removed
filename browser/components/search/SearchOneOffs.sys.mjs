@@ -1484,6 +1484,12 @@ js
 only
 .
 *
+*
+returns
+{
+number
+}
+*
 /
 get
 buttonWidth

@@ -454,6 +454,12 @@ search
 engines
 .
 *
+*
+returns
+{
+string
+}
+*
 /
 get
 searchEnginesURL
