@@ -1966,7 +1966,7 @@ code
 :
 ChromeUtils
 .
-import
+importESModules
 (
 "
 resource
@@ -1979,7 +1979,9 @@ modules
 /
 FileUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 .
