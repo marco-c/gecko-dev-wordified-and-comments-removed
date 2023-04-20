@@ -3903,13 +3903,6 @@ IsSeekingData
 )
 )
 ;
-LOG
-(
-"
-RunningEngineUpdate
-"
-)
-;
 if
 (
 aType
