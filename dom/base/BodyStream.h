@@ -448,7 +448,6 @@ eInitializing
 eWaiting
 eReading
 eWriting
-eChecking
 eClosed
 }
 ;
