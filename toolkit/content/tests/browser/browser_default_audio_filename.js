@@ -147,7 +147,7 @@ defaultString
 startsWith
 (
 "
-index
+Untitled
 "
 )
 true
@@ -156,7 +156,7 @@ File
 name
 should
 be
-index
+Untitled
 "
 )
 ;
@@ -315,7 +315,7 @@ defaultString
 startsWith
 (
 "
-index
+Untitled
 "
 )
 true
@@ -324,7 +324,7 @@ File
 name
 should
 be
-index
+Untitled
 "
 )
 ;
