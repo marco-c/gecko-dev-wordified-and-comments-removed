@@ -2282,6 +2282,10 @@ xhtml
 #
 bug
 1218954
+asserts
+(
+3
+)
 fuzzy
 -
 if
