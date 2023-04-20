@@ -1057,6 +1057,16 @@ NO
 ;
 #
 endif
+dispatch_sync
+(
+self
+.
+frameQueue
+^
+{
+}
+)
+;
 self
 .
 isRunning
