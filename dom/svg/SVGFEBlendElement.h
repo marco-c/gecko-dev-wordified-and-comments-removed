@@ -57,6 +57,7 @@ SVGFE
 ;
 class
 SVGFEBlendElement
+final
 :
 public
 SVGFEBlendElementBase

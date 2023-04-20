@@ -50,6 +50,7 @@ SVGFELightingElement
 ;
 class
 SVGFESpecularLightingElement
+final
 :
 public
 SVGFESpecularLightingElementBase

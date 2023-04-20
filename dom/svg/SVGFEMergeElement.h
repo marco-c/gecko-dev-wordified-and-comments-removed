@@ -50,6 +50,7 @@ SVGFE
 ;
 class
 SVGFEMergeElement
+final
 :
 public
 SVGFEMergeElementBase

@@ -96,6 +96,7 @@ SVGGeometryElement
 ;
 class
 SVGImageElement
+final
 :
 public
 SVGImageElementBase

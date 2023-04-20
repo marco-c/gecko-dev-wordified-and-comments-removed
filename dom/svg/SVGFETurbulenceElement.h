@@ -78,6 +78,7 @@ SVGFE
 ;
 class
 SVGFETurbulenceElement
+final
 :
 public
 SVGFETurbulenceElementBase

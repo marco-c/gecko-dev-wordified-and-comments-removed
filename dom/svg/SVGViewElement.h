@@ -87,6 +87,7 @@ SVGElement
 ;
 class
 SVGViewElement
+final
 :
 public
 SVGViewElementBase

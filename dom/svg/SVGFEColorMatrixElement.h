@@ -67,6 +67,7 @@ SVGFE
 ;
 class
 SVGFEColorMatrixElement
+final
 :
 public
 SVGFEColorMatrixElementBase

@@ -50,6 +50,7 @@ SVGFE
 ;
 class
 SVGFEComponentTransferElement
+final
 :
 public
 SVGFEComponentTransferElementBase

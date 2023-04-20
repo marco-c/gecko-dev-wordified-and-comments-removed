@@ -57,6 +57,7 @@ SVGFELightElement
 ;
 class
 SVGFEPointLightElement
+final
 :
 public
 SVGFEPointLightElementBase

@@ -105,6 +105,7 @@ SVGFE
 ;
 class
 SVGFEConvolveMatrixElement
+final
 :
 public
 SVGFEConvolveMatrixElementBase

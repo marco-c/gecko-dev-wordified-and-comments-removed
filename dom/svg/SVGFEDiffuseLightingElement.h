@@ -50,6 +50,7 @@ SVGFELightingElement
 ;
 class
 SVGFEDiffuseLightingElement
+final
 :
 public
 SVGFEDiffuseLightingElementBase

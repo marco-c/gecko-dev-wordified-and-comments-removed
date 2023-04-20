@@ -57,6 +57,7 @@ SVGFE
 ;
 class
 SVGFEDisplacementMapElement
+final
 :
 public
 SVGFEDisplacementMapElementBase
