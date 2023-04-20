@@ -745,11 +745,7 @@ mozilla
 .
 org
 /
-embedcomp
-/
-prompt
--
-service
+prompter
 ;
 1
 "
@@ -921,11 +917,7 @@ mozilla
 .
 org
 /
-embedcomp
-/
-prompt
--
-service
+prompter
 ;
 1
 "
