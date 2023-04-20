@@ -2884,6 +2884,7 @@ MakeUnique
 FileSystemDatabaseManagerVersion001
 >
 (
+self
 std
 :
 :
@@ -2904,7 +2905,6 @@ move
 fmRes
 )
 )
-self
 rootId
 )
 ;
