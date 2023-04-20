@@ -193,11 +193,6 @@ IPCStreamCipherStrategy
 h
 "
 "
-MemoryOutputStream
-.
-h
-"
-"
 NSSCipherStrategy
 .
 h
@@ -329,11 +324,6 @@ cpp
 "
 "
 InitializationTypes
-.
-cpp
-"
-"
-MemoryOutputStream
 .
 cpp
 "
