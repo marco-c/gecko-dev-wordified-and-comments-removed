@@ -714,10 +714,7 @@ const
 nsresult
 PeekOffset
 (
-mozilla
-:
-:
-PeekOffsetStruct
+nsPeekOffsetStruct
 *
 aPos
 )
