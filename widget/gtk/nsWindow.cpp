@@ -18556,13 +18556,6 @@ return
 }
 if
 (
-XRE_IsParentProcess
-(
-)
-)
-{
-if
-(
 !
 mCompositorVsyncDispatcherLock
 )
@@ -18611,7 +18604,6 @@ CompositorVsyncDispatcher
 mWaylandVsyncDispatcher
 )
 ;
-}
 }
 }
 #
@@ -29850,13 +29842,7 @@ LOG_VSYNC
 "
 created
 WaylandVsyncSource
-)
 "
-)
-;
-MOZ_RELEASE_ASSERT
-(
-mWaylandVsyncSource
 )
 ;
 }
