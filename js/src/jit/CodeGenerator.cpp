@@ -86071,7 +86071,7 @@ temp2
 using
 Fn
 =
-JSObject
+PropertyIteratorObject
 *
 (
 *
@@ -86262,7 +86262,7 @@ ValueIndex
 using
 Fn
 =
-JSObject
+PropertyIteratorObject
 *
 (
 *

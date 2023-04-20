@@ -2535,7 +2535,7 @@ HandleObject
 obj
 )
 ;
-JSObject
+PropertyIteratorObject
 *
 GetIterator
 (
@@ -2546,7 +2546,7 @@ HandleObject
 obj
 )
 ;
-JSObject
+PropertyIteratorObject
 *
 GetIteratorWithIndices
 (
@@ -2557,7 +2557,7 @@ HandleObject
 obj
 )
 ;
-JSObject
+PropertyIteratorObject
 *
 ValueToIterator
 (
