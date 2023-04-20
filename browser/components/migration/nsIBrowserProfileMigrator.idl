@@ -128,11 +128,6 @@ getSourceProfiles
 readonly
 attribute
 boolean
-sourceLocked
-;
-readonly
-attribute
-boolean
 enabled
 ;
 }
