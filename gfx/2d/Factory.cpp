@@ -3550,6 +3550,9 @@ FTUserFontData
 >
 data
 ;
+#
+ifdef
+ANDROID
 if
 (
 face
@@ -3569,6 +3572,8 @@ aFilename
 )
 ;
 }
+#
+endif
 return
 MakeAndAddRef
 <
