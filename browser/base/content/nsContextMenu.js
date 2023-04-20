@@ -8295,9 +8295,9 @@ systemPrincipal
 )
 ;
 }
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -9777,9 +9777,9 @@ nodePrincipal
 )
 ;
 }
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
