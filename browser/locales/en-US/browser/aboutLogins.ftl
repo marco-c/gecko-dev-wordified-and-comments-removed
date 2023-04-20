@@ -78,6 +78,10 @@ title
 Logins
 &
 Passwords
+about
+-
+logins
+-
 login
 -
 filter
@@ -87,6 +91,10 @@ placeholder
 =
 Search
 Logins
+.
+key
+=
+F
 create
 -
 new
