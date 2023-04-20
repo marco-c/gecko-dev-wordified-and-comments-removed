@@ -6845,6 +6845,15 @@ text
 link
 .
 hidden
+#
+moreFromMozillaCategory
+.
+text
+-
+link
+[
+hidden
+]
 {
 display
 :
@@ -6920,9 +6929,9 @@ svg
 ;
 }
 #
-mozilla
+firefox
 -
-rally
+relay
 {
 background
 -
@@ -6941,7 +6950,7 @@ skin
 /
 preferences
 /
-rally
+relay
 -
 logo
 .
