@@ -566,16 +566,13 @@ aFlags
 MOZ_ASSERT
 (
 !
-(
 GetPrimaryFrame
 (
 )
 -
 >
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_IS_NONDISPLAY
 )
 "
