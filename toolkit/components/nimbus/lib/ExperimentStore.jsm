@@ -1137,7 +1137,7 @@ init
 ;
 this
 .
-getAllActiveExperiments
+getAllActive
 (
 )
 .
@@ -1187,7 +1187,7 @@ loaded
 ;
 this
 .
-getAllActiveRollouts
+getAllRollouts
 (
 )
 .
@@ -1253,7 +1253,7 @@ return
 (
 this
 .
-getAllActiveExperiments
+getAllActive
 (
 )
 .
@@ -1369,7 +1369,7 @@ return
 data
 ;
 }
-getAllActiveExperiments
+getAllActive
 (
 )
 {
@@ -1397,7 +1397,7 @@ isRollout
 )
 ;
 }
-getAllActiveRollouts
+getAllRollouts
 (
 )
 {
@@ -1433,7 +1433,7 @@ return
 (
 this
 .
-getAllActiveRollouts
+getAllRollouts
 (
 )
 .

@@ -3199,7 +3199,7 @@ ExperimentAPI
 .
 _store
 "
-getAllActiveExperiments
+getAllActive
 "
 )
 .
@@ -3376,7 +3376,7 @@ stub
 (
 store
 "
-getAllActiveExperiments
+getAllActive
 "
 )
 .

@@ -1768,7 +1768,7 @@ manager
 .
 store
 .
-getAllActiveExperiments
+getAllActive
 (
 )
 .
