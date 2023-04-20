@@ -1143,7 +1143,7 @@ return
 nullptr
 ;
 }
-opSetScriptLineNumberAndFreeze
+opSetScriptLineAndColumnNumberAndFreeze
 operation
 (
 content
@@ -1151,6 +1151,12 @@ tokenizer
 -
 >
 getLineNumber
+(
+)
+tokenizer
+-
+>
+getColumnNumber
 (
 )
 )
@@ -2349,7 +2355,7 @@ return
 nullptr
 ;
 }
-opSetScriptLineNumberAndFreeze
+opSetScriptLineAndColumnNumberAndFreeze
 operation
 (
 content
@@ -2357,6 +2363,12 @@ tokenizer
 -
 >
 getLineNumber
+(
+)
+tokenizer
+-
+>
+getColumnNumber
 (
 )
 )
@@ -2705,7 +2717,7 @@ return
 nullptr
 ;
 }
-opSetScriptLineNumberAndFreeze
+opSetScriptLineAndColumnNumberAndFreeze
 operation
 (
 content
@@ -2713,6 +2725,12 @@ tokenizer
 -
 >
 getLineNumber
+(
+)
+tokenizer
+-
+>
+getColumnNumber
 (
 )
 )
