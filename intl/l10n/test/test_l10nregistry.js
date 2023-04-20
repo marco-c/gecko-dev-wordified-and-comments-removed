@@ -3053,6 +3053,16 @@ app
 ]
 )
 ;
+let
+bundle1
+=
+await
+bundles
+.
+next
+(
+)
+;
 equal
 (
 (
