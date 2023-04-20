@@ -4481,6 +4481,9 @@ rtc
 :
 :
 scoped_refptr
+<
+SharedScreenCastStream
+>
 (
 new
 SharedScreenCastStream
