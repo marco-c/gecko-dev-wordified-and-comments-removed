@@ -114,7 +114,7 @@ parameters
 chrome
 "
 "
-chrome
+new
 -
 headless
 "
@@ -341,7 +341,7 @@ false
 "
 }
 "
-chrome
+new
 -
 headless
 "

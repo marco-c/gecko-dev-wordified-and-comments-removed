@@ -17,7 +17,7 @@ core
 /
 internal
 /
-common
+api
 /
 ElementHandle
 .

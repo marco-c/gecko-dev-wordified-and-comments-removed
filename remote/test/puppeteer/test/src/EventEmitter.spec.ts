@@ -1,4 +1,11 @@
 import
+expect
+from
+'
+expect
+'
+;
+import
 {
 EventEmitter
 }
@@ -22,13 +29,6 @@ sinon
 from
 '
 sinon
-'
-;
-import
-expect
-from
-'
-expect
 '
 ;
 describe

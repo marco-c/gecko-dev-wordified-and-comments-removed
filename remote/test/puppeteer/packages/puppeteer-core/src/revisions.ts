@@ -10,7 +10,7 @@ freeze
 chromium
 :
 '
-1083080
+1095492
 '
 firefox
 :

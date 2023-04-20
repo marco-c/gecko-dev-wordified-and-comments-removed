@@ -78,6 +78,15 @@ vscode
 extensions
 .
 json
+!
+.
+vscode
+/
+*
+.
+template
+.
+json
 .
 devcontainer
 #

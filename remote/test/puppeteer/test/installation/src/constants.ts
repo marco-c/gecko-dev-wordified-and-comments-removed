@@ -1,11 +1,4 @@
 import
-glob
-from
-'
-glob
-'
-;
-import
 {
 dirname
 join
@@ -23,6 +16,13 @@ fileURLToPath
 from
 '
 url
+'
+;
+import
+glob
+from
+'
+glob
 '
 ;
 export

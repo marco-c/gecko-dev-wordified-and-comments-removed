@@ -3299,8 +3299,6 @@ Clicked
 )
 ;
 it
-.
-skip
 (
 '
 should

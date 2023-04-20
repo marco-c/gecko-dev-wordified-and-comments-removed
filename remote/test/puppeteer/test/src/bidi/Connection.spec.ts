@@ -277,8 +277,6 @@ response
 toEqual
 (
 rawResponse
-.
-result
 )
 ;
 connection

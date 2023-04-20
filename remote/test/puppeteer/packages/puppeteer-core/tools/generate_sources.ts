@@ -8,13 +8,6 @@ bin
 env
 node
 import
-esbuild
-from
-'
-esbuild
-'
-;
-import
 {
 mkdir
 mkdtemp
@@ -47,6 +40,13 @@ chdir
 from
 '
 process
+'
+;
+import
+esbuild
+from
+'
+esbuild
 '
 ;
 import
