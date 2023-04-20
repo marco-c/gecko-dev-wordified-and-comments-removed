@@ -79,6 +79,3 @@ c
 NoVisibilityFlags
 (
 )
-REQUIRES_UNIFIED_BUILD
-=
-True
