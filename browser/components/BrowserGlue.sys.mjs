@@ -4166,7 +4166,7 @@ PageStyle
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -4178,13 +4178,15 @@ actors
 /
 PageStyleParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -4196,7 +4198,9 @@ actors
 /
 PageStyleChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
