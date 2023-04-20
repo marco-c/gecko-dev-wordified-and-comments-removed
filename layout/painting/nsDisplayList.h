@@ -947,7 +947,6 @@ Painting
 PaintForPrinting
 EventDelivery
 FrameVisibility
-TransformComputation
 GenerateGlyph
 }
 ;
