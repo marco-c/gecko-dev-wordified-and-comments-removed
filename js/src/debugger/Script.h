@@ -214,12 +214,6 @@ vp
 struct
 CallData
 ;
-bool
-isInstance
-(
-)
-const
-;
 Debugger
 *
 owner
