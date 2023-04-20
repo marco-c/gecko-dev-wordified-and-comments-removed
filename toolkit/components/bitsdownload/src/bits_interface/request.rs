@@ -3147,7 +3147,7 @@ GetTRRMode
 )
 -
 >
-u8
+u32
 )
 ;
 fn
@@ -3160,7 +3160,7 @@ self
 >
 Result
 <
-u8
+u32
 nsresult
 >
 {
@@ -3179,7 +3179,7 @@ SetTRRMode
 (
 _trr_mode
 :
-u8
+u32
 )
 )
 ;
@@ -3190,7 +3190,7 @@ set_trr_mode
 self
 _trr_mode
 :
-u8
+u32
 )
 -
 >
