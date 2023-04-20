@@ -21,7 +21,7 @@ object
 "
 Replacement
 for
-blessings
+blessed
 .
 Terminal
 (
@@ -229,7 +229,7 @@ try
 :
         
 import
-blessings
+blessed
     
 except
 Exception
@@ -250,7 +250,7 @@ kwargs
 )
     
 return
-blessings
+blessed
 .
 Terminal
 (
