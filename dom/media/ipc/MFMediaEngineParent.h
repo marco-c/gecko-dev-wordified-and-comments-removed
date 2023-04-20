@@ -80,6 +80,9 @@ namespace
 mozilla
 {
 class
+MFCDMProxy
+;
+class
 MFContentProtectionManager
 ;
 class
@@ -290,6 +293,14 @@ ipc
 IPCResult
 RecvShutdown
 (
+)
+;
+void
+SetCDMProxy
+(
+MFCDMProxy
+*
+aCDMProxy
 )
 ;
 void
