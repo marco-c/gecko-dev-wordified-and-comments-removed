@@ -2097,7 +2097,7 @@ mLastSizeMode
 nsSizeMode_Normal
 ;
 nsSizeMode
-mOldSizeMode
+mPreFullscreenSizeMode
 =
 nsSizeMode_Normal
 ;
