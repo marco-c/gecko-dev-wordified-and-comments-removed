@@ -2206,6 +2206,10 @@ Destroy
 (
 )
 {
+DestroyCompositor
+(
+)
+;
 nsCOMPtr
 <
 nsIWidget

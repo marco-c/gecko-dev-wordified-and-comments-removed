@@ -332,12 +332,6 @@ closeWindow
 win
 )
 ;
-Cu
-.
-forceGC
-(
-)
-;
 }
 )
 ;
