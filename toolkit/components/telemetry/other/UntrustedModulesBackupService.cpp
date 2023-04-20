@@ -264,6 +264,7 @@ aData
 .
 Truncate
 (
+true
 )
 ;
 p

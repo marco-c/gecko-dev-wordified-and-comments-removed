@@ -897,6 +897,18 @@ mTrustTestFailures
 0
 )
 {
+MOZ_ASSERT
+(
+kMaxEvents
+=
+=
+mStacks
+.
+GetMaxStacksCount
+(
+)
+)
+;
 }
 UntrustedModulesData
 (
@@ -1021,6 +1033,8 @@ aOther
 void
 Truncate
 (
+bool
+aDropCallstackData
 )
 ;
 GeckoProcessType

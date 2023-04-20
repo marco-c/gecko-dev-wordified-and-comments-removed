@@ -171,6 +171,12 @@ unsigned
 aIndex
 )
 ;
+size_t
+GetMaxStacksCount
+(
+)
+const
+;
 void
 Clear
 (

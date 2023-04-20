@@ -1569,6 +1569,11 @@ stack
 )
 ;
 }
+Truncate
+(
+false
+)
+;
 }
 void
 UntrustedModulesData
@@ -1786,6 +1791,11 @@ newData
 mStacks
 )
 ;
+Truncate
+(
+false
+)
+;
 }
 void
 UntrustedModulesData
@@ -1793,6 +1803,13 @@ UntrustedModulesData
 :
 Truncate
 (
+bool
+aDropCallstackData
+)
+{
+if
+(
+aDropCallstackData
 )
 {
 mStacks
@@ -1801,6 +1818,7 @@ Clear
 (
 )
 ;
+}
 if
 (
 mNumEvents
@@ -1949,6 +1967,7 @@ mEvents
 ;
 Truncate
 (
+true
 )
 ;
 }
