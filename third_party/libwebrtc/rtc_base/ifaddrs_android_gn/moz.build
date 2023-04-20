@@ -226,6 +226,16 @@ True
 DEFINES
 [
 "
+WEBRTC_STRICT_FIELD_TRIALS
+"
+]
+=
+"
+0
+"
+DEFINES
+[
+"
 _GNU_SOURCE
 "
 ]
