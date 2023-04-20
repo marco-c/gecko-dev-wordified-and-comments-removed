@@ -62,6 +62,9 @@ example
 com
 /
 "
+noAlternateURI
+:
+true
 }
 {
 wrong
@@ -93,6 +96,9 @@ com
 /
 "
 noProtocolFixup
+:
+true
+noAlternateURI
 :
 true
 }
@@ -129,6 +135,9 @@ abc
 def
 /
 "
+noAlternateURI
+:
+true
 }
 {
 wrong
@@ -155,6 +164,9 @@ www
 example
 /
 "
+noAlternateURI
+:
+true
 }
 {
 wrong
