@@ -685,7 +685,7 @@ document
 createXULElement
 (
 "
-menuseparator
+toolbarseparator
 "
 )
 ;

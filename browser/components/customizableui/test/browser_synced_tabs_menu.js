@@ -1985,7 +1985,7 @@ node
 .
 nodeName
 "
-menuseparator
+toolbarseparator
 "
 )
 ;
@@ -2132,7 +2132,7 @@ node
 .
 nodeName
 "
-menuseparator
+toolbarseparator
 "
 )
 ;
