@@ -5,8 +5,6 @@ TESTING_JS_MODULES
 "
 broadcast_handler
 .
-sys
-.
-mjs
+jsm
 "
 ]

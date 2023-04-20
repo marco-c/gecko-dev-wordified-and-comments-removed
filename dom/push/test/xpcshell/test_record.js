@@ -10,7 +10,7 @@ PushRecord
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -23,9 +23,7 @@ modules
 /
 PushRecord
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

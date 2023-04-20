@@ -1312,6 +1312,14 @@ h
 -
 dom
 /
+push
+/
+PushServiceWebSocket
+.
+jsm
+-
+dom
+/
 security
 /
 nsCSPContext
