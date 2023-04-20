@@ -371,6 +371,9 @@ setUpTelemetryTest
 (
 {
 suggestions
+config
+=
+undefined
 }
 )
 {
@@ -498,6 +501,7 @@ QuickSuggestTestUtils
 ensureQuickSuggestInit
 (
 suggestions
+config
 )
 ;
 }
