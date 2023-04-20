@@ -435,8 +435,12 @@ SequentiallyConsistent
 AmountType
 ;
 static
+inline
 AmountType
 sAmount
+{
+0
+}
 ;
 MOZ_DEFINE_MALLOC_SIZE_OF_ON_ALLOC
 (
