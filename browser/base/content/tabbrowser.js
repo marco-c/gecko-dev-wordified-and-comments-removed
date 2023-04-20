@@ -20429,6 +20429,7 @@ _mayTabBeMultiselected
 ;
 if
 (
+(
 !
 _multiSelectedTabsSet
 .
@@ -20444,6 +20445,13 @@ _mayTabBeMultiselected
 (
 selectedTab
 )
+)
+|
+|
+!
+tabs
+.
+length
 )
 {
 tabs
