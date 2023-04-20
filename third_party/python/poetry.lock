@@ -2845,7 +2845,7 @@ version
 .
 1
 .
-0
+1
 "
 description
 =
@@ -5258,7 +5258,7 @@ version
 .
 5
 .
-1
+2
 "
 description
 =
@@ -6493,7 +6493,7 @@ content
 hash
 =
 "
-16adc4b6292094b504000d2c7b9dd1af8103f0220be93894238b60455d9dc87b
+a1068ebc7bed961126ecacbb0ca60aa2b67bc73ae1d7d2df3f75ab235d6f0c84
 "
 [
 metadata
@@ -11351,7 +11351,7 @@ urls
 .
 1
 .
-0
+1
 .
 tar
 .
@@ -11362,7 +11362,7 @@ hash
 "
 sha256
 :
-aa43ebcc4744b4cf20bf27f8dff885e82efee21a0219ba20f6bd99931cabd7b9
+7364da790751db2a060eb45adbf1d7db89a145ed279ba235f3425db9dd255915
 "
 }
 {
@@ -11375,7 +11375,7 @@ mozilla_repo_urls
 .
 1
 .
-0
+1
 -
 py3
 -
@@ -11390,7 +11390,7 @@ hash
 "
 sha256
 :
-5978abd796ae2b51a66e571754f0c559050cb4a024f2bf401471fa7ac4afd54e
+30510d3519479aa70211145d0ac9cf6e2fadcb8d30fa3b196bb957bd773502ba
 "
 }
 ]
@@ -15021,7 +15021,7 @@ taskgraph
 .
 5
 .
-1
+2
 .
 tar
 .
@@ -15032,7 +15032,7 @@ hash
 "
 sha256
 :
-e08b935175349ef8728ff5f19c7e9866a562256180f5580b291da3217cb5016c
+62f1a320d6b310f65151904a9992719a9b2c4c41ef8f57be810899fd3c5d2703
 "
 }
 {
@@ -15045,7 +15045,7 @@ taskcluster_taskgraph
 .
 5
 .
-1
+2
 -
 py3
 -
@@ -15060,7 +15060,7 @@ hash
 "
 sha256
 :
-dc56b87228fb8eb1ef611750202344817a8cf5d825c0dc7e2dcc0f8b2795cbcd
+6a024ba2383f56e11b764500f92837afb825612a49d24bde9791dfa7aa7ddaec
 "
 }
 ]
