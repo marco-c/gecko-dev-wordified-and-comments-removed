@@ -976,10 +976,6 @@ clone
 (
 )
 v
-.
-clone
-(
-)
 )
 )
 ;
@@ -1044,10 +1040,6 @@ parameters_from_all
 push
 (
 x
-.
-clone
-(
-)
 )
 ;
 Some

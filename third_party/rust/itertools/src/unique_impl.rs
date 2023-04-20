@@ -17,9 +17,7 @@ collections
 hash_map
 :
 :
-{
 Entry
-}
 ;
 use
 std

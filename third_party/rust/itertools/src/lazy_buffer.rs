@@ -134,8 +134,12 @@ return
 false
 ;
 }
+if
 let
-next_item
+Some
+(
+x
+)
 =
 self
 .
@@ -144,16 +148,6 @@ it
 next
 (
 )
-;
-match
-next_item
-{
-Some
-(
-x
-)
-=
->
 {
 self
 .
@@ -166,9 +160,7 @@ x
 ;
 true
 }
-None
-=
->
+else
 {
 self
 .
@@ -177,7 +169,6 @@ done
 true
 ;
 false
-}
 }
 }
 pub
@@ -321,7 +312,7 @@ index
 (
 &
 self
-_index
+index
 :
 J
 )
@@ -339,7 +330,7 @@ buffer
 .
 index
 (
-_index
+index
 )
 }
 }

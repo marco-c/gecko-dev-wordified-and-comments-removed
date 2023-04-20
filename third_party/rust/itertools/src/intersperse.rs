@@ -561,16 +561,11 @@ generate
 )
 )
 ;
-let
-accum
-=
 f
 (
 accum
 x
 )
-;
-accum
 }
 )
 }

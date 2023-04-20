@@ -254,21 +254,6 @@ GroupingMap
 iter
 }
 }
-#
-[
-must_use
-=
-"
-GroupingMapBy
-is
-lazy
-and
-do
-nothing
-unless
-consumed
-"
-]
 pub
 type
 GroupingMapBy
@@ -844,7 +829,6 @@ v2
 f
 (
 key
-&
 v1
 )
 .
@@ -854,7 +838,6 @@ cmp
 f
 (
 key
-&
 v2
 )
 )
@@ -1024,7 +1007,6 @@ v2
 f
 (
 key
-&
 v1
 )
 .
@@ -1034,7 +1016,6 @@ cmp
 f
 (
 key
-&
 v2
 )
 )
@@ -1342,7 +1323,6 @@ v2
 f
 (
 key
-&
 v1
 )
 .
@@ -1352,7 +1332,6 @@ cmp
 f
 (
 key
-&
 v2
 )
 )

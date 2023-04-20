@@ -728,8 +728,8 @@ iter
 }
 TupleWindows
 {
-last
 iter
+last
 }
 }
 impl

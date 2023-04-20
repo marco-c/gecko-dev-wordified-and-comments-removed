@@ -30,6 +30,19 @@ PeekingNext
 ;
 #
 [
+cfg
+(
+doc
+)
+]
+use
+crate
+:
+:
+Itertools
+;
+#
+[
 derive
 (
 Clone
@@ -351,7 +364,6 @@ None
 }
 }
 else
-{
 if
 let
 Some
@@ -377,7 +389,6 @@ r
 {
 return
 None
-}
 }
 }
 self

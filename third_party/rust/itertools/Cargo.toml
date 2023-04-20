@@ -127,7 +127,7 @@ version
 .
 10
 .
-3
+5
 "
 authors
 =
@@ -491,5 +491,10 @@ use_std
 [
 "
 use_alloc
+"
+"
+either
+/
+use_std
 "
 ]
