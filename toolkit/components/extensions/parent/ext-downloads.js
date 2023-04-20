@@ -4920,13 +4920,6 @@ err
 =
 >
 {
-if
-(
-err
-.
-becauseNoSuchFile
-)
-{
 return
 Promise
 .
@@ -4954,10 +4947,6 @@ t
 exist
 }
 )
-;
-}
-throw
-err
 ;
 }
 )
