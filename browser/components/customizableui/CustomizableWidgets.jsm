@@ -2747,6 +2747,9 @@ menuitem
 -
 screenshot
 "
+"
+toolbar_button
+"
 )
 ;
 }
