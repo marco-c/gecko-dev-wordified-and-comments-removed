@@ -240,10 +240,6 @@ pkgconf
 .
 yml
 -
-python
-.
-yml
--
 resourcemonitor
 .
 yml
