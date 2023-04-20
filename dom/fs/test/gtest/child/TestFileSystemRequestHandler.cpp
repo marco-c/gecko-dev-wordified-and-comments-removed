@@ -569,6 +569,9 @@ GetRootHandle
 (
 mManager
 promise
+IgnoredErrorResult
+(
+)
 )
 ;
 SpinEventLoopUntil
@@ -759,6 +762,9 @@ mManager
 mChild
 true
 promise
+IgnoredErrorResult
+(
+)
 )
 ;
 SpinEventLoopUntil
@@ -949,6 +955,9 @@ mManager
 mChild
 true
 promise
+IgnoredErrorResult
+(
+)
 )
 ;
 SpinEventLoopUntil
@@ -1276,6 +1285,9 @@ GetFile
 mManager
 mEntry
 promise
+IgnoredErrorResult
+(
+)
 )
 ;
 SpinEventLoopUntil
@@ -1524,6 +1536,9 @@ entryId
 0
 promise
 sink
+IgnoredErrorResult
+(
+)
 )
 ;
 SpinEventLoopUntil
@@ -1711,6 +1726,9 @@ mManager
 mChild
 true
 promise
+IgnoredErrorResult
+(
+)
 )
 ;
 SpinEventLoopUntil

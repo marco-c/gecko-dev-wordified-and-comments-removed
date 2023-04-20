@@ -25,8 +25,11 @@ RefPtr
 ;
 namespace
 mozilla
-:
-:
+{
+class
+ErrorResult
+;
+namespace
 dom
 {
 class
@@ -72,6 +75,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 ;
 virtual
@@ -95,6 +101,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 ;
 virtual
@@ -118,6 +127,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 ;
 virtual
@@ -139,6 +151,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 ;
 virtual
@@ -162,6 +177,9 @@ Promise
 >
 &
 aPromise
+ErrorResult
+&
+aError
 )
 ;
 virtual
@@ -191,6 +209,9 @@ FileSystemEntryMetadataArray
 >
 &
 aSink
+ErrorResult
+&
+aError
 )
 ;
 virtual
@@ -214,6 +235,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 ;
 virtual
@@ -242,6 +266,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 ;
 virtual
@@ -270,6 +297,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 ;
 virtual
@@ -291,6 +321,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 ;
 virtual
@@ -303,6 +336,7 @@ default
 ;
 }
 ;
+}
 }
 }
 #

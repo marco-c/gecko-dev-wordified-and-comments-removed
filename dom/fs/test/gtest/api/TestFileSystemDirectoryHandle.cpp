@@ -587,6 +587,7 @@ _
 _
 _
 _
+_
 )
 )
 .
@@ -744,6 +745,7 @@ _
 _
 _
 _
+_
 )
 )
 .
@@ -897,6 +899,7 @@ EXPECT_CALL
 mRequestHandler
 RemoveEntry
 (
+_
 _
 _
 _

@@ -1860,6 +1860,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 {
 MOZ_ASSERT
@@ -1980,6 +1983,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 {
 MOZ_ASSERT
@@ -2164,6 +2170,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 {
 MOZ_ASSERT
@@ -2347,6 +2356,9 @@ Promise
 >
 &
 aPromise
+ErrorResult
+&
+aError
 )
 {
 MOZ_ASSERT
@@ -2481,6 +2493,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 {
 MOZ_ASSERT
@@ -2637,6 +2652,9 @@ FileSystemEntryMetadataArray
 >
 &
 aSink
+ErrorResult
+&
+aError
 )
 {
 MOZ_ASSERT
@@ -2772,6 +2790,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 {
 MOZ_ASSERT
@@ -2951,6 +2972,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 {
 MOZ_ASSERT
@@ -3111,6 +3135,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 {
 MOZ_ASSERT
@@ -3274,6 +3301,9 @@ RefPtr
 Promise
 >
 aPromise
+ErrorResult
+&
+aError
 )
 {
 MOZ_ASSERT
