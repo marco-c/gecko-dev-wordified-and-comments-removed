@@ -66,6 +66,15 @@ SameSite
 =
 Strict
 ;
+Path
+=
+/
+credential
+-
+management
+/
+support
+;
 Secure
 '
 ;
