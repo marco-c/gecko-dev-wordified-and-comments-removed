@@ -686,10 +686,6 @@ clearAllContentEvents
 ;
 menu
 .
-activateItem
-(
-menu
-.
 querySelector
 (
 "
@@ -701,6 +697,9 @@ video
 pictureinpicture
 "
 )
+.
+click
+(
 )
 ;
 let

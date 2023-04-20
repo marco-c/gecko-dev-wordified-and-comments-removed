@@ -221,8 +221,7 @@ contextmenu
 firstRequest
 )
 ;
-await
-selectContextMenuItem
+getContextMenuItem
 (
 monitor
 "
@@ -236,6 +235,10 @@ resend
 -
 only
 "
+)
+.
+click
+(
 )
 ;
 await

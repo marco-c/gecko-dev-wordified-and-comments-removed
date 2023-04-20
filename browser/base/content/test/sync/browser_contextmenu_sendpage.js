@@ -533,9 +533,6 @@ a
 }
 )
 ;
-let
-contextMenu
-=
 await
 openContentContextMenu
 (
@@ -886,10 +883,6 @@ enabled
 "
 )
 ;
-contextMenu
-.
-activateItem
-(
 document
 .
 getElementById
@@ -909,6 +902,9 @@ querySelector
 menuitem
 "
 )
+.
+click
+(
 )
 ;
 await
@@ -2357,9 +2353,6 @@ await
 menuPopupPromise
 ;
 }
-return
-contextMenu
-;
 }
 async
 function

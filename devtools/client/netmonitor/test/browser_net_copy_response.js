@@ -133,14 +133,12 @@ item
 await
 waitForClipboardPromise
 (
-async
 function
 setup
 (
 )
 {
-await
-selectContextMenuItem
+getContextMenuItem
 (
 monitor
 "
@@ -154,6 +152,10 @@ copy
 -
 response
 "
+)
+.
+click
+(
 )
 ;
 }

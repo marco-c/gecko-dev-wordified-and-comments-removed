@@ -709,11 +709,10 @@ value
 "
 )
 ;
-menuPopup
-.
-activateItem
-(
 storeMenuItem
+.
+click
+(
 )
 ;
 info

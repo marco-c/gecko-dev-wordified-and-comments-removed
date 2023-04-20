@@ -559,11 +559,10 @@ downloadsCmd_clearDownloads
 "
 )
 ;
-contextMenu
-.
-activateItem
-(
 clearDownloadsButton
+.
+click
+(
 )
 ;
 }
