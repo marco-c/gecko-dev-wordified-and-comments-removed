@@ -693,6 +693,13 @@ length
 {
 this
 .
+sendTabTelemetry
+(
+0
+)
+;
+this
+.
 togglePlaceholderVisibility
 (
 true
