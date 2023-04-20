@@ -1155,6 +1155,13 @@ openOutputStream
 0
 0
 )
+.
+QueryInterface
+(
+Ci
+.
+nsIAsyncOutputStream
+)
 ;
 streamIn
 .
