@@ -6549,7 +6549,7 @@ let
 cleanUpNimbus
 =
 await
-QuickSuggestTestUtils
+UrlbarTestUtils
 .
 initNimbusFeature
 (
