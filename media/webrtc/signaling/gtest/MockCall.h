@@ -1031,6 +1031,15 @@ override
 {
 }
 void
+SetUlpfecPayloadType
+(
+int
+ulpfec_payload_type
+)
+override
+{
+}
+void
 SetRtpExtensions
 (
 std
