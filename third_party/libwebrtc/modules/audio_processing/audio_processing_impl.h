@@ -111,7 +111,7 @@ audio_processing
 /
 agc
 /
-analog_gain_stats_reporter
+gain_control
 .
 h
 "
@@ -122,9 +122,9 @@ modules
 /
 audio_processing
 /
-agc
+agc2
 /
-gain_control
+input_volume_stats_reporter
 .
 h
 "

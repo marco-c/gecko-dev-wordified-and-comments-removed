@@ -5,9 +5,9 @@ modules
 /
 audio_processing
 /
-agc
+agc2
 /
-analog_gain_stats_reporter
+input_volume_stats_reporter
 .
 h
 "
