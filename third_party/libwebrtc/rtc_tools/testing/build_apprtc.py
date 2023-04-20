@@ -328,6 +328,17 @@ GOPATH
 =
 golang_workspace
     
+golang_env
+[
+'
+GO111MODULE
+'
+]
+=
+'
+off
+'
+    
 collider_out
 =
 os
