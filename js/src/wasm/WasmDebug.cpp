@@ -2154,6 +2154,18 @@ stackResults
 )
 {
 const
+TypeContext
+&
+types
+=
+*
+metadata
+(
+)
+.
+types
+;
+const
 FuncType
 &
 funcType
@@ -2301,6 +2313,7 @@ nullptr
 return
 DecodeValidatedLocalEntries
 (
+types
 d
 locals
 )

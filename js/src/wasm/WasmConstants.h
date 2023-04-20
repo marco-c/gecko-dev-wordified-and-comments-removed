@@ -182,7 +182,7 @@ ExternRef
 static
 constexpr
 TypeCode
-AbstractReferenceTypeIndexCode
+AbstractTypeRefCode
 =
 TypeCode
 :
