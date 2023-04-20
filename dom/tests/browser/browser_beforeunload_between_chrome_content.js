@@ -32,7 +32,7 @@ PromptTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -45,7 +45,9 @@ common
 /
 PromptTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
