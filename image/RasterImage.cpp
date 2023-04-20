@@ -610,6 +610,16 @@ this
 )
 ;
 }
+mDefaultDecoderFlags
+=
+DecoderFactory
+:
+:
+GetDefaultDecoderFlagsForType
+(
+mDecoderType
+)
+;
 mInitialized
 =
 true
@@ -4858,9 +4868,7 @@ this
 DecoderFlags
 decoderFlags
 =
-DefaultDecoderFlags
-(
-)
+mDefaultDecoderFlags
 ;
 if
 (
@@ -5213,6 +5221,7 @@ WrapNotNull
 (
 this
 )
+mDefaultDecoderFlags
 mSourceBuffer
 )
 ;
