@@ -1541,6 +1541,7 @@ e
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -1612,8 +1613,6 @@ remote
 conn
 .
 local_addr
-unsafe
-{
 (
 *
 packet
@@ -1622,7 +1621,6 @@ packet
 to_vec
 (
 )
-}
 )
 Instant
 :
@@ -2554,6 +2552,7 @@ NS_ERROR_UNEXPECTED
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -2590,8 +2589,6 @@ nsresult
 let
 array
 =
-unsafe
-{
 slice
 :
 :
@@ -2602,7 +2599,6 @@ len
 as
 usize
 )
-}
 ;
 match
 conn
@@ -5615,6 +5611,7 @@ NS_OK
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -5656,8 +5653,6 @@ nsresult
 let
 array
 =
-unsafe
-{
 slice
 :
 :
@@ -5668,7 +5663,6 @@ len
 as
 usize
 )
-}
 ;
 match
 conn

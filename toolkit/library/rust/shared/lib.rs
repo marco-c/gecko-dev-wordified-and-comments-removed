@@ -654,6 +654,7 @@ GkRust_Shutdown
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -675,8 +676,6 @@ panic
 {
 }
 "
-unsafe
-{
 CStr
 :
 :
@@ -684,7 +683,6 @@ from_ptr
 (
 message
 )
-}
 .
 to_string_lossy
 (
@@ -697,6 +695,7 @@ to_string_lossy
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -715,8 +714,6 @@ message
 const
 c_char
 )
-{
-unsafe
 {
 info
 !
@@ -759,5 +756,4 @@ unwrap
 )
 )
 ;
-}
 }
