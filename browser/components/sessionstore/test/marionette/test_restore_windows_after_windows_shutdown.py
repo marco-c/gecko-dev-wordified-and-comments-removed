@@ -3,9 +3,9 @@ __future__
 import
 absolute_import
 import
-sys
-import
 os
+import
+sys
 sys
 .
 path
