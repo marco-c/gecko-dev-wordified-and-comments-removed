@@ -1200,14 +1200,6 @@ xpconnect
 /
 tests
 /
-browser
-/
-js
-/
-xpconnect
-/
-tests
-/
 mochitest
 /
 js
