@@ -10,7 +10,7 @@ ContentTaskUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ common
 /
 ContentTaskUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -36,7 +38,7 @@ AssertCls
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -49,7 +51,9 @@ common
 /
 Assert
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -192,7 +192,7 @@ AssertCls
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -205,7 +205,9 @@ common
 /
 Assert
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -2787,7 +2789,7 @@ _CoverageCollector
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -2800,7 +2802,9 @@ common
 /
 CoverageUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 .

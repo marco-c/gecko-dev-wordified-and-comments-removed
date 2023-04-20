@@ -2256,7 +2256,7 @@ SpecialPowers
 .
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -2269,7 +2269,9 @@ common
 /
 CoverageUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
