@@ -6567,12 +6567,6 @@ this
 .
 _button
 {
-position
-:
-"
-bottomright
-topright
-"
 triggerEvent
 :
 aEvent
