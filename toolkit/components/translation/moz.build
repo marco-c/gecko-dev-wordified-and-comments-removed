@@ -100,7 +100,9 @@ mem
 "
 LanguageDetector
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCSHELL_TESTS_MANIFESTS
