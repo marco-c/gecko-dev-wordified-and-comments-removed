@@ -584,9 +584,6 @@ const
 nsCompatibility
 mCompatMode
 ;
-#
-ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
 bool
 mSheetCompleteCalled
 =
@@ -597,8 +594,6 @@ mIntentionallyDropped
 =
 false
 ;
-#
-endif
 bool
 ShouldDefer
 (

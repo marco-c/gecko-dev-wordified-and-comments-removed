@@ -9680,9 +9680,6 @@ rv
 }
 else
 {
-#
-ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
 data
 -
 >
@@ -9690,8 +9687,6 @@ mIntentionallyDropped
 =
 true
 ;
-#
-endif
 }
 return
 LoadSheetResult
@@ -10364,9 +10359,6 @@ complete
 )
 )
 ;
-#
-ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
 data
 -
 >
@@ -10374,8 +10366,6 @@ mIntentionallyDropped
 =
 true
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -10953,9 +10943,6 @@ rv
 }
 else
 {
-#
-ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
 data
 -
 >
@@ -10963,8 +10950,6 @@ mIntentionallyDropped
 =
 true
 ;
-#
-endif
 }
 return
 sheet
