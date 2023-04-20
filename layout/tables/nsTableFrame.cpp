@@ -2833,14 +2833,9 @@ colIndex
 numCols
 ;
 }
-for
+if
 (
-;
 *
-colGroupIter
-;
-+
-+
 colGroupIter
 )
 {
