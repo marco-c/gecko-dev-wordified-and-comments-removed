@@ -2542,6 +2542,25 @@ return
 cxxtype
     
 def
+visitBuiltinCType
+(
+self
+b
+)
+:
+        
+return
+Type
+(
+self
+.
+typename
+(
+b
+)
+)
+    
+def
 visitActorType
 (
 self
@@ -9197,8 +9216,6 @@ str
 using
 .
 type
-.
-spec
 )
             
 if
@@ -15184,6 +15201,17 @@ templateargs
 )
 :
         
+assert
+fqname
+.
+startswith
+(
+"
+:
+:
+"
+)
+        
 if
 fqname
 !
@@ -15584,6 +15612,8 @@ self
 maybeTypedef
 (
 "
+:
+:
 mozilla
 :
 :
@@ -15629,6 +15659,8 @@ self
 maybeTypedef
 (
 "
+:
+:
 mozilla
 :
 :
@@ -15674,6 +15706,8 @@ self
 maybeTypedef
 (
 "
+:
+:
 mozilla
 :
 :
@@ -15719,6 +15753,8 @@ self
 maybeTypedef
 (
 "
+:
+:
 mozilla
 :
 :
@@ -15779,6 +15815,8 @@ maybeTypedef
 (
             
 "
+:
+:
 mozilla
 :
 :
@@ -21574,8 +21612,6 @@ spec
 using
 .
 type
-.
-spec
             
 self
 .

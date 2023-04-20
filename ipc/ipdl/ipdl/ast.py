@@ -1241,11 +1241,10 @@ loc
 )
         
 assert
-not
 isinstance
 (
 cxxTypeSpec
-str
+QualifiedId
 )
         
 assert
@@ -2197,6 +2196,13 @@ self
 loc
 )
         
+assert
+isinstance
+(
+spec
+str
+)
+        
 self
 .
 spec
@@ -2238,8 +2244,6 @@ return
 self
 .
 spec
-.
-baseid
     
 def
 __str__
@@ -2249,12 +2253,9 @@ self
 :
         
 return
-str
-(
 self
 .
 spec
-)
 class
 Attribute
 (
@@ -2426,24 +2427,12 @@ self
 )
 :
         
-if
-0
-=
-=
-len
-(
-self
-.
-quals
-)
+return
+"
 :
-            
-return
-self
-.
-baseid
-        
-return
+:
+"
++
 "
 :
 :
@@ -2454,16 +2443,13 @@ join
 self
 .
 quals
-)
 +
-"
-:
-:
-"
-+
+[
 self
 .
 baseid
+]
+)
 class
 Decl
 (

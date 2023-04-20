@@ -1,4 +1,4 @@
-Types
+CTypes
 =
 (
     
@@ -29,6 +29,10 @@ float
 "
 double
 "
+)
+Types
+=
+(
     
 "
 int8_t

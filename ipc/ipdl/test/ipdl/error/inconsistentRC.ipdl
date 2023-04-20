@@ -7,6 +7,8 @@ refcounted
 status
 of
 type
+:
+:
 mozilla
 :
 :
@@ -14,8 +16,10 @@ ipc
 :
 :
 SomeRefcountedType
+[
+RefCounted
+]
 using
-refcounted
 class
 mozilla
 :
