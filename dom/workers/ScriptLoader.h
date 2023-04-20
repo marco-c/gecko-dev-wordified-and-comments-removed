@@ -670,7 +670,7 @@ ThreadSafeWorkerRef
 >
 mWorkerRef
 ;
-nsTArray
+nsTArrayView
 <
 RefPtr
 <
@@ -788,11 +788,8 @@ aCancelResult
 )
 ;
 void
-DispatchMaybeMoveToLoadedList
+DispatchProcessPendingRequests
 (
-ThreadSafeRequestHandle
-*
-aRequestHandle
 )
 ;
 NS_IMETHOD
