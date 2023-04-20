@@ -128,6 +128,15 @@ h
 "
 #
 include
+"
+shared
+-
+libraries
+.
+h
+"
+#
+include
 <
 cstddef
 >
@@ -537,6 +546,10 @@ mozilla
 JSONWriter
 &
 aWriter
+const
+SharedLibraryInfo
+&
+aInfo
 )
 ;
 uint32_t
