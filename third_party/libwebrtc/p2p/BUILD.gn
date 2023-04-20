@@ -1243,6 +1243,8 @@ time_delta
 .
 /
 rtc_base
+:
+copy_on_write_buffer
 "
 "
 .
@@ -1250,7 +1252,7 @@ rtc_base
 /
 rtc_base
 :
-copy_on_write_buffer
+task_queue_for_test
 "
 ]
 absl_deps
@@ -1341,6 +1343,8 @@ rtc_p2p
 .
 /
 rtc_base
+:
+net_helpers
 "
 "
 .
@@ -1348,7 +1352,7 @@ rtc_base
 /
 rtc_base
 :
-net_helpers
+task_queue_for_test
 "
 "
 .
