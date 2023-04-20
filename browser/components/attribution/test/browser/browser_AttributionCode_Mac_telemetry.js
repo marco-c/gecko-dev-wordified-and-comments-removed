@@ -31,7 +31,7 @@ MacAttribution
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -43,9 +43,7 @@ modules
 /
 MacAttribution
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -56,7 +54,7 @@ AttributionIOUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -68,9 +66,7 @@ modules
 /
 AttributionCode
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

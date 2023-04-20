@@ -52,9 +52,7 @@ EXTRA_JS_MODULES
 "
 AttributionCode
 .
-sys
-.
-mjs
+jsm
 "
 ]
 SPHINX_TREES
@@ -127,8 +125,6 @@ EXTRA_JS_MODULES
 "
 MacAttribution
 .
-sys
-.
-mjs
+jsm
 "
 ]
