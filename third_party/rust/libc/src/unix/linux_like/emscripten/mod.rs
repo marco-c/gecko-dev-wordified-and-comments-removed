@@ -13396,7 +13396,14 @@ as
 :
 c_uint
 }
+}
+safe_f
+!
+{
 pub
+{
+const
+}
 fn
 makedev
 (

@@ -96,6 +96,14 @@ c_ulonglong
 ;
 pub
 type
+__s64
+=
+:
+:
+c_longlong
+;
+pub
+type
 fsblkcnt64_t
 =
 u64

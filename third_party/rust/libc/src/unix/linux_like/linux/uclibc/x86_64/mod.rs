@@ -132,6 +132,14 @@ __u64
 :
 c_ulong
 ;
+pub
+type
+__s64
+=
+:
+:
+c_long
+;
 s
 !
 {

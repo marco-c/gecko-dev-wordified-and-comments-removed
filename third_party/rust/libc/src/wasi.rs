@@ -236,6 +236,12 @@ nl_item
 =
 c_int
 ;
+pub
+type
+__wasi_rights_t
+=
+u64
+;
 s_no_extra_traits
 !
 {
@@ -269,12 +275,6 @@ f64
 ]
 }
 }
-pub
-type
-__wasi_rights_t
-=
-u64
-;
 #
 [
 allow
