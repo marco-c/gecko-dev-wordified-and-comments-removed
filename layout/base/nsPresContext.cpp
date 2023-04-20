@@ -13702,7 +13702,7 @@ MarkFixedFramesForReflow
 IntrinsicDirty
 :
 :
-Resize
+None
 )
 ;
 mPresShell

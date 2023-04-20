@@ -2170,7 +2170,7 @@ RequestReflow
 IntrinsicDirty
 :
 :
-Resize
+None
 )
 ;
 }

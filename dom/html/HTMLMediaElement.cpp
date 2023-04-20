@@ -20519,7 +20519,7 @@ frame
 IntrinsicDirty
 :
 :
-TreeChange
+FrameAndAncestors
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -29638,7 +29638,7 @@ frame
 IntrinsicDirty
 :
 :
-StyleChange
+FrameAncestorsAndDescendants
 NS_FRAME_IS_DIRTY
 )
 ;

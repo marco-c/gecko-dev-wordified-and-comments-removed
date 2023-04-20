@@ -5620,7 +5620,7 @@ dirtyType
 IntrinsicDirty
 :
 :
-StyleChange
+FrameAncestorsAndDescendants
 ;
 }
 else
@@ -5647,7 +5647,7 @@ dirtyType
 IntrinsicDirty
 :
 :
-StyleChange
+FrameAncestorsAndDescendants
 ;
 }
 else
@@ -5663,7 +5663,7 @@ dirtyType
 IntrinsicDirty
 :
 :
-TreeChange
+FrameAndAncestors
 ;
 }
 else
@@ -5687,7 +5687,7 @@ dirtyType
 IntrinsicDirty
 :
 :
-TreeChange
+FrameAndAncestors
 ;
 }
 else
@@ -5697,7 +5697,7 @@ dirtyType
 IntrinsicDirty
 :
 :
-Resize
+None
 ;
 }
 if
@@ -5754,7 +5754,7 @@ dirtyType
 IntrinsicDirty
 :
 :
-StyleChange
+FrameAncestorsAndDescendants
 )
 {
 dirtyBits
@@ -5777,7 +5777,7 @@ dirtyType
 IntrinsicDirty
 :
 :
-Resize
+None
 &
 &
 !

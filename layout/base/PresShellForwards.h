@@ -93,9 +93,9 @@ enum
 class
 IntrinsicDirty
 {
-Resize
-TreeChange
-StyleChange
+None
+FrameAndAncestors
+FrameAncestorsAndDescendants
 }
 ;
 enum

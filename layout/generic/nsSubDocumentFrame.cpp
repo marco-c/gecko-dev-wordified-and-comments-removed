@@ -5943,7 +5943,7 @@ this
 IntrinsicDirty
 :
 :
-TreeChange
+FrameAndAncestors
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -5998,7 +5998,7 @@ other
 IntrinsicDirty
 :
 :
-TreeChange
+FrameAndAncestors
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -6291,12 +6291,12 @@ dependsOnIntrinsics
 IntrinsicDirty
 :
 :
-StyleChange
+FrameAncestorsAndDescendants
 :
 IntrinsicDirty
 :
 :
-Resize
+None
 ;
 PresShell
 (

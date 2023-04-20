@@ -3388,7 +3388,7 @@ this
 IntrinsicDirty
 :
 :
-Resize
+None
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -3430,7 +3430,7 @@ GetParent
 IntrinsicDirty
 :
 :
-StyleChange
+FrameAncestorsAndDescendants
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -3585,7 +3585,7 @@ this
 IntrinsicDirty
 :
 :
-StyleChange
+FrameAncestorsAndDescendants
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -5311,7 +5311,7 @@ this
 IntrinsicDirty
 :
 :
-StyleChange
+FrameAncestorsAndDescendants
 NS_FRAME_IS_DIRTY
 )
 ;

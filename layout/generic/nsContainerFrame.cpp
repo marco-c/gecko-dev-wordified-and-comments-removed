@@ -814,7 +814,7 @@ this
 IntrinsicDirty
 :
 :
-TreeChange
+FrameAndAncestors
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
@@ -951,7 +951,7 @@ this
 IntrinsicDirty
 :
 :
-TreeChange
+FrameAndAncestors
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
@@ -1122,7 +1122,7 @@ parent
 IntrinsicDirty
 :
 :
-TreeChange
+FrameAndAncestors
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
@@ -10020,7 +10020,7 @@ pif
 IntrinsicDirty
 :
 :
-TreeChange
+FrameAndAncestors
 NS_FRAME_IS_DIRTY
 )
 ;
