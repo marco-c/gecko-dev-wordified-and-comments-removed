@@ -208,13 +208,6 @@ bufferevent_pair
 .
 c
 '
-'
-libevent
-/
-evrpc
-.
-c
-'
 ]
 if
 os_macosx
