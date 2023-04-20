@@ -164,6 +164,15 @@ selected
 #
 SiteDataRemoveSelectedDialog
 {
+-
+moz
+-
+box
+-
+layout
+:
+flex
+;
 padding
 :
 16px
@@ -211,9 +220,9 @@ SiteDataRemoveSelectedDialog
 multi
 -
 entry
+#
+removalList
 {
-min
--
 height
 :
 36em
