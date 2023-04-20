@@ -170,11 +170,6 @@ gif
 "
 blend
 .
-avif
-"
-"
-blend
-.
 gif
 "
 "
@@ -287,15 +282,6 @@ webp
 exif_resolution
 .
 jpg
-"
-"
-first
--
-frame
--
-green
-.
-avif
 "
 "
 first

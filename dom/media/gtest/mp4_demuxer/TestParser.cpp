@@ -2313,7 +2313,7 @@ i
 +
 )
 {
-MP4SampleIndex
+Index
 :
 :
 Indice
@@ -2648,7 +2648,7 @@ i
 +
 )
 {
-MP4SampleIndex
+Index
 :
 :
 Indice

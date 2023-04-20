@@ -28,6 +28,13 @@ h
 #
 include
 "
+Index
+.
+h
+"
+#
+include
+"
 MediaData
 .
 h
@@ -60,13 +67,6 @@ mp4parse
 .
 h
 "
-#
-include
-"
-SampleIterator
-.
-h
-"
 namespace
 mozilla
 {
@@ -91,7 +91,7 @@ GetIndice
 (
 size_t
 aIndex
-MP4SampleIndex
+Index
 :
 :
 Indice

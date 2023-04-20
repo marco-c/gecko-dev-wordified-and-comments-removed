@@ -33,6 +33,11 @@ DecoderData
 h
 "
 "
+Index
+.
+h
+"
+"
 MoofParser
 .
 h
@@ -63,11 +68,6 @@ ResourceStream
 h
 "
 "
-SampleIterator
-.
-h
-"
-"
 SinfParser
 .
 h
@@ -93,6 +93,11 @@ DecoderData
 cpp
 "
 "
+Index
+.
+cpp
+"
+"
 MoofParser
 .
 cpp
@@ -114,11 +119,6 @@ cpp
 "
 "
 ResourceStream
-.
-cpp
-"
-"
-SampleIterator
 .
 cpp
 "
