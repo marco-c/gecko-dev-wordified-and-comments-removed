@@ -5319,6 +5319,12 @@ newtabSessionId
 {
 this
 .
+_isHandoffSession
+=
+true
+;
+this
+.
 _handoffSession
 =
 newtabSessionId
@@ -13349,7 +13355,7 @@ if
 (
 this
 .
-_handoffSession
+_isHandoffSession
 )
 {
 return
@@ -20096,6 +20102,12 @@ this
 _handoffSession
 =
 undefined
+;
+this
+.
+_isHandoffSession
+=
+false
 ;
 this
 .
