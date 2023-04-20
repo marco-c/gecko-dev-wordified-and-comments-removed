@@ -1803,6 +1803,17 @@ eDirNext
 false
 )
 ;
+if
+(
+attributesNext
+=
+=
+start
+)
+{
+break
+;
+}
 RefPtr
 <
 AccAttributes
