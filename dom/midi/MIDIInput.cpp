@@ -332,7 +332,9 @@ StateChange
 {
 if
 (
-mPort
+Port
+(
+)
 -
 >
 ConnectionState
@@ -347,7 +349,9 @@ Open
 |
 |
 (
-mPort
+Port
+(
+)
 -
 >
 DeviceState
@@ -361,7 +365,9 @@ MIDIPortDeviceState
 Connected
 &
 &
-mPort
+Port
+(
+)
 -
 >
 ConnectionState
@@ -413,7 +419,9 @@ onmidimessage
 {
 if
 (
-mPort
+Port
+(
+)
 -
 >
 ConnectionState
@@ -440,7 +448,9 @@ Open
 "
 )
 ;
-mPort
+Port
+(
+)
 -
 >
 SendOpen

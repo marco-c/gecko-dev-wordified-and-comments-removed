@@ -144,6 +144,16 @@ Teardown
 (
 )
 ;
+void
+DetachOwner
+(
+)
+{
+mDOMPort
+=
+nullptr
+;
+}
 private
 :
 ~

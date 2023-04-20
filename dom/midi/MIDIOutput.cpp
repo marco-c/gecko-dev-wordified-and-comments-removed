@@ -269,7 +269,9 @@ aRv
 {
 if
 (
-mPort
+Port
+(
+)
 -
 >
 DeviceState
@@ -499,7 +501,9 @@ return
 }
 }
 }
-mPort
+Port
+(
+)
 -
 >
 SendSend
@@ -518,7 +522,9 @@ Clear
 {
 if
 (
-mPort
+Port
+(
+)
 -
 >
 ConnectionState
@@ -535,7 +541,9 @@ Closed
 return
 ;
 }
-mPort
+Port
+(
+)
 -
 >
 SendClear
