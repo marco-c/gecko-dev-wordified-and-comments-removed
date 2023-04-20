@@ -3951,10 +3951,6 @@ MIDIAccess
 android
 :
 false
-disabled
-:
-!
-isEarlyBetaOrEarlier
 }
 {
 name
@@ -3965,10 +3961,6 @@ MIDIConnectionEvent
 android
 :
 false
-disabled
-:
-!
-isEarlyBetaOrEarlier
 }
 {
 name
@@ -3979,10 +3971,6 @@ MIDIInputMap
 android
 :
 false
-disabled
-:
-!
-isEarlyBetaOrEarlier
 }
 {
 name
@@ -3993,10 +3981,6 @@ MIDIInput
 android
 :
 false
-disabled
-:
-!
-isEarlyBetaOrEarlier
 }
 {
 name
@@ -4007,10 +3991,6 @@ MIDIMessageEvent
 android
 :
 false
-disabled
-:
-!
-isEarlyBetaOrEarlier
 }
 {
 name
@@ -4021,10 +4001,6 @@ MIDIOutputMap
 android
 :
 false
-disabled
-:
-!
-isEarlyBetaOrEarlier
 }
 {
 name
@@ -4035,10 +4011,6 @@ MIDIOutput
 android
 :
 false
-disabled
-:
-!
-isEarlyBetaOrEarlier
 }
 {
 name
@@ -4049,10 +4021,6 @@ MIDIPort
 android
 :
 false
-disabled
-:
-!
-isEarlyBetaOrEarlier
 }
 {
 name
