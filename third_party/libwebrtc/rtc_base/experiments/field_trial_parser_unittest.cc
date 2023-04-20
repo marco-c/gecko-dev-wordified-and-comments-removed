@@ -74,7 +74,7 @@ webrtc
 {
 namespace
 {
-const
+constexpr
 char
 kDummyExperiment
 [
@@ -193,6 +193,17 @@ h
 a80
 "
 )
+;
+field_trial
+:
+:
+ScopedGlobalFieldTrialsForTesting
+g
+{
+{
+kDummyExperiment
+}
+}
 ;
 explicit
 DummyExperiment
