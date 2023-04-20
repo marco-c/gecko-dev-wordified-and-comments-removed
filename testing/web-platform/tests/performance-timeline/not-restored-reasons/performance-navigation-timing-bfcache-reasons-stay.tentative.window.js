@@ -64,7 +64,7 @@ href
 )
 ;
 await
-assertBFCache
+assertBFCacheEligibility
 (
 rc1
 false
@@ -89,7 +89,7 @@ WebSocket
 )
 ;
 await
-assertBFCache
+assertBFCacheEligibility
 (
 rc1
 true

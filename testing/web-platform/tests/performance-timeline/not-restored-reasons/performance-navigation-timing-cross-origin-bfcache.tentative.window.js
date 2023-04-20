@@ -150,7 +150,7 @@ href
 )
 ;
 await
-assertBFCache
+assertBFCacheEligibility
 (
 rc1
 false

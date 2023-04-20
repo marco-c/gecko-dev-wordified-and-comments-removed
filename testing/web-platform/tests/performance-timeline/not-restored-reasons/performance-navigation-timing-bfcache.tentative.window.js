@@ -37,7 +37,7 @@ noopener
 )
 ;
 await
-assertBFCache
+assertBFCacheEligibility
 (
 rc1
 true

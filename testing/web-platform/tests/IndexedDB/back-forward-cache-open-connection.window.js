@@ -47,7 +47,7 @@ test_idb
 )
 ;
 await
-assertBFCache
+assertBFCacheEligibility
 (
 rc1
 true
@@ -91,7 +91,7 @@ historyBack
 )
 ;
 await
-assert_not_bfcached
+assertNotRestoredFromBFCache
 (
 rc1
 [

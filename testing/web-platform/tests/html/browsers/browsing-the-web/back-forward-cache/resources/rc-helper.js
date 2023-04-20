@@ -54,7 +54,7 @@ beforeBFCache
 }
 async
 function
-assert_implements_bfcache
+assertImplementsBFCacheOptional
 (
 remoteContextHelper
 )
@@ -85,7 +85,7 @@ supported
 }
 async
 function
-assert_not_bfcached
+assertNotRestoredFromBFCache
 (
 remoteContextHelper
 notRestoredReasons
@@ -289,7 +289,7 @@ reason
 }
 async
 function
-assertBFCache
+assertBFCacheEligibility
 (
 remoteContextHelper
 shouldRestoreFromBFCache
@@ -324,7 +324,7 @@ shouldRestoreFromBFCache
 )
 {
 await
-assert_implements_bfcache
+assertImplementsBFCacheOptional
 (
 remoteContextHelper
 )
@@ -333,7 +333,7 @@ remoteContextHelper
 else
 {
 await
-assert_not_bfcached
+assertNotRestoredFromBFCache
 (
 remoteContextHelper
 )
