@@ -468,7 +468,7 @@ Assert
 equal
 (
 typeof
-UrlbarQuickSuggest
+QuickSuggestRemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 "
@@ -478,8 +478,6 @@ number
 Sanity
 check
 :
-UrlbarQuickSuggest
-.
 DEFAULT_SUGGESTION_SCORE
 is
 defined
@@ -545,7 +543,7 @@ suggestions
 .
 score
 =
-UrlbarQuickSuggest
+QuickSuggestRemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 /
@@ -842,7 +840,7 @@ score
 =
 2
 *
-UrlbarQuickSuggest
+QuickSuggestRemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 ;
@@ -972,7 +970,7 @@ suggestions
 .
 score
 =
-UrlbarQuickSuggest
+QuickSuggestRemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 /
@@ -1104,7 +1102,7 @@ suggestions
 .
 score
 =
-UrlbarQuickSuggest
+QuickSuggestRemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 ;

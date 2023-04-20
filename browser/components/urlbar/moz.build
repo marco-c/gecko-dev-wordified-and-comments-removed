@@ -117,6 +117,13 @@ sys
 mjs
 "
 "
+QuickSuggestRemoteSettingsClient
+.
+sys
+.
+mjs
+"
+"
 UrlbarController
 .
 sys
@@ -314,13 +321,6 @@ mjs
 "
 "
 UrlbarProviderUnitConversion
-.
-sys
-.
-mjs
-"
-"
-UrlbarQuickSuggest
 .
 sys
 .

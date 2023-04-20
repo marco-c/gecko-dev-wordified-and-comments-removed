@@ -103,6 +103,13 @@ start
 (
 )
 ;
+await
+QuickSuggestTestUtils
+.
+ensureQuickSuggestInit
+(
+)
+;
 }
 )
 ;

@@ -37,7 +37,7 @@ score
 :
 2
 *
-UrlbarQuickSuggest
+QuickSuggestRemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 }
@@ -56,7 +56,7 @@ score
 :
 4
 *
-UrlbarQuickSuggest
+QuickSuggestRemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 }
@@ -75,7 +75,7 @@ score
 :
 3
 *
-UrlbarQuickSuggest
+QuickSuggestRemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 }
@@ -453,7 +453,7 @@ number
 ?
 score
 :
-UrlbarQuickSuggest
+QuickSuggestRemoteSettingsClient
 .
 DEFAULT_SUGGESTION_SCORE
 source
@@ -650,9 +650,11 @@ Assert
 deepEqual
 (
 await
-UrlbarQuickSuggest
+QuickSuggest
 .
-query
+remoteSettings
+.
+fetch
 (
 keyword
 )
@@ -678,7 +680,7 @@ keyword
 }
 )
 )
-query
+fetch
 (
 )
 for
@@ -690,7 +692,9 @@ keyword
 let
 mapValue
 =
-UrlbarQuickSuggest
+QuickSuggest
+.
+remoteSettings
 .
 _resultsByKeyword
 .
