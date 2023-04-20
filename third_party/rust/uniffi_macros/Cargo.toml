@@ -114,7 +114,7 @@ version
 .
 21
 .
-0
+1
 "
 authors
 =
@@ -218,11 +218,6 @@ mozilla
 uniffi
 -
 rs
-"
-resolver
-=
-"
-2
 "
 [
 lib
@@ -379,7 +374,7 @@ version
 .
 21
 .
-0
+1
 "
 [
 dependencies
@@ -394,7 +389,7 @@ version
 .
 21
 .
-0
+1
 "
 [
 features
