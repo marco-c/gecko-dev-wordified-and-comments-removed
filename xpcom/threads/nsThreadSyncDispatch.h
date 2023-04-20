@@ -174,7 +174,7 @@ mOrigin
 Dispatch
 (
 this
-NS_DISPATCH_IGNORE_BLOCK_DISPATCH
+NS_DISPATCH_NORMAL
 )
 ;
 }

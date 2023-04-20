@@ -318,12 +318,7 @@ nsThread
 :
 :
 NOT_MAIN_THREAD
-{
-.
-stackSize
-=
 kWorkerStackSize
-}
 )
 mLock
 (

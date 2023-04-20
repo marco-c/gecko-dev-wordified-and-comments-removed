@@ -344,12 +344,7 @@ true
 ;
 }
 )
-{
-.
 stackSize
-=
-stackSize
-}
 )
 ;
 if

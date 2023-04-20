@@ -2259,11 +2259,8 @@ SynchronizedEventQueue
 aQueue
 MainThreadFlag
 aMainThread
-nsIThreadManager
-:
-:
-ThreadCreationOptions
-aOptions
+uint32_t
+aStackSize
 )
 :
 mEvents
@@ -2288,9 +2285,6 @@ aMainThread
 =
 =
 MAIN_THREAD
-aOptions
-.
-blockDispatch
 )
 )
 mOutstandingShutdownContexts
@@ -2315,9 +2309,7 @@ uninitialized
 )
 mStackSize
 (
-aOptions
-.
-stackSize
+aStackSize
 )
 mNestedEventLoopDepth
 (

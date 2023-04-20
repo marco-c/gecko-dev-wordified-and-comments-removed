@@ -3949,14 +3949,9 @@ getter_AddRefs
 thread
 )
 this
-{
-.
-stackSize
-=
 GetThreadStackSize
 (
 )
-}
 )
 ;
 NS_ENSURE_SUCCESS
