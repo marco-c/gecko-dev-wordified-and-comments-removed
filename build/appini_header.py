@@ -202,17 +202,28 @@ else
 0
 "
     
-appdata
-[
+for
+key
+in
+(
+"
+App
+:
+vendor
+"
 "
 App
 :
 profile
 "
+)
+:
+        
+appdata
+[
+key
 ]
 =
-(
-        
 '
 "
 %
@@ -222,26 +233,20 @@ s
 %
 appdata
 [
-"
-App
-:
-profile
-"
+key
 ]
 if
-"
-App
-:
-profile
-"
-in
 appdata
+.
+get
+(
+key
+None
+)
 else
 "
 NULL
 "
-    
-)
     
 expected
 =
@@ -500,7 +505,6 @@ sAppData
 =
 {
                  
-"
 %
 (
 App
@@ -508,7 +512,6 @@ App
 vendor
 )
 s
-"
                  
 "
 %
