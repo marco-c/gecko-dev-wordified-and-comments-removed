@@ -129,15 +129,6 @@ GetDefaultTooltip
 override
 ;
 void
-SetDefaultTooltip
-(
-Element
-*
-aTooltip
-)
-override
-;
-void
 DestroyFrom
 (
 nsIFrame
