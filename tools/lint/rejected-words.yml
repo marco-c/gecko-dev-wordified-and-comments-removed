@@ -2504,7 +2504,9 @@ remotepagemanager
 /
 RemotePageManagerParent
 .
-jsm
+sys
+.
+mjs
 -
 toolkit
 /

@@ -730,7 +730,7 @@ ChildMessagePort
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -745,7 +745,9 @@ remotepagemanager
 /
 RemotePageManagerChild
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
