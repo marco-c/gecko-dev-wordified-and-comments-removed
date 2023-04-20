@@ -1986,12 +1986,6 @@ int32_t
 >
 packets_lost
 ;
-RTCStatsMember
-<
-uint64_t
->
-packets_discarded
-;
 protected
 :
 RTCReceivedRtpStreamStats
@@ -2179,6 +2173,12 @@ RTCStatsMember
 uint32_t
 >
 packets_received
+;
+RTCStatsMember
+<
+uint64_t
+>
+packets_discarded
 ;
 RTCStatsMember
 <
