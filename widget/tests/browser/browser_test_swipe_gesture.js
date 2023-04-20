@@ -281,7 +281,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -918,7 +918,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -1452,7 +1452,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -1938,7 +1938,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -2323,7 +2323,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -2741,7 +2741,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -3109,7 +3109,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -3476,7 +3476,7 @@ test
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -3901,7 +3901,7 @@ test
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -4217,7 +4217,7 @@ test
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .
@@ -4552,7 +4552,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

@@ -107,7 +107,7 @@ html
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

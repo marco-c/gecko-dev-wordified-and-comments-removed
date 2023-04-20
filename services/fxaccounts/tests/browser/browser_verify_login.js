@@ -76,7 +76,7 @@ setupMockAlertsService
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

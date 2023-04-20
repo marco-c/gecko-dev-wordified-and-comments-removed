@@ -905,7 +905,7 @@ created
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 "
