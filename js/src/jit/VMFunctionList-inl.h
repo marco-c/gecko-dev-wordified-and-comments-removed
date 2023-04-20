@@ -2242,15 +2242,6 @@ OnDebuggerStatement
 \
 _
 (
-ProcessCallSiteObjOperation
-js
-:
-:
-ProcessCallSiteObjOperation
-)
-\
-_
-(
 ProxyGetProperty
 js
 :
