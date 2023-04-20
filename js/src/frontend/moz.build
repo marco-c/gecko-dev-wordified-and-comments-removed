@@ -232,6 +232,11 @@ ForOfLoopControl
 cpp
 "
 "
+FrontendContext
+.
+cpp
+"
+"
 FunctionEmitter
 .
 cpp
