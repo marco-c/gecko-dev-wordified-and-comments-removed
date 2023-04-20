@@ -636,7 +636,7 @@ topLevel
 false
 iframe
 :
-true
+isCacheEnabled
 remoteIframe
 :
 isCacheEnabled
