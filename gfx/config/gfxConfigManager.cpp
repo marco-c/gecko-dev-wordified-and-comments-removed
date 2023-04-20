@@ -1387,6 +1387,14 @@ if
 (
 !
 mIsNightly
+&
+&
+StaticPrefs
+:
+:
+gfx_webrender_dcomp_apply_1704954_AtStartup
+(
+)
 )
 {
 nsAutoString
