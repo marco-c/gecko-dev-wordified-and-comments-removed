@@ -459,8 +459,6 @@ GetTransitionCombinedDuration
 (
 i
 )
-.
-seconds
 <
 =
 0
@@ -1559,10 +1557,6 @@ GetTransitionDelay
 (
 transitionIdx
 )
-.
-ToMilliseconds
-(
-)
 ;
 float
 duration
@@ -1577,10 +1571,6 @@ aStyle
 GetTransitionDuration
 (
 transitionIdx
-)
-.
-ToMilliseconds
-(
 )
 0
 .
