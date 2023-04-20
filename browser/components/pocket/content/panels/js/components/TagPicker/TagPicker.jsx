@@ -1108,13 +1108,13 @@ tag
 }
 >
 +
+{
+tag
+}
 <
 /
 button
 >
-{
-tag
-}
 <
 /
 div
