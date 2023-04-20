@@ -7,13 +7,6 @@ GFX_TEST_LAYERS_H
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

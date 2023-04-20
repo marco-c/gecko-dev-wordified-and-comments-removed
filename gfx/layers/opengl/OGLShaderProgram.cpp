@@ -27,13 +27,6 @@ h
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 gfxEnv
 .
 h

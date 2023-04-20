@@ -31,13 +31,6 @@ h
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

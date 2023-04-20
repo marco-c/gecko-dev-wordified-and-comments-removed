@@ -8,13 +8,6 @@ h
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 GeckoProfiler
 .
 h

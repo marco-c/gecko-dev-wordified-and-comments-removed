@@ -92,11 +92,6 @@ IMFYCbCrImage
 h
 "
 "
-Layers
-.
-h
-"
-"
 LayersTypes
 .
 h
@@ -2480,11 +2475,6 @@ cpp
 ipc
 /
 VideoBridgeParent
-.
-cpp
-"
-"
-Layers
 .
 cpp
 "

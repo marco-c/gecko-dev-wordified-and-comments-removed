@@ -32,13 +32,6 @@ h
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx

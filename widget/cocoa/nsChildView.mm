@@ -409,13 +409,6 @@ h
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 GfxTexturesReporter
 .
 h

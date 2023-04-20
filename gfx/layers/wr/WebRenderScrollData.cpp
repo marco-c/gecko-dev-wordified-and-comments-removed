@@ -17,13 +17,6 @@ ostream
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers

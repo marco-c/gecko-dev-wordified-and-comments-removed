@@ -20,13 +20,6 @@ h
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 gfxCrashReporterUtils
 .
 h

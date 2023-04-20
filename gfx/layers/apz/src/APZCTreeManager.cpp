@@ -67,13 +67,6 @@ h
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 WRHitTester
 .
 h

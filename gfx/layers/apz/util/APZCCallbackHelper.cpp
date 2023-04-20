@@ -258,13 +258,6 @@ nsView
 .
 h
 "
-#
-include
-"
-Layers
-.
-h
-"
 static
 mozilla
 :

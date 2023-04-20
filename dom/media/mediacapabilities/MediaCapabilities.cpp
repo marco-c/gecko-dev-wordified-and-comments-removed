@@ -48,13 +48,6 @@ h
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 MediaInfo
 .
 h
