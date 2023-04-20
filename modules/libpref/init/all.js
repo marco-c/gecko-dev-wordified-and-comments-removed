@@ -13130,16 +13130,6 @@ scrollbarPosition
 false
 )
 ;
-pref
-(
-"
-clipboard
-.
-plainTextOnly
-"
-false
-)
-;
 #
 if
 defined
