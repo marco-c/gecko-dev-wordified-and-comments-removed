@@ -1134,9 +1134,6 @@ PerScriptData
 FrontendContext
 *
 fc
-NameCollectionPool
-&
-ncp
 frontend
 :
 :
@@ -1152,7 +1149,12 @@ compilationState
 )
 atomIndices_
 (
-ncp
+fc
+-
+>
+nameCollectionPool
+(
+)
 )
 {
 }

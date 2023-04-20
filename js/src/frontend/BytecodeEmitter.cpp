@@ -934,12 +934,6 @@ column
 perScriptData_
 (
 fc
-cx
--
->
-frontendCollectionPool
-(
-)
 compilationState
 )
 errorReporter_
