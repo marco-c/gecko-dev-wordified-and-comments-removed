@@ -236,6 +236,13 @@ ShutdownCleanUpOnTaskQueue
 )
 override
 ;
+bool
+IsEnded
+(
+)
+const
+override
+;
 HANDLE
 mDCompSurfaceHandle
 ;

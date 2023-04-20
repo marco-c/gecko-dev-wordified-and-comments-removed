@@ -532,6 +532,7 @@ NotifyEndOfStreamInternal
 (
 )
 ;
+virtual
 bool
 IsEnded
 (
