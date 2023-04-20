@@ -130,6 +130,11 @@ meter
 :
 true
 "
+microsecond
+"
+:
+true
+"
 mile
 "
 :
@@ -163,6 +168,11 @@ minute
 true
 "
 month
+"
+:
+true
+"
+nanosecond
 "
 :
 true

@@ -167,6 +167,8 @@ megabyte
 -
 meter
 -
+microsecond
+-
 mile
 -
 mile
@@ -182,6 +184,8 @@ millisecond
 minute
 -
 month
+-
+nanosecond
 -
 ounce
 -
