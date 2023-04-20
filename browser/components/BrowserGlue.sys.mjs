@@ -4084,7 +4084,7 @@ events
 "
 MigrationWizard
 :
-Init
+RequestState
 "
 :
 {
