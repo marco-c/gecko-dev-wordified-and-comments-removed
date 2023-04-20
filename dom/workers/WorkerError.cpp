@@ -662,7 +662,7 @@ actor
 aWorkerPrivate
 -
 >
-GetRemoteWorkerControllerWeakRef
+GetRemoteWorkerController
 (
 )
 )
@@ -931,7 +931,7 @@ actor
 aWorkerPrivate
 -
 >
-GetRemoteWorkerControllerWeakRef
+GetRemoteWorkerController
 (
 )
 )
