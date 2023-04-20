@@ -1643,6 +1643,16 @@ RTC_GUARDED_BY
 packet_sequence_checker_
 )
 ;
+Timestamp
+next_keyframe_request_for_missing_video_structure_
+=
+Timestamp
+:
+:
+MinusInfinity
+(
+)
+;
 }
 ;
 }
