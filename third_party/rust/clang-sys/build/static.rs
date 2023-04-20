@@ -21,6 +21,9 @@ glob
 Pattern
 ;
 use
+super
+:
+:
 common
 ;
 const
@@ -400,11 +403,9 @@ let
 name
 =
 if
-cfg
+target_os
 !
 (
-target_os
-=
 "
 windows
 "
