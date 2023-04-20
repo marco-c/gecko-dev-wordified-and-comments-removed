@@ -36,7 +36,7 @@ HWY_MINOR
 #
 define
 HWY_PATCH
-2
+3
 #
 define
 HWY_FULL1

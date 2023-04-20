@@ -845,16 +845,6 @@ jxl_threads
 .
 cmake
 )
-#
-We
-only
-build
-JPEGLI
-on
-linux
-for
-now
-.
 find_package
 (
 JPEG

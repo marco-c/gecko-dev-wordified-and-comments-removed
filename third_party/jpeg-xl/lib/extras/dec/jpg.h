@@ -121,8 +121,6 @@ const
 SizeConstraints
 &
 constraints
-size_t
-output_bit_depth
 PackedPixelFile
 *
 ppf

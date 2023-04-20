@@ -345,6 +345,11 @@ Spline
 >
 dequantized
 ;
+uint64_t
+total
+=
+0
+;
 for
 (
 size_t
@@ -387,6 +392,8 @@ i
 kQuantizationAdjustment
 kYToX
 kYToB
+&
+total
 dequantized
 .
 back
