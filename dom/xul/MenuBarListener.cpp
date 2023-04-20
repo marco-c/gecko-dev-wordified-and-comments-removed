@@ -398,6 +398,16 @@ GetWindowRoot
 mEventTarget
 )
 ;
+if
+(
+!
+NS_WARN_IF
+(
+!
+top
+)
+)
+{
 top
 -
 >
@@ -412,6 +422,7 @@ this
 true
 )
 ;
+}
 }
 MenuBarListener
 :
