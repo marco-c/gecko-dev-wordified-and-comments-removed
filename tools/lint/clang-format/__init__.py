@@ -1,9 +1,9 @@
 import
 os
 import
-signal
-import
 re
+import
+signal
 import
 sys
 import

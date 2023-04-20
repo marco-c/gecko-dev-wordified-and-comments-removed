@@ -15,6 +15,8 @@ from
 collections
 import
 defaultdict
+import
+pytest
 from
 mozbuild
 .
@@ -24,15 +26,15 @@ MozbuildObject
 from
 mozlint
 .
-pathutils
-import
-findobject
-from
-mozlint
-.
 parser
 import
 Parser
+from
+mozlint
+.
+pathutils
+import
+findobject
 from
 mozlint
 .
@@ -49,8 +51,6 @@ from
 mozpack
 import
 path
-import
-pytest
 here
 =
 path
@@ -1696,13 +1696,13 @@ test_perfdocs
 import
 (
         
-SAMPLE_TEST
+DYNAMIC_SAMPLE_CONFIG
         
 SAMPLE_CONFIG
         
-DYNAMIC_SAMPLE_CONFIG
-        
 SAMPLE_INI
+        
+SAMPLE_TEST
         
 temp_dir
         

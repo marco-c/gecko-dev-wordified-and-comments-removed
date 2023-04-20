@@ -883,14 +883,8 @@ perfdocs
 .
 doc_helpers
 import
-TableBuilder
-    
-from
-perfdocs
-.
-doc_helpers
-import
 MismatchedRowLengthsException
+TableBuilder
     
 table_specifications
 =
@@ -1047,14 +1041,8 @@ perfdocs
 .
 doc_helpers
 import
-TableBuilder
-    
-from
-perfdocs
-.
-doc_helpers
-import
 MismatchedRowLengthsException
+TableBuilder
     
 table
 =

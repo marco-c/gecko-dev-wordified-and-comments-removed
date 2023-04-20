@@ -23,8 +23,15 @@ MozbuildObject
 from
 mozversioncontrol
 import
-get_repository_object
 MissingVCSExtension
+get_repository_object
+from
+.
+util
+.
+estimates
+import
+duration_summary
 from
 .
 util
@@ -37,13 +44,6 @@ download_task_history_data
     
 make_trimmed_taskgraph_cache
 )
-from
-.
-util
-.
-estimates
-import
-duration_summary
 GIT_CINNABAR_NOT_FOUND
 =
 "

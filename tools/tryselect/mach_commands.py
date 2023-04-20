@@ -11,14 +11,9 @@ mach
 .
 decorators
 import
-(
-    
 Command
-    
 SettingsProvider
-    
 SubCommand
-)
 from
 mach
 .

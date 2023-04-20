@@ -1,7 +1,7 @@
 import
-mozunit
-import
 os
+import
+mozunit
 LINTER
 =
 "

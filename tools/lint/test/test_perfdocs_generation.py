@@ -1,11 +1,11 @@
-from
-unittest
-import
-mock
 import
 os
 import
 pathlib
+from
+unittest
+import
+mock
 import
 mozunit
 LINTER
@@ -54,13 +54,6 @@ top_dir
 import
 perfdocs
 .
-verifier
-as
-vf
-    
-import
-perfdocs
-.
 gatherer
 as
 gt
@@ -78,6 +71,13 @@ perfdocs
 utils
 as
 utils
+    
+import
+perfdocs
+.
+verifier
+as
+vf
     
 gt
 .

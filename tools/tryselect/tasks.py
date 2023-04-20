@@ -41,8 +41,8 @@ moztest
 .
 resolve
 import
-TestResolver
 TestManifestLoader
+TestResolver
 get_suite_definition
 from
 taskgraph

@@ -2,14 +2,14 @@ import
 os
 import
 attr
+import
+yaml
 from
 mozilla_version
 .
 gecko
 import
 FirefoxVersion
-import
-yaml
 from
 .
 .

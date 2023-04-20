@@ -3,6 +3,12 @@ os
 import
 sys
 from
+gecko_taskgraph
+.
+target_tasks
+import
+filter_by_uncommon_try_tasks
+from
 mach
 .
 util
@@ -17,18 +23,18 @@ BaseTryParser
 from
 .
 .
-tasks
-import
-generate_tasks
-filter_tasks_by_paths
-from
-.
-.
 push
 import
 check_working_directory
-push_to_try
 generate_try_task_config
+push_to_try
+from
+.
+.
+tasks
+import
+filter_tasks_by_paths
+generate_tasks
 from
 .
 .
@@ -38,15 +44,15 @@ fzf
 import
 (
     
+FZF_NOT_FOUND
+    
+PREVIEW_SCRIPT
+    
 format_header
     
 fzf_bootstrap
     
-FZF_NOT_FOUND
-    
 fzf_shortcuts
-    
-PREVIEW_SCRIPT
     
 run_fzf
 )
@@ -63,12 +69,6 @@ download_task_history_data
     
 make_trimmed_taskgraph_cache
 )
-from
-gecko_taskgraph
-.
-target_tasks
-import
-filter_by_uncommon_try_tasks
 class
 FuzzyParser
 (

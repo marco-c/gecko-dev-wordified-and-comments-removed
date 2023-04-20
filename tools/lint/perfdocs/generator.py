@@ -21,8 +21,8 @@ perfdocs
 .
 utils
 import
-are_dirs_equal
 ON_TRY
+are_dirs_equal
 read_file
 read_yaml
 save_file

@@ -13,6 +13,12 @@ threading
 import
 Timer
 from
+gecko_taskgraph
+.
+target_tasks
+import
+filter_by_uncommon_try_tasks
+from
 tryselect
 .
 cli
@@ -37,12 +43,6 @@ tryselect
 tasks
 import
 generate_tasks
-from
-gecko_taskgraph
-.
-target_tasks
-import
-filter_by_uncommon_try_tasks
 here
 =
 os

@@ -1,7 +1,7 @@
 import
-os
-import
 itertools
+import
+os
 import
 re
 import
@@ -22,16 +22,11 @@ import
 get_repository_object
 from
 .
-compare
-import
-CompareParser
-from
-.
 .
 push
 import
-push_to_try
 generate_try_task_config
+push_to_try
 from
 .
 .
@@ -41,16 +36,21 @@ fzf
 import
 (
     
+FZF_NOT_FOUND
+    
 build_base_cmd
     
 fzf_bootstrap
     
-FZF_NOT_FOUND
+run_fzf
     
 setup_tasks_for_fzf
-    
-run_fzf
 )
+from
+.
+compare
+import
+CompareParser
 here
 =
 os

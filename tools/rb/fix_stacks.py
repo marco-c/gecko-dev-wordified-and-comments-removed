@@ -3,11 +3,6 @@ __future__
 import
 absolute_import
 print_function
-from
-subprocess
-import
-Popen
-PIPE
 import
 atexit
 import
@@ -18,6 +13,11 @@ import
 re
 import
 sys
+from
+subprocess
+import
+PIPE
+Popen
 line_re
 =
 re
@@ -62,15 +62,15 @@ autobootstrap
 )
 :
     
+import
+buildconfig
+    
 from
 mozbuild
 .
 configure
 import
 ConfigureSandbox
-    
-import
-buildconfig
     
 sandbox
 =

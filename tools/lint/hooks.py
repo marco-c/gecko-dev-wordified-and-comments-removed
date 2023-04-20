@@ -8,8 +8,6 @@ os
 import
 signal
 import
-six
-import
 subprocess
 import
 sys
@@ -19,6 +17,8 @@ distutils
 spawn
 import
 find_executable
+import
+six
 here
 =
 os

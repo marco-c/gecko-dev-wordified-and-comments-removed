@@ -7,12 +7,12 @@ import
 logging
 import
 os
+import
+sys
 from
 os
 import
 path
-import
-sys
 from
 tempfile
 import
@@ -74,6 +74,10 @@ getLogger
 __name__
 )
 from
+async_download
+import
+download_from_config
+from
 mozrelease
 .
 update_verify
@@ -85,10 +89,6 @@ util
 commands
 import
 run_cmd
-from
-async_download
-import
-download_from_config
 UPDATE_VERIFY_COMMAND
 =
 [

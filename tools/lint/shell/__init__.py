@@ -1,7 +1,7 @@
 import
-os
-import
 json
+import
+os
 from
 json
 .
@@ -19,12 +19,6 @@ mozfile
 import
 which
 from
-mozpack
-.
-files
-import
-FileFinder
-from
 mozlint
 import
 result
@@ -36,6 +30,12 @@ util
 implementation
 import
 LintProcess
+from
+mozpack
+.
+files
+import
+FileFinder
 SHELLCHECK_NOT_FOUND
 =
 "

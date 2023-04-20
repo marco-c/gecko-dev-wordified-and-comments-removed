@@ -4,12 +4,12 @@ import
 absolute_import
 import
 os
-import
-pytest
 from
 contextlib
 import
 contextmanager
+import
+pytest
 import
 smoke
 JS
