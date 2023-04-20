@@ -46,17 +46,6 @@ api
 /
 video
 /
-encoded_image
-.
-h
-"
-#
-include
-"
-api
-/
-video
-/
 video_rotation
 .
 h
@@ -72,9 +61,6 @@ h
 "
 namespace
 webrtc
-:
-:
-test
 {
 void
 PrintTo
@@ -91,6 +77,9 @@ ostream
 os
 )
 ;
+namespace
+test
+{
 class
 FakeEncodedFrame
 :
@@ -445,6 +434,7 @@ size_
 ;
 }
 ;
+}
 }
 #
 endif
