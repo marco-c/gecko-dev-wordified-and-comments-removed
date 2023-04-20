@@ -4241,7 +4241,11 @@ BackgroundDatabaseChild
 (
 aResponse
 .
-databaseChild
+database
+(
+)
+.
+AsChild
 (
 )
 )

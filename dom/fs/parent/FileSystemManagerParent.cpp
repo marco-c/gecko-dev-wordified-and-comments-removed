@@ -1388,7 +1388,6 @@ move
 streamParams
 )
 writableFileStreamParent
-nullptr
 )
 )
 ;

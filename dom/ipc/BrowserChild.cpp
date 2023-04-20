@@ -5158,7 +5158,11 @@ RemotePrintJobChild
 (
 aPrintData
 .
-remotePrintJobChild
+remotePrintJob
+(
+)
+.
+AsChild
 (
 )
 )
@@ -11931,7 +11935,11 @@ RemotePrintJobChild
 (
 aPrintData
 .
-remotePrintJobChild
+remotePrintJob
+(
+)
+.
+AsChild
 (
 )
 )

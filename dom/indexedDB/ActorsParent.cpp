@@ -44615,7 +44615,11 @@ file
 =
 fileAddInfo
 .
-fileParent
+file
+(
+)
+.
+AsParent
 (
 )
 ;
@@ -70791,7 +70795,6 @@ mDatabase
 unsafeGetRawPtr
 (
 )
-nullptr
 }
 ;
 }
@@ -83179,7 +83182,11 @@ file
 =
 fileAddInfo
 .
-fileParent
+file
+(
+)
+.
+AsParent
 (
 )
 ;

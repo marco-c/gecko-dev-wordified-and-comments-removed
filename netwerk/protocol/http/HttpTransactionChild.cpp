@@ -588,7 +588,11 @@ ref
 (
 )
 .
-transWithPushedStreamChild
+transWithPushedStream
+(
+)
+.
+AsChild
 (
 )
 )

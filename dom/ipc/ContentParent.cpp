@@ -21488,7 +21488,11 @@ GetFrom
 (
 popupContext
 .
-openerParent
+opener
+(
+)
+.
+AsParent
 (
 )
 )
@@ -22290,7 +22294,11 @@ GetFrom
 (
 popupContext
 .
-openerParent
+opener
+(
+)
+.
+AsParent
 (
 )
 )
