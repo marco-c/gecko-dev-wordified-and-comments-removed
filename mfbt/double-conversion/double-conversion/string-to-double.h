@@ -153,6 +153,7 @@ processed_characters_count
 )
 const
 ;
+MFBT_API
 float
 StringToFloat
 (
@@ -168,6 +169,7 @@ processed_characters_count
 )
 const
 ;
+MFBT_API
 float
 StringToFloat
 (
