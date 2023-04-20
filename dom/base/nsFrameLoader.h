@@ -699,7 +699,7 @@ already_AddRefed
 <
 nsILoadContext
 >
-LoadContext
+GetLoadContext
 (
 )
 ;
