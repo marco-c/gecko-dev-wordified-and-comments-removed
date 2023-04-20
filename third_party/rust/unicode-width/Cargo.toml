@@ -111,7 +111,7 @@ version
 .
 1
 .
-9
+10
 "
 authors
 =
@@ -153,6 +153,8 @@ lock
 description
 =
 "
+"
+"
 Determine
 displayed
 width
@@ -161,8 +163,7 @@ char
 and
 str
 types
-\
-naccording
+according
 to
 Unicode
 Standard
@@ -171,8 +172,8 @@ Annex
 11
 rules
 .
-\
-n
+"
+"
 "
 homepage
 =
