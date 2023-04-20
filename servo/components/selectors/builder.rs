@@ -1645,7 +1645,7 @@ class_like_selectors
 specificity
 +
 =
-selector_list_specificity
+max_selector_list_specificity
 (
 nth_of_data
 .
@@ -1688,7 +1688,7 @@ list
 specificity
 +
 =
-selector_list_specificity
+max_selector_list_specificity
 (
 list
 )
@@ -1742,7 +1742,7 @@ Namespace
 }
 }
 fn
-selector_list_specificity
+max_selector_list_specificity
 <
 Impl
 :
