@@ -667,6 +667,16 @@ perform
 "
                 
 "
+default
+"
+:
+"
+FILL
+ME
+OUT
+"
+                
+"
 enum
 "
 :
@@ -1182,6 +1192,12 @@ boolean
 "
                 
 "
+default
+"
+:
+False
+                
+"
 description
 "
 :
@@ -1208,6 +1224,12 @@ type
 "
 boolean
 "
+                
+"
+default
+"
+:
+False
                 
 "
 description
@@ -1419,6 +1441,12 @@ type
 "
 boolean
 "
+                
+"
+default
+"
+:
+False
                 
 "
 description
@@ -2291,40 +2319,29 @@ else
 release_enable_partner_repack
 =
 input
-.
-get
-(
+[
 "
 release_enable_partner_repack
 "
-True
-)
+]
         
 release_enable_partner_attribution
 =
 input
-.
-get
-(
-            
+[
 "
 release_enable_partner_attribution
 "
-True
-        
-)
+]
         
 release_enable_emefree
 =
 input
-.
-get
-(
+[
 "
 release_enable_emefree
 "
-True
-)
+]
     
 partner_url_config
 =
