@@ -5,9 +5,9 @@ cfg
 feature
 =
 "
-atomic
+critical
 -
-polyfill
+section
 "
 )
 ]
@@ -25,9 +25,9 @@ not
 feature
 =
 "
-atomic
+critical
 -
-polyfill
+section
 "
 )
 )
