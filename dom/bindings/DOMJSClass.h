@@ -1438,7 +1438,6 @@ eGlobalInstance
 eInterface
 eInterfacePrototype
 eGlobalInterfacePrototype
-eNamespace
 eNamedPropertiesObject
 }
 ;
