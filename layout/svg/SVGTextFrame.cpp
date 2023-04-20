@@ -3802,10 +3802,12 @@ private
 :
 nsIContent
 *
+const
 mRoot
 ;
 nsIContent
 *
+const
 mSubtree
 ;
 nsIContent
@@ -5110,11 +5112,13 @@ PopBaseline
 ;
 SVGTextFrame
 *
+const
 mRootFrame
 ;
 const
 nsIFrame
 *
+const
 mSubtree
 ;
 nsIFrame
@@ -6598,6 +6602,7 @@ ifdef
 DEBUG
 nsIContent
 *
+const
 mSubtree
 ;
 #
@@ -7838,6 +7843,7 @@ StrokeGeometry
 ;
 SVGTextFrame
 *
+const
 mSVGTextFrame
 ;
 gfxContext
@@ -7846,6 +7852,7 @@ mContext
 ;
 nsTextFrame
 *
+const
 mFrame
 ;
 const
