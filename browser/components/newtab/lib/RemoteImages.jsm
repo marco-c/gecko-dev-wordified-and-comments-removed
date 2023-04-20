@@ -692,9 +692,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Could
 not
@@ -1179,9 +1179,9 @@ e
 =
 >
 {
-Cu
+console
 .
-reportError
+error
 (
 Could
 not
@@ -2016,9 +2016,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 RemoteImages
 could

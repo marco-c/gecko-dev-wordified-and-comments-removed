@@ -257,9 +257,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 getScreenshot
 (
