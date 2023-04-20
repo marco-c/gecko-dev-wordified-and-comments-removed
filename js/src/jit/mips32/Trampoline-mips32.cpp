@@ -4158,7 +4158,10 @@ argDisp
 MoveOperand
 :
 :
-EFFECTIVE_ADDRESS
+Kind
+:
+:
+EffectiveAddress
 )
 MoveOp
 :
@@ -4211,7 +4214,10 @@ doubleArgDisp
 MoveOperand
 :
 :
-EFFECTIVE_ADDRESS
+Kind
+:
+:
+EffectiveAddress
 )
 MoveOp
 :
@@ -4281,7 +4287,10 @@ outParamOffset
 MoveOperand
 :
 :
-EFFECTIVE_ADDRESS
+Kind
+:
+:
+EffectiveAddress
 )
 MoveOp
 :

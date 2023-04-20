@@ -81,7 +81,10 @@ GPR
 :
 kind_
 =
-REG
+Kind
+:
+:
+Reg
 ;
 code_
 =
@@ -108,7 +111,10 @@ GPR_PAIR
 :
 kind_
 =
-REG_PAIR
+Kind
+:
+:
+RegPair
 ;
 code_
 =
@@ -162,7 +168,10 @@ FPU
 :
 kind_
 =
-FLOAT_REG
+Kind
+:
+:
+FloatReg
 ;
 code_
 =
@@ -186,7 +195,10 @@ Stack
 :
 kind_
 =
-MEMORY
+Kind
+:
+:
+Memory
 ;
 if
 (
