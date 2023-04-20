@@ -428,6 +428,14 @@ target
 )
 ;
 let
+pointerDownPrevented
+=
+preventDefaultPointerdownOnce
+(
+target
+)
+;
+let
 pointerdown_promise
 =
 getEvent
@@ -466,6 +474,9 @@ clickInTarget
 pointer_type
 target
 )
+;
+await
+pointerDownPrevented
 ;
 let
 pointerdown_event
