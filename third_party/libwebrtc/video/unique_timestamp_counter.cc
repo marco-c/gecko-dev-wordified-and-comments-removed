@@ -1,9 +1,7 @@
 #
 include
 "
-modules
-/
-video_coding
+video
 /
 unique_timestamp_counter
 .
