@@ -43,6 +43,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsUnicodeProperties
+.
+h
+"
 using
 mozilla
 :
