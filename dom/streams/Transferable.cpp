@@ -3461,6 +3461,13 @@ new
 WritableStream
 (
 mGlobal
+WritableStream
+:
+:
+HoldDropJSObjectsCaller
+:
+:
+Implicit
 )
 ;
 SetUpCrossRealmTransformWritable
@@ -3892,6 +3899,13 @@ WritableStream
 >
 (
 aGlobal
+WritableStream
+:
+:
+HoldDropJSObjectsCaller
+:
+:
+Implicit
 )
 ;
 ErrorResult
