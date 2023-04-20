@@ -138,8 +138,8 @@ optional
 uint8_t
 >
 qp
-int32_t
-decode_time_ms
+TimeDelta
+decode_time
 VideoContentType
 content_type
 )

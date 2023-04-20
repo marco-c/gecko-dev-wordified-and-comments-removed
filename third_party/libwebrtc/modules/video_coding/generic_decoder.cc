@@ -975,10 +975,6 @@ FrameToRender
 decodedImage
 qp
 decode_time
-.
-ms
-(
-)
 frameInfo
 -
 >

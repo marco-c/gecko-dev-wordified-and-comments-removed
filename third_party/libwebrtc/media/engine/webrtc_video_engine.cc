@@ -18848,11 +18848,11 @@ qp_sum
 ;
 info
 .
-total_decode_time_ms
+total_decode_time
 =
 stats
 .
-total_decode_time_ms
+total_decode_time
 ;
 info
 .
