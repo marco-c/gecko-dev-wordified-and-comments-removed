@@ -408,6 +408,11 @@ lock
 void
 resume
 (
+)
+;
+void
+resume
+(
 const
 AutoLockGC
 &
