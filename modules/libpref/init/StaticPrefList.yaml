@@ -57757,7 +57757,7 @@ XP_MACOSX
 )
 value
 :
-true
+IS_NIGHTLY_BUILD
 #
 else
 value
@@ -57803,7 +57803,7 @@ MOZ_WIDGET_ANDROID
 )
 value
 :
-true
+IS_NIGHTLY_BUILD
 #
 elif
 defined
@@ -57828,7 +57828,7 @@ XP_MACOSX
 )
 value
 :
-true
+IS_NIGHTLY_BUILD
 #
 else
 value

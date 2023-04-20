@@ -155,12 +155,12 @@ scopeguard
 "
 crossbeam
 -
-queue
+channel
 =
 "
 0
 .
-3
+5
 "
 [
 target

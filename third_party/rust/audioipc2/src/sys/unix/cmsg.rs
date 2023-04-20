@@ -459,16 +459,6 @@ _
 )
 }
 ;
-#
-[
-allow
-(
-clippy
-:
-:
-unnecessary_cast
-)
-]
 let
 cmsg_len
 =
