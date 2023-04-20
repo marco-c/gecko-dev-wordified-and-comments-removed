@@ -2724,6 +2724,16 @@ displayData
 mContainingBlockActiveScrolledRoot
 )
 ;
+asrSetter
+.
+SetCurrentScrollParentId
+(
+displayData
+-
+>
+mScrollParentId
+)
+;
 thisItemASR
 =
 displayData
