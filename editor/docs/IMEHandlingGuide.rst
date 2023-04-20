@@ -8691,7 +8691,7 @@ callers
 of
 NotifyIME
 (
-REQUEST_TOCOMMIT_COMPOSITION
+REQUEST_TO_COMMIT_COMPOSITION
 )
 may
 expect
@@ -10763,6 +10763,17 @@ disabled
 by
 pref
 (
+"
+intl
+.
+tsf
+.
+enabled
+"
+since
+108
+formerly
+named
 "
 intl
 .
