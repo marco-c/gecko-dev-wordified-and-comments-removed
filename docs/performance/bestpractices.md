@@ -5325,7 +5325,9 @@ IndexedDB
 [
 IndexedDB
 .
-jsm
+sys
+.
+mjs
 ]
 (
 http
@@ -5348,7 +5350,9 @@ modules
 /
 IndexedDB
 .
-jsm
+sys
+.
+mjs
 )
 is
 available
