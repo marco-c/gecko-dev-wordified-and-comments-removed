@@ -1466,6 +1466,11 @@ aData
 override
 ;
 void
+NotifyTabWillDestroy
+(
+)
+;
+void
 NotifyTabDestroying
 (
 )
@@ -3311,6 +3316,13 @@ MarkAsDead
 void
 SignalImpendingShutdownToContentJS
 (
+)
+;
+bool
+CheckTabDestroyWillCauseShutdown
+(
+uint32_t
+aExpectedBrowserCount
 )
 ;
 void
