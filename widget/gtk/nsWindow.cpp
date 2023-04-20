@@ -10701,6 +10701,15 @@ parentGtkWindow
 )
 )
 ;
+if
+(
+!
+window
+)
+{
+return
+;
+}
 GdkWindow
 *
 gdkWindow
