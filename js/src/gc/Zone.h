@@ -573,7 +573,7 @@ arenas
 js
 :
 :
-ZoneData
+MainThreadData
 <
 void
 *
@@ -583,7 +583,7 @@ data
 js
 :
 :
-ZoneData
+MainThreadData
 <
 uint32_t
 >
@@ -592,7 +592,7 @@ tenuredBigInts
 js
 :
 :
-ZoneOrIonCompileData
+MainThreadOrIonCompileData
 <
 uint64_t
 >
@@ -601,7 +601,7 @@ nurseryAllocatedStrings
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 size_t
 >
@@ -610,7 +610,7 @@ markedStrings
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 size_t
 >
@@ -619,7 +619,7 @@ finalizedStrings
 js
 :
 :
-ZoneData
+MainThreadData
 <
 bool
 >
@@ -628,7 +628,7 @@ allocNurseryStrings
 js
 :
 :
-ZoneData
+MainThreadData
 <
 bool
 >
@@ -637,7 +637,7 @@ allocNurseryBigInts
 js
 :
 :
-ZoneData
+MainThreadData
 <
 bool
 >
@@ -717,7 +717,7 @@ endif
 js
 :
 :
-ZoneData
+MainThreadData
 <
 js
 :
@@ -729,7 +729,7 @@ previousGCStringStats
 js
 :
 :
-ZoneData
+MainThreadData
 <
 js
 :
@@ -766,7 +766,7 @@ private
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -786,7 +786,7 @@ tenuredAllocsSinceMinorGC_
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 mozilla
 :
@@ -845,7 +845,7 @@ crossZoneStringWrappers_
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 mozilla
 :
@@ -863,7 +863,7 @@ weakCaches_
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -878,7 +878,7 @@ gcEphemeronEdges_
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -929,7 +929,7 @@ SystemAllocPolicy
 js
 :
 :
-ZoneData
+MainThreadData
 <
 JS
 :
@@ -962,7 +962,7 @@ regExps_
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -974,7 +974,7 @@ markedAtoms_
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -986,7 +986,7 @@ atomCache_
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -998,7 +998,7 @@ externalStringCache_
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -1010,7 +1010,7 @@ functionToStringCache_
 js
 :
 :
-ZoneData
+MainThreadData
 <
 js
 :
@@ -1022,7 +1022,7 @@ shapeZone_
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -1043,7 +1043,7 @@ finalizationObservers_
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 js
 :
@@ -1098,7 +1098,7 @@ gcPreserveCode_
 js
 :
 :
-ZoneData
+MainThreadData
 <
 bool
 >
@@ -1185,7 +1185,7 @@ WeakRefObject
 js
 :
 :
-ZoneOrGCTaskData
+MainThreadOrGCTaskData
 <
 KeptAliveSet
 >
