@@ -234,8 +234,12 @@ mode_
 bool
 isFirstStub_
 ;
-UniqueChars
+const
+char
+*
 stubName_
+=
+nullptr
 ;
 IRGenerator
 (
@@ -406,10 +410,6 @@ const
 {
 return
 stubName_
-.
-get
-(
-)
 ;
 }
 static
