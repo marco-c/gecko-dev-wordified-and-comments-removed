@@ -17,6 +17,15 @@ use
 crate
 :
 :
+common_metric_data
+:
+:
+CommonMetricDataInternal
+;
+use
+crate
+:
+:
 error_recording
 :
 :
@@ -363,7 +372,7 @@ meta
 :
 Arc
 <
-CommonMetricData
+CommonMetricDataInternal
 >
 time_unit
 :
@@ -383,7 +392,7 @@ self
 -
 >
 &
-CommonMetricData
+CommonMetricDataInternal
 {
 &
 self
@@ -526,6 +535,10 @@ Arc
 new
 (
 meta
+.
+into
+(
+)
 )
 time_unit
 }
@@ -1201,6 +1214,8 @@ meta
 (
 )
 .
+inner
+.
 send_in_pings
 [
 0
@@ -1230,6 +1245,8 @@ glean
 self
 .
 meta
+.
+inner
 .
 lifetime
 )

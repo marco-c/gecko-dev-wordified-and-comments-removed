@@ -11,6 +11,15 @@ use
 crate
 :
 :
+common_metric_data
+:
+:
+CommonMetricDataInternal
+;
+use
+crate
+:
+:
 error_recording
 :
 :
@@ -80,7 +89,7 @@ EventMetric
 {
 meta
 :
-CommonMetricData
+CommonMetricDataInternal
 allowed_extra_keys
 :
 Vec
@@ -102,7 +111,7 @@ self
 -
 >
 &
-CommonMetricData
+CommonMetricDataInternal
 {
 &
 self
@@ -134,6 +143,12 @@ Self
 Self
 {
 meta
+:
+meta
+.
+into
+(
+)
 allowed_extra_keys
 }
 }
@@ -524,6 +539,8 @@ self
 meta
 (
 )
+.
+inner
 .
 send_in_pings
 [

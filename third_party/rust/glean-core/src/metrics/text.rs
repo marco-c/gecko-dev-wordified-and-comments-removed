@@ -11,6 +11,15 @@ use
 crate
 :
 :
+common_metric_data
+:
+:
+CommonMetricDataInternal
+;
+use
+crate
+:
+:
 error_recording
 :
 :
@@ -92,7 +101,7 @@ meta
 :
 Arc
 <
-CommonMetricData
+CommonMetricDataInternal
 >
 }
 impl
@@ -109,7 +118,7 @@ self
 -
 >
 &
-CommonMetricData
+CommonMetricDataInternal
 {
 &
 self
@@ -145,6 +154,8 @@ clone
 )
 ;
 meta
+.
+inner
 .
 name
 =
@@ -193,6 +204,8 @@ clone
 ;
 meta
 .
+inner
+.
 dynamic_label
 =
 Some
@@ -239,6 +252,10 @@ Arc
 new
 (
 meta
+.
+into
+(
+)
 )
 }
 }
@@ -429,6 +446,8 @@ meta
 (
 )
 .
+inner
+.
 send_in_pings
 [
 0
@@ -458,6 +477,8 @@ glean
 self
 .
 meta
+.
+inner
 .
 lifetime
 )

@@ -11,6 +11,15 @@ use
 crate
 :
 :
+common_metric_data
+:
+:
+CommonMetricDataInternal
+;
+use
+crate
+:
+:
 error_recording
 :
 :
@@ -90,7 +99,7 @@ self
 -
 >
 &
-CommonMetricData
+CommonMetricDataInternal
 {
 self
 .
