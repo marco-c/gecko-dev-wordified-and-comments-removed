@@ -140,6 +140,13 @@ scalability_mode
 "
 )
 {
+visibility
+=
+[
+"
+*
+"
+]
 sources
 =
 [
