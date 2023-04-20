@@ -11711,6 +11711,16 @@ aSnapTargetIds
 )
 ;
 bool
+scrollPositionChanged
+=
+mDestination
+!
+=
+GetScrollPosition
+(
+)
+;
+bool
 isNotHandledByApz
 =
 nsLayoutUtils
@@ -11773,6 +11783,9 @@ GetScrollPosition
 if
 (
 isNotHandledByApz
+&
+&
+scrollPositionChanged
 )
 {
 PostScrollEndEvent
