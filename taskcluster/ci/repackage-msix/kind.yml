@@ -184,11 +184,11 @@ worker
 -
 type
 :
-'
 b
 -
 linux
-'
+-
+gcp
 #
 This
 is
