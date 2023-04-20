@@ -367,10 +367,6 @@ org
 pub
 /
 mozilla
-.
-org
-/
-mozilla
 /
 libraries
 /
