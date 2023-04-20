@@ -62,6 +62,7 @@ hsl_to_rgb
 hwb_to_rgb
 parse_color_keyword
 parse_color_with
+parse_hash_color
 AngleOrNumber
 Color
 ColorFunction
