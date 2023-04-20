@@ -379,11 +379,9 @@ content
 /
 assets
 /
-proton
--
-bkg
+confetti
 .
-avif
+svg
 "
 ;
 const
@@ -2167,6 +2165,7 @@ transitions
 true
 background_url
 :
+"
 chrome
 :
 /
@@ -2183,11 +2182,10 @@ content
 /
 assets
 /
-proton
--
-bkg
+confetti
 .
-avif
+svg
+"
 screens
 :
 [
