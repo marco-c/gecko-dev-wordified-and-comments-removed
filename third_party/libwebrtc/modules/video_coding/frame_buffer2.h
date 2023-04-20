@@ -345,11 +345,6 @@ mode
 )
 ;
 void
-Start
-(
-)
-;
-void
 Stop
 (
 )
