@@ -1580,6 +1580,11 @@ shortcuts
 .
 bookmarks
 "
+telemetryLabel
+:
+"
+bookmarks
+"
 }
 {
 source
@@ -1618,6 +1623,11 @@ pref
 "
 shortcuts
 .
+tabs
+"
+telemetryLabel
+:
+"
 tabs
 "
 }
@@ -1660,6 +1670,11 @@ shortcuts
 .
 history
 "
+telemetryLabel
+:
+"
+history
+"
 }
 {
 source
@@ -1699,6 +1714,11 @@ pref
 shortcuts
 .
 quickactions
+"
+telemetryLabel
+:
+"
+actions
 "
 }
 ]
