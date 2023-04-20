@@ -122,11 +122,6 @@ height
 #
 aboutDialogContainer
 {
--
-moz
--
-box
--
 flex
 :
 1
@@ -447,14 +442,10 @@ width
 :
 430px
 ;
--
-moz
--
-box
--
 flex
 :
 1
+auto
 ;
 }
 .

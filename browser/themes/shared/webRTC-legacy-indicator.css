@@ -252,10 +252,7 @@ screenShareButton
 {
 display
 :
--
-moz
--
-box
+flex
 ;
 }
 #
@@ -329,10 +326,7 @@ audioVideoButton
 {
 display
 :
--
-moz
--
-box
+flex
 ;
 background
 -
@@ -690,10 +684,7 @@ shareSeparator
 {
 display
 :
--
-moz
--
-box
+flex
 ;
 }
 :
