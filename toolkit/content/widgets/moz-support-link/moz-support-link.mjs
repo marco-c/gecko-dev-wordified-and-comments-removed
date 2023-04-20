@@ -229,13 +229,6 @@ utm
 -
 content
 "
-"
-data
--
-l10n
--
-id
-"
 ]
 ;
 }
