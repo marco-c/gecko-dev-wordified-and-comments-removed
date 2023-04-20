@@ -51,16 +51,6 @@ js
 )
 ;
 const
-InspectorUtils
-=
-require
-(
-"
-InspectorUtils
-"
-)
-;
-const
 {
 PSEUDO_CLASSES
 }

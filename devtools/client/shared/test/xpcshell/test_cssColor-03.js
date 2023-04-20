@@ -28,16 +28,6 @@ js
 )
 ;
 const
-InspectorUtils
-=
-require
-(
-"
-InspectorUtils
-"
-)
-;
-const
 OLD_STYLE_TESTS
 =
 [

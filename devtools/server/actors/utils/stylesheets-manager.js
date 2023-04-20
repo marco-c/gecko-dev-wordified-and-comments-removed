@@ -26,16 +26,6 @@ js
 )
 ;
 const
-InspectorUtils
-=
-require
-(
-"
-InspectorUtils
-"
-)
-;
-const
 {
 getSourcemapBaseURL
 }

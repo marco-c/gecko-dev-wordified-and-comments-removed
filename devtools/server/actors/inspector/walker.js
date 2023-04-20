@@ -74,16 +74,6 @@ js
 )
 ;
 const
-InspectorUtils
-=
-require
-(
-"
-InspectorUtils
-"
-)
-;
-const
 {
 EXCLUDED_LISTENER
 }

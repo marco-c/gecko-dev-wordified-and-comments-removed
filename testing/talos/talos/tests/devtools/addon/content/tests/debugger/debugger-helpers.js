@@ -20,16 +20,6 @@ head
 )
 ;
 const
-InspectorUtils
-=
-require
-(
-"
-InspectorUtils
-"
-)
-;
-const
 DEBUGGER_POLLING_INTERVAL
 =
 50

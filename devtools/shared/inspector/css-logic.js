@@ -4,16 +4,6 @@ strict
 "
 ;
 const
-InspectorUtils
-=
-require
-(
-"
-InspectorUtils
-"
-)
-;
-const
 MAX_DATA_URL_LENGTH
 =
 40

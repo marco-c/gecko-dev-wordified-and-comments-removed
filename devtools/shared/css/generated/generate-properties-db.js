@@ -57,16 +57,6 @@ js
 "
 )
 ;
-const
-InspectorUtils
-=
-require
-(
-"
-InspectorUtils
-"
-)
-;
 dump
 (
 "

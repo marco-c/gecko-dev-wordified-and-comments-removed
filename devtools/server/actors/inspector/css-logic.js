@@ -63,16 +63,6 @@ js
 )
 ;
 const
-InspectorUtils
-=
-require
-(
-"
-InspectorUtils
-"
-)
-;
-const
 COMPAREMODE
 =
 {

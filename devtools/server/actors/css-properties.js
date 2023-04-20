@@ -77,16 +77,6 @@ js
 "
 )
 ;
-const
-InspectorUtils
-=
-require
-(
-"
-InspectorUtils
-"
-)
-;
 loader
 .
 lazyRequireGetter

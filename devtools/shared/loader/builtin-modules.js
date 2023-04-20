@@ -227,7 +227,6 @@ modules
 =
 {
 HeapSnapshot
-InspectorUtils
 Promise
 TelemetryStopwatch
 }

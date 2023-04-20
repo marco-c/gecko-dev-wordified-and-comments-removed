@@ -4,16 +4,6 @@ strict
 "
 ;
 const
-InspectorUtils
-=
-require
-(
-"
-InspectorUtils
-"
-)
-;
-const
 EventEmitter
 =
 require
