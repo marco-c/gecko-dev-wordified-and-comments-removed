@@ -356,12 +356,6 @@ target_rate
 )
 const
 ;
-LossBasedState
-loss_based_state
-(
-)
-const
-;
 DataRate
 delay_based_limit
 (
@@ -524,14 +518,6 @@ TransportPacketsFeedback
 report
 BandwidthUsage
 delay_detector_state
-absl
-:
-:
-optional
-<
-DataRate
->
-probe_bitrate
 )
 ;
 private
@@ -759,9 +745,6 @@ loss_based_bandwidth_estimator_v1_
 ;
 LossBasedBweV2
 loss_based_bandwidth_estimator_v2_
-;
-LossBasedState
-loss_based_state_
 ;
 FieldTrialFlag
 disable_receiver_limit_caps_only_
