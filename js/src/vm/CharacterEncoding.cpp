@@ -1020,7 +1020,7 @@ JS
 :
 CharsToNewUTF8CharsZ
 (
-ErrorAllocator
+FrontendAllocator
 *
 cx
 const
@@ -1041,7 +1041,7 @@ JS
 :
 CharsToNewUTF8CharsZ
 (
-ErrorAllocator
+FrontendAllocator
 *
 cx
 const
@@ -1062,7 +1062,7 @@ JS
 :
 CharsToNewUTF8CharsZ
 (
-ErrorAllocator
+FrontendAllocator
 *
 cx
 const
@@ -1084,7 +1084,7 @@ JS
 :
 CharsToNewUTF8CharsZ
 (
-ErrorAllocator
+FrontendAllocator
 *
 cx
 const

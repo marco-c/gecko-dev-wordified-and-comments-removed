@@ -109,12 +109,12 @@ error
 }
 ;
 class
-ErrorAllocator
+FrontendAllocator
 :
 public
 MallocProvider
 <
-ErrorAllocator
+FrontendAllocator
 >
 {
 private
@@ -127,7 +127,7 @@ context_
 public
 :
 explicit
-ErrorAllocator
+FrontendAllocator
 (
 ErrorContext
 *
@@ -170,7 +170,7 @@ reportAllocationOverflow
 class
 ErrorContext
 {
-ErrorAllocator
+FrontendAllocator
 alloc_
 ;
 public
@@ -194,7 +194,7 @@ ErrorContext
 =
 default
 ;
-ErrorAllocator
+FrontendAllocator
 *
 getAllocator
 (
