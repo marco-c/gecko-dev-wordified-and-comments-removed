@@ -405,6 +405,10 @@ buttondisabledaccept
 name
 .
 value
+.
+trim
+(
+)
 )
 ;
 }
