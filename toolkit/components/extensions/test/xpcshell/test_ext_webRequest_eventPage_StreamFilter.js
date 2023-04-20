@@ -1640,6 +1640,11 @@ extension
 .
 terminateBackground
 (
+{
+disableResetIdleForTest
+:
+true
+}
 )
 ;
 await
