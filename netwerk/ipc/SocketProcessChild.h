@@ -605,10 +605,6 @@ ipc
 IPCResult
 RecvClearSessionCache
 (
-ClearSessionCacheResolver
-&
-&
-aResolve
 )
 ;
 already_AddRefed
