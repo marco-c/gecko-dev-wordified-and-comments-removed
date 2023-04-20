@@ -217,7 +217,7 @@ case
 RefType
 :
 :
-TypeIndex
+TypeRef
 :
 return
 ;

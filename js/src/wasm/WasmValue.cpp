@@ -749,7 +749,7 @@ case
 RefType
 :
 :
-TypeIndex
+TypeRef
 :
 MOZ_CRASH
 (
@@ -2414,7 +2414,7 @@ case
 RefType
 :
 :
-TypeIndex
+TypeRef
 :
 break
 ;
@@ -3289,7 +3289,7 @@ case
 RefType
 :
 :
-TypeIndex
+TypeRef
 :
 break
 ;
