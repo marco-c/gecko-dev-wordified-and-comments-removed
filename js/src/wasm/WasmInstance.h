@@ -537,6 +537,14 @@ ElemSegmentVector
 elemSegments
 )
 ;
+void
+trace
+(
+JSTracer
+*
+trc
+)
+;
 uintptr_t
 traceFrame
 (
