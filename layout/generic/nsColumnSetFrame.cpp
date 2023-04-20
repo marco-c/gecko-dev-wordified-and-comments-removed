@@ -610,7 +610,7 @@ ruleWidth
 colStyle
 -
 >
-GetColumnRuleWidth
+GetComputedColumnRuleWidth
 (
 )
 ;
@@ -957,7 +957,7 @@ ruleWidth
 colStyle
 -
 >
-GetColumnRuleWidth
+GetComputedColumnRuleWidth
 (
 )
 ;
