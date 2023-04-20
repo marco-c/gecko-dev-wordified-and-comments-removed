@@ -66012,7 +66012,7 @@ const
 auto
 &
 stream
-CreateFileStream
+CreateFileRandomAccessStream
 (
 persistenceType
 originMetadata
@@ -66025,7 +66025,7 @@ mFile
 1
 -
 1
-nsIFileStream
+nsIFileRandomAccessStream
 :
 :
 DEFER_OPEN
@@ -66037,7 +66037,7 @@ result
 =
 NS_ISUPPORTS_CAST
 (
-nsIFileStream
+nsIFileRandomAccessStream
 *
 stream
 .

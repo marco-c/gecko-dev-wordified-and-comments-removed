@@ -166,7 +166,7 @@ prio
 h
 "
 class
-nsFileStream
+nsFileRandomAccessStream
 ;
 namespace
 mozilla
@@ -2571,7 +2571,7 @@ nsISupports
 aParent
 RefPtr
 <
-nsFileStream
+nsFileRandomAccessStream
 >
 &
 &
@@ -2660,7 +2660,7 @@ mParent
 ;
 RefPtr
 <
-nsFileStream
+nsFileRandomAccessStream
 >
 mStream
 ;

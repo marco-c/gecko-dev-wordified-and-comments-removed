@@ -3658,7 +3658,7 @@ Finish
 ;
 }
 nsresult
-nsFileStream
+nsFileRandomAccessStream
 :
 :
 Create
@@ -3673,12 +3673,12 @@ aResult
 {
 RefPtr
 <
-nsFileStream
+nsFileRandomAccessStream
 >
 stream
 =
 new
-nsFileStream
+nsFileRandomAccessStream
 (
 )
 ;
@@ -3695,15 +3695,15 @@ aResult
 }
 NS_IMPL_ISUPPORTS_INHERITED
 (
-nsFileStream
+nsFileRandomAccessStream
 nsFileStreamBase
 nsIRandomAccessStream
-nsIFileStream
+nsIFileRandomAccessStream
 nsIInputStream
 nsIOutputStream
 )
 NS_IMETHODIMP
-nsFileStream
+nsFileRandomAccessStream
 :
 :
 GetInputStream
@@ -3735,7 +3735,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsFileStream
+nsFileRandomAccessStream
 :
 :
 GetOutputStream
@@ -3768,7 +3768,7 @@ NS_OK
 }
 nsIInputStream
 *
-nsFileStream
+nsFileRandomAccessStream
 :
 :
 InputStream
@@ -3781,7 +3781,7 @@ this
 }
 nsIOutputStream
 *
-nsFileStream
+nsFileRandomAccessStream
 :
 :
 OutputStream
@@ -3793,7 +3793,7 @@ this
 ;
 }
 NS_IMETHODIMP
-nsFileStream
+nsFileRandomAccessStream
 :
 :
 Init
@@ -3872,7 +3872,7 @@ ioFlags
 perm
 mBehaviorFlags
 &
-nsIFileStream
+nsIFileRandomAccessStream
 :
 :
 DEFER_OPEN

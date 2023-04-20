@@ -717,12 +717,12 @@ override
 }
 ;
 class
-nsFileStream
+nsFileRandomAccessStream
 :
 public
 nsFileStreamBase
 public
-nsIFileStream
+nsIFileRandomAccessStream
 public
 nsIInputStream
 public
@@ -756,7 +756,7 @@ nsFileStreamBase
 :
 )
 NS_DECL_NSIRANDOMACCESSSTREAM
-NS_DECL_NSIFILESTREAM
+NS_DECL_NSIFILERANDOMACCESSSTREAM
 NS_FORWARD_NSIINPUTSTREAM
 (
 nsFileStreamBase
@@ -864,7 +864,7 @@ protected
 :
 virtual
 ~
-nsFileStream
+nsFileRandomAccessStream
 (
 )
 =

@@ -4816,7 +4816,7 @@ stream
 ;
 rv
 =
-NS_NewLocalFileStream
+NS_NewLocalFileRandomAccessStream
 (
 getter_AddRefs
 (
@@ -4827,7 +4827,7 @@ mFile
 1
 -
 1
-nsIFileStream
+nsIFileRandomAccessStream
 :
 :
 DEFER_OPEN

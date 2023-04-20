@@ -120,7 +120,7 @@ v2
 )
 ;
 let
-fileStream
+fileRandomAccessStream
 =
 Cc
 [
@@ -133,6 +133,10 @@ network
 /
 file
 -
+random
+-
+access
+-
 stream
 ;
 1
@@ -143,10 +147,10 @@ createInstance
 (
 Ci
 .
-nsIFileStream
+nsIFileRandomAccessStream
 )
 ;
-fileStream
+fileRandomAccessStream
 .
 init
 (
@@ -185,7 +189,7 @@ binaryInputStream
 .
 setInputStream
 (
-fileStream
+fileRandomAccessStream
 )
 ;
 let
@@ -200,7 +204,7 @@ read64
 let
 seekableStream
 =
-fileStream
+fileRandomAccessStream
 .
 QueryInterface
 (
@@ -247,7 +251,7 @@ binaryOutputStream
 .
 setOutputStream
 (
-fileStream
+fileRandomAccessStream
 )
 ;
 binaryOutputStream
