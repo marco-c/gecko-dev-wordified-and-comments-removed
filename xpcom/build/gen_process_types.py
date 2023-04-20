@@ -25,7 +25,9 @@ FILE
 IS
 GENERATED
 BY
-GeckoProcessTypes
+gen_process_types
+.
+py
 -
 DO
 NOT

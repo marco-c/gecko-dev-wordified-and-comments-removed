@@ -88,7 +88,7 @@ Browser
 DEFAULT
 "
         
-False
+True
     
 )
     
@@ -199,7 +199,7 @@ GmpPlugin
 GMPLUGIN
 "
         
-False
+True
     
 )
     
@@ -384,7 +384,7 @@ RemoteSandboxBroker
 REMOTESANDBOXBROKER
 "
         
-False
+True
     
 )
     
@@ -421,7 +421,7 @@ ForkServer
 FORKSERVER
 "
         
-False
+True
     
 )
     
