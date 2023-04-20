@@ -5569,7 +5569,7 @@ p
 table
 -
 >
-lookupRaw
+readonlyThreadsafeLookup
 (
 key
 )
