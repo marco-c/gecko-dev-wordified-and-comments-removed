@@ -5258,8 +5258,7 @@ xpcom
 /
 base
 /
-nsCycleCollector
-.
+nsCycleCollect
 \
 *
 <
@@ -5286,8 +5285,7 @@ xpcom
 /
 base
 /
-nsCycleCollector
-.
+nsCycleCollect
 \
 *
 >
@@ -5307,7 +5305,8 @@ Components
 Core
 :
 :
-XPCOM
+Cycle
+Collector
 Core
 :
 DLL
