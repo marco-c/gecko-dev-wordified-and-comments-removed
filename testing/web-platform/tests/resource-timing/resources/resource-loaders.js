@@ -443,6 +443,7 @@ async
 path
 attribute_map
 validator
+skip_wait_for_navigation
 )
 =
 >
@@ -534,9 +535,16 @@ appendChild
 frame
 )
 ;
+if
+(
+!
+skip_wait_for_navigation
+)
+{
 await
 loaded
 ;
+}
 if
 (
 validator
@@ -550,6 +558,12 @@ frame
 )
 ;
 }
+if
+(
+!
+skip_wait_for_navigation
+)
+{
 document
 .
 body
@@ -559,6 +573,7 @@ removeChild
 frame
 )
 ;
+}
 }
 iframe
 :
