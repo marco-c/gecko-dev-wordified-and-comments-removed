@@ -382,6 +382,9 @@ python3
 python3
 -
 devel
+python3
+-
+pip
 If
 you
 need
