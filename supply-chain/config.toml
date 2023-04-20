@@ -7,7 +7,9 @@ file
 [
 imports
 .
-bytecodealliance
+bytecode
+-
+alliance
 ]
 url
 =
@@ -80,6 +82,8 @@ TEXT
 imports
 .
 embark
+-
+studios
 ]
 url
 =
