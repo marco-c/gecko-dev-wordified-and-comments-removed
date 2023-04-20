@@ -2313,6 +2313,17 @@ _visibleTabs
 null
 ;
 }
+_invalidateCachedVisibleTabs
+(
+)
+{
+this
+.
+_visibleTabs
+=
+null
+;
+}
 _setFindbarData
 (
 )
@@ -18216,7 +18227,7 @@ hidden
 ;
 this
 .
-_invalidateCachedTabs
+_invalidateCachedVisibleTabs
 (
 )
 ;
@@ -18341,7 +18352,7 @@ true
 ;
 this
 .
-_invalidateCachedTabs
+_invalidateCachedVisibleTabs
 (
 )
 ;
