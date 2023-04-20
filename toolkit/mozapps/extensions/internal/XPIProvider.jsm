@@ -6590,6 +6590,13 @@ isPrivileged
 addon
 .
 isPrivileged
+locationHidden
+:
+addon
+.
+location
+.
+hidden
 recommendationState
 :
 addon

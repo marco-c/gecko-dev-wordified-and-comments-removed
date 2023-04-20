@@ -2215,6 +2215,7 @@ host
 ]
 }
 ;
+return
 ExtensionPermissions
 .
 add
@@ -2270,6 +2271,7 @@ host
 ]
 }
 ;
+return
 ExtensionPermissions
 .
 remove
