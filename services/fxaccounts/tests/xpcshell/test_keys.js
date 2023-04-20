@@ -10,7 +10,7 @@ FxAccountsKeys
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 FxAccountsKeys
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
