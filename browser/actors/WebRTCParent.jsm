@@ -324,9 +324,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 error
 in
@@ -4264,9 +4264,9 @@ deviceId
 return
 ;
 }
-Cu
+console
 .
-reportError
+error
 (
 error
 in

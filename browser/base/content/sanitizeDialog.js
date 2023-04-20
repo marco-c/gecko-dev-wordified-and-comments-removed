@@ -779,9 +779,9 @@ options
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 .
 then
@@ -799,9 +799,9 @@ close
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 event
@@ -816,9 +816,9 @@ catch
 er
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Exception
@@ -826,7 +826,6 @@ during
 sanitize
 :
 "
-+
 er
 )
 ;

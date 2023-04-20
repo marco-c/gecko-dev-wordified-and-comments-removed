@@ -750,9 +750,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Malformed
@@ -763,7 +763,6 @@ with
 data
 :
 "
-+
 aData
 )
 ;

@@ -589,9 +589,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Malformed
@@ -602,7 +602,6 @@ with
 data
 :
 "
-+
 aMessage
 .
 data
@@ -904,9 +903,9 @@ if
 decodeIssue
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Malformed

@@ -1213,9 +1213,9 @@ if
 aInitiatingDoc
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 openUILink

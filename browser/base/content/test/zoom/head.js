@@ -285,9 +285,9 @@ handleError
 error
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 error
 )
@@ -748,9 +748,9 @@ function
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 err
 )

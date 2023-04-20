@@ -2146,9 +2146,9 @@ catch
 err
 =
 >
-Cu
+console
 .
-reportError
+error
 (
 "
 Error
@@ -2158,7 +2158,6 @@ history
 entry
 :
 "
-+
 err
 )
 )
@@ -2399,9 +2398,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 err
 )

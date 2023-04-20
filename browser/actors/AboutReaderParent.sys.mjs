@@ -553,9 +553,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -1002,9 +1002,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Error
@@ -1018,7 +1018,6 @@ reader
 content
 :
 "
-+
 ex
 )
 ;
@@ -1971,9 +1970,9 @@ throw
 e
 ;
 }
-Cu
+console
 .
-reportError
+error
 (
 "
 Error
@@ -1983,7 +1982,6 @@ parsing
 document
 :
 "
-+
 e
 )
 ;

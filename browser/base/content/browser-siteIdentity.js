@@ -1700,9 +1700,9 @@ this
 _uriHasHost
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Trying
@@ -2358,9 +2358,9 @@ catch
 error
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Error
@@ -2373,7 +2373,6 @@ viewer
 page
 :
 "
-+
 error
 )
 ;
@@ -5018,9 +5017,9 @@ event
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

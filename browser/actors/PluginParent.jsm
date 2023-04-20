@@ -235,9 +235,9 @@ pluginName
 )
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 PluginManager
@@ -362,9 +362,9 @@ if
 report
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Could
 not
@@ -510,9 +510,9 @@ break
 ;
 default
 :
-Cu
+console
 .
-reportError
+error
 (
 "
 PluginParent
@@ -523,7 +523,6 @@ to
 handle
 message
 "
-+
 msg
 .
 name

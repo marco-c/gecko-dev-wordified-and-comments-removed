@@ -537,9 +537,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Malformed
@@ -550,7 +550,6 @@ with
 data
 :
 "
-+
 aMessage
 .
 data
@@ -875,9 +874,9 @@ return
 ;
 default
 :
-Cu
+console
 .
-reportError
+error
 (
 new
 Error

@@ -10728,9 +10728,9 @@ bookmarkPage
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -10756,9 +10756,9 @@ linkTextStr
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -10808,9 +10808,9 @@ title
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

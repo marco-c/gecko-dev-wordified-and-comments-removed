@@ -1003,9 +1003,9 @@ event
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -3909,9 +3909,9 @@ lastAccess
 )
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Invalid
