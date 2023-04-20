@@ -512,8 +512,6 @@ cd
 MOZ_FETCHES_DIR
 /
 arcanist
-.
-git
 "
 patch
 -
@@ -572,8 +570,6 @@ PATH
 MOZ_FETCHES_PATH
 /
 arcanist
-.
-git
 /
 bin
 :
