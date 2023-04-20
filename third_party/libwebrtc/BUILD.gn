@@ -3308,13 +3308,6 @@ pending_task_safety_flag_unittests
 "
 api
 /
-task_queue
-:
-to_queued_task_unittests
-"
-"
-api
-/
 transport
 :
 stun_unittest
