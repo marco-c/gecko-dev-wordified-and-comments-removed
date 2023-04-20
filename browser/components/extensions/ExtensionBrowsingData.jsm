@@ -157,6 +157,16 @@ dataType
 options
 )
 {
+let
+o
+=
+{
+progress
+:
+{
+}
+}
+;
 switch
 (
 dataType
@@ -184,6 +194,7 @@ makeRange
 (
 options
 )
+o
 )
 ;
 case
@@ -208,6 +219,7 @@ makeRange
 (
 options
 )
+o
 )
 ;
 case
@@ -232,6 +244,7 @@ makeRange
 (
 options
 )
+o
 )
 ;
 default
