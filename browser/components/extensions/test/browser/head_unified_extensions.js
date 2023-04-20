@@ -233,7 +233,9 @@ waitForEvent
 (
 win
 .
-document
+gUnifiedExtensions
+.
+panel
 "
 popuphidden
 "

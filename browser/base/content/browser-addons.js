@@ -6985,6 +6985,7 @@ item
 id
 ;
 }
+async
 onPinToToolbarChange
 (
 menu
@@ -7040,6 +7041,19 @@ widgetId
 )
 {
 return
+;
+}
+if
+(
+shouldPinToToolbar
+)
+{
+await
+this
+.
+togglePanel
+(
+)
 ;
 }
 this
