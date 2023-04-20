@@ -215,13 +215,6 @@ kAgcStartupMinVolume
 ;
 #
 endif
-static
-constexpr
-int
-kClippedLevelMin
-=
-70
-;
 class
 RTC_EXPORT
 AudioProcessing
@@ -560,7 +553,7 @@ kAgcStartupMinVolume
 int
 clipped_level_min
 =
-kClippedLevelMin
+70
 ;
 bool
 enable_digital_adaptive
