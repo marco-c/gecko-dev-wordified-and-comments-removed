@@ -577,7 +577,7 @@ equal
 (
 PlacesUtils
 .
-getConcreteItemId
+getConcreteItemGuid
 (
 PO
 .
@@ -587,7 +587,9 @@ selectedNode
 )
 PlacesUtils
 .
-toolbarFolderId
+bookmarks
+.
+toolbarGuid
 "
 We
 have
@@ -1095,7 +1097,7 @@ equal
 (
 PlacesUtils
 .
-getConcreteItemId
+getConcreteItemGuid
 (
 PO
 .
@@ -1105,7 +1107,9 @@ selectedNode
 )
 PlacesUtils
 .
-toolbarFolderId
+bookmarks
+.
+toolbarGuid
 "
 We
 have

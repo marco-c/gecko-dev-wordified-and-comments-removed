@@ -6207,7 +6207,7 @@ lazy
 .
 PlacesUtils
 .
-getConcreteItemId
+getConcreteItemGuid
 (
 placesNode
 )
@@ -6217,7 +6217,9 @@ lazy
 .
 PlacesUtils
 .
-placesRootId
+bookmarks
+.
+rootGuid
 )
 ;
 }
