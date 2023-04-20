@@ -84,7 +84,7 @@ h
 if
 defined
 (
-ENABLE_TESTS
+MOZ_DEBUG
 )
 #
 include
@@ -451,7 +451,7 @@ fSoftBreak
 if
 defined
 (
-ENABLE_TESTS
+MOZ_DEBUG
 )
 &
 &
