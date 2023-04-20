@@ -188,10 +188,6 @@ Id
 ToString
 (
 )
-.
-get
-(
-)
 )
 ;
 return
