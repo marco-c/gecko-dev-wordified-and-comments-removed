@@ -29148,7 +29148,10 @@ if
 listID
 =
 =
-kPopupList
+FrameChildListID
+:
+:
+Popup
 )
 {
 continue
@@ -53800,7 +53803,10 @@ rootFrame
 >
 GetChildList
 (
-kFixedList
+FrameChildListID
+:
+:
+Fixed
 )
 ;
 for

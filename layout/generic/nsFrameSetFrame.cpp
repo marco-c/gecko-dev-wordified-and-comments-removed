@@ -1639,7 +1639,10 @@ if
 aListID
 =
 =
-kPrincipalList
+FrameChildListID
+:
+:
+Principal
 &
 &
 aChildList

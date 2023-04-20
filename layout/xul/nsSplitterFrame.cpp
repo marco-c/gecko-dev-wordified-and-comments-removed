@@ -2775,7 +2775,10 @@ CSSOrderAwareFrameIterator
 iter
 (
 mParentBox
-kPrincipalList
+FrameChildListID
+:
+:
+Principal
 CSSOrderAwareFrameIterator
 :
 :

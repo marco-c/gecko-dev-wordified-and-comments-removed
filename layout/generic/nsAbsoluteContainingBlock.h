@@ -74,7 +74,10 @@ mChildListID
 mozilla
 :
 :
-kAbsoluteList
+FrameChildListID
+:
+:
+Absolute
 |
 |
 mChildListID
@@ -83,7 +86,10 @@ mChildListID
 mozilla
 :
 :
-kFixedList
+FrameChildListID
+:
+:
+Fixed
 "
 should
 either
