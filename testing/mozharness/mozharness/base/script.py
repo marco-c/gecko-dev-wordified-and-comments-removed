@@ -11735,20 +11735,12 @@ return
 -
 1
         
-return_level
-=
-INFO
-        
 if
 returncode
 not
 in
 success_codes
 :
-            
-return_level
-=
-error_level
             
 if
 throw_exception
@@ -11778,7 +11770,7 @@ d
 returncode
 level
 =
-return_level
+INFO
 )
         
 if
@@ -13235,7 +13227,7 @@ p
 returncode
 level
 =
-return_level
+INFO
 )
         
 if

@@ -3820,7 +3820,7 @@ log_level
                     
 self
 .
-log
+info
 (
                         
 "
@@ -3846,10 +3846,6 @@ suite_category
 suite
 tbpl_status
 )
-                        
-level
-=
-log_level
                     
 )
 if

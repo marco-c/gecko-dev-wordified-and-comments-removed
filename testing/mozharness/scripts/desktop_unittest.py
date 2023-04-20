@@ -8614,7 +8614,7 @@ else
                         
 self
 .
-log
+info
 (
                             
 "
@@ -8640,10 +8640,6 @@ suite_category
 suite
 tbpl_status
 )
-                            
-level
-=
-log_level
                         
 )
             

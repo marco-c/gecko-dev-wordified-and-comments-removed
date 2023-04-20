@@ -257,26 +257,6 @@ worst_status
                 
 )
             
-self
-.
-add_summary
-(
-"
-#
-TBPL
-%
-s
-#
-"
-%
-self
-.
-worst_status
-level
-=
-level
-)
-            
 if
 set_return_code
 :
