@@ -159,6 +159,17 @@ aDocument
 GetParentObject
 (
 )
+aDocument
+-
+>
+GetScopeObject
+(
+)
+-
+>
+GetRTPCallerType
+(
+)
 )
 mDocument
 (
