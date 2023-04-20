@@ -56,11 +56,6 @@ MPL
 .
 *
 /
-"
-use
-strict
-"
-;
 export
 const
 MAIN_MESSAGE_TYPE
