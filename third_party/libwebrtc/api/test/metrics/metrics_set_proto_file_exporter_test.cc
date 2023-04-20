@@ -548,7 +548,7 @@ unit
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 .
 improvement_direction
 =

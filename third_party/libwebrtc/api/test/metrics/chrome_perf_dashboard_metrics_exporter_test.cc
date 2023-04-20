@@ -413,7 +413,7 @@ unit
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 .
 improvement_direction
 =
@@ -1409,7 +1409,7 @@ unit
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 .
 improvement_direction
 =
@@ -1734,7 +1734,7 @@ unit
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 .
 improvement_direction
 =

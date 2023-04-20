@@ -401,7 +401,7 @@ test_case_name
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -505,7 +505,7 @@ Eq
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 )
 )
 ;
@@ -889,7 +889,7 @@ values
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -993,7 +993,7 @@ Eq
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 )
 )
 ;
@@ -1361,7 +1361,7 @@ metric_stats
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -1465,7 +1465,7 @@ Eq
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 )
 )
 ;
@@ -1687,7 +1687,7 @@ test_case_name1
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -1711,7 +1711,7 @@ test_case_name2
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -1956,7 +1956,7 @@ values
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -1980,7 +1980,7 @@ values
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -2174,7 +2174,7 @@ metric_stats
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -2198,7 +2198,7 @@ metric_stats
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -2467,7 +2467,7 @@ test_case_name1
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -2491,7 +2491,7 @@ values
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -2515,7 +2515,7 @@ metric_stats
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :
@@ -2746,7 +2746,7 @@ test_case_name
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 ImprovementDirection
 :
 :

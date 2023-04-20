@@ -137,7 +137,7 @@ case
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 :
 return
 "
@@ -160,7 +160,7 @@ case
 Unit
 :
 :
-kSizeInBytes
+kBytes
 :
 return
 "

@@ -262,7 +262,7 @@ unit
 Unit
 :
 :
-kTimeMs
+kMilliseconds
 .
 improvement_direction
 =
@@ -475,7 +475,7 @@ stddev
 =
 5
 }
-TimeMs
+Milliseconds
 (
 BiggerIsBetter
 )
