@@ -416,7 +416,9 @@ migration
 /
 ChromeMigrationUtils
 .
-jsm
+sys
+.
+mjs
 -
 browser
 /
@@ -426,7 +428,9 @@ migration
 /
 ChromeProfileMigrator
 .
-jsm
+sys
+.
+mjs
 -
 browser
 /
