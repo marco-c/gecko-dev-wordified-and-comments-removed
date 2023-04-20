@@ -130,10 +130,6 @@ disabled
 ;
 attribute
 AString
-crop
-;
-attribute
-AString
 image
 ;
 attribute
