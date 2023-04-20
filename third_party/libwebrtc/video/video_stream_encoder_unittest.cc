@@ -320,7 +320,7 @@ codecs
 /
 av1
 /
-libaom_av1_encoder_supported
+libaom_av1_encoder
 .
 h
 "
@@ -50512,7 +50512,7 @@ kVideoCodecAV1
 :
 encoder
 =
-CreateLibaomAv1EncoderIfSupported
+CreateLibaomAv1Encoder
 (
 )
 ;
