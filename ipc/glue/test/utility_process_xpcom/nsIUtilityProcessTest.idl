@@ -44,5 +44,10 @@ stopProcess
 (
 )
 ;
+void
+testTelemetryProbes
+(
+)
+;
 }
 ;

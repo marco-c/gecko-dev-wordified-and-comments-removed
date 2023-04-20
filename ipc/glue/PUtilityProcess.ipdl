@@ -329,6 +329,11 @@ unused
 )
 ;
 async
+TestTelemetryProbes
+(
+)
+;
+async
 StartUtilityAudioDecoderService
 (
 Endpoint
