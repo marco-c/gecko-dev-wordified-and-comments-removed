@@ -253,7 +253,7 @@ CreateVideoCapture
 const
 char
 *
-deviceUniqueIdUTF8
+aDeviceUniqueIdUTF8
 )
 {
 LOG
@@ -269,7 +269,7 @@ __PRETTY_FUNCTION__
 ;
 MOZ_ASSERT
 (
-deviceUniqueIdUTF8
+aDeviceUniqueIdUTF8
 )
 ;
 int32_t
@@ -351,7 +351,7 @@ VideoCapture
 CurrentDeviceName
 (
 )
-deviceUniqueIdUTF8
+aDeviceUniqueIdUTF8
 )
 =
 =
@@ -408,7 +408,7 @@ VideoCaptureFactory
 :
 Create
 (
-deviceUniqueIdUTF8
+aDeviceUniqueIdUTF8
 )
 )
 ;
@@ -465,7 +465,7 @@ DesktopCaptureImpl
 Create
 (
 id
-deviceUniqueIdUTF8
+aDeviceUniqueIdUTF8
 mCaptureDevInfo
 .
 type
@@ -528,7 +528,7 @@ ReleaseVideoCapture
 (
 const
 int32_t
-id
+aId
 )
 {
 bool
@@ -547,7 +547,7 @@ mIdMap
 .
 find
 (
-id
+aId
 )
 ;
 MOZ_ASSERT
@@ -586,7 +586,7 @@ it
 first
 !
 =
-id
+aId
 &
 &
 it
@@ -596,7 +596,7 @@ second
 =
 mIdMap
 [
-id
+aId
 ]
 )
 {
@@ -614,7 +614,7 @@ found
 {
 WithEntry
 (
-id
+aId
 [
 &
 found
@@ -657,7 +657,7 @@ find
 (
 mIdMap
 [
-id
+aId
 ]
 )
 ;
@@ -686,7 +686,7 @@ mIdMap
 .
 erase
 (
-id
+aId
 )
 ;
 return

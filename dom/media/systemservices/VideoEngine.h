@@ -224,17 +224,6 @@ kCacheExpiryPeriodMs
 ;
 public
 :
-VideoEngine
-(
-)
-:
-mId
-(
-0
-)
-{
-}
-;
 NS_INLINE_DECL_REFCOUNTING
 (
 VideoEngine
@@ -272,7 +261,7 @@ CreateVideoCapture
 const
 char
 *
-deviceUniqueIdUTF8
+aDeviceUniqueIdUTF8
 )
 ;
 int
@@ -280,7 +269,7 @@ ReleaseVideoCapture
 (
 const
 int32_t
-id
+aId
 )
 ;
 static
@@ -289,7 +278,7 @@ Delete
 (
 VideoEngine
 *
-engine
+aEngine
 )
 {
 }
@@ -413,6 +402,7 @@ aCaptureDeviceType
 int32_t
 mId
 ;
+const
 CaptureDeviceInfo
 mCaptureDevInfo
 ;
