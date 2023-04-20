@@ -83,17 +83,6 @@ closed
 "
 )
 ;
-CustomizableUI
-.
-dispatchToolboxEvent
-(
-"
-aftercustomization
-"
-{
-}
-)
-;
 }
 )
 ;
