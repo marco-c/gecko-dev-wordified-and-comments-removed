@@ -7966,9 +7966,9 @@ nsBaseWidget
 :
 SetNonClientMargins
 (
+const
 LayoutDeviceIntMargin
 &
-margins
 )
 {
 return

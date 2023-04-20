@@ -1465,9 +1465,9 @@ virtual
 nsresult
 SetNonClientMargins
 (
+const
 LayoutDeviceIntMargin
 &
-aMargins
 )
 override
 ;

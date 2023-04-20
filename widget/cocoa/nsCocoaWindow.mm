@@ -10753,6 +10753,7 @@ nsCocoaWindow
 :
 SetNonClientMargins
 (
+const
 LayoutDeviceIntMargin
 &
 margins
