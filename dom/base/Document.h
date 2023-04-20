@@ -1206,6 +1206,9 @@ class
 ImageTracker
 ;
 class
+HighlightRegistry
+;
+class
 HTMLAllCollection
 ;
 class
@@ -3743,6 +3746,7 @@ return
 mEarlyHints
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 PresShell
@@ -12013,6 +12017,13 @@ return
 mDidHitCompleteSheetCache
 ;
 }
+class
+HighlightRegistry
+&
+HighlightRegistry
+(
+)
+;
 bool
 ShouldResistFingerprinting
 (
@@ -14745,6 +14756,13 @@ BrowserBridgeChild
 *
 >
 mOOPChildrenLoading
+;
+RefPtr
+<
+class
+HighlightRegistry
+>
+mHighlightRegistry
 ;
 public
 :
