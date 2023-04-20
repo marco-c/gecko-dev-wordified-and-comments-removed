@@ -735,6 +735,17 @@ test_new_current_engine_is_undefined
 (
 )
 {
+consoleAllowList
+.
+push
+(
+"
+No
+default
+engine
+"
+)
+;
 let
 settings
 =

@@ -1625,9 +1625,9 @@ _parse
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Invalid

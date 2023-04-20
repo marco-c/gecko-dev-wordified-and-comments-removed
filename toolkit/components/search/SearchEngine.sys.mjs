@@ -9517,9 +9517,9 @@ submission
 postData
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 searchUrlQueryParamName
@@ -10323,9 +10323,9 @@ options
 window
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 invalid
@@ -10503,9 +10503,9 @@ just
 ignore
 it
 .
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -10592,9 +10592,9 @@ just
 ignore
 it
 .
-Cu
+console
 .
-reportError
+error
 (
 e
 )

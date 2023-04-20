@@ -932,9 +932,9 @@ catch
 result
 =
 >
-Cu
+console
 .
-reportError
+error
 (
 "
 Could

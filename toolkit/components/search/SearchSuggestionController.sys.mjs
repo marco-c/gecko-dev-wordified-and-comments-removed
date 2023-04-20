@@ -1962,9 +1962,9 @@ return
 null
 ;
 }
-Cu
+console
 .
-reportError
+error
 (
 "
 SearchSuggestionController
@@ -3892,9 +3892,9 @@ string
 /
 Failure
 message
-Cu
+console
 .
-reportError
+error
 (
 "
 SearchSuggestionController

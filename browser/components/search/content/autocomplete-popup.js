@@ -134,9 +134,9 @@ updateHeader
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 this
@@ -1221,9 +1221,9 @@ engine
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

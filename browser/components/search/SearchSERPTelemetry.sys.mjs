@@ -1142,9 +1142,9 @@ TabClose
 "
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Received
 unexpected
@@ -4767,9 +4767,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )
