@@ -527,9 +527,6 @@ manages
 PCameras
 ;
 manages
-PMIDIPort
-;
-manages
 PQuota
 ;
 manages
@@ -1158,8 +1155,13 @@ aEndpoint
 )
 ;
 async
-PMIDIPort
+CreateMIDIPort
 (
+Endpoint
+<
+PMIDIPortParent
+>
+aEndpoint
 MIDIPortInfo
 portInfo
 bool

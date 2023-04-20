@@ -320,12 +320,8 @@ IPC_OK
 )
 ;
 }
-Unused
-<
-<
-Send__delete__
+Close
 (
-this
 )
 ;
 return
