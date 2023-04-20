@@ -3,11 +3,6 @@ use
 strict
 "
 ;
-requestLongerTimeout
-(
-6
-)
-;
 const
 BASE_URL
 =
