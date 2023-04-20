@@ -5798,6 +5798,14 @@ mozilla
 StyleContain
 ;
 using
+StyleContainerName
+=
+mozilla
+:
+:
+StyleContainerName
+;
+using
 StyleContentVisibility
 =
 mozilla
