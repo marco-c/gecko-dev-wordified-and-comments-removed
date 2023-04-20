@@ -6113,8 +6113,8 @@ if
 (
 !
 mIsReachingAudioEOS
-&
-&
+|
+|
 !
 mIsReachingVideoEOS
 )
