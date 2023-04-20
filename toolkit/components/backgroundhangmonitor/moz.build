@@ -47,7 +47,9 @@ EXTRA_JS_MODULES
 "
 BHRTelemetryService
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS
