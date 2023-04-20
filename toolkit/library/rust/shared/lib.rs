@@ -490,6 +490,10 @@ data_encoding_ffi
 ;
 extern
 crate
+binary_http
+;
+extern
+crate
 oblivious_http
 ;
 #
