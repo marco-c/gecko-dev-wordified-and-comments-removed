@@ -42,7 +42,9 @@ size
 -
 type
 :
-rect
+stacking
+-
+context
 clip
 -
 chain
@@ -50,6 +52,12 @@ chain
 [
 2
 ]
+items
+:
+-
+type
+:
+rect
 bounds
 :
 [
