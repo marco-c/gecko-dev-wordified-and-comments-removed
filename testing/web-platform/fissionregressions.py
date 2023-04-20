@@ -349,6 +349,12 @@ win10_2004
 False
         
 "
+win11_2009
+"
+:
+False
+        
+"
 domstreams
 "
 :
@@ -690,6 +696,12 @@ False
         
 "
 win10_2004
+"
+:
+False
+        
+"
+win11_2009
 "
 :
 False
@@ -1040,6 +1052,12 @@ False
         
 "
 win10_2004
+"
+:
+False
+        
+"
+win11_2009
 "
 :
 False
