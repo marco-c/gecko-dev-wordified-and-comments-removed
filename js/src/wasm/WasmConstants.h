@@ -191,15 +191,6 @@ Ref
 ;
 enum
 class
-TypeIdDescKind
-{
-None
-Immediate
-Global
-}
-;
-enum
-class
 Trap
 {
 Unreachable

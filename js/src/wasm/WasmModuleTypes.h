@@ -175,9 +175,6 @@ Span
 class
 FuncType
 ;
-class
-TypeIdDesc
-;
 enum
 ModuleKind
 {
@@ -810,10 +807,6 @@ FuncType
 *
 type
 ;
-TypeIdDesc
-*
-typeId
-;
 uint32_t
 typeIndex
 :
@@ -864,9 +857,6 @@ FuncDesc
 FuncType
 *
 type
-TypeIdDesc
-*
-typeId
 uint32_t
 typeIndex
 )
@@ -874,10 +864,6 @@ typeIndex
 type
 (
 type
-)
-typeId
-(
-typeId
 )
 typeIndex
 (
