@@ -234,6 +234,14 @@ ByteString
 name
 )
 ;
+sequence
+<
+ByteString
+>
+getSetCookie
+(
+)
+;
 [
 Throws
 ]
