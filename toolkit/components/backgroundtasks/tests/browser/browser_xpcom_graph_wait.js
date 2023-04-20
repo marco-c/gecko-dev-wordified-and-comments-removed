@@ -1351,7 +1351,7 @@ profilePath
 await
 IOUtils
 .
-createUniqueFile
+createUniqueDirectory
 (
 PathUtils
 .
@@ -1359,7 +1359,7 @@ profileDir
 "
 testBackgroundTask
 "
-0o600
+0o700
 )
 )
 ;
