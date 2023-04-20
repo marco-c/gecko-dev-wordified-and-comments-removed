@@ -115,6 +115,11 @@ sources
 "
 metronome
 .
+cc
+"
+"
+metronome
+.
 h
 "
 ]

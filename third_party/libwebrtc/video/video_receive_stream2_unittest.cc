@@ -1300,11 +1300,6 @@ time_controller_
 )
 fake_metronome_
 (
-time_controller_
-.
-GetTaskQueueFactory
-(
-)
 TimeDelta
 :
 :
@@ -1485,12 +1480,6 @@ UnregisterFromTransport
 )
 ;
 }
-fake_metronome_
-.
-Stop
-(
-)
-;
 time_controller_
 .
 AdvanceTime
