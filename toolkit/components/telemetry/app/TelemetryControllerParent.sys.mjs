@@ -6826,7 +6826,7 @@ _testMode
 undefined
 )
 ;
-IOUtils
+AsyncShutdown
 .
 sendTelemetry
 .
