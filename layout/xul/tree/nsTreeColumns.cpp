@@ -2279,6 +2279,15 @@ if
 (
 !
 colFrame
+|
+|
+!
+colFrame
+-
+>
+GetContent
+(
+)
 )
 return
 ;
