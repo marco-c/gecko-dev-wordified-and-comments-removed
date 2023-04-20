@@ -105,9 +105,11 @@ genUUID
 ;
 ruleA
 .
-domain
+domains
 =
+[
 TEST_DOMAIN_A
+]
 ;
 ruleA
 .

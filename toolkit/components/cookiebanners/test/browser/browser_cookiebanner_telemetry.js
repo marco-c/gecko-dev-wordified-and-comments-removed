@@ -1024,9 +1024,11 @@ nsICookieBannerRule
 ;
 ruleA
 .
-domain
+domains
 =
+[
 TEST_DOMAIN_A
+]
 ;
 Services
 .
@@ -1124,9 +1126,11 @@ nsICookieBannerRule
 ;
 ruleB
 .
-domain
+domains
 =
+[
 TEST_DOMAIN_B
+]
 ;
 Services
 .
