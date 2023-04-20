@@ -603,18 +603,11 @@ initted
 let
 profileFile
 =
-profileDir
-+
-"
-/
-"
-+
+{
 currentTest
-+
-"
+}
 .
 profile
-"
 ;
 return
 sendEventAndWait
@@ -625,6 +618,7 @@ Profiler
 Finish
 "
 {
+profileDir
 profileFile
 }
 )
@@ -650,10 +644,7 @@ initted
 let
 profileFile
 =
-profileDir
-+
 "
-/
 startup
 .
 profile
@@ -668,6 +659,7 @@ Profiler
 Finish
 "
 {
+profileDir
 profileFile
 }
 )
