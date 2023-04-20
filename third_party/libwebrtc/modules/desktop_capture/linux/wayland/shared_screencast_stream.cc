@@ -122,6 +122,17 @@ h
 #
 include
 "
+modules
+/
+desktop_capture
+/
+shared_desktop_frame
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 checks
