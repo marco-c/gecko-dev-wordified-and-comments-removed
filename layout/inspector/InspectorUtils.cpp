@@ -2428,9 +2428,6 @@ aB
 nsAString
 &
 aColorName
-ErrorResult
-&
-aRv
 )
 {
 const
@@ -2460,16 +2457,9 @@ Truncate
 (
 )
 ;
-aRv
-.
-Throw
-(
-NS_ERROR_INVALID_ARG
-)
-;
-return
-;
 }
+else
+{
 aColorName
 .
 AssignASCII
@@ -2477,6 +2467,7 @@ AssignASCII
 color
 )
 ;
+}
 }
 void
 InspectorUtils
