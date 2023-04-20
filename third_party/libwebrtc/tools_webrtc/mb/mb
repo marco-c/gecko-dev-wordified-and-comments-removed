@@ -54,7 +54,7 @@ PYTHONDONTWRITEBYTECODE
 =
 1
 exec
-python
+python3
 "
 base_dir
 /
