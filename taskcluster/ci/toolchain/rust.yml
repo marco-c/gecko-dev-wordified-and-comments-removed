@@ -629,10 +629,6 @@ linux64
 clang
 -
 toolchain
--
-linux64
--
-binutils
 linux64
 -
 rust

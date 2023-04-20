@@ -2759,6 +2759,12 @@ git
 =
 false
         
+use
+-
+lld
+=
+true
+        
 [
 install
 ]
@@ -2914,23 +2920,6 @@ write
 final_config
 )
     
-binutils
-=
-os
-.
-path
-.
-join
-(
-fetches
-"
-binutils
-"
-"
-bin
-"
-)
-    
 clang
 =
 os
@@ -3001,7 +2990,6 @@ pathsep
 join
 (
 (
-binutils
 clang_bin
 os
 .
