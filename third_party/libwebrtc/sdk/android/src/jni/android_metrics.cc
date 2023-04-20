@@ -11,6 +11,15 @@ memory
 #
 include
 "
+rtc_base
+/
+string_utils
+.
+h
+"
+#
+include
+"
 sdk
 /
 android
@@ -127,6 +136,10 @@ metrics
 :
 SampleInfo
 >
+rtc
+:
+:
+AbslStringViewCmp
 >
 histograms
 ;

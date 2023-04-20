@@ -14,6 +14,15 @@ Private
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+string_utils
+.
+h
+"
 void
 RTCEnableMetrics
 (
@@ -67,6 +76,10 @@ metrics
 :
 SampleInfo
 >
+rtc
+:
+:
+AbslStringViewCmp
 >
 histograms
 ;
