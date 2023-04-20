@@ -6478,7 +6478,7 @@ stage
 SerializationState
 :
 :
-ERROR
+STAGE_ERROR
 )
 {
 while
@@ -6605,7 +6605,7 @@ case
 SerializationState
 :
 :
-INIT
+STAGE_INIT
 :
 {
 if
@@ -6627,7 +6627,7 @@ stage
 SerializationState
 :
 :
-ERROR
+STAGE_ERROR
 ;
 break
 ;
@@ -6795,7 +6795,7 @@ stage
 SerializationState
 :
 :
-SERIALIZE_SECTION
+STAGE_SERIALIZE_SECTION
 ;
 break
 ;
@@ -6804,7 +6804,7 @@ case
 SerializationState
 :
 :
-SERIALIZE_SECTION
+STAGE_SERIALIZE_SECTION
 :
 {
 if
@@ -6832,7 +6832,7 @@ stage
 SerializationState
 :
 :
-DONE
+STAGE_DONE
 ;
 break
 ;
@@ -6897,7 +6897,7 @@ stage
 SerializationState
 :
 :
-ERROR
+STAGE_ERROR
 ;
 break
 ;
@@ -6956,7 +6956,7 @@ stage
 SerializationState
 :
 :
-ERROR
+STAGE_ERROR
 ;
 break
 ;
@@ -6975,7 +6975,7 @@ case
 SerializationState
 :
 :
-DONE
+STAGE_DONE
 :
 JXL_ASSERT
 (
@@ -7033,7 +7033,7 @@ case
 SerializationState
 :
 :
-ERROR
+STAGE_ERROR
 :
 return
 JXL_FAILURE

@@ -655,8 +655,6 @@ ImageF
 &
 &
 alpha
-bool
-alpha_is_premultiplied
 )
 {
 const
@@ -703,17 +701,6 @@ ysize
 !
 =
 0
-)
-;
-JXL_CHECK
-(
-eci
--
->
-alpha_associated
-=
-=
-alpha_is_premultiplied
 )
 ;
 if

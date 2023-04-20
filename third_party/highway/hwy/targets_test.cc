@@ -119,6 +119,10 @@ WASM
 )
 DECLARE_FUNCTION
 (
+WASM_EMU256
+)
+DECLARE_FUNCTION
+(
 RVV
 )
 DECLARE_FUNCTION
@@ -334,6 +338,12 @@ __LINE__
 CallFunctionForTarget
 (
 HWY_WASM
+__LINE__
+)
+;
+CallFunctionForTarget
+(
+HWY_WASM_EMU256
 __LINE__
 )
 ;

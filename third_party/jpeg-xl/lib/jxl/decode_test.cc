@@ -2927,7 +2927,6 @@ pixels
 xsize
 ysize
 color_encoding
-false
 16
 format
 &
@@ -9057,7 +9056,6 @@ config
 .
 ysize
 color_encoding
-false
 16
 format_orig
 nullptr
@@ -11120,7 +11118,6 @@ span0
 xsize
 ysize
 color_encoding0
-false
 16
 format_orig
 nullptr
@@ -11199,7 +11196,6 @@ span1
 xsize
 ysize
 color_encoding1
-false
 32
 format
 nullptr
@@ -11238,7 +11234,7 @@ IsSlightlyBelow
 (
 0
 .
-85f
+86f
 )
 )
 ;
@@ -11483,7 +11479,6 @@ size
 xsize
 ysize
 color_in
-false
 16
 format_in
 nullptr
@@ -11573,7 +11568,6 @@ size
 xsize
 ysize
 color_out
-false
 16
 format_out
 nullptr
@@ -12038,7 +12032,7 @@ EXPECT_LT
 dist
 1
 .
-2
+29
 )
 ;
 EXPECT_EQ
@@ -12856,7 +12850,7 @@ EXPECT_LT
 dist
 1
 .
-2
+29
 )
 ;
 }
@@ -13221,7 +13215,6 @@ span0
 xsize
 ysize
 color_encoding0
-false
 16
 format_orig
 nullptr
@@ -13287,7 +13280,6 @@ span1
 xsize
 ysize
 color_encoding1
-false
 8
 format
 nullptr
@@ -13605,7 +13597,6 @@ span0
 xsize
 ysize
 color_encoding0
-false
 16
 format_orig
 nullptr
@@ -13671,7 +13662,6 @@ span1
 xsize
 ysize
 color_encoding1
-false
 8
 format
 nullptr
@@ -13710,7 +13700,7 @@ IsSlightlyBelow
 (
 2
 .
-6f
+4f
 )
 )
 ;
@@ -16076,8 +16066,6 @@ JxlDecoderSubscribeEvents
 (
 dec
 JXL_DEC_BASIC_INFO
-|
-JXL_DEC_DC_IMAGE
 )
 )
 ;
@@ -16402,7 +16390,6 @@ size
 xsize
 ysize
 c_srgb
-false
 16
 format_orig
 nullptr
@@ -16571,7 +16558,6 @@ size
 xsize_preview
 ysize_preview
 c_srgb
-false
 8
 format
 nullptr
@@ -17147,7 +17133,6 @@ SRGB
 (
 false
 )
-false
 16
 format
 nullptr
@@ -17830,7 +17815,6 @@ SRGB
 (
 false
 )
-false
 16
 format
 nullptr
@@ -19267,7 +19251,6 @@ SRGB
 (
 false
 )
-false
 16
 format
 nullptr
@@ -20105,7 +20088,6 @@ SRGB
 (
 false
 )
-false
 16
 format
 nullptr
@@ -20949,7 +20931,6 @@ SRGB
 (
 false
 )
-false
 16
 format
 nullptr
@@ -21070,7 +21051,6 @@ SRGB
 (
 false
 )
-false
 16
 format
 nullptr
@@ -22401,7 +22381,6 @@ SRGB
 (
 false
 )
-false
 16
 format
 nullptr
@@ -22561,7 +22540,6 @@ SRGB
 (
 false
 )
-false
 16
 format
 nullptr
@@ -24313,7 +24291,6 @@ SRGB
 (
 false
 )
-false
 16
 format
 nullptr
@@ -32058,7 +32035,6 @@ size
 xsize
 ysize
 color_encoding
-false
 16
 format
 nullptr
@@ -32860,7 +32836,6 @@ size
 xsize
 ysize
 color_encoding
-false
 16
 format
 nullptr

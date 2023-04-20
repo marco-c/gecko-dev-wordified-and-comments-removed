@@ -93,6 +93,8 @@ jxl
 namespace
 HWY_NAMESPACE
 {
+namespace
+{
 using
 hwy
 :
@@ -391,6 +393,7 @@ b
 }
 )
 {
+HWY_ALIGN
 float
 vals
 [
@@ -1281,6 +1284,7 @@ OpInvalid
 (
 )
 ;
+}
 }
 }
 }

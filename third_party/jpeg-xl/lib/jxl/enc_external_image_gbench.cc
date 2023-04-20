@@ -165,7 +165,6 @@ ColorEncoding
 SRGB
 (
 )
-false
 8
 format
 nullptr

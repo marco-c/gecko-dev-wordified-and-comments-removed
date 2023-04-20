@@ -20,6 +20,11 @@ string
 h
 >
 #
+include
+<
+algorithm
+>
+#
 undef
 HWY_TARGET_INCLUDE
 #

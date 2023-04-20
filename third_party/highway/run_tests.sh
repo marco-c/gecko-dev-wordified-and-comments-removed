@@ -149,7 +149,7 @@ build
 echo
 DEBUG
 Clang
-7
+9
 rm
 -
 rf
@@ -164,12 +164,12 @@ clang
 +
 +
 -
-7
+9
 CC
 =
 clang
 -
-7
+9
 cmake
 .
 .
@@ -332,9 +332,9 @@ build_32
 for
 VER
 in
-8
-9
 10
+11
+12
 ;
 do
 echo

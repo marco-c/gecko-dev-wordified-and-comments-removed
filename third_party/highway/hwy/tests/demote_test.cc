@@ -13,6 +13,11 @@ stdint
 h
 >
 #
+include
+<
+cmath
+>
+#
 undef
 HWY_TARGET_INCLUDE
 #

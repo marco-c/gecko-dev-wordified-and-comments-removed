@@ -728,6 +728,16 @@ vqsort_i64d
 cc
 "
 "
+vqsort_kv64a
+.
+cc
+"
+"
+vqsort_kv64d
+.
+cc
+"
+"
 vqsort_kv128a
 .
 cc

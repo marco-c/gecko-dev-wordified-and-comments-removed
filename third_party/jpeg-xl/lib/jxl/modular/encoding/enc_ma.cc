@@ -7569,6 +7569,9 @@ diff_samples
 .
 push_back
 (
+(
+int64_t
+)
 row
 [
 x

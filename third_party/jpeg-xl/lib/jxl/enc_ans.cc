@@ -533,6 +533,11 @@ total_histogram
 0
 )
 {
+(
+void
+)
+total_counts
+;
 JXL_ASSERT
 (
 total_counts

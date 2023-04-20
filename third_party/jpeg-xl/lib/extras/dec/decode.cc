@@ -672,6 +672,7 @@ DecodeImageJPG
 bytes
 color_hints
 constraints
+8
 ppf
 )
 )

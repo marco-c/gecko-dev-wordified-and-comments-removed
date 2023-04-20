@@ -93,6 +93,11 @@ string
 #
 include
 <
+utility
+>
+#
+include
+<
 vector
 >
 #
@@ -414,7 +419,7 @@ asm
 volatile
 (
 "
-rdcycle
+rdtime
 %
 0
 "

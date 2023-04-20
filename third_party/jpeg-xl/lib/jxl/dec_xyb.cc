@@ -1819,8 +1819,8 @@ if
 (
 !
 xyb_encoded
-|
-|
+&
+&
 !
 CanOutputToColorEncoding
 (

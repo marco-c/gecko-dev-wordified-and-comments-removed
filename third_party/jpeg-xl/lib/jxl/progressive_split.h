@@ -346,6 +346,11 @@ suitable_for_downsampling_of_at_least
 last_downsampling_factor
 )
 ;
+(
+void
+)
+last_downsampling_factor
+;
 if
 (
 p

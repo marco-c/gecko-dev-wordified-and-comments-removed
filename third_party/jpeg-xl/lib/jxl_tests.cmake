@@ -44,11 +44,6 @@ dec
 pgx_test
 .
 cc
-extras
-/
-decode_jpeg_test
-.
-cc
 jxl
 /
 ac_strategy_test
@@ -620,9 +615,9 @@ USE_LIBPNG
 \
 -
 s
-TOTAL_MEMORY
+ALLOW_MEMORY_GROWTH
 =
-1536MB
+1
 \
 -
 s

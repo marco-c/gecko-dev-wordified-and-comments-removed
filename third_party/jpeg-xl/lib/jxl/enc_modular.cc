@@ -5494,6 +5494,9 @@ max
 int64_t
 colors
 =
+(
+int64_t
+)
 max
 -
 min
@@ -10878,9 +10881,12 @@ min
 max
 )
 ;
-int
+int64_t
 colors
 =
+(
+int64_t
+)
 max
 -
 min
@@ -11159,6 +11165,12 @@ nb_rcts_to_try
 ;
 break
 ;
+case
+SpeedTier
+:
+:
+kGlacier
+:
 case
 SpeedTier
 :

@@ -120,18 +120,12 @@ LanesPerChunk
 (
 size_t
 sizeof_t
-size_t
-N
 )
 {
 return
-HWY_MAX
-(
 64
 /
 sizeof_t
-N
-)
 ;
 }
 static
@@ -156,7 +150,6 @@ return
 LanesPerChunk
 (
 sizeof_t
-N
 )
 +
 2

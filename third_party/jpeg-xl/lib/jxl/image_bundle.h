@@ -805,8 +805,6 @@ ImageF
 &
 &
 alpha
-bool
-alpha_is_premultiplied
 )
 ;
 bool

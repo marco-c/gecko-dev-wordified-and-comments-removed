@@ -93,6 +93,8 @@ jxl
 namespace
 HWY_NAMESPACE
 {
+namespace
+{
 using
 hwy
 :
@@ -1186,6 +1188,7 @@ encoding
 "
 )
 ;
+}
 }
 }
 }

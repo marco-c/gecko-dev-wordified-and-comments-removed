@@ -15,6 +15,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 bitset
 >
 #

@@ -1030,7 +1030,7 @@ HWY_NATIVE_FMA
 #
 define
 HWY_CAP_GE256
-0
+1
 #
 define
 HWY_CAP_GE512

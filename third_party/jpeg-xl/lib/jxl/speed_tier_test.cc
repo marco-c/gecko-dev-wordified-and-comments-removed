@@ -256,7 +256,10 @@ SpeedTierTestParams
 "
 <
 <
-SpeedTierName
+static_cast
+<
+size_t
+>
 (
 params
 .

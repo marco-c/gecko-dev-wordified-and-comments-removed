@@ -37,6 +37,11 @@ h
 #
 include
 <
+cmath
+>
+#
+include
+<
 memory
 >
 #
