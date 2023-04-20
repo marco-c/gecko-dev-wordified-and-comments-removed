@@ -1117,6 +1117,9 @@ BrOnCastFail
 RefAsStruct
 =
 0x59
+BrOnNonStruct
+=
+0x64
 ExternInternalize
 =
 0x70
