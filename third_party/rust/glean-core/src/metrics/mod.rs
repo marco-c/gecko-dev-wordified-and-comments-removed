@@ -449,6 +449,13 @@ pub
 sum
 :
 i64
+#
+[
+serde
+(
+skip
+)
+]
 pub
 count
 :
