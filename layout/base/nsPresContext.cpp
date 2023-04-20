@@ -5609,10 +5609,8 @@ aOffset
 )
 ;
 }
-already_AddRefed
-<
 nsIWidget
->
+*
 nsPresContext
 :
 :

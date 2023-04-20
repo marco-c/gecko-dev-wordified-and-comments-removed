@@ -2023,6 +2023,8 @@ GetPresShell
 )
 {
 return
+do_AddRef
+(
 presShell
 -
 >
@@ -2033,6 +2035,7 @@ GetViewManager
 >
 GetRootWidget
 (
+)
 )
 ;
 }

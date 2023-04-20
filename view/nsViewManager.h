@@ -477,13 +477,12 @@ DecrementDisableRefreshCount
 ;
 public
 :
-already_AddRefed
-<
 nsIWidget
->
+*
 GetRootWidget
 (
 )
+const
 ;
 void
 IsPainting
