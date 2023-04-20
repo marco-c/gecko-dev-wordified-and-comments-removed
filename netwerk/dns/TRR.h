@@ -83,7 +83,7 @@ h
 #
 include
 "
-nsITRRSkipReason
+TRRSkippedReason
 .
 h
 "

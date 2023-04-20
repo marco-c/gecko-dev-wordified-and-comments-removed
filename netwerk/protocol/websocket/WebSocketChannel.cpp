@@ -14318,10 +14318,7 @@ nsIDNSService
 :
 :
 RESOLVE_TYPE_DEFAULT
-nsIDNSService
-:
-:
-RESOLVE_DEFAULT_FLAGS
+0
 nullptr
 this
 main

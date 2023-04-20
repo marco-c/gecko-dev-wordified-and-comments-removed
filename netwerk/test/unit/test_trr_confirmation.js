@@ -4,6 +4,33 @@ strict
 "
 ;
 const
+dns
+=
+Cc
+[
+"
+mozilla
+.
+org
+/
+network
+/
+dns
+-
+service
+;
+1
+"
+]
+.
+getService
+(
+Ci
+.
+nsIDNSService
+)
+;
+const
 {
 TestUtils
 }
@@ -48,8 +75,6 @@ waitForCondition
 )
 =
 >
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -66,8 +91,6 @@ state
 .
 Currently
 {
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -78,8 +101,6 @@ msToWait
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -379,8 +400,6 @@ trigger15Failures
 (
 )
 {
-Services
-.
 dns
 .
 clearCache
@@ -566,8 +585,6 @@ MODE_NATIVEONLY
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -596,8 +613,6 @@ MODE_TRROFF
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -659,8 +674,6 @@ MODE_TRRONLY
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -707,8 +720,6 @@ MODE_TRRFIRST
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -726,8 +737,6 @@ confirm_ok
 (
 )
 {
-Services
-.
 dns
 .
 clearCache
@@ -871,8 +880,6 @@ MODE_TRRFIRST
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -982,8 +989,6 @@ MODE_TRRFIRST
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -1011,8 +1016,6 @@ resolve
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -1066,8 +1069,6 @@ MODE_NATIVEONLY
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -1102,8 +1103,6 @@ MODE_TRRFIRST
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -1162,8 +1161,6 @@ MODE_NATIVEONLY
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -1214,8 +1211,6 @@ MODE_TRRFIRST
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -1267,8 +1262,6 @@ MODE_NATIVEONLY
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -1303,8 +1296,6 @@ MODE_TRRFIRST
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -1353,8 +1344,6 @@ trigger15Failures
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -1452,8 +1441,6 @@ MODE_TRRFIRST
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -1518,8 +1505,6 @@ clear
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -1549,8 +1534,6 @@ captive
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -1645,8 +1628,6 @@ clear
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -1721,8 +1702,6 @@ NS
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -1752,8 +1731,6 @@ up
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -1821,8 +1798,6 @@ up
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -1892,8 +1867,6 @@ NS
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -1938,8 +1911,6 @@ changed
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState
@@ -2092,8 +2063,6 @@ NS
 "
 )
 ;
-Services
-.
 dns
 .
 setDetectedTrrURI
@@ -2123,8 +2092,6 @@ changed2
 ;
 equal
 (
-Services
-.
 dns
 .
 currentTrrConfirmationState

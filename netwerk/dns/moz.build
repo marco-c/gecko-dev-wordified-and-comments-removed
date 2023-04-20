@@ -72,11 +72,6 @@ nsINativeDNSResolverOverride
 idl
 "
 "
-nsITRRSkipReason
-.
-idl
-"
-"
 nsPIDNSService
 .
 idl

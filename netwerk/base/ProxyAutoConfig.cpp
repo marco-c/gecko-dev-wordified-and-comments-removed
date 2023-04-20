@@ -1163,10 +1163,7 @@ mMainThreadEventTarget
 OriginAttributes
 attrs
 ;
-nsIDNSService
-:
-:
-DNSFlags
+uint32_t
 flags
 =
 nsIDNSService
