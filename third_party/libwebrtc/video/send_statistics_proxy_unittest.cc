@@ -14992,16 +14992,6 @@ get
 RtcpPacketTypeCounter
 counters
 ;
-counters
-.
-first_packet_time_ms
-=
-fake_clock_
-.
-TimeInMilliseconds
-(
-)
-;
 proxy
 -
 >
