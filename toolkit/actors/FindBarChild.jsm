@@ -631,6 +631,7 @@ false
 }
 if
 (
+(
 win
 .
 HTMLIFrameElement
@@ -644,6 +645,17 @@ elt
 elt
 .
 mozbrowser
+)
+|
+|
+win
+.
+XULFrameElement
+.
+isInstance
+(
+elt
+)
 )
 {
 return

@@ -80,16 +80,6 @@ org
 searchbuttonlabel
 =
 Search
-search
--
-header
--
-shortcut
-=
-.
-key
-=
-f
 #
 #
 Variables
