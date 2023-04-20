@@ -145,7 +145,7 @@ true
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -156,7 +156,9 @@ specialpowers
 /
 SpecialPowersChild
 .
-jsm
+sys
+.
+mjs
 "
 observers
 :
@@ -184,7 +186,7 @@ created
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -195,7 +197,9 @@ specialpowers
 /
 SpecialPowersParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 }
@@ -212,7 +216,7 @@ AppTestDelegate
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -223,13 +227,15 @@ specialpowers
 /
 AppTestDelegateParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -240,7 +246,9 @@ specialpowers
 /
 AppTestDelegateChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :

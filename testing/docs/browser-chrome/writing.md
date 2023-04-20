@@ -1031,7 +1031,9 @@ being
 in
 BrowserTestUtils
 .
-jsm
+sys
+.
+mjs
 or
 if
 not

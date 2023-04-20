@@ -23753,17 +23753,6 @@ testing
 /
 mochitest
 /
-BrowserTestUtils
-/
-BrowserTestUtils
-.
-jsm
-"
-"
-testing
-/
-mochitest
-/
 chrome
 /
 test_sanityEventUtils

@@ -3344,16 +3344,6 @@ py
 -
 testing
 /
-specialpowers
-/
-content
-/
-SpecialPowersChild
-.
-jsm
--
-testing
-/
 talos
 /
 talos

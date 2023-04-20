@@ -45,7 +45,9 @@ test
 /
 import_module
 .
-jsm
+sys
+.
+mjs
 "
 ;
 let
@@ -53,7 +55,7 @@ exports
 =
 ChromeUtils
 .
-import
+importESModule
 (
 uri
 )

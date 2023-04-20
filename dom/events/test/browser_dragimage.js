@@ -117,16 +117,6 @@ body
 .
 lastElementChild
 ;
-const
-EventUtils
-=
-ContentTaskUtils
-.
-getEventUtils
-(
-content
-)
-;
 await
 EventUtils
 .

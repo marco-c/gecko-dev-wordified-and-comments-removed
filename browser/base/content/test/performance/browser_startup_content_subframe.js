@@ -331,7 +331,9 @@ common
 /
 BrowserTestUtilsChild
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -344,7 +346,9 @@ common
 /
 ContentEventListenerChild
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -355,7 +359,9 @@ specialpowers
 /
 SpecialPowersChild
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -366,7 +372,9 @@ specialpowers
 /
 AppTestDelegateChild
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -377,7 +385,9 @@ specialpowers
 /
 WrapPrivileged
 .
-jsm
+sys
+.
+mjs
 "
 ]
 )
