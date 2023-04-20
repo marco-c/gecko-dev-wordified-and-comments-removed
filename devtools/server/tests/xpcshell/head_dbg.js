@@ -15,7 +15,7 @@ appInfo
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -28,7 +28,9 @@ common
 /
 AppInfo
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -490,7 +492,7 @@ getAppInfo
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -503,7 +505,9 @@ common
 /
 AppInfo
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
