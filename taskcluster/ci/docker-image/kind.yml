@@ -1186,7 +1186,7 @@ webrender
 )
 parent
 :
-debian10
+debian11
 -
 base
 condprof
