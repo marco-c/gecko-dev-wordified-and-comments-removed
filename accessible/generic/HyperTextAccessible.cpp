@@ -2512,6 +2512,10 @@ PeekOffsetOption
 :
 :
 PreserveSpaces
+PeekOffsetOption
+:
+:
+AllowContentInDifferentNativeAnonymousSubtreeRoot
 }
 aWordMovementType
 )
