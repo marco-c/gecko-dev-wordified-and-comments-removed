@@ -61,10 +61,15 @@ color
 hsl_to_rgb
 hwb_to_rgb
 parse_color_keyword
+AbsoluteColor
 AngleOrNumber
 Color
 ColorComponentParser
+Lab
+Lch
 NumberOrPercentage
+Oklab
+Oklch
 RGBA
 }
 ;
