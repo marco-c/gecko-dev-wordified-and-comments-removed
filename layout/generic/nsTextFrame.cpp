@@ -49612,13 +49612,6 @@ nsTextFrame
 newFrame
 )
 ;
-nsFrameList
-temp
-(
-next
-next
-)
-;
 GetParent
 (
 )
@@ -49634,7 +49627,11 @@ aLineLayout
 GetLine
 (
 )
-temp
+nsFrameList
+(
+next
+next
+)
 )
 ;
 f

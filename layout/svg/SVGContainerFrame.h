@@ -195,7 +195,6 @@ aFrameList
 )
 override
 ;
-virtual
 void
 InsertFrames
 (
@@ -212,6 +211,7 @@ iterator
 *
 aPrevFrameLine
 nsFrameList
+&
 &
 aFrameList
 )
@@ -362,7 +362,6 @@ NS_DECL_ABSTRACT_FRAME
 (
 SVGDisplayContainerFrame
 )
-virtual
 void
 InsertFrames
 (
@@ -379,6 +378,7 @@ iterator
 *
 aPrevFrameLine
 nsFrameList
+&
 &
 aFrameList
 )

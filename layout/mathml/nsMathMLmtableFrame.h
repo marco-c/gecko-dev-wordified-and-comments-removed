@@ -275,7 +275,6 @@ RestyleTable
 )
 ;
 }
-virtual
 void
 InsertFrames
 (
@@ -293,6 +292,7 @@ iterator
 aPrevFrameLine
 nsFrameList
 &
+&
 aFrameList
 )
 override
@@ -305,7 +305,13 @@ InsertFrames
 aListID
 aPrevFrame
 aPrevFrameLine
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 RestyleTable
@@ -621,7 +627,6 @@ RestyleTable
 )
 ;
 }
-virtual
 void
 InsertFrames
 (
@@ -639,6 +644,7 @@ iterator
 aPrevFrameLine
 nsFrameList
 &
+&
 aFrameList
 )
 override
@@ -651,7 +657,13 @@ InsertFrames
 aListID
 aPrevFrame
 aPrevFrameLine
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 RestyleTable

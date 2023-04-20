@@ -3597,6 +3597,7 @@ iterator
 aPrevFrameLine
 nsFrameList
 &
+&
 aFrameList
 )
 final
@@ -5972,6 +5973,7 @@ iterator
 *
 aPrevFrameLine
 nsFrameList
+&
 &
 aFrameList
 )

@@ -1641,13 +1641,6 @@ continuation
 )
 ;
 }
-nsFrameList
-temp
-(
-continuation
-continuation
-)
-;
 parent
 -
 >
@@ -1656,7 +1649,11 @@ InsertFrames
 kNoReflowPrincipalList
 placeholderFrame
 nullptr
-temp
+nsFrameList
+(
+continuation
+continuation
+)
 )
 ;
 *
