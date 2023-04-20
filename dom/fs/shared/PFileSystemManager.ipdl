@@ -63,6 +63,9 @@ PFileSystemAccessHandle
 include
 IPCBlob
 ;
+include
+RandomAccessStreamParams
+;
 using
 mozilla
 :
@@ -587,8 +590,8 @@ entryId
 struct
 FileSystemAccessHandleProperties
 {
-FileDescriptor
-fileDescriptor
+RandomAccessStreamParams
+streamParams
 ;
 PFileSystemAccessHandle
 accessHandle
