@@ -106,10 +106,6 @@ fno
 short
 -
 enums
--
-fno
--
-exceptions
 CFLAGS
 "
 CXXFLAGS
@@ -121,10 +117,6 @@ fno
 short
 -
 enums
--
-fno
--
-exceptions
 CXXFLAGS
 stlport_cppflags
 "
