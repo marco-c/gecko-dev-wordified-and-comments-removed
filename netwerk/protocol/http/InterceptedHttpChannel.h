@@ -181,6 +181,12 @@ bool
 >
 mCallingStatusAndProgress
 ;
+bool
+mInterceptionReset
+{
+false
+}
+;
 class
 InterceptionTimeStamps
 final
