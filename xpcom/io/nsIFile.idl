@@ -370,6 +370,14 @@ permissionsOfLink
 ;
 attribute
 PRTime
+lastAccessedTime
+;
+attribute
+PRTime
+lastAccessedTimeOfLink
+;
+attribute
+PRTime
 lastModifiedTime
 ;
 attribute
