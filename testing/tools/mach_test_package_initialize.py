@@ -135,6 +135,12 @@ mozscreenshot
 "
 mozbase
 /
+mozserve
+"
+    
+"
+mozbase
+/
 mozsystemmonitor
 "
     

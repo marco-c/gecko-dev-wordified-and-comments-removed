@@ -756,6 +756,14 @@ self
 .
 options
 .
+http3ServerPath
+=
+None
+        
+self
+.
+options
+.
 keep_open
 =
 False
