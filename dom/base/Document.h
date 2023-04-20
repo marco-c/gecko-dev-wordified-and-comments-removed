@@ -10929,12 +10929,6 @@ ResetUserInteractionTimer
 (
 )
 ;
-DocumentAutoplayPolicy
-AutoplayPolicy
-(
-)
-const
-;
 void
 NotifyUserGestureActivation
 (
