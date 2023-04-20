@@ -6009,6 +6009,9 @@ privatebrowsingmode
 =
 temporary
 ]
+[
+firefoxviewhidden
+]
 )
 :
 is
@@ -6028,6 +6031,13 @@ privatebrowsingmode
 =
 temporary
 ]
+:
+not
+(
+[
+firefoxviewhidden
+]
+)
 :
 is
 (
