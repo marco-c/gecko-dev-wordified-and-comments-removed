@@ -377,7 +377,7 @@ ice_pwd
 override
 ;
 void
-AddTurnServer
+AddTurnServerForTesting
 (
 const
 RelayServerConfig
@@ -1769,7 +1769,7 @@ Stop
 (
 )
 ;
-protected
+private
 :
 void
 CreateTurnPort
@@ -1778,10 +1778,10 @@ const
 RelayServerConfig
 &
 config
+int
+relative_priority
 )
 ;
-private
-:
 typedef
 std
 :

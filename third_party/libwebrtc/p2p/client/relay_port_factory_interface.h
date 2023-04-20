@@ -138,6 +138,11 @@ field_trials
 =
 nullptr
 ;
+int
+relative_priority
+=
+0
+;
 }
 ;
 class

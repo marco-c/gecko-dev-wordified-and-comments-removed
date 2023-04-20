@@ -482,14 +482,6 @@ credentials
 o
 .
 credentials
-&
-&
-priority
-=
-=
-o
-.
-priority
 ;
 }
 bool
@@ -520,11 +512,6 @@ ports
 ;
 RelayCredentials
 credentials
-;
-int
-priority
-=
-0
 ;
 TlsCertPolicy
 tls_cert_policy
