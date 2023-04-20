@@ -311,11 +311,13 @@ response
 )
 :
     
+def
 payload_generator
-=
-lambda
+(
 _
+)
 :
+return
 generate_payload
 (
 request
@@ -371,7 +373,6 @@ get_csp_value
 (
 csp
 )
-;
     
 subresource
 .
