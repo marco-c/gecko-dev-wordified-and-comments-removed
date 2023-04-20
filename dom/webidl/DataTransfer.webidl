@@ -1100,6 +1100,9 @@ mozSourceNode
 *
 *
 The
+top
+-
+level
 window
 context
 that
@@ -1112,8 +1115,8 @@ begin
 the
 drag
 .
-For
 *
+For
 external
 drags
 this
@@ -1130,7 +1133,7 @@ readonly
 attribute
 WindowContext
 ?
-sourceWindowContext
+sourceTopWindowContext
 ;
 /
 *

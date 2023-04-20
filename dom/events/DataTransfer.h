@@ -792,7 +792,7 @@ already_AddRefed
 <
 WindowContext
 >
-GetSourceWindowContext
+GetSourceTopWindowContext
 (
 )
 ;

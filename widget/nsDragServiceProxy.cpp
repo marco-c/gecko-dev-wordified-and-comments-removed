@@ -299,6 +299,19 @@ GetWindowContext
 (
 )
 ;
+mSourceTopWindowContext
+=
+mSourceWindowContext
+?
+mSourceWindowContext
+-
+>
+TopWindowContext
+(
+)
+:
+nullptr
+;
 }
 nsCOMPtr
 <
@@ -489,6 +502,7 @@ principal
 csp
 csArgs
 mSourceWindowContext
+mSourceTopWindowContext
 )
 ;
 StartDragSession
@@ -536,6 +550,7 @@ principal
 csp
 csArgs
 mSourceWindowContext
+mSourceTopWindowContext
 )
 ;
 StartDragSession

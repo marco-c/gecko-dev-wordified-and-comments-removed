@@ -18880,6 +18880,13 @@ WindowContext
 >
 &
 aSourceWindowContext
+const
+MaybeDiscarded
+<
+WindowContext
+>
+&
+aSourceTopWindowContext
 )
 {
 PresShell
@@ -18985,6 +18992,11 @@ aPrincipal
 aCsp
 cookieJarSettings
 aSourceWindowContext
+.
+GetMaybeDiscarded
+(
+)
+aSourceTopWindowContext
 .
 GetMaybeDiscarded
 (

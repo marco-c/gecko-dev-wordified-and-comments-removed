@@ -4667,7 +4667,9 @@ async
 InvokeDragSession
 (
 MaybeDiscardedWindowContext
-aContext
+aSourceWindowContext
+MaybeDiscardedWindowContext
+aSourceTopWindowContext
 IPCDataTransfer
 [
 ]

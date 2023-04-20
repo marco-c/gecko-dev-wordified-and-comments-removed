@@ -2341,6 +2341,8 @@ CookieJarSettingsArgs
 cookieJarSettings
 MaybeDiscardedWindowContext
 sourceWindowContext
+MaybeDiscardedWindowContext
+sourceTopWindowContext
 )
 ;
 sync

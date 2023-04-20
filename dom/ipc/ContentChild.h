@@ -2257,6 +2257,13 @@ WindowContext
 >
 &
 aSourceWindowContext
+const
+MaybeDiscarded
+<
+WindowContext
+>
+&
+aSourceTopWindowContext
 nsTArray
 <
 IPCDataTransfer
