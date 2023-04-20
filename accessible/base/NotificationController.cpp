@@ -4959,7 +4959,10 @@ parentIPCDoc
 >
 SendBindChildDoc
 (
+WrapNotNull
+(
 ipcDoc
+)
 id
 )
 ;

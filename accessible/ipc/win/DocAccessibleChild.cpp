@@ -1519,8 +1519,11 @@ DocAccessibleChild
 :
 SendBindChildDoc
 (
+NotNull
+<
 DocAccessibleChild
 *
+>
 aChildDoc
 const
 uint64_t

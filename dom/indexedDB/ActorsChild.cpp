@@ -3956,8 +3956,11 @@ const
 DatabaseSpec
 &
 aSpec
+NotNull
+<
 PBackgroundIDBFactoryRequestChild
 *
+>
 aRequest
 )
 {
@@ -4246,6 +4249,10 @@ database
 )
 .
 AsChild
+(
+)
+.
+get
 (
 )
 )

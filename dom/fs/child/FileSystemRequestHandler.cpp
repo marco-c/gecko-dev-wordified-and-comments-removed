@@ -1483,6 +1483,10 @@ writableFileStream
 AsChild
 (
 )
+.
+get
+(
+)
 )
 ;
 mozilla

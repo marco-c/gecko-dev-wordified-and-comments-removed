@@ -595,6 +595,10 @@ transWithPushedStream
 AsChild
 (
 )
+.
+get
+(
+)
 )
 ;
 transWithPushedStream

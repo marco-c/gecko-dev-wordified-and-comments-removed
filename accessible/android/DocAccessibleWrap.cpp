@@ -821,6 +821,8 @@ BatchData
 (
 OriginDocument
 (
+WrapNotNull
+(
 accessible
 -
 >
@@ -831,6 +833,7 @@ Document
 >
 IPCDoc
 (
+)
 )
 )
 UNIQUE_ID
@@ -1122,12 +1125,18 @@ GetPlatformExtension
 >
 SendSetPivotBoundaries
 (
+WrapNotNull
+(
 firstDoc
+)
 UNIQUE_ID
 (
 first
 )
+WrapNotNull
+(
 lastDoc
+)
 UNIQUE_ID
 (
 last
@@ -1552,6 +1561,8 @@ BatchData
 (
 OriginDocument
 (
+WrapNotNull
+(
 acc
 -
 >
@@ -1562,6 +1573,7 @@ Document
 >
 IPCDoc
 (
+)
 )
 )
 UNIQUE_ID
@@ -1870,6 +1882,8 @@ BatchData
 (
 OriginDocument
 (
+WrapNotNull
+(
 accessible
 -
 >
@@ -1880,6 +1894,7 @@ Document
 >
 IPCDoc
 (
+)
 )
 )
 UNIQUE_ID
