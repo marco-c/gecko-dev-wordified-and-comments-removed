@@ -2511,8 +2511,6 @@ sandbox
 .
 stub
 (
-global
-.
 AppConstants
 "
 isChinaRepack
@@ -2591,8 +2589,6 @@ sandbox
 .
 stub
 (
-global
-.
 AppConstants
 "
 isChinaRepack
@@ -2981,8 +2977,6 @@ sandbox
 .
 stub
 (
-global
-.
 AppConstants
 "
 isPlatformAndVersionAtMost
@@ -3104,8 +3098,6 @@ sandbox
 .
 stub
 (
-global
-.
 AppConstants
 "
 isPlatformAndVersionAtMost

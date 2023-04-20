@@ -12551,8 +12551,6 @@ sandbox
 .
 stub
 (
-global
-.
 AppConstants
 "
 platform

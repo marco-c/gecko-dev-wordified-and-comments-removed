@@ -1719,8 +1719,6 @@ sandbox
 .
 stub
 (
-global
-.
 fxAccounts
 "
 listAttachedOAuthClients
@@ -1805,8 +1803,6 @@ assert
 .
 calledOnce
 (
-global
-.
 fxAccounts
 .
 listAttachedOAuthClients
@@ -1830,8 +1826,6 @@ assert
 .
 calledTwice
 (
-global
-.
 fxAccounts
 .
 listAttachedOAuthClients
@@ -1876,8 +1870,6 @@ assert
 .
 calledOnce
 (
-global
-.
 fxAccounts
 .
 listAttachedOAuthClients
@@ -1894,8 +1886,6 @@ assert
 .
 calledOnce
 (
-global
-.
 fxAccounts
 .
 listAttachedOAuthClients
