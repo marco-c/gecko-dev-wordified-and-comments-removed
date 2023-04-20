@@ -1398,6 +1398,7 @@ if
 (
 authorsPathLengthEstimate
 >
+=
 0
 )
 {
