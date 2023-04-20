@@ -202,7 +202,7 @@ PAGE_2
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 PAGE_2

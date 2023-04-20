@@ -850,7 +850,7 @@ focus
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 bg
 test
@@ -868,7 +868,7 @@ bg
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 fg
 test
@@ -1184,7 +1184,7 @@ focusedElement
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 bg
 "
@@ -1204,7 +1204,7 @@ bg
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 fg
 "
@@ -1224,7 +1224,7 @@ fg
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 bg
 test
@@ -1242,7 +1242,7 @@ bg
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 fg
 test

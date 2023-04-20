@@ -455,7 +455,7 @@ on_new_message
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

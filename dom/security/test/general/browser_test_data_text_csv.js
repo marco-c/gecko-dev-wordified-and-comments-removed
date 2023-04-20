@@ -271,7 +271,7 @@ xhtml
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 kTestURI
@@ -440,7 +440,7 @@ enabled
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 kTestURI

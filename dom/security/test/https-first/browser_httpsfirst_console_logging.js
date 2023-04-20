@@ -136,7 +136,7 @@ on_new_message
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

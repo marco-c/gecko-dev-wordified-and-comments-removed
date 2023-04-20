@@ -182,7 +182,7 @@ onXFOMessage
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 kTestXFOEmbedURI
@@ -254,7 +254,7 @@ onXFOMessage
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 kTestXFOObjectURI

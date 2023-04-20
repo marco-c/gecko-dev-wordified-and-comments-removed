@@ -460,7 +460,7 @@ request
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TEST_PATH

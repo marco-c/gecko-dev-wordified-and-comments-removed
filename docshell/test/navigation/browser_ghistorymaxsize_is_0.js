@@ -280,7 +280,7 @@ max_entries
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 URL2

@@ -173,7 +173,7 @@ aUrl
 {
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 aTab
 .

@@ -583,7 +583,7 @@ listener
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 URL

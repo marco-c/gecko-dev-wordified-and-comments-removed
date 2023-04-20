@@ -1222,7 +1222,7 @@ NAV_URI
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 TestWindow
 .

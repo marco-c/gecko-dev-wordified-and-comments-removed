@@ -285,7 +285,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 REQUEST_URL

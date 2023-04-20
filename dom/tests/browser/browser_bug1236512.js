@@ -349,7 +349,7 @@ testPageURL
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browserTest
 .

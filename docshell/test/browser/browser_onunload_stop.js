@@ -125,7 +125,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 TEST_PAGE_2

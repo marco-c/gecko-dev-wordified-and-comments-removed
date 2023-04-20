@@ -78,7 +78,7 @@ response
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .
@@ -202,7 +202,7 @@ sjs
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .
@@ -304,7 +304,7 @@ response
 await
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 gBrowser
 .

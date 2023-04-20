@@ -60,7 +60,7 @@ origin
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

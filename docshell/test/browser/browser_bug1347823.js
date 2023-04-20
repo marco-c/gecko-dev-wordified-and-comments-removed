@@ -97,7 +97,7 @@ modified
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -281,7 +281,7 @@ modified
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "

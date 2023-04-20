@@ -92,7 +92,7 @@ true
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 tab
 .

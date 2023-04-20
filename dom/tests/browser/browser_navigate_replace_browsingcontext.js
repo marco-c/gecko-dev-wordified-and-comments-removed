@@ -30,7 +30,7 @@ browsingContext
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
@@ -120,7 +120,7 @@ browsingContext
 ;
 BrowserTestUtils
 .
-loadURI
+loadURIString
 (
 browser
 "
