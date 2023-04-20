@@ -1111,6 +1111,12 @@ isMatch
 }
 }
 return
+FastEquals
+(
+aOther
+)
+|
+|
 aOther
 -
 >
