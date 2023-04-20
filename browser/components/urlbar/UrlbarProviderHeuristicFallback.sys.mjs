@@ -1005,7 +1005,7 @@ queryContext
 .
 tokens
 {
-title
+fallbackTitle
 :
 [
 searchUrl
@@ -1572,7 +1572,7 @@ queryContext
 .
 tokens
 {
-title
+fallbackTitle
 :
 [
 displayURL

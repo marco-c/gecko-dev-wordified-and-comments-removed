@@ -208,6 +208,13 @@ sys
 mjs
 "
 "
+UrlbarProviderHistoryUrlHeuristic
+.
+sys
+.
+mjs
+"
+"
 UrlbarProviderInputHistory
 .
 sys

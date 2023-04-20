@@ -4020,6 +4020,17 @@ UrlbarUtils
 .
 RESULT_GROUP
 .
+HEURISTIC_HISTORY_URL
+}
+{
+group
+:
+lazy
+.
+UrlbarUtils
+.
+RESULT_GROUP
+.
 HEURISTIC_FALLBACK
 }
 ]
