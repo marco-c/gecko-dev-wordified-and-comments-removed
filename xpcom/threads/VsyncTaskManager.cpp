@@ -55,16 +55,6 @@ WillRunTask
 (
 )
 ;
-if
-(
-StaticPrefs
-:
-:
-dom_input_events_strict_input_vsync_alignment
-(
-)
-)
-{
 InputTaskManager
 :
 :
@@ -77,7 +67,6 @@ NotifyVsync
 (
 )
 ;
-}
 }
 ;
 }
