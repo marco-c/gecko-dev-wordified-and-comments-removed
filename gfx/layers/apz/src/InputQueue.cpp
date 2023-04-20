@@ -2201,7 +2201,6 @@ result
 .
 SetStatusAsConsumeDoDefault
 (
-aTarget
 )
 ;
 if

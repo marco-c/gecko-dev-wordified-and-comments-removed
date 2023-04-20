@@ -295,6 +295,16 @@ aTarget
 void
 SetStatusAsConsumeDoDefault
 (
+)
+{
+mStatus
+=
+nsEventStatus_eConsumeDoDefault
+;
+}
+void
+SetStatusAsConsumeDoDefault
+(
 const
 InputBlockState
 &
