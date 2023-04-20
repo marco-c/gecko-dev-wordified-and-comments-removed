@@ -1508,6 +1508,10 @@ mktemp
 curl
 -
 fL
+-
+-
+retry
+5
 "
 {
 file
