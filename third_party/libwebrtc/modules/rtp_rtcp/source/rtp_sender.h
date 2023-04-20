@@ -921,10 +921,6 @@ uint32_t
 >
 flexfec_ssrc_
 ;
-const
-double
-max_padding_size_factor_
-;
 RtpPacketHistory
 *
 const
