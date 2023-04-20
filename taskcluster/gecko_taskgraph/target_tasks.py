@@ -1,5 +1,5 @@
 import
-copy
+itertools
 import
 os
 import
@@ -652,17 +652,11 @@ optional_filters
         
 filters
 =
-copy
+itertools
 .
-deepcopy
+chain
 (
 filters
-)
-        
-filters
-.
-extend
-(
 optional_filters
 )
     
@@ -680,7 +674,7 @@ task
 for
 pattern
 in
-UNCOMMON_TRY_TASK_LABELS
+filters
 )
 def
 filter_by_regex
