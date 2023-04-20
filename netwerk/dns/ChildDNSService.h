@@ -119,7 +119,7 @@ aTRRDomain
 )
 ;
 void
-GetTRRDomain
+GetTRRDomainKey
 (
 nsACString
 &
