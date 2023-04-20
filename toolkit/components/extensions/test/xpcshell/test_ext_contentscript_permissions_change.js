@@ -190,7 +190,7 @@ manifest
 manifest_version
 :
 3
-applications
+browser_specific_settings
 :
 {
 gecko

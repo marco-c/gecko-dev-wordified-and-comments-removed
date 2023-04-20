@@ -86,7 +86,7 @@ name
 Incompatible
 Addon
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -129,7 +129,7 @@ Test
 Bootstrap
 1
 "
-applications
+browser_specific_settings
 :
 {
 gecko

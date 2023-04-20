@@ -125,7 +125,7 @@ createTempWebExtensionFile
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -149,7 +149,7 @@ createTempWebExtensionFile
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

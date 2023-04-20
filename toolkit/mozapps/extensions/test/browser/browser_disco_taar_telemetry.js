@@ -670,7 +670,7 @@ disco
 taar
 telemetry
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -750,7 +750,7 @@ disco
 taar
 telemetry
 "
-applications
+browser_specific_settings
 :
 {
 gecko

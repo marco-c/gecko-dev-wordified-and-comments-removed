@@ -69,7 +69,7 @@ installBuiltinExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -669,7 +669,7 @@ installBuiltinExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -729,7 +729,7 @@ setupBuiltinExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

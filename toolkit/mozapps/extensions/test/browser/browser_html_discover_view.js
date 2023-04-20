@@ -2001,7 +2001,7 @@ extension
 install
 button
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2063,7 +2063,7 @@ theme
 install
 button
 "
-applications
+browser_specific_settings
 :
 {
 gecko

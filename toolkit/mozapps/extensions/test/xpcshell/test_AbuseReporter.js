@@ -604,7 +604,7 @@ extOptions
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2281,7 +2281,7 @@ installTestExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3265,7 +3265,7 @@ generateString
 (
 400
 )
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3506,7 +3506,7 @@ non
 recommended
 addon
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3542,7 +3542,7 @@ Fake
 recommended
 addon
 "
-applications
+browser_specific_settings
 :
 {
 gecko

@@ -127,7 +127,7 @@ name
 Monochromatic
 Theme
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -754,7 +754,7 @@ name
 Monochromatic
 Theme
 "
-applications
+browser_specific_settings
 :
 {
 gecko

@@ -739,7 +739,7 @@ manifest
 version
 :
 UNSIGNED_ADDON_VERSION
-applications
+browser_specific_settings
 :
 {
 gecko

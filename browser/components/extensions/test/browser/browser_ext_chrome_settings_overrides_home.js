@@ -1407,7 +1407,7 @@ loadExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2363,7 +2363,7 @@ ext1
 html
 "
 }
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3454,7 +3454,7 @@ name
 private
 extension
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3904,7 +3904,7 @@ name
 homepage
 provider
 "
-applications
+browser_specific_settings
 :
 {
 gecko

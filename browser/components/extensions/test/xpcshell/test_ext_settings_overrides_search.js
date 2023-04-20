@@ -776,7 +776,7 @@ searchTerms
 "
 }
 }
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -908,7 +908,7 @@ searchTerms
 "
 }
 }
-applications
+browser_specific_settings
 :
 {
 gecko

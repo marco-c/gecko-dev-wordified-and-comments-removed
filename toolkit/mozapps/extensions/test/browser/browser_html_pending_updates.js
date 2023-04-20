@@ -308,7 +308,7 @@ Test
 Pending
 Update
 "
-applications
+browser_specific_settings
 :
 {
 gecko

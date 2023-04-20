@@ -182,7 +182,7 @@ background
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -821,7 +821,7 @@ temporary
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2321,7 +2321,7 @@ background
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2606,7 +2606,7 @@ background
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3289,7 +3289,7 @@ manifest
 :
 {
 version
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3514,7 +3514,7 @@ permanent
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

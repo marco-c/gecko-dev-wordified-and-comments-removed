@@ -259,7 +259,7 @@ manifest
 extensionOptions
 .
 manifest
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -295,7 +295,7 @@ manifest
 extensionOptions
 .
 manifest
-applications
+browser_specific_settings
 :
 {
 gecko

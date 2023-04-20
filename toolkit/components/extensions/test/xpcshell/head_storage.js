@@ -671,7 +671,7 @@ loadExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -4200,7 +4200,7 @@ permissions
 storage
 "
 ]
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -4862,7 +4862,7 @@ permissions
 storage
 "
 ]
-applications
+browser_specific_settings
 :
 {
 gecko

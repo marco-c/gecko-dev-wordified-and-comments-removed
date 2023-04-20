@@ -766,7 +766,7 @@ testTab
 }
 let
 useAddonManager
-applications
+browser_specific_settings
 ;
 const
 action
@@ -790,7 +790,7 @@ manifest_version
 2
 )
 {
-applications
+browser_specific_settings
 =
 {
 gecko
@@ -837,7 +837,7 @@ manifest
 :
 {
 manifest_version
-applications
+browser_specific_settings
 page_action
 :
 {

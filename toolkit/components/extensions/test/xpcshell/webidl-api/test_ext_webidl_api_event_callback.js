@@ -2305,7 +2305,7 @@ sw
 js
 "
 }
-applications
+browser_specific_settings
 :
 {
 gecko

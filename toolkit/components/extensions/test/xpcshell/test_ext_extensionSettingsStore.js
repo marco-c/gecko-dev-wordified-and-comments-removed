@@ -261,7 +261,7 @@ temporary
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -290,7 +290,7 @@ temporary
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -319,7 +319,7 @@ temporary
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3014,7 +3014,7 @@ temporary
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3043,7 +3043,7 @@ temporary
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3292,7 +3292,7 @@ temporary
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3874,7 +3874,7 @@ temporary
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -4164,7 +4164,7 @@ temporary
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -4401,7 +4401,7 @@ temporary
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -4430,7 +4430,7 @@ temporary
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

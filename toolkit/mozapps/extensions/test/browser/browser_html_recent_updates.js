@@ -949,7 +949,7 @@ name
 New
 extension
 "
-applications
+browser_specific_settings
 :
 {
 gecko

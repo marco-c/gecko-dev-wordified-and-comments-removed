@@ -68,7 +68,7 @@ name
 Prefs
 extension
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -716,7 +716,7 @@ No
 Prefs
 extension
 "
-applications
+browser_specific_settings
 :
 {
 gecko

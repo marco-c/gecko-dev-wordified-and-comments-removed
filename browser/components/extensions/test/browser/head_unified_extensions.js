@@ -589,7 +589,7 @@ extension
 -
 name
 "
-applications
+browser_specific_settings
 :
 {
 gecko

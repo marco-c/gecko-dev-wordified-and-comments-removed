@@ -289,7 +289,7 @@ n
 }
 .
 0
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -882,7 +882,7 @@ Test
 version
 :
 newversion
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1395,7 +1395,7 @@ WebExtension
 temporary
 )
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1516,7 +1516,7 @@ WebExtension
 temporary
 )
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1616,7 +1616,7 @@ promiseInstallWebExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1696,7 +1696,7 @@ generateFiles
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2142,7 +2142,7 @@ generateFiles
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2193,7 +2193,7 @@ generateFiles
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2419,7 +2419,7 @@ generateFiles
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2470,7 +2470,7 @@ generateFiles
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2689,7 +2689,7 @@ generateFiles
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3078,7 +3078,7 @@ generateFiles
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

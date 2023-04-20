@@ -157,7 +157,7 @@ permissions
 unlimitedStorage
 "
 ]
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -533,7 +533,7 @@ unlimitedStorage
 storage
 "
 ]
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -666,7 +666,7 @@ permissions
 storage
 "
 ]
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -834,7 +834,7 @@ permissions
 unlimitedStorage
 "
 ]
-applications
+browser_specific_settings
 :
 {
 gecko

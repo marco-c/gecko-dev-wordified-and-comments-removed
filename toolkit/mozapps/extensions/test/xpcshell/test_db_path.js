@@ -179,7 +179,7 @@ ID1
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -221,7 +221,7 @@ ID2
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

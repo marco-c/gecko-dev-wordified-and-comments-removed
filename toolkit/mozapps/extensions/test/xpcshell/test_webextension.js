@@ -59,7 +59,7 @@ version
 manifest_version
 :
 2
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -159,7 +159,7 @@ default_locale
 "
 en
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -743,7 +743,7 @@ version
 manifest_version
 :
 2
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1026,7 +1026,7 @@ Name
 manifest_version
 :
 2
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1121,7 +1121,7 @@ version
 manifest_version
 :
 1
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1287,7 +1287,7 @@ promiseInstallWebExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1383,7 +1383,7 @@ promiseInstallWebExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1482,7 +1482,7 @@ promiseInstallWebExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1933,7 +1933,7 @@ homepage_url
 :
 homepageURL
 developer
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2301,7 +2301,7 @@ WebExtension
 temporary
 )
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2386,7 +2386,7 @@ WebExtension
 temporary
 )
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2722,7 +2722,7 @@ be
 .
 overridden
 "
-applications
+browser_specific_settings
 :
 {
 gecko

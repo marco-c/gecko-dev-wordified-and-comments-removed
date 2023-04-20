@@ -191,7 +191,7 @@ options
 html
 "
 }
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -235,7 +235,7 @@ theme
 :
 {
 }
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -290,7 +290,7 @@ theme
 :
 {
 }
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -338,7 +338,7 @@ addon
 .
 manifest
 .
-applications
+browser_specific_settings
 .
 gecko
 .

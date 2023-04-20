@@ -247,7 +247,7 @@ manifest
 {
 name
 version
-applications
+browser_specific_settings
 :
 {
 gecko

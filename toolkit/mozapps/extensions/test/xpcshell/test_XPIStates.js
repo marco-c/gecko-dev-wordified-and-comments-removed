@@ -66,7 +66,7 @@ promiseInstallWebExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -95,7 +95,7 @@ promiseInstallWebExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -594,7 +594,7 @@ promiseInstallWebExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

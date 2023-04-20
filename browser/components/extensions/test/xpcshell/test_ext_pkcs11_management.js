@@ -1810,7 +1810,7 @@ permissions
 pkcs11
 "
 ]
-applications
+browser_specific_settings
 :
 {
 gecko

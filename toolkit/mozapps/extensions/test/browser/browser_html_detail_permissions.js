@@ -161,7 +161,7 @@ add
 on
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -221,7 +221,7 @@ add
 on
 1
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -305,7 +305,7 @@ add
 on
 2
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -387,7 +387,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -456,7 +456,7 @@ add
 on
 4
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -516,7 +516,7 @@ add
 on
 5
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -582,7 +582,7 @@ add
 on
 6
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -689,7 +689,7 @@ add
 on
 7
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -766,7 +766,7 @@ add
 on
 8
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -843,7 +843,7 @@ add
 on
 6
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3233,7 +3233,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3477,7 +3477,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko

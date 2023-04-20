@@ -106,7 +106,7 @@ permissions
 mozillaAddons
 "
 ]
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -167,7 +167,7 @@ permissions
 mozillaAddons
 "
 ]
-applications
+browser_specific_settings
 :
 {
 gecko

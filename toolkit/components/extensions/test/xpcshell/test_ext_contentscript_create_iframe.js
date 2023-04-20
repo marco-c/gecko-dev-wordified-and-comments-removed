@@ -156,7 +156,7 @@ windows
 ;
 let
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -179,7 +179,7 @@ getManifest
 ;
 let
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -220,7 +220,7 @@ iframe
 ;
 let
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -406,7 +406,7 @@ extensionData
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

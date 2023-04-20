@@ -252,7 +252,7 @@ name
 Test
 extension
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -344,7 +344,7 @@ name
 Test
 extension
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1079,7 +1079,7 @@ Test
 extension
 2
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1359,7 +1359,7 @@ name
 My
 theme
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1420,7 +1420,7 @@ Test
 extension
 3
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1889,7 +1889,7 @@ name
 Test
 extension
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2110,7 +2110,7 @@ name
 Test
 extension
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -2857,7 +2857,7 @@ name
 Detail
 extension
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -3596,7 +3596,7 @@ loadExtension
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -5041,7 +5041,7 @@ name
 Test
 extension
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -5309,7 +5309,7 @@ name
 Test
 extension
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -5851,7 +5851,7 @@ name
 Disable
 me
 "
-applications
+browser_specific_settings
 :
 {
 gecko

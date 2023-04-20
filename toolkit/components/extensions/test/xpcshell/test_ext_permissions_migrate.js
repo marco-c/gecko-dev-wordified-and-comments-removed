@@ -163,7 +163,7 @@ version
 .
 0
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -612,7 +612,7 @@ false
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -946,7 +946,7 @@ done
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1193,7 +1193,7 @@ extData
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -1365,7 +1365,7 @@ upgrade
 manifest
 :
 {
-applications
+browser_specific_settings
 :
 {
 gecko

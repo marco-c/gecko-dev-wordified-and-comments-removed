@@ -456,7 +456,7 @@ name
 Test
 Extension
 "
-applications
+browser_specific_settings
 :
 {
 gecko

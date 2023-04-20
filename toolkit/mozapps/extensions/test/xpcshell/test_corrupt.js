@@ -66,7 +66,7 @@ name
 Test
 3
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -141,7 +141,7 @@ name
 Test
 4
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -223,7 +223,7 @@ name
 Test
 5
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -278,7 +278,7 @@ name
 Test
 7
 "
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -365,7 +365,7 @@ png
 "
 }
 }
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -445,7 +445,7 @@ png
 "
 }
 }
-applications
+browser_specific_settings
 :
 {
 gecko

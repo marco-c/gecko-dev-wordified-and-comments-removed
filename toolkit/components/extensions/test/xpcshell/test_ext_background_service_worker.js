@@ -236,7 +236,7 @@ sw
 js
 "
 }
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -996,7 +996,7 @@ sw
 js
 "
 }
-applications
+browser_specific_settings
 :
 {
 gecko

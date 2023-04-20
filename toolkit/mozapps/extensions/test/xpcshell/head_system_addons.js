@@ -654,7 +654,7 @@ on
 num
 }
 version
-applications
+browser_specific_settings
 :
 {
 gecko

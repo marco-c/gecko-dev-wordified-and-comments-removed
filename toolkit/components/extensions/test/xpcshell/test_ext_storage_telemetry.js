@@ -462,7 +462,7 @@ manifest
 .
 .
 baseManifest
-applications
+browser_specific_settings
 :
 {
 gecko
@@ -496,7 +496,7 @@ manifest
 .
 .
 baseManifest
-applications
+browser_specific_settings
 :
 {
 gecko
