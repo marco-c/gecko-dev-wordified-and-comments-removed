@@ -284,8 +284,13 @@ body
 =
 b
 "
+var
 dummy
+=
+'
 value
+'
+;
 "
     
 return
