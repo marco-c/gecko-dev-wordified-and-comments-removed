@@ -1035,7 +1035,7 @@ aWidth
 ;
 static
 void
-ProcessOneChar
+ProcessSimpleRun
 (
 const
 char16_t
@@ -1067,15 +1067,6 @@ aPosResolveCount
 nscoord
 *
 aWidth
-mozilla
-:
-:
-intl
-:
-:
-Bidi
-*
-aBidiEngine
 )
 ;
 static
