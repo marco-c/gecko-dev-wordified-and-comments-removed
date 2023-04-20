@@ -65,7 +65,7 @@ PointerKind2
 using
 PackedRepr
 =
-uint64_t
+uintptr_t
 ;
 static_assert
 (
@@ -78,7 +78,7 @@ PackedTypeCode
 :
 :
 PackedRepr
-uint64_t
+uint32_t
 >
 (
 )

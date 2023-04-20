@@ -2398,6 +2398,8 @@ mg
 env
 .
 numFuncImports
+(
+)
 +
 funcDefIndex
 )

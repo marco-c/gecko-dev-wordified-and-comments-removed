@@ -4204,7 +4204,7 @@ case
 RefType
 :
 :
-TypeRef
+TypeIndex
 :
 MOZ_CRASH
 (

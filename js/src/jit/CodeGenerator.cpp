@@ -78201,8 +78201,8 @@ generateWasm
 wasm
 :
 :
-CallIndirectId
-callIndirectId
+TypeIdDesc
+funcTypeId
 wasm
 :
 :
@@ -78278,7 +78278,7 @@ wasm
 GenerateFunctionPrologue
 (
 masm
-callIndirectId
+funcTypeId
 mozilla
 :
 :
@@ -107594,7 +107594,7 @@ wasm
 RefType
 :
 :
-TypeRef
+TypeIndex
 :
 MOZ_CRASH
 (
@@ -108215,7 +108215,7 @@ wasm
 RefType
 :
 :
-TypeRef
+TypeIndex
 :
 MOZ_CRASH
 (

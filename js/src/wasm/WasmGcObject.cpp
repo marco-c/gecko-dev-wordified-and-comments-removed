@@ -2351,7 +2351,7 @@ if
 (
 type
 .
-isTypeRef
+isTypeIndex
 (
 )
 )
