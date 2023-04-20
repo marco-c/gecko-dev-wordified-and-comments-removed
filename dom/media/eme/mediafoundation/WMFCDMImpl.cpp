@@ -689,7 +689,10 @@ aParams
 mOrigin
 aParams
 .
-mPersistentState
+mInitDataTypes
+aParams
+.
+mPersistentStateRequired
 ?
 KeySystemConfig
 :
@@ -708,7 +711,7 @@ Requirement
 Optional
 aParams
 .
-mDistinctiveID
+mDistinctiveIdentifierRequired
 ?
 KeySystemConfig
 :

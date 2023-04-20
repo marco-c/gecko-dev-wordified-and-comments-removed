@@ -131,6 +131,13 @@ nsAString
 &
 aOrigin
 const
+CopyableTArray
+<
+nsString
+>
+&
+aInitDataTypes
+const
 KeySystemConfig
 :
 :
