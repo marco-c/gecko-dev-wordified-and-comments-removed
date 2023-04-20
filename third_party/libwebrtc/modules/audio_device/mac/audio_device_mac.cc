@@ -5897,7 +5897,13 @@ _stopEventRec
 .
 Wait
 (
-2000
+TimeDelta
+:
+:
+Seconds
+(
+2
+)
 )
 )
 {
