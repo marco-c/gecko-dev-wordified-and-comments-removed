@@ -480,6 +480,17 @@ width
 "
 )
 ;
+searchbar
+.
+style
+.
+removeProperty
+(
+"
+width
+"
+)
+;
 }
 }
 get
