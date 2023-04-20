@@ -2142,7 +2142,7 @@ mSSTYScriptLevel
 ;
 static_assert
 (
-NS_MATHML_DEFAULT_SCRIPT_SIZE_MULTIPLIER
+kMathMLDefaultScriptSizeMultiplier
 <
 1
 "
@@ -2163,12 +2163,12 @@ scriptScaling
 <
 =
 (
-NS_MATHML_DEFAULT_SCRIPT_SIZE_MULTIPLIER
+kMathMLDefaultScriptSizeMultiplier
 +
 (
-NS_MATHML_DEFAULT_SCRIPT_SIZE_MULTIPLIER
+kMathMLDefaultScriptSizeMultiplier
 *
-NS_MATHML_DEFAULT_SCRIPT_SIZE_MULTIPLIER
+kMathMLDefaultScriptSizeMultiplier
 )
 )
 /
@@ -2186,7 +2186,7 @@ if
 scriptScaling
 <
 =
-NS_MATHML_DEFAULT_SCRIPT_SIZE_MULTIPLIER
+kMathMLDefaultScriptSizeMultiplier
 )
 {
 sstyLevel
