@@ -1934,6 +1934,12 @@ async
 showToolboxForWebExtension
 (
 extensionId
+{
+toolId
+}
+=
+{
+}
 )
 {
 let
@@ -2039,6 +2045,7 @@ DEVTOOLS_ALWAYS_ON_TOP
 false
 )
 }
+toolId
 }
 )
 ;
