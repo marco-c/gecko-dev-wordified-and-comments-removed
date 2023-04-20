@@ -539,6 +539,10 @@ object
 options
 ]
 *
+The
+options
+object
+*
 param
 {
 object
@@ -2734,6 +2738,13 @@ and
 returns
 null
 otherwise
+*
+*
+returns
+{
+string
+?
+}
 *
 /
 get

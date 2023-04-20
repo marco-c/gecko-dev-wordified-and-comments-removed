@@ -227,6 +227,10 @@ object
 }
 options
 *
+The
+options
+object
+*
 param
 {
 boolean

@@ -166,6 +166,14 @@ object
 }
 options
 *
+The
+options
+for
+this
+search
+engine
+.
+*
 param
 {
 object
