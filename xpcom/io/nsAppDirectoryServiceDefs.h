@@ -92,12 +92,6 @@ AChromDL
 "
 #
 define
-NS_APP_PLUGINS_DIR_LIST
-"
-APluginsDL
-"
-#
-define
 NS_SHARED
 "
 SHARED

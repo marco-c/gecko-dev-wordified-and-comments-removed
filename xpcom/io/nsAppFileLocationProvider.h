@@ -35,7 +35,7 @@ nsAppFileLocationProvider
 final
 :
 public
-nsIDirectoryServiceProvider2
+nsIDirectoryServiceProvider
 {
 public
 :
@@ -45,7 +45,6 @@ nsAppFileLocationProvider
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIDIRECTORYSERVICEPROVIDER
-NS_DECL_NSIDIRECTORYSERVICEPROVIDER2
 private
 :
 ~
