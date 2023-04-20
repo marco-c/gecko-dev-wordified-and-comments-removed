@@ -123,7 +123,7 @@ mjs
 export
 default
 class
-FxToggle
+MozToggle
 extends
 MozLitElement
 {
@@ -131,7 +131,7 @@ static
 LOCAL_NAME
 =
 "
-fx
+moz
 -
 toggle
 "
@@ -202,7 +202,7 @@ inputEl
 :
 "
 #
-fx
+moz
 -
 toggle
 -
@@ -212,7 +212,7 @@ labelEl
 :
 "
 #
-fx
+moz
 -
 toggle
 -
@@ -222,7 +222,7 @@ descriptionEl
 :
 "
 #
-fx
+moz
 -
 toggle
 -
@@ -306,7 +306,7 @@ label
 id
 =
 "
-fx
+moz
 -
 toggle
 -
@@ -320,7 +320,7 @@ label
 for
 =
 "
-fx
+moz
 -
 toggle
 -
@@ -361,7 +361,7 @@ p
 id
 =
 "
-fx
+moz
 -
 toggle
 -
@@ -443,7 +443,7 @@ input
 id
 =
 "
-fx
+moz
 -
 toggle
 -
@@ -513,7 +513,7 @@ ifDefined
 description
 ?
 "
-fx
+moz
 -
 toggle
 -
@@ -538,10 +538,10 @@ customElements
 define
 (
 "
-fx
+moz
 -
 toggle
 "
-FxToggle
+MozToggle
 )
 ;

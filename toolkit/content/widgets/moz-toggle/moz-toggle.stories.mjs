@@ -124,7 +124,7 @@ import
 "
 .
 /
-fx
+moz
 -
 toggle
 .
@@ -175,7 +175,7 @@ width
 "
 >
 <
-fx
+moz
 -
 toggle
 ?
@@ -219,7 +219,7 @@ ariaLabel
 >
 <
 /
-fx
+moz
 -
 toggle
 >
