@@ -10,7 +10,7 @@ DownloadIntegration
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 DownloadIntegration
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

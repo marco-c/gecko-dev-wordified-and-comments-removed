@@ -388,7 +388,7 @@ DownloadPaths
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -401,7 +401,9 @@ modules
 /
 DownloadPaths
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -436,7 +438,7 @@ Downloads
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -449,7 +451,9 @@ modules
 /
 Downloads
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
