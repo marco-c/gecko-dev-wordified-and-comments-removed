@@ -2912,9 +2912,9 @@ written_bytes
 =
 0
 ;
-Unused
-<
-<
+if
+(
+!
 WriteFile
 (
 mFD
@@ -2924,7 +2924,11 @@ length
 written_bytes
 nullptr
 )
+)
+{
+break
 ;
+}
 #
 elif
 defined
