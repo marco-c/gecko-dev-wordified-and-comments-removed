@@ -8508,13 +8508,6 @@ IsImageFrameOrSubclass
 )
 const
 ;
-inline
-bool
-IsSVGGeometryFrameOrSubclass
-(
-)
-const
-;
 enum
 {
 SKIP_SCROLLED_FRAME

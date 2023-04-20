@@ -1493,7 +1493,7 @@ if
 aSource
 -
 >
-IsSVGGeometryFrameOrSubclass
+IsSVGGeometryFrame
 (
 )
 )
