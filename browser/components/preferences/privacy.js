@@ -9597,7 +9597,7 @@ Ci
 .
 nsICookieBannerService
 .
-MODE_REJECT_OR_ACCEPT
+MODE_REJECT
 :
 Ci
 .
