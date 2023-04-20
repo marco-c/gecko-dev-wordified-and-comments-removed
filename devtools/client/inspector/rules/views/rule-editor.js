@@ -3424,16 +3424,6 @@ edit_rule
 "
 ruleview
 "
-null
-{
-session_id
-:
-this
-.
-toolbox
-.
-sessionId
-}
 )
 ;
 }

@@ -236,7 +236,6 @@ function
 configureStore
 (
 telemetry
-sessionId
 )
 {
 const
@@ -280,7 +279,6 @@ thunk
 eventTelemetryMiddleware
 (
 telemetry
-sessionId
 )
 )
 ;

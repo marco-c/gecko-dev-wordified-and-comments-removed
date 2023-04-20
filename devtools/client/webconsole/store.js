@@ -797,7 +797,6 @@ null
 options
 .
 telemetry
-sessionId
 )
 )
 ;

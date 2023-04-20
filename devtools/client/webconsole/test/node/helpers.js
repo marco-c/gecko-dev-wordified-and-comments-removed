@@ -366,10 +366,6 @@ thunkArgs
 toolbox
 :
 {
-sessionId
-:
--
-1
 }
 }
 telemetry
@@ -741,9 +737,6 @@ inspectObjectActor
 toolbox
 :
 {
-sessionId
-:
-1
 }
 watchCssMessages
 :

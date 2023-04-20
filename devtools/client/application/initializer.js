@@ -441,9 +441,6 @@ configureStore
 toolbox
 .
 telemetry
-toolbox
-.
-sessionId
 )
 ;
 this
