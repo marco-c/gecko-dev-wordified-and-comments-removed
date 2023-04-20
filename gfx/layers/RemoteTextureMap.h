@@ -27,6 +27,11 @@ memory
 #
 include
 <
+queue
+>
+#
+include
+<
 stack
 >
 #
@@ -788,7 +793,7 @@ mRecycledTextures
 std
 :
 :
-stack
+queue
 <
 std
 :
