@@ -732,6 +732,7 @@ close
 (
 )
 ;
+return
 fetch_tests_from_window
 (
 iframe
@@ -750,6 +751,7 @@ expected
 type
 )
 {
+return
 testInIframe
 (
 importMapString
@@ -900,6 +902,7 @@ specifier
 expected
 )
 {
+return
 testInIframe
 (
 importMapString
@@ -1061,6 +1064,7 @@ expected
 type
 )
 {
+return
 testInIframe
 (
 importMapString
@@ -1371,6 +1375,7 @@ close
 (
 )
 ;
+return
 fetch_tests_from_window
 (
 iframe
@@ -1388,6 +1393,7 @@ specifier
 expected
 )
 {
+return
 testInIframeInjectBase
 (
 importMapString
@@ -1554,6 +1560,7 @@ expected
 type
 )
 {
+return
 testInIframeInjectBase
 (
 importMapString
@@ -1715,6 +1722,22 @@ importMapBaseURL
 tests
 )
 {
+promise_setup
+(
+function
+(
+)
+{
+return
+new
+Promise
+(
+(
+resolve
+)
+=
+>
+{
 window
 .
 addEventListener
@@ -1722,6 +1745,7 @@ addEventListener
 "
 load
 "
+async
 (
 )
 =
@@ -1735,6 +1759,7 @@ in
 tests
 )
 {
+await
 testScriptElement
 (
 importMapString
@@ -1752,6 +1777,7 @@ module
 "
 )
 ;
+await
 testScriptElement
 (
 importMapString
@@ -1771,6 +1797,7 @@ javascript
 "
 )
 ;
+await
 testStaticImport
 (
 importMapString
@@ -1785,6 +1812,7 @@ specifier
 ]
 )
 ;
+await
 testDynamicImport
 (
 importMapString
@@ -1802,6 +1830,7 @@ module
 "
 )
 ;
+await
 testDynamicImport
 (
 importMapString
@@ -1822,6 +1851,25 @@ javascript
 )
 ;
 }
+done
+(
+)
+;
+resolve
+(
+)
+;
+}
+)
+;
+}
+)
+;
+}
+{
+explicit_done
+:
+true
 }
 )
 ;
