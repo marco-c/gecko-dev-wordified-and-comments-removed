@@ -335,10 +335,6 @@ mSessionId
 ;
 double
 mExpiredTimeMilliSecondsSinceEpoch
-=
-0
-.
-0
 ;
 }
 ;
