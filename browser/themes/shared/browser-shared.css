@@ -553,6 +553,16 @@ textcolor
 ;
 -
 -
+toolbarbutton
+-
+border
+-
+radius
+:
+4px
+;
+-
+-
 tab
 -
 selected
