@@ -3846,6 +3846,17 @@ entry
 isIon
 (
 )
+|
+|
+(
+*
+entry
+)
+-
+>
+isIonIC
+(
+)
 )
 ;
 frame
