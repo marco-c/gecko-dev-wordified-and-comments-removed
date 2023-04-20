@@ -417,7 +417,10 @@ none
 ;
 display
 :
-flex
+-
+moz
+-
+box
 ;
 margin
 -

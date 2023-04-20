@@ -360,9 +360,12 @@ appList
 >
 richlistitem
 {
-align
 -
-items
+moz
+-
+box
+-
+align
 :
 center
 ;

@@ -1528,9 +1528,14 @@ button
 .
 subviewbutton
 {
+-
+moz
+-
+box
+-
 flex
 :
-none
+0
 ;
 margin
 -

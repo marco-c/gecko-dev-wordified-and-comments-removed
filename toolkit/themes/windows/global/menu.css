@@ -295,9 +295,12 @@ appearance
 :
 menuitem
 ;
-align
 -
-items
+moz
+-
+box
+-
+align
 :
 center
 ;

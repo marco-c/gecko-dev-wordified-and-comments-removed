@@ -715,7 +715,10 @@ important
 ;
 display
 :
-flex
+-
+moz
+-
+box
 ;
 list
 -

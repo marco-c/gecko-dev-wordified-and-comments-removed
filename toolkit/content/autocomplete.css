@@ -152,11 +152,14 @@ richlistbox
 >
 richlistitem
 {
-flex
 -
-direction
+moz
+-
+box
+-
+orient
 :
-row
+horizontal
 ;
 overflow
 :

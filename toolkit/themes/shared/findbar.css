@@ -185,7 +185,10 @@ work
 /
 display
 :
-flex
+-
+moz
+-
+box
 ;
 visibility
 :

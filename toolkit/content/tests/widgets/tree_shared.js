@@ -8349,7 +8349,7 @@ element
 .
 style
 .
-order
+MozBoxOrdinalGroup
 )
 ;
 var
@@ -8363,7 +8363,7 @@ element
 .
 style
 .
-order
+MozBoxOrdinalGroup
 )
 ;
 return

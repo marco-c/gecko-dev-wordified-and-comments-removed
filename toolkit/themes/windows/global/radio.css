@@ -260,9 +260,12 @@ radio
 -
 container
 ;
-align
 -
-items
+moz
+-
+box
+-
+align
 :
 center
 ;

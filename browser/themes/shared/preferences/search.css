@@ -313,7 +313,10 @@ left
 {
 display
 :
-flex
+-
+moz
+-
+box
 ;
 }
 #

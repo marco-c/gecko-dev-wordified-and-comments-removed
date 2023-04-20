@@ -155,9 +155,12 @@ padding
 }
 tabs
 {
-align
 -
-items
+moz
+-
+box
+-
+align
 :
 center
 ;
@@ -357,6 +360,11 @@ tabs
 -
 right
 {
+-
+moz
+-
+box
+-
 flex
 :
 1

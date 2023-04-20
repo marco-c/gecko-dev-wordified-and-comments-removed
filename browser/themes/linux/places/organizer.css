@@ -624,7 +624,10 @@ content
 ;
 display
 :
-flex
+-
+moz
+-
+box
 ;
 width
 :

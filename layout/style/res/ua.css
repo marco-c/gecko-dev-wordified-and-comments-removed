@@ -1318,6 +1318,17 @@ decoration
 :
 inherit
 ;
+-
+moz
+-
+box
+-
+ordinal
+-
+group
+:
+inherit
+;
 overflow
 -
 clip

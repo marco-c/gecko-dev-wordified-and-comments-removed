@@ -1205,7 +1205,7 @@ this
 .
 style
 .
-order
+MozBoxOrdinalGroup
 =
 "
 "
@@ -2102,7 +2102,7 @@ this
 .
 style
 .
-order
+MozBoxOrdinalGroup
 =
 this
 .
@@ -2187,7 +2187,7 @@ this
 .
 style
 .
-order
+MozBoxOrdinalGroup
 =
 val
 ;
@@ -2214,7 +2214,7 @@ this
 .
 style
 .
-order
+MozBoxOrdinalGroup
 ;
 if
 (
@@ -6082,7 +6082,7 @@ i
 .
 style
 .
-order
+MozBoxOrdinalGroup
 =
 (
 i

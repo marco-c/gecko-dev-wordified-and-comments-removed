@@ -92,9 +92,12 @@ start
 }
 richlistitem
 {
-align
 -
-items
+moz
+-
+box
+-
+align
 :
 center
 ;

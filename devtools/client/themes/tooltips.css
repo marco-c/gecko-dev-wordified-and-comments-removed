@@ -4133,7 +4133,10 @@ Override
 the
 display
 :
-flex
+-
+moz
+-
+box
 declaration
 in
 xul

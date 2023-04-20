@@ -2115,7 +2115,10 @@ hasSharingIcon
 {
 display
 :
-flex
+-
+moz
+-
+box
 ;
 }
 /

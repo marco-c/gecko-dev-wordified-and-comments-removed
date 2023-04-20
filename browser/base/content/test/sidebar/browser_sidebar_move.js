@@ -125,7 +125,7 @@ node
 .
 style
 .
-order
+MozBoxOrdinalGroup
 ]
 ;
 }

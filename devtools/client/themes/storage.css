@@ -417,6 +417,11 @@ appearance
 :
 none
 ;
+-
+moz
+-
+box
+-
 flex
 :
 1
@@ -588,7 +593,10 @@ toolbar
 {
 display
 :
-flex
+-
+moz
+-
+box
 ;
 }
 #
@@ -596,6 +604,11 @@ storage
 -
 searchbox
 {
+-
+moz
+-
+box
+-
 flex
 :
 1

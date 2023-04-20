@@ -59,9 +59,13 @@ MPL
 #
 contentView
 {
+-
+moz
+-
+box
+-
 flex
 :
-4
 4
 ;
 }
