@@ -9,9 +9,8 @@ for
 type
 int
 '
-makes
-no
-sense
+is
+unsupported
 protocol
 PNullable
 {
