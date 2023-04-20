@@ -4804,9 +4804,6 @@ compositingAlphaMode
 opaque
 "
 ;
-GPUExtent3D
-size
-;
 }
 ;
 enum

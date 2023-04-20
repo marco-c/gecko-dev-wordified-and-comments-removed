@@ -363,7 +363,6 @@ gfx
 :
 :
 IntSize
-*
 aDefaultSize
 )
 ;

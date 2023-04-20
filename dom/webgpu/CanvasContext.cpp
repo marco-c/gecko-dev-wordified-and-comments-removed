@@ -376,7 +376,6 @@ aDesc
 *
 mRemoteTextureOwnerId
 mGfxFormat
-&
 actualSize
 )
 ;
@@ -410,10 +409,6 @@ mDevice
 GetBridge
 (
 )
-;
-mGfxSize
-=
-actualSize
 ;
 ForceNewFrame
 (
@@ -796,7 +791,14 @@ data
 .
 mSize
 =
-mGfxSize
+gfx
+:
+:
+IntSize
+{
+mWidth
+mHeight
+}
 ;
 data
 .
