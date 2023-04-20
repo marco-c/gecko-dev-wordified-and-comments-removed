@@ -4531,6 +4531,10 @@ set
 (
 ref
 .
+as_non_null
+(
+ref
+.
 cast
 hasOOL
 (
@@ -4538,6 +4542,7 @@ local
 .
 get
 0
+)
 )
 )
 )
@@ -4647,6 +4652,10 @@ set
 (
 ref
 .
+as_non_null
+(
+ref
+.
 cast
 hasOOL
 (
@@ -4654,6 +4663,7 @@ local
 .
 get
 0
+)
 )
 )
 )

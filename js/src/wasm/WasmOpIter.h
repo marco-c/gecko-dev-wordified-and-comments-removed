@@ -19837,6 +19837,9 @@ return
 false
 ;
 }
+StackType
+inputType
+;
 if
 (
 !
@@ -19849,6 +19852,8 @@ any
 (
 )
 ref
+&
+inputType
 )
 )
 {
@@ -19882,7 +19887,11 @@ fromTypeDef
 (
 &
 typeDef
-false
+inputType
+.
+isNullableAsOperand
+(
+)
 )
 )
 ;

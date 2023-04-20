@@ -1210,12 +1210,6 @@ q
 )
 )
 ;
-assertErrorMessage
-(
-(
-)
-=
->
 wasmEvalText
 (
 (
@@ -1309,14 +1303,6 @@ exports
 .
 test
 (
-)
-WebAssembly
-.
-RuntimeError
-/
-bad
-cast
-/
 )
 ;
 assertEq

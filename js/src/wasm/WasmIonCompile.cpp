@@ -20092,6 +20092,8 @@ MDefinition
 object
 uint32_t
 castTypeIndex
+bool
+succeedOnNull
 )
 {
 auto
@@ -20130,6 +20132,7 @@ castTypeIndex
 subTypingDepth
 (
 )
+succeedOnNull
 )
 ;
 curBlock_
@@ -20167,6 +20170,7 @@ isGcObjectSubtypeOf
 (
 ref
 castTypeIndex
+true
 )
 ;
 if
@@ -20214,6 +20218,7 @@ isGcObjectSubtypeOf
 (
 ref
 castTypeIndex
+false
 )
 ;
 }
@@ -20318,6 +20323,7 @@ isGcObjectSubtypeOf
 (
 ref
 castTypeIndex
+false
 )
 ;
 if

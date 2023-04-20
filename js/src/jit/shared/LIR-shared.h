@@ -21417,6 +21417,9 @@ LControlInstructionHelper
 uint32_t
 subTypingDepth_
 ;
+bool
+succeedOnNull_
+;
 public
 :
 LIR_HEADER
@@ -21455,6 +21458,8 @@ LAllocation
 superTypeDef
 uint32_t
 subTypingDepth
+bool
+succeedOnNull
 const
 LDefinition
 &
@@ -21472,6 +21477,10 @@ classOpcode
 subTypingDepth_
 (
 subTypingDepth
+)
+succeedOnNull_
+(
+succeedOnNull
 )
 {
 setSuccessor
@@ -21519,6 +21528,16 @@ const
 {
 return
 subTypingDepth_
+;
+}
+bool
+succeedOnNull
+(
+)
+const
+{
+return
+succeedOnNull_
 ;
 }
 MBasicBlock
