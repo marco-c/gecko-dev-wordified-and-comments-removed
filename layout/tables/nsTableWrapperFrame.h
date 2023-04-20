@@ -1352,6 +1352,17 @@ const
 ;
 private
 :
+nscoord
+GetFallbackLogicalBaseline
+(
+mozilla
+:
+:
+WritingMode
+aWritingMode
+)
+const
+;
 nsFrameList
 mCaptionFrames
 ;
