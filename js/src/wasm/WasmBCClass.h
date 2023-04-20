@@ -416,6 +416,9 @@ offsets_
 NonAssertingLabel
 debugTrapStub_
 ;
+uint32_t
+previousBreakablePoint_
+;
 StkVector
 &
 stkSource_

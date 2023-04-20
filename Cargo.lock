@@ -16174,9 +16174,6 @@ mozglue
 static
 "
 "
-wasmparser
-"
-"
 wast
 "
 ]

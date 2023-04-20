@@ -194,7 +194,7 @@ assertEq
 offsets1
 .
 length
-8
+5
 )
 ;
 offsets1
@@ -262,7 +262,7 @@ usedOffsets
 )
 .
 length
-8
+5
 )
 ;
 assertEq
@@ -275,6 +275,6 @@ usedLines
 )
 .
 length
-8
+5
 )
 ;
