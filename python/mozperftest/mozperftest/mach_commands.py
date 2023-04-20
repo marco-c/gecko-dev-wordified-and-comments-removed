@@ -1832,6 +1832,4 @@ run_tools
 (
 command_context
 kwargs
-{
-}
 )

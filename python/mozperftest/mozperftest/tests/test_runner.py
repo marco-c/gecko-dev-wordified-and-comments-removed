@@ -163,6 +163,27 @@ fake_path
 )
 as
 _
+mock
+.
+patch
+(
+        
+"
+mozperftest
+.
+runner
+.
+_save_params
+"
+return_value
+=
+"
+fake_path
+"
+    
+)
+as
+_
 :
         
 main
