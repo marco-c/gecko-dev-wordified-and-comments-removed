@@ -860,6 +860,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 for
@@ -1138,6 +1139,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 }
@@ -1473,6 +1475,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 }
@@ -1647,6 +1650,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 }
@@ -1984,6 +1988,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 }
@@ -2337,6 +2342,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 }
@@ -2685,6 +2691,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 VideoFrame
@@ -3094,6 +3101,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 }
@@ -4039,6 +4047,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 VideoFrame
@@ -4393,6 +4402,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 VideoFrame
@@ -4762,6 +4772,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 VideoFrame
@@ -5190,6 +5201,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 }
@@ -5586,6 +5598,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 }
@@ -6528,6 +6541,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 VideoFrame
@@ -6641,6 +6655,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 SleepMs
@@ -6908,6 +6923,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 }
@@ -7496,6 +7512,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 }
@@ -8121,6 +8138,7 @@ FakeEncode
 frame
 )
 encoder_stats
+false
 )
 ;
 frames
@@ -8755,6 +8773,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 }
@@ -9287,6 +9306,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 }
@@ -10022,6 +10042,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 }
@@ -10203,6 +10224,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 analyzer
@@ -10508,6 +10530,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 analyzer
@@ -10813,6 +10836,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 analyzer
@@ -11118,6 +11142,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 analyzer
@@ -11817,6 +11842,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 SleepMs
@@ -12123,6 +12149,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 SleepMs
@@ -12420,6 +12447,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 analyzer
@@ -12453,6 +12481,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 SleepMs
@@ -13568,6 +13597,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 analyzer

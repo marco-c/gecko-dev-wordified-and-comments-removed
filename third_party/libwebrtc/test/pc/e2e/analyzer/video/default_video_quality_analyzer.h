@@ -429,6 +429,8 @@ const
 EncoderStats
 &
 stats
+bool
+discarded
 )
 override
 ;

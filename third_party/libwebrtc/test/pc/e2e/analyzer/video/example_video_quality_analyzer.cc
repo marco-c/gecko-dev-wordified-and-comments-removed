@@ -294,6 +294,8 @@ const
 EncoderStats
 &
 stats
+bool
+discarded
 )
 {
 MutexLock

@@ -245,6 +245,8 @@ const
 EncoderStats
 &
 stats
+bool
+discarded
 )
 {
 }

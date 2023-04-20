@@ -632,6 +632,7 @@ VideoQualityAnalyzerInterface
 EncoderStats
 (
 )
+false
 )
 ;
 for
