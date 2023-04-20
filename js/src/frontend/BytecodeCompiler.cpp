@@ -588,7 +588,6 @@ sourceBuffer
 )
 compilationState_
 (
-cx
 fc
 parserAllocScope
 input
@@ -649,7 +648,6 @@ compilationState_
 .
 init
 (
-cx
 fc
 scopeCache
 inheritThis
@@ -6327,7 +6325,6 @@ tempLifoAlloc
 CompilationState
 compilationState
 (
-cx
 fc
 parserAllocScope
 input
@@ -6361,7 +6358,6 @@ compilationState
 .
 init
 (
-cx
 fc
 scopeCache
 inheritThis

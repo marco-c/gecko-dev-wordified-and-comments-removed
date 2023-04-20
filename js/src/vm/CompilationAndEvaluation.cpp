@@ -999,7 +999,6 @@ frontend
 CompilationState
 compilationState
 (
-cx
 &
 fc
 allocScope
@@ -1017,7 +1016,6 @@ compilationState
 .
 init
 (
-cx
 &
 fc
 &

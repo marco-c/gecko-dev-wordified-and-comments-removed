@@ -3192,7 +3192,6 @@ fc
 CompilationState
 compilationState
 (
-cx
 fc
 parserAllocScope
 input

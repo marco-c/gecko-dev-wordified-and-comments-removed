@@ -14700,9 +14700,6 @@ CompilationState
 :
 CompilationState
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc

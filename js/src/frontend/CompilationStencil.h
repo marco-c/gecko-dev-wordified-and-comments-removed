@@ -6021,9 +6021,6 @@ nonLazyFunctionCount
 ;
 CompilationState
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -6038,9 +6035,6 @@ input
 bool
 init
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
