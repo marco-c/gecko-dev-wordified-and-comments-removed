@@ -596,6 +596,15 @@ events
 :
 none
 ;
+-
+moz
+-
+window
+-
+dragging
+:
+drag
+;
 }
 #
 controls
