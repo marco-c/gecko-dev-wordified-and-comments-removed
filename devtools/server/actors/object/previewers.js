@@ -154,6 +154,9 @@ LinkError
 "
 RuntimeError
 "
+"
+Exception
+"
 ]
 )
 ;
