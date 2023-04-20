@@ -67,6 +67,9 @@ class
 ExtensionAlarms
 ;
 class
+ExtensionBrowserSettings
+;
+class
 ExtensionDns
 ;
 class
@@ -374,6 +377,12 @@ GetExtensionAlarms
 (
 )
 ;
+ExtensionBrowserSettings
+*
+GetExtensionBrowserSettings
+(
+)
+;
 ExtensionDns
 *
 GetExtensionDns
@@ -463,6 +472,12 @@ RefPtr
 ExtensionAlarms
 >
 mExtensionAlarms
+;
+RefPtr
+<
+ExtensionBrowserSettings
+>
+mExtensionBrowserSettings
 ;
 RefPtr
 <
