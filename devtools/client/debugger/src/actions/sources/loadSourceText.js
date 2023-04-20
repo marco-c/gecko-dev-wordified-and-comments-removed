@@ -396,6 +396,9 @@ cx
 sourceActor
 .
 source
+sourceActor
+.
+actor
 {
 state
 :
@@ -471,6 +474,7 @@ cx
 source
 .
 id
+null
 {
 state
 :
@@ -489,6 +493,7 @@ setParserAndBreakpointsTextContent
 (
 cx
 sourceId
+sourceActorId
 {
 dispatch
 state
@@ -528,6 +533,7 @@ sourceId
 source
 .
 id
+sourceActorId
 }
 )
 )

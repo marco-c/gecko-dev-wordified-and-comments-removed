@@ -42,6 +42,7 @@ function
 addTab
 (
 source
+sourceActor
 )
 {
 return
@@ -52,6 +53,7 @@ type
 ADD_TAB
 "
 source
+sourceActor
 }
 ;
 }

@@ -131,13 +131,6 @@ isWasm
 :
 false
 "
-thread
-"
-:
-"
-FakeThread
-"
-"
 url
 "
 :

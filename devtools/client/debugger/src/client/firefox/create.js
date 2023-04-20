@@ -520,20 +520,6 @@ url
 sourceResource
 .
 url
-thread
-:
-sourceResource
-.
-targetFront
-.
-getCachedFront
-(
-"
-thread
-"
-)
-.
-actorID
 extensionName
 :
 sourceResource
@@ -592,9 +578,6 @@ createSourceObject
 {
 id
 url
-thread
-=
-null
 extensionName
 =
 null
@@ -627,7 +610,6 @@ getDisplayURL
 url
 extensionName
 )
-thread
 extensionName
 isExtension
 isWasm
@@ -643,7 +625,6 @@ createSourceMapOriginalSource
 (
 id
 url
-thread
 )
 {
 return
@@ -652,7 +633,6 @@ createSourceObject
 {
 id
 url
-thread
 isOriginal
 :
 true
@@ -666,7 +646,6 @@ createPrettyPrintOriginalSource
 (
 id
 url
-thread
 )
 {
 return
@@ -675,7 +654,6 @@ createSourceObject
 {
 id
 url
-thread
 isOriginal
 :
 true
