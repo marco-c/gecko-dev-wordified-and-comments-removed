@@ -46,6 +46,11 @@ PFileSystemManager
 .
 ipdl
 "
+"
+PFileSystemWritableFileStream
+.
+ipdl
+"
 ]
 include
 (

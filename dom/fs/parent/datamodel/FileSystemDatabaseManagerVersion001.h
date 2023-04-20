@@ -60,6 +60,9 @@ FileSystemFileManager
 &
 &
 aFileManager
+FileSystemDataManager
+*
+aDataManager
 const
 EntryId
 &
@@ -79,6 +82,10 @@ move
 (
 aFileManager
 )
+)
+mDataManager
+(
+aDataManager
 )
 mRootEntry
 (
@@ -295,6 +302,10 @@ UniquePtr
 FileSystemFileManager
 >
 mFileManager
+;
+FileSystemDataManager
+*
+mDataManager
 ;
 const
 EntryId

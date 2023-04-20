@@ -173,6 +173,7 @@ WritableStream
 {
 [
 NewObject
+Throws
 ]
 Promise
 <
