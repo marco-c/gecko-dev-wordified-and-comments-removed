@@ -44,7 +44,7 @@ LinkHandlerParent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -56,7 +56,9 @@ actors
 /
 LinkHandlerParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

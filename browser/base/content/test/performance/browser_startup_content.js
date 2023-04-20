@@ -117,7 +117,9 @@ actors
 /
 LinkHandlerChild
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource

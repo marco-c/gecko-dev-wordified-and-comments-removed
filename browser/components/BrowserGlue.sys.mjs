@@ -3921,7 +3921,7 @@ LinkHandler
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -3933,13 +3933,15 @@ actors
 /
 LinkHandlerParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -3951,7 +3953,9 @@ actors
 /
 LinkHandlerChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
