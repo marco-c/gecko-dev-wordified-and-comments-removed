@@ -4049,6 +4049,15 @@ originalUri
 ?
 .
 spec
+&
+&
+(
+!
+isNewtab
+|
+|
+originalUri
+)
 )
 {
 return
