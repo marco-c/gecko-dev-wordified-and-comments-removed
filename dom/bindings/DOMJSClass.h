@@ -1788,7 +1788,7 @@ JSObject
 global
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 JS
 :
@@ -1869,7 +1869,7 @@ JSObject
 global
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 JS
 :
