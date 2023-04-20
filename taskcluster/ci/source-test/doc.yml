@@ -279,6 +279,11 @@ serve
 archive
 -
 -
+fatal
+-
+warnings
+-
+-
 dump
 -
 trees
@@ -540,6 +545,11 @@ open
 no
 -
 serve
+-
+-
+fatal
+-
+warnings
 -
 -
 write
