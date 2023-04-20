@@ -32274,6 +32274,15 @@ unwrap
 (
 )
 ;
+MOZ_ASSERT
+(
+pointToPutCaret
+.
+IsSet
+(
+)
+)
+;
 pendingStyle
 =
 mPendingStylesToApplyToNewContent
