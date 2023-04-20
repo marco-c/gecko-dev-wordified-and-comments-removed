@@ -15,9 +15,11 @@ target
 =
 aarch64
 -
+pc
+-
 windows
 -
-mingw32
+msvc
 .
 topsrcdir
 /

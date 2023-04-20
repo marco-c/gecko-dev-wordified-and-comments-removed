@@ -97,9 +97,11 @@ target
 =
 x86_64
 -
-w64
+pc
 -
-mingw32
+windows
+-
+gnu
 ac_add_options
 -
 -

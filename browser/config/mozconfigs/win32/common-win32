@@ -16,7 +16,9 @@ i686
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 .
 topsrcdir
 /

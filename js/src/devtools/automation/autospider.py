@@ -2087,7 +2087,9 @@ i686
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
     
 elif
@@ -2277,7 +2279,9 @@ x86_64
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
 if
 platform
