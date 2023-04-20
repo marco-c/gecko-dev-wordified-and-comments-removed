@@ -640,6 +640,11 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 mBlockingPromises
 )
 ;
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
+mThrowFromReturn
+)
+;
 }
 void
 TestInterfaceAsyncIterableSingle
@@ -664,6 +669,11 @@ this
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mBlockingPromises
+)
+;
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
+mThrowFromReturn
 )
 ;
 }

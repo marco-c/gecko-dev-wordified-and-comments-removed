@@ -590,6 +590,12 @@ GetNextResult
 error
 )
 ;
+error
+.
+WouldReportJSException
+(
+)
+;
 if
 (
 error
@@ -1216,6 +1222,12 @@ GetReturnPromise
 aCx
 aValue
 error
+)
+;
+error
+.
+WouldReportJSException
+(
 )
 ;
 if
