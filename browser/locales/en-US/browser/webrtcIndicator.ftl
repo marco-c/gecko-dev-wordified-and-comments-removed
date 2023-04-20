@@ -1564,7 +1564,7 @@ microphone
 -
 unsafe
 -
-delegations
+delegation
 =
 Allow
 {
