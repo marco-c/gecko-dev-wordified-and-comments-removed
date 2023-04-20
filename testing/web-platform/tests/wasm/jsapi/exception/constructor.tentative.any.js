@@ -89,7 +89,7 @@ test
 >
 {
 const
-argument
+tag
 =
 new
 WebAssembly
@@ -115,7 +115,7 @@ WebAssembly
 .
 Exception
 (
-argument
+tag
 )
 )
 ;
@@ -251,7 +251,7 @@ typesAndArgs
 )
 {
 const
-exn
+tag
 =
 new
 WebAssembly
@@ -282,7 +282,7 @@ WebAssembly
 .
 Exception
 (
-exn
+tag
 typeAndArg
 [
 1

@@ -290,7 +290,7 @@ outOfRangeValues
 {
 assert_throws_js
 (
-TypeError
+RangeError
 (
 )
 =
