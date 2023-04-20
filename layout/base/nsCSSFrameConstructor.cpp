@@ -18691,11 +18691,6 @@ NS_NewImageBoxFrame
 )
 SIMPLE_XUL_CREATE
 (
-spacer
-NS_NewLeafBoxFrame
-)
-SIMPLE_XUL_CREATE
-(
 treechildren
 NS_NewTreeBodyFrame
 )
