@@ -836,6 +836,16 @@ Ci
 nsICookieBannerService
 .
 MODE_REJECT_OR_ACCEPT
+|
+|
+mode
+=
+=
+Ci
+.
+nsICookieBannerService
+.
+MODE_DETECT_ONLY
 ;
 return
 rules
