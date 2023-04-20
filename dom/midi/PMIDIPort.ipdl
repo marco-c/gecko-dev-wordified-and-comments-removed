@@ -11,9 +11,6 @@ mozilla
 namespace
 dom
 {
-[
-ManualDealloc
-]
 async
 protocol
 PMIDIPort

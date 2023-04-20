@@ -57,6 +57,7 @@ public
 NS_INLINE_DECL_REFCOUNTING
 (
 MIDIPortParent
+override
 )
 ;
 void
@@ -163,11 +164,6 @@ return
 mInternalId
 ;
 }
-void
-Teardown
-(
-)
-;
 protected
 :
 ~

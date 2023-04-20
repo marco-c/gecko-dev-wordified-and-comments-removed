@@ -52,6 +52,7 @@ public
 NS_INLINE_DECL_REFCOUNTING
 (
 MIDIPortChild
+override
 )
 ;
 mozilla
@@ -135,16 +136,6 @@ mStableId
 }
 ;
 void
-SetActorAlive
-(
-)
-;
-void
-Teardown
-(
-)
-;
-void
 DetachOwner
 (
 )
@@ -169,9 +160,6 @@ mDOMPort
 ;
 nsString
 mStableId
-;
-bool
-mActorWasAlive
 ;
 }
 ;

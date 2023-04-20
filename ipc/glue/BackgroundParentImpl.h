@@ -1708,8 +1708,10 @@ aActor
 )
 override
 ;
+already_AddRefed
+<
 PMIDIPortParent
-*
+>
 AllocPMIDIPortParent
 (
 const
@@ -1720,15 +1722,6 @@ const
 bool
 &
 aSysexEnabled
-)
-override
-;
-bool
-DeallocPMIDIPortParent
-(
-PMIDIPortParent
-*
-aActor
 )
 override
 ;
