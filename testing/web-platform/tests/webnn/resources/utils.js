@@ -3186,6 +3186,9 @@ build
 namedOutputOperands
 )
 ;
+const
+result
+=
 await
 context
 .
@@ -3200,6 +3203,8 @@ checkResults
 (
 operationName
 namedOutputOperands
+result
+.
 outputs
 resources
 )
