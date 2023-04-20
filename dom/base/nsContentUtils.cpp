@@ -19437,6 +19437,8 @@ bool
 aUseUrgentStartForChannel
 bool
 aLinkPreload
+uint64_t
+aEarlyHintPreloaderId
 )
 {
 MOZ_ASSERT
@@ -19580,6 +19582,7 @@ aContentPolicyType
 initiatorType
 aUseUrgentStartForChannel
 aLinkPreload
+aEarlyHintPreloaderId
 aRequest
 )
 ;
