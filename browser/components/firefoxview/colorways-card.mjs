@@ -341,9 +341,7 @@ this
 .
 activeCollectionTemplate
 :
-this
-.
-noCollectionTemplate
+null
 ;
 if
 (
@@ -365,6 +363,11 @@ remove
 )
 ;
 }
+if
+(
+template
+)
+{
 this
 .
 container
@@ -382,6 +385,7 @@ true
 )
 )
 ;
+}
 this
 .
 button
