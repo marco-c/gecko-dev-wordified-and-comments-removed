@@ -30,8 +30,8 @@ DeviceInfoIosObjC
 ;
 namespace
 webrtc
-{
-namespace
+:
+:
 videocapturemodule
 {
 class
@@ -191,7 +191,6 @@ _captureInfo
 ;
 }
 ;
-}
 }
 #
 endif

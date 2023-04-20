@@ -7,6 +7,15 @@ MODULES_VIDEO_CAPTURE_OBJC_RTC_VIDEO_CAPTURE_OBJC_H_
 #
 import
 <
+AVFoundation
+/
+AVFoundation
+.
+h
+>
+#
+import
+<
 Foundation
 /
 Foundation
