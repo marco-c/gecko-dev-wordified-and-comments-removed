@@ -1678,7 +1678,7 @@ presShell
 >
 SyncWindowProperties
 (
-view
+true
 )
 ;
 }
