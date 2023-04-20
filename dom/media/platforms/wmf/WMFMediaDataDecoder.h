@@ -85,6 +85,7 @@ aOutput
 =
 0
 ;
+virtual
 void
 Flush
 (
