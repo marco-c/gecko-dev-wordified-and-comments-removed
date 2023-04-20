@@ -199,10 +199,7 @@ left
 {
 display
 :
--
-moz
--
-box
+flex
 ;
 }
 .
@@ -271,12 +268,9 @@ appearance
 :
 checkbox
 ;
--
-moz
--
-box
--
 align
+-
+items
 :
 center
 ;

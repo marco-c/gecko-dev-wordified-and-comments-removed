@@ -2505,7 +2505,7 @@ to
 the
 use
 of
-MozBoxOrdinalGroup
+order
 )
 so
 /
@@ -5203,7 +5203,7 @@ summary
 .
 style
 .
-MozBoxOrdinalGroup
+order
 =
 ordinal
 ;

@@ -2607,11 +2607,6 @@ then
 .
 *
 /
--
-moz
--
-box
--
 flex
 :
 1
@@ -3223,12 +3218,9 @@ with
 -
 label
 {
--
-moz
--
-box
--
 align
+-
+items
 :
 center
 ;

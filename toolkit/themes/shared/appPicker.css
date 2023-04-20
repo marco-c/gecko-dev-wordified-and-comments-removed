@@ -101,12 +101,9 @@ listbox
 >
 richlistitem
 {
--
-moz
--
-box
--
 align
+-
+items
 :
 center
 ;

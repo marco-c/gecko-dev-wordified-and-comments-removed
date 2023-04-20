@@ -115,11 +115,6 @@ box
 >
 label
 {
--
-moz
--
-box
--
 flex
 :
 1
@@ -135,12 +130,9 @@ padding
 5px
 8px
 ;
--
-moz
--
-box
--
 align
+-
+items
 :
 center
 ;

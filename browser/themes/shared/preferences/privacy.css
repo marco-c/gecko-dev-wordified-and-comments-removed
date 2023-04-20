@@ -1802,12 +1802,9 @@ submitHealthReportBox
 {
 display
 :
--
-moz
--
 inline
 -
-box
+flex
 ;
 }
 /

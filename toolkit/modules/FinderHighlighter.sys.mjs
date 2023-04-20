@@ -629,10 +629,7 @@ color
 display
 "
 "
--
-moz
--
-box
+flex
 "
 ]
 [
