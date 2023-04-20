@@ -11927,11 +11927,11 @@ ApplyChromeFlags
 (
 )
 ;
-LoadPersistentWindowState
+SyncAttributesToWidget
 (
 )
 ;
-SyncAttributesToWidget
+LoadPersistentWindowState
 (
 )
 ;
