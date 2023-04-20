@@ -86,17 +86,6 @@ include
 "
 api
 /
-task_queue
-/
-to_queued_task
-.
-h
-"
-#
-include
-"
-api
-/
 test
 /
 create_network_emulation_manager
@@ -869,11 +858,6 @@ thread_
 >
 PostTask
 (
-webrtc
-:
-:
-ToQueuedTask
-(
 [
 this
 buf
@@ -890,7 +874,6 @@ buf
 )
 ;
 }
-)
 )
 ;
 }
