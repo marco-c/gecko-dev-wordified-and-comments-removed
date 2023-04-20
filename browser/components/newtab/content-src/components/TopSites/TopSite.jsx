@@ -3579,7 +3579,7 @@ aria
 haspopup
 =
 "
-true
+dialog
 "
 className
 =

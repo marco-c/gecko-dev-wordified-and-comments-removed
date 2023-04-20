@@ -627,7 +627,7 @@ this
 .
 props
 .
-shouldFocus
+autoFocusOnOpen
 }
 disabled
 =

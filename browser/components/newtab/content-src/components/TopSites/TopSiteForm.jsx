@@ -1643,6 +1643,11 @@ title
 -
 input
 "
+autoFocusOnOpen
+=
+{
+true
+}
 /
 >
 <
