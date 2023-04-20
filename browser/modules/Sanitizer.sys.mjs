@@ -1237,9 +1237,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 A
@@ -1249,14 +1249,7 @@ sanitization
 failed
 :
 "
-+
 itemsToClear
-+
-"
-\
-n
-"
-+
 ex
 )
 ;
@@ -7246,9 +7239,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Invalid
@@ -7259,7 +7252,6 @@ pending
 sanitizations
 :
 "
-+
 ex
 )
 ;

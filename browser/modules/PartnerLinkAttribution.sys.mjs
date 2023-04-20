@@ -783,9 +783,9 @@ if
 searchUrlQueryParamName
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 makeSearchEngineRequest
@@ -852,9 +852,9 @@ searchUrlQueryParamName
 )
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 makeSearchEngineRequest
@@ -1108,9 +1108,9 @@ pingType
 )
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Invalid

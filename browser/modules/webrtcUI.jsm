@@ -2668,9 +2668,9 @@ if
 gBrowser
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Can
@@ -2706,9 +2706,9 @@ if
 tab
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Can
@@ -3873,9 +3873,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 error
 in

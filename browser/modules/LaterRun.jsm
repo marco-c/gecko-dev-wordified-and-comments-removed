@@ -737,9 +737,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Invalid
@@ -747,11 +747,9 @@ LaterRun
 page
 URL
 "
-+
 pageData
 .
 url
-+
 "
 ignored
 .
@@ -774,9 +772,9 @@ https
 )
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Insecure
@@ -784,11 +782,9 @@ LaterRun
 page
 URL
 "
-+
 uri
 .
 spec
-+
 "
 ignored
 .
