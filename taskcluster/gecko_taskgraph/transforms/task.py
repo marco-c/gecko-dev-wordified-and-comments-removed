@@ -10052,12 +10052,7 @@ if
 os
 :
             
-task
-[
-"
 tags
-"
-]
 [
 "
 os
@@ -10694,6 +10689,18 @@ in
 tasks
 :
         
+taskname
+=
+task
+.
+pop
+(
+"
+name
+"
+None
+)
+        
 if
 "
 label
@@ -10704,12 +10711,9 @@ task
 :
             
 if
-"
-name
-"
-not
-in
-task
+taskname
+is
+None
 :
                 
 raise
@@ -10747,32 +10751,8 @@ format
 config
 .
 kind
-task
-[
-"
-name
-"
-]
+taskname
 )
-        
-if
-task
-.
-get
-(
-"
-name
-"
-)
-:
-            
-del
-task
-[
-"
-name
-"
-]
         
 yield
 task
@@ -12644,6 +12624,17 @@ env
 "
 )
     
+if
+not
+env
+:
+        
+yield
+from
+tasks
+        
+return
+    
 implementations
 =
 {
@@ -12680,8 +12671,6 @@ tasks
 :
         
 if
-env
-and
 task
 [
 "
@@ -12771,6 +12760,17 @@ prio
 "
 )
     
+if
+not
+chemspill_prio
+:
+        
+yield
+from
+tasks
+        
+return
+    
 for
 task
 in
@@ -12778,8 +12778,6 @@ tasks
 :
         
 if
-chemspill_prio
-and
 task
 [
 "
@@ -13099,7 +13097,8 @@ level
 ]
 )
         
-if
+task_worker_type
+=
 task
 [
 "
@@ -13108,7 +13107,9 @@ worker
 type
 "
 ]
-in
+        
+worker_overrides
+=
 config
 .
 params
@@ -13120,7 +13121,6 @@ try_task_config
 .
 get
 (
-            
 "
 worker
 -
@@ -13128,38 +13128,19 @@ overrides
 "
 {
 }
-        
 )
+        
+if
+task_worker_type
+in
+worker_overrides
 :
             
 worker_pool
 =
-config
-.
-params
+worker_overrides
 [
-"
-try_task_config
-"
-]
-[
-"
-worker
--
-overrides
-"
-]
-[
-                
-task
-[
-"
-worker
--
-type
-"
-]
-            
+task_worker_type
 ]
             
 provisioner_id
@@ -13192,14 +13173,7 @@ config
 .
 params
                 
-task
-[
-"
-worker
--
-type
-"
-]
+task_worker_type
             
 )
         
