@@ -87,6 +87,13 @@ WasmParser
 .
 js
 '
+'
+whatwg
+-
+url
+.
+js
+'
 )
 if
 CONFIG
