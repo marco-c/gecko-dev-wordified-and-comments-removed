@@ -203,11 +203,6 @@ TestRecursiveMutex
 cpp
 "
 "
-TestRustRegex
-.
-cpp
-"
-"
 TestRWLock
 .
 cpp

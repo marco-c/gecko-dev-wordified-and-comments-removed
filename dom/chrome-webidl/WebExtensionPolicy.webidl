@@ -1097,7 +1097,7 @@ below
 boolean
 isWebAccessiblePath
 (
-UTF8String
+DOMString
 pathname
 )
 ;
@@ -1158,7 +1158,7 @@ sourceMayAccessPath
 (
 URI
 sourceURI
-UTF8String
+DOMString
 pathname
 )
 ;
