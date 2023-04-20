@@ -282,7 +282,7 @@ transition
 -
 old
 (
-*
+before
 )
 {
 animation
@@ -489,6 +489,9 @@ viewTransitionName
 before
 "
 ;
+let
+transition
+=
 document
 .
 startViewTransition
@@ -523,6 +526,19 @@ viewTransitionName
 after
 "
 ;
+}
+)
+;
+transition
+.
+ready
+.
+then
+(
+(
+)
+=
+>
 requestAnimationFrame
 (
 (
@@ -534,7 +550,6 @@ requestAnimationFrame
 takeScreenshot
 )
 )
-}
 )
 ;
 }
