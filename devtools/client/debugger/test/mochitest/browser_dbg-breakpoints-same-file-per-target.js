@@ -12,17 +12,9 @@ function
 {
 if
 (
-(
 !
 isFissionEnabled
 (
-)
-|
-|
-!
-isServerTargetSwitchingEnabled
-(
-)
 )
 &
 &
