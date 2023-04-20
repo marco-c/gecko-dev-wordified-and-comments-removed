@@ -3584,13 +3584,11 @@ userPrefersReducedMotion
 let
 window
 =
-lazy
+Services
 .
-BrowserWindowTracker
+appShell
 .
-getTopWindow
-(
-)
+hiddenDOMWindow
 ;
 return
 window
