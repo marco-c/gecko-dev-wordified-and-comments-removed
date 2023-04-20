@@ -574,6 +574,8 @@ error
 ;
 }
 }
+return
+;
 }
 let
 shouldOpenHandler
