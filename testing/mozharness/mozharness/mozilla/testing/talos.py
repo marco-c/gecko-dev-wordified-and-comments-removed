@@ -5928,6 +5928,7 @@ py
 mozlog_opts
 =
 [
+f
 "
 -
 -
@@ -5937,7 +5938,16 @@ tbpl
 -
 level
 =
-debug
+{
+self
+.
+config
+[
+'
+log_level
+'
+]
+}
 "
 ]
         
