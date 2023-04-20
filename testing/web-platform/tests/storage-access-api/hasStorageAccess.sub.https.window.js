@@ -278,10 +278,6 @@ same
 origin
 -
 frame
-&
-rootdocument
-=
-false
 "
 )
 ;
@@ -336,10 +332,6 @@ cross
 origin
 -
 frame
-&
-rootdocument
-=
-false
 "
 )
 ;
@@ -365,10 +357,6 @@ same
 origin
 -
 frame
-&
-rootdocument
-=
-false
 "
 )
 ;
@@ -425,10 +413,6 @@ cross
 origin
 -
 frame
-&
-rootdocument
-=
-false
 "
 )
 ;

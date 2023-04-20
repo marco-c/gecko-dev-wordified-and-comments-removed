@@ -63,10 +63,6 @@ cross
 site
 -
 frame
-&
-rootdocument
-=
-false
 '
 )
 ;

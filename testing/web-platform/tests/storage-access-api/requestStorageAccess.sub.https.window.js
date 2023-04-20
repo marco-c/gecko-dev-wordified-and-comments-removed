@@ -15,13 +15,8 @@ processQueryParams
 ;
 if
 (
-window
 !
-=
-=
-window
-.
-top
+topLevelDocument
 )
 {
 test_driver
