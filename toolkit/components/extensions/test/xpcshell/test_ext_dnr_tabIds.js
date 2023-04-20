@@ -1135,9 +1135,6 @@ useAddonManager
 "
 temporary
 "
-allowInsecureRequests
-:
-true
 manifest
 :
 {

@@ -363,9 +363,6 @@ background
 temporarilyInstalled
 :
 true
-allowInsecureRequests
-:
-true
 manifest
 :
 {
@@ -1198,9 +1195,6 @@ loadExtension
 {
 background
 temporarilyInstalled
-:
-true
-allowInsecureRequests
 :
 true
 manifest
