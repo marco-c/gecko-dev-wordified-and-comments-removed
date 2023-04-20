@@ -2622,7 +2622,7 @@ dom
 .
 security
 .
-sanitizer
+setHTML
 .
 enabled
 "
