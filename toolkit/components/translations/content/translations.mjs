@@ -105,7 +105,7 @@ AT_log
 AT_getScriptDirection
 AT_getAppLocale
 AT_logError
-AT_destroyEngine
+AT_destroyTranslationsEngine
 AT_createTranslationsEngine
 AT_translate
 *
@@ -319,7 +319,7 @@ TranslationsEngine
 }
 *
 /
-engine
+translationsEngine
 =
 null
 ;
@@ -403,7 +403,7 @@ const
 fromLanguage
 toLanguage
 messageToTranslate
-engine
+translationsEngine
 }
 =
 this
@@ -423,7 +423,7 @@ messageToTranslate
 |
 |
 !
-engine
+translationsEngine
 )
 {
 /
@@ -459,7 +459,7 @@ to
 go
 .
 await
-engine
+translationsEngine
 ;
 /
 /
@@ -483,11 +483,11 @@ isStale
 >
 this
 .
-engine
+translationsEngine
 !
 =
 =
-engine
+translationsEngine
 |
 |
 this
@@ -691,7 +691,7 @@ if
 (
 this
 .
-engine
+translationsEngine
 )
 {
 /
@@ -703,13 +703,13 @@ no
 longer
 needed
 .
-AT_destroyEngine
+AT_destroyTranslationsEngine
 (
 )
 ;
 this
 .
-engine
+translationsEngine
 =
 null
 ;
@@ -752,7 +752,7 @@ toLanguage
 ;
 this
 .
-engine
+translationsEngine
 =
 AT_createTranslationsEngine
 (
@@ -775,7 +775,7 @@ try
 await
 this
 .
-engine
+translationsEngine
 ;
 const
 duration

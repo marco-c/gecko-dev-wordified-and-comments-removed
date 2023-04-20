@@ -138,9 +138,9 @@ translations
 "
 )
 .
-LanguageModelFiles
+LanguageTranslationModelFiles
 }
-LanguageModelFiles
+LanguageTranslationModelFiles
 *
 /
 /
@@ -222,7 +222,7 @@ Worker
 *
 /
 #
-worker
+translationsWorker
 ;
 /
 /
@@ -294,11 +294,11 @@ bergamotWasmArrayBuffer
 *
 param
 {
-LanguageModelFiles
+LanguageTranslationModelFiles
 [
 ]
 }
-languageModelFiles
+languageTranslationModelFiles
 *
 /
 constructor
@@ -306,7 +306,7 @@ constructor
 fromLanguage
 toLanguage
 bergamotWasmArrayBuffer
-languageModelFiles
+languageTranslationModelFiles
 )
 {
 /
@@ -342,7 +342,7 @@ toLanguage
 this
 .
 #
-worker
+translationsWorker
 =
 new
 Worker
@@ -464,7 +464,7 @@ error
 this
 .
 #
-worker
+translationsWorker
 .
 removeEventListener
 (
@@ -479,7 +479,7 @@ onMessage
 this
 .
 #
-worker
+translationsWorker
 .
 addEventListener
 (
@@ -495,7 +495,7 @@ onMessage
 this
 .
 #
-worker
+translationsWorker
 .
 postMessage
 (
@@ -508,7 +508,7 @@ initialize
 fromLanguage
 toLanguage
 bergamotWasmArrayBuffer
-languageModelFiles
+languageTranslationModelFiles
 messageId
 :
 this
@@ -716,7 +716,7 @@ error
 this
 .
 #
-worker
+translationsWorker
 .
 removeEventListener
 (
@@ -731,7 +731,7 @@ onMessage
 this
 .
 #
-worker
+translationsWorker
 .
 addEventListener
 (
@@ -744,7 +744,7 @@ onMessage
 this
 .
 #
-worker
+translationsWorker
 .
 postMessage
 (
@@ -816,7 +816,7 @@ terminate
 this
 .
 #
-worker
+translationsWorker
 .
 terminate
 (
@@ -984,7 +984,7 @@ returns
 {
 Promise
 <
-LanguageModelFiles
+LanguageTranslationModelFiles
 [
 ]
 >
@@ -993,7 +993,7 @@ LanguageModelFiles
 /
 async
 #
-getLanguageModelFiles
+getLanguageTranslationModelFiles
 (
 fromLanguage
 toLanguage
@@ -1007,7 +1007,7 @@ sendQuery
 "
 Translations
 :
-GetLanguageModelFiles
+GetLanguageTranslationModelFiles
 "
 {
 fromLanguage
@@ -1208,7 +1208,7 @@ toLanguage
 const
 [
 bergamotWasmArrayBuffer
-languageModelFiles
+languageTranslationModelFiles
 ]
 =
 await
@@ -1226,7 +1226,7 @@ getBergamotWasmArrayBuffer
 this
 .
 #
-getLanguageModelFiles
+getLanguageTranslationModelFiles
 (
 fromLanguage
 toLanguage
@@ -1243,7 +1243,7 @@ TranslationsEngine
 fromLanguage
 toLanguage
 bergamotWasmArrayBuffer
-languageModelFiles
+languageTranslationModelFiles
 )
 ;
 await

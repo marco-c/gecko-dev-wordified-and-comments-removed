@@ -135,7 +135,7 @@ const
 fromLanguage
 toLanguage
 bergamotWasmArrayBuffer
-languageModelFiles
+languageTranslationModelFiles
 isLoggingEnabled
 }
 =
@@ -208,7 +208,7 @@ bergamotWasmArrayBuffer
 if
 (
 !
-languageModelFiles
+languageTranslationModelFiles
 )
 {
 throw
@@ -221,7 +221,7 @@ Worker
 initialization
 missing
 "
-languageModelFiles
+languageTranslationModelFiles
 "
 '
 )
@@ -254,7 +254,7 @@ TranslationsEngineWorker
 fromLanguage
 toLanguage
 bergamot
-languageModelFiles
+languageTranslationModelFiles
 )
 ;
 postMessage
@@ -320,7 +320,7 @@ constructor
 fromLanguage
 toLanguage
 bergamot
-languageModelFiles
+languageTranslationModelFiles
 )
 {
 this
@@ -343,13 +343,13 @@ bergamot
 ;
 this
 .
-languageModels
+languageTranslationModels
 =
-languageModelFiles
+languageTranslationModelFiles
 .
 map
 (
-languageModelFiles
+languageTranslationModelFiles
 =
 >
 BergamotUtils
@@ -357,7 +357,7 @@ BergamotUtils
 constructSingleTranslationModel
 (
 bergamot
-languageModelFiles
+languageTranslationModelFiles
 )
 )
 ;
@@ -596,7 +596,7 @@ if
 (
 this
 .
-languageModels
+languageTranslationModels
 .
 length
 =
@@ -615,7 +615,7 @@ translate
 (
 this
 .
-languageModels
+languageTranslationModels
 [
 0
 ]
@@ -629,7 +629,7 @@ if
 (
 this
 .
-languageModels
+languageTranslationModels
 .
 length
 =
@@ -648,13 +648,13 @@ translateViaPivoting
 (
 this
 .
-languageModels
+languageTranslationModels
 [
 0
 ]
 this
 .
-languageModels
+languageTranslationModels
 [
 1
 ]
@@ -734,7 +734,7 @@ static
 constructSingleTranslationModel
 (
 bergamot
-languageModelFiles
+languageTranslationModelFiles
 )
 {
 log
@@ -760,7 +760,7 @@ BergamotUtils
 allocateModelMemory
 (
 bergamot
-languageModelFiles
+languageTranslationModelFiles
 )
 ;
 const
@@ -1072,7 +1072,7 @@ gemm
 precision
 "
 :
-languageModelFiles
+languageTranslationModelFiles
 .
 model
 .
@@ -1142,7 +1142,7 @@ static
 allocateModelMemory
 (
 bergamot
-languageModelFiles
+languageTranslationModelFiles
 )
 {
 const
@@ -1163,7 +1163,7 @@ Object
 .
 entries
 (
-languageModelFiles
+languageTranslationModelFiles
 )
 )
 {

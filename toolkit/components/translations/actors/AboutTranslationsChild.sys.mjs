@@ -194,7 +194,7 @@ null
 }
 *
 /
-engine
+translationsEngine
 =
 null
 ;
@@ -633,7 +633,7 @@ AT_createTranslationsEngine
 AT_translate
 "
 "
-AT_destroyEngine
+AT_destroyTranslationsEngine
 "
 "
 AT_getScriptDirection
@@ -906,12 +906,12 @@ if
 (
 this
 .
-engine
+translationsEngine
 )
 {
 this
 .
-engine
+translationsEngine
 .
 terminate
 (
@@ -919,7 +919,7 @@ terminate
 ;
 this
 .
-engine
+translationsEngine
 =
 null
 ;
@@ -951,7 +951,7 @@ engine
 {
 this
 .
-engine
+translationsEngine
 =
 engine
 ;
@@ -993,7 +993,7 @@ if
 !
 this
 .
-engine
+translationsEngine
 )
 {
 throw
@@ -1024,7 +1024,7 @@ convertToContentPromise
 (
 this
 .
-engine
+translationsEngine
 .
 translate
 (
@@ -1067,7 +1067,7 @@ quicker
 .
 *
 /
-AT_destroyEngine
+AT_destroyTranslationsEngine
 (
 )
 {
@@ -1075,12 +1075,12 @@ if
 (
 this
 .
-engine
+translationsEngine
 )
 {
 this
 .
-engine
+translationsEngine
 .
 terminate
 (
@@ -1088,7 +1088,7 @@ terminate
 ;
 this
 .
-engine
+translationsEngine
 =
 null
 ;
