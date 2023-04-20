@@ -69,7 +69,7 @@ includes
 PopoverTargetElement
 ;
 interface
-ToggleEvent
+PopoverToggleEvent
 :
 Event
 {
@@ -78,7 +78,7 @@ constructor
 DOMString
 type
 optional
-ToggleEventInit
+PopoverToggleEventInit
 eventInitDict
 =
 {
@@ -88,7 +88,7 @@ eventInitDict
 readonly
 attribute
 DOMString
-oldState
+currentState
 ;
 readonly
 attribute
@@ -98,12 +98,12 @@ newState
 }
 ;
 dictionary
-ToggleEventInit
+PopoverToggleEventInit
 :
 EventInit
 {
 DOMString
-oldState
+currentState
 =
 "
 "
