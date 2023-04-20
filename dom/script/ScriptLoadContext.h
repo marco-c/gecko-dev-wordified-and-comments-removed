@@ -514,6 +514,12 @@ MaybeCancelOffThreadScript
 (
 )
 ;
+TimeStamp
+mOffThreadParseStartTime
+;
+TimeStamp
+mOffThreadParseStopTime
+;
 ScriptMode
 mScriptMode
 ;
@@ -551,9 +557,10 @@ OffThreadToken
 *
 mOffThreadToken
 ;
-RefPtr
+Atomic
 <
 Runnable
+*
 >
 mRunnable
 ;
