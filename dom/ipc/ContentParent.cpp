@@ -24759,6 +24759,8 @@ const
 nsAString
 &
 aName
+bool
+aContextClosed
 )
 {
 nsCOMPtr
@@ -24789,6 +24791,7 @@ sysAlerts
 CloseAlert
 (
 aName
+aContextClosed
 )
 ;
 }

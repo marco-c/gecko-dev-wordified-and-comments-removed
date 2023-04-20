@@ -591,6 +591,8 @@ const
 nsAString
 &
 aAlertName
+bool
+aContextClosed
 )
 {
 java

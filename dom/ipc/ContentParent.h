@@ -4231,6 +4231,8 @@ const
 nsAString
 &
 aName
+bool
+aContextClosed
 )
 ;
 mozilla

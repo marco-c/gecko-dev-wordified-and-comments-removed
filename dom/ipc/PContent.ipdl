@@ -6404,6 +6404,8 @@ CloseAlert
 (
 nsString
 name
+bool
+contextClosed
 )
 ;
 async

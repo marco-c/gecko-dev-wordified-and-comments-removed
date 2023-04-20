@@ -1912,6 +1912,8 @@ const
 nsAString
 &
 aAlertName
+bool
+aContextClosed
 )
 {
 mozIDOMWindowProxy

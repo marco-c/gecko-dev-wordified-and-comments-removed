@@ -318,6 +318,8 @@ const
 nsAString
 &
 aAlertName
+bool
+aContextClosed
 )
 {
 RefPtr
