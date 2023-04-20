@@ -144,6 +144,11 @@ observe
 cpu
 '
 )
+.
+catch
+(
+reject
+)
 ;
 }
 )

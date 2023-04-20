@@ -143,8 +143,9 @@ self
 "
 '
 ;
-test
+promise_test
 (
+async
 (
 )
 =
@@ -166,6 +167,7 @@ PressureObserver
 }
 )
 ;
+await
 observer
 .
 observe
@@ -189,6 +191,13 @@ e
 {
 assert_unreached
 (
+'
+expected
+promise
+to
+resolve
+.
+'
 )
 ;
 }

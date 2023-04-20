@@ -3,8 +3,9 @@ use
 strict
 '
 ;
-test
+promise_test
 (
+async
 t
 =
 >
@@ -52,14 +53,11 @@ disconnect
 )
 )
 ;
-assert_throws_js
+await
+promise_rejects_js
 (
+t
 TypeError
-(
-)
-=
->
-{
 observer
 .
 observe
@@ -68,8 +66,6 @@ observe
 random
 '
 )
-;
-}
 )
 ;
 }
