@@ -2155,6 +2155,12 @@ if
 (
 isdigit
 (
+static_cast
+<
+unsigned
+char
+>
+(
 *
 argv
 [
@@ -2162,6 +2168,7 @@ i
 +
 1
 ]
+)
 )
 )
 {

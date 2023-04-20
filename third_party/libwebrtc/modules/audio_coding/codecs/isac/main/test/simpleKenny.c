@@ -50,13 +50,6 @@ endif
 #
 include
 <
-ctype
-.
-h
->
-#
-include
-<
 math
 .
 h
