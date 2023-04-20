@@ -125,7 +125,7 @@ version
 .
 0
 .
-3
+6
 "
 authors
 =
@@ -188,6 +188,9 @@ keywords
 [
 "
 unicode
+"
+"
+xid
 "
 ]
 categories
@@ -294,7 +297,7 @@ version
 "
 0
 .
-3
+4
 "
 default
 -
@@ -348,7 +351,7 @@ version
 "
 0
 .
-9
+10
 "
 [
 dev
@@ -386,4 +389,6 @@ version
 0
 .
 2
+.
+4
 "
