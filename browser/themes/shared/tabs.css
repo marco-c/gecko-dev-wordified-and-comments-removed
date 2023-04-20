@@ -722,11 +722,11 @@ flexbox
 .
 *
 /
-min
--
-width
+contain
 :
-0
+inline
+-
+size
 ;
 }
 .
