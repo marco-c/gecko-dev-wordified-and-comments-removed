@@ -1857,9 +1857,9 @@ SourceCoords
 :
 SourceCoords
 (
-JSContext
+ErrorContext
 *
-cx
+ec
 uint32_t
 initialLineNumber
 uint32_t
@@ -1868,7 +1868,7 @@ initialOffset
 :
 lineStartOffsets_
 (
-cx
+ec
 )
 initialLineNum_
 (
@@ -2499,11 +2499,11 @@ filename
 )
 longLineColumnInfo_
 (
-cx
+ec
 )
 srcCoords
 (
-cx
+ec
 options
 .
 lineno
@@ -4214,7 +4214,7 @@ Vector
 ChunkInfo
 >
 (
-cx
+ec
 )
 )
 )
@@ -8378,7 +8378,7 @@ true
 CharBuffer
 lineOfContext
 (
-cx
+ec
 )
 ;
 const
