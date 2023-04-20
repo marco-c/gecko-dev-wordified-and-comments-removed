@@ -1763,7 +1763,7 @@ textColorClass
 role
 =
 "
-dialog
+alertdialog
 "
 pos
 =
