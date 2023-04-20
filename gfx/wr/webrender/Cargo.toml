@@ -205,7 +205,11 @@ gecko
 =
 [
 "
-fog
+firefox
+-
+on
+-
+glean
 "
 "
 glyph_rasterizer
@@ -594,7 +598,11 @@ glean
 .
 1
 "
-fog
+firefox
+-
+on
+-
+glean
 =
 {
 version

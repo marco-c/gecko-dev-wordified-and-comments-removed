@@ -1,5 +1,15 @@
 extern
 crate
+firefox_on_glean
+;
+use
+firefox_on_glean
+:
+:
+metrics
+;
+extern
+crate
 nsstring
 ;
 use
@@ -158,9 +168,6 @@ Rust_TestRustInGTest
 (
 )
 {
-fog
-:
-:
 metrics
 :
 :
@@ -177,9 +184,6 @@ add
 expect
 !
 (
-fog
-:
-:
 metrics
 :
 :
