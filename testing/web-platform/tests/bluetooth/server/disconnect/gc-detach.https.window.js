@@ -167,7 +167,7 @@ Connected
 '
 )
 ;
-runGarbageCollection
+garbageCollect
 (
 )
 .

@@ -61,7 +61,7 @@ fake_peripheral
 undefined
 ;
 await
-runGarbageCollection
+garbageCollect
 (
 )
 ;

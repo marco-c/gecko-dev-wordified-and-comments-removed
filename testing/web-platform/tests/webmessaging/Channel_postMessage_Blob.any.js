@@ -107,15 +107,7 @@ bar
 (
 )
 ;
-if
-(
-self
-.
-gc
-)
-self
-.
-gc
+garbageCollect
 (
 )
 ;

@@ -43,7 +43,7 @@ iframe
 null
 ;
 await
-runGarbageCollection
+garbageCollect
 (
 )
 ;

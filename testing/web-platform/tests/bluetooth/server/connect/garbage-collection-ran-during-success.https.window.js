@@ -79,7 +79,7 @@ all
 (
 [
 connectPromise
-runGarbageCollection
+garbageCollect
 (
 )
 ]

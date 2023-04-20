@@ -108,7 +108,7 @@ disconnect
 )
 ;
 return
-runGarbageCollection
+garbageCollect
 (
 )
 ;

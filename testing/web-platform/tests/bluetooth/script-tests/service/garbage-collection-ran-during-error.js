@@ -133,7 +133,7 @@ disconnect
 .
 then
 (
-runGarbageCollection
+garbageCollect
 )
 .
 then

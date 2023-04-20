@@ -46,8 +46,8 @@ claimInterface
 )
 ;
 }
-return
-runGarbageCollection
+await
+garbageCollect
 (
 )
 ;

@@ -152,15 +152,8 @@ remove
 )
 ;
 }
-if
-(
-self
-.
-gc
-)
-self
-.
-gc
+await
+garbageCollect
 (
 )
 ;

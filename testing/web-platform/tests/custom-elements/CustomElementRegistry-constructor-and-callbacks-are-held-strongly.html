@@ -119,11 +119,10 @@ script
 src
 =
 "
-resources
 /
-garbage
--
-collect
+common
+/
+gc
 .
 js
 "
@@ -369,7 +368,7 @@ t
 >
 {
 await
-maybeGarbageCollectAsync
+garbageCollect
 (
 )
 ;
@@ -412,7 +411,7 @@ t
 >
 {
 await
-maybeGarbageCollectAsync
+garbageCollect
 (
 )
 ;
@@ -468,7 +467,7 @@ t
 >
 {
 await
-maybeGarbageCollectAsync
+garbageCollect
 (
 )
 ;
@@ -526,7 +525,7 @@ t
 >
 {
 await
-maybeGarbageCollectAsync
+garbageCollect
 (
 )
 ;
@@ -568,7 +567,7 @@ t
 >
 {
 await
-maybeGarbageCollectAsync
+garbageCollect
 (
 )
 ;

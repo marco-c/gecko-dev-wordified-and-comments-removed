@@ -173,7 +173,7 @@ remove
 (
 )
 ;
-runGarbageCollection
+garbageCollect
 (
 )
 .

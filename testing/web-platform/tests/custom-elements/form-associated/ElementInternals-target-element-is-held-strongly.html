@@ -71,14 +71,10 @@ script
 src
 =
 "
-.
-.
 /
-resources
+common
 /
-garbage
--
-collect
+gc
 .
 js
 "
@@ -175,7 +171,7 @@ attachInternals
 ;
 }
 await
-maybeGarbageCollectAsync
+garbageCollect
 (
 )
 ;
