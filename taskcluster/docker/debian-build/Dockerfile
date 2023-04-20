@@ -122,18 +122,6 @@ some
 -
 bits
 #
-cpio
-is
-needed
-by
-xar
-(
-mac
-repackaging
-on
-linux
-)
-#
 spidermonkey
 tests
 .
@@ -182,8 +170,6 @@ binutils
 bzip2
 \
 curl
-\
-cpio
 \
 file
 \

@@ -1,3 +1,7 @@
+from
+__future__
+import
+absolute_import
 import
 os
 config
@@ -49,10 +53,4 @@ get
 TOOLTOOL_CACHE
 "
 )
-    
-"
-run_configure
-"
-:
-True
 }
