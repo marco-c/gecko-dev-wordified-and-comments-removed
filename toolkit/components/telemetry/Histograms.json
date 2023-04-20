@@ -149101,7 +149101,7 @@ releaseChannelCollection
 "
 opt
 -
-in
+out
 "
 "
 bug_numbers
@@ -149211,7 +149211,7 @@ releaseChannelCollection
 "
 opt
 -
-in
+out
 "
 "
 bug_numbers
@@ -149305,7 +149305,7 @@ releaseChannelCollection
 "
 opt
 -
-in
+out
 "
 "
 bug_numbers
