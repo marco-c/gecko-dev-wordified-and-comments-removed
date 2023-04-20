@@ -546,6 +546,14 @@ methods
 *
 *
 /
+[
+infallible
+]
+readonly
+attribute
+boolean
+isRunningUnderFlatpak
+;
 /
 *
 Open
