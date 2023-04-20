@@ -21,9 +21,6 @@ globals
 SpecialPowers
 :
 false
-XPCNativeWrapper
-:
-false
 }
 overrides
 :

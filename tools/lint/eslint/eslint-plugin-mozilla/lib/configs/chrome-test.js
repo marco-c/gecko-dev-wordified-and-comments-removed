@@ -30,9 +30,6 @@ globals
 SpecialPowers
 :
 false
-XPCNativeWrapper
-:
-false
 extractJarToTmp
 :
 false
