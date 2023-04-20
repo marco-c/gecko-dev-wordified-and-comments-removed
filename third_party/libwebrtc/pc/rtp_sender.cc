@@ -1622,7 +1622,7 @@ GetRtpSendParameters
 ssrc_
 )
 ;
-RTC_DCHECK_GE
+RTC_CHECK_GE
 (
 current_parameters
 .
