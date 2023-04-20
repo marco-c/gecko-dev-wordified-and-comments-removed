@@ -1078,6 +1078,10 @@ Clear
 )
 ;
 }
+Close
+(
+)
+;
 NS_ShutdownXPCOM
 (
 nullptr
