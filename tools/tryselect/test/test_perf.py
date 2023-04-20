@@ -1399,6 +1399,11 @@ profil
 !
 chrom
 "
+                        
+"
+!
+safari
+"
                     
 ]
                 
@@ -1449,6 +1454,11 @@ profil
 "
 !
 chrom
+"
+                        
+"
+!
+safari
 "
                     
 ]
@@ -1517,6 +1527,11 @@ profil
 "
 !
 chrom
+"
+                        
+"
+!
+safari
 "
                     
 ]
@@ -1624,6 +1639,11 @@ profil
 !
 chrom
 "
+                        
+"
+!
+safari
+"
                     
 ]
                 
@@ -1669,6 +1689,11 @@ profil
 "
 !
 chrom
+"
+                        
+"
+!
+safari
 "
                     
 ]
@@ -1720,11 +1745,18 @@ chrom
                         
 "
 !
+safari
+"
+                        
+"
+!
 chrom
 !
 geckoview
 !
 fenix
+!
+safari
 "
                         
 "
@@ -1788,6 +1820,11 @@ clang
 "
 !
 chrom
+"
+                        
+"
+!
+safari
 "
                         
 "
@@ -1947,6 +1984,11 @@ clang
 !
 profil
 "
+                        
+"
+!
+safari
+"
                     
 ]
                 
@@ -1987,6 +2029,11 @@ shippable
 "
 !
 profil
+"
+                        
+"
+!
+safari
 "
                     
 ]
@@ -2029,6 +2076,11 @@ clang
 "
 !
 profil
+"
+                        
+"
+!
+safari
 "
                         
 "
@@ -2130,6 +2182,11 @@ profil
 !
 chrom
 "
+                        
+"
+!
+safari
+"
                     
 ]
                 
@@ -2182,6 +2239,11 @@ profil
 "
 !
 chrom
+"
+                        
+"
+!
+safari
 "
                         
 "
@@ -2277,6 +2339,11 @@ live
 !
 profil
 "
+                        
+"
+!
+safari
+"
                     
 ]
                 
@@ -2326,6 +2393,11 @@ live
 "
 !
 profil
+"
+                        
+"
+!
+safari
 "
                         
 "
@@ -2419,6 +2491,11 @@ clang
 "
 !
 live
+"
+                        
+"
+!
+safari
 "
                     
 ]
@@ -2576,11 +2653,18 @@ chrom
                         
 "
 !
+safari
+"
+                        
+"
+!
 chrom
 !
 geckoview
 !
 fenix
+!
+safari
 "
                         
 "
@@ -2785,6 +2869,11 @@ chrom
 "
                         
 "
+!
+safari
+"
+                        
+"
 '
 fenix
 "
@@ -2908,6 +2997,11 @@ chrom
 "
                         
 "
+!
+safari
+"
+                        
+"
 '
 geckoview
 "
@@ -2971,6 +3065,11 @@ aarch64
 "
 !
 chrom
+"
+                        
+"
+!
+safari
 "
                         
 "
@@ -3117,6 +3216,11 @@ chrom
 "
                         
 "
+!
+safari
+"
+                        
+"
 '
 fenix
 "
@@ -3175,6 +3279,11 @@ profil
 "
 !
 chrom
+"
+                        
+"
+!
+safari
 "
                         
 "
@@ -3243,6 +3352,11 @@ profil
 "
 !
 chrom
+"
+                        
+"
+!
+safari
 "
                         
 "
@@ -3389,6 +3503,11 @@ chrom
 "
                         
 "
+!
+safari
+"
+                        
+"
 '
 fenix
 "
@@ -3450,6 +3569,11 @@ chrom
 "
                         
 "
+!
+safari
+"
+                        
+"
 '
 fenix
 "
@@ -3508,6 +3632,11 @@ profil
 "
 !
 chrom
+"
+                        
+"
+!
+safari
 "
                         
 "
@@ -3576,6 +3705,11 @@ profil
 "
 !
 chrom
+"
+                        
+"
+!
+safari
 "
                         
 "
@@ -3709,11 +3843,18 @@ chrom
                         
 "
 !
+safari
+"
+                        
+"
+!
 chrom
 !
 geckoview
 !
 fenix
+!
+safari
 "
                     
 ]
@@ -3830,11 +3971,18 @@ chrom
                         
 "
 !
+safari
+"
+                        
+"
+!
 chrom
 !
 geckoview
 !
 fenix
+!
+safari
 "
                     
 ]
@@ -3887,11 +4035,18 @@ chrom
                         
 "
 !
+safari
+"
+                        
+"
+!
 chrom
 !
 geckoview
 !
 fenix
+!
+safari
 "
                         
 "
@@ -3948,6 +4103,11 @@ shippable
 "
 !
 chrom
+"
+                        
+"
+!
+safari
 "
                         
 "
@@ -4194,7 +4354,7 @@ expected_log_message
 }
             
 [
-6
+7
 2
 2
 5
@@ -4299,7 +4459,7 @@ True
 }
             
 [
-6
+7
 1
 1
 5
