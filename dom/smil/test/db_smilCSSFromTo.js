@@ -2826,6 +2826,14 @@ oblique
 "
 normal
 "
+{
+midComp
+:
+"
+oblique
+7deg
+"
+}
 )
 ]
 )
