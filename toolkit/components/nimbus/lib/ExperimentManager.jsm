@@ -2044,9 +2044,9 @@ null
 "
 nimbus
 :
-force
+enrollments
 -
-enroll
+updated
 "
 slug
 )
@@ -2151,6 +2151,9 @@ branch
 removed
 "
 )
+;
+return
+false
 ;
 }
 return
