@@ -436,9 +436,7 @@ test_minimal
 {
 configureEngine
 (
-{
-guid_desktop
-:
+[
 {
 id
 :
@@ -466,7 +464,7 @@ com
 }
 ]
 }
-}
+]
 )
 ;
 let
@@ -550,9 +548,7 @@ test_maximal
 {
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -595,7 +591,7 @@ favicon
 }
 ]
 }
-}
+]
 )
 ;
 let
@@ -719,9 +715,7 @@ false
 ;
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -764,7 +758,7 @@ favicon
 }
 ]
 }
-}
+]
 )
 ;
 let
@@ -893,9 +887,7 @@ false
 ;
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -938,7 +930,7 @@ favicon
 }
 ]
 }
-}
+]
 )
 ;
 let
@@ -1028,9 +1020,7 @@ false
 ;
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -1073,7 +1063,7 @@ favicon
 }
 ]
 }
-}
+]
 )
 ;
 let
@@ -1145,9 +1135,7 @@ test_matches_title
 {
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -1181,7 +1169,7 @@ Example
 }
 ]
 }
-}
+]
 )
 ;
 let
@@ -1271,9 +1259,7 @@ test_localtab_matches_override
 {
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -1307,7 +1293,7 @@ Example
 }
 ]
 }
-}
+]
 )
 ;
 let
@@ -1465,9 +1451,7 @@ com
 ;
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -1492,7 +1476,7 @@ Example
 }
 ]
 }
-}
+]
 )
 ;
 await
@@ -1674,9 +1658,7 @@ i
 ;
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -1685,7 +1667,7 @@ mobile
 "
 tabs
 }
-}
+]
 )
 ;
 let
@@ -2178,9 +2160,7 @@ i
 ;
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -2189,7 +2169,7 @@ mobile
 "
 tabs
 }
-}
+]
 )
 ;
 let
@@ -2722,9 +2702,7 @@ now
 ;
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -2735,8 +2713,6 @@ tabs
 :
 mobileTabs
 }
-guid_desktop
-:
 {
 id
 :
@@ -2747,7 +2723,7 @@ tabs
 :
 desktopTabs
 }
-}
+]
 )
 ;
 let
@@ -3104,9 +3080,7 @@ i
 ;
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -3115,7 +3089,7 @@ mobile
 "
 tabs
 }
-}
+]
 )
 ;
 let
@@ -3524,9 +3498,7 @@ now
 ;
 configureEngine
 (
-{
-guid_mobile
-:
+[
 {
 id
 :
@@ -3535,7 +3507,7 @@ mobile
 "
 tabs
 }
-}
+]
 )
 ;
 let

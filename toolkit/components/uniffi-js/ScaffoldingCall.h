@@ -978,7 +978,7 @@ nsPrintfCString
 (
 arg
 %
-ld
+zu
 )
 "
 I

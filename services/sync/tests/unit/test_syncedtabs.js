@@ -194,9 +194,14 @@ getAllClients
 )
 {
 return
+Object
+.
+values
+(
 this
 .
 clients
+)
 ;
 }
 getOpenURLs
