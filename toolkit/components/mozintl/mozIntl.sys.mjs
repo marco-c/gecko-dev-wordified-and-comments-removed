@@ -2763,6 +2763,11 @@ fr
 Fran
 ais
 "
+fur
+:
+"
+Furlan
+"
 "
 fy
 -
@@ -3042,6 +3047,11 @@ n
 ru
 :
 "
+"
+sc
+:
+"
+Sardu
 "
 sco
 :
