@@ -2521,9 +2521,7 @@ jsm
 "
 IndexedDBHelper
 .
-sys
-.
-mjs
+jsm
 "
 "
 LocationHelper
