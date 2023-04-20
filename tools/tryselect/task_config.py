@@ -376,6 +376,13 @@ builds
 "
 :
 True
+"
+disable
+-
+pgo
+"
+:
+True
 }
         
 if
@@ -417,6 +424,13 @@ use
 artifact
 -
 builds
+"
+:
+True
+"
+disable
+-
+pgo
 "
 :
 True
