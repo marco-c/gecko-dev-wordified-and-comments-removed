@@ -4238,6 +4238,18 @@ Data
 (
 )
 ;
+float
+gain
+=
+1
+.
+f
+/
+mPacketizerInput
+-
+>
+mChannels
+;
 size_t
 readIndex
 =
@@ -4303,6 +4315,8 @@ i
 ]
 +
 =
+gain
+*
 packet
 [
 readIndex
