@@ -70,7 +70,7 @@ AppConstants
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -83,9 +83,7 @@ modules
 /
 AppConstants
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
