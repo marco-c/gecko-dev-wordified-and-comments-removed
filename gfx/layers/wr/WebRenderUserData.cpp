@@ -755,7 +755,6 @@ imageClient
 UpdateImage
 (
 aContainer
-0
 )
 ;
 RefPtr

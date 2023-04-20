@@ -314,7 +314,6 @@ mImageClient
 UpdateImage
 (
 mImageContainer
-0
 )
 ;
 }

@@ -917,8 +917,6 @@ UpdateImage
 ImageContainer
 *
 aContainer
-uint32_t
-aContentFlags
 )
 {
 AutoTArray

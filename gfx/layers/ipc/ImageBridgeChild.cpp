@@ -1736,10 +1736,6 @@ client
 UpdateImage
 (
 aContainer
-Layer
-:
-:
-CONTENT_OPAQUE
 )
 ;
 EndTransaction
