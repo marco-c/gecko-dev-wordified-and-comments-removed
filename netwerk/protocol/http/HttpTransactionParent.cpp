@@ -1127,7 +1127,7 @@ target
 {
 target
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;
@@ -1918,7 +1918,7 @@ nsIEventTarget
 >
 target
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;

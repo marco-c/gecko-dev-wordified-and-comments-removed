@@ -10853,7 +10853,7 @@ item
 >
 mTarget
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;

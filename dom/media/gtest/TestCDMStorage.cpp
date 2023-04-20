@@ -2208,7 +2208,7 @@ get
 )
 false
 true
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 )

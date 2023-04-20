@@ -3033,7 +3033,7 @@ GMPReady
 (
 )
 {
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -

@@ -1115,7 +1115,7 @@ nsresult
 >
 rv
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 -
