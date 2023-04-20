@@ -137,7 +137,7 @@ NULL
 return
 SEC_ASN1_GET
 (
-SEC_AnyTemplate
+SEC_PointerToAnyTemplate
 )
 ;
 }
@@ -155,7 +155,7 @@ theTemplate
 =
 SEC_ASN1_GET
 (
-SEC_AnyTemplate
+SEC_PointerToAnyTemplate
 )
 ;
 break
