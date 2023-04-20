@@ -386,6 +386,16 @@ modelBuffer
 :
 ArrayBuffer
 }
+interface
+LanguageIdEngineMockedPayload
+{
+confidence
+:
+number
+languageLabel
+:
+string
+}
 export
 type
 NodeVisibility
