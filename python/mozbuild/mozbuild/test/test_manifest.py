@@ -2299,14 +2299,6 @@ vendoring
 "
                                     
 "
-branch
-"
-:
-"
-foo
-"
-                                    
-"
 enabled
 "
 :
@@ -2504,10 +2496,6 @@ vendoring
 enabled
 :
 False
-      
-branch
-:
-foo
       
 cc
 :
@@ -2781,14 +2769,6 @@ vendoring
 "
                                     
 "
-branch
-"
-:
-"
-foo
-"
-                                    
-"
 enabled
 "
 :
@@ -2989,10 +2969,6 @@ enabled
 :
 False
       
-branch
-:
-foo
-      
 cc
 :
 [
@@ -3240,14 +3216,6 @@ vendoring
 "
                                     
 "
-branch
-"
-:
-"
-foo
-"
-                                    
-"
 enabled
 "
 :
@@ -3485,10 +3453,6 @@ vendoring
 enabled
 :
 False
-      
-branch
-:
-foo
       
 cc
 :
@@ -3771,14 +3735,6 @@ vendoring
 "
                                     
 "
-branch
-"
-:
-"
-foo
-"
-                                    
-"
 enabled
 "
 :
@@ -4016,10 +3972,6 @@ vendoring
 enabled
 :
 False
-      
-branch
-:
-foo
       
 cc
 :
@@ -4299,14 +4251,6 @@ type
 :
 "
 vendoring
-"
-                                    
-"
-branch
-"
-:
-"
-foo
 "
                                     
 "
@@ -4556,9 +4500,219 @@ enabled
 :
 False
       
+cc
+:
+        
+-
+b
+example
+.
+com
+        
+-
+c
+example
+.
+com
+      
+needinfo
+:
+        
+-
+d
+example
+.
+com
+        
+-
+e
+example
+.
+com
+      
+frequency
+:
+every
+      
+blocking
+:
+1234
+    
+-
+type
+:
+commit
+-
+alert
+      
+filter
+:
+none
+      
+frequency
+:
+2
+commits
+      
+platform
+:
+linux
+      
+source
+-
+extensions
+:
+        
+-
+.
+c
+        
+-
+.
+cpp
+            
+"
+"
+"
+.
+strip
+(
+)
+                
+)
+                
+(
+                    
+"
+exception
+"
+                    
+b
+"
+"
+"
+-
+-
+-
+schema
+:
+1
+origin
+:
+  
+name
+:
+cairo
+  
+description
+:
+2D
+Graphics
+Library
+  
+url
+:
+https
+:
+/
+/
+www
+.
+cairographics
+.
+org
+/
+  
+release
+:
+version
+1
+.
+6
+.
+4
+  
+license
+:
+    
+-
+MPL
+-
+1
+.
+1
+    
+-
+LGPL
+-
+2
+.
+1
+  
+revision
+:
+AA001122334455
+vendoring
+:
+  
+url
+:
+https
+:
+/
+/
+example
+.
+com
+  
+source
+-
+hosting
+:
+gitlab
+bugzilla
+:
+  
+product
+:
+Core
+  
+component
+:
+Graphics
+updatebot
+:
+  
+maintainer
+-
+phab
+:
+tjr
+  
+maintainer
+-
+bz
+:
+a
+example
+.
+com
+  
+tasks
+:
+    
+-
+type
+:
+vendoring
+      
 branch
 :
 foo
+      
+enabled
+:
+False
       
 cc
 :
@@ -5455,10 +5609,6 @@ enabled
 :
 False
       
-branch
-:
-foo
-      
 cc
 :
         
@@ -5681,10 +5831,6 @@ enabled
 :
 False
       
-branch
-:
-foo
-      
 cc
 :
         
@@ -5890,10 +6036,6 @@ vendoring
 enabled
 :
 False
-      
-branch
-:
-foo
       
 cc
 :
@@ -6102,10 +6244,6 @@ vendoring
 enabled
 :
 False
-      
-branch
-:
-foo
       
 cc
 :
@@ -6321,10 +6459,6 @@ enabled
 :
 False
       
-branch
-:
-foo
-      
 cc
 :
         
@@ -6535,10 +6669,6 @@ enabled
 :
 False
       
-branch
-:
-foo
-      
 cc
 :
         
@@ -6745,10 +6875,6 @@ enabled
 :
 False
       
-branch
-:
-foo
-      
 cc
 :
         
@@ -6937,10 +7063,6 @@ enabled
 :
 False
       
-branch
-:
-foo
-      
 cc
 :
         
@@ -7114,10 +7236,6 @@ vendoring
 enabled
 :
 False
-      
-branch
-:
-foo
       
 cc
 :
@@ -7860,10 +7978,6 @@ enabled
 :
 False
       
-branch
-:
-foo
-      
 cc
 :
         
@@ -8048,10 +8162,6 @@ enabled
 :
 False
       
-branch
-:
-foo
-      
 cc
 :
         
@@ -8233,10 +8343,6 @@ vendoring
 enabled
 :
 False
-      
-branch
-:
-foo
       
 cc
 :
@@ -8420,10 +8526,6 @@ vendoring
 enabled
 :
 False
-      
-branch
-:
-foo
       
 cc
 :
