@@ -120,7 +120,6 @@ GeckoExtensionRoute
 )
 >
 {
-return
 vec
 !
 [
@@ -241,7 +240,6 @@ GeckoExtensionRoute
 TakeFullScreenshot
 )
 ]
-;
 }
 #
 [
@@ -249,6 +247,7 @@ derive
 (
 Clone
 PartialEq
+Eq
 )
 ]
 pub
@@ -542,6 +541,7 @@ derive
 Clone
 Debug
 PartialEq
+Eq
 Serialize
 )
 ]
@@ -921,6 +921,7 @@ derive
 Clone
 Debug
 PartialEq
+Eq
 Serialize
 Deserialize
 )
@@ -941,6 +942,7 @@ derive
 Clone
 Debug
 PartialEq
+Eq
 Serialize
 Deserialize
 )
@@ -970,6 +972,7 @@ derive
 Clone
 Debug
 PartialEq
+Eq
 Serialize
 Deserialize
 )
@@ -990,6 +993,7 @@ derive
 Clone
 Debug
 PartialEq
+Eq
 Serialize
 Deserialize
 )
@@ -1014,6 +1018,7 @@ derive
 Default
 Debug
 PartialEq
+Eq
 )
 ]
 pub

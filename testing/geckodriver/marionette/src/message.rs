@@ -188,7 +188,6 @@ serde_json
 :
 to_value
 (
-&
 self
 )
 .

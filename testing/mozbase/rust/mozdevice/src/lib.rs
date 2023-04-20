@@ -1352,7 +1352,6 @@ str
 from_utf8
 (
 &
-*
 response
 )
 .

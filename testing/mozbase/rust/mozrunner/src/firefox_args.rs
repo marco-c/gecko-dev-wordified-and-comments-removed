@@ -383,8 +383,6 @@ str
 Arg
 {
 match
-&
-*
 name
 {
 "

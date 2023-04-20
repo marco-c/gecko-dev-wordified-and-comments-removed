@@ -1753,8 +1753,6 @@ self
 pos
 -
 col_pos
-as
-usize
 )
 as
 u32
@@ -5040,7 +5038,6 @@ data_buf
 push_str
 (
 &
-*
 data
 .
 to_string
