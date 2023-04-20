@@ -14,7 +14,7 @@ BroadcastService
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -27,7 +27,9 @@ modules
 /
 PushBroadcastService
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -88,7 +90,7 @@ broadcastHandler
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -99,7 +101,9 @@ test
 /
 broadcast_handler
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
