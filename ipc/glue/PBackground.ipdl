@@ -1103,6 +1103,16 @@ bool
 sysexEnabled
 )
 ;
+async
+HasMIDIDevice
+(
+)
+returns
+(
+bool
+hasDevice
+)
+;
 /
 /
 This
