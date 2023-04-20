@@ -2789,7 +2789,7 @@ setShapeAndAddNewSlots
 JSContext
 *
 cx
-Shape
+SharedShape
 *
 newShape
 uint32_t
@@ -2808,11 +2808,10 @@ inDictionaryMode
 ;
 MOZ_ASSERT
 (
-!
 newShape
 -
 >
-isDictionary
+isShared
 (
 )
 )
@@ -2889,10 +2888,6 @@ MOZ_ASSERT
 newShape
 -
 >
-asShared
-(
-)
-.
 slotSpan
 (
 )
@@ -3042,7 +3037,7 @@ setShapeAndAddNewSlot
 JSContext
 *
 cx
-Shape
+SharedShape
 *
 newShape
 uint32_t
@@ -3059,11 +3054,10 @@ inDictionaryMode
 ;
 MOZ_ASSERT
 (
-!
 newShape
 -
 >
-isDictionary
+isShared
 (
 )
 )
@@ -3123,10 +3117,6 @@ MOZ_ASSERT
 newShape
 -
 >
-asShared
-(
-)
-.
 slotSpan
 (
 )
@@ -3149,10 +3139,6 @@ MOZ_ASSERT
 newShape
 -
 >
-asShared
-(
-)
-.
 slotSpan
 (
 )

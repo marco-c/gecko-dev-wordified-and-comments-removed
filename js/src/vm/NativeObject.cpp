@@ -6728,7 +6728,13 @@ obj
 setShapeAndAddNewSlot
 (
 cx
+&
 newShape
+-
+>
+asShared
+(
+)
 slot
 )
 )
