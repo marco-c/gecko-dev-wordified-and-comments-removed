@@ -1044,6 +1044,14 @@ MutableHandleValue
 result
 )
 ;
+enum
+class
+CheckJitInfo
+{
+No
+Yes
+}
+;
 [
 [
 nodiscard
@@ -1064,6 +1072,8 @@ DebuggerObject
 object
 HandleValue
 value
+CheckJitInfo
+checkJitInfo
 MutableHandleValue
 result
 )
