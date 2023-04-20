@@ -33,6 +33,12 @@ path
 as
 mozpath
 from
+mozilla_version
+.
+gecko
+import
+GeckoVersion
+from
 mozbuild
 .
 repackaging
@@ -554,22 +560,25 @@ application_ini_data
     
 arch
     
-version
+version_string
     
 build_number
 )
 :
     
-if
-"
-a
-"
-in
 version
-:
-        
+=
+GeckoVersion
+.
+parse
+(
+version_string
+)
+    
 deb_pkg_version
 =
+(
+        
 f
 "
 {
@@ -585,12 +594,13 @@ build_id
 ]
 }
 "
-    
-else
-:
         
-deb_pkg_version
-=
+if
+version
+.
+is_nightly
+        
+else
 f
 "
 {
@@ -602,6 +612,8 @@ build
 build_number
 }
 "
+    
+)
     
 return
 {
