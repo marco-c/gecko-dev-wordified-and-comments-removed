@@ -1456,9 +1456,14 @@ showModal
 ;
 assert_false
 (
-isElementVisible
-(
 popover
+.
+matches
+(
+'
+:
+open
+'
 )
 '
 Opening
@@ -1469,7 +1474,6 @@ should
 hide
 the
 popover
-immediately
 '
 )
 ;
@@ -1495,6 +1499,12 @@ dialog
 is
 shown
 '
+)
+;
+await
+finishAnimationsAndVerifyHide
+(
+popover
 )
 ;
 dialog
