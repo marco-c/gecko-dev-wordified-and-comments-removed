@@ -419,9 +419,9 @@ if
 [
 -
 f
-log_resume
-.
-txt
+STATE_DIR
+/
+resume_state
 ]
 ;
 then
@@ -430,9 +430,9 @@ RESUME
 tail
 -
 1
-log_resume
-.
-txt
+STATE_DIR
+/
+resume_state
 fi
 ERROR_HELP
 =
