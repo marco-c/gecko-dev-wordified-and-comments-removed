@@ -47,7 +47,7 @@ timeouts_
 (
 timeouts
 )
-callback_
+timeout_cb_
 (
 std
 :
@@ -126,7 +126,7 @@ TimeoutForNextFrame
 (
 )
 ;
-timeout_
+last_frame_
 =
 clock_
 -
@@ -134,6 +134,10 @@ clock_
 CurrentTime
 (
 )
+;
+timeout_
+=
+last_frame_
 +
 timeout_delay
 ;
@@ -150,11 +154,6 @@ timeout_delay
 this
 ]
 {
-RTC_DCHECK_RUN_ON
-(
-bookkeeping_queue_
-)
-;
 return
 HandleTimeoutTask
 (
@@ -235,7 +234,7 @@ waiting_for_keyframe_
 =
 false
 ;
-timeout_
+last_frame_
 =
 clock_
 -
@@ -243,6 +242,10 @@ clock_
 CurrentTime
 (
 )
+;
+timeout_
+=
+last_frame_
 +
 TimeoutForNextFrame
 (
@@ -288,8 +291,11 @@ now
 +
 timeout_delay
 ;
-callback_
+timeout_cb_
 (
+now
+-
+last_frame_
 )
 ;
 return
