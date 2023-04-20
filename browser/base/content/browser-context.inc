@@ -1437,7 +1437,7 @@ event
 target
 gContextMenu
 .
-linkURL
+linkURI
 gContextMenu
 .
 linkTextStr
@@ -3390,8 +3390,6 @@ target
 gBrowser
 .
 currentURI
-.
-spec
 gBrowser
 .
 contentTitle
