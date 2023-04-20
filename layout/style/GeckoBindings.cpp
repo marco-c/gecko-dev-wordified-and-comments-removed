@@ -7959,7 +7959,7 @@ Consume
 (
 )
 ;
-NS_DispatchToMainThread
+NS_DispatchToMainThreadQueue
 (
 NS_NewRunnableFunction
 (
@@ -8039,6 +8039,10 @@ counters
 ;
 }
 )
+EventQueuePriority
+:
+:
+RenderBlocking
 )
 ;
 }
@@ -8463,7 +8467,7 @@ Consume
 (
 )
 ;
-NS_DispatchToMainThread
+NS_DispatchToMainThreadQueue
 (
 NS_NewRunnableFunction
 (
@@ -8560,6 +8564,10 @@ sheet
 ;
 }
 )
+EventQueuePriority
+:
+:
+RenderBlocking
 )
 ;
 }
