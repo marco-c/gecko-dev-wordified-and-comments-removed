@@ -1290,6 +1290,9 @@ if
 (
 !
 migrator
+?
+.
+enabled
 )
 {
 return
