@@ -1046,13 +1046,13 @@ cxx
     
 asm
     
-ld
-    
 ar
     
 ranlib
     
 libtool
+    
+ldflags
     
 src_dir
     
@@ -1143,10 +1143,10 @@ cmake_base_args
 cc
 cxx
 asm
-ld
 ar
 ranlib
 libtool
+ldflags
 inst_dir
 )
 :
@@ -1215,22 +1215,6 @@ s
 slashify_path
 (
 asm
-[
-0
-]
-)
-            
-"
--
-DCMAKE_LINKER
-=
-%
-s
-"
-%
-slashify_path
-(
-ld
 [
 0
 ]
@@ -1322,11 +1306,7 @@ s
 .
 join
 (
-ld
-[
-1
-:
-]
+ldflags
 )
             
 "
@@ -1342,11 +1322,7 @@ s
 .
 join
 (
-ld
-[
-1
-:
-]
+ldflags
 )
             
 "
@@ -1426,6 +1402,13 @@ DLLVM_INCLUDE_TESTS
 =
 OFF
 "
+            
+"
+-
+DLLVM_ENABLE_LLD
+=
+ON
+"
         
 ]
         
@@ -1471,6 +1454,9 @@ projects
 "
 clang
 "
+"
+lld
+"
 ]
         
 if
@@ -1479,8 +1465,7 @@ is_final_stage
             
 projects
 .
-extend
-(
+append
 (
 "
 clang
@@ -1489,10 +1474,6 @@ tools
 -
 extra
 "
-"
-lld
-"
-)
 )
         
 else
@@ -2120,10 +2101,10 @@ cmake_base_args
 cc
 cxx
 asm
-ld
 ar
 ranlib
 libtool
+ldflags
 inst_dir
 )
     
@@ -4114,24 +4095,6 @@ as
 "
 )
     
-ld
-=
-get_tool
-(
-config
-"
-link
-"
-if
-is_windows
-(
-)
-else
-"
-ld
-"
-)
-    
 ar
 =
 get_tool
@@ -4418,7 +4381,7 @@ fuse
 -
 ld
 =
-gold
+lld
 "
 "
 -
@@ -4793,17 +4756,13 @@ asm
 +
 extra_asmflags
             
-[
-ld
-]
-+
-extra_ldflags
-            
 ar
             
 ranlib
             
 libtool
+            
+extra_ldflags
             
 llvm_source_dir
             
@@ -4948,17 +4907,13 @@ asm
 +
 extra_asmflags
             
-[
-ld
-]
-+
-extra_ldflags
-            
 ar
             
 ranlib
             
 libtool
+            
+extra_ldflags
             
 llvm_source_dir
             
@@ -5113,17 +5068,13 @@ asm
 +
 extra_asmflags
             
-[
-ld
-]
-+
-extra_ldflags
-            
 ar
             
 ranlib
             
 libtool
+            
+extra_ldflags
             
 llvm_source_dir
             
@@ -5419,17 +5370,13 @@ asm
 +
 extra_asmflags
             
-[
-ld
-]
-+
-extra_ldflags
-            
 ar
             
 ranlib
             
 libtool
+            
+extra_ldflags
             
 llvm_source_dir
             

@@ -87,6 +87,10 @@ clang
 -
 11
 \
+lld
+-
+11
+\
 cmake
 \
 flex
