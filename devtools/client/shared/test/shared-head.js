@@ -2999,9 +2999,6 @@ accessibility
 "
 webconsole
 "
-"
-jsdebugger
-"
 ]
 .
 includes

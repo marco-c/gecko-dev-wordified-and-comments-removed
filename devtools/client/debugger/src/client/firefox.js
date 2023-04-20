@@ -795,14 +795,6 @@ if
 event
 .
 isFrameSwitching
-&
-&
-!
-commands
-.
-descriptorFront
-.
-isWebExtensionDescriptor
 )
 {
 continue
