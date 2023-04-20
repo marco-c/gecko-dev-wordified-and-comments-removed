@@ -1708,7 +1708,7 @@ aValue
 ;
 protected
 :
-nsresult
+nscoord
 SetupHeaderFooterChild
 (
 const
@@ -1718,9 +1718,6 @@ aReflowInput
 nsTableRowGroupFrame
 *
 aFrame
-nscoord
-*
-aDesiredHeight
 )
 ;
 void
