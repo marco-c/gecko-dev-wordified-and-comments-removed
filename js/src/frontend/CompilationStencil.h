@@ -6072,6 +6072,9 @@ CompilationState
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 LifoAllocScope
 &
 parserAllocScope
