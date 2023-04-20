@@ -407,6 +407,13 @@ it
 skipped_lkgr_bots
 =
 [
+"
+Linux64
+Release
+(
+reclient
+)
+"
 ]
 #
 Use
