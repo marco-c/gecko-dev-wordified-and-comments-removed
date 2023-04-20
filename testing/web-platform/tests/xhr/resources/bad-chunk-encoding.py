@@ -87,6 +87,22 @@ nosniff
     
 response
 .
+headers
+.
+set
+(
+b
+"
+Connection
+"
+b
+"
+close
+"
+)
+    
+response
+.
 close_connection
 =
 True
