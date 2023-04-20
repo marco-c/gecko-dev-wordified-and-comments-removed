@@ -1090,6 +1090,9 @@ RefCast
 BrOnCast
 =
 0x46
+BrOnCastFail
+=
+0x47
 Limit
 }
 ;
