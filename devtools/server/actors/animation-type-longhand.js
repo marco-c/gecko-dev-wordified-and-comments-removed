@@ -1855,6 +1855,11 @@ path
 "
 offset
 -
+position
+"
+"
+offset
+-
 rotate
 "
 "
