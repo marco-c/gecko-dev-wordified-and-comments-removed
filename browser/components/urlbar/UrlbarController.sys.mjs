@@ -4220,12 +4220,13 @@ payload
 .
 suggestion
 }
-{
-handleError
+)
+.
+catch
 (
 error
-)
-{
+=
+>
 Cu
 .
 reportError
@@ -4239,9 +4240,6 @@ failed
 error
 }
 )
-;
-}
-}
 )
 ;
 return
