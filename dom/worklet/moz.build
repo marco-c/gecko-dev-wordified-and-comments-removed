@@ -21,6 +21,14 @@ Core
 HTML
 "
 )
+DIRS
++
+=
+[
+"
+loader
+"
+]
 EXPORTS
 .
 mozilla
