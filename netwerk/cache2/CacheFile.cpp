@@ -850,6 +850,7 @@ CacheFileListener
 *
 aCallback
 )
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
 MOZ_ASSERT
 (
