@@ -347,7 +347,7 @@ IsInvisible
 )
 const
 ;
-protected
+private
 :
 void
 PaintSVG
@@ -418,14 +418,11 @@ return
 false
 ;
 }
-virtual
 uint16_t
 GetHitTestFlags
 (
 )
 ;
-private
-:
 enum
 {
 eRenderFill
@@ -453,7 +450,6 @@ imgDrawingParams
 aImgParams
 )
 ;
-virtual
 bool
 CreateWebRenderCommands
 (
@@ -697,7 +693,6 @@ true
 )
 ;
 }
-virtual
 bool
 CreateWebRenderCommands
 (
