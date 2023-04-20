@@ -1279,6 +1279,7 @@ autofill_url
 autofill_unknown
 bookmark
 history
+input_field
 keyword
 search_engine
 search_suggest
