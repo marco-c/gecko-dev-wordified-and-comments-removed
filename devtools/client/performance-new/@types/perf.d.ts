@@ -466,10 +466,6 @@ remote
 "
 |
 "
-aboutlogging
-"
-|
-"
 aboutprofiling
 "
 |
