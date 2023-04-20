@@ -47,7 +47,7 @@ entry
 }
 async
 function
-setUpWindowPlacement
+setUpWindowManagement
 (
 setUpTest
 setUpButton

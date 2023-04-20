@@ -73,7 +73,7 @@ denied
 "
 Deny
 window
-placement
+management
 permission
 should
 work
@@ -151,7 +151,7 @@ granted
 "
 Grant
 window
-placement
+management
 permission
 should
 work
