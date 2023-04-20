@@ -1468,16 +1468,6 @@ true
 name
 :
 "
-ContentVisibilityAutoStateChangeEvent
-"
-nightly
-:
-true
-}
-{
-name
-:
-"
 ConvolverNode
 "
 insecureContext
