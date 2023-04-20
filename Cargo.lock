@@ -12335,6 +12335,9 @@ dom
 encoding_glue
 "
 "
+fallible_collections
+"
+"
 fluent
 "
 "
