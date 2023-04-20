@@ -1567,17 +1567,6 @@ InlinableNative
 :
 TypedArrayConstructor
 :
-#
-ifdef
-FUZZING_JS_FUZZILLI
-case
-InlinableNative
-:
-:
-FuzzilliHash
-:
-#
-endif
 return
 false
 ;
