@@ -8934,7 +8934,9 @@ Records
 when
 JSONFile
 .
-jsm
+sys
+.
+mjs
 consumers
 are
 trying
@@ -8973,7 +8975,9 @@ TELEMETRY_BASENAMES
 from
 JSONFile
 .
-jsm
+sys
+.
+mjs
 .
 objects
 :
