@@ -351,10 +351,6 @@ toolchain
 -
 linux64
 -
-liblowercase
--
-linux64
--
 rust
 -
 windows
@@ -405,10 +401,6 @@ linux64
 clang
 -
 toolchain
--
-linux64
--
-liblowercase
 -
 linux64
 -

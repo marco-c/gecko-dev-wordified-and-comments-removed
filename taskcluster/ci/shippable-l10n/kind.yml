@@ -318,10 +318,6 @@ linux64
 -
 wine
 -
-linux64
--
-liblowercase
--
 nsis
 fetch
 :

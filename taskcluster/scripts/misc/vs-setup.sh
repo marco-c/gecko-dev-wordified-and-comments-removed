@@ -31,11 +31,11 @@ VSDIR
 "
 VCDIR
 =
-vc
+VC
 /
-tools
+Tools
 /
-msvc
+MSVC
 /
 14
 .
@@ -61,11 +61,11 @@ VCDIR
 then
 VCDIR
 =
-vc
+VC
 /
-tools
+Tools
 /
-msvc
+MSVC
 /
 14
 .
@@ -76,8 +76,8 @@ fi
 SDKDIR
 =
 "
-windows
-kits
+Windows
+Kits
 /
 10
 "
@@ -104,7 +104,7 @@ VSPATH
 SDKDIR
 }
 /
-lib
+Lib
 /
 {
 SDK_VERSION
@@ -196,7 +196,7 @@ VSPATH
 SDKDIR
 }
 /
-include
+Include
 /
 {
 SDK_VERSION
@@ -212,7 +212,7 @@ VSPATH
 SDKDIR
 }
 /
-include
+Include
 /
 {
 SDK_VERSION
@@ -228,7 +228,7 @@ VSPATH
 SDKDIR
 }
 /
-include
+Include
 /
 {
 SDK_VERSION
@@ -244,7 +244,7 @@ VSPATH
 SDKDIR
 }
 /
-include
+Include
 /
 {
 SDK_VERSION
@@ -303,7 +303,7 @@ VSPATH
 SDKDIR
 }
 /
-lib
+Lib
 /
 {
 SDK_VERSION
@@ -323,7 +323,7 @@ VSPATH
 SDKDIR
 }
 /
-lib
+Lib
 /
 {
 SDK_VERSION

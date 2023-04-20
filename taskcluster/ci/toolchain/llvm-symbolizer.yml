@@ -706,10 +706,6 @@ clang
 -
 stage1
 -
-linux64
--
-liblowercase
--
 win64
 -
 vs2019
@@ -1347,10 +1343,6 @@ clang
 trunk
 -
 stage1
--
-linux64
--
-liblowercase
 -
 win64
 -

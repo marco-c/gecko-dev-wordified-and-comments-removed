@@ -1476,10 +1476,6 @@ clang
 -
 toolchain
 -
-linux64
--
-liblowercase
--
 win64
 -
 vs2017
@@ -1640,10 +1636,6 @@ linux64
 clang
 -
 toolchain
--
-linux64
--
-liblowercase
 -
 win64
 -

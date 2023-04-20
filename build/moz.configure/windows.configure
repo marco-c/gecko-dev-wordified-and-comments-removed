@@ -377,7 +377,7 @@ get_dirs_containing
 (
 sdk
 "
-include
+Include
 "
 subdir
 )
@@ -390,7 +390,7 @@ get_dirs_containing
 (
 sdk
 "
-lib
+Lib
 "
 subdir
 )
