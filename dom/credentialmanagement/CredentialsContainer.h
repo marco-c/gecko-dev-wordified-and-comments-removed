@@ -159,9 +159,6 @@ WebAuthnManager
 >
 mManager
 ;
-bool
-mActiveIdentityRequest
-;
 }
 ;
 }
