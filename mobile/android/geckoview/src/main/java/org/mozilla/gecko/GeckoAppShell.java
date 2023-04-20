@@ -6277,6 +6277,9 @@ HardwareUtils
 .
 isTablet
 (
+getApplicationContext
+(
+)
 )
 ;
 }
