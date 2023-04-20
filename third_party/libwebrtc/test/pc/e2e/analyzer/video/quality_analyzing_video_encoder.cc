@@ -1381,12 +1381,6 @@ GetEncoderInfo
 implementation_name
 ;
 }
-if
-(
-!
-discard
-)
-{
 VideoQualityAnalyzerInterface
 :
 :
@@ -1416,7 +1410,6 @@ encoded_image
 stats
 )
 ;
-}
 const
 EncodedImage
 &
