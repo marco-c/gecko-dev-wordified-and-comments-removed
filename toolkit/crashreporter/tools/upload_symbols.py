@@ -1721,12 +1721,17 @@ status_code
 <
 500
 and
+(
 r
 .
 status_code
-!
-=
+not
+in
+(
+408
 429
+)
+)
 )
 :
                 
