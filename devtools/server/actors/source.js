@@ -1258,7 +1258,7 @@ positions
 await
 this
 .
-getBreakpointPositions
+_getBreakpointPositions
 (
 )
 ;
@@ -2134,7 +2134,7 @@ getChildScripts
 }
 }
 async
-getBreakpointPositions
+_getBreakpointPositions
 (
 query
 )
@@ -2377,7 +2377,7 @@ items
 await
 this
 .
-getBreakpointPositions
+_getBreakpointPositions
 (
 query
 )
