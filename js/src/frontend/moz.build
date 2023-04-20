@@ -307,6 +307,11 @@ ParserAtom
 cpp
 "
 "
+ParseScript
+.
+cpp
+"
+"
 PrivateOpEmitter
 .
 cpp
