@@ -278,6 +278,16 @@ bytes
 =
 0
 ;
+virtual
+void
+EnableMessageInterleaving
+(
+bool
+enabled
+)
+=
+0
+;
 }
 ;
 }

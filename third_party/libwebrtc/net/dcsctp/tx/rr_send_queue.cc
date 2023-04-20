@@ -179,6 +179,8 @@ string_view
 log_prefix
 size_t
 buffer_size
+size_t
+mtu
 StreamPriority
 default_priority
 std
@@ -231,10 +233,7 @@ default_priority
 )
 scheduler_
 (
-DcSctpOptions
-:
-:
-kMaxSafeMTUSize
+mtu
 )
 on_buffered_amount_low_
 (

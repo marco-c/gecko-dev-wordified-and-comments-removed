@@ -1566,6 +1566,9 @@ options_
 max_send_buffer_size
 options_
 .
+mtu
+options_
+.
 default_stream_priority
 [
 this

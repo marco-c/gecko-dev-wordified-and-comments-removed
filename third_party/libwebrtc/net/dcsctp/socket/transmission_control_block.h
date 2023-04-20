@@ -616,6 +616,15 @@ Reset
 )
 ;
 }
+send_queue
+.
+EnableMessageInterleaving
+(
+capabilities
+.
+message_interleaving
+)
+;
 }
 bool
 is_connection_established
