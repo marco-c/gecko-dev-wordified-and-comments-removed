@@ -216,6 +216,9 @@ nsICookieBannerRule
 *
 *
 aRule
+nsACString
+&
+aDomain
 bool
 aReportTelemetry
 =
