@@ -93,6 +93,7 @@ ContextKind
 kind
 )
 ;
+virtual
 void
 SetRequest
 (

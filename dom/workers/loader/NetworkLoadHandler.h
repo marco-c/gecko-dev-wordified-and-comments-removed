@@ -182,8 +182,10 @@ ThreadSafeWorkerRef
 >
 mWorkerRef
 ;
+RefPtr
+<
 WorkerLoadContext
-*
+>
 mLoadContext
 ;
 }
