@@ -512,13 +512,6 @@ PropTypes
 bool
 .
 isRequired
-showContentMessages
-:
-PropTypes
-.
-bool
-.
-isRequired
 timestampsVisible
 :
 PropTypes
@@ -713,7 +706,6 @@ filter
 filteredMessagesCount
 groupWarnings
 persistLogs
-showContentMessages
 timestampsVisible
 eagerEvaluation
 autocomplete
@@ -777,15 +769,6 @@ persistLogs
 =
 =
 persistLogs
-|
-|
-nextProps
-.
-showContentMessages
-!
-=
-=
-showContentMessages
 |
 |
 nextProps
@@ -1721,7 +1704,6 @@ enableNetworkMonitoring
 eagerEvaluation
 groupWarnings
 persistLogs
-showContentMessages
 timestampsVisible
 webConsoleUI
 autocomplete
@@ -1740,7 +1722,6 @@ enableNetworkMonitoring
 eagerEvaluation
 groupWarnings
 persistLogs
-showContentMessages
 timestampsVisible
 webConsoleUI
 autocomplete
@@ -2115,11 +2096,6 @@ eagerEvaluation
 prefsState
 .
 eagerEvaluation
-showContentMessages
-:
-uiState
-.
-showContentMessages
 timestampsVisible
 :
 uiState

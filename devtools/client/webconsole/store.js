@@ -660,9 +660,6 @@ UI
 .
 PERSIST
 )
-showContentMessages
-:
-true
 editor
 :
 getBoolPref
