@@ -28,6 +28,13 @@ h
 #
 include
 "
+PerformanceRecorder
+.
+h
+"
+#
+include
+"
 SimpleMap
 .
 h
@@ -802,6 +809,12 @@ AVDiscard
 mFrameDrop
 =
 AVDISCARD_DEFAULT
+;
+PerformanceRecorderMulti
+<
+DecodeStage
+>
+mPerformanceRecorder
 ;
 Maybe
 <
