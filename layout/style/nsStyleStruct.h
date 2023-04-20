@@ -5700,6 +5700,8 @@ const
 {
 return
 mIterationCount
+.
+_0
 ;
 }
 dom
@@ -5822,7 +5824,7 @@ mFillMode
 StyleAnimationPlayState
 mPlayState
 ;
-float
+StyleAnimationIterationCount
 mIterationCount
 ;
 dom

@@ -11511,9 +11511,11 @@ Running
 ;
 mIterationCount
 =
+{
 1
 .
 0f
+}
 ;
 mComposition
 =
