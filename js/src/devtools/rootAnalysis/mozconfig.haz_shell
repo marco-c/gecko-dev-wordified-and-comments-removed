@@ -125,6 +125,12 @@ enable
 nspr
 -
 build
+ac_add_options
+-
+-
+disable
+-
+jemalloc
 if
 [
 -
