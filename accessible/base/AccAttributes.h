@@ -1322,6 +1322,13 @@ aValueString
 )
 ;
 }
+size_t
+SizeOfExcludingThis
+(
+MallocSizeOf
+aMallocSizeOf
+)
+;
 private
 :
 nsAtom
@@ -1523,6 +1530,13 @@ aAttributes
 ;
 #
 endif
+size_t
+SizeOfIncludingThis
+(
+MallocSizeOf
+aMallocSizeOf
+)
+;
 private
 :
 static
