@@ -144,6 +144,11 @@ exports
 CSSAtRuleClassNameType
 =
 {
+CSSContainerRule
+:
+"
+container
+"
 CSSCounterStyleRule
 :
 "
@@ -186,6 +191,11 @@ CSSKeyframesRule
 :
 "
 keyframes
+"
+CSSLayerBlockRule
+:
+"
+layer
 "
 CSSMediaRule
 :

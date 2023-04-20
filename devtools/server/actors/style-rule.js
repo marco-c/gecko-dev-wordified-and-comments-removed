@@ -2299,10 +2299,16 @@ Set
 (
 [
 "
+CSSContainerRule
+"
+"
 CSSKeyframeRule
 "
 "
 CSSKeyframesRule
+"
+"
+CSSLayerBlockRule
 "
 "
 CSSMediaRule
