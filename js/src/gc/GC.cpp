@@ -14305,10 +14305,6 @@ discardJITCodeForGC
 (
 )
 ;
-startBackgroundFreeAfterMinorGC
-(
-)
-;
 if
 (
 isShrinkingGC
@@ -14330,6 +14326,10 @@ purgeSourceURLsForShrinkingGC
 ;
 }
 purgeRuntime
+(
+)
+;
+startBackgroundFreeAfterMinorGC
 (
 )
 ;
