@@ -1803,7 +1803,10 @@ helpUrl
 QuickSuggest
 .
 HELP_URL
-helpL10nId
+helpL10n
+:
+{
+id
 :
 "
 firefox
@@ -1816,6 +1819,7 @@ learn
 -
 more
 "
+}
 requestId
 :
 MerinoTestUtils
