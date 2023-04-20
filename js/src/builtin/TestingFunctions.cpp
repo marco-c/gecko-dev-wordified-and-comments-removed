@@ -34607,6 +34607,12 @@ return
 false
 ;
 }
+if
+(
+!
+fuzzingSafe
+)
+{
 RootedValue
 wrapped
 (
@@ -34658,6 +34664,7 @@ JSPROP_ENUMERATE
 return
 false
 ;
+}
 }
 heaptools
 :
