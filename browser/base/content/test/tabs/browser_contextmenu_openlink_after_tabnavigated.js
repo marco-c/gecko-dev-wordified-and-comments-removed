@@ -212,10 +212,11 @@ openlinkintab
 "
 )
 ;
-openLinkMenuItem
+contextMenu
 .
-click
+activateItem
 (
+openLinkMenuItem
 )
 ;
 info

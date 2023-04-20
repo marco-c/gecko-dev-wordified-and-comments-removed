@@ -416,10 +416,11 @@ searchselect
 0
 ]
 ;
-searchItem
+contextMenu
 .
-click
+activateItem
 (
+searchItem
 )
 ;
 info

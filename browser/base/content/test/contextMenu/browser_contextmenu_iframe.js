@@ -295,10 +295,11 @@ disabled
 "
 )
 ;
-domItem
+contextMenu
 .
-click
+activateItem
 (
+domItem
 )
 ;
 let
@@ -306,12 +307,6 @@ openedTab
 =
 await
 openPromise
-;
-contextMenu
-.
-hidePopup
-(
-)
 ;
 await
 awaitPopupHidden

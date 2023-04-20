@@ -165,7 +165,7 @@ label
 ;
 target
 .
-click
+doCommand
 (
 )
 ;
