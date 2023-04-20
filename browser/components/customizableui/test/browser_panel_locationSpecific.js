@@ -48,6 +48,8 @@ true
 ;
 specificPanel
 .
+style
+.
 height
 =
 "
@@ -55,6 +57,8 @@ height
 "
 ;
 specificPanel
+.
+style
 .
 width
 =
@@ -88,6 +92,8 @@ true
 ;
 generalPanel
 .
+style
+.
 height
 =
 "
@@ -95,6 +101,8 @@ height
 "
 ;
 generalPanel
+.
+style
 .
 width
 =
