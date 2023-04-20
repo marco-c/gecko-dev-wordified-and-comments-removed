@@ -343,10 +343,6 @@ fluent_ffi
 ;
 extern
 crate
-regex_ffi
-;
-extern
-crate
 rure
 ;
 extern
