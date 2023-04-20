@@ -151,7 +151,7 @@ kMaxResidualGainChange
 ;
 constexpr
 float
-kOverrideTargetSpeechLevelDbfs
+kTargetSpeechLevelDbfs
 =
 -
 18
@@ -160,7 +160,7 @@ kOverrideTargetSpeechLevelDbfs
 ;
 constexpr
 float
-kOverrideSpeechProbabilitySilenceThreshold
+kSpeechProbabilitySilenceThreshold
 =
 0
 .
@@ -168,7 +168,7 @@ kOverrideSpeechProbabilitySilenceThreshold
 ;
 constexpr
 int
-kOverrideWaitFrames
+kUpdateInputVolumeWaitFrames
 =
 0
 ;
@@ -729,7 +729,7 @@ if
 (
 speech_probability
 <
-kOverrideSpeechProbabilitySilenceThreshold
+kSpeechProbabilitySilenceThreshold
 )
 {
 return
@@ -759,7 +759,7 @@ std
 :
 round
 (
-kOverrideTargetSpeechLevelDbfs
+kTargetSpeechLevelDbfs
 -
 speech_level
 )
@@ -871,7 +871,7 @@ optional
 <
 int
 >
-rms_error_override
+rms_error
 )
 {
 if
@@ -890,7 +890,7 @@ CheckVolumeAndReset
 }
 if
 (
-rms_error_override
+rms_error
 .
 has_value
 (
@@ -904,13 +904,13 @@ is_first_frame_
 frames_since_update_gain_
 >
 =
-kOverrideWaitFrames
+kUpdateInputVolumeWaitFrames
 )
 {
 UpdateGain
 (
 *
-rms_error_override
+rms_error
 )
 ;
 }
@@ -922,7 +922,7 @@ if
 (
 frames_since_update_gain_
 <
-kOverrideWaitFrames
+kUpdateInputVolumeWaitFrames
 )
 {
 +
@@ -2442,7 +2442,7 @@ optional
 <
 int
 >
-rms_error_override
+rms_error
 ;
 if
 (
@@ -2460,7 +2460,7 @@ has_value
 )
 )
 {
-rms_error_override
+rms_error
 =
 GetSpeechLevelErrorDb
 (
@@ -2485,7 +2485,7 @@ controller
 >
 Process
 (
-rms_error_override
+rms_error
 )
 ;
 }
