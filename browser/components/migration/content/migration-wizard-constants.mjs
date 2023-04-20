@@ -120,6 +120,11 @@ Object
 freeze
 (
 {
+LOADING
+:
+"
+loading
+"
 SELECTION
 :
 "
