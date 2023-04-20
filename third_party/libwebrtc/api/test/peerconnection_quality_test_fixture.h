@@ -1069,6 +1069,10 @@ absl
 :
 string_view
 stream_label
+const
+VideoResolution
+&
+resolution
 )
 const
 ;
@@ -1089,6 +1093,10 @@ absl
 :
 string_view
 stream_label
+const
+VideoResolution
+&
+resolution
 )
 const
 ;
@@ -1108,6 +1116,10 @@ absl
 :
 string_view
 receiver
+const
+VideoResolution
+&
+resolution
 )
 const
 ;
@@ -1133,6 +1145,10 @@ absl
 :
 string_view
 receiver
+const
+VideoResolution
+&
+resolution
 )
 const
 ;
