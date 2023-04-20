@@ -2920,7 +2920,7 @@ BuildDefaultBlocklistFilename
 (
 )
 {
-constexpr
+const
 DWORD
 flags
 =
