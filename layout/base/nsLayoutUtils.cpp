@@ -27107,7 +27107,7 @@ LengthPercentageOrAuto
 aCoord
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 NS_UNCONSTRAINEDSIZE
 !
