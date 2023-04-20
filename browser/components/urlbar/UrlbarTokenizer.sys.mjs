@@ -2049,8 +2049,17 @@ info
 (
 "
 Tokenizing
+search
+string
 "
+JSON
+.
+stringify
+(
 queryContext
+.
+searchString
+)
 )
 ;
 if
