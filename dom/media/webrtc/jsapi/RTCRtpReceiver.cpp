@@ -2709,7 +2709,11 @@ double
 videoStats
 -
 >
-total_decode_time_ms
+total_decode_time
+.
+ms
+(
+)
 )
 /
 1000
