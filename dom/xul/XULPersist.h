@@ -14,6 +14,13 @@ h
 #
 ifndef
 MOZ_NEW_XULSTORE
+#
+include
+"
+nsCOMPtr
+.
+h
+"
 class
 nsIXULStore
 ;
