@@ -326,6 +326,11 @@ MFCDMChild
 .
 cpp
 "
+]
+SOURCES
++
+=
+[
 "
 MFCDMParent
 .
