@@ -1107,7 +1107,9 @@ res
 /
 StructuredLog
 .
-jsm
+sys
+.
+mjs
 (
 .
 .
@@ -1124,7 +1126,9 @@ modules
 /
 StructuredLog
 .
-jsm
+sys
+.
+mjs
 )
 res
 /

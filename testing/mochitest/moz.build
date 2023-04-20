@@ -188,7 +188,9 @@ modules
 /
 StructuredLog
 .
-jsm
+sys
+.
+mjs
 "
 "
 tests

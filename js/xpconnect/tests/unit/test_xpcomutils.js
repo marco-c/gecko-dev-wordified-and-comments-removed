@@ -904,7 +904,7 @@ newAppInfo
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -917,7 +917,9 @@ common
 /
 AppInfo
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

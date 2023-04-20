@@ -136,7 +136,7 @@ StructuredLogger
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -147,7 +147,9 @@ reftest
 /
 StructuredLog
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
