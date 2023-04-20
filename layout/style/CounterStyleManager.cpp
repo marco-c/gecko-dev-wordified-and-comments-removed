@@ -206,10 +206,13 @@ counter
 auto
 n
 =
+CounterValue
+(
 aSymbols
 .
 Length
 (
+)
 )
 ;
 CounterValue
