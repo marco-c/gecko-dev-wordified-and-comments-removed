@@ -1880,7 +1880,13 @@ show
 (
 anchor
 "
-pageBookmarked2
+confirmation
+-
+hint
+-
+page
+-
+bookmarked
 "
 )
 ;
