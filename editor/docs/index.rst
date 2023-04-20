@@ -35,4 +35,6 @@ toctree
 maxdepth
 :
 1
+EditorModuleStructure
+EditorModuleSpecificRules
 IMEHandlingGuide
