@@ -36,6 +36,11 @@ __cplusplus
 201103L
 &
 &
+__cplusplus
+<
+202002L
+&
+&
 !
 defined
 (

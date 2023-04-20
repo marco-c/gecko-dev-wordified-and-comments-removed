@@ -776,6 +776,11 @@ sized
 "
 )
 ;
+#
+if
+__cplusplus
+<
+202002L
 static_assert
 (
 std
@@ -856,6 +861,8 @@ int
 >
 )
 ;
+#
+endif
 static
 constexpr
 GenericErrorResult
