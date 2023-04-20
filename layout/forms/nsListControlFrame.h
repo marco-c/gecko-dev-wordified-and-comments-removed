@@ -235,7 +235,6 @@ aPrevInFlow
 )
 final
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 DidReflow
 (
@@ -769,6 +768,8 @@ int32_t
 anIndex
 )
 ;
+public
+:
 MOZ_CAN_RUN_SCRIPT
 void
 ResetList
@@ -777,6 +778,8 @@ bool
 aAllowScrolling
 )
 ;
+protected
+:
 explicit
 nsListControlFrame
 (
