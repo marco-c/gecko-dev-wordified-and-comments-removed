@@ -1423,7 +1423,7 @@ aRequest
 )
 ;
 nsresult
-AttemptAsyncScriptCompile
+AttemptOffThreadScriptCompile
 (
 ScriptLoadRequest
 *
