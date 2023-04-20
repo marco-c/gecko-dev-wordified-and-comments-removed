@@ -1889,6 +1889,13 @@ false
 -
 name
 :
+CallClassHook
+gen_boilerplate
+:
+false
+-
+name
+:
 ApplyArgs
 gen_boilerplate
 :

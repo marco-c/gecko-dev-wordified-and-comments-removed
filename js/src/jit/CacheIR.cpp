@@ -53572,15 +53572,6 @@ NoAction
 if
 (
 isSpread
-&
-&
-args_
-.
-length
-(
-)
->
-JIT_ARGS_LENGTH_MAX
 )
 {
 return
