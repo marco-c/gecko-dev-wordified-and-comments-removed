@@ -1845,7 +1845,8 @@ mXMin
 aFUnitScaleFactor
 float
 (
-mYMin
+-
+mYMax
 )
 *
 aFUnitScaleFactor
