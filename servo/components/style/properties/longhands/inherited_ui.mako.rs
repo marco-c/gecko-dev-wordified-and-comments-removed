@@ -554,9 +554,6 @@ animation_value_type
 "
 CaretColor
 "
-boxed
-=
-True
 ignored_when_colors_disabled
 =
 True
@@ -634,9 +631,6 @@ animation_value_type
 "
 ColorOrAuto
 "
-boxed
-=
-True
 ignored_when_colors_disabled
 =
 True
