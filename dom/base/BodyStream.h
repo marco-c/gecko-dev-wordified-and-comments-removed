@@ -449,7 +449,7 @@ ReadableStream
 *
 aStream
 uint64_t
-bytes
+aAvailableData
 ErrorResult
 &
 aRv
