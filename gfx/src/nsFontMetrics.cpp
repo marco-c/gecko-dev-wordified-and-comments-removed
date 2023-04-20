@@ -166,6 +166,7 @@ DrawTarget
 ;
 AutoTextRun
 (
+const
 nsFontMetrics
 *
 aMetrics
@@ -225,6 +226,7 @@ nullptr
 }
 AutoTextRun
 (
+const
 nsFontMetrics
 *
 aMetrics
@@ -279,6 +281,7 @@ gfxTextRun
 get
 (
 )
+const
 {
 return
 mTextRun
@@ -295,6 +298,7 @@ operator
 >
 (
 )
+const
 {
 return
 mTextRun
@@ -313,6 +317,7 @@ gfx
 ShapedTextFlags
 ComputeFlags
 (
+const
 nsFontMetrics
 *
 aMetrics
@@ -1009,6 +1014,7 @@ Metrics
 &
 GetMetrics
 (
+const
 nsFontMetrics
 *
 aFontMetrics
@@ -1056,6 +1062,7 @@ Metrics
 &
 GetMetrics
 (
+const
 nsFontMetrics
 *
 aFontMetrics
@@ -1081,6 +1088,7 @@ nsFontMetrics
 XHeight
 (
 )
+const
 {
 return
 ROUND_TO_TWIPS
@@ -1101,6 +1109,7 @@ nsFontMetrics
 CapHeight
 (
 )
+const
 {
 return
 ROUND_TO_TWIPS
@@ -1121,6 +1130,7 @@ nsFontMetrics
 SuperscriptOffset
 (
 )
+const
 {
 return
 ROUND_TO_TWIPS
@@ -1143,6 +1153,7 @@ nsFontMetrics
 SubscriptOffset
 (
 )
+const
 {
 return
 ROUND_TO_TWIPS
@@ -1171,6 +1182,7 @@ nscoord
 &
 aSize
 )
+const
 {
 aOffset
 =
@@ -1210,6 +1222,7 @@ nscoord
 &
 aSize
 )
+const
 {
 aOffset
 =
@@ -1340,6 +1353,7 @@ nsFontMetrics
 InternalLeading
 (
 )
+const
 {
 return
 ROUND_TO_TWIPS
@@ -1360,6 +1374,7 @@ nsFontMetrics
 ExternalLeading
 (
 )
+const
 {
 return
 ROUND_TO_TWIPS
@@ -1380,6 +1395,7 @@ nsFontMetrics
 EmHeight
 (
 )
+const
 {
 return
 ROUND_TO_TWIPS
@@ -1400,6 +1416,7 @@ nsFontMetrics
 EmAscent
 (
 )
+const
 {
 return
 ROUND_TO_TWIPS
@@ -1420,6 +1437,7 @@ nsFontMetrics
 EmDescent
 (
 )
+const
 {
 return
 ROUND_TO_TWIPS
@@ -1440,6 +1458,7 @@ nsFontMetrics
 MaxHeight
 (
 )
+const
 {
 return
 CEIL_TO_TWIPS
@@ -1473,6 +1492,7 @@ nsFontMetrics
 MaxAscent
 (
 )
+const
 {
 return
 CEIL_TO_TWIPS
@@ -1494,6 +1514,7 @@ nsFontMetrics
 MaxDescent
 (
 )
+const
 {
 return
 CEIL_TO_TWIPS
@@ -1516,6 +1537,7 @@ nsFontMetrics
 MaxAdvance
 (
 )
+const
 {
 return
 CEIL_TO_TWIPS
@@ -1536,6 +1558,7 @@ nsFontMetrics
 AveCharWidth
 (
 )
+const
 {
 return
 CEIL_TO_TWIPS
@@ -1556,6 +1579,7 @@ nsFontMetrics
 SpaceWidth
 (
 )
+const
 {
 return
 CEIL_TO_TWIPS
@@ -1590,20 +1614,8 @@ nsFontMetrics
 GetMaxStringLength
 (
 )
-{
 const
-gfxFont
-:
-:
-Metrics
-&
-m
-=
-GetMetrics
-(
-this
-)
-;
+{
 const
 double
 x
@@ -1620,7 +1632,10 @@ max
 1
 .
 0
-m
+GetMetrics
+(
+this
+)
 .
 maxAdvance
 )
@@ -1663,6 +1678,7 @@ DrawTarget
 *
 aDrawTarget
 )
+const
 {
 if
 (
@@ -1671,9 +1687,11 @@ aLength
 =
 0
 )
+{
 return
 0
 ;
+}
 if
 (
 aLength
@@ -1691,11 +1709,13 @@ aString
 '
 '
 )
+{
 return
 SpaceWidth
 (
 )
 ;
+}
 StubPropertyProvider
 provider
 ;
@@ -1759,6 +1779,7 @@ DrawTarget
 *
 aDrawTarget
 )
+const
 {
 if
 (
@@ -1767,9 +1788,11 @@ aLength
 =
 0
 )
+{
 return
 0
 ;
+}
 if
 (
 aLength
@@ -1787,11 +1810,13 @@ aString
 '
 '
 )
+{
 return
 SpaceWidth
 (
 )
 ;
+}
 StubPropertyProvider
 provider
 ;
@@ -1859,6 +1884,7 @@ gfxContext
 *
 aContext
 )
+const
 {
 if
 (
@@ -1867,8 +1893,10 @@ aLength
 =
 0
 )
+{
 return
 ;
+}
 StubPropertyProvider
 provider
 ;
@@ -2014,6 +2042,7 @@ DrawTarget
 *
 aTextRunConstructionDrawTarget
 )
+const
 {
 if
 (
@@ -2022,8 +2051,10 @@ aLength
 =
 0
 )
+{
 return
 ;
+}
 StubPropertyProvider
 provider
 ;
@@ -2145,6 +2176,7 @@ static
 nsBoundingMetrics
 GetTextBoundingMetrics
 (
+const
 nsFontMetrics
 *
 aMetrics
@@ -2177,11 +2209,13 @@ aLength
 =
 0
 )
+{
 return
 nsBoundingMetrics
 (
 )
 ;
+}
 StubPropertyProvider
 provider
 ;
@@ -2324,6 +2358,7 @@ DrawTarget
 *
 aDrawTarget
 )
+const
 {
 return
 GetTextBoundingMetrics
@@ -2355,6 +2390,7 @@ DrawTarget
 *
 aDrawTarget
 )
+const
 {
 return
 GetTextBoundingMetrics
