@@ -1204,6 +1204,15 @@ string
 >
 sync_group
 ;
+absl
+:
+:
+optional
+<
+DegradationPreference
+>
+degradation_preference
+;
 }
 ;
 struct
