@@ -84,11 +84,6 @@ nsIHttpProtocolHandler
 idl
 "
 "
-nsIObliviousHttp
-.
-idl
-"
-"
 nsIRaceCacheWithNetwork
 .
 idl
