@@ -2601,7 +2601,7 @@ JSContext
 *
 cx
 const
-JSFunctionVector
+JSObjectVector
 &
 funcImports
 )
@@ -4580,7 +4580,7 @@ WasmInstanceObject
 >
 instanceObj
 const
-JSFunctionVector
+JSObjectVector
 &
 funcImports
 uint32_t
@@ -4679,7 +4679,7 @@ WasmInstanceObject
 >
 instanceObj
 const
-JSFunctionVector
+JSObjectVector
 &
 funcImports
 const
@@ -4834,7 +4834,7 @@ WasmInstanceObject
 >
 instanceObj
 const
-JSFunctionVector
+JSObjectVector
 &
 funcImports
 const
