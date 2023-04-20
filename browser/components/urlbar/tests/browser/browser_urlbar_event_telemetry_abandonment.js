@@ -706,7 +706,7 @@ blur
 value
 :
 "
-topsites
+typed
 "
 extra
 :
