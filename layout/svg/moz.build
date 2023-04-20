@@ -61,6 +61,11 @@ CSSClipPathInstance
 h
 "
 "
+DisplaySVGItem
+.
+h
+"
+"
 FilterInstance
 .
 h
@@ -172,6 +177,11 @@ cpp
 "
 "
 CSSFilterInstance
+.
+cpp
+"
+"
+DisplaySVGItem
 .
 cpp
 "
