@@ -88,13 +88,11 @@ multiple
 "
 )
 )
-def
 upload
-(
+=
+lambda
 url
-)
 :
-return
 "
 data
 :
