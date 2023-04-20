@@ -189,6 +189,11 @@ IsGnomeDesktopEnvironment
 (
 )
 ;
+bool
+IsKdeDesktopEnvironment
+(
+)
+;
 nsTArray
 <
 nsCString
