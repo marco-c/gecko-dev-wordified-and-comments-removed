@@ -386,7 +386,7 @@ lazy
 .
 logger
 .
-error
+warn
 (
 Invalid
 browser
