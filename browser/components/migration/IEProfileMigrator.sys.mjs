@@ -2522,11 +2522,6 @@ new
 History
 (
 )
-MSMigrationUtils
-.
-getCookiesMigrator
-(
-)
 ]
 ;
 /
