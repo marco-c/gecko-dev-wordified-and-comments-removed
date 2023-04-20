@@ -18,6 +18,14 @@ include
 -
 tools
 /
+moztreedocs
+/
+requirements
+.
+txt
+-
+tools
+/
 lint
 /
 python
