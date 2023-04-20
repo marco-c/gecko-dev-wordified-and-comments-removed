@@ -197,6 +197,9 @@ hasLiveGlobal
 hasBeenEnteredIgnoringJit
 (
 )
+|
+|
+allocatedDuringIncrementalGC_
 ;
 }
 inline
