@@ -194,6 +194,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 max
@@ -356,6 +358,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 docker
@@ -565,6 +569,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 docker
@@ -841,6 +847,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 docker
