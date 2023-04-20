@@ -490,6 +490,8 @@ make_flags
 make
 make_flags
 install
+-
+strip
 DESTDIR
 =
 root_dir
