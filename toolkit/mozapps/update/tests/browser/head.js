@@ -2699,6 +2699,7 @@ checkActiveUpdate
 continueFile
 downloadInfo
 forceApply
+noContinue
 }
 =
 step
@@ -2996,6 +2997,9 @@ panelId
 "
 downloading
 "
+&
+&
+continueFile
 )
 {
 for
@@ -3351,6 +3355,10 @@ includes
 (
 panelId
 )
+&
+&
+!
+noContinue
 )
 {
 let
