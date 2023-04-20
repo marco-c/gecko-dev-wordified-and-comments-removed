@@ -20131,13 +20131,14 @@ WSRunScanner
 :
 GetRangeInTextNodesToBackspaceFrom
 (
-Element
-*
-aEditingHost
 const
 EditorDOMPoint
 &
 aPoint
+const
+Element
+&
+aEditingHost
 )
 {
 MOZ_ASSERT
@@ -20153,6 +20154,7 @@ TextFragmentData
 textFragmentDataAtCaret
 (
 aPoint
+&
 aEditingHost
 )
 ;
@@ -20437,6 +20439,7 @@ rangeToDelete
 StartRef
 (
 )
+&
 aEditingHost
 )
 :
@@ -20461,6 +20464,7 @@ rangeToDelete
 EndRef
 (
 )
+&
 aEditingHost
 )
 :
@@ -20540,13 +20544,14 @@ WSRunScanner
 :
 GetRangeInTextNodesToForwardDeleteFrom
 (
-Element
-*
-aEditingHost
 const
 EditorDOMPoint
 &
 aPoint
+const
+Element
+&
+aEditingHost
 )
 {
 MOZ_ASSERT
@@ -20562,6 +20567,7 @@ TextFragmentData
 textFragmentDataAtCaret
 (
 aPoint
+&
 aEditingHost
 )
 ;
@@ -20845,6 +20851,7 @@ rangeToDelete
 StartRef
 (
 )
+&
 aEditingHost
 )
 :
@@ -20869,6 +20876,7 @@ rangeToDelete
 EndRef
 (
 )
+&
 aEditingHost
 )
 :
