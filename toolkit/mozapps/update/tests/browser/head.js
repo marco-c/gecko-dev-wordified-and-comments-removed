@@ -560,7 +560,9 @@ removeNotification
 /
 )
 ;
-gEnv
+Services
+.
+env
 .
 set
 (
@@ -571,7 +573,9 @@ MOZ_TEST_SKIP_UPDATE_STAGE
 "
 )
 ;
-gEnv
+Services
+.
+env
 .
 set
 (
@@ -582,7 +586,9 @@ MOZ_TEST_SLOW_SKIP_UPDATE_STAGE
 "
 )
 ;
-gEnv
+Services
+.
+env
 .
 set
 (
@@ -2518,7 +2524,9 @@ params
 slowStaging
 )
 {
-gEnv
+Services
+.
+env
 .
 set
 (
@@ -2533,7 +2541,9 @@ MOZ_TEST_SLOW_SKIP_UPDATE_STAGE
 }
 else
 {
-gEnv
+Services
+.
+env
 .
 set
 (
@@ -3658,7 +3668,9 @@ function
 (
 )
 {
-gEnv
+Services
+.
+env
 .
 set
 (
@@ -4933,7 +4945,9 @@ function
 (
 )
 {
-gEnv
+Services
+.
+env
 .
 set
 (
@@ -5359,7 +5373,9 @@ clearScalars
 (
 )
 ;
-gEnv
+Services
+.
+env
 .
 set
 (
