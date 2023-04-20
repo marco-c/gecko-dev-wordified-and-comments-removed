@@ -3014,6 +3014,17 @@ isNestedMulticol
 {
 if
 (
+aConfig
+.
+mForceAuto
+)
+{
+return
+true
+;
+}
+if
+(
 aReflowInput
 .
 mFlags
