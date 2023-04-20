@@ -13186,7 +13186,7 @@ PersistentAttribute
 :
 :
 Misc
-Async
+Sync
 )
 ;
 nsCOMPtr
