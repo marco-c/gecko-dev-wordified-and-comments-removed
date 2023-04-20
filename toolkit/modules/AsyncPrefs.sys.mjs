@@ -362,6 +362,13 @@ errorReporting
 .
 automatic
 "
+"
+network
+.
+trr
+.
+display_fallback_warning
+"
 ]
 )
 ;
