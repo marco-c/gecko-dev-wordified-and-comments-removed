@@ -11807,7 +11807,7 @@ if
 (
 family
 .
-mShared
+mIsShared
 )
 {
 auto
