@@ -3499,7 +3499,7 @@ clone_container_type
 (
 )
 .
-is_normal
+is_empty
 (
 )
 ;

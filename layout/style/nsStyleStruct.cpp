@@ -11649,7 +11649,7 @@ mContainerType
 StyleContainerType
 :
 :
-Normal
+NORMAL
 )
 mAppearance
 (
