@@ -26,6 +26,13 @@ playButton
 "
 )
 ;
+if
+(
+video
+.
+paused
+)
+{
 playPauseButton
 ?
 .
@@ -33,6 +40,7 @@ click
 (
 )
 ;
+}
 }
 pause
 (
@@ -54,6 +62,14 @@ playButton
 "
 )
 ;
+if
+(
+!
+video
+.
+paused
+)
+{
 playPauseButton
 ?
 .
@@ -61,6 +77,7 @@ click
 (
 )
 ;
+}
 }
 setMuted
 (
