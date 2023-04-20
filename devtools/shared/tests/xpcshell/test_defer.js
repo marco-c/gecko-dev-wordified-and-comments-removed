@@ -9,11 +9,17 @@ defer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 defer
+.
+js
 "
 )
 ;

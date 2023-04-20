@@ -9,6 +9,10 @@ ResourceCommand
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -20,6 +24,8 @@ resource
 resource
 -
 command
+.
+js
 "
 )
 ;
@@ -31,6 +37,10 @@ makeStorageLegacyListener
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -46,6 +56,8 @@ listeners
 storage
 -
 utils
+.
+js
 "
 )
 ;

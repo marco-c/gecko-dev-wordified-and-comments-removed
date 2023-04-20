@@ -13,6 +13,10 @@ JSPropertyProvider
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -24,6 +28,8 @@ js
 property
 -
 provider
+.
+js
 "
 )
 ;

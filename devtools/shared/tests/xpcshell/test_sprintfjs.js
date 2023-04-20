@@ -11,6 +11,10 @@ sprintf
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -18,6 +22,8 @@ shared
 sprintfjs
 /
 sprintf
+.
+js
 "
 )
 ;

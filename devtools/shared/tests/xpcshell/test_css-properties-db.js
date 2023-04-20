@@ -13,6 +13,10 @@ PREFERENCES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -24,6 +28,8 @@ generated
 properties
 -
 db
+.
+js
 "
 )
 ;
@@ -35,6 +41,10 @@ generateCssProperties
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -44,6 +54,8 @@ actors
 css
 -
 properties
+.
+js
 "
 )
 ;

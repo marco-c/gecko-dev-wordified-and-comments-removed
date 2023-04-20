@@ -11,6 +11,10 @@ ConsoleAPIListener
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -24,6 +28,8 @@ listeners
 console
 -
 api
+.
+js
 "
 )
 ;
@@ -33,6 +39,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -40,6 +50,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;

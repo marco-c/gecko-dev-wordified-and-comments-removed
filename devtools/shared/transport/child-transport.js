@@ -9,11 +9,17 @@ flags
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 flags
+.
+js
 "
 )
 ;

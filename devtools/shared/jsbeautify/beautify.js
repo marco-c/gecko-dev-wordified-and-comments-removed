@@ -6,6 +6,10 @@ css_beautify
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -17,6 +21,8 @@ src
 beautify
 -
 css
+.
+js
 "
 )
 ;
@@ -28,6 +34,10 @@ html_beautify
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -39,6 +49,8 @@ src
 beautify
 -
 html
+.
+js
 "
 )
 ;
@@ -50,6 +62,10 @@ js_beautify
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -60,6 +76,8 @@ src
 /
 beautify
 -
+js
+.
 js
 "
 )

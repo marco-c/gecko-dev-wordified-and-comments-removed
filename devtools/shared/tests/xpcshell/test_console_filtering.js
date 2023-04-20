@@ -36,6 +36,10 @@ ConsoleAPIListener
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -49,6 +53,8 @@ listeners
 console
 -
 api
+.
+js
 "
 )
 ;

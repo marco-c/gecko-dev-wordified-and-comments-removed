@@ -35,6 +35,10 @@ EventEmitter
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -42,6 +46,8 @@ shared
 event
 -
 emitter
+.
+js
 "
 )
 ;
@@ -51,6 +57,10 @@ discovery
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -58,6 +68,8 @@ shared
 discovery
 /
 discovery
+.
+js
 "
 )
 ;

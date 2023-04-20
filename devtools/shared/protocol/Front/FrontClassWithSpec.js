@@ -11,6 +11,10 @@ Front
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -18,6 +22,8 @@ shared
 protocol
 /
 Front
+.
+js
 "
 )
 ;

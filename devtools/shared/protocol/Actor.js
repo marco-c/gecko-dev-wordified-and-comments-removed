@@ -11,11 +11,17 @@ extend
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 extend
+.
+js
 "
 )
 ;
@@ -27,6 +33,10 @@ Pool
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -34,6 +44,8 @@ shared
 protocol
 /
 Pool
+.
+js
 "
 )
 ;

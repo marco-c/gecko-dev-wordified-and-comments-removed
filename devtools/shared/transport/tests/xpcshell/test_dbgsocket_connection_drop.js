@@ -11,6 +11,10 @@ RawPacket
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -18,6 +22,8 @@ shared
 transport
 /
 packets
+.
+js
 "
 )
 ;

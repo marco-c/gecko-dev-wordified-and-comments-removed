@@ -11,11 +11,17 @@ extend
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 extend
+.
+js
 "
 )
 ;
@@ -28,6 +34,10 @@ getPath
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -35,6 +45,8 @@ shared
 protocol
 /
 utils
+.
+js
 "
 )
 ;
@@ -46,6 +58,10 @@ types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -53,6 +69,8 @@ shared
 protocol
 /
 types
+.
+js
 "
 )
 ;

@@ -116,11 +116,17 @@ DevToolsUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;
@@ -130,6 +136,10 @@ HeapAnalysesClient
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -137,6 +147,8 @@ shared
 heapsnapshot
 /
 HeapAnalysesClient
+.
+js
 "
 )
 ;
@@ -148,6 +160,10 @@ censusReportToCensusTreeNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -159,6 +175,8 @@ census
 tree
 -
 node
+.
+js
 "
 )
 ;
@@ -168,6 +186,10 @@ CensusUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -175,6 +197,8 @@ shared
 heapsnapshot
 /
 CensusUtils
+.
+js
 "
 )
 ;
@@ -184,6 +208,10 @@ DominatorTreeNode
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -191,6 +219,8 @@ shared
 heapsnapshot
 /
 DominatorTreeNode
+.
+js
 "
 )
 ;
@@ -202,6 +232,10 @@ deduplicatePaths
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -211,6 +245,8 @@ heapsnapshot
 shortest
 -
 paths
+.
+js
 "
 )
 ;

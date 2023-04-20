@@ -11,6 +11,10 @@ getAdHocFrontOrPrimitiveGrip
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 client
@@ -18,6 +22,8 @@ client
 fronts
 /
 object
+.
+js
 "
 )
 ;

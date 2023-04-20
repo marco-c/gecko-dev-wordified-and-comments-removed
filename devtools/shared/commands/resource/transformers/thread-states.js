@@ -12,6 +12,10 @@ types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared

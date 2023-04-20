@@ -8,7 +8,11 @@ assert
 =
 require
 (
-'
+"
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -22,7 +26,9 @@ stringvalidator
 util
 /
 assert
-'
+.
+js
+"
 )
 .
 assert

@@ -189,6 +189,10 @@ TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -198,6 +202,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;
@@ -379,6 +385,10 @@ TYPES
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -388,6 +398,8 @@ actors
 resources
 /
 index
+.
+js
 "
 )
 ;

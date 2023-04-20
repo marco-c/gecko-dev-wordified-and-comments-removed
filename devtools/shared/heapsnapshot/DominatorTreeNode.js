@@ -71,6 +71,8 @@ heapsnapshot
 shortest
 -
 paths
+.
+js
 "
 )
 ;

@@ -82,6 +82,10 @@ CommonJS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -89,6 +93,8 @@ shared
 worker
 /
 worker
+.
+js
 "
 )
 )

@@ -11,6 +11,10 @@ prettifyCSS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -20,6 +24,8 @@ inspector
 css
 -
 logic
+.
+js
 "
 )
 ;

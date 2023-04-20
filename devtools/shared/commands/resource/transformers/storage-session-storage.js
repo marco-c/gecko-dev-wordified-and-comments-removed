@@ -15,6 +15,10 @@ SESSION_STORAGE
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -26,6 +30,8 @@ resource
 resource
 -
 command
+.
+js
 "
 )
 ;
@@ -38,6 +44,10 @@ types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared

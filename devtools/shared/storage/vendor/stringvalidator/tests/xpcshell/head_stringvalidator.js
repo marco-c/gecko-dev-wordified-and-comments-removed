@@ -36,6 +36,10 @@ validator
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -47,6 +51,8 @@ vendor
 stringvalidator
 /
 validator
+.
+js
 "
 )
 ;

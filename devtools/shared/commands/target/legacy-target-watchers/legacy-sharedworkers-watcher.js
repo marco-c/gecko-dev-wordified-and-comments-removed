@@ -9,6 +9,10 @@ LegacyWorkersWatcher
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -28,6 +32,8 @@ legacy
 workers
 -
 watcher
+.
+js
 "
 )
 ;

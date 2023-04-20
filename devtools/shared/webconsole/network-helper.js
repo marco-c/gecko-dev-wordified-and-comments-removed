@@ -38,11 +38,17 @@ DevToolsUtils
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 DevToolsUtils
+.
+js
 "
 )
 ;

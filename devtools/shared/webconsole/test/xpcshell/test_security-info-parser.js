@@ -20,6 +20,10 @@ return
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -29,6 +33,8 @@ webconsole
 network
 -
 helper
+.
+js
 "
 )
 ;

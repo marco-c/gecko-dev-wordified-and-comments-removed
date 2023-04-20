@@ -11,6 +11,10 @@ Actor
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -18,6 +22,8 @@ shared
 protocol
 /
 Actor
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ Front
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -36,6 +46,8 @@ shared
 protocol
 /
 Front
+.
+js
 "
 )
 ;

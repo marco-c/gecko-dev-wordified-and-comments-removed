@@ -11,6 +11,10 @@ lazyLoadFront
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -18,6 +22,8 @@ shared
 specs
 /
 index
+.
+js
 "
 )
 ;
@@ -27,6 +33,10 @@ Types
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -34,6 +44,8 @@ shared
 specs
 /
 index
+.
+js
 "
 )
 .
@@ -47,11 +59,17 @@ getType
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
 /
 protocol
+.
+js
 "
 )
 .

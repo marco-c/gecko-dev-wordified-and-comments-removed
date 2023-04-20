@@ -11,6 +11,10 @@ Request
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -18,6 +22,8 @@ shared
 protocol
 /
 Request
+.
+js
 "
 )
 ;
@@ -29,6 +35,10 @@ Response
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -36,6 +46,8 @@ shared
 protocol
 /
 Response
+.
+js
 "
 )
 ;
@@ -48,6 +60,10 @@ registeredTypes
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -55,6 +71,8 @@ shared
 protocol
 /
 types
+.
+js
 "
 )
 ;

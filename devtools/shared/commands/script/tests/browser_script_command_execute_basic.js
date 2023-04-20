@@ -12,6 +12,10 @@ MAX_AUTOCOMPLETIONS
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 shared
@@ -23,6 +27,8 @@ js
 property
 -
 provider
+.
+js
 "
 )
 ;
@@ -34,6 +40,10 @@ DevToolsServer
 require
 (
 "
+resource
+:
+/
+/
 devtools
 /
 server
@@ -41,6 +51,8 @@ server
 devtools
 -
 server
+.
+js
 "
 )
 ;
