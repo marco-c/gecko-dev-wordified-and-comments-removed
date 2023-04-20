@@ -293,7 +293,13 @@ stack
 to
 rebase
 is
-tip
+the
+current
+revision
+#
+"
+.
+"
 .
 function
 show_error_msg
@@ -593,7 +599,7 @@ hg
 log
 -
 r
-tip
+.
 -
 T
 "
