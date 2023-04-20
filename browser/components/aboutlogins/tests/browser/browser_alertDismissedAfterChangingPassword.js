@@ -434,6 +434,8 @@ className
 }
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -478,6 +480,8 @@ regularLoginGuid
 className
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -518,6 +522,8 @@ vulnerableListItem
 className
 )
 ;
+Assert
+.
 ok
 (
 breachedListItem
@@ -622,6 +628,8 @@ selected
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -968,6 +976,8 @@ updated
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -1027,6 +1037,8 @@ _logins
 vulnerableLoginGuid
 ]
 ;
+Assert
+.
 ok
 (
 !
@@ -1068,6 +1080,8 @@ breached
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1152,6 +1166,8 @@ selected
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1304,6 +1320,8 @@ updated
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -1335,7 +1353,9 @@ now
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 vulnerableListItem
 .
@@ -1381,6 +1401,8 @@ vulnerableLoginGuid
 .
 listItem
 ;
+Assert
+.
 ok
 (
 !

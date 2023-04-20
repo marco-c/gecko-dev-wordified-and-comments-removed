@@ -324,6 +324,8 @@ view
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -363,6 +365,8 @@ intro
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -412,7 +416,9 @@ waiveXrays
 loginFilter
 )
 ;
-is
+Assert
+.
+equal
 (
 xRayLoginFilter
 .
@@ -432,7 +438,9 @@ prepopulated
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 content
 .
@@ -450,7 +458,9 @@ focused
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 loginFilter
 .
@@ -531,7 +541,9 @@ hidden
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 visibleLoginListItems
 .
@@ -547,7 +559,9 @@ visible
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 visibleLoginListItems
 [
@@ -571,7 +585,9 @@ visible
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 hiddenLoginListItems
 .
@@ -591,7 +607,9 @@ hidden
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 hiddenLoginListItems
 [
@@ -623,7 +641,9 @@ hidden
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 hiddenLoginListItems
 [
@@ -804,7 +824,9 @@ cached
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 loginList
 .
@@ -823,6 +845,8 @@ stored
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -866,6 +890,8 @@ intro
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -910,6 +936,8 @@ message
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -963,7 +991,9 @@ hidden
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 visibleLoginListItems
 .
@@ -978,6 +1008,8 @@ visible
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1011,6 +1043,8 @@ item
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1029,6 +1063,8 @@ mode
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1047,6 +1083,8 @@ mode
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -1095,6 +1133,8 @@ intro
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -1135,6 +1175,8 @@ click
 (
 )
 ;
+Assert
+.
 ok
 (
 loginItem
@@ -1151,6 +1193,8 @@ mode
 "
 )
 ;
+Assert
+.
 ok
 (
 loginItem
@@ -1167,6 +1211,8 @@ mode
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -1188,6 +1234,8 @@ mode
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -1361,7 +1409,9 @@ cached
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 loginList
 .
@@ -1380,6 +1430,8 @@ stored
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -1443,6 +1495,8 @@ intro
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -1484,6 +1538,8 @@ message
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -1534,7 +1590,9 @@ hidden
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 visibleLoginListItems
 .
@@ -1551,6 +1609,8 @@ backspacing
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1584,6 +1644,8 @@ item
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1602,6 +1664,8 @@ mode
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1620,6 +1684,8 @@ mode
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -1668,6 +1734,8 @@ intro
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -1708,6 +1776,8 @@ click
 (
 )
 ;
+Assert
+.
 ok
 (
 loginItem
@@ -1724,6 +1794,8 @@ mode
 "
 )
 ;
+Assert
+.
 ok
 (
 loginItem
@@ -1740,6 +1812,8 @@ mode
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -1761,6 +1835,8 @@ mode
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils

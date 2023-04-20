@@ -310,6 +310,8 @@ importWindow
 await
 promiseImportWindow
 ;
+Assert
+.
 ok
 (
 true

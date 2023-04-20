@@ -124,7 +124,9 @@ test
 (
 )
 {
-is
+Assert
+.
+equal
 (
 Services
 .
@@ -217,7 +219,9 @@ browser
 0
 )
 ;
-is
+Assert
+.
+equal
 (
 logins
 0
@@ -284,6 +288,8 @@ notification
 "
 )
 ;
+Assert
+.
 ok
 (
 notification
@@ -319,7 +325,9 @@ button
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 buttons
 .
@@ -397,7 +405,9 @@ browser
 1
 )
 ;
-is
+Assert
+.
+equal
 (
 logins
 1
@@ -814,6 +824,8 @@ checkbox
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -969,6 +981,8 @@ checkbox
 "
 )
 ;
+Assert
+.
 ok
 (
 revealCheckbox
@@ -1116,6 +1130,8 @@ checkbox
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -1130,6 +1146,8 @@ visible
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1143,7 +1161,9 @@ initially
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 passwordField
 .
@@ -1196,6 +1216,8 @@ text
 "
 )
 ;
+Assert
+.
 ok
 (
 revealCheckbox
@@ -1300,7 +1322,9 @@ list
 )
 )
 ;
-is
+Assert
+.
+equal
 (
 loginList
 .
@@ -1355,7 +1379,9 @@ value
 "
 "
 ;
-is
+Assert
+.
+equal
 (
 loginList
 .
@@ -1492,7 +1518,9 @@ list
 )
 )
 ;
-is
+Assert
+.
+equal
 (
 loginList
 .
@@ -1564,7 +1592,9 @@ test_login_item_after_successful_auth
 (
 )
 {
-is
+Assert
+.
+equal
 (
 Services
 .
@@ -1657,7 +1687,9 @@ browser
 1
 )
 ;
-is
+Assert
+.
+equal
 (
 logins
 1
@@ -1706,6 +1738,8 @@ item
 "
 )
 ;
+Assert
+.
 ok
 (
 !

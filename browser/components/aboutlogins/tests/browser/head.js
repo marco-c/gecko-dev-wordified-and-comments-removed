@@ -801,6 +801,8 @@ MarionetteEvents
 return
 ;
 }
+Assert
+.
 ok
 (
 false
@@ -947,7 +949,9 @@ Required
 +
 BRAND_FULL_NAME
 ;
-is
+Assert
+.
+equal
 (
 dialog
 .

@@ -369,6 +369,8 @@ click
 await
 reauthObserved
 ;
+Assert
+.
 ok
 (
 true
@@ -452,6 +454,8 @@ loginItem
 .
 _copyUsernameButton
 ;
+Assert
+.
 ok
 (
 !
@@ -476,6 +480,8 @@ removed
 "
 )
 ;
+Assert
+.
 ok
 (
 copyButton

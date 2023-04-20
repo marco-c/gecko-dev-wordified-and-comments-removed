@@ -195,6 +195,8 @@ showCallback
 =
 null
 ;
+Assert
+.
 ok
 (
 true
@@ -563,6 +565,8 @@ if
 osReAuthPromise
 )
 {
+Assert
+.
 ok
 (
 osReAuthPromise
@@ -598,6 +602,8 @@ opened
 await
 filePicker
 ;
+Assert
+.
 ok
 (
 true

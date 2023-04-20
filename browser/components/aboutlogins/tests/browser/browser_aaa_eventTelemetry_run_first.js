@@ -480,6 +480,8 @@ newTab
 await
 promiseNewTab
 ;
+Assert
+.
 ok
 (
 true
@@ -762,6 +764,8 @@ newTab
 await
 promiseNewTab
 ;
+Assert
+.
 ok
 (
 true

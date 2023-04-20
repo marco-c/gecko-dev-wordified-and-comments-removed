@@ -96,6 +96,8 @@ page
 "
 )
 ;
+Assert
+.
 ok
 (
 loginFound
@@ -237,7 +239,9 @@ true
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 lazyTab
 .

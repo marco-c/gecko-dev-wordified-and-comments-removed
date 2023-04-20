@@ -38,6 +38,8 @@ canTestOSKeyStoreLogin
 )
 )
 {
+Assert
+.
 ok
 (
 true
@@ -241,6 +243,8 @@ checkbox
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -397,6 +401,8 @@ checkbox
 "
 )
 ;
+Assert
+.
 ok
 (
 revealCheckbox
@@ -471,6 +477,8 @@ item
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -539,6 +547,8 @@ mode
 "
 )
 ;
+Assert
+.
 ok
 (
 loginItem
@@ -1021,6 +1031,8 @@ item
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1089,6 +1101,8 @@ mode
 "
 )
 ;
+Assert
+.
 ok
 (
 loginItem

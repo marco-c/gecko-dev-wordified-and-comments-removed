@@ -103,6 +103,8 @@ list
 )
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -121,6 +123,8 @@ default
 "
 )
 ;
+Assert
+.
 ok
 (
 content
@@ -150,6 +154,8 @@ view
 "
 )
 ;
+Assert
+.
 ok
 (
 loginList
@@ -178,7 +184,9 @@ view
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 loginList
 .
@@ -446,6 +454,8 @@ loginList
 .
 _createLoginButton
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -469,6 +479,8 @@ initially
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -543,6 +555,8 @@ click
 (
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -571,6 +585,8 @@ button
 "
 )
 ;
+Assert
+.
 ok
 (
 createButton
@@ -605,6 +621,8 @@ button
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -671,7 +689,9 @@ password
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 content
 .
@@ -703,7 +723,9 @@ mode
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 usernameInput
 .
@@ -904,6 +926,8 @@ exit
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -956,6 +980,8 @@ list
 )
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -986,6 +1012,8 @@ view
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -1012,6 +1040,8 @@ login
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1088,6 +1118,8 @@ displayed
 "
 )
 ;
+Assert
+.
 ok
 (
 loginGuid
@@ -1123,7 +1155,9 @@ item
 )
 )
 ;
-is
+Assert
+.
+equal
 (
 loginItem
 .
@@ -1153,6 +1187,8 @@ _logins
 loginGuid
 ]
 ;
+Assert
+.
 ok
 (
 listItem
@@ -1174,7 +1210,9 @@ selected
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -1200,7 +1238,9 @@ creation
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -1220,7 +1260,9 @@ creation
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -1283,6 +1325,8 @@ set
 "
 )
 ;
+Assert
+.
 ok
 (
 usernameInput
@@ -1750,7 +1794,9 @@ updated
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -1776,7 +1822,9 @@ creation
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -1794,7 +1842,9 @@ username
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 login
 .
@@ -1853,7 +1903,9 @@ list
 )
 )
 ;
-is
+Assert
+.
+equal
 (
 loginList
 .
@@ -1929,6 +1981,8 @@ list
 )
 )
 ;
+Assert
+.
 ok
 (
 loginList
@@ -1947,6 +2001,8 @@ mode
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -2008,6 +2064,8 @@ click
 (
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -2028,6 +2086,8 @@ mode
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -2097,6 +2157,8 @@ click
 (
 )
 ;
+Assert
+.
 ok
 (
 loginList
@@ -2116,6 +2178,8 @@ mode
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -2231,7 +2295,9 @@ mozilla
 org
 "
 ;
-is
+Assert
+.
+equal
 (
 loginList
 .
@@ -2362,6 +2428,8 @@ button
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -2392,7 +2460,9 @@ click
 (
 )
 ;
-is
+Assert
+.
+equal
 (
 loginFilter
 .
@@ -2423,7 +2493,9 @@ list
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 loginList
 .
@@ -2575,7 +2647,9 @@ list
 )
 )
 ;
-is
+Assert
+.
+equal
 (
 loginList
 .
@@ -2668,6 +2742,8 @@ button
 "
 )
 ;
+Assert
+.
 ok
 (
 ContentTaskUtils
@@ -2705,7 +2781,9 @@ resolve
 (
 )
 ;
-is
+Assert
+.
+equal
 (
 loginFilter
 .
@@ -2761,7 +2839,9 @@ hidden
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 visibleLoginItems
 .
@@ -2779,7 +2859,9 @@ filter
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 loginList
 .
@@ -3115,7 +3197,9 @@ login
 .
 guid
 ;
-is
+Assert
+.
+equal
 (
 loginItem
 .
@@ -3161,6 +3245,8 @@ dialog
 )
 )
 ;
+Assert
+.
 ok
 (
 confirmationDialog
@@ -3201,6 +3287,8 @@ click
 (
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -3285,7 +3373,9 @@ selected
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 loginList
 .

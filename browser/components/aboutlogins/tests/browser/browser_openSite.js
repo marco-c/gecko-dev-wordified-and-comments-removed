@@ -191,6 +191,8 @@ newTab
 await
 promiseNewTab
 ;
+Assert
+.
 ok
 (
 true
@@ -348,6 +350,8 @@ value
 changed
 "
 ;
+Assert
+.
 ok
 (
 content
@@ -444,6 +448,8 @@ newTab
 await
 promiseNewTab
 ;
+Assert
+.
 ok
 (
 true
@@ -575,6 +581,8 @@ appear
 "
 )
 ;
+Assert
+.
 ok
 (
 !

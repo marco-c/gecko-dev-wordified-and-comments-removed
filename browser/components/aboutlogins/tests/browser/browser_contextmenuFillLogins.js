@@ -859,6 +859,8 @@ login
 "
 )
 ;
+Assert
+.
 ok
 (
 fillItem
@@ -870,6 +872,8 @@ exists
 "
 )
 ;
+Assert
+.
 ok
 (
 fillItem

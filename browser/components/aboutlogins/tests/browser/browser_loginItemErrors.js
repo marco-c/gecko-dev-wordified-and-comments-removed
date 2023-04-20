@@ -286,6 +286,8 @@ event
 )
 )
 ;
+Assert
+.
 ok
 (
 loginItemErrorMessage
@@ -363,6 +365,8 @@ login
 "
 )
 ;
+Assert
+.
 ok
 (
 loginItemErrorMessageVisible
@@ -406,7 +410,9 @@ hidden
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 loginItemErrorMessageText
 .
@@ -482,6 +488,8 @@ click
 (
 )
 ;
+Assert
+.
 ok
 (
 loginItemErrorMessage
@@ -702,6 +710,8 @@ login
 "
 )
 ;
+Assert
+.
 ok
 (
 loginAlreadyExistsErrorShownAfterUpdate
