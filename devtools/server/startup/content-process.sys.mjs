@@ -386,12 +386,6 @@ prefix
 mm
 )
 ;
-conn
-.
-parentMessageManager
-=
-mm
-;
 const
 {
 ContentProcessTargetActor
