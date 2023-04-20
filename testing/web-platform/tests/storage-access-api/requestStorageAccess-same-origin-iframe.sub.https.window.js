@@ -12,6 +12,8 @@ requestStorageAccess
 -
 iframe
 .
+https
+.
 html
 ?
 testCase
