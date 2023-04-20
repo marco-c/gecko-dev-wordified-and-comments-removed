@@ -20184,8 +20184,7 @@ search
 mode
 .
 If
-the
-first
+any
 result
 is
 from
@@ -20210,10 +20209,12 @@ queryContext
 results
 ?
 .
-[
-0
-]
-?
+some
+(
+r
+=
+>
+r
 .
 providerName
 =
@@ -20223,6 +20224,7 @@ lazy
 UrlbarProviderTopSites
 .
 name
+)
 )
 {
 this
