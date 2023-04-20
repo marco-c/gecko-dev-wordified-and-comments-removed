@@ -3091,7 +3091,6 @@ watchPropertyChange
 cx
 obj
 id
-flags
 )
 )
 {
@@ -3799,7 +3798,6 @@ watchPropertyChange
 cx
 obj
 id
-flags
 )
 )
 {

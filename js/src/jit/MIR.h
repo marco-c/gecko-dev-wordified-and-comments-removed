@@ -2010,15 +2010,9 @@ WasmArrayDataArea
 <
 <
 25
-GlobalGenerationCounter
-=
-1
-<
-<
-26
 Last
 =
-GlobalGenerationCounter
+WasmArrayDataArea
 Any
 =
 Last
@@ -2030,7 +2024,7 @@ Last
 )
 NumCategories
 =
-27
+26
 Store_
 =
 1

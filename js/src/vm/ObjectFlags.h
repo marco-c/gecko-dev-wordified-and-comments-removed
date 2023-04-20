@@ -101,12 +101,6 @@ UseWatchtowerTestingLog
 <
 <
 11
-GenerationCountedGlobal
-=
-1
-<
-<
-12
 }
 ;
 using
