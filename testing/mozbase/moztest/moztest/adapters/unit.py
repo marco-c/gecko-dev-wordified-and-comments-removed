@@ -3,13 +3,13 @@ __future__
 import
 absolute_import
 import
-unittest
-import
 sys
 import
 time
 import
 traceback
+import
+unittest
 from
 unittest
 import
@@ -532,6 +532,16 @@ is
 test
 .
 failureException
+and
+hasattr
+(
+            
+self
+"
+_count_relevant_tb_levels
+"
+        
+)
 :
             
 length
