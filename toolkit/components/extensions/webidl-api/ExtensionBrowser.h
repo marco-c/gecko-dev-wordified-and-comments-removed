@@ -48,6 +48,9 @@ class
 ExtensionAlarms
 ;
 class
+ExtensionDns
+;
+class
 ExtensionMockAPI
 ;
 class
@@ -349,6 +352,12 @@ GetExtensionAlarms
 (
 )
 ;
+ExtensionDns
+*
+GetExtensionDns
+(
+)
+;
 ExtensionMockAPI
 *
 GetExtensionMockAPI
@@ -413,6 +422,12 @@ RefPtr
 ExtensionAlarms
 >
 mExtensionAlarms
+;
+RefPtr
+<
+ExtensionDns
+>
+mExtensionDns
 ;
 RefPtr
 <

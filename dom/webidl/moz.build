@@ -6361,6 +6361,11 @@ ExtensionBrowser
 webidl
 "
 "
+ExtensionDns
+.
+webidl
+"
+"
 ExtensionEventManager
 .
 webidl
