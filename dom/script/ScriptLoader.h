@@ -1815,7 +1815,7 @@ aRequest
 )
 ;
 void
-CancelScriptLoadRequests
+CancelAndClearScriptLoadRequests
 (
 )
 ;
