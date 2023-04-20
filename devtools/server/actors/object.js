@@ -1139,6 +1139,7 @@ options
 )
 {
 return
+new
 PropertyIteratorActor
 (
 this
@@ -1154,6 +1155,7 @@ enumEntries
 )
 {
 return
+new
 PropertyIteratorActor
 (
 this
@@ -1173,6 +1175,7 @@ enumSymbols
 )
 {
 return
+new
 SymbolIteratorActor
 (
 this
@@ -1187,6 +1190,7 @@ enumPrivateProperties
 )
 {
 return
+new
 PrivatePropertiesIteratorActor
 (
 this

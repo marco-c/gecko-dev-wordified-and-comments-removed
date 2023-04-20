@@ -1046,6 +1046,7 @@ this
 .
 _highlighter
 =
+new
 CustomHighlighterActor
 (
 this
@@ -1103,6 +1104,7 @@ this
 .
 _tabbingOrderHighlighter
 =
+new
 CustomHighlighterActor
 (
 this

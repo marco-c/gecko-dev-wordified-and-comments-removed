@@ -248,6 +248,7 @@ desc
 const
 actor
 =
+new
 AnimationPlayerActor
 (
 {
