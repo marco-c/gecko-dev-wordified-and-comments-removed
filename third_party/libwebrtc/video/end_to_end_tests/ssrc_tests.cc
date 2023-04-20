@@ -403,7 +403,6 @@ input_observer
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -636,7 +635,6 @@ Wait
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -1073,7 +1071,6 @@ send_single_ssrc_first_
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 &

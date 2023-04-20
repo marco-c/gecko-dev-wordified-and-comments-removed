@@ -591,7 +591,6 @@ test
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -1287,7 +1286,6 @@ PerformTest
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )

@@ -438,7 +438,6 @@ stuff_done
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 ASSERT_TRUE
@@ -465,7 +464,6 @@ DoStuff
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 tq1
@@ -496,7 +494,6 @@ reset
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 ASSERT_FALSE
@@ -684,7 +681,6 @@ stuff_done
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 ASSERT_TRUE
@@ -752,7 +748,6 @@ DoStuff
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 ASSERT_TRUE
@@ -829,7 +824,6 @@ alive
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 bool

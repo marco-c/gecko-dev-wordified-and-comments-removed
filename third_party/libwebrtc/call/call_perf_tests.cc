@@ -1093,7 +1093,6 @@ drifting_clock
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -2002,7 +2001,6 @@ synchronized
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -4893,7 +4891,6 @@ kDefaultHeight
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 &
@@ -5485,7 +5482,6 @@ call_stats
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 this

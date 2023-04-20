@@ -103,15 +103,6 @@ include
 "
 rtc_base
 /
-location
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 synchronization
 /
 mutex
@@ -462,7 +453,6 @@ encoder
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -545,7 +535,6 @@ kSilenceTimeoutMs
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -598,7 +587,6 @@ sender_transport
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -731,7 +719,6 @@ kSilenceTimeoutMs
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -1118,7 +1105,6 @@ network_state
 {
 SendTask
 (
-RTC_FROM_HERE
 e2e_test_task_queue_
 [
 call
@@ -1168,7 +1154,6 @@ encoder
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 .
 get

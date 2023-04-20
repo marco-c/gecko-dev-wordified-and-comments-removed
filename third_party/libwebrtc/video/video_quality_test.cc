@@ -1552,7 +1552,6 @@ r
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 [
 &
@@ -9035,7 +9034,6 @@ RtcEventLogNull
 }
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -9320,7 +9318,6 @@ task_queue
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -9647,7 +9644,6 @@ Wait
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -10491,7 +10487,6 @@ RtcEventLogNull
 }
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -11085,7 +11080,6 @@ task_queue
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )

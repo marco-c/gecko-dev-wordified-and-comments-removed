@@ -441,7 +441,6 @@ receiver_transport
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -754,7 +753,6 @@ render
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -900,7 +898,6 @@ receiver_transport
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -1204,7 +1201,6 @@ render
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )

@@ -558,7 +558,6 @@ override
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 ]
@@ -1941,7 +1940,6 @@ call
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 this

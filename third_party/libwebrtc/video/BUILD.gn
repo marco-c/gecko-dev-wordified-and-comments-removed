@@ -6147,14 +6147,6 @@ gunit_helpers
 /
 rtc_base
 :
-location
-"
-"
-.
-.
-/
-rtc_base
-:
 logging
 "
 "

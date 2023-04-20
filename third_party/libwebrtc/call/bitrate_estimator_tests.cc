@@ -650,7 +650,6 @@ SetUp
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -966,7 +965,6 @@ TearDown
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -1576,7 +1574,6 @@ InstantiatesTOFPerDefaultForVideo
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -1653,7 +1650,6 @@ ImmediatelySwitchToASTForVideo
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -1752,7 +1748,6 @@ SwitchesToASTForVideo
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -1822,7 +1817,6 @@ Wait
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -1907,7 +1901,6 @@ DISABLED_SwitchesToASTThenBackToTOFForVideo
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -1984,7 +1977,6 @@ Wait
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -2062,7 +2054,6 @@ Wait
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )

@@ -309,7 +309,6 @@ kHighQp
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -332,7 +331,6 @@ qs_
 nullptr
 ;
 }
-RTC_FROM_HERE
 )
 ;
 }
@@ -540,7 +538,6 @@ kScaleDown
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_TRUE
@@ -595,7 +592,6 @@ kKeepScaleAtHighQp
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_FALSE
@@ -650,7 +646,6 @@ kScaleDownAboveHighQp
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_TRUE
@@ -742,7 +737,6 @@ kHighQp
 ;
 }
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_TRUE
@@ -827,7 +821,6 @@ kHighQp
 ;
 }
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_FALSE
@@ -943,7 +936,6 @@ kHighQp
 ;
 }
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_EQ
@@ -1003,7 +995,6 @@ kKeepScaleAboveLowQp
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_FALSE
@@ -1058,7 +1049,6 @@ kScaleUp
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_TRUE
@@ -1113,7 +1103,6 @@ kScaleDown
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_TRUE
@@ -1161,7 +1150,6 @@ kScaleUp
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_TRUE
@@ -1239,7 +1227,6 @@ kLowQp
 ;
 }
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_FALSE
@@ -1273,7 +1260,6 @@ kLowQp
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_TRUE
@@ -1325,7 +1311,6 @@ kLowQp
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_FALSE
@@ -1403,7 +1388,6 @@ kHighQp
 ;
 }
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_TRUE
@@ -1472,7 +1456,6 @@ kLowQp
 ;
 }
 }
-RTC_FROM_HERE
 )
 ;
 EXPECT_TRUE

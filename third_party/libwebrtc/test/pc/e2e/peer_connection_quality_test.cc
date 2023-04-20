@@ -2586,7 +2586,6 @@ PollStatsAndNotifyObservers
 )
 ;
 }
-RTC_FROM_HERE
 )
 ;
 alice_

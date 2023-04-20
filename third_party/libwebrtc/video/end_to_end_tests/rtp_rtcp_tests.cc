@@ -1579,7 +1579,6 @@ one_stream
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -1913,7 +1912,6 @@ i
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -2039,7 +2037,6 @@ packet
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -2101,7 +2098,6 @@ packets
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -2160,7 +2156,6 @@ packet
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -2223,7 +2218,6 @@ packets
 }
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -2685,7 +2679,6 @@ Create
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -3184,7 +3177,6 @@ packets
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -3234,7 +3226,6 @@ packets
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -3300,7 +3291,6 @@ packets
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )

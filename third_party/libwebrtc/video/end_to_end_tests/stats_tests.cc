@@ -854,7 +854,6 @@ stats
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 &
@@ -1867,7 +1866,6 @@ task_queue_
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 &
@@ -2288,7 +2286,6 @@ override
 {
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 &
@@ -2331,7 +2328,6 @@ kDefaultTimingFramesDelayMs
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue_
 [
 &
@@ -2925,7 +2921,6 @@ encoder_config_with_screenshare
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -3152,7 +3147,6 @@ PerformTest
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -3201,7 +3195,6 @@ PerformTest
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -4115,7 +4108,6 @@ receiver_transport
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -4334,7 +4326,6 @@ stats
 ;
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
@@ -4421,7 +4412,6 @@ SleepMs
 }
 SendTask
 (
-RTC_FROM_HERE
 task_queue
 (
 )
