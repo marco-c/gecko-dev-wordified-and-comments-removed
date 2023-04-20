@@ -1582,9 +1582,19 @@ verify
 *
 param
 {
+object
+}
+options
+Options
+object
+*
+param
+{
 boolean
 }
 [
+options
+.
 ignoreKnownDomains
 ]
 If
@@ -1609,6 +1619,8 @@ param
 boolean
 }
 [
+options
+.
 noIp
 ]
 If
@@ -1626,6 +1638,8 @@ param
 boolean
 }
 [
+options
+.
 noPort
 ]
 If
@@ -1990,6 +2004,7 @@ a
 UrlbarQueryContext
 .
 *
+*
 param
 {
 UrlbarQueryContext
@@ -2101,6 +2116,7 @@ a
 restriction
 token
 .
+*
 *
 param
 {
@@ -2214,6 +2230,7 @@ string
 tokens
 .
 *
+*
 param
 {
 string
@@ -2228,7 +2245,7 @@ split
 *
 returns
 {
-array
+Array
 }
 An
 array
@@ -2676,7 +2693,7 @@ type
 *
 param
 {
-array
+Array
 }
 tokens
 *
@@ -2691,7 +2708,7 @@ tokens
 *
 returns
 {
-array
+Array
 }
 An
 array
@@ -2700,7 +2717,8 @@ token
 objects
 .
 *
-note
+Note
+:
 restriction
 characters
 are

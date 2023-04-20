@@ -1002,7 +1002,7 @@ to
 *
 param
 {
-function
+Function
 }
 listener
 *
@@ -1333,7 +1333,7 @@ context
 *
 param
 {
-function
+Function
 }
 addCallback
 *

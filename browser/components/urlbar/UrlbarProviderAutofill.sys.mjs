@@ -1813,6 +1813,7 @@ this
 provider
 .
 *
+*
 returns
 {
 string
@@ -1847,6 +1848,7 @@ of
 this
 provider
 .
+*
 *
 returns
 {
@@ -1916,6 +1918,7 @@ save
 on
 resources
 .
+*
 *
 param
 {
@@ -2441,6 +2444,7 @@ s
 priority
 .
 *
+*
 param
 {
 UrlbarQueryContext
@@ -2531,6 +2535,7 @@ Starts
 querying
 .
 *
+*
 param
 {
 object
@@ -2543,7 +2548,7 @@ object
 *
 param
 {
-function
+Function
 }
 addCallback
 Callback
@@ -2702,6 +2707,7 @@ running
 query
 .
 *
+*
 param
 {
 object
@@ -2773,6 +2779,7 @@ highest
 value
 .
 *
+*
 param
 {
 UrlbarQueryContext
@@ -2799,7 +2806,12 @@ examine
 returns
 {
 Promise
+<
+string
+?
+>
 }
+*
 Resolved
 when
 the
@@ -2807,14 +2819,12 @@ filtering
 is
 complete
 .
-*
-resolves
-{
-string
-}
-The
+Resolves
+with
+the
 top
 matching
+*
 host
 or
 null
@@ -3243,7 +3253,7 @@ queryContext
 *
 returns
 {
-array
+Array
 }
 consisting
 of
@@ -3548,7 +3558,7 @@ queryContext
 *
 returns
 {
-array
+Array
 }
 consisting
 of
@@ -4504,6 +4514,7 @@ the
 Places
 database
 .
+*
 *
 param
 {

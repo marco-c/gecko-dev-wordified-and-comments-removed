@@ -1716,7 +1716,7 @@ state
 *
 returns
 {
-array
+Array
 }
 *
 [
@@ -2091,7 +2091,7 @@ state
 *
 param
 {
-array
+Array
 }
 flexDataArray
 *
@@ -2101,7 +2101,7 @@ _updateFlexData
 *
 returns
 {
-array
+Array
 }
 *
 [
@@ -2912,7 +2912,7 @@ _fillGroup
 *
 param
 {
-array
+Array
 }
 flexDataArray
 *
@@ -3013,7 +3013,7 @@ passes
 *
 returns
 {
-array
+Array
 }
 *
 A
@@ -4300,7 +4300,7 @@ sort
 *
 returns
 {
-array
+Array
 }
 *
 [
@@ -4310,7 +4310,6 @@ hasMoreResults
 ]
 where
 :
-*
 *
 results
 :
@@ -4330,7 +4329,6 @@ results
 were
 added
 .
-*
 *
 usedLimits
 :
@@ -4397,7 +4395,6 @@ availableSpan
 :
 4
 }
-*
 *
 hasMoreResults
 :
@@ -8403,7 +8400,7 @@ in
 *
 param
 {
-array
+Array
 }
 suggestedIndexResults
 *
@@ -8416,7 +8413,7 @@ property
 *
 param
 {
-array
+Array
 }
 sortedResults
 *

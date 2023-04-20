@@ -842,7 +842,7 @@ string
 *
 returns
 {
-array
+Array
 }
 *
 The
@@ -1464,7 +1464,7 @@ result
 *
 param
 {
-array
+Array
 }
 keywords
 *
@@ -3469,7 +3469,7 @@ suggestions
 *
 param
 {
-array
+Array
 }
 results
 *

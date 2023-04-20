@@ -207,6 +207,7 @@ a
 url
 .
 *
+*
 param
 {
 string
@@ -388,6 +389,7 @@ this
 provider
 .
 *
+*
 returns
 {
 string
@@ -422,6 +424,7 @@ of
 this
 provider
 .
+*
 *
 returns
 {
@@ -491,6 +494,7 @@ save
 on
 resources
 .
+*
 *
 param
 {
@@ -734,6 +738,7 @@ in
 the
 Urlbar
 .
+*
 *
 param
 {
@@ -1347,6 +1352,7 @@ Starts
 querying
 .
 *
+*
 param
 {
 object
@@ -1359,7 +1365,7 @@ object
 *
 param
 {
-function
+Function
 }
 addCallback
 Callback
@@ -1871,6 +1877,7 @@ s
 priority
 .
 *
+*
 param
 {
 UrlbarQueryContext
@@ -1915,6 +1922,7 @@ a
 running
 query
 .
+*
 *
 param
 {
@@ -2838,6 +2846,7 @@ given
 the
 queryContext
 .
+*
 *
 param
 {

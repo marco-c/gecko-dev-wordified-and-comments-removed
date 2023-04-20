@@ -237,6 +237,7 @@ this
 provider
 .
 *
+*
 returns
 {
 string
@@ -271,6 +272,7 @@ of
 this
 provider
 .
+*
 *
 returns
 {
@@ -610,7 +612,7 @@ object
 *
 param
 {
-function
+Function
 }
 addCallback
 *

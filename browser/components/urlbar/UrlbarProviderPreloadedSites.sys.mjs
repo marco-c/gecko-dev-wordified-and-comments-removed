@@ -610,6 +610,7 @@ this
 provider
 .
 *
+*
 returns
 {
 string
@@ -644,6 +645,7 @@ of
 this
 provider
 .
+*
 *
 returns
 {
@@ -713,6 +715,7 @@ save
 on
 resources
 .
+*
 *
 param
 {
@@ -1147,6 +1150,7 @@ Starts
 querying
 .
 *
+*
 param
 {
 object
@@ -1159,7 +1163,7 @@ object
 *
 param
 {
-function
+Function
 }
 addCallback
 Callback
@@ -1453,6 +1457,7 @@ running
 query
 .
 *
+*
 param
 {
 object
@@ -1514,9 +1519,10 @@ tests
 only
 .
 *
+*
 param
 {
-array
+Array
 }
 list
 *

@@ -1014,6 +1014,7 @@ the
 manager
 .
 *
+*
 param
 {
 object
@@ -1225,6 +1226,7 @@ provider
 object
 .
 *
+*
 param
 {
 object
@@ -1308,6 +1310,7 @@ given
 name
 .
 *
+*
 param
 {
 string
@@ -1363,6 +1366,7 @@ with
 the
 manager
 .
+*
 *
 param
 {
@@ -1448,6 +1452,7 @@ muxer
 object
 .
 *
+*
 param
 {
 object
@@ -1513,6 +1518,7 @@ muxerName
 Starts
 querying
 .
+*
 *
 param
 {
@@ -2091,6 +2097,7 @@ running
 query
 .
 *
+*
 param
 {
 object
@@ -2251,9 +2258,10 @@ interrupted
 abruptly
 .
 *
+*
 param
 {
-function
+Function
 }
 taskFn
 a
@@ -2506,6 +2514,7 @@ the
 query
 object
 .
+*
 *
 param
 {
@@ -3524,8 +3533,8 @@ Cancels
 this
 query
 .
-*
-note
+Note
+:
 Invoking
 cancel
 multiple
@@ -3743,6 +3752,7 @@ the
 results
 set
 .
+*
 *
 param
 {
@@ -4819,6 +4829,7 @@ a
 given
 UrlbarQueryContext
 .
+*
 *
 param
 {

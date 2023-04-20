@@ -262,6 +262,7 @@ a
 result
 .
 *
+*
 param
 {
 integer
@@ -772,6 +773,7 @@ this
 result
 .
 *
+*
 returns
 {
 string
@@ -818,9 +820,10 @@ the
 title
 .
 *
+*
 returns
 {
-array
+Array
 }
 The
 array
@@ -856,9 +859,10 @@ highlights
 ]
 .
 *
+*
 returns
 {
-array
+Array
 }
 The
 title
@@ -1151,6 +1155,7 @@ icon
 url
 .
 *
+*
 returns
 {
 string
@@ -1213,6 +1218,7 @@ among
 the
 results
 .
+*
 *
 returns
 {
@@ -1524,7 +1530,7 @@ domain
 *
 param
 {
-array
+Array
 }
 tokens
 The
@@ -1690,7 +1696,7 @@ payloadPropertyValue
 *
 returns
 {
-array
+Array
 }
 An
 array
@@ -2613,6 +2619,7 @@ result
 object
 itself
 .
+*
 *
 returns
 {

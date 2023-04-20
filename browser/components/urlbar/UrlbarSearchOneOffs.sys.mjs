@@ -262,7 +262,7 @@ buttons
 *
 returns
 {
-array
+Array
 }
 *
 The
@@ -311,6 +311,7 @@ engines
 list
 changes
 .
+*
 *
 param
 {
@@ -1898,7 +1899,7 @@ added
 *
 returns
 {
-array
+Array
 }
 engines
 *
@@ -1931,7 +1932,7 @@ offs
 *
 param
 {
-array
+Array
 }
 engines
 *
@@ -1944,7 +1945,7 @@ add
 *
 param
 {
-array
+Array
 }
 addEngines
 *

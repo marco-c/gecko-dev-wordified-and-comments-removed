@@ -218,6 +218,7 @@ this
 provider
 .
 *
+*
 returns
 {
 string
@@ -252,6 +253,7 @@ of
 this
 provider
 .
+*
 *
 returns
 {
@@ -321,6 +323,7 @@ save
 on
 resources
 .
+*
 *
 param
 {
@@ -462,6 +465,7 @@ context
 id
 .
 *
+*
 param
 {
 integer
@@ -533,6 +537,7 @@ in
 moz_openpages_temp
 table
 .
+*
 *
 param
 {
@@ -697,6 +702,7 @@ as
 open
 .
 *
+*
 param
 {
 string
@@ -814,6 +820,7 @@ registered
 open
 tab
 .
+*
 *
 param
 {
@@ -936,6 +943,7 @@ Starts
 querying
 .
 *
+*
 param
 {
 object
@@ -948,7 +956,7 @@ object
 *
 param
 {
-function
+Function
 }
 addCallback
 Callback
@@ -1163,6 +1171,7 @@ memory
 table
 .
 *
+*
 param
 {
 string
@@ -1305,6 +1314,7 @@ the
 memory
 table
 .
+*
 *
 param
 {

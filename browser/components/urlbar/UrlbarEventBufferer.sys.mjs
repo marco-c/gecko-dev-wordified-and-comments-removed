@@ -451,6 +451,7 @@ the
 class
 .
 *
+*
 param
 {
 UrlbarInput
@@ -887,6 +888,7 @@ DOM
 events
 .
 *
+*
 param
 {
 Event
@@ -1016,6 +1018,7 @@ the
 event
 .
 *
+*
 param
 {
 Event
@@ -1129,6 +1132,7 @@ deferred
 event
 queue
 .
+*
 *
 param
 {
@@ -1453,6 +1457,7 @@ key
 events
 .
 *
+*
 param
 {
 boolean
@@ -1681,6 +1686,7 @@ event
 should
 be
 deferred
+*
 *
 param
 {
@@ -2063,6 +2069,7 @@ deferring
 events
 .
 *
+*
 returns
 {
 boolean
@@ -2111,6 +2118,7 @@ selection
 *
 events
 .
+*
 *
 returns
 {
@@ -2217,6 +2225,7 @@ be
 played
 now
 .
+*
 *
 param
 {

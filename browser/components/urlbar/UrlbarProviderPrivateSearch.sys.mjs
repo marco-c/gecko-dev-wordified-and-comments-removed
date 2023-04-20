@@ -215,6 +215,7 @@ this
 provider
 .
 *
+*
 returns
 {
 string
@@ -249,6 +250,7 @@ of
 this
 provider
 .
+*
 *
 returns
 {
@@ -319,6 +321,7 @@ on
 resources
 .
 *
+*
 param
 {
 UrlbarQueryContext
@@ -381,6 +384,7 @@ Starts
 querying
 .
 *
+*
 param
 {
 object
@@ -393,7 +397,7 @@ object
 *
 param
 {
-function
+Function
 }
 addCallback
 Callback

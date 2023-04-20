@@ -549,6 +549,7 @@ this
 provider
 .
 *
+*
 returns
 {
 string
@@ -583,6 +584,7 @@ of
 this
 provider
 .
+*
 *
 returns
 {
@@ -652,6 +654,7 @@ save
 on
 resources
 .
+*
 *
 param
 {
@@ -734,6 +737,7 @@ provider
 s
 priority
 .
+*
 *
 param
 {
@@ -1917,6 +1921,7 @@ this
 provider
 .
 *
+*
 returns
 {
 boolean
@@ -1951,6 +1956,7 @@ Starts
 querying
 .
 *
+*
 param
 {
 object
@@ -1963,7 +1969,7 @@ object
 *
 param
 {
-function
+Function
 }
 addCallback
 Callback
