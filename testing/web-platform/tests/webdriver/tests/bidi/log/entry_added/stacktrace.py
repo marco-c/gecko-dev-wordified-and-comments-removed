@@ -277,7 +277,7 @@ expected_stack
 columnNumber
 "
 :
-42
+41
 "
 functionName
 "
@@ -302,7 +302,7 @@ url
 columnNumber
 "
 :
-34
+33
 "
 functionName
 "
@@ -327,7 +327,7 @@ url
 columnNumber
 "
 :
-17
+16
 "
 functionName
 "
@@ -562,7 +562,7 @@ expected_stack
 columnNumber
 "
 :
-36
+35
 "
 functionName
 "
@@ -587,7 +587,7 @@ url
 columnNumber
 "
 :
-30
+29
 "
 functionName
 "
@@ -612,7 +612,7 @@ url
 columnNumber
 "
 :
-13
+12
 "
 functionName
 "
