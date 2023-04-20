@@ -11269,6 +11269,7 @@ link
 source
 "
 )
+?
 .
 innerText
 ;

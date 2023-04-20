@@ -338,6 +338,9 @@ sourceMapURL
 loadFromCache
 :
 false
+allowRedirects
+:
+false
 sourceMapBaseURL
 :
 generatedSource
