@@ -951,7 +951,6 @@ ws
 "
 (
 "
-ws
 [
 named_field
 {
@@ -973,7 +972,6 @@ ws
 "
 :
 "
-ws
 value
 ;
 #

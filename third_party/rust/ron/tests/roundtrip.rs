@@ -545,7 +545,6 @@ derive
 Debug
 Deserialize
 PartialEq
-Eq
 Serialize
 )
 ]

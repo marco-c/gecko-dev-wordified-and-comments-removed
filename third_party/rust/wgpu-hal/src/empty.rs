@@ -30,13 +30,6 @@ pub
 struct
 Context
 ;
-#
-[
-derive
-(
-Debug
-)
-]
 pub
 struct
 Encoder

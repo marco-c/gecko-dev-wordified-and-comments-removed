@@ -5677,7 +5677,7 @@ Multiply
 >
 {
 let
-kind_allowed
+kind_match
 =
 match
 left_inner
@@ -6111,7 +6111,7 @@ _
 0
 }
 ;
-kind_allowed
+kind_match
 &
 &
 types_match

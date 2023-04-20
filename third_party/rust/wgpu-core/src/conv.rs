@@ -139,11 +139,6 @@ format
 Tf
 :
 :
-Depth16Unorm
-|
-Tf
-:
-:
 Depth32Float
 |
 Tf
@@ -160,6 +155,11 @@ Tf
 :
 :
 Depth24PlusStencil8
+|
+Tf
+:
+:
+Depth24UnormStencil8
 =
 >
 false

@@ -13,7 +13,7 @@ version
 "
 0
 .
-14
+13
 .
 0
 "
@@ -159,17 +159,3 @@ optional
 =
 true
 }
-[
-dev
--
-dependencies
-]
-serde_json
-=
-"
-1
-.
-0
-.
-85
-"

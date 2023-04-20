@@ -6975,17 +6975,6 @@ queue
 family_index
 )
 .
-flags
-(
-vk
-:
-:
-CommandPoolCreateFlags
-:
-:
-TRANSIENT
-)
-.
 build
 (
 )
