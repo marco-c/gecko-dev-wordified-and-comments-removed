@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-fccb7167c117115b904b895caf354d2d9c759e20
+e4f1648f7705d3549283dfac939ab3eea1d684b7
 '
 #
 Keep
@@ -205,7 +205,7 @@ chromium
 src
 /
 base
-27c15601719f1f78d300253aca2f245f7b3396b1
+86c223aa3582f9c2d7ba5f13c129cd57550d6a45
 '
 '
 src
@@ -229,7 +229,7 @@ chromium
 src
 /
 build
-3b7c3aadd702a8c29e03e2dcdd6e18f2f8b89da3
+57d2f33f869e3570a0ea3e6a1d5947147cdceddd
 '
 '
 src
@@ -349,7 +349,7 @@ chromium
 src
 /
 ios
-216ecba5c58a7c8d318ebbea1a52fdfc00168fea
+8679e5aad223b64eeb05c4429d9964257e1bfe0b
 '
 '
 condition
@@ -381,7 +381,7 @@ chromium
 src
 /
 testing
-8f0f8c8039ce161e0162dcfe3d8358935f754863
+a3f99ca9ba51ea23da438b8c833de49ee3e92a45
 '
 '
 src
@@ -405,7 +405,7 @@ chromium
 src
 /
 third_party
-ac645d72b105b32605a69e688d50d62e260e9508
+552d4272d017f53a0ff42c14454352e62761cbce
 '
 '
 src
@@ -704,7 +704,7 @@ project
 libcxxabi
 .
 git
-b5f3d3b904425613311516b1ee27fa2bae57b1e4
+3007992fc7706df4e0b17b63eaf601c421e163ae
 '
 '
 src
@@ -1166,7 +1166,7 @@ tools
 depot_tools
 .
 git
-3c4d401cbdd24154d1fa6dc2d398fdace8daedf8
+a83ac9395c14b74938a84665a3cd695e50559d4e
 '
 '
 src
@@ -1194,7 +1194,7 @@ third_party
 ffmpeg
 .
 git
-b86aef09f324c87e324365980422e56f6533454f
+880df5ede50a8534c8116d0d50e4bc4f3ef08a06
 '
 '
 src
@@ -2050,7 +2050,7 @@ external
 perfetto
 .
 git
-c594998498be341dcab27e5c4200a7b8642d635f
+4ba9ce2bc3c24d296ee137367ac1adf988c23a8c
 '
 '
 src
@@ -2495,7 +2495,7 @@ chromium
 src
 /
 tools
-04ee2035be754b15ffafc5e0a7e17fc685f1cf6b
+dce45192ba4bfe4164296c20db33194db881fcdb
 '
 '
 src
