@@ -264,6 +264,11 @@ EXTRA_JS_MODULES
 =
 [
 "
+CSV
+.
+js
+"
+"
 LoginCSVImport
 .
 jsm
