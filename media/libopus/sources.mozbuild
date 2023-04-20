@@ -1487,15 +1487,6 @@ silk
 /
 float
 /
-LPC_inv_pred_gain_FLP
-.
-c
-'
-'
-silk
-/
-float
-/
 LTP_analysis_filter_FLP
 .
 c
