@@ -498,6 +498,12 @@ s
 name
 .
 *
+*
+returns
+{
+string
+}
+*
 /
 get
 name
@@ -534,6 +540,14 @@ PROVIDER_TYPE
 .
 EXTENSION
 .
+*
+*
+returns
+{
+UrlbarUtils
+.
+PROVIDER_TYPE
+}
 *
 /
 get

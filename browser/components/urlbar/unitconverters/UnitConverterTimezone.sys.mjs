@@ -413,6 +413,12 @@ string
 }
 searchString
 *
+The
+string
+to
+be
+converted
+*
 returns
 {
 string

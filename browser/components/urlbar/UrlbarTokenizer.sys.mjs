@@ -2120,9 +2120,15 @@ token
 *
 param
 {
-string
+object
 }
 token
+*
+The
+token
+to
+check
+.
 *
 returns
 {

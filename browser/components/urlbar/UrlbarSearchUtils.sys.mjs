@@ -380,6 +380,10 @@ object
 options
 ]
 *
+Options
+object
+.
+*
 param
 {
 boolean
@@ -1288,6 +1292,15 @@ param
 nsISearchEngine
 }
 engine
+*
+The
+engine
+to
+get
+the
+root
+domain
+of
 *
 returns
 {

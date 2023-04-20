@@ -3251,6 +3251,11 @@ UrlbarQueryContext
 }
 queryContext
 *
+The
+current
+queryContext
+.
+*
 returns
 {
 Array
@@ -3555,6 +3560,11 @@ param
 UrlbarQueryContext
 }
 queryContext
+*
+The
+current
+queryContext
+.
 *
 returns
 {
@@ -4532,6 +4542,11 @@ param
 UrlbarQueryContext
 }
 queryContext
+*
+The
+query
+context
+.
 *
 returns
 {

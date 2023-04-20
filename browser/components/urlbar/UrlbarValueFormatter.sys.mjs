@@ -159,6 +159,12 @@ UrlbarInput
 }
 urlbarInput
 *
+The
+parent
+instance
+of
+UrlbarInput
+*
 /
 constructor
 (

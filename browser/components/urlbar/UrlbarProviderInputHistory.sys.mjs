@@ -569,6 +569,12 @@ on
 providers
 .
 *
+*
+returns
+{
+string
+}
+*
 /
 get
 name
@@ -598,6 +604,14 @@ UrlbarUtils
 .
 PROVIDER_TYPE
 .
+*
+*
+returns
+{
+UrlbarUtils
+.
+PROVIDER_TYPE
+}
 *
 /
 get

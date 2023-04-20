@@ -897,6 +897,12 @@ no
 selection
 .
 *
+*
+returns
+{
+number
+}
+*
 /
 get
 selectedViewIndex

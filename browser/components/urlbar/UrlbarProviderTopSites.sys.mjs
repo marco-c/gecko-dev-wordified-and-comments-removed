@@ -541,6 +541,12 @@ to
 win
 .
 *
+*
+returns
+{
+string
+}
+*
 /
 get
 name
@@ -563,6 +569,14 @@ of
 the
 provider
 .
+*
+*
+returns
+{
+UrlbarUtils
+.
+PROVIDER_TYPE
+}
 *
 /
 get

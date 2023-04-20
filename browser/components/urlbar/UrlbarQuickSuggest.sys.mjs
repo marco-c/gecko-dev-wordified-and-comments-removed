@@ -3408,6 +3408,11 @@ object
 }
 config
 *
+The
+config
+object
+.
+*
 /
 _setConfig
 (

@@ -435,6 +435,14 @@ the
 provider
 .
 *
+*
+returns
+{
+UrlbarUtils
+.
+PROVIDER_TYPE
+}
+*
 /
 get
 type
