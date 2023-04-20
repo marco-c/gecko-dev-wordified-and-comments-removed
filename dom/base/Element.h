@@ -6135,6 +6135,13 @@ nsAString
 aTarget
 )
 ;
+virtual
+bool
+Translate
+(
+)
+const
+;
 protected
 :
 enum
