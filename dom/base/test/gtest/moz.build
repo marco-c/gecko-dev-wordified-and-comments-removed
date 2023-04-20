@@ -28,6 +28,11 @@ TestScheduler
 cpp
 "
 "
+TestXMLSerializerNoBreakLink
+.
+cpp
+"
+"
 TestXPathGenerator
 .
 cpp
