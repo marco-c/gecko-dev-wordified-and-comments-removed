@@ -94,6 +94,12 @@ await
 assert_not_bfcached
 (
 rc1
+[
+'
+Internal
+error
+'
+]
 )
 ;
 }
