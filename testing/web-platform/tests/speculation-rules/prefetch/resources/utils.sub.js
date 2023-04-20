@@ -762,6 +762,11 @@ options
 =
 {
 }
+uuid
+=
+token
+(
+)
 )
 {
 let
@@ -770,9 +775,7 @@ agent
 new
 PrefetchAgent
 (
-token
-(
-)
+uuid
 t
 )
 ;
