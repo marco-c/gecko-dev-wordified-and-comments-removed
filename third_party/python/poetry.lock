@@ -1703,7 +1703,7 @@ version
 "
 6
 .
-3
+4
 .
 0
 "
@@ -6493,7 +6493,7 @@ content
 hash
 =
 "
-68c07da1b086cc3d06dd51910b445a8cd7c69b154ab8199ef7c5b8ece9e713ff
+16adc4b6292094b504000d2c7b9dd1af8103f0220be93894238b60455d9dc87b
 "
 [
 metadata
@@ -8733,7 +8733,7 @@ glean_parser
 -
 6
 .
-3
+4
 .
 0
 -
@@ -8750,7 +8750,7 @@ hash
 "
 sha256
 :
-b6cb6ab1247f3eb8e64427644dbdc0ef1fbf46af593225d66e24aa967dcaa23e
+011c187aeb655af03a24bf1970aeac685e29a8ff1cbdfe9ccbd441bca9d7005e
 "
 }
 {
@@ -8761,7 +8761,7 @@ glean_parser
 -
 6
 .
-3
+4
 .
 0
 .
@@ -8774,7 +8774,7 @@ hash
 "
 sha256
 :
-946ef3d7fe24fbbe8101964791b7ad0e609d1ee6a21a87b33f805de8577e6f40
+f7e53d911324710634b636a8e8f9a2d124ea874c70d29154d3fc595e56b090a3
 "
 }
 ]
