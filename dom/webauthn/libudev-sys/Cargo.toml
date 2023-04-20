@@ -346,6 +346,15 @@ bindings
 to
 libudev
 "
+license
+=
+"
+MPL
+-
+2
+.
+0
+"
 [
 dependencies
 ]
