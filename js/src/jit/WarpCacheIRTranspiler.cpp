@@ -924,7 +924,6 @@ offset
 }
 NativeIterator
 *
-*
 nativeIteratorStubField
 (
 uint32_t
@@ -935,7 +934,6 @@ return
 reinterpret_cast
 <
 NativeIterator
-*
 *
 >
 (
@@ -3985,7 +3983,6 @@ objId
 )
 ;
 NativeIterator
-*
 *
 enumeratorsAddr
 =

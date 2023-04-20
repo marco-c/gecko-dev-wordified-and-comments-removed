@@ -84558,9 +84558,9 @@ temp2
 ;
 masm
 .
-loadPtr
+movePtr
 (
-AbsoluteAddress
+ImmPtr
 (
 lir
 -

@@ -1396,16 +1396,6 @@ prev_
 nullptr
 ;
 }
-static
-NativeIterator
-*
-allocateSentinel
-(
-JSContext
-*
-cx
-)
-;
 void
 trace
 (
