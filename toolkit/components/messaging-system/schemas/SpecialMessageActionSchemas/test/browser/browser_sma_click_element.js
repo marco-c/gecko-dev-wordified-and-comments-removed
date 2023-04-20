@@ -36,6 +36,11 @@ TEST_MESSAGE
 message
 :
 {
+template
+:
+"
+feature_callout
+"
 content
 :
 {

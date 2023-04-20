@@ -532,14 +532,7 @@ true
 }
 priority
 :
-1
-frequency
-:
-{
-lifetime
-:
-1
-}
+3
 trigger
 :
 {
@@ -853,7 +846,7 @@ EMPTY_SCREEN
 }
 priority
 :
-1
+3
 targeting
 :
 !
@@ -1149,7 +1142,7 @@ EMPTY_SCREEN
 }
 priority
 :
-1
+3
 targeting
 :
 !
@@ -1403,7 +1396,7 @@ EMPTY_SCREEN
 }
 priority
 :
-1
+3
 targeting
 :
 !
@@ -1655,7 +1648,7 @@ true
 }
 priority
 :
-1
+3
 targeting
 :
 !
@@ -1947,7 +1940,7 @@ true
 }
 priority
 :
-1
+3
 targeting
 :
 !
@@ -2137,7 +2130,7 @@ true
 }
 priority
 :
-3
+1
 targeting
 :
 !
