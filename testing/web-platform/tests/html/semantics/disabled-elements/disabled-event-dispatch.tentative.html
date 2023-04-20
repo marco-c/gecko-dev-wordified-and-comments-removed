@@ -242,8 +242,7 @@ clickChildElement
 promise_test
 (
 async
-(
-)
+t
 =
 >
 {
@@ -269,6 +268,10 @@ targetparent
 addEventListener
 (
 eventName
+t
+.
+step_func
+(
 (
 )
 =
@@ -303,6 +306,7 @@ events
 }
 }
 )
+)
 ;
 const
 targetShouldReceiveEvents
@@ -326,6 +330,10 @@ target
 addEventListener
 (
 eventName
+t
+.
+step_func
+(
 (
 )
 =
@@ -360,6 +368,7 @@ events
 }
 }
 )
+)
 ;
 let
 childReceivedEvent
@@ -371,6 +380,10 @@ targetchild
 addEventListener
 (
 eventName
+t
+.
+step_func
+(
 (
 )
 =
@@ -381,6 +394,7 @@ childReceivedEvent
 true
 ;
 }
+)
 )
 ;
 await
