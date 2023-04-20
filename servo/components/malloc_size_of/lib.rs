@@ -4187,6 +4187,11 @@ Scope
 Component
 :
 :
+ParentSelector
+|
+Component
+:
+:
 Nth
 (
 .
