@@ -441,12 +441,6 @@ nack_last_seq_number_sent_
 (
 0
 )
-remote_bitrate_
-(
-configuration
-.
-remote_bitrate_estimator
-)
 rtt_stats_
 (
 configuration

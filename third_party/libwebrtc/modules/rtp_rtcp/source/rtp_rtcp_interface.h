@@ -191,9 +191,6 @@ class
 RateLimiter
 ;
 class
-RemoteBitrateEstimator
-;
-class
 RtcEventLog
 ;
 class
@@ -344,12 +341,6 @@ nullptr
 ReportBlockDataObserver
 *
 report_block_data_observer
-=
-nullptr
-;
-RemoteBitrateEstimator
-*
-remote_bitrate_estimator
 =
 nullptr
 ;
