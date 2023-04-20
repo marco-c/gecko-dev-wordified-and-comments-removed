@@ -11061,7 +11061,7 @@ construction_method
 return
 ;
 case
-MP4PARSE_STATUS_ILOC_MISSING
+MP4PARSE_STATUS_PITM_NOT_FOUND
 :
 AccumulateCategorical
 (
