@@ -29823,6 +29823,12 @@ cx
 stackLimitForCurrentPrincipal
 (
 )
+cx
+-
+>
+tempLifoAlloc
+(
+)
 input
 .
 get
