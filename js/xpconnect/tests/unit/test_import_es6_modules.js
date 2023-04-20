@@ -747,7 +747,7 @@ e
 type
 :
 "
-Error
+TypeError
 "
 message
 :
