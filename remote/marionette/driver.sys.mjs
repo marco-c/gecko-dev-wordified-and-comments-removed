@@ -4584,7 +4584,6 @@ prototype
 .
 executeScript
 =
-async
 function
 (
 cmd
@@ -4649,10 +4648,6 @@ line
 }
 ;
 return
-{
-value
-:
-await
 this
 .
 execute_
@@ -4661,7 +4656,6 @@ script
 args
 opts
 )
-}
 ;
 }
 ;
@@ -5223,7 +5217,6 @@ prototype
 .
 executeAsyncScript
 =
-async
 function
 (
 cmd
@@ -5291,10 +5284,6 @@ true
 }
 ;
 return
-{
-value
-:
-await
 this
 .
 execute_
@@ -5303,7 +5292,6 @@ script
 args
 opts
 )
-}
 ;
 }
 ;
@@ -19977,7 +19965,6 @@ prototype
 .
 runReftest
 =
-async
 function
 (
 cmd
@@ -20055,10 +20042,6 @@ references
 )
 ;
 return
-{
-value
-:
-await
 this
 .
 _reftest
@@ -20073,7 +20056,6 @@ pageRanges
 width
 height
 )
-}
 ;
 }
 ;
@@ -20849,14 +20831,10 @@ printSettings
 )
 ;
 return
-{
-value
-:
 btoa
 (
 binaryString
 )
-}
 ;
 }
 ;

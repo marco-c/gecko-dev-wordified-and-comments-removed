@@ -3381,14 +3381,17 @@ unittest
 .
 skipIf
 (
+        
 mozinfo
 .
 info
-[
+.
+get
+(
 "
 ccov
 "
-]
+)
 "
 Bug
 1789085
@@ -3397,6 +3400,7 @@ Lost
 ServerSocket
 connection
 "
+    
 )
     
 def
