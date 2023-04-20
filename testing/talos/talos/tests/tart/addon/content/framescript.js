@@ -49,9 +49,9 @@ html
 )
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Ignore
 chrome

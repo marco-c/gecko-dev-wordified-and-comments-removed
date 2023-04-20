@@ -1368,12 +1368,6 @@ test_bug383369
 html
 "
 "
-testing
-/
-*
-*
-"
-"
 toolkit
 /
 *

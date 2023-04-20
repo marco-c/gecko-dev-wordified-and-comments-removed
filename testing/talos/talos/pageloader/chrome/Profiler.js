@@ -699,9 +699,9 @@ error
 =
 >
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Failed
