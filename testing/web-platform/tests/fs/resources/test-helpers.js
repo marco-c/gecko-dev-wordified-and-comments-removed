@@ -526,6 +526,8 @@ async
 =
 >
 {
+try
+{
 return
 (
 await
@@ -536,6 +538,13 @@ close
 (
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 )
 ;
