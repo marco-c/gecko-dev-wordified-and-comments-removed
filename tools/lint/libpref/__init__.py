@@ -545,7 +545,7 @@ bools
 value
 ]
     
-elif
+if
 value
 .
 isdigit

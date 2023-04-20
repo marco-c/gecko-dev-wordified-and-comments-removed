@@ -1018,9 +1018,6 @@ status
         
 )
     
-else
-:
-        
 print
 (
 "
