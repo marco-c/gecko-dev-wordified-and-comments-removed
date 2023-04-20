@@ -189,6 +189,17 @@ include
 "
 modules
 /
+utility
+/
+maybe_worker_thread
+.
+h
+"
+#
+include
+"
+modules
+/
 video_coding
 /
 include
@@ -348,9 +359,6 @@ clock
 SendStatisticsProxy
 *
 stats_proxy
-TaskQueueBase
-*
-rtp_transport_queue
 RtpTransportControllerSendInterface
 *
 transport
@@ -623,7 +631,7 @@ Config
 const
 config_
 ;
-TaskQueueBase
+MaybeWorkerThread
 *
 const
 rtp_transport_queue_

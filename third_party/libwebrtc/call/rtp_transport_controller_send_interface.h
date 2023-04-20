@@ -225,6 +225,9 @@ class
 FrameEncryptorInterface
 ;
 class
+MaybeWorkerThread
+;
+class
 TargetTransferRateObserver
 ;
 class
@@ -314,10 +317,7 @@ RtpTransportControllerSendInterface
 {
 }
 virtual
-rtc
-:
-:
-TaskQueue
+MaybeWorkerThread
 *
 GetWorkerQueue
 (
