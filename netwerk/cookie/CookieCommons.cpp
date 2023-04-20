@@ -915,7 +915,7 @@ bool
 CookieCommons
 :
 :
-CheckHttpValue
+CheckValue
 (
 const
 CookieStruct
@@ -961,6 +961,7 @@ illegalCharacters
 0x1E
 0x1F
 0x3B
+0x7F
 0x00
 }
 ;
