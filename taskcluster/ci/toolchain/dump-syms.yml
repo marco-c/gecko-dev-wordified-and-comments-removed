@@ -121,6 +121,8 @@ type
 b
 -
 linux
+-
+gcp
 run
 :
 toolchain
@@ -183,6 +185,8 @@ type
 b
 -
 linux
+-
+gcp
 run
 :
 arguments
@@ -260,6 +264,8 @@ type
 b
 -
 linux
+-
+gcp
 run
 :
 arguments

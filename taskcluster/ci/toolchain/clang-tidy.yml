@@ -91,6 +91,8 @@ b
 linux
 -
 large
+-
+gcp
 worker
 :
 max
@@ -343,6 +345,8 @@ b
 linux
 -
 large
+-
+gcp
 run
 :
 script
@@ -450,6 +454,8 @@ b
 linux
 -
 large
+-
+gcp
 worker
 :
 env

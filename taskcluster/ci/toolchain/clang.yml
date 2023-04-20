@@ -69,6 +69,8 @@ b
 linux
 -
 xlarge
+-
+gcp
 worker
 :
 max
@@ -135,6 +137,8 @@ b
 linux
 -
 large
+-
+gcp
 run
 :
 script
@@ -299,6 +303,8 @@ type
 b
 -
 linux
+-
+gcp
 run
 :
 script
@@ -424,6 +430,8 @@ type
 b
 -
 linux
+-
+gcp
 run
 :
 script
@@ -1110,6 +1118,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 max
@@ -1328,6 +1338,8 @@ b
 linux
 -
 large
+-
+gcp
 worker
 :
 max
@@ -1564,6 +1576,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 max
@@ -1793,6 +1807,8 @@ b
 linux
 -
 large
+-
+gcp
 worker
 :
 env
@@ -2038,6 +2054,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 max
@@ -2662,6 +2680,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 max
@@ -2888,6 +2908,8 @@ type
 b
 -
 linux
+-
+gcp
 run
 :
 script
@@ -3018,6 +3040,8 @@ type
 b
 -
 linux
+-
+gcp
 run
 :
 script
@@ -3717,6 +3741,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 max
@@ -3940,6 +3966,8 @@ b
 linux
 -
 large
+-
+gcp
 worker
 :
 max
@@ -4174,6 +4202,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 max
@@ -4408,6 +4438,8 @@ b
 linux
 -
 large
+-
+gcp
 worker
 :
 env
@@ -4651,6 +4683,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 max
@@ -5283,6 +5317,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 max

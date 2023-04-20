@@ -120,6 +120,8 @@ type
 b
 -
 linux
+-
+gcp
 run
 :
 toolchain

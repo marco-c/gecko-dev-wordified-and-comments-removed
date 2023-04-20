@@ -69,6 +69,8 @@ b
 linux
 -
 large
+-
+gcp
 worker
 :
 max

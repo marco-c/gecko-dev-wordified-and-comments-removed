@@ -73,6 +73,8 @@ type
 b
 -
 linux
+-
+gcp
 worker
 :
 max
@@ -393,6 +395,8 @@ b
 linux
 -
 large
+-
+gcp
 treeherder
 :
 symbol
