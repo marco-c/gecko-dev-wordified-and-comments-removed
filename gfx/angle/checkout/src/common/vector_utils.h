@@ -464,7 +464,11 @@ operator
 =
 (
 const
-VectorN
+VectorBase
+<
+Dimension
+Type
+>
 &
 other
 )
@@ -476,7 +480,11 @@ operator
 =
 (
 const
-VectorN
+VectorBase
+<
+Dimension
+Type
+>
 &
 other
 )
@@ -2805,7 +2813,7 @@ operator
 =
 (
 const
-Vector
+VectorBase
 <
 Dimension
 Type
@@ -2876,7 +2884,7 @@ operator
 =
 (
 const
-Vector
+VectorBase
 <
 Dimension
 Type

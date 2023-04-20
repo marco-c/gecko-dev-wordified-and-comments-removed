@@ -302,6 +302,9 @@ mFpRoUninitialize
 bool
 mWinRtAvailable
 ;
+bool
+mWinRtInitialized
+;
 HMODULE
 mComBaseModule
 ;

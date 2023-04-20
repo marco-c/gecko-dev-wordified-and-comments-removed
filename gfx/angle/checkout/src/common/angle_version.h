@@ -1,9 +1,9 @@
 #
 ifndef
-COMMON_VERSION_H_
+COMMON_ANGLE_VERSION_H_
 #
 define
-COMMON_VERSION_H_
+COMMON_ANGLE_VERSION_H_
 #
 include
 "

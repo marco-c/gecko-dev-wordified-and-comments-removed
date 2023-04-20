@@ -439,7 +439,7 @@ if
 qualifier
 =
 =
-EvqOut
+EvqParamOut
 )
 |
 |
@@ -447,7 +447,7 @@ EvqOut
 qualifier
 =
 =
-EvqInOut
+EvqParamInOut
 )
 )
 {

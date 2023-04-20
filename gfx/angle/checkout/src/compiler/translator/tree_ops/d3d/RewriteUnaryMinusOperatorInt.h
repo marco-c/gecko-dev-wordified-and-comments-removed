@@ -22,7 +22,11 @@ TCompiler
 class
 TIntermNode
 ;
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 bool
 RewriteUnaryMinusOperatorInt
 (

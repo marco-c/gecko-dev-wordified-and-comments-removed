@@ -207,6 +207,9 @@ framebufferTarget
 EGLBoolean
 yInverted
 ;
+EGLint
+matchFormat
+;
 }
 ;
 class

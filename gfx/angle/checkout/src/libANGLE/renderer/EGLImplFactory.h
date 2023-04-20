@@ -335,6 +335,14 @@ createShareGroup
 =
 0
 ;
+virtual
+GLuint
+getNextSurfaceID
+(
+)
+=
+0
+;
 }
 ;
 inline

@@ -113,7 +113,10 @@ context
 )
 override
 ;
-void
+angle
+:
+:
+Result
 setLabel
 (
 const

@@ -89,7 +89,11 @@ TIntermTraverser
 {
 public
 :
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 static
 bool
 apply
@@ -532,7 +536,7 @@ returnValueVariableType
 >
 setQualifier
 (
-EvqOut
+EvqParamOut
 )
 ;
 ChangedFunction
@@ -590,6 +594,7 @@ StaticType
 GetBasic
 <
 EbtVoid
+EbpUndefined
 >
 (
 )

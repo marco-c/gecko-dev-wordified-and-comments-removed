@@ -404,6 +404,10 @@ int
 >
 outerArraySizes
 ;
+unsigned
+int
+outerArrayOffset
+;
 }
 ;
 struct

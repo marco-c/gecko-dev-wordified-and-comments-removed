@@ -567,8 +567,13 @@ pointer
 )
 )
 ;
+angle
+:
+:
+ComPtr
+<
 ID3D11Device
-*
+>
 device
 ;
 textureD3D
@@ -583,6 +588,10 @@ device
 if
 (
 device
+.
+Get
+(
+)
 !
 =
 mRenderer

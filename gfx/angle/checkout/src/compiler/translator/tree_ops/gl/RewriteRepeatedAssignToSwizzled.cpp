@@ -52,7 +52,11 @@ TIntermTraverser
 {
 public
 :
-ANGLE_NO_DISCARD
+[
+[
+nodiscard
+]
+]
 static
 bool
 rewrite
