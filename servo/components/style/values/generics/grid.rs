@@ -3537,6 +3537,17 @@ ToShmem
 ]
 #
 [
+value_info
+(
+other_values
+=
+"
+subgrid
+"
+)
+]
+#
+[
 repr
 (
 C
