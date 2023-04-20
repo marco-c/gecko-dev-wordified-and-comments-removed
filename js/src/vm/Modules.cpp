@@ -2509,6 +2509,16 @@ ModuleStatus
 expectedMinimumStatus
 )
 {
+MOZ_ASSERT
+(
+module
+)
+;
+MOZ_ASSERT
+(
+moduleRequest
+)
+;
 Rooted
 <
 Value
