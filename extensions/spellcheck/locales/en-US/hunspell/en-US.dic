@@ -1,4 +1,4 @@
-53261
+53355
 0
 /
 nm
@@ -12111,7 +12111,7 @@ FSLIC
 FTC
 FTM
 /
-MS
+SM
 FUD
 /
 S
@@ -22101,7 +22101,7 @@ MT
 M
 MTF
 /
-MS
+SM
 MTV
 /
 M
@@ -39205,7 +39205,7 @@ absolve
 DSG
 absorb
 /
-AGDSRZ
+AZGDRS
 absorbance
 /
 S
@@ -41824,8 +41824,7 @@ MS
 amoxicillin
 amp
 /
-SMY
-amped
+SMDY
 amperage
 /
 M
@@ -42956,7 +42955,7 @@ apparition
 SM
 appeal
 /
-GMDSB
+GBMDS
 appealing
 /
 UY
@@ -43069,7 +43068,7 @@ apply
 ANXGDS
 appoint
 /
-AELSVGDRZ
+AELSVGZRD
 appointee
 /
 SM
@@ -43881,7 +43880,7 @@ aseptic
 aseptically
 asexual
 /
-YS
+SY
 asexuality
 /
 M
@@ -44620,7 +44619,7 @@ audiovisuals
 M
 audit
 /
-GMDSB
+BGMDS
 auditability
 auditee
 audition
@@ -53551,8 +53550,8 @@ certificate
 /
 MGDS
 certification
-'
-s
+/
+AMS
 certify
 /
 CDSNXG
@@ -54296,7 +54295,7 @@ chevron
 MS
 chew
 /
-SZGMDRB
+SBZGMDR
 chewer
 /
 M
@@ -56769,7 +56768,7 @@ columnist
 SM
 com
 /
-JL
+J
 coma
 /
 MS
@@ -56962,7 +56961,7 @@ commensurate
 IY
 comment
 /
-ZGSMD
+ZGSMDR
 commentary
 /
 SM
@@ -56974,7 +56973,7 @@ commentator
 SM
 commenter
 /
-MS
+M
 commerce
 /
 M
@@ -57223,10 +57222,10 @@ compassion
 M
 compassionate
 /
-YU
+UY
 compatibility
 /
-IMS
+ISM
 compatible
 /
 IMS
@@ -57382,8 +57381,6 @@ comply
 /
 NDSXG
 compo
-/
-S
 component
 /
 SM
@@ -57393,14 +57390,16 @@ LSGD
 comportment
 /
 M
-composable
+compos
+/
+RBZ
 compose
 /
 AECGSD
 composedly
 composer
 /
-MS
+M
 composite
 /
 MYGNXPDS
@@ -57864,7 +57863,7 @@ conferee
 SM
 conference
 /
-MGSD
+MGDS
 conferrable
 conferral
 /
@@ -58710,6 +58709,9 @@ Y
 contradict
 /
 SDG
+contradicted
+/
+U
 contradiction
 /
 SM
@@ -59347,7 +59349,7 @@ coronation
 SM
 coronavirus
 /
-SM
+MS
 coroner
 /
 MS
@@ -62709,7 +62711,7 @@ BSGD
 decryption
 dedendum
 /
-MS
+SM
 dedicate
 /
 AGDS
@@ -64869,7 +64871,7 @@ disablement
 M
 disambiguate
 /
-NGDS
+DSGN
 disappointing
 /
 Y
@@ -66230,7 +66232,6 @@ M
 doublet
 /
 MS
-doubling
 doubloon
 /
 SM
@@ -70275,7 +70276,7 @@ ethical
 UY
 ethicist
 /
-MS
+SM
 ethics
 /
 M
@@ -70672,6 +70673,9 @@ AMS
 examine
 /
 AGDS
+examined
+/
+U
 examiner
 /
 MS
@@ -71045,10 +71049,10 @@ exon
 MS
 exonerate
 /
-GNDS
+GNDSX
 exoneration
 /
-MS
+M
 exoplanet
 /
 MS
@@ -76861,7 +76865,7 @@ gasket
 SM
 gaslight
 /
-MSDG
+MDGS
 gasman
 gasmen
 gasohol
@@ -85290,7 +85294,7 @@ incentive
 ES
 incentivize
 /
-DSGE
+EDSG
 inception
 /
 SM
@@ -85391,9 +85395,6 @@ incommode
 GD
 incommodious
 incommunicado
-incompatibility
-/
-S
 incompetent
 /
 MS
@@ -88256,7 +88257,7 @@ jitney
 SM
 jitter
 /
-DG
+SDG
 jitterbug
 /
 MS
@@ -90160,7 +90161,7 @@ last
 MDYSG
 lasting
 /
-YU
+UY
 lat
 /
 S
@@ -96572,7 +96573,7 @@ misfortune
 SM
 misgender
 /
-DGS
+SDG
 misgiving
 /
 MS
@@ -96843,7 +96844,7 @@ misty
 PRT
 mistype
 /
-GSD
+GDS
 misunderstand
 /
 SGJ
@@ -97793,7 +97794,7 @@ mosque
 MS
 mosquito
 /
-MS
+SM
 mosquitoes
 moss
 /
@@ -101015,7 +101016,9 @@ numbered
 /
 U
 numberless
-numbingly
+numbing
+/
+Y
 numbness
 /
 M
@@ -103052,7 +103055,7 @@ outsider
 M
 outsize
 /
-MSD
+MDS
 outskirt
 /
 MS
@@ -110154,7 +110157,7 @@ preppy
 TRSM
 preprocess
 /
-DGS
+DSG
 preprogrammed
 preprogramming
 prepubescence
@@ -111322,7 +111325,7 @@ prose
 M
 prosecute
 /
-DSXGNB
+DSBXGN
 prosecution
 /
 M
@@ -112218,11 +112221,11 @@ purported
 /
 Y
 purpose
+'
+s
+purpose
 /
-DSMYG
-purposed
-/
-A
+ADSG
 purposeful
 /
 YP
@@ -112232,6 +112235,7 @@ M
 purposeless
 /
 PY
+purposely
 purr
 /
 GMDS
@@ -113341,7 +113345,7 @@ rally
 DSMG
 ram
 /
-SM
+SMN
 ramble
 /
 DRSMZGJ
@@ -113360,7 +113364,6 @@ S
 ramekin
 /
 SM
-ramen
 ramie
 /
 M
@@ -114073,9 +114076,6 @@ receptivity
 /
 M
 receptor
-/
-SM
-recertification
 /
 SM
 recess
@@ -115130,7 +115130,9 @@ M
 renew
 /
 DSBG
-renewables
+renewable
+/
+S
 renewal
 /
 MS
@@ -115403,9 +115405,6 @@ M
 repurchase
 /
 GDS
-repurpose
-/
-DGS
 reputability
 /
 M
@@ -115649,13 +115648,13 @@ resplendent
 Y
 respond
 /
-SGD
+SZGDR
 respondent
 /
 SM
 responder
 /
-MS
+M
 response
 /
 MS
@@ -120883,7 +120882,7 @@ shapely
 PTR
 shapeshift
 /
-GRZD
+ZGDR
 shard
 /
 MS
@@ -121141,7 +121140,7 @@ shield
 MDGS
 shift
 /
-GMDSRZ
+ZGMDRS
 shiftily
 shiftiness
 /
@@ -122077,7 +122076,7 @@ silly
 TRSMP
 silo
 /
-MSD
+MDS
 silt
 /
 GMDS
@@ -123314,7 +123313,7 @@ smelter
 M
 smidge
 /
-MS
+SM
 smidgen
 /
 MS
@@ -124913,7 +124912,7 @@ spectra
 spectral
 spectrogram
 /
-MS
+SM
 spectrometer
 /
 MS
@@ -128057,7 +128056,7 @@ subtotal
 SGMD
 subtract
 /
-GSDV
+GVSD
 subtraction
 /
 SM
@@ -128393,7 +128392,7 @@ summery
 summing
 summit
 /
-MSD
+MDS
 summitry
 /
 M
@@ -129012,7 +129011,7 @@ surveil
 S
 surveillance
 /
-MS
+SM
 surveillant
 /
 MS
@@ -133380,7 +133379,7 @@ FCKMS
 trad
 trade
 /
-JDRSMZGB
+BJDRSMZG
 trademark
 /
 SGMD
@@ -134821,7 +134820,7 @@ tumultuous
 Y
 tun
 /
-SZGMDR
+SZGMDRB
 tuna
 /
 MS
@@ -134830,7 +134829,7 @@ tundra
 SM
 tune
 /
-MSB
+MS
 tuneful
 /
 YP
@@ -135583,7 +135582,6 @@ M
 unconstitutional
 /
 Y
-uncontradicted
 uncontrollably
 uncontroversial
 uncool
@@ -135956,7 +135954,6 @@ unessential
 uneven
 /
 Y
-unexamined
 unexceptionably
 unexcited
 unexciting
@@ -137374,7 +137371,7 @@ verandahs
 verapamil
 verb
 /
-KMSDG
+KMDGS
 verbal
 /
 MYS
@@ -137431,10 +137428,10 @@ verified
 U
 verifier
 /
-SM
+M
 verify
 /
-DSNG
+DRSNZG
 verily
 verisimilitude
 /
@@ -139384,7 +139381,7 @@ weblog
 MS
 webmail
 /
-MS
+SM
 webmaster
 /
 SM
@@ -139910,7 +139907,7 @@ whistle
 MZGDRS
 whistleblower
 /
-MSG
+GMS
 whistler
 /
 M
@@ -140347,7 +140344,7 @@ windiness
 M
 winding
 /
-MS
+SM
 windjammer
 /
 SM
