@@ -330,7 +330,7 @@ getGripDepth
 incrementGripDepth
 decrementGripDepth
 customFormatterObjectTagDepth
-customFormatterConfig
+customFormatterConfigDbgObj
 }
 conn
 )
@@ -400,7 +400,7 @@ getGripDepth
 incrementGripDepth
 decrementGripDepth
 customFormatterObjectTagDepth
-customFormatterConfig
+customFormatterConfigDbgObj
 }
 ;
 }
@@ -2789,7 +2789,7 @@ this
 .
 hooks
 .
-customFormatterConfig
+customFormatterConfigDbgObj
 =
 null
 ;

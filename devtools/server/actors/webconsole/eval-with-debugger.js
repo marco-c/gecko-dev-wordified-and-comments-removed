@@ -480,7 +480,6 @@ noSideEffectDebugger
 =
 makeSideeffectFreeDebugger
 (
-false
 evalGlobal
 )
 ;
@@ -1143,7 +1142,6 @@ ex
 function
 makeSideeffectFreeDebugger
 (
-skipCheckingEffectfulOffsets
 maybeEvalGlobal
 )
 {
@@ -1166,12 +1164,6 @@ addAllGlobalsAsDebuggees
 (
 )
 ;
-if
-(
-!
-skipCheckingEffectfulOffsets
-)
-{
 const
 timeoutDuration
 =
@@ -1343,7 +1335,6 @@ undefined
 ;
 }
 ;
-}
 dbg
 .
 onNativeCall
