@@ -3521,6 +3521,13 @@ enabled
 "
 false
 )
+&
+&
+!
+aOptions
+?
+.
+isStartupMigration
 )
 {
 let
