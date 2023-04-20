@@ -1130,6 +1130,12 @@ ok
 groupRow
 .
 nextSibling
+|
+|
+!
+groupRow
+.
+nextSibling
 .
 children
 [
