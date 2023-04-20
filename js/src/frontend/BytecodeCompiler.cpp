@@ -558,6 +558,9 @@ SourceAwareCompiler
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 JS
 :
 :
@@ -584,6 +587,7 @@ sourceBuffer
 compilationState_
 (
 cx
+ec
 parserAllocScope
 input
 )
@@ -887,6 +891,9 @@ ScriptCompiler
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 JS
 :
 :
@@ -909,6 +916,7 @@ sourceBuffer
 Base
 (
 cx
+ec
 stackLimit
 parserAllocScope
 input
@@ -1576,6 +1584,7 @@ Unit
 compiler
 (
 cx
+ec
 stackLimit
 parserAllocScope
 input
@@ -2987,6 +2996,8 @@ Unit
 compiler
 (
 cx
+&
+ec
 stackLimit
 parserAllocScope
 input
@@ -3259,6 +3270,9 @@ ModuleCompiler
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 JS
 :
 :
@@ -3281,6 +3295,7 @@ sourceBuffer
 Base
 (
 cx
+ec
 stackLimit
 parserAllocScope
 input
@@ -3399,6 +3414,9 @@ StandaloneFunctionCompiler
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 JS
 :
 :
@@ -3421,6 +3439,7 @@ sourceBuffer
 Base
 (
 cx
+ec
 stackLimit
 parserAllocScope
 input
@@ -4789,6 +4808,7 @@ Unit
 compiler
 (
 cx
+ec
 stackLimit
 parserAllocScope
 input
@@ -6307,6 +6327,7 @@ CompilationState
 compilationState
 (
 cx
+ec
 parserAllocScope
 input
 )
@@ -8161,6 +8182,8 @@ char16_t
 compiler
 (
 cx
+&
+ec
 stackLimit
 parserAllocScope
 input

@@ -3195,13 +3195,14 @@ TaggedParserAtomIndex
 >
 allAtoms
 (
-cx
+ec
 )
 ;
 CompilationState
 compilationState
 (
 cx
+ec
 parserAllocScope
 input
 )

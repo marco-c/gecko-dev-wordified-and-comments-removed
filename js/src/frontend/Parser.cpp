@@ -4414,7 +4414,7 @@ usedNames_
 .
 noteUse
 (
-cx_
+ec_
 name
 visibility
 pc_
@@ -8429,7 +8429,7 @@ UnboundPrivateName
 >
 unboundPrivateNames
 (
-cx_
+ec_
 )
 ;
 if
@@ -30358,11 +30358,11 @@ Node
 >
 condList
 (
-cx_
+ec_
 )
 thenList
 (
-cx_
+ec_
 )
 ;
 Vector
@@ -30372,7 +30372,7 @@ uint32_t
 >
 posList
 (
-cx_
+ec_
 )
 ;
 Node
@@ -39197,7 +39197,7 @@ usedNames_
 .
 hasUnboundPrivateNames
 (
-cx_
+ec_
 maybeUnboundName
 )
 )
