@@ -889,9 +889,11 @@ rules
 )
 ;
 const
+{
 MAX_NUMBER_OF_DYNAMIC_AND_SESSION_RULES
+}
 =
-5000
+dnr
 ;
 const
 DUMMY_RULE
