@@ -53251,6 +53251,13 @@ kVideoBitrateAllocation
 field_trials
 )
 ;
+encoder
+-
+>
+Stop
+(
+)
+;
 }
 TEST
 (
