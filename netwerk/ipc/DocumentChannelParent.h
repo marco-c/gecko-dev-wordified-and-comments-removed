@@ -40,6 +40,9 @@ namespace
 net
 {
 class
+EarlyHintConnectArgs
+;
+class
 DocumentChannelParent
 final
 :
@@ -186,6 +189,13 @@ uint32_t
 aRedirectFlags
 uint32_t
 aLoadFlags
+nsTArray
+<
+EarlyHintConnectArgs
+>
+&
+&
+aEarlyHints
 )
 ;
 virtual

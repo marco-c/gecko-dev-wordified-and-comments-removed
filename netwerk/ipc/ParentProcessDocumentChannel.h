@@ -58,6 +58,9 @@ namespace
 net
 {
 class
+EarlyHintConnectArgs
+;
+class
 ParentProcessDocumentChannel
 :
 public
@@ -149,6 +152,13 @@ uint32_t
 aRedirectFlags
 uint32_t
 aLoadFlags
+const
+nsTArray
+<
+EarlyHintConnectArgs
+>
+&
+aEarlyHints
 )
 ;
 private
