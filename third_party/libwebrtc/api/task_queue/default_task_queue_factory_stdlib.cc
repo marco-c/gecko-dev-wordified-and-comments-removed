@@ -8,6 +8,15 @@ include
 "
 api
 /
+field_trials_view
+.
+h
+"
+#
+include
+"
+api
+/
 task_queue
 /
 task_queue_factory
@@ -35,6 +44,10 @@ TaskQueueFactory
 >
 CreateDefaultTaskQueueFactory
 (
+const
+FieldTrialsView
+*
+field_trials
 )
 {
 return

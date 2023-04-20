@@ -19,6 +19,15 @@ include
 "
 api
 /
+field_trials_view
+.
+h
+"
+#
+include
+"
+api
+/
 task_queue
 /
 task_queue_factory
@@ -61,6 +70,9 @@ unique_ptr
 TaskQueueFactory
 >
 (
+const
+FieldTrialsView
+*
 )
 >
 >
