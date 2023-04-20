@@ -112,7 +112,7 @@ class
 ModuleObject
 ;
 extern
-Shape
+SharedShape
 *
 EnvironmentCoordinateToEnvironmentShape
 (

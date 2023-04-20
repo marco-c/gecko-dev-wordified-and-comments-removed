@@ -192,7 +192,7 @@ CallObject
 ;
 for
 (
-ShapePropertyIter
+SharedShapePropertyIter
 <
 NoGC
 >
@@ -200,7 +200,7 @@ iter
 (
 callobj
 .
-shape
+sharedShape
 (
 )
 )

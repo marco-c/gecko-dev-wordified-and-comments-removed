@@ -1213,7 +1213,7 @@ return
 false
 ;
 }
-ShapePropertyIter
+SharedShapePropertyIter
 <
 NoGC
 >

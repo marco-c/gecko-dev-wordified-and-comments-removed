@@ -261,7 +261,7 @@ ArgumentsObject
 *
 >
 ;
-Shape
+SharedShape
 *
 js
 :
@@ -381,7 +381,7 @@ jsbytecode
 pc
 )
 {
-Shape
+SharedShape
 *
 shape
 =
@@ -397,7 +397,7 @@ ec
 pc
 )
 ;
-ShapePropertyIter
+SharedShapePropertyIter
 <
 NoGC
 >
@@ -6095,7 +6095,7 @@ environmentShape
 ifdef
 DEBUG
 {
-ShapePropertyIter
+SharedShapePropertyIter
 <
 NoGC
 >
