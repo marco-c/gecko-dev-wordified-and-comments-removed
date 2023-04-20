@@ -254,9 +254,6 @@ uintptr_t
 ;
 class
 LAllocation
-:
-public
-TempObject
 {
 uintptr_t
 bits_
