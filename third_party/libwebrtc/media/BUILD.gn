@@ -2272,6 +2272,16 @@ video_coding_utility
 modules
 /
 video_coding
+:
+webrtc_vp9_helpers
+"
+"
+.
+.
+/
+modules
+/
+video_coding
 /
 svc
 :
