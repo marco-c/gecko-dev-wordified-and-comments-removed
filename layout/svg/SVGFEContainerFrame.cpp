@@ -142,7 +142,6 @@ NS_DECL_FRAMEARENA_HELPERS
 (
 SVGFEContainerFrame
 )
-virtual
 bool
 IsFrameOfType
 (
@@ -189,7 +188,6 @@ eSVGContainer
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -249,7 +247,6 @@ aModType
 )
 override
 ;
-virtual
 bool
 ComputeCustomOverflow
 (

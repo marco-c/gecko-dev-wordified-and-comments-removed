@@ -186,7 +186,6 @@ endif
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -259,7 +258,6 @@ aPoint
 )
 override
 ;
-virtual
 void
 ReflowSVG
 (
