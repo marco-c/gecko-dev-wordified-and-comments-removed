@@ -144,15 +144,10 @@ then
 result
 =
 >
-(
 result
 ?
-result
 .
 map
-:
-null
-)
 )
 ;
 }
