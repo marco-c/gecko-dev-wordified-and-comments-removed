@@ -1020,7 +1020,9 @@ let
 addonDB
 =
 await
-loadJSON
+IOUtils
+.
+readJSON
 (
 gExtensionsJSON
 .
@@ -1084,12 +1086,14 @@ now
 EXT_HOURS_SINCE_INSTALL
 ;
 await
-saveJSON
+IOUtils
+.
+writeJSON
 (
-addonDB
 gExtensionsJSON
 .
 path
+addonDB
 )
 ;
 await
