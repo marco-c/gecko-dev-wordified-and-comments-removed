@@ -468,7 +468,7 @@ mTiltY
 =
 0
 ;
-uint32_t
+int32_t
 mTwist
 =
 0
