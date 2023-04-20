@@ -42,6 +42,11 @@ AccessibleWrap
 mm
 "
 "
+CachedTextMarker
+.
+mm
+"
+"
 DocAccessibleWrap
 .
 mm
