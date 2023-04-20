@@ -1059,6 +1059,12 @@ perftest_http3_google_image
 .
 js
 ]
+#
+broken
+:
+bug
+1799655
+#
 -
 [
 g
@@ -1197,6 +1203,7 @@ timeToContentfulPaint
 imagesPerSecond
 imageLoadTime
 ]
+#
 g
 -
 search
@@ -1310,10 +1317,12 @@ browserScripts
 pageinfo
 .
 url
+#
 g
 -
 search
 :
+#
 -
 -
 -
@@ -1462,10 +1471,12 @@ waitTime
 =
 60000
 ]
+#
 g
 -
 search
 :
+#
 -
 [
 "
@@ -1477,6 +1488,7 @@ waitTime
 =
 10000
 ]
+#
 -
 [
 "
@@ -1488,6 +1500,7 @@ waitTime
 =
 25000
 ]
+#
 -
 [
 "
@@ -1499,6 +1512,7 @@ waitTime
 =
 35000
 ]
+#
 -
 [
 "
