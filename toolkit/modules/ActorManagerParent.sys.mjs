@@ -452,7 +452,7 @@ AboutCertViewer
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -465,13 +465,15 @@ modules
 /
 AboutCertViewerParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -484,7 +486,9 @@ modules
 /
 AboutCertViewerChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
