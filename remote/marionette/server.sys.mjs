@@ -2065,6 +2065,11 @@ FindElements
 "
 WebDriver
 :
+FindElementsFromShadowRoot
+"
+"
+WebDriver
+:
 CloseChromeWindow
 "
 "
