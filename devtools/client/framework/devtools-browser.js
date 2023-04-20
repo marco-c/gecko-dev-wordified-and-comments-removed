@@ -1915,7 +1915,7 @@ commands
 of
 gDevTools
 .
-_toolboxes
+_toolboxesPerCommands
 .
 keys
 (
@@ -2223,7 +2223,7 @@ toolbox
 of
 gDevTools
 .
-_toolboxes
+_toolboxesPerCommands
 )
 {
 if

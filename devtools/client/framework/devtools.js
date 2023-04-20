@@ -384,7 +384,7 @@ Map
 ;
 this
 .
-_toolboxes
+_toolboxesPerCommands
 =
 new
 Map
@@ -1586,7 +1586,7 @@ toolbox
 =
 this
 .
-_toolboxes
+_toolboxesPerCommands
 .
 get
 (
@@ -2368,7 +2368,7 @@ toolId
 ;
 this
 .
-_toolboxes
+_toolboxesPerCommands
 .
 set
 (
@@ -2429,7 +2429,7 @@ destroyed
 {
 this
 .
-_toolboxes
+_toolboxesPerCommands
 .
 delete
 (
@@ -2482,7 +2482,7 @@ commands
 return
 this
 .
-_toolboxes
+_toolboxesPerCommands
 .
 get
 (
@@ -2505,7 +2505,7 @@ toolbox
 of
 this
 .
-_toolboxes
+_toolboxesPerCommands
 )
 {
 if
@@ -2593,7 +2593,7 @@ toolbox
 =
 this
 .
-_toolboxes
+_toolboxesPerCommands
 .
 get
 (
@@ -2922,7 +2922,7 @@ toolbox
 of
 this
 .
-_toolboxes
+_toolboxesPerCommands
 )
 {
 toolbox
@@ -2994,7 +2994,7 @@ from
 (
 this
 .
-_toolboxes
+_toolboxesPerCommands
 .
 values
 (
