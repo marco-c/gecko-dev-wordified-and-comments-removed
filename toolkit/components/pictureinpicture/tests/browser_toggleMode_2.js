@@ -38,9 +38,7 @@ pip
 wrapper
 "
 :
-0
-.
-8
+DEFAULT_TOGGLE_OPACITY
 "
 .
 pip
@@ -163,9 +161,7 @@ pip
 wrapper
 "
 :
-0
-.
-8
+DEFAULT_TOGGLE_OPACITY
 "
 .
 pip
@@ -274,9 +270,7 @@ pip
 wrapper
 "
 :
-0
-.
-8
+DEFAULT_TOGGLE_OPACITY
 }
 hidden
 :
@@ -345,9 +339,7 @@ pip
 wrapper
 "
 :
-0
-.
-8
+DEFAULT_TOGGLE_OPACITY
 }
 hidden
 :
