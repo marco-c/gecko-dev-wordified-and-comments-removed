@@ -234,6 +234,14 @@ MOZ_ASAN
 "
 ]
 and
+not
+CONFIG
+[
+"
+MOZ_TSAN
+"
+]
+and
 CONFIG
 [
 "
