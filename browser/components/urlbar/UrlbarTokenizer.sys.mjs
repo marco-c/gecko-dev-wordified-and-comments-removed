@@ -2045,7 +2045,7 @@ lazy
 .
 logger
 .
-info
+debug
 (
 "
 Tokenizing
@@ -3268,7 +3268,7 @@ info
 Filtered
 Tokens
 "
-tokens
+filtered
 )
 ;
 return
