@@ -40,7 +40,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <
@@ -167,7 +166,6 @@ follows
 code
 :
 :
-eval
 typedef
 enum
 PRSpecialFD

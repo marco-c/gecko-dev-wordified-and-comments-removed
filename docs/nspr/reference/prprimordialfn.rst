@@ -42,7 +42,6 @@ Syntax
 code
 :
 :
-eval
 typedef
 PRIntn
 (

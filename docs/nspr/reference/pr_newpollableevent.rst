@@ -37,7 +37,6 @@ Syntax
 code
 :
 :
-eval
 NSPR_API
 (
 PRFileDesc

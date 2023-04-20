@@ -10,7 +10,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <
@@ -71,7 +70,6 @@ structure
 code
 :
 :
-eval
 const
 void
 *

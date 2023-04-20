@@ -22,7 +22,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <
@@ -137,7 +136,6 @@ follows
 code
 :
 :
-eval
 PR_Init
 (
 PR_USER_THREAD

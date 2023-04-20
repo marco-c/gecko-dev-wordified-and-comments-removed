@@ -52,7 +52,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <

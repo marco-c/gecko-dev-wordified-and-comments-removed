@@ -310,7 +310,6 @@ follows
 code
 :
 :
-eval
 PRLibrary
 *
 lib
@@ -700,7 +699,6 @@ following
 code
 :
 :
-eval
 chatr
 +
 s

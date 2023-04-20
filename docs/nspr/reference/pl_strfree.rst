@@ -29,7 +29,6 @@ Syntax
 code
 :
 :
-eval
 void
 PL_strfree
 (

@@ -30,7 +30,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <

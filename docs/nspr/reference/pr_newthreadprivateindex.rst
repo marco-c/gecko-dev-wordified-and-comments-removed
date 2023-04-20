@@ -63,7 +63,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <

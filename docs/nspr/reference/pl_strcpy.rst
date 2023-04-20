@@ -38,7 +38,6 @@ Syntax
 code
 :
 :
-eval
 char
 *
 PL_strcpy

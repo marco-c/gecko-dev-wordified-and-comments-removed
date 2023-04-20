@@ -28,7 +28,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <

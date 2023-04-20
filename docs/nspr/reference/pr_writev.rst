@@ -29,7 +29,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <
@@ -339,7 +338,6 @@ PRIOVec
 code
 :
 :
-eval
 typedef
 struct
 PRIOVec

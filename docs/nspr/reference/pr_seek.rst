@@ -146,7 +146,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <

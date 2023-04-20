@@ -845,7 +845,6 @@ following
 code
 :
 :
-eval
 /
 bin
 /

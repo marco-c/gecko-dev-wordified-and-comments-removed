@@ -200,7 +200,6 @@ is
 code
 :
 :
-eval
 PRInt16
 poll_method
 (
@@ -870,7 +869,6 @@ method
 code
 :
 :
-eval
 PRInt16
 new_flags
 out_flags
@@ -894,7 +892,6 @@ argument
 code
 :
 :
-eval
 new_flags
 =
 fd
@@ -930,7 +927,6 @@ argument
 code
 :
 :
-eval
 new_flags
 =
 fd

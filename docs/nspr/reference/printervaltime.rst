@@ -43,7 +43,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <
@@ -306,7 +305,6 @@ follows
 code
 :
 :
-eval
 if
 (
 (

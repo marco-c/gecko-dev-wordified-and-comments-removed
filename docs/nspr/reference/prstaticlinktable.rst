@@ -98,7 +98,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <

@@ -57,7 +57,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <
@@ -276,7 +275,6 @@ PRNetAddrValue
 code
 :
 :
-eval
 typedef
 enum
 PRNetAddrValue

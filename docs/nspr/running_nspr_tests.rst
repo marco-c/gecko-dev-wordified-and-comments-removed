@@ -134,7 +134,6 @@ example
 code
 :
 :
-eval
 cvs
 -
 q
@@ -202,7 +201,6 @@ this
 code
 :
 :
-eval
 NSPR
 Test
 Results

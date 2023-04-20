@@ -72,7 +72,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <

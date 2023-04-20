@@ -655,7 +655,6 @@ userStuff
 code
 :
 :
-eval
 static
 void
 UserLogStuff

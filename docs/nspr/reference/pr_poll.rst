@@ -33,7 +33,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <
@@ -388,7 +387,6 @@ follows
 code
 :
 :
-eval
 struct
 PRPollDesc
 {

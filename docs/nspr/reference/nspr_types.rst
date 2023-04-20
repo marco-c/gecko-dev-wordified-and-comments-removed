@@ -240,7 +240,6 @@ h
 code
 :
 :
-eval
 PR_EXTERN
 (
 void
@@ -276,7 +275,6 @@ c
 code
 :
 :
-eval
 PR_IMPLEMENT
 (
 void

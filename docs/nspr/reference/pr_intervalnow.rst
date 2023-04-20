@@ -38,7 +38,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <
@@ -174,7 +173,6 @@ this
 code
 :
 :
-eval
 PRUint32
 interval
 =

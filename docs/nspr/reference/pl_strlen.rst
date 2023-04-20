@@ -37,7 +37,6 @@ Syntax
 code
 :
 :
-eval
 PRUint32
 PL_strlen
 (

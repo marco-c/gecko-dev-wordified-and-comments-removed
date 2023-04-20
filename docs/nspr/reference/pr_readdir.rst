@@ -32,7 +32,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <
@@ -289,7 +288,6 @@ structure
 code
 :
 :
-eval
 struct
 PRDirEntry
 {
@@ -336,7 +334,6 @@ PRDirFlags
 code
 :
 :
-eval
 typedef
 enum
 PRDirFlags

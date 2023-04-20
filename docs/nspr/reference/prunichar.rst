@@ -80,7 +80,6 @@ Syntax
 code
 :
 :
-eval
 #
 if
 defined

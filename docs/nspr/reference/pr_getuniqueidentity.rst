@@ -50,7 +50,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <

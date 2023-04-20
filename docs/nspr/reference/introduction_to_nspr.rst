@@ -2732,7 +2732,6 @@ this
 code
 :
 :
-eval
 enter
 (
 monitor
@@ -2814,7 +2813,6 @@ this
 code
 :
 :
-eval
 enter
 (
 monitor
@@ -3018,7 +3016,6 @@ function
 code
 :
 :
-eval
 void
 *
 dequeue
@@ -3085,7 +3082,6 @@ follows
 code
 :
 :
-eval
 void
 *
 dequeue

@@ -52,7 +52,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <
@@ -65,7 +64,6 @@ h
 code
 :
 :
-eval
 NSPR_API
 (
 void

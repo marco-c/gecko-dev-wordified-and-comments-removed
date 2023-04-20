@@ -24,7 +24,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <

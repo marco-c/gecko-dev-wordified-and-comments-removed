@@ -30,7 +30,6 @@ Syntax
 code
 :
 :
-eval
 PRStatus
 PR_CallOnce
 (

@@ -1434,7 +1434,6 @@ identities
 code
 :
 :
-eval
 #
 define
 PR_INVALID_IO_LAYER

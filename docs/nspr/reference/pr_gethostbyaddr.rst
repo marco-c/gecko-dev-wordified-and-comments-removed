@@ -37,7 +37,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <

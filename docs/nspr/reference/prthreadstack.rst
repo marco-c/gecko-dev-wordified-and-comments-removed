@@ -134,7 +134,6 @@ Syntax
 code
 :
 :
-eval
 #
 include
 <
