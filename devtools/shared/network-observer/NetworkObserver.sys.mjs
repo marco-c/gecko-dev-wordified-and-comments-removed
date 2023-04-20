@@ -2927,6 +2927,9 @@ bodySize
 headersSize
 :
 0
+transferredSize
+:
+0
 waitingTime
 :
 0
