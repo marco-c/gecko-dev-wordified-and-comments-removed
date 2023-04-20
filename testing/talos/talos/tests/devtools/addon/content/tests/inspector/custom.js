@@ -439,7 +439,7 @@ DAMP
 )
 ;
 const
-onToolboxCreated
+onToolboxReady
 =
 gDevTools
 .
@@ -448,7 +448,7 @@ once
 "
 toolbox
 -
-created
+ready
 "
 )
 ;
@@ -465,7 +465,7 @@ const
 toolbox
 =
 await
-onToolboxCreated
+onToolboxReady
 ;
 test
 .
