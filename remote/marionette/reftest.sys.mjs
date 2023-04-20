@@ -4110,6 +4110,13 @@ true
 }
 )
 ;
+const
+webProgress
+=
+browsingContext
+.
+webProgress
+;
 lazy
 .
 logger
@@ -4334,6 +4341,8 @@ URL
 const
 actor
 =
+webProgress
+.
 browsingContext
 .
 currentWindowGlobal
