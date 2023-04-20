@@ -1612,6 +1612,8 @@ virtual
 void
 UnlinkExtendedSlots
 (
+nsIContent
+&
 )
 ;
 virtual
@@ -1753,6 +1755,9 @@ aCb
 void
 Unlink
 (
+nsINode
+&
+aNode
 )
 override
 {
@@ -1764,6 +1769,7 @@ nsSlots
 :
 Unlink
 (
+aNode
 )
 ;
 if
@@ -1778,6 +1784,12 @@ GetExtendedContentSlots
 >
 UnlinkExtendedSlots
 (
+*
+aNode
+.
+AsContent
+(
+)
 )
 ;
 }

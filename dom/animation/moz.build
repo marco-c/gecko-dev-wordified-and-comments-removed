@@ -149,6 +149,11 @@ EffectSet
 h
 "
 "
+ElementAnimationData
+.
+h
+"
+"
 Keyframe
 .
 h
@@ -250,6 +255,11 @@ cpp
 "
 "
 EffectSet
+.
+cpp
+"
+"
+ElementAnimationData
 .
 cpp
 "

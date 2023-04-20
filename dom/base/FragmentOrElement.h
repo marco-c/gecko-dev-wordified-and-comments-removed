@@ -110,6 +110,9 @@ ContentRelevancyReason
 uint8_t
 >
 ;
+class
+ElementAnimationData
+;
 namespace
 dom
 {
@@ -515,6 +518,8 @@ final
 void
 UnlinkExtendedSlots
 (
+nsIContent
+&
 )
 final
 ;
@@ -562,6 +567,12 @@ UniquePtr
 CustomElementData
 >
 mCustomElementData
+;
+UniquePtr
+<
+ElementAnimationData
+>
+mAnimations
 ;
 Maybe
 <
@@ -620,6 +631,8 @@ final
 void
 Unlink
 (
+nsINode
+&
 )
 final
 ;

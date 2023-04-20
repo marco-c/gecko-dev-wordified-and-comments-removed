@@ -171,10 +171,7 @@ MOZ_ASSERT
 aElement
 )
 ;
-AnimationCollection
-<
-AnimationType
->
+auto
 *
 collection
 =
@@ -184,7 +181,7 @@ AnimationType
 >
 :
 :
-GetAnimationCollection
+Get
 (
 aElement
 aPseudoType

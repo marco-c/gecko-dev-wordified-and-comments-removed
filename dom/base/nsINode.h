@@ -3658,6 +3658,8 @@ virtual
 void
 Unlink
 (
+nsINode
+&
 )
 ;
 mozilla
@@ -5564,6 +5566,17 @@ SetMayHaveAnimations
 )
 {
 SetBoolFlag
+(
+ElementHasAnimations
+)
+;
+}
+void
+ClearMayHaveAnimations
+(
+)
+{
+ClearBoolFlag
 (
 ElementHasAnimations
 )
