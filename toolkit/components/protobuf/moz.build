@@ -861,17 +861,6 @@ google
 /
 protobuf
 /
-inlined_string_field
-.
-cc
-'
-'
-src
-/
-google
-/
-protobuf
-/
 io
 /
 coded_stream
