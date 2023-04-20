@@ -2600,6 +2600,12 @@ ch
 singleMatch
 .
 index
+match
+:
+singleMatch
+[
+0
+]
 }
 )
 ;
@@ -3350,6 +3356,7 @@ map
 {
 line
 ch
+match
 }
 )
 =
@@ -3383,8 +3390,6 @@ column
 ch
 matchIndex
 match
-:
-queryText
 value
 }
 ;

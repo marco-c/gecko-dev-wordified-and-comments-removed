@@ -67,6 +67,7 @@ map
 {
 line
 ch
+match
 }
 )
 =
@@ -100,8 +101,6 @@ column
 ch
 matchIndex
 match
-:
-queryText
 value
 }
 ;
