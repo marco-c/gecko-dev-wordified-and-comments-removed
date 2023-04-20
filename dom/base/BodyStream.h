@@ -437,7 +437,7 @@ aRv
 )
 ;
 void
-ErrorCallback
+CloseInputAndReleaseObjects
 (
 )
 ;

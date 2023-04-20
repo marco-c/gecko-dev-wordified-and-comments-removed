@@ -812,7 +812,7 @@ void
 ReadableStream
 :
 :
-ReleaseObjects
+ReleaseObjectsFromBodyStream
 (
 )
 {
@@ -824,7 +824,7 @@ nullptr
 mController
 -
 >
-ClearAlgorithms
+ClearAlgorithmsWithoutRelease
 (
 )
 ;

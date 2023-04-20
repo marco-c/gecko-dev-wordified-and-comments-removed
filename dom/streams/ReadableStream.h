@@ -414,7 +414,7 @@ mNativeUnderlyingSource
 ;
 }
 void
-ReleaseObjects
+ReleaseObjectsFromBodyStream
 (
 )
 ;
