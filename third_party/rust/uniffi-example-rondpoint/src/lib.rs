@@ -751,10 +751,10 @@ format
 "
 uniffi
 {
-value
 }
 !
 "
+value
 )
 }
 }
