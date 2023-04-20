@@ -5662,6 +5662,11 @@ TimeRanges
 webidl
 "
 "
+ToggleEvent
+.
+webidl
+"
+"
 Touch
 .
 webidl
@@ -6689,6 +6694,11 @@ webidl
 "
 "
 TCPSocketEvent
+.
+webidl
+"
+"
+ToggleEvent
 .
 webidl
 "
