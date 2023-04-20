@@ -385,9 +385,9 @@ if
 aUrl
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Error
@@ -468,9 +468,9 @@ Report
 deprecation
 warning
 .
-Cu
+console
 .
-reportError
+error
 (
 textMessage
 )
