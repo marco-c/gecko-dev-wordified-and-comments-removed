@@ -71,6 +71,12 @@ gcc
 /
 bin
 :
+MOZ_FETCHES_DIR
+/
+binutils
+/
+bin
+:
 PATH
 "
 else
