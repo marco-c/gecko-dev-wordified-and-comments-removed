@@ -919,7 +919,6 @@ NotActive
 RootMarking
 RegularMarking
 WeakMarking
-IterativeMarking
 }
 ;
 public
@@ -1831,6 +1830,12 @@ MainThreadOrGCTaskData
 bool
 >
 delayedMarkingWorkAdded
+;
+MainThreadOrGCTaskData
+<
+bool
+>
+haveAllImplicitEdges
 ;
 MainThreadOrGCTaskData
 <
