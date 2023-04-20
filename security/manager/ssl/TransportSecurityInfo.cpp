@@ -668,7 +668,7 @@ NS_IsMainThread
 NS_ERROR
 (
 "
-nsNSSSocketInfo
+TransportSecurityInfo
 :
 :
 GetInterface
