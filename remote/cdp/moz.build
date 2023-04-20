@@ -209,6 +209,17 @@ test
 /
 browser
 /
+runtime
+/
+browser_with_default_prefs
+.
+ini
+"
+"
+test
+/
+browser
+/
 security
 /
 browser
