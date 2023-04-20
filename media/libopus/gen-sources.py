@@ -5,6 +5,16 @@ re
 ignore_list
 =
 [
+    
+'
+silk
+/
+float
+/
+regularize_correlations_FLP
+.
+c
+'
 ]
 def
 should_ignore
