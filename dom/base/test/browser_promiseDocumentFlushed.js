@@ -747,12 +747,12 @@ ex
 >
 ex
 .
-result
+name
 =
 =
-Cr
-.
-NS_ERROR_FAILURE
+'
+InvalidStateError
+'
 )
 ;
 }
