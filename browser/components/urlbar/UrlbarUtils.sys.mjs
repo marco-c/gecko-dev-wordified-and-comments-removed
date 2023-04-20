@@ -9565,6 +9565,9 @@ intervention_update_web
 searchTip_onboard
 "
 "
+searchTip_persist
+"
+"
 searchTip_redirect
 "
 "
