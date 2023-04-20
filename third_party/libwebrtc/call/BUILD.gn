@@ -2338,6 +2338,16 @@ no_unique_address
 .
 .
 /
+rtc_base
+/
+task_utils
+:
+repeating_task
+"
+"
+.
+.
+/
 system_wrappers
 "
 "
