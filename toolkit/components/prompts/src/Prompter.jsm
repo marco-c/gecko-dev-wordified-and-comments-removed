@@ -1336,9 +1336,6 @@ var
 PromptUtilsTemp
 =
 {
-__proto__
-:
-PromptUtils
 getLocalizedString
 (
 key
@@ -2461,6 +2458,14 @@ brandFullName
 ;
 }
 }
+;
+Object
+.
+setPrototypeOf
+(
+PromptUtilsTemp
+PromptUtils
+)
 ;
 PromptUtils
 =
