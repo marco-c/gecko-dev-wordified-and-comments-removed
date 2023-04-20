@@ -365,6 +365,11 @@ WindowsProcessMitigations
 .
 h
 "
+"
+WindowsUnwindInfo
+.
+h
+"
 ]
 EXPORTS
 .
