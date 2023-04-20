@@ -33727,6 +33727,16 @@ GetFrameSelection
 (
 )
 ;
+if
+(
+!
+frameSelection
+)
+{
+return
+false
+;
+}
 const
 Selection
 *
