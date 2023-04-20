@@ -6497,9 +6497,9 @@ U2F
 insecureContext
 :
 false
-disabled
+android
 :
-true
+false
 }
 {
 name
@@ -9272,9 +9272,9 @@ u2f
 insecureContext
 :
 false
-disabled
+android
 :
-true
+false
 }
 {
 name

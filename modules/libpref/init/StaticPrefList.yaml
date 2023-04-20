@@ -81499,7 +81499,7 @@ type
 bool
 value
 :
-false
+IS_NOT_ANDROID
 mirror
 :
 always
