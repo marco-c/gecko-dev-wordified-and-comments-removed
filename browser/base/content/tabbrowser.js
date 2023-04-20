@@ -5653,6 +5653,12 @@ this
 _asyncTabSwitching
 )
 {
+newBrowser
+.
+_awaitingSetURI
+=
+true
+;
 const
 currentActiveElement
 =
@@ -5692,6 +5698,11 @@ select
 )
 ;
 }
+delete
+newBrowser
+.
+_awaitingSetURI
+;
 }
 {
 once
