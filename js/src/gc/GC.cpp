@@ -11309,6 +11309,10 @@ purge
 }
 MOZ_ASSERT
 (
+marker
+(
+)
+.
 unmarkGrayStack
 .
 empty
@@ -11316,6 +11320,10 @@ empty
 )
 )
 ;
+marker
+(
+)
+.
 unmarkGrayStack
 .
 clearAndFree
