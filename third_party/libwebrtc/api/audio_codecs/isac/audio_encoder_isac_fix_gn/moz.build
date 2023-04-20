@@ -259,6 +259,15 @@ ipdl
 _ipdlheaders
 "
 "
+!
+/
+third_party
+/
+libwebrtc
+/
+gen
+"
+"
 /
 ipc
 /
