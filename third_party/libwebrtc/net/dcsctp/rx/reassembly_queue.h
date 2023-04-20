@@ -212,6 +212,10 @@ TSN
 peer_initial_tsn
 size_t
 max_size_bytes
+bool
+use_message_interleaving
+=
+false
 const
 DcSctpSocketHandoverState
 *
