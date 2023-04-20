@@ -52,7 +52,9 @@ SynthesizeBOffsetFromMarginBox
 const
 nsIFrame
 *
+aFrame
 WritingMode
+aWM
 BaselineSharingGroup
 )
 ;
@@ -63,7 +65,9 @@ SynthesizeBOffsetFromBorderBox
 const
 nsIFrame
 *
+aFrame
 WritingMode
+aWM
 BaselineSharingGroup
 )
 ;
@@ -74,7 +78,9 @@ SynthesizeBOffsetFromContentBox
 const
 nsIFrame
 *
+aFrame
 WritingMode
+aWM
 BaselineSharingGroup
 )
 ;
