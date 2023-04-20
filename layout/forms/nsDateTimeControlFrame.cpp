@@ -229,7 +229,10 @@ return
 result
 ;
 }
-bool
+Maybe
+<
+nscoord
+>
 nsDateTimeControlFrame
 :
 :
@@ -239,9 +242,6 @@ WritingMode
 aWM
 BaselineSharingGroup
 aBaselineGroup
-nscoord
-*
-aBaseline
 )
 const
 {
@@ -255,7 +255,6 @@ this
 mFirstBaseline
 aWM
 aBaselineGroup
-aBaseline
 )
 ;
 }

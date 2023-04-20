@@ -150,7 +150,10 @@ GetDefaultBaselineSharingGroup
 const
 override
 ;
-bool
+Maybe
+<
+nscoord
+>
 GetNaturalBaselineBOffset
 (
 mozilla
@@ -160,9 +163,6 @@ WritingMode
 aWM
 BaselineSharingGroup
 aBaselineGroup
-nscoord
-*
-aBaseline
 )
 const
 override
