@@ -5823,7 +5823,6 @@ LoadURI
 (
 MaybeDiscardedBrowsingContext
 aContext
-nullable
 nsDocShellLoadState
 aLoadState
 bool
@@ -5838,7 +5837,6 @@ aSuccess
 async
 InternalLoad
 (
-nullable
 nsDocShellLoadState
 aLoadState
 )
@@ -10922,7 +10920,6 @@ returns
 (
 bool
 canReload
-nullable
 nsDocShellLoadState
 ?
 loadState
