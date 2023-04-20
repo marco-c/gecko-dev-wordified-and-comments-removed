@@ -699,6 +699,9 @@ false
 isFxAEnabled
 :
 true
+isFxASignedIn
+:
+false
 sync
 :
 {
