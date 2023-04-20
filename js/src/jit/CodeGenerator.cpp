@@ -79994,6 +79994,12 @@ isProfilerInstrumentationEnabled
 )
 )
 {
+IonEntry
+:
+:
+ScriptList
+scriptList
+;
 if
 (
 !
@@ -80001,6 +80007,7 @@ generateCompactNativeToBytecodeMap
 (
 cx
 code
+scriptList
 )
 )
 {
@@ -80054,6 +80061,13 @@ code
 rawEnd
 (
 )
+std
+:
+:
+move
+(
+scriptList
+)
 )
 ;
 if
@@ -80075,8 +80089,6 @@ ionTable
 finishIonEntry
 (
 cx
-nativeToBytecodeScriptListLength_
-nativeToBytecodeScriptList_
 entry
 -
 >
@@ -80088,11 +80100,6 @@ asIon
 {
 js_free
 (
-nativeToBytecodeScriptList_
-)
-;
-js_free
-(
 nativeToBytecodeMap_
 )
 ;
@@ -80100,11 +80107,6 @@ return
 false
 ;
 }
-js_free
-(
-nativeToBytecodeScriptList_
-)
-;
 JitcodeGlobalTable
 *
 globalTable
