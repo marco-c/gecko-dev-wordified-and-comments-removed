@@ -292,7 +292,7 @@ e
 .
 name
 '
-SecurityError
+InvalidStateError
 '
 description
 )
@@ -337,7 +337,7 @@ promise_rejects_dom
 (
 t
 '
-SecurityError
+InvalidStateError
 '
 RunRequestStorageAccessViaDomParser
 (
