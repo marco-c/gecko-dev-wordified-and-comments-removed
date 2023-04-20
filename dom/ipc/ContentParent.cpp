@@ -17964,7 +17964,6 @@ TransferableToIPCTransferable
 trans
 aDataTransfer
 true
-nullptr
 this
 )
 ;
@@ -18435,7 +18434,6 @@ trans
 &
 ipcDataTransfer
 false
-nullptr
 self
 )
 ;
@@ -28330,7 +28328,6 @@ TransferablesToIPCTransferables
 transferables
 dataTransfers
 false
-nullptr
 this
 )
 ;
