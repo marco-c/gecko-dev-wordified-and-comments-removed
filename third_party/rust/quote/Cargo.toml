@@ -123,7 +123,7 @@ version
 .
 0
 .
-21
+23
 "
 authors
 =
@@ -253,6 +253,16 @@ gnu
 "
 ]
 [
+lib
+]
+doc
+-
+scrape
+-
+examples
+=
+false
+[
 dependencies
 .
 proc
@@ -301,7 +311,7 @@ version
 .
 0
 .
-52
+66
 "
 features
 =

@@ -6,11 +6,7 @@ allow
 clippy
 :
 :
-blacklisted_name
-clippy
-:
-:
-let_underscore_drop
+disallowed_names
 clippy
 :
 :
