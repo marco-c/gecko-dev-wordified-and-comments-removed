@@ -4906,7 +4906,7 @@ cur
 ;
 let
 cur2
-;
+=
 if
 cur1
 .
@@ -4914,8 +4914,6 @@ is_array
 (
 )
 {
-cur2
-=
 cur1
 .
 as_array_mut
@@ -4933,14 +4931,10 @@ last_mut
 unwrap
 (
 )
-;
 }
 else
 {
-cur2
-=
 cur1
-;
 }
 ;
 if

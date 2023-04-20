@@ -260,7 +260,6 @@ self
 &
 str
 {
-&
 self
 .
 get_ref
