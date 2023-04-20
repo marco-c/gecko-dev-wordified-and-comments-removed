@@ -144,14 +144,6 @@ gfx
 /
 layers
 "
-"
-/
-gfx
-/
-tests
-/
-gtest
-"
 ]
 FINAL_LIBRARY
 =
