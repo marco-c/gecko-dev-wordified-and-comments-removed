@@ -219,17 +219,6 @@ Document
 aDocument
 )
 ;
-virtual
-bool
-IsNodeOfType
-(
-uint32_t
-aFlags
-)
-const
-override
-;
-virtual
 nsresult
 Clone
 (

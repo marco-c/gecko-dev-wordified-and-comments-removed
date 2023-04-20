@@ -94,17 +94,6 @@ NS_INLINE_DECL_REFCOUNTING_INHERITED
 DocumentType
 CharacterData
 )
-virtual
-bool
-IsNodeOfType
-(
-uint32_t
-aFlags
-)
-const
-override
-;
-virtual
 void
 GetNodeValueInternal
 (
@@ -120,7 +109,6 @@ aNodeValue
 )
 ;
 }
-virtual
 void
 SetNodeValueInternal
 (
