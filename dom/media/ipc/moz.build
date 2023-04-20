@@ -123,11 +123,6 @@ MediaIPCUtils
 .
 h
 "
-"
-MFCDMSerializers
-.
-h
-"
 ]
 SOURCES
 +

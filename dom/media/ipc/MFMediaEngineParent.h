@@ -394,11 +394,6 @@ UpdateStatisticsData
 (
 )
 ;
-void
-SetMediaSourceOnEngine
-(
-)
-;
 static
 inline
 uint64_t
