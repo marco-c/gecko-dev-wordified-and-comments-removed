@@ -851,6 +851,7 @@ aNode
 AbstractRange
 (
 aNode
+true
 )
 mRegisteredClosestCommonInclusiveAncestor
 (

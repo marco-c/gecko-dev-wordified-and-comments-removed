@@ -77,6 +77,15 @@ CSS_PSEUDO_ELEMENT_CONTAINS_ELEMENTS
 )
 CSS_PSEUDO_ELEMENT
 (
+highlight
+"
+:
+highlight
+"
+0
+)
+CSS_PSEUDO_ELEMENT
+(
 selection
 "
 :
