@@ -4839,6 +4839,17 @@ rtc_event_log
 /
 api
 /
+task_queue
+"
+"
+.
+.
+/
+.
+.
+/
+api
+/
 transport
 :
 field_trial_based_config

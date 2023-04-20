@@ -867,6 +867,11 @@ field_trials
 field_trials
 :
 field_trials_
+time_controller_
+.
+GetTaskQueueFactory
+(
+)
 )
 ;
 }
