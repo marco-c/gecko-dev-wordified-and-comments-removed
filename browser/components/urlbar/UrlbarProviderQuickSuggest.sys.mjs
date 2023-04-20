@@ -2676,7 +2676,9 @@ lazy
 .
 QuickSuggest
 .
-updateImpressionStats
+impressionCaps
+.
+updateStats
 (
 result
 .
@@ -3834,7 +3836,9 @@ lazy
 .
 QuickSuggest
 .
-impressionCapHitStats
+impressionCaps
+.
+getHitStats
 (
 type
 )
