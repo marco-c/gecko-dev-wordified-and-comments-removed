@@ -5257,16 +5257,6 @@ places
 -
 tree
 "
-height
-=
-"
-150
-"
-minheight
-=
-"
-150
-"
 editable
 =
 "
