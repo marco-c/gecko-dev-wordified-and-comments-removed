@@ -23938,17 +23938,6 @@ instanceof
 Ci
 .
 nsIChannel
-&
-&
-!
-isBlankPageURL
-(
-aRequest
-.
-originalURI
-.
-spec
-)
 )
 {
 originalURI
