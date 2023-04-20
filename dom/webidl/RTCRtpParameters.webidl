@@ -350,18 +350,15 @@ see
 validateRtpParameters
 )
 .
-required
 sequence
 <
 RTCRtpHeaderExtensionParameters
 >
 headerExtensions
 ;
-required
 RTCRtcpParameters
 rtcp
 ;
-required
 sequence
 <
 RTCRtpCodecParameters
@@ -375,7 +372,6 @@ RTCRtpSendParameters
 :
 RTCRtpParameters
 {
-required
 DOMString
 transactionId
 ;
