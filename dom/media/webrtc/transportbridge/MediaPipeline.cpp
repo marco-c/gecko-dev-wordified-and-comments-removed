@@ -7277,11 +7277,6 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-mForceSilence
-)
-;
 class
 Message
 :
