@@ -397,7 +397,7 @@ const
 messageId
 =
 "
-PB_FOCUS_PROMO
+MULTISTAGE_SPOTLIGHT_MESSAGE
 "
 ;
 let

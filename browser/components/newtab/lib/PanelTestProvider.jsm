@@ -1914,7 +1914,7 @@ content
 id
 :
 "
-control
+MULTISTAGE_SPOTLIGHT_MESSAGE
 "
 template
 :
@@ -2147,6 +2147,17 @@ action
 :
 {
 navigate
+:
+true
+}
+}
+dismiss_button
+:
+{
+action
+:
+{
+dismiss
 :
 true
 }
@@ -2699,7 +2710,7 @@ dismiss_button
 action
 :
 {
-navigate
+dismiss
 :
 true
 }
