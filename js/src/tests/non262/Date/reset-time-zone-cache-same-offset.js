@@ -51,8 +51,7 @@ localeString
 00
 :
 00
-\
-u202FAM
+AM
 GMT
 +
 1
@@ -105,8 +104,7 @@ localeString
 00
 :
 00
-\
-u202FAM
+AM
 UTC
 "
 }
