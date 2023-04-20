@@ -99,7 +99,8 @@ BUG_COMPONENT
 =
 (
 "
-Testing
+Remote
+Protocol
 "
 "
 Marionette
@@ -119,7 +120,8 @@ BUG_COMPONENT
 =
 (
 "
-Testing
+Remote
+Protocol
 "
 "
 Marionette
