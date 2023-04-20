@@ -2391,6 +2391,7 @@ imgSize
 }
 if
 (
+!
 StylePosition
 (
 )
@@ -2398,7 +2399,7 @@ StylePosition
 >
 mAspectRatio
 .
-HasRatio
+BehavesAsAuto
 (
 )
 )
@@ -2748,6 +2749,7 @@ this
 }
 if
 (
+!
 StylePosition
 (
 )
@@ -2755,7 +2757,7 @@ StylePosition
 >
 mAspectRatio
 .
-HasRatio
+BehavesAsAuto
 (
 )
 )
