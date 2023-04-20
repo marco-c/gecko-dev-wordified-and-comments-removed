@@ -230,6 +230,12 @@ CheckVariationFontSupport
 (
 )
 ;
+bool
+SupportsHDR
+(
+)
+override
+;
 protected
 :
 bool
