@@ -4921,7 +4921,12 @@ Dispatch
 (
 NewNonOwningRunnableMethod
 (
-__func__
+"
+NrUdpSocketIpc
+:
+:
+Destroy
+"
 this
 &
 NrUdpSocketIpc

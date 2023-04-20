@@ -4037,7 +4037,12 @@ Dispatch
 (
 NewNonOwningRunnableMethod
 (
-__func__
+"
+MediaTransportHandlerSTS
+:
+:
+Destroy
+"
 this
 &
 MediaTransportHandlerSTS
@@ -4095,7 +4100,12 @@ Dispatch
 (
 NewNonOwningRunnableMethod
 (
-__func__
+"
+MediaTransportHandlerSTS
+:
+:
+Destroy_s
+"
 this
 &
 MediaTransportHandlerSTS
