@@ -1544,13 +1544,14 @@ void
 *
 )
 :
-SizeOf
-(
 global
 .
 type
 (
 )
+.
+size
+(
 )
 ;
 uint32_t
