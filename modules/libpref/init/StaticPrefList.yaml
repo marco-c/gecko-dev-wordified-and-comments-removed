@@ -53282,7 +53282,7 @@ Whether
 the
 scroll
 -
-linked
+driven
 animations
 generated
 by
@@ -53292,13 +53292,8 @@ enabled
 .
 This
 #
-includes
-scroll
--
-timeline
-css
-rule
-and
+also
+include
 animation
 -
 timelime
@@ -53313,7 +53308,7 @@ css
 .
 scroll
 -
-linked
+driven
 -
 animations
 .
