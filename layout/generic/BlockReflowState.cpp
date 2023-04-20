@@ -3619,12 +3619,6 @@ point
 }
 if
 (
-!
-HasFloatPushedDown
-(
-)
-&
-&
 aAvailableISizeInCurrentLine
 &
 &
