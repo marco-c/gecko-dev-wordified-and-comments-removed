@@ -2422,11 +2422,6 @@ framework
 ]
 }
 }
-if
-(
-rtc_include_tests
-)
-{
 rtc_source_set
 (
 "
@@ -2505,7 +2500,6 @@ test
 test_support
 "
 ]
-}
 }
 if
 (

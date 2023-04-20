@@ -9379,11 +9379,6 @@ classes
 from
 chromium
 .
-if
-(
-rtc_include_tests
-)
-{
 rtc_library
 (
 "
@@ -9721,7 +9716,6 @@ deps
 neteq_unittest_proto
 "
 ]
-}
 }
 }
 if

@@ -3030,12 +3030,6 @@ rtc_export
 "
 ]
 }
-if
-(
-!
-build_with_mozilla
-)
-{
 rtc_source_set
 (
 "
@@ -3501,7 +3495,6 @@ system_wrappers
 field_trial
 "
 ]
-}
 }
 }
 rtc_source_set

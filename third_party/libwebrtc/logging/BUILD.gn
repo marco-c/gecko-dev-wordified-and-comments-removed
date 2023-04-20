@@ -2428,11 +2428,6 @@ optional
 ]
 }
 }
-if
-(
-rtc_include_tests
-)
-{
 rtc_library
 (
 "
@@ -2511,7 +2506,6 @@ synchronization
 mutex
 "
 ]
-}
 }
 if
 (
@@ -3555,12 +3549,6 @@ optional
 }
 }
 }
-if
-(
-!
-build_with_mozilla
-)
-{
 rtc_library
 (
 "
@@ -3730,7 +3718,6 @@ absl
 strings
 "
 ]
-}
 }
 if
 (

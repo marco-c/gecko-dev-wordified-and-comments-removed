@@ -252,11 +252,6 @@ mutex
 "
 ]
 }
-if
-(
-rtc_include_tests
-)
-{
 rtc_library
 (
 "
@@ -313,7 +308,6 @@ test
 test_support
 "
 ]
-}
 }
 rtc_source_set
 (
