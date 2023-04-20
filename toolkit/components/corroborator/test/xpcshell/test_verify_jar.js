@@ -10,7 +10,7 @@ Corroborate
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 Corroborate
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

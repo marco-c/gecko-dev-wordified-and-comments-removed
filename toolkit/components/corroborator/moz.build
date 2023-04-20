@@ -24,7 +24,9 @@ EXTRA_JS_MODULES
 "
 Corroborate
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCSHELL_TESTS_MANIFESTS
