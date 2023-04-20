@@ -12355,8 +12355,13 @@ new_xulstore
 milestone
 )
 :
+if
+milestone
+.
+is_nightly
+:
 return
-False
+True
 set_config
 (
 "
