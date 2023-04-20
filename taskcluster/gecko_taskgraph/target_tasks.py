@@ -1202,7 +1202,7 @@ build_platform
 return
 False
         
-elif
+if
 task
 .
 kind
@@ -1225,7 +1225,7 @@ test_platform
 return
 False
         
-elif
+if
 "
 64
 "
@@ -2170,7 +2170,7 @@ parameters
 graph_config
 )
     
-elif
+if
 try_mode
 =
 =
@@ -2187,9 +2187,6 @@ parameters
 graph_config
 )
     
-else
-:
-        
 return
 [
 ]
@@ -4111,9 +4108,6 @@ kind
 return
 is_rc
         
-else
-:
-            
 return
 not
 is_rc

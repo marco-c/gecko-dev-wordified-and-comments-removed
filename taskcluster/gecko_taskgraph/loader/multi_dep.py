@@ -650,7 +650,7 @@ only_platforms
 return
 True
         
-elif
+if
 not_platforms
 and
 combined_platform

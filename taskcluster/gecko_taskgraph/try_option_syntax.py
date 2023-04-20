@@ -3696,9 +3696,6 @@ all_tests
 results
 )
         
-else
-:
-            
 return
 self
 .
@@ -4744,7 +4741,7 @@ platforms
 return
 False
             
-elif
+if
 not
 check_run_on_projects
 (
@@ -4895,7 +4892,7 @@ platforms
 "
 ]
             
-elif
+if
 tier
 !
 =
@@ -5015,7 +5012,7 @@ build_task_tier
 return
 True
                 
-elif
+if
 1
 not
 in
@@ -5070,14 +5067,11 @@ test_tiers
 return
 True
                 
-else
-:
-                    
 logger
 .
 debug
 (
-                        
+                    
 "
 skipping
 tier
@@ -5093,7 +5087,7 @@ task
 }
 is
 "
-                        
+                    
 "
 tier
 {
@@ -5114,7 +5108,7 @@ name
 .
 format
 (
-                            
+                        
 tier
 task
 .
@@ -5123,15 +5117,15 @@ build_task
 .
 label
 build_task_tier
-                        
-)
                     
 )
-                    
+                
+)
+                
 return
 False
             
-elif
+if
 run_by_default
 :
                 
@@ -5140,9 +5134,6 @@ check_run_on_projects
 (
 )
             
-else
-:
-                
 return
 False
         
@@ -5210,7 +5201,7 @@ check_run_on_projects
 (
 )
         
-elif
+if
 attr
 (
 "
@@ -5261,7 +5252,7 @@ raptor_try_name
             
 )
         
-elif
+if
 attr
 (
 "
@@ -5289,7 +5280,7 @@ build_types
 return
 False
             
-elif
+if
 self
 .
 platforms
@@ -5302,9 +5293,6 @@ check_run_on_projects
 (
 )
             
-else
-:
-                
 if
 attr
 (
@@ -5318,16 +5306,13 @@ self
 .
 platforms
 :
-                    
+                
 return
 False
             
 return
 True
         
-else
-:
-            
 return
 False
     

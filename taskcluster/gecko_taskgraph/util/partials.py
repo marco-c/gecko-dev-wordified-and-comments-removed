@@ -960,6 +960,19 @@ else
 :
         
 raise
+Exception
+(
+f
+"
+Cannot
+connect
+to
+{
+url
+}
+!
+"
+)
 def
 get_sorted_releases
 (
@@ -1255,9 +1268,6 @@ api
 v1
 "
     
-else
-:
-        
 return
 "
 https
@@ -1335,13 +1345,10 @@ partial_updates
         
 )
     
-else
-:
-        
 return
 _populate_nightly_history
 (
-            
+        
 product
 branch
 maxbuilds
@@ -1350,7 +1357,7 @@ maxbuilds
 maxsearch
 =
 maxsearch
-        
+    
 )
 def
 _populate_nightly_history

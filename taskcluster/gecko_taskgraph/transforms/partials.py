@@ -271,7 +271,7 @@ return
 nightly
 "
     
-elif
+if
 project
 =
 =
@@ -301,7 +301,7 @@ return
 release
 "
     
-elif
+if
 (
         
 project

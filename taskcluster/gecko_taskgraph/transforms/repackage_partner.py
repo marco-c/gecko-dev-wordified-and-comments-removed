@@ -1613,7 +1613,7 @@ False
         
 }
     
-elif
+if
 build_platform
 .
 startswith

@@ -396,7 +396,7 @@ nightly_blob
 release
 )
             
-elif
+if
 branch
 =
 =

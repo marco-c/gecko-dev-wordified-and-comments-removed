@@ -3457,7 +3457,7 @@ path
 filename
 )
     
-elif
+if
 filename
 .
 endswith
@@ -3486,7 +3486,7 @@ load
 f
 )
     
-elif
+if
 filename
 .
 endswith

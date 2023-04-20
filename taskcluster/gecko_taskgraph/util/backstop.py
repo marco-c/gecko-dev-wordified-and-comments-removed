@@ -229,7 +229,7 @@ TRY_PROJECTS
 return
 False
     
-elif
+if
 project
 not
 in

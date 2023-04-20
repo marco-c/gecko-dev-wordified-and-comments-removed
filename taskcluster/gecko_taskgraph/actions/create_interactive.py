@@ -426,9 +426,6 @@ worker
 }
 ]
     
-else
-:
-        
 return
 [
 {

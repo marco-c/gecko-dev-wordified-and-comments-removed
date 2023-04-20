@@ -2013,9 +2013,6 @@ build
 "
 )
     
-else
-:
-        
 return
 version
 InvalidSubstitution

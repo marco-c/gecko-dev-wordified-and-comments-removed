@@ -879,7 +879,7 @@ rsplit
 :
 ]
     
-elif
+if
 repo
 .
 startswith
@@ -2810,7 +2810,7 @@ return
 win32
 "
     
-elif
+if
 platform
 .
 startswith
@@ -2830,7 +2830,7 @@ win64
 aarch64
 "
     
-elif
+if
 platform
 .
 startswith
@@ -2846,7 +2846,7 @@ return
 win64
 "
     
-elif
+if
 platform
 .
 startswith
@@ -2862,7 +2862,7 @@ return
 mac
 "
     
-elif
+if
 platform
 .
 startswith
@@ -2881,7 +2881,7 @@ linux
 i686
 "
     
-elif
+if
 platform
 .
 startswith
@@ -2899,9 +2899,6 @@ linux
 x86_64
 "
     
-else
-:
-        
 raise
 ValueError
 (

@@ -1771,7 +1771,7 @@ format
 signoffs
 )
             
-elif
+if
 signoffs
 :
                 
@@ -1794,9 +1794,6 @@ signoffs
 )
 )
             
-else
-:
-                
 return
 "
 no

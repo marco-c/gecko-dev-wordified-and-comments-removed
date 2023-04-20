@@ -769,9 +769,6 @@ kind
 :
 ]
     
-else
-:
-        
 raise
 AttributeError
 (
