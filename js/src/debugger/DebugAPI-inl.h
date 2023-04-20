@@ -16,6 +16,15 @@ h
 #
 include
 "
+gc
+/
+GC
+.
+h
+"
+#
+include
+"
 vm
 /
 GeneratorObject
@@ -210,6 +219,12 @@ uint64_t
 majorGCNumber
 )
 {
+JS
+:
+:
+AutoAssertNoGC
+nogc
+;
 Realm
 :
 :
@@ -222,6 +237,7 @@ global
 >
 getDebuggers
 (
+nogc
 )
 ;
 if
@@ -238,6 +254,7 @@ slowPathNotifyParticipatesInGC
 (
 majorGCNumber
 dbgs
+nogc
 )
 ;
 }
@@ -267,6 +284,15 @@ TimeStamp
 when
 )
 {
+gc
+:
+:
+AutoSuppressGC
+nogc
+(
+cx
+)
+;
 Realm
 :
 :
@@ -284,6 +310,7 @@ global
 >
 getDebuggers
 (
+nogc
 )
 ;
 if
@@ -314,6 +341,7 @@ hobj
 frame
 when
 dbgs
+nogc
 )
 ;
 }
