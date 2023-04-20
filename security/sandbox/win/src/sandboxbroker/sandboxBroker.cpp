@@ -2373,7 +2373,7 @@ GetPrespawnCigExceptionModules
 if
 defined
 (
-EARLY_BETA_OR_EARLIER
+NIGHTLY
 )
 static
 Maybe
