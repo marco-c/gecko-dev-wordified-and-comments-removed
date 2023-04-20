@@ -9,7 +9,7 @@ stage_platform
 "
 android
 -
-x86
+x86_64
 -
 fuzzing
 -
@@ -31,7 +31,7 @@ mozconfigs
 /
 android
 -
-x86
+x86_64
 /
 debug
 -

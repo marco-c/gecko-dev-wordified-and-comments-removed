@@ -546,11 +546,11 @@ variant
 -
 cfg
 :
-x86_64
--
 fuzzing
 -
 asan
+-
+tc
 use
 -
 sccache

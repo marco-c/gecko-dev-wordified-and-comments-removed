@@ -12,7 +12,7 @@ mozconfigs
 /
 android
 -
-x86
+x86_64
 /
 debug
 -
@@ -32,7 +32,7 @@ mozconfigs
 /
 android
 -
-x86
+x86_64
 /
 debug
 -
