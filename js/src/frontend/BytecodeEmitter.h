@@ -4044,6 +4044,8 @@ emitShortCircuit
 ListNode
 *
 node
+ValueUsage
+valueUsage
 )
 ;
 [
