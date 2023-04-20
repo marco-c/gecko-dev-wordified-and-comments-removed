@@ -500,6 +500,15 @@ due
 to
 bug
 1148515
+skip
+-
+if
+(
+Android
+&
+&
+emulator
+)
 fuzzy
 (
 0
