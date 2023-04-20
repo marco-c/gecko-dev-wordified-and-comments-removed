@@ -14,6 +14,17 @@ include
 "
 zydis
 /
+Zycore
+/
+Types
+.
+h
+"
+#
+include
+"
+zydis
+/
 Zydis
 /
 Generated

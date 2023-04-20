@@ -1,7 +1,7 @@
 static
 const
 ZydisShortString
-STR_REGISTER
+STR_REGISTERS
 [
 ]
 =

@@ -47,6 +47,8 @@ base
 str
 value
 padding_length
+\
+force_leading_number
 )
 \
 switch
@@ -115,6 +117,7 @@ ZydisStringAppendHexU
 str
 value
 padding_length
+force_leading_number
 \
 (
 formatter
@@ -176,6 +179,8 @@ base
 str
 value
 padding_length
+\
+force_leading_number
 force_sign
 )
 \
@@ -246,6 +251,7 @@ ZydisStringAppendHexS
 str
 value
 padding_length
+force_leading_number
 \
 (
 formatter
@@ -797,8 +803,10 @@ formatter
 ZydisFormatterContext
 *
 context
-ZyanU8
-memop_id
+const
+ZydisDecodedOperand
+*
+operand
 )
 ;
 ZyanStatus
