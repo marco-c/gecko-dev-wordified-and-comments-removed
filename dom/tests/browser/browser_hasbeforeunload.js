@@ -782,9 +782,9 @@ break
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
