@@ -254,7 +254,6 @@ jsm
 ;
 var
 {
-AccountState
 MockFxaStorageManager
 SyncTestingInfrastructure
 configureFxAccountIdentity
