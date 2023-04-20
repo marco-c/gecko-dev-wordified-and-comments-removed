@@ -1249,10 +1249,9 @@ the
 void
 CreateProbeCluster
 (
-DataRate
-bitrate
-int
-cluster_id
+.
+.
+.
 )
 method
 -
