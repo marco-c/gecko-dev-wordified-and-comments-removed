@@ -32,11 +32,13 @@ testing
 condprofile
 path
 :
-testing
+python
 /
-mozharness
+mozbuild
 /
-external_tools
+mozbuild
+/
+action
 /
 tooltool
 .

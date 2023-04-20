@@ -120,11 +120,13 @@ emulator_console_auth_token
 TOOLTOOL_PATH
 =
 "
-testing
+python
 /
-mozharness
+mozbuild
 /
-external_tools
+mozbuild
+/
+action
 /
 tooltool
 .
