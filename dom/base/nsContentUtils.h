@@ -5776,6 +5776,10 @@ const
 Document
 *
 aDocument
+bool
+aHasMultiple
+=
+false
 )
 ;
 static
