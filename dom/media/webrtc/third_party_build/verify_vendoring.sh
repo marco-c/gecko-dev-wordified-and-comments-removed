@@ -128,13 +128,7 @@ pipefail
 /
 mach
 python
-dom
-/
-media
-/
-webrtc
-/
-third_party_build
+SCRIPT_DIR
 /
 vendor
 -
@@ -285,13 +279,7 @@ echo
 /
 mach
 python
-dom
-/
-media
-/
-webrtc
-/
-third_party_build
+SCRIPT_DIR
 /
 extract
 -
@@ -382,6 +370,7 @@ vendoring
 "
 echo
 "
+bash
 0
 "
 exit

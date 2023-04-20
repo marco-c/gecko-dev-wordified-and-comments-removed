@@ -630,13 +630,7 @@ patch
 cd
 CURRENT_DIR
 bash
-dom
-/
-media
-/
-webrtc
-/
-third_party_build
+SCRIPT_DIR
 /
 verify_vendoring
 .

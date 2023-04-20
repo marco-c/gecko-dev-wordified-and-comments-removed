@@ -824,13 +824,7 @@ echo
 /
 mach
 python
-dom
-/
-media
-/
-webrtc
-/
-third_party_build
+SCRIPT_DIR
 /
 vendor
 -
