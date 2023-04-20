@@ -17,6 +17,10 @@ nsHtml5Parser
 class
 nsHtml5Module
 {
+friend
+class
+nsHtml5ParserThreadTerminator
+;
 public
 :
 static
@@ -41,9 +45,11 @@ NewHtml5Parser
 )
 ;
 static
-nsIThread
-*
-GetStreamParserThread
+already_AddRefed
+<
+nsISerialEventTarget
+>
+GetStreamParserEventTarget
 (
 )
 ;
@@ -62,11 +68,6 @@ static
 nsIThread
 *
 sStreamParserThread
-;
-static
-nsIThread
-*
-sMainThread
 ;
 }
 ;
