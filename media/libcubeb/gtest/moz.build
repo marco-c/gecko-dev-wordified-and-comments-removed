@@ -8,6 +8,16 @@ UNIFIED_SOURCES
 /
 test
 /
+test_logging
+.
+cpp
+'
+'
+.
+.
+/
+test
+/
 test_tone
 .
 cpp
