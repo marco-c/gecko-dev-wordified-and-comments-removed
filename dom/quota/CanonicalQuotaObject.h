@@ -215,6 +215,10 @@ int64_t
 aSize
 )
 :
+QuotaObject
+(
+false
+)
 mOriginInfo
 (
 aOriginInfo
