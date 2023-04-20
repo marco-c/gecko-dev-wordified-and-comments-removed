@@ -163,6 +163,3 @@ and
 Alerts
 "
 )
-REQUIRES_UNIFIED_BUILD
-=
-True

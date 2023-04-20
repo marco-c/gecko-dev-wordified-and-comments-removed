@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsIAlertsService
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
