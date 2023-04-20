@@ -26738,6 +26738,16 @@ if
 channelClassifierCancellationPending
 )
 {
+if
+(
+mCallOnResume
+)
+{
+mCallOnResume
+=
+nullptr
+;
+}
 needAsyncAbort
 =
 false
