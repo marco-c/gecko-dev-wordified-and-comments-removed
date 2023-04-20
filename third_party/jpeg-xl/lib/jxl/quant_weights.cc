@@ -65,19 +65,6 @@ jxl
 /
 base
 /
-printf_macros
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
-base
-/
 status
 .
 h
@@ -4128,7 +4115,6 @@ DequantMatricesLibraryDef
 {
 static
 constexpr
-const
 QuantEncodingInternal
 DCT
 (
@@ -4285,7 +4271,6 @@ V
 }
 static
 constexpr
-const
 QuantEncodingInternal
 IDENTITY
 (
@@ -4372,7 +4357,6 @@ V
 }
 static
 constexpr
-const
 QuantEncodingInternal
 DCT2X2
 (
@@ -4513,7 +4497,6 @@ V
 }
 static
 constexpr
-const
 QuantEncodingInternal
 DCT4X4
 (
@@ -4677,7 +4660,6 @@ V
 }
 static
 constexpr
-const
 QuantEncodingInternal
 DCT16X16
 (
@@ -4858,7 +4840,6 @@ V
 }
 static
 constexpr
-const
 QuantEncodingInternal
 DCT32X32
 (
@@ -5060,7 +5041,6 @@ V
 }
 static
 constexpr
-const
 QuantEncodingInternal
 DCT8X16
 (
@@ -5241,7 +5221,6 @@ V
 }
 static
 constexpr
-const
 QuantEncodingInternal
 DCT8X32
 (
@@ -5443,7 +5422,6 @@ V
 }
 static
 constexpr
-const
 QuantEncodingInternal
 DCT16X32
 (
@@ -5645,7 +5623,6 @@ V
 }
 static
 constexpr
-const
 QuantEncodingInternal
 DCT4X8
 (
@@ -5784,7 +5761,6 @@ V
 ;
 }
 static
-const
 QuantEncodingInternal
 AFV0
 (
@@ -5985,7 +5961,6 @@ V
 ;
 }
 static
-const
 QuantEncodingInternal
 DCT64X64
 (
@@ -6198,7 +6173,6 @@ V
 ;
 }
 static
-const
 QuantEncodingInternal
 DCT32X64
 (
@@ -6411,7 +6385,6 @@ V
 ;
 }
 static
-const
 QuantEncodingInternal
 DCT128X128
 (
@@ -6624,7 +6597,6 @@ V
 ;
 }
 static
-const
 QuantEncodingInternal
 DCT64X128
 (
@@ -6837,7 +6809,6 @@ V
 ;
 }
 static
-const
 QuantEncodingInternal
 DCT256X256
 (
@@ -7050,7 +7021,6 @@ V
 ;
 }
 static
-const
 QuantEncodingInternal
 DCT128X256
 (
@@ -7265,7 +7235,6 @@ V
 }
 ;
 }
-const
 DequantMatrices
 :
 :

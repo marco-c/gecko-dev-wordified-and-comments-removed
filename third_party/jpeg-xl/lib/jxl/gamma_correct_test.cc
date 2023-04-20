@@ -13,9 +13,11 @@ algorithm
 #
 include
 "
-gtest
+lib
 /
-gtest
+jxl
+/
+enc_gamma_correct
 .
 h
 "
@@ -26,7 +28,7 @@ lib
 /
 jxl
 /
-enc_gamma_correct
+testing
 .
 h
 "

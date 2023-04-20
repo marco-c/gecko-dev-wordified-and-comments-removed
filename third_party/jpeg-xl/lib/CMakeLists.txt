@@ -953,8 +953,6 @@ if
 (
 BUILD_TESTING
 )
-#
-Unittests
 cmake_policy
 (
 SET
@@ -983,6 +981,9 @@ include
 (
 GoogleTest
 )
+endif
+(
+)
 #
 Tests
 for
@@ -995,6 +996,10 @@ include
 jxl_tests
 .
 cmake
+)
+if
+(
+BUILD_TESTING
 )
 #
 Google
@@ -1012,5 +1017,3 @@ cmake
 endif
 (
 )
-#
-BUILD_TESTING

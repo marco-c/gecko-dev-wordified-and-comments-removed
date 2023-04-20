@@ -913,10 +913,9 @@ return
 data
 ;
 }
-namespace
-{
 static
 inline
+JXL_MAYBE_UNUSED
 uint64_t
 DecodeVarInt
 (
@@ -1020,6 +1019,7 @@ ret
 }
 static
 inline
+JXL_MAYBE_UNUSED
 bool
 EncodeVarInt
 (
@@ -1117,6 +1117,7 @@ true
 }
 static
 inline
+JXL_MAYBE_UNUSED
 void
 EncodeVarInt
 (
@@ -1182,7 +1183,6 @@ resize
 pos
 )
 ;
-}
 }
 }
 #

@@ -49,10 +49,10 @@ instructions
 see
 "
 [
-README
+BUILDING
 ]
 (
-README
+BUILDING
 .
 md
 )

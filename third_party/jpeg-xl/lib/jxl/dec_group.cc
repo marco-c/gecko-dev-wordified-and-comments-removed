@@ -111,17 +111,6 @@ lib
 /
 jxl
 /
-aux_out
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 base
 /
 bits
@@ -323,6 +312,9 @@ LIB_JXL_DEC_GROUP_CC
 namespace
 jxl
 {
+struct
+AuxOut
+;
 class
 GetBlock
 {

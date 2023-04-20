@@ -44,17 +44,6 @@ lib
 /
 jxl
 /
-aux_out_fwd
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 base
 /
 data_parallel
@@ -176,6 +165,9 @@ h
 namespace
 jxl
 {
+struct
+AuxOut
+;
 constexpr
 size_t
 kMaxPatchSize

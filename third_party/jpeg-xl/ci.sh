@@ -167,6 +167,17 @@ SKIP_TEST
 0
 }
 "
+TARGETS
+=
+"
+{
+TARGETS
+:
+-
+all
+doc
+}
+"
 TEST_SELECTOR
 =
 "
@@ -3726,8 +3737,7 @@ BUILD_DIR
 "
 -
 -
-all
-doc
+TARGETS
 #
 Pack
 test
@@ -6407,6 +6417,8 @@ MYDIR
 }
 /
 tools
+/
+scripts
 /
 ossfuzz
 -
@@ -10038,6 +10050,8 @@ MYDIR
 /
 tools
 /
+scripts
+/
 build_cleaner
 .
 py
@@ -10080,6 +10094,8 @@ echo
 Run
 \
 tools
+/
+scripts
 /
 build_cleaner
 .
@@ -11914,6 +11930,8 @@ lib
 gni
 tools
 /
+scripts
+/
 build_cleaner
 .
 py
@@ -12097,6 +12115,8 @@ MYDIR
 "
 /
 tools
+/
+scripts
 /
 check_author
 .
@@ -12339,7 +12359,7 @@ small
 corpus
 .
 coverage
-Buils
+Build
 and
 run
 tests

@@ -34,17 +34,6 @@ encode_internal
 .
 h
 "
-#
-include
-"
-lib
-/
-jxl
-/
-image
-.
-h
-"
 namespace
 jpegli
 {

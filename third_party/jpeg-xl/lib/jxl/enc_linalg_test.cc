@@ -12,9 +12,11 @@ h
 #
 include
 "
-gtest
+lib
 /
-gtest
+jxl
+/
+image_test_utils
 .
 h
 "
@@ -25,7 +27,7 @@ lib
 /
 jxl
 /
-image_test_utils
+testing
 .
 h
 "

@@ -83,10 +83,8 @@ const
 uint32_t
 *
 data
-const
 size_t
 length
-const
 int
 tree_limit
 uint8_t

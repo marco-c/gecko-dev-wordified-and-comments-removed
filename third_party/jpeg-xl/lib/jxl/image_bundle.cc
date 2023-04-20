@@ -104,17 +104,6 @@ fields
 .
 h
 "
-#
-include
-"
-lib
-/
-jxl
-/
-luminance
-.
-h
-"
 namespace
 jxl
 {

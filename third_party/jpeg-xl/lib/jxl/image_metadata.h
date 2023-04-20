@@ -97,6 +97,9 @@ h
 namespace
 jxl
 {
+struct
+AuxOut
+;
 enum
 class
 Orientation

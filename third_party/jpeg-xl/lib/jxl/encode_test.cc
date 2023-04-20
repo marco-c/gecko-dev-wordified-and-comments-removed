@@ -17,15 +17,6 @@ h
 #
 include
 "
-gtest
-/
-gtest
-.
-h
-"
-#
-include
-"
 jxl
 /
 decode
@@ -129,6 +120,17 @@ lib
 /
 jxl
 /
+test_image
+.
+h
+"
+#
+include
+"
+lib
+/
+jxl
+/
 test_utils
 .
 h
@@ -140,7 +142,7 @@ lib
 /
 jxl
 /
-testdata
+testing
 .
 h
 "
@@ -431,6 +433,9 @@ PaddedBytes
 orig
 =
 jxl
+:
+:
+test
 :
 :
 ReadTestData
@@ -1474,7 +1479,6 @@ size
 )
 &
 decoded_io
-nullptr
 )
 )
 ;
@@ -3100,7 +3104,7 @@ get
 (
 )
 frame_settings
-5620
+5644
 true
 )
 ;
@@ -3167,7 +3171,6 @@ true
 }
 namespace
 {
-const
 std
 :
 :
@@ -5179,6 +5182,9 @@ PaddedBytes
 orig
 =
 jxl
+:
+:
+test
 :
 :
 ReadTestData
@@ -8676,6 +8682,9 @@ orig
 jxl
 :
 :
+test
+:
+:
 ReadTestData
 (
 jpeg_path
@@ -9044,7 +9053,6 @@ size
 )
 &
 decoded_io
-nullptr
 )
 )
 ;

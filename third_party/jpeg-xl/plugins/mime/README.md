@@ -14,7 +14,7 @@ the
 Installing
 section
 of
-README
+BUILDING
 .
 md
 ]
@@ -25,7 +25,7 @@ md
 .
 .
 /
-README
+BUILDING
 .
 md
 #

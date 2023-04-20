@@ -168,6 +168,13 @@ distance
 .
 0f
 ;
+float
+alpha_distance
+=
+1
+.
+0f
+;
 bool
 use_container
 =

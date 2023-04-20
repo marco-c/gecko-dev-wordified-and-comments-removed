@@ -7,17 +7,6 @@ LIB_JXL_LUMINANCE_H_
 namespace
 jxl
 {
-class
-CodecInOut
-;
-void
-SetIntensityTarget
-(
-CodecInOut
-*
-io
-)
-;
 struct
 ImageMetadata
 ;

@@ -184,11 +184,11 @@ frame_header
 .
 extra_channel_blending_info
 ;
+const
 ImageBundle
 &
 bg
 =
-*
 state_
 .
 reference_frames
@@ -313,7 +313,6 @@ ImageBundle
 &
 bg
 =
-*
 state_
 .
 reference_frames
@@ -501,7 +500,6 @@ ImageBundle
 &
 bg
 =
-*
 state_
 .
 reference_frames
@@ -1122,8 +1120,7 @@ bg_
 color
 (
 )
--
->
+.
 ConstPlaneRow
 (
 c
@@ -1146,7 +1143,6 @@ ImageBundle
 &
 ec_bg
 =
-*
 state_
 .
 reference_frames
@@ -1423,8 +1419,7 @@ bg_
 color
 (
 )
--
->
+.
 ConstPlaneRow
 (
 c
@@ -1468,7 +1463,6 @@ ImageBundle
 &
 ec_bg
 =
-*
 state_
 .
 reference_frames
@@ -1592,6 +1586,7 @@ state_
 BlendingInfo
 info_
 ;
+const
 ImageBundle
 *
 bg_

@@ -254,15 +254,7 @@ dc_frames
 struct
 {
 ImageBundle
-storage
-;
-ImageBundle
-*
-JXL_RESTRICT
 frame
-=
-&
-storage
 ;
 bool
 ib_is_in_xyb

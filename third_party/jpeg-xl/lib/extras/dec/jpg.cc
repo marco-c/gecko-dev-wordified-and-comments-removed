@@ -76,6 +76,17 @@ sanitizers
 .
 h
 "
+#
+include
+"
+lib
+/
+jxl
+/
+size_constraints
+.
+h
+"
 namespace
 jxl
 {

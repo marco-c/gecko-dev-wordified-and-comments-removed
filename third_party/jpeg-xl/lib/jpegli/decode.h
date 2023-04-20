@@ -174,6 +174,14 @@ JDIMENSION
 max_lines
 )
 ;
+jvirt_barray_ptr
+*
+jpegli_read_coefficients
+(
+j_decompress_ptr
+cinfo
+)
+;
 boolean
 jpegli_has_multiple_scans
 (
