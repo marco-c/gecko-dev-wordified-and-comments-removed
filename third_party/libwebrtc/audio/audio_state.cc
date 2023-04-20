@@ -286,10 +286,7 @@ AddSource
 (
 static_cast
 <
-internal
-:
-:
-AudioReceiveStream
+AudioReceiveStreamImpl
 *
 >
 (
@@ -436,10 +433,7 @@ RemoveSource
 (
 static_cast
 <
-internal
-:
-:
-AudioReceiveStream
+AudioReceiveStreamImpl
 *
 >
 (
