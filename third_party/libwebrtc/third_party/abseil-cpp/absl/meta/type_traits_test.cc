@@ -1932,6 +1932,14 @@ NonCopyableOrMovable
 =
 default
 ;
+virtual
+~
+NonCopyableOrMovable
+(
+)
+=
+default
+;
 NonCopyableOrMovable
 (
 const
