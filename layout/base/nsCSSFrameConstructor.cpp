@@ -12493,7 +12493,7 @@ OwnerDoc
 )
 -
 >
-IsDocumentURISchemeChrome
+ChromeRulesEnabled
 (
 )
 &

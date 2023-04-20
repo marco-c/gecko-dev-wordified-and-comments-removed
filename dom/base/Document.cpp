@@ -8057,7 +8057,7 @@ mIsBeingUsedAsImage
 (
 false
 )
-mDocURISchemeIsChrome
+mChromeRulesEnabled
 (
 false
 )
@@ -20761,12 +20761,12 @@ GetDocBaseURI
 (
 )
 ;
-mDocURISchemeIsChrome
+mChromeRulesEnabled
 =
-aURI
-&
-&
-IsChromeURI
+URLExtraData
+:
+:
+ChromeRulesEnabled
 (
 aURI
 )

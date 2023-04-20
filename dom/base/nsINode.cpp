@@ -14947,7 +14947,7 @@ aSelectorString
 doc
 -
 >
-IsDocumentURISchemeChrome
+ChromeRulesEnabled
 (
 )
 )

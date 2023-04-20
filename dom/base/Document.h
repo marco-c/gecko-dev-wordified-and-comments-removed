@@ -7195,13 +7195,13 @@ mDisplayDocument
 ;
 }
 bool
-IsDocumentURISchemeChrome
+ChromeRulesEnabled
 (
 )
 const
 {
 return
-mDocURISchemeIsChrome
+mChromeRulesEnabled
 ;
 }
 bool
@@ -13554,7 +13554,7 @@ mIsBeingUsedAsImage
 1
 ;
 bool
-mDocURISchemeIsChrome
+mChromeRulesEnabled
 :
 1
 ;

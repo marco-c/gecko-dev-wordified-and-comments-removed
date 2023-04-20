@@ -376,7 +376,7 @@ IsBeingUsedAsImage
 &
 aDoc
 .
-IsDocumentURISchemeChrome
+ChromeRulesEnabled
 (
 )
 )

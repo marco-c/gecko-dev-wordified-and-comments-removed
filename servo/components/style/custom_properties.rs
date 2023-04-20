@@ -843,7 +843,7 @@ if
 !
 device
 .
-is_chrome_document
+chrome_rules_enabled_for_document
 (
 )
 {

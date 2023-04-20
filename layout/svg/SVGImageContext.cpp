@@ -162,7 +162,7 @@ Document
 )
 -
 >
-IsDocumentURISchemeChrome
+ChromeRulesEnabled
 (
 )
 )
