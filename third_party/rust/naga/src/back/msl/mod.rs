@@ -1094,6 +1094,10 @@ index
 :
 :
 BoundsCheckPolicies
+pub
+zero_initialize_workgroup_memory
+:
+bool
 }
 impl
 Default
@@ -1149,6 +1153,9 @@ BoundsCheckPolicies
 default
 (
 )
+zero_initialize_workgroup_memory
+:
+true
 }
 }
 }

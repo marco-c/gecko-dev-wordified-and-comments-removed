@@ -517,6 +517,10 @@ Option
 <
 BindTarget
 >
+pub
+zero_initialize_workgroup_memory
+:
+bool
 }
 impl
 Default
@@ -556,6 +560,9 @@ None
 push_constants_target
 :
 None
+zero_initialize_workgroup_memory
+:
+true
 }
 }
 }

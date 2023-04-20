@@ -289,7 +289,7 @@ rs
 rev
 =
 "
-a990c93
+b940b1d71
 "
 replace
 -
@@ -339,7 +339,7 @@ naga
 rev
 =
 "
-1be8024
+f0edae8
 "
 replace
 -
@@ -389,7 +389,7 @@ wgpu
 rev
 =
 "
-24a904256e225b20b11fb30f914ef53212a2909e
+48d8666de002c7bfddbe85a2596f7748b4cc18b4
 "
 replace
 -

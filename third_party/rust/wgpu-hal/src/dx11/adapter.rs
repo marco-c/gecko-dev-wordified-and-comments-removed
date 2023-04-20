@@ -466,6 +466,14 @@ DownlevelFlags
 :
 :
 UNRESTRICTED_INDEX_BUFFER
+|
+wgt
+:
+:
+DownlevelFlags
+:
+:
+UNRESTRICTED_EXTERNAL_TEXTURE_COPIES
 ;
 downlevel
 .

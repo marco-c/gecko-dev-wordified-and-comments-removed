@@ -900,6 +900,12 @@ TextureUses
 :
 :
 COLOR_TARGET
+view_formats
+:
+vec
+!
+[
+]
 }
 ;
 unsafe
@@ -1917,9 +1923,12 @@ MemoryFlags
 empty
 (
 )
-allow_different_view_format
+view_formats
 :
-false
+vec
+!
+[
+]
 }
 ;
 let
