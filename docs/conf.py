@@ -136,6 +136,16 @@ mozprocess
 "
     
 "
+testing
+/
+mozbase
+/
+moznetwork
+/
+moznetwork
+"
+    
+"
 third_party
 /
 python
@@ -155,6 +165,14 @@ which
 docs
 /
 _addons
+"
+    
+"
+taskcluster
+/
+gecko_taskgraph
+/
+test
 "
 )
 sys
