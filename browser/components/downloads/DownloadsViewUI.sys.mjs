@@ -3971,7 +3971,7 @@ tooltiptext
 ;
 d
 .
-innerText
+textContent
 =
 "
 "
