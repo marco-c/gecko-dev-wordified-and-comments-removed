@@ -388,7 +388,7 @@ string
 output_checksum
 =
 "
-5e56fabfacd6fa202f3a00bcb4e034d6d817e6b3
+dee7a10ab92526876a70a85bc48a4906901af3df
 "
 ;
 const
@@ -399,7 +399,7 @@ string
 network_stats_checksum
 =
 "
-dfbf60f913a25a1f2f1066f85b4b08c24eed0ef2
+911dbf5fd97f48d25b8f0967286eb73c9d6f6158
 "
 ;
 DecodeAndCompare

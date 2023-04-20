@@ -759,11 +759,6 @@ time_stretched_cn_samples_
 0
 ;
 bool
-last_pack_cng_or_dtmf_
-=
-true
-;
-bool
 buffer_flush_
 =
 false
