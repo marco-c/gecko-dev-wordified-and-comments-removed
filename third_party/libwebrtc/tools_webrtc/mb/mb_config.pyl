@@ -643,7 +643,7 @@ Release
 '
 :
 '
-release_bot_x64
+release_bot_x64_reclient
 '
 '
 Linux64
