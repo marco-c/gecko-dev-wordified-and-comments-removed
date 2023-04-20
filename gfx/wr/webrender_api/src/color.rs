@@ -690,9 +690,17 @@ Debug
 Deserialize
 MallocSizeOf
 PartialEq
+)
+]
+#
+[
+derive
+(
 PartialOrd
 Ord
 Serialize
+PeekPoke
+Default
 )
 ]
 pub

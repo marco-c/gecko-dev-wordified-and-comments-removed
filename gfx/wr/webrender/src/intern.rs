@@ -67,6 +67,12 @@ profiler
 :
 TransactionProfile
 ;
+use
+peek_poke
+:
+:
+PeekPoke
+;
 #
 [
 cfg_attr
@@ -403,6 +409,8 @@ Eq
 Hash
 MallocSizeOf
 PartialEq
+PeekPoke
+Default
 )
 ]
 pub

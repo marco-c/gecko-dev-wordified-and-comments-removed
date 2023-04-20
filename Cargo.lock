@@ -35232,6 +35232,11 @@ num
 traits
 "
 "
+peek
+-
+poke
+"
+"
 plane
 -
 split

@@ -534,6 +534,12 @@ picture_textures
 :
 PictureTextures
 ;
+use
+peek_poke
+:
+:
+PeekPoke
+;
 static
 NEXT_NATIVE_SURFACE_ID
 :
@@ -1054,6 +1060,8 @@ Debug
 Copy
 Clone
 PartialEq
+PeekPoke
+Default
 )
 ]
 pub

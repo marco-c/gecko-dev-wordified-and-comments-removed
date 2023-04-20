@@ -162,6 +162,12 @@ util
 :
 TransformedRectKind
 ;
+use
+peek_poke
+:
+:
+PeekPoke
+;
 #
 [
 derive
@@ -320,6 +326,8 @@ Eq
 Hash
 MallocSizeOf
 PartialEq
+PeekPoke
+Default
 )
 ]
 #
