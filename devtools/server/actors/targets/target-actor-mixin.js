@@ -257,7 +257,7 @@ browsingContextID
 )
 ;
 }
-getStyleSheetManager
+getStyleSheetsManager
 (
 )
 {
@@ -266,12 +266,12 @@ if
 !
 this
 .
-_styleSheetManager
+_styleSheetsManager
 )
 {
 this
 .
-_styleSheetManager
+_styleSheetsManager
 =
 new
 StyleSheetsManager
@@ -283,7 +283,7 @@ this
 return
 this
 .
-_styleSheetManager
+_styleSheetsManager
 ;
 }
 }
@@ -347,12 +347,12 @@ if
 (
 this
 .
-_styleSheetManager
+_styleSheetsManager
 )
 {
 this
 .
-_styleSheetManager
+_styleSheetsManager
 .
 destroy
 (
@@ -360,7 +360,7 @@ destroy
 ;
 this
 .
-_styleSheetManager
+_styleSheetsManager
 =
 null
 ;

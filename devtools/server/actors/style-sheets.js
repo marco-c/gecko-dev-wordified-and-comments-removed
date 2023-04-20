@@ -259,7 +259,7 @@ this
 .
 parentActor
 .
-getStyleSheetManager
+getStyleSheetsManager
 (
 )
 ;
