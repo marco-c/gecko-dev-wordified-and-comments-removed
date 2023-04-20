@@ -5347,7 +5347,7 @@ textColorClass
 role
 :
 "
-alertdialog
+dialog
 "
 pos
 :
