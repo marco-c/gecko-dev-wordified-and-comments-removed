@@ -1136,7 +1136,7 @@ string
 getParameterInternal
 (
 in
-string
+ACString
 aHeaderVal
 in
 string
