@@ -609,14 +609,6 @@ kUTTypeFileURL
 aType
 isEqualToString
 :
-NSStringPboardType
-]
-|
-|
-[
-aType
-isEqualToString
-:
 NSPasteboardTypeString
 ]
 |
