@@ -398,6 +398,13 @@ h
 #
 include
 "
+Baseline
+.
+h
+"
+#
+include
+"
 nsBidiPresUtils
 .
 h
@@ -2992,8 +2999,12 @@ aBaselineGroup
 const
 {
 return
-SynthesizeBaselineBOffsetFromMarginBox
+Baseline
+:
+:
+SynthesizeBOffsetFromMarginBox
 (
+this
 aWM
 aBaselineGroup
 )
