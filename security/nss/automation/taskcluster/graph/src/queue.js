@@ -734,8 +734,6 @@ workerType
 |
 "
 linux
--
-gcp
 "
 schedulerId
 :
@@ -1323,8 +1321,6 @@ public
 image
 .
 tar
-.
-zst
 "
 taskId
 :

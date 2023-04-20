@@ -144,17 +144,6 @@ in
 CONTEXT_PATH
 .
 "
-apt
--
-get
-update
-apt
--
-get
--
-y
-install
-zstd
 docker
 build
 -
@@ -177,8 +166,6 @@ PROJECT
 :
 HASH
 "
-|
-zstd
 >
 /
 artifacts
@@ -186,5 +173,3 @@ artifacts
 image
 .
 tar
-.
-zst

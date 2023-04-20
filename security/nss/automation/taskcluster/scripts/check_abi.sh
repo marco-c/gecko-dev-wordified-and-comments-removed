@@ -766,12 +766,13 @@ abi_diff
 Slightly
 modified
 from
+builbot
+-
+slave
+/
 build
 .
 sh
-in
-this
-directory
 abi_diff
 (
 )
@@ -1211,7 +1212,7 @@ result
 report
 with
 our
-allowlist
+whitelist
 .
 This
 allows
@@ -1319,7 +1320,7 @@ check
 for
 non
 -
-allowlisted
+whitelisted
 differences
 .
 "
@@ -1347,7 +1348,7 @@ check
 for
 non
 -
-allowlisted
+whitelisted
 differences
 .
 "

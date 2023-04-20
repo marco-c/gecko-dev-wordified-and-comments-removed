@@ -128,7 +128,7 @@ clang
 format
 on
 .
-blocklist
+blacklist
 =
 (
 "
@@ -275,11 +275,11 @@ format_folder
 )
 {
 for
-block
+black
 in
 "
 {
-blocklist
+blacklist
 [
 ]
 }
@@ -295,7 +295,7 @@ if
 =
 =
 "
-block
+black
 "
 *
 ]
