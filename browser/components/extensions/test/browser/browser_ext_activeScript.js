@@ -2534,9 +2534,6 @@ win
 verifyExtensionsPanel
 )
 ;
-}
-)
-;
 await
 ext0
 .
@@ -2577,6 +2574,9 @@ ext5
 .
 unload
 (
+)
+;
+}
 )
 ;
 }
