@@ -249,10 +249,6 @@ utils
 xvfb
 \
 zip
-\
-pkg
--
-config
 #
 Add
 wrapper

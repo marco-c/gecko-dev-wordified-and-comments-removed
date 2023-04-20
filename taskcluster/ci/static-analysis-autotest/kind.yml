@@ -365,6 +365,10 @@ linux64
 -
 node
 -
+linux64
+-
+pkgconf
+-
 sysroot
 -
 x86_64
