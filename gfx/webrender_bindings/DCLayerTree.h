@@ -611,6 +611,11 @@ GetOverlayFormatForSDR
 (
 )
 ;
+bool
+SupportsSwapChainTearing
+(
+)
+;
 protected
 :
 bool
