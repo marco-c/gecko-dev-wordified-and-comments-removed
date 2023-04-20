@@ -406,10 +406,6 @@ bool
 >
 mTextureCreationWorks
 ;
-const
-bool
-mSurfaceCopy
-;
 }
 ;
 }

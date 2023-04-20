@@ -1155,12 +1155,6 @@ GetDMABufDevice
 (
 )
 ;
-nsDMABufDevice
-*
-GetAndConfigureDMABufDevice
-(
-)
-;
 }
 }
 #
