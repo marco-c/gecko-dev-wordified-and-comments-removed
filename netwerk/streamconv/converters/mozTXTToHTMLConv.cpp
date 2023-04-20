@@ -3710,6 +3710,12 @@ const
 uint32_t
 len
 =
+std
+:
+:
+min
+(
+2000u
 mozilla
 :
 :
@@ -3719,6 +3725,7 @@ uint32_t
 >
 (
 aInStringLength
+)
 )
 ;
 GraphemeClusterBreakIteratorUtf16
