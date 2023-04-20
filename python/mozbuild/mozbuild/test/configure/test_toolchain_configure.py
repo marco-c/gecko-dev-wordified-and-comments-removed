@@ -5,10 +5,6 @@ os
 import
 six
 from
-common
-import
-BaseConfigureTest
-from
 mozboot
 .
 util
@@ -34,6 +30,10 @@ import
 CompilerResult
 FakeCompiler
 PrependFlags
+from
+common
+import
+BaseConfigureTest
 from
 mozbuild
 .

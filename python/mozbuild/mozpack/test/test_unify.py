@@ -9,6 +9,12 @@ StringIO
 import
 mozunit
 from
+mozbuild
+.
+util
+import
+ensureParentDir
+from
 mozpack
 .
 errors
@@ -44,12 +50,6 @@ unify
 import
 UnifiedBuildFinder
 UnifiedFinder
-from
-mozbuild
-.
-util
-import
-ensureParentDir
 class
 TestUnified
 (
