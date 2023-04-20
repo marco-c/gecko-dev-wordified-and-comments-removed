@@ -1409,9 +1409,6 @@ canSetRuleText
 this
 .
 canSetRuleText
-hasGetQueryContainerForNode
-:
-true
 }
 }
 ;

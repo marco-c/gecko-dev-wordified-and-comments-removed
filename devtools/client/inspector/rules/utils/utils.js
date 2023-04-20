@@ -561,15 +561,6 @@ query
 declaration
 "
 )
-&
-&
-rule
-.
-domRule
-.
-traits
-.
-hasGetQueryContainerForNode
 )
 {
 type

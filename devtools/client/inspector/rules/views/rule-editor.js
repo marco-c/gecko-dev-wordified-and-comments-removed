@@ -1040,19 +1040,6 @@ containerName
 }
 )
 ;
-if
-(
-this
-.
-rule
-.
-domRule
-.
-traits
-.
-hasGetQueryContainerForNode
-)
-{
 container
 .
 classList
@@ -1336,7 +1323,6 @@ BOXMODEL
 }
 )
 ;
-}
 createChild
 (
 container
