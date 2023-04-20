@@ -10,7 +10,7 @@ PluginManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -22,7 +22,9 @@ actors
 /
 PluginParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
