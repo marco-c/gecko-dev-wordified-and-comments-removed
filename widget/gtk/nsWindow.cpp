@@ -28732,6 +28732,12 @@ GdkIsWaylandDisplay
 )
 &
 &
+mPopupHint
+!
+=
+ePopupTypeTooltip
+&
+&
 gtk_window_get_modal
 (
 parentWidget
