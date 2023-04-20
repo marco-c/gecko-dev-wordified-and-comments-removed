@@ -6559,9 +6559,11 @@ return
 }
 rv
 =
-NS_MaybeOpenChannelUsingAsyncOpen
-(
 localChannel
+-
+>
+AsyncOpen
+(
 this
 )
 ;

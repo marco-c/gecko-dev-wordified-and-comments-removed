@@ -6330,9 +6330,11 @@ bufferedInputStream
 nsresult
 rv
 =
-NS_MaybeOpenChannelUsingOpen
-(
 aChannel
+-
+>
+Open
+(
 getter_AddRefs
 (
 fileInputStream
@@ -6419,9 +6421,11 @@ Throttleable
 nsresult
 rv
 =
-NS_MaybeOpenChannelUsingAsyncOpen
-(
 aChannel
+-
+>
+AsyncOpen
+(
 this
 )
 ;
