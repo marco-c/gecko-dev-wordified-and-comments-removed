@@ -148,12 +148,6 @@ mEarlyHintsCount
 0
 }
 ;
-bool
-mCanceled
-{
-false
-}
-;
 RefPtr
 <
 OngoingEarlyHints
