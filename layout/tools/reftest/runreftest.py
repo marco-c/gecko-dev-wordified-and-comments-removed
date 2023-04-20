@@ -13,10 +13,6 @@ harness
 from
 __future__
 import
-print_function
-from
-__future__
-import
 absolute_import
 print_function
 import
@@ -116,6 +112,9 @@ from
 manifestparser
 import
 TestManifest
+from
+manifestparser
+import
 filters
 as
 mpf
@@ -129,8 +128,8 @@ test_environment
 from
 mozscreenshot
 import
-printstatus
 dump_screen
+printstatus
 from
 six
 import
@@ -193,13 +192,13 @@ e_save
 Marionette
 =
 reraise_
+import
+reftestcommandline
 from
 output
 import
 OutputHandler
 ReftestFormatter
-import
-reftestcommandline
 here
 =
 os

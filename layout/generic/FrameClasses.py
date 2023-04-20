@@ -1,11 +1,11 @@
 from
 FrameClass
 import
-Frame
-AbstractFrame
+DYNAMIC_LEAF
 LEAF
 NOT_LEAF
-DYNAMIC_LEAF
+AbstractFrame
+Frame
 FRAME_CLASSES
 =
 [
