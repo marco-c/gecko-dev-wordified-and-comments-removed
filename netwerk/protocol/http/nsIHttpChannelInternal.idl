@@ -54,6 +54,9 @@ nsHttpConnectionInfo
 class
 WebSocketConnectionBase
 ;
+class
+EarlyHintConnectArgs
+;
 }
 namespace
 dom
