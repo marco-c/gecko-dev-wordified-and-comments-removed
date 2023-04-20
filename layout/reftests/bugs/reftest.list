@@ -23634,10 +23634,6 @@ ref
 .
 html
 #
-!
-nativeThemePref
-and
-webrender
 only
 fuzzy
 when

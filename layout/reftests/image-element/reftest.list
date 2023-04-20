@@ -488,9 +488,6 @@ ref
 html
 #
 For
-!
-nativeThemePref
-:
 element
 (
 )
@@ -508,12 +505,7 @@ WR
 .
 #
 For
-!
-nativeThemePref
-+
 Windows
-+
-WebRender
 :
 bug
 1496542
