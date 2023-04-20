@@ -871,6 +871,17 @@ PopLastElement
 )
 ;
 }
+void
+TakeAllPreservedStyles
+(
+nsTArray
+<
+EditorInlineStyleAndValue
+>
+&
+aOutStylesAndValues
+)
+;
 int32_t
 TakeRelativeFontSize
 (
