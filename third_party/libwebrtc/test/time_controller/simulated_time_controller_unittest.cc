@@ -741,6 +741,8 @@ task_queue
 .
 PostDelayedTask
 (
+ToQueuedTask
+(
 [
 &
 ]
@@ -750,6 +752,7 @@ delay_task_executed
 true
 ;
 }
+)
 10
 )
 ;

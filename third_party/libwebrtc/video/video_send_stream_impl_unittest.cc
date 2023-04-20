@@ -4682,6 +4682,8 @@ test_queue_
 .
 PostDelayedTask
 (
+ToQueuedTask
+(
 [
 &
 ]
@@ -4718,6 +4720,7 @@ Set
 )
 ;
 }
+)
 5000
 )
 ;
@@ -4881,6 +4884,8 @@ test_queue_
 .
 PostDelayedTask
 (
+ToQueuedTask
+(
 [
 &
 ]
@@ -4911,6 +4916,7 @@ Set
 )
 ;
 }
+)
 2000
 )
 ;
