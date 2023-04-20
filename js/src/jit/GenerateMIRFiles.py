@@ -329,6 +329,14 @@ BigIntPolicy
 "
     
 "
+Boolean
+"
+:
+"
+BooleanPolicy
+"
+    
+"
 Double
 "
 :
