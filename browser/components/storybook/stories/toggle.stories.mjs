@@ -63,6 +63,10 @@ html
 from
 "
 lit
+.
+all
+.
+mjs
 "
 ;
 export
