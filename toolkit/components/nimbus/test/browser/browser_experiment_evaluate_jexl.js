@@ -5,6 +5,7 @@ strict
 ;
 const
 {
+EnrollmentsContext
 RemoteSettingsExperimentLoader
 }
 =
@@ -138,8 +139,21 @@ popPrefEnv
 }
 )
 ;
+CONTEXT
+=
+new
+EnrollmentsContext
+(
+RemoteSettingsExperimentLoader
+.
+manager
+)
+;
 }
 )
+;
+let
+CONTEXT
 ;
 const
 FAKE_CONTEXT
@@ -179,7 +193,7 @@ Assert
 .
 rejects
 (
-RemoteSettingsExperimentLoader
+CONTEXT
 .
 evaluateJexl
 (
@@ -234,7 +248,7 @@ Assert
 deepEqual
 (
 await
-RemoteSettingsExperimentLoader
+CONTEXT
 .
 evaluateJexl
 (
@@ -278,7 +292,7 @@ const
 result
 =
 await
-RemoteSettingsExperimentLoader
+CONTEXT
 .
 evaluateJexl
 (
@@ -328,7 +342,7 @@ const
 result
 =
 await
-RemoteSettingsExperimentLoader
+CONTEXT
 .
 evaluateJexl
 (
@@ -446,7 +460,7 @@ Assert
 equal
 (
 await
-RemoteSettingsExperimentLoader
+CONTEXT
 .
 evaluateJexl
 (
@@ -474,7 +488,7 @@ Assert
 equal
 (
 await
-RemoteSettingsExperimentLoader
+CONTEXT
 .
 evaluateJexl
 (
