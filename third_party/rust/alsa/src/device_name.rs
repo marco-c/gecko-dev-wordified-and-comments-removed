@@ -236,14 +236,8 @@ Hint
 ;
 fn
 next
-<
-'
-a
->
 (
 &
-'
-a
 mut
 self
 )

@@ -1,7 +1,4 @@
 use
-libc
-;
-use
 std
 :
 :
@@ -26,12 +23,18 @@ io
 AsRawFd
 ;
 use
+crate
+:
+:
 errno
 :
 :
 Errno
 ;
 use
+crate
+:
+:
 Result
 ;
 pub
@@ -247,7 +250,7 @@ delete_module
 )
 ]
 (
-http
+https
 :
 /
 /

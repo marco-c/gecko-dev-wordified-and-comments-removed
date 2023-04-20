@@ -221,13 +221,7 @@ as_ptr
 .
 map
 (
-|
-i
-|
 Card
-(
-i
-)
 )
 }
 pub
