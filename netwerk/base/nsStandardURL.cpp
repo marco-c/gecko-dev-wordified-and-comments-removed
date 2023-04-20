@@ -82,13 +82,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 nsNetCID
 .
 h
@@ -210,9 +203,6 @@ string
 h
 >
 static
-mozilla
-:
-:
 LazyLogModule
 gStandardURLLog
 (
@@ -273,6 +263,13 @@ NS_DEFINE_CID
 (
 kThisImplCID
 NS_THIS_STANDARDURL_IMPL_CID
+)
+;
+static
+NS_DEFINE_CID
+(
+kStandardURLCID
+NS_STANDARDURL_CID
 )
 ;
 StaticRefPtr
