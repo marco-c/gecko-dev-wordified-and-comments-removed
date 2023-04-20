@@ -285,7 +285,7 @@ Pattern
 .
 NATURAL
 }
-Debugger
+DebuggerPrototype
 :
 {
 count
@@ -566,7 +566,7 @@ Pattern
 .
 NATURAL
 }
-Debugger
+DebuggerPrototype
 :
 {
 count
