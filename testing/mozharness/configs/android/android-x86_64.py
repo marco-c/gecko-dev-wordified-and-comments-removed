@@ -226,12 +226,6 @@ android_version
 24
     
 "
-is_fennec
-"
-:
-False
-    
-"
 is_emulator
 "
 :
