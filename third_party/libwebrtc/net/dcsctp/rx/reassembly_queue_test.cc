@@ -3344,7 +3344,12 @@ TSN
 )
 kBufferSize
 false
-&
+)
+;
+reasm2
+.
+RestoreFromState
+(
 state
 )
 ;
@@ -3484,7 +3489,12 @@ TSN
 )
 kBufferSize
 false
-&
+)
+;
+reasm2
+.
+RestoreFromState
+(
 state
 )
 ;

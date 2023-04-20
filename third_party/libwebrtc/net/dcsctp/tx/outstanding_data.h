@@ -448,6 +448,15 @@ ShouldSendForwardTsn
 )
 const
 ;
+void
+ResetSequenceNumbers
+(
+UnwrappedTSN
+next_tsn
+UnwrappedTSN
+last_cumulative_tsn
+)
+;
 private
 :
 class
