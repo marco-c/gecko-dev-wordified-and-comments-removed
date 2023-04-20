@@ -12,13 +12,6 @@ nsProxyRelease
 .
 h
 "
-#
-include
-"
-nsIRequest
-.
-h
-"
 namespace
 mozilla
 {

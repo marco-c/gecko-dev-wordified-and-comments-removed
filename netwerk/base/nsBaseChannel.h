@@ -56,6 +56,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsHashPropertyBag
 .
 h
@@ -162,13 +169,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-nsCOMPtr
 .
 h
 "

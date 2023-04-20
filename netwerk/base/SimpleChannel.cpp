@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsICancelable
-.
-h
-"
-#
-include
-"
 nsIInputStream
 .
 h
