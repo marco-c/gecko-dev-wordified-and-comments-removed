@@ -1528,6 +1528,25 @@ None
 =
 None
         
+self
+.
+_drain_lock
+=
+asyncio
+.
+Lock
+(
+            
+*
+*
+(
+{
+"
+loop
+"
+:
+loop
+}
 if
 sys
 .
@@ -1536,38 +1555,16 @@ version_info
 :
 2
 ]
->
-=
+<
 (
 3
 8
 )
-:
-            
-self
-.
-_drain_lock
-=
-asyncio
-.
-Lock
-(
+else
+{
+}
 )
         
-else
-:
-            
-self
-.
-_drain_lock
-=
-asyncio
-.
-Lock
-(
-loop
-=
-loop
 )
         
 self
@@ -1931,11 +1928,18 @@ sleep
 (
                     
 0
+*
+*
+(
+{
+"
 loop
-=
+"
+:
 self
 .
 loop
+}
 if
 sys
 .
@@ -1950,7 +1954,9 @@ version_info
 8
 )
 else
-None
+{
+}
+)
                 
 )
         
@@ -3018,11 +3024,18 @@ self
 transfer_data_task
 ]
                     
+*
+*
+(
+{
+"
 loop
-=
+"
+:
 self
 .
 loop
+}
 if
 sys
 .
@@ -3037,7 +3050,9 @@ version_info
 8
 )
 else
-None
+{
+}
+)
                     
 return_when
 =
@@ -4077,11 +4092,18 @@ self
 .
 close_timeout
                 
+*
+*
+(
+{
+"
 loop
-=
+"
+:
 self
 .
 loop
+}
 if
 sys
 .
@@ -4096,7 +4118,9 @@ version_info
 8
 )
 else
-None
+{
+}
+)
             
 )
         
@@ -4129,11 +4153,18 @@ self
 .
 close_timeout
                 
+*
+*
+(
+{
+"
 loop
-=
+"
+:
 self
 .
 loop
+}
 if
 sys
 .
@@ -4148,7 +4179,9 @@ version_info
 8
 )
 else
-None
+{
+}
+)
             
 )
         
@@ -6480,11 +6513,18 @@ self
 .
 ping_interval
                     
+*
+*
+(
+{
+"
 loop
-=
+"
+:
 self
 .
 loop
+}
 if
 sys
 .
@@ -6499,7 +6539,9 @@ version_info
 8
 )
 else
-None
+{
+}
+)
                 
 )
                 
@@ -6536,11 +6578,18 @@ self
 .
 ping_timeout
                             
+*
+*
+(
+{
+"
 loop
-=
+"
+:
 self
 .
 loop
+}
 if
 sys
 .
@@ -6555,7 +6604,9 @@ version_info
 8
 )
 else
-None
+{
+}
+)
                         
 )
                     
@@ -7069,11 +7120,18 @@ self
 .
 close_timeout
                     
+*
+*
+(
+{
+"
 loop
-=
+"
+:
 self
 .
 loop
+}
 if
 sys
 .
@@ -7088,7 +7146,9 @@ version_info
 8
 )
 else
-None
+{
+}
+)
                 
 )
             

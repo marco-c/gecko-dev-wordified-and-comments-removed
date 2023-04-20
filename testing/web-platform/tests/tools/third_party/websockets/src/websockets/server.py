@@ -4351,11 +4351,19 @@ sleep
 (
             
 0
+            
+*
+*
+(
+{
+"
 loop
-=
+"
+:
 self
 .
 loop
+}
 if
 sys
 .
@@ -4370,7 +4378,9 @@ version_info
 8
 )
 else
-None
+{
+}
+)
         
 )
         
@@ -4401,11 +4411,18 @@ self
 websockets
 ]
                 
+*
+*
+(
+{
+"
 loop
-=
+"
+:
 self
 .
 loop
+}
 if
 sys
 .
@@ -4420,7 +4437,9 @@ version_info
 8
 )
 else
-None
+{
+}
+)
             
 )
         
@@ -4448,11 +4467,18 @@ self
 websockets
 ]
                 
+*
+*
+(
+{
+"
 loop
-=
+"
+:
 self
 .
 loop
+}
 if
 sys
 .
@@ -4467,7 +4493,9 @@ version_info
 8
 )
 else
-None
+{
+}
+)
             
 )
         
