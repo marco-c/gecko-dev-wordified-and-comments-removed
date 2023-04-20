@@ -9483,13 +9483,8 @@ topsrcdir
 CARGO_TARGET_DIR
 :
 =
-%
-s
-"
-%
-env
 .
-topobjdir
+"
             
 "
 RUST_PROGRAMS
