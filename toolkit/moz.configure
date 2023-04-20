@@ -12678,7 +12678,7 @@ only_when
 (
 compile_environment
 &
-target_is_linux
+target_has_linux_kernel
 )
 :
 getcontext
@@ -15381,7 +15381,7 @@ pthread_cond_timedwait_monotonic_np
 with
 only_when
 (
-target_is_linux
+target_has_linux_kernel
 &
 compile_environment
 )
@@ -15488,7 +15488,7 @@ True
 with
 only_when
 (
-target_is_linux
+target_has_linux_kernel
 &
 compile_environment
 )
@@ -15583,7 +15583,7 @@ headers
 )
 when
 =
-target_is_linux
+target_has_linux_kernel
 &
 compile_environment
 )
