@@ -12,11 +12,7 @@ ensureNoExistingProcess
 )
 {
 await
-utilityProcessTest
-(
-)
-.
-stopProcess
+killUtilityProcesses
 (
 )
 ;
@@ -366,7 +362,6 @@ report
 await
 cleanUtilityProcessShutdown
 (
-utilityPid
 )
 ;
 }
