@@ -398,6 +398,12 @@ ProcessNackModules
 (
 )
 {
+RTC_DCHECK_RUN_ON
+(
+&
+sequence_
+)
+;
 for
 (
 NackRequesterBase

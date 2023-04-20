@@ -6930,6 +6930,11 @@ IceCandidatePairConfigType
 type
 )
 {
+RTC_DCHECK_RUN_ON
+(
+network_thread_
+)
+;
 if
 (
 ice_event_log_
@@ -6971,6 +6976,11 @@ uint32_t
 transaction_id
 )
 {
+RTC_DCHECK_RUN_ON
+(
+network_thread_
+)
+;
 if
 (
 ice_event_log_
@@ -7674,6 +7684,11 @@ ConnectionRequest
 request
 )
 {
+RTC_DCHECK_RUN_ON
+(
+network_thread_
+)
+;
 rtc
 :
 :
@@ -8833,6 +8848,11 @@ StunMessage
 message
 )
 {
+RTC_DCHECK_RUN_ON
+(
+network_thread_
+)
+;
 if
 (
 remote_support_goog_ping_

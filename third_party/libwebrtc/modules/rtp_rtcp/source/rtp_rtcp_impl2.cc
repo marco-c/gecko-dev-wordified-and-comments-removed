@@ -3837,6 +3837,11 @@ MaybeSendRtcp
 (
 )
 {
+RTC_DCHECK_RUN_ON
+(
+worker_queue_
+)
+;
 if
 (
 rtcp_sender_
@@ -3866,6 +3871,11 @@ Timestamp
 execution_time
 )
 {
+RTC_DCHECK_RUN_ON
+(
+worker_queue_
+)
+;
 Timestamp
 now
 =

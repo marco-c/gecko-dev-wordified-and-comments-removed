@@ -6852,6 +6852,11 @@ sync_group
 {
 RTC_DCHECK_RUN_ON
 (
+worker_thread_
+)
+;
+RTC_DCHECK_RUN_ON
+(
 &
 receive_11993_checker_
 )
@@ -6909,6 +6914,11 @@ string_view
 sync_group
 )
 {
+RTC_DCHECK_RUN_ON
+(
+worker_thread_
+)
+;
 AudioReceiveStreamImpl
 *
 audio_stream
@@ -6995,6 +7005,11 @@ CopyOnWriteBuffer
 packet
 )
 {
+RTC_DCHECK_RUN_ON
+(
+network_thread_
+)
+;
 TRACE_EVENT0
 (
 "
@@ -7731,6 +7746,11 @@ bool
 use_send_side_bwe
 )
 {
+RTC_DCHECK_RUN_ON
+(
+worker_thread_
+)
+;
 RTPHeader
 header
 ;

@@ -1874,6 +1874,11 @@ StopVideoSendStream
 (
 )
 {
+RTC_DCHECK_RUN_ON
+(
+rtp_transport_queue_
+)
+;
 bitrate_allocator_
 -
 >

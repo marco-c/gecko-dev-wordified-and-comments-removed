@@ -4716,6 +4716,12 @@ int64_t
 now_ms
 )
 {
+RTC_DCHECK_RUN_ON
+(
+&
+worker_thread_checker_
+)
+;
 jitter_buffer_playout_timestamp_
 =
 acm_receiver_
