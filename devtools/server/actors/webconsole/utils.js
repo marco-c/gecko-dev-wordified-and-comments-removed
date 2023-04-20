@@ -348,6 +348,16 @@ case
 function
 "
 :
+case
+"
+record
+"
+:
+case
+"
+tuple
+"
+:
 return
 objectWrapper
 (
