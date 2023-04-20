@@ -377,9 +377,6 @@ initial
 ;
 }
 menu
-:
-where
-(
 [
 _moz
 -
@@ -389,11 +386,7 @@ menuactive
 true
 "
 ]
-)
 menuitem
-:
-where
-(
 [
 _moz
 -
@@ -403,7 +396,6 @@ menuactive
 true
 "
 ]
-)
 {
 color
 :
@@ -445,9 +437,6 @@ none
 ;
 }
 menu
-:
-where
-(
 [
 disabled
 =
@@ -455,11 +444,7 @@ disabled
 true
 "
 ]
-)
 menuitem
-:
-where
-(
 [
 disabled
 =
@@ -467,11 +452,7 @@ disabled
 true
 "
 ]
-)
 menucaption
-:
-where
-(
 [
 disabled
 =
@@ -479,7 +460,6 @@ disabled
 true
 "
 ]
-)
 {
 color
 :
@@ -1158,6 +1138,8 @@ menuseparator
 appearance
 :
 auto
+!
+important
 ;
 -
 moz
@@ -1167,5 +1149,7 @@ default
 appearance
 :
 menuseparator
+!
+important
 ;
 }
