@@ -425,7 +425,7 @@ destroy
 ;
 }
 }
-onLogPoint
+emitMessage
 (
 message
 )

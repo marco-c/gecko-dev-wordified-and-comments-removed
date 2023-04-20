@@ -391,7 +391,7 @@ consoleMessageWatcher
 {
 consoleMessageWatcher
 .
-onLogPoint
+emitMessage
 (
 message
 )

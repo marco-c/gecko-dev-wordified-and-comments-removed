@@ -163,6 +163,11 @@ toolbox
 js
 "
 "
+tracing
+.
+js
+"
+"
 threads
 .
 js
