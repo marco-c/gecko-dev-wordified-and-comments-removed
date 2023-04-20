@@ -7,6 +7,13 @@ SDK_ANDROID_NATIVE_API_JNI_JNI_INT_WRAPPER_H_
 #
 include
 <
+jni
+.
+h
+>
+#
+include
+<
 cstdint
 >
 #
