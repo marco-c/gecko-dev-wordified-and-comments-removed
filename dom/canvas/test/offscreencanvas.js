@@ -227,8 +227,6 @@ canvas
 getContext
 (
 "
-experimental
--
 webgl
 "
 )
