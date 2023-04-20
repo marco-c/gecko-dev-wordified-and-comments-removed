@@ -739,6 +739,19 @@ cocoaWidget
 -
 53
 )
+pref
+(
+layout
+.
+css
+.
+devPixelsPerPx
+"
+0
+.
+67
+"
+)
 =
 =
 async
@@ -748,8 +761,6 @@ scrollbar
 1
 -
 v
--
-fullzoom
 .
 html
 async
@@ -759,8 +770,6 @@ scrollbar
 1
 -
 v
--
-fullzoom
 -
 ref
 .
