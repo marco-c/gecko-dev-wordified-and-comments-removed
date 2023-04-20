@@ -1843,12 +1843,6 @@ resolve
 {
 aWindow
 .
-focus
-(
-)
-;
-aWindow
-.
 PopupNotifications
 .
 panel
