@@ -208,7 +208,7 @@ qualifiers
 :
 [
 {
-id
+qualifierId
 :
 "
 1
@@ -229,13 +229,13 @@ id
 .
 1
 "
-name
+qualifierName
 :
 "
 Practices
 Statement
 "
-value
+qualifierValue
 :
 "
 https
