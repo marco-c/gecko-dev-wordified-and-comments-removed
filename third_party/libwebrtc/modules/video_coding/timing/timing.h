@@ -241,6 +241,7 @@ Timestamp
 now
 )
 ;
+virtual
 void
 IncomingTimestamp
 (
