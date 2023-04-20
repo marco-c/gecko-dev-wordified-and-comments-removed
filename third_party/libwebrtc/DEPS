@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-a4e2e00dae200e70cb4cd190f4b598821c2eea9c
+7145bb0096117eea307c1c17ceba476449b0fd1e
 '
 #
 Keep
@@ -146,7 +146,7 @@ version
 :
 9
 .
-20220820
+20220821
 .
 0
 .
@@ -192,7 +192,7 @@ chromium
 src
 /
 base
-a5cad75f29c7ef3dca911d9cd9d21bbf50517b68
+32c170885437d6a62e85509b2b770800e87cc7a6
 '
 '
 src
@@ -240,7 +240,7 @@ chromium
 src
 /
 buildtools
-ecce054f3b48817e3190424d95d1aedcee688bf1
+30bacb905f4b6faa225f1eaff727a4880c1afbf0
 '
 #
 Gradle
@@ -336,7 +336,7 @@ chromium
 src
 /
 ios
-e40fd0b4f21955ff36e038a74cac50a903e07f93
+82b1a3364d4879fe9dc11bbe019734950f21c5f2
 '
 '
 condition
@@ -392,7 +392,7 @@ chromium
 src
 /
 third_party
-7e2e02f0eb41dac5aeb5d266ecdd782d75cfddd2
+e85c9430bf34b2a57d2f80552ac0ca35356e45bc
 '
 '
 src
@@ -648,7 +648,7 @@ project
 libcxx
 .
 git
-8b1c50618df7677fb1bd4bdf40d15a55b1733293
+af1968ac52c132d40f80797f0baca8f942d5c96d
 '
 '
 src
@@ -691,7 +691,7 @@ project
 libcxxabi
 .
 git
-ee4f792d1c270b8cc451fa28851d62f41a714ff3
+6c17e7c6365ba04c25d746e5857046962034b1f1
 '
 '
 src
@@ -731,7 +731,7 @@ project
 libunwind
 .
 git
-49d0f0ce881cf0620a18790f33010ffe6c6e312a
+42aa6de5544ec1ccc27da640a044bd3f474ee75a
 '
 '
 src
@@ -1935,7 +1935,7 @@ com
 aom
 .
 git
-121f3851459d5ee2ca1b5b23c6187bda79984eb2
+2fcb0760ea632ef250465819f7d979a695b7c149
 '
 '
 src
@@ -2400,7 +2400,7 @@ chromium
 src
 /
 tools
-f42a90e8daf1901a51930156393d34163df944bc
+0c3c4070ca429ade60359a8ea05a85f9e877a953
 '
 '
 src
