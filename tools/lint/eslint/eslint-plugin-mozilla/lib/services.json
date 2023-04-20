@@ -112,13 +112,6 @@ nsICrashReporter
 appinfo
 "
 "
-nsIDAPTelemetry
-"
-:
-"
-DAPTelemetry
-"
-"
 nsIDOMRequestService
 "
 :
