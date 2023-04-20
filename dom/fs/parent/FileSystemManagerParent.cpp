@@ -1309,7 +1309,6 @@ if
 SendPFileSystemWritableFileStreamConstructor
 (
 writableFileStreamParent
-fileDescriptor
 )
 )
 {
@@ -1326,9 +1325,11 @@ IPC_OK
 }
 aResolver
 (
-FileSystemGetWritableFileStreamResponse
+FileSystemWritableFileStreamProperties
 (
+fileDescriptor
 writableFileStreamParent
+nullptr
 )
 )
 ;

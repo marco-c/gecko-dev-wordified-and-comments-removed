@@ -76,6 +76,11 @@ PFileSystemManager
 parent
 :
 async
+Close
+(
+)
+;
+async
 __delete__
 (
 )
