@@ -132,6 +132,7 @@ Kind
 MainScript
 ImportScript
 StaticImport
+DynamicImport
 DebuggerScript
 }
 ;
