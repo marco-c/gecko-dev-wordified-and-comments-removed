@@ -5217,6 +5217,8 @@ IsMenuPopupFrame
 )
 )
 {
+if
+(
 nsXULPopupManager
 *
 pm
@@ -5227,10 +5229,6 @@ nsXULPopupManager
 GetInstance
 (
 )
-;
-if
-(
-pm
 )
 {
 pm
@@ -5244,10 +5242,12 @@ mFrame
 GetContent
 (
 )
-false
-true
-false
-false
+{
+HidePopupOption
+:
+:
+DeselectMenu
+}
 )
 ;
 return
