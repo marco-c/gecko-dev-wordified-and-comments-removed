@@ -1380,5 +1380,15 @@ DOMRectReadOnly
 rect
 )
 ;
+readonly
+attribute
+boolean
+isWaylandDragSource
+;
+readonly
+attribute
+boolean
+isWaylandPopup
+;
 }
 ;
