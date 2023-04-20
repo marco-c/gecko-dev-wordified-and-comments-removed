@@ -1,11 +1,3 @@
-extern
-crate
-mp4parse
-;
-extern
-crate
-mp4parse_capi
-;
 use
 mp4parse
 :
