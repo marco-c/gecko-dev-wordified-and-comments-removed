@@ -98,19 +98,6 @@ dav1d
 h
 "
 #
-include
-"
-libyuv
-/
-include
-/
-libyuv
-/
-convert
-.
-h
-"
-#
 else
 #
 include
@@ -129,6 +116,8 @@ dav1d
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -159,8 +148,6 @@ planar_functions
 .
 h
 "
-#
-endif
 namespace
 webrtc
 {

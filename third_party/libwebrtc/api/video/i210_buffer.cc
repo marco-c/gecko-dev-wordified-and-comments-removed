@@ -57,6 +57,8 @@ h
 #
 include
 "
+third_party
+/
 libyuv
 /
 include
@@ -70,6 +72,8 @@ h
 #
 include
 "
+third_party
+/
 libyuv
 /
 include
