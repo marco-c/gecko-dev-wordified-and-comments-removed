@@ -5601,7 +5601,7 @@ listener
 Once
 we
 call
-startDownload
+allowUpdateDownload
 there
 are
 two
@@ -5703,7 +5703,7 @@ lazy
 .
 appUpdater
 .
-startDownload
+allowUpdateDownload
 (
 )
 ;
