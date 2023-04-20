@@ -4551,6 +4551,15 @@ extra_ldflags
             
 "
 -
+fuse
+-
+ld
+=
+lld
+"
+            
+"
+-
 Wl
 -
 dead_strip
