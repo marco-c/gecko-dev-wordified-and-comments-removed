@@ -28,6 +28,10 @@ ForwardDecls
 .
 h
 "
+#
+define
+FS_QUOTA_MANAGEMENT_ENABLED
+0
 template
 <
 class
