@@ -6801,6 +6801,12 @@ border
 solid
 CanvasText
 ;
+background
+-
+color
+:
+Canvas
+;
 }
 .
 dot
