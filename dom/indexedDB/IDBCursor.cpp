@@ -317,6 +317,10 @@ cleared
 )
 ;
 }
+mTransaction
+=
+nullptr
+;
 }
 RefPtr
 <
