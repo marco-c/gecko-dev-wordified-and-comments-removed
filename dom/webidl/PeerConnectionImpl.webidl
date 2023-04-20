@@ -663,6 +663,12 @@ attribute
 boolean
 privacyRequested
 ;
+readonly
+attribute
+RTCSctpTransport
+?
+sctp
+;
 /
 *
 Data
