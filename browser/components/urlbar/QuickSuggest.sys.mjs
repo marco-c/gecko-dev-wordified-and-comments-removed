@@ -2689,11 +2689,6 @@ HELP_URL
 "
 tab
 "
-{
-fromChrome
-:
-true
-}
 )
 ;
 break

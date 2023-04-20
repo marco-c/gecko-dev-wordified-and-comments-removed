@@ -1947,7 +1947,7 @@ propertyVal
 (
 params
 "
-fromChrome
+forceForeground
 "
 false
 )
@@ -2096,7 +2096,7 @@ propertyVal
 (
 params
 "
-fromChrome
+forceForeground
 "
 false
 )
@@ -2251,7 +2251,7 @@ propertyVal
 (
 params
 "
-fromChrome
+forceForeground
 "
 false
 )

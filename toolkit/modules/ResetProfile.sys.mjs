@@ -592,11 +592,6 @@ settings
 "
 tab
 "
-{
-fromChrome
-:
-true
-}
 )
 ;
 return
