@@ -4072,7 +4072,7 @@ true
 ;
 }
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -4082,7 +4082,7 @@ sb
 (
 cx
 &
-ec
+fc
 )
 ;
 if

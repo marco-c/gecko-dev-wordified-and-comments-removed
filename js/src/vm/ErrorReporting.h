@@ -178,7 +178,7 @@ ReportCompileErrorLatin1
 (
 FrontendContext
 *
-ec
+fc
 ErrorMetadata
 &
 &
@@ -201,7 +201,7 @@ ReportCompileErrorUTF8
 (
 FrontendContext
 *
-ec
+fc
 ErrorMetadata
 &
 &
@@ -229,7 +229,7 @@ ReportCompileWarning
 (
 FrontendContext
 *
-ec
+fc
 ErrorMetadata
 &
 &
@@ -384,7 +384,7 @@ ExpandErrorArgumentsVA
 (
 FrontendContext
 *
-ec
+fc
 JSErrorCallback
 callback
 void
@@ -413,7 +413,7 @@ ExpandErrorArgumentsVA
 (
 FrontendContext
 *
-ec
+fc
 JSErrorCallback
 callback
 void
@@ -442,7 +442,7 @@ ExpandErrorArgumentsVA
 (
 FrontendContext
 *
-ec
+fc
 JSErrorCallback
 callback
 void
@@ -466,7 +466,7 @@ ExpandErrorArgumentsVA
 (
 FrontendContext
 *
-ec
+fc
 JSErrorCallback
 callback
 void

@@ -255,7 +255,7 @@ p
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 }
@@ -2412,7 +2412,7 @@ toAtom
 (
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 &
 parserAtoms
@@ -2422,7 +2422,7 @@ const
 return
 NumberToParserAtom
 (
-ec
+fc
 parserAtoms
 value
 (
@@ -2442,7 +2442,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 &
 parserAtoms
@@ -2466,7 +2466,7 @@ index_
 createRegExpAndEnsureAtom
 (
 cx
-ec
+fc
 parserAtoms
 atomCache
 )

@@ -190,7 +190,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 Kind
 kind
 const
@@ -210,9 +210,9 @@ cx_
 (
 cx
 )
-ec_
+fc_
 (
-ec
+fc
 )
 extent_
 (
@@ -392,7 +392,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ScopeKind
 scopeKind
 const
@@ -411,7 +411,7 @@ extent
 SharedContext
 (
 cx
-ec
+fc
 Kind
 :
 :
@@ -471,7 +471,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationState
 &
 compilationState
@@ -482,7 +482,7 @@ extent
 SharedContext
 (
 cx
-ec
+fc
 Kind
 :
 :
@@ -561,7 +561,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 Kind
 kind
 const
@@ -584,7 +584,7 @@ isAsync
 SharedContext
 (
 cx
-ec
+fc
 kind
 options
 directives
@@ -620,7 +620,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 SourceExtent
 extent
 CompilationState
@@ -645,7 +645,7 @@ index
 SuspendableContext
 (
 cx
-ec
+fc
 Kind
 :
 :
@@ -1509,7 +1509,7 @@ js
 :
 ReportOutOfMemory
 (
-ec_
+fc_
 )
 ;
 return
@@ -1530,7 +1530,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 JS
 :
@@ -1548,7 +1548,7 @@ extent
 SuspendableContext
 (
 cx
-ec
+fc
 Kind
 :
 :

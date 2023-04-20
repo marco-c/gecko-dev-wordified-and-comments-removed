@@ -463,7 +463,7 @@ protected
 :
 FrontendContext
 *
-ec_
+fc_
 ;
 JS
 :
@@ -514,7 +514,7 @@ parserAtoms
 toJSAtom
 (
 cx_
-ec_
+fc_
 index
 compilationState_
 .
@@ -621,7 +621,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -740,7 +740,7 @@ const
 override
 {
 return
-ec_
+fc_
 ;
 }
 bool
@@ -1287,7 +1287,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -1324,7 +1324,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -1354,7 +1354,7 @@ syntaxParser
 PerHandlerParser
 (
 cx
-ec
+fc
 stackLimit
 options
 foldConstants
@@ -2537,7 +2537,7 @@ using
 Base
 :
 :
-ec_
+fc_
 ;
 using
 Base
@@ -2914,7 +2914,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -5943,7 +5943,7 @@ using
 Base
 :
 :
-ec_
+fc_
 ;
 using
 Base
@@ -6739,7 +6739,7 @@ NewEmptyGlobalScopeData
 (
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -6756,7 +6756,7 @@ NewEmptyVarScopeData
 (
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -6773,7 +6773,7 @@ NewEmptyLexicalScopeData
 (
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -6790,7 +6790,7 @@ NewEmptyFunctionScopeData
 (
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -6816,7 +6816,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParseContext
 :
 :
@@ -6849,7 +6849,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParseContext
 :
 :
@@ -6882,7 +6882,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParseContext
 :
 :
@@ -6917,7 +6917,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParseContext
 :
 :
@@ -6950,7 +6950,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParseContext
 :
 :

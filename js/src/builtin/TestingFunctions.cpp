@@ -38107,7 +38107,7 @@ false
 ;
 }
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -38119,7 +38119,7 @@ SetSourceOptions
 (
 cx
 &
-ec
+fc
 stencil
 -
 >
@@ -38881,7 +38881,7 @@ false
 }
 }
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -38934,7 +38934,7 @@ ParseModuleToExtensibleStencil
 (
 cx
 &
-ec
+fc
 cx
 -
 >
@@ -38963,7 +38963,7 @@ CompileGlobalScriptToExtensibleStencil
 (
 cx
 &
-ec
+fc
 cx
 -
 >
@@ -39002,7 +39002,7 @@ SetSourceOptions
 (
 cx
 &
-ec
+fc
 stencil
 -
 >
@@ -39368,7 +39368,7 @@ false
 }
 }
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -39405,7 +39405,7 @@ initForGlobal
 (
 cx
 &
-ec
+fc
 )
 )
 {
@@ -39456,7 +39456,7 @@ deserializeStencils
 (
 cx
 &
-ec
+fc
 input
 .
 get
@@ -39478,7 +39478,7 @@ if
 succeeded
 )
 {
-ec
+fc
 .
 clearAutoReport
 (
@@ -39506,7 +39506,7 @@ isModule
 )
 )
 {
-ec
+fc
 .
 clearAutoReport
 (

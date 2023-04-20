@@ -168,7 +168,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 size_t
 cursor
 =
@@ -181,7 +181,7 @@ cx
 )
 err_
 (
-ec
+fc
 )
 cursor_
 (
@@ -202,7 +202,7 @@ context_
 }
 FrontendContext
 *
-ec
+fc
 (
 )
 const
@@ -267,7 +267,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -283,7 +283,7 @@ cursor
 XDRBufferBase
 (
 cx
-ec
+fc
 cursor
 )
 buffer_
@@ -321,7 +321,7 @@ n
 {
 ReportOutOfMemory
 (
-ec
+fc
 (
 )
 )
@@ -387,7 +387,7 @@ padding
 {
 ReportOutOfMemory
 (
-ec
+fc
 (
 )
 )
@@ -502,7 +502,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 JS
 :
@@ -515,7 +515,7 @@ range
 XDRBufferBase
 (
 cx
-ec
+fc
 )
 buffer_
 (
@@ -530,7 +530,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -546,7 +546,7 @@ cursor
 XDRBufferBase
 (
 cx
-ec
+fc
 cursor
 )
 buffer_
@@ -896,7 +896,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -944,7 +944,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -960,7 +960,7 @@ cursor
 mainBuf
 (
 cx
-ec
+fc
 buffer
 cursor
 )
@@ -983,7 +983,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 RangeType
 &
@@ -993,7 +993,7 @@ range
 mainBuf
 (
 cx
-ec
+fc
 range
 )
 buf
@@ -1048,7 +1048,7 @@ cx
 }
 FrontendContext
 *
-ec
+fc
 (
 )
 const
@@ -1056,7 +1056,7 @@ const
 return
 mainBuf
 .
-ec
+fc
 (
 )
 ;
@@ -1108,7 +1108,7 @@ validateResultCode
 cx
 (
 )
-ec
+fc
 (
 )
 code

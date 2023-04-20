@@ -716,7 +716,7 @@ SourceCoords
 (
 FrontendContext
 *
-ec
+fc
 uint32_t
 initialLineNumber
 uint32_t
@@ -1178,7 +1178,7 @@ cx
 FrontendContext
 *
 const
-ec
+fc
 ;
 const
 JS
@@ -1334,7 +1334,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 JS
 :
@@ -2005,7 +2005,7 @@ context
 const
 {
 return
-ec
+fc
 ;
 }
 JSContext
@@ -4471,7 +4471,7 @@ cx
 ;
 FrontendContext
 *
-ec
+fc
 ;
 CharBuffer
 charBuffer
@@ -4490,7 +4490,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 *
 parserAtoms
@@ -4500,13 +4500,13 @@ cx
 (
 cx
 )
-ec
+fc
 (
-ec
+fc
 )
 charBuffer
 (
-ec
+fc
 )
 parserAtoms
 (
@@ -4586,7 +4586,7 @@ parserAtoms
 >
 internChar16
 (
-ec
+fc
 charBuffer
 .
 begin
@@ -4682,7 +4682,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 *
 parserAtoms
@@ -5126,7 +5126,7 @@ parserAtoms
 >
 internChar16
 (
-ec
+fc
 units
 .
 data
@@ -5179,7 +5179,7 @@ parserAtoms
 >
 internUtf8
 (
-ec
+fc
 units
 .
 data
@@ -7854,7 +7854,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 *
 parserAtoms
@@ -9786,7 +9786,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 *
 parserAtoms
@@ -9811,7 +9811,7 @@ smg
 TokenStreamAnyChars
 (
 cx
-ec
+fc
 options
 smg
 )
@@ -9822,7 +9822,7 @@ TokenStreamAnyCharsAccess
 >
 (
 cx
-ec
+fc
 parserAtoms
 options
 units
@@ -9849,7 +9849,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 JS
 :
@@ -9862,7 +9862,7 @@ options
 TokenStream
 (
 cx
-ec
+fc
 nullptr
 options
 nullptr

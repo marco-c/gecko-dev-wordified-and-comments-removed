@@ -101,7 +101,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 frontend
 :
@@ -126,7 +126,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 Parser
 *
 parser
@@ -135,7 +135,7 @@ parser
 ModuleBuilder
 (
 cx
-ec
+fc
 frontend
 :
 :
@@ -206,7 +206,7 @@ noteFunctionDeclaration
 (
 FrontendContext
 *
-ec
+fc
 uint32_t
 funIndex
 )
@@ -302,7 +302,7 @@ cx_
 ;
 FrontendContext
 *
-ec_
+fc_
 ;
 frontend
 :

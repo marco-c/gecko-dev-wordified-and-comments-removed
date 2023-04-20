@@ -4706,7 +4706,7 @@ Int32ToParserAtom
 (
 FrontendContext
 *
-ec
+fc
 frontend
 :
 :
@@ -4776,7 +4776,7 @@ parserAtoms
 .
 internAscii
 (
-ec
+fc
 start
 length
 )
@@ -9837,7 +9837,7 @@ NumberToParserAtom
 (
 FrontendContext
 *
-ec
+fc
 frontend
 :
 :
@@ -9864,7 +9864,7 @@ si
 return
 Int32ToParserAtom
 (
-ec
+fc
 parserAtoms
 si
 )
@@ -9939,7 +9939,7 @@ parserAtoms
 .
 internAscii
 (
-ec
+fc
 numStr
 length
 )

@@ -63,7 +63,7 @@ public
 :
 FrontendContext
 *
-ec_
+fc_
 ;
 JS
 :
@@ -75,7 +75,7 @@ ParseNodeVisitor
 (
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -83,9 +83,9 @@ NativeStackLimit
 stackLimit
 )
 :
-ec_
+fc_
 (
-ec
+fc
 )
 stackLimit_
 (
@@ -109,7 +109,7 @@ pn
 AutoCheckRecursionLimit
 recursion
 (
-ec_
+fc_
 )
 ;
 if
@@ -119,7 +119,7 @@ recursion
 .
 check
 (
-ec_
+fc_
 stackLimit_
 )
 )
@@ -271,7 +271,7 @@ public
 :
 FrontendContext
 *
-ec_
+fc_
 ;
 JS
 :
@@ -283,7 +283,7 @@ RewritingParseNodeVisitor
 (
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -291,9 +291,9 @@ NativeStackLimit
 stackLimit
 )
 :
-ec_
+fc_
 (
-ec
+fc
 )
 stackLimit_
 (
@@ -318,7 +318,7 @@ pn
 AutoCheckRecursionLimit
 recursion
 (
-ec_
+fc_
 )
 ;
 if
@@ -328,7 +328,7 @@ recursion
 .
 check
 (
-ec_
+fc_
 stackLimit_
 )
 )

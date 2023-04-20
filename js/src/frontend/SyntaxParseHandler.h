@@ -307,7 +307,7 @@ SyntaxParseHandler
 (
 FrontendContext
 *
-ec
+fc
 CompilationState
 &
 compilationState

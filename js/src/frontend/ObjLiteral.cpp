@@ -204,7 +204,7 @@ checkForDuplicatedNames
 (
 FrontendContext
 *
-ec
+fc
 )
 {
 if
@@ -249,7 +249,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return

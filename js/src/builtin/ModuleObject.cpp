@@ -7000,7 +7000,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 frontend
 :
@@ -7014,9 +7014,9 @@ cx_
 (
 cx
 )
-ec_
+fc_
 (
-ec
+fc
 )
 eitherParser_
 (
@@ -7024,19 +7024,19 @@ eitherParser
 )
 requestedModuleSpecifiers_
 (
-ec
+fc
 )
 importEntries_
 (
-ec
+fc
 )
 exportEntries_
 (
-ec
+fc
 )
 exportNames_
 (
-ec
+fc
 )
 {
 }
@@ -7048,7 +7048,7 @@ noteFunctionDeclaration
 (
 FrontendContext
 *
-ec
+fc
 uint32_t
 funIndex
 )
@@ -7069,7 +7069,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -7149,7 +7149,7 @@ js
 :
 ReportOutOfMemory
 (
-ec_
+fc_
 )
 ;
 return
@@ -7267,7 +7267,7 @@ js
 :
 ReportOutOfMemory
 (
-ec_
+fc_
 )
 ;
 return
@@ -7304,7 +7304,7 @@ js
 :
 ReportOutOfMemory
 (
-ec_
+fc_
 )
 ;
 return
@@ -7362,7 +7362,7 @@ js
 :
 ReportOutOfMemory
 (
-ec_
+fc_
 )
 ;
 return
@@ -7405,7 +7405,7 @@ js
 :
 ReportOutOfMemory
 (
-ec_
+fc_
 )
 ;
 return
@@ -7433,7 +7433,7 @@ js
 :
 ReportOutOfMemory
 (
-ec_
+fc_
 )
 ;
 return
@@ -8300,7 +8300,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 frontend
 :
 :
@@ -8480,7 +8480,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -8874,7 +8874,7 @@ js
 :
 ReportOutOfMemory
 (
-ec_
+fc_
 )
 ;
 return
@@ -11391,7 +11391,7 @@ js
 :
 ReportOutOfMemory
 (
-ec_
+fc_
 )
 ;
 return

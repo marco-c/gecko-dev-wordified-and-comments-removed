@@ -175,7 +175,7 @@ cx
 ;
 FrontendContext
 *
-ec
+fc
 ;
 JS
 :
@@ -362,7 +362,7 @@ recursion
 (
 info
 .
-ec
+fc
 )
 ;
 if
@@ -374,7 +374,7 @@ check
 (
 info
 .
-ec
+fc
 info
 .
 stackLimit
@@ -2488,7 +2488,7 @@ toAtom
 (
 info
 .
-ec
+fc
 info
 .
 parserAtoms
@@ -6081,7 +6081,7 @@ toAtom
 (
 info
 .
-ec
+fc
 info
 .
 parserAtoms
@@ -6652,7 +6652,7 @@ info
 cx
 info
 .
-ec
+fc
 )
 ;
 if
@@ -6768,7 +6768,7 @@ info
 parserAtoms
 info
 .
-ec
+fc
 )
 ;
 if
@@ -7035,7 +7035,7 @@ return
 FoldInfo
 {
 cx
-ec_
+fc_
 stackLimit_
 parserAtoms
 handler
@@ -7051,7 +7051,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -7067,7 +7067,7 @@ handler
 :
 RewritingParseNodeVisitor
 (
-ec
+fc
 stackLimit
 )
 cx
@@ -8539,7 +8539,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -8561,7 +8561,7 @@ FoldVisitor
 visitor
 (
 cx
-ec
+fc
 stackLimit
 parserAtoms
 handler
@@ -8597,7 +8597,7 @@ info
 cx
 info
 .
-ec
+fc
 info
 .
 stackLimit
@@ -8622,7 +8622,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -8644,7 +8644,7 @@ return
 Fold
 (
 cx
-ec
+fc
 stackLimit
 parserAtoms
 handler

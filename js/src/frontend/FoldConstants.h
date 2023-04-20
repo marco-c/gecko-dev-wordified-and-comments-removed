@@ -59,7 +59,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -91,7 +91,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :

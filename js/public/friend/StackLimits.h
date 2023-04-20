@@ -127,7 +127,7 @@ IncWasiRecursionDepth
 (
 JSContext
 *
-ec
+cx
 )
 ;
 extern
@@ -138,7 +138,7 @@ DecWasiRecursionDepth
 (
 JSContext
 *
-ec
+cx
 )
 ;
 extern
@@ -149,7 +149,7 @@ CheckWasiRecursionLimit
 (
 JSContext
 *
-ec
+cx
 )
 ;
 extern
@@ -160,7 +160,7 @@ IncWasiRecursionDepth
 (
 FrontendContext
 *
-ec
+fc
 )
 ;
 extern
@@ -171,7 +171,7 @@ DecWasiRecursionDepth
 (
 FrontendContext
 *
-ec
+fc
 )
 ;
 extern
@@ -182,7 +182,7 @@ CheckWasiRecursionLimit
 (
 FrontendContext
 *
-ec
+fc
 )
 ;
 #
@@ -327,7 +327,7 @@ AutoCheckRecursionLimit
 (
 FrontendContext
 *
-ec
+fc
 )
 #
 ifdef
@@ -340,7 +340,7 @@ mozilla
 :
 AsVariant
 (
-ec
+fc
 )
 )
 #
@@ -418,7 +418,7 @@ else
 {
 FrontendContext
 *
-ec
+fc
 =
 context_
 .
@@ -432,7 +432,7 @@ FrontendContext
 ;
 IncWasiRecursionDepth
 (
-ec
+fc
 )
 ;
 }
@@ -480,7 +480,7 @@ else
 {
 FrontendContext
 *
-ec
+fc
 =
 context_
 .
@@ -494,7 +494,7 @@ FrontendContext
 ;
 DecWasiRecursionDepth
 (
-ec
+fc
 )
 ;
 }
@@ -551,7 +551,7 @@ else
 {
 FrontendContext
 *
-ec
+fc
 =
 context_
 .
@@ -568,7 +568,7 @@ if
 !
 CheckWasiRecursionLimit
 (
-ec
+fc
 )
 )
 {
@@ -629,7 +629,7 @@ check
 (
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -823,7 +823,7 @@ ReportOverRecursed
 (
 FrontendContext
 *
-ec
+fc
 )
 ;
 MOZ_ALWAYS_INLINE
@@ -1060,7 +1060,7 @@ check
 (
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -1083,7 +1083,7 @@ limit
 {
 ReportOverRecursed
 (
-ec
+fc
 )
 ;
 return

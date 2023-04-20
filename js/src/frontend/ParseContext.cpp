@@ -367,7 +367,7 @@ noteUse
 (
 FrontendContext
 *
-ec
+fc
 TaggedParserAtomIndex
 name
 NameVisibility
@@ -477,7 +477,7 @@ true
 UsedNameInfo
 info
 (
-ec
+fc
 visibility
 tokenPosition
 )
@@ -711,7 +711,7 @@ hasUnboundPrivateNames
 (
 FrontendContext
 *
-ec
+fc
 mozilla
 :
 :
@@ -740,7 +740,7 @@ UnboundPrivateName
 >
 unboundPrivateNames
 (
-ec
+fc
 )
 ;
 if
@@ -1150,7 +1150,7 @@ sc
 )
 -
 >
-ec_
+fc_
 )
 )
 {
@@ -1779,7 +1779,7 @@ innerFunctionIndexesForLazy
 sc
 -
 >
-ec_
+fc_
 )
 newDirectives
 (
@@ -1882,14 +1882,14 @@ false
 }
 FrontendContext
 *
-ec
+fc
 =
 sc
 (
 )
 -
 >
-ec_
+fc_
 ;
 if
 (
@@ -2007,7 +2007,7 @@ positionalFormalParameterNames_
 .
 acquire
 (
-ec
+fc
 )
 )
 {
@@ -2023,7 +2023,7 @@ closedOverBindingsForLazy_
 .
 acquire
 (
-ec
+fc
 )
 )
 {

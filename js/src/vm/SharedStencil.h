@@ -1934,7 +1934,7 @@ new_
 (
 FrontendContext
 *
-ec
+fc
 uint32_t
 mainOffset
 uint32_t
@@ -2008,7 +2008,7 @@ new_
 (
 FrontendContext
 *
-ec
+fc
 uint32_t
 codeLength
 uint32_t
@@ -2744,7 +2744,7 @@ create
 (
 FrontendContext
 *
-ec
+fc
 )
 ;
 public
@@ -2756,7 +2756,7 @@ createWith
 (
 FrontendContext
 *
-ec
+fc
 js
 :
 :
@@ -2830,7 +2830,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 RefPtr
 <
 SharedImmutableScriptData

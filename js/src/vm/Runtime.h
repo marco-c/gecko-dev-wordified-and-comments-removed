@@ -481,7 +481,7 @@ ReportAllocationOverflow
 (
 FrontendContext
 *
-ec
+fc
 )
 ;
 extern

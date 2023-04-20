@@ -228,7 +228,7 @@ StringBufferAllocPolicy
 (
 FrontendContext
 *
-ec
+fc
 const
 arena_id_t
 &
@@ -237,7 +237,7 @@ arenaId
 :
 impl_
 (
-ec
+fc
 )
 arenaId_
 (
@@ -546,7 +546,7 @@ cx_
 ;
 FrontendContext
 *
-ec_
+fc_
 ;
 const
 arena_id_t
@@ -828,7 +828,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 arena_id_t
 &
@@ -844,9 +844,9 @@ cx_
 (
 cx
 )
-ec_
+fc_
 (
-ec
+fc
 )
 arenaId_
 (
@@ -866,7 +866,7 @@ Latin1CharBuffer
 (
 StringBufferAllocPolicy
 {
-ec_
+fc_
 arenaId_
 }
 )
@@ -2083,7 +2083,7 @@ ParserAtomsTable
 parserAtoms
 FrontendContext
 *
-ec
+fc
 )
 ;
 char16_t
@@ -2101,7 +2101,7 @@ public
 StringBuffer
 {
 FrontendContext
-ec_
+fc_
 ;
 #
 ifdef
@@ -2127,14 +2127,14 @@ StringBuffer
 (
 cx
 &
-ec_
+fc_
 js
 :
 :
 StringBufferArena
 )
 {
-ec_
+fc_
 .
 setCurrentJSContext
 (
@@ -2167,7 +2167,7 @@ true
 ;
 #
 endif
-ec_
+fc_
 .
 convertToRuntimeError
 (

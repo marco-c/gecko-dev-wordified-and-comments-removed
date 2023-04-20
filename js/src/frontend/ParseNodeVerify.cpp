@@ -66,7 +66,7 @@ ParseNodeVerifier
 (
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -80,7 +80,7 @@ alloc
 :
 Base
 (
-ec
+fc
 stackLimit
 )
 alloc_
@@ -202,7 +202,7 @@ CheckParseTree
 (
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -220,7 +220,7 @@ pn
 ParseNodeVerifier
 verifier
 (
-ec
+fc
 stackLimit
 alloc
 )

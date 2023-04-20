@@ -108,7 +108,7 @@ cx
 ;
 FrontendContext
 *
-ec
+fc
 ;
 ParserAtomsTable
 &
@@ -128,7 +128,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 &
 parserAtoms
@@ -143,9 +143,9 @@ cx
 (
 cx
 )
-ec
+fc
 (
-ec
+fc
 )
 parserAtoms
 (
@@ -203,7 +203,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 &
 parserAtoms

@@ -187,7 +187,7 @@ acquire
 bce
 -
 >
-ec
+fc
 )
 ;
 }
@@ -477,7 +477,7 @@ ReportOutOfMemory
 bce
 -
 >
-ec
+fc
 )
 ;
 return
@@ -950,7 +950,7 @@ cx
 bce
 -
 >
-ec
+fc
 bce
 -
 >
@@ -1035,7 +1035,7 @@ loc
 bce
 -
 >
-ec
+fc
 -
 >
 recoverFromOutOfMemory
@@ -2158,7 +2158,7 @@ createForLexicalScope
 bce
 -
 >
-ec
+fc
 bce
 -
 >
@@ -2441,7 +2441,7 @@ createForClassBodyScope
 bce
 -
 >
-ec
+fc
 bce
 -
 >
@@ -2695,7 +2695,7 @@ createForLexicalScope
 bce
 -
 >
-ec
+fc
 bce
 -
 >
@@ -2959,7 +2959,7 @@ ReportOutOfMemory
 bce
 -
 >
-ec
+fc
 )
 ;
 return
@@ -3197,7 +3197,7 @@ createForFunctionScope
 bce
 -
 >
-ec
+fc
 bce
 -
 >
@@ -3532,7 +3532,7 @@ createForVarScope
 bce
 -
 >
-ec
+fc
 bce
 -
 >
@@ -3726,7 +3726,7 @@ createForGlobalScope
 bce
 -
 >
-ec
+fc
 bce
 -
 >
@@ -3979,7 +3979,7 @@ createForEvalScope
 bce
 -
 >
-ec
+fc
 bce
 -
 >
@@ -4472,7 +4472,7 @@ createForModuleScope
 bce
 -
 >
-ec
+fc
 bce
 -
 >
@@ -4578,7 +4578,7 @@ createForWithScope
 bce
 -
 >
-ec
+fc
 bce
 -
 >

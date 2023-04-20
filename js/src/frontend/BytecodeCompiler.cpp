@@ -315,7 +315,7 @@ cx_
 ;
 FrontendContext
 *
-ec_
+fc_
 ;
 bool
 check_
@@ -330,16 +330,16 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 :
 cx_
 (
 cx
 )
-ec_
+fc_
 (
-ec
+fc
 )
 check_
 (
@@ -411,7 +411,7 @@ isExceptionPending
 )
 |
 |
-ec_
+fc_
 -
 >
 hadErrors
@@ -424,7 +424,7 @@ else
 {
 MOZ_ASSERT
 (
-ec_
+fc_
 -
 >
 hadErrors
@@ -473,7 +473,7 @@ BytecodeEmitter
 emitter
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -562,7 +562,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -589,7 +589,7 @@ sourceBuffer
 compilationState_
 (
 cx
-ec
+fc
 parserAllocScope
 input
 )
@@ -624,7 +624,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ScopeBindingCache
 *
 scopeCache
@@ -650,7 +650,7 @@ compilationState_
 init
 (
 cx
-ec
+fc
 scopeCache
 inheritThis
 enclosingEnv
@@ -665,7 +665,7 @@ return
 createSourceAndParser
 (
 cx
-ec
+fc
 )
 ;
 }
@@ -682,7 +682,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 ;
 void
@@ -895,7 +895,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -918,7 +918,7 @@ sourceBuffer
 Base
 (
 cx
-ec
+fc
 stackLimit
 parserAllocScope
 input
@@ -973,7 +973,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -1047,7 +1047,7 @@ Smoosh
 tryCompileGlobalScriptToExtensibleStencil
 (
 cx
-ec
+fc
 stackLimit
 input
 srcBuf
@@ -1138,7 +1138,7 @@ source
 >
 assignSource
 (
-ec
+fc
 input
 .
 options
@@ -1160,7 +1160,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -1237,7 +1237,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -1287,7 +1287,7 @@ if
 TrySmoosh
 (
 cx
-ec
+fc
 stackLimit
 input
 srcBuf
@@ -1421,7 +1421,7 @@ CompilationStencil
 >
 stencil
 =
-ec
+fc
 -
 >
 getAllocator
@@ -1556,7 +1556,7 @@ input
 initForGlobal
 (
 cx
-ec
+fc
 )
 )
 {
@@ -1569,7 +1569,7 @@ AutoAssertReportedException
 assertException
 (
 cx
-ec
+fc
 )
 ;
 LifoAllocScope
@@ -1586,7 +1586,7 @@ Unit
 compiler
 (
 cx
-ec
+fc
 stackLimit
 parserAllocScope
 input
@@ -1601,7 +1601,7 @@ compiler
 init
 (
 cx
-ec
+fc
 scopeCache
 )
 )
@@ -1639,7 +1639,7 @@ GlobalSharedContext
 globalsc
 (
 cx
-ec
+fc
 scopeKind
 input
 .
@@ -1751,7 +1751,7 @@ ExtensibleCompilationStencil
 auto
 stencil
 =
-ec
+fc
 -
 >
 getAllocator
@@ -1857,7 +1857,7 @@ JS_Parsing
 auto
 extensibleStencil
 =
-ec
+fc
 -
 >
 getAllocator
@@ -1902,7 +1902,7 @@ CompilationStencil
 >
 stencil
 =
-ec
+fc
 -
 >
 getAllocator
@@ -2022,7 +2022,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -2077,7 +2077,7 @@ if
 CompileGlobalScriptToStencilAndMaybeInstantiate
 (
 cx
-ec
+fc
 stackLimit
 tempLifoAlloc
 input
@@ -2121,7 +2121,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -2156,7 +2156,7 @@ return
 CompileGlobalScriptToStencilImpl
 (
 cx
-ec
+fc
 stackLimit
 tempLifoAlloc
 input
@@ -2180,7 +2180,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -2215,7 +2215,7 @@ return
 CompileGlobalScriptToStencilImpl
 (
 cx
-ec
+fc
 stackLimit
 tempLifoAlloc
 input
@@ -2242,7 +2242,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -2291,7 +2291,7 @@ if
 CompileGlobalScriptToStencilAndMaybeInstantiate
 (
 cx
-ec
+fc
 stackLimit
 cx
 -
@@ -2342,7 +2342,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -2371,7 +2371,7 @@ return
 CompileGlobalScriptToExtensibleStencilImpl
 (
 cx
-ec
+fc
 stackLimit
 input
 scopeCache
@@ -2394,7 +2394,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -2423,7 +2423,7 @@ return
 CompileGlobalScriptToExtensibleStencilImpl
 (
 cx
-ec
+fc
 stackLimit
 input
 scopeCache
@@ -2568,7 +2568,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationInput
 &
 input
@@ -2617,7 +2617,7 @@ CompilationStencil
 :
 prepareForInstantiate
 (
-ec
+fc
 input
 .
 atomCache
@@ -2641,7 +2641,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -2708,7 +2708,7 @@ if
 CompileGlobalScriptToStencilAndMaybeInstantiate
 (
 cx
-ec
+fc
 stackLimit
 cx
 -
@@ -2755,7 +2755,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -2785,7 +2785,7 @@ return
 CompileGlobalScriptImpl
 (
 cx
-ec
+fc
 stackLimit
 options
 srcBuf
@@ -2805,7 +2805,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -2835,7 +2835,7 @@ return
 CompileGlobalScriptImpl
 (
 cx
-ec
+fc
 stackLimit
 options
 srcBuf
@@ -2907,7 +2907,7 @@ cx
 ;
 {
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -2917,7 +2917,7 @@ assertException
 (
 cx
 &
-ec
+fc
 )
 ;
 Rooted
@@ -2946,7 +2946,7 @@ initForEval
 (
 cx
 &
-ec
+fc
 enclosingScope
 )
 )
@@ -3002,7 +3002,7 @@ compiler
 (
 cx
 &
-ec
+fc
 stackLimit
 parserAllocScope
 input
@@ -3022,7 +3022,7 @@ init
 (
 cx
 &
-ec
+fc
 scopeCache
 InheritThis
 :
@@ -3067,7 +3067,7 @@ evalsc
 (
 cx
 &
-ec
+fc
 compiler
 .
 compilationState
@@ -3277,7 +3277,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -3300,7 +3300,7 @@ sourceBuffer
 Base
 (
 cx
-ec
+fc
 stackLimit
 parserAllocScope
 input
@@ -3333,7 +3333,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 ;
 }
@@ -3421,7 +3421,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -3444,7 +3444,7 @@ sourceBuffer
 Base
 (
 cx
-ec
+fc
 stackLimit
 parserAllocScope
 input
@@ -3537,7 +3537,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 {
 const
@@ -3553,7 +3553,7 @@ options
 ;
 errorContext
 =
-ec
+fc
 ;
 if
 (
@@ -3565,7 +3565,7 @@ source
 >
 assignSource
 (
-ec
+fc
 options
 sourceBuffer_
 )
@@ -3703,7 +3703,7 @@ BytecodeEmitter
 emitter
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -3745,7 +3745,7 @@ emitter
 .
 emplace
 (
-ec
+fc
 stackLimit
 parser
 sc
@@ -3957,7 +3957,7 @@ appendScriptStencilAndData
 sc
 -
 >
-ec_
+fc_
 )
 )
 {
@@ -4171,7 +4171,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 {
 MOZ_ASSERT
@@ -4198,7 +4198,7 @@ compilationState_
 .
 appendScriptStencilAndData
 (
-ec
+fc
 )
 )
 {
@@ -4210,7 +4210,7 @@ ModuleBuilder
 builder
 (
 cx
-ec
+fc
 parser
 .
 ptr
@@ -4262,7 +4262,7 @@ ModuleSharedContext
 modulesc
 (
 cx
-ec
+fc
 options
 builder
 extent
@@ -4740,7 +4740,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -4780,7 +4780,7 @@ input
 initForModule
 (
 cx
-ec
+fc
 )
 )
 {
@@ -4792,7 +4792,7 @@ AutoAssertReportedException
 assertException
 (
 cx
-ec
+fc
 )
 ;
 LifoAllocScope
@@ -4814,7 +4814,7 @@ Unit
 compiler
 (
 cx
-ec
+fc
 stackLimit
 parserAllocScope
 input
@@ -4829,7 +4829,7 @@ compiler
 init
 (
 cx
-ec
+fc
 scopeCache
 )
 )
@@ -4846,7 +4846,7 @@ compiler
 compile
 (
 cx
-ec
+fc
 )
 )
 {
@@ -4872,7 +4872,7 @@ ExtensibleCompilationStencil
 auto
 stencil
 =
-ec
+fc
 -
 >
 getAllocator
@@ -4978,7 +4978,7 @@ JS_Parsing
 auto
 extensibleStencil
 =
-ec
+fc
 -
 >
 getAllocator
@@ -5023,7 +5023,7 @@ CompilationStencil
 >
 stencil
 =
-ec
+fc
 -
 >
 getAllocator
@@ -5142,7 +5142,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -5186,7 +5186,7 @@ if
 ParseModuleToStencilAndMaybeInstantiate
 (
 cx
-ec
+fc
 stackLimit
 input
 scopeCache
@@ -5228,7 +5228,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -5252,7 +5252,7 @@ return
 ParseModuleToStencilImpl
 (
 cx
-ec
+fc
 stackLimit
 input
 scopeCache
@@ -5274,7 +5274,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -5298,7 +5298,7 @@ return
 ParseModuleToStencilImpl
 (
 cx
-ec
+fc
 stackLimit
 input
 scopeCache
@@ -5322,7 +5322,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -5366,7 +5366,7 @@ if
 ParseModuleToStencilAndMaybeInstantiate
 (
 cx
-ec
+fc
 stackLimit
 input
 scopeCache
@@ -5410,7 +5410,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -5434,7 +5434,7 @@ return
 ParseModuleToExtensibleStencilImpl
 (
 cx
-ec
+fc
 stackLimit
 input
 scopeCache
@@ -5456,7 +5456,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -5480,7 +5480,7 @@ return
 ParseModuleToExtensibleStencilImpl
 (
 cx
-ec
+fc
 stackLimit
 input
 scopeCache
@@ -5503,7 +5503,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -5528,7 +5528,7 @@ AutoAssertReportedException
 assertException
 (
 cx
-ec
+fc
 )
 ;
 CompileOptions
@@ -5585,7 +5585,7 @@ if
 ParseModuleToStencilAndMaybeInstantiate
 (
 cx
-ec
+fc
 stackLimit
 input
 .
@@ -5631,7 +5631,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -5656,7 +5656,7 @@ return
 CompileModuleImpl
 (
 cx
-ec
+fc
 stackLimit
 options
 srcBuf
@@ -5675,7 +5675,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -5700,7 +5700,7 @@ return
 CompileModuleImpl
 (
 cx
-ec
+fc
 stackLimit
 options
 srcBuf
@@ -5928,7 +5928,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationInput
 &
 input
@@ -6078,7 +6078,7 @@ ExtensibleCompilationStencil
 auto
 extensible
 =
-ec
+fc
 -
 >
 getAllocator
@@ -6115,7 +6115,7 @@ extensible
 >
 cloneFrom
 (
-ec
+fc
 *
 stencil
 )
@@ -6196,7 +6196,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -6230,7 +6230,7 @@ AutoAssertReportedException
 assertException
 (
 cx
-ec
+fc
 )
 ;
 if
@@ -6250,7 +6250,7 @@ res
 GetCachedLazyFunctionStencilMaybeInstantiate
 (
 cx
-ec
+fc
 input
 output
 )
@@ -6333,7 +6333,7 @@ CompilationState
 compilationState
 (
 cx
-ec
+fc
 parserAllocScope
 input
 )
@@ -6367,7 +6367,7 @@ compilationState
 init
 (
 cx
-ec
+fc
 scopeCache
 inheritThis
 )
@@ -6385,7 +6385,7 @@ Unit
 parser
 (
 cx
-ec
+fc
 stackLimit
 input
 .
@@ -6457,7 +6457,7 @@ false
 BytecodeEmitter
 bce
 (
-ec
+fc
 stackLimit
 &
 parser
@@ -6584,7 +6584,7 @@ res
 GetCachedLazyFunctionStencilMaybeInstantiate
 (
 cx
-ec
+fc
 input
 cached
 )
@@ -6785,7 +6785,7 @@ ExtensibleCompilationStencil
 auto
 stencil
 =
-ec
+fc
 -
 >
 getAllocator
@@ -6887,7 +6887,7 @@ JS_Parsing
 auto
 extensibleStencil
 =
-ec
+fc
 -
 >
 getAllocator
@@ -6928,7 +6928,7 @@ CompilationStencil
 >
 stencil
 =
-ec
+fc
 -
 >
 getAllocator
@@ -7030,7 +7030,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -7315,7 +7315,7 @@ return
 CompileLazyFunctionToStencilMaybeInstantiate
 (
 cx
-ec
+fc
 stackLimit
 input
 .
@@ -7344,7 +7344,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -7445,7 +7445,7 @@ Utf8Unit
 >
 (
 cx
-ec
+fc
 stackLimit
 scopeCache
 fun
@@ -7474,7 +7474,7 @@ char16_t
 >
 (
 cx
-ec
+fc
 stackLimit
 scopeCache
 fun
@@ -7500,7 +7500,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -7817,7 +7817,7 @@ if
 CompileLazyFunctionToStencilMaybeInstantiate
 (
 cx
-ec
+fc
 stackLimit
 input
 .
@@ -7868,7 +7868,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -7943,7 +7943,7 @@ Utf8Unit
 >
 (
 cx
-ec
+fc
 stackLimit
 scopeCache
 context
@@ -7971,7 +7971,7 @@ char16_t
 >
 (
 cx
-ec
+fc
 stackLimit
 scopeCache
 context
@@ -8041,7 +8041,7 @@ cx
 ;
 {
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -8051,7 +8051,7 @@ assertException
 (
 cx
 &
-ec
+fc
 )
 ;
 Rooted
@@ -8085,7 +8085,7 @@ initForStandaloneFunctionInNonSyntacticScope
 (
 cx
 &
-ec
+fc
 enclosingScope
 )
 )
@@ -8110,7 +8110,7 @@ initForStandaloneFunction
 (
 cx
 &
-ec
+fc
 )
 )
 {
@@ -8189,7 +8189,7 @@ compiler
 (
 cx
 &
-ec
+fc
 stackLimit
 parserAllocScope
 input
@@ -8209,7 +8209,7 @@ init
 (
 cx
 &
-ec
+fc
 scopeCache
 inheritThis
 )

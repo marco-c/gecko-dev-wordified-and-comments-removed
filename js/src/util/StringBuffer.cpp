@@ -296,7 +296,7 @@ twoByte
 (
 StringBufferAllocPolicy
 {
-ec_
+fc_
 arenaId_
 }
 )
@@ -808,7 +808,7 @@ ParserAtomsTable
 parserAtoms
 FrontendContext
 *
-ec
+fc
 )
 {
 size_t
@@ -855,7 +855,7 @@ parserAtoms
 .
 internLatin1
 (
-ec
+fc
 latin1Chars
 (
 )
@@ -885,7 +885,7 @@ parserAtoms
 .
 internChar16
 (
-ec
+fc
 twoByteChars
 (
 )

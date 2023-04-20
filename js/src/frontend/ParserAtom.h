@@ -1971,7 +1971,7 @@ allocate
 (
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -2180,7 +2180,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomIndex
 index
 CompilationAtomCache
@@ -2198,7 +2198,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomIndex
 index
 CompilationAtomCache
@@ -2216,7 +2216,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 AtomSet
 &
 atomSet
@@ -3114,7 +3114,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 ParserAtomSpan
 &
@@ -3132,7 +3132,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 AtomSet
 &
 atomSet
@@ -3311,7 +3311,7 @@ addEntry
 (
 FrontendContext
 *
-ec
+fc
 EntryMap
 :
 :
@@ -3335,7 +3335,7 @@ internChar16Seq
 (
 FrontendContext
 *
-ec
+fc
 EntryMap
 :
 :
@@ -3363,7 +3363,7 @@ internExternalParserAtomImpl
 (
 FrontendContext
 *
-ec
+fc
 const
 ParserAtom
 *
@@ -3377,7 +3377,7 @@ internAscii
 (
 FrontendContext
 *
-ec
+fc
 const
 char
 *
@@ -3391,7 +3391,7 @@ internLatin1
 (
 FrontendContext
 *
-ec
+fc
 const
 JS
 :
@@ -3408,7 +3408,7 @@ internUtf8
 (
 FrontendContext
 *
-ec
+fc
 const
 mozilla
 :
@@ -3425,7 +3425,7 @@ internChar16
 (
 FrontendContext
 *
-ec
+fc
 const
 char16_t
 *
@@ -3442,7 +3442,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationAtomCache
 &
 atomCache
@@ -3456,7 +3456,7 @@ internExternalParserAtom
 (
 FrontendContext
 *
-ec
+fc
 const
 ParserAtom
 *
@@ -3468,7 +3468,7 @@ internExternalParserAtomIndex
 (
 FrontendContext
 *
-ec
+fc
 const
 CompilationStencil
 &
@@ -3496,7 +3496,7 @@ addPlaceholder
 (
 FrontendContext
 *
-ec
+fc
 )
 ;
 private
@@ -3677,7 +3677,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 TaggedParserAtomIndex
 index
 CompilationAtomCache
@@ -3969,7 +3969,7 @@ allocate
 (
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc

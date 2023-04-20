@@ -79,7 +79,7 @@ js
 :
 :
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -92,7 +92,7 @@ buffer
 (
 cx
 &
-ec
+fc
 )
 ;
 CHECK

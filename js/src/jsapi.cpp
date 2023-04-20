@@ -18342,7 +18342,7 @@ space
 )
 ;
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -18352,7 +18352,7 @@ sb
 (
 cx
 &
-ec
+fc
 )
 ;
 if
@@ -18476,7 +18476,7 @@ input
 )
 ;
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -18486,7 +18486,7 @@ sb
 (
 cx
 &
-ec
+fc
 )
 ;
 if
@@ -19372,7 +19372,7 @@ reportp
 )
 ;
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -19382,7 +19382,7 @@ ok
 ExpandErrorArgumentsVA
 (
 &
-ec
+fc
 errorCallback
 nullptr
 errorNumber
@@ -20200,7 +20200,7 @@ CreateErrorNoteVA
 (
 FrontendContext
 *
-ec
+fc
 const
 char
 *
@@ -20246,7 +20246,7 @@ note
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -20293,7 +20293,7 @@ if
 !
 ExpandErrorArgumentsVA
 (
-ec
+fc
 errorCallback
 userRef
 errorNumber
@@ -20324,7 +20324,7 @@ addNoteVA
 (
 FrontendContext
 *
-ec
+fc
 const
 char
 *
@@ -20354,7 +20354,7 @@ note
 =
 CreateErrorNoteVA
 (
-ec
+fc
 filename
 sourceId
 lineno
@@ -20395,7 +20395,7 @@ note
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -20439,7 +20439,7 @@ errorNumber
 )
 {
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -20459,7 +20459,7 @@ ok
 addNoteVA
 (
 &
-ec
+fc
 filename
 sourceId
 lineno
@@ -20488,7 +20488,7 @@ addNoteASCII
 (
 FrontendContext
 *
-ec
+fc
 const
 char
 *
@@ -20526,7 +20526,7 @@ ok
 =
 addNoteVA
 (
-ec
+fc
 filename
 sourceId
 lineno
@@ -20580,7 +20580,7 @@ errorNumber
 )
 {
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -20600,7 +20600,7 @@ ok
 addNoteVA
 (
 &
-ec
+fc
 filename
 sourceId
 lineno
@@ -20629,7 +20629,7 @@ addNoteLatin1
 (
 FrontendContext
 *
-ec
+fc
 const
 char
 *
@@ -20667,7 +20667,7 @@ ok
 =
 addNoteVA
 (
-ec
+fc
 filename
 sourceId
 lineno
@@ -20721,7 +20721,7 @@ errorNumber
 )
 {
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -20741,7 +20741,7 @@ ok
 addNoteVA
 (
 &
-ec
+fc
 filename
 sourceId
 lineno
@@ -20770,7 +20770,7 @@ addNoteUTF8
 (
 FrontendContext
 *
-ec
+fc
 const
 char
 *
@@ -20808,7 +20808,7 @@ ok
 =
 addNoteVA
 (
-ec
+fc
 filename
 sourceId
 lineno

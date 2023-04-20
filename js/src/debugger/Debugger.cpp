@@ -31189,7 +31189,7 @@ result
 true
 ;
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 AutoReportFrontendContext
@@ -31239,7 +31239,7 @@ initForGlobal
 (
 cx
 &
-ec
+fc
 )
 )
 {
@@ -31273,7 +31273,7 @@ compilationState
 (
 cx
 &
-ec
+fc
 allocScope
 input
 .
@@ -31291,7 +31291,7 @@ init
 (
 cx
 &
-ec
+fc
 &
 scopeCache
 )
@@ -31316,7 +31316,7 @@ parser
 (
 cx
 &
-ec
+fc
 cx
 -
 >
@@ -31355,7 +31355,7 @@ parse
 {
 if
 (
-ec
+fc
 .
 hadOutOfMemory
 (
@@ -31380,7 +31380,7 @@ result
 false
 ;
 }
-ec
+fc
 .
 clearAutoReport
 (

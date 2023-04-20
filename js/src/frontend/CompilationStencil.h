@@ -1905,7 +1905,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 &
 parserAtoms
@@ -1922,7 +1922,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 &
 parserAtoms
@@ -2168,7 +2168,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationInput
 &
 input
@@ -2206,7 +2206,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationInput
 &
 input
@@ -2283,7 +2283,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationInput
 &
 input
@@ -2302,7 +2302,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationInput
 &
 input
@@ -2332,7 +2332,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationInput
 &
 input
@@ -2356,7 +2356,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationInput
 &
 input
@@ -2373,7 +2373,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 &
 parserAtoms
@@ -2491,7 +2491,7 @@ setAtomAt
 (
 FrontendContext
 *
-ec
+fc
 ParserAtomIndex
 index
 JSString
@@ -2504,7 +2504,7 @@ allocate
 (
 FrontendContext
 *
-ec
+fc
 size_t
 length
 )
@@ -2658,7 +2658,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 ;
 public
@@ -2671,7 +2671,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 {
 target
@@ -2685,7 +2685,7 @@ return
 initScriptSource
 (
 cx
-ec
+fc
 )
 ;
 }
@@ -2705,7 +2705,7 @@ CompilationTarget
 SelfHosting
 ;
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -2715,7 +2715,7 @@ initScriptSource
 (
 cx
 &
-ec
+fc
 )
 ;
 }
@@ -2727,7 +2727,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 {
 target
@@ -2743,7 +2743,7 @@ if
 initScriptSource
 (
 cx
-ec
+fc
 )
 )
 {
@@ -2781,7 +2781,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 Handle
 <
 Scope
@@ -2798,7 +2798,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 Handle
 <
 Scope
@@ -2820,7 +2820,7 @@ if
 initScriptSource
 (
 cx
-ec
+fc
 )
 )
 {
@@ -2847,7 +2847,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 {
 target
@@ -2863,7 +2863,7 @@ if
 initScriptSource
 (
 cx
-ec
+fc
 )
 )
 {
@@ -3458,7 +3458,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -3527,7 +3527,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 &
 parseAtoms
@@ -3553,7 +3553,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -3581,7 +3581,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -3610,7 +3610,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -3638,7 +3638,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 LifoAlloc
 &
 alloc
@@ -3952,7 +3952,7 @@ initVector
 (
 FrontendContext
 *
-ec
+fc
 )
 ;
 [
@@ -3965,7 +3965,7 @@ initMap
 (
 FrontendContext
 *
-ec
+fc
 )
 ;
 private
@@ -3980,7 +3980,7 @@ convertFromSingleToMap
 (
 FrontendContext
 *
-ec
+fc
 )
 ;
 public
@@ -4281,7 +4281,7 @@ prepareStorageFor
 (
 FrontendContext
 *
-ec
+fc
 size_t
 nonLazyScriptCount
 size_t
@@ -4298,7 +4298,7 @@ cloneFrom
 (
 FrontendContext
 *
-ec
+fc
 const
 SharedDataContainer
 &
@@ -4330,7 +4330,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ScriptIndex
 index
 js
@@ -4351,7 +4351,7 @@ addExtraWithoutShare
 (
 FrontendContext
 *
-ec
+fc
 ScriptIndex
 index
 js
@@ -4769,7 +4769,7 @@ prepareForInstantiate
 (
 FrontendContext
 *
-ec
+fc
 CompilationAtomCache
 &
 atomCache
@@ -4929,7 +4929,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationInput
 &
 input
@@ -5847,7 +5847,7 @@ steal
 (
 FrontendContext
 *
-ec
+fc
 RefPtr
 <
 CompilationStencil
@@ -5867,7 +5867,7 @@ cloneFrom
 (
 FrontendContext
 *
-ec
+fc
 const
 CompilationStencil
 &
@@ -5884,7 +5884,7 @@ cloneFrom
 (
 FrontendContext
 *
-ec
+fc
 const
 ExtensibleCompilationStencil
 &
@@ -5908,7 +5908,7 @@ cloneFromImpl
 (
 FrontendContext
 *
-ec
+fc
 const
 Stencil
 &
@@ -6074,7 +6074,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 LifoAllocScope
 &
 parserAllocScope
@@ -6091,7 +6091,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ScopeBindingCache
 *
 scopeCache
@@ -6117,7 +6117,7 @@ scopeContext
 init
 (
 cx
-ec
+fc
 input
 parserAtoms
 scopeCache
@@ -6164,7 +6164,7 @@ previousParseCache
 init
 (
 cx
-ec
+fc
 alloc
 parserAtoms
 atomCache
@@ -6201,7 +6201,7 @@ prepareSharedDataStorage
 (
 FrontendContext
 *
-ec
+fc
 )
 ;
 CompilationStatePosition
@@ -6235,7 +6235,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ScriptIndex
 scriptIndex
 size_t
@@ -6251,7 +6251,7 @@ appendScriptStencilAndData
 (
 FrontendContext
 *
-ec
+fc
 )
 ;
 bool
@@ -6259,7 +6259,7 @@ appendGCThings
 (
 FrontendContext
 *
-ec
+fc
 ScriptIndex
 scriptIndex
 mozilla
@@ -6697,7 +6697,7 @@ ensureReserved
 (
 FrontendContext
 *
-ec
+fc
 size_t
 scriptDataLength
 size_t
@@ -6717,7 +6717,7 @@ scriptDataLength
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -6737,7 +6737,7 @@ scopeDataLength
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -6758,7 +6758,7 @@ ensureReservedWithBaseIndex
 (
 FrontendContext
 *
-ec
+fc
 ScriptIndex
 scriptStart
 ScriptIndex
@@ -6786,7 +6786,7 @@ scopeStart
 return
 ensureReserved
 (
-ec
+fc
 scriptLimit
 -
 scriptStart
@@ -7375,7 +7375,7 @@ buildFunctionKeyToIndex
 (
 FrontendContext
 *
-ec
+fc
 )
 ;
 ScriptIndex
@@ -7411,7 +7411,7 @@ buildAtomIndexMap
 (
 FrontendContext
 *
-ec
+fc
 const
 CompilationStencil
 &
@@ -7439,7 +7439,7 @@ setInitial
 (
 FrontendContext
 *
-ec
+fc
 UniquePtr
 <
 ExtensibleCompilationStencil
@@ -7459,7 +7459,7 @@ addDelazification
 (
 FrontendContext
 *
-ec
+fc
 const
 CompilationStencil
 &

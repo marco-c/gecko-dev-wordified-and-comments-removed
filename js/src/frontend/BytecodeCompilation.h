@@ -127,7 +127,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -170,7 +170,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -216,7 +216,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -253,7 +253,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -295,7 +295,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationInput
 &
 input
@@ -342,7 +342,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -378,7 +378,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -463,7 +463,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -492,7 +492,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :

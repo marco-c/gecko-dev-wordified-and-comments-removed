@@ -383,7 +383,7 @@ nullptr
 FrontendContext
 *
 const
-ec
+fc
 =
 nullptr
 ;
@@ -688,7 +688,7 @@ BytecodeEmitter
 parent
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -731,7 +731,7 @@ BytecodeEmitter
 (
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -762,7 +762,7 @@ BytecodeEmitter
 (
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -789,7 +789,7 @@ Normal
 :
 BytecodeEmitter
 (
-ec
+fc
 stackLimit
 EitherParser
 (
@@ -1131,7 +1131,7 @@ index
 {
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return

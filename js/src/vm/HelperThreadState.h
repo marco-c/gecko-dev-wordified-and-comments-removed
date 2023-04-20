@@ -2119,7 +2119,7 @@ CompilationGCOutput
 gcOutput_
 ;
 FrontendContext
-ec_
+fc_
 ;
 ParseTask
 (
@@ -2195,7 +2195,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 )
 =
 0
@@ -2372,7 +2372,7 @@ add
 (
 FrontendContext
 *
-ec
+fc
 const
 frontend
 :
@@ -2590,7 +2590,7 @@ CompilationStencilMerger
 merger
 ;
 FrontendContext
-ec_
+fc_
 ;
 static
 UniquePtr

@@ -4967,7 +4967,7 @@ NonSyntactic
 )
 ;
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -4981,7 +4981,7 @@ CompileGlobalScript
 (
 cx
 &
-ec
+fc
 cx
 -
 >

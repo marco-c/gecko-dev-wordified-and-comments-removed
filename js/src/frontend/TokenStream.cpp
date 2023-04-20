@@ -1859,7 +1859,7 @@ SourceCoords
 (
 FrontendContext
 *
-ec
+fc
 uint32_t
 initialLineNumber
 uint32_t
@@ -1868,7 +1868,7 @@ initialOffset
 :
 lineStartOffsets_
 (
-ec
+fc
 )
 initialLineNum_
 (
@@ -2463,7 +2463,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 const
 ReadOnlyCompileOptions
 &
@@ -2477,9 +2477,9 @@ cx
 (
 cx
 )
-ec
+fc
 (
-ec
+fc
 )
 options_
 (
@@ -2499,11 +2499,11 @@ filename
 )
 longLineColumnInfo_
 (
-ec
+fc
 )
 srcCoords
 (
-ec
+fc
 options
 .
 lineno
@@ -2623,7 +2623,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 *
 parserAtoms
@@ -2640,7 +2640,7 @@ startOffset
 TokenStreamCharsShared
 (
 cx
-ec
+fc
 parserAtoms
 )
 sourceUnits
@@ -2973,7 +2973,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ParserAtomsTable
 *
 parserAtoms
@@ -2996,7 +2996,7 @@ AnyCharsAccess
 >
 (
 cx
-ec
+fc
 parserAtoms
 units
 length
@@ -3099,7 +3099,7 @@ metadata
 ;
 ReportCompileErrorLatin1
 (
-ec
+fc
 std
 :
 :
@@ -4214,12 +4214,12 @@ Vector
 ChunkInfo
 >
 (
-ec
+fc
 )
 )
 )
 {
-ec
+fc
 -
 >
 recoverFromOutOfMemory
@@ -4542,7 +4542,7 @@ chunkIndex
 )
 )
 {
-ec
+fc
 -
 >
 recoverFromOutOfMemory
@@ -5111,7 +5111,7 @@ ReportOutOfMemory
 (
 anyChars
 .
-ec
+fc
 )
 ;
 break
@@ -5226,7 +5226,7 @@ addNoteASCII
 (
 anyChars
 .
-ec
+fc
 anyChars
 .
 getFilename
@@ -5249,7 +5249,7 @@ ReportCompileErrorLatin1
 (
 anyChars
 .
-ec
+fc
 std
 :
 :
@@ -8378,7 +8378,7 @@ true
 CharBuffer
 lineOfContext
 (
-ec
+fc
 )
 ;
 const
@@ -8838,7 +8838,7 @@ anyCharsAccess
 (
 )
 .
-ec
+fc
 )
 ;
 return
@@ -9769,7 +9769,7 @@ length
 *
 destination
 =
-ec
+fc
 -
 >
 getAllocator

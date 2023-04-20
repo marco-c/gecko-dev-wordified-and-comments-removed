@@ -15071,7 +15071,7 @@ decodeOk
 false
 ;
 AutoPrintSelfHostingFrontendContext
-ec
+fc
 (
 cx
 )
@@ -15200,7 +15200,7 @@ deserializeStencils
 (
 cx
 &
-ec
+fc
 *
 input
 xdrCache
@@ -15425,7 +15425,7 @@ CompileGlobalScriptToStencil
 (
 cx
 &
-ec
+fc
 cx
 -
 >
@@ -15967,7 +15967,7 @@ cx
 ;
 {
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -15982,7 +15982,7 @@ initFromOptions
 (
 cx
 &
-ec
+fc
 options
 )
 )

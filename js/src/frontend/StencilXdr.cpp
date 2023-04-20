@@ -266,7 +266,7 @@ ReportOutOfMemory
 xdr
 -
 >
-ec
+fc
 (
 )
 )
@@ -379,7 +379,7 @@ ReportOutOfMemory
 xdr
 -
 >
-ec
+fc
 (
 )
 )
@@ -687,7 +687,7 @@ ReportOutOfMemory
 xdr
 -
 >
-ec
+fc
 (
 )
 )
@@ -961,7 +961,7 @@ ReportOutOfMemory
 xdr
 -
 >
-ec
+fc
 (
 )
 )
@@ -1659,7 +1659,7 @@ ReportOutOfMemory
 xdr
 -
 >
-ec
+fc
 (
 )
 )
@@ -2035,7 +2035,7 @@ create
 xdr
 -
 >
-ec
+fc
 (
 )
 )
@@ -2269,7 +2269,7 @@ cx
 xdr
 -
 >
-ec
+fc
 (
 )
 sisd
@@ -2575,7 +2575,7 @@ initVector
 xdr
 -
 >
-ec
+fc
 (
 )
 )
@@ -2668,7 +2668,7 @@ initMap
 xdr
 -
 >
-ec
+fc
 (
 )
 )
@@ -2761,7 +2761,7 @@ ReportOutOfMemory
 xdr
 -
 >
-ec
+fc
 (
 )
 )
@@ -2944,7 +2944,7 @@ ReportOutOfMemory
 xdr
 -
 >
-ec
+fc
 (
 )
 )
@@ -3227,7 +3227,7 @@ ReportOutOfMemory
 xdr
 -
 >
-ec
+fc
 (
 )
 )
@@ -3508,7 +3508,7 @@ allocate
 xdr
 -
 >
-ec
+fc
 (
 )
 alloc
@@ -7307,12 +7307,12 @@ cx
 ;
 FrontendContext
 *
-ec
+fc
 =
 xdr
 -
 >
-ec
+fc
 (
 )
 ;
@@ -7328,7 +7328,7 @@ source
 =
 do_AddRef
 (
-ec
+fc
 -
 >
 getAllocator
@@ -7561,7 +7561,7 @@ source
 >
 setFilename
 (
-ec
+fc
 std
 :
 :
@@ -7664,7 +7664,7 @@ source
 setDisplayURL
 (
 cx
-ec
+fc
 std
 :
 :
@@ -7766,7 +7766,7 @@ source
 >
 setSourceMapURL
 (
-ec
+fc
 std
 :
 :
@@ -7898,7 +7898,7 @@ source
 setIntroducerFilename
 (
 cx
-ec
+fc
 maybeOptions
 -
 >
@@ -8180,7 +8180,7 @@ ReportOutOfMemory
 xdr
 -
 >
-ec
+fc
 (
 )
 )
@@ -8326,7 +8326,7 @@ ReportOutOfMemory
 xdr
 -
 >
-ec
+fc
 (
 )
 )
@@ -8512,7 +8512,7 @@ validateResultCode
 cx
 (
 )
-ec
+fc
 (
 )
 resultCode
@@ -8663,14 +8663,14 @@ initial
 )
 {
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
 ;
 merger_
 =
-ec
+fc
 .
 getAllocator
 (
@@ -8704,7 +8704,7 @@ merger_
 setInitial
 (
 &
-ec
+fc
 std
 :
 :
@@ -8743,7 +8743,7 @@ delazification
 )
 {
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -8755,7 +8755,7 @@ merger_
 addDelazification
 (
 &
-ec
+fc
 delazification
 )
 ;
@@ -8803,7 +8803,7 @@ validateResultCode
 cx
 (
 )
-ec
+fc
 (
 )
 resultCode

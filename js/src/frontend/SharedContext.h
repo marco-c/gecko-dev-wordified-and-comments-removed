@@ -539,7 +539,7 @@ cx_
 FrontendContext
 *
 const
-ec_
+fc_
 ;
 protected
 :
@@ -705,7 +705,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 Kind
 kind
 const
@@ -1182,7 +1182,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 ScopeKind
 scopeKind
 const
@@ -1261,7 +1261,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 CompilationState
 &
 compilationState
@@ -1322,7 +1322,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 Kind
 kind
 const
@@ -1604,7 +1604,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 SourceExtent
 extent
 CompilationState

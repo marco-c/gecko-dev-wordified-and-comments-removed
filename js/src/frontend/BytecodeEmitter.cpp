@@ -868,7 +868,7 @@ BytecodeEmitter
 parent
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -899,9 +899,9 @@ sc
 >
 cx_
 )
-ec
+fc
 (
-ec
+fc
 )
 stackLimit
 (
@@ -913,7 +913,7 @@ parent
 )
 bytecodeSection_
 (
-ec
+fc
 sc
 -
 >
@@ -933,7 +933,7 @@ column
 )
 perScriptData_
 (
-ec
+fc
 cx
 -
 >
@@ -978,13 +978,13 @@ stackLimit
 MOZ_ASSERT_IF
 (
 parent
-ec
+fc
 =
 =
 parent
 -
 >
-ec
+fc
 )
 ;
 }
@@ -1007,7 +1007,7 @@ parent
 parent
 -
 >
-ec
+fc
 parent
 -
 >
@@ -1035,7 +1035,7 @@ BytecodeEmitter
 (
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -1058,7 +1058,7 @@ emitterMode
 BytecodeEmitter
 (
 nullptr
-ec
+fc
 stackLimit
 sc
 parser
@@ -1124,7 +1124,7 @@ compilationState
 .
 prepareSharedDataStorage
 (
-ec
+fc
 )
 )
 {
@@ -1138,7 +1138,7 @@ perScriptData_
 .
 init
 (
-ec
+fc
 )
 ;
 }
@@ -1551,7 +1551,7 @@ MaxBytecodeLength
 {
 ReportAllocationOverflow
 (
-ec
+fc
 )
 ;
 return
@@ -4544,7 +4544,7 @@ answer
 AutoCheckRecursionLimit
 recursion
 (
-ec
+fc
 )
 ;
 if
@@ -4554,7 +4554,7 @@ recursion
 .
 check
 (
-ec
+fc
 stackLimit
 )
 )
@@ -7696,7 +7696,7 @@ writer
 .
 checkForDuplicatedNames
 (
-ec
+fc
 )
 )
 {
@@ -7744,7 +7744,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -7794,7 +7794,7 @@ IndexLimit
 {
 ReportAllocationOverflow
 (
-ec
+fc
 )
 ;
 return
@@ -7835,7 +7835,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -7910,7 +7910,7 @@ writer
 .
 propWithUndefinedValue
 (
-ec
+fc
 )
 )
 {
@@ -7943,7 +7943,7 @@ writer
 .
 propWithUndefinedValue
 (
-ec
+fc
 )
 )
 {
@@ -12815,7 +12815,7 @@ if
 NameFunctions
 (
 cx
-ec
+fc
 stackLimit
 parserAtoms
 (
@@ -12904,7 +12904,7 @@ ImmutableScriptData
 :
 new_
 (
-ec
+fc
 mainOffset
 (
 )
@@ -13197,7 +13197,7 @@ if
 NameFunctions
 (
 cx
-ec
+fc
 stackLimit
 parserAtoms
 (
@@ -34387,7 +34387,7 @@ oe
 AutoCheckRecursionLimit
 recursion
 (
-ec
+fc
 )
 ;
 if
@@ -34397,7 +34397,7 @@ recursion
 .
 check
 (
-ec
+fc
 stackLimit
 )
 )
@@ -37615,7 +37615,7 @@ valueUsage
 AutoCheckRecursionLimit
 recursion
 (
-ec
+fc
 )
 ;
 if
@@ -37625,7 +37625,7 @@ recursion
 .
 check
 (
-ec
+fc
 stackLimit
 )
 )
@@ -40843,7 +40843,7 @@ NumericLiteral
 .
 toAtom
 (
-ec
+fc
 parserAtoms
 (
 )
@@ -40995,7 +40995,7 @@ NumericLiteral
 .
 toAtom
 (
-ec
+fc
 parserAtoms
 (
 )
@@ -42300,7 +42300,7 @@ js
 :
 ReportOutOfMemory
 (
-ec
+fc
 )
 ;
 return
@@ -42475,7 +42475,7 @@ writer
 .
 propWithUndefinedValue
 (
-ec
+fc
 )
 )
 {
@@ -42715,7 +42715,7 @@ writer
 .
 propWithUndefinedValue
 (
-ec
+fc
 )
 )
 {
@@ -43063,7 +43063,7 @@ writer
 .
 propWithConstNumericValue
 (
-ec
+fc
 v
 )
 )
@@ -43095,7 +43095,7 @@ writer
 .
 propWithTrueValue
 (
-ec
+fc
 )
 )
 {
@@ -43126,7 +43126,7 @@ writer
 .
 propWithFalseValue
 (
-ec
+fc
 )
 )
 {
@@ -43157,7 +43157,7 @@ writer
 .
 propWithNullValue
 (
-ec
+fc
 )
 )
 {
@@ -43188,7 +43188,7 @@ writer
 .
 propWithUndefinedValue
 (
-ec
+fc
 )
 )
 {
@@ -43231,7 +43231,7 @@ writer
 .
 propWithAtomValue
 (
-ec
+fc
 parserAtoms
 (
 )
@@ -43883,7 +43883,7 @@ memberInitializers
 {
 ReportAllocationOverflow
 (
-ec
+fc
 )
 ;
 return
@@ -44272,7 +44272,7 @@ StringBuffer
 storedMethodName
 (
 cx
-ec
+fc
 )
 ;
 if
@@ -44334,7 +44334,7 @@ finishParserAtom
 parserAtoms
 (
 )
-ec
+fc
 )
 ;
 if
@@ -50098,7 +50098,7 @@ emitLineNote
 AutoCheckRecursionLimit
 recursion
 (
-ec
+fc
 )
 ;
 if
@@ -50108,7 +50108,7 @@ recursion
 .
 check
 (
-ec
+fc
 stackLimit
 )
 )
@@ -53279,7 +53279,7 @@ AllocSrcNote
 (
 FrontendContext
 *
-ec
+fc
 SrcNotesVector
 &
 notes
@@ -53313,7 +53313,7 @@ MaxSrcNotesLength
 {
 ReportAllocationOverflow
 (
-ec
+fc
 )
 ;
 return
@@ -53492,7 +53492,7 @@ if
 !
 AllocSrcNote
 (
-ec
+fc
 notes
 size
 &
@@ -53675,7 +53675,7 @@ if
 !
 AllocSrcNote
 (
-ec
+fc
 notes
 size
 &
@@ -53782,7 +53782,7 @@ compilationState
 .
 appendGCThings
 (
-ec
+fc
 scriptIndex
 things
 )
@@ -53801,7 +53801,7 @@ SharedImmutableScriptData
 :
 createWith
 (
-ec
+fc
 std
 :
 :
@@ -53831,7 +53831,7 @@ sharedData
 addAndShare
 (
 cx
-ec
+fc
 scriptIndex
 sharedData
 )

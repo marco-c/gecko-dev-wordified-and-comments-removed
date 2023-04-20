@@ -1037,7 +1037,7 @@ buf_
 finishParserAtom
 (
 parserAtoms_
-ec_
+fc_
 )
 ;
 return
@@ -1662,7 +1662,7 @@ buf_
 finishParserAtom
 (
 parserAtoms_
-ec_
+fc_
 )
 ;
 if
@@ -2411,7 +2411,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -2424,7 +2424,7 @@ parserAtoms
 :
 ParseNodeVisitor
 (
-ec
+fc
 stackLimit
 )
 cx_
@@ -2442,7 +2442,7 @@ nparents_
 buf_
 (
 cx
-ec
+fc
 )
 {
 }
@@ -2575,7 +2575,7 @@ JSContext
 cx
 FrontendContext
 *
-ec
+fc
 JS
 :
 :
@@ -2593,7 +2593,7 @@ NameResolver
 nr
 (
 cx
-ec
+fc
 stackLimit
 parserAtoms
 )

@@ -536,7 +536,7 @@ cx
 ;
 {
 AutoReportFrontendContext
-ec
+fc
 (
 cx
 )
@@ -550,7 +550,7 @@ CompileModule
 (
 cx
 &
-ec
+fc
 cx
 -
 >
