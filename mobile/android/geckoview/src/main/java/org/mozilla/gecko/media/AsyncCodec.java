@@ -198,6 +198,13 @@ index
 ;
 public
 abstract
+MediaFormat
+getInputFormat
+(
+)
+;
+public
+abstract
 ByteBuffer
 getOutputBuffer
 (

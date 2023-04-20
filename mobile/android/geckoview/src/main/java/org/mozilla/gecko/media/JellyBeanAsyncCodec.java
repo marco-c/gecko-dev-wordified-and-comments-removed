@@ -2006,6 +2006,17 @@ index
 }
 Override
 public
+MediaFormat
+getInputFormat
+(
+)
+{
+return
+null
+;
+}
+Override
+public
 void
 flush
 (

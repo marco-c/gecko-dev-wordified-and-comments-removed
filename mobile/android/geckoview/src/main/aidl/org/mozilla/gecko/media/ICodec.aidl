@@ -151,7 +151,7 @@ callbacks
 boolean
 configure
 (
-in
+inout
 FormatParam
 format
 in
