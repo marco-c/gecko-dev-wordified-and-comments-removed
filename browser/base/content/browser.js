@@ -15698,7 +15698,7 @@ _createNullPrincipalFromTabUserContextId
 ;
 browsingContext
 .
-loadURI
+fixupAndLoadURIString
 (
 blockedInfo
 .
@@ -16076,7 +16076,7 @@ browsingContext
 .
 top
 .
-loadURI
+fixupAndLoadURIString
 (
 getDefaultHomePage
 (
