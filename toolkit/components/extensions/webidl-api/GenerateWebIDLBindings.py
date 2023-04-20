@@ -297,11 +297,20 @@ any
 def
 run_diff
 (
+    
 diff_cmd
+    
 left_name
+    
 left_text
+    
 right_name
+    
 right_text
+    
+always_return_diff_output
+=
+True
 )
 :
     
@@ -525,6 +534,8 @@ utf
 )
     
 if
+always_return_diff_output
+and
 len
 (
 diff_output
@@ -5008,6 +5019,10 @@ indent
 =
 True
 )
+            
+always_return_diff_output
+=
+False
         
 )
         
@@ -5059,6 +5074,7 @@ api_path_string
 print
 (
 "
+diff
 \
 n
 %
