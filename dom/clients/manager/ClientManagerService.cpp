@@ -1861,6 +1861,9 @@ ClientManagerService
 :
 Navigate
 (
+ThreadsafeContentParentHandle
+*
+aOriginContent
 const
 ClientNavigateArgs
 &
@@ -2486,6 +2489,9 @@ ClientManagerService
 :
 MatchAll
 (
+ThreadsafeContentParentHandle
+*
+aOriginContent
 const
 ClientMatchAllArgs
 &
@@ -3036,6 +3042,9 @@ ClientManagerService
 :
 Claim
 (
+ThreadsafeContentParentHandle
+*
+aOriginContent
 const
 ClientClaimArgs
 &
@@ -3321,6 +3330,9 @@ ClientManagerService
 :
 GetInfoAndState
 (
+ThreadsafeContentParentHandle
+*
+aOriginContent
 const
 ClientGetInfoAndStateArgs
 &
@@ -3513,6 +3525,9 @@ ClientManagerService
 :
 OpenWindow
 (
+ThreadsafeContentParentHandle
+*
+aOriginContent
 const
 ClientOpenWindowArgs
 &
@@ -3527,6 +3542,12 @@ GetMainThreadSerialEventTarget
 )
 __func__
 [
+originContent
+=
+RefPtr
+{
+aOriginContent
+}
 aArgs
 ]
 (
@@ -3535,6 +3556,7 @@ aArgs
 return
 ClientOpenWindow
 (
+originContent
 aArgs
 )
 ;

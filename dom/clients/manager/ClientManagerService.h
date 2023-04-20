@@ -150,6 +150,9 @@ class
 ClientHandleParent
 ;
 class
+ThreadsafeContentParentHandle
+;
+class
 ClientManagerService
 final
 {
@@ -470,6 +473,9 @@ ClientOpPromise
 >
 Navigate
 (
+ThreadsafeContentParentHandle
+*
+aOriginContent
 const
 ClientNavigateArgs
 &
@@ -482,6 +488,9 @@ ClientOpPromise
 >
 MatchAll
 (
+ThreadsafeContentParentHandle
+*
+aOriginContent
 const
 ClientMatchAllArgs
 &
@@ -494,6 +503,9 @@ ClientOpPromise
 >
 Claim
 (
+ThreadsafeContentParentHandle
+*
+aOriginContent
 const
 ClientClaimArgs
 &
@@ -506,6 +518,9 @@ ClientOpPromise
 >
 GetInfoAndState
 (
+ThreadsafeContentParentHandle
+*
+aOriginContent
 const
 ClientGetInfoAndStateArgs
 &
@@ -518,6 +533,9 @@ ClientOpPromise
 >
 OpenWindow
 (
+ThreadsafeContentParentHandle
+*
+aOriginContent
 const
 ClientOpenWindowArgs
 &
