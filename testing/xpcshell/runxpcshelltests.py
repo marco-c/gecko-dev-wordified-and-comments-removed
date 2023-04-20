@@ -12407,6 +12407,7 @@ False
 if
 (
             
+(
 "
 tsan
 "
@@ -12414,7 +12415,6 @@ in
 self
 .
 mozInfo
-            
 and
 self
 .
@@ -12424,7 +12424,29 @@ mozInfo
 tsan
 "
 ]
+)
             
+or
+(
+"
+asan
+"
+in
+self
+.
+mozInfo
+and
+self
+.
+mozInfo
+[
+"
+asan
+"
+]
+)
+        
+)
 and
 not
 options
@@ -12435,19 +12457,21 @@ get
 threadCount
 "
 )
-        
-)
 :
             
 self
 .
 threadCount
 =
+max
+(
 self
 .
 threadCount
 /
 2
+2
+)
         
 self
 .
