@@ -3985,7 +3985,6 @@ _keychainServiceName
 =
 "
 Opera
-Browser
 Safe
 Storage
 "
@@ -3994,7 +3993,6 @@ _keychainAccountName
 =
 "
 Opera
-Browser
 "
 ;
 getSourceProfiles
@@ -4046,7 +4044,6 @@ _keychainServiceName
 =
 "
 Opera
-Browser
 Safe
 Storage
 "
@@ -4055,7 +4052,6 @@ _keychainAccountName
 =
 "
 Opera
-Browser
 "
 ;
 getSourceProfiles
