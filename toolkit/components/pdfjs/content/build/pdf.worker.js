@@ -523,7 +523,7 @@ workerVersion
 .
 3
 .
-39
+53
 '
 ;
 if
@@ -454007,14 +454007,14 @@ pdfjsVersion
 .
 3
 .
-39
+53
 '
 ;
 const
 pdfjsBuild
 =
 '
-fcaeb5db8
+f28bf23a3
 '
 ;
 }
