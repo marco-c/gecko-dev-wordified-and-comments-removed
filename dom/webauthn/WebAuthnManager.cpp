@@ -1775,7 +1775,7 @@ mAttestation
 ;
 Maybe
 <
-AuthenticatorAttachment
+nsString
 >
 authenticatorAttachment
 ;
