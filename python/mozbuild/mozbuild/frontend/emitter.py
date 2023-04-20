@@ -9,8 +9,6 @@ logging
 import
 os
 import
-six
-import
 sys
 import
 time
@@ -19,8 +17,20 @@ traceback
 from
 collections
 import
-defaultdict
 OrderedDict
+defaultdict
+import
+mozinfo
+import
+mozpack
+.
+path
+as
+mozpath
+import
+six
+import
+toml
 from
 mach
 .
@@ -32,20 +42,41 @@ LoggingMixin
 from
 mozbuild
 .
+base
+import
+ExecutionSummary
+from
+mozbuild
+.
 util
 import
-memoize
 OrderedDefaultDict
-import
+memoize
+from
 mozpack
 .
-path
-as
-mozpath
+chrome
+.
+manifest
 import
-mozinfo
+Manifest
+from
+.
+.
+testing
 import
-toml
+REFTEST_FLAVORS
+TEST_MANIFESTS
+SupportFilesConverter
+from
+.
+context
+import
+Context
+ObjDirPath
+Path
+SourcePath
+SubContext
 from
 .
 data
@@ -66,21 +97,23 @@ DirectoryTraversal
     
 Exports
     
+ExternalSharedLibrary
+    
+ExternalStaticLibrary
+    
 FinalTargetFiles
     
 FinalTargetPreprocessedFiles
     
 GeneratedFile
     
-ExternalStaticLibrary
-    
-ExternalSharedLibrary
-    
 HostDefines
     
 HostLibrary
     
 HostProgram
+    
+HostRustLibrary
     
 HostRustProgram
     
@@ -112,13 +145,9 @@ ObjdirPreprocessedFiles
     
 PerSourceFlag
     
-WebIDLCollection
-    
 Program
     
 RustLibrary
-    
-HostRustLibrary
     
 RustProgram
     
@@ -146,46 +175,17 @@ WasmDefines
     
 WasmSources
     
+WebIDLCollection
+    
 XPCOMComponentManifests
     
 XPIDLModule
 )
 from
-mozpack
-.
-chrome
-.
-manifest
-import
-Manifest
-from
 .
 reader
 import
 SandboxValidationError
-from
-.
-.
-testing
-import
-TEST_MANIFESTS
-REFTEST_FLAVORS
-SupportFilesConverter
-from
-.
-context
-import
-Context
-SourcePath
-ObjDirPath
-Path
-SubContext
-from
-mozbuild
-.
-base
-import
-ExecutionSummary
 class
 TreeMetadataEmitter
 (

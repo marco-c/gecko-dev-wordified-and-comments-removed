@@ -1,8 +1,10 @@
+import
+toml
 from
 compare_locales
 import
-paths
 mozpath
+paths
 from
 compare_locales
 .
@@ -11,8 +13,6 @@ paths
 matcher
 import
 expand
-import
-toml
 from
 .
 projectconfig
