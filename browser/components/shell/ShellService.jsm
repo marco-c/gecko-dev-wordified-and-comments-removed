@@ -224,7 +224,7 @@ consoleOptions
 maxLogLevel
 :
 "
-debug
+error
 "
 maxLogLevelPref
 :
