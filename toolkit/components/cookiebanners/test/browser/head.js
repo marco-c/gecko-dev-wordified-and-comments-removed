@@ -325,6 +325,16 @@ enabled
 "
 true
 ]
+[
+"
+cookiebanners
+.
+cookieInjector
+.
+enabled
+"
+false
+]
 ]
 }
 )
@@ -1460,6 +1470,9 @@ labels
 [
 "
 success
+"
+"
+success_cookie_injected
 "
 "
 success_dom_content_loaded
