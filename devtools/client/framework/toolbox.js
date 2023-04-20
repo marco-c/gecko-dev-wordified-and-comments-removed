@@ -1316,7 +1316,6 @@ selectedTool
 hostType
 contentWindow
 frameId
-msSinceProcessStart
 )
 {
 this
