@@ -10,7 +10,7 @@ Qihoo360seMigrationUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -22,9 +22,7 @@ modules
 /
 360seMigrationUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

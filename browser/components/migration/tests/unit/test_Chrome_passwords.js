@@ -1004,7 +1004,7 @@ ChromeMacOSLoginCrypto
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -1016,9 +1016,7 @@ modules
 /
 ChromeMacOSLoginCrypto
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -1094,7 +1092,7 @@ ChromeWindowsLoginCrypto
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -1106,9 +1104,7 @@ modules
 /
 ChromeWindowsLoginCrypto
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

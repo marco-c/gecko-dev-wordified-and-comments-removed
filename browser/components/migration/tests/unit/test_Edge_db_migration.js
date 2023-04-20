@@ -39,7 +39,7 @@ loadLibraries
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -51,9 +51,7 @@ modules
 /
 ESEDBReader
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
