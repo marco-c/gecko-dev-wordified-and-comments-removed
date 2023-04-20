@@ -18,6 +18,16 @@ js
 :
 return
 True
+set_define
+(
+"
+JS_DEBUG
+"
+True
+when
+=
+moz_debug
+)
 option
 (
 "
