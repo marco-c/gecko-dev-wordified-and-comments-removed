@@ -465,6 +465,7 @@ this
 )
 ;
 }
+virtual
 void
 Language
 (
@@ -472,6 +473,7 @@ nsAString
 &
 aLocale
 )
+override
 ;
 virtual
 void

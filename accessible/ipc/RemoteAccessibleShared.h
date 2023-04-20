@@ -793,13 +793,15 @@ BoundsInCSSPixels
 const
 override
 ;
+virtual
 void
 Language
 (
-nsString
+nsAString
 &
 aLocale
 )
+override
 ;
 void
 DocType

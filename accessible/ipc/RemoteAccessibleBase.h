@@ -951,6 +951,16 @@ override
 ;
 virtual
 void
+Language
+(
+nsAString
+&
+aLocale
+)
+override
+;
+virtual
+void
 SelectedItems
 (
 nsTArray
