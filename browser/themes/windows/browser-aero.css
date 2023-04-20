@@ -389,6 +389,9 @@ compositor
 {
 :
 root
+:
+is
+(
 [
 sizemode
 =
@@ -396,6 +399,14 @@ sizemode
 maximized
 "
 ]
+[
+sizemode
+=
+"
+fullscreen
+"
+]
+)
 .
 titlebar
 -
