@@ -177,11 +177,6 @@ NeckoChild
 cpp
 "
 "
-NeckoCommon
-.
-cpp
-"
-"
 NeckoParent
 .
 cpp

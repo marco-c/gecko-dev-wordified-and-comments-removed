@@ -936,8 +936,6 @@ aLinkPreload
 const
 ReferrerPolicy
 aReferrerPolicy
-uint64_t
-aEarlyHintPreloaderId
 )
 ;
 nsresult
@@ -1183,8 +1181,6 @@ StartLoad
 ScriptLoadRequest
 *
 aRequest
-uint64_t
-aEarlyHintPreloaderId
 )
 ;
 nsresult
@@ -1193,8 +1189,6 @@ StartClassicLoad
 ScriptLoadRequest
 *
 aRequest
-uint64_t
-aEarlyHintPreloaderId
 )
 ;
 nsresult
@@ -1205,8 +1199,6 @@ ScriptLoadRequest
 aRequest
 nsSecurityFlags
 securityFlags
-uint64_t
-aEarlyHintPreloaderId
 )
 ;
 nsresult

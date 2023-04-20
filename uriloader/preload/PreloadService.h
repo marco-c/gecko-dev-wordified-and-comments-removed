@@ -208,8 +208,6 @@ const
 nsAString
 &
 aReferrerPolicy
-uint64_t
-aEarlyHintPreloaderId
 )
 ;
 void
@@ -240,8 +238,6 @@ nsAString
 aIntegrity
 bool
 aScriptFromHead
-uint64_t
-aEarlyHintPreloaderId
 )
 ;
 void
@@ -260,8 +256,6 @@ nsAString
 aImageReferrerPolicy
 bool
 aIsImgSet
-uint64_t
-aEarlyHintPreloaderId
 )
 ;
 void
@@ -278,8 +272,6 @@ const
 nsAString
 &
 aReferrerPolicy
-uint64_t
-aEarlyHintPreloaderId
 )
 ;
 void
@@ -296,8 +288,6 @@ const
 nsAString
 &
 aReferrerPolicy
-uint64_t
-aEarlyHintPreloaderId
 )
 ;
 static
@@ -391,8 +381,6 @@ nsAString
 aReferrerPolicy
 bool
 aFromHeader
-uint64_t
-aEarlyHintPreloaderId
 )
 ;
 private

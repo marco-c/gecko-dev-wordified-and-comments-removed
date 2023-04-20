@@ -370,6 +370,15 @@ IsTimeToNotify
 (
 )
 ;
+bool
+LinkContextIsOurDocument
+(
+const
+nsAString
+&
+aAnchor
+)
+;
 protected
 :
 nsContentSink
@@ -420,8 +429,6 @@ net
 LinkHeader
 &
 aHeader
-uint64_t
-aEarlyHintPreloaderId
 )
 ;
 virtual
@@ -516,8 +523,6 @@ const
 nsAString
 &
 aReferrerPolicy
-uint64_t
-aEarlyHintPreloaderId
 )
 ;
 void

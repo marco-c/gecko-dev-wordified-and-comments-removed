@@ -120,8 +120,6 @@ dom
 Document
 *
 aDocument
-uint64_t
-aEarlyHintPreloaderId
 )
 ;
 nsresult
@@ -198,8 +196,6 @@ aLoadGroup
 nsIInterfaceRequestor
 *
 aCallbacks
-uint64_t
-aEarlyHintPreloaderId
 )
 ;
 private

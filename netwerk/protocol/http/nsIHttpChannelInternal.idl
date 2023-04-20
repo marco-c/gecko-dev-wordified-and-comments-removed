@@ -54,9 +54,6 @@ nsHttpConnectionInfo
 class
 WebSocketConnectionBase
 ;
-class
-EarlyHintConnectArgs
-;
 }
 namespace
 dom
@@ -852,15 +849,6 @@ in
 nsIEarlyHintObserver
 aObserver
 )
-;
-[
-must_use
-]
-attribute
-unsigned
-long
-long
-earlyHintPreloaderId
 ;
 [
 notxpcom

@@ -503,7 +503,6 @@ integrity
 crossOrigin
 referrerPolicy
 false
-0
 )
 ;
 if
@@ -589,8 +588,6 @@ const
 nsAString
 &
 aReferrerPolicy
-uint64_t
-aEarlyHintPreloaderId
 )
 {
 if
@@ -647,7 +644,6 @@ aIntegrity
 aCORS
 aReferrerPolicy
 true
-aEarlyHintPreloaderId
 )
 ;
 }
@@ -703,8 +699,6 @@ nsAString
 aReferrerPolicy
 bool
 aFromHeader
-uint64_t
-aEarlyHintPreloaderId
 )
 {
 if
@@ -1011,7 +1005,6 @@ aCORS
 aReferrerPolicy
 aIntegrity
 true
-aEarlyHintPreloaderId
 )
 ;
 }
@@ -1067,7 +1060,6 @@ StylePreloadKind
 :
 :
 FromLinkRelPreloadElement
-aEarlyHintPreloaderId
 )
 ;
 switch
@@ -1131,7 +1123,6 @@ uri
 aCORS
 aReferrerPolicy
 isImgSet
-aEarlyHintPreloaderId
 )
 ;
 }
@@ -1153,7 +1144,6 @@ PreloadFont
 uri
 aCORS
 aReferrerPolicy
-aEarlyHintPreloaderId
 )
 ;
 }
@@ -1175,7 +1165,6 @@ PreloadFetch
 uri
 aCORS
 aReferrerPolicy
-aEarlyHintPreloaderId
 )
 ;
 }
@@ -1220,8 +1209,6 @@ nsAString
 aIntegrity
 bool
 aScriptFromHead
-uint64_t
-aEarlyHintPreloaderId
 )
 {
 mDocument
@@ -1248,7 +1235,6 @@ PreloadReferrerPolicy
 (
 aReferrerPolicy
 )
-aEarlyHintPreloaderId
 )
 ;
 }
@@ -1271,8 +1257,6 @@ nsAString
 aImageReferrerPolicy
 bool
 aIsImgSet
-uint64_t
-aEarlyHintPreloaderId
 )
 {
 mDocument
@@ -1288,7 +1272,6 @@ aImageReferrerPolicy
 )
 aIsImgSet
 true
-aEarlyHintPreloaderId
 )
 ;
 }
@@ -1309,8 +1292,6 @@ const
 nsAString
 &
 aReferrerPolicy
-uint64_t
-aEarlyHintPreloaderId
 )
 {
 CORSMode
@@ -1371,7 +1352,6 @@ aURI
 cors
 referrerPolicy
 mDocument
-aEarlyHintPreloaderId
 )
 ;
 }
@@ -1392,8 +1372,6 @@ const
 nsAString
 &
 aReferrerPolicy
-uint64_t
-aEarlyHintPreloaderId
 )
 {
 CORSMode
@@ -1454,7 +1432,6 @@ aURI
 cors
 referrerPolicy
 mDocument
-aEarlyHintPreloaderId
 )
 ;
 }

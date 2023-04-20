@@ -24,7 +24,6 @@ true
 const
 {
 test_hint_preload
-request_count_checking
 }
 =
 ChromeUtils
@@ -269,10 +268,10 @@ sjs
 {
 hinted
 :
-2
+1
 normal
 :
-0
+1
 }
 )
 ;
@@ -346,10 +345,10 @@ sjs
 {
 hinted
 :
-2
+1
 normal
 :
-0
+1
 }
 )
 ;

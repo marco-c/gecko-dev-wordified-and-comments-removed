@@ -303,7 +303,6 @@ u
 _ns
 false
 false
-0
 getter_AddRefs
 (
 mIconRequest
@@ -349,7 +348,6 @@ u
 _ns
 false
 false
-0
 getter_AddRefs
 (
 mIconRequest

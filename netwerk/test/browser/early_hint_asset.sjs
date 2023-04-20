@@ -104,9 +104,11 @@ Cache
 Control
 "
 "
-no
+max
 -
-cache
+age
+=
+604800
 "
 false
 )

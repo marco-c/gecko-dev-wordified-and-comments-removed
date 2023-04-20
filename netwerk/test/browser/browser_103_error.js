@@ -23,6 +23,8 @@ true
 ;
 const
 {
+lax_request_count_checking
+test_hint_preload_internal
 test_hint_preload
 }
 =
@@ -97,7 +99,7 @@ hinted
 1
 normal
 :
-0
+1
 }
 )
 ;
@@ -156,7 +158,7 @@ hinted
 1
 normal
 :
-0
+1
 }
 )
 ;
@@ -215,7 +217,7 @@ hinted
 1
 normal
 :
-0
+1
 }
 )
 ;
@@ -274,7 +276,7 @@ hinted
 1
 normal
 :
-0
+1
 }
 )
 ;
@@ -333,7 +335,7 @@ hinted
 1
 normal
 :
-0
+1
 }
 )
 ;
@@ -451,7 +453,7 @@ hinted
 1
 normal
 :
-0
+1
 }
 )
 ;
@@ -510,7 +512,7 @@ hinted
 1
 normal
 :
-0
+1
 }
 )
 ;
@@ -569,7 +571,7 @@ hinted
 1
 normal
 :
-0
+1
 }
 )
 ;
@@ -628,7 +630,7 @@ hinted
 1
 normal
 :
-0
+1
 }
 )
 ;
@@ -687,7 +689,7 @@ hinted
 1
 normal
 :
-0
+1
 }
 )
 ;
