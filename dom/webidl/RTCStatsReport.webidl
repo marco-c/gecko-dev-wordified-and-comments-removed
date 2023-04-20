@@ -244,13 +244,12 @@ RTCRtpStreamStats
 :
 RTCStats
 {
+required
 unsigned
 long
 ssrc
 ;
-DOMString
-mediaType
-;
+required
 DOMString
 kind
 ;
