@@ -16017,6 +16017,9 @@ ScheduleSyntheticMouseMove
 (
 )
 ;
+nsAutoScriptBlocker
+scriptBlocker
+;
 PresShell
 :
 :

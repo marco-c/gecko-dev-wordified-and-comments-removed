@@ -3448,6 +3448,9 @@ s
 __FUNCTION__
 )
 ;
+nsAutoScriptBlocker
+scriptBlocker
+;
 AutoRestore
 <
 bool
@@ -3519,6 +3522,9 @@ OnScrollEnd
 (
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 AutoRestore
 <
 bool
@@ -3660,6 +3666,9 @@ OnScrollPositionChanged
 (
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 AutoRestore
 <
 bool
@@ -3780,6 +3789,9 @@ OnReflow
 (
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 AutoRestore
 <
 bool
