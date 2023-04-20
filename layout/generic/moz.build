@@ -1179,6 +1179,11 @@ nsTextFrameUtils
 cpp
 "
 "
+nsTextPaintStyle
+.
+cpp
+"
+"
 nsTextRunTransformations
 .
 cpp

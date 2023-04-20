@@ -695,6 +695,13 @@ h
 #
 include
 "
+nsTextPaintStyle
+.
+h
+"
+#
+include
+"
 nsSliderFrame
 .
 h
@@ -38676,6 +38683,12 @@ IsSelected
 )
 )
 {
+nsTextPaintStyle
+textPaint
+(
+f
+)
+;
 Span
 <
 const
@@ -38692,6 +38705,7 @@ SelectionType
 :
 :
 eNormal
+textPaint
 &
 shadows
 )
