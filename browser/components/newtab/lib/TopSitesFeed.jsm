@@ -3430,6 +3430,11 @@ shim
 pos
 :
 positionIndex
+sponsored_position
+:
+positionIndex
++
+1
 }
 ;
 sponsored
