@@ -1,3 +1,14 @@
+function
+getFileSystemType
+(
+)
+{
+return
+'
+sandboxed
+'
+;
+}
 async
 function
 cleanupSandboxedFileSystem

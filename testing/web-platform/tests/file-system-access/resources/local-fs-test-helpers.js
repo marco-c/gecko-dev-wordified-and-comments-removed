@@ -1,3 +1,14 @@
+function
+getFileSystemType
+(
+)
+{
+return
+'
+local
+'
+;
+}
 const
 directory_promise
 =
