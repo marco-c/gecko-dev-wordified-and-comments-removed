@@ -6207,7 +6207,6 @@ ssl_sig_rsa_pss_sha512
 ssl_sig_rsa_pkcs1_sha256
 ssl_sig_rsa_pkcs1_sha384
 ssl_sig_rsa_pkcs1_sha512
-ssl_sig_ecdsa_sha1
 ssl_sig_rsa_pkcs1_sha1
 }
 ;
