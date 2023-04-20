@@ -6462,7 +6462,11 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
+Result
+<
+CaretPoint
 nsresult
+>
 DeleteRangesWithTransaction
 (
 nsIEditor
