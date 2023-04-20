@@ -1062,10 +1062,6 @@ browser
 -
 media
 -
-mochitest
--
-webgpu
--
 xpcshell
 windows32
 -
@@ -1121,6 +1117,10 @@ gpu
 mochitest
 -
 remote
+-
+mochitest
+-
+webgpu
 -
 reftest
 -
