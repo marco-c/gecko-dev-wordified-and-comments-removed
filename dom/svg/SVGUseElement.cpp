@@ -2986,7 +2986,6 @@ map
 {
 sFEFloodMap
 sFiltersMap
-sFontSpecificationMap
 sGradientStopMap
 sLightingEffectsMap
 sMarkersMap

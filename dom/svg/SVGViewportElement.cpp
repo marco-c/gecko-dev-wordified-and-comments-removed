@@ -430,7 +430,6 @@ sColorMap
 sFEFloodMap
 sFillStrokeMap
 sFiltersMap
-sFontSpecificationMap
 sGradientStopMap
 sGraphicsMap
 sLightingEffectsMap

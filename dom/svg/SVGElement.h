@@ -556,13 +556,6 @@ sTextContentElementsMap
 static
 const
 MappedAttributeEntry
-sFontSpecificationMap
-[
-]
-;
-static
-const
-MappedAttributeEntry
 sGradientStopMap
 [
 ]
