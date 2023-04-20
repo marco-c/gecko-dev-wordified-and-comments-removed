@@ -2424,6 +2424,11 @@ InitBackdropFilterConfig
 (
 )
 ;
+void
+InitAcceleratedCanvas2DConfig
+(
+)
+;
 virtual
 void
 GetPlatformDisplayInfo

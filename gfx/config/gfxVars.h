@@ -638,6 +638,13 @@ WebglOopAsyncPresentForceSync
 bool
 true
 )
+\
+_
+(
+UseAcceleratedCanvas2D
+bool
+false
+)
 class
 gfxVars
 final
