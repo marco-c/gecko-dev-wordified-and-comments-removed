@@ -840,7 +840,7 @@ mozrelease
 /
 mozrelease
 /
-partner_attribution
+attribute_builds
 .
 py
 <
@@ -870,7 +870,7 @@ mozrelease
 /
 mozrelease
 /
-partner_attribution
+attribute_builds
 .
 py
 >
