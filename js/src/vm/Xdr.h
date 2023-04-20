@@ -179,7 +179,7 @@ context_
 (
 cx
 )
-err_
+fc_
 (
 fc
 )
@@ -208,7 +208,7 @@ fc
 const
 {
 return
-err_
+fc_
 ;
 }
 size_t
@@ -231,7 +231,7 @@ context_
 FrontendContext
 *
 const
-err_
+fc_
 ;
 size_t
 cursor_

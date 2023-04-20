@@ -531,7 +531,7 @@ parser
 ;
 FrontendContext
 *
-errorContext
+fc_
 =
 nullptr
 ;
@@ -745,7 +745,7 @@ EmplaceEmitter
 (
 compilationState_
 emitter
-errorContext
+fc_
 stackLimit
 EitherParser
 (
@@ -3551,7 +3551,7 @@ input
 .
 options
 ;
-errorContext
+fc_
 =
 fc
 ;
@@ -3604,7 +3604,7 @@ syntaxParser
 emplace
 (
 cx
-errorContext
+fc_
 stackLimit
 options
 sourceBuffer_
@@ -3643,7 +3643,7 @@ parser
 emplace
 (
 cx
-errorContext
+fc_
 stackLimit
 options
 sourceBuffer_
@@ -4140,7 +4140,7 @@ MOZ_ASSERT
 this
 -
 >
-errorContext
+fc_
 -
 >
 hadErrors
@@ -4362,7 +4362,7 @@ MOZ_ASSERT
 this
 -
 >
-errorContext
+fc_
 -
 >
 hadErrors
