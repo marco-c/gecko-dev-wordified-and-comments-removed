@@ -5,8 +5,6 @@ absolute_import
 print_function
 unicode_literals
 import
-urllib
-import
 requests
 from
 mozbuild
@@ -50,31 +48,12 @@ timestamp
 "
 "
         
-repo_url
-=
-urllib
-.
-parse
-.
-urlparse
-(
-self
-.
-manifest
-[
-"
-vendoring
-"
-]
-[
-"
-url
-"
-]
-)
-        
 gitlab_api
 =
+(
+            
+self
+.
 repo_url
 .
 scheme
@@ -85,6 +64,8 @@ scheme
 /
 "
 +
+self
+.
 repo_url
 .
 netloc
@@ -99,9 +80,13 @@ projects
 /
 "
         
+)
+        
 gitlab_api
 +
 =
+self
+.
 repo_url
 .
 path
