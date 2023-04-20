@@ -203,6 +203,12 @@ promiseEnableUnifiedExtensions
 (
 )
 ;
+await
+ensureMaximizedWindow
+(
+win
+)
+;
 registerCleanupFunction
 (
 async
