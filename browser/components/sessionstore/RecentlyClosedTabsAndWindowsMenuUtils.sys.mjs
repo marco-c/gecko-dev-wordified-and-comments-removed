@@ -719,6 +719,15 @@ selected
 1
 ]
 ;
+if
+(
+!
+selectedTab
+)
+{
+continue
+;
+}
 createEntry
 (
 aTagName
