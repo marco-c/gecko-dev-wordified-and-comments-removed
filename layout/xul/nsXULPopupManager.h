@@ -252,6 +252,7 @@ HideChain
 DeselectMenu
 Async
 IsRollup
+DisableAnimations
 }
 ;
 using
