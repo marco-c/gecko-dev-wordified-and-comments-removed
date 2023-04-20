@@ -513,6 +513,11 @@ Http3Stream
 cpp
 "
 "
+Http3WebTransportSession
+.
+cpp
+"
+"
 HttpAuthUtils
 .
 cpp
