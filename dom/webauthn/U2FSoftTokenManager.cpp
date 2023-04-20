@@ -8,6 +8,13 @@ h
 #
 include
 "
+WebAuthnEnumStrings
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -2877,9 +2884,7 @@ userVerificationRequirement
 .
 EqualsLiteral
 (
-"
-required
-"
+MOZ_WEBAUTHN_USER_VERIFICATION_REQUIREMENT_REQUIRED
 )
 ;
 bool
@@ -2921,9 +2926,7 @@ authenticatorAttachment
 .
 EqualsLiteral
 (
-"
-platform
-"
+MOZ_WEBAUTHN_AUTHENTICATOR_ATTACHMENT_PLATFORM
 )
 )
 {
@@ -4166,9 +4169,7 @@ userVerificationRequirement
 .
 EqualsLiteral
 (
-"
-required
-"
+MOZ_WEBAUTHN_USER_VERIFICATION_REQUIREMENT_REQUIRED
 )
 )
 {
