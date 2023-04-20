@@ -2378,12 +2378,6 @@ return
 mTransparencyMode
 =
 =
-eTransparencyGlass
-|
-|
-mTransparencyMode
-=
-=
 eTransparencyBorderlessGlass
 ;
 }

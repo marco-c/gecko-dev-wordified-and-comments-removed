@@ -590,7 +590,6 @@ eTransparencyOpaque
 =
 0
 eTransparencyTransparent
-eTransparencyGlass
 eTransparencyBorderlessGlass
 }
 ;
