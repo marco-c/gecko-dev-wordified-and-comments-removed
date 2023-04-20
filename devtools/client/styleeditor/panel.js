@@ -58,7 +58,7 @@ StyleEditorUI
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -73,7 +73,9 @@ styleeditor
 /
 StyleEditorUI
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -84,7 +86,7 @@ getString
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -99,7 +101,9 @@ styleeditor
 /
 StyleEditorUtil
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
