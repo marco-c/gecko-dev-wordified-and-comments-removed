@@ -199,6 +199,20 @@ rule
 .
 GeckoSessionTestRule
 .
+RejectedPromiseException
+import
+org
+.
+mozilla
+.
+geckoview
+.
+test
+.
+rule
+.
+GeckoSessionTestRule
+.
 Setting
 import
 org
@@ -213,7 +227,7 @@ rule
 .
 GeckoSessionTestRule
 .
-RejectedPromiseException
+WithDisplay
 import
 org
 .
@@ -266,20 +280,6 @@ kotlin
 collections
 .
 HashMap
-import
-org
-.
-mozilla
-.
-geckoview
-.
-test
-.
-rule
-.
-GeckoSessionTestRule
-.
-WithDisplay
 RunWith
 (
 AndroidJUnit4
@@ -1947,7 +1947,6 @@ mainSession
 reload
 (
 )
-;
 sessionRule
 .
 waitForPageStop
@@ -1986,7 +1985,6 @@ mainSession
 reload
 (
 )
-;
 sessionRule
 .
 waitForPageStop
@@ -2013,7 +2011,6 @@ mainSession
 reload
 (
 )
-;
 sessionRule
 .
 waitForPageStop
@@ -2165,7 +2162,6 @@ toRegex
 )
 )
 )
-;
 assertEquals
 (
 metadata
@@ -2173,7 +2169,6 @@ metadata
 openOptionsPageInTab
 true
 )
-;
 assertTrue
 (
 metadata
@@ -2696,7 +2691,6 @@ extension
 id
 extension
 )
-;
 }
 return
 map
@@ -3082,7 +3076,6 @@ ERROR_USER_CANCELED
 }
 )
 )
-;
 mainSession
 .
 reload
@@ -3615,7 +3608,6 @@ to
 true
 )
 )
-;
 val
 tabsCreateResult
 =
@@ -3913,7 +3905,6 @@ extensionCreatedSession
 )
 }
 }
-;
 sessionRule
 .
 waitForResult
@@ -4384,7 +4375,6 @@ val
 TEST_SINCE_VALUE
 =
 59294
-;
 sessionRule
 .
 addExternalDelegateUntilTestEnd
@@ -5122,7 +5112,6 @@ authorized
 "
 )
 )
-;
 }
 }
 )
@@ -5286,7 +5275,6 @@ passwords
 "
 )
 )
-;
 }
 AssertCalled
 override
@@ -5332,7 +5320,6 @@ history
 "
 )
 )
-;
 }
 }
 )
@@ -5958,7 +5945,6 @@ fromValue
 (
 null
 )
-;
 }
 override
 fun
@@ -5988,7 +5974,6 @@ fromValue
 (
 null
 )
-;
 }
 override
 fun
@@ -6018,7 +6003,6 @@ fromValue
 (
 null
 )
-;
 }
 override
 fun
@@ -6048,7 +6032,6 @@ fromValue
 (
 null
 )
-;
 }
 }
 val
@@ -6684,7 +6667,6 @@ message
 as
 String
 )
-;
 return
 null
 }
@@ -6782,7 +6764,6 @@ message
 as
 String
 )
-;
 return
 null
 }
@@ -10386,7 +10367,6 @@ update
 update1
 )
 )
-;
 assertEquals
 (
 update2
@@ -10713,7 +10693,6 @@ update
 update1
 )
 )
-;
 assertEquals
 (
 update2
@@ -10948,7 +10927,6 @@ assertNull
 (
 update2
 )
-;
 sessionRule
 .
 waitForResult
@@ -11270,7 +11248,6 @@ ERROR_USER_CANCELED
 }
 )
 )
-;
 mainSession
 .
 reload
@@ -11432,7 +11409,6 @@ borderify
 xpi
 "
 )
-;
 val
 borderify
 =
@@ -11701,7 +11677,6 @@ ERROR_POSTPONED
 }
 )
 )
-;
 mainSession
 .
 reload
@@ -12587,7 +12562,6 @@ DownloadInitData
 download
 downloadInfo
 )
-;
 return
 GeckoResult
 .
@@ -13187,7 +13161,6 @@ Boolean
 {
 return
 fileExists
-;
 }
 override
 fun

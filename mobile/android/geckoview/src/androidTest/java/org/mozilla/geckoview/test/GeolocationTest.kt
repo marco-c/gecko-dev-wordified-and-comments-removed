@@ -41,6 +41,12 @@ androidx
 .
 lifecycle
 .
+*
+import
+androidx
+.
+lifecycle
+.
 DefaultLifecycleObserver
 import
 androidx
@@ -602,19 +608,13 @@ code
 {
 maximumAge
 :
-{
 maximumAge
-}
 timeout
 :
-{
 timeout
-}
 enableHighAccuracy
 :
-{
 enableHighAccuracy
-}
 }
 )
 )
@@ -948,7 +948,6 @@ getCurrentPositionJS
 3000
 false
 )
-;
 assertThat
 (
 "
@@ -1020,7 +1019,6 @@ getCurrentPositionJS
 3000
 false
 )
-;
 assertThat
 (
 "
@@ -1188,7 +1186,6 @@ getCurrentPositionJS
 6001
 true
 )
-;
 mockGpsProvider
 .
 stopPostingLocation
@@ -1351,7 +1348,6 @@ Event
 actualResumeCount
 +
 +
-;
 super
 .
 onResume
@@ -1506,7 +1502,6 @@ Event
 actualPauseCount
 +
 +
-;
 super
 .
 onPause

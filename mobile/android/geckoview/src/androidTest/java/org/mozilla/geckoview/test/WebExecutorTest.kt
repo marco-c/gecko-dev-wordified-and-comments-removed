@@ -23,16 +23,6 @@ androidx
 .
 test
 .
-platform
-.
-app
-.
-InstrumentationRegistry
-import
-androidx
-.
-test
-.
 filters
 .
 MediumTest
@@ -49,13 +39,11 @@ androidx
 .
 test
 .
-ext
+platform
 .
-junit
+app
 .
-runners
-.
-AndroidJUnit4
+InstrumentationRegistry
 import
 kotlinx
 .
@@ -181,18 +169,6 @@ util
 .
 TestServer
 import
-org
-.
-mozilla
-.
-geckoview
-.
-test
-.
-util
-.
-UiThreadUtils
-import
 java
 .
 io
@@ -276,9 +252,7 @@ http
 /
 localhost
 :
-{
 TEST_PORT
-}
 "
 get
 :
@@ -1071,7 +1045,6 @@ equalTo
 bodyString
 )
 )
-;
 }
 Test
 fun
@@ -1643,6 +1616,7 @@ env
 .
 isAutomation
 )
+{
 "
 CN
 =
@@ -1650,7 +1624,9 @@ example
 .
 com
 "
+}
 else
+{
 "
 CN
 =
@@ -1682,6 +1658,7 @@ C
 =
 US
 "
+}
 val
 expectedIssuer
 =
@@ -1691,6 +1668,7 @@ env
 .
 isAutomation
 )
+{
 "
 OU
 =
@@ -1707,7 +1685,9 @@ Temporary
 Certificate
 Authority
 "
+}
 else
+{
 "
 CN
 =
@@ -1724,6 +1704,7 @@ C
 =
 US
 "
+}
 assertThat
 (
 "
@@ -3057,9 +3038,7 @@ TEST_ENDPOINT
 /
 trickle
 /
-{
 expectedCount
-}
 "
 )
 )
@@ -3227,7 +3206,6 @@ response
 body
 !
 !
-;
 assertThat
 (
 "
@@ -3254,7 +3232,6 @@ sleep
 (
 1000
 )
-;
 assertThat
 (
 "
@@ -3276,7 +3253,6 @@ equalTo
 0
 )
 )
-;
 stream
 .
 close

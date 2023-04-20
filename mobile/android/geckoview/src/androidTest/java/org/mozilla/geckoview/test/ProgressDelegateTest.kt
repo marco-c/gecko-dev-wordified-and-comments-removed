@@ -97,7 +97,9 @@ geckoview
 .
 GeckoSession
 .
-ProgressDelegate
+PermissionDelegate
+.
+ContentPermission
 import
 org
 .
@@ -107,9 +109,7 @@ geckoview
 .
 GeckoSession
 .
-PermissionDelegate
-.
-ContentPermission
+ProgressDelegate
 import
 org
 .
@@ -689,7 +689,6 @@ true
 )
 )
 }
-;
 }
 )
 }
@@ -1704,6 +1703,7 @@ env
 .
 isAutomation
 )
+{
 "
 https
 :
@@ -1715,7 +1715,9 @@ example
 .
 com
 "
+}
 else
+{
 "
 https
 :
@@ -1727,6 +1729,7 @@ badssl
 .
 com
 "
+}
 )
 sessionRule
 .
@@ -2354,7 +2357,6 @@ collectState
 helloUri
 startUri
 )
-;
 val
 session
 =
@@ -2559,7 +2561,6 @@ collectState
 (
 startUri
 )
-;
 mainSession
 .
 loadUri
