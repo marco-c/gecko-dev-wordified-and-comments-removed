@@ -2474,6 +2474,12 @@ uint64_t
 >
 qp_sum
 ;
+RTCNonStandardStatsMember
+<
+double
+>
+min_playout_delay
+;
 }
 ;
 class

@@ -3769,6 +3769,8 @@ pli_count
 nack_count
 &
 qp_sum
+&
+min_playout_delay
 )
 RTCInboundRTPStreamStats
 :
@@ -4120,6 +4122,12 @@ qp_sum
 qpSum
 "
 )
+min_playout_delay
+(
+"
+minPlayoutDelay
+"
+)
 {
 }
 RTCInboundRTPStreamStats
@@ -4430,6 +4438,12 @@ qp_sum
 other
 .
 qp_sum
+)
+min_playout_delay
+(
+other
+.
+min_playout_delay
 )
 {
 }
