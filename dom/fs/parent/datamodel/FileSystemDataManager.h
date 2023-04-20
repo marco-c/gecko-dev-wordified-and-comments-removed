@@ -308,7 +308,7 @@ IsShutdownCompleted
 (
 )
 ;
-NS_INLINE_DECL_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 FileSystemDataManager
 )
@@ -615,6 +615,7 @@ EntryId
 >
 mExclusiveLocks
 ;
+NS_DECL_OWNINGEVENTTARGET
 const
 NotNull
 <
