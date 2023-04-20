@@ -2778,7 +2778,6 @@ nsContentList
 :
 NodeWillBeDestroyed
 (
-const
 nsINode
 *
 aNode
