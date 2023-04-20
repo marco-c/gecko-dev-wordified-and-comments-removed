@@ -1568,7 +1568,7 @@ readAllocation
 )
 ;
 }
-Value
+void
 skip
 (
 )
@@ -1576,11 +1576,6 @@ skip
 snapshot_
 .
 skipAllocation
-(
-)
-;
-return
-UndefinedValue
 (
 )
 ;
