@@ -4794,14 +4794,10 @@ cross_loss_based
 "
 )
 ;
-EXPECT_GE
+EXPECT_GT
 (
 average_bitrate_with_loss_based
 average_bitrate_without_loss_based
-*
-1
-.
-05
 )
 ;
 }

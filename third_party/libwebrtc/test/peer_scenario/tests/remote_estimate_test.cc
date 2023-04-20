@@ -744,6 +744,16 @@ packet
 .
 data
 )
+&
+&
+rtp_packet
+.
+PayloadType
+(
+)
+=
+=
+111
 )
 {
 EXPECT_TRUE
