@@ -112,8 +112,10 @@ management
 support
 /
 fedcm
+/
+manifest
 .
-json
+py
 '
 clientId
 :
