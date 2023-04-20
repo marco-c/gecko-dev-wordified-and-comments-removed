@@ -225,7 +225,7 @@ false
 bool
 detect_pre_echo
 =
-false
+true
 ;
 }
 delay
