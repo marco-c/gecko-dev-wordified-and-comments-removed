@@ -1448,6 +1448,10 @@ mIsBeingParsed
 (
 false
 )
+mIsLoading
+(
+false
+)
 mIsCancelled
 (
 false
@@ -1671,6 +1675,10 @@ mIsBeingParsed
 (
 false
 )
+mIsLoading
+(
+false
+)
 mIsCancelled
 (
 false
@@ -1879,6 +1887,10 @@ mIsChildSheet
 false
 )
 mIsBeingParsed
+(
+false
+)
+mIsLoading
 (
 false
 )
@@ -3353,7 +3365,9 @@ if
 data
 -
 >
-mIsCancelled
+IsCancelled
+(
+)
 )
 {
 return
@@ -11144,9 +11158,9 @@ arr
 data
 -
 >
-mIsCancelled
-=
-true
+Cancel
+(
+)
 ;
 }
 }

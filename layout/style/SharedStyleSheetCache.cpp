@@ -230,7 +230,9 @@ if
 data
 -
 >
-mIsCancelled
+IsCancelled
+(
+)
 )
 {
 css
@@ -305,7 +307,9 @@ status
 data
 -
 >
-mIsCancelled
+IsCancelled
+(
+)
 ?
 cancelledStatus
 :
