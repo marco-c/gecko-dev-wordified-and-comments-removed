@@ -173,13 +173,6 @@ aJSON
 )
 ;
 async
-OnReportPerformanceTiming
-(
-ResponseTiming
-aTiming
-)
-;
-async
 __delete__
 (
 nsresult

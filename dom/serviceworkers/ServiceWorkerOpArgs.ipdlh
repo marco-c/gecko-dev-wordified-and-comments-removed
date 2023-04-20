@@ -438,10 +438,6 @@ ParentToParentInternalResponse
 ?
 preloadResponse
 ;
-ResponseTiming
-?
-preloadResponseTiming
-;
 ResponseEndArgs
 ?
 preloadResponseEndArgs
@@ -457,10 +453,6 @@ common
 ParentToChildInternalResponse
 ?
 preloadResponse
-;
-ResponseTiming
-?
-preloadResponseTiming
 ;
 ResponseEndArgs
 ?

@@ -105,16 +105,6 @@ true
 >
 ;
 using
-FetchEventPreloadResponseTimingPromise
-=
-MozPromise
-<
-ResponseTiming
-int
-true
->
-;
-using
 FetchEventPreloadResponseEndPromise
 =
 MozPromise

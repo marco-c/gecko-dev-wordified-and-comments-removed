@@ -330,12 +330,6 @@ mPreloadResponseAvailablePromiseRequestHolder
 ;
 MozPromiseRequestHolder
 <
-FetchServiceResponseTimingPromise
->
-mPreloadResponseTimingPromiseRequestHolder
-;
-MozPromiseRequestHolder
-<
 FetchServiceResponseEndPromise
 >
 mPreloadResponseEndPromiseRequestHolder
