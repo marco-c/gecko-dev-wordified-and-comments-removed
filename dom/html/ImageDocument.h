@@ -332,6 +332,11 @@ GetZoomLevel
 (
 )
 ;
+void
+CheckFullZoom
+(
+)
+;
 float
 GetResolution
 (
