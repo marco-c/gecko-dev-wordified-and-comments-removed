@@ -1,3 +1,9 @@
+ac_add_options
+-
+-
+disable
+-
+release
 export
 MACOS_SDK_DIR
 =

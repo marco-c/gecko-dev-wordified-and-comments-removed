@@ -1,6 +1,12 @@
 ac_add_options
 -
 -
+disable
+-
+release
+ac_add_options
+-
+-
 target
 =
 x86_64
