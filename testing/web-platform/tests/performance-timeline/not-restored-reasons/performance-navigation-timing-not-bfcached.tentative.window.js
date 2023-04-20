@@ -76,12 +76,9 @@ assertNotRestoredReasonsEquals
 rc1
 true
 rc1_url
-'
-'
-'
-'
-'
-'
+null
+null
+null
 [
 '
 WebSocket
