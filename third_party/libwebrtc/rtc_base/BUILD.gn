@@ -6658,11 +6658,6 @@ h
 "
 ]
 }
-if
-(
-rtc_include_tests
-)
-{
 rtc_library
 (
 "
@@ -7337,7 +7332,6 @@ absl
 strings
 "
 ]
-}
 }
 if
 (
