@@ -1154,7 +1154,6 @@ cx
 )
 funStr_
 (
-cx
 fc
 )
 {
