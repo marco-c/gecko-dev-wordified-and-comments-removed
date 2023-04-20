@@ -586,6 +586,16 @@ attribution
 -
 l10n
 "
+            
+repackage_deb_name
+=
+"
+repackage
+-
+deb
+-
+l10n
+"
         
 dependencies
 =

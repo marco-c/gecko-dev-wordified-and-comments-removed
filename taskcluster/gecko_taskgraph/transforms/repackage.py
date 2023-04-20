@@ -1624,6 +1624,8 @@ output
 "
 target
 .
+langpack
+.
 deb
 "
     

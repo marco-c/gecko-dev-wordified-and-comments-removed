@@ -188,6 +188,12 @@ l10n
 repackage
 -
 deb
+-
+repackage
+-
+deb
+-
+l10n
 primary
 -
 dependency
