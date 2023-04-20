@@ -475,7 +475,6 @@ readonly
 attribute
 long
 long
-?
 timestamp
 ;
 /

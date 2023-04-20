@@ -280,12 +280,7 @@ uint64_t
 &
 &
 aDuration
-Maybe
-<
 int64_t
->
-&
-&
 aTimestamp
 const
 VideoColorSpaceInit
@@ -607,11 +602,8 @@ GetDuration
 )
 const
 ;
-Nullable
-<
 int64_t
->
-GetTimestamp
+Timestamp
 (
 )
 const
@@ -1007,10 +999,7 @@ uint64_t
 >
 mDuration
 ;
-Maybe
-<
 int64_t
->
 mTimestamp
 ;
 VideoColorSpaceInit
