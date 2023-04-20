@@ -3519,7 +3519,7 @@ com
 expiry_version
 :
 "
-112
+122
 "
 products
 :
@@ -3540,6 +3540,7 @@ bug_numbers
 1662857
 1730037
 1763529
+1811159
 ]
 release_channel_collection
 :
