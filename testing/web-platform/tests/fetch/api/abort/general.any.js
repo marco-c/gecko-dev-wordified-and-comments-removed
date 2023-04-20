@@ -3712,6 +3712,11 @@ method
 '
 POST
 '
+duplex
+:
+'
+half
+'
 headers
 :
 {
