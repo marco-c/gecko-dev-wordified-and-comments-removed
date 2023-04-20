@@ -1096,6 +1096,13 @@ screen_drawer_linux
 cc
 "
 ]
+libs
+=
+[
+"
+X11
+"
+]
 }
 if
 (
