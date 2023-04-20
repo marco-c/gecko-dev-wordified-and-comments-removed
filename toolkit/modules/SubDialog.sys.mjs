@@ -4345,15 +4345,9 @@ maxHeight
 px
 "
 ;
-if
-(
-contentPane
-)
-{
 /
 /
 There
-are
 also
 instances
 where
@@ -4362,9 +4356,9 @@ subdialog
 is
 neither
 implemented
-/
-/
 using
+/
+/
 a
 content
 pane
@@ -4401,6 +4395,7 @@ use
 it
 .
 contentPane
+?
 .
 classList
 .
@@ -4411,7 +4406,6 @@ doScroll
 "
 )
 ;
-}
 }
 this
 .

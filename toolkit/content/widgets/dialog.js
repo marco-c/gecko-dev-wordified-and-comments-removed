@@ -731,11 +731,6 @@ class
 box
 -
 inherit
-dialog
--
-content
--
-box
 "
 part
 =
@@ -743,11 +738,6 @@ part
 content
 -
 box
-"
-flex
-=
-"
-1
 "
 >
 <
