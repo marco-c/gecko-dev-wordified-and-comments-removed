@@ -5768,25 +5768,6 @@ tests
 1
 "
 )
-        
-self
-.
-assertEqual
-(
-root
-.
-get
-(
-"
-time
-"
-)
-"
-0
-.
-00
-"
-)
     
 def
 test_time_is_not_rounded
