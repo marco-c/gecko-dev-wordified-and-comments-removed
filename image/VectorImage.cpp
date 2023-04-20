@@ -3541,7 +3541,7 @@ SurfaceCache
 :
 IsLegalSize
 (
-aSize
+rasterSize
 )
 |
 |
@@ -3551,7 +3551,7 @@ Factory
 :
 AllowedSurfaceSize
 (
-aSize
+rasterSize
 )
 )
 {
