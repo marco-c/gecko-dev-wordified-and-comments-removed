@@ -73,6 +73,11 @@ TestPinching
 cpp
 "
 "
+TestPointerEventsConsumable
+.
+cpp
+"
+"
 TestScrollHandoff
 .
 cpp
