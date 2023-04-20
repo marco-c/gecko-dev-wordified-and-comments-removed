@@ -82,6 +82,12 @@ SOCKET_PROCESSES_ONLY
 <
 <
 7
+GPU_PROCESSES_ONLY
+=
+1
+<
+<
+8
 }
 mFlags
 ;
