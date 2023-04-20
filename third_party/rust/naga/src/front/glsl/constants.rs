@@ -1519,13 +1519,9 @@ Sint
 (
 a
 .
-max
+clamp
 (
 b
-)
-.
-min
-(
 c
 )
 )
@@ -1561,13 +1557,9 @@ Uint
 (
 a
 .
-max
+clamp
 (
 b
-)
-.
-min
-(
 c
 )
 )
@@ -4771,6 +4763,7 @@ res3
 inner
 ;
 match
+*
 res3_inner
 {
 ConstantInner
@@ -4778,7 +4771,9 @@ ConstantInner
 :
 Composite
 {
+ref
 ty
+ref
 components
 }
 =
@@ -5649,6 +5644,7 @@ res1
 inner
 ;
 match
+*
 res1_inner
 {
 ConstantInner
@@ -5656,7 +5652,9 @@ ConstantInner
 :
 Composite
 {
+ref
 ty
+ref
 components
 }
 =
