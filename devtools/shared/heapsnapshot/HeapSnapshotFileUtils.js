@@ -47,7 +47,7 @@ join
 (
 PathUtils
 .
-osTempDir
+tempDir
 {
 Date
 .
@@ -159,7 +159,7 @@ join
 (
 PathUtils
 .
-osTempDir
+tempDir
 snapshotId
 +
 "
