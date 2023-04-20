@@ -370,6 +370,16 @@ peer_name
 )
 ;
 void
+UnregisterParticipantInCall
+(
+absl
+:
+:
+string_view
+peer_name
+)
+;
+void
 OnStatsReports
 (
 absl

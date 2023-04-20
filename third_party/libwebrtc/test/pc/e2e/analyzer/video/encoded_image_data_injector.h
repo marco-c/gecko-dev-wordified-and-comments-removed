@@ -125,6 +125,14 @@ AddParticipantInCall
 0
 ;
 virtual
+void
+RemoveParticipantInCall
+(
+)
+=
+0
+;
+virtual
 EncodedImageExtractionResult
 ExtractData
 (
