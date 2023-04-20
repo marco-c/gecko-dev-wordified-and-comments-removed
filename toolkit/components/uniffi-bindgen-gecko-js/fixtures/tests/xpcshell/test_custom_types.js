@@ -1,5 +1,5 @@
 const
-Customtypes
+CustomTypes
 =
 ChromeUtils
 .
@@ -14,11 +14,7 @@ gre
 /
 modules
 /
-components
--
-utils
-/
-RustCustomtypes
+RustCustomTypes
 .
 jsm
 "
@@ -35,7 +31,7 @@ let
 demo
 =
 await
-Customtypes
+CustomTypes
 .
 getCustomTypesDemo
 (

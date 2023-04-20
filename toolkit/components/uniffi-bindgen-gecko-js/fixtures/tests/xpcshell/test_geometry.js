@@ -14,10 +14,6 @@ gre
 /
 modules
 /
-components
--
-utils
-/
 RustGeometry
 .
 jsm

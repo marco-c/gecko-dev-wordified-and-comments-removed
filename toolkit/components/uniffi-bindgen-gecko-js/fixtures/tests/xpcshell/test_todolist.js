@@ -19,10 +19,6 @@ gre
 /
 modules
 /
-components
--
-utils
-/
 RustTodolist
 .
 jsm

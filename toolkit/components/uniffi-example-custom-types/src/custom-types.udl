@@ -24,7 +24,7 @@ handle
 }
 ;
 namespace
-customtypes
+custom_types
 {
 CustomTypesDemo
 get_custom_types_demo
