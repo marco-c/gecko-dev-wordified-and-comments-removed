@@ -483,7 +483,13 @@ double
 ;
 }
 return
+static_cast
+<
+double
+>
+(
 mSign
+)
 *
 PR_strtod
 (
@@ -492,7 +498,7 @@ mBuffer
 get
 (
 )
-0
+nullptr
 )
 ;
 }
