@@ -3489,7 +3489,7 @@ uintptr_t
 return
 writer_
 .
-readStubField
+readStubFieldForIon
 (
 offset
 type
@@ -3541,7 +3541,7 @@ uintptr_t
 return
 writer_
 .
-readStubField
+readStubFieldForIon
 (
 offset
 type
