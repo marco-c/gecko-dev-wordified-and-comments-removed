@@ -32,7 +32,7 @@ const
 kPage
 =
 "
-http
+https
 :
 /
 /
@@ -44,9 +44,11 @@ browser
 /
 dom
 /
-html
+base
 /
 test
+/
+fullscreen
 /
 dummy_page
 .
