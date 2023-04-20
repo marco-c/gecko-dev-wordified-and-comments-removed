@@ -151,6 +151,29 @@ dummy2
 ]
             
 }
+            
+"
+protocol_config
+"
+:
+{
+                
+"
+scheme
+"
+:
+"
+dummy
+"
+                
+"
+flags
+"
+:
+[
+]
+            
+}
         
 }
         
@@ -506,6 +529,29 @@ dummy2
 ]
                 
 }
+            
+}
+            
+"
+protocol_config
+"
+:
+{
+                
+"
+scheme
+"
+:
+"
+dummy
+"
+                
+"
+flags
+"
+:
+[
+]
             
 }
         
@@ -871,6 +917,29 @@ BackgroundTasksSelector
 ALL_TASKS
                 
 }
+            
+}
+            
+"
+protocol_config
+"
+:
+{
+                
+"
+scheme
+"
+:
+"
+dummy
+"
+                
+"
+flags
+"
+:
+[
+]
             
 }
         
