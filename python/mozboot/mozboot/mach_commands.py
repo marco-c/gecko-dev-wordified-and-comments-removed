@@ -1,9 +1,3 @@
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 errno
 import
@@ -17,8 +11,8 @@ mach
 .
 decorators
 import
-CommandArgument
 Command
+CommandArgument
 from
 mozboot
 .
@@ -410,16 +404,16 @@ import
 mozversioncontrol
     
 from
-mozfile
-import
-which
-    
-from
 mach
 .
 util
 import
 to_optional_path
+    
+from
+mozfile
+import
+which
     
 repo
 =
