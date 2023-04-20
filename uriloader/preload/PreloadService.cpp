@@ -1288,6 +1288,7 @@ aImageReferrerPolicy
 )
 aIsImgSet
 true
+aEarlyHintPreloaderId
 )
 ;
 }

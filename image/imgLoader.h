@@ -982,6 +982,8 @@ bool
 aUseUrgentStartForChannel
 bool
 aLinkPreload
+uint64_t
+aEarlyHintPreloaderId
 imgRequestProxy
 *
 *
