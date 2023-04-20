@@ -135,6 +135,16 @@ sCanUseVP9Decoder
 static
 constexpr
 int
+kCMVideoCodecType_H264
+{
+'
+avc1
+'
+}
+;
+static
+constexpr
+int
 kCMVideoCodecType_VP9
 {
 '
