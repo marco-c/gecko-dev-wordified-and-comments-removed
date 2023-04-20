@@ -561,9 +561,11 @@ ErrorResult
 &
 aRv
 )
-=
-0
+{
+return
+nullptr
 ;
+}
 virtual
 already_AddRefed
 <
@@ -594,9 +596,11 @@ ErrorResult
 &
 aRv
 )
-=
-0
+{
+return
+nullptr
 ;
+}
 }
 ;
 }
