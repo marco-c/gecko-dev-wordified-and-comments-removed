@@ -1476,9 +1476,11 @@ the
 top
 of
 the
-Download
-Details
-Panel
+download
+details
+sub
+-
+panel
 to
 indicate
 #
@@ -1501,7 +1503,7 @@ details
 title
 =
 Download
-Details
+details
 #
 #
 Displayed
