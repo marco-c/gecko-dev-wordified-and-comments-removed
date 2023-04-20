@@ -81,6 +81,8 @@ public
 image
 .
 tar
+.
+zst
 "
 )
 ;
@@ -321,6 +323,8 @@ public
 image
 .
 tar
+.
+zst
 "
 :
 {
@@ -343,6 +347,8 @@ artifacts
 image
 .
 tar
+.
+zst
 "
 }
 }
