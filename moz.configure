@@ -2736,9 +2736,6 @@ nawk
 awk
 "
 )
-paths
-=
-prefer_mozillabuild_path
 )
 depends
 (
