@@ -38342,9 +38342,9 @@ gfx
 .
 webgpu
 .
-force
+ignore
 -
-enabled
+blocklist
 type
 :
 bool
