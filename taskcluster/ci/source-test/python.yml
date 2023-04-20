@@ -1998,6 +1998,16 @@ taskcluster
 /
 ci
 /
+config
+.
+yml
+'
+-
+'
+taskcluster
+/
+ci
+/
 test
 /
 *
