@@ -125,11 +125,6 @@ popup
 .
 html
 "
-default_area
-:
-"
-navbar
-"
 browser_style
 :
 true
@@ -700,11 +695,6 @@ popup
 .
 html
 "
-default_area
-:
-"
-navbar
-"
 browser_style
 :
 true
@@ -1255,11 +1245,6 @@ popup
 .
 html
 "
-default_area
-:
-"
-navbar
-"
 browser_style
 :
 true
@@ -1561,11 +1546,6 @@ default_popup
 popup
 .
 html
-"
-default_area
-:
-"
-navbar
 "
 browser_style
 :

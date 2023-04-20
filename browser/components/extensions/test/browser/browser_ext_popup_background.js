@@ -594,11 +594,6 @@ popup
 .
 html
 "
-default_area
-:
-"
-navbar
-"
 browser_style
 }
 page_action

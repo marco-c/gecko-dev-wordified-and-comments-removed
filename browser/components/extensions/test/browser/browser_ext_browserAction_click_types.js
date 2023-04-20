@@ -693,11 +693,6 @@ action
 ]
 :
 {
-default_area
-:
-"
-navbar
-"
 }
 page_action
 :

@@ -46,11 +46,6 @@ manifest
 browser_action
 :
 {
-default_area
-:
-"
-navbar
-"
 }
 permissions
 :
@@ -356,11 +351,6 @@ html
 browser_style
 :
 true
-default_area
-:
-"
-navbar
-"
 }
 permissions
 :
@@ -824,11 +814,6 @@ manifest
 browser_action
 :
 {
-default_area
-:
-"
-navbar
-"
 }
 }
 background

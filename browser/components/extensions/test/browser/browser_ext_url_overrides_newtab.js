@@ -691,11 +691,6 @@ ignore
 .
 html
 "
-default_area
-:
-"
-navbar
-"
 }
 chrome_url_overrides
 :

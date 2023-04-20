@@ -59,11 +59,6 @@ BASE
 file_popup_api_injection_a
 .
 html
-default_area
-:
-"
-navbar
-"
 }
 page_action
 :

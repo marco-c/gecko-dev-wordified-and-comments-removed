@@ -321,11 +321,6 @@ page_action
 browser_action
 :
 {
-default_area
-:
-"
-navbar
-"
 }
 permissions
 :

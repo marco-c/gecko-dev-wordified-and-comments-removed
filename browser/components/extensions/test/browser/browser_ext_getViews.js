@@ -802,11 +802,6 @@ html
 ?
 popup
 "
-default_area
-:
-"
-navbar
-"
 }
 sidebar_action
 :
@@ -1988,11 +1983,6 @@ default_popup
 popup
 .
 html
-"
-default_area
-:
-"
-navbar
 "
 }
 }

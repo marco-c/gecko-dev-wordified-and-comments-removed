@@ -109,11 +109,6 @@ browser_action
 browser_style
 :
 false
-default_area
-:
-"
-navbar
-"
 }
 permissions
 :

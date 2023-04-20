@@ -3138,11 +3138,6 @@ manifest
 browser_action
 :
 {
-default_area
-:
-"
-navbar
-"
 }
 page_action
 :
@@ -3724,11 +3719,6 @@ default_title
 "
 BrowserAction
 title
-"
-default_area
-:
-"
-navbar
 "
 theme_icons
 :

@@ -541,11 +541,6 @@ manifest
 browser_action
 :
 {
-default_area
-:
-"
-navbar
-"
 }
 experiment_apis
 :
