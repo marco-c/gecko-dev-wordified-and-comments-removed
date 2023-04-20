@@ -3354,6 +3354,16 @@ payload
 (
 )
 ;
+if
+(
+!
+payload
+.
+empty
+(
+)
+)
+{
 memcpy
 (
 rtx_payload
@@ -3371,6 +3381,7 @@ size
 )
 )
 ;
+}
 rtx_packet
 -
 >
