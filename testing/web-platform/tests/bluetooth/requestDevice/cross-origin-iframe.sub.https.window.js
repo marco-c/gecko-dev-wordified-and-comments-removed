@@ -186,6 +186,8 @@ messageEvent
 .
 data
 '
+FAIL
+:
 SecurityError
 :
 Failed
