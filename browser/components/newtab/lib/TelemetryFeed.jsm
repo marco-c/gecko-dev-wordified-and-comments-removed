@@ -5409,16 +5409,6 @@ source
 }
 )
 ;
-Glean
-.
-serverKnobs
-.
-validation
-.
-record
-(
-)
-;
 }
 }
 _beginObservingNewtabPingPrefs
