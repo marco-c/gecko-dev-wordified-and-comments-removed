@@ -52,11 +52,17 @@ generate
 spectests
 &
 &
+RUST_BACKTRACE
+=
+1
 RUST_LOG
 =
 info
 cargo
 run
+-
+-
+release
 )
 rm
 -
