@@ -1362,6 +1362,7 @@ pixman_region_init_with_extents
 pixman_region16_t
 *
 region
+const
 pixman_box16_t
 *
 extents
@@ -1408,6 +1409,7 @@ pixman_region_copy
 pixman_region16_t
 *
 dest
+const
 pixman_region16_t
 *
 source
@@ -1420,9 +1422,11 @@ pixman_region_intersect
 pixman_region16_t
 *
 new_reg
+const
 pixman_region16_t
 *
 reg1
+const
 pixman_region16_t
 *
 reg2
@@ -1435,9 +1439,11 @@ pixman_region_union
 pixman_region16_t
 *
 new_reg
+const
 pixman_region16_t
 *
 reg1
+const
 pixman_region16_t
 *
 reg2
@@ -1450,6 +1456,7 @@ pixman_region_union_rect
 pixman_region16_t
 *
 dest
+const
 pixman_region16_t
 *
 source
@@ -1472,6 +1479,7 @@ pixman_region_intersect_rect
 pixman_region16_t
 *
 dest
+const
 pixman_region16_t
 *
 source
@@ -1494,9 +1502,11 @@ pixman_region_subtract
 pixman_region16_t
 *
 reg_d
+const
 pixman_region16_t
 *
 reg_m
+const
 pixman_region16_t
 *
 reg_s
@@ -1509,9 +1519,11 @@ pixman_region_inverse
 pixman_region16_t
 *
 new_reg
+const
 pixman_region16_t
 *
 reg1
+const
 pixman_box16_t
 *
 inv_rect
@@ -1521,6 +1533,7 @@ PIXMAN_API
 pixman_bool_t
 pixman_region_contains_point
 (
+const
 pixman_region16_t
 *
 region
@@ -1537,9 +1550,11 @@ PIXMAN_API
 pixman_region_overlap_t
 pixman_region_contains_rectangle
 (
+const
 pixman_region16_t
 *
 region
+const
 pixman_box16_t
 *
 prect
@@ -1549,6 +1564,7 @@ PIXMAN_API
 pixman_bool_t
 pixman_region_not_empty
 (
+const
 pixman_region16_t
 *
 region
@@ -1559,6 +1575,7 @@ pixman_box16_t
 *
 pixman_region_extents
 (
+const
 pixman_region16_t
 *
 region
@@ -1568,6 +1585,7 @@ PIXMAN_API
 int
 pixman_region_n_rects
 (
+const
 pixman_region16_t
 *
 region
@@ -1578,6 +1596,7 @@ pixman_box16_t
 *
 pixman_region_rectangles
 (
+const
 pixman_region16_t
 *
 region
@@ -1590,9 +1609,11 @@ PIXMAN_API
 pixman_bool_t
 pixman_region_equal
 (
+const
 pixman_region16_t
 *
 region1
+const
 pixman_region16_t
 *
 region2
@@ -1614,6 +1635,7 @@ pixman_region_reset
 pixman_region16_t
 *
 region
+const
 pixman_box16_t
 *
 box
@@ -1745,6 +1767,7 @@ pixman_region32_init_with_extents
 pixman_region32_t
 *
 region
+const
 pixman_box32_t
 *
 extents
@@ -1791,6 +1814,7 @@ pixman_region32_copy
 pixman_region32_t
 *
 dest
+const
 pixman_region32_t
 *
 source
@@ -1803,9 +1827,11 @@ pixman_region32_intersect
 pixman_region32_t
 *
 new_reg
+const
 pixman_region32_t
 *
 reg1
+const
 pixman_region32_t
 *
 reg2
@@ -1818,9 +1844,11 @@ pixman_region32_union
 pixman_region32_t
 *
 new_reg
+const
 pixman_region32_t
 *
 reg1
+const
 pixman_region32_t
 *
 reg2
@@ -1833,6 +1861,7 @@ pixman_region32_intersect_rect
 pixman_region32_t
 *
 dest
+const
 pixman_region32_t
 *
 source
@@ -1855,6 +1884,7 @@ pixman_region32_union_rect
 pixman_region32_t
 *
 dest
+const
 pixman_region32_t
 *
 source
@@ -1877,9 +1907,11 @@ pixman_region32_subtract
 pixman_region32_t
 *
 reg_d
+const
 pixman_region32_t
 *
 reg_m
+const
 pixman_region32_t
 *
 reg_s
@@ -1892,9 +1924,11 @@ pixman_region32_inverse
 pixman_region32_t
 *
 new_reg
+const
 pixman_region32_t
 *
 reg1
+const
 pixman_box32_t
 *
 inv_rect
@@ -1904,6 +1938,7 @@ PIXMAN_API
 pixman_bool_t
 pixman_region32_contains_point
 (
+const
 pixman_region32_t
 *
 region
@@ -1920,9 +1955,11 @@ PIXMAN_API
 pixman_region_overlap_t
 pixman_region32_contains_rectangle
 (
+const
 pixman_region32_t
 *
 region
+const
 pixman_box32_t
 *
 prect
@@ -1932,6 +1969,7 @@ PIXMAN_API
 pixman_bool_t
 pixman_region32_not_empty
 (
+const
 pixman_region32_t
 *
 region
@@ -1942,6 +1980,7 @@ pixman_box32_t
 *
 pixman_region32_extents
 (
+const
 pixman_region32_t
 *
 region
@@ -1951,6 +1990,7 @@ PIXMAN_API
 int
 pixman_region32_n_rects
 (
+const
 pixman_region32_t
 *
 region
@@ -1961,6 +2001,7 @@ pixman_box32_t
 *
 pixman_region32_rectangles
 (
+const
 pixman_region32_t
 *
 region
@@ -1973,9 +2014,11 @@ PIXMAN_API
 pixman_bool_t
 pixman_region32_equal
 (
+const
 pixman_region32_t
 *
 region1
+const
 pixman_region32_t
 *
 region2
@@ -1997,6 +2040,7 @@ pixman_region32_reset
 pixman_region32_t
 *
 region
+const
 pixman_box32_t
 *
 box

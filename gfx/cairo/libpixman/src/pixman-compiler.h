@@ -512,6 +512,7 @@ name
 static
 type
 name
+;
 #
 define
 PIXMAN_GET_THREAD_LOCAL
@@ -541,6 +542,7 @@ static
 TLS
 type
 name
+;
 #
 define
 PIXMAN_GET_THREAD_LOCAL
@@ -928,6 +930,7 @@ thread
 )
 type
 name
+;
 #
 define
 PIXMAN_GET_THREAD_LOCAL

@@ -150,7 +150,6 @@ PIXMAN_DEFINE_THREAD_LOCAL
 cache_t
 fast_path_cache
 )
-;
 static
 void
 dummy_composite_rect
