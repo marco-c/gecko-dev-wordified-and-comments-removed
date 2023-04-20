@@ -820,8 +820,7 @@ echo
 -
 -
 "
-(
-cd
+python3
 dom
 /
 media
@@ -829,10 +828,7 @@ media
 webrtc
 /
 third_party_build
-&
-&
-\
-python3
+/
 vendor
 -
 libwebrtc
@@ -852,8 +848,6 @@ commit
 MOZ_LIBWEBRTC_COMMIT
 \
 libwebrtc
-\
-)
 }
 #
 The
