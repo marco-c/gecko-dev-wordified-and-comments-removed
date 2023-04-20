@@ -5113,6 +5113,15 @@ GetWritingMode
 )
 ;
 }
+const
+nsAtom
+*
+ComputePageValue
+(
+)
+const
+MOZ_NONNULL_RETURN
+;
 bool
 TrackingVisibility
 (

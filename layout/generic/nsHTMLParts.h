@@ -510,6 +510,12 @@ mozilla
 ComputedStyle
 *
 aStyle
+already_AddRefed
+<
+const
+nsAtom
+>
+aPageName
 )
 ;
 nsIFrame
