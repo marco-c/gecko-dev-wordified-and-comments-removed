@@ -80,7 +80,7 @@ typedef
 (
 MatchGlob
 or
-DOMString
+UTF8String
 )
 MatchGlobOrString
 ;
