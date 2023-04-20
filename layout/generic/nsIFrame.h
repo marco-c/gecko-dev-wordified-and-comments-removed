@@ -273,6 +273,15 @@ include
 "
 mozilla
 /
+ComputedStyleInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EnumSet
 .
 h
