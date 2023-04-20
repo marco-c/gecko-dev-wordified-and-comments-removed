@@ -39,6 +39,16 @@ for
 rel106
 "
 export
+MOZ_GIT_RELEASE_BRANCH
+=
+"
+branch
+-
+heads
+/
+5195
+"
+export
 MOZ_LIBWEBRTC_COMMIT
 =
 "

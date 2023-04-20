@@ -361,7 +361,7 @@ r
 MOZ_LIBWEBRTC_BASE
 .
 .
-master
+MOZ_GIT_RELEASE_BRANCH
 \
 |
 grep
