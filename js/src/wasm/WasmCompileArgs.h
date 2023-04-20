@@ -428,6 +428,16 @@ error
 ;
 static
 SharedCompileArgs
+buildForAsmJS
+(
+ScriptedCaller
+&
+&
+scriptedCaller
+)
+;
+static
+SharedCompileArgs
 buildAndReport
 (
 JSContext
