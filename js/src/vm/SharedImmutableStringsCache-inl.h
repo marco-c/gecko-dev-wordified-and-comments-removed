@@ -162,6 +162,9 @@ move
 ownedChars
 )
 length
+this
+-
+>
 inner_
 )
 ;
@@ -409,6 +412,9 @@ sizeof
 (
 char16_t
 )
+this
+-
+>
 inner_
 )
 ;

@@ -44,12 +44,6 @@ ShellObjectMailbox
 100
 )
 \
-_
-(
-WellKnownParserAtomsInit
-100
-)
-\
 \
 _
 (
@@ -90,12 +84,6 @@ GlobalHelperThreadState
 400
 )
 \
-\
-_
-(
-StringsCache
-500
-)
 \
 _
 (

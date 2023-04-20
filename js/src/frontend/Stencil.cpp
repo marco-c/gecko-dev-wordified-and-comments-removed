@@ -14617,6 +14617,9 @@ ExtensibleCompilationStencil
 :
 ExtensibleCompilationStencil
 (
+JSContext
+*
+cx
 ScriptSource
 *
 source
@@ -14635,6 +14638,12 @@ source
 )
 parserAtoms
 (
+cx
+-
+>
+runtime
+(
+)
 alloc
 )
 {
@@ -14644,6 +14653,9 @@ ExtensibleCompilationStencil
 :
 ExtensibleCompilationStencil
 (
+JSContext
+*
+cx
 CompilationInput
 &
 input
@@ -14673,6 +14685,12 @@ source
 )
 parserAtoms
 (
+cx
+-
+>
+runtime
+(
+)
 alloc
 )
 {
@@ -14682,6 +14700,9 @@ ExtensibleCompilationStencil
 :
 ExtensibleCompilationStencil
 (
+JSContext
+*
+cx
 const
 JS
 :
@@ -14722,6 +14743,12 @@ source
 )
 parserAtoms
 (
+cx
+-
+>
+runtime
+(
+)
 alloc
 )
 {
@@ -14744,6 +14771,7 @@ input
 :
 ExtensibleCompilationStencil
 (
+cx
 input
 )
 directives
