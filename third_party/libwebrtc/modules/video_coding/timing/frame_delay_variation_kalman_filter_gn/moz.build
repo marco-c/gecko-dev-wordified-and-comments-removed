@@ -228,7 +228,7 @@ video_coding
 /
 timing
 /
-frame_delay_delta_kalman_filter
+frame_delay_variation_kalman_filter
 .
 cc
 "
@@ -1453,6 +1453,6 @@ True
 Library
 (
 "
-frame_delay_delta_kalman_filter_gn
+frame_delay_variation_kalman_filter_gn
 "
 )
