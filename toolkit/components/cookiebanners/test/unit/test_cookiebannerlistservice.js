@@ -653,6 +653,9 @@ Services
 cookieBanners
 =
 {
+isEnabled
+:
+true
 insertRule
 removeRule
 resetRules
