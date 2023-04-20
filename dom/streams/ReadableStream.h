@@ -166,7 +166,6 @@ MessagePort
 ;
 class
 ReadableStream
-final
 :
 public
 nsISupports
@@ -182,6 +181,7 @@ ReadableStream
 )
 protected
 :
+virtual
 ~
 ReadableStream
 (
