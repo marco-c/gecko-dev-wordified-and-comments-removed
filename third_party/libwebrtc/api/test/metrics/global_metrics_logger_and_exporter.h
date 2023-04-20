@@ -36,7 +36,7 @@ test
 /
 metrics
 /
-metrics_logger_and_exporter
+metrics_logger
 .
 h
 "
