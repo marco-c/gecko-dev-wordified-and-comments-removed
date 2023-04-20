@@ -115,7 +115,7 @@ types
 may
 be
 used
-interchangably
+interchangeably
 across
 FFI
 boundaries

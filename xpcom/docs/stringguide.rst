@@ -717,7 +717,7 @@ code
 when
 stored
 in
-statics
+static
 as
 opposed
 to
@@ -3135,7 +3135,7 @@ not
 exceed
 the
 capacity
-retuned
+returned
 by
 the
 Length
@@ -4427,7 +4427,7 @@ h
 >
 _
 .
-Additonally
+Additionally
 on
 Windows
 the
@@ -6157,9 +6157,9 @@ nsAutoString
 which
 holds
 a
-temproary
+temporary
 buffer
-contianing
+containing
 the
 value
 of

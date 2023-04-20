@@ -357,7 +357,7 @@ and
 that
 is
 completely
-independant
+independent
 from
 other
 layers

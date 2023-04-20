@@ -2610,7 +2610,7 @@ build
 \
 property
 configuration
-proprety
+property
 .
 The
 following
@@ -4436,7 +4436,7 @@ jsm
 >
 __
 for
-determing
+determining
 the
 platform
 for

@@ -133,7 +133,7 @@ can
 use
 its
 path
-explicitely
+explicitly
 :
 :
 .

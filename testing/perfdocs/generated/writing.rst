@@ -1215,7 +1215,7 @@ in
 which
 the
 exception
-occured
+occurred
 and
 the
 exception
@@ -1247,7 +1247,7 @@ and
 the
 test
 ends
-immediatly
+immediately
 .
 The
 hook

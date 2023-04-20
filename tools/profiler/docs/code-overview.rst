@@ -11532,7 +11532,7 @@ characters
 .
 While
 these
-clases
+classes
 live
 outside
 of

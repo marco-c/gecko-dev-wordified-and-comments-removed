@@ -229,7 +229,7 @@ page
 without
 restarting
 the
-brower
+browser
 in
 between
 cycles

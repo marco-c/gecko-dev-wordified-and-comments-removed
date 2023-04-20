@@ -2106,7 +2106,7 @@ CEnums
 Constants
 must
 be
-attched
+attached
 to
 an
 interface

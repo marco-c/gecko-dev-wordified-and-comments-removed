@@ -412,7 +412,7 @@ does
 not
 have
 an
-expeected
+expected
 type
 or
 if
@@ -484,7 +484,7 @@ string
 filter
 .
 *
-Determing
+Determining
 if
 a
 page
@@ -492,7 +492,7 @@ has
 been
 visited
 .
-Connectes
+Connects
 with
 database
 and

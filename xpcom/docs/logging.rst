@@ -350,7 +350,7 @@ of
 performance
 and
 contextual
-informations
+information
 in
 a
 way
@@ -364,7 +364,7 @@ the
 sandbox
 and
 works
-accross
+across
 all
 processes
 .

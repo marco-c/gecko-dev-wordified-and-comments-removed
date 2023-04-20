@@ -4954,7 +4954,7 @@ for
 example
 parent
 :
-preceeds
+precedes
 __delete__
 meaning
 __delete__
@@ -8987,7 +8987,7 @@ create
 or
 manipulate
 these
-obejcts
+objects
 .
 Their
 advanced
@@ -12603,7 +12603,7 @@ actors
 created
 by
 sending
-construtor
+constructor
 messages
 but
 the
@@ -14977,7 +14977,7 @@ message
 generates
 a
 fair
-amound
+amount
 of
 C
 +
@@ -17953,7 +17953,7 @@ important
 :
 :
 The
-preceeding
+preceding
 P
 and
 the

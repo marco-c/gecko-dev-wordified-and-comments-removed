@@ -3163,7 +3163,7 @@ error
 A
 synchronization
 error
-occured
+occurred
 .
 Notification
 subject

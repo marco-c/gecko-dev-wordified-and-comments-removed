@@ -1101,7 +1101,7 @@ usually
 the
 first
 connections
-establised
+established
 between
 the
 two
@@ -1582,7 +1582,7 @@ the
 launcher
 and
 main
-processses
+processes
 )
 needs
 two
@@ -7595,7 +7595,7 @@ the
 command
 line
 arguments
-constucted
+constructed
 above
 so
 it
@@ -8195,7 +8195,7 @@ level
 actor
 at
 either
-endoint
+endpoint
 will
 begin
 the
@@ -12515,7 +12515,7 @@ panacea
 Since
 the
 environmental
-varaiables
+variables
 are
 not
 specific

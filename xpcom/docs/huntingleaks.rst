@@ -31,7 +31,7 @@ depth
 Different
 tools
 and
-technics
+techniques
 are
 used
 to

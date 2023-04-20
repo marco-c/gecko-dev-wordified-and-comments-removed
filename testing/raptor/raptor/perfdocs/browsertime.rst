@@ -324,7 +324,7 @@ but
 these
 can
 be
-overriden
+overridden
 with
 -
 -
@@ -2361,7 +2361,7 @@ it
 is
 also
 not
-reccomended
+recommended
 to
 use
 .

@@ -325,7 +325,7 @@ event
 _
 that
 is
-catched
+caught
 by
 the
 Result

@@ -1476,7 +1476,7 @@ declaration
 for
 the
 isAlive
-attribue
+attribute
 :
 /
 /
