@@ -3453,7 +3453,16 @@ accessibility_cache_enabled_AtStartup
 )
 {
 return
-false
+RemoteAccessibleBase
+<
+RemoteAccessible
+>
+:
+:
+RemoveFromSelection
+(
+aSelectionNum
+)
 ;
 }
 RefPtr

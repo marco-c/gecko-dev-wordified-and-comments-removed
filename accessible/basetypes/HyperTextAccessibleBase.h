@@ -501,6 +501,17 @@ aEndOffset
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+virtual
+bool
+RemoveFromSelection
+(
+int32_t
+aSelectionNum
+)
+=
+0
+;
 protected
 :
 virtual

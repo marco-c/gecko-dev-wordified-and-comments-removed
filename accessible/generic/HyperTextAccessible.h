@@ -642,12 +642,14 @@ aEndOffset
 override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
+virtual
 bool
 RemoveFromSelection
 (
 int32_t
 aSelectionNum
 )
+override
 ;
 void
 ScrollSubstringTo

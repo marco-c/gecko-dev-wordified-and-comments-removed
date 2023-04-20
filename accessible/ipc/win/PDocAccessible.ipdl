@@ -581,6 +581,15 @@ aSelectionNum
 )
 ;
 async
+RemoveTextSelection
+(
+uint64_t
+aID
+int32_t
+aSelectionNum
+)
+;
+async
 VerifyCache
 (
 uint64_t
