@@ -161,11 +161,15 @@ global
 /
 tabprompts
 .
-jsm
+sys
+.
+mjs
 (
 content
 /
 tabprompts
 .
-jsm
+sys
+.
+mjs
 )
