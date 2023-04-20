@@ -623,6 +623,9 @@ bool
 need_outside
 :
 bool
+rasterization_truncates
+:
+bool
 output_ptr
 :
 *
@@ -727,6 +730,7 @@ clip_width
 clip_height
 need_inside
 need_outside
+rasterization_truncates
 output_buffer
 )
 ;

@@ -697,6 +697,11 @@ mMaxTextureSize
 =
 0
 ;
+bool
+mRasterizationTruncates
+=
+false
+;
 CompositionOp
 mLastCompositionOp
 =
