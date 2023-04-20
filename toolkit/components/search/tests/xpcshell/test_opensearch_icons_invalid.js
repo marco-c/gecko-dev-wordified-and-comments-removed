@@ -59,6 +59,9 @@ SearchTestUtils
 promiseNewSearchEngine
 (
 {
+url
+:
+{
 gDataUrl
 }
 opensearch
@@ -66,6 +69,7 @@ opensearch
 resourceicon
 .
 xml
+}
 )
 ;
 let
@@ -77,6 +81,9 @@ SearchTestUtils
 promiseNewSearchEngine
 (
 {
+url
+:
+{
 gDataUrl
 }
 opensearch
@@ -84,6 +91,7 @@ opensearch
 chromeicon
 .
 xml
+}
 )
 ;
 Assert
@@ -162,6 +170,9 @@ SearchTestUtils
 promiseNewSearchEngine
 (
 {
+url
+:
+{
 gDataUrl
 }
 data
@@ -200,6 +211,7 @@ GET
 "
 }
 )
+}
 )
 ;
 await

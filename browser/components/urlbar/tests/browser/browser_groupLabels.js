@@ -2887,12 +2887,16 @@ SearchTestUtils
 .
 promiseNewSearchEngine
 (
+{
+url
+:
 getRootDirectory
 (
 gTestPath
 )
 +
 engineBasename
+}
 )
 ;
 let

@@ -717,6 +717,9 @@ SearchTestUtils
 .
 promiseNewSearchEngine
 (
+{
+url
+:
 getRootDirectory
 (
 gTestPath
@@ -727,6 +730,7 @@ searchSuggestionEngineSlow
 .
 xml
 "
+}
 )
 ;
 let

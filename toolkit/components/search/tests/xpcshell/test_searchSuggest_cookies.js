@@ -413,6 +413,9 @@ SearchTestUtils
 promiseNewSearchEngine
 (
 {
+url
+:
+{
 gDataUrl
 }
 engineMaker
@@ -439,12 +442,16 @@ GET
 }
 )
 }
+}
 )
 await
 SearchTestUtils
 .
 promiseNewSearchEngine
 (
+{
+url
+:
 {
 gDataUrl
 }
@@ -474,6 +481,7 @@ GET
 "
 }
 )
+}
 }
 )
 ]

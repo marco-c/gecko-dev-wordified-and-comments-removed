@@ -114,6 +114,9 @@ SearchTestUtils
 .
 promiseNewSearchEngine
 (
+{
+url
+:
 getRootDirectory
 (
 gTestPath
@@ -124,6 +127,7 @@ testEngine_diacritics
 .
 xml
 "
+}
 )
 ;
 registerCleanupFunction

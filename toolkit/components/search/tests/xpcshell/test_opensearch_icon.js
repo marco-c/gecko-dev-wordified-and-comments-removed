@@ -225,6 +225,9 @@ SearchTestUtils
 promiseNewSearchEngine
 (
 {
+url
+:
+{
 gDataUrl
 }
 engineMaker
@@ -238,6 +241,7 @@ stringify
 (
 engineData
 )
+}
 }
 )
 ;

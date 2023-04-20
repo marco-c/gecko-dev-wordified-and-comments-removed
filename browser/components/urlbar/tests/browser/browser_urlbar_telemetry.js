@@ -261,6 +261,9 @@ SearchTestUtils
 .
 promiseNewSearchEngine
 (
+{
+url
+:
 getRootDirectory
 (
 gTestPath
@@ -271,6 +274,7 @@ urlbarTelemetrySearchSuggestions
 .
 xml
 "
+}
 )
 ;
 let
