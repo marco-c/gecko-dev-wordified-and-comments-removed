@@ -51,6 +51,19 @@ injector
 >
 .
 mozconfig
+echo
+ac_add_options
+-
+-
+enable
+-
+linker
+=
+lld
+>
+>
+.
+mozconfig
 INJECTOR
 =
 libbreakpadinjector
@@ -59,7 +72,6 @@ so
 TOOLCHAINS
 =
 "
-binutils
 rustc
 clang
 "

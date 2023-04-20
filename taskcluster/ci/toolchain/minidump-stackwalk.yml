@@ -556,10 +556,6 @@ toolchain
 -
 linux64
 -
-binutils
--
-linux64
--
 toolchain
 -
 sysroot

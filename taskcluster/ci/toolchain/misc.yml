@@ -333,10 +333,6 @@ toolchain
 -
 linux64
 -
-binutils
--
-linux64
--
 toolchain
 -
 sysroot
@@ -694,10 +690,6 @@ linux64
 clang
 -
 toolchain
--
-linux64
--
-binutils
 run
 :
 script
