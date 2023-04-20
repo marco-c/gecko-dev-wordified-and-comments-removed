@@ -3948,7 +3948,6 @@ DEFAULT_THREAD_TIMEOUT_MS
 "
 ExtensionProtocolHandler
 "
-_ns
 )
 ;
 }

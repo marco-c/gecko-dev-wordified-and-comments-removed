@@ -1142,9 +1142,9 @@ IShellLinkW
 >
 &
 aShellLink
-nsCOMPtr
+RefPtr
 <
-nsIThread
+LazyIdleThread
 >
 &
 aIOThread
