@@ -146,9 +146,9 @@ LoginRecipes
 )
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -167,7 +167,9 @@ remote
 -
 settings
 .
-js
+sys
+.
+mjs
 "
 }
 )
