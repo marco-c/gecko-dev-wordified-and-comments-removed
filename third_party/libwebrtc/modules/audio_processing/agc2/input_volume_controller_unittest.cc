@@ -231,7 +231,7 @@ constexpr
 int
 kMinDigitalGainDb
 =
-2
+0
 ;
 constexpr
 float
@@ -345,7 +345,7 @@ kClippedMin
 .
 digital_adaptive_follows
 =
-false
+true
 .
 clipped_level_step
 =
@@ -2451,7 +2451,7 @@ GetValueOrEmpty
 ;
 EXPECT_EQ
 (
-130
+128
 helper
 .
 manager
@@ -2478,7 +2478,7 @@ GetValueOrEmpty
 ;
 EXPECT_EQ
 (
-168
+156
 helper
 .
 manager
@@ -2535,7 +2535,7 @@ GetValueOrEmpty
 ;
 EXPECT_EQ
 (
-167
+155
 helper
 .
 manager
@@ -2562,7 +2562,7 @@ GetValueOrEmpty
 ;
 EXPECT_EQ
 (
-163
+151
 helper
 .
 manager
@@ -2589,7 +2589,7 @@ GetValueOrEmpty
 ;
 EXPECT_EQ
 (
-129
+119
 helper
 .
 manager
@@ -3467,7 +3467,7 @@ GetValueOrEmpty
 ;
 EXPECT_EQ
 (
-69
+65
 helper
 .
 manager
@@ -3584,7 +3584,7 @@ GetValueOrEmpty
 ;
 EXPECT_EQ
 (
-2
+1
 helper
 .
 manager
@@ -3611,7 +3611,7 @@ GetValueOrEmpty
 ;
 EXPECT_EQ
 (
-11
+10
 helper
 .
 manager
@@ -3638,7 +3638,7 @@ GetValueOrEmpty
 ;
 EXPECT_EQ
 (
-18
+16
 helper
 .
 manager
@@ -5499,7 +5499,7 @@ config
 .
 digital_adaptive_follows
 =
-false
+true
 ;
 config
 .
@@ -5751,7 +5751,7 @@ config
 .
 digital_adaptive_follows
 =
-false
+true
 ;
 config
 .
