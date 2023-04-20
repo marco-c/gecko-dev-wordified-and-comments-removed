@@ -718,6 +718,13 @@ RPMGetTRRDomain
 *
 "
 ]
+RPMIsSiteSpecificTRRError
+:
+[
+"
+*
+"
+]
 RPMSendQuery
 :
 [
