@@ -86,12 +86,12 @@ position
 ;
 private
 :
-enum
-{
+static
+constexpr
+int
 kMinFrequency
 =
 5
-}
 ;
 int
 sample_rate_
