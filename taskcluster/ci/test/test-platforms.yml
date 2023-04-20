@@ -1049,7 +1049,6 @@ desktop
 screenshot
 -
 capture
-#
 -
 web
 -
@@ -1091,7 +1090,6 @@ desktop
 screenshot
 -
 capture
-#
 -
 web
 -
@@ -1138,7 +1136,6 @@ test
 -
 sets
 :
-#
 -
 web
 -
@@ -1819,7 +1816,6 @@ code
 coverage
 -
 tests
-#
 -
 windows10
 -
@@ -1870,7 +1866,6 @@ test
 -
 sets
 :
-#
 -
 web
 -
@@ -1942,14 +1937,12 @@ desktop
 screenshot
 -
 capture
-#
 -
 web
 -
 platform
 -
 tests
-#
 -
 web
 -
@@ -2039,14 +2032,12 @@ desktop
 screenshot
 -
 capture
-#
 -
 web
 -
 platform
 -
 tests
-#
 -
 web
 -
@@ -2111,7 +2102,6 @@ desktop
 screenshot
 -
 capture
-#
 -
 web
 -
