@@ -483,6 +483,17 @@ GetSupportedFormats
 (
 )
 ;
+std
+:
+:
+vector
+<
+SdpVideoFormat
+>
+augmented_formats
+=
+formats
+;
 for
 (
 const
@@ -535,7 +546,7 @@ cricket
 :
 kMultiplexCodecName
 ;
-formats
+augmented_formats
 .
 push_back
 (
@@ -545,7 +556,7 @@ multiplex_format
 }
 }
 return
-formats
+augmented_formats
 ;
 }
 std
