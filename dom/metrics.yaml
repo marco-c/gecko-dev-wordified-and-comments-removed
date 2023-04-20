@@ -314,6 +314,7 @@ other
 type
 :
 string
-telemetry_mirror
+send_in_pings
 :
-Page_load_Toplevel_Content
+-
+pageload
