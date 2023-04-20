@@ -1332,6 +1332,12 @@ TimeDelta
 tick_period
 )
 ;
+~
+TaskQueueMetronome
+(
+)
+override
+;
 void
 RequestCallOnNextTick
 (
@@ -1363,6 +1369,9 @@ const
 TimeDelta
 tick_period_
 ;
+SequenceChecker
+sequence_checker_
+;
 std
 :
 :
@@ -1381,6 +1390,9 @@ void
 >
 >
 callbacks_
+;
+ScopedTaskSafetyDetached
+safety_
 ;
 }
 ;

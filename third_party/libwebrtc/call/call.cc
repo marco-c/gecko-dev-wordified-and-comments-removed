@@ -5410,7 +5410,11 @@ trials
 )
 &
 nack_periodic_processor_
-nullptr
+decode_sync_
+.
+get
+(
+)
 event_log_
 )
 ;
