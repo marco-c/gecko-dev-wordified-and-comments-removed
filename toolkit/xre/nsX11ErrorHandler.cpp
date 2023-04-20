@@ -240,9 +240,6 @@ XErrorEvent
 event
 )
 {
-#
-ifdef
-DEBUG
 unsigned
 long
 age
@@ -257,8 +254,6 @@ event
 >
 serial
 ;
-#
-endif
 nsAutoCString
 message
 ;
@@ -479,9 +474,6 @@ Append
 buffer
 )
 ;
-#
-ifdef
-DEBUG
 if
 (
 age
@@ -549,6 +541,9 @@ ago
 ;
 }
 }
+#
+ifdef
+DEBUG
 notes
 .
 AppendLiteral
