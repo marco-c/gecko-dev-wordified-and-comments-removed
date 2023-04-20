@@ -20,13 +20,13 @@ hgtags
 "
 ]
 import
-os
+glob
 import
-sys
+os
 import
 shutil
 import
-glob
+sys
 from
 optparse
 import
