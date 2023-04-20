@@ -10443,7 +10443,6 @@ if
 !
 setFilename
 (
-cx
 fc
 options
 .
@@ -10472,7 +10471,6 @@ if
 !
 setIntroducerFilename
 (
-cx
 fc
 options
 .
@@ -10651,9 +10649,6 @@ ScriptSource
 :
 setFilename
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -10744,9 +10739,6 @@ ScriptSource
 :
 setIntroducerFilename
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -10837,9 +10829,6 @@ ScriptSource
 :
 setDisplayURL
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -10871,7 +10860,6 @@ false
 return
 setDisplayURL
 (
-cx
 fc
 std
 :
@@ -10889,9 +10877,6 @@ ScriptSource
 :
 setDisplayURL
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -11009,9 +10994,6 @@ ScriptSource
 :
 setSourceMapURL
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc

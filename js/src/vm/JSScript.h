@@ -3945,9 +3945,6 @@ nodiscard
 bool
 setFilename
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -4004,9 +4001,6 @@ nodiscard
 bool
 setIntroducerFilename
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -4080,9 +4074,6 @@ nodiscard
 bool
 setDisplayURL
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -4100,9 +4091,6 @@ nodiscard
 bool
 setDisplayURL
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -4148,9 +4136,6 @@ nodiscard
 bool
 setSourceMapURL
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
