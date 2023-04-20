@@ -100,5 +100,12 @@ BOUNDARY_FLAG_STOP_IN_EDITABLE
 =
 0x2
 ;
+const
+unsigned
+long
+BOUNDARY_FLAG_SKIP_LIST_ITEM_MARKER
+=
+0x4
+;
 }
 ;

@@ -122,6 +122,15 @@ nsIAccessibleTextLeafPoint
 .
 BOUNDARY_FLAG_STOP_IN_EDITABLE
 ;
+const
+BOUNDARY_FLAG_SKIP_LIST_ITEM_MARKER
+=
+Ci
+.
+nsIAccessibleTextLeafPoint
+.
+BOUNDARY_FLAG_SKIP_LIST_ITEM_MARKER
+;
 function
 createTextLeafPoint
 (
