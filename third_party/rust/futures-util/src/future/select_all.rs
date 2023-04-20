@@ -373,6 +373,16 @@ res
 =
 >
 {
+#
+[
+allow
+(
+clippy
+:
+:
+let_underscore_future
+)
+]
 let
 _
 =

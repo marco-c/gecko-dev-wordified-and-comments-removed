@@ -17663,7 +17663,7 @@ SendStream
 Send
 )
 ;
-assert_not_impl
+assert_impl
 !
 (
 ReadyChunks
@@ -17700,7 +17700,7 @@ SyncStream
 Sync
 )
 ;
-assert_not_impl
+assert_impl
 !
 (
 ReadyChunks

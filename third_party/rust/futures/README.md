@@ -146,6 +146,8 @@ io
 /
 github
 /
+actions
+/
 workflow
 /
 status
@@ -158,8 +160,12 @@ futures
 -
 rs
 /
-CI
-/
+ci
+.
+yml
+?
+branch
+=
 master
 "
 >
@@ -190,7 +196,7 @@ img
 alt
 =
 "
-Crates
+crates
 .
 io
 "
@@ -246,7 +252,6 @@ docs
 rs
 /
 futures
-/
 "
 >
 Documentation

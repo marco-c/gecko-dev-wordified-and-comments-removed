@@ -64,13 +64,6 @@ T
 Empty
 Inconsistent
 }
-#
-[
-derive
-(
-Debug
-)
-]
 struct
 Node
 <
@@ -90,13 +83,6 @@ Option
 T
 >
 }
-#
-[
-derive
-(
-Debug
-)
-]
 pub
 (
 super
