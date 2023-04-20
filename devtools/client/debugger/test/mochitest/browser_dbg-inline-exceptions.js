@@ -54,7 +54,7 @@ await
 assertPreviewTextValue
 (
 dbg
-81
+85
 10
 {
 text
@@ -79,7 +79,7 @@ await
 closePreviewAtPos
 (
 dbg
-81
+85
 10
 )
 ;
