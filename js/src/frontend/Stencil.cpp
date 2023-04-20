@@ -14739,6 +14739,9 @@ CompilationState
 JSContext
 *
 cx
+ErrorContext
+*
+ec
 LifoAllocScope
 &
 parserAllocScope
@@ -14763,7 +14766,7 @@ forceStrictMode
 )
 usedNames
 (
-cx
+ec
 )
 parserAllocScope
 (
