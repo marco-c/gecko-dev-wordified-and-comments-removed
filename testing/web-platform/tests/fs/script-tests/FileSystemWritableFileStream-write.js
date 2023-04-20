@@ -3260,10 +3260,15 @@ source_blob
 )
 ;
 await
+promise_rejects_js
+(
+t
+TypeError
 stream
 .
 close
 (
+)
 )
 ;
 assert_equals
