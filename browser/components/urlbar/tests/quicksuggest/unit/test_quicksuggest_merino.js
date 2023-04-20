@@ -527,7 +527,7 @@ gClient
 >
 UrlbarProviderQuickSuggest
 .
-_merino
+_test_merino
 )
 ;
 add_task
