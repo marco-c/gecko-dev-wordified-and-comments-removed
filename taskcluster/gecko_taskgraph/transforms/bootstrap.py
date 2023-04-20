@@ -17,14 +17,9 @@ Schema
 from
 voluptuous
 import
-(
-    
 Any
-    
 Optional
-    
 Required
-)
 transforms
 =
 TransformSequence
