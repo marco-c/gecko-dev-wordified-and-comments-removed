@@ -1893,6 +1893,14 @@ deps
 /
 rtc_base
 :
+checks
+"
+"
+.
+.
+/
+rtc_base
+:
 socket_address
 "
 "
