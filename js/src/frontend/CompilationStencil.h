@@ -6215,9 +6215,6 @@ pos
 bool
 allocateGCThingsUninitialized
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc

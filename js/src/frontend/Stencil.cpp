@@ -25861,9 +25861,6 @@ CompilationState
 :
 allocateGCThingsUninitialized
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc

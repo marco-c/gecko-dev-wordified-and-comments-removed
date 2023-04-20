@@ -2119,7 +2119,6 @@ compilationState
 .
 allocateGCThingsUninitialized
 (
-cx
 fc
 scriptIndex
 ngcthings
