@@ -2725,7 +2725,6 @@ return
 AV_CODEC_ID_MP3
 ;
 }
-else
 if
 (
 aMimeType
@@ -2744,7 +2743,6 @@ return
 AV_CODEC_ID_FLAC
 ;
 }
-else
 if
 (
 aMimeType
