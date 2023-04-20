@@ -207,6 +207,17 @@ argNeedQuotes
 ;
 if
 (
+*
+*
+arg
+=
+=
+'
+\
+0
+'
+|
+|
 strpbrk
 (
 *
