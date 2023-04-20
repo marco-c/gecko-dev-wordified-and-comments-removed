@@ -8862,6 +8862,16 @@ return
 site_specific_contextual_search
 "
 ;
+case
+"
+Weather
+"
+:
+return
+"
+weather
+"
+;
 }
 break
 ;

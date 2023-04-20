@@ -1302,6 +1302,7 @@ top_site
 calc
 unit
 site_specific_contextual_search
+weather
 suggest_sponsor
 and
 suggest_non_sponsor
@@ -1650,6 +1651,7 @@ top_site
 calc
 unit
 site_specific_contextual_search
+weather
 suggest_sponsor
 and
 suggest_non_sponsor
