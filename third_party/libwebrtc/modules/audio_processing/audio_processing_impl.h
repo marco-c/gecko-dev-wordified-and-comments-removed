@@ -881,6 +881,17 @@ ApmWithSubmodulesExcludedTest
 BitexactWithDisabledModules
 )
 ;
+void
+set_stream_analog_level_locked
+(
+int
+level
+)
+RTC_EXCLUSIVE_LOCKS_REQUIRED
+(
+mutex_capture_
+)
+;
 int
 recommended_stream_analog_level_locked
 (
