@@ -1209,11 +1209,14 @@ target_tasks_method
 ]
     
 if
+(
+        
 "
 DONTBUILD
 "
 in
 commit_message
+        
 and
 options
 [
@@ -1228,6 +1231,16 @@ hg
 -
 push
 "
+        
+and
+project
+!
+=
+"
+toolchains
+"
+    
+)
 :
         
 parameters
