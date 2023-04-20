@@ -2681,6 +2681,14 @@ rtc_event
 .
 /
 rtc_base
+:
+stringutils
+"
+"
+.
+.
+/
+rtc_base
 /
 system
 :

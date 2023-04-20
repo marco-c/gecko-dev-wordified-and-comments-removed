@@ -347,7 +347,7 @@ override
 ;
 private
 :
-uint8_t
+char
 *
 buffer_
 ;
