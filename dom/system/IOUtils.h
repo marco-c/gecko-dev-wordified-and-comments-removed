@@ -1451,6 +1451,8 @@ bool
 aIgnoreAbsent
 bool
 aRecursive
+bool
+aRetryReadonly
 )
 ;
 static
