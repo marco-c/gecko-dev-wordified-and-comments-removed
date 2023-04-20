@@ -562,7 +562,9 @@ Files
 "
 Sanitizer
 .
-jsm
+sys
+.
+mjs
 "
 )
 :
@@ -927,7 +929,9 @@ jsm
 "
 Sanitizer
 .
-jsm
+sys
+.
+mjs
 "
 "
 SelectionChangedMenulist
