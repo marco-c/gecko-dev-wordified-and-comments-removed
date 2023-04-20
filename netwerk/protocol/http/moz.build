@@ -433,6 +433,11 @@ DnsAndConnectSocket
 cpp
 "
 "
+EarlyHintPreconnect
+.
+cpp
+"
+"
 EarlyHintPreloader
 .
 cpp
