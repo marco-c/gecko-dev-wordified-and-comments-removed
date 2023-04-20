@@ -36,6 +36,13 @@ wrl
 .
 h
 >
+#
+include
+"
+MFCDMProxy
+.
+h
+"
 namespace
 mozilla
 {
@@ -265,7 +272,7 @@ override
 HRESULT
 SetCDMProxy
 (
-void
+MFCDMProxy
 *
 aCDMProxy
 )
@@ -291,6 +298,12 @@ IMediaProtectionPMPServer
 *
 aPMPServer
 )
+;
+RefPtr
+<
+MFCDMProxy
+>
+mCDMProxy
 ;
 Microsoft
 :
