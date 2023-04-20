@@ -471,10 +471,14 @@ chunks
 :
 optionally_keyed_by
 (
+            
 "
 test
 -
 platform
+"
+"
+variant
 "
 Any
 (
@@ -483,6 +487,7 @@ int
 dynamic
 "
 )
+        
 )
         
 Optional
