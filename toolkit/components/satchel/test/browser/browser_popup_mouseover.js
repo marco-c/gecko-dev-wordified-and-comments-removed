@@ -259,7 +259,9 @@ richlistitem
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 listItemElems
 .
@@ -274,7 +276,9 @@ length
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 autoCompletePopup
 .
@@ -303,7 +307,9 @@ VK_DOWN
 browser
 )
 ;
-is
+Assert
+.
+equal
 (
 autoCompletePopup
 .
@@ -356,6 +362,8 @@ mousedOverIndex
 }
 )
 ;
+Assert
+.
 ok
 (
 true
@@ -365,7 +373,9 @@ changed
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 autoCompletePopup
 .
