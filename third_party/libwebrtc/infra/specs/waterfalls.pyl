@@ -1004,7 +1004,7 @@ mixins
 :
 [
 '
-mac11
+mac11_or_mac12
 '
 '
 x86
@@ -1064,7 +1064,7 @@ mixins
 :
 [
 '
-mac11
+mac11_or_mac12
 '
 '
 x86
@@ -1117,7 +1117,7 @@ mixins
 :
 [
 '
-mac11
+mac11_or_mac12
 '
 '
 x86
@@ -1166,7 +1166,7 @@ mixins
 :
 [
 '
-mac11
+mac11_or_mac12
 '
 '
 mac
@@ -1432,7 +1432,7 @@ mixins
 :
 [
 '
-mac11
+mac11_or_mac12
 '
 '
 chromium
@@ -1496,7 +1496,7 @@ mixins
 :
 [
 '
-mac11
+mac11_or_mac12
 '
 '
 chromium
@@ -1560,7 +1560,7 @@ mixins
 :
 [
 '
-mac11
+mac11_or_mac12
 '
 '
 chromium
@@ -2664,7 +2664,7 @@ mixins
 :
 [
 '
-mac11
+mac11_or_mac12
 '
 '
 chromium
@@ -2722,7 +2722,7 @@ mixins
 :
 [
 '
-mac11
+mac11_or_mac12
 '
 '
 chromium
@@ -2780,7 +2780,7 @@ mixins
 :
 [
 '
-mac11
+mac11_or_mac12
 '
 '
 chromium
@@ -3426,7 +3426,7 @@ mixins
 :
 [
 '
-mac11
+mac11_or_mac12
 '
 '
 x86
@@ -3490,7 +3490,7 @@ mixins
 :
 [
 '
-mac11
+mac11_or_mac12
 '
 '
 x86
@@ -3542,7 +3542,7 @@ mixins
 :
 [
 '
-mac11
+mac11_or_mac12
 '
 '
 mac
@@ -3598,7 +3598,7 @@ mixins
 :
 [
 '
-mac11
+mac11_or_mac12
 '
 '
 x86
@@ -3645,7 +3645,7 @@ mixins
 :
 [
 '
-mac11
+mac11_or_mac12
 '
 '
 mac
