@@ -33,17 +33,6 @@ h
 #
 include
 "
-api
-/
-task_queue
-/
-to_queued_task
-.
-h
-"
-#
-include
-"
 pc
 /
 peer_connection_internal
@@ -537,8 +526,6 @@ signaling_thread
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 self
 =
@@ -592,7 +579,6 @@ buffer
 }
 }
 )
-)
 ;
 }
 void
@@ -618,8 +604,6 @@ signaling_thread
 -
 >
 PostTask
-(
-ToQueuedTask
 (
 [
 self
@@ -658,7 +642,6 @@ channel_id
 }
 }
 )
-)
 ;
 }
 void
@@ -684,8 +667,6 @@ signaling_thread
 -
 >
 PostTask
-(
-ToQueuedTask
 (
 [
 self
@@ -724,7 +705,6 @@ channel_id
 }
 }
 )
-)
 ;
 }
 void
@@ -748,8 +728,6 @@ signaling_thread
 -
 >
 PostTask
-(
-ToQueuedTask
 (
 [
 self
@@ -797,7 +775,6 @@ data_channel_transport_ready_to_send_
 }
 }
 )
-)
 ;
 }
 void
@@ -823,8 +800,6 @@ signaling_thread
 -
 >
 PostTask
-(
-ToQueuedTask
 (
 [
 self
@@ -862,7 +837,6 @@ error
 ;
 }
 }
-)
 )
 ;
 }
@@ -1835,8 +1809,6 @@ signaling_thread
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 self
 =
@@ -1873,7 +1845,6 @@ clear
 ;
 }
 }
-)
 )
 ;
 return
@@ -2147,8 +2118,6 @@ signaling_thread
 >
 PostTask
 (
-ToQueuedTask
-(
 [
 self
 =
@@ -2197,7 +2166,6 @@ OnTransportChannelCreated
 }
 }
 }
-)
 )
 ;
 }
