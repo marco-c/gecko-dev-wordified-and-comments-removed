@@ -603,6 +603,16 @@ libwebrtc
 /
 api
 /
+libjingle_peerconnection_api_gn
+"
+"
+/
+third_party
+/
+libwebrtc
+/
+api
+/
 make_ref_counted_gn
 "
 "
