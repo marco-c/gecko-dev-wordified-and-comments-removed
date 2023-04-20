@@ -307,13 +307,6 @@ QpSmoother
 >
 qp_smoother_
 ;
-const
-VideoFrameBuffer
-:
-:
-Type
-preferred_output_format_
-;
 }
 ;
 }
