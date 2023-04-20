@@ -308,7 +308,7 @@ key
 of
 MigrationUtils
 .
-gAvailableMigratorKeys
+availableMigratorKeys
 )
 {
 try
