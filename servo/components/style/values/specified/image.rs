@@ -2548,12 +2548,14 @@ resolution
 =
 resolution
 .
-unwrap_or
+unwrap_or_else
 (
+|
+|
 Resolution
 :
 :
-X
+from_x
 (
 1
 .
