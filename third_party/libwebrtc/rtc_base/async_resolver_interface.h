@@ -88,12 +88,9 @@ addr
 int
 family
 )
-{
-RTC_DCHECK_NOTREACHED
-(
-)
+=
+0
 ;
-}
 virtual
 bool
 GetResolvedAddress
