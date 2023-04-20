@@ -34,8 +34,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 widget
 {
 void
@@ -66,6 +66,13 @@ retValue
 )
 ;
 void
+WindowClosed
+(
+HWND
+hwnd
+)
+;
+void
 GetLatestWindowMessages
 (
 RefPtr
@@ -81,7 +88,6 @@ nsCString
 messages
 )
 ;
-}
 }
 #
 endif
