@@ -1801,6 +1801,10 @@ nsContentUtils
 :
 ShouldResistFingerprinting
 (
+"
+Efficiency
+Check
+"
 )
 |
 |
