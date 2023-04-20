@@ -250,7 +250,19 @@ override
 MOCK_METHOD
 (
 void
-GenerateKeyFrame
+RequestRecvKeyFrame
+(
+uint32_t
+)
+(
+override
+)
+)
+;
+MOCK_METHOD
+(
+void
+GenerateSendKeyFrame
 (
 uint32_t
 )
@@ -536,7 +548,7 @@ GeneratesKeyFrame
 EXPECT_CALL
 (
 channel_
-GenerateKeyFrame
+RequestRecvKeyFrame
 (
 0
 )
@@ -573,7 +585,7 @@ VideoOptions
 EXPECT_CALL
 (
 channel_
-GenerateKeyFrame
+RequestRecvKeyFrame
 )
 .
 Times
@@ -584,7 +596,7 @@ Times
 EXPECT_CALL
 (
 channel2
-GenerateKeyFrame
+RequestRecvKeyFrame
 )
 .
 Times
@@ -610,7 +622,7 @@ channel2
 EXPECT_CALL
 (
 channel2
-GenerateKeyFrame
+RequestRecvKeyFrame
 )
 .
 Times
@@ -642,7 +654,7 @@ VideoOptions
 EXPECT_CALL
 (
 channel3
-GenerateKeyFrame
+RequestRecvKeyFrame
 )
 ;
 SetMediaChannel

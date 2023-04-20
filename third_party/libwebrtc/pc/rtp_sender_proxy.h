@@ -213,6 +213,11 @@ VideoEncoderFactory
 EncoderSelectorInterface
 >
 )
+PROXY_METHOD0
+(
+RTCError
+GenerateKeyFrame
+)
 END_PROXY_MAP
 (
 RtpSender

@@ -1410,6 +1410,12 @@ GetDtmfSender
 const
 override
 ;
+RTCError
+GenerateKeyFrame
+(
+)
+override
+;
 protected
 :
 AudioRtpSender
@@ -1665,6 +1671,12 @@ GetDtmfSender
 (
 )
 const
+override
+;
+RTCError
+GenerateKeyFrame
+(
+)
 override
 ;
 RTCError

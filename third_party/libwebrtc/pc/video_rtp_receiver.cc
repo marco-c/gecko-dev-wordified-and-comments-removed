@@ -1463,7 +1463,7 @@ saved_generate_keyframe_
 media_channel_
 -
 >
-GenerateKeyFrame
+RequestRecvKeyFrame
 (
 ssrc_
 .
@@ -1745,7 +1745,7 @@ return
 media_channel_
 -
 >
-GenerateKeyFrame
+RequestRecvKeyFrame
 (
 ssrc_
 .

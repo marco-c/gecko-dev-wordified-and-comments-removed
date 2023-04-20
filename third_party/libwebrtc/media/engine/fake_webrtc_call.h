@@ -1199,6 +1199,13 @@ return
 source_
 ;
 }
+void
+GenerateKeyFrame
+(
+)
+override
+{
+}
 private
 :
 void
