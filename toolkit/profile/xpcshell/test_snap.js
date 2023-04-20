@@ -64,6 +64,10 @@ true
 }
 )
 ;
+simulateSnapEnvironment
+(
+)
+;
 let
 {
 profile

@@ -6,6 +6,10 @@ async
 =
 >
 {
+simulateSnapEnvironment
+(
+)
+;
 let
 service
 =
