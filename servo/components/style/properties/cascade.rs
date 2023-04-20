@@ -1933,7 +1933,7 @@ Context
 )
 -
 >
-f32
+u8
 {
 let
 color
@@ -1955,9 +1955,7 @@ new
 0
 0
 0
-1
-.
-0
+255
 )
 )
 ;
@@ -2005,8 +2003,6 @@ if
 alpha
 =
 =
-0
-.
 0
 {
 return
@@ -2089,8 +2085,6 @@ clone_color
 alpha
 =
 =
-0
-.
 0
 {
 let

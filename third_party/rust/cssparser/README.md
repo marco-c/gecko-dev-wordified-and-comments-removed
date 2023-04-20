@@ -26,7 +26,9 @@ https
 :
 /
 /
-github
+travis
+-
+ci
 .
 com
 /
@@ -35,16 +37,6 @@ servo
 rust
 -
 cssparser
-/
-actions
-/
-workflows
-/
-main
-.
-yml
-/
-badge
 .
 svg
 )
@@ -54,7 +46,9 @@ https
 :
 /
 /
-github
+travis
+-
+ci
 .
 com
 /
@@ -63,8 +57,6 @@ servo
 rust
 -
 cssparser
-/
-actions
 )
 [
 Documentation
@@ -508,7 +500,7 @@ github
 .
 com
 /
-servo
+mozilla
 /
 servo
 /

@@ -68,9 +68,7 @@ AsNumeric
 alpha
 !
 =
-1
-.
-0f
+255
 ;
 }
 template
