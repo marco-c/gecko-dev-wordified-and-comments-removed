@@ -1,11 +1,3 @@
-#
-!
-[
-feature
-(
-backtrace
-)
-]
 use
 std
 :

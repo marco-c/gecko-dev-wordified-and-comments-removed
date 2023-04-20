@@ -151,8 +151,14 @@ DisplayAsDisplay
 note
 :
 the
-following
 trait
+std
+:
+:
+fmt
+:
+:
+Display
 must
 be
 implemented
