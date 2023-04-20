@@ -18,6 +18,9 @@ extensions
 :
 -
 .
+build
+-
+.
 c
 -
 .
@@ -63,7 +66,7 @@ mjs
 mm
 -
 .
-build
+mozbuild
 -
 .
 mp4
