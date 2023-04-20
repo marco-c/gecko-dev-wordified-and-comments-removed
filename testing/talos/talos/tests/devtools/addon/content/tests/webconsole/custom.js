@@ -341,6 +341,7 @@ length
 -
 1
 ]
+?
 .
 textContent
 .
