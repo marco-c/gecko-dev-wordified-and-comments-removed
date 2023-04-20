@@ -109,7 +109,7 @@ JS
 loader
 :
 :
-LoadContextBase
+LoadContextNoCCBase
 {
 public
 :
@@ -134,13 +134,6 @@ ClientInfo
 &
 aClientInfo
 )
-;
-~
-WorkerLoadContext
-(
-)
-=
-default
 ;
 bool
 IsTopLevel

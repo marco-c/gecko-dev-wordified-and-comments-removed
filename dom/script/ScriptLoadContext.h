@@ -222,7 +222,7 @@ JS
 loader
 :
 :
-LoadContextBase
+LoadContextCCBase
 public
 PreloaderBase
 {
@@ -251,7 +251,7 @@ JS
 loader
 :
 :
-LoadContextBase
+LoadContextCCBase
 )
 static
 void
