@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 AddonTestUtils
@@ -6195,7 +6200,7 @@ updates
 )
 ;
 let
-private
+privateRow
 =
 rows
 .
@@ -6205,7 +6210,7 @@ shift
 ;
 checkLabel
 (
-private
+privateRow
 "
 private
 -

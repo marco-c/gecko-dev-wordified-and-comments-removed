@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 let
 appDefault
 ;
@@ -209,13 +214,13 @@ async
 function
 checkFallbackDefaultRegion
 (
-private
+checkPrivate
 )
 {
 let
 defaultEngine
 =
-private
+checkPrivate
 ?
 appPrivateDefault
 :
@@ -224,7 +229,7 @@ appDefault
 let
 expectedDefaultNotification
 =
-private
+checkPrivate
 ?
 SearchUtils
 .
@@ -265,7 +270,7 @@ chromeicon
 await
 setDefault
 (
-private
+checkPrivate
 otherEngine
 )
 ;
@@ -349,7 +354,7 @@ equal
 await
 getDefault
 (
-private
+checkPrivate
 )
 )
 .
@@ -430,13 +435,13 @@ async
 function
 checkFallbackFirstVisible
 (
-private
+checkPrivate
 )
 {
 let
 defaultEngine
 =
-private
+checkPrivate
 ?
 appPrivateDefault
 :
@@ -445,7 +450,7 @@ appDefault
 let
 expectedDefaultNotification
 =
-private
+checkPrivate
 ?
 SearchUtils
 .
@@ -486,7 +491,7 @@ chromeicon
 await
 setDefault
 (
-private
+checkPrivate
 otherEngine
 )
 ;
@@ -521,7 +526,7 @@ observer
 new
 SearchObserver
 (
-private
+checkPrivate
 ?
 [
 expectedDefaultNotification
@@ -579,7 +584,7 @@ equal
 await
 getDefault
 (
-private
+checkPrivate
 )
 )
 .
@@ -1585,13 +1590,13 @@ async
 function
 checkNonBuiltinFallback
 (
-private
+checkPrivate
 )
 {
 let
 defaultEngine
 =
-private
+checkPrivate
 ?
 appPrivateDefault
 :
@@ -1600,7 +1605,7 @@ appDefault
 let
 expectedDefaultNotification
 =
-private
+checkPrivate
 ?
 SearchUtils
 .
@@ -1641,7 +1646,7 @@ xml
 await
 setDefault
 (
-private
+checkPrivate
 addedEngine
 )
 ;
@@ -1680,7 +1685,7 @@ equal
 await
 getDefault
 (
-private
+checkPrivate
 )
 )
 .
