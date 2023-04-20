@@ -234,12 +234,6 @@ baseConnect
 ;
 this
 .
-_hoveredTab
-=
-null
-;
-this
-.
 _blockDblClick
 =
 false
