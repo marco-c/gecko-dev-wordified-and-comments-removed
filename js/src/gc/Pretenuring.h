@@ -293,8 +293,16 @@ MOZ_ASSERT
 zone_
 &
 &
-!
 scriptAndState
+=
+=
+uintptr_t
+(
+State
+:
+:
+Unknown
+)
 )
 ;
 zone_
