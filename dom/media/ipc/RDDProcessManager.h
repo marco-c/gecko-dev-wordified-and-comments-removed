@@ -91,6 +91,12 @@ Initialize
 ;
 static
 void
+RDDProcessShutdown
+(
+)
+;
+static
+void
 Shutdown
 (
 )
@@ -254,11 +260,6 @@ aData
 )
 ;
 RDDProcessManager
-(
-)
-;
-void
-CleanShutdown
 (
 )
 ;
