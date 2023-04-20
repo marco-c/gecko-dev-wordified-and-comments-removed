@@ -237,6 +237,11 @@ ContentBackend
 readonly
 attribute
 boolean
+WebRenderEnabled
+;
+readonly
+attribute
+boolean
 isHeadless
 ;
 readonly

@@ -353,6 +353,15 @@ aOutValue
 override
 ;
 NS_IMETHOD
+GetWebRenderEnabled
+(
+bool
+*
+aWebRenderEnabled
+)
+override
+;
+NS_IMETHOD
 GetIsHeadless
 (
 bool

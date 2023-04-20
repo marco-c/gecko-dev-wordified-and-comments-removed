@@ -833,8 +833,12 @@ Bug1155608
 Bug1207665
 Bug1447141
 AmdR600
+NvidiaRolloutWebRender
+IntelRolloutWebRender
+IntelModernRolloutWebRender
 IntelWebRenderBlocked
 NvidiaWebRenderBlocked
+AtiRolloutWebRender
 Max
 }
 ;
@@ -877,7 +881,6 @@ MesaUnknown
 NonMesaAll
 HardwareMesaAll
 SoftwareMesaAll
-MesaNonIntelNvidiaAtiAll
 Max
 }
 ;
