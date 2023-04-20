@@ -333,7 +333,7 @@ C
 ]
 pub
 struct
-SerializationFlags
+ColorFlags
 :
 u8
 {
@@ -488,7 +488,7 @@ ColorSpace
 pub
 flags
 :
-SerializationFlags
+ColorFlags
 }
 macro_rules
 !
@@ -842,7 +842,7 @@ clamp
 color_space
 flags
 :
-SerializationFlags
+ColorFlags
 :
 :
 empty
@@ -1040,7 +1040,7 @@ flags
 .
 contains
 (
-SerializationFlags
+ColorFlags
 :
 :
 AS_COLOR_FUNCTION
@@ -2121,7 +2121,7 @@ flags
 .
 contains
 (
-SerializationFlags
+ColorFlags
 :
 :
 flag
@@ -2293,7 +2293,7 @@ flags
 .
 contains
 (
-SerializationFlags
+ColorFlags
 :
 :
 AS_COLOR_FUNCTION
@@ -2474,7 +2474,7 @@ flags
 .
 contains
 (
-SerializationFlags
+ColorFlags
 :
 :
 AS_COLOR_FUNCTION

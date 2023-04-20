@@ -26,8 +26,8 @@ color
 {
 AbsoluteColor
 ColorComponents
+ColorFlags
 ColorSpace
-SerializationFlags
 }
 ;
 use
@@ -1509,7 +1509,7 @@ let
 mut
 flags
 =
-SerializationFlags
+ColorFlags
 :
 :
 empty
@@ -1548,7 +1548,7 @@ else
 flags
 |
 =
-SerializationFlags
+ColorFlags
 :
 :
 flag
@@ -2109,7 +2109,7 @@ color
 flags
 |
 =
-SerializationFlags
+ColorFlags
 :
 :
 AS_COLOR_FUNCTION
@@ -2925,7 +2925,7 @@ flags
 .
 contains
 (
-SerializationFlags
+ColorFlags
 :
 :
 AS_COLOR_FUNCTION

@@ -113,7 +113,7 @@ StyleColorSpace
 :
 :
 Srgb
-StyleSerializationFlags
+StyleColorFlags
 {
 0
 }
