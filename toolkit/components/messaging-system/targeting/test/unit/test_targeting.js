@@ -29,7 +29,7 @@ TargetingContext
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -44,7 +44,9 @@ targeting
 /
 Targeting
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

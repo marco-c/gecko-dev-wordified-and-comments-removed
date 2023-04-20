@@ -226,7 +226,7 @@ Logger
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -241,7 +241,9 @@ lib
 /
 Logger
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

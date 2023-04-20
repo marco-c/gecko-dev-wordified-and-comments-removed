@@ -57,7 +57,7 @@ SpecialMessageActions
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -72,7 +72,9 @@ lib
 /
 SpecialMessageActions
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
