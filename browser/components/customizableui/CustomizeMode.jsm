@@ -5359,8 +5359,6 @@ aPlace
 =
 =
 "
-menu
--
 panel
 "
 ?
@@ -5878,8 +5876,6 @@ place
 =
 =
 "
-menu
--
 panel
 "
 )
@@ -9228,8 +9224,6 @@ placeForItem
 =
 =
 "
-menu
--
 panel
 "
 ;
@@ -9858,8 +9852,6 @@ targetAreaType
 =
 =
 "
-menu
--
 panel
 "
 )
@@ -12634,8 +12626,6 @@ aAreaType
 =
 =
 "
-menu
--
 panel
 "
 )

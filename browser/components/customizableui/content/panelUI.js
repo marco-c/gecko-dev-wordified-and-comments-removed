@@ -478,7 +478,7 @@ false
 ;
 CustomizableUI
 .
-registerMenuPanel
+registerPanelNode
 (
 this
 .

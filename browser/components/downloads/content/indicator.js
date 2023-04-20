@@ -1475,7 +1475,7 @@ areaType
 =
 CustomizableUI
 .
-TYPE_MENU_PANEL
+TYPE_PANEL
 ;
 let
 suppressAttention
@@ -1916,7 +1916,7 @@ areaType
 =
 CustomizableUI
 .
-TYPE_MENU_PANEL
+TYPE_PANEL
 )
 {
 let
