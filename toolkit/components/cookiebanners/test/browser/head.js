@@ -1292,7 +1292,6 @@ testMetricState
 true
 )
 ;
-}
 if
 (
 resetFOG
@@ -1306,5 +1305,6 @@ testResetFOG
 (
 )
 ;
+}
 }
 }
