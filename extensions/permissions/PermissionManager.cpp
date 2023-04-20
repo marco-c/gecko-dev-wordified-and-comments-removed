@@ -11405,6 +11405,10 @@ do
 change
 "
 )
+&
+&
+!
+mPermissionsFile
 )
 {
 InitDB
