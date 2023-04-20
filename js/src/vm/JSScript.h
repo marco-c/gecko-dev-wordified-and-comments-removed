@@ -4371,6 +4371,11 @@ TranscodeBuffer
 buffer
 )
 ;
+void
+xdrAbortEncoder
+(
+)
+;
 }
 ;
 class
