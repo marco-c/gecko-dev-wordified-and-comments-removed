@@ -584,7 +584,7 @@ urlbar
 .
 showSearchTerms
 .
-shouldShow
+enabled
 is
 true
 and
@@ -1058,7 +1058,7 @@ urlbar
 .
 showSearchTerms
 .
-shouldShow
+enabled
 is
 true
 and
