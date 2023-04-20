@@ -2265,6 +2265,17 @@ storage
 webext_storage_bridge
 "
 }
+tabs
+=
+{
+version
+=
+"
+0
+.
+1
+"
+}
 [
 target
 .
