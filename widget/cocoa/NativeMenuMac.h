@@ -80,8 +80,9 @@ aElement
 void
 ShowAsContextMenu
 (
-nsPresContext
+nsIFrame
 *
+aClickedFrame
 const
 CSSIntPoint
 &
