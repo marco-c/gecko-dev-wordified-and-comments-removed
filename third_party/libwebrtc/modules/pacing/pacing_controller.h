@@ -531,6 +531,13 @@ DataSize
 overhead_per_packet
 )
 ;
+void
+SetSendBurstInterval
+(
+TimeDelta
+burst_interval
+)
+;
 Timestamp
 OldestPacketEnqueueTime
 (
@@ -728,6 +735,9 @@ min_packet_limit_
 ;
 DataSize
 transport_overhead_per_packet_
+;
+TimeDelta
+send_burst_interval_
 ;
 mutable
 Timestamp
