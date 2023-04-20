@@ -2502,10 +2502,10 @@ num
 endif
 }
 inline
-unsigned
+uint32_t
 divide
 (
-unsigned
+uint32_t
 num
 )
 const
@@ -9011,9 +9011,11 @@ size_t
 size
 )
 {
-unsigned
+uint32_t
 diff
 regind
+;
+unsigned
 elm
 bit
 ;
@@ -9031,7 +9033,7 @@ ARENA_RUN_MAGIC
 diff
 =
 (
-unsigned
+uint32_t
 )
 (
 (
