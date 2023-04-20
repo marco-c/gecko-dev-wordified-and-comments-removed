@@ -600,7 +600,7 @@ test
 CallTest
 :
 :
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 FakeEncoder
 (

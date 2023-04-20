@@ -354,7 +354,7 @@ test
 CallTest
 :
 :
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 enable_rrtr_
 (

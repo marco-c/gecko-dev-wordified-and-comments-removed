@@ -516,7 +516,11 @@ test
 CallTest
 :
 :
-kDefaultTimeoutMs
+kDefaultTimeout
+.
+ms
+(
+)
 )
 ;
 }

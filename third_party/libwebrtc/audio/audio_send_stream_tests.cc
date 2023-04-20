@@ -123,7 +123,7 @@ SendTest
 CallTest
 :
 :
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 {
 }

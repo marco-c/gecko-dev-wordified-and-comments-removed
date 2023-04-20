@@ -396,7 +396,11 @@ event_
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
+.
+ms
+(
+)
 )
 ;
 }
@@ -841,7 +845,11 @@ event_
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
+.
+ms
+(
+)
 )
 ;
 }

@@ -142,7 +142,7 @@ SyncRtcpObserver
 :
 EndToEndTest
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 {
 }
@@ -274,7 +274,11 @@ delivered_packet_
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
+.
+ms
+(
+)
 )
 ;
 }
@@ -716,7 +720,7 @@ task_queue
 :
 EndToEndTest
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 num_ssrcs_
 (
@@ -1243,7 +1247,7 @@ ObserveRedundantPayloads
 :
 EndToEndTest
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 ssrcs_to_observe_
 (

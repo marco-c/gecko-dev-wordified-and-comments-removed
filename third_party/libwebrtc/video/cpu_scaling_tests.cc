@@ -255,9 +255,9 @@ SendTest
 (
 expect_adaptation
 ?
-kLongTimeoutMs
+kLongTimeout
 :
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 degradation_preference_
 (

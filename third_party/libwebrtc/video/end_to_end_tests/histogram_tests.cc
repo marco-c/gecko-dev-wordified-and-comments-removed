@@ -195,7 +195,7 @@ screenshare
 :
 EndToEndTest
 (
-kLongTimeoutMs
+kLongTimeout
 )
 use_rtx_
 (

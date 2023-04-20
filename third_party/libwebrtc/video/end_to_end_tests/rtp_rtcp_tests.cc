@@ -201,7 +201,7 @@ rtcp_mode
 :
 EndToEndTest
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 rtcp_mode_
 (
@@ -827,7 +827,7 @@ test
 :
 RtpRtcpObserver
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 ssrcs_to_observe_
 (
@@ -923,7 +923,11 @@ const
 int32_t
 kMaxTimestampGap
 =
-kDefaultTimeoutMs
+kDefaultTimeout
+.
+ms
+(
+)
 *
 90
 ;
@@ -2324,7 +2328,7 @@ test
 :
 RtpRtcpObserver
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 num_flexfec_packets_sent_
 (

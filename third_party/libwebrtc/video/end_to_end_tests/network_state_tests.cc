@@ -798,7 +798,7 @@ task_queue
 :
 EndToEndTest
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 FakeEncoder
 (
@@ -1137,7 +1137,11 @@ encoded_frames_
 .
 Wait
 (
-kDefaultTimeoutMs
+kDefaultTimeout
+.
+ms
+(
+)
 )
 )
 <

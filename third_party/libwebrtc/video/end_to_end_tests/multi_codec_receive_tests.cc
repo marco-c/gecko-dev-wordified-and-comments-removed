@@ -393,7 +393,7 @@ test
 CallTest
 :
 :
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 {
 }

@@ -275,7 +275,7 @@ StatsObserver
 :
 EndToEndTest
 (
-kLongTimeoutMs
+kLongTimeout
 )
 encoder_factory_
 (
@@ -1836,7 +1836,11 @@ test
 CallTest
 :
 :
-kLongTimeoutMs
+kLongTimeout
+.
+ms
+(
+)
 ;
 bool
 receive_ok
@@ -2141,7 +2145,7 @@ StatsObserver
 :
 EndToEndTest
 (
-kLongTimeoutMs
+kLongTimeout
 )
 {
 }
@@ -2422,7 +2426,7 @@ task_queue
 :
 EndToEndTest
 (
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 task_queue_
 (
@@ -2682,7 +2686,7 @@ StatsObserver
 :
 BaseTest
 (
-kLongTimeoutMs
+kLongTimeout
 )
 num_frames_received_
 (
@@ -3418,7 +3422,7 @@ task_queue
 :
 EndToEndTest
 (
-kLongTimeoutMs
+kLongTimeout
 )
 task_queue_
 (
@@ -4353,7 +4357,11 @@ ASSERT_GE
 (
 start_time_ms
 +
-kDefaultTimeoutMs
+kDefaultTimeout
+.
+ms
+(
+)
 clock_
 -
 >

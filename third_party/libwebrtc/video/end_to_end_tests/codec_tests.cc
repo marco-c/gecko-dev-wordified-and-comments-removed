@@ -316,7 +316,7 @@ EndToEndTest
 CodecEndToEndTest
 :
 :
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 no_frames_to_wait_for_
 (

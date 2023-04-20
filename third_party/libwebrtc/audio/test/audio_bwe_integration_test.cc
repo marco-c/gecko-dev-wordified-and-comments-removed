@@ -148,7 +148,7 @@ EndToEndTest
 CallTest
 :
 :
-kDefaultTimeoutMs
+kDefaultTimeout
 )
 {
 }
