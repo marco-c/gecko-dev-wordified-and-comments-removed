@@ -186,11 +186,6 @@ manifests
 '
 if
 !
-sort
-(
-MY_MANIFEST
-)
-|
 diff
 -
 -
@@ -198,6 +193,9 @@ text
 -
 U
 0
+(
+MY_MANIFEST
+)
 (
 srcdir
 )
@@ -210,7 +208,6 @@ REF_MANIFEST
 )
 .
 *
--
 ;
 then
 \
