@@ -675,6 +675,8 @@ stage1
 macosx64
 -
 sdk
+-
+toolchain
 linux64
 -
 clang
@@ -1936,6 +1938,8 @@ macosx64
 -
 sdk
 -
+toolchain
+-
 macosx64
 -
 x64
@@ -2409,6 +2413,8 @@ profile
 macosx64
 -
 sdk
+-
+toolchain
 -
 macosx64
 -
@@ -4564,6 +4570,8 @@ macosx64
 -
 sdk
 -
+toolchain
+-
 macosx64
 -
 x64
@@ -5040,6 +5048,8 @@ profile
 macosx64
 -
 sdk
+-
+toolchain
 -
 macosx64
 -

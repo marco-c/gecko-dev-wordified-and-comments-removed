@@ -427,6 +427,8 @@ macos
 macosx64
 -
 sdk
+-
+toolchain
 macosx64
 -
 aarch64
@@ -496,6 +498,8 @@ macos
 macosx64
 -
 sdk
+-
+toolchain
 win32
 -
 geckodriver

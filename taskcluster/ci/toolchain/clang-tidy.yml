@@ -424,6 +424,8 @@ clang
 macosx64
 -
 sdk
+-
+toolchain
 macosx64
 -
 arch64
@@ -540,6 +542,8 @@ clang
 macosx64
 -
 sdk
+-
+toolchain
 win64
 -
 clang

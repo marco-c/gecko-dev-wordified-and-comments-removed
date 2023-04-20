@@ -242,6 +242,8 @@ toolchain
 macosx64
 -
 sdk
+-
+toolchain
 macosx64
 -
 aarch64
@@ -303,6 +305,8 @@ toolchain
 macosx64
 -
 sdk
+-
+toolchain
 win32
 -
 fix

@@ -466,6 +466,8 @@ stage1
 macosx64
 -
 sdk
+-
+toolchain
 macosx64
 -
 aarch64
@@ -590,6 +592,8 @@ stage1
 macosx64
 -
 sdk
+-
+toolchain
 win64
 -
 llvm
@@ -1090,6 +1094,8 @@ stage1
 macosx64
 -
 sdk
+-
+toolchain
 macosx64
 -
 aarch64
@@ -1221,6 +1227,8 @@ stage1
 macosx64
 -
 sdk
+-
+toolchain
 win64
 -
 llvm
