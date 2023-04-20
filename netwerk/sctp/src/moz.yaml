@@ -240,3 +240,17 @@ cwd
 yaml_dir
 }
 '
+patches
+:
+-
+win32
+-
+rands
+.
+patch
+-
+win32
+-
+free
+.
+patch
