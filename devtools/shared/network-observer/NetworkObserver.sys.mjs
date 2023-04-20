@@ -3943,7 +3943,7 @@ createNetworkEvent
 channel
 {
 timestamp
-extraStringData
+rawHeaders
 fromCache
 fromServiceWorker
 blockedReason
@@ -4067,7 +4067,7 @@ channel
 timestamp
 fromCache
 fromServiceWorker
-extraStringData
+rawHeaders
 blockedReason
 blockingExtension
 saveRequestAndResponseBodies
@@ -4196,7 +4196,7 @@ owner
 addRequestHeaders
 (
 headers
-extraStringData
+rawHeaders
 )
 ;
 httpActivity
@@ -4272,7 +4272,7 @@ timestamp
 *
 param
 string
-extraStringData
+rawHeaders
 *
 return
 void
@@ -4283,7 +4283,7 @@ onRequestHeader
 (
 channel
 timestamp
-extraStringData
+rawHeaders
 )
 {
 if
@@ -4308,7 +4308,7 @@ createNetworkEvent
 channel
 {
 timestamp
-extraStringData
+rawHeaders
 }
 )
 ;

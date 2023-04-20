@@ -1100,7 +1100,7 @@ channel
 timestamp
 fromCache
 fromServiceWorker
-extraStringData
+rawHeaders
 blockedReason
 blockingExtension
 =
@@ -1195,9 +1195,9 @@ event
 .
 headersSize
 =
-extraStringData
+rawHeaders
 ?
-extraStringData
+rawHeaders
 .
 length
 :
