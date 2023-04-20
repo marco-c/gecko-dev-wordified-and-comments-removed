@@ -177,6 +177,9 @@ per_syllable
 hb_mask_t
 mask
 ;
+hb_tag_t
+feature_tag
+;
 HB_INTERNAL
 static
 int
@@ -248,7 +251,7 @@ index
 }
 ;
 typedef
-void
+bool
 (
 *
 pause_func_t
@@ -284,7 +287,7 @@ init
 (
 )
 {
-memset
+hb_memset
 (
 this
 0
@@ -297,7 +300,7 @@ this
 ;
 features
 .
-init
+init0
 (
 )
 ;
@@ -323,7 +326,7 @@ lookups
 table_index
 ]
 .
-init
+init0
 (
 )
 ;
@@ -332,7 +335,7 @@ stages
 table_index
 ]
 .
-init
+init0
 (
 )
 ;
@@ -1081,6 +1084,20 @@ bool
 per_syllable
 =
 false
+hb_tag_t
+feature_tag
+=
+HB_TAG
+(
+'
+'
+'
+'
+'
+'
+'
+'
+)
 )
 ;
 struct

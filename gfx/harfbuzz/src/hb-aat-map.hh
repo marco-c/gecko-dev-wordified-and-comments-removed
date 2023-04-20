@@ -25,7 +25,7 @@ init
 (
 )
 {
-memset
+hb_memset
 (
 this
 0

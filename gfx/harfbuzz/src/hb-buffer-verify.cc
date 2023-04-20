@@ -825,6 +825,9 @@ hb_codepoint_t
 if
 (
 diff
+&
+~
+HB_BUFFER_DIFF_FLAG_GLYPH_FLAGS_MISMATCH
 )
 {
 buffer_verify_error
@@ -1724,6 +1727,9 @@ hb_codepoint_t
 if
 (
 diff
+&
+~
+HB_BUFFER_DIFF_FLAG_GLYPH_FLAGS_MISMATCH
 )
 {
 buffer_verify_error

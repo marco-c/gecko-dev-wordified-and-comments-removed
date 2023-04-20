@@ -843,7 +843,7 @@ feature
 )
 active_features
 .
-remove
+remove_ordered
 (
 feature
 -

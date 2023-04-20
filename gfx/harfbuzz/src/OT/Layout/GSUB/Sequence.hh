@@ -702,6 +702,12 @@ sizeof
 (
 buf
 )
+-
+(
+p
+-
+buf
+)
 "
 %
 u

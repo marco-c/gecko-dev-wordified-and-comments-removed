@@ -1028,13 +1028,35 @@ name
 )
 DEFAULT
 =
-3
+'
+DEFAULT
+'
 COMPACT
 =
-5
+'
+COMPACT
+'
 SLOPPY
 =
+'
+SLOPPY
+'
+compression_level
+=
+{
+    
+DEFAULT
+:
+5
+    
+COMPACT
+:
 9
+    
+SLOPPY
+:
+9
+}
 logging
 .
 info
@@ -1328,7 +1350,7 @@ dm_order
 )
 ]
 for
-compression
+step
 in
 (
 DEFAULT
@@ -1336,6 +1358,13 @@ COMPACT
 SLOPPY
 )
 :
+    
+compression
+=
+compression_level
+[
+step
+]
     
 logging
 .
@@ -1357,7 +1386,7 @@ print
 )
     
 if
-compression
+step
 =
 =
 DEFAULT
@@ -1373,7 +1402,7 @@ HB_OPTIMIZE_SIZE
 )
     
 elif
-compression
+step
 =
 =
 COMPACT
@@ -1392,7 +1421,11 @@ HB_NO_UCD_UNASSIGNED
 '
 )
     
-else
+elif
+step
+=
+=
+SLOPPY
 :
         
 print
@@ -1403,12 +1436,18 @@ else
 '
 )
     
+else
+:
+        
+assert
+False
+    
 print
 (
 )
     
 if
-compression
+step
 =
 =
 SLOPPY

@@ -40,6 +40,9 @@ HB_OT_SHAPE_ZERO_WIDTH_MARKS_BY_GDEF_LATE
 true
 }
 ;
+#
+ifndef
+HB_NO_AAT_SHAPE
 const
 hb_ot_shaper_t
 _hb_ot_shaper_dumber
@@ -61,5 +64,7 @@ HB_OT_SHAPE_ZERO_WIDTH_MARKS_NONE
 false
 }
 ;
+#
+endif
 #
 endif

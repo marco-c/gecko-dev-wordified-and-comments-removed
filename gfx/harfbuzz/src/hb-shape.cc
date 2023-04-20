@@ -52,6 +52,9 @@ machinery
 .
 hh
 "
+#
+ifndef
+HB_NO_SHAPER
 static
 inline
 void
@@ -478,3 +481,5 @@ nullptr
 )
 ;
 }
+#
+endif

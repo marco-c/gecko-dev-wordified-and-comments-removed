@@ -823,7 +823,7 @@ buf_size
 l
 )
 {
-memcpy
+hb_memcpy
 (
 buf
 b
@@ -1139,7 +1139,7 @@ buf_size
 l
 )
 {
-memcpy
+hb_memcpy
 (
 buf
 b
@@ -1745,7 +1745,7 @@ buf_size
 l
 )
 {
-memcpy
+hb_memcpy
 (
 buf
 b
@@ -2029,7 +2029,7 @@ buf_size
 l
 )
 {
-memcpy
+hb_memcpy
 (
 buf
 b

@@ -447,6 +447,10 @@ alternate_count
 +
 alternates
 .
+as_array
+(
+)
+.
 sub_array
 (
 start_offset

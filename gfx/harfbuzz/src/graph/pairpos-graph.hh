@@ -2256,7 +2256,7 @@ end
 -
 start
 ;
-memcpy
+hb_memcpy
 (
 &
 pair_pos_prime
@@ -3263,7 +3263,7 @@ this_index
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :
@@ -3385,7 +3385,7 @@ vertex
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :

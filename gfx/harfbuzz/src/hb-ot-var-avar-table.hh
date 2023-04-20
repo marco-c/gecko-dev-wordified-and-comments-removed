@@ -552,7 +552,7 @@ major
 1
 #
 ifndef
-HB_NO_VARIATIONS2
+HB_NO_AVAR2
 |
 |
 version
@@ -645,7 +645,7 @@ map
 }
 #
 ifndef
-HB_NO_VARIATIONS2
+HB_NO_AVAR2
 if
 (
 version
@@ -777,7 +777,7 @@ map
 }
 #
 ifndef
-HB_NO_VARIATIONS2
+HB_NO_AVAR2
 if
 (
 version

@@ -805,6 +805,7 @@ ARRAY_LENGTH
 _hb_ucd_dm1_p0_map
 )
 )
+{
 *
 a
 =
@@ -813,6 +814,7 @@ _hb_ucd_dm1_p0_map
 i
 ]
 ;
+}
 else
 {
 i

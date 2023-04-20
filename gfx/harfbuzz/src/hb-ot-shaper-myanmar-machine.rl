@@ -833,13 +833,10 @@ syllable_serial
 \
 if
 (
-unlikely
-(
 syllable_serial
 =
 =
 16
-)
 )
 syllable_serial
 =

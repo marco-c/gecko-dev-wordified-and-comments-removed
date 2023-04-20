@@ -1196,7 +1196,7 @@ return
 nullptr
 ;
 }
-memcpy
+hb_memcpy
 (
 new_sfnt_data
 orig_sfnt_data
@@ -1806,7 +1806,7 @@ int
 font_size
 )
 {
-memset
+hb_memset
 (
 lf
 0
@@ -1835,7 +1835,7 @@ lfCharSet
 =
 DEFAULT_CHARSET
 ;
-memcpy
+hb_memcpy
 (
 lf
 -

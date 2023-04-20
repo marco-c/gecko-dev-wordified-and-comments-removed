@@ -311,7 +311,7 @@ r
 .
 +
 [
-BCDGIRST
+BCDGIRSTu
 ]
 .
 +

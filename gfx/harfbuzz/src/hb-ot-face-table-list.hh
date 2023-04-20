@@ -77,7 +77,7 @@ cmap
 )
 #
 endif
-HB_OT_TABLE
+HB_OT_CORE_TABLE
 (
 OT
 hhea
@@ -87,7 +87,7 @@ HB_OT_ACCELERATOR
 OT
 hmtx
 )
-HB_OT_TABLE
+HB_OT_CORE_TABLE
 (
 OT
 OS2
@@ -133,7 +133,7 @@ endif
 #
 ifndef
 HB_NO_STYLE
-HB_OT_TABLE
+HB_OT_CORE_TABLE
 (
 OT
 STAT
@@ -153,7 +153,7 @@ endif
 #
 ifndef
 HB_NO_VERTICAL
-HB_OT_TABLE
+HB_OT_CORE_TABLE
 (
 OT
 vhea
@@ -163,7 +163,7 @@ HB_OT_ACCELERATOR
 OT
 vmtx
 )
-HB_OT_TABLE
+HB_OT_CORE_TABLE
 (
 OT
 VORG
@@ -198,12 +198,12 @@ endif
 #
 ifndef
 HB_NO_VAR
-HB_OT_TABLE
+HB_OT_CORE_TABLE
 (
 OT
 fvar
 )
-HB_OT_TABLE
+HB_OT_CORE_TABLE
 (
 OT
 avar
@@ -213,7 +213,7 @@ HB_OT_ACCELERATOR
 OT
 gvar
 )
-HB_OT_TABLE
+HB_OT_CORE_TABLE
 (
 OT
 MVAR
@@ -223,7 +223,7 @@ endif
 #
 ifndef
 HB_NO_OT_KERN
-HB_OT_TABLE
+HB_OT_CORE_TABLE
 (
 OT
 kern
@@ -253,7 +253,7 @@ endif
 #
 ifndef
 HB_NO_BASE
-HB_OT_TABLE
+HB_OT_CORE_TABLE
 (
 OT
 BASE
@@ -303,12 +303,12 @@ endif
 #
 ifndef
 HB_NO_COLOR
-HB_OT_TABLE
+HB_OT_CORE_TABLE
 (
 OT
 COLR
 )
-HB_OT_TABLE
+HB_OT_CORE_TABLE
 (
 OT
 CPAL
@@ -333,7 +333,7 @@ endif
 #
 ifndef
 HB_NO_MATH
-HB_OT_TABLE
+HB_OT_CORE_TABLE
 (
 OT
 MATH

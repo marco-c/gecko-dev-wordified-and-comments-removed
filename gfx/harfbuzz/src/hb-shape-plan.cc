@@ -43,6 +43,9 @@ buffer
 .
 hh
 "
+#
+ifndef
+HB_NO_SHAPER
 bool
 hb_shape_plan_key_t
 :
@@ -149,7 +152,7 @@ copy
 num_user_features
 )
 {
-memcpy
+hb_memcpy
 (
 features
 user_features
@@ -1714,3 +1717,5 @@ shape_plan
 )
 ;
 }
+#
+endif

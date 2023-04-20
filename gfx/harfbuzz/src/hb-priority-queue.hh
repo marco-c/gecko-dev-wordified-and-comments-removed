@@ -163,6 +163,13 @@ length
 1
 )
 ;
+if
+(
+!
+is_empty
+(
+)
+)
 bubble_down
 (
 0
@@ -319,7 +326,6 @@ assert
 (
 index
 <
-=
 heap
 .
 length
@@ -394,6 +400,8 @@ has_right
 |
 |
 heap
+.
+arrayZ
 [
 index
 ]
@@ -475,7 +483,6 @@ assert
 (
 index
 <
-=
 heap
 .
 length
@@ -546,7 +553,6 @@ assert
 (
 a
 <
-=
 heap
 .
 length
@@ -556,7 +562,6 @@ assert
 (
 b
 <
-=
 heap
 .
 length

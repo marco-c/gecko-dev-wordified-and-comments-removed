@@ -231,13 +231,13 @@ font
 struct
 thai_pua_mapping_t
 {
-hb_codepoint_t
+uint16_t
 u
 ;
-hb_codepoint_t
+uint16_t
 win_pua
 ;
-hb_codepoint_t
+uint16_t
 mac_pua
 ;
 }

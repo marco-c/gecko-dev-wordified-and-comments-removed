@@ -12,11 +12,11 @@ AC_INIT
 HarfBuzz
 ]
 [
-5
+6
 .
-3
+0
 .
-1
+0
 ]
 [
 https

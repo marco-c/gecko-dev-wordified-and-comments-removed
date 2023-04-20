@@ -1524,6 +1524,8 @@ p
 )
 ;
 }
+private
+:
 hb_atomic_ptr_t
 <
 Stored

@@ -289,7 +289,7 @@ type
 ;
 }
 static
-void
+bool
 setup_syllables_khmer
 (
 const
@@ -305,7 +305,7 @@ buffer
 )
 ;
 static
-void
+bool
 reorder_khmer
 (
 const
@@ -751,7 +751,7 @@ i
 ;
 }
 static
-void
+bool
 setup_syllables_khmer
 (
 const
@@ -793,6 +793,9 @@ unsafe_to_break
 start
 end
 )
+;
+return
+false
 ;
 }
 static
@@ -1288,7 +1291,7 @@ break
 }
 }
 static
-void
+bool
 reorder_khmer
 (
 const
@@ -1303,6 +1306,11 @@ hb_buffer_t
 buffer
 )
 {
+bool
+ret
+=
+false
+;
 if
 (
 buffer
@@ -1319,6 +1327,8 @@ khmer
 )
 )
 {
+if
+(
 hb_syllabic_insert_dotted_circles
 (
 font
@@ -1334,6 +1344,10 @@ unsigned
 -
 1
 )
+)
+ret
+=
+true
 ;
 foreach_syllable
 (
@@ -1375,6 +1389,9 @@ HB_BUFFER_DEALLOCATE_VAR
 buffer
 khmer_category
 )
+;
+return
+ret
 ;
 }
 static

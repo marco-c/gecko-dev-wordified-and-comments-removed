@@ -226,6 +226,10 @@ table_count
 +
 tables
 .
+as_array
+(
+)
+.
 sub_array
 (
 start_offset
@@ -597,7 +601,7 @@ likely
 len
 )
 )
-memcpy
+hb_memcpy
 (
 start
 blob

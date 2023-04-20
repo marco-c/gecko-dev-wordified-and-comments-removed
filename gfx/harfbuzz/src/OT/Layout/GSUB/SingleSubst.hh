@@ -58,7 +58,7 @@ format2
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 SingleSubstFormat1_3
 <
 MediumTypes
@@ -211,7 +211,7 @@ ds
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :
@@ -362,7 +362,7 @@ mask
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 if
 (
 +
@@ -515,7 +515,7 @@ glyphs
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :

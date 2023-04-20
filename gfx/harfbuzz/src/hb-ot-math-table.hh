@@ -315,7 +315,7 @@ return_trace
 nullptr
 )
 ;
-memcpy
+hb_memcpy
 (
 p
 percentScaleDown
@@ -360,7 +360,7 @@ return_trace
 nullptr
 )
 ;
-memcpy
+hb_memcpy
 (
 m
 minHeight
@@ -3627,6 +3627,10 @@ hb_zip
 (
 partRecords
 .
+as_array
+(
+)
+.
 sub_array
 (
 start_offset
@@ -3958,6 +3962,10 @@ _
 hb_zip
 (
 mathGlyphVariantRecord
+.
+as_array
+(
+)
 .
 sub_array
 (

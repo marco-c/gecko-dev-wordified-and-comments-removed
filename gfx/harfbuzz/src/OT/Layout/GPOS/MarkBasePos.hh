@@ -38,7 +38,7 @@ format1
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 MarkBasePosFormat1_2
 <
 MediumTypes
@@ -156,7 +156,7 @@ ds
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 2
 :

@@ -162,7 +162,7 @@ shapers
 return
 nullptr
 ;
-memcpy
+hb_memcpy
 (
 shapers
 _hb_all_shapers

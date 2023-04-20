@@ -594,6 +594,10 @@ RS
 '
     
 '
+MPst
+'
+    
+'
 Repha
 '
     
@@ -1010,22 +1014,6 @@ Vowel_Independent
 '
 V
 '
-  
-'
-Dotted_Circle
-'
-:
-'
-DOTTEDCIRCLE
-'
-  
-'
-Ra
-'
-:
-'
-Ra
-'
 }
 position_map
 =
@@ -1357,6 +1345,12 @@ SM
 :
 '
 SM
+'
+  
+0x0A40
+:
+'
+MPst
 '
   
 0x0A72
@@ -2569,6 +2563,9 @@ H
 '
 M
 '
+'
+MPst
+'
 )
 for
 k
@@ -2633,6 +2630,16 @@ PLACEHOLDER
 DOTTEDCIRCLE
 '
 )
+matra_categories
+=
+(
+'
+M
+'
+'
+MPst
+'
+)
 smvd_categories
 =
 (
@@ -2678,11 +2685,8 @@ BASE_C
   
 elif
 cat
-=
-=
-'
-M
-'
+in
+matra_categories
 :
     
 if
@@ -4223,7 +4227,7 @@ last
 +
 16
 *
-3
+2
 :
 			
 print_block
@@ -4796,7 +4800,7 @@ table
 if
 occupancy
 <
-30
+50
 :
 	
 raise

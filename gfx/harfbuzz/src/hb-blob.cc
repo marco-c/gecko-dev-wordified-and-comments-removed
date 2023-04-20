@@ -1188,7 +1188,7 @@ this
 data
 )
 ;
-memcpy
+hb_memcpy
 (
 new_data
 this

@@ -351,7 +351,7 @@ source
 hb_hashmap_t
 <
 hb_bytes_t
-unsigned
+uint32_t
 true
 >
 glyph_name_to_new_index
@@ -394,7 +394,7 @@ unsigned
 new_index
 ;
 const
-unsigned
+uint32_t
 *
 new_index2
 ;

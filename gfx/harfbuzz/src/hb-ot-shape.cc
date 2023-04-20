@@ -266,6 +266,9 @@ shaper
 >
 fallback_position
 ;
+#
+ifndef
+HB_NO_AAT_SHAPE
 if
 (
 apply_morx
@@ -282,6 +285,8 @@ shaper
 &
 _hb_ot_shaper_dumber
 ;
+#
+endif
 }
 void
 hb_ot_shape_planner_t
@@ -4397,9 +4402,11 @@ invisible
 }
 }
 else
-hb_ot_layout_delete_glyphs_inplace
-(
 buffer
+-
+>
+delete_glyphs_inplace
+(
 _hb_glyph_info_is_default_ignorable
 )
 ;

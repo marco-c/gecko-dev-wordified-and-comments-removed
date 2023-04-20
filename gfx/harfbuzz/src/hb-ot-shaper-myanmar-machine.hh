@@ -107,7 +107,7 @@ myanmar_non_myanmar_cluster
 ;
 #
 line
-54
+51
 "
 hb
 -
@@ -219,7 +219,7 @@ myanmar_syllable_machine_ex_ZWNJ
 5u
 #
 line
-81
+76
 "
 hb
 -
@@ -2970,13 +2970,10 @@ syllable_serial
 \
 if
 (
-unlikely
-(
 syllable_serial
 =
 =
 16
-)
 )
 syllable_serial
 =
@@ -3018,7 +3015,7 @@ info
 ;
 #
 line
-447
+436
 "
 hb
 -
@@ -3087,7 +3084,7 @@ syllable_serial
 ;
 #
 line
-463
+448
 "
 hb
 -
@@ -3158,7 +3155,7 @@ break
 ;
 #
 line
-477
+460
 "
 hb
 -
@@ -3569,7 +3566,7 @@ break
 ;
 #
 line
-523
+498
 "
 hb
 -
@@ -3613,7 +3610,7 @@ break
 ;
 #
 line
-532
+505
 "
 hb
 -

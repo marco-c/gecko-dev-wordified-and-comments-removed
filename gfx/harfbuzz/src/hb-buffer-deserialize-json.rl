@@ -221,7 +221,7 @@ data
 action
 clear_item
 {
-memset
+hb_memset
 (
 &
 info
@@ -232,7 +232,7 @@ info
 )
 )
 ;
-memset
+hb_memset
 (
 &
 pos

@@ -563,7 +563,7 @@ vertex
 ;
 #
 ifndef
-HB_NO_BORING_EXPANSION
+HB_NO_BEYOND_64K
 case
 3
 :

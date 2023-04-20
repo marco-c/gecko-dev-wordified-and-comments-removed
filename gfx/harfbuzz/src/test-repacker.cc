@@ -62,7 +62,7 @@ char
 len
 )
 ;
-memcpy
+hb_memcpy
 (
 obj
 value
@@ -7867,6 +7867,16 @@ graph
 .
 sort_shortest_distance
 (
+)
+;
+assert
+(
+!
+graph
+.
+in_error
+(
+)
 )
 ;
 assert
