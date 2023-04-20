@@ -954,6 +954,8 @@ PeerConnectionE2EQualityTestFixture
 VideoSubscription
 &
 subscription
+bool
+report_infra_metrics
 )
 {
 return
@@ -971,6 +973,7 @@ clock_
 analyzer_
 sinks_helper_
 subscription
+report_infra_metrics
 )
 ;
 }

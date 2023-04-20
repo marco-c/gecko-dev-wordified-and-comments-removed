@@ -3154,6 +3154,8 @@ video_quality_analyzer_injection_helper_
 CreateVideoSink
 (
 peer_name
+peer_subscription
+false
 )
 ;
 video_track

@@ -413,6 +413,10 @@ PeerConnectionE2EQualityTestFixture
 VideoSubscription
 &
 subscription
+bool
+report_infra_metrics
+=
+false
 )
 ;
 void
