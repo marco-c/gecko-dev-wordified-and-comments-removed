@@ -1,11 +1,5 @@
 import
-math
-import
 struct
-from
-base64
-import
-decodebytes
 from
 tests
 .
@@ -21,20 +15,11 @@ screenshot
 )
 :
     
+image
+=
 assert_png
 (
 screenshot
-)
-    
-image
-=
-decodebytes
-(
-screenshot
-.
-encode
-(
-)
 )
     
 width
