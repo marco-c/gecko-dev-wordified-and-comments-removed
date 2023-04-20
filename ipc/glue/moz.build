@@ -254,11 +254,6 @@ ScopedPort
 h
 "
 "
-ScopedXREEmbed
-.
-h
-"
-"
 SerializedStructuredCloneBuffer
 .
 h
@@ -891,11 +886,6 @@ cpp
 "
 "
 ScopedPort
-.
-cpp
-"
-"
-ScopedXREEmbed
 .
 cpp
 "
