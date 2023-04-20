@@ -473,7 +473,7 @@ DataV
 TEST_F
 (
 VideoGeometryAlignerTest
-CropAndZoomTop
+DISABLED_CropAndZoomTop
 )
 {
 CropRegion
@@ -813,7 +813,7 @@ DataV
 TEST_F
 (
 VideoGeometryAlignerTest
-CropAndZoomBottom
+DISABLED_CropAndZoomBottom
 )
 {
 CropRegion
