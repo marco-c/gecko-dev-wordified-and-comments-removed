@@ -7,7 +7,6 @@ app
 -
 startup
 GeckoViewStartup
-service
 mozilla
 .
 org

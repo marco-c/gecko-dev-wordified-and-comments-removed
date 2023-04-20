@@ -80,7 +80,6 @@ app
 -
 startup
 nsBrowserGlue
-service
 mozilla
 .
 org
