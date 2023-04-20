@@ -1929,6 +1929,15 @@ StackCaptureOptions
 :
 :
 NoStack
+&
+&
+profiler_active_without_feature
+(
+ProfilerFeature
+:
+:
+NoMarkerStacks
+)
 )
 {
 mozilla
