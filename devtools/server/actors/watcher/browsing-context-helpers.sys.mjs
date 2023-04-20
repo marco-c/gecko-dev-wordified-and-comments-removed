@@ -2919,10 +2919,10 @@ querySelectorAll
 (
 browser
 [
-remote
+type
 =
 "
-true
+content
 "
 ]
 )
