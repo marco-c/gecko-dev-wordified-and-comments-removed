@@ -4201,6 +4201,14 @@ if
 src
 -
 >
+isLinear
+(
+)
+&
+&
+src
+-
+>
 inStringToAtomCache
 (
 )
