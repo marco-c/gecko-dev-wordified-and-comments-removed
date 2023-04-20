@@ -825,11 +825,6 @@ return
 mThread
 -
 >
-EventTarget
-(
-)
--
->
 IsOnCurrentThread
 (
 )

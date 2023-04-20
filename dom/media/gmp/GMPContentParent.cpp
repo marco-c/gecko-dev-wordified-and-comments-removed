@@ -916,11 +916,6 @@ gmpThread
 mGMPEventTarget
 =
 gmpThread
--
->
-SerialEventTarget
-(
-)
 ;
 }
 return
