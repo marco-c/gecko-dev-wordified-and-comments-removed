@@ -180,6 +180,10 @@ with
 require
 (
 '
+resource
+:
+/
+/
 devtools
 /
 client
@@ -189,6 +193,8 @@ shared
 vendor
 /
 react
+.
+js
 '
 )
 -
@@ -205,6 +211,10 @@ with
 require
 (
 '
+resource
+:
+/
+/
 devtools
 /
 client
@@ -218,6 +228,8 @@ react
 prop
 -
 types
+.
+js
 '
 )
 #

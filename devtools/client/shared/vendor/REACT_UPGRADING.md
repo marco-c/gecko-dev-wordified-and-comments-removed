@@ -296,6 +296,10 @@ react
 g
 "
 '
+resource
+:
+/
+/
 devtools
 /
 client
@@ -305,6 +309,8 @@ shared
 vendor
 /
 react
+.
+js
 '
 "
 )
@@ -346,6 +352,10 @@ xhtml
 '
 "
 ]
+resource
+:
+/
+/
 devtools
 \
 /
@@ -359,6 +369,8 @@ vendor
 \
 /
 react
+.
+js
 [
 '
 "
@@ -409,6 +421,10 @@ dom
 g
 "
 '
+resource
+:
+/
+/
 devtools
 /
 client
@@ -420,6 +436,8 @@ vendor
 react
 -
 dom
+.
+js
 '
 "
 )
@@ -435,6 +453,10 @@ s
 '
 "
 ]
+resource
+:
+/
+/
 devtools
 \
 /
@@ -450,6 +472,8 @@ vendor
 react
 -
 dom
+.
+js
 [
 '
 "
