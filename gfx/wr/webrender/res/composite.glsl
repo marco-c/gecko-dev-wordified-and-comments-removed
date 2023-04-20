@@ -894,14 +894,9 @@ uTransform
 vec4
 (
 clipped_world_pos
-aParams
+0
 .
-x
-/
-*
-z_id
-*
-/
+0
 1
 .
 0

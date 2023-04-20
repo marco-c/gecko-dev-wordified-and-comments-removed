@@ -374,7 +374,6 @@ gpu_types
 BlurInstance
 ClearInstance
 CompositeInstance
-ZBufferId
 CompositorTransform
 }
 ;
@@ -13187,10 +13186,6 @@ surface_rect
 to_f32
 (
 )
-ZBufferId
-(
-0
-)
 color_space
 format
 channel_bit_depth
@@ -13330,10 +13325,6 @@ PremultipliedColorF
 :
 :
 WHITE
-ZBufferId
-(
-0
-)
 uv_rect
 CompositorTransform
 :
@@ -13640,9 +13631,6 @@ color
 premultiplied
 (
 )
-tile
-.
-z_id
 transform
 )
 ;
@@ -13707,9 +13695,6 @@ PremultipliedColorF
 :
 :
 WHITE
-tile
-.
-z_id
 transform
 )
 ;
@@ -13895,9 +13880,6 @@ new_yuv
 (
 tile_rect
 clip_rect
-tile
-.
-z_id
 color_space
 format
 channel_bit_depth
@@ -13968,9 +13950,6 @@ PremultipliedColorF
 :
 :
 WHITE
-tile
-.
-z_id
 uv_rect
 transform
 )
@@ -14065,9 +14044,6 @@ PremultipliedColorF
 :
 :
 BLACK
-tile
-.
-z_id
 transform
 )
 ;
