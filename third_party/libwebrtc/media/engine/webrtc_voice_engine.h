@@ -653,11 +653,6 @@ audio_jitter_buffer_min_delay_ms_
 =
 0
 ;
-bool
-audio_jitter_buffer_enable_rtx_handling_
-=
-false
-;
 const
 bool
 minimized_remsampling_on_mobile_trial_enabled_

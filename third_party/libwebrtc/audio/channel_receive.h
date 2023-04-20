@@ -782,8 +782,6 @@ jitter_buffer_fast_playout
 int
 jitter_buffer_min_delay_ms
 bool
-jitter_buffer_enable_rtx_handling
-bool
 enable_non_sender_rtt
 rtc
 :

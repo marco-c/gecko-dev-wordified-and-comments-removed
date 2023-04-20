@@ -203,15 +203,6 @@ optional
 <
 bool
 >
-audio_jitter_buffer_enable_rtx_handling
-;
-absl
-:
-:
-optional
-<
-bool
->
 combined_audio_video_bwe
 ;
 absl

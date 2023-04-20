@@ -1646,11 +1646,6 @@ audio_jitter_buffer_min_delay_ms
 =
 0
 ;
-bool
-audio_jitter_buffer_enable_rtx_handling
-=
-false
-;
 int
 ice_connection_receiving_timeout
 =

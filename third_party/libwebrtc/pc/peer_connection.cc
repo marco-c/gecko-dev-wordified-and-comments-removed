@@ -1764,9 +1764,6 @@ audio_jitter_buffer_fast_accelerate
 int
 audio_jitter_buffer_min_delay_ms
 ;
-bool
-audio_jitter_buffer_enable_rtx_handling
-;
 int
 ice_connection_receiving_timeout
 ;
@@ -2067,14 +2064,6 @@ audio_jitter_buffer_min_delay_ms
 o
 .
 audio_jitter_buffer_min_delay_ms
-&
-&
-audio_jitter_buffer_enable_rtx_handling
-=
-=
-o
-.
-audio_jitter_buffer_enable_rtx_handling
 &
 &
 ice_connection_receiving_timeout

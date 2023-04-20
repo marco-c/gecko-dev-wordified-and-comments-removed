@@ -598,9 +598,6 @@ config
 jitter_buffer_min_delay_ms
 config
 .
-jitter_buffer_enable_rtx_handling
-config
-.
 enable_non_sender_rtt
 config
 .
