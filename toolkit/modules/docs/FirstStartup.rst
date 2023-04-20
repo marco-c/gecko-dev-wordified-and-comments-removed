@@ -509,7 +509,7 @@ time
 out
 defaults
 to
-5
+30
 seconds
 but
 is
