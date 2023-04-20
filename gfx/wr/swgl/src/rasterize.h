@@ -4266,6 +4266,13 @@ DepthRun
 *
 fdepth
 =
+depthtex
+.
+buf
+!
+=
+nullptr
+?
 (
 DepthRun
 *
@@ -4280,6 +4287,8 @@ int
 y
 )
 )
+:
+nullptr
 ;
 float
 checkY
@@ -5852,6 +5861,13 @@ DepthRun
 *
 fdepth
 =
+depthtex
+.
+buf
+!
+=
+nullptr
+?
 (
 DepthRun
 *
@@ -5866,6 +5882,8 @@ int
 y
 )
 )
+:
+nullptr
 ;
 float
 checkY
