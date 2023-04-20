@@ -315,7 +315,7 @@ events
 ]
 .
 lineNumber
-9
+8
 "
 Got
 expected
@@ -332,7 +332,7 @@ events
 ]
 .
 columnNumber
-11
+10
 "
 Got
 expected
@@ -469,7 +469,7 @@ callFrames
 ]
 .
 lineNumber
-9
+8
 "
 Got
 expected
@@ -486,7 +486,7 @@ callFrames
 ]
 .
 columnNumber
-11
+10
 "
 Got
 expected
