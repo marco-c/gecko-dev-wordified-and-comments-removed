@@ -592,6 +592,10 @@ EnsureGPUReady
 if
 (
 mGPUReady
+&
+&
+!
+mWaitForVarUpdate
 )
 {
 return
@@ -615,6 +619,12 @@ return
 false
 ;
 }
+if
+(
+!
+mGPUReady
+)
+{
 gfxPlatform
 :
 :
@@ -648,6 +658,11 @@ GetLaunchTime
 mGPUReady
 =
 true
+;
+}
+mWaitForVarUpdate
+=
+false
 ;
 return
 true
