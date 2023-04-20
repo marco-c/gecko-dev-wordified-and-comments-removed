@@ -2248,12 +2248,6 @@ return
 S_OK
 ;
 }
-#
-define
-NS_MAX_FILEDESCRIPTOR
-128
-+
-1
 nsDataObj
 :
 :
@@ -5294,7 +5288,7 @@ fgd
 ]
 .
 cFileName
-NS_MAX_FILEDESCRIPTOR
+MAX_PATH
 )
 )
 {
@@ -5330,7 +5324,7 @@ fgd
 ]
 .
 cFileName
-NS_MAX_FILEDESCRIPTOR
+MAX_PATH
 )
 )
 {
@@ -5503,7 +5497,7 @@ fgd
 ]
 .
 cFileName
-NS_MAX_FILEDESCRIPTOR
+MAX_PATH
 )
 )
 {
@@ -5540,7 +5534,7 @@ fgd
 ]
 .
 cFileName
-NS_MAX_FILEDESCRIPTOR
+MAX_PATH
 )
 )
 {
@@ -10247,7 +10241,7 @@ nativeFileName
 get
 (
 )
-NS_MAX_FILEDESCRIPTOR
+MAX_PATH
 -
 1
 )
@@ -10262,7 +10256,7 @@ fgd
 .
 cFileName
 [
-NS_MAX_FILEDESCRIPTOR
+MAX_PATH
 -
 1
 ]
@@ -10437,7 +10431,7 @@ wideFileName
 get
 (
 )
-NS_MAX_FILEDESCRIPTOR
+MAX_PATH
 -
 1
 )
@@ -10452,7 +10446,7 @@ fgd
 .
 cFileName
 [
-NS_MAX_FILEDESCRIPTOR
+MAX_PATH
 -
 1
 ]
