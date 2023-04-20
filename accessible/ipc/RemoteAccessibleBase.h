@@ -1501,7 +1501,7 @@ GetCachedARIAAttributes
 const
 ;
 nsString
-GetCachedHTMLRadioNameAttribute
+GetCachedHTMLNameAttribute
 (
 )
 const
