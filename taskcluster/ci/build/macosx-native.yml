@@ -512,12 +512,6 @@ node
 macosx64
 -
 sdk
--
-sysroot
--
-wasm32
--
-wasi
 optimization
 :
 test
@@ -656,12 +650,6 @@ node
 macosx64
 -
 sdk
--
-sysroot
--
-wasm32
--
-wasi
 optimization
 :
 test
