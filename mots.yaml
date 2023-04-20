@@ -9687,7 +9687,9 @@ nsILoadContext
 nsIPrivateBrowsingChannel
 PrivateBrowsingUtils
 .
-jsm
+sys
+.
+mjs
 and
 the
 related
