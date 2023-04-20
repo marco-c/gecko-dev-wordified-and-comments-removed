@@ -11055,6 +11055,12 @@ hidden
 .
 dialogOverlay
 {
+align
+-
+items
+:
+center
+;
 visibility
 :
 hidden
@@ -11861,6 +11867,12 @@ dialogOverlay
 display
 :
 grid
+;
+align
+-
+items
+:
+unset
 ;
 place
 -
