@@ -280,6 +280,15 @@ autocomplete
 CEReactions
 Pure
 SetterThrows
+]
+attribute
+boolean
+autofocus
+;
+[
+CEReactions
+Pure
+SetterThrows
 Pref
 =
 "

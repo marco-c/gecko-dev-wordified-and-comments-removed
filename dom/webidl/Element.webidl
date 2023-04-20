@@ -1181,10 +1181,15 @@ no
 [
 CEReactions
 ]
+/
+/
+See
+bug
+1575154
+/
+/
 [
 CEReactions
-SetterThrows
-Pure
 ]
 attribute
 boolean

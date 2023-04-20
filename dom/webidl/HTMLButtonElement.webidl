@@ -213,6 +213,15 @@ Pure
 ]
 attribute
 boolean
+autofocus
+;
+[
+CEReactions
+SetterThrows
+Pure
+]
+attribute
+boolean
 disabled
 ;
 [

@@ -86,12 +86,6 @@ nsGkAtoms
 :
 disabled
 aValue
-mozilla
-:
-:
-IgnoreErrors
-(
-)
 )
 ;
 }
