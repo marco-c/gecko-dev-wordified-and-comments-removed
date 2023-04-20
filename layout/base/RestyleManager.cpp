@@ -13452,6 +13452,16 @@ MostRecentRefresh
 (
 )
 ;
+if
+(
+!
+doc
+-
+>
+GetServoRestyleRoot
+(
+)
+)
 {
 presContext
 -
