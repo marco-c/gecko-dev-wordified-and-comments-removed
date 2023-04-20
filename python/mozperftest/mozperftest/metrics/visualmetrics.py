@@ -1,11 +1,11 @@
 import
+errno
+import
 json
 import
 os
 import
 sys
-import
-errno
 from
 pathlib
 import
@@ -25,8 +25,8 @@ mozperftest
 .
 utils
 import
-silence
 run_script
+silence
 METRICS_FIELDS
 =
 (

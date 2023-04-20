@@ -38,19 +38,19 @@ buglist_creator
 import
 (
     
-is_excluded_change
-    
 create_bugs_url
-    
-is_backout_bug
-    
-get_previous_tag_version
     
 get_bugs_in_changeset
     
-tag_version
+get_previous_tag_version
+    
+is_backout_bug
+    
+is_excluded_change
     
 parse_tag_version
+    
+tag_version
 )
 DATA_PATH
 =

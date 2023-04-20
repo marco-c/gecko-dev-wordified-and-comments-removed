@@ -1,7 +1,7 @@
 import
-mozunit
-import
 json
+import
+mozunit
 import
 pytest
 from
@@ -11,8 +11,8 @@ metrics
 .
 utils
 import
-open_file
 metric_fields
+open_file
 from
 mozperftest
 .

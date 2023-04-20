@@ -19,8 +19,8 @@ mach
 .
 decorators
 import
-CommandArgument
 Command
+CommandArgument
 Command
 (
 "

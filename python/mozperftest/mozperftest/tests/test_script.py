@@ -11,13 +11,13 @@ import
     
 BadOptionTypeError
     
-ScriptInfo
-    
 MissingFieldError
     
-ScriptType
-    
 ParseError
+    
+ScriptInfo
+    
+ScriptType
 )
 from
 mozperftest
@@ -30,11 +30,11 @@ import
     
 EXAMPLE_TEST
     
-HERE
-    
 EXAMPLE_XPCSHELL_TEST
     
 EXAMPLE_XPCSHELL_TEST2
+    
+HERE
 )
 def
 check_options

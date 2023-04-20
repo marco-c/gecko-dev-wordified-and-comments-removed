@@ -1,11 +1,11 @@
 import
-mozunit
-import
 os
 from
 unittest
 import
 mock
+import
+mozunit
 import
 pytest
 from
@@ -17,8 +17,8 @@ browsertime
 .
 visualtools
 import
-xvfb
 get_dependencies
+xvfb
 from
 mozperftest
 .

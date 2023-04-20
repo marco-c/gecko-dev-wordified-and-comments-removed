@@ -5,11 +5,11 @@ absolute_import
 print_function
 unicode_literals
 import
+re
+import
 subprocess
 import
 sys
-import
-re
 def
 get_range_for
 (

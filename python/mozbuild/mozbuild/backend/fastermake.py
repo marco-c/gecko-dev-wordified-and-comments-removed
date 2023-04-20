@@ -2,14 +2,26 @@ from
 __future__
 import
 absolute_import
-unicode_literals
 print_function
+unicode_literals
 from
 operator
 import
 itemgetter
 import
+mozpack
+.
+path
+as
+mozpath
+import
 six
+from
+mozpack
+.
+manifests
+import
+InstallManifest
 from
 mozbuild
 .
@@ -33,12 +45,8 @@ frontend
 .
 context
 import
-(
-    
 ObjDirPath
-    
 Path
-)
 from
 mozbuild
 .
@@ -50,9 +58,9 @@ import
     
 ChromeManifestEntry
     
-FinalTargetPreprocessedFiles
-    
 FinalTargetFiles
+    
+FinalTargetPreprocessedFiles
     
 GeneratedFile
     
@@ -76,18 +84,6 @@ mozbuild
 util
 import
 OrderedDefaultDict
-from
-mozpack
-.
-manifests
-import
-InstallManifest
-import
-mozpack
-.
-path
-as
-mozpath
 class
 FasterMakeBackend
 (

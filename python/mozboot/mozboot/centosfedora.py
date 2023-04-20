@@ -1,6 +1,10 @@
 import
 subprocess
 from
+mozfile
+import
+which
+from
 mozboot
 .
 base
@@ -12,10 +16,6 @@ mozboot
 linux_common
 import
 LinuxBootstrapper
-from
-mozfile
-import
-which
 class
 CentOSFedoraBootstrapper
 (

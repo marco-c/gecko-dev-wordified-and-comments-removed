@@ -5,11 +5,11 @@ absolute_import
 print_function
 unicode_literals
 import
+os
+import
 unittest
 import
 mozunit
-import
-os
 from
 mozpack
 .
@@ -19,33 +19,33 @@ manifest
 import
 (
     
-ManifestContent
-    
-ManifestLocale
-    
-ManifestSkin
+MANIFESTS_TYPES
     
 Manifest
-    
-ManifestResource
-    
-ManifestOverride
-    
-ManifestComponent
-    
-ManifestContract
-    
-ManifestInterfaces
     
 ManifestBinaryComponent
     
 ManifestCategory
     
-ManifestStyle
+ManifestComponent
+    
+ManifestContent
+    
+ManifestContract
+    
+ManifestInterfaces
+    
+ManifestLocale
     
 ManifestOverlay
     
-MANIFESTS_TYPES
+ManifestOverride
+    
+ManifestResource
+    
+ManifestSkin
+    
+ManifestStyle
     
 parse_manifest
     
@@ -56,8 +56,8 @@ mozpack
 .
 errors
 import
-errors
 AccumulatedErrors
+errors
 from
 test_errors
 import

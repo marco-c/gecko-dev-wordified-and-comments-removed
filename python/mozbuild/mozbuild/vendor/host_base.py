@@ -7,11 +7,11 @@ unicode_literals
 import
 os
 import
-urllib
+subprocess
 import
 tempfile
 import
-subprocess
+urllib
 class
 BaseHost
 :

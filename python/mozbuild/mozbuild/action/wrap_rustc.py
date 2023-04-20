@@ -7,11 +7,11 @@ unicode_literals
 import
 argparse
 import
+os
+import
 subprocess
 import
 sys
-import
-os
 def
 parse_outputs
 (

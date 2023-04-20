@@ -3,8 +3,6 @@ os
 import
 unittest
 import
-mozunit
-import
 xml
 .
 etree
@@ -12,6 +10,14 @@ etree
 ElementTree
 as
 ET
+import
+mozpack
+.
+path
+as
+mozpath
+import
+mozunit
 from
 mozbuild
 .
@@ -21,20 +27,14 @@ html_fragment_preprocesor
 import
 (
     
+fill_html_fragments_map
+    
 generate
     
 get_fragment_key
     
 get_html_fragments_from_file
-    
-fill_html_fragments_map
 )
-import
-mozpack
-.
-path
-as
-mozpath
 test_data_path
 =
 mozpath

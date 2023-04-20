@@ -12,8 +12,8 @@ mozbuild
 .
 preprocessor
 import
-Expression
 Context
+Expression
 class
 TestContext
 (

@@ -7,9 +7,15 @@ unicode_literals
 import
 os
 import
-six
-import
 unittest
+import
+six
+from
+mozpack
+import
+path
+as
+mozpath
 from
 mozunit
 import
@@ -22,6 +28,14 @@ frontend
 context
 import
 (
+    
+FUNCTIONS
+    
+SPECIAL_VARIABLES
+    
+SUBCONTEXTS
+    
+VARIABLES
     
 AbsolutePath
     
@@ -37,19 +51,11 @@ ContextDerivedTypedRecord
     
 Files
     
-FUNCTIONS
-    
 ObjDirPath
     
 Path
     
 SourcePath
-    
-SPECIAL_VARIABLES
-    
-SUBCONTEXTS
-    
-VARIABLES
 )
 from
 mozbuild
@@ -57,12 +63,6 @@ mozbuild
 util
 import
 StrictOrderingOnAppendListWithFlagsFactory
-from
-mozpack
-import
-path
-as
-mozpath
 class
 TestContext
 (

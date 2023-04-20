@@ -23,6 +23,12 @@ io
 import
 StringIO
 from
+mozbuild
+.
+util
+import
+memoize
+from
 .
 import
 (
@@ -35,23 +41,17 @@ ConfigureSandbox
     
 DependsFunction
     
+SandboxDependsFunction
+    
 SandboxedGlobal
     
 TrivialDependsFunction
-    
-SandboxDependsFunction
 )
 from
 .
 help
 import
 HelpFormatter
-from
-mozbuild
-.
-util
-import
-memoize
 class
 LintSandbox
 (

@@ -1,11 +1,11 @@
-from
-looseversion
-import
-LooseVersion
 import
 mozunit
 import
 pytest
+from
+looseversion
+import
+LooseVersion
 from
 mozversioncontrol
 import

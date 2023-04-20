@@ -11,9 +11,9 @@ exceptions
 import
 (
     
-NotebookTransformOptionsError
-    
 NotebookTransformError
+    
+NotebookTransformOptionsError
 )
 from
 mozperftest

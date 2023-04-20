@@ -4,6 +4,12 @@ import
 absolute_import
 print_function
 unicode_literals
+import
+mozpack
+.
+path
+as
+mozpath
 from
 mozpack
 .
@@ -15,22 +21,36 @@ import
     
 Manifest
     
-ManifestInterfaces
+ManifestBinaryComponent
     
 ManifestChrome
     
-ManifestBinaryComponent
-    
-ManifestResource
+ManifestInterfaces
     
 ManifestMultiContent
+    
+ManifestResource
 )
+from
+mozpack
+.
+copier
+import
+FileRegistry
+FileRegistrySubtree
+Jarrer
 from
 mozpack
 .
 errors
 import
 errors
+from
+mozpack
+.
+files
+import
+ManifestFile
 from
 six
 .
@@ -41,31 +61,6 @@ urllib
 parse
 import
 urlparse
-import
-mozpack
-.
-path
-as
-mozpath
-from
-mozpack
-.
-files
-import
-ManifestFile
-from
-mozpack
-.
-copier
-import
-(
-    
-FileRegistry
-    
-FileRegistrySubtree
-    
-Jarrer
-)
 "
 "
 "

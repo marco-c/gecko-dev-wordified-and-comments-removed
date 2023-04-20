@@ -1,4 +1,6 @@
 import
+json
+import
 os
 import
 sys
@@ -6,8 +8,6 @@ from
 functools
 import
 partial
-import
-json
 from
 mach
 .
@@ -262,18 +262,18 @@ Path
 from
 mozperftest
 .
-utils
+script
 import
-ON_TRY
+ParseError
+ScriptInfo
+ScriptType
     
 from
 mozperftest
 .
-script
+utils
 import
-ScriptInfo
-ScriptType
-ParseError
+ON_TRY
     
 if
 not
@@ -1197,15 +1197,9 @@ mozperftest
 .
 utils
 import
-(
-        
 ON_TRY
-        
-checkout_script
-        
 checkout_python_script
-    
-)
+checkout_script
     
 venv
 =

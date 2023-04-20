@@ -16,12 +16,8 @@ from
 .
 files
 import
-(
-    
 BaseFile
-    
 File
-)
 DEFAULT_MTIME
 =
 1451606400

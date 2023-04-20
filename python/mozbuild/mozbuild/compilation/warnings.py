@@ -15,6 +15,12 @@ os
 import
 re
 import
+mozpack
+.
+path
+as
+mozpath
+import
 six
 from
 mozbuild
@@ -22,12 +28,6 @@ mozbuild
 util
 import
 hash_file
-import
-mozpack
-.
-path
-as
-mozpath
 RE_STRIP_COLORS
 =
 re

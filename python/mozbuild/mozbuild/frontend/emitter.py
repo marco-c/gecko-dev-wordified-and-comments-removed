@@ -28,9 +28,9 @@ path
 as
 mozpath
 import
-six
+pytoml
 import
-toml
+six
 from
 mach
 .
@@ -39,6 +39,14 @@ mixin
 logging
 import
 LoggingMixin
+from
+mozpack
+.
+chrome
+.
+manifest
+import
+Manifest
 from
 mozbuild
 .
@@ -52,14 +60,6 @@ util
 import
 OrderedDefaultDict
 memoize
-from
-mozpack
-.
-chrome
-.
-manifest
-import
-Manifest
 from
 .
 .
@@ -3261,7 +3261,7 @@ f
 :
             
 return
-toml
+pytoml
 .
 load
 (

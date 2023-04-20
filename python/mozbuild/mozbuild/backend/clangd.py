@@ -5,6 +5,12 @@ absolute_import
 print_function
 import
 os
+import
+mozpack
+.
+path
+as
+mozpath
 from
 mozbuild
 .
@@ -13,12 +19,6 @@ compilation
 database
 import
 CompileDBBackend
-import
-mozpack
-.
-path
-as
-mozpath
 def
 find_vscode_cmd
 (

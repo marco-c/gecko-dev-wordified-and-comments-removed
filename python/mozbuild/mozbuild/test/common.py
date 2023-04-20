@@ -10,6 +10,12 @@ import
 os
 import
 shutil
+import
+mozpack
+.
+path
+as
+mozpath
 from
 buildconfig
 import
@@ -26,12 +32,6 @@ mozbuild
 util
 import
 ReadOnlyDict
-import
-mozpack
-.
-path
-as
-mozpath
 log_manager
 =
 LoggingManager

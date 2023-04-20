@@ -12,12 +12,8 @@ mach
 .
 decorators
 import
-(
-    
-CommandArgument
-    
 Command
-)
+CommandArgument
 def
 is_foo
 (

@@ -7,6 +7,12 @@ import
 os
 import
 unittest
+import
+mozpack
+.
+path
+as
+mozpath
 from
 mozunit
 import
@@ -25,12 +31,6 @@ mozbuild
 util
 import
 ReadOnlyDict
-import
-mozpack
-.
-path
-as
-mozpath
 class
 ConfigEnvironment
 (

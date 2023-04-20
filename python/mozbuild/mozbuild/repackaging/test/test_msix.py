@@ -7,6 +7,10 @@ unicode_literals
 import
 unittest
 from
+mozunit
+import
+main
+from
 mozbuild
 .
 repackaging
@@ -14,10 +18,6 @@ repackaging
 msix
 import
 get_embedded_version
-from
-mozunit
-import
-main
 class
 TestMSIX
 (

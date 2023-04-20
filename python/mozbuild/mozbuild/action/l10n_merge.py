@@ -7,11 +7,11 @@ unicode_literals
 import
 argparse
 import
+os
+import
 shutil
 import
 sys
-import
-os
 from
 mozbuild
 .
@@ -122,13 +122,8 @@ compare_locales
 .
 compare
 import
-(
-        
 ContentComparer
-        
 Observer
-    
-)
     
 from
 compare_locales

@@ -28,9 +28,9 @@ site
 import
 (
     
-SitePackagesSource
-    
 PIP_NETWORK_INSTALL_RESTRICTED_VIRTUALENVS
+    
+SitePackagesSource
     
 resolve_requirements
 )

@@ -9,9 +9,9 @@ codecs
 import
 re
 import
-six
-import
 sys
+import
+six
 if
 sys
 .

@@ -4,12 +4,18 @@ import
 absolute_import
 print_function
 unicode_literals
+import
+json
 from
 contextlib
 import
 contextmanager
 import
-json
+mozpack
+.
+path
+as
+mozpath
 import
 six
 from
@@ -32,12 +38,6 @@ HardlinkFile
     
 PreprocessedFile
 )
-import
-mozpack
-.
-path
-as
-mozpath
 contextmanager
 def
 _auto_fileobj

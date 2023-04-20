@@ -1,11 +1,7 @@
-from
-pathlib
-import
-Path
-import
-re
 import
 json
+import
+re
 import
 xml
 .
@@ -14,6 +10,10 @@ etree
 ElementTree
 as
 ET
+from
+pathlib
+import
+Path
 JS_FILE_TEMPLATE
 =
 "

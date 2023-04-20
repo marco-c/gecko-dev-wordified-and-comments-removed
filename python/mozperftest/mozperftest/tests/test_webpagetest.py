@@ -1,26 +1,15 @@
 import
 json
-from
-mozperftest
-.
-tests
-.
-support
 import
-(
-    
-get_running_env
-    
-EXAMPLE_WPT_TEST
-)
-import
-requests
+random
 from
 unittest
 import
 mock
 import
-random
+pytest
+import
+requests
 import
 mozperftest
 .
@@ -29,8 +18,6 @@ test
 webpagetest
 as
 webpagetest
-import
-pytest
 from
 mozperftest
 .
@@ -40,15 +27,11 @@ webpagetest
 import
 (
     
-WPTTimeOutError
+ACCEPTED_STATISTICS
+    
+WPT_API_EXPIRED_MESSAGE
     
 WPTBrowserSelectionError
-    
-WPTInvalidURLError
-    
-WPTLocationSelectionError
-    
-WPTInvalidStatisticsError
     
 WPTDataProcessingError
     
@@ -56,10 +39,23 @@ WPTExpiredAPIKeyError
     
 WPTInvalidConnectionSelection
     
-WPT_API_EXPIRED_MESSAGE
+WPTInvalidStatisticsError
     
-ACCEPTED_STATISTICS
+WPTInvalidURLError
+    
+WPTLocationSelectionError
+    
+WPTTimeOutError
 )
+from
+mozperftest
+.
+tests
+.
+support
+import
+EXAMPLE_WPT_TEST
+get_running_env
 WPT_METRICS
 =
 [

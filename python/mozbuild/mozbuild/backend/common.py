@@ -8,24 +8,32 @@ import
 itertools
 import
 json
-from
-operator
-import
-itemgetter
 import
 os
-import
-six
 from
 collections
 import
 defaultdict
+from
+operator
+import
+itemgetter
 import
 mozpack
 .
 path
 as
 mozpath
+import
+six
+from
+mozpack
+.
+chrome
+.
+manifest
+import
+parse_manifest_line
 from
 mozbuild
 .
@@ -43,6 +51,8 @@ context
 import
 (
     
+VARIABLES
+    
 Context
     
 ObjDirPath
@@ -50,8 +60,6 @@ ObjDirPath
 Path
     
 RenamedSourcePath
-    
-VARIABLES
 )
 from
 mozbuild
@@ -70,9 +78,9 @@ ConfigFileSubstitution
     
 Exports
     
-FinalTargetPreprocessedFiles
-    
 FinalTargetFiles
+    
+FinalTargetPreprocessedFiles
     
 GeneratedFile
     
@@ -82,9 +90,9 @@ HostSources
     
 IPDLCollection
     
-LocalizedPreprocessedFiles
-    
 LocalizedFiles
+    
+LocalizedPreprocessedFiles
     
 SandboxedWasmLibrary
     
@@ -96,11 +104,11 @@ StaticLibrary
     
 UnifiedSources
     
-XPIDLModule
+WebIDLCollection
     
 XPCOMComponentManifests
     
-WebIDLCollection
+XPIDLModule
 )
 from
 mozbuild
@@ -115,14 +123,6 @@ mozbuild
 preprocessor
 import
 Preprocessor
-from
-mozpack
-.
-chrome
-.
-manifest
-import
-parse_manifest_line
 from
 mozbuild
 .

@@ -37,10 +37,6 @@ pathlib
 import
 Path
 import
-mozbuild
-.
-settings
-import
 mozpack
 .
 path
@@ -63,6 +59,10 @@ SettingsProvider
     
 SubCommand
 )
+import
+mozbuild
+.
+settings
 from
 mozbuild
 .

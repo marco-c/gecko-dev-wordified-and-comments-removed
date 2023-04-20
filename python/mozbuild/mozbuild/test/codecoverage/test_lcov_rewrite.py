@@ -1,95 +1,35 @@
-#
-This
-Source
-Code
-Form
-is
-subject
-to
-the
-terms
-of
-the
-Mozilla
-Public
-#
-License
-v
-.
-2
-.
-0
-.
-If
-a
-copy
-of
-the
-MPL
-was
-not
-distributed
-with
-this
-file
-#
-You
-can
-obtain
-one
-at
-http
-:
-/
-/
-mozilla
-.
-org
-/
-MPL
-/
-2
-.
-0
-/
-.
 from
 __future__
 import
 absolute_import
 print_function
+import
+json
+import
+os
+import
+shutil
+import
+unittest
 from
 io
 import
 StringIO
-import
-os
-import
-unittest
-import
-shutil
-import
-json
 from
 tempfile
 import
 NamedTemporaryFile
+import
+buildconfig
+import
+mozunit
 from
 mozbuild
 .
 codecoverage
 import
 chrome_map
-from
-mozbuild
-.
-codecoverage
-import
 lcov_rewriter
-import
-buildconfig
-import
-mozunit
 here
 =
 os
@@ -239,16 +179,6 @@ end_of_record
 "
 "
 "
-#
-These
-line
-numbers
-are
-(
-synthetically
-)
-sorted
-.
 multiple_records
 =
 "
@@ -1633,11 +1563,6 @@ info
 "
 )
         
-#
-Read
-original
-records
-        
 lcov_file
 =
 lcov_rewriter
@@ -1669,29 +1594,6 @@ iterate_records
 (
 )
 ]
-        
-#
-This
-summarization
-changes
-values
-due
-multiple
-reports
-per
-line
-coming
-        
-#
-from
-the
-JS
-engine
-(
-bug
-1198356
-)
-.
         
 for
 r
@@ -1739,12 +1641,6 @@ records
 )
 1
 )
-        
-#
-Rewrite
-preprocessed
-entries
-.
         
 lcov_file
 =
@@ -1810,12 +1706,6 @@ r_num
 1
 )
         
-#
-Read
-rewritten
-lcov
-.
-        
 with
 TempFile
 (
@@ -1873,23 +1763,6 @@ records
 )
 17
 )
-        
-#
-Lines
-/
-functions
-are
-only
-"
-moved
-"
-between
-records
-not
-duplicated
-or
-omited
-.
         
 self
 .
@@ -2711,13 +2584,6 @@ paths
 =
 [
             
-#
-Path
-with
-default
-url
-prefix
-            
 (
                 
 "
@@ -2754,17 +2620,6 @@ None
 )
             
 )
-            
-#
-Path
-with
-url
-prefix
-that
-is
-in
-chrome
-map
             
 (
                 
@@ -2803,14 +2658,6 @@ None
             
 )
             
-#
-Path
-which
-is
-in
-url
-overrides
-            
 (
                 
 "
@@ -2844,14 +2691,6 @@ None
             
 )
             
-#
-Path
-which
-ends
-with
->
-eval
-            
 (
                 
 "
@@ -2878,14 +2717,6 @@ None
             
 )
             
-#
-Path
-which
-ends
-with
->
-Function
-            
 (
                 
 "
@@ -2911,15 +2742,6 @@ Function
 None
             
 )
-            
-#
-Path
-which
-contains
-"
--
->
-"
             
 (
                 
@@ -2953,8 +2775,6 @@ osfile_async_worker
 .
 js
 "
-#
-noqa
                 
 (
 "
@@ -2974,11 +2794,6 @@ None
 )
             
 )
-            
-#
-Path
-with
-pp_info
             
 (
                 
@@ -3039,11 +2854,6 @@ mjs
 )
             
 )
-            
-#
-Path
-with
-query
             
 (
                 

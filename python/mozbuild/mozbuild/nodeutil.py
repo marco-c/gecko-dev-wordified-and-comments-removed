@@ -6,9 +6,9 @@ print_function
 import
 os
 import
-subprocess
-import
 platform
+import
+subprocess
 from
 distutils
 .

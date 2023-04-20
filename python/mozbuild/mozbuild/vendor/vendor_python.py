@@ -19,12 +19,6 @@ Path
 import
 mozfile
 from
-mozbuild
-.
-base
-import
-MozbuildObject
-from
 mozfile
 import
 TemporaryDirectory
@@ -34,6 +28,12 @@ mozpack
 files
 import
 FileFinder
+from
+mozbuild
+.
+base
+import
+MozbuildObject
 EXCLUDED_PACKAGES
 =
 {

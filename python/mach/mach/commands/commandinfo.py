@@ -23,6 +23,12 @@ Path
 import
 attr
 from
+mozbuild
+.
+util
+import
+memoize
+from
 mach
 .
 decorators
@@ -30,12 +36,6 @@ import
 Command
 CommandArgument
 SubCommand
-from
-mozbuild
-.
-util
-import
-memoize
 COMPLETION_TEMPLATES_DIR
 =
 Path

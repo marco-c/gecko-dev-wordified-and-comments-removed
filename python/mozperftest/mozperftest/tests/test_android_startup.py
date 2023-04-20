@@ -15,6 +15,10 @@ unittest
 import
 mock
 import
+pytest
+import
+requests
+import
 mozperftest
 .
 system
@@ -22,10 +26,6 @@ system
 android_startup
 as
 android_startup
-import
-pytest
-import
-requests
 from
 mozperftest
 .

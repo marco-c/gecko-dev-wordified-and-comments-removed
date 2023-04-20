@@ -7,11 +7,9 @@ unicode_literals
 import
 os
 import
-unittest
-import
 sys
 import
-pytest
+unittest
 from
 pathlib
 import
@@ -23,12 +21,14 @@ rmtree
 from
 tempfile
 import
-(
-    
 gettempdir
-    
 mkdtemp
-)
+import
+pytest
+from
+mozunit
+import
+main
 from
 mozboot
 .
@@ -36,20 +36,16 @@ mozconfig
 import
 (
     
-MozconfigFindException
-    
-find_mozconfig
-    
 DEFAULT_TOPSRCDIR_PATHS
+    
+DEPRECATED_HOME_PATHS
     
 DEPRECATED_TOPSRCDIR_PATHS
     
-DEPRECATED_HOME_PATHS
+MozconfigFindException
+    
+find_mozconfig
 )
-from
-mozunit
-import
-main
 class
 TestFindMozconfig
 (

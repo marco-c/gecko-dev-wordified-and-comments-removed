@@ -6,6 +6,10 @@ print_function
 import
 unittest
 from
+collections
+import
+OrderedDict
+from
 mozunit
 import
 main
@@ -22,18 +26,14 @@ List
     
 OrderedDefaultDict
     
-ReadOnlyNamespace
-    
 ReadOnlyDefaultDict
     
 ReadOnlyDict
     
 ReadOnlyKeyedDefaultDict
+    
+ReadOnlyNamespace
 )
-from
-collections
-import
-OrderedDict
 class
 TestReadOnlyNamespace
 (

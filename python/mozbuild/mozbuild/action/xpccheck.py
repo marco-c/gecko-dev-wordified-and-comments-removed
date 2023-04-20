@@ -42,9 +42,9 @@ import
 absolute_import
 print_function
 import
-sys
-import
 os
+import
+sys
 from
 glob
 import

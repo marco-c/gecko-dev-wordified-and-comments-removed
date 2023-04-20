@@ -31,10 +31,11 @@ files
 import
 FileFinder
 from
+mozbuild
 .
-common
+base
 import
-CommonBackend
+ExecutionSummary
 from
 .
 .
@@ -56,18 +57,17 @@ LocalInclude
     
 Program
     
-Sources
-    
 SandboxedWasmLibrary
+    
+Sources
     
 UnifiedSources
 )
 from
-mozbuild
 .
-base
+common
 import
-ExecutionSummary
+CommonBackend
 MSBUILD_NAMESPACE
 =
 "

@@ -6,12 +6,12 @@ print_function
 unicode_literals
 import
 unittest
+import
+mozunit
 from
 mozfile
 import
 NamedTemporaryFile
-import
-mozunit
 from
 six
 import

@@ -4,11 +4,6 @@ import
 absolute_import
 print_function
 unicode_literals
-from
-.
-common
-import
-CommonBackend
 import
 mozpack
 .
@@ -31,6 +26,11 @@ import
 quote
 as
 shell_quote
+from
+.
+common
+import
+CommonBackend
 class
 MakeBackend
 (

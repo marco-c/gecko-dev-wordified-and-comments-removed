@@ -15,8 +15,8 @@ mozlint
 .
 result
 import
-ResultSummary
 Issue
+ResultSummary
 here
 =
 os

@@ -7,13 +7,13 @@ unicode_literals
 import
 argparse
 import
-buildconfig
-import
 os
 from
 io
 import
 StringIO
+import
+buildconfig
 from
 mozbuild
 .

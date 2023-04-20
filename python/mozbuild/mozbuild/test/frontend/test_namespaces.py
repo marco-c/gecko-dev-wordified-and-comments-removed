@@ -5,9 +5,9 @@ absolute_import
 print_function
 unicode_literals
 import
-six
-import
 unittest
+import
+six
 from
 mozunit
 import
@@ -23,11 +23,11 @@ import
     
 Context
     
-ContextDerivedValue
-    
 ContextDerivedTypedList
     
 ContextDerivedTypedListWithItems
+    
+ContextDerivedValue
 )
 from
 mozbuild

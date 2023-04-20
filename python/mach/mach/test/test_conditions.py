@@ -2,9 +2,6 @@ from
 __future__
 import
 absolute_import
-from
-__future__
-import
 unicode_literals
 from
 pathlib
@@ -14,6 +11,10 @@ from
 buildconfig
 import
 topsrcdir
+from
+mozunit
+import
+main
 from
 mach
 .
@@ -39,12 +40,8 @@ test
 .
 conftest
 import
-TestBase
 PROVIDER_DIR
-from
-mozunit
-import
-main
+TestBase
 def
 _make_populate_context
 (

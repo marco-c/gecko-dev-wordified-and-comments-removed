@@ -31,6 +31,10 @@ subprocess
 import
 sys
 from
+textwrap
+import
+TextWrapper
+from
 mozfile
 .
 mozfile
@@ -38,10 +42,6 @@ import
 remove
 as
 mozfileremove
-from
-textwrap
-import
-TextWrapper
 CLOBBER_MESSAGE
 =
 "

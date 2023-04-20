@@ -6,6 +6,12 @@ print_function
 import
 logging
 import
+mozpack
+.
+path
+as
+mozpath
+import
 yaml
 from
 mozbuild
@@ -13,12 +19,6 @@ mozbuild
 util
 import
 memoized_property
-import
-mozpack
-.
-path
-as
-mozpath
 class
 ClangTidyConfig
 (

@@ -9,11 +9,9 @@ os
 import
 re
 import
-six
+subprocess
 import
 sys
-import
-subprocess
 import
 traceback
 from
@@ -24,6 +22,8 @@ from
 textwrap
 import
 dedent
+import
+six
 from
 mozboot
 .

@@ -6,11 +6,11 @@ print_function
 import
 argparse
 import
+json
+import
 logging
 import
 mmap
-import
-json
 import
 os
 import

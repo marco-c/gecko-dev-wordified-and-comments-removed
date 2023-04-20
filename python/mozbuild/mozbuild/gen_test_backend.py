@@ -7,6 +7,12 @@ import
 os
 import
 sys
+import
+mozpack
+.
+path
+as
+mozpath
 from
 mozbuild
 .
@@ -39,12 +45,6 @@ reader
 import
 BuildReader
 EmptyConfig
-import
-mozpack
-.
-path
-as
-mozpath
 def
 gen_test_backend
 (

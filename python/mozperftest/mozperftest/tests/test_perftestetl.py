@@ -1,9 +1,9 @@
 import
 json
 import
-mozunit
-import
 pathlib
+import
+mozunit
 from
 mozperftest
 .

@@ -1,11 +1,8 @@
 from
 __future__
 import
-print_function
-from
-__future__
-import
 absolute_import
+print_function
 import
 base64
 import
@@ -45,8 +42,8 @@ zipfile
 from
 contextlib
 import
-contextmanager
 closing
+contextmanager
 from
 functools
 import
@@ -54,11 +51,8 @@ wraps
 from
 io
 import
-open
-from
-io
-import
 BytesIO
+open
 from
 random
 import
@@ -67,9 +61,6 @@ from
 subprocess
 import
 PIPE
-from
-subprocess
-import
 Popen
 __version__
 =
@@ -197,23 +188,8 @@ http
 .
 client
 import
-HTTPSConnection
 HTTPConnection
-    
-from
-urllib
-.
-parse
-import
-urlparse
-urljoin
-    
-from
-urllib
-.
-request
-import
-Request
+HTTPSConnection
     
 from
 urllib
@@ -222,6 +198,21 @@ error
 import
 HTTPError
 URLError
+    
+from
+urllib
+.
+parse
+import
+urljoin
+urlparse
+    
+from
+urllib
+.
+request
+import
+Request
 else
 :
     
@@ -235,21 +226,21 @@ urllib2
 from
 httplib
 import
-HTTPSConnection
 HTTPConnection
+HTTPSConnection
     
 from
 urllib2
 import
-Request
 HTTPError
+Request
 URLError
     
 from
 urlparse
 import
-urlparse
 urljoin
+urlparse
 log
 =
 logging

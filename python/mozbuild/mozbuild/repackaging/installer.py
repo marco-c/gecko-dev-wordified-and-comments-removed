@@ -6,9 +6,9 @@ print_function
 import
 os
 import
-tempfile
-import
 shutil
+import
+tempfile
 import
 zipfile
 import
