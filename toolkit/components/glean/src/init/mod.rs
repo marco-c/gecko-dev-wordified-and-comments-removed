@@ -831,12 +831,6 @@ SERVER
 }
 ;
 let
-mut
-use_core_mps
-=
-false
-;
-let
 application_id
 =
 if
@@ -846,10 +840,6 @@ is_empty
 (
 )
 {
-use_core_mps
-=
-true
-;
 "
 firefox
 .
@@ -899,6 +889,8 @@ uploader
 :
 None
 use_core_mps
+:
+true
 trim_data_to_registered_pings
 :
 true
