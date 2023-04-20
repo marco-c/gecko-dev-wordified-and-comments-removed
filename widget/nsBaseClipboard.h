@@ -132,6 +132,11 @@ aWhichClipboard
 =
 0
 ;
+void
+ClearClipboardCache
+(
+)
+;
 bool
 mEmptyingForSetData
 ;
