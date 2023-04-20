@@ -532,7 +532,7 @@ pacing_rate
 const
 {
 return
-media_rate_
+adjusted_media_rate_
 ;
 }
 void
@@ -727,6 +727,13 @@ Timestamp
 send_time
 )
 ;
+void
+MaybeUpdateMediaRateDueToLongQueue
+(
+Timestamp
+now
+)
+;
 Timestamp
 CurrentTime
 (
@@ -791,7 +798,10 @@ DataSize
 padding_debt_
 ;
 DataRate
-media_rate_
+pacing_rate_
+;
+DataRate
+adjusted_media_rate_
 ;
 DataRate
 padding_rate_
