@@ -3080,12 +3080,11 @@ span
 )
 |
 |
-HTMLEditor
+HTMLEditUtils
 :
 :
-HasAttributes
+ElementHasAttributesExceptMozDirty
 (
-&
 aStyledElement
 )
 )
