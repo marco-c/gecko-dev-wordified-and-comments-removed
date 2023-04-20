@@ -6662,7 +6662,7 @@ to
 -
 sync
 -
-dialog2
+dialog3
 =
 .
 title
@@ -6679,12 +6679,6 @@ min
 width
 :
 36em
-;
-min
--
-height
-:
-35em
 ;
 .
 buttonlabelaccept
