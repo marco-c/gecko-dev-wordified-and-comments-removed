@@ -642,6 +642,16 @@ nsIEventTarget
 aTarget
 )
 {
+if
+(
+!
+aTarget
+)
+{
+return
+NS_ERROR_INVALID_ARG
+;
+}
 {
 MutexAutoLock
 lock
