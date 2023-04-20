@@ -9795,8 +9795,6 @@ UpdateSynthesizedTouchState
 MultiTouchInput
 *
 aState
-uint32_t
-aTime
 mozilla
 :
 :
@@ -9837,12 +9835,6 @@ inputToDispatch
 mInputType
 =
 MULTITOUCH_INPUT
-;
-inputToDispatch
-.
-mTime
-=
-aTime
 ;
 inputToDispatch
 .

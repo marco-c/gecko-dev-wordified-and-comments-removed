@@ -307,9 +307,6 @@ TapGestureInput
 aType
 aTouch
 .
-mTime
-aTouch
-.
 mTimeStamp
 aTouch
 .
@@ -1434,9 +1431,6 @@ PinchGestureInput
 ONE_TOUCH
 mLastTouchInput
 .
-mTime
-mLastTouchInput
-.
 mTimeStamp
 mLastTouchInput
 .
@@ -1579,9 +1573,6 @@ PinchGestureInput
 TOUCH
 mLastTouchInput
 .
-mTime
-mLastTouchInput
-.
 mTimeStamp
 mLastTouchInput
 .
@@ -1685,9 +1676,6 @@ PinchGestureInput
 TOUCH
 mLastTouchInput
 .
-mTime
-mLastTouchInput
-.
 mTimeStamp
 mLastTouchInput
 .
@@ -1783,9 +1771,6 @@ PinchGestureInput
 :
 :
 ONE_TOUCH
-mLastTouchInput
-.
-mTime
 mLastTouchInput
 .
 mTimeStamp
@@ -2113,9 +2098,6 @@ PinchGestureInput
 TOUCH
 mLastTouchInput
 .
-mTime
-mLastTouchInput
-.
 mTimeStamp
 mLastTouchInput
 .
@@ -2167,9 +2149,6 @@ PinchGestureInput
 :
 :
 ONE_TOUCH
-mLastTouchInput
-.
-mTime
 mLastTouchInput
 .
 mTimeStamp

@@ -132,10 +132,6 @@ mInputType
 (
 aInputType
 )
-mTime
-(
-0
-)
 mFocusSequenceNumber
 (
 0
@@ -157,8 +153,6 @@ InputData
 (
 InputType
 aInputType
-uint32_t
-aTime
 TimeStamp
 aTimeStamp
 Modifiers
@@ -168,10 +162,6 @@ aModifiers
 mInputType
 (
 aInputType
-)
-mTime
-(
-aTime
 )
 mTimeStamp
 (
@@ -411,7 +401,6 @@ aModifiers
 InputData
 (
 MULTITOUCH_INPUT
-aTime
 aTimeStamp
 aModifiers
 )
@@ -460,9 +449,6 @@ aTouchEvent
 InputData
 (
 MULTITOUCH_INPUT
-aTouchEvent
-.
-mTime
 aTouchEvent
 .
 mTimeStamp
@@ -982,15 +968,6 @@ modifiers
 ;
 event
 .
-mTime
-=
-this
--
->
-mTime
-;
-event
-.
 mTimeStamp
 =
 this
@@ -1289,8 +1266,6 @@ const
 ScreenPoint
 &
 aPoint
-uint32_t
-aTime
 TimeStamp
 aTimeStamp
 Modifiers
@@ -1300,7 +1275,6 @@ aModifiers
 InputData
 (
 MOUSE_INPUT
-aTime
 aTimeStamp
 aModifiers
 )
@@ -1348,9 +1322,6 @@ aMouseEvent
 InputData
 (
 MOUSE_INPUT
-aMouseEvent
-.
-mTime
 aMouseEvent
 .
 mTimeStamp
@@ -1944,12 +1915,6 @@ modifiers
 ;
 event
 .
-mTime
-=
-mTime
-;
-event
-.
 mTimeStamp
 =
 mTimeStamp
@@ -2085,8 +2050,6 @@ PanGestureInput
 (
 PanGestureType
 aType
-uint32_t
-aTime
 TimeStamp
 aTimeStamp
 const
@@ -2104,7 +2067,6 @@ aModifiers
 InputData
 (
 PANGESTURE_INPUT
-aTime
 aTimeStamp
 aModifiers
 )
@@ -2176,8 +2138,6 @@ PanGestureInput
 (
 PanGestureType
 aType
-uint32_t
-aTime
 TimeStamp
 aTimeStamp
 const
@@ -2197,7 +2157,6 @@ aIsEligibleForSwipe
 PanGestureInput
 (
 aType
-aTime
 aTimeStamp
 aPanStartPoint
 aPanDisplacement
@@ -2308,12 +2267,6 @@ this
 -
 >
 modifiers
-;
-wheelEvent
-.
-mTime
-=
-mTime
 ;
 wheelEvent
 .
@@ -2781,8 +2734,6 @@ PinchGestureType
 aType
 PinchGestureSource
 aSource
-uint32_t
-aTime
 TimeStamp
 aTimeStamp
 const
@@ -2804,7 +2755,6 @@ aModifiers
 InputData
 (
 PINCHGESTURE_INPUT
-aTime
 aTimeStamp
 aModifiers
 )
@@ -2915,12 +2865,6 @@ this
 modifiers
 |
 MODIFIER_CONTROL
-;
-wheelEvent
-.
-mTime
-=
-mTime
 ;
 wheelEvent
 .
@@ -3318,8 +3262,6 @@ TapGestureInput
 (
 TapGestureType
 aType
-uint32_t
-aTime
 TimeStamp
 aTimeStamp
 const
@@ -3333,7 +3275,6 @@ aModifiers
 InputData
 (
 TAPGESTURE_INPUT
-aTime
 aTimeStamp
 aModifiers
 )
@@ -3354,8 +3295,6 @@ TapGestureInput
 (
 TapGestureType
 aType
-uint32_t
-aTime
 TimeStamp
 aTimeStamp
 const
@@ -3369,7 +3308,6 @@ aModifiers
 InputData
 (
 TAPGESTURE_INPUT
-aTime
 aTimeStamp
 aModifiers
 )
@@ -3445,12 +3383,6 @@ true
 eTapGesture
 aWidget
 )
-;
-event
-.
-mTime
-=
-mTime
 ;
 event
 .
@@ -3583,8 +3515,6 @@ ScrollWheelInput
 :
 ScrollWheelInput
 (
-uint32_t
-aTime
 TimeStamp
 aTimeStamp
 Modifiers
@@ -3610,7 +3540,6 @@ aWheelDeltaAdjustmentStrategy
 InputData
 (
 SCROLLWHEEL_INPUT
-aTime
 aTimeStamp
 aModifiers
 )
@@ -3701,9 +3630,6 @@ aWheelEvent
 InputData
 (
 SCROLLWHEEL_INPUT
-aWheelEvent
-.
-mTime
 aWheelEvent
 .
 mTimeStamp
@@ -4035,12 +3961,6 @@ modifiers
 ;
 wheelEvent
 .
-mTime
-=
-mTime
-;
-wheelEvent
-.
 mTimeStamp
 =
 mTimeStamp
@@ -4240,9 +4160,6 @@ aEvent
 InputData
 (
 KEYBOARD_INPUT
-aEvent
-.
-mTime
 aEvent
 .
 mTimeStamp

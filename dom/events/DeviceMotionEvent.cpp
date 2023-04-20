@@ -229,17 +229,6 @@ IsNull
 )
 )
 {
-mEvent
--
->
-mTime
-=
-aTimeStamp
-.
-Value
-(
-)
-;
 static
 mozilla
 :

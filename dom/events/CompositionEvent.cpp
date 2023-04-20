@@ -99,15 +99,6 @@ true
 mEvent
 -
 >
-mTime
-=
-PR_Now
-(
-)
-;
-mEvent
--
->
 mFlags
 .
 mCancelable

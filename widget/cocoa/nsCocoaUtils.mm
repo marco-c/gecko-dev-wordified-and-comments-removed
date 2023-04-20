@@ -3472,14 +3472,6 @@ aNativeEvent
 ;
 aInputEvent
 .
-mTime
-=
-PR_IntervalNow
-(
-)
-;
-aInputEvent
-.
 mTimeStamp
 =
 GetEventTimeStamp
@@ -7406,8 +7398,6 @@ CreatePanGestureEvent
 NSEvent
 *
 aNativeEvent
-uint32_t
-aTime
 TimeStamp
 aTimeStamp
 const
@@ -7464,7 +7454,6 @@ PanGestureInput
 panEvent
 (
 type
-aTime
 aTimeStamp
 aPanStartPoint
 !

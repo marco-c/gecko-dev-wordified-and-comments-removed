@@ -1636,14 +1636,6 @@ aNChars
 )
 ;
 void
-InitEvent
-(
-WidgetGUIEvent
-&
-aEvent
-)
-;
-void
 PrepareToDestroyContext
 (
 GtkIMContext

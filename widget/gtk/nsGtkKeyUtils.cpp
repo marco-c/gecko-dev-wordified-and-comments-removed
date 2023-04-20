@@ -9410,15 +9410,6 @@ break
 }
 aKeyEvent
 .
-mTime
-=
-aGdkKeyEvent
--
->
-time
-;
-aKeyEvent
-.
 mNativeKeyEvent
 =
 static_cast

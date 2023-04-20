@@ -346,10 +346,6 @@ aTime
 ScrollWheelInput
 input
 (
-MillisecondsSinceStartup
-(
-aTime
-)
 aTime
 0
 ScrollWheelInput
@@ -414,10 +410,6 @@ aTime
 ScrollWheelInput
 input
 (
-MillisecondsSinceStartup
-(
-aTime
-)
 aTime
 0
 ScrollWheelInput
@@ -492,10 +484,6 @@ PRIMARY_BUTTON
 0
 0
 aPoint
-MillisecondsSinceStartup
-(
-aTime
-)
 aTime
 0
 )
@@ -550,10 +538,6 @@ PRIMARY_BUTTON
 0
 0
 aPoint
-MillisecondsSinceStartup
-(
-aTime
-)
 aTime
 0
 )
@@ -608,10 +592,6 @@ PRIMARY_BUTTON
 0
 0
 aPoint
-MillisecondsSinceStartup
-(
-aTime
-)
 aTime
 0
 )
@@ -670,10 +650,6 @@ PanGestureInput
 input
 (
 aType
-MillisecondsSinceStartup
-(
-aTime
-)
 aTime
 aPoint
 aDelta

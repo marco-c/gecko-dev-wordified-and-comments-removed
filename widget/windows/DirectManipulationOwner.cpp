@@ -1774,13 +1774,6 @@ values
 )
 ;
 }
-PRIntervalTime
-eventIntervalTime
-=
-PR_IntervalNow
-(
-)
-;
 TimeStamp
 eventTimeStamp
 =
@@ -1886,7 +1879,6 @@ PinchGestureInput
 :
 :
 TRACKPAD
-eventIntervalTime
 eventTimeStamp
 screenOffset
 position
@@ -2244,13 +2236,6 @@ values
 ;
 }
 }
-PRIntervalTime
-eventIntervalTime
-=
-PR_IntervalNow
-(
-)
-;
 TimeStamp
 eventTimeStamp
 =
@@ -2265,7 +2250,6 @@ PanGestureInput
 event
 {
 panGestureType
-eventIntervalTime
 eventTimeStamp
 aPosition
 ScreenPoint

@@ -28074,14 +28074,6 @@ refpoint
 viewAPD
 )
 ;
-event
-.
-mTime
-=
-PR_IntervalNow
-(
-)
-;
 if
 (
 BrowserBridgeChild

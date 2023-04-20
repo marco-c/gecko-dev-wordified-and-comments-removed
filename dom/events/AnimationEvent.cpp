@@ -79,15 +79,6 @@ mEventIsInternal
 =
 true
 ;
-mEvent
--
->
-mTime
-=
-PR_Now
-(
-)
-;
 }
 }
 already_AddRefed

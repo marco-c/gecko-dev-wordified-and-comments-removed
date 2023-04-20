@@ -472,15 +472,6 @@ false
 eVoidEvent
 )
 ;
-mEvent
--
->
-mTime
-=
-PR_Now
-(
-)
-;
 }
 InitPresContextData
 (

@@ -527,12 +527,6 @@ aOther
 .
 mModifiers
 ;
-mTime
-=
-aOther
-.
-mTime
-;
 mTimeStamp
 =
 aOther

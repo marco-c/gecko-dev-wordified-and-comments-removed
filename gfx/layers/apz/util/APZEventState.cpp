@@ -1081,7 +1081,6 @@ APZCCallbackHelper
 DispatchSynthesizedMouseEvent
 (
 eMouseMove
-0
 aPoint
 *
 aScale
@@ -1198,7 +1197,6 @@ APZCCallbackHelper
 DispatchSynthesizedMouseEvent
 (
 eMouseLongTap
-0
 aPoint
 *
 aScale
@@ -1341,7 +1339,6 @@ APZCCallbackHelper
 DispatchSynthesizedMouseEvent
 (
 eMouseLongTap
-0
 aPoint
 *
 aScale

@@ -1329,8 +1329,6 @@ CreatePanGestureEvent
 NSEvent
 *
 aNativeEvent
-uint32_t
-aTime
 mozilla
 :
 :

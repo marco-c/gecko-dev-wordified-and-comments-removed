@@ -277,9 +277,6 @@ public
 InputType
 mInputType
 ;
-uint32_t
-mTime
-;
 TimeStamp
 mTimeStamp
 ;
@@ -349,8 +346,6 @@ InputData
 (
 InputType
 aInputType
-uint32_t
-aTime
 TimeStamp
 aTimeStamp
 Modifiers
@@ -705,8 +700,6 @@ const
 ScreenPoint
 &
 aPoint
-uint32_t
-aTime
 TimeStamp
 aTimeStamp
 Modifiers
@@ -843,8 +836,6 @@ PanGestureInput
 (
 PanGestureType
 aType
-uint32_t
-aTime
 TimeStamp
 aTimeStamp
 const
@@ -873,8 +864,6 @@ PanGestureInput
 (
 PanGestureType
 aType
-uint32_t
-aTime
 TimeStamp
 aTimeStamp
 const
@@ -1166,8 +1155,6 @@ PinchGestureType
 aType
 PinchGestureSource
 aSource
-uint32_t
-aTime
 TimeStamp
 aTimeStamp
 const
@@ -1315,8 +1302,6 @@ TapGestureInput
 (
 TapGestureType
 aType
-uint32_t
-aTime
 TimeStamp
 aTimeStamp
 const
@@ -1331,8 +1316,6 @@ TapGestureInput
 (
 TapGestureType
 aType
-uint32_t
-aTime
 TimeStamp
 aTimeStamp
 const
@@ -1435,8 +1418,6 @@ SCROLLMODE_SMOOTH
 ;
 ScrollWheelInput
 (
-uint32_t
-aTime
 TimeStamp
 aTimeStamp
 Modifiers

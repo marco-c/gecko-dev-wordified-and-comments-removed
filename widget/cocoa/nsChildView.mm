@@ -4343,9 +4343,6 @@ mSynthesizedTouchInput
 get
 (
 )
-PR_IntervalNow
-(
-)
 TimeStamp
 :
 :
@@ -8883,13 +8880,6 @@ apz_mac_enable_double_tap_zoom_touchpad_gesture
 )
 )
 {
-PRIntervalTime
-eventIntervalTime
-=
-PR_IntervalNow
-(
-)
-;
 TapGestureInput
 event
 {
@@ -8897,7 +8887,6 @@ TapGestureInput
 :
 :
 TAPGESTURE_DOUBLE
-eventIntervalTime
 aEventTimeStamp
 ViewAs
 <
@@ -8940,14 +8929,6 @@ geckoEvent
 mModifiers
 =
 aModifiers
-;
-geckoEvent
-.
-mTime
-=
-PR_IntervalNow
-(
-)
 ;
 geckoEvent
 .
@@ -11124,13 +11105,6 @@ PixelCastJustification
 LayoutDeviceIsScreenForUntransformedEvent
 )
 ;
-PRIntervalTime
-eventIntervalTime
-=
-PR_IntervalNow
-(
-)
-;
 TimeStamp
 eventTimeStamp
 =
@@ -11238,7 +11212,6 @@ PinchGestureInput
 :
 :
 TRACKPAD
-eventIntervalTime
 eventTimeStamp
 screenOffset
 position
@@ -13969,13 +13942,6 @@ ModifiersForEvent
 theEvent
 )
 ;
-PRIntervalTime
-eventIntervalTime
-=
-PR_IntervalNow
-(
-)
-;
 TimeStamp
 eventTimeStamp
 =
@@ -14056,7 +14022,6 @@ nsCocoaUtils
 CreatePanGestureEvent
 (
 theEvent
-eventIntervalTime
 eventTimeStamp
 position
 preciseDelta
@@ -14082,7 +14047,6 @@ usePreciseDeltas
 ScrollWheelInput
 wheelEvent
 (
-eventIntervalTime
 eventTimeStamp
 modifiers
 ScrollWheelInput
@@ -14186,7 +14150,6 @@ SCROLLMODE_SMOOTH
 ScrollWheelInput
 wheelEvent
 (
-eventIntervalTime
 eventTimeStamp
 modifiers
 scrollMode

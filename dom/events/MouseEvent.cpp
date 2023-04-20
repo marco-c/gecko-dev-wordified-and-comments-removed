@@ -119,15 +119,6 @@ true
 mEvent
 -
 >
-mTime
-=
-PR_Now
-(
-)
-;
-mEvent
--
->
 mRefPoint
 =
 LayoutDeviceIntPoint

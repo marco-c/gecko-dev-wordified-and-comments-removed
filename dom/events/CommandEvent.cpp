@@ -61,15 +61,6 @@ WidgetCommandEvent
 )
 )
 {
-mEvent
--
->
-mTime
-=
-PR_Now
-(
-)
-;
 if
 (
 aEvent

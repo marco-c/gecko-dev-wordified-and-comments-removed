@@ -1881,7 +1881,7 @@ IsWithinIncrementalTime
 keyEvent
 -
 >
-mTime
+mTimeStamp
 )
 )
 {

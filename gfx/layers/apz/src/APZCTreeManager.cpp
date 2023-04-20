@@ -7810,9 +7810,6 @@ PanGestureInput
 PANGESTURE_INTERRUPTED
 panInput
 .
-mTime
-panInput
-.
 mTimeStamp
 panInput
 .
@@ -10377,9 +10374,6 @@ mTouches
 mScreenPoint
 aTouchInput
 .
-mTime
-aTouchInput
-.
 mTimeStamp
 aTouchInput
 .
@@ -10774,9 +10768,6 @@ PinchGestureInput
 MOUSEWHEEL
 aWheelInput
 .
-mTime
-aWheelInput
-.
 mTimeStamp
 ExternalPoint
 (
@@ -10802,9 +10793,6 @@ PinchGestureInput
 :
 :
 MOUSEWHEEL
-aWheelInput
-.
-mTime
 aWheelInput
 .
 mTimeStamp
@@ -10834,9 +10822,6 @@ PinchGestureInput
 MOUSEWHEEL
 aWheelInput
 .
-mTime
-aWheelInput
-.
 mTimeStamp
 ExternalPoint
 (
@@ -10862,9 +10847,6 @@ PinchGestureInput
 :
 :
 MOUSEWHEEL
-aWheelInput
-.
-mTime
 aWheelInput
 .
 mTimeStamp

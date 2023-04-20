@@ -136,15 +136,6 @@ true
 mEvent
 -
 >
-mTime
-=
-PR_Now
-(
-)
-;
-mEvent
--
->
 AsKeyboardEvent
 (
 )
