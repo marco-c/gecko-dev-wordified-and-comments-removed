@@ -953,8 +953,7 @@ ff
 mov
 \
 \
--
-0x01
+0xFFFFFFFF
 %
 eax
 '
@@ -1203,8 +1202,7 @@ ff
 mov
 \
 \
--
-0x01
+0xFFFFFFFF
 %
 eax
 '

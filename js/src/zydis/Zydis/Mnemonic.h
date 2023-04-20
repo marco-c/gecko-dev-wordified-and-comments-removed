@@ -9,9 +9,9 @@ include
 "
 zydis
 /
-Zydis
+Zycore
 /
-Defines
+Types
 .
 h
 "
