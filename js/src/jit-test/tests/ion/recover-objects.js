@@ -1391,6 +1391,11 @@ testNewObjectWithBranchPruning
 i
 )
 ;
+unknownLoad
+(
+i
+)
+;
 }
 let
 o
