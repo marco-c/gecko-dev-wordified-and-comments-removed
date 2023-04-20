@@ -9334,7 +9334,12 @@ compilationState_
 .
 moduleMetadata
 =
-cx_
+fc_
+-
+>
+getAllocator
+(
+)
 -
 >
 template
