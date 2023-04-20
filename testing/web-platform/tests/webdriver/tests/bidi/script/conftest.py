@@ -1,5 +1,7 @@
 import
 pytest
+import
+pytest_asyncio
 from
 typing
 import
@@ -169,7 +171,7 @@ result
     
 return
 call_function
-pytest
+pytest_asyncio
 .
 fixture
 async

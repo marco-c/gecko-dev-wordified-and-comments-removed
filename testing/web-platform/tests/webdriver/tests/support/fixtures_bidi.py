@@ -1,5 +1,3 @@
-import
-asyncio
 from
 typing
 import
@@ -8,7 +6,7 @@ Mapping
 import
 pytest
 import
-webdriver
+pytest_asyncio
 from
 webdriver
 .
@@ -34,7 +32,7 @@ modules
 script
 import
 ContextTarget
-pytest
+pytest_asyncio
 .
 fixture
 async
@@ -133,7 +131,7 @@ NoSuchScriptException
 :
             
 pass
-pytest
+pytest_asyncio
 .
 fixture
 async
@@ -226,7 +224,7 @@ NoSuchFrameException
 :
             
 pass
-pytest
+pytest_asyncio
 .
 fixture
 async
