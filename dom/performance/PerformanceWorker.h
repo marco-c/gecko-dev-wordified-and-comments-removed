@@ -394,6 +394,11 @@ CrossOriginIsolated
 const
 override
 ;
+void
+NoteShuttingDown
+(
+)
+;
 protected
 :
 ~
