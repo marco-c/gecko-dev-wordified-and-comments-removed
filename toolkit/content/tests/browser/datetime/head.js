@@ -759,6 +759,14 @@ BTN_PREV_MONTH
 .
 prev
 "
+BTN_CLEAR
+=
+"
+#
+clear
+-
+button
+"
 DAY_SELECTED
 =
 "
@@ -1563,7 +1571,7 @@ KEY_Tab
 {
 repeat
 :
-2
+3
 }
 )
 ;
