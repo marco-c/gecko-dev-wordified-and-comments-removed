@@ -510,10 +510,6 @@ firefox
 bin
 -
 jsconsole
-<
-/
-pre
->
 The
 Browser
 Console
@@ -1038,10 +1034,6 @@ messages
 to
 the
 console
-<
-/
-pre
->
 Learn
 more
 :
