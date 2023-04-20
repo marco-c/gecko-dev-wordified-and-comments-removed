@@ -316,6 +316,10 @@ frame_dumping_decoder
 "
 "
 :
+task_queue_frame_decode_scheduler
+"
+"
+:
 unique_timestamp_counter
 "
 "
@@ -1654,6 +1658,10 @@ deps
 "
 :
 decode_synchronizer
+"
+"
+:
+frame_decode_scheduler
 "
 "
 :
