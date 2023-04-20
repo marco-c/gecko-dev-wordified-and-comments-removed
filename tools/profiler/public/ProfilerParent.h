@@ -75,7 +75,7 @@ SingleProcessProfilePromise
 =
 MozPromise
 <
-Shmem
+IPCProfileAndAdditionalInformation
 ResponseRejectReason
 true
 >

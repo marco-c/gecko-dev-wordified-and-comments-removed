@@ -126,8 +126,8 @@ GatherProfile
 )
 returns
 (
-Shmem
-profile
+IPCProfileAndAdditionalInformation
+profileAndAdditionalInformation
 )
 ;
 async
