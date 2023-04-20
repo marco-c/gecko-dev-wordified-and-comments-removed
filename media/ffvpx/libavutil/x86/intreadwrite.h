@@ -42,6 +42,9 @@ __MMX__
 )
 #
 define
+FF_COPY_SWAP_ZERO_USES_MMX
+#
+define
 AV_COPY64
 AV_COPY64
 static

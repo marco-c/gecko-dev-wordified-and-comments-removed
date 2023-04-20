@@ -24,13 +24,13 @@ h
 #
 include
 "
-vp56
+vpx_rac
 .
 h
 "
 const
 uint8_t
-ff_vp56_norm_shift
+ff_vpx_norm_shift
 [
 256
 ]
@@ -295,9 +295,9 @@ ff_vp56_norm_shift
 }
 ;
 int
-ff_vp56_init_range_decoder
+ff_vpx_init_range_decoder
 (
-VP56RangeCoder
+VPXRangeCoder
 *
 c
 const

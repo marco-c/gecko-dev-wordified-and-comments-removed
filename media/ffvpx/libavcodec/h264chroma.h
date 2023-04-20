@@ -28,6 +28,7 @@ h264_chroma_mc_func
 uint8_t
 *
 dst
+const
 uint8_t
 *
 src

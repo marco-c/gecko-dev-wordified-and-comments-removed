@@ -267,6 +267,12 @@ void
 )
 ;
 int
+ff_get_cpu_flags_riscv
+(
+void
+)
+;
+int
 ff_get_cpu_flags_x86
 (
 void

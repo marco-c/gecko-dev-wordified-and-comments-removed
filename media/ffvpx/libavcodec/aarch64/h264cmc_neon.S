@@ -209,6 +209,7 @@ chroma_mc8
 uint8_t
 *
 dst
+const
 uint8_t
 *
 src
@@ -1404,6 +1405,7 @@ chroma_mc4
 uint8_t
 *
 dst
+const
 uint8_t
 *
 src

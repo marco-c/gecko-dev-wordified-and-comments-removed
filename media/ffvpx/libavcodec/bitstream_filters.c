@@ -73,6 +73,11 @@ ff_dca_core_bsf
 extern
 const
 FFBitStreamFilter
+ff_dts2pts_bsf
+;
+extern
+const
+FFBitStreamFilter
 ff_dv_error_marker_bsf
 ;
 extern

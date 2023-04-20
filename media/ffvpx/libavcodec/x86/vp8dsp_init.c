@@ -56,6 +56,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -77,6 +78,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -98,6 +100,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -119,6 +122,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -140,6 +144,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -161,6 +166,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -182,6 +188,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -203,6 +210,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -224,6 +232,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -245,6 +254,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -266,6 +276,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -287,6 +298,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -308,6 +320,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -329,6 +342,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -350,6 +364,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -371,6 +386,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -392,6 +408,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -413,6 +430,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -434,6 +452,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -455,6 +474,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -476,6 +496,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -497,6 +518,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -518,6 +540,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -539,6 +562,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -560,6 +584,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -581,6 +606,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -628,6 +654,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -907,6 +934,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src
@@ -1194,6 +1222,7 @@ uint8_t
 dst
 ptrdiff_t
 dststride
+const
 uint8_t
 *
 src

@@ -48,6 +48,10 @@ avassert
 h
 "
 #
+define
+MAX_AUTO_THREADS
+16
+#
 if
 HAVE_PTHREADS
 |
@@ -464,9 +468,13 @@ nb_cpus
 )
 nb_threads
 =
+FFMIN
+(
 nb_cpus
 +
 1
+MAX_AUTO_THREADS
+)
 ;
 else
 nb_threads

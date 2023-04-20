@@ -823,6 +823,14 @@ bit_exact
 ;
 #
 elif
+ARCH_RISCV
+ff_float_dsp_init_riscv
+(
+fdsp
+)
+;
+#
+elif
 ARCH_X86
 ff_float_dsp_init_x86
 (

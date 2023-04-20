@@ -39,6 +39,7 @@ h
 void
 ff_prefetch_aarch64
 (
+const
 uint8_t
 *
 mem

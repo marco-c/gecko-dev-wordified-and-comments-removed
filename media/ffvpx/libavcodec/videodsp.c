@@ -71,6 +71,7 @@ static
 void
 just_return
 (
+const
 uint8_t
 *
 buf

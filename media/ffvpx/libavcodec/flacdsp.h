@@ -163,8 +163,6 @@ AVSampleFormat
 fmt
 int
 channels
-int
-bps
 )
 ;
 void
@@ -178,8 +176,6 @@ AVSampleFormat
 fmt
 int
 channels
-int
-bps
 )
 ;
 void
@@ -193,8 +189,6 @@ AVSampleFormat
 fmt
 int
 channels
-int
-bps
 )
 ;
 #

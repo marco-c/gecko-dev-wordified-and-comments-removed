@@ -87,14 +87,14 @@ h
 #
 include
 "
-get_bits
+decode
 .
 h
 "
 #
 include
 "
-internal
+get_bits
 .
 h
 "
@@ -2229,7 +2229,7 @@ sec_byte_len
 ]
 &
 (
-0xFF00
+0xFF00U
 >
 >
 sec_rem_bits

@@ -94,6 +94,7 @@ int
 bytesperpixel
 )
 {
+const
 VP9Context
 *
 s
@@ -1694,6 +1695,7 @@ int
 bytesperpixel
 )
 {
+const
 VP9Context
 *
 s
@@ -2666,6 +2668,7 @@ mc_luma_unscaled
 VP9TileData
 *
 td
+const
 vp9_mc_func
 (
 *
@@ -2685,6 +2688,7 @@ uint8_t
 ref
 ptrdiff_t
 ref_stride
+const
 ThreadFrame
 *
 ref_frame
@@ -2693,7 +2697,7 @@ y
 ptrdiff_t
 x
 const
-VP56mv
+VP9mv
 *
 mv
 int
@@ -2708,6 +2712,7 @@ int
 bytesperpixel
 )
 {
+const
 VP9Context
 *
 s
@@ -2971,6 +2976,7 @@ mc_chroma_unscaled
 VP9TileData
 *
 td
+const
 vp9_mc_func
 (
 *
@@ -2999,6 +3005,7 @@ uint8_t
 ref_v
 ptrdiff_t
 src_stride_v
+const
 ThreadFrame
 *
 ref_frame
@@ -3007,7 +3014,7 @@ y
 ptrdiff_t
 x
 const
-VP56mv
+VP9mv
 *
 mv
 int
@@ -3022,6 +3029,7 @@ int
 bytesperpixel
 )
 {
+const
 VP9Context
 *
 s
@@ -3641,6 +3649,7 @@ VP9TileData
 td
 vp9_scaled_mc_func
 smc
+const
 vp9_mc_func
 (
 *
@@ -3660,6 +3669,7 @@ uint8_t
 ref
 ptrdiff_t
 ref_stride
+const
 ThreadFrame
 *
 ref_frame
@@ -3668,7 +3678,7 @@ y
 ptrdiff_t
 x
 const
-VP56mv
+VP9mv
 *
 in_mv
 int
@@ -3699,6 +3709,7 @@ uint8_t
 step
 )
 {
+const
 VP9Context
 *
 s
@@ -3822,7 +3833,7 @@ refbh_m1
 int
 th
 ;
-VP56mv
+VP9mv
 mv
 ;
 mv
@@ -4167,6 +4178,7 @@ VP9TileData
 td
 vp9_scaled_mc_func
 smc
+const
 vp9_mc_func
 (
 *
@@ -4195,6 +4207,7 @@ uint8_t
 ref_v
 ptrdiff_t
 src_stride_v
+const
 ThreadFrame
 *
 ref_frame
@@ -4203,7 +4216,7 @@ y
 ptrdiff_t
 x
 const
-VP56mv
+VP9mv
 *
 in_mv
 int
@@ -4234,6 +4247,7 @@ uint8_t
 step
 )
 {
+const
 VP9Context
 *
 s
@@ -4335,7 +4349,7 @@ refbh_m1
 int
 th
 ;
-VP56mv
+VP9mv
 mv
 ;
 if
@@ -5239,6 +5253,7 @@ int
 bytesperpixel
 )
 {
+const
 VP9Context
 *
 s

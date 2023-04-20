@@ -207,10 +207,10 @@ x86util
 .
 asm
 "
+SECTION_RODATA
 %
 if
 ARCH_X86_32
-SECTION_RODATA
 cextern
 pb_80
 wm1010

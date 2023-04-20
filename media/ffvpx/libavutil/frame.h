@@ -347,9 +347,15 @@ best_effort_timestamp
 int64_t
 pkt_pos
 ;
+#
+if
+FF_API_PKT_DURATION
+attribute_deprecated
 int64_t
 pkt_duration
 ;
+#
+endif
 AVDictionary
 *
 metadata
@@ -411,6 +417,9 @@ private_ref
 ;
 AVChannelLayout
 ch_layout
+;
+int64_t
+duration
 ;
 }
 AVFrame

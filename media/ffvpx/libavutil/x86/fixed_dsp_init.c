@@ -44,9 +44,11 @@ ff_butterflies_fixed_sse2
 (
 int
 *
+av_restrict
 src0
 int
 *
+av_restrict
 src1
 int
 len

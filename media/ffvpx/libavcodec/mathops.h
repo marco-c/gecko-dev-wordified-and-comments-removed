@@ -16,6 +16,15 @@ include
 "
 libavutil
 /
+attributes_internal
+.
+h
+"
+#
+include
+"
+libavutil
+/
 common
 .
 h
@@ -58,6 +67,7 @@ ff_sqrt_tab
 extern
 const
 uint8_t
+attribute_visibility_hidden
 ff_crop_tab
 [
 256

@@ -1108,6 +1108,7 @@ dst
 ptrdiff_t
 deststride
 ;
+const
 uint8_t
 *
 src

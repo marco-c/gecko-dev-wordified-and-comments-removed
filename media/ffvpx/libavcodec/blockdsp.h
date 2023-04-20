@@ -18,13 +18,6 @@ stdint
 .
 h
 >
-#
-include
-"
-avcodec
-.
-h
-"
 typedef
 void
 (
@@ -84,9 +77,6 @@ ff_blockdsp_init
 BlockDSPContext
 *
 c
-AVCodecContext
-*
-avctx
 )
 ;
 void
@@ -119,9 +109,6 @@ ff_blockdsp_init_x86
 BlockDSPContext
 *
 c
-AVCodecContext
-*
-avctx
 )
 ;
 void

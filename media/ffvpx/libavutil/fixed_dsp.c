@@ -675,9 +675,11 @@ butterflies_fixed_c
 (
 int
 *
+av_restrict
 v1s
 int
 *
+av_restrict
 v2
 int
 len
@@ -820,6 +822,14 @@ scalarproduct_fixed_c
 ;
 #
 if
+ARCH_RISCV
+ff_fixed_dsp_init_riscv
+(
+fdsp
+)
+;
+#
+elif
 ARCH_X86
 ff_fixed_dsp_init_x86
 (
