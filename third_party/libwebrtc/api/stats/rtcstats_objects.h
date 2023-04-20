@@ -2342,13 +2342,13 @@ double
 >
 total_processing_delay
 ;
-RTCNonStandardStatsMember
+RTCStatsMember
 <
 double
 >
 total_assembly_time
 ;
-RTCNonStandardStatsMember
+RTCStatsMember
 <
 uint32_t
 >
