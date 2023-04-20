@@ -303,6 +303,7 @@ throw
 .
 *
 /
+export
 function
 FormHistoryClient
 (
@@ -3434,6 +3435,7 @@ implementation
 /
 nsIAutoCompleteResult
 implementation
+export
 function
 FormAutoCompleteResult
 (
