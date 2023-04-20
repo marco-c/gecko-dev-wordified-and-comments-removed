@@ -71,11 +71,6 @@ TestPerProviderDirectory
 cpp
 "
 "
-TestPrefixSet
-.
-cpp
-"
-"
 TestProtocolParser
 .
 cpp
