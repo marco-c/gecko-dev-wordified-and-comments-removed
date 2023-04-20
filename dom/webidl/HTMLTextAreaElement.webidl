@@ -230,15 +230,6 @@ SetterThrows
 Pure
 ]
 attribute
-boolean
-autofocus
-;
-[
-CEReactions
-SetterThrows
-Pure
-]
-attribute
 unsigned
 long
 cols
