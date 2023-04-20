@@ -403,15 +403,6 @@ stopListening
 (
 )
 ;
-this
-.
-#
-devtoolsNetworkObserver
-.
-destroy
-(
-)
-;
 }
 startListening
 (
@@ -574,7 +565,7 @@ onNetworkEvent
 =
 (
 networkEvent
-httpActivity
+channel
 )
 =
 >
@@ -586,7 +577,7 @@ lazy
 NetworkEventRecord
 (
 networkEvent
-httpActivity
+channel
 this
 )
 ;
