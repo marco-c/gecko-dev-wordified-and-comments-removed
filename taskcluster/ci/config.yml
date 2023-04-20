@@ -4775,6 +4775,8 @@ alias
 }
 '
 images
+-
+gcp
 :
 provisioner
 :
