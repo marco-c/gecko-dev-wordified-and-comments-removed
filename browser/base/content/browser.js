@@ -39506,7 +39506,7 @@ closest
 (
 "
 .
-browserContainer
+browserStack
 .
 webextension
 -
