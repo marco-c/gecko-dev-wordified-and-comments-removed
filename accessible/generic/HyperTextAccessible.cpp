@@ -9437,7 +9437,10 @@ frame
 domRange
 ScrollAxis
 (
+WhereToScroll
+(
 vPercent
+)
 WhenToScroll
 :
 :
@@ -9445,7 +9448,10 @@ Always
 )
 ScrollAxis
 (
+WhereToScroll
+(
 hPercent
+)
 WhenToScroll
 :
 :

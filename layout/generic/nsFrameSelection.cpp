@@ -7255,7 +7255,10 @@ verticalScroll
 =
 ScrollAxis
 (
-kScrollToCenter
+WhereToScroll
+:
+:
+Center
 WhenToScroll
 :
 :
