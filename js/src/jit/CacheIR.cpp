@@ -3866,6 +3866,11 @@ MAX_CACHED_LOADS
 =
 4
 ;
+ObjOperandId
+receiverObjId
+=
+objId
+;
 while
 (
 true
@@ -3924,9 +3929,10 @@ objId
 =
 writer
 .
-loadObject
+loadProtoObject
 (
 obj
+receiverObjId
 )
 ;
 }
