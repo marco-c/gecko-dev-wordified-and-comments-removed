@@ -52,7 +52,7 @@ ftl
 test
 ]
 fn
-test_generate_sources_for_file
+test_get_sources_for_resource
 (
 )
 {
@@ -237,7 +237,7 @@ i
 =
 lock
 .
-generate_sources_for_file
+get_sources_for_resource
 (
 0
 &
@@ -314,7 +314,7 @@ i
 =
 lock
 .
-generate_sources_for_file
+get_sources_for_resource
 (
 0
 &
@@ -377,7 +377,7 @@ i
 =
 lock
 .
-generate_sources_for_file
+get_sources_for_resource
 (
 0
 &

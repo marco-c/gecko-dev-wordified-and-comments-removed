@@ -444,7 +444,7 @@ fluent
 ]
 pub
 fn
-generate_sources_for_file
+get_sources_for_resource
 <
 '
 l
