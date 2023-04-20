@@ -186,9 +186,6 @@ namespace
 rtc
 {
 class
-BasicNetworkManager
-;
-class
 BasicPacketSocketFactory
 ;
 class
@@ -397,7 +394,7 @@ get
 rtc
 :
 :
-BasicNetworkManager
+NetworkManager
 *
 default_network_manager
 (
@@ -620,7 +617,7 @@ unique_ptr
 rtc
 :
 :
-BasicNetworkManager
+NetworkManager
 >
 default_network_manager_
 RTC_GUARDED_BY
