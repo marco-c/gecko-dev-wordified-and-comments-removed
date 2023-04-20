@@ -15057,6 +15057,10 @@ clear
 (
 )
 ;
+queuePos
+=
+0
+;
 }
 size_t
 GCRuntime
