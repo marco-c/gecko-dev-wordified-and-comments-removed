@@ -562,6 +562,13 @@ aObserver
 )
 ;
 }
+aObserver
+-
+>
+Dispose
+(
+)
+;
 impl
 -
 >
