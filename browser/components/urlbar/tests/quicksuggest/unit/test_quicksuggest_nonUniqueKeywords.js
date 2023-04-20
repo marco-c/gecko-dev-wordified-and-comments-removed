@@ -628,7 +628,14 @@ more
 }
 isBlockable
 :
-false
+UrlbarPrefs
+.
+get
+(
+"
+quickSuggestBlockingEnabled
+"
+)
 blockL10n
 :
 {
