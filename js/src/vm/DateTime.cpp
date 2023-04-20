@@ -500,7 +500,10 @@ utc
 .
 tm_min
 *
+int
+(
 SecondsPerMinute
+)
 ;
 int
 local_secs
@@ -515,7 +518,10 @@ local
 .
 tm_min
 *
+int
+(
 SecondsPerMinute
+)
 ;
 if
 (
@@ -883,7 +889,10 @@ utcMilliseconds
 =
 utcSeconds
 *
+int64_t
+(
 msPerSecond
+)
 ;
 return
 timeZone
@@ -1006,7 +1015,10 @@ SecondsPerDay
 return
 diff
 *
+int32_t
+(
 msPerSecond
+)
 ;
 #
 endif
@@ -1663,7 +1675,10 @@ localMilliseconds
 =
 localSeconds
 *
+int64_t
+(
 msPerSecond
+)
 ;
 return
 timeZone
@@ -1718,7 +1733,10 @@ UDate
 (
 utcSeconds
 *
+int64_t
+(
 msPerSecond
+)
 )
 ;
 return
