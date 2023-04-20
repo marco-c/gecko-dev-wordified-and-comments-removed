@@ -398,7 +398,9 @@ EXTRA_JS_MODULES
 "
 StartupRecorder
 .
-jsm
+sys
+.
+mjs
 "
 ]
 BROWSER_CHROME_MANIFESTS
