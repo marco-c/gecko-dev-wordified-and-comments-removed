@@ -3008,10 +3008,6 @@ PrintColorAdjust
 "
                 
 "
-ForcedColorAdjust
-"
-                
-"
 Resize
 "
                 

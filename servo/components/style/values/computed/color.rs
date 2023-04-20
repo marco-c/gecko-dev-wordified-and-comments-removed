@@ -102,7 +102,6 @@ color
 {
 ColorScheme
 PrintColorAdjust
-ForcedColorAdjust
 }
 ;
 pub

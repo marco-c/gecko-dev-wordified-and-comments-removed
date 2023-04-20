@@ -481,7 +481,6 @@ ColorOrAuto
 ColorPropertyValue
 ColorScheme
 PrintColorAdjust
-ForcedColorAdjust
 }
 ;
 pub
