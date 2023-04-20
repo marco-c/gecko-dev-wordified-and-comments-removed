@@ -616,7 +616,7 @@ ifdef
 MOZ_WMF_MEDIA_ENGINE
 if
 (
-IsWin8OrLater
+IsWin10OrLater
 (
 )
 &
@@ -3208,7 +3208,7 @@ MF_MEDIA_ENGINE_CDM
 {
 if
 (
-IsWin8OrLater
+IsWin10OrLater
 (
 )
 &
