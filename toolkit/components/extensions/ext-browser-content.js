@@ -190,12 +190,6 @@ allowScriptsToClose
 )
 ;
 }
-docShell
-.
-isAppTab
-=
-true
-;
 if
 (
 this

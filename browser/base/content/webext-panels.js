@@ -632,6 +632,14 @@ DidChangeBrowserRemoteness
 initBrowser
 )
 ;
+browser
+.
+browsingContext
+.
+isAppTab
+=
+true
+;
 return
 readyPromise
 .

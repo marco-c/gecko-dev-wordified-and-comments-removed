@@ -29,7 +29,7 @@ const
 DUMMY
 =
 "
-http
+https
 :
 /
 /
@@ -61,28 +61,11 @@ browser
 )
 {
 return
-SpecialPowers
-.
-spawn
-(
 browser
-[
-]
-async
-(
-)
-=
->
-{
-return
-content
 .
-docShell
+browsingContext
 .
 isAppTab
-;
-}
-)
 ;
 }
 var
@@ -193,7 +176,6 @@ gBrowser
 let
 isAppTab
 =
-await
 isBrowserAppTab
 (
 browser
@@ -226,7 +208,6 @@ tab
 ;
 isAppTab
 =
-await
 isBrowserAppTab
 (
 browser
@@ -265,7 +246,6 @@ gBrowser
 ;
 isAppTab
 =
-await
 isBrowserAppTab
 (
 browser
@@ -295,7 +275,6 @@ tab
 ;
 isAppTab
 =
-await
 isBrowserAppTab
 (
 browser
@@ -328,7 +307,6 @@ tab
 ;
 isAppTab
 =
-await
 isBrowserAppTab
 (
 browser
@@ -371,7 +349,6 @@ gBrowser
 ;
 isAppTab
 =
-await
 isBrowserAppTab
 (
 browser
@@ -459,7 +436,6 @@ gBrowser
 let
 isAppTab
 =
-await
 isBrowserAppTab
 (
 browser
@@ -492,7 +468,6 @@ tab
 ;
 isAppTab
 =
-await
 isBrowserAppTab
 (
 browser
@@ -521,7 +496,6 @@ browser
 ;
 isAppTab
 =
-await
 isBrowserAppTab
 (
 browser
