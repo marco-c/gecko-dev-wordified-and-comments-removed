@@ -1047,6 +1047,15 @@ angle
 opts
 .
 force
+opts
+.
+tiltx
+opts
+.
+tilty
+opts
+.
+twist
 modifiers
 )
 ;
