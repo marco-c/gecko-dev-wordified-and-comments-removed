@@ -447,7 +447,13 @@ nsIDomainPolicy
 mDomainPolicy
 ;
 static
+std
+:
+:
+atomic
+<
 bool
+>
 sStrictFileOriginPolicy
 ;
 static
