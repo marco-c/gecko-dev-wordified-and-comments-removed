@@ -311,8 +311,8 @@ GetIsOpaque
 )
 override
 ;
-NS_IMETHOD
-Reset
+void
+ResetBitmap
 (
 )
 override
