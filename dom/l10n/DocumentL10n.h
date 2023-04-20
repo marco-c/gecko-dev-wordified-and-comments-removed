@@ -164,6 +164,7 @@ Document
 GetDocument
 (
 )
+const
 {
 return
 mDocument

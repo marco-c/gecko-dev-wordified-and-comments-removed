@@ -205,14 +205,12 @@ ErrorResult
 aRv
 )
 ;
-virtual
 JSObject
 *
 WrapObject
 (
 JSContext
 *
-aCx
 JS
 :
 :
@@ -224,6 +222,12 @@ JSObject
 aGivenProto
 )
 override
+;
+bool
+HasPendingMutations
+(
+)
+const
 ;
 void
 ConnectRoot
