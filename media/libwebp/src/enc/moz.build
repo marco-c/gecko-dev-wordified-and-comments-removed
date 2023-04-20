@@ -68,11 +68,6 @@ picture_enc
 c
 '
 '
-picture_psnr_enc
-.
-c
-'
-'
 picture_rescale_enc
 .
 c
