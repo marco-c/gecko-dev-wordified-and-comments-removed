@@ -2199,7 +2199,7 @@ __func__
 >
 Then
 (
-MutableIOTargetPtr
+MutableIOTaskQueuePtr
 (
 )
 __func__
@@ -2539,7 +2539,7 @@ Closing
 ;
 InvokeAsync
 (
-MutableIOTargetPtr
+MutableIOTaskQueuePtr
 (
 )
 __func__
