@@ -123,7 +123,7 @@ extends
 Module
 {
 #
-listeningToDOMContentLoaded
+listeningToDocumentInteractive
 ;
 #
 listeningToLoad
@@ -226,7 +226,7 @@ if
 this
 .
 #
-listeningToDOMContentLoaded
+listeningToDocumentInteractive
 &
 &
 !
@@ -262,7 +262,7 @@ case
 "
 browsingContext
 .
-DOMContentLoaded
+_documentInteractive
 "
 :
 this
@@ -275,7 +275,7 @@ startListening
 this
 .
 #
-listeningToDOMContentLoaded
+listeningToDocumentInteractive
 =
 true
 ;
@@ -321,13 +321,13 @@ case
 "
 browsingContext
 .
-DOMContentLoaded
+_documentInteractive
 "
 :
 this
 .
 #
-listeningToDOMContentLoaded
+listeningToDocumentInteractive
 =
 false
 ;
@@ -356,7 +356,7 @@ if
 this
 .
 #
-listeningToDOMContentLoaded
+listeningToDocumentInteractive
 &
 &
 !
@@ -392,7 +392,7 @@ if
 this
 .
 #
-listeningToDOMContentLoaded
+listeningToDocumentInteractive
 )
 {
 this
@@ -404,7 +404,7 @@ emitEvent
 "
 browsingContext
 .
-DOMContentLoaded
+_documentInteractive
 "
 {
 baseURL
