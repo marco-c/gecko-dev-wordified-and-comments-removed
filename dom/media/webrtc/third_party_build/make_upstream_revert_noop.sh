@@ -662,9 +662,13 @@ MOZ_LIBWEBRTC_SRC
 rm
 -
 f
+TMP_DIR
+/
 *
 .
 patch
+TMP_DIR
+/
 *
 .
 patch
@@ -685,6 +689,9 @@ format
 -
 patch
 -
+o
+TMP_DIR
+-
 k
 -
 -
@@ -702,6 +709,9 @@ git
 format
 -
 patch
+-
+o
+TMP_DIR
 -
 k
 -
@@ -737,6 +747,8 @@ MOZ_LIBWEBRTC_NEXT_BASE
 )
 /
 "
+TMP_DIR
+/
 0001
 *
 .
@@ -762,6 +774,8 @@ MOZ_LIBWEBRTC_REVERT_SHA
 )
 /
 "
+TMP_DIR
+/
 0002
 *
 .
@@ -791,11 +805,15 @@ pick
 )
 /
 '
+TMP_DIR
+/
 *
 .
 patch
 git
 am
+TMP_DIR
+/
 *
 .
 patch

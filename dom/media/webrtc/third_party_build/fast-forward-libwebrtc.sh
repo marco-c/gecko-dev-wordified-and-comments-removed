@@ -1802,6 +1802,8 @@ MOZ_LIBWEBRTC_NEXT_BASE
 "
 \
 >
+TMP_DIR
+/
 commit_msg
 .
 txt
@@ -1810,6 +1812,8 @@ echo
 "
 >
 >
+TMP_DIR
+/
 commit_msg
 .
 txt
@@ -1849,6 +1853,8 @@ pick
 msg
 >
 >
+TMP_DIR
+/
 commit_msg
 .
 txt
@@ -1857,6 +1863,8 @@ echo
 "
 >
 >
+TMP_DIR
+/
 commit_msg
 .
 txt
@@ -1898,6 +1906,8 @@ UPSTREAM_SHA
 "
 >
 >
+TMP_DIR
+/
 commit_msg
 .
 txt
@@ -1923,6 +1933,8 @@ grep
 )
 >
 >
+TMP_DIR
+/
 commit_msg
 .
 txt
@@ -1930,6 +1942,8 @@ hg
 commit
 -
 l
+TMP_DIR
+/
 commit_msg
 .
 txt

@@ -1006,6 +1006,8 @@ MOZ_LIBWEBRTC_NEXT_BASE
 csplit
 -
 f
+TMP_DIR
+/
 gitshow
 -
 sk
@@ -1013,6 +1015,8 @@ sk
 2
 ;
 cat
+TMP_DIR
+/
 gitshow01
 \
 |
