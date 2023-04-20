@@ -663,12 +663,6 @@ tests
 -
 layout
 /
-mathml
-/
-crashtests
--
-layout
-/
 painting
 /
 crashtests
