@@ -741,11 +741,6 @@ kLargeSeq
 ;
 EXPECT_EQ
 (
-static_cast
-<
-size_t
->
-(
 map
 .
 end_sequence_number
@@ -756,7 +751,6 @@ map
 .
 begin_sequence_number
 (
-)
 )
 PacketArrivalTimeMap
 :
