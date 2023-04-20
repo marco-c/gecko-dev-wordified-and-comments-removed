@@ -1514,6 +1514,16 @@ test
 video_test_common
 "
 "
+.
+.
+/
+video
+/
+config
+:
+streams_config
+"
+"
 /
 /
 third_party

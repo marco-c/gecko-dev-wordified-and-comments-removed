@@ -414,6 +414,17 @@ h
 "
 #
 endif
+#
+include
+"
+video
+/
+config
+/
+encoder_stream_factory
+.
+h
+"
 namespace
 webrtc
 {

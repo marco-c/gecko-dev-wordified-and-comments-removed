@@ -135,6 +135,12 @@ third_party
 /
 libyuv
 "
+"
++
+video
+/
+config
+"
 ]
 specific_include_rules
 =

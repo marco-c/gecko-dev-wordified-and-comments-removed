@@ -646,6 +646,17 @@ include
 "
 video
 /
+config
+/
+encoder_stream_factory
+.
+h
+"
+#
+include
+"
+video
+/
 send_statistics_proxy
 .
 h
