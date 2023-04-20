@@ -289,6 +289,11 @@ Normandy
 .
 init
 (
+{
+runAsync
+:
+false
+}
 )
 ;
 Assert
