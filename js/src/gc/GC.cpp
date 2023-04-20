@@ -5117,10 +5117,6 @@ value
 =
 0
 ;
-updateMarkersVector
-(
-)
-;
 break
 ;
 case
@@ -5132,6 +5128,10 @@ value
 !
 =
 0
+;
+updateMarkersVector
+(
+)
 ;
 break
 ;
@@ -5465,10 +5465,6 @@ TuningDefaults
 :
 CompactingEnabled
 ;
-updateMarkersVector
-(
-)
-;
 break
 ;
 case
@@ -5480,6 +5476,10 @@ TuningDefaults
 :
 :
 ParallelMarkingEnabled
+;
+updateMarkersVector
+(
+)
 ;
 break
 ;
