@@ -13060,6 +13060,10 @@ VerifyTraffic
 )
 ;
 }
+ActivateTimeoutTick
+(
+)
+;
 }
 void
 nsHttpConnectionMgr
