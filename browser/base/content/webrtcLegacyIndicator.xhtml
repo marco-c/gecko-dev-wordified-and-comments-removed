@@ -188,6 +188,9 @@ role
 "
 alert
 "
+#
+ifndef
+XP_MACOSX
 data
 -
 l10n
@@ -201,6 +204,8 @@ indicator
 -
 window
 "
+#
+endif
 windowtype
 =
 "
@@ -217,16 +222,6 @@ event
 )
 ;
 "
-#
-ifdef
-XP_MACOSX
-inwindowmenu
-=
-"
-false
-"
-#
-endif
 sizemode
 =
 "
