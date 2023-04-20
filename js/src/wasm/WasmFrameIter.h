@@ -46,6 +46,9 @@ namespace
 wasm
 {
 class
+CallIndirectId
+;
+class
 Code
 ;
 class
@@ -56,9 +59,6 @@ DebugFrame
 ;
 class
 Instance
-;
-class
-TypeIdDesc
 ;
 class
 Instance
@@ -972,9 +972,9 @@ MacroAssembler
 &
 masm
 const
-TypeIdDesc
+CallIndirectId
 &
-funcTypeId
+callIndirectId
 const
 mozilla
 :

@@ -785,13 +785,6 @@ funcIndex
 funcType
 (
 )
-&
-moduleEnv
-.
-typeIds
-[
-funcIndex
-]
 funcIndex
 )
 ;
