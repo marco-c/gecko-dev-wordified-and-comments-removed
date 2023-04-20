@@ -1638,6 +1638,12 @@ test
 pytest_cache
 /
 #
+Ruff
+\
+.
+ruff_cache
+/
+#
 Ignore
 files
 created
