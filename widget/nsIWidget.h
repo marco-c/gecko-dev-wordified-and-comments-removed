@@ -4148,14 +4148,6 @@ nullptr
 }
 virtual
 void
-PauseOrResumeCompositor
-(
-bool
-aPause
-)
-;
-virtual
-void
 ClearCachedWebrenderResources
 (
 )
