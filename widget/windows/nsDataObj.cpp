@@ -5277,7 +5277,7 @@ CreateFilenameFromTextA
 title
 "
 .
-URL
+url
 "
 fileGroupDescA
 -
@@ -5313,7 +5313,7 @@ CreateFilenameFromTextA
 untitled
 "
 .
-URL
+url
 "
 fileGroupDescA
 -
@@ -5342,7 +5342,7 @@ cFileName
 "
 Untitled
 .
-URL
+url
 "
 )
 ;
@@ -5486,7 +5486,7 @@ title
 L
 "
 .
-URL
+url
 "
 fileGroupDescW
 -
@@ -5523,7 +5523,7 @@ untitled
 L
 "
 .
-URL
+url
 "
 fileGroupDescW
 -
@@ -5553,7 +5553,7 @@ L
 "
 Untitled
 .
-URL
+url
 "
 )
 ;
