@@ -1,6 +1,0 @@
-TODO
-:
-look
-at
-texture
-*

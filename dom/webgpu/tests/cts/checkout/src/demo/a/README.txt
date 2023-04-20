@@ -1,4 +1,0 @@
-README
-for
-a
-/

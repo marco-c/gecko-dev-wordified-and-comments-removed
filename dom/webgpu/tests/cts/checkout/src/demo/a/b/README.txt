@@ -1,6 +1,0 @@
-README
-for
-a
-/
-b
-/

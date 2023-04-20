@@ -1,5 +1,0 @@
-WebGPU
-conformance
-test
-suite
-.

@@ -354,7 +354,7 @@ qr
 /
 opt
 :
-36
+32
 linux
 .
 *
@@ -369,7 +369,7 @@ qr
 /
 opt
 :
-26
+22
 linux
 .
 *
@@ -381,14 +381,14 @@ ccov
 /
 opt
 :
-24
+20
 linux
 .
 *
 /
 debug
 :
-24
+16
 macosx
 .
 *
@@ -412,7 +412,7 @@ windows
 /
 debug
 :
-24
+14
 windows
 .
 *
@@ -423,10 +423,10 @@ ccov
 /
 opt
 :
-24
+14
 default
 :
-14
+10
 max
 -
 run
