@@ -129,7 +129,9 @@ enabled
 true
 )
 ;
-add_tls_server_setup
+add_setup
+(
+asyncStartTLSTestServer
 (
 "
 DelegatedCredentialsServer
@@ -156,6 +158,7 @@ unit
 /
 test_delegated_credentials
 "
+)
 )
 ;
 let
