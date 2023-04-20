@@ -1905,6 +1905,13 @@ cargo
 library
 -
 udeps
+force
+-
+cargo
+-
+library
+-
+clippy
 target_rust_nonltoable
 :
 =
@@ -2354,6 +2361,7 @@ b
 build
 check
 udeps
+clippy
 force
 -
 cargo
