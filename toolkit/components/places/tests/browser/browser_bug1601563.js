@@ -82,9 +82,6 @@ return
 true
 ;
 }
-"
-places
-"
 )
 .
 then

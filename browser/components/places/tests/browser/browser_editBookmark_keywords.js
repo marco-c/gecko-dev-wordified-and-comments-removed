@@ -253,14 +253,6 @@ keyword
 -
 changed
 "
-(
-)
-=
->
-true
-"
-places
-"
 )
 ;
 keywordField

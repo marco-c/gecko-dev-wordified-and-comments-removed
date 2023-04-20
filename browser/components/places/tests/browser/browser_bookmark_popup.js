@@ -652,9 +652,6 @@ event
 .
 url
 )
-"
-places
-"
 )
 ;
 }

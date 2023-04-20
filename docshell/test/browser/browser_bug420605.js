@@ -367,9 +367,6 @@ false
 ;
 }
 )
-"
-places
-"
 )
 ;
 let
@@ -462,9 +459,6 @@ false
 ;
 }
 )
-"
-places
-"
 )
 ;
 gBrowser

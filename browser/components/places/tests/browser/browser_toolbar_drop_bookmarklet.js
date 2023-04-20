@@ -409,9 +409,6 @@ url
 =
 URL1
 )
-"
-places
-"
 )
 ;
 EventUtils
@@ -700,9 +697,6 @@ index
 =
 0
 )
-"
-places
-"
 )
 ;
 EventUtils
@@ -867,9 +861,6 @@ index
 =
 1
 )
-"
-places
-"
 )
 ;
 EventUtils

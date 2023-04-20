@@ -439,9 +439,6 @@ title
 =
 titleAfterFirstUpdate
 )
-"
-places
-"
 )
 ;
 await
@@ -820,9 +817,6 @@ Toolbar
 title
 "
 )
-"
-places
-"
 )
 ;
 fillBookmarkTextField
@@ -1062,9 +1056,6 @@ Sidebar
 Title
 "
 )
-"
-places
-"
 )
 ;
 fillBookmarkTextField
@@ -1320,9 +1311,6 @@ title
 =
 newTitle
 )
-"
-places
-"
 )
 ;
 info

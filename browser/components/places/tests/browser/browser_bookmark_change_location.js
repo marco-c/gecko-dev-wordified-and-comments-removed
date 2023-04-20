@@ -524,9 +524,6 @@ url
 =
 TEST_URL2
 )
-"
-places
-"
 )
 ;
 fillBookmarkTextField
@@ -1180,9 +1177,6 @@ url
 =
 TEST_URL3
 )
-"
-places
-"
 )
 ;
 fillBookmarkTextField

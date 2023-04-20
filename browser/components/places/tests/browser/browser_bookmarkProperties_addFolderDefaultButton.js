@@ -223,9 +223,6 @@ title
 n
 "
 )
-"
-places
-"
 )
 ;
 fillBookmarkTextField

@@ -321,9 +321,6 @@ guid
 =
 guid
 )
-"
-places
-"
 )
 ;
 win

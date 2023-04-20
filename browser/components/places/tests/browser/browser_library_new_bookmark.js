@@ -341,9 +341,6 @@ com
 /
 "
 )
-"
-places
-"
 )
 ;
 let

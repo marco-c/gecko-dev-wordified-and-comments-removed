@@ -502,9 +502,6 @@ currentURI
 .
 spec
 )
-"
-places
-"
 )
 ;
 PlacesCommandHook

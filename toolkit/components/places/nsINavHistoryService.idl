@@ -179,9 +179,6 @@ nsINavHistoryQueryOptions
 interface
 nsINavHistoryResult
 ;
-interface
-nsINavHistoryBatchCallback
-;
 [
 scriptable
 uuid

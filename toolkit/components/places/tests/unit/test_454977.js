@@ -58,9 +58,6 @@ aURI
 spec
 ;
 }
-"
-places
-"
 )
 ;
 await

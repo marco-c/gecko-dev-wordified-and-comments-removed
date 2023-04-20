@@ -582,9 +582,6 @@ title
 n
 "
 )
-"
-places
-"
 )
 ;
 fillBookmarkTextField

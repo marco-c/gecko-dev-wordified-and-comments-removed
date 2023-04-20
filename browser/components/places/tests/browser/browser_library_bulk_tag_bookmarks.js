@@ -172,9 +172,6 @@ url
 =
 url
 )
-"
-places
-"
 )
 )
 ;

@@ -207,9 +207,6 @@ var
 gBookmarkSkipObserver
 =
 {
-skipTags
-:
-true
 expected
 :
 null

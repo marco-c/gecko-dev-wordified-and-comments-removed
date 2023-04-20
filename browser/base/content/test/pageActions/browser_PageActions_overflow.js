@@ -815,9 +815,6 @@ url
 =
 url
 )
-"
-places
-"
 )
 ;
 win

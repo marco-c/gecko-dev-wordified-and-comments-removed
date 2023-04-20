@@ -133,9 +133,6 @@ url
 =
 =
 TEST_URL
-"
-places
-"
 )
 ;
 await
@@ -231,9 +228,6 @@ url
 =
 =
 TEST_URL
-"
-places
-"
 )
 ;
 await
@@ -333,9 +327,6 @@ url
 =
 =
 TEST_URL
-"
-places
-"
 )
 ;
 await

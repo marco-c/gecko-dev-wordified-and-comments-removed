@@ -409,9 +409,6 @@ false
 ;
 }
 )
-"
-places
-"
 )
 ;
 PlacesUtils

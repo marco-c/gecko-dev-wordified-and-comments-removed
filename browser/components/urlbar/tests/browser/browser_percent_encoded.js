@@ -126,9 +126,6 @@ TYPED
 )
 ;
 }
-"
-places
-"
 )
 ;
 gURLBar

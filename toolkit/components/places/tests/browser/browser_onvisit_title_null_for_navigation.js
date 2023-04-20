@@ -81,9 +81,6 @@ url
 EXPECTED_URL
 .
 spec
-"
-places
-"
 )
 ;
 const
@@ -115,9 +112,6 @@ url
 EXPECTED_URL
 .
 spec
-"
-places
-"
 )
 ;
 let

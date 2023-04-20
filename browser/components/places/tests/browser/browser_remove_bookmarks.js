@@ -230,9 +230,6 @@ url
 =
 TEST_URL
 )
-"
-places
-"
 )
 ;
 contextMenu
@@ -604,9 +601,6 @@ uris
 0
 ]
 )
-"
-places
-"
 )
 ;
 contextMenu

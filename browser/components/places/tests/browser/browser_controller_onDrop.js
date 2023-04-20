@@ -512,9 +512,6 @@ index
 =
 1
 )
-"
-places
-"
 )
 ;
 await

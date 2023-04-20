@@ -204,9 +204,6 @@ eventUrl
 =
 url
 )
-"
-places
-"
 )
 ;
 EventUtils
@@ -477,9 +474,6 @@ urls
 2
 ]
 )
-"
-places
-"
 )
 ;
 EventUtils

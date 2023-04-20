@@ -1026,9 +1026,6 @@ bookmarks
 .
 tagsGuid
 )
-"
-places
-"
 )
 ;
 await

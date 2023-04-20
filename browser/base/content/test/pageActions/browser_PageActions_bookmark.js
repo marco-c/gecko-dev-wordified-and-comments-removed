@@ -318,9 +318,6 @@ url
 =
 url
 )
-"
-places
-"
 )
 ;
 let
@@ -555,9 +552,6 @@ url
 =
 url
 )
-"
-places
-"
 )
 ;
 StarUI
@@ -906,9 +900,6 @@ url
 =
 url
 )
-"
-places
-"
 )
 ;
 starUIPanel
@@ -1013,9 +1004,6 @@ url
 =
 url
 )
-"
-places
-"
 )
 ;
 win
@@ -1238,9 +1226,6 @@ url
 =
 url
 )
-"
-places
-"
 )
 ;
 EventUtils

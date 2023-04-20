@@ -134,9 +134,6 @@ SMALLPNG_DATA_URI
 .
 spec
 )
-"
-places
-"
 )
 ;
 info

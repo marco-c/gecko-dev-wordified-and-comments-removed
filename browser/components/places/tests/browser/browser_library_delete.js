@@ -342,9 +342,6 @@ folderNode
 .
 bookmarkGuid
 )
-"
-places
-"
 )
 ;
 gLibrary

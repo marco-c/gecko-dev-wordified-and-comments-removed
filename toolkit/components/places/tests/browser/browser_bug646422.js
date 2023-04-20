@@ -55,9 +55,6 @@ events
 .
 url
 )
-"
-places
-"
 )
 ;
 await
