@@ -322,6 +322,18 @@ AssertCurrentThreadOwns
 )
 ;
 }
+return
+mFocusedRemoteDoc
+?
+mFocusedRemoteDoc
+-
+>
+GetFocusedAcc
+(
+)
+:
+nullptr
+;
 #
 else
 if
@@ -339,8 +351,6 @@ return
 focusedAcc
 ;
 }
-#
-endif
 if
 (
 !
@@ -412,6 +422,8 @@ GetFocusedAcc
 :
 nullptr
 ;
+#
+endif
 }
 bool
 FocusManager
