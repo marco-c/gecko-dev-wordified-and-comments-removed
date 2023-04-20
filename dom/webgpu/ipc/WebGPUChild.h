@@ -50,6 +50,13 @@ namespace
 mozilla
 {
 namespace
+ipc
+{
+class
+UnsafeSharedMemoryHandle
+;
+}
+namespace
 dom
 {
 struct
@@ -274,7 +281,10 @@ dom
 GPUBufferDescriptor
 &
 aDesc
-MaybeShmem
+ipc
+:
+:
+UnsafeSharedMemoryHandle
 &
 &
 aShmem
