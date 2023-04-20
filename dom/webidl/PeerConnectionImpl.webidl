@@ -639,11 +639,6 @@ iceGatheringState
 ;
 readonly
 attribute
-RTCPeerConnectionState
-connectionState
-;
-readonly
-attribute
 RTCSignalingState
 signalingState
 ;
@@ -662,12 +657,6 @@ readonly
 attribute
 boolean
 privacyRequested
-;
-readonly
-attribute
-RTCSctpTransport
-?
-sctp
 ;
 /
 *
