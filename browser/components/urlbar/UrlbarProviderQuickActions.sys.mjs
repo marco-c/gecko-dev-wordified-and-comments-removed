@@ -648,6 +648,12 @@ toLowerCase
 if
 (
 !
+queryContext
+.
+searchMode
+&
+&
+!
 lazy
 .
 UrlbarPrefs
