@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 Preferences
@@ -840,7 +845,7 @@ always
 )
 ;
 let
-private
+privateElement
 =
 doc
 .
@@ -870,7 +875,7 @@ always
 ok
 (
 !
-private
+privateElement
 .
 selected
 "
@@ -1042,7 +1047,7 @@ unchecked
 ;
 is
 (
-private
+privateElement
 .
 selected
 i

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 AppConstants
@@ -431,7 +436,7 @@ aWindow
 function
 openWin
 (
-private
+isPrivate
 )
 {
 return
@@ -441,6 +446,8 @@ openNewBrowserWindow
 (
 {
 private
+:
+isPrivate
 }
 )
 ;
