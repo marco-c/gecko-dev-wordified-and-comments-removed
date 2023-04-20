@@ -5081,7 +5081,7 @@ newCommonAncestor
 }
 else
 {
-NS_ASSERTION
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mIsPositioned
