@@ -187,12 +187,6 @@ IteratorKind
 Async
 )
 {
-MOZ_ASSERT
-(
-!
-isIteratorMethodOnStack
-)
-;
 if
 (
 !
@@ -202,6 +196,7 @@ bce_
 emitAsyncIterator
 (
 selfHostedIter_
+isIteratorMethodOnStack
 )
 )
 {
