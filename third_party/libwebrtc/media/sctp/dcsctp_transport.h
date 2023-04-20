@@ -751,7 +751,7 @@ CopyOnWriteBuffer
 receive_buffer_
 ;
 struct
-StreamClosingState
+StreamState
 {
 bool
 closure_initiated
@@ -776,9 +776,13 @@ dcsctp
 :
 :
 StreamID
-StreamClosingState
+StreamState
 >
-closing_states_
+stream_states_
+RTC_GUARDED_BY
+(
+network_thread_
+)
 ;
 bool
 ready_to_send_data_
