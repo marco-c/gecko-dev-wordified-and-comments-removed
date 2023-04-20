@@ -1021,6 +1021,15 @@ session
 head
 (
 url
+allow_redirects
+=
+True
+)
+        
+request
+.
+raise_for_status
+(
 )
         
 remote_file_size
@@ -1066,10 +1075,13 @@ remote_file_size
                 
 print
 (
+                    
 f
 "
 {
 download_file_path
+.
+name
 }
 already
 downloaded
@@ -1080,6 +1092,7 @@ download
 .
 .
 "
+                
 )
             
 else
@@ -1087,7 +1100,6 @@ else
                 
 print
 (
-                    
 f
 "
 Partial
@@ -1098,13 +1110,12 @@ Resuming
 download
 of
 {
-download_file_path
+url
 }
 .
 .
 .
 "
-                
 )
                 
 download_internal
@@ -1131,7 +1142,7 @@ f
 "
 Downloading
 {
-download_file_path
+url
 }
 .
 .
