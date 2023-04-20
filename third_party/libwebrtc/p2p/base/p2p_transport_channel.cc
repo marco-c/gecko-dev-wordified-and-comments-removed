@@ -8726,14 +8726,6 @@ stats
 )
 )
 ;
-connection
--
->
-set_reported
-(
-true
-)
-;
 }
 ice_transport_stats
 -

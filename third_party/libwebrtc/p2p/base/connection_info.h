@@ -75,9 +75,6 @@ receiving
 bool
 timeout
 ;
-bool
-new_connection
-;
 size_t
 rtt
 ;
