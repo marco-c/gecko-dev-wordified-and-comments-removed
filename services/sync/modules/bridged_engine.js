@@ -224,7 +224,7 @@ stringify
 (
 record
 .
-toIncomingEnvelope
+toIncomingBso
 (
 )
 )
@@ -285,16 +285,16 @@ extends
 RawCryptoWrapper
 {
 static
-fromOutgoingEnvelope
+fromOutgoingBso
 (
 collection
-envelope
+bso
 )
 {
 if
 (
 typeof
-envelope
+bso
 .
 id
 !
@@ -310,7 +310,7 @@ TypeError
 (
 "
 Outgoing
-envelope
+BSO
 missing
 ID
 "
@@ -320,7 +320,7 @@ ID
 if
 (
 typeof
-envelope
+bso
 .
 payload
 !
@@ -336,7 +336,7 @@ TypeError
 (
 "
 Outgoing
-envelope
+BSO
 missing
 payload
 "
@@ -350,7 +350,7 @@ new
 BridgedRecord
 (
 collection
-envelope
+bso
 .
 id
 )
@@ -359,7 +359,7 @@ record
 .
 cleartext
 =
-envelope
+bso
 .
 payload
 ;
@@ -439,7 +439,7 @@ return
 cleartext
 ;
 }
-toIncomingEnvelope
+toIncomingBso
 (
 )
 {
@@ -1403,7 +1403,7 @@ newitems
 )
 ;
 let
-outgoingEnvelopesAsJSON
+outgoingBsosAsJSON
 =
 await
 this
@@ -1423,9 +1423,9 @@ changeset
 for
 (
 let
-envelopeAsJSON
+bsoAsJSON
 of
-outgoingEnvelopesAsJSON
+outgoingBsosAsJSON
 )
 {
 this
@@ -1436,9 +1436,9 @@ trace
 (
 "
 outgoing
-envelope
+bso
 "
-envelopeAsJSON
+bsoAsJSON
 )
 ;
 let
@@ -1446,7 +1446,7 @@ record
 =
 BridgedRecord
 .
-fromOutgoingEnvelope
+fromOutgoingBso
 (
 this
 .
@@ -1455,7 +1455,7 @@ JSON
 .
 parse
 (
-envelopeAsJSON
+bsoAsJSON
 )
 )
 ;

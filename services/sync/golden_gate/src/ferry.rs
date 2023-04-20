@@ -14,13 +14,7 @@ use
 sync15
 :
 :
-{
-engine
-:
-:
-IncomingEnvelope
 Guid
-}
 ;
 use
 xpcom
@@ -54,7 +48,7 @@ StoreIncoming
 (
 Vec
 <
-IncomingEnvelope
+nsCString
 >
 )
 SetUploaded
