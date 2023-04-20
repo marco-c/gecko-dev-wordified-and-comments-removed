@@ -96,7 +96,10 @@ selectors
 visitor
 :
 :
+{
+SelectorListKind
 SelectorVisitor
+}
 ;
 use
 smallvec
@@ -1635,6 +1638,9 @@ visit_selector_list
 &
 mut
 self
+_list_kind
+:
+SelectorListKind
 list
 :
 &
