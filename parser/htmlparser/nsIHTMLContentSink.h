@@ -78,6 +78,14 @@ aTag
 =
 0
 ;
+virtual
+bool
+WaitForPendingSheets
+(
+)
+=
+0
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
