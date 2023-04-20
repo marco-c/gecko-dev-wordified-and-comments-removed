@@ -91,6 +91,17 @@ ExtensionDNRLimits
 MAX_NUMBER_OF_DYNAMIC_AND_SESSION_RULES
 ;
 }
+get
+MAX_NUMBER_OF_REGEX_RULES
+(
+)
+{
+return
+ExtensionDNRLimits
+.
+MAX_NUMBER_OF_REGEX_RULES
+;
+}
 }
 }
 ;
