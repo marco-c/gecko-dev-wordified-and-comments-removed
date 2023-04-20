@@ -889,20 +889,15 @@ test
             
 continue
         
-chunk_number
-=
-0
-        
 for
+chunk_number
 subtest
 in
+enumerate
+(
 subtests
+)
 :
-            
-chunk_number
-+
-=
-1
             
 chunked
 =
@@ -920,6 +915,8 @@ number
 "
 ]
 =
+1
++
 chunk_number
             
 chunked
@@ -1231,7 +1228,7 @@ symbol
 %
 s
 is
-lager
+larger
 than
 10
 char
@@ -1503,10 +1500,6 @@ options
             
 )
             
-ind
-=
-None
-            
 for
 i
 opt
@@ -1527,22 +1520,18 @@ in
 opt
 :
                     
-ind
-=
-i
-                    
-break
-            
 if
-ind
+i
 :
-                
+                        
 extra_options
 .
 pop
 (
-ind
+i
 )
+                    
+break
         
 if
 "
@@ -1579,10 +1568,6 @@ options
             
 )
             
-ind
-=
-None
-            
 for
 i
 opt
@@ -1607,19 +1592,13 @@ in
 opt
 :
                     
-ind
-=
-i
-                    
-break
-            
 if
-ind
+i
 :
-                
+                        
 extra_options
 [
-ind
+i
 ]
 +
 =
@@ -1627,6 +1606,8 @@ ind
 -
 youtube
 "
+                    
+break
         
 if
 "
@@ -1664,10 +1645,6 @@ options
             
 )
             
-ind
-=
-None
-            
 for
 i
 opt
@@ -1690,22 +1667,18 @@ in
 opt
 :
                     
-ind
-=
-i
-                    
-break
-            
 if
-ind
+i
 :
-                
+                        
 extra_options
 .
 pop
 (
-ind
+i
 )
+                    
+break
         
 yield
 test
