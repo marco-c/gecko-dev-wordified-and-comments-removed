@@ -211,7 +211,7 @@ upstream
 commit
 .
 export
-MOZ_PRIOR_GIT_BRANCH
+MOZ_PRIOR_LIBWEBRTC_BRANCH
 =
 "
 moz
