@@ -3132,16 +3132,12 @@ SyncRunnable
 DispatchToThread
 (
 mainThread
-new
-SyncRunnable
-(
 NS_NewRunnableFunction
 (
 "
 GetOrInitDNSService
 "
 initTask
-)
 )
 )
 ;

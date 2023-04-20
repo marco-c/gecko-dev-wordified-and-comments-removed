@@ -11328,9 +11328,6 @@ SyncRunnable
 DispatchToThread
 (
 mainThread
-new
-SyncRunnable
-(
 NS_NewRunnableFunction
 (
 "
@@ -11356,7 +11353,6 @@ SetAcceptLanguages
 )
 ;
 }
-)
 )
 )
 ;

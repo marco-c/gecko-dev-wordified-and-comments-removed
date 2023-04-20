@@ -248,9 +248,6 @@ SyncRunnable
 DispatchToThread
 (
 main
-new
-SyncRunnable
-(
 NS_NewRunnableFunction
 (
 "
@@ -266,7 +263,6 @@ InitHttpHandler
 )
 ;
 }
-)
 )
 )
 ;
