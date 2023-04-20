@@ -19468,6 +19468,8 @@ privateBrowsing
 1
 )
 ;
+#
+endif
 pref
 (
 "
@@ -19479,11 +19481,9 @@ desktop
 .
 enabled
 "
-true
+false
 )
 ;
-#
-endif
 #
 ifdef
 NIGHTLY_BUILD
