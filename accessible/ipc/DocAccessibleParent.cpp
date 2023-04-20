@@ -194,6 +194,17 @@ defined
 ANDROID
 )
 #
+include
+"
+mozilla
+/
+a11y
+/
+SessionAccessibility
+.
+h
+"
+#
 define
 ACQUIRE_ANDROID_LOCK
 \
