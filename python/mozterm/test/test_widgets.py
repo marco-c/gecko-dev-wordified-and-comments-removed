@@ -3,6 +3,8 @@ __future__
 import
 absolute_import
 unicode_literals
+import
+sys
 from
 io
 import
@@ -27,18 +29,17 @@ fixture
 def
 terminal
 (
-monkeypatch
 )
 :
     
-blessings
+blessed
 =
 pytest
 .
 importorskip
 (
 "
-blessings
+blessed
 "
 )
     
@@ -71,7 +72,7 @@ kind
 )
     
 except
-blessings
+blessed
 .
 curses
 .
@@ -98,24 +99,41 @@ kind
 )
 )
     
-monkeypatch
-.
-setattr
-(
-term
-"
-_height_and_width
-"
-lambda
-:
-(
-100
-100
-)
-)
-    
 return
 term
+pytest
+.
+mark
+.
+skipif
+(
+    
+not
+sys
+.
+platform
+.
+startswith
+(
+"
+win
+"
+)
+    
+reason
+=
+"
+Only
+do
+ANSI
+Escape
+Sequence
+comparisons
+on
+Windows
+.
+"
+)
 def
 test_footer
 (
@@ -141,7 +159,7 @@ write
             
 (
 "
-dim
+bright_black
 "
 "
 foo
@@ -179,7 +197,7 @@ x1b7
 \
 x1b
 [
-2mfoo
+90mfoo
 \
 x1b
 (
