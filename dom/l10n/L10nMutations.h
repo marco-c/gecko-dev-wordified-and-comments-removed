@@ -134,6 +134,11 @@ mObserving
 =
 false
 ;
+bool
+mBlockingLoad
+=
+false
+;
 uint32_t
 mPendingPromises
 =
