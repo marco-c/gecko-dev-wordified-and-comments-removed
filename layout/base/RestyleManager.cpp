@@ -5314,9 +5314,6 @@ if
 listID
 =
 =
-nsIFrame
-:
-:
 kPopupList
 )
 {
@@ -11027,9 +11024,6 @@ aFrame
 >
 GetChildList
 (
-nsIFrame
-:
-:
 kBackdropList
 )
 .

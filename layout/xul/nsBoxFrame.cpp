@@ -450,9 +450,6 @@ CSSOrderAwareFrameIterator
 iter
 (
 parent
-layout
-:
-:
 kPrincipalList
 CSSOrderAwareFrameIterator
 :
@@ -4440,12 +4437,6 @@ iter
 CSSOrderAwareFrameIterator
 (
 this
-mozilla
-:
-:
-layout
-:
-:
 kPrincipalList
 CSSOrderAwareFrameIterator
 :

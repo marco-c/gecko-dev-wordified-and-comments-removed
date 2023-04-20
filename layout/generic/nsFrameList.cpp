@@ -231,9 +231,6 @@ DestroyFramesFrom
 nsIFrame
 *
 aDestructRoot
-layout
-:
-:
 PostFrameDestroyData
 &
 aPostDestroyData
@@ -2377,9 +2374,6 @@ endif
 namespace
 mozilla
 {
-namespace
-layout
-{
 #
 ifdef
 DEBUG_FRAME_DUMP
@@ -2533,7 +2527,6 @@ UNKNOWN_FRAME_CHILD_LIST
 }
 #
 endif
-}
 AutoFrameListPtr
 :
 :

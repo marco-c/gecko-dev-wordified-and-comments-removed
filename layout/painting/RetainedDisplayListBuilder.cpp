@@ -5540,9 +5540,6 @@ f
 >
 GetChildList
 (
-nsIFrame
-:
-:
 kFloatList
 )
 aExtraFrames

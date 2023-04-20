@@ -584,10 +584,7 @@ ClearSize
 ;
 }
 static
-nsIFrame
-:
-:
-ChildListID
+FrameChildListID
 ChildListIDForOutOfFlow
 (
 nsFrameState
@@ -606,9 +603,6 @@ PLACEHOLDER_FOR_FLOAT
 )
 {
 return
-nsIFrame
-:
-:
 kFloatList
 ;
 }
@@ -628,13 +622,7 @@ MayBeReallyFixedPos
 aChild
 )
 ?
-nsIFrame
-:
-:
 kFixedList
-:
-nsIFrame
-:
 :
 kAbsoluteList
 ;
@@ -647,9 +635,6 @@ PLACEHOLDER_FOR_ABSPOS
 )
 {
 return
-nsIFrame
-:
-:
 kAbsoluteList
 ;
 }
@@ -663,9 +648,6 @@ list
 )
 ;
 return
-nsIFrame
-:
-:
 kFloatList
 ;
 }
