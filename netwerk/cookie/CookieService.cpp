@@ -2303,6 +2303,7 @@ isSafeTopLevelNav
 isSameSiteForeign
 hadCrossSiteRedirects
 true
+false
 attrs
 foundCookieList
 )
@@ -4051,6 +4052,8 @@ bool
 aHadCrossSiteRedirects
 bool
 aHttpBound
+bool
+aAllowSecureCookiesToInsecureOrigin
 const
 OriginAttributes
 &
@@ -4482,6 +4485,10 @@ IsSecure
 &
 !
 potentiallyTurstworthy
+&
+&
+!
+aAllowSecureCookiesToInsecureOrigin
 )
 {
 continue

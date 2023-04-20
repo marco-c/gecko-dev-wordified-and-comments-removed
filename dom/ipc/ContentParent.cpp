@@ -20981,7 +20981,7 @@ if
 cs
 -
 >
-CookieMatchesContentList
+ContentProcessHasCookie
 (
 cookie
 )

@@ -162,6 +162,14 @@ expected
 push
 (
 "
+"
+)
+;
+expected
+.
+push
+(
+"
 test
 -
 cookie

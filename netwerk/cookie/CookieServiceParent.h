@@ -127,7 +127,16 @@ mProcessingCookie
 ;
 }
 bool
-CookieMatchesContentList
+ContentProcessHasCookie
+(
+const
+Cookie
+&
+cookie
+)
+;
+bool
+InsecureCookieOrSecureOrigin
 (
 const
 Cookie
@@ -241,7 +250,7 @@ aAttrs
 ;
 static
 void
-SerialializeCookieList
+SerializeCookieList
 (
 const
 nsTArray
@@ -257,6 +266,9 @@ CookieStruct
 >
 &
 aCookiesList
+nsIURI
+*
+aHostURI
 )
 ;
 nsCOMPtr
