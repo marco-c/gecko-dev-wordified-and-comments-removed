@@ -6608,6 +6608,16 @@ nodiscard
 ]
 ]
 bool
+emitRefAsStruct
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+bool
 emitExternInternalize
 (
 )
