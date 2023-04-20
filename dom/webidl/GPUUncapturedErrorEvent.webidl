@@ -138,7 +138,11 @@ Exposed
 =
 (
 Window
+/
+*
 DedicatedWorker
+*
+/
 )
 ]
 interface
