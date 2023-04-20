@@ -4767,22 +4767,8 @@ enough
 %
 version
 )
-            
-if
-rustup
-:
-                
-self
-.
-ensure_rust_targets
-(
-rustup
-version
-)
-            
-return
         
-if
+elif
 version
 :
             
@@ -4808,6 +4794,9 @@ version
         
 if
 rustup
+and
+not
+modern
 :
             
 rustup_version
@@ -4889,7 +4878,9 @@ exit
 1
 )
         
-else
+elif
+not
+rustup
 :
             
 print
@@ -4908,6 +4899,46 @@ self
 .
 install_rust
 (
+)
+            
+modern
+version
+=
+self
+.
+is_rust_modern
+(
+cargo_bin
+)
+            
+rustup
+=
+to_optional_path
+(
+                
+which
+(
+"
+rustup
+"
+extra_search_dirs
+=
+[
+str
+(
+cargo_bin
+)
+]
+)
+            
+)
+        
+self
+.
+ensure_rust_targets
+(
+rustup
+version
 )
     
 def
