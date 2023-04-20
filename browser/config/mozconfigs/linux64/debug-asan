@@ -65,6 +65,14 @@ disable
 elf
 -
 hack
+ac_add_options
+-
+-
+enable
+-
+linker
+=
+lld
 #
 Build
 with
