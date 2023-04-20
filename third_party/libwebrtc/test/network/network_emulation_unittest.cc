@@ -5162,10 +5162,6 @@ cricket
 :
 StunMessage
 ping
-;
-ping
-.
-SetType
 (
 cricket
 :

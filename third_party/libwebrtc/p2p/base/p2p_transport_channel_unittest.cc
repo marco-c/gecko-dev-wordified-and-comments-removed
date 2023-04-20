@@ -21791,10 +21791,6 @@ kDefaultTimeout
 ;
 IceMessage
 request
-;
-request
-.
-SetType
 (
 STUN_BINDING_REQUEST
 )
@@ -23099,10 +23095,6 @@ kMediumTimeout
 ;
 IceMessage
 request
-;
-request
-.
-SetType
 (
 STUN_BINDING_REQUEST
 )
@@ -24973,10 +24965,6 @@ MaybeStartGathering
 ;
 IceMessage
 request
-;
-request
-.
-SetType
 (
 STUN_BINDING_REQUEST
 )
@@ -25784,10 +25772,6 @@ id
 ;
 IceMessage
 request
-;
-request
-.
-SetType
 (
 STUN_BINDING_REQUEST
 )

@@ -23266,10 +23266,6 @@ GOOG_PING_RESPONSE
 ;
 StunMessage
 error_response
-;
-error_response
-.
-SetType
 (
 GOOG_PING_ERROR_RESPONSE
 )
