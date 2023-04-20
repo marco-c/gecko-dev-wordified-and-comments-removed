@@ -4472,7 +4472,7 @@ friend
 class
 WorkerEventTarget
 ;
-bool
+nsresult
 RegisterShutdownTask
 (
 nsITargetShutdownTask
@@ -4480,7 +4480,7 @@ nsITargetShutdownTask
 aTask
 )
 ;
-bool
+nsresult
 UnregisterShutdownTask
 (
 nsITargetShutdownTask
@@ -5288,16 +5288,7 @@ mMutex
 )
 ;
 bool
-mRunShutdownTasksStarted
-MOZ_GUARDED_BY
-(
-mMutex
-)
-=
-false
-;
-bool
-mRunShutdownTasksFinished
+mShutdownTasksRun
 MOZ_GUARDED_BY
 (
 mMutex
