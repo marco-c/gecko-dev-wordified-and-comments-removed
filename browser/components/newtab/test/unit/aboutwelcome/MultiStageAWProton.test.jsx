@@ -196,7 +196,7 @@ render
 secondary
 section
 for
-corner
+split
 positioned
 screens
 "
@@ -215,7 +215,7 @@ content
 position
 :
 "
-corner
+split
 "
 title
 :
@@ -332,7 +332,7 @@ pos
 "
 )
 "
-corner
+split
 "
 )
 ;
