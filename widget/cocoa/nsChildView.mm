@@ -14890,6 +14890,9 @@ aOutGeckoEvent
 >
 tiltX
 =
+(
+int32_t
+)
 lround
 (
 [
@@ -14907,6 +14910,9 @@ aOutGeckoEvent
 >
 tiltY
 =
+(
+int32_t
+)
 lround
 (
 [

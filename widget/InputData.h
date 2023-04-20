@@ -458,12 +458,12 @@ mRotationAngle
 float
 mForce
 ;
-uint32_t
+int32_t
 mTiltX
 =
 0
 ;
-uint32_t
+int32_t
 mTiltY
 =
 0

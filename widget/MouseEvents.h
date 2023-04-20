@@ -106,10 +106,10 @@ public
 uint32_t
 pointerId
 ;
-uint32_t
+int32_t
 tiltX
 ;
-uint32_t
+int32_t
 tiltY
 ;
 uint32_t
