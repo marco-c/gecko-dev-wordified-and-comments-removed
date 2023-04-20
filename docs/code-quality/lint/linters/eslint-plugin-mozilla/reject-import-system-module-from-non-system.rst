@@ -184,7 +184,7 @@ to
 use
 ChromeUtils
 .
-importESM
+importESModule
 which
 will
 import
@@ -352,7 +352,7 @@ AppConstants
 =
 ChromeUtils
 .
-importESM
+importESModule
 (
 "
 resource
