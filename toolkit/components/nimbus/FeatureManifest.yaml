@@ -5765,7 +5765,9 @@ trigger
 in
 BrowserGlue
 .
-jsm
+sys
+.
+mjs
 variables
 :
 enabled

@@ -1182,7 +1182,9 @@ that
 [
 BrowserGlue
 .
-jsm
+sys
+.
+mjs
 ]
 (
 https
@@ -1205,7 +1207,9 @@ components
 /
 BrowserGlue
 .
-jsm
+sys
+.
+mjs
 )
 is
 not

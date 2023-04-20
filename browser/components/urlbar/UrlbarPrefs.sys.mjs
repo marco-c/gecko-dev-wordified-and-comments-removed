@@ -11234,7 +11234,9 @@ in
 *
 BrowserGlue
 .
-jsm
+sys
+.
+mjs
 is
 no
 longer

@@ -2498,7 +2498,9 @@ searchfox
 :
 BrowserGlue
 .
-jsm
+sys
+.
+mjs
 <
 browser
 /
@@ -2506,7 +2508,9 @@ components
 /
 BrowserGlue
 .
-jsm
+sys
+.
+mjs
 >
 and
 :
@@ -4121,7 +4125,9 @@ pulled
 from
 BrowserGlue
 .
-jsm
+sys
+.
+mjs
 :
 .
 .

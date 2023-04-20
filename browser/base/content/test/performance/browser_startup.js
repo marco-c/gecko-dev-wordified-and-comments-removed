@@ -38,7 +38,9 @@ modules
 /
 BrowserGlue
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource

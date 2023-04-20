@@ -357,7 +357,9 @@ jsm
 "
 BrowserGlue
 .
-jsm
+sys
+.
+mjs
 "
 "
 distribution
