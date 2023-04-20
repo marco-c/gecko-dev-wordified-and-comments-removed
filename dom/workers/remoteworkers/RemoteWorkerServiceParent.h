@@ -48,9 +48,10 @@ RemoteWorkerServiceParent
 (
 )
 ;
-~
-RemoteWorkerServiceParent
+NS_INLINE_DECL_REFCOUNTING
 (
+RemoteWorkerServiceParent
+override
 )
 ;
 void
@@ -90,6 +91,11 @@ mRemoteType
 }
 private
 :
+~
+RemoteWorkerServiceParent
+(
+)
+;
 RefPtr
 <
 RemoteWorkerManager

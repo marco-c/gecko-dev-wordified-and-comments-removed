@@ -107,9 +107,6 @@ its
 final
 remoteType
 .
-[
-ManualDealloc
-]
 protocol
 PRemoteWorkerService
 {

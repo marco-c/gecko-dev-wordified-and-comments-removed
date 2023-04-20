@@ -46,6 +46,7 @@ public
 NS_INLINE_DECL_REFCOUNTING
 (
 RemoteWorkerServiceChild
+final
 )
 RemoteWorkerServiceChild
 (
