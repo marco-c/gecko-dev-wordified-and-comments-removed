@@ -140,6 +140,8 @@ ModuleEnvironment
 env
 ValType
 expected
+uint32_t
+maxInitializedGlobalsIndexPlus1
 InitExpr
 *
 expr
@@ -151,10 +153,6 @@ evaluate
 JSContext
 *
 cx
-const
-ValVector
-&
-globalImportValues
 Handle
 <
 WasmInstanceObject

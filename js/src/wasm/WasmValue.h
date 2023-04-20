@@ -1968,6 +1968,17 @@ loc
 )
 ;
 void
+initFromHeapLocation
+(
+ValType
+type
+const
+void
+*
+loc
+)
+;
+void
 writeToRootedLocation
 (
 void
@@ -1981,6 +1992,7 @@ const
 void
 readFromHeapLocation
 (
+const
 void
 *
 loc

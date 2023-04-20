@@ -2163,10 +2163,6 @@ WasmMemoryObject
 *
 >
 memoryObj
-const
-ValVector
-&
-globalImportValues
 )
 const
 {
@@ -2241,7 +2237,6 @@ offset
 evaluate
 (
 cx
-globalImportValues
 instanceObj
 &
 offsetVal
@@ -2419,7 +2414,6 @@ offset
 evaluate
 (
 cx
-globalImportValues
 instanceObj
 &
 offsetVal
@@ -4745,7 +4739,6 @@ init
 evaluate
 (
 cx
-globalImportValues
 instanceObj
 &
 globalVal
@@ -5587,9 +5580,6 @@ initSegments
 cx
 instance
 memory
-imports
-.
-globalValues
 )
 )
 {

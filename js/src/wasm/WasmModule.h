@@ -384,10 +384,6 @@ WasmMemoryObject
 *
 >
 memory
-const
-ValVector
-&
-globalImportValues
 )
 const
 ;
