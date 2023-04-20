@@ -627,7 +627,7 @@ protected
 void
 OnConnectionRequestResponse
 (
-ConnectionRequest
+StunRequest
 *
 req
 StunMessage
