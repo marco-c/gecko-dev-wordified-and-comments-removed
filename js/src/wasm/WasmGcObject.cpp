@@ -1805,16 +1805,16 @@ allocKind
 }
 Rooted
 <
-Shape
+WasmGCShape
 *
 >
 shape
 (
 cx
-SharedShape
+WasmGCShape
 :
 :
-getInitialShape
+getShape
 (
 cx
 clasp
@@ -1827,7 +1827,6 @@ realm
 TaggedProto
 (
 )
-0
 ObjectFlags
 (
 )

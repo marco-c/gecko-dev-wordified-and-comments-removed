@@ -77,7 +77,7 @@ constexpr
 uint32_t
 FIXED_SLOTS_SHIFT
 =
-5
+6
 ;
 static
 constexpr
