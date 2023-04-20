@@ -3595,6 +3595,14 @@ rtc_base
 /
 rtc_base
 :
+checks
+"
+"
+.
+.
+/
+rtc_base
+:
 network_constants
 "
 "
