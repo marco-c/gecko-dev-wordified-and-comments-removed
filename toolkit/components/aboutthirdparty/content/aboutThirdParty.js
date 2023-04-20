@@ -1787,6 +1787,13 @@ blocked
 "
 )
 ;
+blockButton
+.
+disabled
+=
+!
+gBackgroundTasksDone
+;
 }
 if
 (
