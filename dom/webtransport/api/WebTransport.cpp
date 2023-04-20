@@ -550,19 +550,6 @@ return
 false
 ;
 }
-nsCOMPtr
-<
-nsIPrincipal
->
-principal
-=
-nsContentUtils
-:
-:
-GetSystemPrincipal
-(
-)
-;
 Endpoint
 <
 PWebTransportParent
@@ -725,7 +712,6 @@ backgroundChild
 SendCreateWebTransportParent
 (
 aURL
-principal
 dedicated
 requireUnreliable
 (
