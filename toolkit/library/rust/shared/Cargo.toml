@@ -2512,6 +2512,15 @@ fog_control
 disable_upload
 "
 ]
+glean_million_queue
+=
+[
+"
+fog_control
+/
+million_queue
+"
+]
 glean_with_gecko
 =
 [
