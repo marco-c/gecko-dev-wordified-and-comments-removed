@@ -15883,13 +15883,6 @@ areaId
 ;
 }
 }
-if
-(
-lazy
-.
-gUnifiedExtensionsEnabled
-)
-{
 gPlacements
 .
 set
@@ -15901,6 +15894,13 @@ AREA_ADDONS
 ]
 )
 ;
+if
+(
+lazy
+.
+gUnifiedExtensionsEnabled
+)
+{
 for
 (
 let
