@@ -118,11 +118,3 @@ contributors
 "
 "
 }
-langpack
--
-title
-=
-English
-(
-US
-)

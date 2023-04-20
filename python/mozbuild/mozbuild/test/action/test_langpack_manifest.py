@@ -72,11 +72,6 @@ src
 "
 langpack
 -
-title
-=
-foo
-langpack
--
 creator
 =
 bar
@@ -144,23 +139,6 @@ parse_flat_ftl
 tmp
 .
 name
-)
-            
-self
-.
-assertEqual
-(
-ftl
-[
-"
-langpack
--
-title
-"
-]
-"
-foo
-"
 )
             
 self
@@ -256,16 +234,6 @@ self
 ctx
 =
 {
-            
-"
-langpack
--
-title
-"
-:
-"
-Finnish
-"
             
 "
 langpack
@@ -391,9 +359,13 @@ name
 "
 ]
 "
-Finnish
 Language
 Pack
+:
+Suomi
+(
+Finnish
+)
 "
 )
         
@@ -453,16 +425,6 @@ self
 ctx
 =
 {
-            
-"
-langpack
--
-title
-"
-:
-"
-Finnish
-"
             
 "
 langpack
@@ -571,9 +533,13 @@ name
 "
 ]
 "
-Finnish
 Language
 Pack
+:
+Suomi
+(
+Finnish
+)
 "
 )
         
