@@ -3702,11 +3702,6 @@ video_test_common
 "
 video
 :
-video_legacy_tests
-"
-"
-video
-:
 video_tests
 "
 "
