@@ -138,6 +138,7 @@ COUNT_MINOR_GC
 COUNT_STOREBUFFER_OVERFLOW
 COUNT_ARENA_RELOCATED
 COUNT_CELLS_MARKED
+COUNT_PARALLEL_MARK_INTERRUPTIONS
 COUNT_LIMIT
 }
 ;
@@ -1085,6 +1086,8 @@ gc
 :
 State
 initialState
+size_t
+parallelMarkInterruptions
 )
 ;
 SliceBudget
@@ -1173,6 +1176,9 @@ totalParallelTimes
 ;
 PhaseKindTimes
 maxParallelTimes
+;
+size_t
+parallelMarkInterruptions
 ;
 TimeDuration
 duration
@@ -1690,6 +1696,14 @@ SliceData
 &
 slice
 )
+;
+TimeDuration
+sumTotalParallelTime
+(
+PhaseKind
+phaseKind
+)
+const
 ;
 void
 recordPhaseBegin
