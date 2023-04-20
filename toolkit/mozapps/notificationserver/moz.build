@@ -114,6 +114,12 @@ OS_LIBS
 "
 advapi32
 "
+"
+kernel32
+"
+"
+user32
+"
 ]
 LIBRARY_DEFINES
 [
