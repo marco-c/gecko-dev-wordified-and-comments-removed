@@ -230,7 +230,7 @@ target_arch
 wasm32
 "
 )
-feature
+target_os
 =
 "
 emscripten

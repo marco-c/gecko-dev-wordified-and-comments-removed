@@ -2815,6 +2815,7 @@ InverseSqrt
 Inverse
 Transpose
 Determinant
+CountTrailingZeros
 CountLeadingZeros
 CountOneBits
 ReverseBits

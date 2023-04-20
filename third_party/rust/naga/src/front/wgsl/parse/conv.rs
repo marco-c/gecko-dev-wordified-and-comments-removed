@@ -1709,6 +1709,15 @@ Mf
 :
 Determinant
 "
+countTrailingZeros
+"
+=
+>
+Mf
+:
+:
+CountTrailingZeros
+"
 countLeadingZeros
 "
 =

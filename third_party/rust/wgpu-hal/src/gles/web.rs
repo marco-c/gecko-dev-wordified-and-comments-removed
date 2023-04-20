@@ -1004,11 +1004,9 @@ swapchain
 .
 format
 .
-describe
+is_srgb
 (
 )
-.
-srgb
 {
 unsafe
 {
@@ -1635,11 +1633,9 @@ config
 .
 format
 .
-describe
+is_srgb
 (
 )
-.
-srgb
 {
 self
 .

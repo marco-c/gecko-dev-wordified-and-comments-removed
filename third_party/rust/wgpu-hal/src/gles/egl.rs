@@ -200,7 +200,7 @@ cfg
 (
 not
 (
-feature
+target_os
 =
 "
 emscripten
@@ -226,7 +226,7 @@ EGL1_4
 [
 cfg
 (
-feature
+target_os
 =
 "
 emscripten
@@ -2506,7 +2506,7 @@ Config
 [
 cfg_attr
 (
-feature
+target_os
 =
 "
 emscripten
@@ -3422,7 +3422,7 @@ EGL_KHR_surfaceless_context
 cfg
 !
 (
-feature
+target_os
 =
 "
 emscripten
@@ -3863,7 +3863,7 @@ InstanceError
 [
 cfg
 (
-feature
+target_os
 =
 "
 emscripten
@@ -3905,7 +3905,7 @@ cfg
 (
 not
 (
-feature
+target_os
 =
 "
 emscripten
@@ -4233,7 +4233,7 @@ cfg
 (
 not
 (
-feature
+target_os
 =
 "
 emscripten
@@ -4262,7 +4262,7 @@ EGL1_5
 [
 cfg
 (
-feature
+target_os
 =
 "
 emscripten
@@ -4963,7 +4963,7 @@ target_os
 "
 android
 "
-feature
+target_os
 =
 "
 emscripten
@@ -5155,7 +5155,7 @@ cfg
 (
 not
 (
-feature
+target_os
 =
 "
 emscripten
@@ -5364,7 +5364,7 @@ old_inner
 [
 cfg
 (
-feature
+target_os
 =
 "
 emscripten
@@ -6895,7 +6895,7 @@ window
 [
 cfg
 (
-feature
+target_os
 =
 "
 emscripten
@@ -7294,7 +7294,7 @@ cfg
 (
 not
 (
-feature
+target_os
 =
 "
 emscripten
@@ -7327,7 +7327,7 @@ EGL1_5
 [
 cfg
 (
-feature
+target_os
 =
 "
 emscripten

@@ -1640,7 +1640,7 @@ dim
 :
 vec2
 <
-i32
+u32
 >
 =
 textureDimensions
@@ -1659,7 +1659,7 @@ t
 let
 layers
 :
-i32
+u32
 =
 textureNumLayers
 (
@@ -1669,7 +1669,7 @@ t
 let
 samples
 :
-i32
+u32
 =
 textureNumSamples
 (

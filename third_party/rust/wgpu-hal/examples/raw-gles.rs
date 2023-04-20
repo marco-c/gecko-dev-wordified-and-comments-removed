@@ -365,7 +365,7 @@ _
 [
 cfg
 (
-feature
+target_os
 =
 "
 emscripten
@@ -726,7 +726,7 @@ wasm32
 "
 not
 (
-feature
+target_os
 =
 "
 emscripten

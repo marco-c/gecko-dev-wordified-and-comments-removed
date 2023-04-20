@@ -1592,7 +1592,7 @@ wasm32
 "
 not
 (
-feature
+target_os
 =
 "
 emscripten
