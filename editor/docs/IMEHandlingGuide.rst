@@ -10458,12 +10458,7 @@ elements
 get
 focus
 .
-mHTMLInputInputMode
-^
-^
-^
-^
-^
+mHTMLInputMode
 ^
 ^
 ^
