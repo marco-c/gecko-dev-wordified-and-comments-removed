@@ -1135,6 +1135,13 @@ AsRenderAndroidSurfaceTextureHost
 (
 )
 ;
+host
+-
+>
+UpdateTexImageIfNecessary
+(
+)
+;
 RefPtr
 <
 SurfaceTextureSource
