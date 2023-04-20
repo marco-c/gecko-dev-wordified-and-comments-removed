@@ -1962,6 +1962,8 @@ fig
 .
 canvas
 .
+manager
+.
 set_window_title
 (
 \
