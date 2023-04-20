@@ -59,9 +59,6 @@ mozilla
 :
 dom
 {
-class
-FileSystemStreamCallbacks
-;
 namespace
 fs
 :
@@ -374,11 +371,6 @@ FileSystemManagerParent
 ;
 private
 :
-void
-EnsureStreamCallbacks
-(
-)
-;
 RefPtr
 <
 fs
@@ -390,12 +382,6 @@ data
 FileSystemDataManager
 >
 mDataManager
-;
-RefPtr
-<
-FileSystemStreamCallbacks
->
-mStreamCallbacks
 ;
 FileSystemGetHandleResponse
 mRootResponse
