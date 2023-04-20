@@ -1748,7 +1748,7 @@ TransformStreamUnderlyingSinkAlgorithms
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-TransformStreamUnderlyingSinkAlgorithms
+UnderlyingSinkAlgorithmsBase
 )
 class
 TransformStreamUnderlyingSourceAlgorithms
@@ -2025,7 +2025,7 @@ TransformStreamUnderlyingSourceAlgorithms
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-TransformStreamUnderlyingSourceAlgorithms
+UnderlyingSourceAlgorithmsBase
 )
 void
 TransformStream

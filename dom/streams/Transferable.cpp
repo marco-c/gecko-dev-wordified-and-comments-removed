@@ -1951,7 +1951,7 @@ CrossRealmWritableUnderlyingSinkAlgorithms
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-CrossRealmWritableUnderlyingSinkAlgorithms
+UnderlyingSinkAlgorithmsBase
 )
 MOZ_CAN_RUN_SCRIPT
 static
@@ -3251,7 +3251,7 @@ CrossRealmReadableUnderlyingSourceAlgorithms
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-CrossRealmReadableUnderlyingSourceAlgorithms
+UnderlyingSourceAlgorithmsBase
 )
 MOZ_CAN_RUN_SCRIPT
 static
