@@ -5061,6 +5061,13 @@ nsCSPContext
 (
 )
 ;
+csp
+-
+>
+SuppressParserLogMessages
+(
+)
+;
 nsCOMPtr
 <
 nsIURI

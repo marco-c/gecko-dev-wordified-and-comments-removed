@@ -230,6 +230,8 @@ nsCSPContext
 aCSPContext
 bool
 aDeliveredViaMetaTag
+bool
+aSuppressLogMessages
 )
 :
 mCurChar
@@ -303,6 +305,10 @@ aCSPContext
 mDeliveredViaMetaTag
 (
 aDeliveredViaMetaTag
+)
+mSuppressLogMessages
+(
+aSuppressLogMessages
 )
 {
 CSPPARSERLOG
@@ -919,6 +925,14 @@ aProperty
 )
 )
 ;
+if
+(
+mSuppressLogMessages
+)
+{
+return
+;
+}
 mCSPContext
 -
 >
@@ -5584,6 +5598,8 @@ nsCSPContext
 aCSPContext
 bool
 aDeliveredViaMetaTag
+bool
+aSuppressLogMessages
 )
 {
 if
@@ -5735,6 +5751,7 @@ tokens
 aSelfURI
 aCSPContext
 aDeliveredViaMetaTag
+aSuppressLogMessages
 )
 ;
 nsCSPPolicy
