@@ -1,4 +1,5 @@
 use
+crate
 :
 :
 iter
@@ -735,6 +736,7 @@ b
 allowed
 )
 in
+crate
 :
 :
 URI_MAP
@@ -840,6 +842,7 @@ b
 allowed
 )
 in
+crate
 :
 :
 HEADER_VALUE_MAP

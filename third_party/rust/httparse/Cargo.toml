@@ -97,6 +97,11 @@ contents
 [
 package
 ]
+edition
+=
+"
+2018
+"
 name
 =
 "
@@ -107,9 +112,9 @@ version
 "
 1
 .
-7
+8
 .
-1
+0
 "
 authors
 =

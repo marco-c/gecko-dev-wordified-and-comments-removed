@@ -1,7 +1,3 @@
-extern
-crate
-httparse
-;
 use
 httparse
 :
@@ -160,6 +156,12 @@ closure
 arg
 :
 Request
+<
+'
+_
+'
+_
+>
 )
 {
 body

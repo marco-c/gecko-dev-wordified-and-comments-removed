@@ -1,11 +1,3 @@
-extern
-crate
-criterion
-;
-extern
-crate
-httparse
-;
 use
 std
 :
@@ -31,8 +23,6 @@ const
 REQ_SHORT
 :
 &
-'
-static
 [
 u8
 ]
@@ -85,8 +75,6 @@ const
 REQ
 :
 &
-'
-static
 [
 u8
 ]
@@ -646,8 +634,6 @@ const
 RESP_SHORT
 :
 &
-'
-static
 [
 u8
 ]
@@ -709,8 +695,6 @@ const
 RESP
 :
 &
-'
-static
 [
 u8
 ]
