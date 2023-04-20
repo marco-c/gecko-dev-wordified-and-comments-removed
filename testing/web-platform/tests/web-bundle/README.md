@@ -72,9 +72,7 @@ them
 run
 :
 go
-get
--
-u
+install
 github
 .
 com
@@ -92,6 +90,7 @@ cmd
 .
 .
 .
+latest
 export
 PATH
 =

@@ -42,9 +42,7 @@ run
 echo
 "
 go
-get
--
-u
+install
 github
 .
 com
@@ -62,6 +60,7 @@ cmd
 .
 .
 .
+latest
 "
 echo
 '
