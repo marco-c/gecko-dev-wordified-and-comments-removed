@@ -2945,14 +2945,7 @@ false
 }
 ;
 }
-if
-(
-iteratorRecord
-=
-=
-=
-undefined
-)
+else
 {
 let
 arrayLike
