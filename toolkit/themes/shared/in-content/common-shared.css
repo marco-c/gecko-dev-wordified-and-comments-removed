@@ -11294,6 +11294,12 @@ border
 :
 none
 ;
+border
+-
+radius
+:
+unset
+;
 background
 -
 color
