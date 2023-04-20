@@ -1980,6 +1980,14 @@ powerEfficientEncoder
 '
 )
 ;
+assert_optional_string_field
+(
+stats
+'
+scalabilityMode
+'
+)
+;
 validateOptionalIdField
 (
 statsReport
