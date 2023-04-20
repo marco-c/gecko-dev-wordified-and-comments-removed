@@ -23346,15 +23346,6 @@ gBrowser
 selectedBrowser
 )
 ;
-PictureInPicture
-.
-updateUrlbarToggle
-(
-gBrowser
-.
-selectedBrowser
-)
-;
 if
 (
 !
