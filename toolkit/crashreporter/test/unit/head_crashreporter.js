@@ -30,7 +30,7 @@ makeFakeAppDir
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -43,7 +43,9 @@ common
 /
 AppData
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

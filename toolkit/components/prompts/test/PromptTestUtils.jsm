@@ -36,7 +36,7 @@ BrowserTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -49,7 +49,9 @@ common
 /
 BrowserTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -60,7 +62,7 @@ TestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -73,7 +75,9 @@ common
 /
 TestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
