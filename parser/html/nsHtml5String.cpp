@@ -861,11 +861,17 @@ Data
 ;
 ConvertAsciitoUtf16
 (
+mozilla
+:
+:
 Span
 (
 aLiteral
 length
 )
+mozilla
+:
+:
 Span
 (
 data

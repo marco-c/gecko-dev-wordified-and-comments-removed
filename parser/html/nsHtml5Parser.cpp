@@ -17,6 +17,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h
@@ -1802,6 +1811,9 @@ mDocWriteSpeculativeTreeBuilder
 {
 mDocWriteSpeculativeTreeBuilder
 =
+mozilla
+:
+:
 MakeUnique
 <
 nsHtml5TreeBuilder
@@ -1832,6 +1844,9 @@ isScriptingEnabled
 ;
 mDocWriteSpeculativeTokenizer
 =
+mozilla
+:
+:
 MakeUnique
 <
 nsHtml5Tokenizer
