@@ -701,11 +701,7 @@ cx
 createLocation
 (
 {
-sourceId
-:
 source
-.
-id
 line
 :
 1

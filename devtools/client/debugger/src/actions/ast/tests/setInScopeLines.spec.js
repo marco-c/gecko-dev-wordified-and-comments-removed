@@ -283,6 +283,9 @@ async
 frame
 ]
 ;
+const
+baseSource
+=
 await
 dispatch
 (
@@ -319,13 +322,9 @@ getState
 createLocation
 (
 {
-sourceId
+source
 :
-"
-scopes
-.
-js
-"
+baseSource
 line
 :
 5

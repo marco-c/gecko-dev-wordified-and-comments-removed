@@ -228,11 +228,9 @@ cx
 createLocation
 (
 {
-sourceId
+source
 :
 selectedSource
-.
-id
 line
 :
 pauseLocation

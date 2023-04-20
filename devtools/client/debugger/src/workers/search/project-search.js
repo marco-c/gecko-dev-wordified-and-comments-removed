@@ -13,7 +13,6 @@ export
 function
 findSourceMatches
 (
-sourceId
 content
 queryText
 modifiers
@@ -90,7 +89,6 @@ ch
 ;
 return
 {
-sourceId
 line
 :
 line

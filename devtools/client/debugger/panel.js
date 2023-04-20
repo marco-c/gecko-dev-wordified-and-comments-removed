@@ -1110,11 +1110,9 @@ generatedLocation
 createLocation
 (
 {
-sourceId
+source
 :
 generatedSource
-.
-id
 line
 :
 generatedLine
@@ -1139,6 +1137,13 @@ this
 toolbox
 .
 sourceMapLoader
+getState
+:
+this
+.
+_store
+.
+getState
 }
 )
 ;

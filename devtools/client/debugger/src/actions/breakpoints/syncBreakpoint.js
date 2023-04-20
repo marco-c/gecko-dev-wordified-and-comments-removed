@@ -240,9 +240,9 @@ createLocation
 .
 .
 generatedLocation
-sourceId
+source
 :
-generatedSourceId
+generatedSource
 }
 )
 ;
@@ -313,7 +313,7 @@ createLocation
 .
 .
 location
-sourceId
+source
 }
 )
 ;

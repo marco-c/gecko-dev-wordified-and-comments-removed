@@ -349,7 +349,12 @@ location
 createLocation
 (
 {
+source
+:
+createSourceObject
+(
 sourceId
+)
 line
 :
 4

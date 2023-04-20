@@ -125,11 +125,7 @@ createLocation
 line
 :
 5
-sourceId
-:
 source
-.
-id
 }
 )
 {
