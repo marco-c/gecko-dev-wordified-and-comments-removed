@@ -4186,6 +4186,26 @@ token
 =
 token_types
 .
+atom
+:
+                
+self
+.
+atom
+(
+)
+            
+elif
+self
+.
+token
+[
+0
+]
+=
+=
+token_types
+.
 list_start
 :
                 
