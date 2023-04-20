@@ -596,6 +596,13 @@ third_party
 /
 python
 /
+importlib_resources
+vendored
+:
+third_party
+/
+python
+/
 Jinja2
 vendored
 :
@@ -699,6 +706,13 @@ third_party
 python
 /
 pip_tools
+vendored
+:
+third_party
+/
+python
+/
+pkgutil_resolve_name
 vendored
 :
 third_party
