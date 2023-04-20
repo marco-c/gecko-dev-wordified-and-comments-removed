@@ -5909,13 +5909,6 @@ mList
 mChildListID
 )
 ;
-mState
--
->
-mFixedPosIsAbsPos
-=
-mSavedFixedPosIsAbsPos
-;
 if
 (
 mSavedFixedPosIsAbsPos
@@ -5932,6 +5925,13 @@ mState
 >
 mAbsoluteList
 )
+;
+mState
+-
+>
+mFixedPosIsAbsPos
+=
+mSavedFixedPosIsAbsPos
 ;
 mState
 -
