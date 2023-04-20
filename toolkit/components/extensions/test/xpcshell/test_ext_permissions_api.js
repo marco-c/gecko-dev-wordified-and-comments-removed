@@ -201,6 +201,9 @@ clipboardRead
 clipboardWrite
 "
 "
+declarativeNetRequestFeedback
+"
+"
 devtools
 "
 "
