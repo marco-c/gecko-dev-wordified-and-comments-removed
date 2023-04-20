@@ -102,7 +102,7 @@ unsafe
 {
 :
 :
-std
+core
 :
 :
 ffi
