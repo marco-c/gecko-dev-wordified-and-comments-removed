@@ -17945,6 +17945,16 @@ EqualsLiteral
 sawfish
 "
 )
+|
+|
+StringBeginsWith
+(
+desktop
+"
+fvwm
+"
+_ns
+)
 ;
 }
 (
