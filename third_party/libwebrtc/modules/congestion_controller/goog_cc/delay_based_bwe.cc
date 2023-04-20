@@ -938,13 +938,13 @@ sent_packet
 audio
 )
 ?
-video_inter_arrival_delta_
+audio_inter_arrival_delta_
 .
 get
 (
 )
 :
-audio_inter_arrival_delta_
+video_inter_arrival_delta_
 .
 get
 (
