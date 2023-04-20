@@ -115,17 +115,6 @@ CanvasRenderThread
 )
 ;
 void
-ShutDownTask
-(
-layers
-:
-:
-SynchronousTask
-*
-aTask
-)
-;
-void
 PostRunnable
 (
 already_AddRefed
