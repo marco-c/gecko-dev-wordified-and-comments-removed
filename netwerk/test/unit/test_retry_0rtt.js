@@ -226,9 +226,10 @@ Ci
 nsINSSComponent
 )
 ;
+await
 nssComponent
 .
-clearSSLExternalAndInternalSessionCache
+asyncClearSSLExternalAndInternalSessionCache
 (
 )
 ;
