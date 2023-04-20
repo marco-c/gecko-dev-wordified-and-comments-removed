@@ -4651,7 +4651,7 @@ MOZ_CAN_RUN_SCRIPT
 virtual
 Result
 <
-EditorDOMPoint
+InsertTextResult
 nsresult
 >
 InsertTextWithTransaction
@@ -4669,8 +4669,17 @@ EditorDOMPoint
 aPointToInsert
 )
 ;
+[
+[
+nodiscard
+]
+]
 MOZ_CAN_RUN_SCRIPT
+Result
+<
+InsertTextResult
 nsresult
+>
 InsertTextIntoTextNodeWithTransaction
 (
 const
@@ -4681,10 +4690,6 @@ const
 EditorDOMPointInText
 &
 aPointToInsert
-bool
-aSuppressIME
-=
-false
 )
 ;
 [
