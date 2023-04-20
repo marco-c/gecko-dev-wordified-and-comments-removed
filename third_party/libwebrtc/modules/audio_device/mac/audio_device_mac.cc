@@ -1186,7 +1186,7 @@ _paRenderBuffer
 new
 PaUtilRingBuffer
 ;
-PaRingBufferSize
+ring_buffer_size_t
 bufSize
 =
 -
@@ -1288,7 +1288,7 @@ _paCaptureBuffer
 new
 PaUtilRingBuffer
 ;
-PaRingBufferSize
+ring_buffer_size_t
 bufSize
 =
 -
@@ -10139,7 +10139,7 @@ return
 ;
 }
 }
-PaRingBufferSize
+ring_buffer_size_t
 bufSizeSamples
 =
 PaUtil_GetRingBufferReadAvailable
@@ -10232,7 +10232,7 @@ mNumberBuffers
 1
 )
 ;
-PaRingBufferSize
+ring_buffer_size_t
 numSamples
 =
 *
@@ -10460,7 +10460,7 @@ return
 0
 ;
 }
-PaRingBufferSize
+ring_buffer_size_t
 bufSizeSamples
 =
 PaUtil_GetRingBufferReadAvailable
@@ -10535,7 +10535,7 @@ mNumberBuffers
 1
 )
 ;
-PaRingBufferSize
+ring_buffer_size_t
 numSamples
 =
 inputData
@@ -10630,7 +10630,7 @@ mNumberBuffers
 1
 )
 ;
-PaRingBufferSize
+ring_buffer_size_t
 numSamples
 =
 *
@@ -10737,7 +10737,7 @@ void
 *
 dummyPtr
 ;
-PaRingBufferSize
+ring_buffer_size_t
 dummySize
 ;
 PaUtil_GetRingBufferReadRegions
@@ -10814,7 +10814,7 @@ RenderWorkerThread
 (
 )
 {
-PaRingBufferSize
+ring_buffer_size_t
 numSamples
 =
 ENGINE_PLAY_BUF_SIZE_IN_SAMPLES
