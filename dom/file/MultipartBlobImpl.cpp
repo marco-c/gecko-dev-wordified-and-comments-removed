@@ -55,13 +55,6 @@ h
 #
 include
 "
-nsIGlobalObject
-.
-h
-"
-#
-include
-"
 nsIMultiplexInputStream
 .
 h
@@ -151,8 +144,8 @@ const
 nsAString
 &
 aContentType
-RTPCallerType
-aRTPCallerType
+bool
+aCrossOriginIsolated
 ErrorResult
 &
 aRv
@@ -185,7 +178,7 @@ SetLengthAndModifiedDate
 (
 Some
 (
-aRTPCallerType
+aCrossOriginIsolated
 )
 aRv
 )
@@ -954,8 +947,8 @@ MultipartBlobImpl
 :
 InitializeBlob
 (
-RTPCallerType
-aRTPCallerType
+bool
+aCrossOriginIsolated
 ErrorResult
 &
 aRv
@@ -965,7 +958,7 @@ SetLengthAndModifiedDate
 (
 Some
 (
-aRTPCallerType
+aCrossOriginIsolated
 )
 aRv
 )
@@ -1007,8 +1000,8 @@ nsAString
 aContentType
 bool
 aNativeEOL
-RTPCallerType
-aRTPCallerType
+bool
+aCrossOriginIsolated
 ErrorResult
 &
 aRv
@@ -1289,7 +1282,7 @@ SetLengthAndModifiedDate
 (
 Some
 (
-aRTPCallerType
+aCrossOriginIsolated
 )
 aRv
 )
@@ -1318,10 +1311,10 @@ SetLengthAndModifiedDate
 const
 Maybe
 <
-RTPCallerType
+bool
 >
 &
-aRTPCallerType
+aCrossOriginIsolated
 ErrorResult
 &
 aRv
@@ -1514,7 +1507,7 @@ else
 {
 MOZ_ASSERT
 (
-aRTPCallerType
+aCrossOriginIsolated
 .
 isSome
 (
@@ -1523,7 +1516,7 @@ isSome
 ;
 SetLastModificationDate
 (
-aRTPCallerType
+aCrossOriginIsolated
 .
 value
 (

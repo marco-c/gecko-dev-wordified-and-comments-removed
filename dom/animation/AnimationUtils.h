@@ -105,8 +105,6 @@ TimeDuration
 >
 &
 aTime
-RTPCallerType
-aRTPCallerType
 )
 {
 dom
@@ -147,7 +145,6 @@ ToMilliseconds
 (
 )
 0
-aRTPCallerType
 )
 )
 ;

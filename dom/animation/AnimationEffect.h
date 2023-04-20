@@ -399,10 +399,6 @@ TimingParams
 >
 mNormalizedTiming
 ;
-enum
-RTPCallerType
-mRTPCallerType
-;
 }
 ;
 }

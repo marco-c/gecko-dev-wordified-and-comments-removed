@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -255,8 +248,8 @@ TimeStamp
 mStartRealtime
 ;
 const
-RTPCallerType
-mRTPCallerType
+bool
+mCrossOriginIsolated
 ;
 const
 DOMHighResTimeStamp

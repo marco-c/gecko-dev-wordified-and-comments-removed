@@ -317,8 +317,8 @@ BaseBlobImpl
 :
 SetLastModificationDate
 (
-RTPCallerType
-aRTPCallerType
+bool
+aCrossOriginIsolated
 int64_t
 aDate
 )
@@ -333,7 +333,8 @@ ReduceTimePrecisionAsUSecs
 (
 aDate
 0
-aRTPCallerType
+false
+aCrossOriginIsolated
 )
 )
 ;
