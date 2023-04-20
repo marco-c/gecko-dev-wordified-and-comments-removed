@@ -613,6 +613,12 @@ done
 }
 #
 if
+defined
+(
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+)
+&
+&
 !
 defined
 (
@@ -620,6 +626,7 @@ ANDROID
 )
 &
 &
+\
 !
 (
 defined
