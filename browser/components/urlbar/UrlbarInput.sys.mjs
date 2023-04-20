@@ -14706,7 +14706,7 @@ urlbar
 .
 *
 /
-updateTextOverflow
+_updateTextOverflow
 (
 )
 {
@@ -14741,11 +14741,10 @@ getAttribute
 domaindir
 "
 )
-=
-=
+!
 =
 "
-rtl
+ltr
 "
 &
 &
@@ -22217,7 +22216,7 @@ true
 ;
 this
 .
-updateTextOverflow
+_updateTextOverflow
 (
 )
 ;
@@ -22283,7 +22282,7 @@ false
 ;
 this
 .
-updateTextOverflow
+_updateTextOverflow
 (
 )
 ;
@@ -22669,7 +22668,7 @@ event
 {
 this
 .
-updateTextOverflow
+_updateTextOverflow
 (
 )
 ;

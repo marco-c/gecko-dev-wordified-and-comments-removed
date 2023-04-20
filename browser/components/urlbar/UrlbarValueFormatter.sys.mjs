@@ -903,14 +903,6 @@ scrollLeft
 0
 ;
 }
-this
-.
-urlbarInput
-.
-updateTextOverflow
-(
-)
-;
 }
 )
 ;
