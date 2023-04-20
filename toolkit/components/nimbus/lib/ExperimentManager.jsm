@@ -584,7 +584,7 @@ this
 .
 store
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 .
@@ -633,7 +633,7 @@ this
 .
 store
 .
-getAllRollouts
+getAllActiveRollouts
 (
 )
 .
@@ -686,7 +686,7 @@ this
 .
 store
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 ;
@@ -697,7 +697,7 @@ this
 .
 store
 .
-getAllRollouts
+getAllActiveRollouts
 (
 )
 ;
@@ -1196,7 +1196,7 @@ this
 .
 store
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 ;
@@ -1207,7 +1207,7 @@ this
 .
 store
 .
-getAllRollouts
+getAllActiveRollouts
 (
 )
 ;
@@ -2458,7 +2458,7 @@ this
 .
 store
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 )
@@ -2489,7 +2489,7 @@ this
 .
 store
 .
-getAllRollouts
+getAllActiveRollouts
 (
 )
 )

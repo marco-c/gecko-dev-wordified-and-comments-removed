@@ -5767,7 +5767,7 @@ ExperimentManager
 .
 store
 .
-getAllActive
+getAllActiveExperiments
 (
 )
 )
@@ -5789,7 +5789,7 @@ ExperimentManager
 .
 store
 .
-getAllRollouts
+getAllActiveRollouts
 (
 )
 )
