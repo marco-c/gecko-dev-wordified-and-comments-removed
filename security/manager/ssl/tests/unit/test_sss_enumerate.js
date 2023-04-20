@@ -17,8 +17,6 @@ SECS_IN_A_WEEK
 60
 *
 60
-*
-1000
 ;
 const
 TESTCASES
