@@ -225,7 +225,7 @@ if
 VideoStreamEncoderResourceManager
 :
 :
-IsSimulcast
+IsSimulcastOrMultipleSpatialLayers
 (
 encoder_settings_
 -

@@ -744,7 +744,7 @@ override
 ;
 static
 bool
-IsSimulcast
+IsSimulcastOrMultipleSpatialLayers
 (
 const
 VideoEncoderConfig
