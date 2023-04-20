@@ -148,7 +148,7 @@ ok
 (
 doc
 .
-body
+documentElement
 .
 hasAttribute
 (
@@ -175,7 +175,7 @@ is
 (
 doc
 .
-body
+documentElement
 .
 hasAttribute
 (
@@ -378,7 +378,7 @@ ok
 !
 doc
 .
-body
+documentElement
 .
 hasAttribute
 (
@@ -407,7 +407,7 @@ ok
 !
 doc
 .
-body
+documentElement
 .
 hasAttribute
 (

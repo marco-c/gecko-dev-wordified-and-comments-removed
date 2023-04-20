@@ -130,7 +130,7 @@ ok
 !
 doc
 .
-body
+documentElement
 .
 hasAttribute
 (
@@ -159,7 +159,7 @@ ok
 !
 doc
 .
-body
+documentElement
 .
 hasAttribute
 (
@@ -251,12 +251,7 @@ getComputedStyle
 (
 doc
 .
-querySelector
-(
-"
-body
-"
-)
+documentElement
 )
 .
 getPropertyValue
@@ -358,7 +353,7 @@ ok
 (
 doc
 .
-body
+documentElement
 .
 hasAttribute
 (
@@ -385,7 +380,7 @@ is
 (
 doc
 .
-body
+documentElement
 .
 hasAttribute
 (
@@ -573,7 +568,7 @@ ok
 !
 doc
 .
-body
+documentElement
 .
 hasAttribute
 (
@@ -602,7 +597,7 @@ ok
 !
 doc
 .
-body
+documentElement
 .
 hasAttribute
 (
