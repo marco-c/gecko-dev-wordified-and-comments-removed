@@ -26,7 +26,7 @@ BLOCK_MESSAGE_BY_ID
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -41,7 +41,9 @@ common
 /
 ActorConstants
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

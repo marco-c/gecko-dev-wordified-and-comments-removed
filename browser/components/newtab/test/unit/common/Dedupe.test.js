@@ -8,7 +8,9 @@ common
 /
 Dedupe
 .
-jsm
+sys
+.
+mjs
 "
 ;
 describe

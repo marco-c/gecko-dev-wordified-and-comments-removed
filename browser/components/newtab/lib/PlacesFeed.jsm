@@ -44,7 +44,7 @@ au
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -59,7 +59,9 @@ common
 /
 Actions
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
