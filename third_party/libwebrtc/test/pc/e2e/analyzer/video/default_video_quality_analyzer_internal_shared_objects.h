@@ -317,7 +317,7 @@ optional
 <
 int
 >
-rendered_frame_width
+decoded_frame_width
 =
 absl
 :
@@ -331,7 +331,7 @@ optional
 <
 int
 >
-rendered_frame_height
+decoded_frame_height
 =
 absl
 :

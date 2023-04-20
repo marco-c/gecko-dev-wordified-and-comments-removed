@@ -3701,7 +3701,7 @@ it
 >
 second
 .
-resolution_of_rendered_frame
+resolution_of_decoded_frame
 .
 IsEmpty
 (
@@ -3715,7 +3715,7 @@ it
 >
 second
 .
-resolution_of_rendered_frame
+resolution_of_decoded_frame
 .
 GetMin
 (
@@ -3734,7 +3734,7 @@ it
 >
 second
 .
-resolution_of_rendered_frame
+resolution_of_decoded_frame
 .
 GetMax
 (
@@ -3835,7 +3835,7 @@ it
 >
 second
 .
-resolution_of_rendered_frame
+resolution_of_decoded_frame
 .
 IsEmpty
 (
@@ -3849,7 +3849,7 @@ it
 >
 second
 .
-resolution_of_rendered_frame
+resolution_of_decoded_frame
 .
 GetMin
 (
@@ -3868,7 +3868,7 @@ it
 >
 second
 .
-resolution_of_rendered_frame
+resolution_of_decoded_frame
 .
 GetMax
 (

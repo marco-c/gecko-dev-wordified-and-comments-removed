@@ -282,6 +282,15 @@ sinks
 ;
 }
 ;
+void
+AnalyzeFrame
+(
+const
+VideoFrame
+&
+frame
+)
+;
 SinksDescriptor
 *
 PopulateSinks
