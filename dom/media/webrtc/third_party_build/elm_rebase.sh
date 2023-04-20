@@ -1179,6 +1179,11 @@ head
 -
 1
 COMMIT_LIST_FILE
+function
+remove_commit
+(
+)
+{
 echo
 "
 Removing
@@ -1202,6 +1207,7 @@ nw
 \
 nq
 '
+}
 IS_BUILD_COMMIT
 =
 hg
@@ -1278,6 +1284,7 @@ firstline
 -
 r
 commit
+remove_commit
 continue
 fi
 IS_SKIP_GEN_COMMIT
@@ -1375,6 +1382,9 @@ rebase_commit_message
 txt
 ;
 \
+remove_commit
+;
+\
 echo
 "
 Error
@@ -1421,6 +1431,7 @@ bash
 exit
 1
 )
+remove_commit
 if
 [
 "
