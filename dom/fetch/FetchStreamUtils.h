@@ -132,10 +132,6 @@ PBackgroundParent
 *
 >
 aBackgroundParent
-bool
-aSerializeAsLazy
-=
-true
 )
 ;
 ParentToChildStream
