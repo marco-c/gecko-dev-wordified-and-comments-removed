@@ -9417,7 +9417,7 @@ resource
 /
 autofill
 /
-Autofilltelemetry
+FormAutofillTelemetryUtils
 .
 jsm
 "
@@ -9429,7 +9429,7 @@ components
 /
 formautofill
 /
-Autofilltelemetry
+FormAutofillTelemetryUtils
 .
 jsm
 "
