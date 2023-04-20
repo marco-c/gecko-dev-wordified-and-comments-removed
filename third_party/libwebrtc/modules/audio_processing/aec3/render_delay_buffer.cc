@@ -26,6 +26,11 @@ algorithm
 #
 include
 <
+atomic
+>
+#
+include
+<
 cmath
 >
 #
