@@ -6424,7 +6424,7 @@ esp
 ;
 masm
 .
-branchDoubleNotInInt64Range
+branchFloat32NotInInt64Range
 (
 Address
 (
