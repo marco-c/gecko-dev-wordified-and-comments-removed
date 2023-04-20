@@ -10454,6 +10454,14 @@ XRE_IsParentProcess
 )
 )
 {
+aLoadState
+-
+>
+MaybeStripTrackerQueryStrings
+(
+this
+)
+;
 if
 (
 Canonical

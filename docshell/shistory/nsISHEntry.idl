@@ -169,13 +169,6 @@ resultPrincipalURI
 infallible
 ]
 attribute
-nsIURI
-unstrippedURI
-;
-[
-infallible
-]
-attribute
 boolean
 loadReplace
 ;
@@ -560,9 +553,6 @@ originalURI
 in
 nsIURI
 resultPrincipalURI
-in
-nsIURI
-unstrippedURI
 in
 bool
 loadReplace
