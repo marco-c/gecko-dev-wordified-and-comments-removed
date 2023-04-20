@@ -152,9 +152,6 @@ other
 )
 ;
 }
-VideoCodecComplexity
-complexity
-;
 unsigned
 char
 numberOfTemporalLayers
@@ -228,9 +225,6 @@ other
 )
 ;
 }
-VideoCodecComplexity
-complexity
-;
 unsigned
 char
 numberOfTemporalLayers
@@ -591,13 +585,7 @@ ScalabilityMode
 >
 scalability_mode_
 ;
-absl
-:
-:
-optional
-<
 VideoCodecComplexity
->
 complexity_
 ;
 absl
