@@ -177,7 +177,6 @@ TreeScrollDelay
 TreeScrollLinesMax
 TabFocusModel
 ChosenMenuItemsShouldBlink
-ShowKeyboardCues
 WindowsAccentColorInTitlebar
 WindowsDefaultTheme
 DWMCompositor
