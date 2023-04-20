@@ -322,12 +322,13 @@ function
 isFrameBlackBoxed
 (
 frame
-source
 blackboxedRanges
 )
 {
 return
 (
+frame
+.
 source
 &
 &
@@ -335,6 +336,8 @@ source
 !
 blackboxedRanges
 [
+frame
+.
 source
 .
 url
@@ -345,6 +348,8 @@ url
 !
 blackboxedRanges
 [
+frame
+.
 source
 .
 url
@@ -357,6 +362,8 @@ length
 !
 findBlackBoxRange
 (
+frame
+.
 source
 blackboxedRanges
 {

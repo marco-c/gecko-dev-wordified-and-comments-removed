@@ -377,8 +377,7 @@ return
 function
 findOutOfScopeLocations
 (
-sourceId
-position
+location
 )
 {
 const
@@ -389,7 +388,11 @@ comments
 =
 findSymbols
 (
-sourceId
+location
+.
+source
+.
+id
 )
 ;
 const
@@ -433,7 +436,7 @@ innerLocations
 getInnerLocations
 (
 locations
-position
+location
 )
 ;
 const
@@ -466,7 +469,7 @@ return
 containsPosition
 (
 loc
-position
+location
 )
 ;
 }

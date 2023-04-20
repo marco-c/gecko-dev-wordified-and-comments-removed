@@ -109,7 +109,6 @@ getCurrentThread
 getThreadContext
 getPauseReason
 getShouldBreakpointsPaneOpenOnPause
-getLocationSource
 getSkipPausing
 shouldLogEventBreakpoints
 }
@@ -2511,13 +2510,11 @@ source
 selectedFrame
 &
 &
-getLocationSource
-(
-state
 selectedFrame
 .
 location
-)
+.
+source
 pauseReason
 :
 pauseReason

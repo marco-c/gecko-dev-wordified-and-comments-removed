@@ -227,9 +227,6 @@ frame
 isFrameBlackBoxed
 (
 frame
-frame
-.
-source
 blackboxedRanges
 )
 )
