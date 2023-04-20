@@ -4526,10 +4526,6 @@ EncryptedClientHelloServer
 "
             
 "
-FaultyServer
-"
-            
-"
 OCSPStaplingServer
 "
             

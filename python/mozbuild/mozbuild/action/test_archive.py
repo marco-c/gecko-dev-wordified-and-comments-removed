@@ -102,10 +102,6 @@ EncryptedClientHelloServer
 "
     
 "
-FaultyServer
-"
-    
-"
 GenerateOCSPResponse
 "
     

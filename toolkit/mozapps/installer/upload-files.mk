@@ -1731,9 +1731,6 @@ DelegatedCredentialsServer
 EncryptedClientHelloServer
 *
 \
-FaultyServer
-*
-\
 OCSPStaplingServer
 *
 \
