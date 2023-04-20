@@ -128,6 +128,13 @@ class
 WasmArrayObject
 ;
 namespace
+gc
+{
+class
+StoreBuffer
+;
+}
+namespace
 wasm
 {
 using
@@ -286,6 +293,13 @@ jsJitExceptionHandler_
 void
 *
 preBarrierCode_
+;
+gc
+:
+:
+StoreBuffer
+*
+storeBuffer_
 ;
 WeakHeapPtr
 <
