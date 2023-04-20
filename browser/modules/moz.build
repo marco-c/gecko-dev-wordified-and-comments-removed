@@ -835,11 +835,6 @@ AboutNewTab
 jsm
 "
 "
-AppUpdater
-.
-jsm
-"
-"
 AsyncTabSwitcher
 .
 jsm

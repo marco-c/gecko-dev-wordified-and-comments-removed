@@ -2818,6 +2818,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /
@@ -2827,9 +2828,11 @@ jsm
 "
 :
 "
-browser
+toolkit
 /
-modules
+mozapps
+/
+update
 /
 AppUpdater
 .
