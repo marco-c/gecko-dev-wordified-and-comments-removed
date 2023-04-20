@@ -6677,9 +6677,6 @@ aFrame
 >
 GetChildList
 (
-nsIFrame
-:
-:
 kOverflowList
 )
 .
@@ -49472,9 +49469,6 @@ parent
 >
 RemoveFrame
 (
-nsIFrame
-:
-:
 kNoReflowPrincipalList
 aFrame
 )

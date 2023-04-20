@@ -248,7 +248,7 @@ AppendFrames
 nsContainerFrame
 *
 aParentFrame
-ChildListID
+FrameChildListID
 aListID
 nsFrameList
 &
@@ -327,7 +327,7 @@ InsertFrames
 nsContainerFrame
 *
 aParentFrame
-ChildListID
+FrameChildListID
 aListID
 nsIFrame
 *
@@ -464,7 +464,7 @@ nsFrameManager
 :
 RemoveFrame
 (
-ChildListID
+FrameChildListID
 aListID
 nsIFrame
 *

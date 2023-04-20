@@ -94,9 +94,6 @@ mozilla
 class
 PresShell
 ;
-namespace
-layout
-{
 class
 FrameChildList
 ;
@@ -170,7 +167,6 @@ aContent
 }
 }
 ;
-}
 }
 class
 nsFrameList
@@ -485,9 +481,6 @@ nsIFrame
 *
 aDestructRoot
 mozilla
-:
-:
-layout
 :
 :
 PostFrameDestroyData
@@ -928,17 +921,11 @@ nsTArray
 mozilla
 :
 :
-layout
-:
-:
 FrameChildList
 >
 *
 aLists
 mozilla
-:
-:
-layout
 :
 :
 FrameChildListID
@@ -1496,9 +1483,6 @@ mLastChild
 namespace
 mozilla
 {
-namespace
-layout
-{
 #
 ifdef
 DEBUG_FRAME_DUMP
@@ -1559,7 +1543,6 @@ mID
 ;
 }
 ;
-}
 class
 MOZ_RAII
 AutoFrameListPtr

@@ -193,7 +193,7 @@ SetInitialChildList
 nsIFrame
 *
 aDelegatingFrame
-ChildListID
+FrameChildListID
 aListID
 nsFrameList
 &
@@ -275,7 +275,7 @@ AppendFrames
 nsIFrame
 *
 aDelegatingFrame
-ChildListID
+FrameChildListID
 aListID
 nsFrameList
 &
@@ -351,7 +351,7 @@ InsertFrames
 nsIFrame
 *
 aDelegatingFrame
-ChildListID
+FrameChildListID
 aListID
 nsIFrame
 *
@@ -457,7 +457,7 @@ RemoveFrame
 nsIFrame
 *
 aDelegatingFrame
-ChildListID
+FrameChildListID
 aListID
 nsIFrame
 *
@@ -738,9 +738,6 @@ MOZ_ASSERT
 mChildListID
 =
 =
-nsAtomicContainerFrame
-:
-:
 kFixedList
 )
 ;
