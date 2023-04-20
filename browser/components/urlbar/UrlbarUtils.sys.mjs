@@ -9876,6 +9876,15 @@ type
 boolean
 "
 }
+merinoProvider
+:
+{
+type
+:
+"
+string
+"
+}
 originalUrl
 :
 {
