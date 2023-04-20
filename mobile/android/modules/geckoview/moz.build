@@ -81,7 +81,9 @@ jsm
 "
 GeckoViewModule
 .
-jsm
+sys
+.
+mjs
 "
 "
 GeckoViewNavigation
