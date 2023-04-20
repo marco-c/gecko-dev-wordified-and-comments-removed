@@ -10,7 +10,7 @@ SessionSaver
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -24,7 +24,9 @@ sessionstore
 /
 SessionSaver
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -35,7 +37,7 @@ TabStateFlusher
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -49,7 +51,9 @@ sessionstore
 /
 TabStateFlusher
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

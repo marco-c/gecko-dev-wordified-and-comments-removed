@@ -170,7 +170,7 @@ SessionStore
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -184,7 +184,9 @@ sessionstore
 /
 SessionStore
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

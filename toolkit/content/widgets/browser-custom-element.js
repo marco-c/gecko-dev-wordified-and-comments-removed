@@ -308,14 +308,16 @@ sessionstore
 /
 SessionStore
 .
-jsm
+sys
+.
+mjs
 "
 ;
 if
 (
 Cu
 .
-isModuleLoaded
+isESModuleLoaded
 (
 kURL
 )
@@ -328,7 +330,7 @@ SessionStore
 =
 ChromeUtils
 .
-import
+importESModule
 (
 kURL
 )
