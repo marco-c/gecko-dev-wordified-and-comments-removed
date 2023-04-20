@@ -1444,6 +1444,12 @@ uint64_t
 >
 mReverseRelations
 ;
+nsTHashSet
+<
+uint64_t
+>
+mOnScreenAccessibles
+;
 static
 DocAccessibleParent
 *
