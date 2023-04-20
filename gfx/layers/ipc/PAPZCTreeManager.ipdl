@@ -32,6 +32,9 @@ protocol
 PCompositorBridge
 ;
 using
+mozilla
+:
+:
 CSSRect
 from
 "
@@ -41,6 +44,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 LayoutDeviceCoord
 from
 "
@@ -62,6 +68,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 ScreenPoint
 from
 "
@@ -71,6 +80,12 @@ h
 "
 ;
 using
+mozilla
+:
+:
+layers
+:
+:
 ZoomTarget
 from
 "

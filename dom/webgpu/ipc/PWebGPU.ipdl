@@ -1,4 +1,7 @@
 using
+mozilla
+:
+:
 layers
 :
 :
@@ -15,6 +18,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 layers
 :
 :
@@ -31,6 +37,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 layers
 :
 :
@@ -47,6 +56,12 @@ h
 "
 ;
 using
+mozilla
+:
+:
+webgpu
+:
+:
 RawId
 from
 "
@@ -60,6 +75,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 dom
 :
 :
@@ -76,6 +94,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 dom
 :
 :
@@ -92,6 +113,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 dom
 :
 :
@@ -108,6 +132,12 @@ h
 "
 ;
 using
+mozilla
+:
+:
+webgpu
+:
+:
 MaybeScopedError
 from
 "
@@ -121,6 +151,12 @@ h
 "
 ;
 using
+mozilla
+:
+:
+webgpu
+:
+:
 WebGPUCompilationMessage
 from
 "

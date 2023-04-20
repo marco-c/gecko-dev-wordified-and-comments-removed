@@ -1,4 +1,7 @@
 using
+mozilla
+:
+:
 CSSRect
 from
 "
@@ -8,6 +11,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 CSSToScreenScale
 from
 "
@@ -17,6 +23,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 ScreenIntSize
 from
 "
@@ -26,6 +35,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 ScreenPoint
 from
 "

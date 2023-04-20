@@ -34,6 +34,9 @@ protocol
 PCompositorBridge
 ;
 using
+mozilla
+:
+:
 CSSRect
 from
 "

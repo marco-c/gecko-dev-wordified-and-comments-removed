@@ -108,6 +108,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 StringVector
 from
 "
@@ -123,6 +126,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 CandidateInfo
 from
 "
@@ -138,6 +144,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 DtlsDigestList
 from
 "
@@ -244,6 +253,9 @@ our
 own
 classes
 using
+mozilla
+:
+:
 MediaPacket
 from
 "
@@ -266,6 +278,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 net
 :
 :

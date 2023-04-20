@@ -49,6 +49,12 @@ h
 "
 ;
 using
+mozilla
+:
+:
+widget
+:
+:
 TransparencyMode
 from
 "

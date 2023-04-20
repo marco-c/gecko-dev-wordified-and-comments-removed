@@ -305,6 +305,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 ScreenRect
 from
 "
@@ -411,6 +414,12 @@ h
 "
 ;
 using
+mozilla
+:
+:
+layers
+:
+:
 ScrollableLayerGuid
 :
 :
@@ -1161,6 +1170,12 @@ h
 "
 ;
 using
+mozilla
+:
+:
+dom
+:
+:
 CallerType
 from
 "
