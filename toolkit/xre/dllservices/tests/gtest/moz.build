@@ -136,6 +136,12 @@ TestDllBlocklist_MatchByVersion
 TestDllBlocklist_NoOpEntryPoint
 "
 "
+TestDllBlocklist_SocketProcessOnly
+"
+"
+TestDllBlocklist_UtilityProcessOnly
+"
+"
 TestUntrustedModules_Dll1
 "
 "
