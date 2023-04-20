@@ -93,9 +93,9 @@ urlbar
 .
 quickactions
 .
-showInZeroPrefix
+minimumSearchString
 "
-true
+0
 ]
 ]
 }
