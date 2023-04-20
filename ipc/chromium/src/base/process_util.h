@@ -394,6 +394,11 @@ start_hidden
 =
 false
 ;
+bool
+start_independent
+=
+false
+;
 EnvironmentMap
 env_map
 ;
