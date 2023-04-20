@@ -1421,6 +1421,15 @@ GetIntrinsicValue
 \
 _
 (
+GetIterator
+js
+:
+:
+GetIterator
+)
+\
+_
+(
 GetNonSyntacticGlobalThis
 js
 :
