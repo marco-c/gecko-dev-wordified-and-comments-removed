@@ -3096,12 +3096,13 @@ value
 }
 if
 (
-!
 this
 .
-target
+commands
 .
-chrome
+descriptorFront
+.
+isTabDescriptor
 )
 {
 const

@@ -2669,9 +2669,9 @@ uri
 !
 this
 .
-target
+toolbox
 .
-chrome
+isBrowserToolbox
 )
 {
 linkFollow
