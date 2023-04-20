@@ -2828,9 +2828,6 @@ shareScriptData
 JSContext
 *
 cx
-FrontendContext
-*
-fc
 RefPtr
 <
 SharedImmutableScriptData

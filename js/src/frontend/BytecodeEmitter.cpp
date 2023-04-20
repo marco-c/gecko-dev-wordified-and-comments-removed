@@ -53822,10 +53822,8 @@ compilationState
 .
 sharedData
 .
-addAndShare
+add
 (
-cx
-fc
 scriptIndex
 sharedData
 )
