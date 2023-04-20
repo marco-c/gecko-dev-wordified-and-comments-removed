@@ -30,12 +30,12 @@ default
 (
 )
 .
-with_max_level
+with_min_level
 (
 log
 :
 :
-LevelFilter
+Level
 :
 :
 Trace

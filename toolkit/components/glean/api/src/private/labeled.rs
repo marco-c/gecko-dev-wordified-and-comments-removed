@@ -1311,15 +1311,9 @@ metric
 .
 get
 (
-&
 "
-1
+this_string_has_more_than_thirty_characters
 "
-.
-repeat
-(
-72
-)
 )
 .
 set

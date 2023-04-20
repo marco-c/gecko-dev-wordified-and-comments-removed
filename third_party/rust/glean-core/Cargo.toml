@@ -123,7 +123,7 @@ version
 "
 52
 .
-3
+2
 .
 0
 "
@@ -328,7 +328,7 @@ version
 "
 0
 .
-10
+9
 .
 0
 "
@@ -565,7 +565,7 @@ version
 "
 0
 .
-10
+9
 .
 0
 "
@@ -573,9 +573,10 @@ features
 =
 [
 "
-auto
--
-color
+termcolor
+"
+"
+atty
 "
 "
 humantime
@@ -683,7 +684,7 @@ version
 "
 0
 .
-12
+11
 .
 0
 "

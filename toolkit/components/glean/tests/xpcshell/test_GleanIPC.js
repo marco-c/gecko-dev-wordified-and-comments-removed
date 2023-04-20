@@ -413,16 +413,8 @@ Glean
 testOnly
 .
 mabelsBathroomCounters
-[
-"
-1
-"
 .
-repeat
-(
-72
-)
-]
+InvalidLabel
 .
 add
 (
