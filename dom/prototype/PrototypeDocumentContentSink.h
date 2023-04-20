@@ -457,7 +457,7 @@ mCurrentScriptProto
 bool
 mOffThreadCompiling
 ;
-char16_t
+Utf8Unit
 *
 mOffThreadCompileStringBuf
 ;

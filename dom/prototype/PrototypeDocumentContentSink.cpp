@@ -3940,7 +3940,7 @@ rv
 ScriptLoader
 :
 :
-ConvertToUTF16
+ConvertToUTF8
 (
 channel
 string
@@ -3962,7 +3962,7 @@ rv
 )
 )
 {
-char16_t
+Utf8Unit
 *
 units
 =
