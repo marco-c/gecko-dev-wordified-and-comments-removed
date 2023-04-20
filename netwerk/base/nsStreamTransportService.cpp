@@ -339,8 +339,6 @@ nsIAsyncOutputStream
 >
 pipeOut
 ;
-rv
-=
 NS_NewPipe2
 (
 getter_AddRefs
@@ -356,16 +354,6 @@ true
 segsize
 segcount
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
 ;
 mInProgress
 =

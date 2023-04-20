@@ -666,8 +666,6 @@ nsIAsyncInputStream
 >
 inputStream
 ;
-rv
-=
 NS_NewPipe2
 (
 getter_AddRefs
@@ -683,16 +681,6 @@ false
 256
 UINT32_MAX
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
 ;
 constexpr
 auto

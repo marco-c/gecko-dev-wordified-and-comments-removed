@@ -3627,8 +3627,6 @@ nsIAsyncOutputStream
 >
 outputStream
 ;
-rv
-=
 NS_NewPipe2
 (
 getter_AddRefs
@@ -3645,12 +3643,6 @@ iconBuffer
 .
 mLen
 1
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 rv
@@ -3892,8 +3884,6 @@ nsIAsyncOutputStream
 >
 outputStream
 ;
-rv
-=
 NS_NewPipe2
 (
 getter_AddRefs
@@ -3908,12 +3898,6 @@ true
 false
 0
 UINT32_MAX
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 using

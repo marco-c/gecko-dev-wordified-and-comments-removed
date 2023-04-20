@@ -1822,9 +1822,6 @@ nsIAsyncOutputStream
 >
 pipeOut
 ;
-nsresult
-rv
-=
 NS_NewPipe2
 (
 getter_AddRefs
@@ -1844,12 +1841,6 @@ nsIFaviconService
 MAX_FAVICON_BUFFER_SIZE
 /
 kSegmentSize
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 pipeIn

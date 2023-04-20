@@ -1892,9 +1892,6 @@ nsIURI
 aURI
 )
 {
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsIInputStream
@@ -1965,9 +1962,6 @@ nsIAsyncOutputStream
 >
 outputStream
 ;
-nsresult
-rv
-=
 NS_NewPipe2
 (
 getter_AddRefs
@@ -1982,12 +1976,6 @@ true
 false
 0
 UINT32_MAX
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 icon
@@ -2222,6 +2210,7 @@ else
 ByteBuf
 bytebuf
 ;
+nsresult
 rv
 =
 GetIcon

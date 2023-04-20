@@ -399,11 +399,6 @@ thread
 "
 )
 ;
-nsresult
-rv
-;
-rv
-=
 NS_NewPipe2
 (
 getter_AddRefs
@@ -426,12 +421,6 @@ UINT32_MAX
 0
 )
 ;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
 mControlEventTarget
 =
 GetCurrentEventTarget
@@ -444,6 +433,7 @@ mControlEventTarget
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+nsresult
 rv
 =
 NS_CreateBackgroundTaskQueue

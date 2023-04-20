@@ -1921,9 +1921,6 @@ segsize
 segcount
 )
 ;
-nsresult
-rv
-=
 NS_NewPipe2
 (
 getter_AddRefs
@@ -1940,17 +1937,6 @@ segsize
 segcount
 )
 ;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-{
-return
-;
-}
 RefPtr
 <
 nsUDPOutputStream
@@ -1965,6 +1951,7 @@ mFD
 prClientAddr
 )
 ;
+nsresult
 rv
 =
 NS_AsyncCopy

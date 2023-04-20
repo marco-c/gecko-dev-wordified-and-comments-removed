@@ -55,7 +55,6 @@ Init
 (
 )
 {
-return
 NS_NewPipe
 (
 getter_AddRefs
@@ -80,6 +79,9 @@ UINT32_MAX
 false
 false
 )
+;
+return
+NS_OK
 ;
 }
 already_AddRefed

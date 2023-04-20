@@ -2543,9 +2543,6 @@ numSegments
 =
 1
 ;
-nsresult
-rv
-=
 NS_NewPipe2
 (
 getter_AddRefs
@@ -2560,11 +2557,6 @@ true
 true
 segmentSize
 numSegments
-)
-;
-ASSERT_NS_SUCCEEDED
-(
-rv
 )
 ;
 nsTArray
@@ -2651,6 +2643,7 @@ InputStreamCallback
 (
 )
 ;
+nsresult
 rv
 =
 async

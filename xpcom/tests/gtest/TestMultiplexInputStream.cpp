@@ -5322,10 +5322,6 @@ nsIAsyncOutputStream
 >
 pipeOut
 ;
-ASSERT_TRUE
-(
-NS_SUCCEEDED
-(
 NS_NewPipe2
 (
 getter_AddRefs
@@ -5338,8 +5334,6 @@ pipeOut
 )
 true
 true
-)
-)
 )
 ;
 TestMultiplexStreamReadWhileWaiting

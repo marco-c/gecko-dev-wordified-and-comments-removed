@@ -1682,8 +1682,6 @@ requestContentLength
 -
 1
 ;
-rv
-=
 NS_NewPipe2
 (
 getter_AddRefs
@@ -1705,16 +1703,6 @@ nsIOService
 :
 gDefaultSegmentCount
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
 ;
 if
 (
