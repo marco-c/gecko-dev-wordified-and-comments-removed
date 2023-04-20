@@ -61,8 +61,13 @@ Services
 .
 clipboard
 .
-supportsFindClipboard
+isClipboardTypeSupported
 (
+Services
+.
+clipboard
+.
+kFindClipboard
 )
 ;
 function

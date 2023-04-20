@@ -108,8 +108,10 @@ _retval
 override
 ;
 NS_IMETHOD
-SupportsFindClipboard
+IsClipboardTypeSupported
 (
+int32_t
+aWhichClipboard
 bool
 *
 _retval

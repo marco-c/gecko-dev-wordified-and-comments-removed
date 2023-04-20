@@ -9900,8 +9900,13 @@ Services
 .
 clipboard
 .
-supportsSelectionClipboard
+isClipboardTypeSupported
 (
+Services
+.
+clipboard
+.
+kSelectionClipboard
 )
 ;
 }

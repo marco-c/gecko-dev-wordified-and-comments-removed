@@ -2025,6 +2025,9 @@ supportsSelectionClipboard
 bool
 supportsFindClipboard
 ;
+bool
+supportsSelectionCache
+;
 }
 ;
 union
