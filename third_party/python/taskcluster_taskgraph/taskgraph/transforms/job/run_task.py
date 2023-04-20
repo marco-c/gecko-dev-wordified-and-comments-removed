@@ -1121,19 +1121,6 @@ exec_cmd
 run_command
 ]
     
-command
-.
-append
-(
-"
--
--
-fetch
--
-hgfingerprint
-"
-)
-    
 if
 run
 [
