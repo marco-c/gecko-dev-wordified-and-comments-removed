@@ -5563,7 +5563,7 @@ code
 const
 char
 *
-name
+icname
 )
 {
 if
@@ -5598,12 +5598,16 @@ desc
 JS_smprintf
 (
 "
-IC
+%
+s
 :
 %
 s
 "
-name
+TierName
+(
+)
+icname
 )
 ;
 if
