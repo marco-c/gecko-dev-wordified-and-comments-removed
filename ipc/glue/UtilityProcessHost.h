@@ -434,6 +434,11 @@ mLaunchPromiseSettled
 false
 ;
 bool
+mLaunchPromiseLaunched
+=
+false
+;
+bool
 mTimerChecked
 =
 false
