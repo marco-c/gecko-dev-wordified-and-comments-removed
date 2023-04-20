@@ -1292,6 +1292,12 @@ ShouldRunEngineUpdateForRequest
 (
 )
 ;
+void
+UpdateSecondaryVideoContainer
+(
+)
+override
+;
 UniquePtr
 <
 ExternalPlaybackEngine
