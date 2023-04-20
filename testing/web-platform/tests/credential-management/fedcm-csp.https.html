@@ -89,6 +89,7 @@ module
 import
 {
 default_request_options
+fedcm_test
 set_fedcm_cookie
 }
 from
@@ -106,18 +107,13 @@ sub
 js
 '
 ;
-promise_test
+fedcm_test
 (
 async
 t
 =
 >
 {
-await
-set_fedcm_cookie
-(
-)
-;
 const
 cred
 =
