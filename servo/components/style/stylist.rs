@@ -8190,8 +8190,15 @@ Component
 :
 Nth
 (
-.
-.
+_
+)
+|
+Component
+:
+:
+NthOf
+(
+_
 )
 =
 >
