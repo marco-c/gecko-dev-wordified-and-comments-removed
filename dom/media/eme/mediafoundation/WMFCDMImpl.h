@@ -76,9 +76,6 @@ namespace
 mozilla
 {
 class
-MFCDMChild
-;
-class
 WMFCDMImpl
 final
 {
