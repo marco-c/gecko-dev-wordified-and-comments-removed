@@ -2162,13 +2162,7 @@ uint8_t
 GetPlatformCMSOutputProfileData
 (
 )
-{
-return
-GetPrefCMSOutputProfileData
-(
-)
 ;
-}
 virtual
 void
 BuildContentDeviceData
@@ -2555,9 +2549,6 @@ ContentDeviceData
 aData
 )
 ;
-public
-:
-static
 nsTArray
 <
 uint8_t
@@ -2566,8 +2557,6 @@ GetPrefCMSOutputProfileData
 (
 )
 ;
-protected
-:
 const
 mozilla
 :

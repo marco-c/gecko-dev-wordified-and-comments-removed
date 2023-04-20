@@ -1477,10 +1477,7 @@ ColorSpace2
 :
 uint8_t
 {
-Display
 UNKNOWN
-=
-Display
 SRGB
 DISPLAY_P3
 BT601_525
@@ -1491,7 +1488,7 @@ BT709
 BT2020
 _First
 =
-Display
+UNKNOWN
 _Last
 =
 BT2020
