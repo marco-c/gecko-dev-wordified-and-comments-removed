@@ -19,7 +19,7 @@ c
 )
 2018
 -
-2019
+2022
 Cosmin
 Truta
 Copyright
@@ -74,10 +74,10 @@ through
 .
 6
 .
-37
+39
 -
-April
-2019
+November
+2022
 Updated
 and
 distributed
@@ -90,7 +90,7 @@ c
 )
 2018
 -
-2019
+2022
 Cosmin
 Truta
 libpng
@@ -13341,7 +13341,7 @@ are
 supported
 the
 major
-ommissions
+omissions
 are
 conversion
 of
