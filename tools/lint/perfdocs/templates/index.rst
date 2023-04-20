@@ -113,10 +113,10 @@ about
 each
 test
 suite
+and
+project
 see
-each
-projects
-'
+their
 documentation
 :
 {

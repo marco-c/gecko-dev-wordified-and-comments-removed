@@ -56,6 +56,9 @@ glob
 DAMP
 awsy
 fxrecord
+mach
+try
+perf
 mozperftest
 raptor
 talos
@@ -116,10 +119,10 @@ about
 each
 test
 suite
+and
+project
 see
-each
-projects
-'
+their
 documentation
 :
 *
@@ -137,6 +140,13 @@ awsy
 doc
 :
 fxrecord
+*
+:
+doc
+:
+mach
+try
+perf
 *
 :
 doc

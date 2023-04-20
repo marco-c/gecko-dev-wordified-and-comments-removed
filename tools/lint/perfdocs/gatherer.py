@@ -68,6 +68,16 @@ awsy
 :
 AwsyGatherer
 }
+ALLOWED_STATIC_FILETYPES
+=
+(
+"
+rst
+"
+"
+png
+"
+)
 class
 Gatherer
 (
@@ -549,13 +559,18 @@ file
 elif
 file
 .
-endswith
+split
 (
 "
 .
-rst
 "
 )
+[
+-
+1
+]
+in
+ALLOWED_STATIC_FILETYPES
 :
                     
 matched
