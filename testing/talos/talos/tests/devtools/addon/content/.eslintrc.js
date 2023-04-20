@@ -36,6 +36,9 @@ true
 require
 :
 true
+dampWindow
+:
+true
 }
 rules
 :
