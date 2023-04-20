@@ -178,10 +178,5 @@ required
 PermissionState
 state
 ;
-boolean
-oneRealm
-=
-false
-;
 }
 ;

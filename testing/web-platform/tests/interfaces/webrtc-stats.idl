@@ -238,6 +238,10 @@ keyFramesDecoded
 ;
 unsigned
 long
+framesRendered
+;
+unsigned
+long
 framesDropped
 ;
 unsigned
@@ -553,6 +557,9 @@ powerEfficientEncoder
 boolean
 active
 ;
+DOMString
+scalabilityMode
+;
 }
 ;
 enum
@@ -693,7 +700,9 @@ totalSamplesDuration
 double
 totalPlayoutDelay
 ;
-double
+unsigned
+long
+long
 totalSamplesCount
 ;
 }

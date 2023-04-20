@@ -4403,7 +4403,7 @@ indeterminate
 ;
 readonly
 attribute
-HTMLElement
+HTMLDataListElement
 ?
 list
 ;

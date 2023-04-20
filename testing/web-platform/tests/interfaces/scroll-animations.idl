@@ -180,15 +180,10 @@ Exposed
 =
 Window
 ]
+partial
 interface
 AnimationTimeline
 {
-readonly
-attribute
-CSSNumberish
-?
-currentTime
-;
 CSSNumericValue
 ?
 getCurrentTime

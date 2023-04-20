@@ -289,12 +289,14 @@ delta
 dictionary
 RTCEncodedVideoFrameMetadata
 {
+unsigned
 long
 long
 frameId
 ;
 sequence
 <
+unsigned
 long
 long
 >
@@ -308,9 +310,11 @@ unsigned
 short
 height
 ;
+unsigned
 long
 spatialIndex
 ;
+unsigned
 long
 temporalIndex
 ;

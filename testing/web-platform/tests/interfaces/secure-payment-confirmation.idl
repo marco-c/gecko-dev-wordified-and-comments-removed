@@ -97,6 +97,9 @@ USVString
 >
 locale
 ;
+boolean
+showOptOut
+;
 }
 ;
 partial
@@ -204,10 +207,13 @@ TransactionAutomationMode
 none
 "
 "
-autoaccept
+autoAccept
 "
 "
-autoreject
+autoReject
+"
+"
+autoOptOut
 "
 }
 ;

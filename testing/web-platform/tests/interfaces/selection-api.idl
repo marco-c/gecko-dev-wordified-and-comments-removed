@@ -133,6 +133,16 @@ empty
 (
 )
 ;
+StaticRange
+getComposedRange
+(
+ShadowRoot
+.
+.
+.
+shadowRoots
+)
+;
 undefined
 collapse
 (
