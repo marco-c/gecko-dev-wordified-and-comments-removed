@@ -161,6 +161,8 @@ projects
 [
 '
 autoland
+-
+only
 '
 ]
 run

@@ -119,6 +119,8 @@ projects
 mozilla
 -
 central
+-
+only
 '
 ]
 worker
