@@ -375,6 +375,11 @@ reader
 .
 read
 (
+new
+Uint8Array
+(
+64
+)
 )
 .
 then
@@ -501,6 +506,11 @@ reader
 .
 read
 (
+new
+Uint8Array
+(
+64
+)
 )
 .
 then
