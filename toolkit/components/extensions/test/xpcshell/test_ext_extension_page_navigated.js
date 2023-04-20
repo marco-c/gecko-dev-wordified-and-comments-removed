@@ -947,7 +947,7 @@ Services
 .
 appinfo
 .
-fissionAutostart
+sessionHistoryInParent
 &
 &
 WebExtensionPolicy
@@ -1548,7 +1548,7 @@ Services
 .
 appinfo
 .
-fissionAutostart
+sessionHistoryInParent
 )
 {
 equal

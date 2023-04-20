@@ -20861,21 +20861,10 @@ True
 sessionHistoryInParent
 "
 :
-self
+not
+options
 .
-extraPrefs
-.
-get
-(
-                    
-"
-fission
-.
-sessionHistoryInParent
-"
-False
-                
-)
+disable_fission
                 
 or
 self
@@ -20887,9 +20876,9 @@ get
 "
 fission
 .
-autostart
+sessionHistoryInParent
 "
-True
+False
 )
                 
 "

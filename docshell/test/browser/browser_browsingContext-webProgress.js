@@ -141,11 +141,15 @@ browser
 browsingContext
 ;
 const
-isFissionAndBfcacheInParentEnabled
+isBfcacheInParentEnabled
 =
 SpecialPowers
 .
-useRemoteSubframes
+Services
+.
+appinfo
+.
+sessionHistoryInParent
 &
 &
 SpecialPowers
@@ -165,7 +169,7 @@ bfcacheInParent
 ;
 if
 (
-isFissionAndBfcacheInParentEnabled
+isBfcacheInParentEnabled
 )
 {
 isnot
@@ -174,8 +178,6 @@ aboutBlankBrowsingContext
 firstPageBrowsingContext
 "
 With
-fission
-and
 bfcache
 in
 parent
@@ -196,8 +198,6 @@ aboutBlankBrowsingContext
 firstPageBrowsingContext
 "
 Without
-fission
-or
 bfcache
 in
 parent
@@ -555,7 +555,7 @@ browsingContext
 ;
 if
 (
-isFissionAndBfcacheInParentEnabled
+isBfcacheInParentEnabled
 )
 {
 isnot
@@ -564,8 +564,6 @@ firstPageBrowsingContext
 secondPageBrowsingContext
 "
 With
-fission
-and
 bfcache
 in
 parent
@@ -586,8 +584,6 @@ firstPageBrowsingContext
 secondPageBrowsingContext
 "
 Without
-fission
-or
 bfcache
 in
 parent
