@@ -389,6 +389,7 @@ AppConstants
 .
 RELEASE_OR_BETA
 ;
+let
 typedArrayClasses
 =
 [
@@ -421,6 +422,7 @@ Uint8ClampedArray
 '
 ]
 ;
+let
 errorObjectClasses
 =
 [
@@ -511,6 +513,7 @@ the
 arguments
 list
 .
+let
 simpleConstructors
 =
 [
@@ -654,6 +657,12 @@ ifr
 contentWindow
 ;
 /
+*
+global
+iwin
+*
+/
+/
 /
 Test
 constructors
@@ -682,7 +691,7 @@ rest
 .
 for
 (
-var
+let
 c
 of
 simpleConstructors
@@ -1109,10 +1118,8 @@ try
 {
 doSetFoo
 (
-new
-Object
-(
-)
+{
+}
 )
 ;
 ok
@@ -2612,7 +2619,7 @@ species
 ;
 for
 (
-var
+let
 c
 of
 typedArrayClasses
@@ -2766,7 +2773,7 @@ test
 ;
 for
 (
-var
+let
 c
 of
 errorObjectClasses
@@ -3519,7 +3526,7 @@ them
 .
 for
 (
-var
+let
 c
 of
 Object
@@ -3539,7 +3546,7 @@ c
 ;
 for
 (
-var
+let
 c
 of
 Object
@@ -5052,6 +5059,7 @@ expandos
 Now
 test
 constructors
+let
 localCtor
 =
 window
@@ -5059,6 +5067,7 @@ window
 classname
 ]
 ;
+let
 xrayCtor
 =
 xrayProto
@@ -7538,6 +7547,21 @@ prop
 expando
 '
 )
+{
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+no
+-
+self
+-
+assign
 trickyObject
 [
 prop
@@ -7548,6 +7572,7 @@ trickyObject
 prop
 ]
 ;
+}
 +
 +
 propCount
@@ -8463,7 +8488,7 @@ constructor
 ;
 for
 (
-var
+let
 c
 of
 typedArrayClasses

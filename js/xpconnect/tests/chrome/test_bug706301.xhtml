@@ -328,13 +328,12 @@ is
 Xray
 wrapped
 .
-ok
+is
 (
 nodelist
-=
-=
-=
-XPCNativeWrapper
+Cu
+.
+unwaiveXrays
 (
 nodelist
 )
@@ -345,9 +344,6 @@ from
 content
 to
 chrome
-"
-+
-"
 should
 be
 Xray
