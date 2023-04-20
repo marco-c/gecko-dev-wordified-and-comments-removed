@@ -204,7 +204,6 @@ private
 SequenceChecker
 sequence_checker_
 ;
-const
 std
 :
 :
