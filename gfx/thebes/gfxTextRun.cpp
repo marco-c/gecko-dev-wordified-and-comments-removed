@@ -12610,7 +12610,12 @@ GetDefaultFont
 ;
 }
 }
-else
+}
+if
+(
+!
+mDefaultFont
+)
 {
 gfxFontEntry
 *
@@ -12655,7 +12660,6 @@ forget
 (
 )
 ;
-}
 }
 }
 }
