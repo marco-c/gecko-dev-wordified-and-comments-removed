@@ -407,6 +407,17 @@ SetSystemHelpMenu
 (
 )
 ;
+nsMenuX
+*
+GetXULWindowMenu
+(
+)
+;
+void
+SetSystemWindowMenu
+(
+)
+;
 nsresult
 Paint
 (

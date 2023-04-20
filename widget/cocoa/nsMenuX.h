@@ -649,6 +649,15 @@ nsIContent
 aMenuContent
 )
 ;
+static
+bool
+IsXULWindowMenu
+(
+nsIContent
+*
+aMenuContent
+)
+;
 void
 SetObserver
 (
