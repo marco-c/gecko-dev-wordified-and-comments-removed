@@ -26,10 +26,16 @@ DIRS
 common
 "
 "
+faulty
+"
+"
 messagemanager
 "
 "
 shmem
+"
+"
+ipc
 "
 ]
 if
@@ -44,9 +50,6 @@ DIRS
 +
 =
 [
-"
-ipc
-"
 "
 nyx
 "
