@@ -565,17 +565,6 @@ type
 )
 ;
 }
-Address
-ToPayload
-(
-Address
-value
-)
-{
-return
-value
-;
-}
 void
 storeValue
 (

@@ -3218,17 +3218,6 @@ Register
 dest
 )
 ;
-Address
-ToPayload
-(
-Address
-value
-)
-{
-return
-value
-;
-}
 template
 <
 typename
