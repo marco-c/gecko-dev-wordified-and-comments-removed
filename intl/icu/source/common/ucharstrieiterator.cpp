@@ -74,7 +74,7 @@ initialRemainingMatchLength_
 )
 skipValue_
 (
-FALSE
+false
 )
 maxLength_
 (
@@ -173,7 +173,7 @@ remainingMatchLength_
 )
 skipValue_
 (
-FALSE
+false
 )
 maxLength_
 (
@@ -327,7 +327,7 @@ initialRemainingMatchLength_
 ;
 skipValue_
 =
-FALSE
+false
 ;
 int32_t
 length
@@ -434,7 +434,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -463,7 +463,7 @@ isEmpty
 )
 {
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -562,7 +562,7 @@ NULL
 )
 {
 return
-TRUE
+true
 ;
 }
 }
@@ -636,7 +636,7 @@ kNodeTypeMask
 ;
 skipValue_
 =
-FALSE
+false
 ;
 }
 else
@@ -718,11 +718,11 @@ pos
 ;
 skipValue_
 =
-TRUE
+true
 ;
 }
 return
-TRUE
+true
 ;
 }
 }
@@ -792,7 +792,7 @@ NULL
 )
 {
 return
-TRUE
+true
 ;
 }
 }

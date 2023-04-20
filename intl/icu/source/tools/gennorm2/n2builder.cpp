@@ -1240,7 +1240,7 @@ isEmpty
 )
 {
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -1260,7 +1260,7 @@ lastStarterIndex
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -1302,7 +1302,7 @@ lastIndex
 )
 {
 return
-FALSE
+false
 ;
 }
 UChar32
@@ -1332,7 +1332,7 @@ starter
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1479,7 +1479,7 @@ nullptr
 )
 {
 return
-TRUE
+true
 ;
 }
 uint8_t
@@ -1529,7 +1529,7 @@ cc
 )
 {
 return
-FALSE
+false
 ;
 }
 UChar32
@@ -1624,7 +1624,7 @@ nullptr
 )
 {
 return
-TRUE
+true
 ;
 }
 }
@@ -1672,7 +1672,7 @@ nullptr
 )
 {
 return
-TRUE
+true
 ;
 }
 prevCC
@@ -1697,7 +1697,7 @@ prevCC
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1714,11 +1714,11 @@ prevCC
 )
 {
 return
-FALSE
+false
 ;
 }
 return
-TRUE
+true
 ;
 }
 UBool
@@ -1746,7 +1746,7 @@ lastStarterIndex
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -1845,7 +1845,7 @@ c
 )
 {
 return
-TRUE
+true
 ;
 }
 else
@@ -1900,7 +1900,7 @@ i
 )
 {
 return
-TRUE
+true
 ;
 }
 starterNorm
@@ -1927,7 +1927,7 @@ cc
 ;
 }
 return
-FALSE
+false
 ;
 }
 void
@@ -3561,7 +3561,7 @@ decomposer
 .
 didDecompose
 =
-FALSE
+false
 ;
 norms
 .

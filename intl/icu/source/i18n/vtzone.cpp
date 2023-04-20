@@ -884,7 +884,7 @@ str
 UBool
 negative
 =
-FALSE
+false
 ;
 int32_t
 digits
@@ -904,7 +904,7 @@ number
 {
 negative
 =
-TRUE
+true
 ;
 number
 *
@@ -1074,7 +1074,7 @@ str
 UBool
 negative
 =
-FALSE
+false
 ;
 int32_t
 digits
@@ -1138,7 +1138,7 @@ number
 {
 negative
 =
-TRUE
+true
 ;
 number
 *
@@ -1450,12 +1450,12 @@ sec
 UBool
 isUTC
 =
-FALSE
+false
 ;
 UBool
 isValid
 =
-FALSE
+false
 ;
 do
 {
@@ -1527,7 +1527,7 @@ break
 }
 isUTC
 =
-TRUE
+true
 ;
 }
 year
@@ -1680,7 +1680,7 @@ break
 }
 isValid
 =
-TRUE
+true
 ;
 }
 while
@@ -1780,7 +1780,7 @@ return
 UBool
 isValid
 =
-FALSE
+false
 ;
 int32_t
 sign
@@ -2196,7 +2196,7 @@ MIN_MILLIS
 UBool
 yearly
 =
-FALSE
+false
 ;
 int32_t
 prop_start
@@ -2214,7 +2214,7 @@ value
 UBool
 nextProp
 =
-TRUE
+true
 ;
 while
 (
@@ -2250,7 +2250,7 @@ prop_start
 ;
 nextProp
 =
-FALSE
+false
 ;
 }
 else
@@ -2350,7 +2350,7 @@ ICAL_YEARLY
 {
 yearly
 =
-TRUE
+true
 ;
 }
 else
@@ -2718,7 +2718,7 @@ dom_end
 UBool
 nextDOM
 =
-TRUE
+true
 ;
 while
 (
@@ -2754,7 +2754,7 @@ length
 ;
 nextDOM
 =
-FALSE
+false
 ;
 }
 if
@@ -3122,7 +3122,7 @@ i
 UBool
 found
 =
-FALSE
+false
 ;
 for
 (
@@ -3154,7 +3154,7 @@ i
 {
 found
 =
-TRUE
+true
 ;
 break
 ;
@@ -3836,7 +3836,7 @@ DateTimeRule
 month
 dayOfMonth
 dayOfWeek
-TRUE
+true
 startMID
 DateTimeRule
 :
@@ -4148,7 +4148,7 @@ getRuleDayOfWeek
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -4168,7 +4168,7 @@ WALL_TIME
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -4199,7 +4199,7 @@ weekInMonth
 )
 {
 return
-TRUE
+true
 ;
 }
 int32_t
@@ -4251,7 +4251,7 @@ weekInMonth
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -4300,7 +4300,7 @@ ruleDOM
 )
 {
 return
-TRUE
+true
 ;
 }
 }
@@ -4339,7 +4339,7 @@ weekInMonth
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -4388,12 +4388,12 @@ ruleDOM
 )
 {
 return
-TRUE
+true
 ;
 }
 }
 return
-FALSE
+false
 ;
 }
 static
@@ -6218,11 +6218,11 @@ url
 tzurl
 ;
 return
-TRUE
+true
 ;
 }
 return
-FALSE
+false
 ;
 }
 void
@@ -6267,11 +6267,11 @@ lastModified
 lastmod
 ;
 return
-TRUE
+true
 ;
 }
 return
-FALSE
+false
 ;
 }
 void
@@ -6847,24 +6847,24 @@ return
 UBool
 eol
 =
-FALSE
+false
 ;
 UBool
 start
 =
-FALSE
+false
 ;
 UBool
 success
 =
-FALSE
+false
 ;
 UnicodeString
 line
 ;
 while
 (
-TRUE
+true
 )
 {
 UChar
@@ -6939,7 +6939,7 @@ return
 }
 success
 =
-TRUE
+true
 ;
 }
 break
@@ -7056,7 +7056,7 @@ ch
 }
 eol
 =
-FALSE
+false
 ;
 }
 else
@@ -7071,7 +7071,7 @@ ch
 {
 eol
 =
-TRUE
+true
 ;
 if
 (
@@ -7130,7 +7130,7 @@ return
 }
 success
 =
-TRUE
+true
 ;
 break
 ;
@@ -7196,11 +7196,11 @@ remove
 ;
 start
 =
-TRUE
+true
 ;
 eol
 =
-FALSE
+false
 ;
 }
 }
@@ -7361,7 +7361,7 @@ n
 UBool
 dst
 =
-FALSE
+false
 ;
 UnicodeString
 from
@@ -7378,7 +7378,7 @@ dtstart
 UBool
 isRRULE
 =
-FALSE
+false
 ;
 int32_t
 initialRawOffset
@@ -7728,7 +7728,7 @@ removeAllElements
 }
 isRRULE
 =
-FALSE
+false
 ;
 from
 .
@@ -7897,7 +7897,7 @@ return
 UBool
 nextDate
 =
-TRUE
+true
 ;
 int32_t
 dstart
@@ -7950,7 +7950,7 @@ status
 ;
 nextDate
 =
-FALSE
+false
 ;
 }
 else
@@ -8472,7 +8472,7 @@ return
 getDefaultTZName
 (
 tzid
-FALSE
+false
 zonename
 )
 ;
@@ -8803,7 +8803,7 @@ r
 getDSTSavings
 (
 )
-FALSE
+false
 start
 )
 ;
@@ -10250,7 +10250,7 @@ mid
 UBool
 hasTransitions
 =
-FALSE
+false
 ;
 TimeZoneTransition
 tzt
@@ -10266,7 +10266,7 @@ isDst
 ;
 while
 (
-TRUE
+true
 )
 {
 tztAvail
@@ -10276,7 +10276,7 @@ basictz
 getNextTransition
 (
 t
-FALSE
+false
 tzt
 )
 ;
@@ -10291,7 +10291,7 @@ break
 }
 hasTransitions
 =
-TRUE
+true
 ;
 t
 =
@@ -10431,7 +10431,7 @@ dom
 UBool
 sameRule
 =
-FALSE
+false
 ;
 const
 AnnualTimeZoneRule
@@ -10571,7 +10571,7 @@ dstCount
 ;
 sameRule
 =
-TRUE
+true
 ;
 }
 if
@@ -10591,12 +10591,12 @@ dstCount
 writeZonePropsByTime
 (
 w
-TRUE
+true
 dstName
 dstFromOffset
 dstToOffset
 dstStartTime
-TRUE
+true
 status
 )
 ;
@@ -10606,7 +10606,7 @@ else
 writeZonePropsByDOW
 (
 w
-TRUE
+true
 dstName
 dstFromOffset
 dstToOffset
@@ -10834,7 +10834,7 @@ stdCount
 ;
 sameRule
 =
-TRUE
+true
 ;
 }
 if
@@ -10854,12 +10854,12 @@ stdCount
 writeZonePropsByTime
 (
 w
-FALSE
+false
 stdName
 stdFromOffset
 stdToOffset
 stdStartTime
-TRUE
+true
 status
 )
 ;
@@ -10869,7 +10869,7 @@ else
 writeZonePropsByDOW
 (
 w
-FALSE
+false
 stdName
 stdFromOffset
 stdToOffset
@@ -10986,7 +10986,7 @@ getOffset
 0
 .
 0
-FALSE
+false
 raw
 dst
 status
@@ -11046,7 +11046,7 @@ offset
 DEF_TZSTARTTIME
 -
 offset
-FALSE
+false
 status
 )
 ;
@@ -11091,12 +11091,12 @@ dstCount
 writeZonePropsByTime
 (
 w
-TRUE
+true
 dstName
 dstFromOffset
 dstToOffset
 dstStartTime
-TRUE
+true
 status
 )
 ;
@@ -11106,7 +11106,7 @@ else
 writeZonePropsByDOW
 (
 w
-TRUE
+true
 dstName
 dstFromOffset
 dstToOffset
@@ -11145,7 +11145,7 @@ dstCount
 writeFinalRule
 (
 w
-TRUE
+true
 finalDstRule
 dstFromOffset
 -
@@ -11177,7 +11177,7 @@ getRule
 writeZonePropsByDOW
 (
 w
-TRUE
+true
 dstName
 dstFromOffset
 dstToOffset
@@ -11195,7 +11195,7 @@ else
 writeZonePropsByDOW
 (
 w
-TRUE
+true
 dstName
 dstFromOffset
 dstToOffset
@@ -11252,7 +11252,7 @@ nextStartAvail
 writeFinalRule
 (
 w
-TRUE
+true
 finalDstRule
 dstFromOffset
 -
@@ -11305,12 +11305,12 @@ stdCount
 writeZonePropsByTime
 (
 w
-FALSE
+false
 stdName
 stdFromOffset
 stdToOffset
 stdStartTime
-TRUE
+true
 status
 )
 ;
@@ -11320,7 +11320,7 @@ else
 writeZonePropsByDOW
 (
 w
-FALSE
+false
 stdName
 stdFromOffset
 stdToOffset
@@ -11359,7 +11359,7 @@ stdCount
 writeFinalRule
 (
 w
-FALSE
+false
 finalStdRule
 stdFromOffset
 -
@@ -11391,7 +11391,7 @@ getRule
 writeZonePropsByDOW
 (
 w
-FALSE
+false
 stdName
 stdFromOffset
 stdToOffset
@@ -11409,7 +11409,7 @@ else
 writeZonePropsByDOW
 (
 w
-FALSE
+false
 stdName
 stdFromOffset
 stdToOffset
@@ -11466,7 +11466,7 @@ nextStartAvail
 writeFinalRule
 (
 w
-FALSE
+false
 finalStdRule
 stdFromOffset
 -
@@ -13053,7 +13053,7 @@ return
 UBool
 modifiedRule
 =
-TRUE
+true
 ;
 const
 DateTimeRule
@@ -13094,7 +13094,7 @@ nullptr
 {
 modifiedRule
 =
-FALSE
+false
 ;
 dtrule
 =

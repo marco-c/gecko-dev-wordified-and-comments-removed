@@ -352,6 +352,8 @@ const
 UVector32
 &
 )
+=
+delete
 ;
 UVector32
 &
@@ -362,6 +364,8 @@ const
 UVector32
 &
 )
+=
+delete
 ;
 public
 :

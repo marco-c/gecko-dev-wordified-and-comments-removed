@@ -1136,7 +1136,7 @@ textLength
 )
 {
 return
-FALSE
+false
 ;
 }
 SYNC_FIXUP
@@ -1537,6 +1537,6 @@ scriptCode
 ;
 }
 return
-TRUE
+true
 ;
 }

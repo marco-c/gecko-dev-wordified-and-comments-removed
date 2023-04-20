@@ -609,7 +609,7 @@ numInvalid
 bool
 hasBOM
 =
-FALSE
+false
 ;
 int32_t
 confidence
@@ -635,7 +635,7 @@ input
 {
 hasBOM
 =
-TRUE
+true
 ;
 }
 for

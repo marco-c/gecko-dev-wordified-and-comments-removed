@@ -557,7 +557,7 @@ x
 )
 ;
 return
-TRUE
+true
 ;
 }
 if
@@ -581,7 +581,7 @@ setToBogus
 )
 ;
 return
-TRUE
+true
 ;
 }
 if
@@ -603,7 +603,7 @@ remove
 )
 ;
 return
-TRUE
+true
 ;
 }
 _currentID
@@ -614,7 +614,7 @@ setToBogus
 ;
 }
 return
-FALSE
+false
 ;
 }
 UBool

@@ -1421,7 +1421,7 @@ Narfalk
 NG
 {
 "
-Najeriya
+Nijeriya
 "
 }
 NI
@@ -2076,6 +2076,13 @@ CG
 "
 Jamhuriyar
 Kongo
+"
+}
+NZ
+{
+"
+Aotearoa
+Nuzilan
 "
 }
 SZ

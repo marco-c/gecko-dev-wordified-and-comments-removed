@@ -134,7 +134,7 @@ c
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -171,7 +171,7 @@ s
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -184,7 +184,7 @@ limit
 ;
 }
 return
-TRUE
+true
 ;
 }
 UBool
@@ -197,7 +197,7 @@ int32_t
 )
 {
 return
-TRUE
+true
 ;
 }
 UChar

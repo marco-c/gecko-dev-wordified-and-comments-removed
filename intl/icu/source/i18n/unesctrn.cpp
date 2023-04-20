@@ -768,7 +768,6 @@ limit
 ;
 int32_t
 i
-j
 ipat
 ;
 while
@@ -780,9 +779,6 @@ limit
 {
 for
 (
-j
-=
-0
 ipat
 =
 0
@@ -795,9 +791,6 @@ ipat
 =
 END
 ;
-+
-+
-j
 )
 {
 int32_t
@@ -861,7 +854,7 @@ start
 UBool
 match
 =
-TRUE
+true
 ;
 for
 (
@@ -904,7 +897,7 @@ exit
 }
 match
 =
-FALSE
+false
 ;
 break
 ;
@@ -937,7 +930,7 @@ i
 {
 match
 =
-FALSE
+false
 ;
 break
 ;
@@ -1103,7 +1096,7 @@ exit
 }
 match
 =
-FALSE
+false
 ;
 break
 ;
@@ -1137,7 +1130,7 @@ i
 {
 match
 =
-FALSE
+false
 ;
 break
 ;

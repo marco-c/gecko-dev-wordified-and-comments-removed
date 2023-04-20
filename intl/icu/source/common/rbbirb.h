@@ -130,6 +130,8 @@ RBBISymbolTableEntry
 &
 other
 )
+=
+delete
 ;
 RBBISymbolTableEntry
 &
@@ -141,6 +143,8 @@ RBBISymbolTableEntry
 &
 other
 )
+=
+delete
 ;
 }
 ;
@@ -462,6 +466,8 @@ RBBIRuleBuilder
 &
 other
 )
+=
+delete
 ;
 RBBIRuleBuilder
 &
@@ -473,6 +479,8 @@ RBBIRuleBuilder
 &
 other
 )
+=
+delete
 ;
 }
 ;

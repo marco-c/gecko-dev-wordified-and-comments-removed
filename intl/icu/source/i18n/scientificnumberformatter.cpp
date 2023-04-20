@@ -136,7 +136,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 for
@@ -182,7 +182,7 @@ status
 U_INVALID_CHAR_FOUND
 ;
 return
-FALSE
+false
 ;
 }
 result
@@ -205,7 +205,7 @@ c
 ;
 }
 return
-TRUE
+true
 ;
 }
 ScientificNumberFormatter

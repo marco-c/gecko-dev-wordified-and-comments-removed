@@ -1135,7 +1135,7 @@ BytesTrieElement
 )
 compareElementStrings
 strings
-FALSE
+false
 &
 errorCode
 )
@@ -1969,7 +1969,7 @@ NULL
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -2038,7 +2038,7 @@ bytesCapacity
 0
 ;
 return
-FALSE
+false
 ;
 }
 uprv_memcpy
@@ -2075,7 +2075,7 @@ newCapacity
 ;
 }
 return
-TRUE
+true
 ;
 }
 int32_t
@@ -2567,7 +2567,7 @@ offset
 writeValueAndFinal
 (
 value
-FALSE
+false
 )
 ;
 }

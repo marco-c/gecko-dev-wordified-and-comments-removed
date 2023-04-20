@@ -2381,7 +2381,7 @@ res
 length
 (
 )
-TRUE
+true
 status
 )
 ;
@@ -2429,7 +2429,7 @@ NULL
 UBool
 allStrings
 =
-TRUE
+true
 ;
 if
 (
@@ -2485,7 +2485,7 @@ isString
 {
 allStrings
 =
-FALSE
+false
 ;
 break
 ;
@@ -2510,7 +2510,7 @@ if
 allStrings
 =
 =
-FALSE
+false
 )
 {
 const
@@ -3366,7 +3366,7 @@ static
 UBool
 start
 =
-TRUE
+true
 ;
 static
 void
@@ -3437,7 +3437,7 @@ if
 start
 =
 =
-FALSE
+false
 )
 {
 write_tabs
@@ -3465,7 +3465,7 @@ tabCount
 }
 start
 =
-FALSE
+false
 ;
 current
 =
@@ -3958,7 +3958,7 @@ className
 ;
 start
 =
-TRUE
+true
 ;
 bName
 =

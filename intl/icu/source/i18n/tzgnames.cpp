@@ -432,7 +432,7 @@ p2
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -450,7 +450,7 @@ NULL
 )
 {
 return
-FALSE
+false
 ;
 }
 return
@@ -828,7 +828,7 @@ tzID
 .
 setTo
 (
-TRUE
+true
 minfo
 -
 >
@@ -982,7 +982,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1198,7 +1198,7 @@ matchLength
 }
 }
 return
-TRUE
+true
 ;
 }
 UVector
@@ -1543,12 +1543,12 @@ status
 )
 fGNamesTrie
 (
-TRUE
+true
 deleteGNameInfo
 )
 fGNamesTrieFullyLoaded
 (
-FALSE
+false
 )
 {
 initialize
@@ -1622,7 +1622,7 @@ return
 UnicodeString
 rpat
 (
-TRUE
+true
 gDefRegionPattern
 -
 1
@@ -1631,7 +1631,7 @@ gDefRegionPattern
 UnicodeString
 fpat
 (
-TRUE
+true
 gDefFallbackPattern
 -
 1
@@ -2039,7 +2039,7 @@ loadStrings
 (
 UnicodeString
 (
-TRUE
+true
 tzID
 -
 1
@@ -2155,7 +2155,7 @@ getGenericLocationName
 (
 UnicodeString
 (
-TRUE
+true
 tzCanonicalID
 -
 1
@@ -2215,7 +2215,7 @@ getGenericLocationName
 (
 UnicodeString
 (
-TRUE
+true
 tzCanonicalID
 -
 1
@@ -2479,7 +2479,7 @@ usCountryCode
 UBool
 isPrimary
 =
-FALSE
+false
 ;
 ZoneMeta
 :
@@ -2842,7 +2842,7 @@ name
 UnicodeString
 tzID
 (
-TRUE
+true
 uID
 -
 1
@@ -2931,7 +2931,7 @@ U_ZERO_ERROR
 UBool
 useStandard
 =
-FALSE
+false
 ;
 int32_t
 raw
@@ -2948,7 +2948,7 @@ tz
 getOffset
 (
 date
-FALSE
+false
 raw
 sav
 status
@@ -2976,7 +2976,7 @@ sav
 {
 useStandard
 =
-TRUE
+true
 ;
 TimeZone
 *
@@ -3077,7 +3077,7 @@ btz
 getPreviousTransition
 (
 date
-TRUE
+true
 before
 )
 ;
@@ -3116,7 +3116,7 @@ getDSTSavings
 {
 useStandard
 =
-FALSE
+false
 ;
 }
 else
@@ -3133,7 +3133,7 @@ btz
 getNextTransition
 (
 date
-FALSE
+false
 after
 )
 ;
@@ -3172,7 +3172,7 @@ getDSTSavings
 {
 useStandard
 =
-FALSE
+false
 ;
 }
 }
@@ -3187,7 +3187,7 @@ getOffset
 date
 -
 kDstCheckRange
-FALSE
+false
 raw
 sav
 status
@@ -3203,7 +3203,7 @@ sav
 {
 useStandard
 =
-FALSE
+false
 ;
 }
 else
@@ -3216,7 +3216,7 @@ getOffset
 date
 +
 kDstCheckRange
-FALSE
+false
 raw
 sav
 status
@@ -3232,7 +3232,7 @@ sav
 {
 useStandard
 =
-FALSE
+false
 ;
 }
 }
@@ -3473,7 +3473,7 @@ date
 raw
 +
 sav
-TRUE
+true
 raw1
 sav1
 status
@@ -3676,7 +3676,7 @@ name
 .
 setTo
 (
-TRUE
+true
 uplname
 -
 1
@@ -4435,7 +4435,7 @@ bestMatchTzID
 UBool
 isStandard
 =
-FALSE
+false
 ;
 if
 (
@@ -4563,7 +4563,7 @@ UTZNM_SHORT_STANDARD
 :
 isStandard
 =
-TRUE
+true
 ;
 bestMatchTimeType
 =
@@ -5051,7 +5051,7 @@ nonConstThis
 >
 fGNamesTrieFullyLoaded
 =
-TRUE
+true
 ;
 }
 }
@@ -5274,7 +5274,7 @@ static
 UBool
 gTZGNCoreCacheInitialized
 =
-FALSE
+false
 ;
 static
 int32_t
@@ -5321,10 +5321,10 @@ NULL
 }
 gTZGNCoreCacheInitialized
 =
-FALSE
+false
 ;
 return
-TRUE
+true
 ;
 }
 static
@@ -5622,7 +5622,7 @@ deleteTZGNCoreRef
 ;
 gTZGNCoreCacheInitialized
 =
-TRUE
+true
 ;
 ucln_i18n_registerCleanup
 (

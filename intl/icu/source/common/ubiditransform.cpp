@@ -399,7 +399,7 @@ pErrorCode
 )
 ;
 return
-FALSE
+false
 ;
 }
 static
@@ -460,7 +460,7 @@ reorderingOptions
 UBIDI_REORDER_DEFAULT
 ;
 return
-TRUE
+true
 ;
 }
 static
@@ -486,7 +486,7 @@ pTransform
 -
 >
 pBidi
-TRUE
+true
 )
 ;
 ubidi_setReorderingMode
@@ -499,7 +499,7 @@ UBIDI_REORDER_INVERSE_LIKE_DIRECT
 )
 ;
 return
-FALSE
+false
 ;
 }
 static
@@ -529,7 +529,7 @@ UBIDI_REORDER_RUNS_ONLY
 )
 ;
 return
-FALSE
+false
 ;
 }
 static
@@ -578,7 +578,7 @@ pTransform
 srcLength
 ;
 return
-TRUE
+true
 ;
 }
 static
@@ -808,7 +808,7 @@ digits
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -925,7 +925,7 @@ pErrorCode
 }
 }
 return
-TRUE
+true
 ;
 }
 static
@@ -967,7 +967,7 @@ UBIDI_DO_MIRRORING
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -989,7 +989,7 @@ pErrorCode
 U_BUFFER_OVERFLOW_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 do
@@ -1069,7 +1069,7 @@ reorderingOptions
 UBIDI_REORDER_DEFAULT
 ;
 return
-TRUE
+true
 ;
 }
 static
@@ -1622,7 +1622,7 @@ destLength
 UBool
 textChanged
 =
-FALSE
+false
 ;
 const
 UBiDiTransform
@@ -1948,7 +1948,7 @@ pErrorCode
 }
 textChanged
 =
-TRUE
+true
 ;
 }
 }
@@ -1958,7 +1958,7 @@ pBiDiTransform
 -
 >
 pBidi
-FALSE
+false
 )
 ;
 if

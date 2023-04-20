@@ -1298,12 +1298,6 @@ compactShort
 )
 ;
 }
-macros
-.
-affixProvider
-=
-nullptr
-;
 }
 macros
 .

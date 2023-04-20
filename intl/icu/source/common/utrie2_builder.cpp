@@ -382,7 +382,7 @@ newTrie
 >
 isCompacted
 =
-FALSE
+false
 ;
 for
 (
@@ -1275,7 +1275,7 @@ trie
 >
 isMemoryOwned
 =
-TRUE
+true
 ;
 uprv_memcpy
 (
@@ -1570,7 +1570,7 @@ trie
 start
 end
 value
-TRUE
+true
 &
 nt
 -
@@ -1592,7 +1592,7 @@ errorCode
 else
 {
 return
-TRUE
+true
 ;
 }
 }
@@ -2058,7 +2058,7 @@ context
 .
 exclusiveLimit
 =
-FALSE
+false
 ;
 context
 .
@@ -2268,7 +2268,7 @@ context
 .
 exclusiveLimit
 =
-TRUE
+true
 ;
 context
 .
@@ -3372,7 +3372,7 @@ trie
 >
 newTrie
 c
-TRUE
+true
 value
 pErrorCode
 )
@@ -3431,7 +3431,7 @@ trie
 >
 newTrie
 c
-FALSE
+false
 value
 pErrorCode
 )
@@ -3720,7 +3720,7 @@ getDataBlock
 (
 newTrie
 start
-TRUE
+true
 )
 ;
 if
@@ -3862,7 +3862,7 @@ i2
 UBool
 setRepeatBlock
 =
-FALSE
+false
 ;
 if
 (
@@ -3879,7 +3879,7 @@ isInNullBlock
 (
 newTrie
 start
-TRUE
+true
 )
 )
 {
@@ -3897,7 +3897,7 @@ getIndex2Block
 (
 newTrie
 start
-TRUE
+true
 )
 ;
 if
@@ -3959,7 +3959,7 @@ UNEWTRIE2_DATA_0800_OFFSET
 {
 setRepeatBlock
 =
-TRUE
+true
 ;
 }
 else
@@ -4015,7 +4015,7 @@ dataNullOffset
 {
 setRepeatBlock
 =
-TRUE
+true
 ;
 }
 if
@@ -4047,7 +4047,7 @@ getDataBlock
 (
 newTrie
 start
-TRUE
+true
 )
 ;
 if
@@ -4097,7 +4097,7 @@ getDataBlock
 (
 newTrie
 start
-TRUE
+true
 )
 ;
 if
@@ -5839,7 +5839,7 @@ trie
 -
 >
 initialValue
-TRUE
+true
 pErrorCode
 )
 ;
@@ -5986,7 +5986,7 @@ newTrie
 >
 isCompacted
 =
-TRUE
+true
 ;
 }
 #
@@ -6342,7 +6342,7 @@ trie
 >
 isMemoryOwned
 =
-TRUE
+true
 ;
 trie
 -

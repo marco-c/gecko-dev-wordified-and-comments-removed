@@ -2248,6 +2248,16 @@ Malwina
 adalary
 "
 }
+NZ
+{
+"
+Aotearoa
+T
+ze
+Zelandi
+a
+"
+}
 SZ
 {
 "

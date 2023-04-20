@@ -266,7 +266,7 @@ radix
 ;
 algorithmic
 =
-FALSE
+false
 ;
 UnicodeString
 defaultDigits
@@ -481,12 +481,12 @@ nullptr
 UBool
 nsResolved
 =
-TRUE
+true
 ;
 UBool
 usingFallback
 =
-FALSE
+false
 ;
 char
 buffer
@@ -598,7 +598,7 @@ gFinance
 {
 nsResolved
 =
-FALSE
+false
 ;
 }
 }
@@ -612,7 +612,7 @@ gDefault
 ;
 nsResolved
 =
-FALSE
+false
 ;
 }
 if
@@ -755,7 +755,7 @@ count
 ;
 nsResolved
 =
-TRUE
+true
 ;
 }
 if
@@ -811,11 +811,11 @@ else
 {
 usingFallback
 =
-TRUE
+true
 ;
 nsResolved
 =
-TRUE
+true
 ;
 }
 }
@@ -1306,8 +1306,8 @@ nullptr
 ;
 UInitOnce
 gNumSysInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 U_CFUNC
 UBool

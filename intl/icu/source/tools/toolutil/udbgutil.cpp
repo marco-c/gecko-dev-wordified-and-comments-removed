@@ -969,7 +969,7 @@ return
 _udbg_enumCount
 (
 type
-FALSE
+false
 )
 ;
 }
@@ -984,7 +984,7 @@ return
 _udbg_enumCount
 (
 type
-TRUE
+true
 )
 ;
 }
@@ -1012,7 +1012,7 @@ field
 _udbg_enumCount
 (
 type
-FALSE
+false
 )
 )
 {
@@ -1086,7 +1086,7 @@ field
 _udbg_enumCount
 (
 type
-FALSE
+false
 )
 )
 {
@@ -1157,7 +1157,7 @@ type
 _udbg_enumCount
 (
 UDBG_UDebugEnumType
-TRUE
+true
 )
 )
 {
@@ -1196,7 +1196,7 @@ field
 _udbg_enumCount
 (
 type
-FALSE
+false
 )
 ;
 field
@@ -1248,7 +1248,7 @@ field
 _udbg_enumCount
 (
 type
-FALSE
+false
 )
 ;
 field
@@ -2200,7 +2200,7 @@ uloc_toLanguageTag
 def
 target
 targetCapacity
-FALSE
+false
 status
 )
 ;
@@ -3247,7 +3247,7 @@ NULL
 *
 firstForTicket
 =
-TRUE
+true
 ;
 fTable
 [
@@ -3290,7 +3290,7 @@ NULL
 *
 firstForTicket
 =
-FALSE
+false
 ;
 }
 if
@@ -3335,7 +3335,7 @@ NULL
 *
 firstForWhere
 =
-TRUE
+true
 ;
 fTable
 [
@@ -3371,7 +3371,7 @@ NULL
 *
 firstForWhere
 =
-FALSE
+false
 ;
 }
 if
@@ -3491,7 +3491,7 @@ NULL
 *
 firstForTicket
 =
-TRUE
+true
 ;
 fTable
 [
@@ -3534,7 +3534,7 @@ NULL
 *
 firstForTicket
 =
-FALSE
+false
 ;
 }
 if
@@ -3579,7 +3579,7 @@ NULL
 *
 firstForWhere
 =
-TRUE
+true
 ;
 fTable
 [
@@ -3615,7 +3615,7 @@ NULL
 *
 firstForWhere
 =
-FALSE
+false
 ;
 }
 if
@@ -3673,7 +3673,7 @@ empty
 )
 {
 return
-FALSE
+false
 ;
 }
 std
@@ -3991,7 +3991,7 @@ endl
 }
 }
 return
-TRUE
+true
 ;
 }
 U_CAPI
@@ -4183,7 +4183,7 @@ NULL
 )
 {
 return
-FALSE
+false
 ;
 }
 else
@@ -4196,7 +4196,7 @@ print
 )
 ;
 return
-TRUE
+true
 ;
 }
 }

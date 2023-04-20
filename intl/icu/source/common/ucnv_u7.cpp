@@ -1434,7 +1434,7 @@ sourceIndex
 ;
 inDirectMode
 =
-FALSE
+false
 ;
 byteIndex
 =
@@ -1550,7 +1550,7 @@ base64Value
 {
 inDirectMode
 =
-TRUE
+true
 ;
 if
 (
@@ -1931,7 +1931,7 @@ else
 {
 inDirectMode
 =
-TRUE
+true
 ;
 if
 (
@@ -2521,7 +2521,7 @@ sourceIndex
 }
 inDirectMode
 =
-FALSE
+false
 ;
 base64Counter
 =
@@ -2597,7 +2597,7 @@ c
 {
 inDirectMode
 =
-TRUE
+true
 ;
 -
 -
@@ -3708,8 +3708,8 @@ UCNV_UTF7
 0
 }
 1
-FALSE
-FALSE
+false
+false
 0
 0
 {
@@ -4180,7 +4180,7 @@ sourceIndex
 ;
 inDirectMode
 =
-FALSE
+false
 ;
 byteIndex
 =
@@ -4269,7 +4269,7 @@ b
 {
 inDirectMode
 =
-TRUE
+true
 ;
 *
 pErrorCode
@@ -4385,7 +4385,7 @@ c
 {
 inDirectMode
 =
-TRUE
+true
 ;
 *
 pErrorCode
@@ -4487,7 +4487,7 @@ c
 {
 inDirectMode
 =
-TRUE
+true
 ;
 *
 pErrorCode
@@ -4584,7 +4584,7 @@ c
 {
 inDirectMode
 =
-TRUE
+true
 ;
 *
 pErrorCode
@@ -4654,7 +4654,7 @@ base64Value
 {
 inDirectMode
 =
-TRUE
+true
 ;
 if
 (
@@ -4774,7 +4774,7 @@ byteIndex
 }
 inDirectMode
 =
-TRUE
+true
 ;
 *
 pErrorCode
@@ -4853,7 +4853,7 @@ byteIndex
 }
 inDirectMode
 =
-TRUE
+true
 ;
 *
 pErrorCode
@@ -5313,7 +5313,7 @@ sourceIndex
 }
 inDirectMode
 =
-FALSE
+false
 ;
 base64Counter
 =
@@ -5383,7 +5383,7 @@ c
 {
 inDirectMode
 =
-TRUE
+true
 ;
 -
 -
@@ -6570,8 +6570,8 @@ UCNV_IMAP_MAILBOX
 0
 }
 1
-FALSE
-FALSE
+false
+false
 0
 0
 {

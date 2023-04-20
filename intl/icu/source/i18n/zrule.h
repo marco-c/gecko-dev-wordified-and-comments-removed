@@ -26,9 +26,6 @@ uobject
 .
 h
 "
-#
-ifndef
-UCNV_H
 struct
 ZRule
 ;
@@ -53,8 +50,6 @@ struct
 AZRule
 AZRule
 ;
-#
-endif
 U_CAPI
 void
 U_EXPORT2

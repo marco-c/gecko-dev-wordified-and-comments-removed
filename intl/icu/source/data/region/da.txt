@@ -490,7 +490,7 @@ Botswana
 BY
 {
 "
-Hviderusland
+Belarus
 "
 }
 BZ
@@ -1369,7 +1369,7 @@ Nicaragua
 NL
 {
 "
-Holland
+Nederlandene
 "
 }
 NO
@@ -2056,6 +2056,14 @@ erne
 Islas
 Malvinas
 )
+"
+}
+NZ
+{
+"
+Aotearoa
+New
+Zealand
 "
 }
 SZ

@@ -2133,6 +2133,15 @@ saared
 )
 "
 }
+NZ
+{
+"
+Aotearoa
+Uus
+-
+Meremaa
+"
+}
 SZ
 {
 "

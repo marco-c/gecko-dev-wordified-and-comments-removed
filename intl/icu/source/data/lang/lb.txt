@@ -4132,6 +4132,15 @@ UK
 )
 "
 }
+en_US
+{
+"
+Englesch
+(
+US
+)
+"
+}
 }
 Scripts
 {

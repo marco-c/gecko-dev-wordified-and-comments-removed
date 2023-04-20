@@ -578,7 +578,7 @@ normalizeSecondAndAppend
 (
 first
 second
-TRUE
+true
 errorCode
 )
 ;
@@ -608,7 +608,7 @@ normalizeSecondAndAppend
 (
 first
 second
-FALSE
+false
 errorCode
 )
 ;
@@ -1055,7 +1055,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 USetSpanCondition
@@ -1132,7 +1132,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 spanCondition
@@ -1146,7 +1146,7 @@ spanLimit
 ;
 }
 return
-TRUE
+true
 ;
 }
 UBool
@@ -1172,7 +1172,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 const
@@ -1257,7 +1257,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 spanCondition
@@ -1277,7 +1277,7 @@ spanLength
 ;
 }
 return
-TRUE
+true
 ;
 }
 UNormalizationCheckResult

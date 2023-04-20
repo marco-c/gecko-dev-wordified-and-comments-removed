@@ -46,7 +46,7 @@ Calendar
 public
 :
 enum
-EEras
+Month
 {
 TISHRI
 HESHVAN
@@ -86,17 +86,6 @@ const
 HebrewCalendar
 &
 source
-)
-;
-HebrewCalendar
-&
-operator
-=
-(
-const
-HebrewCalendar
-&
-right
 )
 ;
 virtual

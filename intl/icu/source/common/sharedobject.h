@@ -61,6 +61,8 @@ const
 UnifiedCacheBase
 &
 )
+=
+delete
 ;
 UnifiedCacheBase
 &
@@ -71,6 +73,8 @@ const
 UnifiedCacheBase
 &
 )
+=
+delete
 ;
 }
 ;

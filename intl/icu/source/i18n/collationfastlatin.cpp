@@ -186,7 +186,7 @@ i
 UBool
 digitsAreReordered
 =
-FALSE
+false
 ;
 if
 (
@@ -389,7 +389,7 @@ afterDigitStart
 {
 digitsAreReordered
 =
-TRUE
+true
 ;
 }
 }

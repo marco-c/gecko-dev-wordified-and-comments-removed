@@ -435,7 +435,7 @@ c
 UBool
 isError
 =
-FALSE
+false
 ;
 U16_APPEND
 (
@@ -4564,18 +4564,18 @@ UCASE_NONE
 )
 {
 return
-TRUE
+true
 ;
 }
 else
 {
 return
-FALSE
+false
 ;
 }
 }
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -4857,7 +4857,7 @@ AFTER_VOWEL_WITH_ACCENT
 UBool
 addTonos
 =
-FALSE
+false
 ;
 if
 (
@@ -4919,7 +4919,7 @@ else
 {
 addTonos
 =
-TRUE
+true
 ;
 }
 }
@@ -4999,7 +4999,7 @@ U_OMIT_UNCHANGED_TEXT
 {
 change
 =
-TRUE
+true
 ;
 }
 else

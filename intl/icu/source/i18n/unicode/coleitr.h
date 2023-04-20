@@ -396,6 +396,8 @@ other
 CollationElementIterator
 (
 )
+=
+delete
 ;
 inline
 int8_t

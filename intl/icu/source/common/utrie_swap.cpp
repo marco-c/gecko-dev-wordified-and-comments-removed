@@ -1823,7 +1823,7 @@ getVersion
 (
 inData
 length
-TRUE
+true
 )
 )
 {

@@ -149,12 +149,12 @@ temp
 )
 ;
 return
-TRUE
+true
 ;
 }
 else
 return
-FALSE
+false
 ;
 }
 U_CAPI

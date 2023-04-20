@@ -1902,9 +1902,7 @@ per
 "
 }
 }
-metric
--
-ton
+milligram
 {
 dnam
 {
@@ -1920,7 +1918,7 @@ other
 "
 }
 }
-milligram
+tonne
 {
 dnam
 {

@@ -75,9 +75,6 @@ uvectr32
 h
 "
 U_NAMESPACE_BEGIN
-struct
-RegexTableEl
-;
 class
 RegexPattern
 ;
@@ -159,12 +156,6 @@ nextChar
 RegexPatternChar
 &
 c
-)
-;
-static
-void
-cleanup
-(
 )
 ;
 enum
@@ -452,11 +443,6 @@ fPeekChar
 RegexPatternChar
 fC
 ;
-RegexTableEl
-*
-*
-fStateTable
-;
 uint16_t
 fStack
 [
@@ -495,9 +481,6 @@ fIntervalLow
 ;
 int32_t
 fIntervalUpper
-;
-int64_t
-fNameStartPos
 ;
 UStack
 fSetStack

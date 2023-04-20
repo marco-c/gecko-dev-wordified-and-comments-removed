@@ -104,7 +104,7 @@ UnicodeSet
 UBool
 gEmptyUnicodeSetInitialized
 =
-FALSE
+false
 ;
 inline
 UnicodeSet
@@ -847,7 +847,7 @@ else
 {
 U_ASSERT
 (
-FALSE
+false
 )
 ;
 }
@@ -874,8 +874,8 @@ icu
 :
 UInitOnce
 gNumberParseUniSetsInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 UBool
 U_CALLCONV
@@ -905,7 +905,7 @@ UnicodeSet
 ;
 gEmptyUnicodeSetInitialized
 =
-FALSE
+false
 ;
 }
 for
@@ -945,7 +945,7 @@ reset
 )
 ;
 return
-TRUE
+true
 ;
 }
 void
@@ -987,7 +987,7 @@ freeze
 ;
 gEmptyUnicodeSetInitialized
 =
-TRUE
+true
 ;
 gUnicodeSets
 [

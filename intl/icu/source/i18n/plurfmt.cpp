@@ -2204,7 +2204,7 @@ keyword
 UnicodeString
 other
 (
-FALSE
+false
 OTHER_STRING
 5
 )
@@ -2212,7 +2212,7 @@ OTHER_STRING
 UBool
 haveKeywordMatch
 =
-FALSE
+false
 ;
 int32_t
 msgStart
@@ -2359,7 +2359,7 @@ other
 {
 haveKeywordMatch
 =
-TRUE
+true
 ;
 }
 }
@@ -2411,7 +2411,7 @@ other
 {
 haveKeywordMatch
 =
-TRUE
+true
 ;
 }
 }
@@ -2437,7 +2437,7 @@ partIndex
 ;
 haveKeywordMatch
 =
-TRUE
+true
 ;
 }
 }

@@ -141,10 +141,10 @@ U_NAMESPACE_BEGIN
 UBool
 beVerbose
 =
-FALSE
+false
 haveCopyright
 =
-TRUE
+true
 ;
 #
 if
@@ -2097,7 +2097,7 @@ reset
 UnicodeString
 mapping
 (
-FALSE
+false
 uchars
 length
 )

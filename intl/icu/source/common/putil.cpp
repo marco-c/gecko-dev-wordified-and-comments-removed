@@ -730,7 +730,7 @@ fakeClock_dt
 UBool
 fakeClock_set
 =
-FALSE
+false
 ;
 static
 UDate
@@ -967,7 +967,7 @@ n
 }
 fakeClock_set
 =
-TRUE
+true
 ;
 }
 umtx_unlock
@@ -4036,7 +4036,7 @@ MAX_READ_SIZE
 UBool
 result
 =
-TRUE
+true
 ;
 if
 (
@@ -4163,7 +4163,7 @@ defaultTZFileSize
 {
 result
 =
-FALSE
+false
 ;
 }
 else
@@ -4291,7 +4291,7 @@ sizeFileRead
 {
 result
 =
-FALSE
+false
 ;
 break
 ;
@@ -4316,7 +4316,7 @@ else
 {
 result
 =
-FALSE
+false
 ;
 }
 if
@@ -5333,7 +5333,7 @@ tzInfo
 >
 defaultTZstatus
 =
-FALSE
+false
 ;
 tzInfo
 -
@@ -5574,8 +5574,8 @@ icu
 :
 UInitOnce
 gDataDirInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 static
 char
@@ -5586,8 +5586,8 @@ NULL
 ;
 UInitOnce
 gTimeZoneFilesInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 static
 CharString
@@ -5714,7 +5714,7 @@ false
 #
 endif
 return
-TRUE
+true
 ;
 }
 U_CAPI
@@ -5890,7 +5890,7 @@ path
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -5903,7 +5903,7 @@ U_FILE_SEP_CHAR
 )
 {
 return
-TRUE
+true
 ;
 }
 #
@@ -5924,7 +5924,7 @@ U_FILE_ALT_SEP_CHAR
 )
 {
 return
-TRUE
+true
 ;
 }
 #
@@ -6004,13 +6004,13 @@ path
 )
 {
 return
-TRUE
+true
 ;
 }
 #
 endif
 return
-FALSE
+false
 ;
 }
 #
@@ -6237,13 +6237,13 @@ ICU_DATA_DIR_WINDOWS
 )
 ;
 return
-TRUE
+true
 ;
 }
 }
 }
 return
-FALSE
+false
 ;
 }
 #

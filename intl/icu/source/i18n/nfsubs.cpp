@@ -785,7 +785,7 @@ const
 override
 {
 return
-TRUE
+true
 ;
 }
 virtual
@@ -3124,7 +3124,7 @@ tempResult
 )
 ;
 return
-TRUE
+true
 ;
 }
 else
@@ -3137,7 +3137,7 @@ setLong
 )
 ;
 return
-FALSE
+false
 ;
 }
 }
@@ -3151,7 +3151,7 @@ isModulusSubstitution
 const
 {
 return
-FALSE
+false
 ;
 }
 SameValueSubstitution
@@ -3601,7 +3601,7 @@ doParse
 (
 text
 parsePosition
-FALSE
+false
 upperBound
 nonNumericalExecutedRuleMask
 result
@@ -3651,7 +3651,7 @@ tempResult
 ;
 }
 return
-TRUE
+true
 ;
 }
 }
@@ -3754,11 +3754,11 @@ status
 )
 byDigits
 (
-FALSE
+false
 )
 useSpaces
 (
-TRUE
+true
 )
 {
 if
@@ -3797,7 +3797,7 @@ getRuleSet
 {
 byDigits
 =
-TRUE
+true
 ;
 if
 (
@@ -3815,7 +3815,7 @@ gGreaterGreaterGreaterThan
 {
 useSpaces
 =
-FALSE
+false
 ;
 }
 }
@@ -3903,7 +3903,7 @@ status
 UBool
 pad
 =
-FALSE
+false
 ;
 for
 (
@@ -3950,7 +3950,7 @@ else
 {
 pad
 =
-TRUE
+true
 ;
 }
 int64_t
@@ -4374,7 +4374,7 @@ result
 )
 ;
 return
-TRUE
+true
 ;
 }
 }
@@ -4878,7 +4878,7 @@ withZeros
 :
 baseValue
 upperBound
-FALSE
+false
 nonNumericalExecutedRuleMask
 result
 )
@@ -4903,11 +4903,6 @@ d
 =
 1
 ;
-int32_t
-pow
-=
-0
-;
 while
 (
 d
@@ -4920,10 +4915,6 @@ d
 *
 =
 10
-;
-+
-+
-pow
 ;
 }
 while
@@ -4960,7 +4951,7 @@ d
 ;
 }
 return
-TRUE
+true
 ;
 }
 bool

@@ -122,7 +122,7 @@ string
 NULL
 ;
 return
-TRUE
+true
 ;
 }
 if
@@ -152,7 +152,7 @@ string
 NULL
 ;
 return
-TRUE
+true
 ;
 }
 if
@@ -163,7 +163,7 @@ nextString
 stringCount
 )
 return
-FALSE
+false
 ;
 codepoint
 =
@@ -193,7 +193,7 @@ nextString
 )
 ;
 return
-TRUE
+true
 ;
 }
 UBool
@@ -231,7 +231,7 @@ endElement
 1
 ;
 return
-TRUE
+true
 ;
 }
 if
@@ -263,7 +263,7 @@ endElement
 1
 ;
 return
-TRUE
+true
 ;
 }
 if
@@ -274,7 +274,7 @@ nextString
 stringCount
 )
 return
-FALSE
+false
 ;
 codepoint
 =
@@ -304,7 +304,7 @@ nextString
 )
 ;
 return
-TRUE
+true
 ;
 }
 void

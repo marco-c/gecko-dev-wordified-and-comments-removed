@@ -2324,7 +2324,7 @@ QAR
 "
 "
 Qatari
-Rial
+Riyal
 "
 }
 RHD
@@ -2534,7 +2534,6 @@ SLE
 "
 Sierra
 Leonean
-New
 Leone
 "
 }
@@ -2547,6 +2546,10 @@ SLL
 Sierra
 Leonean
 Leone
+(
+1964
+2022
+)
 "
 }
 SOS
@@ -7396,14 +7399,14 @@ one
 {
 "
 Qatari
-rial
+riyal
 "
 }
 other
 {
 "
 Qatari
-rials
+riyals
 "
 }
 }
@@ -7758,7 +7761,6 @@ one
 "
 Sierra
 Leonean
-new
 leone
 "
 }
@@ -7767,7 +7769,6 @@ other
 "
 Sierra
 Leonean
-new
 leones
 "
 }
@@ -7780,6 +7781,10 @@ one
 Sierra
 Leonean
 leone
+(
+1964
+2022
+)
 "
 }
 other
@@ -7788,6 +7793,10 @@ other
 Sierra
 Leonean
 leones
+(
+1964
+2022
+)
 "
 }
 }

@@ -221,12 +221,12 @@ length
 )
 {
 return
-TRUE
+true
 ;
 }
 }
 return
-FALSE
+false
 ;
 }
 U_CAPI
@@ -851,7 +851,7 @@ readList
 (
 sourcePath
 addList
-TRUE
+true
 NULL
 )
 )

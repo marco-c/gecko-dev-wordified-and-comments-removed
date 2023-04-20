@@ -4998,6 +4998,18 @@ ec
 "
 Pacific
 :
+Kanton
+"
+{
+ec
+{
+"
+"
+}
+}
+"
+Pacific
+:
 Kiritimati
 "
 {
@@ -6443,6 +6455,7 @@ ld
 lg
 {
 "
+-
 "
 }
 ls

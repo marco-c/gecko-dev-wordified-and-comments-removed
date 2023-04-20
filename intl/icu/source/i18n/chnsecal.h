@@ -454,6 +454,8 @@ const
 ChineseCalendar
 (
 )
+=
+delete
 ;
 }
 ;

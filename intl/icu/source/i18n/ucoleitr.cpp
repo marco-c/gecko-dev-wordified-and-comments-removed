@@ -819,7 +819,7 @@ UCOL_SHIFTED
 ;
 isShifted
 =
-FALSE
+false
 ;
 variableTop
 =
@@ -967,7 +967,7 @@ tertiary
 ;
 isShifted
 =
-TRUE
+true
 ;
 }
 else
@@ -987,7 +987,7 @@ quaternary
 }
 isShifted
 =
-FALSE
+false
 ;
 }
 return

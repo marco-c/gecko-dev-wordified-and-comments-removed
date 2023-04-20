@@ -8,6 +8,13 @@ h
 #
 include
 <
+stdbool
+.
+h
+>
+#
+include
+<
 stdio
 .
 h
@@ -101,7 +108,7 @@ static
 UBool
 gShowWarning
 =
-TRUE
+true
 ;
 U_CFUNC
 void
@@ -130,7 +137,7 @@ static
 UBool
 gStrict
 =
-FALSE
+false
 ;
 U_CFUNC
 UBool
@@ -159,7 +166,7 @@ static
 UBool
 gVerbose
 =
-FALSE
+false
 ;
 U_CFUNC
 UBool

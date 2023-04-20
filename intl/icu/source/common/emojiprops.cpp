@@ -110,8 +110,8 @@ icu
 :
 UInitOnce
 emojiInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 UBool
 U_CALLCONV

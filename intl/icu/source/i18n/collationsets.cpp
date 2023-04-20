@@ -127,7 +127,7 @@ FALLBACK_CE32
 )
 {
 return
-TRUE
+true
 ;
 }
 TailoredSet
@@ -2272,7 +2272,7 @@ FALLBACK_CE32
 )
 {
 return
-TRUE
+true
 ;
 }
 else
@@ -2313,7 +2313,7 @@ start
 )
 {
 return
-TRUE
+true
 ;
 }
 }
@@ -3158,7 +3158,7 @@ UTF16CollationIterator
 iter
 (
 data
-FALSE
+false
 NULL
 NULL
 NULL

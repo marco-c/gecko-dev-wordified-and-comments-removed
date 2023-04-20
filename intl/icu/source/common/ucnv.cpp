@@ -595,7 +595,7 @@ sizeof
 (
 UConverterToUnicodeArgs
 )
-TRUE
+true
 NULL
 NULL
 NULL
@@ -612,7 +612,7 @@ sizeof
 (
 UConverterFromUnicodeArgs
 )
-TRUE
+true
 NULL
 NULL
 NULL
@@ -1020,7 +1020,7 @@ localConverter
 >
 isExtraLocal
 =
-FALSE
+false
 ;
 if
 (
@@ -1252,7 +1252,7 @@ localConverter
 >
 isCopyLocal
 =
-TRUE
+true
 ;
 }
 toUArgs
@@ -1429,7 +1429,7 @@ sizeof
 (
 UConverterToUnicodeArgs
 )
-TRUE
+true
 NULL
 NULL
 NULL
@@ -1486,7 +1486,7 @@ sizeof
 (
 UConverterFromUnicodeArgs
 )
-TRUE
+true
 NULL
 NULL
 NULL
@@ -2328,7 +2328,7 @@ sizeof
 (
 UConverterToUnicodeArgs
 )
-TRUE
+true
 NULL
 NULL
 NULL
@@ -2391,7 +2391,7 @@ sizeof
 (
 UConverterFromUnicodeArgs
 )
-TRUE
+true
 NULL
 NULL
 NULL
@@ -2583,7 +2583,7 @@ _reset
 (
 converter
 UCNV_RESET_BOTH
-TRUE
+true
 )
 ;
 }
@@ -2601,7 +2601,7 @@ _reset
 (
 converter
 UCNV_RESET_TO_UNICODE
-TRUE
+true
 )
 ;
 }
@@ -2619,7 +2619,7 @@ _reset
 (
 converter
 UCNV_RESET_FROM_UNICODE
-TRUE
+true
 )
 ;
 }
@@ -3430,7 +3430,7 @@ NULL
 ;
 realFlush
 =
-FALSE
+false
 ;
 realSourceIndex
 =
@@ -3504,7 +3504,7 @@ pArgs
 >
 flush
 =
-FALSE
+false
 ;
 sourceIndex
 =
@@ -3585,12 +3585,12 @@ else
 {
 converterSawEndOfInput
 =
-FALSE
+false
 ;
 }
 calledCallback
 =
-FALSE
+false
 ;
 errorInputLength
 =
@@ -3759,7 +3759,7 @@ pArgs
 >
 flush
 =
-FALSE
+false
 ;
 if
 (
@@ -3909,7 +3909,7 @@ U_TRUNCATED_CHAR_FOUND
 ;
 calledCallback
 =
-FALSE
+false
 ;
 }
 else
@@ -3935,7 +3935,7 @@ _reset
 (
 cnv
 UCNV_RESET_FROM_UNICODE
-FALSE
+false
 )
 ;
 }
@@ -4153,7 +4153,7 @@ err
 }
 calledCallback
 =
-TRUE
+true
 ;
 }
 }
@@ -4323,7 +4323,7 @@ err
 U_BUFFER_OVERFLOW_ERROR
 ;
 return
-TRUE
+true
 ;
 }
 *
@@ -4383,7 +4383,7 @@ offsets
 ;
 }
 return
-FALSE
+false
 ;
 }
 U_CAPI
@@ -4920,7 +4920,7 @@ NULL
 ;
 realFlush
 =
-FALSE
+false
 ;
 realSourceIndex
 =
@@ -4992,7 +4992,7 @@ pArgs
 >
 flush
 =
-FALSE
+false
 ;
 sourceIndex
 =
@@ -5073,12 +5073,12 @@ else
 {
 converterSawEndOfInput
 =
-FALSE
+false
 ;
 }
 calledCallback
 =
-FALSE
+false
 ;
 errorInputLength
 =
@@ -5245,7 +5245,7 @@ pArgs
 >
 flush
 =
-FALSE
+false
 ;
 if
 (
@@ -5394,7 +5394,7 @@ U_TRUNCATED_CHAR_FOUND
 ;
 calledCallback
 =
-FALSE
+false
 ;
 }
 else
@@ -5420,7 +5420,7 @@ _reset
 (
 cnv
 UCNV_RESET_TO_UNICODE
-FALSE
+false
 )
 ;
 }
@@ -5674,7 +5674,7 @@ UCNV_ILLEGAL
 ;
 calledCallback
 =
-TRUE
+true
 ;
 }
 }
@@ -5840,7 +5840,7 @@ err
 U_BUFFER_OVERFLOW_ERROR
 ;
 return
-TRUE
+true
 ;
 }
 *
@@ -5900,7 +5900,7 @@ offsets
 ;
 }
 return
-FALSE
+false
 ;
 }
 U_CAPI
@@ -6433,7 +6433,7 @@ destLimit
 src
 srcLimit
 0
-TRUE
+true
 pErrorCode
 )
 ;
@@ -6493,7 +6493,7 @@ destLimit
 src
 srcLimit
 0
-TRUE
+true
 pErrorCode
 )
 ;
@@ -6716,7 +6716,7 @@ destLimit
 src
 srcLimit
 0
-TRUE
+true
 pErrorCode
 )
 ;
@@ -6776,7 +6776,7 @@ destLimit
 src
 srcLimit
 0
-TRUE
+true
 pErrorCode
 )
 ;
@@ -7075,7 +7075,7 @@ args
 .
 flush
 =
-TRUE
+true
 ;
 args
 .
@@ -7191,7 +7191,7 @@ _reset
 (
 cnv
 UCNV_RESET_TO_UNICODE
-FALSE
+false
 )
 ;
 return
@@ -8237,7 +8237,7 @@ fromUArgs
 .
 flush
 =
-FALSE
+false
 ;
 fromUArgs
 .
@@ -8624,14 +8624,14 @@ _reset
 (
 sourceCnv
 UCNV_RESET_TO_UNICODE
-FALSE
+false
 )
 ;
 _reset
 (
 targetCnv
 UCNV_RESET_FROM_UNICODE
-FALSE
+false
 )
 ;
 }
@@ -8735,7 +8735,7 @@ fromUArgs
 .
 flush
 =
-TRUE
+true
 ;
 }
 }
@@ -8951,8 +8951,8 @@ pivot2
 pivotBuffer
 +
 CHUNK_SIZE
-FALSE
-TRUE
+false
+true
 pErrorCode
 )
 ;
@@ -9024,8 +9024,8 @@ pivot2
 pivotBuffer
 +
 CHUNK_SIZE
-FALSE
-TRUE
+false
+true
 pErrorCode
 )
 ;
@@ -9528,7 +9528,7 @@ pErrorCode
 return
 ucnv_convertAlgorithmic
 (
-TRUE
+true
 algorithmicType
 cnv
 target
@@ -9568,7 +9568,7 @@ pErrorCode
 return
 ucnv_convertAlgorithmic
 (
-FALSE
+false
 algorithmicType
 cnv
 target
@@ -11185,7 +11185,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -11202,7 +11202,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 switch
@@ -11232,12 +11232,12 @@ case
 UCNV_US_ASCII
 :
 return
-TRUE
+true
 ;
 default
 :
 return
-FALSE
+false
 ;
 }
 }

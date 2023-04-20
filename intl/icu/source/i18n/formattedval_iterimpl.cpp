@@ -86,7 +86,7 @@ const
 return
 UnicodeString
 (
-TRUE
+true
 fString
 .
 getBuffer

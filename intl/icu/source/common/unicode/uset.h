@@ -686,9 +686,6 @@ USet
 set
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 U_CAPI
 UBool
 U_EXPORT2
@@ -700,8 +697,6 @@ USet
 set
 )
 ;
-#
-endif
 U_CAPI
 UBool
 U_EXPORT2
@@ -784,9 +779,6 @@ USet
 set
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 U_CAPI
 int32_t
 U_EXPORT2
@@ -798,8 +790,6 @@ USet
 set
 )
 ;
-#
-endif
 U_CAPI
 int32_t
 U_EXPORT2

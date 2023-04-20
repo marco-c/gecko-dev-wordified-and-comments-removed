@@ -1293,7 +1293,10 @@ OutputFile
 IcuBinOutputDir
 )
 \
-icuuc71
+icuuc
+(
+IcuMajorVersion
+)
 .
 dll
 <
@@ -1523,7 +1526,11 @@ OutputFile
 IcuBinOutputDir
 )
 \
-icuuc71d
+icuuc
+(
+IcuMajorVersion
+)
+d
 .
 dll
 <

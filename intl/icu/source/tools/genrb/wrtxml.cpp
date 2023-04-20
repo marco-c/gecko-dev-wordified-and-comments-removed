@@ -1922,7 +1922,7 @@ else
 UBool
 isError
 =
-FALSE
+false
 ;
 U8_APPEND
 (
@@ -3361,7 +3361,7 @@ res
 >
 fComment
 resname
-TRUE
+true
 status
 )
 ;
@@ -4116,7 +4116,7 @@ res_write_xml
 current
 subId
 language
-FALSE
+false
 status
 )
 ;
@@ -5484,7 +5484,7 @@ res_write_xml
 current
 sid
 language
-FALSE
+false
 status
 )
 ;
@@ -7044,7 +7044,7 @@ bundle
 >
 fLocale
 lang
-TRUE
+true
 status
 )
 ;

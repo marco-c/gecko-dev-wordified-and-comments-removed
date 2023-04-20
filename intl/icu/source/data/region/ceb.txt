@@ -71,8 +71,8 @@ Africa
 003
 {
 "
-Amihanang
-Amerika
+North
+America
 "
 }
 005
@@ -133,8 +133,7 @@ Africa
 019
 {
 "
-Mga
-Amerika
+Americas
 "
 }
 021
@@ -206,7 +205,7 @@ Polynesia
 142
 {
 "
-Asya
+Asia
 "
 }
 143
@@ -584,7 +583,7 @@ Cameroon
 CN
 {
 "
-Tsina
+China
 "
 }
 CO
@@ -648,7 +647,7 @@ Czechia
 DE
 {
 "
-Alemanya
+Germany
 "
 }
 DG
@@ -788,7 +787,7 @@ Islands
 FR
 {
 "
-Pransya
+France
 "
 }
 GA
@@ -2076,6 +2075,14 @@ Islands
 Islas
 Malvinas
 )
+"
+}
+NZ
+{
+"
+Aotearoa
+New
+Zealand
 "
 }
 SZ

@@ -657,6 +657,8 @@ private
 RuleBasedNumberFormat
 (
 )
+=
+delete
 ;
 RuleBasedNumberFormat
 (

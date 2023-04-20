@@ -809,7 +809,6 @@ Monday
 October
 8
 2012
-at
 11
 :
 59
@@ -935,7 +934,6 @@ specified
 time
 "
 yesterday
-at
 5
 :
 00
