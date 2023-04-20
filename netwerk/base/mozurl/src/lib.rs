@@ -54,7 +54,6 @@ interfaces
 :
 {
 mozIThirdPartyUtil
-nsrefcnt
 }
 ;
 use
@@ -566,9 +565,6 @@ url
 &
 MozURL
 )
--
->
-nsrefcnt
 {
 url
 .
@@ -577,6 +573,7 @@ refcnt
 inc
 (
 )
+;
 }
 #
 [
@@ -596,9 +593,6 @@ url
 &
 MozURL
 )
--
->
-nsrefcnt
 {
 let
 rc
@@ -640,7 +634,6 @@ MozURL
 )
 ;
 }
-rc
 }
 unsafe
 impl

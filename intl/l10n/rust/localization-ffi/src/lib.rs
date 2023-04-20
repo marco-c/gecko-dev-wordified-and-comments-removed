@@ -115,7 +115,6 @@ interfaces
 :
 {
 nsIRunnablePriority
-nsrefcnt
 }
 RefCounted
 RefPtr
@@ -2814,9 +2813,6 @@ loc
 &
 LocalizationRc
 )
--
->
-nsrefcnt
 {
 loc
 .
@@ -2825,6 +2821,7 @@ refcnt
 inc
 (
 )
+;
 }
 #
 [
@@ -2845,9 +2842,6 @@ loc
 const
 LocalizationRc
 )
--
->
-nsrefcnt
 {
 let
 rc
@@ -2895,7 +2889,6 @@ LocalizationRc
 )
 ;
 }
-rc
 }
 #
 [
