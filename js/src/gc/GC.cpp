@@ -18194,6 +18194,12 @@ budget
 %
 s
 "
+"
+budgetWasIncreased
+:
+%
+d
+"
 bool
 (
 isIncremental
@@ -18210,6 +18216,7 @@ DescribeBudget
 (
 budget
 )
+budgetWasIncreased
 )
 ;
 #
