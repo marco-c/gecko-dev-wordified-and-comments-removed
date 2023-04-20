@@ -326,15 +326,6 @@ _inputElement
 .
 ownerGlobal
 ;
-if
-(
-this
-.
-_inputElement
-.
-openOrClosedShadowRoot
-)
-{
 dateTimeBoxElement
 .
 dispatchEvent
@@ -363,7 +354,6 @@ win
 )
 )
 ;
-}
 break
 ;
 }
