@@ -5977,17 +5977,6 @@ aParams
 )
 ;
 static
-nsresult
-IsUserIdle
-(
-uint32_t
-aRequestedIdleTimeInMS
-bool
-*
-aUserIsIdle
-)
-;
-static
 void
 GetSelectionInTextControl
 (
