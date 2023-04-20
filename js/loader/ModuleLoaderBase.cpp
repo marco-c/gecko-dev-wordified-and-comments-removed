@@ -5114,6 +5114,10 @@ Shutdown
 (
 )
 {
+CancelAndClearDynamicImports
+(
+)
+;
 MOZ_ASSERT
 (
 mFetchingModules

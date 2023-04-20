@@ -1879,6 +1879,11 @@ mCancelAllPendingRunnables
 ;
 }
 void
+ShutdownModuleLoader
+(
+)
+;
+void
 ClearMainEventQueue
 (
 WorkerRanOrNot
