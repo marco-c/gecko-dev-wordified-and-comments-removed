@@ -4921,7 +4921,7 @@ graph
 outbound_rtp_id
 =
 "
-OV3
+OTTransportName1V3
 "
 ;
 video_media_info
@@ -5005,7 +5005,7 @@ graph
 inbound_rtp_id
 =
 "
-IV4
+ITTransportName1V4
 "
 ;
 video_media_info
@@ -5676,7 +5676,7 @@ graph
 outbound_rtp_id
 =
 "
-OA3
+OTTransportName1A3
 "
 ;
 media_info
@@ -5746,7 +5746,7 @@ graph
 inbound_rtp_id
 =
 "
-IA4
+ITTransportName1A4
 "
 ;
 media_info
@@ -7458,7 +7458,7 @@ inbound_rtps
 size
 (
 )
-2u
+4u
 )
 ;
 EXPECT_EQ
@@ -7468,7 +7468,7 @@ outbound_rtps
 size
 (
 )
-2u
+4u
 )
 ;
 }
@@ -16834,7 +16834,7 @@ RTCInboundRTPStreamStats
 expected_audio
 (
 "
-IA1
+ITTransportName1A1
 "
 report
 -
@@ -17796,7 +17796,7 @@ RTCInboundRTPStreamStats
 expected_video
 (
 "
-IV1
+ITTransportName1V1
 "
 report
 -
@@ -18536,7 +18536,7 @@ RTCOutboundRTPStreamStats
 expected_audio
 (
 "
-OA1
+OTTransportName1A1
 "
 report
 -
@@ -21769,7 +21769,7 @@ RTCOutboundRTPStreamStats
 expected_audio
 (
 "
-OA1
+OTTransportName1A1
 "
 report
 -
@@ -24068,7 +24068,7 @@ expected_remote_inbound_rtp
 local_id
 =
 "
-O
+OTTransportName1
 "
 +
 MediaTypeCharStr
