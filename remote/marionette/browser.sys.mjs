@@ -1500,7 +1500,7 @@ null
 /
 /
 Bug
-1533058
+1795841
 -
 For
 Firefox
@@ -1584,6 +1584,15 @@ window
 .
 BrowserOpenTab
 (
+{
+url
+:
+"
+about
+:
+blank
+"
+}
 )
 ;
 await
