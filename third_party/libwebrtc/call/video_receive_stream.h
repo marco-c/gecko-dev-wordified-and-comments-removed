@@ -941,11 +941,6 @@ std
 string
 sync_group
 ;
-int
-target_delay_ms
-=
-0
-;
 rtc
 :
 :
