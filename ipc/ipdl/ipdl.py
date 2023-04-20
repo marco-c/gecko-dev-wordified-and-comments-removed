@@ -2,10 +2,6 @@ from
 __future__
 import
 print_function
-from
-io
-import
-StringIO
 import
 optparse
 import
@@ -16,6 +12,10 @@ from
 configparser
 import
 RawConfigParser
+from
+io
+import
+StringIO
 import
 ipdl
 def
