@@ -77,13 +77,13 @@ const
 private
 :
 double
-theta_
+estimate_
 [
 2
 ]
 ;
 double
-theta_cov_
+estimate_cov_
 [
 2
 ]
@@ -92,7 +92,7 @@ theta_cov_
 ]
 ;
 double
-q_cov_
+process_noise_cov_
 [
 2
 ]
