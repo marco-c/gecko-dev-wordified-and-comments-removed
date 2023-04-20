@@ -1006,6 +1006,10 @@ kInvalidFileHandle
 bool
 UnsetRemoteExceptionHandler
 (
+bool
+wasSet
+=
+true
 )
 ;
 #
