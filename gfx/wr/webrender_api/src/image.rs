@@ -59,15 +59,6 @@ use
 crate
 :
 :
-display_item
-:
-:
-ImageRendering
-;
-use
-crate
-:
-:
 font
 :
 :
@@ -323,9 +314,6 @@ ExternalImageId
 channel_index
 :
 u8
-rendering
-:
-ImageRendering
 )
 -
 >

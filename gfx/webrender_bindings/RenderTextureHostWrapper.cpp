@@ -153,11 +153,6 @@ gl
 GLContext
 *
 aGL
-wr
-:
-:
-ImageRendering
-aRendering
 )
 {
 if
@@ -180,7 +175,6 @@ Lock
 (
 aChannelIndex
 aGL
-aRendering
 )
 ;
 }

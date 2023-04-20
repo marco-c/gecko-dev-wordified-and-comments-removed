@@ -422,9 +422,6 @@ ExternalImageId
 _channel_index
 :
 u8
-_rendering
-:
-ImageRendering
 )
 -
 >

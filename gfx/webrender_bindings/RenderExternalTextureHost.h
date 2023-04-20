@@ -65,11 +65,6 @@ gl
 GLContext
 *
 aGL
-wr
-:
-:
-ImageRendering
-aRendering
 )
 override
 ;
@@ -251,11 +246,6 @@ aIndex
 void
 UpdateTextures
 (
-wr
-:
-:
-ImageRendering
-aRendering
 )
 ;
 uint8_t

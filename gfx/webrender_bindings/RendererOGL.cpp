@@ -341,11 +341,6 @@ ExternalImageId
 aId
 uint8_t
 aChannelIndex
-wr
-:
-:
-ImageRendering
-aRendering
 )
 {
 RendererOGL
@@ -431,7 +426,6 @@ Lock
 (
 aChannelIndex
 gl
-aRendering
 )
 ;
 }
@@ -464,7 +458,6 @@ renderer
 GetCompositor
 (
 )
-aRendering
 )
 ;
 }

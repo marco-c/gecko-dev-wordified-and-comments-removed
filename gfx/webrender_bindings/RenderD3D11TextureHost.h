@@ -86,11 +86,6 @@ gl
 GLContext
 *
 aGL
-wr
-:
-:
-ImageRendering
-aRendering
 )
 override
 ;
@@ -432,11 +427,6 @@ EnsureD3D11Texture2DWithGL
 bool
 EnsureLockable
 (
-wr
-:
-:
-ImageRendering
-aRendering
 )
 ;
 void
@@ -615,11 +605,6 @@ gl
 GLContext
 *
 aGL
-wr
-:
-:
-ImageRendering
-aRendering
 )
 override
 ;
@@ -877,11 +862,6 @@ RenderDXGIYCbCrTextureHost
 bool
 EnsureLockable
 (
-wr
-:
-:
-ImageRendering
-aRendering
 )
 ;
 void
