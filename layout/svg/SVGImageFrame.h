@@ -254,6 +254,14 @@ ReflowSVG
 )
 override
 ;
+void
+NotifySVGChanged
+(
+uint32_t
+aFlags
+)
+override
+;
 uint16_t
 GetHitTestFlags
 (
