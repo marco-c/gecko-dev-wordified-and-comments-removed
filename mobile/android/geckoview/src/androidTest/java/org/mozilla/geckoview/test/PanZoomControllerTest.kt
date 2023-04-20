@@ -3321,14 +3321,14 @@ input
 result
 should
 be
-UNHANDLED
+HANDLED_CONTENT
 "
 value
 equalTo
 (
 PanZoomController
 .
-INPUT_RESULT_UNHANDLED
+INPUT_RESULT_HANDLED_CONTENT
 )
 )
 }
