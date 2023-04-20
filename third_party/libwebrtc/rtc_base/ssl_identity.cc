@@ -797,11 +797,6 @@ std
 :
 string
 pem_type_str
-=
-std
-:
-:
-string
 (
 pem_type
 )
@@ -933,11 +928,6 @@ std
 :
 string
 inner
-=
-std
-:
-:
-string
 (
 pem_string
 .

@@ -779,11 +779,6 @@ std
 :
 string
 path_str
-=
-std
-:
-:
-string
 (
 path
 )
@@ -1139,11 +1134,6 @@ std
 :
 string
 directory_name_str
-=
-std
-:
-:
-string
 (
 directory_name
 )

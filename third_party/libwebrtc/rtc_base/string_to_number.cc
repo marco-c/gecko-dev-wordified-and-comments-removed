@@ -105,11 +105,6 @@ std
 :
 string
 str_str
-=
-std
-:
-:
-string
 (
 str
 )
@@ -245,11 +240,6 @@ std
 :
 string
 str_str
-=
-std
-:
-:
-string
 (
 str
 )
@@ -507,11 +497,6 @@ std
 :
 string
 str_str
-=
-std
-:
-:
-string
 (
 str
 )

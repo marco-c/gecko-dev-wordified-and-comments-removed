@@ -973,11 +973,6 @@ std
 :
 string
 name_str
-=
-std
-:
-:
-string
 (
 name
 )

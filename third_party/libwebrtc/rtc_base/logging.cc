@@ -1796,7 +1796,7 @@ absl
 :
 :
 string_view
-str
+msg
 LoggingSeverity
 severity
 const
@@ -1817,7 +1817,7 @@ absl
 :
 :
 string_view
-str
+msg
 LoggingSeverity
 severity
 )
@@ -1828,14 +1828,9 @@ std
 :
 :
 string
-str_str
-=
-std
-:
-:
-string
+msg_str
 (
-str
+msg
 )
 ;
 bool
@@ -1944,7 +1939,7 @@ WEBRTC_WIN
 )
 OutputDebugStringA
 (
-str_str
+msg_str
 .
 c_str
 (
@@ -1983,7 +1978,7 @@ written
 WriteFile
 (
 error_handle
-str
+msg
 .
 data
 (
@@ -1993,7 +1988,7 @@ static_cast
 DWORD
 >
 (
-str
+msg
 .
 size
 (
@@ -2068,7 +2063,7 @@ ANDROID_LOG_UNKNOWN
 int
 size
 =
-str
+msg
 .
 size
 (
@@ -2113,7 +2108,7 @@ tag
 s
 "
 size
-str_str
+msg_str
 .
 c_str
 (
@@ -2165,7 +2160,7 @@ line
 1
 max_lines
 len
-str_str
+msg_str
 .
 c_str
 (
@@ -2204,7 +2199,7 @@ stderr
 %
 s
 "
-str_str
+msg_str
 .
 c_str
 (
