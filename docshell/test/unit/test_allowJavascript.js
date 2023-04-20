@@ -1400,6 +1400,12 @@ other
 "
 )
 ;
+bc
+=
+page
+.
+browsingContext
+;
 await
 assertLoadFired
 (
