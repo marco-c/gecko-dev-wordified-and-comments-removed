@@ -2581,6 +2581,12 @@ nsReflowStatus
 aStatus
 )
 ;
+nscoord
+ComputeLineHeight
+(
+)
+const
+;
 bool
 IsFloatingFirstLetterChild
 (

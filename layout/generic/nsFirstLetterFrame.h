@@ -357,6 +357,12 @@ bool
 aIsFluid
 )
 ;
+bool
+UseTightBounds
+(
+)
+const
+;
 protected
 :
 nscoord
