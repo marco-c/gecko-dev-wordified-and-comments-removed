@@ -601,9 +601,7 @@ const
 uintptr_t
 value
 =
-getAtomic
-(
-)
+value_
 ;
 MOZ_ASSERT
 (
