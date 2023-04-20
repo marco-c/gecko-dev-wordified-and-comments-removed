@@ -8334,10 +8334,6 @@ mShouldResistFingerprinting
 (
 false
 )
-mPendingFullscreenRequests
-(
-0
-)
 mXMLDeclarationBits
 (
 0

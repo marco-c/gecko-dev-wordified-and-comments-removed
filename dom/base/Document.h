@@ -13903,9 +13903,6 @@ mShouldResistFingerprinting
 1
 ;
 uint8_t
-mPendingFullscreenRequests
-;
-uint8_t
 mXMLDeclarationBits
 ;
 uint8_t
