@@ -18,6 +18,11 @@ mozmemory
 h
 "
 "
+mozmemory_utils
+.
+h
+"
+"
 mozmemory_wrap
 .
 h
@@ -261,3 +266,11 @@ AllowCompilerWarnings
 REQUIRES_UNIFIED_BUILD
 =
 True
+TEST_DIRS
++
+=
+[
+"
+test
+"
+]
