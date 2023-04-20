@@ -834,6 +834,10 @@ StylePageSizeOrientation
 >
 GetDefaultPageSizeOrientation
 (
+const
+nsAtom
+*
+aFirstPageName
 )
 ;
 void
