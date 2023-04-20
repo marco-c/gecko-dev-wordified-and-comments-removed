@@ -9572,10 +9572,9 @@ JS
 RealmOptions
 &
 aOptions
-bool
-aIsSystemPrincipal
-bool
-aShouldResistFingerprinting
+nsIPrincipal
+*
+aPrincipal
 )
 ;
 bool

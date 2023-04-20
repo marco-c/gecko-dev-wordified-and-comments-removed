@@ -126,8 +126,8 @@ const
 nsAString
 &
 aContentType
-RTPCallerType
-aRTPCallerType
+bool
+aCrossOriginIsolated
 )
 ;
 static

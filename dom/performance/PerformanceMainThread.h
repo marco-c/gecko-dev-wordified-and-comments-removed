@@ -52,6 +52,8 @@ aDOMTiming
 nsITimedChannel
 *
 aChannel
+bool
+aPrincipal
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
