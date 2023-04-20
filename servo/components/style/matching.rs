@@ -3591,7 +3591,7 @@ set_root_font_size
 (
 new_font_size
 .
-size
+computed_size
 (
 )
 .

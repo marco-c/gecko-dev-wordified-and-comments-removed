@@ -439,7 +439,7 @@ clone_font_size
 (
 )
 .
-size
+computed_size
 (
 )
 )
