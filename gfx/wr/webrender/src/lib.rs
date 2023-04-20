@@ -191,6 +191,9 @@ mod
 spatial_tree
 ;
 mod
+command_buffer
+;
+mod
 composite
 ;
 mod
