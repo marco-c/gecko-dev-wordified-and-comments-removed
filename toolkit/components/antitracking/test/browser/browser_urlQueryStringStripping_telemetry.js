@@ -221,6 +221,16 @@ TestUtils
 waitForCondition
 (
 isCleared
+"
+waiting
+for
+query
+stripping
+probes
+to
+be
+cleared
+"
 )
 ;
 }
@@ -294,7 +304,6 @@ async
 function
 getTelemetryProbe
 (
-probeInParent
 key
 label
 checkCntFn
@@ -315,13 +324,6 @@ waitForCondition
 {
 let
 histograms
-;
-if
-(
-probeInParent
-)
-{
-histograms
 =
 Services
 .
@@ -337,26 +339,6 @@ false
 .
 parent
 ;
-}
-else
-{
-histograms
-=
-Services
-.
-telemetry
-.
-getSnapshotForHistograms
-(
-"
-main
-"
-false
-)
-.
-content
-;
-}
 histogram
 =
 histograms
@@ -395,6 +377,24 @@ return
 checkRes
 ;
 }
+waiting
+for
+telemetry
+probe
+(
+key
+=
+{
+key
+}
+label
+=
+{
+label
+}
+)
+to
+appear
 )
 ;
 return
@@ -410,7 +410,6 @@ async
 function
 checkTelemetryProbe
 (
-probeInParent
 key
 expectedCnt
 label
@@ -422,7 +421,6 @@ cnt
 await
 getTelemetryProbe
 (
-probeInParent
 key
 label
 cnt
@@ -549,7 +547,6 @@ browser
 await
 checkTelemetryProbe
 (
-true
 QUERY_STRIPPING_COUNT
 1
 LABEL_STRIP_FOR_NAVIGATION
@@ -558,7 +555,6 @@ LABEL_STRIP_FOR_NAVIGATION
 await
 checkTelemetryProbe
 (
-true
 QUERY_STRIPPING_PARAM_COUNT
 1
 "
@@ -572,7 +568,6 @@ newNavigationCnt
 await
 getTelemetryProbe
 (
-true
 QUERY_STRIPPING_COUNT
 LABEL_NAVIGATION
 cnt
@@ -699,7 +694,6 @@ browser
 await
 checkTelemetryProbe
 (
-false
 QUERY_STRIPPING_COUNT
 1
 LABEL_STRIP_FOR_NAVIGATION
@@ -708,7 +702,6 @@ LABEL_STRIP_FOR_NAVIGATION
 await
 checkTelemetryProbe
 (
-false
 QUERY_STRIPPING_PARAM_COUNT
 1
 "
@@ -722,7 +715,6 @@ newNavigationCnt
 await
 getTelemetryProbe
 (
-false
 QUERY_STRIPPING_COUNT
 LABEL_NAVIGATION
 cnt
@@ -861,7 +853,6 @@ browser
 await
 checkTelemetryProbe
 (
-false
 QUERY_STRIPPING_COUNT
 1
 LABEL_STRIP_FOR_NAVIGATION
@@ -870,7 +861,6 @@ LABEL_STRIP_FOR_NAVIGATION
 await
 getTelemetryProbe
 (
-false
 QUERY_STRIPPING_PARAM_COUNT
 "
 0
@@ -885,7 +875,6 @@ cnt
 await
 getTelemetryProbe
 (
-false
 QUERY_STRIPPING_PARAM_COUNT
 "
 1
@@ -900,7 +889,6 @@ cnt
 await
 getTelemetryProbe
 (
-false
 QUERY_STRIPPING_PARAM_COUNT
 "
 2
@@ -915,7 +903,6 @@ cnt
 await
 getTelemetryProbe
 (
-false
 QUERY_STRIPPING_PARAM_COUNT
 "
 3
@@ -930,7 +917,6 @@ cnt
 await
 getTelemetryProbe
 (
-false
 QUERY_STRIPPING_PARAM_COUNT
 "
 4
@@ -947,7 +933,6 @@ cnt
 await
 getTelemetryProbe
 (
-false
 QUERY_STRIPPING_PARAM_COUNT
 "
 5
@@ -965,7 +950,6 @@ newNavigationCnt
 await
 getTelemetryProbe
 (
-false
 QUERY_STRIPPING_COUNT
 LABEL_NAVIGATION
 cnt
@@ -1095,7 +1079,6 @@ browser
 await
 checkTelemetryProbe
 (
-true
 QUERY_STRIPPING_COUNT
 1
 LABEL_STRIP_FOR_REDIRECT
@@ -1104,7 +1087,6 @@ LABEL_STRIP_FOR_REDIRECT
 await
 checkTelemetryProbe
 (
-true
 QUERY_STRIPPING_COUNT
 1
 LABEL_REDIRECT
@@ -1113,7 +1095,6 @@ LABEL_REDIRECT
 await
 checkTelemetryProbe
 (
-true
 QUERY_STRIPPING_PARAM_COUNT
 1
 "
@@ -1200,7 +1181,6 @@ value
 await
 checkTelemetryProbe
 (
-true
 QUERY_STRIPPING_COUNT
 undefined
 LABEL_STRIP_FOR_NAVIGATION
@@ -1212,7 +1192,6 @@ newNavigationCnt
 await
 getTelemetryProbe
 (
-true
 QUERY_STRIPPING_COUNT
 LABEL_NAVIGATION
 cnt
@@ -1326,7 +1305,6 @@ value
 await
 checkTelemetryProbe
 (
-false
 QUERY_STRIPPING_COUNT
 undefined
 LABEL_STRIP_FOR_NAVIGATION
@@ -1337,7 +1315,6 @@ newNavigationCnt
 await
 getTelemetryProbe
 (
-false
 QUERY_STRIPPING_COUNT
 LABEL_NAVIGATION
 cnt
@@ -1459,7 +1436,6 @@ value
 await
 checkTelemetryProbe
 (
-true
 QUERY_STRIPPING_COUNT
 undefined
 LABEL_STRIP_FOR_REDIRECT
@@ -1468,7 +1444,6 @@ LABEL_STRIP_FOR_REDIRECT
 await
 checkTelemetryProbe
 (
-true
 QUERY_STRIPPING_COUNT
 1
 LABEL_REDIRECT
