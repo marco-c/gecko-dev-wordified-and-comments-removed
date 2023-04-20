@@ -929,6 +929,15 @@ desktop
 "
 )
 ;
+Assert
+.
+ok
+(
+client
+.
+lastModified
+)
+;
 deepEqual
 (
 client
