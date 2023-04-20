@@ -300,9 +300,6 @@ nsGkAtoms
 :
 :
 rel
-HTMLAnchorElement
-:
-:
 sSupportedRelValues
 )
 ;
