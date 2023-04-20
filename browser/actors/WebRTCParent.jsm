@@ -1453,9 +1453,6 @@ top
 .
 embedderElement
 gracePeriodMs
-aPermissionPrincipal
-.
-URI
 )
 ;
 }

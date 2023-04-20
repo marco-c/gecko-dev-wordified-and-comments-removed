@@ -2986,10 +2986,6 @@ SCOPE_TEMPORARY
 this
 .
 browser
-undefined
-this
-.
-temporaryPermissionURI
 )
 ;
 }
@@ -3115,10 +3111,6 @@ SCOPE_TEMPORARY
 this
 .
 browser
-undefined
-this
-.
-temporaryPermissionURI
 )
 ;
 }
