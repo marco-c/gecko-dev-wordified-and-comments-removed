@@ -131,9 +131,7 @@ content
 /
 browser
 /
-FeatureCallout
-.
-sys
+featureCallout
 .
 mjs
 content
