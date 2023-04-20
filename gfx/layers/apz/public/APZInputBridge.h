@@ -77,6 +77,9 @@ ScrollableLayerGuid
 struct
 TargetConfirmationFlags
 ;
+struct
+PointerEventsConsumableFlags
+;
 enum
 class
 APZHandledPlace
@@ -299,7 +302,7 @@ aBlock
 )
 ;
 void
-SetStatusAsConsumeDoDefaultWithTargetConfirmationFlags
+SetStatusForTouchEvent
 (
 const
 InputBlockState
@@ -307,6 +310,8 @@ InputBlockState
 aBlock
 TargetConfirmationFlags
 aFlags
+PointerEventsConsumableFlags
+aConsumableFlags
 const
 AsyncPanZoomController
 &
