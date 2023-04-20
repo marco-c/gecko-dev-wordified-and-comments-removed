@@ -1377,6 +1377,17 @@ dll
 27
 )
 )
+DllBlocklistEntry
+(
+"
+explorerpatcher
+.
+amd64
+.
+dll
+"
+ALL_VERSIONS
+)
 ]
 CHILD_PROCESSES
 +
