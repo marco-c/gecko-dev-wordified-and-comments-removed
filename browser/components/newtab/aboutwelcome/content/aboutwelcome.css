@@ -639,9 +639,9 @@ indicator
 {
 border
 :
-3px
+4px
 solid
-ButtonText
+WindowText
 ;
 }
 .
@@ -10873,7 +10873,7 @@ opacity
 :
 0
 .
-25
+35
 ;
 box
 -

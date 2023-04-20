@@ -460,12 +460,14 @@ welcome
 -
 steps
 -
-indicator2
+indicator
+-
+label
 =
 .
 aria
 -
-valuetext
+label
 =
 Progress
 :
