@@ -721,6 +721,15 @@ Spec
 kNone
 ;
 }
+std
+:
+:
+string
+ToString
+(
+)
+const
+;
 private
 :
 size_t

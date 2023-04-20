@@ -2476,6 +2476,14 @@ rtc_base
 /
 rtc_base
 :
+stringutils
+"
+"
+.
+.
+/
+rtc_base
+:
 threading
 "
 "
