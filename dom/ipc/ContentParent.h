@@ -3305,7 +3305,7 @@ MaybeAsyncSendShutDownMessage
 (
 )
 ;
-void
+bool
 ShutDownProcess
 (
 ShutDownMethod
