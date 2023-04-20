@@ -58,6 +58,9 @@ mozilla
 class
 ErrorResult
 ;
+class
+TaskQueue
+;
 namespace
 dom
 {
@@ -289,6 +292,11 @@ RefPtr
 FileSystemAccessHandleChild
 >
 aActor
+RefPtr
+<
+TaskQueue
+>
+aIOTaskQueue
 nsCOMPtr
 <
 nsIRandomAccessStream
@@ -345,6 +353,12 @@ RefPtr
 FileSystemAccessHandleChild
 >
 mActor
+;
+RefPtr
+<
+TaskQueue
+>
+mIOTaskQueue
 ;
 nsCOMPtr
 <
