@@ -71613,6 +71613,9 @@ aRequest
 mShouldNotifyNewOrigin
 &
 &
+previousFullscreenDoc
+&
+&
 !
 nsContentUtils
 :
