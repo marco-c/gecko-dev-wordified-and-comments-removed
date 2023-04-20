@@ -293,17 +293,10 @@ onlyPointerAlignment
 struct
 FunctionCall
 {
-explicit
 FunctionCall
 (
-uint32_t
-lineOrBytecode
 )
 :
-lineOrBytecode
-(
-lineOrBytecode
-)
 restoreRegisterStateAndRealm
 (
 false
@@ -331,9 +324,6 @@ stackArgAreaSize
 )
 {
 }
-uint32_t
-lineOrBytecode
-;
 WasmABIArgGenerator
 abi
 ;
@@ -470,9 +460,6 @@ stk_
 ;
 bool
 deadCode_
-;
-size_t
-lastReadCallSite_
 ;
 BCESet
 bceSafe_
@@ -4341,12 +4328,6 @@ r0
 )
 ;
 inline
-uint32_t
-readCallSiteLineOrBytecode
-(
-)
-;
-inline
 BytecodeOffset
 bytecodeOffset
 (
@@ -4372,8 +4353,6 @@ throwFrom
 (
 RegRef
 exn
-uint32_t
-lineOrBytecode
 )
 ;
 void
@@ -5986,8 +5965,6 @@ nodiscard
 bool
 emitInstanceCall
 (
-uint32_t
-lineOrBytecode
 const
 SymbolicAddressSignature
 &
@@ -6186,8 +6163,6 @@ type
 MemoryAccessDesc
 *
 access
-uint32_t
-lineOrBytecode
 )
 ;
 [
@@ -6211,8 +6186,6 @@ atomicWake
 MemoryAccessDesc
 *
 access
-uint32_t
-lineOrBytecode
 )
 ;
 [
@@ -6270,8 +6243,6 @@ nodiscard
 bool
 memCopyCall
 (
-uint32_t
-lineOrBytecode
 )
 ;
 void
@@ -6319,8 +6290,6 @@ nodiscard
 bool
 memFillCall
 (
-uint32_t
-lineOrBytecode
 )
 ;
 void
