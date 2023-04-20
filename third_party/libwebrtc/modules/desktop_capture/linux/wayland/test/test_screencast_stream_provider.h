@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_DESKTOP_CAPTURE_LINUX_WAYLAND_TEST_FAKE_SCREENCAST_STREAM_H_
+MODULES_DESKTOP_CAPTURE_LINUX_WAYLAND_TEST_TEST_SCREENCAST_STREAM_PROVIDER_H_
 #
 define
-MODULES_DESKTOP_CAPTURE_LINUX_WAYLAND_TEST_FAKE_SCREENCAST_STREAM_H_
+MODULES_DESKTOP_CAPTURE_LINUX_WAYLAND_TEST_TEST_SCREENCAST_STREAM_PROVIDER_H_
 #
 include
 <
@@ -67,7 +67,7 @@ namespace
 webrtc
 {
 class
-FakeScreenCastStream
+TestScreenCastStreamProvider
 {
 public
 :
@@ -76,6 +76,14 @@ Observer
 {
 public
 :
+virtual
+void
+OnBufferAdded
+(
+)
+=
+0
+;
 virtual
 void
 OnFrameRecorded
@@ -129,7 +137,7 @@ default
 }
 ;
 explicit
-FakeScreenCastStream
+TestScreenCastStreamProvider
 (
 Observer
 *
@@ -141,7 +149,7 @@ height
 )
 ;
 ~
-FakeScreenCastStream
+TestScreenCastStreamProvider
 (
 )
 ;

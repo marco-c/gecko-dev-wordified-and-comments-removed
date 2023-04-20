@@ -665,7 +665,7 @@ wayland
 /
 test
 /
-fake_screencast_stream
+test_screencast_stream_provider
 .
 cc
 "
@@ -676,7 +676,7 @@ wayland
 /
 test
 /
-fake_screencast_stream
+test_screencast_stream_provider
 .
 h
 "
