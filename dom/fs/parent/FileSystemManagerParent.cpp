@@ -906,6 +906,7 @@ move
 stream
 )
 )
+nullptr
 )
 ;
 auto

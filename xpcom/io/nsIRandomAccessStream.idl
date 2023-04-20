@@ -16,6 +16,9 @@ interface
 nsIInputStream
 ;
 interface
+nsIInterfaceRequestor
+;
+interface
 nsIOutputStream
 ;
 %
@@ -118,6 +121,9 @@ nostdcall
 RandomAccessStreamParams
 serialize
 (
+in
+nsIInterfaceRequestor
+aCallbacks
 )
 ;
 [

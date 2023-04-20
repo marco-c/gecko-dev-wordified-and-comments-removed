@@ -71,13 +71,7 @@ Path
 )
 const
 override
-{
-return
-EmptyString
-(
-)
 ;
-}
 [
 [
 nodiscard

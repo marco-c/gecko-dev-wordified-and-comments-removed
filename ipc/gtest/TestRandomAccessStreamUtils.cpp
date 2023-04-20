@@ -591,6 +591,7 @@ streamParams
 SerializeRandomAccessStream
 (
 stream
+nullptr
 )
 ;
 ASSERT_TRUE
@@ -763,6 +764,7 @@ move
 stream
 )
 )
+nullptr
 )
 ;
 ASSERT_EQ
@@ -1005,6 +1007,7 @@ streamParams
 SerializeRandomAccessStream
 (
 stream
+nullptr
 )
 ;
 ASSERT_TRUE

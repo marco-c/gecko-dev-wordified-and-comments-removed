@@ -13,6 +13,9 @@ class
 nsCOMPtr
 ;
 class
+nsIInterfaceRequestor
+;
+class
 nsIRandomAccessStream
 ;
 namespace
@@ -61,6 +64,9 @@ nsIRandomAccessStream
 >
 >
 aStream
+nsIInterfaceRequestor
+*
+aCallbacks
 )
 ;
 Maybe
@@ -74,6 +80,9 @@ nsCOMPtr
 nsIRandomAccessStream
 >
 aStream
+nsIInterfaceRequestor
+*
+aCallbacks
 )
 ;
 Result
