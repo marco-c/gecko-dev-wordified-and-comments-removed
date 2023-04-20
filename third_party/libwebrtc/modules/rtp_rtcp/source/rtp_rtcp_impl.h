@@ -301,12 +301,6 @@ ModuleRtpRtcpImpl
 )
 override
 ;
-int64_t
-TimeUntilNextProcess
-(
-)
-override
-;
 void
 Process
 (
@@ -1342,9 +1336,6 @@ last_bitrate_process_time_
 ;
 int64_t
 last_rtt_process_time_
-;
-int64_t
-next_process_time_
 ;
 uint16_t
 packet_overhead_

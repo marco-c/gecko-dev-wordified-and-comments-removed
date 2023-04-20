@@ -2984,12 +2984,6 @@ rtp_rtcp_format
 .
 .
 :
-module_api
-"
-"
-.
-.
-:
 module_fec_api
 "
 "
