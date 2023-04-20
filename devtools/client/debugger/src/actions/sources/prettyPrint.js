@@ -556,8 +556,6 @@ selectSource
 (
 cx
 prettySource
-.
-id
 )
 )
 ;

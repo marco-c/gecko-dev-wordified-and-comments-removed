@@ -1721,8 +1721,6 @@ originalBaseSources
 [
 0
 ]
-.
-id
 )
 )
 ;
@@ -1929,8 +1927,6 @@ baseSources
 [
 0
 ]
-.
-id
 )
 )
 ;

@@ -520,8 +520,6 @@ selectSource
 (
 cx
 source
-.
-id
 )
 )
 ;

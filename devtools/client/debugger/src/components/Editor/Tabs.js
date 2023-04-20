@@ -847,8 +847,6 @@ selectSource
 (
 cx
 source
-.
-id
 )
 ;
 return

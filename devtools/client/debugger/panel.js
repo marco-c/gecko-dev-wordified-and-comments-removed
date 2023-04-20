@@ -1392,11 +1392,7 @@ selectSource
 (
 cx
 source
-.
-id
 sourceActor
-.
-id
 )
 ;
 }
