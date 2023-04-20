@@ -3,7 +3,7 @@ promise_test
 t
 =
 >
-workerBlobFetchTest
+sharedWorkerBlobFetchTest
 (
 t
 {
@@ -47,7 +47,7 @@ promise_test
 t
 =
 >
-workerBlobFetchTest
+sharedWorkerBlobFetchTest
 (
 t
 {
@@ -103,7 +103,7 @@ promise_test
 t
 =
 >
-workerBlobFetchTest
+sharedWorkerBlobFetchTest
 (
 t
 {
@@ -168,7 +168,7 @@ promise_test
 t
 =
 >
-workerBlobFetchTest
+sharedWorkerBlobFetchTest
 (
 t
 {
@@ -212,7 +212,7 @@ promise_test
 t
 =
 >
-workerBlobFetchTest
+sharedWorkerBlobFetchTest
 (
 t
 {
@@ -268,7 +268,7 @@ promise_test
 t
 =
 >
-workerBlobFetchTest
+sharedWorkerBlobFetchTest
 (
 t
 {
@@ -333,7 +333,7 @@ promise_test
 t
 =
 >
-workerBlobFetchTest
+sharedWorkerBlobFetchTest
 (
 t
 {
@@ -389,7 +389,7 @@ promise_test
 t
 =
 >
-workerBlobFetchTest
+sharedWorkerBlobFetchTest
 (
 t
 {
@@ -454,7 +454,7 @@ promise_test
 t
 =
 >
-workerBlobFetchTest
+sharedWorkerBlobFetchTest
 (
 t
 {
@@ -498,7 +498,7 @@ promise_test
 t
 =
 >
-workerBlobFetchTest
+sharedWorkerBlobFetchTest
 (
 t
 {
@@ -550,7 +550,7 @@ promise_test
 t
 =
 >
-workerBlobFetchTest
+sharedWorkerBlobFetchTest
 (
 t
 {
@@ -581,7 +581,7 @@ preflight
 :
 PreflightBehavior
 .
-optionalSuccess
+success
 (
 token
 (
@@ -615,7 +615,7 @@ promise_test
 t
 =
 >
-workerBlobFetchTest
+sharedWorkerBlobFetchTest
 (
 t
 {
@@ -678,7 +678,7 @@ promise_test
 t
 =
 >
-workerBlobFetchTest
+sharedWorkerBlobFetchTest
 (
 t
 {
@@ -750,7 +750,7 @@ promise_test
 t
 =
 >
-workerBlobFetchTest
+sharedWorkerBlobFetchTest
 (
 t
 {
