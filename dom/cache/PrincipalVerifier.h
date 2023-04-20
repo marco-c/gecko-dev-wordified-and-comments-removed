@@ -54,7 +54,7 @@ namespace
 dom
 {
 class
-ContentParent
+ThreadsafeContentParentHandle
 ;
 namespace
 cache
@@ -205,9 +205,9 @@ mListenerList
 ;
 RefPtr
 <
-ContentParent
+ThreadsafeContentParentHandle
 >
-mActor
+mHandle
 ;
 const
 mozilla
