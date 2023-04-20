@@ -2406,6 +2406,13 @@ GetEndTime
 ToMicroseconds
 (
 )
+VideoQueue
+(
+)
+.
+GetSize
+(
+)
 )
 ;
 }
