@@ -31,11 +31,6 @@ sys
 .
 mjs
 "
-{
-loadInDevToolsLoader
-:
-false
-}
 )
 ;
 loader
