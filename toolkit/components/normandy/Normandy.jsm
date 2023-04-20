@@ -558,6 +558,8 @@ race
 this
 .
 uiAvailableNotificationObserved
+.
+promise
 new
 Promise
 (
