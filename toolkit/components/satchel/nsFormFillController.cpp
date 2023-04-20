@@ -72,6 +72,17 @@ mozilla
 /
 dom
 /
+HTMLDataListElement
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLInputElement
 .
 h

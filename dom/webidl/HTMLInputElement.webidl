@@ -418,7 +418,7 @@ Pure
 ]
 readonly
 attribute
-HTMLElement
+HTMLDataListElement
 ?
 list
 ;
