@@ -1317,6 +1317,9 @@ htonl
 INADDR_LOOPBACK
 )
 ;
+#
+ifndef
+MOZ_PROXY_BYPASS_PROTECTION
 char
 hostname
 [
@@ -1382,6 +1385,8 @@ inaddr
 )
 ;
 }
+#
+endif
 mozilla
 :
 :
