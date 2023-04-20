@@ -369,7 +369,7 @@ toolbox
 .
 win
 .
-windowUtils
+browsingContext
 .
 fullZoom
 ;
