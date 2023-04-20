@@ -4464,11 +4464,6 @@ nsILoadInfo
 :
 :
 HTTPS_ONLY_DO_NOT_LOG_TO_CONSOLE
-|
-nsILoadInfo
-:
-:
-HTTPS_ONLY_BYPASS_ORB
 ;
 loadInfo
 -
