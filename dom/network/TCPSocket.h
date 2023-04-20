@@ -636,6 +636,11 @@ CalculateBufferedAmount
 )
 ;
 void
+ActivateTLSHelper
+(
+)
+;
+void
 ActivateTLS
 (
 )
