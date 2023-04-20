@@ -35,6 +35,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+IPCForwards
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -120,6 +131,7 @@ friend
 class
 ObjectStoreMetadata
 ;
+ALLOW_DEPRECATED_READPARAM
 KeyPath
 (
 )

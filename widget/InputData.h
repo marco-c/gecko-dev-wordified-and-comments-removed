@@ -119,6 +119,17 @@ TextEvents
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ipc
+/
+IPCForwards
+.
+h
+"
 template
 <
 class
@@ -652,6 +663,7 @@ layers
 :
 PAPZInputBridgeParent
 ;
+ALLOW_DEPRECATED_READPARAM
 MouseInput
 (
 )
@@ -801,6 +813,7 @@ layers
 :
 PAPZInputBridgeParent
 ;
+ALLOW_DEPRECATED_READPARAM
 PanGestureInput
 (
 )
@@ -1120,6 +1133,7 @@ layers
 :
 PAPZInputBridgeParent
 ;
+ALLOW_DEPRECATED_READPARAM
 PinchGestureInput
 (
 )
@@ -1278,6 +1292,7 @@ layers
 :
 PAPZInputBridgeParent
 ;
+ALLOW_DEPRECATED_READPARAM
 TapGestureInput
 (
 )
@@ -1381,6 +1396,7 @@ layers
 :
 PAPZInputBridgeParent
 ;
+ALLOW_DEPRECATED_READPARAM
 typedef
 mozilla
 :
@@ -1716,6 +1732,7 @@ layers
 :
 PAPZInputBridgeParent
 ;
+ALLOW_DEPRECATED_READPARAM
 KeyboardInput
 (
 )

@@ -164,6 +164,11 @@ IPCCore
 h
 "
 "
+IPCForwards
+.
+h
+"
+"
 IPCStreamUtils
 .
 h
@@ -230,11 +235,6 @@ h
 "
 "
 ProtocolUtils
-.
-h
-"
-"
-ProtocolUtilsFwd
 .
 h
 "

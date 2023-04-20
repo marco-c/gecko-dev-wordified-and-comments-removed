@@ -999,8 +999,15 @@ ErrorResult
 aRv
 )
 {
-StyleComputedTimingFunction
+auto
 timingFunction
+=
+StyleComputedTimingFunction
+:
+:
+LinearKeyword
+(
+)
 ;
 if
 (
