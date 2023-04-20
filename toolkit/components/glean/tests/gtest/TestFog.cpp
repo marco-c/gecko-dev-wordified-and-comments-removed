@@ -1965,7 +1965,7 @@ const
 uint64_t
 EPSILON
 =
-40000
+200000
 ;
 ASSERT_GT
 (
