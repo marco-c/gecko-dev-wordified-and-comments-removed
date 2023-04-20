@@ -206,7 +206,7 @@ mOriginStackJSON
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mSyncLoopTarget
 ;
@@ -296,7 +296,7 @@ UniquePtr
 SerializedStackHolder
 >
 aOriginStack
-nsIEventTarget
+nsISerialEventTarget
 *
 aSyncLoopTarget
 WorkerScriptType
