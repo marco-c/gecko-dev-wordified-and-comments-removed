@@ -55,9 +55,9 @@ title
 )
 ;
 await
-PlacesTestUtils
+PlacesFrecencyRecalculator
 .
-promiseAsyncUpdates
+recalculateAnyOutdatedFrecencies
 (
 )
 ;
@@ -86,9 +86,9 @@ guid
 )
 ;
 await
-PlacesTestUtils
+PlacesFrecencyRecalculator
 .
-promiseAsyncUpdates
+recalculateAnyOutdatedFrecencies
 (
 )
 ;

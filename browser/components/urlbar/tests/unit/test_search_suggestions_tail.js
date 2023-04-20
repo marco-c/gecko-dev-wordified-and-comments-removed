@@ -1057,6 +1057,13 @@ is
 }
 )
 ;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 const
 query
 =

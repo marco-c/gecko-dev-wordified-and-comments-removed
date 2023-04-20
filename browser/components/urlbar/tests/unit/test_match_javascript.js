@@ -238,6 +238,13 @@ javascript
 ]
 )
 ;
+await
+PlacesFrecencyRecalculator
+.
+recalculateAnyOutdatedFrecencies
+(
+)
+;
 info
 (
 "

@@ -2485,9 +2485,9 @@ unfiledGuid
 )
 ;
 await
-PlacesTestUtils
+PlacesFrecencyRecalculator
 .
-promiseAsyncUpdates
+recalculateAnyOutdatedFrecencies
 (
 )
 ;
@@ -2980,9 +2980,9 @@ unfiledGuid
 )
 ;
 await
-PlacesTestUtils
+PlacesFrecencyRecalculator
 .
-promiseAsyncUpdates
+recalculateAnyOutdatedFrecencies
 (
 )
 ;
