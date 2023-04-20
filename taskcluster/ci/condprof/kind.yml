@@ -466,11 +466,9 @@ command
 python3
 .
 7
-virtualenv
-/
-virtualenv
-.
-py
+-
+m
+venv
 .
 &
 &
