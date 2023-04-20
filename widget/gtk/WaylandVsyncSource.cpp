@@ -1361,10 +1361,13 @@ NS_IsMainThread
 )
 )
 ;
+{
 RefPtr
-(
+window
+=
 mWindow
-)
+;
+window
 -
 >
 NotifyOcclusionState
@@ -1375,6 +1378,7 @@ OcclusionState
 VISIBLE
 )
 ;
+}
 MutexAutoLock
 lock
 (
