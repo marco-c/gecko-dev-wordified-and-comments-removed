@@ -127,7 +127,6 @@ nsTableRowGroupFrame
 (
 )
 ;
-virtual
 void
 Init
 (
@@ -172,7 +171,6 @@ GetWritingMode
 ;
 }
 }
-virtual
 void
 DestroyFrom
 (
@@ -185,7 +183,6 @@ aPostDestroyData
 )
 override
 ;
-virtual
 void
 DidSetComputedStyle
 (
@@ -229,7 +226,6 @@ aFrameList
 )
 override
 ;
-virtual
 void
 RemoveFrame
 (
@@ -241,7 +237,6 @@ aOldFrame
 )
 override
 ;
-virtual
 nsMargin
 GetUsedMargin
 (
@@ -249,7 +244,6 @@ GetUsedMargin
 const
 override
 ;
-virtual
 nsMargin
 GetUsedBorder
 (
@@ -257,7 +251,6 @@ GetUsedBorder
 const
 override
 ;
-virtual
 nsMargin
 GetUsedPadding
 (
@@ -265,7 +258,6 @@ GetUsedPadding
 const
 override
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -279,7 +271,6 @@ aLists
 )
 override
 ;
-virtual
 void
 Reflow
 (
@@ -314,7 +305,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -681,7 +671,6 @@ return
 this
 ;
 }
-virtual
 bool
 IsFrameOfType
 (
@@ -724,7 +713,6 @@ eTablePart
 )
 ;
 }
-virtual
 void
 InvalidateFrame
 (
@@ -739,7 +727,6 @@ true
 )
 override
 ;
-virtual
 void
 InvalidateFrameWithRect
 (
@@ -758,7 +745,6 @@ true
 )
 override
 ;
-virtual
 void
 InvalidateFrameForRemoval
 (
@@ -999,12 +985,18 @@ private
 :
 BCPixelSize
 mIEndContBorderWidth
+=
+0
 ;
 BCPixelSize
 mBEndContBorderWidth
+=
+0
 ;
 BCPixelSize
 mIStartContBorderWidth
+=
+0
 ;
 public
 :

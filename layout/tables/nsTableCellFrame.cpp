@@ -832,8 +832,10 @@ if
 !
 aOldComputedStyle
 )
+{
 return
 ;
+}
 #
 ifdef
 ACCESSIBILITY

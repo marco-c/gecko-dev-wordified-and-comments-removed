@@ -7248,8 +7248,10 @@ if
 !
 aOldComputedStyle
 )
+{
 return
 ;
+}
 nsTableFrame
 *
 tableFrame

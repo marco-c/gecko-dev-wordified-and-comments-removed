@@ -241,7 +241,6 @@ GetTableFrame
 )
 ;
 }
-virtual
 void
 Init
 (
@@ -257,7 +256,6 @@ aPrevInFlow
 )
 override
 ;
-virtual
 void
 DestroyFrom
 (
@@ -273,7 +271,6 @@ override
 #
 ifdef
 ACCESSIBILITY
-virtual
 mozilla
 :
 :
@@ -288,7 +285,6 @@ override
 ;
 #
 endif
-virtual
 nsresult
 AttributeChanged
 (
@@ -302,7 +298,6 @@ aModType
 )
 override
 ;
-virtual
 void
 DidSetComputedStyle
 (
@@ -349,7 +344,6 @@ aFrameList
 )
 override
 ;
-virtual
 void
 RemoveFrame
 (
@@ -363,7 +357,6 @@ override
 ;
 #
 endif
-virtual
 nsContainerFrame
 *
 GetContentInsertionFrame
@@ -386,7 +379,6 @@ GetContentInsertionFrame
 )
 ;
 }
-virtual
 nsMargin
 GetUsedMargin
 (
@@ -394,7 +386,6 @@ GetUsedMargin
 const
 override
 ;
-virtual
 void
 NotifyPercentBSize
 (
@@ -405,7 +396,6 @@ aReflowInput
 )
 override
 ;
-virtual
 bool
 NeedsToObserve
 (
@@ -416,7 +406,6 @@ aReflowInput
 )
 override
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -446,7 +435,6 @@ nsDisplayListSet
 aLists
 )
 ;
-virtual
 nscoord
 GetMinISize
 (
@@ -456,7 +444,6 @@ aRenderingContext
 )
 override
 ;
-virtual
 nscoord
 GetPrefISize
 (
@@ -476,7 +463,6 @@ NS_UNCONSTRAINEDSIZE
 )
 override
 ;
-virtual
 void
 Reflow
 (
@@ -499,7 +485,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -841,7 +826,6 @@ aOverflowAreas
 )
 override
 ;
-virtual
 bool
 IsFrameOfType
 (
@@ -880,7 +864,6 @@ eTablePart
 )
 ;
 }
-virtual
 void
 InvalidateFrame
 (
@@ -895,7 +878,6 @@ true
 )
 override
 ;
-virtual
 void
 InvalidateFrameWithRect
 (
@@ -914,7 +896,6 @@ true
 )
 override
 ;
-virtual
 void
 InvalidateFrameForRemoval
 (
@@ -1146,7 +1127,6 @@ nsBCTableCellFrame
 (
 )
 ;
-virtual
 nsMargin
 GetUsedBorder
 (
@@ -1154,7 +1134,6 @@ GetUsedBorder
 const
 override
 ;
-virtual
 LogicalMargin
 GetBorderWidth
 (
@@ -1181,7 +1160,6 @@ BCPixelSize
 aPixelValue
 )
 ;
-virtual
 nsMargin
 GetBorderOverflow
 (
@@ -1191,7 +1169,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -1204,7 +1181,6 @@ override
 ;
 #
 endif
-virtual
 ImgDrawResult
 PaintBackground
 (
