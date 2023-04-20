@@ -388,6 +388,15 @@ mjs
 "
 tests
 /
+BackgroundTask_no_output
+.
+sys
+.
+mjs
+"
+"
+tests
+/
 BackgroundTask_not_ephemeral_profile
 .
 sys

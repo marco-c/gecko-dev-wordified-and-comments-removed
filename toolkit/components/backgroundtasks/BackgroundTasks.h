@@ -209,6 +209,16 @@ aName
 )
 ;
 static
+bool
+IsNoOutputTaskName
+(
+const
+nsCString
+&
+aName
+)
+;
+static
 nsCString
 GetProfilePrefix
 (
