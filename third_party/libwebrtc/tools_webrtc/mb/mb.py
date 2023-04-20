@@ -604,26 +604,9 @@ tombstones
 ]
     
 elif
-is_fuchsia
-:
-      
-cmdline
-+
-=
-[
-'
-bin
-/
-run_
-%
-s
-'
-%
-target
-]
-    
-elif
 is_ios
+or
+is_fuchsia
 :
       
 cmdline
