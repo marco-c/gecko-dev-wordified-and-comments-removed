@@ -1127,7 +1127,7 @@ TM
 (
 llvm
 -
-symbolizer
+sym
 -
 aarch64
 -
