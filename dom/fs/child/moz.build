@@ -42,6 +42,11 @@ FileSystemAccessHandleControlChild
 cpp
 "
 "
+FileSystemAsyncCopy
+.
+cpp
+"
+"
 FileSystemBackgroundRequestHandler
 .
 cpp

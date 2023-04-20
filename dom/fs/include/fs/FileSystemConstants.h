@@ -30,6 +30,14 @@ root
 "
 _ns
 ;
+constexpr
+uint32_t
+kStreamCopyBlockSize
+=
+1024
+*
+1024
+;
 }
 #
 endif
