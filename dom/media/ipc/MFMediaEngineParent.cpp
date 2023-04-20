@@ -1880,6 +1880,7 @@ aInfo
 videoInfo
 (
 )
+mManagerThread
 )
 )
 IPC_OK
