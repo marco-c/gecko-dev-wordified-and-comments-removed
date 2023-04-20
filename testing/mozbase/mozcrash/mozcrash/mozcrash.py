@@ -1434,18 +1434,13 @@ is
 None
 :
             
-possible_names
+executable_name
 =
-[
 "
 minidump
 -
 stackwalk
 "
-"
-minidump_stackwalk
-"
-]
             
 state_dir
 =
@@ -1484,12 +1479,6 @@ mozbuild
             
 )
             
-for
-possible_name
-in
-possible_names
-:
-                
 stackwalk_binary
 =
 os
@@ -1499,10 +1488,10 @@ path
 join
 (
 state_dir
-possible_name
-possible_name
+executable_name
+executable_name
 )
-                
+            
 if
 mozinfo
 .
@@ -1519,7 +1508,7 @@ exe
 "
 )
 :
-                    
+                
 stackwalk_binary
 +
 =
@@ -1527,7 +1516,7 @@ stackwalk_binary
 .
 exe
 "
-                
+            
 if
 os
 .
@@ -1538,14 +1527,12 @@ exists
 stackwalk_binary
 )
 :
-                    
+                
 self
 .
 brief_output
 =
 True
-                    
-break
         
 self
 .
@@ -2136,10 +2123,6 @@ signature
 =
 None
         
-include_stderr
-=
-False
-        
 out
 =
 None
@@ -2195,52 +2178,6 @@ X_OK
 )
 :
             
-stackwalk_version_check
-=
-subprocess
-.
-Popen
-(
-                
-[
-self
-.
-stackwalk_binary
-"
--
-V
-"
-]
-                
-stdout
-=
-subprocess
-.
-DEVNULL
-                
-stderr
-=
-subprocess
-.
-DEVNULL
-            
-)
-            
-stackwalk_version_check
-.
-wait
-(
-)
-            
-rust_minidump
-=
-stackwalk_version_check
-.
-returncode
-=
-=
-0
-            
 command
 =
 [
@@ -2283,10 +2220,6 @@ org
 "
 )
             
-if
-rust_minidump
-:
-                
 command
 .
 append
@@ -2297,13 +2230,13 @@ append
 human
 "
 )
-                
+            
 if
 self
 .
 brief_output
 :
-                    
+                
 command
 .
 append
@@ -2577,13 +2510,6 @@ ABORT_SUBSTRINGS
 break
                         
 break
-            
-else
-:
-                
-include_stderr
-=
-True
         
 else
 :
@@ -2844,10 +2770,6 @@ signature
 out
             
 err
-if
-include_stderr
-else
-None
             
 retcode
             
