@@ -4178,12 +4178,6 @@ IPDL
 to
 communicate
 .
-.
-.
-_launcher
--
-process
-:
 Launcher
 Process
 -
