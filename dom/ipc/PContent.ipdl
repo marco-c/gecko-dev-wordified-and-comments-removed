@@ -2609,6 +2609,15 @@ size
 ;
 }
 ;
+union
+IPCDataTransferOrError
+{
+IPCDataTransfer
+;
+nsresult
+;
+}
+;
 /
 *
 *
@@ -6962,7 +6971,7 @@ aWhichClipboard
 )
 returns
 (
-IPCDataTransfer
+IPCDataTransferOrError
 dataTransfer
 )
 ;
