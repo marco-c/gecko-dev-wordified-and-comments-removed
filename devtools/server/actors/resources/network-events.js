@@ -294,6 +294,9 @@ lazy
 .
 NetworkObserver
 (
+{
+ignoreChannelFunction
+:
 this
 .
 shouldIgnoreChannel
@@ -302,6 +305,8 @@ bind
 (
 this
 )
+onNetworkEvent
+:
 this
 .
 onNetworkEvent
@@ -310,6 +315,7 @@ bind
 (
 this
 )
+}
 )
 ;
 Services
