@@ -118,7 +118,6 @@ short
 -
 enums
 CXXFLAGS
-stlport_cppflags
 "
 ASFLAGS
 =

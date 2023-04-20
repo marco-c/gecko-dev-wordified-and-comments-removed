@@ -156,6 +156,12 @@ I
 -
 isystem
 "
+"
+-
+-
+sysroot
+=
+"
 )
 )
 or
