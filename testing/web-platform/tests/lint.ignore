@@ -13975,9 +13975,7 @@ tests
 /
 print
 /
-printcmd
-.
-py
+*
 PRINT
 STATEMENT
 :
@@ -13985,11 +13983,13 @@ webdriver
 /
 tests
 /
+bidi
+/
+browsing_context
+/
 print
 /
-user_prompts
-.
-py
+*
 DUPLICATE
 -
 BASENAME
