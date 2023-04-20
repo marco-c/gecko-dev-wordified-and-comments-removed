@@ -1753,7 +1753,11 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
+Result
+<
+InsertTextResult
 nsresult
+>
 ReplaceTextWithTransaction
 (
 dom
@@ -3737,7 +3741,7 @@ nodiscard
 MOZ_CAN_RUN_SCRIPT
 Result
 <
-EditorDOMPoint
+CaretPoint
 nsresult
 >
 DeleteTextAndNormalizeSurroundingWhiteSpaces
