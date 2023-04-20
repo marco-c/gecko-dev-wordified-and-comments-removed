@@ -347,15 +347,6 @@ openAboutWelcome
 )
 {
 await
-pushPrefs
-(
-[
-MR_TEMPLATE_PREF
-false
-]
-)
-;
-await
 setAboutWelcomePref
 (
 true
