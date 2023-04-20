@@ -417,6 +417,16 @@ return
 mPath
 ;
 }
+Maybe
+<
+Rect
+>
+AsRect
+(
+)
+const
+override
+;
 private
 :
 friend
