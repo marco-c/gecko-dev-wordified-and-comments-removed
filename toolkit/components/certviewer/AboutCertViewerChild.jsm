@@ -14,7 +14,7 @@ RemotePageChild
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -27,7 +27,9 @@ actors
 /
 RemotePageChild
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

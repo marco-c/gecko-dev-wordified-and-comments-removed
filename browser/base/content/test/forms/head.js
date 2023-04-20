@@ -180,7 +180,7 @@ SelectContentHelper
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -193,7 +193,9 @@ actors
 /
 SelectChild
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

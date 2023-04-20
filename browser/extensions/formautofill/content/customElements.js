@@ -23,7 +23,7 @@ AutoCompleteParent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -36,7 +36,9 @@ actors
 /
 AutoCompleteParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

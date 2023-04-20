@@ -556,7 +556,7 @@ PrintingParent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -569,7 +569,9 @@ actors
 /
 PrintingParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
