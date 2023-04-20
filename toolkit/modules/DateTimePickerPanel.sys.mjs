@@ -78,7 +78,7 @@ this
 TIME_PICKER_WIDTH
 =
 "
-12em
+13em
 "
 ;
 this
@@ -86,7 +86,7 @@ this
 TIME_PICKER_HEIGHT
 =
 "
-21em
+22em
 "
 ;
 this
@@ -94,9 +94,7 @@ this
 DATE_PICKER_WIDTH
 =
 "
-23
-.
-1em
+24em
 "
 ;
 this
@@ -104,7 +102,7 @@ this
 DATE_PICKER_HEIGHT
 =
 "
-24em
+25em
 "
 ;
 }
