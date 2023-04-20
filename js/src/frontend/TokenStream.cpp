@@ -9759,9 +9759,6 @@ TokenStreamCharsShared
 :
 copyCharBufferTo
 (
-JSContext
-*
-cx
 UniquePtr
 <
 char16_t
@@ -10199,11 +10196,6 @@ true
 return
 copyCharBufferTo
 (
-anyCharsAccess
-(
-)
-.
-cx
 destination
 )
 ;
