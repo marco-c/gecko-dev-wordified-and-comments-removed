@@ -1374,6 +1374,10 @@ Length
 )
 )
 ;
+profiler_stop
+(
+)
+;
 }
 [
 result
@@ -1430,6 +1434,10 @@ Throwable
 >
 (
 )
+)
+;
+profiler_stop
+(
 )
 ;
 }
