@@ -12102,7 +12102,7 @@ jni_generator_helper
 h
 "
 }
-junit_binary
+robolectric_binary
 (
 "
 android_sdk_junit_tests

@@ -6182,7 +6182,7 @@ androidx_annotation_annotation_java
 "
 ]
 }
-junit_binary
+robolectric_binary
 (
 "
 android_examples_junit_tests
