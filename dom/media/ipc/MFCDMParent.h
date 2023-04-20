@@ -61,6 +61,9 @@ namespace
 mozilla
 {
 class
+MFCDMProxy
+;
+class
 MFCDMParent
 final
 :
@@ -297,6 +300,14 @@ IsOnCurrentThread
 )
 ;
 }
+already_AddRefed
+<
+MFCDMProxy
+>
+GetMFCDMProxy
+(
+)
+;
 void
 Destroy
 (
