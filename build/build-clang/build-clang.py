@@ -1786,6 +1786,18 @@ DCAN_TARGET_i386
 1
 "
 ]
+            
+cmake_args
++
+=
+[
+"
+-
+DLLVM_ENABLE_TERMINFO
+=
+OFF
+"
+]
         
 if
 is_windows
