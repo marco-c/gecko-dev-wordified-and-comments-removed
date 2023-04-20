@@ -144,11 +144,6 @@ WindowsDllBlocklistCommon
 .
 h
 "
-"
-WindowsDllBlocklistInfo
-.
-h
-"
 ]
 EXPORTS
 .
@@ -158,11 +153,6 @@ glue
 +
 =
 [
-"
-SharedSection
-.
-h
-"
 "
 WindowsDllServices
 .

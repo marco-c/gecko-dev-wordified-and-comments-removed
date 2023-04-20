@@ -1,13 +1,3 @@
-.
-.
-_third
--
-party
--
-modules
--
-ping
-:
 "
 third
 -

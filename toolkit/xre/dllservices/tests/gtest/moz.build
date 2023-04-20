@@ -139,9 +139,6 @@ TestDllBlocklist_NoOpEntryPoint
 TestDllBlocklist_SocketProcessOnly
 "
 "
-TestDllBlocklist_UserBlocked
-"
-"
 TestDllBlocklist_UtilityProcessOnly
 "
 "
