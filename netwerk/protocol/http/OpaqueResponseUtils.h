@@ -207,17 +207,6 @@ nsHttpResponseHead
 aResponseHead
 )
 ;
-void
-LogORBError
-(
-nsILoadInfo
-*
-aLoadInfo
-nsIURI
-*
-aURI
-)
-;
 class
 OpaqueResponseBlocker
 final
@@ -274,7 +263,7 @@ HttpBaseChannel
 *
 aChannel
 nsresult
-aReason
+aStatus
 )
 ;
 nsresult

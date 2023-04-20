@@ -2459,6 +2459,15 @@ nsITransportSecurityInfo
 aSecurityInfo
 )
 ;
+void
+LogORBError
+(
+const
+nsAString
+&
+aReason
+)
+;
 public
 :
 int64_t
@@ -3175,6 +3184,10 @@ const
 void
 BlockOpaqueResponseAfterSniff
 (
+const
+nsAString
+&
+aReason
 )
 ;
 void
