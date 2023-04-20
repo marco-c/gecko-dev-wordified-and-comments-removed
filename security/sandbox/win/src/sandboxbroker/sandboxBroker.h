@@ -423,14 +423,6 @@ ApplyLoggingPolicy
 private
 :
 static
-sandbox
-:
-:
-BrokerServices
-*
-sBrokerService
-;
-static
 bool
 sRunningFromNetworkDrive
 ;
