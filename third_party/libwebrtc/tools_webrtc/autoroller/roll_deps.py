@@ -187,6 +187,16 @@ parallel
 '
 src
 /
+third_party
+/
+jdk
+/
+extras
+'
+    
+'
+src
+/
 tools
 '
 ]
