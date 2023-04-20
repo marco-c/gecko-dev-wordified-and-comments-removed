@@ -612,15 +612,6 @@ GetDocumentElement
 )
 ;
 }
-enum
-class
-StyleDifference
-{
-Ignore
-CompareIfElements
-CompareIfSpanElements
-}
-;
 static
 bool
 CanContentsBeJoined
@@ -633,8 +624,6 @@ const
 nsIContent
 &
 aRightContent
-StyleDifference
-aStyleDifference
 )
 ;
 static
