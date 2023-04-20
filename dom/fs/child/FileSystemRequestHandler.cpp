@@ -658,7 +658,7 @@ FileSystemWritableFileStream
 const
 FileSystemEntryMetadata
 &
-aFile
+aMetadata
 RefPtr
 <
 FileSystemManager
@@ -667,10 +667,9 @@ FileSystemManager
 aManager
 )
 {
-RefPtr
-<
-FileSystemWritableFileStreamChild
->
+auto
+*
+const
 actor
 =
 static_cast
@@ -695,12 +694,12 @@ result
 FileSystemWritableFileStream
 :
 :
-MaybeCreate
+Create
 (
 aGlobal
 aManager
-aFile
 actor
+aMetadata
 )
 ;
 return
