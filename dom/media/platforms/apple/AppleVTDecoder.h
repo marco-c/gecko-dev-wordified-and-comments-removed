@@ -441,6 +441,13 @@ const
 gfx
 :
 :
+ColorSpace2
+mColorPrimaries
+;
+const
+gfx
+:
+:
 TransferFunction
 mTransferFunction
 ;
