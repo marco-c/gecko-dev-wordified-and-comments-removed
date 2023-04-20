@@ -269,7 +269,7 @@ WebRTC
 -
 Audio
 -
-AgcMinMicLevelExperiment
+2ndAgcMinMicLevelExperiment
 "
 ;
 if
@@ -3681,6 +3681,11 @@ min_mic_level_override_
 has_value
 (
 )
+&
+&
+stream_analog_level_
+>
+0
 )
 {
 stream_analog_level_
