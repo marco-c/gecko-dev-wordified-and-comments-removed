@@ -8,13 +8,6 @@ h
 #
 include
 "
-mozIDOMWindow
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
