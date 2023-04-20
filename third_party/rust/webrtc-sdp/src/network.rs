@@ -65,10 +65,6 @@ IP4
 }
 "
 ipv4
-.
-to_string
-(
-)
 )
 IpAddr
 :
@@ -89,10 +85,6 @@ IP6
 }
 "
 ipv6
-.
-to_string
-(
-)
 )
 }
 }
