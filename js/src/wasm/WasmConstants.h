@@ -2586,6 +2586,13 @@ MaxVarU32DecodedBytes
 ;
 enum
 class
+OptimizedBackend
+{
+Ion
+}
+;
+enum
+class
 CompileMode
 {
 Once

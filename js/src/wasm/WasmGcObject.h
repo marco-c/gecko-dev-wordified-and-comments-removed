@@ -107,12 +107,10 @@ create
 JSContext
 *
 cx
-const
 wasm
 :
 :
 TypeHandle
-&
 handle
 )
 ;
@@ -151,12 +149,10 @@ rttCanon
 JSContext
 *
 cx
-const
 wasm
 :
 :
 TypeHandle
-&
 handle
 )
 ;

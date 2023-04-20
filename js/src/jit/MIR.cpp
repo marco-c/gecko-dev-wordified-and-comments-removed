@@ -40962,13 +40962,12 @@ calls
 ;
 resultType
 =
+ToMIRType
+(
 results
 [
 0
 ]
-.
-toMIRType
-(
 )
 ;
 }

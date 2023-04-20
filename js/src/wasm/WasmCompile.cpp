@@ -1869,6 +1869,8 @@ CompileMode
 mode
 Tier
 tier
+OptimizedBackend
+optimizedBackend
 DebugEnabled
 debugEnabled
 )
@@ -1884,6 +1886,10 @@ mode
 tier_
 (
 tier
+)
+optimizedBackend_
+(
+optimizedBackend
 )
 debug_
 (
@@ -2103,6 +2109,13 @@ Tier
 Baseline
 ;
 }
+optimizedBackend_
+=
+OptimizedBackend
+:
+:
+Ion
+;
 debug_
 =
 debugEnabled
@@ -2622,6 +2635,14 @@ bytecode
 error
 )
 ;
+OptimizedBackend
+optimizedBackend
+=
+OptimizedBackend
+:
+:
+Ion
+;
 ModuleEnvironment
 moduleEnv
 (
@@ -2656,6 +2677,7 @@ Tier
 :
 :
 Optimized
+optimizedBackend
 DebugEnabled
 :
 :

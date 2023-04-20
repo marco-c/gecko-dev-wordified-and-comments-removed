@@ -66,9 +66,7 @@ OutOfMemory
 {
 }
 ;
-using
-CoderResult
-=
+typedef
 mozilla
 :
 :
@@ -80,6 +78,7 @@ mozilla
 Ok
 OutOfMemory
 >
+CoderResult
 ;
 enum
 CoderMode

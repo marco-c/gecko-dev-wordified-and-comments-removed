@@ -2584,8 +2584,6 @@ DebugOnly
 uint32_t
 >
 poppedFP
-{
-}
 ;
 #
 if
@@ -4114,8 +4112,6 @@ DebugOnly
 uint32_t
 >
 poppedFP
-{
-}
 ;
 #
 ifdef
