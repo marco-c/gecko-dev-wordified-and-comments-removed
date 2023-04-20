@@ -1592,6 +1592,17 @@ aInfo
 =
 0
 ;
+virtual
+bool
+SetCDMProxy
+(
+CDMProxy
+*
+aProxy
+)
+=
+0
+;
 ExternalEngineStateMachine
 *
 const
