@@ -249,8 +249,6 @@ r
 g
 b
 a
-pos
-color
 )
 {
 var
@@ -390,8 +388,6 @@ r
 g
 b
 a
-pos
-color
 tolerance
 )
 {
