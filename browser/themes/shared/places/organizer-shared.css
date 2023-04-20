@@ -85,3 +85,17 @@ height
 0
 ;
 }
+#
+placesViewsBox
+{
+min
+-
+height
+:
+5em
+;
+overflow
+:
+clip
+;
+}
