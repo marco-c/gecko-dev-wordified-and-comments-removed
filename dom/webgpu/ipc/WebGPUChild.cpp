@@ -2568,7 +2568,7 @@ aDesc
 ffi
 :
 :
-WGPUTextureDescriptor
+WGPUTextureDescriptor______nsACString__FfiSlice_TextureFormat
 desc
 =
 {
@@ -2594,6 +2594,15 @@ label
 Get
 (
 )
+;
+desc
+.
+view_formats
+=
+{
+nullptr
+0
+}
 ;
 if
 (

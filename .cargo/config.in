@@ -235,7 +235,7 @@ naga
 rev
 =
 "
-e98bd92
+1be8024
 "
 replace
 -
@@ -285,7 +285,7 @@ wgpu
 rev
 =
 "
-fac4731288117d951d0944d96cf0b00fa006dd6c
+a3e3d2503fe4d7957224083fecac38690843a795
 "
 replace
 -
