@@ -6146,7 +6146,8 @@ margin
 -
 inline
 :
-0
+-
+1px
 ;
 scale
 :
@@ -6439,11 +6440,7 @@ bar
 .
 indicator
 {
-opacity
-:
-1
-;
-border
+background
 -
 color
 :
@@ -6516,7 +6513,7 @@ indicator
 .
 complete
 {
-border
+background
 -
 color
 :
