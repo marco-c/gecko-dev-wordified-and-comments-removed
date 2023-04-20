@@ -631,6 +631,13 @@ AllowBackdropFilter
 bool
 true
 )
+\
+_
+(
+WebglOopAsyncPresentForceSync
+bool
+true
+)
 class
 gfxVars
 final
