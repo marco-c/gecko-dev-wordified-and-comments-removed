@@ -4413,6 +4413,9 @@ mfMediaEngineCDM
 "
 jSOracle
 "
+"
+windowsUtils
+"
 }
 ;
 dictionary

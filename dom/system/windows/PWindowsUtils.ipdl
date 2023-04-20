@@ -1,0 +1,13 @@
+namespace
+mozilla
+{
+namespace
+dom
+{
+protocol
+PWindowsUtils
+{
+}
+;
+}
+}
