@@ -2236,7 +2236,6 @@ prevPanelView
 node
 viewNode
 false
-anchor
 )
 ;
 }
