@@ -1,12 +1,4 @@
-var
-EXPORTED_SYMBOLS
-=
-[
-"
-ForceRefreshChild
-"
-]
-;
+export
 class
 ForceRefreshChild
 extends
