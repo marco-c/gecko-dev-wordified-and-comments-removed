@@ -144,6 +144,16 @@ const
 =
 0
 ;
+virtual
+void
+SetTransportCc
+(
+bool
+transport_cc
+)
+=
+0
+;
 protected
 :
 virtual

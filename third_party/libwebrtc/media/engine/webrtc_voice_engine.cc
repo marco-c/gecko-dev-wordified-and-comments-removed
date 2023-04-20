@@ -6568,9 +6568,16 @@ worker_thread_checker_
 stream_
 -
 >
-SetUseTransportCcAndNackHistory
+SetTransportCc
 (
 use_transport_cc
+)
+;
+stream_
+-
+>
+SetNackHistory
+(
 use_nack
 ?
 kNackRtpHistoryMs

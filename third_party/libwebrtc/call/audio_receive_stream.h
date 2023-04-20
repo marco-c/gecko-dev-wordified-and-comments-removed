@@ -640,10 +640,8 @@ decoder_map
 ;
 virtual
 void
-SetUseTransportCcAndNackHistory
+SetNackHistory
 (
-bool
-use_transport_cc
 int
 history_ms
 )
