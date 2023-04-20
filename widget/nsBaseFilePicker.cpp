@@ -461,7 +461,10 @@ aParent
 nsISimpleEnumerator
 *
 iterator
-int16_t
+nsIFilePicker
+:
+:
+Mode
 aMode
 )
 :
@@ -625,7 +628,10 @@ nsPIDOMWindowInner
 >
 mParent
 ;
-int16_t
+nsIFilePicker
+:
+:
+Mode
 mMode
 ;
 }
@@ -673,7 +679,10 @@ const
 nsAString
 &
 aTitle
-int16_t
+nsIFilePicker
+:
+:
+Mode
 aMode
 )
 {
@@ -1641,7 +1650,10 @@ nsBaseFilePicker
 :
 GetMode
 (
-int16_t
+nsIFilePicker
+:
+:
+Mode
 *
 aMode
 )

@@ -267,7 +267,10 @@ static
 GtkFileChooserAction
 GetGtkFileChooserAction
 (
-int16_t
+nsIFilePicker
+:
+:
+Mode
 aMode
 )
 {
@@ -1737,6 +1740,10 @@ get
 )
 )
 ;
+break
+;
+default
+:
 break
 ;
 }

@@ -90,7 +90,10 @@ const
 nsAString
 &
 aTitle
-int16_t
+nsIFilePicker
+:
+:
+Mode
 aMode
 )
 override
@@ -224,7 +227,10 @@ override
 NS_IMETHOD
 GetMode
 (
-int16_t
+nsIFilePicker
+:
+:
+Mode
 *
 aMode
 )
@@ -318,7 +324,10 @@ nsPIDOMWindowOuter
 >
 mParent
 ;
-int16_t
+nsIFilePicker
+:
+:
+Mode
 mMode
 ;
 nsString

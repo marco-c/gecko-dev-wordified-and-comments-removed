@@ -78,7 +78,10 @@ nsString
 &
 aTitle
 const
-int16_t
+nsIFilePicker
+:
+:
+Mode
 &
 aMode
 )
@@ -368,7 +371,10 @@ mFilePicker
 nsString
 mTitle
 ;
-int16_t
+nsIFilePicker
+:
+:
+Mode
 mMode
 ;
 nsIFilePicker
