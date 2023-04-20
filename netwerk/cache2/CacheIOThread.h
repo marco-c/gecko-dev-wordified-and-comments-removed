@@ -81,7 +81,7 @@ namespace
 detail
 {
 class
-BlockingIOWatcher
+NativeThreadHandle
 ;
 }
 class
@@ -349,9 +349,9 @@ UniquePtr
 detail
 :
 :
-BlockingIOWatcher
+NativeThreadHandle
 >
-mBlockingIOWatcher
+mNativeThreadHandle
 ;
 Atomic
 <
