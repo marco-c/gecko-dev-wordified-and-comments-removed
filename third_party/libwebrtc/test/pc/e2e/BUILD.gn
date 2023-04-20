@@ -194,7 +194,7 @@ default_video_quality_analyzer_test
 "
 "
 :
-multi_head_queue_test
+multi_reader_queue_test
 "
 "
 :
@@ -4625,7 +4625,7 @@ optional
 rtc_library
 (
 "
-multi_head_queue_test
+multi_reader_queue_test
 "
 )
 {
@@ -4640,7 +4640,7 @@ analyzer
 /
 video
 /
-multi_head_queue_test
+multi_reader_queue_test
 .
 cc
 "
@@ -4650,7 +4650,7 @@ deps
 [
 "
 :
-multi_head_queue
+multi_reader_queue
 "
 "
 .
@@ -5459,10 +5459,6 @@ default_video_quality_analyzer_internal
 default_video_quality_analyzer_shared
 "
 "
-:
-multi_head_queue
-"
-"
 .
 .
 /
@@ -5996,7 +5992,7 @@ default_video_quality_analyzer_shared
 "
 "
 :
-multi_head_queue
+multi_reader_queue
 "
 "
 .
@@ -7356,7 +7352,7 @@ optional
 rtc_library
 (
 "
-multi_head_queue
+multi_reader_queue
 "
 )
 {
@@ -7378,7 +7374,7 @@ analyzer
 /
 video
 /
-multi_head_queue
+multi_reader_queue
 .
 h
 "

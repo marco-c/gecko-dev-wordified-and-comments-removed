@@ -44,7 +44,7 @@ analyzer
 /
 video
 /
-multi_head_queue
+multi_reader_queue
 .
 h
 "
@@ -185,7 +185,7 @@ AddPeer
 {
 frame_ids_
 .
-AddHead
+AddReader
 (
 GetAliveFramesQueueIndex
 (
@@ -266,7 +266,7 @@ const
 Timestamp
 stream_started_time_
 ;
-MultiHeadQueue
+MultiReaderQueue
 <
 uint16_t
 >
