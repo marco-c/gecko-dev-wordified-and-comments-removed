@@ -7,7 +7,7 @@ video_coding
 /
 timing
 /
-frame_delay_delta_kalman_filter
+frame_delay_variation_kalman_filter
 .
 h
 "
@@ -47,10 +47,10 @@ kMaxBandwidth
 000001
 ;
 }
-FrameDelayDeltaKalmanFilter
+FrameDelayVariationKalmanFilter
 :
 :
-FrameDelayDeltaKalmanFilter
+FrameDelayVariationKalmanFilter
 (
 )
 {
@@ -136,7 +136,7 @@ process_noise_cov_diag_
 ;
 }
 void
-FrameDelayDeltaKalmanFilter
+FrameDelayVariationKalmanFilter
 :
 :
 PredictAndUpdate
@@ -672,7 +672,7 @@ estimate_cov_
 ;
 }
 double
-FrameDelayDeltaKalmanFilter
+FrameDelayVariationKalmanFilter
 :
 :
 GetFrameDelayVariationEstimateSizeBased
@@ -692,7 +692,7 @@ frame_size_variation_bytes
 ;
 }
 double
-FrameDelayDeltaKalmanFilter
+FrameDelayVariationKalmanFilter
 :
 :
 GetFrameDelayVariationEstimateTotal

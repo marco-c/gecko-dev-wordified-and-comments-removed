@@ -243,7 +243,7 @@ optional
 rtc_library
 (
 "
-frame_delay_delta_kalman_filter
+frame_delay_variation_kalman_filter
 "
 )
 {
@@ -251,12 +251,12 @@ sources
 =
 [
 "
-frame_delay_delta_kalman_filter
+frame_delay_variation_kalman_filter
 .
 cc
 "
 "
-frame_delay_delta_kalman_filter
+frame_delay_variation_kalman_filter
 .
 h
 "
@@ -336,7 +336,7 @@ deps
 [
 "
 :
-frame_delay_delta_kalman_filter
+frame_delay_variation_kalman_filter
 "
 "
 :
@@ -788,7 +788,7 @@ sources
 =
 [
 "
-frame_delay_delta_kalman_filter_unittest
+frame_delay_variation_kalman_filter_unittest
 .
 cc
 "
@@ -818,7 +818,7 @@ deps
 [
 "
 :
-frame_delay_delta_kalman_filter
+frame_delay_variation_kalman_filter
 "
 "
 :

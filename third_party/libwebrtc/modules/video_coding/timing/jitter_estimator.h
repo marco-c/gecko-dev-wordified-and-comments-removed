@@ -77,7 +77,7 @@ video_coding
 /
 timing
 /
-frame_delay_delta_kalman_filter
+frame_delay_variation_kalman_filter
 .
 h
 "
@@ -240,7 +240,7 @@ GetFrameRate
 )
 const
 ;
-FrameDelayDeltaKalmanFilter
+FrameDelayVariationKalmanFilter
 kalman_filter_
 ;
 double
