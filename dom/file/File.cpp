@@ -91,6 +91,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h
@@ -323,7 +330,7 @@ aContentType
 aGlobal
 -
 >
-CrossOriginIsolated
+GetRTPCallerType
 (
 )
 )
@@ -786,7 +793,7 @@ Native
 global
 -
 >
-CrossOriginIsolated
+GetRTPCallerType
 (
 )
 aRv
