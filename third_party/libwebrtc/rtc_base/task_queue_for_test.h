@@ -189,9 +189,13 @@ Event
 :
 :
 kForever
+TimeDelta
+:
+:
+Seconds
+(
 10
-'
-000
+)
 )
 )
 ;
