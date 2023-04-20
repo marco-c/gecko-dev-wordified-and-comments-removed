@@ -30,16 +30,6 @@ NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 FluentResource
 mParent
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-FluentResource
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-FluentResource
-Release
-)
 FluentResource
 :
 :

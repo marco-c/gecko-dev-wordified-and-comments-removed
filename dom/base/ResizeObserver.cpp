@@ -848,16 +848,6 @@ Yes
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-ResizeObservation
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-ResizeObservation
-Release
-)
 ResizeObservation
 :
 :

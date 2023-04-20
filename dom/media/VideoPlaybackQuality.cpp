@@ -128,16 +128,6 @@ aGivenProto
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-VideoPlaybackQuality
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-VideoPlaybackQuality
-Release
-)
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 VideoPlaybackQuality

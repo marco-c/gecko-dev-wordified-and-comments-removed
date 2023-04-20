@@ -159,16 +159,6 @@ mFramebuffer
 mLeftViewport
 mRightViewport
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-XRWebGLLayer
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-XRWebGLLayer
-Release
-)
 XRWebGLLayer
 :
 :

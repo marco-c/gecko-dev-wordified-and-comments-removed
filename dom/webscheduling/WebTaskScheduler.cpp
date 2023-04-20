@@ -544,16 +544,6 @@ mParent
 mStaticPriorityTaskQueues
 mDynamicPriorityTaskQueues
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-WebTaskScheduler
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-WebTaskScheduler
-Release
-)
 already_AddRefed
 <
 WebTaskSchedulerMainThread

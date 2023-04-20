@@ -197,16 +197,6 @@ i
 )
 }
 NS_IMPL_CYCLE_COLLECTION_TRACE_END
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-AudioBuffer
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-AudioBuffer
-Release
-)
 class
 AudioBufferMemoryTracker
 :

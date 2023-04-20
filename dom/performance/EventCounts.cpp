@@ -65,16 +65,6 @@ NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 EventCounts
 mParent
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-EventCounts
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-EventCounts
-Release
-)
 static
 const
 EventMessage

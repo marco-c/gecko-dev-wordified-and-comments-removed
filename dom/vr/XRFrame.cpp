@@ -83,16 +83,6 @@ XRFrame
 mParent
 mSession
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-XRFrame
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-XRFrame
-Release
-)
 XRFrame
 :
 :

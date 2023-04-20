@@ -331,16 +331,6 @@ mOldRanges
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-SelectionChangeEventDispatcher
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-SelectionChangeEventDispatcher
-Release
-)
 void
 SelectionChangeEventDispatcher
 :

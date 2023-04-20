@@ -195,16 +195,6 @@ mBrowsingContext
 mFormData
 mScrollData
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-BrowserSessionStore
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-BrowserSessionStore
-Release
-)
 already_AddRefed
 <
 BrowserSessionStore

@@ -235,16 +235,6 @@ NS_IMPL_CYCLE_COLLECTION
 ContentSessionStore
 mDocShell
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-ContentSessionStore
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-ContentSessionStore
-Release
-)
 ContentSessionStore
 :
 :

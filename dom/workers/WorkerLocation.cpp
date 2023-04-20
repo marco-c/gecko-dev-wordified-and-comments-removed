@@ -30,16 +30,6 @@ NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_0
 (
 WorkerLocation
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-WorkerLocation
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-WorkerLocation
-Release
-)
 already_AddRefed
 <
 WorkerLocation

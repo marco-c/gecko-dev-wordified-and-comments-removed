@@ -79,16 +79,6 @@ AudioWorkletProcessor
 mParent
 mPort
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-AudioWorkletProcessor
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-AudioWorkletProcessor
-Release
-)
 AudioWorkletProcessor
 :
 :

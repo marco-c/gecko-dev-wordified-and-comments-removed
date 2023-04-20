@@ -62,16 +62,6 @@ NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 CSSPseudoElement
 mOriginatingElement
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-CSSPseudoElement
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-CSSPseudoElement
-Release
-)
 CSSPseudoElement
 :
 :

@@ -68,16 +68,6 @@ mPosition
 mSurfaceDimensions
 )
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-GamepadTouch
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-GamepadTouch
-Release
-)
 GamepadTouch
 :
 :

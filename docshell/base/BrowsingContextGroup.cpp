@@ -2819,15 +2819,5 @@ mTimerEventQueue
 mWorkerEventQueue
 mDocGroups
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-BrowsingContextGroup
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-BrowsingContextGroup
-Release
-)
 }
 }

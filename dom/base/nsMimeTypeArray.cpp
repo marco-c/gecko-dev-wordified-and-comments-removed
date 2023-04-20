@@ -396,16 +396,6 @@ ShouldResistFingerprinting
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-nsMimeType
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-nsMimeType
-Release
-)
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 nsMimeType

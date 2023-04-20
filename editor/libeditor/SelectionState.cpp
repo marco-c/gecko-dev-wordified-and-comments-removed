@@ -2879,16 +2879,6 @@ RangeItem
 mStartContainer
 mEndContainer
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-RangeItem
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-RangeItem
-Release
-)
 void
 RangeItem
 :

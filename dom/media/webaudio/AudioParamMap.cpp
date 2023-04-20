@@ -27,16 +27,6 @@ NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 AudioParamMap
 mParent
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-AudioParamMap
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-AudioParamMap
-Release
-)
 AudioParamMap
 :
 :

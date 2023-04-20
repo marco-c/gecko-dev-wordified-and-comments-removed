@@ -88,16 +88,6 @@ NS_SVG_VAL_IMPL_CYCLE_COLLECTION_WRAPPERCACHED
 DOMSVGAnimatedPreserveAspectRatio
 mSVGElement
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-DOMSVGAnimatedPreserveAspectRatio
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-DOMSVGAnimatedPreserveAspectRatio
-Release
-)
 JSObject
 *
 DOMSVGAnimatedPreserveAspectRatio

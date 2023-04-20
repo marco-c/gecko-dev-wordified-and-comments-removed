@@ -163,16 +163,6 @@ mozSpellChecker
 mTextServicesDocument
 mPersonalDictionary
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-mozSpellChecker
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-mozSpellChecker
-Release
-)
 mozSpellChecker
 :
 :

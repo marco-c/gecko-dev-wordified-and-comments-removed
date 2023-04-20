@@ -359,16 +359,6 @@ Flags
 }
 }
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-EffectCompositor
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-EffectCompositor
-Release
-)
 bool
 EffectCompositor
 :

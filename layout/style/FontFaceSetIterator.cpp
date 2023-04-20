@@ -29,16 +29,6 @@ NS_IMPL_CYCLE_COLLECTION
 FontFaceSetIterator
 mFontFaceSet
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-FontFaceSetIterator
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-FontFaceSetIterator
-Release
-)
 FontFaceSetIterator
 :
 :

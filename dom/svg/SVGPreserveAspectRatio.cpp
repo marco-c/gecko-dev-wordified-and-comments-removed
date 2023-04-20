@@ -62,16 +62,6 @@ NS_SVG_VAL_IMPL_CYCLE_COLLECTION_WRAPPERCACHED
 DOMSVGPreserveAspectRatio
 mSVGElement
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-DOMSVGPreserveAspectRatio
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-DOMSVGPreserveAspectRatio
-Release
-)
 static
 const
 char

@@ -99,16 +99,6 @@ mozilla
 :
 dom
 {
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-AnonymousContent
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-AnonymousContent
-Release
-)
 NS_IMPL_CYCLE_COLLECTION
 (
 AnonymousContent

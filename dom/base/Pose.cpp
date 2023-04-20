@@ -70,16 +70,6 @@ mAngularVelocity
 mAngularAcceleration
 )
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-Pose
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-Pose
-Release
-)
 Pose
 :
 :

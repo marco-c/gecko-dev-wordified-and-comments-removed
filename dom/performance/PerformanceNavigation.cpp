@@ -34,16 +34,6 @@ NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 PerformanceNavigation
 mPerformance
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-PerformanceNavigation
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-PerformanceNavigation
-Release
-)
 PerformanceNavigation
 :
 :

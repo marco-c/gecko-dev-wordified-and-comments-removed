@@ -44,16 +44,6 @@ mSession
 mBaseLayer
 mOutputCanvas
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
-(
-XRRenderState
-AddRef
-)
-NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
-(
-XRRenderState
-Release
-)
 XRRenderState
 :
 :
