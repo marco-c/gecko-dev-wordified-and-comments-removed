@@ -1701,6 +1701,19 @@ time
 )
         
 if
+(
+            
+"
+statusText
+"
+in
+results_of_request
+.
+keys
+(
+)
+            
+and
 results_of_request
 [
 "
@@ -1710,6 +1723,8 @@ statusText
 =
 =
 WPT_API_EXPIRED_MESSAGE
+        
+)
 :
             
 raise
