@@ -244,11 +244,10 @@ enabled
 "
 )
 ;
-menuPopup
-.
-activateItem
-(
 openResendRequestMenuItem
+.
+click
+(
 )
 ;
 await

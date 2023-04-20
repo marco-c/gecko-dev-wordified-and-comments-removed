@@ -2692,7 +2692,7 @@ container
 aStartChild
 -
 >
-GetParentNode
+GetParent
 (
 )
 )

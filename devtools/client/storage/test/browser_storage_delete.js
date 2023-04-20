@@ -349,11 +349,10 @@ rowName
 '
 )
 ;
-contextMenu
-.
-activateItem
-(
 menuDeleteItem
+.
+click
+(
 )
 ;
 const

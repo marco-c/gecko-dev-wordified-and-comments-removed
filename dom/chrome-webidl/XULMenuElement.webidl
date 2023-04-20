@@ -109,13 +109,6 @@ constructor
 (
 )
 ;
-[
-BinaryName
-=
-"
-activeMenuChild
-"
-]
 attribute
 Element
 ?

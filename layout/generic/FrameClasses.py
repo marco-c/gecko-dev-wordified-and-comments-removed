@@ -651,6 +651,17 @@ NOT_LEAF
 Frame
 (
 "
+nsMenuFrame
+"
+"
+Menu
+"
+NOT_LEAF
+)
+    
+Frame
+(
+"
 nsMenuPopupFrame
 "
 "

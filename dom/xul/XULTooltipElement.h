@@ -80,6 +80,7 @@ Init
 (
 )
 ;
+virtual
 nsresult
 AfterSetAttr
 (
@@ -104,6 +105,7 @@ aNotify
 )
 override
 ;
+virtual
 nsresult
 PostHandleEvent
 (

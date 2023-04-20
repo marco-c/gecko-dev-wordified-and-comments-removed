@@ -962,10 +962,8 @@ aItem
 =
 mActiveItem
 )
-{
 return
 ;
-}
 mActiveItem
 =
 nullptr

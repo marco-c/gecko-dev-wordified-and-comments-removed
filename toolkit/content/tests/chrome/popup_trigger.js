@@ -2722,6 +2722,10 @@ thepopup
 popuphidden
 thepopup
 "
+"
+DOMMenuItemInactive
+item3
+"
 ]
 test
 (
@@ -2999,6 +3003,10 @@ thepopup
 "
 popuphidden
 thepopup
+"
+"
+DOMMenuItemInactive
+amenu
 "
 ]
 test
@@ -3452,6 +3460,10 @@ submenuitem
 DOMMenuInactive
 submenupopup
 "
+"
+DOMMenuItemActive
+submenu
+"
 ]
 test
 (
@@ -3624,6 +3636,10 @@ submenuitem
 "
 DOMMenuInactive
 submenupopup
+"
+"
+DOMMenuItemActive
+submenu
 "
 ]
 test
@@ -3873,6 +3889,10 @@ thepopup
 "
 popuphidden
 thepopup
+"
+"
+DOMMenuItemInactive
+amenu
 "
 ]
 test
@@ -4132,6 +4152,10 @@ thepopup
 "
 DOMMenuInactive
 submenupopup
+"
+"
+DOMMenuItemInactive
+submenu
 "
 "
 DOMMenuItemInactive
@@ -4815,6 +4839,10 @@ thepopup
 "
 popuphidden
 thepopup
+"
+"
+DOMMenuItemInactive
+item1
 "
 ]
 test
