@@ -315,15 +315,3 @@ false
 )
 ;
 }
-bool
-nsUserIdleServiceX
-:
-:
-UsePollMode
-(
-)
-{
-return
-true
-;
-}

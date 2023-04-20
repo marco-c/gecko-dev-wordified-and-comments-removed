@@ -572,15 +572,3 @@ return
 false
 ;
 }
-bool
-nsUserIdleServiceGTK
-:
-:
-UsePollMode
-(
-)
-{
-return
-sInitialized
-;
-}

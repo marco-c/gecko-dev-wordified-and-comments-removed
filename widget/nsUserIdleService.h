@@ -245,12 +245,6 @@ uint32_t
 aIdleTime
 )
 ;
-virtual
-bool
-UsePollMode
-(
-)
-;
 private
 :
 void

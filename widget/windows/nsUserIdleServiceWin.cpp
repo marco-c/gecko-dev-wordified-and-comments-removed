@@ -66,15 +66,3 @@ return
 true
 ;
 }
-bool
-nsUserIdleServiceWin
-:
-:
-UsePollMode
-(
-)
-{
-return
-true
-;
-}
