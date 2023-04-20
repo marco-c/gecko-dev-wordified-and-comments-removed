@@ -2056,6 +2056,16 @@ monitor
 refresh
 )
 ;
+rect
+.
+x
+=
+rect
+.
+y
+=
+0
+;
 return
 MakeAndAddRef
 <
