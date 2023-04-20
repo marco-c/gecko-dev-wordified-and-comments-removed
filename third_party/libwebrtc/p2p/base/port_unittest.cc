@@ -11054,7 +11054,7 @@ field_trials
 "
 WebRTC
 -
-PreferGlobalIPv6ToLinkLocal
+IPv6NetworkResolutionFixes
 /
 Enabled
 /

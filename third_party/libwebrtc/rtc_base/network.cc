@@ -5914,7 +5914,7 @@ IsEnabled
 "
 WebRTC
 -
-PreferGlobalIPv6ToLinkLocal
+IPv6NetworkResolutionFixes
 "
 )
 :
