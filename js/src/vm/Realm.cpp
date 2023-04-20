@@ -816,13 +816,13 @@ checkCacheAfterMovingGC
 MOZ_ASSERT
 (
 !
-s
+str
 |
 |
 !
 IsForwarded
 (
-s
+str
 )
 )
 ;
