@@ -915,7 +915,7 @@ rtp_rtcp
 /
 source
 /
-ulpfec_receiver_impl
+ulpfec_receiver
 .
 cc
 "
