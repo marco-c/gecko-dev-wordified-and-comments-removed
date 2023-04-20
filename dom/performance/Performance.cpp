@@ -4274,11 +4274,6 @@ ShouldResistFingerprinting
 return
 ;
 }
-QueueEntry
-(
-aEntry
-)
-;
 if
 (
 CanAddResourceTimingEntry
@@ -4298,6 +4293,11 @@ aEntry
 PerformanceEntryComparator
 (
 )
+)
+;
+QueueEntry
+(
+aEntry
 )
 ;
 return
