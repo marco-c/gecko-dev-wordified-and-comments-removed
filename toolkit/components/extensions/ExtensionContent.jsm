@@ -1882,6 +1882,9 @@ async
 injectInto
 (
 window
+reportExceptions
+=
+true
 )
 {
 if
@@ -2026,6 +2029,7 @@ this
 inject
 (
 context
+reportExceptions
 )
 ;
 }
@@ -2053,6 +2057,9 @@ async
 inject
 (
 context
+reportExceptions
+=
+true
 )
 {
 DocumentManager
@@ -2450,6 +2457,9 @@ executeInGlobal
 context
 .
 cloneScope
+{
+reportExceptions
+}
 )
 ;
 }
@@ -5102,6 +5112,7 @@ injectInto
 bc
 .
 window
+false
 )
 }
 ;

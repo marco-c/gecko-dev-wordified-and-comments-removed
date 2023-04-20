@@ -146,6 +146,10 @@ JSObject
 *
 >
 aGlobal
+const
+ExecuteInGlobalOptions
+&
+aOptions
 JS
 :
 :
