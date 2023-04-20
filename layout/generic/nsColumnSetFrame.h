@@ -307,6 +307,11 @@ mForceAuto
 =
 false
 ;
+bool
+mIsLastBalancingReflow
+=
+false
+;
 nscoord
 mKnownFeasibleBSize
 =
