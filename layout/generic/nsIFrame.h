@@ -8139,6 +8139,12 @@ GetNearestWidget
 )
 const
 ;
+bool
+IsSubgrid
+(
+)
+const
+;
 nsIWidget
 *
 GetNearestWidget
