@@ -7834,18 +7834,34 @@ obj
 cargo_file
 )
         
+target_dir
+=
+mozpath
+.
+normpath
+(
 backend_file
 .
-write_once
+environment
+.
+topobjdir
+)
+        
+backend_file
+.
+write
 (
 "
 CARGO_TARGET_DIR
 :
 =
-.
+%
+s
 \
 n
 "
+%
+target_dir
 )
         
 backend_file
@@ -7857,6 +7873,10 @@ write
 s
 +
 =
+(
+DEPTH
+)
+/
 %
 s
 \
