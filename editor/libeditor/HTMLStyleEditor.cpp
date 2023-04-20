@@ -2416,7 +2416,7 @@ styledNewSpanElement
 {
 Result
 <
-int32_t
+size_t
 nsresult
 >
 result
@@ -4820,7 +4820,7 @@ spanStyledElement
 {
 Result
 <
-int32_t
+size_t
 nsresult
 >
 result

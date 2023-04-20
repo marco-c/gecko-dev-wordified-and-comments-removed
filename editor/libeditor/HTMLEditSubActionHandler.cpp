@@ -35042,7 +35042,7 @@ styledListOrListItemElement
 {
 Result
 <
-int32_t
+size_t
 nsresult
 >
 result
