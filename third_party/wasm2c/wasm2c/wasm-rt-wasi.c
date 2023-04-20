@@ -193,6 +193,8 @@ include
 wasm
 -
 rt
+-
+impl
 .
 h
 "
@@ -202,8 +204,6 @@ include
 wasm
 -
 rt
--
-impl
 .
 h
 "
@@ -353,6 +353,7 @@ mem
 size
 )
 )
+\
 TRAP
 (
 OOB
@@ -680,6 +681,7 @@ VERBOSE_LOG
 .
 .
 )
+\
 {
 printf
 (
@@ -2814,6 +2816,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_fd_adviseZ_iijji
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u64
@@ -2831,6 +2836,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_fd_allocateZ_iijj
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u64
@@ -2846,6 +2854,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_fd_datasyncZ_ii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 )
@@ -2857,6 +2868,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_fd_fdstat_getZ_iii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -2870,6 +2884,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_fd_fdstat_set_flagsZ_iii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -2883,6 +2900,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_fd_fdstat_set_rightsZ_iijj
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u64
@@ -2898,6 +2918,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_fd_filestat_getZ_iii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -2911,6 +2934,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_fd_filestat_set_sizeZ_iij
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u64
@@ -2924,6 +2950,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_fd_filestat_set_timesZ_iijji
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u64
@@ -2941,6 +2970,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_fd_preadZ_iiiiji
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -2960,6 +2992,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_fd_prestat_dir_nameZ_iiii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -2975,6 +3010,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_fd_pwriteZ_iiiiji
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -2994,6 +3032,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_fd_readdirZ_iiiiji
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -3013,6 +3054,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_fd_renumberZ_iii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -3026,6 +3070,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_fd_syncZ_ii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 )
@@ -3037,6 +3084,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_fd_tellZ_iii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -3050,6 +3100,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_path_create_directoryZ_iiii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -3065,6 +3118,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_path_filestat_getZ_iiiiii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -3084,6 +3140,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_path_filestat_set_timesZ_iiiiijji
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -3107,6 +3166,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_path_linkZ_iiiiiiii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -3130,6 +3192,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_path_openZ_iiiiiijjii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -3157,6 +3222,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_path_readlinkZ_iiiiiii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -3178,6 +3246,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_path_remove_directoryZ_iiii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -3193,6 +3264,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_path_renameZ_iiiiiii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -3214,6 +3288,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_path_symlinkZ_iiiiii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -3233,6 +3310,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_path_unlink_fileZ_iiii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -3248,6 +3328,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_poll_oneoffZ_iiiii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -3265,6 +3348,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_proc_raiseZ_ii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 )
@@ -3276,6 +3362,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_random_getZ_iii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -3287,8 +3376,11 @@ WASI_DEFAULT_ERROR
 STUB_IMPORT_IMPL
 (
 u32
-Z_wasi_snapshot_preview1Z_sched_yieldZ_i
+Z_wasi_snapshot_preview1Z_sched_yieldZ_iv
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 )
 WASI_DEFAULT_ERROR
 )
@@ -3298,6 +3390,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_sock_recvZ_iiiiiii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -3319,6 +3414,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_sock_sendZ_iiiiii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32
@@ -3338,6 +3436,9 @@ STUB_IMPORT_IMPL
 u32
 Z_wasi_snapshot_preview1Z_sock_shutdownZ_iii
 (
+wasm_sandbox_wasi_data
+*
+wasi_data
 u32
 a
 u32

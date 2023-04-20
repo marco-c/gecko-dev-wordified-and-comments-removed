@@ -7,14 +7,14 @@ WASM_RT_H_
 #
 include
 <
-stdbool
+setjmp
 .
 h
 >
 #
 include
 <
-stdint
+stdbool
 .
 h
 >
@@ -28,7 +28,7 @@ h
 #
 include
 <
-setjmp
+stdint
 .
 h
 >
@@ -85,6 +85,7 @@ WASM_USE_EXPLICIT_BOUNDS_CHECKS
 )
 #
 error
+\
 "
 Cannot
 define
@@ -102,6 +103,7 @@ WASM_USE_GUARD_PAGES
 )
 &
 &
+\
 !
 defined
 (
@@ -236,6 +238,7 @@ WASM_USE_GUARD_PAGES
 )
 |
 |
+\
 !
 defined
 (

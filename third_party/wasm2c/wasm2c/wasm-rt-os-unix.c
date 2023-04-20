@@ -40,6 +40,8 @@ include
 wasm
 -
 rt
+-
+os
 .
 h
 "
@@ -49,8 +51,6 @@ include
 wasm
 -
 rt
--
-os
 .
 h
 "
@@ -104,18 +104,18 @@ __MACH__
 #
 include
 <
-sys
+mach
 /
-time
+mach_time
 .
 h
 >
 #
 include
 <
-mach
+sys
 /
-mach_time
+time
 .
 h
 >
@@ -148,6 +148,7 @@ VERBOSE_LOG
 .
 .
 )
+\
 {
 printf
 (
@@ -599,6 +600,8 @@ alignment_offset
 :
 %
 llu
+"
+"
 requested_length
 :
 %

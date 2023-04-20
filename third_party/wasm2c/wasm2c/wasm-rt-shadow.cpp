@@ -60,12 +60,12 @@ h
 #
 include
 <
-map
+functional
 >
 #
 include
 <
-functional
+map
 >
 typedef
 enum
@@ -512,6 +512,7 @@ allocation_sizes_map
 (
 mem
 )
+\
 (
 (
 std

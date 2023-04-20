@@ -10,6 +10,8 @@ include
 wasm
 -
 rt
+-
+os
 .
 h
 "
@@ -19,8 +21,6 @@ include
 wasm
 -
 rt
--
-os
 .
 h
 "
@@ -77,6 +77,7 @@ VERBOSE_LOG
 .
 .
 )
+\
 {
 printf
 (
@@ -792,6 +793,8 @@ alignment_offset
 :
 %
 llu
+"
+"
 requested_length
 :
 %
