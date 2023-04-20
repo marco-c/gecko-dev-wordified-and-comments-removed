@@ -16,6 +16,20 @@ value
 ;
 import
 {
+findSourceMatches
+}
+from
+"
+.
+.
+/
+workers
+/
+search
+"
+;
+import
+{
 getFirstSourceActorForGeneratedSource
 hasPrettySource
 getSourceList
@@ -588,7 +602,6 @@ async
 {
 dispatch
 getState
-searchWorker
 }
 )
 =
@@ -670,8 +683,6 @@ text
 matches
 =
 await
-searchWorker
-.
 findSourceMatches
 (
 source

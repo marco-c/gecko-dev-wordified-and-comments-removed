@@ -173,7 +173,7 @@ js
 )
 ;
 const
-SearchDispatcher
+SearchWorker
 =
 require
 (
@@ -397,7 +397,7 @@ this
 mount
 )
 ;
-SearchDispatcher
+SearchWorker
 .
 stop
 (

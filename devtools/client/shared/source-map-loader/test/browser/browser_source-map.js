@@ -260,8 +260,6 @@ const
 ranges
 =
 await
-gSourceMapLoader
-.
 getGeneratedRangesForOriginal
 (
 originals
@@ -419,8 +417,6 @@ const
 mergedRanges
 =
 await
-gSourceMapLoader
-.
 getGeneratedRangesForOriginal
 (
 secondOriginals
@@ -523,7 +519,7 @@ com
 const
 onError
 =
-gSourceMapLoader
+SourceMapLoader
 .
 once
 (
@@ -539,8 +535,6 @@ error
 is
 (
 await
-gSourceMapLoader
-.
 getOriginalURLs
 (
 source
