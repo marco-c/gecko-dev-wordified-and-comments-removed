@@ -7,6 +7,13 @@ mozilla_dom_workers_WorkerLoadContext_h__
 #
 include
 "
+nsIChannel
+.
+h
+"
+#
+include
+"
 nsIInputStream
 .
 h
@@ -232,6 +239,12 @@ Maybe
 ClientInfo
 >
 mClientInfo
+;
+nsCOMPtr
+<
+nsIChannel
+>
+mChannel
 ;
 nsString
 mFullURL
