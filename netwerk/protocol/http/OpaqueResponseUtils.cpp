@@ -1736,6 +1736,12 @@ OpaqueResponse
 :
 Sniff
 :
+case
+OpaqueResponse
+:
+:
+SniffCompressed
+:
 break
 ;
 }
