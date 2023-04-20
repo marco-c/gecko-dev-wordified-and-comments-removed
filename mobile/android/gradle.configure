@@ -1255,6 +1255,9 @@ GRADLE_ANDROID_FORMAT_LINT_FIX_TASKS
 "
 spotlessJavaApply
 "
+"
+spotlessKotlinApply
+"
 ]
 )
 dependable
@@ -1267,6 +1270,9 @@ return
 [
 "
 spotlessJavaCheck
+"
+"
+spotlessKotlinCheck
 "
 ]
 set_config

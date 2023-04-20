@@ -884,6 +884,8 @@ table
 :
 :
 Java
+/
+Kotlin
 :
 widths
 :
