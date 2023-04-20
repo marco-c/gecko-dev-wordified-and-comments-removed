@@ -302,10 +302,12 @@ const
 bool
 isShadowSampler
 ;
-AutoTArray
+std
+:
+:
+vector
 <
-uint8_t
-8
+uint32_t
 >
 texUnits
 ;
