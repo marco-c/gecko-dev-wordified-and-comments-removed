@@ -439,10 +439,6 @@ int
 instance_counter_
 ;
 const
-bool
-use_min_channel_level_
-;
-const
 int
 num_capture_channels_
 ;
