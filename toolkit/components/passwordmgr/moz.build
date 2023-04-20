@@ -232,6 +232,11 @@ PasswordRulesParser
 jsm
 "
 "
+SignUpFormRuleset
+.
+jsm
+"
+"
 storage
 -
 json
