@@ -6602,7 +6602,7 @@ if
 peers_
 -
 >
-size
+GetKnownSize
 (
 )
 <
