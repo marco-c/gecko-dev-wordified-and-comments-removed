@@ -3389,6 +3389,9 @@ COMMAND_PREFIX
 [
 ]
 if
+not
+AUTOMATION
+and
 subprocess
 .
 call
