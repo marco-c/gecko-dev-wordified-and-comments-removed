@@ -4,7 +4,7 @@
 match
 func
 .
-throws
+throws_type
 (
 )
 -
@@ -27,7 +27,7 @@ Throws
 {
 throwable
 |
-exception_name
+type_name
 }
 }
 :

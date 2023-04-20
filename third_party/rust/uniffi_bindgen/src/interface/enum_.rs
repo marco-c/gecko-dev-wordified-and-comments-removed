@@ -1770,6 +1770,7 @@ _
 vec
 !
 [
+&
 Type
 :
 :
@@ -1878,10 +1879,12 @@ _
 vec
 !
 [
+&
 Type
 :
 :
 UInt32
+&
 Type
 :
 :
@@ -2042,6 +2045,7 @@ unwrap
 assert_eq
 !
 (
+*
 farg
 .
 arguments
@@ -2185,6 +2189,7 @@ unwrap
 assert_eq
 !
 (
+*
 farg
 .
 arguments

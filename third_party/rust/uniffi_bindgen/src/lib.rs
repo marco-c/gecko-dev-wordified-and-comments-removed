@@ -4,6 +4,7 @@
 warn
 (
 rust_2018_idioms
+unused_qualifications
 )
 ]
 #
@@ -696,9 +697,6 @@ Utf8Path
 )
 -
 >
-anyhow
-:
-:
 Result
 <
 (
@@ -2698,9 +2696,6 @@ udl_file
 }
 =
 >
-crate
-:
-:
 generate_bindings
 (
 udl_file
@@ -2751,9 +2746,6 @@ udl_file
 }
 =
 >
-crate
-:
-:
 generate_component_scaffolding
 (
 udl_file
@@ -2782,9 +2774,6 @@ config
 }
 =
 >
-crate
-:
-:
 run_tests
 (
 library_file

@@ -58,7 +58,7 @@ func
 match
 func
 .
-throws
+throws_name
 (
 )
 -
@@ -176,7 +176,7 @@ func
 match
 func
 .
-throws
+throws_name
 (
 )
 -

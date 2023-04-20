@@ -51,7 +51,7 @@ func
 match
 func
 .
-throws
+throws_type
 (
 )
 %
@@ -73,7 +73,7 @@ rustCallWithError
 {
 e
 |
-exception_name
+type_name
 }
 }
 )
@@ -172,7 +172,7 @@ func
 match
 func
 .
-throws
+throws_type
 (
 )
 %
@@ -194,7 +194,7 @@ rustCallWithError
 {
 e
 |
-exception_name
+type_name
 }
 }
 )
