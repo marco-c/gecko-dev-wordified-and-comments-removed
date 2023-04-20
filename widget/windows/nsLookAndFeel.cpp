@@ -449,6 +449,8 @@ static
 bool
 UseNonNativeMenuColors
 (
+ColorScheme
+aScheme
 )
 {
 if
@@ -480,6 +482,15 @@ IntID
 :
 WindowsDefaultTheme
 )
+|
+|
+aScheme
+=
+=
+ColorScheme
+:
+:
+Dark
 ;
 }
 nsresult
@@ -523,6 +534,7 @@ return
 !
 UseNonNativeMenuColors
 (
+aScheme
 )
 ;
 case
@@ -594,6 +606,7 @@ if
 (
 UseNonNativeMenuColors
 (
+aScheme
 )
 )
 {
@@ -637,6 +650,7 @@ if
 (
 UseNonNativeMenuColors
 (
+aScheme
 )
 )
 {
@@ -1112,6 +1126,7 @@ if
 (
 UseNonNativeMenuColors
 (
+aScheme
 )
 )
 {
@@ -1157,6 +1172,7 @@ if
 (
 UseNonNativeMenuColors
 (
+aScheme
 )
 )
 {
@@ -1198,6 +1214,7 @@ MOZ_ASSERT
 (
 UseNonNativeMenuColors
 (
+aScheme
 )
 )
 ;
@@ -1223,6 +1240,7 @@ if
 (
 UseNonNativeMenuColors
 (
+aScheme
 )
 )
 {
@@ -1316,6 +1334,7 @@ if
 (
 UseNonNativeMenuColors
 (
+aScheme
 )
 )
 {
@@ -1354,6 +1373,7 @@ if
 (
 UseNonNativeMenuColors
 (
+aScheme
 )
 )
 {
