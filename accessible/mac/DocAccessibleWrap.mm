@@ -199,12 +199,12 @@ nullptr
 int32_t
 attrValue
 =
-aElement
--
->
-FindAttrValueIn
+nsAccUtils
+:
+:
+FindARIAAttrValueIn
 (
-kNameSpaceID_None
+aElement
 nsGkAtoms
 :
 :

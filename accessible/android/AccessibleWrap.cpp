@@ -3658,12 +3658,12 @@ if
 element
 &
 &
-element
--
->
-AttrValueIs
+nsAccUtils
+:
+:
+ARIAAttrValueIs
 (
-kNameSpaceID_None
+element
 nsGkAtoms
 :
 :

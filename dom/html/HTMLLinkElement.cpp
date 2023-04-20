@@ -889,7 +889,7 @@ aDoc
 return
 ;
 static
-Element
+AttrArray
 :
 :
 AttrValuesArray
@@ -938,10 +938,15 @@ eIgnoreCase
 )
 !
 =
+AttrArray
+:
+:
 ATTR_VALUE_NO_MATCH
 )
+{
 return
 ;
+}
 RefPtr
 <
 AsyncEventDispatcher
