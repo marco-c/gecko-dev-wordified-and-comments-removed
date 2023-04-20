@@ -1021,7 +1021,7 @@ s
 -
 >
 val
-TRUE
+true
 )
 ;
 RBBINode
@@ -1036,7 +1036,7 @@ val
 -
 >
 fLeftChild
-FALSE
+false
 )
 ;
 RBBIDebugPrintf

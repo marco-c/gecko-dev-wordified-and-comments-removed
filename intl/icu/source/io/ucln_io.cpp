@@ -180,7 +180,7 @@ ucln_unRegisterAutomaticCleanup
 #
 endif
 return
-TRUE
+true
 ;
 }
 void

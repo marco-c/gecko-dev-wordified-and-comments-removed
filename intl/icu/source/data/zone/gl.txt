@@ -4338,9 +4338,9 @@ UTC
 ls
 {
 "
-Horario
+hora
 universal
-coordinado
+coordinada
 "
 }
 }
@@ -4353,7 +4353,7 @@ Unknown
 ec
 {
 "
-Cidade
+cidade
 desco
 ecida
 "
@@ -4546,11 +4546,10 @@ n
 ld
 {
 "
-Horario
+hora
 est
 ndar
-irland
-s
+irlandesa
 "
 }
 }
@@ -4714,12 +4713,12 @@ Londres
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
 brit
-nico
+nica
 "
 }
 }
@@ -5838,7 +5837,7 @@ Afghanistan
 ls
 {
 "
-Horario
+hora
 de
 Afganist
 n
@@ -5854,7 +5853,7 @@ Africa_Central
 ls
 {
 "
-Horario
+hora
 de
 frica
 Central
@@ -5870,7 +5869,7 @@ Africa_Eastern
 ls
 {
 "
-Horario
+hora
 de
 frica
 Oriental
@@ -5886,7 +5885,7 @@ Africa_Southern
 ls
 {
 "
-Horario
+hora
 de
 frica
 Meridional
@@ -5902,7 +5901,7 @@ Africa_Western
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -5914,7 +5913,7 @@ Occidental
 lg
 {
 "
-Horario
+hora
 de
 frica
 Occidental
@@ -5923,7 +5922,7 @@ Occidental
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -5941,7 +5940,7 @@ Alaska
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -5952,7 +5951,7 @@ Alasca
 lg
 {
 "
-Horario
+hora
 de
 Alasca
 "
@@ -5960,7 +5959,7 @@ Alasca
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -5977,7 +5976,7 @@ Amazon
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -5988,7 +5987,7 @@ Amazonas
 lg
 {
 "
-Horario
+hora
 do
 Amazonas
 "
@@ -5996,7 +5995,7 @@ Amazonas
 ls
 {
 "
-Horario
+hora
 est
 ndar
 do
@@ -6013,7 +6012,7 @@ America_Central
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6025,7 +6024,7 @@ rica
 lg
 {
 "
-Horario
+hora
 central
 Norteam
 rica
@@ -6034,7 +6033,7 @@ rica
 ls
 {
 "
-Horario
+hora
 est
 ndar
 central
@@ -6052,7 +6051,7 @@ America_Eastern
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6067,7 +6066,7 @@ Norte
 lg
 {
 "
-Horario
+hora
 do
 leste
 Am
@@ -6079,7 +6078,7 @@ Norte
 ls
 {
 "
-Horario
+hora
 est
 ndar
 do
@@ -6100,7 +6099,7 @@ America_Mountain
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6116,7 +6115,7 @@ Norte
 lg
 {
 "
-Horario
+hora
 da
 monta
 a
@@ -6129,7 +6128,7 @@ Norte
 ls
 {
 "
-Horario
+hora
 est
 ndar
 da
@@ -6151,7 +6150,7 @@ America_Pacific
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6167,7 +6166,7 @@ Norte
 lg
 {
 "
-Horario
+hora
 do
 Pac
 fico
@@ -6180,7 +6179,7 @@ Norte
 ls
 {
 "
-Horario
+hora
 est
 ndar
 do
@@ -6238,7 +6237,7 @@ Apia
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6249,7 +6248,7 @@ Apia
 lg
 {
 "
-Horario
+hora
 de
 Apia
 "
@@ -6257,7 +6256,7 @@ Apia
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -6274,7 +6273,7 @@ Arabian
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6284,14 +6283,14 @@ rabe
 lg
 {
 "
-Horario
+hora
 rabe
 "
 }
 ls
 {
 "
-Horario
+hora
 est
 ndar
 rabe
@@ -6307,7 +6306,7 @@ Argentina
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6318,7 +6317,7 @@ Arxentina
 lg
 {
 "
-Horario
+hora
 da
 Arxentina
 "
@@ -6326,7 +6325,7 @@ Arxentina
 ls
 {
 "
-Horario
+hora
 est
 ndar
 da
@@ -6343,7 +6342,7 @@ Argentina_Western
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6355,7 +6354,7 @@ Occidental
 lg
 {
 "
-Horario
+hora
 da
 Arxentina
 Occidental
@@ -6364,7 +6363,7 @@ Occidental
 ls
 {
 "
-Horario
+hora
 est
 ndar
 da
@@ -6382,7 +6381,7 @@ Armenia
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6393,7 +6392,7 @@ Armenia
 lg
 {
 "
-Horario
+hora
 de
 Armenia
 "
@@ -6401,7 +6400,7 @@ Armenia
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -6418,7 +6417,7 @@ Atlantic
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6430,7 +6429,7 @@ ntico
 lg
 {
 "
-Horario
+hora
 do
 Atl
 ntico
@@ -6439,7 +6438,7 @@ ntico
 ls
 {
 "
-Horario
+hora
 est
 ndar
 do
@@ -6457,7 +6456,7 @@ Australia_Central
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6469,7 +6468,7 @@ Central
 lg
 {
 "
-Horario
+hora
 de
 Australia
 Central
@@ -6478,7 +6477,7 @@ Central
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -6496,7 +6495,7 @@ Australia_CentralWestern
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6509,7 +6508,7 @@ Central
 lg
 {
 "
-Horario
+hora
 de
 Australia
 Occidental
@@ -6519,7 +6518,7 @@ Central
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -6538,7 +6537,7 @@ Australia_Eastern
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6550,7 +6549,7 @@ Oriental
 lg
 {
 "
-Horario
+hora
 de
 Australia
 Oriental
@@ -6559,7 +6558,7 @@ Oriental
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -6577,7 +6576,7 @@ Australia_Western
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6589,7 +6588,7 @@ Occidental
 lg
 {
 "
-Horario
+hora
 de
 Australia
 Occidental
@@ -6598,7 +6597,7 @@ Occidental
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -6616,7 +6615,7 @@ Azerbaijan
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6628,7 +6627,7 @@ n
 lg
 {
 "
-Horario
+hora
 de
 Acerbaix
 n
@@ -6637,7 +6636,7 @@ n
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -6655,7 +6654,7 @@ Azores
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6666,7 +6665,7 @@ Azores
 lg
 {
 "
-Horario
+hora
 dos
 Azores
 "
@@ -6674,7 +6673,7 @@ Azores
 ls
 {
 "
-Horario
+hora
 est
 ndar
 dos
@@ -6691,7 +6690,7 @@ Bangladesh
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6702,7 +6701,7 @@ Bangladesh
 lg
 {
 "
-Horario
+hora
 de
 Bangladesh
 "
@@ -6710,7 +6709,7 @@ Bangladesh
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -6727,7 +6726,7 @@ Bhutan
 ls
 {
 "
-Horario
+hora
 de
 But
 n
@@ -6743,7 +6742,7 @@ Bolivia
 ls
 {
 "
-Horario
+hora
 de
 Bolivia
 "
@@ -6758,7 +6757,7 @@ Brasilia
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6769,7 +6768,7 @@ Brasilia
 lg
 {
 "
-Horario
+hora
 de
 Brasilia
 "
@@ -6777,7 +6776,7 @@ Brasilia
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -6794,7 +6793,7 @@ Brunei
 ls
 {
 "
-Horario
+hora
 de
 Brunei
 Darussalam
@@ -6810,7 +6809,7 @@ Cape_Verde
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6822,7 +6821,7 @@ Verde
 lg
 {
 "
-Horario
+hora
 de
 Cabo
 Verde
@@ -6831,7 +6830,7 @@ Verde
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -6849,7 +6848,7 @@ Chamorro
 ls
 {
 "
-Horario
+hora
 est
 ndar
 chamorro
@@ -6865,7 +6864,7 @@ Chatham
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6876,7 +6875,7 @@ Chatham
 lg
 {
 "
-Horario
+hora
 de
 Chatham
 "
@@ -6884,7 +6883,7 @@ Chatham
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -6901,7 +6900,7 @@ Chile
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6912,7 +6911,7 @@ Chile
 lg
 {
 "
-Horario
+hora
 de
 Chile
 "
@@ -6920,7 +6919,7 @@ Chile
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -6937,7 +6936,7 @@ China
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6948,7 +6947,7 @@ China
 lg
 {
 "
-Horario
+hora
 da
 China
 "
@@ -6956,7 +6955,7 @@ China
 ls
 {
 "
-Horario
+hora
 est
 ndar
 da
@@ -6973,7 +6972,7 @@ Choibalsan
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -6984,7 +6983,7 @@ Choibalsan
 lg
 {
 "
-Horario
+hora
 de
 Choibalsan
 "
@@ -6992,7 +6991,7 @@ Choibalsan
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -7009,7 +7008,7 @@ Christmas
 ls
 {
 "
-Horario
+hora
 da
 Illa
 Christmas
@@ -7025,7 +7024,7 @@ Cocos
 ls
 {
 "
-Horario
+hora
 das
 Illas
 Cocos
@@ -7041,7 +7040,7 @@ Colombia
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -7052,7 +7051,7 @@ Colombia
 lg
 {
 "
-Horario
+hora
 de
 Colombia
 "
@@ -7060,7 +7059,7 @@ Colombia
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -7077,7 +7076,7 @@ Cook
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -7090,7 +7089,7 @@ Cook
 lg
 {
 "
-Horario
+hora
 das
 Illas
 Cook
@@ -7099,7 +7098,7 @@ Cook
 ls
 {
 "
-Horario
+hora
 est
 ndar
 das
@@ -7117,7 +7116,7 @@ Cuba
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -7128,7 +7127,7 @@ Cuba
 lg
 {
 "
-Horario
+hora
 de
 Cuba
 "
@@ -7136,7 +7135,7 @@ Cuba
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -7153,7 +7152,7 @@ Davis
 ls
 {
 "
-Horario
+hora
 de
 Davis
 "
@@ -7168,7 +7167,7 @@ DumontDUrville
 ls
 {
 "
-Horario
+hora
 de
 Dumont
 -
@@ -7186,7 +7185,7 @@ East_Timor
 ls
 {
 "
-Horario
+hora
 de
 Timor
 Leste
@@ -7202,7 +7201,7 @@ Easter
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -7215,7 +7214,7 @@ Pascua
 lg
 {
 "
-Horario
+hora
 da
 Illa
 de
@@ -7225,7 +7224,7 @@ Pascua
 ls
 {
 "
-Horario
+hora
 est
 ndar
 da
@@ -7244,7 +7243,7 @@ Ecuador
 ls
 {
 "
-Horario
+hora
 de
 Ecuador
 "
@@ -7259,7 +7258,7 @@ Europe_Central
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -7271,7 +7270,7 @@ Central
 lg
 {
 "
-Horario
+hora
 de
 Europa
 Central
@@ -7280,7 +7279,7 @@ Central
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -7316,7 +7315,7 @@ Europe_Eastern
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -7328,7 +7327,7 @@ Oriental
 lg
 {
 "
-Horario
+hora
 de
 Europa
 Oriental
@@ -7337,7 +7336,7 @@ Oriental
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -7373,7 +7372,7 @@ Europe_Further_Eastern
 ls
 {
 "
-Horario
+hora
 do
 extremo
 leste
@@ -7390,7 +7389,7 @@ Europe_Western
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -7402,7 +7401,7 @@ Occidental
 lg
 {
 "
-Horario
+hora
 de
 Europa
 Occidental
@@ -7411,7 +7410,7 @@ Occidental
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -7447,7 +7446,7 @@ Falkland
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -7459,7 +7458,7 @@ Malvinas
 lg
 {
 "
-Horario
+hora
 das
 Illas
 Malvinas
@@ -7468,7 +7467,7 @@ Malvinas
 ls
 {
 "
-Horario
+hora
 est
 ndar
 das
@@ -7486,7 +7485,7 @@ Fiji
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -7497,7 +7496,7 @@ Fixi
 lg
 {
 "
-Horario
+hora
 de
 Fixi
 "
@@ -7505,7 +7504,7 @@ Fixi
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -7522,7 +7521,7 @@ French_Guiana
 ls
 {
 "
-Horario
+hora
 da
 G
 iana
@@ -7539,7 +7538,7 @@ French_Southern
 ls
 {
 "
-Horario
+hora
 das
 Terras
 Austrais
@@ -7559,7 +7558,7 @@ GMT
 ls
 {
 "
-Horario
+hora
 do
 meridiano
 de
@@ -7582,7 +7581,7 @@ Galapagos
 ls
 {
 "
-Horario
+hora
 das
 Gal
 pagos
@@ -7598,7 +7597,7 @@ Gambier
 ls
 {
 "
-Horario
+hora
 de
 Gambier
 "
@@ -7613,7 +7612,7 @@ Georgia
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -7624,7 +7623,7 @@ Xeorxia
 lg
 {
 "
-Horario
+hora
 de
 Xeorxia
 "
@@ -7632,7 +7631,7 @@ Xeorxia
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -7649,7 +7648,7 @@ Gilbert_Islands
 ls
 {
 "
-Horario
+hora
 das
 Illas
 Gilbert
@@ -7665,7 +7664,7 @@ Greenland_Eastern
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -7677,7 +7676,7 @@ Oriental
 lg
 {
 "
-Horario
+hora
 de
 Groenlandia
 Oriental
@@ -7686,7 +7685,7 @@ Oriental
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -7704,7 +7703,7 @@ Greenland_Western
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -7716,7 +7715,7 @@ Occidental
 lg
 {
 "
-Horario
+hora
 de
 Groenlandia
 Occidental
@@ -7725,7 +7724,7 @@ Occidental
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -7743,7 +7742,7 @@ Gulf
 ls
 {
 "
-Horario
+hora
 do
 Golfo
 "
@@ -7758,7 +7757,7 @@ Guyana
 ls
 {
 "
-Horario
+hora
 da
 G
 iana
@@ -7774,7 +7773,7 @@ Hawaii_Aleutian
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -7788,7 +7787,7 @@ Aleutianas
 lg
 {
 "
-Horario
+hora
 de
 Hawai
 -
@@ -7799,7 +7798,7 @@ Aleutianas
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -7819,7 +7818,7 @@ Hong_Kong
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -7831,7 +7830,7 @@ Kong
 lg
 {
 "
-Horario
+hora
 de
 Hong
 Kong
@@ -7840,7 +7839,7 @@ Kong
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -7858,7 +7857,7 @@ Hovd
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -7869,7 +7868,7 @@ Hovd
 lg
 {
 "
-Horario
+hora
 de
 Hovd
 "
@@ -7877,7 +7876,7 @@ Hovd
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -7894,7 +7893,7 @@ India
 ls
 {
 "
-Horario
+hora
 da
 India
 "
@@ -7909,7 +7908,7 @@ Indian_Ocean
 ls
 {
 "
-Horario
+hora
 do
 Oc
 ano
@@ -7926,7 +7925,7 @@ Indochina
 ls
 {
 "
-Horario
+hora
 de
 Indochina
 "
@@ -7941,7 +7940,7 @@ Indonesia_Central
 ls
 {
 "
-Horario
+hora
 de
 Indonesia
 Central
@@ -7957,7 +7956,7 @@ Indonesia_Eastern
 ls
 {
 "
-Horario
+hora
 de
 Indonesia
 Oriental
@@ -7973,7 +7972,7 @@ Indonesia_Western
 ls
 {
 "
-Horario
+hora
 de
 Indonesia
 Occidental
@@ -7989,7 +7988,7 @@ Iran
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8001,7 +8000,7 @@ n
 lg
 {
 "
-Horario
+hora
 de
 Ir
 n
@@ -8010,7 +8009,7 @@ n
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -8028,7 +8027,7 @@ Irkutsk
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8039,7 +8038,7 @@ Irkutsk
 lg
 {
 "
-Horario
+hora
 de
 Irkutsk
 "
@@ -8047,7 +8046,7 @@ Irkutsk
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -8064,7 +8063,7 @@ Israel
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8075,7 +8074,7 @@ Israel
 lg
 {
 "
-Horario
+hora
 de
 Israel
 "
@@ -8083,7 +8082,7 @@ Israel
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -8100,7 +8099,7 @@ Japan
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8112,7 +8111,7 @@ n
 lg
 {
 "
-Horario
+hora
 do
 Xap
 n
@@ -8121,7 +8120,7 @@ n
 ls
 {
 "
-Horario
+hora
 est
 ndar
 do
@@ -8184,7 +8183,7 @@ Kazakhstan_Eastern
 ls
 {
 "
-Horario
+hora
 de
 Kazakist
 n
@@ -8201,7 +8200,7 @@ Kazakhstan_Western
 ls
 {
 "
-Horario
+hora
 de
 Kazakist
 n
@@ -8218,7 +8217,7 @@ Korea
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8229,7 +8228,7 @@ Corea
 lg
 {
 "
-Horario
+hora
 de
 Corea
 "
@@ -8237,7 +8236,7 @@ Corea
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -8254,7 +8253,7 @@ Kosrae
 ls
 {
 "
-Horario
+hora
 de
 Kosrae
 "
@@ -8269,7 +8268,7 @@ Krasnoyarsk
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8280,7 +8279,7 @@ Krasnoiarsk
 lg
 {
 "
-Horario
+hora
 de
 Krasnoiarsk
 "
@@ -8288,7 +8287,7 @@ Krasnoiarsk
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -8305,7 +8304,7 @@ Kyrgystan
 ls
 {
 "
-Horario
+hora
 de
 Kirguizist
 n
@@ -8321,7 +8320,7 @@ Line_Islands
 ls
 {
 "
-Horario
+hora
 das
 Illas
 da
@@ -8339,7 +8338,7 @@ Lord_Howe
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8351,7 +8350,7 @@ Howe
 lg
 {
 "
-Horario
+hora
 de
 Lord
 Howe
@@ -8360,7 +8359,7 @@ Howe
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -8378,7 +8377,7 @@ Macquarie
 ls
 {
 "
-Horario
+hora
 da
 Illa
 Macquarie
@@ -8394,7 +8393,7 @@ Magadan
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8405,7 +8404,7 @@ Magadan
 lg
 {
 "
-Horario
+hora
 de
 Magadan
 "
@@ -8413,7 +8412,7 @@ Magadan
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -8430,7 +8429,7 @@ Malaysia
 ls
 {
 "
-Horario
+hora
 de
 Malaisia
 "
@@ -8445,7 +8444,7 @@ Maldives
 ls
 {
 "
-Horario
+hora
 das
 Maldivas
 "
@@ -8460,7 +8459,7 @@ Marquesas
 ls
 {
 "
-Horario
+hora
 das
 Marquesas
 "
@@ -8475,7 +8474,7 @@ Marshall_Islands
 ls
 {
 "
-Horario
+hora
 das
 Illas
 Marshall
@@ -8491,7 +8490,7 @@ Mauritius
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8502,7 +8501,7 @@ Mauricio
 lg
 {
 "
-Horario
+hora
 de
 Mauricio
 "
@@ -8510,7 +8509,7 @@ Mauricio
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -8527,7 +8526,7 @@ Mawson
 ls
 {
 "
-Horario
+hora
 de
 Mawson
 "
@@ -8542,7 +8541,7 @@ Mexico_Northwest
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8556,7 +8555,7 @@ xico
 lg
 {
 "
-Horario
+hora
 do
 noroeste
 de
@@ -8567,7 +8566,7 @@ xico
 ls
 {
 "
-Horario
+hora
 est
 ndar
 do
@@ -8587,7 +8586,7 @@ Mexico_Pacific
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8600,7 +8599,7 @@ mexicano
 lg
 {
 "
-Horario
+hora
 do
 Pac
 fico
@@ -8610,7 +8609,7 @@ mexicano
 ls
 {
 "
-Horario
+hora
 est
 ndar
 do
@@ -8629,7 +8628,7 @@ Mongolia
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8640,7 +8639,7 @@ Ulaanbaatar
 lg
 {
 "
-Horario
+hora
 de
 Ulaanbaatar
 "
@@ -8648,7 +8647,7 @@ Ulaanbaatar
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -8665,7 +8664,7 @@ Moscow
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8676,7 +8675,7 @@ Moscova
 lg
 {
 "
-Horario
+hora
 de
 Moscova
 "
@@ -8684,7 +8683,7 @@ Moscova
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -8701,7 +8700,7 @@ Myanmar
 ls
 {
 "
-Horario
+hora
 de
 Myanmar
 "
@@ -8716,7 +8715,7 @@ Nauru
 ls
 {
 "
-Horario
+hora
 de
 Nauru
 "
@@ -8731,7 +8730,7 @@ Nepal
 ls
 {
 "
-Horario
+hora
 de
 Nepal
 "
@@ -8746,7 +8745,7 @@ New_Caledonia
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8758,7 +8757,7 @@ Caledonia
 lg
 {
 "
-Horario
+hora
 de
 Nova
 Caledonia
@@ -8767,7 +8766,7 @@ Caledonia
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -8785,7 +8784,7 @@ New_Zealand
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8797,7 +8796,7 @@ Zelandia
 lg
 {
 "
-Horario
+hora
 de
 Nova
 Zelandia
@@ -8806,7 +8805,7 @@ Zelandia
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -8824,7 +8823,7 @@ Newfoundland
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8836,7 +8835,7 @@ Nova
 lg
 {
 "
-Horario
+hora
 de
 Terra
 Nova
@@ -8845,7 +8844,7 @@ Nova
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -8863,7 +8862,7 @@ Niue
 ls
 {
 "
-Horario
+hora
 de
 Niue
 "
@@ -8878,7 +8877,7 @@ Norfolk
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8890,7 +8889,7 @@ Norfolk
 lg
 {
 "
-Horario
+hora
 da
 Illa
 Norfolk
@@ -8899,7 +8898,7 @@ Norfolk
 ls
 {
 "
-Horario
+hora
 est
 ndar
 da
@@ -8917,7 +8916,7 @@ Noronha
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8930,7 +8929,7 @@ Noronha
 lg
 {
 "
-Horario
+hora
 de
 Fernando
 de
@@ -8940,7 +8939,7 @@ Noronha
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -8959,7 +8958,7 @@ Novosibirsk
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -8970,7 +8969,7 @@ Novosibirsk
 lg
 {
 "
-Horario
+hora
 de
 Novosibirsk
 "
@@ -8978,7 +8977,7 @@ Novosibirsk
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -8995,7 +8994,7 @@ Omsk
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -9006,7 +9005,7 @@ Omsk
 lg
 {
 "
-Horario
+hora
 de
 Omsk
 "
@@ -9014,7 +9013,7 @@ Omsk
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -9031,7 +9030,7 @@ Pakistan
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -9043,7 +9042,7 @@ n
 lg
 {
 "
-Horario
+hora
 de
 Paquist
 n
@@ -9052,7 +9051,7 @@ n
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -9070,7 +9069,7 @@ Palau
 ls
 {
 "
-Horario
+hora
 de
 Palau
 "
@@ -9085,7 +9084,7 @@ Papua_New_Guinea
 ls
 {
 "
-Horario
+hora
 de
 Pap
 a
@@ -9104,7 +9103,7 @@ Paraguay
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -9115,7 +9114,7 @@ Paraguai
 lg
 {
 "
-Horario
+hora
 do
 Paraguai
 "
@@ -9123,7 +9122,7 @@ Paraguai
 ls
 {
 "
-Horario
+hora
 est
 ndar
 do
@@ -9140,7 +9139,7 @@ Peru
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -9151,7 +9150,7 @@ Per
 lg
 {
 "
-Horario
+hora
 do
 Per
 "
@@ -9159,7 +9158,7 @@ Per
 ls
 {
 "
-Horario
+hora
 est
 ndar
 do
@@ -9176,7 +9175,7 @@ Philippines
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -9187,7 +9186,7 @@ Filipinas
 lg
 {
 "
-Horario
+hora
 de
 Filipinas
 "
@@ -9195,7 +9194,7 @@ Filipinas
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -9212,7 +9211,7 @@ Phoenix_Islands
 ls
 {
 "
-Horario
+hora
 das
 Illas
 F
@@ -9229,7 +9228,7 @@ Pierre_Miquelon
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -9243,7 +9242,7 @@ Miquelon
 lg
 {
 "
-Horario
+hora
 de
 Saint
 Pierre
@@ -9254,7 +9253,7 @@ Miquelon
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -9274,7 +9273,7 @@ Pitcairn
 ls
 {
 "
-Horario
+hora
 de
 Pitcairn
 "
@@ -9289,7 +9288,7 @@ Ponape
 ls
 {
 "
-Horario
+hora
 de
 Pohnpei
 "
@@ -9304,7 +9303,7 @@ Pyongyang
 ls
 {
 "
-Horario
+hora
 de
 Pyongyang
 "
@@ -9319,7 +9318,7 @@ Reunion
 ls
 {
 "
-Horario
+hora
 de
 Reuni
 n
@@ -9335,7 +9334,7 @@ Rothera
 ls
 {
 "
-Horario
+hora
 de
 Rothera
 "
@@ -9350,7 +9349,7 @@ Sakhalin
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -9362,7 +9361,7 @@ n
 lg
 {
 "
-Horario
+hora
 de
 Sakhal
 n
@@ -9371,7 +9370,7 @@ n
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -9425,7 +9424,7 @@ Samoa
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -9436,7 +9435,7 @@ Samoa
 lg
 {
 "
-Horario
+hora
 de
 Samoa
 "
@@ -9444,7 +9443,7 @@ Samoa
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -9461,7 +9460,7 @@ Seychelles
 ls
 {
 "
-Horario
+hora
 das
 Seychelles
 "
@@ -9476,7 +9475,7 @@ Singapore
 ls
 {
 "
-Horario
+hora
 de
 Singapur
 "
@@ -9491,7 +9490,7 @@ Solomon
 ls
 {
 "
-Horario
+hora
 das
 Illas
 Salom
@@ -9508,7 +9507,7 @@ South_Georgia
 ls
 {
 "
-Horario
+hora
 de
 Xeorxia
 do
@@ -9525,7 +9524,7 @@ Suriname
 ls
 {
 "
-Horario
+hora
 de
 Suriname
 "
@@ -9540,7 +9539,7 @@ Syowa
 ls
 {
 "
-Horario
+hora
 de
 Syowa
 "
@@ -9555,7 +9554,7 @@ Tahiti
 ls
 {
 "
-Horario
+hora
 de
 Tahit
 "
@@ -9570,7 +9569,7 @@ Taipei
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -9581,7 +9580,7 @@ Taipei
 lg
 {
 "
-Horario
+hora
 de
 Taipei
 "
@@ -9589,7 +9588,7 @@ Taipei
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -9606,7 +9605,7 @@ Tajikistan
 ls
 {
 "
-Horario
+hora
 de
 Taxiquist
 n
@@ -9622,7 +9621,7 @@ Tokelau
 ls
 {
 "
-Horario
+hora
 de
 Tokelau
 "
@@ -9637,7 +9636,7 @@ Tonga
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -9648,7 +9647,7 @@ Tonga
 lg
 {
 "
-Horario
+hora
 de
 Tonga
 "
@@ -9656,7 +9655,7 @@ Tonga
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -9673,7 +9672,7 @@ Truk
 ls
 {
 "
-Horario
+hora
 de
 Chuuk
 "
@@ -9688,7 +9687,7 @@ Turkmenistan
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -9700,7 +9699,7 @@ n
 lg
 {
 "
-Horario
+hora
 de
 Turkmenist
 n
@@ -9709,7 +9708,7 @@ n
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -9727,7 +9726,7 @@ Tuvalu
 ls
 {
 "
-Horario
+hora
 de
 Tuvalu
 "
@@ -9742,7 +9741,7 @@ Uruguay
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -9753,7 +9752,7 @@ Uruguai
 lg
 {
 "
-Horario
+hora
 do
 Uruguai
 "
@@ -9761,7 +9760,7 @@ Uruguai
 ls
 {
 "
-Horario
+hora
 est
 ndar
 do
@@ -9778,7 +9777,7 @@ Uzbekistan
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -9790,7 +9789,7 @@ n
 lg
 {
 "
-Horario
+hora
 de
 Uzbekist
 n
@@ -9799,7 +9798,7 @@ n
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -9817,7 +9816,7 @@ Vanuatu
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -9828,7 +9827,7 @@ Vanuatu
 lg
 {
 "
-Horario
+hora
 de
 Vanuatu
 "
@@ -9836,7 +9835,7 @@ Vanuatu
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -9853,7 +9852,7 @@ Venezuela
 ls
 {
 "
-Horario
+hora
 de
 Venezuela
 "
@@ -9868,7 +9867,7 @@ Vladivostok
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -9879,7 +9878,7 @@ Vladivostok
 lg
 {
 "
-Horario
+hora
 de
 Vladivostok
 "
@@ -9887,7 +9886,7 @@ Vladivostok
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -9904,7 +9903,7 @@ Volgograd
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -9915,7 +9914,7 @@ Volgogrado
 lg
 {
 "
-Horario
+hora
 de
 Volgogrado
 "
@@ -9923,7 +9922,7 @@ Volgogrado
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -9940,7 +9939,7 @@ Vostok
 ls
 {
 "
-Horario
+hora
 de
 Vostok
 "
@@ -9955,7 +9954,7 @@ Wake
 ls
 {
 "
-Horario
+hora
 da
 Illa
 Wake
@@ -9971,7 +9970,7 @@ Wallis
 ls
 {
 "
-Horario
+hora
 de
 Wallis
 e
@@ -9988,7 +9987,7 @@ Yakutsk
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -9999,7 +9998,7 @@ Iakutsk
 lg
 {
 "
-Horario
+hora
 de
 Iakutsk
 "
@@ -10007,7 +10006,7 @@ Iakutsk
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -10024,7 +10023,7 @@ Yekaterinburg
 ld
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -10035,7 +10034,7 @@ Ekaterimburgo
 lg
 {
 "
-Horario
+hora
 de
 Ekaterimburgo
 "
@@ -10043,7 +10042,7 @@ Ekaterimburgo
 ls
 {
 "
-Horario
+hora
 est
 ndar
 de
@@ -10060,7 +10059,7 @@ Yukon
 ls
 {
 "
-Horario
+hora
 de
 Yukon
 "
@@ -10111,7 +10110,7 @@ mm
 regionFormat
 {
 "
-Horario
+hora
 de
 :
 {
@@ -10122,7 +10121,7 @@ de
 regionFormatDaylight
 {
 "
-Horario
+hora
 de
 ver
 n
@@ -10136,7 +10135,7 @@ de
 regionFormatStandard
 {
 "
-Horario
+hora
 est
 ndar
 de

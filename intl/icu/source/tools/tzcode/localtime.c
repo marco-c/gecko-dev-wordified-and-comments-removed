@@ -1,5 +1,12 @@
 #
 include
+<
+stdbool
+.
+h
+>
+#
+include
 "
 private
 .
@@ -1593,7 +1600,7 @@ sp
 >
 goahead
 =
-FALSE
+false
 ;
 if
 (
@@ -1754,7 +1761,7 @@ NULL
 )
 doaccess
 =
-TRUE
+true
 ;
 name
 =
@@ -2644,7 +2651,7 @@ ttisp
 >
 tt_ttisstd
 =
-FALSE
+false
 ;
 else
 {
@@ -2666,7 +2673,7 @@ ttisp
 tt_ttisstd
 !
 =
-TRUE
+true
 &
 &
 ttisp
@@ -2675,7 +2682,7 @@ ttisp
 tt_ttisstd
 !
 =
-FALSE
+false
 )
 goto
 oops
@@ -2729,7 +2736,7 @@ ttisp
 >
 tt_ttisgmt
 =
-FALSE
+false
 ;
 else
 {
@@ -2751,7 +2758,7 @@ ttisp
 tt_ttisgmt
 !
 =
-TRUE
+true
 &
 &
 ttisp
@@ -2760,7 +2767,7 @@ ttisp
 tt_ttisgmt
 !
 =
-FALSE
+false
 )
 goto
 oops
@@ -2936,7 +2943,7 @@ buf
 ]
 &
 ts
-FALSE
+false
 )
 ;
 if
@@ -3256,7 +3263,7 @@ sp
 >
 goback
 =
-TRUE
+true
 ;
 break
 ;
@@ -3337,7 +3344,7 @@ sp
 >
 goahead
 =
-TRUE
+true
 ;
 break
 ;
@@ -3599,7 +3606,7 @@ typecnt
 )
 result
 =
-FALSE
+false
 ;
 else
 {
@@ -5055,7 +5062,7 @@ tzload
 (
 TZDEFRULES
 sp
-FALSE
+false
 )
 ;
 if
@@ -5875,7 +5882,7 @@ break
 }
 isdst
 =
-FALSE
+false
 ;
 theiroffset
 =
@@ -6067,7 +6074,7 @@ ttis
 .
 tt_isdst
 =
-FALSE
+false
 ;
 sp
 -
@@ -6104,7 +6111,7 @@ ttis
 .
 tt_isdst
 =
-TRUE
+true
 ;
 sp
 -
@@ -6341,7 +6348,7 @@ tzload
 (
 gmt
 sp
-TRUE
+true
 )
 !
 =
@@ -6354,7 +6361,7 @@ tzparse
 (
 gmt
 sp
-TRUE
+true
 )
 ;
 }
@@ -6427,7 +6434,7 @@ tzload
 (
 NULL
 lclptr
-TRUE
+true
 )
 !
 =
@@ -6647,7 +6654,7 @@ tzload
 (
 name
 lclptr
-TRUE
+true
 )
 !
 =
@@ -6670,7 +6677,7 @@ tzparse
 (
 name
 lclptr
-FALSE
+false
 )
 !
 =
@@ -7286,7 +7293,7 @@ gmt_is_set
 {
 gmt_is_set
 =
-TRUE
+true
 ;
 #
 ifdef
@@ -8387,7 +8394,7 @@ i
 )
 )
 return
-TRUE
+true
 ;
 *
 ip
@@ -8396,7 +8403,7 @@ ip
 j
 ;
 return
-FALSE
+false
 ;
 }
 static
@@ -8446,7 +8453,7 @@ l
 )
 )
 return
-TRUE
+true
 ;
 *
 lp
@@ -8455,7 +8462,7 @@ lp
 m
 ;
 return
-FALSE
+false
 ;
 }
 static
@@ -8510,7 +8517,7 @@ j
 )
 )
 return
-TRUE
+true
 ;
 *
 tp
@@ -8519,7 +8526,7 @@ tp
 j
 ;
 return
-FALSE
+false
 ;
 }
 static
@@ -8897,7 +8904,7 @@ mytm
 *
 okayp
 =
-FALSE
+false
 ;
 yourtm
 =
@@ -9766,7 +9773,7 @@ tmp
 *
 okayp
 =
-TRUE
+true
 ;
 return
 t
@@ -9818,7 +9825,7 @@ tmp
 funcp
 offset
 okayp
-FALSE
+false
 )
 ;
 return
@@ -9833,7 +9840,7 @@ tmp
 funcp
 offset
 okayp
-TRUE
+true
 )
 ;
 }
@@ -10041,7 +10048,7 @@ seen
 i
 ]
 =
-FALSE
+false
 ;
 nseen
 =
@@ -10093,7 +10100,7 @@ i
 ]
 ]
 =
-TRUE
+true
 ;
 types
 [

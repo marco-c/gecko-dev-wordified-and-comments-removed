@@ -123,7 +123,7 @@ cleanupRegionData
 )
 ;
 return
-TRUE
+true
 ;
 }
 U_CDECL_END
@@ -131,8 +131,8 @@ U_NAMESPACE_BEGIN
 static
 UInitOnce
 gRegionDataInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 static
 UVector
@@ -4128,7 +4128,7 @@ containedRegions
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -4150,7 +4150,7 @@ idStr
 )
 {
 return
-TRUE
+true
 ;
 }
 else
@@ -4225,13 +4225,13 @@ other
 )
 {
 return
-TRUE
+true
 ;
 }
 }
 }
 return
-FALSE
+false
 ;
 }
 StringEnumeration

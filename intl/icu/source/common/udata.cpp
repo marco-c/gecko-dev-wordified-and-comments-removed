@@ -175,11 +175,9 @@ NULL
 static
 u_atomic_int32_t
 gHaveTriedToLoadCommonData
-=
-ATOMIC_INT32_T_INITIALIZER
-(
+{
 0
-)
+}
 ;
 static
 UHashtable
@@ -194,8 +192,8 @@ icu
 :
 UInitOnce
 gCommonDataCacheInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 #
 if
@@ -300,7 +298,7 @@ gHaveTriedToLoadCommonData
 0
 ;
 return
-TRUE
+true
 ;
 }
 static
@@ -320,7 +318,7 @@ err
 UBool
 found
 =
-FALSE
+false
 ;
 int32_t
 i
@@ -349,7 +347,7 @@ pData
 NULL
 )
 return
-FALSE
+false
 ;
 {
 Mutex
@@ -405,7 +403,7 @@ pHeader
 {
 found
 =
-TRUE
+true
 ;
 break
 ;
@@ -445,7 +443,7 @@ i
 UBool
 didUpdate
 =
-FALSE
+false
 ;
 if
 (
@@ -457,7 +455,7 @@ pErr
 )
 {
 return
-FALSE
+false
 ;
 }
 UDatamemory_assign
@@ -509,7 +507,7 @@ newCommonData
 ;
 didUpdate
 =
-TRUE
+true
 ;
 break
 ;
@@ -634,7 +632,7 @@ setCommonICUData
 (
 &
 tData
-FALSE
+false
 pErrorCode
 )
 ;
@@ -1796,7 +1794,7 @@ nextPath
 checkLastFour
 ?
 "
-TRUE
+true
 "
 :
 "
@@ -2050,9 +2048,6 @@ data
 if
 (
 checkLastFour
-=
-=
-TRUE
 &
 &
 (
@@ -2614,7 +2609,7 @@ setCommonICUDataPointer
 (
 &
 U_ICUDATA_ENTRY_POINT
-FALSE
+false
 pErrorCode
 )
 ;
@@ -2752,7 +2747,7 @@ path
 .
 dat
 "
-TRUE
+true
 pErrorCode
 )
 ;
@@ -2766,7 +2761,7 @@ tData
 )
 =
 =
-FALSE
+false
 )
 &
 &
@@ -2987,7 +2982,7 @@ copyPData
 UBool
 didUpdate
 =
-FALSE
+false
 ;
 #
 if
@@ -3065,7 +3060,7 @@ setCommonICUData
 (
 &
 copyPData
-FALSE
+false
 pErr
 )
 ;
@@ -3191,7 +3186,7 @@ setCommonICUData
 (
 &
 dataMemory
-TRUE
+true
 pErrorCode
 )
 ;
@@ -3477,7 +3472,7 @@ dataPath
 pkgName
 path
 tocEntryPathSuffix
-FALSE
+false
 pErrorCode
 )
 ;
@@ -3723,7 +3718,7 @@ commonDataIndex
 UBool
 checkedExtendedICUData
 =
-FALSE
+false
 ;
 for
 (
@@ -3956,7 +3951,7 @@ subErrorCode
 {
 checkedExtendedICUData
 =
-TRUE
+true
 ;
 }
 else
@@ -4108,7 +4103,7 @@ treeChar
 UBool
 isICUData
 =
-FALSE
+false
 ;
 FileTracer
 :
@@ -4166,7 +4161,7 @@ U_TREE_SEPARATOR_STRING
 {
 isICUData
 =
-TRUE
+true
 ;
 }
 #

@@ -323,13 +323,13 @@ formatVersion
 )
 {
 return
-TRUE
+true
 ;
 }
 else
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -631,8 +631,8 @@ icu
 :
 UInitOnce
 nfcInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 #
 endif
@@ -647,8 +647,8 @@ icu
 :
 UInitOnce
 nfkcInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 static
 Norm2AllModes
@@ -661,8 +661,8 @@ icu
 :
 UInitOnce
 nfkc_cfInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 static
 UHashtable
@@ -873,7 +873,7 @@ cache
 NULL
 ;
 return
-TRUE
+true
 ;
 }
 U_CDECL_END

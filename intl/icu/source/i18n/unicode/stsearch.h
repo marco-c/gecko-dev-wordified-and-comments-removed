@@ -341,6 +341,8 @@ private
 StringSearch
 (
 )
+=
+delete
 ;
 UnicodeString
 m_pattern_

@@ -2179,7 +2179,7 @@ ec
 {
 "
 Beulah
-North
+Severna
 Dakota
 "
 }
@@ -9397,8 +9397,7 @@ Yukon
 ls
 {
 "
-Jukon
-ki
+Jukonski
 as
 "
 }

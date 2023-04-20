@@ -859,7 +859,7 @@ if
 flush
 =
 =
-FALSE
+false
 )
 {
 textLength
@@ -1097,8 +1097,8 @@ u_file_write_flush
 NULL
 0
 f
-FALSE
-TRUE
+false
+true
 )
 ;
 }
@@ -1135,8 +1135,8 @@ u_file_write_flush
 NULL
 0
 f
-TRUE
-FALSE
+true
+false
 )
 ;
 }
@@ -1310,7 +1310,7 @@ idx
 UBool
 isError
 =
-FALSE
+false
 ;
 U16_APPEND
 (
@@ -1727,8 +1727,8 @@ u_file_write_flush
 chars
 count
 f
-FALSE
-FALSE
+false
+false
 )
 ;
 }
@@ -2461,7 +2461,7 @@ ch
 UBool
 isValidChar
 =
-FALSE
+false
 ;
 *
 ch
@@ -2502,7 +2502,7 @@ fPos
 ;
 isValidChar
 =
-TRUE
+true
 ;
 }
 else
@@ -2565,7 +2565,7 @@ fPos
 ;
 isValidChar
 =
-TRUE
+true
 ;
 }
 }
@@ -2613,7 +2613,7 @@ c32
 UBool
 isValidChar
 =
-FALSE
+false
 ;
 u_localized_string
 *
@@ -2727,7 +2727,7 @@ c16
 ;
 isValidChar
 =
-TRUE
+true
 ;
 }
 else
@@ -2743,7 +2743,7 @@ else
 {
 isValidChar
 =
-TRUE
+true
 ;
 }
 }

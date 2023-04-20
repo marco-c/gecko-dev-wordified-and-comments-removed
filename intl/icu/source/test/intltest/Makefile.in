@@ -1026,6 +1026,9 @@ o
 units_test
 .
 o
+displayoptions_test
+.
+o
 DEPS
 =
 (

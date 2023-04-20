@@ -159,12 +159,12 @@ s
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 return
-TRUE
+true
 ;
 }
 static
@@ -924,8 +924,8 @@ return
 process
 (
 label
-TRUE
-TRUE
+true
+true
 dest
 info
 errorCode
@@ -959,8 +959,8 @@ return
 process
 (
 label
-TRUE
-FALSE
+true
+false
 dest
 info
 errorCode
@@ -993,8 +993,8 @@ const
 process
 (
 name
-FALSE
-TRUE
+false
+true
 dest
 info
 errorCode
@@ -1089,8 +1089,8 @@ return
 process
 (
 name
-FALSE
-FALSE
+false
+false
 dest
 info
 errorCode
@@ -1120,8 +1120,8 @@ const
 processUTF8
 (
 label
-TRUE
-TRUE
+true
+true
 dest
 info
 errorCode
@@ -1151,8 +1151,8 @@ const
 processUTF8
 (
 label
-TRUE
-FALSE
+true
+false
 dest
 info
 errorCode
@@ -1182,8 +1182,8 @@ const
 processUTF8
 (
 name
-FALSE
-TRUE
+false
+true
 dest
 info
 errorCode
@@ -1213,8 +1213,8 @@ const
 processUTF8
 (
 name
-FALSE
-FALSE
+false
+false
 dest
 info
 errorCode
@@ -3009,7 +3009,7 @@ info
 .
 isTransDiff
 =
-TRUE
+true
 ;
 if
 (
@@ -3048,7 +3048,7 @@ getBuffer
 ;
 doMapDevChars
 =
-FALSE
+false
 ;
 continue
 ;
@@ -3269,7 +3269,7 @@ getCapacity
 UBool
 didMapDevChars
 =
-FALSE
+false
 ;
 int32_t
 readIndex
@@ -3301,7 +3301,7 @@ case
 :
 didMapDevChars
 =
-TRUE
+true
 ;
 s
 [
@@ -3411,7 +3411,7 @@ case
 :
 didMapDevChars
 =
-TRUE
+true
 ;
 s
 [
@@ -3432,7 +3432,7 @@ case
 :
 didMapDevChars
 =
-TRUE
+true
 ;
 -
 -
@@ -3801,7 +3801,7 @@ errorCode
 }
 wasPunycode
 =
-TRUE
+true
 ;
 UChar
 *
@@ -4036,7 +4036,7 @@ else
 {
 wasPunycode
 =
-FALSE
+false
 ;
 labelString
 =
@@ -4850,12 +4850,12 @@ UIDNA_USE_STD3_RULES
 UBool
 isASCII
 =
-TRUE
+true
 ;
 UBool
 onlyLDH
 =
-TRUE
+true
 ;
 const
 UChar
@@ -4943,7 +4943,7 @@ isASCII
 =
 onlyLDH
 =
-FALSE
+false
 ;
 }
 else
@@ -4959,7 +4959,7 @@ c
 {
 onlyLDH
 =
-FALSE
+false
 ;
 if
 (
@@ -4973,7 +4973,7 @@ s
 ;
 isASCII
 =
-FALSE
+false
 ;
 }
 }
@@ -4984,7 +4984,7 @@ isASCII
 =
 onlyLDH
 =
-FALSE
+false
 ;
 }
 }
@@ -5244,7 +5244,7 @@ info
 .
 isOkBiDi
 =
-FALSE
+false
 ;
 }
 uint32_t
@@ -5341,7 +5341,7 @@ info
 .
 isOkBiDi
 =
-FALSE
+false
 ;
 }
 uint32_t
@@ -5401,7 +5401,7 @@ info
 .
 isOkBiDi
 =
-FALSE
+false
 ;
 }
 }
@@ -5424,7 +5424,7 @@ info
 .
 isOkBiDi
 =
-FALSE
+false
 ;
 }
 if
@@ -5443,7 +5443,7 @@ info
 .
 isOkBiDi
 =
-FALSE
+false
 ;
 }
 }
@@ -5463,7 +5463,7 @@ info
 .
 isBiDi
 =
-TRUE
+true
 ;
 }
 }
@@ -5565,7 +5565,7 @@ c
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -5603,7 +5603,7 @@ c
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -5640,13 +5640,13 @@ c
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 }
 return
-TRUE
+true
 ;
 }
 static
@@ -5762,7 +5762,7 @@ c
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -5815,7 +5815,7 @@ c
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -5852,13 +5852,13 @@ c
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 }
 return
-TRUE
+true
 ;
 }
 UBool
@@ -5912,7 +5912,7 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 UChar32
@@ -5977,7 +5977,7 @@ j
 )
 {
 return
-FALSE
+false
 ;
 }
 U16_PREV_UNSAFE
@@ -6009,7 +6009,7 @@ break
 else
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -6033,7 +6033,7 @@ labelLength
 )
 {
 return
-FALSE
+false
 ;
 }
 U16_NEXT_UNSAFE
@@ -6081,7 +6081,7 @@ break
 else
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -6107,7 +6107,7 @@ i
 )
 {
 return
-FALSE
+false
 ;
 }
 UChar32
@@ -6139,13 +6139,13 @@ c
 )
 {
 return
-FALSE
+false
 ;
 }
 }
 }
 return
-TRUE
+true
 ;
 }
 void
@@ -6657,7 +6657,7 @@ pErrorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -6682,7 +6682,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 if
@@ -6742,7 +6742,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 uprv_memset
@@ -6770,7 +6770,7 @@ size
 )
 ;
 return
-TRUE
+true
 ;
 }
 static

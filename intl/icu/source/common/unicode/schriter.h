@@ -166,17 +166,6 @@ StringCharacterIterator
 (
 )
 ;
-void
-setText
-(
-const
-char16_t
-*
-newText
-int32_t
-newTextLength
-)
-;
 UnicodeString
 text
 ;

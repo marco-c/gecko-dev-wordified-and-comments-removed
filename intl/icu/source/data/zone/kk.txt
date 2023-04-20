@@ -1120,7 +1120,6 @@ Coral_Harbour
 ec
 {
 "
--
 "
 }
 }
@@ -5038,6 +5037,18 @@ ec
 Pacific
 :
 Johnston
+"
+{
+ec
+{
+"
+"
+}
+}
+"
+Pacific
+:
+Kanton
 "
 {
 ec

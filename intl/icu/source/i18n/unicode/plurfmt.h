@@ -533,6 +533,8 @@ pluralRulesWrapper
 PluralFormat
 (
 )
+=
+delete
 ;
 void
 init

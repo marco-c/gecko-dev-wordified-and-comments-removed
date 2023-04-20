@@ -10848,7 +10848,7 @@ LSL
 few
 {
 "
-Loti
+loti
 Leos
 ta
 "
@@ -10856,7 +10856,7 @@ ta
 many
 {
 "
-Loti
+loti
 Leos
 ta
 "
@@ -10864,7 +10864,7 @@ ta
 one
 {
 "
-Loti
+loti
 Leos
 ta
 "
@@ -10872,7 +10872,7 @@ ta
 other
 {
 "
-Loti
+loti
 Leos
 ta
 "

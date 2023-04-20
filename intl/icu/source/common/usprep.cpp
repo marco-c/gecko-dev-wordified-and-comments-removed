@@ -141,8 +141,8 @@ icu
 :
 UInitOnce
 gSharedDataInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 static
 UMutex
@@ -356,13 +356,13 @@ dataVersion
 )
 ;
 return
-TRUE
+true
 ;
 }
 else
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -689,7 +689,7 @@ if
 noRefCount
 =
 =
-FALSE
+false
 &
 &
 profile
@@ -703,9 +703,6 @@ refCount
 |
 |
 noRefCount
-=
-=
-TRUE
 )
 {
 deletedNum
@@ -817,7 +814,7 @@ NULL
 {
 usprep_internal_flushCache
 (
-TRUE
+true
 )
 ;
 if
@@ -1027,7 +1024,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 p
@@ -1088,7 +1085,7 @@ dataMemory
 )
 ;
 return
-FALSE
+false
 ;
 }
 umtx_lock
@@ -1313,7 +1310,7 @@ dataMemory
 )
 ;
 return
-FALSE
+false
 ;
 }
 if
@@ -1356,7 +1353,7 @@ dataMemory
 )
 ;
 return
-FALSE
+false
 ;
 }
 profile
@@ -1364,7 +1361,7 @@ profile
 >
 isDataLoaded
 =
-TRUE
+true
 ;
 if
 (
@@ -2205,7 +2202,7 @@ USPREP_TYPE_LIMIT
 ;
 isIndex
 =
-FALSE
+false
 ;
 value
 =
@@ -2234,7 +2231,7 @@ _SPREP_TYPE_THRESHOLD
 ;
 isIndex
 =
-FALSE
+false
 ;
 value
 =
@@ -2256,7 +2253,7 @@ trieWord
 {
 isIndex
 =
-TRUE
+true
 ;
 value
 =
@@ -2270,7 +2267,7 @@ else
 {
 isIndex
 =
-FALSE
+false
 ;
 value
 =
@@ -2308,7 +2305,7 @@ USPREP_DELETE
 ;
 isIndex
 =
-FALSE
+false
 ;
 value
 =
@@ -2453,7 +2450,7 @@ USPREP_UNASSIGNED
 allowUnassigned
 =
 =
-FALSE
+false
 )
 {
 uprv_syntaxError
@@ -3117,10 +3114,10 @@ U_CHAR_DIRECTION_COUNT
 UBool
 leftToRight
 =
-FALSE
+false
 rightToLeft
 =
-FALSE
+false
 ;
 int32_t
 rtlPos
@@ -3272,7 +3269,7 @@ U_LEFT_TO_RIGHT
 {
 leftToRight
 =
-TRUE
+true
 ;
 ltrPos
 =
@@ -3297,7 +3294,7 @@ U_RIGHT_TO_LEFT_ARABIC
 {
 rightToLeft
 =
-TRUE
+true
 ;
 rtlPos
 =
@@ -3314,23 +3311,14 @@ profile
 -
 >
 checkBiDi
-=
-=
-TRUE
 )
 {
 if
 (
 leftToRight
-=
-=
-TRUE
 &
 &
 rightToLeft
-=
-=
-TRUE
 )
 {
 *
@@ -3361,9 +3349,6 @@ return
 if
 (
 rightToLeft
-=
-=
-TRUE
 &
 &
 !
@@ -3411,7 +3396,7 @@ parseError
 )
 ;
 return
-FALSE
+false
 ;
 }
 }

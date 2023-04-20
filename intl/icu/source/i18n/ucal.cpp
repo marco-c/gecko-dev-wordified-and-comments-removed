@@ -677,7 +677,7 @@ zone
 getOffset
 (
 d
-FALSE
+false
 raw
 dst
 *
@@ -1309,7 +1309,7 @@ tz
 .
 getDisplayName
 (
-FALSE
+false
 TimeZone
 :
 :
@@ -1330,7 +1330,7 @@ tz
 .
 getDisplayName
 (
-FALSE
+false
 TimeZone
 :
 :
@@ -1351,7 +1351,7 @@ tz
 .
 getDisplayName
 (
-TRUE
+true
 TimeZone
 :
 :
@@ -1372,7 +1372,7 @@ tz
 .
 getDisplayName
 (
-TRUE
+true
 TimeZone
 :
 :
@@ -2707,7 +2707,7 @@ isSystemID
 *
 isSystemID
 =
-FALSE
+false
 ;
 }
 if
@@ -2756,7 +2756,7 @@ canonical
 UBool
 systemID
 =
-FALSE
+false
 ;
 TimeZone
 :
@@ -2975,7 +2975,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 return
@@ -3171,7 +3171,7 @@ void
 ulocimp_getRegionForSupplementalData
 (
 locale
-TRUE
+true
 prefRegion
 sizeof
 (
@@ -3366,7 +3366,7 @@ ulist_addItemEndList
 (
 values
 caltype
-TRUE
+true
 status
 )
 ;
@@ -3446,7 +3446,7 @@ CAL_TYPES
 [
 i
 ]
-FALSE
+false
 status
 )
 ;
@@ -3609,7 +3609,7 @@ status
 )
 {
 return
-FALSE
+false
 ;
 }
 UDate
@@ -3749,12 +3749,12 @@ getTime
 )
 ;
 return
-TRUE
+true
 ;
 }
 }
 return
-FALSE
+false
 ;
 }
 U_CAPI

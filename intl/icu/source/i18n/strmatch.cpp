@@ -681,7 +681,7 @@ appendToRule
 (
 result
 keyChar
-FALSE
+false
 escapeUnprintable
 quoteBuf
 )
@@ -703,7 +703,7 @@ toPattern
 str
 escapeUnprintable
 )
-TRUE
+true
 escapeUnprintable
 quoteBuf
 )
@@ -736,7 +736,7 @@ appendToRule
 result
 -
 1
-TRUE
+true
 escapeUnprintable
 quoteBuf
 )
@@ -769,7 +769,7 @@ length
 )
 {
 return
-TRUE
+true
 ;
 }
 UChar32

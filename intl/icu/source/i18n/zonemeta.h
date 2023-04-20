@@ -256,6 +256,8 @@ private
 ZoneMeta
 (
 )
+=
+delete
 ;
 static
 UVector

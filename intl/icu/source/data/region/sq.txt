@@ -2140,6 +2140,16 @@ Malvine
 )
 "
 }
+NZ
+{
+"
+Zelanda
+e
+Re
+-
+Aotearoa
+"
+}
 SZ
 {
 "

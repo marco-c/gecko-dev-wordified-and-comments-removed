@@ -121,7 +121,6 @@ h
 endif
 U_NAMESPACE_BEGIN
 class
-U_I18N_API
 DateFmtBestPattern
 :
 public
@@ -165,7 +164,6 @@ DateFmtBestPattern
 template
 <
 >
-U_I18N_API
 const
 DateFmtBestPattern
 *
@@ -195,7 +193,6 @@ NULL
 ;
 }
 class
-U_I18N_API
 DateFmtBestPatternKey
 :
 public
@@ -2327,7 +2324,7 @@ newNumberFormat
 >
 setParseIntegerOnly
 (
-TRUE
+true
 )
 ;
 newNumberFormat
@@ -2335,7 +2332,7 @@ newNumberFormat
 >
 setGroupingUsed
 (
-FALSE
+false
 )
 ;
 }
@@ -2549,7 +2546,7 @@ const
 UBool
 lenient
 =
-TRUE
+true
 ;
 if
 (
@@ -2647,7 +2644,7 @@ isLenient
 ;
 }
 return
-FALSE
+false
 ;
 }
 void

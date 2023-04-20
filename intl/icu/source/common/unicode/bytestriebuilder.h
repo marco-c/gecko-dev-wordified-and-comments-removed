@@ -130,6 +130,8 @@ BytesTrieBuilder
 &
 other
 )
+=
+delete
 ;
 BytesTrieBuilder
 &
@@ -141,6 +143,8 @@ BytesTrieBuilder
 &
 other
 )
+=
+delete
 ;
 void
 buildBytes

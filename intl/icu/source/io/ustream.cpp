@@ -214,7 +214,7 @@ sLimit
 us
 uLimit
 0
-FALSE
+false
 &
 errorCode
 )
@@ -362,12 +362,12 @@ ch32
 UBool
 initialWhitespace
 =
-TRUE
+true
 ;
 UBool
 continueReading
 =
-TRUE
+true
 ;
 while
 (
@@ -409,7 +409,7 @@ eofbit
 }
 continueReading
 =
-FALSE
+false
 ;
 }
 sLimit
@@ -577,7 +577,7 @@ truncate
 ;
 initialWhitespace
 =
-FALSE
+false
 ;
 }
 str

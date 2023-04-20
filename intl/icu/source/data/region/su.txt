@@ -88,6 +88,12 @@ Britania
 Raya
 "
 }
+ID
+{
+"
+Indonesia
+"
+}
 IN
 {
 "

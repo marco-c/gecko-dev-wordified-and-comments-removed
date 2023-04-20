@@ -953,7 +953,7 @@ errorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 limit
@@ -1025,7 +1025,7 @@ codePointLimit
 ;
 }
 return
-TRUE
+true
 ;
 }
 UBool
@@ -1152,7 +1152,7 @@ length
 )
 {
 return
-FALSE
+false
 ;
 }
 for
@@ -1193,7 +1193,7 @@ otherLength
 )
 {
 return
-FALSE
+false
 ;
 }
 UChar32
@@ -1223,7 +1223,7 @@ other
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -1259,7 +1259,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -1334,7 +1334,7 @@ remainingCapacity
 2
 ;
 return
-TRUE
+true
 ;
 }
 UBool
@@ -1369,7 +1369,7 @@ length
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -1388,7 +1388,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 remainingCapacity
@@ -1578,7 +1578,7 @@ errorCode
 }
 }
 return
-TRUE
+true
 ;
 }
 UBool
@@ -1618,7 +1618,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 remainingCapacity
@@ -1682,7 +1682,7 @@ reorderStart
 limit
 ;
 return
-TRUE
+true
 ;
 }
 UBool
@@ -1713,7 +1713,7 @@ sLimit
 )
 {
 return
-TRUE
+true
 ;
 }
 int32_t
@@ -1744,7 +1744,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 u_memcpy
@@ -1773,7 +1773,7 @@ reorderStart
 limit
 ;
 return
-TRUE
+true
 ;
 }
 void
@@ -1967,7 +1967,7 @@ errorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 reorderStart
@@ -1993,7 +1993,7 @@ getCapacity
 length
 ;
 return
-TRUE
+true
 ;
 }
 void
@@ -3939,7 +3939,7 @@ mapping
 +
 1
 length
-TRUE
+true
 leadCC
 trailCC
 errorCode
@@ -4318,7 +4318,7 @@ decomposeShort
 prevBoundary
 src
 STOP_AT_LIMIT
-FALSE
+false
 buffer
 errorCode
 )
@@ -4341,7 +4341,7 @@ decomposeShort
 src
 limit
 STOP_AT_DECOMP_BOUNDARY
-FALSE
+false
 buffer
 errorCode
 )
@@ -4905,7 +4905,7 @@ mapping
 +
 1
 length
-TRUE
+true
 leadCC
 trailCC
 errorCode
@@ -5549,7 +5549,7 @@ p
 -
 src
 )
-FALSE
+false
 firstCC
 prevCC
 errorCode
@@ -5627,7 +5627,7 @@ minNoNoCompNoMaybeCC
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -5712,7 +5712,7 @@ minDecompNoCP
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -5731,7 +5731,7 @@ c
 )
 {
 return
-TRUE
+true
 ;
 }
 return
@@ -5770,7 +5770,7 @@ norm16
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -5837,7 +5837,7 @@ firstUnit
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -5849,7 +5849,7 @@ firstUnit
 )
 {
 return
-TRUE
+true
 ;
 }
 return
@@ -6388,7 +6388,7 @@ NULL
 ;
 starterIsSupplementary
 =
-FALSE
+false
 ;
 prevCC
 =
@@ -6713,7 +6713,7 @@ composite
 ;
 starterIsSupplementary
 =
-FALSE
+false
 ;
 q
 =
@@ -6762,7 +6762,7 @@ composite
 {
 starterIsSupplementary
 =
-TRUE
+true
 ;
 +
 +
@@ -6956,7 +6956,7 @@ c
 {
 starterIsSupplementary
 =
-FALSE
+false
 ;
 starter
 =
@@ -6969,7 +6969,7 @@ else
 {
 starterIsSupplementary
 =
-TRUE
+true
 ;
 starter
 =
@@ -7348,7 +7348,7 @@ errorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 limit
@@ -7461,7 +7461,7 @@ errorCode
 ;
 }
 return
-TRUE
+true
 ;
 }
 if
@@ -7589,7 +7589,7 @@ doCompose
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -7890,7 +7890,7 @@ doCompose
 )
 {
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -8074,7 +8074,7 @@ doCompose
 )
 {
 return
-FALSE
+false
 ;
 }
 UChar32
@@ -8179,7 +8179,7 @@ doCompose
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -8223,7 +8223,7 @@ errorCode
 ;
 }
 return
-TRUE
+true
 ;
 }
 uint8_t
@@ -8274,7 +8274,7 @@ doCompose
 )
 {
 return
-FALSE
+false
 ;
 }
 break
@@ -8403,7 +8403,7 @@ decomposeShort
 (
 prevSrc
 src
-FALSE
+false
 onlyContiguous
 buffer
 errorCode
@@ -8415,7 +8415,7 @@ decomposeShort
 (
 src
 limit
-TRUE
+true
 onlyContiguous
 buffer
 errorCode
@@ -8448,7 +8448,7 @@ errorCode
 U_INDEX_OUTOFBOUNDS_ERROR
 ;
 return
-TRUE
+true
 ;
 }
 recompose
@@ -8477,7 +8477,7 @@ src
 )
 {
 return
-FALSE
+false
 ;
 }
 buffer
@@ -8493,7 +8493,7 @@ src
 ;
 }
 return
-TRUE
+true
 ;
 }
 const
@@ -9169,7 +9169,7 @@ length
 (
 )
 onlyContiguous
-TRUE
+true
 buffer
 errorCode
 )
@@ -9201,7 +9201,7 @@ compose
 src
 limit
 onlyContiguous
-TRUE
+true
 buffer
 errorCode
 )
@@ -9353,7 +9353,7 @@ errorCode
 ;
 }
 return
-TRUE
+true
 ;
 }
 if
@@ -9416,7 +9416,7 @@ nullptr
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -9764,7 +9764,7 @@ nullptr
 )
 {
 return
-FALSE
+false
 ;
 }
 int32_t
@@ -9921,7 +9921,7 @@ nullptr
 )
 {
 return
-FALSE
+false
 ;
 }
 UChar32
@@ -10027,7 +10027,7 @@ nullptr
 )
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -10079,7 +10079,7 @@ errorCode
 ;
 }
 return
-TRUE
+true
 ;
 }
 uint8_t
@@ -10131,7 +10131,7 @@ nullptr
 )
 {
 return
-FALSE
+false
 ;
 }
 break
@@ -10290,7 +10290,7 @@ errorCode
 U_INDEX_OUTOFBOUNDS_ERROR
 ;
 return
-TRUE
+true
 ;
 }
 recompose
@@ -10321,7 +10321,7 @@ nullptr
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -10388,7 +10388,7 @@ src
 }
 }
 return
-TRUE
+true
 ;
 }
 UBool
@@ -10423,7 +10423,7 @@ minCompNoMaybeCP
 )
 {
 return
-TRUE
+true
 ;
 }
 UChar32
@@ -10475,7 +10475,7 @@ limit
 )
 {
 return
-TRUE
+true
 ;
 }
 uint16_t
@@ -10525,7 +10525,7 @@ p
 )
 {
 return
-TRUE
+true
 ;
 }
 UChar32
@@ -10580,7 +10580,7 @@ p
 )
 {
 return
-TRUE
+true
 ;
 }
 uint16_t
@@ -11694,8 +11694,8 @@ decomposeShort
 (
 prevBoundary
 src
-FALSE
-FALSE
+false
+false
 *
 buffer
 errorCode
@@ -13167,7 +13167,7 @@ canonValue
 )
 {
 return
-FALSE
+false
 ;
 }
 set
@@ -13308,7 +13308,7 @@ set
 }
 }
 return
-TRUE
+true
 ;
 }
 U_NAMESPACE_END

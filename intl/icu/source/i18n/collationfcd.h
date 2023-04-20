@@ -280,6 +280,8 @@ private
 CollationFCD
 (
 )
+=
+delete
 ;
 static
 const

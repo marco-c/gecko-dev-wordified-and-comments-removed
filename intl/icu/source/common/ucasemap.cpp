@@ -745,7 +745,7 @@ edits
 }
 }
 return
-TRUE
+true
 ;
 }
 inline
@@ -2867,7 +2867,7 @@ prev
 UBool
 isFirstIndex
 =
-TRUE
+true
 ;
 while
 (
@@ -2886,7 +2886,7 @@ isFirstIndex
 {
 isFirstIndex
 =
-FALSE
+false
 ;
 index
 =
@@ -3359,18 +3359,18 @@ UCASE_NONE
 )
 {
 return
-TRUE
+true
 ;
 }
 else
 {
 return
-FALSE
+false
 ;
 }
 }
 return
-FALSE
+false
 ;
 }
 void
@@ -3658,7 +3658,7 @@ AFTER_VOWEL_WITH_ACCENT
 UBool
 addTonos
 =
-FALSE
+false
 ;
 if
 (
@@ -3720,7 +3720,7 @@ else
 {
 addTonos
 =
-TRUE
+true
 ;
 }
 }
@@ -3800,7 +3800,7 @@ U_OMIT_UNCHANGED_TEXT
 {
 change
 =
-TRUE
+true
 ;
 }
 else

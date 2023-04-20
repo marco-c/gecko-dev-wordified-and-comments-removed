@@ -2127,6 +2127,14 @@ Adalar
 )
 "
 }
+NZ
+{
+"
+Aotearoa
+Yeni
+Zelanda
+"
+}
 SZ
 {
 "

@@ -371,7 +371,7 @@ info
 fInfo
 ;
 return
-TRUE
+true
 ;
 }
 else
@@ -381,7 +381,7 @@ info
 NULL
 ;
 return
-FALSE
+false
 ;
 }
 }
@@ -479,7 +479,7 @@ settings
 fCurrSettings
 ;
 return
-TRUE
+true
 ;
 }
 else
@@ -489,7 +489,7 @@ settings
 NULL
 ;
 return
-FALSE
+false
 ;
 }
 }
@@ -585,7 +585,7 @@ nextCase
 fCurrCase
 ;
 return
-TRUE
+true
 ;
 }
 else
@@ -595,7 +595,7 @@ nextCase
 NULL
 ;
 return
-FALSE
+false
 ;
 }
 }

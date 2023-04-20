@@ -1545,11 +1545,6 @@ Countries
 %
 short
 {
-GB
-{
-"
-"
-}
 HK
 {
 "

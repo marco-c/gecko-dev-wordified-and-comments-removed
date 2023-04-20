@@ -1,5 +1,12 @@
 #
 include
+<
+stdbool
+.
+h
+>
+#
+include
 "
 unicode
 /
@@ -55,8 +62,8 @@ UCNV_SBCS
 0
 }
 1
-FALSE
-FALSE
+false
+false
 0
 0
 {
@@ -107,8 +114,8 @@ UCNV_DBCS
 0
 }
 0
-FALSE
-FALSE
+false
+false
 0
 0
 {
@@ -159,8 +166,8 @@ UCNV_MBCS
 0
 }
 1
-FALSE
-FALSE
+false
+false
 0
 0
 {
@@ -211,8 +218,8 @@ UCNV_EBCDIC_STATEFUL
 0
 }
 0
-FALSE
-FALSE
+false
+false
 0
 0
 {

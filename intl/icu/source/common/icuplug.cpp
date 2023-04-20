@@ -1281,7 +1281,7 @@ plug
 >
 awaitingLoad
 =
-FALSE
+false
 ;
 }
 }
@@ -1299,7 +1299,7 @@ plug
 >
 awaitingLoad
 =
-FALSE
+false
 ;
 }
 }
@@ -1366,7 +1366,7 @@ plug
 >
 awaitingLoad
 =
-FALSE
+false
 ;
 if
 (
@@ -1482,14 +1482,14 @@ plug
 >
 awaitingLoad
 =
-TRUE
+true
 ;
 plug
 -
 >
 dontUnload
 =
-FALSE
+false
 ;
 plug
 -
@@ -1786,7 +1786,7 @@ plug
 >
 awaitingLoad
 =
-FALSE
+false
 ;
 plug
 -
@@ -1800,7 +1800,7 @@ plug
 >
 dontUnload
 =
-TRUE
+true
 ;
 }
 }
@@ -2402,14 +2402,14 @@ plug
 >
 awaitingLoad
 =
-FALSE
+false
 ;
 plug
 -
 >
 dontUnload
 =
-TRUE
+true
 ;
 if
 (
@@ -2873,7 +2873,7 @@ gCurrentLevel
 UPLUG_LEVEL_LOW
 ;
 return
-TRUE
+true
 ;
 }
 #
@@ -3041,7 +3041,7 @@ pluginToLoad
 >
 awaitingLoad
 =
-FALSE
+false
 ;
 }
 }
@@ -3138,7 +3138,7 @@ pluginToLoad
 >
 awaitingLoad
 =
-FALSE
+false
 ;
 }
 }

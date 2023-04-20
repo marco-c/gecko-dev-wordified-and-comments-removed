@@ -750,7 +750,7 @@ UPRV_LENGTHOF
 (
 asciiBCP47Tag
 )
-FALSE
+false
 &
 status
 )
@@ -955,7 +955,7 @@ NULL
 )
 fFractionDigitsSet
 (
-FALSE
+false
 )
 fWindowsLocaleName
 (
@@ -1609,7 +1609,7 @@ newValue
 {
 fFractionDigitsSet
 =
-TRUE
+true
 ;
 NumberFormat
 :
@@ -1632,7 +1632,7 @@ newValue
 {
 fFractionDigitsSet
 =
-TRUE
+true
 ;
 NumberFormat
 :

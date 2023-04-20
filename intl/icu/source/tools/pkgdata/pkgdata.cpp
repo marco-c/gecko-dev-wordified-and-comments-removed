@@ -279,7 +279,7 @@ targetDir
 UBool
 specialHandling
 =
-FALSE
+false
 )
 ;
 static
@@ -414,7 +414,7 @@ NULL
 UBool
 specialHandling
 =
-FALSE
+false
 )
 ;
 static
@@ -493,7 +493,7 @@ command
 UBool
 specialHandling
 =
-FALSE
+false
 )
 ;
 #
@@ -1452,7 +1452,7 @@ tail
 UBool
 needsHelp
 =
-FALSE
+false
 ;
 UErrorCode
 status
@@ -1522,7 +1522,7 @@ doesOccur
 {
 needsHelp
 =
-TRUE
+true
 ;
 }
 else
@@ -2376,7 +2376,7 @@ o
 .
 quiet
 =
-TRUE
+true
 ;
 }
 else
@@ -2385,7 +2385,7 @@ o
 .
 quiet
 =
-FALSE
+false
 ;
 }
 if
@@ -2408,7 +2408,7 @@ o
 .
 pdsbuild
 =
-TRUE
+true
 ;
 #
 else
@@ -2416,7 +2416,7 @@ o
 .
 pdsbuild
 =
-FALSE
+false
 ;
 fprintf
 (
@@ -2453,7 +2453,7 @@ o
 .
 pdsbuild
 =
-FALSE
+false
 ;
 }
 o
@@ -2731,7 +2731,7 @@ o
 .
 withoutAssembly
 =
-FALSE
+false
 ;
 if
 (
@@ -2798,7 +2798,7 @@ o
 .
 withoutAssembly
 =
-TRUE
+true
 ;
 #
 endif
@@ -3539,7 +3539,7 @@ else
 UBool
 noVersion
 =
-FALSE
+false
 ;
 uprv_strcpy
 (
@@ -3905,7 +3905,7 @@ version_major
 UBool
 reverseExt
 =
-FALSE
+false
 ;
 #
 if
@@ -3995,7 +3995,7 @@ else
 {
 noVersion
 =
-TRUE
+true
 ;
 if
 (
@@ -4081,7 +4081,7 @@ SO_EXT
 {
 reverseExt
 =
-TRUE
+true
 ;
 }
 #
@@ -4139,7 +4139,7 @@ o
 rebuild
 =
 =
-FALSE
+false
 &
 &
 o
@@ -4148,7 +4148,7 @@ o
 pdsbuild
 =
 =
-FALSE
+false
 )
 {
 sprintf
@@ -4184,7 +4184,7 @@ o
 -
 >
 srcDir
-TRUE
+true
 )
 &
 &
@@ -4762,7 +4762,7 @@ sizeof
 (
 gencFilePath
 )
-TRUE
+true
 )
 ;
 pkg_destroyOptMatchArch
@@ -7328,7 +7328,7 @@ return
 pkg_createSymLinks
 (
 installDir
-TRUE
+true
 )
 ;
 }
@@ -8287,7 +8287,7 @@ NULL
 UBool
 freeCmd
 =
-FALSE
+false
 ;
 int32_t
 length
@@ -8427,7 +8427,7 @@ return
 }
 freeCmd
 =
-TRUE
+true
 ;
 }
 sprintf
@@ -8718,7 +8718,7 @@ return
 }
 freeCmd
 =
-TRUE
+true
 ;
 }
 #
@@ -10055,7 +10055,7 @@ fileListFiles
 >
 str
 0
-TRUE
+true
 o
 -
 >
@@ -11516,7 +11516,7 @@ result
 runCommand
 (
 cmd
-TRUE
+true
 )
 ;
 if
@@ -13234,11 +13234,11 @@ buf
 0
 ;
 return
-FALSE
+false
 ;
 }
 return
-TRUE
+true
 ;
 }
 #
@@ -13270,7 +13270,7 @@ buf
 UBool
 pkgconfigIsValid
 =
-TRUE
+true
 ;
 const
 char
@@ -13379,7 +13379,7 @@ return
 }
 pkgconfigIsValid
 =
-FALSE
+false
 ;
 }
 for
@@ -13547,7 +13547,7 @@ option
 >
 doesOccur
 =
-TRUE
+true
 ;
 return
 0

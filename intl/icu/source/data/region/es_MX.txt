@@ -166,13 +166,6 @@ d
 Ivoire
 "
 }
-EZ
-{
-"
-zona
-euro
-"
-}
 GG
 {
 "
@@ -219,12 +212,6 @@ EE
 .
 UU
 .
-"
-}
-UN
-{
-"
-ONU
 "
 }
 }

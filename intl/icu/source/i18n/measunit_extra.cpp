@@ -1126,8 +1126,8 @@ icu
 :
 UInitOnce
 gUnitExtrasInitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 const
 char
@@ -1226,7 +1226,7 @@ reset
 )
 ;
 return
-TRUE
+true
 ;
 }
 void

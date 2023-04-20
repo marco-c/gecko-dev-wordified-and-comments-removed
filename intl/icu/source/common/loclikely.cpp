@@ -606,7 +606,7 @@ tagLength
 UBool
 regionAppended
 =
-FALSE
+false
 ;
 if
 (
@@ -622,7 +622,7 @@ langLength
 tagBuffer
 &
 tagLength
-FALSE
+false
 )
 ;
 }
@@ -700,7 +700,7 @@ alternateLangLength
 tagBuffer
 &
 tagLength
-FALSE
+false
 )
 ;
 }
@@ -719,7 +719,7 @@ scriptLength
 tagBuffer
 &
 tagLength
-TRUE
+true
 )
 ;
 }
@@ -787,7 +787,7 @@ alternateScriptLength
 tagBuffer
 &
 tagLength
-TRUE
+true
 )
 ;
 }
@@ -806,12 +806,12 @@ regionLength
 tagBuffer
 &
 tagLength
-TRUE
+true
 )
 ;
 regionAppended
 =
-TRUE
+true
 ;
 }
 else
@@ -878,12 +878,12 @@ alternateRegionLength
 tagBuffer
 &
 tagLength
-TRUE
+true
 )
 ;
 regionAppended
 =
-TRUE
+true
 ;
 }
 }
@@ -1566,7 +1566,7 @@ err
 )
 ;
 return
-TRUE
+true
 ;
 }
 }
@@ -1683,7 +1683,7 @@ err
 )
 ;
 return
-TRUE
+true
 ;
 }
 }
@@ -1800,7 +1800,7 @@ err
 )
 ;
 return
-TRUE
+true
 ;
 }
 }
@@ -1911,12 +1911,12 @@ err
 )
 ;
 return
-TRUE
+true
 ;
 }
 }
 return
-FALSE
+false
 ;
 error
 :
@@ -1937,7 +1937,7 @@ U_ILLEGAL_ARGUMENT_ERROR
 ;
 }
 return
-FALSE
+false
 ;
 }
 #
@@ -2149,7 +2149,7 @@ trailingIndex
 UBool
 success
 =
-FALSE
+false
 ;
 if
 (
@@ -2326,7 +2326,7 @@ U_ILLEGAL_ARGUMENT_ERROR
 ;
 }
 return
-FALSE
+false
 ;
 }
 static
@@ -2433,7 +2433,7 @@ trailingIndex
 UBool
 successGetMax
 =
-FALSE
+false
 ;
 if
 (
@@ -3304,7 +3304,7 @@ status
 else
 {
 return
-FALSE
+false
 ;
 }
 }
@@ -3657,7 +3657,7 @@ U_STRING_NOT_TERMINATED_WARNING
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -3700,7 +3700,7 @@ case
 '
 :
 return
-FALSE
+false
 ;
 case
 '
@@ -3708,7 +3708,7 @@ case
 '
 :
 return
-TRUE
+true
 ;
 default
 :
@@ -3762,7 +3762,7 @@ U_STRING_NOT_TERMINATED_WARNING
 )
 {
 return
-FALSE
+false
 ;
 }
 scriptLength
@@ -3804,7 +3804,7 @@ scriptLength
 )
 {
 return
-FALSE
+false
 ;
 }
 }

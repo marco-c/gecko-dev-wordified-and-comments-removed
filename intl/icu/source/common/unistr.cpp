@@ -902,7 +902,7 @@ i
 UBool
 isError
 =
-FALSE
+false
 ;
 U16_APPEND
 (
@@ -1297,7 +1297,7 @@ cloneArrayIfNeeded
 (
 length
 length
-FALSE
+false
 )
 )
 {
@@ -1478,7 +1478,7 @@ U_NOEXCEPT
 copyFieldsFrom
 (
 src
-TRUE
+true
 )
 ;
 }
@@ -1690,7 +1690,7 @@ fLengthAndFlags
 kShortString
 ;
 return
-TRUE
+true
 ;
 }
 if
@@ -1803,7 +1803,7 @@ fLengthAndFlags
 kLongString
 ;
 return
-TRUE
+true
 ;
 }
 }
@@ -1832,7 +1832,7 @@ fCapacity
 0
 ;
 return
-FALSE
+false
 ;
 }
 #
@@ -2167,7 +2167,7 @@ break
 }
 while
 (
-TRUE
+true
 )
 ;
 return
@@ -2212,7 +2212,7 @@ return
 copyFrom
 (
 src
-TRUE
+true
 )
 ;
 }
@@ -2571,7 +2571,7 @@ releaseArray
 copyFieldsFrom
 (
 src
-TRUE
+true
 )
 ;
 return
@@ -2761,7 +2761,7 @@ copyFieldsFrom
 (
 *
 this
-FALSE
+false
 )
 ;
 this
@@ -2770,7 +2770,7 @@ this
 copyFieldsFrom
 (
 other
-FALSE
+false
 )
 ;
 other
@@ -2778,7 +2778,7 @@ other
 copyFieldsFrom
 (
 temp
-FALSE
+false
 )
 ;
 temp
@@ -3366,8 +3366,8 @@ srcStart
 :
 NULL
 srcLength
-FALSE
-TRUE
+false
+true
 )
 ;
 if
@@ -4086,7 +4086,7 @@ len
 return
 UnicodeString
 (
-FALSE
+false
 array
 +
 start
@@ -4293,7 +4293,7 @@ stackBuffer
 UBool
 utf8IsOwned
 =
-FALSE
+false
 ;
 char
 *
@@ -4374,7 +4374,7 @@ NULL
 {
 utf8IsOwned
 =
-TRUE
+true
 ;
 errorCode
 =
@@ -5953,7 +5953,7 @@ count
 UBool
 isError
 =
-FALSE
+false
 ;
 U16_APPEND
 (
@@ -6004,7 +6004,7 @@ _length
 UBool
 isError
 =
-FALSE
+false
 ;
 U16_APPEND
 (
@@ -6433,7 +6433,7 @@ getGrowCapacity
 (
 newLength
 )
-FALSE
+false
 &
 bufferToDelete
 )
@@ -6952,7 +6952,7 @@ hasMetaData
 const
 {
 return
-TRUE
+true
 ;
 }
 UBool
@@ -6965,7 +6965,7 @@ hasMetaData
 const
 {
 return
-FALSE
+false
 ;
 }
 UnicodeString
@@ -7045,7 +7045,7 @@ swap
 UBool
 hasSupplementary
 =
-FALSE
+false
 ;
 do
 {
@@ -7226,7 +7226,7 @@ targetLength
 )
 {
 return
-FALSE
+false
 ;
 }
 else
@@ -7279,7 +7279,7 @@ targetLength
 )
 ;
 return
-TRUE
+true
 ;
 }
 }
@@ -7318,7 +7318,7 @@ targetLength
 )
 {
 return
-FALSE
+false
 ;
 }
 else
@@ -7360,7 +7360,7 @@ targetLength
 )
 ;
 return
-TRUE
+true
 ;
 }
 }
@@ -7624,7 +7624,7 @@ isWritable
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -7976,12 +7976,12 @@ setToBogus
 )
 ;
 return
-FALSE
+false
 ;
 }
 }
 return
-TRUE
+true
 ;
 }
 UnicodeStringAppendable
@@ -8043,7 +8043,7 @@ cLength
 UBool
 isError
 =
-FALSE
+false
 ;
 U16_APPEND
 (
@@ -8337,7 +8337,7 @@ str2
 )
 {
 return
-TRUE
+true
 ;
 }
 if
@@ -8355,7 +8355,7 @@ NULL
 )
 {
 return
-FALSE
+false
 ;
 }
 return

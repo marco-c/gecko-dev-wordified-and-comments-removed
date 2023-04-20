@@ -594,7 +594,7 @@ return
 }
 triedCode
 =
-FALSE
+false
 ;
 if
 (
@@ -654,7 +654,7 @@ err
 }
 triedCode
 =
-TRUE
+true
 ;
 }
 internalErrorCode

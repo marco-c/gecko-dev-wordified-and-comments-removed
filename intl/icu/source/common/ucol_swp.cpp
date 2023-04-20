@@ -91,7 +91,7 @@ length
 )
 {
 return
-FALSE
+false
 ;
 }
 UErrorCode
@@ -190,7 +190,7 @@ dataFormat
 )
 {
 return
-TRUE
+true
 ;
 }
 }
@@ -274,7 +274,7 @@ size
 )
 {
 return
-FALSE
+false
 ;
 }
 header
@@ -318,7 +318,7 @@ formatVersion
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -348,11 +348,11 @@ inCharset
 )
 {
 return
-FALSE
+false
 ;
 }
 return
-TRUE
+true
 ;
 }
 namespace

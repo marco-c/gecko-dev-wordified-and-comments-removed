@@ -524,6 +524,8 @@ private
 Normalizer
 (
 )
+=
+delete
 ;
 Normalizer
 &
@@ -535,6 +537,8 @@ Normalizer
 &
 that
 )
+=
+delete
 ;
 UBool
 nextNormalize

@@ -1,4 +1,10 @@
 #
+ifndef
+BYTESINKUTIL_H
+#
+define
+BYTESINKUTIL_H
+#
 include
 "
 unicode
@@ -377,3 +383,5 @@ dest_
 }
 ;
 U_NAMESPACE_END
+#
+endif

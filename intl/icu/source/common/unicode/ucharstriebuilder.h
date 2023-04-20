@@ -143,6 +143,8 @@ UCharsTrieBuilder
 &
 other
 )
+=
+delete
 ;
 UCharsTrieBuilder
 &
@@ -154,6 +156,8 @@ UCharsTrieBuilder
 &
 other
 )
+=
+delete
 ;
 void
 buildUChars

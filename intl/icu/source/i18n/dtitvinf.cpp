@@ -1814,7 +1814,7 @@ calendar
 "
 locName
 nullptr
-FALSE
+false
 &
 status
 )
@@ -1993,7 +1993,7 @@ pattern
 =
 UnicodeString
 (
-TRUE
+true
 resStr
 resStrLen
 )
@@ -2037,7 +2037,7 @@ getNextCalendarType
 Hashtable
 loadedCalendarTypes
 (
-FALSE
+false
 status
 )
 ;
@@ -2270,9 +2270,6 @@ intervalPattern
 if
 (
 emptyHash
-=
-=
-TRUE
 )
 {
 fIntervalPatterns
@@ -3437,7 +3434,7 @@ pointer
 UBool
 ret
 =
-TRUE
+true
 ;
 int8_t
 i
@@ -3457,9 +3454,6 @@ kMaxIntervalPatternIndex
 &
 &
 ret
-=
-=
-TRUE
 ;
 +
 +
@@ -3523,7 +3517,7 @@ hTable
 new
 Hashtable
 (
-FALSE
+false
 status
 )
 )

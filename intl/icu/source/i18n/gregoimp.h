@@ -88,7 +88,7 @@ numerator
 int32_t
 denominator
 int32_t
-&
+*
 remainder
 )
 ;
@@ -101,7 +101,7 @@ dividend
 double
 divisor
 double
-&
+*
 remainder
 )
 ;

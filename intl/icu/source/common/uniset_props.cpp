@@ -261,8 +261,8 @@ icu
 :
 UInitOnce
 uni32InitOnce
-=
-U_INITONCE_INITIALIZER
+{
+}
 ;
 static
 UBool
@@ -286,7 +286,7 @@ reset
 )
 ;
 return
-TRUE
+true
 ;
 }
 U_CDECL_END
@@ -626,7 +626,7 @@ skipWhitespace
 (
 pattern
 i
-TRUE
+true
 )
 ;
 if
@@ -985,7 +985,7 @@ buf
 UBool
 usePat
 =
-FALSE
+false
 ;
 UnicodeSetPointer
 scratch
@@ -1017,7 +1017,7 @@ op
 UBool
 invert
 =
-FALSE
+false
 ;
 clear
 (
@@ -1122,7 +1122,7 @@ c
 UBool
 literal
 =
-FALSE
+false
 ;
 UnicodeSet
 *
@@ -1273,7 +1273,7 @@ literal
 {
 invert
 =
-TRUE
+true
 ;
 patLocal
 .
@@ -1326,7 +1326,7 @@ u
 {
 literal
 =
-TRUE
+true
 ;
 }
 else
@@ -1462,7 +1462,7 @@ _appendToPat
 (
 patLocal
 lastChar
-FALSE
+false
 )
 ;
 lastItem
@@ -1602,7 +1602,7 @@ nested
 _toPattern
 (
 patLocal
-FALSE
+false
 )
 ;
 break
@@ -1610,7 +1610,7 @@ break
 }
 usePat
 =
-TRUE
+true
 ;
 if
 (
@@ -1739,7 +1739,7 @@ _appendToPat
 (
 patLocal
 lastChar
-FALSE
+false
 )
 ;
 }
@@ -1992,7 +1992,7 @@ _appendToPat
 (
 patLocal
 lastChar
-FALSE
+false
 )
 ;
 }
@@ -2011,7 +2011,7 @@ truncate
 UBool
 ok
 =
-FALSE
+false
 ;
 while
 (
@@ -2060,7 +2060,7 @@ literal
 {
 ok
 =
-TRUE
+true
 ;
 break
 ;
@@ -2106,7 +2106,7 @@ _appendToPat
 (
 patLocal
 buf
-FALSE
+false
 )
 ;
 patLocal
@@ -2230,7 +2230,7 @@ _appendToPat
 (
 patLocal
 lastChar
-FALSE
+false
 )
 ;
 }
@@ -2241,7 +2241,7 @@ U_ETHER
 ;
 usePat
 =
-TRUE
+true
 ;
 patLocal
 .
@@ -2343,7 +2343,7 @@ _appendToPat
 (
 patLocal
 lastChar
-FALSE
+false
 )
 ;
 patLocal
@@ -2357,7 +2357,7 @@ _appendToPat
 (
 patLocal
 c
-FALSE
+false
 )
 ;
 lastItem
@@ -2381,7 +2381,7 @@ _appendToPat
 (
 patLocal
 lastChar
-FALSE
+false
 )
 ;
 lastChar
@@ -2524,7 +2524,7 @@ else
 _generatePattern
 (
 rebuiltPat
-FALSE
+false
 )
 ;
 }
@@ -3052,7 +3052,7 @@ j
 dstCapacity
 )
 return
-FALSE
+false
 ;
 dst
 [
@@ -3094,7 +3094,7 @@ j
 0
 ;
 return
-TRUE
+true
 ;
 }
 }
@@ -3289,7 +3289,7 @@ fromUSet
 (
 set
 )
-TRUE
+true
 )
 ;
 if
@@ -3492,7 +3492,7 @@ v
 UBool
 invert
 =
-FALSE
+false
 ;
 if
 (
@@ -4106,7 +4106,7 @@ U_GC_CN_MASK
 ;
 invert
 =
-TRUE
+true
 ;
 }
 else
@@ -4194,7 +4194,7 @@ length
 )
 {
 return
-FALSE
+false
 ;
 }
 return
@@ -4235,7 +4235,7 @@ iterOpts
 UBool
 result
 =
-FALSE
+false
 literal
 ;
 UErrorCode
@@ -4415,17 +4415,17 @@ getIndex
 UBool
 posix
 =
-FALSE
+false
 ;
 UBool
 isName
 =
-FALSE
+false
 ;
 UBool
 invert
 =
-FALSE
+false
 ;
 if
 (
@@ -4470,7 +4470,7 @@ pos
 {
 posix
 =
-TRUE
+true
 ;
 pos
 +
@@ -4519,7 +4519,7 @@ pos
 ;
 invert
 =
-TRUE
+true
 ;
 }
 }

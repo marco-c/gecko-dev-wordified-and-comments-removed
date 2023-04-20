@@ -333,22 +333,22 @@ UCNV_NUMBER_OF_SUPPORTED_CONVERTER_TYPES
 UBool
 VERBOSE
 =
-FALSE
+false
 ;
 UBool
 QUIET
 =
-FALSE
+false
 ;
 UBool
 SMALL
 =
-FALSE
+false
 ;
 UBool
 IGNORE_SISO_CHECK
 =
-FALSE
+false
 ;
 static
 void
@@ -389,7 +389,7 @@ status
 UBool
 haveCopyright
 =
-TRUE
+true
 ;
 static
 UDataInfo
@@ -1382,7 +1382,7 @@ doesOccur
 {
 IGNORE_SISO_CHECK
 =
-TRUE
+true
 ;
 }
 icu
@@ -3181,7 +3181,7 @@ pErrorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 data
@@ -3217,7 +3217,7 @@ pErrorCode
 U_FILE_ACCESS_ERROR
 ;
 return
-FALSE
+false
 ;
 }
 readHeader
@@ -3237,7 +3237,7 @@ pErrorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 if
@@ -3259,7 +3259,7 @@ baseName
 {
 dataIsBase
 =
-TRUE
+true
 ;
 baseStates
 =
@@ -3283,7 +3283,7 @@ else
 {
 dataIsBase
 =
-FALSE
+false
 ;
 baseStates
 =
@@ -3312,7 +3312,7 @@ pErrorCode
 )
 {
 return
-FALSE
+false
 ;
 }
 while
@@ -3455,7 +3455,7 @@ data
 >
 ucm
 convFile
-FALSE
+false
 baseStates
 pErrorCode
 )
@@ -3835,7 +3835,7 @@ ucm
 -
 >
 ext
-FALSE
+false
 )
 )
 {
@@ -4439,7 +4439,7 @@ staticData
 >
 hasFromUnicodeFallback
 =
-TRUE
+true
 ;
 }
 if
@@ -4454,7 +4454,7 @@ staticData
 >
 hasToUnicodeFallback
 =
-TRUE
+true
 ;
 }
 if
@@ -4596,7 +4596,7 @@ ucm
 -
 >
 ext
-FALSE
+false
 )
 )
 {

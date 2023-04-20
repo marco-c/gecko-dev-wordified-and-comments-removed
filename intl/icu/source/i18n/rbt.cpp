@@ -109,7 +109,7 @@ fData
 ;
 isDataOwned
 =
-TRUE
+true
 ;
 if
 (
@@ -292,7 +292,7 @@ theData
 )
 isDataOwned
 (
-FALSE
+false
 )
 {
 setMaximumContextLength
@@ -492,7 +492,7 @@ loopLimit
 UBool
 lockedMutexAtThisLevel
 =
-FALSE
+false
 ;
 static
 UMutex
@@ -537,7 +537,7 @@ text
 ;
 lockedMutexAtThisLevel
 =
-TRUE
+true
 ;
 }
 if
@@ -654,7 +654,7 @@ ruleSet
 getSourceTargetSet
 (
 result
-FALSE
+false
 )
 ;
 }
@@ -680,7 +680,7 @@ ruleSet
 getSourceTargetSet
 (
 result
-TRUE
+true
 )
 ;
 }

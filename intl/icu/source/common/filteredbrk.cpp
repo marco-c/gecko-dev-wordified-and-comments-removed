@@ -309,7 +309,6 @@ b
 ;
 }
 class
-U_COMMON_API
 UStringSet
 :
 public
@@ -2085,7 +2084,6 @@ last
 ;
 }
 class
-U_COMMON_API
 SimpleFilteredBreakIteratorBuilder
 :
 public
@@ -2894,7 +2892,7 @@ FB_TRACE
 build
 "
 abbr
-TRUE
+true
 i
 )
 ;
@@ -2919,7 +2917,7 @@ ustrs
 [
 n
 ]
-TRUE
+true
 i
 )
 ;
@@ -2932,7 +2930,7 @@ FB_TRACE
 build
 "
 abbr
-FALSE
+false
 i
 )
 ;
@@ -3020,7 +3018,7 @@ ustrs
 [
 i
 ]
-FALSE
+false
 i
 )
 ;
@@ -3092,7 +3090,7 @@ ustrs
 [
 j
 ]
-FALSE
+false
 nn
 +
 1
@@ -3128,7 +3126,7 @@ ustrs
 [
 j
 ]
-FALSE
+false
 j
 )
 ;
@@ -3164,7 +3162,7 @@ ustrs
 [
 i
 ]
-FALSE
+false
 sameAs
 )
 ;
@@ -3181,7 +3179,7 @@ ustrs
 [
 i
 ]
-FALSE
+false
 partials
 [
 i
@@ -3247,7 +3245,7 @@ partial
 "
 &
 prefix
-FALSE
+false
 i
 )
 ;
@@ -3262,7 +3260,7 @@ ustrs
 [
 i
 ]
-FALSE
+false
 i
 )
 ;
@@ -3287,7 +3285,7 @@ partial
 "
 &
 prefix
-FALSE
+false
 i
 )
 ;
@@ -3302,7 +3300,7 @@ ustrs
 [
 i
 ]
-FALSE
+false
 i
 )
 ;
@@ -3373,7 +3371,7 @@ ustrs
 [
 i
 ]
-FALSE
+false
 i
 )
 ;
@@ -3391,7 +3389,7 @@ ustrs
 [
 i
 ]
-FALSE
+false
 i
 )
 ;
@@ -3420,7 +3418,7 @@ FB_TRACE
 AbbrCount
 "
 NULL
-FALSE
+false
 subCount
 )
 ;
@@ -3460,7 +3458,7 @@ u_errorName
 status
 )
 NULL
-FALSE
+false
 -
 1
 )
@@ -3506,7 +3504,7 @@ u_errorName
 status
 )
 NULL
-FALSE
+false
 -
 1
 )

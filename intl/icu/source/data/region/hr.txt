@@ -576,7 +576,7 @@ CK
 {
 "
 Cookovi
-Otoci
+otoci
 "
 }
 CL
@@ -1307,7 +1307,7 @@ otoci
 MQ
 {
 "
-Martinique
+Martinik
 "
 }
 MR

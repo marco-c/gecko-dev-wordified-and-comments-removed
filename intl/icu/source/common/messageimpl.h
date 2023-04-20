@@ -92,6 +92,8 @@ private
 MessageImpl
 (
 )
+=
+delete
 ;
 }
 ;
