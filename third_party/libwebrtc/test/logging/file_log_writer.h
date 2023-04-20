@@ -86,6 +86,17 @@ value
 )
 override
 ;
+bool
+Write
+(
+absl
+:
+:
+string_view
+value
+)
+override
+;
 void
 Flush
 (

@@ -122,6 +122,17 @@ output
 )
 override
 ;
+bool
+Write
+(
+absl
+:
+:
+string_view
+output
+)
+override
+;
 private
 :
 RtcEventLogOutputFile
