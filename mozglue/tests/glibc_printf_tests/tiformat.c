@@ -63019,13 +63019,9 @@ iptr
 +
 )
 {
-snprintf
+sprintf
 (
 buffer
-sizeof
-(
-buffer
-)
 iptr
 -
 >
