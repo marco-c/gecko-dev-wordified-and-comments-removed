@@ -8320,6 +8320,9 @@ dependable
 None
 )
 host
+when
+=
+is_linker_option_enabled
 )
 host_or_target_str
 =
