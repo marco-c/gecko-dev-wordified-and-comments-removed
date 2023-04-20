@@ -2128,12 +2128,10 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 GetInlinePropertyBase
 (
-nsStaticAtom
+const
+EditorInlineStyle
 &
-aHTMLProperty
-nsAtom
-*
-aAttribute
+aStyle
 const
 nsAString
 *
