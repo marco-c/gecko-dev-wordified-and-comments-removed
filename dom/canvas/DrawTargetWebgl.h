@@ -545,6 +545,11 @@ mPathMaxComplexity
 =
 0
 ;
+bool
+mPathAccelStroke
+=
+false
+;
 RefPtr
 <
 WebGLProgramJS
@@ -2394,6 +2399,10 @@ const
 DrawOptions
 &
 aOptions
+const
+StrokeOptions
+*
+aStrokeOptions
 )
 ;
 void
