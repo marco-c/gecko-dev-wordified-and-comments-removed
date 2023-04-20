@@ -121,8 +121,6 @@ function
 {
 dispatch
 getState
-client
-sourceMaps
 }
 )
 {

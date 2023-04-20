@@ -345,7 +345,7 @@ resourceCommand
 workers
 :
 {
-sourceMaps
+sourceMapLoader
 :
 this
 .

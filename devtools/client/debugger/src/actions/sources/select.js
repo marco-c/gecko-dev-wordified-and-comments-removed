@@ -300,7 +300,6 @@ async
 {
 dispatch
 getState
-sourceMaps
 }
 )
 =
@@ -438,7 +437,7 @@ async
 {
 dispatch
 getState
-sourceMaps
+sourceMapLoader
 client
 }
 )
@@ -563,7 +562,7 @@ getRelatedMapLocation
 getState
 (
 )
-sourceMaps
+sourceMapLoader
 location
 )
 ;
@@ -893,7 +892,7 @@ function
 dispatch
 getState
 client
-sourceMaps
+sourceMapLoader
 }
 )
 {
@@ -916,7 +915,7 @@ getRelatedMapLocation
 getState
 (
 )
-sourceMaps
+sourceMapLoader
 location
 )
 ;

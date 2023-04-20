@@ -98,7 +98,7 @@ mapLocations
 (
 generatedLocations
 {
-sourceMaps
+sourceMapLoader
 }
 )
 {
@@ -119,7 +119,7 @@ const
 originalLocations
 =
 await
-sourceMaps
+sourceMapLoader
 .
 getOriginalLocations
 (
@@ -438,7 +438,7 @@ const
 client
 dispatch
 getState
-sourceMaps
+sourceMapLoader
 }
 =
 thunkArgs
@@ -481,7 +481,7 @@ const
 ranges
 =
 await
-sourceMaps
+sourceMapLoader
 .
 getGeneratedRangesForOriginal
 (

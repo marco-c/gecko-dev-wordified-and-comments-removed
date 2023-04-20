@@ -61,9 +61,7 @@ async
 (
 {
 dispatch
-client
 getState
-sourceMaps
 }
 )
 =

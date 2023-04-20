@@ -1338,7 +1338,7 @@ column
 }
 ;
 const
-sourceMapsMock
+sourceMapLoaderMock
 =
 {
 getOriginalLocation
@@ -1426,7 +1426,7 @@ createStore
 client
 {
 }
-sourceMapsMock
+sourceMapLoaderMock
 )
 ;
 const
@@ -1716,7 +1716,7 @@ FakeThread
 ]
 ;
 const
-sourceMapsMock
+sourceMapLoaderMock
 =
 {
 getOriginalStackFrames
@@ -1816,7 +1816,7 @@ createStore
 client
 {
 }
-sourceMapsMock
+sourceMapLoaderMock
 )
 ;
 const

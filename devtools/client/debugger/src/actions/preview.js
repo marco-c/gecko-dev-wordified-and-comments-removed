@@ -189,8 +189,6 @@ return
 {
 dispatch
 getState
-client
-sourceMaps
 }
 )
 =
@@ -306,7 +304,6 @@ async
 dispatch
 getState
 client
-sourceMaps
 }
 )
 =

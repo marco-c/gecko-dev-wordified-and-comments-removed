@@ -502,7 +502,6 @@ function
 dispatch
 getState
 client
-sourceMaps
 }
 )
 {
@@ -689,8 +688,6 @@ function
 {
 dispatch
 getState
-client
-sourceMaps
 parserWorker
 }
 )

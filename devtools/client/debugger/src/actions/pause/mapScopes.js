@@ -427,8 +427,6 @@ function
 {
 dispatch
 getState
-client
-sourceMaps
 }
 )
 {
@@ -909,7 +907,7 @@ const
 {
 dispatch
 getState
-sourceMaps
+sourceMapLoader
 }
 =
 thunkArgs
@@ -933,7 +931,7 @@ getMappedLocation
 getState
 (
 )
-sourceMaps
+sourceMapLoader
 location
 )
 ;

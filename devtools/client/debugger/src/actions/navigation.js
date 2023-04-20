@@ -67,7 +67,7 @@ function
 dispatch
 getState
 client
-sourceMaps
+sourceMapLoader
 parserWorker
 }
 )
@@ -78,7 +78,7 @@ clear
 (
 )
 ;
-sourceMaps
+sourceMapLoader
 .
 clearSourceMaps
 (

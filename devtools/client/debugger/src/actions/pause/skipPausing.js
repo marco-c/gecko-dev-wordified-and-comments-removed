@@ -26,7 +26,6 @@ async
 dispatch
 client
 getState
-sourceMaps
 }
 )
 =
@@ -80,7 +79,6 @@ async
 dispatch
 client
 getState
-sourceMaps
 }
 )
 =

@@ -222,7 +222,7 @@ async
 function
 prettyPrintSource
 (
-sourceMaps
+sourceMapLoader
 prettyPrintWorker
 generatedSource
 content
@@ -337,7 +337,7 @@ url
 )
 ;
 await
-sourceMaps
+sourceMapLoader
 .
 applySourceMap
 (
@@ -360,7 +360,7 @@ actors
 )
 {
 await
-sourceMaps
+sourceMapLoader
 .
 applySourceMap
 (
@@ -400,7 +400,6 @@ async
 {
 dispatch
 getState
-sourceMaps
 }
 )
 =
@@ -489,7 +488,7 @@ async
 (
 {
 dispatch
-sourceMaps
+sourceMapLoader
 getState
 }
 )
@@ -526,7 +525,7 @@ line
 location
 =
 await
-sourceMaps
+sourceMapLoader
 .
 getOriginalLocation
 (
@@ -583,8 +582,6 @@ async
 {
 dispatch
 getState
-client
-sourceMaps
 }
 )
 =
