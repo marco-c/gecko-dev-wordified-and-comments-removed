@@ -183,16 +183,6 @@ good
     
 ]
     
-BROWSER_AUR_PACKAGES
-=
-[
-        
-"
-uuid
-"
-    
-]
-    
 MOBILE_ANDROID_COMMON_PACKAGES
 =
 [
@@ -290,16 +280,6 @@ artifact_mode
 False
 )
 :
-        
-self
-.
-aur_install
-(
-*
-self
-.
-BROWSER_AUR_PACKAGES
-)
         
 self
 .
