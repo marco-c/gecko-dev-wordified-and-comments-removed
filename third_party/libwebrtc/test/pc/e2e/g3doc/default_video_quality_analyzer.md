@@ -50,9 +50,6 @@ implements
 webrtc
 :
 :
-webrtc_pc_e2e
-:
-:
 VideoQualityAnalyzerInterface
 ]
 [

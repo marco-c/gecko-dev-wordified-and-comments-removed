@@ -542,9 +542,6 @@ std
 :
 unique_ptr
 <
-webrtc_pc_e2e
-:
-:
 VideoQualityAnalyzerInterface
 >
 video_quality_analyzer
