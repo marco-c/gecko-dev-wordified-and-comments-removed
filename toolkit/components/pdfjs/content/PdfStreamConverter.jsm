@@ -1421,9 +1421,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 err
 )
@@ -4212,9 +4212,9 @@ shouldOpen
 =
 true
 ;
-Cu
+console
 .
-reportError
+error
 (
 "
 Found

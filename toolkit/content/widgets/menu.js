@@ -1713,9 +1713,9 @@ if
 key
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Key
 {

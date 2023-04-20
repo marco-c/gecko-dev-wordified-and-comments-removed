@@ -716,9 +716,9 @@ break
 ;
 default
 :
-Cu
+console
 .
-reportError
+error
 (
 "
 commonDialog
@@ -728,7 +728,6 @@ unknown
 type
 :
 "
-+
 this
 .
 args
@@ -1713,9 +1712,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Couldn
@@ -1728,7 +1727,6 @@ event
 sound
 :
 "
-+
 e
 )
 ;

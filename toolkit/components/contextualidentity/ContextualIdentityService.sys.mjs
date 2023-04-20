@@ -1101,9 +1101,9 @@ report
 the
 error
 .
-Cu
+console
 .
-reportError
+error
 (
 error
 )

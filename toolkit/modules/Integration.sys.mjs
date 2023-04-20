@@ -1193,9 +1193,9 @@ Cr
 NS_ERROR_NO_INTERFACE
 )
 ;
-Cu
+console
 .
-reportError
+error
 (
 ex
 )
@@ -1827,9 +1827,9 @@ override
 being
 skipped
 .
-Cu
+console
 .
-reportError
+error
 (
 ex
 )

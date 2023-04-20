@@ -3516,9 +3516,9 @@ start
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

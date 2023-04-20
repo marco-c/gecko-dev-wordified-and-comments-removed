@@ -395,9 +395,9 @@ catch
 err
 =
 >
-Cu
+console
 .
-reportError
+error
 (
 err
 )

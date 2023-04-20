@@ -402,9 +402,9 @@ this
 _initialized
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 This

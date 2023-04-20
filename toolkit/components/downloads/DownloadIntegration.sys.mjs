@@ -6545,9 +6545,9 @@ downloadsView
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -7013,9 +7013,9 @@ download
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 download
@@ -7027,9 +7027,9 @@ true
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

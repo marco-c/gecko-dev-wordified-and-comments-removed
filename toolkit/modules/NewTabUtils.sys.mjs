@@ -1004,9 +1004,9 @@ dataloss
 !
 )
 .
-Cu
+console
 .
-reportError
+error
 (
 "
 Unable
@@ -1030,7 +1030,6 @@ scratch
 \
 n
 "
-+
 ex
 )
 ;
@@ -3340,9 +3339,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 err
 )
@@ -4301,9 +4300,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 err
 )
@@ -6027,9 +6026,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -12914,9 +12913,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 err
 )

@@ -173,9 +173,9 @@ expireOldEntries
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 break

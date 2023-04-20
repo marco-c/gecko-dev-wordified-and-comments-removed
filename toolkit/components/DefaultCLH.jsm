@@ -205,9 +205,9 @@ n
 "
 )
 ;
-Cu
+console
 .
-reportError
+error
 (
 out
 )
@@ -314,9 +314,9 @@ n
 "
 )
 ;
-Cu
+console
 .
-reportError
+error
 (
 out
 )

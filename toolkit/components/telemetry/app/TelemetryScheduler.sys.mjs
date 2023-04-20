@@ -893,9 +893,9 @@ down
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 TelemetryScheduler

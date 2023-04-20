@@ -668,9 +668,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -1210,9 +1210,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 new
 Error
@@ -1873,9 +1873,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Error
@@ -1883,7 +1883,6 @@ in
 ReaderWorker
 :
 "
-+
 e
 )
 ;

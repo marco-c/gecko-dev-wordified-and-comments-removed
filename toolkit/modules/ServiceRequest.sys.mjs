@@ -324,9 +324,9 @@ any
 /
 functionality
 .
-Cu
+console
 .
-reportError
+error
 (
 err
 )

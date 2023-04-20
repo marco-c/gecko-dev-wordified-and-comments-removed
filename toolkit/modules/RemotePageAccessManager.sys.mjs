@@ -1793,9 +1793,9 @@ if
 accessMapForFeature
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 RemotePageAccessManager
@@ -1807,14 +1807,11 @@ to
 Feature
 :
 "
-+
 aFeature
-+
 "
 for
 :
 "
-+
 aDocument
 .
 location

@@ -2536,9 +2536,9 @@ null
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 )
 ;
@@ -2586,9 +2586,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 ex
 )

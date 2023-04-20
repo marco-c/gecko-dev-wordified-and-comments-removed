@@ -526,9 +526,9 @@ break
 default
 :
 {
-Cu
+console
 .
-reportError
+error
 (
 new
 Error

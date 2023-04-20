@@ -667,9 +667,9 @@ catch
 e
 =
 >
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -1534,9 +1534,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Exception
@@ -1547,9 +1547,7 @@ capture
 :
 '
 "
-+
 ex
-+
 "
 '
 "
@@ -1879,9 +1877,9 @@ onError
 aReason
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Could
@@ -1890,7 +1888,6 @@ create
 thumbnails
 directory
 "
-+
 aReason
 )
 ;

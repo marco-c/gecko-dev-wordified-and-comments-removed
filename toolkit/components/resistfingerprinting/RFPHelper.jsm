@@ -1288,9 +1288,9 @@ if
 aPrefValue
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Invalid
 pref

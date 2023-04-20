@@ -1881,9 +1881,9 @@ removePartialData
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -1895,9 +1895,9 @@ reportError
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -2023,9 +2023,9 @@ this
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 aPrivateList
@@ -2037,9 +2037,9 @@ this
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

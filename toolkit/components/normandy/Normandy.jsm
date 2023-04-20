@@ -1226,9 +1226,9 @@ targetPrefType
 sourcePrefType
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 new
 Error
@@ -1402,9 +1402,9 @@ null
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -1493,9 +1493,9 @@ break
 default
 :
 {
-Cu
+console
 .
-reportError
+error
 (
 new
 Error

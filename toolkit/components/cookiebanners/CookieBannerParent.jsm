@@ -657,9 +657,9 @@ Cr
 NS_ERROR_NOT_AVAILABLE
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 The
@@ -676,9 +676,9 @@ available
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Fail
@@ -688,7 +688,6 @@ domain
 pref
 :
 "
-+
 e
 )
 ;

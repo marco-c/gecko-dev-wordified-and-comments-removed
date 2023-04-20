@@ -627,9 +627,9 @@ draft
 draft
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Adding
 a
@@ -1088,9 +1088,9 @@ return
 ;
 default
 :
-Cu
+console
 .
-reportError
+error
 (
 Unexpected
 schema

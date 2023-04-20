@@ -794,9 +794,9 @@ NoModificationAllowedError
 "
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 ex
 )

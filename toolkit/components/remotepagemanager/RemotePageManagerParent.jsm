@@ -496,9 +496,9 @@ Cr
 NS_ERROR_NOT_INITIALIZED
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -1384,9 +1384,9 @@ if
 callback
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Unexpected
@@ -1395,7 +1395,6 @@ page
 load
 :
 "
-+
 url
 )
 ;

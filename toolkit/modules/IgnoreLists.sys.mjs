@@ -542,9 +542,9 @@ things
 later
 on
 .
-Cu
+console
 .
-reportError
+error
 (
 ex
 )

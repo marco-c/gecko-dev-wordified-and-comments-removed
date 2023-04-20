@@ -827,9 +827,9 @@ ex
 =
 >
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 QuotaManagerService
@@ -837,7 +837,6 @@ promise
 failed
 :
 "
-+
 ex
 )
 ;

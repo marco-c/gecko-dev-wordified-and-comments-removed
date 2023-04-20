@@ -264,9 +264,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -1026,9 +1026,9 @@ break
 ;
 default
 :
-Cu
+console
 .
-reportError
+error
 (
 "
 Unhandled
@@ -1047,7 +1047,6 @@ a
 bug
 :
 "
-+
 result
 )
 ;
@@ -1091,9 +1090,9 @@ ex
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Exception
@@ -1398,9 +1397,9 @@ processType
 )
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Unhandled
@@ -1414,9 +1413,7 @@ bug
 :
 '
 "
-+
 processType
-+
 "
 '
 .
@@ -1964,9 +1961,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )

@@ -7472,9 +7472,9 @@ this
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -8151,9 +8151,9 @@ true
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

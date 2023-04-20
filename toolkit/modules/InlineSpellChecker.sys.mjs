@@ -214,9 +214,9 @@ by
 throwing
 exceptions
 :
-Cu
+console
 .
-reportError
+error
 (
 new
 Error
@@ -247,9 +247,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 ex
 )

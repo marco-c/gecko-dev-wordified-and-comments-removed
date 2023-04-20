@@ -3984,9 +3984,9 @@ launch
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 /
@@ -7036,9 +7036,9 @@ _notifyChange
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -13249,9 +13249,9 @@ download
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

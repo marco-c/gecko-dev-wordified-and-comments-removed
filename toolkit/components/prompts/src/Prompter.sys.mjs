@@ -390,9 +390,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 nsPrompter
@@ -404,7 +404,6 @@ manager
 failed
 :
 "
-+
 e
 )
 ;
@@ -8171,9 +8170,9 @@ associatedWindow
 gDialogBox
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Prompter
@@ -8228,9 +8227,9 @@ gDialogBox
 )
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Prompter
@@ -8561,9 +8560,9 @@ modalType
 MODAL_TYPE_WINDOW
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Prompter

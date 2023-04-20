@@ -147,9 +147,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -742,9 +742,9 @@ if
 deferred
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Received

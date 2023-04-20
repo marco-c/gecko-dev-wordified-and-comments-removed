@@ -215,9 +215,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Failed
@@ -329,9 +329,9 @@ Channel
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 WebChannel
@@ -465,9 +465,9 @@ principal
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Failed
@@ -484,9 +484,9 @@ invalid
 )
 ;
 }
-Cu
+console
 .
-reportError
+error
 (
 id
 .
@@ -499,7 +499,6 @@ error
 message
 .
 "
-+
 errorMsg
 )
 ;

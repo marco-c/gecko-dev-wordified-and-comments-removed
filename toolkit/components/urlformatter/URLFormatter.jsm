@@ -725,9 +725,9 @@ _this
 )
 ;
 }
-Cu
+console
 .
-reportError
+error
 (
 "
 formatURL
@@ -741,7 +741,6 @@ for
 key
 :
 "
-+
 aKey
 )
 ;
@@ -804,9 +803,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 formatURLPref
@@ -818,7 +817,6 @@ get
 pref
 :
 "
-+
 aPref
 )
 ;

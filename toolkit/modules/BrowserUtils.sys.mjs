@@ -800,9 +800,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Invalid
@@ -813,7 +813,6 @@ to
 formatURIForDisplay
 :
 "
-+
 ex
 )
 ;
@@ -950,9 +949,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 ex
 )

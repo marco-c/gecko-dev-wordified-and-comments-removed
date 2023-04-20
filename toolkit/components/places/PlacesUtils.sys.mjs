@@ -14466,9 +14466,9 @@ ex
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 /
@@ -14620,9 +14620,9 @@ conn
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 )
 ;
@@ -14679,9 +14679,9 @@ conn
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 )
 ;
@@ -14927,9 +14927,9 @@ conn
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 )
 ;

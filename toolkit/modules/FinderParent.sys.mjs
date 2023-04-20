@@ -494,9 +494,9 @@ aCallback
 ]
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Missing
 {
@@ -510,9 +510,9 @@ RemoteFinderListener
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -2876,9 +2876,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 ex
 )

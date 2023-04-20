@@ -967,9 +967,9 @@ continueSave
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -2618,9 +2618,9 @@ download
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

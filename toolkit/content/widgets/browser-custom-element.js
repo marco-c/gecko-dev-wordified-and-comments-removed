@@ -4079,9 +4079,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Error
@@ -4091,7 +4091,6 @@ global
 history
 :
 "
-+
 ex
 )
 ;
@@ -4104,9 +4103,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )

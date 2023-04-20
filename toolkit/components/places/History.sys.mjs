@@ -7518,9 +7518,9 @@ resolve
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
