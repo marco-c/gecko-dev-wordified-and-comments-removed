@@ -20343,12 +20343,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-cocoaWidget
-)
 =
 =
 chrome
@@ -20369,9 +20363,6 @@ xhtml
 ref
 .
 html
-#
-bug
-458047
 fuzzy
 (
 24
