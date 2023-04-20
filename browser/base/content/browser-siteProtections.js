@@ -5022,7 +5022,6 @@ _serviceModePref
 ;
 }
 return
-(
 mode
 !
 =
@@ -5031,17 +5030,6 @@ Ci
 nsICookieBannerService
 .
 MODE_DISABLED
-&
-&
-mode
-!
-=
-Ci
-.
-nsICookieBannerService
-.
-MODE_DETECT_ONLY
-)
 ;
 }
 get
