@@ -220,7 +220,7 @@ drift
 ;
 optional
 int32
-level
+applied_input_volume
 =
 5
 ;

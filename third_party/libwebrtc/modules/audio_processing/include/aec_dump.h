@@ -229,7 +229,7 @@ int
 drift
 ;
 int
-level
+applied_input_volume
 ;
 bool
 keypress
