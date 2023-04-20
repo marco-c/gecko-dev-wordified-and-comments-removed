@@ -153,6 +153,8 @@ nsAString
 aLaunchUrl
 bool
 aInPrivateBrowsing
+bool
+aIsSilent
 )
 :
 mBackend
@@ -218,6 +220,10 @@ aIsSystemPrincipal
 mLaunchUrl
 (
 aLaunchUrl
+)
+mIsSilent
+(
+aIsSilent
 )
 mSentFinished
 (
@@ -544,6 +550,9 @@ mIsSystemPrincipal
 ;
 nsString
 mLaunchUrl
+;
+bool
+mIsSilent
 ;
 bool
 mSentFinished
