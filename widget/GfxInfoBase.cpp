@@ -3780,15 +3780,8 @@ mFeature
 0
 )
 {
-gfxCriticalErrorOnce
+gfxWarning
 (
-CriticalLog
-:
-:
-DefaultOptions
-(
-false
-)
 )
 <
 <
