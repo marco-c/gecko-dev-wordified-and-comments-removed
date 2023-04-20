@@ -106,6 +106,7 @@ derive
 (
 Debug
 PartialEq
+Eq
 Copy
 Clone
 )

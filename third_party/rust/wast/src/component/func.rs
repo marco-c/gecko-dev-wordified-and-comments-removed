@@ -2060,8 +2060,6 @@ error
 fn
 parse_trailing_item_ref
 <
-'
-a
 T
 >
 (
@@ -2071,10 +2069,6 @@ T
 parser
 :
 Parser
-<
-'
-a
->
 )
 -
 >
@@ -2082,8 +2076,6 @@ Result
 <
 CoreItemRef
 <
-'
-a
 T
 >
 >

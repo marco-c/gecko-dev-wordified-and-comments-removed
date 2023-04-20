@@ -8,8 +8,12 @@ crate
 mod
 encode
 ;
+pub
+(
+crate
+)
 mod
-notrap
+no_traps
 ;
 mod
 terminate
@@ -2982,7 +2986,9 @@ multi_value_required
 =
 func_type
 .
-returns
+results
+(
+)
 .
 len
 (
@@ -3035,6 +3041,8 @@ params
 func_type
 .
 params
+(
+)
 .
 iter
 (
@@ -3059,7 +3067,9 @@ results
 :
 func_type
 .
-returns
+results
+(
+)
 .
 iter
 (

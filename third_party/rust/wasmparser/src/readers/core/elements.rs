@@ -5,8 +5,8 @@ crate
 {
 BinaryReader
 BinaryReaderError
+ConstExpr
 ExternalKind
-InitExpr
 Result
 SectionIteratorLimited
 SectionReader
@@ -87,9 +87,9 @@ Active
 table_index
 :
 u32
-init_expr
+offset_expr
 :
-InitExpr
+ConstExpr
 <
 '
 a
@@ -150,7 +150,7 @@ u32
 )
 Expr
 (
-InitExpr
+ConstExpr
 <
 '
 a
@@ -383,7 +383,7 @@ self
 .
 reader
 .
-read_init_expr
+read_const_expr
 (
 )
 ?
@@ -927,7 +927,7 @@ read_var_u32
 }
 ;
 let
-init_expr
+offset_expr
 =
 {
 let
@@ -943,7 +943,7 @@ self
 .
 reader
 .
-skip_init_expr
+skip_const_expr
 (
 )
 ?
@@ -968,7 +968,7 @@ reader
 position
 ]
 ;
-InitExpr
+ConstExpr
 :
 :
 new
@@ -990,7 +990,7 @@ ElementKind
 Active
 {
 table_index
-init_expr
+offset_expr
 }
 }
 ;
@@ -1133,7 +1133,7 @@ self
 .
 reader
 .
-skip_init_expr
+skip_const_expr
 (
 )
 ?

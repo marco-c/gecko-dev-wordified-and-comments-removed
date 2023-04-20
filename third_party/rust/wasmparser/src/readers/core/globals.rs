@@ -4,8 +4,8 @@ crate
 :
 {
 BinaryReader
+ConstExpr
 GlobalType
-InitExpr
 Result
 SectionIteratorLimited
 SectionReader
@@ -45,7 +45,7 @@ GlobalType
 pub
 init_expr
 :
-InitExpr
+ConstExpr
 <
 '
 a
@@ -229,7 +229,7 @@ self
 .
 reader
 .
-read_init_expr
+read_const_expr
 (
 )
 ?

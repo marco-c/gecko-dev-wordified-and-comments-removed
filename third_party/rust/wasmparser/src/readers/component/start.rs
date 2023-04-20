@@ -42,6 +42,10 @@ Box
 u32
 ]
 >
+pub
+results
+:
+u32
 }
 #
 [

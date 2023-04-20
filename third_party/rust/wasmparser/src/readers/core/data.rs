@@ -5,7 +5,7 @@ crate
 {
 BinaryReader
 BinaryReaderError
-InitExpr
+ConstExpr
 Result
 SectionIteratorLimited
 SectionReader
@@ -85,9 +85,9 @@ Active
 memory_index
 :
 u32
-init_expr
+offset_expr
 :
-InitExpr
+ConstExpr
 <
 '
 a
@@ -400,7 +400,7 @@ read_var_u32
 }
 ;
 let
-init_expr
+offset_expr
 =
 {
 let
@@ -416,7 +416,7 @@ self
 .
 reader
 .
-skip_init_expr
+skip_const_expr
 (
 )
 ?
@@ -441,7 +441,7 @@ reader
 position
 ]
 ;
-InitExpr
+ConstExpr
 :
 :
 new
@@ -463,7 +463,7 @@ DataKind
 Active
 {
 memory_index
-init_expr
+offset_expr
 }
 }
 _

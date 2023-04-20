@@ -18,7 +18,7 @@ Clone
 ]
 pub
 struct
-InitExpr
+ConstExpr
 <
 '
 a
@@ -41,7 +41,7 @@ impl
 '
 a
 >
-InitExpr
+ConstExpr
 <
 '
 a
@@ -63,9 +63,9 @@ usize
 )
 -
 >
-InitExpr
+ConstExpr
 {
-InitExpr
+ConstExpr
 {
 offset
 data

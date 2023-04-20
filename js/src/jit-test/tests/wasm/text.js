@@ -190,7 +190,7 @@ SyntaxError
 failed
 to
 find
-func
+name
 /
 )
 ;
@@ -335,7 +335,7 @@ SyntaxError
 failed
 to
 find
-local
+name
 /
 )
 ;
@@ -416,7 +416,7 @@ SyntaxError
 failed
 to
 find
-func
+name
 /
 )
 ;
@@ -459,7 +459,7 @@ SyntaxError
 failed
 to
 find
-type
+name
 /
 )
 ;
@@ -511,7 +511,7 @@ SyntaxError
 failed
 to
 find
-type
+name
 /
 )
 ;
@@ -541,7 +541,7 @@ SyntaxError
 failed
 to
 find
-label
+name
 /
 )
 ;
@@ -575,7 +575,7 @@ SyntaxError
 failed
 to
 find
-label
+name
 /
 )
 ;
