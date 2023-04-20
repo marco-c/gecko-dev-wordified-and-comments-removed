@@ -311,6 +311,17 @@ mozilla
 /
 no
 -
+cu
+-
+reportError
+eslint
+-
+plugin
+-
+mozilla
+/
+no
+-
 define
 -
 cc
