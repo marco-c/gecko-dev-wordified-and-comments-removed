@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+1
+)
+;
 const
 featureTourPref
 =
