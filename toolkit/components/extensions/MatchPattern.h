@@ -976,7 +976,7 @@ false
 ;
 RefPtr
 <
-MatchGlob
+MatchGlobCore
 >
 mPath
 ;
