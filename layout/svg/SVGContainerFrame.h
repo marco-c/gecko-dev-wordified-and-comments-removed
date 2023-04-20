@@ -183,13 +183,13 @@ return
 false
 ;
 }
-virtual
 void
 AppendFrames
 (
 ChildListID
 aListID
 nsFrameList
+&
 &
 aFrameList
 )

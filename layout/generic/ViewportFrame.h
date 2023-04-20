@@ -91,13 +91,13 @@ override
 #
 ifdef
 DEBUG
-virtual
 void
 AppendFrames
 (
 ChildListID
 aListID
 nsFrameList
+&
 &
 aFrameList
 )

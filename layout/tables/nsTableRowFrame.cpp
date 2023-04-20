@@ -1016,6 +1016,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aFrameList
 )
 {
@@ -1228,7 +1229,13 @@ GetNextSibling
 AppendFrames
 (
 aListID
+std
+:
+:
+move
+(
 aFrameList
+)
 )
 ;
 return

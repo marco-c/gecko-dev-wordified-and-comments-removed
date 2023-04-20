@@ -333,6 +333,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aFrameList
 )
 override
@@ -1508,6 +1509,7 @@ void
 AddFrames
 (
 nsFrameList
+&
 &
 aFrameList
 nsIFrame

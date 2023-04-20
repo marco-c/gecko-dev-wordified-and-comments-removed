@@ -27181,6 +27181,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aFrameList
 )
 {
@@ -27403,7 +27404,13 @@ NS_STATE_SVG_TEXT_CORRESPONDENCE_DIRTY
 }
 AddFrames
 (
+std
+:
+:
+move
+(
 aFrameList
+)
 lastKid
 nullptr
 )
@@ -27601,7 +27608,13 @@ n
 endif
 AddFrames
 (
+std
+:
+:
+move
+(
 aFrameList
+)
 aPrevFrame
 aPrevFrameLine
 )
@@ -27918,6 +27931,7 @@ nsBlockFrame
 AddFrames
 (
 nsFrameList
+&
 &
 aFrameList
 nsIFrame
@@ -36194,7 +36208,13 @@ sync
 endif
 AddFrames
 (
+std
+:
+:
+move
+(
 aChildList
+)
 nullptr
 nullptr
 )

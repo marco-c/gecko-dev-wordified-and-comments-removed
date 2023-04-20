@@ -481,6 +481,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aChildList
 )
 {
@@ -490,7 +491,13 @@ nsMathMLContainerFrame
 AppendFrames
 (
 aListID
+std
+:
+:
+move
+(
 aChildList
+)
 )
 ;
 MarkTextFramesAsTokenMathML

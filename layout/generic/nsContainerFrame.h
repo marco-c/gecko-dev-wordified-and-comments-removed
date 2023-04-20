@@ -323,6 +323,7 @@ ChildListID
 aListID
 nsFrameList
 &
+&
 aFrameList
 )
 ;
