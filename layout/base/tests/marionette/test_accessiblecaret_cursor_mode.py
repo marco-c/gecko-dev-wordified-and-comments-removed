@@ -224,6 +224,16 @@ duration
 .
 0
 "
+            
+"
+layout
+.
+accessiblecaret
+.
+hapticfeedback
+"
+:
+True
         
 }
         

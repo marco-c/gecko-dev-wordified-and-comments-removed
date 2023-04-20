@@ -2371,6 +2371,8 @@ layout_accessiblecaret_hapticfeedback
 )
 )
 {
+if
+(
 nsCOMPtr
 <
 nsIHapticFeedback
@@ -2391,7 +2393,8 @@ hapticfeedback
 1
 "
 )
-;
+)
+{
 haptic
 -
 >
@@ -2403,6 +2406,7 @@ haptic
 LongPress
 )
 ;
+}
 }
 }
 nsresult
