@@ -1374,6 +1374,9 @@ mDestroying
 bool
 mRegistered
 ;
+bool
+mDominantClientSize
+;
 PersistentAttributes
 mPersistentAttributesDirty
 ;
