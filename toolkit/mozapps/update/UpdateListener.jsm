@@ -1067,9 +1067,9 @@ update
 detailsURL
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 The
