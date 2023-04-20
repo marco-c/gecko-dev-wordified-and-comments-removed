@@ -1896,7 +1896,7 @@ PropertyIteratorObject
 iterObj_
 ;
 AttachDecision
-tryAttachObject
+tryAttachNativeIterator
 (
 ValOperandId
 valId
@@ -1910,7 +1910,7 @@ valId
 )
 ;
 AttachDecision
-tryAttachGeneric
+tryAttachMegamorphic
 (
 ValOperandId
 valId
