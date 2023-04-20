@@ -12710,6 +12710,10 @@ Clear
 (
 )
 ;
+MaybeResumeSend
+(
+)
+;
 }
 nsresult
 Http3Session
