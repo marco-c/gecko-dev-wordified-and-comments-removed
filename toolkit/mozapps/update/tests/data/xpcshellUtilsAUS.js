@@ -18593,6 +18593,7 @@ return
 result
 ;
 }
+async
 function
 waitForUpdateDownload
 (
@@ -18613,6 +18614,7 @@ aUpdates
 let
 success
 =
+await
 gAUS
 .
 downloadUpdate
