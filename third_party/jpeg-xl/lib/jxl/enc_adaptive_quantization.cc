@@ -5670,7 +5670,7 @@ kDcQuant
 =
 1
 .
-0f
+1f
 ;
 static
 const
@@ -5679,7 +5679,7 @@ kAcQuant
 =
 0
 .
-8294f
+8f
 ;
 void
 FindBestQuantization

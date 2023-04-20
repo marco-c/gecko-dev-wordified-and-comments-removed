@@ -178,6 +178,11 @@ jpeg_store_metadata
 =
 true
 ;
+bool
+compress_boxes
+=
+true
+;
 float
 intensity_target
 =

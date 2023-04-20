@@ -66,6 +66,12 @@ total_count_
 =
 0
 ;
+entropy_
+=
+0
+.
+0
+;
 }
 void
 Clear

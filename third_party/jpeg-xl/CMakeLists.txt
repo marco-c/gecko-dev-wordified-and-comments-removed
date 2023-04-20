@@ -2885,6 +2885,8 @@ sh
 /
 bash
 "
+OR
+MINGW
 )
 set
 (

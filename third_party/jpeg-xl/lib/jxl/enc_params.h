@@ -784,6 +784,11 @@ force_cfl_jpeg_recompression
 =
 true
 ;
+bool
+jpeg_compress_boxes
+=
+true
+;
 float
 photon_noise_iso
 =
@@ -984,15 +989,6 @@ kMinButteraugliToSubtractOriginalPatches
 static
 constexpr
 float
-kMinButteraugliDistanceForProgressiveDc
-=
-4
-.
-5f
-;
-static
-constexpr
-float
 kMinButteraugliForNoise
 =
 99
@@ -1006,7 +1002,7 @@ kMinButteraugliDistance
 =
 0
 .
-01f
+001f
 ;
 static
 constexpr
