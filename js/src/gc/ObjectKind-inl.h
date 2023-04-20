@@ -320,6 +320,7 @@ dataSlots
 ;
 }
 static
+constexpr
 inline
 size_t
 GetGCKindSlots
