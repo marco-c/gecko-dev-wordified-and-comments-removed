@@ -702,8 +702,16 @@ event
 )
 {
 const
-root
+element
 =
+document
+.
+body
+?
+document
+.
+body
+:
 document
 .
 documentElement
@@ -747,7 +755,7 @@ this
 .
 _setProperties
 (
-root
+element
 data
 )
 ;
@@ -768,7 +776,7 @@ change
 if
 (
 !
-root
+element
 .
 hasAttribute
 (
@@ -780,7 +788,7 @@ newtab
 )
 )
 {
-root
+element
 .
 toggleAttribute
 (

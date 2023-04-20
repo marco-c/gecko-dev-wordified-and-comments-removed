@@ -366,6 +366,9 @@ color
 :
 transparent
 ;
+}
+body
+{
 -
 -
 fxview
@@ -751,9 +754,6 @@ color
 hover
 )
 ;
-}
-body
-{
 display
 :
 flex
@@ -845,8 +845,7 @@ color
 )
 ;
 }
-:
-root
+body
 :
 not
 (
@@ -900,8 +899,7 @@ scheme
 dark
 )
 {
-:
-root
+body
 {
 -
 -
@@ -987,8 +985,7 @@ prefers
 contrast
 )
 {
-:
-root
+body
 {
 -
 -
