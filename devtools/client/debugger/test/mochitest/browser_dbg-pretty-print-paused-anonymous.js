@@ -831,6 +831,16 @@ dbg
 )
 ;
 await
+assertPausedAtSourceAndLine
+(
+dbg
+prettyNewFunctionSource
+.
+id
+4
+)
+;
+await
 resume
 (
 dbg
