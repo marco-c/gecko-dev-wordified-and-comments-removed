@@ -648,7 +648,6 @@ NoModificationAllowedError
 cleanup_writable
 (
 t
-await
 fileHandle
 .
 createWritable
