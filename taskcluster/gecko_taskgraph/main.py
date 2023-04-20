@@ -2461,6 +2461,9 @@ modules
 mod
 ]
         
+import
+gecko_taskgraph
+        
 if
 options
 [
