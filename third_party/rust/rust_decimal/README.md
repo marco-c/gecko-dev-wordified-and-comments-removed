@@ -334,14 +334,14 @@ rust_decimal
 "
 1
 .
-27
+28
 "
 rust_decimal_macros
 =
 "
 1
 .
-27
+28
 "
 #
 #
