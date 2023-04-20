@@ -366,7 +366,7 @@ env
 set
 (
 "
-SNAP_INSTANCE_NAME
+SNAP_NAME
 "
 AppConstants
 .
