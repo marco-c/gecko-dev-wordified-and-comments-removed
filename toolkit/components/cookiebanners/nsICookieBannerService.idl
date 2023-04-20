@@ -483,6 +483,9 @@ getClickRulesForDomain
 in
 ACString
 aDomain
+in
+bool
+aIsTopLevel
 )
 ;
 /

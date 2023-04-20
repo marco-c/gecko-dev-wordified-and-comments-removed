@@ -476,6 +476,12 @@ const
 bool
 aSkipPresenceVisibilityCheck
 const
+nsIClickRule
+:
+:
+RunContext
+aRunContext
+const
 nsACString
 &
 aHide
@@ -498,6 +504,7 @@ nsClickRule
 (
 aPresence
 aSkipPresenceVisibilityCheck
+aRunContext
 aHide
 aOptOut
 aOptIn

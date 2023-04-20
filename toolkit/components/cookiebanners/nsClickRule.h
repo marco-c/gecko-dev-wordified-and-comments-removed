@@ -41,6 +41,12 @@ const
 bool
 aSkipPresenceVisibilityCheck
 const
+nsIClickRule
+:
+:
+RunContext
+aRunContext
+const
 nsACString
 &
 aHide
@@ -61,6 +67,10 @@ aPresence
 mSkipPresenceVisibilityCheck
 (
 aSkipPresenceVisibilityCheck
+)
+mRunContext
+(
+aRunContext
 )
 mHide
 (
@@ -90,6 +100,12 @@ mPresence
 ;
 bool
 mSkipPresenceVisibilityCheck
+;
+nsIClickRule
+:
+:
+RunContext
+mRunContext
 ;
 nsCString
 mHide
