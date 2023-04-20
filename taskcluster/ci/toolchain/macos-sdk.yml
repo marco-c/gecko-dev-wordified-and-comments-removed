@@ -420,11 +420,6 @@ toolchain
 -
 alias
 :
--
-macosx64
--
-sdk
--
 macosx64
 -
 sdk
@@ -569,6 +564,13 @@ sdk
 tar
 .
 zst
+toolchain
+-
+alias
+:
+macosx64
+-
+sdk
 resources
 :
 -
