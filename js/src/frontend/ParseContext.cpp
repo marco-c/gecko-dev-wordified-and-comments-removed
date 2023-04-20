@@ -1776,7 +1776,10 @@ frontendCollectionPool
 )
 innerFunctionIndexesForLazy
 (
-cx
+sc
+-
+>
+ec_
 )
 newDirectives
 (
