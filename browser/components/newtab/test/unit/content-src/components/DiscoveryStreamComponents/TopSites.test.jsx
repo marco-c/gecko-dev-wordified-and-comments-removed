@@ -1222,10 +1222,16 @@ rows
 [
 resultSpocFirst
 pinnedSite
+pinnedSite
 .
 .
 .
 defaultTopSiteRows
+.
+slice
+(
+1
+)
 ]
 }
 )
