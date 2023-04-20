@@ -470,11 +470,6 @@ testPropCache
 cpp
 "
 "
-testPropertyKey
-.
-cpp
-"
-"
 testRecordTupleToSource
 .
 cpp
