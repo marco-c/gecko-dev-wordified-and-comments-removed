@@ -62,8 +62,6 @@ cache
 Thunderbird
 builds
 will
-have
-this
 set
 prior
 to
@@ -77,6 +75,14 @@ aws_prefix
 :
 -
 taskcluster
+}
+gcp_prefix
+=
+{
+gcp_prefix
+:
+-
+sccache
 }
 #
 builds
@@ -519,7 +525,9 @@ google
 )
 bucket
 =
-sccache
+{
+gcp_prefix
+}
 -
 l
 {
