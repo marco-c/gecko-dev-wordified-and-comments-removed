@@ -78,7 +78,7 @@ minimum
 rustc
 1
 .
-36
+56
 ]
 (
 https
@@ -97,7 +97,7 @@ rustc
 -
 1
 .
-36
+56
 +
 -
 red
@@ -988,7 +988,7 @@ requires
 rustc
 1
 .
-36
+56
 .
 0
 or
@@ -1448,7 +1448,7 @@ details
 Opening
 a
 pull
-requests
+request
 is
 assumed
 to

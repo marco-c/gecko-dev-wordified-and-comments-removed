@@ -36,14 +36,12 @@ build_global
 (
 )
 ;
-assert_eq
+assert
 !
 (
 result1
 .
-unwrap
-(
-)
+is_ok
 (
 )
 )

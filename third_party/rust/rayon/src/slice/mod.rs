@@ -225,6 +225,10 @@ as_parallel_slice
 )
 }
 }
+#
+[
+track_caller
+]
 fn
 par_chunks
 (
@@ -272,6 +276,10 @@ as_parallel_slice
 )
 )
 }
+#
+[
+track_caller
+]
 fn
 par_chunks_exact
 (
@@ -319,6 +327,10 @@ as_parallel_slice
 )
 )
 }
+#
+[
+track_caller
+]
 fn
 par_rchunks
 (
@@ -366,6 +378,10 @@ as_parallel_slice
 )
 )
 }
+#
+[
+track_caller
+]
 fn
 par_rchunks_exact
 (
@@ -523,6 +539,10 @@ as_parallel_slice_mut
 separator
 }
 }
+#
+[
+track_caller
+]
 fn
 par_chunks_mut
 (
@@ -571,6 +591,10 @@ as_parallel_slice_mut
 )
 )
 }
+#
+[
+track_caller
+]
 fn
 par_chunks_exact_mut
 (
@@ -619,6 +643,10 @@ as_parallel_slice_mut
 )
 )
 }
+#
+[
+track_caller
+]
 fn
 par_rchunks_mut
 (
@@ -667,6 +695,10 @@ as_parallel_slice_mut
 )
 )
 }
+#
+[
+track_caller
+]
 fn
 par_rchunks_exact_mut
 (

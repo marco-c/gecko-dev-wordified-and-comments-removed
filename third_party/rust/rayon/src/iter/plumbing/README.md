@@ -1236,7 +1236,7 @@ the
 zip
 and
 its
-preecessors
+predecessors
 .
 It
 will

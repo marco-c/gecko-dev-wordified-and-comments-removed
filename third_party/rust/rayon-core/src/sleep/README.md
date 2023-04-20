@@ -774,7 +774,7 @@ is
 a
 delay
 between
-siganling
+signaling
 a
 thread
 to
@@ -1434,7 +1434,7 @@ thread
 goes
 back
 to
-searchin
+searching
 for
 work
 .

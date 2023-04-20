@@ -83,10 +83,10 @@ name
 )
 {
 let
-ref
-mut
 rng
 =
+&
+mut
 thread_rng
 (
 )
