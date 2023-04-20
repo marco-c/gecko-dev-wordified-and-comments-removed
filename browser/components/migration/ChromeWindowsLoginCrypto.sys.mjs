@@ -488,9 +488,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 {
 userDataPathSuffix

@@ -14140,9 +14140,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 SessionStore
@@ -14154,7 +14154,6 @@ all
 windows
 :
 "
-+
 ex
 )
 ;
@@ -28934,9 +28933,9 @@ for
 this
 url
 .
-Cu
+console
 .
-reportError
+error
 (
 error
 )
@@ -30249,9 +30248,9 @@ browser
 )
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Must
@@ -38550,9 +38549,9 @@ if
 previousState
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Given
@@ -38734,9 +38733,9 @@ browser
 )
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Given

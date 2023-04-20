@@ -2802,9 +2802,9 @@ transact
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 return
@@ -3987,9 +3987,9 @@ undo
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

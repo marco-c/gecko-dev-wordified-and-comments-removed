@@ -880,9 +880,9 @@ this
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

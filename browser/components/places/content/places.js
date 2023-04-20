@@ -2137,9 +2137,9 @@ spec
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -2274,9 +2274,9 @@ path
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -3136,9 +3136,9 @@ path
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

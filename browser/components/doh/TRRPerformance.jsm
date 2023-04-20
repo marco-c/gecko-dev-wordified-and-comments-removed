@@ -397,9 +397,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -608,9 +608,9 @@ this
 _aborted
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Trying
@@ -824,9 +824,9 @@ kCanonicalDomain
 )
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Expected
@@ -836,7 +836,6 @@ for
 reporting
 got
 "
-+
 domain
 )
 ;

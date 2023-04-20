@@ -302,9 +302,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 CookieService
 :
@@ -420,9 +420,9 @@ catch
 ex
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 CookieService
 :

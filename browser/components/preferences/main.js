@@ -8026,9 +8026,9 @@ element
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -13258,9 +13258,9 @@ chooseFolderTask
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -13523,9 +13523,9 @@ displayDownloadDirPrefTask
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 return

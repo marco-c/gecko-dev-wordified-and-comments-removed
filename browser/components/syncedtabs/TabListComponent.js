@@ -654,9 +654,9 @@ title
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

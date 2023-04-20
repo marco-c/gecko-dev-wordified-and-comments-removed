@@ -146,9 +146,9 @@ catch
 exception
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Failed
@@ -344,9 +344,9 @@ catch
 exception
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Failed
@@ -394,9 +394,9 @@ browsingContext
 ancestorsAreCurrent
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Can
@@ -582,9 +582,9 @@ catch
 exception
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Failed

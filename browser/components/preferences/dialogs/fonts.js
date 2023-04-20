@@ -751,9 +751,9 @@ element
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

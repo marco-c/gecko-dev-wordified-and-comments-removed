@@ -812,9 +812,9 @@ encrypt
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

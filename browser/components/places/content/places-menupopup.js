@@ -1837,9 +1837,9 @@ dataTransfer
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 event

@@ -341,9 +341,9 @@ cancel
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 download
@@ -354,9 +354,9 @@ removePartialData
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

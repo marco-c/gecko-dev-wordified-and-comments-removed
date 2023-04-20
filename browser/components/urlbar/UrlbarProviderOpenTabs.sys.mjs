@@ -681,9 +681,9 @@ userContextId
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -803,9 +803,9 @@ userContextId
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
@@ -927,9 +927,9 @@ userContextId
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }

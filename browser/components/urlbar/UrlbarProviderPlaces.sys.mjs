@@ -2440,9 +2440,9 @@ icon
 ;
 default
 :
-Cu
+console
 .
-reportError
+error
 (
 Unexpected
 action

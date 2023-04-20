@@ -3911,9 +3911,9 @@ updateDatabase
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 .
 then

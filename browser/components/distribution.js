@@ -449,9 +449,9 @@ PREF_CACHED_FILE_EXISTENCE
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Unable
@@ -1329,9 +1329,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )

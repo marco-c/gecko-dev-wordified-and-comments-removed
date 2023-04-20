@@ -7016,9 +7016,9 @@ scenario
 history
 "
 ;
-Cu
+console
 .
-reportError
+error
 (
 Unrecognized
 Firefox
@@ -7738,9 +7738,9 @@ catch
 error
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 Error
 migrating

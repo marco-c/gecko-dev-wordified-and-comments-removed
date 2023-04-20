@@ -2390,9 +2390,9 @@ catch
 innerException
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 innerException
 )
@@ -3190,9 +3190,9 @@ null
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Unexpected
@@ -3200,9 +3200,7 @@ JET
 error
 :
 "
-+
 err
-+
 "
 ;
 retrieving
@@ -3210,7 +3208,6 @@ value
 for
 column
 "
-+
 column
 .
 name
@@ -3300,9 +3297,9 @@ length
 16
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Buffer
@@ -3311,11 +3308,9 @@ for
 guid
 field
 "
-+
 column
 .
 id
-+
 "
 should
 have
@@ -4416,9 +4411,9 @@ if
 locked
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 ESE
 DB

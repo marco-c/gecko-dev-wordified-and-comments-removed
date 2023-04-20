@@ -1636,9 +1636,9 @@ at
 least
 be
 recovered
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -1688,9 +1688,9 @@ don
 t
 understand
 .
-Cu
+console
 .
-reportError
+error
 (
 "
 Cannot
@@ -1701,9 +1701,7 @@ Session
 Restore
 file
 "
-+
 path
-+
 "
 .
 Wrong

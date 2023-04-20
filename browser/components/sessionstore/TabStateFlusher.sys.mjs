@@ -1414,9 +1414,9 @@ if
 success
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Failed
@@ -1425,7 +1425,6 @@ flush
 browser
 :
 "
-+
 message
 )
 ;
@@ -1669,9 +1668,9 @@ if
 success
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Failed
@@ -1680,7 +1679,6 @@ flush
 browser
 :
 "
-+
 message
 )
 ;

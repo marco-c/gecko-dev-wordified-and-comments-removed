@@ -695,9 +695,9 @@ refresh
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 .
 then
@@ -2877,9 +2877,9 @@ DOWNLOAD
 .
 catch
 (
-Cu
+console
 .
-reportError
+error
 )
 ;
 }
