@@ -519,11 +519,11 @@ kPayloadLengthBitsMask
 ;
 protected
 :
-virtual
 ~
 WebSocketChannel
 (
 )
+override
 ;
 private
 :

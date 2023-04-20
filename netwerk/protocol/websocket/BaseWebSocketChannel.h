@@ -438,6 +438,12 @@ ListenerAndContextContainer
 ;
 protected
 :
+virtual
+~
+BaseWebSocketChannel
+(
+)
+;
 nsCOMPtr
 <
 nsIURI
