@@ -2332,6 +2332,9 @@ speedMHz
 "
 vendor
 "
+"
+name
+"
 ]
 ;
 for
