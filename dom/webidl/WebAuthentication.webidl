@@ -793,17 +793,6 @@ id
 ;
 }
 ;
-enum
-TokenBindingStatus
-{
-"
-present
-"
-"
-supported
-"
-}
-;
 dictionary
 PublicKeyCredentialDescriptor
 {
