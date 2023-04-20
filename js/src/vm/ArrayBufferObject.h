@@ -489,10 +489,6 @@ slot
 )
 ;
 static
-bool
-supportLargeBuffers
-;
-static
 constexpr
 size_t
 MaxByteLengthForSmallBuffer
@@ -500,6 +496,7 @@ MaxByteLengthForSmallBuffer
 INT32_MAX
 ;
 static
+constexpr
 size_t
 maxBufferByteLength
 (
@@ -508,11 +505,6 @@ maxBufferByteLength
 #
 ifdef
 JS_64BIT
-if
-(
-supportLargeBuffers
-)
-{
 return
 size_t
 (
@@ -525,12 +517,13 @@ size_t
 *
 1024
 ;
-}
 #
-endif
+else
 return
 MaxByteLengthForSmallBuffer
 ;
+#
+endif
 }
 static
 constexpr
