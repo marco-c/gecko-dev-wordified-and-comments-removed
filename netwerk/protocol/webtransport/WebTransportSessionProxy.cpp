@@ -924,7 +924,13 @@ aError
 %
 "
 PRIx32
+static_cast
+<
+uint32_t
+>
+(
 aError
+)
 )
 )
 ;
