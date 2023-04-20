@@ -3858,13 +3858,6 @@ js
 "
 builtin
 /
-Function
-.
-js
-"
-"
-builtin
-/
 Generator
 .
 js
