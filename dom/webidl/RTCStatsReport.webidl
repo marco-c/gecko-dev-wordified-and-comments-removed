@@ -321,9 +321,10 @@ RTCRtpStreamStats
 {
 unsigned
 long
+long
 packetsReceived
 ;
-unsigned
+long
 long
 packetsLost
 ;
