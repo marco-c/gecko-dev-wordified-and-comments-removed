@@ -116,6 +116,14 @@ in
 self
 .
 HOST
+or
+"
+windows
+"
+in
+self
+.
+HOST
 :
             
 platform
@@ -313,7 +321,9 @@ i686
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
 ]
 )
@@ -322,7 +332,9 @@ i686
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
         
 )
@@ -340,7 +352,9 @@ i686
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
     
 def
@@ -385,16 +399,21 @@ x86_64
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
 ]
 )
+            
 "
 x86_64
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
         
 )
@@ -422,7 +441,9 @@ x86_64
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
 )
         
@@ -465,7 +486,9 @@ x86_64
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
 )
         
@@ -488,7 +511,9 @@ i686
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
 ]
 )
@@ -497,7 +522,9 @@ i686
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
         
 )
@@ -525,7 +552,9 @@ i686
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
 )
         
@@ -560,7 +589,9 @@ x86_64
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
 )
         
@@ -583,7 +614,9 @@ i686
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
 ]
 )
@@ -592,7 +625,9 @@ i686
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
         
 )
@@ -620,7 +655,9 @@ i686
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
 )
         
@@ -655,7 +692,9 @@ i686
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
 )
         
@@ -678,16 +717,21 @@ x86_64
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
 ]
 )
+            
 "
 x86_64
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
         
 )
@@ -715,8 +759,80 @@ x86_64
 -
 pc
 -
+windows
+-
+msvc
+"
+)
+        
+self
+.
+assertEqual
+(
+            
+self
+.
+get_target
+(
+[
+"
+-
+-
+host
+=
+x86_64
+-
+pc
+-
+windows
+-
+gnu
+"
+]
+)
+"
+x86_64
+-
+pc
+-
+windows
+-
+gnu
+"
+        
+)
+        
+self
+.
+assertEqual
+(
+            
+self
+.
+get_target
+(
+[
+"
+-
+-
+host
+=
+x86_64
+-
+pc
+-
 mingw32
 "
+]
+)
+"
+x86_64
+-
+pc
+-
+mingw32
+"
+        
 )
 class
 TestTargetAndroid
@@ -1164,7 +1280,9 @@ x86_64
 -
 pc
 -
-mingw32
+windows
+-
+msvc
 "
 "
 -

@@ -1300,6 +1300,10 @@ host_or_target
 depends
 (
 host_or_target
+host_or_target
+.
+abi
+|
 windows_abi
 so_version
 )
