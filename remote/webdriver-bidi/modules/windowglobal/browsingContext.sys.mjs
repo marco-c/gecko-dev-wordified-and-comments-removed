@@ -488,7 +488,7 @@ this
 #
 subscribedEvents
 .
-remove
+delete
 (
 "
 browsingContext
@@ -511,7 +511,7 @@ this
 #
 subscribedEvents
 .
-remove
+delete
 (
 "
 browsingContext
@@ -534,7 +534,7 @@ this
 #
 subscribedEvents
 .
-remove
+delete
 (
 "
 browsingContext
