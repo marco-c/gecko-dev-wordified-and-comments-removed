@@ -911,6 +911,12 @@ class
 MOZ_RAII
 JS_HAZ_GC_SUPPRESSED
 AutoSuppressGC
+:
+public
+JS
+:
+:
+AutoRequireNoGC
 {
 int32_t
 &

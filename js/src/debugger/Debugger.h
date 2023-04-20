@@ -3290,6 +3290,13 @@ forEachOnStackDebuggerFrame
 (
 AbstractFramePtr
 frame
+const
+JS
+:
+:
+AutoRequireNoGC
+&
+nogc
 FrameFn
 fn
 )
@@ -3308,6 +3315,13 @@ JSContext
 cx
 AbstractFramePtr
 frame
+const
+JS
+:
+:
+AutoRequireNoGC
+&
+nogc
 FrameFn
 fn
 )
