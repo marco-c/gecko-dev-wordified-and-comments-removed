@@ -5292,6 +5292,12 @@ unicode_bidi
 nsGkAtoms
 :
 :
+white_space
+}
+{
+nsGkAtoms
+:
+:
 word_spacing
 }
 {
