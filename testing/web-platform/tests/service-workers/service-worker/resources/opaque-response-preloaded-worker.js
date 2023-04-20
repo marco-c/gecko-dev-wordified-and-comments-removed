@@ -40,9 +40,9 @@ worker
 /
 resources
 /
-simple
+sample
 .
-txt
+js
 '
 self
 .
