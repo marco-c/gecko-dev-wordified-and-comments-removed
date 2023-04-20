@@ -2120,8 +2120,10 @@ true
 ;
 nsTArray
 <
+RefPtr
+<
 gfxUserFontSet
-*
+>
 >
 fontSets
 ;
@@ -3960,8 +3962,10 @@ IncrementGeneration
 {
 nsTArray
 <
+RefPtr
+<
 gfxUserFontSet
-*
+>
 >
 fontSets
 ;
@@ -4434,8 +4438,10 @@ GetUserFontSets
 (
 nsTArray
 <
+RefPtr
+<
 gfxUserFontSet
-*
+>
 >
 &
 aResult

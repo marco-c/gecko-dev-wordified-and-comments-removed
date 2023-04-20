@@ -1012,8 +1012,10 @@ updateUserFontSet
 {
 nsTArray
 <
+RefPtr
+<
 gfxUserFontSet
-*
+>
 >
 fontSets
 ;
@@ -1532,8 +1534,10 @@ NS_OK
 }
 nsTArray
 <
+RefPtr
+<
 gfxUserFontSet
-*
+>
 >
 fontSets
 ;
