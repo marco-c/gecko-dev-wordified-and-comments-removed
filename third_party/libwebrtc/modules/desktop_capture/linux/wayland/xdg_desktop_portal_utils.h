@@ -319,6 +319,13 @@ RequestResponse
 request
 )
 ;
+RequestResponse
+RequestResponseFromPortalResponse
+(
+uint32_t
+portal_response
+)
+;
 std
 :
 :
