@@ -8,7 +8,7 @@ const
 WasmRemap
 }
 =
-browserRequire
+require
 (
 "
 resource
@@ -40,7 +40,7 @@ const
 SourceMapConsumer
 }
 =
-browserRequire
+require
 (
 "
 resource

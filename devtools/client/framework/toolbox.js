@@ -6035,9 +6035,7 @@ _sourceMapService
 const
 service
 =
-this
-.
-browserRequire
+require
 (
 "
 devtools
