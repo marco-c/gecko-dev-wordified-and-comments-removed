@@ -36,7 +36,7 @@ FormHistory
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -49,7 +49,9 @@ modules
 /
 FormHistory
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

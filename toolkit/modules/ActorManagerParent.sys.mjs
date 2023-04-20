@@ -1353,7 +1353,7 @@ FormHistory
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -1366,13 +1366,15 @@ actors
 /
 FormHistoryParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -1385,7 +1387,9 @@ actors
 /
 FormHistoryChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :

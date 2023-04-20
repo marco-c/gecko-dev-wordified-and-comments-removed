@@ -1,6 +1,6 @@
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -17,7 +17,9 @@ common
 /
 FormHistoryTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
