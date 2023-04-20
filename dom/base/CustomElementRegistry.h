@@ -494,6 +494,13 @@ LifecycleCallbacks
 &
 &
 aCallbacks
+UniquePtr
+<
+FormAssociatedLifecycleCallbacks
+>
+&
+&
+aFormAssociatedCallbacks
 bool
 aFormAssociated
 bool
@@ -537,6 +544,12 @@ UniquePtr
 LifecycleCallbacks
 >
 mCallbacks
+;
+UniquePtr
+<
+FormAssociatedLifecycleCallbacks
+>
+mFormAssociatedCallbacks
 ;
 bool
 mFormAssociated
