@@ -139,6 +139,9 @@ chunk_increment
 #
 endif
 #
+define
+DUMP_ARRAYS
+#
 ifdef
 DUMP_ARRAYS
 void
@@ -5899,9 +5902,3 @@ frames_needed2
 )
 ;
 }
-#
-undef
-NOMINMAX
-#
-undef
-DUMP_ARRAYS
