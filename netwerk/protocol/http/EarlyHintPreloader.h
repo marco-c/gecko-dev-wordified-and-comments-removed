@@ -85,6 +85,13 @@ h
 #
 include
 "
+nsITimer
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h
@@ -218,6 +225,10 @@ public
 nsIInterfaceRequestor
 public
 nsIMultiPartChannelListener
+public
+nsINamed
+public
+nsITimerCallback
 {
 public
 :
@@ -228,6 +239,8 @@ NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSIREDIRECTRESULTLISTENER
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIMULTIPARTCHANNELLISTENER
+NS_DECL_NSINAMED
+NS_DECL_NSITIMERCALLBACK
 public
 :
 static
@@ -260,9 +273,12 @@ nsACString
 aCSPHeader
 )
 ;
-EarlyHintConnectArgs
+bool
 Register
 (
+EarlyHintConnectArgs
+&
+aOut
 )
 ;
 nsresult
@@ -274,6 +290,8 @@ const
 nsACString
 &
 aReason
+bool
+aDeleteEntry
 )
 ;
 void
@@ -438,6 +456,12 @@ ParentChannelListener
 >
 mParentListener
 ;
+nsCOMPtr
+<
+nsITimer
+>
+mTimer
+;
 private
 :
 enum
@@ -451,6 +475,7 @@ ePreloaderCreated
 ePreloaderOpened
 ePreloaderUsed
 ePreloaderCancelled
+ePreloaderTimeout
 }
 ;
 EHPreloaderState

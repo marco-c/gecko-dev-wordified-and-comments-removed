@@ -187,6 +187,13 @@ CleanUp
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 if
 (
 !
@@ -233,6 +240,7 @@ EarlyHintRegistrar
 CleanUp
 "
 _ns
+false
 )
 ;
 }
@@ -258,6 +266,13 @@ GetOrCreate
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 if
 (
 !
