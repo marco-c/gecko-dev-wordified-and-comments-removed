@@ -75,8 +75,6 @@ int32_t
 aStart
 int32_t
 aStartLineNumber
-int32_t
-aStartColumnNumber
 nsAHtml5TreeBuilderState
 *
 aSnapshot
@@ -113,15 +111,6 @@ GetStartLineNumber
 {
 return
 mStartLineNumber
-;
-}
-int32_t
-GetStartColumnNumber
-(
-)
-{
-return
-mStartColumnNumber
 ;
 }
 nsAHtml5TreeBuilderState
@@ -182,9 +171,6 @@ mStart
 ;
 int32_t
 mStartLineNumber
-;
-int32_t
-mStartColumnNumber
 ;
 mozilla
 :
