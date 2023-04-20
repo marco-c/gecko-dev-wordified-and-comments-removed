@@ -3297,12 +3297,13 @@ isToolSupported
 toolbox
 =
 >
-!
 toolbox
 .
-target
+commands
 .
-chrome
+descriptorFront
+.
+isTabDescriptor
 async
 onClick
 (
