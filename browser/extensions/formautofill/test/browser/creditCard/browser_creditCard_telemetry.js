@@ -45,7 +45,7 @@ resource
 /
 autofill
 /
-FormAutofillTelemetryUtils
+Autofilltelemetry
 .
 jsm
 "
