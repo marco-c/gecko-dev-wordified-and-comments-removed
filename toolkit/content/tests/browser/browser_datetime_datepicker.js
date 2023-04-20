@@ -457,6 +457,8 @@ exp
 msg
 )
 {
+Assert
+.
 ok
 (
 Math
@@ -2657,6 +2659,8 @@ focus
 }
 )
 ;
+Assert
+.
 ok
 (
 isFocused
@@ -3114,6 +3118,8 @@ changed
 "
 )
 ;
+Assert
+.
 ok
 (
 invalid
