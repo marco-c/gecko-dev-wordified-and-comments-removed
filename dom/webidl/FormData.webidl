@@ -141,6 +141,12 @@ constructor
 optional
 HTMLFormElement
 form
+optional
+HTMLElement
+?
+submitter
+=
+null
 )
 ;
 [

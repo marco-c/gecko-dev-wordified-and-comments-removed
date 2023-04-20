@@ -60,6 +60,13 @@ h
 #
 include
 "
+nsGenericHTMLElement
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -272,6 +279,9 @@ HTMLFormElement
 >
 &
 aFormElement
+nsGenericHTMLElement
+*
+aSubmitter
 ErrorResult
 &
 aRv
