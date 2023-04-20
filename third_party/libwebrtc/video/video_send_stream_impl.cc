@@ -1021,10 +1021,7 @@ clock
 SendStatisticsProxy
 *
 stats_proxy
-rtc
-:
-:
-TaskQueue
+TaskQueueBase
 *
 rtp_transport_queue
 RtpTransportControllerSendInterface
@@ -1725,11 +1722,6 @@ RepeatingTaskHandle
 DelayedStart
 (
 rtp_transport_queue_
--
->
-Get
-(
-)
 kEncoderTimeOut
 [
 this

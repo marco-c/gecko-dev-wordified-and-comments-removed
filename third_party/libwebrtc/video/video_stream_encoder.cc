@@ -4024,8 +4024,11 @@ stream_resource_manager_
 .
 Initialize
 (
-&
 encoder_queue_
+.
+Get
+(
+)
 )
 ;
 encoder_queue_

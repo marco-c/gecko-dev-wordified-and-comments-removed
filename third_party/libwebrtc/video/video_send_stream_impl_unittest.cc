@@ -935,8 +935,11 @@ VideoSendStreamImpl
 clock_
 &
 stats_proxy_
-&
 test_queue_
+.
+Get
+(
+)
 &
 transport_controller_
 &

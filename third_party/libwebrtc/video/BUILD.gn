@@ -2001,14 +2001,6 @@ macromagic
 .
 .
 /
-rtc_base
-:
-rtc_task_queue
-"
-"
-.
-.
-/
 system_wrappers
 "
 "

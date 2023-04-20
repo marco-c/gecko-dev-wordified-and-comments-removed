@@ -376,10 +376,7 @@ int64_t
 max_wait_time_ms
 bool
 keyframe_required
-rtc
-:
-:
-TaskQueue
+TaskQueueBase
 *
 callback_queue
 NextFrameCallback
@@ -507,11 +504,6 @@ RepeatingTaskHandle
 DelayedStart
 (
 callback_queue_
--
->
-Get
-(
-)
 TimeDelta
 :
 :
