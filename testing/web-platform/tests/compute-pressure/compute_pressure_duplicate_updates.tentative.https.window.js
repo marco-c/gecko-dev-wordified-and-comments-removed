@@ -72,7 +72,7 @@ observer_changes
 {
 sampleRate
 :
-1
+5
 .
 0
 }
@@ -109,7 +109,7 @@ mockPressureService
 .
 startPlatformCollector
 (
-1
+5
 .
 0
 )
@@ -291,7 +291,7 @@ observer_changes
 {
 sampleRate
 :
-1
+5
 .
 0
 }
@@ -333,7 +333,7 @@ mockPressureService
 .
 startPlatformCollector
 (
-1
+5
 .
 0
 )
