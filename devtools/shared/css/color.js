@@ -305,12 +305,16 @@ valid
 return
 InspectorUtils
 .
-isValidCSSColor
+colorToRGBA
 (
 this
 .
 authored
 )
+!
+=
+=
+null
 ;
 }
 get
