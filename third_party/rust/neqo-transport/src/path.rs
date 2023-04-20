@@ -3602,7 +3602,6 @@ challenge
 "
 hex
 (
-&
 challenge
 )
 )

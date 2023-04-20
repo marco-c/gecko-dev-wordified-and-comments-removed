@@ -81,6 +81,9 @@ StreamType
 }
 ;
 pub
+(
+crate
+)
 const
 HTTP3_UNI_STREAM_TYPE_PUSH
 :
@@ -89,6 +92,9 @@ u64
 0x1
 ;
 pub
+(
+crate
+)
 const
 WEBTRANSPORT_UNI_STREAM
 :
@@ -97,6 +103,9 @@ u64
 0x54
 ;
 pub
+(
+crate
+)
 const
 WEBTRANSPORT_STREAM
 :
@@ -116,6 +125,9 @@ Eq
 )
 ]
 pub
+(
+crate
+)
 enum
 NewStreamType
 {
@@ -368,6 +380,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 enum
 NewStreamHeadReader
 {

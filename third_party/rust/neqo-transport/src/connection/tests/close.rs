@@ -441,10 +441,8 @@ now
 String
 :
 :
-from
+new
 (
-"
-"
 )
 )
 ;

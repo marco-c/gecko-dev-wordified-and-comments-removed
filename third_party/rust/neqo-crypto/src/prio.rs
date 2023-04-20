@@ -14,15 +14,6 @@ upper_case_acronyms
 [
 allow
 (
-unknown_lints
-deref_nullptr
-)
-]
-#
-!
-[
-allow
-(
 dead_code
 non_upper_case_globals
 non_snake_case

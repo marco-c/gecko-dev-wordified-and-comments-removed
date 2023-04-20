@@ -192,6 +192,12 @@ delay
 =
 if
 keep_alive
+&
+&
+!
+self
+.
+keep_alive_outstanding
 {
 max
 (

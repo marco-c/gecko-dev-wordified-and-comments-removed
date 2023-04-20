@@ -893,7 +893,6 @@ CID
 "
 hex_with_len
 (
-&
 self
 .
 cid
@@ -963,7 +962,6 @@ f
 "
 hex
 (
-&
 self
 .
 cid

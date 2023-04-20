@@ -25,15 +25,6 @@ clippy
 borrow_as_ptr
 )
 ]
-#
-!
-[
-allow
-(
-unknown_lints
-deref_nullptr
-)
-]
 use
 crate
 :

@@ -114,14 +114,6 @@ upper_case_acronyms
 [
 allow
 (
-unknown_lints
-deref_nullptr
-)
-]
-#
-[
-allow
-(
 clippy
 :
 :

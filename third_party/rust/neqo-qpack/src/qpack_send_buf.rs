@@ -605,7 +605,6 @@ Self
 Target
 {
 &
-*
 self
 .
 buf

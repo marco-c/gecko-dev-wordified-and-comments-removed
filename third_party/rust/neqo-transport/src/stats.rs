@@ -953,7 +953,6 @@ Self
 Target
 {
 &
-*
 self
 .
 stats

@@ -3162,7 +3162,6 @@ parameters
 "
 hex
 (
-&
 tp_slice
 )
 )
@@ -3236,7 +3235,6 @@ token
 "
 hex
 (
-&
 init_token
 )
 )
@@ -3264,7 +3262,6 @@ token
 "
 hex
 (
-&
 tok
 )
 )
@@ -3295,7 +3292,6 @@ c
 .
 enable_resumption
 (
-&
 tok
 )
 ;
@@ -12226,7 +12222,6 @@ loss_recovery
 send_profile
 (
 &
-*
 path
 .
 borrow
@@ -12868,12 +12863,20 @@ self
 "
 pad
 Initial
+from
+{
+}
 to
 path
 MTU
 {
 }
 "
+packets
+.
+len
+(
+)
 mtu
 )
 ;
@@ -13775,7 +13778,6 @@ self
 .
 qlog
 &
-*
 self
 .
 tps

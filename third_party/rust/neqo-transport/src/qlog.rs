@@ -2088,7 +2088,6 @@ to_string
 )
 hex
 (
-&
 token
 )
 )
@@ -2376,7 +2375,6 @@ as
 u64
 hex
 (
-&
 connection_id
 )
 hex

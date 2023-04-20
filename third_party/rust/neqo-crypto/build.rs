@@ -696,7 +696,6 @@ hg
 .
 args
 (
-&
 [
 "
 clone
@@ -783,7 +782,6 @@ hg
 .
 args
 (
-&
 [
 "
 clone
