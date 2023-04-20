@@ -2816,6 +2816,11 @@ tryAttachTypedArrayConstructor
 )
 ;
 AttachDecision
+tryAttachNumber
+(
+)
+;
+AttachDecision
 tryAttachNumberParseInt
 (
 )

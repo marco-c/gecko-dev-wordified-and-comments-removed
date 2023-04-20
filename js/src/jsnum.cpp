@@ -8481,6 +8481,11 @@ AllocKind
 :
 :
 FUNCTION
+&
+jit
+:
+:
+JitInfo_Number
 >
 NumberObject
 :
