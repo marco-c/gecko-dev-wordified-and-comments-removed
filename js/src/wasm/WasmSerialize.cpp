@@ -2708,7 +2708,7 @@ wasm
 :
 :
 TagType
-160
+168
 )
 ;
 MOZ_TRY
