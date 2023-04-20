@@ -176,9 +176,11 @@ worker
 -
 type
 :
-b
+t
 -
 linux
+-
+kvm
 worker
 :
 docker
