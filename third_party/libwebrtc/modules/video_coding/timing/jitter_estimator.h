@@ -241,6 +241,11 @@ congestion_rejection_factor
 "
 &
 congestion_rejection_factor
+"
+estimate_noise_when_congested
+"
+&
+estimate_noise_when_congested
 )
 ;
 }
@@ -346,6 +351,11 @@ absl
 :
 :
 nullopt
+;
+bool
+estimate_noise_when_congested
+=
+true
 ;
 }
 ;
