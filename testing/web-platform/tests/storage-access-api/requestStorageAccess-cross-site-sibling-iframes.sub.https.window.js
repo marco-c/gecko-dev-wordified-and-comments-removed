@@ -54,10 +54,8 @@ t
 await
 MaybeSetStorageAccess
 (
-wwwAlt
-+
 "
-/
+*
 "
 "
 *
@@ -161,10 +159,8 @@ prompt
 await
 MaybeSetStorageAccess
 (
-wwwAlt
-+
 "
-/
+*
 "
 "
 *
