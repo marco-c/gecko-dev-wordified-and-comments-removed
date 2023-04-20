@@ -3,13 +3,13 @@ __future__
 import
 print_function
 import
-os
-import
-sys
+argparse
 import
 glob
 import
-argparse
+os
+import
+sys
 import
 traceback
 import
@@ -337,6 +337,7 @@ finish
 )
         
 except
+Exception
 :
             
 threw

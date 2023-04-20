@@ -46,8 +46,6 @@ arg2
         
 )
         
-results
-=
 parser
 .
 finish
@@ -55,6 +53,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw

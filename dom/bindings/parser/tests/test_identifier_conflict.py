@@ -1,5 +1,3 @@
-import
-WebIDL
 def
 WebIDLTest
 (
@@ -39,8 +37,6 @@ Foo
         
 )
         
-results
-=
 parser
 .
 finish
@@ -135,8 +131,6 @@ a
         
 )
         
-results
-=
 parser
 .
 finish
@@ -231,8 +225,6 @@ b
         
 )
         
-results
-=
 parser
 .
 finish

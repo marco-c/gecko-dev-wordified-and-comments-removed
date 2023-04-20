@@ -23,22 +23,15 @@ parse
 "
             
 interface
-IdentifierConflict
+VoidArgument1
 {
               
-const
-byte
-thing1
-=
-1
-;
-              
-const
-unsigned
-long
-thing1
-=
-1
+void
+foo
+(
+void
+arg2
+)
 ;
             
 }

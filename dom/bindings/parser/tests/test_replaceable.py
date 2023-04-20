@@ -37,6 +37,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw

@@ -1,5 +1,3 @@
-import
-WebIDL
 def
 WebIDLTest
 (
@@ -36,8 +34,6 @@ arguments
     
 )
     
-results
-=
 parser
 .
 finish

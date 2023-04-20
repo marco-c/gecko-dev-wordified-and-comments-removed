@@ -1,5 +1,3 @@
-import
-WebIDL
 def
 WebIDLTest
 (
@@ -53,6 +51,7 @@ thrown
 )
     
 except
+Exception
 :
         
 harness

@@ -489,6 +489,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -592,6 +593,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -695,8 +697,6 @@ finish
     
 except
 Exception
-as
-x
 :
         
 threw
@@ -800,8 +800,6 @@ finish
     
 except
 Exception
-as
-x
 :
         
 threw
@@ -1022,6 +1020,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -1160,6 +1159,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -1301,6 +1301,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -1464,6 +1465,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw

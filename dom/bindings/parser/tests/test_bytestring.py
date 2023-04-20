@@ -635,8 +635,6 @@ hello
         
 )
         
-results2
-=
 parser
 .
 finish
@@ -718,8 +716,6 @@ string
         
 )
         
-results3
-=
 parser
 .
 finish
@@ -805,8 +801,6 @@ x03
         
 )
         
-results4
-=
 parser
 .
 finish
@@ -817,8 +811,6 @@ except
 WebIDL
 .
 WebIDLError
-as
-e
 :
         
 threw

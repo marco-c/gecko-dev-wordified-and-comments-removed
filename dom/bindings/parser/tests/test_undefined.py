@@ -1,5 +1,3 @@
-import
-WebIDL
 def
 WebIDLTest
 (
@@ -41,8 +39,6 @@ bar
         
 )
         
-results
-=
 parser
 .
 finish
@@ -50,6 +46,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -122,8 +119,6 @@ undefinedMemberOfUnionInDict
         
 )
         
-results
-=
 parser
 .
 finish
@@ -131,6 +126,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -215,8 +211,6 @@ foo
         
 )
         
-results
-=
 parser
 .
 finish
@@ -224,6 +218,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -315,8 +310,6 @@ name
         
 )
         
-results
-=
 parser
 .
 finish
@@ -324,6 +317,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -416,8 +410,6 @@ value
         
 )
         
-results
-=
 parser
 .
 finish
@@ -425,6 +417,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -515,8 +508,6 @@ name
         
 )
         
-results
-=
 parser
 .
 finish
@@ -524,6 +515,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -613,8 +605,6 @@ foo
         
 )
         
-results
-=
 parser
 .
 finish
@@ -622,6 +612,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -707,8 +698,6 @@ foo
         
 )
         
-results
-=
 parser
 .
 finish
@@ -716,6 +705,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -806,8 +796,6 @@ name
         
 )
         
-results
-=
 parser
 .
 finish
@@ -815,6 +803,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -911,8 +900,6 @@ foo
         
 )
         
-results
-=
 parser
 .
 finish
@@ -920,6 +907,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -1010,8 +998,6 @@ undefined
         
 )
         
-results
-=
 parser
 .
 finish
@@ -1019,6 +1005,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -1090,8 +1077,6 @@ undefined
         
 )
         
-results
-=
 parser
 .
 finish
@@ -1099,6 +1084,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw

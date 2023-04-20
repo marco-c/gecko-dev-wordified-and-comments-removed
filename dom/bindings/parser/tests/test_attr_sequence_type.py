@@ -43,8 +43,6 @@ foo
         
 )
         
-results
-=
 parser
 .
 finish
@@ -52,6 +50,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -122,8 +121,6 @@ foo
         
 )
         
-results
-=
 parser
 .
 finish
@@ -131,6 +128,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -206,8 +204,6 @@ foo
         
 )
         
-results
-=
 parser
 .
 finish
@@ -215,6 +211,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -267,13 +264,19 @@ parse
 (
             
 "
-"
+\
+n
 "
             
+"
 interface
 AttrUnionWithUnionWithSequenceType
 {
-              
+\
+n
+"
+            
+"
 attribute
 (
 (
@@ -285,22 +288,26 @@ or
 DOMString
 )
 or
+"
+            
+"
 AttrUnionWithUnionWithSequenceType
 )
 foo
 ;
+\
+n
+"
             
+"
 }
 ;
-        
-"
-"
+\
+n
 "
         
 )
         
-results
-=
 parser
 .
 finish
@@ -308,6 +315,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw

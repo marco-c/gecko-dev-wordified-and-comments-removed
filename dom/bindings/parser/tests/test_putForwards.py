@@ -46,8 +46,6 @@ A
         
 )
         
-results
-=
 parser
 .
 finish
@@ -55,6 +53,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -129,8 +128,6 @@ J
         
 )
         
-results
-=
 parser
 .
 finish
@@ -138,6 +135,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -216,8 +214,6 @@ B
         
 )
         
-results
-=
 parser
 .
 finish
@@ -225,6 +221,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -305,8 +302,6 @@ B
         
 )
         
-results
-=
 parser
 .
 finish
@@ -314,6 +309,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -394,8 +390,6 @@ B
         
 )
         
-results
-=
 parser
 .
 finish
@@ -403,6 +397,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -517,8 +512,6 @@ D
         
 )
         
-results
-=
 parser
 .
 finish
@@ -526,6 +519,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw

@@ -23,22 +23,14 @@ parse
 "
             
 interface
-IdentifierConflict
+NullableVoid
 {
               
-const
-byte
-thing1
-=
-1
-;
-              
-const
-unsigned
-long
-thing1
-=
-1
+void
+?
+foo
+(
+)
 ;
             
 }

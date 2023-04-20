@@ -50,8 +50,6 @@ arg2
         
 )
         
-results
-=
 parser
 .
 finish
@@ -59,6 +57,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -134,8 +133,6 @@ bar
         
 )
         
-results
-=
 parser
 .
 finish
@@ -143,6 +140,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -213,8 +211,6 @@ bar
         
 )
         
-results
-=
 parser
 .
 finish
@@ -310,8 +306,6 @@ arg2
         
 )
         
-results
-=
 parser
 .
 finish
@@ -405,8 +399,6 @@ A
         
 )
         
-results
-=
 parser
 .
 finish
@@ -414,6 +406,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -483,8 +476,6 @@ Foo
         
 )
         
-results
-=
 parser
 .
 finish
@@ -492,6 +483,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -566,8 +558,6 @@ name
         
 )
         
-results
-=
 parser
 .
 finish
@@ -575,6 +565,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -651,8 +642,6 @@ x
         
 )
         
-results
-=
 parser
 .
 finish
@@ -660,6 +649,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
@@ -732,8 +722,6 @@ DOMString
         
 )
         
-results
-=
 parser
 .
 finish
@@ -741,6 +729,7 @@ finish
 )
     
 except
+Exception
 :
         
 threw
