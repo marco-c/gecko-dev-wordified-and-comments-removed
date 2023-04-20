@@ -3207,7 +3207,7 @@ NotificationController
 :
 WillRefresh
 "
-OTHER
+A11Y
 )
 ;
 NS_ASSERTION
