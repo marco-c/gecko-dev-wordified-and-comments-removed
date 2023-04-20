@@ -112,17 +112,6 @@ override
 ;
 MOCK_METHOD
 (
-void
-Reset
-(
-)
-(
-override
-)
-)
-;
-MOCK_METHOD
-(
 int
 RegisterPayload
 (
