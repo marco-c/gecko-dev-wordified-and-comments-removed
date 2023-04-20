@@ -566,15 +566,6 @@ main
 .
 PIN_FIREFOX
 "
-"
-.
-action
--
-buttons
-button
-.
-secondary
-"
 ]
 )
 ;
@@ -589,7 +580,7 @@ action
 buttons
 button
 .
-primary
+secondary
 "
 )
 ;
@@ -765,7 +756,7 @@ action
 buttons
 button
 .
-primary
+secondary
 "
 )
 ;
@@ -947,7 +938,7 @@ action
 buttons
 button
 .
-primary
+secondary
 "
 )
 ;
@@ -1286,7 +1277,7 @@ action
 buttons
 button
 .
-primary
+secondary
 "
 )
 ;
@@ -1477,7 +1468,7 @@ action
 buttons
 button
 .
-primary
+secondary
 "
 )
 ;
