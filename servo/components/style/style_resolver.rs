@@ -2277,7 +2277,10 @@ self
 originating_element_style
 :
 &
+Arc
+<
 ComputedValues
+>
 pseudo_element
 :
 &
@@ -2481,6 +2484,10 @@ originating_element_style
 Some
 (
 originating_element_style
+.
+clone
+(
+)
 )
 ;
 stylist
