@@ -203,8 +203,6 @@ WPARAM
 wParam
 LPARAM
 lParam
-LRESULT
-retValue
 )
 :
 mHwnd
@@ -222,10 +220,6 @@ wParam
 mLParam
 (
 lParam
-)
-mRetValue
-(
-retValue
 )
 mResult
 (
