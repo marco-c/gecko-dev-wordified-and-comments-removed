@@ -194,7 +194,7 @@ env_logger
 OPTIMIZED
 =
 0
-python
+python3
 script
 /
 headless

@@ -50,6 +50,7 @@ FILE
 )
         
 except
+Exception
 :
             
 pass
