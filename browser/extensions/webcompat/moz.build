@@ -1656,6 +1656,13 @@ js
 "
 shims
 /
+microsoftVirtualAssistant
+.
+js
+"
+"
+shims
+/
 moat
 .
 js

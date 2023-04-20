@@ -35,7 +35,7 @@ version
 "
 109
 .
-3
+4
 .
 0
 "
@@ -921,6 +921,13 @@ js
 shims
 /
 microsoftLogin
+.
+js
+"
+"
+shims
+/
+microsoftVirtualAssistant
 .
 js
 "
