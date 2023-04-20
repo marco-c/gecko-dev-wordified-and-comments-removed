@@ -93,6 +93,11 @@ RemoteQuotaObjectParent
 (
 )
 ;
+nsresult
+CheckFileAfterClose
+(
+)
+;
 RefPtr
 <
 CanonicalQuotaObject
