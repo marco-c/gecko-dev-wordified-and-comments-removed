@@ -365,7 +365,6 @@ GetClock
 )
 &
 timing
-nullptr
 field_trials
 )
 ;

@@ -142,7 +142,6 @@ GetRealTimeClock
 )
 &
 timing_
-nullptr
 *
 field_trials_
 )
