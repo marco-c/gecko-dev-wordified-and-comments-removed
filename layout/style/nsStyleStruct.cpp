@@ -4418,8 +4418,6 @@ nsChangeHint_UpdateEffects
 |
 nsChangeHint_NeedReflow
 |
-nsChangeHint_NeedDirtyReflow
-|
 nsChangeHint_RepaintFrame
 ;
 }
@@ -4500,8 +4498,6 @@ hint
 |
 =
 nsChangeHint_NeedReflow
-|
-nsChangeHint_NeedDirtyReflow
 ;
 }
 if
@@ -4585,8 +4581,6 @@ return
 hint
 |
 nsChangeHint_NeedReflow
-|
-nsChangeHint_NeedDirtyReflow
 |
 nsChangeHint_RepaintFrame
 ;
@@ -5300,8 +5294,6 @@ hint
 |
 =
 nsChangeHint_NeedReflow
-|
-nsChangeHint_NeedDirtyReflow
 |
 nsChangeHint_RepaintFrame
 ;
@@ -15744,8 +15736,6 @@ hint
 =
 nsChangeHint_NeedReflow
 |
-nsChangeHint_NeedDirtyReflow
-|
 nsChangeHint_RepaintFrame
 ;
 }
@@ -16371,8 +16361,6 @@ auto
 kPointerEventsHint
 =
 nsChangeHint_NeedReflow
-|
-nsChangeHint_NeedDirtyReflow
 |
 nsChangeHint_SchedulePaint
 ;
