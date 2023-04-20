@@ -1,5 +1,8 @@
 import
 os
+USE_PYTHON3
+=
+True
 def
 _HasLocalChanges
 (
@@ -210,7 +213,7 @@ path
 .
 dirname
   
-angle_root
+webrtc_root
 =
 d
 (
@@ -232,7 +235,7 @@ path
 .
 join
 (
-angle_root
+webrtc_root
 '
 testing
 '
@@ -267,7 +270,7 @@ cmd
                             
 input_api
 .
-python_executable
+python3_executable
 gen_script
 '
 -
