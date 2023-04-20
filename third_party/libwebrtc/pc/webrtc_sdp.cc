@@ -21184,14 +21184,6 @@ name
 )
 |
 |
-clock_rate
-!
-=
-existing_codec
-.
-clockrate
-|
-|
 channels
 !
 =
