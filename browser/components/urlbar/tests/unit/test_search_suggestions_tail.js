@@ -285,15 +285,6 @@ clearUserPref
 SUGGEST_ENABLED_PREF
 )
 ;
-UrlbarPrefs
-.
-clear
-(
-"
-resultGroups
-"
-)
-;
 }
 )
 ;

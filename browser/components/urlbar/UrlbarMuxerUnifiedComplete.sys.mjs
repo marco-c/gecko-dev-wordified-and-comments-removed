@@ -1001,12 +1001,7 @@ lazy
 .
 UrlbarPrefs
 .
-get
-(
-"
 resultGroups
-"
-)
 ;
 lazy
 .

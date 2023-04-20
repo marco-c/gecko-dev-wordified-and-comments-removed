@@ -7324,12 +7324,7 @@ lazy
 .
 UrlbarPrefs
 .
-get
-(
-"
 resultGroups
-"
-)
 this
 .
 _maxResults
