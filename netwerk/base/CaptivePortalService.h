@@ -203,6 +203,12 @@ mEverBeenCaptive
 false
 }
 ;
+bool
+mCanUseJS
+{
+false
+}
+;
 uint32_t
 mDelay
 {
