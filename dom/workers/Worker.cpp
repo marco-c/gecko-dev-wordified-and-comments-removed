@@ -700,7 +700,7 @@ win
 nsContentUtils
 :
 :
-CallerInnerWindow
+IncumbentInnerWindow
 (
 )
 ;

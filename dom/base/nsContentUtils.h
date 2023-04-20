@@ -7601,7 +7601,14 @@ aDocument
 static
 nsGlobalWindowInner
 *
-CallerInnerWindow
+IncumbentInnerWindow
+(
+)
+;
+static
+nsGlobalWindowInner
+*
+EntryInnerWindow
 (
 )
 ;

@@ -25765,7 +25765,7 @@ callerInnerWin
 nsContentUtils
 :
 :
-CallerInnerWindow
+IncumbentInnerWindow
 (
 )
 ;

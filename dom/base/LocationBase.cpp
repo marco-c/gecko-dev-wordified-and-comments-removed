@@ -678,7 +678,7 @@ sourceWindow
 nsContentUtils
 :
 :
-CallerInnerWindow
+IncumbentInnerWindow
 (
 )
 ;
