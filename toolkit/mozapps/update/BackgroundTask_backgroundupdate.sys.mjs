@@ -911,12 +911,6 @@ removeListener
 _appUpdaterListener
 )
 ;
-appUpdater
-.
-stop
-(
-)
-;
 resolve
 (
 true
@@ -1243,12 +1237,6 @@ appUpdater
 removeListener
 (
 _appUpdaterListener
-)
-;
-appUpdater
-.
-stop
-(
 )
 ;
 resolve

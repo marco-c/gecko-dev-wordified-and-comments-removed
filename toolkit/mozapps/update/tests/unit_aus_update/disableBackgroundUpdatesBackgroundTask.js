@@ -132,7 +132,6 @@ updates
 let
 success
 =
-await
 gAUS
 .
 downloadUpdate

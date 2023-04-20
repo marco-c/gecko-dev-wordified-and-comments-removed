@@ -1131,7 +1131,6 @@ selectUpdate
 updates
 )
 ;
-await
 gAUS
 .
 downloadUpdate
