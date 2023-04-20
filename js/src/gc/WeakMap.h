@@ -1197,6 +1197,8 @@ key
 Value
 &
 value
+bool
+populateWeakKeysTable
 )
 ;
 void
