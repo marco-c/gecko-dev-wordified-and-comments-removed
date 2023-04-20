@@ -65,12 +65,6 @@ SKIP
 =
 1
 endif
-ifdef
-CODEQL_DIST
-SKIP
-=
-1
-endif
 ifneq
 (
 (

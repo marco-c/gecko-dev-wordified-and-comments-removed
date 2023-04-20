@@ -126,10 +126,6 @@ clang
 .
 yml
 -
-codeql
-.
-yml
--
 cram
 .
 yml
