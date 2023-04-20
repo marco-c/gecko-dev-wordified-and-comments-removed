@@ -50,13 +50,6 @@ rule
 "
 evenodd
 "
-clip
--
-rule
-=
-"
-evenodd
-"
 d
 =
 "
