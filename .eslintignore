@@ -551,6 +551,14 @@ client
 /
 debugger
 /
+packages
+/
+devtools
+/
+client
+/
+debugger
+/
 test
 /
 mochitest
