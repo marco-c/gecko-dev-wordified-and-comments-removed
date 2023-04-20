@@ -553,8 +553,10 @@ virtual
 void
 SetTrackingId
 (
-uint32_t
-aTrackingIdProcId
+const
+char
+*
+aTrackingId
 )
 {
 }
