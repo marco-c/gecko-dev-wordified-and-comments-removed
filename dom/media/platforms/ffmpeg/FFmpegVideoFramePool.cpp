@@ -1111,13 +1111,6 @@ aLib
 )
 ;
 }
-videoSurface
--
->
-MarkAsUsed
-(
-)
-;
 return
 videoSurface
 ;
