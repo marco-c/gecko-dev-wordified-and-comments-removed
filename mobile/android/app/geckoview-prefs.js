@@ -480,5 +480,15 @@ disabled
 true
 )
 ;
+pref
+(
+"
+fission
+.
+webContentIsolationStrategy
+"
+0
+)
+;
 #
 endif
