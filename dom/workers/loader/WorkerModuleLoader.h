@@ -275,6 +275,15 @@ aRequest
 )
 override
 ;
+bool
+IsModuleEvaluationAborted
+(
+ModuleLoadRequest
+*
+aRequest
+)
+override
+;
 }
 ;
 }
