@@ -9488,6 +9488,7 @@ IsSingular
 {
 NotifyGlyphMetricsChange
 (
+false
 )
 ;
 }
@@ -9525,6 +9526,7 @@ lengthAdjust
 {
 NotifyGlyphMetricsChange
 (
+false
 )
 ;
 }
@@ -9796,6 +9798,7 @@ mFrame
 >
 NotifyGlyphMetricsChange
 (
+true
 )
 ;
 }
@@ -9818,6 +9821,7 @@ mFrame
 >
 NotifyGlyphMetricsChange
 (
+true
 )
 ;
 }
@@ -9843,6 +9847,7 @@ mFrame
 >
 NotifyGlyphMetricsChange
 (
+true
 )
 ;
 }
@@ -9868,6 +9873,7 @@ mFrame
 >
 NotifyGlyphMetricsChange
 (
+true
 )
 ;
 }
@@ -10006,6 +10012,7 @@ side_
 {
 NotifyGlyphMetricsChange
 (
+false
 )
 ;
 }
@@ -10061,6 +10068,7 @@ childElementFrame
 ;
 NotifyGlyphMetricsChange
 (
+false
 )
 ;
 }
@@ -10084,6 +10092,7 @@ aAttribute
 {
 NotifyGlyphMetricsChange
 (
+false
 )
 ;
 }
@@ -10488,6 +10497,7 @@ NS_FRAME_FIRST_REFLOW
 {
 NotifyGlyphMetricsChange
 (
+false
 )
 ;
 }
@@ -20375,12 +20385,23 @@ SVGTextFrame
 :
 NotifyGlyphMetricsChange
 (
+bool
+aUpdateTextCorrespondence
+)
+{
+if
+(
+aUpdateTextCorrespondence
 )
 {
 AddStateBits
 (
 NS_STATE_SVG_TEXT_CORRESPONDENCE_DIRTY
-|
+)
+;
+}
+AddStateBits
+(
 NS_STATE_SVG_POSITIONING_DIRTY
 )
 ;

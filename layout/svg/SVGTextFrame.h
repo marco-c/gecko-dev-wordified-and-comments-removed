@@ -1116,6 +1116,8 @@ DoReflow
 void
 NotifyGlyphMetricsChange
 (
+bool
+aUpdateTextCorrespondence
 )
 ;
 void
