@@ -648,6 +648,11 @@ status
 0
 )
 ;
+if
+(
+entry
+)
+{
 ok
 (
 entry
@@ -728,6 +733,7 @@ to
 "
 )
 ;
+}
 entry
 =
 har
