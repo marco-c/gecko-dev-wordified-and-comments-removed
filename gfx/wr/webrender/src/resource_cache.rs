@@ -2403,7 +2403,7 @@ current_frame_id
 FrameId
 threshold
 :
-usize
+u64
 )
 -
 >
@@ -9661,7 +9661,7 @@ total_bytes_red_line_threshold
 usize
 frames_threshold
 :
-usize
+u64
 )
 {
 let

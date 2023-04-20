@@ -149,7 +149,7 @@ i32
 const
 FRAMES_BEFORE_EVICTION
 :
-usize
+u64
 =
 10
 ;

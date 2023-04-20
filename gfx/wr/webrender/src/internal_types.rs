@@ -354,7 +354,7 @@ pub
 struct
 FrameId
 (
-usize
+u64
 )
 ;
 impl
@@ -376,14 +376,14 @@ FrameId
 }
 pub
 fn
-as_usize
+as_u64
 (
 &
 self
 )
 -
 >
-usize
+u64
 {
 self
 .
@@ -448,7 +448,7 @@ ops
 :
 Add
 <
-usize
+u64
 >
 for
 FrameId
@@ -464,7 +464,7 @@ add
 self
 other
 :
-usize
+u64
 )
 -
 >
@@ -491,7 +491,7 @@ ops
 :
 Sub
 <
-usize
+u64
 >
 for
 FrameId
@@ -507,7 +507,7 @@ sub
 self
 other
 :
-usize
+u64
 )
 -
 >

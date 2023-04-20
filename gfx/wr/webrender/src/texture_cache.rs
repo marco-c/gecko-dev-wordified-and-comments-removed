@@ -5264,7 +5264,7 @@ usize
 >
 Option
 <
-usize
+u64
 >
 {
 let
@@ -5587,13 +5587,13 @@ frame_id
 (
 )
 .
-as_usize
+as_u64
 (
 )
 -
 youngest_evicted
 .
-as_usize
+as_u64
 (
 )
 )
