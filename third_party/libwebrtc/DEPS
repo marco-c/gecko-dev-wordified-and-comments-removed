@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-5dee08f5399aa84245e26b57333c05beb5579fa5
+7dae2da57d23f6afa4e88e5f53068b8b15d79a50
 '
 #
 Keep
@@ -146,9 +146,9 @@ version
 :
 8
 .
-20220607
+20220613
 .
-3
+2
 .
 1
 '
@@ -205,7 +205,7 @@ chromium
 src
 /
 base
-e3df4ab156c9aed2239a7e15c61d783daf24bf46
+6b348996e162430e96ca9b930b9bff5f84556168
 '
 '
 src
@@ -229,7 +229,7 @@ chromium
 src
 /
 build
-33d06bd2d56d6c783506917ee6ec32e47e36abbc
+c35d98c15cde150f97cb409fea140c5011dde6ba
 '
 '
 src
@@ -349,7 +349,7 @@ chromium
 src
 /
 ios
-32b0e6a40fc11f11ac7fefb2ee85e23cd4bbd405
+8fc1d79cc7e8d5b9ae19c9e642028d568e7fd055
 '
 '
 condition
@@ -381,7 +381,7 @@ chromium
 src
 /
 testing
-c2041fe223104a1e6a1e27304068f5233d1d7c66
+3e64b0d3bfa2a66531528de7643e7c1fa21b9425
 '
 '
 src
@@ -405,7 +405,7 @@ chromium
 src
 /
 third_party
-35b5a7576f5319338d6e1d5424b4d48dd44294b9
+43121cca1566ffe1039af138af5da2838333fe2d
 '
 '
 src
@@ -988,7 +988,7 @@ com
 boringssl
 .
 git
-227ff6e6425283b83594a91a1aa81cc78f1a88df
+1e469e45a46ff580899cbef939babe02ad916c85
 '
 '
 src
@@ -1040,7 +1040,7 @@ com
 catapult
 .
 git
-8a8c0b9c3967e17da1d9f64b3d57e4a969b465a7
+b3e527ac6f02a37b41b110c6d729db4d3211aaeb
 '
 '
 src
@@ -1170,7 +1170,7 @@ tools
 depot_tools
 .
 git
-b3579d428a79e0425f4d3d9be58d76470f96fb6b
+544594e0b2760e2ded229d6b06782f01d82b0a6c
 '
 '
 src
@@ -1366,7 +1366,7 @@ third_party
 freetype2
 .
 git
-b11074cf6dce78d0bc79ff7996dec70ca3abe4a9
+73631b9530fb087b73507e3fe6225d00e8fd5d53
 '
 '
 src
@@ -1983,7 +1983,7 @@ com
 aom
 .
 git
-32d6783c4c9f6e78f43bd4ceffaa0eb2143aed57
+5f65a36fd95051c12c045c00c7191aa2f647c7be
 '
 '
 src
@@ -2054,7 +2054,7 @@ external
 perfetto
 .
 git
-db7def5150207a574e8955afc591a5650b3ad290
+5ec4fc1b905f3b329bc01010ad5f49f71d4cffba
 '
 '
 src
@@ -2110,7 +2110,7 @@ libyuv
 libyuv
 .
 git
-baef41447887e1a17897a4cb6ccc854ef3a9d652
+30f9b280487be412da346aecce7834275020976e
 '
 '
 src
@@ -2499,7 +2499,7 @@ chromium
 src
 /
 tools
-49e63d13248a21aa3ca9169cd33a4f60a4d4cfac
+72bc5dde81cd7ace9d6fc2a79affdcf46f982c64
 '
 '
 src
@@ -2995,9 +2995,7 @@ version
 '
 :
 '
-h_P2inqiGpL43nlN62apySX
--
-dW_9fOY90d7Iuh8ayj8C
+oRZBRiYR93sr5l0V68UgLgP_K7BSeq12h0dvFXdyLkEC
 '
 }
 ]
