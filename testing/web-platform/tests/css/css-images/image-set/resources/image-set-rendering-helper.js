@@ -126,9 +126,13 @@ testDiv
 )
 ;
 }
-window
+document
 .
-onload
-=
+addEventListener
+(
+"
+DOMContentLoaded
+"
 setupTest
+)
 ;
