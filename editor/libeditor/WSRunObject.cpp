@@ -3537,6 +3537,8 @@ ignored
 )
 ;
 }
+else
+{
 convertListTypeResult
 .
 inspect
@@ -3547,6 +3549,7 @@ IgnoreCaretPointSuggestion
 (
 )
 ;
+}
 }
 ret
 .
