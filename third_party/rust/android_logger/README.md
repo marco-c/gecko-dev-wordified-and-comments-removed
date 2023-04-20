@@ -201,7 +201,7 @@ use
 log
 :
 :
-Level
+LevelFilter
 ;
 use
 android_logger
@@ -229,9 +229,9 @@ default
 (
 )
 .
-with_min_level
+with_max_level
 (
-Level
+LevelFilter
 :
 :
 Trace
@@ -351,7 +351,7 @@ use
 log
 :
 :
-Level
+LevelFilter
 ;
 use
 android_logger
@@ -376,9 +376,9 @@ default
 (
 )
 .
-with_min_level
+with_max_level
 (
-Level
+LevelFilter
 :
 :
 Trace

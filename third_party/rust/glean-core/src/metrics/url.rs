@@ -787,7 +787,7 @@ payload_is_correct
 let
 (
 glean
-_
+_t
 )
 =
 new_glean
@@ -912,7 +912,7 @@ does_not_record_url_exceeding_maximum_length
 let
 (
 glean
-_
+_t
 )
 =
 new_glean
@@ -1093,7 +1093,7 @@ does_not_record_data_urls
 let
 (
 glean
-_
+_t
 )
 =
 new_glean
@@ -1233,7 +1233,7 @@ url_validation_works_and_records_errors
 let
 (
 glean
-_
+_t
 )
 =
 new_glean

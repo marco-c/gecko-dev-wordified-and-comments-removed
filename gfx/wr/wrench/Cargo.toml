@@ -102,11 +102,14 @@ version
 "
 0
 .
-9
+10
 "
 optional
 =
 true
+default_features
+=
+false
 }
 gleam
 =
