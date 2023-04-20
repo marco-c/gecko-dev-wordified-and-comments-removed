@@ -141,11 +141,6 @@ RootAccessibleWrap
 .
 cpp
 "
-"
-XULMenuAccessibleWrap
-.
-cpp
-"
 ]
 SOURCES
 +
