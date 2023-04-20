@@ -167,6 +167,29 @@ preflight
 "
 )
 def
+_is_preflight_optional
+(
+request
+)
+:
+  
+return
+request
+.
+GET
+.
+get
+(
+b
+"
+is
+-
+preflight
+-
+optional
+"
+)
+def
 _get_preflight_uuid
 (
 request
@@ -622,6 +645,7 @@ None
 :
       
 if
+(
 request
 .
 server
@@ -634,6 +658,14 @@ uuid
 )
 is
 None
+and
+          
+not
+_is_preflight_optional
+(
+request
+)
+)
 :
         
 return
