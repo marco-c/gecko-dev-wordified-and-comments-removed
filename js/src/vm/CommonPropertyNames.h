@@ -1528,6 +1528,15 @@ from
 \
 MACRO_
 (
+fromAsync
+fromAsync
+"
+fromAsync
+"
+)
+\
+MACRO_
+(
 fulfilled
 fulfilled
 "

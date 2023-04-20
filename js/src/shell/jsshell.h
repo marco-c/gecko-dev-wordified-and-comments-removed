@@ -601,6 +601,10 @@ enableArrayGrouping
 ;
 extern
 bool
+enableArrayFromAsync
+;
+extern
+bool
 enablePrivateClassFields
 ;
 extern
