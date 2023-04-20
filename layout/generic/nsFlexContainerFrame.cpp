@@ -18733,18 +18733,6 @@ mLines
 }
 if
 (
-aReflowInput
-.
-AvailableBSize
-(
-)
-!
-=
-NS_UNCONSTRAINEDSIZE
-)
-{
-if
-(
 !
 prevInFlow
 )
@@ -18860,7 +18848,6 @@ SumOfChildrenBlockSizeProperty
 sumOfChildrenBlockSize
 )
 ;
-}
 }
 }
 void
