@@ -221,6 +221,7 @@ WriteBufferError
 AlphaYSizeMismatch
 AlphaYColorDepthMismatch
 MetadataImageSizeMismatch
+RenderSizeMismatch
 InvalidCICP
 NoSamples
 }
@@ -722,11 +723,15 @@ PlanarYCbCrData
 {
 public
 :
-OrientedIntRect
-mRenderRect
+Maybe
+<
+OrientedIntSize
+>
+mRenderSize
 =
-{
-}
+Nothing
+(
+)
 ;
 gfx
 :

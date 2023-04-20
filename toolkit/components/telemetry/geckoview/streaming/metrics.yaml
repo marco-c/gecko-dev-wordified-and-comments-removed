@@ -5803,6 +5803,8 @@ alpha_y_bpc_mismatch
 -
 ispe_mismatch
 -
+render_size_mismatch
+-
 invalid_cicp
 -
 invalid_parse_status
