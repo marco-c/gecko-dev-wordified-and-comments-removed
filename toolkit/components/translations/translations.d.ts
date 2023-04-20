@@ -364,3 +364,15 @@ LanguageTranslationModelFiles
 AlignedMemory
 }
 ;
+interface
+EnginePayload
+{
+bergamotWasmArrayBuffer
+:
+ArrayBuffer
+languageModelFiles
+:
+LanguageModelFiles
+[
+]
+}
