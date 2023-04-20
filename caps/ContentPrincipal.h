@@ -242,12 +242,14 @@ nsACString
 aOrigin
 )
 ;
+RefPtr
+<
 extensions
 :
 :
-WebExtensionPolicy
-*
-AddonPolicy
+WebExtensionPolicyCore
+>
+AddonPolicyCore
 (
 )
 ;

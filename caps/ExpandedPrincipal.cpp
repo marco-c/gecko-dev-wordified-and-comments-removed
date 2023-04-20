@@ -38,6 +38,17 @@ h
 #
 include
 "
+mozilla
+/
+extensions
+/
+WebExtensionPolicy
+.
+h
+"
+#
+include
+"
 json
 /
 json
@@ -1861,7 +1872,7 @@ principal
 )
 -
 >
-AddonPolicy
+AddonPolicyCore
 (
 )
 )
