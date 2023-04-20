@@ -2244,7 +2244,7 @@ backgroundTask
 TEST_F
 (
 TestFileSystemQuotaClient
-DISABLED_TrackedFilesOnInitOriginShouldCauseRescan
+TrackedFilesOnInitOriginShouldCauseRescan
 )
 {
 auto
@@ -2612,8 +2612,9 @@ MutableDatabaseManagerPtr
 )
 )
 ;
-ASSERT_TRUE
+ASSERT_NSEQ
 (
+NS_OK
 rdm
 -
 >
