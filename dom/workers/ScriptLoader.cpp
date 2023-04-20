@@ -5928,8 +5928,11 @@ end
 ]
 (
 const
+RefPtr
+<
 ThreadSafeRequestHandle
-*
+>
+&
 requestHandle
 )
 {
@@ -5971,8 +5974,11 @@ end
 [
 ]
 (
+RefPtr
+<
 ThreadSafeRequestHandle
-*
+>
+&
 requestHandle
 )
 {
@@ -6340,6 +6346,7 @@ for
 (
 const
 auto
+&
 requestHandle
 :
 mLoadedRequests
