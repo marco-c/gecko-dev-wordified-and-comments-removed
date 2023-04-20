@@ -234,16 +234,6 @@ const
 ;
 }
 ;
-using
-ReceiveStream
-[
-[
-deprecated
-]
-]
-=
-ReceiveStreamInterface
-;
 }
 #
 endif
