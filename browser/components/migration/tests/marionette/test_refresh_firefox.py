@@ -3825,7 +3825,7 @@ Preferences
 =
 ChromeUtils
 .
-import
+importESModule
 (
             
 "
@@ -3839,7 +3839,9 @@ modules
 /
 Preferences
 .
-jsm
+sys
+.
+mjs
 "
           
 )
