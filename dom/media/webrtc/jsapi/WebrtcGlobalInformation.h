@@ -43,6 +43,9 @@ WebrtcGlobalStatisticsCallback
 class
 WebrtcGlobalLoggingCallback
 ;
+struct
+RTCStatsReportInternal
+;
 class
 WebrtcGlobalInformation
 {
@@ -172,11 +175,12 @@ aDir
 ;
 static
 void
-StoreLongTermICEStatistics
+StashStats
 (
-PeerConnectionImpl
+const
+RTCStatsReportInternal
 &
-aPc
+aReport
 )
 ;
 private
