@@ -178,7 +178,7 @@ information
 .
 #
 MSRV
-khe
+The
 minimum
 supported
 rustc

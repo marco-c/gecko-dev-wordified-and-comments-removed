@@ -13,8 +13,11 @@ true
 version_check
 :
 :
-is_feature_flaggable
+supports_feature
 (
+"
+doc_cfg
+"
 )
 {
 println
