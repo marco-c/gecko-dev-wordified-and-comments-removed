@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-7dae2da57d23f6afa4e88e5f53068b8b15d79a50
+75810cc326d6d5093c8c906efca1191fea3023e9
 '
 #
 Keep
@@ -148,7 +148,7 @@ version
 .
 20220613
 .
-2
+3
 .
 1
 '
@@ -205,7 +205,7 @@ chromium
 src
 /
 base
-6b348996e162430e96ca9b930b9bff5f84556168
+034b75c540360f43b2a7b4ae5be0a7dcd1834471
 '
 '
 src
@@ -229,7 +229,7 @@ chromium
 src
 /
 build
-c35d98c15cde150f97cb409fea140c5011dde6ba
+4be7c7bd41f444086757f1feea3d662137ab71b4
 '
 '
 src
@@ -349,7 +349,7 @@ chromium
 src
 /
 ios
-8fc1d79cc7e8d5b9ae19c9e642028d568e7fd055
+502906ea5cb70e757eab0d1c3b6cb94693f7ab29
 '
 '
 condition
@@ -381,7 +381,7 @@ chromium
 src
 /
 testing
-3e64b0d3bfa2a66531528de7643e7c1fa21b9425
+ea63c4078dfe1d352622428a3831d8f7138d839e
 '
 '
 src
@@ -405,7 +405,7 @@ chromium
 src
 /
 third_party
-43121cca1566ffe1039af138af5da2838333fe2d
+2eb30062e99b85e43cb172b9074b400323032f04
 '
 '
 src
@@ -704,7 +704,7 @@ project
 libcxxabi
 .
 git
-013bcd820a353ec1d3ff472f2971553fea7232cf
+bb4dcb7164a67f828225714c7ed099cfe418d3d7
 '
 '
 src
@@ -1040,7 +1040,7 @@ com
 catapult
 .
 git
-b3e527ac6f02a37b41b110c6d729db4d3211aaeb
+d854027b5cff510baf7a712c900474d01b1c0701
 '
 '
 src
@@ -1170,7 +1170,7 @@ tools
 depot_tools
 .
 git
-544594e0b2760e2ded229d6b06782f01d82b0a6c
+b6030901cf9d3caf29ba534ae1d96426e0e90a22
 '
 '
 src
@@ -2054,7 +2054,7 @@ external
 perfetto
 .
 git
-5ec4fc1b905f3b329bc01010ad5f49f71d4cffba
+5fb67c4d2c82a17bf682d715662b4ab3e37116c9
 '
 '
 src
@@ -2499,7 +2499,7 @@ chromium
 src
 /
 tools
-72bc5dde81cd7ace9d6fc2a79affdcf46f982c64
+da572544b9dac28b5ce0bc4160782be0331a2e07
 '
 '
 src
