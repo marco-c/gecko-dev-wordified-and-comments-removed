@@ -249,7 +249,7 @@ target
 /
 /
 First
-domUpdated
+updateCallbackDone
 resolves
 since
 the
@@ -258,13 +258,13 @@ runs
 successfully
 .
 let
-domUpdatedResolved
+updateCallbackDoneResolved
 =
 false
 ;
 transition
 .
-domUpdated
+updateCallbackDone
 .
 then
 (
@@ -273,7 +273,7 @@ then
 =
 >
 {
-domUpdatedResolved
+updateCallbackDoneResolved
 =
 true
 ;
@@ -287,7 +287,7 @@ Then
 finished
 resolves
 since
-domUpdated
+updateCallbackDone
 was
 already
 resolved
@@ -299,7 +299,7 @@ false
 ;
 transition
 .
-domUpdated
+updateCallbackDone
 .
 then
 (
@@ -310,9 +310,9 @@ then
 {
 assert_true
 (
-domUpdatedResolved
+updateCallbackDoneResolved
 "
-domUpdated
+updateCallbackDone
 not
 resolved
 before

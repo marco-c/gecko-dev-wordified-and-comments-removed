@@ -237,13 +237,13 @@ true
 )
 ;
 let
-domUpdated
+updateCallbackDone
 =
 false
 ;
 transition
 .
-domUpdated
+updateCallbackDone
 .
 then
 (
@@ -252,7 +252,7 @@ then
 =
 >
 {
-domUpdated
+updateCallbackDone
 =
 true
 ;
@@ -283,7 +283,7 @@ rejected
 ;
 assert_true
 (
-domUpdated
+updateCallbackDone
 "
 dom
 not
