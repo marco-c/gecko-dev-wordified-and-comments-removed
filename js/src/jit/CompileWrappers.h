@@ -236,6 +236,13 @@ addressOfStringToAtomCache
 (
 )
 ;
+const
+void
+*
+addressOfLastBufferedWholeCell
+(
+)
+;
 #
 ifdef
 DEBUG
