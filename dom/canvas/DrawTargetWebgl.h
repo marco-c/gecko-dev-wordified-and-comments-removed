@@ -1230,6 +1230,13 @@ SharedContext
 )
 sSharedContext
 ;
+static
+RefPtr
+<
+SharedContext
+>
+sMainSharedContext
+;
 public
 :
 DrawTargetWebgl
