@@ -817,7 +817,7 @@ mix
 in
 srgb
 currentColor
-70
+80
 %
 transparent
 )
@@ -1213,18 +1213,6 @@ color
 hover
 :
 ButtonFace
-;
--
--
-fxview
--
-text
--
-secondary
--
-color
-:
-currentColor
 ;
 }
 }
