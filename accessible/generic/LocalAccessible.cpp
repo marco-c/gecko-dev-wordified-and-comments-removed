@@ -20665,6 +20665,14 @@ sendTransformUpdate
 mDoc
 -
 >
+SetViewportCacheDirty
+(
+true
+)
+;
+mDoc
+-
+>
 QueueCacheUpdate
 (
 this
