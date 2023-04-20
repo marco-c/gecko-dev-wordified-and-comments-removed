@@ -241,10 +241,6 @@ h
 #
 endif
 using
-namespace
-mozilla
-;
-using
 mozilla
 :
 :
