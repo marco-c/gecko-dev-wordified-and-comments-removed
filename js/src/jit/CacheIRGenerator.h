@@ -2117,6 +2117,8 @@ flags
 Shape
 *
 thisShape
+bool
+isBoundFunction
 )
 ;
 AttachDecision

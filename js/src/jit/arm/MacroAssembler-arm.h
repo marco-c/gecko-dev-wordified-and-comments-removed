@@ -6926,6 +6926,17 @@ addr
 )
 ;
 void
+pushValue
+(
+const
+BaseIndex
+&
+addr
+Register
+scratch
+)
+;
+void
 storePayload
 (
 const
