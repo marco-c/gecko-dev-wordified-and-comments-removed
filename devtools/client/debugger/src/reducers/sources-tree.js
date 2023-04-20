@@ -232,7 +232,7 @@ newSourceActors
 =
 action
 .
-items
+sourceActors
 .
 filter
 (

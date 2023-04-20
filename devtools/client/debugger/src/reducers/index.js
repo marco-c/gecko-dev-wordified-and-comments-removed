@@ -12,6 +12,9 @@ expressions
 ;
 import
 sourceActors
+{
+initialSourceActorsState
+}
 from
 "
 .
@@ -295,8 +298,7 @@ initialExpressionState
 )
 sourceActors
 :
-new
-Map
+initialSourceActorsState
 (
 )
 sourceBlackBox
