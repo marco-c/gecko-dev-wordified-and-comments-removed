@@ -261,6 +261,10 @@ protocol
 PWebTransport
 ;
 include
+protocol
+PFetch
+;
+include
 DOMTypes
 ;
 include
@@ -558,6 +562,9 @@ PVerifySSLServerCert
 ;
 manages
 PVsync
+;
+manages
+PFetch
 ;
 parent
 :
@@ -1369,6 +1376,11 @@ aClientId
 ;
 async
 PIPCClientCerts
+(
+)
+;
+async
+PFetch
 (
 )
 ;
