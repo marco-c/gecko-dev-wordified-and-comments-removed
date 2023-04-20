@@ -57,7 +57,7 @@ h
 16
 +
 27
-18
+17
 /
 *
 *
@@ -103,11 +103,6 @@ double_t
 typedef
 float
 __float_t
-;
-+
-typedef
-__float_t
-float_t
 ;
 /
 *
