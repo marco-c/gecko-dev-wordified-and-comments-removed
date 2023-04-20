@@ -274,7 +274,12 @@ namespace
 js
 {
 class
+FrontendContext
+;
+using
 ErrorContext
+=
+FrontendContext
 ;
 class
 ScriptSource

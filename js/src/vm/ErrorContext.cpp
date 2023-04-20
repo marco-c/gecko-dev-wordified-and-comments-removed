@@ -106,7 +106,7 @@ reallocPtr
 ;
 }
 bool
-OffThreadErrorContext
+FrontendContext
 :
 :
 hadErrors
@@ -144,7 +144,7 @@ hadErrors
 }
 void
 *
-OffThreadErrorContext
+FrontendContext
 :
 :
 onOutOfMemory
@@ -169,7 +169,7 @@ nullptr
 ;
 }
 void
-OffThreadErrorContext
+FrontendContext
 :
 :
 onAllocationOverflow
@@ -184,7 +184,7 @@ true
 ;
 }
 void
-OffThreadErrorContext
+FrontendContext
 :
 :
 onOutOfMemory
@@ -197,7 +197,7 @@ addPendingOutOfMemory
 ;
 }
 void
-OffThreadErrorContext
+FrontendContext
 :
 :
 onOverRecursed
@@ -212,7 +212,7 @@ true
 ;
 }
 void
-OffThreadErrorContext
+FrontendContext
 :
 :
 recoverFromOutOfMemory
@@ -242,7 +242,7 @@ false
 const
 JSErrorFormatString
 *
-OffThreadErrorContext
+FrontendContext
 :
 :
 gcSafeCallback
@@ -288,7 +288,7 @@ errorNumber
 ;
 }
 void
-OffThreadErrorContext
+FrontendContext
 :
 :
 reportError
@@ -332,7 +332,7 @@ err
 ;
 }
 bool
-OffThreadErrorContext
+FrontendContext
 :
 :
 reportWarning
@@ -375,7 +375,7 @@ true
 ;
 }
 void
-OffThreadErrorContext
+FrontendContext
 :
 :
 ReportOutOfMemory
@@ -407,7 +407,7 @@ addPendingOutOfMemory
 ;
 }
 void
-OffThreadErrorContext
+FrontendContext
 :
 :
 addPendingOutOfMemory
@@ -422,7 +422,7 @@ true
 ;
 }
 void
-OffThreadErrorContext
+FrontendContext
 :
 :
 setCurrentJSContext
@@ -438,7 +438,7 @@ cx
 ;
 }
 void
-OffThreadErrorContext
+FrontendContext
 :
 :
 convertToRuntimeError
@@ -551,7 +551,7 @@ cx
 }
 }
 void
-OffThreadErrorContext
+FrontendContext
 :
 :
 linkWithJSContext
@@ -581,7 +581,7 @@ errors_
 ifdef
 __wasi__
 void
-OffThreadErrorContext
+FrontendContext
 :
 :
 incWasiRecursionDepth
@@ -601,7 +601,7 @@ maybeCx_
 }
 }
 void
-OffThreadErrorContext
+FrontendContext
 :
 :
 decWasiRecursionDepth
@@ -621,7 +621,7 @@ maybeCx_
 }
 }
 bool
-OffThreadErrorContext
+FrontendContext
 :
 :
 checkWasiRecursionLimit
@@ -651,7 +651,7 @@ js
 :
 IncWasiRecursionDepth
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -671,7 +671,7 @@ js
 :
 DecWasiRecursionDepth
 (
-ErrorContext
+FrontendContext
 *
 ec
 )
@@ -691,7 +691,7 @@ js
 :
 CheckWasiRecursionLimit
 (
-ErrorContext
+FrontendContext
 *
 ec
 )

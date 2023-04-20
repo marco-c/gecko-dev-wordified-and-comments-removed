@@ -2118,7 +2118,7 @@ CompilationGCOutput
 >
 gcOutput_
 ;
-OffThreadErrorContext
+FrontendContext
 ec_
 ;
 ParseTask
@@ -2589,7 +2589,7 @@ frontend
 CompilationStencilMerger
 merger
 ;
-OffThreadErrorContext
+FrontendContext
 ec_
 ;
 static

@@ -37,7 +37,12 @@ namespace
 js
 {
 class
+FrontendContext
+;
+using
 ErrorContext
+=
+FrontendContext
 ;
 enum
 class

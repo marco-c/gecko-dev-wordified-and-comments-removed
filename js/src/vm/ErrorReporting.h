@@ -49,7 +49,12 @@ namespace
 js
 {
 class
+FrontendContext
+;
+using
 ErrorContext
+=
+FrontendContext
 ;
 using
 JSAllocator
