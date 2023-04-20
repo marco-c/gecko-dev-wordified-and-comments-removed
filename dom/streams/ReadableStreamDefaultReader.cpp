@@ -132,6 +132,10 @@ mozilla
 :
 dom
 {
+using
+namespace
+streams_abstract
+;
 NS_IMPL_CYCLE_COLLECTION
 (
 ReadableStreamGenericReader
@@ -256,6 +260,9 @@ aGivenProto
 )
 ;
 }
+namespace
+streams_abstract
+{
 bool
 ReadableStreamReaderGenericInitialize
 (
@@ -436,6 +443,7 @@ ReaderState
 return
 false
 ;
+}
 }
 }
 already_AddRefed
@@ -862,6 +870,9 @@ NS_INTERFACE_MAP_END_INHERITING
 (
 ReadRequest
 )
+namespace
+streams_abstract
+{
 void
 ReadableStreamDefaultReaderRead
 (
@@ -1023,6 +1034,7 @@ return
 }
 }
 }
+}
 already_AddRefed
 <
 Promise
@@ -1142,6 +1154,9 @@ forget
 )
 ;
 }
+namespace
+streams_abstract
+{
 void
 ReadableStreamReaderGenericRelease
 (
@@ -1492,6 +1507,7 @@ aRv
 )
 ;
 }
+}
 void
 ReadableStreamDefaultReader
 :
@@ -1705,6 +1721,9 @@ aRv
 )
 ;
 }
+namespace
+streams_abstract
+{
 void
 SetUpReadableStreamDefaultReader
 (
@@ -1778,6 +1797,7 @@ clear
 (
 )
 ;
+}
 }
 void
 ReadableStreamDefaultReader

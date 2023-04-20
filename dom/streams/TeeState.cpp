@@ -58,6 +58,10 @@ mozilla
 :
 dom
 {
+using
+namespace
+streams_abstract
+;
 NS_IMPL_CYCLE_COLLECTION_WITH_JS_MEMBERS
 (
 TeeState

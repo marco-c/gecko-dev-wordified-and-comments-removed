@@ -3674,6 +3674,9 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 mLastWritePromise
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
+namespace
+streams_abstract
+{
 already_AddRefed
 <
 Promise
@@ -3874,5 +3877,6 @@ forget
 (
 )
 ;
+}
 }
 }
