@@ -9235,6 +9235,9 @@ OperationError
 NotAllowedError
 :
 0
+OptOutError
+:
+0
 }
 ;
 var
