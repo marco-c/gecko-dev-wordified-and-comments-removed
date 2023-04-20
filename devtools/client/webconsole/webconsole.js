@@ -269,6 +269,12 @@ this
 .
 telemetry
 =
+toolbox
+?
+.
+telemetry
+|
+|
 new
 Telemetry
 (
