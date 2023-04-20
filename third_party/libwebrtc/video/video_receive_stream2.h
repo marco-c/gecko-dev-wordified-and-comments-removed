@@ -675,6 +675,14 @@ payload_type
 override
 ;
 void
+SetRedPayloadType
+(
+int
+payload_type
+)
+override
+;
+void
 SetRtcpXr
 (
 Config

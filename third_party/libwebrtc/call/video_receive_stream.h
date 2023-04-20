@@ -1062,6 +1062,16 @@ ulpfec_payload_type
 ;
 virtual
 void
+SetRedPayloadType
+(
+int
+red_payload_type
+)
+=
+0
+;
+virtual
+void
 SetRtcpXr
 (
 Config
