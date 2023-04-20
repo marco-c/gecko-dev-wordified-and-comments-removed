@@ -13155,7 +13155,7 @@ PresContext
 )
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 )

@@ -3090,12 +3090,6 @@ aMallocSizeOf
 ;
 }
 bool
-IsRootContentDocument
-(
-)
-const
-;
-bool
 IsRootContentDocumentInProcess
 (
 )
