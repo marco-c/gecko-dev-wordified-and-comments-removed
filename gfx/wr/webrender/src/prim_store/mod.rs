@@ -4542,6 +4542,10 @@ repeat_vertical
 :
 RepeatMode
 pub
+outset
+:
+SideOffsetsKey
+pub
 widths
 :
 SideOffsetsKey

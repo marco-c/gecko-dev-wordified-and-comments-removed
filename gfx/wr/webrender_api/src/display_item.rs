@@ -1841,6 +1841,10 @@ pub
 repeat_vertical
 :
 RepeatMode
+pub
+outset
+:
+LayoutSideOffsets
 }
 #
 [

@@ -69,6 +69,9 @@ slice
 [
 32
 ]
+outset
+:
+0
 repeat
 -
 vertical
@@ -130,6 +133,9 @@ slice
 [
 32
 ]
+outset
+:
+0
 repeat
 -
 vertical
@@ -191,6 +197,9 @@ slice
 [
 32
 ]
+outset
+:
+0
 repeat
 -
 vertical
@@ -252,6 +261,9 @@ slice
 [
 32
 ]
+outset
+:
+0
 repeat
 -
 vertical

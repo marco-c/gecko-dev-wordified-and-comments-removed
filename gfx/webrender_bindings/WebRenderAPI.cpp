@@ -8178,6 +8178,13 @@ wr
 :
 ExtendMode
 aExtendMode
+const
+wr
+:
+:
+LayoutSideOffsets
+&
+aOutset
 )
 {
 wr_dp_push_border_gradient
@@ -8209,6 +8216,7 @@ Length
 (
 )
 aExtendMode
+aOutset
 )
 ;
 }
@@ -8272,6 +8280,13 @@ wr
 :
 ExtendMode
 aExtendMode
+const
+wr
+:
+:
+LayoutSideOffsets
+&
+aOutset
 )
 {
 wr_dp_push_border_radial_gradient
@@ -8300,6 +8315,7 @@ Length
 (
 )
 aExtendMode
+aOutset
 )
 ;
 }
@@ -8359,6 +8375,13 @@ wr
 :
 ExtendMode
 aExtendMode
+const
+wr
+:
+:
+LayoutSideOffsets
+&
+aOutset
 )
 {
 wr_dp_push_border_conic_gradient
@@ -8387,6 +8410,7 @@ Length
 (
 )
 aExtendMode
+aOutset
 )
 ;
 }

@@ -16609,6 +16609,9 @@ bool
 slice
 :
 DeviceIntSideOffsets
+outset
+:
+LayoutSideOffsets
 repeat_horizontal
 :
 RepeatMode
@@ -16707,6 +16710,11 @@ fill
 params
 .
 fill
+outset
+:
+params
+.
+outset
 repeat_horizontal
 :
 params
@@ -16839,6 +16847,9 @@ usize
 extend_mode
 :
 ExtendMode
+outset
+:
+LayoutSideOffsets
 )
 {
 debug_assert
@@ -16913,6 +16924,7 @@ width
 height
 slice
 fill
+outset
 repeat_horizontal
 :
 RepeatMode
@@ -17036,6 +17048,9 @@ usize
 extend_mode
 :
 ExtendMode
+outset
+:
+LayoutSideOffsets
 )
 {
 debug_assert
@@ -17156,6 +17171,7 @@ as
 i32
 slice
 fill
+outset
 repeat_horizontal
 :
 RepeatMode
@@ -17279,6 +17295,9 @@ usize
 extend_mode
 :
 ExtendMode
+outset
+:
+LayoutSideOffsets
 )
 {
 debug_assert
@@ -17399,6 +17418,7 @@ as
 i32
 slice
 fill
+outset
 repeat_horizontal
 :
 RepeatMode
