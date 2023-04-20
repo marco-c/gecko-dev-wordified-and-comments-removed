@@ -450,11 +450,9 @@ LOAD_DOCUMENT_URI
 {
 rv
 =
-aChannel
--
->
-GetURI
+NS_GetFinalChannelURI
 (
+aChannel
 getter_AddRefs
 (
 uriBeingLoaded

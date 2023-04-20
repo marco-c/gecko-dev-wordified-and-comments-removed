@@ -462,11 +462,9 @@ uri
 nsresult
 rv
 =
-channel
--
->
-GetURI
+NS_GetFinalChannelURI
 (
+channel
 getter_AddRefs
 (
 uri
