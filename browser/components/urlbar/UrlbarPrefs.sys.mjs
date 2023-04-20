@@ -4058,15 +4058,6 @@ UrlbarUtils
 RESULT_GROUP
 .
 OMNIBOX
-availableSpan
-:
-lazy
-.
-UrlbarUtils
-.
-MAX_OMNIBOX_RESULT_COUNT
--
-1
 }
 ]
 }
