@@ -16252,6 +16252,12 @@ full_report
 "
 milestone_message
 "
+"
+cookieb_toggle_on
+"
+"
+cookieb_toggle_off
+"
 ]
 bug_numbers
 :
@@ -16269,6 +16275,8 @@ bug_numbers
 1739287
 -
 1787249
+-
+1798669
 description
 :
 >
@@ -16289,6 +16297,11 @@ notification_emails
 :
 -
 pbz
+mozilla
+.
+com
+-
+tihuang
 mozilla
 .
 com
