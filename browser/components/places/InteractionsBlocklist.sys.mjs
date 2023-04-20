@@ -1272,9 +1272,7 @@ the
 url
 can
 be
-added
-to
-snapshots
+recorded
 .
 *
 /
