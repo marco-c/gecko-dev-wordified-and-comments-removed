@@ -27,6 +27,17 @@ api
 /
 video_codecs
 /
+av1_profile
+.
+h
+"
+#
+include
+"
+api
+/
+video_codecs
+/
 sdp_video_format
 .
 h
