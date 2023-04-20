@@ -9095,6 +9095,12 @@ direction
 :
 column
 ;
+min
+-
+height
+:
+0
+;
 }
 #
 customization
@@ -9234,8 +9240,6 @@ list
 flex
 :
 1
-1
-auto
 ;
 /
 *
@@ -9322,8 +9326,6 @@ panelWrapper
 flex
 :
 1
-1
-auto
 ;
 height
 :
