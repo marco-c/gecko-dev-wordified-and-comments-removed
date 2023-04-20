@@ -173,7 +173,27 @@ target_tasks
 from
 gecko_taskgraph
 import
+generator
+    
+from
+gecko_taskgraph
+import
 morph
+    
+from
+gecko_taskgraph
+.
+util
+.
+verify
+import
+verifications
+    
+generator
+.
+verifications
+=
+verifications
     
 register_parameters
 (
