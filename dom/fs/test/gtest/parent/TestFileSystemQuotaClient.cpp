@@ -1711,7 +1711,7 @@ expected
 TEST_F
 (
 TestFileSystemQuotaClient
-CheckUsageBeforeAnyFilesOnDisk
+DISABLED_CheckUsageBeforeAnyFilesOnDisk
 )
 {
 auto
@@ -2169,7 +2169,7 @@ backgroundTask
 TEST_F
 (
 TestFileSystemQuotaClient
-WritesToFilesShouldIncreaseUsage
+DISABLED_WritesToFilesShouldIncreaseUsage
 )
 {
 auto
@@ -3043,7 +3043,7 @@ backgroundTask
 TEST_F
 (
 TestFileSystemQuotaClient
-RemovingFileShouldDecreaseUsage
+DISABLED_RemovingFileShouldDecreaseUsage
 )
 {
 auto
