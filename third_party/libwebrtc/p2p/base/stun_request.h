@@ -90,7 +90,7 @@ StunRequest
 ;
 const
 int
-kAllRequests
+kAllRequestsForTest
 =
 0
 ;
