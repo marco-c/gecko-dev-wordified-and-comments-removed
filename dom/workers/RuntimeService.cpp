@@ -9669,6 +9669,13 @@ cx
 )
 ;
 }
+mWorkerPrivate
+-
+>
+RunShutdownTasks
+(
+)
+;
 BackgroundChild
 :
 :
