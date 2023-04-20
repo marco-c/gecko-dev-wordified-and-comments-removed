@@ -147,9 +147,6 @@ Element
 >
 mParent
 ;
-WeakFrame
-mFrame
-;
 RefPtr
 <
 GridDimension
