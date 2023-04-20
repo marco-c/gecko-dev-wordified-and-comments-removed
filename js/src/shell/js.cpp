@@ -29566,6 +29566,7 @@ else
 ModuleBuilder
 builder
 (
+cx
 &
 fc
 &
@@ -29820,12 +29821,6 @@ cx
 -
 >
 stackLimitForCurrentPrincipal
-(
-)
-cx
--
->
-tempLifoAlloc
 (
 )
 input

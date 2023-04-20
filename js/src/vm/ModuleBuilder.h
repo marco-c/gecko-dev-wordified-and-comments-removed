@@ -96,6 +96,9 @@ ModuleBuilder
 explicit
 ModuleBuilder
 (
+JSContext
+*
+cx
 FrontendContext
 *
 fc
@@ -118,6 +121,9 @@ Parser
 explicit
 ModuleBuilder
 (
+JSContext
+*
+cx
 FrontendContext
 *
 fc
@@ -128,6 +134,7 @@ parser
 :
 ModuleBuilder
 (
+cx
 fc
 frontend
 :
@@ -302,6 +309,10 @@ frontend
 :
 TaggedParserAtomIndexHasher
 >
+;
+JSContext
+*
+cx_
 ;
 FrontendContext
 *
