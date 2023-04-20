@@ -409,7 +409,7 @@ FissionTestHelperParent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 getRootDirectory
 (
@@ -419,7 +419,9 @@ gTestPath
 "
 FissionTestHelperParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -440,7 +442,7 @@ FissionTestHelper
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 getRootDirectory
 (
@@ -450,13 +452,15 @@ gTestPath
 "
 FissionTestHelperParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 getRootDirectory
 (
@@ -466,7 +470,9 @@ gTestPath
 "
 FissionTestHelperChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
