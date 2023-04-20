@@ -590,8 +590,9 @@ source
 {
 Assert
 .
-fail
+ok
 (
+false
 "
 An
 invalid
