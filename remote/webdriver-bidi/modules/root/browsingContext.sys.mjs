@@ -2467,7 +2467,7 @@ interactive
 {
 listener
 .
-stop
+stopIfStarted
 (
 )
 ;
