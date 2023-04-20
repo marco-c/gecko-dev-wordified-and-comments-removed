@@ -69,15 +69,3 @@ scalabilityMode
 ;
 }
 ;
-partial
-dictionary
-RTCRtpCodecCapability
-{
-sequence
-<
-DOMString
->
-scalabilityModes
-;
-}
-;

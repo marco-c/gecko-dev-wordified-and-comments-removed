@@ -687,6 +687,10 @@ RTCAudioPlayoutStats
 :
 RTCStats
 {
+required
+DOMString
+kind
+;
 double
 synthesizedSamplesDuration
 ;

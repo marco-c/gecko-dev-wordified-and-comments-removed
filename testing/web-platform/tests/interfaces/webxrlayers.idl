@@ -105,11 +105,6 @@ blendTextureSourceAlpha
 ;
 attribute
 boolean
-?
-chromaticAberrationCorrection
-;
-attribute
-boolean
 forceMonoPresentation
 ;
 attribute
