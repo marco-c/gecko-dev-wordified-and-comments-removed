@@ -6971,6 +6971,17 @@ length
 0
 )
 {
+if
+(
+aEvent
+.
+button
+=
+=
+=
+0
+)
+{
 await
 BrowserOpenAddonsMgr
 (
@@ -6984,6 +6995,7 @@ discover
 "
 )
 ;
+}
 return
 ;
 }
