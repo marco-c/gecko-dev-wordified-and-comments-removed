@@ -6892,6 +6892,12 @@ if
 !
 this
 .
+_isCustomizing
+&
+&
+!
+this
+.
 toolbar
 .
 hasAttribute
