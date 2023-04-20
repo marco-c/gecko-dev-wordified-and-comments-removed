@@ -2629,9 +2629,6 @@ aTransform
 {
 gfxContextAutoSaveRestore
 saver
-(
-mSourceCtx
-)
 ;
 if
 (
@@ -2645,6 +2642,13 @@ NS_FRAME_IS_NONDISPLAY
 )
 )
 {
+saver
+.
+SetContext
+(
+mSourceCtx
+)
+;
 gfxContextMatrixAutoSaveRestore
 matrixAutoSaveRestore
 (
