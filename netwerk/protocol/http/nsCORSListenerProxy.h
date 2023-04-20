@@ -403,11 +403,6 @@ mRequestApproved
 bool
 mHasBeenCrossSite
 ;
-bool
-mIsRedirect
-=
-false
-;
 nsCOMPtr
 <
 nsIHttpChannel
