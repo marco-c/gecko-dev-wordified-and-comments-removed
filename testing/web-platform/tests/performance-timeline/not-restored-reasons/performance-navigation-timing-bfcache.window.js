@@ -36,6 +36,11 @@ noopener
 }
 )
 ;
+prepareForBFCache
+(
+rc1
+)
+;
 const
 rc2
 =
@@ -51,6 +56,11 @@ rc2
 .
 historyBack
 (
+)
+;
+assert_implements_bfcache
+(
+rc1
 )
 ;
 assert_true
