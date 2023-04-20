@@ -4936,6 +4936,16 @@ true
 name
 :
 "
+RTCSctpTransport
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 RTCSessionDescription
 "
 insecureContext
