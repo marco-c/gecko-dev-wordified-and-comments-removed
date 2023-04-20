@@ -565,7 +565,7 @@ including
 cookies
 and
 local
-strage
+storage
 .
 There
 are
