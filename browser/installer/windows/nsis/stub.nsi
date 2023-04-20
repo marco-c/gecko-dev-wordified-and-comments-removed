@@ -684,7 +684,7 @@ number
 .
 ;
 Approximately
-150
+200
 seconds
 with
 a
@@ -695,10 +695,10 @@ timer
 !
 define
 InstallCleanTotalSteps
-1500
+2000
 ;
 Approximately
-165
+215
 seconds
 with
 a
@@ -709,7 +709,7 @@ timer
 !
 define
 InstallPaveOverTotalSteps
-1650
+2150
 ;
 Blurb
 duty
