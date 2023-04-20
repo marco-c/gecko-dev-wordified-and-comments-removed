@@ -26,10 +26,6 @@ import
 sys
 import
 sysconfig
-from
-pathlib
-import
-Path
 import
 tempfile
 from
@@ -37,10 +33,14 @@ contextlib
 import
 contextmanager
 from
+pathlib
+import
+Path
+from
 typing
 import
-Optional
 Callable
+Optional
 from
 mach
 .
@@ -4547,7 +4547,14 @@ self
 .
 prefix
 =
+os
+.
+path
+.
+realpath
+(
 prefix
+)
     
 functools
 .
@@ -4639,18 +4646,11 @@ path
 .
 normpath
 (
-            
 os
 .
 path
 .
 normcase
-(
-os
-.
-path
-.
-realpath
 (
 Path
 (
@@ -4661,8 +4661,6 @@ prefix
 /
 relative_path
 )
-)
-        
 )
     
 def
@@ -4694,7 +4692,6 @@ dirs
 .
 append
 (
-                
 os
 .
 path
@@ -4707,19 +4704,11 @@ path
 .
 normcase
 (
-os
-.
-path
-.
-realpath
-(
 self
 .
 prefix
 )
 )
-)
-            
 )
         
 purelib
