@@ -92,10 +92,7 @@ estimate_cov_
 ]
 ;
 double
-process_noise_cov_
-[
-2
-]
+process_noise_cov_diag_
 [
 2
 ]
