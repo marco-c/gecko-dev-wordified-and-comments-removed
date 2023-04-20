@@ -540,7 +540,6 @@ aStream
 SetBackpressure
 (
 false
-aRv
 )
 ;
 }
@@ -1865,7 +1864,6 @@ mStream
 SetBackpressure
 (
 false
-aRv
 )
 ;
 return
@@ -2024,9 +2022,6 @@ SetBackpressure
 (
 bool
 aBackpressure
-ErrorResult
-&
-aRv
 )
 {
 MOZ_ASSERT
@@ -2202,7 +2197,6 @@ nullptr
 SetBackpressure
 (
 true
-aRv
 )
 ;
 if
