@@ -18,6 +18,13 @@ h
 #
 include
 "
+PerformanceRecorder
+.
+h
+"
+#
+include
+"
 PlatformDecoderModule
 .
 h
@@ -1143,6 +1150,12 @@ mCodec
 const
 VideoInfo
 mInfo
+;
+PerformanceRecorderMulti
+<
+DecodeStage
+>
+mPerformanceRecorder
 ;
 }
 ;
