@@ -579,7 +579,7 @@ None
 }
 pub
 fn
-set_adapt_bundle
+set_bundle_adapter
 (
 &
 mut

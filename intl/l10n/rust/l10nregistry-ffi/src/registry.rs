@@ -596,7 +596,7 @@ env
 ;
 reg
 .
-set_adapt_bundle
+set_bundle_adapter
 (
 GeckoBundleAdapter
 :
@@ -1082,7 +1082,7 @@ _
 =
 reg
 .
-set_adapt_bundle
+set_bundle_adapter
 (
 GeckoBundleAdapter
 {

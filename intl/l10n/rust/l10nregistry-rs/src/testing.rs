@@ -1169,7 +1169,7 @@ unwrap
 ;
 reg
 .
-set_adapt_bundle
+set_bundle_adapter
 (
 bundle_adapter
 )
