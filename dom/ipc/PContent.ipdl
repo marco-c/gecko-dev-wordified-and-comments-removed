@@ -11003,6 +11003,9 @@ the
 parent
 process
 .
+[
+LazySend
+]
 async
 CleanupPendingLoadState
 (
@@ -11273,6 +11276,9 @@ set
 .
 *
 /
+[
+LazySend
+]
 async
 CreateBrowsingContext
 (
@@ -11475,6 +11481,9 @@ aCallerType
 ;
 parent
 :
+[
+LazySend
+]
 async
 InsertNewFocusActionId
 (
@@ -11618,6 +11627,9 @@ actor
 s
 lifecycle
 .
+[
+LazySend
+]
 async
 CreateWindowContext
 (
