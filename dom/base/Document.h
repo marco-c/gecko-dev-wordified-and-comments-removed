@@ -5747,6 +5747,11 @@ Element
 &
 )
 ;
+bool
+HasPendingFullscreenRequests
+(
+)
+;
 void
 TryCancelDialog
 (
