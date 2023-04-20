@@ -12,68 +12,6 @@ js
 "
 )
 ;
-let
-win
-;
-add_setup
-(
-async
-function
-(
-)
-{
-await
-SpecialPowers
-.
-pushPrefEnv
-(
-{
-set
-:
-[
-[
-"
-extensions
-.
-manifestV3
-.
-enabled
-"
-true
-]
-]
-}
-)
-;
-win
-=
-await
-promiseEnableUnifiedExtensions
-(
-)
-;
-registerCleanupFunction
-(
-async
-(
-)
-=
->
-{
-await
-BrowserTestUtils
-.
-closeWindow
-(
-win
-)
-;
-}
-)
-;
-}
-)
-;
 add_task
 (
 async
@@ -259,8 +197,6 @@ BrowserTestUtils
 .
 loadURIString
 (
-win
-.
 gBrowser
 .
 selectedBrowser
@@ -281,8 +217,6 @@ BrowserTestUtils
 .
 browserLoaded
 (
-win
-.
 gBrowser
 .
 selectedBrowser
@@ -310,7 +244,6 @@ startup
 await
 openExtensionsPanel
 (
-win
 )
 ;
 let
@@ -318,7 +251,6 @@ item
 =
 getUnifiedExtensionsItem
 (
-win
 extension1
 .
 id
@@ -396,7 +328,6 @@ VK_TAB
 "
 {
 }
-win
 )
 ;
 await
@@ -405,8 +336,6 @@ focused
 is
 (
 actionButton
-win
-.
 document
 .
 activeElement
@@ -428,7 +357,6 @@ item
 =
 getUnifiedExtensionsItem
 (
-win
 extension2
 .
 id
@@ -504,7 +432,6 @@ KEY_ArrowDown
 "
 {
 }
-win
 )
 ;
 await
@@ -513,8 +440,6 @@ focused
 is
 (
 actionButton
-win
-.
 document
 .
 activeElement
@@ -547,8 +472,6 @@ BrowserTestUtils
 .
 waitForEvent
 (
-win
-.
 document
 "
 popuphidden
@@ -564,7 +487,6 @@ synthesizeKey
 "
 {
 }
-win
 )
 ;
 await
@@ -736,7 +658,6 @@ startup
 await
 openExtensionsPanel
 (
-win
 )
 ;
 let
@@ -744,7 +665,6 @@ item
 =
 getUnifiedExtensionsItem
 (
-win
 extension1
 .
 id
@@ -801,8 +721,6 @@ is
 messageDeck
 .
 selectedIndex
-win
-.
 gUnifiedExtensions
 .
 MESSAGE_DECK_INDEX_DEFAULT
@@ -880,7 +798,6 @@ VK_TAB
 "
 {
 }
-win
 )
 ;
 await
@@ -889,8 +806,6 @@ focused
 is
 (
 actionButton
-win
-.
 document
 .
 activeElement
@@ -914,8 +829,6 @@ is
 messageDeck
 .
 selectedIndex
-win
-.
 gUnifiedExtensions
 .
 MESSAGE_DECK_INDEX_HOVER
@@ -1006,7 +919,6 @@ VK_TAB
 "
 {
 }
-win
 )
 ;
 await
@@ -1015,8 +927,6 @@ focused
 is
 (
 menuButton
-win
-.
 document
 .
 activeElement
@@ -1039,8 +949,6 @@ is
 messageDeck
 .
 selectedIndex
-win
-.
 gUnifiedExtensions
 .
 MESSAGE_DECK_INDEX_MENU_HOVER
@@ -1078,8 +986,6 @@ item
 const
 contextMenu
 =
-win
-.
 document
 .
 getElementById
@@ -1125,7 +1031,6 @@ synthesizeKey
 "
 {
 }
-win
 )
 ;
 await
@@ -1138,7 +1043,6 @@ contextMenu
 .
 id
 null
-win
 )
 ;
 info
@@ -1182,7 +1086,6 @@ shiftKey
 :
 true
 }
-win
 )
 ;
 await
@@ -1193,8 +1096,6 @@ is
 messageDeck
 .
 selectedIndex
-win
-.
 gUnifiedExtensions
 .
 MESSAGE_DECK_INDEX_HOVER
@@ -1231,7 +1132,6 @@ item
 =
 getUnifiedExtensionsItem
 (
-win
 extension3
 .
 id
@@ -1323,8 +1223,6 @@ is
 messageDeck
 .
 selectedIndex
-win
-.
 gUnifiedExtensions
 .
 MESSAGE_DECK_INDEX_DEFAULT
@@ -1364,7 +1262,6 @@ KEY_ArrowDown
 "
 {
 }
-win
 )
 ;
 await
@@ -1373,8 +1270,6 @@ focused
 is
 (
 actionButton
-win
-.
 document
 .
 activeElement
@@ -1398,8 +1293,6 @@ is
 messageDeck
 .
 selectedIndex
-win
-.
 gUnifiedExtensions
 .
 MESSAGE_DECK_INDEX_HOVER
@@ -1489,7 +1382,6 @@ VK_TAB
 "
 {
 }
-win
 )
 ;
 await
@@ -1498,8 +1390,6 @@ focused
 is
 (
 menuButton
-win
-.
 document
 .
 activeElement
@@ -1522,8 +1412,6 @@ is
 messageDeck
 .
 selectedIndex
-win
-.
 gUnifiedExtensions
 .
 MESSAGE_DECK_INDEX_MENU_HOVER
@@ -1587,7 +1475,6 @@ shiftKey
 :
 true
 }
-win
 )
 ;
 await
@@ -1598,8 +1485,6 @@ is
 messageDeck
 .
 selectedIndex
-win
-.
 gUnifiedExtensions
 .
 MESSAGE_DECK_INDEX_HOVER
@@ -1621,7 +1506,6 @@ message
 await
 closeExtensionsPanel
 (
-win
 )
 ;
 await
@@ -1662,8 +1546,6 @@ button
 panel
 }
 =
-win
-.
 gUnifiedExtensions
 ;
 ok
@@ -1689,7 +1571,6 @@ listView
 =
 getListView
 (
-win
 )
 ;
 ok
@@ -1765,7 +1646,6 @@ synthesizeKey
 "
 {
 }
-win
 )
 ;
 await
@@ -1774,7 +1654,6 @@ viewShown
 await
 closeExtensionsPanel
 (
-win
 )
 ;
 forceFocusUnifiedExtensionsButton
@@ -1802,7 +1681,6 @@ KEY_Enter
 "
 {
 }
-win
 )
 ;
 await
@@ -1811,7 +1689,6 @@ viewShown
 await
 closeExtensionsPanel
 (
-win
 )
 ;
 }
