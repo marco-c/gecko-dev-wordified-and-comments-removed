@@ -1573,8 +1573,7 @@ IsShuttingDown
 const
 {
 return
-!
-IsAlive
+IsDead
 (
 )
 |
