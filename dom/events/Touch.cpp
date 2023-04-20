@@ -669,6 +669,10 @@ aCallerType
 GetParentObject
 (
 )
+RFPTarget
+:
+:
+TouchEvents
 )
 )
 {
@@ -706,6 +710,10 @@ aCallerType
 GetParentObject
 (
 )
+RFPTarget
+:
+:
+TouchEvents
 )
 )
 {
@@ -743,6 +751,10 @@ aCallerType
 GetParentObject
 (
 )
+RFPTarget
+:
+:
+TouchEvents
 )
 )
 {
@@ -778,6 +790,10 @@ aCallerType
 GetParentObject
 (
 )
+RFPTarget
+:
+:
+TouchEvents
 )
 )
 {
@@ -813,6 +829,10 @@ aCallerType
 GetParentObject
 (
 )
+RFPTarget
+:
+:
+TouchEvents
 )
 )
 {
@@ -848,6 +868,10 @@ aCallerType
 GetParentObject
 (
 )
+RFPTarget
+:
+:
+TouchEvents
 )
 )
 {
