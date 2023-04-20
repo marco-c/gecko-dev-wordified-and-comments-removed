@@ -160,6 +160,17 @@ WillResume
 =
 0
 ;
+virtual
+nsIContentSink
+*
+AsExecutor
+(
+)
+{
+return
+nullptr
+;
+}
 NS_IMETHOD
 SetParser
 (
