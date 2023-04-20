@@ -57,7 +57,7 @@ ZydisDecoderInit
 &
 decoder
 ZYDIS_MACHINE_MODE_LONG_64
-ZYDIS_ADDRESS_WIDTH_64
+ZYDIS_STACK_WIDTH_64
 )
 ;
 ZydisFormatter
@@ -100,6 +100,12 @@ codeLen
 ZydisDecodedInstruction
 instruction
 ;
+ZydisDecodedOperand
+operands
+[
+ZYDIS_MAX_OPERAND_COUNT
+]
+;
 char
 buffer
 [
@@ -110,7 +116,7 @@ while
 (
 ZYAN_SUCCESS
 (
-ZydisDecoderDecodeBuffer
+ZydisDecoderDecodeFull
 (
 &
 decoder
@@ -122,6 +128,7 @@ length
 offset
 &
 instruction
+operands
 )
 )
 )
@@ -309,6 +316,10 @@ ZydisFormatterFormatInstruction
 formatter
 &
 instruction
+operands
+instruction
+.
+operand_count_visible
 buffer
 +
 used
@@ -319,6 +330,7 @@ buffer
 -
 used
 runtime_address
+ZYAN_NULL
 )
 ;
 println
