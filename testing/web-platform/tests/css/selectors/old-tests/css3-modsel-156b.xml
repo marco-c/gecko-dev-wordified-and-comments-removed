@@ -93,7 +93,7 @@ css
 CDATA
 [
 foo
-&
+%
 address
 p
 {
