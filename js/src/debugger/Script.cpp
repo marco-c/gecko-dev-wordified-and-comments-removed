@@ -666,9 +666,12 @@ InitClass
 (
 cx
 debugCtor
-nullptr
 &
 class_
+nullptr
+"
+Script
+"
 construct
 0
 properties_

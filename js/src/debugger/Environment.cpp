@@ -2013,12 +2013,15 @@ InitClass
 (
 cx
 dbgCtor
-nullptr
 &
 DebuggerEnvironment
 :
 :
 class_
+nullptr
+"
+Environment
+"
 construct
 0
 properties_

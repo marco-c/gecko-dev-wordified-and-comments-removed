@@ -8618,9 +8618,12 @@ InitClass
 (
 cx
 debugCtor
-nullptr
 &
 class_
+nullptr
+"
+Object
+"
 construct
 0
 properties_
