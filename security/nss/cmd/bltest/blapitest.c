@@ -14468,6 +14468,8 @@ pBuf
 len
 )
 ;
+#
+endif
 return
 bltest_rc5_init
 (
@@ -14477,8 +14479,6 @@ encrypt
 ;
 break
 ;
-#
-endif
 case
 bltestAES_ECB
 :

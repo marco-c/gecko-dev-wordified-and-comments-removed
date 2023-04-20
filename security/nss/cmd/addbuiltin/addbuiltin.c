@@ -317,6 +317,11 @@ CKT_NSS_MUST_VERIFY_TRUST
 ;
 }
 }
+return
+"
+CKT_NSS_TRUST_UNKNOWN
+"
+;
 }
 static
 const

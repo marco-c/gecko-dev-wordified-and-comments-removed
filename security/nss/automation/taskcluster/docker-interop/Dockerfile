@@ -16,9 +16,9 @@ nodejs
 FROM
 ubuntu
 :
-focal
--
-20221130
+20
+.
+04
 LABEL
 maintainer
 =
