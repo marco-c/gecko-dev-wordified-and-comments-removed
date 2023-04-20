@@ -249,6 +249,17 @@ as_str
 (
 )
 }
+#
+[
+cfg
+(
+feature
+=
+"
+server
+"
+)
+]
 pub
 (
 crate
