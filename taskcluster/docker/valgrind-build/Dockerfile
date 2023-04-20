@@ -366,7 +366,7 @@ dbg
 \
 valgrind
 -
-dbg
+dbgsym
 \
 xvfb
 \
