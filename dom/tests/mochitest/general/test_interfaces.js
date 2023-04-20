@@ -1564,9 +1564,6 @@ CSSContainerRule
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
