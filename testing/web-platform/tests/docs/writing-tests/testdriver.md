@@ -768,7 +768,7 @@ browsing
 context
 :
 js
-testdriver
+test_driver
 .
 set_test_context
 (
@@ -777,7 +777,7 @@ window
 opener
 )
 await
-testdriver
+test_driver
 .
 click
 (
@@ -793,7 +793,7 @@ button
 0
 ]
 )
-testdriver
+test_driver
 .
 message_test
 (
