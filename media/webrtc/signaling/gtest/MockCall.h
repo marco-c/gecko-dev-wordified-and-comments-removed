@@ -1569,12 +1569,10 @@ webrtc
 AudioReceiveStream
 &
 stream
-const
-std
+absl
 :
 :
-string
-&
+string_view
 sync_group
 )
 override
