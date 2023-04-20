@@ -710,6 +710,15 @@ recording_file
         
 )
         
+add_options
+(
+env
+options
+overwrite
+=
+True
+)
+        
 add_option
 (
 env
@@ -726,9 +735,6 @@ get
 test_url
 "
 )
-overwrite
-=
-True
 )
         
 add_option
@@ -785,12 +791,17 @@ pageload
         
 add_option
 (
+            
 env
 "
 browsertime
 .
 login
 "
+"
+true
+"
+if
 test_site
 .
 get
@@ -798,10 +809,12 @@ get
 "
 login
 "
+)
+else
 "
 false
 "
-)
+        
 )
         
 prefs

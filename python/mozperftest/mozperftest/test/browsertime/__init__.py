@@ -90,14 +90,23 @@ add_options
 (
 env
 options
+overwrite
+=
+False
 )
 :
     
 for
+i
+(
 name
 value
+)
 in
+enumerate
+(
 options
+)
 :
         
 add_option
@@ -105,4 +114,12 @@ add_option
 env
 name
 value
+overwrite
+=
+overwrite
+and
+i
+=
+=
+0
 )
