@@ -141,8 +141,8 @@ s
 sed
 -
 i
-'
-'
+.
+bak
 "
 s
 /
@@ -169,8 +169,8 @@ MAJOR_VERSION
 sed
 -
 i
-'
-'
+.
+bak
 "
 s
 /
@@ -197,8 +197,8 @@ MINOR_VERSION
 sed
 -
 i
-'
-'
+.
+bak
 "
 s
 /
@@ -221,4 +221,12 @@ PATCH_VERSION
 "
 "
 1
+"
+rm
+-
+f
+"
+1
+.
+bak
 "
