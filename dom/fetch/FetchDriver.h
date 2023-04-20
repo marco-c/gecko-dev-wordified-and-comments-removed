@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsINetworkInterceptController
+.
+h
+"
+#
+include
+"
 nsIStreamListener
 .
 h
@@ -307,6 +314,8 @@ nsIChannelEventSink
 public
 nsIInterfaceRequestor
 public
+nsINetworkInterceptController
+public
 nsIThreadRetargetableStreamListener
 public
 AbortFollower
@@ -318,6 +327,7 @@ NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSIINTERFACEREQUESTOR
+NS_DECL_NSINETWORKINTERCEPTCONTROLLER
 NS_DECL_NSITHREADRETARGETABLESTREAMLISTENER
 FetchDriver
 (
@@ -466,6 +476,11 @@ AbortSignalImpl
 aSignalImpl
 )
 ;
+void
+EnableNetworkInterceptControl
+(
+)
+;
 private
 :
 nsCOMPtr
@@ -606,6 +621,12 @@ mFetchCalled
 ;
 #
 endif
+nsCOMPtr
+<
+nsINetworkInterceptController
+>
+mInterceptController
+;
 friend
 class
 AlternativeDataStreamListener
