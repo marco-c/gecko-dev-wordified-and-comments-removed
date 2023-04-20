@@ -537,6 +537,14 @@ OnSecondaryVideoOutputFirstFrameRendered
 (
 )
 ;
+void
+OnVisibilityChange
+(
+Visibility
+aNewVisibility
+)
+override
+;
 protected
 :
 virtual

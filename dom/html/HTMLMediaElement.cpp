@@ -28188,7 +28188,7 @@ bool
 HTMLMediaElement
 :
 :
-CanActivateAutoplay
+IsEligibleForAutoplay
 (
 )
 {
@@ -28352,7 +28352,7 @@ CheckAutoplayDataReady
 if
 (
 !
-CanActivateAutoplay
+IsEligibleForAutoplay
 (
 )
 )
@@ -28375,6 +28375,19 @@ DispatchEventsWhenPlayWasNotAllowed
 return
 ;
 }
+RunAutoplay
+(
+)
+;
+}
+void
+HTMLMediaElement
+:
+:
+RunAutoplay
+(
+)
+{
 mAllowedToPlayPromise
 .
 ResolveIfExists
@@ -30377,7 +30390,7 @@ IsSeeking
 )
 |
 |
-CanActivateAutoplay
+IsEligibleForAutoplay
 (
 )
 |

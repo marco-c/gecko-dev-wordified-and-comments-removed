@@ -953,12 +953,17 @@ DispatchPendingMediaEvents
 )
 ;
 bool
-CanActivateAutoplay
+IsEligibleForAutoplay
 (
 )
 ;
 void
 CheckAutoplayDataReady
+(
+)
+;
+void
+RunAutoplay
 (
 )
 ;
@@ -2544,6 +2549,7 @@ IsBeingDestroyed
 (
 )
 ;
+virtual
 void
 OnVisibilityChange
 (
