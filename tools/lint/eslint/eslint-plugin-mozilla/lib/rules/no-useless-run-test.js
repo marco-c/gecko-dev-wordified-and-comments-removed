@@ -253,9 +253,7 @@ leadingComments
 if
 (
 startNode
-&
-&
-startNode
+?
 .
 length
 )
