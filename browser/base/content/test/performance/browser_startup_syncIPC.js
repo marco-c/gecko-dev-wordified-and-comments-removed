@@ -165,7 +165,7 @@ WIN
 WEBRENDER
 maxCount
 :
-2
+3
 }
 {
 name
