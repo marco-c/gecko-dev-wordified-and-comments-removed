@@ -416,7 +416,7 @@ result
 .
 payload
 .
-deletable
+isBlockable
 )
 {
 lazy
@@ -438,7 +438,7 @@ result
 .
 payload
 .
-deletable
+isBlockable
 ;
 }
 /
@@ -1069,7 +1069,7 @@ HIGHLIGHT
 .
 TYPED
 ]
-deletable
+isBlockable
 :
 suggestion
 .
