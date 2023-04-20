@@ -42,9 +42,9 @@ from
 .
 base
 import
-GeckoRuntimeRunner
-FennecRunner
 BlinkRuntimeRunner
+FennecRunner
+GeckoRuntimeRunner
 from
 .
 devices

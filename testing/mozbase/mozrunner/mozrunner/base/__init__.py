@@ -4,9 +4,10 @@ import
 absolute_import
 from
 .
-runner
+browser
 import
-BaseRunner
+BlinkRuntimeRunner
+GeckoRuntimeRunner
 from
 .
 device
@@ -15,7 +16,6 @@ DeviceRunner
 FennecRunner
 from
 .
-browser
+runner
 import
-GeckoRuntimeRunner
-BlinkRuntimeRunner
+BaseRunner
