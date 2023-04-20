@@ -593,6 +593,17 @@ extract
 )
 :
 bool
+                    
+Optional
+(
+"
+verify
+-
+hash
+"
+)
+:
+bool
                 
 }
             
@@ -2117,6 +2128,10 @@ None
 extract
 =
 True
+                        
+verify_hash
+=
+False
                     
 else
 :
@@ -2151,6 +2166,20 @@ get
 extract
 "
 True
+)
+                        
+verify_hash
+=
+artifact
+.
+get
+(
+"
+verify
+-
+hash
+"
+False
 )
                     
 fetch
@@ -2208,6 +2237,21 @@ dest
 ]
 =
 dest
+                    
+if
+verify_hash
+:
+                        
+fetch
+[
+"
+verify
+-
+hash
+"
+]
+=
+verify_hash
                     
 job_fetches
 .

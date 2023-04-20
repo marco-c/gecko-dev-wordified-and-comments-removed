@@ -41,7 +41,7 @@ from
 .
 parameters
 import
-Parameters
+parameters_loader
 from
 .
 task
@@ -1366,13 +1366,6 @@ self
 )
 :
         
-verifications
-(
-"
-initial
-"
-)
-        
 logger
 .
 info
@@ -1406,6 +1399,13 @@ graph_config
 .
 register
 (
+)
+        
+verifications
+(
+"
+initial
+"
 )
         
 if
@@ -2222,14 +2222,23 @@ image
         
 }
         
+if
+parameters
+[
+"
+enable_always_target
+"
+]
+:
+            
 always_target_tasks
 =
 {
-            
+                
 t
 .
 label
-            
+                
 for
 t
 in
@@ -2240,7 +2249,7 @@ tasks
 values
 (
 )
-            
+                
 if
 t
 .
@@ -2252,8 +2261,17 @@ get
 always_target
 "
 )
-        
+            
 }
+        
+else
+:
+            
+always_target_tasks
+=
+set
+(
+)
         
 logger
 .
@@ -2412,6 +2430,40 @@ union
 do_not_optimize
 )
         
+strategies
+=
+os
+.
+environ
+.
+get
+(
+            
+"
+TASKGRAPH_OPTIMIZE_STRATEGIES
+"
+parameters
+.
+get
+(
+"
+optimize_strategies
+"
+)
+        
+)
+        
+if
+strategies
+:
+            
+strategies
+=
+find_object
+(
+strategies
+)
+        
 optimized_task_graph
 label_to_taskid
 =
@@ -2433,6 +2485,10 @@ _decision_task_id
 existing_tasks
 =
 existing_tasks
+            
+strategy_override
+=
+strategies
         
 )
         
@@ -2641,13 +2697,16 @@ kind
     
 parameters
 =
-Parameters
+parameters_loader
 (
+spec
+=
+None
 strict
 =
 False
-*
-*
+overrides
+=
 parameters
 )
     
