@@ -10572,7 +10572,7 @@ aRv
 )
 ;
 void
-BlockUnblockOnloadForPDFJS
+BlockUnblockOnloadForSystemOrPDFJS
 (
 bool
 aBlock

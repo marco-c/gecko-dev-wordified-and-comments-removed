@@ -5726,7 +5726,7 @@ aPrincipal
 ;
 static
 bool
-IsPDFJS
+IsSystemOrPDFJS
 (
 JSContext
 *

@@ -3260,12 +3260,12 @@ Func
 nsContentUtils
 :
 :
-IsPDFJS
+IsSystemOrPDFJS
 "
 BinaryName
 =
 "
-blockUnblockOnloadForPDFJS
+blockUnblockOnloadForSystemOrPDFJS
 "
 ]
 undefined

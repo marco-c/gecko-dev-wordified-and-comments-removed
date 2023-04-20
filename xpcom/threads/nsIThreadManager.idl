@@ -224,6 +224,14 @@ timeout
 )
 ;
 void
+dispatchDirectTaskToCurrentThread
+(
+in
+nsIRunnable
+event
+)
+;
+void
 spinEventLoopUntil
 (
 in
