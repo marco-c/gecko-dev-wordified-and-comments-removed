@@ -1972,11 +1972,7 @@ ViewportVariant
 ;
 context
 .
-device
-(
-)
-.
-au_viewport_size_for_viewport_unit_resolution
+viewport_size_for_viewport_unit_resolution
 (
 ViewportVariant
 :
