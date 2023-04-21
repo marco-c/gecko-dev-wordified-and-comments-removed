@@ -965,7 +965,7 @@ referrerInfo
 ReferrerInfo
 :
 :
-CreateForSVGResources
+CreateForInternalCSSAndSVGResources
 (
 OwnerDoc
 (

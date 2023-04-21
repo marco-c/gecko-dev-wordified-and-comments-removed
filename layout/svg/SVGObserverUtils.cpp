@@ -5748,7 +5748,7 @@ referrerInfo
 ReferrerInfo
 :
 :
-CreateForSVGResources
+CreateForInternalCSSAndSVGResources
 (
 content
 -
@@ -5999,7 +5999,7 @@ referrerInfo
 ReferrerInfo
 :
 :
-CreateForSVGResources
+CreateForInternalCSSAndSVGResources
 (
 content
 -
@@ -6211,7 +6211,7 @@ referrerInfo
 ReferrerInfo
 :
 :
-CreateForSVGResources
+CreateForInternalCSSAndSVGResources
 (
 aFrame
 -
