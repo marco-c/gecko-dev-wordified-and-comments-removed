@@ -3014,6 +3014,11 @@ ItemError
 migrationType
 )
 ;
+collectMigrationTelemetry
+(
+migrationType
+)
+;
 aProgressCallback
 (
 migrationType
@@ -3058,11 +3063,6 @@ size
 {
 collectQuantityTelemetry
 (
-)
-;
-collectMigrationTelemetry
-(
-migrationType
 )
 ;
 notify
