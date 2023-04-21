@@ -887,6 +887,7 @@ drawOpts
 =
 nullptr
 ;
+const
 PropertyProvider
 *
 provider
@@ -978,6 +979,7 @@ Point
 aPt
 Range
 aRange
+const
 PropertyProvider
 *
 aProvider
@@ -997,6 +999,7 @@ aBoundingBoxType
 DrawTarget
 *
 aDrawTargetForTightBoundingBox
+const
 PropertyProvider
 *
 aProvider
@@ -1014,6 +1017,7 @@ aBoundingBoxType
 DrawTarget
 *
 aDrawTargetForTightBoundingBox
+const
 PropertyProvider
 *
 aProvider
@@ -1077,6 +1081,7 @@ GetAdvanceWidth
 (
 Range
 aRange
+const
 PropertyProvider
 *
 aProvider
@@ -1167,17 +1172,12 @@ bool
 aLineBreakBefore
 gfxFloat
 aWidth
+const
 PropertyProvider
-*
+&
 aProvider
 SuppressBreak
 aSuppressBreak
-gfxFloat
-*
-aTrimmableWhitespace
-Metrics
-*
-aMetrics
 gfxFont
 :
 :
@@ -1185,19 +1185,25 @@ BoundingBoxType
 aBoundingBoxType
 DrawTarget
 *
-aDrawTargetForTightBoundingBox
-bool
-*
-aUsedHyphenation
-uint32_t
-*
-aLastBreak
+aRefDrawTarget
 bool
 aCanWordWrap
 bool
 aCanWhitespaceWrap
-gfxBreakPriority
+gfxFloat
 *
+aOutTrimmableWhitespace
+Metrics
+&
+aOutMetrics
+bool
+&
+aOutUsedHyphenation
+uint32_t
+&
+aOutLastBreak
+gfxBreakPriority
+&
 aBreakPriority
 )
 ;
@@ -2553,6 +2559,7 @@ GetAdjustedSpacingArray
 (
 Range
 aRange
+const
 PropertyProvider
 *
 aProvider
@@ -2602,6 +2609,7 @@ ComputeLigatureData
 (
 Range
 aPartRange
+const
 PropertyProvider
 *
 aProvider
@@ -2613,6 +2621,7 @@ ComputePartialLigatureWidth
 (
 Range
 aPartRange
+const
 PropertyProvider
 *
 aProvider
@@ -2636,6 +2645,7 @@ gfx
 Point
 *
 aPt
+const
 PropertyProvider
 *
 aProvider
@@ -2667,6 +2677,7 @@ GetPartialLigatureWidth
 (
 Range
 aRange
+const
 PropertyProvider
 *
 aProvider
@@ -2689,6 +2700,7 @@ aBoundingBoxType
 DrawTarget
 *
 aRefDrawTarget
+const
 PropertyProvider
 *
 aProvider
@@ -2722,6 +2734,7 @@ aBoundingBoxType
 DrawTarget
 *
 aRefDrawTarget
+const
 PropertyProvider
 *
 aProvider
@@ -2758,6 +2771,7 @@ gfx
 Point
 *
 aPt
+const
 PropertyProvider
 *
 aProvider
