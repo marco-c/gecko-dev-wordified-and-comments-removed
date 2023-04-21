@@ -3826,16 +3826,6 @@ false
 pref
 (
 "
-snav
-.
-enabled
-"
-true
-)
-;
-pref
-(
-"
 home
 .
 sync

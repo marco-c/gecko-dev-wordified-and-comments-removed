@@ -31271,16 +31271,6 @@ digest256
 pref
 (
 "
-snav
-.
-enabled
-"
-false
-)
-;
-pref
-(
-"
 dom
 .
 wakelock
