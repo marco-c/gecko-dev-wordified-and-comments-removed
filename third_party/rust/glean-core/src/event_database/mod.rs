@@ -1112,6 +1112,9 @@ String
 >
 >
 )
+-
+>
+bool
 {
 if
 !
@@ -1122,6 +1125,7 @@ is_upload_enabled
 )
 {
 return
+false
 ;
 }
 let
@@ -1364,6 +1368,11 @@ max_capacity
 )
 )
 ;
+true
+}
+else
+{
+false
 }
 }
 fn

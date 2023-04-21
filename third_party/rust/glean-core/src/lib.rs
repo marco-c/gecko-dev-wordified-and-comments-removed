@@ -142,7 +142,7 @@ use
 metrics
 :
 :
-MetricsDisabledConfig
+MetricsEnabledConfig
 ;
 mod
 common_metric_data
@@ -813,6 +813,10 @@ new
 (
 )
 ;
+#
+[
+track_caller
+]
 fn
 global_state
 (
@@ -3647,7 +3651,7 @@ to_owned
 }
 pub
 fn
-glean_set_metrics_disabled_config
+glean_set_metrics_enabled_config
 (
 json
 :
@@ -3655,7 +3659,7 @@ String
 )
 {
 match
-MetricsDisabledConfig
+MetricsEnabledConfig
 :
 :
 try_from
@@ -3677,7 +3681,7 @@ glean
 {
 glean
 .
-set_metrics_disabled_config
+set_metrics_enabled_config
 (
 cfg
 )

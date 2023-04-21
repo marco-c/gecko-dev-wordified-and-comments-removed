@@ -125,7 +125,7 @@ self
 ExperimentMetric
 Metric
 MetricType
-MetricsDisabledConfig
+MetricsEnabledConfig
 PingType
 RecordedExperiment
 }
@@ -653,7 +653,7 @@ Arc
 <
 Mutex
 <
-MetricsDisabledConfig
+MetricsEnabledConfig
 >
 >
 }
@@ -925,7 +925,7 @@ Mutex
 :
 new
 (
-MetricsDisabledConfig
+MetricsEnabledConfig
 :
 :
 new
@@ -1910,6 +1910,10 @@ self
 .
 data_path
 }
+#
+[
+track_caller
+]
 pub
 fn
 storage
@@ -2451,13 +2455,13 @@ self
 }
 pub
 fn
-set_metrics_disabled_config
+set_metrics_enabled_config
 (
 &
 self
 cfg
 :
-MetricsDisabledConfig
+MetricsEnabledConfig
 )
 {
 let

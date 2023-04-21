@@ -35,7 +35,7 @@ Default
 ]
 pub
 struct
-MetricsDisabledConfig
+MetricsEnabledConfig
 {
 #
 [
@@ -45,7 +45,7 @@ flatten
 )
 ]
 pub
-metrics_disabled
+metrics_enabled
 :
 HashMap
 <
@@ -54,7 +54,7 @@ bool
 >
 }
 impl
-MetricsDisabledConfig
+MetricsEnabledConfig
 {
 pub
 fn
@@ -79,7 +79,7 @@ TryFrom
 String
 >
 for
-MetricsDisabledConfig
+MetricsEnabledConfig
 {
 type
 Error

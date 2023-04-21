@@ -83,7 +83,7 @@ mod
 memory_unit
 ;
 mod
-metrics_disabled_config
+metrics_enabled_config
 ;
 mod
 numerator
@@ -448,10 +448,10 @@ use
 self
 :
 :
-metrics_disabled_config
+metrics_enabled_config
 :
 :
-MetricsDisabledConfig
+MetricsEnabledConfig
 ;
 #
 [
@@ -751,7 +751,7 @@ disabled
 ;
 }
 let
-metrics_disabled
+metrics_enabled
 =
 &
 glean
@@ -766,7 +766,7 @@ unwrap
 (
 )
 .
-metrics_disabled
+metrics_enabled
 ;
 let
 current_disabled
@@ -817,10 +817,10 @@ if
 let
 Some
 (
-is_disabled
+is_enabled
 )
 =
-metrics_disabled
+metrics_enabled
 .
 get
 (
@@ -832,8 +832,9 @@ u8
 :
 from
 (
+!
 *
-is_disabled
+is_enabled
 )
 }
 else
