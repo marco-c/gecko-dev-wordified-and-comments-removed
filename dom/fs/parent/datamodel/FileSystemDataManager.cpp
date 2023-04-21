@@ -702,7 +702,7 @@ FileSystemHashSource
 GenerateHash
 (
 origin
-kRootName
+kRootString
 )
 ;
 }
