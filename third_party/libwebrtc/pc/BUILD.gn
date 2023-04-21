@@ -17418,7 +17418,7 @@ pc
 /
 e2e
 :
-default_video_quality_analyzer
+network_quality_metrics_reporter
 "
 "
 .
@@ -17429,8 +17429,12 @@ test
 pc
 /
 e2e
+/
+analyzer
+/
+video
 :
-network_quality_metrics_reporter
+default_video_quality_analyzer
 "
 ]
 if
