@@ -319,6 +319,17 @@ InputScope
 aScopes
 )
 ;
+static
+nsWindow
+*
+GetFocusedWindow
+(
+)
+{
+return
+sFocusedWindow
+;
+}
 private
 :
 static
