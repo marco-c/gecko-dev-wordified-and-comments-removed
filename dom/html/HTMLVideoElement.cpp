@@ -844,6 +844,7 @@ Invalidate
 (
 bool
 aImageSizeChanged
+const
 Maybe
 <
 nsIntSize
