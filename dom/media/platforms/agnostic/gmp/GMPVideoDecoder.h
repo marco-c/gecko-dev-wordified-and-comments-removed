@@ -68,6 +68,13 @@ mozIGeckoMediaPluginService
 .
 h
 "
+#
+include
+"
+nsHashtablesFwd
+.
+h
+"
 namespace
 mozilla
 {
@@ -442,6 +449,13 @@ int64_t
 mLastStreamOffset
 =
 0
+;
+nsTHashMap
+<
+nsUint64HashKey
+int64_t
+>
+mStreamOffsets
 ;
 RefPtr
 <

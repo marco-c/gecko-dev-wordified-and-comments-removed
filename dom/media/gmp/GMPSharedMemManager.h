@@ -52,7 +52,7 @@ const
 uint32_t
 kGMPBufLimit
 =
-20
+40
 ;
 GMPSharedMem
 (
