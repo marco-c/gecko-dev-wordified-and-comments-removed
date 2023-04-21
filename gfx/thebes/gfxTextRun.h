@@ -1174,9 +1174,7 @@ SuppressBreak
 aSuppressBreak
 gfxFloat
 *
-aTrimWhitespace
-bool
-aHangWhitespace
+aTrimmableWhitespace
 Metrics
 *
 aMetrics
