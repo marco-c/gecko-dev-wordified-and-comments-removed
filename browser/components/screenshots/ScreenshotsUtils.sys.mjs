@@ -2665,13 +2665,6 @@ dialog
 rect
 )
 {
-this
-.
-cropScreenshotRectIfNeeded
-(
-rect
-)
-;
 let
 {
 canvas
@@ -2829,6 +2822,13 @@ box
 browser
 )
 {
+this
+.
+cropScreenshotRectIfNeeded
+(
+box
+)
+;
 let
 rect
 =
