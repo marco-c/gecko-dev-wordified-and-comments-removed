@@ -191,16 +191,6 @@ WebRenderImageHost
 {
 MOZ_ASSERT
 (
-CompositorThreadHolder
-:
-:
-IsInCompositorThread
-(
-)
-)
-;
-MOZ_ASSERT
-(
 mPendingRemoteTextureWrappers
 .
 empty
