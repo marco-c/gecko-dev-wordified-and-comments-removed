@@ -8396,6 +8396,11 @@ nsXULPopupPositionedEvent
 DispatchIfNeeded
 (
 mContent
+-
+>
+AsElement
+(
+)
 )
 ;
 }
@@ -11705,6 +11710,11 @@ pm
 HidePopup
 (
 mContent
+-
+>
+AsElement
+(
+)
 {
 HidePopupOption
 :

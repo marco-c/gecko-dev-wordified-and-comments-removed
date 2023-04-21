@@ -5358,6 +5358,11 @@ mFrame
 GetContent
 (
 )
+-
+>
+AsElement
+(
+)
 {
 HidePopupOption
 :
@@ -5740,6 +5745,11 @@ mFrame
 -
 >
 GetContent
+(
+)
+-
+>
+AsElement
 (
 )
 )

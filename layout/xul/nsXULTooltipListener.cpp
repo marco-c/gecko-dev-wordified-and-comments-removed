@@ -2276,7 +2276,7 @@ if
 (
 nsCOMPtr
 <
-nsIContent
+Element
 >
 currentTooltip
 =
