@@ -188,11 +188,6 @@ InstructionReordering
 cpp
 "
 "
-InterpreterEntryTrampoline
-.
-cpp
-"
-"
 Ion
 .
 cpp
