@@ -101,6 +101,10 @@ aGlobal
 ReadableStream
 (
 aGlobal
+HoldDropJSObjectsCaller
+:
+:
+Implicit
 )
 {
 }

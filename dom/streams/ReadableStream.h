@@ -208,6 +208,14 @@ nsIGlobalObject
 >
 mGlobal
 ;
+enum
+class
+HoldDropJSObjectsCaller
+{
+Implicit
+Explicit
+}
+;
 explicit
 ReadableStream
 (
@@ -215,6 +223,8 @@ const
 GlobalObject
 &
 aGlobal
+HoldDropJSObjectsCaller
+aHoldDropCaller
 )
 ;
 explicit
@@ -223,6 +233,8 @@ ReadableStream
 nsIGlobalObject
 *
 aGlobal
+HoldDropJSObjectsCaller
+aHoldDropCaller
 )
 ;
 public
@@ -1018,6 +1030,9 @@ JS
 Value
 >
 mStoredError
+;
+HoldDropJSObjectsCaller
+mHoldDropCaller
 ;
 }
 ;
