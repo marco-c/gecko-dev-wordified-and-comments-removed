@@ -100,6 +100,9 @@ webtransport
 captive_portals
 .
 md
+early_hints
+.
+md
 neqo_triage_guideline
 .
 md
