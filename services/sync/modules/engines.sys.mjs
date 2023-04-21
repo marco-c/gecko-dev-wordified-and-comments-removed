@@ -161,7 +161,7 @@ sys
 mjs
 "
 ;
-const
+import
 {
 DEFAULT_DOWNLOAD_BATCH_SIZE
 DEFAULT_GUID_FETCH_BATCH_SIZE
@@ -170,11 +170,7 @@ ENGINE_DOWNLOAD_FAIL
 ENGINE_UPLOAD_FAIL
 VERSION_OUT_OF_DATE
 }
-=
-ChromeUtils
-.
-import
-(
+from
 "
 resource
 :
@@ -186,9 +182,10 @@ sync
 /
 constants
 .
-js
+sys
+.
+mjs
 "
-)
 ;
 import
 {

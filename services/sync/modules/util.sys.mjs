@@ -119,7 +119,7 @@ sys
 mjs
 "
 ;
-const
+import
 {
 DEVICE_TYPE_DESKTOP
 MAXIMUM_BACKOFF_INTERVAL
@@ -128,11 +128,7 @@ SYNC_KEY_DECODED_LENGTH
 SYNC_KEY_ENCODED_LENGTH
 WEAVE_VERSION
 }
-=
-ChromeUtils
-.
-import
-(
+from
 "
 resource
 :
@@ -144,9 +140,10 @@ sync
 /
 constants
 .
-js
+sys
+.
+mjs
 "
-)
 ;
 import
 {

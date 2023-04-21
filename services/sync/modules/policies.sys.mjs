@@ -98,7 +98,7 @@ sys
 mjs
 "
 ;
-const
+import
 {
 CREDENTIALS_CHANGED
 ENGINE_APPLY_FAIL
@@ -127,11 +127,7 @@ SYNC_SUCCEEDED
 kSyncBackoffNotMet
 kSyncMasterPasswordLocked
 }
-=
-ChromeUtils
-.
-import
-(
+from
 "
 resource
 :
@@ -143,9 +139,10 @@ sync
 /
 constants
 .
-js
+sys
+.
+mjs
 "
-)
 ;
 import
 {

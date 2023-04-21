@@ -175,7 +175,7 @@ sys
 mjs
 "
 ;
-const
+import
 {
 CLIENT_NOT_CONFIGURED
 CREDENTIALS_CHANGED
@@ -204,11 +204,7 @@ kSyncNetworkOffline
 kSyncNotConfigured
 kSyncWeaveDisabled
 }
-=
-ChromeUtils
-.
-import
-(
+from
 "
 resource
 :
@@ -220,9 +216,10 @@ sync
 /
 constants
 .
-js
+sys
+.
+mjs
 "
-)
 ;
 import
 {

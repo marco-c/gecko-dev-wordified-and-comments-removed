@@ -91,7 +91,7 @@ sys
 mjs
 "
 ;
-const
+import
 {
 ABORT_SYNC_COMMAND
 LOGIN_FAILED_NETWORK_ERROR
@@ -102,11 +102,7 @@ SYNC_SUCCEEDED
 WEAVE_VERSION
 kSyncNetworkOffline
 }
-=
-ChromeUtils
-.
-import
-(
+from
 "
 resource
 :
@@ -118,9 +114,10 @@ sync
 /
 constants
 .
-js
+sys
+.
+mjs
 "
-)
 ;
 import
 {

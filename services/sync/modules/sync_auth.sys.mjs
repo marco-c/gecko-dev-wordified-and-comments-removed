@@ -183,7 +183,7 @@ sys
 mjs
 "
 ;
-const
+import
 {
 LOGIN_FAILED_LOGIN_REJECTED
 LOGIN_FAILED_NETWORK_ERROR
@@ -192,11 +192,7 @@ LOGIN_SUCCEEDED
 MASTER_PASSWORD_LOCKED
 STATUS_OK
 }
-=
-ChromeUtils
-.
-import
-(
+from
 "
 resource
 :
@@ -208,9 +204,10 @@ sync
 /
 constants
 .
-js
+sys
+.
+mjs
 "
-)
 ;
 const
 lazy

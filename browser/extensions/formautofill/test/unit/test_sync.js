@@ -36,7 +36,7 @@ SCORE_INCREMENT_XLARGE
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -49,7 +49,9 @@ sync
 /
 constants
 .
-js
+sys
+.
+mjs
 "
 )
 ;

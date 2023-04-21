@@ -56,7 +56,7 @@ MPL
 .
 *
 /
-const
+import
 {
 CLIENT_NOT_CONFIGURED
 ENGINE_SUCCEEDED
@@ -69,11 +69,7 @@ SYNC_FAILED
 SYNC_FAILED_PARTIAL
 SYNC_SUCCEEDED
 }
-=
-ChromeUtils
-.
-import
-(
+from
 "
 resource
 :
@@ -85,9 +81,10 @@ sync
 /
 constants
 .
-js
+sys
+.
+mjs
 "
-)
 ;
 import
 {
