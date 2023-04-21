@@ -24734,7 +24734,7 @@ mozilla
 com
 "
 "
-jkt
+freddyb
 mozilla
 .
 com
@@ -24747,6 +24747,7 @@ bug_numbers
 [
 1340021
 1435733
+1722895
 ]
 "
 releaseChannelCollection
@@ -24793,6 +24794,12 @@ CSP
 "
 "
 BrowserDisplay
+"
+"
+HTTPSOnly
+"
+"
+HTTPSFirst
 "
 ]
 "
