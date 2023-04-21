@@ -1824,6 +1824,9 @@ MigrationWizardConstants
 PAGES
 .
 NO_BROWSERS_FOUND
+hasFileMigrators
+:
+true
 }
 }
 ;
