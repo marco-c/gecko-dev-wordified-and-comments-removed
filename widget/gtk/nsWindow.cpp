@@ -20795,6 +20795,16 @@ lg3d
 )
 |
 |
+desktopEnv
+.
+EqualsLiteral
+(
+"
+pekwm
+"
+)
+|
+|
 StringBeginsWith
 (
 desktopEnv
