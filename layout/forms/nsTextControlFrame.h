@@ -678,6 +678,14 @@ aModType
 )
 override
 ;
+void
+GetText
+(
+nsString
+&
+aText
+)
+;
 bool
 TextEquals
 (
@@ -762,7 +770,7 @@ const
 ReflowInput
 &
 bool
-aForTextArea
+aForSingleLineControl
 )
 ;
 Element
@@ -834,7 +842,10 @@ name
 const
 {
 \
-auto
+mozilla
+:
+:
+TextControlElement
 *
 textControlElement
 =
