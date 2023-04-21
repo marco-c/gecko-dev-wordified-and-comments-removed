@@ -989,7 +989,7 @@ ReaderMode
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1002,7 +1002,9 @@ modules
 /
 ReaderMode
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
