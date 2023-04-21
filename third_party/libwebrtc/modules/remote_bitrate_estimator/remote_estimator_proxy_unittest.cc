@@ -26,17 +26,6 @@ api
 /
 transport
 /
-field_trial_based_config
-.
-h
-"
-#
-include
-"
-api
-/
-transport
-/
 network_types
 .
 h
@@ -496,8 +485,6 @@ AsStdFunction
 (
 )
 &
-field_trial_config_
-&
 network_state_estimator_
 )
 {
@@ -585,9 +572,6 @@ CurrentTime
 )
 ;
 }
-FieldTrialBasedConfig
-field_trial_config_
-;
 SimulatedClock
 clock_
 ;
