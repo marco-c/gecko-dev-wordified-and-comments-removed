@@ -144,7 +144,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUUncapturedErrorEvent
