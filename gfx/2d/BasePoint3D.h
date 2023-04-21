@@ -714,10 +714,10 @@ Length
 ;
 if
 (
-mozilla
+std
 :
 :
-IsInfinite
+isinf
 (
 length
 )

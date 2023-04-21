@@ -431,10 +431,10 @@ numberValue
 ;
 if
 (
-mozilla
+std
 :
 :
-IsInfinite
+isinf
 (
 value
 )

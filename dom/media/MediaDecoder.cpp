@@ -5568,13 +5568,10 @@ mFiredMetadataLoaded
 &
 (
 !
-mozilla
+std
 :
 :
-IsInfinite
-<
-double
->
+isinf
 (
 mDuration
 )

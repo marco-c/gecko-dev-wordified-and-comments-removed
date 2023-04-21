@@ -531,10 +531,10 @@ duration
 0
 &
 &
-mozilla
+std
 :
 :
-IsInfinite
+isinf
 (
 duration
 )
