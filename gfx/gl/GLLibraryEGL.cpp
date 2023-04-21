@@ -4304,18 +4304,12 @@ EGL_DEFAULT_DISPLAY
 #
 ifdef
 MOZ_WAYLAND
-GdkDisplay
-*
-gdkDisplay
-=
-gdk_display_get_default
-(
-)
-;
 if
 (
 !
-gdkDisplay
+gdk_display_get_default
+(
+)
 )
 {
 ret
@@ -4352,7 +4346,6 @@ widget
 :
 GdkIsWaylandDisplay
 (
-gdkDisplay
 )
 )
 {
@@ -4363,7 +4356,6 @@ widget
 :
 WaylandDisplayGetWLDisplay
 (
-gdkDisplay
 )
 ;
 if
