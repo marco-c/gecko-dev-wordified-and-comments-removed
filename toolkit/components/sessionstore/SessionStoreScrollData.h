@@ -86,10 +86,10 @@ SessionStoreZoomData
 using
 SessionStoreZoom
 =
-std
+mozilla
 :
 :
-tuple
+Tuple
 <
 float
 uint32_t
@@ -104,10 +104,10 @@ mozilla
 :
 Maybe
 <
-std
+mozilla
 :
 :
-tuple
+Tuple
 <
 float
 uint32_t

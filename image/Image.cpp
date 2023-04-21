@@ -114,6 +114,15 @@ include
 "
 mozilla
 /
+Tuple
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 SharedSurfacesChild

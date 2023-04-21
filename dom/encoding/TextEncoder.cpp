@@ -210,10 +210,7 @@ ReportOOM
 return
 ;
 }
-std
-:
-:
-tie
+Tie
 (
 read
 written

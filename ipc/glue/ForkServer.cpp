@@ -519,10 +519,7 @@ nsCString
 &
 var
 =
-std
-:
-:
-get
+Get
 <
 0
 >
@@ -534,10 +531,7 @@ nsCString
 &
 val
 =
-std
-:
-:
-get
+Get
 <
 1
 >
@@ -621,10 +615,7 @@ aFdsRemap
 int
 fd
 =
-std
-:
-:
-get
+Get
 <
 0
 >
@@ -651,10 +642,7 @@ int
 fdmap
 (
 fd
-std
-:
-:
-get
+Get
 <
 1
 >

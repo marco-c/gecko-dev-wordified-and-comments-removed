@@ -773,10 +773,7 @@ ref
 (
 )
 (
-std
-:
-:
-tuple
+Tuple
 <
 mozilla
 :

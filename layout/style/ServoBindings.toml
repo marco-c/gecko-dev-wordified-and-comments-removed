@@ -2348,10 +2348,10 @@ mozilla
 SupportsWeakPtr
 "
 "
-std
+mozilla
 :
 :
-tuple
+Tuple
 "
 "
 SupportsWeakPtr

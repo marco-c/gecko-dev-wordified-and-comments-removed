@@ -1040,10 +1040,10 @@ mExtra
 auto
 key
 =
-std
+mozilla
 :
 :
-get
+Get
 <
 0
 >
@@ -1054,10 +1054,10 @@ pair
 auto
 val
 =
-std
+mozilla
 :
 :
-get
+Get
 <
 1
 >

@@ -766,10 +766,7 @@ read
 size_t
 written
 ;
-std
-:
-:
-tie
+Tie
 (
 read
 written
