@@ -177,7 +177,9 @@ mjs
 "
 Utils
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS

@@ -109,7 +109,7 @@ Utils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -122,7 +122,9 @@ settings
 /
 Utils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
