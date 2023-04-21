@@ -213,6 +213,3 @@ replace_malloc
 mozbuild
 "
 )
-REQUIRES_UNIFIED_BUILD
-=
-True
