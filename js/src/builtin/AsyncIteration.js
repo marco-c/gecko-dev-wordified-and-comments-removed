@@ -1553,9 +1553,9 @@ accumulator
 ;
 if
 (
-arguments
-.
-length
+ArgumentsLength
+(
+)
 =
 =
 =
@@ -1618,10 +1618,10 @@ else
 {
 accumulator
 =
-arguments
-[
+GetArgument
+(
 1
-]
+)
 ;
 }
 for

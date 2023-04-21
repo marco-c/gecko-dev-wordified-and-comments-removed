@@ -460,6 +460,11 @@ identifier
 globals
 :
 {
+ArgumentsLength
+:
+"
+readonly
+"
 allowContentIter
 :
 "
@@ -491,6 +496,11 @@ DefineDataProperty
 readonly
 "
 forceInterpreter
+:
+"
+readonly
+"
+GetArgument
 :
 "
 readonly
