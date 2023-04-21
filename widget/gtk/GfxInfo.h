@@ -313,6 +313,12 @@ GetData
 )
 override
 ;
+static
+bool
+FireGLXTestProcess
+(
+)
+;
 #
 ifdef
 DEBUG
@@ -535,6 +541,14 @@ Maybe
 bool
 >
 mIsVAAPISupported
+;
+static
+int
+sGLXTestPipe
+;
+static
+pid_t
+sGLXTestPID
 ;
 #
 ifdef
