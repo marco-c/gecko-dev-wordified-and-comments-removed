@@ -2480,7 +2480,10 @@ false
 "
 )
 ;
+DebugOnly
+<
 int32_t
+>
 j
 =
 GetStartColumnIndex
