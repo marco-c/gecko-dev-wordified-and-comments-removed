@@ -638,6 +638,9 @@ scope
 "
 support
 /
+page_using_service_worker
+.
+html
 "
 }
 )
