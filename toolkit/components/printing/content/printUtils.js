@@ -1242,6 +1242,7 @@ _displayPrintingError
 (
 nsresult
 isPrinting
+browser
 )
 {
 let
@@ -1339,9 +1340,16 @@ Services
 .
 prompt
 .
-alert
+asyncAlert
 (
-window
+browser
+.
+browsingContext
+Services
+.
+prompt
+.
+MODAL_TYPE_TAB
 title
 msg
 )

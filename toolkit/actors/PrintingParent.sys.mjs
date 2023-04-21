@@ -131,6 +131,7 @@ message
 data
 .
 isPrinting
+browser
 )
 ;
 }
