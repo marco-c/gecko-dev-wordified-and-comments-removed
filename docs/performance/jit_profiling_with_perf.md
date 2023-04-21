@@ -124,7 +124,7 @@ perf
 JIT
 profiling
 :
-PERF_SPEW_OUTPUT
+PERF_SPEW_DIR
 :
 Location
 of
