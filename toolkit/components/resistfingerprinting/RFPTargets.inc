@@ -5,6 +5,11 @@ TouchEvents
 )
 ITEM_VALUE
 (
+ScreenOrientation
+0x0005
+)
+ITEM_VALUE
+(
 IgnoreTargetAndReturnCachedValue
 0xFFFD
 )
