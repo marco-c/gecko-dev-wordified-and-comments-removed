@@ -144,7 +144,6 @@ TableInit
 TableSet
 TableSize
 RefFunc
-RefTest
 PostBarrier
 PostBarrierPrecise
 PostBarrierPreciseWithOffset
@@ -579,11 +578,6 @@ extern
 const
 SymbolicAddressSignature
 SASigArrayCopy
-;
-extern
-const
-SymbolicAddressSignature
-SASigRefTest
 ;
 #
 define
