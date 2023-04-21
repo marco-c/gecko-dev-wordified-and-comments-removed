@@ -464,7 +464,7 @@ DownloadUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -477,7 +477,9 @@ modules
 /
 DownloadUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
