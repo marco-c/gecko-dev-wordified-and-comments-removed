@@ -161,9 +161,6 @@ aboutwelcome
 value
 :
 {
-skipFocus
-:
-false
 enabled
 :
 false
@@ -212,12 +209,9 @@ aboutwelcome
 value
 :
 {
-skipFocus
-:
-false
 enabled
 :
-true
+false
 }
 }
 ]
@@ -272,15 +266,6 @@ boolean
 "
 }
 enabled
-:
-{
-type
-:
-"
-boolean
-"
-}
-skipFocus
 :
 {
 type
@@ -480,7 +465,7 @@ feature
 getVariable
 (
 "
-skipFocus
+enabled
 "
 )
 "
@@ -512,7 +497,7 @@ feature
 getVariable
 (
 "
-skipFocus
+enabled
 "
 )
 "
@@ -901,9 +886,6 @@ aboutwelcome
 value
 :
 {
-skipFocus
-:
-false
 enabled
 :
 true
