@@ -97,7 +97,9 @@ modules
 /
 CustomElementsListener
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
@@ -110,7 +112,9 @@ modules
 /
 MainProcessSingleton
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
