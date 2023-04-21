@@ -498,6 +498,7 @@ s
 "
 %
 mathvariant
+                           
 "
 Copyright
 (
@@ -611,6 +612,7 @@ reftest
 =
 open
 (
+            
 "
 .
 .
@@ -639,6 +641,7 @@ reftestReference
 =
 open
 (
+            
 "
 .
 .
@@ -672,6 +675,7 @@ reftest
 =
 open
 (
+            
 "
 .
 .
@@ -715,6 +719,7 @@ reftestReference
 =
 open
 (
+            
 "
 .
 .
@@ -832,6 +837,7 @@ reftestReference
 .
 write
 (
+            
 source
 %
 (
@@ -876,6 +882,7 @@ reftestReference
 .
 write
 (
+            
 source
 %
 (
@@ -1726,6 +1733,7 @@ mtext
 '
 %
 (
+                
 mathvariant
 baseChar
 )
@@ -1792,6 +1800,7 @@ span
 >
 '
 %
+                          
 (
 tokenTag
 transformedChar
@@ -1802,6 +1811,7 @@ reftestReference
 .
 write
 (
+                
 '
 <
 span
@@ -1899,6 +1909,7 @@ span
 >
 '
 %
+                          
 (
 mathvariant
 baseChar
@@ -1910,6 +1921,7 @@ reftestReference
 .
 write
 (
+                
 '
 <
 span

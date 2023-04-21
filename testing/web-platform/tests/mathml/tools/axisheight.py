@@ -191,7 +191,7 @@ verticalArrowCodePoint
 verticalComponents
 =
 \
-  
+    
 (
 (
 "
@@ -206,6 +206,7 @@ v2
 +
 v1
 )
+     
 (
 "
 ext
@@ -222,7 +223,6 @@ mathfont
 em
 )
 )
-;
 mathfont
 .
 save

@@ -124,7 +124,6 @@ pen
 closePath
 (
 )
-;
 glyph
 =
 font
@@ -178,7 +177,6 @@ pen
 closePath
 (
 )
-;
 glyph
 =
 font
@@ -234,7 +232,6 @@ pen
 closePath
 (
 )
-;
 font
 .
 os2_typoascent_add

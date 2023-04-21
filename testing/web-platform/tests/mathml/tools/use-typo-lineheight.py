@@ -139,7 +139,6 @@ pen
 closePath
 (
 )
-;
 font
 .
 os2_typoascent_add
@@ -168,7 +167,7 @@ os2_typolinegap
 typoLineHeight
 -
 \
-                       
+    
 (
 font
 .
@@ -266,6 +265,7 @@ woff
 "
 %
 (
+    
 winHeight
 typoLineHeight
 )

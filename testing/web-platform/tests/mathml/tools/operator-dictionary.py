@@ -12,6 +12,7 @@ UnicodeXMLURL
 InlineAxisOperatorsURL
 import
 json
+import
 re
 from
 utils
@@ -270,6 +271,7 @@ re
 .
 match
 (
+r
 "
 ^
 U
