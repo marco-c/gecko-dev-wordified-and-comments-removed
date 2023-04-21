@@ -877,6 +877,14 @@ linux
 -
 signing
 "
+if
+is_shippable
+else
+"
+linux
+-
+depsigning
+"
             
 "
 worker
