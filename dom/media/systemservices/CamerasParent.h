@@ -603,13 +603,6 @@ int
 aCaptureId
 )
 ;
-bool
-SetupEngine
-(
-CaptureEngine
-aCapEngine
-)
-;
 void
 OnDeviceChange
 (
