@@ -270,10 +270,10 @@ processed_char_count
 *
 valid
 =
-std
+mozilla
 :
 :
-isfinite
+IsFinite
 (
 result
 )

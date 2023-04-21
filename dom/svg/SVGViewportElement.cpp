@@ -704,10 +704,7 @@ mViewportHeight
 if
 (
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 viewportWidth
 )
@@ -722,10 +719,7 @@ viewportWidth
 |
 |
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 viewportHeight
 )
@@ -778,10 +772,7 @@ viewportHeight
 if
 (
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 viewBox
 .
@@ -800,10 +791,7 @@ width
 |
 |
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 viewBox
 .

@@ -587,10 +587,7 @@ Value
 if
 (
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 f
 )

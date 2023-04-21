@@ -605,10 +605,7 @@ userUnitsPerCurrentUnit
 |
 |
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 userUnitsPerCurrentUnit
 )
@@ -627,10 +624,7 @@ userUnitsPerNewUnit
 |
 |
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 userUnitsPerNewUnit
 )
@@ -651,10 +645,7 @@ userUnitsPerNewUnit
 ;
 if
 (
-std
-:
-:
-isfinite
+IsFinite
 (
 value
 )

@@ -238,10 +238,7 @@ rv
 if
 (
 !
-std
-:
-:
-isnan
+IsNaN
 (
 value
 )

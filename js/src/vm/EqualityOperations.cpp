@@ -1608,10 +1608,10 @@ isDouble
 )
 &
 &
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 v
 .

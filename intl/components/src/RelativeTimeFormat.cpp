@@ -620,10 +620,7 @@ bool
 isNegative
 =
 !
-std
-:
-:
-isnan
+IsNaN
 (
 aNumber
 )

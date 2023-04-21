@@ -1563,10 +1563,10 @@ toNumber
 ;
 if
 (
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 number
 )
@@ -1752,10 +1752,10 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 }
 if
 (
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 ms
 )

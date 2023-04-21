@@ -2814,10 +2814,10 @@ str
 ;
 if
 (
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 val
 )
@@ -3066,10 +3066,10 @@ str
 ;
 if
 (
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 val
 )

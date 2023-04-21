@@ -145,10 +145,10 @@ const
 {
 return
 !
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 t
 )
@@ -175,10 +175,10 @@ MaxTimeMagnitude
 if
 (
 !
-std
+mozilla
 :
 :
-isfinite
+IsFinite
 (
 time
 )

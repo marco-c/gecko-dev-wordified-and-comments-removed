@@ -727,10 +727,10 @@ value
 MOZ_ASSERT
 (
 !
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 mValue
 .

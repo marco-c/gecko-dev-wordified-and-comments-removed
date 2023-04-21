@@ -1534,10 +1534,10 @@ toNumber
 if
 (
 !
-std
+mozilla
 :
 :
-isfinite
+IsFinite
 (
 t
 )

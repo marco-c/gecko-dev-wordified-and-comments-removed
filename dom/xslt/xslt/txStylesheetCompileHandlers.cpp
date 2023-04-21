@@ -1148,10 +1148,10 @@ mValue
 ;
 if
 (
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 aNumber
 )

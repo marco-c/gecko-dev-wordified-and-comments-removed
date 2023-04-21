@@ -2028,10 +2028,10 @@ mPrio
 ;
 if
 (
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 priority
 )
@@ -2049,10 +2049,10 @@ getDefaultPriority
 NS_ASSERTION
 (
 !
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 priority
 )

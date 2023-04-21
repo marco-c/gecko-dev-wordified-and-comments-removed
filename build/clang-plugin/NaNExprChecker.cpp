@@ -384,10 +384,10 @@ getBeginLoc
 "
 consider
 using
-std
+mozilla
 :
 :
-isnan
+IsNaN
 instead
 "
 DiagnosticIDs

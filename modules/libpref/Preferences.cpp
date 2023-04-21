@@ -2185,10 +2185,10 @@ stopped
 ;
 if
 (
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 result
 )

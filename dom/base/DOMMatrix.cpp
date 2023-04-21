@@ -3622,10 +3622,10 @@ false
 if
 (
 !
-std
+mozilla
 :
 :
-isfinite
+IsFinite
 (
 d
 )

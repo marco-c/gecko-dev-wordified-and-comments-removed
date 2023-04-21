@@ -1564,10 +1564,7 @@ pixelsPerUnit
 if
 (
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 valueInSpecifiedUnits
 )
@@ -1939,10 +1936,7 @@ pixelsPerUnit
 if
 (
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 valueInSpecifiedUnits
 )
@@ -2033,10 +2027,7 @@ mSpecifiedUnitType
 ;
 if
 (
-std
-:
-:
-isfinite
+IsFinite
 (
 valueInSpecifiedUnits
 )

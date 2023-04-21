@@ -17500,10 +17500,10 @@ false
 }
 if
 (
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 maxDouble
 )
@@ -48523,10 +48523,10 @@ false
 if
 (
 !
-std
+mozilla
 :
 :
-isfinite
+IsFinite
 (
 y
 )

@@ -5115,10 +5115,7 @@ ValueOf
 if
 (
 !
-std
-:
-:
-isnan
+IsNaN
 (
 aCurVal
 )
@@ -5149,10 +5146,7 @@ aCurVal
 if
 (
 !
-std
-:
-:
-isnan
+IsNaN
 (
 aMinVal
 )
@@ -5183,10 +5177,7 @@ aMinVal
 if
 (
 !
-std
-:
-:
-isnan
+IsNaN
 (
 aMaxVal
 )

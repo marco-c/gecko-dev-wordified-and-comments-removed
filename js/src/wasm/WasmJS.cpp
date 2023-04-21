@@ -3593,10 +3593,10 @@ x
 if
 (
 !
-std
+mozilla
 :
 :
-isfinite
+IsFinite
 (
 x
 )

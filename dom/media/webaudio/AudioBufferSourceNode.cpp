@@ -2118,10 +2118,10 @@ playbackRate
 0
 |
 |
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 playbackRate
 )

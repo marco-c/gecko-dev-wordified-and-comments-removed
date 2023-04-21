@@ -108,10 +108,10 @@ value
 &
 &
 !
-std
+mozilla
 :
 :
-isnan
+IsNaN
 (
 value
 )

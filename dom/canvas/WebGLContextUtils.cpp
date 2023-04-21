@@ -1845,10 +1845,7 @@ actual
 {
 if
 (
-std
-:
-:
-isnan
+IsNaN
 (
 cached
 )

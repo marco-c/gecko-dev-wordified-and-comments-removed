@@ -1401,10 +1401,7 @@ isSome
 {
 if
 (
-std
-:
-:
-isnan
+IsNaN
 (
 *
 number
@@ -1424,10 +1421,7 @@ Nan
 if
 (
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 *
 number

@@ -1020,10 +1020,7 @@ return
 }
 if
 (
-std
-:
-:
-isnan
+IsNaN
 (
 aAppendWindowEnd
 )
@@ -1931,10 +1928,7 @@ return
 }
 if
 (
-std
-:
-:
-isnan
+IsNaN
 (
 mMediaSource
 -
@@ -1998,10 +1992,7 @@ aEnd
 aStart
 |
 |
-std
-:
-:
-isnan
+IsNaN
 (
 aEnd
 )

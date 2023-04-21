@@ -1063,10 +1063,7 @@ pathScale
 |
 |
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 pathScale
 )
@@ -4004,10 +4001,7 @@ value
 if
 (
 !
-std
-:
-:
-isfinite
+IsFinite
 (
 floatValue
 )
