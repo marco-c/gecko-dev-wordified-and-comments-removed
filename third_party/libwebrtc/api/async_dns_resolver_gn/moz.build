@@ -593,17 +593,6 @@ __STDC_FORMAT_MACROS
 ]
 =
 True
-OS_LIBS
-+
-=
-[
-"
-dl
-"
-"
-rt
-"
-]
 if
 CONFIG
 [
@@ -1453,6 +1442,6 @@ True
 Library
 (
 "
-video_stream_encoder_interface_gn
+async_dns_resolver_gn
 "
 )
