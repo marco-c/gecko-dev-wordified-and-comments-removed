@@ -13186,7 +13186,7 @@ IMEStateManager
 OnChangeFocus
 (
 presContext
-nullptr
+elementToFocus
 GetFocusMoveActionCause
 (
 aFlags
