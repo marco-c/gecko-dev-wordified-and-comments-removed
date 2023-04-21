@@ -3385,6 +3385,13 @@ in_flags
 )
 )
 ;
+socketInfo
+-
+>
+MaybeDispatchSelectClientAuthCertificate
+(
+)
+;
 int16_t
 result
 =
