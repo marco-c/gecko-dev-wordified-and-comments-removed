@@ -2578,6 +2578,13 @@ e
 }
 }
 {
+errorMessage
+:
+"
+Navigation
+timed
+out
+"
 timeout
 :
 driver
