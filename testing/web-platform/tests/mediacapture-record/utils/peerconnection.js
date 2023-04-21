@@ -11,12 +11,6 @@ pc1
 .
 setLocalDescription
 (
-await
-pc1
-.
-createOffer
-(
-)
 )
 ;
 await
@@ -34,12 +28,6 @@ pc2
 .
 setLocalDescription
 (
-await
-pc2
-.
-createAnswer
-(
-)
 )
 ;
 await
