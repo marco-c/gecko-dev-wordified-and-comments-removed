@@ -26,7 +26,9 @@ EXTRA_JS_MODULES
 "
 RemoteWebNavigation
 .
-jsm
+sys
+.
+mjs
 "
 ]
 BROWSER_CHROME_MANIFESTS

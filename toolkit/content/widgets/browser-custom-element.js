@@ -153,15 +153,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-lazy
-{
 RemoteWebNavigation
 :
 "
@@ -175,7 +166,9 @@ modules
 /
 RemoteWebNavigation
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
