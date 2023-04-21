@@ -160,9 +160,6 @@ struct
 MediaStreamConstraints
 ;
 class
-WakeLock
-;
-class
 ArrayBufferOrArrayBufferViewOrBlobOrFormDataOrUSVStringOrURLSearchParams
 ;
 class

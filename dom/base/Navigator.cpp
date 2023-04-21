@@ -331,17 +331,6 @@ mozilla
 /
 dom
 /
-WakeLock
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 power
 /
 PowerManagerService
