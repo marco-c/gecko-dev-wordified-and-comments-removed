@@ -166,7 +166,6 @@ AnimationFunction
 )
 override
 ;
-virtual
 bool
 GetTargetAttributeName
 (

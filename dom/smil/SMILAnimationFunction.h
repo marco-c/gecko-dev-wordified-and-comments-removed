@@ -526,6 +526,21 @@ UnsetKeySplines
 )
 ;
 virtual
+bool
+IsDisallowedAttribute
+(
+const
+nsAtom
+*
+aAttribute
+)
+const
+{
+return
+false
+;
+}
+virtual
 nsresult
 InterpolateResult
 (
@@ -605,7 +620,6 @@ uint32_t
 aIntervalIndex
 )
 ;
-virtual
 bool
 HasAttr
 (
@@ -615,7 +629,6 @@ aAttName
 )
 const
 ;
-virtual
 const
 nsAttrValue
 *
@@ -627,7 +640,6 @@ aAttName
 )
 const
 ;
-virtual
 bool
 GetAttr
 (
