@@ -1781,6 +1781,14 @@ AnchorCount
 (
 )
 ;
+Accessible
+*
+AnchorAt
+(
+uint32_t
+aAnchorIndex
+)
+;
 virtual
 bool
 IsRemote

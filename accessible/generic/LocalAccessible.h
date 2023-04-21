@@ -1465,15 +1465,6 @@ const
 override
 ;
 virtual
-LocalAccessible
-*
-AnchorAt
-(
-uint32_t
-aAnchorIndex
-)
-;
-virtual
 already_AddRefed
 <
 nsIURI
