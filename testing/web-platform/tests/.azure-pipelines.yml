@@ -1857,7 +1857,7 @@ Windows
 Python
 3
 .
-6
+7
 '
 dependsOn
 :
@@ -1904,7 +1904,7 @@ versionSpec
 '
 3
 .
-6
+7
 '
 addToPath
 :
@@ -2041,7 +2041,7 @@ py310
 -
 job
 :
-wptrunner_unittest_win_py36
+wptrunner_unittest_win_py37
 displayName
 :
 '
@@ -2056,7 +2056,7 @@ Windows
 Python
 3
 .
-6
+7
 '
 dependsOn
 :
@@ -2098,7 +2098,7 @@ versionSpec
 '
 3
 .
-6
+7
 '
 addToPath
 :
@@ -2137,7 +2137,7 @@ wptrunner
 /
 toxenv
 :
-py36
+py37
 -
 job
 :
@@ -2241,7 +2241,7 @@ py310
 -
 job
 :
-wpt_integration_win_py36
+wpt_integration_win_py37
 displayName
 :
 '
@@ -2256,7 +2256,7 @@ Windows
 Python
 3
 .
-6
+7
 '
 dependsOn
 :
@@ -2302,7 +2302,7 @@ versionSpec
 '
 3
 .
-6
+7
 '
 #
 currently
@@ -2401,7 +2401,7 @@ wpt
 /
 toxenv
 :
-py36
+py37
 -
 job
 :

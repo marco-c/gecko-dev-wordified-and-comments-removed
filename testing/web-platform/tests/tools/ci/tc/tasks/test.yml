@@ -468,13 +468,13 @@ servo
 }
 tox
 -
-python3_6
+python3_7
 :
 env
 :
 TOXENV
 :
-py36
+py37
 PY_COLORS
 :
 "
@@ -485,17 +485,17 @@ install
 -
 python3
 .
-6
+7
 -
 python3
 .
-6
+7
 -
 distutils
 -
 python3
 .
-6
+7
 -
 dev
 tox
@@ -1929,7 +1929,7 @@ unittests
 Python
 3
 .
-6
+7
 )
 :
 description
@@ -1945,7 +1945,7 @@ under
 Python
 3
 .
-6
+7
 excluding
 wptrunner
 use
@@ -1961,7 +1961,7 @@ pr
 -
 tox
 -
-python3_6
+python3_7
 command
 :
 .
@@ -2064,7 +2064,7 @@ tests
 Python
 3
 .
-6
+7
 )
 :
 description
@@ -2080,7 +2080,7 @@ under
 Python
 3
 .
-6
+7
 use
 :
 -
@@ -2094,7 +2094,7 @@ pr
 -
 tox
 -
-python3_6
+python3_7
 command
 :
 .
@@ -2241,7 +2241,7 @@ tests
 Python
 3
 .
-6
+7
 )
 :
 description
@@ -2263,7 +2263,7 @@ under
 Python
 3
 .
-6
+7
 use
 :
 -
@@ -2277,7 +2277,7 @@ pr
 -
 tox
 -
-python3_6
+python3_7
 command
 :
 .
