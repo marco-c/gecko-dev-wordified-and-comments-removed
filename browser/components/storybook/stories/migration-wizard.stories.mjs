@@ -215,6 +215,13 @@ Components
 Migration
 Wizard
 "
+component
+:
+"
+migration
+-
+wizard
+"
 }
 ;
 const

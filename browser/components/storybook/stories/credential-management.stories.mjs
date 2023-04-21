@@ -127,6 +127,13 @@ Management
 /
 Timeline
 "
+component
+:
+"
+login
+-
+timeline
+"
 }
 ;
 window
