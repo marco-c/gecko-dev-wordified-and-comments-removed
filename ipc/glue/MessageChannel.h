@@ -338,15 +338,6 @@ friend
 class
 PortLink
 ;
-#
-ifdef
-FUZZING
-friend
-class
-ProtocolFuzzerHelper
-;
-#
-endif
 typedef
 mozilla
 :
