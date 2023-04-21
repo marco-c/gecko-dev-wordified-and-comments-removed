@@ -309,12 +309,6 @@ restore
 (
 )
 ;
-canvas
-.
-toDataURL
-(
-)
-;
 assert
 pixel
 50
