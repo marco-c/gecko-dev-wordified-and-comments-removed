@@ -51,10 +51,7 @@ ScrollingMetricsPromise
 =
 MozPromise
 <
-std
-:
-:
-tuple
+Tuple
 <
 uint32_t
 uint32_t
@@ -84,10 +81,7 @@ CollectScrollingMetricsInternal
 ;
 }
 static
-std
-:
-:
-tuple
+Tuple
 <
 uint32_t
 uint32_t
@@ -145,10 +139,7 @@ CollectScrollingMetricsInternal
 (
 )
 ;
-std
-:
-:
-tuple
+Tuple
 <
 uint32_t
 uint32_t

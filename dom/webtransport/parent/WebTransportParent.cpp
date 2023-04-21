@@ -208,10 +208,7 @@ function
 <
 void
 (
-std
-:
-:
-tuple
+Tuple
 <
 const
 nsresult

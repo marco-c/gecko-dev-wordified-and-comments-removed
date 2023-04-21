@@ -153,10 +153,7 @@ function
 <
 void
 (
-std
-:
-:
-tuple
+Tuple
 <
 const
 nsresult
@@ -273,10 +270,7 @@ aReason
 using
 ResolveType
 =
-std
-:
-:
-tuple
+Tuple
 <
 const
 nsresult

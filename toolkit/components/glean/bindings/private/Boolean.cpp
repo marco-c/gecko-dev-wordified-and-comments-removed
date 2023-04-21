@@ -170,10 +170,7 @@ Telemetry
 :
 ScalarSet
 (
-std
-:
-:
-get
+Get
 <
 0
 >
@@ -184,10 +181,7 @@ ref
 (
 )
 )
-std
-:
-:
-get
+Get
 <
 1
 >

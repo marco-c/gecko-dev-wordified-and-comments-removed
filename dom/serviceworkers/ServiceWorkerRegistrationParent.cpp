@@ -99,10 +99,7 @@ aRv
 {
 aResolver
 (
-std
-:
-:
-tuple
+Tuple
 <
 const
 bool

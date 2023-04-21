@@ -30151,10 +30151,7 @@ rb
 .
 PutObjects
 (
-std
-:
-:
-make_tuple
+MakeTuple
 (
 '
 0

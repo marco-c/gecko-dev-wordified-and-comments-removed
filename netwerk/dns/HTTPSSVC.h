@@ -472,10 +472,7 @@ const
 ;
 nsTArray
 <
-std
-:
-:
-tuple
+Tuple
 <
 nsCString
 SupportedAlpnRank
@@ -538,10 +535,7 @@ aRecord
 }
 Maybe
 <
-std
-:
-:
-tuple
+Tuple
 <
 nsCString
 SupportedAlpnRank
@@ -602,10 +596,7 @@ SVCB
 data
 Maybe
 <
-std
-:
-:
-tuple
+Tuple
 <
 nsCString
 SupportedAlpnRank
@@ -639,10 +630,7 @@ mPort
 ;
 Maybe
 <
-std
-:
-:
-tuple
+Tuple
 <
 nsCString
 SupportedAlpnRank
