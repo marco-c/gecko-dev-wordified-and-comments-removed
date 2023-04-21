@@ -1223,20 +1223,11 @@ gn_target
     
 gen_path
 =
-(
-Path
-(
 path
-)
 /
 "
 gen
 "
-)
-.
-resolve
-(
-)
     
 gn_out
 =
@@ -4665,6 +4656,17 @@ as
 tempdir
 :
         
+resolved_tempdir
+=
+Path
+(
+tempdir
+)
+.
+resolve
+(
+)
+        
 gen_args
 =
 [
@@ -4672,7 +4674,10 @@ gn_binary
 "
 gen
 "
-tempdir
+str
+(
+resolved_tempdir
+)
 gn_args
 "
 -
@@ -4724,17 +4729,13 @@ STDOUT
         
 gn_config_file
 =
-mozpath
-.
-join
-(
-tempdir
+resolved_tempdir
+/
 "
 project
 .
 json
 "
-)
         
 with
 open
@@ -4762,7 +4763,7 @@ gn_out
 filter_gn_config
 (
                 
-tempdir
+resolved_tempdir
 gn_out
 sandbox_variables
 input_variables
