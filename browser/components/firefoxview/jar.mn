@@ -69,6 +69,15 @@ content
 browser
 /
 firefoxview
+-
+next
+.
+html
+content
+/
+browser
+/
+firefoxview
 .
 mjs
 content
