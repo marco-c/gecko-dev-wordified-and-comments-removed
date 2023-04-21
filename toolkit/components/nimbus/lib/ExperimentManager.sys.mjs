@@ -2222,6 +2222,7 @@ userFacingName
 userFacingDescription
 featureIds
 isRollout
+localizations
 }
 branch
 source
@@ -2288,6 +2289,7 @@ toJSON
 )
 featureIds
 prefs
+localizations
 }
 ;
 if

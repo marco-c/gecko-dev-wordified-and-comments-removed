@@ -131,7 +131,7 @@ defineESModuleGetters
 (
 lazy
 {
-ExperimentManager
+ExperimentAPI
 :
 "
 resource
@@ -140,9 +140,7 @@ resource
 /
 nimbus
 /
-lib
-/
-ExperimentManager
+ExperimentAPI
 .
 sys
 .
@@ -1225,7 +1223,9 @@ manager
 =
 lazy
 .
-ExperimentManager
+ExperimentAPI
+.
+_manager
 source
 }
 =
@@ -1467,7 +1467,9 @@ manager
 =
 lazy
 .
-ExperimentManager
+ExperimentAPI
+.
+_manager
 isRollout
 =
 false
@@ -1658,7 +1660,9 @@ manager
 =
 lazy
 .
-ExperimentManager
+ExperimentAPI
+.
+_manager
 }
 =
 {
@@ -1927,7 +1931,9 @@ manager
 =
 lazy
 .
-ExperimentManager
+ExperimentAPI
+.
+_manager
 }
 =
 {
