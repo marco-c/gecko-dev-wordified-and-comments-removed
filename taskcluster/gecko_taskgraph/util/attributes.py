@@ -69,10 +69,6 @@ comm
 -
 esr102
 "
-    
-"
-oak
-"
 }
 RELEASE_PROMOTION_PROJECTS
 =
@@ -106,6 +102,10 @@ set
 (
     
 {
+        
+"
+oak
+"
     
 }
 )
