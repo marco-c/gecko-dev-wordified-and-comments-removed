@@ -845,6 +845,10 @@ context
 (
 aContext
 )
+mUserPtr
+(
+aUserPtr
+)
 mHasInput
 (
 aInputStreamParams
@@ -877,10 +881,6 @@ aDataCallback
 mStateCallback
 (
 aStateCallback
-)
-mUserPtr
-(
-aUserPtr
 )
 mInputDeviceID
 (
