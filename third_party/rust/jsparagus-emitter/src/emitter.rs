@@ -305,6 +305,9 @@ MissingPrivateOnSet
 AssignToPrivateMethod
 =
 7
+DecoratorInvalidReturnType
+=
+8
 }
 #
 [
@@ -6444,6 +6447,9 @@ recreate_lexical_env
 &
 mut
 self
+lexical_scope_index
+:
+GCThingIndex
 )
 {
 self
@@ -6456,6 +6462,13 @@ Opcode
 RecreateLexicalEnv
 )
 ;
+self
+.
+write_g_c_thing_index
+(
+lexical_scope_index
+)
+;
 }
 pub
 fn
@@ -6464,6 +6477,9 @@ freshen_lexical_env
 &
 mut
 self
+lexical_scope_index
+:
+GCThingIndex
 )
 {
 self
@@ -6474,6 +6490,13 @@ Opcode
 :
 :
 FreshenLexicalEnv
+)
+;
+self
+.
+write_g_c_thing_index
+(
+lexical_scope_index
 )
 ;
 }

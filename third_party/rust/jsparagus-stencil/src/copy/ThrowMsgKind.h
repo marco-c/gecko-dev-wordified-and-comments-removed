@@ -39,6 +39,7 @@ PrivateBrandDoubleInit
 MissingPrivateOnGet
 MissingPrivateOnSet
 AssignToPrivateMethod
+DecoratorInvalidReturnType
 }
 ;
 JSErrNum
