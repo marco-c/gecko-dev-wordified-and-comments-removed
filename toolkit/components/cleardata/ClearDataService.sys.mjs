@@ -8045,7 +8045,7 @@ lazy
 .
 IdentityCredentialStorageService
 .
-deleteFromRange
+deleteFromTimeRange
 (
 aFrom
 aTo
