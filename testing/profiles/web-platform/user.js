@@ -503,3 +503,13 @@ always_partition_third_party_non_cookie_storage
 false
 )
 ;
+user_pref
+(
+"
+ui
+.
+prefersReducedMotion
+"
+0
+)
+;
