@@ -180,6 +180,13 @@ n
 "
 leak
 :
+xdg_mime_init
+\
+n
+"
+"
+leak
+:
 PR_Sleep
 \
 n
