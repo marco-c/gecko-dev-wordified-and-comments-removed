@@ -1,4 +1,3 @@
-async
 function
 translateElements
 (
@@ -6,13 +5,6 @@ container
 items
 )
 {
-await
-document
-.
-l10n
-.
-ready
-;
 items
 .
 forEach
@@ -100,17 +92,7 @@ id
 }
 )
 ;
-document
-.
-l10n
-.
-translateFragment
-(
-container
-)
-;
 }
-async
 function
 renderInfo
 (
@@ -234,7 +216,6 @@ remove
 )
 ;
 }
-await
 translateElements
 (
 container
@@ -885,7 +866,6 @@ remove
 )
 ;
 }
-await
 translateElements
 (
 container
@@ -1034,7 +1014,6 @@ recordImpression
 ;
 }
 }
-async
 function
 handlePromoOnPreload
 (
@@ -1222,7 +1201,6 @@ e
 {
 }
 }
-await
 renderInfo
 (
 config
@@ -1231,7 +1209,6 @@ config
 let
 hasRendered
 =
-await
 renderPromo
 (
 config
@@ -1250,7 +1227,6 @@ recordOnceVisible
 message
 )
 ;
-await
 handlePromoOnPreload
 (
 message
