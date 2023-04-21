@@ -10,7 +10,7 @@ JsonSchemaValidator
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -27,7 +27,9 @@ utils
 /
 JsonSchemaValidator
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

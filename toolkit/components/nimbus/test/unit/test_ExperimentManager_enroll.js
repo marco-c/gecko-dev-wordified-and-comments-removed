@@ -34,7 +34,7 @@ Sampling
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -51,7 +51,9 @@ utils
 /
 Sampling
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -34,7 +34,7 @@ FilterExpressions
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -51,7 +51,9 @@ utils
 /
 FilterExpressions
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
