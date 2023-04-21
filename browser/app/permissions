@@ -118,7 +118,9 @@ workaround
 in
 UITourChild
 .
-jsm
+sys
+.
+mjs
 origin
 uitour
 1

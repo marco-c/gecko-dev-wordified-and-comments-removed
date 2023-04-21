@@ -504,7 +504,9 @@ uitour
 /
 UITourChild
 .
-jsm
+sys
+.
+mjs
 -
 browser
 /

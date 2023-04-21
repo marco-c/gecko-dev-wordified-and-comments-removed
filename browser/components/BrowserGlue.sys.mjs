@@ -4985,7 +4985,7 @@ UITour
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -4997,13 +4997,15 @@ modules
 /
 UITourParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -5015,7 +5017,9 @@ modules
 /
 UITourChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
