@@ -28790,9 +28790,6 @@ dependencies
 "
 mozbuild
 "
-"
-nsstring
-"
 ]
 [
 [
@@ -36177,9 +36174,6 @@ parking_lot
 "
 "
 serde
-"
-"
-static_prefs
 "
 "
 wgpu
