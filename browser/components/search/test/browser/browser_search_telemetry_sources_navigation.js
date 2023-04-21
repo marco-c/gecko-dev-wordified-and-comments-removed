@@ -103,7 +103,7 @@ https
 /
 example
 .
-com
+org
 \
 /
 browser
@@ -214,7 +214,7 @@ https
 /
 example
 .
-com
+org
 /
 browser
 /
