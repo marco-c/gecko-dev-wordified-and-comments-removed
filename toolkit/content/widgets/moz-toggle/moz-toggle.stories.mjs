@@ -224,6 +224,7 @@ description
 ariaLabel
 l10nId
 hasSupportLink
+accessKey
 }
 )
 =
@@ -308,6 +309,14 @@ label
 description
 label
 "
+accesskey
+=
+{
+ifDefined
+(
+accessKey
+)
+}
 >
 {
 hasSupportLink
@@ -457,6 +466,11 @@ label
 hasSupportLink
 :
 false
+accessKey
+:
+"
+h
+"
 }
 ;
 export
