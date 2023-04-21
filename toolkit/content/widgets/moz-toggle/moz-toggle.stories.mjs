@@ -126,12 +126,7 @@ default
 title
 :
 "
-Design
-System
-/
-Experiments
-/
-MozToggle
+Toggle
 "
 component
 :

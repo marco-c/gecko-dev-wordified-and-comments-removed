@@ -105,10 +105,8 @@ default
 title
 :
 "
-Design
-System
-/
-Components
+UI
+Widgets
 /
 Panel
 Menu

@@ -175,12 +175,8 @@ default
 title
 :
 "
-Design
-System
-/
-Experiments
-/
-MozSupportLink
+Support
+Link
 "
 component
 :
