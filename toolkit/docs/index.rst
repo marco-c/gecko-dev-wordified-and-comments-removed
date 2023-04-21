@@ -199,3 +199,8 @@ anti
 tracking
 /
 index
+components
+/
+translations
+/
+index
