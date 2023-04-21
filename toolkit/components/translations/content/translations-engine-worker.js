@@ -1764,6 +1764,9 @@ bergamot
 loadBergamot
 (
 {
+INITIAL_MEMORY
+:
+459_276_288
 preRun
 :
 [
