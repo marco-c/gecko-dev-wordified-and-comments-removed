@@ -1280,7 +1280,7 @@ FormAutofillParent
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -1291,9 +1291,7 @@ autofill
 /
 FormAutofillParent
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -1487,7 +1485,7 @@ FormAutofillParent
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -1498,9 +1496,7 @@ autofill
 /
 FormAutofillParent
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
