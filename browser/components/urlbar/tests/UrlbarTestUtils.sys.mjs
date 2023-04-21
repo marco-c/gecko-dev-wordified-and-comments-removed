@@ -894,7 +894,7 @@ value
 waitForFocus
 fireInputEvent
 =
-false
+true
 selectionStart
 =
 -

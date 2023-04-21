@@ -2529,6 +2529,9 @@ isPrivate
 state
 queryContext
 details
+=
+{
+}
 )
 {
 for

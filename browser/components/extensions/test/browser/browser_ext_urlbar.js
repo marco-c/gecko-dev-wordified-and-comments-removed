@@ -2944,6 +2944,12 @@ onEngagement
 (
 )
 {
+gURLBar
+.
+blur
+(
+)
+;
 Services
 .
 prefs
