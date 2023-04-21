@@ -1589,7 +1589,7 @@ funLength
 0
 ;
 uint16_t
-padding
+propertyCountEstimate
 =
 0
 ;
@@ -1949,6 +1949,8 @@ bool
 isFunction
 uint16_t
 funLength
+uint16_t
+propertyCountEstimate
 mozilla
 :
 :
