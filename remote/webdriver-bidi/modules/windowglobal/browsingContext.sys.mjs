@@ -58,7 +58,7 @@ MPL
 /
 import
 {
-Module
+WindowGlobalBiDiModule
 }
 from
 "
@@ -70,11 +70,13 @@ remote
 /
 content
 /
-shared
+webdriver
+-
+bidi
 /
-messagehandler
+modules
 /
-Module
+WindowGlobalBiDiModule
 .
 sys
 .
@@ -120,7 +122,7 @@ mjs
 class
 BrowsingContextModule
 extends
-Module
+WindowGlobalBiDiModule
 {
 #
 loadListener
