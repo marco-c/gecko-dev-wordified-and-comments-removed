@@ -42991,7 +42991,7 @@ layout_css_named_pages_enabled
 aParentFrame
 -
 >
-IsBlockFrameOrSubclass
+IsBlockFrame
 (
 )
 )
@@ -43303,7 +43303,7 @@ ancestorFrame
 ancestorFrame
 -
 >
-IsBlockFrameOrSubclass
+IsBlockFrame
 (
 )
 ;
