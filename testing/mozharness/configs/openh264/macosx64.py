@@ -152,9 +152,9 @@ isysroot
 MOZ_FETCHES_DIR
 }
 /
-MacOSX10
+MacOSX13
 .
-11
+0
 .
 sdk
 "
@@ -169,7 +169,7 @@ min
 =
 10
 .
-11
+12
 "
 .
 format
@@ -213,9 +213,9 @@ isysroot
 MOZ_FETCHES_DIR
 }
 /
-MacOSX10
+MacOSX13
 .
-11
+0
 .
 sdk
 "
@@ -230,7 +230,7 @@ min
 =
 10
 .
-11
+12
 "
 .
 format

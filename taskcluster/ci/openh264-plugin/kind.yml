@@ -489,9 +489,7 @@ macosx64
 -
 sdk
 -
-10
-.
-11
+toolchain
 macosx64
 -
 aarch64
@@ -605,9 +603,7 @@ macosx64
 -
 sdk
 -
-11
-.
-0
+toolchain
 win32
 /
 opt
