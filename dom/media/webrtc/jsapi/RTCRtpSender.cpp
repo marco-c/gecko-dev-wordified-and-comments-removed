@@ -8278,13 +8278,10 @@ aConfig
 >
 mTransmitting
 =
-GetJsepTransceiver
-(
-)
-.
-mSendTrack
-.
-GetActive
+mTransceiver
+-
+>
+IsSending
 (
 )
 ;
