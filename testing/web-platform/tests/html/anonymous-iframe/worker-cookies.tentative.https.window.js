@@ -83,6 +83,14 @@ js
 "
 "
 /
+resources
+/
+testharness
+.
+js
+"
+"
+/
 html
 /
 cross
