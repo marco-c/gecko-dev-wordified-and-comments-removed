@@ -69,6 +69,12 @@ OnStopRequest
 (
 nsresult
 aReason
+nsCString
+aContentCharset
+nsString
+aHintCharset
+nsString
+aDocumentCharset
 )
 ;
 async
