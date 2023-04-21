@@ -524,7 +524,7 @@ SetTrackMuteFromRemoteSdp
 )
 ;
 void
-OnUnmute
+OnRtpPacket
 (
 )
 ;
