@@ -276,6 +276,15 @@ nsString
 aNames
 )
 {
+JOG
+:
+:
+GetMetricNames
+(
+mName
+aNames
+)
+;
 if
 (
 !
