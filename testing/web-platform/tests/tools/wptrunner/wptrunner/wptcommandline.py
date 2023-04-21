@@ -1657,7 +1657,7 @@ enable_webtransport_h3
                                       
 default
 =
-None
+True
                                       
 help
 =
@@ -1675,7 +1675,7 @@ server
 (
 default
 :
-false
+true
 )
 "
 )
