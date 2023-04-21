@@ -95,6 +95,13 @@ RTCRtpTransceiverBinding
 .
 h
 "
+#
+include
+"
+RTCStatsReport
+.
+h
+"
 class
 nsIPrincipal
 ;
