@@ -825,6 +825,9 @@ MOZ_GTK
 BINPATH
 /
 vaapitest
+BINPATH
+/
+glxtest
 #
 endif
 ;
