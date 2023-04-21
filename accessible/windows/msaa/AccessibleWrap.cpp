@@ -97,6 +97,15 @@ h
 #
 include
 "
+LocalAccessible
+-
+inl
+.
+h
+"
+#
+include
+"
 mozilla
 /
 mscom
