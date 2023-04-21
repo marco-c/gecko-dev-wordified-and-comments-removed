@@ -123,8 +123,8 @@ must_use
 ]
 readonly
 attribute
-bool
-requireResidentKey
+AString
+residentKey
 ;
 [
 must_use
