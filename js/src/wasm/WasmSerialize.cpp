@@ -3739,7 +3739,7 @@ coder
 item
 -
 >
-globalDataOffset
+instanceDataOffset
 )
 )
 ;
@@ -4116,7 +4116,7 @@ coder
 item
 -
 >
-globalDataOffset
+instanceDataOffset
 )
 )
 ;

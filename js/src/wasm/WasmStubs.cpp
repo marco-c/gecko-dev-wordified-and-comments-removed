@@ -12756,7 +12756,7 @@ InstanceReg
 Instance
 :
 :
-offsetInGlobalArea
+offsetInData
 (
 fi
 .
