@@ -7199,7 +7199,7 @@ gl
 CreateContextFlags
 :
 :
-FORCE_ENABLE_HARDWARE
+FORBID_SOFTWARE
 }
 &
 failureUnused
