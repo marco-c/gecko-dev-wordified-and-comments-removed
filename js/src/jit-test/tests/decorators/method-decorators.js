@@ -205,11 +205,9 @@ context
 assertEq
 (
 typeof
-(
 value
 .
 call
-)
 "
 function
 "
@@ -226,11 +224,9 @@ kind
 assertEq
 (
 typeof
-(
 context
 .
 access
-)
 "
 object
 "
@@ -263,11 +259,9 @@ name
 assertEq
 (
 typeof
-(
 context
 .
 addInitializer
-)
 "
 object
 "

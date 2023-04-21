@@ -1621,6 +1621,9 @@ return
 false
 ;
 }
+#
+ifndef
+ENABLE_DECORATORS
 static
 const
 char
@@ -1643,6 +1646,8 @@ js_setter_str
 setter
 "
 ;
+#
+endif
 static
 Result
 <
