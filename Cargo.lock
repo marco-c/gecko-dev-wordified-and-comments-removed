@@ -17233,6 +17233,11 @@ smallbitvec
 smallvec
 "
 "
+thin
+-
+vec
+"
+"
 void
 "
 ]
@@ -27946,6 +27951,11 @@ style_derive
 style_traits
 "
 "
+thin
+-
+vec
+"
+"
 time
 0
 .
@@ -29409,6 +29419,11 @@ smallbitvec
 "
 "
 smallvec
+"
+"
+thin
+-
+vec
 "
 ]
 [
