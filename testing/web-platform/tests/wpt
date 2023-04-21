@@ -24,7 +24,7 @@ version_info
 <
 (
 3
-6
+7
 )
 :
 sys
@@ -39,7 +39,7 @@ requires
 Python
 3
 .
-6
+7
 or
 higher
 \
