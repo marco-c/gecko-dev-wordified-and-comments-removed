@@ -6515,6 +6515,12 @@ openConnection
 (
 {
 path
+incrementalVacuum
+:
+true
+vacuumOnIdle
+:
+true
 }
 )
 ;
