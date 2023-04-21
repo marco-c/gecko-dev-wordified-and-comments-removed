@@ -128,8 +128,6 @@ branch
 "
 :
 "
-integration
-/
 autoland
 "
         
