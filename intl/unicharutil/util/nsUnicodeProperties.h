@@ -184,6 +184,8 @@ aCh
 return
 sICUtoHBcategory
 [
+unsigned
+(
 intl
 :
 :
@@ -193,6 +195,7 @@ UnicodeProperties
 CharType
 (
 aCh
+)
 )
 ]
 ;
