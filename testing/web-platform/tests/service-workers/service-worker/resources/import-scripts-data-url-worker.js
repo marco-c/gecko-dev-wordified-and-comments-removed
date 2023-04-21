@@ -1,0 +1,11 @@
+importScripts
+(
+'
+data
+:
+text
+/
+javascript
+'
+)
+;
