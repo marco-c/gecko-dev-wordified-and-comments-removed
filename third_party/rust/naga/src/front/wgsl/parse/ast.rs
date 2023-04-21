@@ -998,6 +998,10 @@ comparison
 :
 bool
 }
+AccelerationStructure
+RayQuery
+RayDesc
+RayIntersection
 BindingArray
 {
 base

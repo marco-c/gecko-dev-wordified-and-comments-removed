@@ -125,6 +125,9 @@ vec3
 vec4
 "
 "
+alias
+"
+"
 bitcast
 "
 "

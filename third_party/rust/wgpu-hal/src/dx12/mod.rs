@@ -23,6 +23,9 @@ mod
 suballocation
 ;
 mod
+types
+;
+mod
 view
 ;
 use
@@ -95,6 +98,8 @@ um
 :
 {
 d3d12
+as
+d3d12_ty
 dcomp
 synchapi
 winbase
@@ -251,7 +256,7 @@ Instance
 {
 factory
 :
-native
+d3d12
 :
 :
 DxgiFactory
@@ -259,7 +264,7 @@ factory_media
 :
 Option
 <
-native
+d3d12
 :
 :
 FactoryMedia
@@ -268,7 +273,7 @@ library
 :
 Arc
 <
-native
+d3d12
 :
 :
 D3D12Lib
@@ -278,7 +283,7 @@ supports_allow_tearing
 bool
 _lib_dxgi
 :
-native
+d3d12
 :
 :
 DxgiLib
@@ -339,7 +344,7 @@ Visual
 (
 unsafe
 {
-native
+d3d12
 :
 :
 WeakPtr
@@ -430,7 +435,7 @@ SwapChain
 {
 raw
 :
-native
+d3d12
 :
 :
 WeakPtr
@@ -444,7 +449,7 @@ resources
 :
 Vec
 <
-native
+d3d12
 :
 :
 Resource
@@ -489,7 +494,7 @@ HWND
 )
 Visual
 (
-native
+d3d12
 :
 :
 WeakPtr
@@ -514,7 +519,7 @@ Surface
 {
 factory
 :
-native
+d3d12
 :
 :
 DxgiFactory
@@ -522,7 +527,7 @@ factory_media
 :
 Option
 <
-native
+d3d12
 :
 :
 FactoryMedia
@@ -622,6 +627,9 @@ unused
 heap_create_not_zeroed
 :
 bool
+casting_fully_typed_format_supported
+:
+bool
 }
 #
 [
@@ -643,13 +651,13 @@ Adapter
 {
 raw
 :
-native
+d3d12
 :
 :
 DxgiAdapter
 device
 :
-native
+d3d12
 :
 :
 Device
@@ -657,7 +665,7 @@ library
 :
 Arc
 <
-native
+d3d12
 :
 :
 D3D12Lib
@@ -713,13 +721,13 @@ Idler
 {
 fence
 :
-native
+d3d12
 :
 :
 Fence
 event
 :
-native
+d3d12
 :
 :
 Event
@@ -752,19 +760,19 @@ CommandSignatures
 {
 draw
 :
-native
+d3d12
 :
 :
 CommandSignature
 draw_indexed
 :
-native
+d3d12
 :
 :
 CommandSignature
 dispatch
 :
-native
+d3d12
 :
 :
 CommandSignature
@@ -814,7 +822,7 @@ DeviceShared
 {
 zero_buffer
 :
-native
+d3d12
 :
 :
 Resource
@@ -892,13 +900,13 @@ Device
 {
 raw
 :
-native
+d3d12
 :
 :
 Device
 present_queue
 :
-native
+d3d12
 :
 :
 CommandQueue
@@ -954,7 +962,7 @@ library
 :
 Arc
 <
-native
+d3d12
 :
 :
 D3D12Lib
@@ -1030,7 +1038,7 @@ Queue
 {
 raw
 :
-native
+d3d12
 :
 :
 CommandQueue
@@ -1038,7 +1046,7 @@ temp_lists
 :
 Vec
 <
-native
+d3d12
 :
 :
 CommandList
@@ -1078,7 +1086,7 @@ barriers
 :
 Vec
 <
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_BARRIER
@@ -1119,7 +1127,7 @@ PassResolve
 src
 :
 (
-native
+d3d12
 :
 :
 Resource
@@ -1128,7 +1136,7 @@ u32
 dst
 :
 (
-native
+d3d12
 :
 :
 Resource
@@ -1136,7 +1144,7 @@ u32
 )
 format
 :
-native
+d3d12
 :
 :
 Format
@@ -1168,7 +1176,7 @@ u32
 }
 Table
 (
-native
+d3d12
 :
 :
 GpuDescriptor
@@ -1180,7 +1188,7 @@ kind
 BufferViewKind
 address
 :
-native
+d3d12
 :
 :
 GpuAddress
@@ -1242,7 +1250,7 @@ u64
 vertex_buffers
 :
 [
-d3d12
+d3d12_ty
 :
 :
 D3D12_VERTEX_BUFFER_VIEW
@@ -1321,7 +1329,7 @@ PipelineLayoutShared
 {
 signature
 :
-native
+d3d12
 :
 :
 RootSignature
@@ -1415,13 +1423,13 @@ CommandEncoder
 {
 allocator
 :
-native
+d3d12
 :
 :
 CommandAllocator
 device
 :
-native
+d3d12
 :
 :
 Device
@@ -1441,7 +1449,7 @@ list
 :
 Option
 <
-native
+d3d12
 :
 :
 GraphicsCommandList
@@ -1450,7 +1458,7 @@ free_lists
 :
 Vec
 <
-native
+d3d12
 :
 :
 GraphicsCommandList
@@ -1558,7 +1566,7 @@ CommandBuffer
 {
 raw
 :
-native
+d3d12
 :
 :
 GraphicsCommandList
@@ -1593,7 +1601,7 @@ Buffer
 {
 resource
 :
-native
+d3d12
 :
 :
 Resource
@@ -1722,7 +1730,7 @@ Texture
 {
 resource
 :
-native
+d3d12
 :
 :
 Resource
@@ -1952,7 +1960,7 @@ TextureView
 {
 raw_format
 :
-native
+d3d12
 :
 :
 Format
@@ -1965,7 +1973,7 @@ FormatAspects
 target_base
 :
 (
-native
+d3d12
 :
 :
 Resource
@@ -2076,13 +2084,13 @@ QuerySet
 {
 raw
 :
-native
+d3d12
 :
 :
 QueryHeap
 raw_ty
 :
-d3d12
+d3d12_ty
 :
 :
 D3D12_QUERY_TYPE
@@ -2114,7 +2122,7 @@ Fence
 {
 raw
 :
-native
+d3d12
 :
 :
 Fence
@@ -2219,7 +2227,7 @@ dynamic_buffers
 :
 Vec
 <
-native
+d3d12
 :
 :
 GpuAddress
@@ -2231,6 +2239,18 @@ bitflags
 bitflags
 !
 {
+#
+[
+derive
+(
+Debug
+Copy
+Clone
+PartialEq
+Eq
+Hash
+)
+]
 struct
 TableTypes
 :
@@ -2313,7 +2333,7 @@ PipelineLayoutShared
 {
 signature
 :
-native
+d3d12
 :
 :
 RootSignature
@@ -2429,7 +2449,7 @@ u8
 )
 Fxc
 (
-native
+d3d12
 :
 :
 Blob
@@ -2446,7 +2466,7 @@ self
 )
 -
 >
-native
+d3d12
 :
 :
 Shader
@@ -2465,7 +2485,7 @@ shader
 )
 =
 >
-native
+d3d12
 :
 :
 Shader
@@ -2484,7 +2504,7 @@ shader
 )
 =
 >
-native
+d3d12
 :
 :
 Shader
@@ -2544,7 +2564,7 @@ RenderPipeline
 {
 raw
 :
-native
+d3d12
 :
 :
 PipelineState
@@ -2553,7 +2573,7 @@ layout
 PipelineLayoutShared
 topology
 :
-d3d12
+d3d12_ty
 :
 :
 D3D12_PRIMITIVE_TOPOLOGY
@@ -2591,7 +2611,7 @@ ComputePipeline
 {
 raw
 :
-native
+d3d12
 :
 :
 PipelineState
@@ -2624,7 +2644,7 @@ self
 )
 -
 >
-native
+d3d12
 :
 :
 WeakPtr
@@ -3022,7 +3042,7 @@ None
 let
 desc
 =
-native
+d3d12
 :
 :
 SwapchainDesc
@@ -3066,7 +3086,7 @@ stereo
 false
 sample
 :
-native
+d3d12
 :
 :
 SampleDesc
@@ -3091,7 +3111,7 @@ config
 swap_chain_size
 scaling
 :
-native
+d3d12
 :
 :
 Scaling
@@ -3100,7 +3120,7 @@ Scaling
 Stretch
 swap_effect
 :
-native
+d3d12
 :
 :
 SwapEffect
@@ -3646,7 +3666,7 @@ resources
 vec
 !
 [
-native
+d3d12
 :
 :
 Resource
@@ -3689,7 +3709,7 @@ i
 as
 _
 &
-d3d12
+d3d12_ty
 :
 :
 ID3D12Resource

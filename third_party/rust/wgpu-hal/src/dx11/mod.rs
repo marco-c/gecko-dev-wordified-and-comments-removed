@@ -174,13 +174,13 @@ library
 D3D11Lib
 lib_dxgi
 :
-native
+d3d12
 :
 :
 DxgiLib
 factory
 :
-native
+d3d12
 :
 :
 DxgiFactory
@@ -226,7 +226,7 @@ for
 Adapter
 {
 }
-native
+d3d12
 :
 :
 weak_com_inheritance_chain

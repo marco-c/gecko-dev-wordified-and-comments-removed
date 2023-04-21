@@ -64,6 +64,10 @@ Eq
 PartialEq
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 DrawError
@@ -73,7 +77,7 @@ DrawError
 error
 (
 "
-blend
+Blend
 constant
 needs
 to
@@ -88,7 +92,7 @@ MissingBlendConstant
 error
 (
 "
-render
+Render
 pipeline
 must
 be
@@ -102,7 +106,7 @@ MissingPipeline
 error
 (
 "
-vertex
+Vertex
 buffer
 {
 index
@@ -124,7 +128,7 @@ u32
 error
 (
 "
-index
+Index
 buffer
 must
 be
@@ -138,7 +142,7 @@ MissingIndexBuffer
 error
 (
 "
-the
+The
 pipeline
 layout
 associated
@@ -188,7 +192,7 @@ u32
 error
 (
 "
-vertex
+Vertex
 {
 last_vertex
 }
@@ -240,7 +244,7 @@ u32
 error
 (
 "
-instance
+Instance
 {
 last_instance
 }
@@ -292,7 +296,7 @@ u32
 error
 (
 "
-index
+Index
 {
 last_index
 }
@@ -328,7 +332,7 @@ u32
 error
 (
 "
-pipeline
+Pipeline
 index
 format
 (
@@ -395,6 +399,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 RenderCommandError
@@ -404,7 +412,7 @@ RenderCommandError
 error
 (
 "
-bind
+Bind
 group
 {
 0
@@ -428,7 +436,7 @@ BindGroupId
 error
 (
 "
-render
+Render
 bundle
 {
 0
@@ -452,7 +460,7 @@ RenderBundleId
 error
 (
 "
-bind
+Bind
 group
 index
 {
@@ -488,7 +496,7 @@ u32
 error
 (
 "
-dynamic
+Dynamic
 buffer
 offset
 {
@@ -525,7 +533,7 @@ u32
 error
 (
 "
-number
+Number
 of
 buffer
 offsets
@@ -564,7 +572,7 @@ usize
 error
 (
 "
-render
+Render
 pipeline
 {
 0
@@ -641,7 +649,7 @@ RenderPassCompatibilityError
 error
 (
 "
-pipeline
+Pipeline
 writes
 to
 depth
@@ -681,7 +689,7 @@ UsageConflict
 error
 (
 "
-buffer
+Buffer
 {
 0
 :

@@ -18,6 +18,8 @@ um
 :
 :
 d3d12
+as
+d3d12_ty
 ;
 pub
 (
@@ -53,7 +55,7 @@ FormatAspects
 pub
 rtv_dsv_format
 :
-native
+d3d12
 :
 :
 Format
@@ -61,7 +63,7 @@ srv_uav_format
 :
 Option
 <
-native
+d3d12
 :
 :
 Format
@@ -245,7 +247,7 @@ self
 >
 Option
 <
-d3d12
+d3d12_ty
 :
 :
 D3D12_SHADER_RESOURCE_VIEW_DESC
@@ -255,7 +257,7 @@ let
 mut
 desc
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_SHADER_RESOURCE_VIEW_DESC
@@ -304,7 +306,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_SRV_DIMENSION_TEXTURE1D
@@ -320,7 +322,7 @@ Texture1D_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX1D_SRV
@@ -369,7 +371,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_SRV_DIMENSION_TEXTURE2DMS
@@ -385,7 +387,7 @@ Texture2DMS_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX2DMS_SRV
@@ -417,7 +419,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_SRV_DIMENSION_TEXTURE2D
@@ -433,7 +435,7 @@ Texture2D_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX2D_SRV
@@ -485,7 +487,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_SRV_DIMENSION_TEXTURE2DMSARRAY
@@ -501,7 +503,7 @@ Texture2DMSArray_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX2DMS_ARRAY_SRV
@@ -541,7 +543,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_SRV_DIMENSION_TEXTURE2DARRAY
@@ -557,7 +559,7 @@ Texture2DArray_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX2D_ARRAY_SRV
@@ -607,7 +609,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_SRV_DIMENSION_TEXTURE3D
@@ -623,7 +625,7 @@ Texture3D_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX3D_SRV
@@ -667,7 +669,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_SRV_DIMENSION_TEXTURECUBE
@@ -683,7 +685,7 @@ TextureCube_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEXCUBE_SRV
@@ -728,7 +730,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_SRV_DIMENSION_TEXTURECUBEARRAY
@@ -744,7 +746,7 @@ TextureCubeArray_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEXCUBE_ARRAY_SRV
@@ -815,7 +817,7 @@ self
 >
 Option
 <
-d3d12
+d3d12_ty
 :
 :
 D3D12_UNORDERED_ACCESS_VIEW_DESC
@@ -825,7 +827,7 @@ let
 mut
 desc
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_UNORDERED_ACCESS_VIEW_DESC
@@ -871,7 +873,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_UAV_DIMENSION_TEXTURE1D
@@ -887,7 +889,7 @@ Texture1D_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX1D_UAV
@@ -921,7 +923,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_UAV_DIMENSION_TEXTURE2D
@@ -937,7 +939,7 @@ Texture2D_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX2D_UAV
@@ -975,7 +977,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_UAV_DIMENSION_TEXTURE2DARRAY
@@ -991,7 +993,7 @@ Texture2DArray_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX2D_ARRAY_UAV
@@ -1031,7 +1033,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_UAV_DIMENSION_TEXTURE3D
@@ -1047,7 +1049,7 @@ Texture3D_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX3D_UAV
@@ -1121,7 +1123,7 @@ self
 )
 -
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_RENDER_TARGET_VIEW_DESC
@@ -1130,7 +1132,7 @@ let
 mut
 desc
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RENDER_TARGET_VIEW_DESC
@@ -1175,7 +1177,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RTV_DIMENSION_TEXTURE1D
@@ -1191,7 +1193,7 @@ Texture1D_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX1D_RTV
@@ -1230,7 +1232,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RTV_DIMENSION_TEXTURE2DMS
@@ -1246,7 +1248,7 @@ Texture2DMS_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX2DMS_RTV
@@ -1278,7 +1280,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RTV_DIMENSION_TEXTURE2D
@@ -1294,7 +1296,7 @@ Texture2D_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX2D_RTV
@@ -1336,7 +1338,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RTV_DIMENSION_TEXTURE2DMSARRAY
@@ -1352,7 +1354,7 @@ Texture2DMSArray_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX2DMS_ARRAY_RTV
@@ -1392,7 +1394,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RTV_DIMENSION_TEXTURE2DARRAY
@@ -1408,7 +1410,7 @@ Texture2DArray_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX2D_ARRAY_RTV
@@ -1448,7 +1450,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RTV_DIMENSION_TEXTURE3D
@@ -1464,7 +1466,7 @@ Texture3D_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX3D_RTV
@@ -1538,7 +1540,7 @@ bool
 )
 -
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_DEPTH_STENCIL_VIEW_DESC
@@ -1547,7 +1549,7 @@ let
 mut
 desc
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_DEPTH_STENCIL_VIEW_DESC
@@ -1567,7 +1569,7 @@ let
 mut
 flags
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_DSV_FLAG_NONE
@@ -1594,7 +1596,7 @@ DEPTH
 flags
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_DSV_FLAG_READ_ONLY_DEPTH
@@ -1619,7 +1621,7 @@ STENCIL
 flags
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_DSV_FLAG_READ_ONLY_STENCIL
@@ -1660,7 +1662,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_DSV_DIMENSION_TEXTURE1D
@@ -1676,7 +1678,7 @@ Texture1D_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX1D_DSV
@@ -1715,7 +1717,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_DSV_DIMENSION_TEXTURE2DMS
@@ -1731,7 +1733,7 @@ Texture2DMS_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX2DMS_DSV
@@ -1763,7 +1765,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_DSV_DIMENSION_TEXTURE2D
@@ -1779,7 +1781,7 @@ Texture2D_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX2D_DSV
@@ -1818,7 +1820,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_DSV_DIMENSION_TEXTURE2DMSARRAY
@@ -1834,7 +1836,7 @@ Texture2DMSArray_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX2DMS_ARRAY_DSV
@@ -1874,7 +1876,7 @@ desc
 .
 ViewDimension
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_DSV_DIMENSION_TEXTURE2DARRAY
@@ -1890,7 +1892,7 @@ Texture2DArray_mut
 (
 )
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEX2D_ARRAY_DSV

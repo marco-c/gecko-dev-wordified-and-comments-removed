@@ -1,5 +1,5 @@
 use
-mtl
+metal
 :
 :
 {
@@ -293,7 +293,7 @@ pc
 .
 read_write_texture_tier
 {
-mtl
+metal
 :
 :
 MTLReadWriteTextureTier
@@ -316,7 +316,7 @@ empty
 (
 )
 )
-mtl
+metal
 :
 :
 MTLReadWriteTextureTier
@@ -337,7 +337,7 @@ empty
 (
 )
 )
-mtl
+metal
 :
 :
 MTLReadWriteTextureTier
@@ -2254,7 +2254,7 @@ supports_any
 raw
 :
 &
-mtl
+metal
 :
 :
 DeviceRef
@@ -2299,7 +2299,7 @@ new
 device
 :
 &
-mtl
+metal
 :
 :
 Device
@@ -2346,9 +2346,6 @@ usize
 patch
 :
 usize
-is_mac
-:
-bool
 }
 impl
 NSOperatingSystemVersion
@@ -2370,14 +2367,15 @@ ios_version
 usize
 usize
 )
+is_mac
+:
+bool
 )
 -
 >
 bool
 {
 if
-self
-.
 is_mac
 {
 self
@@ -2445,7 +2443,6 @@ ios_version
 }
 }
 let
-mut
 version
 :
 NSOperatingSystemVersion
@@ -2497,12 +2494,6 @@ MTLFeatureSet
 macOS_GPUFamily1_v1
 )
 ;
-version
-.
-is_mac
-=
-os_is_mac
-;
 let
 family_check
 =
@@ -2518,6 +2509,7 @@ at_least
 13
 0
 )
+os_is_mac
 )
 ;
 let
@@ -2608,6 +2600,7 @@ at_least
 11
 0
 )
+os_is_mac
 )
 {
 device
@@ -2627,6 +2620,7 @@ at_least
 12
 )
 OS_NOT_SUPPORT
+os_is_mac
 )
 {
 if
@@ -2684,6 +2678,7 @@ at_least
 15
 0
 )
+os_is_mac
 )
 {
 MTLLanguageVersion
@@ -2705,6 +2700,7 @@ at_least
 14
 0
 )
+os_is_mac
 )
 {
 MTLLanguageVersion
@@ -2726,6 +2722,7 @@ at_least
 13
 0
 )
+os_is_mac
 )
 {
 MTLLanguageVersion
@@ -2747,6 +2744,7 @@ at_least
 12
 0
 )
+os_is_mac
 )
 {
 MTLLanguageVersion
@@ -2768,6 +2766,7 @@ at_least
 11
 0
 )
+os_is_mac
 )
 {
 MTLLanguageVersion
@@ -2789,6 +2788,7 @@ at_least
 10
 0
 )
+os_is_mac
 )
 {
 MTLLanguageVersion
@@ -2810,6 +2810,7 @@ at_least
 9
 0
 )
+os_is_mac
 )
 {
 MTLLanguageVersion
@@ -2838,6 +2839,7 @@ at_least
 8
 0
 )
+os_is_mac
 )
 read_write_texture_tier
 :
@@ -2930,23 +2932,6 @@ supports_any
 device
 SAMPLER_CLAMP_TO_BORDER_SUPPORT
 )
-sampler_lod_average
-:
-{
-version
-.
-at_least
-(
-(
-11
-0
-)
-(
-9
-0
-)
-)
-}
 base_instance
 :
 Self
@@ -3457,12 +3442,13 @@ at_least
 12
 0
 )
+os_is_mac
 )
 {
 let
 buffer_size
 :
-mtl
+metal
 :
 :
 NSInteger
@@ -3740,6 +3726,7 @@ at_least
 11
 0
 )
+os_is_mac
 )
 can_set_maximum_drawables_count
 :
@@ -3755,6 +3742,7 @@ at_least
 11
 2
 )
+os_is_mac
 )
 can_set_display_sync
 :
@@ -3767,6 +3755,7 @@ at_least
 13
 )
 OS_NOT_SUPPORT
+os_is_mac
 )
 can_set_next_drawable_timeout
 :
@@ -3782,6 +3771,7 @@ at_least
 11
 0
 )
+os_is_mac
 )
 supports_arrays_of_textures
 :
@@ -3859,6 +3849,7 @@ at_least
 11
 0
 )
+os_is_mac
 )
 supports_depth_clip_control
 :
@@ -3888,6 +3879,7 @@ at_least
 13
 0
 )
+os_is_mac
 )
 supports_shader_primitive_index
 :
@@ -3903,6 +3895,7 @@ at_least
 14
 0
 )
+os_is_mac
 )
 has_unified_memory
 :
@@ -3919,6 +3912,7 @@ at_least
 13
 0
 )
+os_is_mac
 )
 {
 Some
@@ -4057,7 +4051,7 @@ TEXTURE_FORMAT_16BIT_NORM
 F
 :
 :
-SHADER_FLOAT16
+SHADER_F16
 |
 F
 :
@@ -4076,7 +4070,7 @@ set
 F
 :
 :
-TEXTURE_COMPRESSION_ASTC_LDR
+TEXTURE_COMPRESSION_ASTC
 self
 .
 format_astc
@@ -4590,13 +4584,13 @@ TextureFormat
 )
 -
 >
-mtl
+metal
 :
 :
 MTLPixelFormat
 {
 use
-mtl
+metal
 :
 :
 MTLPixelFormat
@@ -5504,7 +5498,7 @@ FormatAspects
 )
 -
 >
-mtl
+metal
 :
 :
 MTLPixelFormat
@@ -5518,7 +5512,7 @@ as
 Fa
 ;
 use
-mtl
+metal
 :
 :
 MTLPixelFormat
@@ -5603,7 +5597,7 @@ new
 device
 :
 &
-mtl
+metal
 :
 :
 Device

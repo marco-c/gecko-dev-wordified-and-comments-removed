@@ -21,6 +21,8 @@ um
 :
 {
 d3d12
+as
+d3d12_ty
 d3dcommon
 }
 }
@@ -38,7 +40,7 @@ BufferUses
 )
 -
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_FLAGS
@@ -66,7 +68,7 @@ STORAGE_READ_WRITE
 flags
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_FLAG_ALLOW_UNORDERED_ACCESS
@@ -87,7 +89,7 @@ TextureDimension
 )
 -
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_DIMENSION
@@ -104,7 +106,7 @@ TextureDimension
 D1
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_DIMENSION_TEXTURE1D
@@ -117,7 +119,7 @@ TextureDimension
 D2
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_DIMENSION_TEXTURE2D
@@ -130,7 +132,7 @@ TextureDimension
 D3
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_DIMENSION_TEXTURE3D
@@ -149,7 +151,7 @@ TextureUses
 )
 -
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_FLAGS
@@ -177,7 +179,7 @@ COLOR_TARGET
 flags
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_FLAG_ALLOW_RENDER_TARGET
@@ -208,7 +210,7 @@ DEPTH_STENCIL_WRITE
 flags
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL
@@ -231,7 +233,7 @@ RESOURCE
 flags
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_FLAG_DENY_SHADER_RESOURCE
@@ -255,7 +257,7 @@ STORAGE_READ_WRITE
 flags
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_FLAG_ALLOW_UNORDERED_ACCESS
@@ -276,7 +278,7 @@ AddressMode
 )
 -
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEXTURE_ADDRESS_MODE
@@ -298,7 +300,7 @@ Am
 Repeat
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEXTURE_ADDRESS_MODE_WRAP
@@ -308,7 +310,7 @@ Am
 MirrorRepeat
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEXTURE_ADDRESS_MODE_MIRROR
@@ -318,7 +320,7 @@ Am
 ClampToEdge
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEXTURE_ADDRESS_MODE_CLAMP
@@ -328,7 +330,7 @@ Am
 ClampToBorder
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_TEXTURE_ADDRESS_MODE_BORDER
@@ -347,7 +349,7 @@ FilterMode
 )
 -
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_FILTER_TYPE
@@ -364,7 +366,7 @@ FilterMode
 Nearest
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_FILTER_TYPE_POINT
@@ -377,7 +379,7 @@ FilterMode
 Linear
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_FILTER_TYPE_LINEAR
@@ -396,7 +398,7 @@ CompareFunction
 )
 -
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_COMPARISON_FUNC
@@ -418,7 +420,7 @@ Cf
 Never
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_COMPARISON_FUNC_NEVER
@@ -428,7 +430,7 @@ Cf
 Less
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_COMPARISON_FUNC_LESS
@@ -438,7 +440,7 @@ Cf
 LessEqual
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_COMPARISON_FUNC_LESS_EQUAL
@@ -448,7 +450,7 @@ Cf
 Equal
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_COMPARISON_FUNC_EQUAL
@@ -458,7 +460,7 @@ Cf
 GreaterEqual
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_COMPARISON_FUNC_GREATER_EQUAL
@@ -468,7 +470,7 @@ Cf
 Greater
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_COMPARISON_FUNC_GREATER
@@ -478,7 +480,7 @@ Cf
 NotEqual
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_COMPARISON_FUNC_NOT_EQUAL
@@ -488,7 +490,7 @@ Cf
 Always
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_COMPARISON_FUNC_ALWAYS
@@ -607,7 +609,7 @@ ShaderStages
 )
 -
 >
-native
+d3d12
 :
 :
 ShaderVisibility
@@ -624,7 +626,7 @@ ShaderStages
 VERTEX
 =
 >
-native
+d3d12
 :
 :
 ShaderVisibility
@@ -640,7 +642,7 @@ ShaderStages
 FRAGMENT
 =
 >
-native
+d3d12
 :
 :
 ShaderVisibility
@@ -650,7 +652,7 @@ PS
 _
 =
 >
-native
+d3d12
 :
 :
 ShaderVisibility
@@ -673,7 +675,7 @@ BindingType
 )
 -
 >
-native
+d3d12
 :
 :
 DescriptorRangeType
@@ -700,7 +702,7 @@ Sampler
 }
 =
 >
-native
+d3d12
 :
 :
 DescriptorRangeType
@@ -726,7 +728,7 @@ Uniform
 }
 =
 >
-native
+d3d12
 :
 :
 DescriptorRangeType
@@ -766,7 +768,7 @@ Texture
 }
 =
 >
-native
+d3d12
 :
 :
 DescriptorRangeType
@@ -806,7 +808,7 @@ StorageTexture
 }
 =
 >
-native
+d3d12
 :
 :
 DescriptorRangeType
@@ -865,7 +867,7 @@ BufferUses
 )
 -
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATES
@@ -882,7 +884,7 @@ let
 mut
 state
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATE_COMMON
@@ -901,7 +903,7 @@ COPY_SRC
 state
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATE_COPY_SOURCE
@@ -921,7 +923,7 @@ COPY_DST
 state
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATE_COPY_DEST
@@ -941,7 +943,7 @@ INDEX
 state
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATE_INDEX_BUFFER
@@ -966,7 +968,7 @@ UNIFORM
 state
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATE_VERTEX_AND_CONSTANT_BUFFER
@@ -986,7 +988,7 @@ STORAGE_READ_WRITE
 state
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATE_UNORDERED_ACCESS
@@ -1007,12 +1009,12 @@ STORAGE_READ
 state
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE
 |
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE
@@ -1032,7 +1034,7 @@ INDIRECT
 state
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATE_INDIRECT_ARGUMENT
@@ -1053,7 +1055,7 @@ TextureUses
 )
 -
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATES
@@ -1070,7 +1072,7 @@ let
 mut
 state
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATE_COMMON
@@ -1105,7 +1107,7 @@ COPY_SRC
 state
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATE_COPY_SOURCE
@@ -1125,7 +1127,7 @@ COPY_DST
 state
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATE_COPY_DEST
@@ -1145,12 +1147,12 @@ RESOURCE
 state
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE
 |
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE
@@ -1170,7 +1172,7 @@ COLOR_TARGET
 state
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATE_RENDER_TARGET
@@ -1190,7 +1192,7 @@ DEPTH_STENCIL_READ
 state
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATE_DEPTH_READ
@@ -1210,7 +1212,7 @@ DEPTH_STENCIL_WRITE
 state
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATE_DEPTH_WRITE
@@ -1235,7 +1237,7 @@ STORAGE_READ_WRITE
 state
 |
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RESOURCE_STATE_UNORDERED_ACCESS
@@ -1257,11 +1259,11 @@ PrimitiveTopology
 -
 >
 (
-d3d12
+d3d12_ty
 :
 :
 D3D12_PRIMITIVE_TOPOLOGY_TYPE
-d3d12
+d3d12_ty
 :
 :
 D3D12_PRIMITIVE_TOPOLOGY
@@ -1280,7 +1282,7 @@ PointList
 =
 >
 (
-d3d12
+d3d12_ty
 :
 :
 D3D12_PRIMITIVE_TOPOLOGY_TYPE_POINT
@@ -1299,7 +1301,7 @@ LineList
 =
 >
 (
-d3d12
+d3d12_ty
 :
 :
 D3D12_PRIMITIVE_TOPOLOGY_TYPE_LINE
@@ -1318,7 +1320,7 @@ LineStrip
 =
 >
 (
-d3d12
+d3d12_ty
 :
 :
 D3D12_PRIMITIVE_TOPOLOGY_TYPE_LINE
@@ -1337,7 +1339,7 @@ TriangleList
 =
 >
 (
-d3d12
+d3d12_ty
 :
 :
 D3D12_PRIMITIVE_TOPOLOGY_TYPE_TRIANGLE
@@ -1356,7 +1358,7 @@ TriangleStrip
 =
 >
 (
-d3d12
+d3d12_ty
 :
 :
 D3D12_PRIMITIVE_TOPOLOGY_TYPE_TRIANGLE
@@ -1380,7 +1382,7 @@ PolygonMode
 )
 -
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_FILL_MODE
@@ -1413,7 +1415,7 @@ supported
 "
 )
 ;
-d3d12
+d3d12_ty
 :
 :
 D3D12_FILL_MODE_WIREFRAME
@@ -1427,7 +1429,7 @@ PolygonMode
 Line
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_FILL_MODE_WIREFRAME
@@ -1440,7 +1442,7 @@ PolygonMode
 Fill
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_FILL_MODE_SOLID
@@ -1461,7 +1463,7 @@ bool
 )
 -
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND
@@ -1483,7 +1485,7 @@ Bf
 Zero
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_ZERO
@@ -1493,7 +1495,7 @@ Bf
 One
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_ONE
@@ -1505,7 +1507,7 @@ if
 is_alpha
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_SRC_ALPHA
@@ -1515,7 +1517,7 @@ Bf
 Src
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_SRC_COLOR
@@ -1527,7 +1529,7 @@ if
 is_alpha
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_INV_SRC_ALPHA
@@ -1537,7 +1539,7 @@ Bf
 OneMinusSrc
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_INV_SRC_COLOR
@@ -1549,7 +1551,7 @@ if
 is_alpha
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_DEST_ALPHA
@@ -1559,7 +1561,7 @@ Bf
 Dst
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_DEST_COLOR
@@ -1571,7 +1573,7 @@ if
 is_alpha
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_INV_DEST_ALPHA
@@ -1581,7 +1583,7 @@ Bf
 OneMinusDst
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_INV_DEST_COLOR
@@ -1591,7 +1593,7 @@ Bf
 SrcAlpha
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_SRC_ALPHA
@@ -1601,7 +1603,7 @@ Bf
 OneMinusSrcAlpha
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_INV_SRC_ALPHA
@@ -1611,7 +1613,7 @@ Bf
 DstAlpha
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_DEST_ALPHA
@@ -1621,7 +1623,7 @@ Bf
 OneMinusDstAlpha
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_INV_DEST_ALPHA
@@ -1631,7 +1633,7 @@ Bf
 Constant
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_BLEND_FACTOR
@@ -1641,7 +1643,7 @@ Bf
 OneMinusConstant
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_INV_BLEND_FACTOR
@@ -1651,7 +1653,7 @@ Bf
 SrcAlphaSaturated
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_SRC_ALPHA_SAT
@@ -1674,15 +1676,15 @@ bool
 -
 >
 (
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_OP
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND
@@ -1705,7 +1707,7 @@ BlendOperation
 Add
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_OP_ADD
@@ -1718,7 +1720,7 @@ BlendOperation
 Subtract
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_OP_SUBTRACT
@@ -1731,7 +1733,7 @@ BlendOperation
 ReverseSubtract
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_OP_REV_SUBTRACT
@@ -1744,7 +1746,7 @@ BlendOperation
 Min
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_OP_MIN
@@ -1757,7 +1759,7 @@ BlendOperation
 Max
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_OP_MAX
@@ -1811,12 +1813,12 @@ ColorTargetState
 -
 >
 [
-d3d12
+d3d12_ty
 :
 :
 D3D12_RENDER_TARGET_BLEND_DESC
 ;
-d3d12
+d3d12_ty
 :
 :
 D3D12_SIMULTANEOUS_RENDER_TARGET_COUNT
@@ -1827,7 +1829,7 @@ usize
 let
 dummy_target
 =
-d3d12
+d3d12_ty
 :
 :
 D3D12_RENDER_TARGET_BLEND_DESC
@@ -1840,43 +1842,43 @@ LogicOpEnable
 0
 SrcBlend
 :
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_ZERO
 DestBlend
 :
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_ZERO
 BlendOp
 :
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_OP_ADD
 SrcBlendAlpha
 :
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_ZERO
 DestBlendAlpha
 :
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_ZERO
 BlendOpAlpha
 :
-d3d12
+d3d12_ty
 :
 :
 D3D12_BLEND_OP_ADD
 LogicOp
 :
-d3d12
+d3d12_ty
 :
 :
 D3D12_LOGIC_OP_CLEAR
@@ -1892,7 +1894,7 @@ raw_targets
 [
 dummy_target
 ;
-d3d12
+d3d12_ty
 :
 :
 D3D12_SIMULTANEOUS_RENDER_TARGET_COUNT
@@ -2051,7 +2053,7 @@ StencilOperation
 )
 -
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_STENCIL_OP
@@ -2073,7 +2075,7 @@ So
 Keep
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_STENCIL_OP_KEEP
@@ -2083,7 +2085,7 @@ So
 Zero
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_STENCIL_OP_ZERO
@@ -2093,7 +2095,7 @@ So
 Replace
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_STENCIL_OP_REPLACE
@@ -2103,7 +2105,7 @@ So
 IncrementClamp
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_STENCIL_OP_INCR_SAT
@@ -2113,7 +2115,7 @@ So
 IncrementWrap
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_STENCIL_OP_INCR
@@ -2123,7 +2125,7 @@ So
 DecrementClamp
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_STENCIL_OP_DECR_SAT
@@ -2133,7 +2135,7 @@ So
 DecrementWrap
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_STENCIL_OP_DECR
@@ -2143,7 +2145,7 @@ So
 Invert
 =
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_STENCIL_OP_INVERT
@@ -2162,12 +2164,12 @@ StencilFaceState
 )
 -
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_DEPTH_STENCILOP_DESC
 {
-d3d12
+d3d12_ty
 :
 :
 D3D12_DEPTH_STENCILOP_DESC
@@ -2220,12 +2222,12 @@ DepthStencilState
 )
 -
 >
-d3d12
+d3d12_ty
 :
 :
 D3D12_DEPTH_STENCIL_DESC
 {
-d3d12
+d3d12_ty
 :
 :
 D3D12_DEPTH_STENCIL_DESC
@@ -2250,14 +2252,14 @@ ds
 .
 depth_write_enabled
 {
-d3d12
+d3d12_ty
 :
 :
 D3D12_DEPTH_WRITE_MASK_ALL
 }
 else
 {
-d3d12
+d3d12_ty
 :
 :
 D3D12_DEPTH_WRITE_MASK_ZERO

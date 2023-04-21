@@ -136,7 +136,7 @@ InstanceError
 let
 lib_main
 =
-native
+d3d12
 :
 :
 D3D12Lib

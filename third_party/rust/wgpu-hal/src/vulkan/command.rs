@@ -232,10 +232,6 @@ block_width
 *
 (
 bpr
-.
-get
-(
-)
 /
 block_size
 )
@@ -256,10 +252,6 @@ map_or
 rpi
 |
 rpi
-.
-get
-(
-)
 *
 block_height
 )

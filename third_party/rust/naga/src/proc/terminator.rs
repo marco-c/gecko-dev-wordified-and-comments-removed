@@ -217,6 +217,15 @@ Call
 S
 :
 :
+RayQuery
+{
+.
+.
+}
+|
+S
+:
+:
 Atomic
 {
 .

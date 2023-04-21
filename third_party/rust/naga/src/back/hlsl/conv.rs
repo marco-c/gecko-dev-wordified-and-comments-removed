@@ -1152,15 +1152,6 @@ SV_InstanceID
 Self
 :
 :
-PointSize
-=
->
-"
-PSIZE
-"
-Self
-:
-:
 VertexIndex
 =
 >
@@ -1297,6 +1288,11 @@ self
 )
 )
 }
+Self
+:
+:
+PointSize
+|
 Self
 :
 :

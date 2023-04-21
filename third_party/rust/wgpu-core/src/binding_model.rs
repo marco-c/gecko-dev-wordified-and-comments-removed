@@ -136,6 +136,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 BindGroupLayoutEntryError
@@ -145,7 +149,7 @@ BindGroupLayoutEntryError
 error
 (
 "
-cube
+Cube
 dimension
 is
 not
@@ -192,7 +196,7 @@ StorageTextureReadWrite
 error
 (
 "
-arrays
+Arrays
 of
 bindings
 unsupported
@@ -245,6 +249,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 CreateBindGroupLayoutError
@@ -269,7 +277,7 @@ DeviceError
 error
 (
 "
-conflicting
+Conflicting
 binding
 at
 index
@@ -288,7 +296,7 @@ u32
 error
 (
 "
-binding
+Binding
 {
 binding
 }
@@ -385,6 +393,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 CreateBindGroupError
@@ -409,7 +421,7 @@ DeviceError
 error
 (
 "
-bind
+Bind
 group
 layout
 is
@@ -423,7 +435,7 @@ InvalidLayout
 error
 (
 "
-buffer
+Buffer
 {
 0
 :
@@ -445,7 +457,7 @@ BufferId
 error
 (
 "
-texture
+Texture
 view
 {
 0
@@ -466,7 +478,7 @@ TextureViewId
 error
 (
 "
-texture
+Texture
 {
 0
 :
@@ -486,7 +498,7 @@ TextureId
 error
 (
 "
-sampler
+Sampler
 {
 0
 :
@@ -506,7 +518,7 @@ SamplerId
 error
 (
 "
-binding
+Binding
 count
 declared
 with
@@ -540,7 +552,7 @@ usize
 error
 (
 "
-binding
+Binding
 count
 declared
 with
@@ -573,7 +585,7 @@ usize
 error
 (
 "
-array
+Array
 binding
 provided
 zero
@@ -587,7 +599,7 @@ BindingArrayZeroLength
 error
 (
 "
-bound
+Bound
 buffer
 range
 {
@@ -631,7 +643,7 @@ u64
 error
 (
 "
-buffer
+Buffer
 binding
 size
 {
@@ -664,7 +676,7 @@ u64
 error
 (
 "
-buffer
+Buffer
 binding
 size
 is
@@ -681,7 +693,7 @@ BufferId
 error
 (
 "
-number
+Number
 of
 bindings
 in
@@ -728,7 +740,7 @@ usize
 error
 (
 "
-binding
+Binding
 {
 0
 }
@@ -752,7 +764,7 @@ u32
 error
 (
 "
-unable
+Unable
 to
 find
 a
@@ -807,7 +819,7 @@ MissingTextureUsageError
 error
 (
 "
-binding
+Binding
 declared
 as
 a
@@ -831,7 +843,7 @@ SingleBindingExpected
 error
 (
 "
-buffer
+Buffer
 offset
 {
 0
@@ -870,7 +882,7 @@ u32
 error
 (
 "
-buffer
+Buffer
 binding
 {
 binding
@@ -907,7 +919,7 @@ u32
 error
 (
 "
-binding
+Binding
 {
 binding
 }
@@ -961,7 +973,7 @@ str
 error
 (
 "
-texture
+Texture
 binding
 {
 binding
@@ -1002,7 +1014,7 @@ u32
 error
 (
 "
-texture
+Texture
 binding
 {
 binding
@@ -1054,7 +1066,7 @@ TextureFormat
 error
 (
 "
-texture
+Texture
 binding
 {
 binding
@@ -1105,7 +1117,7 @@ TextureViewDimension
 error
 (
 "
-storage
+Storage
 texture
 binding
 {
@@ -1157,7 +1169,7 @@ TextureFormat
 error
 (
 "
-storage
+Storage
 texture
 bindings
 must
@@ -1200,7 +1212,7 @@ u32
 error
 (
 "
-sampler
+Sampler
 binding
 {
 binding
@@ -1241,7 +1253,7 @@ bool
 error
 (
 "
-sampler
+Sampler
 binding
 {
 binding
@@ -1282,7 +1294,7 @@ bool
 error
 (
 "
-bound
+Bound
 texture
 views
 can
@@ -1303,7 +1315,7 @@ DepthStencilAspect
 error
 (
 "
-the
+The
 adapter
 does
 not
@@ -1519,7 +1531,7 @@ BindingZone
 error
 (
 "
-stage
+Stage
 {
 0
 :
@@ -1540,7 +1552,7 @@ ShaderStages
 error
 (
 "
-whole
+Whole
 pipeline
 "
 )
@@ -1561,7 +1573,7 @@ Error
 error
 (
 "
-too
+Too
 many
 bindings
 of
@@ -2965,6 +2977,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 CreatePipelineLayoutError
@@ -2989,7 +3005,7 @@ DeviceError
 error
 (
 "
-bind
+Bind
 group
 layout
 {
@@ -3011,7 +3027,7 @@ BindGroupLayoutId
 error
 (
 "
-push
+Push
 constant
 at
 index
@@ -3065,7 +3081,7 @@ MissingFeatures
 error
 (
 "
-push
+Push
 constant
 range
 (
@@ -3137,7 +3153,7 @@ ShaderStages
 error
 (
 "
-push
+Push
 constant
 at
 index
@@ -3205,7 +3221,7 @@ BindingTypeMaxCountError
 error
 (
 "
-bind
+Bind
 group
 layout
 count
@@ -3291,6 +3307,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 PushConstantUploadError
@@ -3300,7 +3320,7 @@ PushConstantUploadError
 error
 (
 "
-provided
+Provided
 push
 constant
 with
@@ -3370,7 +3390,7 @@ PushConstantRange
 error
 (
 "
-provided
+Provided
 push
 constant
 is
@@ -3438,7 +3458,7 @@ ShaderStages
 error
 (
 "
-provided
+Provided
 push
 constant
 is
@@ -3513,7 +3533,7 @@ ShaderStages
 error
 (
 "
-provided
+Provided
 push
 constant
 is
@@ -3570,7 +3590,7 @@ ShaderStages
 error
 (
 "
-provided
+Provided
 push
 constant
 offset
@@ -4256,6 +4276,10 @@ Clone
 Debug
 Error
 )
+]
+#
+[
+non_exhaustive
 ]
 pub
 enum
@@ -5049,6 +5073,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 GetBindGroupLayoutError
@@ -5058,7 +5086,7 @@ GetBindGroupLayoutError
 error
 (
 "
-pipeline
+Pipeline
 is
 invalid
 "
@@ -5070,7 +5098,7 @@ InvalidPipeline
 error
 (
 "
-invalid
+Invalid
 group
 index
 {

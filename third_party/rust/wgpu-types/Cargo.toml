@@ -252,7 +252,7 @@ dependencies
 bitflags
 =
 "
-1
+2
 "
 [
 dependencies
@@ -286,7 +286,7 @@ serde_json
 .
 0
 .
-85
+95
 "
 [
 dev

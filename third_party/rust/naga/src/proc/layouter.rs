@@ -1429,6 +1429,16 @@ Sampler
 Ti
 :
 :
+AccelerationStructure
+|
+Ti
+:
+:
+RayQuery
+|
+Ti
+:
+:
 BindingArray
 {
 .

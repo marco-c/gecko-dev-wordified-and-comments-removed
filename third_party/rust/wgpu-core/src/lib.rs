@@ -1534,7 +1534,7 @@ hash
 :
 BuildHasherDefault
 <
-fxhash
+rustc_hash
 :
 :
 FxHasher
@@ -1564,7 +1564,7 @@ hash
 :
 BuildHasherDefault
 <
-fxhash
+rustc_hash
 :
 :
 FxHasher

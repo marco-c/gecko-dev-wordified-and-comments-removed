@@ -180,7 +180,7 @@ library
 D3D11Lib
 adapter
 :
-native
+d3d12
 :
 :
 DxgiAdapter

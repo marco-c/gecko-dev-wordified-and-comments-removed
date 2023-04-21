@@ -1871,6 +1871,10 @@ Debug
 Error
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 CommandEncoderError
@@ -1880,7 +1884,7 @@ CommandEncoderError
 error
 (
 "
-command
+Command
 encoder
 is
 invalid
@@ -1893,7 +1897,7 @@ Invalid
 error
 (
 "
-command
+Command
 encoder
 must
 be
