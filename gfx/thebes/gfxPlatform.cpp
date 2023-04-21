@@ -14375,7 +14375,9 @@ flip
 -
 sequential
 "
-false
+IsWin10OrLater
+(
+)
 )
 )
 {
