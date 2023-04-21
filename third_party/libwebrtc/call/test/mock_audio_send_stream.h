@@ -70,6 +70,8 @@ const
 Config
 &
 config
+SetParametersCallback
+callback
 )
 (
 override

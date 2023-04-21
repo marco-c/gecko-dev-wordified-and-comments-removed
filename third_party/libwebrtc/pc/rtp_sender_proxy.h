@@ -135,6 +135,15 @@ const
 RtpParameters
 &
 )
+PROXY_METHOD2
+(
+void
+SetParametersAsync
+const
+RtpParameters
+&
+SetParametersCallback
+)
 PROXY_CONSTMETHOD0
 (
 rtc

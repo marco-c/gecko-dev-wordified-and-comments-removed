@@ -17,6 +17,12 @@ rtc_event_log
 "
 "
 +
+media
+/
+base
+"
+"
++
 modules
 /
 async_audio_processing

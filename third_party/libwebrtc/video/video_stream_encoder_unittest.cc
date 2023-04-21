@@ -5347,6 +5347,7 @@ move
 video_encoder_config
 )
 kMaxPayloadLength
+nullptr
 )
 ;
 video_stream_encoder_

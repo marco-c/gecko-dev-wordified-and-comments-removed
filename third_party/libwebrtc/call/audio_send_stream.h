@@ -130,6 +130,15 @@ include
 "
 api
 /
+rtp_sender_interface
+.
+h
+"
+#
+include
+"
+api
+/
 scoped_refptr
 .
 h
@@ -693,6 +702,8 @@ const
 Config
 &
 config
+SetParametersCallback
+callback
 )
 =
 0

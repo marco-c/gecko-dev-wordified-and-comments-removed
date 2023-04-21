@@ -36934,6 +36934,7 @@ SetRtpSendParameters
 (
 kSsrc
 parameters
+nullptr
 )
 .
 ok
@@ -36981,6 +36982,7 @@ SetRtpSendParameters
 (
 kSsrc
 parameters
+nullptr
 )
 .
 ok

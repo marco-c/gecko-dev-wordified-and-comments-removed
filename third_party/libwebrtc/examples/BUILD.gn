@@ -4732,6 +4732,14 @@ media_stream_interface
 /
 api
 :
+rtp_sender_interface
+"
+"
+.
+.
+/
+api
+:
 scoped_refptr
 "
 "
