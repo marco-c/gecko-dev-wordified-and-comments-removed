@@ -654,7 +654,7 @@ sProcessTokenCounter
 ;
 mGPUChild
 =
-MakeUnique
+MakeRefPtr
 <
 GPUChild
 >
