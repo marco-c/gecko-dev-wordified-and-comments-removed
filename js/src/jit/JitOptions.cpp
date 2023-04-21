@@ -561,6 +561,12 @@ baselineJitWarmUpThreshold
 ;
 SET_DEFAULT
 (
+disableJitHints
+false
+)
+;
+SET_DEFAULT
+(
 trialInliningWarmUpThreshold
 500
 )
