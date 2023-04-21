@@ -5572,9 +5572,14 @@ WebsiteFilter
 type
 "
 :
+[
 "
 object
 "
+"
+JSON
+"
+]
 "
 properties
 "
