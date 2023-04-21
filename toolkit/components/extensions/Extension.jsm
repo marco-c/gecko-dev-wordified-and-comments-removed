@@ -8555,6 +8555,8 @@ GetStringFromName
 webextSitePerms
 .
 descriptionGatedPerms
+.
+midi
 )
 ;
 return
