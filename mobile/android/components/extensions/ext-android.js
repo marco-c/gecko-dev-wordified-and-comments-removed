@@ -158,14 +158,6 @@ defineLazyGetter
 =
 ExtensionCommon
 ;
-global
-.
-GlobalEventDispatcher
-=
-EventDispatcher
-.
-instance
-;
 const
 BrowserStatusFilter
 =
@@ -708,7 +700,9 @@ data
 }
 }
 ;
-GlobalEventDispatcher
+EventDispatcher
+.
+instance
 .
 registerListener
 (
@@ -724,7 +718,9 @@ return
 =
 >
 {
-GlobalEventDispatcher
+EventDispatcher
+.
+instance
 .
 unregisterListener
 (
