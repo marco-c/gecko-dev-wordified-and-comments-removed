@@ -290,6 +290,10 @@ webkitgtk_minibrowser
 "
                 
 "
+wktr
+"
+                
+"
 epiphany
 "
 ]
