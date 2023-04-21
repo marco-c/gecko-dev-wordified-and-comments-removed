@@ -667,6 +667,9 @@ MOZ_ASSERT
 result
 !
 =
+mozilla
+:
+:
 kOutputFull
 )
 ;
