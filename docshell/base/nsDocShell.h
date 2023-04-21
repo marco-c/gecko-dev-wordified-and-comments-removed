@@ -3776,11 +3776,6 @@ mIsAppTab
 1
 ;
 bool
-mDeviceSizeIsPageSize
-:
-1
-;
-bool
 mWindowDraggingAllowed
 :
 1

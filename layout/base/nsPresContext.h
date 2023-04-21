@@ -3191,11 +3191,6 @@ true
 ;
 }
 bool
-IsDeviceSizePageSize
-(
-)
-;
-bool
 HasWarnedAboutTooLargeDashedOrDottedRadius
 (
 )
