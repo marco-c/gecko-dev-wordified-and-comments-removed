@@ -146,6 +146,13 @@ Config
 GainController2
 &
 config
+const
+InputVolumeController
+:
+:
+Config
+&
+input_volume_controller_config
 int
 sample_rate_hz
 int
