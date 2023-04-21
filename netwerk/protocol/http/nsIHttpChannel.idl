@@ -433,5 +433,12 @@ UniqueProfileChunkedBuffer
 aSource
 )
 ;
+[
+must_use
+]
+attribute
+AString
+classicScriptHintCharset
+;
 }
 ;

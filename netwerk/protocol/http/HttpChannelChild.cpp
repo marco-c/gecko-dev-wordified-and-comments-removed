@@ -10860,6 +10860,14 @@ earlyHintPreloaderId
 =
 mEarlyHintPreloaderId
 ;
+openArgs
+.
+classicScriptHintCharset
+(
+)
+=
+mClassicScriptHintCharset
+;
 SetEventTarget
 (
 )
