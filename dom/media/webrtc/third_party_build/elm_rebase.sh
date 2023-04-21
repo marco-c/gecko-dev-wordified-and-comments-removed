@@ -1246,7 +1246,7 @@ hg
 bookmark
 -
 r
-MOZ_TOP_FF
+elm
 MOZ_BOOKMARK
 hg
 update
