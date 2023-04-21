@@ -81,7 +81,9 @@ EXTRA_JS_MODULES
 "
 PromptCollection
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS
