@@ -2492,7 +2492,6 @@ i
 bool
 isPartitioned
 =
-(
 StaticPrefs
 :
 :
@@ -2505,15 +2504,6 @@ StaticPrefs
 :
 :
 privacy_firstparty_isolate
-(
-)
-)
-&
-&
-StaticPrefs
-:
-:
-privacy_partition_network_state_ws_connection_queue
 (
 )
 ;
