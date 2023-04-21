@@ -91,7 +91,7 @@ setuptools
 .
 0
 .
-5
+7
 types
 -
 six
