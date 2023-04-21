@@ -802,6 +802,17 @@ VideoType
 :
 :
 kYV12
+|
+|
+capability
+.
+videoType
+=
+=
+VideoType
+:
+:
+kNV12
 )
 )
 {
