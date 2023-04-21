@@ -1738,17 +1738,6 @@ src
 /
 netwerk
 /
-cache
-/
-nsDiskCacheDevice
-.
-cpp
-src
-:
-*
-/
-netwerk
-/
 cache2
 /
 CacheHashUtils

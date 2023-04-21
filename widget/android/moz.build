@@ -729,12 +729,6 @@ base
 "
 "
 /
-netwerk
-/
-cache
-"
-"
-/
 toolkit
 /
 components
