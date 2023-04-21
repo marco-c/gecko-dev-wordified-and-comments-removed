@@ -35,7 +35,9 @@ EXTRA_JS_MODULES
 "
 ShieldContentProcess
 .
-jsm
+sys
+.
+mjs
 "
 ]
 TESTING_JS_MODULES
@@ -47,7 +49,9 @@ test
 /
 NormandyTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS
