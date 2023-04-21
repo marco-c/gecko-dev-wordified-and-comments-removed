@@ -1452,12 +1452,6 @@ ACTIVE_LOCK
 <
 <
 16
-ACTIVE_WEBTRANSPORT
-=
-1
-<
-<
-17
 }
 ;
 }

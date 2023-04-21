@@ -298,14 +298,6 @@ aCreated
 final
 ;
 void
-WebTransportNotified
-(
-bool
-aCreated
-)
-final
-;
-void
 Terminated
 (
 )
@@ -451,11 +443,6 @@ mFrozen
 ;
 uint32_t
 mLockCount
-=
-0
-;
-uint32_t
-mWebTransportCount
 =
 0
 ;

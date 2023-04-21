@@ -214,13 +214,6 @@ aCreated
 )
 ;
 async
-NotifyWebTransport
-(
-bool
-aCreated
-)
-;
-async
 Close
 (
 )
