@@ -10394,7 +10394,7 @@ ShellService
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -10406,7 +10406,9 @@ modules
 /
 ShellService
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

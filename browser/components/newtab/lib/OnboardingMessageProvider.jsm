@@ -125,15 +125,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-lazy
-{
 ShellService
 :
 "
@@ -146,7 +137,9 @@ modules
 /
 ShellService
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
