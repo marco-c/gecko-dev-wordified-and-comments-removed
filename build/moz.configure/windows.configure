@@ -2247,8 +2247,9 @@ runtime_dir
 :
 libs
 .
-append
+insert
 (
+0
 runtime_dir
 )
 return
