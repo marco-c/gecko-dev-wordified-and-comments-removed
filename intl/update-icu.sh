@@ -648,6 +648,16 @@ ICU
 .
 diff
 \
+bug
+-
+1818103
+-
+CLDR
+-
+16399
+.
+diff
+\
 ;
 do
 echo
