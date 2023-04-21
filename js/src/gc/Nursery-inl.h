@@ -598,6 +598,12 @@ nursery
 .
 allocateBuffer
 (
+cx
+-
+>
+zone
+(
+)
 obj
 nbytes
 )

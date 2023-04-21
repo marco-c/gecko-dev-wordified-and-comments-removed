@@ -291,13 +291,6 @@ js
 FunctionExtendedClassPtr
 )
 ;
-static
-constexpr
-size_t
-NumDynamicSlots
-=
-0
-;
 MOZ_ASSERT
 (
 calculateDynamicSlots
@@ -318,7 +311,7 @@ clasp
 )
 =
 =
-NumDynamicSlots
+0
 )
 ;
 NativeObject
@@ -334,7 +327,6 @@ NativeObject
 >
 (
 kind
-NumDynamicSlots
 heap
 clasp
 )

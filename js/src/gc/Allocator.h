@@ -261,8 +261,6 @@ gc
 :
 AllocKind
 kind
-size_t
-nDynamicSlots
 gc
 :
 :

@@ -3376,8 +3376,6 @@ JSContext
 cx
 size_t
 thingSize
-size_t
-nDynamicSlots
 const
 JSClass
 *
@@ -3404,8 +3402,6 @@ AllocKind
 kind
 size_t
 thingSize
-size_t
-nDynamicSlots
 )
 ;
 template

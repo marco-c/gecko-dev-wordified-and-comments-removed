@@ -651,7 +651,6 @@ ProxyObject
 >
 (
 allocKind
-0
 heap
 clasp
 )

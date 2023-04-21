@@ -1467,7 +1467,6 @@ typeDefData
 -
 >
 allocKind
-0
 initialHeap
 typeDefData
 -
