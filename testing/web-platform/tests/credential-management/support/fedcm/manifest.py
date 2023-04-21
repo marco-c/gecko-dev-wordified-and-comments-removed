@@ -161,6 +161,26 @@ Origin
 "
 )
   
+response
+.
+headers
+.
+set
+(
+b
+"
+Content
+-
+Type
+"
+b
+"
+application
+/
+json
+"
+)
+  
 return
 "
 "

@@ -320,6 +320,26 @@ parameter
 "
 )
   
+response
+.
+headers
+.
+set
+(
+b
+"
+Content
+-
+Type
+"
+b
+"
+application
+/
+json
+"
+)
+  
 account_id
 =
 request
