@@ -766,7 +766,7 @@ return
 persist
 -
 >
-SavePrivacyAwareURI
+SaveURI
 (
 inSourceURI
 inTriggeringPrincipal

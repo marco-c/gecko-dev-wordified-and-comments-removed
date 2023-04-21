@@ -947,7 +947,7 @@ originAttributes
 ;
 webBrowserPersist
 .
-savePrivacyAwareURI
+saveURI
 (
 uri
 principal

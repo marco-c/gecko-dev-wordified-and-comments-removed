@@ -1444,7 +1444,7 @@ else
 {
 persist
 .
-savePrivacyAwareURI
+saveURI
 (
 persistArgs
 .

@@ -2899,7 +2899,7 @@ NS_IMETHODIMP
 nsWebBrowser
 :
 :
-SavePrivacyAwareURI
+SaveURI
 (
 nsIURI
 *
@@ -3058,7 +3058,7 @@ rv
 mPersist
 -
 >
-SavePrivacyAwareURI
+SaveURI
 (
 uri
 aPrincipal

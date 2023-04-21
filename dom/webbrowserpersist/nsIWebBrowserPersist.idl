@@ -1039,7 +1039,7 @@ invalid
 *
 /
 void
-savePrivacyAwareURI
+saveURI
 (
 in
 nsIURI

@@ -807,7 +807,7 @@ return
 wbp
 -
 >
-SavePrivacyAwareURI
+SaveURI
 (
 imageURI
 aElement

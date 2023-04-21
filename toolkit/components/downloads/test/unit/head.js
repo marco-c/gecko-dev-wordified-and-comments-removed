@@ -1355,7 +1355,7 @@ transfer
 ;
 persist
 .
-savePrivacyAwareURI
+saveURI
 (
 sourceURI
 Services
