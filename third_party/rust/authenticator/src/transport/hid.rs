@@ -18,7 +18,7 @@ crate
 crypto
 :
 :
-ECDHSecret
+SharedSecret
 ;
 use
 crate
@@ -245,7 +245,7 @@ mut
 self
 secret
 :
-ECDHSecret
+SharedSecret
 )
 ;
 fn
@@ -259,7 +259,7 @@ self
 Option
 <
 &
-ECDHSecret
+SharedSecret
 >
 ;
 fn

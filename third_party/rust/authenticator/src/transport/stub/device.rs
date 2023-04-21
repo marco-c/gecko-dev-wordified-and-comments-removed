@@ -28,8 +28,8 @@ transport
 :
 {
 AuthenticatorInfo
-ECDHSecret
 HIDError
+SharedSecret
 }
 ;
 use
@@ -504,7 +504,7 @@ mut
 self
 secret
 :
-ECDHSecret
+SharedSecret
 )
 {
 unimplemented
@@ -523,7 +523,7 @@ self
 Option
 <
 &
-ECDHSecret
+SharedSecret
 >
 {
 unimplemented

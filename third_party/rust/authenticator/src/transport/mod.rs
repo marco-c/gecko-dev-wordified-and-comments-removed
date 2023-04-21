@@ -14,7 +14,7 @@ crate
 crypto
 :
 :
-ECDHSecret
+SharedSecret
 ;
 use
 crate
@@ -29,10 +29,7 @@ commands
 client_pin
 :
 :
-{
 GetKeyAgreement
-PinAuth
-}
 ;
 use
 crate
@@ -109,7 +106,6 @@ commands
 :
 {
 CommandError
-PinAuthCommand
 Request
 RequestCtap1
 RequestCtap2
@@ -1480,7 +1476,6 @@ keep_alive
 else
 {
 let
-mut
 msg
 =
 match
@@ -1510,22 +1505,6 @@ Cancelled
 ;
 }
 }
-;
-msg
-.
-set_pin_auth
-(
-Some
-(
-PinAuth
-:
-:
-empty_pin_auth
-(
-)
-)
-None
-)
 ;
 info
 !
@@ -1793,7 +1772,7 @@ self
 Result
 <
 (
-ECDHSecret
+SharedSecret
 AuthenticatorInfo
 )
 HIDError
