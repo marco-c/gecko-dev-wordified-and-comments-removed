@@ -410,6 +410,17 @@ test
 ;
 if
 (
+!
+getBuildConfiguration
+(
+)
+[
+"
+android
+"
+]
+&
+&
 Math
 .
 cos
