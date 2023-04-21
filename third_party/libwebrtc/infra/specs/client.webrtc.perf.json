@@ -4526,7 +4526,8 @@ webrtc_perf_tests
 }
 "
 Perf
-Win7
+Win
+10
 "
 :
 {
