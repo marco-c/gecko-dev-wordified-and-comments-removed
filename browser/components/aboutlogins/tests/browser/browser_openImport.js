@@ -144,9 +144,8 @@ promiseImportWindow
 =
 BrowserTestUtils
 .
-waitForMigrationWizard
+domWindowOpenedAndLoaded
 (
-window
 )
 ;
 let
@@ -372,12 +371,10 @@ content
 }
 )
 ;
-await
-BrowserTestUtils
-.
-closeMigrationWizard
-(
 importWindow
+.
+close
+(
 )
 ;
 }
