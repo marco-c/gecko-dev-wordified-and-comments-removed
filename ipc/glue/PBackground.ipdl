@@ -265,6 +265,9 @@ protocol
 PFetch
 ;
 include
+ClientIPCTypes
+;
+include
 DOMTypes
 ;
 include
@@ -839,6 +842,9 @@ aURL
 nullable
 nsIPrincipal
 aPrincipal
+IPCClientInfo
+?
+aClientInfo
 bool
 aDedicated
 bool
