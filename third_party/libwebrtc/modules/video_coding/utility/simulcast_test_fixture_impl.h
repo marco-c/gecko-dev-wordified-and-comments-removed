@@ -154,6 +154,12 @@ TestKeyFrameRequestsOnAllStreams
 override
 ;
 void
+TestKeyFrameRequestsOnSpecificStreams
+(
+)
+override
+;
+void
 TestPaddingAllStreams
 (
 )
