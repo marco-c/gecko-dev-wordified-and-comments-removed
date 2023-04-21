@@ -9718,14 +9718,6 @@ stylesheets
 extensionStylesheets
 ;
 }
-browser
-.
-browsingContext
-.
-isAppTab
-=
-true
-;
 mm
 .
 sendAsyncMessage

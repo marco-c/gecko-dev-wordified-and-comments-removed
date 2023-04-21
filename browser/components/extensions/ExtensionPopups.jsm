@@ -2090,14 +2090,6 @@ DidChangeBrowserRemoteness
 initBrowser
 )
 ;
-browser
-.
-browsingContext
-.
-isAppTab
-=
-true
-;
 if
 (
 !
