@@ -2400,6 +2400,9 @@ JSVM_RESULTS_DIR
 in
 env
             
+try
+:
+                
 shutil
 .
 rmtree
@@ -2409,6 +2412,15 @@ self
 gcov_dir
 )
             
+except
+FileNotFoundError
+:
+                
+pass
+            
+try
+:
+                
 shutil
 .
 rmtree
@@ -2417,6 +2429,12 @@ self
 .
 jsvm_dir
 )
+            
+except
+FileNotFoundError
+:
+                
+pass
     
 def
 is_covered
