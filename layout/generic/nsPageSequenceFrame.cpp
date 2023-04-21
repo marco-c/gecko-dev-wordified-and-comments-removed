@@ -1662,6 +1662,13 @@ get
 )
 )
 ;
+sheet
+-
+>
+ClaimPageFrameFromPrevInFlow
+(
+)
+;
 ReflowInput
 kidReflowInput
 (

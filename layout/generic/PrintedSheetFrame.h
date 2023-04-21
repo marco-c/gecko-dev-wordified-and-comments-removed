@@ -70,6 +70,11 @@ aPD
 ;
 }
 void
+ClaimPageFrameFromPrevInFlow
+(
+)
+;
+void
 Reflow
 (
 nsPresContext
