@@ -5899,6 +5899,9 @@ order
 /
 #
 PopupAutoComplete
+:
+is
+(
 [
 resultstyles
 ~
@@ -5907,8 +5910,6 @@ resultstyles
 loginsFooter
 "
 ]
-#
-PopupAutoComplete
 [
 resultstyles
 ~
@@ -5917,6 +5918,13 @@ resultstyles
 insecureWarning
 "
 ]
+)
+:
+:
+part
+(
+content
+)
 {
 min
 -
@@ -5927,6 +5935,9 @@ width
 }
 #
 PopupAutoComplete
+:
+is
+(
 [
 resultstyles
 ~
@@ -5935,8 +5946,6 @@ resultstyles
 importableLogins
 "
 ]
-#
-PopupAutoComplete
 [
 resultstyles
 ~
@@ -5945,6 +5954,13 @@ resultstyles
 generatedPassword
 "
 ]
+)
+:
+:
+part
+(
+content
+)
 {
 min
 -
