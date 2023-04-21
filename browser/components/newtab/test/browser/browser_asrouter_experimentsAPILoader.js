@@ -271,7 +271,9 @@ Container
 "
 users
 :
+"
 1455872
+"
 author
 :
 "
@@ -279,9 +281,11 @@ Mozilla
 "
 rating
 :
+"
 4
 .
 5
+"
 amo_url
 :
 "
