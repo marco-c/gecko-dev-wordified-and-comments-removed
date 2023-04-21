@@ -19004,6 +19004,17 @@ NonNull
 WebExtension
 )
 ;
+method
+UiThread
+default
+public
+void
+onEnabled
+(
+NonNull
+WebExtension
+)
+;
 }
 public
 static
