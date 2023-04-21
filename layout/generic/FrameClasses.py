@@ -170,7 +170,7 @@ Frame
 nsFileControlFrame
 "
 "
-FileControl
+Block
 "
 LEAF
 )

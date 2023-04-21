@@ -843,6 +843,10 @@ nsFileControlFrame
 )
 NS_QUERYFRAME_ENTRY
 (
+nsFileControlFrame
+)
+NS_QUERYFRAME_ENTRY
+(
 nsIAnonymousContentCreator
 )
 NS_QUERYFRAME_ENTRY
