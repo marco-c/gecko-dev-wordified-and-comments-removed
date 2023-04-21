@@ -7873,6 +7873,16 @@ return
 sMayHaveFormRadioStateChangeListeners
 ;
 }
+static
+nsIContent
+*
+GetClosestLinkInFlatTree
+(
+nsIContent
+*
+aContent
+)
+;
 private
 :
 static
