@@ -5,17 +5,6 @@ nsBidiUtils
 .
 h
 "
-namespace
-mozilla
-{
-static
-const
-uint32_t
-kMinRTLChar
-=
-0x0590
-;
-}
 #
 define
 ARABIC_TO_HINDI_DIGIT_INCREMENT

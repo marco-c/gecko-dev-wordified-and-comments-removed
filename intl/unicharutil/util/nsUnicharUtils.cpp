@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsUnicodeProperties
+.
+h
+"
+#
+include
+"
 nsUTF8Utils
 .
 h
