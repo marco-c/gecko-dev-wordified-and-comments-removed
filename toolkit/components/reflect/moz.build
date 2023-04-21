@@ -35,7 +35,9 @@ EXTRA_JS_MODULES
 "
 reflect
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS
