@@ -585,9 +585,13 @@ ShutdownBlockingTicket
 >
 Create
 (
-nsString
+const
+nsAString
+&
 aName
-nsString
+const
+nsAString
+&
 aFileName
 int32_t
 aLineNr
