@@ -1674,7 +1674,12 @@ DCHECK_LE
 old_pc
 re_code
 .
-instruction_end
+code
+(
+kAcquireLoad
+)
+.
+InstructionEnd
 (
 )
 )
@@ -2438,6 +2443,7 @@ RegexpMatcherSig
 :
 FromCode
 (
+isolate
 code
 )
 ;
