@@ -1529,12 +1529,6 @@ nsIContentPolicy
 :
 TYPE_WEB_IDENTITY
 :
-case
-nsIContentPolicy
-:
-:
-TYPE_WEB_TRANSPORT
-:
 return
 nsIContentSecurityPolicy
 :

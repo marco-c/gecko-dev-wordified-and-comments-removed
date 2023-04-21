@@ -555,16 +555,6 @@ nsIPrincipal
 *
 aPrincipal
 const
-mozilla
-:
-:
-Maybe
-<
-IPCClientInfo
->
-&
-aClientInfo
-const
 bool
 &
 aDedicated
