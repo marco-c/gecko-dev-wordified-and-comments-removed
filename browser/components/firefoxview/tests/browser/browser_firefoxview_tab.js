@@ -630,6 +630,9 @@ await
 withFirefoxView
 (
 {
+openNewWindow
+:
+true
 }
 async
 browser
@@ -790,6 +793,9 @@ await
 withFirefoxView
 (
 {
+openNewWindow
+:
+true
 }
 async
 browser
@@ -1718,9 +1724,6 @@ await
 withFirefoxView
 (
 {
-win
-:
-window
 }
 async
 browser
