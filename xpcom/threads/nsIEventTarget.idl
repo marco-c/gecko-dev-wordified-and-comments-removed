@@ -131,13 +131,6 @@ DISPATCH_NORMAL
 const
 unsigned
 long
-DISPATCH_SYNC
-=
-1
-;
-const
-unsigned
-long
 DISPATCH_AT_END
 =
 2
@@ -309,13 +302,6 @@ nsIEventTarget
 :
 :
 DISPATCH_NORMAL
-#
-define
-NS_DISPATCH_SYNC
-nsIEventTarget
-:
-:
-DISPATCH_SYNC
 #
 define
 NS_DISPATCH_AT_END

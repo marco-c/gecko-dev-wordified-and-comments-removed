@@ -642,12 +642,7 @@ this
 test_utils_
 -
 >
-sts_target
-(
-)
--
->
-Dispatch
+SyncDispatchToSTS
 (
 WrapRunnable
 (
@@ -658,7 +653,6 @@ TransportTestPeer
 :
 Disconnect_s
 )
-NS_DISPATCH_SYNC
 )
 ;
 std
@@ -693,12 +687,7 @@ peer
 test_utils_
 -
 >
-sts_target
-(
-)
--
->
-Dispatch
+SyncDispatchToSTS
 (
 WrapRunnable
 (
@@ -710,7 +699,6 @@ TransportTestPeer
 ConnectSocket_s
 peer
 )
-NS_DISPATCH_SYNC
 )
 ;
 }

@@ -106,6 +106,13 @@ PluginCrashedEvent
 h
 "
 #
+include
+"
+nsThreadUtils
+.
+h
+"
+#
 if
 defined
 (
@@ -2038,6 +2045,7 @@ r
 forget
 (
 )
+flags
 )
 ;
 }

@@ -110,11 +110,13 @@ ASSERT_TRUE
 sts
 )
 ;
-sts
--
->
-Dispatch
+NS_DispatchAndSpinEventLoopUntilComplete
 (
+"
+test
+"
+_ns
+sts
 NS_NewRunnableFunction
 (
 "
@@ -1286,7 +1288,6 @@ port
 }
 }
 )
-NS_DISPATCH_SYNC
 )
 ;
 }

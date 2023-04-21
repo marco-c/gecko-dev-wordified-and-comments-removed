@@ -591,11 +591,13 @@ tried
 +
 )
 {
-sts
--
->
-Dispatch
+NS_DispatchAndSpinEventLoopUntilComplete
 (
+"
+test
+"
+_ns
+sts
 NS_NewRunnableFunction
 (
 "
@@ -754,7 +756,6 @@ nullptr
 ;
 }
 )
-NS_DISPATCH_SYNC
 )
 ;
 waiter
