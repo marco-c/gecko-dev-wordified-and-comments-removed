@@ -257,10 +257,6 @@ isArrow
 (
 )
 )
-isMonomorphicInlined_
-(
-false
-)
 {
 }
 #
