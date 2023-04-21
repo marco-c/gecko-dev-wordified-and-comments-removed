@@ -201,9 +201,11 @@ WorkAroundDriverBugs
 )
 )
 {
-#
-ifdef
-XP_MACOSX
+if
+(
+kIsMacOS
+)
+{
 options
 .
 unfoldShortCircuit
@@ -219,6 +221,12 @@ true
 options
 .
 initOutputVariables
+=
+true
+;
+options
+.
+initGLPointSize
 =
 true
 ;
@@ -254,8 +262,7 @@ rewriteTexelFetchOffsetToTexelFetch
 true
 ;
 }
-#
-endif
+}
 if
 (
 !
