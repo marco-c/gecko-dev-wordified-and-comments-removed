@@ -25,13 +25,6 @@ h
 #
 include
 "
-nsLeafBoxFrame
-.
-h
-"
-#
-include
-"
 nsITreeView
 .
 h

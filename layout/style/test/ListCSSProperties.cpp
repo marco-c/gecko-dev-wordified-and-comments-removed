@@ -410,14 +410,6 @@ collapse
 -
 moz
 -
-box
--
-layout
-"
-"
--
-moz
--
 font
 -
 smoothing

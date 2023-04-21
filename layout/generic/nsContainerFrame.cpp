@@ -221,13 +221,6 @@ h
 #
 include
 "
-nsBoxLayoutState
-.
-h
-"
-#
-include
-"
 nsCSSFrameConstructor
 .
 h

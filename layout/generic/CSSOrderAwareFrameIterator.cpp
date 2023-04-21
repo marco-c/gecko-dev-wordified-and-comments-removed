@@ -31,14 +31,6 @@ IsFlexOrGridContainer
 )
 |
 |
-aFrame
--
->
-IsXULBoxFrame
-(
-)
-|
-|
 (
 aFrame
 -

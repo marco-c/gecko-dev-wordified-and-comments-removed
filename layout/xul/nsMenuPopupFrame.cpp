@@ -151,13 +151,6 @@ h
 #
 include
 "
-nsBoxLayoutState
-.
-h
-"
-#
-include
-"
 nsIScrollableFrame
 .
 h

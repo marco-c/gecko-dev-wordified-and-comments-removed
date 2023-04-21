@@ -103,9 +103,6 @@ class
 gfxContext
 ;
 class
-nsBoxLayoutState
-;
-class
 nsIScrollPositionListener
 ;
 class

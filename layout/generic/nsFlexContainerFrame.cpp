@@ -294,8 +294,6 @@ aFlexContainer
 >
 HasAnyStateBits
 (
-NS_STATE_FLEX_IS_EMULATING_LEGACY_MOZ_BOX
-|
 NS_STATE_FLEX_IS_EMULATING_LEGACY_WEBKIT_BOX
 )
 ;
@@ -10387,24 +10385,6 @@ displayInside
 StyleDisplayInside
 :
 :
-MozBox
-)
-{
-AddStateBits
-(
-NS_STATE_FLEX_IS_EMULATING_LEGACY_MOZ_BOX
-)
-;
-}
-else
-if
-(
-displayInside
-=
-=
-StyleDisplayInside
-:
-:
 WebkitBox
 )
 {
@@ -15337,7 +15317,6 @@ const
 bool
 boxOrientIsVertical
 =
-(
 styleXUL
 -
 >
@@ -15348,7 +15327,6 @@ StyleBoxOrient
 :
 :
 Vertical
-)
 ;
 const
 bool
@@ -19841,7 +19819,6 @@ flexContainer
 bool
 boxOrientIsVertical
 =
-(
 flexContainer
 -
 >
@@ -19857,7 +19834,6 @@ StyleBoxOrient
 :
 :
 Vertical
-)
 ;
 return
 flexItemWM

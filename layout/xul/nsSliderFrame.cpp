@@ -108,13 +108,6 @@ h
 #
 include
 "
-nsBoxLayoutState
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

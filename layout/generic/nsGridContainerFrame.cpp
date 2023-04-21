@@ -163,13 +163,6 @@ h
 #
 include
 "
-nsBoxLayoutState
-.
-h
-"
-#
-include
-"
 nsCSSAnonBoxes
 .
 h

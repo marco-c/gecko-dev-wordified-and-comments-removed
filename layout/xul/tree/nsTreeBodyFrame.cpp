@@ -334,13 +334,6 @@ h
 #
 include
 "
-nsBoxLayoutState
-.
-h
-"
-#
-include
-"
 nsTreeContentView
 .
 h
