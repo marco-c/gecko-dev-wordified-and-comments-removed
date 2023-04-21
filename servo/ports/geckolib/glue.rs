@@ -15430,9 +15430,18 @@ as_sheet
 (
 )
 .
-unwrap
+map_or
+(
+ptr
+:
+:
+null
 (
 )
+|
+s
+|
+s
 .
 raw
 (
@@ -15441,6 +15450,7 @@ as
 *
 const
 DomStyleSheet
+)
 }
 )
 }

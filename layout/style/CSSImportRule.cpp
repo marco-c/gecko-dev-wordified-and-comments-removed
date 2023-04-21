@@ -115,11 +115,6 @@ get
 )
 )
 ;
-MOZ_ASSERT
-(
-sheet
-)
-;
 mChildSheet
 =
 const_cast
@@ -131,6 +126,11 @@ StyleSheet
 sheet
 )
 ;
+if
+(
+mChildSheet
+)
+{
 mChildSheet
 -
 >
@@ -140,6 +140,7 @@ AddReferencingRule
 this
 )
 ;
+}
 }
 CSSImportRule
 :
@@ -476,6 +477,11 @@ get
 )
 )
 ;
+if
+(
+mChildSheet
+)
+{
 mChildSheet
 -
 >
@@ -486,6 +492,7 @@ this
 )
 ;
 }
+}
 StyleSheet
 *
 CSSImportRule
@@ -493,6 +500,11 @@ CSSImportRule
 :
 GetStyleSheetForBindings
 (
+)
+{
+if
+(
+mChildSheet
 )
 {
 if
@@ -513,6 +525,7 @@ EnsureUniqueInner
 (
 )
 ;
+}
 }
 return
 mChildSheet
