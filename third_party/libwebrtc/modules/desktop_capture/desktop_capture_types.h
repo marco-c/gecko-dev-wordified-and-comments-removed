@@ -56,6 +56,13 @@ kNullWindowId
 =
 0
 ;
+const
+int64_t
+kInvalidDisplayId
+=
+-
+1
+;
 #
 if
 defined
