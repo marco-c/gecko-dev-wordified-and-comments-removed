@@ -9602,6 +9602,8 @@ The
 number
 of
 history
+or
+bookmark
 items
 opened
 from
@@ -9663,6 +9665,15 @@ Library
 window
 was
 opened
+keyed
+by
+'
+history
+'
+or
+'
+bookmarks
+'
 expires
 :
 never
@@ -9713,6 +9724,10 @@ The
 number
 of
 history
+-
+specific
+or
+bookmark
 -
 specific
 searches
