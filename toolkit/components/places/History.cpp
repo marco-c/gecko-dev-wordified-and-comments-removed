@@ -160,13 +160,6 @@ h
 #
 include
 "
-nsAppDirectoryServiceDefs
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

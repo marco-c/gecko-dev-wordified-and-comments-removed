@@ -44,13 +44,6 @@ h
 #
 include
 "
-content_decryption_module
-.
-h
-"
-#
-include
-"
 mozilla
 /
 CheckedInt
@@ -418,9 +411,6 @@ IsValid
 )
 )
 {
-cdm
-:
-:
 Status
 rv
 =
@@ -1009,9 +999,6 @@ aVideoFrame
 >
 SetFormat
 (
-cdm
-:
-:
 kI420
 )
 ;
@@ -1645,9 +1632,6 @@ initialized
 )
 ;
 return
-cdm
-:
-:
 Status
 :
 :

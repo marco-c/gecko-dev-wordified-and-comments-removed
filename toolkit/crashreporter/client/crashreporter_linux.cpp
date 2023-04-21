@@ -362,9 +362,6 @@ static
 bool
 WriteStrings
 (
-std
-:
-:
 ostream
 &
 out
@@ -480,9 +477,6 @@ bool
 escape
 )
 {
-std
-:
-:
 ofstream
 *
 f

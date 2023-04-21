@@ -382,3 +382,6 @@ Toolkit
 Places
 "
 )
+REQUIRES_UNIFIED_BUILD
+=
+True

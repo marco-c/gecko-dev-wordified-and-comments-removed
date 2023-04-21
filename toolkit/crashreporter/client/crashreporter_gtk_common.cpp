@@ -433,6 +433,7 @@ return
 true
 ;
 }
+static
 gboolean
 CloseApp
 (

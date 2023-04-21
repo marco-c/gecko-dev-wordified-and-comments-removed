@@ -20,13 +20,6 @@ Attributes
 .
 h
 "
-#
-include
-"
-nsCOMPtr
-.
-h
-"
 class
 nsIURI
 ;

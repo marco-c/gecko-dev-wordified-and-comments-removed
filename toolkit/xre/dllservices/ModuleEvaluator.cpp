@@ -297,6 +297,9 @@ ws
 ;
 }
 }
+return
+result
+;
 }
 bool
 ModuleEvaluator

@@ -348,7 +348,7 @@ nsresult
 HashURL
 (
 const
-nsACString
+nsAString
 &
 aSpec
 const
