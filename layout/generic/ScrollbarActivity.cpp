@@ -78,6 +78,13 @@ h
 #
 include
 "
+nsScrollbarFrame
+.
+h
+"
+#
+include
+"
 nsRefreshDriver
 .
 h

@@ -294,7 +294,7 @@ break
 ;
 }
 return
-nsBoxFrame
+SimpleXULLeafFrame
 :
 :
 HandleEvent
@@ -1202,7 +1202,7 @@ StopRepeat
 (
 )
 ;
-nsBoxFrame
+SimpleXULLeafFrame
 :
 :
 DestroyFrom

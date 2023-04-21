@@ -207,7 +207,7 @@ aVisible
 0
 ;
 virtual
-nsIFrame
+nsScrollbarFrame
 *
 GetScrollbarBox
 (
