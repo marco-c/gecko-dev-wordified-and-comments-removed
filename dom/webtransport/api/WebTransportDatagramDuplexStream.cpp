@@ -1301,7 +1301,7 @@ mOutgoingMaxDataSize
 <
 static_cast
 <
-int64_t
+uint64_t
 >
 (
 data
