@@ -3030,7 +3030,7 @@ gcstats
 PhaseKind
 :
 :
-SWEEP_MARK
+MARK
 )
 ;
 gc
@@ -3102,7 +3102,7 @@ gcstats
 PhaseKind
 :
 :
-SWEEP_MARK_GRAY
+MARK_GRAY
 )
 ;
 gc

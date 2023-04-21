@@ -2503,7 +2503,7 @@ gcstats
 PhaseKind
 :
 :
-SWEEP_MARK_WEAK
+MARK_WEAK
 )
 ;
 auto
@@ -4655,7 +4655,7 @@ gcstats
 PhaseKind
 :
 :
-SWEEP_MARK_INCOMING_GRAY
+MARK_INCOMING_GRAY
 )
 ;
 for
@@ -5531,7 +5531,7 @@ gcstats
 PhaseKind
 :
 :
-SWEEP_MARK
+MARK
 )
 ;
 for
@@ -5626,7 +5626,7 @@ gcstats
 PhaseKind
 :
 :
-SWEEP_MARK
+MARK
 )
 ;
 AutoSetMarkColor
@@ -5654,7 +5654,7 @@ gcstats
 PhaseKind
 :
 :
-SWEEP_MARK_GRAY
+MARK_GRAY
 )
 ;
 }
@@ -5690,7 +5690,7 @@ gcstats
 PhaseKind
 :
 :
-SWEEP_MARK
+MARK
 )
 ;
 if
@@ -5795,7 +5795,7 @@ gcstats
 PhaseKind
 :
 :
-SWEEP_MARK
+MARK
 )
 ;
 if
@@ -8497,7 +8497,7 @@ gcstats
 PhaseKind
 :
 :
-SWEEP_MARK
+MARK
 )
 ;
 return
@@ -8721,7 +8721,7 @@ gcstats
 PhaseKind
 :
 :
-SWEEP_MARK
+MARK
 GCUse
 :
 :
