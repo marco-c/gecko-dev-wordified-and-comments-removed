@@ -305,7 +305,7 @@ rtp_parameters
 /
 api
 :
-rtp_sender_interface
+rtp_sender_setparameters_callback
 "
 "
 .
@@ -2678,7 +2678,7 @@ rtp_parameters
 /
 api
 :
-rtp_sender_interface
+rtp_sender_setparameters_callback
 "
 "
 .

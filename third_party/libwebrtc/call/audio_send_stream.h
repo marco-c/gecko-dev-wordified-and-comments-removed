@@ -130,7 +130,7 @@ include
 "
 api
 /
-rtp_sender_interface
+rtp_sender_setparameters_callback
 .
 h
 "
