@@ -680,7 +680,7 @@ mochitests
 content
 "
 "
-http
+https
 :
 /
 /
