@@ -335,6 +335,16 @@ kMinSleepTime
 static
 const
 TimeDelta
+kTargetPaddingDuration
+;
+static
+const
+TimeDelta
+kMaxPaddingReplayDuration
+;
+static
+const
+TimeDelta
 kMaxEarlyProbeProcessing
 ;
 PacingController
