@@ -1888,17 +1888,6 @@ mozilla
 /
 dom
 /
-U2F
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 WebIDLGlobalNameHash
 .
 h
