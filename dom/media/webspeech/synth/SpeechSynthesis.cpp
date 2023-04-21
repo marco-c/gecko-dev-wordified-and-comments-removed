@@ -749,6 +749,8 @@ GetOwner
 (
 )
 ;
+if
+(
 Document
 *
 doc
@@ -763,12 +765,10 @@ GetExtantDoc
 )
 :
 nullptr
-;
-if
-(
-doc
 )
 {
+if
+(
 Element
 *
 elm
@@ -779,10 +779,6 @@ doc
 GetHtmlElement
 (
 )
-;
-if
-(
-elm
 )
 {
 elm

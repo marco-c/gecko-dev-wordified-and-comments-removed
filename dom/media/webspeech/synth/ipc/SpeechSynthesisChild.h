@@ -220,7 +220,7 @@ aRate
 const
 bool
 &
-aIsChrome
+aShouldResistFingerprinting
 )
 ;
 bool
@@ -420,7 +420,7 @@ SpeechSynthesisUtterance
 *
 aUtterance
 bool
-aIsChrome
+aShouldResistFingerprinting
 )
 ;
 NS_IMETHOD

@@ -131,7 +131,7 @@ SpeechSynthesisUtterance
 *
 aUtterance
 bool
-aIsChrome
+aShouldResistFingerprinting
 )
 :
 mUtterance
@@ -154,9 +154,9 @@ mCallback
 (
 nullptr
 )
-mIsChrome
+mShouldResistFingerprinting
 (
-aIsChrome
+aShouldResistFingerprinting
 )
 mState
 (
@@ -192,7 +192,7 @@ nsAString
 &
 aText
 bool
-aIsChrome
+aShouldResistFingerprinting
 )
 :
 mUtterance
@@ -223,9 +223,9 @@ mCallback
 (
 nullptr
 )
-mIsChrome
+mShouldResistFingerprinting
 (
-aIsChrome
+aShouldResistFingerprinting
 )
 mState
 (
