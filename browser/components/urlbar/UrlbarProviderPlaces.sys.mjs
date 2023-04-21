@@ -3225,9 +3225,7 @@ _filterOnHost
 =
 engine
 .
-getResultDomain
-(
-)
+searchUrlDomain
 ;
 }
 this

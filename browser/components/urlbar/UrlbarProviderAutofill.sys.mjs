@@ -6817,9 +6817,7 @@ domain
 =
 engine
 .
-getResultDomain
-(
-)
+searchUrlDomain
 ;
 /
 /

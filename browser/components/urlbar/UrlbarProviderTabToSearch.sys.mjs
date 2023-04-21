@@ -2357,9 +2357,7 @@ stripPrefixAndTrim
 (
 engine
 .
-getResultDomain
-(
-)
+searchUrlDomain
 {
 stripWww
 :
@@ -2463,9 +2461,7 @@ set
 (
 engine
 .
-getResultDomain
-(
-)
+searchUrlDomain
 engine
 )
 ;
@@ -2694,9 +2690,7 @@ stripPrefixAndTrim
 (
 engine
 .
-getResultDomain
-(
-)
+searchUrlDomain
 {
 stripWww
 :
@@ -2801,9 +2795,7 @@ stripPrefixAndTrim
 (
 engine
 .
-getResultDomain
-(
-)
+searchUrlDomain
 {
 stripWww
 :

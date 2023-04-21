@@ -18401,9 +18401,7 @@ engineHost
 =
 engine
 .
-getResultDomain
-(
-)
+searchUrlDomain
 ;
 for
 (
@@ -18434,9 +18432,7 @@ if
 (
 innerEngine
 .
-getResultDomain
-(
-)
+searchUrlDomain
 =
 =
 engineHost

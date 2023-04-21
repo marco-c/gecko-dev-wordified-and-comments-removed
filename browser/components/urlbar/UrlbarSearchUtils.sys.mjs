@@ -732,9 +732,7 @@ domain
 =
 engine
 .
-getResultDomain
-(
-)
+searchUrlDomain
 ;
 if
 (
@@ -1368,9 +1366,7 @@ domain
 =
 engine
 .
-getResultDomain
-(
-)
+searchUrlDomain
 ;
 let
 suffix
@@ -1597,9 +1593,7 @@ resultDomain
 =
 engine
 .
-getResultDomain
-(
-)
+searchUrlDomain
 ;
 /
 /

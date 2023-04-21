@@ -355,9 +355,7 @@ engineDomain
 =
 suggestionEngine
 .
-getResultDomain
-(
-)
+searchUrlDomain
 ;
 engineName
 =

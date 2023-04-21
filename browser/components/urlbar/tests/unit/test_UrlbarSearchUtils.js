@@ -102,9 +102,7 @@ domain
 =
 engine
 .
-getResultDomain
-(
-)
+searchUrlDomain
 ;
 let
 token
@@ -200,9 +198,7 @@ domain
 =
 engine
 .
-getResultDomain
-(
-)
+searchUrlDomain
 ;
 let
 token
@@ -280,9 +276,7 @@ matchedEngines
 0
 ]
 .
-getResultDomain
-(
-)
+searchUrlDomain
 !
 =
 domain
@@ -383,9 +377,7 @@ domain
 =
 engine
 .
-getResultDomain
-(
-)
+searchUrlDomain
 ;
 let
 token
@@ -441,9 +433,7 @@ matchedEngines
 0
 ]
 .
-getResultDomain
-(
-)
+searchUrlDomain
 domain
 )
 ;
@@ -486,9 +476,7 @@ matchedEngines
 0
 ]
 .
-getResultDomain
-(
-)
+searchUrlDomain
 domain
 )
 ;
