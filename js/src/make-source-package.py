@@ -1210,15 +1210,7 @@ rust
 /
 third_party
 /
-gemmology
-/
-*
-*
-+
-/
-third_party
-/
-xsimd
+intgemm
 /
 *
 *
