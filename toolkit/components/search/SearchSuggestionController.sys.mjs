@@ -4411,6 +4411,10 @@ trending
 {
 if
 (
+!
+trending
+&
+&
 richSuggestionData
 )
 {
