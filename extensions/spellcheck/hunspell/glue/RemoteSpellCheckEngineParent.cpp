@@ -232,7 +232,10 @@ rv
 {
 aResolve
 (
-Tuple
+std
+:
+:
+tuple
 <
 const
 bool
@@ -256,7 +259,10 @@ IPC_OK
 }
 aResolve
 (
-Tuple
+std
+:
+:
+tuple
 <
 const
 bool

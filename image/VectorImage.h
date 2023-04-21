@@ -204,7 +204,10 @@ friend
 class
 SourceSurfaceBlobImage
 ;
-Tuple
+std
+:
+:
+tuple
 <
 RefPtr
 <

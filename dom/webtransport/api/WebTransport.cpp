@@ -1323,7 +1323,10 @@ IsReject
 ?
 NS_ERROR_FAILURE
 :
-Get
+std
+:
+:
+get
 <
 0
 >
@@ -1390,7 +1393,10 @@ static_cast
 WebTransportReliabilityMode
 >
 (
-Get
+std
+:
+:
+get
 <
 1
 >
