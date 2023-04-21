@@ -19015,6 +19015,17 @@ NonNull
 WebExtension
 )
 ;
+method
+UiThread
+default
+public
+void
+onUninstalled
+(
+NonNull
+WebExtension
+)
+;
 }
 public
 static
