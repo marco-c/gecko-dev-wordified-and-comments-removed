@@ -312,6 +312,18 @@ defined
 (
 MOZ_SANDBOX
 )
+if
+(
+*
+sandboxingKind
+!
+=
+SandboxingKind
+:
+:
+GENERIC_UTILITY
+)
+{
 StartOpenBSDSandbox
 (
 GeckoProcessType_Utility
@@ -322,6 +334,7 @@ SandboxingKind
 sandboxingKind
 )
 ;
+}
 #
 endif
 Maybe
