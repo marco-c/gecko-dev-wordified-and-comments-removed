@@ -1852,9 +1852,9 @@ button
 class
 =
 "
-cancel
+screenshots
 -
-shot
+button
 "
 id
 =
@@ -2452,6 +2452,7 @@ class
 screenshots
 -
 button
+primary
 "
 title
 =
@@ -10312,7 +10313,7 @@ if
 (
 boxRight
 <
-265
+300
 )
 {
 leftOrRight

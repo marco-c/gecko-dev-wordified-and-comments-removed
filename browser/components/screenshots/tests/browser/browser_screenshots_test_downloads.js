@@ -636,14 +636,9 @@ _frame
 .
 contentDocument
 .
-querySelector
+getElementById
 (
 "
-.
-highlight
--
-button
--
 download
 "
 )
