@@ -429,6 +429,9 @@ Clients
 CloseEvent
 "
 "
+CompressionStream
+"
+"
 CountQueuingStrategy
 "
 "
@@ -439,6 +442,9 @@ CryptoKey
 "
 "
 CustomEvent
+"
+"
+DecompressionStream
 "
 "
 Directory
