@@ -6748,8 +6748,6 @@ default
 return
 ;
 }
-return
-;
 case
 WM_APPCOMMAND
 :

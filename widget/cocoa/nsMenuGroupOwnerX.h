@@ -46,6 +46,13 @@ h
 #
 include
 "
+nsMenuBarX
+.
+h
+"
+#
+include
+"
 nsTHashMap
 .
 h
@@ -57,9 +64,6 @@ nsString
 .
 h
 "
-class
-nsMenuBarX
-;
 class
 nsMenuItemX
 ;

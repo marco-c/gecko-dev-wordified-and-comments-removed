@@ -130,6 +130,9 @@ displayName
 {
 CopyUTF8toUTF16
 (
+mozilla
+:
+:
 MakeStringSpan
 (
 displayName

@@ -216,6 +216,15 @@ WindowsProcessMitigations
 h
 "
 #
+include
+"
+mozilla
+/
+WindowsVersion
+.
+h
+"
+#
 ifdef
 MOZ_BACKGROUNDTASKS
 #
