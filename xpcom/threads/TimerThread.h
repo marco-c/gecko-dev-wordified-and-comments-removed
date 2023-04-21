@@ -623,6 +623,17 @@ MOZ_REQUIRES
 mMonitor
 )
 ;
+constexpr
+TimeDuration
+ComputeAcceptableFiringDelay
+(
+TimeDuration
+minDelay
+TimeDuration
+maxDelay
+)
+const
+;
 #
 ifdef
 DEBUG
