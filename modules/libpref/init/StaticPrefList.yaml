@@ -58383,13 +58383,6 @@ defined
 (
 XP_WIN
 )
-&
-&
-!
-defined
-(
-_ARM64_
-)
 |
 |
 defined
