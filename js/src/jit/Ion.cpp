@@ -927,7 +927,7 @@ bailoutTail
 ;
 rangeRecorder
 .
-RecordOffset
+recordOffset
 (
 "
 Trampoline
@@ -955,7 +955,7 @@ bailoutTail
 ;
 rangeRecorder
 .
-RecordOffset
+recordOffset
 (
 "
 Trampoline
@@ -1056,7 +1056,7 @@ Normal
 ;
 rangeRecorder
 .
-RecordOffset
+recordOffset
 (
 "
 Trampoline
@@ -1090,7 +1090,7 @@ TrialInlining
 ;
 rangeRecorder
 .
-RecordOffset
+recordOffset
 (
 "
 Trampoline
@@ -1123,7 +1123,7 @@ masm
 ;
 rangeRecorder
 .
-RecordOffset
+recordOffset
 (
 "
 Trampoline
@@ -1159,7 +1159,7 @@ Value
 ;
 rangeRecorder
 .
-RecordOffset
+recordOffset
 (
 "
 Trampoline
@@ -1196,7 +1196,7 @@ String
 ;
 rangeRecorder
 .
-RecordOffset
+recordOffset
 (
 "
 Trampoline
@@ -1233,7 +1233,7 @@ Object
 ;
 rangeRecorder
 .
-RecordOffset
+recordOffset
 (
 "
 Trampoline
@@ -1270,7 +1270,7 @@ Shape
 ;
 rangeRecorder
 .
-RecordOffset
+recordOffset
 (
 "
 Trampoline
@@ -1298,7 +1298,7 @@ masm
 ;
 rangeRecorder
 .
-RecordOffset
+recordOffset
 (
 "
 Trampoline
@@ -1326,7 +1326,7 @@ masm
 ;
 rangeRecorder
 .
-RecordOffset
+recordOffset
 (
 "
 Trampoline
@@ -1353,7 +1353,7 @@ masm
 ;
 rangeRecorder
 .
-RecordOffset
+recordOffset
 (
 "
 Trampoline
@@ -1386,7 +1386,7 @@ masm
 ;
 rangeRecorder
 .
-RecordOffset
+recordOffset
 (
 "
 Trampoline
@@ -1423,7 +1423,7 @@ false
 }
 rangeRecorder
 .
-RecordOffset
+recordOffset
 (
 "
 Trampoline
@@ -1459,7 +1459,7 @@ profilerExitTail
 ;
 rangeRecorder
 .
-RecordOffset
+recordOffset
 (
 "
 Trampoline
@@ -1491,7 +1491,7 @@ bailoutTail
 ;
 rangeRecorder
 .
-RecordOffset
+recordOffset
 (
 "
 Trampoline
@@ -1531,7 +1531,7 @@ false
 }
 rangeRecorder
 .
-CollectRangesForJitCode
+collectRangesForJitCode
 (
 trampolineCode_
 )
