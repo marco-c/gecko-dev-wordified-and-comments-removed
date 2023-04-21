@@ -1098,7 +1098,10 @@ aZoom
 ;
 if
 (
-IsNaN
+std
+:
+:
+isnan
 (
 zoom
 .

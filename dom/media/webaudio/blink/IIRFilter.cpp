@@ -608,10 +608,10 @@ n
 FLT_MIN
 |
 |
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 destP
 [

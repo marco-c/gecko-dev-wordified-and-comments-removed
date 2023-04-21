@@ -4909,10 +4909,10 @@ if
 (
 MOZ_UNLIKELY
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 d
 )

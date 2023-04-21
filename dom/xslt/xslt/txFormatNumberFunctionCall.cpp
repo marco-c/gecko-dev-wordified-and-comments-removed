@@ -349,10 +349,10 @@ NS_ERROR_XPATH_INVALID_ARG
 }
 if
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 value
 )

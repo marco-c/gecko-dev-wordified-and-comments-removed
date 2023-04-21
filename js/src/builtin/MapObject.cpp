@@ -224,12 +224,6 @@ using
 mozilla
 :
 :
-IsNaN
-;
-using
-mozilla
-:
-:
 NumberEqualsInt32
 ;
 static

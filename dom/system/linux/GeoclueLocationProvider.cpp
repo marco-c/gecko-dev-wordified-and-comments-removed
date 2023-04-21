@@ -3815,7 +3815,10 @@ heading
 0
 |
 |
-IsNaN
+std
+:
+:
+isnan
 (
 speed
 )

@@ -233,7 +233,10 @@ aValue
 MOZ_ASSERT
 (
 !
-IsNaN
+std
+:
+:
+isnan
 (
 aValue
 )
@@ -906,7 +909,10 @@ ToSeconds
 )
 ;
 return
-IsNaN
+std
+:
+:
+isnan
 (
 result
 )
@@ -974,7 +980,10 @@ ToSeconds
 )
 ;
 return
-IsNaN
+std
+:
+:
+isnan
 (
 result
 )

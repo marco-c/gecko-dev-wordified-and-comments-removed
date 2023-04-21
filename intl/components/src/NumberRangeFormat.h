@@ -277,7 +277,10 @@ bool
 isNegativeStart
 =
 !
-IsNaN
+std
+:
+:
+isnan
 (
 start
 )
@@ -292,7 +295,10 @@ bool
 isNegativeEnd
 =
 !
-IsNaN
+std
+:
+:
+isnan
 (
 end
 )

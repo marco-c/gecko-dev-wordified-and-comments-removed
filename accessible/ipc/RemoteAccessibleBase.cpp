@@ -1365,7 +1365,10 @@ CurValue
 if
 (
 !
-IsNaN
+std
+:
+:
+isnan
 (
 checkValue
 )

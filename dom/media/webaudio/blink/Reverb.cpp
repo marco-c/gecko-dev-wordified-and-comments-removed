@@ -153,7 +153,10 @@ power
 )
 |
 |
-IsNaN
+std
+:
+:
+isnan
 (
 power
 )

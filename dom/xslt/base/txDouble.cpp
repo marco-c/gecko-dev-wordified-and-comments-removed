@@ -576,10 +576,10 @@ aDest
 {
 if
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 aValue
 )

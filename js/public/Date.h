@@ -145,10 +145,10 @@ const
 {
 return
 !
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 t
 )

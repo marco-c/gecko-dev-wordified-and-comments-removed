@@ -3164,10 +3164,10 @@ false
 if
 (
 !
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 timeout_ms
 )

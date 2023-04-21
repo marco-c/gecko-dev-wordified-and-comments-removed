@@ -8650,10 +8650,10 @@ toNumber
 ;
 if
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 v
 )
