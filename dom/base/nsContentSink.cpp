@@ -68,6 +68,17 @@ include
 "
 mozilla
 /
+dom
+/
+ReferrerInfo
+.
+h
+"
+#
+include
+"
+mozilla
+/
 css
 /
 Loader

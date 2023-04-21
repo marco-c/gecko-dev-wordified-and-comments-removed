@@ -148,6 +148,17 @@ mozilla
 /
 dom
 /
+ReferrerInfo
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WorkerRef
 .
 h

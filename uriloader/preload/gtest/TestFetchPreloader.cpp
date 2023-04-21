@@ -1099,6 +1099,9 @@ false
 nsCString
 mOnData
 ;
+mozilla
+:
+:
 Maybe
 <
 nsresult

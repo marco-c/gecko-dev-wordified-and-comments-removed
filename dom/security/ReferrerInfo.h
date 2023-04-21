@@ -129,12 +129,6 @@ nsHttpChannel
 ;
 }
 }
-using
-mozilla
-:
-:
-Maybe
-;
 namespace
 mozilla
 :

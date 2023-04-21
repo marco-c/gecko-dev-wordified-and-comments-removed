@@ -249,6 +249,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+ReferrerInfo
+.
+h
+"
+#
+include
+"
 nsCSSRendering
 .
 h
