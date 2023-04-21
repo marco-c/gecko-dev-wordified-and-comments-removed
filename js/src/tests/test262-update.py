@@ -52,14 +52,6 @@ optimization
 "
 Intl
 .
-DateTimeFormat
--
-quarter
-"
-        
-"
-Intl
-.
 Segmenter
 "
         
@@ -151,6 +143,22 @@ as
 weakmap
 -
 keys
+"
+        
+"
+arraybuffer
+-
+transfer
+"
+        
+"
+json
+-
+parse
+-
+with
+-
+source
 "
     
 ]
@@ -1692,6 +1700,9 @@ testName
 )
     
 assert
+(
+        
+(
 b
 "
 DONE
@@ -1699,12 +1710,44 @@ DONE
 not
 in
 testSource
+and
+b
+"
+asyncTest
+"
+not
+in
+testSource
+)
+        
 or
 isAsync
+        
 or
 isNegative
-(
         
+or
+testName
+.
+split
+(
+os
+.
+path
+.
+sep
+)
+[
+0
+]
+=
+=
+"
+harness
+"
+    
+)
+(
 "
 Missing
 async
@@ -1716,7 +1759,6 @@ s
 "
 %
 testName
-    
 )
     
 isModule
