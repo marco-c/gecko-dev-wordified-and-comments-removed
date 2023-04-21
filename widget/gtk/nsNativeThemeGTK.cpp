@@ -1244,8 +1244,6 @@ StyleAppearance
 Treetwistyopen
 )
 {
-if
-(
 nsTreeBodyFrame
 *
 treeBodyFrame
@@ -1254,6 +1252,10 @@ do_QueryFrame
 (
 aFrame
 )
+;
+if
+(
+treeBodyFrame
 )
 {
 const
@@ -1280,6 +1282,10 @@ atoms
 .
 Contains
 (
+(
+nsStaticAtom
+*
+)
 nsGkAtoms
 :
 :
@@ -1295,6 +1301,10 @@ atoms
 .
 Contains
 (
+(
+nsStaticAtom
+*
+)
 nsGkAtoms
 :
 :
