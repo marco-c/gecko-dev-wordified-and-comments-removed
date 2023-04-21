@@ -33,8 +33,6 @@ include
 /
 private
 /
-base
-/
 SkTArray
 .
 h
@@ -91,8 +89,8 @@ purgeAll
 )
 ;
 static
-SkTypefaceID
-NewTypefaceID
+SkFontID
+NewFontID
 (
 )
 ;
@@ -148,10 +146,7 @@ int
 count
 )
 ;
-skia_private
-:
-:
-TArray
+SkTArray
 <
 sk_sp
 <

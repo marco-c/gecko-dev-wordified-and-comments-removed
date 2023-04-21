@@ -16,8 +16,6 @@ include
 /
 private
 /
-base
-/
 SkOnce
 .
 h

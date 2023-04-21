@@ -9,7 +9,7 @@ include
 "
 src
 /
-base
+core
 /
 SkLeanWindows
 .

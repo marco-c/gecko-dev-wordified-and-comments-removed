@@ -16,15 +16,13 @@ include
 /
 private
 /
-base
-/
 SkTo
 .
 h
 "
 #
 ifndef
-SK_CODEC_DECODES_JPEG
+SK_HAS_JPEG_LIBRARY
 namespace
 {
 class

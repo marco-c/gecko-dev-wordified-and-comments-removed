@@ -49,7 +49,7 @@ src
 /
 core
 /
-SkMipmap
+SkMipMap
 .
 h
 "
@@ -284,11 +284,9 @@ fDesc
 #
 include
 "
-include
+src
 /
-private
-/
-chromium
+core
 /
 SkDiscardableMemory
 .
@@ -1286,7 +1284,7 @@ SkBitmapCacheDesc
 &
 desc
 const
-SkMipmap
+SkMipMap
 *
 result
 )
@@ -1420,7 +1418,7 @@ baseRec
 )
 ;
 const
-SkMipmap
+SkMipMap
 *
 mm
 =
@@ -1458,7 +1456,7 @@ false
 *
 (
 const
-SkMipmap
+SkMipMap
 *
 *
 )
@@ -1476,7 +1474,7 @@ MipMapKey
 fKey
 ;
 const
-SkMipmap
+SkMipMap
 *
 fMipMap
 ;
@@ -1484,9 +1482,9 @@ fMipMap
 ;
 }
 const
-SkMipmap
+SkMipMap
 *
-SkMipmapCache
+SkMipMapCache
 :
 :
 FindAndRef
@@ -1507,7 +1505,7 @@ desc
 )
 ;
 const
-SkMipmap
+SkMipMap
 *
 result
 ;
@@ -1556,7 +1554,7 @@ localCache
 localCache
 -
 >
-discardableFactory
+GetDiscardableFactory
 (
 )
 :
@@ -1569,9 +1567,9 @@ GetDiscardableFactory
 ;
 }
 const
-SkMipmap
+SkMipMap
 *
-SkMipmapCache
+SkMipMapCache
 :
 :
 AddAndRef
@@ -1596,7 +1594,6 @@ image
 >
 getROPixels
 (
-nullptr
 &
 src
 )
@@ -1606,11 +1603,11 @@ return
 nullptr
 ;
 }
-SkMipmap
+SkMipMap
 *
 mipmap
 =
-SkMipmap
+SkMipMap
 :
 :
 Build

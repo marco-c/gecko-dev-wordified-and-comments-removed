@@ -304,6 +304,16 @@ LOCAL_INCLUDES
 '
 skia
 '
+    
+'
+skia
+/
+include
+/
+third_party
+/
+skcms
+'
 ]
 if
 CONFIG
@@ -419,6 +429,33 @@ src
 /
 opts
 /
+SkOpts_sse41
+.
+cpp
+'
+]
+.
+flags
++
+=
+[
+'
+-
+msse4
+.
+1
+'
+]
+    
+SOURCES
+[
+'
+skia
+/
+src
+/
+opts
+/
 SkOpts_sse42
 .
 cpp
@@ -492,47 +529,6 @@ mf16c
 '
 -
 mfma
-'
-]
-    
-SOURCES
-[
-'
-skia
-/
-src
-/
-opts
-/
-SkOpts_skx
-.
-cpp
-'
-]
-.
-flags
-+
-=
-[
-'
--
-mavx512f
-'
-'
--
-mavx512dq
-'
-'
--
-mavx512cd
-'
-'
--
-mavx512bw
-'
-'
--
-mavx512vl
 '
 ]
 elif
@@ -908,15 +904,6 @@ v
 in
 output
 .
-decode
-(
-'
-utf
--
-8
-'
-)
-.
 split
 (
 )
@@ -960,7 +947,15 @@ x86
 [
 '
 :
+sse2
+'
+'
+:
 ssse3
+'
+'
+:
+sse41
 '
 '
 :
@@ -974,9 +969,20 @@ avx
 :
 hsw
 '
+]
+)
+          
+(
+'
+arm
+'
+'
+arm
+'
+[
 '
 :
-skx
+armv7
 '
 ]
 )
@@ -991,7 +997,26 @@ arm64
 [
 '
 :
+arm64
+'
+'
+:
 crc32
+'
+]
+)
+          
+(
+'
+none
+'
+'
+none
+'
+[
+'
+:
+none
 '
 ]
 )
@@ -1141,7 +1166,6 @@ output
 .
 find
 (
-b
 '
 source_set
 '
@@ -1308,7 +1332,6 @@ output
 plat_deps
 =
 {
-    
 '
 :
 fontmgr_win
@@ -1317,7 +1340,6 @@ fontmgr_win
 '
 win
 '
-    
 '
 :
 fontmgr_win_gdi
@@ -1326,16 +1348,6 @@ fontmgr_win_gdi
 '
 win
 '
-    
-'
-:
-fontmgr_mac_ct
-'
-:
-'
-mac
-'
-  
 }
   
 for
@@ -1472,17 +1484,23 @@ parse_sources
 output
 )
   
+return
+dict
+(
 sources
 .
-update
+items
 (
+)
++
 generate_opt_sources
 (
 )
+.
+items
+(
 )
-  
-return
-sources
+)
 def
 generate_separated_sources
 (
@@ -1500,6 +1518,24 @@ skia
 src
 /
 android
+/
+'
+    
+'
+skia
+/
+src
+/
+atlastext
+/
+'
+    
+'
+skia
+/
+src
+/
+c
 /
 '
     
@@ -1542,7 +1578,19 @@ SkImageGenerator
 '
     
 '
+SkBitmapRegion
+'
+    
+'
+SkLite
+'
+    
+'
 SkLight
+'
+    
+'
+SkNormal
 '
     
 '
@@ -1562,6 +1610,10 @@ third_party
 '
     
 '
+Sk3D
+'
+    
+'
 SkAnimCodecPlayer
 '
     
@@ -1575,6 +1627,14 @@ SkCanvasStack
     
 '
 SkCanvasStateUtils
+'
+    
+'
+SkFrontBufferedStream
+'
+    
+'
+SkInterpolator
 '
     
 '
@@ -1606,6 +1666,10 @@ SkParseColor
 '
     
 '
+SkWhitelistTypefaces
+'
+    
+'
 SkXPS
 '
     
@@ -1621,6 +1685,16 @@ src
 ports
 /
 SkGlobalInitialization
+'
+    
+'
+skia
+/
+src
+/
+sksl
+/
+SkSLJIT
 '
   
 ]
@@ -1772,7 +1846,7 @@ cpp
 '
 skia
 /
-modules
+third_party
 /
 skcms
 /
@@ -1788,7 +1862,7 @@ src
 /
 core
 /
-SkImageFilterTypes
+SkBitmapScaler
 .
 cpp
 '
@@ -1798,9 +1872,33 @@ skia
 /
 src
 /
-ports
+core
 /
-SkFontMgr_empty_factory
+SkGlyphBuffer
+.
+cpp
+'
+      
+'
+skia
+/
+src
+/
+core
+/
+SkConvolver
+.
+cpp
+'
+      
+'
+skia
+/
+src
+/
+core
+/
+SkImageFilterTypes
 .
 cpp
 '
@@ -2222,6 +2320,10 @@ SkBitmapProcState
 '
   
 '
+SkBitmapScaler
+'
+  
+'
 SkBlitRow
 '
   
@@ -2270,13 +2372,13 @@ cpp
 '
   
 '
-SkBlitter_Sprite
+SkBlitter_RGB16
 .
 cpp
 '
   
 '
-SkCpu
+SkBlitter_Sprite
 .
 cpp
 '
@@ -2289,6 +2391,12 @@ cpp
   
 '
 SkScan_AntiPath
+.
+cpp
+'
+  
+'
+SkScan_DAAPath
 .
 cpp
 '
@@ -2328,12 +2436,6 @@ SkColorSpace
 '
   
 '
-SkPath
-.
-cpp
-'
-  
-'
 SkPathOpsDebug
 .
 cpp
@@ -2352,7 +2454,19 @@ cpp
 '
   
 '
+SkMiniRecorder
+.
+cpp
+'
+  
+'
 SkXfermode
+'
+  
+'
+SkMatrix44
+.
+cpp
 '
   
 '
@@ -2363,6 +2477,12 @@ cpp
   
 '
 SkVertices
+.
+cpp
+'
+  
+'
+SkSLHCodeGenerator
 .
 cpp
 '

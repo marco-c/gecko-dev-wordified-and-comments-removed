@@ -124,4 +124,17 @@ GR_GL_CHECK_ERROR_START
 #
 endif
 #
+if
+!
+defined
+(
+GR_GL_CHECK_ALLOC_WITH_GET_ERROR
+)
+#
+define
+GR_GL_CHECK_ALLOC_WITH_GET_ERROR
+1
+#
+endif
+#
 endif

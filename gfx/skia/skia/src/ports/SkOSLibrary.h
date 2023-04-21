@@ -6,7 +6,7 @@ define
 SkOSLibrary_DEFINED
 void
 *
-SkLoadDynamicLibrary
+DynamicLoadLibrary
 (
 const
 char
@@ -16,7 +16,7 @@ libraryName
 ;
 void
 *
-SkGetProcedureAddress
+GetProcedureAddress
 (
 void
 *
@@ -25,14 +25,6 @@ const
 char
 *
 functionName
-)
-;
-bool
-SkFreeDynamicLibrary
-(
-void
-*
-library
 )
 ;
 #

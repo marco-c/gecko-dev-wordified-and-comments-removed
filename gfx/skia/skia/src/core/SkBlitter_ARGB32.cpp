@@ -23,9 +23,9 @@ h
 #
 include
 "
-src
+include
 /
-base
+private
 /
 SkVx
 .
@@ -49,7 +49,7 @@ src
 /
 core
 /
-SkOpts
+SkUtils
 .
 h
 "
@@ -3703,10 +3703,7 @@ aa
 255
 )
 {
-SkOpts
-:
-:
-memset32
+sk_memset32
 (
 device
 color
@@ -5152,10 +5149,7 @@ aa
 255
 )
 {
-SkOpts
-:
-:
-memset32
+sk_memset32
 (
 device
 black
@@ -5558,12 +5552,8 @@ Peek
 (
 paint
 .
-getBlendMode_or
+getBlendMode
 (
-SkBlendMode
-:
-:
-kSrcOver
 )
 )
 ;
@@ -5669,7 +5659,7 @@ kSrc
 =
 paint
 .
-asBlendMode
+getBlendMode
 (
 )
 )

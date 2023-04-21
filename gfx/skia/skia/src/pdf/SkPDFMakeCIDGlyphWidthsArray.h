@@ -16,6 +16,9 @@ SkPDFTypes
 h
 "
 class
+SkStrike
+;
+class
 SkPDFGlyphUse
 ;
 class

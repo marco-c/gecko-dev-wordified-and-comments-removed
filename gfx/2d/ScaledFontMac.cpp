@@ -601,13 +601,9 @@ CreateSkTypeface
 )
 {
 return
-SkMakeTypefaceFromCTFont
+SkCreateTypefaceFromCTFont
 (
 mCTFont
-)
-.
-release
-(
 )
 ;
 }

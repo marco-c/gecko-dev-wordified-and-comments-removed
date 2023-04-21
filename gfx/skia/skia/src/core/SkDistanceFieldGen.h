@@ -16,18 +16,6 @@ SkTypes
 h
 "
 #
-include
-<
-cstddef
->
-#
-if
-!
-defined
-(
-SK_DISABLE_SDF_TEXT
-)
-#
 define
 SK_DistanceFieldMagnitude
 4
@@ -149,7 +137,5 @@ char
 )
 ;
 }
-#
-endif
 #
 endif

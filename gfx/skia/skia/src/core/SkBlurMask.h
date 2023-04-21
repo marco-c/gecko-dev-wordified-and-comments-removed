@@ -164,7 +164,7 @@ nullptr
 ;
 static
 SkScalar
-SK_SPI
+SK_API
 ConvertRadiusToSigma
 (
 SkScalar
@@ -173,7 +173,7 @@ radius
 ;
 static
 SkScalar
-SK_SPI
+SK_API
 ConvertSigmaToRadius
 (
 SkScalar

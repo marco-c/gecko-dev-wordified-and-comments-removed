@@ -162,10 +162,12 @@ bm
 :
 fImage
 (
-bm
-.
-asImage
+SkImage
+:
+:
+MakeFromBitmap
 (
+bm
 )
 )
 {

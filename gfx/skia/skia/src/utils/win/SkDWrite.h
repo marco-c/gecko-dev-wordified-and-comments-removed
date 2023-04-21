@@ -22,8 +22,6 @@ include
 /
 private
 /
-base
-/
 SkTemplates
 .
 h
@@ -52,10 +50,7 @@ sk_get_dwrite_factory
 )
 ;
 typedef
-skia_private
-:
-:
-AutoSTMalloc
+SkAutoSTMalloc
 <
 16
 WCHAR

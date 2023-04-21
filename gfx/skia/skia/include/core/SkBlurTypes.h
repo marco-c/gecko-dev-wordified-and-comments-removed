@@ -4,6 +4,17 @@ SkBlurTypes_DEFINED
 #
 define
 SkBlurTypes_DEFINED
+#
+include
+"
+include
+/
+core
+/
+SkTypes
+.
+h
+"
 enum
 SkBlurStyle
 :

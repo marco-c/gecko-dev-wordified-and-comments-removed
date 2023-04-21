@@ -16,17 +16,6 @@ src
 /
 pathops
 /
-SkPathOpsPoint
-.
-h
-"
-#
-include
-"
-src
-/
-pathops
-/
 SkPathOpsQuad
 .
 h

@@ -54,9 +54,6 @@ tmx
 SkTileMode
 tmy
 const
-SkSamplingOptions
-&
-const
 SkImage_Base
 *
 const
@@ -67,10 +64,9 @@ SkArenaAlloc
 alloc
 )
 ;
-using
-INHERITED
-=
+typedef
 SkShaderBase
+INHERITED
 ;
 }
 ;

@@ -22,8 +22,6 @@ include
 /
 private
 /
-base
-/
 SkFixed
 .
 h
@@ -129,16 +127,6 @@ SkIRect
 &
 SkBlitter
 *
-)
-;
-static
-bool
-PathRequiresTiling
-(
-const
-SkIRect
-&
-bounds
 )
 ;
 static
