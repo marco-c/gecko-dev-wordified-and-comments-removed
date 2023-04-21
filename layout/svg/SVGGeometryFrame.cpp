@@ -3280,17 +3280,6 @@ return
 true
 ;
 }
-if
-(
-IsSVGImageFrame
-(
-)
-)
-{
-return
-false
-;
-}
 const
 nsStyleSVG
 *

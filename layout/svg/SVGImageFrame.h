@@ -406,6 +406,13 @@ mForceSyncDecoding
 aForce
 ;
 }
+bool
+IsInvisible
+(
+)
+const
+override
+;
 private
 :
 uint16_t
