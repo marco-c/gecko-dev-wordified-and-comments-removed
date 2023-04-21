@@ -1331,15 +1331,16 @@ and
 config
 .
 kind
-=
-=
+.
+endswith
+(
 "
-build
 -
 mac
 -
 notarization
 "
+)
 :
             
 task
@@ -1704,15 +1705,16 @@ if
 config
 .
 kind
-=
-=
+.
+endswith
+(
 "
-build
 -
 mac
 -
 signing
 "
+)
 :
                 
 task
@@ -1730,7 +1732,7 @@ behavior
 ]
 =
 "
-mac_sign
+mac_sign_and_pkg
 "
         
 task

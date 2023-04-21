@@ -108,6 +108,23 @@ kind
 return
 True
 def
+is_mac_signing_king
+(
+kind
+)
+:
+    
+return
+kind
+and
+"
+mac
+-
+signing
+"
+in
+kind
+def
 generate_specifications_of_artifacts_to_sign
 (
     
@@ -274,12 +291,51 @@ in
 build_platform
 :
         
+langpack_formats
+=
+[
+]
+        
 if
 is_notarization_kind
 (
 dep_kind
 )
+or
+is_mac_signing_king
+(
+dep_kind
+)
 :
+            
+formats
+=
+[
+]
+            
+if
+config
+.
+kind
+.
+endswith
+(
+"
+-
+mac
+-
+notarization
+"
+)
+:
+                
+formats
+=
+[
+"
+apple_notarization
+"
+]
             
 artifacts_specifications
 =
@@ -329,16 +385,10 @@ pkg
 formats
 "
 :
-[
-]
+formats
                 
 }
             
-]
-            
-langpack_formats
-=
-[
 ]
         
 else
