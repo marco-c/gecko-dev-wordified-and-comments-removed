@@ -29,13 +29,6 @@ up
 here
 '
 )
-{
-sampleRate
-:
-1
-.
-0
-}
 )
 ;
 t
@@ -107,13 +100,6 @@ up
 here
 '
 )
-{
-sampleRate
-:
-1
-.
-0
-}
 )
 ;
 t
