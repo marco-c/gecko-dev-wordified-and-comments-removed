@@ -626,6 +626,7 @@ function
 (
 )
 {
+new
 CanvasFilter
 (
 filterOptions

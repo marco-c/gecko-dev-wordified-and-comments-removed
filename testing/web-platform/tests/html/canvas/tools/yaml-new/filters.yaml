@@ -4313,6 +4313,7 @@ testCase
 assert
 throws
 TypeError
+new
 CanvasFilter
 (
 filterOptions
