@@ -302,6 +302,8 @@ updated
 by
 another
 instance
+aboutdialog
+-
 update
 -
 manual
@@ -310,7 +312,7 @@ Updates
 available
 at
 <
-label
+a
 data
 -
 l10n
