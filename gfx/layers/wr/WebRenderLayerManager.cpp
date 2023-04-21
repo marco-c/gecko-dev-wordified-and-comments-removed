@@ -2564,6 +2564,15 @@ if
 mTarget
 |
 |
+!
+mTarget
+-
+>
+GetDrawTarget
+(
+)
+|
+|
 aSize
 .
 IsEmpty
