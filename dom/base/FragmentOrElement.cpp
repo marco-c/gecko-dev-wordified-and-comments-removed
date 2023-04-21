@@ -3169,6 +3169,12 @@ ClearMayHaveAnimations
 )
 ;
 }
+mExplicitlySetAttrElements
+.
+Clear
+(
+)
+;
 }
 void
 FragmentOrElement
