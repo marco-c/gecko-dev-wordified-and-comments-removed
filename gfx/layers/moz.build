@@ -1485,9 +1485,6 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 "
 :
-REQUIRES_UNIFIED_BUILD
-=
-True
 EXPORTS
 .
 mozilla

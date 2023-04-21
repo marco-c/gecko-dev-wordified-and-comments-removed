@@ -62,6 +62,13 @@ h
 #
 include
 "
+MozFramebuffer
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
