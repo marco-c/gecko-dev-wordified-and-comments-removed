@@ -16,6 +16,13 @@ h
 >
 #
 endif
+#
+include
+"
+nsIFile
+.
+h
+"
 namespace
 mozilla
 {

@@ -47,6 +47,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 nsIBaseWindow
 .
 h

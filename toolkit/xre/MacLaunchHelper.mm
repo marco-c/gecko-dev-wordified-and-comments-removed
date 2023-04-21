@@ -209,7 +209,7 @@ reason
 ;
 }
 }
-BOOL
+bool
 InstallPrivilegedHelper
 (
 )
