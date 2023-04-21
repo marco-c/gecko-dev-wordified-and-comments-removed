@@ -725,6 +725,13 @@ RPMIsSiteSpecificTRRError
 *
 "
 ]
+RPMSetTRRDisabledLoadFlags
+:
+[
+"
+*
+"
+]
 RPMSendQuery
 :
 [
