@@ -15158,6 +15158,11 @@ RestyleHint
 :
 :
 RESTYLE_SELF
+|
+RestyleHint
+:
+:
+RESTYLE_PSEUDOS
 ;
 }
 if
