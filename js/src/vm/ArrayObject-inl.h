@@ -288,7 +288,6 @@ realm
 >
 setObjectPendingMetadata
 (
-cx
 aobj
 )
 ;
