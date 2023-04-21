@@ -4329,6 +4329,12 @@ appearance
 :
 none
 ;
+min
+-
+width
+:
+auto
+;
 margin
 :
 0
@@ -4342,12 +4348,6 @@ start
 2px
 ;
 border
--
-width
-:
-0
-;
-min
 -
 width
 :
