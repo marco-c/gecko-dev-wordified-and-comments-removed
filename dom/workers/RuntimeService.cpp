@@ -10134,12 +10134,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsWeakPtr
-globalScopeSentinel
-;
-nsWeakPtr
-debuggerScopeSentinel
-;
 {
 nsCycleCollector_startup
 (
@@ -10279,6 +10273,7 @@ NS_ProcessPendingEvents
 nullptr
 )
 ;
+nsWeakPtr
 globalScopeSentinel
 =
 do_GetWeakReference
@@ -10291,6 +10286,7 @@ GlobalScope
 )
 )
 ;
+nsWeakPtr
 debuggerScopeSentinel
 =
 do_GetWeakReference
@@ -10400,7 +10396,6 @@ NS_ProcessPendingEvents
 nullptr
 )
 ;
-}
 nsCOMPtr
 <
 DOMEventTargetHelper
@@ -10490,6 +10485,7 @@ debuggerScopeAlive
 =
 nullptr
 ;
+}
 }
 }
 mWorkerPrivate
