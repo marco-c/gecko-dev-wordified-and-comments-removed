@@ -1663,6 +1663,11 @@ lazy
 ExperimentAPI
 .
 _manager
+source
+=
+"
+enrollmentHelper
+"
 }
 =
 {
@@ -1910,9 +1915,7 @@ manager
 enroll
 (
 recipe
-"
-enrollmentHelper
-"
+source
 )
 ;
 return
