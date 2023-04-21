@@ -263,8 +263,8 @@ width_
 uint16_t
 height_
 ;
-bool
-using_capture_timestamps_
+uint32_t
+time_scale_
 ;
 FileWrapper
 file_
