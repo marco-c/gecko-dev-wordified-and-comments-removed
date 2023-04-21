@@ -91,10 +91,9 @@ aInitialPosition
 {
 if
 (
-StaticPrefs
-:
-:
-general_smoothScroll
+aApzc
+.
+IsSmoothScrollingEnabled
 (
 )
 &
