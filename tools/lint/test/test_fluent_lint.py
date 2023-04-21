@@ -1160,6 +1160,23 @@ names
 ftl
 "
 )
+{
+"
+brand
+-
+files
+"
+:
+[
+"
+test
+-
+brands
+.
+ftl
+"
+]
+}
 )
     
 assert
