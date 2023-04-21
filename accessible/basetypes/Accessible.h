@@ -1776,6 +1776,11 @@ IsLinkValid
 (
 )
 ;
+uint32_t
+AnchorCount
+(
+)
+;
 virtual
 bool
 IsRemote

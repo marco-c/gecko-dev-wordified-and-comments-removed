@@ -1465,12 +1465,6 @@ const
 override
 ;
 virtual
-uint32_t
-AnchorCount
-(
-)
-;
-virtual
 LocalAccessible
 *
 AnchorAt
