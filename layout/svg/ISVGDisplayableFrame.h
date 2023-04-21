@@ -118,12 +118,6 @@ aTransform
 imgDrawingParams
 &
 aImgParams
-const
-nsIntRect
-*
-aDirtyRect
-=
-nullptr
 )
 =
 0

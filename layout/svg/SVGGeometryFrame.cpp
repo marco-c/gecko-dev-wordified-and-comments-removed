@@ -774,10 +774,6 @@ aTransform
 imgDrawingParams
 &
 aImgParams
-const
-nsIntRect
-*
-aDirtyRect
 )
 {
 if
