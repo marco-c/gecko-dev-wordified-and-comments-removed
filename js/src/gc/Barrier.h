@@ -4227,6 +4227,9 @@ const
 Lookup
 &
 l
+HashNumber
+*
+hashOut
 )
 {
 return
@@ -4239,6 +4242,7 @@ T
 ensureHash
 (
 l
+hashOut
 )
 ;
 }
@@ -4357,6 +4361,9 @@ const
 Lookup
 &
 l
+HashNumber
+*
+hashOut
 )
 {
 return
@@ -4369,6 +4376,7 @@ T
 ensureHash
 (
 l
+hashOut
 )
 ;
 }
@@ -4487,6 +4495,9 @@ const
 Lookup
 &
 l
+HashNumber
+*
+hashOut
 )
 {
 return
@@ -4499,6 +4510,7 @@ T
 ensureHash
 (
 l
+hashOut
 )
 ;
 }
