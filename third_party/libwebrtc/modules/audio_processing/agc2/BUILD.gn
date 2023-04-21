@@ -225,7 +225,7 @@ safe_minmax
 rtc_library
 (
 "
-adaptive_digital_gain_applier
+adaptive_digital_gain_controller
 "
 )
 {
@@ -233,12 +233,12 @@ sources
 =
 [
 "
-adaptive_digital_gain_applier
+adaptive_digital_gain_controller
 .
 cc
 "
 "
-adaptive_digital_gain_applier
+adaptive_digital_gain_controller
 .
 h
 "
@@ -1725,7 +1725,7 @@ test_support
 rtc_library
 (
 "
-adaptive_digital_gain_applier_unittest
+adaptive_digital_gain_controller_unittest
 "
 )
 {
@@ -1747,7 +1747,7 @@ sources
 =
 [
 "
-adaptive_digital_gain_applier_unittest
+adaptive_digital_gain_controller_unittest
 .
 cc
 "
@@ -1757,7 +1757,7 @@ deps
 [
 "
 :
-adaptive_digital_gain_applier
+adaptive_digital_gain_controller
 "
 "
 :

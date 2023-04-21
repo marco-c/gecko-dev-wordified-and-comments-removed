@@ -612,7 +612,7 @@ std
 :
 make_unique
 <
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 >
 (
 &

@@ -7,7 +7,7 @@ audio_processing
 /
 agc2
 /
-adaptive_digital_gain_applier
+adaptive_digital_gain_controller
 .
 h
 "
@@ -536,10 +536,10 @@ begin
 }
 }
 }
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 :
 :
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 (
 ApmDataDumper
 *
@@ -653,7 +653,7 @@ num_channels
 ;
 }
 void
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 :
 :
 Initialize
@@ -811,7 +811,7 @@ data
 }
 }
 void
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 :
 :
 Process

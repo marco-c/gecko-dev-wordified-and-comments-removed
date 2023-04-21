@@ -28,7 +28,7 @@ audio_processing
 /
 agc2
 /
-adaptive_digital_gain_applier
+adaptive_digital_gain_controller
 .
 h
 "
@@ -379,7 +379,7 @@ std
 :
 unique_ptr
 <
-AdaptiveDigitalGainApplier
+AdaptiveDigitalGainController
 >
 adaptive_digital_controller_
 ;
