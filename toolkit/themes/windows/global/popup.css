@@ -700,6 +700,8 @@ border
 color
 )
 ;
+min
+-
 width
 :
 var
@@ -710,12 +712,6 @@ panel
 -
 width
 )
-;
-min
--
-width
-:
-0
 ;
 min
 -
