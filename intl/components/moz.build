@@ -469,6 +469,3 @@ Library
 intlcomponents
 "
 )
-REQUIRES_UNIFIED_BUILD
-=
-True
