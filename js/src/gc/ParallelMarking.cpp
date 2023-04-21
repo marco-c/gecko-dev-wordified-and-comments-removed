@@ -1516,16 +1516,6 @@ activeTasks
 0
 )
 {
-activeTasksAvailable
-.
-ref
-(
-)
-.
-notify_all
-(
-)
-;
 while
 (
 !

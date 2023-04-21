@@ -303,12 +303,6 @@ size_t
 >
 activeTasks
 ;
-GCLockData
-<
-ConditionVariable
->
-activeTasksAvailable
-;
 }
 ;
 class
