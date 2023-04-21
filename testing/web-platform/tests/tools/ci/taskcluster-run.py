@@ -221,6 +221,13 @@ install
 -
 browser
 "
+"
+-
+-
+processes
+=
+4
+"
 ]
     
 return
