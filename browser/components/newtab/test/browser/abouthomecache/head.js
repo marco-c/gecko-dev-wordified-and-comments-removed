@@ -277,6 +277,9 @@ true
 expectTimeout
 =
 false
+skipAboutHomeLoad
+=
+false
 }
 =
 {
@@ -690,6 +693,12 @@ available
 ;
 }
 }
+if
+(
+!
+skipAboutHomeLoad
+)
+{
 info
 (
 "
@@ -744,6 +753,7 @@ loaded
 "
 )
 ;
+}
 }
 async
 function

@@ -20,6 +20,12 @@ browser
 >
 {
 await
+simulateRestart
+(
+browser
+)
+;
+await
 clearCache
 (
 )
