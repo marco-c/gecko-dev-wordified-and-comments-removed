@@ -721,10 +721,7 @@ setSymbols
 (
 {
 cx
-source
-:
-loadedSource
-sourceActor
+location
 }
 )
 )

@@ -150,6 +150,7 @@ actions
 ;
 import
 {
+getSelectedLocation
 getSelectedSource
 getSelectedSourceTextContent
 getSymbols
@@ -1917,15 +1918,14 @@ state
 const
 symbols
 =
-selectedSource
-?
 getSymbols
 (
 state
-selectedSource
+getSelectedLocation
+(
+state
 )
-:
-null
+)
 ;
 return
 {
