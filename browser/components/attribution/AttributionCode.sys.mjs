@@ -527,6 +527,9 @@ dltoken
 "
 msstoresignedin
 "
+"
+dlsource
+"
 ]
 ;
 let
