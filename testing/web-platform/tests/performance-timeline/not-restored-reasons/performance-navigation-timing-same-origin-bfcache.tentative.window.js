@@ -149,12 +149,9 @@ assertNotRestoredReasonsEquals
 rc1
 false
 rc1_url
-'
-'
-'
-'
-'
-'
+null
+null
+null
 [
 ]
 [
