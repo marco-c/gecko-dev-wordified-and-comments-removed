@@ -81,6 +81,11 @@ harness
 xhtml
 "
 "
+ignorePrefs
+.
+json
+"
+"
 manifestLibrary
 .
 js
@@ -583,6 +588,11 @@ ico
 harness
 .
 xhtml
+"
+"
+ignorePrefs
+.
+json
 "
 "
 leaks
