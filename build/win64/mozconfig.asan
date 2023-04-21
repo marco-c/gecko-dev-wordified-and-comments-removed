@@ -52,10 +52,6 @@ pwd
 )
 "
 export
-LIB
-=
-CLANG_LIB_DIR
-export
 LDFLAGS
 =
 "

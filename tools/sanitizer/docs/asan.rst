@@ -1179,12 +1179,6 @@ x86_64
 .
 dll
 "
-export
-LIB
-=
-LIB
-:
-CLANG_LIB_DIR
 If
 you
 launch
