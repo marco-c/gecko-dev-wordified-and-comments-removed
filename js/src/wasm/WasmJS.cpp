@@ -4963,6 +4963,16 @@ cx
 )
 )
 ;
+if
+(
+!
+arrayObj
+)
+{
+return
+nullptr
+;
+}
 for
 (
 ValType
