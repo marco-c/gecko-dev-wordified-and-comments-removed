@@ -387,6 +387,10 @@ nsCString
 >
 MakeCDMHostVerificationPaths
 (
+const
+nsACString
+&
+aPluginLibPath
 )
 ;
 nsTArray
