@@ -845,7 +845,7 @@ aTask
 )
 ;
 }
-MOCK_METHOD3
+MOCK_METHOD4
 (
 NotifyAPZStateChange
 void
@@ -858,6 +858,11 @@ APZStateChange
 aChange
 int
 aArg
+Maybe
+<
+uint64_t
+>
+aInputBlockId
 )
 )
 ;

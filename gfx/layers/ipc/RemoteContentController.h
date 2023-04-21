@@ -165,6 +165,11 @@ APZStateChange
 aChange
 int
 aArg
+Maybe
+<
+uint64_t
+>
+aInputBlockId
 )
 override
 ;

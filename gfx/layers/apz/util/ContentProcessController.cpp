@@ -222,6 +222,11 @@ APZStateChange
 aChange
 int
 aArg
+Maybe
+<
+uint64_t
+>
+aInputBlockId
 )
 {
 if
@@ -239,6 +244,7 @@ aGuid
 mScrollId
 aChange
 aArg
+aInputBlockId
 )
 ;
 }
