@@ -399,14 +399,9 @@ i
 "
 /
 /
-eslint
--
-disable
--
-line
 prettier
-/
-prettier
+-
+ignore
 -
 -
 "
