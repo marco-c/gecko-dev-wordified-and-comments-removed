@@ -1526,6 +1526,15 @@ GUniquePtr
 h
 "
 #
+include
+"
+mozilla
+/
+GfxInfo
+.
+h
+"
+#
 endif
 extern
 uint32_t
