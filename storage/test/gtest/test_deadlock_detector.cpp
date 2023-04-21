@@ -185,9 +185,6 @@ define
 DISABLE_STORAGE_SANITY5_DEATH_TEST
 #
 endif
-namespace
-storage
-{
 #
 include
 "
@@ -210,4 +207,3 @@ TestDeadlockDetector
 .
 cpp
 "
-}
