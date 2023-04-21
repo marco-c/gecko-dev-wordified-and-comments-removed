@@ -261,6 +261,14 @@ postData
 [
 infallible
 ]
+readonly
+attribute
+boolean
+hasPostData
+;
+[
+infallible
+]
 attribute
 nsILayoutHistoryState
 layoutHistoryState
