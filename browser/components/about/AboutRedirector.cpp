@@ -702,9 +702,6 @@ nsIAboutModule
 :
 ALLOW_SCRIPT
 }
-#
-ifdef
-NIGHTLY_BUILD
 {
 "
 messagepreview
@@ -744,8 +741,6 @@ nsIAboutModule
 :
 HIDE_FROM_ABOUTABOUT
 }
-#
-endif
 {
 "
 pocket
