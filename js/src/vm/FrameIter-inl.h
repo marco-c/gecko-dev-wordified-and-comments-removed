@@ -139,10 +139,6 @@ unaliasedForEachActual
 (
 cx
 op
-jit
-:
-:
-ReadFrame_Actuals
 recover
 )
 ;
@@ -171,10 +167,6 @@ unaliasedForEachActual
 (
 cx
 op
-jit
-:
-:
-ReadFrame_Actuals
 fallback
 )
 ;
@@ -199,10 +191,6 @@ jsJitFrame
 unaliasedForEachActual
 (
 op
-jit
-:
-:
-ReadFrame_Actuals
 )
 ;
 }
