@@ -440,6 +440,11 @@ testParserAtom
 cpp
 "
 "
+testParseScript
+.
+cpp
+"
+"
 testPersistentRooted
 .
 cpp
