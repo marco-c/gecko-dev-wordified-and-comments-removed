@@ -92,6 +92,10 @@ eliminateRedundantShapeGuards_
 =
 true
 ;
+eliminateRedundantGCBarriers_
+=
+true
+;
 inlineInterpreted_
 =
 true
@@ -165,6 +169,10 @@ eliminateRedundantChecks_
 false
 ;
 eliminateRedundantShapeGuards_
+=
+false
+;
+eliminateRedundantGCBarriers_
 =
 false
 ;
