@@ -132,6 +132,17 @@ h
 #
 include
 "
+mozilla
+/
+widget
+/
+Screen
+.
+h
+"
+#
+include
+"
 nsIScreen
 .
 h

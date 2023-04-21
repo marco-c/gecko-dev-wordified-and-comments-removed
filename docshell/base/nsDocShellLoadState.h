@@ -84,12 +84,12 @@ nsIChannel
 class
 nsIReferrerInfo
 ;
-class
-OriginAttibutes
-;
 namespace
 mozilla
 {
+class
+OriginAttributes
+;
 template
 <
 typename

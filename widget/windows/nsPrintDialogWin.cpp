@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -93,6 +100,13 @@ h
 include
 "
 nsIWebBrowserChrome
+.
+h
+"
+#
+include
+"
+nsServiceManagerUtils
 .
 h
 "
