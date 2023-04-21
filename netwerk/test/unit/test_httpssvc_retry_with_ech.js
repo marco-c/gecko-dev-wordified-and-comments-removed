@@ -466,7 +466,7 @@ dns
 .
 echconfig
 .
-fallback_to_origin
+fallback_to_origin_when_all_failed
 "
 )
 ;
