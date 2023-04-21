@@ -174,7 +174,7 @@ const
 uint32_t
 kWindowsGamepadPollInterval
 =
-50
+4
 ;
 const
 UINT
