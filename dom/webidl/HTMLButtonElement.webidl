@@ -338,3 +338,7 @@ labels
 ;
 }
 ;
+HTMLButtonElement
+includes
+PopoverInvokerElement
+;

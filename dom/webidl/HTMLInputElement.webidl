@@ -1282,6 +1282,10 @@ HTMLInputElement
 includes
 MozImageLoadingContent
 ;
+HTMLInputElement
+includes
+PopoverInvokerElement
+;
 /
 /
 https
