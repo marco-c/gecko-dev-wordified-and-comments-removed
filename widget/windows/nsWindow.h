@@ -3181,13 +3181,6 @@ aOrientation
 )
 ;
 void
-OnFullscreenWillChange
-(
-bool
-aFullScreen
-)
-;
-void
 OnFullscreenChanged
 (
 nsSizeMode
