@@ -1765,6 +1765,13 @@ constructor
 .
 key
 displayName
+brandImage
+:
+migrator
+.
+constructor
+.
+brandImage
 resourceTypes
 :
 availableResourceTypes
