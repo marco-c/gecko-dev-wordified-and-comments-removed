@@ -1564,6 +1564,12 @@ FileBlobImpl
 >
 (
 fileObject
+path
+.
+LastElement
+(
+)
+type
 )
 ;
 IPCBlob
