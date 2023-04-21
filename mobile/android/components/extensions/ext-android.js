@@ -814,6 +814,8 @@ window
 const
 {
 tab
+:
+nativeTab
 browser
 }
 =
@@ -842,7 +844,7 @@ tab
 removed
 "
 {
-tab
+nativeTab
 tabId
 windowId
 isWindowClosing
