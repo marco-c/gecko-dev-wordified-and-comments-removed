@@ -1829,6 +1829,15 @@ IsFixedPos
 )
 const
 ;
+bool
+ContainsPoint
+(
+int32_t
+aX
+int32_t
+aY
+)
+;
 virtual
 void
 ARIAGroupPosition
