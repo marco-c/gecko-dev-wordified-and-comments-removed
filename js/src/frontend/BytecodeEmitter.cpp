@@ -49096,6 +49096,17 @@ needsArgsObj
 )
 )
 {
+MOZ_ASSERT
+(
+emitterMode
+!
+=
+BytecodeEmitter
+:
+:
+SelfHosting
+)
+;
 if
 (
 !

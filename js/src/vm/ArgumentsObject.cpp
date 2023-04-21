@@ -1762,6 +1762,17 @@ CopyArgs
 copy
 )
 {
+MOZ_ASSERT
+(
+!
+callee
+-
+>
+isSelfHostedBuiltin
+(
+)
+)
+;
 bool
 mapped
 =
