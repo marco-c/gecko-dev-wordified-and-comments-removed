@@ -438,8 +438,12 @@ getVirtualRegister
 (
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+!
+errored
+(
+)
 typeVreg
 +
 1
