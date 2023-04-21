@@ -821,7 +821,9 @@ IsUAWidget
 const
 {
 return
-mIsUAWidget
+HasBeenInUAWidget
+(
+)
 ;
 }
 void
@@ -841,10 +843,6 @@ SetFlags
 (
 NODE_HAS_BEEN_IN_UA_WIDGET
 )
-;
-mIsUAWidget
-=
-true
 ;
 }
 bool
@@ -900,7 +898,6 @@ aVisitor
 )
 ;
 }
-virtual
 void
 SetCurrentRadioButton
 (
@@ -924,7 +921,6 @@ aRadio
 )
 ;
 }
-virtual
 HTMLInputElement
 *
 GetCurrentRadioButton
@@ -979,7 +975,6 @@ aRadioOut
 )
 ;
 }
-virtual
 void
 AddToRadioGroup
 (
@@ -1003,7 +998,6 @@ aRadio
 )
 ;
 }
-virtual
 void
 RemoveFromRadioGroup
 (
@@ -1027,7 +1021,6 @@ aRadio
 )
 ;
 }
-virtual
 uint32_t
 GetRequiredRadioCount
 (
@@ -1049,7 +1042,6 @@ aName
 )
 ;
 }
-virtual
 void
 RadioRequiredWillChange
 (
@@ -1072,7 +1064,6 @@ aRequiredAdded
 )
 ;
 }
-virtual
 bool
 GetValueMissingState
 (
@@ -1094,7 +1085,6 @@ aName
 )
 ;
 }
-virtual
 void
 SetValueMissingState
 (
@@ -1182,11 +1172,6 @@ Element
 *
 >
 mParts
-;
-bool
-mIsUAWidget
-:
-1
 ;
 bool
 mIsDetailsShadowTree
