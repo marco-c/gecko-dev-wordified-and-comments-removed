@@ -10348,7 +10348,7 @@ submodules_
 gain_controller2
 -
 >
-GetRecommendedInputVolume
+recommended_input_volume
 (
 )
 ;
