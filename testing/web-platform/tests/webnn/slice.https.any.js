@@ -50,9 +50,6 @@ starts
 resources
 .
 sizes
-resources
-.
-options
 )
 ;
 return
