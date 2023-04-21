@@ -742,7 +742,7 @@ PointerAction
 )
 :
     
-type
+action_type
 =
 "
 pointerDown
@@ -900,7 +900,7 @@ PointerAction
 )
 :
     
-type
+action_type
 =
 "
 pointerUp
@@ -1058,7 +1058,7 @@ PointerAction
 )
 :
     
-type
+action_type
 =
 "
 pointerMove
@@ -1246,7 +1246,7 @@ Action
 )
 :
     
-type
+action_type
 =
 "
 scroll
@@ -2522,6 +2522,44 @@ actions
 ]
 =
 actions
+        
+return
+params
+    
+command
+    
+def
+release_actions
+(
+self
+context
+:
+str
+)
+-
+>
+Mapping
+[
+str
+Any
+]
+:
+        
+params
+:
+MutableMapping
+[
+str
+Any
+]
+=
+{
+"
+context
+"
+:
+context
+}
         
 return
 params
