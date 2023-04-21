@@ -247,6 +247,10 @@ SourcesRequestResponseSignalHandler
 sources_request_response_signal_handler
 gpointer
 user_data
+bool
+prefer_cursor_embedded
+=
+false
 )
 ;
 ~
@@ -417,9 +421,6 @@ kScreen
 CursorMode
 cursor_mode_
 =
-ScreenCastPortal
-:
-:
 CursorMode
 :
 :

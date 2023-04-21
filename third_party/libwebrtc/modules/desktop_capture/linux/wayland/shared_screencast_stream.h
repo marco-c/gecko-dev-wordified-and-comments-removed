@@ -200,6 +200,10 @@ uint32_t
 height
 =
 0
+bool
+is_cursor_embedded
+=
+false
 )
 ;
 void
