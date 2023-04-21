@@ -1693,11 +1693,6 @@ wasCollected_
 v
 ;
 }
-uint64_t
-gcNumber
-(
-)
-;
 void
 setNeedsIncrementalBarrier
 (
