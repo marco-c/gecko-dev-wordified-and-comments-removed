@@ -2766,6 +2766,15 @@ kHardwareCapability
 >
 power_efficient_encoder
 ;
+RTCStatsMember
+<
+std
+:
+:
+string
+>
+scalability_mode
+;
 }
 ;
 class
