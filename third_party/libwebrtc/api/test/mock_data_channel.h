@@ -32,7 +32,6 @@ webrtc
 {
 class
 MockDataChannelInterface
-final
 :
 public
 rtc

@@ -50,7 +50,6 @@ webrtc
 {
 class
 MockVideoTrack
-final
 :
 public
 rtc

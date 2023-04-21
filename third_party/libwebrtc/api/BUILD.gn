@@ -6180,6 +6180,16 @@ rtp_sender_interface
 .
 .
 /
+api
+/
+crypto
+:
+frame_decryptor_interface
+"
+"
+.
+.
+/
 test
 :
 test_support

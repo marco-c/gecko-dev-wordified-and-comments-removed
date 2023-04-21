@@ -32,7 +32,6 @@ webrtc
 {
 class
 MockAudioSource
-final
 :
 public
 rtc
@@ -222,7 +221,6 @@ default
 ;
 class
 MockAudioTrack
-final
 :
 public
 rtc

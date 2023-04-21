@@ -38,7 +38,6 @@ webrtc
 {
 class
 MockAudioSink
-final
 :
 public
 webrtc
