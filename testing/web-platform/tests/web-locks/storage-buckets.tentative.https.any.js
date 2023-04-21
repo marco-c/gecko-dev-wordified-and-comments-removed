@@ -100,6 +100,12 @@ t
 =
 >
 {
+await
+prepareForBucketTest
+(
+t
+)
+;
 const
 inboxBucket
 =

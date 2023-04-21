@@ -13,6 +13,12 @@ root_dir
 =
 >
 {
+await
+prepareForBucketTest
+(
+t
+)
+;
 const
 inboxBucket
 =
@@ -111,6 +117,12 @@ root_dir
 =
 >
 {
+await
+prepareForBucketTest
+(
+t
+)
+;
 const
 inboxBucket
 =
