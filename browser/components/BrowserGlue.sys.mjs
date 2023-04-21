@@ -1820,7 +1820,7 @@ RefreshBlockerObserver
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -1832,7 +1832,9 @@ actors
 /
 RefreshBlockerChild
 .
-jsm
+sys
+.
+mjs
 "
 observers
 :
@@ -4472,7 +4474,7 @@ RefreshBlocker
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -4484,13 +4486,15 @@ actors
 /
 RefreshBlockerParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -4502,7 +4506,9 @@ actors
 /
 RefreshBlockerChild
 .
-jsm
+sys
+.
+mjs
 "
 }
 messageManagerGroups
