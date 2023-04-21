@@ -3383,8 +3383,8 @@ reformatImageURL
 spoc
 .
 raw_image_src
-40
-40
+96
+96
 )
 type
 :
