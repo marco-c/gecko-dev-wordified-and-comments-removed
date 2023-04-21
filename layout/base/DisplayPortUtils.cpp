@@ -506,6 +506,10 @@ aGeometryType
 nsIScrollableFrame
 *
 aScrollableFrame
+const
+CSSToScreenScale2D
+&
+aDisplayportScale
 )
 const
 {
@@ -523,7 +527,7 @@ scrollDelta
 =
 scrollDeltaCss
 *
-mScale
+aDisplayportScale
 ;
 ScreenMargin
 margins
@@ -1171,6 +1175,14 @@ aOptions
 .
 mGeometryType
 scrollableFrame
+presContext
+-
+>
+CSSToDevPixelScale
+(
+)
+*
+res
 )
 ;
 if

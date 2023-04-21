@@ -279,6 +279,10 @@ aGeometryType
 nsIScrollableFrame
 *
 aScrollableFrame
+const
+CSSToScreenScale2D
+&
+aDisplayportScale
 )
 const
 ;
