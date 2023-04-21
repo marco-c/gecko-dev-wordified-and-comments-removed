@@ -21,6 +21,13 @@ pratom
 .
 h
 "
+#
+include
+"
+XPCMaps
+.
+h
+"
 using
 namespace
 mozilla

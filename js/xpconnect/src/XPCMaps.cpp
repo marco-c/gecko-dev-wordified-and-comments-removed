@@ -26,6 +26,13 @@ h
 #
 include
 "
+XPCMaps
+.
+h
+"
+#
+include
+"
 js
 /
 HashTable

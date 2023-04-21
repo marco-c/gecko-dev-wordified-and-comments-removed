@@ -70,6 +70,13 @@ h
 #
 include
 "
+XPCMaps
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Unused

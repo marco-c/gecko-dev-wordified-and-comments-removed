@@ -5,6 +5,13 @@ XPCSelfHostedShmem
 .
 h
 "
+#
+include
+"
+xpcprivate
+.
+h
+"
 mozilla
 :
 :
