@@ -238,11 +238,6 @@ mShutdownRequested
 false
 )
 {
-MOZ_COUNT_CTOR
-(
-VRProcessParent
-)
-;
 }
 VRProcessParent
 :
@@ -251,13 +246,9 @@ VRProcessParent
 VRProcessParent
 (
 )
-{
-MOZ_COUNT_DTOR
-(
-VRProcessParent
-)
+=
+default
 ;
-}
 bool
 VRProcessParent
 :
@@ -716,7 +707,7 @@ false
 }
 mVRChild
 =
-MakeUnique
+MakeRefPtr
 <
 VRChild
 >
