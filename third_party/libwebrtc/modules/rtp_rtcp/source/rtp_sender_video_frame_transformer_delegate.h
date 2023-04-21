@@ -179,7 +179,7 @@ frame
 const
 RTC_RUN_ON
 (
-encoder_queue_
+transformation_queue_
 )
 ;
 void
@@ -245,16 +245,6 @@ const
 uint32_t
 ssrc_
 ;
-TaskQueueBase
-*
-encoder_queue_
-=
-nullptr
-;
-TaskQueueFactory
-*
-task_queue_factory_
-;
 std
 :
 :
@@ -263,7 +253,7 @@ unique_ptr
 TaskQueueBase
 TaskQueueDeleter
 >
-owned_encoder_queue_
+transformation_queue_
 ;
 }
 ;
