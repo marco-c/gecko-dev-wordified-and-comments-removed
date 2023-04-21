@@ -152,7 +152,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUSupportedLimits
@@ -335,7 +334,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUSupportedFeatures
@@ -527,7 +525,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPU
@@ -606,7 +603,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 readonly
 attribute
@@ -663,7 +659,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUAdapter
@@ -819,7 +814,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUDevice
@@ -1043,7 +1037,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUBuffer
@@ -1156,7 +1149,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUBufferUsage
@@ -1251,7 +1243,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUMapMode
@@ -1300,7 +1291,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUTexture
@@ -1408,7 +1398,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUTextureUsage
@@ -1488,7 +1477,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUTextureView
@@ -1947,7 +1935,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUSampler
@@ -2141,7 +2128,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUBindGroupLayout
@@ -2219,7 +2205,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUShaderStage
@@ -2413,7 +2398,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUBindGroup
@@ -2505,7 +2489,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUPipelineLayout
@@ -2553,7 +2536,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUShaderModule
@@ -2632,7 +2614,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUCompilationMessage
@@ -2697,7 +2678,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUCompilationInfo
@@ -2806,7 +2786,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUComputePipeline
@@ -2879,7 +2858,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPURenderPipeline
@@ -3125,7 +3103,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUColorWrite
@@ -3729,7 +3706,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUCommandBuffer
@@ -3771,7 +3747,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUCommandEncoder
@@ -3972,7 +3947,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUComputePassEncoder
@@ -4218,7 +4192,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPURenderPassEncoder
@@ -4482,7 +4455,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPURenderBundle
@@ -4520,7 +4492,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPURenderBundleEncoder
@@ -4633,7 +4604,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUQueue
@@ -4740,7 +4710,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUQuerySet
@@ -4854,7 +4823,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUCanvasContext
@@ -4994,7 +4962,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUDeviceLostInfo
@@ -5088,7 +5055,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUOutOfMemoryError
@@ -5121,7 +5087,6 @@ DedicatedWorker
 *
 /
 )
-SecureContext
 ]
 interface
 GPUValidationError
