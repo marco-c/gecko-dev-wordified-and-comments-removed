@@ -807,7 +807,7 @@ return
 wbp
 -
 >
-SaveURI
+SavePrivacyAwareURI
 (
 imageURI
 aElement
@@ -827,6 +827,11 @@ nsIContentPolicy
 :
 TYPE_IMAGE
 loadContext
+-
+>
+UsePrivateBrowsing
+(
+)
 )
 ;
 }
