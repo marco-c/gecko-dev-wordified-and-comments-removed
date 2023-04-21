@@ -16330,6 +16330,10 @@ False
         
 }
         
+test_timeout
+=
+None
+        
 if
 options
 .
@@ -16345,16 +16349,7 @@ options
 timeout
 :
             
-prefs
-[
-"
-testing
-.
-browserTestHarness
-.
-timeout
-"
-]
+test_timeout
 =
 options
 .
@@ -16416,19 +16411,15 @@ timeout
 to
 90
 seconds
+(
+asan
+or
+debug
+)
 "
 )
             
-prefs
-[
-"
-testing
-.
-browserTestHarness
-.
-timeout
-"
-]
+test_timeout
 =
 90
         
@@ -16477,19 +16468,13 @@ timeout
 to
 120
 seconds
+(
+tsan
+)
 "
 )
             
-prefs
-[
-"
-testing
-.
-browserTestHarness
-.
-timeout
-"
-]
+test_timeout
 =
 120
         
@@ -16523,7 +16508,7 @@ aarch64
 "
 :
             
-extended_timeout
+test_timeout
 =
 self
 .
@@ -16546,14 +16531,72 @@ to
 {
 }
 seconds
+(
+win
+aarch64
+)
 "
 .
 format
 (
-extended_timeout
+                    
+test_timeout
+                
 )
             
 )
+        
+if
+"
+MOZ_CHAOSMODE
+=
+0xfb
+"
+in
+options
+.
+environment
+and
+test_timeout
+:
+            
+test_timeout
+*
+=
+2
+            
+self
+.
+log
+.
+info
+(
+                
+"
+Increasing
+default
+timeout
+to
+{
+}
+seconds
+(
+MOZ_CHAOSMODE
+)
+"
+.
+format
+(
+                    
+test_timeout
+                
+)
+            
+)
+        
+if
+test_timeout
+:
             
 prefs
 [
@@ -16566,7 +16609,7 @@ timeout
 "
 ]
 =
-extended_timeout
+test_timeout
         
 if
 getattr
