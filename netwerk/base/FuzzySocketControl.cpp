@@ -651,5 +651,17 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+NS_IMETHODIMP
+FuzzySocketControl
+:
+:
+Claim
+(
+)
+{
+return
+NS_OK
+;
+}
 }
 }

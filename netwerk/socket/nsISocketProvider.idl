@@ -203,6 +203,16 @@ ANONYMOUS_CONNECT_ALLOW_CLIENT_CERT
 const
 unsigned
 long
+IS_SPECULATIVE_CONNECTION
+=
+1
+<
+<
+5
+;
+const
+unsigned
+long
 DONT_TRY_ECH
 =
 (

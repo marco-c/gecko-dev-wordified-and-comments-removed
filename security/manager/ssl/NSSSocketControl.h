@@ -341,6 +341,12 @@ callback
 )
 override
 ;
+NS_IMETHOD
+Claim
+(
+)
+override
+;
 PRStatus
 CloseSocketAndDestroy
 (
@@ -965,6 +971,9 @@ IsWaitingForCertVerification
 )
 &
 &
+mClaimed
+&
+&
 mPendingSelectClientAuthCertificate
 )
 {
@@ -1132,6 +1141,9 @@ mSocketCreationTimestamp
 ;
 uint64_t
 mPlaintextBytesRead
+;
+bool
+mClaimed
 ;
 nsCOMPtr
 <

@@ -357,5 +357,10 @@ asyncGetSecurityInfo
 (
 )
 ;
+void
+claim
+(
+)
+;
 }
 ;

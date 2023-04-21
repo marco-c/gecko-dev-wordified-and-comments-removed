@@ -1467,9 +1467,6 @@ isFromPredictor
 bool
 allow1918
 ;
-bool
-ignoreUserCertCheck
-;
 }
 ;
 struct
