@@ -457,6 +457,7 @@ ScanResult
 Ok
 Invisible
 CyclicReference
+TooDeep
 }
 ;
 ScanResult
@@ -466,6 +467,19 @@ const
 Element
 &
 aTarget
+)
+const
+;
+ScanResult
+ScanAncestorsInternal
+(
+const
+Element
+&
+aTarget
+uint32_t
+&
+aCount
 )
 const
 ;
