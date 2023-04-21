@@ -665,6 +665,19 @@ tmp
 "
 )
         
+print
+(
+"
+tasks_adb_remote
+.
+py
+:
+Transfering
+test
+files
+"
+)
+        
 device
 .
 push
@@ -1171,19 +1184,6 @@ script_timeout
 try
 :
         
-print
-(
-"
-tasks_adb_remote
-.
-py
-:
-Create
-batch
-script
-"
-)
-        
 tmpf
 =
 tempfile
@@ -1576,17 +1576,6 @@ options
             
 yield
 test_output
-        
-print
-(
-"
-tasks_adb_remote
-.
-py
-:
-Finished
-"
-)
     
 except
 ADBProcessError
