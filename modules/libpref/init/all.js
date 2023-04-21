@@ -5686,7 +5686,7 @@ pref
 "
 privacy
 .
-fingerprintingProtection
+resistFingerprintingLite
 .
 overrides
 "

@@ -879,7 +879,7 @@ UpdateRFPPref
 )
 ;
 void
-UpdateFPPOverrideList
+UpdateRFPLiteOverrideList
 (
 )
 ;

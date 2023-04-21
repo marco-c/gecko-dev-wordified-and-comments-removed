@@ -154,13 +154,6 @@ toolkit_widgets
 index
 components
 /
-resistfingerprinting
-/
-resistfingerprinting
-/
-index
-components
-/
 url
 -
 classifier
