@@ -910,6 +910,9 @@ forceMainDocumentChannel
 uint8_t
 redirectionLimit
 ;
+nsString
+classicScriptHintCharset
+;
 }
 ;
 struct
