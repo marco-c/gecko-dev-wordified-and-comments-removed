@@ -24,6 +24,13 @@ wininet
 .
 h
 >
+#
+include
+"
+pingsender
+.
+h
+"
 namespace
 PingSender
 {

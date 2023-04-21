@@ -52,6 +52,13 @@ curl
 .
 h
 "
+#
+include
+"
+pingsender
+.
+h
+"
 namespace
 PingSender
 {
@@ -1275,6 +1282,7 @@ portStart
 )
 ;
 return
+PingSender
 :
 :
 IsValidDestination
@@ -1381,6 +1389,7 @@ cleanup
 }
 ret
 =
+PingSender
 :
 :
 IsValidDestination
