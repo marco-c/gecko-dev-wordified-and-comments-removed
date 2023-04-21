@@ -546,6 +546,11 @@ mMayHaveFormSelectEventListener
 1
 ;
 uint16_t
+mMayHaveTransitionEventListener
+:
+1
+;
+uint16_t
 mClearingListeners
 :
 1
@@ -1729,6 +1734,15 @@ const
 {
 return
 mMayHaveFormSelectEventListener
+;
+}
+bool
+MayHaveTransitionEventListener
+(
+)
+{
+return
+mMayHaveTransitionEventListener
 ;
 }
 bool

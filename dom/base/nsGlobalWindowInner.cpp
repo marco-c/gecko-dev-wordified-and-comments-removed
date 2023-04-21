@@ -36837,6 +36837,10 @@ mMayHavePointerEnterLeaveEventListener
 (
 false
 )
+mMayHaveTransitionEventListener
+(
+false
+)
 mMayHaveBeforeInputEventListenerForTelemetry
 (
 false
