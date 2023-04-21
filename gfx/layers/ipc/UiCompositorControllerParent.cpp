@@ -822,15 +822,6 @@ ActorDestroyReason
 aWhy
 )
 {
-}
-void
-UiCompositorControllerParent
-:
-:
-ActorDealloc
-(
-)
-{
 MOZ_ASSERT
 (
 CompositorThreadHolder
@@ -842,10 +833,6 @@ IsInCompositorThread
 )
 ;
 Shutdown
-(
-)
-;
-Release
 (
 )
 ;
@@ -1242,10 +1229,6 @@ CompositorThreadHolder
 IsInCompositorThread
 (
 )
-)
-;
-AddRef
-(
 )
 ;
 LayerTreeState
