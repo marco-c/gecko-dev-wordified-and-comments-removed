@@ -5,7 +5,7 @@ RFPHelper
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ modules
 /
 RFPHelper
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
