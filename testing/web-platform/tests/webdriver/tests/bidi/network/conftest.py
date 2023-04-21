@@ -47,6 +47,7 @@ fetch
 (
 bidi_session
 top_context
+configuration
 )
 :
     
@@ -91,6 +92,9 @@ None
 context
 =
 top_context
+timeout_in_seconds
+=
+1
 )
 :
         
@@ -135,6 +139,17 @@ headers
 }
 "
         
+timeout_in_seconds
+=
+timeout_in_seconds
+*
+configuration
+[
+"
+timeout_multiplier
+"
+]
+        
 await
 bidi_session
 .
@@ -149,6 +164,34 @@ f
 "
 "
 "
+                 
+const
+controller
+=
+new
+AbortController
+(
+)
+;
+                 
+setTimeout
+(
+(
+)
+=
+>
+controller
+.
+abort
+(
+)
+{
+timeout_in_seconds
+*
+1000
+}
+)
+;
                  
 fetch
 (
@@ -167,6 +210,12 @@ method_arg
 {
 headers_arg
 }
+                   
+signal
+:
+controller
+.
+signal
                  
 }
 }
