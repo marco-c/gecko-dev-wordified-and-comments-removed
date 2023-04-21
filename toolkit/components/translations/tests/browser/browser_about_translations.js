@@ -15,10 +15,6 @@ await
 openAboutTranslations
 (
 {
-languagePairs
-:
-[
-]
 runInPage
 :
 async
@@ -280,10 +276,6 @@ openAboutTranslations
 disabled
 :
 true
-languagePairs
-:
-[
-]
 runInPage
 :
 async

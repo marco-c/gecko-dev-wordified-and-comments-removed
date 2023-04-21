@@ -372,7 +372,7 @@ bergamotWasmArrayBuffer
 ArrayBuffer
 languageModelFiles
 :
-LanguageTranslationModelFiles
+LanguageModelFiles
 [
 ]
 }
@@ -418,14 +418,3 @@ viewport
 hidden
 "
 ;
-export
-interface
-LangTags
-{
-appLangTag
-:
-string
-docLangTag
-:
-string
-}
