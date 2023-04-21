@@ -1,9 +1,6 @@
 namespace
 mozilla
 {
-[
-ManualDealloc
-]
 sync
 protocol
 PSandboxTesting
