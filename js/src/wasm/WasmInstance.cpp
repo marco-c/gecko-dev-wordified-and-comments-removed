@@ -429,7 +429,7 @@ static_assert
 Instance
 :
 :
-offsetOfGlobalArea
+offsetOfData
 (
 )
 %
@@ -488,7 +488,7 @@ TypeDefInstanceData
 *
 )
 (
-globalData
+data
 (
 )
 +
@@ -527,7 +527,7 @@ void
 *
 cell
 =
-globalData
+data
 (
 )
 +
@@ -582,7 +582,7 @@ FuncImportInstanceData
 *
 )
 (
-globalData
+data
 (
 )
 +
@@ -615,13 +615,13 @@ TableInstanceData
 *
 )
 (
-globalData
+data
 (
 )
 +
 td
 .
-globalDataOffset
+instanceDataOffset
 )
 ;
 }
@@ -654,13 +654,13 @@ WasmTagObject
 *
 )
 (
-globalData
+data
 (
 )
 +
 td
 .
-globalDataOffset
+instanceDataOffset
 )
 ;
 }
@@ -8835,7 +8835,7 @@ SharedCode
 &
 code
 uint32_t
-globalDataLength
+instanceDataLength
 Handle
 <
 WasmMemoryObject
@@ -8864,10 +8864,10 @@ Instance
 offsetof
 (
 Instance
-globalArea_
+data_
 )
 +
-globalDataLength
+instanceDataLength
 )
 ;
 if
@@ -9808,7 +9808,7 @@ MOZ_ASSERT
 (
 td
 .
-globalDataOffset
+instanceDataOffset
 !
 =
 UINT32_MAX
@@ -10354,7 +10354,7 @@ uint8_t
 *
 globalAddr
 =
-globalData
+data
 (
 )
 +
@@ -11238,7 +11238,7 @@ JSObject
 *
 )
 (
-globalData
+data
 (
 )
 +

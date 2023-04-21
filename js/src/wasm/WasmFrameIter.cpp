@@ -3377,11 +3377,11 @@ InstanceReg
 Instance
 :
 :
-offsetInGlobalArea
+offsetInData
 (
 callIndirectId
 .
-globalDataOffset
+instanceDataOffset
 (
 )
 )

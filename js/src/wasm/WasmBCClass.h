@@ -2909,7 +2909,7 @@ CodeOffset
 callImport
 (
 unsigned
-globalDataOffset
+instanceDataOffset
 const
 FunctionCall
 &
