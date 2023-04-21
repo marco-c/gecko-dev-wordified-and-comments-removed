@@ -3,6 +3,9 @@ DIRS
 =
 [
 "
+micromatch
+"
+"
 source
 -
 map
