@@ -21,6 +21,11 @@ utility
 >
 #
 include
+<
+vector
+>
+#
+include
 "
 absl
 /
@@ -309,6 +314,15 @@ uint32_t
 target_encode_bitrate
 =
 0
+;
+std
+:
+:
+vector
+<
+int
+>
+qp_values
 ;
 absl
 :

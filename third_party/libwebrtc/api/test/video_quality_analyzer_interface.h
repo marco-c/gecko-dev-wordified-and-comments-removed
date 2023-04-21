@@ -121,6 +121,12 @@ target_encode_bitrate
 =
 0
 ;
+int
+qp
+=
+-
+1
+;
 }
 ;
 struct

@@ -425,6 +425,9 @@ resolution_of_decoded_frame
 SamplesStatsCounter
 target_encode_bitrate
 ;
+SamplesStatsCounter
+qp
+;
 int64_t
 total_encoded_images_payload
 =

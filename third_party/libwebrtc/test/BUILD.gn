@@ -3889,6 +3889,17 @@ e2e
 e2e_unittests
 "
 "
+pc
+/
+e2e
+/
+analyzer
+/
+video
+:
+video_analyzer_unittests
+"
+"
 peer_scenario
 /
 tests
