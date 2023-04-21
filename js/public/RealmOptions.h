@@ -485,6 +485,8 @@ return
 this
 ;
 }
+#
+endif
 bool
 getArrayFromAsyncEnabled
 (
@@ -512,8 +514,6 @@ return
 this
 ;
 }
-#
-endif
 #
 ifdef
 ENABLE_CHANGE_ARRAY_BY_COPY
@@ -752,13 +752,13 @@ arrayGrouping_
 =
 false
 ;
+#
+endif
 bool
 arrayFromAsync_
 =
 false
 ;
-#
-endif
 #
 ifdef
 ENABLE_CHANGE_ARRAY_BY_COPY
