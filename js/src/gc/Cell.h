@@ -162,6 +162,9 @@ AllocKind
 uint8_t
 ;
 class
+CellAllocator
+;
+class
 StoreBuffer
 ;
 class
