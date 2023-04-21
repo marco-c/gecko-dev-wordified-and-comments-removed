@@ -1801,6 +1801,10 @@ set
 (
 ROLLOUT_URI_PREF
 uri
+|
+|
+"
+"
 )
 ;
 }
