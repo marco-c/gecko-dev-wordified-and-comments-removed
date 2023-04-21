@@ -1292,17 +1292,37 @@ join
 cargo_extra_flags
 )
     
-try
+ret
+=
+0
+    
+if
+cargo_build_flags
 :
         
+deps
+=
+Path
+(
 command_context
 .
-config_environment
-    
-except
-BuildEnvironmentNotFoundException
-:
+topobjdir
+)
+/
+"
+.
+deps
+"
         
+if
+not
+deps
+.
+exists
+(
+)
+:
+            
 build
 =
 command_context
@@ -1311,10 +1331,6 @@ _spawn
 (
 BuildDriver
 )
-        
-if
-cargo_build_flags
-:
             
 ret
 =
@@ -1355,9 +1371,29 @@ command_context
 _mach_context
             
 )
-        
+    
 else
 :
+        
+try
+:
+            
+command_context
+.
+config_environment
+        
+except
+BuildEnvironmentNotFoundException
+:
+            
+build
+=
+command_context
+.
+_spawn
+(
+BuildDriver
+)
             
 ret
 =
@@ -1375,14 +1411,14 @@ buildstatus_messages
 False
             
 )
-        
+    
 if
 ret
 !
 =
 0
 :
-            
+        
 return
 ret
     
