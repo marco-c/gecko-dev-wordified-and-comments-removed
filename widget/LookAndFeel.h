@@ -212,6 +212,7 @@ GTKCSDReversedPlacement
 SystemUsesDarkTheme
 PrefersReducedMotion
 PrefersReducedTransparency
+InvertedColors
 PrimaryPointerCapabilities
 AllPointerCapabilities
 SystemScrollbarSize

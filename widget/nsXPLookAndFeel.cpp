@@ -995,6 +995,11 @@ prefersReducedTransparency
 "
 ui
 .
+invertedColors
+"
+"
+ui
+.
 primaryPointerCapabilities
 "
 "
