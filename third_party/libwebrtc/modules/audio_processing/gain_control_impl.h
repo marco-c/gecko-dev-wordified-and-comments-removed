@@ -323,10 +323,6 @@ ApmDataDumper
 >
 data_dumper_
 ;
-const
-bool
-use_legacy_gain_applier_
-;
 Mode
 mode_
 ;
