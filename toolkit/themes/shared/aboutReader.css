@@ -5562,7 +5562,9 @@ CLASSES_TO_PRESERVE
 in
 ReaderMode
 .
-jsm
+sys
+.
+mjs
 so
 that
 *
