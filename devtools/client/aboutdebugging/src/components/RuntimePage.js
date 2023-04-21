@@ -783,7 +783,6 @@ const
 {
 isSupportedDebugTargetPane
 supportsTemporaryExtensionInstaller
-supportsTemporaryExtensionAdditionalActions
 }
 =
 require
@@ -1398,18 +1397,7 @@ actionComponent
 InspectAction
 additionalActionsComponent
 :
-supportsTemporaryExtensionAdditionalActions
-(
-runtimeDetails
-.
-info
-.
-type
-)
-?
 TemporaryExtensionAdditionalActions
-:
-null
 children
 :
 this
