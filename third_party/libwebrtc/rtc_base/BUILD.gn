@@ -1564,6 +1564,10 @@ deps
 [
 "
 :
+checks
+"
+"
+:
 macromagic
 "
 ]
