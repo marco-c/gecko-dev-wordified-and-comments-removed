@@ -43,6 +43,15 @@ actorsToAdd
 )
 ;
 void
+noteIntentionalCrash
+(
+in
+unsigned
+long
+pid
+)
+;
+void
 stopProcess
 (
 [

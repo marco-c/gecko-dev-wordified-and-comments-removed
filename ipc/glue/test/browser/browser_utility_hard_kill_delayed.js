@@ -161,6 +161,15 @@ data
 }
 )
 ;
+utilityProcessTest
+(
+)
+.
+noteIntentionalCrash
+(
+utilityPid
+)
+;
 }
 )
 ;
