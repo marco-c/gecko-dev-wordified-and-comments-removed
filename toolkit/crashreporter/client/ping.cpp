@@ -13,6 +13,11 @@ cstring
 #
 include
 <
+ctime
+>
+#
+include
+<
 string
 >
 #
@@ -762,6 +767,9 @@ crashId
 "
 ]
 =
+CrashReporter
+:
+:
 GetDumpLocalID
 (
 )
@@ -1480,6 +1488,9 @@ string
 aPing
 )
 {
+std
+:
+:
 ofstream
 *
 f
@@ -1487,6 +1498,9 @@ f
 UIOpenWrite
 (
 aPath
+std
+:
+:
 ios
 :
 :
@@ -1818,6 +1832,9 @@ return
 false
 ;
 }
+std
+:
+:
 vector
 <
 string
@@ -1833,6 +1850,9 @@ if
 (
 UIRunProgram
 (
+CrashReporter
+:
+:
 GetProgramPath
 (
 UI_PING_SENDER_FILENAME
