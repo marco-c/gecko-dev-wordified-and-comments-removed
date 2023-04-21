@@ -532,7 +532,7 @@ innerText
 PRETTY_PRINTED_FILENAME
 }
 :
-36
+38
 :
 12
 "
@@ -597,7 +597,7 @@ await
 waitForSelectedLocation
 (
 dbg
-36
+38
 )
 ;
 ok
@@ -821,7 +821,7 @@ endsWith
 PRETTY_PRINTED_FILENAME
 }
 :
-46
+48
 )
 Location
 in
@@ -902,7 +902,7 @@ await
 waitForSelectedLocation
 (
 dbg
-46
+48
 )
 ;
 ok
