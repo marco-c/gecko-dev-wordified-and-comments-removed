@@ -6,7 +6,7 @@ nsISupports
 idl
 "
 interface
-mozIStorageAsyncConnection
+mozIStorageConnection
 ;
 [
 scriptable
@@ -35,12 +35,7 @@ expectedDatabasePageSize
 ;
 readonly
 attribute
-boolean
-useIncrementalVacuum
-;
-readonly
-attribute
-mozIStorageAsyncConnection
+mozIStorageConnection
 databaseConnection
 ;
 boolean
