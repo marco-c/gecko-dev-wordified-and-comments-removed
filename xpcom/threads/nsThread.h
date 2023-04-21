@@ -234,6 +234,10 @@ nsThreadShutdownContext
 define
 LONGTASK_BUSY_WINDOW_MS
 50
+#
+define
+LONGTASK_TELEMETRY_MS
+30
 namespace
 mozilla
 {
@@ -361,6 +365,10 @@ aIsIdleRunnable
 void
 RunnableDidRun
 (
+const
+nsCString
+&
+aName
 Snapshot
 &
 &
@@ -396,6 +404,10 @@ private
 void
 MaybeReportAccumulatedTime
 (
+const
+nsCString
+&
+aName
 TimeStamp
 aNow
 )
