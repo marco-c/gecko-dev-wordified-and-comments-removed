@@ -974,7 +974,7 @@ lazy
 .
 logConsole
 .
-warn
+debug
 (
 "
 get
