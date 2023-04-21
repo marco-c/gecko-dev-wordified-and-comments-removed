@@ -127,12 +127,7 @@ default
 title
 :
 "
-Design
-System
-/
-Experiments
-/
-MozLabel
+Label
 "
 component
 :
