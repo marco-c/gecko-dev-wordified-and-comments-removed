@@ -55,7 +55,7 @@ googledesktopnetwork3
 .
 dll
 "
-UNVERSIONED
+ALL_VERSIONS
 )
 DllBlocklistEntry
 (
