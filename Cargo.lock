@@ -2064,6 +2064,9 @@ nsstring
 serde_cbor
 "
 "
+static_prefs
+"
+"
 thin
 -
 vec
