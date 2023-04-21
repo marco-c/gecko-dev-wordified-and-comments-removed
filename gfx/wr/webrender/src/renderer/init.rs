@@ -3305,6 +3305,12 @@ enable_instancing
 consecutive_oom_frames
 :
 0
+target_frame_publish_id
+:
+None
+pending_result_msg
+:
+None
 }
 ;
 renderer

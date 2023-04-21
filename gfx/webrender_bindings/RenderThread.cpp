@@ -7390,6 +7390,14 @@ WrWindowId
 aWindowId
 bool
 aCompositeNeeded
+mozilla
+:
+:
+wr
+:
+:
+FramePublishId
+aPublishId
 )
 {
 auto

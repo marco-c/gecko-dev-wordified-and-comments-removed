@@ -561,6 +561,9 @@ bool
 _composite_needed
 :
 bool
+_
+:
+FramePublishId
 )
 {
 self
