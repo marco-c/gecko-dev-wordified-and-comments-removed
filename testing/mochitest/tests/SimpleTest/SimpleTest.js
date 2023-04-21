@@ -58,7 +58,7 @@ window
 )
 ;
 function
-isErrorObj
+isErrorOrException
 (
 err
 )
@@ -71,6 +71,19 @@ err
 {
 return
 false
+;
+}
+if
+(
+err
+instanceof
+Ci
+.
+nsIException
+)
+{
+return
+true
 ;
 }
 try
@@ -9795,7 +9808,7 @@ object
 "
 &
 &
-isErrorObj
+isErrorOrException
 (
 ex
 )

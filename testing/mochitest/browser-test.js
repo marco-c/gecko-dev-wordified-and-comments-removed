@@ -6926,7 +6926,7 @@ nsIConsoleListener
 }
 ;
 function
-isError
+isErrorOrException
 (
 err
 )
@@ -6939,6 +6939,19 @@ err
 {
 return
 false
+;
+}
+if
+(
+err
+instanceof
+Ci
+.
+nsIException
+)
+{
+return
+true
 ;
 }
 try
@@ -7189,7 +7202,7 @@ object
 "
 &
 &
-isError
+isErrorOrException
 (
 ex
 )
