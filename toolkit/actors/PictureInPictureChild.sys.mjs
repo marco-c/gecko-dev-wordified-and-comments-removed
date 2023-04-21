@@ -8250,11 +8250,6 @@ if
 nimbusExperimentVariables
 .
 title
-&
-&
-nimbusExperimentVariables
-.
-message
 )
 {
 let
@@ -8290,6 +8285,11 @@ label
 if
 (
 pipExplainer
+&
+&
+nimbusExperimentVariables
+.
+message
 )
 {
 pipExplainer
