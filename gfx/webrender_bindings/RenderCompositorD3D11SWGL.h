@@ -9,6 +9,17 @@ include
 "
 mozilla
 /
+gfx
+/
+2D
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 ScreenshotGrabber
@@ -256,6 +267,9 @@ aSize
 ;
 already_AddRefed
 <
+gfx
+:
+:
 DataSourceSurface
 >
 CreateStagingSurface
@@ -336,6 +350,9 @@ aTexture
 ID3D11Texture2D
 *
 aStagingTexture
+gfx
+:
+:
 DataSourceSurface
 *
 aDataSourceSurface
@@ -429,6 +446,9 @@ mStagingTexture
 ;
 RefPtr
 <
+gfx
+:
+:
 DataSourceSurface
 >
 mSurface

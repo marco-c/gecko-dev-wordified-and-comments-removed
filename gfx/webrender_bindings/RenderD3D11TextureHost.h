@@ -18,6 +18,13 @@ RenderTextureHostSWGL
 .
 h
 "
+#
+include
+<
+d3d11
+.
+h
+>
 struct
 ID3D11Texture2D
 ;
