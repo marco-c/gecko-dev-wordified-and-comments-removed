@@ -660,6 +660,16 @@ nsGkAtoms
 :
 selected
 )
+|
+|
+CheckBooleanAttr
+(
+aFrame
+nsGkAtoms
+:
+:
+checked
+)
 )
 {
 flags
