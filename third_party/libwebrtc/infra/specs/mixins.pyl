@@ -721,6 +721,17 @@ ios
 }
 }
 '
+isolate_profile_data
+'
+:
+{
+'
+isolate_profile_data
+'
+:
+True
+}
+'
 linux
 -
 bionic
