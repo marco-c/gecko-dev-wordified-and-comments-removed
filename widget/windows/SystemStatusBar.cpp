@@ -1291,6 +1291,11 @@ popupFrame
 GetContent
 (
 )
+-
+>
+AsElement
+(
+)
 point
 .
 x
