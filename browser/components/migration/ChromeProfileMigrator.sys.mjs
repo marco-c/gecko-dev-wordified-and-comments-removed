@@ -778,12 +778,17 @@ _chromeUserDataPathSuffix
 let
 exists
 =
+path
+&
+&
+(
 await
 IOUtils
 .
 exists
 (
 path
+)
 )
 ;
 if
