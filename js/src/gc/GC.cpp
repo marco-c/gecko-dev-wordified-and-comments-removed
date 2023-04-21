@@ -11096,6 +11096,12 @@ isQueuedForBackgroundSweep
 )
 )
 ;
+AutoSetThreadIsSweeping
+threadIsSweeping
+(
+zone
+)
+;
 const
 bool
 zoneIsDead
@@ -11129,12 +11135,6 @@ if
 zoneIsDead
 )
 {
-AutoSetThreadIsSweeping
-threadIsSweeping
-(
-zone
-)
-;
 zone
 -
 >
