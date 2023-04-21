@@ -658,15 +658,6 @@ rules
 :
 {
 "
-prettier
-/
-prettier
-"
-:
-"
-off
-"
-"
 fetch
 -
 options

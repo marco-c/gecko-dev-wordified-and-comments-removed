@@ -551,9 +551,6 @@ fetch
 options
 "
 "
-prettier
-"
-"
 no
 -
 unsanitized
@@ -1609,15 +1606,6 @@ prefer
 arrow
 -
 callback
-"
-:
-"
-off
-"
-"
-prettier
-/
-prettier
 "
 :
 "
