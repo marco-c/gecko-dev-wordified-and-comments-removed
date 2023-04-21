@@ -292,6 +292,16 @@ mPurpose
 aPurpose
 ;
 }
+TRRSkippedReason
+SkipReason
+(
+)
+const
+{
+return
+mTRRSkippedReason
+;
+}
 protected
 :
 virtual
