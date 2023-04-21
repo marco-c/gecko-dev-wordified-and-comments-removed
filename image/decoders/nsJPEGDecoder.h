@@ -249,6 +249,10 @@ struct
 jpeg_source_mgr
 mSourceMgr
 ;
+struct
+jpeg_progress_mgr
+mProgressMgr
+;
 decoder_error_mgr
 mErr
 ;
