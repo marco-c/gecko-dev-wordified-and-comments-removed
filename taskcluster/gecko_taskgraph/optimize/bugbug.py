@@ -7,12 +7,6 @@ fnmatch
 import
 fnmatch
 from
-urllib
-.
-parse
-import
-urlsplit
-from
 taskgraph
 .
 optimize
@@ -853,27 +847,6 @@ pushlog_id
 ]
 )
         
-branch
-=
-urlsplit
-(
-params
-[
-"
-head_repository
-"
-]
-)
-.
-path
-.
-strip
-(
-"
-/
-"
-)
-        
 rev
 =
 params
@@ -1001,7 +974,12 @@ new_data
 =
 push_schedules
 (
-branch
+params
+[
+"
+project
+"
+]
 rev
 )
                 
