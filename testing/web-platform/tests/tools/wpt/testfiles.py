@@ -107,7 +107,7 @@ from
 typing
 import
 Tuple
-DEFAULT_IGNORE_RULERS
+DEFAULT_IGNORE_RULES
 =
 (
 "
@@ -1213,7 +1213,7 @@ None
         
 ignore_rules
 =
-DEFAULT_IGNORE_RULERS
+DEFAULT_IGNORE_RULES
     
 compiled_ignore_rules
 =
@@ -2523,7 +2523,7 @@ default
 .
 join
 (
-DEFAULT_IGNORE_RULERS
+DEFAULT_IGNORE_RULES
 )
 )
     
