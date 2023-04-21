@@ -40,6 +40,7 @@ isOriginal
 )
 {
 return
+(
 state
 .
 ast
@@ -52,9 +53,13 @@ source
 .
 id
 ]
+?
+.
+value
 |
 |
 null
+)
 ;
 }
 if
@@ -90,6 +95,7 @@ getSymbols
 ;
 }
 return
+(
 state
 .
 ast
@@ -102,9 +108,13 @@ sourceActor
 .
 id
 ]
+?
+.
+value
 |
 |
 null
+)
 ;
 }
 export
@@ -127,6 +137,9 @@ makeBreakpointId
 location
 )
 ]
+?
+.
+lines
 ;
 }
 export
