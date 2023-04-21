@@ -748,6 +748,12 @@ setDiscoverTargets
 discover
 :
 true
+filter
+:
+[
+{
+}
+]
 }
 )
 ;
