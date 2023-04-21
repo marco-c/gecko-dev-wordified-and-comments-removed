@@ -48,15 +48,6 @@ new
 Map
 (
 )
-isOverridesSupported
-:
-state
-?
-.
-isOverridesSupported
-|
-|
-false
 mutableOverrideSources
 :
 state
