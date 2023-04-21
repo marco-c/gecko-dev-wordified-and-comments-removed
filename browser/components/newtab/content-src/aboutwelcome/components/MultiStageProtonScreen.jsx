@@ -519,6 +519,16 @@ container
 "
 }
 }
+flow
+=
+{
+content
+.
+additional_button
+?
+.
+flow
+}
 >
 <
 Localized
