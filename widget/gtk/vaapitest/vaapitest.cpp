@@ -960,10 +960,7 @@ return
 }
 numProfiles
 =
-std
-:
-:
-min
+MIN
 (
 numProfiles
 maxProfiles
@@ -1060,10 +1057,7 @@ continue
 }
 numEntryPoints
 =
-std
-:
-:
-min
+MIN
 (
 numEntryPoints
 maxEntryPoints
