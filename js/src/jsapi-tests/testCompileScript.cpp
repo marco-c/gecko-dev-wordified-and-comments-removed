@@ -50,7 +50,7 @@ js
 /
 experimental
 /
-ParseScript
+CompileScript
 .
 h
 "
@@ -142,7 +142,7 @@ n
 }
 BEGIN_TEST
 (
-testParseScript
+testCompileScript
 )
 {
 CHECK
@@ -333,7 +333,7 @@ Stencil
 >
 stencil
 =
-ParseGlobalScript
+CompileGlobalScriptToStencil
 (
 fc
 options
@@ -519,7 +519,7 @@ Stencil
 >
 stencil
 =
-ParseGlobalScript
+CompileGlobalScriptToStencil
 (
 fc
 options
@@ -725,7 +725,7 @@ Stencil
 >
 stencil
 =
-ParseGlobalScript
+CompileGlobalScriptToStencil
 (
 fc
 options
@@ -967,7 +967,7 @@ Stencil
 >
 stencil
 =
-ParseGlobalScript
+CompileGlobalScriptToStencil
 (
 fc
 options
@@ -1100,6 +1100,6 @@ true
 }
 END_TEST
 (
-testParseScript
+testCompileScript
 )
 ;

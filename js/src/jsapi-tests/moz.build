@@ -130,6 +130,11 @@ testCompileNonSyntactic
 cpp
 "
 "
+testCompileScript
+.
+cpp
+"
+"
 testCompileUtf8
 .
 cpp
@@ -436,11 +441,6 @@ cpp
 "
 "
 testParserAtom
-.
-cpp
-"
-"
-testParseScript
 .
 cpp
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-js_experimental_ParseScript_h
+js_experimental_CompileScript_h
 #
 define
-js_experimental_ParseScript_h
+js_experimental_CompileScript_h
 #
 include
 "
@@ -96,7 +96,7 @@ JS
 :
 Stencil
 >
-ParseGlobalScript
+CompileGlobalScriptToStencil
 (
 JS
 :
@@ -154,7 +154,7 @@ JS
 :
 Stencil
 >
-ParseGlobalScript
+CompileGlobalScriptToStencil
 (
 JS
 :
