@@ -127,6 +127,10 @@ uint64_t
 mTimestamp
 ;
 uint64_t
+?
+mUpdatedTimestamp
+;
+uint64_t
 mDuration
 ;
 }
