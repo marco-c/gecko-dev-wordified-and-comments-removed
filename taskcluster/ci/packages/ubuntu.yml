@@ -662,6 +662,13 @@ bionic
 debian
 /
 changelog
+patch
+:
+mercurial
+-
+timeout
+.
+diff
 ub20
 -
 python
@@ -912,3 +919,10 @@ focal
 debian
 /
 changelog
+patch
+:
+mercurial
+-
+timeout
+.
+diff

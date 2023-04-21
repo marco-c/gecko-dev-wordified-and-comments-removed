@@ -219,6 +219,13 @@ bullseye
 debian
 /
 changelog
+patch
+:
+mercurial
+-
+timeout
+.
+diff
 deb11
 -
 cmake
