@@ -3092,7 +3092,7 @@ are
 ARES6
 <
 #
-ARES6
+ares6
 >
 _
 -
@@ -3106,7 +3106,7 @@ _
 JetStream
 <
 #
-JetStream
+jetstream
 >
 _
 -

@@ -207,9 +207,7 @@ parser
 =
 0
 .
-16
-.
-1
+17
 pypi
 :
 mdit
@@ -410,12 +408,12 @@ pypi
 :
 sphinx
 -
-panels
+design
 =
 =
 0
 .
-6
+3
 .
 0
 pypi

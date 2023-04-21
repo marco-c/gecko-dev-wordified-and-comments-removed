@@ -288,7 +288,7 @@ sphinx_markdown_tables
 "
     
 "
-sphinx_panels
+sphinx_design
 "
     
 "
@@ -706,6 +706,9 @@ pygments_style
 "
 sphinx
 "
+myst_heading_anchors
+=
+5
 on_rtd
 =
 os
@@ -798,7 +801,7 @@ autosectionlabel_maxdepth
 =
 1
 def
-install_sphinx_panels
+install_sphinx_design
 (
 app
 pagename
@@ -821,7 +824,7 @@ app
 add_js_file
 (
 "
-sphinx_panels
+sphinx_design
 .
 js
 "
@@ -832,7 +835,7 @@ app
 add_css_file
 (
 "
-sphinx_panels
+sphinx_design
 .
 css
 "
@@ -866,5 +869,5 @@ page
 -
 context
 "
-install_sphinx_panels
+install_sphinx_design
 )

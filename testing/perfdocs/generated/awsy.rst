@@ -113,9 +113,10 @@ base
 FF
 )
 :
+class
+-
 container
 :
-+
 anchor
 -
 id
@@ -393,9 +394,10 @@ dmd
 FF
 )
 :
+class
+-
 container
 :
-+
 anchor
 -
 id
@@ -646,9 +648,10 @@ tp5
 FF
 )
 :
+class
+-
 container
 :
-+
 anchor
 -
 id
@@ -787,9 +790,10 @@ tp6
 FF
 )
 :
+class
+-
 container
 :
-+
 anchor
 -
 id

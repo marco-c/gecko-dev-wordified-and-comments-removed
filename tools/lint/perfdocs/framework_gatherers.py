@@ -1698,9 +1698,10 @@ result
 f
 "
 :
+class
+-
 container
 :
-+
 anchor
 -
 id
@@ -3160,9 +3161,10 @@ result
 f
 "
 :
+class
+-
 container
 :
-+
 anchor
 -
 id
@@ -4187,9 +4189,10 @@ result
 f
 "
 :
+class
+-
 container
 :
-+
 anchor
 -
 id
