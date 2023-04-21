@@ -123,7 +123,7 @@ MozPromise
 <
 MediaResult
 MediaResult
-true
+false
 >
 InitPromise
 ;
