@@ -1571,8 +1571,13 @@ NotificationAction
 :
 ToastClicked
 ;
-LaunchModernSettingsDialogDefaultApps
+SetDefaultBrowserFromNotification
 (
+mAumiStr
+.
+c_str
+(
+)
 )
 ;
 FinishHandler
