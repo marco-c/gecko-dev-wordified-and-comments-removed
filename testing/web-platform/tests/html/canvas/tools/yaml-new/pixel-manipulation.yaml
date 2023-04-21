@@ -5403,6 +5403,15 @@ testColor
 assert
 throws
 TypeError
+ImageData
+(
+1
+1
+)
+;
+assert
+throws
+TypeError
 new
 ImageData
 (
