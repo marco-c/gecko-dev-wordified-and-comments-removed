@@ -3128,9 +3128,15 @@ uint32_t
 sctps_queue_upd_ecne
 ;
 uint32_t
+sctps_recvzerocrc
+;
+uint32_t
+sctps_sendzerocrc
+;
+uint32_t
 sctps_reserved
 [
-31
+29
 ]
 ;
 }

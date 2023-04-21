@@ -448,13 +448,13 @@ __Userspace__
 #
 define
 SCTP_RESERVE_SPACE
-5
+4
 #
 else
 #
 define
 SCTP_RESERVE_SPACE
-6
+5
 #
 endif
 struct
@@ -540,6 +540,9 @@ ipv4_scope
 ;
 uint8_t
 loopback_scope
+;
+uint8_t
+zero_checksum
 ;
 uint8_t
 reserved

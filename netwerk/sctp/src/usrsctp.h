@@ -3558,6 +3558,10 @@ USRSCTP_SYSCTL_DECL
 (
 sctp_initial_cwnd
 )
+USRSCTP_SYSCTL_DECL
+(
+sctp_ootb_with_zero_cksum
+)
 #
 ifdef
 SCTP_DEBUG
@@ -3969,9 +3973,15 @@ uint32_t
 sctps_queue_upd_ecne
 ;
 uint32_t
+sctps_recvzerocrc
+;
+uint32_t
+sctps_sendzerocrc
+;
+uint32_t
 sctps_reserved
 [
-31
+29
 ]
 ;
 }
