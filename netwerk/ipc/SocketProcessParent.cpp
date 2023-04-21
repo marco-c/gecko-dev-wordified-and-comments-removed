@@ -1703,7 +1703,7 @@ public
 explicit
 DeferredDeleteSocketProcessParent
 (
-UniquePtr
+RefPtr
 <
 SocketProcessParent
 >
@@ -1745,7 +1745,7 @@ NS_OK
 }
 private
 :
-UniquePtr
+RefPtr
 <
 SocketProcessParent
 >
@@ -1759,7 +1759,7 @@ SocketProcessParent
 :
 Destroy
 (
-UniquePtr
+RefPtr
 <
 SocketProcessParent
 >

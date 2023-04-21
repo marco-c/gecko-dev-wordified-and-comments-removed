@@ -422,7 +422,8 @@ false
 }
 return
 mSocketProcessChild
-.
+-
+>
 Init
 (
 TakeInitialEndpoint
@@ -442,7 +443,8 @@ CleanUp
 )
 {
 mSocketProcessChild
-.
+-
+>
 CleanUp
 (
 )
