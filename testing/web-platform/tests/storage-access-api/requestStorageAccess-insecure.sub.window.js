@@ -133,7 +133,11 @@ frame
 "
 ;
 return
-RunRequestStorageAccessInDetachedFrame
+CreateDetachedFrame
+(
+)
+.
+requestStorageAccess
 (
 )
 .
@@ -210,7 +214,11 @@ t
 '
 InvalidStateError
 '
-RunRequestStorageAccessViaDomParser
+CreateDocumentViaDOMParser
+(
+)
+.
+requestStorageAccess
 (
 )
 "

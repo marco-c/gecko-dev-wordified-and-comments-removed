@@ -12,7 +12,11 @@ t
 const
 promise
 =
-RunRequestStorageAccessInDetachedFrame
+CreateDetachedFrame
+(
+)
+.
+requestStorageAccess
 (
 )
 ;
@@ -109,7 +113,11 @@ t
 '
 InvalidStateError
 '
-RunRequestStorageAccessViaDomParser
+CreateDocumentViaDOMParser
+(
+)
+.
+requestStorageAccess
 (
 )
 "
