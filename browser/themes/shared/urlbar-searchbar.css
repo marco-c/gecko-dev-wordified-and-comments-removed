@@ -2161,8 +2161,7 @@ container
 flex
 :
 400
-0
-auto
+400
 ;
 }
 #
@@ -5675,10 +5674,6 @@ width
 :
 125px
 ;
-width
-:
-125px
-;
 }
 #
 search
@@ -5694,8 +5689,7 @@ container
 flex
 :
 175
-0
-auto
+175
 ;
 }
 #
