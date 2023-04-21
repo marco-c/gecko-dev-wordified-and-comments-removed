@@ -105,8 +105,10 @@ default
 title
 :
 "
-UI
-Widgets
+Design
+System
+/
+Components
 /
 Panel
 Menu

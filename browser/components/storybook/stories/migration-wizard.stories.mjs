@@ -207,11 +207,10 @@ default
 title
 :
 "
-Domain
--
-specific
-UI
-Widgets
+Design
+System
+/
+Components
 /
 Migration
 Wizard

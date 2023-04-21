@@ -137,8 +137,10 @@ default
 title
 :
 "
-UI
-Widgets
+Design
+System
+/
+Components
 /
 Message
 Bar
