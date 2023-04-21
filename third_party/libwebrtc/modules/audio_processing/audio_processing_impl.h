@@ -1008,6 +1008,10 @@ bool
 use_denormal_disabler_
 ;
 const
+bool
+disallow_transient_supporessor_usage_
+;
+const
 TransientSuppressor
 :
 :
