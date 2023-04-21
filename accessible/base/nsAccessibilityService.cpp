@@ -1295,6 +1295,9 @@ MustSVGElementBeAccessible
 nsIContent
 *
 aContent
+DocAccessible
+*
+aDocument
 )
 {
 for
@@ -1346,7 +1349,11 @@ true
 }
 }
 return
-false
+MustBeAccessible
+(
+aContent
+aDocument
+)
 ;
 }
 LocalAccessible
@@ -7295,6 +7302,7 @@ if
 MustSVGElementBeAccessible
 (
 content
+document
 )
 )
 {
@@ -7394,6 +7402,7 @@ g
 MustSVGElementBeAccessible
 (
 content
+document
 )
 )
 {
