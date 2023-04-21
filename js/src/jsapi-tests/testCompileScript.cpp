@@ -83,6 +83,15 @@ ErrorReporting
 .
 h
 "
+#
+include
+"
+vm
+/
+JSONPrinter
+.
+h
+"
 using
 namespace
 JS
