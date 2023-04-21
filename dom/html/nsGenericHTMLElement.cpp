@@ -14891,6 +14891,14 @@ IsPopoverOpen
 target
 -
 >
+SetHasPopoverInvoker
+(
+true
+)
+;
+target
+-
+>
 ShowPopover
 (
 IgnoreErrors

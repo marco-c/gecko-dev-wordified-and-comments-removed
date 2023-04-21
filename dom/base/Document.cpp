@@ -71316,6 +71316,13 @@ aRv
 return
 ;
 }
+aPopover
+.
+SetHasPopoverInvoker
+(
+false
+)
+;
 if
 (
 aFireEvents
