@@ -98,6 +98,11 @@ toolbox
 .
 openSplitConsole
 (
+{
+focusConsoleInput
+:
+false
+}
 )
 ;
 }
