@@ -4643,6 +4643,12 @@ str
 ]
 )
 ;
+delete
+data
+[
+feature
+]
+;
 }
 }
 if
