@@ -57,12 +57,6 @@ Ci
 nsIGfxInfoDebug
 )
 ;
-gfxInfo
-.
-fireTestProcess
-(
-)
-;
 const
 OS
 =
