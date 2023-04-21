@@ -454,6 +454,8 @@ metric
 failed
 "
 )
+.
+0
 }
 fn
 create_and_register_metric
@@ -488,7 +490,10 @@ ExtraMetricArgs
 >
 Result
 <
+(
 u32
+u32
+)
 Box
 <
 dyn
@@ -527,7 +532,7 @@ category
 )
 ;
 let
-metric_id
+metric
 =
 factory
 :
@@ -603,6 +608,9 @@ nsACString
 metric
 :
 u32
+metric_id
+:
+u32
 )
 ;
 }
@@ -610,10 +618,13 @@ if
 let
 Ok
 (
+(
+metric
 metric_id
 )
+)
 =
-metric_id
+metric
 {
 unsafe
 {
@@ -623,6 +634,7 @@ JOG_RegisterMetric
 ns_category
 &
 ns_name
+metric
 metric_id
 )
 ;
@@ -655,11 +667,11 @@ to
 "
 ns_category
 ns_name
-metric_id
+metric
 )
 ;
 }
-metric_id
+metric
 }
 #
 [

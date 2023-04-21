@@ -51,6 +51,16 @@ js
 import
 ID_BITS
 PING_INDEX_BITS
+RUNTIME_METRIC_BIT
+=
+ID_BITS
+-
+1
+RUNTIME_PING_BIT
+=
+PING_INDEX_BITS
+-
+1
 common_metric_data_args
 =
 [
@@ -577,15 +587,11 @@ metric_types
             
 runtime_metric_bit
 =
-ID_BITS
--
-1
+RUNTIME_METRIC_BIT
             
 runtime_ping_bit
 =
-PING_INDEX_BITS
--
-1
+RUNTIME_PING_BIT
             
 ID_BITS
 =
