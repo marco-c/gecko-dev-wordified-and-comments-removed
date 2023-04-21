@@ -1259,12 +1259,6 @@ for
 !
 layersGPUAccelerated
 failures
-fails
--
-if
-(
-useDrawSnapshot
-)
 !
 =
 1157984
