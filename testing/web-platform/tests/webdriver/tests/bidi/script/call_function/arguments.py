@@ -18,6 +18,7 @@ modules
 script
 import
 ContextTarget
+SerializationOptions
 from
 .
 .
@@ -3436,6 +3437,15 @@ arguments
 [
 remote_value
 ]
+        
+serialization_options
+=
+SerializationOptions
+(
+max_dom_depth
+=
+1
+)
     
 )
     

@@ -10,6 +10,7 @@ modules
 script
 import
 ContextTarget
+SerializationOptions
 pytestmark
 =
 pytest
@@ -1329,6 +1330,15 @@ top_context
 context
 "
 ]
+)
+        
+serialization_options
+=
+SerializationOptions
+(
+max_object_depth
+=
+1
 )
     
 )

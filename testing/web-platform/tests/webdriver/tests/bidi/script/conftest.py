@@ -8,6 +8,7 @@ import
 Any
 List
 Mapping
+Optional
 from
 webdriver
 .
@@ -19,6 +20,7 @@ script
 import
 ContextTarget
 OwnershipModel
+SerializationOptions
 pytest
 .
 fixture
@@ -85,6 +87,15 @@ OwnershipModel
 NONE
 .
 value
+        
+serialization_options
+:
+Optional
+[
+SerializationOptions
+]
+=
+None
     
 )
 -
@@ -159,6 +170,10 @@ False
 result_ownership
 =
 result_ownership
+            
+serialization_options
+=
+serialization_options
             
 target
 =
@@ -258,6 +273,15 @@ OwnershipModel
 NONE
 .
 value
+        
+serialization_options
+:
+Optional
+[
+SerializationOptions
+]
+=
+None
     
 )
 -
@@ -324,6 +348,10 @@ False
 result_ownership
 =
 result_ownership
+            
+serialization_options
+=
+serialization_options
             
 target
 =

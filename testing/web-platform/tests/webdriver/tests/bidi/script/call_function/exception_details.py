@@ -1335,13 +1335,6 @@ childNodeCount
 0
                     
 '
-children
-'
-:
-[
-]
-                    
-'
 localName
 '
 :
