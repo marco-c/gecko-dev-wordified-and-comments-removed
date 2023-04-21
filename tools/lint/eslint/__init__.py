@@ -460,29 +460,9 @@ cmd_args
 )
 )
     
-results
-=
-run
-(
-cmd_args
-config
-)
-    
-fixed
-=
-0
-    
 if
 fix
 :
-        
-fixed
-+
-=
-len
-(
-results
-)
         
 cmd_args
 .
@@ -495,37 +475,13 @@ insert
 fix
 "
 )
-        
-results
-=
+    
+return
 run
 (
 cmd_args
 config
 )
-        
-fixed
-=
-fixed
--
-len
-(
-results
-)
-    
-return
-{
-"
-results
-"
-:
-results
-"
-fixed
-"
-:
-fixed
-}
 def
 run
 (
@@ -656,8 +612,19 @@ kill
 )
         
 return
+{
+"
+results
+"
+:
 [
 ]
+"
+fixed
+"
+:
+0
+}
     
 if
 errors
@@ -703,8 +670,19 @@ output
 :
         
 return
+{
+"
+results
+"
+:
 [
 ]
+"
+fixed
+"
+:
+0
+}
     
 output
 =
@@ -752,6 +730,10 @@ results
 [
 ]
     
+fixed
+=
+0
+    
 for
 obj
 in
@@ -766,6 +748,20 @@ obj
 messages
 "
 ]
+        
+if
+"
+output
+"
+in
+obj
+:
+            
+fixed
+=
+fixed
++
+1
         
 for
 err
@@ -874,4 +870,15 @@ err
 )
     
 return
+{
+"
 results
+"
+:
+results
+"
+fixed
+"
+:
+fixed
+}
