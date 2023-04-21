@@ -1395,8 +1395,6 @@ mJSValidator
 OnStopRequest
 (
 aStatusCode
-*
-aRequest
 )
 ;
 return
