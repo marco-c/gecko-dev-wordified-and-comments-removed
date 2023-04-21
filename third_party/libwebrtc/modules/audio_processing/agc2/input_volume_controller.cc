@@ -2506,12 +2506,16 @@ void
 InputVolumeController
 :
 :
-set_stream_analog_level
+SetAppliedInputVolume
 (
 int
 input_volume
 )
 {
+applied_input_volume_
+=
+input_volume
+;
 for
 (
 auto
@@ -2618,7 +2622,7 @@ ch
 }
 if
 (
-new_recommended_input_volume
+applied_input_volume_
 >
 0
 )

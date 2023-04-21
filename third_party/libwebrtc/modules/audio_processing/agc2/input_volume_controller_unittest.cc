@@ -1179,7 +1179,7 @@ kMaxSample
 ;
 controller
 .
-set_stream_analog_level
+SetAppliedInputVolume
 (
 applied_input_volume
 )
@@ -1203,7 +1203,7 @@ applied_input_volume
 =
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 ;
@@ -1243,7 +1243,7 @@ UpdateRecommendedInputVolume
 (
 MonoInputVolumeController
 &
-controller
+mono_controller
 int
 applied_input_volume
 float
@@ -1258,7 +1258,7 @@ float
 rms_error_dbfs
 )
 {
-controller
+mono_controller
 .
 set_stream_analog_level
 (
@@ -1267,7 +1267,7 @@ applied_input_volume
 ;
 EXPECT_EQ
 (
-controller
+mono_controller
 .
 recommended_analog_level
 (
@@ -1275,7 +1275,7 @@ recommended_analog_level
 applied_input_volume
 )
 ;
-controller
+mono_controller
 .
 Process
 (
@@ -1284,7 +1284,7 @@ speech_probability
 )
 ;
 return
-controller
+mono_controller
 .
 recommended_analog_level
 (
@@ -1458,7 +1458,7 @@ i
 {
 controller
 .
-set_stream_analog_level
+SetAppliedInputVolume
 (
 volume
 )
@@ -1482,7 +1482,7 @@ volume
 =
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 ;
@@ -1709,7 +1709,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 )
@@ -1775,7 +1775,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 128
@@ -1799,7 +1799,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 156
@@ -1847,7 +1847,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 155
@@ -1871,7 +1871,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 151
@@ -1895,7 +1895,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 119
@@ -1938,7 +1938,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 183
@@ -1962,7 +1962,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 243
@@ -1986,7 +1986,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 255
@@ -2010,7 +2010,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 254
@@ -2033,7 +2033,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 194
@@ -2056,7 +2056,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 137
@@ -2079,7 +2079,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 88
@@ -2102,7 +2102,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 54
@@ -2125,7 +2125,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 33
@@ -2148,7 +2148,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 std
@@ -2180,7 +2180,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 std
@@ -2280,7 +2280,7 @@ helper
 .
 controller
 .
-set_stream_analog_level
+SetAppliedInputVolume
 (
 kInputVolume
 )
@@ -2300,7 +2300,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 127
@@ -2353,7 +2353,7 @@ helper
 .
 controller
 .
-set_stream_analog_level
+SetAppliedInputVolume
 (
 kInputVolume
 )
@@ -2373,7 +2373,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 GetMinInputVolume
@@ -2406,7 +2406,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 154
@@ -2416,7 +2416,7 @@ helper
 .
 controller
 .
-set_stream_analog_level
+SetAppliedInputVolume
 (
 154
 )
@@ -2439,7 +2439,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 154
@@ -2449,7 +2449,7 @@ helper
 .
 controller
 .
-set_stream_analog_level
+SetAppliedInputVolume
 (
 100
 )
@@ -2472,7 +2472,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 100
@@ -2496,7 +2496,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 99
@@ -2539,7 +2539,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 183
@@ -2563,7 +2563,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 243
@@ -2587,7 +2587,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 255
@@ -2597,7 +2597,7 @@ helper
 .
 controller
 .
-set_stream_analog_level
+SetAppliedInputVolume
 (
 50
 )
@@ -2620,7 +2620,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 50
@@ -2644,7 +2644,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 65
@@ -2673,7 +2673,7 @@ helper
 .
 controller
 .
-set_stream_analog_level
+SetAppliedInputVolume
 (
 1
 )
@@ -2696,7 +2696,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 GetMinInputVolume
@@ -2722,7 +2722,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 GetMinInputVolume
@@ -2748,7 +2748,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 GetMinInputVolume
@@ -2774,7 +2774,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 GetMinInputVolume
@@ -2805,7 +2805,7 @@ helper
 .
 controller
 .
-set_stream_analog_level
+SetAppliedInputVolume
 (
 1
 )
@@ -2831,7 +2831,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 )
@@ -2869,7 +2869,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 128
@@ -2910,7 +2910,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 128
@@ -2951,7 +2951,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 240
@@ -2990,7 +2990,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 240
@@ -3010,7 +3010,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 240
@@ -3030,7 +3030,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 225
@@ -3069,7 +3069,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 kClippedMin
@@ -3089,7 +3089,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 kClippedMin
@@ -3128,7 +3128,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 240
@@ -3152,7 +3152,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 240
@@ -3191,7 +3191,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 185
@@ -3215,7 +3215,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 240
@@ -3239,7 +3239,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 240
@@ -3278,7 +3278,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 210
@@ -3288,7 +3288,7 @@ helper
 .
 controller
 .
-set_stream_analog_level
+SetAppliedInputVolume
 (
 250
 )
@@ -3311,7 +3311,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 250
@@ -3335,7 +3335,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 210
@@ -3359,7 +3359,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 250
@@ -3383,7 +3383,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 250
@@ -3415,7 +3415,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 ;
@@ -3434,7 +3434,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 )
@@ -3462,7 +3462,7 @@ helper
 .
 controller
 .
-set_stream_analog_level
+SetAppliedInputVolume
 (
 0
 )
@@ -3485,7 +3485,7 @@ helper
 .
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 0
@@ -3937,7 +3937,7 @@ Initialize
 controller
 -
 >
-set_stream_analog_level
+SetAppliedInputVolume
 (
 kInitialInputVolume
 )
@@ -4042,7 +4042,7 @@ ASSERT_GT
 controller
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 0
@@ -4053,13 +4053,13 @@ EXPECT_GT
 controller_with_override
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 controller
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 )
@@ -4069,7 +4069,7 @@ EXPECT_EQ
 controller_with_override
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kMinInputVolume
@@ -4123,7 +4123,7 @@ Initialize
 controller
 -
 >
-set_stream_analog_level
+SetAppliedInputVolume
 (
 kInitialInputVolume
 )
@@ -4228,7 +4228,7 @@ ASSERT_GT
 controller
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 0
@@ -4239,13 +4239,13 @@ EXPECT_GT
 controller_with_override
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 controller
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 )
@@ -4255,7 +4255,7 @@ EXPECT_EQ
 controller_with_override
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kMinInputVolume
@@ -4325,7 +4325,7 @@ Initialize
 controller
 -
 >
-set_stream_analog_level
+SetAppliedInputVolume
 (
 kInitialInputVolume
 )
@@ -4450,7 +4450,7 @@ ASSERT_GT
 controller
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 0
@@ -4461,13 +4461,13 @@ EXPECT_EQ
 controller
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 controller_with_override
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 )
@@ -4477,7 +4477,7 @@ EXPECT_EQ
 controller_with_override
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kDefaultInputVolumeControllerConfig
@@ -4549,7 +4549,7 @@ Initialize
 controller
 -
 >
-set_stream_analog_level
+SetAppliedInputVolume
 (
 kInitialInputVolume
 )
@@ -4682,7 +4682,7 @@ ASSERT_GT
 controller
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 0
@@ -4693,13 +4693,13 @@ EXPECT_EQ
 controller
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 controller_with_override
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 )
@@ -4709,7 +4709,7 @@ EXPECT_EQ
 controller_with_override
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kDefaultInputVolumeControllerConfig
@@ -5963,7 +5963,7 @@ ASSERT_EQ
 (
 controller
 .
-recommended_analog_level
+recommended_input_volume
 (
 )
 kInitialInputVolume
@@ -6075,7 +6075,7 @@ ASSERT_GT
 controller_wait_0
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kInputVolume
@@ -6086,7 +6086,7 @@ ASSERT_EQ
 controller_wait_100
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kInputVolume
@@ -6100,7 +6100,7 @@ Feed
 controller_wait_0
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 0
@@ -6121,7 +6121,7 @@ Feed
 controller_wait_100
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 0
@@ -6139,7 +6139,7 @@ ASSERT_GT
 controller_wait_0
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kInputVolume
@@ -6150,7 +6150,7 @@ ASSERT_GT
 controller_wait_100
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kInputVolume
@@ -6266,7 +6266,7 @@ ASSERT_EQ
 controller_1
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kInputVolume
@@ -6277,7 +6277,7 @@ ASSERT_EQ
 controller_2
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kInputVolume
@@ -6291,7 +6291,7 @@ Feed
 controller_1
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 0
@@ -6314,7 +6314,7 @@ Feed
 controller_2
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 0
@@ -6334,7 +6334,7 @@ ASSERT_EQ
 controller_1
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kInputVolume
@@ -6345,7 +6345,7 @@ ASSERT_EQ
 controller_2
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kInputVolume
@@ -6359,7 +6359,7 @@ Feed
 controller_1
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 0
@@ -6382,7 +6382,7 @@ Feed
 controller_2
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 0
@@ -6402,7 +6402,7 @@ ASSERT_GT
 controller_1
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kInputVolume
@@ -6413,7 +6413,7 @@ ASSERT_EQ
 controller_2
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kInputVolume
@@ -6529,7 +6529,7 @@ ASSERT_EQ
 controller_1
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kInputVolume
@@ -6540,7 +6540,7 @@ ASSERT_EQ
 controller_2
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kInputVolume
@@ -6554,7 +6554,7 @@ Feed
 controller_1
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 0
@@ -6577,7 +6577,7 @@ Feed
 controller_2
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 0
@@ -6597,7 +6597,7 @@ ASSERT_EQ
 controller_1
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kInputVolume
@@ -6608,7 +6608,7 @@ ASSERT_EQ
 controller_2
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kInputVolume
@@ -6622,7 +6622,7 @@ Feed
 controller_1
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 0
@@ -6645,7 +6645,7 @@ Feed
 controller_2
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 0
@@ -6665,7 +6665,7 @@ ASSERT_GT
 controller_1
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kInputVolume
@@ -6676,7 +6676,7 @@ ASSERT_EQ
 controller_2
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kInputVolume
@@ -6740,7 +6740,7 @@ ASSERT_LT
 controller
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kStartupVolume
@@ -6834,7 +6834,7 @@ ASSERT_GT
 controller
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kStartupVolume
@@ -6917,7 +6917,7 @@ kStartupVolume
 controller
 -
 >
-set_stream_analog_level
+SetAppliedInputVolume
 (
 kStartupVolume
 )
@@ -6944,7 +6944,7 @@ ASSERT_LT
 controller
 -
 >
-recommended_analog_level
+recommended_input_volume
 (
 )
 kStartupVolume

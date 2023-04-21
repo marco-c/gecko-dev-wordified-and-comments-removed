@@ -197,7 +197,7 @@ Initialize
 )
 ;
 void
-set_stream_analog_level
+SetAppliedInputVolume
 (
 int
 level
@@ -228,7 +228,7 @@ speech_level_dbfs
 )
 ;
 int
-recommended_analog_level
+recommended_input_volume
 (
 )
 const
@@ -323,6 +323,11 @@ min_input_volume_
 ;
 int
 recommended_input_volume_
+=
+0
+;
+int
+applied_input_volume_
 =
 0
 ;
