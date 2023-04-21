@@ -228,6 +228,15 @@ stencilInput
 ScopeKind
 scopeKind
 =
+options
+.
+nonSyntacticScope
+?
+ScopeKind
+:
+:
+NonSyntactic
+:
 ScopeKind
 :
 :
