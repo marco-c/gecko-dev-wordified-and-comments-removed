@@ -11381,6 +11381,7 @@ Matrix
 ComputeWidgetTransform
 (
 )
+const
 ;
 bool
 HasImageRequest
