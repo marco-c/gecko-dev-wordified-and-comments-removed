@@ -831,6 +831,9 @@ data_sensitivity
 :
 -
 technical
+telemetry_mirror
+:
+WEBEXT_DNR_EVALUATE_RULES_MS
 evaluate_rules_count_max
 :
 type
