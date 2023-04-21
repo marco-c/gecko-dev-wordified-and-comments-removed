@@ -145,6 +145,9 @@ wayland
 "
 mozwayland
 "
+"
+vaapitest
+"
 ]
 EXPORTS
 +
