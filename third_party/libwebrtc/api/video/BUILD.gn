@@ -2309,11 +2309,6 @@ sources
 =
 [
 "
-video_frame_metadata_unittest
-.
-cc
-"
-"
 video_stream_decoder_create_unittest
 .
 cc
