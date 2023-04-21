@@ -86,6 +86,17 @@ return
 nullptr
 ;
 }
+bool
+IsViewTimeline
+(
+)
+const
+override
+{
+return
+true
+;
+}
 void
 ReplacePropertiesWith
 (

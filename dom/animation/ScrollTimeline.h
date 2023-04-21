@@ -484,6 +484,17 @@ return
 this
 ;
 }
+bool
+IsViewTimeline
+(
+)
+const
+override
+{
+return
+false
+;
+}
 Nullable
 <
 TimeDuration

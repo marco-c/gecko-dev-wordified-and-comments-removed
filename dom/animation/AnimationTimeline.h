@@ -347,6 +347,17 @@ nullptr
 ;
 }
 virtual
+bool
+IsViewTimeline
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 Nullable
 <
 TimeDuration
