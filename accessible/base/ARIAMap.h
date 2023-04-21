@@ -376,6 +376,13 @@ nsRoleMapEntry
 aRoleMap
 )
 ;
+bool
+IsRoleMapIndexValid
+(
+uint8_t
+aRoleMapIndex
+)
+;
 uint64_t
 UniversalStatesFor
 (
