@@ -759,9 +759,6 @@ lengthToExamineInThisFragment
 )
 ;
 }
-return
-0
-;
 }
 void
 nsScannerSubstring
