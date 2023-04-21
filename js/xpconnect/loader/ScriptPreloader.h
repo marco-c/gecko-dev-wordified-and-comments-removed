@@ -117,6 +117,13 @@ h
 #
 include
 "
+MainThreadUtils
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h

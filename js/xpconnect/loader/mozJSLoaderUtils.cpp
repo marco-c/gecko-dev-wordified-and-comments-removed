@@ -61,6 +61,15 @@ BasePrincipal
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Span
+.
+h
+"
 using
 namespace
 JS
@@ -238,6 +247,9 @@ range
 (
 AsBytes
 (
+mozilla
+:
+:
 Span
 (
 buf
@@ -355,6 +367,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+mozilla
+:
+:
 UniqueFreePtr
 <
 char
