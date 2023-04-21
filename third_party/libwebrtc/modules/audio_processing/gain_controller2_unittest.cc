@@ -1072,6 +1072,14 @@ enabled
 =
 true
 ;
+config
+.
+adaptive_digital
+.
+enabled
+=
+true
+;
 auto
 gain_controller
 =
