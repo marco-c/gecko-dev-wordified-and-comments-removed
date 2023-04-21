@@ -405,9 +405,10 @@ pt
 fY
 ;
 }
-typedef
-SkRect
+using
 INHERITED
+=
+SkRect
 ;
 }
 ;

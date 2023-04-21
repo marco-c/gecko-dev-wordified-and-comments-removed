@@ -33,6 +33,8 @@ include
 /
 private
 /
+base
+/
 SkNoncopyable
 .
 h

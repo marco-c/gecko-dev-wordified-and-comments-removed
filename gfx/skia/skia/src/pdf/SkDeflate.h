@@ -30,9 +30,6 @@ SkWStream
 *
 int
 compressionLevel
-=
--
-1
 bool
 gzip
 =

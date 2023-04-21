@@ -44,6 +44,8 @@ include
 /
 private
 /
+base
+/
 SkTArray
 .
 h
@@ -55,6 +57,8 @@ include
 /
 private
 /
+base
+/
 SkTDArray
 .
 h
@@ -62,9 +66,9 @@ h
 #
 include
 "
-include
+src
 /
-private
+core
 /
 SkTHash
 .
@@ -454,7 +458,6 @@ template
 typename
 T
 >
-static
 bool
 parse_non_negative_integer
 (
@@ -641,7 +644,6 @@ N
 typename
 T
 >
-static
 bool
 parse_fixed
 (

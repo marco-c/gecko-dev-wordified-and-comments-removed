@@ -26,6 +26,11 @@ SkPixmap
 .
 h
 "
+#
+include
+<
+cstddef
+>
 struct
 SkWritePixelsRec
 {

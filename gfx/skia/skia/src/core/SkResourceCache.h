@@ -22,6 +22,8 @@ include
 /
 private
 /
+base
+/
 SkTDArray
 .
 h
@@ -502,6 +504,12 @@ PurgeAll
 ;
 static
 void
+CheckMessages
+(
+)
+;
+static
+void
 TestDumpMemoryStatistics
 (
 )
@@ -720,6 +728,7 @@ fCount
 SkMessageBus
 <
 PurgeSharedIDMessage
+uint32_t
 >
 :
 :

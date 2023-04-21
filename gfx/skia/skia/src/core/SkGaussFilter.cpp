@@ -16,6 +16,8 @@ include
 /
 private
 /
+base
+/
 SkFloatingPoint
 .
 h

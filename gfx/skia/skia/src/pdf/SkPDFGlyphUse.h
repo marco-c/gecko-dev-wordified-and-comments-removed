@@ -51,9 +51,6 @@ lastGlyph
 :
 fBitSet
 (
-(
-int
-)
 lastGlyph
 -
 firstNonZero
@@ -158,7 +155,7 @@ const
 return
 fBitSet
 .
-has
+test
 (
 this
 -
@@ -194,7 +191,7 @@ fFirstNonZero
 return
 fBitSet
 .
-getSetValues
+forEachSetIndex
 (
 std
 :
@@ -215,7 +212,7 @@ fFirstNonZero
 ;
 fBitSet
 .
-getSetValues
+forEachSetIndex
 (
 [
 &

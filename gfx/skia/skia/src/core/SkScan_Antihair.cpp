@@ -27,6 +27,8 @@ include
 /
 private
 /
+base
+/
 SkTo
 .
 h
@@ -306,6 +308,8 @@ aa
 HLINE_STACK_BUFFER
 ]
 ;
+do
+{
 aa
 [
 0
@@ -317,8 +321,6 @@ gGammaTable
 alpha
 )
 ;
-do
-{
 int
 n
 =
@@ -592,7 +594,6 @@ SK_Fixed1
 2
 ;
 }
-virtual
 SkFixed
 drawLine
 (
@@ -3165,7 +3166,10 @@ clip
 SkFDot6
 left
 =
-SkMin32
+std
+:
+:
+min
 (
 x0
 x1
@@ -3174,7 +3178,10 @@ x1
 SkFDot6
 top
 =
-SkMin32
+std
+:
+:
+min
 (
 y0
 y1
@@ -3183,7 +3190,10 @@ y1
 SkFDot6
 right
 =
-SkMax32
+std
+:
+:
+max
 (
 x0
 x1
@@ -3192,7 +3202,10 @@ x1
 SkFDot6
 bottom
 =
-SkMax32
+std
+:
+:
+max
 (
 y0
 y1

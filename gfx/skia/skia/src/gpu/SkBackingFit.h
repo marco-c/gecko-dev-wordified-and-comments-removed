@@ -1,0 +1,16 @@
+#
+ifndef
+SkBackingFit_DEFINED
+#
+define
+SkBackingFit_DEFINED
+enum
+class
+SkBackingFit
+{
+kApprox
+kExact
+}
+;
+#
+endif

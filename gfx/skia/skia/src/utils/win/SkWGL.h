@@ -20,7 +20,7 @@ include
 "
 src
 /
-core
+base
 /
 SkLeanWindows
 .
@@ -525,11 +525,11 @@ HGLRC
 shareContext
 )
 ;
-virtual
 ~
 SkWGLPbufferContext
 (
 )
+override
 ;
 HDC
 getDC

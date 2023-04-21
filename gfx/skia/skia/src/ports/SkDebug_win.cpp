@@ -20,7 +20,7 @@ include
 "
 src
 /
-core
+base
 /
 SkLeanWindows
 .

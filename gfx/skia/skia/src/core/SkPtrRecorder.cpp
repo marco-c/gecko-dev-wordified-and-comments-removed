@@ -3,9 +3,9 @@ include
 "
 src
 /
-core
+base
 /
-SkPtrRecorder
+SkTSearch
 .
 h
 "
@@ -16,7 +16,7 @@ src
 /
 core
 /
-SkTSearch
+SkPtrRecorder
 .
 h
 "
@@ -142,7 +142,7 @@ count
 =
 fList
 .
-count
+size
 (
 )
 ;
@@ -225,7 +225,7 @@ count
 =
 fList
 .
-count
+size
 (
 )
 ;
@@ -335,7 +335,7 @@ count
 =
 fList
 .
-count
+size
 (
 )
 ;

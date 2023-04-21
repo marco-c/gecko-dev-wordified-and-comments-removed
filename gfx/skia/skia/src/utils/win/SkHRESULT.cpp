@@ -76,7 +76,7 @@ lu
 error
 0x
 %
-x
+lx
 :
 "
 file

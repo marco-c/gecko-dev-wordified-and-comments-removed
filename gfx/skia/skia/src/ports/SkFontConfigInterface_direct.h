@@ -34,6 +34,9 @@ public
 :
 SkFontConfigInterfaceDirect
 (
+FcConfig
+*
+fc
 )
 ;
 ~
@@ -88,6 +91,11 @@ filename
 ;
 private
 :
+FcConfig
+*
+const
+fFC
+;
 bool
 isValidPattern
 (
@@ -113,9 +121,10 @@ SkString
 family
 )
 ;
-typedef
-SkFontConfigInterface
+using
 INHERITED
+=
+SkFontConfigInterface
 ;
 }
 ;

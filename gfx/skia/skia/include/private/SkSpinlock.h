@@ -22,6 +22,8 @@ include
 /
 private
 /
+base
+/
 SkThreadAnnotations
 .
 h

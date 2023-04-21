@@ -33,6 +33,8 @@ include
 /
 private
 /
+base
+/
 SkNoncopyable
 .
 h
@@ -44,6 +46,8 @@ include
 /
 private
 /
+base
+/
 SkTemplates
 .
 h
@@ -53,7 +57,7 @@ include
 "
 src
 /
-core
+base
 /
 SkArenaAlloc
 .
@@ -540,7 +544,7 @@ fStop
 ;
 private
 :
-SkArenaAlloc
+SkArenaAllocWithReset
 fAlloc
 ;
 Node
@@ -556,9 +560,10 @@ SkDOMParser
 >
 fParser
 ;
-typedef
-SkNoncopyable
+using
 INHERITED
+=
+SkNoncopyable
 ;
 }
 ;
