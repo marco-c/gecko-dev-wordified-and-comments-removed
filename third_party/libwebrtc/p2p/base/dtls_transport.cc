@@ -4106,7 +4106,14 @@ DtlsTransport
 Started
 DTLS
 handshake
+active
+=
 "
+<
+<
+IsDtlsActive
+(
+)
 ;
 set_dtls_state
 (
