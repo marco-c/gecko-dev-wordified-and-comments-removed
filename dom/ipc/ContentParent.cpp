@@ -13112,10 +13112,11 @@ rv
 ;
 if
 (
+!
 mozilla
 :
 :
-IsDevelopmentBuild
+IsPackagedBuild
 (
 )
 )

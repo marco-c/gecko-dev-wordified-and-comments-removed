@@ -3546,10 +3546,11 @@ get
 }
 if
 (
+!
 mozilla
 :
 :
-IsDevelopmentBuild
+IsPackagedBuild
 (
 )
 )
@@ -4856,10 +4857,11 @@ get
 }
 if
 (
+!
 mozilla
 :
 :
-IsDevelopmentBuild
+IsPackagedBuild
 (
 )
 )

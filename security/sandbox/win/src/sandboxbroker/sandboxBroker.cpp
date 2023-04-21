@@ -1626,10 +1626,11 @@ aEnvironment
 ;
 if
 (
+!
 mozilla
 :
 :
-IsDevelopmentBuild
+IsPackagedBuild
 (
 )
 )

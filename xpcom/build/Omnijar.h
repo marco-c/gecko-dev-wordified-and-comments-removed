@@ -409,12 +409,11 @@ aType
 ;
 inline
 bool
-IsDevelopmentBuild
+IsPackagedBuild
 (
 )
 {
 return
-!
 Omnijar
 :
 :
