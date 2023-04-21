@@ -271,7 +271,7 @@ is_unified_plan
 cricket
 :
 :
-VoiceMediaChannel
+VoiceMediaReceiveChannelInterface
 *
 voice_channel
 =
@@ -314,7 +314,7 @@ is_unified_plan
 cricket
 :
 :
-VoiceMediaChannel
+VoiceMediaReceiveChannelInterface
 *
 media_channel
 =
@@ -760,7 +760,7 @@ track_
 cricket
 :
 :
-VoiceMediaChannel
+VoiceMediaReceiveChannelInterface
 *
 media_channel_
 RTC_GUARDED_BY

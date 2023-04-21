@@ -82,6 +82,9 @@ namespace
 cricket
 {
 class
+MediaChannel
+;
+class
 MediaContentDescription
 ;
 struct
@@ -113,6 +116,16 @@ const
 0
 ;
 virtual
+MediaChannel
+*
+media_channel
+(
+)
+const
+=
+0
+;
+virtual
 MediaSendChannelInterface
 *
 media_send_channel
@@ -123,7 +136,7 @@ const
 0
 ;
 virtual
-VideoMediaChannel
+VideoMediaSendChannelInterface
 *
 video_media_send_channel
 (
@@ -133,7 +146,7 @@ const
 0
 ;
 virtual
-VoiceMediaChannel
+VoiceMediaSendChannelInterface
 *
 voice_media_send_channel
 (
@@ -153,7 +166,7 @@ const
 0
 ;
 virtual
-VideoMediaChannel
+VideoMediaReceiveChannelInterface
 *
 video_media_receive_channel
 (
@@ -163,7 +176,7 @@ const
 0
 ;
 virtual
-VoiceMediaChannel
+VoiceMediaReceiveChannelInterface
 *
 voice_media_receive_channel
 (

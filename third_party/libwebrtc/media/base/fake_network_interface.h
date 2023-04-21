@@ -144,10 +144,7 @@ class
 FakeNetworkInterface
 :
 public
-MediaChannel
-:
-:
-NetworkInterface
+MediaChannelNetworkInterface
 {
 public
 :

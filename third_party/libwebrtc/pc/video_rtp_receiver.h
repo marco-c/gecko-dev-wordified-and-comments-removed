@@ -843,7 +843,7 @@ id_
 cricket
 :
 :
-VideoMediaChannel
+VideoMediaReceiveChannelInterface
 *
 media_channel_
 RTC_GUARDED_BY
