@@ -1063,6 +1063,44 @@ suffix
                 
 )
             
+elif
+self
+.
+config
+[
+"
+arch
+"
+]
+=
+=
+"
+aarch64
+"
+:
+                
+return
+"
+openh264
+-
+linux64
+-
+aarch64
+-
+{
+version
+}
+.
+zip
+"
+.
+format
+(
+version
+=
+version
+)
+            
 else
 :
                 
