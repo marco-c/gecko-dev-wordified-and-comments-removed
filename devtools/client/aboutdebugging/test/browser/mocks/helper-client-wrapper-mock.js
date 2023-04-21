@@ -479,6 +479,10 @@ COMPATIBLE
 }
 ;
 }
+traits
+:
+{
+}
 }
 ;
 }

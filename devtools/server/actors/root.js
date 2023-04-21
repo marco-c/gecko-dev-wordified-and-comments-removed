@@ -333,6 +333,9 @@ true
 isOverridesSupported
 :
 true
+supportsAddonsUninstall
+:
+true
 }
 ;
 }
