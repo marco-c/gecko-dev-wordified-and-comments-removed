@@ -3,7 +3,7 @@ import
 hasSource
 hasSourceActor
 getSourceActor
-getSourcesCount
+getSourceCount
 }
 from
 "
@@ -394,7 +394,7 @@ currentSize
 ;
 currentSize
 =
-getSourcesCount
+getSourceCount
 (
 store
 .
