@@ -72,6 +72,11 @@ FileSystemRequestHandler
 cpp
 "
 "
+FileSystemShutdownBlocker
+.
+cpp
+"
+"
 FileSystemThreadSafeStreamOwner
 .
 cpp
