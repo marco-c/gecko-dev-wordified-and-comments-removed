@@ -77,11 +77,6 @@ environment
 js
 "
 "
-eventsource
-.
-js
-"
-"
 frame
 .
 js
@@ -293,11 +288,6 @@ js
 "
 "
 webconsole
-.
-js
-"
-"
-websocket
 .
 js
 "
