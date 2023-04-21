@@ -249,7 +249,7 @@ aString
 )
 ;
 void
-EndPass
+End
 (
 ErrorResult
 &

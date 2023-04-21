@@ -4034,7 +4034,7 @@ indirectOffset
 Throws
 ]
 undefined
-endPass
+end
 (
 )
 ;
@@ -4331,7 +4331,7 @@ bundles
 Throws
 ]
 undefined
-endPass
+end
 (
 )
 ;
