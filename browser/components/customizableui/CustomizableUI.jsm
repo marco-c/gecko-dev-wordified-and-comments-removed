@@ -18656,7 +18656,7 @@ aWidgetId
 let
 widget
 =
-this
+CustomizableUI
 .
 getWidget
 (
