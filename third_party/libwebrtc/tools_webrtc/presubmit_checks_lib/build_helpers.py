@@ -437,9 +437,13 @@ path
 .
 join
 (
-find_depot_tools
-.
-DEPOT_TOOLS_PATH
+SRC_DIR
+'
+third_party
+'
+'
+ninja
+'
 '
 ninja
 '
