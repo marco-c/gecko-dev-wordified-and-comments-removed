@@ -2646,6 +2646,9 @@ SystemIsBeingShutDown
 MOZ_ASSERT
 (
 !
+JS
+:
+:
 IsIncrementalGCInProgress
 (
 xpc_GetSafeJSContext
