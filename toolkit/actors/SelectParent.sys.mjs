@@ -2511,6 +2511,7 @@ break
 }
 receiveMessage
 (
+browser
 msg
 )
 {
@@ -2527,11 +2528,11 @@ know
 what
 the
 currently
-/
-/
 opened
 menulist
 is
+/
+/
 and
 what
 browser
@@ -2547,6 +2548,14 @@ if
 this
 .
 _currentMenulist
+|
+|
+this
+.
+_currentBrowser
+!
+=
+browser
 )
 {
 return
@@ -4931,6 +4940,9 @@ SelectParentHelper
 .
 receiveMessage
 (
+this
+.
+relevantBrowser
 message
 )
 ;
