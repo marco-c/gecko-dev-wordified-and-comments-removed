@@ -1942,8 +1942,6 @@ this
 props
 .
 index
-+
-1
 tile_id
 :
 link
@@ -2033,6 +2031,13 @@ tile
 =
 {
 {
+position
+:
+this
+.
+props
+.
+index
 source
 :
 NEWTAB_SOURCE
@@ -3039,8 +3044,6 @@ props
 link
 .
 pos
-+
-1
 tile_id
 :
 this
@@ -3143,8 +3146,6 @@ this
 props
 .
 index
-+
-1
 tile_id
 :
 this
@@ -3219,6 +3220,13 @@ type
 "
 click
 "
+position
+:
+this
+.
+props
+.
+index
 source
 :
 NEWTAB_SOURCE

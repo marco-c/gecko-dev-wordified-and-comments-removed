@@ -60984,8 +60984,6 @@ this
 props
 .
 index
-+
-1
 tile_id
 :
 link
@@ -61056,6 +61054,13 @@ TOP_SITES_ORGANIC_IMPRESSION_STATS
 tile
 :
 {
+position
+:
+this
+.
+props
+.
+index
 source
 :
 NEWTAB_SOURCE
@@ -61954,8 +61959,6 @@ props
 link
 .
 pos
-+
-1
 tile_id
 :
 this
@@ -62045,8 +62048,6 @@ this
 props
 .
 index
-+
-1
 tile_id
 :
 this
@@ -62111,6 +62112,13 @@ type
 "
 click
 "
+position
+:
+this
+.
+props
+.
+index
 source
 :
 NEWTAB_SOURCE
