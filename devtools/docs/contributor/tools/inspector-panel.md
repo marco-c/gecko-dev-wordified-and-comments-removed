@@ -852,7 +852,7 @@ configured
 with
 in
 particular
-nativeAnonymousChildList
+chromeOnlyNodes
 set
 to
 true

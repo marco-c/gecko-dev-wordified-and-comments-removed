@@ -1196,9 +1196,6 @@ observe
 (
 node
 {
-nativeAnonymousChildList
-:
-true
 attributes
 :
 true

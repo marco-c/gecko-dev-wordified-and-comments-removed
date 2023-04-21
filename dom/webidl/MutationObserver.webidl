@@ -395,14 +395,6 @@ characterDataOldValue
 ChromeOnly
 ]
 boolean
-nativeAnonymousChildList
-=
-false
-;
-[
-ChromeOnly
-]
-boolean
 chromeOnlyNodes
 =
 false

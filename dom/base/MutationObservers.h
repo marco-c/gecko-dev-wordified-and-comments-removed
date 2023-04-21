@@ -163,17 +163,6 @@ aFirstNewContent
 ;
 static
 void
-NotifyNativeAnonymousChildListChange
-(
-nsIContent
-*
-aContent
-bool
-aIsRemove
-)
-;
-static
-void
 NotifyContentInserted
 (
 nsINode

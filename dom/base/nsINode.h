@@ -4823,6 +4823,13 @@ FireNodeRemovedForChildren
 (
 )
 ;
+void
+QueueDevtoolsAnonymousEvent
+(
+bool
+aIsRemove
+)
+;
 private
 :
 mozilla

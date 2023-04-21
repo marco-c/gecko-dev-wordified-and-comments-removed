@@ -3197,7 +3197,7 @@ ChromeOnly
 ]
 attribute
 boolean
-shadowRootAttachedEventEnabled
+devToolsAnonymousAndShadowEventsEnabled
 ;
 [
 ChromeOnly
