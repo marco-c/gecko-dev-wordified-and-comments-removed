@@ -214,3 +214,15 @@ int
 factor
 ;
 end
+interface
+mozDatePickerAccessible
+:
+mozAccessible
+-
+(
+NSString
+*
+)
+moxTitle
+;
+end
