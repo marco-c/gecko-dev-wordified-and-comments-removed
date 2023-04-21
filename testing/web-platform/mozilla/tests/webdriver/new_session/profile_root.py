@@ -164,6 +164,17 @@ path
 "
 )
     
+assert
+not
+os
+.
+path
+.
+exists
+(
+profile_path
+)
+    
 config
 =
 copy
@@ -211,8 +222,10 @@ pytest
 .
 raises
 (
-Exception
+ChildProcessError
 )
+as
+exc_info
 :
         
 geckodriver
@@ -224,3 +237,20 @@ extra_args
 =
 extra_args
 )
+    
+assert
+str
+(
+exc_info
+.
+value
+)
+=
+=
+"
+geckodriver
+terminated
+with
+code
+64
+"

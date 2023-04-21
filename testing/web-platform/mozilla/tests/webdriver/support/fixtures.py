@@ -5,6 +5,8 @@ os
 import
 socket
 import
+subprocess
+import
 time
 from
 contextlib
@@ -20,10 +22,6 @@ import
 pytest
 import
 webdriver
-from
-mozprocess
-import
-ProcessHandler
 from
 mozprofile
 import
@@ -1170,18 +1168,6 @@ extra_args
         
 )
         
-def
-processOutputLine
-(
-line
-)
-:
-            
-print
-(
-line
-)
-        
 print
 (
 f
@@ -1201,27 +1187,13 @@ self
 .
 proc
 =
-ProcessHandler
+subprocess
+.
+Popen
 (
-            
 self
 .
 command
-processOutputLine
-=
-processOutputLine
-universal_newlines
-=
-True
-        
-)
-        
-self
-.
-proc
-.
-run
-(
 )
         
 end_time
@@ -1244,7 +1216,8 @@ time
 end_time
 :
             
-if
+returncode
+=
 self
 .
 proc
@@ -1252,14 +1225,18 @@ proc
 poll
 (
 )
+            
+if
+returncode
 is
 not
 None
 :
                 
 raise
-Exception
+ChildProcessError
 (
+                    
 f
 "
 geckodriver
@@ -1267,15 +1244,10 @@ terminated
 with
 code
 {
-self
-.
-proc
-.
-poll
-(
-)
+returncode
 }
 "
+                
 )
             
 with
@@ -1313,7 +1285,7 @@ else
 :
             
 raise
-Exception
+ConnectionRefusedError
 (
                 
 f
