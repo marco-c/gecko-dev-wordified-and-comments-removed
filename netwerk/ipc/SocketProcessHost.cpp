@@ -798,7 +798,7 @@ return
 }
 mSocketProcessParent
 =
-MakeRefPtr
+MakeUnique
 <
 SocketProcessParent
 >

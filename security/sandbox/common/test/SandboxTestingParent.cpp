@@ -186,16 +186,6 @@ aParentEnd
 )
 ;
 }
-SandboxTestingParent
-:
-:
-~
-SandboxTestingParent
-(
-)
-=
-default
-;
 void
 SandboxTestingParent
 :
@@ -361,6 +351,9 @@ Wait
 ;
 }
 }
+delete
+aInstance
+;
 }
 void
 SandboxTestingParent

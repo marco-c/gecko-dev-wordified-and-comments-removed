@@ -196,6 +196,11 @@ mHost
 aHost
 )
 {
+MOZ_COUNT_CTOR
+(
+RDDChild
+)
+;
 }
 RDDChild
 :
@@ -204,9 +209,13 @@ RDDChild
 RDDChild
 (
 )
-=
-default
+{
+MOZ_COUNT_DTOR
+(
+RDDChild
+)
 ;
+}
 bool
 RDDChild
 :
@@ -1238,7 +1247,7 @@ public
 explicit
 DeferredDeleteRDDChild
 (
-RefPtr
+UniquePtr
 <
 RDDChild
 >
@@ -1280,7 +1289,7 @@ NS_OK
 }
 private
 :
-RefPtr
+UniquePtr
 <
 RDDChild
 >
@@ -1294,7 +1303,7 @@ RDDChild
 :
 Destroy
 (
-RefPtr
+UniquePtr
 <
 RDDChild
 >

@@ -583,6 +583,14 @@ RecvInitialized
 true
 )
 ;
+Unused
+<
+<
+do_AddRef
+(
+mActor
+)
+;
 }
 else
 {

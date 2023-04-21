@@ -475,6 +475,13 @@ CompositorThread
 pid
 )
 ;
+parent
+-
+>
+mSelfRef
+=
+parent
+;
 {
 MonitorAutoLock
 lock
@@ -1201,6 +1208,10 @@ this
 )
 return
 ;
+mSelfRef
+=
+this
+;
 RefPtr
 <
 ImageBridgeParent
@@ -1890,6 +1901,10 @@ DeferredDestroy
 )
 {
 mCompositorThreadHolder
+=
+nullptr
+;
+mSelfRef
 =
 nullptr
 ;

@@ -70,8 +70,7 @@ Startup
 ;
 return
 mSandboxBrokerChild
--
->
+.
 Init
 (
 TakeInitialEndpoint

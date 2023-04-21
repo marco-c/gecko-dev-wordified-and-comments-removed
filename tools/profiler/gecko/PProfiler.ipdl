@@ -5,6 +5,7 @@ namespace
 mozilla
 {
 [
+ManualDealloc
 ChildImpl
 =
 virtual

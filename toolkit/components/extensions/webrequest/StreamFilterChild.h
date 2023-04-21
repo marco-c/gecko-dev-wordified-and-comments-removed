@@ -112,7 +112,6 @@ public
 NS_INLINE_DECL_REFCOUNTING
 (
 StreamFilterChild
-final
 )
 StreamFilterChild
 (
@@ -274,6 +273,13 @@ IPCResult
 RecvFlushData
 (
 )
+;
+virtual
+void
+ActorDealloc
+(
+)
+override
 ;
 void
 SetStreamFilter

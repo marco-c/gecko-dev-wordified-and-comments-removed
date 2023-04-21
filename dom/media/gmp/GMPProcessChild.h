@@ -90,15 +90,8 @@ override
 ;
 private
 :
-const
-RefPtr
-<
 GMPChild
->
 mPlugin
-=
-new
-GMPChild
 ;
 }
 ;

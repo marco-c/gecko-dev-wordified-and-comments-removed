@@ -253,6 +253,7 @@ namespace
 mozilla
 {
 [
+ManualDealloc
 NeedsOtherPid
 ]
 protocol

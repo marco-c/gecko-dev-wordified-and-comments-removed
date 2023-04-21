@@ -54,11 +54,6 @@ PRemoteSandboxBrokerParent
 ;
 public
 :
-NS_INLINE_DECL_REFCOUNTING
-(
-RemoteSandboxBrokerParent
-override
-)
 bool
 DuplicateFromLauncher
 (
@@ -95,13 +90,6 @@ aThread
 ;
 private
 :
-~
-RemoteSandboxBrokerParent
-(
-)
-=
-default
-;
 void
 ActorDestroy
 (

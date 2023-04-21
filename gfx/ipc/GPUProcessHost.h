@@ -356,7 +356,7 @@ Complete
 LaunchPhase
 mLaunchPhase
 ;
-RefPtr
+UniquePtr
 <
 GPUChild
 >

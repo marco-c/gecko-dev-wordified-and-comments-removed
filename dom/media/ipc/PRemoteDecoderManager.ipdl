@@ -159,6 +159,7 @@ VideoDecoderInfoIPDL
 }
 ;
 [
+ManualDealloc
 NeedsOtherPid
 ]
 sync

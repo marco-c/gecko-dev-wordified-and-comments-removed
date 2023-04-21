@@ -2952,6 +2952,12 @@ why
 )
 override
 ;
+void
+ActorDealloc
+(
+)
+override
+;
 bool
 ShouldContinueFromReplyTimeout
 (
@@ -6850,6 +6856,12 @@ AssertAlive
 ;
 private
 :
+RefPtr
+<
+ContentParent
+>
+mSelfRef
+;
 GeckoChildProcessHost
 *
 mSubprocess
@@ -7013,10 +7025,8 @@ mChildXSocketFdDup
 ;
 #
 endif
-RefPtr
-<
 PProcessHangMonitorParent
->
+*
 mHangMonitorActor
 ;
 UniquePtr

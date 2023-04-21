@@ -226,7 +226,7 @@ char
 aReason
 )
 ;
-RefPtr
+UniquePtr
 <
 VRChild
 >

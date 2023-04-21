@@ -49,7 +49,6 @@ public
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 VsyncBridgeChild
-final
 )
 static
 RefPtr
@@ -86,6 +85,12 @@ ActorDestroy
 (
 ActorDestroyReason
 aWhy
+)
+override
+;
+void
+ActorDealloc
+(
 )
 override
 ;

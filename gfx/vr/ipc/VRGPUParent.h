@@ -38,7 +38,6 @@ PVRGPUParent
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 VRGPUParent
-final
 )
 friend
 class
@@ -170,6 +169,12 @@ void
 DeferredDestroy
 (
 )
+;
+RefPtr
+<
+VRGPUParent
+>
+mSelfRef
 ;
 #
 if

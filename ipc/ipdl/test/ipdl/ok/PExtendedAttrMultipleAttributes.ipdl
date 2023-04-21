@@ -2,7 +2,7 @@
 NestedUpTo
 =
 inside_sync
-NeedsOtherPid
+ManualDealloc
 ]
 async
 protocol

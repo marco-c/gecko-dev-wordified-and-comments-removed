@@ -89,7 +89,6 @@ PCompositorManagerChild
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 CompositorManagerChild
-override
 )
 public
 :
@@ -481,6 +480,12 @@ CompositorManagerChild
 )
 =
 default
+;
+void
+ActorDealloc
+(
+)
+override
 ;
 void
 SetReplyTimeout
