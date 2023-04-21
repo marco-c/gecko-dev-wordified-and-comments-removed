@@ -860,9 +860,7 @@ MetricMetadataKey
 :
 :
 kExperimentalTestNameMetadataKey
-GetCurrentTestName
-(
-)
+test_case_name_
 }
 }
 ;

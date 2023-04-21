@@ -2399,9 +2399,7 @@ MetricMetadataKey
 :
 :
 kExperimentalTestNameMetadataKey
-GetCurrentTestName
-(
-)
+test_case_name_
 }
 }
 ;
@@ -2906,9 +2904,7 @@ MetricMetadataKey
 :
 :
 kExperimentalTestNameMetadataKey
-GetCurrentTestName
-(
-)
+test_case_name_
 }
 }
 ;
