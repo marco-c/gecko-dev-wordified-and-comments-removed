@@ -589,9 +589,9 @@ Operation
 failed
 with
 {
+result
 }
 "
-result
 )
 Error
 :
@@ -626,9 +626,9 @@ Migration
 failed
 with
 {
+error
 }
 "
-error
 )
 Error
 :
@@ -717,6 +717,7 @@ write
 f
 "
 {
+what
 }
 already
 ran
@@ -725,7 +726,6 @@ the
 background
 thread
 "
-what
 )
 Error
 :
@@ -742,6 +742,7 @@ write
 f
 "
 {
+what
 }
 didn
 '
@@ -752,7 +753,6 @@ the
 background
 thread
 "
-what
 )
 Error
 :

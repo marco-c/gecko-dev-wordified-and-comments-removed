@@ -62,6 +62,13 @@ MPL
 [
 dependencies
 ]
+anyhow
+=
+"
+1
+.
+0
+"
 atomic_refcell
 =
 "
