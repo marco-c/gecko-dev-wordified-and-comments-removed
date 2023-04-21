@@ -125,8 +125,6 @@ ComputeBezierAnimationSettingsForOrigin
 (
 ScrollOrigin
 aOrigin
-bool
-aSmoothScrollingEnabled
 )
 ;
 ScrollMode
@@ -134,8 +132,6 @@ GetScrollModeForOrigin
 (
 ScrollOrigin
 origin
-bool
-aSmoothScrollingEnabled
 )
 ;
 }
