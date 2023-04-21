@@ -341,6 +341,14 @@ TaggedParserAtomIndex
 >
 ;
 using
+ParserPositionalFormalParameterIter
+=
+AbstractPositionalFormalParameterIter
+<
+TaggedParserAtomIndex
+>
+;
+using
 RegExpIndex
 =
 TypedIndex
