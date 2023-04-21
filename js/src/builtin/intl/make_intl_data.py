@@ -22263,10 +22263,15 @@ println
 (
 "
 /
+*
+eslint
+-
+disable
+prettier
 /
 prettier
--
-ignore
+*
+/
 "
 )
         
@@ -22287,6 +22292,22 @@ format
 sanctioned_units_object
 )
         
+)
+        
+println
+(
+"
+/
+*
+eslint
+-
+enable
+prettier
+/
+prettier
+*
+/
+"
 )
     
 sanctioned_h_file
