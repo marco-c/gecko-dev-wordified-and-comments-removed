@@ -7,6 +7,17 @@ _ACCESSIBLE_VALUE_H
 #
 include
 "
+mozilla
+/
+a11y
+/
+Accessible
+.
+h
+"
+#
+include
+"
 AccessibleValue
 .
 h

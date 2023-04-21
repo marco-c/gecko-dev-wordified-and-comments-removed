@@ -15,6 +15,17 @@ c
 #
 include
 "
+mozilla
+/
+a11y
+/
+HyperTextAccessibleBase
+.
+h
+"
+#
+include
+"
 IUnknownImpl
 .
 h

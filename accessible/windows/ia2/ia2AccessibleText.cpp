@@ -67,6 +67,9 @@ sLastTextChangeAcc
 =
 nullptr
 ;
+mozilla
+:
+:
 StaticAutoPtr
 <
 nsString
