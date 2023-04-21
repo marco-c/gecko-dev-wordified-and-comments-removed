@@ -76,7 +76,7 @@ FormAutofillStorage
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -87,7 +87,9 @@ autofill
 /
 FormAutofillStorage
 .
-jsm
+sys
+.
+mjs
 "
 )
 )
@@ -99,7 +101,7 @@ CREDIT_CARD_SCHEMA_VERSION
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -110,7 +112,9 @@ autofill
 /
 FormAutofillStorageBase
 .
-jsm
+sys
+.
+mjs
 "
 )
 )

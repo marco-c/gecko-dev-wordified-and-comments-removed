@@ -74,7 +74,9 @@ autofill
 /
 *
 .
-jsm
+sys
+.
+mjs
 )
 res
 /
@@ -89,7 +91,9 @@ phonenumberutils
 /
 *
 .
-jsm
+sys
+.
+mjs
 )
 res
 /

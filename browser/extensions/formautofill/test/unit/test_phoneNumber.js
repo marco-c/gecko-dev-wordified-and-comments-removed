@@ -22,7 +22,7 @@ PhoneNumber
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -35,7 +35,9 @@ phonenumberutils
 /
 PhoneNumber
 .
-jsm
+sys
+.
+mjs
 "
 )
 )
@@ -47,7 +49,7 @@ PhoneNumberNormalizer
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -60,7 +62,9 @@ phonenumberutils
 /
 PhoneNumberNormalizer
 .
-jsm
+sys
+.
+mjs
 "
 )
 )

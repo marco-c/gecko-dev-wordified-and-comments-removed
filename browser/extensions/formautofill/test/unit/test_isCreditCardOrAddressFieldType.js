@@ -21,7 +21,7 @@ FormAutofillUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -32,7 +32,9 @@ autofill
 /
 FormAutofillUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 )

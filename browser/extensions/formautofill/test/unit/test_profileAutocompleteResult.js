@@ -23,7 +23,7 @@ CreditCardResult
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -34,7 +34,9 @@ autofill
 /
 ProfileAutoCompleteResult
 .
-jsm
+sys
+.
+mjs
 "
 )
 )

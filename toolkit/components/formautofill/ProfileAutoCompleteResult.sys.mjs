@@ -106,15 +106,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-lazy
-{
 FormAutofillUtils
 :
 "
@@ -126,7 +117,9 @@ autofill
 /
 FormAutofillUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
