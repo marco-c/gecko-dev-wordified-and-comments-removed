@@ -451,6 +451,3 @@ mozbuild
 NO_PGO
 =
 True
-REQUIRES_UNIFIED_BUILD
-=
-True
