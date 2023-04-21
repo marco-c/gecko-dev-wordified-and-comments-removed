@@ -5527,6 +5527,10 @@ mac_notarize_part_3
 "
             
 "
+apple_notarization
+"
+            
+"
 mac_sign
 "
             
