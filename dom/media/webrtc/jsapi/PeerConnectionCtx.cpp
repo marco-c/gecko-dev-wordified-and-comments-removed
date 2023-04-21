@@ -3328,9 +3328,10 @@ return
 false
 ;
 }
-nsTArray
+AutoTArray
 <
 nsCString
+1
 >
 tags
 ;
@@ -3361,7 +3362,6 @@ nsLiteralCString
 (
 GMP_API_VIDEO_ENCODER
 )
-&
 tags
 &
 has_gmp
@@ -3394,7 +3394,6 @@ nsLiteralCString
 (
 GMP_API_VIDEO_DECODER
 )
-&
 tags
 &
 has_gmp

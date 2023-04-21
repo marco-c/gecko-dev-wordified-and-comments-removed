@@ -1042,14 +1042,14 @@ bool
 HaveGMPFor
 (
 const
-nsCString
+nsACString
 &
 aAPI
+const
 nsTArray
 <
 nsCString
 >
-&
 &
 aTags
 )
@@ -1107,7 +1107,6 @@ mps
 HasPluginForAPI
 (
 aAPI
-&
 aTags
 &
 hasPlugin
