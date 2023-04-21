@@ -391,9 +391,11 @@ consoleMessageWatcher
 {
 consoleMessageWatcher
 .
-emitMessage
+emitMessages
 (
+[
 message
+]
 )
 ;
 }
