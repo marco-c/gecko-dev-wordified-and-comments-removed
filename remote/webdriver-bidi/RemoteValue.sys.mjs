@@ -1798,7 +1798,7 @@ lazy
 .
 error
 .
-InvalidArgumentError
+NoSuchHandleError
 (
 Unable
 to
