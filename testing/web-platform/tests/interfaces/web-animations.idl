@@ -63,12 +63,6 @@ Window
 interface
 AnimationTimeline
 {
-readonly
-attribute
-double
-?
-currentTime
-;
 }
 ;
 dictionary

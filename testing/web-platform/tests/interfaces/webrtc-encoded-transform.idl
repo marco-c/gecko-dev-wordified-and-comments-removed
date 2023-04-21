@@ -411,6 +411,9 @@ long
 >
 contributingSources
 ;
+short
+sequenceNumber
+;
 }
 ;
 [

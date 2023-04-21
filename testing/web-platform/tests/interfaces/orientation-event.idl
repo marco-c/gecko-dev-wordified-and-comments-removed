@@ -169,16 +169,6 @@ partial
 interface
 Window
 {
-attribute
-EventHandler
-oncompassneedscalibration
-;
-}
-;
-partial
-interface
-Window
-{
 [
 SecureContext
 ]

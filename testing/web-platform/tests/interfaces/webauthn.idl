@@ -765,6 +765,9 @@ required
 DOMString
 origin
 ;
+DOMString
+topOrigin
+;
 boolean
 crossOrigin
 ;
@@ -926,10 +929,10 @@ dictionary
 AuthenticationExtensionsPRFValues
 {
 required
-ArrayBuffer
+BufferSource
 first
 ;
-ArrayBuffer
+BufferSource
 second
 ;
 }
@@ -1101,9 +1104,6 @@ devicePubKey
 dictionary
 AuthenticationExtensionsDevicePublicKeyOutputs
 {
-ArrayBuffer
-authenticatorOutput
-;
 ArrayBuffer
 signature
 ;

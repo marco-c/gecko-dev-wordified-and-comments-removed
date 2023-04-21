@@ -111,6 +111,14 @@ ByteString
 name
 )
 ;
+sequence
+<
+ByteString
+>
+getSetCookie
+(
+)
+;
 boolean
 has
 (

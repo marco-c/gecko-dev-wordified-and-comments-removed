@@ -435,6 +435,7 @@ RTCRtpStreamStats
 {
 unsigned
 long
+long
 packetsSent
 ;
 unsigned

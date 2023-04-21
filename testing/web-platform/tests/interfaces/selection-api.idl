@@ -101,6 +101,11 @@ attribute
 DOMString
 type
 ;
+readonly
+attribute
+DOMString
+direction
+;
 Range
 getRangeAt
 (
@@ -133,8 +138,11 @@ empty
 (
 )
 ;
+sequence
+<
 StaticRange
-getComposedRange
+>
+getComposedRanges
 (
 ShadowRoot
 .

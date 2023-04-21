@@ -64,7 +64,7 @@ Exposed
 Window
 ]
 interface
-ContentVisibilityAutoStateChangedEvent
+ContentVisibilityAutoStateChangeEvent
 :
 Event
 {
@@ -73,7 +73,7 @@ constructor
 DOMString
 type
 optional
-ContentVisibilityAutoStateChangedEventInit
+ContentVisibilityAutoStateChangeEventInit
 eventInitDict
 =
 {
@@ -88,7 +88,7 @@ skipped
 }
 ;
 dictionary
-ContentVisibilityAutoStateChangedEventInit
+ContentVisibilityAutoStateChangeEventInit
 :
 EventInit
 {

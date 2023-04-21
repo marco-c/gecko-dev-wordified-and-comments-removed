@@ -3506,13 +3506,16 @@ resolver
 null
 )
 ;
-XPathNSResolver
+Node
 createNSResolver
 (
 Node
 nodeResolver
 )
 ;
+/
+/
+legacy
 /
 /
 XPathResult

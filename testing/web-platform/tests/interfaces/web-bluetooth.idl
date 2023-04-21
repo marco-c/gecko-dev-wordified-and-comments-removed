@@ -130,6 +130,12 @@ filters
 ;
 sequence
 <
+BluetoothLEScanFilterInit
+>
+exclusionFilters
+;
+sequence
+<
 BluetoothServiceUUID
 >
 optionalServices

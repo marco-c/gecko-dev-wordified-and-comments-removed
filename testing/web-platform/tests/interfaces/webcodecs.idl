@@ -61,6 +61,8 @@ SecureContext
 ]
 interface
 AudioDecoder
+:
+EventTarget
 {
 constructor
 (
@@ -161,6 +163,8 @@ SecureContext
 ]
 interface
 VideoDecoder
+:
+EventTarget
 {
 constructor
 (
@@ -261,6 +265,8 @@ SecureContext
 ]
 interface
 AudioEncoder
+:
+EventTarget
 {
 constructor
 (
@@ -375,6 +381,8 @@ SecureContext
 ]
 interface
 VideoEncoder
+:
+EventTarget
 {
 constructor
 (
@@ -727,7 +735,7 @@ discard
 DOMString
 scalabilityMode
 ;
-BitrateMode
+VideoEncoderBitrateMode
 bitrateMode
 =
 "
@@ -793,6 +801,20 @@ keyFrame
 =
 false
 ;
+}
+;
+enum
+VideoEncoderBitrateMode
+{
+"
+constant
+"
+"
+variable
+"
+"
+quantizer
+"
 }
 ;
 enum

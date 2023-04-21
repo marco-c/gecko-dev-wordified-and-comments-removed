@@ -73,6 +73,11 @@ initiatorType
 ;
 readonly
 attribute
+DOMString
+deliveryType
+;
+readonly
+attribute
 ByteString
 nextHopProtocol
 ;

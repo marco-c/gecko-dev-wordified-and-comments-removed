@@ -329,6 +329,7 @@ SameObject
 readonly
 attribute
 GamepadHapticActuator
+?
 vibrationActuator
 ;
 }

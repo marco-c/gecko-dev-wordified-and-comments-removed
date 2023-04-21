@@ -105,6 +105,14 @@ partial
 interface
 XRSession
 {
+readonly
+attribute
+FrozenArray
+<
+DOMString
+>
+persistentAnchors
+;
 Promise
 <
 XRAnchor

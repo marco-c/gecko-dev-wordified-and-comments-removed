@@ -35,11 +35,8 @@ webref
 /
 Source
 :
-Multi
--
-Screen
 Window
-Placement
+Management
 (
 https
 :
@@ -53,7 +50,7 @@ io
 /
 window
 -
-placement
+management
 /
 )
 partial

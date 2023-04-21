@@ -469,9 +469,11 @@ groupId
 dictionary
 MediaTrackSettings
 {
+unsigned
 long
 width
 ;
+unsigned
 long
 height
 ;
@@ -487,9 +489,11 @@ facingMode
 DOMString
 resizeMode
 ;
+unsigned
 long
 sampleRate
 ;
+unsigned
 long
 sampleSize
 ;
@@ -505,6 +509,7 @@ noiseSuppression
 double
 latency
 ;
+unsigned
 long
 channelCount
 ;

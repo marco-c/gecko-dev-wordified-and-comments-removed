@@ -227,6 +227,11 @@ DOMString
 >
 enabledFeatures
 ;
+readonly
+attribute
+boolean
+isSystemKeyboardSupported
+;
 /
 /
 Methods

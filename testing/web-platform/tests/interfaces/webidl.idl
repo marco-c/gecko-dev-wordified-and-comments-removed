@@ -335,9 +335,3 @@ undefined
 (
 )
 ;
-typedef
-unsigned
-long
-long
-DOMTimeStamp
-;
