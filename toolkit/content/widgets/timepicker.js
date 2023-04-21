@@ -69,6 +69,12 @@ _setComponentStates
 (
 )
 ;
+window
+.
+PICKER_READY
+=
+true
+;
 document
 .
 dispatchEvent
