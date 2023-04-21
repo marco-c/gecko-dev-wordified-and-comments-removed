@@ -443,6 +443,15 @@ aObserver
 override
 ;
 NS_IMETHOD
+SetWebTransportSessionEventListener
+(
+WebTransportSessionEventListener
+*
+aListener
+)
+override
+;
+NS_IMETHOD
 SetPriority
 (
 int32_t

@@ -197,6 +197,9 @@ nsISocketTransport
 interface
 nsIURI
 ;
+interface
+WebTransportSessionEventListener
+;
 [
 scriptable
 uuid
@@ -911,6 +914,17 @@ readonly
 attribute
 boolean
 isProxyUsed
+;
+[
+must_use
+]
+void
+setWebTransportSessionEventListener
+(
+in
+WebTransportSessionEventListener
+aListener
+)
 ;
 }
 ;
