@@ -4645,7 +4645,7 @@ true
 /
 The
 '
-unload
+pagehide
 '
 event
 is
@@ -4664,7 +4664,7 @@ force
 actor
 creation
 .
-unload
+pagehide
 :
 {
 createActor
