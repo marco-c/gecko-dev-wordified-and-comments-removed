@@ -814,7 +814,7 @@ p
 )
 const
 ;
-JSObject
+void
 *
 allocateObject
 (
