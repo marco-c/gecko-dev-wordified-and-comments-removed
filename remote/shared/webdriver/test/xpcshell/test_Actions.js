@@ -21,9 +21,11 @@ remote
 /
 content
 /
-marionette
+shared
 /
-action
+webdriver
+/
+Actions
 .
 sys
 .
