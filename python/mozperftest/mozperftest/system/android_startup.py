@@ -7,7 +7,6 @@ time
 from
 datetime
 import
-date
 datetime
 timedelta
 import
@@ -99,6 +98,15 @@ median
 standard_deviation
 "
 ]
+OLD_VERSION_FOCUS_PAGE_START_LINE_COUNT
+=
+3
+NEW_VERSION_FOCUS_PAGE_START_LINE_COUNT
+=
+2
+STDOUT_LINE_COUNT
+=
+2
 TEST_COLD_MAIN_FF
 =
 "
@@ -1040,16 +1048,6 @@ self
 app_name
 =
 None
-        
-self
-.
-download_date
-=
-date
-.
-today
-(
-)
         
 self
 .
@@ -2365,9 +2363,10 @@ assert
 (
                     
 page_start_line_count
+                    
 =
 =
-3
+OLD_VERSION_FOCUS_PAGE_START_LINE_COUNT
                 
 )
 page_start_assert_msg
@@ -2379,9 +2378,10 @@ assert
 (
                     
 page_start_line_count
+                    
 =
 =
-2
+NEW_VERSION_FOCUS_PAGE_START_LINE_COUNT
                 
 )
 page_start_assert_msg
@@ -2505,6 +2505,10 @@ visual
 completeness
 .
         
+"
+"
+"
+        
 return
 60
 if
@@ -2513,13 +2517,6 @@ self
 startup_cache
 else
 5
-        
-"
-"
-"
-        
-return
-1
     
 def
 get_start_cmd
@@ -2753,7 +2750,7 @@ stdout
 )
 !
 =
-2
+STDOUT_LINE_COUNT
 :
             
 raise
