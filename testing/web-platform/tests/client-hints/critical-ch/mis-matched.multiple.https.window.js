@@ -6,6 +6,10 @@ ECHO_URL
 +
 "
 ?
+multiple
+=
+true
+&
 mismatch
 =
 true
@@ -18,6 +22,11 @@ FAIL
 Critical
 -
 CH
+w
+/
+multiple
+headers
+and
 Mis
 -
 matched
