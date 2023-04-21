@@ -93,4 +93,9 @@ RecordingButton
 .
 js
 "
+"
+ToolboxHighlightController
+.
+js
+"
 )
