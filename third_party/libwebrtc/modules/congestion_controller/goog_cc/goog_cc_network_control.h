@@ -510,10 +510,6 @@ rate_control_settings_
 ;
 const
 bool
-loss_based_stable_rate_
-;
-const
-bool
 pace_at_max_of_bwe_and_lower_link_capacity_
 ;
 const
