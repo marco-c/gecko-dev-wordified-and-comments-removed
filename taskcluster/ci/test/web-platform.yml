@@ -1907,15 +1907,6 @@ android
 :
 [
 ]
-.
-*
--
-tsan
-.
-*
-:
-[
-]
 default
 :
 built
