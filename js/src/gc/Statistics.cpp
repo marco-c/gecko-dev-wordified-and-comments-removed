@@ -6497,7 +6497,7 @@ markTotal
 TimeDuration
 :
 :
-FromMilliseconds
+FromMicroseconds
 (
 1
 )
