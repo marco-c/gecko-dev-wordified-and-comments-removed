@@ -658,6 +658,17 @@ Deprecated
 "
 MozPreservesPitchDeprecatedPrefix
 "
+Pref
+=
+"
+dom
+.
+media
+.
+mozPreservesPitch
+.
+enabled
+"
 BinaryName
 =
 "
