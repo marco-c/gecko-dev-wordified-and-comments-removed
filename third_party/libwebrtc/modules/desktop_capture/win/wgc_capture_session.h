@@ -174,6 +174,10 @@ WgcCaptureSession
 HRESULT
 StartCapture
 (
+const
+DesktopCaptureOptions
+&
+options
 )
 ;
 HRESULT
