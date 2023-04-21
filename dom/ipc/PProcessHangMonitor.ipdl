@@ -96,7 +96,6 @@ duration
 }
 ;
 [
-ManualDealloc
 ChildImpl
 =
 virtual
