@@ -1544,7 +1544,6 @@ actorID
 getAnonymousDocumentWalker
 (
 node
-whatToShow
 skipTo
 )
 {
@@ -1568,7 +1567,6 @@ this
 .
 rootWin
 {
-whatToShow
 filter
 skipTo
 showAnonymousContent
@@ -1581,7 +1579,6 @@ true
 getNonAnonymousDocumentWalker
 (
 node
-whatToShow
 skipTo
 )
 {
@@ -1599,7 +1596,6 @@ this
 .
 rootWin
 {
-whatToShow
 nodeFilter
 skipTo
 showAnonymousContent
@@ -1612,7 +1608,6 @@ false
 getDocumentWalker
 (
 node
-whatToShow
 skipTo
 )
 {
@@ -1624,7 +1619,6 @@ this
 getAnonymousDocumentWalker
 (
 node
-whatToShow
 skipTo
 )
 ;
@@ -1640,7 +1634,6 @@ this
 getNonAnonymousDocumentWalker
 (
 node
-whatToShow
 skipTo
 )
 ;
@@ -3644,9 +3637,6 @@ getDocumentWalker
 node
 .
 rawNode
-options
-.
-whatToShow
 SKIP_TO_SIBLING
 )
 ;
@@ -3681,13 +3671,6 @@ documentWalkerNode
 >
 {
 const
-{
-whatToShow
-}
-=
-options
-;
-const
 skipTo
 =
 SKIP_TO_SIBLING
@@ -3703,7 +3686,6 @@ this
 getNonAnonymousDocumentWalker
 (
 documentWalkerNode
-whatToShow
 skipTo
 )
 ;
@@ -3714,7 +3696,6 @@ this
 getDocumentWalker
 (
 documentWalkerNode
-whatToShow
 skipTo
 )
 ;
@@ -4309,10 +4290,6 @@ nodes
 nextSibling
 (
 node
-options
-=
-{
-}
 )
 {
 if
@@ -4337,9 +4314,6 @@ getDocumentWalker
 node
 .
 rawNode
-options
-.
-whatToShow
 )
 ;
 const
@@ -4367,10 +4341,6 @@ null
 previousSibling
 (
 node
-options
-=
-{
-}
 )
 {
 if
@@ -4395,9 +4365,6 @@ getDocumentWalker
 node
 .
 rawNode
-options
-.
-whatToShow
 )
 ;
 const

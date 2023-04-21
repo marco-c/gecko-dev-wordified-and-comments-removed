@@ -195,10 +195,6 @@ init
 in
 Node
 aRoot
-in
-unsigned
-long
-aWhatToShow
 )
 ;
 /
@@ -295,12 +291,6 @@ readonly
 attribute
 Node
 root
-;
-readonly
-attribute
-unsigned
-long
-whatToShow
 ;
 attribute
 Node

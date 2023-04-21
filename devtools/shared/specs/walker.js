@@ -103,12 +103,6 @@ Option
 domnode
 "
 )
-whatToShow
-:
-Option
-(
-1
-)
 }
 response
 :
@@ -149,12 +143,6 @@ Arg
 "
 domnode
 "
-)
-whatToShow
-:
-Option
-(
-1
 )
 }
 response

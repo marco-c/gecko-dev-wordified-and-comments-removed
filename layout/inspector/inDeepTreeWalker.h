@@ -118,9 +118,6 @@ mSiblings
 int32_t
 mCurrentIndex
 ;
-uint32_t
-mWhatToShow
-;
 }
 ;
 #
