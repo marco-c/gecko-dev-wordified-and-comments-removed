@@ -10,7 +10,7 @@ LoginExport
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 LoginExport
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

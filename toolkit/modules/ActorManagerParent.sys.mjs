@@ -1672,7 +1672,7 @@ LoginManager
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -1685,13 +1685,15 @@ modules
 /
 LoginManagerParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -1704,7 +1706,9 @@ modules
 /
 LoginManagerChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :

@@ -71,7 +71,7 @@ LoginTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -84,7 +84,9 @@ common
 /
 LoginTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

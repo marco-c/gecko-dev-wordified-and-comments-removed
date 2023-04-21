@@ -10,7 +10,7 @@ PasswordGenerator
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 PasswordGenerator
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

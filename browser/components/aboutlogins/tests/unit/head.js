@@ -10,7 +10,7 @@ LoginTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ common
 /
 LoginTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -34,7 +36,7 @@ LoginHelper
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +49,9 @@ modules
 /
 LoginHelper
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

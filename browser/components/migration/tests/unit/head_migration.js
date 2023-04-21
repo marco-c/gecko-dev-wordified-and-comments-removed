@@ -35,7 +35,7 @@ LoginHelper
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -48,7 +48,9 @@ modules
 /
 LoginHelper
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -5,7 +5,7 @@ LoginAutoCompleteResult
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ modules
 /
 LoginAutoComplete
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -5,7 +5,7 @@ LoginManagerPrompter
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ modules
 /
 LoginManagerPrompter
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -672,7 +672,7 @@ LTU
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -685,7 +685,9 @@ common
 /
 LoginTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -996,7 +998,7 @@ LTU
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1009,7 +1011,9 @@ common
 /
 LoginTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1321,7 +1325,7 @@ LTU
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1334,7 +1338,9 @@ common
 /
 LoginTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1583,7 +1589,7 @@ LTU
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1596,7 +1602,9 @@ common
 /
 LoginTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1875,7 +1883,7 @@ LTU
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1888,7 +1896,9 @@ common
 /
 LoginTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -2148,7 +2158,7 @@ LTU
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -2161,7 +2171,9 @@ common
 /
 LoginTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -10,7 +10,7 @@ CSV
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 CSV
 .
-js
+sys
+.
+mjs
 "
 )
 ;

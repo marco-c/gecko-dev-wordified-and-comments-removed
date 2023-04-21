@@ -1469,7 +1469,9 @@ passwordmgr
 /
 PasswordRulesParser
 .
-jsm
+sys
+.
+mjs
 toolkit
 /
 components

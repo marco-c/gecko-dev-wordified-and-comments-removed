@@ -10,7 +10,7 @@ LoginManagerContextMenu
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 LoginManagerContextMenu
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
