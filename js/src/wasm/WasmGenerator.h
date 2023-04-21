@@ -783,7 +783,7 @@ bool
 finishedFuncDefs_
 ;
 bool
-allocateInstanceDataBytes
+allocateGlobalBytes
 (
 uint32_t
 bytes
@@ -791,11 +791,11 @@ uint32_t
 align
 uint32_t
 *
-instanceDataOffset
+globalDataOff
 )
 ;
 bool
-allocateInstanceDataBytesN
+allocateGlobalBytesN
 (
 uint32_t
 bytes
@@ -805,7 +805,7 @@ uint32_t
 count
 uint32_t
 *
-instanceDataOffset
+globalDataOff
 )
 ;
 bool

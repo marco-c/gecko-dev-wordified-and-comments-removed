@@ -12748,15 +12748,7 @@ ABINonArgReturnReg0
 ;
 masm
 .
-loadPtr
-(
-Address
-(
-InstanceReg
-Instance
-:
-:
-offsetInData
+loadWasmGlobalPtr
 (
 fi
 .
@@ -12768,8 +12760,6 @@ offsetof
 (
 FuncImportInstanceData
 callable
-)
-)
 )
 callee
 )

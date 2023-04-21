@@ -10033,7 +10033,7 @@ false
 -
 name
 :
-WasmLoadInstanceDataField
+WasmLoadGlobalVar
 gen_boilerplate
 :
 false
@@ -10054,7 +10054,7 @@ false
 -
 name
 :
-WasmStoreInstanceDataField
+WasmStoreGlobalVar
 gen_boilerplate
 :
 false

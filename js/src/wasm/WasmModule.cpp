@@ -5521,7 +5521,7 @@ metadata
 (
 )
 .
-instanceDataLength
+globalDataLength
 memory
 std
 :
