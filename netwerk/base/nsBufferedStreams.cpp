@@ -3715,6 +3715,16 @@ Close
 (
 )
 {
+if
+(
+!
+mStream
+)
+{
+return
+NS_OK
+;
+}
 nsresult
 rv1
 rv2
