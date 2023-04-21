@@ -784,7 +784,7 @@ sRDDProcessTokenCounter
 ;
 mRDDChild
 =
-MakeUnique
+MakeRefPtr
 <
 RDDChild
 >

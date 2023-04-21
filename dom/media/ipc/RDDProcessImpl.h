@@ -91,8 +91,14 @@ override
 ;
 private
 :
+RefPtr
+<
 RDDParent
+>
 mRDD
+=
+new
+RDDParent
 ;
 #
 if
