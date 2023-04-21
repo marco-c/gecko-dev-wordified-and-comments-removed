@@ -79,6 +79,15 @@ GrDriverBugWorkarounds
 (
 )
 ;
+GrDriverBugWorkarounds
+(
+const
+GrDriverBugWorkarounds
+&
+)
+=
+default
+;
 explicit
 GrDriverBugWorkarounds
 (

@@ -1,17 +1,6 @@
 #
 include
 "
-include
-/
-private
-/
-SkTFitsIn
-.
-h
-"
-#
-include
-"
 src
 /
 utils
@@ -459,7 +448,7 @@ count
 =
 fK32
 .
-count
+size
 (
 )
 ;
@@ -556,9 +545,6 @@ size
 ;
 SkASSERT
 (
-(
-unsigned
-)
 index
 <
 fK32
@@ -604,7 +590,7 @@ count
 =
 fK32
 .
-count
+size
 (
 )
 ;
@@ -686,7 +672,7 @@ i
 <
 fK32
 .
-count
+size
 (
 )
 ;

@@ -22,6 +22,8 @@ include
 /
 private
 /
+base
+/
 SkMutex
 .
 h
@@ -32,6 +34,8 @@ include
 include
 /
 private
+/
+base
 /
 SkNoncopyable
 .

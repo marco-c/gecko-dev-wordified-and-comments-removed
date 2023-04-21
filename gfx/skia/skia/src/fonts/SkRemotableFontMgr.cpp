@@ -16,6 +16,8 @@ include
 /
 private
 /
+base
+/
 SkOnce
 .
 h
@@ -51,6 +53,10 @@ data
 data
 =
 fData
+.
+get
+(
+)
 ;
 }
 SkRemotableFontIdentitySet

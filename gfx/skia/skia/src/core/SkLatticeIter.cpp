@@ -1138,7 +1138,7 @@ j
 <
 fRectTypes
 .
-count
+size
 (
 )
 ;
@@ -1627,7 +1627,7 @@ fCurrY
 (
 fSrcX
 .
-count
+size
 (
 )
 -
@@ -1670,7 +1670,7 @@ x
 <
 fSrcX
 .
-count
+size
 (
 )
 -
@@ -1689,7 +1689,7 @@ y
 <
 fSrcY
 .
-count
+size
 (
 )
 -
@@ -1700,7 +1700,7 @@ if
 (
 fSrcX
 .
-count
+size
 (
 )
 -
@@ -1726,7 +1726,7 @@ if
 (
 fRectTypes
 .
-count
+size
 (
 )
 >
@@ -1831,7 +1831,7 @@ isFixedColor
 =
 fRectTypes
 .
-count
+size
 (
 )
 >
@@ -1925,7 +1925,7 @@ i
 <
 fDstX
 .
-count
+size
 (
 )
 ;
@@ -1978,7 +1978,7 @@ i
 <
 fDstY
 .
-count
+size
 (
 )
 ;

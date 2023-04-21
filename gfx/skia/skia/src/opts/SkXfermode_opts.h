@@ -7,11 +7,11 @@ Sk4pxXfermode_DEFINED
 #
 include
 "
-include
+src
 /
-private
+base
 /
-SkNx
+SkMSAN
 .
 h
 "
@@ -23,17 +23,6 @@ src
 core
 /
 Sk4px
-.
-h
-"
-#
-include
-"
-src
-/
-core
-/
-SkMSAN
 .
 h
 "
@@ -459,6 +448,7 @@ Xfermode
 template
 <
 >
+inline
 Sk4px
 xfer_aa
 <
@@ -519,6 +509,7 @@ void
 template
 <
 >
+inline
 void
 mark_dst_initialized_if_safe
 <
@@ -552,6 +543,7 @@ dst
 template
 <
 >
+inline
 void
 mark_dst_initialized_if_safe
 <

@@ -1,0 +1,16 @@
+#
+ifndef
+SkCPUTypes_DEFINED
+#
+define
+SkCPUTypes_DEFINED
+typedef
+unsigned
+U8CPU
+;
+typedef
+unsigned
+U16CPU
+;
+#
+endif
