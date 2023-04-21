@@ -654,6 +654,15 @@ final
 {
 }
 void
+WebTransportNotified
+(
+bool
+aCreated
+)
+final
+{
+}
+void
 Terminated
 (
 )
