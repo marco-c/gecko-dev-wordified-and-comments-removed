@@ -3816,8 +3816,11 @@ app
 lower
 (
 )
+                        
 in
 NON_FIREFOX_BROWSERS
++
+NON_FIREFOX_BROWSERS_MOBILE
                         
 and
 bt

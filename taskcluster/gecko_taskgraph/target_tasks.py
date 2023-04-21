@@ -4791,6 +4791,8 @@ platform
 :
             
 if
+(
+                
 "
 chrome
 -
@@ -4798,9 +4800,9 @@ m
 "
 in
 try_name
+                
 and
 (
-                
 "
 -
 a51
@@ -4821,6 +4823,23 @@ p5
 "
 in
 platform
+)
+                
+and
+not
+(
+"
+speedometer
+"
+in
+try_name
+or
+"
+essential
+"
+in
+try_name
+)
             
 )
 :
