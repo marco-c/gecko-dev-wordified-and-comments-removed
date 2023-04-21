@@ -38,6 +38,10 @@ GECKO_PATH
 /
 mach
 python
+-
+-
+virtualenv
+build
 (
 dirname
 0

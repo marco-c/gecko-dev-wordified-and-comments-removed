@@ -1244,6 +1244,14 @@ command
 "
 python
 "
+"
+-
+-
+virtualenv
+"
+"
+build
+"
 os
 .
 path
