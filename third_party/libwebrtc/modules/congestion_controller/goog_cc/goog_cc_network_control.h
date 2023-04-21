@@ -517,10 +517,6 @@ bool
 pace_at_max_of_bwe_and_lower_link_capacity_
 ;
 const
-bool
-pace_at_loss_based_bwe_when_loss_
-;
-const
 std
 :
 :
