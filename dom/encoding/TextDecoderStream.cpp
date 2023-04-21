@@ -232,6 +232,7 @@ aGivenProto
 )
 ;
 }
+static
 Span
 <
 const

@@ -6034,16 +6034,6 @@ WEBIDL_FILES
 =
 [
 "
-CompressionStream
-.
-webidl
-"
-"
-DecompressionStream
-.
-webidl
-"
-"
 FileSystemWritableFileStream
 .
 webidl
