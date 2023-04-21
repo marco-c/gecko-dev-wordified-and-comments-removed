@@ -133,12 +133,6 @@ mSource
 mElement
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
-NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
-(
-ScrollTimeline
-AnimationTimeline
-)
-NS_IMPL_CYCLE_COLLECTION_TRACE_END
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED_0
 (
 ScrollTimeline
@@ -203,7 +197,6 @@ RegisterWithScrollSource
 )
 ;
 }
-static
 std
 :
 :
@@ -214,6 +207,9 @@ Element
 *
 PseudoStyleType
 >
+ScrollTimeline
+:
+:
 FindNearestScroller
 (
 Element
