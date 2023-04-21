@@ -81,7 +81,7 @@ hazards
 gather
 -
 -
-application
+project
 =
 js
 4
@@ -96,7 +96,7 @@ hazards
 analyze
 -
 -
-application
+project
 =
 js
 Output
@@ -134,7 +134,7 @@ browser
 use
 -
 -
-application
+project
 =
 browser
 (
@@ -145,7 +145,7 @@ off
 ;
 -
 -
-application
+project
 =
 browser
 is
