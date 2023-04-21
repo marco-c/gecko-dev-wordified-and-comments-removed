@@ -292,7 +292,7 @@ PrepareForInstantiate
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
