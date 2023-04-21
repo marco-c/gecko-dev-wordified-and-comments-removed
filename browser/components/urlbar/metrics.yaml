@@ -129,6 +129,9 @@ urlbar
 :
 abandonment
 :
+disabled
+:
+true
 type
 :
 event
@@ -820,6 +823,9 @@ expires
 never
 engagement
 :
+disabled
+:
+true
 type
 :
 event
@@ -1796,6 +1802,9 @@ expires
 never
 impression
 :
+disabled
+:
+true
 type
 :
 event
