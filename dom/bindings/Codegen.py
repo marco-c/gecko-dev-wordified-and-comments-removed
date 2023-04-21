@@ -43501,10 +43501,10 @@ else
 if
 (
 !
-mozilla
+std
 :
 :
-IsFinite
+isfinite
 (
 {
 readLoc

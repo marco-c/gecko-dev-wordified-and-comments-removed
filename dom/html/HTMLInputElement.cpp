@@ -9195,7 +9195,10 @@ aRv
 {
 if
 (
-IsInfinite
+std
+:
+:
+isinf
 (
 aValueAsNumber
 )

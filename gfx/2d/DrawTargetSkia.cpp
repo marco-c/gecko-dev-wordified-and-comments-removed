@@ -216,6 +216,11 @@ include
 algorithm
 >
 #
+include
+<
+cmath
+>
+#
 ifdef
 MOZ_WIDGET_COCOA
 #
@@ -3219,7 +3224,10 @@ IsFinite
 |
 |
 !
-IsFinite
+std
+:
+:
+isfinite
 (
 pat
 .
@@ -3238,7 +3246,10 @@ IsFinite
 |
 |
 !
-IsFinite
+std
+:
+:
+isfinite
 (
 pat
 .
@@ -3532,7 +3543,10 @@ IsFinite
 |
 |
 !
-IsFinite
+std
+:
+:
+isfinite
 (
 pat
 .

@@ -1150,10 +1150,10 @@ precision
 if
 (
 !
-mozilla
+std
 :
 :
-IsFinite
+isfinite
 (
 value
 )

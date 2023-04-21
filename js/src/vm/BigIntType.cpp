@@ -272,12 +272,6 @@ using
 mozilla
 :
 :
-IsFinite
-;
-using
-mozilla
-:
-:
 Maybe
 ;
 using
@@ -17319,10 +17313,10 @@ GreaterThan
 if
 (
 !
-mozilla
+std
 :
 :
-IsFinite
+isfinite
 (
 y
 )

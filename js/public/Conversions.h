@@ -567,10 +567,10 @@ return
 if
 (
 !
-mozilla
+std
 :
 :
-IsFinite
+isfinite
 (
 d
 )

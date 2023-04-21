@@ -236,6 +236,11 @@ algorithm
 #
 include
 <
+cmath
+>
+#
+include
+<
 limits
 >
 using
@@ -1333,13 +1338,10 @@ NS_IsMainThread
 )
 ;
 return
-mozilla
+std
 :
 :
-IsInfinite
-<
-double
->
+isinf
 (
 mDuration
 )

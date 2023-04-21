@@ -309,12 +309,6 @@ using
 mozilla
 :
 :
-IsFinite
-;
-using
-mozilla
-:
-:
 Maybe
 ;
 using
@@ -3645,7 +3639,10 @@ isDouble
 if
 (
 !
-IsFinite
+std
+:
+:
+isfinite
 (
 v
 .

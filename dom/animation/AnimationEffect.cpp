@@ -986,7 +986,10 @@ mDuration
 }
 if
 (
-IsFinite
+std
+:
+:
+isfinite
 (
 overallProgress
 )
@@ -1061,7 +1064,10 @@ overallProgress
 double
 progress
 =
-IsFinite
+std
+:
+:
+isfinite
 (
 overallProgress
 )
@@ -1370,7 +1376,10 @@ mBeforeFlag
 }
 MOZ_ASSERT
 (
-IsFinite
+std
+:
+:
+isfinite
 (
 progress
 )

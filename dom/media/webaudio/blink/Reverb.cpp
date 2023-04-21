@@ -147,7 +147,10 @@ aLength
 if
 (
 !
-IsFinite
+std
+:
+:
+isfinite
 (
 power
 )

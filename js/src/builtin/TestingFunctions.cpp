@@ -48523,10 +48523,10 @@ false
 if
 (
 !
-mozilla
+std
 :
 :
-IsFinite
+isfinite
 (
 y
 )

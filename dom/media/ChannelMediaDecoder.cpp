@@ -2257,13 +2257,10 @@ GetLength
 ;
 if
 (
-mozilla
+std
 :
 :
-IsFinite
-<
-double
->
+isfinite
 (
 aDuration
 )
