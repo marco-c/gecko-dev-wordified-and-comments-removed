@@ -119,7 +119,7 @@ on
 screen
 instructions
 :
-%
+shell
 .
 /
 mach
@@ -195,7 +195,7 @@ build
 simply
 do
 :
-%
+shell
 .
 /
 mach
@@ -210,7 +210,7 @@ using
 this
 command
 :
-%
+shell
 .
 /
 mach
