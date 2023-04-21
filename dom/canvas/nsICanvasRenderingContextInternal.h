@@ -433,7 +433,16 @@ GetImageBuffer
 (
 int32_t
 *
-format
+out_format
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
+*
+out_imageSize
 )
 =
 0
