@@ -785,7 +785,7 @@ aChannel
 bool
 aStripRequestBodyHeader
 bool
-aStripAuthHeader
+aStripAuth
 )
 const
 ;
@@ -1988,6 +1988,10 @@ OnRedirectVerifyCallback
 (
 nsresult
 result
+bool
+stripAuth
+=
+false
 )
 ;
 nsIEventTarget
