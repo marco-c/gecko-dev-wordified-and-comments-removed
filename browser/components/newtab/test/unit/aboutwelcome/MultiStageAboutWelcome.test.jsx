@@ -119,7 +119,7 @@ const
 DEFAULT_PROPS
 =
 {
-screens
+defaultScreens
 :
 AboutWelcomeDefaults
 .
@@ -527,6 +527,8 @@ const
 PRIMARY_ACTION_PROPS
 =
 {
+defaultScreens
+:
 screens
 metricsFlowUri
 :
@@ -752,6 +754,8 @@ const
 AUTO_ADVANCE_PROPS
 =
 {
+defaultScreens
+:
 screens
 metricsFlowUri
 :
@@ -971,6 +975,8 @@ const
 EASY_SETUP_PROPS
 =
 {
+defaultScreens
+:
 screens
 message_id
 :

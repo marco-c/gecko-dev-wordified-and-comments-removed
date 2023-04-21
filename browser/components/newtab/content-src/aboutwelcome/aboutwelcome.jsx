@@ -508,7 +508,7 @@ props
 .
 messageId
 }
-screens
+defaultScreens
 =
 {
 props
