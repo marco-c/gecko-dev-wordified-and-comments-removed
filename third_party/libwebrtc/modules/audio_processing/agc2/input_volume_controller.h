@@ -144,6 +144,11 @@ target_range_min_dbfs
 -
 48
 ;
+int
+update_input_volume_wait_frames
+=
+100
+;
 }
 ;
 InputVolumeController
@@ -412,6 +417,8 @@ int
 clipped_level_min
 int
 min_mic_level
+int
+update_input_volume_wait_frames
 )
 ;
 ~
@@ -593,8 +600,12 @@ const
 int
 clipped_level_min_
 ;
+const
 int
-frames_since_update_gain_
+update_input_volume_wait_frames_
+;
+int
+frames_since_update_input_volume_
 =
 0
 ;
