@@ -1054,7 +1054,7 @@ MaybeSetPortCompleteOrError
 )
 ;
 bool
-HasCandidateWithAddress
+HasStunCandidateWithAddress
 (
 const
 rtc
