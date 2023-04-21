@@ -2913,7 +2913,7 @@ aVisible
 )
 ;
 nsRect
-GetScrolledRectInternal
+GetUnsnappedScrolledRectInternal
 (
 const
 nsRect
