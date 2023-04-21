@@ -91,6 +91,11 @@ App
 js
 "
 "
+ProjectSearch
+.
+js
+"
+"
 QuickOpenModal
 .
 js
