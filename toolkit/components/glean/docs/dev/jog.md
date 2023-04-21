@@ -458,7 +458,7 @@ build
 (
 by
 checking
-COMPILE_ENVIRONMENT
+MOZ_ARTIFACT_BUILDS
 )
 it
 generates
