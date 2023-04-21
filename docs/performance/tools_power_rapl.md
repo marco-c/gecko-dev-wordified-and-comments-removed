@@ -1002,7 +1002,7 @@ power
 (
 powermetrics
 .
-html
+md
 #
 mach
 -

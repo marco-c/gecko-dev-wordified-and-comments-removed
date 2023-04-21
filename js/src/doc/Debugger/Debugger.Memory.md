@@ -4571,7 +4571,7 @@ Debugger
 .
 Object
 .
-html
+md
 #
 allocationsite
 [
@@ -4624,6 +4624,6 @@ timestamps
 /
 Conventions
 .
-html
+md
 #
 timestamps

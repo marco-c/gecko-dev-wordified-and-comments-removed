@@ -614,7 +614,7 @@ size
 (
 dominators
 .
-html
+md
 #
 shallow_and_retained_size
 )
@@ -704,10 +704,9 @@ paths
 panel
 ]
 (
-/
 dominators_view
 .
-html
+md
 #
 retaining_paths_panel
 )

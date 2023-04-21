@@ -1845,7 +1845,7 @@ browser_console
 /
 index
 .
-html
+rst
 #
 browser_console_command_line
 )

@@ -223,7 +223,7 @@ tool
 (
 basic_operations
 .
-html
+md
 #
 opening
 -
@@ -243,7 +243,7 @@ snapshot
 (
 basic_operations
 .
-html
+md
 #
 saving
 -
@@ -262,7 +262,7 @@ snapshots
 (
 basic_operations
 .
-html
+md
 #
 comparing
 -
@@ -276,7 +276,7 @@ snapshots
 (
 basic_operations
 .
-html
+md
 #
 clearing
 -
@@ -294,7 +294,7 @@ snapshots
 (
 basic_operations
 .
-html
+md
 #
 saving
 -
@@ -313,7 +313,7 @@ stacks
 (
 basic_operations
 .
-html
+md
 #
 recording
 -

@@ -4315,7 +4315,7 @@ code
 :
 Conventions
 .
-html
+md
 #
 debuggee
 -
@@ -4341,7 +4341,7 @@ cv
 :
 Conventions
 .
-html
+md
 #
 completion
 -
@@ -4370,7 +4370,7 @@ rv
 :
 Conventions
 .
-html
+md
 #
 resumption
 -

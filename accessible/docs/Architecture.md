@@ -25,12 +25,9 @@ Lifecycle
 page
 ]
 (
-/
-accessible
-/
 DocumentAccessibilityLifecycle
 .
-html
+md
 #
 docaccessible
 -

@@ -15,7 +15,7 @@ file
 (
 index
 .
-html
+md
 #
 adding
 -
@@ -282,7 +282,7 @@ withNewTab
 (
 browsertestutils
 .
-html
+rst
 #
 BrowserTestUtils
 .
@@ -742,7 +742,7 @@ TestUtils
 /
 testutils
 .
-html
+rst
 #
 TestUtils
 .
@@ -771,7 +771,7 @@ BrowserTestUtils
 (
 browsertestutils
 .
-html
+rst
 #
 BrowserTestUtils
 .
@@ -810,7 +810,7 @@ waitForMutationCondition
 (
 browsertestutils
 .
-html
+rst
 #
 BrowserTestUtils
 .

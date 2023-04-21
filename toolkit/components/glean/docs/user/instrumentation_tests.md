@@ -1537,7 +1537,7 @@ code
 /
 index
 .
-html
+md
 #
 gtests
 )

@@ -178,7 +178,7 @@ xpcshell
 /
 index
 .
-md
+rst
 )
 are
 probably

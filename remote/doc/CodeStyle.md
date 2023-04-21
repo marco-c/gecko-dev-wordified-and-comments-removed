@@ -572,13 +572,15 @@ linting
 ]
 :
 /
-tools
+code
+-
+quality
 /
 lint
 /
 usage
 .
-html
+rst
 #
 using
 -

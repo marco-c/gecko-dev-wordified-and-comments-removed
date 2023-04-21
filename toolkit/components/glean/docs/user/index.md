@@ -30,8 +30,6 @@ Getting
 Started
 ]
 (
-.
-/
 getting_started
 .
 md
@@ -71,6 +69,8 @@ Glean
 ]
 (
 migration
+.
+md
 )
 .
 {

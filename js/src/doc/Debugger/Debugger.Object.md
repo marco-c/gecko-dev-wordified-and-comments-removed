@@ -6572,7 +6572,7 @@ Debugger
 .
 Memory
 .
-html
+md
 #
 trackingallocationsites
 [
@@ -6584,7 +6584,7 @@ Debugger
 .
 Frame
 .
-html
+md
 #
 invocation
 -
@@ -6601,7 +6601,7 @@ wouldrun
 :
 Conventions
 .
-html
+md
 #
 the
 -
@@ -6616,7 +6616,7 @@ cv
 :
 Conventions
 .
-html
+md
 #
 completion
 -
@@ -6630,7 +6630,7 @@ Debugger
 .
 Frame
 .
-html
+md
 #
 eval
 -

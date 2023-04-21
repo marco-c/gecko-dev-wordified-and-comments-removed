@@ -718,6 +718,8 @@ documentation
 ]
 (
 testing
+.
+md
 )
 for
 more

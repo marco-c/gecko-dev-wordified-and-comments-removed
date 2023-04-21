@@ -1671,7 +1671,7 @@ eslint
 ]
 and
 [
-flake8
+ruff
 ]
 .
 To
@@ -1884,7 +1884,7 @@ eslint
 .
 rst
 [
-flake8
+ruff
 ]
 :
 /
@@ -1896,7 +1896,7 @@ lint
 /
 linters
 /
-flake8
+ruff
 .
 rst
 [
@@ -1914,7 +1914,7 @@ lint
 /
 usage
 .
-html
+rst
 #
 using
 -

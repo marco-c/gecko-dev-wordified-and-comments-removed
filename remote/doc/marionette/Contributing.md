@@ -471,8 +471,6 @@ ask
 questions
 ]
 :
-.
-/
 index
 .
 rst

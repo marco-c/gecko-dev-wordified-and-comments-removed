@@ -655,8 +655,6 @@ tests
 .
 md
 #
-e10s
--
 electrolysis
 )
 (
@@ -808,7 +806,7 @@ adding
 -
 files
 .
-html
+md
 #
 localization
 -

@@ -381,7 +381,7 @@ list
 (
 index
 .
-html
+rst
 #
 communication
 )

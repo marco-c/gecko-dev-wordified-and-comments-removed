@@ -287,7 +287,7 @@ isFxAEnabled
 ]
 (
 #
-isFxAEnabled
+isfxaenabled
 )
 *
 [
@@ -295,7 +295,7 @@ isFxASignedIn
 ]
 (
 #
-isFxASignedIn
+isfxasignedin
 )
 *
 [
@@ -319,7 +319,7 @@ xpinstallEnabled
 ]
 (
 #
-xpinstallEnabled
+xpinstallenabled
 )
 *
 [
@@ -511,7 +511,7 @@ userPrefersReducedMotion
 ]
 (
 #
-userPrefersReducedMotion
+userprefersreducedmotion
 )
 *
 [
@@ -519,7 +519,7 @@ colorwaysActive
 ]
 (
 #
-colorwaysActive
+colorwaysactive
 )
 *
 [
@@ -527,7 +527,7 @@ userEnabledActiveColorway
 ]
 (
 #
-userEnabledActiveColorway
+userenabledactivecolorway
 )
 *
 [
@@ -535,7 +535,7 @@ inMr2022Holdback
 ]
 (
 #
-inMr2022Holdback
+inmr2022holdback
 )
 *
 [
@@ -543,7 +543,7 @@ distributionId
 ]
 (
 #
-distributionId
+distributionid
 )
 *
 [
@@ -551,7 +551,7 @@ fxViewButtonAreaType
 ]
 (
 #
-fxViewButtonAreaType
+fxviewbuttonareatype
 )
 #
 #
