@@ -45321,6 +45321,7 @@ SingleObjectPolicy
 :
 Data
 {
+const
 MDefinition
 *
 receiverObject_
@@ -45331,6 +45332,7 @@ MConstantProto
 MDefinition
 *
 protoObject
+const
 MDefinition
 *
 receiverObject
@@ -45492,11 +45494,6 @@ nullptr
 }
 return
 receiverObject_
--
->
-skipObjectGuards
-(
-)
 ;
 }
 }

@@ -8216,6 +8216,11 @@ alloc
 )
 ins
 receiverObj
+-
+>
+skipObjectGuards
+(
+)
 )
 ;
 add
