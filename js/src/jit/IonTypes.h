@@ -215,6 +215,7 @@ uint8_t
 {
 Unknown
 TranspiledCacheIR
+MonomorphicInlinedStubFolding
 SpeculativePhi
 TypePolicy
 LICM
@@ -271,6 +272,17 @@ TranspiledCacheIR
 return
 "
 TranspiledCacheIR
+"
+;
+case
+BailoutKind
+:
+:
+MonomorphicInlinedStubFolding
+:
+return
+"
+MonomorphicInlinedStubFolding
 "
 ;
 case
