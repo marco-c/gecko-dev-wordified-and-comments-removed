@@ -260,6 +260,11 @@ TestMediaSpan
 cpp
 "
 "
+TestMediaUtils
+.
+cpp
+"
+"
 TestMP3Demuxer
 .
 cpp
