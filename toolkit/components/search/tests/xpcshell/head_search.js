@@ -253,15 +253,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-this
-{
 sinon
 :
 "
@@ -275,7 +266,9 @@ common
 /
 Sinon
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

@@ -86,7 +86,9 @@ js
 "
 Sinon
 .
-jsm
+sys
+.
+mjs
 "
 "
 StructuredLog

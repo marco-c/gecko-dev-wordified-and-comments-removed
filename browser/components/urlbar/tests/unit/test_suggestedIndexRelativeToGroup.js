@@ -9,9 +9,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -28,7 +28,9 @@ common
 /
 Sinon
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

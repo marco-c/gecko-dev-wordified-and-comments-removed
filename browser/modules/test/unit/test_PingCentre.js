@@ -112,7 +112,7 @@ sinon
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -125,7 +125,9 @@ common
 /
 Sinon
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
