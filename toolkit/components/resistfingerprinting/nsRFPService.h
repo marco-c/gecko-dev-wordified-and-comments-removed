@@ -536,7 +536,10 @@ name
 =
 val
 enum
+class
 RFPTarget
+:
+unsigned
 {
 #
 include
