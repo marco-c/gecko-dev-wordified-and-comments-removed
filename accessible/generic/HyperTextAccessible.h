@@ -596,17 +596,6 @@ aSelectionNum
 override
 ;
 void
-ScrollSubstringTo
-(
-int32_t
-aStartOffset
-int32_t
-aEndOffset
-uint32_t
-aScrollType
-)
-;
-void
 ScrollSubstringToPoint
 (
 int32_t

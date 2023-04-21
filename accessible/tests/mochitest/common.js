@@ -309,6 +309,13 @@ nsIAccessibleStates
 STATE_BUSY
 ;
 const
+SCROLL_TYPE_TOP_EDGE
+=
+nsIAccessibleScrollType
+.
+SCROLL_TYPE_TOP_EDGE
+;
+const
 SCROLL_TYPE_ANYWHERE
 =
 nsIAccessibleScrollType

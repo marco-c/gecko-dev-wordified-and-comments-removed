@@ -453,14 +453,6 @@ Accessible
 aContainer
 )
 ;
-void
-ScrollIntoView
-(
-uint32_t
-aScrollType
-)
-const
-;
 bool
 AssignDOMRange
 (
