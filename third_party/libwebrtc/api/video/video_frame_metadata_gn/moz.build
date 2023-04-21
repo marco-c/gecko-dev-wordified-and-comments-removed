@@ -937,6 +937,14 @@ __STD_C
 ]
 =
 True
+OS_LIBS
++
+=
+[
+"
+winmm
+"
+]
 if
 CONFIG
 [
