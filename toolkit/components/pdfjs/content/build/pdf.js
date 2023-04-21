@@ -6598,7 +6598,7 @@ apiVersion
 .
 6
 .
-25
+35
 '
 data
 password
@@ -16508,7 +16508,7 @@ version
 .
 6
 .
-25
+35
 '
 ;
 exports
@@ -16521,7 +16521,7 @@ const
 build
 =
 '
-a43151103
+342dc760d
 '
 ;
 exports
@@ -90397,14 +90397,14 @@ pdfjsVersion
 .
 6
 .
-25
+35
 '
 ;
 const
 pdfjsBuild
 =
 '
-a43151103
+342dc760d
 '
 ;
 }
