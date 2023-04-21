@@ -20,6 +20,8 @@ Optional
                     
 Sequence
                     
+Set
+                    
 Type
                     
 TypeVar
@@ -2125,7 +2127,7 @@ seen_names
 MutableMapping
 [
 str
-set
+Set
 [
 str
 ]
