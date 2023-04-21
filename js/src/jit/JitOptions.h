@@ -240,6 +240,9 @@ bool
 onlyInlineSelfHosted
 ;
 bool
+enableICFramePointers
+;
+bool
 enableWasmJitExit
 ;
 bool
