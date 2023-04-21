@@ -67,7 +67,6 @@ enableLogging
 }
 ;
 [
-ManualDealloc
 NeedsOtherPid
 NestedUpTo
 =
