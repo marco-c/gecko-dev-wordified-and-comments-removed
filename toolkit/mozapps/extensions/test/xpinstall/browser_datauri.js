@@ -131,6 +131,14 @@ set
 [
 [
 "
+network
+.
+allow_redirect_to_data
+"
+true
+]
+[
+"
 security
 .
 data_uri
