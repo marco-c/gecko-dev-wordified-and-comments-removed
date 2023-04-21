@@ -314,6 +314,10 @@ mLineNo
 (
 1
 )
+mColumnNo
+(
+0
+)
 mIsPreload
 (
 false
