@@ -193,10 +193,9 @@ true
 *
 *
 *
-return
+returns
 {
 Object
-.
 <
 string
 string
@@ -265,7 +264,6 @@ type
 param
 {
 Object
-.
 <
 string
 string
@@ -278,7 +276,7 @@ object
 .
 *
 *
-return
+returns
 {
 Error
 }

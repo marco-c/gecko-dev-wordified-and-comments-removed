@@ -805,7 +805,7 @@ source
 id
 .
 *
-return
+returns
 {
 InputSource
 }
@@ -960,7 +960,7 @@ pointer
 )
 .
 *
-return
+returns
 {
 Iterator
 }
@@ -1083,7 +1083,7 @@ Pointer
 type
 .
 *
-return
+returns
 {
 number
 }
@@ -1337,7 +1337,7 @@ source
 .
 *
 *
-return
+returns
 {
 InputSource
 }
@@ -1819,7 +1819,7 @@ value
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -1883,7 +1883,7 @@ value
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -1947,7 +1947,7 @@ value
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -2105,7 +2105,7 @@ button
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -2183,7 +2183,7 @@ button
 .
 *
 *
-return
+returns
 {
 Set
 }
@@ -2254,7 +2254,7 @@ button
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -2686,7 +2686,7 @@ undefined
 .
 *
 *
-return
+returns
 {
 Origin
 }
@@ -3262,7 +3262,7 @@ window
 global
 .
 *
-return
+returns
 {
 Promise
 }
@@ -3336,7 +3336,7 @@ id
 *
 param
 {
-Object
+object
 }
 actionItem
 -
@@ -3348,7 +3348,7 @@ action
 .
 *
 *
-return
+returns
 {
 Action
 }
@@ -3590,7 +3590,7 @@ ID
 *
 param
 {
-Object
+object
 }
 options
 -
@@ -3714,7 +3714,7 @@ window
 global
 .
 *
-return
+returns
 {
 Promise
 }
@@ -3871,7 +3871,7 @@ ID
 *
 param
 {
-Object
+object
 }
 options
 -
@@ -4485,7 +4485,7 @@ ID
 *
 param
 {
-Object
+object
 }
 options
 -
@@ -4731,7 +4731,7 @@ types
 *
 param
 {
-Object
+object
 }
 actionItem
 -
@@ -5200,7 +5200,7 @@ ID
 *
 param
 {
-Object
+object
 }
 options
 -
@@ -5630,7 +5630,7 @@ ID
 *
 param
 {
-Object
+object
 }
 options
 -
@@ -6033,7 +6033,7 @@ ID
 *
 param
 {
-Object
+object
 }
 options
 -
@@ -6462,7 +6462,7 @@ Array
 <
 Array
 <
-Number
+number
 >
 >
 }
@@ -7899,7 +7899,7 @@ window
 global
 .
 *
-return
+returns
 {
 Promise
 }
@@ -10315,7 +10315,7 @@ Pointer
 type
 .
 *
-return
+returns
 {
 Pointer
 }
@@ -10897,7 +10897,7 @@ window
 global
 .
 *
-return
+returns
 {
 Promise
 }
@@ -10994,7 +10994,7 @@ param
 Array
 .
 <
-Object
+object
 >
 }
 actions
@@ -11011,7 +11011,7 @@ action
 sequence
 .
 *
-return
+returns
 {
 action
 .
@@ -11208,7 +11208,7 @@ milliseconds
 .
 *
 *
-return
+returns
 {
 number
 }
@@ -11389,7 +11389,7 @@ global
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -11515,7 +11515,7 @@ Actions
 state
 .
 *
-return
+returns
 {
 Array
 .
@@ -11846,7 +11846,7 @@ state
 *
 param
 {
-Object
+object
 }
 actionSequence
 *
@@ -11862,7 +11862,7 @@ input
 source
 .
 *
-return
+returns
 {
 Array
 .
@@ -12575,7 +12575,7 @@ event
 *
 param
 {
-Object
+object
 }
 options
 -

@@ -544,7 +544,6 @@ object
 containing
 :
 *
-*
 actor
 :
 Name
@@ -555,7 +554,6 @@ will
 receive
 the
 packet
-*
 *
 type
 :
@@ -572,7 +570,6 @@ called
 on
 receipt
 *
-*
 length
 :
 Size
@@ -582,7 +579,6 @@ data
 to
 be
 read
-*
 *
 stream
 :
@@ -619,7 +615,6 @@ when
 reading
 is
 complete
-*
 *
 done
 :
@@ -701,7 +696,6 @@ copying
 completes
 .
 *
-*
 copyTo
 :
 A
@@ -746,7 +740,7 @@ to
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -1204,7 +1198,7 @@ instead
 *
 param
 {
-Object
+object
 }
 header
 *
@@ -1277,7 +1271,7 @@ be
 sent
 *
 *
-return
+returns
 {
 Promise
 }
@@ -1470,7 +1464,7 @@ from
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -2612,7 +2606,7 @@ below
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -2972,7 +2966,7 @@ characters
 .
 *
 *
-return
+returns
 {
 boolean
 }

@@ -478,7 +478,7 @@ stream
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -594,7 +594,7 @@ retrieve
 .
 *
 *
-return
+returns
 {
 Stream
 }
@@ -670,7 +670,7 @@ remove
 .
 *
 *
-return
+returns
 {
 boolean
 }

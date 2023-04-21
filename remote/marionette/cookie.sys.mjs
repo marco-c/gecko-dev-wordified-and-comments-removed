@@ -208,7 +208,7 @@ name
 Cookie
 *
 *
-return
+returns
 {
 Object
 .
@@ -269,7 +269,6 @@ valid
 param
 {
 Object
-.
 <
 string
 (
@@ -345,7 +344,7 @@ integer
 .
 *
 *
-return
+returns
 {
 Cookie
 }
@@ -1574,7 +1573,7 @@ included
 .
 *
 *
-return
+returns
 {
 Iterable
 .

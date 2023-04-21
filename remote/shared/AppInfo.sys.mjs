@@ -148,7 +148,7 @@ AppInfo
 *
 property
 {
-Boolean
+boolean
 }
 isAndroid
 -
@@ -162,7 +162,7 @@ Android
 *
 property
 {
-Boolean
+boolean
 }
 isLinux
 -
@@ -176,7 +176,7 @@ Linux
 *
 property
 {
-Boolean
+boolean
 }
 isMac
 -
@@ -191,7 +191,7 @@ OS
 *
 property
 {
-Boolean
+boolean
 }
 isWindows
 -
@@ -205,7 +205,7 @@ Windows
 *
 property
 {
-Boolean
+boolean
 }
 isFirefox
 -
@@ -218,7 +218,7 @@ Firefox
 *
 property
 {
-Boolean
+boolean
 }
 isThunderbird
 -

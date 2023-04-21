@@ -170,7 +170,7 @@ objects
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -307,7 +307,7 @@ false
 .
 *
 *
-return
+returns
 {
 DOM
 .
@@ -1293,7 +1293,7 @@ BackendNodeId
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1386,7 +1386,7 @@ objects
 .
 *
 *
-return
+returns
 {
 Runtime
 .

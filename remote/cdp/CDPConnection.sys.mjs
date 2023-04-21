@@ -496,7 +496,7 @@ client
 *
 param
 {
-Number
+number
 }
 id
 *
@@ -528,7 +528,7 @@ attributes
 *
 param
 {
-String
+string
 =
 }
 sessionId
@@ -611,7 +611,7 @@ client
 *
 param
 {
-String
+string
 }
 method
 *
@@ -646,7 +646,7 @@ targetCreated
 *
 param
 {
-Object
+object
 }
 params
 *
@@ -666,7 +666,7 @@ event
 *
 param
 {
-String
+string
 =
 }
 sessionId
@@ -885,7 +885,7 @@ Session
 *
 param
 {
-String
+string
 }
 sessionId
 *
@@ -904,7 +904,7 @@ command
 *
 param
 {
-String
+string
 }
 message
 *
@@ -1123,7 +1123,7 @@ client
 *
 param
 {
-Number
+number
 }
 id
 *
@@ -1146,7 +1146,7 @@ method
 *
 param
 {
-Object
+object
 }
 result
 *
@@ -1164,7 +1164,7 @@ result
 *
 param
 {
-String
+string
 =
 }
 sessionId
@@ -1465,7 +1465,7 @@ Domain
 *
 param
 {
-Object
+object
 }
 packet
 *
@@ -1857,7 +1857,7 @@ components
 *
 param
 {
-String
+string
 }
 method
 *
@@ -1883,8 +1883,8 @@ returns
 {
 Object
 <
-String
-String
+string
+string
 >
 }
 *

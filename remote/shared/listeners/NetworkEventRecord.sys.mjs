@@ -193,7 +193,7 @@ wrappedChannel
 *
 param
 {
-Object
+object
 }
 networkEvent
 *
@@ -592,7 +592,7 @@ owner
 *
 param
 {
-Object
+object
 }
 postData
 *
@@ -887,7 +887,7 @@ RemoteAgent
 *
 param
 {
-Object
+object
 }
 info
 *
@@ -969,7 +969,7 @@ request
 *
 param
 {
-Object
+object
 }
 timings
 *
@@ -982,7 +982,7 @@ timings
 *
 param
 {
-Object
+object
 }
 offsets
 *
@@ -1051,7 +1051,7 @@ RemoteAgent
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1094,7 +1094,7 @@ owner
 *
 param
 {
-Object
+object
 }
 response
 *
@@ -1109,7 +1109,7 @@ content
 *
 param
 {
-Object
+object
 }
 responseInfo
 *

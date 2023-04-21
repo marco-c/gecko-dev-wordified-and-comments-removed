@@ -1532,7 +1532,6 @@ pre
 param
 {
 Object
-.
 <
 string
 *

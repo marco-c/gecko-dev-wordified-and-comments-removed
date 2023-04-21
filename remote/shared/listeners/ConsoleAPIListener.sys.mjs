@@ -253,7 +253,7 @@ data
 *
 *
 *
-emits
+fires
 message
 *
 The
@@ -370,7 +370,7 @@ instance
 *
 param
 {
-Number
+number
 }
 innerWindowId
 *

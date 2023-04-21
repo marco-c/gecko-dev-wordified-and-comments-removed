@@ -282,7 +282,7 @@ collections
 *
 param
 {
-Object
+object
 }
 value
 *
@@ -327,9 +327,9 @@ properties
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 *
 The
@@ -676,7 +676,7 @@ thrown
 *
 param
 {
-Object
+object
 }
 value
 *
@@ -705,9 +705,9 @@ references
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 *
 Same
@@ -1253,7 +1253,7 @@ object
 *
 param
 {
-Object
+object
 }
 value
 *
@@ -1290,9 +1290,9 @@ window
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 *
 Same

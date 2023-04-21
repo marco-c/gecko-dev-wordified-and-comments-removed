@@ -363,7 +363,7 @@ MessageHandler
 .
 js
 *
-return
+returns
 {
 Promise
 }
@@ -1031,13 +1031,13 @@ options
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-String
+string
 =
 }
 options
@@ -1060,7 +1060,7 @@ optional
 )
 .
 *
-return
+returns
 {
 Array
 <

@@ -534,7 +534,7 @@ script
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -1166,7 +1166,7 @@ object
 *
 param
 {
-Object
+object
 }
 obj
 *
@@ -1409,7 +1409,7 @@ augment
 *
 param
 {
-Object
+object
 }
 adapter
 *
@@ -1432,7 +1432,7 @@ references
 .
 *
 *
-return
+returns
 {
 Sandbox
 }
@@ -1571,7 +1571,7 @@ permissions
 .
 *
 *
-return
+returns
 {
 Sandbox
 }
@@ -1685,7 +1685,7 @@ object
 .
 *
 *
-return
+returns
 {
 Sandbox
 }
@@ -2046,7 +2046,7 @@ exists
 .
 *
 *
-return
+returns
 {
 Sandbox
 }

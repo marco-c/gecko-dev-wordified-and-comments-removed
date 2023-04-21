@@ -423,7 +423,7 @@ for
 errorness
 .
 *
-return
+returns
 {
 boolean
 }
@@ -556,7 +556,7 @@ test
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -719,7 +719,7 @@ WebDriverError
 .
 *
 *
-return
+returns
 {
 WebDriverError
 }
@@ -1132,10 +1132,9 @@ stack
 *
 *
 *
-return
+returns
 {
 Object
-.
 <
 string
 string
@@ -1204,7 +1203,6 @@ type
 param
 {
 Object
-.
 <
 string
 string
@@ -1217,7 +1215,7 @@ object
 .
 *
 *
-return
+returns
 {
 Error
 }

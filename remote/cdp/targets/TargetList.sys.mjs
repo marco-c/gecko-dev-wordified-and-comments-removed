@@ -770,7 +770,7 @@ Target
 id
 *
 *
-return
+returns
 {
 Target
 }

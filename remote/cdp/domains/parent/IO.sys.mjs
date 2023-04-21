@@ -156,7 +156,7 @@ storage
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -240,7 +240,7 @@ stream
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -330,7 +330,7 @@ specified
 .
 *
 *
-return
+returns
 {
 string
 boolean

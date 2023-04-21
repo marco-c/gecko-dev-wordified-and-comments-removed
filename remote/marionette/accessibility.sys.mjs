@@ -564,7 +564,7 @@ wait
 for
 .
 *
-return
+returns
 {
 Promise
 }
@@ -786,7 +786,7 @@ accessible
 .
 *
 *
-return
+returns
 {
 nsIAccessible
 |
@@ -1064,7 +1064,7 @@ this
 .
 *
 *
-return
+returns
 {
 Promise
 .
@@ -1178,7 +1178,7 @@ object
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -1254,7 +1254,7 @@ object
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -1314,7 +1314,7 @@ object
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -1391,7 +1391,7 @@ object
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -1519,7 +1519,7 @@ match
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -1598,7 +1598,7 @@ object
 .
 *
 *
-return
+returns
 {
 boolean
 }

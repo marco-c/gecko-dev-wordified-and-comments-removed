@@ -157,7 +157,7 @@ exist
 .
 *
 *
-return
+returns
 {
 (
 string
@@ -638,7 +638,7 @@ Toolbox
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -685,7 +685,7 @@ on
 .
 *
 *
-return
+returns
 {
 number
 }
@@ -751,7 +751,7 @@ API
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -851,7 +851,7 @@ variable
 .
 *
 *
-return
+returns
 {
 Iterable
 .

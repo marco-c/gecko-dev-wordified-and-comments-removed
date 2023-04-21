@@ -248,7 +248,7 @@ data
 *
 *
 *
-emits
+fires
 before
 -
 request

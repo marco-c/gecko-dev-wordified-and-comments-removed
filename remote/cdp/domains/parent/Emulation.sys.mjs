@@ -236,7 +236,7 @@ results
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -673,7 +673,7 @@ them
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -819,7 +819,7 @@ string
 *
 param
 {
-Object
+object
 }
 options
 *

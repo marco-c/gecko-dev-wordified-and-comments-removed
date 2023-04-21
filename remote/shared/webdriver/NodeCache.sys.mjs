@@ -62,7 +62,7 @@ MPL
 *
 typedef
 {
-Object
+object
 }
 NodeReferenceDetails
 *
@@ -280,7 +280,7 @@ added
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -531,7 +531,7 @@ nodes
 *
 param
 {
-Object
+object
 =
 }
 options
@@ -765,7 +765,7 @@ node
 .
 *
 *
-return
+returns
 {
 Node
 |

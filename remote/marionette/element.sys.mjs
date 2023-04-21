@@ -550,7 +550,6 @@ var
 param
 {
 Object
-.
 <
 string
 WindowProxy
@@ -612,7 +611,7 @@ var
 *
 param
 {
-Object
+object
 =
 }
 options
@@ -720,7 +719,7 @@ duration
 .
 *
 *
-return
+returns
 {
 Promise
 .
@@ -1221,7 +1220,7 @@ expression
 .
 *
 *
-return
+returns
 {
 Node
 }
@@ -1322,7 +1321,7 @@ expression
 .
 *
 *
-return
+returns
 {
 Iterable
 .
@@ -1463,7 +1462,7 @@ for
 .
 *
 *
-return
+returns
 {
 Iterable
 .
@@ -1590,7 +1589,7 @@ for
 .
 *
 *
-return
+returns
 {
 Iterable
 .
@@ -1730,7 +1729,7 @@ away
 .
 *
 *
-return
+returns
 {
 Iterable
 .
@@ -1855,7 +1854,7 @@ searching
 .
 *
 *
-return
+returns
 {
 Element
 }
@@ -2310,7 +2309,7 @@ searching
 .
 *
 *
-return
+returns
 {
 Array
 .
@@ -2725,7 +2724,7 @@ expression
 .
 *
 *
-return
+returns
 {
 Node
 =
@@ -3525,7 +3524,7 @@ collection
 *
 param
 {
-Object
+object
 }
 seq
 *
@@ -3535,7 +3534,7 @@ determine
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -3725,7 +3724,7 @@ state
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -4065,7 +4064,7 @@ staleness
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -4236,7 +4235,7 @@ selected
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -4467,7 +4466,7 @@ only
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -4583,7 +4582,7 @@ disabledness
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -4810,7 +4809,7 @@ test
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -5064,7 +5063,7 @@ host
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -5312,7 +5311,7 @@ editable
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -5502,10 +5501,9 @@ box
 .
 *
 *
-return
+returns
 {
 Object
-.
 <
 string
 number
@@ -5766,7 +5764,7 @@ box
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -6072,7 +6070,7 @@ of
 .
 *
 *
-return
+returns
 {
 Element
 }
@@ -6333,7 +6331,7 @@ view
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -6514,7 +6512,7 @@ braces
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -6653,7 +6651,7 @@ box
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -6869,7 +6867,7 @@ interactable
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -7143,7 +7141,7 @@ global
 .
 *
 *
-return
+returns
 {
 Map
 .
@@ -7439,7 +7437,7 @@ interactable
 .
 *
 *
-return
+returns
 {
 Array
 .
@@ -7703,7 +7701,7 @@ element
 *
 param
 {
-Object
+object
 }
 obj
 *
@@ -7733,7 +7731,7 @@ code
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -7991,7 +7989,7 @@ element
 *
 param
 {
-Object
+object
 }
 obj
 *
@@ -8001,7 +7999,7 @@ check
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -8079,7 +8077,7 @@ element
 *
 param
 {
-Object
+object
 }
 obj
 *
@@ -8089,7 +8087,7 @@ check
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -8178,7 +8176,7 @@ check
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -8255,7 +8253,7 @@ code
 *
 param
 {
-Object
+object
 }
 obj
 *
@@ -8265,7 +8263,7 @@ check
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -8670,7 +8668,7 @@ attribute
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -8942,7 +8940,7 @@ this
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -9109,7 +9107,7 @@ created
 .
 *
 *
-return
+returns
 {
 WebReference
 )
@@ -9376,7 +9374,6 @@ WebWindow
 param
 {
 Object
-.
 <
 string
 string
@@ -9415,7 +9412,7 @@ identifiers
 .
 *
 *
-return
+returns
 {
 WebReference
 }
@@ -9602,7 +9599,6 @@ reference
 param
 {
 Object
-.
 <
 string
 string
@@ -9621,7 +9617,7 @@ WebReference
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -9909,7 +9905,7 @@ reference
 .
 *
 *
-return
+returns
 {
 WebElement
 }
@@ -10165,7 +10161,7 @@ reference
 .
 *
 *
-return
+returns
 {
 ShadowRoot
 }

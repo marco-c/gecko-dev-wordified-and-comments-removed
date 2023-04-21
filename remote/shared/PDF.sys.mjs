@@ -948,7 +948,7 @@ pages
 .
 *
 *
-return
+returns
 {
 Array
 .

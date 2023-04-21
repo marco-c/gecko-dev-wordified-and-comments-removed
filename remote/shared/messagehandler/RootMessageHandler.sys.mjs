@@ -255,9 +255,9 @@ path
 .
 *
 *
-return
+returns
 {
-String
+string
 }
 *
 /
@@ -284,9 +284,9 @@ type
 .
 *
 *
-return
+returns
 {
-String
+string
 }
 *
 /
@@ -361,7 +361,7 @@ instance
 *
 param
 {
-String
+string
 }
 sessionId
 *
@@ -546,7 +546,7 @@ client
 *
 param
 {
-String
+string
 }
 name
 *
@@ -577,7 +577,7 @@ name
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -657,7 +657,7 @@ MessageHandler
 .
 js
 *
-return
+returns
 {
 Promise
 }

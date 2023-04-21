@@ -598,7 +598,7 @@ message
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -735,7 +735,7 @@ message
 .
 *
 *
-return
+returns
 {
 CanonicalBrowsingContext
 }
@@ -1005,7 +1005,7 @@ message
 .
 *
 *
-return
+returns
 {
 ?
 }
@@ -1141,7 +1141,7 @@ message
 .
 *
 *
-return
+returns
 {
 number
 }
@@ -1272,7 +1272,7 @@ message
 .
 *
 *
-return
+returns
 {
 number
 }
@@ -1453,7 +1453,7 @@ message
 .
 *
 *
-return
+returns
 {
 number
 }
@@ -1622,7 +1622,7 @@ message
 .
 *
 *
-return
+returns
 {
 Function
 }
@@ -1758,7 +1758,7 @@ message
 .
 *
 *
-return
+returns
 {
 number
 }
@@ -1902,7 +1902,7 @@ message
 .
 *
 *
-return
+returns
 {
 number
 }
@@ -2033,7 +2033,7 @@ message
 .
 *
 *
-return
+returns
 {
 number
 }
@@ -2214,7 +2214,7 @@ message
 .
 *
 *
-return
+returns
 {
 number
 }
@@ -2384,7 +2384,7 @@ message
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -2520,7 +2520,7 @@ message
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -2657,9 +2657,9 @@ message
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 *
 obj
@@ -2876,7 +2876,7 @@ message
 .
 *
 *
-return
+returns
 {
 ?
 }
@@ -3125,9 +3125,9 @@ message
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 *
 <
@@ -3312,7 +3312,7 @@ class
 .
 *
 *
-return
+returns
 {
 function
 (

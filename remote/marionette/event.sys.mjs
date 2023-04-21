@@ -596,7 +596,7 @@ pixels
 *
 param
 {
-Object
+object
 }
 opts
 *
@@ -646,7 +646,7 @@ object
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -754,7 +754,7 @@ pixels
 *
 param
 {
-Object
+object
 }
 opts
 *
@@ -812,7 +812,7 @@ object
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -892,7 +892,7 @@ pixels
 *
 param
 {
-Object
+object
 }
 opts
 *
@@ -1078,7 +1078,7 @@ key
 *
 param
 {
-Object
+object
 }
 key
 *
@@ -1142,7 +1142,7 @@ key
 *
 param
 {
-Object
+object
 }
 key
 *
@@ -1206,7 +1206,7 @@ key
 *
 param
 {
-Object
+object
 }
 key
 *

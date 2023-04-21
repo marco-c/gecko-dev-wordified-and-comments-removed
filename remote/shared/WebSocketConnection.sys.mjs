@@ -534,7 +534,7 @@ client
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -814,7 +814,7 @@ class
 *
 param
 {
-Object
+object
 }
 packet
 *

@@ -882,7 +882,7 @@ handled
 *
 param
 {
-String
+string
 }
 moduleName
 *
@@ -903,7 +903,7 @@ The
 destination
 .
 *
-return
+returns
 {
 Array
 .
@@ -1123,7 +1123,7 @@ calls
 *
 param
 {
-String
+string
 }
 moduleName
 *
@@ -1170,9 +1170,9 @@ CommandDestination
 typedef
 .
 *
-return
+returns
 {
-Object
+object
 =
 }
 *
@@ -1401,7 +1401,7 @@ destination
 *
 param
 {
-String
+string
 }
 moduleName
 *
@@ -1424,7 +1424,7 @@ destination
 *
 returns
 {
-Boolean
+boolean
 }
 *
 True

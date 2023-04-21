@@ -342,7 +342,7 @@ tab
 .
 *
 *
-return
+returns
 {
 Promise
 <

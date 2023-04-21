@@ -488,7 +488,7 @@ with
 .
 *
 *
-return
+returns
 {
 GeckoDriver
 }
@@ -2314,7 +2314,7 @@ used
 .
 *
 *
-return
+returns
 {
 Response
 }
@@ -2751,7 +2751,6 @@ client
 param
 {
 Object
-.
 <
 string
 ?

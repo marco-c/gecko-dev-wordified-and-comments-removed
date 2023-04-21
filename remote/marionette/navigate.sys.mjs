@@ -411,7 +411,7 @@ document
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -742,7 +742,7 @@ visiting
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -800,7 +800,7 @@ known
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -1335,7 +1335,7 @@ navigation
 *
 param
 {
-Object
+object
 }
 options
 *

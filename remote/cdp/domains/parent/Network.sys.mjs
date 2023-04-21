@@ -565,7 +565,7 @@ pair
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -895,7 +895,7 @@ conditions
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -992,12 +992,12 @@ field
 *
 param
 {
-Object
+object
 }
 options
 *
 *
-return
+returns
 {
 Array
 <
@@ -1073,7 +1073,7 @@ URL
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1109,7 +1109,7 @@ URL
 .
 *
 *
-return
+returns
 {
 Array
 <
@@ -1450,7 +1450,7 @@ exist
 *
 param
 {
-Object
+object
 }
 cookie
 *
@@ -1594,7 +1594,7 @@ cookie
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -2037,7 +2037,7 @@ cookies
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2166,7 +2166,7 @@ used
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2976,7 +2976,7 @@ value
 *
 returns
 {
-Object
+object
 }
 *
 Object

@@ -153,7 +153,7 @@ set_permission
 *
 param
 {
-Object
+object
 }
 descriptor
 *

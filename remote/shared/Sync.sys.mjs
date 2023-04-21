@@ -202,7 +202,7 @@ from
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -298,7 +298,7 @@ promise
 *
 returns
 {
-Object
+object
 }
 *
 An
@@ -619,7 +619,7 @@ for
 *
 param
 {
-Object
+object
 =
 }
 options
@@ -664,7 +664,7 @@ tree
 *
 param
 {
-function
+Function
 =
 }
 [
@@ -820,7 +820,7 @@ content
 .
 *
 *
-return
+returns
 {
 Promise
 <
@@ -1249,7 +1249,7 @@ callback
 *
 param
 {
-function
+Function
 }
 fn
 *
@@ -1634,7 +1634,7 @@ milliseconds
 .
 *
 *
-return
+returns
 {
 Promise
 .

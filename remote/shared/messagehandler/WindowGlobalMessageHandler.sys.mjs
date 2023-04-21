@@ -188,9 +188,9 @@ path
 .
 *
 *
-return
+returns
 {
-String
+string
 }
 *
 /
@@ -217,9 +217,9 @@ type
 .
 *
 *
-return
+returns
 {
-String
+string
 }
 *
 /
@@ -277,9 +277,9 @@ be
 BrowsingContexts
 .
 *
-return
+returns
 {
-String
+string
 }
 *
 The

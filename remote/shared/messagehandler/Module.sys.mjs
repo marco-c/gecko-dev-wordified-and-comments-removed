@@ -266,7 +266,7 @@ network
 *
 param
 {
-String
+string
 }
 name
 *
@@ -297,7 +297,7 @@ name
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -394,7 +394,7 @@ event
 *
 param
 {
-Object
+object
 }
 payload
 *
@@ -407,7 +407,7 @@ payload
 *
 returns
 {
-Object
+object
 }
 *
 The
@@ -463,7 +463,7 @@ enabled
 *
 param
 {
-String
+string
 }
 methodName
 *

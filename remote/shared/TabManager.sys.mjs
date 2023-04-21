@@ -176,7 +176,7 @@ windows
 .
 *
 *
-return
+returns
 {
 Array
 <
@@ -353,11 +353,11 @@ Bug
 .
 *
 *
-return
+returns
 {
 Array
 <
-String
+string
 >
 }
 *
@@ -520,7 +520,7 @@ returned
 .
 *
 *
-return
+returns
 {
 xul
 :
@@ -610,7 +610,7 @@ accessed
 .
 *
 *
-return
+returns
 {
 Tab
 }
@@ -687,13 +687,13 @@ tab
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Boolean
+boolean
 =
 }
 options
@@ -764,7 +764,7 @@ tabs
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -1038,7 +1038,7 @@ Bug
 *
 param
 {
-String
+string
 }
 id
 *
@@ -1051,7 +1051,7 @@ by
 getIdForBrowser
 .
 *
-return
+returns
 {
 xul
 :
@@ -1197,7 +1197,7 @@ id
 *
 param
 {
-String
+string
 }
 id
 *
@@ -1213,7 +1213,7 @@ getIdForBrowsingContext
 )
 .
 *
-return
+returns
 {
 BrowsingContext
 =
@@ -1361,9 +1361,9 @@ the
 id
 .
 *
-return
+returns
 {
-String
+string
 }
 The
 unique
@@ -1504,7 +1504,7 @@ from
 *
 returns
 {
-String
+string
 }
 *
 The

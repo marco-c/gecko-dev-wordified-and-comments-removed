@@ -421,7 +421,6 @@ session
 param
 {
 Object
-.
 <
 string
 *
@@ -480,11 +479,11 @@ session
 .
 *
 *
-return
+returns
 {
 Object
 <
-String
+string
 Capabilities
 >
 }
@@ -1014,9 +1013,9 @@ session
 status
 *
 *
-return
+returns
 {
-Object
+object
 }
 *
 The

@@ -237,7 +237,7 @@ TabSession
 *
 param
 {
-String
+string
 }
 method
 *
@@ -255,7 +255,7 @@ domain
 *
 param
 {
-Object
+object
 }
 params
 *

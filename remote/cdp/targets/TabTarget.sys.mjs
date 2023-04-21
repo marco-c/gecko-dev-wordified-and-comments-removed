@@ -481,7 +481,7 @@ DOM
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -547,7 +547,7 @@ null
 /
 *
 *
-return
+returns
 {
 Promise
 .

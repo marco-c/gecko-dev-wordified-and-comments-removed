@@ -249,7 +249,6 @@ string
 }
 EvaluationStatus
 *
-*
 /
 /
 *
@@ -269,7 +268,6 @@ enum
 {
 EvaluationStatus
 }
-*
 *
 /
 const
@@ -1600,7 +1598,7 @@ global
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1737,9 +1735,9 @@ call
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 *
 -
@@ -1964,7 +1962,7 @@ name
 *
 param
 {
-Object
+object
 =
 }
 options
@@ -2082,7 +2080,7 @@ global
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2177,9 +2175,9 @@ sandbox
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 *
 -
@@ -2334,11 +2332,11 @@ global
 .
 *
 *
-return
+returns
 {
 Array
 <
-Object
+object
 >
 }
 *

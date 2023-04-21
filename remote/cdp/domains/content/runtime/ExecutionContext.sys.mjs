@@ -716,7 +716,7 @@ expression
 *
 param
 {
-String
+string
 }
 expression
 *
@@ -782,9 +782,9 @@ value
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 A
 multi
@@ -2117,7 +2117,7 @@ object
 to
 serialize
 *
-return
+returns
 {
 RemoteObject
 }
@@ -2851,7 +2851,7 @@ object
 to
 serialize
 *
-return
+returns
 {
 RemoteObject
 }
@@ -3073,9 +3073,9 @@ to
 convert
 *
 *
-return
+returns
 {
-Object
+object
 }
 *
 The

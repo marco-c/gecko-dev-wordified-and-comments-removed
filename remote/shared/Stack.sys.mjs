@@ -74,7 +74,7 @@ frame
 *
 typedef
 {
-Object
+object
 }
 StackFrame
 *
@@ -84,7 +84,7 @@ nsIStackFrame
 *
 property
 {
-String
+string
 =
 }
 asyncCause
@@ -103,7 +103,7 @@ invoked
 *
 property
 {
-Number
+number
 }
 columnNumber
 *
@@ -118,7 +118,7 @@ frame
 *
 property
 {
-String
+string
 }
 filename
 *
@@ -133,7 +133,7 @@ frame
 *
 property
 {
-String
+string
 }
 function
 *
@@ -153,7 +153,7 @@ null
 *
 property
 {
-Number
+number
 }
 lineNumber
 *
@@ -173,7 +173,7 @@ with
 *
 property
 {
-Number
+number
 }
 sourceId
 *
@@ -222,7 +222,7 @@ consumers
 *
 param
 {
-Object
+object
 }
 stack
 *
@@ -386,7 +386,7 @@ scope
 *
 param
 {
-Object
+object
 }
 frame
 *

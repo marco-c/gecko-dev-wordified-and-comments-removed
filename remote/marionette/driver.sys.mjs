@@ -1372,7 +1372,7 @@ context
 .
 *
 *
-return
+returns
 {
 URL
 }
@@ -1455,7 +1455,7 @@ context
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -1755,7 +1755,7 @@ actor
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1862,7 +1862,7 @@ context
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1972,7 +1972,7 @@ false
 .
 *
 *
-return
+returns
 {
 BrowsingContext
 }
@@ -2140,7 +2140,7 @@ registered
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2195,7 +2195,7 @@ context
 .
 *
 *
-return
+returns
 {
 ChromeWindow
 }
@@ -2399,7 +2399,7 @@ context
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -2808,14 +2808,13 @@ session
 *
 param
 {
-Object
+object
 }
 cmd
 *
 param
 {
 Object
-.
 <
 string
 *
@@ -2844,9 +2843,9 @@ class
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 *
 Session
@@ -3469,7 +3468,7 @@ for
 *
 param
 {
-Object
+object
 =
 }
 options
@@ -4081,7 +4080,7 @@ Content
 .
 *
 *
-return
+returns
 {
 Context
 }
@@ -4429,7 +4428,7 @@ evaluated
 .
 *
 *
-return
+returns
 {
 (
 string
@@ -5065,7 +5064,7 @@ evaluated
 .
 *
 *
-return
+returns
 {
 (
 string
@@ -6089,7 +6088,7 @@ window
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -6194,7 +6193,7 @@ window
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -6270,7 +6269,7 @@ document
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -6948,7 +6947,7 @@ point
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -7145,7 +7144,7 @@ ordering
 .
 *
 *
-return
+returns
 {
 Array
 .
@@ -7260,10 +7259,9 @@ etc
 .
 *
 *
-return
+returns
 {
 Object
-.
 <
 string
 number
@@ -7502,10 +7500,9 @@ to
 .
 *
 *
-return
+returns
 {
 Object
-.
 <
 string
 number
@@ -8450,7 +8447,7 @@ window
 *
 param
 {
-Object
+object
 }
 winProperties
 *
@@ -8980,7 +8977,7 @@ param
 (
 string
 |
-Object
+object
 )
 =
 }
@@ -9319,7 +9316,6 @@ scripts
 param
 {
 Object
-.
 <
 string
 number
@@ -9857,7 +9853,7 @@ for
 .
 *
 *
-return
+returns
 {
 WebElement
 }
@@ -10147,7 +10143,7 @@ for
 .
 *
 *
-return
+returns
 {
 WebElement
 }
@@ -10459,7 +10455,7 @@ for
 .
 *
 *
-return
+returns
 {
 Array
 <
@@ -10753,7 +10749,7 @@ for
 .
 *
 *
-return
+returns
 {
 Array
 <
@@ -11006,7 +11002,7 @@ id
 reference
 .
 *
-return
+returns
 {
 ShadowRoot
 }
@@ -11271,7 +11267,7 @@ document
 .
 *
 *
-return
+returns
 {
 WebReference
 }
@@ -11750,7 +11746,7 @@ retrieve
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -12009,7 +12005,7 @@ retrieve
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -12257,7 +12253,7 @@ inspected
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -12474,7 +12470,7 @@ inspected
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -12686,7 +12682,7 @@ inspected
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -12899,7 +12895,7 @@ requested
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -13136,7 +13132,7 @@ checked
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -13354,7 +13350,7 @@ checked
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -14962,10 +14958,9 @@ false
 .
 *
 *
-return
+returns
 {
 Object
-.
 <
 string
 string
@@ -15496,7 +15491,7 @@ empty
 .
 *
 *
-return
+returns
 {
 Array
 .
@@ -15748,7 +15743,7 @@ empty
 .
 *
 *
-return
+returns
 {
 Array
 .
@@ -16425,7 +16420,7 @@ true
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -17124,10 +17119,9 @@ Fennec
 .
 *
 *
-return
+returns
 {
 Object
-.
 <
 string
 number
@@ -17439,10 +17433,9 @@ Fennec
 .
 *
 *
-return
+returns
 {
 Object
-.
 <
 string
 number
@@ -17762,7 +17755,7 @@ Fennec
 .
 *
 *
-return
+returns
 {
 Map
 .
@@ -19299,7 +19292,7 @@ mode
 .
 *
 *
-return
+returns
 {
 Object
 <
@@ -20121,7 +20114,7 @@ for
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -20320,7 +20313,7 @@ for
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -21116,7 +21109,7 @@ size
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -21680,7 +21673,7 @@ returned
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -21808,7 +21801,7 @@ returned
 .
 *
 *
-return
+returns
 {
 string
 }

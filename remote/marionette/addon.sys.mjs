@@ -468,7 +468,7 @@ otherwise
 .
 *
 *
-return
+returns
 {
 Promise
 .
@@ -707,7 +707,7 @@ uninstall
 .
 *
 *
-return
+returns
 {
 Promise
 }

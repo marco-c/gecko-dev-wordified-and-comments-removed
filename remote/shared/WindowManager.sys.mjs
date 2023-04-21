@@ -307,7 +307,7 @@ handle
 *
 param
 {
-String
+string
 }
 handle
 *
@@ -345,9 +345,9 @@ getIdForWindow
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 A
 window
@@ -588,7 +588,7 @@ Window
 *
 typedef
 {
-Object
+object
 }
 WindowProperties
 *
@@ -620,7 +620,7 @@ itself
 *
 property
 {
-String
+string
 }
 id
 -
@@ -636,7 +636,7 @@ Window
 *
 property
 {
-Boolean
+boolean
 }
 hasTabBrowser
 -
@@ -653,7 +653,7 @@ tabBrowser
 *
 property
 {
-Number
+number
 }
 tabIndex
 -
@@ -717,13 +717,13 @@ object
 *
 param
 {
-Object
+object
 }
 options
 *
 param
 {
-Number
+number
 }
 options
 .
@@ -743,7 +743,7 @@ Chrome
 Window
 .
 *
-return
+returns
 {
 WindowProperties
 }
@@ -868,9 +868,9 @@ the
 id
 .
 *
-return
+returns
 {
-String
+string
 }
 The
 unique
@@ -970,7 +970,7 @@ to
 close
 .
 *
-return
+returns
 {
 Promise
 }
@@ -1059,7 +1059,7 @@ to
 focus
 .
 *
-return
+returns
 {
 Promise
 }
@@ -1162,14 +1162,14 @@ window
 *
 param
 {
-Object
+object
 =
 }
 options
 *
 param
 {
-Boolean
+boolean
 =
 }
 options
@@ -1193,7 +1193,7 @@ false
 *
 param
 {
-Boolean
+boolean
 =
 }
 options
@@ -1244,7 +1244,7 @@ topmost
 window
 .
 *
-return
+returns
 {
 Promise
 }
@@ -1623,7 +1623,7 @@ loaded
 .
 *
 *
-return
+returns
 {
 Promise
 <

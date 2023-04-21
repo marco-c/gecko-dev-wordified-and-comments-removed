@@ -483,7 +483,7 @@ created
 *
 param
 {
-Number
+number
 }
 x
 *
@@ -497,7 +497,7 @@ viewport
 *
 param
 {
-Number
+number
 }
 y
 *
@@ -511,7 +511,7 @@ viewport
 *
 param
 {
-Number
+number
 }
 touchId
 *
@@ -817,7 +817,7 @@ viewport
 *
 param
 {
-Object
+object
 }
 modifiers
 *
@@ -1526,7 +1526,6 @@ actions
 param
 {
 Object
-.
 <
 string
 number
@@ -1560,7 +1559,6 @@ chain
 param
 {
 Object
-.
 <
 string
 boolean
@@ -1596,10 +1594,9 @@ success
 .
 *
 *
-return
+returns
 {
 Object
-.
 <
 string
 number

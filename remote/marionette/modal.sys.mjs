@@ -234,7 +234,7 @@ dialogs
 .
 *
 *
-return
+returns
 {
 modal
 .
@@ -803,7 +803,7 @@ Context
 .
 *
 *
-return
+returns
 {
 modal
 .
@@ -1570,7 +1570,7 @@ reference
 *
 param
 {
-function
+Function
 }
 callback
 *
@@ -1627,7 +1627,7 @@ reference
 *
 param
 {
-function
+Function
 }
 callback
 *

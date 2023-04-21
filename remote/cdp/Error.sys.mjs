@@ -418,7 +418,7 @@ property
 *
 param
 {
-Object
+object
 }
 json
 *
@@ -458,7 +458,7 @@ stacktrace
 .
 *
 *
-return
+returns
 {
 RemoteAgentError
 }

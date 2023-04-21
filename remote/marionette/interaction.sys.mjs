@@ -2632,7 +2632,7 @@ click
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -3190,7 +3190,7 @@ check
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -4454,7 +4454,7 @@ tests
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -4574,7 +4574,7 @@ enabled
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -4870,7 +4870,7 @@ tests
 .
 *
 *
-return
+returns
 {
 boolean
 }

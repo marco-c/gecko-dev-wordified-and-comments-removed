@@ -187,10 +187,9 @@ WEBDRIVER_BIDI
 *
 typedef
 {
-Object
+object
 }
 OwnershipModel
-*
 *
 /
 /
@@ -214,7 +213,6 @@ enum
 {
 OwnershipModel
 }
-*
 *
 /
 export
@@ -310,9 +308,9 @@ RemoteValue
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 *
 An
@@ -818,7 +816,7 @@ values
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -839,7 +837,7 @@ references
 .
 *
 *
-return
+returns
 {
 Array
 }
@@ -1005,7 +1003,7 @@ value
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1026,7 +1024,7 @@ references
 .
 *
 *
-return
+returns
 {
 Array
 }
@@ -1295,7 +1293,7 @@ deserialized
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1316,7 +1314,7 @@ references
 .
 *
 *
-return
+returns
 {
 Node
 }
@@ -1616,7 +1614,7 @@ deserialized
 *
 param
 {
-Object
+object
 }
 serializedValue
 *
@@ -1631,7 +1629,7 @@ deserialized
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1652,9 +1650,9 @@ references
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 Deserialized
 representation
@@ -2552,7 +2550,7 @@ serialization
 *
 param
 {
-Object
+object
 }
 object
 *
@@ -2563,7 +2561,7 @@ serialized
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -2705,7 +2703,7 @@ serialized
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -2994,7 +2992,7 @@ serialized
 *
 param
 {
-Object
+object
 }
 value
 *
@@ -3068,7 +3066,7 @@ serialized
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3089,9 +3087,9 @@ references
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 Object
 for
@@ -3280,7 +3278,7 @@ serialized
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3301,7 +3299,7 @@ references
 .
 *
 *
-return
+returns
 {
 Array
 }
@@ -3485,7 +3483,7 @@ serialized
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3506,7 +3504,7 @@ references
 .
 *
 *
-return
+returns
 {
 Array
 }
@@ -3697,7 +3695,7 @@ serialized
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3718,9 +3716,9 @@ references
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 Serialized
 value
@@ -4060,7 +4058,7 @@ value
 *
 param
 {
-Object
+object
 }
 value
 *
@@ -4134,7 +4132,7 @@ serialized
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -4155,9 +4153,9 @@ references
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 Serialized
 representation
@@ -5115,7 +5113,7 @@ values
 *
 param
 {
-Object
+object
 }
 remoteValue
 *
@@ -5130,7 +5128,7 @@ object
 *
 param
 {
-Object
+object
 }
 object
 *
@@ -5336,7 +5334,7 @@ value
 *
 param
 {
-Object
+object
 }
 value
 *
@@ -5350,7 +5348,7 @@ stringified
 .
 *
 *
-return
+returns
 {
 string
 }

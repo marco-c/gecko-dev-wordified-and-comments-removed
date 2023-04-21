@@ -239,7 +239,7 @@ ignored
 *
 param
 {
-Object
+object
 }
 options
 *

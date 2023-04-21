@@ -484,7 +484,7 @@ copied
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -1527,7 +1527,7 @@ searching
 .
 *
 *
-return
+returns
 {
 string
 }

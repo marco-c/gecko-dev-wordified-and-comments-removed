@@ -395,7 +395,7 @@ data
 *
 param
 {
-Object
+object
 =
 }
 options

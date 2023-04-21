@@ -393,7 +393,7 @@ contexts
 *
 params
 {
-Object
+object
 =
 }
 params
@@ -681,7 +681,7 @@ contexts
 *
 params
 {
-Object
+object
 =
 }
 params
@@ -1483,7 +1483,7 @@ event
 .
 *
 *
-return
+returns
 {
 Set
 <
@@ -1713,7 +1713,7 @@ false
 .
 *
 *
-return
+returns
 {
 Array
 <

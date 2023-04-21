@@ -164,7 +164,6 @@ string
 }
 RealmType
 *
-*
 /
 /
 *
@@ -183,7 +182,6 @@ enum
 {
 RealmType
 }
-*
 *
 /
 export
@@ -387,7 +385,7 @@ instance
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -471,7 +469,7 @@ realm
 *
 param
 {
-Object
+object
 }
 object
 *
@@ -482,9 +480,9 @@ primitive
 object
 .
 *
-return
+returns
 {
-Object
+object
 }
 *
 An
@@ -584,7 +582,7 @@ object
 *
 param
 {
-Object
+object
 }
 object
 *
@@ -595,7 +593,7 @@ primitive
 object
 .
 *
-return
+returns
 {
 string
 }
@@ -649,7 +647,7 @@ information
 .
 *
 *
-return
+returns
 {
 BaseRealmInfo
 }
@@ -710,9 +708,9 @@ this
 realm
 .
 *
-return
+returns
 {
-Object
+object
 }
 object
 *
@@ -801,7 +799,7 @@ wrap
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1091,7 +1089,7 @@ sandbox
 *
 param
 {
-Object
+object
 }
 obj
 *
@@ -1103,9 +1101,9 @@ object
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 *
 The
@@ -1163,9 +1161,9 @@ evaluate
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 *
 -
@@ -1297,7 +1295,7 @@ param
 {
 Array
 <
-Object
+object
 >
 }
 functionArguments
@@ -1314,7 +1312,7 @@ call
 *
 param
 {
-Object
+object
 }
 thisParameter
 *
@@ -1331,9 +1329,9 @@ call
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 *
 -
@@ -1504,9 +1502,9 @@ information
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 *
 -

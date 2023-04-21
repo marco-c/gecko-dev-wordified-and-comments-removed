@@ -249,7 +249,7 @@ context
 *
 typedef
 {
-Object
+object
 }
 ContextDescriptor
 *
@@ -266,7 +266,7 @@ context
 *
 property
 {
-String
+string
 =
 }
 id
@@ -441,13 +441,13 @@ contextCreated
 *
 typedef
 {
-Object
+object
 }
 ContextInfo
 *
 property
 {
-String
+string
 }
 contextId
 *
@@ -464,7 +464,7 @@ context
 *
 property
 {
-String
+string
 }
 type
 *
@@ -726,7 +726,7 @@ instance
 *
 param
 {
-String
+string
 }
 sessionId
 *
@@ -743,7 +743,7 @@ for
 *
 param
 {
-Object
+object
 }
 context
 *
@@ -1027,7 +1027,7 @@ network
 *
 param
 {
-String
+string
 }
 name
 *
@@ -1058,7 +1058,7 @@ name
 *
 param
 {
-Object
+object
 }
 data
 *
@@ -1223,13 +1223,13 @@ sessionId
 *
 typedef
 {
-Object
+object
 }
 CommandDestination
 *
 property
 {
-String
+string
 }
 type
 *
@@ -1242,7 +1242,7 @@ type
 *
 property
 {
-String
+string
 =
 }
 id
@@ -1321,13 +1321,13 @@ missing
 *
 typedef
 {
-Object
+object
 }
 Command
 *
 property
 {
-String
+string
 }
 commandName
 *
@@ -1342,7 +1342,7 @@ execute
 *
 property
 {
-String
+string
 }
 moduleName
 *
@@ -1355,7 +1355,7 @@ module
 *
 property
 {
-Object
+object
 }
 params
 *
@@ -1444,7 +1444,7 @@ details
 *
 param
 {
-String
+string
 }
 moduleName
 *
@@ -1465,7 +1465,7 @@ The
 destination
 .
 *
-return
+returns
 {
 Array
 .
@@ -1564,7 +1564,7 @@ the
 destination
 .
 *
-return
+returns
 {
 Promise
 }
@@ -2047,7 +2047,7 @@ destination
 *
 param
 {
-String
+string
 }
 moduleName
 *
@@ -2060,7 +2060,7 @@ module
 *
 param
 {
-String
+string
 }
 commandName
 *
@@ -2081,9 +2081,9 @@ The
 destination
 .
 *
-return
+returns
 {
-Boolean
+boolean
 }
 *
 True
@@ -2152,7 +2152,7 @@ event
 .
 *
 *
-return
+returns
 {
 ContextInfo
 }

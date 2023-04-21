@@ -79,7 +79,7 @@ folder
 *
 param
 {
-String
+string
 }
 moduleName
 *
@@ -97,7 +97,7 @@ for
 *
 param
 {
-String
+string
 }
 moduleFolder
 *
@@ -109,7 +109,7 @@ for
 modules
 .
 *
-return
+returns
 {
 Class
 =
@@ -146,7 +146,6 @@ folder
 is
 unexpected
 .
-*
 *
 /
 export

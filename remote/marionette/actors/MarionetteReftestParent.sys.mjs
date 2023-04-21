@@ -96,7 +96,7 @@ loaded
 *
 param
 {
-String
+string
 }
 url
 *
@@ -107,7 +107,7 @@ url
 *
 param
 {
-Boolean
+boolean
 }
 useRemote
 *
@@ -120,9 +120,9 @@ with
 e10s
 .
 *
-return
+returns
 {
-Boolean
+boolean
 }
 true
 if

@@ -163,7 +163,7 @@ mjs
 *
 typedef
 {
-Object
+object
 }
 BaseParameters
 *
@@ -206,7 +206,7 @@ timestamp
 *
 typedef
 {
-Object
+object
 }
 Cookie
 *
@@ -295,7 +295,7 @@ value
 *
 typedef
 {
-Object
+object
 }
 FetchTimingInfo
 *
@@ -384,7 +384,7 @@ responseEnd
 *
 typedef
 {
-Object
+object
 }
 Header
 *
@@ -422,7 +422,6 @@ string
 }
 InitiatorType
 *
-*
 /
 /
 *
@@ -442,7 +441,6 @@ enum
 {
 InitiatorType
 }
-*
 *
 /
 const
@@ -477,7 +475,7 @@ script
 *
 typedef
 {
-Object
+object
 }
 Initiator
 *
@@ -522,7 +520,7 @@ stackTrace
 *
 typedef
 {
-Object
+object
 }
 RequestData
 *
@@ -594,7 +592,7 @@ url
 *
 typedef
 {
-Object
+object
 }
 BeforeRequestSentParametersProperties
 *
@@ -631,7 +629,7 @@ BeforeRequestSentParameters
 *
 typedef
 {
-Object
+object
 }
 ResponseContent
 *
@@ -655,7 +653,7 @@ null
 *
 typedef
 {
-Object
+object
 }
 ResponseData
 *
@@ -749,7 +747,7 @@ content
 *
 typedef
 {
-Object
+object
 }
 ResponseStartedParametersProperties
 *
@@ -786,7 +784,7 @@ ResponseStartedParameters
 *
 typedef
 {
-Object
+object
 }
 ResponseCompletedParametersProperties
 *

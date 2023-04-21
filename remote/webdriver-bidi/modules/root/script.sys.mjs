@@ -277,7 +277,6 @@ string
 }
 ScriptEvaluateResultType
 *
-*
 /
 /
 *
@@ -298,7 +297,6 @@ enum
 {
 ScriptEvaluateResultType
 }
-*
 *
 /
 const
@@ -509,7 +507,7 @@ run
 *
 param
 {
-Object
+object
 =
 }
 options
@@ -1096,7 +1094,7 @@ context
 *
 param
 {
-Object
+object
 =
 }
 options
@@ -1193,7 +1191,7 @@ None
 *
 param
 {
-Object
+object
 }
 target
 *
@@ -1525,7 +1523,7 @@ references
 *
 param
 {
-Object
+object
 =
 }
 options
@@ -1549,7 +1547,7 @@ disown
 *
 param
 {
-Object
+object
 }
 target
 *
@@ -1750,7 +1748,7 @@ context
 *
 param
 {
-Object
+object
 =
 }
 options
@@ -1827,7 +1825,7 @@ None
 *
 param
 {
-Object
+object
 }
 target
 *
@@ -2292,7 +2290,7 @@ context
 *
 param
 {
-Object
+object
 =
 }
 options
@@ -2632,7 +2630,7 @@ script
 *
 param
 {
-Object
+object
 =
 }
 options

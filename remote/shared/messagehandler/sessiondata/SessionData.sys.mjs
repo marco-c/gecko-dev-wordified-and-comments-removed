@@ -205,7 +205,6 @@ string
 }
 SessionDataCategory
 *
-*
 /
 /
 *
@@ -225,7 +224,6 @@ enum
 {
 SessionDataCategory
 }
-*
 *
 /
 export
@@ -257,7 +255,6 @@ string
 }
 SessionDataMethod
 *
-*
 /
 /
 *
@@ -277,7 +274,6 @@ enum
 {
 SessionDataMethod
 }
-*
 *
 /
 export
@@ -395,13 +391,13 @@ Map
 *
 typedef
 {
-Object
+object
 }
 SessionDataItem
 *
 property
 {
-String
+string
 }
 moduleName
 *
@@ -495,7 +491,7 @@ updated
 *
 property
 {
-String
+string
 }
 moduleName
 *
@@ -1100,7 +1096,7 @@ updates
 .
 *
 *
-return
+returns
 {
 Array
 <
@@ -1416,7 +1412,7 @@ type
 *
 param
 {
-String
+string
 }
 moduleName
 *
@@ -1434,7 +1430,7 @@ item
 *
 param
 {
-String
+string
 }
 category
 *
@@ -1469,7 +1465,7 @@ context
 descriptor
 .
 *
-return
+returns
 {
 Array
 <

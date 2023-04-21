@@ -427,10 +427,9 @@ WEBDRIVER_BIDI
 *
 typedef
 {
-Object
+object
 }
 CreateType
-*
 *
 /
 /
@@ -456,7 +455,6 @@ enum
 {
 CreateType
 }
-*
 *
 /
 const
@@ -484,7 +482,6 @@ typedef
 string
 }
 WaitCondition
-*
 *
 /
 /
@@ -702,7 +699,7 @@ context
 *
 param
 {
-Object
+object
 =
 }
 options
@@ -888,7 +885,7 @@ context
 *
 param
 {
-Object
+object
 =
 }
 options
@@ -1160,7 +1157,7 @@ window
 *
 param
 {
-Object
+object
 =
 }
 options
@@ -1802,7 +1799,7 @@ provided
 *
 param
 {
-Object
+object
 =
 }
 options
@@ -2084,7 +2081,7 @@ BrowsingContextNavigateResult
 *
 property
 {
-String
+string
 }
 navigation
 *
@@ -2097,7 +2094,7 @@ navigation
 *
 property
 {
-String
+string
 }
 url
 *
@@ -2131,7 +2128,7 @@ condition
 *
 param
 {
-Object
+object
 =
 }
 options
@@ -2738,7 +2735,7 @@ BrowsingContextPrintResult
 *
 property
 {
-String
+string
 }
 data
 *
@@ -2784,7 +2781,7 @@ string
 *
 param
 {
-Object
+object
 =
 }
 options
@@ -3493,7 +3490,7 @@ to
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3934,7 +3931,7 @@ id
 *
 param
 {
-Number
+number
 }
 contextId
 *
@@ -4102,7 +4099,7 @@ from
 *
 param
 {
-Object
+object
 =
 }
 options

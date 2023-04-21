@@ -289,7 +289,7 @@ type
 *
 param
 {
-String
+string
 }
 type
 *
@@ -302,7 +302,7 @@ MessageHandler
 type
 .
 *
-return
+returns
 {
 Class
 }
@@ -775,7 +775,7 @@ IDs
 .
 *
 *
-return
+returns
 {
 Iterable
 .
@@ -832,7 +832,7 @@ found
 *
 param
 {
-String
+string
 }
 sessionId
 *
@@ -847,7 +847,7 @@ used
 for
 .
 *
-return
+returns
 {
 MessageHandler
 =
@@ -899,7 +899,7 @@ parameters
 *
 param
 {
-String
+string
 }
 sessionId
 *
@@ -916,7 +916,7 @@ for
 *
 param
 {
-String
+string
 }
 type
 *
@@ -931,7 +931,7 @@ type
 *
 param
 {
-Object
+object
 =
 }
 context
@@ -955,7 +955,7 @@ type
 MessageHandlers
 .
 *
-return
+returns
 {
 MessageHandler
 }
@@ -1021,7 +1021,7 @@ sessionId
 *
 param
 {
-String
+string
 }
 sessionId
 *
@@ -1036,7 +1036,7 @@ used
 for
 .
 *
-return
+returns
 {
 RootMessageHandler
 }
@@ -1146,7 +1146,7 @@ instance
 *
 param
 {
-String
+string
 }
 sessionId
 *
@@ -1188,7 +1188,7 @@ the
 MessageHandler
 .
 *
-return
+returns
 {
 MessageHandler
 }

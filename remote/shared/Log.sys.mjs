@@ -175,7 +175,7 @@ preference
 *
 param
 {
-String
+string
 }
 type
 *

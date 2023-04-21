@@ -517,7 +517,7 @@ js
 *
 param
 {
-String
+string
 }
 sessionId
 *
@@ -531,7 +531,7 @@ the
 command
 .
 *
-return
+returns
 {
 Promise
 }

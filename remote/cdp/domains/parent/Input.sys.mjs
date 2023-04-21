@@ -102,7 +102,7 @@ events
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -603,7 +603,7 @@ events
 *
 param
 {
-Object
+object
 }
 options
 *

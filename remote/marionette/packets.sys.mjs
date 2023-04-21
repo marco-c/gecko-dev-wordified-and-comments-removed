@@ -250,7 +250,6 @@ the
 following
 :
 *
-*
 read
 (
 stream
@@ -267,7 +266,6 @@ data
 to
 read
 *
-*
 write
 (
 stream
@@ -282,7 +280,6 @@ is
 ready
 to
 write
-*
 *
 get
 done
@@ -300,7 +297,6 @@ being
 read
 /
 written
-*
 *
 destroy
 (
@@ -527,7 +523,7 @@ packet
 .
 *
 *
-return
+returns
 {
 Packet
 }
@@ -824,7 +820,7 @@ packet
 .
 *
 *
-return
+returns
 {
 JSONPacket
 }
@@ -1611,7 +1607,7 @@ packet
 .
 *
 *
-return
+returns
 {
 BulkPacket
 }
@@ -2377,6 +2373,7 @@ onto
 the
 stream
 .
+*
 *
 param
 transport

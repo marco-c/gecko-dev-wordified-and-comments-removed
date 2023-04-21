@@ -332,7 +332,7 @@ for
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -644,7 +644,7 @@ for
 .
 *
 *
-return
+returns
 {
 string
 }

@@ -758,7 +758,7 @@ to
 check
 .
 *
-return
+returns
 {
 boolean
 }

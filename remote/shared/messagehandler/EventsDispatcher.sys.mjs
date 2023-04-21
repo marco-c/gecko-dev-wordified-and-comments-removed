@@ -289,7 +289,7 @@ messageHandler
 *
 typedef
 {
-Object
+object
 }
 EventListenerInfo
 *
@@ -496,7 +496,7 @@ event
 *
 param
 {
-function
+Function
 }
 callback
 *
@@ -505,7 +505,7 @@ listener
 callback
 .
 *
-return
+returns
 {
 Promise
 }
@@ -605,7 +605,7 @@ event
 *
 param
 {
-function
+Function
 }
 callback
 *
@@ -614,7 +614,7 @@ listener
 callback
 .
 *
-return
+returns
 {
 Promise
 }
@@ -720,7 +720,7 @@ event
 *
 param
 {
-function
+Function
 }
 callback
 *
@@ -798,7 +798,7 @@ to
 .
 *
 *
-return
+returns
 {
 Promise
 }

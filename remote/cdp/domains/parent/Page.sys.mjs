@@ -495,7 +495,7 @@ URL
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -563,9 +563,9 @@ intended
 transition
 type
 *
-return
+returns
 {
-Object
+object
 }
 *
 -
@@ -1330,7 +1330,7 @@ screenshot
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1403,7 +1403,7 @@ to
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -2677,7 +2677,7 @@ scrollable
 area
 *
 *
-return
+returns
 {
 Promise
 }
@@ -2736,7 +2736,7 @@ page
 .
 *
 *
-return
+returns
 {
 currentIndex
 :
@@ -2908,7 +2908,7 @@ filled
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3054,7 +3054,7 @@ entry
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3225,7 +3225,7 @@ PDF
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -3650,7 +3650,7 @@ ReturnAsBase64
 .
 *
 *
-return
+returns
 {
 Promise
 <
@@ -4448,7 +4448,7 @@ emitted
 *
 param
 {
-Object
+object
 }
 options
 *

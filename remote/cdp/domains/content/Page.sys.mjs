@@ -947,7 +947,7 @@ unsupported
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -972,7 +972,7 @@ options
 .
 worldName
 *
-return
+returns
 {
 string
 }
@@ -1085,7 +1085,7 @@ isolated
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1156,7 +1156,7 @@ caution
 .
 *
 *
-return
+returns
 {
 number
 }
@@ -1375,7 +1375,7 @@ events
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1766,7 +1766,7 @@ bc
 *
 param
 {
-Object
+object
 =
 }
 options

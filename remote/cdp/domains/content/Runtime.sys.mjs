@@ -981,7 +981,7 @@ object
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1006,7 +1006,7 @@ param
 Array
 .
 <
-Object
+object
 >
 =
 }
@@ -1151,10 +1151,9 @@ value
 .
 *
 *
-return
+returns
 {
 Object
-.
 <
 RemoteObject
 ExceptionDetails
@@ -1556,7 +1555,7 @@ object
 *
 param
 {
-Object
+object
 }
 options
 *
@@ -1697,7 +1696,7 @@ UI
 .
 *
 *
-return
+returns
 {
 Object
 <
@@ -2864,7 +2863,7 @@ name
 *
 param
 {
-Object
+object
 =
 }
 options
@@ -2963,7 +2962,7 @@ isolated
 "
 *
 *
-return
+returns
 {
 number
 }
@@ -3235,7 +3234,7 @@ name
 *
 param
 {
-Object
+object
 =
 }
 options

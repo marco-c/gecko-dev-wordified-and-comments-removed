@@ -755,7 +755,7 @@ settings
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -1182,7 +1182,6 @@ false
 param
 {
 Object
-.
 <
 string
 ?
@@ -2106,10 +2105,9 @@ p
 *
 *
 *
-return
+returns
 {
 Object
-.
 <
 string
 (
@@ -2877,10 +2875,9 @@ object
 .
 *
 *
-return
+returns
 {
 Object
-.
 <
 string
 ?
@@ -2968,7 +2965,6 @@ capabilities
 param
 {
 Object
-.
 <
 string
 *
@@ -2982,7 +2978,7 @@ capabilities
 .
 *
 *
-return
+returns
 {
 Capabilities
 }

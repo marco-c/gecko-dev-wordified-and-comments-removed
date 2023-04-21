@@ -943,7 +943,7 @@ to
 check
 .
 *
-return
+returns
 {
 boolean
 }
@@ -2000,7 +2000,7 @@ interface
 .
 *
 *
-return
+returns
 {
 boolean
 }

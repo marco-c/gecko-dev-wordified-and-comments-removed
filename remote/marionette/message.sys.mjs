@@ -300,7 +300,7 @@ result
 .
 *
 *
-return
+returns
 {
 Message
 }
@@ -907,7 +907,6 @@ name
 param
 {
 Object
-.
 <
 string
 ?
@@ -1131,7 +1130,7 @@ packet
 .
 *
 *
-return
+returns
 {
 Array
 }
@@ -1212,7 +1211,7 @@ parameters
 .
 *
 *
-return
+returns
 {
 Command
 }
@@ -1842,7 +1841,7 @@ packet
 .
 *
 *
-return
+returns
 {
 Array
 }
@@ -1922,7 +1921,7 @@ result
 .
 *
 *
-return
+returns
 {
 Response
 }

@@ -316,7 +316,7 @@ context
 *
 param
 {
-Object
+object
 =
 }
 options

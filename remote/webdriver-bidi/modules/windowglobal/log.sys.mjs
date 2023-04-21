@@ -492,7 +492,7 @@ process
 *
 returns
 {
-Object
+object
 =
 }
 Object

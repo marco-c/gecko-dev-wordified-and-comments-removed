@@ -467,7 +467,7 @@ client
 *
 param
 {
-Number
+number
 }
 id
 *
@@ -563,7 +563,7 @@ client
 *
 param
 {
-String
+string
 }
 method
 *
@@ -598,7 +598,7 @@ entryAdded
 *
 param
 {
-Object
+object
 }
 params
 *
@@ -696,7 +696,7 @@ client
 *
 param
 {
-Number
+number
 }
 id
 *
@@ -719,7 +719,7 @@ method
 *
 param
 {
-Object
+object
 }
 result
 *
@@ -1224,7 +1224,7 @@ components
 *
 param
 {
-String
+string
 }
 method
 *
@@ -1250,8 +1250,8 @@ returns
 {
 Object
 <
-String
-String
+string
+string
 >
 }
 *

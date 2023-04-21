@@ -622,9 +622,8 @@ run
 param
 {
 Object
-.
 <
-Number
+number
 >
 }
 urlCount
@@ -2124,9 +2123,9 @@ milliseconds
 .
 *
 *
-return
+returns
 {
-Object
+object
 }
 *
 Result

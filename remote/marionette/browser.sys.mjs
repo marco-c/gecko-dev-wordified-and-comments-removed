@@ -278,7 +278,7 @@ serialisation
 .
 *
 *
-return
+returns
 {
 Context
 }
@@ -782,7 +782,7 @@ detached
 .
 *
 *
-return
+returns
 {
 boolean
 }
@@ -833,7 +833,7 @@ context
 .
 *
 *
-return
+returns
 {
 Map
 .
@@ -1015,7 +1015,7 @@ window
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -1064,7 +1064,7 @@ window
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -1134,7 +1134,7 @@ window
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -1191,7 +1191,7 @@ tab
 .
 *
 *
-return
+returns
 {
 Promise
 }
@@ -1765,7 +1765,7 @@ true
 .
 *
 *
-return
+returns
 {
 Tab
 }
@@ -2202,7 +2202,7 @@ windowState
 .
 *
 *
-return
+returns
 {
 WindowState
 }

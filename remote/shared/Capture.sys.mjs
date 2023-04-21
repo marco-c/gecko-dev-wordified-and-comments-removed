@@ -440,7 +440,7 @@ false
 .
 *
 *
-return
+returns
 {
 HTMLCanvasElement
 }
@@ -985,7 +985,7 @@ encode
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -1067,7 +1067,7 @@ encode
 .
 *
 *
-return
+returns
 {
 string
 }
@@ -1179,7 +1179,7 @@ hex
 .
 *
 *
-return
+returns
 {
 string
 }
