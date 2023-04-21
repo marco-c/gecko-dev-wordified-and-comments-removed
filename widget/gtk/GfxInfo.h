@@ -513,11 +513,16 @@ bool
 >
 mIsVAAPISupported
 ;
+#
+ifdef
+MOZ_WAYLAND
 void
 GetDataVAAPI
 (
 )
 ;
+#
+endif
 void
 AddCrashReportAnnotations
 (

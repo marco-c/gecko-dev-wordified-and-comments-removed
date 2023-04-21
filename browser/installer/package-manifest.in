@@ -544,6 +544,9 @@ ifdef
 MOZ_GTK
 BINPATH
 /
+glxtest
+BINPATH
+/
 DLL_PREFIX
 mozgtk
 DLL_SUFFIX
@@ -555,14 +558,11 @@ BINPATH
 DLL_PREFIX
 mozwayland
 DLL_SUFFIX
-#
-endif
 BINPATH
 /
 vaapitest
-BINPATH
-/
-glxtest
+#
+endif
 #
 endif
 ;
