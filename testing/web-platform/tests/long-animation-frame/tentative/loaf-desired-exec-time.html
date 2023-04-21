@@ -168,6 +168,11 @@ div
 <
 script
 >
+const
+INTERNAL_OVERHEAD_DELAY_EPSILON
+=
+5
+;
 promise_test
 (
 async
@@ -831,7 +836,7 @@ script
 .
 desiredExecutionStart
 rafTime
-5
+INTERNAL_OVERHEAD_DELAY_EPSILON
 )
 ;
 }
@@ -841,7 +846,7 @@ entry
 .
 desiredRenderStart
 rafTime
-5
+INTERNAL_OVERHEAD_DELAY_EPSILON
 )
 ;
 }
@@ -974,7 +979,7 @@ entry
 .
 desiredRenderStart
 rafTime
-5
+INTERNAL_OVERHEAD_DELAY_EPSILON
 )
 ;
 }
