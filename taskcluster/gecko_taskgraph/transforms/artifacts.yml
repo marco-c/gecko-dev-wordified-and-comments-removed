@@ -16,6 +16,11 @@ tar
 zst
 :
 shortest
+sccache
+.
+log
+:
+shortest
 linux
 :
 target
@@ -29,6 +34,11 @@ full
 tar
 .
 zst
+:
+shortest
+sccache
+.
+log
 :
 shortest
 macos
@@ -46,6 +56,11 @@ tar
 zst
 :
 shortest
+sccache
+.
+log
+:
+shortest
 android
 :
 target
@@ -59,5 +74,10 @@ full
 tar
 .
 zst
+:
+shortest
+sccache
+.
+log
 :
 shortest
