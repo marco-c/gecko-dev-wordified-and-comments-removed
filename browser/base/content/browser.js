@@ -41845,9 +41845,9 @@ options
 .
 showDescription
 ?
-4000
+6000
 :
-1500
+3000
 ;
 this
 .
