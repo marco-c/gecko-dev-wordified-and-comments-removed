@@ -166,6 +166,9 @@ namespace
 dom
 {
 class
+OwningHTMLCanvasElementOrOffscreenCanvas
+;
+class
 WebGLChild
 ;
 }

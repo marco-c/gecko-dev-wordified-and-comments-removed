@@ -4931,6 +4931,15 @@ SecureContext
 interface
 GPUCanvasContext
 {
+readonly
+attribute
+(
+HTMLCanvasElement
+or
+OffscreenCanvas
+)
+canvas
+;
 /
 /
 Calling
