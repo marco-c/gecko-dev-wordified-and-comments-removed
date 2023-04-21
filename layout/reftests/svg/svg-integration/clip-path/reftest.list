@@ -1471,10 +1471,10 @@ if
 useDrawSnapshot
 0
 -
-1
+2
 0
 -
-2
+28
 )
 =
 =
@@ -1518,10 +1518,10 @@ if
 useDrawSnapshot
 0
 -
-1
+2
 0
 -
-2
+28
 )
 =
 =
@@ -1565,10 +1565,10 @@ if
 useDrawSnapshot
 0
 -
-1
+2
 0
 -
-2
+28
 )
 =
 =
@@ -1615,7 +1615,7 @@ useDrawSnapshot
 1
 0
 -
-2
+60
 )
 =
 =

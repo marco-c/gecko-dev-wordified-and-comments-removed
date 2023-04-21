@@ -171,15 +171,9 @@ suite
 .
 png
 fuzzy
--
-if
 (
-platform
-(
-swgl
-)
-1
 2
+26
 )
 =
 =
