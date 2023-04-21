@@ -145,6 +145,15 @@ CharacterCount
 const
 override
 ;
+virtual
+char16_t
+CharAt
+(
+int32_t
+aOffset
+)
+override
+;
 LayoutDeviceIntRect
 TextBounds
 (
