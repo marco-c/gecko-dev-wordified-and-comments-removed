@@ -190,6 +190,14 @@ SVGAnimatedPreserveAspectRatio
 preserveAspectRatio
 ;
 [
+SetterThrows
+]
+attribute
+DOMString
+?
+crossOrigin
+;
+[
 CEReactions
 SetterThrows
 ]

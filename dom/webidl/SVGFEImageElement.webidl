@@ -157,6 +157,14 @@ attribute
 SVGAnimatedPreserveAspectRatio
 preserveAspectRatio
 ;
+[
+SetterThrows
+]
+attribute
+DOMString
+?
+crossOrigin
+;
 }
 ;
 SVGFEImageElement
