@@ -593,6 +593,10 @@ browsertime
 regression
 -
 tests
+-
+browsertime
+-
+upload
 browsertime
 -
 clang
