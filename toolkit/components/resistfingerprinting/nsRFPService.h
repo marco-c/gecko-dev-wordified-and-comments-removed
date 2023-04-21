@@ -536,6 +536,7 @@ name
 =
 val
 enum
+class
 RFPTarget
 {
 #
