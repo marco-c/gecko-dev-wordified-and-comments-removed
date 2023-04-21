@@ -5014,6 +5014,11 @@ ResetKeyboard
 (
 )
 {
+if
+(
+sInstance
+)
+{
 sInstance
 -
 >
@@ -5025,6 +5030,7 @@ ResetBidiKeyboard
 (
 )
 ;
+}
 }
 void
 KeymapWrapper
