@@ -126,12 +126,6 @@ aWhy
 )
 override
 ;
-void
-ActorDealloc
-(
-)
-override
-;
 bool
 AllocUnsafeShmem
 (
@@ -370,12 +364,6 @@ virtual
 VideoBridgeChild
 (
 )
-;
-RefPtr
-<
-VideoBridgeChild
->
-mIPDLSelfRef
 ;
 nsCOMPtr
 <
