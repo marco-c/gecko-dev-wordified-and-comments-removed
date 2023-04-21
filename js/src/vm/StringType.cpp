@@ -4614,11 +4614,10 @@ if
 reuseLeftmostBuffer
 &
 &
-&
-left
+pos
 =
 =
-leftmostChild
+wholeChars
 )
 )
 {
