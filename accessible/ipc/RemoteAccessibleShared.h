@@ -76,12 +76,6 @@ aType
 const
 override
 ;
-bool
-IsSearchbox
-(
-)
-const
-;
 virtual
 mozilla
 :
