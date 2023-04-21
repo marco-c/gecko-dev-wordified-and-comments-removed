@@ -262,7 +262,6 @@ SameProcessWidgetCompositorOptions
 }
 ;
 [
-ManualDealloc
 NeedsOtherPid
 ]
 sync
