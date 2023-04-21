@@ -39753,7 +39753,7 @@ browsertime
 .
 constant_value
 =
-1000
+1500
 *
 *
 *
