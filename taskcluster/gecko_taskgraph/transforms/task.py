@@ -5527,6 +5527,10 @@ mac_notarize_part_3
 "
             
 "
+mac_sign
+"
+            
+"
 mac_sign_and_pkg
 "
             

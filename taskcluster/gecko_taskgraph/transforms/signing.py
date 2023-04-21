@@ -1322,6 +1322,45 @@ macosx
 "
 in
 build_platform
+and
+config
+.
+kind
+=
+=
+"
+build
+-
+mac
+-
+notarization
+"
+:
+            
+task
+[
+"
+worker
+"
+]
+[
+"
+mac
+-
+behavior
+"
+]
+=
+"
+mac_sign
+"
+        
+elif
+"
+macosx
+"
+in
+build_platform
 :
             
 shippable
@@ -1471,10 +1510,7 @@ mac_behavior
 "
 )
             
-else
-:
-                
-if
+elif
 "
 part
 -
@@ -1485,7 +1521,7 @@ config
 .
 kind
 :
-                    
+                
 continue
             
 task
