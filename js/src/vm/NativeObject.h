@@ -6454,6 +6454,17 @@ uint32_t
 count
 )
 ;
+inline
+void
+initDenseElementRange
+(
+uint32_t
+destStart
+NativeObject
+*
+src
+)
+;
 template
 <
 typename
