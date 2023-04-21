@@ -3804,12 +3804,6 @@ autoenablesItems
 =
 NO
 ;
-myMenu
-.
-allowsContextMenuPlugIns
-=
-NO
-;
 return
 myMenu
 ;
