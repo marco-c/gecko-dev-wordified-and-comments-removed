@@ -1297,6 +1297,10 @@ return
 rv
 ;
 }
+HandlePopoverTargetAction
+(
+)
+;
 }
 }
 if
