@@ -1220,6 +1220,12 @@ WorkerType
 :
 :
 Module
+&
+&
+aWorkerScriptType
+!
+=
+DebuggerScript
 )
 {
 if
@@ -2681,6 +2687,12 @@ Module
 &
 !
 aIsMainScript
+&
+&
+!
+IsDebuggerScript
+(
+)
 )
 {
 mRv
@@ -3159,6 +3171,11 @@ WorkerType
 :
 :
 Classic
+|
+|
+IsDebuggerScript
+(
+)
 )
 {
 request
