@@ -287,6 +287,13 @@ FileDescriptorUtils
 h
 "
 #
+include
+"
+replace_malloc_bridge
+.
+h
+"
+#
 ifdef
 MOZ_WIDGET_ANDROID
 #
