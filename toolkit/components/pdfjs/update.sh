@@ -247,7 +247,9 @@ content
 /
 PdfJsDefaultPreferences
 .
-jsm
+sys
+.
+mjs
 "
 "
 GECKO_PATH
@@ -262,7 +264,9 @@ content
 /
 PdfJsDefaultPreferences
 .
-jsm
+sys
+.
+mjs
 "
 rsync
 -
