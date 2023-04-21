@@ -60,6 +60,21 @@ arm64
 v8a
 "
     
+if
+product
+=
+=
+"
+geckoview_example
+"
+:
+        
+architecture
+=
+"
+aarch64
+"
+    
 commit_info
 =
 subprocess
