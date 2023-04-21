@@ -3295,7 +3295,7 @@ LengthPercentage
 aCoord
 )
 {
-NS_WARNING_ASSERTION
+NS_ASSERTION
 (
 aPercentBasis
 !
