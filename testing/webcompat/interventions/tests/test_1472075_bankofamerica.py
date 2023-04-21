@@ -26,6 +26,9 @@ mark
 skip_platforms
 (
 "
+android
+"
+"
 windows
 "
 )
@@ -72,6 +75,9 @@ mark
 .
 skip_platforms
 (
+"
+android
+"
 "
 windows
 "

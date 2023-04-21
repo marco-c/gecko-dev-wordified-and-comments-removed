@@ -162,6 +162,9 @@ mark
 skip_platforms
 (
 "
+android
+"
+"
 mac
 "
 )
@@ -195,6 +198,9 @@ mark
 .
 skip_platforms
 (
+"
+android
+"
 "
 mac
 "
