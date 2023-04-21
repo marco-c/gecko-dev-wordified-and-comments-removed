@@ -313,6 +313,16 @@ AD_LINK
 "
 ad_link
 "
+AD_SIDEBAR
+:
+"
+ad_sidebar
+"
+AD_SITELINK
+:
+"
+ad_sitelink
+"
 }
 }
 ;
