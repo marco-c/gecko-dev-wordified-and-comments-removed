@@ -3857,6 +3857,12 @@ if
 element
 )
 {
+aEvent
+.
+preventDefault
+(
+)
+;
 return
 ;
 }
