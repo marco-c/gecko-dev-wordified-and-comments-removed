@@ -1341,16 +1341,6 @@ browser
 /
 components
 /
-colorways
-/
-*
-*
-"
-"
-browser
-/
-components
-/
 customizableui
 /
 *
