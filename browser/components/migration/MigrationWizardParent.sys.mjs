@@ -149,9 +149,7 @@ brand
 ftl
 "
 "
-locales
--
-preview
+browser
 /
 migrationWizard
 .

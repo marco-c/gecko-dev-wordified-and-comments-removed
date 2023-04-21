@@ -462,14 +462,7 @@ name
 -
 firefox
 =
-{
--
-brand
--
-product
--
-name
-}
+Firefox
 migration
 -
 wizard

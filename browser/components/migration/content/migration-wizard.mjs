@@ -2697,9 +2697,7 @@ MozXULElement
 insertFTLIfNeeded
 (
 "
-locales
--
-preview
+browser
 /
 migrationWizard
 .
