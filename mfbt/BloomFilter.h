@@ -152,11 +152,7 @@ kKeyMask
 1
 <
 <
-(
 KeySize
--
-3
-)
 )
 -
 1
