@@ -235,6 +235,9 @@ mPBackgroundEventTarget
 )
 public
 :
+class
+VideoEngineArray
+;
 friend
 DeliverFrameRunnable
 ;
@@ -640,6 +643,13 @@ nsCOMPtr
 nsISerialEventTarget
 >
 mVideoCaptureThread
+;
+const
+RefPtr
+<
+VideoEngineArray
+>
+mEngines
 ;
 ShmemPool
 mShmemPool
