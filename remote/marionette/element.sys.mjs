@@ -3599,6 +3599,14 @@ case
 "
 [
 object
+DOMTokenList
+]
+"
+:
+case
+"
+[
+object
 FileList
 ]
 "
