@@ -20322,16 +20322,6 @@ onscrollend
 Atom
 (
 "
-onbeforetoggle
-"
-"
-onbeforetoggle
-"
-)
-    
-Atom
-(
-"
 moz_extension
 "
 "
