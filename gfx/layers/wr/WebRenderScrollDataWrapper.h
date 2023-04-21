@@ -457,6 +457,14 @@ GetDescendantCount
 (
 )
 ;
+MOZ_ASSERT
+(
+prevSiblingIndex
+<
+=
+mContainingSubtreeLastIndex
+)
+;
 size_t
 subtreeLastIndex
 =
