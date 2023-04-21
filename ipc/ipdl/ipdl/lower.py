@@ -28181,13 +28181,20 @@ md
 )
 :
         
+actor
+=
+md
+.
+actorDecl
+(
+)
+        
 actorvar
 =
-ExprVar
-(
-"
 actor
-"
+.
+var
+(
 )
         
 method
@@ -28199,7 +28206,6 @@ self
 makeDtorMethodDecl
 (
 md
-actorvar
 )
 )
         
@@ -28262,7 +28268,11 @@ self
 dtorEpilogue
 (
 md
-actorvar
+actor
+.
+var
+(
+)
 )
             
 +
@@ -28319,13 +28329,20 @@ md
 )
 :
         
+actor
+=
+md
+.
+actorDecl
+(
+)
+        
 actorvar
 =
-ExprVar
-(
-"
 actor
-"
+.
+var
+(
 )
         
 method
@@ -28337,7 +28354,6 @@ self
 makeDtorMethodDecl
 (
 md
-actorvar
 )
 )
         
@@ -28501,7 +28517,11 @@ self
 dtorEpilogue
 (
 md
-actorvar
+actor
+.
+var
+(
+)
 )
 +
 [
@@ -29279,6 +29299,9 @@ genBlockingSendMethod
 (
 self
 md
+fromActor
+=
+None
 )
 :
         
@@ -29303,6 +29326,7 @@ makeMessage
 (
 md
 errfnSend
+fromActor
 )
         
 replyvar
@@ -29734,6 +29758,9 @@ self
 invokeRecvHandler
 (
 md
+implicit
+=
+False
 )
             
 +
@@ -29771,9 +29798,15 @@ self
 dtorEpilogue
 (
 md
-ExprVar
+md
 .
-THIS
+actorDecl
+(
+)
+.
+var
+(
+)
 )
             
 +
@@ -30019,11 +30052,33 @@ fromActor
         
 this
 =
-fromActor
-or
 ExprVar
 .
 THIS
+        
+if
+md
+.
+decl
+.
+type
+.
+isDtor
+(
+)
+:
+            
+this
+=
+md
+.
+actorDecl
+(
+)
+.
+var
+(
+)
         
 stmts
 =
@@ -32847,6 +32902,9 @@ invokeRecvHandler
 (
 self
 md
+implicit
+=
+True
 )
 :
         
@@ -32935,6 +32993,10 @@ retcallsems
 "
 out
 "
+                    
+implicit
+=
+implicit
                 
 )
             
@@ -33022,7 +33084,6 @@ makeDtorMethodDecl
 (
 self
 md
-actorvar
 )
 :
         
@@ -33033,54 +33094,6 @@ self
 makeSendMethodDecl
 (
 md
-)
-        
-decl
-.
-params
-.
-insert
-(
-            
-0
-            
-Decl
-(
-                
-_cxxInType
-(
-                    
-ipdl
-.
-type
-.
-ActorType
-(
-md
-.
-decl
-.
-type
-.
-constructedType
-(
-)
-)
-                    
-side
-=
-self
-.
-side
-                
-)
-                
-actorvar
-.
-name
-            
-)
-        
 )
         
 decl
