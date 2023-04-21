@@ -58,6 +58,11 @@ bool
 save_chartjson_result
 bool
 export_perf_results_new_api
+std
+:
+:
+string
+webrtc_test_metrics_output_path
 absl
 :
 :

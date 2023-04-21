@@ -1106,6 +1106,13 @@ GetFlag
 (
 FLAGS_export_perf_results_new_api
 )
+absl
+:
+:
+GetFlag
+(
+FLAGS_webrtc_test_metrics_output_path
+)
 metrics_to_plot
 )
 ;
