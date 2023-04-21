@@ -51290,6 +51290,7 @@ Document
 IsScriptEnabled
 (
 )
+const
 {
 if
 (
@@ -74631,6 +74632,7 @@ Document
 HasScriptsBlockedBySandbox
 (
 )
+const
 {
 return
 mSandboxFlags

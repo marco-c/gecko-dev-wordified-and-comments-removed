@@ -6359,6 +6359,7 @@ bool
 IsScriptEnabled
 (
 )
+const
 ;
 bool
 LoadedFromPrototype
@@ -11051,6 +11052,7 @@ bool
 HasScriptsBlockedBySandbox
 (
 )
+const
 ;
 void
 ReportHasScrollLinkedEffect
