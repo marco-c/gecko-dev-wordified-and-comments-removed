@@ -142,6 +142,15 @@ safari
 -
 permission
 "
+SAFARI_PASSWORD_PERMISSION
+:
+"
+safari
+-
+password
+-
+permission
+"
 NO_BROWSERS_FOUND
 :
 "
