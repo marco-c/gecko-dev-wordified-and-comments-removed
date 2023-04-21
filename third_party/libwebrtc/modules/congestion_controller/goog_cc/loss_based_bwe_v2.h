@@ -267,6 +267,8 @@ optional
 DataRate
 >
 probe_bitrate
+DataRate
+upper_link_capacity
 )
 ;
 private
@@ -533,6 +535,11 @@ slope_of_bwe_high_loss_func
 ;
 bool
 probe_integration_enabled
+=
+false
+;
+bool
+bound_by_upper_link_capacity_when_loss_limited
 =
 false
 ;
@@ -1002,6 +1009,16 @@ PlusInfinity
 ;
 DataRate
 delay_based_estimate_
+=
+DataRate
+:
+:
+PlusInfinity
+(
+)
+;
+DataRate
+upper_link_capacity_
 =
 DataRate
 :
