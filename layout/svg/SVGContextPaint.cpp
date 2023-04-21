@@ -1113,6 +1113,16 @@ aOpacity
 aImgParams
 )
 ;
+if
+(
+!
+pattern
+)
+{
+return
+nullptr
+;
+}
 {
 gfxMatrix
 m
