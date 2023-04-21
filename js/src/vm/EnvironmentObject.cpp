@@ -21661,7 +21661,7 @@ callee
 )
 -
 >
-needsSomeEnvironmentObject
+needsFunctionEnvironmentObjects
 (
 )
 )
