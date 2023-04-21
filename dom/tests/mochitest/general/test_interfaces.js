@@ -2555,6 +2555,16 @@ true
 name
 :
 "
+GPUAdapterInfo
+"
+nightly
+:
+true
+}
+{
+name
+:
+"
 GPUBindGroup
 "
 nightly
