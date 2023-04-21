@@ -1926,6 +1926,14 @@ GetCachedHyperTextOffsets
 )
 override
 ;
+template
+<
+class
+>
+friend
+class
+RemoteAccessibleBase
+;
 private
 :
 uintptr_t
