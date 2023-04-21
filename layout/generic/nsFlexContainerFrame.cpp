@@ -3995,7 +3995,7 @@ PerFragmentFlexData
 final
 {
 nscoord
-mSumOfChildrenBSize
+mCumulativeContentBoxBSize
 =
 0
 ;
@@ -18007,7 +18007,7 @@ NS_UNCONSTRAINEDSIZE
 {
 fragmentData
 .
-mSumOfChildrenBSize
+mCumulativeContentBoxBSize
 +
 =
 std
@@ -21039,7 +21039,7 @@ flexWM
 =
 aFragmentData
 .
-mSumOfChildrenBSize
+mCumulativeContentBoxBSize
 ;
 framePos
 .
