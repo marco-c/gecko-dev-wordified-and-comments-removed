@@ -1706,11 +1706,14 @@ notifyObservers
 (
 null
 "
-trrservice
+network
+:
+trr
 -
 confirmation
--
-failed
+"
+"
+CONFIRM_FAILED
 "
 )
 ;
