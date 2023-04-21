@@ -2351,12 +2351,6 @@ TimeStamp
 >
 mShutdownStartedAt
 ;
-Atomic
-<
-bool
->
-mShutdownStarted
-;
 nsCString
 mQuotaManagerShutdownSteps
 ;

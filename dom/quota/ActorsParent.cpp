@@ -14093,7 +14093,9 @@ aStepDescription
 {
 MOZ_ASSERT
 (
-mShutdownStarted
+IsShuttingDown
+(
+)
 )
 ;
 RecordShutdownStep
@@ -14324,10 +14326,6 @@ this
 (
 )
 {
-gShutdown
-=
-true
-;
 mShutdownStartedAt
 .
 init
@@ -14340,7 +14338,7 @@ NowLoRes
 )
 )
 ;
-mShutdownStarted
+gShutdown
 =
 true
 ;
