@@ -723,6 +723,17 @@ America
 Tortola
 "
 "
+America
+/
+Yellowknife
+"
+:
+"
+America
+/
+Yellowknife
+"
+"
 Antarctica
 /
 DumontDUrville
