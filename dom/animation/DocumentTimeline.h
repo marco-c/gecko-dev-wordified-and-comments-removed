@@ -234,7 +234,7 @@ Animation
 *
 aAnimation
 bool
-visible
+aIsVisible
 )
 override
 ;

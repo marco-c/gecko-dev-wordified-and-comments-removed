@@ -290,7 +290,7 @@ Animation
 *
 aAnimation
 bool
-visible
+aIsVisible
 )
 ;
 virtual
