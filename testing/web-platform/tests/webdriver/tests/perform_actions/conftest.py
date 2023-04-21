@@ -399,11 +399,11 @@ webdriver
 /
 tests
 /
-perform_actions
-/
 support
 /
-test_actions_wdspec
+html
+/
+test_actions
 .
 html
 "
