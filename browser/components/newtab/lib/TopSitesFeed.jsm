@@ -4335,6 +4335,7 @@ withPinned
 [
 index
 ]
+?
 .
 sponsored_position
 )
