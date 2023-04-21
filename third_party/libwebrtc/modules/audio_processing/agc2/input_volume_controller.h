@@ -96,6 +96,11 @@ struct
 Config
 {
 int
+min_input_volume
+=
+20
+;
+int
 clipped_level_min
 =
 70
@@ -126,13 +131,13 @@ int
 target_range_max_dbfs
 =
 -
-18
+30
 ;
 int
 target_range_min_dbfs
 =
 -
-48
+50
 ;
 int
 update_input_volume_wait_frames
