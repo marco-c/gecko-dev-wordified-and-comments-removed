@@ -198,12 +198,6 @@ using
 mozilla
 :
 :
-IsInfinite
-;
-using
-mozilla
-:
-:
 IsNegativeZero
 ;
 using
@@ -3243,7 +3237,10 @@ IncludesInfinityAndNaN
 }
 if
 (
-IsInfinite
+std
+:
+:
+isinf
 (
 d
 )

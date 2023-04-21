@@ -6037,10 +6037,10 @@ else
 {
 MOZ_ASSERT
 (
-mozilla
+std
 :
 :
-IsInfinite
+isinf
 (
 number
 )

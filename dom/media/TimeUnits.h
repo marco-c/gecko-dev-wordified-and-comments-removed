@@ -244,13 +244,10 @@ aValue
 ;
 if
 (
-mozilla
+std
 :
 :
-IsInfinite
-<
-double
->
+isinf
 (
 aValue
 )

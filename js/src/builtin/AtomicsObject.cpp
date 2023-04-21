@@ -3206,10 +3206,10 @@ else
 if
 (
 !
-mozilla
+std
 :
 :
-IsInfinite
+isinf
 (
 timeout_ms
 )
