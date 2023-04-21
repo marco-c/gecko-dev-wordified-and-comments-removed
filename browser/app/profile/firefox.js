@@ -989,7 +989,7 @@ snapshot
 .
 intervalSec
 "
-1800
+3600
 )
 ;
 #
