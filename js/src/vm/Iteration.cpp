@@ -8827,7 +8827,7 @@ str
 NativeIteratorListIter
 iter
 (
-cx
+obj
 -
 >
 compartment
@@ -8901,7 +8901,7 @@ if
 MOZ_LIKELY
 (
 !
-cx
+obj
 -
 >
 compartment
@@ -8987,7 +8987,7 @@ if
 MOZ_LIKELY
 (
 !
-cx
+obj
 -
 >
 compartment

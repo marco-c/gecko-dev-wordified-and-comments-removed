@@ -2893,7 +2893,7 @@ newInitializedLength
 ;
 if
 (
-cx
+obj
 -
 >
 compartment
