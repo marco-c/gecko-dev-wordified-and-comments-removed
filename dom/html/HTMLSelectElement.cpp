@@ -4976,7 +4976,7 @@ true
 }
 }
 return
-nsGenericHTMLElement
+nsGenericHTMLFormControlElementWithState
 :
 :
 ParseAttribute
