@@ -60,17 +60,6 @@ job
 -
 defaults
 :
-attributes
-:
-artifact_prefix
-:
-project
-/
-gecko
-/
-mac
--
-sdk
 worker
 -
 type

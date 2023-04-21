@@ -747,11 +747,6 @@ local
 toolchain
 :
 false
-artifact_prefix
-:
-project
-/
-civet
 index
 :
 job
