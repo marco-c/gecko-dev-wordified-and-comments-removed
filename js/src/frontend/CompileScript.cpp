@@ -834,6 +834,9 @@ input_
 )
 ;
 }
+#
+ifdef
+DEBUG
 static
 bool
 isGCSafe
@@ -964,6 +967,8 @@ scriptHasNoGC
 cacheHasNoGC
 ;
 }
+#
+endif
 bool
 JS
 :
