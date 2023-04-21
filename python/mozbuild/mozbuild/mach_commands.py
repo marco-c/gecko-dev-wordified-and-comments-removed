@@ -721,6 +721,12 @@ continue_on_error
 Boolean
             
 "
+requires_export
+"
+:
+Boolean
+            
+"
 cargo_build_flags
 "
 :
@@ -1292,12 +1298,27 @@ join
 cargo_extra_flags
 )
     
+requires_export
+=
+yaml_config
+.
+get
+(
+"
+requires_export
+"
+bool
+(
+cargo_build_flags
+)
+)
+    
 ret
 =
 0
     
 if
-cargo_build_flags
+requires_export
 :
         
 deps
