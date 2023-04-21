@@ -1010,7 +1010,7 @@ gesture
 and
 the
 same
-site
+origin
 '
 )
 ;
@@ -1080,7 +1080,7 @@ called
 with
 an
 invalid
-site
+origin
 '
 )
 ;
