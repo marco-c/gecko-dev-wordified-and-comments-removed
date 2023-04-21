@@ -1709,7 +1709,7 @@ browser
 setAttribute
 (
 "
-selectmenuconstrained
+constrainpopups
 "
 "
 false

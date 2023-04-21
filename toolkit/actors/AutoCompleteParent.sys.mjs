@@ -1457,6 +1457,15 @@ maxRows
 10
 ;
 }
+browser
+.
+constrainPopup
+(
+this
+.
+openedPopup
+)
+;
 this
 .
 openedPopup
