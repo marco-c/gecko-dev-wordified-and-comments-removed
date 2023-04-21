@@ -96,6 +96,15 @@ h
 #
 ifndef
 MOZ_STORAGE_SORTWARNING_SQL_DUMP
+#
+include
+"
+mozilla
+/
+Logging
+.
+h
+"
 extern
 mozilla
 :
