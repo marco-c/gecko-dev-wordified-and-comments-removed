@@ -76,10 +76,8 @@ default
 title
 :
 "
-Design
-System
-/
-Atoms
+UI
+Widgets
 /
 Button
 "

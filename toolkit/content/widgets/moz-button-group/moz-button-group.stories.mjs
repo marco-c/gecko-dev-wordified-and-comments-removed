@@ -99,12 +99,8 @@ default
 title
 :
 "
-Design
-System
-/
-Experiments
-/
-MozButtonGroup
+Button
+Group
 "
 component
 :
