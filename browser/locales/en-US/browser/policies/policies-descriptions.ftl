@@ -604,7 +604,7 @@ logins
 .
 policy
 -
-DisablePocket
+DisablePocket2
 =
 Disable
 the
@@ -613,7 +613,14 @@ to
 save
 webpages
 to
-Pocket
+{
+-
+pocket
+-
+brand
+-
+name
+}
 .
 policy
 -
