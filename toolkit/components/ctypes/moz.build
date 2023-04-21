@@ -36,7 +36,9 @@ EXTRA_JS_MODULES
 "
 ctypes
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS
