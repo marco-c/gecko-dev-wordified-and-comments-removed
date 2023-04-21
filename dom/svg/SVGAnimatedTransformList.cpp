@@ -738,10 +738,6 @@ transformType
 aValue
 )
 ;
-aPreventCachingOfSandwich
-=
-false
-;
 return
 aValue
 .

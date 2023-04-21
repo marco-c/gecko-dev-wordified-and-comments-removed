@@ -659,10 +659,6 @@ aValue
 =
 val
 ;
-aPreventCachingOfSandwich
-=
-false
-;
 return
 NS_OK
 ;

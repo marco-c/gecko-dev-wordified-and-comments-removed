@@ -483,10 +483,6 @@ move
 val
 )
 ;
-aPreventCachingOfSandwich
-=
-false
-;
 for
 (
 uint32_t
