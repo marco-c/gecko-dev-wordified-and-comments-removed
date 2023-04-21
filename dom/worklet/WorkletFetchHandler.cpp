@@ -371,8 +371,10 @@ nsIURI
 >
 mURI
 ;
+nsCOMPtr
+<
 nsIURI
-*
+>
 mReferrer
 ;
 const
