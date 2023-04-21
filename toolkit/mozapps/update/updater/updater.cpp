@@ -12187,14 +12187,6 @@ rv
 OK
 )
 {
-if
-(
-rv
-=
-=
-OK
-)
-{
 NS_tchar
 updateSettingsPath
 [
@@ -12295,7 +12287,6 @@ get
 MOZ_APP_VERSION
 )
 ;
-}
 }
 }
 #
