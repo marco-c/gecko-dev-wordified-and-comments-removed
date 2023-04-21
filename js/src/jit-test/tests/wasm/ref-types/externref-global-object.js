@@ -60,7 +60,8 @@ assertEq
 g
 .
 value
-null
+void
+0
 )
 ;
 assertErrorMessage
