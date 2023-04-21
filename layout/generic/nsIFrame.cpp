@@ -561,6 +561,13 @@ h
 #
 include
 "
+nsGfxScrollFrame
+.
+h
+"
+#
+include
+"
 nsCSSAnonBoxes
 .
 h
