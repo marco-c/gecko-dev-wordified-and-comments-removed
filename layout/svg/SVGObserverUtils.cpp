@@ -1899,12 +1899,11 @@ eSVG
 )
 |
 |
-SVGUtils
-:
-:
+frame
+-
+>
 IsInSVGTextSubtree
 (
-frame
 )
 "
 SVG

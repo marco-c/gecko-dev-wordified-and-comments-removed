@@ -330,12 +330,11 @@ svgframe
 if
 (
 !
-SVGUtils
-:
-:
+frame
+-
+>
 IsInSVGTextSubtree
 (
-frame
 )
 )
 {
