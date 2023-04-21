@@ -126,7 +126,9 @@ autofill
 /
 FormAutofillPrompter
 .
-jsm
+sys
+.
+mjs
 (
 .
 /
@@ -134,7 +136,9 @@ android
 /
 FormAutofillPrompter
 .
-jsm
+sys
+.
+mjs
 )
 res
 /
@@ -142,7 +146,9 @@ autofill
 /
 FormAutofillStorage
 .
-jsm
+sys
+.
+mjs
 (
 .
 /
@@ -150,7 +156,9 @@ android
 /
 FormAutofillStorage
 .
-jsm
+sys
+.
+mjs
 )
 #
 else
@@ -160,7 +168,9 @@ autofill
 /
 FormAutofillPrompter
 .
-jsm
+sys
+.
+mjs
 (
 .
 /
@@ -168,7 +178,9 @@ default
 /
 FormAutofillPrompter
 .
-jsm
+sys
+.
+mjs
 )
 res
 /
@@ -176,7 +188,9 @@ autofill
 /
 FormAutofillStorage
 .
-jsm
+sys
+.
+mjs
 (
 .
 /
@@ -184,7 +198,9 @@ default
 /
 FormAutofillStorage
 .
-jsm
+sys
+.
+mjs
 )
 #
 endif
