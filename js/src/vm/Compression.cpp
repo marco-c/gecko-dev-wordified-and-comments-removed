@@ -1280,6 +1280,7 @@ avail_out
 =
 outlen
 ;
+volatile
 int
 ret
 =
