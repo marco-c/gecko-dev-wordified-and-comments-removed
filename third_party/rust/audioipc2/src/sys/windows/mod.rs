@@ -278,13 +278,13 @@ cubeb
 pipe
 -
 {
+pid
 }
 -
 {
+pipe_id
 }
 "
-pid
-pipe_id
 )
 }
 impl
