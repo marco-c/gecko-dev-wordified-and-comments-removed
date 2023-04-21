@@ -203,9 +203,20 @@ Frame
 nsFileControlFrame
 "
 "
-Block
+FileControl
 "
 LEAF
+)
+    
+Frame
+(
+"
+FileControlLabelFrame
+"
+"
+Block
+"
+NOT_LEAF
 )
     
 Frame
@@ -1339,6 +1350,13 @@ WBRFrame
 Wbr
 "
 LEAF
+)
+    
+AbstractFrame
+(
+"
+MiddleCroppingBlockFrame
+"
 )
     
 AbstractFrame
