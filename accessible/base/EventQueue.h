@@ -50,9 +50,9 @@ aEvent
 bool
 PushNameOrDescriptionChange
 (
-LocalAccessible
+AccEvent
 *
-aTarget
+aOrigEvent
 )
 ;
 void
