@@ -9650,6 +9650,10 @@ buttons
 :
 [
 ]
+touchEvents
+:
+[
+]
 mapping
 :
 GamepadMapping
