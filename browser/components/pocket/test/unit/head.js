@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 pktApi
-"
+:
 "
 chrome
 :
@@ -17,8 +17,11 @@ content
 /
 pktApi
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 XPCOMUtils
