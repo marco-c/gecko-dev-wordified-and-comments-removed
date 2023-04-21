@@ -4108,6 +4108,12 @@ GetScriptLoadContext
 IsLinkPreloadScript
 (
 )
+aRequest
+-
+>
+IsModuleRequest
+(
+)
 )
 ;
 if

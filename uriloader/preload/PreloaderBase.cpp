@@ -582,6 +582,8 @@ Document
 aDocument
 bool
 aIsPreload
+bool
+aIsModule
 )
 {
 if
@@ -627,6 +629,10 @@ aIsPreload
 ;
 if
 (
+!
+aIsModule
+&
+&
 !
 mIsUsed
 &
@@ -688,6 +694,8 @@ Document
 aDocument
 bool
 aIsPreload
+bool
+aIsModule
 )
 {
 NotifyOpen
@@ -695,6 +703,7 @@ NotifyOpen
 aKey
 aDocument
 aIsPreload
+aIsModule
 )
 ;
 mChannel
