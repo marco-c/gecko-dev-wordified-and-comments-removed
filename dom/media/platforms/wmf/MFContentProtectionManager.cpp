@@ -26,6 +26,13 @@ MFMediaEngineUtils
 .
 h
 "
+#
+include
+"
+WMF
+.
+h
+"
 namespace
 mozilla
 {

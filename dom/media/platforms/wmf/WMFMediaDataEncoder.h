@@ -39,6 +39,13 @@ WMFDataEncoderUtils
 .
 h
 "
+#
+include
+"
+WMFUtils
+.
+h
+"
 namespace
 mozilla
 {
