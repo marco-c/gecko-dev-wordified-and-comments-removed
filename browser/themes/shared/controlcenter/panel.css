@@ -4506,10 +4506,9 @@ button
 not
 (
 :
+focus
 -
-moz
--
-focusring
+visible
 )
 :
 hover
@@ -4544,10 +4543,9 @@ button
 not
 (
 :
+focus
 -
-moz
--
-focusring
+visible
 )
 :
 hover
