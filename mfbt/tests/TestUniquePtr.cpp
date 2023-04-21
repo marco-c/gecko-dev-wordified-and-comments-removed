@@ -2048,9 +2048,9 @@ FreeSignature
 (
 new
 int
-(
+[
 42
-)
+]
 DeleteIntFunction
 )
 ;
@@ -2068,9 +2068,9 @@ reset
 (
 new
 int
-(
+[
 76
-)
+]
 )
 ;
 CHECK
