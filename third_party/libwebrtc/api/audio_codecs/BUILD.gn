@@ -437,11 +437,6 @@ g722
 :
 audio_decoder_g722
 "
-"
-isac
-:
-audio_decoder_isac
-"
 ]
 defines
 =
@@ -593,11 +588,6 @@ audio_encoder_g711
 g722
 :
 audio_encoder_g722
-"
-"
-isac
-:
-audio_encoder_isac
 "
 ]
 defines
