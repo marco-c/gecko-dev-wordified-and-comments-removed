@@ -884,8 +884,13 @@ if
 (
 sel
 .
-requireResidentKey
+residentKey
 (
+)
+.
+EqualsLiteral
+(
+MOZ_WEBAUTHN_RESIDENT_KEY_REQUIREMENT_REQUIRED
 )
 )
 {
