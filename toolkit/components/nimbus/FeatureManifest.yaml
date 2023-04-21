@@ -6538,7 +6538,7 @@ newtab
 '
 ping
 "
-gleanMetricConfiguration
+metricsDisabled
 :
 type
 :

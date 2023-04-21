@@ -905,7 +905,7 @@ is_empty
 glean
 :
 :
-glean_set_metrics_enabled_config
+glean_set_metrics_disabled_config
 (
 "
 {
@@ -921,7 +921,7 @@ to_owned
 glean
 :
 :
-glean_set_metrics_enabled_config
+glean_set_metrics_disabled_config
 (
 config_json
 .
