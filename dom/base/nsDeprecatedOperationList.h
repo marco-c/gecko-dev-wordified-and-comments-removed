@@ -60,10 +60,6 @@ AppCache
 )
 DEPRECATED_OPERATION
 (
-PrefixedImageSmoothingEnabled
-)
-DEPRECATED_OPERATION
-(
 LenientSetter
 )
 DEPRECATED_OPERATION

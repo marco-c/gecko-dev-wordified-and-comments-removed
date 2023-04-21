@@ -15,9 +15,6 @@ InstallTrigger
 farthestViewportElement
 "
 "
-mozImageSmoothingEnabled
-"
-"
 mozPreservesPitch
 "
 "
