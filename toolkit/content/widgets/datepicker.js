@@ -75,6 +75,12 @@ focusDay
 (
 )
 ;
+window
+.
+PICKER_READY
+=
+true
+;
 document
 .
 dispatchEvent
