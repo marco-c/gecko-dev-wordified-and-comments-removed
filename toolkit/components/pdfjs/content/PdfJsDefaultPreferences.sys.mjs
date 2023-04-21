@@ -125,13 +125,6 @@ License
 *
 /
 /
-*
-eslint
--
-disable
-*
-/
-/
 /
 /
 /
