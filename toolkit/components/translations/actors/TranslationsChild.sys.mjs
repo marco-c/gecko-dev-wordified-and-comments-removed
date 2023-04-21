@@ -1871,7 +1871,7 @@ this
 messageId
 +
 +
-isLoggingEnabled
+logLevel
 :
 Services
 .
@@ -1887,12 +1887,6 @@ translations
 logLevel
 "
 )
-=
-=
-=
-"
-All
-"
 }
 )
 ;
