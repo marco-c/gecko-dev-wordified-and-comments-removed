@@ -36,6 +36,13 @@ org
 /
 xhtml
 "
+class
+=
+"
+reftest
+-
+wait
+"
 >
 <
 title
