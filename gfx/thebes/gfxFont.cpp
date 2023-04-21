@@ -20749,6 +20749,12 @@ Uppercase
 }
 }
 ;
+const
+char16_t
+maskChar
+=
+0
+;
 bool
 mergeNeeded
 =
@@ -20763,6 +20769,7 @@ Some
 (
 globalTransform
 )
+maskChar
 false
 aLanguage
 charsToMergeArray

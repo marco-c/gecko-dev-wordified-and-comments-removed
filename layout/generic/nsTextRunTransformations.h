@@ -385,7 +385,6 @@ nsTransformingTextRunFactory
 {
 public
 :
-explicit
 nsCaseTransformTextRunFactory
 (
 mozilla
@@ -398,8 +397,8 @@ nsTransformingTextRunFactory
 aInnerTransformingTextRunFactory
 bool
 aAllUppercase
-=
-false
+char16_t
+aMaskChar
 )
 :
 mInnerTransformingTextRunFactory
@@ -415,6 +414,10 @@ aInnerTransformingTextRunFactory
 mAllUppercase
 (
 aAllUppercase
+)
+mMaskChar
+(
+aMaskChar
 )
 {
 }
@@ -464,6 +467,8 @@ StyleTextTransform
 >
 &
 aGlobalTransform
+char16_t
+aMaskChar
 bool
 aCaseTransformsOnly
 const
@@ -526,6 +531,9 @@ mInnerTransformingTextRunFactory
 ;
 bool
 mAllUppercase
+;
+char16_t
+mMaskChar
 ;
 }
 ;
