@@ -4225,8 +4225,6 @@ return
 false
 ;
 }
-if
-(
 rep
 -
 >
@@ -4234,8 +4232,7 @@ updateForReplacement
 (
 def
 )
-)
-{
+;
 #
 ifdef
 JS_JITSPEW
@@ -4365,11 +4362,6 @@ the
 worklist
 "
 )
-;
-}
-def
-=
-rep
 ;
 }
 }

@@ -3701,13 +3701,8 @@ MDefinition
 dom
 )
 ;
-[
-[
-nodiscard
-]
-]
 virtual
-bool
+void
 updateForReplacement
 (
 MDefinition
@@ -3715,9 +3710,6 @@ MDefinition
 ins
 )
 {
-return
-true
-;
 }
 void
 setVirtualRegister
@@ -29958,7 +29950,7 @@ ins
 const
 override
 ;
-bool
+void
 updateForReplacement
 (
 MDefinition
