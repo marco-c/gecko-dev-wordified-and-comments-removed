@@ -938,6 +938,9 @@ JSTracer
 trc
 )
 {
+AutoTouchingGrayThings
+atgt
+;
 traceWeakWeakRefEdges
 (
 trc
