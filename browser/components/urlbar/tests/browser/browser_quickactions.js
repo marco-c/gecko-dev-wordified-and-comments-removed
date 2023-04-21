@@ -1582,6 +1582,8 @@ component
 is
 active
 "
+200
+100
 )
 ;
 info
