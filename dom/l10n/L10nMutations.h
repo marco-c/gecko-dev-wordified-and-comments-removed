@@ -139,6 +139,11 @@ mBlockingLoad
 =
 false
 ;
+bool
+mPendingBlockingLoadFlush
+=
+false
+;
 uint32_t
 mPendingPromises
 =
@@ -212,6 +217,12 @@ aElement
 MOZ_CAN_RUN_SCRIPT
 void
 FlushPendingTranslations
+(
+)
+;
+MOZ_CAN_RUN_SCRIPT
+void
+FlushPendingTranslationsBeforeLoad
 (
 )
 ;
