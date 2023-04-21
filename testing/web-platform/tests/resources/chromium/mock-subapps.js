@@ -186,7 +186,7 @@ result
 :
 testInternal
 .
-serviceResultCode
+removeCallReturnValue
 }
 )
 ;
@@ -213,6 +213,10 @@ listCallReturnValue
 :
 [
 ]
+removeCallReturnValue
+:
+[
+]
 }
 class
 SubAppsServiceTestChromium
@@ -234,6 +238,7 @@ initialize
 service_result_code
 add_call_return_value
 list_call_return_value
+remove_call_return_value
 )
 {
 if
@@ -265,6 +270,9 @@ add_call_return_value
 listCallReturnValue
 :
 list_call_return_value
+removeCallReturnValue
+:
+remove_call_return_value
 }
 ;
 }
@@ -307,6 +315,10 @@ addCallReturnValue
 [
 ]
 listCallReturnValue
+:
+[
+]
+removeCallReturnValue
 :
 [
 ]
