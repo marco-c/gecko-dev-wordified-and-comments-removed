@@ -99,6 +99,13 @@ browser
 .
 ini
 "
+"
+test
+/
+browser_http3
+.
+ini
+"
 ]
 with
 Files
