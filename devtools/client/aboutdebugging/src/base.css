@@ -2476,12 +2476,6 @@ link
 color
 )
 ;
-text
--
-decoration
-:
-none
-;
 }
 a
 :
@@ -2499,12 +2493,6 @@ color
 -
 hover
 )
-;
-text
--
-decoration
-:
-underline
 ;
 }
 a
