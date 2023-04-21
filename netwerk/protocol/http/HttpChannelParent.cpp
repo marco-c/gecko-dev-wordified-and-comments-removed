@@ -1025,6 +1025,11 @@ a
 classicScriptHintCharset
 (
 )
+a
+.
+documentCharacterSet
+(
+)
 )
 ;
 }
@@ -2266,6 +2271,10 @@ const
 nsAString
 &
 aClassicScriptHintCharset
+const
+nsAString
+&
+aDocumentCharacterSet
 )
 {
 MOZ_ASSERT
@@ -2772,6 +2781,14 @@ httpChannel
 SetClassicScriptHintCharset
 (
 aClassicScriptHintCharset
+)
+;
+httpChannel
+-
+>
+SetDocumentCharacterSet
+(
+aDocumentCharacterSet
 )
 ;
 if

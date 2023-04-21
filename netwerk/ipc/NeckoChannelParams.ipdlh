@@ -913,6 +913,9 @@ redirectionLimit
 nsString
 classicScriptHintCharset
 ;
+nsString
+documentCharacterSet
+;
 }
 ;
 struct
