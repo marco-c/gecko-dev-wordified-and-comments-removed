@@ -2925,7 +2925,7 @@ ps_split_composite
 :
 LazilyCompiledShader
 pub
-ps_quad
+ps_quad_textured
 :
 LazilyCompiledShader
 pub
@@ -3726,7 +3726,7 @@ None
 }
 ;
 let
-ps_quad
+ps_quad_textured
 =
 LazilyCompiledShader
 :
@@ -3738,7 +3738,7 @@ ShaderKind
 :
 Primitive
 "
-ps_quad
+ps_quad_textured
 "
 &
 [
@@ -4571,7 +4571,7 @@ cs_clip_box_shadow
 cs_clip_image
 ps_text_run
 ps_text_run_dual_source
-ps_quad
+ps_quad_textured
 ps_split_composite
 ps_clear
 ps_copy
@@ -4724,7 +4724,7 @@ Primitive
 mut
 self
 .
-ps_quad
+ps_quad_textured
 }
 BatchKind
 :
@@ -5459,7 +5459,7 @@ device
 ;
 self
 .
-ps_quad
+ps_quad_textured
 .
 deinit
 (
