@@ -438,7 +438,7 @@ level_estimator
 estimator
 -
 >
-IsConfident
+is_confident
 (
 )
 )
@@ -479,7 +479,7 @@ level_estimator
 estimator
 -
 >
-IsConfident
+is_confident
 (
 )
 )
@@ -655,7 +655,7 @@ level_estimator
 estimator
 -
 >
-IsConfident
+is_confident
 (
 )
 )
