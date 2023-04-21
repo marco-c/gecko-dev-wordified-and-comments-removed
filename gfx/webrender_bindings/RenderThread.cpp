@@ -2101,6 +2101,12 @@ windowId
 aWindowId
 ]
 (
+const
+layers
+:
+:
+RemoteTextureInfo
+&
 )
 {
 RefPtr
