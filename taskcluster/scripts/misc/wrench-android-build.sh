@@ -180,6 +180,9 @@ frozen
 -
 -
 verbose
+-
+-
+lib
 elif
 [
 "
@@ -213,6 +216,9 @@ frozen
 -
 -
 verbose
+-
+-
+lib
 -
 -
 release
