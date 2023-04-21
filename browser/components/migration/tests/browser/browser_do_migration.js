@@ -387,7 +387,9 @@ resourceTypes
 .
 BOOKMARKS
 ]
-null
+InternalTestingProfileMigrator
+.
+testProfile
 )
 ;
 await
@@ -633,7 +635,9 @@ resourceTypes
 .
 PASSWORDS
 ]
-null
+InternalTestingProfileMigrator
+.
+testProfile
 )
 ;
 await
@@ -896,7 +900,9 @@ waitForTestMigration
 (
 allResourceTypes
 allResourceTypes
-null
+InternalTestingProfileMigrator
+.
+testProfile
 )
 ;
 await
@@ -1052,7 +1058,9 @@ resourceTypes
 .
 BOOKMARKS
 ]
-null
+InternalTestingProfileMigrator
+.
+testProfile
 )
 ;
 await

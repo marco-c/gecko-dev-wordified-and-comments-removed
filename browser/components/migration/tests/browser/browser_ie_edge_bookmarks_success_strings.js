@@ -141,7 +141,9 @@ resourceTypes
 .
 BOOKMARKS
 ]
-null
+InternalTestingProfileMigrator
+.
+testProfile
 )
 ;
 await

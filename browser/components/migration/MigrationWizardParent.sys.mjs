@@ -1000,6 +1000,7 @@ migrator
 .
 getMigrateData
 (
+profileObj
 )
 ;
 let
