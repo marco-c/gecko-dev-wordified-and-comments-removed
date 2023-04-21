@@ -1720,7 +1720,9 @@ test
 /
 PermissionTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 "
 gfx

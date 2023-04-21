@@ -15,7 +15,9 @@ test
 /
 PermissionTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 ]
 EXPORTS
