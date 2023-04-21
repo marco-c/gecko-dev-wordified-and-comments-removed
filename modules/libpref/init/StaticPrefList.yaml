@@ -74492,7 +74492,7 @@ type
 RelaxedAtomicBool
 value
 :
-false
+IS_NIGHTLY_BUILD
 mirror
 :
 always
@@ -74568,7 +74568,7 @@ type
 RelaxedAtomicBool
 value
 :
-true
+IS_NOT_NIGHTLY_BUILD
 mirror
 :
 always
@@ -84262,7 +84262,7 @@ ifdef
 NIGHTLY_BUILD
 value
 :
-50
+100
 #
 else
 value
@@ -84300,7 +84300,7 @@ type
 RelaxedAtomicBool
 value
 :
-false
+IS_NIGHTLY_BUILD
 mirror
 :
 always
@@ -84327,7 +84327,7 @@ type
 RelaxedAtomicBool
 value
 :
-true
+IS_NOT_NIGHTLY_BUILD
 mirror
 :
 always
