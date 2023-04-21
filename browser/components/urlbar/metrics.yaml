@@ -608,6 +608,7 @@ heuristic
 adaptive_history
 search_history
 search_suggest
+trending_search
 top_pick
 top_site
 remote_tab
@@ -712,6 +713,7 @@ tip_persist
 tip_redirect
 tip_unknown
 top_site
+trending_search
 unit
 url
 weather
@@ -1302,6 +1304,7 @@ tip_persist
 tip_redirect
 tip_unknown
 top_site
+trending_search
 unit
 url
 weather
@@ -1564,6 +1567,7 @@ heuristic
 adaptive_history
 search_history
 search_suggest
+trending_search
 top_pick
 top_site
 remote_tab
@@ -1685,6 +1689,7 @@ tip_persist
 tip_redirect
 tip_unknown
 top_site
+trending_search
 unit
 url
 weather
@@ -2279,6 +2284,7 @@ heuristic
 adaptive_history
 search_history
 search_suggest
+trending_search
 top_pick
 top_site
 remote_tab
@@ -2383,6 +2389,7 @@ tip_persist
 tip_redirect
 tip_unknown
 top_site
+trending_search
 unit
 url
 weather
