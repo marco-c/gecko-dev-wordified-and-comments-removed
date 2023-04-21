@@ -26,15 +26,6 @@ for
 #
 Linux
 )
-UPLOAD_DIR
-=
-HOME
-/
-project
-/
-gecko
-/
-jdk
 AVD_JSON_CONFIG
 =
 "
@@ -43,9 +34,6 @@ AVD_JSON_CONFIG
 mkdir
 -
 p
-HOME
-/
-artifacts
 UPLOAD_DIR
 #
 Populate
