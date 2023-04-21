@@ -6300,15 +6300,6 @@ None
 win_try_job
 (
 "
-win_x64_clang_dbg_win10
-"
-cq
-=
-None
-)
-win_try_job
-(
-"
 win_compile_x64_clang_dbg
 "
 )
