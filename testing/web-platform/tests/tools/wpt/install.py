@@ -87,6 +87,14 @@ webkitgtk_minibrowser
 '
 nightly
 '
+    
+'
+wktr
+'
+:
+'
+main
+'
 }
 channel_by_name
 =
@@ -360,6 +368,9 @@ servo
 '
 '
 safari
+'
+'
+wktr
 '
 ]
                         
@@ -884,16 +895,38 @@ prefix
 +
 suffix
     
-browser_cls
+if
+name
 =
-getattr
-(
-browser
+=
+"
+wktr
+"
+:
+        
+canonical_name
+=
+"
+WebKitTestRunner
+"
+    
+else
+:
+        
+canonical_name
+=
 name
 .
 title
 (
 )
+    
+browser_cls
+=
+getattr
+(
+browser
+canonical_name
 )
     
 logger
