@@ -494,10 +494,8 @@ menu
 {
 padding
 :
-.
-3em
-.
-4em
+4px
+6px
 ;
 }
 menubar
@@ -618,8 +616,7 @@ border
 -
 bottom
 :
-.
-2em
+3px
 solid
 transparent
 ;
@@ -627,8 +624,7 @@ padding
 -
 bottom
 :
-.
-1em
+1px
 ;
 border
 -
