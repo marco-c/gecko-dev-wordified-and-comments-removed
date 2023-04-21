@@ -160,6 +160,9 @@ GET
 _ns
 }
 ;
+nsCString
+mContentType
+;
 nsTHashMap
 <
 nsCStringHashKey
