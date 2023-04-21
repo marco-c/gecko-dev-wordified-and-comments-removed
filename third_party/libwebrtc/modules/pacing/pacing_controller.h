@@ -565,6 +565,13 @@ int
 num_iterations
 )
 ;
+void
+RemovePacketsForSsrc
+(
+uint32_t
+ssrc
+)
+;
 private
 :
 TimeDelta

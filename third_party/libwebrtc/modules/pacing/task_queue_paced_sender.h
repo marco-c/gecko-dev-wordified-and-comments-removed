@@ -268,6 +268,14 @@ packets
 override
 ;
 void
+RemovePacketsForSsrc
+(
+uint32_t
+ssrc
+)
+override
+;
+void
 CreateProbeClusters
 (
 std
