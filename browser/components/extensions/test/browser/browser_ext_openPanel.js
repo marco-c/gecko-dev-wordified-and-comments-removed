@@ -331,6 +331,11 @@ html
 "
 }
 }
+startupReason
+:
+"
+APP_STARTUP
+"
 files
 :
 {
