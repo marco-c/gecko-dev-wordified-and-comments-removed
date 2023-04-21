@@ -374,10 +374,6 @@ const
 bool
 no_bitrate_increase_in_alr_
 ;
-const
-bool
-estimate_bounded_backoff_
-;
 FieldTrialFlag
 disable_estimate_bounded_increase_
 {
