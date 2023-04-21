@@ -87502,13 +87502,14 @@ by
 which
 it
 is
+ever
 acceptable
 to
 delay
 the
 firing
 of
-any
+a
 timer
 .
 #
@@ -87536,7 +87537,7 @@ ifdef
 NIGHTLY_BUILD
 value
 :
-1
+100
 .
 0
 #
