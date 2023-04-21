@@ -599,8 +599,6 @@ value
 )
 ;
 }
-else
-{
 work
 .
 push
@@ -618,7 +616,6 @@ value
 ]
 )
 ;
-}
 }
 if
 (
