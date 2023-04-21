@@ -1582,11 +1582,9 @@ configure
 defaultConfig
 )
 ;
-assert_throws_dom
+assert_throws_js
 (
-"
-OperationError
-"
+TypeError
 (
 )
 =
