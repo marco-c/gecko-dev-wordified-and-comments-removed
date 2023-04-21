@@ -1073,10 +1073,10 @@ el
 .
 ty
 {
-RefType
+ValType
 :
 :
-FUNCREF
+FuncRef
 =
 >
 wasm_encoder
@@ -1112,8 +1112,6 @@ ref_null
 el
 .
 ty
-.
-heap_type
 )
 }
 }

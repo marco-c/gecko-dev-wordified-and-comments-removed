@@ -11330,10 +11330,12 @@ V128
 ValType
 :
 :
-Ref
-(
-_
-)
+FuncRef
+|
+ValType
+:
+:
+ExternRef
 =
 >
 {
