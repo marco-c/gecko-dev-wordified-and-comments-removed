@@ -302,6 +302,14 @@ const
 FieldTrialsView
 &
 trials
+absl
+:
+:
+optional
+<
+TimeDelta
+>
+pacer_burst_interval
 )
 ;
 ~

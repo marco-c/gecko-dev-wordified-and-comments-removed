@@ -1888,6 +1888,15 @@ vpn_list
 PortAllocatorConfig
 port_allocator_config
 ;
+absl
+:
+:
+optional
+<
+TimeDelta
+>
+pacer_burst_interval
+;
 }
 ;
 struct

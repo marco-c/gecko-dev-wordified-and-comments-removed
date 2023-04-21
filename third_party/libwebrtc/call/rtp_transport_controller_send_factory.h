@@ -98,6 +98,9 @@ task_queue_factory
 config
 .
 trials
+config
+.
+pacer_burst_interval
 )
 ;
 }
