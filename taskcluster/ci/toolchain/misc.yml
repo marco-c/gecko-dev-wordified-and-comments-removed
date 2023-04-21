@@ -1847,6 +1847,11 @@ vs
 tar
 .
 zst
+toolchain
+-
+alias
+:
+vs
 win64
 -
 vs2019
@@ -1921,11 +1926,6 @@ vs
 tar
 .
 zst
-toolchain
--
-alias
-:
-vs
 linux64
 -
 afl
