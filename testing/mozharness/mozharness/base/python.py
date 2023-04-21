@@ -3161,6 +3161,41 @@ expected_python_debug_exe
                                 
 )
             
+venv_creation_flags
+=
+[
+"
+-
+m
+"
+"
+venv
+"
+venv_path
+]
+            
+if
+self
+.
+_is_windows
+(
+)
+:
+                
+venv_creation_flags
+=
+venv_creation_flags
++
+[
+"
+-
+-
+without
+-
+pip
+"
+]
+            
 self
 .
 mkdir_p
@@ -3182,22 +3217,9 @@ run_command
 sys
 .
 executable
-"
--
-m
-"
-"
-venv
-"
-"
--
--
-without
--
-pip
-"
-venv_path
 ]
++
+venv_creation_flags
                 
 cwd
 =
@@ -3218,11 +3240,19 @@ True
             
 )
             
+if
+self
+.
+_is_windows
+(
+)
+:
+                
 self
 .
 run_command
 (
-                
+                    
 [
 str
 (
@@ -3243,7 +3273,7 @@ default
 pip
 "
 ]
-                
+                    
 cwd
 =
 dirs
@@ -3252,11 +3282,11 @@ dirs
 abs_work_dir
 "
 ]
-                
+                    
 halt_on_failure
 =
 True
-            
+                
 )
             
 self

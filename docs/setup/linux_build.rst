@@ -366,9 +366,6 @@ curl
 python3
 python3
 -
-dev
-python3
--
 pip
 -
 For
@@ -379,9 +376,6 @@ sudo
 dnf
 install
 python3
-python3
--
-devel
 python3
 -
 pip
