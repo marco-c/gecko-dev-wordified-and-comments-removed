@@ -8011,6 +8011,12 @@ case
 JSOp
 :
 :
+GetFrameArg
+:
+case
+JSOp
+:
+:
 SetArg
 :
 case
