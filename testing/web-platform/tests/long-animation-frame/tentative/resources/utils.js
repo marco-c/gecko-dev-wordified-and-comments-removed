@@ -102,9 +102,8 @@ entry
 .
 duration
 >
+=
 very_long_frame_duration
--
-5
 )
 {
 observer
