@@ -104,7 +104,7 @@ do
 {
 \
 JxlDecoderStatus
-status
+_status
 =
 (
 expr
@@ -113,7 +113,7 @@ expr
 \
 if
 (
-status
+_status
 !
 =
 JXL_DEC_SUCCESS
