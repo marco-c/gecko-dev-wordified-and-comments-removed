@@ -6436,10 +6436,6 @@ mingwclang
 "
                 
 "
-nightlyasrelease
-"
-                
-"
 shippable
 "
                 
