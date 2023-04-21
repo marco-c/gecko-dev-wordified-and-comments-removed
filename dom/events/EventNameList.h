@@ -330,6 +330,13 @@ eBasicEventClass
 )
 EVENT
 (
+beforetoggle
+eBeforeToggle
+EventNameType_HTMLXUL
+eBasicEventClass
+)
+EVENT
+(
 bounce
 eMarqueeBounce
 EventNameType_HTMLMarqueeOnly
