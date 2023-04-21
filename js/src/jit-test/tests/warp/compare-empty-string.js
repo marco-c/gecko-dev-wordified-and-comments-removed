@@ -4,13 +4,6 @@ strings
 [
 "
 "
-newRope
-(
-"
-"
-"
-"
-)
 newString
 (
 "
