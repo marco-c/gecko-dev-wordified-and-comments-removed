@@ -1158,6 +1158,19 @@ getMaxRecordPayloadSize
 (
 )
 ;
+const
+maxSerializedSize
+=
+(
+maxPayloadSize
+/
+4
+)
+*
+3
+-
+1500
+;
 Assert
 .
 ok
@@ -1167,7 +1180,7 @@ computeSerializedSize
 a_lot_of_tabs
 )
 >
-maxPayloadSize
+maxSerializedSize
 )
 ;
 let
@@ -1189,7 +1202,7 @@ computeSerializedSize
 tabs
 )
 <
-maxPayloadSize
+maxSerializedSize
 )
 ;
 }
