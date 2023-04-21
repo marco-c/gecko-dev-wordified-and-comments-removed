@@ -296,17 +296,6 @@ nsAString
 &
 aElementId
 )
-const
-;
-Element
-*
-GetElementById
-(
-nsAtom
-*
-aElementId
-)
-const
 ;
 inline
 const
@@ -613,7 +602,6 @@ void
 ReportEmptyGetElementByIdArg
 (
 )
-const
 ;
 MOZ_CAN_RUN_SCRIPT
 void
