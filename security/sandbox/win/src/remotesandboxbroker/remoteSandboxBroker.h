@@ -200,7 +200,10 @@ RemoteSandboxBroker
 LaunchParameters
 mParameters
 ;
+RefPtr
+<
 RemoteSandboxBrokerParent
+>
 mParent
 ;
 nsCOMPtr
