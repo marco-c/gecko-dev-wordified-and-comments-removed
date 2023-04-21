@@ -819,6 +819,14 @@ DLL_SUFFIX
 endif
 #
 endif
+#
+ifdef
+MOZ_GTK
+BINPATH
+/
+vaapitest
+#
+endif
 ;
 [
 Components
