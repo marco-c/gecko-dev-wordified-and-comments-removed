@@ -95,7 +95,7 @@ ExperimentStore
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -108,7 +108,9 @@ lib
 /
 ExperimentStore
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

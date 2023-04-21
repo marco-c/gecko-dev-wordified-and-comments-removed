@@ -6142,7 +6142,7 @@ ExperimentManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -6155,7 +6155,9 @@ lib
 /
 ExperimentManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

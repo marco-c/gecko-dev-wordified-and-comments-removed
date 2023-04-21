@@ -13,7 +13,7 @@ ExperimentFeature
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -24,7 +24,9 @@ nimbus
 /
 ExperimentAPI
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

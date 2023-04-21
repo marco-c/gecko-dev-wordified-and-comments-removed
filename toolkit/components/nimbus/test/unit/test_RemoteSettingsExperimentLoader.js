@@ -10,7 +10,7 @@ ExperimentFakes
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ common
 /
 NimbusTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -34,7 +36,7 @@ ExperimentManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +49,9 @@ lib
 /
 ExperimentManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -59,7 +63,7 @@ EnrollmentsContext
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -72,7 +76,9 @@ lib
 /
 RemoteSettingsExperimentLoader
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

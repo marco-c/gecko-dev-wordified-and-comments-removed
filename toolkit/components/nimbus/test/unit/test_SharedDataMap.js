@@ -5,7 +5,7 @@ SharedDataMap
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ lib
 /
 SharedDataMap
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

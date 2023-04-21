@@ -123,9 +123,9 @@ logLevel
 }
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -140,7 +140,9 @@ nimbus
 /
 ExperimentAPI
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

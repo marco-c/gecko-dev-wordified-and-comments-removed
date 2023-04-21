@@ -29,9 +29,9 @@ mjs
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 this
 {
@@ -48,7 +48,9 @@ lib
 /
 ExperimentManager
 .
-jsm
+sys
+.
+mjs
 "
 ExperimentTestUtils
 :
@@ -63,7 +65,9 @@ common
 /
 NimbusTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 ExperimentFakes
 :
@@ -78,7 +82,9 @@ common
 /
 NimbusTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

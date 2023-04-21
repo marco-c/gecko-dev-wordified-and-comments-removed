@@ -10,7 +10,7 @@ ExperimentStore
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ lib
 /
 ExperimentStore
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -34,7 +36,7 @@ ExperimentFakes
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +49,9 @@ common
 /
 NimbusTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -58,7 +62,7 @@ ExperimentAPI
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -69,7 +73,9 @@ nimbus
 /
 ExperimentAPI
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
