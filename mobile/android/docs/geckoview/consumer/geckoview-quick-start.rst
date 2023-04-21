@@ -90,9 +90,9 @@ github
 .
 io
 /
-android
+firefox
 -
-components
+android
 /
 >
 _
