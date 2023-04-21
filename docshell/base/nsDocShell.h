@@ -3694,6 +3694,11 @@ mRequestForBlockingFromBFCacheCount
 uint64_t
 mChannelToDisconnectOnPageHide
 ;
+uint32_t
+mPendingReloadCount
+=
+0
+;
 bool
 mCreatingDocument
 ;
