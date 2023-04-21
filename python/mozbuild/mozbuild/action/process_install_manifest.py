@@ -511,7 +511,7 @@ start
 =
 time
 .
-time
+monotonic
 (
 )
     
@@ -552,7 +552,7 @@ elapsed
 =
 time
 .
-time
+monotonic
 (
 )
 -

@@ -787,7 +787,7 @@ time_start
 =
 time
 .
-time
+monotonic
 (
 )
     
@@ -1012,7 +1012,7 @@ wall_time
 =
 time
 .
-time
+monotonic
 (
 )
 -

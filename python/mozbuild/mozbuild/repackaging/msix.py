@@ -4421,7 +4421,7 @@ start
 =
 time
 .
-time
+monotonic
 (
 )
     
@@ -4452,7 +4452,7 @@ log_copy_result
 log
 time
 .
-time
+monotonic
 (
 )
 -

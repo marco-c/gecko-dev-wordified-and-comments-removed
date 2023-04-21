@@ -823,7 +823,7 @@ start
 =
 time
 .
-time
+monotonic
 (
 )
             
@@ -857,9 +857,10 @@ False
             
 print_copy_result
 (
+                
 time
 .
-time
+monotonic
 (
 )
 -
@@ -869,6 +870,7 @@ result
 verbose
 =
 verbose
+            
 )
         
 destdir
@@ -894,7 +896,7 @@ start
 =
 time
 .
-time
+monotonic
 (
 )
         
@@ -930,7 +932,7 @@ print_copy_result
 (
 time
 .
-time
+monotonic
 (
 )
 -
