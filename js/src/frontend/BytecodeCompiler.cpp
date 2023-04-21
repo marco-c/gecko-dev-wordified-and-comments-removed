@@ -311,7 +311,7 @@ ifdef
 DEBUG
 JSContext
 *
-cx_
+maybeCx_
 ;
 FrontendContext
 *
@@ -333,7 +333,7 @@ FrontendContext
 fc
 )
 :
-cx_
+maybeCx_
 (
 cx
 )
@@ -373,8 +373,11 @@ return
 }
 if
 (
+maybeCx_
+&
+&
 !
-cx_
+maybeCx_
 -
 >
 runtime
@@ -392,8 +395,11 @@ return
 }
 if
 (
+maybeCx_
+&
+&
 !
-cx_
+maybeCx_
 -
 >
 isHelperThreadContext
@@ -403,7 +409,7 @@ isHelperThreadContext
 {
 MOZ_ASSERT
 (
-cx_
+maybeCx_
 -
 >
 isExceptionPending
@@ -1218,7 +1224,7 @@ CompileGlobalScriptToStencilAndMaybeInstantiate
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -1258,6 +1264,10 @@ output
 #
 ifdef
 JS_ENABLE_SMOOSH
+if
+(
+maybeCx
+)
 {
 UniquePtr
 <
@@ -1270,7 +1280,7 @@ if
 !
 TrySmoosh
 (
-cx
+maybeCx
 fc
 stackLimit
 input
@@ -1300,7 +1310,7 @@ populateDelazificationCache
 &
 &
 !
-cx
+maybeCx
 -
 >
 isHelperThreadContext
@@ -1317,7 +1327,7 @@ extensibleStencil
 ;
 StartOffThreadDelazification
 (
-cx
+maybeCx
 input
 .
 options
@@ -1337,7 +1347,7 @@ waitForDelazificationCache
 {
 WaitForAllDelazifyTasks
 (
-cx
+maybeCx
 -
 >
 runtime
@@ -1475,7 +1485,7 @@ if
 !
 InstantiateStencils
 (
-cx
+maybeCx
 input
 borrowingStencil
 *
@@ -1551,7 +1561,7 @@ false
 AutoAssertReportedException
 assertException
 (
-cx
+maybeCx
 fc
 )
 ;
@@ -1641,7 +1651,7 @@ compiler
 .
 compile
 (
-cx
+maybeCx
 &
 globalsc
 )
@@ -1663,7 +1673,7 @@ populateDelazificationCache
 &
 &
 !
-cx
+maybeCx
 -
 >
 isHelperThreadContext
@@ -1683,7 +1693,7 @@ stencil
 ;
 StartOffThreadDelazification
 (
-cx
+maybeCx
 input
 .
 options
@@ -1703,7 +1713,7 @@ waitForDelazificationCache
 {
 WaitForAllDelazifyTasks
 (
-cx
+maybeCx
 -
 >
 runtime
@@ -1812,14 +1822,14 @@ pseudoFrame
 ;
 if
 (
-cx
+maybeCx
 )
 {
 pseudoFrame
 .
 emplace
 (
-cx
+maybeCx
 "
 script
 emit
@@ -1952,7 +1962,7 @@ if
 !
 InstantiateStencils
 (
-cx
+maybeCx
 input
 borrowingStencil
 *
@@ -1999,7 +2009,7 @@ CompileGlobalScriptToStencilImpl
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -2056,7 +2066,7 @@ if
 !
 CompileGlobalScriptToStencilAndMaybeInstantiate
 (
-cx
+maybeCx
 fc
 stackLimit
 tempLifoAlloc
@@ -2219,7 +2229,7 @@ CompileGlobalScriptToExtensibleStencilImpl
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -2270,10 +2280,10 @@ if
 !
 CompileGlobalScriptToStencilAndMaybeInstantiate
 (
-cx
+maybeCx
 fc
 stackLimit
-cx
+maybeCx
 -
 >
 tempLifoAlloc
@@ -2319,7 +2329,7 @@ CompileGlobalScriptToExtensibleStencil
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -2350,7 +2360,7 @@ scopeKind
 return
 CompileGlobalScriptToExtensibleStencilImpl
 (
-cx
+maybeCx
 fc
 stackLimit
 input
@@ -2618,7 +2628,7 @@ CompileGlobalScriptImpl
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -2653,7 +2663,7 @@ CompilationInput
 >
 input
 (
-cx
+maybeCx
 CompilationInput
 (
 options
@@ -2666,7 +2676,7 @@ CompilationGCOutput
 >
 gcOutput
 (
-cx
+maybeCx
 )
 ;
 BytecodeCompilerOutput
@@ -2687,10 +2697,10 @@ if
 !
 CompileGlobalScriptToStencilAndMaybeInstantiate
 (
-cx
+maybeCx
 fc
 stackLimit
-cx
+maybeCx
 -
 >
 tempLifoAlloc
@@ -2732,7 +2742,7 @@ CompileGlobalScript
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -2764,7 +2774,7 @@ scopeKind
 return
 CompileGlobalScriptImpl
 (
-cx
+maybeCx
 fc
 stackLimit
 options
@@ -2782,7 +2792,7 @@ CompileGlobalScript
 (
 JSContext
 *
-cx
+maybeCx
 FrontendContext
 *
 fc
@@ -2814,7 +2824,7 @@ scopeKind
 return
 CompileGlobalScriptImpl
 (
-cx
+maybeCx
 fc
 stackLimit
 options
@@ -3874,7 +3884,7 @@ compile
 (
 JSContext
 *
-cx
+maybeCx
 SharedContext
 *
 sc
@@ -3941,14 +3951,14 @@ pseudoFrame
 ;
 if
 (
-cx
+maybeCx
 )
 {
 pseudoFrame
 .
 emplace
 (
-cx
+maybeCx
 "
 script
 parsing
@@ -4038,14 +4048,14 @@ pseudoFrame
 ;
 if
 (
-cx
+maybeCx
 )
 {
 pseudoFrame
 .
 emplace
 (
-cx
+maybeCx
 "
 script
 emit
