@@ -110,6 +110,7 @@ waitForElement
 findElement
 getSelector
 findElementWithSelector
+createLocation
 }
 )
 ;
