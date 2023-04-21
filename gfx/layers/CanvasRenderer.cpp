@@ -570,11 +570,9 @@ UsingSoftwareWebRender
 widget
 :
 :
-GetDMABufDevice
-(
-)
--
->
+nsDMABufDevice
+:
+:
 IsDMABufWebGLEnabled
 (
 )
