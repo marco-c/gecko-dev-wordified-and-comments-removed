@@ -3885,9 +3885,6 @@ memory_order_seq_cst
 ifdef
 XP_WIN
 DWORD
-oldProtect
-;
-DWORD
 flags
 =
 ProtectionSettingToFlags
@@ -3898,13 +3895,12 @@ protection
 if
 (
 !
-VirtualProtect
+VirtualAlloc
 (
 pageStart
 size
+MEM_COMMIT
 flags
-&
-oldProtect
 )
 )
 {
