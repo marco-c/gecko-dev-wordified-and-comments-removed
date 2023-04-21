@@ -7302,7 +7302,9 @@ mingw
 :
 [
 "
-release
+mozilla
+-
+central
 "
 ]
 .
