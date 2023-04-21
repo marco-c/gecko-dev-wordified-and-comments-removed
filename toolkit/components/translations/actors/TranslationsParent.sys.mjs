@@ -3881,9 +3881,8 @@ for
 const
 record
 of
-this
+TranslationsParent
 .
-#
 ensureLanguagePairsHavePivots
 (
 translationModelRecords
@@ -4033,7 +4032,6 @@ records
 *
 /
 static
-#
 ensureLanguagePairsHavePivots
 (
 records
@@ -5679,9 +5677,8 @@ TranslationsParent
 #
 mockedLanguagePairs
 =
-this
+TranslationsParent
 .
-#
 ensureLanguagePairsHavePivots
 (
 languagePairs
