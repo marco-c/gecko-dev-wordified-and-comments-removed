@@ -812,6 +812,10 @@ GetFocusDelegate
 (
 bool
 aWithMouse
+bool
+aAutofocusOnly
+=
+false
 )
 const
 ;
