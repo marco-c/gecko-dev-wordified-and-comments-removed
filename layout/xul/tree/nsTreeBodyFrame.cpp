@@ -1489,6 +1489,10 @@ ToInteger
 err
 )
 ;
+mHasFixedRowCount
+=
+true
+;
 }
 }
 if
@@ -1920,9 +1924,13 @@ GetIntrinsicBSize
 )
 {
 return
+mHasFixedRowCount
+?
 mRowHeight
 *
 mPageLength
+:
+0
 ;
 }
 void
@@ -12687,6 +12695,7 @@ if
 !
 mHasFixedRowCount
 )
+{
 mPageLength
 =
 (
@@ -12705,6 +12714,7 @@ mRowHeight
 :
 mRowCount
 ;
+}
 if
 (
 oldPageCount
@@ -12735,7 +12745,7 @@ this
 IntrinsicDirty
 :
 :
-None
+FrameAndAncestors
 NS_FRAME_IS_DIRTY
 )
 ;
@@ -18003,9 +18013,11 @@ mView
 !
 mPageLength
 )
+{
 return
 NS_OK
 ;
+}
 if
 (
 mTopRowIndex
