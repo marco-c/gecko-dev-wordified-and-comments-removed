@@ -324,6 +324,8 @@ slot
 div
 !
 slotted
+default
+content
 :
 :
 marker

@@ -944,6 +944,8 @@ before
 div
 !
 slotted
+default
+content
 :
 :
 after

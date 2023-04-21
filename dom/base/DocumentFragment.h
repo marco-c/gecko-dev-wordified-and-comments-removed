@@ -218,7 +218,14 @@ Init
 )
 ;
 }
-virtual
+NS_IMPL_FROMNODE_HELPER
+(
+DocumentFragment
+IsDocumentFragment
+(
+)
+)
+;
 JSObject
 *
 WrapNode

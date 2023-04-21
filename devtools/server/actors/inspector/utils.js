@@ -651,17 +651,6 @@ isInXULDocument
 (
 node
 )
-&
-&
-!
-isNativeAnonymous
-(
-node
-.
-getRootNode
-(
-)
-)
 )
 {
 return

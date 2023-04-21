@@ -276,12 +276,10 @@ element
 querySelectorAll
 (
 "
-#
+.
 ruleview
 -
-no
--
-results
+rule
 "
 )
 .
