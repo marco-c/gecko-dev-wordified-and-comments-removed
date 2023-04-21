@@ -10571,7 +10571,9 @@ csp
 skipLoad
 =
 createLazyBrowser
-batchInsertingTabs
+insertTab
+=
+true
 globalHistoryOptions
 triggeringRemoteType
 }
@@ -10837,8 +10839,7 @@ skipBackgroundNotify
 ;
 if
 (
-!
-batchInsertingTabs
+insertTab
 )
 {
 this
@@ -10943,8 +10944,7 @@ lazyBrowserURI
 }
 if
 (
-!
-batchInsertingTabs
+insertTab
 )
 {
 SessionStore
@@ -11099,8 +11099,7 @@ null
 }
 if
 (
-!
-batchInsertingTabs
+insertTab
 )
 {
 this
@@ -12044,11 +12043,11 @@ ex
 }
 }
 }
-addMultipleTabs
+createTabsForSessionRestore
 (
 restoreTabsLazily
 selectTab
-aPropertiesTabs
+tabDataList
 )
 {
 let
@@ -12093,7 +12092,7 @@ i
 ;
 i
 <
-aPropertiesTabs
+tabDataList
 .
 length
 ;
@@ -12105,7 +12104,7 @@ i
 let
 tabData
 =
-aPropertiesTabs
+tabDataList
 [
 i
 ]
@@ -12349,9 +12348,9 @@ true
 bulkOrderedOpen
 :
 true
-batchInsertingTabs
+insertTab
 :
-true
+false
 skipLoad
 :
 true

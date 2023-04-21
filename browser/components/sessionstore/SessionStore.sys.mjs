@@ -28217,7 +28217,7 @@ tabs
 =
 tabbrowser
 .
-addMultipleTabs
+createTabsForSessionRestore
 (
 restoreTabsLazily
 selectTab
