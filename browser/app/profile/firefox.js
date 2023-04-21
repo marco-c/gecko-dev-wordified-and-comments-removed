@@ -6671,16 +6671,6 @@ pref
 "
 browser
 .
-ssl_override_behavior
-"
-2
-)
-;
-pref
-(
-"
-browser
-.
 zoom
 .
 full

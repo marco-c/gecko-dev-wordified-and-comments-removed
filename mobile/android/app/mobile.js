@@ -1680,16 +1680,6 @@ pref
 "
 browser
 .
-ssl_override_behavior
-"
-2
-)
-;
-pref
-(
-"
-browser
-.
 xul
 .
 error_pages
