@@ -1335,17 +1335,6 @@ mWritingMode
 )
 ;
 }
-nscoord
-GetHangFrom
-(
-const
-PerSpanData
-*
-aSpan
-bool
-aLineIsRTL
-)
-;
 gfxBreakPriority
 mLastOptionalBreakPriority
 ;
