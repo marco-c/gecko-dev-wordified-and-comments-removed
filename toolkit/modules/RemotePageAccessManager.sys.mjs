@@ -406,6 +406,11 @@ RPMGetIntPref
 :
 [
 "
+security
+.
+dialog_enable_delay
+"
+"
 services
 .
 settings
