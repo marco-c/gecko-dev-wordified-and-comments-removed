@@ -2884,7 +2884,7 @@ executeCached
 SELECT
 avg
 (
-frecency
+alt_frecency
 )
 FROM
 moz_origins
