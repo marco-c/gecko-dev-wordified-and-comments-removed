@@ -1085,6 +1085,9 @@ request
 urlopen
 (
 url
+timeout
+=
+60
 cafile
 =
 certifi
@@ -1103,6 +1106,9 @@ request
 urlopen
 (
 url
+timeout
+=
+60
 )
 as
 fh
