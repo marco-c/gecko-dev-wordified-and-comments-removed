@@ -119,17 +119,6 @@ about
 :
 firefoxview
 "
-theme
-:
-{
-preset
-:
-"
-themed
--
-content
-"
-}
 }
 )
 ;
