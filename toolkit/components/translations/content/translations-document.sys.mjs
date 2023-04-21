@@ -1427,8 +1427,10 @@ BCP
 47
 language
 tag
-.
+:
 "
++
+documentLanguage
 )
 ;
 }
