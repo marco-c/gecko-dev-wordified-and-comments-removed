@@ -396,9 +396,6 @@ TimerFd
 {
 #
 [
-cfg_attr
-(
-has_doc_alias
 doc
 (
 alias
@@ -406,7 +403,6 @@ alias
 "
 timerfd_create
 "
-)
 )
 )
 ]
@@ -465,9 +461,6 @@ fd
 }
 #
 [
-cfg_attr
-(
-has_doc_alias
 doc
 (
 alias
@@ -475,7 +468,6 @@ alias
 "
 timerfd_settime
 "
-)
 )
 )
 ]
@@ -556,9 +548,6 @@ drop
 }
 #
 [
-cfg_attr
-(
-has_doc_alias
 doc
 (
 alias
@@ -566,7 +555,6 @@ alias
 "
 timerfd_gettime
 "
-)
 )
 )
 ]
@@ -702,9 +690,6 @@ into
 }
 #
 [
-cfg_attr
-(
-has_doc_alias
 doc
 (
 alias
@@ -712,7 +697,6 @@ alias
 "
 timerfd_settime
 "
-)
 )
 )
 ]

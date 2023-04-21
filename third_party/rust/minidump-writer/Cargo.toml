@@ -222,7 +222,7 @@ memoffset
 "
 0
 .
-7
+8
 "
 minidump
 -
@@ -333,7 +333,7 @@ version
 "
 0
 .
-25
+26
 "
 features
 =
@@ -519,6 +519,9 @@ version
 features
 =
 [
+"
+handleapi
+"
 "
 minwindef
 "

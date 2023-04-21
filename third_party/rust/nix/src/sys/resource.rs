@@ -48,6 +48,13 @@ libc
 :
 rlim_t
 ;
+pub
+use
+libc
+:
+:
+RLIM_INFINITY
+;
 use
 std
 :

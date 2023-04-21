@@ -78,7 +78,7 @@ uses
 actions
 /
 checkout
-v2
+v3
 -
 name
 :

@@ -727,8 +727,6 @@ dumper
 get_stack_info
 (
 stack_pointer
-as
-usize
 )
 {
 Ok
@@ -798,8 +796,6 @@ let
 sp_offset
 =
 stack_pointer
-as
-usize
 -
 stack_ptr
 ;

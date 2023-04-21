@@ -1886,10 +1886,7 @@ std
 io
 :
 :
-{
 IoSlice
-SeekFrom
-}
 ;
 use
 std
@@ -2085,15 +2082,8 @@ new
 ;
 tmp2
 .
-seek
+rewind
 (
-SeekFrom
-:
-:
-Start
-(
-0
-)
 )
 .
 unwrap

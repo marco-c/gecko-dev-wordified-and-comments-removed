@@ -74,8 +74,6 @@ inner
 siginfo
 .
 ssi_signo
-as
-u32
 exception_flags
 :
 context
@@ -96,8 +94,6 @@ inner
 siginfo
 .
 ssi_addr
-as
-u64
 .
 .
 Default

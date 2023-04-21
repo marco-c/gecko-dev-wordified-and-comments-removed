@@ -100,9 +100,6 @@ Timer
 {
 #
 [
-cfg_attr
-(
-has_doc_alias
 doc
 (
 alias
@@ -110,7 +107,6 @@ alias
 "
 timer_create
 "
-)
 )
 )
 ]
@@ -211,9 +207,6 @@ assume_init
 }
 #
 [
-cfg_attr
-(
-has_doc_alias
 doc
 (
 alias
@@ -221,7 +214,6 @@ alias
 "
 timer_settime
 "
-)
 )
 )
 ]
@@ -303,9 +295,6 @@ drop
 }
 #
 [
-cfg_attr
-(
-has_doc_alias
 doc
 (
 alias
@@ -313,7 +302,6 @@ alias
 "
 timer_gettime
 "
-)
 )
 )
 ]
@@ -449,9 +437,6 @@ into
 }
 #
 [
-cfg_attr
-(
-has_doc_alias
 doc
 (
 alias
@@ -459,7 +444,6 @@ alias
 "
 timer_getoverrun
 "
-)
 )
 )
 ]

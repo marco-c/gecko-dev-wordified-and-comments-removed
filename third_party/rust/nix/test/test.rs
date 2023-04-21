@@ -212,6 +212,15 @@ target_os
 "
 dragonfly
 "
+all
+(
+target_os
+=
+"
+freebsd
+"
+fbsd14
+)
 target_os
 =
 "
