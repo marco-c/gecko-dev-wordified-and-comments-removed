@@ -189,6 +189,11 @@ IPDLStructMember
 h
 "
 "
+LaunchError
+.
+h
+"
+"
 LibrarySandboxPreload
 .
 h
@@ -836,6 +841,11 @@ cpp
 "
 "
 IPCStreamUtils
+.
+cpp
+"
+"
+LaunchError
 .
 cpp
 "

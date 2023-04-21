@@ -557,8 +557,11 @@ ipc
 :
 :
 LaunchError
-{
-}
+(
+"
+Java2Native
+"
+)
 ;
 }
 template

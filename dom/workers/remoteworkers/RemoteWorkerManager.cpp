@@ -2857,14 +2857,6 @@ ContentParent
 LaunchPromise
 ;
 using
-LaunchErrorType
-=
-ContentParent
-:
-:
-LaunchError
-;
-using
 CallbackParamType
 =
 LaunchPromiseType
@@ -3221,9 +3213,7 @@ LaunchPromiseType
 :
 CreateAndReject
 (
-LaunchErrorType
-(
-)
+NS_ERROR_ILLEGAL_DURING_SHUTDOWN
 __func__
 )
 ;

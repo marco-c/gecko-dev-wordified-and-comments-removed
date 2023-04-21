@@ -663,17 +663,6 @@ RemoteWorkerManager
 public
 :
 using
-LaunchError
-=
-mozilla
-:
-:
-ipc
-:
-:
-LaunchError
-;
-using
 LaunchPromise
 =
 mozilla
@@ -685,7 +674,7 @@ RefPtr
 <
 ContentParent
 >
-LaunchError
+nsresult
 false
 >
 ;
