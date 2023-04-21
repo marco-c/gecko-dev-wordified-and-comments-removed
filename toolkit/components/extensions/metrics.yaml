@@ -911,3 +911,6 @@ data_sensitivity
 :
 -
 technical
+telemetry_mirror
+:
+EXTENSIONS_APIS_DNR_EVALUATE_RULES_COUNT_MAX
