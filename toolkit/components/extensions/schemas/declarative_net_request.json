@@ -100,11 +100,6 @@ enum
 declarativeNetRequest
 "
 ]
-"
-min_manifest_version
-"
-:
-3
 }
 ]
 }
@@ -138,11 +133,6 @@ enum
 declarativeNetRequestFeedback
 "
 ]
-"
-min_manifest_version
-"
-:
-3
 }
 ]
 }
@@ -176,11 +166,6 @@ enum
 declarativeNetRequestWithHostAccess
 "
 ]
-"
-min_manifest_version
-"
-:
-3
 }
 ]
 }
@@ -209,11 +194,6 @@ type
 "
 object
 "
-"
-min_manifest_version
-"
-:
-3
 "
 optional
 "
