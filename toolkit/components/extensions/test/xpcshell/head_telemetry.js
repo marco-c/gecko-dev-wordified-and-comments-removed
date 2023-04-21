@@ -1527,9 +1527,16 @@ extensionApisDnr
 {
 metric
 }
+{
+label
+?
 .
 {
 label
+}
+:
+"
+"
 }
 (
 {
