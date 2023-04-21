@@ -226,7 +226,7 @@ DataRate
 :
 KilobitsPerSec
 (
-2500
+1500
 )
 ;
 VideoStreamConfig
