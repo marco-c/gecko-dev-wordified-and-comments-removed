@@ -559,17 +559,6 @@ DLL_SUFFIX
 endif
 #
 endif
-#
-ifdef
-MOZ_GTK
-BINPATH
-/
-vaapitest
-BINPATH
-/
-glxtest
-#
-endif
 ;
 We
 don
