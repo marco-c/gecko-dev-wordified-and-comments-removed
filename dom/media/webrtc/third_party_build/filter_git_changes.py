@@ -234,8 +234,8 @@ in
 command
 if
 x
-!
-=
+is
+not
 None
 ]
     
@@ -336,8 +336,8 @@ if
 line
 !
 =
-'
-'
+"
+"
 ]
     
 exclude_list
