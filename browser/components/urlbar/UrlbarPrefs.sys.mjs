@@ -663,7 +663,7 @@ bestMatch
 .
 blockingEnabled
 "
-false
+true
 ]
 /
 /
@@ -2309,7 +2309,7 @@ quicksuggest
 .
 blockingEnabled
 "
-false
+true
 ]
 /
 /
@@ -2918,7 +2918,7 @@ results
 "
 resultMenu
 "
-false
+true
 ]
 /
 /
