@@ -1946,8 +1946,6 @@ nsresult
 rv
 uint64_t
 aEarlyHintPreloaderId
-uint64_t
-aChannelId
 )
 {
 LOG
@@ -2021,7 +2019,6 @@ LinkParentChannel
 (
 aEarlyHintPreloaderId
 this
-aChannelId
 )
 ?
 NS_OK
@@ -2321,7 +2318,6 @@ __func__
 [
 self
 aEarlyHintPreloaderId
-aChannelId
 ]
 (
 )
@@ -2342,14 +2338,12 @@ InvokeEarlyHintPreloader
 (
 NS_OK
 aEarlyHintPreloaderId
-aChannelId
 )
 ;
 }
 [
 self
 aEarlyHintPreloaderId
-aChannelId
 ]
 (
 nsresult
@@ -2372,7 +2366,6 @@ InvokeEarlyHintPreloader
 (
 aStatus
 aEarlyHintPreloaderId
-aChannelId
 )
 ;
 }

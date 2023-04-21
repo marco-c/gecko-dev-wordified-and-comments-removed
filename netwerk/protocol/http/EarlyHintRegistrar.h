@@ -93,8 +93,6 @@ aEarlyHintPreloaderId
 nsIParentChannel
 *
 aParent
-uint64_t
-aChannelId
 )
 ;
 void

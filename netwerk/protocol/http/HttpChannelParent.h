@@ -308,8 +308,6 @@ nsresult
 rv
 uint64_t
 aEarlyHintPreloaderId
-uint64_t
-aChannelId
 )
 ;
 void
