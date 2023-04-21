@@ -44,6 +44,16 @@ RelativeTimeline
 cpp
 "
 ]
+SPHINX_TREES
+[
+"
+resistfingerprinting
+"
+]
+=
+"
+docs
+"
 FINAL_LIBRARY
 =
 "
