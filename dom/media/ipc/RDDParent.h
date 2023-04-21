@@ -51,11 +51,11 @@ PRDDParent
 {
 public
 :
-RDDParent
+NS_INLINE_DECL_REFCOUNTING
 (
+RDDParent
+final
 )
-;
-~
 RDDParent
 (
 )
@@ -387,6 +387,11 @@ RecvTestTelemetryProbes
 ;
 private
 :
+~
+RDDParent
+(
+)
+;
 const
 TimeStamp
 mLaunchTime
