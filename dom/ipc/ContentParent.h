@@ -6854,12 +6854,6 @@ AssertAlive
 (
 )
 ;
-static
-void
-DidLaunchSubprocess
-(
-)
-;
 private
 :
 RefPtr
@@ -7199,13 +7193,6 @@ sMaxContentProcesses
 static
 uint32_t
 sPageLoadEventCounter
-;
-static
-Maybe
-<
-TimeStamp
->
-sLastContentProcessLaunch
 ;
 bool
 mIsSignaledImpendingShutdown
