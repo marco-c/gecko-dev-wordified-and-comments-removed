@@ -296,13 +296,6 @@ loading
 "
 aria
 -
-live
-=
-"
-polite
-"
-aria
--
 busy
 =
 "
