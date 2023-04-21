@@ -5884,6 +5884,13 @@ resource
 -
 type
 ]
+:
+not
+(
+[
+hidden
+]
+)
 >
 input
 [
