@@ -3120,6 +3120,11 @@ mSameExceptHashes
 false
 ;
 bool
+mSecureUpgradeURI
+=
+false
+;
+bool
 mHistoryNavBetweenSameDoc
 =
 false
