@@ -67,6 +67,7 @@ prim_shared
 brush
 flat
 varying
+mediump
 vec4
 v_color
 ;

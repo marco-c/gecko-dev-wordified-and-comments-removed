@@ -58,6 +58,7 @@ MPL
 /
 flat
 varying
+highp
 vec4
 vTransformBounds
 ;

@@ -71,11 +71,13 @@ PI
 .
 141592653589793
 varying
+highp
 vec2
 v_pos
 ;
 flat
 varying
+highp
 vec2
 v_center
 ;
@@ -107,6 +109,7 @@ bug
 .
 flat
 varying
+highp
 vec3
 v_start_offset_offset_scale_angle_vec
 ;

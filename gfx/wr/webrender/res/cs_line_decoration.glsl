@@ -125,6 +125,7 @@ being
 decorated
 .
 varying
+highp
 vec2
 vLocalPos
 ;
@@ -146,11 +147,13 @@ bug
 .
 flat
 varying
+mediump
 ivec2
 vStyle
 ;
 flat
 varying
+mediump
 vec4
 vParams
 ;

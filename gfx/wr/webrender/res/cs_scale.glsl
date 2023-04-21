@@ -112,11 +112,13 @@ etc
 include
 shared
 varying
+highp
 vec2
 vUv
 ;
 flat
 varying
+highp
 vec4
 vUvRect
 ;

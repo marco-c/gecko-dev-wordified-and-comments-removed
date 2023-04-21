@@ -60,6 +60,7 @@ MPL
 include
 base
 varying
+highp
 vec4
 vData
 ;

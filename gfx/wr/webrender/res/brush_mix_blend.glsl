@@ -78,11 +78,13 @@ the
 source
 image
 varying
+highp
 vec2
 v_src_uv
 ;
 flat
 varying
+highp
 vec4
 v_src_uv_sample_bounds
 ;
@@ -96,11 +98,13 @@ the
 backdrop
 image
 varying
+highp
 vec2
 v_backdrop_uv
 ;
 flat
 varying
+highp
 vec4
 v_backdrop_uv_sample_bounds
 ;
@@ -128,6 +132,7 @@ bug
 .
 flat
 varying
+mediump
 vec2
 v_perspective
 ;
@@ -150,6 +155,7 @@ bug
 .
 flat
 varying
+mediump
 ivec2
 v_op
 ;

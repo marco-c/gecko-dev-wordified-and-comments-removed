@@ -85,6 +85,7 @@ vec2
 a_dst_texture_size
 ;
 varying
+highp
 vec2
 v_uv
 ;
@@ -193,6 +194,7 @@ vec4
 oFragColor
 ;
 varying
+highp
 vec2
 v_uv
 ;

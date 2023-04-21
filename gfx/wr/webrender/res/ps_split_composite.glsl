@@ -72,6 +72,7 @@ to
 sample
 .
 varying
+highp
 vec2
 vUv
 ;
@@ -100,11 +101,13 @@ bug
 .
 flat
 varying
+mediump
 vec2
 vPerspective
 ;
 flat
 varying
+highp
 vec4
 vUvSampleBounds
 ;

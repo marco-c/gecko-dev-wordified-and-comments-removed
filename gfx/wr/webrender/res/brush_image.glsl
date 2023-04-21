@@ -74,6 +74,7 @@ to
 sample
 .
 varying
+highp
 vec2
 v_uv
 ;
@@ -82,16 +83,19 @@ ifdef
 WR_FEATURE_ALPHA_PASS
 flat
 varying
+mediump
 vec4
 v_color
 ;
 flat
 varying
+mediump
 vec2
 v_mask_swizzle
 ;
 flat
 varying
+mediump
 vec2
 v_tile_repeat
 ;
@@ -111,6 +115,7 @@ texture
 .
 flat
 varying
+highp
 vec4
 v_uv_bounds
 ;
@@ -135,6 +140,7 @@ artifacts
 .
 flat
 varying
+highp
 vec4
 v_uv_sample_bounds
 ;
@@ -162,6 +168,7 @@ bug
 .
 flat
 varying
+mediump
 vec2
 v_perspective
 ;

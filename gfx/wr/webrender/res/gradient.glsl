@@ -78,7 +78,7 @@ bug
 .
 flat
 varying
-HIGHP_FS_ADDRESS
+highp
 ivec2
 v_gradient_address
 ;
@@ -105,6 +105,7 @@ bug
 .
 flat
 varying
+mediump
 vec2
 v_gradient_repeat
 ;

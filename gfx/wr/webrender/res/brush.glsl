@@ -1010,6 +1010,7 @@ defined
 SWGL_ANTIALIAS
 )
 varying
+highp
 vec2
 v_local_pos
 ;

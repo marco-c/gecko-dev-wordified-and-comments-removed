@@ -84,6 +84,7 @@ mediump
 #
 define
 YUV_PRECISION
+highp
 #
 ifdef
 WR_VERTEX_SHADER

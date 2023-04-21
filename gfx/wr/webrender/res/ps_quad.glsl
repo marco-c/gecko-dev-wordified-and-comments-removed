@@ -68,11 +68,13 @@ render_task
 gpu_buffer
 flat
 varying
+mediump
 vec4
 v_color
 ;
 flat
 varying
+mediump
 ivec2
 v_flags
 ;
@@ -80,6 +82,7 @@ v_flags
 ifndef
 SWGL_ANTIALIAS
 varying
+highp
 vec2
 vLocalPos
 ;

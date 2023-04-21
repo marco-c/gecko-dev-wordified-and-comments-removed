@@ -78,6 +78,7 @@ to
 sample
 .
 varying
+highp
 vec2
 v_uv
 ;
@@ -102,6 +103,7 @@ artifacts
 .
 flat
 varying
+highp
 vec4
 v_uv_sample_bounds
 ;
@@ -144,6 +146,7 @@ bug
 .
 flat
 varying
+mediump
 vec2
 v_perspective_amount
 ;
@@ -248,6 +251,7 @@ v_op_table_address_vec
 y
 flat
 varying
+mediump
 mat4
 v_color_mat
 ;
@@ -315,11 +319,13 @@ floats
 .
 flat
 varying
+mediump
 vec4
 v_funcs
 ;
 flat
 varying
+mediump
 vec4
 v_color_offset
 ;

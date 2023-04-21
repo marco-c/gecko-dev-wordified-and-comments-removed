@@ -62,11 +62,13 @@ shared
 prim_shared
 flat
 varying
+mediump
 vec4
 v_color
 ;
 flat
 varying
+mediump
 vec3
 v_mask_swizzle
 ;
@@ -84,6 +86,7 @@ texture
 .
 flat
 varying
+highp
 vec4
 v_uv_bounds
 ;
@@ -96,6 +99,7 @@ to
 sample
 .
 varying
+highp
 vec2
 v_uv
 ;
@@ -113,6 +117,7 @@ defined
 SWGL_CLIP_DIST
 )
 varying
+highp
 vec4
 v_uv_clip
 ;

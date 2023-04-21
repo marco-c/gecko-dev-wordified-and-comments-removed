@@ -64,10 +64,12 @@ include
 shared
 shared_other
 varying
+highp
 vec2
 vColorTexCoord
 ;
 varying
+mediump
 vec4
 vColor
 ;

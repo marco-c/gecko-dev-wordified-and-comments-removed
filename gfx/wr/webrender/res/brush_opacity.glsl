@@ -77,6 +77,7 @@ to
 sample
 .
 varying
+highp
 vec2
 v_uv
 ;
@@ -101,11 +102,13 @@ artifacts
 .
 flat
 varying
+highp
 vec4
 v_uv_sample_bounds
 ;
 flat
 varying
+mediump
 vec2
 v_opacity_perspective_vec
 ;

@@ -89,21 +89,25 @@ corner
 .
 flat
 varying
+mediump
 vec4
 vColor00
 ;
 flat
 varying
+mediump
 vec4
 vColor01
 ;
 flat
 varying
+mediump
 vec4
 vColor10
 ;
 flat
 varying
+mediump
 vec4
 vColor11
 ;
@@ -131,6 +135,7 @@ only
 .
 flat
 varying
+mediump
 vec4
 vColorLine
 ;
@@ -264,6 +269,7 @@ rectangle
 .
 flat
 varying
+highp
 vec4
 vClipCenter_Sign
 ;
@@ -284,6 +290,7 @@ clipping
 .
 flat
 varying
+mediump
 vec4
 vClipRadii
 ;
@@ -299,6 +306,7 @@ lines
 .
 flat
 varying
+mediump
 vec4
 vEdgeReference
 ;
@@ -321,6 +329,7 @@ FS
 .
 flat
 varying
+mediump
 vec4
 vPartialWidths
 ;
@@ -335,11 +344,13 @@ dash
 .
 flat
 varying
+mediump
 vec4
 vClipParams1
 ;
 flat
 varying
+mediump
 vec4
 vClipParams2
 ;
@@ -349,6 +360,7 @@ Local
 space
 position
 varying
+highp
 vec2
 vPos
 ;

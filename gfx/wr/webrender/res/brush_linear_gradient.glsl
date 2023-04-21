@@ -84,11 +84,13 @@ bug
 .
 flat
 varying
+mediump
 vec2
 v_start_offset
 ;
 flat
 varying
+mediump
 vec2
 v_scale_dir
 ;

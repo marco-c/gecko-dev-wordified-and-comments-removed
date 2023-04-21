@@ -60,6 +60,7 @@ MPL
 include
 shared
 varying
+mediump
 vec4
 vColor
 ;

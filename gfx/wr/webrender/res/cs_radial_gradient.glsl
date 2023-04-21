@@ -65,6 +65,7 @@ gpu_cache
 gpu_buffer
 gradient
 varying
+highp
 vec2
 v_pos
 ;
@@ -86,6 +87,7 @@ bug
 .
 flat
 varying
+highp
 vec2
 v_start_radius
 ;

@@ -61,6 +61,7 @@ include
 shared
 shared_other
 varying
+mediump
 vec4
 vColor
 ;

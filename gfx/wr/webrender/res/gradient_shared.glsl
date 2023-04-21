@@ -102,10 +102,12 @@ stops
 .
 flat
 varying
+highp
 vec2
 v_repeated_size
 ;
 varying
+highp
 vec2
 v_pos
 ;
@@ -114,6 +116,7 @@ ifdef
 WR_FEATURE_ALPHA_PASS
 flat
 varying
+highp
 vec2
 v_tile_repeat
 ;
