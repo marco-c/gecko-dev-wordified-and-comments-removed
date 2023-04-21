@@ -14467,10 +14467,10 @@ aRv
 MOZ_ASSERT
 (
 !
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 aTime
 )

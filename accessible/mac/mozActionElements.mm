@@ -921,10 +921,10 @@ MaxValue
 if
 (
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 min
 )
@@ -938,10 +938,10 @@ min
 &
 &
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 max
 )

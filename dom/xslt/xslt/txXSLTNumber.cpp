@@ -440,10 +440,10 @@ value
 )
 |
 |
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 value
 )

@@ -21571,7 +21571,10 @@ mFont
 MOZ_ASSERT
 (
 !
-IsNaN
+std
+:
+:
+isnan
 (
 float
 (
@@ -21607,7 +21610,10 @@ if
 (
 MOZ_UNLIKELY
 (
-IsNaN
+std
+:
+:
+isnan
 (
 float
 (

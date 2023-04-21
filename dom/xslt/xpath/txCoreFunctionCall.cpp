@@ -1951,10 +1951,10 @@ rv
 ;
 if
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 start
 )
@@ -2054,10 +2054,10 @@ start
 ;
 if
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 end
 )

@@ -5550,10 +5550,10 @@ ProportionValue
 }
 MOZ_RELEASE_ASSERT
 (
-mozilla
+std
 :
 :
-IsNaN
+isnan
 (
 ProportionValue
 :
