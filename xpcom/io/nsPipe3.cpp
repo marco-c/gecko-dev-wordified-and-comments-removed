@@ -1940,7 +1940,6 @@ mBuffer
 Init
 (
 aSegmentSize
-UINT32_MAX
 )
 )
 ;

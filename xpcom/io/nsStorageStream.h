@@ -195,6 +195,15 @@ mMutex
 nullptr
 ;
 uint32_t
+mMaxLogicalLength
+MOZ_GUARDED_BY
+(
+mMutex
+)
+=
+0
+;
+uint32_t
 mLogicalLength
 MOZ_GUARDED_BY
 (
