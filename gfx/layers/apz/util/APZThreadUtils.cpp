@@ -479,11 +479,5 @@ aRunnable
 ;
 }
 }
-NS_IMPL_ISUPPORTS
-(
-GenericNamedTimerCallbackBase
-nsITimerCallback
-nsINamed
-)
 }
 }
