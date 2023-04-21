@@ -5036,6 +5036,7 @@ PrintWrittenVRegisters
 (
 )
 ;
+inline
 void
 LogWrittenRegisters
 (
@@ -5054,6 +5055,7 @@ PrintWrittenRegisters
 )
 ;
 }
+inline
 void
 LogWrittenVRegisters
 (
@@ -5072,6 +5074,7 @@ PrintWrittenVRegisters
 )
 ;
 }
+inline
 void
 LogAllWrittenRegisters
 (
