@@ -70865,6 +70865,14 @@ PopoverVisibilityState
 Hidden
 )
 ;
+popoverHTMLEl
+-
+>
+HandleFocusAfterHidingPopover
+(
+aFocusPreviousElement
+)
+;
 }
 nsTArray
 <

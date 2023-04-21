@@ -1048,6 +1048,14 @@ FocusPopover
 ;
 MOZ_CAN_RUN_SCRIPT
 void
+HandleFocusAfterHidingPopover
+(
+bool
+aFocusPreviousElement
+)
+;
+MOZ_CAN_RUN_SCRIPT
+void
 FocusCandidate
 (
 Element
