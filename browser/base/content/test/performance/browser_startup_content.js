@@ -432,7 +432,9 @@ actors
 /
 CookieBannerChild
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource

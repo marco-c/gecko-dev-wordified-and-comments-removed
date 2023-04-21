@@ -1161,7 +1161,7 @@ CookieBanner
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -1174,13 +1174,15 @@ actors
 /
 CookieBannerParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -1193,7 +1195,9 @@ actors
 /
 CookieBannerChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
