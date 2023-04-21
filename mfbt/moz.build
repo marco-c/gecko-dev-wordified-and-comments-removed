@@ -555,11 +555,6 @@ Types
 h
 "
 "
-TypeTraits
-.
-h
-"
-"
 UniquePtr
 .
 h
