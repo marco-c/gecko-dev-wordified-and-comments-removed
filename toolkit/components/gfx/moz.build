@@ -24,7 +24,9 @@ EXTRA_JS_MODULES
 "
 SanityTest
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS
