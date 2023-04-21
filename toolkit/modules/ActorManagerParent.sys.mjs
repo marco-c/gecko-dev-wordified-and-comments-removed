@@ -1364,9 +1364,6 @@ MozCloseDateTimePicker
 }
 }
 }
-includeChrome
-:
-true
 allFrames
 :
 true
@@ -2627,9 +2624,6 @@ UAWidgetTeardown
 }
 }
 }
-includeChrome
-:
-true
 allFrames
 :
 true
