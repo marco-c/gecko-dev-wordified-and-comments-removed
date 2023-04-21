@@ -29,8 +29,9 @@ top
 )
 ;
 }
-test
+promise_test
 (
+async
 (
 )
 =

@@ -75,8 +75,9 @@ https
 }
 '
 ;
-test
+promise_test
 (
+async
 (
 )
 =

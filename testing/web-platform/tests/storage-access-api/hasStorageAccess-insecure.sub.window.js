@@ -13,8 +13,9 @@ processQueryParams
 (
 )
 ;
-test
+promise_test
 (
+async
 (
 )
 =
