@@ -52,7 +52,7 @@ type
 =
 =
 '
-Ready
+ConnectEvent
 '
 )
 {
