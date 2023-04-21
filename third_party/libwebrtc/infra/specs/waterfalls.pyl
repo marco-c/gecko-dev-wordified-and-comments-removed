@@ -2346,11 +2346,6 @@ timeout
 3h
 '
 '
-perf
--
-output
-'
-'
 has_native_resultdb_integration
 '
 '
