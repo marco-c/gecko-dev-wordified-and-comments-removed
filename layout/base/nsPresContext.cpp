@@ -4021,7 +4021,6 @@ nsPresContext
 :
 FlushFontCache
 (
-void
 )
 {
 if
