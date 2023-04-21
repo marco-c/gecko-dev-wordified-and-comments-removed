@@ -18,3 +18,17 @@ TEST_DIRS
 gtest
 "
 ]
+TESTING_JS_MODULES
++
+=
+[
+"
+unit
+/
+VacuumParticipant
+.
+sys
+.
+mjs
+"
+]
