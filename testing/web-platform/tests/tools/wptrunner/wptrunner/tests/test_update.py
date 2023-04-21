@@ -8,6 +8,7 @@ from
 io
 import
 BytesIO
+StringIO
 from
 unittest
 import
@@ -728,7 +729,7 @@ entries
     
 data
 =
-BytesIO
+StringIO
 (
 )
     
@@ -813,10 +814,6 @@ json
 dumps
 (
 entries
-)
-.
-encode
-(
 )
 )
     
