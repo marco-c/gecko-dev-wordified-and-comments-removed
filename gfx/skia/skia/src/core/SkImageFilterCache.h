@@ -221,6 +221,7 @@ SkRefCnt
 {
 public
 :
+SK_USE_FLUENT_IMAGE_FILTER_TYPES_IN_CLASS
 enum
 {
 kDefaultTransientSize
@@ -232,11 +233,11 @@ kDefaultTransientSize
 1024
 }
 ;
+virtual
 ~
 SkImageFilterCache
 (
 )
-override
 {
 }
 static
@@ -267,6 +268,12 @@ skif
 :
 :
 FilterResult
+<
+For
+:
+:
+kOutput
+>
 *
 result
 )
@@ -291,6 +298,12 @@ skif
 :
 :
 FilterResult
+<
+For
+:
+:
+kOutput
+>
 &
 result
 )

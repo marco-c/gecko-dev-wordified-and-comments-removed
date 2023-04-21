@@ -14,7 +14,6 @@ SkGaussFilter
 {
 public
 :
-inline
 static
 constexpr
 int

@@ -80,7 +80,6 @@ push
 struct
 SkOTTableOS2
 {
-inline
 static
 constexpr
 SK_OT_CHAR
@@ -90,7 +89,6 @@ TAG0
 O
 '
 ;
-inline
 static
 constexpr
 SK_OT_CHAR
@@ -100,7 +98,6 @@ TAG1
 S
 '
 ;
-inline
 static
 constexpr
 SK_OT_CHAR
@@ -110,7 +107,6 @@ TAG2
 /
 '
 ;
-inline
 static
 constexpr
 SK_OT_CHAR
@@ -120,7 +116,6 @@ TAG3
 2
 '
 ;
-inline
 static
 constexpr
 SK_OT_ULONG

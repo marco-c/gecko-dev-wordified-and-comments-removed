@@ -16,8 +16,6 @@ include
 /
 private
 /
-base
-/
 SkTemplates
 .
 h
@@ -29,20 +27,7 @@ include
 /
 private
 /
-base
-/
 SkTo
-.
-h
-"
-#
-include
-"
-src
-/
-core
-/
-SkStrike
 .
 h
 "
@@ -64,10 +49,6 @@ ctype
 .
 h
 >
-using
-namespace
-skia_private
-;
 static
 bool
 parsePFBSection
@@ -786,7 +767,7 @@ return
 nullptr
 ;
 }
-AutoTMalloc
+SkAutoTMalloc
 <
 uint8_t
 >
@@ -1541,10 +1522,7 @@ move
 fontStream
 )
 doc
-SkPDFSteamCompressionEnabled
-:
-:
-Yes
+true
 )
 )
 ;
@@ -1582,8 +1560,8 @@ SkTypeface
 typeface
 )
 {
-SkTypefaceID
-typefaceID
+SkFontID
+fontID
 =
 typeface
 -
@@ -1610,7 +1588,7 @@ fType1GlyphNames
 .
 find
 (
-typefaceID
+fontID
 )
 ;
 if
@@ -1659,7 +1637,7 @@ fType1GlyphNames
 .
 set
 (
-typefaceID
+fontID
 std
 :
 :
@@ -1693,8 +1671,8 @@ SkTypeface
 typeface
 )
 {
-SkTypefaceID
-typefaceID
+SkFontID
+fontID
 =
 typeface
 -
@@ -1716,7 +1694,7 @@ fFontDescriptors
 .
 find
 (
-typefaceID
+fontID
 )
 )
 {
@@ -1756,7 +1734,7 @@ fFontDescriptors
 .
 set
 (
-typefaceID
+fontID
 fontDescriptor
 )
 ;
@@ -1794,7 +1772,6 @@ vector
 <
 SkString
 >
-&
 glyphNames
 =
 type_1_glyphnames
@@ -1954,7 +1931,7 @@ firstGlyphID
 +
 2
 ;
-AutoTArray
+SkAutoTArray
 <
 SkGlyphID
 >
@@ -2026,7 +2003,7 @@ metrics
 .
 glyphs
 (
-SkSpan
+SkMakeSpan
 (
 glyphIDs
 .

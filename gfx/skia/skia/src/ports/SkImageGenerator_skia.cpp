@@ -37,14 +37,6 @@ sk_sp
 SkData
 >
 data
-std
-:
-:
-optional
-<
-SkAlphaType
->
-at
 )
 {
 return
@@ -60,7 +52,6 @@ move
 (
 data
 )
-at
 )
 ;
 }

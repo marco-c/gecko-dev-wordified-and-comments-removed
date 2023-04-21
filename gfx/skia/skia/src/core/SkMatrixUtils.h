@@ -29,8 +29,8 @@ h
 class
 SkMatrix
 ;
-struct
-SkSamplingOptions
+class
+SkPaint
 ;
 bool
 SkTreatAsSprite
@@ -43,10 +43,9 @@ SkISize
 &
 size
 const
-SkSamplingOptions
+SkPaint
 &
-bool
-isAntiAlias
+paint
 )
 ;
 bool

@@ -89,10 +89,7 @@ dim
 .
 fWidth
 =
-std
-:
-:
-max
+SkTMax
 (
 1
 SkScalarRoundToInt
@@ -109,10 +106,7 @@ dim
 .
 fHeight
 =
-std
-:
-:
-max
+SkTMax
 (
 1
 SkScalarRoundToInt
@@ -202,10 +196,9 @@ height
 }
 private
 :
-using
-INHERITED
-=
+typedef
 SkCodec
+INHERITED
 ;
 }
 ;

@@ -90,12 +90,6 @@ fuzzy
 1500
 )
 fails
--
-if
-(
-!
-useDrawSnapshot
-)
 =
 =
 border
@@ -164,12 +158,6 @@ fuzzy
 1500
 )
 fails
--
-if
-(
-!
-useDrawSnapshot
-)
 =
 =
 border

@@ -44,7 +44,6 @@ source
 ;
 private
 :
-inline
 static
 constexpr
 char

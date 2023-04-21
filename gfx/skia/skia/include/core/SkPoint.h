@@ -11,7 +11,7 @@ include
 /
 core
 /
-SkScalar
+SkMath
 .
 h
 "
@@ -22,7 +22,7 @@ include
 /
 core
 /
-SkTypes
+SkScalar
 .
 h
 "
@@ -33,17 +33,10 @@ include
 /
 private
 /
-base
-/
 SkSafe32
 .
 h
 "
-#
-include
-<
-cstdint
->
 struct
 SkIPoint
 ;
@@ -425,7 +418,6 @@ y
 }
 ;
 }
-constexpr
 SkScalar
 x
 (
@@ -436,7 +428,6 @@ return
 fX
 ;
 }
-constexpr
 SkScalar
 y
 (

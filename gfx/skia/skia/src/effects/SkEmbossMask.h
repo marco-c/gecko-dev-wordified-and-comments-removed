@@ -15,9 +15,6 @@ SkEmbossMaskFilter
 .
 h
 "
-struct
-SkMask
-;
 class
 SkEmbossMask
 {

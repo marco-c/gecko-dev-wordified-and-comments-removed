@@ -25,13 +25,6 @@ sk_sp
 <
 SkData
 >
-std
-:
-:
-optional
-<
-SkAlphaType
->
 )
 {
 return

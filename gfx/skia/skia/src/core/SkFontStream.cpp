@@ -14,7 +14,7 @@ include
 "
 src
 /
-base
+core
 /
 SkAutoMalloc
 .
@@ -25,7 +25,7 @@ include
 "
 src
 /
-base
+core
 /
 SkEndian
 .

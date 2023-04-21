@@ -105,7 +105,7 @@ kMaxResourceNameLength
 =
 1
 +
-kSkStrAppendS32_MaxSize
+SkStrAppendS32_MaxSize
 ;
 static
 char
@@ -152,10 +152,7 @@ unsigned
 )
 type
 <
-std
-:
-:
-size
+SK_ARRAY_COUNT
 (
 kResourceTypePrefixes
 )
@@ -283,10 +280,7 @@ unsigned
 )
 type
 <
-std
-:
-:
-size
+SK_ARRAY_COUNT
 (
 kResourceTypeNames
 )
@@ -478,10 +472,7 @@ procSets
 >
 reserve
 (
-std
-:
-:
-size
+SK_ARRAY_COUNT
 (
 kProcs
 )

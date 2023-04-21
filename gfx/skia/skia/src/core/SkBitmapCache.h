@@ -33,7 +33,7 @@ struct
 SkImageInfo
 ;
 class
-SkMipmap
+SkMipMap
 ;
 class
 SkPixmap
@@ -225,13 +225,13 @@ Rec
 }
 ;
 class
-SkMipmapCache
+SkMipMapCache
 {
 public
 :
 static
 const
-SkMipmap
+SkMipMap
 *
 FindAndRef
 (
@@ -247,7 +247,7 @@ nullptr
 ;
 static
 const
-SkMipmap
+SkMipMap
 *
 AddAndRef
 (

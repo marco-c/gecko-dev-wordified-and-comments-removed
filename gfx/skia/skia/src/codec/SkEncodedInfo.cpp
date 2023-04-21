@@ -9,17 +9,6 @@ SkEncodedInfo
 .
 h
 "
-#
-include
-"
-modules
-/
-skcms
-/
-skcms
-.
-h
-"
 std
 :
 :
