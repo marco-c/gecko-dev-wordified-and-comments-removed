@@ -699,6 +699,15 @@ byteOffset
 )
 getter
 (
+Error
+.
+prototype
+"
+stack
+"
+)
+getter
+(
 Map
 .
 prototype
