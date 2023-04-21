@@ -522,7 +522,7 @@ get_local
 )
 '
 48
-8b
+89
 .
 .
 mov
@@ -533,8 +533,8 @@ r
 %
 rcx
 48
-8b
-c1
+89
+c8
 mov
 %
 rcx
@@ -606,7 +606,7 @@ get_local
 )
 '
 48
-8b
+89
 .
 .
 mov
@@ -617,8 +617,8 @@ r
 %
 rcx
 48
-8b
-c1
+89
+c8
 mov
 %
 rcx
@@ -751,8 +751,8 @@ const
 )
 '
 48
-8b
-c1
+89
+c8
 mov
 %
 rcx
@@ -824,8 +824,8 @@ const
 )
 '
 48
-8b
-c1
+89
+c8
 mov
 %
 rcx
@@ -902,7 +902,7 @@ get_local
 )
 '
 48
-8b
+89
 .
 .
 mov
@@ -913,8 +913,8 @@ r
 %
 rcx
 48
-8b
-c1
+89
+c8
 mov
 %
 rcx
@@ -1072,7 +1072,7 @@ get_local
 )
 '
 48
-8b
+89
 .
 .
 mov
@@ -1083,8 +1083,8 @@ r
 %
 rcx
 48
-8b
-c1
+89
+c8
 mov
 %
 rcx
@@ -1158,8 +1158,8 @@ const
 )
 '
 48
-8b
-c1
+89
+c8
 mov
 %
 rcx
@@ -1317,8 +1317,8 @@ const
 )
 '
 48
-8b
-c1
+89
+c8
 mov
 %
 rcx
@@ -1393,8 +1393,8 @@ get_local
 )
 '
 48
-8b
-c1
+89
+c8
 mov
 %
 rcx
@@ -1462,8 +1462,8 @@ get_local
 )
 '
 48
-8b
-c1
+89
+c8
 mov
 %
 rcx

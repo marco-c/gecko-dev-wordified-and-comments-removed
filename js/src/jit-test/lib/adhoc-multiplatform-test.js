@@ -56,8 +56,8 @@ x64
 prefix
 :
 48
-8b
-ec
+89
+e5
 mov
 %
 rsp
