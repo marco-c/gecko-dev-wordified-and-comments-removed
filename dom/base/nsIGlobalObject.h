@@ -863,7 +863,7 @@ dom
 :
 FontFaceSet
 *
-Fonts
+GetFonts
 (
 )
 {

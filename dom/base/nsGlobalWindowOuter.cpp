@@ -8214,7 +8214,7 @@ FontFaceSet
 nsGlobalWindowOuter
 :
 :
-Fonts
+GetFonts
 (
 )
 {

@@ -163,6 +163,7 @@ FontFaceSet
 :
 IsEnabled
 "
+Throws
 ]
 readonly
 attribute

@@ -935,7 +935,7 @@ dom
 :
 FontFaceSet
 *
-Fonts
+GetFonts
 (
 )
 final
