@@ -1,5 +1,5 @@
 #
-Private
+Local
 Network
 Access
 tests
@@ -8,7 +8,7 @@ directory
 contains
 tests
 for
-Private
+Local
 Network
 Access
 '
@@ -37,7 +37,7 @@ github
 .
 io
 /
-private
+local
 -
 network
 -
@@ -60,7 +60,7 @@ com
 /
 WICG
 /
-private
+local
 -
 network
 -
@@ -83,7 +83,7 @@ com
 /
 WICG
 /
-private
+local
 -
 network
 -
