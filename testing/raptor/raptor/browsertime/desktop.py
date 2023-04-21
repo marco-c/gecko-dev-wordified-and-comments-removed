@@ -131,6 +131,12 @@ chrome
 "
 chromium
 "
+            
+"
+custom
+-
+car
+"
         
 )
 :

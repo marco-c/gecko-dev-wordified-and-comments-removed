@@ -830,6 +830,11 @@ m
 "
 chromium
 "
+"
+custom
+-
+car
+"
 )
 :
             
@@ -924,6 +929,26 @@ profile_class
 profile_class
 or
 app
+        
+if
+app
+in
+[
+"
+custom
+-
+car
+"
+]
+:
+            
+self
+.
+profile_class
+=
+"
+chromium
+"
         
 self
 .
@@ -2111,6 +2136,11 @@ chromium
 chrome
 -
 m
+"
+"
+custom
+-
+car
 "
 ]
             
