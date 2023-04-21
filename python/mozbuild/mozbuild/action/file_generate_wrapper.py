@@ -71,36 +71,35 @@ p
 :
         
 return
+Path
+(
 base_path
+)
 /
-p
-[
-1
-:
-]
-if
+Path
+(
 p
 .
-startswith
+lstrip
 (
 "
 /
 "
 )
-else
-base_path
-/
-p
+)
     
 try
 :
         
 abs_target_dir
 =
+str
+(
 make_absolute
 (
 objdir
 target_dir
+)
 )
         
 abs_script
@@ -114,7 +113,10 @@ script
 script
 =
 [
+str
+(
 abs_script
+)
 ]
         
 if
