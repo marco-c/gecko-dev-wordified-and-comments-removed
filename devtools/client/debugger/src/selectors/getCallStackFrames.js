@@ -225,9 +225,7 @@ export
 const
 getCallStackFrames
 =
-(
 createSelector
-)
 (
 getCurrentThreadFrames
 getSelectedSource
