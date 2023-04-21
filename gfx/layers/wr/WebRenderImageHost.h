@@ -329,9 +329,6 @@ mCurrentAsyncImageManager
 CompositableTextureHostRef
 mCurrentTextureHost
 ;
-CompositableTextureHostRef
-mRemoteTextureHost
-;
 Maybe
 <
 RemoteTextureOwnerId
