@@ -267,6 +267,11 @@ text
 shadow
 "
 "
+text
+-
+transform
+"
+"
 font
 -
 family
