@@ -644,9 +644,13 @@ defaultPrefs
 .
 prefs
 .
+set
+(
+"
 foo
-=
+"
 false
+)
 ;
 defaultPrefs
 .
