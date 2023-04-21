@@ -21,7 +21,7 @@ CREDIT_CARD_SCHEMA_VERSION
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -32,7 +32,9 @@ autofill
 /
 FormAutofillStorageBase
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
