@@ -765,7 +765,14 @@ const
 size_t
 kNumAllocPages
 =
-64
+kPageSize
+=
+=
+4096
+?
+4096
+:
+1024
 ;
 static
 const
@@ -816,7 +823,7 @@ const
 Delay
 kAvgFirstAllocDelay
 =
-512
+64
 *
 1024
 ;
