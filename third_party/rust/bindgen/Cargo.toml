@@ -109,7 +109,7 @@ version
 "
 1
 .
-57
+60
 .
 0
 "
@@ -123,7 +123,7 @@ version
 "
 0
 .
-63
+64
 .
 0
 "
@@ -232,6 +232,9 @@ bindgen
 readme
 =
 "
+.
+.
+/
 README
 .
 md
@@ -550,6 +553,10 @@ false
 [
 features
 ]
+cli
+=
+[
+]
 default
 =
 [
@@ -564,6 +571,10 @@ which
 -
 rustfmt
 "
+]
+experimental
+=
+[
 ]
 logging
 =

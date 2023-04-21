@@ -43,15 +43,6 @@ crate
 :
 clang
 ;
-use
-crate
-:
-:
-parse
-:
-:
-ClangItemParser
-;
 pub
 trait
 TemplateParameters

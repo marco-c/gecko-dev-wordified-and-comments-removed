@@ -1374,13 +1374,11 @@ if
 let
 Some
 (
-&
 TypeKind
 :
 :
 TemplateInstantiation
 (
-ref
 inst
 )
 )
@@ -1889,13 +1887,11 @@ id
 }
 Some
 (
-&
 TypeKind
 :
 :
 TemplateInstantiation
 (
-ref
 inst
 )
 )
