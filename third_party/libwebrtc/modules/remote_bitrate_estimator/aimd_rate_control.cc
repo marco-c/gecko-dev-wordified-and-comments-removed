@@ -510,15 +510,6 @@ send_side_
 (
 send_side
 )
-in_experiment_
-(
-!
-AdaptiveThresholdExperimentIsDisabled
-(
-*
-key_value_config
-)
-)
 no_bitrate_increase_in_alr_
 (
 IsEnabled
@@ -1267,10 +1258,6 @@ Millis
 100
 )
 ;
-if
-(
-in_experiment_
-)
 response_time
 =
 response_time

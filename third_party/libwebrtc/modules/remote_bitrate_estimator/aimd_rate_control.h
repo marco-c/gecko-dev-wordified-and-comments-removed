@@ -372,10 +372,6 @@ send_side_
 ;
 const
 bool
-in_experiment_
-;
-const
-bool
 no_bitrate_increase_in_alr_
 ;
 const
