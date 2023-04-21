@@ -906,6 +906,13 @@ NSError
 error
 )
 {
+MonitorAutoLock
+lock2
+(
+*
+copyableMonitor
+)
+;
 MOZ_RELEASE_ASSERT
 (
 !
@@ -1306,6 +1313,13 @@ stopCaptureWithCompletionHandler
 void
 )
 {
+MonitorAutoLock
+lock2
+(
+*
+copyableMonitor
+)
+;
 MOZ_RELEASE_ASSERT
 (
 !
