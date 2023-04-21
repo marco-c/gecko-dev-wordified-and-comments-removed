@@ -2470,6 +2470,15 @@ AssertIsOnMainThread
 (
 )
 ;
+RefPtr
+<
+EarlyHintPreloader
+>
+self
+(
+this
+)
+;
 LOG
 (
 (
