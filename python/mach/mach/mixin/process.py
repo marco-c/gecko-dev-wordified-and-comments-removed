@@ -240,6 +240,14 @@ _current_shell
 exe
 "
 class
+LineHandlingEarlyReturn
+(
+Exception
+)
+:
+    
+pass
+class
 ProcessExecutionMixin
 (
 LoggingMixin
@@ -748,10 +756,19 @@ if
 line_handler
 :
                 
+try
+:
+                    
 line_handler
 (
 line
 )
+                
+except
+LineHandlingEarlyReturn
+:
+                    
+return
             
 if
 line
