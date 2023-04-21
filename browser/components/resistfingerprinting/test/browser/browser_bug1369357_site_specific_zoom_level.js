@@ -352,16 +352,6 @@ privacy
 .
 resistFingerprinting
 .
-testGranularityMask
-"
-4
-]
-[
-"
-privacy
-.
-resistFingerprinting
-.
 exemptedDomains
 "
 "
