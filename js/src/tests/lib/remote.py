@@ -241,11 +241,27 @@ return
 DEVICE
     
 from
+mozbuild
+.
+base
+import
+MozbuildObject
+    
+from
 mozdevice
 import
 ADBDeviceFactory
 ADBError
 ADBTimeoutError
+    
+from
+mozrunner
+.
+devices
+.
+android_device
+import
+get_adb_path
     
 try
 :
@@ -270,30 +286,42 @@ options
 js_shell
 )
         
+context
+=
+MozbuildObject
+.
+from_environment
+(
+)
+        
+adb_path
+=
+get_adb_path
+(
+context
+)
+        
 DEVICE
 =
 ADBDeviceFactory
 (
+            
+adb
+=
+adb_path
             
 device
 =
 options
 .
 device_serial
+            
 test_root
 =
 options
 .
 remote_test_root
         
-)
-        
-init_remote_dir
-(
-DEVICE
-options
-.
-remote_test_root
 )
         
 bin_dir
@@ -336,6 +364,14 @@ remote_test_root
 "
 tmp
 "
+)
+        
+init_remote_dir
+(
+DEVICE
+options
+.
+remote_test_root
 )
         
 init_remote_dir
