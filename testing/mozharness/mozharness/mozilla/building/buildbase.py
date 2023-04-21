@@ -9884,6 +9884,24 @@ append
 (
 artifact
 )
+                
+for
+artifact
+in
+platforms
+[
+"
+*
+"
+]
+:
+                    
+arts
+.
+append
+(
+artifact
+)
         
 except
 FileNotFoundError
