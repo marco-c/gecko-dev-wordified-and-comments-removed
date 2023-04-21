@@ -14,15 +14,6 @@ h
 #
 include
 "
-mozilla
-/
-Tuple
-.
-h
-"
-#
-include
-"
 nsClassHashtable
 .
 h

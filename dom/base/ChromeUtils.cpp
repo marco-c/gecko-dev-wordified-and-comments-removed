@@ -10109,7 +10109,10 @@ promise
 ]
 (
 const
-Tuple
+std
+:
+:
+tuple
 <
 uint32_t
 uint32_t
@@ -10128,7 +10131,10 @@ out
 .
 mInteractionTimeInMilliseconds
 =
-Get
+std
+:
+:
+get
 <
 0
 >
@@ -10140,7 +10146,10 @@ out
 .
 mScrollingDistanceInPixels
 =
-Get
+std
+:
+:
+get
 <
 1
 >
