@@ -14229,6 +14229,16 @@ if
 (
 !
 isSameOrigin
+&
+&
+!
+nsLayoutUtils
+:
+:
+ImageRequestUsesCORS
+(
+aRequest
+)
 )
 {
 return

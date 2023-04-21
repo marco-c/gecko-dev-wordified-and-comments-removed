@@ -4661,6 +4661,15 @@ aOrientation
 ;
 static
 bool
+ImageRequestUsesCORS
+(
+imgIRequest
+*
+aRequest
+)
+;
+static
+bool
 HasNonZeroCorner
 (
 const
