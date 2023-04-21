@@ -564,9 +564,9 @@ uri
 ;
 assert_throws_dom
 (
-"
-NotSupportedError
-"
+'
+InvalidModificationError
+'
 (
 )
 =
@@ -584,7 +584,7 @@ capabilities
 transceiver
 should
 throw
-NotSupported
+InvalidModificationError
 when
 setting
 an
@@ -596,7 +596,7 @@ URI
 }
 setHeaderExtensionsToNegotiate
 throws
-NotSupported
+InvalidModificationError
 on
 encountering
 unknown
@@ -721,9 +721,9 @@ direction
 ;
 assert_throws_dom
 (
-"
+'
 InvalidModificationError
-"
+'
 (
 )
 =
