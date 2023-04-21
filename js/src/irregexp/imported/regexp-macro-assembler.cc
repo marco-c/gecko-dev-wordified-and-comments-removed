@@ -1679,7 +1679,7 @@ code
 kAcquireLoad
 )
 .
-InstructionEnd
+instruction_end
 (
 )
 )
