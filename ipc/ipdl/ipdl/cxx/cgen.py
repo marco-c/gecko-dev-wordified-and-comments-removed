@@ -500,19 +500,6 @@ ts
 &
 "
         
-elif
-t
-.
-rightconst
-:
-            
-ts
-+
-=
-"
-const
-"
-        
 self
 .
 write
