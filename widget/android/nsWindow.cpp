@@ -14320,12 +14320,6 @@ aDataType
 )
 {
 case
-NS_NATIVE_DISPLAY
-:
-return
-nullptr
-;
-case
 NS_NATIVE_WIDGET
 :
 return
