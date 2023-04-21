@@ -6,10 +6,7 @@ authenticator
 authenticatorservice
 :
 :
-{
 AuthenticatorService
-CtapVersion
-}
 ctap2
 :
 :
@@ -317,10 +314,6 @@ AuthenticatorService
 :
 new
 (
-CtapVersion
-:
-:
-CTAP2
 )
 .
 expect

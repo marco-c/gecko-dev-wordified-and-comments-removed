@@ -1627,7 +1627,6 @@ peer_public
 =
 nss_public_key_from_der_spki
 (
-&
 peer_spki
 )
 ?
@@ -1886,7 +1885,6 @@ pkcs8_priv
 .
 extend_from_slice
 (
-&
 client_public_x
 )
 ;
@@ -1894,7 +1892,6 @@ pkcs8_priv
 .
 extend_from_slice
 (
-&
 client_public_y
 )
 ;

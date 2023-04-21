@@ -6,10 +6,7 @@ authenticator
 authenticatorservice
 :
 :
-{
 AuthenticatorService
-CtapVersion
-}
 statecallback
 :
 :
@@ -307,10 +304,6 @@ AuthenticatorService
 :
 new
 (
-CtapVersion
-:
-:
-CTAP2
 )
 .
 expect
