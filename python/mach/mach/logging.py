@@ -857,9 +857,15 @@ format
 (
 *
 *
+getattr
+(
 record
-.
+"
 params
+"
+{
+}
+)
 )
         
 elapsed_time
