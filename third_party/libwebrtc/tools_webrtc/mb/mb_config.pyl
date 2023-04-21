@@ -3219,6 +3219,13 @@ msan_track_origins
 =
 2
 '
+'
+instrumented_libraries_release
+=
+"
+xenial
+"
+'
 }
 '
 no_goma
