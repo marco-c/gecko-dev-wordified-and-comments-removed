@@ -1298,7 +1298,6 @@ typedef
 C
 CodecType
 ;
-virtual
 const
 std
 :
@@ -1317,7 +1316,6 @@ return
 codecs_
 ;
 }
-virtual
 void
 set_codecs
 (
@@ -1354,7 +1352,6 @@ empty
 )
 ;
 }
-virtual
 bool
 HasCodec
 (
@@ -1425,7 +1422,6 @@ return
 found
 ;
 }
-virtual
 void
 AddCodec
 (
@@ -1443,7 +1439,6 @@ codec
 )
 ;
 }
-virtual
 void
 AddOrReplaceCodec
 (
@@ -1516,7 +1511,6 @@ codec
 )
 ;
 }
-virtual
 void
 AddCodecs
 (
