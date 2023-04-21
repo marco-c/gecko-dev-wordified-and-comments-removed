@@ -1,10 +1,13 @@
 import
 {
 FluentBundle
+FluentResource
 }
 from
 "
 fluent
+/
+bundle
 "
 ;
 const
@@ -157,7 +160,10 @@ attr
 }
 bundle
 .
-addMessages
+addResource
+(
+new
+FluentResource
 (
 {
 key
@@ -166,6 +172,7 @@ key
 {
 string
 }
+)
 )
 ;
 }
