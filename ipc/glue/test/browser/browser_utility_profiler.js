@@ -78,6 +78,7 @@ profiler
 "
 )
 ;
+await
 startProfiler
 (
 )
