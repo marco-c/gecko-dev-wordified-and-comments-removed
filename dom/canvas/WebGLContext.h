@@ -2895,6 +2895,16 @@ GLfloat
 units
 )
 ;
+void
+ProvokingVertex
+(
+webgl
+:
+:
+ProvokingVertex
+)
+const
+;
 webgl
 :
 :
