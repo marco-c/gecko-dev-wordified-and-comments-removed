@@ -99,7 +99,9 @@ EXTRA_JS_MODULES
 "
 WebVTTParserWrapper
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS
@@ -119,7 +121,9 @@ EXTRA_JS_MODULES
 "
 vtt
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCSHELL_TESTS_MANIFESTS

@@ -10,7 +10,7 @@ WebVTT
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 vtt
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
