@@ -1875,6 +1875,16 @@ python
 virtualenv
 build
 .
+The
+latter
+is
+automatically
+invoked
+by
+the
+boostrapping
+mechanism
+.
 Firefox
 for
 Android
