@@ -400,7 +400,9 @@ uses
 [
 CaptiveDetect
 .
-jsm
+sys
+.
+mjs
 ]
 (
 https
@@ -466,7 +468,9 @@ note
 }
 CaptiveDetect
 .
-jsm
+sys
+.
+mjs
 would
 benefit
 from
