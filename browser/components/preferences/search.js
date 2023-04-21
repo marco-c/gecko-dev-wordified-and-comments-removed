@@ -1733,6 +1733,7 @@ selection
 if
 (
 selection
+?
 .
 count
 >
