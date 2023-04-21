@@ -191,6 +191,9 @@ buffer
 4
 ]
 ;
+mozilla
+:
+:
 NativeEndian
 :
 :
@@ -595,6 +598,9 @@ x0sum
 )
 true
 {
+mozilla
+:
+:
 LittleEndian
 :
 :
