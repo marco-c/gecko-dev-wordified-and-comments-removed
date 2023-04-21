@@ -1297,10 +1297,6 @@ return
 rv
 ;
 }
-HandlePopoverTargetAction
-(
-)
-;
 }
 }
 if
