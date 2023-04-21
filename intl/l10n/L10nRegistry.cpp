@@ -68,6 +68,13 @@ h
 #
 include
 "
+FileSource
+.
+h
+"
+#
+include
+"
 nsICategoryManager
 .
 h
