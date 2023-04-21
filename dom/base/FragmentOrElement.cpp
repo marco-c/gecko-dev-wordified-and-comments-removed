@@ -4282,7 +4282,7 @@ content
 content
 -
 >
-GetClosestNativeAnonymousSubtreeRootParent
+GetClosestNativeAnonymousSubtreeRootParentOrHost
 (
 )
 =

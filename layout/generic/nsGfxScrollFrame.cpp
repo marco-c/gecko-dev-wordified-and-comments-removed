@@ -5850,7 +5850,7 @@ GetContent
 )
 -
 >
-IsInUAWidget
+HasBeenInUAWidget
 (
 )
 )
@@ -25028,7 +25028,7 @@ input
 content
 -
 >
-GetClosestNativeAnonymousSubtreeRootParent
+GetClosestNativeAnonymousSubtreeRootParentOrHost
 (
 )
 ;

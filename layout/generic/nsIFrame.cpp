@@ -12278,7 +12278,7 @@ aContent
 aContent
 -
 >
-GetClosestNativeAnonymousSubtreeRootParent
+GetClosestNativeAnonymousSubtreeRootParentOrHost
 (
 )
 ;

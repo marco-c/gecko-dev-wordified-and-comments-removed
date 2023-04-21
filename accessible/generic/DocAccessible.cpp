@@ -3146,7 +3146,7 @@ target
 target
 -
 >
-GetClosestNativeAnonymousSubtreeRootParent
+GetClosestNativeAnonymousSubtreeRootParentOrHost
 (
 )
 ;

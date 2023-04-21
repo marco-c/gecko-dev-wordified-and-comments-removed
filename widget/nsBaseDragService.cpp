@@ -1329,7 +1329,7 @@ FromNodeOrNull
 mSourceNode
 -
 >
-GetClosestNativeAnonymousSubtreeRootParent
+GetClosestNativeAnonymousSubtreeRootParentOrHost
 (
 )
 )

@@ -685,6 +685,8 @@ n_
 )
 )
 enum
+:
+uint32_t
 {
 ELEMENT_HAS_DIRTY_DESCENDANTS_FOR_SERVO
 =

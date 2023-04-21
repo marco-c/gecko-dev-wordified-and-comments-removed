@@ -21631,15 +21631,7 @@ if
 node
 -
 >
-IsInNativeAnonymousSubtree
-(
-)
-|
-|
-node
--
->
-IsInUAWidget
+ChromeOnlyAccess
 (
 )
 )

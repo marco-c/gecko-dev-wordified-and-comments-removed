@@ -355,7 +355,7 @@ endif
 static
 nsIContent
 &
-AnonymousSubtreeRootParent
+AnonymousSubtreeRootParentOrHost
 (
 const
 nsINode
@@ -376,7 +376,7 @@ return
 *
 aNode
 .
-GetClosestNativeAnonymousSubtreeRootParent
+GetClosestNativeAnonymousSubtreeRootParentOrHost
 (
 )
 ;
@@ -911,9 +911,9 @@ IsInNativeAnonymousSubtree
 ;
 nsIContent
 &
-parent
+host
 =
-AnonymousSubtreeRootParent
+AnonymousSubtreeRootParentOrHost
 (
 aContent
 )
@@ -929,7 +929,7 @@ formControl
 do_QueryInterface
 (
 &
-parent
+host
 )
 )
 {

@@ -21153,9 +21153,6 @@ IsInNativeAnonymousSubtree
 if
 (
 RefPtr
-<
-TextControlElement
->
 textControlElement
 =
 TextControlElement
@@ -21166,7 +21163,7 @@ FromNodeOrNull
 sourceNode
 -
 >
-GetClosestNativeAnonymousSubtreeRootParent
+GetClosestNativeAnonymousSubtreeRootParentOrHost
 (
 )
 )
@@ -26161,7 +26158,7 @@ FromNodeOrNull
 rootElement
 -
 >
-GetClosestNativeAnonymousSubtreeRootParent
+GetClosestNativeAnonymousSubtreeRootParentOrHost
 (
 )
 )

@@ -1916,9 +1916,10 @@ restyle_kind
 )
 ;
 if
+!
 element
 .
-is_in_native_anonymous_subtree
+matches_user_and_content_rules
 (
 )
 {
