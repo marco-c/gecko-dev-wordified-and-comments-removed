@@ -1,9 +1,16 @@
 #
-ifndef
-mozilla_GleanJSMetricsLookup_h
-#
-define
-mozilla_GleanJSMetricsLookup_h
+include
+"
+mozilla
+/
+glean
+/
+bindings
+/
+GleanJSMetricsLookup
+.
+h
+"
 #
 include
 "
@@ -43,6 +50,13 @@ mozilla
 glean
 /
 fog_ffi_generated
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "
@@ -246,7 +260,6 @@ types
 "
 )
 ;
-static
 already_AddRefed
 <
 nsISupports
@@ -557,7 +570,6 @@ nullptr
 ;
 }
 }
-static
 already_AddRefed
 <
 nsISupports
@@ -842,7 +854,6 @@ sCategoryByNameLookupEntries
 0ul
 }
 ;
-static
 Maybe
 <
 uint32_t
@@ -3271,7 +3282,6 @@ sMetricByNameLookupEntries
 2305843026393563204ull
 }
 ;
-static
 Maybe
 <
 uint32_t
@@ -3852,7 +3862,6 @@ entry
 )
 ;
 }
-static
 const
 char
 *
@@ -3889,7 +3898,6 @@ entry
 ]
 ;
 }
-static
 const
 char
 *
@@ -4081,5 +4089,3 @@ GLEAN_METRIC_ID
 undef
 GLEAN_OFFSET
 }
-#
-endif

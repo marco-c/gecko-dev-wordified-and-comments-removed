@@ -395,7 +395,7 @@ objects
 options
 DEPS_LEN
 =
-17
+19
 def
 main
 (
@@ -437,13 +437,14 @@ filename
     
 [
 js_h_path
+js_cpp_path
 rust_path
 ]
 =
 args
 [
 -
-2
+3
 :
 ]
     
@@ -454,7 +455,7 @@ args
 DEPS_LEN
 :
 -
-2
+3
 ]
     
 all_objs
@@ -483,12 +484,22 @@ as
 js_fd
 :
         
+with
+open_output
+(
+js_cpp_path
+)
+as
+js_cpp_fd
+:
+            
 js
 .
 output_js
 (
 all_objs
 js_fd
+js_cpp_fd
 options
 )
     

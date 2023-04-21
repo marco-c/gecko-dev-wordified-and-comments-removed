@@ -19,11 +19,18 @@ bugs
 #
 }
 #
-ifndef
-mozilla_GleanJSMetricsLookup_h
-#
-define
-mozilla_GleanJSMetricsLookup_h
+include
+"
+mozilla
+/
+glean
+/
+bindings
+/
+GleanJSMetricsLookup
+.
+h
+"
 #
 include
 "
@@ -63,6 +70,13 @@ mozilla
 glean
 /
 fog_ffi_generated
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "
@@ -318,7 +332,6 @@ types
 "
 )
 ;
-static
 already_AddRefed
 <
 nsISupports
@@ -440,7 +453,6 @@ nullptr
 ;
 }
 }
-static
 already_AddRefed
 <
 nsISupports
@@ -666,7 +678,6 @@ large
 metric_by_name_lookup
 }
 }
-static
 const
 char
 *
@@ -703,7 +714,6 @@ entry
 ]
 ;
 }
-static
 const
 char
 *
@@ -895,5 +905,3 @@ GLEAN_METRIC_ID
 undef
 GLEAN_OFFSET
 }
-#
-endif
