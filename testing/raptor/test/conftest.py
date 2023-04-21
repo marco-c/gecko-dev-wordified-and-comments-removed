@@ -530,7 +530,7 @@ firefox
 test
 =
 "
-raptor
+browsertime
 -
 tp6
 -
