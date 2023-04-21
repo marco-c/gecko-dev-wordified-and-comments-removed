@@ -62,6 +62,7 @@ null
 ;
 }
 ;
+asyncTest
 (
 async
 function
@@ -102,13 +103,5 @@ returnGets
 )
 ;
 }
-(
-)
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

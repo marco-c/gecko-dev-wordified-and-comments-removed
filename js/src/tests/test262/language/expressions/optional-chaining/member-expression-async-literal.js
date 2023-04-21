@@ -35,13 +35,8 @@ undefined
 )
 ;
 }
+asyncTest
+(
 checkAssertions
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

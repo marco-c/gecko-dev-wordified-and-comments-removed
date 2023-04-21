@@ -18,13 +18,8 @@ glob
 )
 ;
 }
+asyncTest
+(
 foo
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

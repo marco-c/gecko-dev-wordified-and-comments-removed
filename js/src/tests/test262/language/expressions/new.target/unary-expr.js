@@ -171,6 +171,7 @@ true
 ;
 }
 ;
+asyncTest
 (
 async
 function
@@ -189,13 +190,5 @@ undefined
 )
 ;
 }
-)
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

@@ -161,6 +161,15 @@ gregory
 "
 ;
 }
+fields
+(
+fieldNames
+)
+{
+return
+fieldNames
+;
+}
 }
 ;
 var

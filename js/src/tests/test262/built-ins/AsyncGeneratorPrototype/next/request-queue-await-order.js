@@ -146,14 +146,9 @@ value
 1
 )
 }
+asyncTest
+(
 awaitnexts
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;
 resolveLatePromise

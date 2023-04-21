@@ -7676,7 +7676,7 @@ function
 args
 )
 {
-actual
+calls
 .
 push
 (
@@ -7768,7 +7768,7 @@ key
 receiver
 )
 ;
-actual
+calls
 .
 push
 (
@@ -7792,7 +7792,7 @@ target
 key
 )
 {
-actual
+calls
 .
 push
 (
@@ -8536,6 +8536,14 @@ undefined
 }
 if
 (
+(
+result
+!
+=
+=
+null
+&
+&
 typeof
 result
 =
@@ -8543,6 +8551,17 @@ result
 =
 "
 object
+"
+)
+|
+|
+typeof
+result
+=
+=
+=
+"
+function
 "
 )
 {
@@ -9103,7 +9122,7 @@ function
 args
 )
 {
-actual
+calls
 .
 push
 (
@@ -9195,7 +9214,7 @@ key
 receiver
 )
 ;
-actual
+calls
 .
 push
 (
@@ -9219,7 +9238,7 @@ target
 key
 )
 {
-actual
+calls
 .
 push
 (

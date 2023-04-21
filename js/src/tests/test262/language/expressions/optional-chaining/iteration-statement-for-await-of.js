@@ -108,13 +108,8 @@ count
 )
 ;
 }
+asyncTest
+(
 checkAssertions
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

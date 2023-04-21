@@ -208,10 +208,10 @@ compareArray
 callOrder
 [
 "
-roundingIncrement
-"
-"
 notation
+"
+"
+roundingIncrement
 "
 ]
 )

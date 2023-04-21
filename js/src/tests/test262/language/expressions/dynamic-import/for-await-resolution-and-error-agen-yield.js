@@ -361,13 +361,8 @@ f
 )
 ;
 }
+asyncTest
+(
 fn
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

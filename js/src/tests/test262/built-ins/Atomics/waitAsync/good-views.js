@@ -329,6 +329,7 @@ leaving
 ;
 )
 ;
+asyncTest
 (
 async
 (
@@ -494,13 +495,5 @@ equal
 )
 ;
 }
-)
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

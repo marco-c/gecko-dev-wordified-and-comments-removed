@@ -178,13 +178,8 @@ foo
 )
 ;
 }
+asyncTest
+(
 fn
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

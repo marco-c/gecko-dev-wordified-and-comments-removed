@@ -62,13 +62,8 @@ caught
 )
 ;
 }
+asyncTest
+(
 foo
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

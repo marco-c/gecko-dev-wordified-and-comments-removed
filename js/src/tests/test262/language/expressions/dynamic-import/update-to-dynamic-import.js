@@ -93,13 +93,8 @@ default
 )
 ;
 }
+asyncTest
+(
 fn
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

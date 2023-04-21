@@ -37,6 +37,7 @@ true
 }
 }
 ;
+asyncTest
 (
 async
 function
@@ -61,13 +62,5 @@ nextArgumentsLength
 )
 ;
 }
-)
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

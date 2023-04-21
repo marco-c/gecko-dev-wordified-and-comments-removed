@@ -25,9 +25,8 @@ const
 arg
 =
 "
-IsO8601
+iSo8601
 "
-;
 ;
 const
 result

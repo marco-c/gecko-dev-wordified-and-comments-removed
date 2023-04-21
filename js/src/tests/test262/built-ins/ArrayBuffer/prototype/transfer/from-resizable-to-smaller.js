@@ -99,7 +99,7 @@ sameValue
 dest
 .
 resizable
-false
+true
 '
 dest
 .
@@ -129,7 +129,7 @@ sameValue
 dest
 .
 maxByteLength
-3
+8
 '
 dest
 .

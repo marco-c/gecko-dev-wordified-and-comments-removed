@@ -30,6 +30,11 @@ roundingIncrement
 2
 .
 5
+roundingMode
+:
+"
+expand
+"
 }
 )
 ;
@@ -46,7 +51,7 @@ roundingIncrement
 2
 .
 5
-floors
+truncates
 to
 2
 "

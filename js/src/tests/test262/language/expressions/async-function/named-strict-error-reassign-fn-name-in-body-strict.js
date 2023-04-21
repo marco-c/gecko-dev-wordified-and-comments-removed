@@ -30,6 +30,7 @@ BindingIdentifier
 ;
 }
 ;
+asyncTest
 (
 async
 (
@@ -83,13 +84,5 @@ callCount
 )
 ;
 }
-)
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

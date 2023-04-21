@@ -37,6 +37,7 @@ BindingIdentifier
 ;
 }
 ;
+asyncTest
 (
 async
 (
@@ -81,13 +82,5 @@ once
 )
 ;
 }
-)
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

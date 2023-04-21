@@ -172,13 +172,8 @@ OCE
 )
 ;
 }
+asyncTest
+(
 checkAssertions
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;

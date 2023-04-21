@@ -33,13 +33,8 @@ thenable
 )
 ;
 }
+asyncTest
+(
 foo
-(
-)
-.
-then
-(
-DONE
-DONE
 )
 ;
