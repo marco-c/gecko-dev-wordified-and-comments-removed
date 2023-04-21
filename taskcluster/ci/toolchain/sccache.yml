@@ -162,7 +162,11 @@ linux
 -
 gnu
 -
-all
+s3
+-
+gcs
+-
+azure
 -
 dist
 -
