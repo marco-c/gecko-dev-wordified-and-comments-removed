@@ -181,6 +181,11 @@ mozilla
 =
 [
 "
+GfxInfoUtils
+.
+h
+"
+"
 GRefPtr
 .
 h
