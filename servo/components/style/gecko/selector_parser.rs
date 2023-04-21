@@ -1033,7 +1033,12 @@ self
 Self
 :
 :
-PopoverOpen
+Open
+|
+Self
+:
+:
+Closed
 )
 {
 return
