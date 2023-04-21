@@ -1882,7 +1882,7 @@ automatically
 invoked
 by
 the
-boostrapping
+bootstrapping
 mechanism
 .
 Firefox
