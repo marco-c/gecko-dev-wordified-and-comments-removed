@@ -212,8 +212,6 @@ ads
 )
 *
 Network
-errors
-/
 timeouts
 .
 If
