@@ -400,6 +400,13 @@ ssse3
 ;
 init_angular_ipred_fn
 (
+Z2_PRED
+ipred_z2
+ssse3
+)
+;
+init_angular_ipred_fn
+(
 Z3_PRED
 ipred_z3
 ssse3

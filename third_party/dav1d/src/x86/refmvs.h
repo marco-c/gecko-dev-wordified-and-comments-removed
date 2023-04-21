@@ -26,6 +26,11 @@ decl_save_tmvs_fn
 dav1d_save_tmvs_avx2
 )
 ;
+decl_save_tmvs_fn
+(
+dav1d_save_tmvs_avx512icl
+)
+;
 decl_splat_mv_fn
 (
 dav1d_splat_mv_sse2
@@ -134,6 +139,13 @@ DAV1D_X86_CPU_FLAG_AVX512ICL
 )
 )
 return
+;
+c
+-
+>
+save_tmvs
+=
+dav1d_save_tmvs_avx512icl
 ;
 c
 -

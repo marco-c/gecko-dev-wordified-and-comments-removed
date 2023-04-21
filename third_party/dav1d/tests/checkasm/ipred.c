@@ -880,6 +880,8 @@ a
 0x1ff
 )
 ;
+break
+;
 }
 bench_new
 (

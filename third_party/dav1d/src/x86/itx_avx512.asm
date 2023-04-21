@@ -33238,9 +33238,9 @@ inv_txfm_add_dct_dct_16x8_8bpc
 dconly3
 ALIGN
 function_align
+cglobal_label
 .
 main_oddhalf_fast
-:
 ;
 bottom
 three
@@ -33389,9 +33389,9 @@ jmp
 main_oddhalf2
 ALIGN
 function_align
+cglobal_label
 .
 main_oddhalf
-:
 vpbroadcastd
 m8
 [
