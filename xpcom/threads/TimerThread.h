@@ -613,6 +613,16 @@ MOZ_REQUIRES
 mMonitor
 )
 ;
+TimeStamp
+ComputeWakeupTimeFromTimers
+(
+)
+const
+MOZ_REQUIRES
+(
+mMonitor
+)
+;
 #
 ifdef
 DEBUG
@@ -651,6 +661,9 @@ MOZ_GUARDED_BY
 (
 mMonitor
 )
+;
+TimeStamp
+mIntendedWakeupTime
 ;
 #
 if
