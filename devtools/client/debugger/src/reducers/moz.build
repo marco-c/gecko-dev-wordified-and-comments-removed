@@ -74,13 +74,6 @@ ast
 js
 "
 "
-async
--
-requests
-.
-js
-"
-"
 breakpoints
 .
 js

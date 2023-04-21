@@ -100,17 +100,6 @@ breakpoints
 "
 ;
 import
-asyncRequests
-from
-"
-.
-/
-async
--
-requests
-"
-;
-import
 pause
 {
 initialPauseState
@@ -320,10 +309,6 @@ pendingBreakpoints
 :
 {
 }
-asyncRequests
-:
-[
-]
 pause
 :
 initialPauseState
@@ -402,7 +387,6 @@ sources
 tabs
 breakpoints
 pendingBreakpoints
-asyncRequests
 pause
 ui
 fileSearch
