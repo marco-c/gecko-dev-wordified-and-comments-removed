@@ -339,7 +339,7 @@ testMigration
 await
 schemaVersionIs
 (
-4
+CURRENT_DB_VERSION
 )
 ;
 let

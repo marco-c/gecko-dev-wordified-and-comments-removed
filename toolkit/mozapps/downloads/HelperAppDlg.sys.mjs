@@ -2200,6 +2200,10 @@ getFileAsync
 aLauncher
 .
 source
+)
+.
+then
+(
 lastDir
 =
 >
