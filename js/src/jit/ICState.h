@@ -30,6 +30,7 @@ Initial
 0
 Candidate
 Inlined
+MonomorphicInlined
 Failure
 }
 ;
@@ -61,7 +62,7 @@ mode_
 uint8_t
 trialInliningState_
 :
-2
+3
 ;
 bool
 usedByTranspiler_
@@ -732,6 +733,15 @@ TrialInliningState
 :
 :
 Inlined
+|
+|
+state
+=
+=
+TrialInliningState
+:
+:
+MonomorphicInlined
 )
 ;
 break
@@ -741,6 +751,12 @@ TrialInliningState
 :
 :
 Inlined
+:
+case
+TrialInliningState
+:
+:
+MonomorphicInlined
 :
 case
 TrialInliningState

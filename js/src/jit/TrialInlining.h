@@ -471,6 +471,15 @@ ICCacheIRStub
 stub
 )
 ;
+enum
+class
+TrialInliningDecision
+{
+NoInline
+Inline
+MonomorphicInline
+}
+;
 class
 MOZ_RAII
 TrialInliner
@@ -653,8 +662,8 @@ CacheKind
 kind
 )
 ;
-bool
-shouldInline
+TrialInliningDecision
+getInliningDecision
 (
 JSFunction
 *

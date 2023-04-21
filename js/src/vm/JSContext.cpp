@@ -5283,6 +5283,16 @@ inlinedICScript_
 this
 nullptr
 )
+lastStubFoldingBailoutChild_
+(
+this
+nullptr
+)
+lastStubFoldingBailoutParent_
+(
+this
+nullptr
+)
 jitStackLimit
 (
 JS
