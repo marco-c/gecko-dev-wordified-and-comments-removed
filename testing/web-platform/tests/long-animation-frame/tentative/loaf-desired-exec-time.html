@@ -533,8 +533,8 @@ name
 =
 =
 "
-Window
-.
+TimerHandler
+:
 setTimeout
 "
 )
@@ -547,6 +547,8 @@ desiredExecutionStart
 timeBeforeSetup
 +
 delay
+-
+5
 )
 ;
 assert_less_than_equal
@@ -672,9 +674,7 @@ name
 =
 =
 "
-Scheduler
-.
-postTask
+SchedulerPostTaskCallback
 "
 )
 ;
@@ -816,9 +816,7 @@ name
 =
 =
 "
-Window
-.
-requestAnimationFrame
+FrameRequestCallback
 "
 )
 ;

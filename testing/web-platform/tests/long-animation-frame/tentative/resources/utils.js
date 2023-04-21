@@ -843,6 +843,7 @@ test_self_user_callback
 (
 cb
 name
+label
 )
 {
 test_loaf_script
@@ -854,6 +855,7 @@ user
 -
 callback
 "
+label
 )
 ;
 }
