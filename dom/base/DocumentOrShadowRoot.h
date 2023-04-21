@@ -630,13 +630,12 @@ Animation
 aAnimations
 )
 ;
-nsIContent
+nsINode
 *
 Retarget
 (
-nsIContent
+nsINode
 *
-aContent
 )
 const
 ;
