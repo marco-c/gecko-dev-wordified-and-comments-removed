@@ -148,15 +148,6 @@ RTCDtlsTransport
 ?
 transport
 ;
-static
-RTCRtpCapabilities
-?
-getCapabilities
-(
-DOMString
-kind
-)
-;
 [
 NewObject
 ]
