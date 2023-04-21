@@ -1266,7 +1266,7 @@ upload
 -
 test
 -
-50MB
+32MB
 .
 dat
 url
@@ -1295,12 +1295,12 @@ upload
 -
 test
 -
-50MB
+32MB
 .
 dat
 sha256
 :
-107c214d7b5318bdf954287fbbbcffb47d5b4d9a87732e97cac68f757306406a
+72caa47a951e9f37d1e1be2119a64b1fbc6348c4f37d574bee4587e02b8f96a5
 size
 :
-52428800
+32000000
