@@ -26,15 +26,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-this
-{
 ctypes
 :
 "
@@ -48,7 +39,9 @@ modules
 /
 ctypes
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
