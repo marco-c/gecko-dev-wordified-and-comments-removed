@@ -5,7 +5,7 @@ alabaster
 .
 7
 .
-12
+13
 charset
 -
 normalizer
@@ -21,7 +21,9 @@ docutils
 =
 0
 .
-16
+17
+.
+1
 idna
 =
 =
@@ -33,9 +35,9 @@ imagesize
 =
 1
 .
-2
+4
 .
-0
+1
 importlib
 -
 metadata
@@ -73,7 +75,7 @@ snowballstemmer
 =
 2
 .
-0
+2
 .
 0
 sphinxcontrib
@@ -125,7 +127,9 @@ Pygments
 pytz
 =
 =
-2021
+2022
+.
+7
 .
 1
 urllib3
