@@ -15339,9 +15339,11 @@ api
 -
 proxy
 .
-readitlater
+cdn
 .
-com
+mozilla
+.
+net
 "
 )
 ;
