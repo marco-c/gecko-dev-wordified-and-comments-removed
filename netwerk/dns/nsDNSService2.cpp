@@ -7033,6 +7033,12 @@ nsACString
 aTRRDomain
 )
 {
+aTRRDomain
+.
+Truncate
+(
+)
+;
 nsAutoCString
 url
 ;
@@ -7077,7 +7083,7 @@ rv
 )
 {
 return
-rv
+NS_OK
 ;
 }
 return
