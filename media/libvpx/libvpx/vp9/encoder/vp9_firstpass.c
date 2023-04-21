@@ -20368,16 +20368,6 @@ current_frame_coding_index
 0
 )
 {
-VP9_COMMON
-*
-cm
-=
-&
-cpi
--
->
-common
-;
 const
 vpx_codec_err_t
 codec_status

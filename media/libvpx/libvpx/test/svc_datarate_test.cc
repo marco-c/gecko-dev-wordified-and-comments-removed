@@ -1489,7 +1489,7 @@ i
 =
 temporal_layer_id_
 ;
-ref_frame_config
+ref_frame_config_
 .
 duration
 [
@@ -1517,7 +1517,7 @@ temporal_layer_id
 number_spatial_layers_
 0
 &
-ref_frame_config
+ref_frame_config_
 1
 )
 ;
@@ -1528,7 +1528,7 @@ Control
 (
 VP9E_SET_SVC_REF_FRAME_CONFIG
 &
-ref_frame_config
+ref_frame_config_
 )
 ;
 }
@@ -1635,7 +1635,7 @@ i
 =
 temporal_layer_id_
 ;
-ref_frame_config
+ref_frame_config_
 .
 duration
 [
@@ -1663,7 +1663,7 @@ temporal_layer_id
 number_spatial_layers_
 0
 &
-ref_frame_config
+ref_frame_config_
 0
 )
 ;
@@ -1674,7 +1674,7 @@ Control
 (
 VP9E_SET_SVC_REF_FRAME_CONFIG
 &
-ref_frame_config
+ref_frame_config_
 )
 ;
 }
@@ -3892,7 +3892,7 @@ int
 top_sl_height_
 ;
 vpx_svc_ref_frame_config_t
-ref_frame_config
+ref_frame_config_
 ;
 int
 update_pattern_

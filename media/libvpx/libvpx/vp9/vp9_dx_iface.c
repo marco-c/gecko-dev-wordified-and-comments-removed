@@ -2006,8 +2006,6 @@ pbi
 NULL
 )
 {
-const
-vpx_codec_err_t
 res
 =
 init_decoder
@@ -2132,9 +2130,6 @@ frame_sizes
 i
 ]
 ;
-vpx_codec_err_t
-res
-;
 if
 (
 data_start
@@ -2231,8 +2226,6 @@ data_end
 data_start
 )
 ;
-const
-vpx_codec_err_t
 res
 =
 decode_one

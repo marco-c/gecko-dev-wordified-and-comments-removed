@@ -886,6 +886,9 @@ int
 adaptive_mode_search
 ;
 int
+prune_single_mode_based_on_mv_diff_mode_rate
+;
+int
 cb_pred_filter_search
 ;
 int

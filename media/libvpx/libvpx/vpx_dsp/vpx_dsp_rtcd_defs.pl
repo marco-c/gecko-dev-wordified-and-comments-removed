@@ -12086,6 +12086,7 @@ qw
 /
 vpx_variance8x16
 sse2
+avx2
 neon
 msa
 mmi
@@ -12123,6 +12124,7 @@ qw
 /
 vpx_variance8x8
 sse2
+avx2
 neon
 msa
 mmi
@@ -12161,6 +12163,7 @@ qw
 /
 vpx_variance8x4
 sse2
+avx2
 neon
 msa
 mmi
