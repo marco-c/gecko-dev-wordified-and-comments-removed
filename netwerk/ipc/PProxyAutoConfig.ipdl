@@ -4,9 +4,6 @@ mozilla
 namespace
 net
 {
-[
-ManualDealloc
-]
 sync
 protocol
 PProxyAutoConfig
