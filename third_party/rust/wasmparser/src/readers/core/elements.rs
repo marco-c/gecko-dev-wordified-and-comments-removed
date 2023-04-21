@@ -8,9 +8,9 @@ BinaryReaderError
 ConstExpr
 ExternalKind
 FromReader
+RefType
 Result
 SectionLimited
-ValType
 }
 ;
 use
@@ -56,7 +56,7 @@ a
 pub
 ty
 :
-ValType
+RefType
 pub
 range
 :
@@ -371,10 +371,10 @@ ExternalKind
 Func
 =
 >
-ValType
+RefType
 :
 :
-FuncRef
+FUNCREF
 _
 =
 >
@@ -415,10 +415,10 @@ original_position
 }
 else
 {
-ValType
+RefType
 :
 :
-FuncRef
+FUNCREF
 }
 ;
 let

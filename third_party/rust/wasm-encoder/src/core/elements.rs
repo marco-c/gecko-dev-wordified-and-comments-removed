@@ -6,9 +6,9 @@ crate
 encode_section
 ConstExpr
 Encode
+RefType
 Section
 SectionId
-ValType
 }
 ;
 #
@@ -131,7 +131,7 @@ a
 pub
 element_type
 :
-ValType
+RefType
 pub
 elements
 :
@@ -588,7 +588,7 @@ offset
 ConstExpr
 element_type
 :
-ValType
+RefType
 elements
 :
 Elements
@@ -639,7 +639,7 @@ mut
 self
 element_type
 :
-ValType
+RefType
 elements
 :
 Elements
@@ -684,7 +684,7 @@ mut
 self
 element_type
 :
-ValType
+RefType
 elements
 :
 Elements

@@ -197,7 +197,12 @@ read_var_u32
 ;
 reader
 .
-read_var_u32
+read
+:
+:
+<
+ValType
+>
 (
 )
 ?
