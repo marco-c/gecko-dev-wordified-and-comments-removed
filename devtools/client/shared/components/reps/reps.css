@@ -2089,7 +2089,7 @@ accessibility
 -
 inspector
 {
-mask
+background
 :
 url
 (
@@ -2128,7 +2128,7 @@ open
 -
 inspector
 {
-mask
+background
 :
 url
 (
@@ -2210,9 +2210,7 @@ border
 :
 none
 ;
-background
--
-color
+fill
 :
 var
 (
@@ -2228,6 +2226,15 @@ color
 cursor
 :
 pointer
+;
+-
+moz
+-
+context
+-
+properties
+:
+fill
 ;
 }
 .
@@ -2277,9 +2284,7 @@ inspector
 :
 hover
 {
-background
--
-color
+fill
 :
 var
 (

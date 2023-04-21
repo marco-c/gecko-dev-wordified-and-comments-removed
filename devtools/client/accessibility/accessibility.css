@@ -4416,9 +4416,7 @@ open
 -
 inspector
 {
-background
--
-color
+fill
 :
 var
 (
@@ -4467,9 +4465,7 @@ open
 -
 inspector
 {
-background
--
-color
+fill
 :
 var
 (
@@ -4526,9 +4522,7 @@ inspector
 :
 focus
 {
-background
--
-color
+fill
 :
 var
 (
@@ -4832,9 +4826,7 @@ accessibility
 -
 inspector
 {
-background
--
-color
+fill
 :
 var
 (
@@ -4887,9 +4879,7 @@ accessibility
 -
 inspector
 {
-background
--
-color
+fill
 :
 var
 (
@@ -4950,9 +4940,7 @@ inspector
 :
 focus
 {
-background
--
-color
+fill
 :
 var
 (
