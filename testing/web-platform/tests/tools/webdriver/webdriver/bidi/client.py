@@ -648,6 +648,17 @@ self
         
 self
 .
+input
+=
+modules
+.
+Input
+(
+self
+)
+        
+self
+.
 script
 =
 modules

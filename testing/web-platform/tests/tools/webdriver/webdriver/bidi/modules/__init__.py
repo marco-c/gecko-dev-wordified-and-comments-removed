@@ -10,6 +10,11 @@ import
 BrowsingContext
 from
 .
+input
+import
+Input
+from
+.
 script
 import
 Script
