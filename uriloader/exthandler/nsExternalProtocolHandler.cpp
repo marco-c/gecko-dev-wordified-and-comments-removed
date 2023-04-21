@@ -84,13 +84,6 @@ h
 #
 include
 "
-nsIRedirectHistoryEntry
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

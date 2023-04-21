@@ -148,13 +148,6 @@ nsWindowGfx
 .
 h
 "
-#
-include
-"
-shellapi
-.
-h
-"
 namespace
 mozilla
 :

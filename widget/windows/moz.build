@@ -970,3 +970,6 @@ windows
 "
 docs
 "
+REQUIRES_UNIFIED_BUILD
+=
+True

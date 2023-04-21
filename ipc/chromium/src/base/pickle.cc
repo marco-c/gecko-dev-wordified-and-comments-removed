@@ -137,6 +137,13 @@ char
 0xbf
 )
 ;
+static
+const
+uint32_t
+kMinTelemetryIPCReadLatencyMs
+=
+1
+;
 namespace
 {
 template

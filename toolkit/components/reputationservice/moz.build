@@ -184,3 +184,6 @@ test
 gtest
 "
 ]
+REQUIRES_UNIFIED_BUILD
+=
+True

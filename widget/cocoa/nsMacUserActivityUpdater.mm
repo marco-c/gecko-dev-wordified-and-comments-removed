@@ -28,13 +28,6 @@ nsIBaseWindow
 .
 h
 "
-#
-include
-"
-gfxPlatform
-.
-h
-"
 NS_IMPL_ISUPPORTS
 (
 nsMacUserActivityUpdater

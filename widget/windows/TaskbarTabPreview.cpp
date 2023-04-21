@@ -846,6 +846,9 @@ wParam
 lParam
 )
 ;
+return
+0
+;
 }
 return
 TaskbarPreview

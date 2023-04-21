@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsComponentManagerUtils
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

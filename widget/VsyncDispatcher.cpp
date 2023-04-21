@@ -1134,9 +1134,6 @@ false
 ;
 RefPtr
 <
-gfx
-:
-:
 VsyncSource
 >
 vsyncSource

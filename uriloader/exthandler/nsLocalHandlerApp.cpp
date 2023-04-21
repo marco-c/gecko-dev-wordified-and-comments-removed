@@ -19,13 +19,6 @@ nsIProcess
 .
 h
 "
-#
-include
-"
-nsComponentManagerUtils
-.
-h
-"
 NS_IMPL_ISUPPORTS
 (
 nsLocalHandlerApp

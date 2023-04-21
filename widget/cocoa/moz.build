@@ -893,3 +893,6 @@ cocoa
 "
 docs
 "
+REQUIRES_UNIFIED_BUILD
+=
+True

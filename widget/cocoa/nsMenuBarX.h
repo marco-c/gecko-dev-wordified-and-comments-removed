@@ -48,6 +48,13 @@ h
 #
 include
 "
+nsMenuGroupOwnerX
+.
+h
+"
+#
+include
+"
 nsChangeObserver
 .
 h
@@ -68,9 +75,6 @@ h
 "
 class
 nsMenuBarX
-;
-class
-nsMenuGroupOwnerX
 ;
 class
 nsMenuX
