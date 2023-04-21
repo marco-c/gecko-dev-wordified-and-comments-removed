@@ -47,6 +47,13 @@ h
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 mozilla
 /
 intl
