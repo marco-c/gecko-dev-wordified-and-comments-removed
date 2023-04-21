@@ -860,9 +860,11 @@ PWMGR_IMPORT_LOGINS_FROM_FILE_MS
 "
 )
 ;
+let
+responsivenessMonitor
+;
 try
 {
-let
 responsivenessMonitor
 =
 new
@@ -1369,6 +1371,12 @@ PWMGR_IMPORT_LOGINS_FROM_FILE_MS
 )
 ;
 }
+responsivenessMonitor
+.
+abort
+(
+)
+;
 }
 }
 }
