@@ -8623,14 +8623,6 @@ ClearAnyCachedPath
 ;
 if
 (
-StaticPrefs
-:
-:
-layout_css_d_property_enabled
-(
-)
-&
-&
 name
 =
 =
