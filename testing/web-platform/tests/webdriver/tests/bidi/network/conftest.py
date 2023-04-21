@@ -165,6 +165,9 @@ f
 "
 "
                  
+{
+{
+                   
 const
 controller
 =
@@ -173,7 +176,7 @@ AbortController
 (
 )
 ;
-                 
+                   
 setTimeout
 (
 (
@@ -192,7 +195,7 @@ timeout_in_seconds
 }
 )
 ;
-                 
+                   
 fetch
 (
 "
@@ -202,21 +205,21 @@ url
 "
 {
 {
-                   
+                     
 {
 method_arg
 }
-                   
+                     
 {
 headers_arg
 }
-                   
+                     
 signal
 :
 controller
 .
 signal
-                 
+                   
 }
 }
 )
@@ -233,6 +236,9 @@ text
 )
 )
 ;
+                 
+}
+}
 "
 "
 "
