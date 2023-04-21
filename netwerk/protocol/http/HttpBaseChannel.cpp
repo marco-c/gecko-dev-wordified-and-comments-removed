@@ -14938,8 +14938,14 @@ Canonical
 )
 -
 >
-SetHasBlockedOpaqueResponse
+SetShouldReportHasBlockedOpaqueResponse
 (
+mLoadInfo
+-
+>
+InternalContentPolicyType
+(
+)
 )
 ;
 }
