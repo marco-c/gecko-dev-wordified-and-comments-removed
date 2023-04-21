@@ -177,6 +177,13 @@ GetExternalImageHandler
 )
 ;
 void
+SetFramePublishId
+(
+FramePublishId
+aPublishId
+)
+;
+void
 Update
 (
 )
