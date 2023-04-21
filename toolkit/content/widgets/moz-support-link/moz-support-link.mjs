@@ -431,7 +431,6 @@ text
 "
 )
 ;
-}
 document
 .
 l10n
@@ -441,6 +440,7 @@ translateFragment
 this
 )
 ;
+}
 }
 disconnectedCallback
 (
