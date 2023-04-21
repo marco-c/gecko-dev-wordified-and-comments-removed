@@ -1525,6 +1525,27 @@ apk_metadata
 )
 :
         
+install_path
+=
+apk_metadata
+[
+KEY_NAME
+]
+        
+if
+self
+.
+custom_apk_exists
+(
+)
+:
+            
+install_path
+=
+self
+.
+custom_apk_path
+        
 self
 .
 device
@@ -1544,10 +1565,7 @@ f
 "
 Installing
 {
-apk_metadata
-[
-KEY_NAME
-]
+install_path
 }
 .
 .
@@ -1563,10 +1581,7 @@ device
 .
 install_app
 (
-apk_metadata
-[
-KEY_NAME
-]
+install_path
 )
         
 if
