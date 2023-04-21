@@ -503,11 +503,6 @@ aarch64
 linux
 -
 gnu
-arm
--
-linux
--
-gnueabi
 i686
 -
 w64
