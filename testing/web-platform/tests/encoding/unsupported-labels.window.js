@@ -791,7 +791,9 @@ resources
 /
 text
 -
-plain
+html
+-
+meta
 -
 charset
 .
@@ -824,9 +826,9 @@ contentDocument
 .
 characterSet
 "
-windows
+UTF
 -
-1252
+8
 "
 )
 ;
@@ -838,9 +840,9 @@ contentDocument
 .
 inputEncoding
 "
-windows
+UTF
 -
-1252
+8
 "
 )
 ;
