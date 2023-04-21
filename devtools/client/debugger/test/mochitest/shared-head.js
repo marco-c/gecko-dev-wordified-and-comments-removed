@@ -737,12 +737,12 @@ sourceOrUrl
 {
 const
 {
+getSelectedSource
 getSelectedSourceTextContent
 getSymbols
 getBreakableLines
 getSourceActorsForSource
 getSourceActorBreakableLines
-getFirstSourceActorForGeneratedSource
 }
 =
 dbg
@@ -758,13 +758,9 @@ state
 >
 {
 const
-location
+source
 =
-dbg
-.
-selectors
-.
-getSelectedLocation
+getSelectedSource
 (
 )
 |
@@ -808,8 +804,6 @@ string
 if
 (
 !
-location
-.
 source
 .
 url
@@ -831,8 +825,6 @@ false
 else
 if
 (
-location
-.
 source
 .
 id
@@ -853,7 +845,7 @@ if
 !
 getSymbols
 (
-location
+source
 )
 )
 {
@@ -863,8 +855,6 @@ false
 }
 if
 (
-location
-.
 source
 .
 isHTML
@@ -875,8 +865,6 @@ sourceActors
 =
 getSourceActorsForSource
 (
-location
-.
 source
 .
 id
@@ -909,8 +897,6 @@ allSourceActorsProcessed
 return
 getBreakableLines
 (
-location
-.
 source
 .
 id

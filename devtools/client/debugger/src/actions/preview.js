@@ -81,7 +81,6 @@ getPreview
 isLineInScope
 isSelectedFrameVisible
 getSelectedSource
-getSelectedLocation
 getSelectedFrame
 getSymbols
 getCurrentThread
@@ -116,9 +115,9 @@ tokenPos
 )
 {
 const
-location
+source
 =
-getSelectedLocation
+getSelectedSource
 (
 state
 )
@@ -126,7 +125,7 @@ state
 if
 (
 !
-location
+source
 )
 {
 return
@@ -139,7 +138,7 @@ symbols
 getSymbols
 (
 state
-location
+source
 )
 ;
 let

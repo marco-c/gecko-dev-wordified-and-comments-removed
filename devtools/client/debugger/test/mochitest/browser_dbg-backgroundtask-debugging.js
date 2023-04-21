@@ -287,7 +287,6 @@ waitForResumed
 waitForSelectedSource
 waitForState
 waitUntil
-createLocation
 log
 :
 (

@@ -63,7 +63,6 @@ source
 import
 {
 getSymbols
-getSelectedLocation
 isSourceBlackBoxed
 hasPrettyTab
 }
@@ -220,10 +219,7 @@ symbols
 getSymbols
 (
 state
-getSelectedLocation
-(
-state
-)
+source
 )
 ;
 const
