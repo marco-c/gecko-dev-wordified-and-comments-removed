@@ -1220,7 +1220,7 @@ mInputStream
 AsyncWait
 (
 this
-nsIAsyncOutputStream
+nsIAsyncInputStream
 :
 :
 WAIT_CLOSURE_ONLY

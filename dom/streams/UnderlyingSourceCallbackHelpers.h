@@ -929,10 +929,7 @@ enum
 State
 {
 eInitializing
-eWaiting
-eReading
-eWriting
-eChecking
+eInitialized
 eClosed
 }
 ;
@@ -944,6 +941,12 @@ nsCOMPtr
 nsIEventTarget
 >
 mOwningEventTarget
+;
+RefPtr
+<
+Promise
+>
+mPullPromise
 ;
 RefPtr
 <
