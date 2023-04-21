@@ -215,6 +215,11 @@ default
 ;
 private
 :
+void
+EnsureEncoderQueueCreated
+(
+)
+;
 mutable
 Mutex
 sender_lock_
