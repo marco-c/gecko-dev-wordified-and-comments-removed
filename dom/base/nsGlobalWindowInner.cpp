@@ -6977,10 +6977,6 @@ Destroy
 )
 ;
 }
-mWindowGlobalChild
-=
-nullptr
-;
 mIntlUtils
 =
 nullptr
