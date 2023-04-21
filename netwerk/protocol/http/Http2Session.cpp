@@ -21591,6 +21591,15 @@ if
 (
 !
 mInputFrameFinal
+&
+&
+!
+mInputFrameDataStream
+-
+>
+RecvdFin
+(
+)
 )
 {
 ResetDownstreamState
