@@ -3,8 +3,6 @@ pytest
 from
 tests
 .
-perform_actions
-.
 support
 .
 keys
