@@ -36,6 +36,16 @@ imagesize
 2
 .
 0
+importlib
+-
+metadata
+=
+=
+6
+.
+0
+.
+0
 markupsafe
 =
 =
@@ -142,6 +152,4 @@ Sphinx
 =
 4
 .
-3
-.
-0
+5
