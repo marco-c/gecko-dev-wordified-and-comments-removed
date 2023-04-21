@@ -54,7 +54,7 @@ twd
 int
 plane
 const
-scan_order
+ScanOrder
 *
 sc
 int

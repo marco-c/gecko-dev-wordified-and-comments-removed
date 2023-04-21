@@ -134,6 +134,17 @@ vpx_filter
 .
 h
 "
+#
+if
+CONFIG_VP9_ENCODER
+struct
+macroblock_plane
+;
+struct
+ScanOrder
+;
+#
+endif
 EOF
 }
 forward_decls
@@ -243,6 +254,7 @@ specialize
 qw
 /
 vpx_d207_predictor_4x4
+neon
 sse2
 /
 ;
@@ -324,6 +336,7 @@ specialize
 qw
 /
 vpx_d63_predictor_4x4
+neon
 ssse3
 /
 ;
@@ -443,6 +456,13 @@ uint8_t
 left
 "
 ;
+specialize
+qw
+/
+vpx_d117_predictor_4x4
+neon
+/
+;
 add_proto
 qw
 /
@@ -498,6 +518,7 @@ specialize
 qw
 /
 vpx_d153_predictor_4x4
+neon
 ssse3
 /
 ;
@@ -755,6 +776,7 @@ specialize
 qw
 /
 vpx_d207_predictor_8x8
+neon
 ssse3
 /
 ;
@@ -850,6 +872,7 @@ specialize
 qw
 /
 vpx_d63_predictor_8x8
+neon
 ssse3
 /
 ;
@@ -925,6 +948,13 @@ uint8_t
 left
 "
 ;
+specialize
+qw
+/
+vpx_d117_predictor_8x8
+neon
+/
+;
 add_proto
 qw
 /
@@ -980,6 +1010,7 @@ specialize
 qw
 /
 vpx_d153_predictor_8x8
+neon
 ssse3
 /
 ;
@@ -1234,6 +1265,7 @@ specialize
 qw
 /
 vpx_d207_predictor_16x16
+neon
 ssse3
 /
 ;
@@ -1294,6 +1326,7 @@ specialize
 qw
 /
 vpx_d63_predictor_16x16
+neon
 ssse3
 vsx
 /
@@ -1353,6 +1386,13 @@ uint8_t
 left
 "
 ;
+specialize
+qw
+/
+vpx_d117_predictor_16x16
+neon
+/
+;
 add_proto
 qw
 /
@@ -1408,6 +1448,7 @@ specialize
 qw
 /
 vpx_d153_predictor_16x16
+neon
 ssse3
 /
 ;
@@ -1631,6 +1672,7 @@ specialize
 qw
 /
 vpx_d207_predictor_32x32
+neon
 ssse3
 /
 ;
@@ -1691,6 +1733,7 @@ specialize
 qw
 /
 vpx_d63_predictor_32x32
+neon
 ssse3
 vsx
 /
@@ -1749,6 +1792,13 @@ uint8_t
 left
 "
 ;
+specialize
+qw
+/
+vpx_d117_predictor_32x32
+neon
+/
+;
 add_proto
 qw
 /
@@ -1804,6 +1854,7 @@ specialize
 qw
 /
 vpx_d153_predictor_32x32
+neon
 ssse3
 /
 ;
@@ -2045,6 +2096,7 @@ specialize
 qw
 /
 vpx_highbd_d207_predictor_4x4
+neon
 sse2
 /
 ;
@@ -2108,6 +2160,7 @@ specialize
 qw
 /
 vpx_highbd_d63_predictor_4x4
+neon
 sse2
 /
 ;
@@ -2171,6 +2224,7 @@ specialize
 qw
 /
 vpx_highbd_d117_predictor_4x4
+neon
 sse2
 /
 ;
@@ -2234,6 +2288,7 @@ specialize
 qw
 /
 vpx_highbd_d153_predictor_4x4
+neon
 sse2
 /
 ;
@@ -2457,6 +2512,7 @@ specialize
 qw
 /
 vpx_highbd_d207_predictor_8x8
+neon
 ssse3
 /
 ;
@@ -2520,6 +2576,7 @@ specialize
 qw
 /
 vpx_highbd_d63_predictor_8x8
+neon
 ssse3
 /
 ;
@@ -2583,6 +2640,7 @@ specialize
 qw
 /
 vpx_highbd_d117_predictor_8x8
+neon
 ssse3
 /
 ;
@@ -2646,6 +2704,7 @@ specialize
 qw
 /
 vpx_highbd_d153_predictor_8x8
+neon
 ssse3
 /
 ;
@@ -2869,6 +2928,7 @@ specialize
 qw
 /
 vpx_highbd_d207_predictor_16x16
+neon
 ssse3
 /
 ;
@@ -2932,6 +2992,7 @@ specialize
 qw
 /
 vpx_highbd_d63_predictor_16x16
+neon
 ssse3
 /
 ;
@@ -2995,6 +3056,7 @@ specialize
 qw
 /
 vpx_highbd_d117_predictor_16x16
+neon
 ssse3
 /
 ;
@@ -3058,6 +3120,7 @@ specialize
 qw
 /
 vpx_highbd_d153_predictor_16x16
+neon
 ssse3
 /
 ;
@@ -3281,6 +3344,7 @@ specialize
 qw
 /
 vpx_highbd_d207_predictor_32x32
+neon
 ssse3
 /
 ;
@@ -3344,6 +3408,7 @@ specialize
 qw
 /
 vpx_highbd_d63_predictor_32x32
+neon
 ssse3
 /
 ;
@@ -3407,6 +3472,7 @@ specialize
 qw
 /
 vpx_highbd_d117_predictor_32x32
+neon
 ssse3
 /
 ;
@@ -3470,6 +3536,7 @@ specialize
 qw
 /
 vpx_highbd_d153_predictor_32x32
+neon
 ssse3
 /
 ;
@@ -7683,24 +7750,12 @@ const
 tran_low_t
 *
 coeff_ptr
-intptr_t
-n_coeffs
 const
-int16_t
+struct
+macroblock_plane
 *
-zbin_ptr
 const
-int16_t
-*
-round_ptr
-const
-int16_t
-*
-quant_ptr
-const
-int16_t
-*
-quant_shift_ptr
+mb_plane
 tran_low_t
 *
 qcoeff_ptr
@@ -7715,13 +7770,11 @@ uint16_t
 *
 eob_ptr
 const
-int16_t
+struct
+ScanOrder
 *
-scan
 const
-int16_t
-*
-iscan
+scan_order
 "
 ;
 specialize
@@ -7822,24 +7875,12 @@ const
 tran_low_t
 *
 coeff_ptr
-intptr_t
-n_coeffs
 const
-int16_t
+struct
+macroblock_plane
 *
-zbin_ptr
 const
-int16_t
-*
-round_ptr
-const
-int16_t
-*
-quant_ptr
-const
-int16_t
-*
-quant_shift_ptr
+mb_plane
 tran_low_t
 *
 qcoeff_ptr
@@ -7854,13 +7895,11 @@ uint16_t
 *
 eob_ptr
 const
-int16_t
+struct
+ScanOrder
 *
-scan
 const
-int16_t
-*
-iscan
+scan_order
 "
 ;
 specialize
@@ -8608,6 +8647,7 @@ qw
 /
 vpx_highbd_hadamard_8x8
 avx2
+neon
 /
 ;
 add_proto
@@ -8633,6 +8673,7 @@ qw
 /
 vpx_highbd_hadamard_16x16
 avx2
+neon
 /
 ;
 add_proto
@@ -8658,6 +8699,7 @@ qw
 /
 vpx_highbd_hadamard_32x32
 avx2
+neon
 /
 ;
 add_proto
@@ -8704,6 +8746,7 @@ qw
 /
 vpx_highbd_satd
 avx2
+neon
 /
 ;
 }
@@ -10573,6 +10616,7 @@ qw
 /
 vpx_highbd_avg_8x8
 sse2
+neon
 /
 ;
 add_proto
@@ -10596,6 +10640,7 @@ qw
 /
 vpx_highbd_avg_4x4
 sse2
+neon
 /
 ;
 add_proto
@@ -10624,6 +10669,13 @@ int
 *
 max
 "
+;
+specialize
+qw
+/
+vpx_highbd_minmax_8x8
+neon
+/
 ;
 add_proto
 qw
@@ -12343,6 +12395,7 @@ qw
 vpx_mse16x8
 sse2
 avx2
+neon
 msa
 mmi
 vsx
@@ -12379,6 +12432,7 @@ qw
 /
 vpx_mse8x16
 sse2
+neon
 msa
 mmi
 vsx
@@ -12415,6 +12469,7 @@ qw
 /
 vpx_mse8x8
 sse2
+neon
 msa
 mmi
 vsx

@@ -2474,7 +2474,7 @@ mode
 ]
 ;
 const
-scan_order
+ScanOrder
 *
 sc
 =
@@ -2686,7 +2686,7 @@ mode
 ]
 ;
 const
-scan_order
+ScanOrder
 *
 sc
 =
@@ -3067,7 +3067,7 @@ plane
 ]
 ;
 const
-scan_order
+ScanOrder
 *
 sc
 =
@@ -3290,7 +3290,7 @@ plane
 ]
 ;
 const
-scan_order
+ScanOrder
 *
 sc
 =

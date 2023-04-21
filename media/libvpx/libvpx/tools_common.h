@@ -534,10 +534,8 @@ VpxInterface
 const
 char
 *
-const
 name
 ;
-const
 uint32_t
 fourcc
 ;
@@ -545,10 +543,10 @@ vpx_codec_iface_t
 *
 (
 *
-const
 codec_interface
 )
 (
+void
 )
 ;
 }

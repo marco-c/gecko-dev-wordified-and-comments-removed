@@ -1178,7 +1178,6 @@ vp9_coef_encodings
 t
 ]
 ;
-const
 int
 v
 =
@@ -1187,7 +1186,6 @@ a
 >
 value
 ;
-const
 int
 n
 =
@@ -1266,7 +1264,6 @@ b
 >
 prob
 ;
-int
 v
 =
 e
@@ -1274,7 +1271,6 @@ e
 >
 1
 ;
-int
 n
 =
 b
@@ -4519,12 +4515,6 @@ l
 ]
 +
 t
-;
-const
-vpx_prob
-upd
-=
-DIFF_UPDATE_PROB
 ;
 int64_t
 s

@@ -2803,9 +2803,6 @@ tx_mode
 TX_MODE_SELECT
 )
 {
-int
-j
-;
 unsigned
 int
 branch_ct_8x8p

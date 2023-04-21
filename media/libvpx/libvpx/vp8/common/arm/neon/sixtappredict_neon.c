@@ -5397,8 +5397,6 @@ dst_ptr
 d9u8
 )
 ;
-return
-;
 }
 void
 vp8_sixtap_predict8x8_neon
@@ -8710,8 +8708,6 @@ dst_ptr
 dst_pitch
 ;
 }
-return
-;
 }
 void
 vp8_sixtap_predict16x16_neon
@@ -10408,7 +10404,16 @@ vld1_u8
 (
 src
 +
-16
+13
+)
+;
+d14u8
+=
+vext_u8
+(
+d14u8
+d14u8
+3
 )
 ;
 src
@@ -11932,6 +11937,4 @@ dst_pitch
 ;
 }
 }
-return
-;
 }

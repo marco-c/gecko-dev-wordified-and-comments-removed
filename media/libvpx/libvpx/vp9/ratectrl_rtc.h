@@ -125,6 +125,10 @@ VP9RateControlRtcConfig
 (
 )
 {
+ss_number_layers
+=
+1
+;
 vp9_zero
 (
 max_quantizers
@@ -186,9 +190,6 @@ min_quantizer
 }
 int
 ss_number_layers
-;
-int
-ts_number_layers
 ;
 int
 max_quantizers
@@ -277,7 +278,7 @@ VP9RateControlRTC
 (
 )
 ;
-void
+bool
 UpdateRateControl
 (
 const
@@ -321,6 +322,10 @@ PostEncodeUpdate
 (
 uint64_t
 encoded_frame_size
+const
+VP9FrameParamsQpRTC
+&
+frame_params
 )
 ;
 private
@@ -330,7 +335,7 @@ VP9RateControlRTC
 )
 {
 }
-void
+bool
 InitRateControl
 (
 const

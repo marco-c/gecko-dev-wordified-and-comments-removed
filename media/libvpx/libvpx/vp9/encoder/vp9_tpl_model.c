@@ -2710,7 +2710,7 @@ plane
 ]
 ;
 const
-scan_order
+ScanOrder
 *
 const
 scan_order
