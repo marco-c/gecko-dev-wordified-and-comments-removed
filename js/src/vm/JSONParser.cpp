@@ -3445,6 +3445,9 @@ i
 state
 =
 =
+JSONParserState
+:
+:
 FinishArrayElement
 )
 {
@@ -3565,6 +3568,9 @@ elem
 state
 =
 =
+JSONParserState
+:
+:
 FinishArrayElement
 )
 {
@@ -4128,9 +4134,12 @@ setUndefined
 JSONToken
 token
 ;
-ParserState
+JSONParserState
 state
 =
+JSONParserState
+:
+:
 JSONValue
 ;
 while
@@ -4144,6 +4153,9 @@ state
 )
 {
 case
+JSONParserState
+:
+:
 FinishObjectMember
 :
 {
@@ -4457,6 +4469,9 @@ errorReturn
 )
 ;
 case
+JSONParserState
+:
+:
 FinishArrayElement
 :
 {
@@ -4565,6 +4580,9 @@ errorReturn
 JSONValue
 :
 case
+JSONParserState
+:
+:
 JSONValue
 :
 token
