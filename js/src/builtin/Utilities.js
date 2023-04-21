@@ -464,7 +464,10 @@ constructor
 function
 GetTypeError
 (
-msg
+.
+.
+.
+args
 )
 {
 try
@@ -473,7 +476,7 @@ FUN_APPLY
 (
 ThrowTypeError
 undefined
-arguments
+args
 )
 ;
 }
@@ -508,7 +511,10 @@ function
 function
 GetAggregateError
 (
-msg
+.
+.
+.
+args
 )
 {
 try
@@ -517,7 +523,7 @@ FUN_APPLY
 (
 ThrowAggregateError
 undefined
-arguments
+args
 )
 ;
 }
@@ -552,7 +558,10 @@ function
 function
 GetInternalError
 (
-msg
+.
+.
+.
+args
 )
 {
 try
@@ -561,7 +570,7 @@ FUN_APPLY
 (
 ThrowInternalError
 undefined
-arguments
+args
 )
 ;
 }
