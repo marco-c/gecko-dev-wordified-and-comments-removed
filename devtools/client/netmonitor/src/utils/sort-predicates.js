@@ -153,10 +153,10 @@ compareValues
 (
 first
 .
-resourceId
+id
 second
 .
-resourceId
+id
 )
 ;
 }
