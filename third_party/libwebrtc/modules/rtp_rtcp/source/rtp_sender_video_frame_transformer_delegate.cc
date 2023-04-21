@@ -147,6 +147,10 @@ video_header
 metadata_
 (
 header_
+.
+GetAsMetadata
+(
+)
 )
 frame_type_
 (

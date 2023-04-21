@@ -95,6 +95,10 @@ frame_
 GetRtpVideoHeader
 (
 )
+.
+GetAsMetadata
+(
+)
 )
 ssrc_
 (
