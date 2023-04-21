@@ -94,6 +94,17 @@ desktop_capture
 /
 desktop_capture_gn
 "
+"
+third_party
+/
+libwebrtc
+/
+modules
+/
+portal
+/
+portal_gn
+"
 ]
 }
 "
