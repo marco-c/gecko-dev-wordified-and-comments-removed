@@ -1852,9 +1852,9 @@ button
 class
 =
 "
-screenshots
+cancel
 -
-button
+shot
 "
 id
 =
@@ -2452,7 +2452,6 @@ class
 screenshots
 -
 button
-primary
 "
 title
 =
