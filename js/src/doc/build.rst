@@ -1167,7 +1167,7 @@ as
 usual
 with
 mach
-build
+compile
 with
 this
 MOZCONFIG
@@ -1496,7 +1496,7 @@ android
 -
 ndk
 -
-r23c
+r20
 /
 prebuilt
 /
@@ -1835,7 +1835,7 @@ android
 -
 ndk
 -
-r23c
+r20
 /
 prebuilt
 /
