@@ -1762,11 +1762,6 @@ EnumTable
 *
 sEnumTableArray
 ;
-static
-MiscContainer
-*
-sMiscContainerCache
-;
 bool
 DoParseHTMLDimension
 (
