@@ -224,3 +224,17 @@ SelectionActionDelegateParent
 jsm
 "
 ]
+MOCHITEST_MANIFESTS
++
+=
+[
+"
+tests
+/
+mochitests
+/
+mochitest
+.
+ini
+"
+]
