@@ -90,13 +90,6 @@ dbg
 source
 )
 ;
-await
-waitForSelectedSource
-(
-dbg
-source
-)
-;
 invokeInTab
 (
 "
