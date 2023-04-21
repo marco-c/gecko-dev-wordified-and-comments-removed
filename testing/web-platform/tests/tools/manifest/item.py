@@ -172,23 +172,12 @@ if
 MYPY
 :
             
-inst_
-=
-cast
-(
-Type
-[
-ManifestItem
-]
-inst
-)
-            
 item_type
 =
 cast
 (
 str
-inst_
+inst
 .
 item_type
 )
@@ -196,14 +185,10 @@ item_type
 else
 :
             
-inst_
-=
-inst
-            
 assert
 isinstance
 (
-inst_
+inst
 .
 item_type
 str
@@ -211,7 +196,7 @@ str
             
 item_type
 =
-inst_
+inst
 .
 item_type
         
@@ -220,10 +205,10 @@ item_types
 item_type
 ]
 =
-inst_
+inst
         
 return
-inst_
+inst
 class
 ManifestItem
 (

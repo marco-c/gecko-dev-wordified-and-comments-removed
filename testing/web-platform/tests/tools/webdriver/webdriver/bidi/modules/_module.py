@@ -7,8 +7,6 @@ import
     
 Any
     
-Awaitable
-    
 Callable
     
 Optional
@@ -546,29 +544,6 @@ owner
 name
 inner
 )
-    
-def
-__call__
-(
-*
-args
-:
-Any
-*
-*
-kwargs
-:
-Any
-)
--
->
-Awaitable
-[
-Any
-]
-:
-        
-pass
 class
 BidiModule
 :

@@ -119,9 +119,9 @@ import
 SessionTicket
 from
 tools
-.
-wptserve
-.
+import
+localpaths
+from
 wptserve
 import
 stash
