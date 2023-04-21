@@ -339,6 +339,15 @@ true
 _
 (
 "
+parallelMarkingThresholdKB
+"
+JSGC_PARALLEL_MARKING_THRESHOLD_KB
+true
+)
+\
+_
+(
+"
 minLastDitchGCPeriod
 "
 JSGC_MIN_LAST_DITCH_GC_PERIOD

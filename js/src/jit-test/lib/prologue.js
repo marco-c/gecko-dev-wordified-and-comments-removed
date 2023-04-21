@@ -87,3 +87,11 @@ name
 present
 ;
 }
+gcparam
+(
+'
+parallelMarkingThresholdKB
+'
+0
+)
+;

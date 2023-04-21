@@ -313,6 +313,13 @@ nurseryTimeoutForIdleCollectionMS
 "
 )
 ;
+testChangeParam
+(
+"
+parallelMarkingThresholdKB
+"
+)
+;
 testMBParamValue
 (
 "
