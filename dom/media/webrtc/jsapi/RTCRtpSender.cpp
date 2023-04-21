@@ -3254,6 +3254,11 @@ isSome
 )
 )
 ;
+bool
+compatModeAllowedRidChange
+=
+false
+;
 if
 (
 paramsCopy
@@ -3339,6 +3344,10 @@ forget
 )
 ;
 }
+compatModeAllowedRidChange
+=
+true
+;
 if
 (
 !
@@ -3947,7 +3956,7 @@ MaybeUpdateConduit
 ;
 if
 (
-mAllowOldSetParameters
+compatModeAllowedRidChange
 )
 {
 SetJsepRids
