@@ -969,10 +969,40 @@ split
 ]
 )
         
+minimum_rust_version
+=
+MINIMUM_RUST_VERSION
+        
+if
+LooseVersion
+(
+"
+1
+.
+68
+.
+0
+"
+)
+>
+=
+MINIMUM_RUST_VERSION
+:
+            
+minimum_rust_version
+=
+"
+1
+.
+68
+.
+0
+"
+        
 if
 version
 <
-MINIMUM_RUST_VERSION
+minimum_rust_version
 :
             
 self
@@ -1013,7 +1043,7 @@ newer
 format
 (
                     
-MINIMUM_RUST_VERSION
+minimum_rust_version
                 
 )
             
