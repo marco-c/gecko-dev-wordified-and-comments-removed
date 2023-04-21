@@ -124,6 +124,9 @@ CompilationInput
 namespace
 JS
 {
+struct
+CompilationStorage
+;
 using
 Stencil
 =
@@ -204,7 +207,6 @@ storage
 ;
 friend
 JS_PUBLIC_API
-JS_PUBLIC_API
 bool
 PrepareForInstantiate
 (
@@ -214,15 +216,12 @@ JS
 FrontendContext
 *
 fc
-js
+JS
 :
 :
-frontend
-:
-:
-CompilationInput
+CompilationStorage
 &
-input
+compileStorage
 JS
 :
 :
