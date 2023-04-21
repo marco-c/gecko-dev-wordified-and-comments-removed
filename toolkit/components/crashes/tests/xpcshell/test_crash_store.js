@@ -12,7 +12,7 @@ dateToDays
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -25,7 +25,9 @@ modules
 /
 CrashManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
