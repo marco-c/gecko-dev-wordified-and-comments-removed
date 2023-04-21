@@ -406,12 +406,6 @@ return
 false
 ;
 }
-virtual
-uint16_t
-GetHitTestFlags
-(
-)
-;
 private
 :
 enum
@@ -521,14 +515,6 @@ final
 public
 DisplaySVGItem
 {
-using
-imgDrawingParams
-=
-image
-:
-:
-imgDrawingParams
-;
 public
 :
 DisplaySVGGeometry
