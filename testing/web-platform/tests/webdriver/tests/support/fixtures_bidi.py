@@ -416,6 +416,11 @@ data
 "
 "
     
+remove_listeners
+=
+[
+]
+    
 def
 wait_for_event
 (
@@ -446,6 +451,13 @@ remove_listener
 (
 )
             
+remove_listeners
+.
+remove
+(
+remove_listener
+)
+            
 future
 .
 set_result
@@ -463,11 +475,28 @@ event_name
 on_event
 )
         
+remove_listeners
+.
+append
+(
+remove_listener
+)
+        
 return
 future
     
-return
+yield
 wait_for_event
+    
+for
+remove_listener
+in
+remove_listeners
+:
+        
+remove_listener
+(
+)
 pytest
 .
 fixture
