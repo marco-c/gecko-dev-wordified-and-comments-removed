@@ -92,10 +92,6 @@ IDBOpenDBOptions_StorageType
 )
 DEPRECATED_OPERATION
 (
-MozBoxOrInlineBoxDisplay
-)
-DEPRECATED_OPERATION
-(
 DOMQuadBoundsAttr
 )
 DEPRECATED_OPERATION
