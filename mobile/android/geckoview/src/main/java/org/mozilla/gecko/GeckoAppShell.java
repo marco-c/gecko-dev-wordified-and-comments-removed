@@ -1754,12 +1754,6 @@ return
 false
 ;
 }
-if
-(
-!
-locationHighAccuracyEnabled
-)
-{
 final
 Location
 lastKnownLocation
@@ -1784,7 +1778,6 @@ onLocationChanged
 lastKnownLocation
 )
 ;
-}
 }
 final
 Criteria
