@@ -1007,7 +1007,10 @@ CharT
 (
 cx
 jsonChars
-JSONParserBase
+JSONParser
+<
+CharT
+>
 :
 :
 ParseType
