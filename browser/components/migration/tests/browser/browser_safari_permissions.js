@@ -69,7 +69,7 @@ SafariProfileMigrator
 (
 )
 ;
-sinon
+sandbox
 .
 stub
 (
