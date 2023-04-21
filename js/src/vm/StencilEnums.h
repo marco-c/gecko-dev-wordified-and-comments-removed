@@ -292,12 +292,6 @@ Uninlineable
 <
 <
 19
-NoEagerBaselineHint
-=
-1
-<
-<
-20
 FailedBoundsCheck
 =
 1
