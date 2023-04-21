@@ -175,10 +175,10 @@ MaxTimeMagnitude
 if
 (
 !
-mozilla
+std
 :
 :
-IsFinite
+isfinite
 (
 time
 )

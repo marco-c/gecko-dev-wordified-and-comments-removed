@@ -825,7 +825,10 @@ aValue
 )
 {
 return
-IsFinite
+std
+:
+:
+isfinite
 (
 aValue
 )
@@ -1477,7 +1480,10 @@ aInteger
 if
 (
 !
-IsFinite
+std
+:
+:
+isfinite
 (
 aValue
 )

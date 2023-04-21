@@ -15497,7 +15497,10 @@ width
 |
 |
 !
-IsFinite
+std
+:
+:
+isfinite
 (
 style
 .
@@ -15516,7 +15519,10 @@ miter_limit
 |
 |
 !
-IsFinite
+std
+:
+:
+isfinite
 (
 style
 .

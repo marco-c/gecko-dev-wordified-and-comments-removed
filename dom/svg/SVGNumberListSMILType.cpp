@@ -852,7 +852,10 @@ total
 if
 (
 !
-IsFinite
+std
+:
+:
+isfinite
 (
 distance
 )

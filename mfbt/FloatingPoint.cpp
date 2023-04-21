@@ -25,7 +25,10 @@ aValue
 if
 (
 !
-IsFinite
+std
+:
+:
+isfinite
 (
 aValue
 )

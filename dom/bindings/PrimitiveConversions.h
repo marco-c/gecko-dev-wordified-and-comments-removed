@@ -930,10 +930,10 @@ integers
 if
 (
 !
-mozilla
+std
 :
 :
-IsFinite
+isfinite
 (
 d
 )
@@ -1218,10 +1218,10 @@ true
 }
 MOZ_ASSERT
 (
-mozilla
+std
 :
 :
-IsFinite
+isfinite
 (
 d
 )
