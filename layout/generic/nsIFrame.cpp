@@ -16041,9 +16041,12 @@ if
 effects
 -
 >
-IsTransparent
-(
-)
+mOpacity
+=
+=
+0
+.
+0
 &
 &
 aBuilder
