@@ -779,7 +779,7 @@ Any
 )
 -
 >
-bytes
+Any
 :
         
 assert
