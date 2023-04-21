@@ -1,4 +1,10 @@
 #
+ifndef
+_MozAccessible_H_
+#
+define
+_MozAccessible_H_
+#
 include
 "
 AccessibleWrap
@@ -788,3 +794,5 @@ BOOL
 isExpired
 ;
 end
+#
+endif

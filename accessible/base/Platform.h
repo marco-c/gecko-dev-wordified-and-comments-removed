@@ -55,6 +55,13 @@ Role
 h
 "
 #
+include
+"
+nsTArray
+.
+h
+"
+#
 endif
 #
 if

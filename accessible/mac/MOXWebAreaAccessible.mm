@@ -13,6 +13,13 @@ MOXSearchInfo
 h
 "
 #
+import
+"
+MacUtils
+.
+h
+"
+#
 include
 "
 nsAccUtils
@@ -23,6 +30,13 @@ h
 include
 "
 nsCocoaUtils
+.
+h
+"
+#
+include
+"
+DocAccessible
 .
 h
 "

@@ -45,6 +45,13 @@ h
 #
 include
 "
+TextRange
+.
+h
+"
+#
+include
+"
 TreeWalker
 .
 h

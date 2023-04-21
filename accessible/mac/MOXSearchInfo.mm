@@ -42,6 +42,17 @@ StaticPrefs_accessibility
 .
 h
 "
+#
+include
+"
+mozilla
+/
+a11y
+/
+DocAccessiblePlatformExtParent
+.
+h
+"
 using
 namespace
 mozilla
@@ -566,6 +577,9 @@ shouldApplyPostFilter
 {
 return
 !
+mozilla
+:
+:
 StaticPrefs
 :
 :
@@ -848,6 +862,9 @@ matchIds
 MOZ_ASSERT
 (
 !
+mozilla
+:
+:
 StaticPrefs
 :
 :
@@ -866,6 +883,9 @@ enabled
 "
 )
 ;
+mozilla
+:
+:
 Unused
 <
 <

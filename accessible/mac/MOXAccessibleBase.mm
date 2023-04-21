@@ -35,6 +35,17 @@ Logging
 .
 h
 "
+#
+include
+"
+gfxPlatform
+.
+h
+"
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla

@@ -81,6 +81,13 @@ h
 #
 include
 "
+nsAccUtils
+.
+h
+"
+#
+include
+"
 Relation
 .
 h
