@@ -1326,6 +1326,11 @@ SendCollectPerfStatsJSON
 [
 collector
 gpuChild
+=
+RefPtr
+{
+gpuChild
+}
 ]
 (
 const
