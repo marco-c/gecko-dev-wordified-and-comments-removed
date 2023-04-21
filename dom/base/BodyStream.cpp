@@ -968,17 +968,6 @@ MOZ_DIAGNOSTIC_ASSERT
 mOriginalInputStream
 )
 ;
-mInputStream
--
->
-AsyncWait
-(
-nullptr
-0
-0
-nullptr
-)
-;
 nsresult
 rv
 =
