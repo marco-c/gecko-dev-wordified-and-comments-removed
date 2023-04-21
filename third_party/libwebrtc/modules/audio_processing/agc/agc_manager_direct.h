@@ -786,11 +786,6 @@ startup_
 true
 ;
 int
-calls_since_last_gain_log_
-=
-0
-;
-int
 recommended_input_volume_
 =
 0
