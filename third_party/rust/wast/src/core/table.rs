@@ -397,14 +397,10 @@ parse
 init_expr
 :
 if
+!
 parser
 .
-peek
-:
-:
-<
-LParen
->
+is_empty
 (
 )
 {
