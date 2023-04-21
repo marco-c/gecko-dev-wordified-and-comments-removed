@@ -3355,6 +3355,11 @@ shift
 else
 <
 key
+id
+=
+"
+key_togglePictureInPicture
+"
 data
 -
 l10n
