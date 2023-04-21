@@ -105,6 +105,18 @@ flac
 "
 ]
 ;
+const
+extraKey
+=
+"
+rdd
+-
+disabled
+utility
+-
+disabled
+"
+;
 await
 verifyTelemetryForProcess
 (
@@ -112,6 +124,7 @@ verifyTelemetryForProcess
 tab
 "
 codecs
+extraKey
 )
 ;
 await
@@ -121,6 +134,7 @@ verifyNoTelemetryForProcess
 utility
 "
 codecs
+extraKey
 )
 ;
 await
@@ -130,6 +144,7 @@ verifyNoTelemetryForProcess
 rdd
 "
 codecs
+extraKey
 )
 ;
 }
