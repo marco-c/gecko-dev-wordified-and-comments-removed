@@ -101,6 +101,9 @@ interface
 nsISecureBrowserUI
 ;
 interface
+nsISHEntry
+;
+interface
 nsIPrintSettings
 ;
 interface
@@ -2083,6 +2086,12 @@ attribute
 nsISHistory
 ?
 sessionHistory
+;
+readonly
+attribute
+nsISHEntry
+?
+activeSessionHistoryEntry
 ;
 readonly
 attribute
