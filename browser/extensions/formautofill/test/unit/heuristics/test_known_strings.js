@@ -718,7 +718,7 @@ FormAutofillHeuristics
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -729,9 +729,7 @@ autofill
 /
 FormAutofillHeuristics
 .
-sys
-.
-mjs
+jsm
 "
 )
 )

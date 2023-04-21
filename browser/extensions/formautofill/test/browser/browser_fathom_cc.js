@@ -298,7 +298,7 @@ FieldScanner
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -309,9 +309,7 @@ autofill
 /
 FormAutofillHeuristics
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -322,7 +320,7 @@ FormAutofillUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -333,9 +331,7 @@ autofill
 /
 FormAutofillUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
