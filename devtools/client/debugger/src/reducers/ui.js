@@ -30,14 +30,6 @@ const
 initialUIState
 =
 (
-{
-supportsJavascriptTracing
-=
-false
-}
-=
-{
-}
 )
 =
 >
@@ -99,7 +91,6 @@ editorWrapping
 javascriptEnabled
 :
 true
-supportsJavascriptTracing
 javascriptTracingLogMethod
 :
 prefs
