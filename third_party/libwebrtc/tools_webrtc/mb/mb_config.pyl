@@ -326,10 +326,6 @@ webrtc
 Android
 '
 Android32
-(
-M
-Nexus5X
-)
 '
 :
 '
@@ -337,10 +333,6 @@ android_release_bot_arm_reclient
 '
 '
 Android32
-(
-M
-Nexus5X
-)
 (
 dbg
 )
@@ -412,10 +404,6 @@ android_debug_static_bot_x86
 '
 '
 Android64
-(
-M
-Nexus5X
-)
 '
 :
 '
@@ -423,10 +411,6 @@ android_release_bot_arm64
 '
 '
 Android64
-(
-M
-Nexus5X
-)
 (
 dbg
 )

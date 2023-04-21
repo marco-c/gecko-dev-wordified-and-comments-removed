@@ -4771,10 +4771,6 @@ android_builder
 "
 Android32
 (
-M
-Nexus5X
-)
-(
 dbg
 )
 "
@@ -4805,10 +4801,6 @@ android_builder
 (
 "
 Android32
-(
-M
-Nexus5X
-)
 "
 "
 Android
@@ -5002,10 +4994,6 @@ android_builder
 (
 "
 Android64
-(
-M
-Nexus5X
-)
 "
 "
 Android

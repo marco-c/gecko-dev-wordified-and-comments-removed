@@ -105,10 +105,6 @@ machines
 {
 '
 Android32
-(
-M
-Nexus5X
-)
 '
 :
 {
@@ -161,10 +157,6 @@ android_junit_tests
 }
 '
 Android32
-(
-M
-Nexus5X
-)
 (
 dbg
 )
@@ -296,10 +288,6 @@ dbg
 }
 '
 Android64
-(
-M
-Nexus5X
-)
 '
 :
 {
@@ -352,10 +340,6 @@ android_junit_tests
 }
 '
 Android64
-(
-M
-Nexus5X
-)
 (
 dbg
 )
