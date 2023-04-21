@@ -8066,9 +8066,12 @@ all_paths_lints
 check_git_ignore
 ]
 except
+(
 subprocess
 .
 CalledProcessError
+FileNotFoundError
+)
 :
     
 print
