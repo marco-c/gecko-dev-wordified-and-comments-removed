@@ -1021,9 +1021,9 @@ target
 .
 objectBox
 .
-open
+highlight
 -
-inspector
+node
 "
 )
 ;
