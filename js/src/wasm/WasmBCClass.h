@@ -6722,7 +6722,7 @@ typeIndex
 )
 ;
 RegPtr
-loadTypeDef
+loadSuperTypeVector
 (
 uint32_t
 typeIndex

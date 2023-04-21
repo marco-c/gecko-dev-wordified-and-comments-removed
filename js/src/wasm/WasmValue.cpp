@@ -1483,7 +1483,7 @@ WasmGcObject
 (
 )
 .
-isRuntimeSubtype
+isRuntimeSubtypeOf
 (
 typeDef
 )

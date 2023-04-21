@@ -1504,12 +1504,12 @@ shape
 obj
 -
 >
-typeDef_
+superTypeVector_
 =
 typeDefData
 -
 >
-typeDef
+superTypeVector
 ;
 js
 :
@@ -1766,7 +1766,7 @@ bool
 WasmGcObject
 :
 :
-isRuntimeSubtype
+isRuntimeSubtypeOf
 (
 const
 wasm

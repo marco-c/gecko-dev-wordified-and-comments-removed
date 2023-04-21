@@ -31127,7 +31127,7 @@ RegPtr
 BaseCompiler
 :
 :
-loadTypeDef
+loadSuperTypeVector
 (
 uint32_t
 typeIndex
@@ -31158,7 +31158,7 @@ loadWasmGlobalPtr
 (
 moduleEnv_
 .
-offsetOfTypeDef
+offsetOfSuperTypeVector
 (
 typeIndex
 )
@@ -31329,9 +31329,9 @@ typeIndex
 ]
 ;
 RegPtr
-superTypeDef
+superSuperTypeVector
 =
-loadTypeDef
+loadSuperTypeVector
 (
 typeIndex
 )
@@ -31433,7 +31433,7 @@ object
 WasmGcObject
 :
 :
-offsetOfTypeDef
+offsetOfSuperTypeVector
 (
 )
 )
@@ -31442,10 +31442,10 @@ scratch1
 ;
 masm
 .
-branchWasmTypeDefIsSubtype
+branchWasmSuperTypeVectorIsSubtype
 (
 scratch1
-superTypeDef
+superSuperTypeVector
 scratch2
 castTypeDef
 .
@@ -31489,7 +31489,7 @@ scratch1
 ;
 freePtr
 (
-superTypeDef
+superSuperTypeVector
 )
 ;
 }

@@ -1475,7 +1475,7 @@ operands
 object
 :
 WordSized
-superTypeDef
+superSuperTypeVector
 :
 WordSized
 result_type

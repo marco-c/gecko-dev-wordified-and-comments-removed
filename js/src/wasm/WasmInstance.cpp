@@ -10058,6 +10058,17 @@ typeDef
 &
 typeDef
 ;
+typeDefData
+-
+>
+superTypeVector
+=
+typeDef
+.
+superTypeVector
+(
+)
+;
 if
 (
 typeDef

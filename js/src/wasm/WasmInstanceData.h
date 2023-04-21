@@ -105,6 +105,10 @@ typeDef
 (
 nullptr
 )
+superTypeVector
+(
+nullptr
+)
 shape
 (
 nullptr
@@ -136,6 +140,14 @@ wasm
 TypeDef
 *
 typeDef
+;
+const
+wasm
+:
+:
+SuperTypeVector
+*
+superTypeVector
 ;
 GCPtr
 <

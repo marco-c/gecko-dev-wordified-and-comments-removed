@@ -56210,7 +56210,7 @@ MDefinition
 object
 MDefinition
 *
-superTypeDef
+superSuperTypeVector
 uint32_t
 subTypingDepth
 bool
@@ -56221,7 +56221,7 @@ MBinaryInstruction
 (
 classOpcode
 object
-superTypeDef
+superSuperTypeVector
 )
 subTypingDepth_
 (
@@ -56260,7 +56260,7 @@ object
 )
 (
 1
-superTypeDef
+superSuperTypeVector
 )
 )
 uint32_t
@@ -56319,7 +56319,9 @@ subTypingDepth
 )
 &
 &
-succeedOnNull_
+succeedOnNull
+(
+)
 =
 =
 ins

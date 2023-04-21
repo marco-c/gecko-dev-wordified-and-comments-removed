@@ -128,7 +128,7 @@ const
 uint32_t
 MinSuperTypeVectorLength
 =
-3
+8
 ;
 static
 const
