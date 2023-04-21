@@ -197,6 +197,7 @@ t
 .
 step
 (
+async
 function
 (
 )
@@ -223,6 +224,14 @@ getContext
 '
 )
 ;
+await
+(
+function
+(
+canvas
+ctx
+)
+{
 var
 imgdata
 =
@@ -666,6 +675,13 @@ data
 "
 255
 "
+)
+;
+}
+)
+(
+canvas
+ctx
 )
 ;
 t

@@ -201,6 +201,7 @@ t
 .
 step
 (
+async
 function
 (
 )
@@ -227,6 +228,14 @@ getContext
 '
 )
 ;
+await
+(
+function
+(
+canvas
+ctx
+)
+{
 ctx
 .
 fillStyle
@@ -353,6 +362,13 @@ data
 "
 255
 "
+)
+;
+}
+)
+(
+canvas
+ctx
 )
 ;
 t

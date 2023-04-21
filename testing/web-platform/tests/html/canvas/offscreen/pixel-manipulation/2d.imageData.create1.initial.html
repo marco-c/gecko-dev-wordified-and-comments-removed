@@ -201,6 +201,7 @@ t
 .
 step
 (
+async
 function
 (
 )
@@ -227,6 +228,14 @@ getContext
 '
 )
 ;
+await
+(
+function
+(
+canvas
+ctx
+)
+{
 ctx
 .
 fillStyle
@@ -384,6 +393,13 @@ isTransparentBlack
 "
 isTransparentBlack
 "
+)
+;
+}
+)
+(
+canvas
+ctx
 )
 ;
 t

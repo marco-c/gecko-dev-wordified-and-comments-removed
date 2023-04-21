@@ -203,6 +203,7 @@ t
 .
 step
 (
+async
 function
 (
 )
@@ -229,6 +230,14 @@ getContext
 '
 )
 ;
+await
+(
+function
+(
+canvas
+ctx
+)
+{
 var
 imgdata
 =
@@ -371,6 +380,13 @@ isTransparentBlack
 "
 isTransparentBlack
 "
+)
+;
+}
+)
+(
+canvas
+ctx
 )
 ;
 t
