@@ -3214,6 +3214,8 @@ artifactMap
 :
         
 if
+(
+            
 config
 [
 "
@@ -3230,6 +3232,18 @@ reference
 =
 =
 repackage_deb_reference
+            
+and
+repackage_deb_artifact
+in
+config
+[
+"
+paths
+"
+]
+        
+)
 :
             
 gcs_sources
