@@ -171,6 +171,9 @@ true
 touchEventsOverride
 :
 true
+useSimpleHighlightersForReducedMotion
+:
+true
 }
 ;
 class
