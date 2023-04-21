@@ -1282,9 +1282,7 @@ status
 ;
 if
 (
-nullptr
-=
-=
+!
 aReflowInput
 .
 mLineLayout
