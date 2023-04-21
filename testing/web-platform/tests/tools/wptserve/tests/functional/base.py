@@ -672,6 +672,14 @@ test_method
         
 self
 .
+client
+.
+close
+(
+)
+        
+self
+.
 server
 .
 stop
