@@ -31,7 +31,7 @@ InstallerPrefs
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -43,7 +43,9 @@ modules
 /
 InstallerPrefs
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
