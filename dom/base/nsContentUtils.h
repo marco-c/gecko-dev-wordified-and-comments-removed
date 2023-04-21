@@ -3070,9 +3070,9 @@ nsINode
 *
 aNode
 const
-nsIContent
+nsINode
 *
-aContent
+aOtherNode
 )
 ;
 static
