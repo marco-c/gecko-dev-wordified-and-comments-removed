@@ -384,10 +384,10 @@ criticalIcon
 .
 style
 .
-visibility
+display
 =
 "
-hidden
+none
 "
 ;
 }
