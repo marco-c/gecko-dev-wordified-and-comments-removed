@@ -58,7 +58,8 @@ ff
 |
 tee
 -
-a
+-
+append
 LOOP_OUTPUT_LOG
 }
 function
@@ -839,6 +840,7 @@ SCRIPT_DIR
 detect_upstream_revert
 .
 sh
+\
 2
 >
 &
@@ -846,7 +848,8 @@ sh
 |
 tee
 -
-a
+-
+append
 LOOP_OUTPUT_LOG
 fi
 SKIP_NEXT_REVERT_CHK
@@ -942,7 +945,8 @@ sh
 |
 tee
 -
-a
+-
+append
 LOOP_OUTPUT_LOG
 MOZ_CHANGED
 =
@@ -1312,6 +1316,7 @@ branch
 -
 head
 MOZ_TARGET_UPSTREAM_BRANCH_HEAD
+\
 2
 >
 &
@@ -1319,7 +1324,8 @@ MOZ_TARGET_UPSTREAM_BRANCH_HEAD
 |
 tee
 -
-a
+-
+append
 LOOP_OUTPUT_LOG
 MODIFIED_BUILD_RELATED_FILE_CNT
 =
@@ -1586,7 +1592,8 @@ json
 |
 tee
 -
-a
+-
+append
 LOOP_OUTPUT_LOG
 MOZ_BUILD_CHANGE_CNT
 =
@@ -1664,7 +1671,8 @@ sh
 |
 tee
 -
-a
+-
+append
 LOOP_OUTPUT_LOG
 fi
 ERROR_HELP
@@ -1722,7 +1730,8 @@ build
 |
 tee
 -
-a
+-
+append
 LOOP_OUTPUT_LOG
 ERROR_HELP
 =
