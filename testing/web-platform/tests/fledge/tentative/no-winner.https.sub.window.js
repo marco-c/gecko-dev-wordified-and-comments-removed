@@ -1,3 +1,8 @@
+"
+use
+strict
+;
+"
 const
 COMMON_SCRIPT_ERRORS
 =

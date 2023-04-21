@@ -1,3 +1,8 @@
+"
+use
+strict
+;
+"
 const
 BASE_INTEREST_GROUP
 =
