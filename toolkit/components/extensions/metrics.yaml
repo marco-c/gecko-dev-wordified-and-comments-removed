@@ -650,6 +650,9 @@ labels
 hit
 -
 miss
+telemetry_mirror
+:
+EXTENSIONS_APIS_DNR_STARTUP_CACHE_ENTRIES
 validate_rules_time
 :
 type
