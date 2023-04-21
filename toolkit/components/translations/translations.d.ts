@@ -418,3 +418,14 @@ viewport
 hidden
 "
 ;
+export
+interface
+LangTags
+{
+appLangTag
+:
+string
+docLangTag
+:
+string
+}
