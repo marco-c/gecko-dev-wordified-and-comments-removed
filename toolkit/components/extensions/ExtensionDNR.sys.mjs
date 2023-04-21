@@ -10080,7 +10080,7 @@ bc
 activeSessionHistoryEntry
 ?
 .
-postData
+hasPostData
 ?
 "
 post
