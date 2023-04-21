@@ -1028,9 +1028,13 @@ securityState
 }
 if
 (
+!
+isNaN
+(
 res
 .
 waitingTime
+)
 &
 &
 existingPacket
