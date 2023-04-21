@@ -4360,6 +4360,11 @@ domParser
 parseFromString
 (
 <
+!
+DOCTYPE
+html
+>
+<
 div
 >
 {

@@ -2191,6 +2191,11 @@ html
 )
 ;
 }
+discardTranslations
+(
+)
+{
+}
 }
 class
 WorkQueue
