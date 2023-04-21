@@ -113,6 +113,13 @@ h
 #
 include
 "
+nsIWindowMediator
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Components
