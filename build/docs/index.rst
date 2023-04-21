@@ -181,15 +181,6 @@ toctree
 maxdepth
 :
 1
-.
-.
-/
-.
-.
-/
-contributing
-/
-vscode
 androideclipse
 cppeclipse
 visualstudio
