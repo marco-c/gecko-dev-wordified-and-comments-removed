@@ -1001,6 +1001,15 @@ GLFeature
 :
 map_buffer_range
 )
+&
+&
+!
+gl
+-
+>
+IsANGLE
+(
+)
 )
 {
 GLbitfield
