@@ -403,6 +403,14 @@ false
 ChromeOnly
 ]
 boolean
+chromeOnlyNodes
+=
+false
+;
+[
+ChromeOnly
+]
+boolean
 animations
 =
 false
