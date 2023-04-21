@@ -196,6 +196,10 @@ const
 void
 *
 data
+bool
+unsynchronized
+=
+false
 )
 const
 ;

@@ -4792,6 +4792,11 @@ Mali
 MP
 "
 "
+Mali
+-
+T
+"
+"
 PowerVR
 SGX
 530

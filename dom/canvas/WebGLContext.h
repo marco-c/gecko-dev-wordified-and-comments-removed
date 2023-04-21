@@ -3208,6 +3208,10 @@ const
 uint8_t
 *
 srcData
+bool
+unsynchronized
+=
+false
 )
 const
 ;

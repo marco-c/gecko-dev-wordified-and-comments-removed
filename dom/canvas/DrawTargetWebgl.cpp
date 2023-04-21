@@ -18069,6 +18069,7 @@ LOCAL_GL_ARRAY_BUFFER
 mPathVertexOffset
 vbData
 vertexBytes
+true
 )
 ;
 mPathVertexOffset

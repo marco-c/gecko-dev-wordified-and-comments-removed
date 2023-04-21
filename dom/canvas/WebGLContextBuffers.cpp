@@ -1128,6 +1128,8 @@ const
 uint8_t
 *
 data
+bool
+unsynchronized
 )
 const
 {
@@ -1185,6 +1187,7 @@ target
 dstByteOffset
 dataLen
 data
+unsynchronized
 )
 ;
 }
