@@ -17,7 +17,6 @@ FIREFOX
 CHROME
 CHROMIUM
 SAFARI
-CHROMIUM_RELEASE
 )
 =
 DESKTOP_APPS
@@ -38,12 +37,6 @@ chromium
     
 "
 safari
-"
-    
-"
-custom
--
-car
 "
 ]
 (
@@ -136,24 +129,6 @@ long_name
 "
 Safari
 Desktop
-"
-}
-    
-CHROMIUM_RELEASE
-:
-{
-"
-long_name
-"
-:
-"
-Custom
-Chromium
--
-as
--
-Release
-desktop
 "
 }
     

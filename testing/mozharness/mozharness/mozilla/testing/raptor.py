@@ -1132,12 +1132,6 @@ fenix
 "
 safari
 "
-                        
-"
-custom
--
-car
-"
                     
 ]
                     
@@ -5507,18 +5501,12 @@ win
         
 chrome
 chromium
-chromium_release
 =
 "
 chrome
 "
 "
 chromium
-"
-"
-custom
--
-car
 "
         
 available_chromium_dists
@@ -5526,7 +5514,6 @@ available_chromium_dists
 [
 chrome
 chromium
-chromium_release
 ]
         
 binary_location
@@ -5589,24 +5576,6 @@ exe
 "
 ]
             
-}
-            
-chromium_release
-:
-{
-linux
-:
-[
-"
-chromium
-"
-"
-Default
-"
-"
-chrome
-"
-]
 }
         
 }
