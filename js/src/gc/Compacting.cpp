@@ -1058,10 +1058,17 @@ TenuredCell
 *
 dst
 =
+reinterpret_cast
+<
+TenuredCell
+*
+>
+(
 AllocateCellInGC
 (
 zone
 thingKind
+)
 )
 ;
 memcpy
