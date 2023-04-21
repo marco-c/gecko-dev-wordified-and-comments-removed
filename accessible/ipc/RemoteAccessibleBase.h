@@ -1845,12 +1845,6 @@ IsFixedPos
 const
 ;
 bool
-IsOverflowHidden
-(
-)
-const
-;
-bool
 ContainsPoint
 (
 int32_t
