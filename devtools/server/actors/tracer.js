@@ -649,6 +649,13 @@ chromeContext
 this
 .
 isChromeContext
+timeStamp
+:
+ChromeUtils
+.
+dateNow
+(
+)
 }
 )
 ;
@@ -835,6 +842,13 @@ chromeContext
 this
 .
 isChromeContext
+timeStamp
+:
+ChromeUtils
+.
+dateNow
+(
+)
 sourceId
 :
 script
