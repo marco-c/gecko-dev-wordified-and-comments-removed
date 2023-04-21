@@ -1698,7 +1698,7 @@ param
 {
 HTMLOptionElement
 }
-option
+el
 *
 Option
 element
@@ -3834,9 +3834,18 @@ element
 *
 param
 {
+object
+=
+}
+options
+*
+param
+{
 boolean
 =
 }
+options
+.
 strictFileInteractability
 *
 Run
@@ -3857,6 +3866,8 @@ param
 boolean
 =
 }
+options
+.
 accessibilityChecks
 *
 Enforce
@@ -3870,6 +3881,8 @@ param
 boolean
 =
 }
+options
+.
 webdriverClick
 *
 Use

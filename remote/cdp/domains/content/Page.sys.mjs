@@ -1766,6 +1766,17 @@ bc
 *
 param
 {
+string
+}
+name
+*
+The
+event
+name
+.
+*
+param
+{
 object
 =
 }

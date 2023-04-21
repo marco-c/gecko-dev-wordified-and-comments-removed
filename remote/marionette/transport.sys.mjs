@@ -726,11 +726,13 @@ signature
 :
 *
 *
-param
-nsIAsyncOutputStream
+-
+params
+*
 {
-output
+nsIAsyncOutputStream
 }
+output
 *
 The
 stream
@@ -739,7 +741,7 @@ copy
 to
 .
 *
-*
+-
 returns
 {
 Promise
@@ -1450,7 +1452,9 @@ signature
 :
 *
 *
-param
+-
+params
+*
 {
 nsIAsyncInputStream
 }
@@ -1463,7 +1467,7 @@ copy
 from
 .
 *
-*
+-
 returns
 {
 Promise

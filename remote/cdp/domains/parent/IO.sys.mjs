@@ -332,9 +332,7 @@ specified
 *
 returns
 {
-string
-boolean
-boolean
+object
 }
 *
 Data

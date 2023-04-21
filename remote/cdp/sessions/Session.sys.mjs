@@ -252,7 +252,9 @@ Session
 *
 *
 param
+{
 Connection
+}
 connection
 *
 The
@@ -266,7 +268,9 @@ server
 .
 *
 param
+{
 Target
+}
 target
 *
 The
@@ -280,11 +284,11 @@ with
 .
 *
 param
-Number
+{
+number
+=
+}
 id
-(
-optional
-)
 *
 If
 this

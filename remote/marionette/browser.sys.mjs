@@ -414,7 +414,7 @@ param
 {
 ChromeWindow
 }
-win
+window
 *
 ChromeWindow
 that
@@ -2033,9 +2033,7 @@ frame
 *
 param
 {
-xul
-:
-browser
+XULBrowser
 }
 target
 *

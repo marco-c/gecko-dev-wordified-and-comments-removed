@@ -131,11 +131,15 @@ Target
 *
 *
 param
+{
 TargetList
+}
 targetList
 *
 param
+{
 Class
+}
 sessionClass
 *
 /

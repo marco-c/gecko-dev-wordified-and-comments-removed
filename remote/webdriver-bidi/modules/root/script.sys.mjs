@@ -520,6 +520,8 @@ Channel
 >
 =
 }
+options
+.
 arguments
 [
 unsupported
@@ -539,6 +541,8 @@ param
 {
 string
 }
+options
+.
 functionDeclaration
 *
 The
@@ -552,6 +556,8 @@ param
 string
 =
 }
+options
+.
 sandbox
 *
 The
@@ -1107,6 +1113,8 @@ RemoteValue
 >
 =
 }
+options
+.
 arguments
 *
 The
@@ -1123,6 +1131,8 @@ param
 {
 boolean
 }
+options
+.
 awaitPromise
 *
 Determines
@@ -1154,6 +1164,8 @@ param
 {
 string
 }
+options
+.
 functionDeclaration
 *
 The
@@ -1167,6 +1179,8 @@ param
 OwnershipModel
 =
 }
+options
+.
 resultOwnership
 *
 The
@@ -1193,6 +1207,8 @@ param
 {
 object
 }
+options
+.
 target
 *
 The
@@ -1219,6 +1235,8 @@ param
 RemoteValue
 =
 }
+options
+.
 this
 *
 The
@@ -1535,6 +1553,8 @@ Array
 string
 >
 }
+options
+.
 handles
 *
 Array
@@ -1549,6 +1569,8 @@ param
 {
 object
 }
+options
+.
 target
 *
 The
@@ -1757,6 +1779,8 @@ param
 {
 boolean
 }
+options
+.
 awaitPromise
 *
 Determines
@@ -1788,6 +1812,8 @@ param
 {
 string
 }
+options
+.
 expression
 *
 The
@@ -1801,6 +1827,8 @@ param
 OwnershipModel
 =
 }
+options
+.
 resultOwnership
 *
 The
@@ -1827,6 +1855,8 @@ param
 {
 object
 }
+options
+.
 target
 *
 The
@@ -2176,6 +2206,18 @@ type
 /
 /
 *
+eslint
+-
+disable
+jsdoc
+/
+valid
+-
+types
+*
+/
+/
+*
 *
 *
 An
@@ -2197,6 +2239,18 @@ BaseRealmInfo
 WindowRealmInfoProperties
 }
 WindowRealmInfo
+*
+/
+/
+*
+eslint
+-
+enable
+jsdoc
+/
+valid
+-
+types
 *
 /
 /
@@ -2300,6 +2354,8 @@ param
 string
 =
 }
+options
+.
 context
 *
 The
@@ -2335,6 +2391,8 @@ param
 RealmType
 =
 }
+options
+.
 type
 *
 Type
@@ -2639,6 +2697,8 @@ param
 {
 string
 }
+options
+.
 script
 *
 The

@@ -2333,6 +2333,7 @@ DOMElement
 |
 XULElement
 }
+element
 *
 Element
 associated

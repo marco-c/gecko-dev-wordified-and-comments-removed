@@ -471,7 +471,7 @@ param
 {
 object
 }
-object
+obj
 *
 Any
 non

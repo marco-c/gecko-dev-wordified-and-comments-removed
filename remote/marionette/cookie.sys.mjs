@@ -211,7 +211,6 @@ Cookie
 returns
 {
 Object
-.
 <
 string
 (
@@ -222,6 +221,7 @@ boolean
 string
 )
 >
+}
 *
 /
 /
@@ -715,9 +715,17 @@ add
 *
 param
 {
+object
+}
+options
+*
+param
+{
 string
 =
 }
+options
+.
 restrictToHost
 *
 Perform
@@ -736,6 +744,8 @@ param
 string
 =
 }
+options
+.
 protocol
 *
 The

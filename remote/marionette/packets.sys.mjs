@@ -2376,8 +2376,10 @@ stream
 *
 *
 param
-transport
+{
 DebuggerTransport
+}
+transport
 *
 The
 transport
@@ -2390,8 +2392,10 @@ packet
 .
 *
 param
-data
+{
 string
+}
+data
 *
 The
 raw

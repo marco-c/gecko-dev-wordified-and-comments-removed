@@ -1606,6 +1606,8 @@ param
 {
 boolean
 }
+options
+.
 awaitPromise
 *
 Determines
@@ -1641,6 +1643,8 @@ RemoteValue
 >
 =
 }
+options
+.
 commandArguments
 *
 The
@@ -1657,6 +1661,8 @@ param
 {
 string
 }
+options
+.
 functionDeclaration
 *
 The
@@ -1673,6 +1679,8 @@ param
 string
 =
 }
+options
+.
 realmId
 *
 The
@@ -1686,6 +1694,8 @@ param
 {
 OwnershipModel
 }
+options
+.
 resultOwnership
 *
 The
@@ -1706,6 +1716,8 @@ param
 string
 =
 }
+options
+.
 sandbox
 *
 The
@@ -1720,6 +1732,8 @@ param
 RemoteValue
 =
 }
+options
+.
 thisParameter
 *
 The
@@ -1974,6 +1988,8 @@ Array
 string
 >
 }
+options
+.
 handles
 *
 Array
@@ -1989,6 +2005,8 @@ param
 string
 =
 }
+options
+.
 realmId
 *
 The
@@ -2003,6 +2021,8 @@ param
 string
 =
 }
+options
+.
 sandbox
 *
 The
@@ -2088,6 +2108,8 @@ param
 {
 boolean
 }
+options
+.
 awaitPromise
 *
 Determines
@@ -2119,6 +2141,8 @@ param
 {
 string
 }
+options
+.
 expression
 *
 The
@@ -2132,6 +2156,8 @@ param
 string
 =
 }
+options
+.
 realmId
 *
 The
@@ -2145,6 +2171,8 @@ param
 {
 OwnershipModel
 }
+options
+.
 resultOwnership
 *
 The
@@ -2165,6 +2193,8 @@ param
 string
 =
 }
+options
+.
 sandbox
 *
 The

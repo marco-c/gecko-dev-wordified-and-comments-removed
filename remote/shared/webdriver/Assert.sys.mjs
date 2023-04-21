@@ -1431,7 +1431,7 @@ Array
 number
 >
 }
-Range
+range
 *
 Array
 range
@@ -2192,7 +2192,7 @@ Array
 number
 >
 }
-Range
+range
 *
 Array
 range
@@ -3301,7 +3301,7 @@ param
 Error
 =
 }
-error
+err
 *
 Custom
 error

@@ -1344,6 +1344,8 @@ param
 BrowsingContext
 =
 }
+options
+.
 browsingContext
 *
 Browsing
@@ -1364,6 +1366,8 @@ param
 boolean
 =
 }
+options
+.
 loadEventExpected
 *
 If
@@ -1393,6 +1397,8 @@ param
 boolean
 =
 }
+options
+.
 requireBeforeUnload
 *
 If

@@ -563,6 +563,8 @@ param
 BrowsingContext
 =
 }
+options
+.
 browsingContext
 *
 Clear

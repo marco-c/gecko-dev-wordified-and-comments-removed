@@ -906,13 +906,13 @@ destination
 returns
 {
 Array
-.
 <
 class
 <
 Module
 >
-=
+|
+null
 >
 }
 *

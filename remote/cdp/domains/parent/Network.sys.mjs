@@ -573,6 +573,8 @@ param
 {
 string
 }
+options
+.
 name
 *
 Name
@@ -588,6 +590,8 @@ param
 string
 =
 }
+options
+.
 url
 *
 If
@@ -615,6 +619,8 @@ param
 string
 =
 }
+options
+.
 domain
 *
 If
@@ -633,6 +639,8 @@ param
 string
 =
 }
+options
+.
 path
 *
 If
@@ -903,6 +911,8 @@ param
 {
 boolean
 }
+options
+.
 offline
 *
 True
@@ -1085,6 +1095,8 @@ string
 >
 =
 }
+options
+.
 urls
 *
 The
@@ -1458,6 +1470,8 @@ param
 {
 string
 }
+cookie
+.
 name
 *
 Cookie
@@ -1468,6 +1482,8 @@ param
 {
 string
 }
+cookie
+.
 value
 *
 Cookie
@@ -1479,6 +1495,8 @@ param
 string
 =
 }
+cookie
+.
 domain
 *
 Cookie
@@ -1490,6 +1508,8 @@ param
 number
 =
 }
+cookie
+.
 expires
 *
 Cookie
@@ -1507,6 +1527,8 @@ param
 boolean
 =
 }
+cookie
+.
 httpOnly
 *
 True
@@ -1523,6 +1545,8 @@ param
 string
 =
 }
+cookie
+.
 path
 *
 Cookie
@@ -1534,6 +1558,8 @@ param
 string
 =
 }
+cookie
+.
 sameSite
 *
 Cookie
@@ -1546,6 +1572,8 @@ param
 boolean
 =
 }
+cookie
+.
 secure
 *
 True
@@ -1560,6 +1588,8 @@ param
 string
 =
 }
+cookie
+.
 url
 *
 The
@@ -2049,6 +2079,8 @@ Array
 Cookie
 >
 }
+options
+.
 cookies
 *
 Cookies
@@ -2644,7 +2676,7 @@ page
 context
 *
 *
-param
+returns
 {
 Array
 <
@@ -2652,7 +2684,6 @@ string
 >
 =
 }
-urls
 *
 /
 _getDefaultUrls

@@ -3243,6 +3243,8 @@ param
 {
 number
 }
+options
+.
 id
 *
 The
@@ -3257,6 +3259,8 @@ param
 {
 number
 }
+options
+.
 windowId
 *
 The
@@ -3276,6 +3280,8 @@ param
 {
 number
 }
+options
+.
 frameId
 *
 The
@@ -3689,7 +3695,7 @@ param
 {
 nsIConsoleMessage
 }
-message
+subject
 *
 Console
 message

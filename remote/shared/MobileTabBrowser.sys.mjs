@@ -330,14 +330,20 @@ tab
 *
 *
 param
-url
-URL
+{
+string
+}
+uriString
+*
+The
+URI
+string
 to
 load
 within
 the
 newly
-opended
+opened
 tab
 .
 *
@@ -349,6 +355,7 @@ Promise
 Tab
 >
 }
+*
 The
 created
 tab
@@ -358,6 +365,7 @@ throws
 {
 Error
 }
+*
 Throws
 an
 error
@@ -372,7 +380,7 @@ created
 /
 addTab
 (
-url
+uriString
 )
 {
 return
@@ -382,7 +390,7 @@ GeckoViewTabUtil
 .
 createNewTab
 (
-url
+uriString
 )
 ;
 }

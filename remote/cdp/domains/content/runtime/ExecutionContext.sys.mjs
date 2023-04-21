@@ -735,8 +735,6 @@ param
 {
 boolean
 }
-options
-.
 awaitPromise
 *
 Whether
@@ -3065,7 +3063,7 @@ Debugger
 .
 Object
 }
-obj
+debuggerObj
 *
 The
 object

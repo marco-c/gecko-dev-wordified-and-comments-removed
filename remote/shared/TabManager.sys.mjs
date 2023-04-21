@@ -180,9 +180,7 @@ returns
 {
 Array
 <
-xul
-:
-browser
+XULBrowser
 >
 }
 *
@@ -522,9 +520,7 @@ returned
 *
 returns
 {
-xul
-:
-browser
+XULBrowser
 }
 *
 The
@@ -1053,9 +1049,7 @@ getIdForBrowser
 *
 returns
 {
-xul
-:
-browser
+XULBrowser
 }
 *
 The
@@ -1339,9 +1333,7 @@ it
 *
 param
 {
-xul
-:
-browser
+XULBrowser
 }
 browserElement
 *
