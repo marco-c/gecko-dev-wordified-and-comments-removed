@@ -66,6 +66,8 @@ include
 /
 private
 /
+base
+/
 SkTemplates
 .
 h
@@ -75,7 +77,7 @@ include
 "
 src
 /
-core
+base
 /
 SkAutoMalloc
 .
@@ -86,7 +88,7 @@ include
 "
 src
 /
-images
+encode
 /
 SkImageEncoderPriv
 .

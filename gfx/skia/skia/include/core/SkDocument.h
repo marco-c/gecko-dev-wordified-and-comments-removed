@@ -92,11 +92,11 @@ SkWStream
 *
 )
 ;
-virtual
 ~
 SkDocument
 (
 )
+override
 ;
 virtual
 SkCanvas
@@ -174,9 +174,10 @@ fStream
 State
 fState
 ;
-typedef
-SkRefCnt
+using
 INHERITED
+=
+SkRefCnt
 ;
 }
 ;

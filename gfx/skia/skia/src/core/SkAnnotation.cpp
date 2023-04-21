@@ -69,7 +69,6 @@ SkAnnotationKey_URL
 "
 ;
 }
-;
 const
 char
 *
@@ -86,7 +85,6 @@ SkAnnotationKey_Define_Named_Dest
 "
 ;
 }
-;
 const
 char
 *
@@ -103,7 +101,6 @@ SkAnnotationKey_Link_Named_Dest
 "
 ;
 }
-;
 void
 SkAnnotateRectWithURL
 (

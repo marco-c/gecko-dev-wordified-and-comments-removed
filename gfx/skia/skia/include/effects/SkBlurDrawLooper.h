@@ -15,6 +15,18 @@ SkDrawLooper
 .
 h
 "
+#
+ifndef
+SK_SUPPORT_LEGACY_DRAWLOOPER
+#
+error
+"
+SkDrawLooper
+is
+unsupported
+"
+#
+endif
 namespace
 SkBlurDrawLooper
 {
@@ -56,6 +68,5 @@ dy
 )
 ;
 }
-;
 #
 endif

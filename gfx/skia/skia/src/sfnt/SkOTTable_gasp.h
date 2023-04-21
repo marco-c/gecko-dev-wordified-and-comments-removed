@@ -9,7 +9,7 @@ include
 "
 src
 /
-core
+base
 /
 SkEndian
 .

@@ -9,6 +9,11 @@ SkIntersections
 .
 h
 "
+#
+include
+<
+string
+>
 int
 SkIntersections
 :
@@ -888,7 +893,10 @@ SkASSERT
 fUsed
 <
 =
-SK_ARRAY_COUNT
+std
+:
+:
+size
 (
 fPt
 )

@@ -27,6 +27,7 @@ SkSize
 h
 "
 struct
+SK_API
 SkRSXform
 {
 static
