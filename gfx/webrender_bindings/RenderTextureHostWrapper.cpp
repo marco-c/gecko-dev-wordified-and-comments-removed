@@ -256,7 +256,7 @@ Get
 )
 -
 >
-GetExternalImageIdOfRemoteTextureSync
+GetExternalImageIdOfRemoteTexture
 (
 *
 mTextureId
