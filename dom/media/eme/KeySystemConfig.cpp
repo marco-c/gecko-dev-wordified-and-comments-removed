@@ -174,6 +174,14 @@ aKeySystem
 )
 &
 &
+StaticPrefs
+:
+:
+media_eme_playready_enabled
+(
+)
+&
+&
 WMFCDMImpl
 :
 :
