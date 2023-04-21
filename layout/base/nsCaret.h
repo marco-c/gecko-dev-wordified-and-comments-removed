@@ -631,7 +631,7 @@ mOverrideOffset
 int32_t
 mBlinkCount
 ;
-uint32_t
+int32_t
 mBlinkRate
 ;
 uint32_t

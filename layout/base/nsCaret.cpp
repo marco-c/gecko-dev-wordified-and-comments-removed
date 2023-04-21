@@ -2798,8 +2798,6 @@ return
 auto
 blinkRate
 =
-uint32_t
-(
 LookAndFeel
 :
 :
@@ -2810,7 +2808,6 @@ IntID
 :
 CaretBlinkTime
 kDefaultBlinkRate
-)
 )
 ;
 if
