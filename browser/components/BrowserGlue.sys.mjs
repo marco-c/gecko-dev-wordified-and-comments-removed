@@ -5079,7 +5079,7 @@ WebRTC
 parent
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -5091,13 +5091,15 @@ actors
 /
 WebRTCParent
 .
-jsm
+sys
+.
+mjs
 "
 }
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -5109,7 +5111,9 @@ actors
 /
 WebRTCChild
 .
-jsm
+sys
+.
+mjs
 "
 }
 allFrames
