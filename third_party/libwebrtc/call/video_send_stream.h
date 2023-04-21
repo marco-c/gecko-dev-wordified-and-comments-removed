@@ -762,7 +762,7 @@ Config
 ;
 virtual
 void
-UpdateActiveSimulcastLayers
+StartPerRtpStream
 (
 std
 :

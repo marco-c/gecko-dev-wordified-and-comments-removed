@@ -1240,7 +1240,7 @@ frame
 override
 ;
 void
-UpdateActiveSimulcastLayers
+StartPerRtpStream
 (
 std
 :

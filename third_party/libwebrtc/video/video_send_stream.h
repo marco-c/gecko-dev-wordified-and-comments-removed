@@ -320,7 +320,13 @@ length
 )
 ;
 void
-UpdateActiveSimulcastLayers
+Start
+(
+)
+override
+;
+void
+StartPerRtpStream
 (
 std
 :
@@ -330,12 +336,6 @@ vector
 bool
 >
 active_layers
-)
-override
-;
-void
-Start
-(
 )
 override
 ;

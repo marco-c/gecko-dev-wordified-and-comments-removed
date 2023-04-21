@@ -1777,7 +1777,7 @@ void
 FakeVideoSendStream
 :
 :
-UpdateActiveSimulcastLayers
+StartPerRtpStream
 (
 const
 std

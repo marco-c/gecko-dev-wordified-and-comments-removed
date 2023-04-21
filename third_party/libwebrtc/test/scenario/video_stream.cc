@@ -3334,7 +3334,7 @@ kVideoCodecVP8
 send_stream_
 -
 >
-UpdateActiveSimulcastLayers
+StartPerRtpStream
 (
 active_layers
 )
