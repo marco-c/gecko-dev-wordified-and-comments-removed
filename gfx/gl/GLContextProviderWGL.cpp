@@ -95,6 +95,15 @@ include
 "
 mozilla
 /
+StaticPrefs_gl
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h
