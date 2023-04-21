@@ -4756,6 +4756,7 @@ async
 applyIncomingBatch
 (
 records
+countTelemetry
 )
 {
 let

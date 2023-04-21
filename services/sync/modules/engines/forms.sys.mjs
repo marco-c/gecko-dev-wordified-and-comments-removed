@@ -796,6 +796,7 @@ async
 applyIncomingBatch
 (
 records
+countTelemetry
 )
 {
 Async
@@ -842,6 +843,7 @@ call
 (
 this
 records
+countTelemetry
 )
 ;
 if
