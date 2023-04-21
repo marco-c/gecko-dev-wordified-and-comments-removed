@@ -21894,7 +21894,7 @@ incompleteItems
 overflowIncompleteItems
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 anyChildIncomplete
