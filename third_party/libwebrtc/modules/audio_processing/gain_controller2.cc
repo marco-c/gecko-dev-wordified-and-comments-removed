@@ -625,8 +625,6 @@ config
 .
 adaptive_digital
 kAdjacentSpeechFramesThreshold
-sample_rate_hz
-num_channels
 )
 ;
 }

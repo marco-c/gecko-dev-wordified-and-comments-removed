@@ -404,10 +404,6 @@ AdaptiveDigital
 config
 int
 adjacent_speech_frames_threshold
-int
-sample_rate_hz
-int
-num_channels
 )
 :
 apm_data_dumper_

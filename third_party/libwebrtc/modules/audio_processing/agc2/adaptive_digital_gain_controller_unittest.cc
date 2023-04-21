@@ -200,10 +200,6 @@ AdaptiveDigitalConfig
 config
 int
 adjacent_speech_frames_threshold
-int
-sample_rate_hz
-int
-num_channels
 )
 :
 apm_data_dumper
@@ -224,8 +220,6 @@ AdaptiveDigitalGainController
 apm_data_dumper
 config
 adjacent_speech_frames_threshold
-sample_rate_hz
-num_channels
 )
 )
 {
@@ -325,8 +319,6 @@ helper
 (
 kDefaultConfig
 kAdjacentSpeechFramesThreshold
-48000
-kStereo
 )
 ;
 VectorFloatFrame
@@ -392,8 +384,6 @@ helper
 (
 kDefaultConfig
 kAdjacentSpeechFramesThreshold
-8000
-kMono
 )
 ;
 AdaptiveDigitalGainController
@@ -516,8 +506,6 @@ helper
 (
 kDefaultConfig
 kAdjacentSpeechFramesThreshold
-8000
-kMono
 )
 ;
 constexpr
@@ -784,8 +772,6 @@ helper
 (
 kDefaultConfig
 kAdjacentSpeechFramesThreshold
-48000
-kMono
 )
 ;
 constexpr
@@ -949,8 +935,6 @@ helper
 (
 kDefaultConfig
 kAdjacentSpeechFramesThreshold
-48000
-kMono
 )
 ;
 constexpr
@@ -1137,8 +1121,6 @@ helper
 (
 kDefaultConfig
 kAdjacentSpeechFramesThreshold
-48000
-kStereo
 )
 ;
 VectorFloatFrame
@@ -1197,8 +1179,6 @@ helper
 (
 kDefaultConfig
 kAdjacentSpeechFramesThreshold
-48000
-kMono
 )
 ;
 constexpr
@@ -1425,8 +1405,6 @@ kDefaultConfig
 adjacent_speech_frames_threshold
 (
 )
-48000
-kMono
 )
 ;
 AdaptiveDigitalGainController
@@ -1555,8 +1533,6 @@ kDefaultConfig
 adjacent_speech_frames_threshold
 (
 )
-48000
-kMono
 )
 ;
 AdaptiveDigitalGainController

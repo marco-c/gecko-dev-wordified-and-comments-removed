@@ -11915,7 +11915,7 @@ Config
 proc_fullband_sample_rate_hz
 (
 )
-num_input_channels
+num_proc_channels
 (
 )
 use_internal_vad
