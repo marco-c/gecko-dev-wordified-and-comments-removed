@@ -2450,6 +2450,21 @@ command
 [
         
 '
+luci
+-
+auth
+'
+        
+'
+context
+'
+        
+'
+-
+-
+'
+        
+'
 vpython3
 '
         
@@ -2498,7 +2513,8 @@ cmd
 .
 .
 /
-bin
+.
+task_template_packages
 /
 logdog_butler
 '
@@ -2813,6 +2829,21 @@ command
 [
         
 '
+luci
+-
+auth
+'
+        
+'
+context
+'
+        
+'
+-
+-
+'
+        
+'
 vpython3
 '
         
@@ -2861,7 +2892,8 @@ cmd
 .
 .
 /
-bin
+.
+task_template_packages
 /
 logdog_butler
 '
