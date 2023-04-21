@@ -1137,6 +1137,10 @@ clipping_predictor
 gain_map
 "
 "
+:
+input_volume_stats_reporter
+"
+"
 .
 .
 :

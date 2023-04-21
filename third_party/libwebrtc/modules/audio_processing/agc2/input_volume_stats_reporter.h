@@ -297,6 +297,13 @@ nullopt
 ;
 }
 ;
+void
+UpdateHistogramOnRecommendedInputVolumeChangeToMatchTarget
+(
+int
+volume
+)
+;
 }
 #
 endif

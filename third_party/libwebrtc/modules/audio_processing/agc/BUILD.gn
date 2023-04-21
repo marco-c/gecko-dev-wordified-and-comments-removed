@@ -326,6 +326,14 @@ gain_map
 .
 .
 /
+agc2
+:
+input_volume_stats_reporter
+"
+"
+.
+.
+/
 vad
 "
 ]
