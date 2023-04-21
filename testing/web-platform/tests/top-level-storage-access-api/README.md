@@ -1,5 +1,5 @@
 #
-requestStorageAccessForOrigin
+requestStorageAccessFor
 Tests
 These
 tests
@@ -12,7 +12,7 @@ based
 on
 a
 proposed
-requestStorageAccessForOrigin
+requestStorageAccessFor
 extension
 to
 the

@@ -128,9 +128,9 @@ com
 '
 ;
 function
-RunRequestStorageAccessForOriginInDetachedFrame
+RunRequestStorageAccessForInDetachedFrame
 (
-site
+origin
 )
 {
 const
@@ -170,16 +170,16 @@ remove
 return
 inner_doc
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
-site
+origin
 )
 ;
 }
 function
-RunRequestStorageAccessForOriginViaDomParser
+RunRequestStorageAccessForViaDomParser
 (
-site
+origin
 )
 {
 const
@@ -216,9 +216,9 @@ html
 return
 doc
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
-site
+origin
 )
 ;
 }
@@ -233,7 +233,7 @@ assert_not_equals
 (
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 undefined
 )
 ;
@@ -248,7 +248,7 @@ testPrefix
 ]
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 should
@@ -328,13 +328,13 @@ t
 TypeError
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 call
@@ -355,7 +355,7 @@ testPrefix
 ]
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 should
@@ -389,14 +389,14 @@ NotAllowedError
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 requestedOrigin
 )
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 call
@@ -417,7 +417,7 @@ testPrefix
 ]
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 should
@@ -445,7 +445,7 @@ description
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 call
@@ -456,7 +456,7 @@ frame
 '
 ;
 return
-RunRequestStorageAccessForOriginInDetachedFrame
+RunRequestStorageAccessForInDetachedFrame
 (
 requestedOrigin
 )
@@ -511,7 +511,7 @@ active
 ]
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 should
@@ -539,7 +539,7 @@ description
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 in
@@ -550,7 +550,7 @@ result
 '
 ;
 return
-RunRequestStorageAccessForOriginViaDomParser
+RunRequestStorageAccessForViaDomParser
 (
 requestedOrigin
 )
@@ -605,7 +605,7 @@ active
 ]
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 should
@@ -655,7 +655,7 @@ granted
 await
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 requestedOrigin
 )
@@ -671,7 +671,7 @@ testPrefix
 ]
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 should
@@ -822,7 +822,7 @@ RunCallbackWithGesture
 {
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 altOrigin
 )
@@ -921,7 +921,7 @@ gesture
 after
 a
 successful
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 call
@@ -935,7 +935,7 @@ RunTestsInIFrame
 /
 resources
 /
-requestStorageAccessForOrigin
+requestStorageAccessFor
 -
 iframe
 .
@@ -973,7 +973,7 @@ RunCallbackWithGesture
 >
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 document
 .
@@ -994,7 +994,7 @@ testPrefix
 ]
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 should
@@ -1036,7 +1036,7 @@ NotAllowedError
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 '
 bogus
@@ -1047,7 +1047,7 @@ url
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 call
@@ -1069,7 +1069,7 @@ testPrefix
 ]
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 should
@@ -1106,7 +1106,7 @@ NotAllowedError
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 '
 data
@@ -1123,7 +1123,7 @@ Hello
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 call
@@ -1145,7 +1145,7 @@ testPrefix
 ]
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 should
@@ -1185,7 +1185,7 @@ NotAllowedError
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 document
 .
@@ -1196,7 +1196,7 @@ origin
 '
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 call
@@ -1223,7 +1223,7 @@ testPrefix
 ]
 document
 .
-requestStorageAccessForOrigin
+requestStorageAccessFor
 (
 )
 should
