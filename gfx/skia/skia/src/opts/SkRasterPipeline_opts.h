@@ -1718,7 +1718,7 @@ F
 v
 )
 {
-auto
+float32x4_t
 e
 =
 rcp_fast
@@ -1733,10 +1733,7 @@ v
 e
 )
 *
-F
-(
 e
-)
 ;
 }
 SI
