@@ -1860,6 +1860,10 @@ rvalref
 =
 False
         
+rightconst
+=
+False
+        
 hasimplicitcopyctor
 =
 True
@@ -2031,6 +2035,13 @@ bool
 )
         
 assert
+isinstance
+(
+rightconst
+bool
+)
+        
+assert
 not
 isinstance
 (
@@ -2086,6 +2097,12 @@ self
 rvalref
 =
 rvalref
+        
+self
+.
+rightconst
+=
+rightconst
         
 self
 .
@@ -2156,6 +2173,12 @@ rvalref
 self
 .
 rvalref
+            
+rightconst
+=
+self
+.
+rightconst
             
 T
 =
