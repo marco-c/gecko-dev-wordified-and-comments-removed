@@ -2730,6 +2730,11 @@ textureId
 {
 if
 (
+XRE_IsParentProcess
+(
+)
+|
+|
 gfx
 :
 :
