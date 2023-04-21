@@ -955,9 +955,6 @@ nsCString
 drmRenderDevice
 ;
 nsCString
-isVAAPISupported
-;
-nsCString
 ddxDriver
 ;
 AutoTArray

@@ -557,6 +557,12 @@ mozwayland
 DLL_SUFFIX
 #
 endif
+BINPATH
+/
+vaapitest
+BINPATH
+/
+glxtest
 #
 endif
 ;
@@ -817,14 +823,6 @@ qipcap
 DLL_SUFFIX
 #
 endif
-#
-endif
-#
-ifdef
-MOZ_GTK
-BINPATH
-/
-vaapitest
 #
 endif
 ;
