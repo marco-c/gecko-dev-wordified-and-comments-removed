@@ -640,6 +640,12 @@ FILTER_SKIP
 }
 if
 (
+isNativeAnonymous
+(
+node
+)
+&
+&
 !
 isInXULDocument
 (
@@ -647,9 +653,14 @@ node
 )
 &
 &
+!
 isNativeAnonymous
 (
 node
+.
+getRootNode
+(
+)
 )
 )
 {

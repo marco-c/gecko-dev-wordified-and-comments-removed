@@ -4264,6 +4264,14 @@ isNativeAnonymous
 (
 node
 )
+&
+&
+node
+.
+parentNode
+=
+=
+rawNode
 )
 {
 nodes
