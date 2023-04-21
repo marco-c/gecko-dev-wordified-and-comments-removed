@@ -3817,7 +3817,7 @@ LightweightTheme
 child
 :
 {
-moduleURI
+esModuleURI
 :
 "
 resource
@@ -3829,7 +3829,9 @@ actors
 /
 LightweightThemeChild
 .
-jsm
+sys
+.
+mjs
 "
 events
 :
