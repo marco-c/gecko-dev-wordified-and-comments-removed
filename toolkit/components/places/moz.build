@@ -291,6 +291,13 @@ sys
 mjs
 "
 "
+PlacesQuery
+.
+sys
+.
+mjs
+"
+"
 PlacesSyncUtils
 .
 sys
