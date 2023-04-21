@@ -102,13 +102,6 @@ mozilla
 :
 ipc
 ;
-static
-NS_DEFINE_CID
-(
-kJARURICID
-NS_JARURI_CID
-)
-;
 NS_IMPL_CLASSINFO
 (
 nsJARURI
@@ -2227,6 +2220,9 @@ nsACString
 &
 query
 const
+mozilla
+:
+:
 Encoding
 *
 encoding

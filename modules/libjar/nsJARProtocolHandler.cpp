@@ -88,6 +88,9 @@ NS_ZIPREADERCACHE_CID
 define
 NS_JAR_CACHE_SIZE
 32
+mozilla
+:
+:
 StaticRefPtr
 <
 nsJARProtocolHandler
