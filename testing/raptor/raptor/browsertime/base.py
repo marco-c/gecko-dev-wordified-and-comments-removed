@@ -834,6 +834,12 @@ m
 "
 chromium
 "
+            
+"
+custom
+-
+car
+"
         
 )
 :
@@ -2234,6 +2240,11 @@ chrome
 -
 m
 "
+"
+custom
+-
+car
+"
 )
 :
             
@@ -2629,6 +2640,12 @@ m
                 
 "
 chrome
+"
+                
+"
+custom
+-
+car
 "
             
 )
