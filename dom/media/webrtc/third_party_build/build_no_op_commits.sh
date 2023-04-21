@@ -80,12 +80,6 @@ MOZ_LIBWEBRTC_SRC
 :
 MOZ_LIBWEBRTC_SRC
 "
-echo
-"
-MOZ_PRIOR_LIBWEBRTC_BRANCH
-:
-MOZ_PRIOR_LIBWEBRTC_BRANCH
-"
 #
 After
 this
@@ -192,7 +186,11 @@ git
 merge
 -
 base
-MOZ_PRIOR_LIBWEBRTC_BRANCH
+branch
+-
+heads
+/
+MOZ_PRIOR_UPSTREAM_BRANCH_HEAD_NUM
 master
 #
 Write
