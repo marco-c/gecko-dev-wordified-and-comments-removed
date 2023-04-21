@@ -1115,16 +1115,6 @@ aMetrics
 )
 ;
 static
-nsIFrame
-*
-GetFirstNonAAncestorFrame
-(
-nsIFrame
-*
-aStartFrame
-)
-;
-static
 bool
 OuterSVGIsCallingReflowSVG
 (
