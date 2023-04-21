@@ -135,6 +135,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+ReferrerInfo
+.
+h
+"
+#
+include
+"
 DesktopBackgroundImage
 .
 h
