@@ -1281,7 +1281,15 @@ another_flag
 '
 -
 -
-isolated_script_test_perf_output
+isolated
+-
+script
+-
+test
+-
+perf
+-
+output
 =
 SOME_OTHER_DIR
 '
