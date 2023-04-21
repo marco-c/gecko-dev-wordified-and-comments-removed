@@ -292,6 +292,13 @@ changed
 :
 -
 '
+.
+taskcluster
+.
+yml
+'
+-
+'
 taskcluster
 /
 ci
