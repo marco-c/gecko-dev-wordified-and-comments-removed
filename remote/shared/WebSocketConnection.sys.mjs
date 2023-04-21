@@ -306,6 +306,15 @@ direction
 data
 )
 {
+if
+(
+lazy
+.
+Log
+.
+isDebugLevelOrAbove
+)
+{
 function
 replacer
 (
@@ -365,7 +374,7 @@ lazy
 .
 logger
 .
-trace
+debug
 (
 {
 this
@@ -387,6 +396,7 @@ payload
 }
 )
 ;
+}
 }
 /
 *
