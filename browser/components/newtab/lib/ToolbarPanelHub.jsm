@@ -643,13 +643,11 @@ MozXULElement
 insertFTLIfNeeded
 (
 "
-browser
+toolkit
 /
 branding
 /
-sync
--
-brand
+accounts
 .
 ftl
 "
