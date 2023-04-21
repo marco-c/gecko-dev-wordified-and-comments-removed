@@ -13607,6 +13607,15 @@ getStagingDir
 (
 )
 ;
+if
+(
+!
+dir
+)
+{
+return
+;
+}
 for
 (
 let
