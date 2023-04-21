@@ -72,7 +72,9 @@ final
 :
 public
 nsIObliviousHttpService
+public
 nsIObserver
+public
 nsIStreamLoaderObserver
 {
 public
@@ -101,6 +103,13 @@ const
 nsACString
 &
 whichPref
+)
+;
+void
+FetchConfig
+(
+bool
+aConfigURIChanged
 )
 ;
 DataMutex

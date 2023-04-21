@@ -622,5 +622,15 @@ octet
 encodedConfig
 )
 ;
+/
+/
+Clears
+the
+config
+void
+clearTRRConfig
+(
+)
+;
 }
 ;
