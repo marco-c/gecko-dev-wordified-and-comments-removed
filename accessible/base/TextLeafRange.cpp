@@ -9224,6 +9224,12 @@ eDirPrevious
 ;
 if
 (
+lineStartPoint
+=
+=
+currPoint
+|
+|
 mEnd
 <
 =
