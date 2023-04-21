@@ -151,12 +151,12 @@ second
 )
 ;
 class
-ScopedGlobalFieldTrialsForTesting
+FieldTrialsAllowedInScopeForTesting
 {
 public
 :
 explicit
-ScopedGlobalFieldTrialsForTesting
+FieldTrialsAllowedInScopeForTesting
 (
 flat_set
 <
@@ -169,7 +169,7 @@ keys
 )
 ;
 ~
-ScopedGlobalFieldTrialsForTesting
+FieldTrialsAllowedInScopeForTesting
 (
 )
 ;

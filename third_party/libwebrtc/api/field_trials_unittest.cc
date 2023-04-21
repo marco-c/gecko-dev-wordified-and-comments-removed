@@ -124,7 +124,7 @@ webrtc
 field_trial
 :
 :
-InitFieldTrialsFromString
+FieldTrialsAllowedInScopeForTesting
 ;
 using
 :
@@ -135,7 +135,7 @@ webrtc
 field_trial
 :
 :
-ScopedGlobalFieldTrialsForTesting
+InitFieldTrialsFromString
 ;
 TEST
 (
@@ -143,8 +143,8 @@ FieldTrialsTest
 EmptyStringHasNoEffect
 )
 {
-ScopedGlobalFieldTrialsForTesting
-g
+FieldTrialsAllowedInScopeForTesting
+k
 (
 {
 "
@@ -285,8 +285,8 @@ FieldTrialsTest
 FieldTrialsDoesNotReadGlobalString
 )
 {
-ScopedGlobalFieldTrialsForTesting
-g
+FieldTrialsAllowedInScopeForTesting
+k
 (
 {
 "
@@ -373,8 +373,8 @@ FieldTrialsTest
 FieldTrialsWritesGlobalString
 )
 {
-ScopedGlobalFieldTrialsForTesting
-g
+FieldTrialsAllowedInScopeForTesting
+k
 (
 {
 "
@@ -600,8 +600,8 @@ FieldTrialsTest
 NonGlobalFieldTrialsInstanceDoesNotModifyGlobalString
 )
 {
-ScopedGlobalFieldTrialsForTesting
-g
+FieldTrialsAllowedInScopeForTesting
+k
 (
 {
 "
@@ -837,8 +837,8 @@ FieldTrialsTest
 GlobalAndNonGlobalFieldTrialsAreDisjoint
 )
 {
-ScopedGlobalFieldTrialsForTesting
-g
+FieldTrialsAllowedInScopeForTesting
+k
 (
 {
 "
@@ -977,8 +977,8 @@ FieldTrialsTest
 FieldTrialBasedConfigReadsGlobalString
 )
 {
-ScopedGlobalFieldTrialsForTesting
-g
+FieldTrialsAllowedInScopeForTesting
+k
 (
 {
 "
