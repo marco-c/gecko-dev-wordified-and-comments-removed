@@ -5718,6 +5718,7 @@ gfxMatrix
 ;
 }
 matrix
+*
 =
 SVGUtils
 :
@@ -5726,8 +5727,6 @@ GetTransformMatrixInUserSpace
 (
 clipPathFrame
 )
-*
-matrix
 ;
 bbox
 =
