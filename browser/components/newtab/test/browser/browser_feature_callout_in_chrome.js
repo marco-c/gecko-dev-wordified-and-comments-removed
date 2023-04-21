@@ -33,6 +33,12 @@ const
 calloutId
 =
 "
+multi
+-
+stage
+-
+message
+-
 root
 "
 ;
@@ -1057,6 +1063,12 @@ querySelector
 (
 "
 #
+multi
+-
+stage
+-
+message
+-
 root
 .
 featureCallout

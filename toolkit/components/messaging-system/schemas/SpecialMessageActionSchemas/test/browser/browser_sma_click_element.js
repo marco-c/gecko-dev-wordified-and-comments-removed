@@ -354,6 +354,12 @@ calloutSelector
 =
 "
 #
+multi
+-
+stage
+-
+message
+-
 root
 .
 featureCallout

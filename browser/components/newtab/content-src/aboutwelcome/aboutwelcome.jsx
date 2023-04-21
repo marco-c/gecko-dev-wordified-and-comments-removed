@@ -807,6 +807,12 @@ document
 getElementById
 (
 "
+multi
+-
+stage
+-
+message
+-
 root
 "
 )
