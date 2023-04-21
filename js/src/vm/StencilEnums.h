@@ -215,6 +215,12 @@ FunctionHasNewTargetBinding
 <
 <
 29
+UsesArgumentsIntrinsics
+=
+1
+<
+<
+30
 }
 ;
 enum

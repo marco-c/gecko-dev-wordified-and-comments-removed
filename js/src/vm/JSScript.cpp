@@ -17851,6 +17851,11 @@ needsArgsObj
 )
 |
 |
+usesArgumentsIntrinsics
+(
+)
+|
+|
 hasRest
 (
 )
