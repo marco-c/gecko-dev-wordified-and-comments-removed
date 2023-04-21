@@ -10,6 +10,13 @@ mozglue
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 os
 .
 MemoryFile
@@ -65,6 +72,12 @@ reflect
 .
 Method
 ;
+SuppressLint
+(
+"
+DiscouragedPrivateApi
+"
+)
 public
 class
 SharedMemory

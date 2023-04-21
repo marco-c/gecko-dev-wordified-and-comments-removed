@@ -8,6 +8,13 @@ geckoview
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 content
 .
 Context
@@ -200,6 +207,12 @@ static
 Field
 sPaintField
 ;
+SuppressLint
+(
+"
+DiscouragedPrivateApi
+"
+)
 private
 void
 setBlendMode
