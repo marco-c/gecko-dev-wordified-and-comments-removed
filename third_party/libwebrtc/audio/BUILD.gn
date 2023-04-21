@@ -2122,6 +2122,9 @@ is_chromeos
 |
 |
 is_android
+|
+|
+is_fuchsia
 )
 {
 data
