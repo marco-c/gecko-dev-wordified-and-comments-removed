@@ -92,7 +92,6 @@ return
 N
 ;
 }
-inline
 void
 delay
 (
@@ -168,7 +167,6 @@ layout
 }
 layout_info
 ;
-inline
 int
 has_available_input_device
 (
@@ -335,7 +333,6 @@ return
 input_device_available
 ;
 }
-inline
 void
 print_log
 (
@@ -369,7 +366,6 @@ args
 )
 ;
 }
-inline
 int
 common_init
 (
