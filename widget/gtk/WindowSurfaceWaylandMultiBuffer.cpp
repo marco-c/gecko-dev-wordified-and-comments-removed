@@ -964,7 +964,7 @@ GetMozContainer
 )
 ;
 MozContainerSurfaceLock
-lock
+MozContainerLock
 (
 container
 )
@@ -974,7 +974,7 @@ wl_surface
 *
 waylandSurface
 =
-lock
+MozContainerLock
 .
 GetSurface
 (
@@ -1174,6 +1174,21 @@ aProofOfLock
 container
 )
 ;
+if
+(
+moz_container_wayland_size_matches_scale_factor_locked
+(
+aProofOfLock
+container
+mWindowSize
+.
+width
+mWindowSize
+.
+height
+)
+)
+{
 mInProgressBuffer
 -
 >
@@ -1182,6 +1197,7 @@ AttachAndCommit
 waylandSurface
 )
 ;
+}
 mInProgressBuffer
 -
 >
