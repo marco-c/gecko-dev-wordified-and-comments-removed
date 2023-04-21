@@ -12,6 +12,10 @@ prinrval
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 CompletionRunnable
 final
