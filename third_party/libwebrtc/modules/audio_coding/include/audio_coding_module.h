@@ -432,15 +432,6 @@ codecs
 0
 ;
 virtual
-int
-ReceiveSampleRate
-(
-)
-const
-=
-0
-;
-virtual
 int32_t
 IncomingPacket
 (

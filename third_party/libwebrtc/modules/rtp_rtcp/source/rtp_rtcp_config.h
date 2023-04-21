@@ -60,13 +60,6 @@ RTCP_MAX_REPORT_BLOCKS
 =
 31
 ;
-enum
-{
-RTCP_NUMBER_OF_SR
-=
-60
-}
-;
 }
 #
 endif

@@ -341,14 +341,8 @@ n
 int
 keyFrameInterval
 ;
-double
-scaleDownBy
-;
 uint8_t
 numberOfTemporalLayers
-;
-uint8_t
-packetizationMode
 ;
 }
 ;

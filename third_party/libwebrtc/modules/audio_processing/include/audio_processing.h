@@ -1770,9 +1770,6 @@ kSampleRate16kHz
 kSampleRate32kHz
 =
 32000
-kSampleRate44_1kHz
-=
-44100
 kSampleRate48kHz
 =
 48000

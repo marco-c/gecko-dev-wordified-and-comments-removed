@@ -114,7 +114,6 @@ DesktopFrame
 frame
 )
 final
-override
 ;
 }
 ;

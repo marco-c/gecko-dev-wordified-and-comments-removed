@@ -100,16 +100,6 @@ kFuA
 }
 ;
 enum
-SeiType
-:
-uint8_t
-{
-kSeiRecPt
-=
-6
-}
-;
-enum
 SliceType
 :
 uint8_t

@@ -656,8 +656,9 @@ apply_rotation_
 if
 (
 apply_rotation
-&
-&
+)
+{
+if
 (
 _rotateFrame
 =
@@ -669,7 +670,6 @@ _rotateFrame
 =
 =
 kVideoRotation_270
-)
 )
 {
 target_width
@@ -683,6 +683,7 @@ target_height
 =
 width
 ;
+}
 }
 int
 stride_y
