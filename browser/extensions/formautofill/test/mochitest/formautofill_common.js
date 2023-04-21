@@ -26,7 +26,7 @@ SpecialPowers
 .
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -37,9 +37,7 @@ autofill
 /
 FormAutofillUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
