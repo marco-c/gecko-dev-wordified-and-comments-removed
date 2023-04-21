@@ -971,6 +971,11 @@ internetconnect
 .
 iso
 "
+#
+ifndef
+MOZ_ESR
+#
+endif
 "
 .
 ksh

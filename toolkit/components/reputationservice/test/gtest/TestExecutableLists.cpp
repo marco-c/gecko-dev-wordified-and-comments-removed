@@ -450,10 +450,15 @@ isp
 .
 jar
 "
+#
+ifndef
+MOZ_ESR
 "
 .
 jnlp
 "
+#
+endif
 "
 .
 js
