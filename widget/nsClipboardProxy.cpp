@@ -230,6 +230,19 @@ GetContentPolicyType
 (
 )
 ;
+nsCOMPtr
+<
+nsIReferrerInfo
+>
+referrerInfo
+=
+aTransferable
+-
+>
+GetReferrerInfo
+(
+)
+;
 child
 -
 >
@@ -245,6 +258,7 @@ ipcDataTransfer
 isPrivateData
 requestingPrincipal
 contentPolicyType
+referrerInfo
 aWhichClipboard
 )
 ;

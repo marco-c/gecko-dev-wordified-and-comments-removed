@@ -6998,6 +6998,9 @@ nsIPrincipal
 aRequestingPrincipal
 nsContentPolicyType
 aContentPolicyType
+nullable
+nsIReferrerInfo
+aReferrerInfo
 int32_t
 aWhichClipboard
 )

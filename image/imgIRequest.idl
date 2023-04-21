@@ -28,6 +28,9 @@ nsIURI
 interface
 nsIPrincipal
 ;
+interface
+nsIReferrerInfo
+;
 [
 scriptable
 builtinclass
@@ -188,6 +191,11 @@ readonly
 attribute
 long
 CORSMode
+;
+readonly
+attribute
+nsIReferrerInfo
+referrerInfo
 ;
 void
 cancelAndForgetObserver
