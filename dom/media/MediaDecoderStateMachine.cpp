@@ -22903,9 +22903,9 @@ return
 GenericPromise
 :
 :
-CreateAndReject
+CreateAndResolve
 (
-NS_ERROR_ABORT
+false
 __func__
 )
 ;
