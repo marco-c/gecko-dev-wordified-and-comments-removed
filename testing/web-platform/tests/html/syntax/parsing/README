@@ -41,6 +41,8 @@ The
 revision
 of
 html5lib
+-
+tests
 used
 to
 generate
@@ -53,4 +55,4 @@ html
 /
 tools
 /
-html5lib_revision
+html5lib_tests_revision
