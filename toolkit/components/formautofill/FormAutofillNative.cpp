@@ -1318,6 +1318,13 @@ carte
 "
 "
 |
+titolare
+.
+*
+carta
+"
+"
+|
 cc
 -
 ?
@@ -1476,6 +1483,13 @@ nummer
 |
 nr
 )
+"
+"
+|
+numero
+.
+*
+carta
 "
 "
 |
