@@ -212,8 +212,6 @@ virtual
 VideoEngine
 (
 )
-=
-default
 ;
 static
 const
