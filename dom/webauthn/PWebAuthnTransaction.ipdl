@@ -210,8 +210,8 @@ dom
 struct
 WebAuthnAuthenticatorSelection
 {
-nsString
-residentKey
+bool
+requireResidentKey
 ;
 nsString
 userVerificationRequirement

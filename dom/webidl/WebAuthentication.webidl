@@ -466,9 +466,6 @@ AuthenticatorSelectionCriteria
 DOMString
 authenticatorAttachment
 ;
-DOMString
-residentKey
-;
 boolean
 requireResidentKey
 =
