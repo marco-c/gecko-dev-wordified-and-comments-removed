@@ -469,6 +469,10 @@ deps
 [
 "
 :
+fuchsia_perf_tests
+"
+"
+:
 rtc_unittests
 "
 "
