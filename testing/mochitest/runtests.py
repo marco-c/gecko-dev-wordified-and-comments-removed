@@ -16305,7 +16305,7 @@ options
 e10s
             
 "
-marionette
+remote
 .
 log
 .

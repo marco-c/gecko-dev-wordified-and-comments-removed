@@ -40,7 +40,7 @@ port
 user_pref
 (
 "
-marionette
+remote
 .
 log
 .

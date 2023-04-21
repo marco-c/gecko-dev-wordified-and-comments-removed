@@ -402,7 +402,7 @@ default
 :
 {
 "
-marionette
+remote
 .
 log
 .

@@ -168,7 +168,7 @@ update
 {
                 
 "
-marionette
+remote
 .
 log
 .

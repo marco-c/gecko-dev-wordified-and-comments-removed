@@ -100,7 +100,7 @@ port
 2828
     
 "
-marionette
+remote
 .
 log
 .

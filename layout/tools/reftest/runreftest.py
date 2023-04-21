@@ -3393,7 +3393,7 @@ port
 prefs
 [
 "
-marionette
+remote
 .
 log
 .
