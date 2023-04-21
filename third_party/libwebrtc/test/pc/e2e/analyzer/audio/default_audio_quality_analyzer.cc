@@ -770,6 +770,15 @@ stream_info
 .
 receiver_peer
 }
+{
+MetricMetadataKey
+:
+:
+kExperimentalTestNameMetadataKey
+GetCurrentTestName
+(
+)
+}
 }
 ;
 metrics_logger_

@@ -855,6 +855,15 @@ MetricMetadataKey
 kPeerMetadataKey
 peer_name
 }
+{
+MetricMetadataKey
+:
+:
+kExperimentalTestNameMetadataKey
+GetCurrentTestName
+(
+)
+}
 }
 ;
 metrics_logger_
