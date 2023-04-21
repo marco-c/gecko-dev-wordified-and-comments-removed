@@ -80,7 +80,7 @@ DEFAULT_PROPS
 {
 avgPoints
 :
-5
+10
 histSecs
 :
 15
@@ -93,6 +93,9 @@ false
 fixedPointDecimals
 :
 2
+toHuman
+:
+false
 }
 ;
 const
@@ -211,6 +214,8 @@ outbound
 rtp
 .
 bytesSent
+;
+toHuman
 ;
 toRate
 ;
