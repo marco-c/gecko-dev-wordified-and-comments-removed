@@ -213,7 +213,7 @@ anchor_
 )
 -
 >
-ScrollFrame
+Frame
 (
 )
 -
@@ -268,13 +268,12 @@ mozilla
 :
 layout
 {
-inline
-ScrollFrameHelper
+nsHTMLScrollFrame
 *
 ScrollAnchorContainer
 :
 :
-ScrollFrame
+Frame
 (
 )
 const
@@ -282,7 +281,7 @@ const
 return
 reinterpret_cast
 <
-ScrollFrameHelper
+nsHTMLScrollFrame
 *
 >
 (
@@ -296,7 +295,7 @@ this
 -
 offsetof
 (
-ScrollFrameHelper
+nsHTMLScrollFrame
 mAnchor
 )
 )
@@ -307,7 +306,7 @@ ScrollAnchorContainer
 :
 ScrollAnchorContainer
 (
-ScrollFrameHelper
+nsHTMLScrollFrame
 *
 aScrollFrame
 )
@@ -338,7 +337,7 @@ MOZ_ASSERT
 aScrollFrame
 =
 =
-ScrollFrame
+Frame
 (
 )
 )
@@ -422,25 +421,6 @@ Anchor
 }
 return
 nullptr
-;
-}
-nsIFrame
-*
-ScrollAnchorContainer
-:
-:
-Frame
-(
-)
-const
-{
-return
-ScrollFrame
-(
-)
--
->
-mOuter
 ;
 }
 nsIScrollableFrame
@@ -885,7 +865,7 @@ nscoord
 FindScrollAnchoringBoundingOffset
 (
 const
-ScrollFrameHelper
+nsHTMLScrollFrame
 *
 aScrollFrame
 nsIFrame
@@ -899,9 +879,6 @@ writingMode
 aScrollFrame
 -
 >
-mOuter
--
->
 GetWritingMode
 (
 )
@@ -912,9 +889,6 @@ physicalBounding
 FindScrollAnchoringBoundingRect
 (
 aScrollFrame
--
->
-mOuter
 aCandidate
 )
 ;
@@ -1013,7 +987,7 @@ false
 }
 if
 (
-ScrollFrame
+Frame
 (
 )
 -
@@ -1062,7 +1036,7 @@ SelectAnchor
 {
 MOZ_ASSERT
 (
-ScrollFrame
+Frame
 (
 )
 -
@@ -1107,7 +1081,7 @@ mozilla
 :
 ToString
 (
-ScrollFrame
+Frame
 (
 )
 -
@@ -1138,7 +1112,7 @@ CanMaintainAnchor
 MOZ_DIAGNOSTIC_ASSERT
 (
 !
-ScrollFrame
+Frame
 (
 )
 -
@@ -1192,7 +1166,7 @@ mAnchorNode
 =
 FindAnchorIn
 (
-ScrollFrame
+Frame
 (
 )
 -
@@ -1279,7 +1253,7 @@ oldAnchor
 {
 SetAnchorFlags
 (
-ScrollFrame
+Frame
 (
 )
 -
@@ -1297,7 +1271,7 @@ mAnchorNode
 {
 SetAnchorFlags
 (
-ScrollFrame
+Frame
 (
 )
 -
@@ -1339,7 +1313,7 @@ mLastAnchorOffset
 =
 FindScrollAnchoringBoundingOffset
 (
-ScrollFrame
+Frame
 (
 )
 mAnchorNode
@@ -1922,7 +1896,7 @@ mAnchorNode
 {
 SetAnchorFlags
 (
-ScrollFrame
+Frame
 (
 )
 -
@@ -1936,7 +1910,7 @@ false
 else
 if
 (
-ScrollFrame
+Frame
 (
 )
 -
@@ -2064,7 +2038,7 @@ mAnchorNodeIsDirty
 mDisabled
 |
 |
-ScrollFrame
+Frame
 (
 )
 -
@@ -2074,7 +2048,7 @@ HasPendingScrollRestoration
 )
 |
 |
-ScrollFrame
+Frame
 (
 )
 -
@@ -2084,7 +2058,7 @@ IsProcessingScrollEvent
 )
 |
 |
-ScrollFrame
+Frame
 (
 )
 -
@@ -2105,7 +2079,7 @@ TriggeredByScript
 )
 |
 |
-ScrollFrame
+Frame
 (
 )
 -
@@ -2178,7 +2152,7 @@ n
 mAnchorNode
 mAnchorNodeIsDirty
 mDisabled
-ScrollFrame
+Frame
 (
 )
 -
@@ -2186,7 +2160,7 @@ ScrollFrame
 HasPendingScrollRestoration
 (
 )
-ScrollFrame
+Frame
 (
 )
 -
@@ -2194,7 +2168,7 @@ ScrollFrame
 IsProcessingScrollEvent
 (
 )
-ScrollFrame
+Frame
 (
 )
 -
@@ -2213,7 +2187,7 @@ AnimationState
 :
 TriggeredByScript
 )
-ScrollFrame
+Frame
 (
 )
 -
@@ -2252,7 +2226,7 @@ current
 =
 FindScrollAnchoringBoundingOffset
 (
-ScrollFrame
+Frame
 (
 )
 mAnchorNode
@@ -2523,14 +2497,14 @@ mApplyingAnchorAdjustment
 =
 true
 ;
-ScrollFrame
+Frame
 (
 )
 -
 >
-ScrollTo
+ScrollToInternal
 (
-ScrollFrame
+Frame
 (
 )
 -
@@ -2569,7 +2543,7 @@ PresContext
 ;
 if
 (
-ScrollFrame
+Frame
 (
 )
 -
@@ -2597,7 +2571,7 @@ mLastAnchorOffset
 =
 FindScrollAnchoringBoundingOffset
 (
-ScrollFrame
+Frame
 (
 )
 mAnchorNode
@@ -3178,7 +3152,7 @@ visibleRect
 IntersectRect
 (
 rect
-ScrollFrame
+Frame
 (
 )
 -

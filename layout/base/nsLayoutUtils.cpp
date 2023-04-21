@@ -50209,6 +50209,7 @@ nsLayoutUtils
 :
 StyleForScrollbar
 (
+const
 nsIFrame
 *
 aScrollbarPart

@@ -6773,6 +6773,7 @@ ComputedStyle
 *
 StyleForScrollbar
 (
+const
 nsIFrame
 *
 aScrollbarPart
