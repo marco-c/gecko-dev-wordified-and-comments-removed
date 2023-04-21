@@ -430,6 +430,11 @@ cmd_enableAbsolutePositionEditing
 )
 NS_DEFINE_COMMAND
 (
+EnableCompatibleJoinSplitNodeDirection
+cmd_enableCompatibleJoinSplitNodeDirection
+)
+NS_DEFINE_COMMAND
+(
 CutOrDelete
 cmd_cutOrDelete
 )

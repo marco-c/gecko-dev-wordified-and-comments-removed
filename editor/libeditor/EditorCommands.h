@@ -794,6 +794,12 @@ Command
 :
 ToggleAbsolutePositionEditor
 :
+case
+Command
+:
+:
+EnableCompatibleJoinSplitNodeDirection
+:
 return
 EditorCommandParamType
 :

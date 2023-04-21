@@ -165,6 +165,13 @@ SetDocumentStateCommand
 cmd_enableAbsolutePositionEditing
 "
 )
+NS_REGISTER_COMMAND
+(
+SetDocumentStateCommand
+"
+cmd_enableCompatibleJoinSplitNodeDirection
+"
+)
 return
 NS_OK
 ;
