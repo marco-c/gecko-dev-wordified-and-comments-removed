@@ -776,6 +776,16 @@ in
 haz_functions
 assert
 "
+Cell
+*
+refptr_test10
+(
+)
+"
+in
+haz_functions
+assert
+"
 void
 aggr_init_safe
 (
