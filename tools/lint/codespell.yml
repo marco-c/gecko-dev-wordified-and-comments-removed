@@ -519,14 +519,6 @@ test_codespell
 .
 py
 -
-docs
-/
-mots
-/
-index
-.
-rst
--
 "
 *
 *

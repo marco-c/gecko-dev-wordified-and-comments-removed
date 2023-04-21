@@ -2077,3 +2077,17 @@ en_US
 -
 mozilla
 *
+#
+Ignore
+automatically
+generated
+mots
+documentation
+^
+docs
+/
+mots
+/
+index
+.
+rst
