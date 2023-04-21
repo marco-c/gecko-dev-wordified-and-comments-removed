@@ -28,6 +28,9 @@ socket
 "
 startup
 "
+"
+tracer
+"
 ]
 if
 CONFIG
