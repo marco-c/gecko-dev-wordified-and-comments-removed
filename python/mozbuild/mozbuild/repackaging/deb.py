@@ -1009,6 +1009,19 @@ build_number
     
 )
     
+remoting_name
+=
+application_ini_data
+[
+"
+remoting_name
+"
+]
+.
+lower
+(
+)
+    
 return
 {
         
@@ -1044,22 +1057,28 @@ description_suffix
 "
         
 "
+DEB_PKG_INSTALL_PATH
+"
+:
+f
+"
+usr
+/
+lib
+/
+{
+remoting_name
+}
+"
+        
+"
 DEB_PKG_NAME
 "
 :
 f
 "
 {
-application_ini_data
-[
-'
 remoting_name
-'
-]
-.
-lower
-(
-)
 }
 {
 package_name_suffix
