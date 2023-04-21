@@ -566,6 +566,8 @@ getString
 "
 sitePermissionInstallFirstPrompt
 .
+midi
+.
 header
 "
 )
@@ -590,6 +592,8 @@ getString
 (
 "
 sitePermissionInstallFirstPrompt
+.
+midi
 .
 message
 "
