@@ -73,6 +73,13 @@ jest
 fn
 (
 )
+setPrimaryPaneTab
+:
+jest
+.
+fn
+(
+)
 .
 .
 .
