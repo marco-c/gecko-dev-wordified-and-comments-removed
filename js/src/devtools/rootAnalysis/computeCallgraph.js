@@ -609,7 +609,7 @@ Index
 ;
 for
 (
-var
+const
 callee
 of
 getCallees
@@ -637,7 +637,7 @@ direct
 "
 &
 &
-isSpecialEdge
+getCallEdgeProperties
 (
 body
 edge
@@ -665,8 +665,6 @@ if
 edgeInfo
 .
 attrs
-&
-ATTR_NONRELEASING
 )
 {
 const
@@ -689,9 +687,9 @@ edge
 Index
 attrs
 :
-ATTR_GC_SUPPRESSED
-|
-ATTR_NONRELEASING
+edgeInfo
+.
+attrs
 }
 )
 ;
