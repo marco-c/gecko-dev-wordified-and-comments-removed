@@ -15253,6 +15253,14 @@ mDoc
 }
 ;
 bool
+IsInFocusedTab
+(
+Document
+*
+aDoc
+)
+;
+bool
 IsInActiveTab
 (
 Document
