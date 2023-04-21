@@ -84,6 +84,15 @@ sourceActorId
 sourceId
 errorMessage
 stacktrace
+threadActorId
+:
+resource
+.
+targetFront
+.
+targetForm
+.
+threadActor
 }
 ;
 dispatch
