@@ -55,7 +55,7 @@ AboutPages
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -68,7 +68,9 @@ content
 /
 AboutPages
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -79,7 +81,7 @@ AddonStudies
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -92,7 +94,9 @@ lib
 /
 AddonStudies
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -103,7 +107,7 @@ NormandyApi
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -116,7 +120,9 @@ lib
 /
 NormandyApi
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -127,7 +133,7 @@ TelemetryEvents
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -140,7 +146,9 @@ lib
 /
 TelemetryEvents
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -151,7 +159,7 @@ ShowHeartbeatAction
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -164,7 +172,9 @@ actions
 /
 ShowHeartbeatAction
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -175,7 +185,7 @@ Storage
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -188,7 +198,9 @@ lib
 /
 Storage
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

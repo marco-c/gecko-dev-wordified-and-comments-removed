@@ -60,7 +60,7 @@ NormandyApi
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -73,7 +73,9 @@ lib
 /
 NormandyApi
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -84,7 +86,7 @@ NormandyTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -97,7 +99,9 @@ common
 /
 NormandyTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -10,7 +10,7 @@ Normandy
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -21,7 +21,9 @@ normandy
 /
 Normandy
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -32,7 +34,7 @@ NormandyMigrations
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -43,7 +45,9 @@ normandy
 /
 NormandyMigrations
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

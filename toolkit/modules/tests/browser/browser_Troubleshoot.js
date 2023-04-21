@@ -81,7 +81,7 @@ PreferenceExperiments
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -94,7 +94,9 @@ lib
 /
 PreferenceExperiments
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -105,7 +107,7 @@ PreferenceRollouts
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -118,7 +120,9 @@ lib
 /
 PreferenceRollouts
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -129,7 +133,7 @@ AddonStudies
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -142,7 +146,9 @@ lib
 /
 AddonStudies
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -153,7 +159,7 @@ NormandyTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -166,7 +172,9 @@ common
 /
 NormandyTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

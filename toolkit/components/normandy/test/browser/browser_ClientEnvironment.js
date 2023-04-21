@@ -36,7 +36,7 @@ AddonRollouts
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -49,7 +49,9 @@ lib
 /
 AddonRollouts
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -60,7 +62,7 @@ ClientEnvironment
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -73,7 +75,9 @@ lib
 /
 ClientEnvironment
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -84,7 +88,7 @@ PreferenceExperiments
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -97,7 +101,9 @@ lib
 /
 PreferenceExperiments
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -108,7 +114,7 @@ PreferenceRollouts
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -121,7 +127,9 @@ lib
 /
 PreferenceRollouts
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -132,7 +140,7 @@ RecipeRunner
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -145,7 +153,9 @@ lib
 /
 RecipeRunner
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -156,7 +166,7 @@ NormandyTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -169,7 +179,9 @@ common
 /
 NormandyTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -10,7 +10,7 @@ TelemetryEvents
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ lib
 /
 TelemetryEvents
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

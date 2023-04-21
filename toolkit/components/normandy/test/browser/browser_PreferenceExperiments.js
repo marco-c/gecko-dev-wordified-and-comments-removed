@@ -10,7 +10,7 @@ PreferenceExperiments
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ lib
 /
 PreferenceExperiments
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -34,7 +36,7 @@ CleanupManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +49,9 @@ lib
 /
 CleanupManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -58,7 +62,7 @@ NormandyUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -71,7 +75,9 @@ lib
 /
 NormandyUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -82,7 +88,7 @@ NormandyTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -95,7 +101,9 @@ common
 /
 NormandyTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

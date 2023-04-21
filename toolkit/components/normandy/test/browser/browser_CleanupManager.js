@@ -10,7 +10,7 @@ CleanupManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ lib
 /
 CleanupManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

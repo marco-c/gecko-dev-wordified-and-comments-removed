@@ -10,7 +10,7 @@ NormandyTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ common
 /
 NormandyTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -64,7 +66,7 @@ ClientEnvironment
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -77,7 +79,9 @@ lib
 /
 ClientEnvironment
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -147,7 +151,7 @@ TelemetryEvents
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -160,7 +164,9 @@ lib
 /
 TelemetryEvents
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

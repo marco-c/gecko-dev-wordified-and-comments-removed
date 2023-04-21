@@ -36,7 +36,7 @@ PreferenceRollouts
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -49,7 +49,9 @@ lib
 /
 PreferenceRollouts
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -68,7 +70,7 @@ preferenceRolloutFactory
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -81,7 +83,9 @@ common
 /
 NormandyTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

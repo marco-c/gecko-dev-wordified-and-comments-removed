@@ -5,7 +5,7 @@ ClientEnvironment
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -18,7 +18,9 @@ lib
 /
 ClientEnvironment
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

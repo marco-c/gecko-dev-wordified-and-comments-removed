@@ -5,7 +5,7 @@ NormandyMigrations
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -16,7 +16,9 @@ normandy
 /
 NormandyMigrations
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

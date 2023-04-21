@@ -10,7 +10,7 @@ AddonRollbackAction
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ actions
 /
 AddonRollbackAction
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -34,7 +36,7 @@ AddonRolloutAction
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +49,9 @@ actions
 /
 AddonRolloutAction
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -58,7 +62,7 @@ BaseAction
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -71,7 +75,9 @@ actions
 /
 BaseAction
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -82,7 +88,7 @@ AddonRollouts
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -95,7 +101,9 @@ lib
 /
 AddonRollouts
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -106,7 +114,7 @@ NormandyTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -119,7 +127,9 @@ common
 /
 NormandyTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

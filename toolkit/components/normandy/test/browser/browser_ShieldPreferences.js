@@ -10,7 +10,7 @@ PreferenceExperiments
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ lib
 /
 PreferenceExperiments
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -34,7 +36,7 @@ ShieldPreferences
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +49,9 @@ lib
 /
 ShieldPreferences
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -71,7 +75,7 @@ NormandyTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -84,7 +88,9 @@ common
 /
 NormandyTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -10,7 +10,7 @@ Uptake
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ lib
 /
 Uptake
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

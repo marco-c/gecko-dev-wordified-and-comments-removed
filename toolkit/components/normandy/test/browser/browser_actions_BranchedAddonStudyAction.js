@@ -10,7 +10,7 @@ BaseAction
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ actions
 /
 BaseAction
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -34,7 +36,7 @@ BranchedAddonStudyAction
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +49,9 @@ actions
 /
 BranchedAddonStudyAction
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -58,7 +62,7 @@ Uptake
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -71,7 +75,9 @@ lib
 /
 Uptake
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -82,7 +88,7 @@ NormandyTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -95,7 +101,9 @@ common
 /
 NormandyTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

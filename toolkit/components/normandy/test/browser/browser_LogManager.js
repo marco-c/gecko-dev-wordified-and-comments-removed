@@ -10,7 +10,7 @@ LogManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ lib
 /
 LogManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

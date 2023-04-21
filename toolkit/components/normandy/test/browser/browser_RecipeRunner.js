@@ -10,7 +10,7 @@ NormandyTestUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ common
 /
 NormandyTestUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -64,7 +66,7 @@ Normandy
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -75,7 +77,9 @@ normandy
 /
 Normandy
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -86,7 +90,7 @@ BaseAction
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -99,7 +103,9 @@ actions
 /
 BaseAction
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -110,7 +116,7 @@ RecipeRunner
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -123,7 +129,9 @@ lib
 /
 RecipeRunner
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -134,7 +142,7 @@ ClientEnvironment
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -147,7 +155,9 @@ lib
 /
 ClientEnvironment
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -158,7 +168,7 @@ CleanupManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -171,7 +181,9 @@ lib
 /
 CleanupManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -182,7 +194,7 @@ ActionsManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -195,7 +207,9 @@ lib
 /
 ActionsManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -206,7 +220,7 @@ Uptake
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -219,7 +233,9 @@ lib
 /
 Uptake
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -36,7 +36,7 @@ AddonRollouts
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -49,7 +49,9 @@ lib
 /
 AddonRollouts
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -10,7 +10,7 @@ PrefUtils
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ lib
 /
 PrefUtils
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -10,7 +10,7 @@ Heartbeat
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ lib
 /
 Heartbeat
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

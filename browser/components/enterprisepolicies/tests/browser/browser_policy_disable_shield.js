@@ -18,7 +18,7 @@ RecipeRunner
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -31,7 +31,9 @@ lib
 /
 RecipeRunner
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -42,7 +44,7 @@ BaseAction
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -55,7 +57,9 @@ actions
 /
 BaseAction
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -66,7 +70,7 @@ BaseStudyAction
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -79,7 +83,9 @@ actions
 /
 BaseStudyAction
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
