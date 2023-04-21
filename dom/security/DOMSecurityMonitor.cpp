@@ -491,9 +491,7 @@ narrate
 /
 VoiceSelect
 .
-sys
-.
-mjs
+jsm
 "
 _ns
 "

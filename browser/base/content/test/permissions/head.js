@@ -40,9 +40,7 @@ modules
 /
 E10SUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
