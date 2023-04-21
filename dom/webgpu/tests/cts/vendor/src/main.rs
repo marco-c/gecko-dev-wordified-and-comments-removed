@@ -1230,11 +1230,11 @@ files
 but
 do
 not
+\
 exist
 on
 disk
 :
-\
 {
 :
 #
@@ -1335,6 +1335,7 @@ vendor
 does
 it
 still
+\
 exist
 ?
 "
