@@ -15,11 +15,7 @@ include
 "
 modules
 /
-desktop_capture
-/
-linux
-/
-wayland
+portal
 /
 xdg_session_details
 .

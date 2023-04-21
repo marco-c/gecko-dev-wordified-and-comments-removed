@@ -3,11 +3,7 @@ include
 "
 modules
 /
-desktop_capture
-/
-linux
-/
-wayland
+portal
 /
 xdg_desktop_portal_utils
 .
@@ -34,11 +30,7 @@ include
 "
 modules
 /
-desktop_capture
-/
-linux
-/
-wayland
+portal
 /
 scoped_glib
 .

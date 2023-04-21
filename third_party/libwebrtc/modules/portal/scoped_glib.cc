@@ -3,11 +3,7 @@ include
 "
 modules
 /
-desktop_capture
-/
-linux
-/
-wayland
+portal
 /
 scoped_glib
 .
