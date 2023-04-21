@@ -211,3 +211,12 @@ this
 "
 clipboardHelper
 "
+-
+ChromeUtils
+.
+defineLazyGetter
+(
+this
+"
+clipboardHelper
+"
