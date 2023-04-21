@@ -152,11 +152,6 @@ DEFINE_WEBGL_EXTENSION_GOOP
 WEBGL_lose_context
 WebGLExtensionLoseContext
 )
-DEFINE_WEBGL_EXTENSION_GOOP
-(
-WEBGL_provoking_vertex
-WebGLExtensionProvokingVertex
-)
 JSObject
 *
 ClientWebGLExtensionDisjointTimerQuery

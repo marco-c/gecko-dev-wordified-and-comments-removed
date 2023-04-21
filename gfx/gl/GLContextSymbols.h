@@ -3832,16 +3832,6 @@ GLenum
 GLuint
 )
 ;
-void
-(
-GLAPIENTRY
-*
-fProvokingVertex
-)
-(
-GLenum
-)
-;
 }
 ;
 }
