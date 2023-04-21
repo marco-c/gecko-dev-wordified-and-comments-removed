@@ -278,7 +278,7 @@ constexpr
 uint8_t
 kVpns
 [
-2
+3
 ]
 [
 6
@@ -291,6 +291,14 @@ kVpns
 0x9A
 0x3C
 0x7A
+0x0
+}
+{
+0x0
+0x5
+0x9A
+0x3C
+0x78
 0x0
 }
 {
@@ -4608,7 +4616,7 @@ PhysicalAddressLength
 {
 underlying_type_for_vpn
 =
-adapter_type
+ADAPTER_TYPE_UNKNOWN
 ;
 adapter_type
 =
