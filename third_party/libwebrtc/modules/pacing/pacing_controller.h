@@ -548,6 +548,13 @@ IsProbing
 )
 const
 ;
+void
+SetCircuitBreakerThreshold
+(
+int
+num_iterations
+)
+;
 private
 :
 TimeDelta
@@ -749,6 +756,9 @@ account_for_audio_
 ;
 bool
 include_overhead_
+;
+int
+circuit_breaker_threshold_
 ;
 }
 ;
