@@ -164,9 +164,11 @@ if
 !
 result
 )
+{
 return
 nullptr
 ;
+}
 memcpy
 (
 result
@@ -274,9 +276,11 @@ cx
 global
 )
 )
+{
 return
 false
 ;
+}
 JS
 :
 :
@@ -306,9 +310,11 @@ ctypes
 ctypes
 )
 )
+{
 return
 false
 ;
+}
 JS
 :
 :
