@@ -5874,6 +5874,7 @@ Fuchsia
 x64
 |
 Builder
+|
 "
 prioritized
 =
@@ -5914,6 +5915,7 @@ Fuchsia
 x64
 |
 Tester
+|
 "
 triggered_by
 =
@@ -6019,6 +6021,7 @@ Mac
 arm64
 |
 Builder
+|
 "
 )
 perf_builder
