@@ -547,7 +547,7 @@ type
 "
 initialization
 -
-failure
+error
 "
 )
 {
@@ -1820,7 +1820,7 @@ type
 "
 initialization
 -
-failure
+error
 "
 )
 {
