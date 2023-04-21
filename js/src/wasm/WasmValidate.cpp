@@ -7968,15 +7968,6 @@ SimdOp
 I32x4DotI8x16I7x16AddS
 )
 :
-case
-uint32_t
-(
-SimdOp
-:
-:
-F32x4RelaxedDotBF16x8AddF32x4
-)
-:
 {
 if
 (
@@ -8117,7 +8108,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4RelaxedTruncSSatF32x4
+I32x4RelaxedTruncF32x4S
 )
 :
 case
@@ -8126,7 +8117,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4RelaxedTruncUSatF32x4
+I32x4RelaxedTruncF32x4U
 )
 :
 case
@@ -8135,7 +8126,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4RelaxedTruncSatF64x2SZero
+I32x4RelaxedTruncF64x2SZero
 )
 :
 case
@@ -8144,7 +8135,7 @@ uint32_t
 SimdOp
 :
 :
-I32x4RelaxedTruncSatF64x2UZero
+I32x4RelaxedTruncF64x2UZero
 )
 :
 {
