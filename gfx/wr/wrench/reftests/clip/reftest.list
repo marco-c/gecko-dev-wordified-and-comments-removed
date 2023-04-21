@@ -237,11 +237,6 @@ skip_on
 android
 device
 )
-fuzzy
-(
-1
-2
-)
 =
 =
 color_targets
