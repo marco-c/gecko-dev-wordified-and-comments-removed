@@ -141,6 +141,11 @@ showErrorEmoji
 {
 false
 }
+showExcludePatterns
+=
+{
+false
+}
 showSearchModifiers
 =
 {
@@ -305,6 +310,11 @@ showErrorEmoji
 {
 false
 }
+showExcludePatterns
+=
+{
+false
+}
 showSearchModifiers
 =
 {
@@ -450,6 +460,11 @@ showClose
 true
 }
 showErrorEmoji
+=
+{
+false
+}
+showExcludePatterns
 =
 {
 false
@@ -607,6 +622,11 @@ showErrorEmoji
 =
 {
 true
+}
+showExcludePatterns
+=
+{
+false
 }
 showSearchModifiers
 =
