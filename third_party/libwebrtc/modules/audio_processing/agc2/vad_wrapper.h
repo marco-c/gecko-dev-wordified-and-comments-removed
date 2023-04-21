@@ -121,6 +121,16 @@ frame
 ;
 VoiceActivityDetectorWrapper
 (
+const
+AvailableCpuFeatures
+&
+cpu_features
+int
+sample_rate_hz
+)
+;
+VoiceActivityDetectorWrapper
+(
 int
 vad_reset_period_ms
 const

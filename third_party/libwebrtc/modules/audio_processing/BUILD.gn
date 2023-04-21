@@ -800,6 +800,11 @@ adaptive_digital_gain_controller
 "
 agc2
 :
+common
+"
+"
+agc2
+:
 cpu_features
 "
 "

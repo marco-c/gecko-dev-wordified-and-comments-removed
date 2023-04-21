@@ -237,6 +237,8 @@ GainController2
 AdaptiveDigital
 &
 config
+int
+adjacent_speech_frames_threshold
 )
 :
 apm_data_dumper_
@@ -252,8 +254,6 @@ config
 )
 adjacent_speech_frames_threshold_
 (
-config
-.
 adjacent_speech_frames_threshold
 )
 level_dbfs_
