@@ -153,6 +153,10 @@ deps
 [
 "
 :
+frame_analyzer
+"
+"
+:
 psnr_ssim_analyzer
 "
 "
