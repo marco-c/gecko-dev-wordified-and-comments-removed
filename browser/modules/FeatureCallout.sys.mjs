@@ -6689,7 +6689,7 @@ _positionCallout
 )
 ;
 let
-container
+button
 =
 this
 .
@@ -6699,8 +6699,16 @@ getElementById
 (
 CONTAINER_ID
 )
+.
+querySelector
+(
+"
+.
+primary
+"
+)
 ;
-container
+button
 .
 focus
 (
