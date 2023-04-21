@@ -516,7 +516,16 @@ content
 <
 script
 >
+(
 window
+.
+opener
+|
+|
+window
+.
+top
+)
 .
 postMessage
 (
