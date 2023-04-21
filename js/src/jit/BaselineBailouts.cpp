@@ -7110,6 +7110,15 @@ FrameType
 :
 :
 BaselineJS
+|
+|
+prevFrameType
+=
+=
+FrameType
+:
+:
+BaselineInterpreterEntry
 )
 ;
 #
