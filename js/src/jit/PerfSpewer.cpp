@@ -1138,6 +1138,9 @@ return
 false
 ;
 }
+#
+ifdef
+XP_LINUX
 long
 page_size
 =
@@ -1179,6 +1182,8 @@ return
 false
 ;
 }
+#
+endif
 writeJitDumpHeader
 (
 lock
