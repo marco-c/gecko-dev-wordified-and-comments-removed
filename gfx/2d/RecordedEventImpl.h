@@ -8369,7 +8369,7 @@ mCompositionOp
 CompositionOp
 :
 :
-OP_OVER
+OP_CLEAR
 |
 |
 aDrawOptions

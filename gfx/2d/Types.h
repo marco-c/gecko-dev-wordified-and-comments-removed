@@ -2490,6 +2490,7 @@ CompositionOp
 :
 int8_t
 {
+OP_CLEAR
 OP_OVER
 OP_ADD
 OP_ATOP
