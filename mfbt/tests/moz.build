@@ -159,9 +159,6 @@ TestSmallPointerArray
 TestSplayTree
 "
 "
-TestTemplateLib
-"
-"
 TestTextUtils
 "
 "
