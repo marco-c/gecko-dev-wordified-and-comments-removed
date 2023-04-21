@@ -9,7 +9,7 @@ timer
 const
 DELAY_MS
 =
-10000
+1000
 ;
 function
 handleRequest
