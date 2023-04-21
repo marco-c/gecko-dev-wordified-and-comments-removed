@@ -23006,6 +23006,8 @@ setURI
 aLocationURI
 aIsSimulated
 isSessionRestore
+false
+isSameDocument
 )
 ;
 BookmarkingUI
