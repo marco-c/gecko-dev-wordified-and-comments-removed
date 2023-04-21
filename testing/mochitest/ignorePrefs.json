@@ -104,6 +104,13 @@ bookmarks
 restore_default_bookmarks
 "
 "
+doh
+-
+rollout
+.
+doneFirstRun
+"
+"
 extensions
 .
 dnr
