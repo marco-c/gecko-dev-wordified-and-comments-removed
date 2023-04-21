@@ -5095,7 +5095,10 @@ size
 ]
 ;
 }
-finally
+catch
+(
+e
+)
 {
 lazy
 .
@@ -5108,6 +5111,9 @@ of
 pdf
 failed
 )
+;
+throw
+e
 ;
 }
 }
