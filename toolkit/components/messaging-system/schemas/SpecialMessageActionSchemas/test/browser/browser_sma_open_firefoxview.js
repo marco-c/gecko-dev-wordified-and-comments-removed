@@ -35,7 +35,7 @@ executeAndValidateAction
 type
 :
 "
-OPEN_FIREFOX_VIEW_AND_COLORWAYS_MODAL
+OPEN_FIREFOX_VIEW
 "
 }
 )
