@@ -262,12 +262,6 @@ Epoch
 (
 0
 )
-None
-sub_bounds
-.
-size
-(
-)
 sub_builder
 .
 end

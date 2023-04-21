@@ -553,14 +553,6 @@ Epoch
 (
 0
 )
-None
-doc
-.
-content_rect
-.
-size
-(
-)
 builder
 .
 end

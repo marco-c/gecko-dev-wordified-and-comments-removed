@@ -3124,8 +3124,6 @@ SetDisplayList
 {
 epoch
 pipeline_id
-background
-viewport_size
 display_list
 }
 =
@@ -3271,8 +3269,6 @@ set_display_list
 pipeline_id
 epoch
 display_list
-background
-viewport_size
 )
 ;
 }
