@@ -565,7 +565,7 @@ rhs
 ScalingSettings
 scaling_settings
 ;
-int
+uint32_t
 requested_resolution_alignment
 ;
 bool

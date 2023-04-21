@@ -6500,7 +6500,7 @@ b
 void
 SetRequestedResolutionAlignment
 (
-int
+uint32_t
 requested_resolution_alignment
 )
 {
@@ -7621,7 +7621,7 @@ local_mutex_
 =
 true
 ;
-int
+uint32_t
 requested_resolution_alignment_
 RTC_GUARDED_BY
 (
@@ -14383,7 +14383,7 @@ GetParam
 protected
 :
 const
-int
+uint32_t
 requested_alignment_
 ;
 const
@@ -14884,7 +14884,7 @@ i
 width
 %
 requested_alignment_
-0
+0u
 )
 ;
 EXPECT_EQ
@@ -14899,7 +14899,7 @@ i
 height
 %
 requested_alignment_
-0
+0u
 )
 ;
 EXPECT_EQ

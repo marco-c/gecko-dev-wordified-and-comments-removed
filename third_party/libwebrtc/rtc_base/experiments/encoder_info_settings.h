@@ -102,7 +102,7 @@ absl
 :
 optional
 <
-int
+uint32_t
 >
 requested_resolution_alignment
 (
@@ -245,7 +245,7 @@ private
 :
 FieldTrialOptional
 <
-int
+uint32_t
 >
 requested_resolution_alignment_
 ;

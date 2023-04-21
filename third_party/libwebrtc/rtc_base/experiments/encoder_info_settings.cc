@@ -1037,7 +1037,7 @@ absl
 :
 optional
 <
-int
+uint32_t
 >
 EncoderInfoSettings
 :

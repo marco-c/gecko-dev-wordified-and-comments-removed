@@ -3696,7 +3696,7 @@ EXPECT_EQ
 info
 .
 requested_resolution_alignment
-1
+1u
 )
 ;
 EXPECT_THAT
@@ -3800,7 +3800,7 @@ GetEncoderInfo
 )
 .
 requested_resolution_alignment
-10
+10u
 )
 ;
 EXPECT_FALSE

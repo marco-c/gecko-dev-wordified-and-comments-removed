@@ -921,7 +921,7 @@ std
 :
 vector
 <
-int
+uint32_t
 >
 requested_resolution_alignments
 )
@@ -1010,7 +1010,7 @@ std
 :
 vector
 <
-int
+uint32_t
 >
 requested_resolution_alignments_
 =
@@ -1406,7 +1406,7 @@ settings
 void
 set_requested_resolution_alignment
 (
-int
+uint32_t
 requested_resolution_alignment
 )
 {
@@ -1588,7 +1588,7 @@ VideoEncoder
 ScalingSettings
 scaling_settings_
 ;
-int
+uint32_t
 requested_resolution_alignment_
 =
 1
@@ -8932,7 +8932,7 @@ GetEncoderInfo
 )
 .
 requested_resolution_alignment
-28
+28u
 )
 ;
 }
@@ -9394,7 +9394,7 @@ size
 ;
 EXPECT_EQ
 (
-8
+8u
 adapter_
 -
 >
@@ -9563,7 +9563,7 @@ size
 ;
 EXPECT_EQ
 (
-9
+9u
 adapter_
 -
 >
