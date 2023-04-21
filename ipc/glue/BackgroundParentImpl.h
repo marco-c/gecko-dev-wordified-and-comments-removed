@@ -555,6 +555,10 @@ nsIPrincipal
 *
 aPrincipal
 const
+IPCClientInfo
+&
+aClientInfo
+const
 bool
 &
 aDedicated
