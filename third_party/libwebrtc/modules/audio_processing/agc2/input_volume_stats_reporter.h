@@ -177,6 +177,14 @@ metrics
 Histogram
 *
 const
+on_volume_change
+;
+metrics
+:
+:
+Histogram
+*
+const
 decrease_rate
 ;
 metrics
@@ -226,6 +234,11 @@ AllPointersSet
 const
 {
 return
+!
+!
+on_volume_change
+&
+&
 !
 !
 decrease_rate
