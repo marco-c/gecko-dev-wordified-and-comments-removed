@@ -19081,8 +19081,10 @@ NS_OK
 }
 private
 :
+RefPtr
+<
 PProcessHangMonitorParent
-*
+>
 mHangMonitorActor
 ;
 }
