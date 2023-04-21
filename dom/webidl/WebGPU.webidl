@@ -3668,14 +3668,11 @@ offset
 =
 0
 ;
-required
 GPUSize32
 bytesPerRow
 ;
 GPUSize32
 rowsPerImage
-=
-0
 ;
 }
 ;
