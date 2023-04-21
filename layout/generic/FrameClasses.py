@@ -68,17 +68,6 @@ NOT_LEAF
 Frame
 (
 "
-nsBoxFrame
-"
-"
-Box
-"
-NOT_LEAF
-)
-    
-Frame
-(
-"
 nsButtonBoxFrame
 "
 "

@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsBoxFrame
-.
-h
-"
-#
-include
-"
 nsSplitterFrame
 .
 h

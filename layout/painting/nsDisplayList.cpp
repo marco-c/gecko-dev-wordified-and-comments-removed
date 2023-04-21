@@ -353,13 +353,6 @@ h
 #
 include
 "
-nsBoxFrame
-.
-h
-"
-#
-include
-"
 nsImageFrame
 .
 h

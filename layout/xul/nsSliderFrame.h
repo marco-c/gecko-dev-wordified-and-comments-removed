@@ -16,7 +16,7 @@ h
 #
 include
 "
-nsIFrame
+nsContainerFrame
 .
 h
 "
@@ -24,13 +24,6 @@ h
 include
 "
 nsRepeatService
-.
-h
-"
-#
-include
-"
-nsBoxFrame
 .
 h
 "

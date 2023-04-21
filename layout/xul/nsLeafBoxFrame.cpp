@@ -26,13 +26,6 @@ h
 #
 include
 "
-nsBoxFrame
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

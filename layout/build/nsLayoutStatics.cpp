@@ -221,13 +221,6 @@ h
 #
 include
 "
-nsSprocketLayout
-.
-h
-"
-#
-include
-"
 nsTextControlFrame
 .
 h
@@ -1939,13 +1932,6 @@ nsXULPrototypeCache
 :
 :
 ReleaseGlobals
-(
-)
-;
-nsSprocketLayout
-:
-:
-Shutdown
 (
 )
 ;
