@@ -782,6 +782,47 @@ javascript
 "
         
 }
+        
+"
+[
+javascript
+]
+[
+javascriptreact
+]
+[
+typescript
+]
+[
+typescriptreact
+]
+"
+:
+{
+            
+"
+editor
+.
+defaultFormatter
+"
+:
+"
+esbenp
+.
+prettier
+-
+vscode
+"
+            
+"
+editor
+.
+formatOnSave
+"
+:
+True
+        
+}
     
 }
     
