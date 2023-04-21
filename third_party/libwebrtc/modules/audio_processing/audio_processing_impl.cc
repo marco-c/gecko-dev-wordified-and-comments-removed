@@ -2248,6 +2248,10 @@ adaptive_digital_controller
 =
 {
 .
+enabled
+=
+false
+.
 headroom_db
 =
 static_cast
