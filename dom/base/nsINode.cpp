@@ -16117,7 +16117,7 @@ return
 nullptr
 ;
 }
-Element
+nsGenericHTMLElement
 *
 nsINode
 :

@@ -4398,6 +4398,12 @@ aValue
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
+void
+HandlePopoverTargetAction
+(
+)
+;
 mozilla
 :
 :

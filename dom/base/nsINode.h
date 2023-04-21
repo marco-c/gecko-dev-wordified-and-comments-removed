@@ -207,6 +207,9 @@ class
 nsDOMAttributeMap
 ;
 class
+nsGenericHTMLElement
+;
+class
 nsIAnimationObserver
 ;
 class
@@ -1616,13 +1619,7 @@ GetNearestInclusiveTargetPopoverForInvoker
 )
 const
 ;
-mozilla
-:
-:
-dom
-:
-:
-Element
+nsGenericHTMLElement
 *
 GetEffectivePopoverTargetElement
 (
