@@ -186,6 +186,7 @@ t
 .
 step
 (
+async
 function
 (
 )
@@ -212,6 +213,14 @@ getContext
 '
 )
 ;
+await
+(
+function
+(
+canvas
+ctx
+)
+{
 var
 offscreenCanvas2
 =
@@ -307,6 +316,13 @@ offscreenCanvas2
 )
 ;
 }
+)
+;
+}
+)
+(
+canvas
+ctx
 )
 ;
 t

@@ -186,6 +186,7 @@ t
 .
 step
 (
+async
 function
 (
 )
@@ -212,6 +213,14 @@ getContext
 '
 )
 ;
+await
+(
+function
+(
+canvas
+ctx
+)
+{
 var
 promise1
 =
@@ -512,6 +521,13 @@ then
 (
 t_pass
 t_fail
+)
+;
+}
+)
+(
+canvas
+ctx
 )
 ;
 }

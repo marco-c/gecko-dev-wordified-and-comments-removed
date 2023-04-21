@@ -199,6 +199,7 @@ t
 .
 step
 (
+async
 function
 (
 )
@@ -225,6 +226,12 @@ getContext
 '
 )
 ;
+await
+(
+function
+(
+)
+{
 assert_throws_js
 (
 TypeError
@@ -508,6 +515,9 @@ kernelMatrix
 [
 ]
 ]
+}
+)
+;
 }
 )
 ;

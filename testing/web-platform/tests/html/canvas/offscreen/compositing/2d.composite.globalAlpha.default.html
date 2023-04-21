@@ -177,6 +177,7 @@ t
 .
 step
 (
+async
 function
 (
 )
@@ -203,6 +204,14 @@ getContext
 '
 )
 ;
+await
+(
+function
+(
+canvas
+ctx
+)
+{
 _assertSame
 (
 ctx
@@ -221,6 +230,13 @@ globalAlpha
 .
 0
 "
+)
+;
+}
+)
+(
+canvas
+ctx
 )
 ;
 t

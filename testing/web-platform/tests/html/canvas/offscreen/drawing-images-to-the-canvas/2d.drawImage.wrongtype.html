@@ -205,6 +205,7 @@ t
 .
 step
 (
+async
 function
 (
 )
@@ -231,6 +232,14 @@ getContext
 '
 )
 ;
+await
+(
+function
+(
+canvas
+ctx
+)
+{
 assert_throws_js
 (
 TypeError
@@ -287,6 +296,13 @@ drawImage
 )
 ;
 }
+)
+;
+}
+)
+(
+canvas
+ctx
 )
 ;
 t

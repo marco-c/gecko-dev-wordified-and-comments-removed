@@ -177,6 +177,7 @@ t
 .
 step
 (
+async
 function
 (
 )
@@ -203,6 +204,14 @@ getContext
 '
 )
 ;
+await
+(
+function
+(
+canvas
+ctx
+)
+{
 _assertSame
 (
 ctx
@@ -225,6 +234,13 @@ source
 over
 '
 "
+)
+;
+}
+)
+(
+canvas
+ctx
 )
 ;
 t

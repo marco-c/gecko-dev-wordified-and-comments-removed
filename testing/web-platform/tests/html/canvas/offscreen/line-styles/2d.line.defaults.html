@@ -173,6 +173,7 @@ t
 .
 step
 (
+async
 function
 (
 )
@@ -199,6 +200,12 @@ getContext
 '
 )
 ;
+await
+(
+function
+(
+)
+{
 _assertSame
 (
 ctx
@@ -269,6 +276,9 @@ miterLimit
 "
 10
 "
+)
+;
+}
 )
 ;
 t

@@ -177,6 +177,7 @@ t
 .
 step
 (
+async
 function
 (
 )
@@ -203,6 +204,14 @@ getContext
 '
 )
 ;
+await
+(
+function
+(
+canvas
+ctx
+)
+{
 ctx
 .
 globalCompositeOperation
@@ -239,6 +248,13 @@ globalCompositeOperation
 xor
 '
 "
+)
+;
+}
+)
+(
+canvas
+ctx
 )
 ;
 t
