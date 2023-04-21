@@ -17,11 +17,6 @@ patches
 :
 [
 "
-clang_include_cleaner
-.
-patch
-"
-"
 clang
 -
 tidy

@@ -683,6 +683,13 @@ cmake
 +
 4
 10
+set
+(
+CMAKE_INSTALL_LIBDIR
+"
+lib
+"
+)
 include
 (
 GNUInstallDirs

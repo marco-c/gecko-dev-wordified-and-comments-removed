@@ -124,9 +124,9 @@ ll
 2
 +
 -
-llvm
-/
-test
+.
+.
+.
 /
 Other
 /
@@ -135,6 +135,8 @@ new
 pm
 -
 thinlto
+-
+postlink
 -
 defaults
 .
@@ -908,6 +910,8 @@ pm
 -
 thinlto
 -
+postlink
+-
 defaults
 .
 ll
@@ -924,6 +928,8 @@ new
 pm
 -
 thinlto
+-
+postlink
 -
 defaults
 .
@@ -951,6 +957,8 @@ pm
 -
 thinlto
 -
+postlink
+-
 defaults
 .
 ll
@@ -970,6 +978,8 @@ new
 pm
 -
 thinlto
+-
+postlink
 -
 defaults
 .
