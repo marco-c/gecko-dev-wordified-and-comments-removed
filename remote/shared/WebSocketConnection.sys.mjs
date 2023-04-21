@@ -312,7 +312,7 @@ lazy
 .
 Log
 .
-isDebugLevelOrAbove
+isDebugLevelOrMore
 )
 {
 function

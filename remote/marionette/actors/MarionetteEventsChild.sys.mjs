@@ -239,7 +239,7 @@ lazy
 .
 Log
 .
-isTraceLevelOrAbove
+isTraceLevelOrOrMore
 )
 {
 lazy
