@@ -19,14 +19,14 @@ inch_in_cm
 def
 cm_to_px
 (
-px
+cm
 )
 :
     
 return
 round
 (
-px
+cm
 *
 PPI
 /
