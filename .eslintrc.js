@@ -1794,12 +1794,6 @@ htmlparser
 *
 "
 "
-remote
-/
-*
-*
-"
-"
 services
 /
 *
