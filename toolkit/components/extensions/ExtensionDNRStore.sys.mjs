@@ -8832,6 +8832,12 @@ _dynamic
 validatedDynamicRules
 )
 ;
+data
+.
+dynamicRuleset
+=
+validatedDynamicRules
+;
 }
 catch
 (
