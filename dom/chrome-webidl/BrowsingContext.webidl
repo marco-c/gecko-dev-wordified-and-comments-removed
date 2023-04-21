@@ -2483,6 +2483,12 @@ long
 aPresShellId
 )
 ;
+readonly
+attribute
+nsISHEntry
+?
+mostRecentLoadingSessionHistoryEntry
+;
 }
 ;
 [

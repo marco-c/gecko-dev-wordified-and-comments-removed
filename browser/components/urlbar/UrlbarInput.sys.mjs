@@ -2778,7 +2778,9 @@ gBrowser
 .
 selectedBrowser
 .
-_initialURI
+browsingContext
+.
+nonWebControlledBlankURI
 )
 |
 |

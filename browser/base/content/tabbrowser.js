@@ -26114,7 +26114,9 @@ this
 .
 mBrowser
 .
-_initialURI
+browsingContext
+.
+nonWebControlledBlankURI
 =
 originalLocation
 ;

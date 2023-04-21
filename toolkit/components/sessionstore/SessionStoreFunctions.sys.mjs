@@ -231,7 +231,7 @@ aCollectSHistory
 updateSessionStoreForStorage
 :
 function
-SSF_updateSessionStoreForWindow
+SSF_updateSessionStoreForStorage
 (
 aBrowser
 aBrowsingContext
@@ -259,6 +259,7 @@ epoch
 :
 aEpoch
 }
+true
 )
 ;
 }
