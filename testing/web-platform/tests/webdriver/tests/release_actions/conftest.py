@@ -130,7 +130,7 @@ focused
 input
 element
 from
-test_keys_page
+test_actions_page
 fixture
 .
 "

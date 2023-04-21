@@ -16,7 +16,7 @@ events
 recorded
 in
 the
-test_keys_page
+test_actions_page
 fixture
 .
 "
