@@ -556,11 +556,6 @@ options
 }
 )
 ;
-GPUTextureFormat
-getPreferredCanvasFormat
-(
-)
-;
 }
 ;
 /
@@ -4899,6 +4894,13 @@ descriptor
 undefined
 unconfigure
 (
+)
+;
+GPUTextureFormat
+getPreferredFormat
+(
+GPUAdapter
+adapter
 )
 ;
 [
