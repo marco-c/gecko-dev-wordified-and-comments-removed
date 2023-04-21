@@ -693,6 +693,17 @@ sent_packets_queue_wait_time_us
 ;
 }
 ;
+struct
+EmulatedNetworkNodeStats
+{
+SamplesStatsCounter
+packet_transport_time
+;
+SamplesStatsCounter
+size_to_packet_transport_time
+;
+}
+;
 class
 EmulatedEndpoint
 :

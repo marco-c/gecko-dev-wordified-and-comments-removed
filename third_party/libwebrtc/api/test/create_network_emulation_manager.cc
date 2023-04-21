@@ -38,7 +38,9 @@ NetworkEmulationManager
 CreateNetworkEmulationManager
 (
 TimeMode
-mode
+time_mode
+EmulatedNetworkStatsGatheringMode
+stats_gathering_mode
 )
 {
 return
@@ -53,7 +55,8 @@ test
 NetworkEmulationManagerImpl
 >
 (
-mode
+time_mode
+stats_gathering_mode
 )
 ;
 }

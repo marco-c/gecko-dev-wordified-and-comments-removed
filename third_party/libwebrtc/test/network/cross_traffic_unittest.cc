@@ -264,6 +264,10 @@ kTestIpAddress
 EmulatedEndpointConfig
 (
 )
+EmulatedNetworkStatsGatheringMode
+:
+:
+kDefault
 }
 true
 &
@@ -791,6 +795,10 @@ TimeMode
 :
 :
 kSimulated
+EmulatedNetworkStatsGatheringMode
+:
+:
+kDefault
 )
 ;
 BuiltInNetworkBehaviorConfig

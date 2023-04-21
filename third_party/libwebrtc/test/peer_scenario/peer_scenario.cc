@@ -363,6 +363,10 @@ log_writer_manager
 net_
 (
 mode
+EmulatedNetworkStatsGatheringMode
+:
+:
+kDefault
 )
 signaling_thread_
 (

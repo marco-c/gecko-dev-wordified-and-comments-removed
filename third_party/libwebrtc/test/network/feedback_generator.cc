@@ -65,6 +65,10 @@ TimeMode
 :
 :
 kSimulated
+EmulatedNetworkStatsGatheringMode
+:
+:
+kDefault
 )
 send_link_
 {

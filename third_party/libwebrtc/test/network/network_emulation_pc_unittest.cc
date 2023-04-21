@@ -773,6 +773,10 @@ TimeMode
 :
 :
 kRealTime
+EmulatedNetworkStatsGatheringMode
+:
+:
+kDefault
 )
 ;
 EmulatedNetworkNode
@@ -1404,6 +1408,10 @@ TimeMode
 :
 :
 kRealTime
+EmulatedNetworkStatsGatheringMode
+:
+:
+kDefault
 )
 ;
 EmulatedNetworkNode

@@ -429,6 +429,10 @@ TimeMode
 :
 :
 kSimulated
+EmulatedNetworkStatsGatheringMode
+:
+:
+kDefault
 )
 clock_
 (
