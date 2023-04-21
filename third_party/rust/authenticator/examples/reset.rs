@@ -826,7 +826,7 @@ Ok
 StatusUpdate
 :
 :
-PinError
+PinUvError
 (
 .
 .
