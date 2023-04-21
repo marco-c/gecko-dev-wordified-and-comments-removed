@@ -713,7 +713,7 @@ ret
 =
 ChromeUtils
 .
-import
+importESModule
 (
 module
 )

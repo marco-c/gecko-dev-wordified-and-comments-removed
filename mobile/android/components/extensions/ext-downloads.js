@@ -26,15 +26,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-this
-{
 DownloadTracker
 :
 "
@@ -48,7 +39,9 @@ modules
 /
 GeckoViewWebExtension
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

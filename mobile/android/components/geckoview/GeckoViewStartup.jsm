@@ -702,7 +702,9 @@ modules
 /
 GeckoViewConsole
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
@@ -729,7 +731,9 @@ modules
 /
 GeckoViewStorageController
 .
-jsm
+sys
+.
+mjs
 "
 ged
 :
@@ -815,7 +819,9 @@ modules
 /
 GeckoViewPushController
 .
-jsm
+sys
+.
+mjs
 "
 ged
 :
@@ -929,7 +935,9 @@ modules
 /
 GeckoViewSessionStore
 .
-jsm
+sys
+.
+mjs
 "
 observers
 :
@@ -979,7 +987,9 @@ modules
 /
 GeckoViewWebExtension
 .
-jsm
+sys
+.
+mjs
 "
 ged
 :
@@ -1157,7 +1167,9 @@ modules
 /
 ChildCrashHandler
 .
-jsm
+sys
+.
+mjs
 "
 observers
 :
@@ -1236,7 +1248,9 @@ modules
 /
 GeckoViewRemoteDebugger
 .
-jsm
+sys
+.
+mjs
 "
 init
 :
@@ -1305,7 +1319,9 @@ modules
 /
 GeckoViewWebExtension
 .
-jsm
+sys
+.
+mjs
 "
 ged
 :
