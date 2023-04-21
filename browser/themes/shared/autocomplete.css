@@ -295,6 +295,12 @@ margin
 :
 0
 ;
+min
+-
+width
+:
+0
+;
 }
 #
 PopupAutoComplete
@@ -436,12 +442,10 @@ flex
 ;
 /
 *
-width
-/
 min
 -
 width
-are
+is
 needed
 to
 get
@@ -460,10 +464,6 @@ children
 /
 min
 -
-width
-:
-0
-;
 width
 :
 0
