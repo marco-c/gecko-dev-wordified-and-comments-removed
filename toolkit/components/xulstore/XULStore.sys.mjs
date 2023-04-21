@@ -171,6 +171,11 @@ prototype
 classID
 :
 XULSTORE_CID
+name
+:
+"
+XULStore
+"
 QueryInterface
 :
 ChromeUtils
@@ -178,6 +183,9 @@ ChromeUtils
 generateQI
 (
 [
+"
+nsINamed
+"
 "
 nsIObserver
 "
