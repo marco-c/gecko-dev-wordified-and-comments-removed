@@ -359,6 +359,16 @@ metrics
 .
 yaml
 "
+    
+"
+browser
+/
+components
+/
+metrics
+.
+yaml
+"
 ]
 test_metrics
 =
