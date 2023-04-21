@@ -4299,15 +4299,6 @@ third_party
 /
 openh264
 :
-buildflags
-"
-"
-/
-/
-third_party
-/
-openh264
-:
 encoder
 "
 ]
