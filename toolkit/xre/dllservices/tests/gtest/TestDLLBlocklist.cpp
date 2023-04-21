@@ -1806,6 +1806,20 @@ return
 0
 ;
 }
+#
+if
+!
+defined
+(
+MOZ_ASAN
+)
+&
+&
+!
+defined
+(
+_M_ARM64
+)
 TEST
 (
 TestDllBlocklist
@@ -2127,3 +2141,5 @@ kSingleNotificationDll2Loads
 )
 ;
 }
+#
+endif
