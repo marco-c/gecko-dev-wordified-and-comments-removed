@@ -342,11 +342,6 @@ ImageSize
 (
 )
 ;
-bool
-IsLinkValid
-(
-)
-;
 uint32_t
 AnchorCount
 (

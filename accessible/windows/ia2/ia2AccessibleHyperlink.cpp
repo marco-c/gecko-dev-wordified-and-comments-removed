@@ -697,11 +697,11 @@ aValid
 =
 false
 ;
-LocalAccessible
+Accessible
 *
 thisObj
 =
-LocalAcc
+Acc
 (
 )
 ;

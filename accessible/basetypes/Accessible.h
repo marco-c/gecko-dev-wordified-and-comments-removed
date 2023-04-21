@@ -1771,6 +1771,11 @@ const
 =
 0
 ;
+bool
+IsLinkValid
+(
+)
+;
 virtual
 bool
 IsRemote
