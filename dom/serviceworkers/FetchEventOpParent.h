@@ -16,15 +16,6 @@ include
 "
 mozilla
 /
-Tuple
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 FetchEventOpProxyParent
@@ -71,7 +62,10 @@ FetchEventOpParent
 =
 default
 ;
-Tuple
+std
+:
+:
+tuple
 <
 Maybe
 <

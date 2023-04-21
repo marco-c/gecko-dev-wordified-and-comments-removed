@@ -181,7 +181,10 @@ mGlobalRules
 nsTHashMap
 <
 uint64_t
-Tuple
+std
+:
+:
+tuple
 <
 bool
 bool

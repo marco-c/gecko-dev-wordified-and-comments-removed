@@ -23,15 +23,6 @@ include
 "
 mozilla
 /
-Tuple
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 SafeRefPtr
@@ -61,7 +52,10 @@ InternalResponse
 using
 SynthesizeResponseArgs
 =
-Tuple
+std
+:
+:
+tuple
 <
 SafeRefPtr
 <

@@ -831,7 +831,10 @@ FramesVerifiedEvent
 ;
 MediaEventSource
 <
-Tuple
+std
+:
+:
+tuple
 <
 uint64_t
 float
@@ -1073,7 +1076,10 @@ mFramesVerifiedEvent
 ;
 MediaEventProducer
 <
-Tuple
+std
+:
+:
+tuple
 <
 uint64_t
 float

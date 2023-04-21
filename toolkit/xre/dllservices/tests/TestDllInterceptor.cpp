@@ -549,7 +549,10 @@ Args
 typename
 ArgTuple
 =
-Tuple
+std
+:
+:
+tuple
 <
 Args
 .
@@ -590,7 +593,10 @@ Indices
 return
 aFunc
 (
-Get
+std
+:
+:
+get
 <
 Indices
 >
@@ -672,7 +678,10 @@ aArgs
 using
 ArgTuple
 =
-Tuple
+std
+:
+:
+tuple
 <
 Args
 .
@@ -806,7 +815,10 @@ aArgs
 using
 ArgTuple
 =
-Tuple
+std
+:
+:
+tuple
 <
 Args
 .

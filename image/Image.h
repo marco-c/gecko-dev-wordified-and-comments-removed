@@ -70,15 +70,6 @@ h
 #
 include
 "
-mozilla
-/
-Tuple
-.
-h
-"
-#
-include
-"
 gfx2DGlue
 .
 h

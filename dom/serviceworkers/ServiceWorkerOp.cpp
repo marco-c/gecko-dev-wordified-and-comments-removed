@@ -7246,7 +7246,10 @@ Resolve
 (
 FetchEventRespondWithResult
 (
-MakeTuple
+std
+:
+:
+make_tuple
 (
 std
 :

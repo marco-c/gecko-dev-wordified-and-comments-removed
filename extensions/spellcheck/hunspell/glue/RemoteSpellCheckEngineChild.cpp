@@ -228,7 +228,10 @@ __func__
 spellChecker
 ]
 (
-Tuple
+std
+:
+:
+tuple
 <
 bool
 nsCString
@@ -241,7 +244,10 @@ aParam
 if
 (
 !
-Get
+std
+:
+:
+get
 <
 0
 >
@@ -291,7 +297,10 @@ std
 :
 move
 (
-Get
+std
+:
+:
+get
 <
 1
 >
