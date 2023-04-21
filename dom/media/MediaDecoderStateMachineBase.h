@@ -624,6 +624,17 @@ CDMProxy
 aProxy
 )
 ;
+virtual
+bool
+IsExternalStateMachine
+(
+)
+const
+{
+return
+false
+;
+}
 protected
 :
 virtual
