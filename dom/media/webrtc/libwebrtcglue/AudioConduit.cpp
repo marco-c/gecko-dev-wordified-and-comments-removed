@@ -1792,6 +1792,7 @@ mSendStream
 Reconfigure
 (
 mSendStreamConfig
+nullptr
 )
 ;
 }

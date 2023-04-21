@@ -120,6 +120,13 @@ h
 #
 include
 "
+MediaConduitInterface
+.
+h
+"
+#
+include
+"
 MediaPipeline
 .
 h
