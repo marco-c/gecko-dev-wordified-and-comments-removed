@@ -8611,6 +8611,11 @@ startColumn
 =
 scriptStartOffset
 -
+(
+allLineBreaks
+.
+length
+?
 allLineBreaks
 .
 at
@@ -8622,6 +8627,9 @@ at
 index
 -
 1
+:
+0
+)
 ;
 if
 (
