@@ -1486,13 +1486,6 @@ FontPaletteValueSet
 :
 PaletteValues
 "
-"
-ThinVec
-"
-=
-"
-nsTArray
-"
 [
 export
 .

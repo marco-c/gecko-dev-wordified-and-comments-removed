@@ -343,7 +343,7 @@ colonlangcontroltest
 offsetWidth
 0
 )
-assert_in_array
+assert_equals
 (
 document
 .
@@ -355,10 +355,7 @@ box
 )
 .
 offsetWidth
-[
 50
-100
-]
 )
 ;
 }
@@ -373,6 +370,7 @@ and
 region
 subtags
 will
+NOT
 match
 a
 lang
@@ -384,14 +382,6 @@ script
 and
 region
 subtags
-under
-CSS
-Selectors
-4
-but
-not
-Selectors
-3
 .
 "
 )

@@ -8903,19 +8903,6 @@ null_mut
 )
 }
 ;
-value
-.
-0
-.
-iter
-(
-)
-.
-any
-(
-|
-lang
-|
 unsafe
 {
 Gecko_MatchLang
@@ -8929,7 +8916,7 @@ override_lang
 is_some
 (
 )
-lang
+value
 .
 as_slice
 (
@@ -8940,7 +8927,6 @@ as_ptr
 )
 )
 }
-)
 }
 fn
 is_html_document_body_element
