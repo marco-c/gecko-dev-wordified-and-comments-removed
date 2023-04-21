@@ -685,6 +685,9 @@ function
 CanFrameWriteCookies
 (
 frame
+keep_after_writing
+=
+false
 )
 {
 const
@@ -783,6 +786,12 @@ bar
 cookies
 )
 ;
+if
+(
+!
+keep_after_writing
+)
+{
 await
 DeleteCookieInFrame
 (
@@ -803,6 +812,7 @@ foo
 cookie_suffix
 )
 ;
+}
 return
 can_write
 ;
