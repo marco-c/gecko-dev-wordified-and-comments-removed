@@ -428,7 +428,7 @@ void
 cricket
 :
 :
-MediaChannel
+MediaSendChannelInterface
 *
 )
 )

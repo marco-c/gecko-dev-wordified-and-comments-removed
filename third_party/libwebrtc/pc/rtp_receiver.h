@@ -196,7 +196,7 @@ SetMediaChannel
 cricket
 :
 :
-MediaChannel
+MediaReceiveChannelInterface
 *
 media_channel
 )

@@ -1340,7 +1340,7 @@ SetMediaChannel
 cricket
 :
 :
-MediaChannel
+MediaReceiveChannelInterface
 *
 media_channel
 )
@@ -1386,7 +1386,7 @@ SetMediaChannel_w
 cricket
 :
 :
-MediaChannel
+MediaReceiveChannelInterface
 *
 media_channel
 )
@@ -1626,7 +1626,7 @@ ssrc
 cricket
 :
 :
-MediaChannel
+MediaReceiveChannelInterface
 *
 media_channel
 )

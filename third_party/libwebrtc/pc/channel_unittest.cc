@@ -2390,7 +2390,7 @@ data
 {
 SendRtp
 (
-media_channel1
+media_send_channel1
 (
 )
 std
@@ -2510,7 +2510,7 @@ CheckRtp1
 )
 {
 return
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -2584,7 +2584,7 @@ pl_type
 )
 ;
 return
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -2753,7 +2753,7 @@ CheckNoRtp1
 )
 {
 return
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -3175,7 +3175,7 @@ channel1_
 ;
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -3192,7 +3192,7 @@ verify_playout_
 {
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -3205,7 +3205,7 @@ playout
 }
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -3221,7 +3221,7 @@ empty
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -3237,7 +3237,7 @@ empty
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -3305,7 +3305,7 @@ err
 EXPECT_EQ
 (
 0U
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -3339,7 +3339,7 @@ err
 ASSERT_EQ
 (
 1U
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -3365,7 +3365,7 @@ codecs
 [
 0
 ]
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -3518,7 +3518,7 @@ err
 EXPECT_EQ
 (
 answer
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -3667,7 +3667,7 @@ err
 EXPECT_EQ
 (
 answer
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -3731,7 +3731,7 @@ content
 EXPECT_EQ
 (
 0U
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -3765,7 +3765,7 @@ err
 ASSERT_EQ
 (
 1U
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -3791,7 +3791,7 @@ codecs
 [
 0
 ]
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -4052,7 +4052,7 @@ true
 EXPECT_EQ
 (
 1u
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -4140,7 +4140,7 @@ err
 EXPECT_EQ
 (
 0u
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -4308,7 +4308,7 @@ err
 ASSERT_EQ
 (
 1u
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -4325,7 +4325,7 @@ size
 EXPECT_EQ
 (
 stream2
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -4374,7 +4374,7 @@ err
 EXPECT_EQ
 (
 0u
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -4460,7 +4460,7 @@ verify_playout_
 {
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -4473,7 +4473,7 @@ playout
 }
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -4532,7 +4532,7 @@ verify_playout_
 {
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -4545,7 +4545,7 @@ playout
 }
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -4585,7 +4585,7 @@ verify_playout_
 {
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -4598,7 +4598,7 @@ playout
 }
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -4713,7 +4713,7 @@ verify_playout_
 {
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -4726,7 +4726,7 @@ playout
 }
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -4832,7 +4832,7 @@ verify_playout_
 {
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -4845,7 +4845,7 @@ playout
 }
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -4936,7 +4936,7 @@ verify_playout_
 {
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -4949,7 +4949,7 @@ playout
 }
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -5074,7 +5074,7 @@ verify_playout_
 {
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -5087,7 +5087,7 @@ playout
 }
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -5178,7 +5178,7 @@ verify_playout_
 {
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -5191,7 +5191,7 @@ playout
 }
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -5282,7 +5282,7 @@ verify_playout_
 {
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -5295,7 +5295,7 @@ playout
 }
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -5392,7 +5392,7 @@ T
 :
 MediaChannel
 *
-media_channel1
+media_send_channel1
 =
 static_cast
 <
@@ -5407,21 +5407,21 @@ MediaChannel
 channel1_
 -
 >
-media_channel
+media_send_channel
 (
 )
 )
 ;
 ASSERT_TRUE
 (
-media_channel1
+media_send_channel1
 )
 ;
 WaitForThreads
 (
 )
 ;
-media_channel1
+media_send_channel1
 -
 >
 set_num_network_route_changes
@@ -5477,7 +5477,7 @@ WaitForThreads
 EXPECT_EQ
 (
 1
-media_channel1
+media_send_channel1
 -
 >
 num_network_route_changes
@@ -5487,7 +5487,7 @@ num_network_route_changes
 ;
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 -
 >
 last_network_route
@@ -5497,7 +5497,7 @@ last_network_route
 connected
 )
 ;
-media_channel1
+media_send_channel1
 -
 >
 set_num_network_route_changes
@@ -5601,7 +5601,7 @@ WaitForThreads
 EXPECT_EQ
 (
 1
-media_channel1
+media_send_channel1
 -
 >
 num_network_route_changes
@@ -5611,7 +5611,7 @@ num_network_route_changes
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 -
 >
 last_network_route
@@ -5624,7 +5624,7 @@ connected
 EXPECT_EQ
 (
 kLocalNetId
-media_channel1
+media_send_channel1
 -
 >
 last_network_route
@@ -5641,7 +5641,7 @@ network_id
 EXPECT_EQ
 (
 kRemoteNetId
-media_channel1
+media_send_channel1
 -
 >
 last_network_route
@@ -5658,7 +5658,7 @@ network_id
 EXPECT_EQ
 (
 kLastPacketId
-media_channel1
+media_send_channel1
 -
 >
 last_network_route
@@ -5673,7 +5673,7 @@ EXPECT_EQ
 kTransportOverheadPerPacket
 +
 kSrtpOverheadPerPacket
-media_channel1
+media_send_channel1
 -
 >
 transport_overhead_per_packet
@@ -5715,7 +5715,7 @@ verify_playout_
 {
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -5728,7 +5728,7 @@ playout
 }
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -5755,7 +5755,7 @@ channel1_
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -5768,7 +5768,7 @@ sending
 EXPECT_EQ
 (
 1U
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -6509,7 +6509,7 @@ true
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -6585,7 +6585,7 @@ asymmetric
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -6658,7 +6658,7 @@ asymmetric
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -6934,7 +6934,7 @@ CreateMediaContentWithStream
 )
 )
 ;
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -6984,7 +6984,7 @@ err
 )
 )
 ;
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7014,7 +7014,7 @@ err
 )
 )
 ;
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7103,7 +7103,7 @@ err
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7155,7 +7155,7 @@ err
 ;
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7168,7 +7168,7 @@ HasSendStream
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7238,7 +7238,7 @@ err
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7290,7 +7290,7 @@ err
 ;
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7303,7 +7303,7 @@ HasRecvStream
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7373,7 +7373,7 @@ err
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7425,7 +7425,7 @@ err
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7438,7 +7438,7 @@ HasRecvStream
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7490,7 +7490,7 @@ err
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7503,7 +7503,7 @@ HasRecvStream
 ;
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7516,7 +7516,7 @@ HasSendStream
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7586,7 +7586,7 @@ err
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7638,7 +7638,7 @@ err
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7651,7 +7651,7 @@ HasSendStream
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7703,7 +7703,7 @@ err
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7716,7 +7716,7 @@ HasSendStream
 ;
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7729,7 +7729,7 @@ HasRecvStream
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7754,7 +7754,7 @@ CreateChannels
 ;
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7790,7 +7790,7 @@ WaitForThreads
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -7826,7 +7826,7 @@ WaitForThreads
 ;
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -8012,7 +8012,7 @@ err
 ;
 EXPECT_EQ
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -8026,7 +8026,7 @@ max_bps
 ;
 VerifyMaxBitrate
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -8870,7 +8870,7 @@ T
 :
 MediaChannel
 *
-media_channel1
+media_send_channel1
 (
 )
 {
@@ -8884,7 +8884,7 @@ RTC_DCHECK
 channel1_
 -
 >
-media_channel
+media_send_channel
 (
 )
 )
@@ -8903,7 +8903,7 @@ MediaChannel
 channel1_
 -
 >
-media_channel
+media_send_channel
 (
 )
 )
@@ -8929,7 +8929,7 @@ RTC_DCHECK
 channel2_
 -
 >
-media_channel
+media_send_channel
 (
 )
 )
@@ -8948,7 +8948,7 @@ MediaChannel
 channel2_
 -
 >
-media_channel
+media_send_channel
 (
 )
 )
@@ -10126,7 +10126,7 @@ TestInit
 ;
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -10139,7 +10139,7 @@ IsStreamMuted
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -10657,7 +10657,7 @@ TestInit
 ;
 EXPECT_FALSE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -10670,7 +10670,7 @@ IsStreamMuted
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -11776,7 +11776,7 @@ err
 ;
 EXPECT_THAT
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -11794,7 +11794,7 @@ IsEmpty
 ;
 ASSERT_THAT
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -11813,7 +11813,7 @@ SizeIs
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -11835,7 +11835,7 @@ field_trials_
 ;
 EXPECT_EQ
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -11856,7 +11856,7 @@ nullopt
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -11878,7 +11878,7 @@ field_trials_
 ;
 EXPECT_EQ
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -11994,7 +11994,7 @@ empty
 ;
 EXPECT_THAT
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12012,7 +12012,7 @@ IsEmpty
 ;
 ASSERT_THAT
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12031,7 +12031,7 @@ SizeIs
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12053,7 +12053,7 @@ field_trials_
 ;
 EXPECT_EQ
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12074,7 +12074,7 @@ nullopt
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12096,7 +12096,7 @@ field_trials_
 ;
 EXPECT_EQ
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12238,7 +12238,7 @@ empty
 ;
 ASSERT_THAT
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12257,7 +12257,7 @@ SizeIs
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12279,7 +12279,7 @@ field_trials_
 ;
 EXPECT_EQ
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12300,7 +12300,7 @@ nullopt
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12322,7 +12322,7 @@ field_trials_
 ;
 EXPECT_EQ
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12343,7 +12343,7 @@ kPacketizationParamRaw
 ;
 EXPECT_THAT
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12362,7 +12362,7 @@ SizeIs
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12384,7 +12384,7 @@ field_trials_
 ;
 EXPECT_EQ
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12405,7 +12405,7 @@ nullopt
 ;
 EXPECT_TRUE
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12427,7 +12427,7 @@ field_trials_
 ;
 EXPECT_EQ
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12565,7 +12565,7 @@ err
 ;
 ASSERT_THAT
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12584,7 +12584,7 @@ SizeIs
 ;
 EXPECT_EQ
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12605,7 +12605,7 @@ nullopt
 ;
 ASSERT_THAT
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12624,7 +12624,7 @@ SizeIs
 ;
 EXPECT_EQ
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12762,7 +12762,7 @@ err
 ;
 ASSERT_THAT
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12781,7 +12781,7 @@ SizeIs
 ;
 EXPECT_EQ
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12802,7 +12802,7 @@ nullopt
 ;
 ASSERT_THAT
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12821,7 +12821,7 @@ SizeIs
 ;
 EXPECT_EQ
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -12984,7 +12984,7 @@ empty
 ;
 ASSERT_THAT
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -13003,7 +13003,7 @@ SizeIs
 ;
 EXPECT_EQ
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -13024,7 +13024,7 @@ kPacketizationParamRaw
 ;
 EXPECT_THAT
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -13177,7 +13177,7 @@ empty
 ;
 EXPECT_THAT
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -13195,7 +13195,7 @@ IsEmpty
 ;
 ASSERT_THAT
 (
-media_channel1
+media_send_channel1
 (
 )
 -
@@ -13214,7 +13214,7 @@ SizeIs
 ;
 EXPECT_EQ
 (
-media_channel1
+media_send_channel1
 (
 )
 -

@@ -9827,7 +9827,7 @@ VideoMediaChannel
 video_channel
 -
 >
-media_channel
+media_send_channel
 (
 )
 )

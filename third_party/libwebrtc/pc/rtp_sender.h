@@ -250,7 +250,7 @@ SetMediaChannel
 cricket
 :
 :
-MediaChannel
+MediaSendChannelInterface
 *
 media_channel
 )
@@ -495,7 +495,7 @@ SetMediaChannel
 cricket
 :
 :
-MediaChannel
+MediaSendChannelInterface
 *
 media_channel
 )
@@ -1109,7 +1109,7 @@ video_codec_preferences_
 cricket
 :
 :
-MediaChannel
+MediaSendChannelInterface
 *
 media_channel_
 =
