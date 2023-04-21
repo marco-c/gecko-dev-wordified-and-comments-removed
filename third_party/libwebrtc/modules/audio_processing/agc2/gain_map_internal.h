@@ -8,7 +8,7 @@ namespace
 webrtc
 {
 static
-const
+constexpr
 int
 kGainMapSize
 =
