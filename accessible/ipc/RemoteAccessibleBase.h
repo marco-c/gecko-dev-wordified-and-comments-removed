@@ -1794,7 +1794,7 @@ aCumulativeBounds
 )
 const
 ;
-void
+bool
 ApplyScrollOffset
 (
 nsRect
@@ -1820,6 +1820,10 @@ Maybe
 nsRect
 >
 aOffset
+bool
+aBoundsAreForHittesting
+=
+false
 )
 const
 ;
