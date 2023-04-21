@@ -479,17 +479,6 @@ nsRect
 aRect
 )
 ;
-static
-nsIFrame
-*
-SlowOrdinalGroupAwareSibling
-(
-nsIFrame
-*
-bool
-aNext
-)
-;
 private
 :
 explicit
