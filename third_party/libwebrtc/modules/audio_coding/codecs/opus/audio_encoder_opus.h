@@ -748,10 +748,6 @@ payload_type_
 ;
 const
 bool
-send_side_bwe_with_overhead_
-;
-const
-bool
 use_stable_target_for_adaptation_
 ;
 const

@@ -856,10 +856,6 @@ bool
 enable_audio_alr_probing_
 ;
 const
-bool
-send_side_bwe_with_overhead_
-;
-const
 AudioAllocationConfig
 allocation_settings_
 ;
