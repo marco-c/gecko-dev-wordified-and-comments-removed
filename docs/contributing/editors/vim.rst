@@ -454,6 +454,11 @@ code
 mach
 ide
 vscode
+-
+-
+no
+-
+interactive
 will
 then
 generate
