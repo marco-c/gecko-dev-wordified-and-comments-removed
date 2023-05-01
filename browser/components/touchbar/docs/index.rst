@@ -545,7 +545,9 @@ touchbar
 /
 MacTouchBar
 .
-jsm
+sys
+.
+mjs
 defines
 what
 specific
@@ -857,7 +859,9 @@ enum
 in
 MacTouchBar
 .
-jsm
+sys
+.
+mjs
 .
 For
 example
@@ -898,7 +902,9 @@ method
 in
 MacTouchBar
 .
-jsm
+sys
+.
+mjs
 that
 takes
 a

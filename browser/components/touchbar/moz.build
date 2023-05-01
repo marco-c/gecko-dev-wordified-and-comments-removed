@@ -95,7 +95,9 @@ EXTRA_JS_MODULES
 "
 MacTouchBar
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS
