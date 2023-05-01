@@ -23088,6 +23088,7 @@ initDenseElementRange
 (
 thisLen
 argArr
+argLen
 )
 ;
 args
@@ -23445,7 +23446,7 @@ ArrayObject
 )
 ;
 uint32_t
-initLen
+count
 =
 std
 :
@@ -23474,7 +23475,7 @@ ensureDenseElements
 (
 cx
 n
-initLen
+count
 )
 ;
 if
@@ -23510,6 +23511,7 @@ initDenseElementRange
 (
 n
 nobj
+count
 )
 ;
 n

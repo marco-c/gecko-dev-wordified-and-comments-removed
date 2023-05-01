@@ -6463,6 +6463,8 @@ destStart
 NativeObject
 *
 src
+uint32_t
+count
 )
 ;
 template
