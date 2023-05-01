@@ -2735,6 +2735,15 @@ set
 {
 }
 }
+blockedSponsors
+:
+{
+set
+(
+)
+{
+}
+}
 }
 newtabSearch
 :
