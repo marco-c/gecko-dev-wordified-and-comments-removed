@@ -4312,11 +4312,12 @@ login
 }
 else
 {
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 login
 )

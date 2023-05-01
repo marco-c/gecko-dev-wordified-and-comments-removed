@@ -2102,11 +2102,12 @@ formActionOrigin
 )
 )
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 login
 )
