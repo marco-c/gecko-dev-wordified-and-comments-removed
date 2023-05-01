@@ -272,6 +272,9 @@ SetKnowsCompositor
 KnowsCompositor
 *
 aKnowsCompositor
+bool
+&
+aOutLostFrontTexture
 )
 {
 return
@@ -771,6 +774,9 @@ SetKnowsCompositor
 KnowsCompositor
 *
 aKnowsCompositor
+bool
+&
+aOutLostFrontTexture
 )
 override
 ;
