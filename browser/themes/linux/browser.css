@@ -216,8 +216,8 @@ color
 ThreeDShadow
 ;
 }
-#
-TabsToolbar
+:
+root
 :
 not
 (
@@ -227,8 +227,7 @@ moz
 -
 lwtheme
 )
-#
-TabsToolbar
+toolbar
 [
 brighttext
 ]
