@@ -270,6 +270,11 @@ tests
 tar
 .
 gz
+prefix
+:
+public
+/
+cidata
 -
 artifact
 :
@@ -443,6 +448,11 @@ tests
 tar
 .
 gz
+prefix
+:
+public
+/
+cidata
 -
 artifact
 :
@@ -643,6 +653,11 @@ tests
 tar
 .
 gz
+prefix
+:
+public
+/
+cidata
 -
 artifact
 :
