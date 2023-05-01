@@ -535,6 +535,15 @@ mozilla
 /
 reject
 -
+osfile
+eslint
+-
+plugin
+-
+mozilla
+/
+reject
+-
 relative
 -
 requires
