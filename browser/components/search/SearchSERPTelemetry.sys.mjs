@@ -5501,6 +5501,13 @@ channel
 isDocument
 &
 &
+channel
+.
+loadInfo
+.
+isTopLevelLoad
+&
+&
 !
 wrappedChannel
 .
