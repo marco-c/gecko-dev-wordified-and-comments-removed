@@ -204,6 +204,7 @@ returnValue
 ;
 [
 CEReactions
+Throws
 ]
 undefined
 show
