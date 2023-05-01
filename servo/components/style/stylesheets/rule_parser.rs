@@ -4768,6 +4768,9 @@ StyleRule
 {
 selectors
 block
+rules
+:
+None
 source_location
 :
 start
