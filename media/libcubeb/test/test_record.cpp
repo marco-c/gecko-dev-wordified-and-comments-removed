@@ -407,7 +407,7 @@ cubeb_destroy
 if
 (
 !
-has_available_input_device
+can_run_audio_input_test
 (
 ctx
 )
