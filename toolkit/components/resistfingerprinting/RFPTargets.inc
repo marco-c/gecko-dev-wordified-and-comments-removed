@@ -30,6 +30,11 @@ CSSPrefersColorScheme
 )
 ITEM_VALUE
 (
+CSSPrefersReducedMotion
+0x0008
+)
+ITEM_VALUE
+(
 IgnoreTargetAndReturnCachedValue
 0xFFFD
 )
