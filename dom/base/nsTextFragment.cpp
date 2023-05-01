@@ -910,7 +910,7 @@ MOZILLA_MAY_SUPPORT_SSE2
 #
 include
 "
-nsTextFragmentGenericFwd
+nsTextFragmentGeneric
 .
 h
 "
