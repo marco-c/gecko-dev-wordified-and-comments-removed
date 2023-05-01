@@ -37,6 +37,13 @@ h
 #
 include
 "
+nsIScriptError
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Components
@@ -80,6 +87,13 @@ h
 include
 "
 nsIClassInfoImpl
+.
+h
+"
+#
+include
+"
+Common
 .
 h
 "

@@ -1315,6 +1315,8 @@ Length
 return_type
 =
 "
+static
+inline
 Maybe
 <
 uint32_t
@@ -1450,6 +1452,8 @@ Length
 return_type
 =
 "
+static
+inline
 Maybe
 <
 uint32_t
