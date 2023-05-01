@@ -1351,6 +1351,7 @@ SdpMediaSection
 *
 msection
 )
+const
 {
 MOZ_ASSERT
 (
