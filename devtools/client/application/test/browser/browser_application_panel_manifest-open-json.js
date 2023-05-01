@@ -32,7 +32,7 @@ file
 const
 url
 =
-URL_ROOT_SSL
+URL_ROOT
 +
 "
 resources
@@ -53,7 +53,7 @@ html
 const
 manifestUrl
 =
-URL_ROOT_SSL
+URL_ROOT
 +
 "
 resources
@@ -305,7 +305,7 @@ url
 const
 url
 =
-URL_ROOT_SSL
+URL_ROOT
 +
 "
 resources

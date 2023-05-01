@@ -1,7 +1,7 @@
 const
 TEST_URI
 =
-URL_ROOT_SSL
+URL_ROOT
 +
 "
 browser_toolbox_options_disable_js

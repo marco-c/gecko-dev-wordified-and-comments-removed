@@ -6,7 +6,7 @@ strict
 const
 TEST_URI
 =
-URL_ROOT_SSL
+URL_ROOT
 +
 "
 doc_inactive_css_xul
@@ -106,7 +106,7 @@ allow
 true
 context
 :
-URL_ROOT_SSL
+URL_ROOT
 }
 ]
 )

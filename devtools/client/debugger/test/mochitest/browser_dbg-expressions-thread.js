@@ -7,7 +7,7 @@ const
 TEST_COM_URI
 =
 {
-URL_ROOT_COM_SSL
+URL_ROOT_COM
 }
 examples
 /

@@ -7,7 +7,7 @@ const
 TEST_URL
 =
 "
-https
+http
 :
 /
 /

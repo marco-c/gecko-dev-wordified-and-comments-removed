@@ -6,7 +6,7 @@ strict
 const
 TEST_URL
 =
-URL_ROOT_SSL
+URL_ROOT
 +
 "
 doc_markup_xul
@@ -38,7 +38,7 @@ allow
 true
 context
 :
-URL_ROOT_SSL
+URL_ROOT
 }
 ]
 )
