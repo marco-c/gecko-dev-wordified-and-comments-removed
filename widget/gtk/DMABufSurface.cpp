@@ -6425,7 +6425,7 @@ aPlane
 if
 (
 !
-GetAndConfigureDMABufDevice
+GetDMABufDevice
 (
 )
 -

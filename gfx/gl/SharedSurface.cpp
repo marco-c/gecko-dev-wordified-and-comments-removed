@@ -466,11 +466,9 @@ EGL
 widget
 :
 :
-GetDMABufDevice
-(
-)
--
->
+nsDMABufDevice
+:
+:
 IsDMABufWebGLEnabled
 (
 )
