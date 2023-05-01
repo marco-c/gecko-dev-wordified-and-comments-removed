@@ -29,6 +29,13 @@ nsIGleanMetrics
 .
 h
 "
+#
+include
+"
+nsTString
+.
+h
+"
 namespace
 mozilla
 :
