@@ -188,9 +188,7 @@ remote
 /
 content
 /
-webdriver
--
-bidi
+shared
 /
 Realm
 .

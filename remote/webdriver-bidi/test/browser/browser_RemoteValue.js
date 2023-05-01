@@ -52,9 +52,7 @@ remote
 /
 content
 /
-webdriver
--
-bidi
+shared
 /
 Realm
 .
@@ -7593,9 +7591,7 @@ remote
 /
 content
 /
-webdriver
--
-bidi
+shared
 /
 Realm
 .
