@@ -153,7 +153,7 @@ WorkerModuleLoader
 =
 default
 ;
-void
+bool
 CreateDynamicImportLoader
 (
 )
