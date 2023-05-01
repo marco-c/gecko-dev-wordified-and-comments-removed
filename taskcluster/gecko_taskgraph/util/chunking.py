@@ -527,6 +527,25 @@ try
 "
 "
 ]
+        
+"
+http3
+"
+:
+"
+http3
+"
+in
+setting
+[
+"
+runtime
+"
+]
+.
+keys
+(
+)
     
 }
     
