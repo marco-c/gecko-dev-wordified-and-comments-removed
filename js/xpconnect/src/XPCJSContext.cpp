@@ -4177,7 +4177,7 @@ XRE_IsContentProcess
 StaticPrefs
 :
 :
-javascript_options_jitHints_DoNotUseDirectly
+javascript_options_jithints_DoNotUseDirectly
 (
 )
 :
