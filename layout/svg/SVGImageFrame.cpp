@@ -1846,7 +1846,7 @@ Some
 CSSIntSize
 :
 :
-Truncate
+Ceil
 (
 width
 height
@@ -3023,7 +3023,7 @@ Some
 CSSIntSize
 :
 :
-Truncate
+Ceil
 (
 width
 height
