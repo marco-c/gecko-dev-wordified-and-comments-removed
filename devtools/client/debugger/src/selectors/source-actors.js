@@ -160,7 +160,7 @@ function
 getBreakableLinesForSourceActors
 (
 state
-sourceActorIDs
+sourceActors
 isHTML
 )
 {
@@ -173,9 +173,9 @@ allBreakableLines
 for
 (
 const
-sourceActorId
+sourceActor
 of
-sourceActorIDs
+sourceActors
 )
 {
 const
@@ -189,7 +189,9 @@ mutableBreakableLines
 .
 get
 (
-sourceActorId
+sourceActor
+.
+id
 )
 ;
 if
