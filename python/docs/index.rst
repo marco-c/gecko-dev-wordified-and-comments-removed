@@ -199,7 +199,6 @@ of
 <
 site
 >
-_virtualenv_requirements
 .
 txt
 files
