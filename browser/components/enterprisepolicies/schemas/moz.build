@@ -27,6 +27,8 @@ policies
 "
 schema
 .
-jsm
+sys
+.
+mjs
 "
 ]

@@ -1209,7 +1209,7 @@ schema
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1223,7 +1223,9 @@ policies
 /
 schema
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
