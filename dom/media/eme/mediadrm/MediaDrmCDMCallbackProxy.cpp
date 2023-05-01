@@ -8,7 +8,9 @@ h
 #
 include
 "
-MediaDrmCDMProxy
+mozilla
+/
+CDMProxy
 .
 h
 "
@@ -79,7 +81,7 @@ MediaDrmCDMCallbackProxy
 :
 MediaDrmCDMCallbackProxy
 (
-MediaDrmCDMProxy
+CDMProxy
 *
 aProxy
 )
@@ -90,16 +92,6 @@ aProxy
 )
 {
 }
-MediaDrmCDMCallbackProxy
-:
-:
-~
-MediaDrmCDMCallbackProxy
-(
-)
-=
-default
-;
 void
 MediaDrmCDMCallbackProxy
 :
