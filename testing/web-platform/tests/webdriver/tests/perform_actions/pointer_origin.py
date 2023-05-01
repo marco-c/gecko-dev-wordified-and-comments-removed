@@ -15,111 +15,6 @@ mouse
 import
 get_inview_center
 get_viewport_rect
-pytest
-.
-fixture
-def
-origin_doc
-(
-inline
-)
-:
-    
-def
-origin_doc
-(
-inner_style
-outer_style
-=
-"
-"
-)
-:
-        
-return
-inline
-(
-"
-"
-"
-          
-<
-div
-id
-=
-"
-outer
-"
-style
-=
-"
-{
-1
-}
-"
-               
-onmousemove
-=
-"
-window
-.
-coords
-=
-{
-{
-x
-:
-event
-.
-clientX
-y
-:
-event
-.
-clientY
-}
-}
-"
->
-            
-<
-div
-id
-=
-"
-inner
-"
-style
-=
-"
-{
-0
-}
-"
->
-<
-/
-div
->
-          
-<
-/
-div
->
-        
-"
-"
-"
-.
-format
-(
-inner_style
-outer_style
-)
-)
-    
-return
-origin_doc
 def
 get_click_coordinates
 (
@@ -145,7 +40,7 @@ test_viewport_inside
 (
 session
 mouse_chain
-origin_doc
+get_actions_origin_page
 )
 :
     
@@ -168,8 +63,9 @@ session
 .
 url
 =
-origin_doc
+get_actions_origin_page
 (
+        
 "
 width
 :
@@ -184,11 +80,10 @@ background
 green
 ;
 "
+    
 )
     
 mouse_chain
-\
-        
 .
 pointer_move
 (
@@ -210,8 +105,6 @@ origin
 viewport
 "
 )
-\
-        
 .
 perform
 (
@@ -301,8 +194,6 @@ MoveTargetOutOfBoundsException
 :
         
 mouse_chain
-\
-            
 .
 pointer_move
 (
@@ -316,8 +207,6 @@ origin
 viewport
 "
 )
-\
-            
 .
 perform
 (
@@ -327,7 +216,7 @@ test_pointer_inside
 (
 session
 mouse_chain
-origin_doc
+get_actions_origin_page
 )
 :
     
@@ -365,8 +254,9 @@ session
 .
 url
 =
-origin_doc
+get_actions_origin_page
 (
+        
 "
 width
 :
@@ -381,11 +271,10 @@ background
 green
 ;
 "
+    
 )
     
 mouse_chain
-\
-        
 .
 pointer_move
 (
@@ -402,11 +291,10 @@ y
 "
 ]
 )
-\
-        
 .
 pointer_move
 (
+        
 offset
 [
 "
@@ -424,9 +312,8 @@ origin
 "
 pointer
 "
+    
 )
-\
-        
 .
 perform
 (
@@ -530,8 +417,6 @@ MoveTargetOutOfBoundsException
 :
         
 mouse_chain
-\
-            
 .
 pointer_move
 (
@@ -545,8 +430,6 @@ origin
 pointer
 "
 )
-\
-            
 .
 perform
 (
@@ -556,7 +439,7 @@ test_element_center_point
 (
 session
 mouse_chain
-origin_doc
+get_actions_origin_page
 )
 :
     
@@ -564,8 +447,9 @@ session
 .
 url
 =
-origin_doc
+get_actions_origin_page
 (
+        
 "
 width
 :
@@ -580,6 +464,7 @@ background
 green
 ;
 "
+    
 )
     
 elem
@@ -613,8 +498,6 @@ session
 )
     
 mouse_chain
-\
-        
 .
 pointer_move
 (
@@ -624,8 +507,6 @@ origin
 =
 elem
 )
-\
-        
 .
 perform
 (
@@ -692,9 +573,10 @@ abs
 def
 test_element_center_point_with_offset
 (
+    
 session
 mouse_chain
-origin_doc
+get_actions_origin_page
 )
 :
     
@@ -702,8 +584,9 @@ session
 .
 url
 =
-origin_doc
+get_actions_origin_page
 (
+        
 "
 width
 :
@@ -718,6 +601,7 @@ background
 green
 ;
 "
+    
 )
     
 elem
@@ -751,8 +635,6 @@ session
 )
     
 mouse_chain
-\
-        
 .
 pointer_move
 (
@@ -762,8 +644,6 @@ origin
 =
 elem
 )
-\
-        
 .
 perform
 (
@@ -834,9 +714,10 @@ abs
 def
 test_element_in_view_center_point_partly_visible
 (
+    
 session
 mouse_chain
-origin_doc
+get_actions_origin_page
 )
 :
     
@@ -844,8 +725,9 @@ session
 .
 url
 =
-origin_doc
+get_actions_origin_page
 (
+        
 "
 "
 "
@@ -879,6 +761,7 @@ top
 "
 "
 "
+    
 )
     
 elem
@@ -912,8 +795,6 @@ session
 )
     
 mouse_chain
-\
-        
 .
 pointer_move
 (
@@ -923,8 +804,6 @@ origin
 =
 elem
 )
-\
-        
 .
 perform
 (
@@ -993,7 +872,7 @@ test_element_larger_than_viewport
 (
 session
 mouse_chain
-origin_doc
+get_actions_origin_page
 )
 :
     
@@ -1001,8 +880,9 @@ session
 .
 url
 =
-origin_doc
+get_actions_origin_page
 (
+        
 "
 width
 :
@@ -1017,6 +897,7 @@ background
 green
 ;
 "
+    
 )
     
 elem
@@ -1050,8 +931,6 @@ session
 )
     
 mouse_chain
-\
-        
 .
 pointer_move
 (
@@ -1061,8 +940,6 @@ origin
 =
 elem
 )
-\
-        
 .
 perform
 (
@@ -1131,7 +1008,7 @@ test_element_outside_of_view_port
 (
 session
 mouse_chain
-origin_doc
+get_actions_origin_page
 )
 :
     
@@ -1139,8 +1016,9 @@ session
 .
 url
 =
-origin_doc
+get_actions_origin_page
 (
+        
 "
 "
 "
@@ -1174,6 +1052,7 @@ top
 "
 "
 "
+    
 )
     
 elem
@@ -1203,8 +1082,6 @@ MoveTargetOutOfBoundsException
 :
         
 mouse_chain
-\
-            
 .
 pointer_move
 (
@@ -1214,8 +1091,6 @@ origin
 =
 elem
 )
-\
-            
 .
 perform
 (
