@@ -703,6 +703,7 @@ aDatabaseManager
 GetOrCreateFile
 (
 aFileSlot
+sContentType
 false
 )
 ;
@@ -737,6 +738,7 @@ aDatabaseManager
 GetOrCreateFile
 (
 aFileSlot
+sContentType
 true
 )
 )
@@ -763,7 +765,7 @@ nsCString
 aData
 )
 {
-nsString
+ContentType
 type
 ;
 TimeStamp
@@ -1219,7 +1221,17 @@ expected
 )
 ;
 }
+static
+ContentType
+sContentType
+;
 }
+;
+ContentType
+TestFileSystemQuotaClient
+:
+:
+sContentType
 ;
 TEST_F
 (
