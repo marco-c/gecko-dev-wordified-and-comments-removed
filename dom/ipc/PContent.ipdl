@@ -7019,6 +7019,9 @@ aIsPrivateData
 nullable
 nsIPrincipal
 aRequestingPrincipal
+CookieJarSettingsArgs
+?
+cookieJarSettings
 nsContentPolicyType
 aContentPolicyType
 nullable

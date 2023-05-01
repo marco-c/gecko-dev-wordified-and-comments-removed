@@ -3944,6 +3944,14 @@ aIsPrivateData
 nsIPrincipal
 *
 aRequestingPrincipal
+mozilla
+:
+:
+Maybe
+<
+CookieJarSettingsArgs
+>
+aCookieJarSettingsArgs
 const
 nsContentPolicyType
 &
