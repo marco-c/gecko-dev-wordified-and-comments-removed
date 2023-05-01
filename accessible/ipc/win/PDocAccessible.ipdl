@@ -637,6 +637,15 @@ aOffset
 )
 ;
 async
+SetCurValue
+(
+uint64_t
+aID
+double
+aValue
+)
+;
+async
 __delete__
 (
 )

@@ -1569,6 +1569,7 @@ SetCurValue
 double
 aValue
 )
+override
 ;
 virtual
 bool

@@ -291,11 +291,11 @@ VT_R8
 return
 E_INVALIDARG
 ;
-AccessibleWrap
+Accessible
 *
 valueAcc
 =
-LocalAcc
+Acc
 (
 )
 ;
