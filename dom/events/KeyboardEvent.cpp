@@ -1805,6 +1805,10 @@ ShouldResistFingerprinting
 Efficiency
 Check
 "
+RFPTarget
+:
+:
+KeyboardEvents
 )
 |
 |
@@ -1867,6 +1871,10 @@ doc
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+KeyboardEvents
 )
 :
 true

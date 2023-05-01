@@ -10,6 +10,11 @@ PointerEvents
 )
 ITEM_VALUE
 (
+KeyboardEvents
+0x0003
+)
+ITEM_VALUE
+(
 ScreenOrientation
 0x0005
 )
