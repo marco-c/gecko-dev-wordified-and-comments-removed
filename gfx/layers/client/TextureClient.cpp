@@ -1023,11 +1023,9 @@ UsingSoftwareWebRender
 widget
 :
 :
-GetDMABufDevice
-(
-)
--
->
+nsDMABufDevice
+:
+:
 IsDMABufTexturesEnabled
 (
 )
