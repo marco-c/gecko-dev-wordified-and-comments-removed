@@ -232,6 +232,12 @@ RightWordRange
 const
 ;
 GeckoTextMarkerRange
+LineRange
+(
+)
+const
+;
+GeckoTextMarkerRange
 LeftLineRange
 (
 )

@@ -128,6 +128,12 @@ RightWordRange
 const
 ;
 CachedTextMarkerRange
+LineRange
+(
+)
+const
+;
+CachedTextMarkerRange
 LeftLineRange
 (
 )

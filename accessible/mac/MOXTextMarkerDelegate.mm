@@ -1411,7 +1411,7 @@ nil
 return
 geckoTextMarker
 .
-LeftLineRange
+LineRange
 (
 )
 .
