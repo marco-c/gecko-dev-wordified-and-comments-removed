@@ -597,11 +597,6 @@ VideoCaptureAvFoundation
 (
 )
 {
-MOZ_RELEASE_ASSERT
-(
-mOkToDestroy
-)
-;
 mWatchManager
 .
 Shutdown
