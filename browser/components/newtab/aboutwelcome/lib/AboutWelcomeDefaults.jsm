@@ -379,7 +379,7 @@ action
 type
 :
 "
-FXA_SIGNIN_TAB_FLOW
+FXA_SIGNIN_FLOW
 "
 navigate
 :
