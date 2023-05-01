@@ -1022,16 +1022,6 @@ html
 -
 xpcom
 /
-reflect
-/
-xptcall
-/
-status
-.
-html
--
-xpcom
-/
 tests
 /
 test
