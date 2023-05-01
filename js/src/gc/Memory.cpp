@@ -3996,7 +3996,7 @@ fd
 HANDLE
 hMap
 =
-CreateFileMapping
+CreateFileMappingW
 (
 hFile
 nullptr
