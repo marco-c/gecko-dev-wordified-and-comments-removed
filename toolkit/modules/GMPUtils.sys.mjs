@@ -717,6 +717,17 @@ media
 .
 lastInstallFailed
 "
+KEY_PLUGIN_LAST_INSTALL_FAIL_REASON
+:
+"
+media
+.
+{
+0
+}
+.
+lastInstallFailReason
+"
 KEY_PLUGIN_LAST_INSTALL_START
 :
 "
