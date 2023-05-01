@@ -587,7 +587,7 @@ if
 widget
 :
 :
-nsDMABufDevice
+DMABufDevice
 :
 :
 IsDMABufWebGLEnabled
@@ -650,7 +650,7 @@ n
 widget
 :
 :
-nsDMABufDevice
+DMABufDevice
 :
 :
 DisableDMABufWebGL

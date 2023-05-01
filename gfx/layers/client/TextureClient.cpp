@@ -1023,7 +1023,7 @@ UsingSoftwareWebRender
 widget
 :
 :
-nsDMABufDevice
+DMABufDevice
 :
 :
 IsDMABufTexturesEnabled
