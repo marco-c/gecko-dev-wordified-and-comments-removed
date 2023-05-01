@@ -3603,7 +3603,7 @@ offsetOfNurseryAllocCount
 )
 )
 ;
-branchPtr
+branch32
 (
 Assembler
 :
@@ -3618,13 +3618,13 @@ gc
 AllocSite
 :
 :
-offsetOfNextNurseryAllocated
+offsetOfNurseryAllocCount
 (
 )
 )
-ImmPtr
+Imm32
 (
-nullptr
+1
 )
 &
 done
