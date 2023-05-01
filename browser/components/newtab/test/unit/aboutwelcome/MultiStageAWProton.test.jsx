@@ -2018,6 +2018,9 @@ true
 "
 AW_EASY_SETUP
 "
+"
+AW_WELCOME_BACK
+"
 ]
 )
 ;
@@ -2087,6 +2090,9 @@ true
 [
 "
 AW_EASY_SETUP
+"
+"
+AW_WELCOME_BACK
 "
 ]
 )
@@ -2166,7 +2172,7 @@ screens
 .
 length
 -
-2
+3
 )
 ;
 }
@@ -2209,6 +2215,9 @@ true
 [
 "
 AW_EASY_SETUP
+"
+"
+AW_WELCOME_BACK
 "
 ]
 )
@@ -2264,7 +2273,7 @@ screens
 .
 length
 -
-3
+4
 )
 ;
 }
@@ -2303,6 +2312,9 @@ true
 [
 "
 AW_EASY_SETUP
+"
+"
+AW_WELCOME_BACK
 "
 ]
 )
@@ -2358,7 +2370,7 @@ screens
 .
 length
 -
-3
+4
 )
 ;
 }
@@ -2396,6 +2408,9 @@ prepConfig
 [
 "
 AW_EASY_SETUP
+"
+"
+AW_WELCOME_BACK
 "
 ]
 )
@@ -2451,7 +2466,7 @@ screens
 .
 length
 -
-3
+4
 )
 ;
 }
@@ -2478,6 +2493,13 @@ data
 await
 prepConfig
 (
+{
+}
+[
+"
+AW_WELCOME_BACK
+"
+]
 )
 ;
 assert
