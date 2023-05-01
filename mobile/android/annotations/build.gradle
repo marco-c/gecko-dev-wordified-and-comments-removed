@@ -86,9 +86,9 @@ lint
 :
 30
 .
-3
+4
 .
-0
+1
 '
 implementation
 '
@@ -106,9 +106,9 @@ checks
 :
 30
 .
-3
+4
 .
-0
+1
 '
 }
 sourceCompatibility
