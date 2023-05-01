@@ -103,5 +103,16 @@ https
 }
 }
 "
+"
+https
+:
+/
+/
+*
+.
+example
+.
+com
+"
 self
 )
