@@ -3227,6 +3227,17 @@ override
 ;
 #
 endif
+mozilla
+:
+:
+Maybe
+<
+UINT
+>
+GetHiddenTaskbarEdge
+(
+)
+;
 static
 bool
 sTouchInjectInitialized
