@@ -313,14 +313,12 @@ HTMLSelectElement
 select
 )
 NS_DECL_ISUPPORTS_INHERITED
-virtual
 int32_t
 TabIndexDefault
 (
 )
 override
 ;
-virtual
 bool
 IsInteractiveHTMLContent
 (
@@ -801,14 +799,12 @@ nsINode
 :
 Remove
 ;
-virtual
 JSObject
 *
 WrapNode
 (
 JSContext
 *
-aCx
 JS
 :
 :
@@ -840,7 +836,6 @@ aVisitor
 )
 override
 ;
-virtual
 bool
 IsHTMLFocusable
 (
@@ -855,7 +850,6 @@ aTabIndex
 )
 override
 ;
-virtual
 void
 InsertChildBefore
 (
@@ -873,7 +867,6 @@ aRv
 )
 override
 ;
-virtual
 void
 RemoveChildNode
 (
@@ -885,7 +878,6 @@ aNotify
 )
 override
 ;
-virtual
 bool
 IsDisabledForEvents
 (
@@ -925,7 +917,6 @@ aFormData
 )
 override
 ;
-virtual
 void
 FieldSetDisabledChanged
 (
@@ -998,7 +989,6 @@ OptionFlags
 aOptionsMask
 )
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -1010,7 +1000,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -1019,7 +1008,6 @@ aNullParent
 )
 override
 ;
-virtual
 void
 BeforeSetAttr
 (
@@ -1029,7 +1017,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool
@@ -1037,7 +1025,6 @@ aNotify
 )
 override
 ;
-virtual
 void
 AfterSetAttr
 (
@@ -1062,7 +1049,6 @@ aNotify
 )
 override
 ;
-virtual
 void
 DoneAddingChildren
 (
@@ -1071,7 +1057,6 @@ aHaveNotified
 )
 override
 ;
-virtual
 bool
 IsDoneAddingChildren
 (
@@ -1082,7 +1067,6 @@ return
 mIsDoneAddingChildren
 ;
 }
-virtual
 bool
 ParseAttribute
 (
@@ -1104,7 +1088,6 @@ aResult
 )
 override
 ;
-virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
 (
@@ -1112,7 +1095,6 @@ GetAttributeMappingFunction
 const
 override
 ;
-virtual
 nsChangeHint
 GetAttributeChangeHint
 (
@@ -1140,7 +1122,6 @@ aAttribute
 const
 override
 ;
-virtual
 nsresult
 Clone
 (

@@ -306,9 +306,6 @@ class
 JSObject
 ;
 class
-nsAttrValueOrString
-;
-class
 nsIControllers
 ;
 class
@@ -2280,7 +2277,6 @@ nsXULPrototypeElement
 aPrototype
 )
 ;
-virtual
 void
 BeforeSetAttr
 (
@@ -2290,7 +2286,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool
@@ -2298,7 +2294,6 @@ aNotify
 )
 override
 ;
-virtual
 void
 AfterSetAttr
 (
@@ -2323,7 +2318,6 @@ aNotify
 )
 override
 ;
-virtual
 void
 UpdateEditableState
 (
@@ -2332,7 +2326,6 @@ aNotify
 )
 override
 ;
-virtual
 bool
 ParseAttribute
 (
@@ -2354,7 +2347,6 @@ aResult
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -2559,14 +2551,12 @@ bool
 aIsRoot
 )
 ;
-virtual
 JSObject
 *
 WrapNode
 (
 JSContext
 *
-aCx
 JS
 :
 :

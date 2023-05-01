@@ -195,14 +195,12 @@ NS_IMPL_FROMNODE_HTML_WITH_TAG
 HTMLTextAreaElement
 textarea
 )
-virtual
 int32_t
 TabIndexDefault
 (
 )
 override
 ;
-virtual
 bool
 IsInteractiveHTMLContent
 (
@@ -214,7 +212,6 @@ return
 true
 ;
 }
-virtual
 bool
 IsDisabledForEvents
 (
@@ -255,7 +252,6 @@ aFormData
 )
 override
 ;
-virtual
 void
 FieldSetDisabledChanged
 (
@@ -264,7 +260,6 @@ aNotify
 )
 override
 ;
-virtual
 ElementState
 IntrinsicState
 (
@@ -278,7 +273,6 @@ SetLastValueChangeWasInteractive
 bool
 )
 ;
-virtual
 nsresult
 SetValueChanged
 (
@@ -287,7 +281,6 @@ aValueChanged
 )
 override
 ;
-virtual
 bool
 IsSingleLineTextControl
 (
@@ -295,7 +288,6 @@ IsSingleLineTextControl
 const
 override
 ;
-virtual
 bool
 IsTextArea
 (
@@ -303,7 +295,6 @@ IsTextArea
 const
 override
 ;
-virtual
 bool
 IsPasswordTextControl
 (
@@ -311,28 +302,24 @@ IsPasswordTextControl
 const
 override
 ;
-virtual
 int32_t
 GetCols
 (
 )
 override
 ;
-virtual
 int32_t
 GetWrapCols
 (
 )
 override
 ;
-virtual
 int32_t
 GetRows
 (
 )
 override
 ;
-virtual
 void
 GetDefaultValueFromContent
 (
@@ -342,7 +329,6 @@ aValue
 )
 override
 ;
-virtual
 bool
 ValueChanged
 (
@@ -350,7 +336,6 @@ ValueChanged
 const
 override
 ;
-virtual
 void
 GetTextEditorValue
 (
@@ -364,7 +349,6 @@ const
 override
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 TextEditor
 *
 GetTextEditor
@@ -372,7 +356,6 @@ GetTextEditor
 )
 override
 ;
-virtual
 TextEditor
 *
 GetTextEditorWithoutCreation
@@ -380,7 +363,6 @@ GetTextEditorWithoutCreation
 )
 override
 ;
-virtual
 nsISelectionController
 *
 GetSelectionController
@@ -388,7 +370,6 @@ GetSelectionController
 )
 override
 ;
-virtual
 nsFrameSelection
 *
 GetConstFrameSelection
@@ -396,7 +377,6 @@ GetConstFrameSelection
 )
 override
 ;
-virtual
 TextControlState
 *
 GetTextControlState
@@ -409,7 +389,6 @@ return
 mState
 ;
 }
-virtual
 nsresult
 BindToFrame
 (
@@ -420,7 +399,6 @@ aFrame
 override
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 void
 UnbindFromFrame
 (
@@ -431,14 +409,12 @@ aFrame
 override
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 nsresult
 CreateEditor
 (
 )
 override
 ;
-virtual
 void
 SetPreviewValue
 (
@@ -449,7 +425,6 @@ aValue
 )
 override
 ;
-virtual
 void
 GetPreviewValue
 (
@@ -459,28 +434,24 @@ aValue
 )
 override
 ;
-virtual
 void
 EnablePreview
 (
 )
 override
 ;
-virtual
 bool
 IsPreviewEnabled
 (
 )
 override
 ;
-virtual
 void
 InitializeKeyboardEventListeners
 (
 )
 override
 ;
-virtual
 void
 OnValueChanged
 (
@@ -488,7 +459,6 @@ ValueChangeKind
 )
 override
 ;
-virtual
 void
 GetValueFromSetRangeText
 (
@@ -499,7 +469,6 @@ aValue
 override
 ;
 MOZ_CAN_RUN_SCRIPT
-virtual
 nsresult
 SetValueFromSetRangeText
 (
@@ -510,14 +479,12 @@ aValue
 )
 override
 ;
-virtual
 bool
 HasCachedSelection
 (
 )
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -529,7 +496,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -540,7 +506,6 @@ true
 )
 override
 ;
-virtual
 bool
 ParseAttribute
 (
@@ -562,7 +527,6 @@ aResult
 )
 override
 ;
-virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
 (
@@ -570,7 +534,6 @@ GetAttributeMappingFunction
 const
 override
 ;
-virtual
 nsChangeHint
 GetAttributeChangeHint
 (
@@ -607,7 +570,6 @@ aVisitor
 )
 override
 ;
-virtual
 nsresult
 PreHandleEvent
 (
@@ -617,7 +579,6 @@ aVisitor
 )
 override
 ;
-virtual
 nsresult
 PostHandleEvent
 (
@@ -627,7 +588,6 @@ aVisitor
 )
 override
 ;
-virtual
 bool
 IsHTMLFocusable
 (
@@ -642,7 +602,6 @@ aTabIndex
 )
 override
 ;
-virtual
 void
 DoneAddingChildren
 (
@@ -651,7 +610,6 @@ aHaveNotified
 )
 override
 ;
-virtual
 bool
 IsDoneAddingChildren
 (
@@ -659,7 +617,6 @@ IsDoneAddingChildren
 override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
 nsresult
 Clone
 (
@@ -684,7 +641,6 @@ Element
 aDest
 )
 ;
-virtual
 void
 BeforeSetAttr
 (
@@ -694,7 +650,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool
@@ -1589,14 +1545,12 @@ nsGenericHTMLFormControlElementWithState
 :
 IsSingleLineTextControl
 ;
-virtual
 JSObject
 *
 WrapNode
 (
 JSContext
 *
-aCx
 JS
 :
 :
@@ -1701,7 +1655,6 @@ nsIContent
 aContent
 )
 ;
-virtual
 void
 AfterSetAttr
 (

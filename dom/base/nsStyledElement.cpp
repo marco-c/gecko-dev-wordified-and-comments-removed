@@ -274,7 +274,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool
@@ -287,10 +287,8 @@ aNamespaceID
 =
 =
 kNameSpaceID_None
-)
-{
-if
-(
+&
+&
 aName
 =
 =
@@ -298,10 +296,8 @@ nsGkAtoms
 :
 :
 style
-)
-{
-if
-(
+&
+&
 aValue
 )
 {
@@ -309,8 +305,6 @@ SetMayHaveStyle
 (
 )
 ;
-}
-}
 }
 return
 nsStyledElementBase

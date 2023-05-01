@@ -496,13 +496,6 @@ h
 #
 include
 "
-nsAttrValueOrString
-.
-h
-"
-#
-include
-"
 nsIPromptCollection
 .
 h
@@ -5809,7 +5802,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool

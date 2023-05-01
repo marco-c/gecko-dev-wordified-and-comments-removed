@@ -820,7 +820,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool
@@ -833,10 +833,8 @@ aNamespaceID
 =
 =
 kNameSpaceID_None
-)
-{
-if
-(
+&
+&
 aName
 =
 =
@@ -852,7 +850,6 @@ CancelDNSPrefetch
 this
 )
 ;
-}
 }
 return
 nsGenericHTMLElement

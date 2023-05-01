@@ -2912,7 +2912,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool
@@ -3742,12 +3742,12 @@ void
 BeforeSetAttr
 (
 int32_t
-aNameSpaceID
+aNamespaceID
 nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool

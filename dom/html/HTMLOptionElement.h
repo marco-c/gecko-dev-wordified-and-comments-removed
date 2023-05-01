@@ -149,7 +149,6 @@ mSelectedChanged
 aValue
 ;
 }
-virtual
 nsChangeHint
 GetAttributeChangeHint
 (
@@ -163,7 +162,6 @@ aModType
 const
 override
 ;
-virtual
 void
 BeforeSetAttr
 (
@@ -173,7 +171,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool
@@ -181,7 +179,6 @@ aNotify
 )
 override
 ;
-virtual
 void
 AfterSetAttr
 (
@@ -229,7 +226,6 @@ bool
 aNotify
 )
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -241,7 +237,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -252,7 +247,6 @@ true
 )
 override
 ;
-virtual
 ElementState
 IntrinsicState
 (
@@ -260,7 +254,6 @@ IntrinsicState
 const
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -545,14 +538,12 @@ HTMLOptionElement
 (
 )
 ;
-virtual
 JSObject
 *
 WrapNode
 (
 JSContext
 *
-aCx
 JS
 :
 :

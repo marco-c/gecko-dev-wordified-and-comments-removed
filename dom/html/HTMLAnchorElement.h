@@ -139,14 +139,12 @@ HTMLAnchorElement
 a
 )
 ;
-virtual
 int32_t
 TabIndexDefault
 (
 )
 override
 ;
-virtual
 bool
 Draggable
 (
@@ -154,7 +152,6 @@ Draggable
 const
 override
 ;
-virtual
 bool
 IsInteractiveHTMLContent
 (
@@ -163,7 +160,6 @@ const
 override
 ;
 NS_DECL_ADDSIZEOFEXCLUDINGTHIS
-virtual
 nsresult
 BindToTree
 (
@@ -175,7 +171,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -186,7 +181,6 @@ true
 )
 override
 ;
-virtual
 bool
 IsHTMLFocusable
 (
@@ -239,7 +233,6 @@ GetHrefURI
 const
 override
 ;
-virtual
 void
 BeforeSetAttr
 (
@@ -249,7 +242,7 @@ nsAtom
 *
 aName
 const
-nsAttrValueOrString
+nsAttrValue
 *
 aValue
 bool
@@ -257,7 +250,6 @@ aNotify
 )
 override
 ;
-virtual
 void
 AfterSetAttr
 (
@@ -282,7 +274,6 @@ aNotify
 )
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -299,7 +290,6 @@ aResult
 const
 override
 ;
-virtual
 ElementState
 IntrinsicState
 (
@@ -1019,14 +1009,12 @@ HTMLAnchorElement
 (
 )
 ;
-virtual
 JSObject
 *
 WrapNode
 (
 JSContext
 *
-aCx
 JS
 :
 :
