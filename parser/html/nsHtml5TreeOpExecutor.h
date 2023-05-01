@@ -774,10 +774,6 @@ const
 nsAString
 &
 aIntegrity
-const
-nsAString
-&
-aAs
 ReferrerPolicy
 aReferrerPolicy
 bool

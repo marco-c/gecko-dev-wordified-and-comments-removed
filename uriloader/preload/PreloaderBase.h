@@ -126,10 +126,6 @@ Document
 aDocument
 bool
 aIsPreload
-bool
-aIsModule
-=
-false
 )
 ;
 void
@@ -150,10 +146,6 @@ Document
 aDocument
 bool
 aIsPreload
-bool
-aIsModule
-=
-false
 )
 ;
 void
