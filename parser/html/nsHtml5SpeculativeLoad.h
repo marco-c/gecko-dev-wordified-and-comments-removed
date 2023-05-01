@@ -699,6 +699,8 @@ aMedia
 nsHtml5String
 aIntegrity
 nsHtml5String
+aAs
+nsHtml5String
 aReferrerPolicy
 bool
 aParserInHead
@@ -794,6 +796,13 @@ aIntegrity
 ToString
 (
 mReferrerPolicyOrIntegrity
+)
+;
+aAs
+.
+ToString
+(
+mAs
 )
 ;
 nsAutoString
@@ -1405,6 +1414,9 @@ mCrossOrigin
 ;
 nsString
 mMedia
+;
+nsString
+mAs
 ;
 mozilla
 :
