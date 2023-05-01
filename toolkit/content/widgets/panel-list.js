@@ -1618,6 +1618,14 @@ case
 scroll
 "
 :
+if
+(
+inPanelList
+)
+{
+break
+;
+}
 case
 "
 blur
