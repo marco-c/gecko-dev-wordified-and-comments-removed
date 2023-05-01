@@ -3312,6 +3312,18 @@ pocketConfig
 {
 }
 ;
+const
+onboardingExperience
+=
+this
+.
+isBff
+&
+&
+pocketConfig
+.
+onboardingExperience
+;
 let
 items
 =
@@ -3724,6 +3736,7 @@ en
 pocketConfig
 .
 editorsPicksHeader
+onboardingExperience
 }
 )
 ;
@@ -9745,6 +9758,9 @@ false
 editorsPicksHeader
 =
 false
+onboardingExperience
+=
+false
 }
 )
 =
@@ -10078,6 +10094,7 @@ fourCardLayout
 compactGrid
 essentialReadsHeader
 editorsPicksHeader
+onboardingExperience
 }
 widgets
 :

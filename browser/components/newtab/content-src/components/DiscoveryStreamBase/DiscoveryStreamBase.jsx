@@ -1543,6 +1543,15 @@ properties
 .
 essentialReadsHeader
 }
+onboardingExperience
+=
+{
+component
+.
+properties
+.
+onboardingExperience
+}
 editorsPicksHeader
 =
 {
