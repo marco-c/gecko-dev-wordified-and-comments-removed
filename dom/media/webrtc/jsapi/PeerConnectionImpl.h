@@ -1447,6 +1447,8 @@ dom
 MediaStreamTrack
 *
 aSendTrack
+bool
+aAddTrackMagic
 ErrorResult
 &
 aRv
@@ -3039,10 +3041,7 @@ const
 nsresult
 AddRtpTransceiverToJsepSession
 (
-RefPtr
-<
 JsepTransceiver
->
 &
 transceiver
 )
@@ -3811,6 +3810,8 @@ dom
 MediaStreamTrack
 *
 aSendTrack
+bool
+aAddTrackMagic
 ErrorResult
 &
 aRv

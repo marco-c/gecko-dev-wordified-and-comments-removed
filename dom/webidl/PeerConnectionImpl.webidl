@@ -315,6 +315,8 @@ kind
 MediaStreamTrack
 ?
 sendTrack
+boolean
+addTrackMagic
 )
 ;
 sequence

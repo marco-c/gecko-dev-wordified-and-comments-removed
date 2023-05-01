@@ -253,14 +253,6 @@ codecs
 ChromeOnly
 ]
 undefined
-setAddTrackMagic
-(
-)
-;
-[
-ChromeOnly
-]
-undefined
 setDirectionInternal
 (
 RTCRtpTransceiverDirection

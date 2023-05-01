@@ -8444,12 +8444,7 @@ direction
 sendrecv
 "
 }
-)
-;
-transceiver
-.
-setAddTrackMagic
-(
+true
 )
 ;
 }
@@ -8633,6 +8628,7 @@ _addTransceiverNoEvents
 (
 sendTrackOrKind
 init
+addTrackMagic
 )
 {
 let
@@ -8719,6 +8715,7 @@ addTransceiver
 init
 kind
 sendTrack
+addTrackMagic
 )
 ;
 }
