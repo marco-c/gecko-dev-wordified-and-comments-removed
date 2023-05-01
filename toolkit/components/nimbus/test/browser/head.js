@@ -134,12 +134,10 @@ addEnrollment
 .
 callsFake
 (
-async
 enrollment
 =
 >
 {
-await
 ExperimentTestUtils
 .
 validateEnrollment
