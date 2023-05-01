@@ -1550,6 +1550,11 @@ aOomState
 )
 const
 ;
+bool
+OOMReported
+(
+)
+;
 void
 SetLargeAllocationFailure
 (
