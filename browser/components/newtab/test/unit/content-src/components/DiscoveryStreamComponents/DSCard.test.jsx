@@ -158,7 +158,9 @@ DEFAULT_PROPS
 url
 :
 "
-url
+about
+:
+robots
 "
 title
 :
@@ -2201,7 +2203,9 @@ site
 url
 :
 "
-url
+about
+:
+robots
 "
 title
 :
