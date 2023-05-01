@@ -1470,12 +1470,6 @@ err
 metadata
 =
 {
-.
-.
-.
-err
-.
-metadata
 url
 }
 ;
