@@ -891,9 +891,6 @@ code
 bool
 validateResultCode
 (
-JSContext
-*
-cx
 FrontendContext
 *
 fc
@@ -1105,9 +1102,6 @@ MOZ_ASSERT
 (
 validateResultCode
 (
-cx
-(
-)
 fc
 (
 )
