@@ -865,6 +865,13 @@ size_t
 size
 )
 {
+MOZ_ASSERT
+(
+canAllocateBigInts
+(
+)
+)
+;
 return
 allocateCell
 (
@@ -2861,6 +2868,11 @@ tunables
 (
 )
 const
+;
+void
+updateZoneAllocFlags
+(
+)
 ;
 void
 *
