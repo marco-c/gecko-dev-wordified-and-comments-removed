@@ -293,6 +293,8 @@ bidi_session
     
 top_context
     
+get_element
+    
 load_static_test_page
     
 release_actions
@@ -314,43 +316,12 @@ html
 reporter
 =
 await
-bidi_session
-.
-script
-.
-evaluate
+get_element
 (
-        
-expression
-=
 "
-document
-.
-querySelector
-(
-'
 #
 outer
-'
-)
 "
-        
-target
-=
-ContextTarget
-(
-top_context
-[
-"
-context
-"
-]
-)
-        
-await_promise
-=
-False
-    
 )
     
 actions
