@@ -35,6 +35,11 @@ CSSPrefersReducedMotion
 )
 ITEM_VALUE
 (
+CSSPrefersContrast
+0x0009
+)
+ITEM_VALUE
+(
 IgnoreTargetAndReturnCachedValue
 0xFFFD
 )

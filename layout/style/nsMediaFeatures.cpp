@@ -1483,6 +1483,10 @@ aDocument
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+CSSPrefersContrast
 )
 )
 {
