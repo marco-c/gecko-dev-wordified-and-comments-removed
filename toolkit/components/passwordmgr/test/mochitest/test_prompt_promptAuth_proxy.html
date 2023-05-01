@@ -641,7 +641,6 @@ status
 {
 }
 }
-async
 function
 initLogins
 (
@@ -717,12 +716,11 @@ proxpass
 "
 )
 ;
-await
 Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 proxyLogin
 )
@@ -790,7 +788,6 @@ return
 this
 ;
 }
-async
 onProxyAvailable
 (
 req
@@ -799,7 +796,6 @@ pi
 status
 )
 {
-await
 initLogins
 (
 pi

@@ -7871,12 +7871,11 @@ username
 ;
 existingLogin
 =
-await
 Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 formLoginWithoutUsername
 )

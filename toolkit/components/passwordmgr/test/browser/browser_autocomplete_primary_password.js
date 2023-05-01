@@ -230,12 +230,11 @@ password
 }
 )
 ;
-await
 Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 login
 )
@@ -502,7 +501,6 @@ tm
 .
 dispatchToMainThread
 (
-async
 (
 )
 =
@@ -510,12 +508,11 @@ async
 {
 try
 {
-await
 Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 LoginTestUtils
 .
