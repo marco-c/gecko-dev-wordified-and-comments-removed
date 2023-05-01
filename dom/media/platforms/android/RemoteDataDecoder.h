@@ -56,7 +56,6 @@ MediaDataDecoder
 ;
 class
 RemoteDataDecoder
-final
 :
 public
 MediaDataDecoder
@@ -68,12 +67,6 @@ RemoteDataDecoder
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-RemoteDataDecoder
-final
-)
-;
 static
 already_AddRefed
 <

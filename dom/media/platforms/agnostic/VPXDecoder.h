@@ -80,7 +80,6 @@ MediaDataDecoder
 ;
 class
 VPXDecoder
-final
 :
 public
 MediaDataDecoder
@@ -92,12 +91,6 @@ VPXDecoder
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-VPXDecoder
-final
-)
-;
 explicit
 VPXDecoder
 (

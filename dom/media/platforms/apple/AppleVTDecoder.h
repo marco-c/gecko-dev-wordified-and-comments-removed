@@ -106,7 +106,6 @@ MediaDataDecoder
 ;
 class
 AppleVTDecoder
-final
 :
 public
 MediaDataDecoder
@@ -118,12 +117,6 @@ AppleVTDecoder
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-AppleVTDecoder
-final
-)
-;
 AppleVTDecoder
 (
 const

@@ -61,7 +61,6 @@ MediaRawDataHashtable
 ;
 class
 DAV1DDecoder
-final
 :
 public
 MediaDataDecoder
@@ -73,12 +72,6 @@ DAV1DDecoder
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-DAV1DDecoder
-final
-)
-;
 explicit
 DAV1DDecoder
 (

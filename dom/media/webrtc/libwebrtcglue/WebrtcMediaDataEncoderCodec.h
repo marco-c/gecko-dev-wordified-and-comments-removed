@@ -86,12 +86,6 @@ RefCountedWebrtcVideoEncoder
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-WebrtcMediaDataEncoder
-final
-)
-;
 static
 bool
 CanCreate

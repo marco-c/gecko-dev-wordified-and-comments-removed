@@ -131,7 +131,6 @@ MediaDataDecoder
 ;
 class
 OmxDataDecoder
-final
 :
 public
 MediaDataDecoder
@@ -151,12 +150,6 @@ OmxDataDecoder
 ;
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-OmxDataDecoder
-final
-)
-;
 OmxDataDecoder
 (
 const

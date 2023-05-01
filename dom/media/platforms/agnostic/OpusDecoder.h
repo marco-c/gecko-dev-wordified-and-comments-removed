@@ -48,7 +48,6 @@ MediaDataDecoder
 ;
 class
 OpusDataDecoder
-final
 :
 public
 MediaDataDecoder
@@ -60,12 +59,6 @@ OpusDataDecoder
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-OpusDataDecoder
-final
-)
-;
 explicit
 OpusDataDecoder
 (
@@ -73,6 +66,11 @@ const
 CreateDecoderParams
 &
 aParams
+)
+;
+~
+OpusDataDecoder
+(
 )
 ;
 RefPtr
@@ -165,11 +163,6 @@ aMimeType
 ;
 private
 :
-~
-OpusDataDecoder
-(
-)
-;
 nsresult
 DecodeHeader
 (

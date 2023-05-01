@@ -67,7 +67,6 @@ MediaDataDecoder
 ;
 class
 VorbisDataDecoder
-final
 :
 public
 MediaDataDecoder
@@ -79,12 +78,6 @@ VorbisDataDecoder
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-VorbisDataDecoder
-final
-)
-;
 explicit
 VorbisDataDecoder
 (
@@ -92,6 +85,11 @@ const
 CreateDecoderParams
 &
 aParams
+)
+;
+~
+VorbisDataDecoder
+(
 )
 ;
 RefPtr
@@ -197,11 +195,6 @@ aChannels
 ;
 private
 :
-~
-VorbisDataDecoder
-(
-)
-;
 nsresult
 DecodeHeader
 (
