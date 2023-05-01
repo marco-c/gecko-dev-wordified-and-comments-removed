@@ -4399,7 +4399,6 @@ stencil_
 >
 deserializeStencils
 (
-cx
 fc
 *
 stencilInput_
@@ -4628,7 +4627,6 @@ stencil
 >
 deserializeStencils
 (
-cx
 fc
 stencilInput
 source

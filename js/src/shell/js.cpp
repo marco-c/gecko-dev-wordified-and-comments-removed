@@ -28011,7 +28011,6 @@ stencil
 .
 deserializeStencils
 (
-cx
 &
 fc
 input

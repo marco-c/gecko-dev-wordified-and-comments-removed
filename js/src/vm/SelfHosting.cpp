@@ -15053,7 +15053,6 @@ stencil
 >
 deserializeStencils
 (
-cx
 &
 fc
 *
