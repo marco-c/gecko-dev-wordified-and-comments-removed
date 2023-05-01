@@ -181,6 +181,11 @@ ClearDataResponse
 }
 ;
 struct
+ClearPrivateBrowsingResponse
+{
+}
+;
+struct
 ClearAllResponse
 {
 }
@@ -250,6 +255,8 @@ ClearOriginResponse
 ResetOriginResponse
 ;
 ClearDataResponse
+;
+ClearPrivateBrowsingResponse
 ;
 ClearAllResponse
 ;

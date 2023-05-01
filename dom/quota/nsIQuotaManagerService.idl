@@ -177,6 +177,14 @@ clear
 must_use
 ]
 nsIQuotaRequest
+clearStoragesForPrivateBrowsing
+(
+)
+;
+[
+must_use
+]
+nsIQuotaRequest
 clearStoragesForOriginAttributesPattern
 (
 in

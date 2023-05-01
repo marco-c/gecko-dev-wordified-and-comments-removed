@@ -1617,6 +1617,12 @@ case
 RequestResponse
 :
 :
+TClearPrivateBrowsingResponse
+:
+case
+RequestResponse
+:
+:
 TClearAllResponse
 :
 case

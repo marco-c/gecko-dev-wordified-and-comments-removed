@@ -310,6 +310,11 @@ pattern
 }
 ;
 struct
+ClearPrivateBrowsingParams
+{
+}
+;
+struct
 ClearAllParams
 {
 }
@@ -372,6 +377,8 @@ ClearOriginParams
 ResetOriginParams
 ;
 ClearDataParams
+;
+ClearPrivateBrowsingParams
 ;
 ClearAllParams
 ;
