@@ -234,6 +234,9 @@ RPMIsSiteSpecificTRRError
 "
 RPMSetTRRDisabledLoadFlags
 "
+"
+RPMGetCurrentTRRMode
+"
 ]
 ;
 this
