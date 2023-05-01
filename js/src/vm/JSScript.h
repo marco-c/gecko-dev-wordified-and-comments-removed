@@ -3498,6 +3498,8 @@ private
 template
 <
 typename
+ContextT
+typename
 Unit
 >
 [
@@ -3508,7 +3510,7 @@ nodiscard
 bool
 setUncompressedSourceHelper
 (
-JSContext
+ContextT
 *
 cx
 EntryUnits
@@ -3539,9 +3541,9 @@ nodiscard
 bool
 initializeUnretrievableUncompressedSource
 (
-JSContext
+FrontendContext
 *
-cx
+fc
 EntryUnits
 <
 Unit
