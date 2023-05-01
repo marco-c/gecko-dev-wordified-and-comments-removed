@@ -195,6 +195,9 @@ protobuf
 remotebrowserutils
 "
 "
+remotepagemanager
+"
+"
 reflect
 "
 "
