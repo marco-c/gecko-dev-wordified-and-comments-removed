@@ -76,6 +76,15 @@ TestNativeNtGTest
 cpp
 "
 ]
+if
+not
+CONFIG
+[
+"
+MOZ_TSAN
+"
+]
+:
 SOURCES
 +
 =
