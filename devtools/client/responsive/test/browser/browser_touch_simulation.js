@@ -7,7 +7,7 @@ const
 TEST_URL
 =
 {
-URL_ROOT
+URL_ROOT_SSL
 }
 touch
 .
