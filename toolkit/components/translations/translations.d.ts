@@ -498,7 +498,7 @@ export
 interface
 SupportedLanguages
 {
-langPairs
+languagePairs
 :
 LanguagePair
 [
