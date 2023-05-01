@@ -12,7 +12,7 @@ h
 endif
 typedef
 int
-_prevent_empty_translation_unit_warning
+prevent_empty_translation_unit_warning
 ;
 #
 include
