@@ -164,6 +164,14 @@ nsACString
 const
 ;
 void
+GetSupportsText
+(
+nsACString
+&
+)
+const
+;
+void
 DropSheetReference
 (
 )
