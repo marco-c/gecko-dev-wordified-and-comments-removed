@@ -241,6 +241,9 @@ mTemporaryStorageGroupInfo
 |
 |
 mDefaultStorageGroupInfo
+|
+|
+mPrivateStorageGroupInfo
 ;
 }
 private
@@ -275,6 +278,12 @@ RefPtr
 GroupInfo
 >
 mDefaultStorageGroupInfo
+;
+RefPtr
+<
+GroupInfo
+>
+mPrivateStorageGroupInfo
 ;
 }
 ;

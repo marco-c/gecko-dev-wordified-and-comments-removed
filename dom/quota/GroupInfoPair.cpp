@@ -46,6 +46,12 @@ return
 mDefaultStorageGroupInfo
 ;
 case
+PERSISTENCE_TYPE_PRIVATE
+:
+return
+mPrivateStorageGroupInfo
+;
+case
 PERSISTENCE_TYPE_PERSISTENT
 :
 case

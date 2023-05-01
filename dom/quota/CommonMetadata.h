@@ -63,6 +63,11 @@ mGroup
 nsCString
 mOrigin
 ;
+bool
+mIsPrivate
+=
+false
+;
 PrincipalMetadata
 (
 )
@@ -77,6 +82,8 @@ nsCString
 aGroup
 nsCString
 aOrigin
+bool
+aIsPrivate
 )
 :
 mSuffix
@@ -109,6 +116,10 @@ move
 aOrigin
 )
 }
+mIsPrivate
+{
+aIsPrivate
+}
 {
 }
 }
@@ -136,6 +147,8 @@ nsCString
 aGroup
 nsCString
 aOrigin
+bool
+aIsPrivate
 PersistenceType
 aPersistenceType
 )
@@ -163,6 +176,7 @@ move
 (
 aOrigin
 )
+aIsPrivate
 )
 mPersistenceType
 (
