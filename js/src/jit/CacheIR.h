@@ -1224,9 +1224,10 @@ Spread
 FunCall
 FunApplyArgsObj
 FunApplyArray
+FunApplyNullUndefined
 LastArgFormat
 =
-FunApplyArray
+FunApplyNullUndefined
 }
 ;
 CallFlags
@@ -1764,6 +1765,12 @@ CallFlags
 :
 :
 FunApplyArray
+:
+case
+CallFlags
+:
+:
+FunApplyNullUndefined
 :
 MOZ_CRASH
 (
