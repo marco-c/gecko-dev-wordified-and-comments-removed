@@ -9240,13 +9240,6 @@ security
 .
 osclientcerts
 .
-assume_rsa_pss_support
-"
-"
-security
-.
-osclientcerts
-.
 autoload
 "
 "
