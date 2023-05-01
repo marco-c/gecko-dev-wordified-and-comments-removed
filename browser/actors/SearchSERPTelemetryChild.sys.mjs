@@ -6311,6 +6311,13 @@ keydown
 )
 ;
 }
+searchAdImpressionListeners
+.
+delete
+(
+element
+)
+;
 }
 ChromeUtils
 .
