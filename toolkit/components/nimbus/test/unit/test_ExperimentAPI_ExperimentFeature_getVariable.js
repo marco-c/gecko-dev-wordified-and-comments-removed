@@ -322,7 +322,7 @@ in
 FeatureManifest
 \
 .
-js
+yaml
 /
 "
 should

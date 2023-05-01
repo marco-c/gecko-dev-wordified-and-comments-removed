@@ -297,7 +297,6 @@ of
 Nimbus
 features
 see
-:
 toolkit
 /
 components
@@ -306,7 +305,8 @@ nimbus
 /
 FeatureManifest
 .
-js
+yaml
+.
 const
 PREF_URLBAR_DEFAULTS
 =

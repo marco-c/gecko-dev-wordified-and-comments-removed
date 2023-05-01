@@ -36,7 +36,7 @@ FeatureManifest
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +47,9 @@ nimbus
 /
 FeatureManifest
 .
-js
+sys
+.
+mjs
 "
 )
 ;
