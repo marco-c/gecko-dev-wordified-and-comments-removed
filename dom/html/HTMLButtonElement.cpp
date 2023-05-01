@@ -1601,7 +1601,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 HTMLButtonElement
 :
 :

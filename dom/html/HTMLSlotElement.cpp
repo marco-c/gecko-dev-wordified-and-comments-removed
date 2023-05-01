@@ -502,7 +502,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 HTMLSlotElement
 :
 :

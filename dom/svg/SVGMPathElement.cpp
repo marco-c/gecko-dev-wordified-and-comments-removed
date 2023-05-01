@@ -466,7 +466,7 @@ aNullParent
 )
 ;
 }
-nsresult
+void
 SVGMPathElement
 :
 :

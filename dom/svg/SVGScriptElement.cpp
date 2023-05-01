@@ -875,7 +875,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 SVGScriptElement
 :
 :

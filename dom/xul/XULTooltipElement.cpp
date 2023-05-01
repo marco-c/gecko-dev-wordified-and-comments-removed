@@ -288,7 +288,7 @@ StealNSResult
 )
 ;
 }
-nsresult
+void
 XULTooltipElement
 :
 :

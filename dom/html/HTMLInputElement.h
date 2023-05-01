@@ -3699,7 +3699,7 @@ aNotify
 override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-nsresult
+void
 AfterSetAttr
 (
 int32_t

@@ -611,7 +611,7 @@ TriggerReclone
 ;
 }
 }
-nsresult
+void
 SVGUseElement
 :
 :

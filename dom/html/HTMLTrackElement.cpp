@@ -2525,7 +2525,7 @@ nullptr
 ;
 }
 }
-nsresult
+void
 HTMLTrackElement
 :
 :

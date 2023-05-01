@@ -1000,7 +1000,7 @@ aResult
 )
 ;
 }
-nsresult
+void
 SVGAnimationElement
 :
 :
@@ -1064,9 +1064,6 @@ AnimationNeedsResample
 ;
 }
 }
-nsresult
-rv
-=
 SVGAnimationElementBase
 :
 :
@@ -1127,7 +1124,6 @@ IsInComposedDoc
 )
 {
 return
-rv
 ;
 }
 if
@@ -1159,7 +1155,6 @@ href
 )
 {
 return
-rv
 ;
 }
 if
@@ -1303,9 +1298,6 @@ GetStringValue
 )
 ;
 }
-return
-rv
-;
 }
 void
 SVGAnimationElement

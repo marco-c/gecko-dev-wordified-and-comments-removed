@@ -323,7 +323,7 @@ oldShadow
 )
 ;
 }
-nsresult
+void
 SVGStyleElement
 :
 :

@@ -269,7 +269,7 @@ aVisitor
 )
 ;
 }
-nsresult
+void
 HTMLFieldSetElement
 :
 :

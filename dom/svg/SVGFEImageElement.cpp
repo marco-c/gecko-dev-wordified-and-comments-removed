@@ -563,7 +563,7 @@ aResult
 )
 ;
 }
-nsresult
+void
 SVGFEImageElement
 :
 :

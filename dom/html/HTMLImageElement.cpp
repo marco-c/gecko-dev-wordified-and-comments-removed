@@ -1667,7 +1667,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 HTMLImageElement
 :
 :
@@ -2226,7 +2226,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 HTMLImageElement
 :
 :

@@ -1038,7 +1038,7 @@ aNotify
 override
 ;
 virtual
-nsresult
+void
 AfterSetAttr
 (
 int32_t

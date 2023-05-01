@@ -1835,7 +1835,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 SVGElement
 :
 :

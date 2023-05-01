@@ -334,11 +334,12 @@ aMessage
 ;
 MOZ_CAN_RUN_SCRIPT
 virtual
-nsresult
+void
 MinMaxStepAttrChanged
 (
 )
-;
+{
+}
 virtual
 bool
 ConvertStringToNumber

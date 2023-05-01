@@ -3950,7 +3950,7 @@ Reset
 ;
 }
 }
-nsresult
+void
 HTMLTextAreaElement
 :
 :

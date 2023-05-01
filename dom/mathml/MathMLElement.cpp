@@ -3636,7 +3636,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 MathMLElement
 :
 :

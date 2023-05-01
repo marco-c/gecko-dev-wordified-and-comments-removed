@@ -768,7 +768,7 @@ return
 MapAttributesIntoRule
 ;
 }
-nsresult
+void
 HTMLIFrameElement
 :
 :
@@ -915,7 +915,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 HTMLIFrameElement
 :
 :

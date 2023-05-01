@@ -4830,7 +4830,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 HTMLTableElement
 :
 :

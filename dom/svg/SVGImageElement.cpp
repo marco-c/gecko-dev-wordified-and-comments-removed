@@ -973,7 +973,7 @@ aResult
 )
 ;
 }
-nsresult
+void
 SVGImageElement
 :
 :

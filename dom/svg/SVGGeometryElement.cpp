@@ -213,7 +213,7 @@ sNumberInfo
 )
 ;
 }
-nsresult
+void
 SVGGeometryElement
 :
 :

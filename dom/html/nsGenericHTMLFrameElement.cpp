@@ -965,7 +965,7 @@ ScrollbarPreference
 Auto
 ;
 }
-nsresult
+void
 nsGenericHTMLFrameElement
 :
 :
@@ -1156,7 +1156,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 nsGenericHTMLFrameElement
 :
 :

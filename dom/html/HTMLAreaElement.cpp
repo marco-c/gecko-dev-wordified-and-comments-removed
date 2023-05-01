@@ -410,7 +410,7 @@ aNullParent
 )
 ;
 }
-nsresult
+void
 HTMLAreaElement
 :
 :

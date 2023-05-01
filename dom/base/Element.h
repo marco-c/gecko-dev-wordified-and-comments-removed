@@ -6113,7 +6113,7 @@ aNotify
 )
 ;
 virtual
-nsresult
+void
 AfterSetAttr
 (
 int32_t
@@ -6165,7 +6165,7 @@ aValue
 )
 ;
 virtual
-nsresult
+void
 OnAttrSetButNotChanged
 (
 int32_t

@@ -809,7 +809,7 @@ mSelectedChanged
 false
 ;
 }
-nsresult
+void
 HTMLOptionElement
 :
 :

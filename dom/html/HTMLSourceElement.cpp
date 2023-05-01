@@ -410,7 +410,7 @@ aResult
 )
 ;
 }
-nsresult
+void
 HTMLSourceElement
 :
 :

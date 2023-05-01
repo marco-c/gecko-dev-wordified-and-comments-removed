@@ -1274,7 +1274,7 @@ IntrinsicState
 )
 ;
 }
-nsresult
+void
 SVGAElement
 :
 :

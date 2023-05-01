@@ -178,7 +178,7 @@ return
 nullptr
 ;
 }
-nsresult
+void
 HTMLDetailsElement
 :
 :

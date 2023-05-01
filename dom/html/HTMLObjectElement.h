@@ -1028,7 +1028,7 @@ this
 ;
 }
 virtual
-nsresult
+void
 AfterSetAttr
 (
 int32_t
@@ -1053,7 +1053,7 @@ aNotify
 override
 ;
 virtual
-nsresult
+void
 OnAttrSetButNotChanged
 (
 int32_t
@@ -1124,7 +1124,7 @@ MappedDeclarations
 &
 )
 ;
-nsresult
+void
 AfterMaybeChangeAttr
 (
 int32_t

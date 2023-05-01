@@ -826,7 +826,7 @@ readonly
 )
 ;
 }
-nsresult
+void
 RangeInputType
 :
 :
@@ -842,7 +842,6 @@ GetNonFileValueInternal
 value
 )
 ;
-return
 SetValueInternal
 (
 value

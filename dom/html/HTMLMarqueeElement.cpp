@@ -629,7 +629,7 @@ aResult
 )
 ;
 }
-nsresult
+void
 HTMLMarqueeElement
 :
 :

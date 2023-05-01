@@ -867,7 +867,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 HTMLAnchorElement
 :
 :

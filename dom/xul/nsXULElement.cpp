@@ -4332,7 +4332,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 nsXULElement
 :
 :

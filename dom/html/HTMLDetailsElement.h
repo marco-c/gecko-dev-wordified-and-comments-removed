@@ -96,7 +96,7 @@ aResult
 const
 override
 ;
-nsresult
+void
 AfterSetAttr
 (
 int32_t

@@ -1058,7 +1058,7 @@ aNotify
 )
 ;
 }
-nsresult
+void
 HTMLLinkElement
 :
 :
