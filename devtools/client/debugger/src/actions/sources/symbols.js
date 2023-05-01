@@ -149,6 +149,7 @@ location
 }
 {
 getState
+parserWorker
 }
 )
 =
@@ -156,11 +157,13 @@ getState
 {
 if
 (
+!
+parserWorker
+.
+isLocationSupported
+(
 location
-.
-source
-.
-isWasm
+)
 )
 {
 return

@@ -164,6 +164,17 @@ if
 (
 !
 frame
+|
+|
+!
+parserWorker
+.
+isLocationSupported
+(
+frame
+.
+location
+)
 )
 {
 return
