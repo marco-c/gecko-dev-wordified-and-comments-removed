@@ -2703,7 +2703,7 @@ transpile
 true
 cost_estimate
 :
-4
+5
 args
 :
 obj
@@ -2715,6 +2715,9 @@ IdField
 rhs
 :
 ValId
+strict
+:
+BoolImm
 -
 name
 :
