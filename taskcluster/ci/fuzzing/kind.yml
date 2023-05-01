@@ -138,6 +138,13 @@ amd64
 -
 build
 }
+use
+-
+system
+-
+python
+:
+false
 treeherder
 :
 kind
