@@ -86454,6 +86454,10 @@ if
 (
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+CSSPrefersColorScheme
 )
 &
 &

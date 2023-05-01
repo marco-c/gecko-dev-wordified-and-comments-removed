@@ -25,6 +25,11 @@ SpeechSynthesis
 )
 ITEM_VALUE
 (
+CSSPrefersColorScheme
+0x0007
+)
+ITEM_VALUE
+(
 IgnoreTargetAndReturnCachedValue
 0xFFFD
 )
