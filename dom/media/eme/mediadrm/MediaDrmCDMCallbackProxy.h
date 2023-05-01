@@ -32,7 +32,11 @@ class
 ErrorResult
 ;
 class
+MediaDrmCDMProxy
+;
+class
 MediaDrmCDMCallbackProxy
+final
 :
 public
 DecryptorProxyCallback
@@ -185,8 +189,7 @@ override
 MediaDrmCDMCallbackProxy
 (
 )
-{
-}
+;
 private
 :
 friend
@@ -196,7 +199,7 @@ MediaDrmCDMProxy
 explicit
 MediaDrmCDMCallbackProxy
 (
-CDMProxy
+MediaDrmCDMProxy
 *
 aProxy
 )
@@ -217,8 +220,11 @@ CDMKeyInfo
 aKeyInfos
 )
 ;
-CDMProxy
-*
+const
+RefPtr
+<
+MediaDrmCDMProxy
+>
 mProxy
 ;
 }
