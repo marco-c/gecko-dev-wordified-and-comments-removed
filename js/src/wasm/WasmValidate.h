@@ -1039,9 +1039,9 @@ env
 size_t
 opcodeOffset
 FieldType
-actual
+subType
 FieldType
-expected
+superType
 )
 ;
 [

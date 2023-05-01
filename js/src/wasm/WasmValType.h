@@ -1681,6 +1681,12 @@ RefType
 superType
 )
 ;
+RefType
+topType
+(
+)
+const
+;
 bool
 operator
 =

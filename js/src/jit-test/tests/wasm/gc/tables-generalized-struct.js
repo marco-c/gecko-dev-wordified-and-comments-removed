@@ -122,7 +122,11 @@ get
 ref
 .
 cast
+(
+ref
+null
 dummy
+)
 (
 local
 .

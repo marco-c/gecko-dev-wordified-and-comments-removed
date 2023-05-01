@@ -68,7 +68,10 @@ internalize
 ref
 .
 test
+(
+ref
 0
+)
 )
 (
 func
@@ -96,7 +99,11 @@ internalize
 ref
 .
 cast
+(
+ref
+null
 0
+)
 drop
 i32
 .
@@ -137,7 +144,11 @@ extern
 internalize
 br_on_cast
 0
+anyref
+(
+ref
 0
+)
 drop
 i32
 .
@@ -183,7 +194,11 @@ extern
 internalize
 br_on_cast_fail
 0
+anyref
+(
+ref
 0
+)
 drop
 i32
 .
