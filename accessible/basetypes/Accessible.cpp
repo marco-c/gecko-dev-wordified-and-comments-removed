@@ -2807,7 +2807,7 @@ return
 nullptr
 ;
 }
-nsAtom
+nsStaticAtom
 *
 Accessible
 :

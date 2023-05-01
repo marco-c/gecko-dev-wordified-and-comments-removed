@@ -820,7 +820,7 @@ return
 retVal
 ;
 }
-nsAtom
+nsStaticAtom
 *
 RemoteAccessible
 :
