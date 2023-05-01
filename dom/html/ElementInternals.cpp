@@ -1987,6 +1987,10 @@ RemoveElement
 mTarget
 )
 ;
+mFieldSet
+=
+nullptr
+;
 }
 }
 void
