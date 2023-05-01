@@ -2302,6 +2302,16 @@ get
 browser
 )
 ;
+this
+.
+#
+browserContentSourceMap
+.
+delete
+(
+browser
+)
+;
 }
 let
 newtabSessionId
