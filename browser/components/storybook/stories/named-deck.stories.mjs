@@ -128,6 +128,11 @@ deck
 parameters
 :
 {
+status
+:
+"
+stable
+"
 fluent
 :
 named

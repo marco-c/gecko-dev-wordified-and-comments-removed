@@ -138,6 +138,11 @@ select
 parameters
 :
 {
+status
+:
+"
+stable
+"
 fluent
 :
 moz

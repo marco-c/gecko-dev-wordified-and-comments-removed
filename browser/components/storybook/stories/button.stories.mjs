@@ -89,6 +89,11 @@ button
 parameters
 :
 {
+status
+:
+"
+stable
+"
 fluent
 :
 button

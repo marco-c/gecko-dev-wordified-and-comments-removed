@@ -235,6 +235,15 @@ clicked
 "
 }
 }
+parameters
+:
+{
+status
+:
+"
+stable
+"
+}
 }
 ;
 const

@@ -121,6 +121,11 @@ list
 parameters
 :
 {
+status
+:
+"
+stable
+"
 actions
 :
 {
