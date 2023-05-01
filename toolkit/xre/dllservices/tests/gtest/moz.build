@@ -118,6 +118,15 @@ TestDllBlocklist_MatchByName
 TestDllBlocklist_MatchByVersion
 "
 "
+TestDllBlocklist_MultipleEntries_DifferentProcesses
+"
+"
+TestDllBlocklist_MultipleEntries_SameProcessBackward
+"
+"
+TestDllBlocklist_MultipleEntries_SameProcessForward
+"
+"
 TestDllBlocklist_NoOpEntryPoint
 "
 "
