@@ -851,6 +851,7 @@ let
 activeInput
 activeSection
 activeFieldDetail
+activeHandler
 savedFieldNames
 }
 =
@@ -893,9 +894,12 @@ fieldName
 let
 isInputAutofilled
 =
-activeFieldDetail
+activeHandler
 .
-state
+getFilledStateByElement
+(
+activeInput
+)
 =
 =
 lazy
