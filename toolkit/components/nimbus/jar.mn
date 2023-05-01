@@ -106,11 +106,15 @@ nimbus
 /
 FeatureManifest
 .
-js
+sys
+.
+mjs
 (
 FeatureManifest
 .
-js
+sys
+.
+mjs
 )
 res
 /
