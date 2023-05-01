@@ -171,9 +171,9 @@ never
 send_in_pings
 :
 -
-remove
+background
 -
-directory
+tasks
 bugs
 :
 -
