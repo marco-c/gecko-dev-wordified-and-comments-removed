@@ -427,6 +427,7 @@ page
 const
 listener
 =
+async
 events
 =
 >
@@ -506,7 +507,8 @@ receivedNotifications
 +
 +
 ;
-do_check_guid_for_uri
+await
+check_guid_for_uri
 (
 Services
 .
