@@ -118,7 +118,7 @@ NS_IMPL_ELEMENT_CLONE
 (
 HTMLFrameSetElement
 )
-nsresult
+void
 HTMLFrameSetElement
 :
 :

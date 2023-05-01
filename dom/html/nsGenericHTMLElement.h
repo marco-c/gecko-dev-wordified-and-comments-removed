@@ -2903,7 +2903,7 @@ aDoReg
 }
 protected
 :
-nsresult
+void
 BeforeSetAttr
 (
 int32_t
@@ -3738,7 +3738,7 @@ nsGenericHTMLFormElement
 =
 default
 ;
-nsresult
+void
 BeforeSetAttr
 (
 int32_t

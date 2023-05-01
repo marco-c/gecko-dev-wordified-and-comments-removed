@@ -3681,7 +3681,7 @@ bool
 aShouldInvalidate
 )
 ;
-nsresult
+void
 BeforeSetAttr
 (
 int32_t

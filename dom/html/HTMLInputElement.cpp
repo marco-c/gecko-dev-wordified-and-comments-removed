@@ -5797,7 +5797,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 HTMLInputElement
 :
 :

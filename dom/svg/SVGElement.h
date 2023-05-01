@@ -1516,7 +1516,7 @@ aGivenProto
 )
 override
 ;
-nsresult
+void
 BeforeSetAttr
 (
 int32_t

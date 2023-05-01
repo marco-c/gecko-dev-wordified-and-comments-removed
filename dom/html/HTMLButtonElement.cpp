@@ -1544,7 +1544,7 @@ RestoreFormControlState
 ;
 }
 }
-nsresult
+void
 HTMLButtonElement
 :
 :

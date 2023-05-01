@@ -1573,7 +1573,7 @@ return
 MapAttributesIntoRule
 ;
 }
-nsresult
+void
 HTMLImageElement
 :
 :

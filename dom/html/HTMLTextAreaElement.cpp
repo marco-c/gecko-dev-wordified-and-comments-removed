@@ -3679,7 +3679,7 @@ false
 )
 ;
 }
-nsresult
+void
 HTMLTextAreaElement
 :
 :

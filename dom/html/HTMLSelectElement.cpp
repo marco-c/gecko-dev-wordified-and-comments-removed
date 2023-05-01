@@ -4556,7 +4556,7 @@ false
 )
 ;
 }
-nsresult
+void
 HTMLSelectElement
 :
 :

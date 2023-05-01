@@ -987,7 +987,7 @@ PostDOMEvent
 )
 ;
 }
-nsresult
+void
 HTMLLinkElement
 :
 :

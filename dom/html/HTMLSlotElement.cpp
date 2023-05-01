@@ -432,7 +432,7 @@ this
 ;
 }
 }
-nsresult
+void
 HTMLSlotElement
 :
 :

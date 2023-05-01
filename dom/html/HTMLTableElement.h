@@ -966,7 +966,7 @@ true
 override
 ;
 virtual
-nsresult
+void
 BeforeSetAttr
 (
 int32_t

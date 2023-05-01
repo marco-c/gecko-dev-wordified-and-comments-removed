@@ -262,7 +262,7 @@ aResult
 )
 ;
 }
-nsresult
+void
 nsStyledElement
 :
 :
