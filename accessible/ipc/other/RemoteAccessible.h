@@ -345,7 +345,7 @@ UnselectAll
 override
 ;
 virtual
-nsStaticAtom
+nsAtom
 *
 LandmarkRole
 (

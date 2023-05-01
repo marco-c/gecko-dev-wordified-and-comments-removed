@@ -217,17 +217,6 @@ tests
 /
 browser
 /
-role
-/
-browser
-.
-ini
-"
-"
-tests
-/
-browser
-/
 scroll
 /
 browser

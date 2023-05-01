@@ -4,7 +4,6 @@ NOTHING
 "
 nothing
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -25,7 +24,6 @@ TITLEBAR
 "
 titlebar
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -46,10 +44,6 @@ MENUBAR
 "
 menubar
 "
-nsGkAtoms
-:
-:
-menubar
 ATK_ROLE_MENU_BAR
 NSAccessibilityMenuBarRole
 NSAccessibilityUnknownSubrole
@@ -70,10 +64,6 @@ SCROLLBAR
 "
 scrollbar
 "
-nsGkAtoms
-:
-:
-scrollbar
 ATK_ROLE_SCROLL_BAR
 NSAccessibilityScrollBarRole
 NSAccessibilityUnknownSubrole
@@ -94,7 +84,6 @@ GRIP
 "
 grip
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilitySplitterRole
 NSAccessibilityUnknownSubrole
@@ -115,7 +104,6 @@ SOUND
 "
 sound
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -136,7 +124,6 @@ CURSOR
 "
 cursor
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -157,7 +144,6 @@ CARET
 "
 caret
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -178,10 +164,6 @@ ALERT
 "
 alert
 "
-nsGkAtoms
-:
-:
-alert
 ATK_ROLE_ALERT
 NSAccessibilityGroupRole
 "
@@ -204,7 +186,6 @@ WINDOW
 "
 window
 "
-nullptr
 ATK_ROLE_WINDOW
 NSAccessibilityWindowRole
 NSAccessibilityUnknownSubrole
@@ -226,7 +207,6 @@ INTERNAL_FRAME
 internal
 frame
 "
-nullptr
 ATK_ROLE_INTERNAL_FRAME
 NSAccessibilityScrollAreaRole
 NSAccessibilityUnknownSubrole
@@ -247,10 +227,6 @@ MENUPOPUP
 "
 menupopup
 "
-nsGkAtoms
-:
-:
-menu
 ATK_ROLE_MENU
 NSAccessibilityMenuRole
 NSAccessibilityUnknownSubrole
@@ -271,10 +247,6 @@ MENUITEM
 "
 menuitem
 "
-nsGkAtoms
-:
-:
-menuitem
 ATK_ROLE_MENU_ITEM
 NSAccessibilityMenuItemRole
 NSAccessibilityUnknownSubrole
@@ -295,10 +267,6 @@ TOOLTIP
 "
 tooltip
 "
-nsGkAtoms
-:
-:
-tooltip
 ATK_ROLE_TOOL_TIP
 NSAccessibilityGroupRole
 "
@@ -321,10 +289,6 @@ APPLICATION
 "
 application
 "
-nsGkAtoms
-:
-:
-application
 ATK_ROLE_EMBEDDED
 NSAccessibilityGroupRole
 "
@@ -347,10 +311,6 @@ DOCUMENT
 "
 document
 "
-nsGkAtoms
-:
-:
-document
 ATK_ROLE_DOCUMENT_WEB
 "
 AXWebArea
@@ -373,7 +333,6 @@ PANE
 "
 pane
 "
-nullptr
 ATK_ROLE_PANEL
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -394,7 +353,6 @@ CHART
 "
 chart
 "
-nullptr
 ATK_ROLE_CHART
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -415,10 +373,6 @@ DIALOG
 "
 dialog
 "
-nsGkAtoms
-:
-:
-dialog
 ATK_ROLE_DIALOG
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -439,7 +393,6 @@ BORDER
 "
 border
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -460,10 +413,6 @@ GROUPING
 "
 grouping
 "
-nsGkAtoms
-:
-:
-group
 ATK_ROLE_PANEL
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -484,10 +433,6 @@ SEPARATOR
 "
 separator
 "
-nsGkAtoms
-:
-:
-separator_
 ATK_ROLE_SEPARATOR
 NSAccessibilitySplitterRole
 "
@@ -510,10 +455,6 @@ TOOLBAR
 "
 toolbar
 "
-nsGkAtoms
-:
-:
-toolbar
 ATK_ROLE_TOOL_BAR
 NSAccessibilityToolbarRole
 NSAccessibilityUnknownSubrole
@@ -534,10 +475,6 @@ STATUSBAR
 "
 statusbar
 "
-nsGkAtoms
-:
-:
-status
 ATK_ROLE_STATUSBAR
 NSAccessibilityGroupRole
 "
@@ -560,10 +497,6 @@ TABLE
 "
 table
 "
-nsGkAtoms
-:
-:
-table
 ATK_ROLE_TABLE
 NSAccessibilityTableRole
 NSAccessibilityUnknownSubrole
@@ -584,10 +517,6 @@ COLUMNHEADER
 "
 columnheader
 "
-nsGkAtoms
-:
-:
-columnheader
 ATK_ROLE_COLUMN_HEADER
 NSAccessibilityCellRole
 NSAccessibilityUnknownSubrole
@@ -608,10 +537,6 @@ ROWHEADER
 "
 rowheader
 "
-nsGkAtoms
-:
-:
-rowheader
 ATK_ROLE_ROW_HEADER
 NSAccessibilityCellRole
 NSAccessibilityUnknownSubrole
@@ -632,7 +557,6 @@ COLUMN
 "
 column
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityColumnRole
 NSAccessibilityUnknownSubrole
@@ -653,10 +577,6 @@ ROW
 "
 row
 "
-nsGkAtoms
-:
-:
-row
 ATK_ROLE_TABLE_ROW
 NSAccessibilityRowRole
 NSAccessibilityUnknownSubrole
@@ -677,10 +597,6 @@ CELL
 "
 cell
 "
-nsGkAtoms
-:
-:
-cell
 ATK_ROLE_TABLE_CELL
 NSAccessibilityCellRole
 NSAccessibilityUnknownSubrole
@@ -701,10 +617,6 @@ LINK
 "
 link
 "
-nsGkAtoms
-:
-:
-link
 ATK_ROLE_LINK
 NSAccessibilityLinkRole
 NSAccessibilityUnknownSubrole
@@ -725,7 +637,6 @@ HELPBALLOON
 "
 helpballoon
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityHelpTagRole
 NSAccessibilityUnknownSubrole
@@ -746,7 +657,6 @@ CHARACTER
 "
 character
 "
-nullptr
 ATK_ROLE_IMAGE
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -767,10 +677,6 @@ LIST
 "
 list
 "
-nsGkAtoms
-:
-:
-list_
 ATK_ROLE_LIST
 NSAccessibilityListRole
 NSAccessibilityContentListSubrole
@@ -791,10 +697,6 @@ LISTITEM
 "
 listitem
 "
-nsGkAtoms
-:
-:
-listitem
 ATK_ROLE_LIST_ITEM
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -815,10 +717,6 @@ OUTLINE
 "
 outline
 "
-nsGkAtoms
-:
-:
-tree
 ATK_ROLE_TREE
 NSAccessibilityOutlineRole
 NSAccessibilityUnknownSubrole
@@ -839,10 +737,6 @@ OUTLINEITEM
 "
 outlineitem
 "
-nsGkAtoms
-:
-:
-treeitem
 ATK_ROLE_TREE_ITEM
 NSAccessibilityRowRole
 NSAccessibilityOutlineRowSubrole
@@ -863,10 +757,6 @@ PAGETAB
 "
 pagetab
 "
-nsGkAtoms
-:
-:
-tab
 ATK_ROLE_PAGE_TAB
 NSAccessibilityRadioButtonRole
 "
@@ -889,10 +779,6 @@ PROPERTYPAGE
 "
 propertypage
 "
-nsGkAtoms
-:
-:
-tabpanel
 ATK_ROLE_SCROLL_PANE
 NSAccessibilityGroupRole
 "
@@ -915,7 +801,6 @@ INDICATOR
 "
 indicator
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -936,10 +821,6 @@ GRAPHIC
 "
 graphic
 "
-nsGkAtoms
-:
-:
-img
 ATK_ROLE_IMAGE
 NSAccessibilityImageRole
 NSAccessibilityUnknownSubrole
@@ -960,7 +841,6 @@ STATICTEXT
 "
 statictext
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityStaticTextRole
 NSAccessibilityUnknownSubrole
@@ -982,7 +862,6 @@ TEXT_LEAF
 text
 leaf
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityStaticTextRole
 NSAccessibilityUnknownSubrole
@@ -1003,10 +882,6 @@ PUSHBUTTON
 "
 pushbutton
 "
-nsGkAtoms
-:
-:
-button
 ATK_ROLE_PUSH_BUTTON
 NSAccessibilityButtonRole
 NSAccessibilityUnknownSubrole
@@ -1027,10 +902,6 @@ CHECKBUTTON
 "
 checkbutton
 "
-nsGkAtoms
-:
-:
-checkbox
 ATK_ROLE_CHECK_BOX
 NSAccessibilityCheckBoxRole
 NSAccessibilityUnknownSubrole
@@ -1051,10 +922,6 @@ RADIOBUTTON
 "
 radiobutton
 "
-nsGkAtoms
-:
-:
-radio
 ATK_ROLE_RADIO_BUTTON
 NSAccessibilityRadioButtonRole
 NSAccessibilityUnknownSubrole
@@ -1075,10 +942,6 @@ COMBOBOX
 "
 combobox
 "
-nsGkAtoms
-:
-:
-combobox
 ATK_ROLE_COMBO_BOX
 NSAccessibilityPopUpButtonRole
 NSAccessibilityUnknownSubrole
@@ -1099,7 +962,6 @@ DROPLIST
 "
 droplist
 "
-nullptr
 ATK_ROLE_COMBO_BOX
 NSAccessibilityPopUpButtonRole
 NSAccessibilityUnknownSubrole
@@ -1120,10 +982,6 @@ PROGRESSBAR
 "
 progressbar
 "
-nsGkAtoms
-:
-:
-progressbar
 ATK_ROLE_PROGRESS_BAR
 NSAccessibilityProgressIndicatorRole
 NSAccessibilityUnknownSubrole
@@ -1144,7 +1002,6 @@ DIAL
 "
 dial
 "
-nullptr
 ATK_ROLE_DIAL
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -1165,7 +1022,6 @@ HOTKEYFIELD
 "
 hotkeyfield
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -1186,10 +1042,6 @@ SLIDER
 "
 slider
 "
-nsGkAtoms
-:
-:
-slider
 ATK_ROLE_SLIDER
 NSAccessibilitySliderRole
 NSAccessibilityUnknownSubrole
@@ -1210,10 +1062,6 @@ SPINBUTTON
 "
 spinbutton
 "
-nsGkAtoms
-:
-:
-spinbutton
 ATK_ROLE_SPIN_BUTTON
 NSAccessibilityIncrementorRole
 NSAccessibilityUnknownSubrole
@@ -1234,10 +1082,6 @@ DIAGRAM
 "
 diagram
 "
-nsGkAtoms
-:
-:
-graphicsDocument
 ATK_ROLE_IMAGE
 NSAccessibilityImageRole
 NSAccessibilityUnknownSubrole
@@ -1258,10 +1102,6 @@ ANIMATION
 "
 animation
 "
-nsGkAtoms
-:
-:
-marquee
 ATK_ROLE_ANIMATION
 NSAccessibilityUnknownRole
 "
@@ -1284,10 +1124,6 @@ EQUATION
 "
 equation
 "
-nsGkAtoms
-:
-:
-math
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -1308,7 +1144,6 @@ BUTTONDROPDOWN
 "
 buttondropdown
 "
-nullptr
 ATK_ROLE_PUSH_BUTTON
 NSAccessibilityPopUpButtonRole
 NSAccessibilityUnknownSubrole
@@ -1329,10 +1164,6 @@ BUTTONMENU
 "
 buttonmenu
 "
-nsGkAtoms
-:
-:
-button
 ATK_ROLE_PUSH_BUTTON
 NSAccessibilityMenuButtonRole
 NSAccessibilityUnknownSubrole
@@ -1353,7 +1184,6 @@ BUTTONDROPDOWNGRID
 "
 buttondropdowngrid
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -1374,7 +1204,6 @@ WHITESPACE
 "
 whitespace
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -1395,10 +1224,6 @@ PAGETABLIST
 "
 pagetablist
 "
-nsGkAtoms
-:
-:
-tablist
 ATK_ROLE_PAGE_TAB_LIST
 NSAccessibilityTabGroupRole
 NSAccessibilityUnknownSubrole
@@ -1419,7 +1244,6 @@ CLOCK
 "
 clock
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -1440,7 +1264,6 @@ SPLITBUTTON
 "
 splitbutton
 "
-nullptr
 ATK_ROLE_PUSH_BUTTON
 NSAccessibilityButtonRole
 NSAccessibilityUnknownSubrole
@@ -1461,7 +1284,6 @@ IPADDRESS
 "
 ipaddress
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -1483,7 +1305,6 @@ ACCEL_LABEL
 accel
 label
 "
-nullptr
 ATK_ROLE_ACCEL_LABEL
 NSAccessibilityStaticTextRole
 NSAccessibilityUnknownSubrole
@@ -1504,7 +1325,6 @@ ARROW
 "
 arrow
 "
-nullptr
 ATK_ROLE_ARROW
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -1525,7 +1345,6 @@ CANVAS
 "
 canvas
 "
-nullptr
 ATK_ROLE_CANVAS
 NSAccessibilityImageRole
 NSAccessibilityUnknownSubrole
@@ -1548,10 +1367,6 @@ check
 menu
 item
 "
-nsGkAtoms
-:
-:
-menuitemcheckbox
 ATK_ROLE_CHECK_MENU_ITEM
 NSAccessibilityMenuItemRole
 NSAccessibilityUnknownSubrole
@@ -1573,7 +1388,6 @@ COLOR_CHOOSER
 color
 chooser
 "
-nullptr
 ATK_ROLE_COLOR_CHOOSER
 NSAccessibilityColorWellRole
 NSAccessibilityUnknownSubrole
@@ -1595,7 +1409,6 @@ DATE_EDITOR
 date
 editor
 "
-nullptr
 ATK_ROLE_DATE_EDITOR
 "
 AXGroup
@@ -1619,7 +1432,6 @@ DESKTOP_ICON
 desktop
 icon
 "
-nullptr
 ATK_ROLE_DESKTOP_ICON
 NSAccessibilityImageRole
 NSAccessibilityUnknownSubrole
@@ -1641,7 +1453,6 @@ DESKTOP_FRAME
 desktop
 frame
 "
-nullptr
 ATK_ROLE_DESKTOP_FRAME
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -1663,7 +1474,6 @@ DIRECTORY_PANE
 directory
 pane
 "
-nullptr
 ATK_ROLE_DIRECTORY_PANE
 NSAccessibilityBrowserRole
 NSAccessibilityUnknownSubrole
@@ -1685,7 +1495,6 @@ FILE_CHOOSER
 file
 chooser
 "
-nullptr
 ATK_ROLE_FILE_CHOOSER
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -1707,7 +1516,6 @@ FONT_CHOOSER
 font
 chooser
 "
-nullptr
 ATK_ROLE_FONT_CHOOSER
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -1729,7 +1537,6 @@ CHROME_WINDOW
 chrome
 window
 "
-nullptr
 ATK_ROLE_FRAME
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -1751,7 +1558,6 @@ GLASS_PANE
 glass
 pane
 "
-nullptr
 ATK_ROLE_GLASS_PANE
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -1773,7 +1579,6 @@ HTML_CONTAINER
 html
 container
 "
-nullptr
 ATK_ROLE_HTML_CONTAINER
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -1794,7 +1599,6 @@ ICON
 "
 icon
 "
-nullptr
 ATK_ROLE_ICON
 NSAccessibilityImageRole
 NSAccessibilityUnknownSubrole
@@ -1815,7 +1619,6 @@ LABEL
 "
 label
 "
-nullptr
 ATK_ROLE_LABEL
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -1837,7 +1640,6 @@ LAYERED_PANE
 layered
 pane
 "
-nullptr
 ATK_ROLE_LAYERED_PANE
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -1859,7 +1661,6 @@ OPTION_PANE
 option
 pane
 "
-nullptr
 ATK_ROLE_OPTION_PANE
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -1881,7 +1682,6 @@ PASSWORD_TEXT
 password
 text
 "
-nullptr
 ATK_ROLE_PASSWORD_TEXT
 NSAccessibilityTextFieldRole
 NSAccessibilityUnknownSubrole
@@ -1903,7 +1703,6 @@ POPUP_MENU
 popup
 menu
 "
-nullptr
 ATK_ROLE_POPUP_MENU
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -1926,10 +1725,6 @@ radio
 menu
 item
 "
-nsGkAtoms
-:
-:
-menuitemradio
 ATK_ROLE_RADIO_MENU_ITEM
 NSAccessibilityMenuItemRole
 NSAccessibilityUnknownSubrole
@@ -1951,7 +1746,6 @@ ROOT_PANE
 root
 pane
 "
-nullptr
 ATK_ROLE_ROOT_PANE
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -1973,7 +1767,6 @@ SCROLL_PANE
 scroll
 pane
 "
-nullptr
 ATK_ROLE_SCROLL_PANE
 NSAccessibilityScrollAreaRole
 NSAccessibilityUnknownSubrole
@@ -1995,7 +1788,6 @@ SPLIT_PANE
 split
 pane
 "
-nullptr
 ATK_ROLE_SPLIT_PANE
 NSAccessibilitySplitGroupRole
 NSAccessibilityUnknownSubrole
@@ -2018,7 +1810,6 @@ table
 column
 header
 "
-nullptr
 ATK_ROLE_TABLE_COLUMN_HEADER
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -2041,7 +1832,6 @@ table
 row
 header
 "
-nullptr
 ATK_ROLE_TABLE_ROW_HEADER
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -2065,7 +1855,6 @@ off
 menu
 item
 "
-nullptr
 ATK_ROLE_TEAR_OFF_MENU_ITEM
 NSAccessibilityMenuItemRole
 NSAccessibilityUnknownSubrole
@@ -2086,7 +1875,6 @@ TERMINAL
 "
 terminal
 "
-nullptr
 ATK_ROLE_TERMINAL
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -2108,10 +1896,6 @@ TEXT_CONTAINER
 text
 container
 "
-nsGkAtoms
-:
-:
-generic
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -2133,10 +1917,6 @@ TOGGLE_BUTTON
 toggle
 button
 "
-nsGkAtoms
-:
-:
-button
 ATK_ROLE_TOGGLE_BUTTON
 NSAccessibilityCheckBoxRole
 NSAccessibilityToggleSubrole
@@ -2158,10 +1938,6 @@ TREE_TABLE
 tree
 table
 "
-nsGkAtoms
-:
-:
-treegrid
 ATK_ROLE_TREE_TABLE
 NSAccessibilityTableRole
 NSAccessibilityUnknownSubrole
@@ -2182,7 +1958,6 @@ VIEWPORT
 "
 viewport
 "
-nullptr
 ATK_ROLE_VIEWPORT
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -2203,7 +1978,6 @@ HEADER
 "
 header
 "
-nullptr
 ATK_ROLE_HEADER
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -2224,7 +1998,6 @@ FOOTER
 "
 footer
 "
-nullptr
 ATK_ROLE_FOOTER
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -2245,10 +2018,6 @@ PARAGRAPH
 "
 paragraph
 "
-nsGkAtoms
-:
-:
-paragraph
 ATK_ROLE_PARAGRAPH
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -2269,7 +2038,6 @@ RULER
 "
 ruler
 "
-nullptr
 ATK_ROLE_RULER
 NSAccessibilityRulerRole
 NSAccessibilityUnknownSubrole
@@ -2290,7 +2058,6 @@ AUTOCOMPLETE
 "
 autocomplete
 "
-nullptr
 ATK_ROLE_AUTOCOMPLETE
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -2311,7 +2078,6 @@ EDITBAR
 "
 editbar
 "
-nullptr
 ATK_ROLE_EDITBAR
 NSAccessibilityTextFieldRole
 NSAccessibilityUnknownSubrole
@@ -2332,10 +2098,6 @@ ENTRY
 "
 entry
 "
-nsGkAtoms
-:
-:
-textbox
 ATK_ROLE_ENTRY
 NSAccessibilityTextFieldRole
 NSAccessibilityUnknownSubrole
@@ -2356,10 +2118,6 @@ CAPTION
 "
 caption
 "
-nsGkAtoms
-:
-:
-caption
 ATK_ROLE_CAPTION
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -2383,10 +2141,6 @@ non
 native
 document
 "
-nsGkAtoms
-:
-:
-document
 ATK_ROLE_DOCUMENT_FRAME
 NSAccessibilityGroupRole
 "
@@ -2409,10 +2163,6 @@ HEADING
 "
 heading
 "
-nsGkAtoms
-:
-:
-heading
 ATK_ROLE_HEADING
 "
 AXHeading
@@ -2435,7 +2185,6 @@ PAGE
 "
 page
 "
-nullptr
 ATK_ROLE_PAGE
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -2456,10 +2205,6 @@ SECTION
 "
 section
 "
-nsGkAtoms
-:
-:
-generic
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -2481,7 +2226,6 @@ REDUNDANT_OBJECT
 redundant
 object
 "
-nullptr
 ATK_ROLE_REDUNDANT_OBJECT
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -2502,10 +2246,6 @@ FORM
 "
 form
 "
-nsGkAtoms
-:
-:
-form
 ATK_ROLE_FORM
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -2526,7 +2266,6 @@ IME
 "
 ime
 "
-nullptr
 ATK_ROLE_INPUT_METHOD_WINDOW
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -2548,7 +2287,6 @@ APP_ROOT
 app
 root
 "
-nullptr
 ATK_ROLE_APPLICATION
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownSubrole
@@ -2570,10 +2308,6 @@ PARENT_MENUITEM
 parent
 menuitem
 "
-nsGkAtoms
-:
-:
-menuitem
 ATK_ROLE_MENU
 NSAccessibilityMenuItemRole
 NSAccessibilityUnknownSubrole
@@ -2594,7 +2328,6 @@ CALENDAR
 "
 calendar
 "
-nullptr
 ATK_ROLE_CALENDAR
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -2616,10 +2349,6 @@ COMBOBOX_LIST
 combobox
 list
 "
-nsGkAtoms
-:
-:
-listbox
 ATK_ROLE_MENU
 NSAccessibilityMenuRole
 NSAccessibilityUnknownSubrole
@@ -2641,10 +2370,6 @@ COMBOBOX_OPTION
 combobox
 option
 "
-nsGkAtoms
-:
-:
-option
 ATK_ROLE_MENU_ITEM
 NSAccessibilityMenuItemRole
 NSAccessibilityUnknownSubrole
@@ -2666,10 +2391,6 @@ IMAGE_MAP
 image
 map
 "
-nsGkAtoms
-:
-:
-img
 ATK_ROLE_IMAGE
 "
 AXImageMap
@@ -2693,10 +2414,6 @@ OPTION
 listbox
 option
 "
-nsGkAtoms
-:
-:
-option
 ATK_ROLE_LIST_ITEM
 NSAccessibilityStaticTextRole
 NSAccessibilityUnknownSubrole
@@ -2719,7 +2436,6 @@ listbox
 rich
 option
 "
-nullptr
 ATK_ROLE_LIST_ITEM
 NSAccessibilityRowRole
 NSAccessibilityUnknownSubrole
@@ -2740,10 +2456,6 @@ LISTBOX
 "
 listbox
 "
-nsGkAtoms
-:
-:
-listbox
 ATK_ROLE_LIST_BOX
 NSAccessibilityListRole
 NSAccessibilityUnknownSubrole
@@ -2765,10 +2477,6 @@ FLAT_EQUATION
 flat
 equation
 "
-nsGkAtoms
-:
-:
-math
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 "
@@ -2791,10 +2499,6 @@ GRID_CELL
 "
 gridcell
 "
-nsGkAtoms
-:
-:
-gridcell
 ATK_ROLE_TABLE_CELL
 NSAccessibilityCellRole
 NSAccessibilityUnknownSubrole
@@ -2816,7 +2520,6 @@ EMBEDDED_OBJECT
 embedded
 object
 "
-nullptr
 ATK_ROLE_PANEL
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -2837,10 +2540,6 @@ NOTE
 "
 note
 "
-nsGkAtoms
-:
-:
-note_
 ATK_ROLE_COMMENT
 NSAccessibilityGroupRole
 "
@@ -2863,10 +2562,6 @@ FIGURE
 "
 figure
 "
-nsGkAtoms
-:
-:
-figure
 ATK_ROLE_PANEL
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -2889,7 +2584,6 @@ check
 rich
 option
 "
-nullptr
 ATK_ROLE_CHECK_BOX
 NSAccessibilityCheckBoxRole
 NSAccessibilityUnknownSubrole
@@ -2910,7 +2604,6 @@ DEFINITION_LIST
 "
 definitionlist
 "
-nullptr
 ATK_ROLE_LIST
 NSAccessibilityListRole
 "
@@ -2933,7 +2626,6 @@ TERM
 "
 term
 "
-nullptr
 ATK_ROLE_DESCRIPTION_TERM
 NSAccessibilityGroupRole
 "
@@ -2956,7 +2648,6 @@ DEFINITION
 "
 definition
 "
-nullptr
 ATK_ROLE_PARAGRAPH
 NSAccessibilityGroupRole
 "
@@ -2979,7 +2670,6 @@ KEY
 "
 key
 "
-nullptr
 ATK_ROLE_PUSH_BUTTON
 NSAccessibilityButtonRole
 NSAccessibilityUnknownSubrole
@@ -3000,10 +2690,6 @@ SWITCH
 "
 switch
 "
-nsGkAtoms
-:
-:
-svgSwitch
 ATK_ROLE_TOGGLE_BUTTON
 NSAccessibilityCheckBoxRole
 NSAccessibilitySwitchSubrole
@@ -3024,10 +2710,6 @@ MATHML_MATH
 "
 math
 "
-nsGkAtoms
-:
-:
-math
 ATK_ROLE_MATH
 NSAccessibilityGroupRole
 "
@@ -3051,7 +2733,6 @@ MATHML_IDENTIFIER
 mathml
 identifier
 "
-nullptr
 ATK_ROLE_STATIC
 NSAccessibilityGroupRole
 "
@@ -3075,7 +2756,6 @@ MATHML_NUMBER
 mathml
 number
 "
-nullptr
 ATK_ROLE_STATIC
 NSAccessibilityGroupRole
 "
@@ -3099,7 +2779,6 @@ MATHML_OPERATOR
 mathml
 operator
 "
-nullptr
 ATK_ROLE_STATIC
 NSAccessibilityGroupRole
 "
@@ -3123,7 +2802,6 @@ MATHML_TEXT
 mathml
 text
 "
-nullptr
 ATK_ROLE_STATIC
 NSAccessibilityGroupRole
 "
@@ -3148,7 +2826,6 @@ mathml
 string
 literal
 "
-nullptr
 ATK_ROLE_STATIC
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -3170,7 +2847,6 @@ MATHML_GLYPH
 mathml
 glyph
 "
-nullptr
 ATK_ROLE_IMAGE
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -3192,7 +2868,6 @@ MATHML_ROW
 mathml
 row
 "
-nullptr
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 "
@@ -3216,7 +2891,6 @@ MATHML_FRACTION
 mathml
 fraction
 "
-nullptr
 ATK_ROLE_MATH_FRACTION
 NSAccessibilityGroupRole
 "
@@ -3241,7 +2915,6 @@ mathml
 square
 root
 "
-nullptr
 ATK_ROLE_MATH_ROOT
 NSAccessibilityGroupRole
 "
@@ -3265,7 +2938,6 @@ MATHML_ROOT
 mathml
 root
 "
-nullptr
 ATK_ROLE_MATH_ROOT
 NSAccessibilityGroupRole
 "
@@ -3289,7 +2961,6 @@ MATHML_ENCLOSED
 mathml
 enclosed
 "
-nullptr
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -3311,7 +2982,6 @@ MATHML_STYLE
 mathml
 style
 "
-nullptr
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 "
@@ -3335,7 +3005,6 @@ MATHML_SUB
 mathml
 sub
 "
-nullptr
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 "
@@ -3359,7 +3028,6 @@ MATHML_SUP
 mathml
 sup
 "
-nullptr
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 "
@@ -3384,7 +3052,6 @@ mathml
 sub
 sup
 "
-nullptr
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 "
@@ -3408,7 +3075,6 @@ MATHML_UNDER
 mathml
 under
 "
-nullptr
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 "
@@ -3432,7 +3098,6 @@ MATHML_OVER
 mathml
 over
 "
-nullptr
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 "
@@ -3457,7 +3122,6 @@ mathml
 under
 over
 "
-nullptr
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 "
@@ -3481,7 +3145,6 @@ MATHML_MULTISCRIPTS
 mathml
 multiscripts
 "
-nullptr
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 "
@@ -3505,7 +3168,6 @@ MATHML_TABLE
 mathml
 table
 "
-nullptr
 ATK_ROLE_TABLE
 NSAccessibilityGroupRole
 "
@@ -3530,7 +3192,6 @@ mathml
 labeled
 row
 "
-nullptr
 ATK_ROLE_TABLE_ROW
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -3553,7 +3214,6 @@ mathml
 table
 row
 "
-nullptr
 ATK_ROLE_TABLE_ROW
 NSAccessibilityGroupRole
 "
@@ -3577,7 +3237,6 @@ MATHML_CELL
 mathml
 cell
 "
-nullptr
 ATK_ROLE_TABLE_CELL
 NSAccessibilityGroupRole
 "
@@ -3601,7 +3260,6 @@ MATHML_ACTION
 mathml
 action
 "
-nullptr
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -3623,7 +3281,6 @@ MATHML_ERROR
 mathml
 error
 "
-nullptr
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 "
@@ -3647,7 +3304,6 @@ MATHML_STACK
 mathml
 stack
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -3670,7 +3326,6 @@ mathml
 long
 division
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -3693,7 +3348,6 @@ mathml
 stack
 group
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -3716,7 +3370,6 @@ mathml
 stack
 row
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -3739,7 +3392,6 @@ mathml
 stack
 carries
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -3762,7 +3414,6 @@ mathml
 stack
 carry
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -3785,7 +3436,6 @@ mathml
 stack
 line
 "
-nullptr
 ATK_ROLE_UNKNOWN
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -3806,10 +3456,6 @@ RADIO_GROUP
 "
 grouping
 "
-nsGkAtoms
-:
-:
-radiogroup
 ATK_ROLE_PANEL
 NSAccessibilityRadioGroupRole
 NSAccessibilityUnknownSubrole
@@ -3830,10 +3476,6 @@ TEXT
 "
 text
 "
-nsGkAtoms
-:
-:
-generic
 ATK_ROLE_STATIC
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -3854,10 +3496,6 @@ DETAILS
 "
 details
 "
-nsGkAtoms
-:
-:
-group
 ATK_ROLE_PANEL
 NSAccessibilityGroupRole
 "
@@ -3880,7 +3518,6 @@ SUMMARY
 "
 summary
 "
-nullptr
 ATK_ROLE_PUSH_BUTTON
 NSAccessibilityButtonRole
 "
@@ -3903,7 +3540,6 @@ LANDMARK
 "
 landmark
 "
-nullptr
 ATK_ROLE_LANDMARK
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -3924,7 +3560,6 @@ NAVIGATION
 "
 navigation
 "
-nullptr
 ATK_ROLE_LANDMARK
 NSAccessibilityGroupRole
 "
@@ -3947,7 +3582,6 @@ FOOTNOTE
 "
 footnote
 "
-nullptr
 ATK_ROLE_FOOTNOTE
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -3968,10 +3602,6 @@ ARTICLE
 "
 article
 "
-nsGkAtoms
-:
-:
-article
 ATK_ROLE_ARTICLE
 NSAccessibilityGroupRole
 "
@@ -3994,10 +3624,6 @@ REGION
 "
 region
 "
-nsGkAtoms
-:
-:
-region
 ATK_ROLE_LANDMARK
 NSAccessibilityGroupRole
 "
@@ -4020,10 +3646,6 @@ EDITCOMBOBOX
 "
 editcombobox
 "
-nsGkAtoms
-:
-:
-combobox
 ATK_ROLE_COMBO_BOX
 NSAccessibilityComboBoxRole
 NSAccessibilityUnknownSubrole
@@ -4044,10 +3666,6 @@ BLOCKQUOTE
 "
 blockquote
 "
-nsGkAtoms
-:
-:
-blockquote
 ATK_ROLE_BLOCK_QUOTE
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -4069,10 +3687,6 @@ CONTENT_DELETION
 content
 deletion
 "
-nsGkAtoms
-:
-:
-deletion
 ATK_ROLE_CONTENT_DELETION
 NSAccessibilityGroupRole
 "
@@ -4096,10 +3710,6 @@ CONTENT_INSERTION
 content
 insertion
 "
-nsGkAtoms
-:
-:
-insertion
 ATK_ROLE_CONTENT_INSERTION
 NSAccessibilityGroupRole
 "
@@ -4122,10 +3732,6 @@ FORM_LANDMARK
 "
 form
 "
-nsGkAtoms
-:
-:
-form
 ATK_ROLE_LANDMARK
 NSAccessibilityGroupRole
 "
@@ -4148,10 +3754,6 @@ MARK
 "
 mark
 "
-nsGkAtoms
-:
-:
-mark
 ATK_ROLE_MARK
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -4172,10 +3774,6 @@ SUGGESTION
 "
 suggestion
 "
-nsGkAtoms
-:
-:
-suggestion
 ATK_ROLE_SUGGESTION
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -4196,10 +3794,6 @@ COMMENT
 "
 comment
 "
-nsGkAtoms
-:
-:
-comment
 ATK_ROLE_COMMENT
 NSAccessibilityGroupRole
 NSAccessibilityUnknownSubrole
@@ -4220,10 +3814,6 @@ CODE
 "
 code
 "
-nsGkAtoms
-:
-:
-code
 ATK_ROLE_STATIC
 NSAccessibilityGroupRole
 "
@@ -4247,7 +3837,6 @@ TIME_EDITOR
 time
 editor
 "
-nullptr
 ATK_ROLE_PANEL
 "
 AXTimeField
@@ -4272,7 +3861,6 @@ list
 item
 marker
 "
-nullptr
 ATK_ROLE_UNKNOWN
 "
 AXListMarker
@@ -4295,10 +3883,6 @@ METER
 "
 meter
 "
-nsGkAtoms
-:
-:
-meter
 ATK_ROLE_LEVEL_BAR
 "
 AXLevelIndicator
@@ -4321,10 +3905,6 @@ SUBSCRIPT
 "
 subscript
 "
-nsGkAtoms
-:
-:
-subscript
 ATK_ROLE_SUBSCRIPT
 NSAccessibilityGroupRole
 "
@@ -4347,10 +3927,6 @@ SUPERSCRIPT
 "
 superscript
 "
-nsGkAtoms
-:
-:
-superscript
 ATK_ROLE_SUPERSCRIPT
 NSAccessibilityGroupRole
 "

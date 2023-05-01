@@ -50,9 +50,6 @@ h
 class
 nsAtom
 ;
-class
-nsStaticAtom
-;
 struct
 nsRoleMapEntry
 ;
@@ -986,13 +983,6 @@ aLocale
 =
 0
 ;
-nsStaticAtom
-*
-ComputedARIARole
-(
-)
-const
-;
 virtual
 void
 TakeFocus
@@ -1037,7 +1027,7 @@ const
 0
 ;
 virtual
-nsStaticAtom
+nsAtom
 *
 LandmarkRole
 (

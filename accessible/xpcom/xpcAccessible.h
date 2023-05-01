@@ -503,15 +503,6 @@ aPriority
 )
 final
 ;
-NS_IMETHOD
-GetComputedARIARole
-(
-nsAString
-&
-aRole
-)
-final
-;
 protected
 :
 xpcAccessible
