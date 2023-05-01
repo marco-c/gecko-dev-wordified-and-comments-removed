@@ -738,6 +738,9 @@ networkProxyCategory
 "
 dataMigrationGroup
 "
+"
+translationsGroup
+"
 ]
 ;
 if

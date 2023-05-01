@@ -5441,7 +5441,7 @@ from
 await
 this
 .
-getMatchedRecords
+getRecordsForTranslatingToAndFromAppLanguage
 (
 language
 isForDeletion
@@ -5539,7 +5539,7 @@ of
 await
 this
 .
-getMatchedRecords
+getRecordsForTranslatingToAndFromAppLanguage
 (
 language
 )
@@ -5958,7 +5958,7 @@ of
 await
 this
 .
-getMatchedRecords
+getRecordsForTranslatingToAndFromAppLanguage
 (
 requestedLanguage
 true
