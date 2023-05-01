@@ -2238,9 +2238,12 @@ I64TeeStore
 F32TeeStore
 F64TeeStore
 F64Mod
-F64Sin
-F64Cos
-F64Tan
+F64SinNative
+F64SinFdlibm
+F64CosNative
+F64CosFdlibm
+F64TanNative
+F64TanFdlibm
 F64Asin
 F64Acos
 F64Atan
