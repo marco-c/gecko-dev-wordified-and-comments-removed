@@ -333,7 +333,7 @@ nullptr
 log
 (
 "
-childvaapitest
+vaapitest
 start
 device
 %
@@ -1096,7 +1096,7 @@ n
 log
 (
 "
-childvaapitest
+vaapitest
 finished
 \
 n
@@ -1361,6 +1361,21 @@ env
 1
 '
 ;
+output_pipe
+=
+OUTPUT_PIPE
+;
+if
+(
+!
+enable_logging
+)
+{
+close_logging
+(
+)
+;
+}
 vaapitest
 (
 drmDevice
@@ -1368,7 +1383,6 @@ drmDevice
 ;
 record_flush
 (
-OUTPUT_PIPE
 )
 ;
 return
