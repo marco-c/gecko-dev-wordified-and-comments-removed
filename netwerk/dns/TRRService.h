@@ -449,17 +449,6 @@ nsACString
 aTRRDomain
 )
 ;
-static
-void
-SetCurrentTRRMode
-(
-nsIDNSService
-:
-:
-ResolverMode
-aMode
-)
-;
 void
 InitTRRConnectionInfo
 (

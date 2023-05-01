@@ -4181,11 +4181,6 @@ aXPCOMInit
 trrMode
 (
 )
-aXPCOMInit
-.
-trrModeFromPref
-(
-)
 )
 ;
 }
@@ -11794,10 +11789,6 @@ nsIDNSService
 ResolverMode
 &
 mode
-const
-uint32_t
-&
-modeFromPref
 )
 {
 RefPtr
@@ -11833,7 +11824,6 @@ dnsServiceChild
 SetTRRModeInChild
 (
 mode
-modeFromPref
 )
 ;
 }
