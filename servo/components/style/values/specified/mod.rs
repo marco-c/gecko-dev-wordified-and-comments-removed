@@ -1694,6 +1694,7 @@ CalcNode
 :
 math_function
 (
+context
 name
 location
 )
@@ -3767,6 +3768,7 @@ CalcNode
 :
 math_function
 (
+context
 name
 location
 )

@@ -3260,6 +3260,7 @@ CalcNode
 :
 math_function
 (
+context
 name
 location
 )
@@ -6163,6 +6164,10 @@ math_function
 i
 >
 (
+context
+:
+&
+ParserContext
 name
 :
 &
@@ -6254,6 +6259,16 @@ clone
 let
 enabled
 =
+if
+context
+.
+chrome_rules_enabled
+(
+)
+{
+true
+}
+else
 if
 matches
 !
