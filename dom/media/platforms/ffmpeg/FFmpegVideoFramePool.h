@@ -426,11 +426,10 @@ bool
 >
 mTextureCreationWorks
 ;
-Maybe
-<
 bool
->
 mTextureCopyWorks
+=
+true
 ;
 }
 ;
