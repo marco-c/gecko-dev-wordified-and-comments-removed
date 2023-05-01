@@ -986,6 +986,13 @@ aLocale
 =
 0
 ;
+nsStaticAtom
+*
+ComputedARIARole
+(
+)
+const
+;
 virtual
 void
 TakeFocus
