@@ -1349,6 +1349,13 @@ nsIDNSService
 ResolverMode
 &
 mode
+const
+nsIDNSService
+:
+:
+ResolverMode
+&
+modeFromPref
 )
 ;
 mozilla
