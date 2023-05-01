@@ -156,7 +156,7 @@ Button
 role
 :
 "
-pushbutton
+button
 "
 childCount
 :
@@ -184,7 +184,7 @@ Button
 role
 :
 "
-pushbutton
+button
 "
 value
 :
