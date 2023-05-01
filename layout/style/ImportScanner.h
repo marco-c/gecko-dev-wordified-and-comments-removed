@@ -102,6 +102,11 @@ Done
 }
 ;
 void
+ResetState
+(
+)
+;
+void
 EmitUrl
 (
 )
@@ -145,6 +150,12 @@ nsAutoStringN
 128
 >
 mRuleValue
+;
+nsAutoStringN
+<
+128
+>
+mAfterRuleValue
 ;
 nsTArray
 <
