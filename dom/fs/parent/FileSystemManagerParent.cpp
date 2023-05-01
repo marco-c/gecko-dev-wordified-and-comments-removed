@@ -632,9 +632,6 @@ response
 ;
 }
 ;
-ContentType
-type
-;
 QM_TRY_UNWRAP
 (
 fs
@@ -657,7 +654,6 @@ aRequest
 handle
 (
 )
-type
 aRequest
 .
 create
@@ -1169,10 +1165,7 @@ rv
 ;
 }
 ;
-fs
-:
-:
-ContentType
+nsString
 type
 ;
 fs
@@ -1458,10 +1451,7 @@ rv
 ;
 }
 ;
-fs
-:
-:
-ContentType
+nsString
 type
 ;
 fs
@@ -1579,10 +1569,7 @@ path
 LastElement
 (
 )
-NS_ConvertUTF8toUTF16
-(
 type
-)
 )
 ;
 IPCBlob

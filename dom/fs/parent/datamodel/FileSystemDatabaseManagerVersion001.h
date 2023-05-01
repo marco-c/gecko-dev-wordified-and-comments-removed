@@ -155,10 +155,6 @@ const
 FileSystemChildMetadata
 &
 aHandle
-const
-ContentType
-&
-aType
 bool
 aCreate
 )
@@ -172,7 +168,7 @@ const
 EntryId
 &
 aEntryId
-ContentType
+nsString
 &
 aType
 TimeStamp

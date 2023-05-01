@@ -31,7 +31,7 @@ fs
 using
 ContentType
 =
-nsCString
+nsString
 ;
 using
 DatabaseVersion
