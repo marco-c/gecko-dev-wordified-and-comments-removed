@@ -56,6 +56,9 @@ nsStaticAtom
 struct
 nsRoleMapEntry
 ;
+class
+nsIURI
+;
 namespace
 mozilla
 {
@@ -1810,6 +1813,18 @@ AnchorCount
 (
 )
 ;
+virtual
+already_AddRefed
+<
+nsIURI
+>
+AnchorURIAt
+(
+uint32_t
+aAnchorIndex
+)
+const
+;
 Accessible
 *
 AnchorAt
@@ -1817,6 +1832,7 @@ AnchorAt
 uint32_t
 aAnchorIndex
 )
+const
 ;
 virtual
 bool
