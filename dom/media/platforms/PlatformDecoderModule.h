@@ -2206,10 +2206,7 @@ true
 >
 FlushPromise
 ;
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-MediaDataDecoder
-)
+NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
 virtual
 RefPtr
 <

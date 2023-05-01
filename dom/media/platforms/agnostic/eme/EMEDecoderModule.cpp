@@ -346,6 +346,7 @@ mFrequencyIndex
 ;
 class
 EMEDecryptor
+final
 :
 public
 MediaDataDecoder
@@ -357,6 +358,12 @@ EMEDecryptor
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+EMEDecryptor
+final
+)
+;
 EMEDecryptor
 (
 MediaDataDecoder
@@ -1555,6 +1562,13 @@ NeedsConversion
 }
 private
 :
+~
+EMEDecryptor
+(
+)
+=
+default
+;
 RefPtr
 <
 MediaDataDecoder
