@@ -1922,11 +1922,6 @@ browsertime
 high
 -
 priority
-#
--
-raptor
--
-firefox
 macosx1015
 -
 64

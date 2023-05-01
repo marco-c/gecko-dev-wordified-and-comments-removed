@@ -271,12 +271,6 @@ mochitest
 .
 yml
 -
-raptor
--
-chrome
-.
-yml
--
 reftest
 .
 yml
