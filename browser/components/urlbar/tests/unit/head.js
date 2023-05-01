@@ -3290,7 +3290,7 @@ promiseAsyncUpdates
 (
 )
 ;
-let
+const
 controller
 =
 UrlbarTestUtils

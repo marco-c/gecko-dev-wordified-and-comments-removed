@@ -2667,7 +2667,7 @@ assertEngagementTelemetry
 selected_result
 :
 "
-suggest_sponsor
+rs_suggest_sponsor
 "
 selected_result_subtype
 :
@@ -2682,7 +2682,7 @@ results
 :
 "
 search_engine
-suggest_sponsor
+rs_suggest_sponsor
 "
 }
 ]
@@ -2758,7 +2758,7 @@ assertEngagementTelemetry
 selected_result
 :
 "
-suggest_non_sponsor
+rs_suggest_non_sponsor
 "
 selected_result_subtype
 :
@@ -2773,7 +2773,7 @@ results
 :
 "
 search_engine
-suggest_non_sponsor
+rs_suggest_non_sponsor
 "
 }
 ]
@@ -3100,7 +3100,7 @@ assertEngagementTelemetry
 selected_result
 :
 "
-navigational
+merino_navigational
 "
 selected_result_subtype
 :
@@ -3115,7 +3115,7 @@ results
 :
 "
 search_engine
-navigational
+merino_navigational
 "
 }
 ]
@@ -3265,7 +3265,7 @@ assertEngagementTelemetry
 selected_result
 :
 "
-dynamic_wikipedia
+merino_dynamic_wikipedia
 "
 selected_result_subtype
 :
@@ -3280,7 +3280,7 @@ results
 :
 "
 search_engine
-dynamic_wikipedia
+merino_dynamic_wikipedia
 "
 }
 ]
