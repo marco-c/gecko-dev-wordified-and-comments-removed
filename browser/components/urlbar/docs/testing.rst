@@ -1880,7 +1880,9 @@ UrlbarTestUtils
 ~
 UrlbarTestUtils
 .
-jsm
+sys
+.
+mjs
 <
 https
 :
@@ -1898,8 +1900,7 @@ source
 /
 browser
 /
-comp
-onents
+components
 /
 urlbar
 /
@@ -1907,7 +1908,9 @@ tests
 /
 UrlbarTestUtils
 .
-jsm
+sys
+.
+mjs
 >
 _
 is
