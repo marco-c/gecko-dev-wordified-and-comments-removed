@@ -1190,9 +1190,8 @@ false
 HMODULE
 ntdll_module
 =
-LoadLibraryExW
+LoadLibraryEx
 (
-L
 "
 ntdll
 .
