@@ -196,9 +196,6 @@ GL_ARB_texture_rectangle
 GL_ARB_texture_storage
 "
 "
-GL_ARB_vertex_attrib_binding
-"
-"
 GL_EXT_debug_marker
 "
 "
@@ -325,9 +322,6 @@ GL_KHR_blend_equation_advanced_coherent
 "
 "
 GL_ANGLE_copy_texture_3d
-"
-"
-GL_QCOM_tiled_rendering
 "
 ]
 ;
