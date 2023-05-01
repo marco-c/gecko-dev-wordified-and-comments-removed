@@ -220,6 +220,10 @@ tidy
 ^
 \
 .
+clangd
+^
+\
+.
 mozconfig
 ^
 mozconfig
