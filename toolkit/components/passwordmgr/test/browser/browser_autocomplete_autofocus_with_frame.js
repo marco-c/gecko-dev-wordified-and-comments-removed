@@ -65,11 +65,12 @@ password1
 }
 )
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 login
 )
@@ -118,11 +119,12 @@ password2
 }
 )
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 login
 )

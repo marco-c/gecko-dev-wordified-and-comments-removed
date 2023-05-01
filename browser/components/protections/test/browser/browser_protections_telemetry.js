@@ -1326,11 +1326,12 @@ gBrowser
 }
 )
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 TEST_LOGIN1
 )
