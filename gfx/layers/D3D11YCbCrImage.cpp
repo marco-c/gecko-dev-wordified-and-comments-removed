@@ -161,8 +161,10 @@ aData
 .
 mChromaSubsampling
 ;
+RefPtr
+<
 D3D11YCbCrRecycleAllocator
-*
+>
 allocator
 =
 aContainer
