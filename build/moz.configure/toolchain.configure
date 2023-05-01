@@ -4115,7 +4115,6 @@ result
 depends
 (
 mozillabuild_bin_paths
-vc_toolchain_search_path
 )
 imports
 (
@@ -4127,17 +4126,11 @@ def
 altered_path
 (
 mozillabuild_bin_paths
-vc_toolchain_search_path
 )
 :
 altered_path
 =
 mozillabuild_bin_paths
-+
-list
-(
-vc_toolchain_search_path
-)
 for
 p
 in
