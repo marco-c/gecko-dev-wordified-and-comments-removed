@@ -3361,6 +3361,14 @@ currentTime
 ;
 }
 }
+if
+(
+mCanceled
+)
+{
+return
+;
+}
 mIncomingBuffer
 .
 Clear
