@@ -879,7 +879,6 @@ name
 )
 \
 {
-\
 #
 name
 JS
@@ -889,7 +888,6 @@ Int32Value
 (
 name
 )
-\
 }
 #
 define
@@ -899,7 +897,6 @@ name
 )
 \
 {
-\
 #
 name
 JS
@@ -909,7 +906,6 @@ NumberValue
 (
 name
 )
-\
 }
 #
 define
