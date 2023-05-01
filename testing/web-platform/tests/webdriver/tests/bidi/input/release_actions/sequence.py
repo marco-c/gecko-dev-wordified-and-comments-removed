@@ -48,14 +48,21 @@ test_release_char_sequence_sends_keyup_events_in_reverse
     
 bidi_session
 top_context
-test_actions_page_bidi
+load_static_test_page
 get_focused_key_input
 )
 :
     
 await
-test_actions_page_bidi
+load_static_test_page
 (
+page
+=
+"
+test_actions
+.
+html
+"
 )
     
 await
@@ -286,15 +293,22 @@ bidi_session
     
 top_context
     
-test_actions_page_bidi
+load_static_test_page
     
 release_actions
 )
 :
     
 await
-test_actions_page_bidi
+load_static_test_page
 (
+page
+=
+"
+test_actions
+.
+html
+"
 )
     
 reporter

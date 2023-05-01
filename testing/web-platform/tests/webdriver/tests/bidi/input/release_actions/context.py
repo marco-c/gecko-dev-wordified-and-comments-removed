@@ -48,14 +48,21 @@ test_different_top_level_contexts
 bidi_session
 new_tab
 top_context
-test_actions_page_bidi
+load_static_test_page
 get_focused_key_input
 )
 :
     
 await
-test_actions_page_bidi
+load_static_test_page
 (
+page
+=
+"
+test_actions
+.
+html
+"
 )
     
 await

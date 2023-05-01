@@ -2216,7 +2216,7 @@ pytest
 .
 fixture
 def
-test_actions_page_bidi
+load_static_test_page
 (
 bidi_session
 url
@@ -2229,9 +2229,15 @@ top_context
 "
 Navigate
 to
-test_actions
-.
+a
+test
+page
+from
+the
+support
+/
 html
+folder
 .
 "
 "
@@ -2239,8 +2245,9 @@ html
     
 async
 def
-test_actions_page_bidi
+load_static_test_page
 (
+page
 context
 =
 top_context
@@ -2268,6 +2275,7 @@ url
 =
 url
 (
+f
 "
 /
 webdriver
@@ -2278,9 +2286,9 @@ support
 /
 html
 /
-test_actions
-.
-html
+{
+page
+}
 "
 )
             
@@ -2293,4 +2301,4 @@ complete
 )
     
 return
-test_actions_page_bidi
+load_static_test_page

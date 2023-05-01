@@ -29,14 +29,21 @@ test_release_no_actions_sends_no_events
     
 bidi_session
 top_context
-test_actions_page_bidi
+load_static_test_page
 get_focused_key_input
 )
 :
     
 await
-test_actions_page_bidi
+load_static_test_page
 (
+page
+=
+"
+test_actions
+.
+html
+"
 )
     
 elem
