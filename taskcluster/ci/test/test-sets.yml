@@ -200,6 +200,14 @@ platform
 tests
 -
 wdspec
+-
+web
+-
+platform
+-
+tests
+-
+webgpu
 web
 -
 platform
