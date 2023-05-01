@@ -206,7 +206,6 @@ function
 doSingleTest
 (
 param
-shouldSucceed
 )
 {
 var
@@ -277,10 +276,6 @@ exception
 ex
 ;
 }
-if
-(
-shouldSucceed
-)
 ok
 (
 !
@@ -288,28 +283,6 @@ exception
 "
 failed
 for
-param
-:
-'
-"
-+
-param
-+
-"
-'
-"
-)
-;
-else
-ok
-(
-exception
-"
-did
-not
-fail
-for
-invalid
 param
 :
 '
@@ -506,7 +479,6 @@ doSingleTest
 3
 4
 "
-true
 )
 ;
 doSingleTest
@@ -521,7 +493,6 @@ doSingleTest
 -
 2
 "
-true
 )
 ;
 doSingleTest
@@ -532,14 +503,12 @@ doSingleTest
 1
 1
 "
-true
 )
 ;
 doSingleTest
 (
 "
 "
-false
 )
 ;
 doSingleTest
@@ -547,7 +516,6 @@ doSingleTest
 "
 12123123
 "
-false
 )
 ;
 doSingleTest
@@ -561,7 +529,6 @@ doSingleTest
 -
 1
 "
-true
 )
 ;
 doSingleTest
@@ -575,7 +542,6 @@ doSingleTest
 -
 1
 "
-true
 )
 ;
 doSingleTest
@@ -589,7 +555,6 @@ doSingleTest
 -
 1
 "
-true
 )
 ;
 doSingleTest
@@ -603,7 +568,6 @@ doSingleTest
 1
 0
 "
-true
 )
 ;
 doSingleTest
@@ -614,7 +578,6 @@ doSingleTest
 1234567890
 1234567890
 "
-true
 )
 ;
 doSingleTest
@@ -629,7 +592,6 @@ doSingleTest
 -
 1
 "
-true
 )
 ;
 window
