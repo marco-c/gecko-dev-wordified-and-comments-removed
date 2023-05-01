@@ -91,6 +91,12 @@ direction
 :
 column
 ;
+text
+-
+align
+:
+start
+;
 width
 :
 22
@@ -1185,6 +1191,12 @@ align
 items
 :
 center
+;
+justify
+-
+items
+:
+start
 ;
 }
 .
