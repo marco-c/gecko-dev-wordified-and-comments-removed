@@ -130,8 +130,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 places
 {
 struct
@@ -150,11 +150,13 @@ RECENTLY_VISITED_URIS_SIZE
 #
 define
 RECENTLY_VISITED_URIS_MAX_AGE
+(
 6
 *
 60
 *
 PR_USEC_PER_SEC
+)
 #
 define
 NOTIFY_VISITS_CHUNK_SIZE
@@ -233,7 +235,7 @@ InsertPlace
 (
 VisitData
 &
-aVisitData
+aPlace
 )
 ;
 nsresult
@@ -242,7 +244,7 @@ UpdatePlace
 const
 VisitData
 &
-aVisitData
+aPlace
 )
 ;
 nsresult
@@ -480,7 +482,6 @@ mRecentlyVisitedURIs
 ;
 }
 ;
-}
 }
 #
 endif
