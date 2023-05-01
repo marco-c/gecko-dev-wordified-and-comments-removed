@@ -1127,6 +1127,11 @@ this
 .
 #
 globalObject
+{
+cloneFunctions
+:
+true
+}
 )
 ;
 }
