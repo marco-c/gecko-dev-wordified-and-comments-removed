@@ -4172,10 +4172,8 @@ return
 false
 ;
 }
-RefPtr
-<
 nsWaylandDisplay
->
+*
 waylandDisplay
 =
 widget
