@@ -1973,6 +1973,12 @@ true
 true
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+mForm
+)
+;
 }
 if
 (
