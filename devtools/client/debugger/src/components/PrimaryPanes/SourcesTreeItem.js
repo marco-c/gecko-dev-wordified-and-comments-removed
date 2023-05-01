@@ -1977,7 +1977,7 @@ group
 )
 {
 return
-unescape
+decodeURI
 (
 item
 .
@@ -2010,6 +2010,8 @@ item
 )
 ;
 return
+decodeURI
+(
 item
 .
 path
@@ -2032,6 +2034,7 @@ replace
 /
 "
 "
+)
 )
 ;
 }
@@ -2077,7 +2080,7 @@ search
 )
 ;
 return
-unescape
+decodeURI
 (
 name
 )
