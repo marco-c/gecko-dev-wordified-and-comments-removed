@@ -842,7 +842,7 @@ ReportAllocationOverflow
 xdr
 -
 >
-cx
+fc
 (
 )
 )
@@ -899,7 +899,12 @@ owned
 xdr
 -
 >
-cx
+fc
+(
+)
+-
+>
+getAllocator
 (
 )
 -
