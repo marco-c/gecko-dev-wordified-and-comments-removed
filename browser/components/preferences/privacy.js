@@ -13713,7 +13713,7 @@ checked
 {
 FirefoxRelay
 .
-markAsAvailable
+markAsEnabled
 (
 )
 ;
