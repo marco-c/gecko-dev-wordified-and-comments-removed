@@ -14351,7 +14351,6 @@ cx
 XDRStencilEncoder
 encoder
 (
-cx
 &
 fc
 buf
@@ -14489,7 +14488,6 @@ empty
 XDRStencilDecoder
 decoder
 (
-cx
 fc
 range
 )
@@ -29296,7 +29294,6 @@ cx
 XDRStencilEncoder
 encoder
 (
-cx
 &
 fc
 buffer
@@ -29452,7 +29449,6 @@ Throw
 XDRStencilDecoder
 decoder
 (
-cx
 &
 fc
 range
