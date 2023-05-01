@@ -1993,7 +1993,7 @@ ff
 source
 :
 "
-unknown
+follow_on_from_refine_on_incontent_search
 "
 is_shopping_page
 :
@@ -2228,7 +2228,7 @@ ff
 source
 :
 "
-unknown
+follow_on_from_refine_on_incontent_search
 "
 is_shopping_page
 :
