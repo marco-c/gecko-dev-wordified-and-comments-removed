@@ -6080,10 +6080,14 @@ arguments
 :
 name
 :
-PropertyKey
-strict
+PropertyName
+*
+congruent_to
 :
-bool
+custom
+alias_set
+:
+custom
 possibly_calls
 :
 true
