@@ -71,13 +71,13 @@ length
 =
 =
 =
-4
+6
 )
 ;
 ok
 (
 true
-Three
+Six
 style
 sheets
 for
