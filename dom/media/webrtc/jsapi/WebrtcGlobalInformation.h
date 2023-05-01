@@ -183,8 +183,6 @@ RTCStatsReportInternal
 aReport
 )
 ;
-private
-:
 WebrtcGlobalInformation
 (
 )
