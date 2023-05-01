@@ -2440,6 +2440,12 @@ FireScrolledAreaEvent
 (
 )
 ;
+static
+bool
+IsSmoothScrollingEnabled
+(
+)
+;
 void
 FinishReflowForScrollbar
 (

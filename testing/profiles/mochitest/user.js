@@ -34,13 +34,3 @@ unsuppress_with_no_background
 true
 )
 ;
-user_pref
-(
-"
-general
-.
-smoothScroll
-"
-true
-)
-;

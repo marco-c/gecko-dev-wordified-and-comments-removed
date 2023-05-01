@@ -515,13 +515,3 @@ enabled
 0
 )
 ;
-user_pref
-(
-"
-general
-.
-smoothScroll
-"
-true
-)
-;
