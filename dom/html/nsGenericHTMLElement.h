@@ -990,6 +990,9 @@ dom
 :
 PopoverVisibilityState
 aExpectedState
+Document
+*
+aExpectedDocument
 ErrorResult
 &
 aRv
