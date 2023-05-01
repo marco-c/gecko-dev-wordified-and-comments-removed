@@ -10442,7 +10442,14 @@ false
 -
 name
 :
-WasmGcObjectIsSubtypeOf
+WasmGcObjectIsSubtypeOfConcrete
+gen_boilerplate
+:
+false
+-
+name
+:
+WasmGcObjectIsSubtypeOfAbstract
 gen_boilerplate
 :
 false
