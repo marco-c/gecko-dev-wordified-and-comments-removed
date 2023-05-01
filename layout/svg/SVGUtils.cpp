@@ -1602,6 +1602,11 @@ SVGUtils
 :
 :
 eBBoxIncludeMarkers
+|
+SVGUtils
+:
+:
+eUseUserSpaceOfUseElement
 ;
 auto
 ctm
