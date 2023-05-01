@@ -1508,6 +1508,13 @@ Uninlineable
 _
 (
 MutableFlags
+noEagerBaselineHint
+NoEagerBaselineHint
+)
+\
+_
+(
+MutableFlags
 failedLexicalCheck
 FailedLexicalCheck
 )
