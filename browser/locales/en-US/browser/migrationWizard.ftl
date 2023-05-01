@@ -1100,6 +1100,15 @@ label
 Done
 migration
 -
+continue
+-
+button
+-
+label
+=
+Continue
+migration
+-
 wizard
 -
 import
