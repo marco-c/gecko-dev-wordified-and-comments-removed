@@ -97,6 +97,17 @@ struct
 '
 )
 ;
+test
+(
+'
+nullref
+'
+[
+null
+]
+WasmNonAnyrefValues
+)
+;
 function
 test
 (

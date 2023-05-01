@@ -13977,7 +13977,7 @@ tableIndex
 .
 elemType
 .
-isFunc
+isFuncHierarchy
 (
 )
 )
