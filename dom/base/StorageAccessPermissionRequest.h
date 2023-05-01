@@ -240,9 +240,12 @@ aCancelCallback
 StorageAccessPermissionRequest
 (
 )
-=
-default
+{
+Cancel
+(
+)
 ;
+}
 unsigned
 CalculateSimulatedDelay
 (
