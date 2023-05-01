@@ -2490,11 +2490,6 @@ parse_elf
 libfuzzer
 =
 [
-"
-neqo_glue
-/
-fuzzing
-"
 ]
 webrtc
 =
