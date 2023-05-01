@@ -250,6 +250,8 @@ DefaultURIParams
 ;
 NestedAboutURIParams
 ;
+SubstitutingJARURIParams
+;
 }
 ;
 struct
@@ -284,6 +286,17 @@ nestedParams
 URIParams
 ?
 baseURI
+;
+}
+;
+struct
+SubstitutingJARURIParams
+{
+URIParams
+source
+;
+JARURIParams
+resolved
 ;
 }
 ;
