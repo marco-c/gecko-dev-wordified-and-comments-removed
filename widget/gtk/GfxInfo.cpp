@@ -586,10 +586,8 @@ if
 (
 *
 aPID
-=
-=
--
-1
+<
+0
 )
 {
 return
@@ -656,6 +654,8 @@ if
 (
 *
 aPID
+>
+0
 )
 {
 int
@@ -673,7 +673,8 @@ WNOHANG
 *
 aPID
 =
-0
+-
+1
 ;
 }
 }
@@ -877,7 +878,8 @@ aPID
 *
 aPID
 =
-0
+-
+1
 ;
 ret
 =
@@ -3543,7 +3545,8 @@ FireGLXTestProcess
 if
 (
 sGLXTestPID
->
+!
+=
 0
 )
 {

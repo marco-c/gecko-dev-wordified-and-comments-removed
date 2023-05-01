@@ -1579,14 +1579,6 @@ incomplete
 "
 _ns
 #
-define
-FILE_GLX_TEST
-u
-"
-glxtest
-"
-_ns
-#
 if
 defined
 (
