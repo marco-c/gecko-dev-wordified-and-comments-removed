@@ -14,8 +14,8 @@ async
 def
 get_events
 (
-context
 bidi_session
+context
 )
 :
     
