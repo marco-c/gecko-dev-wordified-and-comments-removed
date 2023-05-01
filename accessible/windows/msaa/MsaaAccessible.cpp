@@ -5260,11 +5260,12 @@ ROLE
 (
 _geckoRole
 stringRole
+ariaRole
 atkRole
 macRole
 macSubrole
-_msaaRole
 \
+_msaaRole
 ia2Role
 androidClass
 nameRule
