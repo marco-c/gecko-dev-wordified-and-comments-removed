@@ -710,7 +710,7 @@ BC6H_UFLOAT_BLOCK
 Tf
 :
 :
-Bc6hRgbSfloat
+Bc6hRgbFloat
 =
 >
 F

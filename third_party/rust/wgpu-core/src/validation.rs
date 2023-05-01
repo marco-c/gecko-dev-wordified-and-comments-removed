@@ -5387,7 +5387,7 @@ Bc6hRgbUfloat
 Tf
 :
 :
-Bc6hRgbSfloat
+Bc6hRgbFloat
 |
 Tf
 :

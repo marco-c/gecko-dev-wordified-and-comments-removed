@@ -1340,6 +1340,14 @@ Features
 :
 :
 SHADER_PRIMITIVE_INDEX
+|
+wgt
+:
+:
+Features
+:
+:
+RG11B10UFLOAT_RENDERABLE
 ;
 features
 .

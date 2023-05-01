@@ -469,7 +469,7 @@ DXGI_FORMAT_BC6H_UF16
 Tf
 :
 :
-Bc6hRgbSfloat
+Bc6hRgbFloat
 =
 >
 DXGI_FORMAT_BC6H_SF16

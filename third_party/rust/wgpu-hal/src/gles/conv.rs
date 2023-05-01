@@ -1204,7 +1204,7 @@ RGB
 Tf
 :
 :
-Bc6hRgbSfloat
+Bc6hRgbFloat
 =
 >
 (

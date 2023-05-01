@@ -3617,7 +3617,6 @@ create_surface_webgl_canvas
 self
 canvas
 :
-&
 web_sys
 :
 :
@@ -3773,7 +3772,6 @@ create_surface_webgl_offscreen_canvas
 self
 canvas
 :
-&
 web_sys
 :
 :
