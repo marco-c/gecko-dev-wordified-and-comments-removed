@@ -433,6 +433,11 @@ short
 priority
 )
 ;
+readonly
+attribute
+AString
+computedARIARole
+;
 [
 notxpcom
 nostdcall
