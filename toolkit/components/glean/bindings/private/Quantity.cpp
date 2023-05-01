@@ -67,13 +67,6 @@ nsString
 .
 h
 "
-#
-include
-"
-Common
-.
-h
-"
 namespace
 mozilla
 :

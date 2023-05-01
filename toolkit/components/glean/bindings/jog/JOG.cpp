@@ -72,15 +72,6 @@ h
 #
 include
 "
-mozilla
-/
-AppShutdown
-.
-h
-"
-#
-include
-"
 nsDirectoryServiceDefs
 .
 h
