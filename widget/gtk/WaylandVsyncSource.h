@@ -165,7 +165,7 @@ uint32_t
 aTime
 )
 ;
-void
+bool
 IdleCallback
 (
 )
@@ -323,15 +323,6 @@ MOZ_GUARDED_BY
 mMutex
 )
 ;
-guint
-mIdleTimerID
-MOZ_GUARDED_BY
-(
-mMutex
-)
-=
-0
-;
 wl_callback
 *
 mCallback
@@ -341,6 +332,11 @@ mMutex
 )
 =
 nullptr
+;
+guint
+mIdleTimerID
+=
+0
 ;
 nsWindow
 *
