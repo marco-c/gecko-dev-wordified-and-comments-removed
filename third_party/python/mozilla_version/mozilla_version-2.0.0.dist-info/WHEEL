@@ -11,7 +11,7 @@ bdist_wheel
 (
 0
 .
-33
+38
 .
 4
 )
@@ -22,13 +22,6 @@ Is
 Purelib
 :
 true
-Tag
-:
-py2
--
-none
--
-any
 Tag
 :
 py3

@@ -330,12 +330,14 @@ raise
 PatternNotMatchedError
 (
 string
-pattern
+patterns
 =
+(
 '
 unknown
 product
 '
+)
 )
     
 return
@@ -369,29 +371,26 @@ product
 raise
 ValueError
 (
+f
 '
 Cannot
 compare
 "
 {
+this
+.
+product
 }
 "
 and
 "
 {
-}
-"
-'
-.
-format
-(
-this
-.
-product
 other
 .
 product
-)
+}
+"
+'
 )
         
 return
@@ -410,7 +409,7 @@ s
 frozen
 =
 True
-cmp
+eq
 =
 False
 hash
@@ -419,9 +418,6 @@ True
 )
 class
 BalrogReleaseName
-(
-object
-)
 :
     
 "
@@ -581,13 +577,15 @@ raise
 PatternNotMatchedError
 (
 self
-pattern
+patterns
 =
+(
 '
 build_number
 must
 exist
 '
+)
 )
     
 classmethod
@@ -636,7 +634,9 @@ raise
 PatternNotMatchedError
 (
 release_string
+(
 _VALID_ENOUGH_BALROG_RELEASE_PATTERN
+)
 )
         
 product
@@ -672,12 +672,14 @@ raise
 PatternNotMatchedError
 (
 release_string
-pattern
+patterns
 =
+(
 '
 unknown
 product
 '
+)
 )
         
 version_string
@@ -758,21 +760,18 @@ build
 )
         
 return
+f
 '
 {
-}
--
-{
-}
-'
-.
-format
-(
 self
 .
 product
+}
+-
+{
 version_string
-)
+}
+'
     
 _products_must_be_identical
     
