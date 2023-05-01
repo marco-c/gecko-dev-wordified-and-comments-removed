@@ -73,12 +73,6 @@ std
 :
 str
 ;
-use
-std
-:
-:
-usize
-;
 pub
 struct
 CowRcStr

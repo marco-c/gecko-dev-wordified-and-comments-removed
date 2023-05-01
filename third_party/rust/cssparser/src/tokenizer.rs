@@ -35,12 +35,6 @@ use
 std
 :
 :
-i32
-;
-use
-std
-:
-:
 ops
 :
 :

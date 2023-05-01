@@ -131,6 +131,9 @@ pattern
 +
 }
 }
+crate
+:
+:
 _cssparser_internal_to_lowercase
 !
 (
@@ -393,6 +396,9 @@ value
 *
 }
 ;
+crate
+:
+:
 _cssparser_internal_to_lowercase
 !
 (
@@ -644,11 +650,11 @@ usize
 a
 str
 {
-unsafe
-{
 let
 input_bytes
 =
+unsafe
+{
 &
 *
 (
@@ -673,6 +679,7 @@ u8
 >
 ]
 )
+}
 ;
 buffer
 .
@@ -686,6 +693,8 @@ input_bytes
 let
 buffer
 =
+unsafe
+{
 &
 mut
 *
@@ -707,6 +716,7 @@ mut
 u8
 ]
 )
+}
 ;
 buffer
 [
@@ -719,6 +729,8 @@ make_ascii_lowercase
 (
 )
 ;
+unsafe
+{
 :
 :
 std

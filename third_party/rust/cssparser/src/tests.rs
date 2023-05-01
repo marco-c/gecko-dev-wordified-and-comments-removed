@@ -5463,12 +5463,6 @@ use
 std
 :
 :
-f32
-;
-use
-std
-:
-:
 iter
 :
 :
@@ -12322,7 +12316,7 @@ ident
 =
 css
 :
-expr
+pat
 )
 +
 }
