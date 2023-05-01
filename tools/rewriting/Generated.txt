@@ -178,3 +178,6 @@ js
 fixtures
 /
 generated
+try_task_config
+.
+json
