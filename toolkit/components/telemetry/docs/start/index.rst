@@ -122,14 +122,6 @@ collected
 and
 sent
 .
-Note
-that
-Origin
-Telemetry
-is
-missing
-here
-.
 2
 .
 Increase
