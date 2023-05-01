@@ -682,6 +682,12 @@ e
 =
 >
 {
+e
+.
+preventDefault
+(
+)
+;
 const
 shouldOpenLink
 =
@@ -713,12 +719,6 @@ shouldOpenLink
 e
 .
 stopPropagation
-(
-)
-;
-e
-.
-preventDefault
 (
 )
 ;
