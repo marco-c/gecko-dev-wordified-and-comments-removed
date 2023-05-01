@@ -22,13 +22,6 @@ h
 #
 include
 "
-ScrollAnimationPhysics
-.
-h
-"
-#
-include
-"
 mozilla
 /
 MouseEvents
@@ -1663,7 +1656,12 @@ ToMilliseconds
 (
 )
 >
-kScrollSeriesTimeoutMs
+StaticPrefs
+:
+:
+mousewheel_scroll_series_timeout
+(
+)
 )
 {
 mScrollSeriesCounter

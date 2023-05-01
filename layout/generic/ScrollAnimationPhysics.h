@@ -151,13 +151,6 @@ aFactor
 )
 ;
 }
-static
-const
-uint32_t
-kScrollSeriesTimeoutMs
-=
-80
-;
 }
 #
 endif
