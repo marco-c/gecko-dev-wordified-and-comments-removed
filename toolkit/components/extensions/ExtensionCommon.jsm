@@ -6389,11 +6389,9 @@ Cu
 ExtensionAPI
 ExtensionAPIPersistent
 ExtensionCommon
-IOUtils
 MatchGlob
 MatchPattern
 MatchPatternSet
-PathUtils
 Services
 StructuredCloneHolder
 WebExtensionPolicy
