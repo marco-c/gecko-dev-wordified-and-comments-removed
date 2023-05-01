@@ -84,6 +84,8 @@ style
 width
 :
 17em
+sanitize
+-
 dialog
 -
 title
@@ -97,6 +99,8 @@ History
 .
 style
 =
+min
+-
 width
 :
 34em
@@ -128,6 +132,8 @@ dialog
 -
 title
 .
+sanitize
+-
 dialog
 -
 title
@@ -143,6 +149,8 @@ History
 .
 style
 =
+min
+-
 width
 :
 34em
