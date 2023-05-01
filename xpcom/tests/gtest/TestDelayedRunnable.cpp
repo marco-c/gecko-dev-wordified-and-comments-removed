@@ -685,6 +685,12 @@ Wait
 (
 )
 ;
+MonitorAutoLock
+outerLock
+(
+outerMonitor
+)
+;
 outerMonitor
 .
 NotifyAll
