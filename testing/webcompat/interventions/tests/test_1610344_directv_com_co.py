@@ -54,6 +54,12 @@ in
 your
 region
 "
+FORBIDDEN_TEXT
+=
+"
+403
+Forbidden
+"
 async
 def
 check_unsupported_visibility
@@ -93,6 +99,7 @@ frame
     
 denied
 blocked
+forbidden
 incompatible
 =
 client
@@ -118,6 +125,13 @@ BLOCKED_TEXT
             
 client
 .
+text
+(
+FORBIDDEN_TEXT
+)
+            
+client
+.
 css
 (
 INCOMPATIBLE_CSS
@@ -131,6 +145,8 @@ if
 denied
 or
 blocked
+or
+forbidden
 :
         
 pytest
