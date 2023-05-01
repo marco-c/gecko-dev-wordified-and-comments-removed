@@ -382,6 +382,7 @@ mSample
 ;
 class
 RemoteVideoDecoder
+final
 :
 public
 RemoteDataDecoder
@@ -3209,6 +3210,7 @@ mPerformanceRecorder
 ;
 class
 RemoteAudioDecoder
+final
 :
 public
 RemoteDataDecoder

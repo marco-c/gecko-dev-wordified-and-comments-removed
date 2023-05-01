@@ -50,6 +50,7 @@ MediaDataDecoder
 ;
 class
 AppleATDecoder
+final
 :
 public
 MediaDataDecoder
@@ -61,6 +62,12 @@ AppleATDecoder
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+AppleATDecoder
+final
+)
+;
 explicit
 AppleATDecoder
 (
@@ -68,11 +75,6 @@ const
 AudioInfo
 &
 aConfig
-)
-;
-~
-AppleATDecoder
-(
 )
 ;
 RefPtr
@@ -167,6 +169,11 @@ mThread
 ;
 private
 :
+~
+AppleATDecoder
+(
+)
+;
 AudioConverterRef
 mConverter
 ;

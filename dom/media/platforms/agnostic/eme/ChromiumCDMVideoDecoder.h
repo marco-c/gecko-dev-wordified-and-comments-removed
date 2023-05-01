@@ -46,6 +46,7 @@ MediaDataDecoder
 ;
 class
 ChromiumCDMVideoDecoder
+final
 :
 public
 MediaDataDecoder
@@ -57,6 +58,12 @@ ChromiumCDMVideoDecoder
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+ChromiumCDMVideoDecoder
+final
+)
+;
 ChromiumCDMVideoDecoder
 (
 const
