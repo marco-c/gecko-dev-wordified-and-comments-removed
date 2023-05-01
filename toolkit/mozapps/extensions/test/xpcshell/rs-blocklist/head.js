@@ -246,6 +246,13 @@ jsm
 "
 )
 ;
+if
+(
+Blocklist
+.
+allowDeprecatedBlocklistV2
+)
+{
 Assert
 .
 ok
@@ -275,6 +282,7 @@ true
 "
 )
 ;
+}
 return
 ExtensionBlocklistMLBF
 ;

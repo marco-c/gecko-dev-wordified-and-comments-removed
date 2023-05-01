@@ -79,7 +79,7 @@ mjs
 )
 ;
 const
-IS_ANDROID
+IS_ANDROID_WITH_BLOCKLIST_V2
 =
 AppConstants
 .
@@ -89,6 +89,12 @@ platform
 "
 android
 "
+&
+&
+!
+AppConstants
+.
+NIGHTLY_BUILD
 ;
 let
 gBlocklistClients
@@ -197,7 +203,7 @@ ExtensionBlocklistRS
 _client
 expectHasDump
 :
-IS_ANDROID
+IS_ANDROID_WITH_BLOCKLIST_V2
 }
 {
 client

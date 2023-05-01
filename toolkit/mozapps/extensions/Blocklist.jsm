@@ -5321,6 +5321,12 @@ platform
 "
 android
 "
+&
+&
+!
+AppConstants
+.
+NIGHTLY_BUILD
 _chooseExtensionBlocklistImplementationFromPref
 (
 )

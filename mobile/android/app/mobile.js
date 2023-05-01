@@ -880,6 +880,9 @@ required
 true
 )
 ;
+#
+ifndef
+NIGHTLY_BUILD
 pref
 (
 "
@@ -892,6 +895,8 @@ useMLBF
 false
 )
 ;
+#
+endif
 pref
 (
 "
