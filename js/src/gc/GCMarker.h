@@ -1156,13 +1156,6 @@ false
 }
 ;
 }
-static
-constexpr
-size_t
-TypicalCacheLineSize
-=
-64
-;
 class
 alignas
 (

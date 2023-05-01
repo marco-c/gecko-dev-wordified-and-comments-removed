@@ -70,6 +70,13 @@ AutoLockGCBgAlloc
 class
 Nursery
 ;
+static
+constexpr
+size_t
+TypicalCacheLineSize
+=
+64
+;
 namespace
 gc
 {
