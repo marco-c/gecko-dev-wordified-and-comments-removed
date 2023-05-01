@@ -307,6 +307,16 @@ CLICKED
 "
 clicked
 "
+EXPANDED
+:
+"
+expanded
+"
+SUBMITTED
+:
+"
+submitted
+"
 }
 COMPONENTS
 :
