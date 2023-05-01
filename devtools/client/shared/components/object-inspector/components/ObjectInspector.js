@@ -462,6 +462,13 @@ nextProps
 roots
 )
 {
+const
+oldRoots
+=
+this
+.
+roots
+;
 this
 .
 roots
@@ -504,6 +511,7 @@ rootsChanged
 this
 .
 roots
+oldRoots
 )
 ;
 }
