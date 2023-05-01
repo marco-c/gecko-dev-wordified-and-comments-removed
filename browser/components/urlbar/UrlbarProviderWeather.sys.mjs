@@ -1379,6 +1379,12 @@ true
 ;
 result
 .
+showFeedbackMenu
+=
+true
+;
+result
+.
 suggestedIndex
 =
 queryContext
