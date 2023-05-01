@@ -400,7 +400,9 @@ Error
 "
 FirefoxRelay
 .
-jsm
+sys
+.
+mjs
 should
 only
 run
