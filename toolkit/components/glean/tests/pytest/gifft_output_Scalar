@@ -838,7 +838,6 @@ aId
 ;
 }
 static
-inline
 Maybe
 <
 ScalarID
