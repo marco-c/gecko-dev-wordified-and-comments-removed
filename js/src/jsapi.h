@@ -2593,6 +2593,16 @@ enable
 \
 Register
 (
+JIT_HINTS_ENABLE
+"
+jitHints
+.
+enable
+"
+)
+\
+Register
+(
 SIMULATOR_ALWAYS_INTERRUPT
 "
 simulator
