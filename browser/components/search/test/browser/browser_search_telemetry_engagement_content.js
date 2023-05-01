@@ -275,13 +275,9 @@ SearchSERPTelemetryUtils
 COMPONENTS
 .
 AD_LINK
-included
-:
-{
 default
 :
 true
-}
 }
 ]
 }
