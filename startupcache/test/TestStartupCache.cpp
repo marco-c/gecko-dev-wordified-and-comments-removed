@@ -547,7 +547,7 @@ rv
 sc
 -
 >
-ResetStartupWriteTimer
+ResetStartupWriteTimerAndLock
 (
 )
 ;
