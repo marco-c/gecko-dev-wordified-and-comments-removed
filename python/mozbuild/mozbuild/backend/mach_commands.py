@@ -1844,7 +1844,7 @@ rust
 -
 analyzer
 .
-checkOnSave
+check
 .
 overrideCommand
 "
