@@ -536,3 +536,15 @@ string
 }
 >
 }
+export
+type
+TranslationErrors
+=
+"
+engine
+-
+load
+-
+error
+"
+;
