@@ -173,12 +173,11 @@ password
 ;
 login
 =
-await
 Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 login
 )
