@@ -156,7 +156,7 @@ speech_ratio_threshold
 =
 0
 .
-9f
+6f
 ;
 }
 ;
