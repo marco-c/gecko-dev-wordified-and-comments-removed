@@ -193,7 +193,11 @@ resource
 :
 /
 /
-autofill
+gre
+/
+modules
+/
+shared
 /
 FormAutofillHeuristics
 .
