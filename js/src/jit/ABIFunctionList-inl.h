@@ -941,7 +941,7 @@ js
 jit
 :
 :
-GetNativeDataPropertyPure
+GetNativeDataPropertyByIdPure
 )
 \
 _
@@ -952,7 +952,7 @@ js
 jit
 :
 :
-GetNativeDataPropertyPureWithCacheLookup
+GetNativeDataPropertyByNamePure
 )
 \
 _
@@ -1213,6 +1213,17 @@ jit
 :
 :
 Printf1
+)
+\
+_
+(
+js
+:
+:
+jit
+:
+:
+SetNativeDataPropertyPure
 )
 \
 _

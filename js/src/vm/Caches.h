@@ -52,15 +52,6 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
-.
-h
-"
-#
-include
-"
 frontend
 /
 ScopeBindingCache
@@ -1227,7 +1218,7 @@ constexpr
 size_t
 NumEntries
 =
-1024
+256
 ;
 static
 constexpr
@@ -2255,10 +2246,7 @@ public
 MegamorphicCache
 megamorphicCache
 ;
-UniquePtr
-<
 MegamorphicSetPropCache
->
 megamorphicSetPropCache
 ;
 GSNCache
@@ -2332,8 +2320,7 @@ bumpGeneration
 )
 ;
 megamorphicSetPropCache
--
->
+.
 bumpGeneration
 (
 )
