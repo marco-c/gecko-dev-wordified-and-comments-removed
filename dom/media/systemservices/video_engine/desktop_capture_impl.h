@@ -724,6 +724,16 @@ aCallback
 override
 ;
 void
+RegisterCaptureDataCallback
+(
+RawVideoSinkInterface
+*
+dataCallback
+)
+override
+{
+}
+void
 DeRegisterCaptureDataCallback
 (
 rtc
