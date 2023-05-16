@@ -16815,6 +16815,15 @@ set_transport
 nullptr
 )
 ;
+if
+(
+state
+.
+has_m_section
+(
+)
+)
+{
 transceiver
 -
 >
@@ -16849,6 +16858,7 @@ mline_index
 )
 )
 ;
+}
 }
 RTCError
 e
