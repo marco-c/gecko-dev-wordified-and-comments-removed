@@ -2385,9 +2385,14 @@ helpersToDisable
 .
 push
 (
-"
-screenshot
-"
+.
+.
+.
+WebConsoleCommandsManager
+.
+getColonOnlyCommandNames
+(
+)
 )
 ;
 }
