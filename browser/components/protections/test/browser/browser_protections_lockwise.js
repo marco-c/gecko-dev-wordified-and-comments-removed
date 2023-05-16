@@ -50,7 +50,7 @@ testNoLoginsLockwiseCardUI
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -70,7 +70,7 @@ gBrowser
 }
 )
 ;
-let
+const
 aboutLoginsPromise
 =
 BrowserTestUtils
@@ -415,7 +415,7 @@ click
 }
 )
 ;
-let
+const
 loginsTab
 =
 await
@@ -462,7 +462,7 @@ testLockwiseCardUIWithLogins
 (
 )
 {
-let
+const
 tab
 =
 await
@@ -482,7 +482,7 @@ gBrowser
 }
 )
 ;
-let
+const
 aboutLoginsPromise
 =
 BrowserTestUtils
@@ -516,11 +516,12 @@ correctly
 "
 )
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 TEST_LOGIN1
 )
@@ -980,7 +981,7 @@ click
 }
 )
 ;
-let
+const
 loginsTab
 =
 await
@@ -1032,11 +1033,12 @@ reload
 "
 )
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 TEST_LOGIN2
 )
@@ -1176,7 +1178,7 @@ correctly
 "
 )
 ;
-let
+const
 tab
 =
 await
@@ -1196,11 +1198,12 @@ gBrowser
 }
 )
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 TEST_LOGIN1
 )
@@ -1505,7 +1508,7 @@ testLockwiseCardPref
 (
 )
 {
-let
+const
 tab
 =
 await
