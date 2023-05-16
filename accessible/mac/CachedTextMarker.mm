@@ -904,6 +904,14 @@ end
 =
 start
 .
+IsLineFeedChar
+(
+)
+?
+start
+:
+start
+.
 FindBoundary
 (
 nsIAccessibleText
