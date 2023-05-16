@@ -1601,6 +1601,7 @@ MarionettePrefs
 port
 )
 ;
+await
 this
 .
 server
@@ -1629,13 +1630,6 @@ to
 start
 "
 e
-)
-;
-await
-this
-.
-uninit
-(
 )
 ;
 Services
@@ -1792,6 +1786,7 @@ this
 running
 )
 {
+await
 this
 .
 server
