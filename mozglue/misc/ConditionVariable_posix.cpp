@@ -98,11 +98,9 @@ __ANDROID__
 )
 &
 &
-!
-defined
-(
-__LP64__
-)
+__ANDROID_API__
+<
+21
 )
 &
 &
