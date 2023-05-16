@@ -866,12 +866,6 @@ case
 InlinableNative
 :
 :
-RegExpTester
-:
-case
-InlinableNative
-:
-:
 RegExpPrototypeOptimizable
 :
 case

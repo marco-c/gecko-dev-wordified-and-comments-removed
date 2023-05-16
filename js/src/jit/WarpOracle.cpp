@@ -4822,12 +4822,6 @@ case
 CacheOp
 :
 :
-CallRegExpTesterResult
-:
-case
-CacheOp
-:
-:
 RegExpBuiltinExecTestResult
 :
 if

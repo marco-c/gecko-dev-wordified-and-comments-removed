@@ -509,11 +509,6 @@ RegExpSearcher
 \
 _
 (
-RegExpTester
-)
-\
-_
-(
 IsRegExpObject
 )
 \
