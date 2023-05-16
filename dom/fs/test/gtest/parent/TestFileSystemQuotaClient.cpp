@@ -298,6 +298,16 @@ quotaexample
 com
 "
 _ns
+"
+http
+:
+/
+/
+quotaexample
+.
+com
+"
+_ns
 false
 quota
 :

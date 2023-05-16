@@ -252,6 +252,16 @@ example
 com
 "
 _ns
+"
+http
+:
+/
+/
+example
+.
+com
+"
+_ns
 false
 quota
 :

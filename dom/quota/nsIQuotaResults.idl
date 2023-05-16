@@ -44,6 +44,11 @@ origin
 readonly
 attribute
 ACString
+storageOrigin
+;
+readonly
+attribute
+ACString
 persistenceType
 ;
 readonly
