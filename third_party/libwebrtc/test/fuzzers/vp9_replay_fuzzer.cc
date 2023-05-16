@@ -144,14 +144,6 @@ vp9_config
 .
 rtp
 .
-transport_cc
-=
-true
-;
-vp9_config
-.
-rtp
-.
 nack
 .
 rtp_history_ms

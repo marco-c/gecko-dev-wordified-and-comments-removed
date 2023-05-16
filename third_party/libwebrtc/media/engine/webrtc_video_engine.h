@@ -2364,8 +2364,6 @@ bool
 lntf_enabled
 bool
 nack_enabled
-bool
-transport_cc_enabled
 webrtc
 :
 :

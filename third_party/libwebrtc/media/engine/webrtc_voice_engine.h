@@ -1389,11 +1389,6 @@ dtmf_payload_freq_
 1
 ;
 bool
-recv_transport_cc_enabled_
-=
-false
-;
-bool
 recv_nack_enabled_
 =
 false

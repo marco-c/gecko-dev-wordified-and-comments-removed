@@ -3088,14 +3088,6 @@ flexfec_receive_config
 .
 rtp
 .
-transport_cc
-=
-true
-;
-flexfec_receive_config
-.
-rtp
-.
 extensions
 .
 emplace_back

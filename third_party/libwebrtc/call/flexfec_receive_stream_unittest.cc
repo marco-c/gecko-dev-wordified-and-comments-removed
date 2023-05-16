@@ -385,14 +385,6 @@ config
 .
 rtp
 .
-transport_cc
-=
-true
-;
-config
-.
-rtp
-.
 extensions
 .
 emplace_back
