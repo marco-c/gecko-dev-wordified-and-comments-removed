@@ -783,7 +783,7 @@ optional
 <
 uint32_t
 >
-ssrc_
+signaled_ssrc_
 RTC_GUARDED_BY
 (
 worker_thread_
