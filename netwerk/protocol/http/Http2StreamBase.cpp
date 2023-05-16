@@ -2512,6 +2512,16 @@ SpdySendBufferSize
 ;
 if
 (
+StaticPrefs
+:
+:
+network_http_http2_send_buffer_size
+(
+)
+>
+0
+&
+&
 (
 mTotalSent
 >
