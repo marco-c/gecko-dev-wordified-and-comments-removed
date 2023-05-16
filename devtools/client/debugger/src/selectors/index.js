@@ -71,17 +71,6 @@ expressions
 "
 ;
 export
-*
-from
-"
-.
-/
-file
--
-search
-"
-;
-export
 {
 getCallStackFrames
 }

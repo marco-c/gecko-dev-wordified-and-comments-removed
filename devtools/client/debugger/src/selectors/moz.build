@@ -106,13 +106,6 @@ expressions
 js
 "
 "
-file
--
-search
-.
-js
-"
-"
 getCallStackFrames
 .
 js
