@@ -111,6 +111,7 @@ const
 int
 ICE_CANDIDATE_COMPONENT_RTCP
 ;
+RTC_EXPORT
 extern
 const
 int

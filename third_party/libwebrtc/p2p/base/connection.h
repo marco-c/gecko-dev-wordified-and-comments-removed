@@ -170,6 +170,17 @@ include
 "
 rtc_base
 /
+system
+/
+rtc_export
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 weak_ptr
 .
 h
@@ -239,6 +250,7 @@ remote
 }
 ;
 class
+RTC_EXPORT
 Connection
 :
 public

@@ -903,6 +903,7 @@ SocketAddress
 ServerAddresses
 ;
 class
+RTC_EXPORT
 Port
 :
 public

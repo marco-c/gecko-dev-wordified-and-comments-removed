@@ -4279,6 +4279,11 @@ h
 deps
 =
 [
+"
+system
+:
+rtc_export
+"
 ]
 if
 (
@@ -6880,6 +6885,15 @@ cpp
 absl
 /
 strings
+"
+]
+deps
+=
+[
+"
+system
+:
+rtc_export
 "
 ]
 }

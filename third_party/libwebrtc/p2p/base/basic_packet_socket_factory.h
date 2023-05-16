@@ -84,6 +84,17 @@ socket_factory
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 rtc
 {
@@ -91,6 +102,7 @@ class
 SocketFactory
 ;
 class
+RTC_EXPORT
 BasicPacketSocketFactory
 :
 public

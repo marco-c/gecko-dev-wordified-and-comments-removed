@@ -88,6 +88,17 @@ async_packet_socket
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 cricket
 {
@@ -111,6 +122,7 @@ HIGH_COST_PORT_KEEPALIVE_LIFETIME
 1000
 ;
 class
+RTC_EXPORT
 UDPPort
 :
 public
