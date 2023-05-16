@@ -251,6 +251,8 @@ VideoType
 :
 kUnknown
 :
+break
+;
 }
 RTC_DCHECK_NOTREACHED
 (
