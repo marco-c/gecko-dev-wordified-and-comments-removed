@@ -5093,6 +5093,29 @@ WASM_CXXFLAGS
 )
             
 )
+            
+(
+"
+STL
+"
+context
+.
+config
+.
+substs
+.
+get
+(
+"
+STL_FLAGS
+"
+)
+(
+"
+WASM_CXXFLAGS
+"
+)
+)
         
 )
         
