@@ -1758,6 +1758,23 @@ name
                 
 )
             
+elif
+paths
+=
+=
+{
+self
+.
+root
+}
+:
+                
+lpaths
+=
+__get_current_paths
+(
+)
+            
 else
 :
                 
