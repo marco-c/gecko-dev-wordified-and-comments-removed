@@ -616,6 +616,8 @@ BasicPacketSocketFactory
 (
 socket_server_
 )
+&
+field_trials_
 )
 )
 ;
