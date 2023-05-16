@@ -38,6 +38,15 @@ h
 #
 include
 "
+mozilla
+/
+WeakPtr
+.
+h
+"
+#
+include
+"
 nsIAsyncInputStream
 .
 h
@@ -734,8 +743,10 @@ InputStreamHolder
 (
 )
 ;
+WeakPtr
+<
 InputToReadableStreamAlgorithms
-*
+>
 mCallback
 ;
 RefPtr
@@ -766,6 +777,8 @@ public
 UnderlyingSourceAlgorithmsWrapper
 public
 nsIInputStreamCallback
+public
+SupportsWeakPtr
 {
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIINPUTSTREAMCALLBACK
