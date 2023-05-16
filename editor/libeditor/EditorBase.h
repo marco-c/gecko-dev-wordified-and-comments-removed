@@ -2053,6 +2053,8 @@ PasteTransferableAsAction
 nsITransferable
 *
 aTransferable
+DispatchPasteEvent
+aDispatchPasteEvent
 nsIPrincipal
 *
 aPrincipal

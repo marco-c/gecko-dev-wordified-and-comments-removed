@@ -694,7 +694,9 @@ nsresult
 PasteNoFormattingAsAction
 (
 int32_t
-aSelectionType
+aClipboardType
+DispatchPasteEvent
+aDispatchPasteEvent
 nsIPrincipal
 *
 aPrincipal

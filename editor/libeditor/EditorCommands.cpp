@@ -2700,6 +2700,13 @@ aEditorBase
 PasteTransferableAsAction
 (
 aTransferableParam
+EditorBase
+:
+:
+DispatchPasteEvent
+:
+:
+Yes
 aPrincipal
 )
 ;
@@ -2715,6 +2722,10 @@ EditorBase
 :
 PasteTransferableAsAction
 (
+DispatchPasteEvent
+:
+:
+Yes
 )
 failed
 "
