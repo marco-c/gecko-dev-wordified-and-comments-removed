@@ -145,6 +145,14 @@ using
 testing
 :
 :
+DoubleEq
+;
+using
+:
+:
+testing
+:
+:
 Each
 ;
 using
@@ -985,7 +993,7 @@ GetSamples
 )
 Each
 (
-Eq
+DoubleEq
 (
 value
 )
