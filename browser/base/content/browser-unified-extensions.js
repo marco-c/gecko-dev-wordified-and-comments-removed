@@ -669,6 +669,13 @@ classList
 add
 (
 "
+toolbaritem
+-
+combined
+-
+buttons
+"
+"
 unified
 -
 extensions
