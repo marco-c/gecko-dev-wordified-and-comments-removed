@@ -1048,7 +1048,8 @@ endpointString
 )
 {
 return
-null
+[
+]
 ;
 }
 let
@@ -1088,7 +1089,8 @@ error
 )
 ;
 return
-null
+[
+]
 ;
 }
 url

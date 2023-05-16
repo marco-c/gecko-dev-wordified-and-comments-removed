@@ -325,9 +325,6 @@ toString
 )
 }
 }
-ping
-:
-null
 }
 selectables
 :
@@ -398,10 +395,6 @@ toString
 )
 }
 }
-pings
-:
-[
-]
 }
 "
 urlbarView
@@ -469,10 +462,6 @@ toString
 )
 }
 }
-pings
-:
-[
-]
 }
 "
 urlbarView
@@ -540,10 +529,6 @@ toString
 )
 }
 }
-pings
-:
-[
-]
 }
 }
 }
