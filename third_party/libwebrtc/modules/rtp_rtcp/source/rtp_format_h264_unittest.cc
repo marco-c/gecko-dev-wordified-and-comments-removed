@@ -342,7 +342,10 @@ absl
 c_accumulate
 (
 nalu_sizes
+size_t
+{
 0
+}
 )
 +
 kStartCodeSize
