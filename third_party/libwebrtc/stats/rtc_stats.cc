@@ -991,7 +991,11 @@ timestamp
 "
 <
 <
-timestamp_us_
+timestamp_
+.
+us
+(
+)
 ;
 for
 (
