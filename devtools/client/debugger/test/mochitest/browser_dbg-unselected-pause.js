@@ -987,6 +987,13 @@ dbg
 iframeThread
 )
 ;
+await
+waitForSelectedSource
+(
+dbg
+source
+)
+;
 assertPausedAtSourceAndLine
 (
 dbg

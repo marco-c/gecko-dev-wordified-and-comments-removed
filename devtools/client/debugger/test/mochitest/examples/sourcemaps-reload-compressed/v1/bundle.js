@@ -468,7 +468,7 @@ function
 )
 {
 await
-bar
+nonSourceMappedFunction
 (
 )
 console
