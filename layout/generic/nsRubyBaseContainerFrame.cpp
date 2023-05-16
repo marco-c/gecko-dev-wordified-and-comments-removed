@@ -1428,6 +1428,7 @@ WritingMode
 aWM
 BaselineSharingGroup
 aBaselineGroup
+BaselineExportContext
 )
 const
 {
