@@ -39,11 +39,11 @@ h
 #
 include
 "
-modules
+rtc_base
 /
-include
+numerics
 /
-module_common_types_public
+sequence_number_unwrapper
 .
 h
 "
@@ -259,7 +259,7 @@ const
 int
 window_size_ms_
 ;
-TimestampUnwrapper
+RtpTimestampUnwrapper
 timestamp_unwrapper_
 ;
 absl
