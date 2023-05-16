@@ -811,6 +811,10 @@ vector
 RtpEncodingParameters
 >
 (
+1
+RtpEncodingParameters
+{
+}
 )
 )
 ;
@@ -1382,6 +1386,10 @@ vector
 RtpEncodingParameters
 >
 (
+1
+RtpEncodingParameters
+{
+}
 )
 )
 ;
@@ -2706,6 +2714,8 @@ id
 )
 }
 {
+{
+}
 }
 )
 ;
@@ -2982,6 +2992,8 @@ id
 )
 }
 {
+{
+}
 }
 )
 ;
