@@ -3910,6 +3910,13 @@ h
 "
 numerics
 /
+sequence_number_unwrapper
+.
+h
+"
+"
+numerics
+/
 sequence_number_util
 .
 h
@@ -8619,6 +8626,13 @@ cc
 numerics
 /
 running_statistics_unittest
+.
+cc
+"
+"
+numerics
+/
+sequence_number_unwrapper_unittest
 .
 cc
 "
