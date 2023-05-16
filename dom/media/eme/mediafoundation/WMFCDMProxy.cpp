@@ -123,6 +123,7 @@ mCDM
 >
 operation
 (
+promiseId
 __VA_ARGS__
 )
 \
@@ -999,6 +1000,7 @@ mCDM
 >
 CreateSession
 (
+aPromiseId
 sessionType
 aInitDataType
 aInitData
