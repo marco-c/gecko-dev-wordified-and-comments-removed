@@ -1547,7 +1547,11 @@ PrincipalInfo
 aPrincipalInfo
 )
 ;
+Result
+<
 PrincipalMetadata
+nsresult
+>
 GetInfoFromValidatedPrincipalInfo
 (
 const
