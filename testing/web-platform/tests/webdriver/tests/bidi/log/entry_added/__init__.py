@@ -406,7 +406,7 @@ entry
 )
 async
 def
-create_console_api_message_for_primitive_value
+create_console_api_message_from_string
 (
 bidi_session
 context

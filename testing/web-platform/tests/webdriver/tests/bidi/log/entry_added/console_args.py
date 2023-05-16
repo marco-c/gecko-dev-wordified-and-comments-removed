@@ -14,7 +14,7 @@ from
 .
 import
 assert_console_entry
-create_console_api_message_for_primitive_value
+create_console_api_message_from_string
 pytest
 .
 mark
@@ -335,7 +335,7 @@ entryAdded
 )
     
 await
-create_console_api_message_for_primitive_value
+create_console_api_message_from_string
 (
         
 bidi_session
