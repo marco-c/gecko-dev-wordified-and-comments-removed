@@ -1137,6 +1137,17 @@ copy_on_write_buffer
 /
 rtc_base
 :
+net_helper
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 refcount
 "
 "

@@ -227,6 +227,12 @@ rtc_base
 .
 .
 :
+stream
+"
+"
+.
+.
+:
 threading
 "
 "
