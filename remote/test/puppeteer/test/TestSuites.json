@@ -40,6 +40,9 @@ chrome
 "
 headless
 "
+"
+cdp
+"
 ]
 "
 expectedLineCoverage
@@ -76,6 +79,9 @@ chrome
 "
 "
 headful
+"
+"
+cdp
 "
 ]
 "
@@ -117,6 +123,9 @@ chrome
 new
 -
 headless
+"
+"
+cdp
 "
 ]
 "
@@ -158,6 +167,9 @@ firefox
 "
 headless
 "
+"
+cdp
+"
 ]
 "
 expectedLineCoverage
@@ -194,6 +206,9 @@ firefox
 "
 "
 headful
+"
+"
+cdp
 "
 ]
 "
@@ -284,7 +299,7 @@ expectedLineCoverage
 }
 ]
 "
-parameterDefinitons
+parameterDefinitions
 "
 :
 {
@@ -325,6 +340,13 @@ HEADLESS
 :
 "
 true
+"
+"
+PUPPETEER_LOGLEVEL
+"
+:
+"
+silent
 "
 }
 "
@@ -367,6 +389,12 @@ PUPPETEER_PROTOCOL
 "
 webDriverBiDi
 "
+}
+"
+cdp
+"
+:
+{
 }
 }
 }

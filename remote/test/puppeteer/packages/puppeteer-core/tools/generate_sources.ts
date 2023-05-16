@@ -398,6 +398,9 @@ target
 '
 ES2022
 '
+minify
+:
+true
 }
 )
 ;
@@ -560,6 +563,7 @@ PUBLISH
 ]
 )
 {
+await
 job
 (
 '

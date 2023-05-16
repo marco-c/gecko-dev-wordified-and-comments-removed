@@ -205,7 +205,7 @@ env
 .
 CI
 ?
-2
+3
 :
 0
 parallel
@@ -219,7 +219,7 @@ env
 PARALLEL
 timeout
 :
-25_000
+10_000
 reporter
 :
 process

@@ -36,7 +36,7 @@ folder
 like
 so
 :
-sh
+bash
 NODE_PATH
 =
 .

@@ -49,7 +49,9 @@ js
 '
 ;
 import
-utils
+{
+attachFrame
+}
 from
 '
 .
@@ -3706,8 +3708,6 @@ EMPTY_PAGE
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page

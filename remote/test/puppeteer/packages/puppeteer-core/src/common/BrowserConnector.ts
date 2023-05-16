@@ -195,6 +195,11 @@ cdp
 webDriverBiDi
 '
 ;
+protocolTimeout
+?
+:
+number
+;
 }
 const
 getWebSocketTransportClass
@@ -288,6 +293,7 @@ targetFilter
 _isPageTarget
 :
 isPageTarget
+protocolTimeout
 }
 =
 options
@@ -356,6 +362,7 @@ Connection
 '
 transport
 slowMo
+protocolTimeout
 )
 ;
 }
@@ -395,6 +402,7 @@ Connection
 browserWSEndpoint
 connectionTransport
 slowMo
+protocolTimeout
 )
 ;
 }
@@ -442,6 +450,7 @@ Connection
 connectionURL
 connectionTransport
 slowMo
+protocolTimeout
 )
 ;
 }

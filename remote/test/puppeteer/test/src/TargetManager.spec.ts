@@ -39,7 +39,9 @@ utils
 '
 ;
 import
-utils
+{
+attachFrame
+}
 from
 '
 .
@@ -415,8 +417,6 @@ html
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page
@@ -510,8 +510,6 @@ html
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page
@@ -612,8 +610,6 @@ html
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page

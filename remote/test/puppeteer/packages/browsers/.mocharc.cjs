@@ -38,5 +38,8 @@ reporter
 '
 spec
 '
+timeout
+:
+10_000
 }
 ;

@@ -13,9 +13,13 @@ from
 '
 .
 /
-browsers
+browser
+-
+data
 /
-browsers
+browser
+-
+data
 .
 js
 '

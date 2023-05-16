@@ -59,7 +59,10 @@ js
 '
 ;
 import
-utils
+{
+attachFrame
+detachFrame
+}
 from
 '
 .
@@ -1485,11 +1488,17 @@ many
 elements
 '
 async
+function
 (
 )
-=
->
 {
+this
+.
+timeout
+(
+25_000
+)
+;
 const
 {
 page
@@ -2614,8 +2623,6 @@ EMPTY_PAGE
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page
@@ -2734,8 +2741,6 @@ getTestState
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page
@@ -2748,8 +2753,6 @@ EMPTY_PAGE
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page
@@ -2879,8 +2882,6 @@ getTestState
 )
 ;
 await
-utils
-.
 attachFrame
 (
 page
@@ -2946,8 +2947,6 @@ error
 )
 ;
 await
-utils
-.
 detachFrame
 (
 page

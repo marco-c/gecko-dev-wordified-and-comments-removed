@@ -95,13 +95,13 @@ js
 ;
 import
 {
-Page
+Context
 }
 from
 '
 .
 /
-Page
+Context
 .
 js
 '
@@ -161,7 +161,7 @@ constructor
 (
 context
 :
-Page
+Context
 remoteValue
 :
 Bidi
@@ -194,7 +194,7 @@ context
 (
 )
 :
-Page
+Context
 {
 return
 this
@@ -204,7 +204,7 @@ context
 ;
 }
 get
-connecton
+connection
 (
 )
 :
@@ -724,7 +724,8 @@ releaseReference
 (
 this
 .
-connecton
+#
+context
 this
 .
 #
@@ -864,7 +865,7 @@ handle
 undefined
 ;
 }
-bidiObject
+remoteValue
 (
 )
 :

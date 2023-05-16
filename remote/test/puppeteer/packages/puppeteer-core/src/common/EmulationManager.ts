@@ -112,8 +112,8 @@ deviceScaleFactor
 viewport
 .
 deviceScaleFactor
-|
-|
+?
+?
 1
 ;
 const

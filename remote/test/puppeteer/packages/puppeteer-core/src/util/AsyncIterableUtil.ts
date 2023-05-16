@@ -77,6 +77,7 @@ async
 flatMap
 <
 T
+U
 >
 (
 iterable
@@ -96,13 +97,13 @@ T
 >
 AwaitableIterable
 <
-T
+U
 >
 )
 :
 AsyncIterable
 <
-T
+U
 >
 {
 for

@@ -51,9 +51,7 @@ path
 '
 ;
 import
-{
 glob
-}
 from
 '
 glob

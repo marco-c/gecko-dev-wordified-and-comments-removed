@@ -75,6 +75,8 @@ from
 packages
 /
 puppeteer
+-
+core
 /
 package
 .

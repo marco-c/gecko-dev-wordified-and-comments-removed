@@ -319,7 +319,7 @@ tests
 edit
 the
 [
-TestExpecations
+TestExpectations
 ]
 (
 https

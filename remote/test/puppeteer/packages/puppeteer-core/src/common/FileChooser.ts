@@ -119,7 +119,7 @@ multiple
 async
 accept
 (
-filePaths
+paths
 :
 string
 [
@@ -168,7 +168,7 @@ uploadFile
 .
 .
 .
-filePaths
+paths
 )
 ;
 }

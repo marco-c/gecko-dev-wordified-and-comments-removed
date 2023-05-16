@@ -2,7 +2,6 @@ import
 puppeteer
 {
 connect
-createBrowserFetcher
 defaultArgs
 executablePath
 launch
@@ -41,17 +40,6 @@ connect
 puppeteer
 .
 connect
-)
-;
-expectType
-<
-typeof
-createBrowserFetcher
->
-(
-puppeteer
-.
-createBrowserFetcher
 )
 ;
 expectType

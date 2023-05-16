@@ -117,7 +117,6 @@ export
 const
 {
 connect
-createBrowserFetcher
 defaultArgs
 executablePath
 launch

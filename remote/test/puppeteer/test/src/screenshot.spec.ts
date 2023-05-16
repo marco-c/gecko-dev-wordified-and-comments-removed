@@ -583,7 +583,6 @@ screenshots
 [
 1
 ]
-!
 )
 .
 toBeGolden
@@ -1333,8 +1332,6 @@ Buffer
 from
 (
 screenshot
-as
-string
 '
 base64
 '

@@ -285,11 +285,9 @@ expect
 data
 .
 items
-.
-length
 )
 .
-toBe
+toHaveLength
 (
 1
 )

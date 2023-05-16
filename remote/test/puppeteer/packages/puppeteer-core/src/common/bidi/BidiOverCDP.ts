@@ -510,6 +510,10 @@ EventEmitter
 <
 CdpEvents
 >
+implements
+BidiMapper
+.
+CdpClient
 {
 #
 closed
@@ -758,6 +762,8 @@ Promise
 <
 void
 >
+|
+void
 =
 async
 (
@@ -792,6 +798,7 @@ Message
 RawCommandRequest
 )
 {
+void
 this
 .
 #
@@ -820,6 +827,8 @@ Promise
 <
 void
 >
+|
+void
 )
 :
 void
