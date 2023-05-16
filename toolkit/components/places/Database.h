@@ -147,8 +147,8 @@ nsIRunnable
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 places
 {
 enum
@@ -177,7 +177,9 @@ nsIObserver
 public
 nsSupportsWeakReference
 {
-typedef
+using
+StatementCache
+=
 mozilla
 :
 :
@@ -188,9 +190,10 @@ StatementCache
 <
 mozIStorageStatement
 >
-StatementCache
 ;
-typedef
+using
+AsyncStatementCache
+=
 mozilla
 :
 :
@@ -201,7 +204,6 @@ StatementCache
 <
 mozIStorageAsyncStatement
 >
-AsyncStatementCache
 ;
 public
 :
@@ -811,7 +813,6 @@ mMobileRootId
 ;
 }
 ;
-}
 }
 #
 endif
