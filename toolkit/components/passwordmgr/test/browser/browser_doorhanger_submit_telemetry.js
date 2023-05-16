@@ -963,12 +963,11 @@ tc
 savedLogin
 )
 {
-await
 Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 LoginTestUtils
 .

@@ -139,7 +139,7 @@ application
 javascript
 "
 >
-const
+let
 readyPromise
 =
 registerRunTests
@@ -179,7 +179,6 @@ removeAllUserFacingLogins
 )
 ;
 }
-async
 function
 add2logins
 (
@@ -189,7 +188,6 @@ removeAllUserFacingLoginsInParent
 (
 )
 ;
-await
 addLoginsInParent
 (
 [
@@ -226,7 +224,6 @@ pass2
 )
 ;
 }
-async
 function
 addSingleLogin
 (
@@ -236,7 +233,6 @@ removeAllUserFacingLoginsInParent
 (
 )
 ;
-await
 addLoginsInParent
 (
 [
@@ -306,7 +302,7 @@ MUNGE_CHARS
 "
 ]
 ;
-const
+let
 nothingToReplace
 =
 Object
@@ -361,7 +357,7 @@ char
 =
 >
 {
-const
+let
 newTest
 =
 {
@@ -369,7 +365,7 @@ newTest
 ;
 for
 (
-const
+let
 [
 propName
 val
@@ -431,7 +427,7 @@ newTest
 )
 }
 ;
-const
+let
 loadPromise
 =
 new
@@ -690,7 +686,7 @@ generateTestCases
 ;
 for
 (
-const
+let
 tc
 of
 TEST_CASES
@@ -768,7 +764,7 @@ each
 test
 document
 .
-const
+let
 win
 =
 window
@@ -782,7 +778,7 @@ blank
 "
 )
 ;
-const
+let
 html
 =
 <
@@ -885,7 +881,7 @@ function
 contentHtml
 )
 {
-const
+let
 doc
 =
 this
@@ -896,7 +892,7 @@ document
 ;
 for
 (
-const
+let
 field
 of
 doc
@@ -909,7 +905,7 @@ input
 )
 )
 {
-const
+let
 actualValue
 =
 field
@@ -953,7 +949,7 @@ function
 testcase
 )
 {
-const
+let
 doc
 =
 this
@@ -1005,7 +1001,7 @@ via
 PasswordManager
 :
 onFormSubmit
-const
+let
 processedPromise
 =
 getSubmitMessage
@@ -1044,7 +1040,7 @@ click
 }
 )
 ;
-const
+let
 {
 data
 }
@@ -1268,7 +1264,7 @@ generateTestCases
 ;
 for
 (
-const
+let
 tc
 of
 TEST_CASES
@@ -1342,7 +1338,7 @@ each
 test
 document
 .
-const
+let
 win
 =
 window
@@ -1356,7 +1352,7 @@ blank
 "
 )
 ;
-const
+let
 html
 =
 <
@@ -1459,7 +1455,7 @@ function
 contentHtml
 )
 {
-const
+let
 doc
 =
 this
@@ -1470,7 +1466,7 @@ document
 ;
 for
 (
-const
+let
 field
 of
 doc
@@ -1483,7 +1479,7 @@ input
 )
 )
 {
-const
+let
 actualValue
 =
 field
@@ -1527,7 +1523,7 @@ function
 testcase
 )
 {
-const
+let
 doc
 =
 this
@@ -1570,7 +1566,7 @@ password
 }
 )
 ;
-const
+let
 formSubmitListener
 =
 SpecialPowers
@@ -1678,7 +1674,7 @@ click
 }
 )
 ;
-const
+let
 dialogRequested
 =
 await
@@ -1756,7 +1752,7 @@ add2logins
 (
 )
 ;
-const
+let
 allLogins
 =
 await
@@ -1766,7 +1762,7 @@ getAllLogins
 (
 )
 ;
-const
+let
 matchingLogins
 =
 Array
@@ -1804,7 +1800,7 @@ logins
 "
 )
 ;
-const
+let
 bulletLogin
 =
 matchingLogins
@@ -1837,21 +1833,21 @@ login
 "
 )
 ;
-const
+let
 timesUsed
 =
 bulletLogin
 .
 timesUsed
 ;
-const
+let
 guid
 =
 bulletLogin
 .
 guid
 ;
-const
+let
 win
 =
 window
@@ -1865,7 +1861,7 @@ blank
 "
 )
 ;
-const
+let
 html
 =
 <
@@ -1962,7 +1958,7 @@ function
 contentHtml
 )
 {
-const
+let
 doc
 =
 this
@@ -1973,7 +1969,7 @@ document
 ;
 for
 (
-const
+let
 field
 of
 doc
@@ -1986,7 +1982,7 @@ input
 )
 )
 {
-const
+let
 actualValue
 =
 field
@@ -2028,7 +2024,7 @@ function
 (
 )
 {
-const
+let
 doc
 =
 this
@@ -2142,7 +2138,7 @@ doorhanger
 .
 .
 .
-const
+let
 popupShownPromise
 =
 noPopupBy
@@ -2158,7 +2154,7 @@ via
 PasswordManager
 :
 onFormSubmit
-const
+let
 processedPromise
 =
 getSubmitMessage
@@ -2197,7 +2193,7 @@ click
 }
 )
 ;
-const
+let
 {
 data
 }
@@ -2234,7 +2230,7 @@ usernameField
 "
 )
 ;
-const
+let
 updatedLogins
 =
 await
@@ -2244,7 +2240,7 @@ getAllLogins
 (
 )
 ;
-const
+let
 updatedLogin
 =
 Array
@@ -2339,7 +2335,7 @@ addSingleLogin
 (
 )
 ;
-const
+let
 allLogins
 =
 await
@@ -2349,7 +2345,7 @@ getAllLogins
 (
 )
 ;
-const
+let
 matchingLogins
 =
 Array
@@ -2403,7 +2399,7 @@ matchingLogins
 username
 )
 ;
-const
+let
 bulletLogin
 =
 matchingLogins
@@ -2436,21 +2432,21 @@ login
 "
 )
 ;
-const
+let
 timesUsed
 =
 bulletLogin
 .
 timesUsed
 ;
-const
+let
 guid
 =
 bulletLogin
 .
 guid
 ;
-const
+let
 win
 =
 window
@@ -2464,7 +2460,7 @@ blank
 "
 )
 ;
-const
+let
 html
 =
 <
@@ -2561,7 +2557,7 @@ function
 contentHtml
 )
 {
-const
+let
 doc
 =
 this
@@ -2572,7 +2568,7 @@ document
 ;
 for
 (
-const
+let
 field
 of
 doc
@@ -2585,7 +2581,7 @@ input
 )
 )
 {
-const
+let
 actualValue
 =
 field
@@ -2627,7 +2623,7 @@ function
 (
 )
 {
-const
+let
 doc
 =
 this
@@ -2713,7 +2709,7 @@ didn
 '
 t
 change
-const
+let
 popupShownPromise
 =
 noPopupBy
@@ -2729,7 +2725,7 @@ via
 PasswordManager
 :
 onFormSubmit
-const
+let
 processedPromise
 =
 getSubmitMessage
@@ -2768,7 +2764,7 @@ click
 }
 )
 ;
-const
+let
 {
 data
 }
@@ -2805,7 +2801,7 @@ usernameField
 "
 )
 ;
-const
+let
 updatedLogins
 =
 await
@@ -2815,7 +2811,7 @@ getAllLogins
 (
 )
 ;
-const
+let
 updatedLogin
 =
 Array

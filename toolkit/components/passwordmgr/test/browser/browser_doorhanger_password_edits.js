@@ -266,12 +266,11 @@ testCase
 usernameInPageExists
 )
 {
-await
 Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 LoginTestUtils
 .
@@ -324,12 +323,11 @@ testCase
 usernameChangedToExists
 )
 {
-await
 Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 LoginTestUtils
 .

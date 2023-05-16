@@ -589,7 +589,7 @@ testAnonymousNoAuth
 }
 ]
 ;
-const
+let
 mm
 =
 runInParent
@@ -611,7 +611,7 @@ parentCi
 =
 Components
 ;
-const
+let
 {
 NetUtil
 }
@@ -635,7 +635,7 @@ jsm
 "
 )
 ;
-const
+let
 channel
 =
 NetUtil
@@ -660,7 +660,7 @@ true
 }
 )
 ;
-const
+let
 pps
 =
 parentCc
@@ -696,7 +696,6 @@ asyncResolve
 channel
 0
 {
-async
 onProxyAvailable
 (
 req
@@ -705,7 +704,7 @@ pi
 status
 )
 {
-const
+let
 mozproxy
 =
 "
@@ -729,8 +728,8 @@ pi
 .
 port
 ;
-const
-login1
+let
+login
 =
 parentCc
 [
@@ -756,7 +755,7 @@ parentCi
 nsILoginInfo
 )
 ;
-login1
+login
 .
 init
 (
@@ -777,7 +776,16 @@ proxy_pass
 "
 )
 ;
-const
+Services
+.
+logins
+.
+addLogin
+(
+login
+)
+;
+let
 login2
 =
 parentCc
@@ -835,17 +843,13 @@ user1pass
 "
 )
 ;
-await
 Services
 .
 logins
 .
-addLogins
+addLogin
 (
-[
-login1
 login2
-]
 )
 ;
 sendAsyncMessage
@@ -920,7 +924,7 @@ prepareForNextTestDone
 }
 )
 ;
-const
+let
 modalType
 =
 Services
@@ -938,7 +942,7 @@ httpAuth
 "
 )
 ;
-const
+let
 authPromptIsCommonDialog
 =
 modalType
@@ -979,7 +983,7 @@ false
 )
 )
 ;
-const
+let
 dialogObserverTopic
 =
 authPromptIsCommonDialog
@@ -1037,7 +1041,7 @@ acceptDialog
 }
 else
 {
-const
+let
 prompt
 =
 subj
