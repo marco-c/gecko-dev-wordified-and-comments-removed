@@ -160,15 +160,6 @@ T
 static
 {
 let
-status_sender
-=
-status
-.
-clone
-(
-)
-;
-let
 device_selector
 =
 DeviceSelector
@@ -176,7 +167,6 @@ DeviceSelector
 :
 run
 (
-status
 )
 ;
 let
@@ -212,7 +202,7 @@ new
 (
 new_device_cb
 selector_sender
-status_sender
+status
 )
 ;
 try_or
