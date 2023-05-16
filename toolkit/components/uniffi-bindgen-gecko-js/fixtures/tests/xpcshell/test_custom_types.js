@@ -3,7 +3,7 @@ CustomTypes
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -16,7 +16,9 @@ modules
 /
 RustCustomTypes
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
