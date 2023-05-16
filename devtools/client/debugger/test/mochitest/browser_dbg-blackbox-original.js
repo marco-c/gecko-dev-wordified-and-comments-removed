@@ -84,7 +84,7 @@ dbg
 .
 store
 "
-BLACKBOX
+BLACKBOX_WHOLE_SOURCES
 "
 )
 ;
@@ -203,7 +203,7 @@ dbg
 .
 store
 "
-BLACKBOX
+UNBLACKBOX_WHOLE_SOURCES
 "
 )
 ;

@@ -334,13 +334,6 @@ PropTypes
 func
 .
 isRequired
-isSourceBlackBoxed
-:
-PropTypes
-.
-bool
-.
-isRequired
 getParent
 :
 PropTypes
@@ -615,11 +608,9 @@ props
 const
 ignoreStr
 =
-this
+item
 .
-props
-.
-isSourceBlackBoxed
+isBlackBoxed
 ?
 "
 unignore
