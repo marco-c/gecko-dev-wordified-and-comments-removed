@@ -407,10 +407,6 @@ it
 skipped_lkgr_bots
 =
 [
-"
-Fuchsia
-Release
-"
 ]
 #
 Use
@@ -5981,9 +5977,6 @@ linux_try_job
 "
 fuchsia_rel
 "
-cq
-=
-None
 )
 perf_builder
 (
