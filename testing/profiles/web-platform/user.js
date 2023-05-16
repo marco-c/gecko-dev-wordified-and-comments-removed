@@ -327,7 +327,6 @@ devPixelsPerPx
 0
 "
 )
-;
 user_pref
 (
 "
