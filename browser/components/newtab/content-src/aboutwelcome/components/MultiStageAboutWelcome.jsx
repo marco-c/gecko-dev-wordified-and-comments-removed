@@ -2348,6 +2348,16 @@ value
 "
 )
 ;
+const
+source
+=
+event
+.
+source
+|
+|
+value
+;
 let
 targetContent
 =
@@ -2403,7 +2413,7 @@ sendActionTelemetry
 props
 .
 messageId
-value
+source
 event
 .
 name
@@ -2473,7 +2483,7 @@ sendDismissTelemetry
 props
 .
 messageId
-value
+source
 )
 ;
 }
