@@ -6834,10 +6834,6 @@ title_style
 "
 }
 }
-content
-.
-title
-?
 react__WEBPACK_IMPORTED_MODULE_0___default
 (
 )
@@ -6872,12 +6868,6 @@ mainContentHeader
 }
 )
 )
-:
-null
-content
-.
-subtitle
-?
 react__WEBPACK_IMPORTED_MODULE_0___default
 (
 )
@@ -7022,8 +7012,6 @@ steps
 }
 )
 )
-:
-null
 content
 .
 cta_paragraph
