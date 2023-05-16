@@ -899,7 +899,7 @@ used
 for
 knowing
 #
-whether
+if
 we
 can
 hoist
@@ -2355,7 +2355,7 @@ object
 Bails
 out
 #
-when
+if
 any
 elements
 were
@@ -2418,7 +2418,7 @@ object
 Bails
 out
 #
-when
+if
 any
 elements
 were
