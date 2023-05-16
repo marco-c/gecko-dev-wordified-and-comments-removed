@@ -5625,15 +5625,6 @@ break
 }
 }
 get
-delayedApplyEnabled
-(
-)
-{
-return
-true
-;
-}
-get
 bookmarkState
 (
 )
