@@ -417,6 +417,12 @@ mExtendForCSPEventListener
 false
 }
 ;
+uint64_t
+mAssociatedBrowsingContextID
+{
+0
+}
+;
 Atomic
 <
 bool

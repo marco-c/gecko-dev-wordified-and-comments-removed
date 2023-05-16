@@ -423,6 +423,9 @@ nsICSPEventListener
 >
 mCSPEventListener
 ;
+uint64_t
+mAssociatedBrowsingContextID
+;
 nsCOMPtr
 <
 nsISerialEventTarget
