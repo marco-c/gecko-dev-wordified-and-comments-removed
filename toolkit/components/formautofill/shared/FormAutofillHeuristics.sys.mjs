@@ -1790,6 +1790,10 @@ terminated
 break
 ;
 }
+parsedFields
+=
+false
+;
 const
 elem
 =
@@ -1843,6 +1847,15 @@ parsedFields
 true
 ;
 }
+}
+if
+(
+!
+parsedFields
+)
+{
+break
+;
 }
 fieldScanner
 .
