@@ -11045,15 +11045,7 @@ mFrame
 if
 (
 !
-(
 hitTestFlags
-&
-(
-SVG_HIT_TEST_FILL
-|
-SVG_HIT_TEST_STROKE
-)
-)
 )
 {
 continue

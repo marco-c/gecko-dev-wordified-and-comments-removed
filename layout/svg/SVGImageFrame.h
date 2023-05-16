@@ -501,10 +501,11 @@ const
 ;
 private
 :
-uint16_t
-GetHitTestFlags
+bool
+IgnoreHitTest
 (
 )
+const
 ;
 gfx
 :
