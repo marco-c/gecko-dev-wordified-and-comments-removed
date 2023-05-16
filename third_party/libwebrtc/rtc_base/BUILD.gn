@@ -6837,6 +6837,13 @@ if
 build_with_mozilla
 )
 {
+visibility
+=
+[
+"
+*
+"
+]
 sources
 =
 [
