@@ -593,17 +593,6 @@ __STDC_FORMAT_MACROS
 ]
 =
 True
-OS_LIBS
-+
-=
-[
-"
-dl
-"
-"
-rt
-"
-]
 if
 CONFIG
 [
@@ -1453,6 +1442,6 @@ True
 Library
 (
 "
-rtc_base_gn
+mdns_responder_interface_gn
 "
 )
