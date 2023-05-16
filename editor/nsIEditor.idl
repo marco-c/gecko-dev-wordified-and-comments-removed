@@ -719,6 +719,9 @@ canCut
 (
 )
 ;
+[
+can_run_script
+]
 void
 copy
 (
