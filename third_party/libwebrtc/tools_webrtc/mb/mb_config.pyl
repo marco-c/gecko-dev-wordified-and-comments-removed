@@ -805,6 +805,17 @@ win_clang_release_bot_x64
 #
 iOS
 '
+iOS
+Debug
+(
+simulator
+)
+'
+:
+'
+ios_debug_bot_x64
+'
+'
 iOS64
 Debug
 '
