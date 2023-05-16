@@ -884,6 +884,16 @@ IntrinsicPossiblyWrappedTypedArrayLength
 \
 _
 (
+IntrinsicRegExpBuiltinExec
+)
+\
+_
+(
+IntrinsicRegExpExec
+)
+\
+_
+(
 IntrinsicTypedArrayByteOffset
 )
 \
