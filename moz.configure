@@ -837,12 +837,6 @@ help
 Enable
 building
 modules
-that
-are
-not
-marked
-with
-REQUIRES_UNIFIED_BUILD
 in
 non
 unified

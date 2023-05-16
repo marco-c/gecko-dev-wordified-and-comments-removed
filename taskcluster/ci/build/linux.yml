@@ -635,7 +635,9 @@ expanded
 null
 linux64
 -
-hybrid
+non
+-
+unified
 /
 plain
 :
@@ -657,7 +659,9 @@ name
 :
 linux64
 -
-hybrid
+non
+-
+unified
 -
 plain
 treeherder
@@ -671,7 +675,7 @@ symbol
 :
 Bp
 -
-hybrid
+nu
 tier
 :
 1
@@ -688,7 +692,9 @@ env
 :
 PERFHERDER_EXTRA_OPTIONS
 :
-hybrid
+non
+-
+unified
 run
 :
 using
@@ -744,7 +750,9 @@ mozconfig
 -
 variant
 :
-hybrid
+non
+-
+unified
 run
 -
 on

@@ -1009,7 +1009,9 @@ upx
 win
 win64
 -
-hybrid
+non
+-
+unified
 /
 plain
 :
@@ -1031,7 +1033,9 @@ name
 :
 win64
 -
-hybrid
+non
+-
+unified
 -
 plain
 treeherder
@@ -1047,7 +1051,7 @@ symbol
 :
 Bp
 -
-hybrid
+nu
 tier
 :
 1
@@ -1073,7 +1077,9 @@ env
 :
 PERFHERDER_EXTRA_OPTIONS
 :
-hybrid
+non
+-
+unified
 run
 :
 options
@@ -1127,7 +1133,9 @@ mozconfig
 -
 variant
 :
-hybrid
+non
+-
+unified
 extra
 -
 config

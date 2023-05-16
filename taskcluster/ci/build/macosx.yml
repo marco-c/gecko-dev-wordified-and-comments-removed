@@ -286,7 +286,9 @@ wasm32
 wasi
 macosx64
 -
-hybrid
+non
+-
+unified
 /
 plain
 :
@@ -309,7 +311,9 @@ name
 :
 macosx64
 -
-hybrid
+non
+-
+unified
 treeherder
 :
 platform
@@ -323,7 +327,7 @@ symbol
 :
 Bp
 -
-hybrid
+nu
 tier
 :
 1
@@ -340,7 +344,9 @@ env
 :
 PERFHERDER_EXTRA_OPTIONS
 :
-hybrid
+non
+-
+unified
 run
 :
 config
@@ -361,7 +367,9 @@ mozconfig
 -
 variant
 :
-hybrid
+non
+-
+unified
 extra
 -
 config
