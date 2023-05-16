@@ -324,7 +324,7 @@ fileNameBytes
 *
 fileNameBytes
 =
-JS_EncodeStringToUTF8
+JS_EncodeStringToLatin1
 (
 cx
 s

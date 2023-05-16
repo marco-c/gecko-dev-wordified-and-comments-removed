@@ -561,6 +561,15 @@ ToSource
 h
 "
 #
+include
+"
+vm
+/
+Warnings
+.
+h
+"
+#
 ifdef
 MOZ_VTUNE
 #
