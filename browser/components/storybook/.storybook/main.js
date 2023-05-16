@@ -319,6 +319,16 @@ themes
 /
 shared
 /
+{
+projectRoot
+}
+/
+browser
+/
+components
+/
+firefoxview
+/
 ]
 addons
 :
