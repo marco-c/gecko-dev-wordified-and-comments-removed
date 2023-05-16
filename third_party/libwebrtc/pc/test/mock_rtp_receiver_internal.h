@@ -314,7 +314,13 @@ override
 ;
 MOCK_METHOD
 (
+absl
+:
+:
+optional
+<
 uint32_t
+>
 ssrc
 (
 )
