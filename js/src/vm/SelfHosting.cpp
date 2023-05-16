@@ -12763,7 +12763,7 @@ intrinsic_PromiseResolve
 2
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 RegExpBuiltinExec
@@ -12771,6 +12771,7 @@ RegExpBuiltinExec
 intrinsic_RegExpBuiltinExec
 3
 0
+IntrinsicRegExpBuiltinExec
 )
 JS_FN
 (
@@ -12790,7 +12791,7 @@ intrinsic_RegExpCreate
 2
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 RegExpExec
@@ -12798,6 +12799,7 @@ RegExpExec
 intrinsic_RegExpExec
 3
 0
+IntrinsicRegExpExec
 )
 JS_FN
 (

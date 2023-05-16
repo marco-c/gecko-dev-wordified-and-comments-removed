@@ -2663,6 +2663,16 @@ tryAttachRegExpInstanceOptimizable
 )
 ;
 AttachDecision
+tryAttachIntrinsicRegExpBuiltinExec
+(
+)
+;
+AttachDecision
+tryAttachIntrinsicRegExpExec
+(
+)
+;
+AttachDecision
 tryAttachGetFirstDollarIndex
 (
 )
