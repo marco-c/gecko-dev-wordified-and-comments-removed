@@ -5615,6 +5615,13 @@ updated
 =
 False
                 
+if
+base_revision_treeherder
+is
+not
+None
+:
+                    
 try_config
 .
 setdefault
@@ -5626,11 +5633,11 @@ env
 }
 )
 [
-                    
+                        
 "
 PERF_BASE_REVISION
 "
-                
+                    
 ]
 =
 base_revision_treeherder
