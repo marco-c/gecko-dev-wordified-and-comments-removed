@@ -1218,7 +1218,7 @@ constexpr
 size_t
 NumEntries
 =
-256
+1024
 ;
 static
 constexpr
