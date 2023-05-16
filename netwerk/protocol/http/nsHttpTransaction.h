@@ -1574,7 +1574,11 @@ mRestartCount
 0
 }
 ;
+Atomic
+<
 uint32_t
+ReleaseAcquire
+>
 mCaps
 {
 0
