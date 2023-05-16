@@ -5910,7 +5910,10 @@ closure_
 )
 {
 return
-false
+reportDataCloneError
+(
+JS_SCERR_TRANSFERABLE
+)
 ;
 }
 if
