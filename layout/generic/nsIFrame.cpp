@@ -7522,9 +7522,6 @@ aViewManager
 nsView
 *
 aNewParentView
-nsView
-*
-aOldParentView
 )
 {
 if
@@ -7627,7 +7624,6 @@ ReparentFrameViewTo
 (
 aViewManager
 aNewParentView
-aOldParentView
 )
 ;
 }
@@ -7867,7 +7863,6 @@ ReparentFrameViewTo
 (
 viewManager
 view
-parentView
 )
 ;
 SetView

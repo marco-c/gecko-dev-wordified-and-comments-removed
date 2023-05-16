@@ -12020,9 +12020,6 @@ aViewManager
 nsView
 *
 aNewParentView
-nsView
-*
-aOldParentView
 )
 ;
 nsRect

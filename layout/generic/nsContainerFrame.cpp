@@ -3409,7 +3409,6 @@ GetViewManager
 (
 )
 newParentView
-oldParentView
 )
 ;
 }
@@ -3623,7 +3622,6 @@ ReparentFrameViewTo
 (
 viewManager
 newParentView
-oldParentView
 )
 ;
 }
