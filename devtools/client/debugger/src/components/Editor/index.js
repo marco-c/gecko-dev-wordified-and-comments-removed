@@ -3210,12 +3210,6 @@ editor
 :
 null
 }
-{
-features
-.
-columnBreakpoints
-?
-(
 <
 ColumnBreakpoints
 editor
@@ -3225,10 +3219,6 @@ editor
 }
 /
 >
-)
-:
-null
-}
 {
 isPaused
 &
