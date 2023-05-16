@@ -2144,7 +2144,7 @@ else
         
 log
 .
-warn
+warning
 (
 "
 Maximum
