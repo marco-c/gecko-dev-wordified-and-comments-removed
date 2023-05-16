@@ -617,15 +617,6 @@ scoped_refptr
 .
 /
 rtc_base
-"
-"
-.
-.
-/
-.
-.
-/
-rtc_base
 :
 checks
 "

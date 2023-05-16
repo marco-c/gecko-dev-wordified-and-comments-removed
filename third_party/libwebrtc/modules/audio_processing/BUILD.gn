@@ -2288,15 +2288,6 @@ common_audio_c
 .
 /
 rtc_base
-"
-"
-.
-.
-/
-.
-.
-/
-rtc_base
 :
 checks
 "

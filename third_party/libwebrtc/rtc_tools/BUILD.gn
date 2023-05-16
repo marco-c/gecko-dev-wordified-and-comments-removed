@@ -1505,12 +1505,6 @@ rtc_media_base
 .
 /
 rtc_base
-"
-"
-.
-.
-/
-rtc_base
 :
 rtc_json
 "
@@ -3764,12 +3758,6 @@ video_rtp_headers
 .
 /
 common_video
-"
-"
-.
-.
-/
-rtc_base
 "
 "
 .

@@ -159,17 +159,6 @@ deps
 /
 rtc_base
 :
-rtc_base
-"
-"
-.
-.
-/
-.
-.
-/
-rtc_base
-:
 ssl
 "
 "

@@ -221,12 +221,6 @@ deps
 .
 .
 :
-rtc_base
-"
-"
-.
-.
-:
 stream
 "
 "

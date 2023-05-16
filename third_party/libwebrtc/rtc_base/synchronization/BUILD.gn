@@ -518,12 +518,6 @@ platform_thread
 .
 .
 :
-rtc_base
-"
-"
-.
-.
-:
 rtc_event
 "
 "

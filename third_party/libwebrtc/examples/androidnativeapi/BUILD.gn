@@ -388,11 +388,6 @@ libjingle_peerconnection
 "
 /
 /
-rtc_base
-"
-"
-/
-/
 sdk
 /
 android

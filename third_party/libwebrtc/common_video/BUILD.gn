@@ -407,12 +407,6 @@ video_codecs_api
 .
 /
 rtc_base
-"
-"
-.
-.
-/
-rtc_base
 :
 bit_buffer
 "
@@ -805,12 +799,6 @@ api
 video_codecs
 :
 video_codecs_api
-"
-"
-.
-.
-/
-rtc_base
 "
 "
 .

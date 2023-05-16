@@ -1116,15 +1116,6 @@ scalability_mode_util
 .
 /
 rtc_base
-"
-"
-.
-.
-/
-.
-.
-/
-rtc_base
 :
 checks
 "

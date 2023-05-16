@@ -2516,12 +2516,6 @@ rtc_event_log
 .
 /
 rtc_base
-"
-"
-.
-.
-/
-rtc_base
 :
 macromagic
 "

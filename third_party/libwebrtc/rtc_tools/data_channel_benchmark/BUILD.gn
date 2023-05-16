@@ -336,15 +336,6 @@ builtin_video_encoder_factory
 .
 /
 rtc_base
-"
-"
-.
-.
-/
-.
-.
-/
-rtc_base
 :
 logging
 "
