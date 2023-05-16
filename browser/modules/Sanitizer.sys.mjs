@@ -6246,6 +6246,13 @@ promises
 .
 length
 ;
+if
+(
+promises
+.
+length
+)
+{
 await
 Promise
 .
@@ -6272,6 +6279,7 @@ resolve
 )
 )
 ;
+}
 progress
 .
 step
