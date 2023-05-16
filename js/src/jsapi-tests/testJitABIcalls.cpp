@@ -2479,7 +2479,7 @@ NO_ARGS_CHECKS
 bool
 CheckArgsEqual
 (
-JSAPITest
+JSAPIRuntimeTest
 *
 instance
 int
@@ -2654,7 +2654,7 @@ Args
 void
 set_instance
 (
-JSAPITest
+JSAPIRuntimeTest
 *
 instance
 bool
@@ -3568,7 +3568,7 @@ DontCheckOther
 private
 :
 static
-JSAPITest
+JSAPIRuntimeTest
 *
 instance_
 ;
@@ -3589,7 +3589,7 @@ typename
 .
 Args
 >
-JSAPITest
+JSAPIRuntimeTest
 *
 DefineCheckArgs
 <
@@ -3651,7 +3651,7 @@ JitABICall
 final
 :
 public
-JSAPITest
+JSAPIRuntimeTest
 public
 DefineCheckArgs
 <

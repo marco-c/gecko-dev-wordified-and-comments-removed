@@ -484,7 +484,7 @@ init
 )
 override
 {
-JSAPITest
+JSAPIRuntimeTest
 :
 :
 uninit

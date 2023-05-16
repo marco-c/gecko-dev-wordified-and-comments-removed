@@ -1129,7 +1129,7 @@ override
 if
 (
 !
-JSAPITest
+JSAPIRuntimeTest
 :
 :
 init
@@ -1165,7 +1165,7 @@ cx
 FinalizeCallback
 )
 ;
-JSAPITest
+JSAPIRuntimeTest
 :
 :
 uninit
