@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsStyleConsts
+.
+h
+"
+#
+include
+"
 mozilla
 /
 LookAndFeel

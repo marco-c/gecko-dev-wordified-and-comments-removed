@@ -3681,7 +3681,7 @@ Context
 NonNegativeLength
 {
 let
-gecko_font
+font
 =
 cx
 .
@@ -3692,16 +3692,12 @@ style
 get_font
 (
 )
-.
-gecko
-(
-)
 ;
 let
 family
 =
 &
-gecko_font
+font
 .
 mFont
 .
@@ -3739,7 +3735,7 @@ Atom
 :
 with
 (
-gecko_font
+font
 .
 mLanguage
 .

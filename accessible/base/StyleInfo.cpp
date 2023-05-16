@@ -8,9 +8,7 @@ h
 #
 include
 "
-mozilla
-/
-ServoStyleConsts
+nsStyleConsts
 .
 h
 "

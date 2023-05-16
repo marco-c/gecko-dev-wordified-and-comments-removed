@@ -1275,7 +1275,7 @@ p
 #
 name_
 =
-GetStyle
+Style
 #
 #
 name_
@@ -1334,8 +1334,6 @@ STYLE_STRUCT
 if
 (
 visited_style
-.
-mPtr
 &
 &
 !
@@ -1346,14 +1344,10 @@ mState
 HaveSeenPtr
 (
 visited_style
-.
-mPtr
 )
 )
 {
 visited_style
-.
-mPtr
 -
 >
 AddSizeOfIncludingThis

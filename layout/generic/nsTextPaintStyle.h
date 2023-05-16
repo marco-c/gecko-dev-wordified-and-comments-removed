@@ -58,6 +58,16 @@ nsTextFrame
 class
 nsPresContext
 ;
+namespace
+mozilla
+{
+enum
+class
+StyleTextDecorationStyle
+:
+uint8_t
+;
+}
 class
 MOZ_STACK_CLASS
 nsTextPaintStyle

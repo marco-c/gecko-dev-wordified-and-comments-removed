@@ -1334,7 +1334,7 @@ aIncludeVisitedStyle
 {
 if
 (
-ComputedStyle
+auto
 *
 styleIfVisited
 =

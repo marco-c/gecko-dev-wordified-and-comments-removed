@@ -53,6 +53,13 @@ nsBidiUtils
 h
 "
 #
+include
+"
+nsStyleStruct
+.
+h
+"
+#
 define
 CHECK_WRITING_MODE
 (
