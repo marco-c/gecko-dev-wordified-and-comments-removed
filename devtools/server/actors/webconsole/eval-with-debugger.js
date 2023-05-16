@@ -1616,6 +1616,14 @@ natives
 .
 eagerEcmaAllowlist
 .
+functions
+.
+.
+.
+eagerEcmaAllowlist
+.
+getters
+.
 .
 .
 domNatives
