@@ -1794,13 +1794,6 @@ value
 :
 return
 True
-add_old_configure_assignment
-(
-"
-MOZ_PROFILING
-"
-profiling
-)
 with
 only_when
 (

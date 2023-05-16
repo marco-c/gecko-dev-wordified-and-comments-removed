@@ -956,13 +956,6 @@ pkg
 configure
 "
 )
-add_old_configure_assignment
-(
-"
-PKG_CONFIG
-"
-pkg_config
-)
 include
 (
 "

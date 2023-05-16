@@ -13405,13 +13405,6 @@ GNU_AS
 "
 gnu_as
 )
-add_old_configure_assignment
-(
-"
-GNU_AS
-"
-gnu_as
-)
 depends
 (
 as_info
@@ -15243,8 +15236,6 @@ ar_config
 c_compiler
 toolchain_prefix
 )
-ar
-=
 check_prog
 (
 "
@@ -15256,13 +15247,6 @@ names
 paths
 =
 clang_search_path
-)
-add_old_configure_assignment
-(
-"
-AR
-"
-ar
 )
 set_config
 (
@@ -15279,8 +15263,6 @@ ar_config
 (
 host_c_compiler
 )
-host_ar
-=
 check_prog
 (
 "

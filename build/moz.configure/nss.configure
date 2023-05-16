@@ -177,12 +177,3 @@ nss_config
 .
 libs
 )
-add_old_configure_assignment
-(
-"
-NSS_CFLAGS
-"
-nss_config
-.
-cflags
-)
