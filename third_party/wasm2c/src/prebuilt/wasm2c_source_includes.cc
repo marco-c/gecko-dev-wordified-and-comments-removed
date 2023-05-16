@@ -162,6 +162,12 @@ defined
 (
 __FreeBSD__
 )
+|
+|
+defined
+(
+__OpenBSD__
+)
 )
 w2c_template
 "
