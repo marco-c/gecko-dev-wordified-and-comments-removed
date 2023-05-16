@@ -45,7 +45,7 @@ values
 :
 :
 {
-serialize_percentage
+serialize_normalized_percentage
 CSSFloat
 }
 ;
@@ -430,7 +430,7 @@ fmt
 :
 Write
 {
-serialize_percentage
+serialize_normalized_percentage
 (
 self
 .

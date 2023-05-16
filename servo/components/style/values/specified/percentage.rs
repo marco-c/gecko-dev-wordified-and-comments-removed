@@ -90,6 +90,7 @@ values
 :
 {
 serialize_percentage
+normalize
 CSSFloat
 }
 ;
@@ -848,10 +849,13 @@ ComputedValue
 {
 ComputedPercentage
 (
+normalize
+(
 self
 .
 get
 (
+)
 )
 )
 }
