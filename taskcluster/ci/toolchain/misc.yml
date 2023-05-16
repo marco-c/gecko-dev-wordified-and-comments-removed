@@ -1677,9 +1677,9 @@ clang
 -
 toolchain
 -
-win64
+vs
 -
-vs2017
+toolchain
 linux64
 -
 makecab
@@ -1838,9 +1838,9 @@ clang
 -
 toolchain
 -
-win64
+vs
 -
-vs2017
+toolchain
 nsis
 :
 description
@@ -2076,6 +2076,13 @@ vs
 tar
 .
 zst
+toolchain
+-
+alias
+:
+vs
+-
+toolchain
 win64
 -
 vs2022

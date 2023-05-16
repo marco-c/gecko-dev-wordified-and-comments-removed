@@ -555,9 +555,9 @@ rust
 -
 windows
 -
-win64
+vs
 -
-vs2017
+toolchain
 win64
 -
 aarch64
@@ -631,9 +631,9 @@ rust
 -
 windows
 -
-win64
+vs
 -
-vs2017
+toolchain
 win64
 -
 geckodriver
@@ -701,6 +701,6 @@ rust
 -
 windows
 -
-win64
+vs
 -
-vs2017
+toolchain

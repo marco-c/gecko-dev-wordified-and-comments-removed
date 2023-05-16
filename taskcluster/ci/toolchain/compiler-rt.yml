@@ -1365,9 +1365,9 @@ clang
 -
 stage1
 -
-win64
+vs
 -
-vs2019
+toolchain
 win64
 -
 compiler
@@ -1486,9 +1486,9 @@ clang
 -
 stage1
 -
-win64
+vs
 -
-vs2019
+toolchain
 wasm32
 -
 wasi
@@ -2923,9 +2923,9 @@ trunk
 -
 stage1
 -
-win64
+vs
 -
-vs2019
+toolchain
 win64
 -
 compiler
@@ -3049,9 +3049,9 @@ trunk
 -
 stage1
 -
-win64
+vs
 -
-vs2019
+toolchain
 wasm32
 -
 wasi

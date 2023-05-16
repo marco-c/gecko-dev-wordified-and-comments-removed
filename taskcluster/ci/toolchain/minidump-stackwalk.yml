@@ -348,9 +348,9 @@ windows
 -
 toolchain
 -
-win64
+vs
 -
-vs2017
+toolchain
 win64
 -
 minidump
@@ -399,9 +399,9 @@ windows
 -
 toolchain
 -
-win64
+vs
 -
-vs2017
+toolchain
 #
 This
 is

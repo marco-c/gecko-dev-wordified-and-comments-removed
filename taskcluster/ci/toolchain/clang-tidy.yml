@@ -729,9 +729,9 @@ clang
 -
 16
 -
-win64
+vs
 -
-vs2019
+toolchain
 linux64
 -
 clang

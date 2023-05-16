@@ -710,9 +710,9 @@ clang
 -
 stage1
 -
-win64
+vs
 -
-vs2019
+toolchain
 linux32
 -
 llvm
@@ -1352,6 +1352,6 @@ trunk
 -
 stage1
 -
-win64
+vs
 -
-vs2019
+toolchain

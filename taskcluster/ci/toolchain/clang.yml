@@ -2963,9 +2963,9 @@ clang
 -
 stage1
 -
-win64
+vs
 -
-vs2019
+toolchain
 win64
 -
 clang
@@ -3185,9 +3185,9 @@ rt
 -
 16
 -
-win64
+vs
 -
-vs2019
+toolchain
 win64
 -
 clang
@@ -5769,9 +5769,9 @@ trunk
 -
 stage1
 -
-win64
+vs
 -
-vs2019
+toolchain
 win64
 -
 clang
@@ -5996,9 +5996,9 @@ rt
 -
 trunk
 -
-win64
+vs
 -
-vs2019
+toolchain
 win64
 -
 clang

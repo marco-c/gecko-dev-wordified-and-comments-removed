@@ -345,9 +345,9 @@ windows
 -
 toolchain
 -
-win64
+vs
 -
-vs2017
+toolchain
 win64
 -
 fix
@@ -398,6 +398,6 @@ windows
 -
 toolchain
 -
-win64
+vs
 -
-vs2017
+toolchain

@@ -263,6 +263,6 @@ windows
 -
 toolchain
 -
-win64
+vs
 -
-vs2017
+toolchain
