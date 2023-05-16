@@ -3809,9 +3809,6 @@ return
 true
 ;
 }
-#
-ifdef
-MOZ_WAYLAND
 void
 GfxInfo
 :
@@ -3839,6 +3836,9 @@ Some
 false
 )
 ;
+#
+ifdef
+MOZ_WAYLAND
 char
 *
 vaapiData
@@ -4281,9 +4281,9 @@ return
 ;
 }
 }
-}
 #
 endif
+}
 const
 nsTArray
 <
@@ -6592,15 +6592,10 @@ nsIGfxInfo
 FEATURE_STATUS_OK
 )
 {
-#
-ifdef
-MOZ_WAYLAND
 GetDataVAAPI
 (
 )
 ;
-#
-endif
 if
 (
 !
