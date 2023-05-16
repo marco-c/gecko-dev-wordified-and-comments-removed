@@ -3,15 +3,6 @@ use
 strict
 "
 ;
-var
-location_href
-=
-globalThis
-.
-location
-.
-href
-;
 self
 .
 addEventListener
