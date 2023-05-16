@@ -4866,9 +4866,13 @@ deserializeStencils
 FrontendContext
 *
 fc
-CompilationInput
+const
+JS
+:
+:
+ReadOnlyCompileOptions
 &
-input
+options
 const
 JS
 :

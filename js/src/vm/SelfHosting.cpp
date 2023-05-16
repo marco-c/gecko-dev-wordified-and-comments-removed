@@ -15055,8 +15055,7 @@ deserializeStencils
 (
 &
 fc
-*
-input
+options
 xdrCache
 &
 decodeOk

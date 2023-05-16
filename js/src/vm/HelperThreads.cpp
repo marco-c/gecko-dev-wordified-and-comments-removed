@@ -4400,8 +4400,7 @@ stencil_
 deserializeStencils
 (
 fc
-*
-stencilInput_
+options
 range
 &
 succeeded
@@ -4628,7 +4627,7 @@ stencil
 deserializeStencils
 (
 fc
-stencilInput
+options
 source
 .
 range

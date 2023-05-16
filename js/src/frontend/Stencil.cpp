@@ -14447,9 +14447,13 @@ deserializeStencils
 FrontendContext
 *
 fc
-CompilationInput
+const
+JS
+:
+:
+ReadOnlyCompileOptions
 &
-input
+compileOptions
 const
 JS
 :
@@ -14495,9 +14499,7 @@ JS
 DecodeOptions
 options
 (
-input
-.
-options
+compileOptions
 )
 ;
 XDRResult
