@@ -1105,7 +1105,9 @@ layout
 .
 css
 .
-named_pages
+named
+-
+pages
 .
 enabled
 is
