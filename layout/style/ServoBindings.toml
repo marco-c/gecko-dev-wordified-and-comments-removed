@@ -2773,9 +2773,6 @@ values
 computed
 :
 :
-box_
-:
-:
 AnimationIterationCount
 "
 }
@@ -2795,9 +2792,6 @@ values
 :
 :
 computed
-:
-:
-box_
 :
 :
 AnimationTimeline
