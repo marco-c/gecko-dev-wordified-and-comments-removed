@@ -50,6 +50,13 @@ changed
 )
 ;
 await
+AboutHomeStartupCache
+.
+ensureCacheEntry
+(
+)
+;
+await
 simulateRestart
 (
 browser
