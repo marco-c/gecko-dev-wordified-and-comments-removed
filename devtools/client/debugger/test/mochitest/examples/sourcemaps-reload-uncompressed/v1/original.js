@@ -32,7 +32,7 @@ foo
 )
 {
 await
-bar
+nonSourceMappedFunction
 (
 )
 ;
