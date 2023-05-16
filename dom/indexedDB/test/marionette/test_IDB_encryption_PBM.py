@@ -818,7 +818,7 @@ profilePath
 storage
 "
 "
-default
+private
 "
 sanitizedOrigin
 "
@@ -917,7 +917,7 @@ let
 context
 =
 "
-default
+private
 "
                             
 let
