@@ -3903,19 +3903,10 @@ resolve_repository
 (
 )
     
-if
-repo
-!
-=
-"
-SOURCE
-"
-:
-        
 missing_ok
 =
 (
-            
+        
 repo
 is
 not
@@ -3926,7 +3917,7 @@ repo
 sparse_checkout_present
 (
 )
-        
+    
 )
 or
 os
@@ -3946,14 +3937,6 @@ topsrcdir
 INSTALL
 "
 )
-)
-    
-else
-:
-        
-missing_ok
-=
-(
 )
     
 driver
