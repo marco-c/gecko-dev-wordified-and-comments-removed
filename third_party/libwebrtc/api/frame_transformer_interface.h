@@ -206,6 +206,16 @@ const
 =
 0
 ;
+virtual
+void
+SetMetadata
+(
+const
+VideoFrameMetadata
+&
+)
+{
+}
 }
 ;
 class
