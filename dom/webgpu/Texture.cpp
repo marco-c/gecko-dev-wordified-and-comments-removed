@@ -646,6 +646,15 @@ dom
 GPUTextureFormat
 :
 :
+Depth32float_stencil8
+:
+case
+dom
+:
+:
+GPUTextureFormat
+:
+:
 EndGuard_
 :
 return
