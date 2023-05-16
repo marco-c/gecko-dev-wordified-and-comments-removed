@@ -261,6 +261,10 @@ int32_t
 ;
 float
 ;
+uint64_t
+[
+]
+;
 }
 ;
 struct
