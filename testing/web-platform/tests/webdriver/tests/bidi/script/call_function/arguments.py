@@ -1038,6 +1038,7 @@ parametrize
 "
 setup_expression
 function_declaration
+await_promise
 expected
 "
     
@@ -1067,6 +1068,8 @@ toString
 )
 "
             
+False
+            
 {
 "
 type
@@ -1090,12 +1093,14 @@ foo
 )
         
 (
+            
 "
 [
 1
 2
 ]
 "
+            
 "
 (
 array
@@ -1107,6 +1112,9 @@ array
 0
 ]
 "
+            
+False
+            
 {
 "
 type
@@ -1145,6 +1153,8 @@ regexp
 .
 source
 "
+            
+False
             
 {
 "
@@ -1187,6 +1197,8 @@ toISOString
 (
 )
 "
+            
+False
             
 {
 "
@@ -1252,6 +1264,8 @@ foo
 )
 "
             
+False
+            
 {
 "
 type
@@ -1300,6 +1314,8 @@ foo
 '
 )
 "
+            
+False
             
 {
 "
@@ -1356,6 +1372,8 @@ weakMap
 )
 "
             
+False
+            
 {
 "
 type
@@ -1410,6 +1428,8 @@ weakSet
 )
 "
             
+False
+            
 {
 "
 type
@@ -1450,6 +1470,8 @@ error
 .
 message
 "
+            
+False
             
 {
 "
@@ -1495,6 +1517,8 @@ error
 .
 message
 "
+            
+False
             
 {
 "
@@ -1544,6 +1568,8 @@ promise
 promise
 "
             
+True
+            
 {
 "
 type
@@ -1557,6 +1583,44 @@ value
 "
 :
 3
+}
+        
+)
+        
+(
+            
+"
+new
+Promise
+(
+(
+)
+=
+>
+{
+}
+)
+"
+            
+"
+(
+promise
+)
+=
+>
+promise
+"
+            
+False
+            
+{
+"
+type
+"
+:
+"
+promise
+"
 }
         
 )
@@ -1581,6 +1645,8 @@ int8Array
 .
 length
 "
+            
+False
             
 {
 "
@@ -1620,6 +1686,8 @@ arrayBuffer
 byteLength
 "
             
+False
+            
 {
 "
 type
@@ -1638,6 +1706,7 @@ value
 )
         
 (
+            
 "
 (
 )
@@ -1645,6 +1714,7 @@ value
 >
 true
 "
+            
 "
 (
 func
@@ -1655,6 +1725,9 @@ func
 (
 )
 "
+            
+False
+            
 {
 "
 type
@@ -1697,6 +1770,8 @@ func
 )
 "
             
+False
+            
 {
 "
 type
@@ -1736,6 +1811,8 @@ window
 .
 foo
 "
+            
+False
             
 {
 "
@@ -1791,6 +1868,8 @@ url
 hostname
 "
             
+False
+            
 {
 "
 type
@@ -1837,6 +1916,8 @@ obj
 SOME_PROPERTY
 "
             
+False
+            
 {
 "
 type
@@ -1867,6 +1948,7 @@ bidi_session
 top_context
 setup_expression
 function_declaration
+await_promise
 expected
 )
 :
@@ -1955,21 +2037,7 @@ remote_value_handle
         
 await_promise
 =
-True
-if
-remote_value_result
-[
-"
-type
-"
-]
-=
-=
-"
-promise
-"
-else
-False
+await_promise
         
 target
 =

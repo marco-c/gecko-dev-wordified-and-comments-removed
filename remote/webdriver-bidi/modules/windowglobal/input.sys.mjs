@@ -556,6 +556,8 @@ getRealm
 )
 ;
 return
+(
+await
 this
 .
 deserialize
@@ -563,6 +565,9 @@ deserialize
 realm
 sharedReference
 )
+)
+.
+data
 ;
 }
 }

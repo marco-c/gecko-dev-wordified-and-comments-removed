@@ -641,6 +641,7 @@ info
 #
 onConsoleAPIMessage
 =
+async
 (
 eventName
 data
@@ -960,6 +961,7 @@ serializedArgs
 .
 push
 (
+await
 this
 .
 serialize
