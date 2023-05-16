@@ -2761,16 +2761,6 @@ description
 std
 :
 :
-map
-<
-int
-RtpCodecParameters
->
-payload_to_codec_parameters
-;
-std
-:
-:
 vector
 <
 const
