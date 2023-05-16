@@ -58,15 +58,6 @@ FrameCombiner
 {
 public
 :
-enum
-class
-LimiterType
-{
-kNoLimiter
-kApmAgcLimiter
-kApmAgc2Limiter
-}
-;
 explicit
 FrameCombiner
 (
