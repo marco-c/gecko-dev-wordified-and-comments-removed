@@ -1307,11 +1307,11 @@ const
 webrtc
 :
 :
-DEPRECATED_RTCMediaStreamTrackStats
+RTCInboundRTPStreamStats
 *
 >
 &
-media_stats_vec
+inbound_rtps
 )
 ;
 class
