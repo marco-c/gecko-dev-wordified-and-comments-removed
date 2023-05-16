@@ -83,6 +83,15 @@ js
 prettierrc
 .
 js
+!
+.
+babel
+-
+eslint
+.
+rc
+.
+js
 #
 Always
 ignore
