@@ -57,6 +57,11 @@ Worker
 h
 "
 "
+WorkerChannelInfo
+.
+h
+"
+"
 WorkerCommon
 .
 h
@@ -173,6 +178,11 @@ XPIDL_SOURCES
 =
 [
 "
+nsIWorkerChannelInfo
+.
+idl
+"
+"
 nsIWorkerDebugger
 .
 idl
@@ -224,6 +234,11 @@ cpp
 "
 "
 Worker
+.
+cpp
+"
+"
+WorkerChannelInfo
 .
 cpp
 "
