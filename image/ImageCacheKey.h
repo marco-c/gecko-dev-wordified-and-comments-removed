@@ -164,16 +164,6 @@ return
 mIsolationKey
 ;
 }
-bool
-IsChrome
-(
-)
-const
-{
-return
-mIsChrome
-;
-}
 void
 *
 ControlledDocument
@@ -243,9 +233,6 @@ Maybe
 PLDHashNumber
 >
 mHash
-;
-bool
-mIsChrome
 ;
 }
 ;
