@@ -5141,10 +5141,10 @@ desktop_capturer
 .
 h
 index
-3e8f0dcac5
+d336723f18
 .
 .
-558217badd
+6909a57891
 100644
 -
 -
@@ -5171,10 +5171,10 @@ desktop_capturer
 .
 h
 -
-77
+79
 6
 +
-77
+79
 7
 class
 RTC_EXPORT

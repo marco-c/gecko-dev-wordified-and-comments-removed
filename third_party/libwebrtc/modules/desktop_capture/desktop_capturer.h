@@ -115,6 +115,12 @@ h
 namespace
 webrtc
 {
+void
+RTC_EXPORT
+LogDesktopCapturerFullscreenDetectorUsage
+(
+)
+;
 class
 DesktopCaptureOptions
 ;

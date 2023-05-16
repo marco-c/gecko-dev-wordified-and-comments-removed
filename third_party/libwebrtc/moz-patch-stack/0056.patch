@@ -133,10 +133,10 @@ window_capturer_mac
 .
 mm
 index
-f0b413b0a6
+f99b4a74d1
 .
 .
-882498bc34
+10f6a74650
 100644
 -
 -
@@ -163,10 +163,10 @@ window_capturer_mac
 .
 mm
 -
-167
+170
 8
 +
-167
+170
 9
 void
 WindowCapturerMac
