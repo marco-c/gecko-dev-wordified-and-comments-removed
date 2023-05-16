@@ -148,17 +148,3 @@ FINAL_LIBRARY
 '
 gkmedias
 '
-DEFINES
-[
-'
-GRAPHITE2_CUSTOM_HEADER
-'
-]
-=
-'
-"
-MozGrMalloc
-.
-h
-"
-'
