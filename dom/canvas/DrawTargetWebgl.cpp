@@ -12976,9 +12976,6 @@ a
 float
 swizzleData
 =
-aMaskColor
-&
-&
 format
 =
 =
