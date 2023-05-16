@@ -686,7 +686,7 @@ now
 ;
 const
 {
-languageLabel
+langTag
 confidence
 }
 =
@@ -711,7 +711,7 @@ AT_log
 (
 [
 {
-languageLabel
+langTag
 }
 (
 {
@@ -742,7 +742,7 @@ seconds
 )
 ;
 return
-languageLabel
+langTag
 ;
 }
 /
@@ -1725,7 +1725,7 @@ return
 }
 const
 [
-languageLabel
+langTag
 supportedLanguages
 ]
 =
@@ -1780,15 +1780,17 @@ find
 (
 {
 langTag
+:
+existingTag
 }
 )
 =
 >
+existingTag
+=
+=
+=
 langTag
-=
-=
-=
-languageLabel
 )
 ;
 if
@@ -1809,7 +1811,7 @@ this
 .
 setFromLanguage
 (
-languageLabel
+langTag
 )
 ;
 this

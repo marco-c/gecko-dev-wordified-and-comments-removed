@@ -930,7 +930,7 @@ returns
 Promise
 <
 {
-languageLabel
+langTag
 :
 string
 confidence
@@ -1038,7 +1038,7 @@ response
 {
 let
 {
-languageLabel
+langTag
 confidence
 }
 =
@@ -1047,7 +1047,7 @@ data
 resolve
 (
 {
-languageLabel
+langTag
 confidence
 }
 )
@@ -3878,7 +3878,7 @@ createLanguageIdEngine
 ;
 let
 {
-languageLabel
+langTag
 confidence
 }
 =
@@ -3902,7 +3902,7 @@ console
 log
 (
 {
-languageLabel
+langTag
 }
 (
 {
@@ -3929,7 +3929,7 @@ DOC_LANGUAGE_DETECTION_THRESHOLD
 {
 docLangTag
 =
-languageLabel
+langTag
 ;
 }
 }
@@ -5549,7 +5549,7 @@ mockedPayload
 {
 const
 {
-languageLabel
+langTag
 confidence
 }
 =
@@ -5557,7 +5557,7 @@ mockedPayload
 ;
 return
 {
-languageLabel
+langTag
 confidence
 }
 ;
@@ -5739,7 +5739,7 @@ createLanguageIdEngine
 const
 {
 confidence
-languageLabel
+langTag
 modelBuffer
 wasmBuffer
 }
@@ -5765,7 +5765,7 @@ type
 initialize
 "
 confidence
-languageLabel
+langTag
 modelBuffer
 wasmBuffer
 isLoggingEnabled

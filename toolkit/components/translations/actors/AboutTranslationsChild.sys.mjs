@@ -1436,7 +1436,7 @@ returns
 Promise
 <
 {
-languageLabel
+langTag
 :
 string
 confidence
