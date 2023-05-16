@@ -96,6 +96,7 @@ gpointer
 )
 ;
 class
+RTC_EXPORT
 ScreenCapturePortalInterface
 {
 public

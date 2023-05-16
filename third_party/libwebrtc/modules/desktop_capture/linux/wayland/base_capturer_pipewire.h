@@ -119,6 +119,7 @@ namespace
 webrtc
 {
 class
+RTC_EXPORT
 BaseCapturerPipeWire
 :
 public

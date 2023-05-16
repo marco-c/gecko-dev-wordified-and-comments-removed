@@ -297,6 +297,7 @@ GAsyncResult
 gpointer
 )
 ;
+RTC_EXPORT
 std
 :
 :
@@ -314,6 +315,7 @@ uint32_t
 portal_response
 )
 ;
+RTC_EXPORT
 std
 :
 :
@@ -330,6 +332,7 @@ GDBusConnection
 connection
 )
 ;
+RTC_EXPORT
 uint32_t
 SetupRequestResponseSignal
 (
@@ -348,6 +351,7 @@ GDBusConnection
 connection
 )
 ;
+RTC_EXPORT
 void
 RequestSessionProxy
 (
@@ -366,6 +370,7 @@ gpointer
 user_data
 )
 ;
+RTC_EXPORT
 void
 SetupSessionRequestHandlers
 (
@@ -402,6 +407,7 @@ gpointer
 user_data
 )
 ;
+RTC_EXPORT
 void
 StartSessionRequest
 (
@@ -443,6 +449,7 @@ gpointer
 user_data
 )
 ;
+RTC_EXPORT
 void
 TearDownSession
 (
