@@ -306,7 +306,7 @@ std
 :
 :
 string
-ToResolvedSensitiveString
+ToSensitiveNameAndAddressString
 (
 )
 const
