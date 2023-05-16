@@ -4820,6 +4820,12 @@ name
 "
 Date
 "
+|
+|
+isNaN
+(
+arg
+)
 )
 {
 throw
@@ -4829,6 +4835,7 @@ TypeError
 "
 Expected
 a
+valid
 Date
 got
 "
