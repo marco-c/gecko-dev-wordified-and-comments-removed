@@ -173,7 +173,7 @@ params
 .
 mMaxDirtyIncreaseOverride
 =
-5
+7
 ;
 mArenaId
 =

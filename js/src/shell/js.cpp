@@ -63700,7 +63700,7 @@ gErrFile
 ;
 moz_set_max_dirty_page_modifier
 (
-3
+4
 )
 ;
 OptionParser
