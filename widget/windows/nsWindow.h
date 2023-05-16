@@ -1604,6 +1604,16 @@ aIsRestoringSession
 ;
 }
 bool
+IsRTL
+(
+)
+const
+{
+return
+mIsRTL
+;
+}
+bool
 AssociateDefaultIMC
 (
 bool

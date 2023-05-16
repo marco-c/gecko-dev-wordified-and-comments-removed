@@ -79,14 +79,6 @@ char
 aChromeURL
 )
 ;
-HWND
-GetHWNDForDOMWindow
-(
-mozIDOMWindowProxy
-*
-aWindow
-)
-;
 nsCOMPtr
 <
 nsIWindowWatcher
