@@ -711,6 +711,7 @@ suggest_non_sponsor
 suggest_sponsor
 tab
 tab_to_search
+tip_dismissal_acknowledgment
 tip_onboard
 tip_persist
 tip_redirect
@@ -1305,6 +1306,7 @@ suggest_non_sponsor
 suggest_sponsor
 tab
 tab_to_search
+tip_dismissal_acknowledgment
 tip_onboard
 tip_persist
 tip_redirect
@@ -1693,6 +1695,7 @@ suggest_non_sponsor
 suggest_sponsor
 tab
 tab_to_search
+tip_dismissal_acknowledgment
 tip_onboard
 tip_persist
 tip_redirect
@@ -2396,6 +2399,7 @@ suggest_non_sponsor
 suggest_sponsor
 tab
 tab_to_search
+tip_dismissal_acknowledgment
 tip_onboard
 tip_persist
 tip_redirect

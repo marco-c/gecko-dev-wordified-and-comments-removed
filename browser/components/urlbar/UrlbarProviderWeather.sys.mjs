@@ -3008,6 +3008,15 @@ removeResult
 result
 )
 ;
+queryContext
+.
+view
+.
+acknowledgeDismissal
+(
+result
+)
+;
 break
 ;
 case

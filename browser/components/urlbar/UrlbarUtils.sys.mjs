@@ -9361,6 +9361,16 @@ return
 tip_redirect
 "
 ;
+case
+"
+dismissalAcknowledgment
+"
+:
+return
+"
+tip_dismissal_acknowledgment
+"
+;
 default
 :
 return
@@ -11056,6 +11066,9 @@ string
 enum
 :
 [
+"
+dismissalAcknowledgment
+"
 "
 extension
 "
