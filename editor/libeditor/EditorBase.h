@@ -2023,6 +2023,14 @@ aTransferable
 =
 0
 ;
+enum
+class
+DispatchPasteEvent
+{
+No
+Yes
+}
+;
 MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
@@ -2030,7 +2038,7 @@ PasteAsAction
 (
 int32_t
 aClipboardType
-bool
+DispatchPasteEvent
 aDispatchPasteEvent
 nsIPrincipal
 *
@@ -2065,7 +2073,7 @@ PasteAsQuotationAsAction
 (
 int32_t
 aClipboardType
-bool
+DispatchPasteEvent
 aDispatchPasteEvent
 nsIPrincipal
 *

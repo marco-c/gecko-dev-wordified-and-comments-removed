@@ -2635,7 +2635,7 @@ PasteAsQuotationAsAction
 (
 int32_t
 aClipboardType
-bool
+DispatchPasteEvent
 aDispatchPasteEvent
 nsIPrincipal
 *
