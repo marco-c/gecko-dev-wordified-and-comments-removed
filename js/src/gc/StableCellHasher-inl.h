@@ -908,10 +908,13 @@ uid
 )
 {
 return
-mozilla
+DefaultHasher
+<
+uint64_t
+>
 :
 :
-HashGeneric
+hash
 (
 uid
 )
