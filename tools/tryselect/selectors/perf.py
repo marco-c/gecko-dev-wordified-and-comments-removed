@@ -6167,6 +6167,7 @@ PerfParser
 check_cached_revision
 (
                     
+selected_tasks
 compare_commit
                 
 )
@@ -6288,6 +6289,7 @@ PerfParser
 save_revision_treeherder
 (
                         
+selected_tasks
 compare_commit
 base_revision_treeherder
                     
