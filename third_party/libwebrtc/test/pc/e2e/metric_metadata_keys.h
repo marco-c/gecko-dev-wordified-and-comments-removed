@@ -97,6 +97,17 @@ kExperimentalTestNameMetadataKey
 experimental_test_name
 "
 ;
+static
+constexpr
+char
+kSpatialLayerMetadataKey
+[
+]
+=
+"
+spatial_layer
+"
+;
 private
 :
 MetricMetadataKey

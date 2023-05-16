@@ -377,6 +377,8 @@ encoded_image_size
 uint32_t
 target_encode_bitrate
 int
+spatial_layer
+int
 qp
 StreamCodecInfo
 used_encoder
@@ -640,8 +642,15 @@ target_encode_bitrate_
 =
 0
 ;
+std
+:
+:
+map
+<
+int
 SamplesStatsCounter
-qp_values_
+>
+spatial_layers_qp_
 ;
 absl
 :

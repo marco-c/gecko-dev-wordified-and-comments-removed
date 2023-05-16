@@ -326,8 +326,15 @@ target_encode_bitrate
 =
 0
 ;
+std
+:
+:
+map
+<
+int
 SamplesStatsCounter
-qp_values
+>
+spatial_layers_qp
 ;
 absl
 :

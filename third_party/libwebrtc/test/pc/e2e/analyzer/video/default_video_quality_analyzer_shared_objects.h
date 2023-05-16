@@ -425,8 +425,15 @@ resolution_of_decoded_frame
 SamplesStatsCounter
 target_encode_bitrate
 ;
+std
+:
+:
+map
+<
+int
 SamplesStatsCounter
-qp
+>
+spatial_layers_qp
 ;
 int64_t
 total_encoded_images_payload

@@ -460,6 +460,8 @@ encoded_image_size
 uint32_t
 target_encode_bitrate
 int
+spatial_layer
+int
 qp
 StreamCodecInfo
 used_encoder
@@ -482,7 +484,10 @@ target_encode_bitrate_
 =
 target_encode_bitrate
 ;
-qp_values_
+spatial_layers_qp_
+[
+spatial_layer
+]
 .
 AddSample
 (
@@ -1024,9 +1029,9 @@ used_encoder_
 ;
 stats
 .
-qp_values
+spatial_layers_qp
 =
-qp_values_
+spatial_layers_qp_
 ;
 absl
 :
