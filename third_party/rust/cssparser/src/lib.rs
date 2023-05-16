@@ -117,7 +117,10 @@ crate
 macros
 :
 :
+{
+_cssparser_internal_create_uninit_array
 _cssparser_internal_to_lowercase
+}
 ;
 pub
 use
