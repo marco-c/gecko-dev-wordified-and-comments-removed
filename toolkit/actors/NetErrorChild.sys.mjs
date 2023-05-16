@@ -1302,6 +1302,8 @@ contentWindow
 .
 docShell
 .
+browsingContext
+.
 defaultLoadFlags
 |
 =

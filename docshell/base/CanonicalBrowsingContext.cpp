@@ -1725,6 +1725,15 @@ GetForceDesktopViewport
 ;
 txn
 .
+SetDefaultLoadFlags
+(
+GetDefaultLoadFlags
+(
+)
+)
+;
+txn
+.
 SetSandboxFlags
 (
 GetSandboxFlags
