@@ -774,13 +774,14 @@ ok
 (
 FormAutofillHeuristics
 .
+testRegex
+(
+FormAutofillHeuristics
+.
 RULES
 [
 field
 ]
-.
-test
-(
 name
 )
 RegExp
