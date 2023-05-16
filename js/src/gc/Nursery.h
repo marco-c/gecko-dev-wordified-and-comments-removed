@@ -346,6 +346,7 @@ class
 SetObject
 ;
 class
+JS_PUBLIC_API
 Sprinter
 ;
 class
