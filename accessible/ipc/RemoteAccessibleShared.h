@@ -745,14 +745,6 @@ aType
 )
 ;
 void
-Title
-(
-nsString
-&
-aTitle
-)
-;
-void
 MimeType
 (
 nsString

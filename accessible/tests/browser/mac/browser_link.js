@@ -1320,8 +1320,7 @@ getAttributeValue
 AXTitle
 "
 )
-"
-"
+null
 "
 Link
 4
