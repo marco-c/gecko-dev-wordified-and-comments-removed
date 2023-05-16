@@ -89,12 +89,6 @@ GetOrCreate
 (
 )
 ;
-static
-void
-Shutdown
-(
-)
-;
 protected
 :
 using
