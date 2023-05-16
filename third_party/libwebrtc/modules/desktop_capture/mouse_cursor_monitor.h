@@ -159,6 +159,7 @@ screen
 )
 ;
 static
+RTC_EXPORT
 std
 :
 :
