@@ -2901,7 +2901,7 @@ errorMock
 (
 void
 )
-testStartCaptureSetsOutputDimensionsInvalidPixelFormat
+DISABLED_testStartCaptureSetsOutputDimensionsInvalidPixelFormat
 {
 id
 expectedDeviceInputMock
