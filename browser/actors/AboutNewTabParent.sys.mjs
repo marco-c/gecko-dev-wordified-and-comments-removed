@@ -143,7 +143,6 @@ browser
 -
 >
 {
-actor
 browser
 browsingContext
 portID
@@ -282,16 +281,11 @@ Init
 :
 {
 let
-actor
+browsingContext
 =
 message
 .
 target
-;
-let
-browsingContext
-=
-actor
 .
 browsingContext
 ;
@@ -317,7 +311,6 @@ let
 tabDetails
 =
 {
-actor
 browser
 browsingContext
 portID
