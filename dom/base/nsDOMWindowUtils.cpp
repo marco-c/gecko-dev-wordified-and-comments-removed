@@ -17903,6 +17903,15 @@ mgr
 >
 BlockAndGetFileReferences
 (
+principalMetadata
+.
+mIsPrivate
+?
+quota
+:
+:
+PERSISTENCE_TYPE_PRIVATE
+:
 quota
 :
 :
