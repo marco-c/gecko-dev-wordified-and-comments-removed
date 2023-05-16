@@ -2299,11 +2299,6 @@ class
 "
 buttons
 "
-part
-=
-"
-buttons
-"
 >
 <
 button
