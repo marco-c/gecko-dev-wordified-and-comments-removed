@@ -312,7 +312,7 @@ async
 >
 {
 await
-addLoginsInParent
+setStoredLoginsAsync
 (
 /
 /
@@ -550,6 +550,11 @@ createLoginForm
 (
 )
 ;
+await
+promiseFormsProcessedInSameProcess
+(
+)
+;
 /
 /
 Make
@@ -611,6 +616,11 @@ const
 form
 =
 createLoginForm
+(
+)
+;
+await
+promiseFormsProcessedInSameProcess
 (
 )
 ;
