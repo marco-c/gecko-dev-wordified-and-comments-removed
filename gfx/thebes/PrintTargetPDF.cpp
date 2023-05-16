@@ -307,6 +307,16 @@ IsEmpty
 )
 )
 {
+creatorName
+.
+Append
+(
+u
+"
+"
+MOZILLA_VERSION
+)
+;
 cairo_pdf_surface_set_metadata
 (
 surface
