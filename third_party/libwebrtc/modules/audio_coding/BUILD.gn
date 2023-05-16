@@ -6640,6 +6640,17 @@ checks
 /
 rtc_base
 :
+rtc_numerics
+"
+"
+.
+.
+/
+.
+.
+/
+rtc_base
+:
 safe_conversions
 "
 "
