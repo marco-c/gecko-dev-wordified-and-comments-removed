@@ -926,5 +926,13 @@ WebTransportSessionEventListener
 aListener
 )
 ;
+[
+must_use
+]
+attribute
+unsigned
+long
+earlyHintLinkType
+;
 }
 ;

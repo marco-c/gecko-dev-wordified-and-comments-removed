@@ -6919,6 +6919,7 @@ GetScriptLoadContext
 >
 NotifyUsage
 (
+mDocument
 )
 ;
 request

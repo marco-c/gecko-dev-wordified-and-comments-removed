@@ -632,6 +632,9 @@ aResolveValue
 .
 mEarlyHints
 )
+aResolveValue
+.
+mEarlyHintLinkType
 )
 ;
 promise
@@ -858,6 +861,8 @@ EarlyHintConnectArgs
 &
 &
 aEarlyHints
+uint32_t
+aEarlyHintLinkType
 )
 {
 if
@@ -919,6 +924,7 @@ move
 (
 aEarlyHints
 )
+aEarlyHintLinkType
 )
 ;
 return

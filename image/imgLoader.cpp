@@ -11868,6 +11868,7 @@ proxy
 >
 NotifyUsage
 (
+aLoadingDocument
 )
 ;
 imgRequest

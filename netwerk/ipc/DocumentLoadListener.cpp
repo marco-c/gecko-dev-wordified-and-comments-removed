@@ -7272,6 +7272,8 @@ EarlyHintConnectArgs
 &
 &
 aEarlyHints
+uint32_t
+aEarlyHintLinkType
 )
 const
 {
@@ -7306,6 +7308,14 @@ move
 (
 aEarlyHints
 )
+;
+aArgs
+.
+earlyHintLinkType
+(
+)
+=
+aEarlyHintLinkType
 ;
 nsCOMPtr
 <
@@ -10736,6 +10746,11 @@ move
 (
 ehArgs
 )
+mEarlyHintsService
+.
+LinkType
+(
+)
 )
 ;
 if
@@ -10972,6 +10987,11 @@ std
 move
 (
 ehArgs
+)
+mEarlyHintsService
+.
+LinkType
+(
 )
 promise
 }
