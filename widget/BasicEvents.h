@@ -309,11 +309,6 @@ mCameFromAnotherProcess
 :
 1
 ;
-bool
-mHadNonPrivilegedClickListeners
-:
-1
-;
 inline
 bool
 InTargetPhase
