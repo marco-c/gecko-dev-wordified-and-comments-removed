@@ -103,9 +103,12 @@ ResultConnection
 &
 aConnection
 const
-Origin
+quota
+:
+:
+OriginMetadata
 &
-aOrigin
+aOriginMetadata
 )
 {
 DatabaseVersion
@@ -152,7 +155,7 @@ FileSystemDatabaseManagerVersion001
 RescanTrackedUsages
 (
 aConnection
-aOrigin
+aOriginMetadata
 )
 ;
 }
@@ -183,9 +186,12 @@ ResultConnection
 &
 aConnection
 const
-Origin
+quota
+:
+:
+OriginMetadata
 &
-aOrigin
+aOriginMetadata
 )
 {
 QM_TRY_INSPECT
@@ -196,7 +202,7 @@ auto
 databaseFile
 GetDatabaseFile
 (
-aOrigin
+aOriginMetadata
 )
 )
 ;

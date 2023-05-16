@@ -409,13 +409,7 @@ quotaManager
 >
 GetOriginDirectory
 (
-quota
-:
-:
-PERSISTENCE_TYPE_DEFAULT
 originMetadata
-.
-mOrigin
 )
 ;
 ASSERT_TRUE

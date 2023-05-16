@@ -423,9 +423,12 @@ QMResult
 GetStorageConnection
 (
 const
-Origin
+quota
+:
+:
+OriginMetadata
 &
-aOrigin
+aOriginMetadata
 )
 {
 QM_TRY_INSPECT
@@ -442,7 +445,7 @@ data
 :
 GetDatabaseFile
 (
-aOrigin
+aOriginMetadata
 )
 )
 ;
@@ -594,15 +597,6 @@ AssertIsOnIOThread
 (
 )
 ;
-const
-Origin
-&
-origin
-=
-aOriginMetadata
-.
-mOrigin
-;
 {
 QM_TRY_INSPECT
 (
@@ -618,7 +612,7 @@ data
 :
 GetDatabaseFile
 (
-origin
+aOriginMetadata
 )
 .
 mapErr
@@ -671,7 +665,7 @@ ResultConnection
 conn
 GetStorageConnection
 (
-origin
+aOriginMetadata
 )
 .
 mapErr
@@ -693,7 +687,7 @@ FileSystemDatabaseManager
 RescanUsages
 (
 conn
-origin
+aOriginMetadata
 )
 )
 )
@@ -708,7 +702,7 @@ FileSystemDatabaseManager
 GetUsage
 (
 conn
-origin
+aOriginMetadata
 )
 .
 mapErr

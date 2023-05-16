@@ -1096,13 +1096,7 @@ DeleteOriginDirectory
 lock
 -
 >
-GetPersistenceType
-(
-)
-lock
--
->
-Origin
+OriginMetadata
 (
 )
 )

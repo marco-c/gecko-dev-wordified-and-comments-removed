@@ -452,7 +452,7 @@ FileSystemFileManager
 :
 CreateFileSystemFileManager
 (
-GetTestOrigin
+GetTestOriginMetadata
 (
 )
 )

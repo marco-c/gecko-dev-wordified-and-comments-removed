@@ -96,9 +96,12 @@ FileSystemConnection
 &
 aConnection
 const
-Origin
+quota
+:
+:
+OriginMetadata
 &
-aOrigin
+aOriginMetadata
 )
 ;
 static

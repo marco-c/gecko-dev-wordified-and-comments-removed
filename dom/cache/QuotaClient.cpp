@@ -817,6 +817,16 @@ AssertIsOnIOThread
 (
 )
 ;
+MOZ_ASSERT
+(
+aOriginMetadata
+.
+mPersistenceType
+=
+=
+aPersistenceType
+)
+;
 QuotaManager
 *
 const
@@ -845,10 +855,7 @@ qm
 >
 GetOriginDirectory
 (
-aPersistenceType
 aOriginMetadata
-.
-mOrigin
 )
 )
 ;
