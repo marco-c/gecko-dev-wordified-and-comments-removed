@@ -184,7 +184,11 @@ resource
 :
 /
 /
-autofill
+gre
+/
+modules
+/
+shared
 /
 CreditCardRuleset
 .

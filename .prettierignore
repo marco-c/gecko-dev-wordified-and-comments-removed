@@ -582,6 +582,8 @@ components
 /
 formautofill
 /
+shared
+/
 CreditCardRuleset
 .
 sys
