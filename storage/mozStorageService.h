@@ -293,10 +293,10 @@ mVFS
 }
 ;
 AutoVFSRegistration
-mTelemetrySqliteVFS
+mBaseSqliteVFS
 ;
 AutoVFSRegistration
-mTelemetryExclSqliteVFS
+mBaseExclSqliteVFS
 ;
 AutoVFSRegistration
 mQuotaSqliteVFS

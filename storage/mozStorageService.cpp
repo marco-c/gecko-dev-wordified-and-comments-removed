@@ -1369,7 +1369,7 @@ UniquePtr
 <
 sqlite3_vfs
 >
-ConstructTelemetryVFS
+ConstructBaseVFS
 (
 bool
 )
@@ -1377,7 +1377,7 @@ bool
 const
 char
 *
-GetTelemetryVFSName
+GetBaseVFSName
 (
 bool
 )
@@ -1495,11 +1495,11 @@ rc
 }
 rc
 =
-mTelemetrySqliteVFS
+mBaseSqliteVFS
 .
 Init
 (
-ConstructTelemetryVFS
+ConstructBaseVFS
 (
 false
 )
@@ -1522,11 +1522,11 @@ rc
 }
 rc
 =
-mTelemetryExclSqliteVFS
+mBaseExclSqliteVFS
 .
 Init
 (
-ConstructTelemetryVFS
+ConstructBaseVFS
 (
 true
 )
@@ -1555,7 +1555,7 @@ Init
 (
 ConstructQuotaVFS
 (
-GetTelemetryVFSName
+GetBaseVFSName
 (
 StaticPrefs
 :

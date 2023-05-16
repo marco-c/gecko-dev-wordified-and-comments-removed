@@ -432,7 +432,7 @@ LABELS_SQLITE_STORE_QUERY
 const
 char
 *
-GetTelemetryVFSName
+GetBaseVFSName
 (
 bool
 )
@@ -3737,7 +3737,7 @@ get
 &
 mDBConn
 mFlags
-GetTelemetryVFSName
+GetBaseVFSName
 (
 true
 )
@@ -3975,7 +3975,7 @@ get
 &
 mDBConn
 mFlags
-GetTelemetryVFSName
+GetBaseVFSName
 (
 exclusive
 )
@@ -4021,7 +4021,7 @@ get
 &
 mDBConn
 mFlags
-GetTelemetryVFSName
+GetBaseVFSName
 (
 false
 )
@@ -4099,7 +4099,7 @@ get
 &
 mDBConn
 mFlags
-GetTelemetryVFSName
+GetBaseVFSName
 (
 false
 )
@@ -4399,7 +4399,7 @@ GetQuotaVFSName
 (
 )
 :
-GetTelemetryVFSName
+GetBaseVFSName
 (
 exclusive
 )
