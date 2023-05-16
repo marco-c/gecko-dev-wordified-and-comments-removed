@@ -12,6 +12,13 @@ nr_socket_wrapper
 .
 h
 "
+#
+include
+<
+assert
+.
+h
+>
 int
 nr_socket_wrapper_factory_create_int
 (
