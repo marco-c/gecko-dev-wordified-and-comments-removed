@@ -209,6 +209,7 @@ waitForVisitNotification
 href
 )
 {
+await
 PlacesTestUtils
 .
 waitForNotification
@@ -582,7 +583,6 @@ loading
 let
 promiseVisited
 =
-await
 waitForVisitNotification
 (
 destinationURL
@@ -2491,17 +2491,6 @@ pin
 link
 )
 ;
-let
-promiseVisited
-=
-await
-waitForVisitNotification
-(
-link
-.
-url
-)
-;
 await
 openAndTest
 (
@@ -2546,9 +2535,6 @@ url
 }
 }
 )
-;
-await
-promiseVisited
 ;
 await
 assertDatabase
@@ -2579,16 +2565,6 @@ clearHistoryAndBookmarks
 (
 )
 ;
-promiseVisited
-=
-await
-waitForVisitNotification
-(
-link
-.
-url
-)
-;
 await
 openAndTest
 (
@@ -2633,9 +2609,6 @@ url
 }
 }
 )
-;
-await
-promiseVisited
 ;
 await
 assertDatabase
@@ -3491,7 +3464,6 @@ waitForFocus
 let
 promiseVisited
 =
-await
 waitForVisitNotification
 (
 host
@@ -4140,7 +4112,6 @@ tile
 let
 promiseVisited
 =
-await
 waitForVisitNotification
 (
 destinationURL
@@ -4368,7 +4339,6 @@ URL
 let
 promiseVisited
 =
-await
 waitForVisitNotification
 (
 targetURL
