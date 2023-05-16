@@ -162,6 +162,19 @@ a
 confirmation
 respectively
 .
+-
+Removed
+deprecated
+[
+CookieBannerMode
+.
+COOKIE_BANNER_MODE_DETECT_ONLY
+]
+[
+111
+.
+1
+]
 [
 114
 .
@@ -22023,4 +22036,4 @@ api
 version
 ]
 :
-8c569363935bb4c900c17fd64e7ced2acaa4264a
+0345baae42369dfaee76ce5f7420526ca21b6b8f
