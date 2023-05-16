@@ -8568,6 +8568,12 @@ StyleDisplay
 )
 ;
 }
+bool
+IsBlockContainer
+(
+)
+const
+;
 virtual
 bool
 IsFloatContainingBlock
