@@ -10,7 +10,7 @@ ManifestObtainer
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 ManifestObtainer
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

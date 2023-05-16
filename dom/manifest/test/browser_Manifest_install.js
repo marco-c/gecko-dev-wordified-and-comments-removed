@@ -10,7 +10,7 @@ Manifests
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 Manifest
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
