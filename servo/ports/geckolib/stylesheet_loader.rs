@@ -698,7 +698,7 @@ get
 )
 sheet
 .
-into_strong
+into
 (
 )
 use_counters

@@ -5,11 +5,6 @@ ServoCssRules
 )
 SERVO_ARC_TYPE
 (
-StyleSheetContents
-RawServoStyleSheetContents
-)
-SERVO_ARC_TYPE
-(
 DeclarationBlock
 RawServoDeclarationBlock
 )
@@ -102,14 +97,4 @@ SERVO_ARC_TYPE
 (
 CounterStyleRule
 RawServoCounterStyleRule
-)
-SERVO_ARC_TYPE
-(
-CssUrlData
-RawServoCssUrlData
-)
-SERVO_ARC_TYPE
-(
-Quotes
-RawServoQuotes
 )

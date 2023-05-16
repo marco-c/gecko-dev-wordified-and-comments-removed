@@ -8339,7 +8339,7 @@ SheetLoadDataHolder
 aData
 StyleStrong
 <
-RawServoStyleSheetContents
+StyleStylesheetContents
 >
 aSheetContents
 StyleUseCounters
@@ -8366,7 +8366,7 @@ aData
 ;
 RefPtr
 <
-RawServoStyleSheetContents
+StyleStylesheetContents
 >
 sheetContents
 =

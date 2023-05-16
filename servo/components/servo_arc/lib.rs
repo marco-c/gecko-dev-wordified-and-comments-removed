@@ -1022,6 +1022,7 @@ arc
 [
 inline
 ]
+pub
 fn
 into_raw
 (
@@ -1073,6 +1074,7 @@ ptr
 [
 inline
 ]
+pub
 unsafe
 fn
 from_raw

@@ -117,7 +117,7 @@ template
 struct
 StyleStrong
 <
-RawServoStyleSheetContents
+StyleStylesheetContents
 >
 ;
 template
