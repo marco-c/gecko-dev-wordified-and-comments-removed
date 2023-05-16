@@ -200,6 +200,13 @@ TimeStamp
 mStartDomRealtime
 ;
 const
+webrtc
+:
+:
+Timestamp
+mStartRealtime
+;
+const
 RTPCallerType
 mRTPCallerType
 ;
