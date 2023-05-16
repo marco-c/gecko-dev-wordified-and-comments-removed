@@ -100,7 +100,7 @@ uint64_t
 static
 constexpr
 uint64_t
-DOMNodeID
+DOMNodeIDAndClass
 =
 (
 (
