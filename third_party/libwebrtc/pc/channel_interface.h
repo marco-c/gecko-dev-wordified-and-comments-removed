@@ -121,7 +121,6 @@ MediaChannel
 media_channel
 (
 )
-const
 =
 0
 ;
@@ -131,7 +130,6 @@ MediaSendChannelInterface
 media_send_channel
 (
 )
-const
 =
 0
 ;
@@ -141,7 +139,6 @@ VideoMediaSendChannelInterface
 video_media_send_channel
 (
 )
-const
 =
 0
 ;
@@ -151,7 +148,6 @@ VoiceMediaSendChannelInterface
 voice_media_send_channel
 (
 )
-const
 =
 0
 ;
@@ -161,7 +157,6 @@ MediaReceiveChannelInterface
 media_receive_channel
 (
 )
-const
 =
 0
 ;
@@ -171,7 +166,6 @@ VideoMediaReceiveChannelInterface
 video_media_receive_channel
 (
 )
-const
 =
 0
 ;
@@ -181,7 +175,6 @@ VoiceMediaReceiveChannelInterface
 voice_media_receive_channel
 (
 )
-const
 =
 0
 ;
