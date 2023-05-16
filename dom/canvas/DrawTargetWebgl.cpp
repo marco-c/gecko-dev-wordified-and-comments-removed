@@ -24129,6 +24129,10 @@ mWebglValid
 =
 true
 ;
+mIsClear
+=
+false
+;
 }
 else
 {
