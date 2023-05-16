@@ -2781,6 +2781,9 @@ false
 trending
 =
 false
+isRichSuggestion
+=
+false
 type
 =
 UrlbarUtils
@@ -3039,6 +3042,14 @@ payload
 trending
 =
 trending
+;
+result
+.
+payload
+.
+isRichSuggestion
+=
+isRichSuggestion
 ;
 }
 if

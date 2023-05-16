@@ -6179,6 +6179,14 @@ tail
 &
 &
 !
+result
+.
+payload
+.
+isRichSuggestion
+&
+&
+!
 state
 .
 canShowTailSuggestions
