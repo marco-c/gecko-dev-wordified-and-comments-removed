@@ -501,10 +501,12 @@ mFrameLoader
 return
 ;
 }
-(
-new
 AsyncEventDispatcher
+:
+:
+RunDOMEventWhenSafe
 (
+*
 this
 u
 "
@@ -515,12 +517,6 @@ CanBubble
 :
 :
 eYes
-)
-)
--
->
-RunDOMEventWhenSafe
-(
 )
 ;
 }

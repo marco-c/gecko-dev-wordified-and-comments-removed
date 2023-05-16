@@ -611,7 +611,7 @@ AsyncEventDispatcher
 :
 RunDOMEventWhenSafe
 (
-nsINode
+EventTarget
 &
 aTarget
 const
@@ -638,7 +638,7 @@ IsSafeToRunScript
 {
 OwningNonNull
 <
-nsINode
+EventTarget
 >
 target
 =
