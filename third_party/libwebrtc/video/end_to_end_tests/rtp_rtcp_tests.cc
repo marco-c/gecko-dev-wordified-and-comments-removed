@@ -78,6 +78,17 @@ include
 "
 rtc_base
 /
+numerics
+/
+sequence_number_unwrapper
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 synchronization
 /
 mutex
@@ -1485,7 +1496,7 @@ return
 SEND_PACKET
 ;
 }
-SequenceNumberUnwrapper
+RtpSequenceNumberUnwrapper
 seq_numbers_unwrapper_
 ;
 std
