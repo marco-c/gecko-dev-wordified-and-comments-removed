@@ -50,9 +50,9 @@ include
 "
 rtc_base
 /
-system
+numerics
 /
-file_wrapper
+sequence_number_unwrapper
 .
 h
 "
@@ -61,7 +61,9 @@ include
 "
 rtc_base
 /
-time_utils
+system
+/
+file_wrapper
 .
 h
 "
@@ -195,10 +197,7 @@ last_timestamp_
 bool
 using_capture_timestamps_
 ;
-rtc
-:
-:
-TimestampWrapAroundHandler
+RtpTimestampUnwrapper
 wrap_handler_
 ;
 FileWrapper
