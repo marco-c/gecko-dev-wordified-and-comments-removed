@@ -1543,13 +1543,6 @@ aIncludeOwner
 )
 ;
 bool
-AutoErase
-(
-HDC
-dc
-)
-;
-bool
 WidgetTypeSupportsAcceleration
 (
 )
@@ -3398,11 +3391,6 @@ false
 ;
 bool
 mIsCloaked
-=
-false
-;
-bool
-mPainting
 =
 false
 ;
