@@ -251,7 +251,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -486,7 +486,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -811,7 +811,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -1167,7 +1167,7 @@ worker
 mozlint
 .
 json
-*
+.
 -
 -
 rule
@@ -1275,7 +1275,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -1530,7 +1530,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -1777,7 +1777,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -1878,7 +1878,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -1940,7 +1940,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -2040,7 +2040,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -2158,7 +2158,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -2295,7 +2295,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -2386,7 +2386,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -2474,7 +2474,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -2551,7 +2551,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -2620,7 +2620,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -2814,7 +2814,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -2932,7 +2932,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -3085,7 +3085,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -3164,7 +3164,7 @@ json
 -
 j
 1
-*
+.
 when
 :
 files
@@ -3288,7 +3288,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -3532,7 +3532,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -3855,7 +3855,7 @@ worker
 mozlint
 .
 json
-*
+.
 worker
 :
 env
@@ -4031,7 +4031,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
@@ -4137,7 +4137,7 @@ worker
 mozlint
 .
 json
-*
+.
 when
 :
 files
