@@ -53,3 +53,7 @@ extern
 crate
 xpcom_gtest
 ;
+extern
+crate
+dllservices_gtest
+;
