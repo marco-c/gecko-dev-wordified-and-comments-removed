@@ -5125,6 +5125,17 @@ return
 false
 ;
 }
+AUTO_PROFILER_LABEL_RELEVANT_FOR_JS
+(
+"
+Container
+Query
+Styles
+Update
+"
+LAYOUT
+)
+;
 AUTO_PROFILER_MARKER_TEXT
 (
 "
