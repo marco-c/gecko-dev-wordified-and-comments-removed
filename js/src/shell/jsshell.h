@@ -605,6 +605,10 @@ enableArrayFromAsync
 ;
 extern
 bool
+enableWellFormedUnicodeStrings
+;
+extern
+bool
 enablePrivateClassFields
 ;
 extern
