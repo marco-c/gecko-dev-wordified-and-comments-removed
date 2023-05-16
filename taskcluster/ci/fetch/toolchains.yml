@@ -2742,7 +2742,7 @@ wasi
 -
 sdk
 -
-16
+20
 source
 code
 fetch
@@ -2767,7 +2767,7 @@ wasi
 sdk
 revision
 :
-7b7b8a974a31f527d71467499b0d5be3b12f2fa9
+935fe1acd2fcd7ea4aed2d5ee4527482862b6344
 ninja
 :
 description
