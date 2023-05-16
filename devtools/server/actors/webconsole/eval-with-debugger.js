@@ -1325,7 +1325,7 @@ call
 )
 &
 &
-nativeHasNoSideEffects
+nativeIsEagerlyEvaluateable
 (
 callee
 )
@@ -1687,7 +1687,7 @@ map
 ;
 }
 function
-nativeHasNoSideEffects
+nativeIsEagerlyEvaluateable
 (
 fn
 )
@@ -1704,6 +1704,19 @@ fn
 fn
 .
 boundTargetFunction
+;
+}
+if
+(
+fn
+.
+isNativeGetterWithJitInfo
+(
+)
+)
+{
+return
+true
 ;
 }
 switch
