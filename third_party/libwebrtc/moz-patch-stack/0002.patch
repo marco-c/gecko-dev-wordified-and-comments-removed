@@ -2483,10 +2483,10 @@ rtp_headers
 .
 h
 index
-a640eb7d38
+743fd6d1b6
 .
 .
-41543be62f
+261c984d05
 100644
 -
 -
@@ -2703,6 +2703,7 @@ csrcAudioLevels
 }
 ;
 struct
+RTC_EXPORT
 RTPHeader
 {
 RTPHeader
