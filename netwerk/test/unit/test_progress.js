@@ -92,7 +92,7 @@ max
 const
 STATUS_RECEIVING_FROM
 =
-0x804b0006
+0x4b0006
 ;
 const
 LOOPS

@@ -986,14 +986,14 @@ unsigned
 long
 STATUS_READING
 =
-0x804b0008
+0x4b0008
 ;
 const
 unsigned
 long
 STATUS_WRITING
 =
-0x804b0009
+0x4b0009
 ;
 }
 ;

@@ -1033,7 +1033,7 @@ finish
 function
 promiseObserverNotification
 (
-topic
+aTopic
 matchFunc
 )
 {
@@ -1108,7 +1108,7 @@ data
 )
 ;
 }
-topic
+aTopic
 )
 ;
 }
@@ -1177,7 +1177,7 @@ statusCounter
 .
 _statusCount
 [
-0x804b000b
+0x4b000b
 ]
 |
 |
@@ -1199,7 +1199,7 @@ statusCounter
 .
 _statusCount
 [
-0x804b0007
+0x4b0007
 ]
 |
 |
