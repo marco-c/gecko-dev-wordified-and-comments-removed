@@ -7,13 +7,6 @@ NSSUBDOCUMENTFRAME_H_
 #
 include
 "
-LayerState
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -904,13 +897,6 @@ layers
 :
 StackingContextHelper
 StackingContextHelper
-;
-typedef
-mozilla
-:
-:
-LayerState
-LayerState
 ;
 typedef
 mozilla
