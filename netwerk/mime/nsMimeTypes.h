@@ -1735,6 +1735,16 @@ mpegurl
 "
 #
 define
+APPLICATION_DASH_XML
+"
+application
+/
+dash
++
+xml
+"
+#
+define
 UUENCODE_APPLE_SINGLE
 "
 x
