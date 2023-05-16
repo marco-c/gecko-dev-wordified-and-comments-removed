@@ -21050,7 +21050,6 @@ GetOrCreate
 aGroupId
 )
 ;
-return
 BrowsingContext
 :
 :
@@ -21065,6 +21064,11 @@ aInit
 )
 group
 nullptr
+)
+;
+return
+IPC_OK
+(
 )
 ;
 }
@@ -21289,7 +21293,6 @@ group
 ;
 #
 endif
-return
 BrowsingContext
 :
 :
@@ -21305,6 +21308,8 @@ init
 group
 nullptr
 )
+;
+break
 ;
 }
 case
