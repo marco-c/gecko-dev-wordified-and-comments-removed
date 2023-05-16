@@ -585,6 +585,15 @@ screenInitials
 }
 )
 ;
+window
+.
+AWAddScreenImpression
+?
+.
+(
+screen
+)
+;
 }
 }
 )

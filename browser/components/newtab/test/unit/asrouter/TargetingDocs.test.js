@@ -414,6 +414,9 @@ allow
 "
 messageImpressions
 "
+"
+screenImpressions
+"
 ]
 ;
 for
