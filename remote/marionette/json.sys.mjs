@@ -100,9 +100,11 @@ remote
 /
 content
 /
-marionette
+shared
 /
-element
+webdriver
+/
+Element
 .
 sys
 .
@@ -180,7 +182,9 @@ content
 /
 marionette
 /
-element
+web
+-
+reference
 .
 sys
 .
@@ -199,7 +203,9 @@ content
 /
 marionette
 /
-element
+web
+-
+reference
 .
 sys
 .
@@ -218,7 +224,9 @@ content
 /
 marionette
 /
-element
+web
+-
+reference
 .
 sys
 .
