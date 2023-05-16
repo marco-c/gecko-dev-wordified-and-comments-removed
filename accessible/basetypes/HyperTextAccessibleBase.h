@@ -194,6 +194,12 @@ aOffset
 =
 0
 ;
+virtual
+int32_t
+CaretLineNumber
+(
+)
+;
 index_t
 ConvertMagicOffset
 (

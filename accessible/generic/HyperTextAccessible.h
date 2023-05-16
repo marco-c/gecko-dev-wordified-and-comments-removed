@@ -540,10 +540,12 @@ aOffset
 )
 override
 ;
+virtual
 int32_t
 CaretLineNumber
 (
 )
+override
 ;
 mozilla
 :

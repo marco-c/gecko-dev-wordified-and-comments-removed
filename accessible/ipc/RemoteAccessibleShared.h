@@ -111,11 +111,6 @@ uint16_t
 aPriority
 )
 ;
-int32_t
-CaretLineNumber
-(
-)
-;
 virtual
 int32_t
 CaretOffset
