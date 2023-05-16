@@ -63,7 +63,7 @@ ServoCSSRuleList
 (
 already_AddRefed
 <
-StyleLockedCssRules
+ServoCssRules
 >
 aRawRules
 StyleSheet
@@ -198,7 +198,7 @@ SetRawContents
 (
 RefPtr
 <
-StyleLockedCssRules
+ServoCssRules
 >
 bool
 aFromClone
@@ -209,7 +209,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedCssRules
+ServoCssRules
 >
 aRules
 )
@@ -342,7 +342,7 @@ nullptr
 ;
 RefPtr
 <
-StyleLockedCssRules
+ServoCssRules
 >
 mRawRules
 ;

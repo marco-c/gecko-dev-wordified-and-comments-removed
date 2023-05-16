@@ -122,7 +122,7 @@ CSSFontFaceRuleDecl
 (
 already_AddRefed
 <
-StyleLockedFontFaceRule
+RawServoFontFaceRule
 >
 aDecl
 )
@@ -164,7 +164,7 @@ const
 ;
 RefPtr
 <
-StyleLockedFontFaceRule
+RawServoFontFaceRule
 >
 mRawRule
 ;
@@ -173,7 +173,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedFontFaceRule
+RawServoFontFaceRule
 >
 )
 ;
@@ -212,7 +212,7 @@ CSSFontFaceRule
 (
 already_AddRefed
 <
-StyleLockedFontFaceRule
+RawServoFontFaceRule
 >
 aRawRule
 StyleSheet
@@ -277,7 +277,7 @@ IsCCLeaf
 const
 final
 ;
-StyleLockedFontFaceRule
+RawServoFontFaceRule
 *
 Raw
 (
@@ -295,7 +295,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedFontFaceRule
+RawServoFontFaceRule
 >
 )
 ;

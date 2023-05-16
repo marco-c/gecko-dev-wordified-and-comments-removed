@@ -25,7 +25,7 @@ ServoBindingTypes
 h
 "
 struct
-StyleLockedCounterStyleRule
+RawServoCounterStyleRule
 ;
 namespace
 mozilla
@@ -49,7 +49,7 @@ CSSCounterStyleRule
 (
 already_AddRefed
 <
-StyleLockedCounterStyleRule
+RawServoCounterStyleRule
 >
 aRawRule
 StyleSheet
@@ -129,7 +129,7 @@ const
 final
 ;
 const
-StyleLockedCounterStyleRule
+RawServoCounterStyleRule
 *
 Raw
 (
@@ -149,7 +149,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedCounterStyleRule
+RawServoCounterStyleRule
 >
 )
 ;
@@ -281,7 +281,7 @@ private
 :
 RefPtr
 <
-StyleLockedCounterStyleRule
+RawServoCounterStyleRule
 >
 mRawRule
 ;

@@ -339,7 +339,7 @@ css
 {
 RefPtr
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 block
 =
@@ -456,7 +456,7 @@ ServoGetPropertyValueById
 {
 RefPtr
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 block
 =

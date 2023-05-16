@@ -901,7 +901,7 @@ mServo
 ;
 RefPtr
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 decl
 =

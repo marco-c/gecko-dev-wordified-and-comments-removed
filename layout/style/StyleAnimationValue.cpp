@@ -1023,7 +1023,7 @@ computedStyle
 ;
 RefPtr
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 declarations
 =

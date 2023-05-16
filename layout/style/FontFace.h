@@ -76,6 +76,9 @@ gfxFontFaceBufferSource
 class
 nsIGlobalObject
 ;
+struct
+RawServoFontFaceRule
+;
 namespace
 mozilla
 {
@@ -84,9 +87,6 @@ CSSFontFaceDescriptors
 ;
 class
 PostTraversalTask
-;
-struct
-StyleLockedFontFaceRule
 ;
 namespace
 dom
@@ -188,7 +188,7 @@ aGlobal
 FontFaceSet
 *
 aFontFaceSet
-StyleLockedFontFaceRule
+RawServoFontFaceRule
 *
 aRule
 )

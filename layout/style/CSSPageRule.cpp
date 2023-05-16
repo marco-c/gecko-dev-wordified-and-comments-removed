@@ -51,7 +51,7 @@ CSSPageRuleDeclaration
 (
 already_AddRefed
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 aDecls
 )
@@ -282,7 +282,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 aDeclarationBlock
 )
@@ -450,7 +450,7 @@ CSSPageRule
 (
 RefPtr
 <
-StyleLockedPageRule
+RawServoPageRule
 >
 aRawRule
 StyleSheet
@@ -637,7 +637,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedPageRule
+RawServoPageRule
 >
 aRaw
 )

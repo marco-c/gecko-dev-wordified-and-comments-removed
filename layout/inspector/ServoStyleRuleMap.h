@@ -32,7 +32,7 @@ nsTHashMap
 h
 "
 struct
-StyleLockedStyleRule
+RawServoStyleRule
 ;
 namespace
 mozilla
@@ -93,7 +93,7 @@ CSSStyleRule
 Lookup
 (
 const
-StyleLockedStyleRule
+RawServoStyleRule
 *
 aRawRule
 )
@@ -219,7 +219,7 @@ nsTHashMap
 nsPtrHashKey
 <
 const
-StyleLockedStyleRule
+RawServoStyleRule
 >
 WeakPtr
 <

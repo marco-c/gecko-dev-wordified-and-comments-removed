@@ -1385,7 +1385,7 @@ return
 nsTArray
 <
 const
-StyleLockedStyleRule
+RawServoStyleRule
 *
 >
 rawRuleList
@@ -1562,7 +1562,7 @@ ServoStyleRuleMap
 for
 (
 const
-StyleLockedStyleRule
+RawServoStyleRule
 *
 rawRule
 :

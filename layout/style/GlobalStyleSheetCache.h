@@ -304,7 +304,7 @@ uint32_t
 mMagic
 ;
 const
-StyleLockedCssRules
+ServoCssRules
 *
 mSheets
 [

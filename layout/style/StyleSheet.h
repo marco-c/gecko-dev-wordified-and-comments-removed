@@ -129,7 +129,7 @@ class
 nsIPrincipal
 ;
 struct
-StyleLockedCssRules
+ServoCssRules
 ;
 class
 nsIReferrerInfo
@@ -1782,7 +1782,7 @@ FindOwningWindowInnerID
 const
 ;
 const
-StyleLockedCssRules
+ServoCssRules
 *
 ToShared
 (
@@ -1798,7 +1798,7 @@ void
 SetSharedContents
 (
 const
-StyleLockedCssRules
+ServoCssRules
 *
 aSharedRules
 )

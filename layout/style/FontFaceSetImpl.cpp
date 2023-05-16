@@ -3443,7 +3443,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-StyleLockedFontFaceRule
+RawServoFontFaceRule
 *
 rule
 =

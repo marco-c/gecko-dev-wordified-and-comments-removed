@@ -196,7 +196,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedNamespaceRule
+RawServoNamespaceRule
 >
 aRaw
 )

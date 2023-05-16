@@ -409,7 +409,7 @@ ImplLinkColorSetter
 (
 RefPtr
 <
-StyleLockedDeclarationBlock
+RawServoDeclarationBlock
 >
 &
 aDecl
