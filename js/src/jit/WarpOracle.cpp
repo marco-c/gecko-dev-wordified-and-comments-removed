@@ -4738,12 +4738,6 @@ CacheOp
 :
 CallRegExpMatcherResult
 :
-case
-CacheOp
-:
-:
-RegExpBuiltinExecMatchResult
-:
 if
 (
 !
@@ -4822,7 +4816,7 @@ case
 CacheOp
 :
 :
-RegExpBuiltinExecTestResult
+CallRegExpTesterResult
 :
 if
 (
