@@ -1139,9 +1139,9 @@ parser
 =
 7
 .
-1
+2
 .
-0
+1
 ;
 python_version
 >
@@ -1166,7 +1166,7 @@ hash
 =
 sha256
 :
-22005a2d54d5178a46902e44299bcb69aed4e8bc32dabff18addc4dba91611ab
+11496ac004fe421b914c7fbdc9a1d620e4821d56e1d9f65523d3858cdb907bbd
 \
 -
 -
@@ -1174,7 +1174,7 @@ hash
 =
 sha256
 :
-3ed7befcb71cb2ac63414944c9e113916e96a45fd9d01d7fc9b51fdde836d70c
+651cfee34422ea1db90bbf1cb03732bd8c598773bf95daa289a62addeaf10295
 idna
 =
 =
