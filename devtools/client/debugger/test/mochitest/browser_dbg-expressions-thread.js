@@ -105,12 +105,6 @@ label
 "
 )
 ;
-threadsPaneEl
-.
-click
-(
-)
-;
 await
 waitForElement
 (

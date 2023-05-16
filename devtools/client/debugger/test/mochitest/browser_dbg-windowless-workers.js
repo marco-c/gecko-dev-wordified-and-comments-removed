@@ -18,7 +18,7 @@ devtools
 .
 debugger
 .
-workers
+threads
 -
 visible
 "
