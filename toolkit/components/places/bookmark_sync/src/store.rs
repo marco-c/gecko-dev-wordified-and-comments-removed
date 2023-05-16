@@ -5673,6 +5673,9 @@ SET
 recalc_frecency
 =
 1
+recalc_alt_frecency
+=
+1
 WHERE
 frecency
 <
@@ -6131,6 +6134,9 @@ UPDATE
 moz_places
 SET
 recalc_frecency
+=
+1
+recalc_alt_frecency
 =
 1
 WHERE

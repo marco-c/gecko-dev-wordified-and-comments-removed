@@ -2201,6 +2201,9 @@ SET
 recalc_frecency
 =
 1
+recalc_alt_frecency
+=
+1
 WHERE
 id
 =
