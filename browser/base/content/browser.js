@@ -2521,7 +2521,7 @@ CustomizeMode
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -2533,7 +2533,9 @@ modules
 /
 CustomizeMode
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

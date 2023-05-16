@@ -82,7 +82,7 @@ CustomizableWidgets
 >
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -94,7 +94,9 @@ modules
 /
 CustomizableWidgets
 .
-jsm
+sys
+.
+mjs
 "
 )
 PopupLogic
