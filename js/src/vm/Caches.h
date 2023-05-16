@@ -52,6 +52,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 frontend
 /
 ScopeBindingCache
@@ -2246,7 +2255,10 @@ public
 MegamorphicCache
 megamorphicCache
 ;
+UniquePtr
+<
 MegamorphicSetPropCache
+>
 megamorphicSetPropCache
 ;
 GSNCache
@@ -2320,7 +2332,8 @@ bumpGeneration
 )
 ;
 megamorphicSetPropCache
-.
+-
+>
 bumpGeneration
 (
 )
