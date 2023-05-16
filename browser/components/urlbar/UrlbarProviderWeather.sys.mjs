@@ -1456,8 +1456,6 @@ firefox
 -
 suggest
 -
-weather
--
 command
 -
 show
@@ -1485,8 +1483,6 @@ id
 firefox
 -
 suggest
--
-weather
 -
 command
 -
@@ -1516,8 +1512,6 @@ firefox
 -
 suggest
 -
-weather
--
 command
 -
 not
@@ -1541,8 +1535,6 @@ id
 firefox
 -
 suggest
--
-weather
 -
 command
 -
