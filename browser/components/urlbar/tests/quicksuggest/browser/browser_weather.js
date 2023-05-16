@@ -86,9 +86,8 @@ promiseAutocompleteResultPopup
 window
 value
 :
-MerinoTestUtils
-.
-WEATHER_KEYWORD
+"
+"
 }
 )
 ;
@@ -585,9 +584,7 @@ weather
 .
 _test_setRsData
 (
-MerinoTestUtils
-.
-WEATHER_RS_DATA
+null
 )
 ;
 UrlbarPrefs
@@ -658,9 +655,8 @@ promiseAutocompleteResultPopup
 window
 value
 :
-MerinoTestUtils
-.
-WEATHER_KEYWORD
+"
+"
 }
 )
 ;
@@ -677,7 +673,7 @@ window
 let
 resultIndex
 =
-1
+0
 ;
 let
 details
