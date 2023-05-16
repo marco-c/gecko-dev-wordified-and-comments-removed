@@ -394,6 +394,7 @@ FinishPrintPreview
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 FirePrintingErrorEvent
 (
