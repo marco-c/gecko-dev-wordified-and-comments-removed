@@ -345,15 +345,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-lazy
-{
 TabsStore
 :
 "
@@ -367,7 +358,9 @@ modules
 /
 RustTabs
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

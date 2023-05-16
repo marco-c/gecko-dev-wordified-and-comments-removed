@@ -206,7 +206,6 @@ rst
 )
 -
 A
-JSM
 module
 that
 uses
@@ -783,7 +782,9 @@ udl
 name
 }
 .
-jsm
+sys
+.
+mjs
 file
 to
 toolkit
@@ -808,7 +809,6 @@ Then
 simply
 import
 your
-jsm
 module
 to
 the
@@ -831,9 +831,9 @@ tabs
 module
 :
 js
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -853,7 +853,9 @@ modules
 /
 RustTabs
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

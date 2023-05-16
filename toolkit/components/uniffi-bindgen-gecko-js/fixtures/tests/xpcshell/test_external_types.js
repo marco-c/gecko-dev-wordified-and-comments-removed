@@ -3,7 +3,7 @@ ExternalTypes
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -16,7 +16,9 @@ modules
 /
 RustExternalTypes
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -3,7 +3,7 @@ Rondpoint
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -16,7 +16,9 @@ modules
 /
 RustRondpoint
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

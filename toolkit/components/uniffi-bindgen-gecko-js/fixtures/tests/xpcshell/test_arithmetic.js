@@ -3,7 +3,7 @@ Arithmetic
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -16,7 +16,9 @@ modules
 /
 RustArithmetic
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
