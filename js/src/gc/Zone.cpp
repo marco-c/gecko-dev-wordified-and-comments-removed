@@ -971,11 +971,15 @@ finalizedStrings
 (
 0
 )
-allocNurseryStrings
+allocNurseryObjects_
 (
 true
 )
-allocNurseryBigInts
+allocNurseryStrings_
+(
+true
+)
+allocNurseryBigInts_
 (
 true
 )

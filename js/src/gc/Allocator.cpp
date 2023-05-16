@@ -200,7 +200,7 @@ Nursery
 nursery
 )
 {
-allocNurseryObjects
+allocNurseryObjects_
 =
 nursery
 .
@@ -208,7 +208,7 @@ isEnabled
 (
 )
 ;
-allocNurseryStrings
+allocNurseryStrings_
 =
 nursery
 .
@@ -227,7 +227,7 @@ canAllocateStrings
 !
 nurseryStringsDisabled
 ;
-allocNurseryBigInts
+allocNurseryBigInts_
 =
 nursery
 .
@@ -432,6 +432,8 @@ zone
 -
 >
 allocNurseryObjects
+(
+)
 )
 {
 if
@@ -902,6 +904,8 @@ zone
 -
 >
 allocNurseryStrings
+(
+)
 )
 {
 return
@@ -1053,6 +1057,8 @@ zone
 -
 >
 allocNurseryStrings
+(
+)
 )
 {
 void
@@ -1311,6 +1317,8 @@ zone
 -
 >
 allocNurseryBigInts
+(
+)
 )
 {
 return
@@ -1455,6 +1463,8 @@ zone
 -
 >
 allocNurseryBigInts
+(
+)
 )
 {
 void
