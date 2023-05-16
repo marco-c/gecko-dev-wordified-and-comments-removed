@@ -966,7 +966,7 @@ SOME_STRING_SCALAR
 ;
 }
 case
-14
+13
 :
 {
 return
@@ -980,7 +980,7 @@ SOME_OTHER_UINT_SCALAR
 ;
 }
 case
-16
+15
 :
 {
 return
@@ -994,7 +994,7 @@ SOME_STILL_OTHER_STRING_SCALAR
 ;
 }
 case
-20
+19
 :
 {
 return
@@ -1008,7 +1008,7 @@ TELEMETRY_TEST_MIRROR_FOR_QUANTITY
 ;
 }
 case
-23
+22
 :
 {
 return

@@ -658,7 +658,7 @@ SOME_MEM_HISTOGRAM_KB
 ;
 }
 case
-15
+14
 :
 {
 return

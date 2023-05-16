@@ -60,9 +60,6 @@ mod
 string_list
 ;
 mod
-text
-;
-mod
 timespan
 ;
 mod
