@@ -2110,6 +2110,17 @@ media
 :
 rtc_media_base
 "
+"
+.
+.
+/
+.
+.
+/
+media
+:
+turn_utils
+"
 ]
 }
 webrtc_fuzzer_test
