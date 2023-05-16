@@ -856,6 +856,16 @@ if
 vad_
 )
 {
+RTC_DCHECK
+(
+!
+speech_probability
+.
+has_value
+(
+)
+)
+;
 speech_probability
 =
 vad_
@@ -867,7 +877,6 @@ float_frame
 )
 ;
 }
-else
 if
 (
 speech_probability

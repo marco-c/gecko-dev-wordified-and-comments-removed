@@ -1079,12 +1079,16 @@ experiment_params
 )
 ;
 static
-TransientSuppressor
-:
-:
-VadMode
-GetTransientSuppressorVadMode
+bool
+UseApmVadSubModule
 (
+const
+AudioProcessing
+:
+:
+Config
+&
+config
 const
 absl
 :
@@ -1097,7 +1101,6 @@ GainController2ExperimentParams
 experiment_params
 )
 ;
-const
 TransientSuppressor
 :
 :
@@ -1403,8 +1406,6 @@ mutex_capture_
 void
 InitializeGainController2
 (
-bool
-config_has_changed
 )
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
@@ -1414,8 +1415,6 @@ mutex_capture_
 void
 InitializeVoiceActivityDetector
 (
-bool
-config_has_changed
 )
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
