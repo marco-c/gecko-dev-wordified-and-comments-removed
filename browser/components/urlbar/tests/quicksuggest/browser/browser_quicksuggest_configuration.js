@@ -178,13 +178,6 @@ enabled
 false
 )
 ;
-await
-QuickSuggest
-.
-remoteSettings
-.
-readyPromise
-;
 Assert
 .
 equal
@@ -213,13 +206,6 @@ quicksuggest
 enabled
 "
 )
-;
-await
-QuickSuggest
-.
-remoteSettings
-.
-readyPromise
 ;
 Assert
 .

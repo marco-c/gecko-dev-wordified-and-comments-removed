@@ -20,7 +20,7 @@ sys
 .
 mjs
 "
-RemoteSettingsClient
+QuickSuggestRemoteSettings
 :
 "
 resource
@@ -34,7 +34,7 @@ urlbar
 /
 private
 /
-RemoteSettingsClient
+QuickSuggestRemoteSettings
 .
 sys
 .
