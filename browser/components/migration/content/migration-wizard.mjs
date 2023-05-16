@@ -4257,7 +4257,7 @@ style
 overflowY
 =
 "
-scroll
+auto
 "
 ;
 }
