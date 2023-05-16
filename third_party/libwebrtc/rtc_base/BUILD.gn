@@ -6475,6 +6475,12 @@ win32
 ]
 }
 }
+if
+(
+!
+build_with_chromium
+)
+{
 rtc_library
 (
 "
@@ -6529,6 +6535,7 @@ absl
 strings
 "
 ]
+}
 }
 rtc_library
 (
