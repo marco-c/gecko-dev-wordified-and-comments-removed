@@ -738,6 +738,13 @@ perf
 -
 tests
 '
+'
+fuchsia
+-
+gtest
+-
+output
+'
 ]
 }
 }
