@@ -243,6 +243,11 @@ mGL
 EGLSurface
 mEGLSurface
 ;
+bool
+mHandlingNewSurfaceError
+=
+false
+;
 ipc
 :
 :

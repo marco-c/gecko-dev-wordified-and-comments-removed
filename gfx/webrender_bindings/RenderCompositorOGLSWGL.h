@@ -280,6 +280,11 @@ mFullRender
 =
 false
 ;
+bool
+mHandlingNewSurfaceError
+=
+false
+;
 class
 TileOGL
 :
