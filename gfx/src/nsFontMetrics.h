@@ -315,6 +315,12 @@ AveCharWidth
 const
 ;
 nscoord
+ZeroOrAveCharWidth
+(
+)
+const
+;
+nscoord
 SpaceWidth
 (
 )
