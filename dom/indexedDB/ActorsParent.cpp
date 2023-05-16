@@ -55752,7 +55752,7 @@ directory
 quotaManager
 -
 >
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 aPersistenceType
 aOrigin
@@ -66471,7 +66471,7 @@ dbFile
 quotaManager
 -
 >
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 persistenceType
 mOriginMetadata
@@ -73285,7 +73285,7 @@ directory
 quotaManager
 -
 >
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 persistenceType
 mOriginMetadata

@@ -897,7 +897,7 @@ nsIFile
 >
 nsresult
 >
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 PersistenceType
 aPersistenceType
@@ -2093,7 +2093,7 @@ CleanupTemporaryStorage
 )
 ;
 void
-DeleteFilesForOrigin
+DeleteOriginDirectory
 (
 PersistenceType
 aPersistenceType

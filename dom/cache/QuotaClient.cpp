@@ -843,7 +843,7 @@ dir
 qm
 -
 >
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 aPersistenceType
 aOriginMetadata

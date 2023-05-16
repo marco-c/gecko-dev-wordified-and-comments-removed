@@ -15871,7 +15871,7 @@ directoryEntry
 quotaManager
 -
 >
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 PERSISTENCE_TYPE_DEFAULT
 Origin
@@ -28740,7 +28740,7 @@ directoryEntry
 quotaManager
 -
 >
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 PERSISTENCE_TYPE_DEFAULT
 Origin
@@ -34913,7 +34913,7 @@ directory
 quotaManager
 -
 >
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 aPersistenceType
 aOriginMetadata

@@ -6975,7 +6975,7 @@ directory
 quotaManager
 -
 >
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 aPersistenceType
 aOriginMetadata

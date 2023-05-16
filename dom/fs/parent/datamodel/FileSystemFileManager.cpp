@@ -810,7 +810,7 @@ QM_TO_RESULT_TRANSFORM
 quotaManager
 -
 >
-GetDirectoryForOrigin
+GetOriginDirectory
 (
 quota
 :
