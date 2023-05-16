@@ -58,7 +58,7 @@ MPL
 /
 import
 {
-Module
+RootBiDiModule
 }
 from
 "
@@ -70,11 +70,13 @@ remote
 /
 content
 /
-shared
+webdriver
+-
+bidi
 /
-messagehandler
+modules
 /
-Module
+RootBiDiModule
 .
 sys
 .
@@ -890,7 +892,7 @@ types
 class
 NetworkModule
 extends
-Module
+RootBiDiModule
 {
 #
 networkListener
