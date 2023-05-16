@@ -1248,7 +1248,13 @@ flexfec_payload_type
 int
 rtx_payload_type
 ;
+absl
+:
+:
+optional
+<
 int
+>
 rtx_time
 ;
 }
@@ -2276,7 +2282,13 @@ webrtc
 :
 RtcpMode
 rtcp_mode
+absl
+:
+:
+optional
+<
 int
+>
 rtx_time
 )
 ;
