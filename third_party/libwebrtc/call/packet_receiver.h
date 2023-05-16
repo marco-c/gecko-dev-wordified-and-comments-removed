@@ -85,9 +85,12 @@ packet
 int64_t
 packet_time_us
 )
-=
-0
+{
+RTC_CHECK_NOTREACHED
+(
+)
 ;
+}
 virtual
 void
 DeliverRtcpPacket
