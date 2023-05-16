@@ -584,6 +584,12 @@ return
 rtx_ssrc_
 ;
 }
+size_t
+RtxPacketOverhead
+(
+)
+const
+;
 void
 SetRtxPayloadType
 (
