@@ -69,6 +69,7 @@ ownership
 :
 {
 HasArcFFI
+HasFFI
 Strong
 }
 ;
@@ -198,7 +199,7 @@ ident
 {
 unsafe
 impl
-HasArcFFI
+HasFFI
 for
 servo_type
 {
@@ -207,6 +208,13 @@ FFIType
 =
 gecko_type
 ;
+}
+unsafe
+impl
+HasArcFFI
+for
+servo_type
+{
 }
 #
 [
