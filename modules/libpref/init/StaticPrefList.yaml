@@ -14734,7 +14734,7 @@ should
 be
 blocked
 #
-when
+if
 called
 directly
 from
@@ -31082,7 +31082,7 @@ FissionAutostart
 to
 check
 #
-whether
+if
 fission
 is
 enabled
@@ -44326,8 +44326,8 @@ in
 it
 are
 still
-#
 dirty
+#
 if
 and
 only
@@ -44581,8 +44581,8 @@ in
 it
 are
 still
-#
 dirty
+#
 if
 and
 only
@@ -78543,8 +78543,6 @@ might
 be
 better
 #
-but
-only
 if
 it
 does
@@ -84334,7 +84332,7 @@ attempt
 to
 detect
 #
-whether
+if
 the
 Family
 Safety
@@ -84345,10 +84343,10 @@ has
 been
 enabled
 .
-#
 If
 so
 we
+#
 will
 behave
 as
@@ -84360,13 +84358,13 @@ feature
 has
 been
 enabled
-#
 (
 i
 .
 e
 .
 import
+#
 and
 trust
 third
