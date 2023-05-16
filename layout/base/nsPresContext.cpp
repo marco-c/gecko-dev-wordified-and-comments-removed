@@ -4535,6 +4535,14 @@ browsingContext
 return
 ;
 }
+if
+(
+!
+IsPrintingOrPrintPreview
+(
+)
+)
+{
 auto
 systemZoom
 =
@@ -4583,6 +4591,7 @@ OverrideDPPX
 )
 )
 ;
+}
 auto
 *
 top
