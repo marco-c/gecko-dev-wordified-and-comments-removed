@@ -439,7 +439,7 @@ mLaunchPromiseLaunched
 false
 ;
 bool
-mTimerChecked
+mLaunchCompleted
 =
 false
 ;
