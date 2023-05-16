@@ -280,6 +280,16 @@ mFullRender
 =
 false
 ;
+#
+ifdef
+MOZ_WIDGET_ANDROID
+bool
+mHandlingNewSurfaceError
+=
+false
+;
+#
+endif
 class
 TileOGL
 :
