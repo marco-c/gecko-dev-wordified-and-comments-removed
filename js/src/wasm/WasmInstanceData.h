@@ -117,10 +117,6 @@ clasp
 (
 nullptr
 )
-allocSite
-(
-nullptr
-)
 allocKind
 (
 gc

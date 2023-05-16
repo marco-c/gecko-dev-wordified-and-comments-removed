@@ -47350,6 +47350,13 @@ zone
 >
 unknownAllocSite
 (
+JS
+:
+:
+TraceKind
+:
+:
+Object
 )
 ;
 MOZ_ASSERT
@@ -64487,6 +64494,13 @@ zone
 >
 unknownAllocSite
 (
+JS
+:
+:
+TraceKind
+:
+:
+Object
 )
 ;
 }

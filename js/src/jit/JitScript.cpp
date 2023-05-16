@@ -3654,6 +3654,13 @@ zone
 >
 unknownAllocSite
 (
+JS
+:
+:
+TraceKind
+:
+:
+Object
 )
 ;
 }
@@ -3740,6 +3747,13 @@ zone
 (
 )
 script
+JS
+:
+:
+TraceKind
+:
+:
+Object
 )
 ;
 allocSites_
