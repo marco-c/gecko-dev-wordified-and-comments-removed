@@ -515,7 +515,7 @@ warning
 )
 {
 return
-WarnNumberLatin1
+WarnNumberUTF8
 (
 cx
 JSMSG_DEBUGGEE_WOULD_RUN
@@ -524,7 +524,7 @@ linenoStr
 )
 ;
 }
-JS_ReportErrorNumberLatin1
+JS_ReportErrorNumberUTF8
 (
 cx
 GetErrorMessage

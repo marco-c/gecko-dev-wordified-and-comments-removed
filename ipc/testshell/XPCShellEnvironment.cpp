@@ -801,7 +801,7 @@ JS
 UniqueChars
 filename
 =
-JS_EncodeStringToLatin1
+JS_EncodeStringToUTF8
 (
 cx
 str
