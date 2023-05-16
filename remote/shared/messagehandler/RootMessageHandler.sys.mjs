@@ -93,7 +93,7 @@ defineESModuleGetters
 (
 lazy
 {
-FrameTransport
+RootTransport
 :
 "
 chrome
@@ -110,7 +110,7 @@ messagehandler
 /
 transports
 /
-FrameTransport
+RootTransport
 .
 sys
 .
@@ -238,7 +238,7 @@ extends
 MessageHandler
 {
 #
-frameTransport
+rootTransport
 ;
 #
 sessionData
@@ -391,12 +391,12 @@ null
 this
 .
 #
-frameTransport
+rootTransport
 =
 new
 lazy
 .
-FrameTransport
+RootTransport
 (
 this
 )
@@ -634,7 +634,7 @@ MessageHandlers
 via
 the
 *
-FrameTransport
+RootTransport
 .
 *
 *
@@ -701,7 +701,7 @@ return
 this
 .
 #
-frameTransport
+rootTransport
 .
 forwardCommand
 (

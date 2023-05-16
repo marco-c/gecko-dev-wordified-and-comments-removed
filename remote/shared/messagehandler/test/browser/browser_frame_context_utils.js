@@ -27,7 +27,7 @@ messagehandler
 /
 transports
 /
-FrameContextUtils
+BrowsingContextUtils
 .
 sys
 .
@@ -583,7 +583,7 @@ _expected
 >
 {
 const
-FrameContextUtils
+BrowsingContextUtils
 =
 ChromeUtils
 .
@@ -604,7 +604,7 @@ messagehandler
 /
 transports
 /
-FrameContextUtils
+BrowsingContextUtils
 .
 sys
 .
@@ -614,7 +614,7 @@ mjs
 ;
 is
 (
-FrameContextUtils
+BrowsingContextUtils
 .
 isBrowsingContextCompatible
 (

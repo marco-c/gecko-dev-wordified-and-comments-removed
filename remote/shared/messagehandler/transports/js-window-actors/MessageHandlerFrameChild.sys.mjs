@@ -85,7 +85,7 @@ messagehandler
 /
 transports
 /
-FrameContextUtils
+BrowsingContextUtils
 .
 sys
 .
@@ -154,7 +154,7 @@ actor
 is
 used
 by
-FrameTransport
+RootTransport
 to
 communicate
 between

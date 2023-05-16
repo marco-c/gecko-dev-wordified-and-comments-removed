@@ -127,7 +127,7 @@ messagehandler
 /
 transports
 /
-FrameContextUtils
+BrowsingContextUtils
 .
 sys
 .
@@ -233,7 +233,7 @@ MAX_RETRY_ATTEMPTS
 *
 *
 *
-FrameTransport
+RootTransport
 is
 intended
 to
@@ -260,7 +260,7 @@ actors
 /
 export
 class
-FrameTransport
+RootTransport
 {
 /
 *
@@ -278,7 +278,7 @@ instance
 which
 owns
 this
-FrameTransport
+RootTransport
 instance
 .
 *
@@ -296,7 +296,7 @@ messageHandler
 ;
 /
 /
-FrameTransport
+RootTransport
 will
 rely
 on
@@ -315,7 +315,7 @@ registered
 when
 instanciating
 a
-FrameTransport
+RootTransport
 .
 lazy
 .
@@ -817,7 +817,7 @@ logger
 .
 trace
 (
-FrameTransport
+RootTransport
 reached
 the
 limit
@@ -858,7 +858,7 @@ logger
 .
 trace
 (
-FrameTransport
+RootTransport
 retrying
 command
 {

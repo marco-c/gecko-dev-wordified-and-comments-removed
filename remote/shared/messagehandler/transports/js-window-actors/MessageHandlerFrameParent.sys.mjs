@@ -219,7 +219,7 @@ actor
 is
 used
 by
-FrameTransport
+RootTransport
 to
 communicate
 between
