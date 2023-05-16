@@ -1384,6 +1384,17 @@ entry
 is
 not
 None
+and
+"
+about
+:
+"
+not
+in
+entry
+[
+2
+]
 :
                 
 test_file

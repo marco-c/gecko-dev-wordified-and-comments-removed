@@ -1562,14 +1562,6 @@ r
 "
 .
 *
-(
-?
-:
-/
-|
-\
-\
-)
 %
 s
 (
@@ -7153,6 +7145,11 @@ overall
 =
 0
         
+status
+=
+-
+1
+        
 for
 manifest
 tests
@@ -7198,6 +7195,18 @@ overall
 overall
 or
 status
+        
+if
+status
+=
+=
+-
+1
+:
+            
+overall
+=
+1
         
 self
 .
