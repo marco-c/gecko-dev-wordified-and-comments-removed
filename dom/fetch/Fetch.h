@@ -351,16 +351,7 @@ FetchBody
 BodyStreamHolder
 )
 bool
-GetBodyUsed
-(
-ErrorResult
-&
-aRv
-)
-const
-;
-bool
-CheckBodyUsed
+BodyUsed
 (
 )
 const

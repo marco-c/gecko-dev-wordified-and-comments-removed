@@ -150,9 +150,6 @@ interface
 mixin
 Body
 {
-[
-Throws
-]
 readonly
 attribute
 boolean
