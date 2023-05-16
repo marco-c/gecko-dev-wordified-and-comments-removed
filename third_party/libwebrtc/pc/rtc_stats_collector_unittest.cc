@@ -20732,6 +20732,14 @@ timestamp
 ;
 expected_stats
 .
+kind
+=
+"
+audio
+"
+;
+expected_stats
+.
 synthesized_samples_duration
 =
 1
