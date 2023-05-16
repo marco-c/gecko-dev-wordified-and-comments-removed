@@ -323,9 +323,6 @@ GetOrigin
 nsAString
 &
 aOrigin
-ErrorResult
-&
-aRv
 )
 const
 ;
@@ -345,9 +342,6 @@ const
 nsAString
 &
 aProtocol
-ErrorResult
-&
-aRv
 )
 ;
 void
