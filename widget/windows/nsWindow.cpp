@@ -5907,17 +5907,6 @@ style
 ~
 WS_DLGFRAME
 ;
-style
-|
-=
-WS_POPUP
-;
-style
-&
-=
-~
-WS_CHILD
-;
 }
 if
 (
