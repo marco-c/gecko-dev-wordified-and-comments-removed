@@ -59,6 +59,17 @@ kTwoToOne
 kThreeToTwo
 }
 ;
+static
+constexpr
+char
+kDefaultScalabilityModeStr
+[
+]
+=
+"
+L1T2
+"
+;
 absl
 :
 :
