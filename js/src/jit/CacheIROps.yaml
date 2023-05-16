@@ -2669,7 +2669,7 @@ obj
 ObjId
 name
 :
-PropertyNameField
+IdField
 -
 name
 :
@@ -2711,7 +2711,7 @@ obj
 ObjId
 name
 :
-PropertyNameField
+IdField
 rhs
 :
 ValId
@@ -8667,7 +8667,7 @@ obj
 ObjId
 id
 :
-PropertyNameField
+IdField
 slot
 :
 RawInt32Field
