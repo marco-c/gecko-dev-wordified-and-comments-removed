@@ -4551,6 +4551,10 @@ SetRect
 newThumbRect
 )
 ;
+MarkNeedsDisplayItemRebuild
+(
+)
+;
 nsIScrollbarMediator
 *
 mediator
