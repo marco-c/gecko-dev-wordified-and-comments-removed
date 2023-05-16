@@ -1723,6 +1723,13 @@ aFullscreen
 )
 ;
 void
+CocoaWindowDidEnterFullscreen
+(
+bool
+aFullscreen
+)
+;
+void
 CocoaWindowDidFailFullscreen
 (
 bool
@@ -2013,6 +2020,9 @@ false
 ;
 int
 mIgnoreOcclusionCount
+;
+bool
+mHasStartedNativeFullscreen
 ;
 bool
 mModal
