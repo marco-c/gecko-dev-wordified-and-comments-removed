@@ -65,7 +65,7 @@ pointerArea
 center
 =
 await
-get_inview_center
+get_inview_center_bidi
 (
         
 bidi_session
@@ -687,7 +687,7 @@ pointerArea
 center
 =
 await
-get_inview_center
+get_inview_center_bidi
 (
         
 bidi_session
