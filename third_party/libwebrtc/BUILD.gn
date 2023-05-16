@@ -3623,6 +3623,11 @@ sigslot_unittest
 "
 rtc_base
 :
+task_queue_stdlib_unittest
+"
+"
+rtc_base
+:
 untyped_function_unittest
 "
 "
