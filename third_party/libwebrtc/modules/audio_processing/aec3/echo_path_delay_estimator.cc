@@ -536,6 +536,7 @@ matched_filter_
 .
 Reset
 (
+reset_lag_aggregator
 )
 ;
 old_aggregated_lag_

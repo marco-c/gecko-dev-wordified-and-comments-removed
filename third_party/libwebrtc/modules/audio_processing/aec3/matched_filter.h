@@ -487,6 +487,8 @@ use_slow_smoothing
 void
 Reset
 (
+bool
+full_reset
 )
 ;
 absl
@@ -677,6 +679,11 @@ vector
 size_t
 >
 filters_offsets_
+;
+int
+number_pre_echo_updates_
+=
+0
 ;
 const
 float
