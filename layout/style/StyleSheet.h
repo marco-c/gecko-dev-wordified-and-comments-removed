@@ -143,14 +143,15 @@ ServoCSSRuleList
 class
 ServoStyleSet
 ;
-typedef
+using
+StyleSheetParsePromise
+=
 MozPromise
 <
 bool
 bool
 true
 >
-StyleSheetParsePromise
 ;
 enum
 class
@@ -1785,7 +1786,7 @@ ServoCssRules
 *
 ToShared
 (
-RawServoSharedMemoryBuilder
+StyleSharedMemoryBuilder
 *
 aBuilder
 nsCString
@@ -1859,6 +1860,7 @@ OutermostSheet
 )
 const
 {
+const
 auto
 *
 current

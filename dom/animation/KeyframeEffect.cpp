@@ -2970,7 +2970,7 @@ KeyframeEffect
 :
 ComposeStyleRule
 (
-RawServoAnimationValueMap
+StyleAnimationValueMap
 &
 aAnimationValues
 const
@@ -3033,7 +3033,7 @@ KeyframeEffect
 :
 ComposeStyle
 (
-RawServoAnimationValueMap
+StyleAnimationValueMap
 &
 aComposeResult
 const
@@ -5065,9 +5065,9 @@ void
 DumpAnimationProperties
 (
 const
-RawServoStyleSet
+StylePerDocumentStyleData
 *
-aRawSet
+aRawData
 nsTArray
 <
 AnimationProperty
@@ -5135,7 +5135,7 @@ SerializeSpecifiedValue
 p
 .
 mProperty
-aRawSet
+aRawData
 fromValue
 )
 ;
@@ -5148,7 +5148,7 @@ SerializeSpecifiedValue
 p
 .
 mProperty
-aRawSet
+aRawData
 toValue
 )
 ;
@@ -5556,9 +5556,9 @@ dom
 CompositeOperation
 aComposite
 const
-RawServoStyleSet
+StylePerDocumentStyleData
 *
-aRawSet
+aRawData
 AnimationPropertyValueDetails
 &
 aResult
@@ -5588,7 +5588,7 @@ aValue
 SerializeSpecifiedValue
 (
 aProperty
-aRawSet
+aRawData
 stringValue
 )
 ;
@@ -5671,9 +5671,9 @@ aRv
 const
 {
 const
-RawServoStyleSet
+StylePerDocumentStyleData
 *
-rawSet
+rawData
 =
 mDocument
 -
@@ -5683,7 +5683,7 @@ StyleSetForPresShellOrMediaQueryEvaluation
 )
 -
 >
-RawSet
+RawData
 (
 )
 ;
@@ -5849,7 +5849,7 @@ mFromValue
 segment
 .
 mFromComposite
-rawSet
+rawData
 fromValue
 )
 ;
@@ -5951,7 +5951,7 @@ mToValue
 segment
 .
 mToComposite
-rawSet
+rawData
 toValue
 )
 ;
@@ -6108,9 +6108,9 @@ Style
 ;
 }
 const
-RawServoStyleSet
+StylePerDocumentStyleData
 *
-rawSet
+rawData
 =
 mDocument
 -
@@ -6120,7 +6120,7 @@ StyleSetForPresShellOrMediaQueryEvaluation
 )
 -
 >
-RawSet
+RawData
 (
 )
 ;
@@ -6381,7 +6381,7 @@ mProperty
 stringValue
 computedStyle
 customProperties
-rawSet
+rawData
 )
 ;
 }
@@ -6411,7 +6411,7 @@ value
 propertyValue
 .
 mProperty
-rawSet
+rawData
 &
 stringValue
 )

@@ -2693,7 +2693,7 @@ EffectCompositor
 :
 CascadeLevel
 aCascadeLevel
-RawServoAnimationValueMap
+StyleAnimationValueMap
 *
 aAnimationValues
 )
@@ -8342,10 +8342,8 @@ StyleStrong
 RawServoStyleSheetContents
 >
 aSheetContents
-StyleOwnedOrNull
-<
 StyleUseCounters
->
+*
 aUseCounters
 )
 {
@@ -8354,11 +8352,8 @@ UniquePtr
 StyleUseCounters
 >
 useCounters
-=
-aUseCounters
-.
-Consume
 (
+aUseCounters
 )
 ;
 RefPtr

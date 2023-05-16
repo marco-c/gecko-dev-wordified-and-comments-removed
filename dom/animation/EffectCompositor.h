@@ -131,9 +131,6 @@ DisplayItemType
 :
 uint8_t
 ;
-struct
-RawServoAnimationValueMap
-;
 namespace
 mozilla
 {
@@ -148,6 +145,9 @@ RestyleTracker
 ;
 class
 StyleAnimationValue
+;
+struct
+StyleAnimationValueMap
 ;
 struct
 AnimationProperty
@@ -336,7 +336,7 @@ PseudoStyleType
 aPseudoType
 CascadeLevel
 aCascadeLevel
-RawServoAnimationValueMap
+StyleAnimationValueMap
 *
 aAnimationValues
 )
@@ -352,7 +352,7 @@ KeyframeEffect
 aEffect
 CascadeLevel
 aCascadeLevel
-RawServoAnimationValueMap
+StyleAnimationValueMap
 *
 aAnimationValues
 )

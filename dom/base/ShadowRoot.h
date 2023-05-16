@@ -670,7 +670,7 @@ mParts
 ;
 }
 const
-RawServoAuthorStyles
+StyleAuthorStyles
 *
 GetServoStyles
 (
@@ -685,7 +685,7 @@ get
 )
 ;
 }
-RawServoAuthorStyles
+StyleAuthorStyles
 *
 GetServoStyles
 (
@@ -1141,7 +1141,7 @@ mSlotAssignment
 ;
 UniquePtr
 <
-RawServoAuthorStyles
+StyleAuthorStyles
 >
 mServoStyles
 ;

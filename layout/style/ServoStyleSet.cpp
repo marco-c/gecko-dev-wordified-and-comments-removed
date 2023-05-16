@@ -736,7 +736,7 @@ PodArrayZero
 mCachedAnonymousContentStyleIndexes
 )
 ;
-mRawSet
+mRawData
 .
 reset
 (
@@ -1061,7 +1061,7 @@ return
 AutoTArray
 <
 const
-RawServoAuthorStyles
+StyleAuthorStyles
 *
 20
 >
@@ -1107,7 +1107,7 @@ authorStyles
 Servo_InvalidateStyleForDocStateChanges
 (
 root
-mRawSet
+mRawData
 .
 get
 (
@@ -1149,7 +1149,7 @@ aReason
 {
 AutoTArray
 <
-RawServoAuthorStyles
+StyleAuthorStyles
 *
 20
 >
@@ -1209,7 +1209,7 @@ result
 =
 Servo_StyleSet_MediumFeaturesChanged
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -1346,7 +1346,7 @@ this
 ;
 if
 (
-mRawSet
+mRawData
 )
 {
 aSizes
@@ -1356,7 +1356,7 @@ mLayoutStyleSetsOther
 =
 mallocSizeOf
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -1372,7 +1372,7 @@ ServoStyleSetMallocSizeOf
 ServoStyleSetMallocEnclosingSizeOf
 &
 sizes
-mRawSet
+mRawData
 .
 get
 (
@@ -1536,7 +1536,7 @@ nsChangeHint
 }
 Servo_StyleSet_SetAuthorStyleDisabled
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -1888,9 +1888,9 @@ ComputedStyle
 ResolveStyleForTextOrFirstLetterContinuation
 (
 const
-RawServoStyleSet
+StylePerDocumentStyleData
 *
-aStyleSet
+aRawData
 ComputedStyle
 &
 aParent
@@ -1962,7 +1962,7 @@ style
 =
 Servo_ComputedValues_Inherit
 (
-aStyleSet
+aRawData
 aType
 &
 aParent
@@ -2042,7 +2042,7 @@ aParentStyle
 return
 ResolveStyleForTextOrFirstLetterContinuation
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -2078,7 +2078,7 @@ aParentStyle
 return
 ResolveStyleForTextOrFirstLetterContinuation
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -2150,7 +2150,7 @@ computedValues
 =
 Servo_ComputedValues_Inherit
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -2329,7 +2329,7 @@ isProbe
 nullptr
 :
 aParentStyle
-mRawSet
+mRawData
 .
 get
 (
@@ -2451,7 +2451,7 @@ Servo_ComputedValues_ResolveHighlightPseudoStyle
 &
 aOriginatingElement
 aHighlightName
-mRawSet
+mRawData
 .
 get
 (
@@ -2550,7 +2550,7 @@ Servo_ComputedValues_GetForAnonymousBox
 (
 aParentStyle
 aType
-mRawSet
+mRawData
 .
 get
 (
@@ -2716,7 +2716,7 @@ Servo_ComputedValues_GetForAnonymousBox
 (
 nullptr
 aType
-mRawSet
+mRawData
 .
 get
 (
@@ -2830,7 +2830,7 @@ computedValues
 =
 Servo_ComputedValues_GetForPageContent
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -2925,7 +2925,7 @@ aPseudoTag
 aParentStyle
 &
 aInputWord
-mRawSet
+mRawData
 .
 get
 (
@@ -2986,7 +2986,7 @@ this
 ;
 Servo_StyleSet_AppendStyleSheet
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -3034,7 +3034,7 @@ this
 ;
 Servo_StyleSet_RemoveStyleSheet
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -3187,7 +3187,7 @@ this
 ;
 Servo_StyleSet_InsertStyleSheetBefore
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -3231,7 +3231,7 @@ const
 return
 Servo_StyleSet_GetSheetCount
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -3263,7 +3263,7 @@ StyleSheet
 (
 Servo_StyleSet_GetSheetAt
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -3629,7 +3629,7 @@ index
 ;
 Servo_StyleSet_InsertStyleSheetBefore
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -3648,7 +3648,7 @@ else
 {
 Servo_StyleSet_AppendStyleSheet
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -4119,7 +4119,7 @@ postTraversalRequired
 Servo_TraverseSubtree
 (
 root
-mRawSet
+mRawData
 .
 get
 (
@@ -4298,7 +4298,7 @@ postTraversalRequired
 Servo_TraverseSubtree
 (
 root
-mRawSet
+mRawData
 .
 get
 (
@@ -4430,7 +4430,7 @@ postTraversalRequired
 Servo_TraverseSubtree
 (
 aRoot
-mRawSet
+mRawData
 .
 get
 (
@@ -4470,7 +4470,7 @@ postTraversalRequired
 Servo_TraverseSubtree
 (
 aRoot
-mRawSet
+mRawData
 .
 get
 (
@@ -4512,7 +4512,7 @@ SetStylistStyleSheetsDirty
 ;
 Servo_StyleSet_NoteStyleSheetsChanged
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -4897,7 +4897,7 @@ type_
 RuleChanged
 (
 \
-mRawSet
+mRawData
 .
 get
 (
@@ -5232,7 +5232,7 @@ StylistNeedsUpdate
 return
 Servo_StyleSet_GetKeyframesForName
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -5307,7 +5307,7 @@ aKeyframes
 aElement
 aPseudoType
 aStyle
-mRawSet
+mRawData
 .
 get
 (
@@ -5352,7 +5352,7 @@ Servo_GetAnimationValues
 aDeclarations
 aElement
 aComputedStyle
-mRawSet
+mRawData
 .
 get
 (
@@ -5383,7 +5383,7 @@ aStyle
 return
 Servo_StyleSet_GetBaseComputedValuesForElement
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -5425,7 +5425,7 @@ aAnimationValue
 return
 Servo_StyleSet_GetComputedValuesByAddingAnimation
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -5471,7 +5471,7 @@ Servo_AnimationValue_Compute
 aElement
 aDeclarations
 aStyle
-mRawSet
+mRawData
 .
 get
 (
@@ -5495,7 +5495,7 @@ const
 return
 Servo_StyleSet_UsesFontMetrics
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -5623,6 +5623,7 @@ aShadowRoot
 }
 for
 (
+const
 auto
 &
 adopted
@@ -5788,7 +5789,7 @@ ClearNonInheritingComputedStyles
 ;
 Servo_StyleSet_RebuildCachedData
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -5880,7 +5881,7 @@ CompatibilityModeChanged
 {
 Servo_StyleSet_CompatModeChanged
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -6184,7 +6185,7 @@ GetUndisplayedRestyleGeneration
 (
 )
 canUseCache
-mRawSet
+mRawData
 .
 get
 (
@@ -6216,7 +6217,7 @@ UpdateStylistIfNeeded
 ;
 Servo_StyleSet_GetFontFaceRules
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -6250,7 +6251,7 @@ StylistNeedsUpdate
 return
 Servo_StyleSet_GetCounterStyleRule
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -6286,7 +6287,7 @@ set
 =
 Servo_StyleSet_BuildFontFeatureValueSet
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -6334,7 +6335,7 @@ set
 =
 Servo_StyleSet_BuildFontPaletteValueSet
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -6371,7 +6372,7 @@ aDeclarations
 return
 Servo_StyleSet_ResolveForDeclarations
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -6467,7 +6468,7 @@ Snapshots
 }
 Servo_StyleSet_FlushStyleSheets
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -6519,7 +6520,7 @@ GetServoStyles
 Servo_AuthorStyles_Flush
 (
 authorStyles
-mRawSet
+mRawData
 .
 get
 (
@@ -6532,7 +6533,7 @@ get
 ;
 Servo_StyleSet_RemoveUniqueEntriesFromAuthorStylesCache
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -6565,7 +6566,7 @@ NS_IsMainThread
 ;
 Servo_MaybeGCRuleTree
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -6861,7 +6862,7 @@ const
 return
 Servo_StyleSet_MightHaveAttributeDependency
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -6894,7 +6895,7 @@ const
 return
 Servo_StyleSet_MightHaveNthOfIDDependency
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -6921,7 +6922,7 @@ aElement
 return
 Servo_StyleSet_MightHaveNthOfClassDependency
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -6954,7 +6955,7 @@ const
 return
 Servo_StyleSet_MightHaveNthOfAttributeDependency
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -6986,7 +6987,7 @@ const
 return
 Servo_StyleSet_HasStateDependency
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -7022,7 +7023,7 @@ const
 return
 Servo_StyleSet_HasNthOfStateDependency
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -7054,7 +7055,7 @@ const
 return
 Servo_StyleSet_HasDocumentStateDependency
 (
-mRawSet
+mRawData
 .
 get
 (
@@ -7101,7 +7102,7 @@ aNewParent
 aNewParentIgnoringFirstLine
 aNewLayoutParent
 aElement
-mRawSet
+mRawData
 .
 get
 (
@@ -7148,7 +7149,7 @@ return
 }
 Servo_InvalidateForViewportUnits
 (
-mRawSet
+mRawData
 .
 get
 (

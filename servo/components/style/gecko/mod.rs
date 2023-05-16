@@ -11,10 +11,6 @@ arc_types
 ;
 pub
 mod
-boxed_types
-;
-pub
-mod
 conversions
 ;
 pub

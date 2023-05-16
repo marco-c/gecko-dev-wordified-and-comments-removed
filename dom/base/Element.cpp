@@ -17941,7 +17941,7 @@ aSelector
 )
 ;
 const
-RawServoSelectorList
+StyleSelectorList
 *
 list
 =
@@ -18004,7 +18004,7 @@ aSelector
 )
 ;
 const
-RawServoSelectorList
+StyleSelectorList
 *
 list
 =

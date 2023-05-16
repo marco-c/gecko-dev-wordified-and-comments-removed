@@ -300,7 +300,7 @@ mSelectedCandidateURL
 ;
 UniquePtr
 <
-RawServoSourceSizeList
+StyleSourceSizeList
 >
 mServoSourceSizeList
 ;

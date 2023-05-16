@@ -3652,16 +3652,13 @@ rendered
 }
 UniquePtr
 <
-RawServoAnimationValueMap
+StyleAnimationValueMap
 >
 animationValues
-=
+(
 Servo_AnimationValueMap_Create
 (
 )
-.
-Consume
-(
 )
 ;
 if
@@ -5782,7 +5779,7 @@ Animation
 :
 ComposeStyle
 (
-RawServoAnimationValueMap
+StyleAnimationValueMap
 &
 aComposeResult
 const

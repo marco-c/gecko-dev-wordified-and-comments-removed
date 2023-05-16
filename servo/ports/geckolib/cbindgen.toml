@@ -504,6 +504,12 @@ NS_LogCtor
 "
 NS_LogDtor
 "
+"
+SelectorList
+"
+"
+AuthorStyles
+"
 ]
 include
 =
@@ -1262,13 +1268,6 @@ AnimationPropertySegment
 =
 "
 AnimationPropertySegment
-"
-"
-RawServoAnimationValueMap
-"
-=
-"
-RawServoAnimationValueMap
 "
 "
 RawServoAnimationValueTable

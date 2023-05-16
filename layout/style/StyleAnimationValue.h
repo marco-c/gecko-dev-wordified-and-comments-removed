@@ -395,9 +395,9 @@ SerializeSpecifiedValue
 nsCSSPropertyID
 aProperty
 const
-RawServoStyleSet
+StylePerDocumentStyleData
 *
-aRawSet
+aRawData
 nsACString
 &
 aString
