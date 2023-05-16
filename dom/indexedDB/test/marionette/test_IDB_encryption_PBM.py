@@ -769,18 +769,18 @@ privateBrowsingId
         
 )
         
-origin
+storageOrigin
 =
 fullOriginMetadata
 [
 "
-origin
+storageOrigin
 "
 ]
         
-sanitizedOrigin
+sanitizedStorageOrigin
 =
-origin
+storageOrigin
 .
 replace
 (
@@ -820,7 +820,7 @@ storage
 "
 private
 "
-sanitizedOrigin
+sanitizedStorageOrigin
 "
 idb
 "
