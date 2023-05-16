@@ -55,6 +55,7 @@ BeginV3Log
 EndV3Log
 =
 0x2501581
+FakeEvent
 }
 ;
 RtcEvent

@@ -138,7 +138,13 @@ make_unique
 RtcEventLogImpl
 >
 (
+RtcEventLogImpl
+:
+:
+CreateEncoder
+(
 encoding_type
+)
 task_queue_factory_
 )
 ;
