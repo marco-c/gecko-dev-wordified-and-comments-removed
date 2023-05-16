@@ -520,7 +520,6 @@ box_
 TouchAction
 VerticalAlign
 WillChange
-BaselineSource
 }
 ;
 pub
