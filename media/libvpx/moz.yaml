@@ -294,10 +294,6 @@ tools
 patches
 :
 -
-bug1137614
-.
-patch
--
 input_frame_validation
 .
 patch
