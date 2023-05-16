@@ -32494,11 +32494,6 @@ mode
 )
 )
 ;
-UpdateNonClientMargins
-(
-false
-)
-;
 if
 (
 NeedsToTrackWindowOcclusionState
@@ -41432,6 +41427,14 @@ aMode
 )
 ;
 }
+mWindow
+-
+>
+UpdateNonClientMargins
+(
+false
+)
+;
 if
 (
 fullscreenChange
