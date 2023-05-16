@@ -197,6 +197,12 @@ protected
 NS_IMETHOD
 SetNativeClipboardData
 (
+nsITransferable
+*
+aTransferable
+nsIClipboardOwner
+*
+aOwner
 int32_t
 aWhichClipboard
 )

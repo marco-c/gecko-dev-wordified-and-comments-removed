@@ -336,6 +336,12 @@ nsClipboard
 :
 SetNativeClipboardData
 (
+nsITransferable
+*
+aTransferable
+nsIClipboardOwner
+*
+aOwner
 int32_t
 aWhichClipboard
 )
@@ -359,7 +365,7 @@ kFindClipboard
 |
 |
 !
-mTransferable
+aTransferable
 )
 return
 NS_ERROR_FAILURE
@@ -370,7 +376,7 @@ pasteboardOutputDict
 =
 PasteboardDictFromTransferable
 (
-mTransferable
+aTransferable
 )
 ;
 if

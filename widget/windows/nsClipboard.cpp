@@ -2094,6 +2094,12 @@ nsClipboard
 :
 SetNativeClipboardData
 (
+nsITransferable
+*
+aTransferable
+nsIClipboardOwner
+*
+aOwner
 int32_t
 aWhichClipboard
 )
@@ -2129,7 +2135,7 @@ NS_ERROR_FAILURE
 if
 (
 !
-mTransferable
+aTransferable
 )
 {
 return
@@ -2174,7 +2180,7 @@ NS_SUCCEEDED
 (
 CreateNativeDataObject
 (
-mTransferable
+aTransferable
 getter_AddRefs
 (
 dataObj
