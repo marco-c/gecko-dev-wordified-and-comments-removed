@@ -5284,6 +5284,15 @@ experiment_percentage
 100
 }
 )
+ios_try_job
+(
+"
+ios_dbg_simulator
+"
+cq
+=
+None
+)
 ios_builder
 (
 "

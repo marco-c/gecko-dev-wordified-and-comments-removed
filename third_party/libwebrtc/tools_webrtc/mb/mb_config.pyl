@@ -1300,6 +1300,13 @@ ios_compile_arm64_rel_reclient
 ios_release_bot_arm64_reclient
 '
 '
+ios_dbg_simulator
+'
+:
+'
+ios_debug_bot_x64
+'
+'
 ios_sim_x64_dbg_ios12
 '
 :
