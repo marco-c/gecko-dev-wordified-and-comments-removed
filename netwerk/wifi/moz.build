@@ -227,6 +227,14 @@ CONFIG
 MOZ_DBUS_GLIB_CFLAGS
 "
 ]
+TEST_DIRS
++
+=
+[
+"
+gtest
+"
+]
 FINAL_LIBRARY
 =
 "
