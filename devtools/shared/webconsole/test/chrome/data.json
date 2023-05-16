@@ -1,12 +1,16 @@
 {
+"
 id
+"
 :
 "
 test
 JSON
 data
 "
+"
 myArray
+"
 :
 [
 "
@@ -22,7 +26,9 @@ baz
 biff
 "
 ]
+"
 veryLong
+"
 :
 "
 foo
