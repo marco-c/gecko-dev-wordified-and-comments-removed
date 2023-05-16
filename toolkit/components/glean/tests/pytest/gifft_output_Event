@@ -154,7 +154,7 @@ aId
 )
 {
 case
-16
+17
 :
 {
 return
@@ -168,7 +168,7 @@ EventMetric_EnumNames_AreStrange
 ;
 }
 case
-17
+18
 :
 {
 return
