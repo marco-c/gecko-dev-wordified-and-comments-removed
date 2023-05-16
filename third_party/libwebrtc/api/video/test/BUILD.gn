@@ -122,6 +122,11 @@ i210_buffer_unittest
 cc
 "
 "
+i410_buffer_unittest
+.
+cc
+"
+"
 i422_buffer_unittest
 .
 cc

@@ -585,6 +585,16 @@ i210_buffer
 .
 h
 "
+"
+i410_buffer
+.
+cc
+"
+"
+i410_buffer
+.
+h
+"
 ]
 deps
 =
