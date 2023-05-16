@@ -23,6 +23,15 @@ include
 "
 wabt
 /
+feature
+.
+h
+"
+#
+include
+"
+wabt
+/
 ir
 .
 h
@@ -44,6 +53,10 @@ std
 :
 string_view
 module_name
+;
+Features
+*
+features
 ;
 std
 :
