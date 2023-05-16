@@ -5133,6 +5133,12 @@ platform
 "
 win
 "
+|
+|
+!
+AppConstants
+.
+MOZ_TELEMETRY_REPORTING
 )
 {
 return
