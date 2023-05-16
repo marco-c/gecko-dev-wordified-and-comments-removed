@@ -6090,6 +6090,8 @@ stack
 [
 ]
             
+None
+            
 "
 unexpected
 "
