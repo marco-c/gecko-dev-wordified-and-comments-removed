@@ -90,13 +90,13 @@ function
 {
 registerCleanupFunction
 (
+async
 function
 (
 )
 {
-window
-.
-restore
+await
+restoreWindowToNormal
 (
 )
 ;
