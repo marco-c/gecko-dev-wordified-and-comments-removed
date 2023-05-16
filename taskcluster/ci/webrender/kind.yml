@@ -1488,9 +1488,7 @@ win64
 -
 rust
 -
-win64
--
-vs2017
+vs
 -
 wrench
 -
@@ -1559,7 +1557,7 @@ win64
 /
 mozconfig
 .
-vs2017
+vs2019
 '
 -
 '

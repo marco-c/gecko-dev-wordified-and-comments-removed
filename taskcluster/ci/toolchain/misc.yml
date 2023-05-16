@@ -1997,11 +1997,6 @@ vs
 tar
 .
 zst
-toolchain
--
-alias
-:
-vs
 win64
 -
 vs2019
@@ -2080,6 +2075,9 @@ toolchain
 -
 alias
 :
+-
+vs
+-
 vs
 -
 toolchain

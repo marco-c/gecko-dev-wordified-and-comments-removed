@@ -1847,9 +1847,7 @@ wasm32
 -
 wasi
 -
-win64
--
-vs2017
+vs
 fetch
 :
 -
@@ -2018,9 +2016,7 @@ wasm32
 -
 wasi
 -
-win64
--
-vs2017
+vs
 fetch
 :
 -

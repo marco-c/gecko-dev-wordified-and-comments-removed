@@ -7,7 +7,7 @@ win32
 /
 mozconfig
 .
-vs2017
+vs2019
 .
 "
 topsrcdir

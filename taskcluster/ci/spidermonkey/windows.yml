@@ -156,9 +156,7 @@ win64
 -
 mozmake
 -
-win64
--
-vs2017
+vs
 sm
 -
 plain
@@ -248,9 +246,7 @@ win64
 -
 mozmake
 -
-win64
--
-vs2017
+vs
 sm
 -
 plain
@@ -324,9 +320,7 @@ win64
 -
 mozmake
 -
-win64
--
-vs2017
+vs
 sm
 -
 plain
@@ -416,9 +410,7 @@ win64
 -
 mozmake
 -
-win64
--
-vs2017
+vs
 sm
 -
 compacting
@@ -492,9 +484,7 @@ win64
 -
 mozmake
 -
-win64
--
-vs2017
+vs
 sm
 -
 compacting
@@ -579,6 +569,4 @@ win64
 -
 mozmake
 -
-win64
--
-vs2017
+vs
