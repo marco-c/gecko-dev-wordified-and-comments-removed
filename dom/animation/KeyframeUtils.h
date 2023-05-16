@@ -43,7 +43,7 @@ class
 JSObject
 ;
 struct
-RawServoDeclarationBlock
+StyleLockedDeclarationBlock
 ;
 namespace
 mozilla

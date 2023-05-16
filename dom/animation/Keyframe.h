@@ -63,12 +63,12 @@ RefPtr
 .
 h
 "
-struct
-RawServoDeclarationBlock
-;
 namespace
 mozilla
 {
+struct
+StyleLockedDeclarationBlock
+;
 struct
 PropertyValuePair
 {
@@ -91,7 +91,7 @@ nsCSSPropertyID
 aProperty
 RefPtr
 <
-RawServoDeclarationBlock
+StyleLockedDeclarationBlock
 >
 &
 &
@@ -131,7 +131,7 @@ mProperty
 ;
 RefPtr
 <
-RawServoDeclarationBlock
+StyleLockedDeclarationBlock
 >
 mServoDeclarationBlock
 ;

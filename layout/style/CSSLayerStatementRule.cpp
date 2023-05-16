@@ -42,7 +42,7 @@ CSSLayerStatementRule
 (
 RefPtr
 <
-RawServoLayerStatementRule
+StyleLockedLayerStatementRule
 >
 aRawRule
 StyleSheet
@@ -192,7 +192,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-RawServoLayerStatementRule
+StyleLockedLayerStatementRule
 >
 aRaw
 )

@@ -42,7 +42,7 @@ CSSLayerBlockRule
 (
 RefPtr
 <
-RawServoLayerBlockRule
+StyleLockedLayerBlockRule
 >
 aRawRule
 StyleSheet
@@ -203,7 +203,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-RawServoLayerBlockRule
+StyleLockedLayerBlockRule
 >
 aRaw
 )

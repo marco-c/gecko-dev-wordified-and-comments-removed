@@ -492,11 +492,6 @@ RustCell
 h
 "
 "
-ServoArcTypeList
-.
-h
-"
-"
 ServoBindings
 .
 h
@@ -538,6 +533,11 @@ h
 "
 "
 ServoElementSnapshotTable
+.
+h
+"
+"
+ServoLockedArcTypeList
 .
 h
 "

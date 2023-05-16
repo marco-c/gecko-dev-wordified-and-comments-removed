@@ -118,7 +118,7 @@ aLoader
 }
 already_AddRefed
 <
-RawServoDeclarationBlock
+StyleLockedDeclarationBlock
 >
 ServoCSSParser
 :

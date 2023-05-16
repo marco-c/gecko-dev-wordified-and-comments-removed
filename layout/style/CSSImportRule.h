@@ -40,7 +40,7 @@ CSSImportRule
 (
 RefPtr
 <
-RawServoImportRule
+StyleLockedImportRule
 >
 aRawRule
 StyleSheet
@@ -197,7 +197,7 @@ aGivenProto
 override
 ;
 const
-RawServoImportRule
+StyleLockedImportRule
 *
 Raw
 (
@@ -217,7 +217,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-RawServoImportRule
+StyleLockedImportRule
 >
 )
 ;
@@ -230,7 +230,7 @@ CSSImportRule
 ;
 RefPtr
 <
-RawServoImportRule
+StyleLockedImportRule
 >
 mRawRule
 ;

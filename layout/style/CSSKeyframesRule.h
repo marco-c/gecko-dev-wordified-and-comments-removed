@@ -51,7 +51,7 @@ CSSKeyframesRule
 (
 RefPtr
 <
-RawServoKeyframesRule
+StyleLockedKeyframesRule
 >
 aRawRule
 StyleSheet
@@ -120,7 +120,7 @@ const
 final
 ;
 const
-RawServoKeyframesRule
+StyleLockedKeyframesRule
 *
 Raw
 (
@@ -140,7 +140,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-RawServoKeyframesRule
+StyleLockedKeyframesRule
 >
 )
 ;
@@ -290,7 +290,7 @@ CSSKeyframesRule
 ;
 RefPtr
 <
-RawServoKeyframesRule
+StyleLockedKeyframesRule
 >
 mRawRule
 ;

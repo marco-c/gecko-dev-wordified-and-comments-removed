@@ -400,7 +400,7 @@ if
 mRule
 )
 {
-RawServoFontFaceRule
+StyleLockedFontFaceRule
 *
 rule
 =
