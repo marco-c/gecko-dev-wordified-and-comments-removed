@@ -4329,6 +4329,14 @@ level
 1
 )
 {
+MOZ_ASSERT
+(
+level
+=
+=
+0
+)
+;
 return
 nullptr
 ;
