@@ -4146,6 +4146,33 @@ CommandArgument
 (
     
 "
+-
+-
+list
+"
+    
+action
+=
+"
+store_true
+"
+    
+default
+=
+False
+    
+help
+=
+"
+List
+all
+tests
+"
+)
+CommandArgument
+(
+    
+"
 test_name
 "
     
@@ -4193,6 +4220,9 @@ def
 run_jsapitests
 (
 command_context
+list
+=
+False
 test_name
 =
 None
@@ -4226,6 +4256,21 @@ tests
 )
     
 ]
+    
+if
+list
+:
+        
+jsapi_tests_cmd
+.
+append
+(
+"
+-
+-
+list
+"
+)
     
 if
 test_name
