@@ -542,6 +542,11 @@ bool
 >
 mIsVAAPISupported
 ;
+int
+mVAAPISupportedCodecs
+=
+0
+;
 static
 int
 sGLXTestPipe
