@@ -341,16 +341,6 @@ request
 clearOrigin
 (
 principal
-principal
-.
-privateBrowsingId
->
-0
-?
-"
-private
-"
-:
 "
 default
 "

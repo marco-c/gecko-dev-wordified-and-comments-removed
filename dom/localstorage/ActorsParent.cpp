@@ -27581,12 +27581,6 @@ mOriginMetadata
 .
 mPersistenceType
 =
-principalMetadata
-.
-mIsPrivate
-?
-PERSISTENCE_TYPE_PRIVATE
-:
 PERSISTENCE_TYPE_DEFAULT
 ;
 }
@@ -28338,9 +28332,7 @@ quotaManager
 >
 CreateDirectoryLock
 (
-mOriginMetadata
-.
-mPersistenceType
+PERSISTENCE_TYPE_DEFAULT
 mOriginMetadata
 mozilla
 :
