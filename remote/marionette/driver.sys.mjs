@@ -3381,6 +3381,11 @@ lazy
 .
 registerCommandsActor
 (
+this
+.
+currentSession
+.
+id
 )
 ;
 lazy
