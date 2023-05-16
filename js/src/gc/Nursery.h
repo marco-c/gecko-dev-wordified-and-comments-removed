@@ -1444,6 +1444,12 @@ nullptr
 )
 )
 {
+trailersAdded_
+.
+popBack
+(
+)
+;
 return
 false
 ;

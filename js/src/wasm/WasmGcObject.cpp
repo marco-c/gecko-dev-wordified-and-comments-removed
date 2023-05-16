@@ -2614,6 +2614,11 @@ free
 outlineData
 )
 ;
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
@@ -3723,6 +3728,11 @@ mallocedBlockCache
 free
 (
 outlineData
+)
+;
+ReportOutOfMemory
+(
+cx
 )
 ;
 return
