@@ -123,13 +123,16 @@ definition
 Exposed
 =
 *
+]
 /
 /
+[
 Transferable
+]
+-
 See
 Bug
 1562065
-]
 interface
 ReadableStream
 {
