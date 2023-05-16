@@ -102,7 +102,7 @@ this
 DATE_PICKER_HEIGHT
 =
 "
-27em
+25em
 "
 ;
 }
