@@ -86,6 +86,17 @@ JSContext
 .
 h
 "
+#
+include
+"
+gc
+/
+StableCellHasher
+-
+inl
+.
+h
+"
 namespace
 js
 {

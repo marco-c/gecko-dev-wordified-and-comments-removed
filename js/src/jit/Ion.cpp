@@ -503,6 +503,17 @@ h
 #
 include
 "
+gc
+/
+StableCellHasher
+-
+inl
+.
+h
+"
+#
+include
+"
 jit
 /
 InlineScriptTree
