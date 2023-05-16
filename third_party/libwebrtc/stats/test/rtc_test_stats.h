@@ -75,6 +75,16 @@ Timestamp
 timestamp
 )
 ;
+ABSL_DEPRECATED
+(
+"
+Use
+constructor
+with
+Timestamp
+instead
+"
+)
 RTCTestStats
 (
 const
