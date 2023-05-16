@@ -438,7 +438,13 @@ nsIClipboard
 :
 :
 kGlobalClipboard
-true
+EditorBase
+:
+:
+DispatchPasteEvent
+:
+:
+Yes
 )
 ;
 }

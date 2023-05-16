@@ -11836,7 +11836,7 @@ PasteAsAction
 (
 int32_t
 aClipboardType
-bool
+DispatchPasteEvent
 aDispatchPasteEvent
 nsIPrincipal
 *
@@ -11886,6 +11886,12 @@ NS_ERROR_NOT_INITIALIZED
 if
 (
 aDispatchPasteEvent
+=
+=
+DispatchPasteEvent
+:
+:
+Yes
 )
 {
 Result
@@ -14091,7 +14097,7 @@ PasteAsQuotationAsAction
 (
 int32_t
 aClipboardType
-bool
+DispatchPasteEvent
 aDispatchPasteEvent
 nsIPrincipal
 *
@@ -14172,6 +14178,12 @@ NS_ERROR_NOT_INITIALIZED
 if
 (
 aDispatchPasteEvent
+=
+=
+DispatchPasteEvent
+:
+:
+Yes
 )
 {
 Result
