@@ -86,10 +86,7 @@ v_sum_diff_total
 {
 #
 if
-defined
-(
-__aarch64__
-)
+VPX_ARCH_AARCH64
 return
 vaddlvq_s8
 (

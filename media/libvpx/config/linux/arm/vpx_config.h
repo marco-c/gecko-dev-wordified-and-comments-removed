@@ -17,6 +17,10 @@ VPX_ARCH_ARM
 1
 #
 define
+VPX_ARCH_AARCH64
+0
+#
+define
 VPX_ARCH_MIPS
 0
 #

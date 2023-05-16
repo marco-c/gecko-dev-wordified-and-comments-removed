@@ -51,9 +51,9 @@ vpx_highbd_avg_4x4_neon
 const
 uint8_t
 *
-a
+s8
 int
-a_stride
+p
 )
 {
 const
@@ -63,7 +63,7 @@ a_ptr
 =
 CONVERT_TO_SHORTPTR
 (
-a
+s8
 )
 ;
 const
@@ -76,8 +76,8 @@ a_ptr
 +
 0
 *
-a_stride
-a_stride
+p
+p
 )
 ;
 const
@@ -90,8 +90,8 @@ a_ptr
 +
 2
 *
-a_stride
-a_stride
+p
+p
 )
 ;
 return
@@ -123,9 +123,9 @@ vpx_highbd_avg_8x8_neon
 const
 uint8_t
 *
-a
+s8
 int
-a_stride
+p
 )
 {
 const
@@ -135,7 +135,7 @@ a_ptr
 =
 CONVERT_TO_SHORTPTR
 (
-a
+s8
 )
 ;
 uint16x8_t
@@ -152,7 +152,7 @@ a7
 load_u16_8x8
 (
 a_ptr
-a_stride
+p
 &
 a0
 &
@@ -387,15 +387,15 @@ vpx_highbd_minmax_8x8_neon
 const
 uint8_t
 *
-a
+s8
 int
-a_stride
+p
 const
 uint8_t
 *
-b
+d8
 int
-b_stride
+dp
 int
 *
 min
@@ -411,7 +411,7 @@ a_ptr
 =
 CONVERT_TO_SHORTPTR
 (
-a
+s8
 )
 ;
 const
@@ -421,7 +421,7 @@ b_ptr
 =
 CONVERT_TO_SHORTPTR
 (
-b
+d8
 )
 ;
 const
@@ -434,7 +434,7 @@ a_ptr
 +
 0
 *
-a_stride
+p
 )
 ;
 const
@@ -447,7 +447,7 @@ a_ptr
 +
 1
 *
-a_stride
+p
 )
 ;
 const
@@ -460,7 +460,7 @@ a_ptr
 +
 2
 *
-a_stride
+p
 )
 ;
 const
@@ -473,7 +473,7 @@ a_ptr
 +
 3
 *
-a_stride
+p
 )
 ;
 const
@@ -486,7 +486,7 @@ a_ptr
 +
 4
 *
-a_stride
+p
 )
 ;
 const
@@ -499,7 +499,7 @@ a_ptr
 +
 5
 *
-a_stride
+p
 )
 ;
 const
@@ -512,7 +512,7 @@ a_ptr
 +
 6
 *
-a_stride
+p
 )
 ;
 const
@@ -525,7 +525,7 @@ a_ptr
 +
 7
 *
-a_stride
+p
 )
 ;
 const
@@ -538,7 +538,7 @@ b_ptr
 +
 0
 *
-b_stride
+dp
 )
 ;
 const
@@ -551,7 +551,7 @@ b_ptr
 +
 1
 *
-b_stride
+dp
 )
 ;
 const
@@ -564,7 +564,7 @@ b_ptr
 +
 2
 *
-b_stride
+dp
 )
 ;
 const
@@ -577,7 +577,7 @@ b_ptr
 +
 3
 *
-b_stride
+dp
 )
 ;
 const
@@ -590,7 +590,7 @@ b_ptr
 +
 4
 *
-b_stride
+dp
 )
 ;
 const
@@ -603,7 +603,7 @@ b_ptr
 +
 5
 *
-b_stride
+dp
 )
 ;
 const
@@ -616,7 +616,7 @@ b_ptr
 +
 6
 *
-b_stride
+dp
 )
 ;
 const
@@ -629,7 +629,7 @@ b_ptr
 +
 7
 *
-b_stride
+dp
 )
 ;
 const
@@ -854,10 +854,7 @@ min4567
 ;
 #
 if
-defined
-(
-__aarch64__
-)
+VPX_ARCH_AARCH64
 *
 min
 =

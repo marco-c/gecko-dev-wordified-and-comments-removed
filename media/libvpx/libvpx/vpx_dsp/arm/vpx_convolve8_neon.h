@@ -31,10 +31,7 @@ h
 "
 #
 if
-defined
-(
-__aarch64__
-)
+VPX_ARCH_AARCH64
 &
 &
 defined
@@ -457,10 +454,7 @@ sum
 endif
 #
 if
-defined
-(
-__aarch64__
-)
+VPX_ARCH_AARCH64
 &
 &
 defined

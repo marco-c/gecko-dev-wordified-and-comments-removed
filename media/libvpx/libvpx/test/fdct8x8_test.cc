@@ -1234,7 +1234,7 @@ max_diff
 =
 kSignBiasMaxDiff255
 ;
-EXPECT_LT
+ASSERT_LT
 (
 diff
 max_diff
@@ -1528,7 +1528,7 @@ max_diff
 =
 kSignBiasMaxDiff15
 ;
-EXPECT_LT
+ASSERT_LT
 (
 diff
 max_diff
@@ -2074,7 +2074,7 @@ error
 ;
 }
 }
-EXPECT_GE
+ASSERT_GE
 (
 1
 <
@@ -2114,7 +2114,7 @@ error
 1
 "
 ;
-EXPECT_GE
+ASSERT_GE
 (
 (
 count_test_block
@@ -2695,7 +2695,7 @@ coeff_diff
 )
 ;
 }
-EXPECT_GE
+ASSERT_GE
 (
 1
 <
@@ -2736,7 +2736,7 @@ error
 1
 "
 ;
-EXPECT_GE
+ASSERT_GE
 (
 (
 count_test_block
@@ -2784,7 +2784,7 @@ per
 block
 "
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0
 total_coeff_error
@@ -3211,7 +3211,7 @@ diff
 *
 diff
 ;
-EXPECT_GE
+ASSERT_GE
 (
 1u
 <
@@ -3450,7 +3450,7 @@ diff
 *
 diff
 ;
-EXPECT_GE
+ASSERT_GE
 (
 9u
 <
@@ -3844,7 +3844,7 @@ diff
 *
 diff
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0u
 error

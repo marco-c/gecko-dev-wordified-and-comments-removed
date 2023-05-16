@@ -4943,9 +4943,11 @@ sha1
 \
 (
 cd
+"
 (
 LIBVPX_TEST_DATA_PATH
 )
+"
 ;
 {
 sha1sum
@@ -5767,8 +5769,10 @@ endif
 RC_INTERFACE_TEST
 endif
 #
-CONFIG_VP9_ENCODER
+CONFIG_ENCODERS
 endif
+#
+CONFIG_MSVS
 else
 include
 (
@@ -6323,7 +6327,7 @@ endif
 SIMPLE_ENCODE_TEST
 endif
 #
-CONFIG_UNIT_TESTS
+CONFIG_EXTERNAL_BUILD
 #
 Install
 test
@@ -6522,6 +6526,8 @@ NUM_SHARDS
 )
 )
 endif
+#
+CONFIG_UNIT_TESTS
 #
 #
 #
@@ -6802,9 +6808,11 @@ test
 data
 -
 path
+"
 (
 LIBVPX_TEST_DATA_PATH
 )
+"
 \
 -
 -
@@ -6834,9 +6842,11 @@ test
 data
 -
 path
+"
 (
 LIBVPX_TEST_DATA_PATH
 )
+"
 \
 -
 -
@@ -7021,9 +7031,11 @@ test
 data
 -
 path
+"
 (
 LIBVPX_TEST_DATA_PATH
 )
+"
 \
 -
 -

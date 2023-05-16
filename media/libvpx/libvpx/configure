@@ -2056,6 +2056,7 @@ ARCH_LIST
 =
 "
 arm
+aarch64
 mips
 x86
 x86_64

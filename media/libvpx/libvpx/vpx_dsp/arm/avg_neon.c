@@ -1434,10 +1434,7 @@ ab4567_min
 ;
 #
 if
-defined
-(
-__aarch64__
-)
+VPX_ARCH_AARCH64
 *
 min
 =

@@ -67,7 +67,7 @@ struct
 macroblock
 ;
 struct
-vp9_variance_vtable
+vp9_sad_table
 ;
 struct
 search_site_config
@@ -182,6 +182,8 @@ struct
 mv
 *
 ref_mv
+uint32_t
+start_mv_sad
 struct
 mv
 *
@@ -195,9 +197,9 @@ int
 num00
 const
 struct
-vp9_variance_vtable
+vp9_sad_table
 *
-fn_ptr
+sad_fn_ptr
 const
 struct
 mv
@@ -222,6 +224,8 @@ struct
 mv
 *
 ref_mv
+uint32_t
+start_mv_sad
 struct
 mv
 *
@@ -235,9 +239,9 @@ int
 num00
 const
 struct
-vp9_variance_vtable
+vp9_sad_table
 *
-fn_ptr
+sad_fn_ptr
 const
 struct
 mv

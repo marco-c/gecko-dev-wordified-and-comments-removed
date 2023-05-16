@@ -612,10 +612,6 @@ col
 0
 )
 {
-unsigned
-int
-tmp_err
-;
 MV
 zero_ref_mv
 =
@@ -623,7 +619,6 @@ zero_ref_mv
 0
 0
 }
-tmp_mv
 ;
 tmp_err
 =
@@ -1895,7 +1890,11 @@ arf_not_zz
 ;
 CHECK_MEM_ERROR
 (
+&
 cm
+-
+>
+error
 arf_not_zz
 vpx_calloc
 (

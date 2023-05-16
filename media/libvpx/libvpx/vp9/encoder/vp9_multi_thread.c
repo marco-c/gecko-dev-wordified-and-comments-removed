@@ -258,7 +258,11 @@ i
 ;
 CHECK_MEM_ERROR
 (
+&
 cm
+-
+>
+error
 this_tile
 -
 >
@@ -432,7 +436,11 @@ jobs_per_tile_col
 ;
 CHECK_MEM_ERROR
 (
+&
 cm
+-
+>
+error
 multi_thread_ctxt
 -
 >

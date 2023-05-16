@@ -6680,7 +6680,7 @@ use_y4m
 )
 {
 char
-buf
+y4m_buf
 [
 Y4M_BUFFER_SIZE
 ]
@@ -6747,10 +6747,10 @@ len
 =
 y4m_write_file_header
 (
-buf
+y4m_buf
 sizeof
 (
-buf
+y4m_buf
 )
 vpx_input_ctx
 .
@@ -6785,7 +6785,7 @@ md5_ctx
 md5byte
 *
 )
-buf
+y4m_buf
 (
 unsigned
 int
@@ -6798,7 +6798,7 @@ else
 {
 fputs
 (
-buf
+y4m_buf
 outfile
 )
 ;
@@ -6808,10 +6808,10 @@ len
 =
 y4m_write_frame_header
 (
-buf
+y4m_buf
 sizeof
 (
-buf
+y4m_buf
 )
 )
 ;
@@ -6828,7 +6828,7 @@ md5_ctx
 md5byte
 *
 )
-buf
+y4m_buf
 (
 unsigned
 int
@@ -6841,7 +6841,7 @@ else
 {
 fputs
 (
-buf
+y4m_buf
 outfile
 )
 ;

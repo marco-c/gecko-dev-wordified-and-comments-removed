@@ -183,8 +183,9 @@ eob0
 eob1
 ;
 #
-ifndef
-__aarch64__
+if
+!
+VPX_ARCH_AARCH64
 uint16x4_t
 eob_d16
 ;
@@ -347,8 +348,8 @@ eob1
 )
 ;
 #
-ifdef
-__aarch64__
+if
+VPX_ARCH_AARCH64
 *
 d
 -

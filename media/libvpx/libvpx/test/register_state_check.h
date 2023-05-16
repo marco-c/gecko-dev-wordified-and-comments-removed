@@ -754,7 +754,7 @@ libvpx_test
 :
 :
 RegisterStateCheckMMX
-reg_check
+reg_check_mmx
 ;
 \
 ASM_REGISTER_STATE_CHECK

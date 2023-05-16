@@ -269,8 +269,8 @@ v_eobmax
 )
 {
 #
-ifdef
-__aarch64__
+if
+VPX_ARCH_AARCH64
 return
 (
 uint16_t
@@ -433,8 +433,8 @@ v_dequant
 )
 {
 #
-ifdef
-__aarch64__
+if
+VPX_ARCH_AARCH64
 *
 v_round
 =

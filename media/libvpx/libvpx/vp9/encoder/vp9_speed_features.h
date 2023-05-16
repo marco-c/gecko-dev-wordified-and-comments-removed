@@ -663,6 +663,9 @@ adapt_subpel_force_stop
 int
 fullpel_search_step_param
 ;
+int
+use_downsampled_sad
+;
 }
 MV_SPEED_FEATURES
 ;
@@ -765,8 +768,8 @@ optimize_coefficients
 int
 static_segmentation
 ;
-BLOCK_SIZE
-comp_inter_joint_search_thresh
+int
+comp_inter_joint_search_iter_level
 ;
 int
 adaptive_rd_thresh

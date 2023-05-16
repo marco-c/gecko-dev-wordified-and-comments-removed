@@ -125,6 +125,12 @@ GetQP
 )
 const
 ;
+int
+GetLoopfilterLevel
+(
+)
+const
+;
 void
 ComputeQP
 (

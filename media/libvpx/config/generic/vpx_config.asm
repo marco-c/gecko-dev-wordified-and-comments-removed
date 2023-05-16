@@ -23,6 +23,10 @@ VPX_ARCH_ARM
 0
 .
 equ
+VPX_ARCH_AARCH64
+0
+.
+equ
 VPX_ARCH_MIPS
 0
 .

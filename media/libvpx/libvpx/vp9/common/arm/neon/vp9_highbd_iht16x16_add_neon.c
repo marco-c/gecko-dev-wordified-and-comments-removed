@@ -635,7 +635,7 @@ do
 {
 \
 int64x2x2_t
-t
+_t
 [
 2
 ]
@@ -646,7 +646,7 @@ vmull_lane_s32_dual
 in
 c
 lane
-t
+_t
 )
 ;
 \
@@ -654,7 +654,7 @@ out
 =
 highbd_dct_const_round_shift_low_8
 (
-t
+_t
 )
 ;
 \

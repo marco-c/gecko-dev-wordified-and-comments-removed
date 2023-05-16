@@ -803,8 +803,8 @@ n_coeffs
 ;
 }
 #
-ifdef
-__aarch64__
+if
+VPX_ARCH_AARCH64
 *
 eob_ptr
 =
@@ -1454,8 +1454,8 @@ dqcoeff_ptr
 }
 }
 #
-ifdef
-__aarch64__
+if
+VPX_ARCH_AARCH64
 *
 eob_ptr
 =

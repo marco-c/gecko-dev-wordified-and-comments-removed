@@ -42,6 +42,10 @@ float
 )
 M_LOG2_E
 )
+#
+define
+TPL_DEP_COST_SCALE_LOG2
+4
 typedef
 struct
 GF_PICTURE

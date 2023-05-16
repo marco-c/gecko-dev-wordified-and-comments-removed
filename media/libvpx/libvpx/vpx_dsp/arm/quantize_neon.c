@@ -619,8 +619,8 @@ n_coeffs
 ;
 }
 #
-ifdef
-__aarch64__
+if
+VPX_ARCH_AARCH64
 *
 eob_ptr
 =
@@ -995,7 +995,6 @@ const
 struct
 macroblock_plane
 *
-const
 mb_plane
 tran_low_t
 *
@@ -1014,7 +1013,6 @@ const
 struct
 ScanOrder
 *
-const
 scan_order
 )
 {
@@ -1322,8 +1320,8 @@ dqcoeff_ptr
 }
 }
 #
-ifdef
-__aarch64__
+if
+VPX_ARCH_AARCH64
 *
 eob_ptr
 =

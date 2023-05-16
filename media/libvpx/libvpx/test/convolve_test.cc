@@ -1516,8 +1516,6 @@ intermediate_next_stride
 }
 }
 {
-uint16_t
-*
 src_ptr
 =
 intermediate_buffer

@@ -4079,7 +4079,7 @@ struct
 macroblock_plane
 *
 const
-p
+p_uv
 =
 &
 x
@@ -4094,7 +4094,7 @@ struct
 macroblockd_plane
 *
 const
-pd
+pd_uv
 =
 &
 xd
@@ -4118,7 +4118,7 @@ mi
 [
 0
 ]
-pd
+pd_uv
 )
 ;
 const
@@ -4137,7 +4137,7 @@ uv_bsize
 get_plane_block_size
 (
 bsize
-pd
+pd_uv
 )
 ;
 const
@@ -4184,7 +4184,7 @@ const
 uint32_t
 uv_dc_thr
 =
-pd
+pd_uv
 -
 >
 dequant
@@ -4192,7 +4192,7 @@ dequant
 0
 ]
 *
-pd
+pd_uv
 -
 >
 dequant
@@ -4211,7 +4211,7 @@ const
 uint32_t
 uv_ac_thr
 =
-pd
+pd_uv
 -
 >
 dequant
@@ -4219,7 +4219,7 @@ dequant
 1
 ]
 *
-pd
+pd_uv
 -
 >
 dequant
@@ -4274,25 +4274,25 @@ uv_bsize
 .
 vf
 (
-p
+p_uv
 -
 >
 src
 .
 buf
-p
+p_uv
 -
 >
 src
 .
 stride
-pd
+pd_uv
 -
 >
 dst
 .
 buf
-pd
+pd_uv
 -
 >
 dst
@@ -14202,7 +14202,7 @@ struct
 scale_factors
 *
 const
-sf
+ref_sf
 =
 &
 cm
@@ -14221,7 +14221,7 @@ if
 (
 vp9_is_scaled
 (
-sf
+ref_sf
 )
 )
 {
@@ -14254,7 +14254,7 @@ struct
 scale_factors
 *
 const
-sf
+ref_sf
 =
 &
 cm
@@ -14273,7 +14273,7 @@ if
 (
 vp9_is_scaled
 (
-sf
+ref_sf
 )
 )
 {
@@ -20102,7 +20102,7 @@ struct
 scale_factors
 *
 const
-sf
+ref_sf
 =
 &
 cm
@@ -20127,8 +20127,8 @@ ref_frame
 yv12
 mi_row
 mi_col
-sf
-sf
+ref_sf
+ref_sf
 )
 ;
 vp9_find_mv_refs

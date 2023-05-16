@@ -298,6 +298,9 @@ vp9_variance_vtable
 vpx_sad_fn_t
 sdf
 ;
+vpx_sad_fn_t
+sdsf
+;
 vpx_sad_avg_fn_t
 sdaf
 ;
@@ -312,6 +315,9 @@ svaf
 ;
 vpx_sad_multi_d_fn_t
 sdx4df
+;
+vpx_sad_multi_d_fn_t
+sdsx4df
 ;
 }
 vp9_variance_fn_ptr_t

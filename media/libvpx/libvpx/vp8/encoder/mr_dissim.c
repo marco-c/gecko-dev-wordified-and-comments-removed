@@ -328,9 +328,6 @@ cpi
 >
 common
 ;
-int
-i
-;
 if
 (
 cpi
@@ -398,6 +395,9 @@ frame_type
 KEY_FRAME
 )
 {
+int
+i
+;
 store_info
 -
 >
