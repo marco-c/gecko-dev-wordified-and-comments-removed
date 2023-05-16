@@ -1450,6 +1450,17 @@ file
                 
 continue
             
+file
+=
+os
+.
+path
+.
+abspath
+(
+file
+)
+            
 results
 .
 append
