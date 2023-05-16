@@ -380,15 +380,6 @@ packet
 )
 ;
 void
-CreateProbeCluster
-(
-DataRate
-bitrate
-int
-cluster_id
-)
-;
-void
 CreateProbeClusters
 (
 rtc
