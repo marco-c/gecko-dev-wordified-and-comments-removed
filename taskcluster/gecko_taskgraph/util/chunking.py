@@ -1715,6 +1715,7 @@ manifest
             
 return
 {
+                
 "
 active
 "
@@ -1723,12 +1724,27 @@ list
 (
 manifests
 )
+                
 "
 skipped
 "
 :
 [
 ]
+                
+"
+other_dirs
+"
+:
+dict
+.
+fromkeys
+(
+manifests
+"
+"
+)
+            
 }
         
 manifests
