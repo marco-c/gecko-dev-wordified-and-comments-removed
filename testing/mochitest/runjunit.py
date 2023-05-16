@@ -3595,7 +3595,7 @@ max_time
 default
 =
 "
-2400
+3000
 "
             
 help
@@ -3611,7 +3611,7 @@ for
 tests
 (
 default
-2400s
+3000s
 )
 .
 "
