@@ -11583,15 +11583,12 @@ files
             
 )
             
-self
-.
-assertTrue
-(
+if
 sources
 .
 have_unified_mapping
-)
-            
+:
+                
 for
 f
 in
@@ -11606,23 +11603,23 @@ keys
 (
 )
 :
-                
+                    
 self
 .
 assertIn
 (
-                    
+                        
 mozpath
 .
 join
 (
-                        
+                            
 reader
 .
 config
 .
 topobjdir
-                        
+                            
 "
 %
 s
@@ -11630,9 +11627,10 @@ s
 %
 s
 "
-                        
+                            
 %
 (
+                                
 mozpath
 .
 splitext
@@ -11642,6 +11640,7 @@ f
 [
 0
 ]
+                                
 reader
 .
 config
@@ -11652,14 +11651,15 @@ substs
 OBJ_SUFFIX
 "
 ]
+                            
 )
-                    
+                        
 )
-                    
+                        
 linkable
 .
 objs
-                
+                    
 )
     
 def
