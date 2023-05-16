@@ -2903,7 +2903,7 @@ aComputedStyle
 }
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 baseValue
 =
@@ -6387,7 +6387,9 @@ rawData
 }
 else
 {
-RawServoAnimationValue
+if
+(
+auto
 *
 value
 =
@@ -6399,10 +6401,6 @@ propertyValue
 .
 mProperty
 )
-;
-if
-(
-value
 )
 {
 Servo_AnimationValue_Serialize

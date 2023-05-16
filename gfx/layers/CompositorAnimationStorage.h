@@ -686,7 +686,7 @@ AutoTArray
 <
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 1
 >

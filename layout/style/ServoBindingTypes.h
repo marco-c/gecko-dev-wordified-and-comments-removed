@@ -131,6 +131,9 @@ struct
 StyleCssUrlData
 ;
 struct
+StyleAnimationValue
+;
+struct
 StyleStylesheetContents
 ;
 struct
@@ -290,6 +293,14 @@ ServoArcTypeList
 .
 h
 "
+SERVO_ARC_TYPE
+(
+AnimationValue
+mozilla
+:
+:
+StyleAnimationValue
+)
 SERVO_ARC_TYPE
 (
 ComputedStyle

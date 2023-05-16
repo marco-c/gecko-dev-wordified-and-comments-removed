@@ -1464,7 +1464,7 @@ BaseValuesHashmap
 nsRefPtrHashtable
 <
 nsUint32HashKey
-RawServoAnimationValue
+StyleAnimationValue
 >
 ;
 BaseValuesHashmap

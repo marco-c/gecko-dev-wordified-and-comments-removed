@@ -3820,7 +3820,7 @@ properties
 {
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 computedValue
 =

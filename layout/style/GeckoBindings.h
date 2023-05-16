@@ -1544,7 +1544,10 @@ aIndex
 )
 ;
 const
-RawServoAnimationValue
+mozilla
+:
+:
+StyleAnimationValue
 *
 Gecko_ElementTransitions_EndValueAt
 (
@@ -1589,7 +1592,10 @@ aBeforeFlag
 )
 ;
 const
-RawServoAnimationValue
+mozilla
+:
+:
+StyleAnimationValue
 *
 Gecko_AnimationGetBaseStyle
 (

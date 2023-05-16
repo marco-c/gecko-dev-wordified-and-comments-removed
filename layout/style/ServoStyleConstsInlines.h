@@ -103,7 +103,7 @@ template
 struct
 StyleStrong
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 ;
 template

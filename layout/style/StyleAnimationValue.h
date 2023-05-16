@@ -166,7 +166,7 @@ AnimationValue
 const
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 &
 aValue
@@ -449,7 +449,7 @@ aElement
 static
 already_AddRefed
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 FromAnimatable
 (
@@ -466,7 +466,7 @@ aAnimatable
 ;
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 mServo
 ;

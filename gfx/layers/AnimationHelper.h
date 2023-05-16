@@ -303,7 +303,7 @@ nsTArray
 <
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 >
 &
@@ -342,7 +342,7 @@ nsTArray
 <
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 >
 &

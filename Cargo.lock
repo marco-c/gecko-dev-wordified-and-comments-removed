@@ -11542,6 +11542,11 @@ style
 style_traits
 "
 "
+thin
+-
+vec
+"
+"
 to_shmem
 "
 ]

@@ -16930,7 +16930,7 @@ NS_ERROR_FAILURE
 }
 RefPtr
 <
-RawServoAnimationValue
+StyleAnimationValue
 >
 value
 =

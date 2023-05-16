@@ -76,6 +76,10 @@ style_traits
 ;
 extern
 crate
+thin_vec
+;
+extern
+crate
 to_shmem
 ;
 mod

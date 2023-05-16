@@ -3723,7 +3723,7 @@ eCSSProperty_UNKNOWN
 ;
 }
 const
-RawServoAnimationValue
+StyleAnimationValue
 *
 Gecko_ElementTransitions_EndValueAt
 (
@@ -3865,7 +3865,7 @@ aBeforeFlag
 ;
 }
 const
-RawServoAnimationValue
+StyleAnimationValue
 *
 Gecko_AnimationGetBaseStyle
 (
@@ -3886,7 +3886,7 @@ const
 nsRefPtrHashtable
 <
 nsUint32HashKey
-RawServoAnimationValue
+StyleAnimationValue
 >
 *
 >
