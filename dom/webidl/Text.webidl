@@ -180,9 +180,6 @@ long
 offset
 )
 ;
-[
-Throws
-]
 readonly
 attribute
 DOMString

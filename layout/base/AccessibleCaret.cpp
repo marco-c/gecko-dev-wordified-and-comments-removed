@@ -1236,9 +1236,6 @@ RemoveAnonymousContent
 (
 *
 mCaretElementHolder
-IgnoreErrors
-(
-)
 )
 ;
 }

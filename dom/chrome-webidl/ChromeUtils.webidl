@@ -2543,7 +2543,6 @@ Affects
 =
 Nothing
 NewObject
-Throws
 ]
 MozQueryInterface
 generateQI

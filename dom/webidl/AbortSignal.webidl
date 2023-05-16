@@ -127,7 +127,6 @@ EventTarget
 {
 [
 NewObject
-Throws
 ]
 static
 AbortSignal

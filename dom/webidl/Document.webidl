@@ -3744,7 +3744,6 @@ instance
 /
 [
 ChromeOnly
-Throws
 ]
 undefined
 removeAnonymousContent

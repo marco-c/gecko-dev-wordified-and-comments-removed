@@ -212,9 +212,6 @@ partial
 interface
 Attr
 {
-[
-GetterThrows
-]
 readonly
 attribute
 Element

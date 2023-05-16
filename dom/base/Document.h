@@ -4193,9 +4193,6 @@ RemoveAnonymousContent
 AnonymousContent
 &
 aContent
-ErrorResult
-&
-aError
 )
 ;
 Element
