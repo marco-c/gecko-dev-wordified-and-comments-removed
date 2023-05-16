@@ -751,6 +751,24 @@ extra_summary_methods
 args
 .
 extra_summary_methods
+            
+benchmark_repository
+=
+args
+.
+benchmark_repository
+            
+benchmark_revision
+=
+args
+.
+benchmark_revision
+            
+benchmark_branch
+=
+args
+.
+benchmark_branch
         
 )
     

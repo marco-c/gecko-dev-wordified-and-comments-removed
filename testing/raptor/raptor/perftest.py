@@ -424,6 +424,18 @@ extra_summary_methods
 [
 ]
         
+benchmark_repository
+=
+None
+        
+benchmark_revision
+=
+None
+        
+benchmark_branch
+=
+None
+        
 *
 *
 kwargs
@@ -692,6 +704,24 @@ extra_summary_methods
 "
 :
 extra_summary_methods
+            
+"
+benchmark_repository
+"
+:
+benchmark_repository
+            
+"
+benchmark_revision
+"
+:
+benchmark_revision
+            
+"
+benchmark_branch
+"
+:
+benchmark_branch
         
 }
         
