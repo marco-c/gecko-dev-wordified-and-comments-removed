@@ -14429,7 +14429,7 @@ numDynamicSlots
 )
 =
 =
-3
+6
 )
 ;
 static_assert

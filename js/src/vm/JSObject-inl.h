@@ -211,6 +211,12 @@ MOZ_ASSERT_IF
 hasDynamicSlots
 (
 )
+&
+&
+!
+hasUniqueId
+(
+)
 slots
 !
 =
