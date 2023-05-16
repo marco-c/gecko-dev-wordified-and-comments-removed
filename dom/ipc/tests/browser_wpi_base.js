@@ -843,11 +843,12 @@ init
 "
 )
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 new
 LoginInfo
