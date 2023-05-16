@@ -368,7 +368,7 @@ seq_num
 =
 seq_num_unwrapper_
 .
-UnwrapWithoutUpdate
+PeekUnwrap
 (
 packet
 .
