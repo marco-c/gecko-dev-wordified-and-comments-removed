@@ -1303,7 +1303,6 @@ last_modified_ms
 ContentType
 type
 =
-u
 "
 txt
 "

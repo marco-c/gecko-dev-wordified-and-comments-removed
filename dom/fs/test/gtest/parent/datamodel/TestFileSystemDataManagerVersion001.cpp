@@ -588,6 +588,8 @@ test
 :
 QuotaManagerDependencyFixture
 {
+public
+:
 void
 SetUp
 (
@@ -626,7 +628,22 @@ ShutdownFixture
 )
 ;
 }
+static
+ContentType
+sContentType
+;
 }
+;
+ContentType
+TestFileSystemDatabaseManagerVersion001
+:
+:
+sContentType
+=
+"
+psid
+"
+_ns
 ;
 TEST_F
 (
@@ -1289,6 +1306,7 @@ dm
 GetOrCreateFile
 (
 firstChildMeta
+sContentType
 false
 )
 )
@@ -1309,6 +1327,7 @@ dm
 GetOrCreateFile
 (
 firstChildMeta
+sContentType
 true
 )
 )
@@ -1323,6 +1342,7 @@ dm
 GetOrCreateFile
 (
 firstChildMeta
+sContentType
 true
 )
 )
@@ -1426,7 +1446,7 @@ entryId
 )
 )
 ;
-nsString
+ContentType
 type
 ;
 TimeStamp
@@ -1465,13 +1485,10 @@ NS_OK
 rv
 )
 ;
-ASSERT_TRUE
+ASSERT_STREQ
 (
+sContentType
 type
-.
-IsEmpty
-(
-)
 )
 ;
 const
@@ -1605,6 +1622,7 @@ dm
 GetOrCreateFile
 (
 notAChildMeta
+sContentType
 true
 )
 )
@@ -1750,6 +1768,7 @@ dm
 GetOrCreateFile
 (
 thirdChildMeta
+sContentType
 true
 )
 )
@@ -1857,6 +1876,7 @@ dm
 GetOrCreateFile
 (
 thirdChildMeta
+sContentType
 true
 )
 )
@@ -2695,6 +2715,7 @@ dm
 GetOrCreateFile
 (
 testFileMeta
+sContentType
 true
 )
 )
@@ -3142,6 +3163,7 @@ dm
 GetOrCreateFile
 (
 testFileMeta
+sContentType
 true
 )
 )
@@ -3382,6 +3404,7 @@ dm
 GetOrCreateFile
 (
 testFileMeta
+sContentType
 false
 )
 )
@@ -3501,6 +3524,7 @@ dm
 GetOrCreateFile
 (
 oldLocation
+sContentType
 false
 )
 )
@@ -3684,6 +3708,7 @@ dm
 GetOrCreateFile
 (
 oldLocation
+sContentType
 false
 )
 )
@@ -3843,6 +3868,7 @@ dm
 GetOrCreateFile
 (
 oldLocation
+sContentType
 true
 )
 )
@@ -3879,6 +3905,7 @@ dm
 GetOrCreateFile
 (
 newFileMeta
+sContentType
 true
 )
 )
@@ -4025,6 +4052,7 @@ dm
 GetOrCreateFile
 (
 newFileMeta
+sContentType
 false
 )
 )
@@ -4615,6 +4643,7 @@ childName
 (
 )
 }
+sContentType
 false
 )
 )
@@ -4641,6 +4670,7 @@ childName
 (
 )
 }
+sContentType
 false
 )
 )
@@ -4719,6 +4749,7 @@ childName
 (
 )
 }
+sContentType
 false
 )
 )
@@ -4771,6 +4802,7 @@ childName
 (
 )
 }
+sContentType
 false
 )
 )
