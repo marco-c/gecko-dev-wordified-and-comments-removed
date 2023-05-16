@@ -94,11 +94,6 @@ local_ssrc
 =
 0
 ;
-bool
-transport_cc
-=
-false
-;
 std
 :
 :
