@@ -79,11 +79,6 @@ asciiHost
 readonly
 attribute
 ACString
-fingerprint
-;
-readonly
-attribute
-ACString
 dbKey
 ;
 readonly
@@ -150,9 +145,6 @@ const_OriginAttributesRef
 aOriginAttributes
 in
 nsIX509Cert
-aServerCert
-in
-nsIX509Cert
 aClientCert
 )
 ;
@@ -168,9 +160,6 @@ aHostName
 in
 jsval
 originAttributes
-in
-nsIX509Cert
-aServerCert
 in
 nsIX509Cert
 aClientCert
@@ -189,9 +178,6 @@ aHostName
 in
 const_OriginAttributesRef
 aOriginAttributes
-in
-nsIX509Cert
-aServerCert
 out
 ACString
 aCertDBKey
@@ -209,9 +195,6 @@ aHostName
 in
 jsval
 originAttributes
-in
-nsIX509Cert
-aServerCert
 out
 ACString
 aCertDBKey
