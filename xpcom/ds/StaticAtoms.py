@@ -20064,16 +20064,6 @@ onGloballyAutoplayBlocked
 Atom
 (
 "
-onMozApplicationManifest
-"
-"
-onMozApplicationManifest
-"
-)
-    
-Atom
-(
-"
 onMozDOMFullscreen_Entered
 "
 "
