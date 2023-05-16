@@ -115,9 +115,8 @@ endif
 namespace
 mozilla
 {
-static
 bool
-GetLockFileName
+GetMultiInstanceLockFileName
 (
 const
 char
@@ -504,7 +503,7 @@ filePath
 if
 (
 !
-GetLockFileName
+GetMultiInstanceLockFileName
 (
 nameToken
 installPath
