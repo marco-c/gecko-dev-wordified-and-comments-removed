@@ -4333,6 +4333,11 @@ BSize
 wm
 )
 =
+nsPresContext
+:
+:
+RoundUpAppUnitsToCSSPixel
+(
 kidFrame
 -
 >
@@ -4356,6 +4361,7 @@ wm
 BStartEnd
 (
 wm
+)
 )
 ;
 aDesiredSize

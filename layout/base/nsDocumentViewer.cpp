@@ -10519,6 +10519,11 @@ get
 }
 prefISize
 =
+nsPresContext
+:
+:
+RoundUpAppUnitsToCSSPixel
+(
 std
 :
 :
@@ -10532,6 +10537,7 @@ min
 (
 prefISize
 maxISize
+)
 )
 )
 ;
