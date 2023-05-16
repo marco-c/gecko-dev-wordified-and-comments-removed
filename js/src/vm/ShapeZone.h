@@ -136,7 +136,7 @@ lookup
 HashNumber
 hash
 =
-MovableCellHasher
+StableCellHasher
 <
 TaggedProto
 >
@@ -476,7 +476,7 @@ lookup
 HashNumber
 hash
 =
-MovableCellHasher
+StableCellHasher
 <
 TaggedProto
 >

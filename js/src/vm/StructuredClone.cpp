@@ -2922,7 +2922,7 @@ GCHashMap
 JSObject
 *
 uint32_t
-MovableCellHasher
+StableCellHasher
 <
 JSObject
 *

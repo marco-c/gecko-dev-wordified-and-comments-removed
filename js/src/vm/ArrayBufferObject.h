@@ -2028,7 +2028,7 @@ JSObject
 *
 >
 ViewVector
-MovableCellHasher
+StableCellHasher
 <
 JSObject
 *

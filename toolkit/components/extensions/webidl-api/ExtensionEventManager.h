@@ -356,7 +356,7 @@ ExtensionEventListener
 js
 :
 :
-MovableCellHasher
+StableCellHasher
 <
 JS
 :

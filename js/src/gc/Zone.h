@@ -1173,7 +1173,7 @@ JSObject
 js
 :
 :
-MovableCellHasher
+StableCellHasher
 <
 js
 :

@@ -57,7 +57,7 @@ JSObject
 using
 HasherType
 =
-MovableCellHasher
+StableCellHasher
 <
 BarrieredType
 >

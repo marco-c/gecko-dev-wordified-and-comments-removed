@@ -427,7 +427,7 @@ typename
 T
 >
 bool
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -481,7 +481,7 @@ typename
 T
 >
 bool
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -535,7 +535,7 @@ typename
 T
 >
 HashNumber
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -598,7 +598,7 @@ typename
 T
 >
 bool
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -771,7 +771,7 @@ MOZ_IS_GCC
 template
 struct
 JS_PUBLIC_API
-MovableCellHasher
+StableCellHasher
 <
 JSObject
 *
@@ -782,7 +782,7 @@ endif
 template
 struct
 JS_PUBLIC_API
-MovableCellHasher
+StableCellHasher
 <
 AbstractGeneratorObject
 *
@@ -791,7 +791,7 @@ AbstractGeneratorObject
 template
 struct
 JS_PUBLIC_API
-MovableCellHasher
+StableCellHasher
 <
 EnvironmentObject
 *
@@ -800,7 +800,7 @@ EnvironmentObject
 template
 struct
 JS_PUBLIC_API
-MovableCellHasher
+StableCellHasher
 <
 GlobalObject
 *
@@ -809,7 +809,7 @@ GlobalObject
 template
 struct
 JS_PUBLIC_API
-MovableCellHasher
+StableCellHasher
 <
 JSScript
 *
@@ -818,7 +818,7 @@ JSScript
 template
 struct
 JS_PUBLIC_API
-MovableCellHasher
+StableCellHasher
 <
 BaseScript
 *
@@ -827,7 +827,7 @@ BaseScript
 template
 struct
 JS_PUBLIC_API
-MovableCellHasher
+StableCellHasher
 <
 PropMap
 *
@@ -836,7 +836,7 @@ PropMap
 template
 struct
 JS_PUBLIC_API
-MovableCellHasher
+StableCellHasher
 <
 ScriptSourceObject
 *
@@ -845,7 +845,7 @@ ScriptSourceObject
 template
 struct
 JS_PUBLIC_API
-MovableCellHasher
+StableCellHasher
 <
 SavedFrame
 *
@@ -854,7 +854,7 @@ SavedFrame
 template
 struct
 JS_PUBLIC_API
-MovableCellHasher
+StableCellHasher
 <
 WasmInstanceObject
 *

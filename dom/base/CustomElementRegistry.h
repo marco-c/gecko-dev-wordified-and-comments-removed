@@ -1489,7 +1489,7 @@ nsAtom
 js
 :
 :
-MovableCellHasher
+StableCellHasher
 <
 JS
 :

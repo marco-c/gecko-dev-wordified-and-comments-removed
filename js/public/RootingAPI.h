@@ -3645,7 +3645,7 @@ T
 >
 struct
 JS_PUBLIC_API
-MovableCellHasher
+StableCellHasher
 {
 using
 Key
@@ -3719,7 +3719,7 @@ T
 >
 struct
 JS_PUBLIC_API
-MovableCellHasher
+StableCellHasher
 <
 JS
 :
@@ -3760,7 +3760,7 @@ hashOut
 )
 {
 return
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -3787,7 +3787,7 @@ hashOut
 )
 {
 return
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -3811,7 +3811,7 @@ l
 )
 {
 return
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -3838,7 +3838,7 @@ l
 )
 {
 return
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -3872,7 +3872,7 @@ FallibleHashMethods
 js
 :
 :
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -3900,7 +3900,7 @@ return
 js
 :
 :
-MovableCellHasher
+StableCellHasher
 <
 T
 >
@@ -3944,7 +3944,7 @@ return
 js
 :
 :
-MovableCellHasher
+StableCellHasher
 <
 T
 >

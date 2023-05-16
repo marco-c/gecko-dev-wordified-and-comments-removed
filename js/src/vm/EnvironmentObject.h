@@ -3193,7 +3193,7 @@ JSObject
 *
 >
 LiveEnvironmentVal
-MovableCellHasher
+StableCellHasher
 <
 WeakHeapPtr
 <

@@ -28947,7 +28947,7 @@ JSObject
 js
 :
 :
-MovableCellHasher
+StableCellHasher
 <
 JSObject
 *
