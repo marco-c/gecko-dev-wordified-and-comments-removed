@@ -2689,7 +2689,7 @@ aDesc
 ffi
 :
 :
-WGPUTextureDescriptor______nsACString__FfiSlice_TextureFormat
+WGPUTextureDescriptor
 desc
 =
 {
