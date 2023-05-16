@@ -2958,7 +2958,7 @@ int32_t
 aNameSpaceID
 nsAtom
 *
-aAttribute
+aName
 bool
 aNotify
 )
@@ -6024,7 +6024,7 @@ nsAttrValue
 aParsedValue
 nsIPrincipal
 *
-aMaybeScriptedPrincipal
+aSubjectPrincipal
 uint8_t
 aModType
 bool

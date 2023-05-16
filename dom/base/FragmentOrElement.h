@@ -373,6 +373,7 @@ aDoc
 nsINode
 *
 aParent
+const
 nsTArray
 <
 nsCOMPtr
