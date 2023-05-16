@@ -1770,7 +1770,7 @@ n
 >
 fn
 .
-isSameNativeWithJitInfo
+isSameNative
 (
 n
 )
