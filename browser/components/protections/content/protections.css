@@ -2082,14 +2082,6 @@ no
 repeat
 0
 ;
-font
--
-size
-:
-0
-.
-75em
-;
 cursor
 :
 pointer
@@ -2126,7 +2118,9 @@ font
 -
 size
 :
-12px
+0
+.
+8em
 ;
 padding
 -

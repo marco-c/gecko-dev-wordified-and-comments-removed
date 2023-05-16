@@ -1395,10 +1395,6 @@ screenshots
 -
 button
 {
-appearance
-:
-none
-;
 display
 :
 flex
@@ -1475,6 +1471,9 @@ family
 Segoe
 UI
 "
+sans
+-
+serif
 ;
 /
 *
