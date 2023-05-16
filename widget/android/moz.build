@@ -239,6 +239,9 @@ SurfaceControlManager
 SurfaceTextureListener
 "
 "
+SurfaceViewWrapper
+"
+"
 TelemetryUtils
 "
 "
