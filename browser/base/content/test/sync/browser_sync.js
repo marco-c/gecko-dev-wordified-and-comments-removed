@@ -230,6 +230,17 @@ STATUS_NOT_CONFIGURED
 ;
 state
 .
+email
+=
+"
+foo
+bar
+.
+com
+"
+;
+state
+.
 status
 =
 UIState
