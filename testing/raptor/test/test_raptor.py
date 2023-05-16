@@ -1938,6 +1938,8 @@ _compute_process_timeout
 (
 mock_test
 timeout
+[
+]
 )
     
 assert
