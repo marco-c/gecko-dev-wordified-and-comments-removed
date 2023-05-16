@@ -40,6 +40,16 @@ CSSPrefersContrast
 )
 ITEM_VALUE
 (
+CanvasRandomization
+0x000A
+)
+ITEM_VALUE
+(
+CanvasImageExtractionPrompt
+0x000B
+)
+ITEM_VALUE
+(
 IgnoreTargetAndReturnCachedValue
 0xFFFD
 )
