@@ -6,7 +6,7 @@ ESLint
 =
 =
 ESLint
-_
+__
 is
 a
 popular
@@ -2111,9 +2111,9 @@ spidermonkey
 js
 .
 .
-_ESLint
+__
 :
-http
+https
 :
 /
 /
@@ -2151,7 +2151,7 @@ _ESLint
 s
 documentation
 :
-http
+https
 :
 /
 /
@@ -2176,7 +2176,7 @@ s
 rule
 list
 :
-http
+https
 :
 /
 /
