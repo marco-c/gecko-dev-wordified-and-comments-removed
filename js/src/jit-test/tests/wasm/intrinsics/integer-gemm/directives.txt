@@ -30,6 +30,14 @@ getBuildConfiguration
 )
 .
 x86
+&
+&
+!
+getBuildConfiguration
+(
+)
+.
+arm64
 )
 |
 |
