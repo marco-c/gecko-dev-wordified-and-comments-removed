@@ -1314,7 +1314,6 @@ LoggedRtcpPacketTransportFeedback
 transport_feedback
 (
 true
-true
 )
 {
 }
