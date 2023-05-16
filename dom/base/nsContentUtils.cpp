@@ -12571,6 +12571,15 @@ GetLoadingPrincipal
 MOZ_ASSERT_IF
 (
 principal
+&
+&
+!
+principal
+-
+>
+IsSystemPrincipal
+(
+)
 BasePrincipal
 :
 :
