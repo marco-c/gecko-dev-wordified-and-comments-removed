@@ -117,17 +117,17 @@ osx
 1015
 -
 r8
-windows10
+windows11
 -
 64
 .
 *
 :
-win10
+win11
 -
 64
 -
-2004
+2009
 -
 source
 worker
@@ -355,7 +355,7 @@ macosx1015
 /
 opt
 -
-windows10
+windows11
 -
 64
 /
@@ -423,7 +423,7 @@ macosx1015
 /
 opt
 -
-windows10
+windows11
 -
 64
 /
@@ -496,7 +496,7 @@ linux1804
 /
 opt
 -
-windows10
+windows11
 -
 64
 /
@@ -967,7 +967,7 @@ macosx1015
 /
 opt
 -
-windows10
+windows11
 -
 64
 /
@@ -1104,7 +1104,7 @@ macosx1015
 /
 opt
 -
-windows10
+windows11
 -
 64
 /
@@ -1170,7 +1170,7 @@ macosx64
 clang
 -
 tidy
-windows10
+windows11
 -
 64
 /
@@ -1219,7 +1219,7 @@ node
 macosx64
 -
 rust
-windows10
+windows11
 -
 64
 /
@@ -1340,7 +1340,7 @@ linux1804
 /
 opt
 -
-windows10
+windows11
 -
 64
 /
@@ -1406,7 +1406,7 @@ macosx1015
 /
 opt
 -
-windows10
+windows11
 -
 64
 /
@@ -1472,7 +1472,7 @@ macosx1015
 /
 opt
 -
-windows10
+windows11
 -
 64
 /
@@ -1966,7 +1966,7 @@ linux1804
 /
 opt
 -
-windows10
+windows11
 -
 64
 /
@@ -2062,7 +2062,7 @@ macosx1015
 /
 opt
 -
-windows10
+windows11
 -
 64
 /
@@ -2121,7 +2121,7 @@ macosx64
 node
 -
 12
-windows10
+windows11
 -
 64
 /
@@ -2291,7 +2291,7 @@ macosx1015
 /
 opt
 -
-windows10
+windows11
 -
 64
 /
@@ -2336,7 +2336,7 @@ opt
 macosx64
 -
 node
-windows10
+windows11
 -
 64
 /
@@ -2746,7 +2746,7 @@ macosx1015
 /
 opt
 -
-windows10
+windows11
 -
 64
 /
@@ -2816,7 +2816,7 @@ linux1804
 /
 opt
 -
-windows10
+windows11
 -
 64
 /
@@ -2861,7 +2861,7 @@ opt
 linux64
 -
 node
-windows10
+windows11
 -
 64
 /
@@ -2899,7 +2899,7 @@ unit
 tests
 platform
 :
-windows10
+windows11
 -
 64
 /
@@ -3202,7 +3202,7 @@ macosx1015
 /
 opt
 -
-windows10
+windows11
 -
 64
 /
@@ -3259,7 +3259,7 @@ opt
 macosx64
 -
 node
-windows10
+windows11
 -
 64
 /
