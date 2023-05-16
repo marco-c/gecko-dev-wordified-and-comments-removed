@@ -5458,6 +5458,15 @@ aItemBounds
 ;
 }
 else
+if
+(
+!
+trans2d
+.
+IsSingular
+(
+)
+)
 {
 aContext
 -
