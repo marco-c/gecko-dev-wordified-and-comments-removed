@@ -215,6 +215,9 @@ page
 =
 shopping
 "
+inspectRegexpInSERP
+:
+true
 }
 components
 :
