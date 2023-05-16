@@ -331,6 +331,15 @@ dom
 GPUTextureFormat
 :
 :
+Rgb9e5ufloat
+:
+case
+dom
+:
+:
+GPUTextureFormat
+:
+:
 Rgb10a2unorm
 :
 case

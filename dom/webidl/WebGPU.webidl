@@ -1752,6 +1752,9 @@ Packed
 bit
 formats
 "
+rgb9e5ufloat
+"
+"
 rgb10a2unorm
 "
 "
