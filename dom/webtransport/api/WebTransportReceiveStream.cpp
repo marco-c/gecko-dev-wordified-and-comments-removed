@@ -198,6 +198,8 @@ aWebTransport
 nsIGlobalObject
 *
 aGlobal
+uint64_t
+aStreamId
 DataPipeReceiver
 *
 receiver
@@ -306,8 +308,9 @@ aWebTransport
 >
 mReceiveStreams
 .
-AppendElement
+InsertOrUpdate
 (
+aStreamId
 stream
 )
 ;

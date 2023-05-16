@@ -73,6 +73,8 @@ aWebTransport
 nsIGlobalObject
 *
 aGlobal
+uint64_t
+aStreamId
 mozilla
 :
 :

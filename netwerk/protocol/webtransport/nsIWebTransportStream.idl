@@ -208,6 +208,11 @@ attribute
 nsIAsyncInputStream
 inputStream
 ;
+readonly
+attribute
+uint64_t
+streamId
+;
 }
 ;
 [
@@ -256,6 +261,11 @@ readonly
 attribute
 nsIAsyncOutputStream
 outputStream
+;
+readonly
+attribute
+uint64_t
+streamId
 ;
 }
 ;
@@ -315,6 +325,11 @@ readonly
 attribute
 nsIAsyncOutputStream
 outputStream
+;
+readonly
+attribute
+uint64_t
+streamId
 ;
 }
 ;
