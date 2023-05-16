@@ -180,7 +180,7 @@ the
 code
 ]
 [
-check
+Check
 out
 and
 build
@@ -334,8 +334,8 @@ upload
 Check
 out
 and
-the
 build
+the
 code
 ]
 :
