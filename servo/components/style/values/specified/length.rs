@@ -433,7 +433,7 @@ match
 *
 self
 {
-FontBaseSize
+Self
 :
 :
 CurrentStyle
@@ -452,7 +452,7 @@ get_font
 clone_font_size
 (
 )
-FontBaseSize
+Self
 :
 :
 InheritedStyle
@@ -491,7 +491,7 @@ match
 *
 self
 {
-FontRelativeLength
+Self
 :
 :
 Em
@@ -499,7 +499,7 @@ Em
 v
 )
 |
-FontRelativeLength
+Self
 :
 :
 Ex
@@ -507,7 +507,7 @@ Ex
 v
 )
 |
-FontRelativeLength
+Self
 :
 :
 Ch
@@ -515,7 +515,7 @@ Ch
 v
 )
 |
-FontRelativeLength
+Self
 :
 :
 Cap
@@ -523,7 +523,7 @@ Cap
 v
 )
 |
-FontRelativeLength
+Self
 :
 :
 Ic
@@ -531,7 +531,7 @@ Ic
 v
 )
 |
-FontRelativeLength
+Self
 :
 :
 Rem
@@ -560,7 +560,7 @@ match
 *
 self
 {
-FontRelativeLength
+Self
 :
 :
 Em
@@ -572,7 +572,7 @@ _
 "
 em
 "
-FontRelativeLength
+Self
 :
 :
 Ex
@@ -584,7 +584,7 @@ _
 "
 ex
 "
-FontRelativeLength
+Self
 :
 :
 Ch
@@ -596,7 +596,7 @@ _
 "
 ch
 "
-FontRelativeLength
+Self
 :
 :
 Cap
@@ -608,7 +608,7 @@ _
 "
 cap
 "
-FontRelativeLength
+Self
 :
 :
 Ic
@@ -620,7 +620,7 @@ _
 "
 ic
 "
-FontRelativeLength
+Self
 :
 :
 Rem
@@ -1178,7 +1178,7 @@ match
 *
 self
 {
-FontRelativeLength
+Self
 :
 :
 Em
@@ -1232,7 +1232,7 @@ computed_size
 length
 )
 }
-FontRelativeLength
+Self
 :
 :
 Ex
@@ -1284,7 +1284,7 @@ reference_size
 length
 )
 }
-FontRelativeLength
+Self
 :
 :
 Ch
@@ -1370,7 +1370,7 @@ reference_size
 length
 )
 }
-FontRelativeLength
+Self
 :
 :
 Cap
@@ -1416,7 +1416,7 @@ reference_size
 length
 )
 }
-FontRelativeLength
+Self
 :
 :
 Ic
@@ -1464,7 +1464,7 @@ reference_size
 length
 )
 }
-FontRelativeLength
+Self
 :
 :
 Rem
@@ -1862,7 +1862,7 @@ match
 *
 self
 {
-ViewportPercentageLength
+Self
 :
 :
 Vw
@@ -1874,7 +1874,7 @@ _
 "
 vw
 "
-ViewportPercentageLength
+Self
 :
 :
 Lvw
@@ -1886,7 +1886,7 @@ _
 "
 lvw
 "
-ViewportPercentageLength
+Self
 :
 :
 Svw
@@ -1898,7 +1898,7 @@ _
 "
 svw
 "
-ViewportPercentageLength
+Self
 :
 :
 Dvw
@@ -1910,7 +1910,7 @@ _
 "
 dvw
 "
-ViewportPercentageLength
+Self
 :
 :
 Vh
@@ -1922,7 +1922,7 @@ _
 "
 vh
 "
-ViewportPercentageLength
+Self
 :
 :
 Svh
@@ -1934,7 +1934,7 @@ _
 "
 svh
 "
-ViewportPercentageLength
+Self
 :
 :
 Lvh
@@ -1946,7 +1946,7 @@ _
 "
 lvh
 "
-ViewportPercentageLength
+Self
 :
 :
 Dvh
@@ -1958,7 +1958,7 @@ _
 "
 dvh
 "
-ViewportPercentageLength
+Self
 :
 :
 Vmin
@@ -1970,7 +1970,7 @@ _
 "
 vmin
 "
-ViewportPercentageLength
+Self
 :
 :
 Svmin
@@ -1982,7 +1982,7 @@ _
 "
 svmin
 "
-ViewportPercentageLength
+Self
 :
 :
 Lvmin
@@ -1994,7 +1994,7 @@ _
 "
 lvmin
 "
-ViewportPercentageLength
+Self
 :
 :
 Dvmin
@@ -2006,7 +2006,7 @@ _
 "
 dvmin
 "
-ViewportPercentageLength
+Self
 :
 :
 Vmax
@@ -2018,7 +2018,7 @@ _
 "
 vmax
 "
-ViewportPercentageLength
+Self
 :
 :
 Svmax
@@ -2030,7 +2030,7 @@ _
 "
 svmax
 "
-ViewportPercentageLength
+Self
 :
 :
 Lvmax
@@ -2042,7 +2042,7 @@ _
 "
 lvmax
 "
-ViewportPercentageLength
+Self
 :
 :
 Dvmax
@@ -2054,7 +2054,7 @@ _
 "
 dvmax
 "
-ViewportPercentageLength
+Self
 :
 :
 Vb
@@ -2066,7 +2066,7 @@ _
 "
 vb
 "
-ViewportPercentageLength
+Self
 :
 :
 Svb
@@ -2078,7 +2078,7 @@ _
 "
 svb
 "
-ViewportPercentageLength
+Self
 :
 :
 Lvb
@@ -2090,7 +2090,7 @@ _
 "
 lvb
 "
-ViewportPercentageLength
+Self
 :
 :
 Dvb
@@ -2102,7 +2102,7 @@ _
 "
 dvb
 "
-ViewportPercentageLength
+Self
 :
 :
 Vi
@@ -2114,7 +2114,7 @@ _
 "
 vi
 "
-ViewportPercentageLength
+Self
 :
 :
 Svi
@@ -2126,7 +2126,7 @@ _
 "
 svi
 "
-ViewportPercentageLength
+Self
 :
 :
 Lvi
@@ -2138,7 +2138,7 @@ _
 "
 lvi
 "
-ViewportPercentageLength
+Self
 :
 :
 Dvi
@@ -2170,7 +2170,7 @@ match
 *
 self
 {
-ViewportPercentageLength
+Self
 :
 :
 Vw
@@ -2190,7 +2190,7 @@ ViewportUnit
 Vw
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Svw
@@ -2210,7 +2210,7 @@ ViewportUnit
 Vw
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Lvw
@@ -2230,7 +2230,7 @@ ViewportUnit
 Vw
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Dvw
@@ -2250,7 +2250,7 @@ ViewportUnit
 Vw
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Vh
@@ -2270,7 +2270,7 @@ ViewportUnit
 Vh
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Svh
@@ -2290,7 +2290,7 @@ ViewportUnit
 Vh
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Lvh
@@ -2310,7 +2310,7 @@ ViewportUnit
 Vh
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Dvh
@@ -2330,7 +2330,7 @@ ViewportUnit
 Vh
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Vmin
@@ -2339,7 +2339,6 @@ v
 )
 =
 >
-{
 (
 ViewportVariant
 :
@@ -2351,8 +2350,7 @@ ViewportUnit
 Vmin
 v
 )
-}
-ViewportPercentageLength
+Self
 :
 :
 Svmin
@@ -2372,7 +2370,7 @@ ViewportUnit
 Vmin
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Lvmin
@@ -2392,7 +2390,7 @@ ViewportUnit
 Vmin
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Dvmin
@@ -2412,7 +2410,7 @@ ViewportUnit
 Vmin
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Vmax
@@ -2421,7 +2419,6 @@ v
 )
 =
 >
-{
 (
 ViewportVariant
 :
@@ -2433,8 +2430,7 @@ ViewportUnit
 Vmax
 v
 )
-}
-ViewportPercentageLength
+Self
 :
 :
 Svmax
@@ -2454,7 +2450,7 @@ ViewportUnit
 Vmax
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Lvmax
@@ -2474,7 +2470,7 @@ ViewportUnit
 Vmax
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Dvmax
@@ -2494,7 +2490,7 @@ ViewportUnit
 Vmax
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Vb
@@ -2514,7 +2510,7 @@ ViewportUnit
 Vb
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Svb
@@ -2534,7 +2530,7 @@ ViewportUnit
 Vb
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Lvb
@@ -2554,7 +2550,7 @@ ViewportUnit
 Vb
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Dvb
@@ -2574,7 +2570,7 @@ ViewportUnit
 Vb
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Vi
@@ -2594,7 +2590,7 @@ ViewportUnit
 Vi
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Svi
@@ -2614,7 +2610,7 @@ ViewportUnit
 Vi
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Lvi
@@ -2634,7 +2630,7 @@ ViewportUnit
 Vi
 v
 )
-ViewportPercentageLength
+Self
 :
 :
 Dvi
@@ -4358,7 +4354,7 @@ match
 *
 self
 {
-AbsoluteLength
+Self
 :
 :
 Px
@@ -4366,7 +4362,7 @@ Px
 v
 )
 |
-AbsoluteLength
+Self
 :
 :
 In
@@ -4374,7 +4370,7 @@ In
 v
 )
 |
-AbsoluteLength
+Self
 :
 :
 Cm
@@ -4382,7 +4378,7 @@ Cm
 v
 )
 |
-AbsoluteLength
+Self
 :
 :
 Mm
@@ -4390,7 +4386,7 @@ Mm
 v
 )
 |
-AbsoluteLength
+Self
 :
 :
 Q
@@ -4398,7 +4394,7 @@ Q
 v
 )
 |
-AbsoluteLength
+Self
 :
 :
 Pt
@@ -4406,7 +4402,7 @@ Pt
 v
 )
 |
-AbsoluteLength
+Self
 :
 :
 Pc
@@ -4435,7 +4431,7 @@ match
 *
 self
 {
-AbsoluteLength
+Self
 :
 :
 Px
@@ -4447,7 +4443,7 @@ _
 "
 px
 "
-AbsoluteLength
+Self
 :
 :
 In
@@ -4459,7 +4455,7 @@ _
 "
 in
 "
-AbsoluteLength
+Self
 :
 :
 Cm
@@ -4471,7 +4467,7 @@ _
 "
 cm
 "
-AbsoluteLength
+Self
 :
 :
 Mm
@@ -4483,7 +4479,7 @@ _
 "
 mm
 "
-AbsoluteLength
+Self
 :
 :
 Q
@@ -4495,7 +4491,7 @@ _
 "
 q
 "
-AbsoluteLength
+Self
 :
 :
 Pt
@@ -4507,7 +4503,7 @@ _
 "
 pt
 "
-AbsoluteLength
+Self
 :
 :
 Pc
@@ -4540,7 +4536,7 @@ match
 *
 self
 {
-AbsoluteLength
+Self
 :
 :
 Px
@@ -4550,7 +4546,7 @@ value
 =
 >
 value
-AbsoluteLength
+Self
 :
 :
 In
@@ -4562,7 +4558,7 @@ value
 value
 *
 PX_PER_IN
-AbsoluteLength
+Self
 :
 :
 Cm
@@ -4574,7 +4570,7 @@ value
 value
 *
 PX_PER_CM
-AbsoluteLength
+Self
 :
 :
 Mm
@@ -4586,7 +4582,7 @@ value
 value
 *
 PX_PER_MM
-AbsoluteLength
+Self
 :
 :
 Q
@@ -4598,7 +4594,7 @@ value
 value
 *
 PX_PER_Q
-AbsoluteLength
+Self
 :
 :
 Pt
@@ -4610,7 +4606,7 @@ value
 value
 *
 PX_PER_PT
-AbsoluteLength
+Self
 :
 :
 Pc
@@ -4934,7 +4930,7 @@ match
 *
 self
 {
-ContainerRelativeLength
+Self
 :
 :
 Cqw
@@ -4942,7 +4938,7 @@ Cqw
 v
 )
 |
-ContainerRelativeLength
+Self
 :
 :
 Cqh
@@ -4950,7 +4946,7 @@ Cqh
 v
 )
 |
-ContainerRelativeLength
+Self
 :
 :
 Cqi
@@ -4958,7 +4954,7 @@ Cqi
 v
 )
 |
-ContainerRelativeLength
+Self
 :
 :
 Cqb
@@ -4966,7 +4962,7 @@ Cqb
 v
 )
 |
-ContainerRelativeLength
+Self
 :
 :
 Cqmin
@@ -4974,7 +4970,7 @@ Cqmin
 v
 )
 |
-ContainerRelativeLength
+Self
 :
 :
 Cqmax
@@ -5003,7 +4999,7 @@ match
 *
 self
 {
-ContainerRelativeLength
+Self
 :
 :
 Cqw
@@ -5015,7 +5011,7 @@ _
 "
 cqw
 "
-ContainerRelativeLength
+Self
 :
 :
 Cqh
@@ -5027,7 +5023,7 @@ _
 "
 cqh
 "
-ContainerRelativeLength
+Self
 :
 :
 Cqi
@@ -5039,7 +5035,7 @@ _
 "
 cqi
 "
-ContainerRelativeLength
+Self
 :
 :
 Cqb
@@ -5051,7 +5047,7 @@ _
 "
 cqb
 "
-ContainerRelativeLength
+Self
 :
 :
 Cqmin
@@ -5063,7 +5059,7 @@ _
 "
 cqmin
 "
-ContainerRelativeLength
+Self
 :
 :
 Cqmax
@@ -5549,7 +5545,7 @@ match
 *
 self
 {
-ContainerRelativeLength
+Self
 :
 :
 Cqw
@@ -5567,7 +5563,7 @@ get_container_width
 context
 )
 )
-ContainerRelativeLength
+Self
 :
 :
 Cqh
@@ -5585,7 +5581,7 @@ get_container_height
 context
 )
 )
-ContainerRelativeLength
+Self
 :
 :
 Cqi
@@ -5603,7 +5599,7 @@ get_container_inline_size
 context
 )
 )
-ContainerRelativeLength
+Self
 :
 :
 Cqb
@@ -5621,7 +5617,7 @@ get_container_block_size
 context
 )
 )
-ContainerRelativeLength
+Self
 :
 :
 Cqmin
@@ -5651,7 +5647,7 @@ context
 )
 )
 )
-ContainerRelativeLength
+Self
 :
 :
 Cqmax
@@ -5826,7 +5822,7 @@ match
 *
 self
 {
-NoCalcLength
+Self
 :
 :
 Absolute
@@ -5840,7 +5836,7 @@ v
 unitless_value
 (
 )
-NoCalcLength
+Self
 :
 :
 FontRelative
@@ -5854,7 +5850,7 @@ v
 unitless_value
 (
 )
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -5868,7 +5864,7 @@ v
 unitless_value
 (
 )
-NoCalcLength
+Self
 :
 :
 ContainerRelative
@@ -5882,7 +5878,7 @@ v
 unitless_value
 (
 )
-NoCalcLength
+Self
 :
 :
 ServoCharacterWidth
@@ -5915,7 +5911,7 @@ match
 *
 self
 {
-NoCalcLength
+Self
 :
 :
 Absolute
@@ -5929,7 +5925,7 @@ v
 unit
 (
 )
-NoCalcLength
+Self
 :
 :
 FontRelative
@@ -5943,7 +5939,7 @@ v
 unit
 (
 )
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -5957,7 +5953,7 @@ v
 unit
 (
 )
-NoCalcLength
+Self
 :
 :
 ContainerRelative
@@ -5971,7 +5967,7 @@ v
 unit
 (
 )
-NoCalcLength
+Self
 :
 :
 ServoCharacterWidth
@@ -6171,7 +6167,7 @@ px
 "
 =
 >
-NoCalcLength
+Self
 :
 :
 Absolute
@@ -6189,7 +6185,7 @@ in
 "
 =
 >
-NoCalcLength
+Self
 :
 :
 Absolute
@@ -6207,7 +6203,7 @@ cm
 "
 =
 >
-NoCalcLength
+Self
 :
 :
 Absolute
@@ -6225,7 +6221,7 @@ mm
 "
 =
 >
-NoCalcLength
+Self
 :
 :
 Absolute
@@ -6243,7 +6239,7 @@ q
 "
 =
 >
-NoCalcLength
+Self
 :
 :
 Absolute
@@ -6261,7 +6257,7 @@ pt
 "
 =
 >
-NoCalcLength
+Self
 :
 :
 Absolute
@@ -6279,7 +6275,7 @@ pc
 "
 =
 >
-NoCalcLength
+Self
 :
 :
 Absolute
@@ -6302,7 +6298,7 @@ em
 "
 =
 >
-NoCalcLength
+Self
 :
 :
 FontRelative
@@ -6320,7 +6316,7 @@ ex
 "
 =
 >
-NoCalcLength
+Self
 :
 :
 FontRelative
@@ -6338,7 +6334,7 @@ ch
 "
 =
 >
-NoCalcLength
+Self
 :
 :
 FontRelative
@@ -6356,7 +6352,7 @@ cap
 "
 =
 >
-NoCalcLength
+Self
 :
 :
 FontRelative
@@ -6374,7 +6370,7 @@ ic
 "
 =
 >
-NoCalcLength
+Self
 :
 :
 FontRelative
@@ -6392,7 +6388,7 @@ rem
 "
 =
 >
-NoCalcLength
+Self
 :
 :
 FontRelative
@@ -6422,7 +6418,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6449,7 +6445,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6476,7 +6472,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6503,7 +6499,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6530,7 +6526,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6557,7 +6553,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6584,7 +6580,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6611,7 +6607,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6638,7 +6634,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6665,7 +6661,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6692,7 +6688,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6719,7 +6715,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6746,7 +6742,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6773,7 +6769,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6800,7 +6796,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6827,7 +6823,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6854,7 +6850,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6881,7 +6877,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6908,7 +6904,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6935,7 +6931,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6962,7 +6958,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -6989,7 +6985,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -7016,7 +7012,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -7043,7 +7039,7 @@ in_page_rule
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ViewportPercentage
@@ -7097,7 +7093,7 @@ are_container_queries_enabled
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ContainerRelative
@@ -7129,7 +7125,7 @@ are_container_queries_enabled
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ContainerRelative
@@ -7161,7 +7157,7 @@ are_container_queries_enabled
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ContainerRelative
@@ -7193,7 +7189,7 @@ are_container_queries_enabled
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ContainerRelative
@@ -7225,7 +7221,7 @@ are_container_queries_enabled
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ContainerRelative
@@ -7257,7 +7253,7 @@ are_container_queries_enabled
 =
 >
 {
-NoCalcLength
+Self
 :
 :
 ContainerRelative
