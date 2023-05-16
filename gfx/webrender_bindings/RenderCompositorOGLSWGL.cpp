@@ -1394,6 +1394,16 @@ drawRect
 ;
 }
 else
+if
+(
+!
+aExternalImage
+-
+>
+IsWrappingAsyncRemoteTexture
+(
+)
+)
 {
 MOZ_ASSERT_UNREACHABLE
 (

@@ -581,6 +581,15 @@ if
 IsWrappingSurfaceTextureHost
 (
 )
+&
+&
+!
+mWrappedTextureHost
+-
+>
+AsRemoteTextureHostWrapper
+(
+)
 )
 {
 wr
