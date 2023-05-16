@@ -1770,6 +1770,11 @@ TransitionType
 aTransition
 )
 ;
+bool
+HandleUpdateFullscreenOnResize
+(
+)
+;
 protected
 :
 virtual
