@@ -272,10 +272,10 @@ video_receive_stream
 .
 h
 index
-34a0ccc5d1
+31c9bff7b0
 .
 .
-570f07eff3
+25c294a2a6
 100644
 -
 -
@@ -298,10 +298,10 @@ video_receive_stream
 .
 h
 -
-147
+145
 10
 +
-147
+145
 11
 class
 VideoReceiveStreamInterface
