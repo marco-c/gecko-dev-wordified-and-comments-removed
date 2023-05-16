@@ -42,6 +42,16 @@ bool
 aLegal
 )
 ;
+static
+void
+StartLoggingClass
+(
+const
+char
+*
+aClass
+)
+;
 #
 ifdef
 MOZ_ENABLE_FORKSERVER
