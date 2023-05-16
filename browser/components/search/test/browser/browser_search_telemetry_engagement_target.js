@@ -305,6 +305,13 @@ children
 selector
 :
 "
+textarea
+"
+}
+{
+selector
+:
+"
 input
 "
 }

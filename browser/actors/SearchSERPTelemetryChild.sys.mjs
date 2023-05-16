@@ -2765,6 +2765,8 @@ selector
 if
 (
 childElements
+.
+length
 )
 {
 this

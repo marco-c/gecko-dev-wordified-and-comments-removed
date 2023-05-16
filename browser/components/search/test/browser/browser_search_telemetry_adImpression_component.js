@@ -320,6 +320,8 @@ selector
 .
 moz
 -
+rich
+-
 suggestion
 a
 "
