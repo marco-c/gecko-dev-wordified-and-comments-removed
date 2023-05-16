@@ -4738,6 +4738,11 @@ PerformanceEventTiming
 webidl
 "
 "
+PerformanceLargestContentfulPaint
+.
+webidl
+"
+"
 PerformanceMark
 .
 webidl

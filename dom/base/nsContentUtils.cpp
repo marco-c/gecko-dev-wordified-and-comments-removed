@@ -14036,7 +14036,7 @@ return
 nullptr
 ;
 }
-nsINode
+Element
 *
 nsContentUtils
 :

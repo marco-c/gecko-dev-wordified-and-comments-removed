@@ -1426,7 +1426,7 @@ aTargetB
 )
 ;
 static
-nsINode
+Element
 *
 GetAnElementForTiming
 (
