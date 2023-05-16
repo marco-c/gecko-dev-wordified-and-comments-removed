@@ -296,8 +296,6 @@ Blob
 )
 ClipboardItemDataType
 ;
-/
-/
 typedef
 Promise
 <
@@ -334,18 +332,6 @@ clipboardItem
 interface
 ClipboardItem
 {
-/
-/
-Note
-:
-The
-spec
-uses
-Promise
-<
-ClipboardItemDataType
->
-.
 [
 Throws
 ]
@@ -354,7 +340,7 @@ constructor
 record
 <
 DOMString
-ClipboardItemDataType
+ClipboardItemData
 >
 items
 optional
