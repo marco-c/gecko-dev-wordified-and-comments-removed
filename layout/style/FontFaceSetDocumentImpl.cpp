@@ -2011,7 +2011,7 @@ nsTHashMap
 <
 nsPtrHashKey
 <
-RawServoFontFaceRule
+StyleLockedFontFaceRule
 >
 FontFaceImpl
 *
@@ -2122,7 +2122,7 @@ DetachFontEntries
 }
 nsTHashSet
 <
-RawServoFontFaceRule
+StyleLockedFontFaceRule
 *
 >
 handledRules
@@ -2150,7 +2150,7 @@ i_end
 i
 )
 {
-RawServoFontFaceRule
+StyleLockedFontFaceRule
 *
 rule
 =
@@ -2927,7 +2927,7 @@ entry
 )
 ;
 }
-RawServoFontFaceRule
+StyleLockedFontFaceRule
 *
 FontFaceSetDocumentImpl
 :
@@ -3026,7 +3026,7 @@ return
 nullptr
 ;
 }
-RawServoFontFaceRule
+StyleLockedFontFaceRule
 *
 FontFaceSetDocumentImpl
 :

@@ -5592,7 +5592,7 @@ return
 }
 RefPtr
 <
-ServoCssRules
+StyleLockedCssRules
 >
 rules
 =
@@ -5695,7 +5695,7 @@ true
 ;
 RefPtr
 <
-ServoCssRules
+StyleLockedCssRules
 >
 rules
 =
@@ -5732,7 +5732,7 @@ column
 ;
 RefPtr
 <
-RawServoImportRule
+StyleLockedImportRule
 >
 import
 =
@@ -7021,7 +7021,7 @@ EnsureUniqueInner
 ;
 RefPtr
 <
-ServoCssRules
+StyleLockedCssRules
 >
 rawRules
 =
@@ -7371,7 +7371,7 @@ StyleSheet
 SetSharedContents
 (
 const
-ServoCssRules
+StyleLockedCssRules
 *
 aSharedRules
 )
@@ -7410,7 +7410,7 @@ Consume
 ;
 }
 const
-ServoCssRules
+StyleLockedCssRules
 *
 StyleSheet
 :
@@ -7510,7 +7510,7 @@ IsSystemPrincipal
 )
 ;
 const
-ServoCssRules
+StyleLockedCssRules
 *
 rules
 =

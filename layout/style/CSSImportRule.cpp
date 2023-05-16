@@ -62,7 +62,7 @@ CSSImportRule
 (
 RefPtr
 <
-RawServoImportRule
+StyleLockedImportRule
 >
 aRawRule
 StyleSheet
@@ -429,7 +429,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-RawServoImportRule
+StyleLockedImportRule
 >
 aRaw
 )

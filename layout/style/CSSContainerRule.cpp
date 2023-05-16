@@ -60,7 +60,7 @@ CSSContainerRule
 (
 RefPtr
 <
-RawServoContainerRule
+StyleLockedContainerRule
 >
 aRawRule
 StyleSheet
@@ -340,7 +340,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-RawServoContainerRule
+StyleLockedContainerRule
 >
 aRaw
 )

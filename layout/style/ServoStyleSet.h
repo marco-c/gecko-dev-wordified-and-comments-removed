@@ -1127,7 +1127,7 @@ aStyle
 void
 GetAnimationValues
 (
-RawServoDeclarationBlock
+StyleLockedDeclarationBlock
 *
 aDeclarations
 dom
@@ -1166,7 +1166,7 @@ aArray
 )
 ;
 const
-RawServoCounterStyleRule
+StyleLockedCounterStyleRule
 *
 CounterStyleRuleForName
 (
@@ -1244,7 +1244,7 @@ ComputedStyle
 *
 aParentOrNull
 const
-RawServoDeclarationBlock
+StyleLockedDeclarationBlock
 *
 aDeclarations
 )
@@ -1261,7 +1261,7 @@ dom
 Element
 *
 aElement
-RawServoDeclarationBlock
+StyleLockedDeclarationBlock
 *
 aDeclaration
 const

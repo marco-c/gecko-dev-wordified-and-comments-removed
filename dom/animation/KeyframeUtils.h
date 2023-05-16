@@ -42,9 +42,6 @@ JSContext
 class
 JSObject
 ;
-struct
-RawServoDeclarationBlock
-;
 namespace
 mozilla
 {
