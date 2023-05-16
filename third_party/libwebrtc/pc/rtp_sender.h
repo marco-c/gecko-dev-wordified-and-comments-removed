@@ -669,12 +669,7 @@ string
 stream_ids
 )
 override
-{
-stream_ids_
-=
-stream_ids
 ;
-}
 void
 SetStreams
 (

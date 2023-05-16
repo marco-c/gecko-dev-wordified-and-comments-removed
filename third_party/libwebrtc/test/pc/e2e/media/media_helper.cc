@@ -242,6 +242,11 @@ stream_label
 value
 (
 )
++
+"
+-
+sync
+"
 ;
 peer
 -
@@ -566,6 +571,11 @@ stream_label
 value
 (
 )
++
+"
+-
+sync
+"
 ;
 RTCErrorOr
 <
