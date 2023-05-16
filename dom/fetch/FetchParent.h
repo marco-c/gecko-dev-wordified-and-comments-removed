@@ -319,6 +319,13 @@ ResponseTiming
 aTiming
 )
 ;
+void
+OnNotifyNetworkMonitorAlternateStack
+(
+uint64_t
+aChannelID
+)
+;
 private
 :
 ~

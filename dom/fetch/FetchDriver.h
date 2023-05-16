@@ -271,6 +271,15 @@ OnReportPerformanceTiming
 )
 {
 }
+virtual
+void
+OnNotifyNetworkMonitorAlternateStack
+(
+uint64_t
+aChannelID
+)
+{
+}
 protected
 :
 virtual
