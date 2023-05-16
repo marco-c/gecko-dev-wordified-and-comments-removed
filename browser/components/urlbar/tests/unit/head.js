@@ -797,6 +797,11 @@ removeResult
 {
 }
 }
+acknowledgeDismissal
+(
+)
+{
+}
 }
 ;
 UrlbarTokenizer
