@@ -306,6 +306,11 @@ busy
 "
 true
 "
+part
+=
+"
+deck
+"
 >
 <
 div
@@ -2295,6 +2300,11 @@ button
 -
 group
 class
+=
+"
+buttons
+"
+part
 =
 "
 buttons
