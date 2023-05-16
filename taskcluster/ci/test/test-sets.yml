@@ -590,10 +590,6 @@ install
 -
 browsertime
 -
-grandprix
--
-browsertime
--
 responsiveness
 -
 browsertime
@@ -655,10 +651,6 @@ browsertime
 youtube
 -
 playback
--
-browsertime
--
-grandprix
 -
 browsertime
 -
