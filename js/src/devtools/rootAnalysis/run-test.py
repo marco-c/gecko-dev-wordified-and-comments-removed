@@ -6,6 +6,8 @@ import
 site
 import
 subprocess
+import
+sys
 from
 glob
 import
@@ -327,10 +329,14 @@ verbose
 v
 "
     
+default
+=
+0
+    
 action
 =
 "
-store_true
+count
 "
     
 help
@@ -419,6 +425,8 @@ cfg
 js
 :
     
+sys
+.
 exit
 (
 "
@@ -805,7 +813,7 @@ set
 (
 )
 for
-name
+path
 in
 tests
 :
@@ -818,7 +826,7 @@ path
 .
 basename
 (
-name
+path
 )
     
 indir
