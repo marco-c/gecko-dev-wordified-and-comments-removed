@@ -30,11 +30,11 @@ h
 #
 include
 "
-modules
+rtc_base
 /
-include
+numerics
 /
-module_common_types_public
+sequence_number_unwrapper
 .
 h
 "
@@ -207,7 +207,7 @@ p_
 ;
 unwrapper_
 =
-TimestampUnwrapper
+RtpTimestampUnwrapper
 (
 )
 ;
@@ -757,7 +757,7 @@ unwrapped_ts90khz
 =
 unwrapper_
 .
-UnwrapWithoutUpdate
+PeekUnwrap
 (
 timestamp90khz
 )

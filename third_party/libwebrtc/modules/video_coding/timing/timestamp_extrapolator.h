@@ -36,11 +36,11 @@ h
 #
 include
 "
-modules
+rtc_base
 /
-include
+numerics
 /
-module_common_types_public
+sequence_number_unwrapper
 .
 h
 "
@@ -135,7 +135,7 @@ int64_t
 >
 first_unwrapped_timestamp_
 ;
-TimestampUnwrapper
+RtpTimestampUnwrapper
 unwrapper_
 ;
 absl
