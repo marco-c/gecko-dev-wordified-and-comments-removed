@@ -1386,8 +1386,6 @@ browser
 /
 content
 /
-firefoxview
-/
 recently
 -
 closed

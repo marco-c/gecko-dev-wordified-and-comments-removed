@@ -1249,8 +1249,6 @@ browser
 /
 content
 /
-firefoxview
-/
 moz
 -
 tab
@@ -2120,8 +2118,6 @@ chrome
 browser
 /
 content
-/
-firefoxview
 /
 moz
 -
