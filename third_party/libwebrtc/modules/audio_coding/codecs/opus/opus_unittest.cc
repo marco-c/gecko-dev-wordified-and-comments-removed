@@ -3573,6 +3573,12 @@ if
 channels_
 >
 2
+|
+|
+application_
+!
+=
+0
 )
 {
 return
