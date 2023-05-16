@@ -548,6 +548,15 @@ false
 \
 _
 (
+DMABufModifiers
+nsCString
+nsCString
+(
+)
+)
+\
+_
+(
 CodecSupportInfo
 nsCString
 nsCString
