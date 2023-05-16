@@ -1,7 +1,6 @@
 function
 translateElements
 (
-container
 items
 )
 {
@@ -218,7 +217,6 @@ remove
 }
 translateElements
 (
-container
 [
 [
 titleEl
@@ -868,7 +866,6 @@ remove
 }
 translateElements
 (
-container
 [
 [
 titleEl
@@ -1209,6 +1206,7 @@ config
 let
 hasRendered
 =
+await
 renderPromo
 (
 config
