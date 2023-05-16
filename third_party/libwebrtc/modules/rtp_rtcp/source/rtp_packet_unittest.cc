@@ -5589,7 +5589,7 @@ constexpr
 RTPExtensionType
 kId
 =
-kRtpExtensionGenericFrameDescriptor02
+kRtpExtensionDependencyDescriptor
 ;
 static
 constexpr
@@ -5666,13 +5666,6 @@ true
 ;
 }
 }
-;
-constexpr
-RTPExtensionType
-UncopyableExtension
-:
-:
-kId
 ;
 TEST
 (

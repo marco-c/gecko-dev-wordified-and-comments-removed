@@ -638,7 +638,7 @@ break
 ;
 }
 case
-kRtpExtensionGenericFrameDescriptor00
+kRtpExtensionGenericFrameDescriptor
 :
 {
 RtpGenericFrameDescriptor
@@ -749,7 +749,7 @@ break
 ;
 }
 case
-kRtpExtensionGenericFrameDescriptor02
+kRtpExtensionDependencyDescriptor
 :
 break
 ;

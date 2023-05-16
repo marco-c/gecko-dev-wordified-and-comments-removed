@@ -963,13 +963,13 @@ case
 RTPExtensionType
 :
 :
-kRtpExtensionGenericFrameDescriptor00
+kRtpExtensionGenericFrameDescriptor
 :
 case
 RTPExtensionType
 :
 :
-kRtpExtensionGenericFrameDescriptor02
+kRtpExtensionDependencyDescriptor
 :
 case
 RTPExtensionType

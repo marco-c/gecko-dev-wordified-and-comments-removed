@@ -91,7 +91,7 @@ constexpr
 RTPExtensionType
 kId
 =
-kRtpExtensionGenericFrameDescriptor00
+kRtpExtensionGenericFrameDescriptor
 ;
 static
 constexpr

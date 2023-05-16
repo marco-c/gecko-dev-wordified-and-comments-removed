@@ -685,10 +685,10 @@ rtp_packet
 .
 cc
 index
-dba150f314
+252b54377d
 .
 .
-5b21928b3b
+c327023019
 100644
 -
 -
@@ -774,7 +774,7 @@ case
 RTPExtensionType
 :
 :
-kRtpExtensionGenericFrameDescriptor00
+kRtpExtensionGenericFrameDescriptor
 :
 -
 203
@@ -877,10 +877,10 @@ rtp_sender
 .
 cc
 index
-1ac37e05f6
+0ed7243d0a
 .
 .
-a6d8e5e8c6
+336a117f4e
 100644
 -
 -
@@ -1038,10 +1038,10 @@ rtp_packet_fuzzer
 .
 cc
 index
-9cd15e39de
+0e10a8fa3a
 .
 .
-1d28be3764
+5d117529bb
 100644
 -
 -

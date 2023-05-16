@@ -563,10 +563,10 @@ case
 kRtpExtensionMid
 :
 case
-kRtpExtensionGenericFrameDescriptor00
+kRtpExtensionGenericFrameDescriptor
 :
 case
-kRtpExtensionGenericFrameDescriptor02
+kRtpExtensionDependencyDescriptor
 :
 return
 true
