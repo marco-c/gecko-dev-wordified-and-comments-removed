@@ -1926,6 +1926,12 @@ _handleWDBAResult
 exeProcess
 )
 ;
+telemetryResult
+=
+"
+Success
+"
+;
 }
 catch
 (
@@ -2101,6 +2107,12 @@ _handleWDBAResult
 (
 exeProcess
 )
+;
+telemetryResult
+=
+"
+Success
+"
 ;
 }
 catch
