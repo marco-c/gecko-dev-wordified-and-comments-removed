@@ -954,21 +954,6 @@ ISOLATED_OUTDIR
 test_logs
 '
       
-timeout
-=
-isolate_map
-[
-target
-]
-.
-get
-(
-'
-timeout
-'
-900
-)
-      
 cmdline
 +
 =
@@ -1010,17 +995,6 @@ gtest_color
 =
 no
 '
-          
-'
--
--
-timeout
-=
-%
-s
-'
-%
-timeout
       
 ]
       
