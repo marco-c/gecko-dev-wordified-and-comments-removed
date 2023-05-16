@@ -423,7 +423,12 @@ activeHandler
 .
 autofillFormFields
 (
+JSON
+.
+parse
+(
 payload
+)
 )
 ;
 }

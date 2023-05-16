@@ -140,11 +140,20 @@ sys
 mjs
 "
 ;
-import
+const
+lazy
+=
+{
+}
+;
+ChromeUtils
+.
+defineESModuleGetters
+(
+lazy
 {
 CreditCard
-}
-from
+:
 "
 resource
 :
@@ -160,12 +169,8 @@ sys
 .
 mjs
 "
-;
-import
-{
 AutofillTelemetry
-}
-from
+:
 "
 resource
 :
@@ -179,6 +184,8 @@ sys
 .
 mjs
 "
+}
+)
 ;
 const
 {
@@ -2605,6 +2612,8 @@ true
 }
 )
 ;
+lazy
+.
 AutofillTelemetry
 .
 recordFormInteractionEvent
@@ -2905,6 +2914,8 @@ clearFilled
 fieldDetail
 )
 {
+lazy
+.
 AutofillTelemetry
 .
 recordFormInteractionEvent
@@ -4251,6 +4262,8 @@ oneLineStreetAddress
 =
 null
 ;
+lazy
+.
 AutofillTelemetry
 .
 recordDetectedSectionCount
@@ -4258,6 +4271,8 @@ recordDetectedSectionCount
 this
 )
 ;
+lazy
+.
 AutofillTelemetry
 .
 recordFormInteractionEvent
@@ -5769,6 +5784,8 @@ isValidSection
 return
 ;
 }
+lazy
+.
 AutofillTelemetry
 .
 recordDetectedSectionCount
@@ -5776,6 +5793,8 @@ recordDetectedSectionCount
 this
 )
 ;
+lazy
+.
 AutofillTelemetry
 .
 recordFormInteractionEvent
@@ -8180,6 +8199,8 @@ value
 }
 if
 (
+lazy
+.
 CreditCard
 .
 isValidNetwork
@@ -8265,6 +8286,8 @@ selectedOptions
 let
 networkType
 =
+lazy
+.
 CreditCard
 .
 getNetworkFromName
@@ -8275,6 +8298,8 @@ text
 )
 ?
 ?
+lazy
+.
 CreditCard
 .
 getNetworkFromName
@@ -8709,6 +8734,8 @@ number
 "
 ]
 =
+lazy
+.
 CreditCard
 .
 normalizeCardNumber
@@ -8745,6 +8772,8 @@ month
 year
 }
 =
+lazy
+.
 CreditCard
 .
 normalizeExpiration
