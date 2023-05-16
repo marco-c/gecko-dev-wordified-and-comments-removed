@@ -131,7 +131,6 @@ AccessibleImage
 import
 {
 prefs
-features
 }
 from
 "
@@ -1978,13 +1977,6 @@ getEventListenersItem
 )
 )
 ;
-if
-(
-features
-.
-domMutationBreakpoints
-)
-{
 items
 .
 push
@@ -1996,7 +1988,6 @@ getDOMMutationsItem
 )
 )
 ;
-}
 return
 items
 ;
