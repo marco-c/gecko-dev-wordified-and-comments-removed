@@ -321,12 +321,13 @@ from
 operating
 )
 system
-source
+sources
 .
 It
 is
 assumed
 that
+the
 system
 always
 provides
@@ -358,6 +359,7 @@ function
 but
 is
 cross
+-
 platform
 roughly
 supporting
@@ -565,7 +567,7 @@ requires
 Rust
 1
 .
-34
+36
 .
 0
 or

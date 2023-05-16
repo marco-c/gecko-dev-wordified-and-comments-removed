@@ -14,6 +14,11 @@ use
 core
 :
 :
+{
+mem
+:
+:
+MaybeUninit
 sync
 :
 :
@@ -27,6 +32,7 @@ Ordering
 :
 Relaxed
 }
+}
 ;
 pub
 fn
@@ -37,7 +43,10 @@ dest
 &
 mut
 [
+MaybeUninit
+<
 u8
+>
 ]
 )
 -
@@ -160,6 +169,10 @@ chunk
 as_mut_ptr
 (
 )
+as
+*
+mut
+u8
 chunk
 .
 len

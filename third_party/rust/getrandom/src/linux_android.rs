@@ -20,6 +20,15 @@ Error
 }
 }
 ;
+use
+core
+:
+:
+mem
+:
+:
+MaybeUninit
+;
 pub
 fn
 getrandom_inner
@@ -29,7 +38,10 @@ dest
 &
 mut
 [
+MaybeUninit
+<
 u8
+>
 ]
 )
 -
