@@ -23,6 +23,10 @@ DenormalDisabler
 {
 public
 :
+DenormalDisabler
+(
+)
+;
 explicit
 DenormalDisabler
 (
