@@ -4804,7 +4804,7 @@ aRowFrame
 aContRowFrame
 )
 ;
-PushChildren
+PushChildrenToOverflow
 (
 *
 aContRowFrame
