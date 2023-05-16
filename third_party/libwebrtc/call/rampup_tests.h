@@ -192,11 +192,6 @@ int
 start_bitrate_bps
 int64_t
 min_run_time_ms
-absl
-:
-:
-string_view
-extension_type
 bool
 rtx
 bool
@@ -527,13 +522,6 @@ test_start_ms_
 int64_t
 ramp_up_finished_ms_
 ;
-const
-std
-:
-:
-string
-extension_type_
-;
 std
 :
 :
@@ -592,11 +580,6 @@ num_flexfec_streams
 unsigned
 int
 start_bitrate_bps
-absl
-:
-:
-string_view
-extension_type
 bool
 rtx
 bool
