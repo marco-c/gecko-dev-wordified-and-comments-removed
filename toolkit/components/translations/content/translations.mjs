@@ -629,11 +629,10 @@ and
 returns
 *
 the
-two
--
-letter
+BCP
+47
 language
-label
+tag
 of
 the
 language
@@ -1343,9 +1342,8 @@ detect
 rather
 than
 a
-two
--
-letter
+BCP
+47
 language
 tag
 then

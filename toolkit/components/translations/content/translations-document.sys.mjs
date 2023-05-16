@@ -911,9 +911,6 @@ TranslationsDocument
 *
 *
 The
-two
--
-letter
 BCP
 47
 language
@@ -1312,8 +1309,6 @@ string
 documentLanguage
 -
 The
-two
-letter
 BCP
 47
 language
