@@ -83,6 +83,7 @@ doSearch
 cx
 query
 editor
+focusFirstResult
 )
 {
 return
@@ -130,6 +131,7 @@ searchContents
 cx
 query
 editor
+focusFirstResult
 )
 )
 ;
