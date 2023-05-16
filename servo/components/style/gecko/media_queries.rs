@@ -2593,7 +2593,7 @@ normal
 inline
 ]
 fn
-effective_text_zoom
+text_zoom
 (
 &
 self
@@ -2629,7 +2629,7 @@ return
 ;
 pc
 .
-mEffectiveTextZoom
+mTextZoom
 }
 #
 [
@@ -2655,7 +2655,7 @@ scale_by
 (
 self
 .
-effective_text_zoom
+text_zoom
 (
 )
 )
@@ -2687,7 +2687,7 @@ scale_by
 /
 self
 .
-effective_text_zoom
+text_zoom
 (
 )
 )

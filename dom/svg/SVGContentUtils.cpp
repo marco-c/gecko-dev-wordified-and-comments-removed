@@ -2018,7 +2018,7 @@ ToCSSPixels
 aPresContext
 -
 >
-EffectiveTextZoom
+TextZoom
 (
 )
 ;
@@ -2270,7 +2270,7 @@ xHeight
 aPresContext
 -
 >
-EffectiveTextZoom
+TextZoom
 (
 )
 ;
