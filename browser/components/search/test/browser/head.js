@@ -1762,7 +1762,6 @@ impression
 ;
 }
 }
-async
 function
 assertAbandonmentEvent
 (
