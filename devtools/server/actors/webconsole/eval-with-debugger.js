@@ -2295,7 +2295,7 @@ bindSelf
 ;
 }
 const
-availableHelpers
+availableCommands
 =
 WebConsoleCommandsManager
 .
@@ -2340,7 +2340,7 @@ env
 {
 helpersToDisable
 =
-availableHelpers
+availableCommands
 .
 filter
 (
@@ -2363,7 +2363,7 @@ else
 {
 helpersToDisable
 =
-availableHelpers
+availableCommands
 .
 filter
 (
