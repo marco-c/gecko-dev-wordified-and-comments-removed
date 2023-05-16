@@ -816,6 +816,11 @@ no_system_changes
 =
 False
         
+exclude
+=
+[
+]
+        
 mach_context
 =
 None
@@ -846,6 +851,12 @@ self
 no_system_changes
 =
 no_system_changes
+        
+self
+.
+exclude
+=
+exclude
         
 self
 .
@@ -1335,6 +1346,7 @@ maybe_install_private_packages_or_exit
 (
 self
 application
+checkout_type
 )
 :
         
@@ -1345,6 +1357,9 @@ instance
 auto_bootstrap
 (
 application
+self
+.
+exclude
 )
         
 self
@@ -1994,6 +2009,7 @@ self
 maybe_install_private_packages_or_exit
 (
 application
+checkout_type
 )
             
 self
@@ -2222,6 +2238,7 @@ self
 maybe_install_private_packages_or_exit
 (
 application
+checkout_type
 )
         
 self
@@ -3487,6 +3504,16 @@ path
 git
 "
         
+moz_configure
+=
+path
+/
+"
+moz
+.
+configure
+"
+        
 if
 hg
 and
@@ -3629,6 +3656,20 @@ else
 hg
 "
 )
+path
+        
+elif
+moz_configure
+.
+exists
+(
+)
+:
+            
+return
+"
+SOURCE
+"
 path
         
 if
