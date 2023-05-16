@@ -132,9 +132,6 @@ MOZ_CAN_RUN_SCRIPT
 void
 AddHighlightSelectionsToFrameSelection
 (
-ErrorResult
-&
-aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -147,9 +144,6 @@ aRange
 Highlight
 &
 aHighlight
-ErrorResult
-&
-aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT

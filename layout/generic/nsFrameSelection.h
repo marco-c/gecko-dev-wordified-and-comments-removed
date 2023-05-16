@@ -791,12 +791,6 @@ dom
 Highlight
 &
 aHighlight
-mozilla
-:
-:
-ErrorResult
-&
-aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -836,12 +830,6 @@ dom
 AbstractRange
 &
 aRange
-mozilla
-:
-:
-ErrorResult
-&
-aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT

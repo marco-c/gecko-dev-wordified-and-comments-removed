@@ -295,9 +295,6 @@ aRange
 Highlight
 &
 aHighlight
-ErrorResult
-&
-aRv
 )
 {
 RefPtr
@@ -416,7 +413,6 @@ AddHighlightSelectionRange
 highlightName
 aHighlight
 aRange
-aRv
 )
 ;
 }
@@ -601,9 +597,6 @@ HighlightRegistry
 :
 AddHighlightSelectionsToFrameSelection
 (
-ErrorResult
-&
-aRv
 )
 {
 if
@@ -680,21 +673,8 @@ AddHighlightSelection
 highlightName
 *
 highlight
-aRv
 )
 ;
-if
-(
-aRv
-.
-Failed
-(
-)
-)
-{
-return
-;
-}
 }
 }
 void
@@ -905,7 +885,6 @@ AddHighlightSelection
 (
 highlightNameAtom
 aValue
-aRv
 )
 ;
 }

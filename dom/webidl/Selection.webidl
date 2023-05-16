@@ -1004,7 +1004,6 @@ setColors
 /
 [
 ChromeOnly
-Throws
 ]
 undefined
 resetColors

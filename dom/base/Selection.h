@@ -1748,9 +1748,6 @@ aRv
 void
 ResetColors
 (
-ErrorResult
-&
-aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -1866,12 +1863,6 @@ AddHighlightRangeAndSelectFramesAndNotifyListeners
 AbstractRange
 &
 aRange
-mozilla
-:
-:
-ErrorResult
-&
-aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT
