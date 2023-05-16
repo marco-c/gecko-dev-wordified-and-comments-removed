@@ -1032,7 +1032,7 @@ raises
 (
 error
 .
-NoSuchElementException
+StaleElementReferenceException
 )
 :
         

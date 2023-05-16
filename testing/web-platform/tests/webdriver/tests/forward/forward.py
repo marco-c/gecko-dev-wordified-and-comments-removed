@@ -1201,7 +1201,7 @@ raises
 (
 error
 .
-NoSuchElementException
+StaleElementReferenceException
 )
 :
         
