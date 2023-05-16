@@ -1836,6 +1836,16 @@ pageCompleteCheckPollTimeout
 "
 -
 -
+beforePageCompleteWaitTime
+"
+            
+"
+2000
+"
+            
+"
+-
+-
 timeouts
 .
 pageLoad
