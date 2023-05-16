@@ -377,6 +377,13 @@ nsACString
 nsACString
 "
 "
+nsStringRepr
+"
+=
+"
+nsString
+"
+"
 BufferDescriptor______nsACString
 "
 =
@@ -434,6 +441,13 @@ SamplerDescriptor______nsACString
 =
 "
 WGPUSamplerDescriptor
+"
+"
+AdapterInformation_nsString
+"
+=
+"
+WGPUAdapterInformation
 "
 [
 parse
