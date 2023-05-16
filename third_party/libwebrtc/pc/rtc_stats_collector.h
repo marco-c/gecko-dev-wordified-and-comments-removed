@@ -789,6 +789,15 @@ transport_name
 TrackMediaInfoMap
 track_media_info_map
 ;
+absl
+:
+:
+optional
+<
+RtpTransceiverDirection
+>
+current_direction
+;
 }
 ;
 void

@@ -2218,6 +2218,15 @@ std
 :
 string
 >
+playout_id
+;
+RTCStatsMember
+<
+std
+:
+:
+string
+>
 track_identifier
 ;
 RTCStatsMember
