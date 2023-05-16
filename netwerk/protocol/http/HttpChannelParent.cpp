@@ -6604,9 +6604,6 @@ cleanedUpResponseHead
 if
 (
 chan
-&
-&
-chan
 -
 >
 ChannelBlockedByOpaqueResponse
