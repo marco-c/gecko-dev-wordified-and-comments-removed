@@ -1790,7 +1790,7 @@ NS_NewRunnableFunction
 WebTransportSessionProxy
 :
 :
-CreateOutgoingUnidirectionalStream
+CreateStreamInternal
 "
 [
 cb
