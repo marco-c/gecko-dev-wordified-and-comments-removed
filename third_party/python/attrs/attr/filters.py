@@ -13,17 +13,6 @@ asdict
 "
 "
 from
-__future__
-import
-absolute_import
-division
-print_function
-from
-.
-_compat
-import
-isclass
-from
 .
 _make
 import
@@ -66,9 +55,25 @@ cls
 in
 what
 if
-isclass
+isinstance
 (
 cls
+type
+)
+)
+        
+frozenset
+(
+cls
+for
+cls
+in
+what
+if
+isinstance
+(
+cls
+str
 )
 )
         
@@ -100,7 +105,7 @@ what
 "
 "
     
-Whitelist
+Include
 *
 what
 *
@@ -112,7 +117,7 @@ what
 :
 What
 to
-whitelist
+include
 .
     
 :
@@ -121,9 +126,14 @@ what
 :
 list
 of
+classes
 type
+field
+names
+str
 or
-attr
+        
+attrs
 .
 Attribute
 \
@@ -135,11 +145,29 @@ rtype
 :
 callable
     
+.
+.
+versionchanged
+:
+:
+23
+.
+1
+.
+0
+Accept
+strings
+with
+field
+names
+.
+    
 "
 "
 "
     
 cls
+names
 attrs
 =
 _split_what
@@ -156,15 +184,27 @@ value
 :
         
 return
+(
+            
 value
 .
 __class__
 in
 cls
+            
+or
+attribute
+.
+name
+in
+names
+            
 or
 attribute
 in
 attrs
+        
+)
     
 return
 include_
@@ -180,7 +220,7 @@ what
 "
 "
     
-Blacklist
+Exclude
 *
 what
 *
@@ -192,7 +232,7 @@ what
 :
 What
 to
-blacklist
+exclude
 .
     
 :
@@ -202,8 +242,13 @@ what
 list
 of
 classes
+type
+field
+names
+str
 or
-attr
+        
+attrs
 .
 Attribute
 \
@@ -216,11 +261,30 @@ rtype
 :
 callable
     
+.
+.
+versionchanged
+:
+:
+23
+.
+3
+.
+0
+Accept
+field
+name
+string
+as
+input
+argument
+    
 "
 "
 "
     
 cls
+names
 attrs
 =
 _split_what
@@ -237,17 +301,28 @@ value
 :
         
 return
+not
+(
+            
 value
 .
 __class__
-not
 in
 cls
-and
+            
+or
 attribute
-not
+.
+name
+in
+names
+            
+or
+attribute
 in
 attrs
+        
+)
     
 return
 exclude_
