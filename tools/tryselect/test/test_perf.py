@@ -6655,9 +6655,16 @@ exists_cache_file
         
 (
             
+(
+                
+[
+]
+                
 "
 base_commit
 "
+            
+)
             
 {
                 
@@ -6665,8 +6672,10 @@ base_commit
 base_commit
 "
 :
-{
+[
                     
+{
+                        
 "
 base_revision_treeherder
 "
@@ -6674,7 +6683,7 @@ base_revision_treeherder
 "
 2b04563b5
 "
-                    
+                        
 "
 date
 "
@@ -6686,8 +6695,17 @@ date
 -
 31
 "
-                
+                        
+"
+tasks
+"
+:
+[
+]
+                    
 }
+                
+]
             
 }
             
@@ -6706,9 +6724,97 @@ True
         
 (
             
+(
+                
+[
+"
+task
+-
+a
+"
+]
+                
+"
+subset_base_commit
+"
+            
+)
+            
+{
+                
+"
+subset_base_commit
+"
+:
+[
+                    
+{
+                        
+"
+base_revision_treeherder
+"
+:
+"
+2b04563b5
+"
+                        
+"
+date
+"
+:
+"
+2023
+-
+03
+-
+31
+"
+                        
+"
+tasks
+"
+:
+[
+"
+task
+-
+a
+"
+"
+task
+-
+b
+"
+]
+                    
+}
+                
+]
+            
+}
+            
+"
+2b04563b5
+"
+            
+[
+1
+0
+]
+            
+True
+        
+)
+        
+(
+            
+(
+[
+]
 "
 not_exist_cached_base_commit
 "
+)
             
 {
                 
@@ -6716,8 +6822,10 @@ not_exist_cached_base_commit
 base_commit
 "
 :
-{
+[
                     
+{
+                        
 "
 base_revision_treeherder
 "
@@ -6725,7 +6833,7 @@ base_revision_treeherder
 "
 2b04563b5
 "
-                    
+                        
 "
 date
 "
@@ -6737,8 +6845,17 @@ date
 -
 31
 "
-                
+                        
+"
+tasks
+"
+:
+[
+]
+                    
 }
+                
+]
             
 }
             
@@ -6755,7 +6872,93 @@ True
         
 (
             
+(
+                
+[
+"
+task
+-
+a
+"
+"
+task
+-
+b
+"
+]
+                
+"
+superset_base_commit
+"
+            
+)
+            
+{
+                
+"
+superset_base_commit
+"
+:
+[
+                    
+{
+                        
+"
+base_revision_treeherder
+"
+:
+"
+2b04563b5
+"
+                        
+"
+date
+"
+:
+"
+2023
+-
+03
+-
+31
+"
+                        
+"
+tasks
+"
+:
+[
+"
+task
+-
+a
+"
+]
+                    
+}
+                
+]
+            
+}
+            
 None
+            
+[
+1
+0
+]
+            
+True
+        
+)
+        
+(
+            
+(
+[
+]
+None
+)
             
 {
 }
@@ -6773,7 +6976,11 @@ True
         
 (
             
+(
+[
+]
 None
+)
             
 {
 }
@@ -6904,6 +7111,7 @@ PerfParser
 .
 check_cached_revision
 (
+*
 args
 )
         
@@ -7093,6 +7301,7 @@ PerfParser
 .
 save_revision_treeherder
 (
+TASKS
 args
 [
 0
