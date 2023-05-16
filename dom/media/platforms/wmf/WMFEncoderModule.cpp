@@ -58,6 +58,9 @@ const
 CreateEncoderParams
 &
 aParams
+const
+bool
+aHardwareNotAllowed
 )
 const
 {
@@ -118,6 +121,7 @@ ToH264Config
 aParams
 .
 mTaskQueue
+aHardwareNotAllowed
 )
 ;
 break
@@ -150,6 +154,7 @@ ToVP8Config
 aParams
 .
 mTaskQueue
+aHardwareNotAllowed
 )
 ;
 break
@@ -182,6 +187,7 @@ ToVP9Config
 aParams
 .
 mTaskQueue
+aHardwareNotAllowed
 )
 ;
 break
