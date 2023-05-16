@@ -162,7 +162,7 @@ include
 "
 gc
 /
-TraceMethods
+StableCellHasher
 -
 inl
 .
@@ -173,7 +173,7 @@ include
 "
 gc
 /
-Zone
+TraceMethods
 -
 inl
 .
@@ -1078,15 +1078,10 @@ src
 thingSize
 )
 ;
-src
--
->
-zone
-(
-)
--
->
-transferUniqueId
+gc
+:
+:
+TransferUniqueId
 (
 dst
 src
