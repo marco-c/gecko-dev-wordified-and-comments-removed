@@ -536,7 +536,7 @@ codecName
 {
 Assert
 .
-greaterOrEqual
+equal
 (
 telemetry
 [
