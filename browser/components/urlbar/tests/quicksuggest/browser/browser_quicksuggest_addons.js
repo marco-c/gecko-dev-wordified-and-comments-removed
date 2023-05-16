@@ -43,7 +43,7 @@ first
 -
 addon
 "
-name
+title
 :
 "
 First
@@ -61,7 +61,7 @@ addon
 custom_details
 :
 {
-addons
+amo
 :
 {
 rating
@@ -69,7 +69,7 @@ rating
 "
 5
 "
-reviews
+number_of_ratings
 :
 "
 1234567
@@ -116,7 +116,7 @@ second
 -
 addon
 "
-name
+title
 :
 "
 Second
@@ -134,7 +134,7 @@ addon
 custom_details
 :
 {
-addons
+amo
 :
 {
 rating
@@ -144,7 +144,7 @@ rating
 .
 5
 "
-reviews
+number_of_ratings
 :
 "
 123
@@ -191,7 +191,7 @@ third
 -
 addon
 "
-name
+title
 :
 "
 Third
@@ -209,7 +209,7 @@ addon
 custom_details
 :
 {
-addons
+amo
 :
 {
 rating
@@ -217,7 +217,7 @@ rating
 "
 0
 "
-reviews
+number_of_ratings
 :
 "
 0
@@ -501,7 +501,7 @@ title
 textContent
 merinoSuggestion
 .
-name
+title
 )
 ;
 const
@@ -577,9 +577,9 @@ merinoSuggestion
 .
 custom_details
 .
-addons
+amo
 .
-reviews
+number_of_ratings
 )
 )
 }
@@ -898,7 +898,7 @@ baseMerinoSuggestion
 .
 custom_details
 .
-addons
+amo
 .
 rating
 =

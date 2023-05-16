@@ -594,7 +594,7 @@ title
 :
 suggestion
 .
-name
+title
 description
 :
 suggestion
@@ -608,7 +608,7 @@ suggestion
 .
 custom_details
 .
-addons
+amo
 .
 rating
 )
@@ -620,9 +620,9 @@ suggestion
 .
 custom_details
 .
-addons
+amo
 .
-reviews
+number_of_ratings
 )
 shouldNavigate
 :
