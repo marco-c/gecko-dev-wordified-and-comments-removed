@@ -703,6 +703,7 @@ intervention_update
 keyword
 merino_adm_nonsponsored
 merino_adm_sponsored
+merino_amo
 merino_top_picks
 merino_wikipedia
 remote_tab
@@ -1300,6 +1301,7 @@ intervention_update
 keyword
 merino_adm_nonsponsored
 merino_adm_sponsored
+merino_amo
 merino_top_picks
 merino_wikipedia
 remote_tab
@@ -1695,6 +1697,7 @@ intervention_update
 keyword
 merino_adm_nonsponsored
 merino_adm_sponsored
+merino_amo
 merino_top_picks
 merino_wikipedia
 remote_tab
@@ -2403,6 +2406,7 @@ intervention_update
 keyword
 merino_adm_nonsponsored
 merino_adm_sponsored
+merino_amo
 merino_top_picks
 merino_wikipedia
 remote_tab
