@@ -112,9 +112,6 @@ pendingSelectedLocation
 selectedLocation
 :
 undefined
-shouldSelectOriginalLocation
-:
-true
 }
 ;
 }
@@ -191,8 +188,6 @@ if
 (
 action
 .
-location
-.
 source
 .
 url
@@ -226,11 +221,6 @@ action
 .
 location
 pendingSelectedLocation
-shouldSelectOriginalLocation
-:
-action
-.
-shouldSelectOriginalLocation
 }
 ;
 }

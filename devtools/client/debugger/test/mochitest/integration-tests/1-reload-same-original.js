@@ -74,7 +74,7 @@ original
 .
 js
 "
-8
+6
 )
 ;
 info
@@ -166,7 +166,7 @@ breakpoint
 location
 .
 line
-8
+6
 )
 ;
 if
@@ -204,7 +204,7 @@ breakpoint
 generatedLocation
 .
 line
-84
+82
 )
 ;
 }
@@ -213,7 +213,7 @@ expectedOriginalFileContentOnBreakpointLine
 =
 "
 await
-nonSourceMappedFunction
+bar
 (
 )
 ;
@@ -224,7 +224,7 @@ expectedGeneratedFileContentOnBreakpointLine
 =
 "
 await
-nonSourceMappedFunction
+bar
 (
 )
 ;
@@ -253,7 +253,7 @@ await
 assertBreakpoint
 (
 dbg
-8
+6
 )
 ;
 info
@@ -277,7 +277,7 @@ foo
 assertTextContentOnLine
 (
 dbg
-8
+6
 expectedOriginalFileContentOnBreakpointLine
 )
 ;
@@ -334,13 +334,13 @@ await
 assertBreakpoint
 (
 dbg
-84
+82
 )
 ;
 assertTextContentOnLine
 (
 dbg
-84
+82
 expectedGeneratedFileContentOnBreakpointLine
 )
 ;
