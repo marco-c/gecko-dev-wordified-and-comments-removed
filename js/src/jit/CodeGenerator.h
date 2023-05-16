@@ -324,9 +324,6 @@ class
 OutOfLineRegExpSearcher
 ;
 class
-OutOfLineRegExpTester
-;
-class
 OutOfLineRegExpExecMatch
 ;
 class
@@ -721,14 +718,6 @@ void
 visitOutOfLineRegExpSearcher
 (
 OutOfLineRegExpSearcher
-*
-ool
-)
-;
-void
-visitOutOfLineRegExpTester
-(
-OutOfLineRegExpTester
 *
 ool
 )

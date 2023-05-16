@@ -12853,16 +12853,6 @@ RegExpSearcher
 JS_INLINABLE_FN
 (
 "
-RegExpTester
-"
-RegExpTester
-3
-0
-RegExpTester
-)
-JS_INLINABLE_FN
-(
-"
 SameValue
 "
 js
