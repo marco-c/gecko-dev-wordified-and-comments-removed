@@ -14,7 +14,7 @@ gl
 fbAQLP
 exports
 [
-SearchBar
+SearchInFileBar
 should
 render
 1
