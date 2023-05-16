@@ -260,7 +260,7 @@ dbg
 .
 store
 "
-BLACKBOX_WHOLE_SOURCES
+BLACKBOX
 "
 )
 ;

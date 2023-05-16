@@ -1930,7 +1930,7 @@ dbg
 .
 store
 "
-BLACKBOX_WHOLE_SOURCES
+BLACKBOX
 "
 )
 ;
@@ -1963,7 +1963,7 @@ dbg
 .
 store
 "
-UNBLACKBOX_WHOLE_SOURCES
+BLACKBOX
 "
 )
 ;
