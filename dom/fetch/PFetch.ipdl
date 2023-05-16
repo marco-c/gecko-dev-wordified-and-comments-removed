@@ -113,9 +113,6 @@ needOnDataAvailable
 bool
 hasCSPEventListener
 ;
-uint64_t
-associatedBrowsingContextID
-;
 }
 ;
 protocol
@@ -180,13 +177,6 @@ OnReportPerformanceTiming
 (
 ResponseTiming
 aTiming
-)
-;
-async
-OnNotifyNetworkMonitorAlternateStack
-(
-uint64_t
-aChannelID
 )
 ;
 async

@@ -432,10 +432,6 @@ mWindowID
 (
 UINT64_MAX
 )
-mAssociatedBrowsingContextID
-(
-0
-)
 mReferrerInfo
 (
 new
