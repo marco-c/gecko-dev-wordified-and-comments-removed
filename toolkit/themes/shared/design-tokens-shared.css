@@ -462,17 +462,7 @@ color
 -
 deemphasized
 :
-color
--
-mix
-(
-in
-srgb
-currentColor
-60
-%
-transparent
-)
+unset
 ;
 /
 *
@@ -591,7 +581,7 @@ color
 -
 deemphasized
 :
-inherit
+CanvasText
 ;
 }
 }
@@ -613,7 +603,6 @@ only
 /
 :
 root
-:
 host
 {
 /
@@ -737,7 +726,6 @@ only
 /
 :
 root
-:
 host
 {
 /
