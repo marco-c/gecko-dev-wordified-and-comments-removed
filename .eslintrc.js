@@ -6077,7 +6077,9 @@ configurations
 /
 ControlCenter
 .
-jsm
+sys
+.
+mjs
 "
 "
 browser

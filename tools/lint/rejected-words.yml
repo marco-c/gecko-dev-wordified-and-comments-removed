@@ -624,7 +624,9 @@ configurations
 /
 PermissionPrompts
 .
-jsm
+sys
+.
+mjs
 -
 build
 /
