@@ -207,7 +207,11 @@ resource
 :
 /
 /
-autofill
+gre
+/
+modules
+/
+shared
 /
 FormAutofillUtils
 .
