@@ -218,7 +218,6 @@ AllPointerCapabilities
 SystemScrollbarSize
 TouchDeviceSupportPresent
 TitlebarRadius
-GtkMenuRadius
 DynamicRange
 VideoDynamicRange
 PanelAnimations
