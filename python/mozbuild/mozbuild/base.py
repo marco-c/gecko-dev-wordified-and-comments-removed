@@ -2916,15 +2916,29 @@ repo
 None
         
 if
+(
+            
 repo
+            
+and
+repo
+!
+=
+"
+SOURCE
+"
+            
 and
 not
 vcs_revision
+            
 and
 repo
 .
 sparse_checkout_present
 (
+)
+        
 )
 :
             

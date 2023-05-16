@@ -1,3 +1,7 @@
+from
+__future__
+import
+absolute_import
 import
 argparse
 import
@@ -2565,6 +2569,17 @@ topsrcdir
                 
 )
                 
+if
+not
+isinstance
+(
+repo
+mozversioncontrol
+.
+SrcRepository
+)
+:
+                    
 changed_files
 =
 set
@@ -2578,35 +2593,35 @@ get_outgoing_files
 |
 set
 (
-                    
+                        
 repo
 .
 get_changed_files
 (
 )
-                
+                    
 )
-                
+                    
 if
 changed_files
 :
-                    
+                        
 command_context
 .
 log
 (
-                        
+                            
 logging
 .
 ERROR
-                        
+                            
 "
 artifact
 "
-                        
+                            
 {
 }
-                        
+                            
 "
 Hint
 :
@@ -2616,7 +2631,7 @@ your
 local
 changes
 "
-                        
+                            
 "
 to
 the
@@ -2631,7 +2646,7 @@ sorted
 (
 changed_files
 )
-                    
+                        
 )
                 
 if

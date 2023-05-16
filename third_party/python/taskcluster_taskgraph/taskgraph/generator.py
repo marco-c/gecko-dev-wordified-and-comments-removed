@@ -1513,6 +1513,8 @@ for
 f
 in
 filters
+if
+f
 ]
         
 yield
