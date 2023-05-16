@@ -3141,13 +3141,13 @@ mHadNonBlankPaint
 ;
 }
 bool
-HadContentfulPaint
+HadFirstContentfulPaint
 (
 )
 const
 {
 return
-mHadContentfulPaint
+mHadFirstContentfulPaint
 ;
 }
 void
@@ -4091,7 +4091,7 @@ mHadNonBlankPaint
 1
 ;
 unsigned
-mHadContentfulPaint
+mHadFirstContentfulPaint
 :
 1
 ;

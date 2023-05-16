@@ -3098,7 +3098,7 @@ pctx
 pctx
 -
 >
-HadContentfulPaint
+HadFirstContentfulPaint
 (
 )
 &
@@ -8720,7 +8720,7 @@ IsInLayoutAsapMode
 mPresContext
 -
 >
-HadContentfulPaint
+HadFirstContentfulPaint
 (
 )
 |

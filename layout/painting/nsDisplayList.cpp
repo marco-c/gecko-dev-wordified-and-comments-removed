@@ -6089,7 +6089,7 @@ if
 pc
 -
 >
-HadContentfulPaint
+HadFirstContentfulPaint
 (
 )
 &
