@@ -221,7 +221,7 @@ popFront
 )
 )
 {
-JSScript
+BaseScript
 *
 script
 =
@@ -320,7 +320,7 @@ popFront
 )
 )
 {
-JSScript
+BaseScript
 *
 script
 =
