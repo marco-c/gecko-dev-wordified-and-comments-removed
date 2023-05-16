@@ -88,12 +88,6 @@ GPU_PROCESSES_ONLY
 <
 <
 8
-GMPLUGIN_PROCESSES_ONLY
-=
-1
-<
-<
-9
 }
 mFlags
 ;
