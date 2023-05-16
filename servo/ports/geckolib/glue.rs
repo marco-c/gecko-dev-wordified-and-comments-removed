@@ -4635,7 +4635,7 @@ convert_absolute_color_to_nscolor
 &
 computed
 .
-resolve_into_absolute
+resolve_to_absolute
 (
 &
 foreground_color
@@ -39783,7 +39783,7 @@ rgba
 =
 computed
 .
-resolve_into_absolute
+resolve_to_absolute
 (
 &
 current_color
@@ -39851,11 +39851,7 @@ AbsoluteColor
 {
 color
 .
-clone
-(
-)
-.
-resolve_into_absolute
+resolve_to_absolute
 (
 foreground
 )
