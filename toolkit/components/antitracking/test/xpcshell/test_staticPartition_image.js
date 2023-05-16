@@ -224,12 +224,15 @@ false
 var
 body
 =
+atob
+(
 "
 iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAIAAADZSiLoAAAAEUlEQVQImWP4z8AAQTAamQkAhpcI
 +
 DeMzFcAAAAASUVORK5CYII
 =
 "
+)
 ;
 response
 .
