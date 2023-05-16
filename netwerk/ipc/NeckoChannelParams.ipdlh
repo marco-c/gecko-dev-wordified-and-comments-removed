@@ -583,6 +583,9 @@ uint32_t
 httpsOnlyStatus
 ;
 bool
+hstsStatus
+;
+bool
 hasValidUserGestureActivation
 ;
 bool
@@ -656,6 +659,9 @@ skipContentSniffing
 ;
 uint32_t
 httpsOnlyStatus
+;
+bool
+hstsStatus
 ;
 bool
 hasValidUserGestureActivation

@@ -807,6 +807,8 @@ aSkipContentSniffing
 uint32_t
 aHttpsOnlyStatus
 bool
+aHstsStatus
+bool
 aHasValidUserGestureActivation
 bool
 aAllowDeprecatedSystemRequests
@@ -1329,6 +1331,11 @@ nsILoadInfo
 :
 :
 HTTPS_ONLY_UNINITIALIZED
+;
+bool
+mHstsStatus
+=
+false
 ;
 bool
 mHasValidUserGestureActivation

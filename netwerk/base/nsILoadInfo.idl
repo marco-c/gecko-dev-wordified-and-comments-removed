@@ -946,6 +946,13 @@ infallible
 ]
 attribute
 boolean
+hstsStatus
+;
+[
+infallible
+]
+attribute
+boolean
 hasValidUserGestureActivation
 ;
 [
