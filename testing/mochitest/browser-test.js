@@ -5325,7 +5325,7 @@ BackgroundPageThumbs
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -5338,7 +5338,9 @@ modules
 /
 BackgroundPageThumbs
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
