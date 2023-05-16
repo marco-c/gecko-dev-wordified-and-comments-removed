@@ -4172,11 +4172,6 @@ deps
 =
 [
 "
-audio
-:
-audio_perf_tests
-"
-"
 call
 :
 call_perf_tests
