@@ -14715,6 +14715,16 @@ when
 =
 necko_wifi_dbus
 )
+set_define
+(
+"
+NECKO_WIFI_DBUS
+"
+True
+when
+=
+necko_wifi_dbus
+)
 option
 (
 "
