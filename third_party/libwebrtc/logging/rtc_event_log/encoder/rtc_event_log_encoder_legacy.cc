@@ -2421,6 +2421,15 @@ Type
 :
 FrameDecoded
 :
+case
+RtcEvent
+:
+:
+Type
+:
+:
+NetEqSetMinimumDelay
+:
 return
 "
 "

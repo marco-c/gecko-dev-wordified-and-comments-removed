@@ -49,6 +49,7 @@ GenericPacketSent
 GenericPacketReceived
 GenericAckReceived
 FrameDecoded
+NetEqSetMinimumDelay
 BeginV3Log
 =
 0x2501580
