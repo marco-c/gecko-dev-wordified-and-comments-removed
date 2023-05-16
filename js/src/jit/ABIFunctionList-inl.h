@@ -1223,17 +1223,6 @@ js
 jit
 :
 :
-SetNativeDataPropertyPure
-)
-\
-_
-(
-js
-:
-:
-jit
-:
-:
 StringFromCharCodeNoGC
 )
 \
