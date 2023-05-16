@@ -71,9 +71,9 @@ h
 #
 include
 "
-js
+vm
 /
-Printer
+JSONPrinter
 .
 h
 "
@@ -82,7 +82,7 @@ include
 "
 vm
 /
-JSONPrinter
+Printer
 .
 h
 "

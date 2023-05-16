@@ -1,9 +1,9 @@
 #
 ifndef
-js_Printer_h
+vm_Printer_h
 #
 define
-js_Printer_h
+vm_Printer_h
 #
 include
 "
@@ -75,7 +75,6 @@ class
 LifoAlloc
 ;
 class
-JS_PUBLIC_API
 GenericPrinter
 {
 protected
@@ -205,7 +204,6 @@ const
 }
 ;
 class
-JS_PUBLIC_API
 Sprinter
 final
 :
@@ -466,7 +464,6 @@ override
 }
 ;
 class
-JS_PUBLIC_API
 Fprinter
 final
 :
@@ -585,7 +582,6 @@ put
 }
 ;
 class
-JS_PUBLIC_API
 LSprinter
 final
 :
@@ -714,7 +710,6 @@ js_EscapeMap
 ]
 ;
 extern
-JS_PUBLIC_API
 JS
 :
 :
@@ -737,7 +732,6 @@ quote
 )
 ;
 extern
-JS_PUBLIC_API
 bool
 QuoteString
 (
@@ -757,7 +751,6 @@ quote
 )
 ;
 extern
-JS_PUBLIC_API
 bool
 JSONQuoteString
 (
@@ -785,7 +778,6 @@ typename
 CharT
 >
 bool
-JS_PUBLIC_API
 QuoteString
 (
 Sprinter
