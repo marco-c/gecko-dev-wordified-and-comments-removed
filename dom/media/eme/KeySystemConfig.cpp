@@ -168,17 +168,9 @@ if
 MOZ_WMF_CDM
 if
 (
-IsPlayReadyKeySystem
+IsPlayReadyKeySystemAndSupported
 (
 aKeySystem
-)
-&
-&
-StaticPrefs
-:
-:
-media_eme_playready_enabled
-(
 )
 &
 &
@@ -1102,7 +1094,7 @@ ifdef
 MOZ_WMF_CDM
 if
 (
-IsPlayReadyKeySystem
+IsPlayReadyKeySystemAndSupported
 (
 aKeySystem
 )

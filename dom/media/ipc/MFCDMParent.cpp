@@ -509,7 +509,7 @@ aManagerThread
 {
 MOZ_ASSERT
 (
-IsPlayReadyKeySystem
+IsPlayReadyKeySystemAndSupported
 (
 aKeySystem
 )

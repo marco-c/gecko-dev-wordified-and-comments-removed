@@ -322,7 +322,7 @@ aKeySystem
 ifdef
 MOZ_WMF_CDM
 bool
-IsPlayReadyKeySystem
+IsPlayReadyKeySystemAndSupported
 (
 const
 nsAString
