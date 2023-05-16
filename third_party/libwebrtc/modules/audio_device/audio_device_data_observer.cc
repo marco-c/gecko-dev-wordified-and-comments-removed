@@ -218,7 +218,10 @@ clockDrift
 currentMicLevel
 keyPressed
 newMicLevel
-0
+absl
+:
+:
+nullopt
 )
 ;
 }
@@ -248,7 +251,13 @@ keyPressed
 uint32_t
 &
 newMicLevel
+absl
+:
+:
+optional
+<
 int64_t
+>
 capture_timestamp_ns
 )
 override
