@@ -239,6 +239,9 @@ namespace
 webrtc
 {
 class
+RtpPacketReceived
+;
+class
 VideoFrame
 ;
 }
@@ -475,7 +478,10 @@ ConnectReceiverRtpEvent
 (
 MediaEventSourceExc
 <
-MediaPacket
+webrtc
+:
+:
+RtpPacketReceived
 webrtc
 :
 :

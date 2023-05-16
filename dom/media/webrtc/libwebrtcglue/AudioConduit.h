@@ -107,7 +107,10 @@ override
 void
 OnRtpReceived
 (
-MediaPacket
+webrtc
+:
+:
+RtpPacketReceived
 &
 &
 aPacket
@@ -196,7 +199,10 @@ ConnectReceiverRtpEvent
 (
 MediaEventSourceExc
 <
-MediaPacket
+webrtc
+:
+:
+RtpPacketReceived
 webrtc
 :
 :
