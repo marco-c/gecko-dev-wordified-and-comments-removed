@@ -123,15 +123,6 @@ nsWindowsHelpers
 .
 h
 "
-#
-include
-"
-mozilla
-/
-MozProcessMitigationDynamicCodePolicy
-.
-h
-"
 NTSTATUS
 NTAPI
 NtFlushBuffersFile
@@ -6341,7 +6332,7 @@ return
 true
 ;
 }
-MOZ_PROCESS_MITIGATION_DYNAMIC_CODE_POLICY
+PROCESS_MITIGATION_DYNAMIC_CODE_POLICY
 policy
 =
 {
