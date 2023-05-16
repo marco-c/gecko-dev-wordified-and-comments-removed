@@ -117,6 +117,11 @@ Shutdown
 (
 )
 ;
+[
+[
+nodiscard
+]
+]
 nsresult
 StripQueryString
 (
