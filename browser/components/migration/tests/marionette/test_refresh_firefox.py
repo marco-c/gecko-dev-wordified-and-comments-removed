@@ -226,22 +226,12 @@ self
         
 self
 .
-runAsyncCode
+runCode
 (
             
 "
 "
 "
-          
-let
-[
-username
-password
-resolve
-]
-=
-arguments
-;
           
 let
 myLogin
@@ -283,9 +273,15 @@ form
             
 null
             
-username
+arguments
+[
+0
+]
             
-password
+arguments
+[
+1
+]
             
 "
 username
@@ -302,25 +298,10 @@ Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 myLogin
 )
-            
-.
-then
-(
-(
-)
-=
->
-resolve
-(
-false
-)
-resolve
-)
-;
         
 "
 "

@@ -245,7 +245,6 @@ addMessageListener
 "
 initLogins
 "
-async
 logins
 =
 >
@@ -325,12 +324,11 @@ initialCount
 {
 try
 {
-await
 Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 loginInfo
 )
@@ -376,7 +374,6 @@ addMessageListener
 "
 addLogin
 "
-async
 loginVariableName
 =
 >
@@ -408,12 +405,11 @@ defined
 loginVariableName
 )
 ;
-await
 Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 login
 )

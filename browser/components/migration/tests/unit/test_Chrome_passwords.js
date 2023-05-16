@@ -452,7 +452,7 @@ promiseSetPassword
 login
 )
 {
-const
+let
 encryptedString
 =
 await
@@ -477,7 +477,7 @@ encryptedString
 }
 )
 ;
-const
+let
 passwordValue
 =
 new
@@ -815,7 +815,7 @@ generateDifferentLogin
 login
 )
 {
-const
+let
 newLogin
 =
 Cc
@@ -933,7 +933,7 @@ pathId
 let
 profilePathSegments
 ;
-const
+let
 mockMacOSKeychain
 =
 {
@@ -971,7 +971,7 @@ macosx
 "
 )
 {
-const
+let
 {
 ChromeMacOSLoginCrypto
 }
@@ -1061,7 +1061,7 @@ win
 "
 )
 {
-const
+let
 {
 ChromeWindowsLoginCrypto
 }
@@ -1147,7 +1147,7 @@ implemented
 )
 ;
 }
-const
+let
 dirSvcFile
 =
 do_get_file
@@ -1177,7 +1177,7 @@ profilePathSegments
 )
 )
 ;
-const
+let
 loginDataFilePath
 =
 PathUtils
@@ -1219,7 +1219,7 @@ macosx
 "
 )
 {
-const
+let
 migrator
 =
 await
@@ -1309,7 +1309,7 @@ test_importIntoEmptyDB
 {
 for
 (
-const
+let
 login
 of
 TEST_LOGINS
@@ -1322,7 +1322,7 @@ login
 )
 ;
 }
-const
+let
 migrator
 =
 await
@@ -1494,7 +1494,7 @@ test_importExistingLogins
 (
 )
 {
-const
+let
 migrator
 =
 await
@@ -1566,7 +1566,7 @@ them
 "
 )
 ;
-const
+let
 newLogins
 =
 [

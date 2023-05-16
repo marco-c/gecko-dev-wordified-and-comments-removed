@@ -306,12 +306,11 @@ if
 oldPassword
 )
 {
-await
 Services
 .
 logins
 .
-addLoginAsync
+addLogin
 (
 LoginTestUtils
 .
