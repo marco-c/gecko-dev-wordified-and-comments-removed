@@ -11284,12 +11284,6 @@ aRv
 ;
 protected
 :
-bool
-ShouldResistFingerprinting
-(
-)
-const
-;
 uint32_t
 GetPrincipalHashValue
 (

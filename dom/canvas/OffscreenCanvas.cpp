@@ -2111,6 +2111,10 @@ usePlaceholder
 =
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+CanvasImageExtractionPrompt
 )
 ;
 CanvasRenderingContextHelper
@@ -2330,6 +2334,10 @@ usePlaceholder
 =
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+CanvasImageExtractionPrompt
 )
 ;
 CanvasRenderingContextHelper
@@ -2397,6 +2405,8 @@ OffscreenCanvas
 :
 ShouldResistFingerprinting
 (
+RFPTarget
+aTarget
 )
 const
 {
@@ -2409,6 +2419,7 @@ ShouldResistFingerprinting
 GetOwnerGlobal
 (
 )
+aTarget
 )
 ;
 }

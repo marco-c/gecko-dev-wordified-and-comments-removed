@@ -101,6 +101,12 @@ CancelableRunnable
 class
 ErrorResult
 ;
+enum
+class
+RFPTarget
+:
+unsigned
+;
 namespace
 gfx
 {
@@ -641,6 +647,11 @@ mCompositorBackendType
 bool
 ShouldResistFingerprinting
 (
+mozilla
+:
+:
+RFPTarget
+aTarget
 )
 const
 ;

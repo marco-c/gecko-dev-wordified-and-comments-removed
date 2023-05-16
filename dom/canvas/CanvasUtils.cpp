@@ -354,6 +354,10 @@ aDocument
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+CanvasImageExtractionPrompt
 )
 )
 {
