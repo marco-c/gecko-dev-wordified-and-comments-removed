@@ -357,11 +357,6 @@ end_sequence_number_exclusive
 )
 ;
 void
-TrimLeadingNotReceivedEntries
-(
-)
-;
-void
 AdjustToSize
 (
 int
