@@ -243,14 +243,6 @@ mGL
 EGLSurface
 mEGLSurface
 ;
-#
-ifdef
-MOZ_WIDGET_ANDROID
-LayoutDeviceIntSize
-mEGLSurfaceSize
-;
-#
-endif
 ipc
 :
 :
