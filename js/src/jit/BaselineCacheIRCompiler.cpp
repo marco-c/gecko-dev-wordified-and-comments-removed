@@ -9755,6 +9755,9 @@ callVM
 <
 Fn
 SetElementMegamorphic
+<
+false
+>
 >
 (
 masm
