@@ -623,12 +623,6 @@ CancelImageRequests
 void
 ManageReflowCallback
 (
-const
-nsRect
-&
-aRect
-nscoord
-aHorzWidth
 )
 ;
 void
@@ -2086,6 +2080,12 @@ mHorzWidth
 ;
 nscoord
 mAdjustWidth
+;
+Maybe
+<
+nsRect
+>
+mLastReflowRect
 ;
 nsRect
 mInnerBox
