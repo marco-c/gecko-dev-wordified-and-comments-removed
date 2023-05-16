@@ -10,6 +10,7 @@ modules
 input
 import
 Actions
+get_element_origin
 from
 .
 .
@@ -107,7 +108,10 @@ y
 0
 origin
 =
+get_element_origin
+(
 pointerArea
+)
 )
         
 .
@@ -144,7 +148,10 @@ y
 10
 origin
 =
+get_element_origin
+(
 pointerArea
+)
 )
         
 .
@@ -166,7 +173,10 @@ y
 50
 origin
 =
+get_element_origin
+(
 pointerArea
+)
 )
     
 )

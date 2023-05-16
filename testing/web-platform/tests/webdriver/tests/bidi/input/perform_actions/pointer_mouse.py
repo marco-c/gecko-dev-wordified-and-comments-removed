@@ -10,6 +10,7 @@ modules
 input
 import
 Actions
+get_element_origin
 from
 tests
 .
@@ -613,7 +614,10 @@ y
 0
 origin
 =
+get_element_origin
+(
 outer
+)
 )
         
 .
@@ -924,7 +928,10 @@ y
 0
 origin
 =
+get_element_origin
+(
 link
+)
 )
             
 .
@@ -1192,7 +1199,10 @@ y
 0
 origin
 =
+get_element_origin
+(
 drag_target
+)
 )
         
 .
@@ -1512,7 +1522,10 @@ y
 0
 origin
 =
+get_element_origin
+(
 drag_target
+)
 )
         
 .
@@ -1526,6 +1539,7 @@ button
 .
 pointer_move
 (
+            
 x
 =
 50
@@ -1537,7 +1551,11 @@ duration
 drag_duration
 origin
 =
+get_element_origin
+(
 drop_target
+)
+        
 )
         
 .
