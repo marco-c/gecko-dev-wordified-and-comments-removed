@@ -6,7 +6,7 @@ logEvenNumbersMainThread
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -19,9 +19,7 @@ modules
 /
 RustFixtureCallbacks
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
