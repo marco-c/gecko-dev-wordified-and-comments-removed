@@ -6509,6 +6509,13 @@ log_sinks
 "
 )
 {
+visibility
+=
+[
+"
+*
+"
+]
 sources
 =
 [
