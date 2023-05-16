@@ -1225,6 +1225,16 @@ aName
 EqualsLiteral
 (
 "
+removeDirectory
+"
+)
+|
+|
+aName
+.
+EqualsLiteral
+(
+"
 no_output
 "
 )
