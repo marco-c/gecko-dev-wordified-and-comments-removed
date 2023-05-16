@@ -294,6 +294,9 @@ false
 trim_data_to_registered_pings
 :
 false
+log_level
+:
+None
 }
 ;
 let

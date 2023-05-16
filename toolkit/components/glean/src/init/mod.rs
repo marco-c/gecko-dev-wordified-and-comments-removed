@@ -894,6 +894,9 @@ true
 trim_data_to_registered_pings
 :
 true
+log_level
+:
+None
 }
 ;
 Ok
