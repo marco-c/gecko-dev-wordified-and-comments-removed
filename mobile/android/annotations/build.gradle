@@ -88,7 +88,7 @@ lint
 .
 4
 .
-1
+2
 '
 implementation
 '
@@ -108,7 +108,7 @@ checks
 .
 4
 .
-1
+2
 '
 }
 sourceCompatibility
