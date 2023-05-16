@@ -4772,6 +4772,13 @@ virtual_surface_size
 0
 ;
 }
+aCaps
+-
+>
+supports_external_compositor_surface_negative_scaling
+=
+false
+;
 }
 void
 RenderCompositorANGLE
