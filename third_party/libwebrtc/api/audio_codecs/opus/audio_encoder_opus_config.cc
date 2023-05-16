@@ -28,12 +28,6 @@ defined
 (
 WEBRTC_IOS
 )
-|
-|
-defined
-(
-WEBRTC_ARCH_ARM
-)
 constexpr
 int
 kDefaultComplexity
