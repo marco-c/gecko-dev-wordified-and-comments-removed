@@ -81,6 +81,11 @@ MoveWideImmediate
 \
 V
 (
+AtomicMemory
+)
+\
+V
+(
 Bitfield
 )
 \
@@ -398,7 +403,6 @@ V
 (
 NEONPerm
 )
-\
 #
 define
 VISITOR_LIST_THAT_DONT_RETURN
