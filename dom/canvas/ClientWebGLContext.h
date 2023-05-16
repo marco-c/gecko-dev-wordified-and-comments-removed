@@ -1227,8 +1227,6 @@ private
 WebGLBufferJS
 (
 )
-=
-default
 ;
 public
 :
@@ -1364,8 +1362,6 @@ private
 WebGLFramebufferJS
 (
 )
-=
-default
 ;
 void
 EnsureColorAttachments
@@ -1750,8 +1746,6 @@ private
 WebGLQueryJS
 (
 )
-=
-default
 ;
 public
 :
@@ -1829,8 +1823,6 @@ webgl
 WebGLRenderbufferJS
 (
 )
-=
-default
 ;
 public
 :
@@ -1899,8 +1891,6 @@ private
 WebGLSamplerJS
 (
 )
-=
-default
 ;
 public
 :
@@ -2158,8 +2148,6 @@ private
 WebGLSyncJS
 (
 )
-=
-default
 ;
 public
 :
@@ -2237,8 +2225,6 @@ private
 WebGLTextureJS
 (
 )
-=
-default
 ;
 public
 :
@@ -2341,8 +2327,6 @@ private
 WebGLTransformFeedbackJS
 (
 )
-=
-default
 ;
 public
 :
@@ -2572,8 +2556,6 @@ private
 WebGLVertexArrayJS
 (
 )
-=
-default
 ;
 public
 :
