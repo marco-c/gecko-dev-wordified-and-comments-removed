@@ -24,6 +24,8 @@ actors
 webconsole
 /
 commands
+/
+parser
 .
 js
 "
