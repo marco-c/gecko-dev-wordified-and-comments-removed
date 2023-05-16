@@ -98,9 +98,6 @@ true
 ignoreCaughtExceptions
 :
 true
-shouldShowOverlay
-:
-true
 shouldIncludeSavedFrames
 :
 true
