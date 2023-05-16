@@ -70,3 +70,17 @@ browser
 ini
 "
 ]
+MOCHITEST_CHROME_MANIFESTS
++
+=
+[
+"
+tests
+/
+chrome
+/
+chrome
+.
+ini
+"
+]
