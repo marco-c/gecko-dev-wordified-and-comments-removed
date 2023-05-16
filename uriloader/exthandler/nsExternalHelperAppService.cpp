@@ -685,7 +685,7 @@ dom
 #
 define
 kDefaultMaxFileNameLength
-255
+254
 #
 define
 NS_PREF_DOWNLOAD_DIR
