@@ -171,7 +171,6 @@ aAttribute
 const
 override
 ;
-virtual
 nsMapRuleToAttributesFunc
 GetAttributeMappingFunction
 (
@@ -179,7 +178,6 @@ GetAttributeMappingFunction
 const
 override
 ;
-virtual
 nsresult
 Clone
 (
@@ -193,7 +191,6 @@ aResult
 const
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -219,7 +216,6 @@ GetVideoSize
 )
 const
 ;
-virtual
 void
 UpdateMediaSize
 (
@@ -230,7 +226,6 @@ aSize
 )
 override
 ;
-virtual
 nsresult
 SetAcceptHeader
 (
@@ -240,7 +235,6 @@ aChannel
 )
 override
 ;
-virtual
 bool
 IsInteractiveHTMLContent
 (

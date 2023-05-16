@@ -58,7 +58,6 @@ NS_INLINE_DECL_REFCOUNTING_INHERITED
 HTMLMetaElement
 nsGenericHTMLElement
 )
-virtual
 nsresult
 BindToTree
 (
@@ -70,7 +69,6 @@ aParent
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (
@@ -81,7 +79,6 @@ true
 )
 override
 ;
-virtual
 void
 AfterSetAttr
 (
