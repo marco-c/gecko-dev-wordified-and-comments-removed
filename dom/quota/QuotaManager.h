@@ -1117,6 +1117,14 @@ RefPtr
 <
 BoolPromise
 >
+ClearPrivateRepository
+(
+)
+;
+RefPtr
+<
+BoolPromise
+>
 ShutdownStorage
 (
 )
