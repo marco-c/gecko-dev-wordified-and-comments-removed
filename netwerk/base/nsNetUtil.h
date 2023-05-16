@@ -3555,6 +3555,15 @@ aValue
 )
 ;
 bool
+IsScriptLikeOrInvalid
+(
+const
+nsAString
+&
+aAs
+)
+;
+bool
 CheckPreloadAttrs
 (
 const
