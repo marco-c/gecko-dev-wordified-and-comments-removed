@@ -79,7 +79,6 @@ animation
 :
 {
 AnimationName
-AnimationTimeline
 ScrollAxis
 ScrollTimelineName
 TransitionProperty
@@ -351,6 +350,18 @@ dest
 }
 }
 }
+pub
+type
+AnimationTimeline
+=
+generics
+:
+:
+GenericAnimationTimeline
+<
+LengthPercentage
+>
+;
 pub
 type
 ViewTimelineInset
