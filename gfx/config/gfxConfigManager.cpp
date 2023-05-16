@@ -1454,6 +1454,10 @@ _ns
 }
 if
 (
+!
+mIsNightly
+&
+&
 StaticPrefs
 :
 :
