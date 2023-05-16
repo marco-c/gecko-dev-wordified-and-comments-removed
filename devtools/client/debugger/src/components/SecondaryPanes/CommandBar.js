@@ -1020,15 +1020,8 @@ stepIn
 isDisabled
 |
 |
-(
-features
-.
-frameStep
-&
-&
 !
 topFrameSelected
-)
 )
 debugBtn
 (
