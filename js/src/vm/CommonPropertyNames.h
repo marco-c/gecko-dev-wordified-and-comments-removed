@@ -2386,6 +2386,15 @@ isNaN
 \
 MACRO_
 (
+IsNullOrUndefined
+IsNullOrUndefined
+"
+IsNullOrUndefined
+"
+)
+\
+MACRO_
+(
 isPrototypeOf
 isPrototypeOf
 "

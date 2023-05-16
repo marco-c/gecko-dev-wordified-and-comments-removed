@@ -590,6 +590,11 @@ ToString
 "
 readonly
 "
+IsNullOrUndefined
+:
+"
+readonly
+"
 undefined
 :
 "
