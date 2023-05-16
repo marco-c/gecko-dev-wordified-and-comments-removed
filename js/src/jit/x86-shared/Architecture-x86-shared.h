@@ -1410,11 +1410,7 @@ xmm5
 )
 )
 *
-SpreadScalar
-|
-AllPhysMask
-*
-SpreadVector
+Spread
 ;
 #
 else
