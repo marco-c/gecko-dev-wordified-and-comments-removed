@@ -1576,6 +1576,10 @@ testErrorDuringWrite
 (
 )
 ;
+testErrorDuringTransfer
+(
+)
+;
 testMultiOk
 (
 )
