@@ -2611,7 +2611,7 @@ Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 summaryRow
 .
