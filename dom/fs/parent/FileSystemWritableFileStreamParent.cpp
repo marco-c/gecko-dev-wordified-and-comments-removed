@@ -291,7 +291,7 @@ DataManagerStrongRef
 )
 -
 >
-UnlockShared
+UnlockExclusive
 (
 mEntryId
 )
