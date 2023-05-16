@@ -567,6 +567,12 @@ get
 (
 )
 payload_type_map_
+GetRegisteredExtensions
+(
+)
+GetRegisteredExtensions
+(
+)
 )
 ;
 input_observer
