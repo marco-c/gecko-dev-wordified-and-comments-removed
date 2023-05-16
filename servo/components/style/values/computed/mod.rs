@@ -654,7 +654,7 @@ MathDepth
 MozScriptMinSize
 MozScriptSizeMultiplier
 XLang
-XTextZoom
+XTextScale
 }
 ;
 pub
@@ -2267,9 +2267,13 @@ get_font
 (
 )
 .
-gecko
+clone__x_text_scale
+(
+)
 .
-mAllowZoomAndMinSize
+text_zoom_enabled
+(
+)
 {
 self
 .

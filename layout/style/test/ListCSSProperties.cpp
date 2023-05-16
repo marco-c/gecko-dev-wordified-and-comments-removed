@@ -318,7 +318,7 @@ x
 -
 text
 -
-zoom
+scale
 "
 "
 -

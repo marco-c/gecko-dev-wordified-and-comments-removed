@@ -1081,6 +1081,9 @@ PiecewiseLinearFunction
 "
 BeforeFlag
 "
+"
+XTextScale
+"
 ]
 item_types
 =
