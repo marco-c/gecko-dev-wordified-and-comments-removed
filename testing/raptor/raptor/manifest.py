@@ -3948,6 +3948,10 @@ interactive
 "
 host_from_parent
 "
+            
+"
+expose_gecko_profiler
+"
         
 ]
         
