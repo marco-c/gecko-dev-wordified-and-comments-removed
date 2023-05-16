@@ -300,11 +300,12 @@ pass1
 }
 )
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 login
 )
