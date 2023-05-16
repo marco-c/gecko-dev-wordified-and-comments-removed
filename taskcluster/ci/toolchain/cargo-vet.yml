@@ -223,17 +223,6 @@ apple
 darwin
 '
 ]
-toolchain
--
-alias
-:
-macosx64
--
-aarch64
--
-cargo
--
-vet
 fetches
 :
 toolchain
