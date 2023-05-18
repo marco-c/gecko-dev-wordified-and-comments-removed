@@ -275,9 +275,11 @@ unwrapped
 ;
 if
 (
-IS_WN_CLASS
-(
 clasp
+-
+>
+isWrappedNative
+(
 )
 )
 {
