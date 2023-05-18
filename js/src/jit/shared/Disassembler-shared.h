@@ -44,6 +44,13 @@ stdint
 h
 >
 #
+include
+"
+jstypes
+.
+h
+"
+#
 if
 defined
 (
@@ -64,6 +71,7 @@ namespace
 js
 {
 class
+JS_PUBLIC_API
 Sprinter
 ;
 namespace
