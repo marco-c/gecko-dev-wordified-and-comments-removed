@@ -32,11 +32,6 @@ ApplicationAccessibleWrap
 cpp
 "
 "
-AtkSocketAccessible
-.
-cpp
-"
-"
 DocAccessibleWrap
 .
 cpp
