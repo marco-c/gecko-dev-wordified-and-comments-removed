@@ -632,8 +632,14 @@ response
 ;
 }
 ;
+const
 ContentType
+&
 type
+=
+VoidCString
+(
+)
 ;
 QM_TRY_UNWRAP
 (
