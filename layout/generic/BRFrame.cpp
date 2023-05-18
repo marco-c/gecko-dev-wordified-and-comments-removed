@@ -269,7 +269,6 @@ WritingMode
 aWM
 BaselineSharingGroup
 aBaselineGroup
-BaselineExportContext
 )
 const
 override
@@ -871,7 +870,6 @@ WritingMode
 aWM
 BaselineSharingGroup
 aBaselineGroup
-BaselineExportContext
 )
 const
 {

@@ -1711,14 +1711,6 @@ mozilla
 :
 BaselineSharingGroup
 ;
-using
-BaselineExportContext
-=
-mozilla
-:
-:
-BaselineExportContext
-;
 template
 <
 typename
@@ -5025,8 +5017,6 @@ WritingMode
 aWM
 BaselineSharingGroup
 aBaselineGroup
-BaselineExportContext
-aExportContext
 )
 const
 ;
@@ -5044,8 +5034,6 @@ WritingMode
 aWM
 BaselineSharingGroup
 aBaselineGroup
-BaselineExportContext
-aExportContext
 )
 const
 {
