@@ -39,5 +39,14 @@ extraAdServersRegexps
 "
 adServerAttributes
 "
+"
+components
+"
+"
+nonAdsLinkRegexps
+"
+"
+shoppingTab
+"
 ]
 }
