@@ -4950,6 +4950,17 @@ appearance
 )
 )
 {
+if
+(
+aOutBorderIsEmpty
+)
+{
+*
+aOutBorderIsEmpty
+=
+true
+;
+}
 return
 Nothing
 (
