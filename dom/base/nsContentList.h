@@ -1211,9 +1211,6 @@ LastRelease
 )
 override
 ;
-class
-HashEntry
-;
 protected
 :
 using
@@ -1438,11 +1435,6 @@ mIsLiveList
 :
 1
 ;
-bool
-mInHashtable
-:
-1
-;
 #
 ifdef
 DEBUG_CONTENT_LIST
@@ -1609,9 +1601,6 @@ mType
 ;
 #
 endif
-class
-HashEntry
-;
 protected
 :
 nsCacheableFuncStringContentList
