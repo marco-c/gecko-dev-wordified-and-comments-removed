@@ -3511,7 +3511,7 @@ State
 GMPState
 :
 :
-GMPStateLoaded
+Loaded
 )
 {
 continue
@@ -3747,7 +3747,7 @@ State
 GMPState
 :
 :
-GMPStateLoaded
+Loaded
 )
 {
 continue
@@ -5550,7 +5550,10 @@ State
 )
 !
 =
-GMPStateNotLoaded
+GMPState
+:
+:
+NotLoaded
 )
 {
 inUse
@@ -5594,7 +5597,10 @@ State
 )
 =
 =
-GMPStateNotLoaded
+GMPState
+:
+:
+NotLoaded
 |
 |
 !
