@@ -538,6 +538,9 @@ return
 false
 ;
 }
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 const
 size_t
 originalFrames
@@ -550,6 +553,8 @@ Length
 /
 mChannels
 ;
+#
+endif
 if
 (
 aTrim
