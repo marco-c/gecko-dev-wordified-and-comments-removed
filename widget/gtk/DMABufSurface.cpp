@@ -6023,6 +6023,19 @@ i
 {
 unsigned
 int
+subsample
+=
+i
+=
+=
+0
+?
+0
+:
+1
+;
+unsigned
+int
 object
 =
 aDesc
@@ -6109,7 +6122,7 @@ aDesc
 width
 >
 >
-i
+subsample
 ;
 mHeightAligned
 [
@@ -6121,7 +6134,7 @@ aDesc
 height
 >
 >
-i
+subsample
 ;
 mWidth
 [
@@ -6131,7 +6144,7 @@ i
 aWidth
 >
 >
-i
+subsample
 ;
 mHeight
 [
@@ -6141,7 +6154,7 @@ i
 aHeight
 >
 >
-i
+subsample
 ;
 LOGDMABUF
 (
