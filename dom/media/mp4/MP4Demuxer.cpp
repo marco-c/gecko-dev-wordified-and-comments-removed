@@ -242,6 +242,8 @@ const
 IndiceWrapper
 &
 aIndices
+int32_t
+aTimeScale
 )
 ;
 UniquePtr
@@ -1262,6 +1264,14 @@ Ref
 get
 (
 )
+info
+.
+Ref
+(
+)
+-
+>
+mTimeScale
 )
 ;
 DDLINKCHILD
@@ -1577,6 +1587,14 @@ Ref
 get
 (
 )
+info
+.
+Ref
+(
+)
+-
+>
+mTimeScale
 )
 ;
 DDLINKCHILD
@@ -2086,6 +2104,8 @@ const
 IndiceWrapper
 &
 aIndices
+int32_t
+aTimeScale
 )
 :
 mResource
@@ -2127,6 +2147,7 @@ mInfo
 IsAudio
 (
 )
+aTimeScale
 )
 )
 mIterator
