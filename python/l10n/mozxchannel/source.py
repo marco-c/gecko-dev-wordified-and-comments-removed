@@ -617,6 +617,10 @@ toml
 loads
 (
 data
+.
+decode
+(
+)
 )
         
 except
