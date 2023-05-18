@@ -646,6 +646,13 @@ this
 #
 ifdef
 MOZ_DIAGNOSTIC_ASSERT_ENABLED
+MOZ_DIAGNOSTIC_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 if
 (
 mDoDiagnosticAssertWhenOnStopNotCalledOnDestroy
