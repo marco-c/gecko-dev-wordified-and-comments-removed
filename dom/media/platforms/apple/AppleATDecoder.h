@@ -267,15 +267,9 @@ uint32_t
 mParsedFramesForAACMagicCookie
 ;
 uint32_t
-mDecodedFrames
+mEncoderDelay
 =
 0
-;
-uint32_t
-mEncoderDelay
-;
-uint32_t
-mRemainingEncoderDelay
 ;
 uint64_t
 mTotalMediaFrames
