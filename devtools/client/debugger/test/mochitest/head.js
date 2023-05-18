@@ -495,15 +495,6 @@ eval
 js
 "
 "
-react
--
-component
--
-module
-.
-js
-"
-"
 .
 js
 "
