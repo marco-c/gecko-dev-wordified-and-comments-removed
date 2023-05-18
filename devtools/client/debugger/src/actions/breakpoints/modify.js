@@ -585,13 +585,6 @@ createBreakpoint
 (
 {
 id
-thread
-:
-generatedLocation
-.
-source
-.
-thread
 disabled
 options
 location
