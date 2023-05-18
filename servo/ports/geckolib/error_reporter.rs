@@ -253,11 +253,6 @@ d
 mBaseURI
 .
 raw
-:
-:
-<
-nsIURI
->
 (
 )
 )
