@@ -428,6 +428,7 @@ DeleteProperty
 <
 nsString
 >
+true
 )
 ;
 }

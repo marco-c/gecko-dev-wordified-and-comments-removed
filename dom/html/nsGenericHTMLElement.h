@@ -1163,6 +1163,7 @@ DeleteProperty
 <
 nsString
 >
+true
 )
 ;
 }
