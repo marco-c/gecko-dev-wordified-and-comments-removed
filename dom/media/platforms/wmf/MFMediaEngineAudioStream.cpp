@@ -47,7 +47,7 @@ mozilla
 {
 #
 define
-LOGV
+LOG
 (
 msg
 .
@@ -61,7 +61,7 @@ gMFMediaEngineLog
 LogLevel
 :
 :
-Verbose
+Debug
 \
 (
 "
@@ -433,7 +433,7 @@ Length
 mAACUserData
 )
 ;
-LOGV
+LOG
 (
 "
 Generated
@@ -478,7 +478,7 @@ Length
 )
 ;
 }
-LOGV
+LOG
 (
 "
 Created
@@ -566,7 +566,7 @@ GetAddressOf
 )
 )
 ;
-LOGV
+LOG
 (
 "
 Wrap
@@ -809,5 +809,5 @@ IsEncrypted
 }
 #
 undef
-LOGV
+LOG
 }
