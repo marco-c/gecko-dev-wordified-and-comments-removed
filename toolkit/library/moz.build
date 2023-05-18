@@ -1147,11 +1147,6 @@ framework
 CoreSymbolication
 "
 "
--
-weak_framework
-SidecarCore
-"
-"
 cups
 "
 ]
