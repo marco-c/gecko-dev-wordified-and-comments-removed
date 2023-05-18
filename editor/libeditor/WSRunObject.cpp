@@ -2496,6 +2496,13 @@ PreserveWhiteSpaceStyle
 :
 :
 No
+HTMLEditor
+:
+:
+RemoveIfCommentNode
+:
+:
+Yes
 )
 ;
 if

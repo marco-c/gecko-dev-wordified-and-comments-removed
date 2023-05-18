@@ -3529,6 +3529,14 @@ No
 Yes
 }
 ;
+enum
+class
+RemoveIfCommentNode
+{
+No
+Yes
+}
+;
 [
 [
 nodiscard
@@ -3551,6 +3559,8 @@ EditorDOMPoint
 aPointToInsert
 PreserveWhiteSpaceStyle
 aPreserveWhiteSpaceStyle
+RemoveIfCommentNode
+aRemoveIfCommentNode
 )
 ;
 Result
@@ -3593,6 +3603,8 @@ EditorDOMPoint
 aPointToInsert
 PreserveWhiteSpaceStyle
 aPreserveWhiteSpaceStyle
+RemoveIfCommentNode
+aRemoveIfCommentNode
 )
 ;
 Result
