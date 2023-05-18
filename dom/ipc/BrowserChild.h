@@ -2034,9 +2034,9 @@ IPCResult
 RecvPasteTransferable
 (
 const
-IPCDataTransfer
+IPCTransferableData
 &
-aDataTransfer
+aTransferableData
 const
 bool
 &

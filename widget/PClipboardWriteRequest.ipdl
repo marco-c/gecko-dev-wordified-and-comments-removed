@@ -89,8 +89,8 @@ parent
 async
 SetData
 (
-IPCDataTransfer
-aDataTransfer
+IPCTransferableData
+aTransferableData
 bool
 aIsPrivateData
 nullable

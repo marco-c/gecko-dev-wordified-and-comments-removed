@@ -2725,9 +2725,9 @@ size
 }
 ;
 union
-IPCDataTransferOrError
+IPCTransferableDataOrError
 {
-IPCDataTransfer
+IPCTransferableData
 ;
 nsresult
 ;
@@ -4716,7 +4716,7 @@ MaybeDiscardedWindowContext
 aSourceWindowContext
 MaybeDiscardedWindowContext
 aSourceTopWindowContext
-IPCDataTransfer
+IPCTransferableData
 [
 ]
 transfers
@@ -7019,8 +7019,8 @@ clipboard
 async
 SetClipboard
 (
-IPCDataTransfer
-aDataTransfer
+IPCTransferableData
+aTransferableData
 bool
 aIsPrivateData
 nullable
@@ -7071,8 +7071,8 @@ aWhichClipboard
 )
 returns
 (
-IPCDataTransfer
-dataTransfer
+IPCTransferableData
+transferableData
 )
 ;
 /
@@ -7135,8 +7135,8 @@ aWhichClipboard
 )
 returns
 (
-IPCDataTransferOrError
-dataTransfer
+IPCTransferableDataOrError
+transferableData
 )
 ;
 /

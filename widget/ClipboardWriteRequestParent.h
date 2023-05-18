@@ -86,9 +86,9 @@ IPCResult
 RecvSetData
 (
 const
-IPCDataTransfer
+IPCTransferableData
 &
-aDataTransfer
+aTransferableData
 const
 bool
 &
