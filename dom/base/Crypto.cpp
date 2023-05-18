@@ -483,7 +483,7 @@ Crypto
 :
 RandomUUID
 (
-nsAString
+nsACString
 &
 aRetVal
 )
@@ -524,8 +524,8 @@ NSID_LENGTH
 1
 )
 ;
-CopyASCIItoUTF16
-(
+aRetVal
+=
 Substring
 (
 uuidString
@@ -538,8 +538,6 @@ get
 NSID_LENGTH
 -
 3
-)
-aRetVal
 )
 ;
 MOZ_ASSERT

@@ -197,7 +197,7 @@ randomUUID
 enabled
 "
 ]
-DOMString
+UTF8String
 randomUUID
 (
 )

@@ -115,7 +115,7 @@ aRv
 void
 RandomUUID
 (
-nsAString
+nsACString
 &
 aRetVal
 )
