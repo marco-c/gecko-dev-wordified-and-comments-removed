@@ -797,7 +797,7 @@ replacement
 =
 src
 .
-invisible
+replacement
 ;
 invisible
 =

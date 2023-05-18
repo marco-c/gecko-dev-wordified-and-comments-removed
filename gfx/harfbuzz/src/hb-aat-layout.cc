@@ -206,6 +206,9 @@ ankr
 )
 gdef_table
 (
+#
+ifndef
+HB_NO_OT_LAYOUT
 face
 -
 >
@@ -215,6 +218,15 @@ GDEF
 -
 >
 table
+#
+else
+&
+Null
+(
+GDEF
+)
+#
+endif
 )
 lookup_index
 (

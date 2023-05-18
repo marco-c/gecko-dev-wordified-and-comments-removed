@@ -1517,11 +1517,12 @@ other
 .
 length
 ;
-#
-ifndef
-HB_OPTIMIZE_SIZE
 if
 (
+!
+HB_OPTIMIZE_SIZE_VAL
+&
+&
 sizeof
 (
 T
@@ -1562,8 +1563,6 @@ i
 ]
 ;
 else
-#
-endif
 hb_memcpy
 (
 (

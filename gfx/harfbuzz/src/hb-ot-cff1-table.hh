@@ -88,7 +88,7 @@ CFF
 {
 #
 define
-HB_OT_TAG_cff1
+HB_OT_TAG_CFF1
 HB_TAG
 (
 '
@@ -5233,7 +5233,7 @@ constexpr
 hb_tag_t
 tableTag
 =
-HB_OT_TAG_cff1
+HB_OT_TAG_CFF1
 ;
 bool
 sanitize

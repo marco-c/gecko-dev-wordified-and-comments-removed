@@ -131,6 +131,10 @@ hb_destroy_func_t
 destroy
 )
 ;
+#
+define
+HB_UNICODE_COMBINING_CLASS_CCC133
+133
 typedef
 unsigned
 int

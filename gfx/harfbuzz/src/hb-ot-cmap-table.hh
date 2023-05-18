@@ -1766,7 +1766,10 @@ this
 -
 >
 segCount
-2
+sizeof
+(
+CustomRange
+)
 _hb_cmp_method
 <
 hb_codepoint_t

@@ -1478,10 +1478,7 @@ f
 1
 )
 *
-(
-float
-)
-M_PI
+HB_PI
 (
 paint
 .
@@ -1498,10 +1495,7 @@ f
 1
 )
 *
-(
-float
-)
-M_PI
+HB_PI
 )
 ;
 }

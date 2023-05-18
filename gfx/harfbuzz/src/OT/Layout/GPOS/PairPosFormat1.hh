@@ -246,18 +246,13 @@ for
 (
 hb_codepoint_t
 g
-=
-HB_SET_VALUE_INVALID
-;
+:
 glyphs
 -
 >
-next
+iter
 (
-&
-g
 )
-;
 )
 {
 unsigned
@@ -630,7 +625,7 @@ iter_input
 ;
 skippy_iter
 .
-reset
+reset_fast
 (
 buffer
 -
@@ -644,6 +639,8 @@ unsafe_to
 ;
 if
 (
+unlikely
+(
 !
 skippy_iter
 .
@@ -651,6 +648,7 @@ next
 (
 &
 unsafe_to
+)
 )
 )
 {

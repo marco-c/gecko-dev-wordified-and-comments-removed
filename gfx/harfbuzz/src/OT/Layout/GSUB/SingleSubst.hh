@@ -368,7 +368,7 @@ glyphs
 |
 hb_map_retains_sorting
 (
-hb_first
+hb_second
 )
 |
 hb_filter

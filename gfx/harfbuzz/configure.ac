@@ -14,7 +14,7 @@ HarfBuzz
 [
 7
 .
-1
+3
 .
 0
 ]
@@ -423,6 +423,7 @@ mmap
 isatty
 newlocale
 uselocale
+sincosf
 )
 AC_CHECK_HEADERS
 (

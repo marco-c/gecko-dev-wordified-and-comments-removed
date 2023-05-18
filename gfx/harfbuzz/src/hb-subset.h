@@ -64,6 +64,9 @@ HB_SUBSET_FLAGS_GLYPH_NAMES
 HB_SUBSET_FLAGS_NO_PRUNE_UNICODE_RANGES
 =
 0x00000100u
+HB_SUBSET_FLAGS_NO_LAYOUT_CLOSURE
+=
+0x00000200u
 }
 hb_subset_flags_t
 ;
@@ -182,6 +185,16 @@ hb_subset_input_t
 input
 hb_subset_sets_t
 set_type
+)
+;
+HB_EXTERN
+hb_map_t
+*
+hb_subset_input_old_to_new_glyph_mapping
+(
+hb_subset_input_t
+*
+input
 )
 ;
 HB_EXTERN

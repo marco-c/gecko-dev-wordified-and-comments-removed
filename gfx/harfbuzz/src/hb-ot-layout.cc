@@ -784,10 +784,7 @@ buffer
 )
 ;
 const
-OT
-:
-:
-GDEF
+auto
 &
 gdef
 =
@@ -801,9 +798,6 @@ face
 table
 .
 GDEF
--
->
-table
 ;
 unsigned
 int
@@ -813,6 +807,15 @@ buffer
 -
 >
 len
+;
+hb_glyph_info_t
+*
+info
+=
+buffer
+-
+>
+info
 ;
 for
 (
@@ -834,9 +837,6 @@ i
 _hb_glyph_info_set_glyph_props
 (
 &
-buffer
--
->
 info
 [
 i
@@ -845,9 +845,6 @@ gdef
 .
 get_glyph_props
 (
-buffer
--
->
 info
 [
 i
@@ -860,9 +857,6 @@ codepoint
 _hb_glyph_info_clear_lig_props
 (
 &
-buffer
--
->
 info
 [
 i
@@ -5803,6 +5797,7 @@ set_lookup_mask
 lookup
 .
 mask
+false
 )
 ;
 c
@@ -5812,6 +5807,7 @@ set_auto_zwj
 lookup
 .
 auto_zwj
+false
 )
 ;
 c
@@ -5821,6 +5817,7 @@ set_auto_zwnj
 lookup
 .
 auto_zwnj
+false
 )
 ;
 c
@@ -5839,6 +5836,7 @@ set_per_syllable
 lookup
 .
 per_syllable
+false
 )
 ;
 apply_string

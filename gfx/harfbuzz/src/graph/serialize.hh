@@ -521,6 +521,8 @@ auto
 link
 :
 vertices
+.
+arrayZ
 [
 parent_idx
 ]
@@ -542,10 +544,13 @@ link
 ;
 if
 (
+likely
+(
 is_valid_offset
 (
 offset
 link
+)
 )
 )
 continue

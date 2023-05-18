@@ -654,6 +654,9 @@ pos
 bool
 applied_first
 =
+len1
+&
+&
 valueFormats
 [
 0
@@ -682,6 +685,9 @@ cur_pos
 bool
 applied_second
 =
+len2
+&
+&
 valueFormats
 [
 1

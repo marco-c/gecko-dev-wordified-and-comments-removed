@@ -110,6 +110,17 @@ hb_subset_accelerator_t
 )
 )
 ;
+if
+(
+unlikely
+(
+!
+accel
+)
+)
+return
+accel
+;
 new
 (
 accel

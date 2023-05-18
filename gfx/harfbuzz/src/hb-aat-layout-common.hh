@@ -2194,9 +2194,6 @@ sanitize
 hb_sanitize_context_t
 *
 c
-unsigned
-int
-count
 )
 const
 {
@@ -2267,9 +2264,6 @@ sanitize
 hb_sanitize_context_t
 *
 c
-unsigned
-int
-count
 )
 const
 {

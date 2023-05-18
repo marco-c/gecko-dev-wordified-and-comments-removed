@@ -30,19 +30,6 @@ h
 define
 PREALLOCATED_COLOR_STOPS
 16
-#
-define
-_2_M_PIf
-(
-2
-.
-f
-*
-float
-(
-M_PI
-)
-)
 typedef
 struct
 {
@@ -2752,10 +2739,7 @@ pattern
 define
 MAX_ANGLE
 (
-(
-float
-)
-M_PI
+HB_PI
 /
 8
 .
@@ -3275,7 +3259,7 @@ if
 (
 end_angle
 <
-_2_M_PIf
+HB_2_PI
 )
 {
 c
@@ -3362,7 +3346,7 @@ radius
 end_angle
 &
 c
-_2_M_PIf
+HB_2_PI
 &
 c
 pattern
@@ -3773,7 +3757,7 @@ radius
 .
 &
 color0
-_2_M_PIf
+HB_2_PI
 &
 color0
 pattern
@@ -3827,7 +3811,7 @@ pos
 ]
 <
 =
-_2_M_PIf
+HB_2_PI
 )
 {
 _hb_cairo_add_sweep_gradient_patches1
@@ -3867,7 +3851,7 @@ float
 k
 =
 (
-_2_M_PIf
+HB_2_PI
 -
 angles
 [
@@ -3928,7 +3912,7 @@ pos
 -
 1
 ]
-_2_M_PIf
+HB_2_PI
 &
 color1
 pattern
@@ -3968,7 +3952,7 @@ n_stops
 ]
 &
 color0
-_2_M_PIf
+HB_2_PI
 &
 color0
 pattern
@@ -4384,7 +4368,7 @@ if
 a1
 >
 =
-_2_M_PIf
+HB_2_PI
 )
 {
 hb_cairo_color_t
@@ -4394,7 +4378,7 @@ float
 f
 =
 (
-_2_M_PIf
+HB_2_PI
 -
 a0
 )
@@ -4421,7 +4405,7 @@ cy
 radius
 a0
 c0
-_2_M_PIf
+HB_2_PI
 &
 color
 pattern
