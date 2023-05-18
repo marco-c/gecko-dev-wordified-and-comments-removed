@@ -58,8 +58,7 @@ ff
 |
 tee
 -
--
-append
+a
 LOOP_OUTPUT_LOG
 }
 function
@@ -848,8 +847,7 @@ sh
 |
 tee
 -
--
-append
+a
 LOOP_OUTPUT_LOG
 fi
 SKIP_NEXT_REVERT_CHK
@@ -945,8 +943,7 @@ sh
 |
 tee
 -
--
-append
+a
 LOOP_OUTPUT_LOG
 MOZ_CHANGED
 =
@@ -1324,8 +1321,7 @@ MOZ_TARGET_UPSTREAM_BRANCH_HEAD
 |
 tee
 -
--
-append
+a
 LOOP_OUTPUT_LOG
 MODIFIED_BUILD_RELATED_FILE_CNT
 =
@@ -1592,8 +1588,7 @@ json
 |
 tee
 -
--
-append
+a
 LOOP_OUTPUT_LOG
 MOZ_BUILD_CHANGE_CNT
 =
@@ -1671,8 +1666,7 @@ sh
 |
 tee
 -
--
-append
+a
 LOOP_OUTPUT_LOG
 fi
 ERROR_HELP
@@ -1730,8 +1724,7 @@ build
 |
 tee
 -
--
-append
+a
 LOOP_OUTPUT_LOG
 ERROR_HELP
 =
