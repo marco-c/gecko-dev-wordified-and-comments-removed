@@ -2,8 +2,10 @@ import
 pytest
 from
 webdriver
-import
+.
 error
+import
+NoSuchElementException
 from
 tests
 .
@@ -1105,8 +1107,6 @@ timeout
         
 ignored_exceptions
 =
-error
-.
 NoSuchElementException
         
 message
@@ -1370,8 +1370,6 @@ timeout
         
 ignored_exceptions
 =
-error
-.
 NoSuchElementException
         
 message
@@ -1554,23 +1552,6 @@ url
 =
 =
 target_page
-    
-with
-pytest
-.
-raises
-(
-error
-.
-StaleElementReferenceException
-)
-:
-        
-link
-.
-click
-(
-)
     
 session
 .

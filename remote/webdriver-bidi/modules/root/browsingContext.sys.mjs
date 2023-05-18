@@ -79,7 +79,7 @@ mjs
 ;
 import
 {
-RootBiDiModule
+Module
 }
 from
 "
@@ -91,13 +91,11 @@ remote
 /
 content
 /
-webdriver
--
-bidi
+shared
 /
-modules
+messagehandler
 /
-RootBiDiModule
+Module
 .
 sys
 .
@@ -531,7 +529,7 @@ complete
 class
 BrowsingContextModule
 extends
-RootBiDiModule
+Module
 {
 #
 contextListener

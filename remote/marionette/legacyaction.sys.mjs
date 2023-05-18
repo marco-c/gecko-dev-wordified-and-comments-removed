@@ -148,11 +148,9 @@ remote
 /
 content
 /
-shared
+marionette
 /
-webdriver
-/
-Element
+element
 .
 sys
 .
@@ -247,11 +245,9 @@ remote
 /
 content
 /
-shared
+marionette
 /
-webdriver
-/
-Element
+element
 .
 sys
 .

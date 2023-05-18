@@ -58,7 +58,7 @@ MPL
 /
 import
 {
-RootBiDiModule
+Module
 }
 from
 "
@@ -70,13 +70,11 @@ remote
 /
 content
 /
-webdriver
--
-bidi
+shared
 /
-modules
+messagehandler
 /
-RootBiDiModule
+Module
 .
 sys
 .
@@ -183,7 +181,7 @@ mjs
 class
 InputModule
 extends
-RootBiDiModule
+Module
 {
 destroy
 (

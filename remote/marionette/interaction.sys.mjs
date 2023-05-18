@@ -150,11 +150,9 @@ remote
 /
 content
 /
-shared
+marionette
 /
-webdriver
-/
-Element
+element
 .
 sys
 .

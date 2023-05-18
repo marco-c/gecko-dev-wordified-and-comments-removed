@@ -58,7 +58,7 @@ MPL
 /
 import
 {
-RootBiDiModule
+Module
 }
 from
 "
@@ -70,13 +70,11 @@ remote
 /
 content
 /
-webdriver
--
-bidi
+shared
 /
-modules
+messagehandler
 /
-RootBiDiModule
+Module
 .
 sys
 .
@@ -339,7 +337,7 @@ success
 class
 ScriptModule
 extends
-RootBiDiModule
+Module
 {
 #
 preloadScriptMap
