@@ -1348,7 +1348,7 @@ declarations
 SourcePropertyDeclaration
 :
 :
-new
+default
 (
 )
 ;
@@ -2517,7 +2517,7 @@ declarations
 SourcePropertyDeclaration
 :
 :
-new
+default
 (
 )
 ;

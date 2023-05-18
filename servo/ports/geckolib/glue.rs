@@ -23652,6 +23652,10 @@ non_custom
 allowed_in_rule
 (
 rule_type
+.
+into
+(
+)
 )
 {
 return
@@ -23748,7 +23752,7 @@ declarations
 SourcePropertyDeclaration
 :
 :
-new
+default
 (
 )
 ;
@@ -25806,7 +25810,7 @@ source_declarations
 SourcePropertyDeclaration
 :
 :
-new
+default
 (
 )
 ;
@@ -31243,7 +31247,7 @@ declarations
 SourcePropertyDeclaration
 :
 :
-new
+default
 (
 )
 ;

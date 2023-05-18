@@ -490,14 +490,6 @@ UnexpectedNamespaceRule
 UnexpectedImportRule
 DisallowedImportRule
 UnexpectedCharsetRule
-UnsupportedAtRule
-(
-CowRcStr
-<
-'
-i
->
-)
 UnspecifiedError
 UnexpectedTokenWithinNamespace
 (
