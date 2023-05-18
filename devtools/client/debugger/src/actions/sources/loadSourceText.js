@@ -937,9 +937,6 @@ getState
 source
 .
 id
-source
-.
-thread
 )
 ;
 }

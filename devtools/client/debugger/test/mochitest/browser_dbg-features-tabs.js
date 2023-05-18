@@ -152,12 +152,6 @@ source
 url
 }
 '
-from
-{
-source
-.
-thread
-}
 )
 ;
 await
@@ -276,12 +270,6 @@ source
 url
 }
 '
-from
-{
-source
-.
-thread
-}
 )
 ;
 await
