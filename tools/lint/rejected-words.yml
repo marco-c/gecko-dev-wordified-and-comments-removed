@@ -608,7 +608,9 @@ modules
 /
 SitePermissions
 .
-jsm
+sys
+.
+mjs
 -
 browser
 /

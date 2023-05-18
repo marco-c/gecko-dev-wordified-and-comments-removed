@@ -31,7 +31,7 @@ SitePermissions
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -43,7 +43,9 @@ modules
 /
 SitePermissions
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

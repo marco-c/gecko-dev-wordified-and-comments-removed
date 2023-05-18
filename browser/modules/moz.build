@@ -654,7 +654,9 @@ Files
 "
 SitePermissions
 .
-jsm
+sys
+.
+mjs
 "
 )
 :
@@ -984,7 +986,9 @@ jsm
 "
 SitePermissions
 .
-jsm
+sys
+.
+mjs
 "
 "
 TabsList

@@ -10,7 +10,7 @@ SitePermissions
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -22,7 +22,9 @@ modules
 /
 SitePermissions
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1169,7 +1171,9 @@ permissions
 from
 SitePermissions
 .
-jsm
+sys
+.
+mjs
 to
 this
 test
