@@ -576,7 +576,12 @@ aRv
 void
 SetDuration
 (
-double
+const
+media
+:
+:
+TimeUnit
+&
 aDuration
 )
 ;
