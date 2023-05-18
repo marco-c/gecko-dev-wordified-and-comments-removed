@@ -456,6 +456,7 @@ box_
 :
 :
 {
+BaselineSource
 TouchAction
 VerticalAlign
 WillChange

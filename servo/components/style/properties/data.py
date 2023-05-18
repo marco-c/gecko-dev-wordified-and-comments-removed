@@ -2794,6 +2794,10 @@ AspectRatio
 "
                 
 "
+BaselineSource
+"
+                
+"
 BreakBetween
 "
                 
@@ -4976,6 +4980,12 @@ align
 "
                 
 "
+baseline
+-
+source
+"
+                
+"
 line
 -
 height
@@ -5171,6 +5181,12 @@ color
 vertical
 -
 align
+"
+                
+"
+baseline
+-
+source
 "
                 
 "
