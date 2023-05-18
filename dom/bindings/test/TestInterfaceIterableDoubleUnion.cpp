@@ -23,6 +23,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+UnionTypes
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h

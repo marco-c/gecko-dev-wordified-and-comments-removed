@@ -125103,6 +125103,12 @@ prepend
 "
 "
         
+wrapScope
+=
+self
+.
+wrapScope
+        
 if
 arg
 .
@@ -125112,8 +125118,6 @@ isUnion
 (
 )
 and
-self
-.
 wrapScope
 is
 None
@@ -125147,8 +125151,6 @@ n
             
 )
             
-self
-.
 wrapScope
 =
 "
@@ -125232,8 +125234,6 @@ jsvalIndex
 obj
 "
 :
-self
-.
 wrapScope
                 
 "
