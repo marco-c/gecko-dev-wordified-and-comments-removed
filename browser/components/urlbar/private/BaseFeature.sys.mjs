@@ -836,6 +836,7 @@ suggestion
 .
 *
 /
+async
 makeResult
 (
 queryContext

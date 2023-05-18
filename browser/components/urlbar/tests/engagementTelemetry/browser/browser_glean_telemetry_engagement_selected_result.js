@@ -3906,6 +3906,12 @@ number_of_ratings
 "
 1234567
 "
+guid
+:
+"
+good
+addon
+"
 }
 }
 is_top_pick

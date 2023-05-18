@@ -1091,6 +1091,7 @@ canAdd
 (
 result
 =
+await
 this
 .
 #
@@ -1755,6 +1756,7 @@ return
 null
 ;
 }
+async
 #
 makeResult
 (
@@ -1779,6 +1781,7 @@ amo
 :
 result
 =
+await
 lazy
 .
 QuickSuggest
@@ -1820,6 +1823,7 @@ remote
 settings
 result
 =
+await
 lazy
 .
 QuickSuggest
