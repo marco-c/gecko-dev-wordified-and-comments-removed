@@ -2117,6 +2117,7 @@ fcntl
 (
 fd
 F_DUPFD_CLOEXEC
+0
 )
 nullptr
 0
