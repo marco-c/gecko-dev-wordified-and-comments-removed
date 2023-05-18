@@ -1438,6 +1438,11 @@ mIsLiveList
 :
 1
 ;
+bool
+mInHashtable
+:
+1
+;
 #
 ifdef
 DEBUG_CONTENT_LIST
