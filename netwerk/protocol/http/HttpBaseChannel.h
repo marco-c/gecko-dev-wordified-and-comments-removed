@@ -4172,6 +4172,11 @@ uint32_t
 HasHTTPSRR
 1
 )
+(
+uint32_t
+ProcessCrossOriginSecurityHeadersCalled
+1
+)
 )
 )
 bool

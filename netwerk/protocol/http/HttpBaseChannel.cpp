@@ -12017,6 +12017,11 @@ ProcessCrossOriginSecurityHeaders
 (
 )
 {
+StoreProcessCrossOriginSecurityHeadersCalled
+(
+true
+)
+;
 nsresult
 rv
 =
