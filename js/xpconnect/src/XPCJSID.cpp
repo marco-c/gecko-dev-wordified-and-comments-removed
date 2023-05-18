@@ -1777,7 +1777,7 @@ o
 &
 &
 (
-IS_WN_REFLECTOR
+IsWrappedNativeReflector
 (
 o
 )
@@ -1955,7 +1955,7 @@ supp
 ;
 if
 (
-IS_WN_REFLECTOR
+IsWrappedNativeReflector
 (
 obj
 )

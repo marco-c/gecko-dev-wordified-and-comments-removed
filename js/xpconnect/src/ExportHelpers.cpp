@@ -226,7 +226,7 @@ false
 ;
 }
 return
-IS_WN_REFLECTOR
+IsWrappedNativeReflector
 (
 obj
 )

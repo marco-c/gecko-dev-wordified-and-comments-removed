@@ -632,10 +632,12 @@ XPC_XPCONNECT_CONTRACTID
 [
 ]
 ;
-static
+namespace
+xpc
+{
 inline
 bool
-IS_WN_REFLECTOR
+IsWrappedNativeReflector
 (
 JSObject
 *
@@ -656,6 +658,7 @@ isWrappedNative
 (
 )
 ;
+}
 }
 class
 nsXPConnect
@@ -5571,7 +5574,10 @@ obj
 {
 MOZ_ASSERT
 (
-IS_WN_REFLECTOR
+xpc
+:
+:
+IsWrappedNativeReflector
 (
 obj
 )

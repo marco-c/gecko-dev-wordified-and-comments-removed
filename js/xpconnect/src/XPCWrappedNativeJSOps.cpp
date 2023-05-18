@@ -108,6 +108,10 @@ using
 namespace
 JS
 ;
+using
+namespace
+xpc
+;
 static
 bool
 Throw
@@ -3129,7 +3133,7 @@ false
 if
 (
 !
-IS_WN_REFLECTOR
+IsWrappedNativeReflector
 (
 unwrapped
 )

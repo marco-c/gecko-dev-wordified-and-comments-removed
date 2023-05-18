@@ -1128,7 +1128,7 @@ obj
 if
 (
 !
-IS_WN_REFLECTOR
+IsWrappedNativeReflector
 (
 obj
 )
@@ -1367,7 +1367,7 @@ toObject
 ;
 MOZ_ASSERT
 (
-IS_WN_REFLECTOR
+IsWrappedNativeReflector
 (
 obj
 )

@@ -3958,7 +3958,7 @@ aJSObj
 |
 |
 !
-IS_WN_REFLECTOR
+IsWrappedNativeReflector
 (
 aJSObj
 )
@@ -4022,7 +4022,7 @@ nullptr
 }
 if
 (
-IS_WN_REFLECTOR
+IsWrappedNativeReflector
 (
 reflector
 )
