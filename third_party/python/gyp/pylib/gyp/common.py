@@ -3,12 +3,6 @@ __future__
 import
 with_statement
 import
-collections
-import
-collections
-.
-abc
-import
 errno
 import
 filecmp
@@ -22,6 +16,12 @@ import
 tempfile
 import
 sys
+from
+six
+.
+moves
+import
+collections_abc
 class
 memoize
 (
@@ -2374,9 +2374,7 @@ result
 class
 OrderedSet
 (
-collections
-.
-abc
+collections_abc
 .
 MutableSet
 )

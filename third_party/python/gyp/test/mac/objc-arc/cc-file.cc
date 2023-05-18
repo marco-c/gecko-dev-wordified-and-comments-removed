@@ -4,6 +4,12 @@ __has_feature
 (
 objc_arc
 )
+|
+|
+__has_feature
+(
+objc_arc_weak
+)
 #
 error
 "

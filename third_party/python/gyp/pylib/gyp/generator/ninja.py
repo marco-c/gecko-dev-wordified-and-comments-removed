@@ -25,6 +25,8 @@ subprocess
 import
 sys
 import
+six
+import
 gyp
 import
 gyp
@@ -5101,10 +5103,15 @@ hashlib
 .
 md5
 (
+six
+.
+ensure_binary
+(
 outputs
 [
 0
 ]
+)
 )
 .
 hexdigest

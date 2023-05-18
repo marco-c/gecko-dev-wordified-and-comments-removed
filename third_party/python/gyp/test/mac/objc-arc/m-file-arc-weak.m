@@ -1,6 +1,5 @@
 #
 if
-!
 __has_feature
 (
 objc_arc
@@ -10,9 +9,10 @@ error
 "
 ObjC
 files
-with
+without
 CLANG_ENABLE_OBJC_ARC
 should
+not
 be
 ARC
 '
@@ -31,14 +31,13 @@ objc_arc_weak
 #
 error
 "
-Weak
+With
+CLANG_ENABLE_OBJC_WEAK
+weak
 references
 should
-always
 be
 enabled
-for
-ARC
 .
 "
 #
