@@ -2002,7 +2002,7 @@ lint
 /
 test
 /
-test_clippy
+test_black
 .
 py
 More
