@@ -548,6 +548,14 @@ u8
 ;
 pub
 const
+U2F_DONT_ENFORCE_USER_PRESENCE_AND_SIGN
+:
+u8
+=
+0x08
+;
+pub
+const
 INIT_NONCE_SIZE
 :
 usize

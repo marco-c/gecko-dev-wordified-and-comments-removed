@@ -210,7 +210,7 @@ use
 ctap2
 :
 :
-AssertionObject
+GetAssertionResult
 ;
 pub
 mod
@@ -403,7 +403,7 @@ U2FDeviceInfo
 )
 CTAP2
 (
-AssertionObject
+GetAssertionResult
 )
 }
 pub
