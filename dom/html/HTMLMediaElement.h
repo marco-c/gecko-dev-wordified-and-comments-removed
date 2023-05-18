@@ -1045,15 +1045,6 @@ aSize
 )
 ;
 void
-UpdateInitialMediaSize
-(
-const
-nsIntSize
-&
-aSize
-)
-;
-void
 Invalidate
 (
 bool
