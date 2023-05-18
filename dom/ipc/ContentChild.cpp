@@ -15526,7 +15526,7 @@ aPriority
 {
 pthread_set_qos_class_self_np
 (
-QOS_CLASS_BACKGROUND
+QOS_CLASS_UTILITY
 0
 )
 ;
@@ -21050,6 +21050,7 @@ GetOrCreate
 aGroupId
 )
 ;
+return
 BrowsingContext
 :
 :
@@ -21064,11 +21065,6 @@ aInit
 )
 group
 nullptr
-)
-;
-return
-IPC_OK
-(
 )
 ;
 }
