@@ -159,6 +159,13 @@ TimeUnit
 aDuration
 )
 ;
+void
+SetMediaSourceDuration
+(
+double
+aDuration
+)
+;
 MediaSourceDemuxer
 *
 GetDemuxer
