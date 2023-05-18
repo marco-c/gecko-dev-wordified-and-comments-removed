@@ -1655,10 +1655,6 @@ ORIGIN_MAIN
 :
 ORIGIN_CONTENT
 )
-mMayBeIMEUnaware
-(
-false
-)
 mHasHandledUserInput
 (
 false
@@ -1942,9 +1938,6 @@ ORIGIN_CONTENT
 ;
 Origin
 mOrigin
-;
-bool
-mMayBeIMEUnaware
 ;
 bool
 mHasHandledUserInput
