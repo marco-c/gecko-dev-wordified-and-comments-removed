@@ -3240,9 +3240,13 @@ return
 IsPlain
 :
 IsPlainPhoneNumber
+IsValid
+:
+IsValidNumber
 Parse
 :
 ParseNumber
+FindMetaDataForRegion
 }
 ;
 }
