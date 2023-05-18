@@ -1,17 +1,3 @@
-defaults
-pref
-(
-layout
-.
-css
-.
-named
--
-pages
-.
-enabled
-true
-)
 =
 =
 page
