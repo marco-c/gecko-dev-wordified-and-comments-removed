@@ -59,9 +59,6 @@ include
 IPCStream
 ;
 include
-IPCTransferable
-;
-include
 URIParams
 ;
 include
@@ -2363,7 +2360,7 @@ event
 async
 InvokeDragSession
 (
-IPCTransferableData
+IPCDataTransfer
 [
 ]
 transfers
@@ -3007,8 +3004,8 @@ aStringToInsert
 async
 PasteTransferable
 (
-IPCTransferableData
-aTransferableData
+IPCDataTransfer
+aDataTransfer
 bool
 aIsPrivateData
 nullable

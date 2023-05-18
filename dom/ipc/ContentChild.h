@@ -2276,11 +2276,11 @@ WindowContext
 aSourceTopWindowContext
 nsTArray
 <
-IPCTransferableData
+IPCDataTransfer
 >
 &
 &
-aTransferables
+aTransfers
 const
 uint32_t
 &
