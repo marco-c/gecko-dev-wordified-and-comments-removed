@@ -705,14 +705,13 @@ public
 }
             
 "
-expires
+expiration
 -
-after
+policy
 "
 :
 "
-1
-year
+long
 "
             
 "
