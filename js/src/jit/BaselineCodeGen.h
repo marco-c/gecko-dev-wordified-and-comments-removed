@@ -924,11 +924,6 @@ strict
 )
 ;
 bool
-tryOptimizeGetGlobalName
-(
-)
-;
-bool
 tryOptimizeBindGlobalName
 (
 )
