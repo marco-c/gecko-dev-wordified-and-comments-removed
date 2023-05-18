@@ -367,6 +367,12 @@ if
 desiredPagesPerSheet
 >
 1
+&
+&
+!
+GetPrevContinuation
+(
+)
 )
 {
 ComputePagesPerSheetOriginAndScale
