@@ -570,6 +570,15 @@ fragment_duration
 10_032
 )
 ;
+assert_eq
+!
+(
+fragment_info
+.
+time_scale
+1000
+)
+;
 mp4parse_free
 (
 parser
