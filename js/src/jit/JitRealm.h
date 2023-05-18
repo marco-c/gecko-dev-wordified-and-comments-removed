@@ -143,7 +143,7 @@ StringConcat
 0
 RegExpMatcher
 RegExpSearcher
-RegExpTester
+RegExpExecTest
 Count
 }
 ;
@@ -200,7 +200,7 @@ cx
 ;
 JitCode
 *
-generateRegExpTesterStub
+generateRegExpExecTestStub
 (
 JSContext
 *
@@ -546,7 +546,7 @@ RegExpSearcher
 }
 JitCode
 *
-regExpTesterStubNoBarrier
+regExpExecTestStubNoBarrier
 (
 uint32_t
 *
@@ -557,7 +557,7 @@ const
 return
 getStubNoBarrier
 (
-RegExpTester
+RegExpExecTest
 requiredBarriersOut
 )
 ;
@@ -568,7 +568,7 @@ nodiscard
 ]
 ]
 bool
-ensureRegExpTesterStubExists
+ensureRegExpExecTestStubExists
 (
 JSContext
 *
@@ -579,7 +579,7 @@ if
 (
 stubs_
 [
-RegExpTester
+RegExpExecTest
 ]
 )
 {
@@ -589,10 +589,10 @@ true
 }
 stubs_
 [
-RegExpTester
+RegExpExecTest
 ]
 =
-generateRegExpTesterStub
+generateRegExpExecTestStub
 (
 cx
 )
@@ -600,7 +600,7 @@ cx
 return
 stubs_
 [
-RegExpTester
+RegExpExecTest
 ]
 ;
 }
