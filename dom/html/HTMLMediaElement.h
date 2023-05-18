@@ -1047,7 +1047,7 @@ aSize
 void
 Invalidate
 (
-bool
+ImageSizeChanged
 aImageSizeChanged
 const
 Maybe
@@ -1056,7 +1056,7 @@ nsIntSize
 >
 &
 aNewIntrinsicSize
-bool
+ForceInvalidate
 aForceInvalidate
 )
 override
