@@ -8,6 +8,7 @@ from
 datetime
 import
 datetime
+timedelta
 import
 requests
 from
@@ -130,6 +131,8 @@ group
     
 download_date
 =
+(
+        
 datetime
 .
 strptime
@@ -154,12 +157,19 @@ S
 Y
 "
 )
+-
+timedelta
+(
+days
+=
+1
+)
+    
+)
 .
 strftime
 (
-        
 DATETIME_FORMAT
-    
 )
     
 nightly_url
