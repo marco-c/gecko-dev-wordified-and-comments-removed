@@ -337,6 +337,12 @@ swgl
 False
         
 "
+editorLegacyDirectionMode
+"
+:
+False
+        
+"
 win10_2004
 "
 :
@@ -678,6 +684,12 @@ False
         
 "
 swgl
+"
+:
+False
+        
+"
+editorLegacyDirectionMode
 "
 :
 False
@@ -1028,6 +1040,12 @@ False
         
 "
 swgl
+"
+:
+False
+        
+"
+editorLegacyDirectionMode
 "
 :
 False
