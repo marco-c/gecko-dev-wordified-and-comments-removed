@@ -4697,7 +4697,6 @@ states
 :
 :
 INVALID
-true
 )
 ;
 FireDelayedEvent
