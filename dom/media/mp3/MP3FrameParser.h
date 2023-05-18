@@ -147,6 +147,9 @@ mRaw
 [
 SIZE
 ]
+=
+{
+}
 ;
 Maybe
 <
@@ -156,6 +159,8 @@ mSize
 ;
 int
 mPos
+=
+0
 ;
 }
 ;
@@ -384,9 +389,14 @@ mRaw
 [
 SIZE
 ]
+=
+{
+}
 ;
 int
 mPos
+=
+0
 ;
 }
 ;
@@ -592,7 +602,7 @@ Frame
 {
 public
 :
-int32_t
+uint32_t
 Length
 (
 )
