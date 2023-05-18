@@ -59,6 +59,9 @@ include
 IPCStream
 ;
 include
+IPCTransferable
+;
+include
 URIParams
 ;
 include
