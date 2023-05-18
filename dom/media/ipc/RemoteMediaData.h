@@ -1177,6 +1177,12 @@ TimeInterval
 >
 mOriginalPresentationWindow
 ;
+Maybe
+<
+CryptoInfo
+>
+mCryptoConfig
+;
 }
 ;
 private
