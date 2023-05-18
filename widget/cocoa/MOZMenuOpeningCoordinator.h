@@ -70,6 +70,12 @@ NSAppearance
 *
 )
 aAppearance
+asContextMenu
+:
+(
+BOOL
+)
+aIsContextMenu
 ;
 -
 (

@@ -83,6 +83,8 @@ const
 CSSIntPoint
 &
 aPosition
+bool
+aIsContextMenu
 )
 override
 ;

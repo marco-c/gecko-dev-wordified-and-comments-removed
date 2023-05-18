@@ -72,6 +72,8 @@ const
 CSSIntPoint
 &
 aPosition
+bool
+aIsContextMenu
 )
 =
 0

@@ -2173,6 +2173,8 @@ const
 CSSIntPoint
 &
 aPosition
+bool
+aIsContextMenu
 )
 {
 if
