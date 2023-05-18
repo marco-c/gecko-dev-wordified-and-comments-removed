@@ -1486,7 +1486,7 @@ TimeUnit
 :
 FromMicroseconds
 (
-2112
+1024u
 *
 1000000ULL
 /
@@ -3349,6 +3349,8 @@ mFrameIndex
 -
 1
 )
+-
+mPreRoll
 ;
 frame
 -
@@ -3376,19 +3378,6 @@ frame
 mKeyframe
 =
 true
-;
-MOZ_ASSERT
-(
-!
-frame
--
->
-mTime
-.
-IsNegative
-(
-)
-)
 ;
 MOZ_ASSERT
 (
