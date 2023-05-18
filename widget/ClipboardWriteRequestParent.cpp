@@ -259,9 +259,9 @@ ClipboardWriteRequestParent
 RecvSetData
 (
 const
-IPCDataTransfer
+IPCTransferableData
 &
-aDataTransfer
+aTransferableData
 const
 bool
 &
@@ -440,9 +440,9 @@ rv
 nsContentUtils
 :
 :
-IPCTransferableToTransferable
+IPCTransferableDataToTransferable
 (
-aDataTransfer
+aTransferableData
 aIsPrivateData
 aRequestingPrincipal
 aContentPolicyType

@@ -82,11 +82,11 @@ BrowserParent
 aBrowserParent
 nsTArray
 <
-IPCDataTransfer
+IPCTransferableData
 >
 &
 &
-aDataTransfer
+aTransferableData
 const
 LayoutDeviceIntRect
 &
@@ -212,9 +212,9 @@ mBrowserParent
 ;
 nsTArray
 <
-IPCDataTransfer
+IPCTransferableData
 >
-mDataTransfer
+mTransferableData
 ;
 const
 LayoutDeviceIntRect
