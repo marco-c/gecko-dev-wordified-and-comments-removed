@@ -22,7 +22,7 @@ utf
 <
 title
 >
-MozTabList
+FxviewTabList
 Tests
 <
 /
@@ -172,7 +172,7 @@ content
 /
 firefoxview
 /
-moz
+fxview
 -
 tab
 -
@@ -195,7 +195,7 @@ body
 <
 style
 >
-moz
+fxview
 -
 tab
 -
@@ -269,7 +269,7 @@ width
 "
 >
 <
-moz
+fxview
 -
 tab
 -
@@ -313,7 +313,7 @@ l10n
 id
 =
 "
-mztabrow
+fxviewtabrow
 -
 delete
 "
@@ -335,7 +335,7 @@ l10n
 id
 =
 "
-mztabrow
+fxviewtabrow
 -
 forget
 -
@@ -367,7 +367,7 @@ l10n
 id
 =
 "
-mztabrow
+fxviewtabrow
 -
 open
 -
@@ -393,7 +393,7 @@ l10n
 id
 =
 "
-mztabrow
+fxviewtabrow
 -
 open
 -
@@ -425,7 +425,7 @@ l10n
 id
 =
 "
-mztabrow
+fxviewtabrow
 -
 add
 -
@@ -449,7 +449,7 @@ l10n
 id
 =
 "
-mztabrow
+fxviewtabrow
 -
 save
 -
@@ -475,7 +475,7 @@ l10n
 id
 =
 "
-mztabrow
+fxviewtabrow
 -
 copy
 -
@@ -496,7 +496,7 @@ list
 >
 <
 /
-moz
+fxview
 -
 tab
 -
@@ -729,14 +729,14 @@ jsm
 )
 ;
 const
-mozTabList
+fxviewTabList
 =
 document
 .
 querySelector
 (
 "
-moz
+fxview
 -
 tab
 -
@@ -1098,14 +1098,14 @@ normalizeHistoryData
 history
 )
 ;
-mozTabList
+fxviewTabList
 .
 tabItems
 =
 normalized
 ;
 await
-mozTabList
+fxviewTabList
 .
 getUpdateComplete
 (
@@ -1117,7 +1117,7 @@ Array
 .
 from
 (
-mozTabList
+fxviewTabList
 .
 rowEls
 )
@@ -1168,7 +1168,7 @@ historyItem
 primaryL10nId
 =
 "
-mztabrow
+fxviewtabrow
 -
 tabs
 -
@@ -1199,7 +1199,7 @@ historyItem
 secondaryL10nId
 =
 "
-mztabrow
+fxviewtabrow
 -
 open
 -
@@ -1241,7 +1241,7 @@ querySelector
 (
 "
 #
-moz
+fxview
 -
 tab
 -
@@ -1297,7 +1297,7 @@ querySelector
 (
 "
 #
-moz
+fxview
 -
 tab
 -
@@ -1405,12 +1405,12 @@ setup
 (
 )
 {
-mozTabList
+fxviewTabList
 .
 addEventListener
 (
 "
-moz
+fxview
 -
 tab
 -
@@ -1423,12 +1423,12 @@ action
 onPrimaryAction
 )
 ;
-mozTabList
+fxviewTabList
 .
 addEventListener
 (
 "
-moz
+fxview
 -
 tab
 -
@@ -1517,7 +1517,7 @@ First
 history
 item
 in
-moz
+fxview
 -
 tab
 -
@@ -1551,7 +1551,7 @@ Last
 history
 item
 in
-moz
+fxview
 -
 tab
 -
@@ -1699,7 +1699,7 @@ can
 be
 given
 to
-moz
+fxview
 -
 tab
 -
@@ -1727,7 +1727,7 @@ value
 for
 testing
 purposes
-mozTabList
+fxviewTabList
 .
 maxTabsLength
 =
@@ -1744,7 +1744,7 @@ tabItems
 .
 length
 mockMaxTabsLength
-moz
+fxview
 -
 tabs
 -
@@ -1878,7 +1878,7 @@ node
 /
 /
 Update
-moz
+fxview
 -
 tab
 -
@@ -1896,14 +1896,14 @@ normalizeHistoryData
 history
 )
 ;
-mozTabList
+fxviewTabList
 .
 tabItems
 =
 normalized
 ;
 await
-mozTabList
+fxviewTabList
 .
 getUpdateComplete
 (
@@ -1915,7 +1915,7 @@ Array
 .
 from
 (
-mozTabList
+fxviewTabList
 .
 rowEls
 )
@@ -1926,7 +1926,7 @@ tabItems
 .
 length
 mockMaxTabsLength
-moz
+fxview
 -
 tabs
 -
@@ -1973,7 +1973,7 @@ maxTabsLength
 .
 "
 )
-mozTabList
+fxviewTabList
 .
 maxTabsLength
 =
@@ -1991,7 +1991,7 @@ keyboard
 navigation
 of
 the
-moz
+fxview
 -
 tab
 -
@@ -2034,7 +2034,7 @@ KEY_ArrowDown
 )
 ;
 await
-mozTabList
+fxviewTabList
 .
 getUpdateComplete
 (
@@ -2069,7 +2069,7 @@ KEY_ArrowUp
 )
 ;
 await
-mozTabList
+fxviewTabList
 .
 getUpdateComplete
 (
@@ -2104,7 +2104,7 @@ KEY_ArrowRight
 )
 ;
 await
-mozTabList
+fxviewTabList
 .
 getUpdateComplete
 (
@@ -2139,7 +2139,7 @@ KEY_ArrowLeft
 )
 ;
 await
-mozTabList
+fxviewTabList
 .
 getUpdateComplete
 (
@@ -2530,7 +2530,7 @@ time
 format
 for
 the
-moz
+fxview
 -
 tab
 -
@@ -2621,7 +2621,7 @@ only
 format
 for
 the
-moz
+fxview
 -
 tab
 -
@@ -2648,7 +2648,7 @@ Check
 date
 only
 format
-mozTabList
+fxviewTabList
 .
 dateTimeFormat
 =
@@ -2657,7 +2657,7 @@ date
 "
 ;
 await
-mozTabList
+fxviewTabList
 .
 getUpdateComplete
 (
@@ -2754,7 +2754,7 @@ only
 format
 for
 the
-moz
+fxview
 -
 tab
 -
@@ -2781,7 +2781,7 @@ Check
 time
 only
 format
-mozTabList
+fxviewTabList
 .
 dateTimeFormat
 =
@@ -2790,7 +2790,7 @@ time
 "
 ;
 await
-mozTabList
+fxviewTabList
 .
 getUpdateComplete
 (
@@ -2912,7 +2912,7 @@ time
 format
 for
 the
-moz
+fxview
 -
 tab
 -
@@ -2940,7 +2940,7 @@ date
 and
 time
 format
-mozTabList
+fxviewTabList
 .
 dateTimeFormat
 =
@@ -2949,7 +2949,7 @@ dateTime
 "
 ;
 await
-mozTabList
+fxviewTabList
 .
 getUpdateComplete
 (
@@ -3084,7 +3084,7 @@ relative
 before
 next
 test
-mozTabList
+fxviewTabList
 .
 dateTimeFormat
 =
@@ -3093,7 +3093,7 @@ relative
 "
 ;
 await
-mozTabList
+fxviewTabList
 .
 getUpdateComplete
 (
@@ -3114,7 +3114,7 @@ updates
 properly
 for
 the
-moz
+fxview
 -
 tab
 -

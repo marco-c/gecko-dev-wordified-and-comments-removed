@@ -61,7 +61,7 @@ host
 {
 -
 -
-mztabrow
+fxviewtabrow
 -
 text
 -
@@ -83,7 +83,7 @@ transparent
 ;
 -
 -
-mztabrow
+fxviewtabrow
 -
 background
 -
@@ -114,7 +114,7 @@ background
 ;
 -
 -
-mztabrow
+fxviewtabrow
 -
 element
 -
@@ -132,7 +132,7 @@ var
 (
 -
 -
-mztabrow
+fxviewtabrow
 -
 background
 -
@@ -145,7 +145,7 @@ currentColor
 ;
 -
 -
-mztabrow
+fxviewtabrow
 -
 element
 -
@@ -163,7 +163,7 @@ var
 (
 -
 -
-mztabrow
+fxviewtabrow
 -
 background
 -
@@ -218,7 +218,7 @@ host
 {
 -
 -
-mztabrow
+fxviewtabrow
 -
 element
 -
@@ -230,7 +230,7 @@ ButtonText
 ;
 -
 -
-mztabrow
+fxviewtabrow
 -
 element
 -
@@ -242,7 +242,7 @@ ButtonText
 ;
 -
 -
-mztabrow
+fxviewtabrow
 -
 text
 -
@@ -254,7 +254,7 @@ ButtonFace
 ;
 -
 -
-mztabrow
+fxviewtabrow
 -
 text
 -
@@ -267,7 +267,7 @@ currentColor
 }
 }
 .
-moz
+fxview
 -
 tab
 -
@@ -333,7 +333,7 @@ none
 ;
 }
 .
-moz
+fxview
 -
 tab
 -
@@ -341,7 +341,7 @@ row
 -
 main
 .
-moz
+fxview
 -
 tab
 -
@@ -351,7 +351,7 @@ main
 :
 visited
 .
-moz
+fxview
 -
 tab
 -
@@ -363,7 +363,7 @@ hover
 :
 active
 .
-moz
+fxview
 -
 tab
 -
@@ -377,7 +377,7 @@ inherit
 ;
 }
 .
-moz
+fxview
 -
 tab
 -
@@ -387,7 +387,7 @@ main
 :
 hover
 .
-moz
+fxview
 -
 tab
 -
@@ -415,7 +415,7 @@ var
 (
 -
 -
-mztabrow
+fxviewtabrow
 -
 element
 -
@@ -430,7 +430,7 @@ var
 (
 -
 -
-mztabrow
+fxviewtabrow
 -
 text
 -
@@ -441,7 +441,7 @@ hover
 ;
 }
 .
-moz
+fxview
 -
 tab
 -
@@ -453,7 +453,7 @@ hover
 :
 active
 .
-moz
+fxview
 -
 tab
 -
@@ -483,7 +483,7 @@ var
 (
 -
 -
-mztabrow
+fxviewtabrow
 -
 element
 -
@@ -501,7 +501,7 @@ contrast
 )
 {
 .
-moz
+fxview
 -
 tab
 -
@@ -509,7 +509,7 @@ row
 -
 main
 .
-moz
+fxview
 -
 tab
 -
@@ -519,7 +519,7 @@ main
 :
 hover
 .
-moz
+fxview
 -
 tab
 -
@@ -547,7 +547,7 @@ LinkText
 ;
 }
 .
-moz
+fxview
 -
 tab
 -
@@ -557,7 +557,7 @@ main
 :
 visited
 .
-moz
+fxview
 -
 tab
 -
@@ -582,7 +582,7 @@ VisitedText
 }
 }
 .
-moz
+fxview
 -
 tab
 -
@@ -633,7 +633,7 @@ relative
 ;
 }
 .
-moz
+fxview
 -
 tab
 -
@@ -655,7 +655,7 @@ nowrap
 ;
 }
 .
-moz
+fxview
 -
 tab
 -
@@ -665,7 +665,7 @@ main
 :
 hover
 .
-moz
+fxview
 -
 tab
 -
@@ -683,7 +683,7 @@ underline
 ;
 }
 .
-moz
+fxview
 -
 tab
 -
@@ -697,7 +697,7 @@ var
 (
 -
 -
-mztabrow
+fxviewtabrow
 -
 text
 -
@@ -724,7 +724,7 @@ underline
 ;
 }
 .
-moz
+fxview
 -
 tab
 -
@@ -732,7 +732,7 @@ row
 -
 title
 .
-moz
+fxview
 -
 tab
 -
@@ -746,7 +746,7 @@ hidden
 ;
 }
 .
-moz
+fxview
 -
 tab
 -
@@ -754,7 +754,7 @@ row
 -
 date
 .
-moz
+fxview
 -
 tab
 -
@@ -768,7 +768,7 @@ var
 (
 -
 -
-mztabrow
+fxviewtabrow
 -
 text
 -
@@ -785,7 +785,7 @@ nowrap
 ;
 }
 .
-moz
+fxview
 -
 tab
 -
@@ -793,7 +793,7 @@ row
 -
 url
 .
-moz
+fxview
 -
 tab
 -
@@ -809,7 +809,7 @@ weight
 ;
 }
 .
-moz
+fxview
 -
 tab
 -

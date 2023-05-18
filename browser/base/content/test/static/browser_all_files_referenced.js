@@ -2171,7 +2171,7 @@ US
 /
 browser
 /
-mozTabList
+fxviewTabList
 .
 ftl
 "
@@ -2190,7 +2190,7 @@ content
 /
 firefoxview
 /
-moz
+fxview
 -
 tab
 -
@@ -2213,7 +2213,7 @@ content
 /
 firefoxview
 /
-moz
+fxview
 -
 tab
 -
@@ -2236,7 +2236,7 @@ content
 /
 firefoxview
 /
-moz
+fxview
 -
 tab
 -

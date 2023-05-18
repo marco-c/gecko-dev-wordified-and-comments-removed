@@ -93,7 +93,7 @@ components
 /
 firefoxview
 /
-moz
+fxview
 -
 tab
 -
@@ -140,13 +140,16 @@ specific
 UI
 Widgets
 /
+Firefox
+View
+/
 Tab
 List
 "
 component
 :
 "
-moz
+fxview
 -
 tab
 -
@@ -211,7 +214,7 @@ width
 750px
 ;
 }
-moz
+fxview
 -
 tab
 -
@@ -251,7 +254,7 @@ svg
 )
 ;
 }
-moz
+fxview
 -
 tab
 -
@@ -324,7 +327,7 @@ style
 main
 >
 <
-moz
+fxview
 -
 tab
 -
@@ -358,7 +361,7 @@ tabItems
 {
 tabItems
 }
-moz
+fxview
 -
 tab
 -
@@ -371,7 +374,7 @@ action
 {
 secondaryAction
 }
-moz
+fxview
 -
 tab
 -
@@ -406,7 +409,7 @@ l10n
 id
 =
 "
-mztabrow
+fxviewtabrow
 -
 delete
 "
@@ -428,7 +431,7 @@ l10n
 id
 =
 "
-mztabrow
+fxviewtabrow
 -
 forget
 -
@@ -460,7 +463,7 @@ l10n
 id
 =
 "
-mztabrow
+fxviewtabrow
 -
 open
 -
@@ -486,7 +489,7 @@ l10n
 id
 =
 "
-mztabrow
+fxviewtabrow
 -
 open
 -
@@ -518,7 +521,7 @@ l10n
 id
 =
 "
-mztabrow
+fxviewtabrow
 -
 add
 -
@@ -542,7 +545,7 @@ l10n
 id
 =
 "
-mztabrow
+fxviewtabrow
 -
 save
 -
@@ -568,7 +571,7 @@ l10n
 id
 =
 "
-mztabrow
+fxviewtabrow
 -
 copy
 -
@@ -589,7 +592,7 @@ list
 >
 <
 /
-moz
+fxview
 -
 tab
 -
@@ -692,7 +695,7 @@ time
 primaryL10nId
 :
 "
-mztabrow
+fxviewtabrow
 -
 tabs
 -
@@ -719,7 +722,7 @@ net
 secondaryL10nId
 :
 "
-mztabrow
+fxviewtabrow
 -
 open
 -
@@ -765,7 +768,7 @@ time
 primaryL10nId
 :
 "
-mztabrow
+fxviewtabrow
 -
 tabs
 -
@@ -792,7 +795,7 @@ org
 secondaryL10nId
 :
 "
-mztabrow
+fxviewtabrow
 -
 open
 -
@@ -838,7 +841,7 @@ time
 primaryL10nId
 :
 "
-mztabrow
+fxviewtabrow
 -
 tabs
 -
@@ -865,7 +868,7 @@ com
 secondaryL10nId
 :
 "
-mztabrow
+fxviewtabrow
 -
 open
 -
@@ -920,7 +923,7 @@ time
 primaryL10nId
 :
 "
-mztabrow
+fxviewtabrow
 -
 tabs
 -
@@ -947,7 +950,7 @@ net
 secondaryL10nId
 :
 "
-mztabrow
+fxviewtabrow
 -
 dismiss
 -
@@ -1011,7 +1014,7 @@ time
 primaryL10nId
 :
 "
-mztabrow
+fxviewtabrow
 -
 tabs
 -
@@ -1038,7 +1041,7 @@ net
 secondaryL10nId
 :
 "
-mztabrow
+fxviewtabrow
 -
 dismiss
 -
@@ -1102,7 +1105,7 @@ time
 primaryL10nId
 :
 "
-mztabrow
+fxviewtabrow
 -
 tabs
 -
@@ -1129,7 +1132,7 @@ net
 secondaryL10nId
 :
 "
-mztabrow
+fxviewtabrow
 -
 dismiss
 -

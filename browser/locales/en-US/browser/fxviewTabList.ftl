@@ -53,7 +53,7 @@ MPL
 0
 /
 .
-mztabrow
+fxviewtabrow
 -
 open
 -
@@ -82,7 +82,7 @@ formatted
 based
 on
 locale
-mztabrow
+fxviewtabrow
 -
 date
 =
@@ -113,7 +113,7 @@ formatted
 based
 on
 locale
-mztabrow
+fxviewtabrow
 -
 time
 =
@@ -148,7 +148,7 @@ in
 the
 new
 tab
-mztabrow
+fxviewtabrow
 -
 tabs
 -
@@ -181,7 +181,7 @@ of
 tab
 being
 dismissed
-mztabrow
+fxviewtabrow
 -
 dismiss
 -
@@ -215,7 +215,7 @@ or
 so
 of
 now
-mztabrow
+fxviewtabrow
 -
 just
 -
@@ -252,7 +252,7 @@ attribute
 is
 required
 .
-mztabrow
+fxviewtabrow
 -
 delete
 =
@@ -261,7 +261,7 @@ Delete
 accesskey
 =
 D
-mztabrow
+fxviewtabrow
 -
 forget
 -
@@ -279,7 +279,7 @@ Site
 accesskey
 =
 F
-mztabrow
+fxviewtabrow
 -
 open
 -
@@ -295,7 +295,7 @@ Window
 accesskey
 =
 N
-mztabrow
+fxviewtabrow
 -
 open
 -
@@ -332,7 +332,7 @@ to
 bookmarks
 )
 .
-mztabrow
+fxviewtabrow
 -
 add
 -
@@ -343,7 +343,7 @@ Bookmark
 accesskey
 =
 B
-mztabrow
+fxviewtabrow
 -
 save
 -
@@ -365,7 +365,7 @@ name
 accesskey
 =
 o
-mztabrow
+fxviewtabrow
 -
 copy
 -

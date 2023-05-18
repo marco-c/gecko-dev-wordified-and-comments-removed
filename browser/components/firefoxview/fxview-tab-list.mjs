@@ -304,7 +304,7 @@ list
 export
 default
 class
-MozTabList
+FxviewTabList
 extends
 MozLitElement
 {
@@ -342,7 +342,7 @@ insertFTLIfNeeded
 "
 browser
 /
-mozTabList
+fxviewTabList
 .
 ftl
 "
@@ -359,7 +359,7 @@ this
 currentActiveElementId
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -461,7 +461,7 @@ rowEls
 all
 :
 "
-moz
+fxview
 -
 tab
 -
@@ -791,10 +791,10 @@ rowEls
 .
 forEach
 (
-mozTabRow
+fxviewTabRow
 =
 >
-mozTabRow
+fxviewTabRow
 .
 requestUpdate
 (
@@ -818,7 +818,7 @@ or
 button
 )
 within
-moz
+fxview
 -
 tab
 -
@@ -848,7 +848,7 @@ e
 )
 {
 let
-mozTabRow
+fxviewTabRow
 =
 e
 .
@@ -1000,7 +1000,7 @@ this
 .
 currentActiveElementId
 =
-mozTabRow
+fxviewTabRow
 .
 focusLink
 (
@@ -1013,7 +1013,7 @@ this
 .
 currentActiveElementId
 =
-mozTabRow
+fxviewTabRow
 .
 focusButton
 (
@@ -1082,7 +1082,7 @@ this
 .
 currentActiveElementId
 =
-mozTabRow
+fxviewTabRow
 .
 focusButton
 (
@@ -1095,7 +1095,7 @@ this
 .
 currentActiveElementId
 =
-mozTabRow
+fxviewTabRow
 .
 focusLink
 (
@@ -1231,7 +1231,7 @@ IS_STORYBOOK
 "
 .
 /
-moz
+fxview
 -
 tab
 -
@@ -1251,7 +1251,7 @@ content
 /
 firefoxview
 /
-moz
+fxview
 -
 tab
 -
@@ -1316,7 +1316,7 @@ div
 id
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -1325,7 +1325,7 @@ list
 class
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -1357,7 +1357,7 @@ i
 >
 html
 <
-moz
+fxview
 -
 tab
 -
@@ -1540,7 +1540,7 @@ url
 >
 <
 /
-moz
+fxview
 -
 tab
 -
@@ -1572,13 +1572,13 @@ customElements
 define
 (
 "
-moz
+fxview
 -
 tab
 -
 list
 "
-MozTabList
+FxviewTabList
 )
 ;
 /
@@ -1821,7 +1821,7 @@ time
 /
 export
 class
-MozTabRow
+FxviewTabRow
 extends
 MozLitElement
 {
@@ -1844,7 +1844,7 @@ this
 currentActiveElementId
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -1966,7 +1966,7 @@ mainEl
 :
 "
 .
-moz
+fxview
 -
 tab
 -
@@ -1978,7 +1978,7 @@ buttonEl
 :
 "
 .
-moz
+fxview
 -
 tab
 -
@@ -2103,7 +2103,7 @@ IS_STORYBOOK
 "
 .
 /
-moz
+fxview
 -
 tab
 -
@@ -2123,7 +2123,7 @@ content
 /
 firefoxview
 /
-moz
+fxview
 -
 tab
 -
@@ -2243,7 +2243,7 @@ recent
 timestamps
 return
 "
-mztabrow
+fxviewtabrow
 -
 just
 -
@@ -2280,7 +2280,7 @@ dateTime
 {
 return
 "
-mztabrow
+fxviewtabrow
 -
 date
 "
@@ -2380,7 +2380,7 @@ dateTime
 {
 return
 "
-mztabrow
+fxviewtabrow
 -
 time
 "
@@ -2555,7 +2555,7 @@ new
 CustomEvent
 (
 "
-moz
+fxview
 -
 tab
 -
@@ -2659,7 +2659,7 @@ new
 CustomEvent
 (
 "
-moz
+fxview
 -
 tab
 -
@@ -2859,7 +2859,7 @@ url
 class
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -2870,7 +2870,7 @@ main
 id
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -2893,7 +2893,7 @@ currentActiveElementId
 =
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -2956,7 +2956,7 @@ span
 class
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -2968,7 +2968,7 @@ icon
 id
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -3013,7 +3013,7 @@ span
 class
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -3024,7 +3024,7 @@ title
 id
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -3045,7 +3045,7 @@ span
 class
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -3056,7 +3056,7 @@ url
 id
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -3084,7 +3084,7 @@ span
 class
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -3095,7 +3095,7 @@ date
 id
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -3171,7 +3171,7 @@ span
 class
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -3182,7 +3182,7 @@ time
 id
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -3241,7 +3241,7 @@ button
 class
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -3261,7 +3261,7 @@ transparent
 id
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -3338,7 +3338,7 @@ currentActiveElementId
 =
 =
 "
-moz
+fxview
 -
 tab
 -
@@ -3372,12 +3372,12 @@ customElements
 define
 (
 "
-moz
+fxview
 -
 tab
 -
 row
 "
-MozTabRow
+FxviewTabRow
 )
 ;
