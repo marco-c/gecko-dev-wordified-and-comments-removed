@@ -15,7 +15,7 @@ DontCheckDefaultBrowser
 :
 true
 "
-FlashPlugin
+InstallAddonsPermission
 "
 :
 {
