@@ -778,10 +778,6 @@ aCx
 ReadableStream
 *
 aStream
-ReadableStreamDefaultReader
-*
-*
-aReader
 ErrorResult
 &
 aRv
@@ -833,13 +829,6 @@ return
 mReader
 =
 reader
-;
-reader
-.
-forget
-(
-aReader
-)
 ;
 mAsyncWaitWorkerRef
 =

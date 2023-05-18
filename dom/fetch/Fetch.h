@@ -617,12 +617,6 @@ mOwner
 ;
 RefPtr
 <
-ReadableStreamDefaultReader
->
-mReadableStreamReader
-;
-RefPtr
-<
 FetchStreamReader
 >
 mFetchStreamReader
