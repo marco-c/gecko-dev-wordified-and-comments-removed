@@ -1049,6 +1049,9 @@ aAlreadyBridgedTo
 uint32_t
 *
 aOutPluginId
+GMPPluginType
+*
+aOutPluginType
 ProcessId
 *
 aOutProcessId
