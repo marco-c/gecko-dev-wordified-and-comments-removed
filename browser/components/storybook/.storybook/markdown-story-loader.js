@@ -315,6 +315,12 @@ componentName
 {
 storyPath
 =
+"
+UI
+Widgets
+/
+"
++
 separateWords
 (
 componentName

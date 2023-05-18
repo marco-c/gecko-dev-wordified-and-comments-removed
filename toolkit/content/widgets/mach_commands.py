@@ -405,6 +405,9 @@ default
 title
 :
 "
+UI
+Widgets
+/
 {
 story_name
 }

@@ -126,6 +126,9 @@ default
 title
 :
 "
+UI
+Widgets
+/
 Toggle
 "
 component

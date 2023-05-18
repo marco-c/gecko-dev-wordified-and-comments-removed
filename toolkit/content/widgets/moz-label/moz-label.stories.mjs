@@ -127,6 +127,9 @@ default
 title
 :
 "
+UI
+Widgets
+/
 Label
 "
 component
