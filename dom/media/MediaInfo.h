@@ -1010,7 +1010,7 @@ media
 TimeUnit
 mMediaTime
 ;
-int32_t
+uint32_t
 mTimeScale
 =
 0
