@@ -168,3 +168,17 @@ nocertdb
 true
 )
 ;
+pref
+(
+"
+preferences
+.
+allow
+.
+omt
+-
+write
+"
+false
+)
+;
