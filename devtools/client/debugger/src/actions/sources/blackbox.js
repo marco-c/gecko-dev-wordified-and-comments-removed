@@ -431,7 +431,6 @@ source
 }
 else
 {
-await
 dispatch
 (
 {
