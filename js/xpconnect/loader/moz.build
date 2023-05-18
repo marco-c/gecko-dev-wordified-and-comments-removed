@@ -217,12 +217,6 @@ xpcom
 base
 /
 "
-"
-/
-xpcom
-/
-io
-"
 ]
 include
 (
