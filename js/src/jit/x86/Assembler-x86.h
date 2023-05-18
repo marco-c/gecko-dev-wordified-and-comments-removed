@@ -793,13 +793,6 @@ CallTempReg2
 static
 constexpr
 Register
-RegExpExecTestLastIndexReg
-=
-CallTempReg3
-;
-static
-constexpr
-Register
 RegExpSearcherRegExpReg
 =
 CallTempReg0

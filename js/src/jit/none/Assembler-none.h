@@ -446,17 +446,6 @@ invalid_reg
 static
 constexpr
 Register
-RegExpExecTestLastIndexReg
-{
-Registers
-:
-:
-invalid_reg
-}
-;
-static
-constexpr
-Register
 RegExpSearcherRegExpReg
 {
 Registers
