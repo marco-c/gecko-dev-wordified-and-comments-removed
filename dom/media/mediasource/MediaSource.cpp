@@ -2314,6 +2314,11 @@ mSourceBuffers
 GetHighestBufferedEndTime
 (
 )
+.
+ToBase
+(
+1000000
+)
 aRv
 )
 ;
