@@ -10031,6 +10031,12 @@ bool
 aFireEvents
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+void
+HideAllPopoversWithoutRunningScript
+(
+)
+;
 MOZ_CAN_RUN_SCRIPT
 void
 HidePopover
