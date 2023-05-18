@@ -26357,19 +26357,6 @@ GetPrevSibling
 (
 )
 ;
-if
-(
-f
--
->
-GetPrevContinuation
-(
-)
-)
-{
-}
-else
-{
 nsPlaceholderFrame
 *
 placeholder
@@ -26423,7 +26410,6 @@ insertionPrevSibling
 f
 )
 ;
-}
 }
 f
 =
