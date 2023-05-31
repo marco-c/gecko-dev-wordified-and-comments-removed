@@ -157,6 +157,7 @@ async
 function
 sendEscape
 (
+element
 )
 {
 await
@@ -170,6 +171,10 @@ test_driver
 .
 send_keys
 (
+element
+?
+element
+:
 document
 .
 body
