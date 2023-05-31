@@ -5005,11 +5005,6 @@ sources
 list
 >
 .
-managed
--
-tree
->
-.
 tree
 >
 .
