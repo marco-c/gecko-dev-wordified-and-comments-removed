@@ -521,12 +521,6 @@ MOZ_UPDATE_CHANNEL
 "
 !
 endif
-!
-define
-AccessibleHandlerCLSID
-"
-MOZ_HANDLER_CLSID
-"
 #
 ifdef
 MOZ_LAUNCHER_PROCESS
