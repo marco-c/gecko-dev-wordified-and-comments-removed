@@ -1204,13 +1204,6 @@ GetTickCount
 (
 )
 ;
-AccessibleWrap
-:
-:
-SuppressHandlerA11yForClipboardCopy
-(
-)
-;
 }
 }
 bool
