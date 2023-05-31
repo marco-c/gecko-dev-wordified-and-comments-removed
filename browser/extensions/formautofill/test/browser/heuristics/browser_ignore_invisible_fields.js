@@ -435,8 +435,6 @@ div
 style
 =
 "
-content
--
 visibility
 :
 hidden
@@ -710,8 +708,6 @@ div
 style
 =
 "
-content
--
 visibility
 :
 hidden
