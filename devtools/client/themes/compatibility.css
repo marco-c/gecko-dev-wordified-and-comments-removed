@@ -1947,6 +1947,16 @@ cursor
 :
 pointer
 ;
+font
+-
+variant
+-
+numeric
+:
+tabular
+-
+nums
+;
 padding
 -
 block
