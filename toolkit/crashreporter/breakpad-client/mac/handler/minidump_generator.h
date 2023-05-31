@@ -581,6 +581,14 @@ crash_info_stream
 )
 ;
 bool
+WriteBootargsStream
+(
+MDRawDirectory
+*
+bootargs_stream
+)
+;
+bool
 WriteThreadNamesStream
 (
 MDRawDirectory
