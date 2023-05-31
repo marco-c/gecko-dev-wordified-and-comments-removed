@@ -764,17 +764,16 @@ PROCESS
 CRASH
 |
 {
-reason
+name
 }
+|
+application
+crashed
 [
 {
 sig
 }
 ]
-|
-{
-name
-}
 \
 n
 {
@@ -789,12 +788,6 @@ err
 .
 format
 (
-                
-reason
-=
-info
-.
-reason
                 
 name
 =

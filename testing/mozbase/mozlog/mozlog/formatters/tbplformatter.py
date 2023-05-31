@@ -847,21 +847,6 @@ top
 frame
 "
             
-reason
-=
-data
-.
-get
-(
-"
-reason
-"
-"
-application
-crashed
-"
-)
-            
 rv
 =
 [
@@ -872,19 +857,18 @@ CRASH
 |
 %
 s
+|
+application
+crashed
 [
 %
 s
 ]
-|
-%
-s
 "
 %
 (
-reason
-signature
 id
+signature
 )
 ]
             
