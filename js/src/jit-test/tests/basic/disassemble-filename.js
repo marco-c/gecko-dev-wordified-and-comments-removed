@@ -48,7 +48,7 @@ file
 :
 "
 \
-uFFFD
+uC494
 "
 )
 true
