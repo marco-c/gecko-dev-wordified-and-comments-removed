@@ -177,13 +177,11 @@ var
 (
 -
 -
-in
+text
 -
-content
+color
 -
 deemphasized
--
-text
 )
 ;
 padding
