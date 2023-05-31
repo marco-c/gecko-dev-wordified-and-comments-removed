@@ -210,6 +210,12 @@ IgnoreModifierState
 aIgnoreModifierState
 )
 ;
+bool
+KeyElementIsDisabled
+(
+)
+const
+;
 already_AddRefed
 <
 dom
@@ -220,6 +226,7 @@ Element
 GetHandlerElement
 (
 )
+const
 ;
 ReservedKey
 GetIsReserved
