@@ -2401,6 +2401,16 @@ TelemetryProbesReporter
 >
 mTelemetryProbesReporter
 ;
+#
+ifdef
+MOZ_WMF_MEDIA_ENGINE
+bool
+mPendingStatusUpdateForNewlyCreatedStateMachine
+=
+false
+;
+#
+endif
 }
 ;
 typedef
