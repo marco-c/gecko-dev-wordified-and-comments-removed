@@ -714,13 +714,3 @@ c
 }
 )
 ;
-this
-.
-EXPORTED_SYMBOLS
-=
-[
-"
-PropTypes
-"
-]
-;

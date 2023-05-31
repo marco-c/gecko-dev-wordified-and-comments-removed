@@ -463,13 +463,3 @@ d
 }
 )
 ;
-this
-.
-EXPORTED_SYMBOLS
-=
-[
-"
-classnames
-"
-]
-;
