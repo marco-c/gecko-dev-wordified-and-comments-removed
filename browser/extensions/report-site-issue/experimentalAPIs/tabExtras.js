@@ -83,7 +83,12 @@ tabId
 {
 const
 {
+browser
+:
+{
 browsingContext
+}
+incognito
 }
 =
 tabManager
@@ -92,8 +97,6 @@ get
 (
 tabId
 )
-.
-browser
 ;
 const
 actors
@@ -192,6 +195,12 @@ nsIWebProgressListener
 .
 STATE_BLOCKED_MIXED_DISPLAY_CONTENT
 )
+;
+info
+.
+isPB
+=
+incognito
 ;
 info
 .
