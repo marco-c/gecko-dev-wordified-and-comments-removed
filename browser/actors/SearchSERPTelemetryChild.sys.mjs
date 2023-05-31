@@ -5727,6 +5727,8 @@ providerInfo
 ?
 .
 components
+.
+length
 &
 &
 (
@@ -5919,6 +5921,16 @@ _getProviderInfoForUrl
 url
 )
 ;
+if
+(
+providerInfo
+.
+components
+?
+.
+length
+)
+{
 searchAdImpression
 .
 providerInfo
@@ -5980,6 +5992,7 @@ hasShoppingTab
 }
 )
 ;
+}
 }
 /
 *
