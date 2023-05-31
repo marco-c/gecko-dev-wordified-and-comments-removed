@@ -55157,7 +55157,7 @@ type
 RelaxedAtomicUint32
 value
 :
-16
+32
 mirror
 :
 always
