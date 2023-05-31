@@ -1186,7 +1186,7 @@ canvas
 script
 >
 const
-offscreen_canvas
+canvas
 =
 new
 OffscreenCanvas
@@ -1206,7 +1206,7 @@ s
 const
 ctx
 =
-offscreen_canvas
+canvas
 .
 getContext
 (
@@ -1223,7 +1223,7 @@ code
 )
 s
 const
-canvas
+outputCanvas
 =
 document
 .
@@ -1234,7 +1234,7 @@ canvas
 "
 )
 ;
-canvas
+outputCanvas
 .
 getContext
 (
@@ -1247,7 +1247,7 @@ s
 .
 drawImage
 (
-offscreen_canvas
+canvas
 0
 0
 )
@@ -1449,7 +1449,7 @@ e
 )
 {
 const
-oc
+canvas
 =
 new
 OffscreenCanvas
@@ -1469,7 +1469,7 @@ s
 const
 ctx
 =
-oc
+canvas
 .
 getContext
 (
@@ -1486,7 +1486,7 @@ s
 const
 bitmap
 =
-oc
+canvas
 .
 transferToImageBitmap
 (

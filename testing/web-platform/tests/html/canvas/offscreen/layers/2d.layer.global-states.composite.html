@@ -155,7 +155,7 @@ canvas
 script
 >
 const
-offscreen_canvas
+canvas
 =
 new
 OffscreenCanvas
@@ -167,7 +167,7 @@ OffscreenCanvas
 const
 ctx
 =
-offscreen_canvas
+canvas
 .
 getContext
 (
@@ -325,7 +325,7 @@ endLayer
 )
 ;
 const
-canvas
+outputCanvas
 =
 document
 .
@@ -336,7 +336,7 @@ canvas
 "
 )
 ;
-canvas
+outputCanvas
 .
 getContext
 (
@@ -347,7 +347,7 @@ getContext
 .
 drawImage
 (
-offscreen_canvas
+canvas
 0
 0
 )
