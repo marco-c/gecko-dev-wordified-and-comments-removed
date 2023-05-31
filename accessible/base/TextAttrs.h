@@ -1197,6 +1197,7 @@ TextDecorValue
 &
 aValue
 )
+const
 {
 return
 mColor
@@ -1233,6 +1234,7 @@ TextDecorValue
 &
 aValue
 )
+const
 {
 return
 !
