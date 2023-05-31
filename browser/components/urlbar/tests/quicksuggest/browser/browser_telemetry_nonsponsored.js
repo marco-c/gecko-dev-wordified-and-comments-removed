@@ -687,6 +687,7 @@ true
 }
 )
 ;
+await
 QuickSuggestTestUtils
 .
 setConfig
@@ -1174,6 +1175,7 @@ advertiser
 }
 )
 ;
+await
 QuickSuggestTestUtils
 .
 setConfig

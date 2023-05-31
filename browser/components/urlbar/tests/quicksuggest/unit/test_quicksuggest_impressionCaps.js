@@ -7394,6 +7394,7 @@ eventCount
 ]
 )
 ;
+await
 QuickSuggestTestUtils
 .
 setConfig
@@ -7737,6 +7738,7 @@ checkTelemetryEvents
 ]
 )
 ;
+await
 QuickSuggestTestUtils
 .
 setConfig
@@ -8146,6 +8148,7 @@ eventCount
 ]
 )
 ;
+await
 QuickSuggestTestUtils
 .
 setConfig
@@ -8651,6 +8654,7 @@ eventCount
 ]
 )
 ;
+await
 QuickSuggestTestUtils
 .
 setConfig
@@ -9326,6 +9330,7 @@ eventCount
 ]
 )
 ;
+await
 QuickSuggestTestUtils
 .
 setConfig
@@ -9850,6 +9855,7 @@ eventCount
 ]
 )
 ;
+await
 QuickSuggestTestUtils
 .
 setConfig
@@ -10174,6 +10180,7 @@ eventCount
 ]
 )
 ;
+await
 QuickSuggestTestUtils
 .
 setConfig
@@ -10409,6 +10416,7 @@ eventCount
 ]
 )
 ;
+await
 QuickSuggestTestUtils
 .
 setConfig
@@ -10737,6 +10745,7 @@ eventCount
 ]
 )
 ;
+await
 QuickSuggestTestUtils
 .
 setConfig
