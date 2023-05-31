@@ -12964,7 +12964,7 @@ browser_style_mv3
 .
 same_as_mv2
 "
-true
+false
 )
 ;
 pref
