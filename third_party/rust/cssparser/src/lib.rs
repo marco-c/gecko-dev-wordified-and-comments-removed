@@ -63,7 +63,6 @@ hwb_to_rgb
 parse_color_keyword
 parse_color_with
 parse_hash_color
-serialize_color_alpha
 AngleOrNumber
 Color
 ColorFunction
@@ -212,9 +211,9 @@ rules_and_declarations
 :
 :
 {
-DeclarationParser
-RuleBodyItemParser
 RuleBodyParser
+RuleBodyItemParser
+DeclarationParser
 }
 ;
 pub
