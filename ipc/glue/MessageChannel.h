@@ -1527,8 +1527,6 @@ mMonitor
 bool
 WaitForSyncNotify
 (
-bool
-aHandleWindowsMessages
 )
 MOZ_REQUIRES
 (

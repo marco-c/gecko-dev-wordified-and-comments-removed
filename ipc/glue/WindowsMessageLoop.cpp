@@ -3466,8 +3466,6 @@ MessageChannel
 :
 WaitForSyncNotify
 (
-bool
-aHandleWindowsMessages
 )
 {
 mMonitor
@@ -3505,10 +3503,6 @@ mFlags
 &
 REQUIRE_DEFERRED_MESSAGE_PROTECTION
 )
-|
-|
-!
-aHandleWindowsMessages
 )
 {
 TimeDuration
