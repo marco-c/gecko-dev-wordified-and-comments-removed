@@ -19,8 +19,14 @@ from
 .
 base
 import
+(
+    
 Browser
+    
 ExecutorBrowser
+    
+OutputHandler
+)
 from
 .
 base
@@ -557,6 +563,12 @@ binary_args
         
 self
 .
+_output_handler
+=
+None
+        
+self
+.
 _proc
 =
 None
@@ -596,6 +608,20 @@ _args
 [
 0
 ]
+)
+        
+self
+.
+_output_handler
+=
+OutputHandler
+(
+self
+.
+logger
+self
+.
+_args
 )
         
 if
@@ -673,6 +699,19 @@ preexec_fn
         
 self
 .
+_output_handler
+.
+after_process_start
+(
+self
+.
+_proc
+.
+pid
+)
+        
+self
+.
 _stdout_queue
 =
 Queue
@@ -716,9 +755,18 @@ self
 _proc
 .
 stdout
+                                                         
 self
 .
 _stdout_queue
+                                                         
+prefix
+=
+b
+"
+OUT
+:
+"
 )
         
 self
@@ -734,9 +782,18 @@ self
 _proc
 .
 stderr
+                                                         
 self
 .
 _stderr_queue
+                                                         
+prefix
+=
+b
+"
+ERR
+:
+"
 )
         
 self
@@ -772,6 +829,20 @@ started
 .
 "
 )
+        
+self
+.
+_output_handler
+.
+start
+(
+group_metadata
+=
+group_metadata
+*
+*
+kwargs
+)
     
 def
 stop
@@ -798,6 +869,10 @@ shell
 .
 "
 )
+        
+clean_shutdown
+=
+True
         
 if
 self
@@ -836,6 +911,10 @@ subprocess
 .
 TimeoutExpired
 :
+                
+clean_shutdown
+=
+False
                 
 self
 .
@@ -1020,6 +1099,32 @@ stop
 "
 )
         
+if
+stopped
+and
+self
+.
+_output_handler
+is
+not
+None
+:
+            
+self
+.
+_output_handler
+.
+after_process_stop
+(
+clean_shutdown
+)
+            
+self
+.
+_output_handler
+=
+None
+        
 return
 stopped
     
@@ -1188,6 +1293,11 @@ _create_reader_thread
 self
 stream
 queue
+prefix
+=
+b
+"
+"
 )
 :
         
@@ -1251,6 +1361,19 @@ line
 :
                     
 break
+                
+self
+.
+_output_handler
+(
+prefix
++
+line
+.
+rstrip
+(
+)
+)
                 
 queue
 .
