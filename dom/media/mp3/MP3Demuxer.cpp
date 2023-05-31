@@ -4070,6 +4070,8 @@ mEncoderDelay
 mEncoderDelay
 =
 mSamplesPerFrame
++
+529
 ;
 MP3LOG
 (
