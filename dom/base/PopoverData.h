@@ -40,7 +40,7 @@ dom
 {
 enum
 class
-PopoverState
+PopoverAttributeState
 :
 uint8_t
 {
@@ -121,8 +121,8 @@ PopoverData
 =
 default
 ;
-PopoverState
-GetPopoverState
+PopoverAttributeState
+GetPopoverAttributeState
 (
 )
 const
@@ -132,9 +132,9 @@ mState
 ;
 }
 void
-SetPopoverState
+SetPopoverAttributeState
 (
-PopoverState
+PopoverAttributeState
 aState
 )
 {
@@ -275,10 +275,10 @@ PopoverVisibilityState
 :
 Hidden
 ;
-PopoverState
+PopoverAttributeState
 mState
 =
-PopoverState
+PopoverAttributeState
 :
 :
 None
