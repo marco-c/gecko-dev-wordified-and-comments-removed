@@ -471,6 +471,11 @@ SetDCompSurfaceHandle
 (
 HANDLE
 aDCompSurfaceHandle
+gfx
+:
+:
+IntSize
+aDisplay
 )
 ;
 void

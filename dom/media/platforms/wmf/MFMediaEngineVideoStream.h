@@ -142,6 +142,11 @@ SetDCompSurfaceHandle
 (
 HANDLE
 aDCompSurfaceHandle
+gfx
+:
+:
+IntSize
+aDisplay
 )
 ;
 MFMediaEngineVideoStream
