@@ -3513,6 +3513,7 @@ action
 "
 store
 "
+                                
 choices
 =
 [
@@ -3521,6 +3522,9 @@ none
 "
 "
 hash
+"
+"
+id_hash
 "
 "
 dir_hash
