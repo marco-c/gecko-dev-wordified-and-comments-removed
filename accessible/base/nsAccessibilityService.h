@@ -1853,11 +1853,6 @@ region
 removed
 "
 "
-table
-styling
-changed
-"
-"
 inner
 reorder
 "
