@@ -2537,7 +2537,13 @@ First
 )
 {
 return
+std
+:
+:
+move
+(
 name
+)
 ;
 }
 QM_TRY_INSPECT
