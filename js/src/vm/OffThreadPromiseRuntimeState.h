@@ -93,6 +93,9 @@ namespace
 js
 {
 class
+AutoLockHelperThreadState
+;
+class
 OffThreadPromiseRuntimeState
 ;
 class
