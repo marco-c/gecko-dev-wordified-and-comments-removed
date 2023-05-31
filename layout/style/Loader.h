@@ -1700,6 +1700,8 @@ LookupInlineSheetInCache
 const
 nsAString
 &
+nsIPrincipal
+*
 )
 ;
 nsresult

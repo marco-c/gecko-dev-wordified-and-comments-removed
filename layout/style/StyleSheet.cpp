@@ -2015,15 +2015,6 @@ Dummy
 (
 )
 )
-#
-ifdef
-DEBUG
-mPrincipalSet
-(
-false
-)
-#
-endif
 {
 if
 (

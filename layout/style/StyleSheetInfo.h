@@ -67,11 +67,12 @@ struct
 StyleSheetInfo
 final
 {
-typedef
+using
+ReferrerPolicy
+=
 dom
 :
 :
-ReferrerPolicy
 ReferrerPolicy
 ;
 StyleSheetInfo
@@ -164,6 +165,7 @@ nsIPrincipal
 >
 mPrincipal
 ;
+const
 CORSMode
 mCORSMode
 ;
@@ -229,6 +231,8 @@ ifdef
 DEBUG
 bool
 mPrincipalSet
+=
+false
 ;
 #
 endif
