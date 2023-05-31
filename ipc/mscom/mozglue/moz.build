@@ -12,11 +12,6 @@ mscom
 =
 [
 "
-ActCtxResource
-.
-h
-"
-"
 ProcessRuntimeShared
 .
 h

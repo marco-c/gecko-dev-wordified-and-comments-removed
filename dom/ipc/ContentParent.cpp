@@ -9289,11 +9289,6 @@ Unused
 <
 SendActivateA11y
 (
-:
-:
-GetCurrentThreadId
-(
-)
 )
 ;
 }
@@ -9304,7 +9299,6 @@ Unused
 <
 SendActivateA11y
 (
-0
 )
 ;
 #
@@ -20518,11 +20512,6 @@ Unused
 <
 SendActivateA11y
 (
-:
-:
-GetCurrentThreadId
-(
-)
 )
 ;
 }
@@ -20533,7 +20522,6 @@ Unused
 <
 SendActivateA11y
 (
-0
 )
 ;
 #
