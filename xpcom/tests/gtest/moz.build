@@ -595,11 +595,6 @@ TestMacNSURLEscaping
 .
 mm
 "
-"
-TestThreads_mac
-.
-mm
-"
 ]
 if
 CONFIG
