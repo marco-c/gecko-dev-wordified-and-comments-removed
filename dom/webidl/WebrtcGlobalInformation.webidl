@@ -103,6 +103,15 @@ reports
 [
 ]
 ;
+sequence
+<
+RTCSdpHistoryInternal
+>
+sdpHistories
+=
+[
+]
+;
 }
 ;
 callback
@@ -192,6 +201,9 @@ pcIdFilter
 optional
 DOMHighResTimeStamp
 after
+optional
+DOMHighResTimeStamp
+sdpAfter
 )
 ;
 undefined
