@@ -2224,6 +2224,10 @@ mHasReceivedSizeAllocate
 (
 false
 )
+mWidgetCursorLocked
+(
+false
+)
 mPopupTrackInHierarchy
 (
 false
@@ -16826,6 +16830,14 @@ return
 }
 if
 (
+mWidgetCursorLocked
+)
+{
+return
+;
+}
+if
+(
 !
 mUpdateCursor
 &
@@ -21495,6 +21507,10 @@ return
 ;
 }
 }
+mWidgetCursorLocked
+=
+false
+;
 const
 auto
 refPoint
@@ -21583,6 +21599,10 @@ Cursor
 cursor
 }
 )
+;
+mWidgetCursorLocked
+=
+true
 ;
 return
 ;

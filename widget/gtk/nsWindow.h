@@ -3022,6 +3022,11 @@ mHasReceivedSizeAllocate
 1
 ;
 bool
+mWidgetCursorLocked
+:
+1
+;
+bool
 mPopupTrackInHierarchy
 :
 1
