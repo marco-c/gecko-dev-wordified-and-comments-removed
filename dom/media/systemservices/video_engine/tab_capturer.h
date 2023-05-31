@@ -77,8 +77,11 @@ DesktopCapturer
 {
 protected
 :
+explicit
 TabCapturerWebrtc
 (
+SourceId
+aSourceId
 )
 ;
 ~
@@ -109,6 +112,8 @@ DesktopCapturer
 >
 Create
 (
+SourceId
+aSourceId
 )
 ;
 TabCapturerWebrtc
@@ -160,7 +165,6 @@ bool
 SelectSource
 (
 SourceId
-id
 )
 override
 ;
@@ -244,6 +248,10 @@ OnCaptureFrameFailure
 )
 ;
 const
+uint64_t
+mBrowserId
+;
+const
 RefPtr
 <
 TaskQueue
@@ -283,11 +291,6 @@ mCallbackChecker
 )
 =
 nullptr
-;
-uint64_t
-mBrowserId
-=
-0
 ;
 nsRefPtrDeque
 <
