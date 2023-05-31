@@ -159,6 +159,8 @@ index
 {
 location
 :
+location
+?
 createLocation
 (
 {
@@ -179,6 +181,11 @@ sourceId
 )
 }
 )
+:
+generatedLocations
+[
+index
+]
 generatedLocation
 :
 generatedLocations

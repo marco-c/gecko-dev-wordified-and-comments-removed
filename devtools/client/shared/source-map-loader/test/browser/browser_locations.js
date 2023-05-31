@@ -106,13 +106,11 @@ Assert
 deepEqual
 (
 originalLocation2
-originalLocation
+null
 "
-original
+No
+mapped
 location
-maps
-to
-itself
 "
 )
 ;
@@ -138,7 +136,7 @@ Assert
 deepEqual
 (
 originalLocation3
-generatedLocation
+null
 "
 after
 clearing
@@ -149,9 +147,9 @@ the
 same
 generated
 location
+no
+longer
 maps
-to
-itself
 "
 )
 ;
@@ -290,7 +288,7 @@ Assert
 deepEqual
 (
 secondGeneratedLocation
-originalLocation
+null
 "
 after
 clearing

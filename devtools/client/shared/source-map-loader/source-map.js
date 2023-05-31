@@ -861,7 +861,7 @@ sourceId
 )
 {
 return
-location
+null
 ;
 }
 const
@@ -890,7 +890,7 @@ data
 )
 {
 return
-location
+null
 ;
 }
 const
@@ -1137,7 +1137,7 @@ location
 options
 )
 :
-location
+null
 )
 ;
 }
@@ -1295,7 +1295,7 @@ null
 )
 {
 return
-location
+null
 ;
 }
 return
@@ -1338,7 +1338,7 @@ sourceId
 )
 {
 return
-location
+null
 ;
 }
 const
@@ -1359,7 +1359,7 @@ map
 )
 {
 return
-location
+null
 ;
 }
 return
