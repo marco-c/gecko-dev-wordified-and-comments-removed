@@ -3762,6 +3762,11 @@ return
 NS_ERROR_FAILURE
 ;
 }
+if
+(
+MOZ_UNLIKELY
+(
+!
 mContentCache
 .
 SetSelection
@@ -3771,7 +3776,13 @@ aIMENotification
 .
 mSelectionChangeData
 )
+)
+)
+{
+return
+NS_OK
 ;
+}
 mBrowserChild
 -
 >
