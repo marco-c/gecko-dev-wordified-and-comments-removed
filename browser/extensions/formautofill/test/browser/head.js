@@ -5068,6 +5068,8 @@ section
 .
 autofillFields
 (
+obj
+.
 testPattern
 .
 profile
@@ -5159,7 +5161,7 @@ testPattern
 }
 async
 function
-runAutofillHeuristicsTest
+add_autofill_heuristic_tests
 (
 patterns
 fixturePathPrefix

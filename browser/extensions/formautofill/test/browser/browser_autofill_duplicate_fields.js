@@ -102,7 +102,7 @@ org
 "
 }
 ;
-runAutofillHeuristicsTest
+add_autofill_heuristic_tests
 (
 [
 {
