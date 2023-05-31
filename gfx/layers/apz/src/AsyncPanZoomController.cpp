@@ -6630,10 +6630,8 @@ HandleEndOfPan
 {
 MOZ_ASSERT
 (
+!
 mAnimation
-=
-=
-nullptr
 )
 ;
 MOZ_ASSERT
@@ -11365,6 +11363,12 @@ currentState
 =
 =
 NOTHING
+|
+|
+currentState
+=
+=
+FLING
 )
 {
 return
