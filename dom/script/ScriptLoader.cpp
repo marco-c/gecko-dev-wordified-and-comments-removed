@@ -15565,14 +15565,13 @@ res
 )
 ;
 }
-mozilla
-:
-:
 DebugOnly
 <
 uint32_t
 >
 srilen
+{
+}
 ;
 MOZ_ASSERT
 (
