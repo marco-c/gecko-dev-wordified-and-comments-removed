@@ -1475,7 +1475,7 @@ bookmark
 )
 ;
 await
-testIsOtherBookmarksMenuItemShown
+testIsOtherBookmarksMenuItemEnabled
 (
 false
 )
@@ -1537,7 +1537,7 @@ com
 )
 ;
 await
-testIsOtherBookmarksMenuItemShown
+testIsOtherBookmarksMenuItemEnabled
 (
 true
 )
@@ -1814,7 +1814,7 @@ setupBookmarksToolbar
 )
 ;
 await
-testIsOtherBookmarksMenuItemShown
+testIsOtherBookmarksMenuItemEnabled
 (
 false
 )
@@ -2365,7 +2365,7 @@ closeToolbarContextMenu
 }
 async
 function
-testIsOtherBookmarksMenuItemShown
+testIsOtherBookmarksMenuItemEnabled
 (
 expected
 )
@@ -2395,8 +2395,9 @@ bookmarks_PersonalToolbar
 is
 (
 !
-!
 otherBookmarksMenuItem
+.
+disabled
 expected
 "
 '

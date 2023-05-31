@@ -5233,6 +5233,13 @@ aForceVisible
 *
 /
 )
+.
+catch
+(
+console
+.
+error
+)
 ;
 }
 }

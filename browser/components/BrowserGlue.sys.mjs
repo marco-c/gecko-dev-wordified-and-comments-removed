@@ -20407,8 +20407,6 @@ this
 _isNewProfile
 )
 {
-try
-{
 /
 /
 New
@@ -20446,6 +20444,7 @@ in
 some
 cases
 .
+await
 lazy
 .
 PlacesUIUtils
@@ -20454,20 +20453,6 @@ maybeToggleBookmarkToolbarVisibility
 (
 )
 ;
-}
-catch
-(
-ex
-)
-{
-console
-.
-error
-(
-ex
-)
-;
-}
 }
 }
 )
