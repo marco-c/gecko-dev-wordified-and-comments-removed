@@ -29,9 +29,6 @@ breakpoints
 {
 }
 xhrBreakpoints
-breakpointsDisabled
-:
-false
 }
 ;
 }
