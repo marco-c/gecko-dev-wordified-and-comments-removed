@@ -419,6 +419,15 @@ false
 #
 endif
 }
+const
+size_t
+PuppetWidget
+:
+:
+kMaxDimension
+=
+4000
+;
 NS_IMPL_ISUPPORTS_INHERITED
 (
 PuppetWidget
