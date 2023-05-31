@@ -27,6 +27,11 @@ MigrationWizardConstants
 DISPLAYED_RESOURCE_TYPES
 .
 FORMDATA
+MigrationWizardConstants
+.
+DISPLAYED_RESOURCE_TYPES
+.
+PAYMENT_METHODS
 ]
 ;
 function
