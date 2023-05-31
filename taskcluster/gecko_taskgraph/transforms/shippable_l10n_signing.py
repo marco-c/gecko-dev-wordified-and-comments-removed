@@ -300,13 +300,29 @@ l10n
 "
             
 if
-"
-notarization
-"
-in
 upstream_artifact_task
 .
 kind
+.
+endswith
+(
+                
+(
+"
+-
+mac
+-
+notarization
+"
+"
+-
+mac
+-
+signing
+"
+)
+            
+)
 :
                 
 upstream_task_type

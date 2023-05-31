@@ -2322,6 +2322,12 @@ signing
 "
 in
 dependency
+or
+"
+notarization
+"
+in
+dependency
 :
                 
 signing_task

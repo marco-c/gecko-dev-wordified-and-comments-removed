@@ -84,23 +84,17 @@ dep_labels
 :
                 
 if
-"
-notarization
--
-part
--
-1
-"
-in
 label
-or
+.
+endswith
+(
 "
+-
 mac
 -
 signing
 "
-in
-label
+)
 :
                     
 assert

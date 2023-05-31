@@ -112,7 +112,11 @@ for
 attributes
 :
 -
-shippable
+enable
+-
+build
+-
+signing
 only
 -
 for
@@ -133,6 +137,14 @@ macosx64
 devedition
 /
 opt
+-
+macosx64
+/
+opt
+-
+macosx64
+/
+debug
 job
 -
 template
