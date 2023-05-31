@@ -1505,7 +1505,14 @@ num_temps
 -
 name
 :
-WasmGcObjectIsSubtypeOfAndBranch
+WasmGcObjectIsSubtypeOfConcreteAndBranch
+gen_boilerplate
+:
+false
+-
+name
+:
+WasmGcObjectIsSubtypeOfAbstractAndBranch
 gen_boilerplate
 :
 false
