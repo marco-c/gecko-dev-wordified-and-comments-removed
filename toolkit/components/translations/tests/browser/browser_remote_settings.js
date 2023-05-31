@@ -1055,9 +1055,13 @@ record
 }
 TranslationsParent
 .
-mockRemoteSettingsClient
+mockTranslationsEngine
 (
 client
+await
+createTranslationsWasmRemoteClient
+(
+)
 )
 ;
 const
@@ -1207,9 +1211,8 @@ n
 ;
 TranslationsParent
 .
-mockRemoteSettingsClient
+unmockTranslationsEngine
 (
-null
 )
 ;
 }
