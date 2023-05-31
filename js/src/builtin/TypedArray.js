@@ -5976,6 +5976,9 @@ return
 newObj
 ;
 }
+#
+ifdef
+ENABLE_CHANGE_ARRAY_BY_COPY
 function
 TypedArrayCreateSameType
 (
@@ -6554,3 +6557,5 @@ wrappedCompareFn
 )
 ;
 }
+#
+endif

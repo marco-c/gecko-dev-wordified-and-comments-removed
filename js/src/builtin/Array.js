@@ -4284,6 +4284,9 @@ SetIsInlinableLargeFunction
 ArrayAt
 )
 ;
+#
+ifdef
+ENABLE_CHANGE_ARRAY_BY_COPY
 function
 ArrayToReversed
 (
@@ -4523,6 +4526,8 @@ return
 sorted
 ;
 }
+#
+endif
 function
 ArrayFindLast
 (

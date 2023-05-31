@@ -15306,6 +15306,9 @@ false
 )
 ;
 }
+#
+ifdef
+ENABLE_CHANGE_ARRAY_BY_COPY
 static
 void
 CopyDenseElementsFillHoles
@@ -17129,6 +17132,8 @@ return
 true
 ;
 }
+#
+endif
 struct
 SortComparatorIndexes
 {
@@ -24124,6 +24129,9 @@ ArrayFindLastIndex
 1
 0
 )
+#
+ifdef
+ENABLE_CHANGE_ARRAY_BY_COPY
 JS_SELF_HOSTED_FN
 (
 "
@@ -24164,6 +24172,8 @@ array_with
 2
 0
 )
+#
+endif
 JS_FS_END
 }
 ;
@@ -25781,6 +25791,9 @@ false
 }
 #
 endif
+#
+ifdef
+ENABLE_CHANGE_ARRAY_BY_COPY
 if
 (
 cx
@@ -25858,6 +25871,8 @@ false
 ;
 }
 }
+#
+endif
 RootedId
 id
 (

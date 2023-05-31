@@ -3540,6 +3540,9 @@ false
 ;
 #
 endif
+#
+ifdef
+ENABLE_CHANGE_ARRAY_BY_COPY
 static
 mozilla
 :
@@ -3553,6 +3556,8 @@ sChangeArrayByCopyEnabled
 false
 )
 ;
+#
+endif
 static
 mozilla
 :
@@ -3713,11 +3718,16 @@ sWellFormedUnicodeStringsEnabled
 )
 #
 endif
+#
+ifdef
+ENABLE_CHANGE_ARRAY_BY_COPY
 .
 setChangeArrayByCopyEnabled
 (
 sChangeArrayByCopyEnabled
 )
+#
+endif
 .
 setArrayFromAsyncEnabled
 (
@@ -4611,6 +4621,9 @@ well_formed_unicode_strings
 ;
 #
 endif
+#
+ifdef
+ENABLE_CHANGE_ARRAY_BY_COPY
 sChangeArrayByCopyEnabled
 =
 Preferences
@@ -4626,6 +4639,8 @@ enable_change_array_by_copy
 "
 )
 ;
+#
+endif
 sArrayFromAsyncEnabled
 =
 Preferences
