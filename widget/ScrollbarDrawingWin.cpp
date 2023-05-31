@@ -558,6 +558,12 @@ StyleAppearance
 :
 Scrollcorner
 :
+case
+StyleAppearance
+:
+:
+Statusbar
+:
 return
 Some
 (
