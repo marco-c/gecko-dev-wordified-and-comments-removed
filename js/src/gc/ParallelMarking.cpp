@@ -413,9 +413,8 @@ if
 marker
 -
 >
-hasEntries
+hasEntriesForCurrentColor
 (
-color
 )
 &
 &
@@ -773,14 +772,8 @@ return
 marker
 -
 >
-hasEntries
+hasEntriesForCurrentColor
 (
-marker
--
->
-markColor
-(
-)
 )
 ;
 }
