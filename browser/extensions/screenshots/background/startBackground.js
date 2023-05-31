@@ -393,6 +393,15 @@ type
 "
 toolbar
 "
+|
+|
+type
+=
+=
+=
+"
+quickaction
+"
 )
 {
 main
