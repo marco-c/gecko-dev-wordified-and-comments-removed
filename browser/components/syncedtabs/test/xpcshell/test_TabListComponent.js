@@ -36,7 +36,7 @@ TabListComponent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -50,7 +50,9 @@ syncedtabs
 /
 TabListComponent
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -61,7 +63,7 @@ SyncedTabsListStore
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -75,7 +77,9 @@ syncedtabs
 /
 SyncedTabsListStore
 .
-js
+sys
+.
+mjs
 "
 )
 ;

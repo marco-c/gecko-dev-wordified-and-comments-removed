@@ -36,7 +36,7 @@ SyncedTabsListStore
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -50,7 +50,9 @@ syncedtabs
 /
 SyncedTabsListStore
 .
-js
+sys
+.
+mjs
 "
 )
 ;

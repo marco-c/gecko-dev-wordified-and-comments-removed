@@ -36,7 +36,7 @@ SyncedTabsDeckComponent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -50,7 +50,9 @@ syncedtabs
 /
 SyncedTabsDeckComponent
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -61,7 +63,7 @@ SyncedTabsListStore
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -75,7 +77,9 @@ syncedtabs
 /
 SyncedTabsListStore
 .
-js
+sys
+.
+mjs
 "
 )
 ;
@@ -86,7 +90,7 @@ SyncedTabsDeckStore
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -100,7 +104,9 @@ syncedtabs
 /
 SyncedTabsDeckStore
 .
-js
+sys
+.
+mjs
 "
 )
 ;

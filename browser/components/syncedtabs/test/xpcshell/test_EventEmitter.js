@@ -10,7 +10,7 @@ EventEmitter
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -24,7 +24,9 @@ syncedtabs
 /
 EventEmitter
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
