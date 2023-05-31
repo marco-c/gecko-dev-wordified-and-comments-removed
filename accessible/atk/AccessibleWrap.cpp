@@ -191,9 +191,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs_accessibility
+nsAccessibilityService
 .
 h
 "
@@ -4006,10 +4004,10 @@ relation_set
 if
 (
 !
-StaticPrefs
+a11y
 :
 :
-accessibility_cache_enabled_AtStartup
+IsCacheActive
 (
 )
 &

@@ -36,9 +36,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs_accessibility
+nsAccessibilityService
 .
 h
 "
@@ -580,10 +578,10 @@ return
 mozilla
 :
 :
-StaticPrefs
+a11y
 :
 :
-accessibility_cache_enabled_AtStartup
+IsCacheActive
 (
 )
 &
@@ -865,10 +863,10 @@ MOZ_ASSERT
 mozilla
 :
 :
-StaticPrefs
+a11y
 :
 :
-accessibility_cache_enabled_AtStartup
+IsCacheActive
 (
 )
 "

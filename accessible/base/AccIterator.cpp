@@ -71,9 +71,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs_accessibility
+nsAccessibilityService
 .
 h
 "
@@ -1640,10 +1638,10 @@ mIndex
 MOZ_ASSERT
 (
 !
-StaticPrefs
+a11y
 :
 :
-accessibility_cache_enabled_AtStartup
+IsCacheActive
 (
 )
 )
