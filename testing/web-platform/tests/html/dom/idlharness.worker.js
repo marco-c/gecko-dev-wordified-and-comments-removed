@@ -62,6 +62,11 @@ events
 "
 uievents
 "
+"
+performance
+-
+timeline
+"
 ]
 idlArray
 =
