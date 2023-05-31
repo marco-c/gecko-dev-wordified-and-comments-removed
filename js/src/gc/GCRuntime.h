@@ -3679,12 +3679,7 @@ AutoLockGC
 lock
 )
 ;
-[
-[
-nodiscard
-]
-]
-bool
+void
 gcIfNeededAtAllocation
 (
 JSContext
