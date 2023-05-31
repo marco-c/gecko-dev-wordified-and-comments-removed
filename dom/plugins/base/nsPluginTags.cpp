@@ -97,6 +97,15 @@ FakePluginTagInitBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticPrefs_plugin
+.
+h
+"
 using
 mozilla
 :
