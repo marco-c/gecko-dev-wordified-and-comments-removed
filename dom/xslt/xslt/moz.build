@@ -194,7 +194,9 @@ EXTRA_JS_MODULES
 "
 txEXSLTRegExFunctions
 .
-jsm
+sys
+.
+mjs
 "
 ]
 include

@@ -544,7 +544,9 @@ EXTRA_JS_MODULES
 "
 NetworkGeolocationProvider
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS

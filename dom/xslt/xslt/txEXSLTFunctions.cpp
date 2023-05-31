@@ -3627,7 +3627,7 @@ txIEXSLTFunctions
 >
 funcs
 =
-do_ImportModule
+do_ImportESModule
 (
 "
 resource
@@ -3640,7 +3640,9 @@ modules
 /
 txEXSLTRegExFunctions
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

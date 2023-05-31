@@ -75,7 +75,9 @@ EXTRA_JS_MODULES
 "
 ManifestMessagesChild
 .
-jsm
+sys
+.
+mjs
 "
 ]
 EXPORTS
