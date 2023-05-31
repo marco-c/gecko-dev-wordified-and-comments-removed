@@ -26,7 +26,9 @@ EXTRA_JS_MODULES
 "
 NotificationStorage
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS
@@ -183,7 +185,9 @@ new
 /
 NotificationDB
 .
-jsm
+sys
+.
+mjs
 "
 ]
 else
@@ -197,6 +201,8 @@ old
 /
 NotificationDB
 .
-jsm
+sys
+.
+mjs
 "
 ]
