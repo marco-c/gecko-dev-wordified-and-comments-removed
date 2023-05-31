@@ -290,6 +290,15 @@ InvokeResumeMediaSink
 )
 override
 ;
+bool
+IsCDMProxySupported
+(
+CDMProxy
+*
+aProxy
+)
+override
+;
 private
 :
 class
