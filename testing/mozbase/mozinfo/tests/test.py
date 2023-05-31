@@ -879,6 +879,11 @@ dumps
 mozinfo
 .
 info
+cls
+=
+mozinfo
+.
+UnknownEncoder
 )
 def
 test_os_version_is_a_StringVersion
