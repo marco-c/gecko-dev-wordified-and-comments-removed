@@ -1046,10 +1046,6 @@ no_upload_results
 "
         
 "
-stylothreads
-"
-        
-"
 subtests
 "
         

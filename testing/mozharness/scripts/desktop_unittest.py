@@ -4317,6 +4317,27 @@ tests
 "
 )
             
+base_cmd
+.
+append
+(
+"
+-
+-
+setpref
+=
+layout
+.
+css
+.
+stylo
+-
+threads
+=
+4
+"
+)
+            
 if
 c
 [
@@ -8193,17 +8214,6 @@ MOZ_LAYERS_ALLOW_SOFTWARE_GL
 =
 "
 1
-"
-                
-env
-[
-"
-STYLO_THREADS
-"
-]
-=
-"
-4
 "
                 
 env

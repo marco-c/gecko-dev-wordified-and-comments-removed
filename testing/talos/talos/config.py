@@ -1724,12 +1724,6 @@ no_upload_results
 False
         
 "
-stylothreads
-"
-:
-0
-        
-"
 subtests
 "
 :

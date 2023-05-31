@@ -5879,17 +5879,6 @@ self
 .
 obj_path
         
-env
-[
-"
-STYLO_FORCE_ENABLED
-"
-]
-=
-"
-1
-"
-        
 output_timeout
 =
 self

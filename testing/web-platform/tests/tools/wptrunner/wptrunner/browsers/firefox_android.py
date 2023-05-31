@@ -665,7 +665,6 @@ True
 def
 get_environ
 (
-stylo_threads
 chaos_mode_flags
 )
 :
@@ -707,18 +706,6 @@ MOZ_DISABLE_NONLOCAL_CONNECTIONS
 "
 1
 "
-    
-env
-[
-"
-STYLO_THREADS
-"
-]
-=
-str
-(
-stylo_threads
-)
     
 if
 chaos_mode_flags
@@ -1073,9 +1060,6 @@ asan
 =
 False
                  
-stylo_threads
-=
-1
 chaos_mode_flags
 =
 None
@@ -1211,12 +1195,6 @@ self
 asan
 =
 asan
-        
-self
-.
-stylo_threads
-=
-stylo_threads
         
 self
 .
@@ -1662,9 +1640,6 @@ env
 =
 get_environ
 (
-self
-.
-stylo_threads
 self
 .
 chaos_mode_flags
@@ -2222,9 +2197,6 @@ False
 asan
 =
 False
-stylo_threads
-=
-1
 chaos_mode_flags
 =
 None
