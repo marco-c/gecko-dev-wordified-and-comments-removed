@@ -28857,6 +28857,8 @@ webdriver
 /
 tests
 /
+classic
+/
 accept_alert
 "
 :
@@ -28868,6 +28870,8 @@ accept_alert
 webdriver
 /
 tests
+/
+classic
 /
 add_cookie
 "
@@ -28881,6 +28885,8 @@ webdriver
 /
 tests
 /
+classic
+/
 back
 "
 :
@@ -28892,6 +28898,8 @@ back
 webdriver
 /
 tests
+/
+classic
 /
 close_window
 "
@@ -28905,6 +28913,8 @@ webdriver
 /
 tests
 /
+classic
+/
 delete_all_cookies
 "
 :
@@ -28916,6 +28926,8 @@ delete_all_cookies
 webdriver
 /
 tests
+/
+classic
 /
 delete_cookie
 "
@@ -28929,6 +28941,8 @@ webdriver
 /
 tests
 /
+classic
+/
 delete_session
 "
 :
@@ -28940,6 +28954,8 @@ delete_session
 webdriver
 /
 tests
+/
+classic
 /
 dismiss_alert
 "
@@ -28953,6 +28969,8 @@ webdriver
 /
 tests
 /
+classic
+/
 element_clear
 "
 :
@@ -28964,6 +28982,8 @@ element_clear
 webdriver
 /
 tests
+/
+classic
 /
 element_click
 "
@@ -28977,6 +28997,8 @@ webdriver
 /
 tests
 /
+classic
+/
 element_send_keys
 "
 :
@@ -28988,6 +29010,8 @@ element_send_keys
 webdriver
 /
 tests
+/
+classic
 /
 execute_async_script
 "
@@ -29001,6 +29025,8 @@ webdriver
 /
 tests
 /
+classic
+/
 execute_script
 "
 :
@@ -29012,6 +29038,8 @@ execute_script
 webdriver
 /
 tests
+/
+classic
 /
 find_element
 "
@@ -29025,6 +29053,8 @@ webdriver
 /
 tests
 /
+classic
+/
 find_element_from_element
 "
 :
@@ -29036,6 +29066,8 @@ find_element_from_element
 webdriver
 /
 tests
+/
+classic
 /
 find_elements
 "
@@ -29049,6 +29081,8 @@ webdriver
 /
 tests
 /
+classic
+/
 find_elements_from_element
 "
 :
@@ -29060,6 +29094,8 @@ find_elements_from_element
 webdriver
 /
 tests
+/
+classic
 /
 forward
 "
@@ -29073,6 +29109,8 @@ webdriver
 /
 tests
 /
+classic
+/
 fullscreen_window
 "
 :
@@ -29084,6 +29122,8 @@ fullscreen_window
 webdriver
 /
 tests
+/
+classic
 /
 get_active_element
 "
@@ -29097,6 +29137,8 @@ webdriver
 /
 tests
 /
+classic
+/
 get_alert_text
 "
 :
@@ -29108,6 +29150,8 @@ get_alert_text
 webdriver
 /
 tests
+/
+classic
 /
 get_current_url
 "
@@ -29121,6 +29165,8 @@ webdriver
 /
 tests
 /
+classic
+/
 get_element_attribute
 "
 :
@@ -29132,6 +29178,8 @@ get_element_attribute
 webdriver
 /
 tests
+/
+classic
 /
 get_element_css_value
 "
@@ -29145,6 +29193,8 @@ webdriver
 /
 tests
 /
+classic
+/
 get_element_property
 "
 :
@@ -29156,6 +29206,8 @@ get_element_property
 webdriver
 /
 tests
+/
+classic
 /
 get_element_rect
 "
@@ -29169,6 +29221,8 @@ webdriver
 /
 tests
 /
+classic
+/
 get_element_tag_name
 "
 :
@@ -29180,6 +29234,8 @@ get_element_tag_name
 webdriver
 /
 tests
+/
+classic
 /
 get_element_text
 "
@@ -29193,6 +29249,8 @@ webdriver
 /
 tests
 /
+classic
+/
 get_named_cookie
 "
 :
@@ -29204,6 +29262,8 @@ get_named_cookie
 webdriver
 /
 tests
+/
+classic
 /
 get_page_source
 "
@@ -29217,6 +29277,8 @@ webdriver
 /
 tests
 /
+classic
+/
 get_timeouts
 "
 :
@@ -29228,6 +29290,8 @@ get_timeouts
 webdriver
 /
 tests
+/
+classic
 /
 get_title
 "
@@ -29241,6 +29305,8 @@ webdriver
 /
 tests
 /
+classic
+/
 get_window_handle
 "
 :
@@ -29252,6 +29318,8 @@ get_window_handle
 webdriver
 /
 tests
+/
+classic
 /
 get_window_handles
 "
@@ -29265,6 +29333,8 @@ webdriver
 /
 tests
 /
+classic
+/
 get_window_rect
 "
 :
@@ -29276,6 +29346,8 @@ get_window_rect
 webdriver
 /
 tests
+/
+classic
 /
 interface
 "
@@ -29289,6 +29361,8 @@ webdriver
 /
 tests
 /
+classic
+/
 is_element_enabled
 "
 :
@@ -29300,6 +29374,8 @@ is_element_enabled
 webdriver
 /
 tests
+/
+classic
 /
 is_element_selected
 "
@@ -29313,6 +29389,8 @@ webdriver
 /
 tests
 /
+classic
+/
 maximize_window
 "
 :
@@ -29324,6 +29402,8 @@ maximize_window
 webdriver
 /
 tests
+/
+classic
 /
 minimize_window
 "
@@ -29337,6 +29417,8 @@ webdriver
 /
 tests
 /
+classic
+/
 navigate_to
 "
 :
@@ -29348,6 +29430,8 @@ navigate_to
 webdriver
 /
 tests
+/
+classic
 /
 new_session
 "
@@ -29361,6 +29445,8 @@ webdriver
 /
 tests
 /
+classic
+/
 new_window
 "
 :
@@ -29372,6 +29458,8 @@ new_window
 webdriver
 /
 tests
+/
+classic
 /
 perform_actions
 "
@@ -29385,6 +29473,8 @@ webdriver
 /
 tests
 /
+classic
+/
 permissions
 "
 :
@@ -29396,6 +29486,8 @@ permissions
 webdriver
 /
 tests
+/
+classic
 /
 print
 "
@@ -29409,6 +29501,8 @@ webdriver
 /
 tests
 /
+classic
+/
 refresh
 "
 :
@@ -29420,6 +29514,8 @@ refresh
 webdriver
 /
 tests
+/
+classic
 /
 release_actions
 "
@@ -29433,6 +29529,8 @@ webdriver
 /
 tests
 /
+classic
+/
 send_alert_text
 "
 :
@@ -29444,6 +29542,8 @@ send_alert_text
 webdriver
 /
 tests
+/
+classic
 /
 set_timeouts
 "
@@ -29457,6 +29557,8 @@ webdriver
 /
 tests
 /
+classic
+/
 set_window_rect
 "
 :
@@ -29468,6 +29570,8 @@ set_window_rect
 webdriver
 /
 tests
+/
+classic
 /
 status
 "
@@ -29481,6 +29585,8 @@ webdriver
 /
 tests
 /
+classic
+/
 switch_to_frame
 "
 :
@@ -29492,6 +29598,8 @@ switch_to_frame
 webdriver
 /
 tests
+/
+classic
 /
 switch_to_parent_frame
 "
@@ -29505,6 +29613,8 @@ webdriver
 /
 tests
 /
+classic
+/
 switch_to_window
 "
 :
@@ -29517,6 +29627,8 @@ webdriver
 /
 tests
 /
+classic
+/
 take_element_screenshot
 "
 :
@@ -29528,6 +29640,8 @@ take_element_screenshot
 webdriver
 /
 tests
+/
+classic
 /
 take_screenshot
 "
