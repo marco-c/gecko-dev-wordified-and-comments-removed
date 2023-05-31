@@ -1,13 +1,3 @@
-Services
-.
-prefs
-.
-setBoolPref
-(
-PREF_DISABLE_SECURITY
-true
-)
-;
 PromiseTestUtils
 .
 allowMatchingRejectionsGlobally
