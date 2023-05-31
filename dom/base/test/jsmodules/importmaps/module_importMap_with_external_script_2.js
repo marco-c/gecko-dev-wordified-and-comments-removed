@@ -1,0 +1,14 @@
+import
+{
+}
+from
+"
+.
+/
+bad
+/
+module_2
+.
+js
+"
+;
