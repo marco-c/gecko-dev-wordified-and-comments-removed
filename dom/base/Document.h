@@ -12228,7 +12228,7 @@ Unknown
 )
 const
 ;
-void
+bool
 RecomputeResistFingerprinting
 (
 )
