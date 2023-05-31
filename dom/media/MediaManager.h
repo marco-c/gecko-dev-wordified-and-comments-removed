@@ -1712,6 +1712,8 @@ mMicrophonesMuted
 =
 false
 ;
+public
+:
 const
 RefPtr
 <
@@ -1719,6 +1721,8 @@ TaskQueue
 >
 mMediaThread
 ;
+private
+:
 nsCOMPtr
 <
 nsIAsyncShutdownBlocker
