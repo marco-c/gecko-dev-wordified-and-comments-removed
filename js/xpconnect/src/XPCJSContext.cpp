@@ -4322,6 +4322,13 @@ defined
 (
 JS_CODEGEN_RISCV64
 )
+&
+&
+!
+defined
+(
+JS_CODEGEN_LOONG64
+)
 JS_SetGlobalJitCompilerOption
 (
 cx

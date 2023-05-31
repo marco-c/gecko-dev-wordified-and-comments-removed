@@ -47889,6 +47889,13 @@ defined
 (
 JS_CODEGEN_MIPS64
 )
+&
+&
+!
+defined
+(
+JS_CODEGEN_LOONG64
+)
 #
 Spectre
 security
@@ -47905,6 +47912,8 @@ NOTE
 :
 The
 MIPS
+and
+LoongArch
 backends
 do
 not
@@ -48064,6 +48073,13 @@ endif
 defined
 (
 JS_CODEGEN_MIPSXX
+)
+&
+&
+!
+defined
+(
+JS_CODEGEN_LOONG64
 )
 #
 Separate
