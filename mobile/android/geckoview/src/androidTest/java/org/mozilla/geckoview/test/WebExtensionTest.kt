@@ -31,6 +31,14 @@ org
 .
 hamcrest
 .
+MatcherAssert
+.
+assertThat
+import
+org
+.
+hamcrest
+.
 core
 .
 IsEqual
