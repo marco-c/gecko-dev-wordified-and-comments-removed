@@ -263,18 +263,17 @@ e
 g
 .
 :
-net
+moz
 -
-mozaws
+fx
 -
-prod
+productdelivery
 -
-delivery
+pr
 -
-{
-firefox
-archive
-}
+38b5
+-
+productdelivery
 .
 "
             
@@ -961,6 +960,15 @@ connect_s3
 anon
 =
 True
+host
+=
+"
+storage
+.
+googleapis
+.
+com
+"
 )
         
 self
