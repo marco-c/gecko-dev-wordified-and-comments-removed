@@ -89,6 +89,9 @@ if
 Darwin
 "
 "
+DragonFly
+"
+"
 FreeBSD
 "
 "
