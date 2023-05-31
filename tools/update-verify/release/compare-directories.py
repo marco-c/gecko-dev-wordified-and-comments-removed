@@ -778,11 +778,16 @@ all_files
 def
 compare_listings
 (
+    
 source_list
 target_list
 label
 source_dir
 target_dir
+ignore_missing
+=
+(
+)
 )
 :
     
@@ -814,9 +819,47 @@ if
 left_diff
 :
         
+if
+left_diff
+-
+set
+(
+ignore_missing
+)
+:
+            
+_log
+=
 logging
 .
 error
+            
+difference_found
+=
+True
+        
+else
+:
+            
+_log
+=
+logging
+.
+warning
+            
+_log
+(
+"
+Ignoring
+missing
+files
+due
+to
+ignore_missing
+"
+)
+        
+_log
 (
 "
 {
@@ -844,9 +887,7 @@ left_diff
 )
 :
             
-logging
-.
-error
+_log
 (
 "
 {
@@ -858,10 +899,6 @@ format
 d
 )
 )
-        
-difference_found
-=
-True
     
 right_diff
 =
@@ -1562,6 +1599,49 @@ logging
     
 )
     
+parser
+.
+add_argument
+(
+        
+"
+-
+-
+ignore
+-
+missing
+"
+        
+action
+=
+"
+append
+"
+        
+metavar
+=
+"
+<
+path
+>
+"
+        
+help
+=
+"
+Ignore
+absence
+of
+<
+path
+>
+in
+the
+target
+"
+    
+)
+    
 args
 =
 parser
@@ -1736,6 +1816,9 @@ Files
 "
 source
 target
+args
+.
+ignore_missing
     
 )
     

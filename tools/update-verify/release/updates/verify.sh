@@ -1466,6 +1466,9 @@ updater_bin
 break
 fi
 done
+update_to_dep
+=
+false
 if
 [
 !
@@ -1510,6 +1513,9 @@ overrides
 {
 dep_overrides
 }
+update_to_dep
+=
+true
 ;
 ;
 nightly
@@ -1777,8 +1783,13 @@ diff_file
 {
 channel
 }
+"
 {
 mar_channel_IDs
+}
+"
+{
+update_to_dep
 }
 err
 =
