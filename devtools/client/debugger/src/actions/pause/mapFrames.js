@@ -70,6 +70,7 @@ maps
 import
 {
 createLocation
+debuggerToSourceMapLocation
 }
 from
 "
@@ -396,9 +397,12 @@ sourceMapLoader
 .
 getOriginalStackFrames
 (
+debuggerToSourceMapLocation
+(
 frame
 .
 generatedLocation
+)
 )
 ;
 if
