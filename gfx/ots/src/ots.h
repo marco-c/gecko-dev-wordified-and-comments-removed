@@ -2054,6 +2054,8 @@ const
 void
 AddTable
 (
+TableEntry
+entry
 Table
 *
 table
