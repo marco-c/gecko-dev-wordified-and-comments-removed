@@ -310,11 +310,11 @@ attribute
 boolean
 checked
 ;
-/
-/
-Bug
-850337
--
+[
+CEReactions
+Pure
+SetterThrows
+]
 attribute
 DOMString
 dirName
