@@ -6131,8 +6131,6 @@ getCountryAddressData
 (
 value
 )
-.
-alternative_names
 )
 {
 for
