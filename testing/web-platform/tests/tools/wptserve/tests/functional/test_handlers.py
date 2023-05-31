@@ -105,10 +105,7 @@ Type
 ]
 )
         
-self
-.
-assertEqual
-(
+with
 open
 (
 os
@@ -128,10 +125,23 @@ txt
 rb
 '
 )
+as
+f
+:
+            
+expected
+=
+f
 .
 read
 (
 )
+        
+self
+.
+assertEqual
+(
+expected
 resp
 .
 read
@@ -342,8 +352,7 @@ read
 (
 )
         
-expected
-=
+with
 open
 (
 os
@@ -363,6 +372,13 @@ txt
 rb
 '
 )
+as
+f
+:
+            
+expected
+=
+f
 .
 read
 (
@@ -500,8 +516,7 @@ read
 (
 )
         
-expected
-=
+with
 open
 (
 os
@@ -521,6 +536,13 @@ txt
 rb
 '
 )
+as
+f
+:
+            
+expected
+=
+f
 .
 read
 (
@@ -650,8 +672,7 @@ read
 (
 )
         
-expected
-=
+with
 open
 (
 os
@@ -671,6 +692,13 @@ txt
 rb
 '
 )
+as
+f
+:
+            
+expected
+=
+f
 .
 read
 (
@@ -811,8 +839,7 @@ read
 (
 )
         
-expected
-=
+with
 open
 (
 os
@@ -832,6 +859,13 @@ txt
 rb
 '
 )
+as
+f
+:
+            
+expected
+=
+f
 .
 read
 (
@@ -1187,8 +1221,7 @@ code
 416
 )
         
-expected
-=
+with
 open
 (
 os
@@ -1208,6 +1241,13 @@ txt
 rb
 '
 )
+as
+f
+:
+            
+expected
+=
+f
 .
 read
 (
@@ -1671,6 +1711,9 @@ code
 =
 =
 500
+        
+del
+cm
     
 def
 test_tuple_2_rv
@@ -2216,6 +2259,9 @@ code
 =
 =
 500
+        
+del
+cm
     
 def
 test_none_rv
@@ -3167,6 +3213,9 @@ code
 =
 =
 500
+        
+del
+cm
     
 def
 test_invalid
@@ -3207,6 +3256,9 @@ code
 =
 =
 500
+        
+del
+cm
     
 def
 test_missing
@@ -3247,6 +3299,9 @@ code
 =
 =
 404
+        
+del
+cm
 class
 TestDirectoryHandler
 (

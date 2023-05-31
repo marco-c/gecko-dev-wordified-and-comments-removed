@@ -692,8 +692,7 @@ slice
 "
 )
         
-expected
-=
+with
 open
 (
 os
@@ -713,6 +712,13 @@ txt
 rb
 '
 )
+as
+f
+:
+            
+expected
+=
+f
 .
 read
 (
@@ -766,8 +772,7 @@ slice
 "
 )
         
-expected
-=
+with
 open
 (
 os
@@ -787,6 +792,13 @@ txt
 rb
 '
 )
+as
+f
+:
+            
+expected
+=
+f
 .
 read
 (
@@ -840,8 +852,7 @@ null
 "
 )
         
-expected
-=
+with
 open
 (
 os
@@ -861,6 +872,13 @@ txt
 rb
 '
 )
+as
+f
+:
+            
+expected
+=
+f
 .
 read
 (
@@ -1803,8 +1821,7 @@ time
 (
 )
         
-expected
-=
+with
 open
 (
 os
@@ -1824,6 +1841,13 @@ txt
 rb
 '
 )
+as
+f
+:
+            
+expected
+=
+f
 .
 read
 (

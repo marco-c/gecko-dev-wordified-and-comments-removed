@@ -1458,26 +1458,45 @@ read
 )
 :
             
-if
-read_file
+while
+True
 :
                 
-yield
+read
+=
 self
 .
 content
 .
 read
 (
+32
+*
+1024
 )
-            
-else
+                
+if
+len
+(
+read
+)
+=
+=
+0
 :
+                    
+break
                 
 yield
+read
+            
 self
 .
 content
+.
+close
+(
+)
         
 else
 :
