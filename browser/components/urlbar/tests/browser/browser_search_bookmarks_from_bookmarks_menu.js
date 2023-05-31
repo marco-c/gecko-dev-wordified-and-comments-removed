@@ -214,9 +214,7 @@ mode
 "
 )
 ;
-CustomizableUI
-.
-reset
+resetCUIAndReinitUrlbarInput
 (
 )
 ;
