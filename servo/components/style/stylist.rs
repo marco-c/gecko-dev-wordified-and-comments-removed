@@ -13600,6 +13600,15 @@ Page
 CssRule
 :
 :
+Property
+(
+.
+.
+)
+|
+CssRule
+:
+:
 Viewport
 (
 .

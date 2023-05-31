@@ -494,6 +494,14 @@ UnexpectedNamespaceRule
 UnexpectedImportRule
 DisallowedImportRule
 UnexpectedCharsetRule
+UnexpectedIdent
+(
+CowRcStr
+<
+'
+i
+>
+)
 UnspecifiedError
 UnexpectedTokenWithinNamespace
 (

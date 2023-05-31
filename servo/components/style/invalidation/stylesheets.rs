@@ -2586,6 +2586,12 @@ Page
 .
 )
 |
+Property
+(
+.
+.
+)
+|
 Viewport
 (
 .
@@ -2993,6 +2999,12 @@ CounterStyle
 )
 |
 Page
+(
+.
+.
+)
+|
+Property
 (
 .
 .

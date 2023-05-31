@@ -721,6 +721,11 @@ CSSPageRule
 h
 "
 "
+CSSPropertyRule
+.
+h
+"
+"
 CSSRuleList
 .
 h
@@ -951,6 +956,11 @@ cpp
 "
 "
 CSSPageRule
+.
+cpp
+"
+"
+CSSPropertyRule
 .
 cpp
 "

@@ -468,6 +468,12 @@ case
 StyleCssRuleType
 :
 :
+Property
+:
+case
+StyleCssRuleType
+:
+:
 Keyframes
 :
 case
@@ -732,6 +738,12 @@ StyleCssRuleType
 :
 :
 Page
+:
+case
+StyleCssRuleType
+:
+:
+Property
 :
 case
 StyleCssRuleType

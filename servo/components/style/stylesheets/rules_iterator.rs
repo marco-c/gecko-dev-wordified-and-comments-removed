@@ -360,6 +360,14 @@ _
 CssRule
 :
 :
+Property
+(
+_
+)
+|
+CssRule
+:
+:
 LayerStatement
 (
 _

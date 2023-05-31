@@ -95,6 +95,7 @@ LayerStatementRule
 MediaRule
 NamespaceRule
 PageRule
+PropertyRule
 StyleRule
 StylesheetContents
 SupportsRule
@@ -353,6 +354,15 @@ PageRule
 LockedPageRule
 Servo_PageRule_AddRef
 Servo_PageRule_Release
+)
+;
+impl_locked_arc_ffi
+!
+(
+PropertyRule
+LockedPropertyRule
+Servo_PropertyRule_AddRef
+Servo_PropertyRule_Release
 )
 ;
 impl_locked_arc_ffi
