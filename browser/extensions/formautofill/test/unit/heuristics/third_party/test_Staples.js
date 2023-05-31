@@ -77,6 +77,13 @@ tel
 fieldName
 :
 "
+tel
+"
+}
+{
+fieldName
+:
+"
 organization
 "
 }
@@ -142,6 +149,13 @@ fieldName
 :
 "
 email
+"
+}
+{
+fieldName
+:
+"
+tel
 "
 }
 {

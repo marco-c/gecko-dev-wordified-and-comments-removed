@@ -8384,7 +8384,7 @@ type
 .
 export
 var
-creditCardRulesets
+CreditCardRulesets
 =
 {
 init
@@ -8470,7 +8470,7 @@ supportedTypes
 }
 }
 ;
-creditCardRulesets
+CreditCardRulesets
 .
 init
 (
@@ -8478,5 +8478,5 @@ init
 ;
 export
 default
-creditCardRulesets
+CreditCardRulesets
 ;
