@@ -1926,7 +1926,7 @@ platform
 rv
 :
 {
-spoofedVersion
+rvVersion
 }
 .
 0
@@ -1939,7 +1939,7 @@ spoofedGeckoTrail
 Firefox
 /
 {
-spoofedVersion
+appVersion
 }
 .
 0
@@ -1965,7 +1965,7 @@ platform
 rv
 :
 {
-spoofedVersion
+rvVersion
 }
 .
 0
@@ -1978,7 +1978,7 @@ spoofedGeckoTrail
 Firefox
 /
 {
-spoofedVersion
+appVersion
 }
 .
 0

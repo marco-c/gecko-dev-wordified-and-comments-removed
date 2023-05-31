@@ -1328,7 +1328,7 @@ platform
 rv
 :
 {
-appVersion
+rvVersion
 }
 .
 0
@@ -1372,7 +1372,7 @@ platform
 rv
 :
 {
-appVersion
+rvVersion
 }
 .
 0
