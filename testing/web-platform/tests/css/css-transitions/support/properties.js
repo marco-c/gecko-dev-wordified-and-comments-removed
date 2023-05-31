@@ -1877,15 +1877,6 @@ horizontal
 '
 ]
 '
-zoom
-'
-:
-[
-'
-number
-'
-]
-'
 display
 '
 :
