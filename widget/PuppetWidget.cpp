@@ -3597,7 +3597,7 @@ NS_WARN_IF
 !
 mContentCache
 .
-CacheCaretAndTextRects
+CacheSelection
 (
 this
 &
@@ -3771,11 +3771,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-if
-(
-MOZ_UNLIKELY
-(
-!
 mContentCache
 .
 SetSelection
@@ -3785,13 +3780,7 @@ aIMENotification
 .
 mSelectionChangeData
 )
-)
-)
-{
-return
-NS_OK
 ;
-}
 mBrowserChild
 -
 >
@@ -3930,7 +3919,7 @@ NS_WARN_IF
 !
 mContentCache
 .
-CacheCaretAndTextRects
+CacheSelection
 (
 this
 &
