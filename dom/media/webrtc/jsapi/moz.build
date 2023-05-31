@@ -181,11 +181,6 @@ WebrtcGlobalInformation
 .
 cpp
 "
-"
-WebrtcGlobalStatsHistory
-.
-cpp
-"
 ]
 EXPORTS
 .
