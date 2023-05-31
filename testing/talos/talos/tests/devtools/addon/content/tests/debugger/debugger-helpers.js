@@ -1094,7 +1094,6 @@ selectSource
 function
 evalInContent
 (
-dbg
 tab
 testFunction
 )
@@ -1573,7 +1572,6 @@ dbg
 await
 evalInContent
 (
-dbg
 tab
 testFunction
 )
