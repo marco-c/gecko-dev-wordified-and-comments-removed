@@ -6714,6 +6714,15 @@ suggest_url_get_params
 postParams
 :
 suggestPostParams
+mozParams
+:
+configuration
+.
+suggestExtraParams
+|
+|
+[
+]
 }
 )
 ;
