@@ -83,7 +83,7 @@ static
 url
 url
 :
-ftp
+https
 :
 /
 /
@@ -195,7 +195,7 @@ static
 url
 url
 :
-ftp
+https
 :
 /
 /
@@ -307,7 +307,7 @@ static
 url
 url
 :
-ftp
+https
 :
 /
 /
@@ -427,7 +427,7 @@ static
 url
 url
 :
-ftp
+https
 :
 /
 /
@@ -957,7 +957,7 @@ static
 url
 url
 :
-ftp
+https
 :
 /
 /
@@ -3972,7 +3972,7 @@ static
 url
 url
 :
-http
+https
 :
 /
 /
