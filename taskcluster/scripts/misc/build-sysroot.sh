@@ -220,9 +220,6 @@ glib
 1
 -
 dev
-libdrm
--
-dev
 libfontconfig1
 -
 dev
