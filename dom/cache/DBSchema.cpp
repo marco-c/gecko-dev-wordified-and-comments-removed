@@ -7558,12 +7558,12 @@ paddingSize
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-paddingSize
-+
+INT64_MAX
+-
 deletedPaddingSize
-<
+>
 =
-INT_MAX
+paddingSize
 )
 ;
 deletedPaddingSize
