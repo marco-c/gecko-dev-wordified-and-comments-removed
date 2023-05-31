@@ -92,11 +92,13 @@ SequenceCheckerImpl
 :
 SequenceCheckerImpl
 (
+bool
+attach_to_current_thread
 )
 :
 attached_
 (
-true
+attach_to_current_thread
 )
 valid_thread_
 (
