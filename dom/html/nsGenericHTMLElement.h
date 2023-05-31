@@ -488,7 +488,7 @@ ErrorResult
 aError
 )
 {
-SetHTMLAttr
+SetOrRemoveNullableStringAttr
 (
 nsGkAtoms
 :
