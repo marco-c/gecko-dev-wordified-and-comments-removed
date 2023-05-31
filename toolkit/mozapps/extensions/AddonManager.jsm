@@ -15021,6 +15021,17 @@ NS_ERROR_INVALID_ARG
 }
 if
 (
+aAddon
+.
+isBuiltinColorwayTheme
+)
+{
+return
+true
+;
+}
+if
+(
 !
 (
 "
