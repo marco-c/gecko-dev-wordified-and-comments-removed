@@ -194,3 +194,7 @@ DEPRECATED_OPERATION
 (
 SVGFarthestViewportElement
 )
+DEPRECATED_OPERATION
+(
+SizeToContent
+)
