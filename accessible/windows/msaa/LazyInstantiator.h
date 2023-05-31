@@ -16,17 +16,6 @@ include
 "
 mozilla
 /
-mscom
-/
-Ptr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RefPtr
 .
 h
