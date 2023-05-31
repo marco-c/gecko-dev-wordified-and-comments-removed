@@ -281,8 +281,12 @@ aArgs
 /
 /
 nsINamed
+get
 name
-:
+(
+)
+{
+return
 {
 aIsInterval
 ?
@@ -304,6 +308,8 @@ getDebugName
 (
 aCallback
 )
+}
+;
 }
 }
 ;
