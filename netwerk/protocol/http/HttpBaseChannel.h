@@ -340,9 +340,6 @@ class
 OpaqueResponseBlocker
 ;
 class
-OpaqueResponseBlockingInfo
-;
-class
 PreferredAlternativeDataTypeParams
 ;
 enum
@@ -2535,6 +2532,9 @@ const
 nsAString
 &
 aReason
+const
+OpaqueResponseBlockedTelemetryReason
+aTelemetryReason
 )
 ;
 public
@@ -3248,6 +3248,9 @@ nsAString
 &
 aReason
 const
+OpaqueResponseBlockedTelemetryReason
+aTelemetryReason
+const
 char
 *
 aFormat
@@ -3285,6 +3288,9 @@ const
 nsAString
 &
 aReason
+const
+OpaqueResponseBlockedTelemetryReason
+aTelemetryReason
 )
 ;
 void

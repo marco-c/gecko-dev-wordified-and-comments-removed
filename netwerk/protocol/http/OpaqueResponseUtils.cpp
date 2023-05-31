@@ -2122,6 +2122,10 @@ validation
 failed
 "
 _ns
+OpaqueResponseBlockedTelemetryReason
+:
+:
+JS_VALIDATION_FAILED
 "
 Javascript
 validation
