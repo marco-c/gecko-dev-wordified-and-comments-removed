@@ -123,7 +123,8 @@ def
 install_requirements
 (
 self
-requirements_path
+*
+requirements
 )
 :
             
