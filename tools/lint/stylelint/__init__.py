@@ -435,6 +435,25 @@ root
         
 )
     
+stylelint_rc
+=
+config
+.
+get
+(
+"
+stylelint
+-
+rc
+"
+"
+.
+stylelintrc
+.
+js
+"
+)
+    
 cmd_args
 =
 (
@@ -506,12 +525,7 @@ lintargs
 root
 "
 ]
-"
-.
-stylelintrc
-.
-js
-"
+stylelint_rc
 )
         
 ]
