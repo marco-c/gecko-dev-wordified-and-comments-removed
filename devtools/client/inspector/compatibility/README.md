@@ -81,11 +81,9 @@ file
 -
 devtools
 /
-client
-/
-inspector
-/
 shared
+/
+compatibility
 /
 compatibility
 -

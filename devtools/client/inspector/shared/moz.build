@@ -1,15 +1,6 @@
 DevToolsModules
 (
 "
-compatibility
--
-user
--
-settings
-.
-js
-"
-"
 highlighters
 -
 overlay

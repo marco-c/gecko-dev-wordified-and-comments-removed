@@ -17,11 +17,9 @@ resource
 /
 devtools
 /
-client
-/
-inspector
-/
 shared
+/
+compatibility
 /
 compatibility
 -
