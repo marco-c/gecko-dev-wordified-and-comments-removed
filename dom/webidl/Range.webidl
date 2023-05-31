@@ -566,6 +566,7 @@ Range
 [
 CEReactions
 Throws
+UseCounter
 ]
 DocumentFragment
 createContextualFragment

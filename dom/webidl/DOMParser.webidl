@@ -145,6 +145,7 @@ constructor
 [
 NewObject
 Throws
+UseCounter
 ]
 Document
 parseFromString
