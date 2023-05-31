@@ -139,7 +139,7 @@ urllib3
 .
 25
 .
-10
+11
 typing_extensions
 =
 =
