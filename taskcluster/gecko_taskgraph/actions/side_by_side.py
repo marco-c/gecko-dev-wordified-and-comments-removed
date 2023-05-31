@@ -282,15 +282,6 @@ f
 input
 [
 '
-label
-'
-]
-}
-for
-{
-input
-[
-'
 platform
 '
 ]
@@ -303,8 +294,6 @@ test_name
 '
 ]
 }
-from
-revision
 {
 input
 [
@@ -317,7 +306,6 @@ base_revision
 12
 ]
 }
-to
 {
 input
 [
