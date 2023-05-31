@@ -67,10 +67,9 @@ from
 selectors
 "
 ;
-export
 async
 function
-blackboxSourceActorsForSource
+_blackboxSourceActorsForSource
 (
 thunkArgs
 source
@@ -277,7 +276,7 @@ source
 )
 ;
 await
-blackboxSourceActorsForSource
+_blackboxSourceActorsForSource
 (
 thunkArgs
 source
@@ -740,7 +739,7 @@ sources
 )
 {
 await
-blackboxSourceActorsForSource
+_blackboxSourceActorsForSource
 (
 thunkArgs
 source

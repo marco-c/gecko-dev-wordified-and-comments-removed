@@ -158,7 +158,7 @@ extends
 WorkerDispatcher
 {
 #
-setSourceMapForGeneratedSources
+_setSourceMapForGeneratedSources
 =
 this
 .
@@ -170,7 +170,7 @@ setSourceMapForGeneratedSources
 )
 ;
 #
-getOriginalURLs
+_getOriginalURLs
 =
 this
 .
@@ -182,7 +182,7 @@ getOriginalURLs
 )
 ;
 #
-getOriginalSourceText
+_getOriginalSourceText
 =
 this
 .
@@ -216,7 +216,7 @@ await
 this
 .
 #
-getOriginalURLs
+_getOriginalURLs
 (
 urlInfo
 )
@@ -370,17 +370,6 @@ getFileGeneratedRange
 "
 )
 ;
-getSourceMapIgnoreList
-=
-this
-.
-task
-(
-"
-getSourceMapIgnoreList
-"
-)
-;
 async
 getOriginalSourceText
 (
@@ -394,7 +383,7 @@ await
 this
 .
 #
-getOriginalSourceText
+_getOriginalSourceText
 (
 originalSourceId
 )
@@ -503,7 +492,7 @@ await
 this
 .
 #
-setSourceMapForGeneratedSources
+_setSourceMapForGeneratedSources
 (
 generatedIds
 sourceMap
