@@ -17,6 +17,8 @@ assert_success
 from
 tests
 .
+classic
+.
 new_session
 .
 support

@@ -123,11 +123,14 @@ url
 =
 url
 (
+        
 "
 /
 webdriver
 /
 tests
+/
+classic
 /
 element_click
 /
@@ -137,6 +140,7 @@ test_click_wdspec
 .
 html
 "
+    
 )
     
 element

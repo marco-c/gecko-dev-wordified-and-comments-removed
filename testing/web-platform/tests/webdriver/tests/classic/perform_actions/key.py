@@ -9,6 +9,8 @@ NoSuchWindowException
 from
 tests
 .
+classic
+.
 perform_actions
 .
 support
