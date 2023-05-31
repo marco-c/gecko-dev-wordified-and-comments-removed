@@ -408,6 +408,9 @@ translate
 -
 button
 =
+.
+label
+=
 Translate
 translations
 -
@@ -416,6 +419,9 @@ panel
 translate
 -
 cancel
+=
+.
+label
 =
 Cancel
 translations
@@ -484,6 +490,9 @@ hint
 -
 button
 =
+.
+label
+=
 Try
 again
 translations
@@ -511,6 +520,9 @@ dismiss
 -
 button
 =
+.
+label
+=
 Got
 it
 translations
@@ -522,6 +534,9 @@ error
 change
 -
 button
+=
+.
+label
 =
 Change
 source
@@ -853,6 +868,9 @@ panel
 restore
 -
 button
+=
+.
+label
 =
 Show
 original
