@@ -34,10 +34,8 @@ requestAnimationFrame
 =
 >
 {
-setTimeout
-(
 resolve
-0
+(
 )
 ;
 }
