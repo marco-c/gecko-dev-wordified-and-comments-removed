@@ -291,8 +291,6 @@ virtual
 StaticRange
 (
 )
-=
-default
 ;
 public
 :
