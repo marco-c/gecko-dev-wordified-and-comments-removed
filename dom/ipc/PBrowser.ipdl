@@ -1505,11 +1505,6 @@ PVsync
 (
 )
 ;
-sync
-DispatchFocusToTopLevelWindow
-(
-)
-;
 [
 Priority
 =
