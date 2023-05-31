@@ -12160,6 +12160,8 @@ return
 true
 ;
 }
+#
+endif
 if
 (
 key
@@ -12206,8 +12208,6 @@ return
 true
 ;
 }
-#
-endif
 #
 ifdef
 ENABLE_CHANGE_ARRAY_BY_COPY
