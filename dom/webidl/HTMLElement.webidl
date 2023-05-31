@@ -574,6 +574,7 @@ enabled
 undefined
 togglePopover
 (
+optional
 boolean
 force
 )
