@@ -125,7 +125,6 @@ char
 *
 aMsg
 )
-const
 override
 ;
 private

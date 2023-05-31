@@ -79,7 +79,6 @@ char
 *
 aErrorMsg
 )
-const
 {
 if
 (

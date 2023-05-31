@@ -398,7 +398,6 @@ char
 *
 aMsg
 )
-const
 override
 ;
 PRemoteDecoderChild

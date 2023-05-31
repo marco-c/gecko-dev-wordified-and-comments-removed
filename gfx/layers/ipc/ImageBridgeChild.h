@@ -932,7 +932,6 @@ char
 *
 aMsg
 )
-const
 override
 ;
 wr

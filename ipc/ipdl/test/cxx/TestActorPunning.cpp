@@ -123,7 +123,6 @@ char
 *
 aErrorMsg
 )
-const
 {
 if
 (
