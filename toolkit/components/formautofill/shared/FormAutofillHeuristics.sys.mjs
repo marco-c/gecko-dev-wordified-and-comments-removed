@@ -401,9 +401,8 @@ number
 4
 }
 ;
-export
 class
-FormSection
+Section
 {
 static
 ADDRESS
@@ -502,7 +501,7 @@ this
 .
 type
 =
-FormSection
+Section
 .
 ADDRESS
 ;
@@ -524,7 +523,7 @@ this
 .
 type
 =
-FormSection
+Section
 .
 CREDIT_CARD
 ;
@@ -3615,7 +3614,10 @@ returns
 {
 Array
 <
-FormSection
+Array
+<
+object
+>
 >
 }
 *
@@ -4018,7 +4020,7 @@ returns
 {
 Array
 <
-FormSection
+Section
 >
 }
 The
@@ -4626,7 +4628,7 @@ sections
 push
 (
 new
-FormSection
+Section
 (
 [
 fieldDetails
