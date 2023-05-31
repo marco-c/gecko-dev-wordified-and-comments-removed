@@ -429,16 +429,6 @@ UpdateState
 true
 )
 ;
-if
-(
-StaticPrefs
-:
-:
-layout_css_always_repaint_on_unvisited
-(
-)
-)
-{
 nsLayoutUtils
 :
 :
@@ -456,7 +446,6 @@ RestyleSubtree
 nsChangeHint_RepaintFrame
 )
 ;
-}
 }
 ElementState
 Link
