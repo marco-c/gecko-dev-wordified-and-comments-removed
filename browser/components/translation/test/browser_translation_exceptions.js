@@ -568,7 +568,7 @@ preferences
 /
 dialogs
 /
-translation
+translationExceptions
 .
 xhtml
 "
@@ -1058,7 +1058,7 @@ preferences
 /
 dialogs
 /
-translation
+translationExceptions
 .
 xhtml
 "
