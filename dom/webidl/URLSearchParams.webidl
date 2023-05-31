@@ -260,6 +260,9 @@ delete
 (
 USVString
 name
+optional
+USVString
+value
 )
 ;
 USVString
@@ -285,6 +288,9 @@ has
 (
 USVString
 name
+optional
+USVString
+value
 )
 ;
 undefined
