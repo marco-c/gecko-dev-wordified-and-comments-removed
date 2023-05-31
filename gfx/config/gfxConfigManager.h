@@ -344,6 +344,9 @@ mSafeMode
 bool
 mIsWin10OrLater
 ;
+bool
+mIsWin11OrLater
+;
 }
 ;
 }
