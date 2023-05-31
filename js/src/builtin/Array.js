@@ -2749,9 +2749,6 @@ ITEM_KIND_KEY
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 function
 ArrayFromAsync
 (
@@ -3136,8 +3133,6 @@ fromAsyncClosure
 )
 ;
 }
-#
-endif
 function
 ArrayFrom
 (
