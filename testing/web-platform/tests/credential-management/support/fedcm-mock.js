@@ -464,6 +464,12 @@ closeModalDialogView
 {
 }
 async
+preventSilentAccess
+(
+)
+{
+}
+async
 reset
 (
 )
