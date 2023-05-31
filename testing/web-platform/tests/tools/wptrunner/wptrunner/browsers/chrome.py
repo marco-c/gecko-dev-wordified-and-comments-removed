@@ -311,15 +311,6 @@ True
 executor_kwargs
 [
 "
-supports_eager_pageload
-"
-]
-=
-False
-    
-executor_kwargs
-[
-"
 sanitizer_enabled
 "
 ]
@@ -389,26 +380,6 @@ True
 }
     
 }
-    
-if
-test_type
-=
-=
-"
-testharness
-"
-:
-        
-capabilities
-[
-"
-pageLoadStrategy
-"
-]
-=
-"
-none
-"
     
 chrome_options
 =

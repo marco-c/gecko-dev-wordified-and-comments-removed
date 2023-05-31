@@ -243,15 +243,6 @@ close_after_done
 =
 True
     
-executor_kwargs
-[
-"
-supports_eager_pageload
-"
-]
-=
-False
-    
 capabilities
 =
 {
@@ -321,26 +312,6 @@ True
 }
     
 }
-    
-if
-test_type
-=
-=
-"
-testharness
-"
-:
-        
-capabilities
-[
-"
-pageLoadStrategy
-"
-]
-=
-"
-none
-"
     
 for
 (
