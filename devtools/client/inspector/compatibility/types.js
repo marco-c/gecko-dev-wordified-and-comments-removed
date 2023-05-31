@@ -93,8 +93,11 @@ url
 PropTypes
 .
 string
+specUrl
+:
+PropTypes
 .
-isRequired
+string
 deprecated
 :
 PropTypes
