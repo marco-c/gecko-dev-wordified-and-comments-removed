@@ -390,13 +390,6 @@ nsCString
 _GUID
 )
 ;
-nsresult
-UpdateFrecency
-(
-int64_t
-aPlaceId
-)
-;
 nsIStringBundle
 *
 GetBundle
