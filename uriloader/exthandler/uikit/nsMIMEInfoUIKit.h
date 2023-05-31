@@ -71,6 +71,7 @@ nsIURI
 *
 aURI
 )
+override
 ;
 #
 ifdef
@@ -83,6 +84,7 @@ nsIFile
 *
 aFile
 )
+override
 {
 MOZ_ASSERT_UNREACHABLE
 (
