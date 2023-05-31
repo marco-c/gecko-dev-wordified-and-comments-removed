@@ -4719,6 +4719,8 @@ emptySearchRestriction
 |
 (
 tokenAliasEngines
+.
+length
 &
 &
 this

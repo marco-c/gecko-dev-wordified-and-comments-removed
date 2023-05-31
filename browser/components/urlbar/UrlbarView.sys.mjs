@@ -19519,7 +19519,7 @@ Services
 .
 search
 .
-isInitialized
+hasSuccessfullyInitialized
 )
 {
 return

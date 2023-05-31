@@ -1859,9 +1859,9 @@ engineName
 {
 engine
 =
-Services
+lazy
 .
-search
+UrlbarSearchUtils
 .
 getEngineByName
 (

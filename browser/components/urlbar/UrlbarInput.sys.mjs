@@ -12323,6 +12323,7 @@ this
 .
 isPrivate
 )
+?
 .
 name
 entry
