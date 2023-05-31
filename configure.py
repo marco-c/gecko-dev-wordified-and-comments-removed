@@ -11,6 +11,8 @@ logging
 import
 os
 import
+pprint
+import
 sys
 import
 textwrap
@@ -255,12 +257,6 @@ mozbuild
 pythonutil
 import
 iter_modules_in_path
-from
-mozbuild
-.
-util
-import
-write_indented_repr
 def
 main
 (
@@ -1762,10 +1758,17 @@ s
 k
 )
             
-write_indented_repr
+pprint
+.
+pprint
 (
-fh
 v
+stream
+=
+fh
+indent
+=
+4
 )
         
 fh
