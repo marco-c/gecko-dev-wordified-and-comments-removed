@@ -239,7 +239,7 @@ occurred
 running
 SCRIPT_DIR
 /
-write_example_config
+write_default_config
 .
 py
 "
@@ -249,7 +249,7 @@ mach
 python
 SCRIPT_DIR
 /
-write_example_config
+write_default_config
 .
 py
 \
@@ -275,4 +275,4 @@ MOZ_NEXT_FIREFOX_REL_TARGET
 >
 SCRIPT_DIR
 /
-example_config_env
+default_config_env

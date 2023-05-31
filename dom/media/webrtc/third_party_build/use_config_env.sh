@@ -355,7 +355,7 @@ MOZ_CONFIG_PATH
 cp
 SCRIPT_DIR
 /
-example_config_env
+default_config_env
 MOZ_CONFIG_PATH
 fi
 source

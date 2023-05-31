@@ -163,7 +163,7 @@ lookups
 done
 in
 #
-update_example_config
+update_default_config
 .
 sh
 go
