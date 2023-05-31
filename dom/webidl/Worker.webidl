@@ -344,6 +344,12 @@ constructor
 (
 USVString
 scriptURL
+optional
+WorkerOptions
+options
+=
+{
+}
 )
 ;
 }
