@@ -1318,7 +1318,6 @@ contentPage
 .
 spawn
 (
-[
 {
 baseURL
 }
@@ -1326,7 +1325,6 @@ baseURL
 content
 .
 html
-]
 async
 src
 =

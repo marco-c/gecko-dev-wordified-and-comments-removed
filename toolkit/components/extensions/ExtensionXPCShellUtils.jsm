@@ -3285,7 +3285,7 @@ scope
 {
 XPCShellContentUtils
 .
-ensureInitialized
+init
 (
 scope
 )

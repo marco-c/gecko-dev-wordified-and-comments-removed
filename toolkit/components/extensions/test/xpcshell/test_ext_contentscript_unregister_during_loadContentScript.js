@@ -226,11 +226,13 @@ promiseDone
 =
 contentPage
 .
-legacySpawn
+spawn
 (
+[
 extension
 .
 id
+]
 extensionId
 =
 >

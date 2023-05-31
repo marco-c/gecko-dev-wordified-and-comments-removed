@@ -62,7 +62,7 @@ contentPage
 await
 contentPage
 .
-legacySpawn
+spawn
 (
 null
 async
@@ -159,7 +159,7 @@ description
 await
 contentPage
 .
-legacySpawn
+spawn
 (
 description
 async
@@ -394,7 +394,7 @@ contentScriptLoaded
 await
 contentPage
 .
-legacySpawn
+spawn
 (
 extension
 .
@@ -655,7 +655,7 @@ contentScriptLoaded
 await
 contentPage
 .
-legacySpawn
+spawn
 (
 extension
 .
@@ -945,7 +945,7 @@ extensionPageLoaded
 await
 contentPage
 .
-legacySpawn
+spawn
 (
 extension
 .
@@ -1231,7 +1231,7 @@ extensionPageLoaded
 await
 contentPage
 .
-legacySpawn
+spawn
 (
 extension
 .
@@ -1343,8 +1343,7 @@ contentPage
 .
 spawn
 (
-[
-]
+null
 async
 (
 )

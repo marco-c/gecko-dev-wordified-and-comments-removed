@@ -671,7 +671,7 @@ html
 await
 page
 .
-legacySpawn
+spawn
 (
 null
 (
@@ -834,7 +834,7 @@ events
 await
 page
 .
-legacySpawn
+spawn
 (
 null
 (

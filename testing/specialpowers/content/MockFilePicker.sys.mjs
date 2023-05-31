@@ -92,9 +92,7 @@ resource
 :
 /
 /
-testing
--
-common
+specialpowers
 /
 WrapPrivileged
 .

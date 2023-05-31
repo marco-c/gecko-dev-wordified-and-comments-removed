@@ -1,3 +1,13 @@
+Services
+.
+prefs
+.
+setBoolPref
+(
+PREF_DISABLE_SECURITY
+true
+)
+;
 const
 ID
 =

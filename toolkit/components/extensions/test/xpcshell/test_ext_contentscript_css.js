@@ -233,8 +233,7 @@ contentPage
 .
 spawn
 (
-[
-]
+null
 task
 )
 ;
@@ -265,8 +264,7 @@ contentPage
 .
 spawn
 (
-[
-]
+null
 task
 )
 ;

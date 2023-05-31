@@ -748,8 +748,7 @@ contentPage
 .
 spawn
 (
-[
-]
+null
 (
 )
 =

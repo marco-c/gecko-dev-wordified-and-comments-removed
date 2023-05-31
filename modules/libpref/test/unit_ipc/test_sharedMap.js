@@ -1976,7 +1976,7 @@ prefValues
 await
 contentPage
 .
-legacySpawn
+spawn
 (
 prefNames
 getPrefs
@@ -1995,7 +1995,7 @@ prefValues
 await
 contentPage
 .
-legacySpawn
+spawn
 (
 prefNames
 getPrefs
@@ -2014,7 +2014,7 @@ prefValues
 await
 contentPage
 .
-legacySpawn
+spawn
 (
 prefNames
 getPrefs

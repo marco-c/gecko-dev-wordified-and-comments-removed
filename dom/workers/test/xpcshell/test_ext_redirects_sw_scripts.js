@@ -551,7 +551,7 @@ contentPage
 return
 contentPage
 .
-legacySpawn
+spawn
 (
 [
 ]
@@ -1187,7 +1187,7 @@ workerMessage
 await
 contentPage
 .
-legacySpawn
+spawn
 (
 [
 ]
@@ -1951,7 +1951,7 @@ workerMessage
 await
 contentPage
 .
-legacySpawn
+spawn
 (
 [
 ]
@@ -2452,7 +2452,7 @@ workerMessage
 await
 contentPage
 .
-legacySpawn
+spawn
 (
 [
 ]

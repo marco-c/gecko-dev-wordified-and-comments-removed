@@ -406,8 +406,7 @@ contentPage
 .
 spawn
 (
-[
-]
+null
 (
 )
 =

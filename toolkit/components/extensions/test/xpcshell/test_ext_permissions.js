@@ -160,9 +160,7 @@ webext
 -
 perms
 -
-sideload
--
-text
+add
 "
 )
 ;

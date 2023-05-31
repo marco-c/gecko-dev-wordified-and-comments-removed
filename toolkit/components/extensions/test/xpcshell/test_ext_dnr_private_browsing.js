@@ -283,7 +283,7 @@ wasRequestBlocked
 await
 contentPage
 .
-legacySpawn
+spawn
 (
 null
 async

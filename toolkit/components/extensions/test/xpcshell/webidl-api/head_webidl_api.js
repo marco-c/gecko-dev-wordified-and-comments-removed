@@ -390,7 +390,7 @@ case
 return
 extPage
 .
-legacySpawn
+spawn
 (
 [
 ExtensionTestCommon
@@ -936,7 +936,7 @@ result
 await
 page
 .
-legacySpawn
+spawn
 (
 [
 ]

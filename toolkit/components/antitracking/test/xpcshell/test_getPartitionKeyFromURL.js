@@ -1081,8 +1081,7 @@ contentPage
 .
 spawn
 (
-[
-]
+null
 async
 (
 )

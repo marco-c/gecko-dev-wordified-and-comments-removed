@@ -1533,8 +1533,7 @@ contentPage
 .
 spawn
 (
-[
-]
+undefined
 async
 (
 )
@@ -1715,8 +1714,7 @@ contentPage2
 .
 spawn
 (
-[
-]
+undefined
 async
 (
 )

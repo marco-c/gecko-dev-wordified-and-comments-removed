@@ -325,8 +325,7 @@ contentPage
 .
 spawn
 (
-[
-]
+null
 /
 /
 eslint
@@ -389,9 +388,7 @@ contentPage
 .
 spawn
 (
-[
 set
-]
 /
 /
 eslint

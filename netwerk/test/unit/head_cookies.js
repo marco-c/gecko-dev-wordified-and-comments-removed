@@ -723,7 +723,6 @@ contentPage
 .
 spawn
 (
-[
 {
 cookie
 :
@@ -740,7 +739,6 @@ uri
 .
 spec
 }
-]
 async
 obj
 =

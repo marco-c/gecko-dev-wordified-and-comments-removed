@@ -267,9 +267,7 @@ contentPage
 .
 spawn
 (
-[
 EXT_BASE_URL
-]
 async
 EXT_BASE_URL
 =
