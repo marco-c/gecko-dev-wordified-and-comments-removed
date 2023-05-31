@@ -4061,12 +4061,12 @@ assert_array_equals
 log
 [
 '
-clone
+original
 -
 aborted
 '
 '
-original
+clone
 -
 aborted
 '
