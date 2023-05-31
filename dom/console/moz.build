@@ -114,7 +114,9 @@ EXTRA_JS_MODULES
 "
 ConsoleAPIStorage
 .
-jsm
+sys
+.
+mjs
 "
 ]
 XPCOM_MANIFESTS
