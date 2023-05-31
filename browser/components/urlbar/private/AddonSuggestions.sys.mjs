@@ -596,9 +596,7 @@ UrlbarPrefs
 get
 (
 "
-addons
-.
-featureGate
+addonsFeatureGate
 "
 )
 &
@@ -641,11 +639,6 @@ enablingPreferences
 {
 return
 [
-"
-addons
-.
-featureGate
-"
 "
 suggest
 .
