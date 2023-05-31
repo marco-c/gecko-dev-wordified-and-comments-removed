@@ -275,6 +275,12 @@ nursery_
 nursery
 )
 {
+stringDeDupSet
+.
+emplace
+(
+)
+;
 }
 size_t
 TenuringTracer
@@ -2449,6 +2455,9 @@ void
 js
 :
 :
+gc
+:
+:
 TenuringTracer
 :
 :
@@ -2595,6 +2604,9 @@ void
 js
 :
 :
+gc
+:
+:
 TenuringTracer
 :
 :
@@ -2657,6 +2669,9 @@ void
 js
 :
 :
+gc
+:
+:
 TenuringTracer
 :
 :
@@ -2695,6 +2710,9 @@ void
 js
 :
 :
+gc
+:
+:
 TenuringTracer
 :
 :
@@ -2723,6 +2741,9 @@ void
 js
 :
 :
+gc
+:
+:
 TenuringTracer
 :
 :
@@ -2744,6 +2765,9 @@ this
 }
 void
 js
+:
+:
+gc
 :
 :
 TenuringTracer
@@ -2826,6 +2850,9 @@ void
 js
 :
 :
+gc
+:
+:
 TenuringTracer
 :
 :
@@ -2858,6 +2885,9 @@ inline
 T
 *
 js
+:
+:
+gc
 :
 :
 TenuringTracer
@@ -2897,6 +2927,9 @@ kind
 JSString
 *
 js
+:
+:
+gc
 :
 :
 TenuringTracer
@@ -2948,6 +2981,9 @@ dst
 JSObject
 *
 js
+:
+:
+gc
 :
 :
 TenuringTracer
@@ -3339,6 +3375,9 @@ JSObject
 js
 :
 :
+gc
+:
+:
 TenuringTracer
 :
 :
@@ -3507,6 +3546,9 @@ dst
 }
 size_t
 js
+:
+:
+gc
 :
 :
 TenuringTracer
@@ -3759,6 +3801,9 @@ allocSize
 }
 size_t
 js
+:
+:
+gc
 :
 :
 TenuringTracer
@@ -4131,6 +4176,9 @@ void
 js
 :
 :
+gc
+:
+:
 TenuringTracer
 :
 :
@@ -4157,6 +4205,9 @@ entry
 JSString
 *
 js
+:
+:
+gc
 :
 :
 TenuringTracer
@@ -4411,10 +4462,6 @@ isDeduplicatable
 )
 &
 &
-nursery
-(
-)
-.
 stringDeDupSet
 .
 isSome
@@ -4427,10 +4474,6 @@ if
 auto
 p
 =
-nursery
-(
-)
-.
 stringDeDupSet
 -
 >
@@ -4504,10 +4547,6 @@ dstKind
 if
 (
 !
-nursery
-(
-)
-.
 stringDeDupSet
 -
 >
@@ -4517,10 +4556,6 @@ dst
 )
 )
 {
-nursery
-(
-)
-.
 stringDeDupSet
 .
 reset
@@ -4634,6 +4669,9 @@ CharT
 >
 void
 js
+:
+:
+gc
 :
 :
 TenuringTracer
@@ -4961,6 +4999,9 @@ BigInt
 js
 :
 :
+gc
+:
+:
 TenuringTracer
 :
 :
@@ -5069,6 +5110,9 @@ void
 js
 :
 :
+gc
+:
+:
 TenuringTracer
 :
 :
@@ -5121,6 +5165,9 @@ obj
 }
 void
 js
+:
+:
+gc
 :
 :
 TenuringTracer
@@ -5408,6 +5455,9 @@ size_t
 js
 :
 :
+gc
+:
+:
 TenuringTracer
 :
 :
@@ -5537,6 +5587,9 @@ size
 }
 size_t
 js
+:
+:
+gc
 :
 :
 TenuringTracer
