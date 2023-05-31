@@ -2596,9 +2596,6 @@ fuzzy
 -
 if
 (
-cocoaWidget
-&
-&
 swgl
 0
 -
@@ -2625,6 +2622,11 @@ pseudo
 ref
 .
 html
+#
+Fuzz
+in
+reftest
+background
 =
 =
 quirks
