@@ -25,7 +25,7 @@ h
 elif
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 #
 include
@@ -407,7 +407,7 @@ NS_OK
 elif
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 static
 nsresult
