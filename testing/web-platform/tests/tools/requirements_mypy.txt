@@ -99,11 +99,11 @@ setuptools
 =
 67
 .
-6
+7
 .
 0
 .
-8
+1
 types
 -
 six
