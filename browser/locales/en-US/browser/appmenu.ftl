@@ -239,6 +239,15 @@ in
 page
 appmenuitem
 -
+translate
+=
+.
+label
+=
+Translate
+page
+appmenuitem
+-
 zoom
 =
 .
