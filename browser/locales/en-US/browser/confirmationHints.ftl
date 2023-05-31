@@ -179,3 +179,14 @@ Existing
 mask
 reused
 !
+confirmation
+-
+hint
+-
+screenshot
+-
+copied
+=
+Screenshot
+copied
+!
