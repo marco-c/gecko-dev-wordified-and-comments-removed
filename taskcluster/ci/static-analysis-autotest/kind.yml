@@ -142,6 +142,13 @@ static
 analysis
 -
 autotest
+use
+-
+system
+-
+python
+:
+false
 run
 -
 on
