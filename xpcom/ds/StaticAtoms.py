@@ -3413,16 +3413,6 @@ directory
 Atom
 (
 "
-dirname
-"
-"
-dirname
-"
-)
-    
-Atom
-(
-"
 disableOutputEscaping
 "
 "
