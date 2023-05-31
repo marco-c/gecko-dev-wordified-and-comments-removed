@@ -1654,7 +1654,7 @@ read
 .
 *
 param
-aDefaultValue
+aDefaultPrefValue
 *
 The
 default
@@ -1667,6 +1667,19 @@ preference
 is
 not
 defined
+.
+*
+This
+is
+the
+default
+value
+of
+the
+pref
+before
+applying
+aTransform
 .
 *
 param
@@ -1731,7 +1744,7 @@ defineLazyPreferenceGetter
 aObject
 aName
 aPreference
-aDefaultValue
+aDefaultPrefValue
 =
 null
 aOnUpdate
@@ -1752,7 +1765,7 @@ AppConstants
 DEBUG
 &
 &
-aDefaultValue
+aDefaultPrefValue
 !
 =
 =
@@ -1840,7 +1853,7 @@ PREF_STRING
 }
 [
 typeof
-aDefaultValue
+aDefaultPrefValue
 ]
 ;
 if
@@ -2162,7 +2175,7 @@ PREF_INVALID
 :
 prefValue
 =
-aDefaultValue
+aDefaultPrefValue
 ;
 break
 ;
