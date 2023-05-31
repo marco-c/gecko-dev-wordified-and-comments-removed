@@ -485,6 +485,11 @@ GlobalRefCountCreate
 (
 )
 ;
+void
+GlobalRefCountDelete
+(
+)
+;
 bool
 IsGlobalRefSet
 (
@@ -561,11 +566,6 @@ aFd
 ;
 int
 GlobalRefCountExport
-(
-)
-;
-void
-GlobalRefCountDelete
 (
 )
 ;
