@@ -541,17 +541,6 @@ otool
 "
 :
 )
-AC_CHECK_PROGS
-(
-INSTALL_NAME_TOOL
-"
-{
-TOOLCHAIN_PREFIX
-}
-install_name_tool
-"
-:
-)
 PATH
 =
 _SAVE_PATH

@@ -761,7 +761,9 @@ OS_ARCH
 )
 Darwin
 )
-install_name_tool
+(
+INSTALL_NAME_TOOL
+)
 -
 id
 (
