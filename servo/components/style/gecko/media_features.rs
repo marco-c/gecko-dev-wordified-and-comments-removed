@@ -3197,9 +3197,7 @@ eval_width
 FeatureFlags
 :
 :
-empty
-(
-)
+VIEWPORT_DEPENDENT
 )
 feature
 !
@@ -3225,9 +3223,7 @@ eval_height
 FeatureFlags
 :
 :
-empty
-(
-)
+VIEWPORT_DEPENDENT
 )
 feature
 !
@@ -3255,9 +3251,7 @@ eval_aspect_ratio
 FeatureFlags
 :
 :
-empty
-(
-)
+VIEWPORT_DEPENDENT
 )
 feature
 !
@@ -3282,9 +3276,7 @@ Orientation
 FeatureFlags
 :
 :
-empty
-(
-)
+VIEWPORT_DEPENDENT
 )
 feature
 !
