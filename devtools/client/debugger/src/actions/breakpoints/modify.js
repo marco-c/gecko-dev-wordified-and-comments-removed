@@ -19,7 +19,7 @@ create
 ;
 import
 {
-makeBreakpointLocation
+makeBreakpointServerLocation
 makeBreakpointId
 }
 from
@@ -197,9 +197,9 @@ breakpoint
 )
 {
 const
-breakpointLocation
+breakpointServerLocation
 =
-makeBreakpointLocation
+makeBreakpointServerLocation
 (
 getState
 (
@@ -267,7 +267,7 @@ client
 .
 setBreakpoint
 (
-breakpointLocation
+breakpointServerLocation
 breakpoint
 .
 options
@@ -283,9 +283,9 @@ generatedLocation
 )
 {
 const
-breakpointLocation
+breakpointServerLocation
 =
-makeBreakpointLocation
+makeBreakpointServerLocation
 (
 state
 generatedLocation
@@ -296,7 +296,7 @@ client
 .
 removeBreakpoint
 (
-breakpointLocation
+breakpointServerLocation
 )
 ;
 }

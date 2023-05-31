@@ -13,7 +13,7 @@ import
 {
 assertPendingBreakpoint
 findPosition
-makeBreakpointLocation
+makeBreakpointServerLocation
 }
 from
 "
@@ -256,9 +256,9 @@ sourceUrl
 )
 {
 const
-breakpointLocation
+breakpointServerLocation
 =
-makeBreakpointLocation
+makeBreakpointServerLocation
 (
 getState
 (
@@ -288,7 +288,7 @@ client
 .
 hasBreakpoint
 (
-breakpointLocation
+breakpointServerLocation
 )
 )
 )
