@@ -151,7 +151,9 @@ resource
 :
 /
 /
-specialpowers
+testing
+-
+common
 /
 SpecialPowersSandbox
 .

@@ -134,7 +134,9 @@ resource
 :
 /
 /
-specialpowers
+testing
+-
+common
 /
 MockColorPicker
 .
@@ -149,7 +151,9 @@ resource
 :
 /
 /
-specialpowers
+testing
+-
+common
 /
 MockFilePicker
 .
@@ -164,7 +168,9 @@ resource
 :
 /
 /
-specialpowers
+testing
+-
+common
 /
 MockPermissionPrompt
 .
@@ -213,7 +219,9 @@ resource
 :
 /
 /
-specialpowers
+testing
+-
+common
 /
 SpecialPowersSandbox
 .
@@ -228,7 +236,9 @@ resource
 :
 /
 /
-specialpowers
+testing
+-
+common
 /
 WrapPrivileged
 .

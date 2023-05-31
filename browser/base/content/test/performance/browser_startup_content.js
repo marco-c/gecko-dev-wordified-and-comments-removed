@@ -535,7 +535,9 @@ resource
 :
 /
 /
-specialpowers
+testing
+-
+common
 /
 SpecialPowersChild
 .
@@ -548,7 +550,9 @@ resource
 :
 /
 /
-specialpowers
+testing
+-
+common
 /
 WrapPrivileged
 .
