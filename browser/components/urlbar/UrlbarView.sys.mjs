@@ -10706,8 +10706,10 @@ span
 ;
 body
 .
-className
-=
+classList
+.
+add
+(
 "
 urlbarView
 -
@@ -10715,6 +10717,12 @@ no
 -
 wrap
 "
+"
+urlbarView
+-
+overflowable
+"
+)
 ;
 item
 .
@@ -10748,11 +10756,6 @@ add
 urlbarView
 -
 title
-"
-"
-urlbarView
--
-overflowable
 "
 )
 ;
