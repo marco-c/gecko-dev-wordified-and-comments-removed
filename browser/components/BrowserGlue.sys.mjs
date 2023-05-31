@@ -3975,13 +3975,6 @@ about
 :
 firefoxview
 "
-"
-about
-:
-firefoxview
--
-next
-"
 ]
 }
 LinkHandler
