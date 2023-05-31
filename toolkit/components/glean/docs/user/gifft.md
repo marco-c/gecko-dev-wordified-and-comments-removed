@@ -379,7 +379,7 @@ collection
 /
 scalars
 .
-rst
+html
 )
 |
 |
@@ -430,7 +430,7 @@ collection
 /
 scalars
 .
-rst
+html
 )
 |
 |
@@ -480,7 +480,7 @@ collection
 /
 scalars
 .
-rst
+html
 )
 |
 |
@@ -531,7 +531,7 @@ collection
 /
 scalars
 .
-rst
+html
 )
 |
 |
@@ -581,7 +581,7 @@ collection
 /
 scalars
 .
-rst
+html
 )
 |
 |
@@ -667,7 +667,7 @@ collection
 /
 scalars
 .
-rst
+html
 )
 .
 The
@@ -764,7 +764,7 @@ collection
 /
 scalars
 .
-rst
+html
 )
 .
 The
@@ -828,7 +828,7 @@ collection
 /
 histograms
 .
-rst
+html
 #
 exponential
 )
@@ -894,7 +894,7 @@ collection
 /
 histograms
 .
-rst
+html
 #
 exponential
 )
@@ -959,7 +959,7 @@ collection
 /
 histograms
 .
-rst
+html
 #
 exponential
 )
@@ -1027,7 +1027,7 @@ collection
 /
 scalars
 .
-rst
+html
 )
 .
 Value
@@ -1132,7 +1132,7 @@ collection
 /
 scalars
 .
-rst
+html
 )
 .
 The
@@ -1199,7 +1199,7 @@ collection
 /
 scalars
 .
-rst
+html
 )
 .
 Value
@@ -1253,7 +1253,7 @@ collection
 /
 events
 .
-rst
+html
 )
 .
 The
@@ -1312,7 +1312,7 @@ collection
 /
 scalars
 .
-rst
+html
 )
 |
 |
@@ -1363,7 +1363,7 @@ collection
 /
 scalars
 .
-rst
+html
 )
 .
 The
