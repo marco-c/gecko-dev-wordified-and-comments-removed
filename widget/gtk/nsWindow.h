@@ -989,6 +989,12 @@ return
 mClientOffset
 ;
 }
+LayoutDeviceIntPoint
+GetScreenEdgeSlop
+(
+)
+override
+;
 void
 RecomputeClientOffset
 (

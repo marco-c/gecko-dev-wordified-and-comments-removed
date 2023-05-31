@@ -2256,6 +2256,17 @@ GetClientOffset
 0
 ;
 virtual
+LayoutDeviceIntPoint
+GetScreenEdgeSlop
+(
+)
+{
+return
+{
+}
+;
+}
+virtual
 LayoutDeviceIntSize
 GetClientSize
 (

@@ -448,6 +448,7 @@ bool
 HasActiveDocument
 (
 )
+const
 ;
 bool
 IsFullyActive

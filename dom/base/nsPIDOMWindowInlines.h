@@ -189,6 +189,7 @@ nsPIDOMWindowInner
 HasActiveDocument
 (
 )
+const
 {
 return
 IsCurrentInnerWindow
