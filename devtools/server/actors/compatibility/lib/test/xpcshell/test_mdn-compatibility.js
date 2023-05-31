@@ -825,9 +825,9 @@ name
 -
 moz
 -
-outline
+user
 -
-radius
+input
 "
 }
 ]
@@ -853,9 +853,9 @@ property
 -
 moz
 -
-outline
+user
 -
-radius
+input
 "
 url
 :
@@ -879,9 +879,9 @@ CSS
 -
 moz
 -
-outline
+user
 -
-radius
+input
 "
 deprecated
 :
