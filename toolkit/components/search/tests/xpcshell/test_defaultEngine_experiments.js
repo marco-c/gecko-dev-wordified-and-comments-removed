@@ -120,7 +120,7 @@ spy
 (
 NimbusFeatures
 .
-search
+searchConfiguration
 "
 onUpdate
 "
@@ -132,7 +132,7 @@ stub
 (
 NimbusFeatures
 .
-search
+searchConfiguration
 "
 ready
 "
@@ -150,7 +150,7 @@ stub
 (
 NimbusFeatures
 .
-search
+searchConfiguration
 "
 getVariable
 "
@@ -280,7 +280,7 @@ call
 of
 NimbusFeatures
 .
-search
+searchConfiguration
 .
 onUpdate
 .

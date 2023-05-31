@@ -388,7 +388,7 @@ enrollWithFeatureConfig
 featureId
 :
 "
-search
+searchConfiguration
 "
 value
 :
@@ -560,7 +560,7 @@ enrollWithFeatureConfig
 featureId
 :
 "
-search
+searchConfiguration
 "
 value
 :
