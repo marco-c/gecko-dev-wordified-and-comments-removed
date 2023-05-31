@@ -646,9 +646,9 @@ translations
 "
 )
 .
-DetectedLanguages
+LangTags
 }
-DetectedLanguages
+LangTags
 *
 typedef
 {
@@ -8365,14 +8365,7 @@ Promise
 <
 null
 |
-{
-appLangTag
-:
-string
-docLangTag
-:
-string
-}
+LangTags
 >
 }
 *
@@ -9603,7 +9596,7 @@ null
 *
 type
 {
-DetectedLanguages
+LangTags
 |
 null
 }
@@ -9905,7 +9898,7 @@ here
 *
 returns
 {
-DetectedLanguages
+LangTags
 |
 null
 }
