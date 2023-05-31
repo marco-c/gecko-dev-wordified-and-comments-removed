@@ -906,7 +906,7 @@ getState
 for
 (
 const
-breakpoint
+pendingBreakpoint
 of
 pending
 )
@@ -916,7 +916,7 @@ const
 generatedLocation
 }
 =
-breakpoint
+pendingBreakpoint
 ;
 if
 (
@@ -946,7 +946,7 @@ type
 REMOVE_PENDING_BREAKPOINT
 "
 cx
-breakpoint
+pendingBreakpoint
 }
 )
 ;
