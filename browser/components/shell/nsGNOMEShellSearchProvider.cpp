@@ -1256,7 +1256,9 @@ err
 dbus_bus_request_name
 (
 mConnection
-DBUS_BUS_NAME
+GetDBusBusName
+(
+)
 DBUS_NAME_FLAG_DO_NOT_QUEUE
 &
 err
@@ -1291,7 +1293,9 @@ if
 dbus_connection_register_object_path
 (
 mConnection
-DBUS_OBJECT_PATH
+GetDBusObjectPath
+(
+)
 &
 remoteHandlersTable
 this
@@ -1334,7 +1338,9 @@ return
 dbus_connection_unregister_object_path
 (
 mConnection
-DBUS_OBJECT_PATH
+GetDBusObjectPath
+(
+)
 )
 ;
 mConnection
