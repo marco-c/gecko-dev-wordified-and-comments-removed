@@ -89,7 +89,11 @@ resource
 :
 /
 /
-autofill
+gre
+/
+modules
+/
+shared
 /
 FormAutofillSection
 .

@@ -355,6 +355,15 @@ enabled
 "
 :
 true
+"
+extensions
+.
+formautofill
+.
+focusOnAutofill
+"
+:
+false
 }
 ;
 /
