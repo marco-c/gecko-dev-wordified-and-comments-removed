@@ -1211,6 +1211,9 @@ LastRelease
 )
 override
 ;
+class
+HashEntry
+;
 protected
 :
 using
@@ -1601,6 +1604,9 @@ mType
 ;
 #
 endif
+class
+HashEntry
+;
 protected
 :
 nsCacheableFuncStringContentList
