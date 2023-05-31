@@ -3230,6 +3230,9 @@ class
 js
 :
 :
+gc
+:
+:
 TenuringTracer
 ;
 friend
