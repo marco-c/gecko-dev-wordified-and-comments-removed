@@ -42,7 +42,6 @@ ProxyCreated
 (
 RemoteAccessible
 *
-uint32_t
 )
 {
 }
@@ -109,7 +108,7 @@ ProxyTextChangeEvent
 RemoteAccessible
 *
 const
-nsString
+nsAString
 &
 int32_t
 uint32_t
