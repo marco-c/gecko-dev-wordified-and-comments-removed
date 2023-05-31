@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 NetUtil
-"
+:
 "
 resource
 :
@@ -17,8 +17,11 @@ modules
 /
 NetUtil
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 const
