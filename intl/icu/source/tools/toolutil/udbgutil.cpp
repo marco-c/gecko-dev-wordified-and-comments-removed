@@ -255,6 +255,16 @@ FIELD_NAME_STR
 LEN_UCAL
 UCAL_IS_LEAP_MONTH
 )
+#
+ifndef
+U_HIDE_DRAFT_API
+FIELD_NAME_STR
+(
+LEN_UCAL
+UCAL_ORDINAL_MONTH
+)
+#
+endif
 }
 ;
 static
@@ -813,7 +823,7 @@ UDBG_
 x
 :
 return
-NULL
+nullptr
 ;
 static
 int32_t
@@ -954,7 +964,7 @@ endif
 default
 :
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1017,7 +1027,7 @@ false
 )
 {
 return
-NULL
+nullptr
 ;
 }
 else
@@ -1037,11 +1047,11 @@ if
 fields
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 else
@@ -1112,7 +1122,7 @@ if
 fields
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1181,7 +1191,7 @@ if
 fields
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -1293,7 +1303,6 @@ char
 *
 udbg_getPlatform
 (
-void
 )
 {
 #
@@ -1542,7 +1551,7 @@ param
 paramStr
 =
 =
-NULL
+nullptr
 )
 return
 paramEmpty
@@ -1586,7 +1595,7 @@ if
 target
 !
 =
-NULL
+nullptr
 )
 {
 uprv_strncpy
@@ -1649,7 +1658,7 @@ if
 str
 =
 =
-NULL
+nullptr
 )
 str
 =
@@ -1683,7 +1692,7 @@ if
 target
 !
 =
-NULL
+nullptr
 )
 {
 uprv_strncpy
@@ -1730,7 +1739,7 @@ if
 target
 !
 =
-NULL
+nullptr
 )
 {
 uprv_strncpy
@@ -1845,7 +1854,7 @@ param
 paramStr
 =
 =
-NULL
+nullptr
 |
 |
 param
@@ -2091,7 +2100,7 @@ status
 return
 0
 ;
-UChar
+char16_t
 buf
 [
 100
@@ -2375,7 +2384,7 @@ platform
 type
 "
 paramPlatform
-NULL
+nullptr
 0
 }
 {
@@ -2385,7 +2394,7 @@ locale
 default
 "
 paramLocaleDefault
-NULL
+nullptr
 0
 }
 {
@@ -2397,7 +2406,7 @@ default
 bcp47
 "
 paramLocaleDefaultBcp47
-NULL
+nullptr
 0
 }
 #
@@ -2411,7 +2420,7 @@ converter
 default
 "
 paramConverterDefault
-NULL
+nullptr
 0
 }
 #
@@ -2433,7 +2442,7 @@ icudata
 path
 "
 paramIcudataPath
-NULL
+nullptr
 0
 }
 {
@@ -2443,7 +2452,7 @@ cldr
 version
 "
 paramCldrVersion
-NULL
+nullptr
 0
 }
 #
@@ -2457,7 +2466,7 @@ tz
 version
 "
 paramTimezoneVersion
-NULL
+nullptr
 0
 }
 {
@@ -2467,7 +2476,7 @@ tz
 default
 "
 paramTimezoneDefault
-NULL
+nullptr
 0
 }
 #
@@ -2691,7 +2700,7 @@ paramName
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -2811,7 +2820,7 @@ i
 )
 !
 =
-NULL
+nullptr
 ;
 i
 +
@@ -3011,7 +3020,7 @@ char
 *
 where
 const
-UChar
+char16_t
 *
 msg
 UBool
@@ -3197,7 +3206,7 @@ char
 *
 where
 const
-UChar
+char16_t
 *
 msg
 UBool
@@ -3242,7 +3251,7 @@ if
 firstForTicket
 !
 =
-NULL
+nullptr
 )
 *
 firstForTicket
@@ -3285,7 +3294,7 @@ if
 firstForTicket
 !
 =
-NULL
+nullptr
 )
 *
 firstForTicket
@@ -3298,7 +3307,7 @@ if
 where
 =
 =
-NULL
+nullptr
 )
 return
 ;
@@ -3330,7 +3339,7 @@ if
 firstForWhere
 !
 =
-NULL
+nullptr
 )
 *
 firstForWhere
@@ -3366,7 +3375,7 @@ if
 firstForWhere
 !
 =
-NULL
+nullptr
 )
 *
 firstForWhere
@@ -3379,7 +3388,7 @@ if
 msg
 =
 =
-NULL
+nullptr
 |
 |
 !
@@ -3486,7 +3495,7 @@ if
 firstForTicket
 !
 =
-NULL
+nullptr
 )
 *
 firstForTicket
@@ -3529,7 +3538,7 @@ if
 firstForTicket
 !
 =
-NULL
+nullptr
 )
 *
 firstForTicket
@@ -3542,7 +3551,7 @@ if
 where
 =
 =
-NULL
+nullptr
 )
 return
 ;
@@ -3574,7 +3583,7 @@ if
 firstForWhere
 !
 =
-NULL
+nullptr
 )
 *
 firstForWhere
@@ -3610,7 +3619,7 @@ if
 firstForWhere
 !
 =
-NULL
+nullptr
 )
 *
 firstForWhere
@@ -3623,7 +3632,7 @@ if
 msg
 =
 =
-NULL
+nullptr
 |
 |
 !
@@ -4010,7 +4019,7 @@ char
 *
 where
 const
-UChar
+char16_t
 *
 msg
 UBool
@@ -4039,7 +4048,7 @@ if
 t
 =
 =
-NULL
+nullptr
 )
 {
 t
@@ -4118,7 +4127,7 @@ if
 t
 =
 =
-NULL
+nullptr
 )
 {
 t
@@ -4179,7 +4188,7 @@ if
 t
 =
 =
-NULL
+nullptr
 )
 {
 return

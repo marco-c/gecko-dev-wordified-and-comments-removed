@@ -35,7 +35,7 @@ Transliterator
 {
 private
 :
-UChar
+char16_t
 *
 spec
 ;
@@ -54,7 +54,7 @@ UnicodeString
 &
 ID
 const
-UChar
+char16_t
 *
 spec
 )

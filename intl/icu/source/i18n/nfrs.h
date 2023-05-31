@@ -419,7 +419,7 @@ util64_tou
 (
 int64_t
 n
-UChar
+char16_t
 *
 buffer
 uint32_t
@@ -441,7 +441,7 @@ int64_t
 util64_utoi
 (
 const
-UChar
+char16_t
 *
 str
 uint32_t

@@ -129,11 +129,11 @@ LoadedNormalizer2Impl
 :
 memory
 (
-NULL
+nullptr
 )
 ownedTrie
 (
-NULL
+nullptr
 )
 {
 }
@@ -469,7 +469,7 @@ offset
 nextOffset
 -
 offset
-NULL
+nullptr
 &
 errorCode
 )
@@ -563,7 +563,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 LoadedNormalizer2Impl
@@ -578,7 +578,7 @@ if
 impl
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -586,7 +586,7 @@ errorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 impl
@@ -669,7 +669,7 @@ UHashtable
 *
 cache
 =
-NULL
+nullptr
 ;
 static
 void
@@ -710,7 +710,7 @@ Norm2AllModes
 :
 createInstance
 (
-NULL
+nullptr
 "
 nfc
 "
@@ -742,7 +742,7 @@ Norm2AllModes
 :
 createInstance
 (
-NULL
+nullptr
 "
 nfkc
 "
@@ -772,7 +772,7 @@ Norm2AllModes
 :
 createInstance
 (
-NULL
+nullptr
 "
 nfkc_cf
 "
@@ -827,7 +827,7 @@ nfcSingleton
 ;
 nfcSingleton
 =
-NULL
+nullptr
 ;
 nfcInitOnce
 .
@@ -842,7 +842,7 @@ nfkcSingleton
 ;
 nfkcSingleton
 =
-NULL
+nullptr
 ;
 nfkcInitOnce
 .
@@ -855,7 +855,7 @@ nfkc_cfSingleton
 ;
 nfkc_cfSingleton
 =
-NULL
+nullptr
 ;
 nfkc_cfInitOnce
 .
@@ -870,7 +870,7 @@ cache
 ;
 cache
 =
-NULL
+nullptr
 ;
 return
 true
@@ -903,7 +903,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 umtx_initOnce
@@ -945,7 +945,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 umtx_initOnce
@@ -985,7 +985,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 umtx_initOnce
@@ -1037,7 +1037,7 @@ return
 allModes
 !
 =
-NULL
+nullptr
 ?
 &
 allModes
@@ -1045,7 +1045,7 @@ allModes
 >
 comp
 :
-NULL
+nullptr
 ;
 }
 const
@@ -1078,7 +1078,7 @@ return
 allModes
 !
 =
-NULL
+nullptr
 ?
 &
 allModes
@@ -1086,7 +1086,7 @@ allModes
 >
 decomp
 :
-NULL
+nullptr
 ;
 }
 const
@@ -1119,7 +1119,7 @@ return
 allModes
 !
 =
-NULL
+nullptr
 ?
 &
 allModes
@@ -1127,7 +1127,7 @@ allModes
 >
 fcd
 :
-NULL
+nullptr
 ;
 }
 const
@@ -1160,7 +1160,7 @@ return
 allModes
 !
 =
-NULL
+nullptr
 ?
 &
 allModes
@@ -1168,7 +1168,7 @@ allModes
 >
 fcc
 :
-NULL
+nullptr
 ;
 }
 const
@@ -1201,14 +1201,14 @@ return
 allModes
 !
 =
-NULL
+nullptr
 ?
 allModes
 -
 >
 impl
 :
-NULL
+nullptr
 ;
 }
 #
@@ -1243,7 +1243,7 @@ return
 allModes
 !
 =
-NULL
+nullptr
 ?
 &
 allModes
@@ -1251,7 +1251,7 @@ allModes
 >
 comp
 :
-NULL
+nullptr
 ;
 }
 const
@@ -1284,7 +1284,7 @@ return
 allModes
 !
 =
-NULL
+nullptr
 ?
 &
 allModes
@@ -1292,7 +1292,7 @@ allModes
 >
 decomp
 :
-NULL
+nullptr
 ;
 }
 const
@@ -1325,7 +1325,7 @@ return
 allModes
 !
 =
-NULL
+nullptr
 ?
 &
 allModes
@@ -1333,7 +1333,7 @@ allModes
 >
 comp
 :
-NULL
+nullptr
 ;
 }
 const
@@ -1368,7 +1368,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1376,7 +1376,7 @@ if
 name
 =
 =
-NULL
+nullptr
 |
 |
 *
@@ -1391,7 +1391,7 @@ errorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 const
@@ -1399,14 +1399,14 @@ Norm2AllModes
 *
 allModes
 =
-NULL
+nullptr
 ;
 if
 (
 packageName
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -1492,7 +1492,7 @@ if
 allModes
 =
 =
-NULL
+nullptr
 &
 &
 U_SUCCESS
@@ -1510,7 +1510,7 @@ if
 cache
 !
 =
-NULL
+nullptr
 )
 {
 allModes
@@ -1532,7 +1532,7 @@ if
 allModes
 =
 =
-NULL
+nullptr
 )
 {
 ucln_common_registerCleanup
@@ -1574,7 +1574,7 @@ if
 cache
 =
 =
-NULL
+nullptr
 )
 {
 cache
@@ -1583,7 +1583,7 @@ uhash_open
 (
 uhash_hashChars
 uhash_compareChars
-NULL
+nullptr
 &
 errorCode
 )
@@ -1597,7 +1597,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 uhash_setKeyDeleter
@@ -1628,7 +1628,7 @@ if
 temp
 =
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -1665,7 +1665,7 @@ if
 nameCopy
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1673,7 +1673,7 @@ errorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 uprv_memcpy
@@ -1724,7 +1724,7 @@ if
 allModes
 !
 =
-NULL
+nullptr
 &
 &
 U_SUCCESS
@@ -1785,7 +1785,7 @@ break
 }
 }
 return
-NULL
+nullptr
 ;
 }
 const
@@ -1812,7 +1812,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 switch
@@ -1917,14 +1917,14 @@ return
 allModes
 !
 =
-NULL
+nullptr
 ?
 allModes
 -
 >
 impl
 :
-NULL
+nullptr
 ;
 }
 const
@@ -1957,14 +1957,14 @@ return
 allModes
 !
 =
-NULL
+nullptr
 ?
 allModes
 -
 >
 impl
 :
-NULL
+nullptr
 ;
 }
 U_NAMESPACE_END

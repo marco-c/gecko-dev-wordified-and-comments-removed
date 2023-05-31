@@ -19583,6 +19583,9 @@ an_ES
 ann_NG
 "
 "
+apc_SY
+"
+"
 ar_001
 "
 "
@@ -19701,6 +19704,9 @@ ceb_PH
 "
 "
 cgg_UG
+"
+"
+cho_US
 "
 "
 chr_US
@@ -20039,6 +20045,9 @@ lij_IT
 lkt_US
 "
 "
+lmo_IT
+"
+"
 ln_CD
 "
 "
@@ -20216,6 +20225,9 @@ pa_Guru
 pa_Guru_IN
 "
 "
+pap_CW
+"
+"
 pcm_NG
 "
 "
@@ -20247,6 +20259,9 @@ rhg_Rohg
 "
 "
 rhg_Rohg_MM
+"
+"
+rif_MA
 "
 "
 rm_CH

@@ -1910,6 +1910,14 @@ other
 "
 }
 }
+AMD
+{
+other
+{
+"
+"
+}
+}
 ANG
 {
 other

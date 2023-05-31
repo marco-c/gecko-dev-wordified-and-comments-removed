@@ -1504,7 +1504,7 @@ decomposed
 nullptr
 ;
 const
-UChar
+char16_t
 *
 s
 =
@@ -1954,7 +1954,7 @@ c
 )
 )
 {
-UChar
+char16_t
 buffer
 [
 3

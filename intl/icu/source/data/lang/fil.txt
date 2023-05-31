@@ -1617,6 +1617,12 @@ lkt
 Lakota
 "
 }
+lmo
+{
+"
+Lombard
+"
+}
 ln
 {
 "

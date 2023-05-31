@@ -225,7 +225,7 @@ if
 value
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -338,7 +338,7 @@ i
 ]
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -391,7 +391,7 @@ variables
 ;
 variables
 =
-NULL
+nullptr
 ;
 return
 ;

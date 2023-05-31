@@ -276,7 +276,7 @@ h
 struct
 UResAEntry
 {
-UChar
+char16_t
 *
 key
 ;
@@ -525,7 +525,7 @@ i
 key
 =
 (
-UChar
+char16_t
 *
 )
 uprv_malloc
@@ -534,7 +534,7 @@ len
 *
 sizeof
 (
-UChar
+char16_t
 )
 )
 ;
@@ -643,7 +643,7 @@ endif
 }
 static
 const
-UChar
+char16_t
 *
 ures_a_getNextString
 (
@@ -713,7 +713,7 @@ cursor
 item
 ;
 const
-UChar
+char16_t
 *
 ret
 =
@@ -750,7 +750,7 @@ endif
 U_NAMESPACE_BEGIN
 static
 const
-UChar
+char16_t
 Canonical_Items
 [
 ]
@@ -1701,7 +1701,7 @@ UDATPG_FIELD_KEY_MAX
 ;
 static
 const
-UChar
+char16_t
 UDATPG_ItemFormat
 [
 ]
@@ -5097,7 +5097,7 @@ field
 }
 else
 {
-UChar
+char16_t
 ch
 =
 field
@@ -5824,7 +5824,7 @@ valueStr
 +
 =
 (
-UChar
+char16_t
 )
 (
 i
@@ -5839,7 +5839,7 @@ valueStr
 +
 =
 (
-UChar
+char16_t
 )
 0x31
 ;
@@ -5847,7 +5847,7 @@ valueStr
 +
 =
 (
-UChar
+char16_t
 )
 (
 i
@@ -7165,7 +7165,7 @@ patPos
 +
 )
 {
-UChar
+char16_t
 patChr
 =
 patternForm
@@ -7277,12 +7277,12 @@ extraLen
 1
 )
 ;
-UChar
+char16_t
 hourChar
 =
 LOW_H
 ;
-UChar
+char16_t
 dayPeriodChar
 =
 LOW_A
@@ -8012,7 +8012,7 @@ return
 ;
 }
 const
-UChar
+char16_t
 *
 resStr
 ;
@@ -9494,7 +9494,7 @@ typeValue
 0
 )
 {
-UChar
+char16_t
 reqFieldChar
 =
 dtMatcher
@@ -9704,7 +9704,7 @@ length
 ;
 }
 }
-UChar
+char16_t
 c
 =
 (
@@ -11418,7 +11418,7 @@ PatternMap
 :
 getHeader
 (
-UChar
+char16_t
 baseChar
 )
 const
@@ -11574,7 +11574,7 @@ UErrorCode
 status
 )
 {
-UChar
+char16_t
 baseChar
 =
 basePattern
@@ -12079,7 +12079,7 @@ specifiedSkeletonPtr
 nullptr
 ;
 }
-UChar
+char16_t
 baseChar
 =
 skeleton
@@ -12639,7 +12639,6 @@ DateTimeMatcher
 :
 DateTimeMatcher
 (
-void
 )
 {
 }
@@ -12908,7 +12907,7 @@ field
 value
 )
 ;
-UChar
+char16_t
 repeatChar
 =
 row
@@ -13747,7 +13746,7 @@ DONE
 }
 do
 {
-UChar
+char16_t
 c
 =
 pattern
@@ -13979,7 +13978,7 @@ return
 1
 ;
 }
-UChar
+char16_t
 ch
 =
 s
@@ -14359,7 +14358,7 @@ length
 i
 )
 {
-UChar
+char16_t
 c
 =
 field
@@ -14959,7 +14958,7 @@ field
 0
 ;
 }
-UChar
+char16_t
 SkeletonFields
 :
 :
@@ -15034,7 +15033,7 @@ populate
 (
 int32_t
 field
-UChar
+char16_t
 ch
 int32_t
 length
@@ -15137,7 +15136,7 @@ string
 )
 const
 {
-UChar
+char16_t
 ch
 (
 chars
@@ -15183,7 +15182,7 @@ return
 string
 ;
 }
-UChar
+char16_t
 SkeletonFields
 :
 :
@@ -15510,7 +15509,7 @@ return
 result
 ;
 }
-UChar
+char16_t
 PtnSkeleton
 :
 :

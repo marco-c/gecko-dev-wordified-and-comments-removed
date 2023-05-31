@@ -1015,7 +1015,7 @@ t
 reverseMap
 =
 =
-NULL
+nullptr
 )
 {
 t
@@ -1048,7 +1048,7 @@ t
 reverseMap
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -1245,7 +1245,7 @@ if
 ext
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -2666,7 +2666,7 @@ UBool
 moveTarget
 !
 =
-NULL
+nullptr
 )
 intersectBase
 )
@@ -2683,7 +2683,7 @@ UBool
 moveTarget
 !
 =
-NULL
+nullptr
 )
 intersectBase
 )
@@ -2709,7 +2709,7 @@ NEEDS_MOVE
 ucm_moveMappings
 (
 ext
-NULL
+nullptr
 )
 ;
 ucm_moveMappings
@@ -2733,7 +2733,7 @@ if
 moveTarget
 !
 =
-NULL
+nullptr
 )
 {
 ucm_sortTable
@@ -4092,7 +4092,7 @@ U_ZERO_ERROR
 ;
 u_strFromUTF32
 (
-NULL
+nullptr
 0
 &
 u16Length
@@ -4393,7 +4393,7 @@ if
 table
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -4448,7 +4448,7 @@ if
 table
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -4505,7 +4505,7 @@ if
 table
 !
 =
-NULL
+nullptr
 )
 {
 table
@@ -4661,7 +4661,7 @@ table
 mappings
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -4703,7 +4703,7 @@ table
 reverseMap
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -4719,7 +4719,7 @@ table
 >
 reverseMap
 =
-NULL
+nullptr
 ;
 }
 }
@@ -4776,7 +4776,7 @@ table
 codePoints
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -4862,7 +4862,7 @@ table
 bytes
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -5240,7 +5240,7 @@ if
 ucm
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -5360,7 +5360,7 @@ if
 ucm
 !
 =
-NULL
+nullptr
 )
 {
 ucm_closeTable
@@ -5648,7 +5648,7 @@ if
 baseStates
 !
 =
-NULL
+nullptr
 )
 {
 type

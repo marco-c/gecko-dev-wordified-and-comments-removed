@@ -42,7 +42,7 @@ ARG_NUM_LIMIT
 0x100
 ;
 const
-UChar
+char16_t
 SEGMENT_LENGTH_PLACEHOLDER_CHAR
 =
 0xffff
@@ -100,7 +100,7 @@ length
 array
 =
 =
-NULL
+nullptr
 &
 &
 length
@@ -192,7 +192,7 @@ false
 ;
 }
 const
-UChar
+char16_t
 *
 patternBuffer
 =
@@ -216,7 +216,7 @@ compiledPattern
 setTo
 (
 (
-UChar
+char16_t
 )
 0
 )
@@ -250,7 +250,7 @@ patternLength
 ;
 )
 {
-UChar
+char16_t
 c
 =
 patternBuffer
@@ -372,7 +372,7 @@ textLength
 -
 1
 (
-UChar
+char16_t
 )
 (
 ARG_NUM_LIMIT
@@ -571,7 +571,7 @@ compiledPattern
 append
 (
 (
-UChar
+char16_t
 )
 argNumber
 )
@@ -639,7 +639,7 @@ textLength
 -
 1
 (
-UChar
+char16_t
 )
 (
 ARG_NUM_LIMIT
@@ -682,7 +682,7 @@ setCharAt
 (
 0
 (
-UChar
+char16_t
 )
 argCount
 )
@@ -729,7 +729,7 @@ formatAndAppend
 values
 1
 appendTo
-NULL
+nullptr
 0
 errorCode
 )
@@ -779,7 +779,7 @@ formatAndAppend
 values
 2
 appendTo
-NULL
+nullptr
 0
 errorCode
 )
@@ -835,7 +835,7 @@ formatAndAppend
 values
 3
 appendTo
-NULL
+nullptr
 0
 errorCode
 )
@@ -928,7 +928,7 @@ length
 )
 values
 appendTo
-NULL
+nullptr
 true
 offsets
 offsetsLength
@@ -1002,7 +1002,7 @@ result
 ;
 }
 const
-UChar
+char16_t
 *
 cp
 =
@@ -1189,7 +1189,7 @@ SimpleFormatter
 getTextWithNoArguments
 (
 const
-UChar
+char16_t
 *
 compiledPattern
 int32_t
@@ -1331,7 +1331,7 @@ SimpleFormatter
 format
 (
 const
-UChar
+char16_t
 *
 compiledPattern
 int32_t
@@ -1443,7 +1443,7 @@ if
 value
 =
 =
-NULL
+nullptr
 )
 {
 errorCode

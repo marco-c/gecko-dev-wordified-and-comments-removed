@@ -823,7 +823,7 @@ return
 context
 ;
 return
-NULL
+nullptr
 ;
 }
 U_CAPI
@@ -1113,7 +1113,7 @@ return
 context
 ;
 return
-NULL
+nullptr
 ;
 }
 U_CAPI

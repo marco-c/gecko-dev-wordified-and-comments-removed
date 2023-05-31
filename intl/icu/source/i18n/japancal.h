@@ -50,7 +50,6 @@ UBool
 U_EXPORT2
 enableTentativeEra
 (
-void
 )
 ;
 U_I18N_API
@@ -59,7 +58,6 @@ uint32_t
 U_EXPORT2
 getCurrentEra
 (
-void
 )
 ;
 JapaneseCalendar
@@ -133,7 +131,6 @@ virtual
 UClassID
 getDynamicClassID
 (
-void
 )
 const
 override
@@ -144,7 +141,6 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
-void
 )
 ;
 virtual

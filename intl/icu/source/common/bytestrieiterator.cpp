@@ -91,7 +91,7 @@ initialRemainingMatchLength_
 )
 str_
 (
-NULL
+nullptr
 )
 maxLength_
 (
@@ -103,7 +103,7 @@ value_
 )
 stack_
 (
-NULL
+nullptr
 )
 {
 if
@@ -144,13 +144,13 @@ errorCode
 str_
 =
 =
-NULL
+nullptr
 |
 |
 stack_
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -211,7 +211,7 @@ remainingMatchLength_
 )
 str_
 (
-NULL
+nullptr
 )
 maxLength_
 (
@@ -223,7 +223,7 @@ value_
 )
 stack_
 (
-NULL
+nullptr
 )
 {
 if
@@ -268,13 +268,13 @@ if
 str_
 =
 =
-NULL
+nullptr
 |
 |
 stack_
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -460,7 +460,7 @@ return
 pos_
 !
 =
-NULL
+nullptr
 |
 |
 !
@@ -510,7 +510,7 @@ if
 pos
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -620,7 +620,7 @@ if
 pos
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -731,7 +731,7 @@ maxLength_
 {
 pos_
 =
-NULL
+nullptr
 ;
 }
 else
@@ -812,7 +812,7 @@ if
 pos
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -923,7 +923,7 @@ return
 str_
 =
 =
-NULL
+nullptr
 ?
 StringPiece
 (
@@ -950,7 +950,7 @@ truncateAndStop
 {
 pos_
 =
-NULL
+nullptr
 ;
 value_
 =
@@ -1165,14 +1165,14 @@ isFinal
 {
 pos_
 =
-NULL
+nullptr
 ;
 value_
 =
 value
 ;
 return
-NULL
+nullptr
 ;
 }
 else

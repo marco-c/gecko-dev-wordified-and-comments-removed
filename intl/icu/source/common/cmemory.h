@@ -782,7 +782,7 @@ T
 *
 p
 =
-NULL
+nullptr
 )
 :
 LocalPointerBase
@@ -804,7 +804,7 @@ T
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 LocalPointerBase
 <
@@ -820,7 +820,7 @@ src
 .
 ptr
 =
-NULL
+nullptr
 ;
 }
 ~
@@ -856,7 +856,7 @@ T
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 uprv_free
 (
@@ -885,7 +885,7 @@ src
 .
 ptr
 =
-NULL
+nullptr
 ;
 return
 *
@@ -902,7 +902,7 @@ T
 &
 other
 )
-U_NOEXCEPT
+noexcept
 {
 T
 *
@@ -953,7 +953,7 @@ T
 &
 p2
 )
-U_NOEXCEPT
+noexcept
 {
 p1
 .
@@ -1095,7 +1095,7 @@ if
 p
 !
 =
-NULL
+nullptr
 )
 {
 uprv_memset
@@ -1139,7 +1139,7 @@ p
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1195,7 +1195,7 @@ if
 p
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1268,7 +1268,7 @@ p
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1293,7 +1293,7 @@ new
 (
 size_t
 )
-U_NOEXCEPT
+noexcept
 =
 delete
 ;
@@ -1308,7 +1308,7 @@ new
 (
 size_t
 )
-U_NOEXCEPT
+noexcept
 =
 delete
 ;
@@ -1326,7 +1326,7 @@ size_t
 void
 *
 )
-U_NOEXCEPT
+noexcept
 =
 delete
 ;
@@ -1419,7 +1419,7 @@ stackCapacity
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 MaybeStackArray
 <
@@ -1439,7 +1439,7 @@ stackCapacity
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 int32_t
 getCapacity
@@ -1528,7 +1528,7 @@ if
 otherArray
 !
 =
-NULL
+nullptr
 &
 &
 otherCapacity
@@ -1618,7 +1618,7 @@ capacity
 )
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1776,7 +1776,7 @@ stackCapacity
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 ptr
 (
@@ -1873,7 +1873,7 @@ stackCapacity
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 releaseArray
 (
@@ -2038,7 +2038,7 @@ if
 p
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2112,7 +2112,7 @@ p
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -2166,7 +2166,7 @@ length
 )
 {
 return
-NULL
+nullptr
 ;
 }
 else
@@ -2243,11 +2243,11 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 uprv_memcpy
@@ -2301,7 +2301,7 @@ new
 (
 size_t
 )
-U_NOEXCEPT
+noexcept
 =
 delete
 ;
@@ -2316,7 +2316,7 @@ new
 (
 size_t
 )
-U_NOEXCEPT
+noexcept
 =
 delete
 ;
@@ -2334,7 +2334,7 @@ size_t
 void
 *
 )
-U_NOEXCEPT
+noexcept
 =
 delete
 ;
@@ -2472,7 +2472,7 @@ if
 otherMemory
 !
 =
-NULL
+nullptr
 &
 &
 otherCapacity
@@ -2716,7 +2716,7 @@ if
 p
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2808,7 +2808,7 @@ p
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -2954,11 +2954,11 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 uprv_memcpy
@@ -3090,7 +3090,7 @@ MemoryPool
 &
 other
 )
-U_NOEXCEPT
+noexcept
 :
 fCount
 (
@@ -3128,7 +3128,7 @@ MemoryPool
 &
 other
 )
-U_NOEXCEPT
+noexcept
 {
 std
 :

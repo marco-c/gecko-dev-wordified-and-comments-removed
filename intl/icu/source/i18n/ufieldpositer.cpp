@@ -60,7 +60,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 FieldPositionIterator
@@ -77,7 +77,7 @@ if
 fpositer
 =
 =
-NULL
+nullptr
 )
 {
 *

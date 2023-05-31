@@ -190,7 +190,6 @@ virtual
 int32_t
 getContextLength
 (
-void
 )
 const
 ;

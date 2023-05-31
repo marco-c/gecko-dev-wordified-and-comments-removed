@@ -502,14 +502,14 @@ status
 )
 )
 return
-NULL
+nullptr
 ;
 const
 char
 *
 resultPtr
 =
-NULL
+nullptr
 ;
 int32_t
 resultLen
@@ -652,7 +652,7 @@ status
 U_BUFFER_OVERFLOW_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -716,7 +716,7 @@ if
 basename
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -1123,7 +1123,7 @@ if
 mem
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -1216,7 +1216,7 @@ if
 mem
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1455,7 +1455,7 @@ mem
 array
 !
 =
-NULL
+nullptr
 )
 {
 uprv_memcpy
@@ -1514,7 +1514,7 @@ mem
 array
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -1571,7 +1571,7 @@ char
 *
 p
 =
-NULL
+nullptr
 ;
 int32_t
 oldIndex
@@ -1654,7 +1654,7 @@ char
 *
 p
 =
-NULL
+nullptr
 ;
 int32_t
 oldIndex

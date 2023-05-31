@@ -85,7 +85,7 @@ if
 table
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -554,13 +554,13 @@ primaries
 int32_t
 options
 const
-UChar
+char16_t
 *
 left
 int32_t
 leftLength
 const
-UChar
+char16_t
 *
 right
 int32_t
@@ -810,7 +810,7 @@ table
 c
 leftPair
 left
-NULL
+nullptr
 leftIndex
 leftLength
 )
@@ -1014,7 +1014,7 @@ table
 c
 rightPair
 right
-NULL
+nullptr
 rightIndex
 rightLength
 )
@@ -1288,7 +1288,7 @@ table
 c
 leftPair
 left
-NULL
+nullptr
 leftIndex
 leftLength
 )
@@ -1432,7 +1432,7 @@ table
 c
 rightPair
 right
-NULL
+nullptr
 rightIndex
 rightLength
 )
@@ -1668,7 +1668,7 @@ table
 c
 leftPair
 left
-NULL
+nullptr
 leftIndex
 leftLength
 )
@@ -1752,7 +1752,7 @@ table
 c
 rightPair
 right
-NULL
+nullptr
 rightIndex
 rightLength
 )
@@ -2000,7 +2000,7 @@ table
 c
 leftPair
 left
-NULL
+nullptr
 leftIndex
 leftLength
 )
@@ -2084,7 +2084,7 @@ table
 c
 rightPair
 right
-NULL
+nullptr
 rightIndex
 rightLength
 )
@@ -2328,7 +2328,7 @@ table
 c
 leftPair
 left
-NULL
+nullptr
 leftIndex
 leftLength
 )
@@ -2411,7 +2411,7 @@ table
 c
 rightPair
 right
-NULL
+nullptr
 rightIndex
 rightLength
 )
@@ -2853,7 +2853,7 @@ nextPair
 table
 c
 leftPair
-NULL
+nullptr
 left
 leftIndex
 leftLength
@@ -3122,7 +3122,7 @@ nextPair
 table
 c
 rightPair
-NULL
+nullptr
 right
 rightIndex
 rightLength
@@ -3405,7 +3405,7 @@ nextPair
 table
 c
 leftPair
-NULL
+nullptr
 left
 leftIndex
 leftLength
@@ -3558,7 +3558,7 @@ nextPair
 table
 c
 rightPair
-NULL
+nullptr
 right
 rightIndex
 rightLength
@@ -3796,7 +3796,7 @@ nextPair
 table
 c
 leftPair
-NULL
+nullptr
 left
 leftIndex
 leftLength
@@ -3882,7 +3882,7 @@ nextPair
 table
 c
 rightPair
-NULL
+nullptr
 right
 rightIndex
 rightLength
@@ -4132,7 +4132,7 @@ nextPair
 table
 c
 leftPair
-NULL
+nullptr
 left
 leftIndex
 leftLength
@@ -4218,7 +4218,7 @@ nextPair
 table
 c
 rightPair
-NULL
+nullptr
 right
 rightIndex
 rightLength
@@ -4464,7 +4464,7 @@ nextPair
 table
 c
 leftPair
-NULL
+nullptr
 left
 leftIndex
 leftLength
@@ -4549,7 +4549,7 @@ nextPair
 table
 c
 rightPair
-NULL
+nullptr
 right
 rightIndex
 rightLength
@@ -5036,7 +5036,7 @@ c
 uint32_t
 ce
 const
-UChar
+char16_t
 *
 s16
 const
@@ -5167,7 +5167,7 @@ if
 s16
 !
 =
-NULL
+nullptr
 )
 {
 c2

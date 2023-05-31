@@ -89,7 +89,7 @@ NFRule
 )
 )
 :
-NULL
+nullptr
 )
 fCount
 (
@@ -156,14 +156,14 @@ return
 fStuff
 !
 =
-NULL
+nullptr
 ?
 fStuff
 [
 index
 ]
 :
-NULL
+nullptr
 ;
 }
 NFRule
@@ -179,11 +179,11 @@ if
 fStuff
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 NFRule
@@ -279,7 +279,7 @@ if
 fStuff
 !
 =
-NULL
+nullptr
 )
 {
 fStuff
@@ -331,7 +331,7 @@ fCount
 fStuff
 !
 =
-NULL
+nullptr
 )
 ?
 fStuff
@@ -341,7 +341,7 @@ fCount
 1
 ]
 :
-NULL
+nullptr
 ;
 }
 NFRule
@@ -353,7 +353,7 @@ release
 {
 add
 (
-NULL
+nullptr
 )
 ;
 NFRule
@@ -365,7 +365,7 @@ fStuff
 ;
 fStuff
 =
-NULL
+nullptr
 ;
 fCount
 =
@@ -389,7 +389,7 @@ NFRule
 *
 tmp
 =
-NULL
+nullptr
 ;
 int32_t
 size

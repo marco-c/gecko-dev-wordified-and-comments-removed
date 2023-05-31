@@ -223,7 +223,7 @@ define
 VARIABLE_DEF_OP
 (
 (
-UChar
+char16_t
 )
 0x003D
 )
@@ -237,7 +237,7 @@ define
 FORWARD_RULE_OP
 (
 (
-UChar
+char16_t
 )
 0x003E
 )
@@ -251,7 +251,7 @@ define
 REVERSE_RULE_OP
 (
 (
-UChar
+char16_t
 )
 0x003C
 )
@@ -265,7 +265,7 @@ define
 FWDREV_RULE_OP
 (
 (
-UChar
+char16_t
 )
 0x007E
 )
@@ -287,7 +287,7 @@ define
 QUOTE
 (
 (
-UChar
+char16_t
 )
 0x0027
 )
@@ -301,7 +301,7 @@ define
 ESCAPE
 (
 (
-UChar
+char16_t
 )
 0x005C
 )
@@ -315,7 +315,7 @@ define
 END_OF_RULE
 (
 (
-UChar
+char16_t
 )
 0x003B
 )
@@ -329,7 +329,7 @@ define
 RULE_COMMENT_CHAR
 (
 (
-UChar
+char16_t
 )
 0x0023
 )
@@ -343,7 +343,7 @@ define
 SEGMENT_OPEN
 (
 (
-UChar
+char16_t
 )
 0x0028
 )
@@ -357,7 +357,7 @@ define
 SEGMENT_CLOSE
 (
 (
-UChar
+char16_t
 )
 0x0029
 )
@@ -371,7 +371,7 @@ define
 CONTEXT_ANTE
 (
 (
-UChar
+char16_t
 )
 0x007B
 )
@@ -385,7 +385,7 @@ define
 CONTEXT_POST
 (
 (
-UChar
+char16_t
 )
 0x007D
 )
@@ -399,7 +399,7 @@ define
 CURSOR_POS
 (
 (
-UChar
+char16_t
 )
 0x007C
 )
@@ -413,7 +413,7 @@ define
 CURSOR_OFFSET
 (
 (
-UChar
+char16_t
 )
 0x0040
 )
@@ -426,7 +426,7 @@ define
 ANCHOR_START
 (
 (
-UChar
+char16_t
 )
 0x005E
 )
@@ -440,7 +440,7 @@ define
 KLEENE_STAR
 (
 (
-UChar
+char16_t
 )
 0x002A
 )
@@ -454,7 +454,7 @@ define
 ONE_OR_MORE
 (
 (
-UChar
+char16_t
 )
 0x002B
 )
@@ -468,7 +468,7 @@ define
 ZERO_OR_ONE
 (
 (
-UChar
+char16_t
 )
 0x003F
 )
@@ -482,7 +482,7 @@ define
 DOT
 (
 (
-UChar
+char16_t
 )
 46
 )
@@ -493,7 +493,7 @@ UChar
 /
 static
 const
-UChar
+char16_t
 DOT_SET
 [
 ]
@@ -527,7 +527,7 @@ define
 FUNCTION
 (
 (
-UChar
+char16_t
 )
 38
 )
@@ -541,7 +541,7 @@ define
 ALT_REVERSE_RULE_OP
 (
 (
-UChar
+char16_t
 )
 0x2190
 )
@@ -554,7 +554,7 @@ define
 ALT_FORWARD_RULE_OP
 (
 (
-UChar
+char16_t
 )
 0x2192
 )
@@ -567,7 +567,7 @@ define
 ALT_FWDREV_RULE_OP
 (
 (
-UChar
+char16_t
 )
 0x2194
 )
@@ -581,7 +581,7 @@ define
 ALT_FUNCTION
 (
 (
-UChar
+char16_t
 )
 0x2206
 )
@@ -596,7 +596,7 @@ Delta
 )
 static
 const
-UChar
+char16_t
 ILLEGAL_TOP
 [
 ]
@@ -608,7 +608,7 @@ ILLEGAL_TOP
 ;
 static
 const
-UChar
+char16_t
 ILLEGAL_SEG
 [
 ]
@@ -623,7 +623,7 @@ ILLEGAL_SEG
 ;
 static
 const
-UChar
+char16_t
 ILLEGAL_FUNC
 [
 ]
@@ -644,7 +644,7 @@ ILLEGAL_FUNC
 ;
 static
 const
-UChar
+char16_t
 gOPERATORS
 [
 ]
@@ -661,7 +661,7 @@ ALT_FWDREV_RULE_OP
 ;
 static
 const
-UChar
+char16_t
 HALF_ENDERS
 [
 ]
@@ -686,7 +686,7 @@ ID_TOKEN_LEN
 ;
 static
 const
-UChar
+char16_t
 ID_TOKEN
 [
 ]
@@ -920,7 +920,7 @@ UnicodeFunctor
 *
 set
 =
-NULL
+nullptr
 ;
 int32_t
 i
@@ -1034,7 +1034,7 @@ i
 limit
 )
 {
-UChar
+char16_t
 c
 =
 text
@@ -1166,7 +1166,7 @@ return
 f
 !
 =
-NULL
+nullptr
 &
 &
 f
@@ -1177,7 +1177,7 @@ toMatcher
 )
 !
 =
-NULL
+nullptr
 ;
 }
 return
@@ -1242,7 +1242,7 @@ return
 f
 !
 =
-NULL
+nullptr
 &
 &
 f
@@ -1253,7 +1253,7 @@ toReplacer
 )
 !
 =
-NULL
+nullptr
 ;
 }
 return
@@ -1645,7 +1645,7 @@ limit
 done
 )
 {
-UChar
+char16_t
 c
 =
 rule
@@ -1680,7 +1680,7 @@ c
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2214,7 +2214,7 @@ if
 m
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2292,7 +2292,7 @@ if
 single
 =
 =
-NULL
+nullptr
 |
 |
 !
@@ -2336,7 +2336,7 @@ if
 t
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2416,7 +2416,7 @@ if
 r
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2769,7 +2769,7 @@ if
 m
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2838,7 +2838,7 @@ if
 m
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -3430,15 +3430,15 @@ uprv_deleteUObject
 ;
 curData
 =
-NULL
+nullptr
 ;
 compoundFilter
 =
-NULL
+nullptr
 ;
 parseData
 =
-NULL
+nullptr
 ;
 variableNames
 .
@@ -3565,7 +3565,7 @@ compoundFilter
 ;
 compoundFilter
 =
-NULL
+nullptr
 ;
 return
 f
@@ -3664,7 +3664,7 @@ removeAllElements
 ;
 curData
 =
-NULL
+nullptr
 ;
 direction
 =
@@ -3679,7 +3679,7 @@ compoundFilter
 ;
 compoundFilter
 =
-NULL
+nullptr
 ;
 while
 (
@@ -3727,7 +3727,7 @@ if
 parseData
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -3740,7 +3740,7 @@ return
 dotStandIn
 =
 (
-UChar
+char16_t
 )
 -
 1
@@ -3749,7 +3749,7 @@ UnicodeString
 *
 tempstr
 =
-NULL
+nullptr
 ;
 UnicodeString
 str
@@ -3773,7 +3773,7 @@ length
 ;
 compoundFilter
 =
-NULL
+nullptr
 ;
 int32_t
 compoundFilterOffset
@@ -3794,7 +3794,7 @@ status
 )
 )
 {
-UChar
+char16_t
 c
 =
 rule
@@ -3835,7 +3835,7 @@ rule
 indexOf
 (
 (
-UChar
+char16_t
 )
 0x000A
 pos
@@ -3961,7 +3961,7 @@ if
 curData
 !
 =
-NULL
+nullptr
 )
 {
 U_ASSERT
@@ -4013,7 +4013,7 @@ curData
 }
 curData
 =
-NULL
+nullptr
 ;
 }
 parsingIDs
@@ -4126,7 +4126,7 @@ rule
 p
 direction
 withParens
-NULL
+nullptr
 )
 ;
 if
@@ -4134,7 +4134,7 @@ if
 f
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -4171,7 +4171,7 @@ if
 compoundFilter
 !
 =
-NULL
+nullptr
 )
 {
 syntaxError
@@ -4245,7 +4245,7 @@ if
 tempstr
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -4323,7 +4323,7 @@ if
 curData
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -4432,7 +4432,7 @@ if
 tempstr
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -4489,7 +4489,7 @@ parsingIDs
 curData
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -4650,7 +4650,7 @@ data
 variables
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -4746,7 +4746,7 @@ while
 he
 !
 =
-NULL
+nullptr
 )
 {
 UnicodeString
@@ -4778,7 +4778,7 @@ if
 tempus
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -4836,7 +4836,7 @@ if
 compoundFilter
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -5003,7 +5003,7 @@ curData
 variablesBase
 =
 (
-UChar
+char16_t
 )
 start
 ;
@@ -5022,14 +5022,14 @@ size
 variableNext
 =
 (
-UChar
+char16_t
 )
 start
 ;
 variableLimit
 =
 (
-UChar
+char16_t
 )
 (
 end
@@ -5090,7 +5090,7 @@ UNormalizationMode
 }
 static
 const
-UChar
+char16_t
 PRAGMA_USE
 [
 ]
@@ -5105,7 +5105,7 @@ PRAGMA_USE
 ;
 static
 const
-UChar
+char16_t
 PRAGMA_VARIABLE_RANGE
 [
 ]
@@ -5137,7 +5137,7 @@ PRAGMA_VARIABLE_RANGE
 ;
 static
 const
-UChar
+char16_t
 PRAGMA_MAXIMUM_BACKUP
 [
 ]
@@ -5167,7 +5167,7 @@ PRAGMA_MAXIMUM_BACKUP
 ;
 static
 const
-UChar
+char16_t
 PRAGMA_NFD_RULES
 [
 ]
@@ -5190,7 +5190,7 @@ PRAGMA_NFD_RULES
 ;
 static
 const
-UChar
+char16_t
 PRAGMA_NFC_RULES
 [
 ]
@@ -5242,7 +5242,7 @@ true
 PRAGMA_USE
 4
 )
-NULL
+nullptr
 )
 >
 =
@@ -5382,7 +5382,7 @@ PRAGMA_NFD_RULES
 -
 1
 )
-NULL
+nullptr
 )
 ;
 if
@@ -5419,7 +5419,7 @@ PRAGMA_NFC_RULES
 -
 1
 )
-NULL
+nullptr
 )
 ;
 if
@@ -5468,7 +5468,7 @@ start
 =
 pos
 ;
-UChar
+char16_t
 op
 =
 0
@@ -5572,7 +5572,7 @@ pos
 )
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -5845,7 +5845,7 @@ if
 value
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -5992,7 +5992,7 @@ i
 )
 =
 =
-NULL
+nullptr
 )
 {
 syntaxError
@@ -6236,7 +6236,7 @@ UnicodeFunctor
 *
 segmentsArray
 =
-NULL
+nullptr
 ;
 if
 (
@@ -6276,7 +6276,7 @@ if
 segmentsArray
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -6356,7 +6356,7 @@ if
 temptr
 =
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -6521,7 +6521,7 @@ return
 pos
 ;
 }
-UChar
+char16_t
 TransliteratorParser
 :
 :
@@ -6558,7 +6558,7 @@ if
 set
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -6567,7 +6567,7 @@ U_MEMORY_ALLOCATION_ERROR
 ;
 return
 (
-UChar
+char16_t
 )
 0x0000
 ;
@@ -6587,7 +6587,7 @@ status
 )
 ;
 }
-UChar
+char16_t
 TransliteratorParser
 :
 :
@@ -6636,7 +6636,7 @@ adopted
 {
 return
 (
-UChar
+char16_t
 )
 (
 curData
@@ -6697,7 +6697,7 @@ variableNext
 +
 ;
 }
-UChar
+char16_t
 TransliteratorParser
 :
 :
@@ -6710,7 +6710,7 @@ UErrorCode
 status
 )
 {
-UChar
+char16_t
 empty
 =
 curData
@@ -6739,7 +6739,7 @@ empty
 )
 ;
 }
-UChar
+char16_t
 c
 =
 segmentStandins
@@ -6789,7 +6789,7 @@ addElement
 void
 *
 )
-NULL
+nullptr
 status
 )
 ;
@@ -6881,7 +6881,7 @@ seg
 )
 !
 =
-NULL
+nullptr
 |
 |
 variablesVector
@@ -6892,7 +6892,7 @@ index
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -6930,7 +6930,7 @@ index
 )
 ;
 }
-UChar
+char16_t
 TransliteratorParser
 :
 :
@@ -6947,7 +6947,7 @@ dotStandIn
 =
 =
 (
-UChar
+char16_t
 )
 -
 1
@@ -6975,7 +6975,7 @@ if
 tempus
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -6984,7 +6984,7 @@ U_MEMORY_ALLOCATION_ERROR
 ;
 return
 (
-UChar
+char16_t
 )
 0x0000
 ;
@@ -7042,7 +7042,7 @@ if
 s
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -7081,7 +7081,7 @@ buf
 append
 (
 (
-UChar
+char16_t
 )
 -
 -
@@ -7117,12 +7117,12 @@ int32_t
 utrans_stripRules
 (
 const
-UChar
+char16_t
 *
 source
 int32_t
 sourceLen
-UChar
+char16_t
 *
 target
 UErrorCode
@@ -7132,14 +7132,14 @@ status
 {
 U_NAMESPACE_USE
 const
-UChar
+char16_t
 *
 targetStart
 =
 target
 ;
 const
-UChar
+char16_t
 *
 sourceLimit
 =
@@ -7147,7 +7147,7 @@ source
 +
 sourceLen
 ;
-UChar
+char16_t
 *
 targetLimit
 =

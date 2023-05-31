@@ -74,7 +74,7 @@ source
 CompactDecimalFormat
 (
 )
-U_OVERRIDE
+override
 ;
 CompactDecimalFormat
 &
@@ -93,7 +93,7 @@ clone
 (
 )
 const
-U_OVERRIDE
+override
 ;
 using
 DecimalFormat
@@ -116,7 +116,7 @@ ParsePosition
 parsePosition
 )
 const
-U_OVERRIDE
+override
 ;
 void
 parse
@@ -133,7 +133,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 #
 ifndef
@@ -151,7 +151,7 @@ ParsePosition
 pos
 )
 const
-U_OVERRIDE
+override
 ;
 #
 endif
@@ -167,7 +167,7 @@ getDynamicClassID
 (
 )
 const
-U_OVERRIDE
+override
 ;
 private
 :

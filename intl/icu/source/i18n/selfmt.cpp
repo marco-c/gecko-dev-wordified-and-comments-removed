@@ -144,7 +144,7 @@ SelectFormat
 )
 static
 const
-UChar
+char16_t
 SELECT_KEYWORD_OTHER
 [
 ]
@@ -247,7 +247,7 @@ msgPattern
 parseSelectStyle
 (
 newPattern
-NULL
+nullptr
 status
 )
 ;
@@ -816,12 +816,15 @@ SelectFormat
 &
 o
 =
-(
+static_cast
+<
 const
 SelectFormat
 &
-)
+>
+(
 other
+)
 ;
 return
 msgPattern

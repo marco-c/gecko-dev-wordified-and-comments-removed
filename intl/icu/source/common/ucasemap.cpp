@@ -211,7 +211,7 @@ if
 UCONFIG_NO_BREAK_ITERATION
 iter
 (
-NULL
+nullptr
 )
 #
 endif
@@ -277,7 +277,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UCaseMap
@@ -297,7 +297,7 @@ if
 csm
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -306,7 +306,7 @@ pErrorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 else
@@ -323,7 +323,7 @@ delete
 csm
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -416,7 +416,7 @@ if
 locale
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -628,7 +628,7 @@ cpLength
 int32_t
 result
 const
-UChar
+char16_t
 *
 s
 ByteSink
@@ -667,7 +667,7 @@ if
 edits
 !
 =
-NULL
+nullptr
 )
 {
 edits
@@ -1594,7 +1594,7 @@ break
 ;
 }
 const
-UChar
+char16_t
 *
 s
 ;
@@ -2312,7 +2312,7 @@ cpLimit
 srcIndex
 ;
 const
-UChar
+char16_t
 *
 s
 ;
@@ -3084,7 +3084,7 @@ cpLimit
 titleLimit
 ;
 const
-UChar
+char16_t
 *
 s
 ;
@@ -4036,7 +4036,7 @@ if
 edits
 !
 =
-NULL
+nullptr
 )
 {
 edits
@@ -4057,7 +4057,7 @@ if
 edits
 !
 =
-NULL
+nullptr
 )
 {
 edits
@@ -4175,7 +4175,7 @@ c
 )
 {
 const
-UChar
+char16_t
 *
 s
 ;
@@ -4184,8 +4184,8 @@ c
 ucase_toFullUpper
 (
 c
-NULL
-NULL
+nullptr
+nullptr
 &
 s
 UCASE_LOC_GREEK
@@ -4691,7 +4691,7 @@ destCapacity
 dest
 =
 =
-NULL
+nullptr
 &
 &
 destCapacity
@@ -4704,7 +4704,7 @@ destCapacity
 src
 =
 =
-NULL
+nullptr
 &
 &
 srcLength
@@ -4758,7 +4758,7 @@ if
 dest
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -4959,7 +4959,7 @@ destCapacity
 src
 srcLength
 ucasemap_internalUTF8ToLower
-NULL
+nullptr
 *
 pErrorCode
 )
@@ -5007,7 +5007,7 @@ destCapacity
 src
 srcLength
 ucasemap_internalUTF8ToUpper
-NULL
+nullptr
 *
 pErrorCode
 )
@@ -5052,7 +5052,7 @@ destCapacity
 src
 srcLength
 ucasemap_internalUTF8Fold
-NULL
+nullptr
 *
 pErrorCode
 )

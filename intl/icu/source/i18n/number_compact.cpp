@@ -95,7 +95,7 @@ impl
 namespace
 {
 const
-UChar
+char16_t
 *
 USE_FALLBACK
 =
@@ -227,7 +227,7 @@ int32_t
 countZeros
 (
 const
-UChar
+char16_t
 *
 patternString
 int32_t
@@ -613,7 +613,7 @@ magnitude
 ;
 }
 const
-UChar
+char16_t
 *
 CompactData
 :
@@ -657,7 +657,7 @@ largestMagnitude
 ;
 }
 const
-UChar
+char16_t
 *
 patternString
 =
@@ -903,7 +903,7 @@ pattern
 static_cast
 <
 const
-UChar
+char16_t
 *
 >
 (
@@ -929,7 +929,7 @@ addElement
 (
 const_cast
 <
-UChar
+char16_t
 *
 >
 (
@@ -1144,7 +1144,7 @@ int32_t
 patternLength
 ;
 const
-UChar
+char16_t
 *
 patternString
 =
@@ -1549,7 +1549,7 @@ patternString
 static_cast
 <
 const
-UChar
+char16_t
 *
 >
 (
@@ -1752,7 +1752,7 @@ multiplier
 ;
 }
 const
-UChar
+char16_t
 *
 patternString
 =

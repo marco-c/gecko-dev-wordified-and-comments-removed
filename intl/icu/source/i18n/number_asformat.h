@@ -121,7 +121,7 @@ locale
 LocalizedNumberFormatterAsFormat
 (
 )
-U_OVERRIDE
+override
 ;
 bool
 operator
@@ -134,7 +134,7 @@ Format
 other
 )
 const
-U_OVERRIDE
+override
 ;
 LocalizedNumberFormatterAsFormat
 *
@@ -142,7 +142,7 @@ clone
 (
 )
 const
-U_OVERRIDE
+override
 ;
 UnicodeString
 &
@@ -163,7 +163,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 UnicodeString
 &
@@ -184,7 +184,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 void
 parseObject
@@ -201,7 +201,7 @@ ParsePosition
 parse_pos
 )
 const
-U_OVERRIDE
+override
 ;
 const
 LocalizedNumberFormatter
@@ -216,7 +216,7 @@ getDynamicClassID
 (
 )
 const
-U_OVERRIDE
+override
 ;
 static
 UClassID

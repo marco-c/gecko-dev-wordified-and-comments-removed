@@ -183,7 +183,6 @@ UBool
 U_CALLCONV
 usearch_cleanup
 (
-void
 )
 {
 g_nfcImpl
@@ -237,7 +236,7 @@ uint16_t
 getFCD
 (
 const
-UChar
+char16_t
 *
 str
 int32_t
@@ -248,7 +247,7 @@ strlength
 )
 {
 const
-UChar
+char16_t
 *
 temp
 =
@@ -1240,7 +1239,7 @@ pattern
 )
 ;
 const
-UChar
+char16_t
 *
 patterntext
 =
@@ -1776,13 +1775,13 @@ U_EXPORT2
 usearch_open
 (
 const
-UChar
+char16_t
 *
 pattern
 int32_t
 patternlength
 const
-UChar
+char16_t
 *
 text
 int32_t
@@ -1924,13 +1923,13 @@ U_EXPORT2
 usearch_openFromCollator
 (
 const
-UChar
+char16_t
 *
 pattern
 int32_t
 patternlength
 const
-UChar
+char16_t
 *
 text
 int32_t
@@ -3276,7 +3275,7 @@ const
 UStringSearch
 *
 strsrch
-UChar
+char16_t
 *
 result
 int32_t
@@ -3411,7 +3410,7 @@ copylength
 *
 sizeof
 (
-UChar
+char16_t
 )
 )
 ;
@@ -3575,7 +3574,7 @@ UStringSearch
 *
 strsrch
 const
-UChar
+char16_t
 *
 text
 int32_t
@@ -3775,7 +3774,7 @@ endif
 }
 U_CAPI
 const
-UChar
+char16_t
 *
 U_EXPORT2
 usearch_getText
@@ -4163,7 +4162,7 @@ UStringSearch
 *
 strsrch
 const
-UChar
+char16_t
 *
 pattern
 int32_t
@@ -4266,7 +4265,7 @@ status
 }
 U_CAPI
 const
-UChar
+char16_t
 *
 U_EXPORT2
 usearch_getPattern
@@ -5779,7 +5778,7 @@ elementComparisonType
 )
 {
 const
-UChar
+char16_t
 *
 patText
 =
@@ -5796,7 +5795,7 @@ patText
 )
 {
 const
-UChar
+char16_t
 *
 patTextLimit
 =
@@ -5816,7 +5815,7 @@ patText
 patTextLimit
 )
 {
-UChar
+char16_t
 c
 =
 *
@@ -6228,7 +6227,7 @@ startIndex
 if
 0
 const
-UChar
+char16_t
 *
 text
 =
@@ -6460,7 +6459,7 @@ true
 if
 0
 const
-UChar
+char16_t
 *
 text
 =

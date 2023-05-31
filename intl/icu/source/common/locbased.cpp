@@ -80,7 +80,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 switch
@@ -107,7 +107,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 }

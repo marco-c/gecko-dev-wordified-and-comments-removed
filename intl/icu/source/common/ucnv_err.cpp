@@ -402,7 +402,7 @@ UConverterFromUnicodeArgs
 *
 fromUArgs
 const
-UChar
+char16_t
 *
 codeUnits
 int32_t
@@ -530,7 +530,7 @@ UConverterFromUnicodeArgs
 *
 fromUArgs
 const
-UChar
+char16_t
 *
 codeUnits
 int32_t
@@ -593,7 +593,7 @@ if
 context
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -638,7 +638,7 @@ UConverterFromUnicodeArgs
 *
 fromArgs
 const
-UChar
+char16_t
 *
 codeUnits
 int32_t
@@ -696,7 +696,7 @@ if
 context
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -748,7 +748,7 @@ UConverterFromUnicodeArgs
 *
 fromArgs
 const
-UChar
+char16_t
 *
 codeUnits
 int32_t
@@ -762,7 +762,7 @@ UErrorCode
 err
 )
 {
-UChar
+char16_t
 valueString
 [
 VALUE_STRING_LENGTH
@@ -779,11 +779,11 @@ i
 0
 ;
 const
-UChar
+char16_t
 *
 myValueSource
 =
-NULL
+nullptr
 ;
 UErrorCode
 err2
@@ -793,7 +793,7 @@ U_ZERO_ERROR
 UConverterFromUCallback
 original
 =
-NULL
+nullptr
 ;
 const
 void
@@ -803,7 +803,7 @@ originalContext
 UConverterFromUCallback
 ignoredCallback
 =
-NULL
+nullptr
 ;
 const
 void
@@ -853,7 +853,7 @@ converter
 UConverterFromUCallback
 )
 UCNV_FROM_U_CALLBACK_SUBSTITUTE
-NULL
+nullptr
 &
 original
 &
@@ -883,7 +883,7 @@ if
 context
 =
 =
-NULL
+nullptr
 )
 {
 while
@@ -901,7 +901,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_PERCENT_SIGN_CODEPOINT
 ;
@@ -913,7 +913,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_U_CODEPOINT
 ;
@@ -975,7 +975,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_RS_CODEPOINT
 ;
@@ -987,7 +987,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_U_LOW_CODEPOINT
 ;
@@ -1029,7 +1029,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_RS_CODEPOINT
 ;
@@ -1049,7 +1049,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_U_CODEPOINT
 ;
@@ -1080,7 +1080,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_U_LOW_CODEPOINT
 ;
@@ -1120,7 +1120,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_AMP_CODEPOINT
 ;
@@ -1132,7 +1132,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_HASH_CODEPOINT
 ;
@@ -1194,7 +1194,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_SEMICOLON_CODEPOINT
 ;
@@ -1211,7 +1211,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_AMP_CODEPOINT
 ;
@@ -1223,7 +1223,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_HASH_CODEPOINT
 ;
@@ -1235,7 +1235,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_X_LOW_CODEPOINT
 ;
@@ -1297,7 +1297,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_SEMICOLON_CODEPOINT
 ;
@@ -1314,7 +1314,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_LEFT_CURLY_CODEPOINT
 ;
@@ -1326,7 +1326,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_U_CODEPOINT
 ;
@@ -1338,7 +1338,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_PLUS_CODEPOINT
 ;
@@ -1400,7 +1400,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_RIGHT_CURLY_CODEPOINT
 ;
@@ -1417,7 +1417,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_RS_CODEPOINT
 ;
@@ -1445,7 +1445,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_SPACE_CODEPOINT
 ;
@@ -1468,7 +1468,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_PERCENT_SIGN_CODEPOINT
 ;
@@ -1480,7 +1480,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_U_CODEPOINT
 ;
@@ -1620,7 +1620,7 @@ if
 context
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -1700,7 +1700,7 @@ if
 context
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -1764,7 +1764,7 @@ UErrorCode
 err
 )
 {
-UChar
+char16_t
 uniValueString
 [
 VALUE_STRING_LENGTH
@@ -1795,7 +1795,7 @@ if
 context
 =
 =
-NULL
+nullptr
 )
 {
 while
@@ -1813,7 +1813,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_PERCENT_SIGN_CODEPOINT
 ;
@@ -1825,7 +1825,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_X_CODEPOINT
 ;
@@ -1887,7 +1887,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_AMP_CODEPOINT
 ;
@@ -1899,7 +1899,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_HASH_CODEPOINT
 ;
@@ -1935,7 +1935,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_SEMICOLON_CODEPOINT
 ;
@@ -1960,7 +1960,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_AMP_CODEPOINT
 ;
@@ -1972,7 +1972,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_HASH_CODEPOINT
 ;
@@ -1984,7 +1984,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_X_LOW_CODEPOINT
 ;
@@ -2020,7 +2020,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_SEMICOLON_CODEPOINT
 ;
@@ -2045,7 +2045,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_RS_CODEPOINT
 ;
@@ -2057,7 +2057,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_X_LOW_CODEPOINT
 ;
@@ -2105,7 +2105,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_PERCENT_SIGN_CODEPOINT
 ;
@@ -2117,7 +2117,7 @@ valueStringLength
 ]
 =
 (
-UChar
+char16_t
 )
 UNICODE_X_CODEPOINT
 ;

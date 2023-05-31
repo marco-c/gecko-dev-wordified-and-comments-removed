@@ -366,7 +366,7 @@ Locale
 &
 other
 )
-U_NOEXCEPT
+noexcept
 ;
 virtual
 ~
@@ -395,7 +395,7 @@ Locale
 &
 other
 )
-U_NOEXCEPT
+noexcept
 ;
 bool
 operator

@@ -56,7 +56,7 @@ caseMap
 (
 ustrcase_getCaseLocale
 (
-NULL
+nullptr
 )
 0
 UCASEMAP_BREAK_ITERATOR_NULL
@@ -108,7 +108,7 @@ caseMap
 (
 ustrcase_getCaseLocale
 (
-NULL
+nullptr
 )
 0
 UCASEMAP_BREAK_ITERATOR_NULL

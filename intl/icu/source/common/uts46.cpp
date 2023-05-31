@@ -118,7 +118,7 @@ dest
 )
 {
 const
-UChar
+char16_t
 *
 s
 =
@@ -129,7 +129,7 @@ getBuffer
 )
 ;
 const
-UChar
+char16_t
 *
 limit
 =
@@ -172,7 +172,7 @@ UBool
 isASCIIOkBiDi
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -732,7 +732,7 @@ void
 checkLabelBiDi
 (
 const
-UChar
+char16_t
 *
 label
 int32_t
@@ -747,7 +747,7 @@ UBool
 isLabelOkContextJ
 (
 const
-UChar
+char16_t
 *
 label
 int32_t
@@ -759,7 +759,7 @@ void
 checkLabelContextO
 (
 const
-UChar
+char16_t
 *
 label
 int32_t
@@ -818,7 +818,7 @@ if
 idna
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -840,7 +840,7 @@ idna
 ;
 idna
 =
-NULL
+nullptr
 ;
 }
 return
@@ -850,7 +850,7 @@ idna
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -874,7 +874,7 @@ Normalizer2
 :
 getInstance
 (
-NULL
+nullptr
 "
 uts46
 "
@@ -1470,7 +1470,7 @@ dest
 ;
 }
 const
-UChar
+char16_t
 *
 srcArray
 =
@@ -1493,7 +1493,7 @@ src
 srcArray
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1550,7 +1550,7 @@ return
 dest
 ;
 }
-UChar
+char16_t
 *
 destArray
 =
@@ -1566,7 +1566,7 @@ if
 destArray
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1694,7 +1694,7 @@ return
 dest
 ;
 }
-UChar
+char16_t
 c
 =
 srcArray
@@ -2081,7 +2081,7 @@ if
 srcArray
 =
 =
-NULL
+nullptr
 &
 &
 srcLength
@@ -2842,7 +2842,7 @@ UIDNA_NONTRANSITIONAL_TO_UNICODE
 0
 ;
 const
-UChar
+char16_t
 *
 destArray
 =
@@ -2873,7 +2873,7 @@ labelLimit
 destLength
 )
 {
-UChar
+char16_t
 c
 =
 destArray
@@ -3218,7 +3218,7 @@ length
 (
 )
 ;
-UChar
+char16_t
 *
 s
 =
@@ -3246,7 +3246,7 @@ if
 s
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -3281,7 +3281,7 @@ mappingStart
 ;
 do
 {
-UChar
+char16_t
 c
 =
 s
@@ -3351,7 +3351,7 @@ if
 s
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -3682,7 +3682,7 @@ UnicodeString
 labelString
 ;
 const
-UChar
+char16_t
 *
 label
 =
@@ -3803,7 +3803,7 @@ wasPunycode
 =
 true
 ;
-UChar
+char16_t
 *
 unicodeBuffer
 =
@@ -3820,7 +3820,7 @@ if
 unicodeBuffer
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -3853,7 +3853,7 @@ fromPunycode
 getCapacity
 (
 )
-NULL
+nullptr
 &
 punycodeErrorCode
 )
@@ -3887,7 +3887,7 @@ if
 unicodeBuffer
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -3918,7 +3918,7 @@ fromPunycode
 getCapacity
 (
 )
-NULL
+nullptr
 &
 punycodeErrorCode
 )
@@ -4146,18 +4146,18 @@ labelErrors
 UIDNA_ERROR_TRAILING_HYPHEN
 ;
 }
-UChar
+char16_t
 *
 s
 =
 (
-UChar
+char16_t
 *
 )
 label
 ;
 const
-UChar
+char16_t
 *
 limit
 =
@@ -4165,7 +4165,7 @@ label
 +
 labelLength
 ;
-UChar
+char16_t
 oredChars
 =
 0
@@ -4184,7 +4184,7 @@ UIDNA_USE_STD3_RULES
 ;
 do
 {
-UChar
+char16_t
 c
 =
 *
@@ -4353,7 +4353,7 @@ replace
 labelStart
 cpLength
 (
-UChar
+char16_t
 )
 0xfffd
 )
@@ -4543,7 +4543,7 @@ oredChars
 UnicodeString
 punycode
 ;
-UChar
+char16_t
 *
 buffer
 =
@@ -4559,7 +4559,7 @@ if
 buffer
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -4615,7 +4615,7 @@ getCapacity
 )
 -
 4
-NULL
+nullptr
 &
 errorCode
 )
@@ -4655,7 +4655,7 @@ if
 buffer
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -4682,7 +4682,7 @@ getCapacity
 )
 -
 4
-NULL
+nullptr
 &
 errorCode
 )
@@ -4858,7 +4858,7 @@ onlyLDH
 true
 ;
 const
-UChar
+char16_t
 *
 label
 =
@@ -4871,7 +4871,7 @@ getBuffer
 labelStart
 ;
 const
-UChar
+char16_t
 *
 limit
 =
@@ -4881,13 +4881,13 @@ labelLength
 ;
 for
 (
-UChar
+char16_t
 *
 s
 =
 const_cast
 <
-UChar
+char16_t
 *
 >
 (
@@ -4905,7 +4905,7 @@ limit
 s
 )
 {
-UChar
+char16_t
 c
 =
 *
@@ -5001,7 +5001,7 @@ labelStart
 +
 labelLength
 (
-UChar
+char16_t
 )
 0xfffd
 )
@@ -5190,7 +5190,7 @@ UTS46
 checkLabelBiDi
 (
 const
-UChar
+char16_t
 *
 label
 int32_t
@@ -5472,7 +5472,7 @@ UBool
 isASCIIOkBiDi
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -5500,7 +5500,7 @@ length
 i
 )
 {
-UChar
+char16_t
 c
 =
 s
@@ -5868,7 +5868,7 @@ UTS46
 isLabelOkContextJ
 (
 const
-UChar
+char16_t
 *
 label
 int32_t
@@ -6155,7 +6155,7 @@ UTS46
 checkLabelContextO
 (
 const
-UChar
+char16_t
 *
 label
 int32_t
@@ -6665,7 +6665,7 @@ if
 pInfo
 =
 =
-NULL
+nullptr
 |
 |
 pInfo
@@ -6691,7 +6691,7 @@ if
 label
 =
 =
-NULL
+nullptr
 ?
 length
 !
@@ -6709,7 +6709,7 @@ length
 dest
 =
 =
-NULL
+nullptr
 ?
 capacity
 !
@@ -6732,7 +6732,7 @@ label
 label
 !
 =
-NULL
+nullptr
 )
 )
 {
@@ -6818,12 +6818,12 @@ UIDNA
 *
 idna
 const
-UChar
+char16_t
 *
 label
 int32_t
 length
-UChar
+char16_t
 *
 dest
 int32_t
@@ -6928,12 +6928,12 @@ UIDNA
 *
 idna
 const
-UChar
+char16_t
 *
 label
 int32_t
 length
-UChar
+char16_t
 *
 dest
 int32_t
@@ -7038,12 +7038,12 @@ UIDNA
 *
 idna
 const
-UChar
+char16_t
 *
 name
 int32_t
 length
-UChar
+char16_t
 *
 dest
 int32_t
@@ -7148,12 +7148,12 @@ UIDNA
 *
 idna
 const
-UChar
+char16_t
 *
 name
 int32_t
 length
-UChar
+char16_t
 *
 dest
 int32_t

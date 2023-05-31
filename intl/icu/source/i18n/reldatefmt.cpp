@@ -986,7 +986,7 @@ len
 0
 ;
 const
-UChar
+char16_t
 *
 resStr
 =
@@ -1571,7 +1571,7 @@ s
 {
 static
 const
-UChar
+char16_t
 narrow
 [
 7
@@ -1589,7 +1589,7 @@ narrow
 ;
 static
 const
-UChar
+char16_t
 sshort
 [
 6
@@ -6202,7 +6202,7 @@ double
 offset
 URelativeDateTimeUnit
 unit
-UChar
+char16_t
 *
 result
 int32_t
@@ -6406,7 +6406,7 @@ double
 offset
 URelativeDateTimeUnit
 unit
-UChar
+char16_t
 *
 result
 int32_t
@@ -6607,18 +6607,18 @@ URelativeDateTimeFormatter
 *
 reldatefmt
 const
-UChar
+char16_t
 *
 relativeDateString
 int32_t
 relativeDateStringLen
 const
-UChar
+char16_t
 *
 timeString
 int32_t
 timeStringLen
-UChar
+char16_t
 *
 result
 int32_t

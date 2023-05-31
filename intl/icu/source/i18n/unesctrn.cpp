@@ -53,14 +53,14 @@ h
 U_NAMESPACE_BEGIN
 static
 const
-UChar
+char16_t
 END
 =
 0xFFFF
 ;
 static
 const
-UChar
+char16_t
 SPEC_Unicode
 [
 ]
@@ -78,7 +78,7 @@ END
 ;
 static
 const
-UChar
+char16_t
 SPEC_Java
 [
 ]
@@ -96,7 +96,7 @@ END
 ;
 static
 const
-UChar
+char16_t
 SPEC_C
 [
 ]
@@ -121,7 +121,7 @@ END
 ;
 static
 const
-UChar
+char16_t
 SPEC_XML
 [
 ]
@@ -141,7 +141,7 @@ END
 ;
 static
 const
-UChar
+char16_t
 SPEC_XML10
 [
 ]
@@ -160,7 +160,7 @@ END
 ;
 static
 const
-UChar
+char16_t
 SPEC_Perl
 [
 ]
@@ -180,7 +180,7 @@ END
 ;
 static
 const
-UChar
+char16_t
 SPEC_Any
 [
 ]
@@ -241,12 +241,12 @@ UOBJECT_DEFINE_RTTI_IMPLEMENTATION
 UnescapeTransliterator
 )
 static
-UChar
+char16_t
 *
 copySpec
 (
 const
-UChar
+char16_t
 *
 spec
 )
@@ -276,12 +276,12 @@ len
 +
 len
 ;
-UChar
+char16_t
 *
 result
 =
 (
-UChar
+char16_t
 *
 )
 uprv_malloc
@@ -290,7 +290,7 @@ len
 *
 sizeof
 (
-UChar
+char16_t
 )
 )
 ;
@@ -299,7 +299,7 @@ if
 result
 !
 =
-NULL
+nullptr
 )
 {
 uprv_memcpy
@@ -651,7 +651,7 @@ UnicodeString
 &
 newID
 const
-UChar
+char16_t
 *
 newSpec
 )
@@ -659,7 +659,7 @@ newSpec
 Transliterator
 (
 newID
-NULL
+nullptr
 )
 {
 this
@@ -903,7 +903,7 @@ break
 ;
 }
 }
-UChar
+char16_t
 c
 =
 text
@@ -1101,7 +1101,7 @@ false
 break
 ;
 }
-UChar
+char16_t
 c
 =
 text

@@ -133,16 +133,16 @@ segmentStandins
 UVector
 segmentObjects
 ;
-UChar
+char16_t
 variableNext
 ;
-UChar
+char16_t
 variableLimit
 ;
 UnicodeString
 undefinedVariableName
 ;
-UChar
+char16_t
 dotStandIn
 ;
 public
@@ -293,7 +293,7 @@ UErrorCode
 status
 )
 ;
-UChar
+char16_t
 parseSet
 (
 const
@@ -308,7 +308,7 @@ UErrorCode
 status
 )
 ;
-UChar
+char16_t
 generateStandInFor
 (
 UnicodeFunctor
@@ -319,7 +319,7 @@ UErrorCode
 status
 )
 ;
-UChar
+char16_t
 getSegmentStandin
 (
 int32_t
@@ -342,7 +342,7 @@ UErrorCode
 status
 )
 ;
-UChar
+char16_t
 getDotStandIn
 (
 UErrorCode

@@ -118,7 +118,7 @@ UHashtable
 *
 gTimeZoneNamesCache
 =
-NULL
+nullptr
 ;
 static
 UBool
@@ -165,7 +165,6 @@ UBool
 U_CALLCONV
 timeZoneNames_cleanup
 (
-void
 )
 {
 if
@@ -173,7 +172,7 @@ if
 gTimeZoneNamesCache
 !
 =
-NULL
+nullptr
 )
 {
 uhash_close
@@ -183,7 +182,7 @@ gTimeZoneNamesCache
 ;
 gTimeZoneNamesCache
 =
-NULL
+nullptr
 ;
 }
 gTimeZoneNamesCacheInitialized
@@ -625,7 +624,7 @@ uhash_open
 (
 uhash_hashChars
 uhash_compareChars
-NULL
+nullptr
 &
 status
 )
@@ -677,7 +676,7 @@ TimeZoneNamesCacheEntry
 *
 cacheEntry
 =
-NULL
+nullptr
 ;
 const
 char
@@ -707,20 +706,20 @@ if
 cacheEntry
 =
 =
-NULL
+nullptr
 )
 {
 TimeZoneNames
 *
 tznames
 =
-NULL
+nullptr
 ;
 char
 *
 newKey
 =
-NULL
+nullptr
 ;
 tznames
 =
@@ -736,7 +735,7 @@ if
 tznames
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -773,7 +772,7 @@ if
 newKey
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -818,7 +817,7 @@ if
 cacheEntry
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -878,7 +877,7 @@ if
 tznames
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -890,7 +889,7 @@ if
 newKey
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -904,7 +903,7 @@ if
 cacheEntry
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -915,7 +914,7 @@ cacheEntry
 }
 cacheEntry
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1100,7 +1099,7 @@ if
 other
 !
 =
-NULL
+nullptr
 )
 {
 umtx_lock
@@ -1500,7 +1499,7 @@ TimeZoneNames
 *
 instance
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1524,7 +1523,7 @@ if
 instance
 =
 =
-NULL
+nullptr
 &
 &
 U_SUCCESS
@@ -1563,7 +1562,7 @@ TimeZoneNames
 *
 instance
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1586,7 +1585,7 @@ if
 instance
 =
 =
-NULL
+nullptr
 &
 &
 U_SUCCESS
@@ -1670,7 +1669,7 @@ isEmpty
 )
 )
 {
-UChar
+char16_t
 mzIDBuf
 [
 32
@@ -1898,7 +1897,7 @@ if
 tzID
 !
 =
-NULL
+nullptr
 )
 {
 this
@@ -1979,7 +1978,7 @@ MatchInfoCollection
 :
 fMatches
 (
-NULL
+nullptr
 )
 {
 }
@@ -1999,7 +1998,7 @@ if
 fMatches
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -2053,7 +2052,7 @@ nameType
 matchLength
 &
 tzID
-NULL
+nullptr
 )
 status
 )
@@ -2136,7 +2135,7 @@ MatchInfo
 (
 nameType
 matchLength
-NULL
+nullptr
 &
 mzID
 )
@@ -2194,7 +2193,7 @@ if
 fMatches
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2471,7 +2470,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2479,7 +2478,7 @@ if
 fMatches
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -2492,7 +2491,7 @@ new
 UVector
 (
 deleteMatchInfo
-NULL
+nullptr
 status
 )
 ;
@@ -2501,7 +2500,7 @@ if
 fMatches
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -2523,7 +2522,7 @@ fMatches
 ;
 fMatches
 =
-NULL
+nullptr
 ;
 }
 return

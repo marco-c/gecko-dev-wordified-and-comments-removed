@@ -285,7 +285,7 @@ length
 i
 )
 {
-UChar
+char16_t
 cpat
 =
 pattern
@@ -295,7 +295,7 @@ charAt
 i
 )
 ;
-UChar
+char16_t
 c
 ;
 switch
@@ -420,7 +420,7 @@ return
 c
 =
 (
-UChar
+char16_t
 )
 u_tolower
 (

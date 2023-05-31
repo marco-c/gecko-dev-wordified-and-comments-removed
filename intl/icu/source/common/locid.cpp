@@ -177,7 +177,6 @@ UBool
 U_CALLCONV
 locale_cleanup
 (
-void
 )
 ;
 U_CDECL_END
@@ -187,7 +186,7 @@ Locale
 *
 gLocaleCache
 =
-NULL
+nullptr
 ;
 static
 UInitOnce
@@ -204,14 +203,14 @@ UHashtable
 *
 gDefaultLocalesHashT
 =
-NULL
+nullptr
 ;
 static
 Locale
 *
 gDefaultLocale
 =
-NULL
+nullptr
 ;
 #
 define
@@ -272,7 +271,6 @@ UBool
 U_CALLCONV
 locale_cleanup
 (
-void
 )
 {
 U_NAMESPACE_USE
@@ -283,7 +281,7 @@ gLocaleCache
 ;
 gLocaleCache
 =
-NULL
+nullptr
 ;
 gLocaleCacheInitOnce
 .
@@ -303,12 +301,12 @@ gDefaultLocalesHashT
 ;
 gDefaultLocalesHashT
 =
-NULL
+nullptr
 ;
 }
 gDefaultLocale
 =
-NULL
+nullptr
 ;
 return
 true
@@ -330,7 +328,7 @@ U_ASSERT
 gLocaleCache
 =
 =
-NULL
+nullptr
 )
 ;
 gLocaleCache
@@ -349,7 +347,7 @@ if
 gLocaleCache
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -658,7 +656,7 @@ if
 id
 =
 =
-NULL
+nullptr
 )
 {
 id
@@ -726,7 +724,7 @@ if
 gDefaultLocalesHashT
 =
 =
-NULL
+nullptr
 )
 {
 gDefaultLocalesHashT
@@ -735,7 +733,7 @@ uhash_open
 (
 uhash_hashChars
 uhash_compareChars
-NULL
+nullptr
 &
 status
 )
@@ -788,7 +786,7 @@ if
 newDefault
 =
 =
-NULL
+nullptr
 )
 {
 newDefault
@@ -807,7 +805,7 @@ if
 newDefault
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -900,7 +898,6 @@ char
 *
 locale_get_default
 (
-void
 )
 {
 U_NAMESPACE_USE
@@ -969,7 +966,7 @@ baseName
 }
 baseName
 =
-NULL
+nullptr
 ;
 if
 (
@@ -986,7 +983,7 @@ fullName
 ;
 fullName
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1006,12 +1003,12 @@ fullNameBuffer
 )
 baseName
 (
-NULL
+nullptr
 )
 {
 init
 (
-NULL
+nullptr
 false
 )
 ;
@@ -1036,7 +1033,7 @@ fullNameBuffer
 )
 baseName
 (
-NULL
+nullptr
 )
 {
 setToBogus
@@ -1076,7 +1073,7 @@ fullNameBuffer
 )
 baseName
 (
-NULL
+nullptr
 )
 {
 if
@@ -1085,7 +1082,7 @@ if
 newLanguage
 =
 =
-NULL
+nullptr
 )
 &
 &
@@ -1093,7 +1090,7 @@ NULL
 newCountry
 =
 =
-NULL
+nullptr
 )
 &
 &
@@ -1101,13 +1098,13 @@ NULL
 newVariant
 =
 =
-NULL
+nullptr
 )
 )
 {
 init
 (
-NULL
+nullptr
 false
 )
 ;
@@ -1144,7 +1141,7 @@ if
 newLanguage
 !
 =
-NULL
+nullptr
 )
 {
 lsize
@@ -1190,7 +1187,7 @@ if
 newCountry
 !
 =
-NULL
+nullptr
 )
 {
 csize
@@ -1228,7 +1225,7 @@ if
 newVariant
 !
 =
-NULL
+nullptr
 )
 {
 while
@@ -1309,7 +1306,7 @@ if
 newKeywords
 !
 =
-NULL
+nullptr
 )
 {
 ksize
@@ -1528,7 +1525,7 @@ fullNameBuffer
 )
 baseName
 (
-NULL
+nullptr
 )
 {
 *
@@ -1547,7 +1544,7 @@ Locale
 &
 other
 )
-U_NOEXCEPT
+noexcept
 :
 UObject
 (
@@ -1769,7 +1766,7 @@ Locale
 &
 other
 )
-U_NOEXCEPT
+noexcept
 {
 if
 (
@@ -8872,7 +8869,7 @@ baseName
 }
 baseName
 =
-NULL
+nullptr
 ;
 if
 (
@@ -8936,7 +8933,7 @@ if
 localeID
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -9251,13 +9248,13 @@ if
 separator
 !
 =
-NULL
+nullptr
 |
 |
 sep2
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -9265,14 +9262,14 @@ if
 separator
 =
 =
-NULL
+nullptr
 |
 |
 (
 sep2
 !
 =
-NULL
+nullptr
 &
 &
 separator
@@ -9695,7 +9692,7 @@ U_ASSERT
 baseName
 =
 =
-NULL
+nullptr
 |
 |
 baseName
@@ -9772,7 +9769,7 @@ if
 baseName
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -9877,7 +9874,7 @@ baseName
 }
 baseName
 =
-NULL
+nullptr
 ;
 if
 (
@@ -9950,7 +9947,7 @@ if
 gDefaultLocale
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -9968,7 +9965,7 @@ return
 *
 locale_set_default_internal
 (
-NULL
+nullptr
 status
 )
 ;
@@ -10622,7 +10619,6 @@ Locale
 :
 getRoot
 (
-void
 )
 {
 return
@@ -10641,7 +10637,6 @@ Locale
 :
 getEnglish
 (
-void
 )
 {
 return
@@ -10660,7 +10655,6 @@ Locale
 :
 getFrench
 (
-void
 )
 {
 return
@@ -10679,7 +10673,6 @@ Locale
 :
 getGerman
 (
-void
 )
 {
 return
@@ -10698,7 +10691,6 @@ Locale
 :
 getItalian
 (
-void
 )
 {
 return
@@ -10717,7 +10709,6 @@ Locale
 :
 getJapanese
 (
-void
 )
 {
 return
@@ -10736,7 +10727,6 @@ Locale
 :
 getKorean
 (
-void
 )
 {
 return
@@ -10755,7 +10745,6 @@ Locale
 :
 getChinese
 (
-void
 )
 {
 return
@@ -10774,7 +10763,6 @@ Locale
 :
 getSimplifiedChinese
 (
-void
 )
 {
 return
@@ -10793,7 +10781,6 @@ Locale
 :
 getTraditionalChinese
 (
-void
 )
 {
 return
@@ -10812,7 +10799,6 @@ Locale
 :
 getFrance
 (
-void
 )
 {
 return
@@ -10831,7 +10817,6 @@ Locale
 :
 getGermany
 (
-void
 )
 {
 return
@@ -10850,7 +10835,6 @@ Locale
 :
 getItaly
 (
-void
 )
 {
 return
@@ -10869,7 +10853,6 @@ Locale
 :
 getJapan
 (
-void
 )
 {
 return
@@ -10888,7 +10871,6 @@ Locale
 :
 getKorea
 (
-void
 )
 {
 return
@@ -10907,7 +10889,6 @@ Locale
 :
 getChina
 (
-void
 )
 {
 return
@@ -10926,7 +10907,6 @@ Locale
 :
 getPRC
 (
-void
 )
 {
 return
@@ -10945,7 +10925,6 @@ Locale
 :
 getTaiwan
 (
-void
 )
 {
 return
@@ -10964,7 +10943,6 @@ Locale
 :
 getUK
 (
-void
 )
 {
 return
@@ -10983,7 +10961,6 @@ Locale
 :
 getUS
 (
-void
 )
 {
 return
@@ -11002,7 +10979,6 @@ Locale
 :
 getCanada
 (
-void
 )
 {
 return
@@ -11021,7 +10997,6 @@ Locale
 :
 getCanadaFrench
 (
-void
 )
 {
 return
@@ -11073,7 +11048,7 @@ if
 localeCache
 =
 =
-NULL
+nullptr
 )
 {
 locid
@@ -11095,7 +11070,6 @@ Locale
 :
 getLocaleCache
 (
-void
 )
 {
 UErrorCode
@@ -11148,7 +11122,6 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
-void
 )
 {
 return
@@ -11163,7 +11136,6 @@ virtual
 UClassID
 getDynamicClassID
 (
-void
 )
 const
 override
@@ -11233,7 +11205,7 @@ if
 keys
 =
 =
-NULL
+nullptr
 |
 |
 keywordLen
@@ -11266,7 +11238,7 @@ if
 keywords
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -11452,7 +11424,7 @@ if
 resultLength
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -11469,7 +11441,7 @@ if
 resultLength
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -11480,7 +11452,7 @@ resultLength
 }
 result
 =
-NULL
+nullptr
 ;
 }
 return
@@ -11732,7 +11704,7 @@ StringEnumeration
 *
 result
 =
-NULL
+nullptr
 ;
 if
 (
@@ -11883,7 +11855,7 @@ StringEnumeration
 *
 result
 =
-NULL
+nullptr
 ;
 if
 (

@@ -117,7 +117,7 @@ start
 int32_t
 length
 const
-UChar
+char16_t
 *
 srcChars
 int32_t
@@ -152,7 +152,7 @@ if
 srcChars
 =
 =
-NULL
+nullptr
 )
 {
 srcStart
@@ -163,7 +163,7 @@ srcLength
 ;
 }
 const
-UChar
+char16_t
 *
 chars
 =
@@ -327,7 +327,7 @@ return
 this
 ;
 }
-UChar
+char16_t
 oldBuffer
 [
 2
@@ -335,7 +335,7 @@ oldBuffer
 US_STACKBUF_SIZE
 ]
 ;
-UChar
+char16_t
 *
 oldArray
 ;
@@ -387,7 +387,7 @@ oldLength
 US_STACKBUF_SIZE
 )
 {
-UChar
+char16_t
 *
 buffer
 =
@@ -506,7 +506,7 @@ buffer
 capacity
 oldArray
 oldLength
-NULL
+nullptr
 errorCode
 )
 ;
@@ -561,7 +561,7 @@ getArrayStart
 Edits
 edits
 ;
-UChar
+char16_t
 replacementChars
 [
 200
@@ -799,7 +799,7 @@ getCapacity
 )
 oldArray
 oldLength
-NULL
+nullptr
 errorCode
 )
 ;
@@ -892,7 +892,7 @@ if
 str
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -977,13 +977,13 @@ if
 str1
 =
 =
-NULL
+nullptr
 |
 |
 str2
 =
 =
-NULL
+nullptr
 )
 {
 return

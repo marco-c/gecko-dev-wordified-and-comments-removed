@@ -67,7 +67,7 @@ static
 int32_t
 adjustConfidence
 (
-UChar
+char16_t
 codeUnit
 int32_t
 confidence
@@ -215,7 +215,7 @@ charIndex
 2
 )
 {
-UChar
+char16_t
 codeUnit
 =
 (
@@ -415,7 +415,7 @@ charIndex
 2
 )
 {
-UChar
+char16_t
 codeUnit
 =
 input

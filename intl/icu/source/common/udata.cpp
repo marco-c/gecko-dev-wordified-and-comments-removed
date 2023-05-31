@@ -169,7 +169,7 @@ gCommonICUDataArray
 ]
 =
 {
-NULL
+nullptr
 }
 ;
 static
@@ -184,7 +184,7 @@ UHashtable
 *
 gCommonDataCache
 =
-NULL
+nullptr
 ;
 static
 icu
@@ -223,7 +223,6 @@ UBool
 U_CALLCONV
 udata_cleanup
 (
-void
 )
 {
 int32_t
@@ -241,7 +240,7 @@ gCommonDataCache
 ;
 gCommonDataCache
 =
-NULL
+nullptr
 ;
 }
 gCommonDataCacheInitOnce
@@ -270,7 +269,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 ;
 +
 +
@@ -290,7 +289,7 @@ gCommonICUDataArray
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 gHaveTriedToLoadCommonData
@@ -344,7 +343,7 @@ err
 pData
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -380,7 +379,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 )
 &
 &
@@ -466,7 +465,7 @@ pData
 ;
 umtx_lock
 (
-NULL
+nullptr
 )
 ;
 for
@@ -495,7 +494,7 @@ i
 ]
 =
 =
-NULL
+nullptr
 )
 {
 gCommonICUDataArray
@@ -536,7 +535,7 @@ break
 }
 umtx_unlock
 (
-NULL
+nullptr
 )
 ;
 if
@@ -667,7 +666,7 @@ if
 basename
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -704,7 +703,7 @@ if
 path
 =
 =
-NULL
+nullptr
 )
 |
 |
@@ -734,7 +733,7 @@ if
 path
 =
 =
-NULL
+nullptr
 )
 |
 |
@@ -829,7 +828,7 @@ U_ASSERT
 gCommonDataCache
 =
 =
-NULL
+nullptr
 )
 ;
 gCommonDataCache
@@ -838,7 +837,7 @@ uhash_open
 (
 uhash_hashChars
 uhash_compareChars
-NULL
+nullptr
 &
 err
 )
@@ -859,7 +858,7 @@ U_ASSERT
 gCommonDataCache
 !
 =
-NULL
+nullptr
 )
 ;
 uhash_setValueDeleter
@@ -919,7 +918,7 @@ UDataMemory
 *
 retVal
 =
-NULL
+nullptr
 ;
 DataCacheElement
 *
@@ -946,7 +945,7 @@ err
 )
 {
 return
-NULL
+nullptr
 ;
 }
 baseName
@@ -958,7 +957,7 @@ path
 ;
 umtx_lock
 (
-NULL
+nullptr
 )
 ;
 el
@@ -975,7 +974,7 @@ baseName
 ;
 umtx_unlock
 (
-NULL
+nullptr
 )
 ;
 if
@@ -983,7 +982,7 @@ if
 el
 !
 =
-NULL
+nullptr
 )
 {
 retVal
@@ -1065,7 +1064,7 @@ DataCacheElement
 *
 oldValue
 =
-NULL
+nullptr
 ;
 UErrorCode
 subErr
@@ -1090,7 +1089,7 @@ pErr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 newElement
@@ -1112,7 +1111,7 @@ if
 newElement
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1121,7 +1120,7 @@ pErr
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 newElement
@@ -1149,7 +1148,7 @@ newElement
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 UDatamemory_assign
@@ -1202,7 +1201,7 @@ newElement
 name
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1224,7 +1223,7 @@ newElement
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 uprv_strcpy
@@ -1238,7 +1237,7 @@ baseName
 ;
 umtx_lock
 (
-NULL
+nullptr
 )
 ;
 oldValue
@@ -1258,7 +1257,7 @@ if
 oldValue
 !
 =
-NULL
+nullptr
 )
 {
 subErr
@@ -1283,7 +1282,7 @@ subErr
 }
 umtx_unlock
 (
-NULL
+nullptr
 )
 ;
 #
@@ -1394,7 +1393,7 @@ oldValue
 >
 item
 :
-NULL
+nullptr
 ;
 }
 return
@@ -1539,7 +1538,7 @@ if
 inPath
 =
 =
-NULL
+nullptr
 )
 {
 path
@@ -1561,7 +1560,7 @@ if
 pkg
 !
 =
-NULL
+nullptr
 )
 {
 packageStub
@@ -1704,7 +1703,7 @@ if
 inSuffix
 !
 =
-NULL
+nullptr
 )
 {
 suffix
@@ -1828,7 +1827,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
@@ -1836,7 +1835,7 @@ char
 *
 currentPath
 =
-NULL
+nullptr
 ;
 int32_t
 pathLen
@@ -1855,7 +1854,7 @@ if
 nextPath
 =
 =
-NULL
+nullptr
 )
 {
 break
@@ -1907,7 +1906,7 @@ if
 nextPath
 =
 =
-NULL
+nullptr
 )
 {
 pathLen
@@ -2435,7 +2434,7 @@ path
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 U_NAMESPACE_END
@@ -2496,7 +2495,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UDataMemory_init
@@ -2525,7 +2524,7 @@ gCommonICUDataArray
 )
 {
 return
-NULL
+nullptr
 ;
 }
 {
@@ -2540,7 +2539,7 @@ commonDataIndex
 ]
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -2591,7 +2590,7 @@ U_ICUDATA_ENTRY_POINT
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -2702,7 +2701,7 @@ U_FILE_ACCESS_ERROR
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 UDataMemory
@@ -2721,7 +2720,7 @@ if
 dataToReturn
 !
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -2777,7 +2776,7 @@ pErrorCode
 )
 !
 =
-NULL
+nullptr
 )
 {
 #
@@ -2849,7 +2848,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 #
@@ -2924,7 +2923,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2943,7 +2942,7 @@ pErrorCode
 U_FILE_ACCESS_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 udata_checkCommonData
@@ -3032,7 +3031,7 @@ if
 pData
 !
 =
-NULL
+nullptr
 )
 {
 UDatamemory_assign
@@ -3121,7 +3120,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -3139,7 +3138,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -3217,7 +3216,7 @@ if
 err
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -3235,7 +3234,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -3310,7 +3309,7 @@ UDataMemory
 *
 rDataMem
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3322,7 +3321,7 @@ fatalErr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3353,7 +3352,7 @@ magic2
 isAcceptable
 =
 =
-NULL
+nullptr
 |
 |
 isAcceptable
@@ -3387,7 +3386,7 @@ fatalErr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 rDataMem
@@ -3490,7 +3489,7 @@ pErrorCode
 )
 !
 =
-NULL
+nullptr
 )
 {
 #
@@ -3546,7 +3545,7 @@ if
 pEntryData
 !
 =
-NULL
+nullptr
 )
 {
 pEntryData
@@ -3609,7 +3608,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 *
@@ -3650,7 +3649,7 @@ loaded
 endif
 }
 return
-NULL
+nullptr
 ;
 }
 static
@@ -3755,7 +3754,7 @@ subErrorCode
 pCommonData
 !
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -3818,7 +3817,7 @@ if
 pHeader
 !
 =
-NULL
+nullptr
 )
 {
 pEntryData
@@ -3867,7 +3866,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3875,7 +3874,7 @@ if
 pEntryData
 !
 =
-NULL
+nullptr
 )
 {
 pEntryData
@@ -3907,7 +3906,7 @@ pErrorCode
 subErrorCode
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3917,7 +3916,7 @@ isICUData
 )
 {
 return
-NULL
+nullptr
 ;
 }
 else
@@ -3926,7 +3925,7 @@ if
 pCommonData
 !
 =
-NULL
+nullptr
 )
 {
 +
@@ -3957,7 +3956,7 @@ true
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -4075,7 +4074,7 @@ UDataMemory
 *
 retVal
 =
-NULL
+nullptr
 ;
 const
 char
@@ -4120,7 +4119,7 @@ if
 path
 =
 =
-NULL
+nullptr
 |
 |
 !
@@ -4189,7 +4188,7 @@ U_FILE_ALT_SEP_CHAR
 )
 !
 =
-NULL
+nullptr
 )
 {
 altSepPath
@@ -4222,7 +4221,7 @@ U_FILE_ALT_SEP_CHAR
 )
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -4293,7 +4292,7 @@ if
 path
 =
 =
-NULL
+nullptr
 )
 {
 pkgName
@@ -4445,7 +4444,7 @@ if
 first
 =
 =
-NULL
+nullptr
 )
 {
 path
@@ -4629,7 +4628,7 @@ if
 type
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -4741,7 +4740,7 @@ if
 path
 =
 =
-NULL
+nullptr
 )
 {
 path
@@ -4879,7 +4878,7 @@ if
 retVal
 !
 =
-NULL
+nullptr
 )
 |
 |
@@ -4956,7 +4955,7 @@ if
 retVal
 !
 =
-NULL
+nullptr
 )
 |
 |
@@ -5049,7 +5048,7 @@ if
 retVal
 !
 =
-NULL
+nullptr
 )
 |
 |
@@ -5139,7 +5138,7 @@ if
 retVal
 !
 =
-NULL
+nullptr
 )
 |
 |
@@ -5217,7 +5216,7 @@ if
 retVal
 !
 =
-NULL
+nullptr
 )
 |
 |
@@ -5322,7 +5321,7 @@ path
 path
 :
 "
-NULL
+nullptr
 "
 )
 name
@@ -5341,7 +5340,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -5352,7 +5351,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 else
@@ -5361,7 +5360,7 @@ if
 name
 =
 =
-NULL
+nullptr
 |
 |
 *
@@ -5377,7 +5376,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 else
@@ -5388,8 +5387,8 @@ doOpenChoice
 path
 type
 name
-NULL
-NULL
+nullptr
+nullptr
 pErrorCode
 )
 ;
@@ -5454,7 +5453,7 @@ path
 path
 :
 "
-NULL
+nullptr
 "
 )
 name
@@ -5468,7 +5467,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -5479,7 +5478,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 else
@@ -5488,7 +5487,7 @@ if
 name
 =
 =
-NULL
+nullptr
 |
 |
 *
@@ -5501,7 +5500,7 @@ name
 isAcceptable
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -5510,7 +5509,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 else
@@ -5546,7 +5545,7 @@ if
 pInfo
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -5554,7 +5553,7 @@ if
 pData
 !
 =
-NULL
+nullptr
 &
 &
 pData
@@ -5563,7 +5562,7 @@ pData
 pHeader
 !
 =
-NULL
+nullptr
 )
 {
 const

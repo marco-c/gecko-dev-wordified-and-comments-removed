@@ -1497,7 +1497,7 @@ false
 }
 }
 const
-UChar
+char16_t
 *
 BMPSet
 :
@@ -1505,11 +1505,11 @@ BMPSet
 span
 (
 const
-UChar
+char16_t
 *
 s
 const
-UChar
+char16_t
 *
 limit
 USetSpanCondition
@@ -1517,7 +1517,7 @@ spanCondition
 )
 const
 {
-UChar
+char16_t
 c
 c2
 ;
@@ -2051,7 +2051,7 @@ s
 ;
 }
 const
-UChar
+char16_t
 *
 BMPSet
 :
@@ -2059,11 +2059,11 @@ BMPSet
 spanBack
 (
 const
-UChar
+char16_t
 *
 s
 const
-UChar
+char16_t
 *
 limit
 USetSpanCondition
@@ -2071,7 +2071,7 @@ spanCondition
 )
 const
 {
-UChar
+char16_t
 c
 c2
 ;

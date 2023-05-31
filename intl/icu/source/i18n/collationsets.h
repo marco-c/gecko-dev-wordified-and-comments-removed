@@ -54,11 +54,11 @@ t
 :
 data
 (
-NULL
+nullptr
 )
 baseData
 (
-NULL
+nullptr
 )
 tailored
 (
@@ -66,7 +66,7 @@ t
 )
 suffix
 (
-NULL
+nullptr
 )
 errorCode
 (
@@ -116,11 +116,11 @@ comparePrefixes
 UChar32
 c
 const
-UChar
+char16_t
 *
 p
 const
-UChar
+char16_t
 *
 q
 )
@@ -131,11 +131,11 @@ compareContractions
 UChar32
 c
 const
-UChar
+char16_t
 *
 p
 const
-UChar
+char16_t
 *
 q
 )
@@ -150,7 +150,7 @@ d
 UChar32
 c
 const
-UChar
+char16_t
 *
 p
 )
@@ -178,7 +178,7 @@ addContractions
 UChar32
 c
 const
-UChar
+char16_t
 *
 p
 )
@@ -326,7 +326,7 @@ prefixes
 :
 data
 (
-NULL
+nullptr
 )
 contractions
 (
@@ -350,7 +350,7 @@ checkTailored
 )
 suffix
 (
-NULL
+nullptr
 )
 errorCode
 (

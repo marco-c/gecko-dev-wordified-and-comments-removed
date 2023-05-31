@@ -194,7 +194,7 @@ i
 ]
 )
 :
-NULL
+nullptr
 ;
 }
 }
@@ -256,7 +256,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 &
 &
 other
@@ -267,7 +267,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -294,7 +294,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -308,7 +308,7 @@ fVariants
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 else
@@ -322,7 +322,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 )
 {
 fVariants
@@ -429,7 +429,7 @@ fVariants
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -476,7 +476,7 @@ idx
 ]
 !
 =
-NULL
+nullptr
 )
 {
 index
@@ -508,7 +508,7 @@ idx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 T
@@ -593,7 +593,7 @@ index
 ]
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -671,7 +671,7 @@ return
 getMutable
 (
 category
-NULL
+nullptr
 status
 )
 ;
@@ -696,7 +696,7 @@ toCategory
 (
 category
 )
-NULL
+nullptr
 status
 )
 ;
@@ -798,7 +798,7 @@ i
 ]
 =
 =
-NULL
+nullptr
 |
 |
 rhs
@@ -809,7 +809,7 @@ i
 ]
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -881,7 +881,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -910,7 +910,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -921,7 +921,7 @@ index
 ]
 =
 =
-NULL
+nullptr
 )
 {
 fVariants
@@ -932,7 +932,7 @@ index
 defaultValue
 =
 =
-NULL
+nullptr
 ?
 new
 T
@@ -1005,7 +1005,7 @@ fVariants
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 }

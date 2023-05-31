@@ -7776,7 +7776,7 @@ icu
 /
 userguide
 /
-icudata
+icu_data
 for
 more
 info

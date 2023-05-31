@@ -155,7 +155,7 @@ id
 int32_t
 &
 pos
-UChar
+char16_t
 ch
 )
 ;

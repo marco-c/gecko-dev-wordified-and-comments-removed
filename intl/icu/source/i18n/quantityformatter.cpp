@@ -160,7 +160,7 @@ formatters
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -204,7 +204,7 @@ i
 ]
 =
 =
-NULL
+nullptr
 )
 {
 formatters
@@ -212,7 +212,7 @@ formatters
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 else
@@ -300,7 +300,7 @@ i
 ]
 =
 =
-NULL
+nullptr
 )
 {
 formatters
@@ -308,7 +308,7 @@ formatters
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 else
@@ -410,7 +410,7 @@ formatters
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -465,7 +465,7 @@ pluralIndex
 ]
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -490,7 +490,7 @@ if
 newFmt
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -546,7 +546,7 @@ OTHER
 ]
 !
 =
-NULL
+nullptr
 ;
 }
 const
@@ -597,7 +597,7 @@ if
 pattern
 =
 =
-NULL
+nullptr
 )
 {
 pattern
@@ -692,7 +692,7 @@ if
 pattern
 =
 =
-NULL
+nullptr
 )
 {
 pattern
@@ -710,7 +710,7 @@ if
 pattern
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -805,7 +805,7 @@ if
 decFmt
 !
 =
-NULL
+nullptr
 )
 {
 number

@@ -47,7 +47,7 @@ Edits
 class
 U_COMMON_API
 CaseMap
-U_FINAL
+final
 :
 public
 UMemory

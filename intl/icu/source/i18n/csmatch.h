@@ -72,13 +72,13 @@ char
 *
 csName
 =
-NULL
+nullptr
 const
 char
 *
 lang
 =
-NULL
+nullptr
 )
 ;
 const
@@ -106,7 +106,7 @@ const
 int32_t
 getUChars
 (
-UChar
+char16_t
 *
 buf
 int32_t

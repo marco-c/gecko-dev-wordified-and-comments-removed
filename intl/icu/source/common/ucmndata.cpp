@@ -73,7 +73,7 @@ if
 udh
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -152,7 +152,7 @@ if
 info
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -812,7 +812,7 @@ if
 toc
 !
 =
-NULL
+nullptr
 )
 {
 retVal
@@ -874,7 +874,7 @@ if
 toc
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -1089,7 +1089,7 @@ tocEntryName
 #
 endif
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1153,7 +1153,7 @@ uint32_t
 toc
 !
 =
-NULL
+nullptr
 )
 ?
 (
@@ -1203,7 +1203,7 @@ pData
 toc
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -1375,7 +1375,7 @@ name
 #
 endif
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1439,7 +1439,7 @@ if
 udm
 =
 =
-NULL
+nullptr
 |
 |
 udm
@@ -1448,7 +1448,7 @@ udm
 pHeader
 =
 =
-NULL
+nullptr
 )
 {
 *

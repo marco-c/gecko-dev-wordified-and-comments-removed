@@ -216,7 +216,7 @@ if
 offsets
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -227,7 +227,7 @@ offsets
 )
 =
 =
-NULL
+nullptr
 )
 {
 while
@@ -317,7 +317,7 @@ if
 cnv
 !
 =
-NULL
+nullptr
 )
 {
 t
@@ -382,17 +382,17 @@ UConverter
 *
 cnv
 const
-UChar
+char16_t
 *
 uchars
 int32_t
 length
-UChar
+char16_t
 *
 *
 target
 const
-UChar
+char16_t
 *
 targetLimit
 int32_t
@@ -406,7 +406,7 @@ UErrorCode
 pErrorCode
 )
 {
-UChar
+char16_t
 *
 t
 =
@@ -422,7 +422,7 @@ if
 offsets
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -433,7 +433,7 @@ offsets
 )
 =
 =
-NULL
+nullptr
 )
 {
 while
@@ -523,7 +523,7 @@ if
 cnv
 !
 =
-NULL
+nullptr
 )
 {
 t
@@ -582,12 +582,12 @@ UConverter
 cnv
 UChar32
 c
-UChar
+char16_t
 *
 *
 target
 const
-UChar
+char16_t
 *
 targetLimit
 int32_t
@@ -601,7 +601,7 @@ UErrorCode
 pErrorCode
 )
 {
-UChar
+char16_t
 *
 t
 ;
@@ -635,7 +635,7 @@ t
 +
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -676,7 +676,7 @@ t
 +
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -691,7 +691,7 @@ if
 offsets
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -702,7 +702,7 @@ offsets
 )
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -757,7 +757,7 @@ if
 cnv
 !
 =
-NULL
+nullptr
 )
 {
 int8_t

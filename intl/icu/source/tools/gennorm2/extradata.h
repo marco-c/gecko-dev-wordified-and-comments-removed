@@ -111,7 +111,7 @@ Norm
 &
 norm
 )
-U_OVERRIDE
+override
 ;
 UnicodeString
 maybeYesCompositions

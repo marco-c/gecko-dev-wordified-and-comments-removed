@@ -20286,10 +20286,6 @@ U_CPLUSPLUS_VERSION
 11
 \
 U_WCHAR_IS_UTF16
-\
-U_FINAL
-=
-final
 #
 If
 the

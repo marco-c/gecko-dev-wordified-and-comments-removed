@@ -33,6 +33,10 @@ h
 "
 typedef
 struct
+alignas
+(
+16
+)
 {
 uint16_t
 headerSize
@@ -54,10 +58,10 @@ uint32_t
 count
 reserved
 ;
-int
+uint64_t
 fakeNameAndData
 [
-4
+2
 ]
 ;
 }

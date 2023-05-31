@@ -146,7 +146,7 @@ catd
 }
 U_CAPI
 const
-UChar
+char16_t
 *
 U_EXPORT2
 u_catgets
@@ -158,7 +158,7 @@ set_num
 int32_t
 msg_num
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -176,7 +176,7 @@ MAX_KEY_LEN
 ]
 ;
 const
-UChar
+char16_t
 *
 result
 ;
@@ -185,7 +185,7 @@ if
 ec
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -242,7 +242,7 @@ if
 len
 !
 =
-NULL
+nullptr
 )
 {
 *

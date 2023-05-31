@@ -317,10 +317,10 @@ u_scanf_spec_info
 int32_t
 fWidth
 ;
-UChar
+char16_t
 fSpec
 ;
-UChar
+char16_t
 fPadChar
 ;
 UBool
@@ -362,7 +362,7 @@ int32_t
 u_scanf_parse_spec
 (
 const
-UChar
+char16_t
 *
 fmt
 u_scanf_spec
@@ -371,14 +371,14 @@ spec
 )
 {
 const
-UChar
+char16_t
 *
 s
 =
 fmt
 ;
 const
-UChar
+char16_t
 *
 backup
 ;
@@ -612,7 +612,7 @@ info
 fPadChar
 =
 (
-UChar
+char16_t
 )
 ufmt_digitvalue
 (
@@ -628,7 +628,7 @@ info
 fPadChar
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -655,7 +655,7 @@ info
 fPadChar
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -682,7 +682,7 @@ info
 fPadChar
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -1000,7 +1000,7 @@ define
 UFMT_EMPTY
 {
 ufmt_empty
-NULL
+nullptr
 }
 typedef
 int32_t
@@ -1019,7 +1019,7 @@ ufmt_args
 *
 args
 const
-UChar
+char16_t
 *
 fmt
 int32_t
@@ -1062,11 +1062,11 @@ u_scanf_skip_leading_ws
 UFILE
 *
 input
-UChar
+char16_t
 pad
 )
 {
-UChar
+char16_t
 c
 ;
 int32_t
@@ -1147,7 +1147,7 @@ UErrorCode
 status
 )
 {
-UChar
+char16_t
 c
 ;
 int32_t
@@ -1158,7 +1158,7 @@ count
 UBool
 isNotEOF
 ;
-UChar
+char16_t
 plusSymbol
 [
 USCANF_SYMBOL_BUFFER_SIZE
@@ -1279,7 +1279,7 @@ ufmt_args
 *
 args
 const
-UChar
+char16_t
 *
 fmt
 int32_t
@@ -1351,7 +1351,7 @@ ufmt_args
 *
 args
 const
-UChar
+char16_t
 *
 fmt
 int32_t
@@ -1497,7 +1497,7 @@ ufmt_args
 *
 args
 const
-UChar
+char16_t
 *
 fmt
 int32_t
@@ -1774,7 +1774,7 @@ ufmt_args
 *
 args
 const
-UChar
+char16_t
 *
 fmt
 int32_t
@@ -1818,7 +1818,7 @@ status
 =
 U_ZERO_ERROR
 ;
-UChar
+char16_t
 srcExpBuf
 [
 UPRINTF_SYMBOL_BUFFER_SIZE
@@ -1828,7 +1828,7 @@ int32_t
 srcLen
 expLen
 ;
-UChar
+char16_t
 expBuf
 [
 UPRINTF_SYMBOL_BUFFER_SIZE
@@ -1941,7 +1941,7 @@ fSpec
 =
 =
 (
-UChar
+char16_t
 )
 0x65
 )
@@ -2158,7 +2158,7 @@ ufmt_args
 *
 args
 const
-UChar
+char16_t
 *
 fmt
 int32_t
@@ -2515,7 +2515,7 @@ ufmt_args
 *
 args
 const
-UChar
+char16_t
 *
 fmt
 int32_t
@@ -2870,7 +2870,7 @@ ufmt_args
 *
 args
 const
-UChar
+char16_t
 *
 fmt
 int32_t
@@ -2907,7 +2907,7 @@ ufmt_args
 *
 args
 const
-UChar
+char16_t
 *
 fmt
 int32_t
@@ -3118,7 +3118,7 @@ ufmt_args
 *
 args
 const
-UChar
+char16_t
 *
 fmt
 int32_t
@@ -3140,7 +3140,7 @@ void
 fmtConsumed
 ;
 const
-UChar
+char16_t
 *
 source
 ;
@@ -3188,7 +3188,7 @@ skipped
 =
 0
 ;
-UChar
+char16_t
 c
 ;
 UBool
@@ -3367,7 +3367,7 @@ source
 source
 +
 1
-NULL
+nullptr
 true
 &
 status
@@ -3485,7 +3485,7 @@ ufmt_args
 *
 args
 const
-UChar
+char16_t
 *
 fmt
 int32_t
@@ -3547,7 +3547,7 @@ ufmt_args
 *
 args
 const
-UChar
+char16_t
 *
 fmt
 int32_t
@@ -3568,12 +3568,12 @@ void
 )
 fmtConsumed
 ;
-UChar
+char16_t
 *
 arg
 =
 (
-UChar
+char16_t
 *
 )
 (
@@ -3585,7 +3585,7 @@ args
 ptrValue
 )
 ;
-UChar
+char16_t
 *
 alias
 =
@@ -3599,7 +3599,7 @@ skipped
 =
 0
 ;
-UChar
+char16_t
 c
 ;
 UBool
@@ -3807,7 +3807,7 @@ ufmt_args
 *
 args
 const
-UChar
+char16_t
 *
 fmt
 int32_t
@@ -3869,7 +3869,7 @@ ufmt_args
 *
 args
 const
-UChar
+char16_t
 *
 fmt
 int32_t
@@ -4079,7 +4079,7 @@ ufmt_args
 *
 args
 const
-UChar
+char16_t
 *
 fmt
 int32_t
@@ -4372,7 +4372,7 @@ ufmt_args
 *
 args
 const
-UChar
+char16_t
 *
 fmt
 int32_t
@@ -4599,7 +4599,7 @@ ufmt_args
 *
 args
 const
-UChar
+char16_t
 *
 fmt
 int32_t
@@ -4812,7 +4812,7 @@ ufmt_args
 *
 args
 const
-UChar
+char16_t
 *
 fmt
 int32_t
@@ -4840,12 +4840,12 @@ INT32_MAX
 UChar32
 c
 ;
-UChar
+char16_t
 *
 alias
 =
 (
-UChar
+char16_t
 *
 )
 (
@@ -5241,7 +5241,7 @@ UFILE
 *
 f
 const
-UChar
+char16_t
 *
 patternSpecification
 va_list
@@ -5249,7 +5249,7 @@ ap
 )
 {
 const
-UChar
+char16_t
 *
 alias
 ;
@@ -5420,7 +5420,7 @@ args
 .
 ptrValue
 =
-NULL
+nullptr
 ;
 }
 else
@@ -5486,7 +5486,7 @@ args
 .
 ptrValue
 =
-NULL
+nullptr
 ;
 break
 ;

@@ -106,7 +106,7 @@ if
 U_PLATFORM_USES_ONLY_WIN32_API
 static
 const
-UChar
+char16_t
 DELIMITERS
 [
 ]
@@ -128,7 +128,7 @@ DELIMITERS_LEN
 else
 static
 const
-UChar
+char16_t
 DELIMITERS
 [
 ]
@@ -273,7 +273,7 @@ UTransliterator
 *
 old
 =
-NULL
+nullptr
 ;
 if
 (
@@ -324,7 +324,7 @@ if
 adopt
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -335,7 +335,7 @@ file
 fTranslit
 !
 =
-NULL
+nullptr
 )
 {
 old
@@ -367,7 +367,7 @@ fTranslit
 >
 buffer
 =
-NULL
+nullptr
 ;
 uprv_free
 (
@@ -382,7 +382,7 @@ file
 >
 fTranslit
 =
-NULL
+nullptr
 ;
 }
 }
@@ -396,7 +396,7 @@ file
 fTranslit
 =
 =
-NULL
+nullptr
 )
 {
 file
@@ -472,7 +472,7 @@ fTranslit
 >
 buffer
 =
-NULL
+nullptr
 ;
 }
 else
@@ -510,7 +510,7 @@ old
 }
 static
 const
-UChar
+char16_t
 *
 u_file_translit
 (
@@ -518,7 +518,7 @@ UFILE
 *
 f
 const
-UChar
+char16_t
 *
 src
 int32_t
@@ -555,7 +555,7 @@ if
 count
 =
 =
-NULL
+nullptr
 )
 {
 count
@@ -660,7 +660,7 @@ pos
 *
 sizeof
 (
-UChar
+char16_t
 )
 )
 ;
@@ -733,7 +733,7 @@ fTranslit
 buffer
 =
 =
-NULL
+nullptr
 )
 {
 f
@@ -745,7 +745,7 @@ fTranslit
 buffer
 =
 (
-UChar
+char16_t
 *
 )
 uprv_malloc
@@ -754,7 +754,7 @@ newlen
 *
 sizeof
 (
-UChar
+char16_t
 )
 )
 ;
@@ -770,7 +770,7 @@ fTranslit
 buffer
 =
 (
-UChar
+char16_t
 *
 )
 uprv_realloc
@@ -786,7 +786,7 @@ newlen
 *
 sizeof
 (
-UChar
+char16_t
 )
 )
 ;
@@ -802,11 +802,11 @@ fTranslit
 buffer
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 f
@@ -1094,7 +1094,7 @@ return
 endif
 u_file_write_flush
 (
-NULL
+nullptr
 0
 f
 false
@@ -1132,7 +1132,7 @@ return
 }
 u_file_write_flush
 (
-NULL
+nullptr
 0
 f
 true
@@ -1238,7 +1238,7 @@ f
 >
 fTranslit
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -1249,7 +1249,7 @@ U_EXPORT2
 u_fputs
 (
 const
-UChar
+char16_t
 *
 s
 UFILE
@@ -1296,7 +1296,7 @@ UFILE
 f
 )
 {
-UChar
+char16_t
 buf
 [
 2
@@ -1355,7 +1355,7 @@ U_EXPORT2
 u_file_write_flush
 (
 const
-UChar
+char16_t
 *
 chars
 int32_t
@@ -1375,19 +1375,19 @@ status
 U_ZERO_ERROR
 ;
 const
-UChar
+char16_t
 *
 mySource
 =
 chars
 ;
 const
-UChar
+char16_t
 *
 mySourceBegin
 ;
 const
-UChar
+char16_t
 *
 mySourceEnd
 ;
@@ -1571,7 +1571,7 @@ f
 fConverter
 !
 =
-NULL
+nullptr
 )
 {
 ucnv_fromUnicode
@@ -1588,7 +1588,7 @@ UFILE_CHARBUFFER_SIZE
 &
 mySource
 mySourceEnd
-NULL
+nullptr
 flushIO
 &
 status
@@ -1711,7 +1711,7 @@ U_EXPORT2
 u_file_write
 (
 const
-UChar
+char16_t
 *
 chars
 int32_t
@@ -1753,7 +1753,7 @@ char
 *
 mySourceEnd
 ;
-UChar
+char16_t
 *
 myTarget
 ;
@@ -1790,7 +1790,7 @@ f
 fFile
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1879,7 +1879,7 @@ f
 fConverter
 !
 =
-NULL
+nullptr
 ?
 (
 2
@@ -2003,7 +2003,7 @@ f
 fConverter
 !
 =
-NULL
+nullptr
 )
 {
 ucnv_toUnicode
@@ -2023,7 +2023,7 @@ bufferSize
 &
 mySource
 mySourceEnd
-NULL
+nullptr
 (
 UBool
 )
@@ -2078,12 +2078,12 @@ myTarget
 ;
 }
 U_CAPI
-UChar
+char16_t
 *
 U_EXPORT2
 u_fgets
 (
-UChar
+char16_t
 *
 s
 int32_t
@@ -2099,20 +2099,20 @@ dataSize
 int32_t
 count
 ;
-UChar
+char16_t
 *
 alias
 ;
 const
-UChar
+char16_t
 *
 limit
 ;
-UChar
+char16_t
 *
 sItr
 ;
-UChar
+char16_t
 currDelim
 =
 0
@@ -2130,7 +2130,7 @@ n
 )
 {
 return
-NULL
+nullptr
 ;
 }
 str
@@ -2190,7 +2190,7 @@ dataSize
 0
 )
 return
-NULL
+nullptr
 ;
 count
 =
@@ -2453,7 +2453,7 @@ ufile_getch
 UFILE
 *
 f
-UChar
+char16_t
 *
 ch
 )
@@ -2574,7 +2574,7 @@ isValidChar
 ;
 }
 U_CAPI
-UChar
+char16_t
 U_EXPORT2
 u_fgetc
 (
@@ -2583,7 +2583,7 @@ UFILE
 f
 )
 {
-UChar
+char16_t
 ch
 ;
 ufile_getch
@@ -2702,7 +2702,7 @@ str
 fLimit
 )
 {
-UChar
+char16_t
 c16
 =
 *
@@ -2926,7 +2926,7 @@ int32_t
 U_EXPORT2
 u_file_read
 (
-UChar
+char16_t
 *
 chars
 int32_t
@@ -3035,7 +3035,7 @@ dataSize
 *
 sizeof
 (
-UChar
+char16_t
 )
 )
 ;

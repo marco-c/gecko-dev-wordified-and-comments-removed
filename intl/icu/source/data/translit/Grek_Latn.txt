@@ -504,6 +504,7 @@ under
 \
 :
 ;
+;
 #
 CIRCUMFLEX
 :

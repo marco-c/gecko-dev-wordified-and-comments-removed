@@ -71,7 +71,7 @@ result_capacity
 0
 ;
 return
-NULL
+nullptr
 ;
 }
 *
@@ -311,7 +311,7 @@ result_capacity
 0
 ;
 return
-NULL
+nullptr
 ;
 }
 int32_t

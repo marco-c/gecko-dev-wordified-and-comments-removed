@@ -74,7 +74,7 @@ define
 UNDERSCORE_CHAR
 (
 (
-UChar
+char16_t
 )
 0x005f
 )
@@ -83,7 +83,7 @@ define
 AT_SIGN_CHAR
 (
 (
-UChar
+char16_t
 )
 64
 )
@@ -92,7 +92,7 @@ define
 PERIOD_CHAR
 (
 (
-UChar
+char16_t
 )
 46
 )
@@ -157,7 +157,7 @@ if
 primaryID
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -167,7 +167,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UnicodeString
@@ -257,7 +257,7 @@ if
 canonicalFallbackID
 !
 =
-NULL
+nullptr
 &
 &
 _primaryID
@@ -309,7 +309,7 @@ _kind
 KIND_ANY
 )
 {
-UChar
+char16_t
 buffer
 [
 64

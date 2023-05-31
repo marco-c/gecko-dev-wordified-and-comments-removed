@@ -1777,7 +1777,7 @@ masculine
 <
 trilion
 \
-u00E9sima
+u00E9simo
 [
 >
 >

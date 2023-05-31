@@ -849,7 +849,7 @@ uscript_getSampleString
 (
 UScriptCode
 script
-UChar
+char16_t
 *
 dest
 int32_t
@@ -888,7 +888,7 @@ capacity
 dest
 =
 =
-NULL
+nullptr
 )
 )
 {

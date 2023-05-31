@@ -242,7 +242,7 @@ if
 pLineBiDi
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -259,9 +259,9 @@ ubidi_getParagraph
 (
 pParaBiDi
 start
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 pErrorCode
 )
 !
@@ -272,9 +272,9 @@ pParaBiDi
 limit
 -
 1
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 pErrorCode
 )
 )
@@ -292,7 +292,7 @@ pLineBiDi
 >
 pParaBiDi
 =
-NULL
+nullptr
 ;
 pLineBiDi
 -
@@ -355,7 +355,7 @@ pLineBiDi
 >
 runs
 =
-NULL
+nullptr
 ;
 pLineBiDi
 -
@@ -910,7 +910,7 @@ length
 RETURN_IF_NULL_OR_FAILING_ERRCODE
 (
 pErrorCode
-NULL
+nullptr
 )
 ;
 RETURN_IF_NOT_VALID_PARA_OR_LINE
@@ -918,7 +918,7 @@ RETURN_IF_NOT_VALID_PARA_OR_LINE
 pBiDi
 *
 pErrorCode
-NULL
+nullptr
 )
 ;
 if
@@ -942,7 +942,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1050,7 +1050,7 @@ pErrorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1437,7 +1437,7 @@ if
 pLogicalStart
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1454,7 +1454,7 @@ if
 pLength
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2586,7 +2586,7 @@ int32_t
 runIndex
 ;
 const
-UChar
+char16_t
 *
 start
 =
@@ -2698,7 +2698,7 @@ if
 levels
 =
 =
-NULL
+nullptr
 |
 |
 length
@@ -2852,7 +2852,7 @@ if
 indexMap
 =
 =
-NULL
+nullptr
 |
 |
 !
@@ -3064,7 +3064,7 @@ if
 indexMap
 =
 =
-NULL
+nullptr
 |
 |
 !
@@ -3652,7 +3652,7 @@ controlFound
 =
 0
 ;
-UChar
+char16_t
 uchar
 =
 pBiDi
@@ -4181,7 +4181,7 @@ visualStart
 j
 k
 ;
-UChar
+char16_t
 uchar
 ;
 UBool
@@ -4592,7 +4592,7 @@ if
 indexMap
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -4959,7 +4959,7 @@ insertRemove
 UBool
 evenRun
 ;
-UChar
+char16_t
 uchar
 ;
 visualStart
@@ -5182,7 +5182,7 @@ if
 indexMap
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -5616,7 +5616,7 @@ j
 k
 m
 ;
-UChar
+char16_t
 uchar
 ;
 UBool
@@ -5861,13 +5861,13 @@ if
 srcMap
 !
 =
-NULL
+nullptr
 &
 &
 destMap
 !
 =
-NULL
+nullptr
 &
 &
 length

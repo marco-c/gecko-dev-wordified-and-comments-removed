@@ -251,7 +251,7 @@ setGroupingUsed
 UBool
 newValue
 )
-U_OVERRIDE
+override
 ;
 void
 setParseIntegerOnly
@@ -259,7 +259,7 @@ setParseIntegerOnly
 UBool
 value
 )
-U_OVERRIDE
+override
 ;
 void
 setLenient
@@ -267,7 +267,7 @@ setLenient
 UBool
 enable
 )
-U_OVERRIDE
+override
 ;
 DecimalFormat
 (
@@ -324,7 +324,7 @@ rhs
 DecimalFormat
 (
 )
-U_OVERRIDE
+override
 ;
 DecimalFormat
 *
@@ -332,7 +332,7 @@ clone
 (
 )
 const
-U_OVERRIDE
+override
 ;
 bool
 operator
@@ -345,7 +345,7 @@ Format
 other
 )
 const
-U_OVERRIDE
+override
 ;
 using
 NumberFormat
@@ -367,7 +367,7 @@ FieldPosition
 pos
 )
 const
-U_OVERRIDE
+override
 ;
 #
 ifndef
@@ -389,7 +389,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 #
 endif
@@ -410,7 +410,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 UnicodeString
 &
@@ -426,7 +426,7 @@ FieldPosition
 pos
 )
 const
-U_OVERRIDE
+override
 ;
 #
 ifndef
@@ -448,7 +448,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 #
 endif
@@ -469,7 +469,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 UnicodeString
 &
@@ -485,7 +485,7 @@ FieldPosition
 pos
 )
 const
-U_OVERRIDE
+override
 ;
 #
 ifndef
@@ -507,7 +507,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 #
 endif
@@ -528,7 +528,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 UnicodeString
 &
@@ -547,7 +547,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 #
 ifndef
@@ -577,7 +577,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 UnicodeString
 &
@@ -604,7 +604,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 #
 endif
@@ -629,7 +629,7 @@ ParsePosition
 parsePosition
 )
 const
-U_OVERRIDE
+override
 ;
 CurrencyAmount
 *
@@ -644,7 +644,7 @@ ParsePosition
 pos
 )
 const
-U_OVERRIDE
+override
 ;
 virtual
 const
@@ -849,7 +849,7 @@ getRoundingMode
 void
 )
 const
-U_OVERRIDE
+override
 ;
 virtual
 void
@@ -858,7 +858,7 @@ setRoundingMode
 ERoundingMode
 roundingMode
 )
-U_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -1155,7 +1155,7 @@ setMaximumIntegerDigits
 int32_t
 newValue
 )
-U_OVERRIDE
+override
 ;
 void
 setMinimumIntegerDigits
@@ -1163,7 +1163,7 @@ setMinimumIntegerDigits
 int32_t
 newValue
 )
-U_OVERRIDE
+override
 ;
 void
 setMaximumFractionDigits
@@ -1171,7 +1171,7 @@ setMaximumFractionDigits
 int32_t
 newValue
 )
-U_OVERRIDE
+override
 ;
 void
 setMinimumFractionDigits
@@ -1179,7 +1179,7 @@ setMinimumFractionDigits
 int32_t
 newValue
 )
-U_OVERRIDE
+override
 ;
 int32_t
 getMinimumSignificantDigits
@@ -1231,7 +1231,7 @@ UErrorCode
 &
 ec
 )
-U_OVERRIDE
+override
 ;
 #
 ifndef
@@ -1339,7 +1339,7 @@ getDynamicClassID
 void
 )
 const
-U_OVERRIDE
+override
 ;
 private
 :

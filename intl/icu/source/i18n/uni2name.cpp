@@ -73,7 +73,7 @@ UnicodeNameTransliterator
 )
 static
 const
-UChar
+char16_t
 OPEN_DELIM
 [
 ]
@@ -87,7 +87,7 @@ OPEN_DELIM
 ;
 static
 const
-UChar
+char16_t
 CLOSE_DELIM
 =
 125
@@ -226,7 +226,7 @@ if
 buf
 =
 =
-NULL
+nullptr
 )
 {
 offsets

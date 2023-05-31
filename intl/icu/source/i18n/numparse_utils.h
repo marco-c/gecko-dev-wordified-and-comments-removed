@@ -145,11 +145,11 @@ static
 void
 copyCurrencyCode
 (
-UChar
+char16_t
 *
 dest
 const
-UChar
+char16_t
 *
 src
 )
@@ -160,7 +160,7 @@ dest
 src
 sizeof
 (
-UChar
+char16_t
 )
 *
 3

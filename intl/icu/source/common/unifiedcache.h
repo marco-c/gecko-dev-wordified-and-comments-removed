@@ -725,7 +725,7 @@ const
 get
 (
 key
-NULL
+nullptr
 ptr
 status
 )
@@ -782,7 +782,7 @@ SharedObject
 *
 value
 =
-NULL
+nullptr
 ;
 _get
 (

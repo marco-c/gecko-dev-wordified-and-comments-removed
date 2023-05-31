@@ -2122,7 +2122,7 @@ if
 pkg
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -2286,7 +2286,7 @@ else
 {
 sourcePath
 =
-NULL
+nullptr
 ;
 }
 if
@@ -2313,7 +2313,7 @@ else
 {
 destPath
 =
-NULL
+nullptr
 ;
 }
 if
@@ -2371,7 +2371,7 @@ U_ILLEGAL_ARGUMENT_ERROR
 }
 inFilename
 =
-NULL
+nullptr
 ;
 isPackage
 =
@@ -2472,7 +2472,7 @@ isPackage
 {
 outFilename
 =
-NULL
+nullptr
 ;
 }
 else
@@ -2786,7 +2786,7 @@ else
 {
 outComment
 =
-NULL
+nullptr
 ;
 }
 if
@@ -2865,7 +2865,7 @@ if
 listPkg
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -2892,7 +2892,7 @@ if
 (
 readList
 (
-NULL
+nullptr
 options
 [
 OPT_REMOVE_LIST
@@ -2936,7 +2936,7 @@ U_ILLEGAL_ARGUMENT_ERROR
 }
 addListPkg
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2960,7 +2960,7 @@ if
 addListPkg
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -3048,7 +3048,7 @@ if
 listPkg
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -3075,7 +3075,7 @@ if
 (
 readList
 (
-NULL
+nullptr
 options
 [
 OPT_EXTRACT_LIST
@@ -3162,7 +3162,7 @@ if
 out
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -3309,7 +3309,7 @@ if
 outFilename
 =
 =
-NULL
+nullptr
 |
 |
 outFilename
@@ -3326,7 +3326,7 @@ if
 inFilename
 =
 =
-NULL
+nullptr
 |
 |
 inFilename
@@ -3480,8 +3480,8 @@ writePackageDatFile
 (
 outFilename
 outComment
-NULL
-NULL
+nullptr
+nullptr
 pkg
 outType
 )

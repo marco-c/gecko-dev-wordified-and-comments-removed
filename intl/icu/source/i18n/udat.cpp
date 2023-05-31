@@ -191,7 +191,7 @@ fmt
 )
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -256,6 +256,7 @@ udat_toCalendarDateField
 UDateFormatField
 field
 )
+UPRV_NO_SANITIZE_UNDEFINED
 {
 static_assert
 (
@@ -314,7 +315,7 @@ static
 UDateFormatOpener
 gOpener
 =
-NULL
+nullptr
 ;
 U_CAPI
 void
@@ -340,7 +341,7 @@ return
 ;
 umtx_lock
 (
-NULL
+nullptr
 )
 ;
 if
@@ -348,7 +349,7 @@ if
 gOpener
 =
 =
-NULL
+nullptr
 )
 {
 gOpener
@@ -366,7 +367,7 @@ U_ILLEGAL_ARGUMENT_ERROR
 }
 umtx_unlock
 (
-NULL
+nullptr
 )
 ;
 }
@@ -391,16 +392,16 @@ status
 )
 )
 return
-NULL
+nullptr
 ;
 UDateFormatOpener
 oldOpener
 =
-NULL
+nullptr
 ;
 umtx_lock
 (
-NULL
+nullptr
 )
 ;
 if
@@ -408,7 +409,7 @@ if
 gOpener
 =
 =
-NULL
+nullptr
 |
 |
 gOpener
@@ -431,12 +432,12 @@ gOpener
 ;
 gOpener
 =
-NULL
+nullptr
 ;
 }
 umtx_unlock
 (
-NULL
+nullptr
 )
 ;
 return
@@ -458,13 +459,13 @@ char
 *
 locale
 const
-UChar
+char16_t
 *
 tzID
 int32_t
 tzIDLength
 const
-UChar
+char16_t
 *
 pattern
 int32_t
@@ -496,7 +497,7 @@ if
 gOpener
 !
 =
-NULL
+nullptr
 )
 {
 fmt
@@ -525,7 +526,7 @@ if
 fmt
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -778,6 +779,15 @@ UDateFormat
 format
 )
 {
+if
+(
+format
+=
+=
+nullptr
+)
+return
+;
 delete
 (
 DateFormat
@@ -865,7 +875,7 @@ UDateFormat
 format
 UDate
 dateToFormat
-UChar
+char16_t
 *
 result
 int32_t
@@ -897,7 +907,7 @@ if
 result
 =
 =
-NULL
+nullptr
 ?
 resultLength
 !
@@ -927,7 +937,7 @@ if
 result
 !
 =
-NULL
+nullptr
 )
 {
 res
@@ -1031,7 +1041,7 @@ format
 UCalendar
 *
 calendar
-UChar
+char16_t
 *
 result
 int32_t
@@ -1063,7 +1073,7 @@ if
 result
 =
 =
-NULL
+nullptr
 ?
 resultLength
 !
@@ -1093,7 +1103,7 @@ if
 result
 !
 =
-NULL
+nullptr
 )
 {
 res
@@ -1201,7 +1211,7 @@ UDateFormat
 format
 UDate
 dateToFormat
-UChar
+char16_t
 *
 result
 int32_t
@@ -1233,7 +1243,7 @@ if
 result
 =
 =
-NULL
+nullptr
 ?
 resultLength
 !
@@ -1263,7 +1273,7 @@ if
 result
 !
 =
-NULL
+nullptr
 )
 {
 res
@@ -1322,7 +1332,7 @@ format
 UCalendar
 *
 calendar
-UChar
+char16_t
 *
 result
 int32_t
@@ -1354,7 +1364,7 @@ if
 result
 =
 =
-NULL
+nullptr
 ?
 resultLength
 !
@@ -1384,7 +1394,7 @@ if
 result
 !
 =
-NULL
+nullptr
 )
 {
 res
@@ -1446,7 +1456,7 @@ UDateFormat
 *
 format
 const
-UChar
+char16_t
 *
 text
 int32_t
@@ -1507,7 +1517,7 @@ if
 parsePos
 =
 =
-NULL
+nullptr
 )
 {
 parsePos
@@ -1596,7 +1606,7 @@ UCalendar
 *
 calendar
 const
-UChar
+char16_t
 *
 text
 int32_t
@@ -1650,7 +1660,7 @@ if
 parsePos
 =
 =
-NULL
+nullptr
 )
 {
 parsePos
@@ -1950,7 +1960,7 @@ const
 UDateFormat
 *
 fmt
-UChar
+char16_t
 field
 )
 {
@@ -2055,7 +2065,7 @@ UDateFormat
 *
 fmt
 const
-UChar
+char16_t
 *
 fields
 UNumberFormat
@@ -2087,7 +2097,7 @@ if
 fields
 !
 =
-NULL
+nullptr
 )
 {
 UnicodeString
@@ -2328,7 +2338,7 @@ UDateFormat
 fmt
 UBool
 localized
-UChar
+char16_t
 *
 result
 int32_t
@@ -2357,7 +2367,7 @@ if
 result
 =
 =
-NULL
+nullptr
 ?
 resultLength
 !
@@ -2387,7 +2397,7 @@ if
 result
 !
 =
-NULL
+nullptr
 )
 {
 res
@@ -2440,7 +2450,7 @@ if
 sdtfmt
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2489,7 +2499,7 @@ df
 )
 !
 =
-NULL
+nullptr
 )
 {
 reldtfmt
@@ -2538,7 +2548,7 @@ format
 UBool
 localized
 const
-UChar
+char16_t
 *
 pattern
 int32_t
@@ -2634,7 +2644,7 @@ UDateFormatSymbolType
 type
 int32_t
 index
-UChar
+char16_t
 *
 result
 int32_t
@@ -2684,7 +2694,7 @@ fmt
 )
 !
 =
-NULL
+nullptr
 )
 {
 syms
@@ -2723,7 +2733,7 @@ fmt
 )
 !
 =
-NULL
+nullptr
 )
 {
 syms
@@ -2753,7 +2763,7 @@ UnicodeString
 *
 res
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -2879,7 +2889,7 @@ if
 result
 =
 =
-NULL
+nullptr
 &
 &
 resultLength
@@ -3505,7 +3515,7 @@ fmt
 )
 !
 =
-NULL
+nullptr
 )
 {
 syms
@@ -3544,7 +3554,7 @@ fmt
 )
 !
 =
-NULL
+nullptr
 )
 {
 syms
@@ -4158,7 +4168,7 @@ count
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4173,7 +4183,7 @@ if
 array
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -4195,7 +4205,7 @@ if
 value
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -4229,7 +4239,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4266,7 +4276,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4303,7 +4313,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4340,7 +4350,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4377,7 +4387,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4414,7 +4424,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4451,7 +4461,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4488,7 +4498,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4525,7 +4535,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4562,7 +4572,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4599,7 +4609,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4636,7 +4646,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4673,7 +4683,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4710,7 +4720,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4747,7 +4757,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4784,7 +4794,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4821,7 +4831,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4858,7 +4868,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4895,7 +4905,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4932,7 +4942,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -4969,7 +4979,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -5006,7 +5016,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -5043,7 +5053,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -5080,7 +5090,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -5117,7 +5127,7 @@ syms
 int32_t
 index
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -5152,7 +5162,7 @@ DateFormatSymbols
 *
 syms
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -5192,7 +5202,7 @@ UDateFormatSymbolType
 type
 int32_t
 index
-UChar
+char16_t
 *
 value
 int32_t
@@ -5745,7 +5755,7 @@ if
 fmt
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -5764,7 +5774,7 @@ U_ILLEGAL_ARGUMENT_ERROR
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 return
@@ -5923,7 +5933,7 @@ fmt
 )
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -5942,7 +5952,7 @@ const
 UDateFormat
 *
 fmt
-UChar
+char16_t
 *
 result
 int32_t
@@ -5977,7 +5987,7 @@ if
 result
 =
 =
-NULL
+nullptr
 ?
 resultLength
 !
@@ -6007,7 +6017,7 @@ if
 result
 !
 =
-NULL
+nullptr
 )
 {
 datePattern
@@ -6057,7 +6067,7 @@ const
 UDateFormat
 *
 fmt
-UChar
+char16_t
 *
 result
 int32_t
@@ -6092,7 +6102,7 @@ if
 result
 =
 =
-NULL
+nullptr
 ?
 resultLength
 !
@@ -6122,7 +6132,7 @@ if
 result
 !
 =
-NULL
+nullptr
 )
 {
 timePattern
@@ -6172,13 +6182,13 @@ UDateFormat
 *
 format
 const
-UChar
+char16_t
 *
 datePattern
 int32_t
 datePatternLength
 const
-UChar
+char16_t
 *
 timePattern
 int32_t

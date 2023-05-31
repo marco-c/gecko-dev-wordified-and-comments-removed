@@ -224,7 +224,7 @@ norm
 rawMapping
 !
 =
-NULL
+nullptr
 )
 {
 UnicodeString
@@ -296,7 +296,7 @@ U_INVALID_FORMAT_ERROR
 )
 ;
 }
-UChar
+char16_t
 rm0
 =
 rm
@@ -365,7 +365,7 @@ dataString
 append
 (
 (
-UChar
+char16_t
 )
 rmLength
 )
@@ -415,7 +415,7 @@ dataString
 append
 (
 (
-UChar
+char16_t
 )
 cccLccc
 )
@@ -438,7 +438,7 @@ dataString
 append
 (
 (
-UChar
+char16_t
 )
 firstUnit
 )
@@ -809,7 +809,7 @@ composite
 compositions
 !
 =
-NULL
+nullptr
 )
 {
 compositeAndFwd
@@ -973,7 +973,7 @@ dataString
 append
 (
 (
-UChar
+char16_t
 )
 firstUnit
 )
@@ -981,7 +981,7 @@ firstUnit
 append
 (
 (
-UChar
+char16_t
 )
 secondUnit
 )
@@ -999,7 +999,7 @@ dataString
 append
 (
 (
-UChar
+char16_t
 )
 thirdUnit
 )

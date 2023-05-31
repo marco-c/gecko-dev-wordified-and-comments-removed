@@ -3159,7 +3159,7 @@ c_str
 )
 =
 =
-NULL
+nullptr
 )
 {
 cerr
@@ -3240,7 +3240,7 @@ dp
 )
 !
 =
-NULL
+nullptr
 )
 {
 string

@@ -451,7 +451,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 ;
 virtual
 void
@@ -472,7 +472,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 ;
 virtual
 UnicodeString
@@ -491,7 +491,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 ;
 virtual
 UnicodeString
@@ -510,7 +510,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 ;
 virtual
 UBool
@@ -523,7 +523,7 @@ UnicodeString
 decomposition
 )
 const
-U_OVERRIDE
+override
 ;
 virtual
 UBool
@@ -536,7 +536,7 @@ UnicodeString
 decomposition
 )
 const
-U_OVERRIDE
+override
 ;
 virtual
 UChar32
@@ -548,7 +548,7 @@ UChar32
 b
 )
 const
-U_OVERRIDE
+override
 ;
 virtual
 uint8_t
@@ -558,7 +558,7 @@ UChar32
 c
 )
 const
-U_OVERRIDE
+override
 ;
 virtual
 UBool
@@ -573,7 +573,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 ;
 virtual
 UBool
@@ -586,7 +586,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 ;
 virtual
 UNormalizationCheckResult
@@ -601,7 +601,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 ;
 virtual
 int32_t
@@ -616,7 +616,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 ;
 virtual
 UBool
@@ -626,7 +626,7 @@ UChar32
 c
 )
 const
-U_OVERRIDE
+override
 ;
 virtual
 UBool
@@ -636,7 +636,7 @@ UChar32
 c
 )
 const
-U_OVERRIDE
+override
 ;
 virtual
 UBool
@@ -646,7 +646,7 @@ UChar32
 c
 )
 const
-U_OVERRIDE
+override
 ;
 private
 :

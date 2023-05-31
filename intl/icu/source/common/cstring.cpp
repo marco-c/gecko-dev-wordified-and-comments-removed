@@ -1122,7 +1122,7 @@ if
 str1
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -1130,7 +1130,7 @@ if
 str2
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1151,7 +1151,7 @@ if
 str2
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1307,7 +1307,7 @@ if
 str1
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -1315,7 +1315,7 @@ if
 str2
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1336,7 +1336,7 @@ if
 str2
 =
 =
-NULL
+nullptr
 )
 {
 return

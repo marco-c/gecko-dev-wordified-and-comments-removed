@@ -78,7 +78,7 @@ trieBytes
 :
 ownedArray_
 (
-NULL
+nullptr
 )
 bytes_
 (
@@ -118,7 +118,7 @@ other
 :
 ownedArray_
 (
-NULL
+nullptr
 )
 bytes_
 (
@@ -244,7 +244,7 @@ State
 {
 bytes
 =
-NULL
+nullptr
 ;
 }
 private
@@ -325,7 +325,7 @@ bytes
 bytes_
 !
 =
-NULL
+nullptr
 )
 {
 pos_
@@ -458,7 +458,7 @@ return
 pos
 !
 =
-NULL
+nullptr
 &
 &
 findUniqueValue
@@ -696,7 +696,7 @@ stop
 {
 pos_
 =
-NULL
+nullptr
 ;
 }
 static

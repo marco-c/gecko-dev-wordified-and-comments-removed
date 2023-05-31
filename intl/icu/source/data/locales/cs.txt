@@ -38490,11 +38490,6 @@ metrick
 }
 personNames
 {
-foreignSpaceReplacement
-{
-"
-"
-}
 initialPattern
 {
 initial
@@ -38557,7 +38552,7 @@ formal
 {
 "
 {
-prefix
+title
 }
 {
 given
@@ -38655,7 +38650,7 @@ formal
 {
 "
 {
-prefix
+title
 }
 {
 given
@@ -38670,7 +38665,7 @@ surname
 surname2
 }
 {
-suffix
+credentials
 }
 "
 }
@@ -38703,7 +38698,7 @@ formal
 {
 "
 {
-prefix
+title
 }
 {
 surname
@@ -38784,7 +38779,7 @@ formal
 {
 "
 {
-prefix
+title
 }
 {
 given
@@ -38889,7 +38884,7 @@ formal
 {
 "
 {
-prefix
+title
 }
 {
 surname
@@ -38939,12 +38934,13 @@ prefix
 }
 (
 {
-prefix
+title
 }
 {
-suffix
+credent
 "
 "
+ials
 }
 )
 "
@@ -39089,7 +39085,7 @@ formal
 {
 "
 {
-prefix
+title
 }
 {
 surname
@@ -39187,7 +39183,7 @@ formal
 {
 "
 {
-prefix
+title
 }
 {
 surname
@@ -39202,7 +39198,7 @@ given
 given2
 }
 {
-suffix
+credentials
 }
 "
 }
@@ -39235,7 +39231,7 @@ formal
 {
 "
 {
-prefix
+title
 }
 {
 surname
@@ -39316,7 +39312,7 @@ formal
 {
 "
 {
-prefix
+title
 }
 {
 surname
@@ -39421,7 +39417,7 @@ formal
 {
 "
 {
-prefix
+title
 }
 {
 surname

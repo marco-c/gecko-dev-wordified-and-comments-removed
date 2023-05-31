@@ -290,7 +290,7 @@ case
 :
 return
 (
-UChar
+char16_t
 )
 (
 (
@@ -945,7 +945,7 @@ if
 start
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1035,11 +1035,11 @@ ReorderingBuffer
 equals
 (
 const
-UChar
+char16_t
 *
 otherStart
 const
-UChar
+char16_t
 *
 otherLimit
 )
@@ -1344,7 +1344,7 @@ ReorderingBuffer
 append
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -1442,7 +1442,7 @@ limit
 ;
 }
 const
-UChar
+char16_t
 *
 sLimit
 =
@@ -1640,7 +1640,7 @@ limit
 +
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -1692,11 +1692,11 @@ ReorderingBuffer
 appendZeroCC
 (
 const
-UChar
+char16_t
 *
 s
 const
-UChar
+char16_t
 *
 sLimit
 UErrorCode
@@ -1959,7 +1959,7 @@ if
 start
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -2008,7 +2008,7 @@ codePointLimit
 =
 codePointStart
 ;
-UChar
+char16_t
 c
 =
 *
@@ -2078,7 +2078,7 @@ c
 -
 codePointStart
 ;
-UChar
+char16_t
 c2
 ;
 if
@@ -2159,13 +2159,13 @@ cc
 )
 {
 }
-UChar
+char16_t
 *
 q
 =
 limit
 ;
-UChar
+char16_t
 *
 r
 =
@@ -2301,7 +2301,7 @@ minDecompNoCP
 =
 static_cast
 <
-UChar
+char16_t
 >
 (
 inIndexes
@@ -2314,7 +2314,7 @@ minCompNoMaybeCP
 =
 static_cast
 <
-UChar
+char16_t
 >
 (
 inIndexes
@@ -2327,7 +2327,7 @@ minLcccCP
 =
 static_cast
 <
-UChar
+char16_t
 >
 (
 inIndexes
@@ -2783,7 +2783,7 @@ end
 }
 for
 (
-UChar
+char16_t
 c
 =
 Hangul
@@ -2933,7 +2933,7 @@ end
 }
 }
 const
-UChar
+char16_t
 *
 Normalizer2Impl
 :
@@ -2941,7 +2941,7 @@ Normalizer2Impl
 copyLowPrefixFromNulTerminated
 (
 const
-UChar
+char16_t
 *
 src
 UChar32
@@ -2956,13 +2956,13 @@ errorCode
 const
 {
 const
-UChar
+char16_t
 *
 prevSrc
 =
 src
 ;
-UChar
+char16_t
 c
 ;
 while
@@ -3001,7 +3001,7 @@ if
 buffer
 !
 =
-NULL
+nullptr
 )
 {
 buffer
@@ -3059,7 +3059,7 @@ dest
 ;
 }
 const
-UChar
+char16_t
 *
 sArray
 =
@@ -3082,7 +3082,7 @@ src
 sArray
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -3129,11 +3129,11 @@ Normalizer2Impl
 decompose
 (
 const
-UChar
+char16_t
 *
 src
 const
-UChar
+char16_t
 *
 limit
 UnicodeString
@@ -3157,7 +3157,7 @@ destLengthEstimate
 limit
 !
 =
-NULL
+nullptr
 )
 {
 destLengthEstimate
@@ -3209,7 +3209,7 @@ errorCode
 }
 }
 const
-UChar
+char16_t
 *
 Normalizer2Impl
 :
@@ -3217,11 +3217,11 @@ Normalizer2Impl
 decompose
 (
 const
-UChar
+char16_t
 *
 src
 const
-UChar
+char16_t
 *
 limit
 ReorderingBuffer
@@ -3243,7 +3243,7 @@ if
 limit
 =
 =
-NULL
+nullptr
 )
 {
 src
@@ -3278,7 +3278,7 @@ src
 ;
 }
 const
-UChar
+char16_t
 *
 prevSrc
 ;
@@ -3293,7 +3293,7 @@ norm16
 0
 ;
 const
-UChar
+char16_t
 *
 prevBoundary
 =
@@ -3368,7 +3368,7 @@ break
 }
 else
 {
-UChar
+char16_t
 c2
 ;
 if
@@ -3453,7 +3453,7 @@ if
 buffer
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -3510,7 +3510,7 @@ if
 buffer
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -3593,7 +3593,7 @@ src
 ;
 }
 const
-UChar
+char16_t
 *
 Normalizer2Impl
 :
@@ -3601,11 +3601,11 @@ Normalizer2Impl
 decomposeShort
 (
 const
-UChar
+char16_t
 *
 src
 const
-UChar
+char16_t
 *
 limit
 UBool
@@ -3656,7 +3656,7 @@ src
 ;
 }
 const
-UChar
+char16_t
 *
 prevSrc
 =
@@ -3828,7 +3828,7 @@ norm16
 )
 )
 {
-UChar
+char16_t
 jamos
 [
 3
@@ -3932,7 +3932,7 @@ append
 (
 (
 const
-UChar
+char16_t
 *
 )
 mapping
@@ -4962,7 +4962,7 @@ src
 ;
 }
 const
-UChar
+char16_t
 *
 Normalizer2Impl
 :
@@ -4971,7 +4971,7 @@ getDecomposition
 (
 UChar32
 c
-UChar
+char16_t
 buffer
 [
 4
@@ -5008,7 +5008,7 @@ nullptr
 ;
 }
 const
-UChar
+char16_t
 *
 decomp
 =
@@ -5114,7 +5114,7 @@ MAPPING_LENGTH_MASK
 return
 (
 const
-UChar
+char16_t
 *
 )
 mapping
@@ -5123,7 +5123,7 @@ mapping
 ;
 }
 const
-UChar
+char16_t
 *
 Normalizer2Impl
 :
@@ -5132,7 +5132,7 @@ getRawDecomposition
 (
 UChar32
 c
-UChar
+char16_t
 buffer
 [
 30
@@ -5165,7 +5165,7 @@ c
 )
 {
 return
-NULL
+nullptr
 ;
 }
 else
@@ -5303,7 +5303,7 @@ rm0
 return
 (
 const
-UChar
+char16_t
 *
 )
 rawMapping
@@ -5319,7 +5319,7 @@ buffer
 ]
 =
 (
-UChar
+char16_t
 )
 rm0
 ;
@@ -5330,7 +5330,7 @@ buffer
 1
 (
 const
-UChar
+char16_t
 *
 )
 mapping
@@ -5363,7 +5363,7 @@ mLength
 return
 (
 const
-UChar
+char16_t
 *
 )
 mapping
@@ -5379,11 +5379,11 @@ Normalizer2Impl
 decomposeAndAppend
 (
 const
-UChar
+char16_t
 *
 src
 const
-UChar
+char16_t
 *
 limit
 UBool
@@ -5439,7 +5439,7 @@ prevCC
 cc
 ;
 const
-UChar
+char16_t
 *
 p
 =
@@ -5454,7 +5454,7 @@ limit
 )
 {
 const
-UChar
+char16_t
 *
 codePointStart
 =
@@ -5522,7 +5522,7 @@ if
 limit
 =
 =
-NULL
+nullptr
 )
 {
 limit
@@ -6316,7 +6316,7 @@ onlyContiguous
 )
 const
 {
-UChar
+char16_t
 *
 p
 =
@@ -6328,7 +6328,7 @@ getStart
 +
 recomposeStartIndex
 ;
-UChar
+char16_t
 *
 limit
 =
@@ -6349,7 +6349,7 @@ limit
 return
 ;
 }
-UChar
+char16_t
 *
 starter
 *
@@ -6380,11 +6380,11 @@ starterIsSupplementary
 ;
 compositionsList
 =
-NULL
+nullptr
 ;
 starter
 =
-NULL
+nullptr
 ;
 starterIsSupplementary
 =
@@ -6428,7 +6428,7 @@ norm16
 compositionsList
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -6462,11 +6462,11 @@ Hangul
 JAMO_T_BASE
 )
 {
-UChar
+char16_t
 prev
 =
 (
-UChar
+char16_t
 )
 (
 *
@@ -6494,11 +6494,11 @@ p
 -
 1
 ;
-UChar
+char16_t
 syllable
 =
 (
-UChar
+char16_t
 )
 (
 Hangul
@@ -6530,7 +6530,7 @@ Hangul
 JAMO_T_COUNT
 )
 ;
-UChar
+char16_t
 t
 ;
 if
@@ -6545,7 +6545,7 @@ limit
 t
 =
 (
-UChar
+char16_t
 )
 (
 *
@@ -6628,7 +6628,7 @@ break
 }
 compositionsList
 =
-NULL
+nullptr
 ;
 continue
 ;
@@ -6707,7 +6707,7 @@ else
 starter
 =
 (
-UChar
+char16_t
 )
 composite
 ;
@@ -6821,7 +6821,7 @@ else
 starter
 =
 (
-UChar
+char16_t
 )
 composite
 ;
@@ -6901,7 +6901,7 @@ else
 {
 compositionsList
 =
-NULL
+nullptr
 ;
 }
 continue
@@ -6943,7 +6943,7 @@ norm16
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -6988,7 +6988,7 @@ onlyContiguous
 {
 compositionsList
 =
-NULL
+nullptr
 ;
 }
 }
@@ -7284,11 +7284,11 @@ Normalizer2Impl
 compose
 (
 const
-UChar
+char16_t
 *
 src
 const
-UChar
+char16_t
 *
 limit
 UBool
@@ -7305,7 +7305,7 @@ errorCode
 const
 {
 const
-UChar
+char16_t
 *
 prevBoundary
 =
@@ -7321,7 +7321,7 @@ if
 limit
 =
 =
-NULL
+nullptr
 )
 {
 src
@@ -7335,7 +7335,7 @@ doCompose
 &
 buffer
 :
-NULL
+nullptr
 errorCode
 )
 ;
@@ -7411,7 +7411,7 @@ for
 )
 {
 const
-UChar
+char16_t
 *
 prevSrc
 ;
@@ -7516,7 +7516,7 @@ break
 }
 else
 {
-UChar
+char16_t
 c2
 ;
 if
@@ -7713,14 +7713,14 @@ break
 ;
 }
 const
-UChar
+char16_t
 *
 mapping
 =
 reinterpret_cast
 <
 const
-UChar
+char16_t
 *
 >
 (
@@ -7838,7 +7838,7 @@ prevBoundary
 prevSrc
 )
 {
-UChar
+char16_t
 prev
 =
 *
@@ -7858,11 +7858,11 @@ Hangul
 JAMO_T_BASE
 )
 {
-UChar
+char16_t
 l
 =
 (
-UChar
+char16_t
 )
 (
 prev
@@ -8035,7 +8035,7 @@ buffer
 appendBMP
 (
 (
-UChar
+char16_t
 )
 syllable
 0
@@ -8123,7 +8123,7 @@ buffer
 appendBMP
 (
 (
-UChar
+char16_t
 )
 syllable
 0
@@ -8186,7 +8186,7 @@ false
 else
 {
 const
-UChar
+char16_t
 *
 nextSrc
 ;
@@ -8333,7 +8333,7 @@ norm16
 )
 {
 const
-UChar
+char16_t
 *
 p
 =
@@ -8497,7 +8497,7 @@ true
 ;
 }
 const
-UChar
+char16_t
 *
 Normalizer2Impl
 :
@@ -8505,11 +8505,11 @@ Normalizer2Impl
 composeQuickCheck
 (
 const
-UChar
+char16_t
 *
 src
 const
-UChar
+char16_t
 *
 limit
 UBool
@@ -8521,7 +8521,7 @@ pQCResult
 const
 {
 const
-UChar
+char16_t
 *
 prevBoundary
 =
@@ -8537,7 +8537,7 @@ if
 limit
 =
 =
-NULL
+nullptr
 )
 {
 UErrorCode
@@ -8551,7 +8551,7 @@ copyLowPrefixFromNulTerminated
 (
 src
 minNoMaybeCP
-NULL
+nullptr
 errorCode
 )
 ;
@@ -8608,7 +8608,7 @@ for
 )
 {
 const
-UChar
+char16_t
 *
 prevSrc
 ;
@@ -8692,7 +8692,7 @@ break
 }
 else
 {
-UChar
+char16_t
 c2
 ;
 if
@@ -8778,7 +8778,7 @@ prevSrc
 else
 {
 const
-UChar
+char16_t
 *
 p
 =
@@ -8863,7 +8863,7 @@ cc
 else
 {
 const
-UChar
+char16_t
 *
 nextSrc
 ;
@@ -9004,7 +9004,7 @@ if
 pQCResult
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -9025,11 +9025,11 @@ Normalizer2Impl
 composeAndAppend
 (
 const
-UChar
+char16_t
 *
 src
 const
-UChar
+char16_t
 *
 limit
 UBool
@@ -9059,7 +9059,7 @@ isEmpty
 )
 {
 const
-UChar
+char16_t
 *
 firstStarterInSrc
 =
@@ -9079,7 +9079,7 @@ firstStarterInSrc
 )
 {
 const
-UChar
+char16_t
 *
 lastStarterInDest
 =
@@ -9148,7 +9148,7 @@ src
 )
 ;
 const
-UChar
+char16_t
 *
 middleStart
 =
@@ -9214,7 +9214,7 @@ if
 limit
 =
 =
-NULL
+nullptr
 )
 {
 limit
@@ -9574,7 +9574,7 @@ prevSrc
 src
 (
 const
-UChar
+char16_t
 *
 )
 mapping
@@ -10398,11 +10398,11 @@ Normalizer2Impl
 hasCompBoundaryBefore
 (
 const
-UChar
+char16_t
 *
 src
 const
-UChar
+char16_t
 *
 limit
 )
@@ -10504,11 +10504,11 @@ Normalizer2Impl
 hasCompBoundaryAfter
 (
 const
-UChar
+char16_t
 *
 start
 const
-UChar
+char16_t
 *
 p
 UBool
@@ -10604,7 +10604,7 @@ onlyContiguous
 ;
 }
 const
-UChar
+char16_t
 *
 Normalizer2Impl
 :
@@ -10612,11 +10612,11 @@ Normalizer2Impl
 findPreviousCompBoundary
 (
 const
-UChar
+char16_t
 *
 start
 const
-UChar
+char16_t
 *
 p
 UBool
@@ -10633,7 +10633,7 @@ start
 )
 {
 const
-UChar
+char16_t
 *
 codePointLimit
 =
@@ -10687,7 +10687,7 @@ p
 ;
 }
 const
-UChar
+char16_t
 *
 Normalizer2Impl
 :
@@ -10695,11 +10695,11 @@ Normalizer2Impl
 findNextCompBoundary
 (
 const
-UChar
+char16_t
 *
 p
 const
-UChar
+char16_t
 *
 limit
 UBool
@@ -10716,7 +10716,7 @@ limit
 )
 {
 const
-UChar
+char16_t
 *
 codePointStart
 =
@@ -10776,11 +10776,11 @@ Normalizer2Impl
 getPreviousTrailCC
 (
 const
-UChar
+char16_t
 *
 start
 const
-UChar
+char16_t
 *
 p
 )
@@ -11132,7 +11132,7 @@ on
 #
 endif
 const
-UChar
+char16_t
 *
 Normalizer2Impl
 :
@@ -11140,11 +11140,11 @@ Normalizer2Impl
 makeFCD
 (
 const
-UChar
+char16_t
 *
 src
 const
-UChar
+char16_t
 *
 limit
 ReorderingBuffer
@@ -11157,7 +11157,7 @@ errorCode
 const
 {
 const
-UChar
+char16_t
 *
 prevBoundary
 =
@@ -11173,7 +11173,7 @@ if
 limit
 =
 =
-NULL
+nullptr
 )
 {
 src
@@ -11244,7 +11244,7 @@ src
 ;
 }
 const
-UChar
+char16_t
 *
 prevSrc
 ;
@@ -11328,7 +11328,7 @@ c
 )
 )
 {
-UChar
+char16_t
 c2
 ;
 if
@@ -11412,7 +11412,7 @@ if
 buffer
 !
 =
-NULL
+nullptr
 &
 &
 !
@@ -11496,7 +11496,7 @@ prevBoundary
 else
 {
 const
-UChar
+char16_t
 *
 p
 =
@@ -11628,7 +11628,7 @@ if
 buffer
 !
 =
-NULL
+nullptr
 &
 &
 !
@@ -11658,7 +11658,7 @@ if
 buffer
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -11733,11 +11733,11 @@ Normalizer2Impl
 makeFCDAndAppend
 (
 const
-UChar
+char16_t
 *
 src
 const
-UChar
+char16_t
 *
 limit
 UBool
@@ -11765,7 +11765,7 @@ isEmpty
 )
 {
 const
-UChar
+char16_t
 *
 firstBoundaryInSrc
 =
@@ -11784,7 +11784,7 @@ firstBoundaryInSrc
 )
 {
 const
-UChar
+char16_t
 *
 lastBoundaryInDest
 =
@@ -11852,7 +11852,7 @@ src
 )
 ;
 const
-UChar
+char16_t
 *
 middleStart
 =
@@ -11916,7 +11916,7 @@ if
 limit
 =
 =
-NULL
+nullptr
 )
 {
 limit
@@ -11940,7 +11940,7 @@ errorCode
 }
 }
 const
-UChar
+char16_t
 *
 Normalizer2Impl
 :
@@ -11948,11 +11948,11 @@ Normalizer2Impl
 findPreviousFCDBoundary
 (
 const
-UChar
+char16_t
 *
 start
 const
-UChar
+char16_t
 *
 p
 )
@@ -11966,7 +11966,7 @@ p
 )
 {
 const
-UChar
+char16_t
 *
 codePointLimit
 =
@@ -12023,7 +12023,7 @@ p
 ;
 }
 const
-UChar
+char16_t
 *
 Normalizer2Impl
 :
@@ -12031,11 +12031,11 @@ Normalizer2Impl
 findNextFCDBoundary
 (
 const
-UChar
+char16_t
 *
 p
 const
-UChar
+char16_t
 *
 limit
 )
@@ -12049,7 +12049,7 @@ limit
 )
 {
 const
-UChar
+char16_t
 *
 codePointStart
 =
@@ -12132,7 +12132,7 @@ nullptr
 canonStartSets
 (
 uprv_deleteUObject
-NULL
+nullptr
 errorCode
 )
 {
@@ -12441,7 +12441,7 @@ impl
 fCanonIterData
 =
 =
-NULL
+nullptr
 )
 ;
 impl
@@ -12463,7 +12463,7 @@ impl
 fCanonIterData
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -12634,7 +12634,7 @@ impl
 >
 fCanonIterData
 =
-NULL
+nullptr
 ;
 }
 }
@@ -13391,7 +13391,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -13596,6 +13596,15 @@ headerSize
 ;
 outBytes
 =
+(
+outData
+=
+=
+nullptr
+)
+?
+nullptr
+:
 (
 uint8_t
 *

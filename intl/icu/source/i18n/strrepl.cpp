@@ -363,7 +363,7 @@ UnicodeString
 str
 (
 (
-UChar
+char16_t
 )
 0xFFFF
 )
@@ -445,7 +445,7 @@ if
 r
 =
 =
-NULL
+nullptr
 )
 {
 buf
@@ -820,7 +820,7 @@ appendToRule
 (
 rule
 (
-UChar
+char16_t
 )
 0x0040
 true
@@ -868,7 +868,7 @@ appendToRule
 (
 rule
 (
-UChar
+char16_t
 )
 0x007C
 true
@@ -877,7 +877,7 @@ quoteBuf
 )
 ;
 }
-UChar
+char16_t
 c
 =
 output
@@ -904,7 +904,7 @@ if
 r
 =
 =
-NULL
+nullptr
 )
 {
 ICU_Utility
@@ -940,7 +940,7 @@ insert
 (
 0
 (
-UChar
+char16_t
 )
 0x20
 )
@@ -950,7 +950,7 @@ buf
 append
 (
 (
-UChar
+char16_t
 )
 0x20
 )
@@ -1008,7 +1008,7 @@ appendToRule
 (
 rule
 (
-UChar
+char16_t
 )
 0x0040
 true
@@ -1024,7 +1024,7 @@ appendToRule
 (
 rule
 (
-UChar
+char16_t
 )
 0x007C
 true
@@ -1115,7 +1115,7 @@ if
 r
 =
 =
-NULL
+nullptr
 )
 {
 toUnionTo
@@ -1198,7 +1198,7 @@ if
 f
 !
 =
-NULL
+nullptr
 )
 {
 f

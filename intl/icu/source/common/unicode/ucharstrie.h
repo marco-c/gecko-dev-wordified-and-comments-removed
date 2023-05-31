@@ -70,7 +70,7 @@ trieUChars
 :
 ownedArray_
 (
-NULL
+nullptr
 )
 uchars_
 (
@@ -102,7 +102,7 @@ other
 :
 ownedArray_
 (
-NULL
+nullptr
 )
 uchars_
 (
@@ -228,7 +228,7 @@ State
 {
 uchars
 =
-NULL
+nullptr
 ;
 }
 private
@@ -309,7 +309,7 @@ uchars
 uchars_
 !
 =
-NULL
+nullptr
 )
 {
 pos_
@@ -450,7 +450,7 @@ return
 pos
 !
 =
-NULL
+nullptr
 &
 &
 findUniqueValue
@@ -563,7 +563,7 @@ truncateAndStop
 {
 pos_
 =
-NULL
+nullptr
 ;
 value_
 =
@@ -686,7 +686,7 @@ stop
 {
 pos_
 =
-NULL
+nullptr
 ;
 }
 static

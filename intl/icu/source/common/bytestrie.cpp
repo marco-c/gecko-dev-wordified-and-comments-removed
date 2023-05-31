@@ -450,7 +450,7 @@ if
 pos
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1076,7 +1076,7 @@ if
 pos
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1228,7 +1228,7 @@ if
 pos
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1691,7 +1691,7 @@ pos
 ;
 if
 (
-NULL
+nullptr
 =
 =
 findUniqueValueFromBranch
@@ -1710,7 +1710,7 @@ uniqueValue
 )
 {
 return
-NULL
+nullptr
 ;
 }
 length
@@ -1797,7 +1797,7 @@ uniqueValue
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1829,7 +1829,7 @@ uniqueValue
 )
 {
 return
-NULL
+nullptr
 ;
 }
 haveUniqueValue
@@ -1924,7 +1924,7 @@ if
 pos
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2053,7 +2053,7 @@ if
 pos
 =
 =
-NULL
+nullptr
 )
 {
 return

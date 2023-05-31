@@ -316,17 +316,6 @@ status
 const
 override
 ;
-virtual
-UBool
-inDaylightTime
-(
-UErrorCode
-&
-status
-)
-const
-override
-;
 public
 :
 virtual

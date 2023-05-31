@@ -78,7 +78,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 LocalPointer
@@ -111,7 +111,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -155,7 +155,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 LocalPointer
@@ -190,7 +190,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -238,7 +238,7 @@ UnicodeString
 getUnicodeStrings
 (
 const
-UChar
+char16_t
 *
 const
 strings
@@ -283,7 +283,7 @@ stringCount
 strings
 =
 =
-NULL
+nullptr
 &
 &
 stringCount
@@ -351,7 +351,7 @@ if
 stringLengths
 =
 =
-NULL
+nullptr
 )
 {
 for
@@ -445,7 +445,7 @@ UListFormatter
 *
 listfmt
 const
-UChar
+char16_t
 *
 const
 strings
@@ -457,7 +457,7 @@ int32_t
 stringLengths
 int32_t
 stringCount
-UChar
+char16_t
 *
 result
 int32_t
@@ -487,7 +487,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 ?
 resultCapacity
@@ -559,7 +559,7 @@ if
 result
 !
 =
-NULL
+nullptr
 )
 {
 res
@@ -614,7 +614,7 @@ UListFormatter
 *
 listfmt
 const
-UChar
+char16_t
 *
 const
 strings

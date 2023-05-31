@@ -12,13 +12,11 @@ h
 int
 uprv_dummyFunction_TU
 (
-void
 )
 ;
 int
 uprv_dummyFunction_TU
 (
-void
 )
 {
 return

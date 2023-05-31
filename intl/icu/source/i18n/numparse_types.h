@@ -216,7 +216,7 @@ getBuffer
 )
 sizeof
 (
-UChar
+char16_t
 )
 *
 text
@@ -288,7 +288,7 @@ private
 :
 MaybeStackArray
 <
-UChar
+char16_t
 stackCapacity
 >
 fBuffer
@@ -327,7 +327,7 @@ prefix
 UnicodeString
 suffix
 ;
-UChar
+char16_t
 currencyCode
 [
 4

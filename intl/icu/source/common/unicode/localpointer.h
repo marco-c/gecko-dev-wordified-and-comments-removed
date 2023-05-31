@@ -84,7 +84,7 @@ T
 *
 p
 =
-NULL
+nullptr
 )
 :
 ptr
@@ -109,7 +109,7 @@ return
 ptr
 =
 =
-NULL
+nullptr
 ;
 }
 UBool
@@ -122,7 +122,7 @@ return
 ptr
 !
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -214,7 +214,7 @@ ptr
 ;
 ptr
 =
-NULL
+nullptr
 ;
 return
 p
@@ -339,7 +339,7 @@ T
 *
 p
 =
-NULL
+nullptr
 )
 :
 LocalPointerBase
@@ -374,7 +374,7 @@ if
 p
 =
 =
-NULL
+nullptr
 &
 &
 U_SUCCESS
@@ -399,7 +399,7 @@ T
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 LocalPointerBase
 <
@@ -415,7 +415,7 @@ src
 .
 ptr
 =
-NULL
+nullptr
 ;
 }
 explicit
@@ -477,7 +477,7 @@ T
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 delete
 LocalPointerBase
@@ -504,7 +504,7 @@ src
 .
 ptr
 =
-NULL
+nullptr
 ;
 return
 *
@@ -530,7 +530,7 @@ T
 &
 p
 )
-U_NOEXCEPT
+noexcept
 {
 adoptInstead
 (
@@ -556,7 +556,7 @@ T
 &
 other
 )
-U_NOEXCEPT
+noexcept
 {
 T
 *
@@ -607,7 +607,7 @@ T
 &
 p2
 )
-U_NOEXCEPT
+noexcept
 {
 p1
 .
@@ -688,7 +688,7 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -784,7 +784,7 @@ T
 *
 p
 =
-NULL
+nullptr
 )
 :
 LocalPointerBase
@@ -819,7 +819,7 @@ if
 p
 =
 =
-NULL
+nullptr
 &
 &
 U_SUCCESS
@@ -844,7 +844,7 @@ T
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 LocalPointerBase
 <
@@ -860,7 +860,7 @@ src
 .
 ptr
 =
-NULL
+nullptr
 ;
 }
 explicit
@@ -926,7 +926,7 @@ T
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 delete
 [
@@ -955,7 +955,7 @@ src
 .
 ptr
 =
-NULL
+nullptr
 ;
 return
 *
@@ -983,7 +983,7 @@ T
 &
 p
 )
-U_NOEXCEPT
+noexcept
 {
 adoptInstead
 (
@@ -1009,7 +1009,7 @@ T
 &
 other
 )
-U_NOEXCEPT
+noexcept
 {
 T
 *
@@ -1060,7 +1060,7 @@ T
 &
 p2
 )
-U_NOEXCEPT
+noexcept
 {
 p1
 .
@@ -1145,7 +1145,7 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1279,7 +1279,7 @@ Type
 *
 p
 =
-NULL
+nullptr
 )
 :
 LocalPointerBase
@@ -1299,7 +1299,7 @@ LocalPointerClassName
 &
 src
 )
-U_NOEXCEPT
+noexcept
 \
 :
 LocalPointerBase
@@ -1317,7 +1317,7 @@ src
 .
 ptr
 =
-NULL
+nullptr
 ;
 \
 }
@@ -1391,7 +1391,7 @@ if
 ptr
 !
 =
-NULL
+nullptr
 )
 {
 closeFunction
@@ -1412,7 +1412,7 @@ LocalPointerClassName
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 \
 if
@@ -1420,7 +1420,7 @@ if
 ptr
 !
 =
-NULL
+nullptr
 )
 {
 closeFunction
@@ -1447,7 +1447,7 @@ src
 .
 ptr
 =
-NULL
+nullptr
 ;
 \
 return
@@ -1528,7 +1528,7 @@ LocalPointerClassName
 &
 other
 )
-U_NOEXCEPT
+noexcept
 {
 \
 Type
@@ -1578,7 +1578,7 @@ LocalPointerClassName
 &
 p2
 )
-U_NOEXCEPT
+noexcept
 {
 \
 p1
@@ -1605,7 +1605,7 @@ if
 ptr
 !
 =
-NULL
+nullptr
 )
 {
 closeFunction

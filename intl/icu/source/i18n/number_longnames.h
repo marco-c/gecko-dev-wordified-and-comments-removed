@@ -194,7 +194,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 const
 Modifier
@@ -210,7 +210,7 @@ Form
 plural
 )
 const
-U_OVERRIDE
+override
 ;
 private
 :
@@ -439,7 +439,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 const
 Modifier
@@ -455,7 +455,7 @@ Form
 plural
 )
 const
-U_OVERRIDE
+override
 ;
 private
 :
@@ -616,7 +616,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 private
 :

@@ -345,7 +345,7 @@ errorCode
 )
 miniCEs
 (
-NULL
+nullptr
 )
 firstDigitPrimary
 (
@@ -589,7 +589,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 r0
 )
@@ -644,7 +644,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 0
 )
@@ -905,7 +905,7 @@ i
 ;
 for
 (
-UChar
+char16_t
 c
 =
 0
@@ -1787,7 +1787,7 @@ false
 ;
 }
 const
-UChar
+char16_t
 *
 p
 =
@@ -2365,7 +2365,7 @@ if
 miniCEs
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -2515,7 +2515,7 @@ setCharAt
 +
 group
 (
-UChar
+char16_t
 )
 pri
 )
@@ -3267,7 +3267,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 0
 )
@@ -3384,7 +3384,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 (
 miniCE
@@ -3397,7 +3397,7 @@ miniCE
 append
 (
 (
-UChar
+char16_t
 )
 miniCE
 )
@@ -3421,7 +3421,7 @@ miniCEsStart
 +
 i
 (
-UChar
+char16_t
 )
 miniCE
 )
@@ -3668,7 +3668,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 (
 x
@@ -3700,7 +3700,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 (
 x
@@ -3722,7 +3722,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 miniCE
 )
@@ -3735,7 +3735,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 (
 x
@@ -3757,7 +3757,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 (
 miniCE
@@ -3770,7 +3770,7 @@ miniCE
 append
 (
 (
-UChar
+char16_t
 )
 miniCE
 )
@@ -3789,7 +3789,7 @@ headerLength
 +
 i
 (
-UChar
+char16_t
 )
 (
 CollationFastLatin
@@ -3818,7 +3818,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 CollationFastLatin
 :

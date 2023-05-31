@@ -614,6 +614,17 @@ aK
 pK
 "
 }
+narrow
+%
+variant
+{
+"
+aK
+"
+"
+pK
+"
+}
 wide
 {
 "

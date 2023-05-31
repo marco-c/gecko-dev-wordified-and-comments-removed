@@ -206,7 +206,7 @@ a
 )
 !
 =
-NULL
+nullptr
 ;
 }
 static
@@ -237,7 +237,7 @@ if
 result
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -315,11 +315,11 @@ kLong
 ;
 fDecimalStr
 =
-NULL
+nullptr
 ;
 fDecimalQuantity
 =
-NULL
+nullptr
 ;
 fBogus
 .
@@ -793,7 +793,7 @@ source
 fDecimalQuantity
 !
 =
-NULL
+nullptr
 )
 {
 fDecimalQuantity
@@ -815,7 +815,7 @@ source
 fDecimalStr
 !
 =
-NULL
+nullptr
 )
 {
 fDecimalStr
@@ -843,7 +843,7 @@ fDecimalStr
 ;
 fDecimalStr
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1084,7 +1084,7 @@ fValue
 fObject
 =
 =
-NULL
+nullptr
 |
 |
 that
@@ -1094,7 +1094,7 @@ fValue
 fObject
 =
 =
-NULL
+nullptr
 )
 {
 equal
@@ -1206,14 +1206,14 @@ fDecimalStr
 ;
 fDecimalStr
 =
-NULL
+nullptr
 ;
 delete
 fDecimalQuantity
 ;
 fDecimalQuantity
 =
-NULL
+nullptr
 ;
 }
 Formattable
@@ -1444,7 +1444,7 @@ fValue
 fObject
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1617,7 +1617,7 @@ U_DOUBLE_MAX_EXACT_INT
 fDecimalQuantity
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1684,7 +1684,7 @@ fValue
 fObject
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1814,7 +1814,7 @@ fValue
 fObject
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1894,7 +1894,7 @@ fValue
 .
 fObject
 :
-NULL
+nullptr
 ;
 }
 void
@@ -2207,7 +2207,7 @@ fValue
 fString
 =
 =
-NULL
+nullptr
 )
 {
 setError
@@ -2274,7 +2274,7 @@ fValue
 fString
 =
 =
-NULL
+nullptr
 )
 {
 setError
@@ -2337,7 +2337,7 @@ fValue
 fString
 =
 =
-NULL
+nullptr
 )
 {
 setError
@@ -2396,7 +2396,7 @@ count
 0
 ;
 return
-NULL
+nullptr
 ;
 }
 count
@@ -2463,7 +2463,7 @@ if
 fDecimalStr
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -2489,7 +2489,7 @@ if
 decimalStr
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2526,7 +2526,7 @@ if
 fDecimalStr
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -2534,7 +2534,7 @@ if
 fDecimalQuantity
 =
 =
-NULL
+nullptr
 )
 {
 LocalPointer
@@ -2602,7 +2602,7 @@ if
 fDecimalStr
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -2610,7 +2610,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2887,7 +2887,7 @@ if
 fDecimalQuantity
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -2903,7 +2903,7 @@ if
 dq
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -3374,7 +3374,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UFormattable
@@ -3398,7 +3398,7 @@ if
 fmt
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -3681,7 +3681,7 @@ if
 ret
 =
 =
-NULL
+nullptr
 &
 &
 (
@@ -3719,7 +3719,7 @@ ret
 }
 U_CAPI
 const
-UChar
+char16_t
 *
 U_EXPORT2
 ufmt_getUChars
@@ -3779,7 +3779,7 @@ U_INVALID_FORMAT_ERROR
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 UnicodeString
@@ -3807,7 +3807,7 @@ status
 len
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3929,7 +3929,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 else
@@ -3954,7 +3954,7 @@ U_INDEX_OUTOFBOUNDS_ERROR
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 else
@@ -4050,7 +4050,7 @@ if
 charString
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -4070,7 +4070,7 @@ if
 len
 !
 =
-NULL
+nullptr
 )
 {
 *

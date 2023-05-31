@@ -77,7 +77,7 @@ UPerfTest
 :
 gTest
 =
-NULL
+nullptr
 ;
 static
 const
@@ -578,11 +578,11 @@ argv
 )
 _addUsage
 (
-NULL
+nullptr
 )
 ucharBuf
 (
-NULL
+nullptr
 )
 encoding
 (
@@ -595,7 +595,7 @@ false
 )
 fileName
 (
-NULL
+nullptr
 )
 sourceDir
 (
@@ -605,7 +605,7 @@ sourceDir
 )
 lines
 (
-NULL
+nullptr
 )
 numLines
 (
@@ -617,7 +617,7 @@ true
 )
 buffer
 (
-NULL
+nullptr
 )
 bufferLen
 (
@@ -645,12 +645,12 @@ time
 )
 locale
 (
-NULL
+nullptr
 )
 {
 init
 (
-NULL
+nullptr
 0
 status
 )
@@ -698,7 +698,7 @@ addUsage
 )
 ucharBuf
 (
-NULL
+nullptr
 )
 encoding
 (
@@ -711,7 +711,7 @@ false
 )
 fileName
 (
-NULL
+nullptr
 )
 sourceDir
 (
@@ -721,7 +721,7 @@ sourceDir
 )
 lines
 (
-NULL
+nullptr
 )
 numLines
 (
@@ -733,7 +733,7 @@ true
 )
 buffer
 (
-NULL
+nullptr
 )
 bufferLen
 (
@@ -761,7 +761,7 @@ time
 )
 locale
 (
-NULL
+nullptr
 )
 {
 init
@@ -797,7 +797,7 @@ _argv
 ;
 resolvedFileName
 =
-NULL
+nullptr
 ;
 int32_t
 optionsCount
@@ -1151,14 +1151,14 @@ if
 fileName
 !
 =
-NULL
+nullptr
 )
 {
 ucbuf_resolveFileName
 (
 sourceDir
 fileName
-NULL
+nullptr
 &
 len
 &
@@ -1181,7 +1181,7 @@ if
 resolvedFileName
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1288,7 +1288,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1296,7 +1296,7 @@ if
 lines
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -1321,11 +1321,11 @@ numLines
 0
 ;
 const
-UChar
+char16_t
 *
 line
 =
-NULL
+nullptr
 ;
 int32_t
 len
@@ -1354,7 +1354,7 @@ if
 line
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -1374,7 +1374,7 @@ numLines
 name
 =
 new
-UChar
+char16_t
 [
 len
 ]
@@ -1438,7 +1438,7 @@ if
 newLines
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -1472,7 +1472,7 @@ delete
 lines
 ;
 return
-NULL
+nullptr
 ;
 }
 memcpy
@@ -1503,7 +1503,7 @@ lines
 ;
 }
 const
-UChar
+char16_t
 *
 UPerfTest
 :
@@ -1527,7 +1527,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 len
@@ -1540,7 +1540,7 @@ ucharBuf
 buffer
 =
 (
-UChar
+char16_t
 *
 )
 uprv_malloc
@@ -1774,7 +1774,7 @@ char
 *
 pos
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1809,7 +1809,7 @@ else
 {
 path
 =
-NULL
+nullptr
 ;
 }
 if
@@ -1847,8 +1847,8 @@ rval
 =
 runTestLoop
 (
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -1959,7 +1959,7 @@ overridden
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 UBool
@@ -2120,7 +2120,7 @@ if
 testFunction
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -2131,7 +2131,7 @@ stderr
 s
 function
 returned
-NULL
+nullptr
 "
 name
 )
@@ -3019,7 +3019,6 @@ UPerfTest
 :
 usage
 (
-void
 )
 {
 puts
@@ -3032,7 +3031,7 @@ if
 _addUsage
 !
 =
-NULL
+nullptr
 )
 {
 puts
@@ -3092,7 +3091,7 @@ char
 *
 name
 =
-NULL
+nullptr
 ;
 do
 {
@@ -3228,7 +3227,7 @@ if
 lines
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -3242,7 +3241,7 @@ if
 buffer
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -3256,7 +3255,7 @@ if
 resolvedFileName
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free

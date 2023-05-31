@@ -74,7 +74,7 @@ define
 UNDERSCORE_CHAR
 (
 (
-UChar
+char16_t
 )
 0x005f
 )
@@ -83,7 +83,7 @@ define
 AT_SIGN_CHAR
 (
 (
-UChar
+char16_t
 )
 64
 )
@@ -92,7 +92,7 @@ define
 PERIOD_CHAR
 (
 (
-UChar
+char16_t
 )
 46
 )
@@ -190,7 +190,7 @@ _obj
 ;
 _obj
 =
-NULL
+nullptr
 ;
 }
 UObject
@@ -227,12 +227,15 @@ LocaleKey
 &
 lkey
 =
-(
+static_cast
+<
 const
 LocaleKey
 &
-)
+>
+(
 key
+)
 ;
 if
 (
@@ -286,7 +289,7 @@ _obj
 }
 }
 return
-NULL
+nullptr
 ;
 }
 void

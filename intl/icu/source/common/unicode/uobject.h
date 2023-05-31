@@ -31,7 +31,7 @@ U_NO_THROW
 #
 define
 U_NO_THROW
-U_NOEXCEPT
+noexcept
 #
 endif
 typedef
@@ -96,7 +96,7 @@ new
 size_t
 size
 )
-U_NOEXCEPT
+noexcept
 ;
 static
 void
@@ -110,7 +110,7 @@ new
 size_t
 size
 )
-U_NOEXCEPT
+noexcept
 ;
 static
 void
@@ -122,7 +122,7 @@ void
 *
 p
 )
-U_NOEXCEPT
+noexcept
 ;
 static
 void
@@ -136,7 +136,7 @@ void
 *
 p
 )
-U_NOEXCEPT
+noexcept
 ;
 #
 if
@@ -154,7 +154,7 @@ void
 *
 ptr
 )
-U_NOEXCEPT
+noexcept
 {
 return
 ptr
@@ -172,7 +172,7 @@ void
 void
 *
 )
-U_NOEXCEPT
+noexcept
 {
 }
 #
@@ -196,7 +196,7 @@ file
 int
 line
 )
-U_NOEXCEPT
+noexcept
 ;
 static
 void
@@ -214,7 +214,7 @@ file
 int
 line
 )
-U_NOEXCEPT
+noexcept
 ;
 #
 endif

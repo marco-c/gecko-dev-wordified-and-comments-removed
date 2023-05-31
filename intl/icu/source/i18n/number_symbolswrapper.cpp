@@ -75,7 +75,7 @@ SymbolsWrapper
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 doMoveFrom
 (
@@ -144,7 +144,7 @@ SymbolsWrapper
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 if
 (

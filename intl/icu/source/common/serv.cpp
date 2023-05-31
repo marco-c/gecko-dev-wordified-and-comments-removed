@@ -39,7 +39,7 @@ undef
 SERVICE_REFCOUNT
 U_NAMESPACE_BEGIN
 const
-UChar
+char16_t
 ICUServiceKey
 :
 :
@@ -487,7 +487,7 @@ _instance
 }
 }
 return
-NULL
+nullptr
 ;
 }
 void
@@ -799,7 +799,7 @@ delete
 this
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -925,7 +925,7 @@ if
 sp
 =
 =
-NULL
+nullptr
 |
 |
 sp
@@ -944,7 +944,7 @@ delete
 sp
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -952,7 +952,7 @@ sp
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 UBool
@@ -1045,19 +1045,19 @@ timestamp
 )
 factories
 (
-NULL
+nullptr
 )
 serviceCache
 (
-NULL
+nullptr
 )
 idCache
 (
-NULL
+nullptr
 )
 dnCache
 (
-NULL
+nullptr
 )
 {
 }
@@ -1082,19 +1082,19 @@ timestamp
 )
 factories
 (
-NULL
+nullptr
 )
 serviceCache
 (
-NULL
+nullptr
 )
 idCache
 (
-NULL
+nullptr
 )
 dnCache
 (
-NULL
+nullptr
 )
 {
 }
@@ -1123,7 +1123,7 @@ factories
 ;
 factories
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1148,7 +1148,7 @@ return
 get
 (
 descriptor
-NULL
+nullptr
 status
 )
 ;
@@ -1177,7 +1177,7 @@ UObject
 *
 result
 =
-NULL
+nullptr
 ;
 ICUServiceKey
 *
@@ -1233,7 +1233,7 @@ return
 getKey
 (
 key
-NULL
+nullptr
 status
 )
 ;
@@ -1262,7 +1262,7 @@ getKey
 (
 key
 actualReturn
-NULL
+nullptr
 status
 )
 ;
@@ -1364,7 +1364,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1397,7 +1397,7 @@ CacheEntry
 *
 result
 =
-NULL
+nullptr
 ;
 {
 XMutex
@@ -1408,7 +1408,7 @@ lock
 factory
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -1416,7 +1416,7 @@ if
 serviceCache
 =
 =
-NULL
+nullptr
 )
 {
 ncthis
@@ -1438,7 +1438,7 @@ ncthis
 serviceCache
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1446,7 +1446,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1461,7 +1461,7 @@ delete
 serviceCache
 ;
 return
-NULL
+nullptr
 ;
 }
 serviceCache
@@ -1512,7 +1512,7 @@ if
 factory
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -1573,7 +1573,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 cacheResult
@@ -1615,7 +1615,7 @@ if
 result
 !
 =
-NULL
+nullptr
 )
 {
 break
@@ -1681,7 +1681,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1711,7 +1711,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1719,7 +1719,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 service
@@ -1750,7 +1750,7 @@ new
 UVector
 (
 uprv_deleteUObject
-NULL
+nullptr
 5
 status
 )
@@ -1766,7 +1766,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1793,7 +1793,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1811,7 +1811,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 cacheDescriptorList
@@ -1836,7 +1836,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1856,7 +1856,7 @@ if
 result
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1889,7 +1889,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1958,7 +1958,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 result
@@ -1984,7 +1984,7 @@ if
 actualReturn
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1997,7 +1997,7 @@ actualDescriptor
 indexOf
 (
 (
-UChar
+char16_t
 )
 0x2f
 )
@@ -2065,7 +2065,7 @@ delete
 result
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -2126,7 +2126,7 @@ UErrorCode
 const
 {
 return
-NULL
+nullptr
 ;
 }
 UVector
@@ -2149,7 +2149,7 @@ return
 getVisibleIDs
 (
 result
-NULL
+nullptr
 status
 )
 ;
@@ -2226,7 +2226,7 @@ if
 map
 !
 =
-NULL
+nullptr
 )
 {
 ICUServiceKey
@@ -2271,7 +2271,7 @@ if
 e
 =
 =
-NULL
+nullptr
 )
 {
 break
@@ -2299,7 +2299,7 @@ if
 fallbackKey
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2400,7 +2400,7 @@ status
 )
 )
 return
-NULL
+nullptr
 ;
 ICUService
 *
@@ -2417,7 +2417,7 @@ if
 idCache
 =
 =
-NULL
+nullptr
 )
 {
 ncthis
@@ -2436,7 +2436,7 @@ if
 idCache
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -2450,7 +2450,7 @@ if
 factories
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -2517,7 +2517,7 @@ ncthis
 >
 idCache
 =
-NULL
+nullptr
 ;
 }
 }
@@ -2606,7 +2606,7 @@ if
 map
 !
 =
-NULL
+nullptr
 )
 {
 ICUServiceFactory
@@ -2630,7 +2630,7 @@ if
 f
 !
 =
-NULL
+nullptr
 )
 {
 f
@@ -2667,7 +2667,7 @@ while
 fallbackKey
 !
 =
-NULL
+nullptr
 &
 &
 fallbackKey
@@ -2708,7 +2708,7 @@ if
 f
 !
 =
-NULL
+nullptr
 )
 {
 f
@@ -2770,7 +2770,7 @@ Locale
 getDefault
 (
 )
-NULL
+nullptr
 status
 )
 ;
@@ -2800,7 +2800,7 @@ getDisplayNames
 (
 result
 locale
-NULL
+nullptr
 status
 )
 ;
@@ -2872,7 +2872,7 @@ if
 dnCache
 !
 =
-NULL
+nullptr
 &
 &
 dnCache
@@ -2892,7 +2892,7 @@ ncthis
 >
 dnCache
 =
-NULL
+nullptr
 ;
 }
 if
@@ -2900,7 +2900,7 @@ if
 dnCache
 =
 =
-NULL
+nullptr
 )
 {
 const
@@ -2941,7 +2941,7 @@ if
 dnCache
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -2962,7 +2962,7 @@ UHashElement
 *
 entry
 =
-NULL
+nullptr
 ;
 while
 (
@@ -2979,7 +2979,7 @@ pos
 )
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -3080,7 +3080,7 @@ ncthis
 >
 dnCache
 =
-NULL
+nullptr
 ;
 return
 result
@@ -3108,7 +3108,7 @@ UHashElement
 *
 entry
 =
-NULL
+nullptr
 ;
 while
 (
@@ -3127,7 +3127,7 @@ pos
 )
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -3152,7 +3152,7 @@ if
 matchKey
 !
 =
-NULL
+nullptr
 &
 &
 !
@@ -3299,7 +3299,7 @@ if
 key
 !
 =
-NULL
+nullptr
 )
 {
 UnicodeString
@@ -3333,7 +3333,7 @@ if
 f
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -3349,7 +3349,7 @@ delete
 objToAdopt
 ;
 return
-NULL
+nullptr
 ;
 }
 ICUServiceFactory
@@ -3387,7 +3387,7 @@ if
 objToAdopt
 !
 =
-NULL
+nullptr
 )
 &
 &
@@ -3417,7 +3417,7 @@ U_ILLEGAL_ARGUMENT_ERROR
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 URegistryKey
@@ -3601,13 +3601,13 @@ if
 factory
 !
 =
-NULL
+nullptr
 &
 &
 factories
 !
 =
-NULL
+nullptr
 )
 {
 Mutex
@@ -3705,7 +3705,7 @@ if
 factories
 !
 =
-NULL
+nullptr
 )
 {
 factories
@@ -3763,10 +3763,10 @@ status
 id
 =
 =
-NULL
+nullptr
 )
 ?
-NULL
+nullptr
 :
 new
 ICUServiceKey
@@ -3793,21 +3793,21 @@ dnCache
 ;
 dnCache
 =
-NULL
+nullptr
 ;
 delete
 idCache
 ;
 idCache
 =
-NULL
+nullptr
 ;
 delete
 serviceCache
 ;
 serviceCache
 =
-NULL
+nullptr
 ;
 }
 void
@@ -3823,7 +3823,7 @@ serviceCache
 ;
 serviceCache
 =
-NULL
+nullptr
 ;
 }
 UBool
@@ -3852,7 +3852,7 @@ l
 )
 !
 =
-NULL
+nullptr
 ;
 }
 void
@@ -3868,11 +3868,14 @@ l
 const
 {
 (
-(
+static_cast
+<
 ServiceListener
 &
-)
+>
+(
 l
+)
 )
 .
 serviceChanged
@@ -3917,7 +3920,7 @@ return
 factories
 =
 =
-NULL
+nullptr
 ?
 0
 :

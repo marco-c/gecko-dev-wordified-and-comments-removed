@@ -304,6 +304,9 @@ cpp
 islamcal
 .
 cpp
+iso8601cal
+.
+cpp
 japancal
 .
 cpp
@@ -407,6 +410,9 @@ number_rounding
 .
 cpp
 number_scientific
+.
+cpp
+number_simple
 .
 cpp
 number_skeletons

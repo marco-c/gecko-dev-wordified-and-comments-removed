@@ -114,15 +114,15 @@ ResFile
 :
 fBytes
 (
-NULL
+nullptr
 )
 fIndexes
 (
-NULL
+nullptr
 )
 fKeys
 (
-NULL
+nullptr
 )
 fKeysLength
 (
@@ -134,7 +134,7 @@ fKeysCount
 )
 fStrings
 (
-NULL
+nullptr
 )
 fStringIndexLimit
 (
@@ -252,7 +252,7 @@ errorCode
 void
 setLocale
 (
-UChar
+char16_t
 *
 locale
 UErrorCode
@@ -494,7 +494,6 @@ SResource
 *
 res_none
 (
-void
 )
 ;
 class
@@ -564,7 +563,7 @@ char
 *
 tag
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -592,7 +591,7 @@ const
 char
 *
 tag
-UChar
+char16_t
 *
 value
 int32_t
@@ -951,7 +950,7 @@ fCount
 )
 fFirst
 (
-NULL
+nullptr
 )
 {
 }
@@ -1200,7 +1199,7 @@ errorCode
 )
 fLast
 (
-NULL
+nullptr
 )
 {
 }
@@ -1278,9 +1277,9 @@ errorCode
 ContainerResource
 (
 bundle
-NULL
+nullptr
 URES_TABLE
-NULL
+nullptr
 errorCode
 )
 {
@@ -1331,7 +1330,7 @@ tag
 int8_t
 type
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -1369,7 +1368,7 @@ StringBaseResource
 int8_t
 type
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -1386,7 +1385,7 @@ StringBaseResource
 )
 ;
 const
-UChar
+char16_t
 *
 getBuffer
 (
@@ -1470,7 +1469,7 @@ char
 *
 tag
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -1496,7 +1495,7 @@ errorCode
 )
 fSame
 (
-NULL
+nullptr
 )
 fSuffixOffset
 (
@@ -1542,7 +1541,7 @@ errorCode
 )
 fSame
 (
-NULL
+nullptr
 )
 fSuffixOffset
 (
@@ -1569,7 +1568,7 @@ poolStringIndex
 int8_t
 numCharsForLength
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -1588,7 +1587,7 @@ errorCode
 )
 fSame
 (
-NULL
+nullptr
 )
 fSuffixOffset
 (
@@ -1717,7 +1716,7 @@ char
 *
 tag
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -1963,7 +1962,6 @@ val
 UBool
 getIncludeCopyright
 (
-void
 )
 ;
 void

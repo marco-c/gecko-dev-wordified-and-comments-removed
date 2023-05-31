@@ -1551,6 +1551,12 @@ lkt
 lakotisht
 "
 }
+lmo
+{
+"
+lombardisht
+"
+}
 ln
 {
 "

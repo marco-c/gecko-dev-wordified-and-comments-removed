@@ -1799,6 +1799,15 @@ hi
 Hindi
 "
 }
+hi_Latn
+{
+"
+Hindi
+(
+Latin
+)
+"
+}
 hif
 {
 "

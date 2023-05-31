@@ -380,7 +380,7 @@ Normalizer2
 :
 getInstance
 (
-NULL
+nullptr
 name
 mode
 errorCode
@@ -407,7 +407,7 @@ norm2
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }

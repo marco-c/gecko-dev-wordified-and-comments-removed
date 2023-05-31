@@ -261,7 +261,7 @@ U_EXPORT2
 unumrf_openForSkeletonWithCollapseAndIdentityFallback
 (
 const
-UChar
+char16_t
 *
 skeleton
 int32_t
@@ -320,6 +320,9 @@ skeleton
 skeletonLen
 )
 ;
+UParseError
+tempParseError
+;
 impl
 -
 >
@@ -341,6 +344,15 @@ NumberFormatter
 forSkeleton
 (
 skeletonString
+(
+perror
+=
+=
+nullptr
+)
+?
+tempParseError
+:
 *
 perror
 *

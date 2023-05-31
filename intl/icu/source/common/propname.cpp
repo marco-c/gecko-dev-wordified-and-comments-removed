@@ -863,7 +863,7 @@ nameIndex
 )
 {
 return
-NULL
+nullptr
 ;
 }
 for
@@ -899,7 +899,7 @@ nameGroup
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -926,7 +926,7 @@ if
 name
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1064,7 +1064,7 @@ valueMapIndex
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1113,7 +1113,7 @@ valueMapIndex
 )
 {
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -1139,7 +1139,7 @@ nameGroupOffset
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1297,6 +1297,7 @@ property
 UPropertyNameChoice
 nameChoice
 )
+UPRV_NO_SANITIZE_UNDEFINED
 {
 U_NAMESPACE_USE
 return
@@ -1349,6 +1350,7 @@ value
 UPropertyNameChoice
 nameChoice
 )
+UPRV_NO_SANITIZE_UNDEFINED
 {
 U_NAMESPACE_USE
 return

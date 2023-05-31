@@ -269,7 +269,6 @@ UBool
 U_CALLCONV
 uset_cleanup
 (
-void
 )
 {
 delete
@@ -277,7 +276,7 @@ uni32Singleton
 ;
 uni32Singleton
 =
-NULL
+nullptr
 ;
 uni32InitOnce
 .
@@ -307,7 +306,7 @@ U_ASSERT
 uni32Singleton
 =
 =
-NULL
+nullptr
 )
 ;
 uni32Singleton
@@ -337,7 +336,7 @@ if
 uni32Singleton
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -397,7 +396,7 @@ int32_t
 pos
 )
 {
-UChar
+char16_t
 c
 ;
 return
@@ -595,7 +594,7 @@ applyPatternIgnoreSpace
 (
 pattern
 pos
-NULL
+nullptr
 status
 )
 ;
@@ -715,7 +714,7 @@ chars
 symbols
 rebuiltPat
 USET_IGNORE_SPACE
-NULL
+nullptr
 0
 status
 )
@@ -789,7 +788,7 @@ pos
 =
 =
 (
-UChar
+char16_t
 )
 91
 )
@@ -1009,7 +1008,7 @@ lastChar
 =
 0
 ;
-UChar
+char16_t
 op
 =
 0
@@ -1393,7 +1392,7 @@ if
 ms
 =
 =
-NULL
+nullptr
 )
 {
 ec
@@ -1828,7 +1827,7 @@ lastItem
 op
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -1928,7 +1927,7 @@ op
 op
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -2248,7 +2247,7 @@ patLocal
 append
 (
 (
-UChar
+char16_t
 )
 SymbolTable
 :
@@ -2448,7 +2447,7 @@ if
 (
 options
 &
-USET_CASE_INSENSITIVE
+USET_CASE_MASK
 )
 !
 =
@@ -2462,33 +2461,8 @@ this
 *
 caseClosure
 )
-(
-USET_CASE_INSENSITIVE
-)
-;
-}
-else
-if
-(
 (
 options
-&
-USET_ADD_CASE_MAPPINGS
-)
-!
-=
-0
-)
-{
-(
-this
--
->
-*
-caseClosure
-)
-(
-USET_ADD_CASE_MAPPINGS
 )
 ;
 }
@@ -4540,7 +4514,7 @@ pos
 )
 )
 {
-UChar
+char16_t
 c
 =
 pattern

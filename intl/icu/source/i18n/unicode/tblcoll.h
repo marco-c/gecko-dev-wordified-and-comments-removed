@@ -93,7 +93,7 @@ UVector64
 class
 U_I18N_API
 RuleBasedCollator
-U_FINAL
+final
 :
 public
 Collator

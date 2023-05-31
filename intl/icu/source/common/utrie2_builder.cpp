@@ -178,7 +178,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 trie
@@ -227,19 +227,19 @@ if
 trie
 =
 =
-NULL
+nullptr
 |
 |
 newTrie
 =
 =
-NULL
+nullptr
 |
 |
 data
 =
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -822,11 +822,11 @@ if
 trie
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 trie
@@ -856,7 +856,7 @@ trie
 data
 =
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -865,7 +865,7 @@ trie
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 #
@@ -1154,7 +1154,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1162,7 +1162,7 @@ if
 other
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -1172,7 +1172,7 @@ other
 memory
 =
 =
-NULL
+nullptr
 &
 &
 other
@@ -1181,7 +1181,7 @@ other
 newTrie
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -1191,7 +1191,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 trie
@@ -1213,7 +1213,7 @@ if
 trie
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1222,7 +1222,7 @@ pErrorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 uprv_memcpy
@@ -1243,7 +1243,7 @@ other
 memory
 !
 =
-NULL
+nullptr
 )
 {
 trie
@@ -1267,7 +1267,7 @@ trie
 memory
 !
 =
-NULL
+nullptr
 )
 {
 trie
@@ -1331,7 +1331,7 @@ other
 data16
 !
 =
-NULL
+nullptr
 )
 {
 trie
@@ -1373,7 +1373,7 @@ other
 data32
 !
 =
-NULL
+nullptr
 )
 {
 trie
@@ -1433,7 +1433,7 @@ trie
 memory
 =
 =
-NULL
+nullptr
 &
 &
 trie
@@ -1442,7 +1442,7 @@ trie
 newTrie
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1457,7 +1457,7 @@ trie
 ;
 trie
 =
-NULL
+nullptr
 ;
 }
 return
@@ -1774,7 +1774,7 @@ trie
 data32
 !
 =
-NULL
+nullptr
 ?
 4
 :
@@ -1867,7 +1867,7 @@ trie
 data32
 !
 =
-NULL
+nullptr
 ?
 4
 :
@@ -1942,7 +1942,7 @@ pErrorCode
 NewTrieAndStatus
 context
 ;
-UChar
+char16_t
 lead
 ;
 if
@@ -1955,7 +1955,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1963,7 +1963,7 @@ if
 other
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -1973,7 +1973,7 @@ other
 memory
 =
 =
-NULL
+nullptr
 &
 &
 other
@@ -1982,7 +1982,7 @@ other
 newTrie
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -1992,7 +1992,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2003,7 +2003,7 @@ other
 newTrie
 !
 =
-NULL
+nullptr
 &
 &
 !
@@ -2051,7 +2051,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 context
@@ -2070,7 +2070,7 @@ pErrorCode
 utrie2_enum
 (
 other
-NULL
+nullptr
 copyEnumRange
 &
 context
@@ -2109,7 +2109,7 @@ other
 data32
 =
 =
-NULL
+nullptr
 )
 {
 value
@@ -2175,7 +2175,7 @@ context
 .
 trie
 =
-NULL
+nullptr
 ;
 }
 return
@@ -2204,7 +2204,7 @@ pErrorCode
 NewTrieAndStatus
 context
 ;
-UChar
+char16_t
 lead
 ;
 if
@@ -2217,7 +2217,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2225,7 +2225,7 @@ if
 trie1
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -2234,7 +2234,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 context
@@ -2261,7 +2261,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 context
@@ -2280,7 +2280,7 @@ pErrorCode
 utrie_enum
 (
 trie1
-NULL
+nullptr
 copyEnumRange
 &
 context
@@ -2319,7 +2319,7 @@ trie1
 data32
 =
 =
-NULL
+nullptr
 )
 {
 value
@@ -2385,7 +2385,7 @@ trie1
 data32
 !
 =
-NULL
+nullptr
 ?
 UTRIE2_32_VALUE_BITS
 :
@@ -2444,7 +2444,7 @@ context
 .
 trie
 =
-NULL
+nullptr
 ;
 }
 return
@@ -2865,7 +2865,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -3244,7 +3244,7 @@ if
 trie
 =
 =
-NULL
+nullptr
 |
 |
 trie
@@ -3646,7 +3646,7 @@ if
 newTrie
 =
 =
-NULL
+nullptr
 |
 |
 newTrie
@@ -6063,7 +6063,7 @@ if
 trie
 =
 =
-NULL
+nullptr
 |
 |
 valueBits
@@ -6097,7 +6097,7 @@ if
 newTrie
 =
 =
-NULL
+nullptr
 )
 {
 UTrie2ValueBits
@@ -6109,7 +6109,7 @@ trie
 data16
 !
 =
-NULL
+nullptr
 ?
 UTRIE2_16_VALUE_BITS
 :
@@ -6319,7 +6319,7 @@ trie
 memory
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -6820,7 +6820,7 @@ trie
 >
 data32
 =
-NULL
+nullptr
 ;
 p
 =
@@ -6871,7 +6871,7 @@ trie
 >
 data16
 =
-NULL
+nullptr
 ;
 trie
 -
@@ -6978,6 +6978,6 @@ trie
 >
 newTrie
 =
-NULL
+nullptr
 ;
 }

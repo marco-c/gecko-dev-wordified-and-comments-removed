@@ -110,12 +110,12 @@ UConverterFromUnicodeArgs
 *
 args
 const
-UChar
+char16_t
 *
 *
 source
 const
-UChar
+char16_t
 *
 sourceLimit
 int32_t
@@ -165,7 +165,7 @@ args
 targetLimit
 source
 sourceLimit
-NULL
+nullptr
 false
 err
 )
@@ -325,7 +325,7 @@ newTarget
 newTargetLimit
 source
 sourceLimit
-NULL
+nullptr
 false
 &
 err2
@@ -453,13 +453,13 @@ length
 )
 {
 const
-UChar
+char16_t
 *
 source
 =
 (
 const
-UChar
+char16_t
 *
 )
 converter
@@ -496,7 +496,7 @@ impl
 writeSub
 !
 =
-NULL
+nullptr
 )
 {
 converter
@@ -595,7 +595,7 @@ UConverterToUnicodeArgs
 *
 args
 const
-UChar
+char16_t
 *
 source
 int32_t
@@ -663,7 +663,7 @@ err
 {
 static
 const
-UChar
+char16_t
 kSubstituteChar1
 =
 0x1A

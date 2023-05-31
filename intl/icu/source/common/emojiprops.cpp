@@ -209,7 +209,7 @@ UDataInfo
 &
 info
 const
-UChar
+char16_t
 *
 dataFormat
 uint8_t
@@ -588,7 +588,7 @@ i
 ]
 ;
 const
-UChar
+char16_t
 *
 p
 =
@@ -598,7 +598,7 @@ offset
 ?
 (
 const
-UChar
+char16_t
 *
 )
 (
@@ -841,7 +841,7 @@ EmojiProps
 hasBinaryProperty
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -890,7 +890,7 @@ EmojiProps
 hasBinaryPropertyImpl
 (
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -1004,7 +1004,7 @@ prop
 )
 {
 const
-UChar
+char16_t
 *
 trieUChars
 =
@@ -1145,7 +1145,7 @@ prop
 )
 {
 const
-UChar
+char16_t
 *
 trieUChars
 =

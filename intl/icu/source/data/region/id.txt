@@ -2102,11 +2102,5 @@ Timor
 Timur
 "
 }
-TR
-{
-"
-Turkiye
-"
-}
 }
 }

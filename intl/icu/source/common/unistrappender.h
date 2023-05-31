@@ -78,7 +78,7 @@ inline
 void
 append
 (
-UChar
+char16_t
 x
 )
 {
@@ -208,7 +208,7 @@ fDest
 int32_t
 fIdx
 ;
-UChar
+char16_t
 fBuffer
 [
 32

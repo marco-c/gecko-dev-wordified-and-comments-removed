@@ -429,7 +429,7 @@ UTimeZoneFormatTimeType
 *
 timeType
 =
-NULL
+nullptr
 )
 const
 ;
@@ -492,7 +492,7 @@ UTimeZoneFormatTimeType
 *
 timeType
 =
-NULL
+nullptr
 )
 const
 ;
@@ -513,7 +513,7 @@ UTimeZoneFormatTimeType
 *
 timeType
 =
-NULL
+nullptr
 )
 const
 ;
@@ -864,7 +864,7 @@ UBool
 *
 hasDigitOffset
 =
-NULL
+nullptr
 )
 const
 ;

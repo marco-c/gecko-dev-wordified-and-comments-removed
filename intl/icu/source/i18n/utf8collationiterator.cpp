@@ -1357,7 +1357,7 @@ c
 )
 ;
 }
-UChar
+char16_t
 FCDUTF8CollationIterator
 :
 :
@@ -1388,7 +1388,7 @@ length
 )
 )
 ;
-UChar
+char16_t
 trail
 ;
 if

@@ -152,6 +152,12 @@ Tome
 Principe
 "
 }
+TR
+{
+"
+Turkiye
+"
+}
 UM
 {
 "

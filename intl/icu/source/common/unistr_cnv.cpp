@@ -304,7 +304,7 @@ if
 src
 =
 =
-NULL
+nullptr
 )
 {
 }
@@ -930,7 +930,7 @@ return
 ;
 }
 const
-UChar
+char16_t
 *
 src
 =
@@ -1393,7 +1393,7 @@ mySource
 +
 dataLength
 ;
-UChar
+char16_t
 *
 array
 *

@@ -1781,7 +1781,7 @@ Tonga
 TR
 {
 "
-Turki
+Turkiye
 "
 }
 TT
@@ -2103,8 +2103,7 @@ Timur
 TR
 {
 "
-T
-rkiye
+Turki
 "
 }
 }

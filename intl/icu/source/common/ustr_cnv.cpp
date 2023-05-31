@@ -69,7 +69,7 @@ UConverter
 *
 gDefaultConverter
 =
-NULL
+nullptr
 ;
 U_CAPI
 UConverter
@@ -86,14 +86,14 @@ UConverter
 *
 converter
 =
-NULL
+nullptr
 ;
 if
 (
 gDefaultConverter
 !
 =
-NULL
+nullptr
 )
 {
 icu
@@ -101,7 +101,7 @@ icu
 :
 umtx_lock
 (
-NULL
+nullptr
 )
 ;
 if
@@ -109,7 +109,7 @@ if
 gDefaultConverter
 !
 =
-NULL
+nullptr
 )
 {
 converter
@@ -118,7 +118,7 @@ gDefaultConverter
 ;
 gDefaultConverter
 =
-NULL
+nullptr
 ;
 }
 icu
@@ -126,7 +126,7 @@ icu
 :
 umtx_unlock
 (
-NULL
+nullptr
 )
 ;
 }
@@ -135,14 +135,14 @@ if
 converter
 =
 =
-NULL
+nullptr
 )
 {
 converter
 =
 ucnv_open
 (
-NULL
+nullptr
 status
 )
 ;
@@ -162,7 +162,7 @@ converter
 ;
 converter
 =
-NULL
+nullptr
 ;
 }
 }
@@ -185,7 +185,7 @@ if
 gDefaultConverter
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -193,7 +193,7 @@ if
 converter
 !
 =
-NULL
+nullptr
 )
 {
 ucnv_reset
@@ -211,7 +211,7 @@ icu
 :
 umtx_lock
 (
-NULL
+nullptr
 )
 ;
 if
@@ -219,7 +219,7 @@ if
 gDefaultConverter
 =
 =
-NULL
+nullptr
 )
 {
 gDefaultConverter
@@ -228,7 +228,7 @@ converter
 ;
 converter
 =
-NULL
+nullptr
 ;
 }
 icu
@@ -236,7 +236,7 @@ icu
 :
 umtx_unlock
 (
-NULL
+nullptr
 )
 ;
 }
@@ -245,7 +245,7 @@ if
 converter
 !
 =
-NULL
+nullptr
 )
 {
 ucnv_close
@@ -266,14 +266,14 @@ UConverter
 *
 converter
 =
-NULL
+nullptr
 ;
 if
 (
 gDefaultConverter
 !
 =
-NULL
+nullptr
 )
 {
 icu
@@ -281,7 +281,7 @@ icu
 :
 umtx_lock
 (
-NULL
+nullptr
 )
 ;
 if
@@ -289,7 +289,7 @@ if
 gDefaultConverter
 !
 =
-NULL
+nullptr
 )
 {
 converter
@@ -298,7 +298,7 @@ gDefaultConverter
 ;
 gDefaultConverter
 =
-NULL
+nullptr
 ;
 }
 icu
@@ -306,7 +306,7 @@ icu
 :
 umtx_unlock
 (
-NULL
+nullptr
 )
 ;
 }
@@ -315,7 +315,7 @@ if
 converter
 !
 =
-NULL
+nullptr
 )
 {
 ucnv_close
@@ -377,12 +377,12 @@ len
 ;
 }
 U_CAPI
-UChar
+char16_t
 *
 U_EXPORT2
 u_uastrncpy
 (
-UChar
+char16_t
 *
 ucs1
 const
@@ -393,7 +393,7 @@ int32_t
 n
 )
 {
-UChar
+char16_t
 *
 target
 =
@@ -425,7 +425,7 @@ err
 cnv
 !
 =
-NULL
+nullptr
 )
 {
 ucnv_reset
@@ -450,7 +450,7 @@ u_astrnlen
 s2
 n
 )
-NULL
+nullptr
 true
 &
 err
@@ -519,12 +519,12 @@ ucs1
 ;
 }
 U_CAPI
-UChar
+char16_t
 *
 U_EXPORT2
 u_uastrcpy
 (
-UChar
+char16_t
 *
 ucs1
 const
@@ -559,7 +559,7 @@ err
 cnv
 !
 =
-NULL
+nullptr
 )
 {
 ucnv_toUChars
@@ -616,7 +616,7 @@ int32_t
 u_ustrnlen
 (
 const
-UChar
+char16_t
 *
 ucs1
 int32_t
@@ -668,7 +668,7 @@ char
 *
 s1
 const
-UChar
+char16_t
 *
 ucs2
 int32_t
@@ -707,7 +707,7 @@ err
 cnv
 !
 =
-NULL
+nullptr
 )
 {
 ucnv_reset
@@ -732,7 +732,7 @@ u_ustrnlen
 ucs2
 n
 )
-NULL
+nullptr
 true
 &
 err
@@ -810,7 +810,7 @@ char
 *
 s1
 const
-UChar
+char16_t
 *
 ucs2
 )
@@ -841,7 +841,7 @@ err
 cnv
 !
 =
-NULL
+nullptr
 )
 {
 int32_t

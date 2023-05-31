@@ -384,6 +384,16 @@ zgh
 }
 Languages
 %
+menu
+{
+yue
+{
+"
+"
+}
+}
+Languages
+%
 short
 {
 az

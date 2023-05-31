@@ -3297,6 +3297,15 @@ UK
 )
 "
 }
+en_US
+{
+"
+Kiingereza
+(
+US
+)
+"
+}
 }
 Languages
 %

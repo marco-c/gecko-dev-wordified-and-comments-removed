@@ -69,7 +69,7 @@ struct
 CmpEquivLevel
 {
 const
-UChar
+char16_t
 *
 start
 *
@@ -93,13 +93,13 @@ int32_t
 unorm_cmpEquivFold
 (
 const
-UChar
+char16_t
 *
 s1
 int32_t
 length1
 const
-UChar
+char16_t
 *
 s2
 int32_t
@@ -117,7 +117,7 @@ Normalizer2Impl
 nfcImpl
 ;
 const
-UChar
+char16_t
 *
 start1
 *
@@ -128,7 +128,7 @@ limit1
 limit2
 ;
 const
-UChar
+char16_t
 *
 p
 ;
@@ -145,7 +145,7 @@ stack2
 2
 ]
 ;
-UChar
+char16_t
 decomp1
 [
 4
@@ -155,7 +155,7 @@ decomp2
 4
 ]
 ;
-UChar
+char16_t
 fold1
 [
 UCASE_MAX_STRING_LENGTH
@@ -207,7 +207,7 @@ else
 {
 nfcImpl
 =
-NULL
+nullptr
 ;
 }
 if
@@ -238,7 +238,7 @@ length1
 {
 limit1
 =
-NULL
+nullptr
 ;
 }
 else
@@ -265,7 +265,7 @@ length2
 {
 limit2
 =
-NULL
+nullptr
 ;
 }
 else
@@ -333,7 +333,7 @@ s1
 limit1
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -392,7 +392,7 @@ while
 start1
 =
 =
-NULL
+nullptr
 )
 ;
 s1
@@ -452,7 +452,7 @@ s2
 limit2
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -511,7 +511,7 @@ while
 start2
 =
 =
-NULL
+nullptr
 )
 ;
 s2
@@ -600,7 +600,7 @@ c1
 )
 )
 {
-UChar
+char16_t
 c
 ;
 if
@@ -688,7 +688,7 @@ c2
 )
 )
 {
-UChar
+char16_t
 c
 ;
 if
@@ -1200,7 +1200,7 @@ level1
 .
 start
 =
-NULL
+nullptr
 ;
 }
 start1
@@ -1343,7 +1343,7 @@ level2
 .
 start
 =
-NULL
+nullptr
 ;
 }
 start2
@@ -1526,7 +1526,7 @@ Normalizer2
 *
 n2
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -1644,13 +1644,13 @@ U_EXPORT2
 unorm_compare
 (
 const
-UChar
+char16_t
 *
 s1
 int32_t
 length1
 const
-UChar
+char16_t
 *
 s2
 int32_t

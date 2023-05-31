@@ -489,7 +489,7 @@ u_strFromUTF8
 (
 reinterpret_cast
 <
-UChar
+char16_t
 *
 >
 (

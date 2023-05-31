@@ -62,4 +62,14 @@ Parent
 zh_Hant_HK
 "
 }
+Languages
+%
+menu
+{
+yue
+{
+"
+"
+}
+}
 }

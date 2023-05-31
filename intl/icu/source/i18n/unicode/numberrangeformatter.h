@@ -492,6 +492,27 @@ UnlocalizedNumberRangeFormatter
 ;
 }
 ;
+#
+ifndef
+_MSC_VER
+extern
+template
+class
+NumberRangeFormatterSettings
+<
+UnlocalizedNumberRangeFormatter
+>
+;
+extern
+template
+class
+NumberRangeFormatterSettings
+<
+LocalizedNumberRangeFormatter
+>
+;
+#
+endif
 class
 U_I18N_API
 UnlocalizedNumberRangeFormatter
@@ -555,7 +576,7 @@ UnlocalizedNumberRangeFormatter
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 UnlocalizedNumberRangeFormatter
 &
@@ -578,7 +599,7 @@ UnlocalizedNumberRangeFormatter
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 private
 :
@@ -605,7 +626,7 @@ UnlocalizedNumberRangeFormatter
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 friend
 class
@@ -672,7 +693,7 @@ LocalizedNumberRangeFormatter
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 LocalizedNumberRangeFormatter
 &
@@ -695,7 +716,7 @@ LocalizedNumberRangeFormatter
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 #
 ifndef
@@ -795,7 +816,7 @@ LocalizedNumberRangeFormatter
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 LocalizedNumberRangeFormatter
 (
@@ -866,7 +887,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 UnicodeString
 toTempString
@@ -876,7 +897,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 Appendable
 &
@@ -890,7 +911,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 UBool
 nextPosition
@@ -903,7 +924,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 template
 <
@@ -978,7 +999,7 @@ FormattedNumberRange
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 FormattedNumberRange
 &
@@ -990,7 +1011,7 @@ FormattedNumberRange
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 ~
 FormattedNumberRange

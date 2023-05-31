@@ -2112,6 +2112,12 @@ lkt
 lakota
 "
 }
+lmo
+{
+"
+lombardo
+"
+}
 ln
 {
 "

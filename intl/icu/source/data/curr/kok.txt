@@ -2325,6 +2325,14 @@ other
 "
 }
 }
+INR
+{
+other
+{
+"
+"
+}
+}
 IQD
 {
 other

@@ -179,7 +179,7 @@ if
 currAmt
 !
 =
-NULL
+nullptr
 )
 {
 result

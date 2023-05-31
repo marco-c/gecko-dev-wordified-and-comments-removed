@@ -280,7 +280,7 @@ hourFormat
 ;
 static
 const
-UChar
+char16_t
 TZID_GMT
 [
 ]
@@ -298,7 +298,7 @@ TZID_GMT
 ;
 static
 const
-UChar
+char16_t
 UNKNOWN_ZONE_ID
 [
 ]
@@ -320,7 +320,7 @@ UNKNOWN_ZONE_ID
 ;
 static
 const
-UChar
+char16_t
 UNKNOWN_SHORT_ZONE_ID
 [
 ]
@@ -334,7 +334,7 @@ UNKNOWN_SHORT_ZONE_ID
 ;
 static
 const
-UChar
+char16_t
 UNKNOWN_LOCATION
 [
 ]
@@ -352,7 +352,7 @@ UNKNOWN_LOCATION
 ;
 static
 const
-UChar
+char16_t
 DEFAULT_GMT_PATTERN
 [
 ]
@@ -369,7 +369,7 @@ DEFAULT_GMT_PATTERN
 ;
 static
 const
-UChar
+char16_t
 DEFAULT_GMT_POSITIVE_HM
 [
 ]
@@ -385,7 +385,7 @@ DEFAULT_GMT_POSITIVE_HM
 ;
 static
 const
-UChar
+char16_t
 DEFAULT_GMT_POSITIVE_HMS
 [
 ]
@@ -404,7 +404,7 @@ DEFAULT_GMT_POSITIVE_HMS
 ;
 static
 const
-UChar
+char16_t
 DEFAULT_GMT_NEGATIVE_HM
 [
 ]
@@ -420,7 +420,7 @@ DEFAULT_GMT_NEGATIVE_HM
 ;
 static
 const
-UChar
+char16_t
 DEFAULT_GMT_NEGATIVE_HMS
 [
 ]
@@ -439,7 +439,7 @@ DEFAULT_GMT_NEGATIVE_HMS
 ;
 static
 const
-UChar
+char16_t
 DEFAULT_GMT_POSITIVE_H
 [
 ]
@@ -452,7 +452,7 @@ DEFAULT_GMT_POSITIVE_H
 ;
 static
 const
-UChar
+char16_t
 DEFAULT_GMT_NEGATIVE_H
 [
 ]
@@ -485,14 +485,14 @@ DEFAULT_GMT_DIGITS
 ;
 static
 const
-UChar
+char16_t
 DEFAULT_GMT_OFFSET_SEP
 =
 0x003A
 ;
 static
 const
-UChar
+char16_t
 ARG0
 [
 ]
@@ -512,7 +512,7 @@ ARG0_LEN
 ;
 static
 const
-UChar
+char16_t
 DEFAULT_GMT_OFFSET_MINUTE_PATTERN
 [
 ]
@@ -525,7 +525,7 @@ DEFAULT_GMT_OFFSET_MINUTE_PATTERN
 ;
 static
 const
-UChar
+char16_t
 DEFAULT_GMT_OFFSET_SECOND_PATTERN
 [
 ]
@@ -538,7 +538,7 @@ DEFAULT_GMT_OFFSET_SECOND_PATTERN
 ;
 static
 const
-UChar
+char16_t
 ALT_GMT_STRINGS
 [
 ]
@@ -593,35 +593,35 @@ UTZFMT_PAT_NEGATIVE_H
 ;
 static
 const
-UChar
+char16_t
 SINGLEQUOTE
 =
 0x0027
 ;
 static
 const
-UChar
+char16_t
 PLUS
 =
 0x002B
 ;
 static
 const
-UChar
+char16_t
 MINUS
 =
 0x002D
 ;
 static
 const
-UChar
+char16_t
 ISO8601_UTC
 =
 0x005A
 ;
 static
 const
-UChar
+char16_t
 ISO8601_SEP
 =
 0x003A
@@ -755,7 +755,7 @@ TextTrieMap
 *
 gZoneIdTrie
 =
-NULL
+nullptr
 ;
 static
 icu
@@ -771,7 +771,7 @@ TextTrieMap
 *
 gShortZoneIdTrie
 =
-NULL
+nullptr
 ;
 static
 icu
@@ -792,7 +792,6 @@ UBool
 U_CALLCONV
 tzfmt_cleanup
 (
-void
 )
 {
 if
@@ -800,7 +799,7 @@ if
 gZoneIdTrie
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -809,7 +808,7 @@ gZoneIdTrie
 }
 gZoneIdTrie
 =
-NULL
+nullptr
 ;
 gZoneIdTrieInitOnce
 .
@@ -822,7 +821,7 @@ if
 gShortZoneIdTrie
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -831,7 +830,7 @@ gShortZoneIdTrie
 }
 gShortZoneIdTrie
 =
-NULL
+nullptr
 ;
 gShortZoneIdTrieInitOnce
 .
@@ -917,7 +916,7 @@ static
 FieldType
 getTypeByLetter
 (
-UChar
+char16_t
 ch
 )
 ;
@@ -934,17 +933,16 @@ getWidth
 const
 ;
 const
-UChar
+char16_t
 *
 getPatternText
 (
-void
 )
 const
 ;
 private
 :
-UChar
+char16_t
 *
 fText
 ;
@@ -969,7 +967,7 @@ GMTOffsetField
 :
 fText
 (
-NULL
+nullptr
 )
 fType
 (
@@ -1026,7 +1024,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 GMTOffsetField
@@ -1043,7 +1041,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1051,7 +1049,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -1069,7 +1067,7 @@ result
 fText
 =
 (
-UChar
+char16_t
 *
 )
 uprv_malloc
@@ -1082,7 +1080,7 @@ len
 *
 sizeof
 (
-UChar
+char16_t
 )
 )
 ;
@@ -1094,7 +1092,7 @@ result
 fText
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1105,7 +1103,7 @@ delete
 result
 ;
 return
-NULL
+nullptr
 ;
 }
 u_strncpy
@@ -1176,7 +1174,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 GMTOffsetField
@@ -1193,7 +1191,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1201,7 +1199,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 result
@@ -1292,7 +1290,7 @@ GMTOffsetField
 :
 getTypeByLetter
 (
-UChar
+char16_t
 ch
 )
 {
@@ -1371,14 +1369,13 @@ fWidth
 }
 inline
 const
-UChar
+char16_t
 *
 GMTOffsetField
 :
 :
 getPatternText
 (
-void
 )
 const
 {
@@ -1433,11 +1430,11 @@ locale
 )
 fTimeZoneNames
 (
-NULL
+nullptr
 )
 fTimeZoneGenericNames
 (
-NULL
+nullptr
 )
 fDefParseOptionFlags
 (
@@ -1445,7 +1442,7 @@ fDefParseOptionFlags
 )
 fTZDBTimeZoneNames
 (
-NULL
+nullptr
 )
 {
 for
@@ -1469,7 +1466,7 @@ fGMTOffsetPatternItems
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 const
@@ -1623,18 +1620,18 @@ return
 ;
 }
 const
-UChar
+char16_t
 *
 gmtPattern
 =
-NULL
+nullptr
 ;
 const
-UChar
+char16_t
 *
 hourFormats
 =
-NULL
+nullptr
 ;
 UResourceBundle
 *
@@ -1660,7 +1657,7 @@ ures_getByKeyWithFallback
 (
 zoneBundle
 gZoneStringsTag
-NULL
+nullptr
 &
 status
 )
@@ -1674,7 +1671,7 @@ status
 )
 {
 const
-UChar
+char16_t
 *
 resStr
 ;
@@ -1774,7 +1771,7 @@ if
 gmtPattern
 =
 =
-NULL
+nullptr
 )
 {
 gmtPattern
@@ -1804,7 +1801,7 @@ if
 hourFormats
 )
 {
-UChar
+char16_t
 *
 sep
 =
@@ -1812,7 +1809,7 @@ u_strchr
 (
 hourFormats
 (
-UChar
+char16_t
 )
 0x003B
 )
@@ -1822,7 +1819,7 @@ if
 sep
 !
 =
-NULL
+nullptr
 )
 {
 UErrorCode
@@ -2112,15 +2109,15 @@ other
 )
 fTimeZoneNames
 (
-NULL
+nullptr
 )
 fTimeZoneGenericNames
 (
-NULL
+nullptr
 )
 fTZDBTimeZoneNames
 (
-NULL
+nullptr
 )
 {
 for
@@ -2144,7 +2141,7 @@ fGMTOffsetPatternItems
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 *
@@ -2230,14 +2227,14 @@ fTimeZoneGenericNames
 ;
 fTimeZoneGenericNames
 =
-NULL
+nullptr
 ;
 delete
 fTZDBTimeZoneNames
 ;
 fTZDBTimeZoneNames
 =
-NULL
+nullptr
 ;
 fLocale
 =
@@ -2349,7 +2346,7 @@ fGMTOffsetPatternItems
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 initGMTOffsetPatterns
@@ -2599,7 +2596,7 @@ delete
 tzfmt
 ;
 return
-NULL
+nullptr
 ;
 }
 const
@@ -2686,7 +2683,6 @@ TimeZoneFormat
 :
 getDefaultParseOptions
 (
-void
 )
 const
 {
@@ -2874,7 +2870,7 @@ if
 patternItems
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -3234,7 +3230,7 @@ UTZFMT_STYLE_ZONE_ID_SHORT
 :
 {
 const
-UChar
+char16_t
 *
 shortID
 =
@@ -3251,7 +3247,7 @@ if
 shortID
 =
 =
-NULL
+nullptr
 )
 {
 shortID
@@ -3659,7 +3655,7 @@ if
 tz
 =
 =
-NULL
+nullptr
 )
 {
 const
@@ -3682,7 +3678,7 @@ if
 cal
 !
 =
-NULL
+nullptr
 )
 {
 tz
@@ -3712,7 +3708,7 @@ if
 tz
 !
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -3731,7 +3727,7 @@ dstOffset
 status
 )
 ;
-UChar
+char16_t
 buf
 [
 ZONE_NAME_U16_MAX
@@ -4063,7 +4059,7 @@ status
 =
 U_ZERO_ERROR
 ;
-UChar
+char16_t
 tzIDBuf
 [
 32
@@ -4479,7 +4475,7 @@ startIdx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -4711,7 +4707,7 @@ startIdx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -4974,7 +4970,7 @@ startIdx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -5254,7 +5250,7 @@ parsedOffset
 )
 ;
 }
-UChar
+char16_t
 parsedIDBuf
 [
 32
@@ -5760,7 +5756,7 @@ startIdx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -5967,7 +5963,7 @@ startIdx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -6165,7 +6161,7 @@ startIdx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -6465,7 +6461,7 @@ startIdx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -6564,7 +6560,7 @@ UTZGNM_LOCATION
 )
 {
 const
-UChar
+char16_t
 *
 canonicalID
 =
@@ -6581,7 +6577,7 @@ if
 canonicalID
 =
 =
-NULL
+nullptr
 )
 {
 name
@@ -6658,7 +6654,7 @@ if
 fTimeZoneNames
 =
 =
-NULL
+nullptr
 )
 {
 name
@@ -6688,7 +6684,7 @@ status
 )
 ;
 const
-UChar
+char16_t
 *
 canonicalID
 =
@@ -6711,7 +6707,7 @@ status
 canonicalID
 =
 =
-NULL
+nullptr
 )
 {
 name
@@ -6817,7 +6813,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 umtx_lock
@@ -6831,7 +6827,7 @@ if
 fTimeZoneGenericNames
 =
 =
-NULL
+nullptr
 )
 {
 TimeZoneFormat
@@ -6895,7 +6891,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 umtx_lock
@@ -6909,7 +6905,7 @@ if
 fTZDBTimeZoneNames
 =
 =
-NULL
+nullptr
 )
 {
 TZDBTimeZoneNames
@@ -6927,7 +6923,7 @@ if
 tzdbNames
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -6986,7 +6982,7 @@ name
 )
 const
 {
-UChar
+char16_t
 locationBuf
 [
 ZONE_NAME_U16_MAX
@@ -7004,7 +7000,7 @@ locationBuf
 )
 ;
 const
-UChar
+char16_t
 *
 canonicalID
 =
@@ -7286,7 +7282,7 @@ parseOffsetLocalizedGMT
 text
 pos
 false
-NULL
+nullptr
 )
 ;
 }
@@ -7312,7 +7308,7 @@ parseOffsetLocalizedGMT
 text
 pos
 true
-NULL
+nullptr
 )
 ;
 }
@@ -7423,7 +7419,7 @@ FIELDS_HM
 :
 FIELDS_HMS
 ;
-UChar
+char16_t
 sep
 =
 isBasic
@@ -7590,7 +7586,7 @@ lastIdx
 -
 ;
 }
-UChar
+char16_t
 sign
 =
 PLUS
@@ -7687,7 +7683,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 (
 0x0030
@@ -7706,7 +7702,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 (
 0x0030
@@ -7891,7 +7887,7 @@ UVector
 *
 offsetPatternItems
 =
-NULL
+nullptr
 ;
 if
 (
@@ -8001,7 +7997,7 @@ U_ASSERT
 offsetPatternItems
 !
 =
-NULL
+nullptr
 )
 ;
 result
@@ -8217,7 +8213,7 @@ return
 0
 ;
 }
-UChar
+char16_t
 firstChar
 =
 text
@@ -8239,7 +8235,7 @@ firstChar
 =
 =
 (
-UChar
+char16_t
 )
 (
 ISO8601_UTC
@@ -8691,7 +8687,7 @@ i
 )
 {
 const
-UChar
+char16_t
 *
 defGMTZero
 =
@@ -9003,7 +8999,7 @@ U_ASSERT
 items
 !
 =
-NULL
+nullptr
 )
 ;
 outLen
@@ -9133,7 +9129,7 @@ U_ASSERT
 items
 !
 =
-NULL
+nullptr
 )
 ;
 tmpLen
@@ -9376,7 +9372,7 @@ TEXT
 )
 {
 const
-UChar
+char16_t
 *
 patStr
 =
@@ -10124,7 +10120,7 @@ i
 )
 {
 const
-UChar
+char16_t
 *
 gmt
 =
@@ -10203,7 +10199,7 @@ sign
 =
 1
 ;
-UChar
+char16_t
 c
 =
 text
@@ -10375,7 +10371,7 @@ UnicodeString
 text
 int32_t
 start
-UChar
+char16_t
 separator
 int32_t
 &
@@ -10912,7 +10908,7 @@ formatOffsetWithAsciiDigits
 (
 int32_t
 offset
-UChar
+char16_t
 sep
 OffsetFields
 minFields
@@ -10944,7 +10940,7 @@ offset
 MAX_OFFSET
 )
 ;
-UChar
+char16_t
 sign
 =
 PLUS
@@ -11150,7 +11146,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 (
 0x0030
@@ -11169,7 +11165,7 @@ result
 append
 (
 (
-UChar
+char16_t
 )
 (
 0x0030
@@ -11291,7 +11287,7 @@ length
 )
 )
 {
-UChar
+char16_t
 uch
 =
 text
@@ -11685,7 +11681,7 @@ text
 ParsePosition
 &
 pos
-UChar
+char16_t
 sep
 OffsetFields
 minFields
@@ -11755,7 +11751,7 @@ idx
 +
 )
 {
-UChar
+char16_t
 c
 =
 text
@@ -12379,7 +12375,7 @@ i
 +
 )
 {
-UChar
+char16_t
 c
 =
 pattern
@@ -12473,7 +12469,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UVector
@@ -12484,7 +12480,7 @@ new
 UVector
 (
 deleteGMTOffsetField
-NULL
+nullptr
 status
 )
 ;
@@ -12493,7 +12489,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -12501,7 +12497,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -12519,7 +12515,7 @@ inQuote
 =
 false
 ;
-UChar
+char16_t
 textBuf
 [
 32
@@ -12572,7 +12568,7 @@ i
 +
 )
 {
-UChar
+char16_t
 ch
 =
 pattern
@@ -13193,7 +13189,7 @@ delete
 result
 ;
 return
-NULL
+nullptr
 ;
 }
 UnicodeString
@@ -13288,7 +13284,7 @@ idx_mm
 lastIndexOf
 (
 (
-UChar
+char16_t
 )
 0x0048
 )
@@ -13444,7 +13440,7 @@ return
 result
 ;
 }
-UChar
+char16_t
 HH
 [
 ]
@@ -13511,7 +13507,7 @@ idx_mm
 lastIndexOf
 (
 (
-UChar
+char16_t
 )
 0x0048
 0
@@ -13652,6 +13648,17 @@ status
 break
 ;
 }
+}
+if
+(
+U_FAILURE
+(
+status
+)
+)
+{
+return
+;
 }
 checkAbuttingHoursAndMinutes
 (
@@ -14017,7 +14024,7 @@ tzID
 )
 )
 {
-UChar
+char16_t
 mzIDBuf
 [
 32
@@ -14096,7 +14103,7 @@ status
 override
 ;
 const
-UChar
+char16_t
 *
 getID
 (
@@ -14113,7 +14120,7 @@ int32_t
 fLen
 ;
 const
-UChar
+char16_t
 *
 fID
 ;
@@ -14132,7 +14139,7 @@ fLen
 )
 fID
 (
-NULL
+nullptr
 )
 {
 }
@@ -14185,13 +14192,13 @@ hasValues
 )
 {
 const
-UChar
+char16_t
 *
 id
 =
 (
 const
-UChar
+char16_t
 *
 )
 node
@@ -14207,7 +14214,7 @@ if
 id
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -14233,7 +14240,7 @@ true
 ;
 }
 const
-UChar
+char16_t
 *
 ZoneIdMatchHandler
 :
@@ -14273,7 +14280,7 @@ U_ASSERT
 gZoneIdTrie
 =
 =
-NULL
+nullptr
 )
 ;
 ucln_i18n_registerCleanup
@@ -14288,7 +14295,7 @@ new
 TextTrieMap
 (
 true
-NULL
+nullptr
 )
 ;
 if
@@ -14296,7 +14303,7 @@ if
 gZoneIdTrie
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -14346,11 +14353,11 @@ status
 )
 !
 =
-NULL
+nullptr
 )
 {
 const
-UChar
+char16_t
 *
 uid
 =
@@ -14376,7 +14383,7 @@ put
 uid
 const_cast
 <
-UChar
+char16_t
 *
 >
 (
@@ -14558,7 +14565,7 @@ U_ASSERT
 gShortZoneIdTrie
 =
 =
-NULL
+nullptr
 )
 ;
 ucln_i18n_registerCleanup
@@ -14577,8 +14584,8 @@ TimeZone
 createTimeZoneIDEnumeration
 (
 UCAL_ZONE_TYPE_CANONICAL
-NULL
-NULL
+nullptr
+nullptr
 status
 )
 ;
@@ -14596,7 +14603,7 @@ new
 TextTrieMap
 (
 true
-NULL
+nullptr
 )
 ;
 if
@@ -14604,7 +14611,7 @@ if
 gShortZoneIdTrie
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -14634,11 +14641,11 @@ status
 )
 !
 =
-NULL
+nullptr
 )
 {
 const
-UChar
+char16_t
 *
 uID
 =
@@ -14652,7 +14659,7 @@ id
 )
 ;
 const
-UChar
+char16_t
 *
 shortID
 =
@@ -14681,7 +14688,7 @@ put
 shortID
 const_cast
 <
-UChar
+char16_t
 *
 >
 (

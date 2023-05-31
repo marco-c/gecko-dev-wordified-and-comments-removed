@@ -270,7 +270,7 @@ if
 listname
 =
 =
-NULL
+nullptr
 |
 |
 listname
@@ -295,7 +295,7 @@ n
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -303,7 +303,7 @@ if
 listPkg
 =
 =
-NULL
+nullptr
 )
 {
 listPkg
@@ -318,7 +318,7 @@ if
 listPkg
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -388,7 +388,7 @@ if
 file
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -451,7 +451,7 @@ if
 end
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -532,7 +532,7 @@ start
 0
 |
 |
-NULL
+nullptr
 !
 =
 strchr
@@ -603,7 +603,7 @@ end
 {
 end
 =
-NULL
+nullptr
 ;
 }
 else
@@ -645,7 +645,7 @@ if
 end
 =
 =
-NULL
+nullptr
 |
 |
 *
@@ -797,7 +797,7 @@ if
 pkg
 =
 =
-NULL
+nullptr
 )
 {
 ownedPkg
@@ -852,7 +852,7 @@ readList
 sourcePath
 addList
 true
-NULL
+nullptr
 )
 )
 ;

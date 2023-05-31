@@ -105,7 +105,7 @@ UHashtable
 *
 gLocExtKeyMap
 =
-NULL
+nullptr
 ;
 static
 icu
@@ -199,7 +199,7 @@ CharString
 *
 gKeyTypeStringPool
 =
-NULL
+nullptr
 ;
 static
 icu
@@ -212,7 +212,7 @@ LocExtKeyData
 *
 gLocExtKeyDataEntries
 =
-NULL
+nullptr
 ;
 static
 icu
@@ -225,7 +225,7 @@ LocExtType
 *
 gLocExtTypeEntries
 =
-NULL
+nullptr
 ;
 U_CDECL_BEGIN
 static
@@ -233,7 +233,6 @@ UBool
 U_CALLCONV
 uloc_key_type_cleanup
 (
-void
 )
 {
 if
@@ -241,7 +240,7 @@ if
 gLocExtKeyMap
 !
 =
-NULL
+nullptr
 )
 {
 uhash_close
@@ -251,7 +250,7 @@ gLocExtKeyMap
 ;
 gLocExtKeyMap
 =
-NULL
+nullptr
 ;
 }
 delete
@@ -259,21 +258,21 @@ gLocExtKeyDataEntries
 ;
 gLocExtKeyDataEntries
 =
-NULL
+nullptr
 ;
 delete
 gLocExtTypeEntries
 ;
 gLocExtTypeEntries
 =
-NULL
+nullptr
 ;
 delete
 gKeyTypeStringPool
 ;
 gKeyTypeStringPool
 =
-NULL
+nullptr
 ;
 gLocExtKeyMapInitOnce
 .
@@ -309,7 +308,7 @@ uhash_open
 (
 uhash_hashIChars
 uhash_compareIChars
-NULL
+nullptr
 &
 sts
 )
@@ -319,7 +318,7 @@ keyTypeDataRes
 (
 ures_openDirect
 (
-NULL
+nullptr
 "
 keyTypeData
 "
@@ -341,7 +340,7 @@ getAlias
 "
 keyMap
 "
-NULL
+nullptr
 &
 sts
 )
@@ -360,7 +359,7 @@ getAlias
 "
 typeMap
 "
-NULL
+nullptr
 &
 sts
 )
@@ -395,7 +394,7 @@ getAlias
 "
 typeAlias
 "
-NULL
+nullptr
 &
 tmpSts
 )
@@ -418,7 +417,7 @@ getAlias
 "
 bcpTypeAlias
 "
-NULL
+nullptr
 &
 tmpSts
 )
@@ -443,7 +442,7 @@ if
 gKeyTypeStringPool
 =
 =
-NULL
+nullptr
 )
 {
 sts
@@ -469,7 +468,7 @@ if
 gLocExtKeyDataEntries
 =
 =
-NULL
+nullptr
 )
 {
 sts
@@ -495,7 +494,7 @@ if
 gLocExtTypeEntries
 =
 =
-NULL
+nullptr
 )
 {
 sts
@@ -627,7 +626,7 @@ if
 bcpKeyIdBuf
 =
 =
-NULL
+nullptr
 )
 {
 sts
@@ -689,7 +688,7 @@ uhash_open
 (
 uhash_hashIChars
 uhash_compareIChars
-NULL
+nullptr
 &
 sts
 )
@@ -741,7 +740,7 @@ getAlias
 (
 )
 legacyKeyId
-NULL
+nullptr
 &
 tmpSts
 )
@@ -788,7 +787,7 @@ getAlias
 (
 )
 bcpKeyId
-NULL
+nullptr
 &
 tmpSts
 )
@@ -821,7 +820,7 @@ getAlias
 (
 )
 legacyKeyId
-NULL
+nullptr
 &
 sts
 )
@@ -983,7 +982,7 @@ legacyTypeId
 )
 !
 =
-NULL
+nullptr
 )
 {
 icu
@@ -1007,7 +1006,7 @@ if
 legacyTypeIdBuf
 =
 =
-NULL
+nullptr
 )
 {
 sts
@@ -1132,7 +1131,7 @@ if
 bcpTypeIdBuf
 =
 =
-NULL
+nullptr
 )
 {
 sts
@@ -1188,7 +1187,7 @@ if
 t
 =
 =
-NULL
+nullptr
 )
 {
 sts
@@ -1322,7 +1321,7 @@ sts
 )
 ;
 const
-UChar
+char16_t
 *
 to
 =
@@ -1354,7 +1353,7 @@ if
 (
 uprv_compareInvWithUChar
 (
-NULL
+nullptr
 legacyTypeId
 -
 1
@@ -1396,7 +1395,7 @@ from
 )
 !
 =
-NULL
+nullptr
 )
 {
 icu
@@ -1420,7 +1419,7 @@ if
 fromBuf
 =
 =
-NULL
+nullptr
 )
 {
 sts
@@ -1575,7 +1574,7 @@ sts
 )
 ;
 const
-UChar
+char16_t
 *
 to
 =
@@ -1607,7 +1606,7 @@ if
 (
 uprv_compareInvWithUChar
 (
-NULL
+nullptr
 bcpTypeId
 -
 1
@@ -1689,7 +1688,7 @@ if
 keyData
 =
 =
-NULL
+nullptr
 )
 {
 sts
@@ -2186,7 +2185,7 @@ init
 )
 {
 return
-NULL
+nullptr
 ;
 }
 LocExtKeyData
@@ -2208,7 +2207,7 @@ if
 keyData
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -2219,7 +2218,7 @@ bcpId
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 U_CFUNC
@@ -2243,7 +2242,7 @@ init
 )
 {
 return
-NULL
+nullptr
 ;
 }
 LocExtKeyData
@@ -2265,7 +2264,7 @@ if
 keyData
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -2276,7 +2275,7 @@ legacyId
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 U_CFUNC
@@ -2306,7 +2305,7 @@ if
 isKnownKey
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2320,7 +2319,7 @@ if
 isSpecialType
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2338,7 +2337,7 @@ init
 )
 {
 return
-NULL
+nullptr
 ;
 }
 LocExtKeyData
@@ -2360,7 +2359,7 @@ if
 keyData
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2368,7 +2367,7 @@ if
 isKnownKey
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2403,7 +2402,7 @@ if
 t
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -2501,7 +2500,7 @@ if
 isSpecialType
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2517,7 +2516,7 @@ type
 }
 }
 return
-NULL
+nullptr
 ;
 }
 U_CFUNC
@@ -2547,7 +2546,7 @@ if
 isKnownKey
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2561,7 +2560,7 @@ if
 isSpecialType
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2579,7 +2578,7 @@ init
 )
 {
 return
-NULL
+nullptr
 ;
 }
 LocExtKeyData
@@ -2601,7 +2600,7 @@ if
 keyData
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2609,7 +2608,7 @@ if
 isKnownKey
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2644,7 +2643,7 @@ if
 t
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -2742,7 +2741,7 @@ if
 isSpecialType
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2758,6 +2757,6 @@ type
 }
 }
 return
-NULL
+nullptr
 ;
 }

@@ -133,7 +133,7 @@ UFILE
 *
 f
 const
-UChar
+char16_t
 *
 patternSpecification
 .
@@ -190,11 +190,11 @@ ap
 int32_t
 converted
 ;
-UChar
+char16_t
 *
 pattern
 ;
-UChar
+char16_t
 patBuffer
 [
 UFMT_DEFAULT_BUFFER_SIZE
@@ -227,7 +227,7 @@ patBuffer
 pattern
 =
 (
-UChar
+char16_t
 *
 )
 uprv_malloc
@@ -236,7 +236,7 @@ size
 *
 sizeof
 (
-UChar
+char16_t
 )
 )
 ;
@@ -303,7 +303,7 @@ UFILE
 *
 f
 const
-UChar
+char16_t
 *
 patternSpecification
 va_list

@@ -55,7 +55,7 @@ U_NAMESPACE_BEGIN
 class
 U_I18N_API
 StringSearch
-U_FINAL
+final
 :
 public
 SearchIterator

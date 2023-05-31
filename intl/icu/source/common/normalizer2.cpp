@@ -307,7 +307,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 {
 if
 (
@@ -363,7 +363,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 {
 if
 (
@@ -468,7 +468,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 {
 if
 (
@@ -525,7 +525,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 {
 if
 (
@@ -574,7 +574,7 @@ UnicodeString
 &
 )
 const
-U_OVERRIDE
+override
 {
 return
 false
@@ -592,7 +592,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 {
 return
 U_SUCCESS
@@ -611,7 +611,7 @@ UErrorCode
 errorCode
 )
 const
-U_OVERRIDE
+override
 {
 return
 U_SUCCESS
@@ -631,7 +631,7 @@ UErrorCode
 &
 )
 const
-U_OVERRIDE
+override
 {
 return
 UNORM_YES
@@ -649,7 +649,7 @@ UErrorCode
 &
 )
 const
-U_OVERRIDE
+override
 {
 return
 s
@@ -666,7 +666,7 @@ hasBoundaryBefore
 UChar32
 )
 const
-U_OVERRIDE
+override
 {
 return
 true
@@ -679,7 +679,7 @@ hasBoundaryAfter
 UChar32
 )
 const
-U_OVERRIDE
+override
 {
 return
 true
@@ -692,7 +692,7 @@ isInert
 UChar32
 )
 const
-U_OVERRIDE
+override
 {
 return
 true
@@ -799,7 +799,7 @@ if
 noopSingleton
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -838,7 +838,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 umtx_initOnce
@@ -920,7 +920,7 @@ delete
 impl
 ;
 return
-NULL
+nullptr
 ;
 }
 Norm2AllModes
@@ -938,7 +938,7 @@ if
 allModes
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -949,7 +949,7 @@ delete
 impl
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -980,7 +980,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 Normalizer2Impl
@@ -995,7 +995,7 @@ if
 impl
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1003,7 +1003,7 @@ errorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 impl
@@ -1089,7 +1089,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 umtx_initOnce
@@ -1134,7 +1134,7 @@ return
 allModes
 !
 =
-NULL
+nullptr
 ?
 &
 allModes
@@ -1142,7 +1142,7 @@ allModes
 >
 comp
 :
-NULL
+nullptr
 ;
 }
 const
@@ -1175,7 +1175,7 @@ return
 allModes
 !
 =
-NULL
+nullptr
 ?
 &
 allModes
@@ -1183,7 +1183,7 @@ allModes
 >
 decomp
 :
-NULL
+nullptr
 ;
 }
 const
@@ -1216,7 +1216,7 @@ return
 allModes
 !
 =
-NULL
+nullptr
 ?
 &
 allModes
@@ -1224,7 +1224,7 @@ allModes
 >
 fcd
 :
-NULL
+nullptr
 ;
 }
 const
@@ -1257,7 +1257,7 @@ return
 allModes
 !
 =
-NULL
+nullptr
 ?
 &
 allModes
@@ -1265,7 +1265,7 @@ allModes
 >
 fcc
 :
-NULL
+nullptr
 ;
 }
 const
@@ -1298,14 +1298,14 @@ return
 allModes
 !
 =
-NULL
+nullptr
 ?
 allModes
 -
 >
 impl
 :
-NULL
+nullptr
 ;
 }
 #
@@ -1323,7 +1323,7 @@ noopSingleton
 ;
 noopSingleton
 =
-NULL
+nullptr
 ;
 noopInitOnce
 .
@@ -1339,7 +1339,7 @@ nfcSingleton
 ;
 nfcSingleton
 =
-NULL
+nullptr
 ;
 nfcInitOnce
 .
@@ -1440,12 +1440,12 @@ UNormalizer2
 *
 norm2
 const
-UChar
+char16_t
 *
 src
 int32_t
 length
-UChar
+char16_t
 *
 dest
 int32_t
@@ -1474,7 +1474,7 @@ if
 src
 =
 =
-NULL
+nullptr
 ?
 length
 !
@@ -1492,7 +1492,7 @@ length
 dest
 =
 =
-NULL
+nullptr
 ?
 capacity
 !
@@ -1515,7 +1515,7 @@ dest
 src
 !
 =
-NULL
+nullptr
 )
 )
 {
@@ -1576,7 +1576,7 @@ if
 n2wi
 !
 =
-NULL
+nullptr
 )
 {
 ReorderingBuffer
@@ -1616,7 +1616,7 @@ src
 +
 length
 :
-NULL
+nullptr
 buffer
 *
 pErrorCode
@@ -1669,7 +1669,7 @@ const
 UNormalizer2
 *
 norm2
-UChar
+char16_t
 *
 first
 int32_t
@@ -1677,7 +1677,7 @@ firstLength
 int32_t
 firstCapacity
 const
-UChar
+char16_t
 *
 second
 int32_t
@@ -1708,7 +1708,7 @@ if
 second
 =
 =
-NULL
+nullptr
 ?
 secondLength
 !
@@ -1726,7 +1726,7 @@ secondLength
 first
 =
 =
-NULL
+nullptr
 ?
 (
 firstCapacity
@@ -1765,7 +1765,7 @@ second
 first
 !
 =
-NULL
+nullptr
 )
 )
 {
@@ -1834,7 +1834,7 @@ if
 n2wi
 !
 =
-NULL
+nullptr
 )
 {
 UnicodeString
@@ -1882,7 +1882,7 @@ second
 +
 secondLength
 :
-NULL
+nullptr
 doNormalize
 safeMiddle
 buffer
@@ -1915,7 +1915,7 @@ if
 first
 !
 =
-NULL
+nullptr
 )
 {
 safeMiddle
@@ -2019,7 +2019,7 @@ const
 UNormalizer2
 *
 norm2
-UChar
+char16_t
 *
 first
 int32_t
@@ -2027,7 +2027,7 @@ firstLength
 int32_t
 firstCapacity
 const
-UChar
+char16_t
 *
 second
 int32_t
@@ -2060,7 +2060,7 @@ const
 UNormalizer2
 *
 norm2
-UChar
+char16_t
 *
 first
 int32_t
@@ -2068,7 +2068,7 @@ firstLength
 int32_t
 firstCapacity
 const
-UChar
+char16_t
 *
 second
 int32_t
@@ -2103,7 +2103,7 @@ UNormalizer2
 norm2
 UChar32
 c
-UChar
+char16_t
 *
 decomposition
 int32_t
@@ -2131,7 +2131,7 @@ if
 decomposition
 =
 =
-NULL
+nullptr
 ?
 capacity
 !
@@ -2211,7 +2211,7 @@ UNormalizer2
 norm2
 UChar32
 c
-UChar
+char16_t
 *
 decomposition
 int32_t
@@ -2239,7 +2239,7 @@ if
 decomposition
 =
 =
-NULL
+nullptr
 ?
 capacity
 !
@@ -2383,7 +2383,7 @@ UNormalizer2
 *
 norm2
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -2412,7 +2412,7 @@ if
 s
 =
 =
-NULL
+nullptr
 &
 &
 length
@@ -2476,7 +2476,7 @@ UNormalizer2
 *
 norm2
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -2505,7 +2505,7 @@ if
 s
 =
 =
-NULL
+nullptr
 &
 &
 length
@@ -2569,7 +2569,7 @@ UNormalizer2
 *
 norm2
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -2598,7 +2598,7 @@ if
 s
 =
 =
-NULL
+nullptr
 &
 &
 length

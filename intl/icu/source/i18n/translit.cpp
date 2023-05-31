@@ -301,21 +301,21 @@ h
 "
 static
 const
-UChar
+char16_t
 TARGET_SEP
 =
 0x002D
 ;
 static
 const
-UChar
+char16_t
 ID_DELIM
 =
 0x003B
 ;
 static
 const
-UChar
+char16_t
 VARIANT_SEP
 =
 0x002F
@@ -501,7 +501,7 @@ ID
 append
 (
 (
-UChar
+char16_t
 )
 0
 )
@@ -575,7 +575,7 @@ ID
 append
 (
 (
-UChar
+char16_t
 )
 0
 )
@@ -627,7 +627,7 @@ clone
 const
 {
 return
-NULL
+nullptr
 ;
 }
 Transliterator
@@ -1206,7 +1206,7 @@ if
 filter
 !
 =
-NULL
+nullptr
 )
 {
 UChar32
@@ -1659,7 +1659,7 @@ if
 filter
 =
 =
-NULL
+nullptr
 |
 |
 isIncrementalRun
@@ -1725,7 +1725,6 @@ Transliterator
 :
 getID
 (
-void
 )
 const
 {
@@ -2260,7 +2259,6 @@ Transliterator
 :
 getFilter
 (
-void
 )
 const
 {
@@ -2275,7 +2273,6 @@ Transliterator
 :
 orphanFilter
 (
-void
 )
 {
 UnicodeFilter
@@ -2286,7 +2283,7 @@ filter
 ;
 filter
 =
-NULL
+nullptr
 ;
 return
 result
@@ -2424,7 +2421,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UnicodeSet
@@ -2457,7 +2454,7 @@ delete
 globalFilter
 ;
 return
-NULL
+nullptr
 ;
 }
 LocalPointer
@@ -2487,7 +2484,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 U_ASSERT
@@ -2505,7 +2502,7 @@ Transliterator
 *
 t
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2561,7 +2558,7 @@ if
 t
 !
 =
-NULL
+nullptr
 )
 {
 t
@@ -2824,7 +2821,7 @@ alias
 ;
 t
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -2835,13 +2832,13 @@ if
 t
 !
 =
-NULL
+nullptr
 &
 &
 canon
 !
 =
-NULL
+nullptr
 )
 {
 t
@@ -2888,7 +2885,7 @@ Transliterator
 *
 t
 =
-NULL
+nullptr
 ;
 TransliteratorParser
 parser
@@ -3035,7 +3032,7 @@ parser
 compoundFilter
 !
 =
-NULL
+nullptr
 )
 {
 UnicodeString
@@ -3114,7 +3111,7 @@ if
 t
 !
 =
-NULL
+nullptr
 )
 {
 t
@@ -3263,7 +3260,7 @@ if
 temp
 !
 =
-NULL
+nullptr
 &
 &
 typeid
@@ -3370,7 +3367,7 @@ if
 temprbt
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -3433,7 +3430,7 @@ if
 t
 !
 =
-NULL
+nullptr
 )
 {
 t
@@ -3469,7 +3466,7 @@ status
 t
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -3635,7 +3632,7 @@ return
 ct
 !
 =
-NULL
+nullptr
 ?
 ct
 -
@@ -3698,7 +3695,7 @@ n
 cpd
 =
 =
-NULL
+nullptr
 )
 ?
 1
@@ -3778,7 +3775,7 @@ if
 filter
 !
 =
-NULL
+nullptr
 )
 {
 UnicodeSet
@@ -3804,7 +3801,7 @@ if
 filterSet
 =
 =
-NULL
+nullptr
 )
 {
 filterSet
@@ -3819,7 +3816,7 @@ if
 filterSet
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -4224,7 +4221,6 @@ Transliterator
 :
 countAvailableIDs
 (
-void
 )
 {
 int32_t
@@ -4284,7 +4280,7 @@ UnicodeString
 *
 result
 =
-NULL
+nullptr
 ;
 umtx_lock
 (
@@ -4328,7 +4324,7 @@ U_ASSERT
 result
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -4357,13 +4353,13 @@ ec
 )
 )
 return
-NULL
+nullptr
 ;
 StringEnumeration
 *
 result
 =
-NULL
+nullptr
 ;
 umtx_lock
 (
@@ -4400,7 +4396,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 ec
@@ -4419,7 +4415,6 @@ Transliterator
 :
 countAvailableSources
 (
-void
 )
 {
 Mutex
@@ -4689,7 +4684,6 @@ Transliterator
 :
 _countAvailableSources
 (
-void
 )
 {
 return
@@ -4843,7 +4837,7 @@ result
 #
 ifdef
 U_USE_DEPRECATED_TRANSLITERATOR_API
-UChar
+char16_t
 Transliterator
 :
 :
@@ -4858,7 +4852,7 @@ i
 )
 const
 {
-UChar
+char16_t
 c
 ;
 const
@@ -4904,7 +4898,7 @@ i
 c
 :
 (
-UChar
+char16_t
 )
 0xFFFE
 )
@@ -4986,7 +4980,7 @@ bundle
 ures_open
 (
 U_ICUDATA_TRANSLIT
-NULL
+nullptr
 &
 lstatus
 )
@@ -5132,7 +5126,7 @@ res
 ures_getNextResource
 (
 colBund
-NULL
+nullptr
 &
 lstatus
 )
@@ -5147,7 +5141,7 @@ ures_getKey
 res
 )
 ;
-UChar
+char16_t
 type
 ;
 u_charsToUChars
@@ -5172,7 +5166,7 @@ len
 0
 ;
 const
-UChar
+char16_t
 *
 resString
 ;
@@ -5392,31 +5386,31 @@ if
 tempNullTranslit
 =
 =
-NULL
+nullptr
 |
 |
 tempLowercaseTranslit
 =
 =
-NULL
+nullptr
 |
 |
 tempUppercaseTranslit
 =
 =
-NULL
+nullptr
 |
 |
 tempTitlecaseTranslit
 =
 =
-NULL
+nullptr
 |
 |
 tempUnicodeTranslit
 =
 =
-NULL
+nullptr
 |
 |
 #
@@ -5426,7 +5420,7 @@ UCONFIG_NO_BREAK_ITERATION
 tempBreakTranslit
 =
 =
-NULL
+nullptr
 |
 |
 #
@@ -5434,7 +5428,7 @@ endif
 tempNameUnicodeTranslit
 =
 =
-NULL
+nullptr
 )
 {
 delete
@@ -5469,7 +5463,7 @@ registry
 ;
 registry
 =
-NULL
+nullptr
 ;
 status
 =
@@ -5656,7 +5650,6 @@ U_CFUNC
 UBool
 utrans_transliterator_cleanup
 (
-void
 )
 {
 U_NAMESPACE_USE
@@ -5677,7 +5670,7 @@ registry
 ;
 registry
 =
-NULL
+nullptr
 ;
 }
 return

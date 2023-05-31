@@ -1188,6 +1188,9 @@ Mo
 "
 "
 nterrey
+America
+/
+Chihuahua
 "
 }
 }
@@ -1231,6 +1234,9 @@ MX
 America
 /
 Matamoros
+America
+/
+Ojinaga
 "
 }
 US
@@ -2690,15 +2696,12 @@ Mexico
 "
 America
 /
-Chihuahua
+Mazatlan
 "
 }
 MX
 {
 "
-America
-/
-Chihuahua
 America
 /
 Mazatlan
@@ -2744,7 +2747,7 @@ MX
 "
 America
 /
-Ojinaga
+Ciudad_Juarez
 "
 }
 US

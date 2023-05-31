@@ -97,7 +97,7 @@ h
 U_NAMESPACE_BEGIN
 static
 const
-UChar
+char16_t
 gNumberPatternSeparator
 =
 0x3B
@@ -166,7 +166,7 @@ CurrencyPluralInfo
 )
 static
 const
-UChar
+char16_t
 gDefaultCurrencyPluralPattern
 [
 ]
@@ -194,7 +194,7 @@ gDefaultCurrencyPluralPattern
 ;
 static
 const
-UChar
+char16_t
 gTripleCurrencySign
 [
 ]
@@ -208,7 +208,7 @@ gTripleCurrencySign
 ;
 static
 const
-UChar
+char16_t
 gPluralCountOther
 [
 ]
@@ -224,7 +224,7 @@ gPluralCountOther
 ;
 static
 const
-UChar
+char16_t
 gPart0
 [
 ]
@@ -238,7 +238,7 @@ gPart0
 ;
 static
 const
-UChar
+char16_t
 gPart1
 [
 ]
@@ -1390,7 +1390,7 @@ int32_t
 ptnLen
 ;
 const
-UChar
+char16_t
 *
 numberStylePattern
 =
@@ -1494,7 +1494,7 @@ numberStylePatternLen
 ptnLen
 ;
 const
-UChar
+char16_t
 *
 negNumberStylePattern
 =
@@ -1713,7 +1713,7 @@ err
 U_ZERO_ERROR
 ;
 const
-UChar
+char16_t
 *
 patternChars
 =

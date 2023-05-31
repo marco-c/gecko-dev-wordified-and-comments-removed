@@ -105,7 +105,7 @@ UOption
 *
 option
 =
-NULL
+nullptr
 ;
 arg
 +
@@ -196,7 +196,7 @@ if
 option
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -310,7 +310,7 @@ option
 optionFn
 !
 =
-NULL
+nullptr
 &
 &
 option
@@ -392,7 +392,7 @@ if
 option
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -528,7 +528,7 @@ option
 optionFn
 !
 =
-NULL
+nullptr
 &
 &
 option
@@ -560,7 +560,7 @@ i
 }
 option
 =
-NULL
+nullptr
 ;
 c
 =

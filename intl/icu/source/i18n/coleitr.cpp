@@ -139,11 +139,11 @@ other
 )
 iter_
 (
-NULL
+nullptr
 )
 rbc_
 (
-NULL
+nullptr
 )
 otherHalf_
 (
@@ -155,7 +155,7 @@ dir_
 )
 offsets_
 (
-NULL
+nullptr
 )
 {
 *
@@ -296,7 +296,7 @@ dir_
 offsets_
 !
 =
-NULL
+nullptr
 &
 &
 !
@@ -765,7 +765,7 @@ if
 offsets_
 =
 =
-NULL
+nullptr
 )
 {
 offsets_
@@ -781,7 +781,7 @@ if
 offsets_
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1010,7 +1010,7 @@ newOffset
 ;
 do
 {
-UChar
+char16_t
 c
 =
 string_
@@ -1206,7 +1206,7 @@ string_
 source
 ;
 const
-UChar
+char16_t
 *
 s
 =
@@ -1297,7 +1297,7 @@ if
 newIter
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1440,7 +1440,7 @@ status
 :
 iter_
 (
-NULL
+nullptr
 )
 rbc_
 (
@@ -1456,7 +1456,7 @@ dir_
 )
 offsets_
 (
-NULL
+nullptr
 )
 {
 setText
@@ -1486,7 +1486,7 @@ status
 :
 iter_
 (
-NULL
+nullptr
 )
 rbc_
 (
@@ -1502,7 +1502,7 @@ dir_
 )
 offsets_
 (
-NULL
+nullptr
 )
 {
 setText
@@ -1574,7 +1574,7 @@ if
 otherFCDIter
 !
 =
-NULL
+nullptr
 )
 {
 newIter
@@ -1616,7 +1616,7 @@ if
 otherIter
 !
 =
-NULL
+nullptr
 )
 {
 newIter
@@ -1638,7 +1638,7 @@ else
 {
 newIter
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1647,7 +1647,7 @@ if
 newIter
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -1696,7 +1696,7 @@ other
 offsets_
 !
 =
-NULL
+nullptr
 &
 &
 !
@@ -1720,7 +1720,7 @@ if
 offsets_
 =
 =
-NULL
+nullptr
 )
 {
 offsets_
@@ -1745,7 +1745,7 @@ if
 offsets_
 !
 =
-NULL
+nullptr
 )
 {
 offsets_
@@ -2025,7 +2025,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UHashtable
@@ -2050,7 +2050,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 MaxExpSink
@@ -2062,8 +2062,8 @@ errorCode
 ;
 ContractionsAndExpansions
 (
-NULL
-NULL
+nullptr
+nullptr
 &
 sink
 true
@@ -2089,7 +2089,7 @@ maxExpansions
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -2155,7 +2155,7 @@ if
 maxExpansions
 !
 =
-NULL
+nullptr
 &
 &
 (

@@ -98,6 +98,14 @@ other
 "
 }
 }
+XAG
+{
+other
+{
+"
+"
+}
+}
 }
 CurrencyUnitPatterns
 {

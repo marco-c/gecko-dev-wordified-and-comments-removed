@@ -94,7 +94,7 @@ Locale
 *
 availableLocaleList
 =
-NULL
+nullptr
 ;
 static
 int32_t
@@ -116,7 +116,6 @@ UBool
 U_CALLCONV
 locale_available_cleanup
 (
-void
 )
 {
 U_NAMESPACE_USE
@@ -132,7 +131,7 @@ availableLocaleList
 ;
 availableLocaleList
 =
-NULL
+nullptr
 ;
 }
 availableLocaleListCount
@@ -182,7 +181,7 @@ if
 availableLocaleList
 =
 =
-NULL
+nullptr
 )
 {
 availableLocaleListCount
@@ -315,7 +314,7 @@ UErrorCode
 &
 status
 )
-U_OVERRIDE
+override
 {
 ResourceTable
 resIndexTable
@@ -755,7 +754,6 @@ UBool
 U_CALLCONV
 uloc_cleanup
 (
-void
 )
 {
 for
@@ -834,7 +832,7 @@ rb
 (
 ures_openDirect
 (
-NULL
+nullptr
 "
 res_index
 "

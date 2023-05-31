@@ -357,7 +357,7 @@ ret
 snprintf
 (
 gmtOffsetTz
-UPRV_LENGTHOF
+sizeof
 (
 gmtOffsetTz
 )
@@ -1018,7 +1018,7 @@ regionCodeW
 )
 ;
 const
-UChar
+char16_t
 *
 icuTZ16
 =

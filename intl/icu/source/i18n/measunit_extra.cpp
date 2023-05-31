@@ -763,7 +763,7 @@ int32_t
 len
 ;
 const
-UChar
+char16_t
 *
 uTarget
 =
@@ -901,7 +901,7 @@ explicit
 CategoriesSink
 (
 const
-UChar
+char16_t
 *
 *
 out
@@ -1103,7 +1103,7 @@ outIndex
 private
 :
 const
-UChar
+char16_t
 *
 *
 outQuantitiesArray
@@ -1150,7 +1150,7 @@ gSerializedUnitExtrasStemTrie
 nullptr
 ;
 const
-UChar
+char16_t
 *
 *
 gCategories
@@ -1311,7 +1311,7 @@ quantitiesMallocSize
 =
 sizeof
 (
-UChar
+char16_t
 *
 )
 *
@@ -1322,7 +1322,7 @@ gCategories
 static_cast
 <
 const
-UChar
+char16_t
 *
 *
 >
@@ -3822,6 +3822,7 @@ UErrorCode
 status
 )
 const
+UPRV_NO_SANITIZE_UNDEFINED
 {
 int32_t
 absPower
@@ -5227,6 +5228,7 @@ UErrorCode
 status
 )
 const
+UPRV_NO_SANITIZE_UNDEFINED
 {
 SingleUnitImpl
 singleUnit

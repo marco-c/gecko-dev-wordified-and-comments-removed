@@ -172,15 +172,15 @@ digitValue
 )
 numericValue
 (
-NULL
+nullptr
 )
 name
 (
-NULL
+nullptr
 )
 nameAlias
 (
-NULL
+nullptr
 )
 {
 memset
@@ -247,7 +247,7 @@ nullptr
 )
 file
 (
-NULL
+nullptr
 )
 defaultLineIndex
 (
@@ -273,11 +273,11 @@ NO_LINE
 )
 fieldLimit
 (
-NULL
+nullptr
 )
 lineLimit
 (
-NULL
+nullptr
 )
 {
 if
@@ -296,7 +296,7 @@ if
 filename
 =
 =
-NULL
+nullptr
 |
 |
 *
@@ -328,7 +328,7 @@ filename
 {
 filename
 =
-NULL
+nullptr
 ;
 file
 =
@@ -353,7 +353,7 @@ if
 file
 =
 =
-NULL
+nullptr
 )
 {
 perror
@@ -453,8 +453,8 @@ lineTypeStrings
 ]
 =
 {
-NULL
-NULL
+nullptr
+nullptr
 "
 ucd
 "
@@ -583,7 +583,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -804,7 +804,7 @@ semi
 )
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -992,7 +992,7 @@ lineLimit
 )
 {
 return
-NULL
+nullptr
 ;
 }
 char
@@ -1040,7 +1040,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 newValues
@@ -1062,7 +1062,7 @@ errorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 firstField
@@ -1083,7 +1083,7 @@ if
 field
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -1128,7 +1128,7 @@ errorCode
 U_PARSE_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 UChar32
@@ -1148,7 +1148,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UniProps
@@ -1209,7 +1209,7 @@ errorCode
 U_PARSE_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1252,7 +1252,7 @@ errorCode
 U_PARSE_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1310,7 +1310,7 @@ errorCode
 U_PARSE_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 props
@@ -1508,7 +1508,7 @@ errorCode
 U_PARSE_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 props
@@ -1525,7 +1525,7 @@ errorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 props
@@ -1553,7 +1553,7 @@ nextField
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1570,7 +1570,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1814,7 +1814,7 @@ if
 v
 !
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -1881,7 +1881,7 @@ if
 v
 =
 =
-NULL
+nullptr
 )
 {
 binaryValue
@@ -2883,7 +2883,7 @@ if
 field
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -3157,7 +3157,7 @@ UErrorCode
 errorCode
 )
 {
-UChar
+char16_t
 *
 buffer
 =
@@ -3184,7 +3184,7 @@ uni
 getCapacity
 (
 )
-NULL
+nullptr
 &
 errorCode
 )
@@ -3231,7 +3231,7 @@ uni
 getCapacity
 (
 )
-NULL
+nullptr
 &
 errorCode
 )
@@ -3353,7 +3353,7 @@ if
 scLimit
 !
 =
-NULL
+nullptr
 )
 {
 scs
@@ -3525,7 +3525,7 @@ if
 scLimit
 !
 =
-NULL
+nullptr
 )
 {
 s

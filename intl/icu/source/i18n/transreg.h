@@ -352,7 +352,6 @@ const
 int32_t
 countAvailableIDs
 (
-void
 )
 const
 ;
@@ -369,7 +368,6 @@ const
 int32_t
 countAvailableSources
 (
-void
 )
 const
 ;
@@ -772,7 +770,6 @@ U_CFUNC
 UBool
 utrans_transliterator_cleanup
 (
-void
 )
 ;
 #

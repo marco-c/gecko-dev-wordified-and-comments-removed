@@ -1194,7 +1194,7 @@ if
 pIsError
 !
 =
-NULL
+nullptr
 )
 {
 *

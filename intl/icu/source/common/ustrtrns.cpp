@@ -72,12 +72,12 @@ uassert
 h
 "
 U_CAPI
-UChar
+char16_t
 *
 U_EXPORT2
 u_strFromUTF32WithSub
 (
-UChar
+char16_t
 *
 dest
 int32_t
@@ -109,11 +109,11 @@ srcLimit
 UChar32
 ch
 ;
-UChar
+char16_t
 *
 destLimit
 ;
-UChar
+char16_t
 *
 pDest
 ;
@@ -133,7 +133,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -142,7 +142,7 @@ if
 src
 =
 =
-NULL
+nullptr
 &
 &
 srcLength
@@ -169,7 +169,7 @@ destCapacity
 dest
 =
 =
-NULL
+nullptr
 &
 &
 destCapacity
@@ -195,7 +195,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -203,7 +203,7 @@ if
 pNumSubstitutions
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -222,7 +222,7 @@ destLimit
 dest
 !
 =
-NULL
+nullptr
 )
 ?
 (
@@ -231,7 +231,7 @@ dest
 destCapacity
 )
 :
-NULL
+nullptr
 ;
 reqLength
 =
@@ -302,7 +302,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 ch
 ;
@@ -349,7 +349,7 @@ srcLimit
 src
 !
 =
-NULL
+nullptr
 )
 ?
 (
@@ -358,7 +358,7 @@ src
 srcLength
 )
 :
-NULL
+nullptr
 ;
 }
 while
@@ -414,7 +414,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 ch
 ;
@@ -449,7 +449,7 @@ if
 pDest
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -514,7 +514,7 @@ pErrorCode
 U_INVALID_CHAR_FOUND
 ;
 return
-NULL
+nullptr
 ;
 }
 else
@@ -559,7 +559,7 @@ if
 pNumSubstitutions
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -581,12 +581,12 @@ dest
 ;
 }
 U_CAPI
-UChar
+char16_t
 *
 U_EXPORT2
 u_strFromUTF32
 (
-UChar
+char16_t
 *
 dest
 int32_t
@@ -614,7 +614,7 @@ pDestLength
 src
 srcLength
 U_SENTINEL
-NULL
+nullptr
 pErrorCode
 )
 ;
@@ -634,7 +634,7 @@ int32_t
 *
 pDestLength
 const
-UChar
+char16_t
 *
 src
 int32_t
@@ -650,14 +650,14 @@ pErrorCode
 )
 {
 const
-UChar
+char16_t
 *
 srcLimit
 ;
 UChar32
 ch
 ;
-UChar
+char16_t
 ch2
 ;
 UChar32
@@ -684,7 +684,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -693,7 +693,7 @@ if
 src
 =
 =
-NULL
+nullptr
 &
 &
 srcLength
@@ -720,7 +720,7 @@ destCapacity
 dest
 =
 =
-NULL
+nullptr
 &
 &
 destCapacity
@@ -746,7 +746,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -754,7 +754,7 @@ if
 pNumSubstitutions
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -773,7 +773,7 @@ destLimit
 dest
 !
 =
-NULL
+nullptr
 )
 ?
 (
@@ -782,7 +782,7 @@ dest
 destCapacity
 )
 :
-NULL
+nullptr
 ;
 reqLength
 =
@@ -880,7 +880,7 @@ srcLimit
 src
 !
 =
-NULL
+nullptr
 )
 ?
 (
@@ -889,7 +889,7 @@ src
 srcLength
 )
 :
-NULL
+nullptr
 ;
 }
 while
@@ -970,7 +970,7 @@ pErrorCode
 U_INVALID_CHAR_FOUND
 ;
 return
-NULL
+nullptr
 ;
 }
 else
@@ -1031,7 +1031,7 @@ if
 pNumSubstitutions
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1067,7 +1067,7 @@ int32_t
 *
 pDestLength
 const
-UChar
+char16_t
 *
 src
 int32_t
@@ -1086,18 +1086,18 @@ pDestLength
 src
 srcLength
 U_SENTINEL
-NULL
+nullptr
 pErrorCode
 )
 ;
 }
 U_CAPI
-UChar
+char16_t
 *
 U_EXPORT2
 u_strFromUTF8WithSub
 (
-UChar
+char16_t
 *
 dest
 int32_t
@@ -1131,7 +1131,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1140,7 +1140,7 @@ if
 src
 =
 =
-NULL
+nullptr
 &
 &
 srcLength
@@ -1167,7 +1167,7 @@ destCapacity
 dest
 =
 =
-NULL
+nullptr
 &
 &
 destCapacity
@@ -1193,7 +1193,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1201,7 +1201,7 @@ if
 pNumSubstitutions
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1210,13 +1210,13 @@ pNumSubstitutions
 0
 ;
 }
-UChar
+char16_t
 *
 pDest
 =
 dest
 ;
-UChar
+char16_t
 *
 pDestLimit
 =
@@ -1295,7 +1295,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -1508,7 +1508,7 @@ pErrorCode
 U_INVALID_CHAR_FOUND
 ;
 return
-NULL
+nullptr
 ;
 }
 else
@@ -1528,7 +1528,7 @@ pDest
 )
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -1777,7 +1777,7 @@ pErrorCode
 U_INVALID_CHAR_FOUND
 ;
 return
-NULL
+nullptr
 ;
 }
 reqLength
@@ -1881,7 +1881,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -2145,7 +2145,7 @@ pErrorCode
 U_INVALID_CHAR_FOUND
 ;
 return
-NULL
+nullptr
 ;
 }
 else
@@ -2165,7 +2165,7 @@ pDest
 )
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -2250,7 +2250,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -2483,7 +2483,7 @@ pErrorCode
 U_INVALID_CHAR_FOUND
 ;
 return
-NULL
+nullptr
 ;
 }
 else
@@ -2503,7 +2503,7 @@ pDest
 )
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -2769,7 +2769,7 @@ pErrorCode
 U_INVALID_CHAR_FOUND
 ;
 return
-NULL
+nullptr
 ;
 }
 reqLength
@@ -2801,7 +2801,7 @@ if
 pNumSubstitutions
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -2834,12 +2834,12 @@ dest
 ;
 }
 U_CAPI
-UChar
+char16_t
 *
 U_EXPORT2
 u_strFromUTF8
 (
-UChar
+char16_t
 *
 dest
 int32_t
@@ -2867,18 +2867,18 @@ pDestLength
 src
 srcLength
 U_SENTINEL
-NULL
+nullptr
 pErrorCode
 )
 ;
 }
 U_CAPI
-UChar
+char16_t
 *
 U_EXPORT2
 u_strFromUTF8Lenient
 (
-UChar
+char16_t
 *
 dest
 int32_t
@@ -2897,7 +2897,7 @@ UErrorCode
 pErrorCode
 )
 {
-UChar
+char16_t
 *
 pDest
 =
@@ -2931,7 +2931,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2940,7 +2940,7 @@ if
 src
 =
 =
-NULL
+nullptr
 &
 &
 srcLength
@@ -2967,7 +2967,7 @@ destCapacity
 dest
 =
 =
-NULL
+nullptr
 &
 &
 destCapacity
@@ -2982,7 +2982,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2992,7 +2992,7 @@ srcLength
 0
 )
 {
-UChar
+char16_t
 *
 pDestLimit
 =
@@ -3000,7 +3000,7 @@ pDestLimit
 dest
 !
 =
-NULL
+nullptr
 )
 ?
 (
@@ -3009,7 +3009,7 @@ dest
 destCapacity
 )
 :
-NULL
+nullptr
 ;
 uint8_t
 t1
@@ -3051,7 +3051,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 ch
 ;
@@ -3091,7 +3091,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -3157,7 +3157,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -3498,7 +3498,7 @@ pSrcLimit
 pSrc
 !
 =
-NULL
+nullptr
 )
 ?
 (
@@ -3507,7 +3507,7 @@ pSrc
 srcLength
 )
 :
-NULL
+nullptr
 ;
 if
 (
@@ -3521,7 +3521,7 @@ if
 pDestLength
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -3536,7 +3536,7 @@ pErrorCode
 U_BUFFER_OVERFLOW_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3578,7 +3578,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 ch
 ;
@@ -3597,7 +3597,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -3649,7 +3649,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 (
 ch
@@ -3771,7 +3771,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 ch
 ;
@@ -3799,7 +3799,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -3866,7 +3866,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 (
 ch
@@ -4287,7 +4287,7 @@ int32_t
 *
 pDestLength
 const
-UChar
+char16_t
 *
 pSrc
 int32_t
@@ -4333,7 +4333,7 @@ pDestLimit
 pDest
 !
 =
-NULL
+nullptr
 )
 ?
 (
@@ -4342,7 +4342,7 @@ pDest
 destCapacity
 )
 :
-NULL
+nullptr
 ;
 int32_t
 numSubstitutions
@@ -4357,7 +4357,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -4366,7 +4366,7 @@ if
 pSrc
 =
 =
-NULL
+nullptr
 &
 &
 srcLength
@@ -4393,7 +4393,7 @@ destCapacity
 dest
 =
 =
-NULL
+nullptr
 &
 &
 destCapacity
@@ -4419,7 +4419,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -4427,7 +4427,7 @@ if
 pNumSubstitutions
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -4730,7 +4730,7 @@ pErrorCode
 U_INVALID_CHAR_FOUND
 ;
 return
-NULL
+nullptr
 ;
 }
 length
@@ -4889,7 +4889,7 @@ pErrorCode
 U_INVALID_CHAR_FOUND
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -4897,7 +4897,7 @@ NULL
 else
 {
 const
-UChar
+char16_t
 *
 pSrcLimit
 =
@@ -4905,7 +4905,7 @@ pSrcLimit
 pSrc
 !
 =
-NULL
+nullptr
 )
 ?
 (
@@ -4914,7 +4914,7 @@ pSrc
 srcLength
 )
 :
-NULL
+nullptr
 ;
 int32_t
 count
@@ -5283,7 +5283,7 @@ pErrorCode
 U_INVALID_CHAR_FOUND
 ;
 return
-NULL
+nullptr
 ;
 }
 pDest
@@ -5590,7 +5590,7 @@ pErrorCode
 U_INVALID_CHAR_FOUND
 ;
 return
-NULL
+nullptr
 ;
 }
 length
@@ -5753,7 +5753,7 @@ pErrorCode
 U_INVALID_CHAR_FOUND
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -5779,7 +5779,7 @@ if
 pNumSubstitutions
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -5826,7 +5826,7 @@ int32_t
 *
 pDestLength
 const
-UChar
+char16_t
 *
 pSrc
 int32_t
@@ -5845,18 +5845,18 @@ pDestLength
 pSrc
 srcLength
 U_SENTINEL
-NULL
+nullptr
 pErrorCode
 )
 ;
 }
 U_CAPI
-UChar
+char16_t
 *
 U_EXPORT2
 u_strFromJavaModifiedUTF8WithSub
 (
-UChar
+char16_t
 *
 dest
 int32_t
@@ -5890,7 +5890,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -5899,7 +5899,7 @@ if
 src
 =
 =
-NULL
+nullptr
 &
 &
 srcLength
@@ -5919,7 +5919,7 @@ srcLength
 dest
 =
 =
-NULL
+nullptr
 &
 &
 destCapacity
@@ -5951,7 +5951,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -5959,7 +5959,7 @@ if
 pNumSubstitutions
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -5968,13 +5968,13 @@ pNumSubstitutions
 0
 ;
 }
-UChar
+char16_t
 *
 pDest
 =
 dest
 ;
-UChar
+char16_t
 *
 pDestLimit
 =
@@ -6039,7 +6039,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 c
 ;
@@ -6282,7 +6282,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 ch
 ;
@@ -6353,7 +6353,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -6418,7 +6418,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -6456,7 +6456,7 @@ pErrorCode
 U_INVALID_CHAR_FOUND
 ;
 return
-NULL
+nullptr
 ;
 }
 else
@@ -6514,7 +6514,7 @@ pDest
 )
 =
 (
-UChar
+char16_t
 )
 subchar
 ;
@@ -6571,7 +6571,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 ch
 ;
@@ -6651,7 +6651,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -6721,7 +6721,7 @@ pDest
 +
 =
 (
-UChar
+char16_t
 )
 (
 (
@@ -6759,7 +6759,7 @@ pErrorCode
 U_INVALID_CHAR_FOUND
 ;
 return
-NULL
+nullptr
 ;
 }
 else
@@ -6802,7 +6802,7 @@ pDest
 )
 =
 (
-UChar
+char16_t
 )
 subchar
 ;
@@ -7016,7 +7016,7 @@ pErrorCode
 U_INVALID_CHAR_FOUND
 ;
 return
-NULL
+nullptr
 ;
 }
 else
@@ -7059,7 +7059,7 @@ if
 pNumSubstitutions
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -7118,7 +7118,7 @@ int32_t
 *
 pDestLength
 const
-UChar
+char16_t
 *
 src
 int32_t
@@ -7138,26 +7138,8 @@ ch
 =
 0
 ;
-uint8_t
-*
-pDest
-=
-(
-uint8_t
-*
-)
-dest
-;
-uint8_t
-*
-pDestLimit
-=
-pDest
-+
-destCapacity
-;
 const
-UChar
+char16_t
 *
 pSrcLimit
 ;
@@ -7174,7 +7156,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -7183,7 +7165,7 @@ if
 src
 =
 =
-NULL
+nullptr
 &
 &
 srcLength
@@ -7203,7 +7185,7 @@ srcLength
 dest
 =
 =
-NULL
+nullptr
 &
 &
 destCapacity
@@ -7224,9 +7206,27 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
+uint8_t
+*
+pDest
+=
+(
+uint8_t
+*
+)
+dest
+;
+uint8_t
+*
+pDestLimit
+=
+pDest
++
+destCapacity
+;
 if
 (
 srcLength
@@ -7335,7 +7335,7 @@ pSrcLimit
 src
 !
 =
-NULL
+nullptr
 )
 ?
 (
@@ -7344,7 +7344,7 @@ src
 srcLength
 )
 :
-NULL
+nullptr
 ;
 for
 (
@@ -7395,7 +7395,7 @@ src
 )
 {
 const
-UChar
+char16_t
 *
 prevSrc
 =

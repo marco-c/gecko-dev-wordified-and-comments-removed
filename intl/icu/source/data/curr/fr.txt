@@ -1531,7 +1531,7 @@ LAK
 "
 "
 kip
-loatien
+laotien
 "
 }
 LBP
@@ -6367,14 +6367,14 @@ one
 {
 "
 kip
-loatien
+laotien
 "
 }
 other
 {
 "
 kips
-loatiens
+laotiens
 "
 }
 }

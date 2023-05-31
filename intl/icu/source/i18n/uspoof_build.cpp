@@ -148,7 +148,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 #
@@ -160,7 +160,7 @@ status
 U_UNSUPPORTED_ERROR
 ;
 return
-NULL
+nullptr
 ;
 #
 else
@@ -169,7 +169,7 @@ if
 errorType
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -183,7 +183,7 @@ if
 pe
 !
 =
-NULL
+nullptr
 )
 {
 pe
@@ -237,7 +237,7 @@ if
 newSpoofData
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -246,7 +246,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -262,7 +262,7 @@ delete
 newSpoofData
 ;
 return
-NULL
+nullptr
 ;
 }
 SpoofImpl
@@ -282,7 +282,7 @@ if
 This
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -294,7 +294,7 @@ delete
 newSpoofData
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -310,7 +310,7 @@ delete
 This
 ;
 return
-NULL
+nullptr
 ;
 }
 ConfusabledataBuilder
@@ -341,7 +341,7 @@ This
 ;
 This
 =
-NULL
+nullptr
 ;
 }
 return

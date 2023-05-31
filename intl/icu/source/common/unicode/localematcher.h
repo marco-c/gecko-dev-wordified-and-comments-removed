@@ -138,7 +138,7 @@ Result
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 ~
 Result
@@ -155,7 +155,7 @@ Result
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 inline
 const
@@ -325,7 +325,7 @@ Builder
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 ~
 Builder
@@ -342,7 +342,7 @@ Builder
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 Builder
 &
@@ -682,7 +682,7 @@ LocaleMatcher
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 ~
 LocaleMatcher
@@ -699,7 +699,7 @@ LocaleMatcher
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 const
 Locale

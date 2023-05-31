@@ -1085,7 +1085,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -1109,7 +1109,7 @@ length
 array
 =
 =
-NULL
+nullptr
 )
 |
 |
@@ -1127,7 +1127,7 @@ itemSize
 cmp
 =
 =
-NULL
+nullptr
 )
 {
 *

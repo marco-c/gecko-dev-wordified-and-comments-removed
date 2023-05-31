@@ -147,7 +147,7 @@ if
 decFmt
 !
 =
-NULL
+nullptr
 )
 {
 number
@@ -315,7 +315,7 @@ UPluralRules
 uplrules
 double
 number
-UChar
+char16_t
 *
 keyword
 int32_t
@@ -343,7 +343,7 @@ if
 keyword
 =
 =
-NULL
+nullptr
 ?
 capacity
 !
@@ -406,7 +406,7 @@ const
 UFormattedNumber
 *
 number
-UChar
+char16_t
 *
 keyword
 int32_t
@@ -434,7 +434,7 @@ if
 keyword
 =
 =
-NULL
+nullptr
 ?
 capacity
 !
@@ -535,7 +535,7 @@ const
 UFormattedNumberRange
 *
 urange
-UChar
+char16_t
 *
 keyword
 int32_t
@@ -563,7 +563,7 @@ if
 keyword
 =
 =
-NULL
+nullptr
 ?
 capacity
 !
@@ -654,7 +654,7 @@ const
 UNumberFormat
 *
 fmt
-UChar
+char16_t
 *
 keyword
 int32_t
@@ -712,13 +712,13 @@ if
 plrules
 =
 =
-NULL
+nullptr
 |
 |
 nf
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -726,7 +726,7 @@ NULL
 keyword
 =
 =
-NULL
+nullptr
 )
 ?
 capacity
@@ -806,7 +806,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
@@ -829,7 +829,7 @@ if
 plrules
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -838,7 +838,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 StringEnumeration
@@ -864,7 +864,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -872,7 +872,7 @@ if
 senum
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -881,7 +881,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 return

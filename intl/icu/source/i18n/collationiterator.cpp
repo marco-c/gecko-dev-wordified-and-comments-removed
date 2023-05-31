@@ -217,7 +217,7 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -589,7 +589,7 @@ cesIndex
 )
 skipped
 (
-NULL
+nullptr
 )
 numCpFwd
 (
@@ -834,7 +834,7 @@ if
 skipped
 !
 =
-NULL
+nullptr
 )
 {
 skipped
@@ -932,7 +932,7 @@ c
 )
 ;
 }
-UChar
+char16_t
 CollationIterator
 :
 :
@@ -1514,7 +1514,7 @@ CONTRACTION_TAG
 :
 {
 const
-UChar
+char16_t
 *
 p
 =
@@ -1563,7 +1563,7 @@ if
 skipped
 =
 =
-NULL
+nullptr
 &
 &
 numCpFwd
@@ -2071,7 +2071,7 @@ c
 )
 )
 ;
-UChar
+char16_t
 trail
 ;
 if
@@ -2306,7 +2306,7 @@ errorCode
 )
 {
 const
-UChar
+char16_t
 *
 p
 =
@@ -2446,7 +2446,7 @@ if
 skipped
 !
 =
-NULL
+nullptr
 &
 &
 skipped
@@ -2491,7 +2491,7 @@ if
 skipped
 !
 =
-NULL
+nullptr
 &
 &
 !
@@ -2557,7 +2557,7 @@ if
 skipped
 !
 =
-NULL
+nullptr
 &
 &
 !
@@ -2614,7 +2614,7 @@ d
 uint32_t
 contractionCE32
 const
-UChar
+char16_t
 *
 p
 uint32_t
@@ -2647,7 +2647,7 @@ if
 skipped
 !
 =
-NULL
+nullptr
 &
 &
 !
@@ -2736,7 +2736,7 @@ if
 skipped
 !
 =
-NULL
+nullptr
 &
 &
 !
@@ -3038,7 +3038,7 @@ if
 skipped
 =
 =
-NULL
+nullptr
 |
 |
 skipped
@@ -3054,7 +3054,7 @@ if
 skipped
 =
 =
-NULL
+nullptr
 )
 {
 skipped
@@ -3069,7 +3069,7 @@ if
 skipped
 =
 =
-NULL
+nullptr
 )
 {
 errorCode

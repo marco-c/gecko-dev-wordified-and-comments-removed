@@ -450,7 +450,7 @@ if
 fmt
 !
 =
-NULL
+nullptr
 )
 {
 DELETE_ARRAY
@@ -678,7 +678,7 @@ if
 fmt
 !
 =
-NULL
+nullptr
 )
 {
 DELETE_ARRAY
@@ -951,7 +951,7 @@ currency
 )
 fFormatInfo
 (
-NULL
+nullptr
 )
 fFractionDigitsSet
 (
@@ -1158,7 +1158,7 @@ if
 fFormatInfo
 !
 =
-NULL
+nullptr
 )
 {
 uprv_memset
@@ -1192,7 +1192,7 @@ if
 fFormatInfo
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1315,9 +1315,9 @@ other
 fWindowsLocaleName
 =
 =
-NULL
+nullptr
 ?
-NULL
+nullptr
 :
 new
 UnicodeString
@@ -1940,7 +1940,7 @@ nBuffer
 formatInfo
 .
 currency
-NULL
+nullptr
 0
 )
 ;
@@ -2056,7 +2056,7 @@ nBuffer
 formatInfo
 .
 number
-NULL
+nullptr
 0
 )
 ;
@@ -2096,7 +2096,7 @@ appendTo
 append
 (
 (
-UChar
+char16_t
 *
 )
 buffer

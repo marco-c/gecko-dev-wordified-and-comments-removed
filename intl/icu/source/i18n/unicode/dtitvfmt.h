@@ -122,14 +122,14 @@ FormattedDateInterval
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 virtual
 ~
 FormattedDateInterval
 (
 )
-U_OVERRIDE
+override
 ;
 FormattedDateInterval
 (
@@ -162,7 +162,7 @@ FormattedDateInterval
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 UnicodeString
 toString
@@ -172,7 +172,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 UnicodeString
 toTempString
@@ -182,7 +182,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 Appendable
 &
@@ -196,7 +196,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 UBool
 nextPosition
@@ -209,7 +209,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 private
 :
@@ -819,12 +819,12 @@ UnicodeString
 *
 extendedSkeleton
 =
-NULL
+nullptr
 UnicodeString
 *
 extendedBestSkeleton
 =
-NULL
+nullptr
 )
 ;
 static

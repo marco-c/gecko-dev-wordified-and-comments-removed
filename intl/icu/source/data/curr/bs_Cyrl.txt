@@ -2448,6 +2448,17 @@ ZWR
 "
 }
 }
+Currencies
+%
+narrow
+{
+BYN
+{
+"
+BYN
+"
+}
+}
 CurrencyPlurals
 {
 ADP

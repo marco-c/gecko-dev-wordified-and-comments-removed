@@ -101,7 +101,6 @@ virtual
 UClassID
 getDynamicClassID
 (
-void
 )
 const
 override
@@ -112,7 +111,6 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
-void
 )
 ;
 virtual
@@ -160,20 +158,6 @@ UCalendarDateFields
 field
 ELimitType
 limitType
-)
-const
-override
-;
-virtual
-int32_t
-handleComputeMonthStart
-(
-int32_t
-eyear
-int32_t
-month
-UBool
-useMonth
 )
 const
 override

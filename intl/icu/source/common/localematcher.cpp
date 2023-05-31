@@ -175,7 +175,7 @@ Result
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 desiredLocale
 (
@@ -277,7 +277,7 @@ Result
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 this
 -
@@ -518,7 +518,7 @@ Builder
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 errorCode_
 (
@@ -628,7 +628,7 @@ Builder
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 this
 -
@@ -2708,7 +2708,7 @@ LocaleMatcher
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 likelySubtags
 (
@@ -2929,7 +2929,7 @@ LocaleMatcher
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 this
 -

@@ -123,7 +123,7 @@ count
 newValues
 =
 =
-NULL
+nullptr
 &
 &
 count
@@ -148,7 +148,7 @@ count
 )
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -244,7 +244,7 @@ length
 )
 =
 =
-NULL
+nullptr
 )
 {
 setToBogus
@@ -336,11 +336,11 @@ if
 newBytes
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -593,7 +593,7 @@ length
 )
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -884,7 +884,7 @@ if
 result
 =
 =
-NULL
+nullptr
 )
 {
 count
@@ -955,7 +955,7 @@ if
 s
 =
 =
-NULL
+nullptr
 |
 |
 length

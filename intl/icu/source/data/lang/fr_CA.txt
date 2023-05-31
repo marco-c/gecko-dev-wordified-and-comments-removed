@@ -543,6 +543,13 @@ Languages
 %
 variant
 {
+ckb
+{
+"
+kurde
+central
+"
+}
 ug
 {
 "

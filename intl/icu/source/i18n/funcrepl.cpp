@@ -38,14 +38,14 @@ h
 "
 static
 const
-UChar
+char16_t
 AMPERSAND
 =
 38
 ;
 static
 const
-UChar
+char16_t
 OPEN
 [
 ]
@@ -58,7 +58,7 @@ OPEN
 ;
 static
 const
-UChar
+char16_t
 CLOSE
 [
 ]

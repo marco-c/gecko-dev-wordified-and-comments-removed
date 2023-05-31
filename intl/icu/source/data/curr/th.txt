@@ -3795,6 +3795,14 @@ other
 "
 }
 }
+LSL
+{
+other
+{
+"
+"
+}
+}
 LTL
 {
 other

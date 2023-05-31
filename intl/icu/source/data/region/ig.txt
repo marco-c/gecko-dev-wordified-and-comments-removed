@@ -2124,11 +2124,5 @@ East
 Timor
 "
 }
-TR
-{
-"
-Turki
-"
-}
 }
 }

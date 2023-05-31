@@ -99,11 +99,11 @@ fTime
 )
 fFrom
 (
-NULL
+nullptr
 )
 fTo
 (
-NULL
+nullptr
 )
 {
 }
@@ -129,11 +129,11 @@ fTime
 )
 fFrom
 (
-NULL
+nullptr
 )
 fTo
 (
-NULL
+nullptr
 )
 {
 if
@@ -143,7 +143,7 @@ source
 fFrom
 !
 =
-NULL
+nullptr
 )
 {
 fFrom
@@ -165,7 +165,7 @@ source
 fTo
 !
 =
-NULL
+nullptr
 )
 {
 fTo
@@ -194,7 +194,7 @@ if
 fFrom
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -206,7 +206,7 @@ if
 fTo
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -221,7 +221,6 @@ TimeZoneTransition
 :
 clone
 (
-void
 )
 const
 {
@@ -352,7 +351,7 @@ if
 fFrom
 =
 =
-NULL
+nullptr
 &
 &
 that
@@ -360,7 +359,7 @@ that
 fFrom
 =
 =
-NULL
+nullptr
 )
 |
 |
@@ -368,7 +367,7 @@ NULL
 fFrom
 !
 =
-NULL
+nullptr
 &
 &
 that
@@ -376,7 +375,7 @@ that
 fFrom
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -398,7 +397,7 @@ if
 fTo
 =
 =
-NULL
+nullptr
 &
 &
 that
@@ -406,7 +405,7 @@ that
 fTo
 =
 =
-NULL
+nullptr
 )
 |
 |
@@ -414,7 +413,7 @@ NULL
 fTo
 !
 =
-NULL
+nullptr
 &
 &
 that
@@ -422,7 +421,7 @@ that
 fTo
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -504,7 +503,7 @@ if
 fFrom
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -536,7 +535,7 @@ if
 fFrom
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -565,7 +564,7 @@ if
 fTo
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -597,7 +596,7 @@ if
 fTo
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -615,7 +614,6 @@ TimeZoneTransition
 :
 getTime
 (
-void
 )
 const
 {
@@ -631,7 +629,6 @@ TimeZoneTransition
 :
 getTo
 (
-void
 )
 const
 {
@@ -647,7 +644,6 @@ TimeZoneTransition
 :
 getFrom
 (
-void
 )
 const
 {

@@ -331,12 +331,12 @@ void
 uprv_arrayCopy
 (
 const
-UChar
+char16_t
 *
 src
 int32_t
 srcStart
-UChar
+char16_t
 *
 dst
 int32_t

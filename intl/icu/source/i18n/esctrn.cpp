@@ -37,7 +37,7 @@ h
 U_NAMESPACE_BEGIN
 static
 const
-UChar
+char16_t
 UNIPRE
 [
 ]
@@ -50,7 +50,7 @@ UNIPRE
 ;
 static
 const
-UChar
+char16_t
 BS_u
 [
 ]
@@ -63,7 +63,7 @@ BS_u
 ;
 static
 const
-UChar
+char16_t
 BS_U
 [
 ]
@@ -76,7 +76,7 @@ BS_U
 ;
 static
 const
-UChar
+char16_t
 XMLPRE
 [
 ]
@@ -90,7 +90,7 @@ XMLPRE
 ;
 static
 const
-UChar
+char16_t
 XML10PRE
 [
 ]
@@ -103,7 +103,7 @@ XML10PRE
 ;
 static
 const
-UChar
+char16_t
 PERLPRE
 [
 ]
@@ -117,7 +117,7 @@ PERLPRE
 ;
 static
 const
-UChar
+char16_t
 SEMI
 [
 ]
@@ -129,7 +129,7 @@ SEMI
 ;
 static
 const
-UChar
+char16_t
 RBRACE
 [
 ]
@@ -175,7 +175,7 @@ UnicodeString
 16
 4
 true
-NULL
+nullptr
 )
 ;
 }
@@ -211,7 +211,7 @@ UnicodeString
 16
 4
 false
-NULL
+nullptr
 )
 ;
 }
@@ -265,7 +265,7 @@ UnicodeString
 16
 8
 true
-NULL
+nullptr
 )
 )
 ;
@@ -306,7 +306,7 @@ SEMI
 16
 1
 true
-NULL
+nullptr
 )
 ;
 }
@@ -346,7 +346,7 @@ SEMI
 10
 1
 true
-NULL
+nullptr
 )
 ;
 }
@@ -386,7 +386,7 @@ RBRACE
 16
 1
 true
-NULL
+nullptr
 )
 ;
 }
@@ -569,7 +569,7 @@ adoptedSupplementalHandler
 Transliterator
 (
 newID
-NULL
+nullptr
 )
 {
 this
@@ -681,7 +681,7 @@ o
 supplementalHandler
 )
 :
-NULL
+nullptr
 ;
 }
 EscapeTransliterator
@@ -818,7 +818,7 @@ c
 supplementalHandler
 !
 =
-NULL
+nullptr
 )
 {
 buf

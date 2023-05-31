@@ -109,7 +109,6 @@ UBool
 U_CALLCONV
 io_cleanup
 (
-void
 )
 {
 int32_t
@@ -151,7 +150,7 @@ gCleanupFunctions
 libType
 ]
 =
-NULL
+nullptr
 ;
 }
 }

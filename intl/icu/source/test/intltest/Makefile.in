@@ -1029,6 +1029,10 @@ o
 displayoptions_test
 .
 o
+\
+numbertest_simple
+.
+o
 DEPS
 =
 (

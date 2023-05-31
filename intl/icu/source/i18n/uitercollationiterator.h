@@ -154,7 +154,7 @@ errorCode
 override
 ;
 virtual
-UChar
+char16_t
 handleGetTrailSurrogate
 (
 )
@@ -296,7 +296,7 @@ errorCode
 override
 ;
 virtual
-UChar
+char16_t
 handleGetTrailSurrogate
 (
 )

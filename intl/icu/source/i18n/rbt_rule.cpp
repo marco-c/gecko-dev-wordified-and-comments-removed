@@ -98,7 +98,7 @@ h
 "
 static
 const
-UChar
+char16_t
 FORWARD_OP
 [
 ]
@@ -342,7 +342,7 @@ ANCHOR_END
 }
 anteContext
 =
-NULL
+nullptr
 ;
 if
 (
@@ -382,7 +382,7 @@ return
 }
 key
 =
-NULL
+nullptr
 ;
 if
 (
@@ -437,7 +437,7 @@ anteContextLength
 ;
 postContext
 =
-NULL
+nullptr
 ;
 if
 (
@@ -531,15 +531,15 @@ other
 )
 anteContext
 (
-NULL
+nullptr
 )
 key
 (
-NULL
+nullptr
 )
 postContext
 (
-NULL
+nullptr
 )
 pattern
 (
@@ -574,7 +574,7 @@ data
 {
 segments
 =
-NULL
+nullptr
 ;
 segmentsCount
 =
@@ -639,7 +639,7 @@ other
 anteContext
 !
 =
-NULL
+nullptr
 )
 {
 anteContext
@@ -661,7 +661,7 @@ other
 key
 !
 =
-NULL
+nullptr
 )
 {
 key
@@ -683,7 +683,7 @@ other
 postContext
 !
 =
-NULL
+nullptr
 )
 {
 postContext
@@ -742,7 +742,6 @@ TransliterationRule
 :
 getContextLength
 (
-void
 )
 const
 {
@@ -812,7 +811,7 @@ c
 )
 =
 =
-NULL
+nullptr
 ?
 (
 c
@@ -844,7 +843,7 @@ m
 key
 !
 =
-NULL
+nullptr
 )
 ?
 key
@@ -856,7 +855,7 @@ return
 m
 !
 =
-NULL
+nullptr
 )
 ?
 m
@@ -1163,7 +1162,7 @@ if
 segments
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -1238,7 +1237,7 @@ if
 anteContext
 !
 =
-NULL
+nullptr
 )
 {
 match
@@ -1310,7 +1309,7 @@ if
 key
 !
 =
-NULL
+nullptr
 )
 {
 match
@@ -1350,7 +1349,7 @@ if
 postContext
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1542,7 +1541,7 @@ emitBraces
 anteContext
 !
 =
-NULL
+nullptr
 )
 |
 |
@@ -1550,7 +1549,7 @@ NULL
 postContext
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -1570,7 +1569,7 @@ rule
 append
 (
 (
-UChar
+char16_t
 )
 94
 )
@@ -1599,7 +1598,7 @@ appendToRule
 (
 rule
 (
-UChar
+char16_t
 )
 0x007B
 true
@@ -1631,7 +1630,7 @@ appendToRule
 (
 rule
 (
-UChar
+char16_t
 )
 0x007D
 true
@@ -1668,7 +1667,7 @@ rule
 append
 (
 (
-UChar
+char16_t
 )
 36
 )
@@ -1722,7 +1721,7 @@ appendToRule
 (
 rule
 (
-UChar
+char16_t
 )
 0x003B
 true
@@ -1755,7 +1754,7 @@ if
 anteContext
 !
 =
-NULL
+nullptr
 )
 anteContext
 -
@@ -1770,7 +1769,7 @@ if
 postContext
 !
 =
-NULL
+nullptr
 )
 postContext
 -
@@ -1785,7 +1784,7 @@ if
 key
 !
 =
-NULL
+nullptr
 )
 key
 -
@@ -1872,7 +1871,7 @@ if
 matcher
 =
 =
-NULL
+nullptr
 )
 {
 toUnionTo

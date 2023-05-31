@@ -609,11 +609,11 @@ errorCode
 :
 strings
 (
-NULL
+nullptr
 )
 elements
 (
-NULL
+nullptr
 )
 elementsCapacity
 (
@@ -625,7 +625,7 @@ elementsLength
 )
 bytes
 (
-NULL
+nullptr
 )
 bytesCapacity
 (
@@ -659,7 +659,7 @@ if
 strings
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -783,7 +783,7 @@ if
 newElements
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -956,7 +956,7 @@ BytesTrie
 *
 newTrie
 =
-NULL
+nullptr
 ;
 if
 (
@@ -986,7 +986,7 @@ if
 newTrie
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -998,7 +998,7 @@ else
 {
 bytes
 =
-NULL
+nullptr
 ;
 bytesCapacity
 =
@@ -1088,7 +1088,7 @@ if
 bytes
 !
 =
-NULL
+nullptr
 &
 &
 bytesLength
@@ -1273,7 +1273,7 @@ if
 bytes
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1307,7 +1307,7 @@ if
 bytes
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1369,7 +1369,7 @@ strings
 )
 ;
 }
-UChar
+char16_t
 BytesTrieBuilder
 :
 :
@@ -1670,7 +1670,7 @@ int32_t
 i
 int32_t
 byteIndex
-UChar
+char16_t
 byte
 )
 const
@@ -1824,12 +1824,15 @@ BTLinearMatchNode
 &
 o
 =
-(
+static_cast
+<
 const
 BTLinearMatchNode
 &
-)
+>
+(
 other
+)
 ;
 return
 0
@@ -1863,11 +1866,14 @@ BytesTrieBuilder
 &
 b
 =
-(
+static_cast
+<
 BytesTrieBuilder
 &
-)
+>
+(
 builder
+)
 ;
 next
 -
@@ -1965,7 +1971,7 @@ if
 bytes
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2021,7 +2027,7 @@ if
 newBytes
 =
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -2031,7 +2037,7 @@ bytes
 ;
 bytes
 =
-NULL
+nullptr
 ;
 bytesCapacity
 =

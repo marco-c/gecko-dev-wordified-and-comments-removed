@@ -157,14 +157,12 @@ public
 :
 ICUNotifier
 (
-void
 )
 ;
 virtual
 ~
 ICUNotifier
 (
-void
 )
 ;
 virtual
@@ -197,7 +195,6 @@ virtual
 void
 notifyChanged
 (
-void
 )
 ;
 protected

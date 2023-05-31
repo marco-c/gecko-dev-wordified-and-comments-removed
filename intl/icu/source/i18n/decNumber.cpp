@@ -1837,7 +1837,7 @@ Unit
 *
 allocres
 =
-NULL
+nullptr
 ;
 Int
 d
@@ -1849,7 +1849,7 @@ char
 *
 dotchar
 =
-NULL
+nullptr
 ;
 const
 char
@@ -1863,7 +1863,7 @@ char
 *
 last
 =
-NULL
+nullptr
 ;
 const
 char
@@ -1973,7 +1973,7 @@ c
 dotchar
 =
 =
-NULL
+nullptr
 )
 {
 dotchar
@@ -2051,7 +2051,7 @@ if
 last
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -2091,7 +2091,7 @@ if
 dotchar
 !
 =
-NULL
+nullptr
 )
 break
 ;
@@ -2751,7 +2751,7 @@ if
 dotchar
 !
 =
-NULL
+nullptr
 &
 &
 dotchar
@@ -2836,7 +2836,7 @@ if
 allocres
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -3170,7 +3170,7 @@ if
 allocres
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -3995,7 +3995,7 @@ decNumber
 *
 allocbufa
 =
-NULL
+nullptr
 ;
 decNumber
 bufb
@@ -4012,7 +4012,7 @@ decNumber
 *
 allocbufb
 =
-NULL
+nullptr
 ;
 decNumber
 *
@@ -4102,7 +4102,7 @@ if
 allocbufa
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -4200,7 +4200,7 @@ if
 allocbufb
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -4258,7 +4258,7 @@ if
 allocbufa
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -4270,7 +4270,7 @@ if
 allocbufb
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -4448,7 +4448,7 @@ decNumber
 *
 allocrhs
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -4523,7 +4523,7 @@ if
 allocrhs
 =
 =
-NULL
+nullptr
 )
 break
 ;
@@ -4558,7 +4558,7 @@ if
 allocrhs
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -4650,7 +4650,7 @@ decNumber
 *
 allocbufa
 =
-NULL
+nullptr
 ;
 decNumber
 *
@@ -4855,7 +4855,7 @@ if
 allocbufa
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -4987,7 +4987,7 @@ if
 allocbufa
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -5365,7 +5365,7 @@ decNumber
 *
 allocrhs
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -5440,7 +5440,7 @@ if
 allocrhs
 =
 =
-NULL
+nullptr
 )
 break
 ;
@@ -5491,7 +5491,7 @@ if
 allocrhs
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -5581,7 +5581,7 @@ decNaNs
 (
 res
 rhs
-NULL
+nullptr
 set
 &
 status
@@ -5752,7 +5752,7 @@ decNumber
 *
 allocbufa
 =
-NULL
+nullptr
 ;
 decNumber
 *
@@ -5775,7 +5775,7 @@ decNumber
 *
 allocbufb
 =
-NULL
+nullptr
 ;
 decNumber
 *
@@ -5805,7 +5805,7 @@ decNumber
 *
 allocrhs
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -5883,7 +5883,7 @@ if
 allocrhs
 =
 =
-NULL
+nullptr
 )
 break
 ;
@@ -6111,7 +6111,7 @@ if
 allocbufa
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -6259,7 +6259,7 @@ if
 allocbufb
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -6375,7 +6375,7 @@ if
 allocbufa
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -6387,7 +6387,7 @@ if
 allocbufb
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -6402,7 +6402,7 @@ if
 allocrhs
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -8027,13 +8027,13 @@ decNumber
 *
 alloclhs
 =
-NULL
+nullptr
 ;
 decNumber
 *
 allocrhs
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -8041,13 +8041,13 @@ decNumber
 *
 allocdac
 =
-NULL
+nullptr
 ;
 decNumber
 *
 allocinv
 =
-NULL
+nullptr
 ;
 Int
 reqdigits
@@ -8198,7 +8198,7 @@ if
 alloclhs
 =
 =
-NULL
+nullptr
 )
 break
 ;
@@ -8232,7 +8232,7 @@ if
 allocrhs
 =
 =
-NULL
+nullptr
 )
 break
 ;
@@ -8950,7 +8950,7 @@ if
 allocdac
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -9159,7 +9159,7 @@ if
 allocinv
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -9490,7 +9490,7 @@ if
 allocdac
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -9502,7 +9502,7 @@ if
 allocinv
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -9517,7 +9517,7 @@ if
 alloclhs
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -9529,7 +9529,7 @@ if
 allocrhs
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -9675,7 +9675,7 @@ decNumber
 *
 allocrhs
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -9752,7 +9752,7 @@ if
 allocrhs
 =
 =
-NULL
+nullptr
 )
 break
 ;
@@ -9776,7 +9776,7 @@ decNaNs
 (
 res
 rhs
-NULL
+nullptr
 set
 &
 status
@@ -9830,7 +9830,7 @@ if
 allocrhs
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -11385,7 +11385,7 @@ decNumber
 *
 allocrhs
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -11426,19 +11426,19 @@ decNumber
 *
 allocbuff
 =
-NULL
+nullptr
 ;
 decNumber
 *
 allocbufa
 =
-NULL
+nullptr
 ;
 decNumber
 *
 allocbufb
 =
-NULL
+nullptr
 ;
 decNumber
 *
@@ -11533,7 +11533,7 @@ if
 allocrhs
 =
 =
-NULL
+nullptr
 )
 break
 ;
@@ -11583,7 +11583,7 @@ decNaNs
 (
 res
 rhs
-NULL
+nullptr
 set
 &
 status
@@ -11739,7 +11739,7 @@ if
 allocbuff
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -11816,13 +11816,13 @@ if
 allocbufa
 =
 =
-NULL
+nullptr
 |
 |
 allocbufb
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -13062,7 +13062,7 @@ if
 allocbuff
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -13074,7 +13074,7 @@ if
 allocbufa
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -13086,7 +13086,7 @@ if
 allocbufb
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -13101,7 +13101,7 @@ if
 allocrhs
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -13295,7 +13295,7 @@ decNaNs
 (
 res
 rhs
-NULL
+nullptr
 set
 &
 status
@@ -14095,7 +14095,7 @@ if
 src
 =
 =
-NULL
+nullptr
 )
 return
 uprv_decNumberZero
@@ -14931,7 +14931,6 @@ char
 *
 uprv_decNumberVersion
 (
-void
 )
 {
 return
@@ -15887,13 +15886,13 @@ decNumber
 *
 alloclhs
 =
-NULL
+nullptr
 ;
 decNumber
 *
 allocrhs
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -15936,7 +15935,7 @@ Unit
 *
 allocacc
 =
-NULL
+nullptr
 ;
 Int
 reqdigits
@@ -16005,7 +16004,7 @@ if
 alloclhs
 =
 =
-NULL
+nullptr
 )
 break
 ;
@@ -16038,7 +16037,7 @@ if
 allocrhs
 =
 =
-NULL
+nullptr
 )
 break
 ;
@@ -17118,7 +17117,7 @@ if
 allocacc
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -17619,7 +17618,7 @@ if
 allocacc
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -17634,7 +17633,7 @@ if
 allocrhs
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -17646,7 +17645,7 @@ if
 alloclhs
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -17692,13 +17691,13 @@ decNumber
 *
 alloclhs
 =
-NULL
+nullptr
 ;
 decNumber
 *
 allocrhs
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -17725,7 +17724,7 @@ Unit
 *
 allocacc
 =
-NULL
+nullptr
 ;
 Unit
 *
@@ -17763,7 +17762,7 @@ Unit
 *
 varalloc
 =
-NULL
+nullptr
 ;
 Unit
 *
@@ -17910,7 +17909,7 @@ if
 alloclhs
 =
 =
-NULL
+nullptr
 )
 break
 ;
@@ -17943,7 +17942,7 @@ if
 allocrhs
 =
 =
-NULL
+nullptr
 )
 break
 ;
@@ -18529,7 +18528,7 @@ if
 allocacc
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -18639,7 +18638,7 @@ if
 varalloc
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -20321,7 +20320,7 @@ if
 varalloc
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -20333,7 +20332,7 @@ if
 allocacc
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -20348,7 +20347,7 @@ if
 allocrhs
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -20360,7 +20359,7 @@ if
 alloclhs
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -20433,7 +20432,7 @@ void
 *
 allocacc
 =
-NULL
+nullptr
 ;
 Unit
 accbuff
@@ -20561,7 +20560,7 @@ uInt
 *
 alloclhi
 =
-NULL
+nullptr
 ;
 uInt
 zrhibuff
@@ -20589,7 +20588,7 @@ uInt
 *
 allocrhi
 =
-NULL
+nullptr
 ;
 uLong
 zaccbuff
@@ -20678,13 +20677,13 @@ decNumber
 *
 alloclhs
 =
-NULL
+nullptr
 ;
 decNumber
 *
 allocrhs
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -20898,7 +20897,7 @@ if
 alloclhs
 =
 =
-NULL
+nullptr
 )
 break
 ;
@@ -20934,7 +20933,7 @@ if
 allocrhs
 =
 =
-NULL
+nullptr
 )
 break
 ;
@@ -21175,19 +21174,19 @@ if
 zlhi
 =
 =
-NULL
+nullptr
 |
 |
 zrhi
 =
 =
-NULL
+nullptr
 |
 |
 zacc
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -21793,7 +21792,7 @@ if
 allocacc
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -22048,7 +22047,7 @@ if
 allocacc
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -22063,7 +22062,7 @@ if
 allocrhs
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -22075,7 +22074,7 @@ if
 alloclhs
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -22092,7 +22091,7 @@ if
 allocrhi
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -22104,7 +22103,7 @@ if
 alloclhi
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -22185,7 +22184,7 @@ decNumber
 *
 allocrhs
 =
-NULL
+nullptr
 ;
 decNumber
 buft
@@ -22206,7 +22205,7 @@ decNumber
 *
 allocbuft
 =
-NULL
+nullptr
 ;
 decNumber
 *
@@ -22233,7 +22232,7 @@ decNumber
 *
 allocbufa
 =
-NULL
+nullptr
 ;
 decNumber
 *
@@ -22322,7 +22321,7 @@ decNaNs
 (
 res
 rhs
-NULL
+nullptr
 set
 status
 )
@@ -22699,7 +22698,7 @@ if
 allocrhs
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -22801,7 +22800,7 @@ if
 allocbufa
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -22867,7 +22866,7 @@ if
 allocbuft
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -23328,7 +23327,7 @@ if
 allocrhs
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -23340,7 +23339,7 @@ if
 allocbufa
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -23352,7 +23351,7 @@ if
 allocbuft
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -23551,7 +23550,7 @@ decNumber
 *
 allocbufa
 =
-NULL
+nullptr
 ;
 decNumber
 *
@@ -23576,7 +23575,7 @@ decNumber
 *
 allocbufb
 =
-NULL
+nullptr
 ;
 decNumber
 *
@@ -23658,7 +23657,7 @@ decNaNs
 (
 res
 rhs
-NULL
+nullptr
 set
 status
 )
@@ -23979,7 +23978,7 @@ if
 allocbufa
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -24056,7 +24055,7 @@ if
 allocbufb
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -24687,7 +24686,7 @@ if
 allocbufa
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -24699,7 +24698,7 @@ if
 allocbufb
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -24762,13 +24761,13 @@ decNumber
 *
 alloclhs
 =
-NULL
+nullptr
 ;
 decNumber
 *
 allocrhs
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -24865,7 +24864,7 @@ if
 alloclhs
 =
 =
-NULL
+nullptr
 )
 break
 ;
@@ -24898,7 +24897,7 @@ if
 allocrhs
 =
 =
-NULL
+nullptr
 )
 break
 ;
@@ -25382,7 +25381,7 @@ if
 allocrhs
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -25394,7 +25393,7 @@ if
 alloclhs
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -25440,13 +25439,13 @@ decNumber
 *
 alloclhs
 =
-NULL
+nullptr
 ;
 decNumber
 *
 allocrhs
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -25517,7 +25516,7 @@ if
 alloclhs
 =
 =
-NULL
+nullptr
 )
 {
 result
@@ -25559,7 +25558,7 @@ if
 allocrhs
 =
 =
-NULL
+nullptr
 )
 {
 result
@@ -26267,7 +26266,7 @@ if
 allocrhs
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -26279,7 +26278,7 @@ if
 alloclhs
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -26610,7 +26609,7 @@ Unit
 *
 allocacc
 =
-NULL
+nullptr
 ;
 Int
 accunits
@@ -26818,7 +26817,7 @@ if
 allocacc
 =
 =
-NULL
+nullptr
 )
 return
 BADINT
@@ -26920,7 +26919,7 @@ if
 allocacc
 !
 =
-NULL
+nullptr
 )
 free
 (
@@ -29681,7 +29680,7 @@ if
 res
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -29691,7 +29690,7 @@ status
 DEC_Insufficient_storage
 ;
 return
-NULL
+nullptr
 ;
 }
 decCopyFit
@@ -33247,7 +33246,7 @@ if
 rhs
 =
 =
-NULL
+nullptr
 )
 ;
 else
@@ -33764,13 +33763,13 @@ if
 dn
 =
 =
-NULL
+nullptr
 )
 {
 printf
 (
 "
-NULL
+nullptr
 \
 n
 "
@@ -34347,7 +34346,7 @@ if
 set
 =
 =
-NULL
+nullptr
 )
 {
 #
@@ -34363,7 +34362,7 @@ Reference
 to
 context
 is
-NULL
+nullptr
 .
 \
 n
@@ -34463,7 +34462,7 @@ if
 res
 =
 =
-NULL
+nullptr
 )
 {
 bad
@@ -34480,7 +34479,7 @@ Reference
 to
 result
 is
-NULL
+nullptr
 .
 \
 n
@@ -34560,7 +34559,7 @@ DECUNRESU
 res
 !
 =
-NULL
+nullptr
 )
 {
 uprv_decNumberZero
@@ -34613,7 +34612,7 @@ if
 dn
 =
 =
-NULL
+nullptr
 )
 {
 #
@@ -34626,7 +34625,7 @@ Reference
 to
 decNumber
 is
-NULL
+nullptr
 .
 \
 n
@@ -35312,7 +35311,7 @@ if
 dn
 !
 =
-NULL
+nullptr
 &
 &
 dn
@@ -35388,10 +35387,10 @@ if
 alloc
 =
 =
-NULL
+nullptr
 )
 return
-NULL
+nullptr
 ;
 b0
 =
@@ -35494,7 +35493,7 @@ if
 alloc
 =
 =
-NULL
+nullptr
 )
 return
 ;

@@ -130,7 +130,6 @@ virtual
 int32_t
 getCount
 (
-void
 )
 const
 ;
@@ -248,7 +247,7 @@ getStaticClassID
 ;
 static
 const
-UChar
+char16_t
 PASS_STRING
 [
 ]
@@ -370,13 +369,11 @@ transCount
 void
 freeTransliterators
 (
-void
 )
 ;
 void
 computeMaximumContextLength
 (
-void
 )
 ;
 }

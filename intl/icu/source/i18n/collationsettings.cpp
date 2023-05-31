@@ -106,7 +106,7 @@ variableTop
 )
 reorderTable
 (
-NULL
+nullptr
 )
 minHighNoReorder
 (
@@ -116,7 +116,7 @@ minHighNoReorder
 )
 reorderRanges
 (
-NULL
+nullptr
 )
 reorderRangesLength
 (
@@ -124,7 +124,7 @@ reorderRangesLength
 )
 reorderCodes
 (
-NULL
+nullptr
 )
 reorderCodesLength
 (
@@ -396,7 +396,7 @@ resetReordering
 {
 reorderTable
 =
-NULL
+nullptr
 ;
 minHighNoReorder
 =
@@ -458,7 +458,7 @@ if
 table
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -598,7 +598,7 @@ minHighNoReorder
 ;
 reorderRanges
 =
-NULL
+nullptr
 ;
 reorderRangesLength
 =
@@ -1130,7 +1130,7 @@ if
 ownedCodes
 =
 =
-NULL
+nullptr
 )
 {
 resetReordering

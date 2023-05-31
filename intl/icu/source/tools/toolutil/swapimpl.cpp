@@ -256,7 +256,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -744,7 +744,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -1510,7 +1510,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -2119,7 +2119,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -2748,7 +2748,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -4693,7 +4693,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -4723,7 +4723,7 @@ n
 pErrorCode
 !
 =
-NULL
+nullptr
 ?
 u_errorName
 (
@@ -4734,7 +4734,7 @@ pErrorCode
 "
 pErrorCode
 is
-NULL
+nullptr
 "
 )
 ;
@@ -5337,7 +5337,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -5357,7 +5357,7 @@ ds
 inData
 -
 1
-NULL
+nullptr
 pErrorCode
 )
 ;
@@ -5393,7 +5393,7 @@ inData
 )
 ;
 {
-UChar
+char16_t
 u
 [
 4

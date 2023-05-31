@@ -95,12 +95,12 @@ ZNStringPool
 )
 ;
 const
-UChar
+char16_t
 *
 get
 (
 const
-UChar
+char16_t
 *
 s
 UErrorCode
@@ -109,7 +109,7 @@ status
 )
 ;
 const
-UChar
+char16_t
 *
 get
 (
@@ -123,12 +123,12 @@ status
 )
 ;
 const
-UChar
+char16_t
 *
 adopt
 (
 const
-UChar
+char16_t
 *
 s
 UErrorCode
@@ -212,7 +212,7 @@ void
 *
 fValues
 ;
-UChar
+char16_t
 fCharacter
 ;
 uint16_t
@@ -247,7 +247,7 @@ UBool
 fValues
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -265,7 +265,7 @@ return
 fValues
 =
 =
-NULL
+nullptr
 ?
 0
 :
@@ -412,7 +412,7 @@ void
 put
 (
 const
-UChar
+char16_t
 *
 void
 *
@@ -484,7 +484,7 @@ addChildNode
 CharacterNode
 *
 parent
-UChar
+char16_t
 c
 UErrorCode
 &
@@ -498,7 +498,7 @@ getChildNode
 CharacterNode
 *
 parent
-UChar
+char16_t
 c
 )
 const

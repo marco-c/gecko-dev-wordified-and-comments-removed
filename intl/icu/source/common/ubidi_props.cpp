@@ -226,7 +226,7 @@ utrie2_enum
 ubidi_props_singleton
 .
 trie
-NULL
+nullptr
 _enumPropertyStartsRange
 sa
 )

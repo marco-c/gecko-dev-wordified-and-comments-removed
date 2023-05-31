@@ -272,7 +272,6 @@ inline
 void
 removeAll
 (
-void
 )
 ;
 inline
@@ -561,7 +560,7 @@ ignoreKeyCase
 uhash_compareCaselessUnicodeString
 :
 uhash_compareUnicodeString
-NULL
+nullptr
 status
 )
 ;
@@ -598,7 +597,7 @@ ignoreKeyCase
 uhash_compareCaselessUnicodeString
 :
 uhash_compareUnicodeString
-NULL
+nullptr
 size
 status
 )
@@ -624,7 +623,7 @@ init
 (
 uhash_hashUnicodeString
 uhash_compareUnicodeString
-NULL
+nullptr
 status
 )
 ;
@@ -651,7 +650,7 @@ init
 (
 uhash_hashUnicodeString
 uhash_compareUnicodeString
-NULL
+nullptr
 status
 )
 ;
@@ -670,7 +669,7 @@ if
 hash
 !
 =
-NULL
+nullptr
 )
 {
 uhash_close
@@ -1018,7 +1017,6 @@ Hashtable
 :
 removeAll
 (
-void
 )
 {
 uhash_removeAll

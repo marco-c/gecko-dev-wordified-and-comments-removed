@@ -98,7 +98,7 @@ Title
 "
 9
 )
-NULL
+nullptr
 )
 {
 setMaximumContextLength
@@ -308,7 +308,7 @@ UnicodeString
 tmp
 ;
 const
-UChar
+char16_t
 *
 s
 ;

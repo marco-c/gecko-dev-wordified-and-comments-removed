@@ -107,7 +107,7 @@ Edits
 releaseArray
 (
 )
-U_NOEXCEPT
+noexcept
 {
 if
 (
@@ -259,7 +259,7 @@ Edits
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 if
 (
@@ -437,7 +437,7 @@ Edits
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 length
 =
@@ -490,7 +490,7 @@ Edits
 reset
 (
 )
-U_NOEXCEPT
+noexcept
 {
 length
 =
@@ -1286,7 +1286,7 @@ if
 newArray
 =
 =
-NULL
+nullptr
 )
 {
 errorCode_

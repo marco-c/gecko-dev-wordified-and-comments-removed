@@ -67,7 +67,7 @@ U_EXPORT2
 uset_openPattern
 (
 const
-UChar
+char16_t
 *
 pattern
 int32_t
@@ -132,7 +132,7 @@ set
 ;
 set
 =
-NULL
+nullptr
 ;
 }
 return
@@ -150,7 +150,7 @@ U_EXPORT2
 uset_openPatternOptions
 (
 const
-UChar
+char16_t
 *
 pattern
 int32_t
@@ -183,7 +183,7 @@ UnicodeSet
 (
 pat
 options
-NULL
+nullptr
 *
 ec
 )
@@ -219,7 +219,7 @@ set
 ;
 set
 =
-NULL
+nullptr
 ;
 }
 return
@@ -239,7 +239,7 @@ USet
 *
 set
 const
-UChar
+char16_t
 *
 pattern
 int32_t
@@ -256,7 +256,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -275,7 +275,7 @@ if
 set
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -311,7 +311,7 @@ applyPattern
 pat
 pos
 options
-NULL
+nullptr
 *
 status
 )
@@ -368,13 +368,13 @@ USet
 *
 set
 const
-UChar
+char16_t
 *
 prop
 int32_t
 propLength
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -422,7 +422,7 @@ U_EXPORT2
 uset_resemblesPattern
 (
 const
-UChar
+char16_t
 *
 pattern
 int32_t
@@ -462,7 +462,7 @@ pos
 =
 =
 (
-UChar
+char16_t
 )
 91
 )
@@ -487,7 +487,7 @@ const
 USet
 *
 set
-UChar
+char16_t
 *
 result
 int32_t

@@ -601,6 +601,12 @@ Clipperton
 Island
 "
 }
+CQ
+{
+"
+Sark
+"
+}
 CR
 {
 "
@@ -1792,7 +1798,8 @@ Tonga
 TR
 {
 "
-Turkey
+T
+rkiye
 "
 }
 TT
@@ -2131,8 +2138,7 @@ Timor
 TR
 {
 "
-T
-rkiye
+Turkey
 "
 }
 }

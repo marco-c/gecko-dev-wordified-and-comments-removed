@@ -310,7 +310,7 @@ number
 unit
 =
 =
-NULL
+nullptr
 )
 =
 =
@@ -320,7 +320,7 @@ m
 unit
 =
 =
-NULL
+nullptr
 )
 )
 &
@@ -329,7 +329,7 @@ NULL
 unit
 =
 =
-NULL
+nullptr
 |
 |
 *

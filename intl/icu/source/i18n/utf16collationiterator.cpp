@@ -85,7 +85,7 @@ UTF16CollationIterator
 &
 other
 const
-UChar
+char16_t
 *
 newText
 )
@@ -119,9 +119,9 @@ other
 limit
 =
 =
-NULL
+nullptr
 ?
-NULL
+nullptr
 :
 newText
 +
@@ -301,7 +301,7 @@ c
 )
 ;
 }
-UChar
+char16_t
 UTF16CollationIterator
 :
 :
@@ -321,7 +321,7 @@ return
 0
 ;
 }
-UChar
+char16_t
 trail
 ;
 if
@@ -357,7 +357,7 @@ if
 limit
 =
 =
-NULL
+nullptr
 )
 {
 limit
@@ -416,7 +416,7 @@ c
 limit
 =
 =
-NULL
+nullptr
 )
 {
 limit
@@ -431,7 +431,7 @@ U_SENTINEL
 +
 pos
 ;
-UChar
+char16_t
 trail
 ;
 if
@@ -506,7 +506,7 @@ c
 -
 pos
 ;
-UChar
+char16_t
 lead
 ;
 if
@@ -597,7 +597,7 @@ c
 limit
 =
 =
-NULL
+nullptr
 )
 {
 limit
@@ -722,7 +722,7 @@ FCDUTF16CollationIterator
 &
 other
 const
-UChar
+char16_t
 *
 newText
 )
@@ -756,9 +756,9 @@ other
 segmentLimit
 =
 =
-NULL
+nullptr
 ?
-NULL
+nullptr
 :
 newText
 +
@@ -779,9 +779,9 @@ other
 rawLimit
 =
 =
-NULL
+nullptr
 ?
-NULL
+nullptr
 :
 newText
 +
@@ -867,9 +867,9 @@ other
 limit
 =
 =
-NULL
+nullptr
 ?
-NULL
+nullptr
 :
 newText
 +
@@ -1380,7 +1380,7 @@ if
 limit
 =
 =
-NULL
+nullptr
 )
 {
 limit
@@ -1526,7 +1526,7 @@ c
 limit
 =
 =
-NULL
+nullptr
 )
 {
 limit
@@ -1577,7 +1577,7 @@ switchToForward
 ;
 }
 }
-UChar
+char16_t
 trail
 ;
 if
@@ -1774,7 +1774,7 @@ switchToBackward
 ;
 }
 }
-UChar
+char16_t
 lead
 ;
 if
@@ -2035,7 +2035,7 @@ limit
 )
 ;
 const
-UChar
+char16_t
 *
 p
 =
@@ -2053,7 +2053,7 @@ for
 )
 {
 const
-UChar
+char16_t
 *
 q
 =
@@ -2363,7 +2363,7 @@ start
 )
 ;
 const
-UChar
+char16_t
 *
 p
 =
@@ -2381,7 +2381,7 @@ for
 )
 {
 const
-UChar
+char16_t
 *
 q
 =
@@ -2578,11 +2578,11 @@ FCDUTF16CollationIterator
 normalize
 (
 const
-UChar
+char16_t
 *
 from
 const
-UChar
+char16_t
 *
 to
 UErrorCode

@@ -1466,6 +1466,13 @@ month
 -
 narrow
 {
+dn
+{
+"
+mjes
+.
+"
+}
 relative
 {
 "
@@ -3382,6 +3389,13 @@ week
 -
 narrow
 {
+dn
+{
+"
+sedm
+.
+"
+}
 relative
 {
 "

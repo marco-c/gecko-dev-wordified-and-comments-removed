@@ -26,7 +26,7 @@ Autoconf
 69
 for
 ICU
-72
+73
 .
 1
 .
@@ -4944,7 +4944,7 @@ Unicode
 PACKAGE_VERSION
 =
 '
-72
+73
 .
 1
 '
@@ -4952,7 +4952,7 @@ PACKAGE_STRING
 =
 '
 ICU
-72
+73
 .
 1
 '
@@ -11151,7 +11151,7 @@ configure
 '
 configures
 ICU
-72
+73
 .
 1
 to
@@ -11789,7 +11789,7 @@ echo
 Configuration
 of
 ICU
-72
+73
 .
 1
 :
@@ -12380,7 +12380,7 @@ icu
 /
 userguide
 /
-icudata
+icu_data
 for
 more
 info
@@ -13042,7 +13042,7 @@ cat
 _ACEOF
 ICU
 configure
-72
+73
 .
 1
 generated
@@ -18732,7 +18732,7 @@ created
 by
 ICU
 as_me
-72
+73
 .
 1
 which
@@ -41321,6 +41321,23 @@ mh
 darwin
 ;
 ;
+powerpc
+*
+-
+apple
+-
+darwin
+*
+)
+icu_cv_host_frag
+=
+mh
+-
+darwin
+-
+ppc
+;
+;
 *
 -
 apple
@@ -62126,7 +62143,7 @@ extended
 by
 ICU
 as_me
-72
+73
 .
 1
 which
@@ -62463,7 +62480,7 @@ ICU
 config
 .
 status
-72
+73
 .
 1
 configured

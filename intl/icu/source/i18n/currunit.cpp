@@ -220,7 +220,7 @@ isoCode
 kDefaultCurrency
 sizeof
 (
-UChar
+char16_t
 )
 *
 4

@@ -268,7 +268,7 @@ unsafeBackwardSet
 >
 serialize
 (
-NULL
+nullptr
 0
 preflightCode
 )
@@ -435,7 +435,7 @@ errorCode
 {
 }
 const
-UChar
+char16_t
 *
 buf
 =
@@ -737,7 +737,7 @@ printf
 "
 static
 const
-UChar
+char16_t
 collunsafe_pattern
 [
 collunsafe_len

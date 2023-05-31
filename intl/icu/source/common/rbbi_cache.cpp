@@ -808,7 +808,7 @@ if
 lbe
 !
 =
-NULL
+nullptr
 )
 {
 foundBreakCount

@@ -201,13 +201,13 @@ cp1047
 =
 i
 ;
-UChar
+char16_t
 u
 [
 1
 ]
 ;
-UChar
+char16_t
 *
 target
 =
@@ -408,7 +408,7 @@ n
 ;
 for
 (
-UChar
+char16_t
 i
 =
 0x00

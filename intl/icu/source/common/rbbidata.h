@@ -477,7 +477,6 @@ U_CFUNC
 UBool
 rbbi_cleanup
 (
-void
 )
 ;
 #

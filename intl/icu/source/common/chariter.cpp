@@ -402,13 +402,12 @@ return
 this
 ;
 }
-UChar
+char16_t
 CharacterIterator
 :
 :
 firstPostInc
 (
-void
 )
 {
 setToStart
@@ -427,7 +426,6 @@ CharacterIterator
 :
 first32PostInc
 (
-void
 )
 {
 setToStart

@@ -148,7 +148,7 @@ UHashtable
 *
 cache
 =
-NULL
+nullptr
 ;
 static
 icu
@@ -346,7 +346,7 @@ if
 i
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -386,7 +386,7 @@ variantLength
 uloc_getVariant
 (
 localeID
-NULL
+nullptr
 0
 &
 err
@@ -898,7 +898,7 @@ if
 parentID
 !
 =
-NULL
+nullptr
 )
 {
 uprv_strcpy
@@ -1274,7 +1274,7 @@ entry
 fParent
 !
 =
-NULL
+nullptr
 )
 {
 entry
@@ -1576,7 +1576,7 @@ entry
 fName
 !
 =
-NULL
+nullptr
 &
 &
 entry
@@ -1608,7 +1608,7 @@ entry
 fPath
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -1628,7 +1628,7 @@ entry
 fPool
 !
 =
-NULL
+nullptr
 )
 {
 -
@@ -1654,7 +1654,7 @@ if
 alias
 !
 =
-NULL
+nullptr
 )
 {
 while
@@ -1665,7 +1665,7 @@ alias
 fAlias
 !
 =
-NULL
+nullptr
 )
 {
 alias
@@ -1728,7 +1728,7 @@ if
 cache
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1759,7 +1759,7 @@ pos
 )
 !
 =
-NULL
+nullptr
 )
 {
 resB
@@ -1832,7 +1832,6 @@ UBool
 U_EXPORT2
 ures_dumpCacheContents
 (
-void
 )
 {
 UBool
@@ -1866,7 +1865,7 @@ if
 cache
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -1882,7 +1881,7 @@ d
 RB
 Cache
 is
-NULL
+nullptr
 .
 \
 n
@@ -1909,7 +1908,7 @@ pos
 )
 !
 =
-NULL
+nullptr
 )
 {
 cacheNotEmpty
@@ -1993,7 +1992,7 @@ resB
 fName
 :
 "
-NULL
+nullptr
 "
 resB
 -
@@ -2006,7 +2005,7 @@ resB
 fPath
 :
 "
-NULL
+nullptr
 "
 (
 void
@@ -2075,7 +2074,6 @@ UBool
 U_CALLCONV
 ures_cleanup
 (
-void
 )
 {
 if
@@ -2083,7 +2081,7 @@ if
 cache
 !
 =
-NULL
+nullptr
 )
 {
 ures_flushCache
@@ -2097,7 +2095,7 @@ cache
 ;
 cache
 =
-NULL
+nullptr
 ;
 }
 gCacheInitOnce
@@ -2125,7 +2123,7 @@ U_ASSERT
 cache
 =
 =
-NULL
+nullptr
 )
 ;
 cache
@@ -2134,7 +2132,7 @@ uhash_open
 (
 hashEntry
 compareEntries
-NULL
+nullptr
 &
 status
 )
@@ -2200,7 +2198,7 @@ res
 fName
 !
 =
-NULL
+nullptr
 &
 &
 res
@@ -2278,7 +2276,7 @@ res
 fName
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -2336,7 +2334,7 @@ UResourceDataEntry
 *
 r
 =
-NULL
+nullptr
 ;
 UResourceDataEntry
 find
@@ -2371,7 +2369,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2379,7 +2377,7 @@ if
 localeID
 =
 =
-NULL
+nullptr
 )
 {
 name
@@ -2449,7 +2447,7 @@ if
 r
 =
 =
-NULL
+nullptr
 )
 {
 r
@@ -2471,7 +2469,7 @@ if
 r
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -2480,7 +2478,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 uprv_memset
@@ -2515,7 +2513,7 @@ r
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2523,7 +2521,7 @@ if
 path
 !
 =
-NULL
+nullptr
 )
 {
 r
@@ -2548,7 +2546,7 @@ r
 fPath
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -2562,7 +2560,7 @@ r
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -2610,7 +2608,7 @@ r
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 *
@@ -2807,7 +2805,7 @@ RES_BOGUS
 )
 {
 const
-UChar
+char16_t
 *
 alias
 =
@@ -2830,7 +2828,7 @@ if
 alias
 !
 =
-NULL
+nullptr
 &
 &
 aliasLen
@@ -2868,7 +2866,7 @@ UResourceDataEntry
 *
 oldR
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2887,7 +2885,7 @@ r
 )
 =
 =
-NULL
+nullptr
 )
 {
 UErrorCode
@@ -2928,7 +2926,7 @@ r
 ;
 r
 =
-NULL
+nullptr
 ;
 }
 }
@@ -2951,7 +2949,7 @@ if
 r
 !
 =
-NULL
+nullptr
 )
 {
 while
@@ -2962,7 +2960,7 @@ r
 fAlias
 !
 =
-NULL
+nullptr
 )
 {
 r
@@ -3050,7 +3048,7 @@ status
 poolBundle
 =
 =
-NULL
+nullptr
 |
 |
 poolBundle
@@ -3118,7 +3116,7 @@ UResourceDataEntry
 *
 r
 =
-NULL
+nullptr
 ;
 UBool
 hasRealData
@@ -3171,7 +3169,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 *
@@ -3225,7 +3223,7 @@ fCountExisting
 ;
 r
 =
-NULL
+nullptr
 ;
 *
 status
@@ -3517,7 +3515,7 @@ t1
 fParent
 =
 =
-NULL
+nullptr
 &
 &
 !
@@ -3578,7 +3576,7 @@ parentLocaleLen
 0
 ;
 const
-UChar
+char16_t
 *
 parentLocaleName
 =
@@ -3601,7 +3599,7 @@ if
 parentLocaleName
 !
 =
-NULL
+nullptr
 &
 &
 0
@@ -3682,7 +3680,7 @@ UResourceDataEntry
 *
 u2
 =
-NULL
+nullptr
 ;
 UErrorCode
 usrStatus
@@ -3917,13 +3915,13 @@ UResourceDataEntry
 *
 r
 =
-NULL
+nullptr
 ;
 UResourceDataEntry
 *
 t1
 =
-NULL
+nullptr
 ;
 UBool
 isDefault
@@ -3955,7 +3953,7 @@ U_USE_USRDATA
 path
 =
 =
-NULL
+nullptr
 |
 |
 uprv_strncmp
@@ -3996,7 +3994,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 uprv_strncpy
@@ -4033,7 +4031,7 @@ if
 path
 =
 =
-NULL
+nullptr
 )
 {
 uprv_strcpy
@@ -4154,7 +4152,7 @@ if
 r
 !
 =
-NULL
+nullptr
 )
 {
 t1
@@ -4212,7 +4210,7 @@ if
 u1
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -4295,7 +4293,7 @@ if
 r
 =
 =
-NULL
+nullptr
 &
 &
 openType
@@ -4362,7 +4360,7 @@ if
 r
 !
 =
-NULL
+nullptr
 )
 {
 t1
@@ -4423,7 +4421,7 @@ if
 r
 =
 =
-NULL
+nullptr
 )
 {
 uprv_strcpy
@@ -4472,7 +4470,7 @@ if
 r
 !
 =
-NULL
+nullptr
 )
 {
 t1
@@ -4526,7 +4524,7 @@ t1
 fParent
 =
 =
-NULL
+nullptr
 &
 &
 !
@@ -4572,7 +4570,7 @@ while
 r
 !
 =
-NULL
+nullptr
 &
 &
 !
@@ -4585,7 +4583,7 @@ t1
 fParent
 !
 =
-NULL
+nullptr
 )
 {
 t1
@@ -4638,7 +4636,7 @@ r
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -4675,7 +4673,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -4683,7 +4681,7 @@ if
 localeID
 =
 =
-NULL
+nullptr
 )
 {
 localeID
@@ -4755,7 +4753,7 @@ fCountExisting
 ;
 r
 =
-NULL
+nullptr
 ;
 }
 }
@@ -4763,7 +4761,7 @@ else
 {
 r
 =
-NULL
+nullptr
 ;
 }
 UResourceDataEntry
@@ -4777,7 +4775,7 @@ if
 r
 !
 =
-NULL
+nullptr
 &
 &
 uprv_strcmp
@@ -4796,7 +4794,7 @@ r
 fParent
 =
 =
-NULL
+nullptr
 &
 &
 !
@@ -4856,7 +4854,7 @@ UPRV_LENGTHOF
 name
 )
 false
-NULL
+nullptr
 status
 )
 )
@@ -4882,7 +4880,7 @@ t1
 fParent
 =
 =
-NULL
+nullptr
 )
 {
 insertRootBundle
@@ -4904,7 +4902,7 @@ status
 {
 r
 =
-NULL
+nullptr
 ;
 }
 }
@@ -4913,7 +4911,7 @@ if
 r
 !
 =
-NULL
+nullptr
 )
 {
 while
@@ -4924,7 +4922,7 @@ t1
 fParent
 !
 =
-NULL
+nullptr
 )
 {
 t1
@@ -4970,7 +4968,7 @@ while
 resB
 !
 =
-NULL
+nullptr
 )
 {
 p
@@ -5049,7 +5047,7 @@ resB
 fResPath
 =
 =
-NULL
+nullptr
 )
 {
 resB
@@ -5149,7 +5147,7 @@ resB
 fResPath
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -5209,7 +5207,7 @@ if
 temp
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -5284,7 +5282,7 @@ resB
 >
 fResPath
 =
-NULL
+nullptr
 ;
 resB
 -
@@ -5310,7 +5308,7 @@ if
 resB
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -5321,7 +5319,7 @@ resB
 fData
 !
 =
-NULL
+nullptr
 )
 {
 entryClose
@@ -5341,7 +5339,7 @@ resB
 fVersion
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -5513,7 +5511,7 @@ len
 0
 ;
 const
-UChar
+char16_t
 *
 alias
 =
@@ -6448,7 +6446,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -6476,7 +6474,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -6530,7 +6528,7 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 resB
@@ -6552,7 +6550,7 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -6561,7 +6559,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 ures_setIsStackObject
@@ -6575,7 +6573,7 @@ resB
 >
 fResPath
 =
-NULL
+nullptr
 ;
 resB
 -
@@ -6595,7 +6593,7 @@ resB
 fData
 !
 =
-NULL
+nullptr
 )
 {
 entryClose
@@ -6615,7 +6613,7 @@ resB
 fVersion
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -6730,7 +6728,7 @@ if
 key
 !
 =
-NULL
+nullptr
 )
 {
 ures_appendResPath
@@ -6890,7 +6888,7 @@ resB
 >
 fVersion
 =
-NULL
+nullptr
 ;
 resB
 -
@@ -7027,7 +7025,7 @@ if
 original
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -7035,7 +7033,7 @@ if
 r
 =
 =
-NULL
+nullptr
 )
 {
 isStackObject
@@ -7061,7 +7059,7 @@ if
 r
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -7070,7 +7068,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -7105,7 +7103,7 @@ r
 >
 fResPath
 =
-NULL
+nullptr
 ;
 r
 -
@@ -7151,7 +7149,7 @@ r
 fData
 !
 =
-NULL
+nullptr
 )
 {
 entryIncrease
@@ -7170,7 +7168,7 @@ r
 }
 U_CAPI
 const
-UChar
+char16_t
 *
 U_EXPORT2
 ures_getString
@@ -7188,7 +7186,7 @@ status
 )
 {
 const
-UChar
+char16_t
 *
 s
 ;
@@ -7197,7 +7195,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -7208,7 +7206,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -7216,7 +7214,7 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -7225,7 +7223,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 s
@@ -7254,7 +7252,7 @@ if
 s
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -7274,7 +7272,7 @@ char
 ures_toUTF8String
 (
 const
-UChar
+char16_t
 *
 s16
 int32_t
@@ -7305,7 +7303,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -7313,7 +7311,7 @@ if
 pLength
 !
 =
-NULL
+nullptr
 )
 {
 capacity
@@ -7345,7 +7343,7 @@ capacity
 dest
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -7355,7 +7353,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -7371,7 +7369,7 @@ if
 pLength
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -7417,7 +7415,7 @@ length16
 return
 u_strToUTF8
 (
-NULL
+nullptr
 0
 pLength
 s16
@@ -7510,7 +7508,7 @@ int32_t
 length16
 ;
 const
-UChar
+char16_t
 *
 s16
 =
@@ -7563,7 +7561,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -7574,7 +7572,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -7582,7 +7580,7 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -7591,7 +7589,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 p
@@ -7620,7 +7618,7 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -7662,7 +7660,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -7673,7 +7671,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -7681,7 +7679,7 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -7690,7 +7688,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 p
@@ -7719,7 +7717,7 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -7751,7 +7749,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -7770,7 +7768,7 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -7837,7 +7835,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -7856,7 +7854,7 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -7920,7 +7918,7 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -7955,11 +7953,11 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -7987,7 +7985,7 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -8003,7 +8001,7 @@ fSize
 }
 static
 const
-UChar
+char16_t
 *
 ures_getStringWithAlias
 (
@@ -8035,7 +8033,7 @@ URES_ALIAS
 )
 {
 const
-UChar
+char16_t
 *
 result
 =
@@ -8049,7 +8047,7 @@ ures_getByIndex
 (
 resB
 sIndex
-NULL
+nullptr
 status
 )
 ;
@@ -8108,7 +8106,7 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -8139,7 +8137,7 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -8167,7 +8165,7 @@ fSize
 }
 U_CAPI
 const
-UChar
+char16_t
 *
 U_EXPORT2
 ures_getNextString
@@ -8198,7 +8196,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -8209,7 +8207,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -8217,7 +8215,7 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -8226,7 +8224,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -8449,12 +8447,12 @@ U_FALLTHROUGH
 default
 :
 return
-NULL
+nullptr
 ;
 }
 }
 return
-NULL
+nullptr
 ;
 }
 U_CAPI
@@ -8479,7 +8477,7 @@ char
 *
 key
 =
-NULL
+nullptr
 ;
 Resource
 r
@@ -8491,7 +8489,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -8510,7 +8508,7 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -8748,7 +8746,7 @@ char
 *
 key
 =
-NULL
+nullptr
 ;
 Resource
 r
@@ -8760,7 +8758,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -8779,7 +8777,7 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -8975,7 +8973,7 @@ fillIn
 }
 U_CAPI
 const
-UChar
+char16_t
 *
 U_EXPORT2
 ures_getStringByIndex
@@ -8999,7 +8997,7 @@ char
 *
 key
 =
-NULL
+nullptr
 ;
 Resource
 r
@@ -9011,7 +9009,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -9022,7 +9020,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -9030,7 +9028,7 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -9039,7 +9037,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -9250,7 +9248,7 @@ U_MISSING_RESOURCE_ERROR
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 U_CAPI
@@ -9283,7 +9281,7 @@ int32_t
 length16
 ;
 const
-UChar
+char16_t
 *
 s16
 =
@@ -9330,7 +9328,7 @@ UResourceBundle
 *
 first
 =
-NULL
+nullptr
 ;
 UResourceBundle
 *
@@ -9342,27 +9340,27 @@ char
 *
 packageName
 =
-NULL
+nullptr
 ;
 char
 *
 pathToResource
 =
-NULL
+nullptr
 *
 save
 =
-NULL
+nullptr
 ;
 char
 *
 locale
 =
-NULL
+nullptr
 *
 localeEnd
 =
-NULL
+nullptr
 ;
 int32_t
 length
@@ -9372,7 +9370,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -9423,7 +9421,7 @@ if
 pathToResource
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -9476,7 +9474,7 @@ if
 pathToResource
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -9513,7 +9511,7 @@ if
 localeEnd
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -9627,7 +9625,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -9717,7 +9715,7 @@ result
 }
 U_CAPI
 const
-UChar
+char16_t
 *
 U_EXPORT2
 ures_getStringByKeyWithFallback
@@ -9742,11 +9740,11 @@ UResourceBundle
 stack
 ;
 const
-UChar
+char16_t
 *
 retVal
 =
-NULL
+nullptr
 ;
 ures_initStackObject
 (
@@ -9793,7 +9791,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -9833,7 +9831,7 @@ EMPTY_SET
 {
 retVal
 =
-NULL
+nullptr
 ;
 length
 =
@@ -9850,7 +9848,7 @@ if
 len
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -9969,7 +9967,7 @@ if
 nextPathPart
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -10384,14 +10382,14 @@ UResourceBundle
 *
 helper
 =
-NULL
+nullptr
 ;
 if
 (
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -10410,7 +10408,7 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -10513,7 +10511,7 @@ char
 *
 myPath
 =
-NULL
+nullptr
 ;
 const
 char
@@ -10548,7 +10546,7 @@ dataEntry
 fParent
 !
 =
-NULL
+nullptr
 |
 |
 !
@@ -10564,7 +10562,7 @@ dataEntry
 fParent
 !
 =
-NULL
+nullptr
 )
 {
 dataEntry
@@ -10684,7 +10682,7 @@ init_resb_result
 (
 dataEntry
 res
-NULL
+nullptr
 -
 1
 resB
@@ -11102,7 +11100,7 @@ hasParent
 parentEntry
 !
 =
-NULL
+nullptr
 &
 &
 U_SUCCESS
@@ -11255,7 +11253,7 @@ bundle
 fResPath
 =
 =
-NULL
+nullptr
 |
 |
 *
@@ -11886,7 +11884,7 @@ UResourceDataEntry
 *
 dataEntry
 =
-NULL
+nullptr
 ;
 const
 char
@@ -11900,7 +11898,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -11919,7 +11917,7 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -12152,7 +12150,7 @@ fillIn
 }
 U_CAPI
 const
-UChar
+char16_t
 *
 U_EXPORT2
 ures_getStringByKey
@@ -12182,7 +12180,7 @@ UResourceDataEntry
 *
 dataEntry
 =
-NULL
+nullptr
 ;
 const
 char
@@ -12196,7 +12194,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -12207,7 +12205,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -12215,7 +12213,7 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -12224,7 +12222,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -12348,7 +12346,7 @@ URES_ALIAS
 :
 {
 const
-UChar
+char16_t
 *
 result
 =
@@ -12362,7 +12360,7 @@ ures_getByKey
 (
 resB
 inKey
-NULL
+nullptr
 status
 )
 ;
@@ -12450,7 +12448,7 @@ URES_ALIAS
 :
 {
 const
-UChar
+char16_t
 *
 result
 =
@@ -12464,7 +12462,7 @@ ures_getByKey
 (
 resB
 inKey
-NULL
+nullptr
 status
 )
 ;
@@ -12573,7 +12571,7 @@ U_RESOURCE_TYPE_MISMATCH
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 U_CAPI
@@ -12608,7 +12606,7 @@ int32_t
 length16
 ;
 const
-UChar
+char16_t
 *
 s16
 =
@@ -12654,7 +12652,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -12665,7 +12663,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -12680,7 +12678,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 else
@@ -12743,7 +12741,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -12754,7 +12752,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -12769,7 +12767,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 else
@@ -12814,7 +12812,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -12836,11 +12834,11 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -12873,11 +12871,11 @@ if
 resB
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -12925,7 +12923,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UResourceDataEntry
@@ -12979,7 +12977,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 entry
@@ -13015,7 +13013,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -13023,7 +13021,7 @@ if
 entry
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -13032,7 +13030,7 @@ status
 U_MISSING_RESOURCE_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 UBool
@@ -13043,7 +13041,7 @@ if
 r
 =
 =
-NULL
+nullptr
 )
 {
 r
@@ -13065,7 +13063,7 @@ if
 r
 =
 =
-NULL
+nullptr
 )
 {
 entryClose
@@ -13079,7 +13077,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 isStackObject
@@ -13236,7 +13234,7 @@ status
 return
 ures_openWithType
 (
-NULL
+nullptr
 path
 localeID
 URES_OPEN_LOCALE_DEFAULT_ROOT
@@ -13266,7 +13264,7 @@ status
 return
 ures_openWithType
 (
-NULL
+nullptr
 path
 localeID
 URES_OPEN_LOCALE_ROOT
@@ -13296,7 +13294,7 @@ status
 return
 ures_openWithType
 (
-NULL
+nullptr
 path
 localeID
 URES_OPEN_DIRECT
@@ -13337,7 +13335,7 @@ status
 r
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -13391,7 +13389,7 @@ status
 r
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -13444,7 +13442,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -13463,7 +13461,7 @@ if
 resourceBundle
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -13495,7 +13493,7 @@ getResData
 data
 !
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -13561,7 +13559,7 @@ if
 resourceBundle
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -13571,7 +13569,7 @@ resourceBundle
 fVersion
 =
 =
-NULL
+nullptr
 )
 {
 UErrorCode
@@ -13588,7 +13586,7 @@ int32_t
 len
 ;
 const
-UChar
+char16_t
 *
 minor_version
 =
@@ -13650,11 +13648,11 @@ resourceBundle
 fVersion
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -13940,14 +13938,14 @@ UResourceBundle
 *
 k
 =
-NULL
+nullptr
 ;
 const
 char
 *
 result
 =
-NULL
+nullptr
 ;
 int32_t
 len
@@ -14058,8 +14056,8 @@ UEnumeration
 gLocalesEnum
 =
 {
-NULL
-NULL
+nullptr
+nullptr
 ures_loc_closeLocales
 ures_loc_countLocales
 uenum_unextDefault
@@ -14086,19 +14084,19 @@ UResourceBundle
 *
 idx
 =
-NULL
+nullptr
 ;
 UEnumeration
 *
 en
 =
-NULL
+nullptr
 ;
 ULocalesContext
 *
 myContext
 =
-NULL
+nullptr
 ;
 if
 (
@@ -14110,7 +14108,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 myContext
@@ -14170,7 +14168,7 @@ myContext
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 uprv_memcpy
@@ -14337,7 +14335,7 @@ en
 ;
 en
 =
-NULL
+nullptr
 ;
 }
 ures_close
@@ -14378,13 +14376,13 @@ loc
 uenum_next
 (
 locEnum
-NULL
+nullptr
 status
 )
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -14515,7 +14513,7 @@ UResourceBundle
 *
 res
 =
-NULL
+nullptr
 ;
 UErrorCode
 subStatus
@@ -14760,7 +14758,7 @@ false
 }
 isAvailable
 =
-NULL
+nullptr
 ;
 #
 if
@@ -14852,7 +14850,7 @@ U_ZERO_ERROR
 )
 {
 const
-UChar
+char16_t
 *
 defUstr
 ;
@@ -15054,7 +15052,7 @@ if
 res
 !
 =
-NULL
+nullptr
 )
 {
 uprv_strcpy
@@ -15169,7 +15167,7 @@ false
 }
 isAvailable
 =
-NULL
+nullptr
 ;
 #
 if
@@ -15422,7 +15420,7 @@ full
 )
 {
 const
-UChar
+char16_t
 *
 defUstr
 ;
@@ -15771,7 +15769,7 @@ false
 }
 isAvailable
 =
-NULL
+nullptr
 ;
 #
 if
@@ -15963,7 +15961,7 @@ full
 )
 {
 const
-UChar
+char16_t
 *
 defUstr
 ;
@@ -16560,7 +16558,7 @@ UEnumeration
 *
 locs
 =
-NULL
+nullptr
 ;
 UResourceBundle
 item
@@ -16610,7 +16608,7 @@ subItem
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 valuesBuf
@@ -16649,13 +16647,13 @@ UResourceBundle
 *
 bund
 =
-NULL
+nullptr
 ;
 UResourceBundle
 *
 subPtr
 =
-NULL
+nullptr
 ;
 UErrorCode
 subStatus
@@ -16820,7 +16818,7 @@ bund
 ;
 bund
 =
-NULL
+nullptr
 ;
 continue
 ;
@@ -16879,7 +16877,7 @@ if
 k
 =
 =
-NULL
+nullptr
 |
 |
 *
@@ -16946,7 +16944,7 @@ k
 {
 k
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -16957,7 +16955,7 @@ if
 k
 !
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -17187,13 +17185,13 @@ if
 res1
 =
 =
-NULL
+nullptr
 |
 |
 res2
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -17211,7 +17209,7 @@ res1
 fKey
 =
 =
-NULL
+nullptr
 |
 |
 res2
@@ -17220,7 +17218,7 @@ res2
 fKey
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -17302,7 +17300,7 @@ fData
 fPath
 =
 =
-NULL
+nullptr
 |
 |
 res2
@@ -17314,7 +17312,7 @@ fData
 fPath
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -17504,13 +17502,13 @@ UResourceBundle
 *
 bundle
 =
-NULL
+nullptr
 ;
 UResourceBundle
 *
 ret
 =
-NULL
+nullptr
 ;
 if
 (
@@ -17524,11 +17522,11 @@ status
 res
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 bundle
@@ -17560,7 +17558,7 @@ res
 fResPath
 !
 =
-NULL
+nullptr
 )
 {
 ret
@@ -17572,7 +17570,7 @@ res
 -
 >
 fResPath
-NULL
+nullptr
 status
 )
 ;
@@ -17611,11 +17609,11 @@ if
 res
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -17648,7 +17646,7 @@ status
 )
 {
 const
-UChar
+char16_t
 *
 str
 ;

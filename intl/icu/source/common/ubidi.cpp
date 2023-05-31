@@ -208,7 +208,6 @@ UBiDi
 U_EXPORT2
 ubidi_open
 (
-void
 )
 {
 UErrorCode
@@ -250,7 +249,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -261,7 +260,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 else
@@ -283,7 +282,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 pBiDi
@@ -305,7 +304,7 @@ if
 pBiDi
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -314,7 +313,7 @@ pErrorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 uprv_memset
@@ -444,7 +443,7 @@ pBiDi
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -482,7 +481,7 @@ if
 pMemory
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -501,7 +500,7 @@ sizeNeeded
 )
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -566,7 +565,7 @@ sizeNeeded
 )
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -607,7 +606,7 @@ if
 pBiDi
 !
 =
-NULL
+nullptr
 )
 {
 pBiDi
@@ -615,7 +614,7 @@ pBiDi
 >
 pParaBiDi
 =
-NULL
+nullptr
 ;
 if
 (
@@ -625,7 +624,7 @@ pBiDi
 dirPropsMemory
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -645,7 +644,7 @@ pBiDi
 levelsMemory
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -665,7 +664,7 @@ pBiDi
 openingsMemory
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -685,7 +684,7 @@ pBiDi
 parasMemory
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -705,7 +704,7 @@ pBiDi
 runsMemory
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -725,7 +724,7 @@ pBiDi
 isolatesMemory
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -747,7 +746,7 @@ insertPoints
 points
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -785,7 +784,7 @@ if
 pBiDi
 !
 =
-NULL
+nullptr
 )
 {
 pBiDi
@@ -823,7 +822,7 @@ if
 pBiDi
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -851,6 +850,7 @@ pBiDi
 UBiDiReorderingMode
 reorderingMode
 )
+UPRV_NO_SANITIZE_UNDEFINED
 {
 if
 (
@@ -858,7 +858,7 @@ if
 pBiDi
 !
 =
-NULL
+nullptr
 )
 &
 &
@@ -916,7 +916,7 @@ if
 pBiDi
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -964,7 +964,7 @@ if
 pBiDi
 !
 =
-NULL
+nullptr
 )
 {
 pBiDi
@@ -991,7 +991,7 @@ if
 pBiDi
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -1014,7 +1014,7 @@ U_EXPORT2
 ubidi_getBaseDirection
 (
 const
-UChar
+char16_t
 *
 text
 int32_t
@@ -1035,7 +1035,7 @@ if
 text
 =
 =
-NULL
+nullptr
 |
 |
 length
@@ -1133,7 +1133,7 @@ pBiDi
 )
 {
 const
-UChar
+char16_t
 *
 text
 =
@@ -1373,7 +1373,7 @@ pBiDi
 )
 {
 const
-UChar
+char16_t
 *
 text
 =
@@ -3175,7 +3175,7 @@ bracketAddOpening
 BracketData
 *
 bd
-UChar
+char16_t
 match
 int32_t
 position
@@ -4037,7 +4037,7 @@ dirProp
 ON
 )
 {
-UChar
+char16_t
 c
 match
 ;
@@ -4273,7 +4273,7 @@ match
 =
 static_cast
 <
-UChar
+char16_t
 >
 (
 u_getBidiPairedBracket
@@ -4888,7 +4888,7 @@ pBiDi
 levels
 ;
 const
-UChar
+char16_t
 *
 text
 =
@@ -9925,7 +9925,7 @@ pInsertPoints
 points
 =
 =
-NULL
+nullptr
 )
 {
 pInsertPoints
@@ -10008,7 +10008,7 @@ pInsertPoints
 points
 =
 =
-NULL
+nullptr
 )
 {
 pInsertPoints
@@ -11315,7 +11315,7 @@ pBiDi
 )
 {
 const
-UChar
+char16_t
 *
 text
 =
@@ -11429,7 +11429,7 @@ pBiDi
 )
 {
 const
-UChar
+char16_t
 *
 text
 =
@@ -12739,13 +12739,13 @@ UBiDi
 *
 pBiDi
 const
-UChar
+char16_t
 *
 prologue
 int32_t
 proLength
 const
-UChar
+char16_t
 *
 epilogue
 int32_t
@@ -12765,7 +12765,7 @@ if
 pBiDi
 =
 =
-NULL
+nullptr
 |
 |
 proLength
@@ -12784,7 +12784,7 @@ epiLength
 prologue
 =
 =
-NULL
+nullptr
 &
 &
 proLength
@@ -12798,7 +12798,7 @@ proLength
 epilogue
 =
 =
-NULL
+nullptr
 &
 &
 epiLength
@@ -12979,7 +12979,7 @@ UBiDi
 *
 pBiDi
 const
-UChar
+char16_t
 *
 text
 int32_t
@@ -12995,13 +12995,13 @@ int32_t
 *
 runsOnlyMemory
 =
-NULL
+nullptr
 ;
 int32_t
 *
 visualMap
 ;
-UChar
+char16_t
 *
 visualText
 ;
@@ -13070,7 +13070,7 @@ pBiDi
 text
 length
 paraLevel
-NULL
+nullptr
 pErrorCode
 )
 ;
@@ -13098,7 +13098,7 @@ int32_t
 +
 sizeof
 (
-UChar
+char16_t
 )
 +
 sizeof
@@ -13114,7 +13114,7 @@ if
 runsOnlyMemory
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -13133,7 +13133,7 @@ runsOnlyMemory
 visualText
 =
 (
-UChar
+char16_t
 *
 )
 &
@@ -13197,7 +13197,7 @@ pBiDi
 text
 length
 paraLevel
-NULL
+nullptr
 pErrorCode
 )
 ;
@@ -13331,7 +13331,7 @@ pBiDi
 visualText
 visualLength
 paraLevel
-NULL
+nullptr
 pErrorCode
 )
 ;
@@ -14093,7 +14093,7 @@ UBiDi
 *
 pBiDi
 const
-UChar
+char16_t
 *
 text
 int32_t
@@ -14125,13 +14125,13 @@ if
 pBiDi
 =
 =
-NULL
+nullptr
 |
 |
 text
 =
 =
-NULL
+nullptr
 |
 |
 length
@@ -14205,7 +14205,7 @@ pBiDi
 >
 pParaBiDi
 =
-NULL
+nullptr
 ;
 pBiDi
 -
@@ -14264,21 +14264,21 @@ pBiDi
 >
 dirProps
 =
-NULL
+nullptr
 ;
 pBiDi
 -
 >
 levels
 =
-NULL
+nullptr
 ;
 pBiDi
 -
 >
 runs
 =
-NULL
+nullptr
 ;
 pBiDi
 -
@@ -14481,7 +14481,7 @@ if
 embeddingLevels
 =
 =
-NULL
+nullptr
 )
 {
 \
@@ -14842,7 +14842,7 @@ if
 embeddingLevels
 =
 =
-NULL
+nullptr
 &
 &
 pBiDi
@@ -15473,7 +15473,7 @@ if
 pBiDi
 !
 =
-NULL
+nullptr
 )
 {
 pBiDi
@@ -15500,7 +15500,7 @@ if
 pBiDi
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -15552,7 +15552,7 @@ UBIDI_LTR
 }
 U_CAPI
 const
-UChar
+char16_t
 *
 U_EXPORT2
 ubidi_getText
@@ -15581,7 +15581,7 @@ text
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -15841,7 +15841,7 @@ if
 pParaStart
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -15855,7 +15855,7 @@ if
 pParaLimit
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -15877,7 +15877,7 @@ if
 pParaLevel
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -16033,7 +16033,7 @@ if
 pBiDi
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -16111,7 +16111,7 @@ if
 pBiDi
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -16169,7 +16169,7 @@ pBiDi
 fnClassCallback
 =
 =
-NULL
+nullptr
 |
 |
 (

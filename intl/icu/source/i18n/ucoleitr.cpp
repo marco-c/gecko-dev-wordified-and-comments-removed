@@ -359,7 +359,7 @@ if
 newBuffer
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -461,7 +461,7 @@ bufferIndex
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 PCEBuffer
@@ -592,7 +592,7 @@ if
 newBuffer
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -694,7 +694,7 @@ bufferIndex
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 UCollationPCE
@@ -1021,7 +1021,7 @@ UCollator
 *
 coll
 const
-UChar
+char16_t
 *
 text
 int32_t
@@ -1041,7 +1041,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1049,14 +1049,14 @@ if
 coll
 =
 =
-NULL
+nullptr
 |
 |
 (
 text
 =
 =
-NULL
+nullptr
 &
 &
 textLength
@@ -1072,7 +1072,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 const
@@ -1093,7 +1093,7 @@ if
 rbc
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1102,7 +1102,7 @@ status
 U_UNSUPPORTED_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 UnicodeString
@@ -1137,7 +1137,7 @@ if
 cei
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1146,7 +1146,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1366,7 +1366,7 @@ if
 ixLow
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1380,7 +1380,7 @@ if
 ixHigh
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1689,7 +1689,7 @@ if
 ixLow
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1704,7 +1704,7 @@ if
 ixHigh
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1734,7 +1734,7 @@ if
 ixLow
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1751,7 +1751,7 @@ if
 ixHigh
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1809,7 +1809,7 @@ UCollationElements
 *
 elems
 const
-UChar
+char16_t
 *
 text
 int32_t
@@ -1837,7 +1837,7 @@ if
 text
 =
 =
-NULL
+nullptr
 &
 &
 textLength

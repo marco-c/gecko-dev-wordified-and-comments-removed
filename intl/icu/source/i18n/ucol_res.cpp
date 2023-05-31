@@ -214,11 +214,11 @@ namespace
 {
 static
 const
-UChar
+char16_t
 *
 rootRules
 =
-NULL
+nullptr
 ;
 static
 int32_t
@@ -231,7 +231,7 @@ UResourceBundle
 *
 rootBundle
 =
-NULL
+nullptr
 ;
 static
 UInitOnce
@@ -250,7 +250,7 @@ ucol_res_cleanup
 {
 rootRules
 =
-NULL
+nullptr
 ;
 rootRulesLength
 =
@@ -263,7 +263,7 @@ rootBundle
 ;
 rootBundle
 =
-NULL
+nullptr
 ;
 gInitOnceUcolRes
 .
@@ -348,7 +348,7 @@ rootBundle
 ;
 rootBundle
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -443,7 +443,7 @@ U_ASSERT
 collationType
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -530,7 +530,7 @@ getAlias
 "
 collations
 "
-NULL
+nullptr
 &
 errorCode
 )
@@ -547,7 +547,7 @@ getAlias
 (
 )
 type
-NULL
+nullptr
 &
 errorCode
 )
@@ -557,7 +557,7 @@ int32_t
 length
 ;
 const
-UChar
+char16_t
 *
 s
 =
@@ -705,7 +705,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
@@ -825,15 +825,15 @@ false
 )
 bundle
 (
-NULL
+nullptr
 )
 collations
 (
-NULL
+nullptr
 )
 data
 (
-NULL
+nullptr
 )
 {
 type
@@ -1032,7 +1032,7 @@ if
 bundle
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1048,7 +1048,7 @@ if
 collations
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1064,7 +1064,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1106,7 +1106,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 U_ASSERT
@@ -1114,7 +1114,7 @@ U_ASSERT
 bundle
 =
 =
-NULL
+nullptr
 )
 ;
 bundle
@@ -1182,7 +1182,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 locale
@@ -1264,7 +1264,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 U_ASSERT
@@ -1272,7 +1272,7 @@ U_ASSERT
 collations
 =
 =
-NULL
+nullptr
 )
 ;
 collations
@@ -1283,7 +1283,7 @@ bundle
 "
 collations
 "
-NULL
+nullptr
 &
 errorCode
 )
@@ -1317,7 +1317,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 {
@@ -1335,7 +1335,7 @@ collations
 "
 default
 "
-NULL
+nullptr
 &
 internalErrorCode
 )
@@ -1345,7 +1345,7 @@ int32_t
 length
 ;
 const
-UChar
+char16_t
 *
 s
 =
@@ -1575,7 +1575,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 U_ASSERT
@@ -1583,7 +1583,7 @@ U_ASSERT
 data
 =
 =
-NULL
+nullptr
 )
 ;
 LocalUResourceBundlePointer
@@ -1593,7 +1593,7 @@ ures_getByKeyWithFallback
 (
 collations
 type
-NULL
+nullptr
 &
 errorCode
 )
@@ -1761,7 +1761,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 data
@@ -1794,7 +1794,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
@@ -1854,7 +1854,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1985,7 +1985,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 LocalPointer
@@ -2029,7 +2029,7 @@ errorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 LocalUResourceBundlePointer
@@ -2043,7 +2043,7 @@ data
 %
 CollationBin
 "
-NULL
+nullptr
 &
 errorCode
 )
@@ -2051,6 +2051,8 @@ errorCode
 ;
 int32_t
 length
+=
+0
 ;
 const
 uint8_t
@@ -2095,7 +2097,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 {
@@ -2108,7 +2110,7 @@ int32_t
 len
 ;
 const
-UChar
+char16_t
 *
 s
 =
@@ -2208,7 +2210,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UErrorCode
@@ -2231,7 +2233,7 @@ collations
 /
 default
 "
-NULL
+nullptr
 &
 internalErrorCode
 )
@@ -2241,7 +2243,7 @@ int32_t
 len
 ;
 const
-UChar
+char16_t
 *
 s
 =
@@ -2361,7 +2363,7 @@ setKeywordValue
 "
 collation
 "
-NULL
+nullptr
 errorCode
 )
 ;
@@ -2375,7 +2377,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2397,7 +2399,7 @@ bundle
 ;
 bundle
 =
-NULL
+nullptr
 ;
 const
 CollationCacheEntry
@@ -2420,7 +2422,7 @@ if
 entry
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -2478,7 +2480,7 @@ CollationCacheEntry
 *
 entry
 =
-NULL
+nullptr
 ;
 cache
 -
@@ -2521,7 +2523,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 rootEntry
@@ -2601,7 +2603,7 @@ if
 entry
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -2616,7 +2618,7 @@ removeRef
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 entry
@@ -2678,7 +2680,7 @@ UCollator
 *
 result
 =
-NULL
+nullptr
 ;
 Collator
 *
@@ -2737,7 +2739,7 @@ const
 char
 *
 dispLoc
-UChar
+char16_t
 *
 result
 int32_t
@@ -2769,7 +2771,7 @@ if
 result
 =
 =
-NULL
+nullptr
 &
 &
 resultLength
@@ -2851,7 +2853,7 @@ if
 loc
 !
 =
-NULL
+nullptr
 &
 &
 index
@@ -2871,7 +2873,7 @@ getName
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 U_CAPI
@@ -2923,7 +2925,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 StringEnumeration
@@ -2945,7 +2947,7 @@ if
 s
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -2954,7 +2956,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3015,7 +3017,7 @@ UEnumeration
 *
 result
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3064,7 +3066,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3072,7 +3074,7 @@ if
 keyword
 =
 =
-NULL
+nullptr
 |
 |
 uprv_strcmp
@@ -3094,7 +3096,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3112,8 +3114,8 @@ UEnumeration
 defaultKeywordValues
 =
 {
-NULL
-NULL
+nullptr
+nullptr
 ulist_close_keyword_values_iterator
 ulist_count_keyword_values
 uenum_unextDefault
@@ -3303,7 +3305,7 @@ if
 ownedDefault
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -3487,7 +3489,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UEnumeration
@@ -3511,7 +3513,7 @@ if
 en
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -3520,7 +3522,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 memcpy
@@ -3554,7 +3556,7 @@ sink
 .
 values
 =
-NULL
+nullptr
 ;
 return
 en

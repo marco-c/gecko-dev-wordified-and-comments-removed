@@ -41,7 +41,7 @@ public
 UMemory
 {
 const
-UChar
+char16_t
 *
 mzid
 ;
@@ -85,7 +85,7 @@ status
 ;
 static
 const
-UChar
+char16_t
 *
 U_EXPORT2
 getCanonicalCLDRID
@@ -101,7 +101,7 @@ status
 ;
 static
 const
-UChar
+char16_t
 *
 U_EXPORT2
 getCanonicalCLDRID
@@ -129,7 +129,7 @@ UBool
 *
 isPrimary
 =
-NULL
+nullptr
 )
 ;
 static
@@ -192,7 +192,7 @@ getAvailableMetazoneIDs
 ;
 static
 const
-UChar
+char16_t
 *
 U_EXPORT2
 findTimeZoneID
@@ -205,7 +205,7 @@ tzid
 ;
 static
 const
-UChar
+char16_t
 *
 U_EXPORT2
 findMetaZoneID
@@ -227,7 +227,7 @@ offset
 ;
 static
 const
-UChar
+char16_t
 *
 U_EXPORT2
 getShortID
@@ -240,7 +240,7 @@ tz
 ;
 static
 const
-UChar
+char16_t
 *
 U_EXPORT2
 getShortID
@@ -290,12 +290,12 @@ id
 ;
 static
 const
-UChar
+char16_t
 *
 getShortIDFromCanonical
 (
 const
-UChar
+char16_t
 *
 canonicalID
 )

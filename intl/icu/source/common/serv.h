@@ -110,7 +110,7 @@ protected
 :
 static
 const
-UChar
+char16_t
 PREFIX_DELIMITER
 ;
 public
@@ -909,14 +909,12 @@ virtual
 void
 reset
 (
-void
 )
 ;
 virtual
 UBool
 isDefault
 (
-void
 )
 const
 ;
@@ -973,7 +971,6 @@ virtual
 void
 reInitializeFactories
 (
-void
 )
 ;
 virtual
@@ -998,7 +995,6 @@ virtual
 void
 clearCaches
 (
-void
 )
 ;
 virtual
@@ -1027,7 +1023,6 @@ override
 void
 clearServiceCache
 (
-void
 )
 ;
 const
@@ -1044,14 +1039,12 @@ const
 int32_t
 getTimestamp
 (
-void
 )
 const
 ;
 int32_t
 countFactories
 (
-void
 )
 const
 ;

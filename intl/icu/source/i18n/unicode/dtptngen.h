@@ -329,9 +329,6 @@ const
 if
 !
 UCONFIG_NO_FORMATTING
-#
-ifndef
-U_HIDE_DRAFT_API
 void
 setDateTimeFormat
 (
@@ -359,8 +356,6 @@ status
 )
 const
 ;
-#
-endif
 #
 endif
 UnicodeString

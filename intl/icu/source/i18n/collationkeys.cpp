@@ -90,7 +90,7 @@ n
 bytes
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -243,7 +243,7 @@ result_capacity
 0
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1108,7 +1108,7 @@ len
 )
 =
 =
-NULL
+nullptr
 )
 {
 return

@@ -98,7 +98,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -252,7 +252,7 @@ const
 UNumberingSystem
 *
 unumsys
-UChar
+char16_t
 *
 result
 int32_t

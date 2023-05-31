@@ -478,7 +478,7 @@ PluralSelectorAdapter
 :
 pluralRules
 (
-NULL
+nullptr
 )
 {
 }

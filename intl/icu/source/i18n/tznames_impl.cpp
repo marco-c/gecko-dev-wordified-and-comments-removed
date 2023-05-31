@@ -212,7 +212,7 @@ dummy
 ;
 static
 const
-UChar
+char16_t
 NO_NAME
 [
 ]
@@ -257,7 +257,7 @@ UHashtable
 *
 gTZDBNamesMap
 =
-NULL
+nullptr
 ;
 static
 icu
@@ -273,7 +273,7 @@ TextTrieMap
 *
 gTZDBNamesTrie
 =
-NULL
+nullptr
 ;
 static
 icu
@@ -303,7 +303,7 @@ UTZNM_INDEX_COUNT
 ;
 static
 const
-UChar
+char16_t
 *
 const
 EMPTY_NAMES
@@ -327,7 +327,6 @@ UBool
 U_CALLCONV
 tzdbTimeZoneNames_cleanup
 (
-void
 )
 {
 if
@@ -335,7 +334,7 @@ if
 gTZDBNamesMap
 !
 =
-NULL
+nullptr
 )
 {
 uhash_close
@@ -345,7 +344,7 @@ gTZDBNamesMap
 ;
 gTZDBNamesMap
 =
-NULL
+nullptr
 ;
 }
 gTZDBNamesMapInitOnce
@@ -359,7 +358,7 @@ if
 gTZDBNamesTrie
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -367,7 +366,7 @@ gTZDBNamesTrie
 ;
 gTZDBNamesTrie
 =
-NULL
+nullptr
 ;
 }
 gTZDBNamesTrieInitOnce
@@ -388,12 +387,12 @@ UTimeZoneNameType
 type
 ;
 const
-UChar
+char16_t
 *
 tzID
 ;
 const
-UChar
+char16_t
 *
 mzID
 ;
@@ -465,7 +464,7 @@ if
 fValues
 =
 =
-NULL
+nullptr
 )
 {
 }
@@ -543,7 +542,7 @@ if
 fValues
 =
 =
-NULL
+nullptr
 )
 {
 fValues
@@ -569,7 +568,7 @@ new
 UVector
 (
 valueDeleter
-NULL
+nullptr
 DEFAULT_CHARACTERNODE_CAPACITY
 status
 )
@@ -714,7 +713,7 @@ ignoreCase
 )
 fNodes
 (
-NULL
+nullptr
 )
 fNodesCapacity
 (
@@ -726,7 +725,7 @@ fNodesCount
 )
 fLazyContents
 (
-NULL
+nullptr
 )
 fIsEmpty
 (
@@ -785,7 +784,7 @@ if
 fLazyContents
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -870,7 +869,7 @@ status
 )
 {
 const
-UChar
+char16_t
 *
 s
 =
@@ -897,7 +896,7 @@ TextTrieMap
 put
 (
 const
-UChar
+char16_t
 *
 key
 void
@@ -917,7 +916,7 @@ if
 fLazyContents
 =
 =
-NULL
+nullptr
 )
 {
 LocalPointer
@@ -974,16 +973,16 @@ U_ASSERT
 fLazyContents
 !
 =
-NULL
+nullptr
 )
 ;
-UChar
+char16_t
 *
 s
 =
 const_cast
 <
-UChar
+char16_t
 *
 >
 (
@@ -1058,7 +1057,7 @@ if
 fNodes
 =
 =
-NULL
+nullptr
 )
 {
 fNodesCapacity
@@ -1086,7 +1085,7 @@ if
 fNodes
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1114,7 +1113,7 @@ UnicodeString
 foldedKey
 ;
 const
-UChar
+char16_t
 *
 keyBuffer
 ;
@@ -1283,7 +1282,7 @@ if
 newNodes
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1329,7 +1328,7 @@ addChildNode
 CharacterNode
 *
 parent
-UChar
+char16_t
 c
 UErrorCode
 &
@@ -1345,7 +1344,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 uint16_t
@@ -1376,7 +1375,7 @@ fNodes
 +
 nodeIndex
 ;
-UChar
+char16_t
 childCharacter
 =
 current
@@ -1452,7 +1451,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 parent
@@ -1543,7 +1542,7 @@ getChildNode
 CharacterNode
 *
 parent
-UChar
+char16_t
 c
 )
 const
@@ -1571,7 +1570,7 @@ fNodes
 +
 nodeIndex
 ;
-UChar
+char16_t
 childCharacter
 =
 current
@@ -1611,7 +1610,7 @@ fNextSibling
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 void
@@ -1630,7 +1629,7 @@ if
 fLazyContents
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -1656,12 +1655,12 @@ i
 )
 {
 const
-UChar
+char16_t
 *
 key
 =
 (
-UChar
+char16_t
 *
 )
 fLazyContents
@@ -1708,7 +1707,7 @@ fLazyContents
 ;
 fLazyContents
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1750,7 +1749,7 @@ if
 fLazyContents
 !
 =
-NULL
+nullptr
 )
 {
 TextTrieMap
@@ -1781,7 +1780,7 @@ if
 fNodes
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1927,7 +1926,7 @@ length
 )
 )
 {
-UChar
+char16_t
 c
 =
 tmp
@@ -1952,7 +1951,7 @@ if
 node
 =
 =
-NULL
+nullptr
 )
 {
 break
@@ -1962,7 +1961,7 @@ break
 }
 else
 {
-UChar
+char16_t
 c
 =
 text
@@ -1988,7 +1987,7 @@ if
 node
 !
 =
-NULL
+nullptr
 )
 {
 search
@@ -2023,7 +2022,7 @@ fNext
 int32_t
 fLimit
 ;
-UChar
+char16_t
 fStrings
 [
 POOL_CHUNK_SIZE
@@ -2044,7 +2043,7 @@ ZNStringPoolChunk
 {
 fNext
 =
-NULL
+nullptr
 ;
 fLimit
 =
@@ -2063,11 +2062,11 @@ status
 {
 fChunks
 =
-NULL
+nullptr
 ;
 fHash
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2090,7 +2089,7 @@ if
 fChunks
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -2136,7 +2135,7 @@ if
 fHash
 !
 =
-NULL
+nullptr
 )
 {
 uhash_close
@@ -2146,7 +2145,7 @@ fHash
 ;
 fHash
 =
-NULL
+nullptr
 ;
 }
 while
@@ -2154,7 +2153,7 @@ while
 fChunks
 !
 =
-NULL
+nullptr
 )
 {
 ZNStringPoolChunk
@@ -2177,13 +2176,13 @@ nextChunk
 }
 static
 const
-UChar
+char16_t
 EmptyString
 =
 0
 ;
 const
-UChar
+char16_t
 *
 ZNStringPool
 :
@@ -2191,7 +2190,7 @@ ZNStringPool
 get
 (
 const
-UChar
+char16_t
 *
 s
 UErrorCode
@@ -2200,7 +2199,7 @@ status
 )
 {
 const
-UChar
+char16_t
 *
 pooledString
 ;
@@ -2221,7 +2220,7 @@ pooledString
 =
 static_cast
 <
-UChar
+char16_t
 *
 >
 (
@@ -2237,7 +2236,7 @@ if
 pooledString
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -2310,7 +2309,7 @@ if
 fChunks
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -2330,7 +2329,7 @@ fNext
 oldChunk
 ;
 }
-UChar
+char16_t
 *
 destString
 =
@@ -2378,7 +2377,7 @@ destString
 ;
 }
 const
-UChar
+char16_t
 *
 ZNStringPool
 :
@@ -2386,7 +2385,7 @@ ZNStringPool
 adopt
 (
 const
-UChar
+char16_t
 *
 s
 UErrorCode
@@ -2395,7 +2394,7 @@ status
 )
 {
 const
-UChar
+char16_t
 *
 pooledString
 ;
@@ -2417,14 +2416,14 @@ if
 s
 !
 =
-NULL
+nullptr
 )
 {
 pooledString
 =
 static_cast
 <
-UChar
+char16_t
 *
 >
 (
@@ -2440,16 +2439,16 @@ if
 pooledString
 =
 =
-NULL
+nullptr
 )
 {
-UChar
+char16_t
 *
 ncs
 =
 const_cast
 <
-UChar
+char16_t
 *
 >
 (
@@ -2472,7 +2471,7 @@ s
 ;
 }
 const
-UChar
+char16_t
 *
 ZNStringPool
 :
@@ -2531,7 +2530,7 @@ fHash
 ;
 fHash
 =
-NULL
+nullptr
 ;
 }
 class
@@ -2671,7 +2670,7 @@ UTZNM_UNKNOWN
 }
 }
 const
-UChar
+char16_t
 *
 fNames
 [
@@ -2687,13 +2686,13 @@ fOwnsLocationName
 ZNames
 (
 const
-UChar
+char16_t
 *
 names
 [
 ]
 const
-UChar
+char16_t
 *
 locationName
 )
@@ -2718,7 +2717,7 @@ if
 locationName
 !
 =
-NULL
+nullptr
 )
 {
 fOwnsLocationName
@@ -2754,7 +2753,7 @@ fOwnsLocationName
 )
 {
 const
-UChar
+char16_t
 *
 locationName
 =
@@ -2768,7 +2767,7 @@ U_ASSERT
 locationName
 !
 =
-NULL
+nullptr
 )
 ;
 uprv_free
@@ -2793,7 +2792,7 @@ UHashtable
 *
 cache
 const
-UChar
+char16_t
 *
 names
 [
@@ -2816,7 +2815,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 U_ASSERT
@@ -2824,7 +2823,7 @@ U_ASSERT
 names
 !
 =
-NULL
+nullptr
 )
 ;
 void
@@ -2885,7 +2884,7 @@ new
 ZNames
 (
 names
-NULL
+nullptr
 )
 )
 ;
@@ -2894,7 +2893,7 @@ if
 value
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -2902,7 +2901,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -2928,7 +2927,7 @@ UHashtable
 *
 cache
 const
-UChar
+char16_t
 *
 names
 [
@@ -2951,7 +2950,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 U_ASSERT
@@ -2959,14 +2958,14 @@ U_ASSERT
 names
 !
 =
-NULL
+nullptr
 )
 ;
-UChar
+char16_t
 *
 locationName
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2976,7 +2975,7 @@ UTZNM_INDEX_EXEMPLAR_LOCATION
 ]
 =
 =
-NULL
+nullptr
 )
 {
 UnicodeString
@@ -3003,7 +3002,7 @@ length
 )
 {
 const
-UChar
+char16_t
 *
 buff
 =
@@ -3018,7 +3017,7 @@ len
 =
 sizeof
 (
-UChar
+char16_t
 )
 *
 (
@@ -3034,7 +3033,7 @@ length
 locationName
 =
 (
-UChar
+char16_t
 *
 )
 uprv_malloc
@@ -3047,7 +3046,7 @@ if
 locationName
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -3055,7 +3054,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 uprv_memcpy
@@ -3105,7 +3104,7 @@ if
 value
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -3113,7 +3112,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 uhash_put
@@ -3130,7 +3129,7 @@ value
 ;
 }
 const
-UChar
+char16_t
 *
 getName
 (
@@ -3158,14 +3157,14 @@ fNames
 index
 ]
 :
-NULL
+nullptr
 ;
 }
 void
 addAsMetaZoneIntoTrie
 (
 const
-UChar
+char16_t
 *
 mzID
 TextTrieMap
@@ -3179,7 +3178,7 @@ status
 addNamesIntoTrie
 (
 mzID
-NULL
+nullptr
 trie
 status
 )
@@ -3189,7 +3188,7 @@ void
 addAsTimeZoneIntoTrie
 (
 const
-UChar
+char16_t
 *
 tzID
 TextTrieMap
@@ -3202,7 +3201,7 @@ status
 {
 addNamesIntoTrie
 (
-NULL
+nullptr
 tzID
 trie
 status
@@ -3213,11 +3212,11 @@ void
 addNamesIntoTrie
 (
 const
-UChar
+char16_t
 *
 mzID
 const
-UChar
+char16_t
 *
 tzID
 TextTrieMap
@@ -3268,7 +3267,7 @@ i
 )
 {
 const
-UChar
+char16_t
 *
 name
 =
@@ -3282,7 +3281,7 @@ if
 name
 !
 =
-NULL
+nullptr
 )
 {
 ZNameInfo
@@ -3306,7 +3305,7 @@ if
 nameinfo
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -3383,7 +3382,7 @@ public
 ResourceSink
 {
 const
-UChar
+char16_t
 *
 names
 [
@@ -3523,7 +3522,7 @@ i
 =
 =
 (
-UChar
+char16_t
 )
 0x2F
 )
@@ -3534,7 +3533,7 @@ setCharAt
 (
 i
 (
-UChar
+char16_t
 )
 0x3A
 )
@@ -3596,7 +3595,7 @@ U_ASSERT
 zoneStrings
 !
 =
-NULL
+nullptr
 )
 ;
 U_ASSERT
@@ -3604,7 +3603,7 @@ U_ASSERT
 key
 !
 =
-NULL
+nullptr
 )
 ;
 U_ASSERT
@@ -3696,7 +3695,7 @@ type
 ]
 =
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -3711,7 +3710,7 @@ type
 value
 =
 =
-NULL
+nullptr
 )
 ?
 NO_NAME
@@ -3799,7 +3798,7 @@ isNoInheritanceMarker
 setNameIfEmpty
 (
 key
-NULL
+nullptr
 errorCode
 )
 ;
@@ -3983,7 +3982,7 @@ UTZNM_INDEX_UNKNOWN
 ;
 }
 const
-UChar
+char16_t
 *
 *
 getNames
@@ -4022,7 +4021,7 @@ names
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -4084,14 +4083,12 @@ UClassID
 U_EXPORT2
 getStaticClassID
 (
-void
 )
 ;
 virtual
 UClassID
 getDynamicClassID
 (
-void
 )
 const
 override
@@ -4171,11 +4168,11 @@ fPos
 )
 fMetaZoneIDs
 (
-NULL
+nullptr
 )
 fLocalVector
 (
-NULL
+nullptr
 )
 {
 }
@@ -4201,7 +4198,7 @@ mzIDs
 )
 fLocalVector
 (
-NULL
+nullptr
 )
 {
 fLen
@@ -4297,7 +4294,7 @@ status
 fMetaZoneIDs
 !
 =
-NULL
+nullptr
 &
 &
 fPos
@@ -4311,7 +4308,7 @@ setTo
 (
 (
 const
-UChar
+char16_t
 *
 )
 fMetaZoneIDs
@@ -4333,7 +4330,7 @@ unistr
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 void
@@ -4458,7 +4455,7 @@ fMaxMatchLen
 )
 fResults
 (
-NULL
+nullptr
 )
 {
 }
@@ -4475,7 +4472,7 @@ if
 fResults
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -4569,7 +4566,7 @@ if
 nameinfo
 =
 =
-NULL
+nullptr
 )
 {
 continue
@@ -4595,7 +4592,7 @@ if
 fResults
 =
 =
-NULL
+nullptr
 )
 {
 fResults
@@ -4613,7 +4610,7 @@ if
 fResults
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -4635,7 +4632,7 @@ U_ASSERT
 fResults
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -4758,7 +4755,7 @@ fMaxMatchLen
 ;
 fResults
 =
-NULL
+nullptr
 ;
 fMaxMatchLen
 =
@@ -4833,15 +4830,15 @@ locale
 )
 fZoneStrings
 (
-NULL
+nullptr
 )
 fTZNamesMap
 (
-NULL
+nullptr
 )
 fMZNamesMap
 (
-NULL
+nullptr
 )
 fNamesTrieFullyLoaded
 (
@@ -4945,7 +4942,7 @@ uhash_open
 (
 uhash_hashUChars
 uhash_compareUChars
-NULL
+nullptr
 &
 status
 )
@@ -4956,7 +4953,7 @@ uhash_open
 (
 uhash_hashUChars
 uhash_compareUChars
-NULL
+nullptr
 &
 status
 )
@@ -5000,7 +4997,7 @@ createDefault
 )
 ;
 const
-UChar
+char16_t
 *
 tzID
 =
@@ -5018,7 +5015,7 @@ if
 tzID
 !
 =
-NULL
+nullptr
 )
 {
 loadStrings
@@ -5113,7 +5110,7 @@ status
 )
 !
 =
-NULL
+nullptr
 )
 &
 &
@@ -5158,7 +5155,7 @@ if
 fZoneStrings
 !
 =
-NULL
+nullptr
 )
 {
 ures_close
@@ -5168,7 +5165,7 @@ fZoneStrings
 ;
 fZoneStrings
 =
-NULL
+nullptr
 ;
 }
 if
@@ -5176,7 +5173,7 @@ if
 fMZNamesMap
 !
 =
-NULL
+nullptr
 )
 {
 uhash_close
@@ -5186,7 +5183,7 @@ fMZNamesMap
 ;
 fMZNamesMap
 =
-NULL
+nullptr
 ;
 }
 if
@@ -5194,7 +5191,7 @@ if
 fTZNamesMap
 !
 =
-NULL
+nullptr
 )
 {
 uhash_close
@@ -5204,7 +5201,7 @@ fTZNamesMap
 ;
 fTZNamesMap
 =
-NULL
+nullptr
 ;
 }
 }
@@ -5308,7 +5305,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
@@ -5328,7 +5325,7 @@ if
 mzIDs
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -5400,7 +5397,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
@@ -5421,7 +5418,7 @@ if
 mappings
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -5446,7 +5443,7 @@ mzIDs
 new
 UVector
 (
-NULL
+nullptr
 uhash_compareUChars
 status
 )
@@ -5514,7 +5511,7 @@ i
 )
 ;
 const
-UChar
+char16_t
 *
 mzID
 =
@@ -5775,7 +5772,7 @@ ZNames
 *
 znames
 =
-NULL
+nullptr
 ;
 TimeZoneNamesImpl
 *
@@ -5832,11 +5829,11 @@ if
 znames
 !
 =
-NULL
+nullptr
 )
 {
 const
-UChar
+char16_t
 *
 s
 =
@@ -5853,7 +5850,7 @@ if
 s
 !
 =
-NULL
+nullptr
 )
 {
 name
@@ -5914,7 +5911,7 @@ ZNames
 *
 tznames
 =
-NULL
+nullptr
 ;
 TimeZoneNamesImpl
 *
@@ -5971,11 +5968,11 @@ if
 tznames
 !
 =
-NULL
+nullptr
 )
 {
 const
-UChar
+char16_t
 *
 s
 =
@@ -5992,7 +5989,7 @@ if
 s
 !
 =
-NULL
+nullptr
 )
 {
 name
@@ -6035,17 +6032,17 @@ setToBogus
 )
 ;
 const
-UChar
+char16_t
 *
 locName
 =
-NULL
+nullptr
 ;
 ZNames
 *
 tznames
 =
-NULL
+nullptr
 ;
 TimeZoneNamesImpl
 *
@@ -6102,7 +6099,7 @@ if
 tznames
 !
 =
-NULL
+nullptr
 )
 {
 locName
@@ -6121,7 +6118,7 @@ if
 locName
 !
 =
-NULL
+nullptr
 )
 {
 name
@@ -6290,7 +6287,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 U_ASSERT
@@ -6307,7 +6304,7 @@ ZID_KEY_MAX
 MZ_PREFIX_LEN
 )
 ;
-UChar
+char16_t
 mzIDKey
 [
 ZID_KEY_MAX
@@ -6360,7 +6357,7 @@ if
 mznames
 =
 =
-NULL
+nullptr
 )
 {
 ZNames
@@ -6404,7 +6401,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -6427,7 +6424,7 @@ mznames
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -6456,7 +6453,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 U_ASSERT
@@ -6471,7 +6468,7 @@ length
 ZID_KEY_MAX
 )
 ;
-UChar
+char16_t
 tzIDKey
 [
 ZID_KEY_MAX
@@ -6523,7 +6520,7 @@ if
 tznames
 =
 =
-NULL
+nullptr
 )
 {
 ZNames
@@ -6567,7 +6564,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -6656,7 +6653,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -6664,7 +6661,7 @@ if
 matches
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -6698,7 +6695,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -6706,7 +6703,7 @@ if
 matches
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -6745,7 +6742,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -6808,7 +6805,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -6835,7 +6832,7 @@ if
 matches
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -6867,7 +6864,7 @@ delete
 matches
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -6916,7 +6913,7 @@ pos
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -6935,12 +6932,12 @@ EMPTY
 continue
 ;
 }
-UChar
+char16_t
 *
 mzID
 =
 (
-UChar
+char16_t
 *
 )
 element
@@ -7005,7 +7002,7 @@ pos
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -7024,12 +7021,12 @@ EMPTY
 continue
 ;
 }
-UChar
+char16_t
 *
 tzID
 =
 (
-UChar
+char16_t
 *
 )
 element
@@ -7160,7 +7157,7 @@ uhash_open
 (
 uhash_hashChars
 uhash_compareChars
-NULL
+nullptr
 &
 status
 )
@@ -7249,7 +7246,7 @@ if
 newKey
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -7257,7 +7254,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 uprv_memcpy
@@ -7470,7 +7467,7 @@ pos
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -7645,7 +7642,7 @@ if
 loader
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -7685,7 +7682,7 @@ if
 cacheVal
 !
 =
-NULL
+nullptr
 )
 {
 loader
@@ -7718,7 +7715,7 @@ if
 loader
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -7761,7 +7758,7 @@ if
 cacheVal
 !
 =
-NULL
+nullptr
 )
 {
 loader
@@ -7794,7 +7791,7 @@ if
 loader
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -8099,13 +8096,13 @@ void
 *
 tznames
 =
-NULL
+nullptr
 ;
 void
 *
 mznames
 =
-NULL
+nullptr
 ;
 TimeZoneNamesImpl
 *
@@ -8160,7 +8157,7 @@ U_ASSERT
 tznames
 !
 =
-NULL
+nullptr
 )
 ;
 for
@@ -8188,7 +8185,7 @@ i
 ]
 ;
 const
-UChar
+char16_t
 *
 name
 =
@@ -8211,7 +8208,7 @@ if
 name
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -8219,7 +8216,7 @@ if
 mznames
 =
 =
-NULL
+nullptr
 )
 {
 UnicodeString
@@ -8290,7 +8287,7 @@ if
 mznames
 =
 =
-NULL
+nullptr
 )
 {
 mznames
@@ -8309,7 +8306,7 @@ U_ASSERT
 mznames
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -8343,7 +8340,7 @@ if
 name
 !
 =
-NULL
+nullptr
 )
 {
 dest
@@ -8436,8 +8433,8 @@ TimeZone
 createTimeZoneIDEnumeration
 (
 UCAL_ZONE_TYPE_CANONICAL
-NULL
-NULL
+nullptr
+nullptr
 status
 )
 ;
@@ -8464,7 +8461,7 @@ status
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -8504,7 +8501,7 @@ if
 value
 =
 =
-NULL
+nullptr
 )
 {
 loadStrings
@@ -8522,7 +8519,7 @@ if
 tzIDs
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -8533,7 +8530,7 @@ tzIDs
 }
 static
 const
-UChar
+char16_t
 gEtcPrefix
 [
 ]
@@ -8554,7 +8551,7 @@ gEtcPrefixLen
 ;
 static
 const
-UChar
+char16_t
 gSystemVPrefix
 [
 ]
@@ -8579,7 +8576,7 @@ gSystemVPrefixLen
 ;
 static
 const
-UChar
+char16_t
 gRiyadh8
 [
 ]
@@ -8675,7 +8672,7 @@ tzID
 lastIndexOf
 (
 (
-UChar
+char16_t
 )
 0x2F
 )
@@ -8715,14 +8712,14 @@ findAndReplace
 UnicodeString
 (
 (
-UChar
+char16_t
 )
 0x5f
 )
 UnicodeString
 (
 (
-UChar
+char16_t
 )
 0x20
 )
@@ -8771,7 +8768,7 @@ key
 )
 ;
 const
-UChar
+char16_t
 *
 getName
 (
@@ -8797,7 +8794,7 @@ protected
 TZDBNames
 (
 const
-UChar
+char16_t
 *
 *
 names
@@ -8812,7 +8809,7 @@ numRegions
 private
 :
 const
-UChar
+char16_t
 *
 *
 fNames
@@ -8833,7 +8830,7 @@ TZDBNames
 TZDBNames
 (
 const
-UChar
+char16_t
 *
 *
 names
@@ -8872,7 +8869,7 @@ if
 fNames
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -8886,7 +8883,7 @@ if
 fRegions
 !
 =
-NULL
+nullptr
 )
 {
 char
@@ -8950,13 +8947,13 @@ if
 rb
 =
 =
-NULL
+nullptr
 |
 |
 key
 =
 =
-NULL
+nullptr
 |
 |
 *
@@ -8967,7 +8964,7 @@ key
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UErrorCode
@@ -8976,19 +8973,19 @@ status
 U_ZERO_ERROR
 ;
 const
-UChar
+char16_t
 *
 *
 names
 =
-NULL
+nullptr
 ;
 char
 *
 *
 regions
 =
-NULL
+nullptr
 ;
 int32_t
 numRegions
@@ -9004,7 +9001,7 @@ UResourceBundle
 *
 rbTable
 =
-NULL
+nullptr
 ;
 rbTable
 =
@@ -9026,14 +9023,14 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 names
 =
 (
 const
-UChar
+char16_t
 *
 *
 )
@@ -9042,7 +9039,7 @@ uprv_malloc
 sizeof
 (
 const
-UChar
+char16_t
 *
 )
 *
@@ -9059,7 +9056,7 @@ if
 names
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -9083,7 +9080,7 @@ status
 U_ZERO_ERROR
 ;
 const
-UChar
+char16_t
 *
 value
 =
@@ -9119,7 +9116,7 @@ names
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 else
@@ -9148,7 +9145,7 @@ if
 names
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -9158,7 +9155,7 @@ names
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 UResourceBundle
@@ -9171,7 +9168,7 @@ rbTable
 "
 parseRegions
 "
-NULL
+nullptr
 &
 status
 )
@@ -9226,7 +9223,7 @@ if
 regions
 !
 =
-NULL
+nullptr
 )
 {
 char
@@ -9258,7 +9255,7 @@ pRegion
 *
 pRegion
 =
-NULL
+nullptr
 ;
 }
 pRegion
@@ -9289,7 +9286,7 @@ status
 U_ZERO_ERROR
 ;
 const
-UChar
+char16_t
 *
 uregion
 =
@@ -9345,7 +9342,7 @@ if
 pRegion
 =
 =
-NULL
+nullptr
 )
 {
 regionError
@@ -9397,7 +9394,7 @@ if
 names
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -9411,7 +9408,7 @@ if
 regions
 !
 =
-NULL
+nullptr
 )
 {
 char
@@ -9454,7 +9451,7 @@ regions
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 return
@@ -9468,7 +9465,7 @@ numRegions
 ;
 }
 const
-UChar
+char16_t
 *
 TZDBNames
 :
@@ -9485,19 +9482,19 @@ if
 fNames
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
-UChar
+char16_t
 *
 name
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -9532,7 +9529,7 @@ default
 :
 name
 =
-NULL
+nullptr
 ;
 }
 return
@@ -9559,7 +9556,7 @@ if
 fRegions
 =
 =
-NULL
+nullptr
 )
 {
 numRegions
@@ -9590,7 +9587,7 @@ struct
 TZDBNameInfo
 {
 const
-UChar
+char16_t
 *
 mzID
 ;
@@ -9709,7 +9706,7 @@ fMaxMatchLen
 )
 fResults
 (
-NULL
+nullptr
 )
 fRegion
 (
@@ -9730,7 +9727,7 @@ if
 fResults
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -9771,13 +9768,13 @@ TZDBNameInfo
 *
 match
 =
-NULL
+nullptr
 ;
 TZDBNameInfo
 *
 defaultRegionMatch
 =
-NULL
+nullptr
 ;
 if
 (
@@ -9836,7 +9833,7 @@ if
 ninfo
 =
 =
-NULL
+nullptr
 )
 {
 continue
@@ -9865,7 +9862,7 @@ ninfo
 parseRegions
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -9873,7 +9870,7 @@ if
 defaultRegionMatch
 =
 =
-NULL
+nullptr
 )
 {
 match
@@ -9960,7 +9957,7 @@ if
 match
 =
 =
-NULL
+nullptr
 )
 {
 match
@@ -9976,7 +9973,7 @@ if
 match
 !
 =
-NULL
+nullptr
 )
 {
 UTimeZoneNameType
@@ -10039,7 +10036,7 @@ if
 fResults
 =
 =
-NULL
+nullptr
 )
 {
 fResults
@@ -10057,7 +10054,7 @@ if
 fResults
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -10079,7 +10076,7 @@ U_ASSERT
 fResults
 !
 =
-NULL
+nullptr
 )
 ;
 U_ASSERT
@@ -10090,7 +10087,7 @@ match
 mzID
 !
 =
-NULL
+nullptr
 )
 ;
 fResults
@@ -10167,7 +10164,7 @@ fMaxMatchLen
 ;
 fResults
 =
-NULL
+nullptr
 ;
 fMaxMatchLen
 =
@@ -10221,7 +10218,7 @@ uhash_open
 (
 uhash_hashUChars
 uhash_compareUChars
-NULL
+nullptr
 &
 status
 )
@@ -10236,7 +10233,7 @@ status
 {
 gTZDBNamesMap
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -10269,7 +10266,7 @@ if
 obj
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -10314,7 +10311,7 @@ if
 gTZDBNamesTrie
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -10404,14 +10401,14 @@ if
 names
 =
 =
-NULL
+nullptr
 )
 {
 continue
 ;
 }
 const
-UChar
+char16_t
 *
 std
 =
@@ -10424,7 +10421,7 @@ UTZNM_SHORT_STANDARD
 )
 ;
 const
-UChar
+char16_t
 *
 dst
 =
@@ -10441,13 +10438,13 @@ if
 std
 =
 =
-NULL
+nullptr
 &
 &
 dst
 =
 =
-NULL
+nullptr
 )
 {
 continue
@@ -10479,13 +10476,13 @@ ambiguousType
 std
 !
 =
-NULL
+nullptr
 &
 &
 dst
 !
 =
-NULL
+nullptr
 &
 &
 u_strcmp
@@ -10499,7 +10496,7 @@ dst
 )
 ;
 const
-UChar
+char16_t
 *
 uMzID
 =
@@ -10517,7 +10514,7 @@ if
 std
 !
 =
-NULL
+nullptr
 )
 {
 TZDBNameInfo
@@ -10541,7 +10538,7 @@ if
 stdInf
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -10608,7 +10605,7 @@ status
 dst
 !
 =
-NULL
+nullptr
 )
 {
 TZDBNameInfo
@@ -10632,7 +10629,7 @@ if
 dstInf
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -10706,7 +10703,7 @@ gTZDBNamesTrie
 ;
 gTZDBNamesTrie
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -11129,11 +11126,11 @@ if
 tzdbNames
 !
 =
-NULL
+nullptr
 )
 {
 const
-UChar
+char16_t
 *
 s
 =
@@ -11150,7 +11147,7 @@ if
 s
 !
 =
-NULL
+nullptr
 )
 {
 name
@@ -11238,7 +11235,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 TZDBNameSearchHandler
@@ -11273,7 +11270,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -11324,16 +11321,16 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 TZDBNames
 *
 tzdbNames
 =
-NULL
+nullptr
 ;
-UChar
+char16_t
 mzIDKey
 [
 ZID_KEY_MAX
@@ -11397,7 +11394,7 @@ if
 cacheVal
 =
 =
-NULL
+nullptr
 )
 {
 UResourceBundle
@@ -11463,7 +11460,7 @@ if
 tzdbNames
 =
 =
-NULL
+nullptr
 )
 {
 cacheVal
@@ -11503,7 +11500,7 @@ if
 newKey
 !
 =
-NULL
+nullptr
 )
 {
 uhash_put
@@ -11528,7 +11525,7 @@ if
 tzdbNames
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -11536,7 +11533,7 @@ tzdbNames
 ;
 tzdbNames
 =
-NULL
+nullptr
 ;
 }
 }
@@ -11548,7 +11545,7 @@ if
 tzdbNames
 !
 =
-NULL
+nullptr
 )
 {
 delete
@@ -11556,7 +11553,7 @@ tzdbNames
 ;
 tzdbNames
 =
-NULL
+nullptr
 ;
 }
 }

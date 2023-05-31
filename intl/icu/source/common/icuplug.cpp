@@ -440,7 +440,7 @@ char
 *
 ret
 =
-NULL
+nullptr
 ;
 if
 (
@@ -452,7 +452,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 libEnt
@@ -518,7 +518,7 @@ void
 *
 lib
 =
-NULL
+nullptr
 ;
 if
 (
@@ -529,7 +529,7 @@ status
 )
 )
 return
-NULL
+nullptr
 ;
 libEntry
 =
@@ -597,7 +597,7 @@ libraryMax
 #
 endif
 return
-NULL
+nullptr
 ;
 }
 libraryList
@@ -660,7 +660,7 @@ libEntry
 lib
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -677,7 +677,7 @@ libEntry
 .
 lib
 =
-NULL
+nullptr
 ;
 libraryList
 [
@@ -1030,7 +1030,7 @@ if
 prior
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1068,7 +1068,7 @@ pastPlug
 )
 {
 return
-NULL
+nullptr
 ;
 }
 else
@@ -1101,7 +1101,7 @@ if
 plug
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -1401,7 +1401,7 @@ UPlugData
 *
 plug
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1413,7 +1413,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1430,7 +1430,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 plug
@@ -1533,14 +1533,14 @@ plug
 >
 lib
 =
-NULL
+nullptr
 ;
 plug
 -
 >
 entrypoint
 =
-NULL
+nullptr
 ;
 return
 plug
@@ -1589,7 +1589,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1597,7 +1597,7 @@ if
 config
 !
 =
-NULL
+nullptr
 )
 {
 uprv_strncpy
@@ -1629,7 +1629,7 @@ if
 symName
 !
 =
-NULL
+nullptr
 )
 {
 uprv_strncpy
@@ -1727,7 +1727,7 @@ plug
 >
 lib
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1821,7 +1821,7 @@ if
 plugToRemove
 !
 =
-NULL
+nullptr
 )
 {
 uplug_unloadPlug
@@ -1855,13 +1855,13 @@ UPlugData
 *
 cursor
 =
-NULL
+nullptr
 ;
 UPlugData
 *
 plugToRemove
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1882,7 +1882,7 @@ pluginList
 cursor
 !
 =
-NULL
+nullptr
 ;
 )
 {
@@ -1900,7 +1900,7 @@ plug
 ;
 cursor
 =
-NULL
+nullptr
 ;
 }
 else
@@ -2092,7 +2092,7 @@ status
 #
 else
 return
-NULL
+nullptr
 ;
 #
 endif
@@ -2198,7 +2198,7 @@ pluginCount
 )
 {
 return
-NULL
+nullptr
 ;
 }
 else
@@ -2259,7 +2259,7 @@ UPlugData
 *
 plug
 =
-NULL
+nullptr
 ;
 plug
 =
@@ -2294,7 +2294,7 @@ status
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -2324,8 +2324,8 @@ uplug_initPlugFromEntrypointAndLibrary
 (
 entrypoint
 config
-NULL
-NULL
+nullptr
+nullptr
 status
 )
 ;
@@ -2388,7 +2388,7 @@ status
 )
 )
 return
-NULL
+nullptr
 ;
 plug
 -
@@ -2416,7 +2416,7 @@ if
 sym
 !
 =
-NULL
+nullptr
 )
 {
 uprv_strncpy
@@ -2435,7 +2435,7 @@ if
 libName
 !
 =
-NULL
+nullptr
 )
 {
 uprv_strncpy
@@ -2454,7 +2454,7 @@ if
 nameOrError
 !
 =
-NULL
+nullptr
 )
 {
 uprv_strncpy
@@ -2473,7 +2473,7 @@ if
 config
 !
 =
-NULL
+nullptr
 )
 {
 uprv_strncpy
@@ -2517,13 +2517,13 @@ void
 *
 lib
 =
-NULL
+nullptr
 ;
 UPlugData
 *
 plug
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2535,7 +2535,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 lib
@@ -2551,7 +2551,7 @@ if
 lib
 !
 =
-NULL
+nullptr
 &
 &
 U_SUCCESS
@@ -2565,7 +2565,7 @@ UPlugEntrypoint
 *
 entrypoint
 =
-NULL
+nullptr
 ;
 entrypoint
 =
@@ -2585,7 +2585,7 @@ if
 entrypoint
 !
 =
-NULL
+nullptr
 &
 &
 U_SUCCESS
@@ -2611,7 +2611,7 @@ if
 plug
 !
 =
-NULL
+nullptr
 &
 &
 U_SUCCESS
@@ -2630,7 +2630,7 @@ lib
 ;
 lib
 =
-NULL
+nullptr
 ;
 }
 }
@@ -2660,7 +2660,7 @@ entrypoint
 lib
 =
 =
-NULL
+nullptr
 )
 ?
 U_MISSING_RESOURCE_ERROR
@@ -2677,7 +2677,7 @@ if
 lib
 !
 =
-NULL
+nullptr
 )
 {
 UErrorCode
@@ -2720,7 +2720,7 @@ library
 lib
 =
 =
-NULL
+nullptr
 )
 ?
 U_MISSING_RESOURCE_ERROR
@@ -2763,7 +2763,7 @@ UPlugData
 *
 plug
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2775,7 +2775,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 plug
@@ -2822,7 +2822,6 @@ UBool
 U_CALLCONV
 uplug_cleanup
 (
-void
 )
 {
 int32_t
@@ -3207,7 +3206,7 @@ plugin_file
 #
 else
 return
-NULL
+nullptr
 ;
 #
 endif
@@ -3265,7 +3264,7 @@ if
 env
 !
 =
-NULL
+nullptr
 )
 {
 plugin_dir
@@ -3600,7 +3599,7 @@ iscics
 {
 f
 =
-NULL
+nullptr
 ;
 }
 else
@@ -3627,7 +3626,7 @@ if
 f
 !
 =
-NULL
+nullptr
 )
 {
 char
@@ -3642,15 +3641,15 @@ p
 *
 libName
 =
-NULL
+nullptr
 *
 symName
 =
-NULL
+nullptr
 *
 config
 =
-NULL
+nullptr
 ;
 int32_t
 line
@@ -3901,7 +3900,7 @@ if
 config
 !
 =
-NULL
+nullptr
 &
 &
 *

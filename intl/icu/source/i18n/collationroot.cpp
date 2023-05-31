@@ -115,7 +115,7 @@ CollationCacheEntry
 *
 rootSingleton
 =
-NULL
+nullptr
 ;
 static
 UInitOnce
@@ -174,7 +174,7 @@ UDataMemory
 *
 rDataMem
 =
-NULL
+nullptr
 ;
 if
 (
@@ -185,7 +185,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -233,7 +233,7 @@ CollationDataReader
 :
 isAcceptable
 (
-NULL
+nullptr
 "
 icu
 "
@@ -267,7 +267,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 rDataMem
@@ -306,7 +306,7 @@ errorCode
 U_INVALID_FORMAT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 errorCode
@@ -314,7 +314,7 @@ errorCode
 U_MISSING_RESOURCE_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -353,7 +353,7 @@ t
 new
 CollationTailoring
 (
-NULL
+nullptr
 )
 )
 ;
@@ -459,7 +459,7 @@ CollationDataReader
 :
 read
 (
-NULL
+nullptr
 inBytes
 udata_getLength
 (
@@ -515,7 +515,7 @@ if
 entry
 !
 =
-NULL
+nullptr
 )
 {
 t
@@ -564,7 +564,7 @@ char
 *
 >
 (
-NULL
+nullptr
 )
 errorCode
 )
@@ -578,7 +578,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -612,7 +612,7 @@ char
 *
 >
 (
-NULL
+nullptr
 )
 errorCode
 )
@@ -626,7 +626,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -668,7 +668,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -710,7 +710,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return

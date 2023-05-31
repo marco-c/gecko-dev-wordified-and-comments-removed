@@ -120,7 +120,6 @@ virtual
 int32_t
 getMaximumContextLength
 (
-void
 )
 const
 ;

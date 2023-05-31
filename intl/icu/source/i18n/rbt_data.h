@@ -81,7 +81,7 @@ variables
 UBool
 variablesAreOwned
 ;
-UChar
+char16_t
 variablesBase
 ;
 int32_t

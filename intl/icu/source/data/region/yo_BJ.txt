@@ -970,6 +970,13 @@ Countries
 %
 short
 {
+GB
+{
+"
+G
+s
+"
+}
 PS
 {
 "
@@ -977,6 +984,13 @@ Pal
 s
 t
 n
+"
+}
+US
+{
+"
+Am
+rik
 "
 }
 }
@@ -1004,7 +1018,6 @@ m
 TR
 {
 "
-d
 T
 ki
 "

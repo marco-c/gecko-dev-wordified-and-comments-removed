@@ -5,7 +5,7 @@ by
 aclocal
 1
 .
-15
+16
 .
 1
 -
@@ -22,7 +22,7 @@ C
 )
 1996
 -
-2017
+2018
 Free
 Software
 Foundation
@@ -745,6 +745,8 @@ config
 0
 .
 29
+.
+1
 )
 dnl
 dnl
@@ -1141,6 +1143,8 @@ PKG_MACROS_VERSION
 0
 .
 29
+.
+1
 ]
 )
 m4_if
@@ -1656,7 +1660,7 @@ only
 at
 the
 first
-occurrence
+occurence
 in
 configure
 .

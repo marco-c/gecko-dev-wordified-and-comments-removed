@@ -4294,6 +4294,15 @@ GB
 )
 "
 }
+en_US
+{
+"
+Englisch
+(
+USA
+)
+"
+}
 }
 Languages
 %

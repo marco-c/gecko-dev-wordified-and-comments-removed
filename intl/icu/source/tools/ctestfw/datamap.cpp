@@ -76,7 +76,7 @@ ch
 ]
 ;
 const
-UChar
+char16_t
 *
 u
 =
@@ -288,7 +288,7 @@ UResourceBundle
 *
 t
 =
-NULL
+nullptr
 ;
 for
 (
@@ -383,14 +383,14 @@ UResourceBundle
 *
 t
 =
-NULL
+nullptr
 ;
 const
-UChar
+char16_t
 *
 key
 =
-NULL
+nullptr
 ;
 int32_t
 keyLen
@@ -513,7 +513,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UnicodeString
@@ -547,7 +547,7 @@ if
 r
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -561,7 +561,7 @@ status
 U_MISSING_RESOURCE_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -778,7 +778,7 @@ status
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -836,7 +836,7 @@ status
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -953,7 +953,7 @@ count
 )
 {
 return
-NULL
+nullptr
 ;
 }
 UnicodeString
@@ -1003,7 +1003,7 @@ result
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1070,7 +1070,7 @@ count
 )
 {
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -1130,7 +1130,7 @@ result
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }

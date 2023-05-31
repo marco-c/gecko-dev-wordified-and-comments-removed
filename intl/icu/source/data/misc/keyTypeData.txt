@@ -390,15 +390,6 @@ true
 "
 }
 }
-tz
-{
-camtr
-{
-"
-true
-"
-}
-}
 }
 }
 typeMap

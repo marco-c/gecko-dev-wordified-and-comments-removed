@@ -1608,6 +1608,15 @@ hi
 Hindis
 "
 }
+hi_Latn
+{
+"
+Hindis
+(
+Laideann
+)
+"
+}
 hif
 {
 "

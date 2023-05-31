@@ -89,7 +89,7 @@ char
 *
 >
 (
-NULL
+nullptr
 )
 static_cast
 <

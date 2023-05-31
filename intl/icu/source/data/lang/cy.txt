@@ -1378,6 +1378,15 @@ hi
 Hindi
 "
 }
+hi_Latn
+{
+"
+Hindi
+(
+Lladin
+)
+"
+}
 hil
 {
 "

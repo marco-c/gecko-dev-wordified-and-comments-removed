@@ -240,7 +240,7 @@ new
 (
 size_t
 )
-U_NOEXCEPT
+noexcept
 =
 delete
 ;
@@ -255,7 +255,7 @@ new
 (
 size_t
 )
-U_NOEXCEPT
+noexcept
 =
 delete
 ;
@@ -273,7 +273,7 @@ size_t
 void
 *
 )
-U_NOEXCEPT
+noexcept
 =
 delete
 ;

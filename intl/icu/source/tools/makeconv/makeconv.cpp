@@ -235,7 +235,7 @@ if
 data
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -246,7 +246,7 @@ data
 cnvData
 !
 =
-NULL
+nullptr
 )
 {
 data
@@ -268,7 +268,7 @@ data
 >
 cnvData
 =
-NULL
+nullptr
 ;
 }
 if
@@ -279,7 +279,7 @@ data
 extData
 !
 =
-NULL
+nullptr
 )
 {
 data
@@ -301,7 +301,7 @@ data
 >
 extData
 =
-NULL
+nullptr
 ;
 }
 ucm_close
@@ -317,7 +317,7 @@ data
 >
 ucm
 =
-NULL
+nullptr
 ;
 }
 }
@@ -405,7 +405,7 @@ U_IS_BIG_ENDIAN
 U_CHARSET_FAMILY
 sizeof
 (
-UChar
+char16_t
 )
 0
 {
@@ -452,7 +452,7 @@ UNewDataMemory
 *
 mem
 =
-NULL
+nullptr
 ;
 uint32_t
 sz2
@@ -489,7 +489,7 @@ data
 cnvData
 !
 =
-NULL
+nullptr
 )
 {
 tableType
@@ -506,7 +506,7 @@ data
 extData
 !
 =
-NULL
+nullptr
 )
 {
 tableType
@@ -530,7 +530,7 @@ haveCopyright
 ?
 U_COPYRIGHT_STRING
 :
-NULL
+nullptr
 status
 )
 ;
@@ -805,9 +805,9 @@ UOPTION_VERBOSE
 "
 small
 "
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 '
 \
 1
@@ -823,9 +823,9 @@ siso
 -
 check
 "
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 '
 \
 1
@@ -1401,7 +1401,7 @@ if
 destdir
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -1586,7 +1586,7 @@ if
 sourcedir
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -1925,7 +1925,7 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 p
@@ -1941,7 +1941,7 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 p
@@ -2329,7 +2329,7 @@ int32_t
 uprv_strtoul
 (
 name
-NULL
+nullptr
 10
 )
 ;
@@ -2849,7 +2849,7 @@ if
 prototype
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -3208,7 +3208,7 @@ if
 convFile
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -3287,7 +3287,7 @@ false
 ;
 baseStates
 =
-NULL
+nullptr
 ;
 }
 ucm_readTable
@@ -3671,7 +3671,7 @@ data
 cnvData
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -3987,7 +3987,7 @@ data
 extData
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -4182,7 +4182,7 @@ data
 extData
 =
 =
-NULL
+nullptr
 )
 {
 *

@@ -84,7 +84,7 @@ Hashtable
 class
 U_I18N_API
 DateFormatSymbols
-U_FINAL
+final
 :
 public
 UObject

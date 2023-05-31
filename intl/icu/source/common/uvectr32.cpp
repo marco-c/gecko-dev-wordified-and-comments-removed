@@ -52,7 +52,7 @@ maxCapacity
 )
 elements
 (
-NULL
+nullptr
 )
 {
 _init
@@ -793,7 +793,6 @@ UVector32
 :
 removeAllElements
 (
-void
 )
 {
 count
@@ -1104,7 +1103,7 @@ if
 newElems
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -1222,7 +1221,7 @@ if
 newElems
 =
 =
-NULL
+nullptr
 )
 {
 return

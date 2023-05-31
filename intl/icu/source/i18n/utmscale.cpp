@@ -498,7 +498,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -568,6 +568,7 @@ UErrorCode
 *
 status
 )
+UPRV_NO_SANITIZE_UNDEFINED
 {
 const
 int64_t
@@ -579,7 +580,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -689,6 +690,7 @@ UErrorCode
 *
 status
 )
+UPRV_NO_SANITIZE_UNDEFINED
 {
 const
 int64_t
@@ -700,7 +702,7 @@ if
 status
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE

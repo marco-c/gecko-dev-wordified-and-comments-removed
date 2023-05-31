@@ -227,7 +227,7 @@ U_IS_BIG_ENDIAN
 U_CHARSET_FAMILY
 sizeof
 (
-UChar
+char16_t
 )
 0
 {
@@ -342,7 +342,6 @@ val
 UBool
 getIncludeCopyright
 (
-void
 )
 {
 return
@@ -438,7 +437,7 @@ line
 )
 fNext
 (
-NULL
+nullptr
 )
 {
 ustr_init
@@ -493,7 +492,7 @@ fKey
 bundle
 !
 =
-NULL
+nullptr
 ?
 bundle
 -
@@ -518,7 +517,7 @@ line
 )
 fNext
 (
-NULL
+nullptr
 )
 {
 ustr_init
@@ -532,7 +531,7 @@ if
 comment
 !
 =
-NULL
+nullptr
 )
 {
 ustr_cpy
@@ -580,7 +579,7 @@ while
 current
 !
 =
-NULL
+nullptr
 )
 {
 SResource
@@ -637,7 +636,7 @@ errorCode
 res
 =
 =
-NULL
+nullptr
 |
 |
 res
@@ -666,7 +665,7 @@ if
 fFirst
 =
 =
-NULL
+nullptr
 )
 {
 fFirst
@@ -678,7 +677,7 @@ res
 >
 fNext
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -708,14 +707,14 @@ SResource
 *
 prev
 =
-NULL
+nullptr
 ;
 while
 (
 current
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -802,7 +801,7 @@ if
 prev
 =
 =
-NULL
+nullptr
 )
 {
 fFirst
@@ -878,7 +877,7 @@ res
 >
 fNext
 =
-NULL
+nullptr
 ;
 }
 ArrayResource
@@ -906,7 +905,7 @@ if
 res
 !
 =
-NULL
+nullptr
 &
 &
 res
@@ -921,7 +920,7 @@ if
 fFirst
 =
 =
-NULL
+nullptr
 )
 {
 fFirst
@@ -974,7 +973,7 @@ if
 res
 !
 =
-NULL
+nullptr
 &
 &
 res
@@ -1016,7 +1015,7 @@ tag
 int8_t
 type
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -1129,9 +1128,9 @@ errorCode
 SResource
 (
 bundle
-NULL
+nullptr
 type
-NULL
+nullptr
 errorCode
 )
 fString
@@ -1202,7 +1201,7 @@ StringBaseResource
 int8_t
 type
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -1214,10 +1213,10 @@ errorCode
 :
 SResource
 (
-NULL
-NULL
+nullptr
+nullptr
 type
-NULL
+nullptr
 errorCode
 )
 fString
@@ -1481,7 +1480,7 @@ if
 fArray
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1644,11 +1643,11 @@ length
 )
 fData
 (
-NULL
+nullptr
 )
 fFileName
 (
-NULL
+nullptr
 )
 {
 if
@@ -1667,7 +1666,7 @@ if
 fileName
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -1695,7 +1694,7 @@ if
 fFileName
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1732,7 +1731,7 @@ if
 fData
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -1814,7 +1813,7 @@ assert
 fSame
 =
 =
-NULL
+nullptr
 )
 ;
 fSame
@@ -1837,7 +1836,7 @@ if
 fSame
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1954,7 +1953,7 @@ fString
 indexOf
 (
 (
-UChar
+char16_t
 )
 0
 )
@@ -2044,7 +2043,7 @@ fFirst
 current
 !
 =
-NULL
+nullptr
 ;
 current
 =
@@ -2256,7 +2255,7 @@ if
 map
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2370,7 +2369,7 @@ fSame
 )
 !
 =
-NULL
+nullptr
 )
 {
 assert
@@ -2428,7 +2427,7 @@ fFirst
 current
 !
 =
-NULL
+nullptr
 ;
 current
 =
@@ -2446,7 +2445,7 @@ f16BitUnits
 append
 (
 (
-UChar
+char16_t
 )
 current
 -
@@ -2514,7 +2513,7 @@ fFirst
 current
 !
 =
-NULL
+nullptr
 ;
 current
 =
@@ -2583,7 +2582,7 @@ f16BitUnits
 append
 (
 (
-UChar
+char16_t
 )
 fCount
 )
@@ -2654,7 +2653,7 @@ fFirst
 current
 !
 =
-NULL
+nullptr
 ;
 current
 =
@@ -2760,7 +2759,7 @@ f16BitUnits
 append
 (
 (
-UChar
+char16_t
 )
 fCount
 )
@@ -2776,7 +2775,7 @@ fFirst
 current
 !
 =
-NULL
+nullptr
 ;
 current
 =
@@ -2794,7 +2793,7 @@ f16BitUnits
 append
 (
 (
-UChar
+char16_t
 )
 current
 -
@@ -3175,7 +3174,7 @@ fFirst
 current
 !
 =
-NULL
+nullptr
 ;
 current
 =
@@ -3450,7 +3449,7 @@ fFirst
 current
 !
 =
-NULL
+nullptr
 ;
 +
 +
@@ -3507,7 +3506,7 @@ fFirst
 current
 !
 =
-NULL
+nullptr
 ;
 current
 =
@@ -3772,7 +3771,7 @@ fFirst
 current
 !
 =
-NULL
+nullptr
 ;
 current
 =
@@ -3849,7 +3848,7 @@ fFirst
 current
 !
 =
-NULL
+nullptr
 ;
 current
 =
@@ -4008,7 +4007,7 @@ UNewDataMemory
 *
 mem
 =
-NULL
+nullptr
 ;
 uint32_t
 byteOffset
@@ -4124,7 +4123,7 @@ errorCode
 fUsePoolBundle
 !
 =
-NULL
+nullptr
 &
 &
 fUsePoolBundle
@@ -4133,7 +4132,7 @@ fUsePoolBundle
 fStrings
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -4153,7 +4152,7 @@ fFirst
 current
 !
 =
-NULL
+nullptr
 ;
 current
 =
@@ -4216,7 +4215,7 @@ else
 {
 stringSet
 =
-NULL
+nullptr
 ;
 }
 if
@@ -4394,7 +4393,7 @@ f16BitUnits
 append
 (
 (
-UChar
+char16_t
 )
 0xaaaa
 )
@@ -4501,7 +4500,7 @@ if
 outputPkg
 !
 =
-NULL
+nullptr
 )
 {
 uprv_strcpy
@@ -4670,7 +4669,7 @@ true
 ?
 U_COPYRIGHT_STRING
 :
-NULL
+nullptr
 &
 errorCode
 )
@@ -5265,7 +5264,7 @@ orphan
 (
 )
 :
-NULL
+nullptr
 ;
 }
 ArrayResource
@@ -5322,7 +5321,7 @@ orphan
 (
 )
 :
-NULL
+nullptr
 ;
 }
 struct
@@ -5339,7 +5338,7 @@ char
 *
 tag
 const
-UChar
+char16_t
 *
 value
 int32_t
@@ -5388,7 +5387,7 @@ orphan
 (
 )
 :
-NULL
+nullptr
 ;
 }
 struct
@@ -5404,7 +5403,7 @@ const
 char
 *
 tag
-UChar
+char16_t
 *
 value
 int32_t
@@ -5453,7 +5452,7 @@ orphan
 (
 )
 :
-NULL
+nullptr
 ;
 }
 IntVectorResource
@@ -5510,7 +5509,7 @@ orphan
 (
 )
 :
-NULL
+nullptr
 ;
 }
 struct
@@ -5571,7 +5570,7 @@ orphan
 (
 )
 :
-NULL
+nullptr
 ;
 }
 struct
@@ -5641,7 +5640,7 @@ orphan
 (
 )
 :
-NULL
+nullptr
 ;
 }
 SRBRoot
@@ -5662,11 +5661,11 @@ errorCode
 :
 fRoot
 (
-NULL
+nullptr
 )
 fLocale
 (
-NULL
+nullptr
 )
 fIndexLength
 (
@@ -5690,11 +5689,11 @@ isPoolBundle
 )
 fKeys
 (
-NULL
+nullptr
 )
 fKeyMap
 (
-NULL
+nullptr
 )
 fKeysBottom
 (
@@ -5742,7 +5741,7 @@ fLocalStringIndexLimit
 )
 fWritePoolBundle
 (
-NULL
+nullptr
 )
 {
 if
@@ -5768,7 +5767,7 @@ f16BitUnits
 append
 (
 (
-UChar
+char16_t
 )
 0
 )
@@ -5813,7 +5812,7 @@ new
 TableResource
 (
 this
-NULL
+nullptr
 comment
 errorCode
 )
@@ -5824,13 +5823,13 @@ if
 fKeys
 =
 =
-NULL
+nullptr
 |
 |
 fRoot
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -5987,7 +5986,7 @@ SRBRoot
 :
 setLocale
 (
-UChar
+char16_t
 *
 locale
 UErrorCode
@@ -6039,7 +6038,7 @@ if
 fLocale
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -6129,7 +6128,7 @@ fKey
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -6221,7 +6220,7 @@ length
 keyBytes
 =
 =
-NULL
+nullptr
 &
 &
 length
@@ -6294,7 +6293,7 @@ if
 fKeys
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -6356,7 +6355,7 @@ if
 tag
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -6818,7 +6817,7 @@ fFirst
 curr
 !
 =
-NULL
+nullptr
 ;
 curr
 =
@@ -6944,7 +6943,7 @@ errorCode
 fKeyMap
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -6971,7 +6970,7 @@ if
 map
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -7523,7 +7522,7 @@ sizeof
 KeyMapEntry
 )
 compareKeyNewpos
-NULL
+nullptr
 false
 &
 errorCode
@@ -7681,7 +7680,7 @@ sizeof
 KeyMapEntry
 )
 compareKeyOldpos
-NULL
+nullptr
 false
 &
 errorCode
@@ -7701,7 +7700,7 @@ map
 ;
 map
 =
-NULL
+nullptr
 ;
 }
 }
@@ -7763,7 +7762,7 @@ r
 )
 ;
 const
-UChar
+char16_t
 *
 lStart
 =
@@ -7775,7 +7774,7 @@ getBuffer
 )
 ;
 const
-UChar
+char16_t
 *
 lLimit
 =
@@ -7789,7 +7788,7 @@ length
 )
 ;
 const
-UChar
+char16_t
 *
 rStart
 =
@@ -7801,7 +7800,7 @@ getBuffer
 )
 ;
 const
-UChar
+char16_t
 *
 rLimit
 =
@@ -7941,7 +7940,7 @@ left
 fSame
 !
 =
-NULL
+nullptr
 )
 -
 (
@@ -7954,7 +7953,7 @@ right
 fSame
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -8092,7 +8091,7 @@ dest
 append
 (
 (
-UChar
+char16_t
 )
 (
 0xdc00
@@ -8111,7 +8110,7 @@ dest
 append
 (
 (
-UChar
+char16_t
 )
 (
 0xdfef
@@ -8130,7 +8129,7 @@ dest
 append
 (
 (
-UChar
+char16_t
 )
 len
 )
@@ -8145,7 +8144,7 @@ dest
 append
 (
 (
-UChar
+char16_t
 )
 0xdfff
 )
@@ -8155,7 +8154,7 @@ dest
 append
 (
 (
-UChar
+char16_t
 )
 (
 len
@@ -8170,7 +8169,7 @@ dest
 append
 (
 (
-UChar
+char16_t
 )
 len
 )
@@ -8194,7 +8193,7 @@ dest
 append
 (
 (
-UChar
+char16_t
 )
 0
 )
@@ -8320,7 +8319,7 @@ SResource
 *
 )
 compareStringSuffixes
-NULL
+nullptr
 false
 &
 errorCode
@@ -8608,7 +8607,7 @@ SResource
 *
 )
 compareStringLengths
-NULL
+nullptr
 false
 &
 errorCode
@@ -8938,7 +8937,7 @@ i
 fSame
 =
 =
-NULL
+nullptr
 ;
 +
 +
@@ -9019,7 +9018,7 @@ if
 fWritePoolBundle
 !
 =
-NULL
+nullptr
 &
 &
 gFormatVersion
@@ -9064,7 +9063,7 @@ i
 fSame
 =
 =
-NULL
+nullptr
 ;
 +
 +
@@ -9110,7 +9109,7 @@ if
 poolString
 =
 =
-NULL
+nullptr
 )
 {
 errorCode

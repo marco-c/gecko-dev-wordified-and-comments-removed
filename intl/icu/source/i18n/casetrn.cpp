@@ -461,7 +461,7 @@ UnicodeString
 tmp
 ;
 const
-UChar
+char16_t
 *
 s
 ;

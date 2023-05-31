@@ -121,7 +121,7 @@ BreakTransliterator
 )
 static
 const
-UChar
+char16_t
 SPACE
 =
 32
@@ -151,11 +151,11 @@ adoptedFilter
 )
 cachedBI
 (
-NULL
+nullptr
 )
 cachedBoundaries
 (
-NULL
+nullptr
 )
 fInsertion
 (
@@ -189,11 +189,11 @@ o
 )
 cachedBI
 (
-NULL
+nullptr
 )
 cachedBoundaries
 (
-NULL
+nullptr
 )
 fInsertion
 (
@@ -785,7 +785,7 @@ if
 rs
 !
 =
-NULL
+nullptr
 )
 {
 s

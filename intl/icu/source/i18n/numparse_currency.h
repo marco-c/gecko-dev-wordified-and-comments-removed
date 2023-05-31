@@ -145,7 +145,7 @@ override
 ;
 private
 :
-UChar
+char16_t
 fCurrencyCode
 [
 4

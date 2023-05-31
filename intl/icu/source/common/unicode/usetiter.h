@@ -44,7 +44,7 @@ UnicodeString
 class
 U_COMMON_API
 UnicodeSetIterator
-U_FINAL
+final
 :
 public
 UObject

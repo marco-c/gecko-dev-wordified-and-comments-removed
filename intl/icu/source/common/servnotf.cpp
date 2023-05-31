@@ -53,12 +53,11 @@ ICUNotifier
 :
 ICUNotifier
 (
-void
 )
 :
 listeners
 (
-NULL
+nullptr
 )
 {
 }
@@ -68,7 +67,6 @@ ICUNotifier
 ~
 ICUNotifier
 (
-void
 )
 {
 {
@@ -84,7 +82,7 @@ listeners
 ;
 listeners
 =
-NULL
+nullptr
 ;
 }
 }
@@ -116,7 +114,7 @@ if
 l
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -147,7 +145,7 @@ if
 listeners
 =
 =
-NULL
+nullptr
 )
 {
 LocalPointer
@@ -314,7 +312,7 @@ if
 l
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -337,7 +335,7 @@ if
 listeners
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -416,7 +414,7 @@ listeners
 ;
 listeners
 =
-NULL
+nullptr
 ;
 }
 return
@@ -433,7 +431,6 @@ ICUNotifier
 :
 notifyChanged
 (
-void
 )
 {
 Mutex
@@ -448,7 +445,7 @@ if
 listeners
 !
 =
-NULL
+nullptr
 )
 {
 for

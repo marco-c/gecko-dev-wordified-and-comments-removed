@@ -253,10 +253,10 @@ struct
 int32_t
 length
 ;
-UChar
+char16_t
 nul
 ;
-UChar
+char16_t
 pad
 ;
 }
@@ -1293,8 +1293,8 @@ if
 isAcceptable
 (
 formatVersion
-NULL
-NULL
+nullptr
+nullptr
 pInfo
 )
 )
@@ -1413,7 +1413,7 @@ pResData
 data
 !
 =
-NULL
+nullptr
 )
 {
 udata_close
@@ -1429,7 +1429,7 @@ pResData
 >
 data
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1484,7 +1484,7 @@ res
 }
 U_CAPI
 const
-UChar
+char16_t
 *
 U_EXPORT2
 res_getStringNoTrace
@@ -1501,7 +1501,7 @@ pLength
 )
 {
 const
-UChar
+char16_t
 *
 p
 ;
@@ -1547,7 +1547,7 @@ p
 =
 (
 const
-UChar
+char16_t
 *
 )
 pResData
@@ -1564,7 +1564,7 @@ p
 =
 (
 const
-UChar
+char16_t
 *
 )
 pResData
@@ -1726,7 +1726,7 @@ p
 =
 (
 const
-UChar
+char16_t
 *
 )
 p32
@@ -1736,7 +1736,7 @@ else
 {
 p
 =
-NULL
+nullptr
 ;
 length
 =
@@ -1816,13 +1816,13 @@ length
 p32
 ;
 const
-UChar
+char16_t
 *
 p
 =
 (
 const
-UChar
+char16_t
 *
 )
 p32
@@ -1874,7 +1874,7 @@ URES_STRING_V2
 )
 {
 const
-UChar
+char16_t
 *
 p
 ;
@@ -1895,7 +1895,7 @@ p
 =
 (
 const
-UChar
+char16_t
 *
 )
 pResData
@@ -1912,7 +1912,7 @@ p
 =
 (
 const
-UChar
+char16_t
 *
 )
 pResData
@@ -2064,7 +2064,7 @@ if
 dest
 =
 =
-NULL
+nullptr
 ?
 capacity
 !
@@ -2140,7 +2140,7 @@ int32_t
 sLength
 ;
 const
-UChar
+char16_t
 *
 s
 =
@@ -2163,7 +2163,7 @@ if
 s
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -2194,7 +2194,7 @@ length
 }
 U_CAPI
 const
-UChar
+char16_t
 *
 U_EXPORT2
 res_getAlias
@@ -2211,7 +2211,7 @@ pLength
 )
 {
 const
-UChar
+char16_t
 *
 p
 ;
@@ -2270,7 +2270,7 @@ p
 =
 (
 const
-UChar
+char16_t
 *
 )
 p32
@@ -2280,7 +2280,7 @@ else
 {
 p
 =
-NULL
+nullptr
 ;
 length
 =
@@ -2393,7 +2393,7 @@ else
 {
 p
 =
-NULL
+nullptr
 ;
 length
 =
@@ -2494,7 +2494,7 @@ else
 {
 p
 =
-NULL
+nullptr
 ;
 length
 =
@@ -2667,7 +2667,7 @@ res
 ;
 }
 const
-UChar
+char16_t
 *
 ResourceDataValue
 :
@@ -2692,11 +2692,11 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
-UChar
+char16_t
 *
 s
 =
@@ -2717,7 +2717,7 @@ if
 s
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -2730,7 +2730,7 @@ s
 ;
 }
 const
-UChar
+char16_t
 *
 ResourceDataValue
 :
@@ -2755,11 +2755,11 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
-UChar
+char16_t
 *
 s
 =
@@ -2779,7 +2779,7 @@ if
 s
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -2913,7 +2913,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
@@ -2938,7 +2938,7 @@ if
 iv
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -2976,7 +2976,7 @@ errorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
@@ -3001,7 +3001,7 @@ if
 b
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -3044,14 +3044,14 @@ uint16_t
 *
 items16
 =
-NULL
+nullptr
 ;
 const
 Resource
 *
 items32
 =
-NULL
+nullptr
 ;
 uint32_t
 offset
@@ -3185,28 +3185,28 @@ uint16_t
 *
 keys16
 =
-NULL
+nullptr
 ;
 const
 int32_t
 *
 keys32
 =
-NULL
+nullptr
 ;
 const
 uint16_t
 *
 items16
 =
-NULL
+nullptr
 ;
 const
 Resource
 *
 items32
 =
-NULL
+nullptr
 ;
 uint32_t
 offset
@@ -3500,7 +3500,7 @@ if
 dest
 =
 =
-NULL
+nullptr
 ?
 capacity
 !
@@ -3539,7 +3539,7 @@ int32_t
 sLength
 ;
 const
-UChar
+char16_t
 *
 s
 =
@@ -3560,7 +3560,7 @@ if
 s
 !
 =
-NULL
+nullptr
 )
 {
 dest
@@ -3618,7 +3618,7 @@ int32_t
 sLength
 ;
 const
-UChar
+char16_t
 *
 s
 =
@@ -3639,7 +3639,7 @@ if
 s
 !
 =
-NULL
+nullptr
 )
 {
 us
@@ -3713,7 +3713,7 @@ if
 s
 !
 =
-NULL
+nullptr
 )
 {
 us
@@ -3827,14 +3827,14 @@ if
 key
 =
 =
-NULL
+nullptr
 |
 |
 *
 key
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -4208,7 +4208,7 @@ if
 key
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -4270,7 +4270,7 @@ if
 key
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -4345,7 +4345,7 @@ if
 key
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -4907,7 +4907,7 @@ if
 items16
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -5049,7 +5049,7 @@ char
 *
 closeIndex
 =
-NULL
+nullptr
 ;
 Resource
 t1
@@ -5135,7 +5135,7 @@ if
 nextSepP
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -5254,7 +5254,7 @@ RES_BOGUS
 *
 key
 =
-NULL
+nullptr
 ;
 }
 else
@@ -5414,7 +5414,7 @@ gUnknownKey
 ;
 static
 const
-UChar
+char16_t
 gCollationBinKey
 [
 ]
@@ -5695,7 +5695,7 @@ if
 key
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -5829,7 +5829,7 @@ pKey32
 =
 qKey32
 =
-NULL
+nullptr
 ;
 ds
 -
@@ -5895,7 +5895,7 @@ pKey16
 =
 qKey16
 =
-NULL
+nullptr
 ;
 ds
 -
@@ -5971,7 +5971,7 @@ if
 pKey16
 !
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -6141,7 +6141,7 @@ if
 pKey16
 !
 =
-NULL
+nullptr
 )
 {
 ds
@@ -6200,7 +6200,7 @@ if
 pKey16
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -6367,7 +6367,7 @@ if
 pKey16
 !
 =
-NULL
+nullptr
 )
 {
 uint16_t
@@ -6726,7 +6726,7 @@ ds
 inBundle
 outBundle
 item
-NULL
+nullptr
 pTempTable
 pErrorCode
 )
@@ -6922,7 +6922,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -7574,7 +7574,7 @@ tempTable
 resFlags
 =
 =
-NULL
+nullptr
 )
 {
 udata_printError
@@ -7840,7 +7840,7 @@ tempTable
 rows
 =
 =
-NULL
+nullptr
 )
 {
 udata_printError
@@ -7921,7 +7921,7 @@ ds
 inBundle
 outBundle
 rootRes
-NULL
+nullptr
 &
 tempTable
 pErrorCode

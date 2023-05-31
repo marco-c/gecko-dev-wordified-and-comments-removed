@@ -76,7 +76,7 @@ bundle
 (
 ures_open
 (
-NULL
+nullptr
 locale
 .
 getName

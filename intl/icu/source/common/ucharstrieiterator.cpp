@@ -86,7 +86,7 @@ value_
 )
 stack_
 (
-NULL
+nullptr
 )
 {
 if
@@ -113,7 +113,7 @@ if
 stack_
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -185,7 +185,7 @@ value_
 )
 stack_
 (
-NULL
+nullptr
 )
 {
 if
@@ -223,7 +223,7 @@ if
 stack_
 =
 =
-NULL
+nullptr
 )
 {
 errorCode
@@ -399,7 +399,7 @@ return
 pos_
 !
 =
-NULL
+nullptr
 |
 |
 !
@@ -438,7 +438,7 @@ false
 ;
 }
 const
-UChar
+char16_t
 *
 pos
 =
@@ -449,7 +449,7 @@ if
 pos
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -558,7 +558,7 @@ if
 pos
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -705,7 +705,7 @@ maxLength_
 {
 pos_
 =
-NULL
+nullptr
 ;
 }
 else
@@ -788,7 +788,7 @@ if
 pos
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -862,7 +862,7 @@ length
 }
 }
 const
-UChar
+char16_t
 *
 UCharsTrie
 :
@@ -873,7 +873,7 @@ Iterator
 branchNext
 (
 const
-UChar
+char16_t
 *
 pos
 int32_t
@@ -956,7 +956,7 @@ pos
 )
 ;
 }
-UChar
+char16_t
 trieUnit
 =
 *
@@ -1059,14 +1059,14 @@ isFinal
 {
 pos_
 =
-NULL
+nullptr
 ;
 value_
 =
 value
 ;
 return
-NULL
+nullptr
 ;
 }
 else

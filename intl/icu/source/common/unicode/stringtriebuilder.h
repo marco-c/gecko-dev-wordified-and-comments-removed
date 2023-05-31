@@ -414,7 +414,7 @@ return
 node
 =
 =
-NULL
+nullptr
 ?
 0
 :
@@ -953,7 +953,7 @@ equal
 length
 ]
 =
-NULL
+nullptr
 ;
 values
 [

@@ -849,7 +849,7 @@ if
 s
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -956,7 +956,7 @@ UText
 fUText
 ;
 const
-UChar
+char16_t
 *
 fFoldChars
 ;
@@ -979,7 +979,7 @@ public
 CaseFoldingUCharIterator
 (
 const
-UChar
+char16_t
 *
 chars
 int64_t
@@ -1011,7 +1011,7 @@ getIndex
 private
 :
 const
-UChar
+char16_t
 *
 fChars
 ;
@@ -1022,7 +1022,7 @@ int64_t
 fLimit
 ;
 const
-UChar
+char16_t
 *
 fFoldChars
 ;

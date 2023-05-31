@@ -60,7 +60,7 @@ CharsetMatch
 :
 textIn
 (
-NULL
+nullptr
 )
 confidence
 (
@@ -68,11 +68,11 @@ confidence
 )
 fCharsetName
 (
-NULL
+nullptr
 )
 fLang
 (
-NULL
+nullptr
 )
 {
 }
@@ -122,7 +122,7 @@ if
 cr
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -130,7 +130,7 @@ if
 fCharsetName
 =
 =
-NULL
+nullptr
 )
 {
 fCharsetName
@@ -148,7 +148,7 @@ if
 fLang
 =
 =
-NULL
+nullptr
 )
 {
 fLang
@@ -212,7 +212,7 @@ CharsetMatch
 :
 getUChars
 (
-UChar
+char16_t
 *
 buf
 int32_t

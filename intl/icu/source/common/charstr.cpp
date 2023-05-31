@@ -67,7 +67,7 @@ CharString
 &
 src
 )
-U_NOEXCEPT
+noexcept
 :
 buffer
 (
@@ -108,7 +108,7 @@ CharString
 &
 src
 )
-U_NOEXCEPT
+noexcept
 {
 buffer
 =
@@ -673,7 +673,7 @@ sLength
 s
 =
 =
-NULL
+nullptr
 &
 &
 sLength
@@ -1097,7 +1097,7 @@ resultCapacity
 0
 ;
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -1180,7 +1180,7 @@ resultCapacity
 0
 ;
 return
-NULL
+nullptr
 ;
 }
 CharString
@@ -1224,7 +1224,7 @@ CharString
 appendInvariantChars
 (
 const
-UChar
+char16_t
 *
 uchars
 int32_t
@@ -1388,7 +1388,7 @@ len
 )
 =
 =
-NULL
+nullptr
 )
 &
 &
@@ -1403,7 +1403,7 @@ len
 )
 =
 =
-NULL
+nullptr
 )
 {
 errorCode

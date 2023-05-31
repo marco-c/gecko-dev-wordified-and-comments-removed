@@ -93,14 +93,14 @@ LAST_TRAILING
 ;
 static
 const
-UChar
+char16_t
 POS_LEAD
 =
 0xfffe
 ;
 static
 const
-UChar
+char16_t
 POS_BASE
 =
 0x2800

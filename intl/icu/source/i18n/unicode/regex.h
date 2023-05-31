@@ -102,7 +102,7 @@ UVector64
 class
 U_I18N_API
 RegexPattern
-U_FINAL
+final
 :
 public
 UObject
@@ -608,7 +608,7 @@ endif
 class
 U_I18N_API
 RegexMatcher
-U_FINAL
+final
 :
 public
 UObject

@@ -198,7 +198,7 @@ args
 offsets
 !
 =
-NULL
+nullptr
 )
 {
 \
@@ -413,7 +413,7 @@ cnv
 extraInfo
 !
 =
-NULL
+nullptr
 )
 {
 (
@@ -467,7 +467,7 @@ cnv
 extraInfo
 !
 =
-NULL
+nullptr
 )
 {
 ucnv_close
@@ -512,7 +512,7 @@ cnv
 >
 extraInfo
 =
-NULL
+nullptr
 ;
 }
 }
@@ -558,7 +558,7 @@ cnv
 extraInfo
 !
 =
-NULL
+nullptr
 )
 {
 (
@@ -625,7 +625,7 @@ cnv
 extraInfo
 !
 =
-NULL
+nullptr
 )
 {
 (
@@ -728,7 +728,7 @@ args
 >
 source
 ;
-UChar
+char16_t
 *
 myTarget
 =
@@ -898,7 +898,7 @@ myTarget
 )
 =
 (
-UChar
+char16_t
 )
 mySourceChar
 ;
@@ -1427,7 +1427,7 @@ mySourceChar
 targetUniChar
 =
 (
-UChar
+char16_t
 )
 mySourceChar
 ;
@@ -1512,7 +1512,7 @@ myTarget
 )
 =
 (
-UChar
+char16_t
 )
 targetUniChar
 ;
@@ -1669,7 +1669,7 @@ err
 )
 {
 const
-UChar
+char16_t
 *
 mySource
 =
@@ -1789,7 +1789,7 @@ char
 *
 escSeq
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1835,7 +1835,7 @@ targetLength
 mySourceChar
 =
 (
-UChar
+char16_t
 )
 mySource
 [
@@ -2366,11 +2366,11 @@ mySourceIndex
 mySourceLength
 )
 {
-UChar
+char16_t
 trail
 =
 (
-UChar
+char16_t
 )
 args
 -
@@ -2878,8 +2878,8 @@ _HZImpl
 =
 {
 UCNV_HZ
-NULL
-NULL
+nullptr
+nullptr
 _HZOpen
 _HZClose
 _HZReset
@@ -2887,14 +2887,14 @@ UConverter_toUnicode_HZ_OFFSETS_LOGIC
 UConverter_toUnicode_HZ_OFFSETS_LOGIC
 UConverter_fromUnicode_HZ_OFFSETS_LOGIC
 UConverter_fromUnicode_HZ_OFFSETS_LOGIC
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 _HZ_WriteSub
 _HZ_SafeClone
 _HZ_GetUnicodeSet
-NULL
-NULL
+nullptr
+nullptr
 }
 ;
 static

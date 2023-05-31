@@ -146,7 +146,6 @@ static
 UBool
 japanese_calendar_cleanup
 (
-void
 )
 {
 if
@@ -218,7 +217,7 @@ U_PLATFORM_HAS_WINUWP_API
 =
 =
 1
-UChar
+char16_t
 varName
 [
 26
@@ -318,7 +317,7 @@ if
 envVarVal
 !
 =
-NULL
+nullptr
 &
 &
 uprv_stricmp
@@ -894,9 +893,8 @@ gJapaneseEraRules
 getEraIndex
 (
 year
-internalGet
+internalGetMonth
 (
-UCAL_MONTH
 )
 +
 1

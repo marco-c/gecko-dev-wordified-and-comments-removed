@@ -1661,6 +1661,17 @@ Kwacha
 "
 }
 }
+Currencies
+%
+narrow
+{
+BYN
+{
+"
+BYN
+"
+}
+}
 CurrencyPlurals
 {
 AED

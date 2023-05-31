@@ -238,7 +238,7 @@ trie
 data16
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -258,7 +258,7 @@ trie
 data32
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -339,7 +339,7 @@ trie
 data16
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -359,7 +359,7 @@ trie
 data32
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -412,7 +412,7 @@ trie
 data32
 =
 =
-NULL
+nullptr
 ?
 trie
 -
@@ -954,7 +954,7 @@ if
 trie
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1064,7 +1064,7 @@ trie
 >
 data32
 =
-NULL
+nullptr
 ;
 trie
 -
@@ -1105,7 +1105,7 @@ trie
 >
 data16
 =
-NULL
+nullptr
 ;
 trie
 -
@@ -1166,7 +1166,7 @@ if
 pActualLength
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1325,7 +1325,7 @@ if
 trie
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -1365,7 +1365,7 @@ trie
 memory
 =
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -1702,7 +1702,7 @@ trie
 >
 data32
 =
-NULL
+nullptr
 ;
 for
 (
@@ -1797,7 +1797,7 @@ trie
 >
 data16
 =
-NULL
+nullptr
 ;
 trie
 -
@@ -1904,7 +1904,7 @@ if
 trie
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1932,7 +1932,7 @@ trie
 newTrie
 !
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -2000,7 +2000,7 @@ trie
 newTrie
 =
 =
-NULL
+nullptr
 )
 ;
 }
@@ -2041,7 +2041,7 @@ if
 trie
 =
 =
-NULL
+nullptr
 |
 |
 trie
@@ -2050,7 +2050,7 @@ trie
 memory
 =
 =
-NULL
+nullptr
 |
 |
 trie
@@ -2059,7 +2059,7 @@ trie
 newTrie
 !
 =
-NULL
+nullptr
 |
 |
 capacity
@@ -2077,7 +2077,7 @@ capacity
 data
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -2241,7 +2241,7 @@ if
 enumRange
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2252,7 +2252,7 @@ if
 enumValue
 =
 =
-NULL
+nullptr
 )
 {
 enumValue
@@ -2268,7 +2268,7 @@ trie
 newTrie
 =
 =
-NULL
+nullptr
 )
 {
 idx
@@ -2283,7 +2283,7 @@ U_ASSERT
 idx
 !
 =
-NULL
+nullptr
 )
 ;
 data32
@@ -2312,7 +2312,7 @@ else
 {
 idx
 =
-NULL
+nullptr
 ;
 data32
 =
@@ -2329,7 +2329,7 @@ U_ASSERT
 data32
 !
 =
-NULL
+nullptr
 )
 ;
 index2NullOffset
@@ -2498,7 +2498,7 @@ if
 idx
 !
 =
-NULL
+nullptr
 )
 {
 i2Block
@@ -2698,7 +2698,7 @@ if
 idx
 !
 =
-NULL
+nullptr
 )
 {
 block
@@ -2843,7 +2843,7 @@ context
 data32
 !
 =
-NULL
+nullptr
 ?
 data32
 [
@@ -2936,7 +2936,7 @@ if
 idx
 !
 =
-NULL
+nullptr
 )
 {
 highValue
@@ -2944,7 +2944,7 @@ highValue
 data32
 !
 =
-NULL
+nullptr
 ?
 data32
 [

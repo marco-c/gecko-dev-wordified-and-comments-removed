@@ -82,7 +82,7 @@ current
 const
 {
 const
-UChar
+char16_t
 *
 pos
 =
@@ -93,7 +93,7 @@ if
 pos
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -229,7 +229,7 @@ UCharsTrie
 branchNext
 (
 const
-UChar
+char16_t
 *
 pos
 int32_t
@@ -523,7 +523,7 @@ UCharsTrie
 nextImpl
 (
 const
-UChar
+char16_t
 *
 pos
 int32_t
@@ -675,7 +675,7 @@ uchar
 )
 {
 const
-UChar
+char16_t
 *
 pos
 =
@@ -686,7 +686,7 @@ if
 pos
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -788,7 +788,7 @@ sLength
 )
 {
 const
-UChar
+char16_t
 *
 s
 =
@@ -819,7 +819,7 @@ current
 ;
 }
 const
-UChar
+char16_t
 *
 pos
 =
@@ -830,7 +830,7 @@ if
 pos
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1264,7 +1264,7 @@ kNodeTypeMask
 }
 }
 const
-UChar
+char16_t
 *
 UCharsTrie
 :
@@ -1272,7 +1272,7 @@ UCharsTrie
 findUniqueValueFromBranch
 (
 const
-UChar
+char16_t
 *
 pos
 int32_t
@@ -1297,7 +1297,7 @@ pos
 ;
 if
 (
-NULL
+nullptr
 =
 =
 findUniqueValueFromBranch
@@ -1316,7 +1316,7 @@ uniqueValue
 )
 {
 return
-NULL
+nullptr
 ;
 }
 length
@@ -1406,7 +1406,7 @@ uniqueValue
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1438,7 +1438,7 @@ uniqueValue
 )
 {
 return
-NULL
+nullptr
 ;
 }
 haveUniqueValue
@@ -1469,7 +1469,7 @@ UCharsTrie
 findUniqueValue
 (
 const
-UChar
+char16_t
 *
 pos
 UBool
@@ -1533,7 +1533,7 @@ if
 pos
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1689,7 +1689,7 @@ out
 const
 {
 const
-UChar
+char16_t
 *
 pos
 =
@@ -1700,7 +1700,7 @@ if
 pos
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -1836,7 +1836,7 @@ UCharsTrie
 getNextBranchUChars
 (
 const
-UChar
+char16_t
 *
 pos
 int32_t

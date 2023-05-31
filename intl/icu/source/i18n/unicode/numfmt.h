@@ -122,6 +122,14 @@ kRoundHalfEven
 kRoundHalfDown
 kRoundHalfUp
 kRoundUnnecessary
+#
+ifndef
+U_HIDE_DRAFT_API
+kRoundHalfOdd
+kRoundHalfCeiling
+kRoundHalfFloor
+#
+endif
 }
 ;
 enum

@@ -122,7 +122,7 @@ int32_t
 len
 ;
 const
-UChar
+char16_t
 *
 string
 ;
@@ -149,7 +149,7 @@ other
 )
 fDateTimeFormatter
 (
-NULL
+nullptr
 )
 fDatePattern
 (
@@ -165,7 +165,7 @@ fTimePattern
 )
 fCombinedFormat
 (
-NULL
+nullptr
 )
 fDateStyle
 (
@@ -187,7 +187,7 @@ fDatesLen
 )
 fDates
 (
-NULL
+nullptr
 )
 fCombinedHasDateAtStart
 (
@@ -215,7 +215,7 @@ fCapitalizationOfRelativeUnitsForStandAlone
 )
 fCapitalizationBrkIter
 (
-NULL
+nullptr
 )
 {
 if
@@ -225,7 +225,7 @@ other
 fDateTimeFormatter
 !
 =
-NULL
+nullptr
 )
 {
 fDateTimeFormatter
@@ -247,7 +247,7 @@ other
 fCombinedFormat
 !
 =
-NULL
+nullptr
 )
 {
 fCombinedFormat
@@ -323,7 +323,7 @@ other
 fCapitalizationBrkIter
 !
 =
-NULL
+nullptr
 )
 {
 fCapitalizationBrkIter
@@ -366,7 +366,7 @@ DateFormat
 )
 fDateTimeFormatter
 (
-NULL
+nullptr
 )
 fDatePattern
 (
@@ -376,7 +376,7 @@ fTimePattern
 )
 fCombinedFormat
 (
-NULL
+nullptr
 )
 fDateStyle
 (
@@ -392,7 +392,7 @@ fDatesLen
 )
 fDates
 (
-NULL
+nullptr
 )
 fCombinedHasDateAtStart
 (
@@ -412,7 +412,7 @@ false
 )
 fCapitalizationBrkIter
 (
-NULL
+nullptr
 )
 {
 if
@@ -505,7 +505,7 @@ if
 fDateTimeFormatter
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -560,7 +560,7 @@ if
 sdf
 !
 =
-NULL
+nullptr
 )
 {
 sdf
@@ -606,7 +606,7 @@ if
 fDateTimeFormatter
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -630,7 +630,7 @@ fTimePattern
 }
 initializeCalendar
 (
-NULL
+nullptr
 locale
 status
 )
@@ -773,11 +773,11 @@ false
 }
 static
 const
-UChar
+char16_t
 APOSTROPHE
 =
 (
-UChar
+char16_t
 )
 0x0027
 ;
@@ -832,7 +832,7 @@ len
 0
 ;
 const
-UChar
+char16_t
 *
 theString
 =
@@ -855,7 +855,7 @@ status
 theString
 !
 =
-NULL
+nullptr
 )
 )
 {
@@ -898,7 +898,7 @@ isEmpty
 fCombinedFormat
 =
 =
-NULL
+nullptr
 |
 |
 fCombinedHasDateAtStart
@@ -925,7 +925,7 @@ char32At
 fCapitalizationBrkIter
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -1035,7 +1035,7 @@ isEmpty
 fCombinedFormat
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -1291,7 +1291,7 @@ isEmpty
 fCombinedFormat
 =
 =
-NULL
+nullptr
 )
 {
 UBool
@@ -1329,7 +1329,7 @@ n
 string
 !
 =
-NULL
+nullptr
 &
 &
 text
@@ -1508,7 +1508,7 @@ n
 string
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -1835,7 +1835,7 @@ status
 ;
 }
 const
-UChar
+char16_t
 *
 RelativeDateFormat
 :
@@ -1862,7 +1862,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 int
@@ -1906,7 +1906,7 @@ n
 string
 !
 =
-NULL
+nullptr
 )
 {
 len
@@ -1929,7 +1929,7 @@ string
 }
 }
 return
-NULL
+nullptr
 ;
 }
 UnicodeString
@@ -1993,7 +1993,7 @@ isEmpty
 fCombinedFormat
 =
 =
-NULL
+nullptr
 )
 {
 result
@@ -2242,7 +2242,7 @@ if
 fCapitalizationBrkIter
 =
 =
-NULL
+nullptr
 &
 &
 (
@@ -2303,7 +2303,7 @@ fCapitalizationBrkIter
 ;
 fCapitalizationBrkIter
 =
-NULL
+nullptr
 ;
 }
 }
@@ -2336,7 +2336,7 @@ localeID
 thelocale
 !
 =
-NULL
+nullptr
 )
 ?
 thelocale
@@ -2345,7 +2345,7 @@ getBaseName
 (
 )
 :
-NULL
+nullptr
 ;
 UErrorCode
 status
@@ -2357,7 +2357,7 @@ rb
 (
 ures_open
 (
-NULL
+nullptr
 localeID
 &
 status
@@ -2396,7 +2396,7 @@ status
 rb
 !
 =
-NULL
+nullptr
 )
 {
 int32_t
@@ -2433,7 +2433,7 @@ status
 intVector
 !
 =
-NULL
+nullptr
 &
 &
 len
@@ -2538,7 +2538,7 @@ i
 .
 string
 =
-NULL
+nullptr
 ;
 fDatesPtr
 [
@@ -2646,7 +2646,7 @@ n
 string
 =
 =
-NULL
+nullptr
 )
 {
 fDatesPtr
@@ -2699,7 +2699,7 @@ RelDateFmtDataSink
 }
 static
 const
-UChar
+char16_t
 patItem1
 [
 ]
@@ -2734,7 +2734,7 @@ rb
 =
 ures_open
 (
-NULL
+nullptr
 fLocale
 .
 getBaseName
@@ -2761,7 +2761,7 @@ DateTimePatterns
 UResourceBundle
 *
 )
-NULL
+nullptr
 &
 status
 )
@@ -2857,7 +2857,7 @@ offsetIncrement
 }
 }
 const
-UChar
+char16_t
 *
 resStr
 =
@@ -3049,7 +3049,7 @@ status
 fCalendar
 =
 =
-NULL
+nullptr
 )
 {
 status

@@ -472,9 +472,6 @@ pLength
 if
 !
 UCONFIG_NO_FORMATTING
-#
-ifndef
-U_HIDE_DRAFT_API
 U_CAPI
 void
 U_EXPORT2
@@ -517,8 +514,6 @@ UErrorCode
 pErrorCode
 )
 ;
-#
-endif
 #
 endif
 U_CAPI

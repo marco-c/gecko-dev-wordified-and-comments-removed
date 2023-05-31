@@ -1793,7 +1793,8 @@ Tonga
 TR
 {
 "
-Turkey
+T
+rkiye
 "
 }
 TT
@@ -2110,13 +2111,6 @@ TL
 "
 East
 Timor
-"
-}
-TR
-{
-"
-T
-rkiye
 "
 }
 }

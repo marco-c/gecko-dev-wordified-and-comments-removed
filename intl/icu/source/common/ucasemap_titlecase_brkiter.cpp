@@ -291,7 +291,7 @@ if
 iter
 =
 =
-NULL
+nullptr
 )
 {
 utext_close
@@ -499,7 +499,7 @@ csm
 iter
 =
 =
-NULL
+nullptr
 )
 {
 LocalPointer
@@ -595,7 +595,7 @@ destCapacity
 src
 srcLength
 ucasemap_internalUTF8ToTitle
-NULL
+nullptr
 *
 pErrorCode
 )

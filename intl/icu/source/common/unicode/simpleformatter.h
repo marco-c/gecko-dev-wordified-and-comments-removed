@@ -40,7 +40,7 @@ SimpleModifier
 class
 U_COMMON_API
 SimpleFormatter
-U_FINAL
+final
 :
 public
 UMemory

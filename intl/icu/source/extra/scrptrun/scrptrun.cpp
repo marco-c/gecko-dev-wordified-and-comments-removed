@@ -446,7 +446,7 @@ scriptEnd
 1
 )
 {
-UChar
+char16_t
 high
 =
 charArray
@@ -480,7 +480,7 @@ charLimit
 1
 )
 {
-UChar
+char16_t
 low
 =
 charArray

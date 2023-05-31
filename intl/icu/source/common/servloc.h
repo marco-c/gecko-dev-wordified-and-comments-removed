@@ -1042,7 +1042,6 @@ StringEnumeration
 *
 getAvailableLocales
 (
-void
 )
 const
 ;

@@ -202,7 +202,7 @@ public
 UCharsDictionaryMatcher
 (
 const
-UChar
+char16_t
 *
 c
 UDataMemory
@@ -264,7 +264,7 @@ override
 private
 :
 const
-UChar
+char16_t
 *
 characters
 ;

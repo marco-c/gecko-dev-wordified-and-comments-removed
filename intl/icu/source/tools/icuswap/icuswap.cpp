@@ -534,7 +534,7 @@ if
 pname
 =
 =
-NULL
+nullptr
 )
 {
 pname
@@ -556,7 +556,7 @@ if
 pname
 !
 =
-NULL
+nullptr
 )
 {
 +
@@ -731,11 +731,11 @@ in
 =
 out
 =
-NULL
+nullptr
 ;
 data
 =
-NULL
+nullptr
 ;
 in
 =
@@ -755,7 +755,7 @@ if
 in
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -860,7 +860,7 @@ if
 data
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -966,7 +966,7 @@ in
 ;
 in
 =
-NULL
+nullptr
 ;
 errorCode
 =
@@ -1286,7 +1286,7 @@ if
 out
 =
 =
-NULL
+nullptr
 )
 {
 fprintf
@@ -1382,7 +1382,7 @@ out
 ;
 out
 =
-NULL
+nullptr
 ;
 rc
 =
@@ -1395,7 +1395,7 @@ if
 in
 !
 =
-NULL
+nullptr
 )
 {
 fclose
@@ -1409,7 +1409,7 @@ if
 out
 !
 =
-NULL
+nullptr
 )
 {
 fclose
@@ -1423,7 +1423,7 @@ if
 data
 !
 =
-NULL
+nullptr
 )
 {
 free
@@ -1813,7 +1813,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -2183,7 +2183,7 @@ inBytes
 offset
 -
 1
-NULL
+nullptr
 pErrorCode
 )
 ;
@@ -2702,7 +2702,7 @@ if
 table
 !
 =
-NULL
+nullptr
 )
 {
 outBytes
@@ -2761,7 +2761,7 @@ if
 table
 =
 =
-NULL
+nullptr
 )
 {
 udata_printError

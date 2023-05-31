@@ -105,13 +105,13 @@ char
 *
 buffer
 =
-NULL
+nullptr
 ;
 char
 *
 tmpFlagBuffer
 =
-NULL
+nullptr
 ;
 UBool
 allocateMoreSpace
@@ -144,7 +144,7 @@ if
 f
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -193,13 +193,13 @@ if
 buffer
 =
 =
-NULL
+nullptr
 |
 |
 tmpFlagBuffer
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -253,7 +253,7 @@ if
 buffer
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -288,7 +288,7 @@ currentBufferSize
 )
 =
 =
-NULL
+nullptr
 )
 {
 break
@@ -410,7 +410,7 @@ if
 flagNames
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -698,7 +698,7 @@ if
 flagNames
 !
 =
-NULL
+nullptr
 &
 &
 offset

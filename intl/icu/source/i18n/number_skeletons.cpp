@@ -5513,7 +5513,7 @@ return
 ;
 }
 const
-UChar
+char16_t
 *
 currencyCode
 =

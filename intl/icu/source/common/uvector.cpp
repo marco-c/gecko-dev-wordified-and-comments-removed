@@ -1397,7 +1397,6 @@ UVector
 :
 removeAllElements
 (
-void
 )
 {
 if

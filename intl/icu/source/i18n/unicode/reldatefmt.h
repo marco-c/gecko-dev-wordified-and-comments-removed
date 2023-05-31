@@ -200,14 +200,14 @@ FormattedRelativeDateTime
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 virtual
 ~
 FormattedRelativeDateTime
 (
 )
-U_OVERRIDE
+override
 ;
 FormattedRelativeDateTime
 (
@@ -240,7 +240,7 @@ FormattedRelativeDateTime
 &
 src
 )
-U_NOEXCEPT
+noexcept
 ;
 UnicodeString
 toString
@@ -250,7 +250,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 UnicodeString
 toTempString
@@ -260,7 +260,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 Appendable
 &
@@ -274,7 +274,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 UBool
 nextPosition
@@ -287,7 +287,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 private
 :

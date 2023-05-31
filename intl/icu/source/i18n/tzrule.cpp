@@ -368,7 +368,6 @@ TimeZoneRule
 :
 getRawOffset
 (
-void
 )
 const
 {
@@ -382,7 +381,6 @@ TimeZoneRule
 :
 getDSTSavings
 (
-void
 )
 const
 {
@@ -930,7 +928,6 @@ AnnualTimeZoneRule
 :
 clone
 (
-void
 )
 const
 {
@@ -2012,7 +2009,7 @@ timeRuleType
 )
 fStartTimes
 (
-NULL
+nullptr
 )
 {
 UErrorCode
@@ -2051,7 +2048,7 @@ fTimeRuleType
 )
 fStartTimes
 (
-NULL
+nullptr
 )
 {
 UErrorCode
@@ -2084,7 +2081,7 @@ if
 fStartTimes
 !
 =
-NULL
+nullptr
 &
 &
 fStartTimes
@@ -2107,7 +2104,6 @@ TimeArrayTimeZoneRule
 :
 clone
 (
-void
 )
 const
 {
@@ -2358,7 +2354,6 @@ TimeArrayTimeZoneRule
 :
 getTimeType
 (
-void
 )
 const
 {
@@ -2414,7 +2409,6 @@ TimeArrayTimeZoneRule
 :
 countStartTimes
 (
-void
 )
 const
 {
@@ -2591,7 +2585,7 @@ fNumStartTimes
 fStartTimes
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2641,7 +2635,7 @@ fNumStartTimes
 fStartTimes
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2871,7 +2865,7 @@ if
 fStartTimes
 !
 =
-NULL
+nullptr
 &
 &
 fStartTimes
@@ -2914,7 +2908,7 @@ if
 fStartTimes
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -2969,7 +2963,7 @@ sizeof
 UDate
 )
 compareDates
-NULL
+nullptr
 true
 &
 status
@@ -2988,7 +2982,7 @@ if
 fStartTimes
 !
 =
-NULL
+nullptr
 &
 &
 fStartTimes

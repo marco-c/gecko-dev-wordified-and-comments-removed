@@ -1335,7 +1335,7 @@ standardName
 uenum_next
 (
 nameEnum
-NULL
+nullptr
 &
 enumError
 )
@@ -1675,7 +1675,7 @@ s
 {
 static
 const
-UChar
+char16_t
 paraEnds
 [
 ]
@@ -1752,7 +1752,7 @@ return
 }
 }
 const
-UChar
+char16_t
 *
 u
 =
@@ -1772,7 +1772,7 @@ length
 (
 )
 ;
-UChar
+char16_t
 c
 ;
 while
@@ -1901,7 +1901,7 @@ CNV_ADDS_FEFF
 ;
 static
 inline
-UChar
+char16_t
 nibbleToHex
 (
 uint8_t
@@ -1920,7 +1920,7 @@ n
 9
 ?
 (
-UChar
+char16_t
 )
 (
 0x30
@@ -1929,7 +1929,7 @@ n
 )
 :
 (
-UChar
+char16_t
 )
 (
 (
@@ -2021,7 +2021,7 @@ CNV_WITH_FEFF
 )
 {
 const
-UChar
+char16_t
 a
 [
 1
@@ -2032,7 +2032,7 @@ a
 }
 ;
 const
-UChar
+char16_t
 *
 in
 ;
@@ -2074,7 +2074,7 @@ in
 a
 +
 1
-NULL
+nullptr
 true
 &
 err
@@ -2087,7 +2087,7 @@ cnv
 ;
 if
 (
-NULL
+nullptr
 !
 =
 ucnv_detectUnicodeSignature
@@ -2101,7 +2101,7 @@ out
 -
 buffer
 )
-NULL
+nullptr
 &
 err
 )
@@ -2134,15 +2134,15 @@ ConvertFile
 :
 buf
 (
-NULL
+nullptr
 )
 outbuf
 (
-NULL
+nullptr
 )
 fromoffsets
 (
-NULL
+nullptr
 )
 bufsz
 (
@@ -2385,13 +2385,13 @@ outfoffset
 0
 ;
 const
-UChar
+char16_t
 *
 unibuf
 *
 unibufbp
 ;
-UChar
+char16_t
 *
 unibufp
 ;
@@ -2610,7 +2610,7 @@ if
 translit
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -2746,7 +2746,7 @@ line
 0
 )
 {
-UChar
+char16_t
 linebuf
 [
 20
@@ -3168,7 +3168,7 @@ useOffsets
 ?
 fromoffsets
 :
-NULL
+nullptr
 flush
 &
 err
@@ -3295,9 +3295,13 @@ length
 (
 int8_t
 )
-sprintf
+snprintf
 (
 pos
+sizeof
+(
+pos
+)
 "
 %
 d
@@ -3348,7 +3352,7 @@ str
 append
 (
 (
-UChar
+char16_t
 )
 uSP
 )
@@ -3507,7 +3511,7 @@ if
 t
 !
 =
-NULL
+nullptr
 )
 {
 UnicodeString
@@ -3668,7 +3672,7 @@ insert
 (
 0
 (
-UChar
+char16_t
 )
 uSig
 )
@@ -3737,7 +3741,7 @@ unibufbp
 unibuf
 +
 ulen
-NULL
+nullptr
 (
 UBool
 )
@@ -3783,7 +3787,7 @@ err
 )
 )
 {
-UChar
+char16_t
 errorUChars
 [
 4
@@ -3966,9 +3970,13 @@ length
 (
 int8_t
 )
-sprintf
+snprintf
 (
 pos
+sizeof
+(
+pos
+)
 "
 %
 u
@@ -4006,7 +4014,7 @@ str
 append
 (
 (
-UChar
+char16_t
 )
 uSP
 )
@@ -4353,7 +4361,7 @@ ecode
 )
 {
 const
-UChar
+char16_t
 *
 msg
 ;

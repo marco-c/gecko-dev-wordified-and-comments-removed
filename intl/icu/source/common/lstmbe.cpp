@@ -1808,7 +1808,7 @@ EmbeddingType
 fType
 ;
 const
-UChar
+char16_t
 *
 fName
 ;
@@ -1971,7 +1971,7 @@ status
 )
 ;
 const
-UChar
+char16_t
 *
 type
 =
@@ -2196,7 +2196,7 @@ value
 )
 ;
 const
-UChar
+char16_t
 *
 str
 =
@@ -2594,7 +2594,7 @@ int32_t
 stringToIndex
 (
 const
-UChar
+char16_t
 *
 str
 )
@@ -2837,7 +2837,7 @@ startPos
 int32_t
 current
 ;
-UChar
+char16_t
 str
 [
 2
@@ -2877,7 +2877,7 @@ str
 ]
 =
 (
-UChar
+char16_t
 )
 utext_next32
 (
@@ -3130,7 +3130,7 @@ current
 =
 startPos
 ;
-UChar
+char16_t
 str
 [
 MAX_GRAPHEME_CLSTER_LENGTH
@@ -4225,7 +4225,7 @@ fVectorizer
 ;
 }
 const
-UChar
+char16_t
 *
 LSTMBreakEngine
 :
@@ -4624,7 +4624,7 @@ data
 }
 U_CAPI
 const
-UChar
+char16_t
 *
 U_EXPORT2
 LSTMDataName

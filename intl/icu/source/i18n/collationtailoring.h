@@ -118,7 +118,7 @@ return
 settings
 =
 =
-NULL
+nullptr
 ;
 }
 UBool
@@ -257,7 +257,7 @@ if
 t
 !
 =
-NULL
+nullptr
 )
 {
 t

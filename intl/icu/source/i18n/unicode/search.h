@@ -342,7 +342,7 @@ BreakIterator
 *
 breakiter
 =
-NULL
+nullptr
 )
 ;
 SearchIterator
@@ -354,7 +354,7 @@ BreakIterator
 *
 breakiter
 =
-NULL
+nullptr
 )
 ;
 SearchIterator

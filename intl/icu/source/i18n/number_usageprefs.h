@@ -175,7 +175,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 const
 MaybeStackVector
@@ -322,7 +322,7 @@ UErrorCode
 status
 )
 const
-U_OVERRIDE
+override
 ;
 private
 :

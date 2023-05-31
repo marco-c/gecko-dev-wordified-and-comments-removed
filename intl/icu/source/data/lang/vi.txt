@@ -2960,6 +2960,14 @@ ng
 Lakota
 "
 }
+lmo
+{
+"
+Ti
+ng
+Lombard
+"
+}
 ln
 {
 "

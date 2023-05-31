@@ -109,7 +109,6 @@ UBool
 U_CALLCONV
 region_cleanup
 (
-void
 )
 {
 icu
@@ -147,32 +146,32 @@ UHashtable
 *
 regionAliases
 =
-NULL
+nullptr
 ;
 static
 UHashtable
 *
 regionIDMap
 =
-NULL
+nullptr
 ;
 static
 UHashtable
 *
 numericCodeMap
 =
-NULL
+nullptr
 ;
 static
 UVector
 *
 allRegions
 =
-NULL
+nullptr
 ;
 static
 const
-UChar
+char16_t
 UNKNOWN_REGION_ID
 [
 ]
@@ -185,7 +184,7 @@ UNKNOWN_REGION_ID
 ;
 static
 const
-UChar
+char16_t
 OUTLYING_OCEANIA_REGION_ID
 [
 ]
@@ -198,7 +197,7 @@ OUTLYING_OCEANIA_REGION_ID
 ;
 static
 const
-UChar
+char16_t
 WORLD_ID
 [
 ]
@@ -212,7 +211,7 @@ WORLD_ID
 ;
 static
 const
-UChar
+char16_t
 RANGE_MARKER
 =
 0x7E
@@ -240,7 +239,7 @@ uhash_open
 (
 uhash_hashUnicodeString
 uhash_compareUnicodeString
-NULL
+nullptr
 &
 status
 )
@@ -253,7 +252,7 @@ uhash_open
 (
 uhash_hashLong
 uhash_compareLong
-NULL
+nullptr
 &
 status
 )
@@ -266,7 +265,7 @@ uhash_open
 (
 uhash_hashUnicodeString
 uhash_compareUnicodeString
-NULL
+nullptr
 &
 status
 )
@@ -333,7 +332,7 @@ metadata
 (
 ures_openDirect
 (
-NULL
+nullptr
 "
 metadata
 "
@@ -355,7 +354,7 @@ getAlias
 "
 alias
 "
-NULL
+nullptr
 &
 status
 )
@@ -374,7 +373,7 @@ getAlias
 "
 territory
 "
-NULL
+nullptr
 &
 status
 )
@@ -385,7 +384,7 @@ supplementalData
 (
 ures_openDirect
 (
-NULL
+nullptr
 "
 supplementalData
 "
@@ -407,7 +406,7 @@ getAlias
 "
 codeMappings
 "
-NULL
+nullptr
 &
 status
 )
@@ -426,7 +425,7 @@ getAlias
 "
 idValidity
 "
-NULL
+nullptr
 &
 status
 )
@@ -445,7 +444,7 @@ getAlias
 "
 region
 "
-NULL
+nullptr
 &
 status
 )
@@ -464,7 +463,7 @@ getAlias
 "
 regular
 "
-NULL
+nullptr
 &
 status
 )
@@ -483,7 +482,7 @@ getAlias
 "
 macroregion
 "
-NULL
+nullptr
 &
 status
 )
@@ -502,7 +501,7 @@ getAlias
 "
 unknown
 "
-NULL
+nullptr
 &
 status
 )
@@ -521,7 +520,7 @@ getAlias
 "
 territoryContainment
 "
-NULL
+nullptr
 &
 status
 )
@@ -540,7 +539,7 @@ getAlias
 "
 001
 "
-NULL
+nullptr
 &
 status
 )
@@ -559,7 +558,7 @@ getAlias
 "
 grouping
 "
-NULL
+nullptr
 &
 status
 )
@@ -630,7 +629,7 @@ regionRegular
 getAlias
 (
 )
-NULL
+nullptr
 &
 status
 )
@@ -645,7 +644,7 @@ indexOf
 RANGE_MARKER
 )
 ;
-UChar
+char16_t
 buf
 [
 6
@@ -667,7 +666,7 @@ rangeMarkerLocation
 0
 )
 {
-UChar
+char16_t
 endRange
 =
 regionName
@@ -802,7 +801,7 @@ regionMacro
 getAlias
 (
 )
-NULL
+nullptr
 &
 status
 )
@@ -817,7 +816,7 @@ indexOf
 RANGE_MARKER
 )
 ;
-UChar
+char16_t
 buf
 [
 6
@@ -839,7 +838,7 @@ rangeMarkerLocation
 0
 )
 {
-UChar
+char16_t
 endRange
 =
 regionName
@@ -1034,7 +1033,7 @@ worldContainment
 getAlias
 (
 )
-NULL
+nullptr
 &
 status
 )
@@ -1408,7 +1407,7 @@ if
 grouping
 !
 =
-NULL
+nullptr
 )
 {
 for
@@ -1463,7 +1462,7 @@ grouping
 containedRegions
 =
 =
-NULL
+nullptr
 )
 {
 LocalPointer
@@ -1572,7 +1571,7 @@ territoryAlias
 getAlias
 (
 )
-NULL
+nullptr
 &
 status
 )
@@ -1630,7 +1629,7 @@ res
 .
 adoptInstead
 (
-NULL
+nullptr
 )
 ;
 const
@@ -1680,13 +1679,13 @@ if
 aliasToRegion
 !
 =
-NULL
+nullptr
 &
 &
 aliasFromRegion
 =
 =
-NULL
+nullptr
 )
 {
 uhash_put
@@ -1722,7 +1721,7 @@ if
 aliasFromRegion
 =
 =
-NULL
+nullptr
 )
 {
 LocalPointer
@@ -2131,7 +2130,7 @@ codeMappings
 getAlias
 (
 )
-NULL
+nullptr
 &
 status
 )
@@ -2590,7 +2589,7 @@ territoryContainment
 getAlias
 (
 )
-NULL
+nullptr
 &
 status
 )
@@ -2750,13 +2749,13 @@ if
 parentRegion
 !
 =
-NULL
+nullptr
 &
 &
 childRegion
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2767,7 +2766,7 @@ parentRegion
 containedRegions
 =
 =
-NULL
+nullptr
 )
 {
 LocalPointer
@@ -2943,7 +2942,7 @@ fType
 ]
 =
 =
-NULL
+nullptr
 )
 {
 LocalPointer
@@ -3140,7 +3139,7 @@ allRegions
 ;
 allRegions
 =
-NULL
+nullptr
 ;
 }
 regionAliases
@@ -3149,7 +3148,7 @@ numericCodeMap
 =
 regionIDMap
 =
-NULL
+nullptr
 ;
 gRegionDataInitOnce
 .
@@ -3176,15 +3175,15 @@ URGN_UNKNOWN
 )
 containingRegion
 (
-NULL
+nullptr
 )
 containedRegions
 (
-NULL
+nullptr
 )
 preferredValues
 (
-NULL
+nullptr
 )
 {
 id
@@ -3309,7 +3308,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3323,7 +3322,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 UnicodeString
@@ -3391,7 +3390,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3509,7 +3508,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 Region
@@ -3569,7 +3568,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3583,7 +3582,7 @@ status
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3700,7 +3699,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3774,11 +3773,11 @@ if
 containingRegion
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3833,7 +3832,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -4270,7 +4269,7 @@ URGN_DEPRECATED
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -4494,12 +4493,12 @@ status
 fRegionNames
 =
 =
-NULL
+nullptr
 )
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const
@@ -4525,7 +4524,7 @@ if
 nextStr
 !
 =
-NULL
+nullptr
 )
 {
 pos
@@ -4568,7 +4567,7 @@ return
 fRegionNames
 =
 =
-NULL
+nullptr
 )
 ?
 0

@@ -144,7 +144,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -155,7 +155,7 @@ pErrorCode
 )
 {
 return
-NULL
+nullptr
 ;
 }
 else
@@ -164,7 +164,7 @@ if
 name
 =
 =
-NULL
+nullptr
 |
 |
 *
@@ -177,7 +177,7 @@ name
 pInfo
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -186,7 +186,7 @@ pErrorCode
 U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 pData
@@ -208,7 +208,7 @@ if
 pData
 =
 =
-NULL
+nullptr
 )
 {
 *
@@ -217,7 +217,7 @@ pErrorCode
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 char
@@ -276,7 +276,7 @@ if
 dir
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -341,7 +341,7 @@ if
 type
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -394,7 +394,7 @@ pData
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -402,7 +402,7 @@ if
 dir
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -477,7 +477,7 @@ if
 type
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -523,7 +523,7 @@ pData
 file
 =
 =
-NULL
+nullptr
 )
 {
 uprv_free
@@ -537,7 +537,7 @@ pErrorCode
 U_FILE_ACCESS_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 headerSize
@@ -559,7 +559,7 @@ if
 comment
 !
 =
-NULL
+nullptr
 &
 &
 *
@@ -743,7 +743,7 @@ if
 pErrorCode
 =
 =
-NULL
+nullptr
 |
 |
 U_FAILURE
@@ -762,7 +762,7 @@ if
 pData
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -773,7 +773,7 @@ pData
 file
 !
 =
-NULL
+nullptr
 )
 {
 fileLength
@@ -908,7 +908,7 @@ type
 name
 &
 dummyDataInfo
-NULL
+nullptr
 pErrorCode
 )
 pErrorCode
@@ -983,7 +983,7 @@ if
 pData
 !
 =
-NULL
+nullptr
 &
 &
 pData
@@ -992,7 +992,7 @@ pData
 file
 !
 =
-NULL
+nullptr
 )
 {
 T_FileStream_write
@@ -1025,7 +1025,7 @@ if
 pData
 !
 =
-NULL
+nullptr
 &
 &
 pData
@@ -1034,7 +1034,7 @@ pData
 file
 !
 =
-NULL
+nullptr
 )
 {
 T_FileStream_write
@@ -1067,7 +1067,7 @@ if
 pData
 !
 =
-NULL
+nullptr
 &
 &
 pData
@@ -1076,7 +1076,7 @@ pData
 file
 !
 =
-NULL
+nullptr
 )
 {
 T_FileStream_write
@@ -1113,7 +1113,7 @@ if
 pData
 !
 =
-NULL
+nullptr
 &
 &
 pData
@@ -1122,7 +1122,7 @@ pData
 file
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1189,7 +1189,7 @@ if
 pData
 !
 =
-NULL
+nullptr
 &
 &
 pData
@@ -1198,7 +1198,7 @@ pData
 file
 !
 =
-NULL
+nullptr
 )
 {
 while
@@ -1266,7 +1266,7 @@ if
 pData
 !
 =
-NULL
+nullptr
 &
 &
 pData
@@ -1275,7 +1275,7 @@ pData
 file
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1327,7 +1327,7 @@ UNewDataMemory
 *
 pData
 const
-UChar
+char16_t
 *
 s
 int32_t
@@ -1339,7 +1339,7 @@ if
 pData
 !
 =
-NULL
+nullptr
 &
 &
 pData
@@ -1348,7 +1348,7 @@ pData
 file
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1386,7 +1386,7 @@ length
 *
 sizeof
 (
-UChar
+char16_t
 )
 )
 ;

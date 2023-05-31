@@ -205,7 +205,7 @@ gPluralForms
 )
 )
 ?
-NULL
+nullptr
 :
 gPluralForms
 [

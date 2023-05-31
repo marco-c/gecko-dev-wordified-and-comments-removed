@@ -50,7 +50,7 @@ uSet
 {
 cpString
 =
-NULL
+nullptr
 ;
 reset
 (
@@ -70,11 +70,11 @@ this
 >
 set
 =
-NULL
+nullptr
 ;
 cpString
 =
-NULL
+nullptr
 ;
 reset
 (
@@ -119,7 +119,7 @@ nextElement
 ;
 string
 =
-NULL
+nullptr
 ;
 return
 true
@@ -149,7 +149,7 @@ nextElement
 ;
 string
 =
-NULL
+nullptr
 ;
 return
 true
@@ -206,7 +206,7 @@ nextRange
 {
 string
 =
-NULL
+nullptr
 ;
 if
 (
@@ -345,7 +345,7 @@ if
 set
 =
 =
-NULL
+nullptr
 )
 {
 endRange
@@ -414,7 +414,7 @@ nextString
 ;
 string
 =
-NULL
+nullptr
 ;
 }
 void
@@ -463,7 +463,7 @@ if
 string
 =
 =
-NULL
+nullptr
 &
 &
 codepoint
@@ -480,7 +480,7 @@ if
 cpString
 =
 =
-NULL
+nullptr
 )
 {
 cpString
@@ -496,7 +496,7 @@ if
 cpString
 !
 =
-NULL
+nullptr
 )
 {
 cpString
