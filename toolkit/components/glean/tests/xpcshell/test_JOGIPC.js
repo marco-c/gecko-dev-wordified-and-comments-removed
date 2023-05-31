@@ -569,6 +569,12 @@ run_child_stuff
 (
 )
 {
+Glean
+.
+testOnly
+.
+badCode
+;
 for
 (
 let
@@ -899,6 +905,12 @@ test_child_metrics
 (
 )
 {
+Glean
+.
+testOnly
+.
+badCode
+;
 for
 (
 let
