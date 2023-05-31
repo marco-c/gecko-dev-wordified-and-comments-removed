@@ -382,7 +382,7 @@ ClientSource
 >
 aClientSource
 bool
-mShouldResistFingerprinting
+aShouldResistFingerprinting
 )
 ;
 virtual
