@@ -2657,6 +2657,13 @@ element
 :
 Any
 )
+-
+>
+Mapping
+[
+str
+Any
+]
 :
     
 return
