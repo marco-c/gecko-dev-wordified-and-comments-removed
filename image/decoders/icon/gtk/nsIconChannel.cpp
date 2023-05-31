@@ -1489,6 +1489,16 @@ nsIMozIconURI
 ;
 if
 (
+!
+iconURI
+)
+{
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
+if
+(
 gfxPlatform
 :
 :
