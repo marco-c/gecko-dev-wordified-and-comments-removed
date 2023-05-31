@@ -2168,6 +2168,8 @@ NULL
 0
 1
 JOF_BYTE
+|
+JOF_USES_ENV
 )
 \
 \
@@ -3272,6 +3274,8 @@ NULL
 0
 1
 JOF_BYTE
+|
+JOF_USES_ENV
 )
 \
 \

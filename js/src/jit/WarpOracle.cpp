@@ -1423,15 +1423,6 @@ jitScript
 usesEnvironmentChain
 (
 )
-&
-&
-!
-script_
--
->
-needsArgsObj
-(
-)
 )
 {
 return
