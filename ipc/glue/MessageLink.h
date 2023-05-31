@@ -171,7 +171,7 @@ msg
 ;
 virtual
 void
-SendClose
+Close
 (
 )
 =
@@ -315,7 +315,7 @@ aMessage
 override
 ;
 void
-SendClose
+Close
 (
 )
 override
