@@ -3947,7 +3947,6 @@ do_QueryInterface
 mThread
 )
 ;
-}
 MOZ_DIAGNOSTIC_ASSERT
 (
 mDirectTaskDispatcher
@@ -3962,6 +3961,7 @@ dispatching
 "
 )
 ;
+}
 Preferences
 :
 :
@@ -4247,7 +4247,17 @@ return
 NS_OK
 ;
 }
-mThread
+nsCOMPtr
+<
+nsIThread
+>
+thread
+=
+GetThreadSafely
+(
+)
+;
+thread
 -
 >
 Shutdown
@@ -4420,6 +4430,12 @@ bool
 offline
 )
 {
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 *
 offline
 =
