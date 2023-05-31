@@ -60,7 +60,9 @@ const
 ID
 =
 "
-rulers
+viewport
+-
+size
 -
 highlighter
 -
@@ -125,7 +127,7 @@ front
 getHighlighterByType
 (
 "
-RulersHighlighter
+ViewportSizeHighlighter
 "
 )
 ;
