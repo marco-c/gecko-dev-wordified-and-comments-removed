@@ -24242,7 +24242,6 @@ aName
 )
 {
 return
-(
 aName
 .
 toLowerCase
@@ -24269,7 +24268,6 @@ g
 +
 +
 count
-)
 ;
 }
 ;

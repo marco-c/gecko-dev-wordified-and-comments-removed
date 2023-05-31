@@ -3292,7 +3292,6 @@ generateSubmissionID
 )
 {
 return
-(
 "
 sub
 -
@@ -3315,7 +3314,6 @@ slice
 1
 -
 1
-)
 )
 ;
 }

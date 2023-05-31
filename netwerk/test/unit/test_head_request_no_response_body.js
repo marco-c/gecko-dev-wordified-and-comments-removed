@@ -293,6 +293,16 @@ URI
 =
 http
 :
+/
+/
+localhost
+:
+{
+PORT
+}
+/
+testdir
+;
 let
 response
 ;

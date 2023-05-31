@@ -1615,7 +1615,6 @@ match
 )
 {
 return
-(
 "
 _
 "
@@ -1639,7 +1638,6 @@ toUpperCase
 "
 _
 "
-)
 ;
 }
 return
