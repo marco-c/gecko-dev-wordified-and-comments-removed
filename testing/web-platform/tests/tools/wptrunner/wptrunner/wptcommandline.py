@@ -6187,35 +6187,11 @@ None
         
 return
     
-path
-=
+return
 which
 (
 name
 )
-    
-if
-path
-and
-os
-.
-access
-(
-path
-os
-.
-X_OK
-)
-:
-        
-return
-path
-    
-else
-:
-        
-return
-None
 def
 check_paths
 (
