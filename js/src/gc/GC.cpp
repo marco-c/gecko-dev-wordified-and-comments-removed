@@ -6158,16 +6158,6 @@ pretenureThreshold
 )
 ;
 case
-JSGC_PRETENURE_GROUP_THRESHOLD
-:
-return
-tunables
-.
-pretenureGroupThreshold
-(
-)
-;
-case
 JSGC_PRETENURE_STRING_THRESHOLD
 :
 return
