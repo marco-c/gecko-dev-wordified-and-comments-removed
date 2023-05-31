@@ -2522,6 +2522,19 @@ if
 any
 .
 *
+param
+{
+window
+}
+window
+*
+Browser
+window
+object
+associated
+with
+engagement
+*
 /
 notifyEngagementChange
 (
@@ -2532,6 +2545,7 @@ details
 =
 {
 }
+window
 )
 {
 for
@@ -2555,6 +2569,7 @@ isPrivate
 state
 queryContext
 details
+window
 )
 ;
 }

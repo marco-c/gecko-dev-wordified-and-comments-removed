@@ -1356,6 +1356,7 @@ isPrivate
 state
 queryContext
 details
+window
 )
 {
 let
@@ -1384,6 +1385,7 @@ this
 pickResult
 (
 result
+window
 )
 ;
 }
@@ -1393,6 +1395,7 @@ async
 pickResult
 (
 result
+window
 )
 {
 /
@@ -1556,17 +1559,6 @@ result
 payload
 .
 input
-)
-;
-let
-window
-=
-lazy
-.
-BrowserWindowTracker
-.
-getTopWindow
-(
 )
 ;
 window

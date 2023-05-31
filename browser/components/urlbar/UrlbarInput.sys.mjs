@@ -5116,6 +5116,9 @@ UrlbarUtils
 getHeuristicResultFor
 (
 url
+this
+.
+window
 )
 .
 then
