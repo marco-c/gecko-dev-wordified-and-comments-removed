@@ -2,8 +2,6 @@ import
 json
 import
 os
-import
-traceback
 from
 collections
 import
@@ -2769,24 +2767,17 @@ raise
         
 except
 Exception
+as
+e
 :
-            
-msg
-=
-traceback
-.
-format_exc
-(
-)
             
 raise
 HTTPException
 (
 500
-message
-=
-msg
 )
+from
+e
         
 if
 rv

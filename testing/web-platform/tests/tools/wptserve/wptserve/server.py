@@ -8,10 +8,6 @@ import
 os
 import
 socket
-from
-socketserver
-import
-ThreadingMixIn
 import
 ssl
 import
@@ -135,6 +131,7 @@ from
 utils
 import
 HTTPException
+get_error_cause
 isomorphic_decode
 isomorphic_encode
 from
@@ -774,12 +771,11 @@ new_url
 class
 WebTestServer
 (
-ThreadingMixIn
 http
 .
 server
 .
-HTTPServer
+ThreadingHTTPServer
 )
 :
     
@@ -1172,20 +1168,14 @@ server_address
 ]
 )
         
-http
-.
-server
-.
-HTTPServer
+super
+(
+)
 .
 __init__
 (
-self
 hostname_port
 request_handler_cls
-*
-*
-kwargs
 )
         
 if
@@ -1549,15 +1539,12 @@ get_logger
 (
 )
         
-http
-.
-server
-.
-BaseHTTPRequestHandler
+super
+(
+)
 .
 __init__
 (
-self
 *
 args
 *
@@ -1860,6 +1847,12 @@ as
 e
 :
                 
+exc
+=
+get_error_cause
+(
+e
+)
 if
 500
 <
@@ -1869,38 +1862,8 @@ e
 code
 <
 600
-:
-                    
-self
-.
-logger
-.
-warning
-(
-"
-HTTPException
-in
-handler
-:
-%
-s
-"
-%
+else
 e
-)
-                    
-self
-.
-logger
-.
-warning
-(
-traceback
-.
-format_exc
-(
-)
-)
                 
 response
 .
@@ -1909,10 +1872,7 @@ set_error
 e
 .
 code
-str
-(
-e
-)
+exc
 )
             
 except
@@ -1921,11 +1881,11 @@ as
 e
 :
                 
-self
-.
-respond_with_error
-(
 response
+.
+set_error
+(
+500
 e
 )
         
@@ -2144,67 +2104,6 @@ setup
 )
         
 return
-    
-def
-respond_with_error
-(
-self
-response
-e
-)
-:
-        
-message
-=
-str
-(
-e
-)
-        
-if
-message
-:
-            
-err
-=
-[
-message
-]
-        
-else
-:
-            
-err
-=
-[
-]
-        
-err
-.
-append
-(
-traceback
-.
-format_exc
-(
-)
-)
-        
-response
-.
-set_error
-(
-500
-"
-\
-n
-"
-.
-join
-(
-err
-)
-)
 class
 Http2WebTestRequestHandler
 (
@@ -2464,6 +2363,9 @@ remote_settings
 .
 initial_window_size
         
+try
+:
+            
 self
 .
 request
@@ -2472,6 +2374,27 @@ sendall
 (
 data
 )
+        
+except
+ConnectionResetError
+:
+            
+self
+.
+logger
+.
+warning
+(
+"
+Connection
+reset
+during
+h2
+setup
+"
+)
+            
+return
         
 stream_queues
 =
@@ -3249,17 +3172,10 @@ logger
 .
 info
 (
-'
+"
 Handshake
 failed
-for
-error
-:
-%
-s
-'
-%
-e
+"
 )
                 
 h2response
@@ -3269,6 +3185,7 @@ set_error
 e
 .
 status
+e
 )
                 
 h2response
@@ -4070,17 +3987,32 @@ as
 e
 :
             
+exc
+=
+get_error_cause
+(
+e
+)
+if
+500
+<
+=
+e
+.
+code
+<
+600
+else
+e
+            
 response
 .
 set_error
 (
-e
+exc
 .
 code
-str
-(
-e
-)
+exc
 )
             
 response
@@ -4095,11 +4027,11 @@ as
 e
 :
             
-self
-.
-respond_with_error
-(
 response
+.
+set_error
+(
+500
 e
 )
             
@@ -4541,15 +4473,9 @@ return
         
 except
 Exception
+as
+e
 :
-            
-err
-=
-traceback
-.
-format_exc
-(
-)
             
 if
 response
@@ -4560,7 +4486,7 @@ response
 set_error
 (
 500
-err
+e
 )
                 
 response

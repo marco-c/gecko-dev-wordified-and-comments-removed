@@ -886,14 +886,6 @@ check_subdomains
 True
         
 "
-log_level
-"
-:
-"
-debug
-"
-        
-"
 bind_address
 "
 :
@@ -1008,6 +1000,28 @@ aliases
 :
 [
 ]
+        
+"
+logging
+"
+:
+{
+            
+"
+level
+"
+:
+"
+debug
+"
+            
+"
+suppress_handler_traceback
+"
+:
+False
+        
+}
     
 }
     
@@ -1019,7 +1033,7 @@ computed_properties
 =
 [
 "
-log_level
+logging
 "
                            
 "
@@ -1305,6 +1319,36 @@ key
 ]
 =
 value
+    
+def
+__getattr__
+(
+self
+key
+)
+:
+        
+try
+:
+            
+return
+self
+.
+_data
+[
+key
+]
+        
+except
+KeyError
+as
+e
+:
+            
+raise
+AttributeError
+from
+e
     
 def
 update
@@ -1609,24 +1653,42 @@ _ssl_env
 None
     
 def
-_get_log_level
+_get_logging
 (
 self
 data
 )
 :
         
-return
+logging
+=
 data
 [
 "
-log_level
+logging
+"
+]
+        
+logging
+[
+"
+level
+"
+]
+=
+logging
+[
+"
+level
 "
 ]
 .
 upper
 (
 )
+        
+return
+logging
     
 def
 _get_paths

@@ -203,6 +203,24 @@ path
 '
 ]
     
+value
+=
+request
+.
+GET
+.
+first
+(
+b
+'
+value
+'
+b
+"
+1
+"
+)
+    
 expiry_year
 =
 date
@@ -222,7 +240,8 @@ b
 %
 s
 =
-1
+%
+s
 ;
 Path
 =
@@ -245,6 +264,7 @@ GMT
 %
 (
 name
+value
 path
 expiry_year
 )

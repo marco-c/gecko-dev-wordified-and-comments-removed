@@ -307,7 +307,7 @@ CSP
 :
 frame
 -
-ancestore
+ancestors
 credentialless
 iframe
 "
@@ -316,7 +316,7 @@ child_headers
 :
 "
 |
-headers
+header
 (
 Content
 -

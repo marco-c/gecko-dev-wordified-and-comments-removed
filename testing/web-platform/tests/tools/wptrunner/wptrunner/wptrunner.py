@@ -2821,6 +2821,13 @@ enable_webtransport_h3
 mojojs_path
                                  
 inject_script
+                                 
+kwargs
+[
+"
+suppress_handler_traceback
+"
+]
 )
 as
 test_environment
