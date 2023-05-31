@@ -2194,7 +2194,8 @@ found
 .
 *
 /
-promptUsernameAndPassword
+async
+asyncPromptUsernameAndPassword
 (
 aDialogTitle
 aText
@@ -2223,7 +2224,7 @@ Components
 Exception
 (
 "
-promptUsernameAndPassword
+asyncPromptUsernameAndPassword
 doesn
 '
 t
@@ -2664,11 +2665,12 @@ realm
 .
 )
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 newLogin
 )
@@ -2826,7 +2828,8 @@ database
 .
 *
 /
-promptPassword
+async
+asyncPromptPassword
 (
 aDialogTitle
 aText
@@ -3140,11 +3143,12 @@ realm
 .
 )
 ;
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 newLogin
 )

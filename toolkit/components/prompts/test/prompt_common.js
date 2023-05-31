@@ -1842,6 +1842,11 @@ case
 promptPassword
 "
 :
+case
+"
+asyncPromptPassword
+"
+:
 {
 outParams
 =
@@ -1855,6 +1860,11 @@ break
 case
 "
 promptUsernameAndPassword
+"
+:
+case
+"
+asyncPromptUsernameAndPassword
 "
 :
 {
