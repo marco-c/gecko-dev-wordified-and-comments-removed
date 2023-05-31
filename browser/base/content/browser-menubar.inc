@@ -2000,7 +2000,7 @@ enterFullScreenItem
 key
 =
 "
-key_fullScreen
+key_enterFullScreen
 "
 data
 -
@@ -2050,7 +2050,7 @@ exitFullScreenItem
 key
 =
 "
-key_fullScreen
+key_exitFullScreen
 "
 hidden
 =
@@ -2107,7 +2107,7 @@ fullScreenItem
 key
 =
 "
-key_fullScreen
+key_enterFullScreen
 "
 type
 =
