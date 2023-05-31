@@ -1548,6 +1548,8 @@ false
 ;
 await
 cleanUpNimbus
+(
+)
 ;
 await
 SpecialPowers
@@ -1763,6 +1765,8 @@ false
 ;
 await
 cleanUpNimbus
+(
+)
 ;
 await
 SpecialPowers
@@ -2638,6 +2642,8 @@ window
 ;
 await
 cleanUpNimbus
+(
+)
 ;
 await
 SpecialPowers
