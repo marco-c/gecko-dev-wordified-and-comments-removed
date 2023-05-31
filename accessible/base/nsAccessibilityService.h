@@ -278,6 +278,16 @@ ReadPlatformDisabledState
 (
 )
 ;
+inline
+bool
+IsCacheActive
+(
+)
+{
+return
+true
+;
+}
 }
 }
 class
