@@ -89,15 +89,6 @@ string
 url
 :
 "
-nullable
-:
-string
-"
-specUrl
-:
-"
-nullable
-:
 string
 "
 deprecated
