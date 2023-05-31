@@ -439,12 +439,7 @@ aStats
 BaseMediaResource
 *
 aResource
-const
-media
-:
-:
-TimeUnit
-&
+double
 aDuration
 )
 ;

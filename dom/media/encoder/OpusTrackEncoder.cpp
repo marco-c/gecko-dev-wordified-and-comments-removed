@@ -1921,10 +1921,7 @@ MakeAndAddRef
 EncodedFrame
 >
 (
-media
-:
-:
-TimeUnit
+FramesToTimeUnit
 (
 mNumOutputFrames
 +
@@ -1976,10 +1973,7 @@ mOutputTimeStamp
 3f
 .
 "
-media
-:
-:
-TimeUnit
+FramesToTimeUnit
 (
 mNumOutputFrames
 mOutputSampleRate

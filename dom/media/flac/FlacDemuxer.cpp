@@ -1709,10 +1709,7 @@ Header
 )
 ;
 return
-media
-:
-:
-TimeUnit
+FramesToTimeUnit
 (
 Header
 (
@@ -1772,10 +1769,7 @@ Header
 )
 ;
 return
-media
-:
-:
-TimeUnit
+FramesToTimeUnit
 (
 mDuration
 Header

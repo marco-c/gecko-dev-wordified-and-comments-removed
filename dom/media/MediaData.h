@@ -1063,8 +1063,6 @@ mData
 ;
 size_t
 mLength
-{
-}
 ;
 UniquePtr
 <
@@ -1076,8 +1074,6 @@ mBuffer
 ;
 size_t
 mCapacity
-{
-}
 ;
 }
 ;

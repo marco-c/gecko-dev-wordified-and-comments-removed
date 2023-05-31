@@ -1672,8 +1672,6 @@ uint64_t
 oneSecond
 =
 PR_USEC_PER_SEC
--
-1
 ;
 EXPECT_EQ
 (

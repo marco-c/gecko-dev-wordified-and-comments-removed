@@ -2227,10 +2227,7 @@ yCbCrData
 TimeUnit
 timestamp
 =
-media
-:
-:
-TimeUnit
+FramesToTimeUnit
 (
 aFrame
 .
