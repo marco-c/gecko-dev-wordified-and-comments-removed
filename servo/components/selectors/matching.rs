@@ -1306,7 +1306,8 @@ false
 }
 }
 }
-_
+ref
+other
 =
 >
 {
@@ -1327,8 +1328,16 @@ non
 -
 pseudo
 selector
+{
+:
+?
+}
 "
+other
 )
+;
+return
+false
 ;
 }
 }
