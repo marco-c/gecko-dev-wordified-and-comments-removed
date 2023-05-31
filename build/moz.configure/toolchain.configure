@@ -12155,7 +12155,9 @@ append
 (
 "
 -
-U_FORTIFY_SOURCE
+D_FORTIFY_SOURCE
+=
+0
 "
 )
 if
