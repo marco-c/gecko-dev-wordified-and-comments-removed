@@ -897,11 +897,6 @@ kMaxDesktopCaptureCpuUsage
 =
 50
 ;
-int32_t
-EnsureCapturer
-(
-)
-;
 void
 InitOnThread
 (
