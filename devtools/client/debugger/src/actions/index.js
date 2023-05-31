@@ -132,12 +132,12 @@ open
 import
 *
 as
-sourceTree
+sourcesTree
 from
 "
 .
 /
-source
+sources
 -
 tree
 "
@@ -308,7 +308,7 @@ quickOpen
 .
 .
 .
-sourceTree
+sourcesTree
 .
 .
 .
