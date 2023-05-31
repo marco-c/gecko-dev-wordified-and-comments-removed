@@ -1779,6 +1779,11 @@ case
 amo
 "
 :
+case
+"
+AddonSuggestions
+"
+:
 result
 =
 await
