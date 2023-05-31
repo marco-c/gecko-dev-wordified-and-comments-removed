@@ -7466,6 +7466,10 @@ if
 (
 !
 frame
+|
+|
+!
+frame
 -
 >
 IsTextFrame
