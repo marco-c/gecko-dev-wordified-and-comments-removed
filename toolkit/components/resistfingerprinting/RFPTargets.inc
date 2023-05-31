@@ -50,6 +50,16 @@ CanvasImageExtractionPrompt
 )
 ITEM_VALUE
 (
+CanvasExtractionFromThirdPartiesIsBlocked
+0x000C
+)
+ITEM_VALUE
+(
+CanvasExtractionBeforeUserInputIsBlocked
+0x000D
+)
+ITEM_VALUE
+(
 IgnoreTargetAndReturnCachedValue
 0xFFFD
 )
