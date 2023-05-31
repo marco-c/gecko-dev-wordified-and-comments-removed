@@ -122,6 +122,9 @@ mInitialPosition
 CSSRect
 mContainingBlockRect
 ;
+CSSSize
+mBorderBoxSize
+;
 RayReferenceData
 (
 )
@@ -164,6 +167,14 @@ mContainingBlockRect
 aOther
 .
 mContainingBlockRect
+&
+&
+mBorderBoxSize
+=
+=
+aOther
+.
+mBorderBoxSize
 ;
 }
 }
