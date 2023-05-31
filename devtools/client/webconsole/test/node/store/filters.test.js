@@ -1629,7 +1629,9 @@ modules
 /
 CustomizableUI
 .
-jsm
+sys
+.
+mjs
 "
 lineNumber
 :

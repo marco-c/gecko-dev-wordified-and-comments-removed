@@ -53,7 +53,9 @@ EXTRA_JS_MODULES
 "
 CustomizableUI
 .
-jsm
+sys
+.
+mjs
 "
 "
 CustomizableWidgets
