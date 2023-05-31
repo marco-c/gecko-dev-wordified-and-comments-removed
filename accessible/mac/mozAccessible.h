@@ -178,9 +178,6 @@ a11y
 role
 mRole
 ;
-uint64_t
-mCachedState
-;
 nsStaticAtom
 *
 mARIARole
@@ -343,12 +340,6 @@ isEnabled
 BOOL
 )
 enabled
-;
--
-(
-void
-)
-invalidateState
 ;
 -
 (

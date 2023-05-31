@@ -325,11 +325,6 @@ boolValue
 ]
 )
 ;
-[
-self
-invalidateState
-]
-;
 }
 end
 implementation
@@ -1251,11 +1246,6 @@ nsIAccessibleEvent
 :
 EVENT_FOCUS
 :
-[
-self
-invalidateState
-]
-;
 mozAccessible
 *
 parent
