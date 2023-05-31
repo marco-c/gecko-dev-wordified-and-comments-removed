@@ -5336,7 +5336,11 @@ flags
 )
 {
 return
-false
+flags
+.
+unicodeSets
+(
+)
 ;
 }
 inline
@@ -5351,6 +5355,13 @@ return
 flags
 .
 unicode
+(
+)
+|
+|
+flags
+.
+unicodeSets
 (
 )
 ;
