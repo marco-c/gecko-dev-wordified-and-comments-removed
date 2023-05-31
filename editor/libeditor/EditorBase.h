@@ -7205,7 +7205,9 @@ mutable
 nsString
 mCachedDocumentEncoderType
 ;
-typedef
+using
+AutoActionListenerArray
+=
 AutoTArray
 <
 OwningNonNull
@@ -7214,12 +7216,13 @@ nsIEditActionListener
 >
 2
 >
-AutoActionListenerArray
 ;
 AutoActionListenerArray
 mActionListeners
 ;
-typedef
+using
+AutoDocumentStateListenerArray
+=
 AutoTArray
 <
 OwningNonNull
@@ -7228,7 +7231,6 @@ nsIDocumentStateListener
 >
 1
 >
-AutoDocumentStateListenerArray
 ;
 AutoDocumentStateListenerArray
 mDocStateListeners

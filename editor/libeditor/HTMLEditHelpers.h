@@ -3130,11 +3130,12 @@ aArrayOfNodes
 )
 const
 ;
-typedef
+using
+BoolFunctor
+=
 bool
 (
 *
-BoolFunctor
 )
 (
 nsINode

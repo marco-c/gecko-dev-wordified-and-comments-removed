@@ -27,7 +27,9 @@ h
 namespace
 mozilla
 {
-typedef
+using
+ManualNACArray
+=
 AutoTArray
 <
 RefPtr
@@ -39,7 +41,6 @@ Element
 >
 16
 >
-ManualNACArray
 ;
 class
 ManualNACPtr
