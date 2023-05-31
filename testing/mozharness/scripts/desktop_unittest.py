@@ -4319,11 +4319,19 @@ tests
             
 if
 suite_category
-!
-=
+not
+in
+[
 "
 cppunittest
 "
+"
+gtest
+"
+"
+jittest
+"
+]
 :
                 
 base_cmd
