@@ -759,7 +759,7 @@ chrome
 true
 topLevel
 :
-isCacheEnabled
+true
 }
 )
 ;

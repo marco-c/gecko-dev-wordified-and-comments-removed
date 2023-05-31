@@ -199,9 +199,6 @@ addTranslationOffset
 =
 !
 gIsRemoteIframe
-&
-&
-isCacheEnabled
 ;
 const
 expectedX
@@ -636,10 +633,10 @@ topLevel
 false
 iframe
 :
-isCacheEnabled
+true
 remoteIframe
 :
-isCacheEnabled
+true
 iframeAttrs
 :
 {

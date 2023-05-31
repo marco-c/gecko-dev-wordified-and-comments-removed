@@ -781,7 +781,7 @@ chrome
 true
 topLevel
 :
-isCacheEnabled
+true
 iframe
 :
 false
@@ -1120,7 +1120,7 @@ chrome
 true
 topLevel
 :
-isCacheEnabled
+true
 iframe
 :
 false
@@ -1381,7 +1381,7 @@ chrome
 true
 topLevel
 :
-isCacheEnabled
+true
 iframe
 :
 false
@@ -2091,7 +2091,7 @@ chrome
 true
 topLevel
 :
-isCacheEnabled
+true
 iframe
 :
 false
@@ -2237,7 +2237,7 @@ chrome
 true
 topLevel
 :
-isCacheEnabled
+true
 iframe
 :
 false

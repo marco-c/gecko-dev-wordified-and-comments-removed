@@ -572,11 +572,6 @@ browser
 docAcc
 )
 {
-if
-(
-isCacheEnabled
-)
-{
 let
 hasTransform
 ;
@@ -632,7 +627,6 @@ transform
 "
 )
 ;
-}
 await
 testBoundsWithContent
 (

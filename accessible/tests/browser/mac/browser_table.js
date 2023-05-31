@@ -2065,10 +2065,6 @@ event
 !
 =
 EVENT_TABLE_STYLING_CHANGED
-|
-|
-!
-isCacheEnabled
 )
 {
 await

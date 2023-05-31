@@ -1223,10 +1223,10 @@ mutation
 {
 topLevel
 :
-isCacheEnabled
+true
 iframe
 :
-isCacheEnabled
+true
 }
 )
 ;

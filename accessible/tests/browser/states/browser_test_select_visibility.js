@@ -108,10 +108,6 @@ visible
 if
 (
 !
-isCacheEnabled
-|
-|
-!
 browser
 .
 isRemoteBrowser

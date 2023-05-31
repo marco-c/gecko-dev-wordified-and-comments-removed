@@ -466,10 +466,6 @@ untilCacheOk
 )
 =
 >
-!
-isCacheEnabled
-|
-|
 testVisibility
 (
 iframeDoc
@@ -593,10 +589,6 @@ untilCacheOk
 )
 =
 >
-!
-isCacheEnabled
-|
-|
 testVisibility
 (
 iframeDoc
@@ -788,10 +780,6 @@ iframe
 >
 runTest
 {
-chrome
-:
-!
-isCacheEnabled
 iframe
 :
 true
