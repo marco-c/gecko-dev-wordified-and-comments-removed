@@ -250,6 +250,12 @@ using
 JS
 :
 :
+UniqueWideChars
+;
+using
+JS
+:
+:
 Ok
 ;
 using
