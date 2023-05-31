@@ -1006,9 +1006,6 @@ webrtc
 Timestamp
 mNextFrameMinimumTime
 ;
-bool
-mRunning
-;
 mozilla
 :
 :
