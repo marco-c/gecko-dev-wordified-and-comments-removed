@@ -963,14 +963,6 @@ nsCString
 aURLs
 )
 ;
-bool
-RemoveFetchedModule
-(
-nsIURI
-*
-aURL
-)
-;
 private
 :
 friend
