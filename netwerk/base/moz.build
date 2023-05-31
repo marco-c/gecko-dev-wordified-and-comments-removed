@@ -1452,7 +1452,9 @@ EXTRA_JS_MODULES
 "
 NetUtil
 .
-jsm
+sys
+.
+mjs
 "
 ]
 DIRS
