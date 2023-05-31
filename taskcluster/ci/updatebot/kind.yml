@@ -99,6 +99,17 @@ transforms
 task
 :
 transforms
+job
+-
+defaults
+:
+use
+-
+system
+-
+python
+:
+false
 jobs
 :
 cron
