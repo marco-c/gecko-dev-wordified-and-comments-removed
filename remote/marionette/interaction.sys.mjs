@@ -1132,6 +1132,9 @@ error
 .
 ElementClickInterceptedError
 (
+null
+{
+}
 containerEl
 clickPoint
 )
