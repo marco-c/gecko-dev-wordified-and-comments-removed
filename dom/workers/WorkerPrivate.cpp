@@ -4441,6 +4441,7 @@ TimeoutInfo
 &
 aOther
 )
+const
 {
 return
 mTargetTime
@@ -4460,6 +4461,7 @@ TimeoutInfo
 &
 aOther
 )
+const
 {
 return
 mTargetTime
