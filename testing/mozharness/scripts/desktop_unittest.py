@@ -4317,6 +4317,15 @@ tests
 "
 )
             
+if
+suite_category
+!
+=
+"
+cppunittest
+"
+:
+                
 base_cmd
 .
 append
