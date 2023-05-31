@@ -5277,6 +5277,9 @@ icon
 persistent_doorhanger
 :
 true
+show_in_private_browsing
+:
+true
 heading_text
 :
 {

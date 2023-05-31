@@ -2752,6 +2752,7 @@ ping
 {
 if
 (
+(
 lazy
 .
 UpdateUtils
@@ -2766,6 +2767,12 @@ true
 "
 release
 "
+|
+|
+ping
+.
+is_private
+)
 &
 &
 !
@@ -2809,6 +2816,11 @@ delete
 ping
 .
 action
+;
+delete
+ping
+.
+is_private
 ;
 return
 {
