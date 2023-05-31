@@ -15633,7 +15633,7 @@ IsClosestCommonInclusiveAncestorForRangeInSelection
 const
 LinkedList
 <
-AbstractRange
+nsRange
 >
 *
 ranges
@@ -15655,7 +15655,7 @@ ranges
 for
 (
 const
-AbstractRange
+nsRange
 *
 r
 =
