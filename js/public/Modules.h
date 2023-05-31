@@ -638,6 +638,16 @@ JSObject
 moduleObj
 )
 ;
+extern
+JS_PUBLIC_API
+void
+AssertModuleUnlinked
+(
+JSObject
+*
+moduleObj
+)
+;
 }
 #
 endif
