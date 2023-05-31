@@ -261,15 +261,9 @@ op
 ;
 }
 ;
-struct
-IonBytecodeInfo
-;
-IonBytecodeInfo
-AnalyzeBytecodeForIon
+bool
+ScriptUsesEnvironmentChain
 (
-JSContext
-*
-cx
 JSScript
 *
 script
