@@ -2120,6 +2120,10 @@ shouldNeverTranslateSite
 if
 (
 maybeAutoTranslate
+&
+&
+!
+maybeNeverTranslate
 )
 {
 this
