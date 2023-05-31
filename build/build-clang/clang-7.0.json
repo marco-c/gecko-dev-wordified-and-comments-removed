@@ -37,17 +37,4 @@ bin
 /
 gcc
 "
-"
-patches
-"
-:
-[
-"
-profile
--
-g4a10504e1f70c
-.
-patch
-"
-]
 }
