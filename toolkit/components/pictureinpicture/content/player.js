@@ -4492,8 +4492,6 @@ closePipWindow
 reason
 :
 "
-player
--
 shortcut
 "
 }
