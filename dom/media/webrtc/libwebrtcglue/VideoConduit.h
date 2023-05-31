@@ -801,6 +801,14 @@ outHistories
 const
 override
 ;
+void
+SetJitterBufferTarget
+(
+DOMHighResTimeStamp
+aTargetMs
+)
+override
+;
 uint64_t
 MozVideoLatencyAvg
 (
@@ -1584,6 +1592,11 @@ int
 sRoundingPadding
 =
 1024
+;
+uint16_t
+mJitterBufferTargetMs
+=
+0
 ;
 const
 RefPtr

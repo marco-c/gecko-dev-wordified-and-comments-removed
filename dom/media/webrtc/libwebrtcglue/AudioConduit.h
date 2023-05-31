@@ -417,6 +417,14 @@ false
 ;
 }
 void
+SetJitterBufferTarget
+(
+DOMHighResTimeStamp
+aTargetMs
+)
+override
+;
+void
 DeliverPacket
 (
 rtc
@@ -824,6 +832,11 @@ nsCOMPtr
 nsISerialEventTarget
 >
 mStsThread
+;
+uint16_t
+mJitterBufferTargetMs
+=
+0
 ;
 struct
 Control

@@ -772,6 +772,16 @@ outSources
 )
 const
 ;
+virtual
+void
+SetJitterBufferTarget
+(
+DOMHighResTimeStamp
+aTargetMs
+)
+=
+0
+;
 void
 InsertAudioLevelForContributingSource
 (

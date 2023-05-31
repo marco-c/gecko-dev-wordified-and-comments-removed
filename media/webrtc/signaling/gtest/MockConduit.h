@@ -438,6 +438,15 @@ Stats
 )
 )
 ;
+MOCK_METHOD1
+(
+SetJitterBufferTarget
+void
+(
+DOMHighResTimeStamp
+)
+)
+;
 MOCK_CONST_METHOD0
 (
 GetUpstreamRtpSources
