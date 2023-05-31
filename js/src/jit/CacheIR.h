@@ -974,6 +974,7 @@ JSObject
 Symbol
 String
 BaseScript
+JitCode
 Id
 AllocSite
 RawInt64

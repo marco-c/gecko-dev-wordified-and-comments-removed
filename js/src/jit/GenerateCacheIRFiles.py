@@ -541,6 +541,20 @@ writeBaseScriptField
 )
     
 "
+JitCodeField
+"
+:
+(
+"
+JitCode
+*
+"
+"
+writeJitCodeField
+"
+)
+    
+"
 RawInt32Field
 "
 :
@@ -1558,6 +1572,26 @@ stubOffset
 )
     
 "
+JitCodeField
+"
+:
+(
+"
+uint32_t
+"
+"
+Offset
+"
+"
+reader
+.
+stubOffset
+(
+)
+"
+)
+    
+"
 RawInt32Field
 "
 :
@@ -2420,6 +2454,14 @@ spewField
 "
     
 "
+JitCodeField
+"
+:
+"
+spewField
+"
+    
+"
 RawInt32Field
 "
 :
@@ -3248,6 +3290,12 @@ SymbolField
     
 "
 BaseScriptField
+"
+:
+1
+    
+"
+JitCodeField
 "
 :
 1
