@@ -973,6 +973,16 @@ builds
 .
 -
 jittest
+linux2204
+-
+wayland
+-
+tests
+:
+-
+mochitest
+-
+plain
 #
 Windows
 windows
