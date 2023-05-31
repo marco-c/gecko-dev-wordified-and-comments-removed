@@ -4692,12 +4692,6 @@ MemoryPressure
 (
 )
 {
-mUserEntries
-.
-Clear
-(
-)
-;
 }
 size_t
 Performance
