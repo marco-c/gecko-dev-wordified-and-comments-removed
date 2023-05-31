@@ -22012,13 +22012,6 @@ fail
 CompileZone
 *
 zone
-void
-*
-posAddr
-const
-void
-*
-curEddAddr
 JS
 :
 :
