@@ -355,6 +355,27 @@ kwargs
 )
 :
     
+sanitizer_enabled
+=
+kwargs
+.
+get
+(
+"
+sanitizer_enabled
+"
+)
+    
+if
+sanitizer_enabled
+:
+        
+test_type
+=
+"
+crashtest
+"
+    
 executor_kwargs
 =
 base_executor_kwargs
@@ -367,6 +388,15 @@ run_info_data
 *
 kwargs
 )
+    
+executor_kwargs
+[
+"
+sanitizer_enabled
+"
+]
+=
+sanitizer_enabled
     
 return
 executor_kwargs
