@@ -1566,6 +1566,17 @@ CLANG_CC
 "
 ;
 then
+if
+"
+{
+OS_TARGET
+}
+"
+!
+=
+Darwin
+;
+then
 MOZ_PROGRAM_LDFLAGS
 =
 "
@@ -1573,6 +1584,7 @@ MOZ_PROGRAM_LDFLAGS
 -
 pie
 "
+fi
 fi
 AC_SUBST
 (
