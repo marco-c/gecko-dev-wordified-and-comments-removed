@@ -611,7 +611,9 @@ heuristic
 adaptive_history
 search_history
 search_suggest
+search_suggest_rich
 trending_search
+trending_search_rich
 top_pick
 top_site
 remote_tab
@@ -712,6 +714,7 @@ rs_adm_sponsored
 search_engine
 search_history
 search_suggest
+search_suggest_rich
 suggest_non_sponsor
 suggest_sponsor
 tab
@@ -723,6 +726,7 @@ tip_redirect
 tip_unknown
 top_site
 trending_search
+trending_search_rich
 unit
 url
 weather
@@ -1311,6 +1315,7 @@ search_engine
 search_history
 search_shortcut_button
 search_suggest
+search_suggest_rich
 site_specific_contextual_search
 suggest_non_sponsor
 suggest_sponsor
@@ -1323,6 +1328,7 @@ tip_redirect
 tip_unknown
 top_site
 trending_search
+trending_search_rich
 unit
 url
 weather
@@ -1588,7 +1594,9 @@ heuristic
 adaptive_history
 search_history
 search_suggest
+search_suggest_rich
 trending_search
+trending_search_rich
 top_pick
 top_site
 remote_tab
@@ -1706,6 +1714,7 @@ rs_adm_sponsored
 search_engine
 search_history
 search_suggest
+search_suggest_rich
 suggest_non_sponsor
 suggest_sponsor
 tab
@@ -1717,6 +1726,7 @@ tip_redirect
 tip_unknown
 top_site
 trending_search
+trending_search_rich
 unit
 url
 weather
@@ -2314,7 +2324,9 @@ heuristic
 adaptive_history
 search_history
 search_suggest
+search_suggest_rich
 trending_search
+trending_search_rich
 top_pick
 top_site
 remote_tab
@@ -2415,6 +2427,7 @@ rs_adm_sponsored
 search_engine
 search_history
 search_suggest
+search_suggest_rich
 suggest_non_sponsor
 suggest_sponsor
 tab
@@ -2426,6 +2439,7 @@ tip_redirect
 tip_unknown
 top_site
 trending_search
+trending_search_rich
 unit
 url
 weather
