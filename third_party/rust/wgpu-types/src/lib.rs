@@ -1661,9 +1661,8 @@ naga
 yet
 only
 through
-spir
+spirv
 -
-v
 passthrough
 right
 now
@@ -8442,11 +8441,11 @@ String
 pub
 vendor
 :
-usize
+u32
 pub
 device
 :
-usize
+u32
 pub
 device_type
 :

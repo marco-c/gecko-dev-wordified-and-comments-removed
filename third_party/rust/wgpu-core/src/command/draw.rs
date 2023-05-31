@@ -486,7 +486,7 @@ BindGroupIndexOutOfRange
 {
 index
 :
-u8
+u32
 max
 :
 u32
@@ -1187,7 +1187,7 @@ SetBindGroup
 {
 index
 :
-u8
+u32
 num_dynamic_offsets
 :
 u8

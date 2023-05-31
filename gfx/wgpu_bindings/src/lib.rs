@@ -541,10 +541,10 @@ name
 S
 vendor
 :
-usize
+u32
 device
 :
-usize
+u32
 device_type
 :
 wgt

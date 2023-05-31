@@ -927,8 +927,6 @@ renderer_orig
 vendor
 :
 vendor_id
-as
-usize
 device
 :
 0

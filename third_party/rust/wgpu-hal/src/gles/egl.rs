@@ -2352,7 +2352,7 @@ most
 -
 likely
 a
-deadlcok
+deadlock
 .
 "
 )
@@ -2415,7 +2415,7 @@ most
 -
 likely
 a
-deadlcok
+deadlock
 .
 "
 )

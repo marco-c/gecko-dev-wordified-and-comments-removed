@@ -4557,8 +4557,6 @@ nvidia
 :
 :
 VENDOR
-as
-usize
 }
 )
 ;
@@ -4623,8 +4621,6 @@ intel
 :
 :
 VENDOR
-as
-usize
 {
 log
 :

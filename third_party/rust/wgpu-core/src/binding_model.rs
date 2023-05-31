@@ -4387,7 +4387,7 @@ MismatchedDynamicOffsetCount
 {
 group
 :
-u8
+u32
 actual
 :
 usize
@@ -4448,7 +4448,7 @@ idx
 usize
 group
 :
-u8
+u32
 binding
 :
 u32
@@ -4540,7 +4540,7 @@ idx
 usize
 group
 :
-u8
+u32
 binding
 :
 u32
@@ -4828,7 +4828,7 @@ validate_dynamic_bindings
 self
 bind_group_index
 :
-u8
+u32
 offsets
 :
 &
