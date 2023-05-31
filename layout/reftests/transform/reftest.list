@@ -2950,7 +2950,7 @@ translate
 ref
 .
 html
-random
+skip
 -
 if
 (
@@ -3034,6 +3034,12 @@ gtkWidget
 &
 &
 isDebugBuild
+)
+random
+-
+if
+(
+useDrawSnapshot
 )
 =
 =
