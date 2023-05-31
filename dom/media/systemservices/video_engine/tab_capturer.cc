@@ -674,10 +674,6 @@ mCallbackThread
 "
 )
 ;
-CaptureFrame
-(
-)
-;
 }
 void
 TabCapturerWebrtc
