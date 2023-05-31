@@ -1149,12 +1149,7 @@ mSource
 aSource
 -
 >
-GetContent
-(
-)
--
->
-IsText
+IsTextFrame
 (
 )
 ?
