@@ -557,7 +557,7 @@ enum
 class
 RFPTarget
 :
-unsigned
+uint32_t
 {
 #
 include
