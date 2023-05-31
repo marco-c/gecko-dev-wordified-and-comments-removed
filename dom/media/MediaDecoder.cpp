@@ -2457,6 +2457,10 @@ mPendingStatusUpdateForNewlyCreatedStateMachine
 =
 true
 ;
+DiscardOngoingSeekIfExists
+(
+)
+;
 discardStateMachine
 -
 >
