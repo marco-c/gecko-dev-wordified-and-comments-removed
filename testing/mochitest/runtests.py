@@ -18135,6 +18135,10 @@ False
 crashAsPass
 =
 False
+        
+currentManifest
+=
+None
     
 )
 :
@@ -19131,6 +19135,10 @@ if
 status
 :
                 
+status
+=
+1
+                
 self
 .
 message_logger
@@ -19250,39 +19258,6 @@ process_message
 (
 message
 )
-                
-else
-:
-                    
-self
-.
-log
-.
-error
-(
-                        
-"
-TEST
--
-UNEXPECTED
--
-FAIL
-|
-%
-s
-|
-%
-s
-"
-%
-(
-self
-.
-lastTestSeen
-msg
-)
-                    
-)
             
 else
 :
@@ -19291,6 +19266,10 @@ self
 .
 lastTestSeen
 =
+(
+                    
+currentManifest
+or
 "
 Main
 app
@@ -19298,6 +19277,8 @@ process
 exited
 normally
 "
+                
+)
             
 self
 .
@@ -19409,13 +19390,13 @@ None
             
 if
 crashAsPass
-:
-                
-if
+or
 crash_count
 >
 0
-and
+:
+                
+if
 self
 .
 message_logger
@@ -19429,6 +19410,10 @@ expected
 CRASH
 "
                 
+if
+crashAsPass
+:
+                    
 status
 =
 0
@@ -19540,8 +19525,11 @@ terminated
 with
 exit
 code
-0
+%
+s
 "
+%
+status
                 
 }
                 
@@ -24300,6 +24288,10 @@ crashAsPass
 options
 .
 crashAsPass
+                    
+currentManifest
+=
+manifestToFilter
                 
 )
                 
@@ -24520,29 +24512,36 @@ options
 .
 xrePath
         
+if
+status
+=
+=
+0
+:
+            
 mozleak
 .
 process_leak_log
 (
-            
+                
 self
 .
 leak_report_file
-            
+                
 leak_thresholds
 =
 leakThresholds
-            
+                
 ignore_missing_leaks
 =
 ignoreMissingLeaks
-            
+                
 log
 =
 self
 .
 log
-            
+                
 stack_fixer
 =
 get_stack_fixer_function
@@ -24552,7 +24551,7 @@ options
 .
 symbolsPath
 )
-        
+            
 )
         
 self
@@ -26188,52 +26187,6 @@ test_end
 "
 :
                 
-if
-(
-                    
-self
-.
-harness
-.
-currentTests
-                    
-and
-message
-[
-"
-test
-"
-]
-=
-=
-self
-.
-harness
-.
-currentTests
-[
--
-1
-]
-                
-)
-:
-                    
-self
-.
-harness
-.
-lastTestSeen
-=
-"
-Last
-test
-finished
-"
-                
-else
-:
-                    
 self
 .
 harness
