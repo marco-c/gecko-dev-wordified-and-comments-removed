@@ -113,13 +113,9 @@ h
 namespace
 js
 {
-namespace
-gc
-{
 class
 TenuringTracer
 ;
-}
 namespace
 jit
 {
@@ -2890,9 +2886,6 @@ private
 friend
 class
 js
-:
-:
-gc
 :
 :
 TenuringTracer

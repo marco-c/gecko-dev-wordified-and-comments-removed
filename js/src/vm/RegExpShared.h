@@ -128,9 +128,6 @@ class
 ArrayObject
 ;
 class
-PlainObject
-;
-class
 RegExpRealm
 ;
 class

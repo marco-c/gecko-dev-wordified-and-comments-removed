@@ -184,6 +184,12 @@ CheckHeapAfterGC
 \
 D
 (
+CheckNursery
+16
+)
+\
+D
+(
 YieldBeforeSweepingAtoms
 17
 )

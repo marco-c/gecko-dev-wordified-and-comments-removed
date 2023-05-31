@@ -58,15 +58,6 @@ TypeDecls
 .
 h
 "
-#
-include
-"
-threading
-/
-ProtectedData
-.
-h
-"
 class
 JSRope
 ;

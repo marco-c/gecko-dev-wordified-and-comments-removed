@@ -43,15 +43,6 @@ h
 #
 include
 "
-gc
-/
-GCParallelTask
-.
-h
-"
-#
-include
-"
 js
 /
 HeapAPI
