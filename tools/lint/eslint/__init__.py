@@ -586,6 +586,20 @@ list
 -
 different
 "
+            
+"
+-
+-
+no
+-
+error
+-
+on
+-
+unmatched
+-
+pattern
+"
         
 ]
         
@@ -1253,31 +1267,6 @@ errors
 if
 not
 (
-                
-"
-No
-supported
-files
-were
-found
-"
-in
-error
-                
-or
-"
-No
-files
-matching
-the
-pattern
-were
-found
-"
-in
-error
-                
-or
 "
 Ignored
 unknown
@@ -1285,7 +1274,6 @@ option
 "
 in
 error
-            
 )
         
 ]
