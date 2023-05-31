@@ -1,0 +1,14 @@
+[
+explicit_handle
+]
+interface
+HandlerData
+{
+typedef
+[
+encode
+decode
+]
+IA2Payload
+;
+}

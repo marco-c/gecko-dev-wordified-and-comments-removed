@@ -23,6 +23,9 @@ DIRS
 =
 [
 "
+gecko
+"
+"
 msaa
 "
 "

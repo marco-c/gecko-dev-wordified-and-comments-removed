@@ -5680,6 +5680,16 @@ e
 }
 data
 .
+handlerUsed
+=
+Services
+.
+appinfo
+.
+accessibleHandlerUsed
+;
+data
+.
 instantiator
 =
 Services

@@ -72,3 +72,13 @@ widget
 .
 rc
 "
+#
+ifdef
+ACCESSIBILITY
+1
+typelib
+IGeckoCustom
+.
+tlb
+#
+endif

@@ -142,6 +142,11 @@ defined
 (
 XP_WIN
 )
+bool
+IsHandlerRegistered
+(
+)
+;
 void
 SetInstantiator
 (

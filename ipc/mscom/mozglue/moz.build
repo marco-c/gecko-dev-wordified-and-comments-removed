@@ -27,6 +27,11 @@ UNIFIED_SOURCES
 =
 [
 "
+ActCtxResource
+.
+cpp
+"
+"
 ProcessRuntimeShared
 .
 cpp
