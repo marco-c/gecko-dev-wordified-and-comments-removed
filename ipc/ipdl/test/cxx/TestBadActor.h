@@ -161,7 +161,6 @@ char
 *
 aErrorMsg
 )
-const
 override
 ;
 PTestBadActorSubParent
