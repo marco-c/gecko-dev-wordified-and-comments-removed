@@ -4179,6 +4179,8 @@ const
 nsACString
 &
 aCategory
+bool
+aIsWarning
 )
 {
 if
@@ -4212,6 +4214,7 @@ LogBlockedCORSRequest
 (
 aMessage
 aCategory
+aIsWarning
 )
 ;
 }

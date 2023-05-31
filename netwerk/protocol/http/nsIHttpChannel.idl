@@ -402,6 +402,9 @@ aMessage
 in
 ACString
 aCategory
+in
+boolean
+aIsWarning
 )
 ;
 void

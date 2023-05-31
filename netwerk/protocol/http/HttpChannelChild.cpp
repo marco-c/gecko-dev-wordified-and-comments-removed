@@ -14146,6 +14146,10 @@ const
 nsACString
 &
 aCategory
+const
+bool
+&
+aIsWarning
 )
 {
 Unused
@@ -14155,6 +14159,7 @@ LogBlockedCORSRequest
 (
 aMessage
 aCategory
+aIsWarning
 )
 ;
 return
@@ -14177,6 +14182,8 @@ const
 nsACString
 &
 aCategory
+bool
+aIsWarning
 )
 {
 uint64_t
@@ -14228,6 +14235,7 @@ privateBrowsing
 fromChromeContext
 aMessage
 aCategory
+aIsWarning
 )
 ;
 return

@@ -266,6 +266,8 @@ const
 nsACString
 &
 aCategory
+bool
+aIsWarning
 )
 override
 ;

@@ -831,6 +831,10 @@ const
 nsACString
 &
 aCategory
+const
+bool
+&
+aIsWarning
 )
 override
 ;
@@ -845,6 +849,10 @@ const
 nsACString
 &
 aCategory
+bool
+aIsWarning
+=
+false
 )
 override
 ;

@@ -2642,7 +2642,9 @@ aMessage
 const
 nsACString
 &
-aCategory
+aCategor
+bool
+aIsWarning
 )
 {
 return

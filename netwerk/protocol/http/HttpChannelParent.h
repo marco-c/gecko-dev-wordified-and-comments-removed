@@ -948,6 +948,10 @@ const
 nsACString
 &
 aCategory
+bool
+aIsWarning
+=
+false
 )
 override
 ;

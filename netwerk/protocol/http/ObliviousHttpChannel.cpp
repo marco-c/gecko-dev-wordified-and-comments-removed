@@ -1702,6 +1702,8 @@ const
 nsACString
 &
 aCategory
+bool
+aIsWarning
 )
 {
 return
@@ -1712,6 +1714,7 @@ LogBlockedCORSRequest
 (
 aMessage
 aCategory
+aIsWarning
 )
 ;
 }

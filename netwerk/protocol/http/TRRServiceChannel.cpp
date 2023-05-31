@@ -6478,6 +6478,8 @@ const
 nsACString
 &
 aCategory
+bool
+aIsWarning
 )
 {
 return
