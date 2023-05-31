@@ -1,7 +1,6 @@
 import
 {
 getSelectedFrameId
-getSource
 getSettledSourceTextContent
 isMapScopesEnabled
 getSelectedFrame
@@ -804,17 +803,6 @@ try
 const
 content
 =
-getSource
-(
-getState
-(
-)
-source
-.
-id
-)
-&
-&
 getSettledSourceTextContent
 (
 getState
