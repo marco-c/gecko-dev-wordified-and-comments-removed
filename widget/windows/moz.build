@@ -177,6 +177,14 @@ Focus
 Handling
 "
 )
+DIRS
++
+=
+[
+"
+filedialog
+"
+]
 TEST_DIRS
 +
 =
