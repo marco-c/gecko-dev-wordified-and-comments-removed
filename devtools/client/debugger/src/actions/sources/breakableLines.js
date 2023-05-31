@@ -100,8 +100,7 @@ function
 setBreakableLines
 (
 cx
-source
-sourceActor
+location
 )
 {
 return
@@ -123,6 +122,8 @@ if
 (
 isOriginalId
 (
+location
+.
 source
 .
 id
@@ -139,11 +140,7 @@ setBreakpointPositions
 (
 {
 cx
-sourceId
-:
-source
-.
-id
+location
 }
 )
 )
@@ -163,6 +160,8 @@ getBreakableLines
 getState
 (
 )
+location
+.
 source
 .
 id
@@ -207,6 +206,8 @@ SET_ORIGINAL_BREAKABLE_LINES
 cx
 sourceId
 :
+location
+.
 source
 .
 id
@@ -224,6 +225,8 @@ getSourceActorBreakableLines
 getState
 (
 )
+location
+.
 sourceActor
 .
 id
@@ -244,6 +247,8 @@ client
 .
 getSourceActorBreakableLines
 (
+location
+.
 sourceActor
 )
 ;
@@ -257,6 +262,8 @@ SET_SOURCE_ACTOR_BREAKABLE_LINES
 "
 sourceActorId
 :
+location
+.
 sourceActor
 .
 id

@@ -92,7 +92,6 @@ const
 {
 line
 column
-sourceId
 }
 =
 location
@@ -164,8 +163,7 @@ setBreakpointPositions
 (
 {
 cx
-sourceId
-line
+location
 }
 )
 )
