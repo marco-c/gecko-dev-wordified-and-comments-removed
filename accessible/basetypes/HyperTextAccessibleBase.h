@@ -18,6 +18,13 @@ nsIAccessibleText
 .
 h
 "
+#
+include
+"
+nsIAccessibleTypes
+.
+h
+"
 namespace
 mozilla
 :
@@ -170,7 +177,6 @@ false
 )
 const
 ;
-virtual
 uint32_t
 CharacterCount
 (
@@ -208,7 +214,6 @@ aOffset
 )
 const
 ;
-virtual
 void
 TextSubstring
 (
@@ -242,7 +247,6 @@ aEndOffset
 nullptr
 )
 ;
-virtual
 char16_t
 CharAt
 (
@@ -268,7 +272,6 @@ CharAt
 )
 ;
 }
-virtual
 LayoutDeviceIntRect
 CharBounds
 (
@@ -278,7 +281,6 @@ uint32_t
 aCoordType
 )
 ;
-virtual
 LayoutDeviceIntRect
 TextBounds
 (
@@ -288,6 +290,11 @@ int32_t
 aEndOffset
 uint32_t
 aCoordType
+=
+nsIAccessibleCoordinateType
+:
+:
+COORDTYPE_SCREEN_RELATIVE
 )
 ;
 virtual
@@ -313,7 +320,6 @@ aDescendToEnd
 false
 )
 ;
-virtual
 void
 TextBeforeOffset
 (
@@ -332,7 +338,6 @@ nsAString
 aText
 )
 ;
-virtual
 void
 TextAtOffset
 (
@@ -351,7 +356,6 @@ nsAString
 aText
 )
 ;
-virtual
 void
 TextAfterOffset
 (
@@ -435,7 +439,6 @@ child
 1
 ;
 }
-virtual
 already_AddRefed
 <
 AccAttributes
@@ -544,7 +547,6 @@ aSelectionNum
 0
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-virtual
 void
 ScrollSubstringTo
 (
