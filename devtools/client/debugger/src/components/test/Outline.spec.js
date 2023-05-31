@@ -241,6 +241,8 @@ symbols
 selectedLocation
 :
 {
+id
+:
 sourceId
 }
 onAlphabetizeClick

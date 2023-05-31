@@ -46,7 +46,13 @@ column
 :
 2
 "
-sourceId
+source
+"
+:
+Object
+{
+"
+id
 "
 :
 "
@@ -58,6 +64,7 @@ child1
 /
 source1
 "
+}
 }
 }
 }
@@ -106,13 +113,7 @@ Object
 key
 =
 "
-server1
-.
-conn1
-.
-child1
-/
-source1
+undefined
 :
 undefined
 :
