@@ -690,6 +690,7 @@ Slot
 &
 aOther
 )
+const
 {
 return
 mEntry

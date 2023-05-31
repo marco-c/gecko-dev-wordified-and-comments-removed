@@ -65,6 +65,7 @@ Value
 &
 aRhsValue
 )
+const
 {
 return
 mValue
@@ -83,6 +84,7 @@ MacMemoryPressureLevel
 &
 aRhs
 )
+const
 {
 return
 mValue
