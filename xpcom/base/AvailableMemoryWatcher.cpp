@@ -708,7 +708,7 @@ XP_WIN
 !
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 &
 &

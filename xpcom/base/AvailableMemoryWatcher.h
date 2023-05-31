@@ -160,7 +160,7 @@ nsAvailableMemoryWatcherBase
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 virtual
 void
