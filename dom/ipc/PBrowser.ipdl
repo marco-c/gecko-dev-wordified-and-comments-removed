@@ -2428,13 +2428,6 @@ aAppUnitsPerDevPixel
 )
 ;
 async
-SetAllowDeprecatedTls
-(
-bool
-value
-)
-;
-async
 ShowDynamicToolbar
 (
 )
