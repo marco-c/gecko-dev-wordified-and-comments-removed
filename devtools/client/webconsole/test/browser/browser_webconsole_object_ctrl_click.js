@@ -171,6 +171,15 @@ setEnv
 mustHaveAccessibleRule
 :
 false
+interactiveRule
+:
+false
+focusableRule
+:
+false
+labelRule
+:
+false
 }
 )
 ;
