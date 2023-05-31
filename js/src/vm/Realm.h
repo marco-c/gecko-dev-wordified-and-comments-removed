@@ -1367,6 +1367,11 @@ isAsyncStackCapturingEnabled
 =
 false
 ;
+bool
+isUnlimitedStacksCapturingEnabled
+=
+false
+;
 private
 :
 void
