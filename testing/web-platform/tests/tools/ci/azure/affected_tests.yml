@@ -89,6 +89,12 @@ yml
 -
 template
 :
+color_profile
+.
+yml
+-
+template
+:
 install_safari
 .
 yml
