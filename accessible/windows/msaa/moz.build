@@ -87,11 +87,6 @@ EnumVariant
 cpp
 "
 "
-GeckoCustom
-.
-cpp
-"
-"
 HyperTextAccessibleWrap
 .
 cpp

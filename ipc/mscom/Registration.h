@@ -221,14 +221,6 @@ RegisteredProxy
 >
 RegisterProxy
 (
-)
-;
-UniquePtr
-<
-RegisteredProxy
->
-RegisterProxy
-(
 const
 wchar_t
 *
