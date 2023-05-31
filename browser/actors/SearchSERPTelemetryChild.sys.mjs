@@ -5724,9 +5724,9 @@ serpEventsEnabled
 &
 &
 providerInfo
-?
 .
 components
+?
 .
 length
 &
