@@ -75,17 +75,6 @@ app
 Contents
 /
 PkgInfo
-media
--
-plugin
--
-helper
-.
-app
-/
-Contents
-/
-PkgInfo
 #
 Duplicated
 on

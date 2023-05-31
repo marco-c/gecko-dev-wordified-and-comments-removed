@@ -6,9 +6,6 @@ DIRS
 app
 "
 "
-mediapluginhelper
-"
-"
 chromium
 "
 "
