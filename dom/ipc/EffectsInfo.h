@@ -95,6 +95,7 @@ EffectsInfo
 &
 aOther
 )
+const
 {
 return
 mVisibleRect
@@ -131,6 +132,7 @@ EffectsInfo
 &
 aOther
 )
+const
 {
 return
 !

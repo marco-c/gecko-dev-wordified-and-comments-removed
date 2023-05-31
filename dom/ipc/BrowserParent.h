@@ -3536,6 +3536,7 @@ APZData
 &
 aOther
 )
+const
 {
 return
 aOther
@@ -3572,6 +3573,7 @@ APZData
 &
 aOther
 )
+const
 {
 return
 !
