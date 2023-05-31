@@ -173,7 +173,6 @@ t
 .
 step
 (
-async
 function
 (
 )
@@ -200,14 +199,6 @@ getContext
 '
 )
 ;
-await
-(
-function
-(
-canvas
-ctx
-)
-{
 _assertSame
 (
 ctx
@@ -278,13 +269,6 @@ miterLimit
 "
 10
 "
-)
-;
-}
-)
-(
-canvas
-ctx
 )
 ;
 t

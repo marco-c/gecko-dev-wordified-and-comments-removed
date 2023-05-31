@@ -195,7 +195,6 @@ t
 .
 step
 (
-async
 function
 (
 )
@@ -222,14 +221,6 @@ getContext
 '
 )
 ;
-await
-(
-function
-(
-canvas
-ctx
-)
-{
 assert_throws_dom
 (
 "
@@ -392,13 +383,6 @@ getImageData
 )
 ;
 }
-)
-;
-}
-)
-(
-canvas
-ctx
 )
 ;
 t
