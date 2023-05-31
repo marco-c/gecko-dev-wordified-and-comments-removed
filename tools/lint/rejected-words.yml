@@ -2606,7 +2606,9 @@ classifier
 /
 SafeBrowsing
 .
-jsm
+sys
+.
+mjs
 -
 toolkit
 /
@@ -2908,7 +2910,9 @@ tests
 /
 UrlClassifierTestUtils
 .
-jsm
+sys
+.
+mjs
 -
 toolkit
 /

@@ -1087,7 +1087,7 @@ SafeBrowsing
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1100,7 +1100,9 @@ modules
 /
 SafeBrowsing
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
