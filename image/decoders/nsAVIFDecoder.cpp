@@ -1606,6 +1606,9 @@ aIteratorOut
 Mp4parseByteData
 data
 ;
+uint64_t
+timescale
+;
 Mp4parseStatus
 rv
 =
@@ -1615,6 +1618,8 @@ aParser
 trackID
 &
 data
+&
+timescale
 )
 ;
 if
@@ -1657,6 +1662,13 @@ wrapper
 aBuffer
 trackID
 false
+AssertedCast
+<
+int32_t
+>
+(
+timescale
+)
 )
 ;
 aIteratorOut
