@@ -1722,13 +1722,6 @@ editorActions
 )
 )
 ;
-if
-(
-features
-.
-blackboxLines
-)
-{
 const
 startLine
 =
@@ -1865,7 +1858,6 @@ blackboxedRanges
 )
 )
 ;
-}
 }
 if
 (
