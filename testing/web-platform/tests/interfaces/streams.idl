@@ -296,9 +296,6 @@ ReadableStreamType
 "
 bytes
 "
-"
-owning
-"
 }
 ;
 interface
