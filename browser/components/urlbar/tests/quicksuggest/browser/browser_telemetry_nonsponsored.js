@@ -143,18 +143,7 @@ setUpTelemetryTest
 remoteSettingsResults
 :
 [
-{
-type
-:
-"
-data
-"
-attachment
-:
-[
 REMOTE_SETTINGS_RESULT
-]
-}
 ]
 }
 )
@@ -687,7 +676,6 @@ true
 }
 )
 ;
-await
 QuickSuggestTestUtils
 .
 setConfig
@@ -1175,7 +1163,6 @@ advertiser
 }
 )
 ;
-await
 QuickSuggestTestUtils
 .
 setConfig

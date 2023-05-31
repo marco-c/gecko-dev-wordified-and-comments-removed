@@ -783,18 +783,7 @@ ensureQuickSuggestInit
 {
 remoteSettingsResults
 :
-[
-{
-type
-:
-"
-data
-"
-attachment
-:
 REMOTE_SETTINGS_RESULTS
-}
-]
 }
 )
 ;
@@ -7394,7 +7383,6 @@ eventCount
 ]
 )
 ;
-await
 QuickSuggestTestUtils
 .
 setConfig
@@ -7738,7 +7726,6 @@ checkTelemetryEvents
 ]
 )
 ;
-await
 QuickSuggestTestUtils
 .
 setConfig
@@ -8148,7 +8135,6 @@ eventCount
 ]
 )
 ;
-await
 QuickSuggestTestUtils
 .
 setConfig
@@ -8654,7 +8640,6 @@ eventCount
 ]
 )
 ;
-await
 QuickSuggestTestUtils
 .
 setConfig
@@ -9330,7 +9315,6 @@ eventCount
 ]
 )
 ;
-await
 QuickSuggestTestUtils
 .
 setConfig
@@ -9855,7 +9839,6 @@ eventCount
 ]
 )
 ;
-await
 QuickSuggestTestUtils
 .
 setConfig
@@ -10180,7 +10163,6 @@ eventCount
 ]
 )
 ;
-await
 QuickSuggestTestUtils
 .
 setConfig
@@ -10416,7 +10398,6 @@ eventCount
 ]
 )
 ;
-await
 QuickSuggestTestUtils
 .
 setConfig
@@ -10745,7 +10726,6 @@ eventCount
 ]
 )
 ;
-await
 QuickSuggestTestUtils
 .
 setConfig
