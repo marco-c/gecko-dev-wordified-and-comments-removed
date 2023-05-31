@@ -3810,16 +3810,10 @@ formElement
 ;
 if
 (
+!
 score
 )
 {
-return
-score
->
-=
-threshold
-;
-}
 TelemetryStopwatch
 .
 start
@@ -3911,6 +3905,7 @@ formElement
 score
 )
 ;
+}
 return
 score
 >
