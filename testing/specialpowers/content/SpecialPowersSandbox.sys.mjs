@@ -218,7 +218,9 @@ resource
 :
 /
 /
-specialpowers
+testing
+-
+common
 /
 SpecialPowersEventUtils
 .

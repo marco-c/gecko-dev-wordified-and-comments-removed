@@ -672,7 +672,9 @@ resource
 :
 /
 /
-specialpowers
+testing
+-
+common
 /
 WrapPrivileged
 .
