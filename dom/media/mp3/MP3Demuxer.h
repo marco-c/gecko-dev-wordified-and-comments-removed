@@ -448,7 +448,7 @@ uint8_t
 aBuffer
 int64_t
 aOffset
-int32_t
+uint32_t
 aSize
 )
 ;
@@ -509,7 +509,7 @@ mFrameIndex
 int64_t
 mTotalFrameLen
 ;
-int32_t
+uint32_t
 mSamplesPerFrame
 ;
 uint32_t
