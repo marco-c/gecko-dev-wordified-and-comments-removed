@@ -421,6 +421,13 @@ int64_t
 aDurationUsecs
 )
 ;
+double
+ToMicrosecondResolution
+(
+double
+aSeconds
+)
+;
 CheckedInt64
 FramesToUsecs
 (
