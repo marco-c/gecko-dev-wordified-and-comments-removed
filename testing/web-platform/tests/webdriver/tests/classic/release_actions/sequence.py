@@ -1,6 +1,8 @@
 from
 tests
 .
+classic
+.
 release_actions
 .
 support

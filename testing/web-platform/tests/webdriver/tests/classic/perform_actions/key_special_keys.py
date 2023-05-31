@@ -7,6 +7,8 @@ error
 from
 tests
 .
+classic
+.
 perform_actions
 .
 support
