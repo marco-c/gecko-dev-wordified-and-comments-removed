@@ -175,7 +175,9 @@ TrackSet
 ;
 public
 :
-typedef
+using
+FrameID
+=
 mozilla
 :
 :
@@ -185,7 +187,6 @@ layers
 ImageContainer
 :
 :
-FrameID
 FrameID
 ;
 MediaDecoderStateMachine
