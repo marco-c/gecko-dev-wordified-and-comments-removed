@@ -128,6 +128,10 @@ histogram_type
 "
 numerators
 "
+    
+"
+ordered_labels
+"
 ]
 known_ping_args
 =
