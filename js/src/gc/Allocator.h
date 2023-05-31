@@ -138,7 +138,7 @@ CanGC
 static
 void
 *
-AllocateNurseryOrTenuredCell
+AllocNurseryOrTenuredCell
 (
 JSContext
 *
@@ -168,7 +168,7 @@ CanGC
 static
 void
 *
-AllocateTenuredCell
+AllocTenuredCell
 (
 JSContext
 *
@@ -199,7 +199,7 @@ Args
 static
 T
 *
-AllocateString
+NewString
 (
 JSContext
 *
@@ -251,7 +251,7 @@ void
 *
 ptr
 =
-AllocateNurseryOrTenuredCell
+AllocNurseryOrTenuredCell
 <
 JS
 :
@@ -316,7 +316,7 @@ allowGC
 static
 T
 *
-AllocateBigInt
+NewBigInt
 (
 JSContext
 *
@@ -329,7 +329,7 @@ void
 *
 ptr
 =
-AllocateNurseryOrTenuredCell
+AllocNurseryOrTenuredCell
 <
 JS
 :
@@ -388,7 +388,7 @@ CanGC
 static
 T
 *
-AllocateObject
+NewObject
 (
 JSContext
 *
@@ -461,7 +461,7 @@ void
 *
 cell
 =
-AllocateNurseryOrTenuredCell
+AllocNurseryOrTenuredCell
 <
 JS
 :
@@ -520,7 +520,7 @@ Args
 static
 T
 *
-AllocateTenured
+NewTenuredCell
 (
 JSContext
 *
@@ -555,7 +555,7 @@ void
 *
 cell
 =
-AllocateTenuredCell
+AllocTenuredCell
 <
 allowGC
 >
@@ -671,7 +671,7 @@ T
 )
 {
 return
-AllocateObject
+NewObject
 <
 T
 allowGC
@@ -712,7 +712,7 @@ T
 )
 {
 return
-AllocateBigInt
+NewBigInt
 <
 T
 allowGC
@@ -772,7 +772,7 @@ T
 )
 {
 return
-AllocateString
+NewString
 <
 T
 allowGC
@@ -798,7 +798,7 @@ args
 else
 {
 return
-AllocateTenured
+NewTenuredCell
 <
 T
 allowGC
