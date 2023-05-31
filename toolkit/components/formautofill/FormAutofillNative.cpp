@@ -1325,6 +1325,13 @@ carta
 "
 "
 |
+posiadacz
+.
+*
+karty
+"
+"
+|
 cc
 -
 ?
@@ -1507,6 +1514,13 @@ ro
 (
 carte
 )
+"
+"
+|
+numer
+.
+*
+karty
 "
 "
 |
