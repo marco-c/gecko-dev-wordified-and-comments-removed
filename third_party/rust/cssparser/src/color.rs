@@ -144,8 +144,9 @@ none
 [
 inline
 ]
+pub
 fn
-serialize_alpha
+serialize_color_alpha
 (
 dest
 :
@@ -776,7 +777,7 @@ dest
 )
 ?
 ;
-serialize_alpha
+serialize_color_alpha
 (
 dest
 Some
@@ -1912,7 +1913,7 @@ b
 )
 ?
 ;
-serialize_alpha
+serialize_color_alpha
 (
 dest
 self
@@ -2364,7 +2365,7 @@ hue
 )
 ?
 ;
-serialize_alpha
+serialize_color_alpha
 (
 dest
 self
@@ -2922,7 +2923,7 @@ c3
 )
 ?
 ;
-serialize_alpha
+serialize_color_alpha
 (
 dest
 self
