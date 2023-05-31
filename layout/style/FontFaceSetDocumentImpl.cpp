@@ -732,11 +732,11 @@ GetPresContext
 )
 const
 {
-MOZ_ASSERT
+mozilla
+:
+:
+AssertIsMainThreadOrServoFontMetricsLocked
 (
-NS_IsMainThread
-(
-)
 )
 ;
 if
