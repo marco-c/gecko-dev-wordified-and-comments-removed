@@ -2709,6 +2709,13 @@ with
 open
 (
 brand_file
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 f
