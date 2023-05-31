@@ -23,13 +23,6 @@ eParagraph
 eStyle
 }
 ;
-enum
-class
-EWhichPostFilter
-{
-eContainsText
-}
-;
 }
 }
 #

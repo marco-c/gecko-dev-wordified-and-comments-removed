@@ -268,16 +268,6 @@ break
 ;
 default
 :
-if
-(
-a11y
-:
-:
-IsCacheActive
-(
-)
-)
-{
 nsAutoString
 name
 ;
@@ -308,7 +298,6 @@ nsIAccessibleTraversalRule
 :
 FILTER_MATCH
 ;
-}
 }
 break
 ;
