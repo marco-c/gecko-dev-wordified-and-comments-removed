@@ -10001,7 +10001,7 @@ status
 MSG_DEF
 (
 JSMSG_DYNAMIC_IMPORT_FAILED
-0
+1
 JSEXN_TYPEERR
 "
 error
@@ -10009,6 +10009,10 @@ loading
 dynamically
 imported
 module
+:
+{
+0
+}
 "
 )
 MSG_DEF
