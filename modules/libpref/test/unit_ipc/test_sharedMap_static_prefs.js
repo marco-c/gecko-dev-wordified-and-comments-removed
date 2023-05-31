@@ -234,8 +234,10 @@ contentPage
 spawn
 (
 [
+[
 PREF1_NAME
 PREF2_NAME
+]
 ]
 prefs
 =

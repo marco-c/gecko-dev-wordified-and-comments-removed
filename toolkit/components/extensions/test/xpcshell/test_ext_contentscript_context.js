@@ -316,7 +316,7 @@ show
 await
 contentPage
 .
-spawn
+legacySpawn
 (
 extension
 .
@@ -440,7 +440,7 @@ hide
 await
 contentPage
 .
-spawn
+legacySpawn
 (
 null
 async
@@ -500,7 +500,7 @@ show
 await
 contentPage
 .
-spawn
+legacySpawn
 (
 null
 async
@@ -831,7 +831,7 @@ true
 await
 contentPage
 .
-spawn
+legacySpawn
 (
 extension
 .
@@ -1007,7 +1007,7 @@ ready
 await
 contentPage
 .
-spawn
+legacySpawn
 (
 extension
 .
@@ -1223,7 +1223,7 @@ unload
 await
 contentPage
 .
-spawn
+legacySpawn
 (
 null
 async
@@ -1610,7 +1610,7 @@ first
 await
 contentPage
 .
-spawn
+legacySpawn
 (
 extension
 .
@@ -1751,7 +1751,7 @@ ready
 await
 contentPage
 .
-spawn
+legacySpawn
 (
 extension
 .
@@ -1801,7 +1801,7 @@ hide
 await
 contentPage
 .
-spawn
+legacySpawn
 (
 null
 async
