@@ -17436,6 +17436,14 @@ aRv
 return
 ;
 }
+bool
+shouldRestoreFocus
+=
+false
+;
+nsWeakPtr
+originallyFocusedElement
+;
 if
 (
 IsAutoPopover
@@ -17503,9 +17511,6 @@ aRv
 return
 ;
 }
-}
-const
-bool
 shouldRestoreFocus
 =
 !
@@ -17515,9 +17520,6 @@ document
 GetTopmostAutoPopover
 (
 )
-;
-nsWeakPtr
-originallyFocusedElement
 ;
 if
 (
@@ -17545,6 +17547,7 @@ AsElement
 )
 )
 ;
+}
 }
 document
 -
