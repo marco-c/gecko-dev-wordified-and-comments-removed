@@ -59,7 +59,7 @@ top
 -
 right
 and
-bottomInit
+bottom
 -
 left
 corners
