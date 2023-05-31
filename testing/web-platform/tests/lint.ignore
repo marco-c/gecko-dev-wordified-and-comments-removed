@@ -10175,10 +10175,6 @@ webdriver
 /
 tests
 /
-bidi
-/
-browsing_context
-/
 print
 /
 *
@@ -10189,7 +10185,9 @@ webdriver
 /
 tests
 /
-classic
+bidi
+/
+browsing_context
 /
 print
 /

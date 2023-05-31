@@ -96,8 +96,6 @@ webdriver
 /
 tests
 /
-classic
-/
 element_click
 /
 support
@@ -243,8 +241,6 @@ link
 webdriver
 /
 tests
-/
-classic
 /
 element_click
 /
@@ -420,8 +416,6 @@ link
 webdriver
 /
 tests
-/
-classic
 /
 element_click
 /

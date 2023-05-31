@@ -9,8 +9,6 @@ flatten
 from
 tests
 .
-classic
-.
 new_session
 .
 support
