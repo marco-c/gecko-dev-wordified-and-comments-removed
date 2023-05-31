@@ -3568,7 +3568,7 @@ bool
 >
 sArrayFromAsyncEnabled
 (
-false
+true
 )
 ;
 #

@@ -789,7 +789,7 @@ endif
 bool
 arrayFromAsync_
 =
-false
+true
 ;
 #
 ifdef
