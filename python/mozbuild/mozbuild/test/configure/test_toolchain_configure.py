@@ -1491,14 +1491,14 @@ __cplusplus
 "
 }
 }
-CLANG_CL_8_0
+CLANG_CL_9_0
 =
 (
     
 CLANG_BASE
 (
 "
-8
+9
 .
 0
 .
@@ -6904,7 +6904,7 @@ clang
 cl
 "
 :
-CLANG_CL_8_0
+CLANG_CL_9_0
 +
 CLANG_CL_PLATFORM_X86
         
@@ -7235,7 +7235,7 @@ Only
 clang
 -
 cl
-8
+9
 .
 0
 or
@@ -7255,7 +7255,7 @@ version
     
 )
     
-CLANG_CL_8_0_RESULT
+CLANG_CL_9_0_RESULT
 =
 CompilerResult
 (
@@ -7263,7 +7263,7 @@ CompilerResult
 version
 =
 "
-8
+9
 .
 0
 .
@@ -7323,7 +7323,7 @@ Only
 clang
 -
 cl
-8
+9
 .
 0
 or
@@ -7343,7 +7343,7 @@ version
     
 )
     
-CLANGXX_CL_8_0_RESULT
+CLANGXX_CL_9_0_RESULT
 =
 CompilerResult
 (
@@ -7351,7 +7351,7 @@ CompilerResult
 version
 =
 "
-8
+9
 .
 0
 .
@@ -7569,7 +7569,7 @@ c_compiler
 :
 self
 .
-CLANG_CL_8_0_RESULT
+CLANG_CL_9_0_RESULT
                 
 "
 cxx_compiler
@@ -7577,7 +7577,7 @@ cxx_compiler
 :
 self
 .
-CLANGXX_CL_8_0_RESULT
+CLANGXX_CL_9_0_RESULT
             
 }
         
@@ -7969,7 +7969,7 @@ clang
 cl
 "
 :
-CLANG_CL_8_0
+CLANG_CL_9_0
 +
 CLANG_CL_PLATFORM_X86_64
         
@@ -8460,7 +8460,7 @@ c_compiler
 :
 MingwToolchainTest
 .
-CLANG_CL_8_0_RESULT
+CLANG_CL_9_0_RESULT
                 
 "
 cxx_compiler
@@ -8468,7 +8468,7 @@ cxx_compiler
 :
 MingwToolchainTest
 .
-CLANGXX_CL_8_0_RESULT
+CLANGXX_CL_9_0_RESULT
             
 }
         
@@ -12335,7 +12335,7 @@ clang
 cl
 "
 :
-CLANG_CL_8_0
+CLANG_CL_9_0
 +
 CLANG_CL_PLATFORM_X86_64
 }
@@ -12364,7 +12364,7 @@ c_compiler
 :
 MingwToolchainTest
 .
-CLANG_CL_8_0_RESULT
+CLANG_CL_9_0_RESULT
                 
 "
 cxx_compiler
@@ -12372,7 +12372,7 @@ cxx_compiler
 :
 MingwToolchainTest
 .
-CLANGXX_CL_8_0_RESULT
+CLANGXX_CL_9_0_RESULT
                 
 "
 host_c_compiler
