@@ -350,7 +350,6 @@ length
 )
 =
 >
-{
 length
 .
 to_computed_value
@@ -358,7 +357,6 @@ to_computed_value
 context
 base_size
 )
-}
 Self
 :
 :
@@ -368,14 +366,12 @@ length
 )
 =
 >
-{
 length
 .
 to_computed_value
 (
 context
 )
-}
 Self
 :
 :
@@ -385,14 +381,12 @@ length
 )
 =
 >
-{
 length
 .
 to_computed_value
 (
 context
 )
-}
 Self
 :
 :
@@ -402,7 +396,6 @@ length
 )
 =
 >
-{
 length
 .
 to_computed_value
@@ -425,7 +418,6 @@ computed_size
 (
 )
 )
-}
 }
 }
 }
@@ -492,7 +484,6 @@ calc
 )
 =
 >
-{
 calc
 .
 to_computed_value
@@ -507,7 +498,6 @@ to_length
 unwrap
 (
 )
-}
 }
 }
 #
@@ -609,7 +599,6 @@ lp
 )
 =
 >
-{
 Some
 (
 lp
@@ -619,7 +608,6 @@ to_used_value
 percentage_basis
 )
 )
-}
 }
 }
 /

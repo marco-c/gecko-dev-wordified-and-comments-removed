@@ -290,6 +290,7 @@ find
 |
 source_size
 |
+{
 source_size
 .
 condition
@@ -303,6 +304,7 @@ to_bool
 (
 false
 )
+}
 )
 ;
 match

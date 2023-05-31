@@ -1835,6 +1835,7 @@ parse_comma_separated
 |
 input
 |
+{
 CrossFadeElement
 :
 :
@@ -1845,6 +1846,7 @@ input
 cors_mode
 flags
 )
+}
 )
 }
 )

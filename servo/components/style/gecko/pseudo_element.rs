@@ -85,7 +85,7 @@ crate
 values
 :
 :
-AtomIdent
+serialize_atom_identifier
 ;
 use
 crate
@@ -94,7 +94,7 @@ crate
 values
 :
 :
-serialize_atom_identifier
+AtomIdent
 ;
 use
 cssparser
@@ -773,6 +773,7 @@ CSS_PSEUDO_ELEMENT_ENABLED_IN_UA_SHEETS_AND_CHROME
 =
 =
 0
+;
 }
 pub
 fn

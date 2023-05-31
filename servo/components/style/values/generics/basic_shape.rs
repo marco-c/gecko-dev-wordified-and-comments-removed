@@ -9,10 +9,10 @@ animated
 :
 :
 {
+lists
 Animate
 Procedure
 ToAnimatedZero
-lists
 }
 ;
 use

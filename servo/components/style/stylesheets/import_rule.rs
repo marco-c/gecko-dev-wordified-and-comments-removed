@@ -1113,14 +1113,12 @@ Style
 |
 context
 |
-{
 condition
 .
 eval
 (
 context
 )
-}
 )
 ;
 ImportSupportsCondition

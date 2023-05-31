@@ -137,12 +137,12 @@ cssparser
 AtRuleParser
 BasicParseErrorKind
 CowRcStr
-RuleBodyParser
-RuleBodyItemParser
+DeclarationParser
 Parser
 ParserState
 QualifiedRuleParser
-DeclarationParser
+RuleBodyItemParser
+RuleBodyParser
 SourceLocation
 Token
 }

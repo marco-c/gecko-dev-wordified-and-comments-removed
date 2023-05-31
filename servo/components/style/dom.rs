@@ -128,7 +128,10 @@ crate
 values
 :
 :
-AtomIdent
+computed
+:
+:
+Display
 ;
 use
 crate
@@ -137,10 +140,7 @@ crate
 values
 :
 :
-computed
-:
-:
-Display
+AtomIdent
 ;
 use
 crate

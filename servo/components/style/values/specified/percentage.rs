@@ -89,8 +89,8 @@ values
 :
 :
 {
-serialize_percentage
 normalize
+serialize_percentage
 CSSFloat
 }
 ;

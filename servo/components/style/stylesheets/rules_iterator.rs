@@ -690,7 +690,6 @@ layer_rule
 )
 =
 >
-{
 Some
 (
 layer_rule
@@ -708,7 +707,6 @@ iter
 (
 )
 )
-}
 }
 }
 }

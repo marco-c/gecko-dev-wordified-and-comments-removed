@@ -157,8 +157,8 @@ import_rule
 :
 {
 ImportLayer
-ImportSupportsCondition
 ImportSheet
+ImportSupportsCondition
 }
 ;
 use

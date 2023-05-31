@@ -2609,7 +2609,6 @@ arc
 )
 =
 >
-{
 CssRule
 :
 :
@@ -2621,7 +2620,6 @@ clone
 (
 )
 )
-}
 CssRule
 :
 :
@@ -2834,7 +2832,6 @@ arc
 )
 =
 >
-{
 CssRule
 :
 :
@@ -2846,7 +2843,6 @@ clone
 (
 )
 )
-}
 CssRule
 :
 :
@@ -2857,7 +2853,6 @@ arc
 )
 =
 >
-{
 CssRule
 :
 :
@@ -2869,7 +2864,6 @@ clone
 (
 )
 )
-}
 CssRule
 :
 :
@@ -2924,7 +2918,6 @@ arc
 )
 =
 >
-{
 CssRule
 :
 :
@@ -2936,7 +2929,6 @@ clone
 (
 )
 )
-}
 CssRule
 :
 :
@@ -3128,7 +3120,6 @@ arc
 )
 =
 >
-{
 CssRule
 :
 :
@@ -3140,7 +3131,6 @@ clone
 (
 )
 )
-}
 CssRule
 :
 :
