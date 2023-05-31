@@ -234,8 +234,11 @@ unsigned
 long
 cols
 ;
-/
-/
+[
+CEReactions
+Pure
+SetterThrows
+]
 attribute
 DOMString
 dirName
