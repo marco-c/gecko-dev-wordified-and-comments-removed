@@ -474,16 +474,13 @@ kwargs
 )
         
 assert
-(
 '
 capabilities
 '
 in
 executor_args
-)
         
 assert
-(
 '
 webkitgtk
 :
@@ -496,10 +493,8 @@ executor_args
 capabilities
 '
 ]
-)
         
 assert
-(
 '
 certificates
 '
@@ -517,7 +512,6 @@ webkitgtk
 browserOptions
 '
 ]
-)
         
 cert_list
 =
@@ -547,17 +541,14 @@ valid_domains_test
 :
             
 assert
-(
 domain_is_inside_certificate_list_cert
 (
 valid_domain
 cert_list
 cert_file
 )
-)
             
 assert
-(
 not
 domain_is_inside_certificate_list_cert
 (
@@ -569,7 +560,6 @@ cert_file
 .
 backup_non_existent
 "
-)
 )
         
 for
@@ -579,7 +569,6 @@ invalid_domains_test
 :
             
 assert
-(
 not
 domain_is_inside_certificate_list_cert
 (
@@ -587,10 +576,8 @@ invalid_domain
 cert_list
 cert_file
 )
-)
             
 assert
-(
 not
 domain_is_inside_certificate_list_cert
 (
@@ -602,5 +589,4 @@ cert_file
 .
 backup_non_existent
 "
-)
 )

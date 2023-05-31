@@ -51,6 +51,7 @@ typing
 import
 ClassVar
 List
+Optional
 Set
 Tuple
 from
@@ -514,6 +515,18 @@ abc
 ABCMeta
     
 headers
+:
+ClassVar
+[
+List
+[
+Tuple
+[
+str
+str
+]
+]
+]
 =
 [
 ]
@@ -1346,6 +1359,14 @@ WrapperHandler
 :
     
 global_type
+:
+ClassVar
+[
+Optional
+[
+str
+]
+]
 =
 None
     
@@ -1378,9 +1399,12 @@ if
 self
 .
 global_type
+is
+not
+None
 :
             
-globals
+global_variants
 =
 "
 "
@@ -1408,7 +1432,7 @@ global
 "
 :
                     
-globals
+global_variants
 =
 value
                     
@@ -1422,7 +1446,7 @@ not
 in
 parse_variants
 (
-globals
+global_variants
 )
 :
                 

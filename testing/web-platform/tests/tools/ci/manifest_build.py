@@ -53,14 +53,12 @@ pardir
 )
 )
 if
-not
-(
 wpt_root
+not
 in
 sys
 .
 path
-)
 :
     
 sys

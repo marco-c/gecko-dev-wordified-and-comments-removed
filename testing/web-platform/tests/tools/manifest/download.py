@@ -16,6 +16,14 @@ import
 datetime
 timedelta
 from
+typing
+import
+Any
+Callable
+List
+Optional
+Text
+from
 urllib
 .
 request
@@ -42,37 +50,6 @@ from
 .
 import
 log
-MYPY
-=
-False
-if
-MYPY
-:
-    
-from
-typing
-import
-Any
-    
-from
-typing
-import
-Callable
-    
-from
-typing
-import
-List
-    
-from
-typing
-import
-Optional
-    
-from
-typing
-import
-Text
 here
 =
 os
@@ -117,7 +94,12 @@ def
 abs_path
 (
 path
+:
+Text
 )
+-
+>
+Text
 :
     
 return
@@ -140,7 +122,11 @@ def
 should_download
 (
 manifest_path
+:
+Text
 rebuild_time
+:
+timedelta
 =
 timedelta
 (
@@ -149,6 +135,9 @@ days
 5
 )
 )
+-
+>
+bool
 :
     
 if
@@ -219,10 +208,20 @@ def
 merge_pr_tags
 (
 repo_root
+:
+Text
 max_count
+:
+int
 =
 50
 )
+-
+>
+List
+[
+Text
+]
 :
     
 gitfunc
@@ -233,6 +232,11 @@ repo_root
 )
     
 tags
+:
+List
+[
+Text
+]
 =
 [
 ]
@@ -327,7 +331,15 @@ def
 score_name
 (
 name
+:
+Text
 )
+-
+>
+Optional
+[
+int
+]
 :
     
 "
@@ -428,7 +440,21 @@ def
 github_url
 (
 tags
+:
+List
+[
+Text
+]
 )
+-
+>
+Optional
+[
+List
+[
+Text
+]
+]
 :
     
 for
@@ -642,15 +668,49 @@ download_manifest
 (
         
 manifest_path
+:
+Text
         
 tags_func
+:
+Callable
+[
+[
+]
+List
+[
+Text
+]
+]
         
 url_func
+:
+Callable
+[
+[
+List
+[
+Text
+]
+]
+Optional
+[
+List
+[
+Text
+]
+]
+]
         
 force
+:
+bool
 =
 False
 )
+-
+>
+bool
 :
     
 if
@@ -1050,6 +1110,11 @@ def
 create_parser
 (
 )
+-
+>
+argparse
+.
+ArgumentParser
 :
     
 parser
@@ -1155,11 +1220,20 @@ def
 download_from_github
 (
 path
+:
+Text
 tests_root
+:
+Text
 force
+:
+bool
 =
 False
 )
+-
+>
+bool
 :
     
 return
@@ -1184,7 +1258,12 @@ run
 *
 *
 kwargs
+:
+Any
 )
+-
+>
+int
 :
     
 if

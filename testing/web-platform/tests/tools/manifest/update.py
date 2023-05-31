@@ -3,6 +3,12 @@ argparse
 import
 os
 from
+typing
+import
+Any
+Optional
+TYPE_CHECKING
+from
 .
 import
 manifest
@@ -21,6 +27,15 @@ from
 download
 import
 download_from_github
+if
+TYPE_CHECKING
+:
+    
+from
+.
+manifest
+import
+Manifest
 here
 =
 os
@@ -59,56 +74,59 @@ logger
 get_logger
 (
 )
-MYPY
-=
-False
-if
-MYPY
-:
-    
-from
-typing
-import
-Any
-    
-from
-typing
-import
-Optional
-    
-from
-.
-manifest
-import
-Manifest
 def
 update
 (
 tests_root
+:
+str
            
 manifest
+:
+"
+Manifest
+"
            
 manifest_path
+:
+Optional
+[
+str
+]
 =
 None
            
 working_copy
+:
+bool
 =
 True
            
 cache_root
+:
+Optional
+[
+str
+]
 =
 None
            
 rebuild
+:
+bool
 =
 False
            
 parallel
+:
+bool
 =
 True
            
 )
+-
+>
+bool
 :
     
 logger
@@ -165,7 +183,12 @@ update_from_cli
 *
 *
 kwargs
+:
+Any
 )
+-
+>
+None
 :
     
 tests_root
@@ -265,7 +288,12 @@ def
 abs_path
 (
 path
+:
+str
 )
+-
+>
+str
 :
     
 return
@@ -288,6 +316,11 @@ def
 create_parser
 (
 )
+-
+>
+argparse
+.
+ArgumentParser
 :
     
 parser
@@ -613,10 +646,17 @@ run
 (
 *
 args
+:
+Any
 *
 *
 kwargs
+:
+Any
 )
+-
+>
+None
 :
     
 if
@@ -679,6 +719,9 @@ def
 main
 (
 )
+-
+>
+None
 :
     
 opts

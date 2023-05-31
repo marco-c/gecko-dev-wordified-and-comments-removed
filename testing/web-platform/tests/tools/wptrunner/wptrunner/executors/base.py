@@ -1615,12 +1615,24 @@ __metaclass__
 ABCMeta
     
 test_type
-=
-None
+:
+ClassVar
+[
+str
+]
     
 convert_result
-=
-None
+:
+ClassVar
+[
+Callable
+[
+.
+.
+.
+Any
+]
+]
     
 supports_testdriver
 =
@@ -4184,6 +4196,14 @@ convert_result
 pytest_result_converter
     
 protocol_cls
+:
+ClassVar
+[
+Type
+[
+Protocol
+]
+]
 =
 WdspecProtocol
     
@@ -4809,6 +4829,20 @@ implementation
 "
     
 unimplemented_exc
+:
+ClassVar
+[
+Tuple
+[
+Type
+[
+Exception
+]
+.
+.
+.
+]
+]
 =
 (
 NotImplementedError

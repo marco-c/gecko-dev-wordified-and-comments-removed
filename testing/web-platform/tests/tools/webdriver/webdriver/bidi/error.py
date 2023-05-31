@@ -15,8 +15,11 @@ Exception
 :
     
 error_code
-=
-None
+:
+ClassVar
+[
+str
+]
     
 def
 __init__
@@ -439,6 +442,11 @@ item
 =
 =
 type
+and
+item
+!
+=
+BidiException
 and
 issubclass
 (

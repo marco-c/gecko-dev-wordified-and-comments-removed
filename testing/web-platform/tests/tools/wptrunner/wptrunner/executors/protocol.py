@@ -221,6 +221,19 @@ __metaclass__
 ABCMeta
     
 implements
+:
+ClassVar
+[
+List
+[
+Type
+[
+"
+ProtocolPart
+"
+]
+]
+]
 =
 [
 ]
@@ -614,8 +627,11 @@ __metaclass__
 ABCMeta
     
 name
-=
-None
+:
+ClassVar
+[
+str
+]
     
 def
 __init__

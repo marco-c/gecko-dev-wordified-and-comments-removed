@@ -75,6 +75,21 @@ Pipeline
 :
     
 pipes
+:
+ClassVar
+[
+Dict
+[
+str
+Callable
+[
+.
+.
+.
+Any
+]
+]
+]
 =
 {
 }

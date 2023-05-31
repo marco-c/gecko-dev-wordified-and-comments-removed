@@ -6,13 +6,6 @@ import
 os
 import
 re
-MYPY
-=
-False
-if
-MYPY
-:
-    
 from
 typing
 import
@@ -24,7 +17,6 @@ Pattern
 Text
 Tuple
 cast
-    
 Error
 =
 Tuple
@@ -41,7 +33,12 @@ def
 collapse
 (
 text
+:
+Text
 )
+-
+>
+Text
 :
     
 return
@@ -84,6 +81,9 @@ name
 (
 self
 )
+-
+>
+Text
 :
         
 pass
@@ -97,11 +97,19 @@ description
 (
 self
 )
+-
+>
+Text
 :
         
 pass
     
 to_fix
+:
+Optional
+[
+Text
+]
 =
 None
     
@@ -112,20 +120,34 @@ error
 (
 cls
 path
+:
+Text
 context
+:
+Tuple
+[
+Any
+.
+.
+.
+]
 =
 (
 )
 line_no
+:
+Optional
+[
+int
+]
 =
 None
 )
+-
+>
+Error
 :
         
-if
-MYPY
-:
-            
 name
 =
 cast
@@ -135,7 +157,7 @@ cls
 .
 name
 )
-            
+        
 description
 =
 cast
@@ -145,25 +167,6 @@ cls
 .
 description
 )
-        
-else
-:
-            
-name
-=
-cls
-.
-name
-            
-description
-=
-cls
-.
-description
-        
-description
-=
-description
 %
 context
         
@@ -2348,6 +2351,9 @@ pattern
 (
 self
 )
+-
+>
+bytes
 :
         
 pass
@@ -2361,6 +2367,9 @@ name
 (
 self
 )
+-
+>
+Text
 :
         
 pass
@@ -2374,11 +2383,22 @@ description
 (
 self
 )
+-
+>
+Text
 :
         
 pass
     
 file_extensions
+:
+Optional
+[
+List
+[
+Text
+]
+]
 =
 None
     
@@ -2387,11 +2407,19 @@ __init__
 (
 self
 )
+-
+>
+None
 :
         
 self
 .
 _re
+:
+Pattern
+[
+bytes
+]
 =
 re
 .
@@ -2407,7 +2435,12 @@ applies
 (
 self
 path
+:
+Text
 )
+-
+>
+bool
 :
         
 return
@@ -2441,7 +2474,18 @@ search
 (
 self
 line
+:
+bytes
 )
+-
+>
+Optional
+[
+Match
+[
+bytes
+]
+]
 :
         
 return

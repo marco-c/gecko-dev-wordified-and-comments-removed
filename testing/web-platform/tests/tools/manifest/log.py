@@ -14,6 +14,9 @@ def
 enable_debug_logging
 (
 )
+-
+>
+None
 :
     
 logger
@@ -28,6 +31,11 @@ def
 get_logger
 (
 )
+-
+>
+logging
+.
+Logger
 :
     
 return

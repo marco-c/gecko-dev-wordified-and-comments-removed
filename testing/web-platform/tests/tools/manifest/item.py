@@ -3,37 +3,18 @@ os
 .
 path
 from
-inspect
-import
-isabstract
-from
-urllib
-.
-parse
-import
-urljoin
-urlparse
-parse_qs
-from
 abc
 import
 ABCMeta
 abstractproperty
 from
-.
-utils
+inspect
 import
-to_os_path
-MYPY
-=
-False
-if
-MYPY
-:
-    
+isabstract
 from
 typing
 import
+(
 Any
 Dict
 Hashable
@@ -43,15 +24,33 @@ Sequence
 Text
 Tuple
 Type
+                    
+TYPE_CHECKING
 Union
 cast
+)
+from
+urllib
+.
+parse
+import
+urljoin
+urlparse
+parse_qs
+from
+.
+utils
+import
+to_os_path
+if
+TYPE_CHECKING
+:
     
 from
 .
 manifest
 import
 Manifest
-    
 Fuzzy
 =
 Dict
@@ -70,7 +69,6 @@ List
 int
 ]
 ]
-    
 PageRanges
 =
 Dict
@@ -82,6 +80,17 @@ int
 ]
 ]
 item_types
+:
+Dict
+[
+str
+Type
+[
+"
+ManifestItem
+"
+]
+]
 =
 {
 }
@@ -131,10 +140,35 @@ def
 __new__
 (
 cls
+:
+Type
+[
+"
+ManifestItemMeta
+"
+]
 name
+:
+str
 bases
+:
+Tuple
+[
+type
+]
 attrs
+:
+Dict
+[
+str
+Any
+]
 )
+-
+>
+"
+ManifestItemMeta
+"
 :
         
 inst
@@ -168,10 +202,6 @@ inst
 ManifestItem
 )
         
-if
-MYPY
-:
-            
 item_type
 =
 cast
@@ -181,24 +211,6 @@ inst
 .
 item_type
 )
-        
-else
-:
-            
-assert
-isinstance
-(
-inst
-.
-item_type
-str
-)
-            
-item_type
-=
-inst
-.
-item_type
         
 item_types
 [
@@ -234,8 +246,15 @@ __init__
 (
 self
 tests_root
+:
+Text
 path
+:
+Text
 )
+-
+>
+None
 :
         
 self
@@ -257,6 +276,9 @@ id
 (
 self
 )
+-
+>
+Text
 :
         
 "
@@ -285,6 +307,9 @@ item_type
 (
 self
 )
+-
+>
+str
 :
         
 "
@@ -308,6 +333,15 @@ path_parts
 (
 self
 )
+-
+>
+Tuple
+[
+Text
+.
+.
+.
+]
 :
         
 return
@@ -332,6 +366,9 @@ key
 (
 self
 )
+-
+>
+Hashable
 :
         
 "
@@ -362,7 +399,12 @@ __eq__
 (
 self
 other
+:
+Any
 )
+-
+>
+bool
 :
         
 if
@@ -401,6 +443,9 @@ __hash__
 (
 self
 )
+-
+>
+int
 :
         
 return
@@ -418,6 +463,9 @@ __repr__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -463,6 +511,15 @@ to_json
 (
 self
 )
+-
+>
+Tuple
+[
+Any
+.
+.
+.
+]
 :
         
 return
@@ -477,12 +534,25 @@ from_json
 cls
                   
 manifest
+:
+"
+Manifest
+"
                   
 path
+:
+Text
                   
 obj
+:
+Any
                   
 )
+-
+>
+"
+ManifestItem
+"
 :
         
 path
@@ -540,18 +610,34 @@ __init__
 self
                  
 tests_root
+:
+Text
                  
 path
+:
+Text
                  
 url_base
+:
+Text
                  
 url
+:
+Optional
+[
+Text
+]
                  
 *
 *
 extras
+:
+Any
                  
 )
+-
+>
+None
 :
         
 super
@@ -681,6 +767,9 @@ id
 (
 self
 )
+-
+>
+Text
 :
         
 return
@@ -695,6 +784,9 @@ url
 (
 self
 )
+-
+>
+Text
 :
         
 rel_url
@@ -753,6 +845,9 @@ https
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -789,6 +884,9 @@ h2
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -807,6 +905,9 @@ subdomain
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -823,6 +924,20 @@ to_json
 (
 self
 )
+-
+>
+Tuple
+[
+Optional
+[
+Text
+]
+Dict
+[
+Any
+Any
+]
+]
 :
         
 rel_url
@@ -855,6 +970,19 @@ self
 _url
         
 rv
+:
+Tuple
+[
+Optional
+[
+Text
+]
+Dict
+[
+Any
+Any
+]
+]
 =
 (
 rel_url
@@ -873,12 +1001,33 @@ from_json
 cls
                   
 manifest
+:
+"
+Manifest
+"
                   
 path
+:
+Text
                   
 obj
+:
+Tuple
+[
+Text
+Dict
+[
+Any
+Any
+]
+]
                   
 )
+-
+>
+"
+URLManifestItem
+"
 :
         
 path
@@ -947,6 +1096,12 @@ timeout
 (
 self
 )
+-
+>
+Optional
+[
+Text
+]
 :
         
 return
@@ -968,6 +1123,12 @@ pac
 (
 self
 )
+-
+>
+Optional
+[
+Text
+]
 :
         
 return
@@ -989,6 +1150,12 @@ testdriver
 (
 self
 )
+-
+>
+Optional
+[
+Text
+]
 :
         
 return
@@ -1010,6 +1177,12 @@ jsshell
 (
 self
 )
+-
+>
+Optional
+[
+Text
+]
 :
         
 return
@@ -1031,6 +1204,19 @@ script_metadata
 (
 self
 )
+-
+>
+Optional
+[
+List
+[
+Tuple
+[
+Text
+Text
+]
+]
+]
 :
         
 return
@@ -1050,6 +1236,20 @@ to_json
 (
 self
 )
+-
+>
+Tuple
+[
+Optional
+[
+Text
+]
+Dict
+[
+Text
+Any
+]
+]
 :
         
 rv
@@ -1212,20 +1412,45 @@ __init__
 self
                  
 tests_root
+:
+Text
                  
 path
+:
+Text
                  
 url_base
+:
+Text
                  
 url
+:
+Optional
+[
+Text
+]
                  
 references
+:
+Optional
+[
+List
+[
+Tuple
+[
+Text
+Text
+]
+]
+]
 =
 None
                  
 *
 *
 extras
+:
+Any
                  
 )
 :
@@ -1254,6 +1479,15 @@ None
 self
 .
 references
+:
+List
+[
+Tuple
+[
+Text
+Text
+]
+]
 =
 [
 ]
@@ -1274,6 +1508,12 @@ timeout
 (
 self
 )
+-
+>
+Optional
+[
+Text
+]
 :
         
 return
@@ -1295,6 +1535,12 @@ viewport_size
 (
 self
 )
+-
+>
+Optional
+[
+Text
+]
 :
         
 return
@@ -1316,6 +1562,12 @@ dpi
 (
 self
 )
+-
+>
+Optional
+[
+Text
+]
 :
         
 return
@@ -1337,9 +1589,34 @@ fuzzy
 (
 self
 )
+-
+>
+Fuzzy
 :
         
 fuzzy
+:
+Union
+[
+Fuzzy
+List
+[
+Tuple
+[
+Optional
+[
+Sequence
+[
+Text
+]
+]
+List
+[
+int
+]
+]
+]
+]
 =
 self
 .
@@ -1367,6 +1644,8 @@ return
 fuzzy
         
 rv
+:
+Fuzzy
 =
 {
 }
@@ -1385,6 +1664,16 @@ None
 :
                 
 key
+:
+Optional
+[
+Tuple
+[
+Text
+Text
+Text
+]
+]
 =
 None
             
@@ -1422,6 +1711,28 @@ to_json
 (
 self
 )
+-
+>
+Tuple
+[
+Optional
+[
+Text
+]
+List
+[
+Tuple
+[
+Text
+Text
+]
+]
+Dict
+[
+Text
+Any
+]
+]
 :
         
 rel_url
@@ -1442,6 +1753,27 @@ self
 _url
         
 rv
+:
+Tuple
+[
+Optional
+[
+Text
+]
+List
+[
+Tuple
+[
+Text
+Text
+]
+]
+Dict
+[
+Text
+Any
+]
+]
 =
 (
 rel_url
@@ -1555,12 +1887,41 @@ from_json
 cls
                   
 manifest
+:
+"
+Manifest
+"
                   
 path
+:
+Text
                   
 obj
+:
+Tuple
+[
+Text
+List
+[
+Tuple
+[
+Text
+Text
+]
+]
+Dict
+[
+Any
+Any
+]
+]
                   
 )
+-
+>
+"
+RefTest
+"
 :
         
 tests_root
@@ -1637,6 +1998,9 @@ page_ranges
 (
 self
 )
+-
+>
+PageRanges
 :
         
 return
@@ -1769,6 +2133,12 @@ timeout
 (
 self
 )
+-
+>
+Optional
+[
+Text
+]
 :
         
 return
@@ -1798,6 +2168,12 @@ timeout
 (
 self
 )
+-
+>
+Optional
+[
+Text
+]
 :
         
 return
@@ -1817,6 +2193,20 @@ to_json
 (
 self
 )
+-
+>
+Tuple
+[
+Optional
+[
+Text
+]
+Dict
+[
+Text
+Any
+]
+]
 :
         
 rv
@@ -1880,6 +2270,9 @@ id
 (
 self
 )
+-
+>
+Text
 :
         
 return

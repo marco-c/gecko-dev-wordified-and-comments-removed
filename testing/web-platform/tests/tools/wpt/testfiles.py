@@ -51,61 +51,18 @@ import
 git
 as
 get_git_cmd
-MYPY
-=
-False
-if
-MYPY
-:
-    
 from
 typing
 import
 Any
-    
-from
-typing
-import
 Dict
-    
-from
-typing
-import
 Iterable
-    
-from
-typing
-import
 List
-    
-from
-typing
-import
 Optional
-    
-from
-typing
-import
 Pattern
-    
-from
-typing
-import
 Sequence
-    
-from
-typing
-import
 Set
-    
-from
-typing
-import
 Text
-    
-from
-typing
-import
 Tuple
 DEFAULT_IGNORE_RULES
 =
@@ -167,6 +124,9 @@ def
 display_branch_point
 (
 )
+-
+>
+None
 :
     
 print
@@ -179,6 +139,12 @@ def
 branch_point
 (
 )
+-
+>
+Optional
+[
+Text
+]
 :
     
 git
@@ -302,6 +268,11 @@ defined
 "
         
 branch_point
+:
+Optional
+[
+Text
+]
 =
 git
 (
@@ -499,6 +470,15 @@ commits_bytes
 )
         
 commit_parents
+:
+Dict
+[
+Text
+List
+[
+Text
+]
+]
 =
 OrderedDict
 (
@@ -743,7 +723,15 @@ def
 compile_ignore_rule
 (
 rule
+:
+Text
 )
+-
+>
+Pattern
+[
+Text
+]
 :
     
 rule
@@ -893,13 +881,25 @@ def
 repo_files_changed
 (
 revish
+:
+Text
 include_uncommitted
+:
+bool
 =
 False
 include_new
+:
+bool
 =
 False
 )
+-
+>
+Set
+[
+Text
+]
 :
     
 git
@@ -1201,8 +1201,34 @@ def
 exclude_ignored
 (
 files
+:
+Iterable
+[
+Text
+]
 ignore_rules
+:
+Optional
+[
+Sequence
+[
+Text
+]
+]
 )
+-
+>
+Tuple
+[
+List
+[
+Text
+]
+List
+[
+Text
+]
+]
 :
     
 if
@@ -1319,20 +1345,47 @@ def
 files_changed
 (
 revish
+:
+Text
                   
 ignore_rules
+:
+Optional
+[
+Sequence
+[
+Text
+]
+]
 =
 None
                   
 include_uncommitted
+:
+bool
 =
 False
                   
 include_new
+:
+bool
 =
 False
                   
 )
+-
+>
+Tuple
+[
+List
+[
+Text
+]
+List
+[
+Text
+]
+]
 :
     
 "
@@ -1427,7 +1480,12 @@ def
 _in_repo_root
 (
 full_path
+:
+Text
 )
+-
+>
+bool
 :
     
 rel_path
@@ -1464,12 +1522,24 @@ def
 load_manifest
 (
 manifest_path
+:
+Optional
+[
+Text
+]
 =
 None
 manifest_update
+:
+bool
 =
 True
 )
+-
+>
+manifest
+.
+Manifest
 :
     
 if
@@ -1513,20 +1583,53 @@ def
 affected_testfiles
 (
 files_changed
+:
+Iterable
+[
+Text
+]
                        
 skip_dirs
+:
+Optional
+[
+Set
+[
+Text
+]
+]
 =
 None
                        
 manifest_path
+:
+Optional
+[
+Text
+]
 =
 None
                        
 manifest_update
+:
+bool
 =
 True
                        
 )
+-
+>
+Tuple
+[
+Set
+[
+Text
+]
+Set
+[
+Text
+]
+]
 :
     
 "
@@ -1792,6 +1895,12 @@ set
 )
     
 rewrites
+:
+Dict
+[
+Text
+Text
+]
 =
 {
 "
@@ -1972,7 +2081,12 @@ def
 affected_by_wdspec
 (
 test
+:
+Text
 )
+-
+>
+bool
 :
         
 affected
@@ -2067,7 +2181,12 @@ def
 affected_by_interfaces
 (
 file_contents
+:
+Text
 )
+-
+>
+bool
 :
         
 if
@@ -2227,6 +2346,8 @@ fh
 :
                 
 raw_file_contents
+:
+bytes
 =
 fh
 .
@@ -2250,6 +2371,8 @@ xff
 :
                     
 file_contents
+:
+Text
 =
 raw_file_contents
 .
@@ -2375,6 +2498,11 @@ def
 get_parser
 (
 )
+-
+>
+argparse
+.
+ArgumentParser
 :
     
 parser
@@ -2659,6 +2787,11 @@ def
 get_parser_affected
 (
 )
+-
+>
+argparse
+.
+ArgumentParser
 :
     
 parser
@@ -2714,7 +2847,12 @@ get_revish
 *
 *
 kwargs
+:
+Any
 )
+-
+>
+Text
 :
     
 revish
@@ -2760,7 +2898,12 @@ run_changed_files
 *
 *
 kwargs
+:
+Any
 )
+-
+>
+None
 :
     
 revish
@@ -2861,7 +3004,12 @@ run_tests_affected
 *
 *
 kwargs
+:
+Any
 )
+-
+>
+None
 :
     
 revish

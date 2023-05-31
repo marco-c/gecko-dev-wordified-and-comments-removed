@@ -25,6 +25,7 @@ Callable
 ClassVar
 Dict
 List
+Optional
 from
 .
 wptmanifest
@@ -2136,20 +2137,48 @@ PropertyUpdate
 :
     
 property_name
-=
-None
+:
+ClassVar
+[
+str
+]
     
 cls_default_value
+:
+ClassVar
+[
+Optional
+[
+Any
+]
+]
 =
 None
     
 value_type
+:
+ClassVar
+[
+Optional
+[
+type
+]
+]
 =
 None
     
 property_builder
-=
-None
+:
+ClassVar
+[
+Callable
+[
+.
+.
+.
+Any
+]
+]
     
 def
 __init__
@@ -4672,6 +4701,14 @@ PropertyUpdate
 :
     
 cls_default_value
+:
+ClassVar
+[
+List
+[
+str
+]
+]
 =
 [
 ]
@@ -4867,6 +4904,15 @@ threshold
 "
     
 cls_default_value
+:
+ClassVar
+[
+Dict
+[
+str
+int
+]
+]
 =
 {
 }

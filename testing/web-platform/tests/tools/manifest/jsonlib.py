@@ -2,13 +2,6 @@ import
 re
 import
 json
-MYPY
-=
-False
-if
-MYPY
-:
-    
 from
 typing
 import
@@ -60,6 +53,17 @@ has_ujson
 :
     
 load
+:
+Callable
+[
+[
+IO
+[
+AnyStr
+]
+]
+Any
+]
 =
 ujson
 .
@@ -77,6 +81,14 @@ has_ujson
 :
     
 loads
+:
+Callable
+[
+[
+AnyStr
+]
+Any
+]
 =
 ujson
 .
@@ -90,6 +102,12 @@ json
 .
 loads
 _ujson_dump_local_kwargs
+:
+Dict
+[
+str
+Any
+]
 =
 {
     
@@ -118,6 +136,12 @@ reject_bytes
 True
 }
 _json_dump_local_kwargs
+:
+Dict
+[
+str
+Any
+]
 =
 {
     
@@ -153,8 +177,18 @@ def
 dump_local
 (
 obj
+:
+Any
 fp
+:
+IO
+[
+str
+]
 )
+-
+>
+None
 :
         
 return
@@ -175,8 +209,18 @@ def
 dump_local
 (
 obj
+:
+Any
 fp
+:
+IO
+[
+str
+]
 )
+-
+>
+None
 :
         
 return
@@ -198,7 +242,12 @@ def
 dumps_local
 (
 obj
+:
+Any
 )
+-
+>
+Text
 :
         
 return
@@ -218,7 +267,12 @@ def
 dumps_local
 (
 obj
+:
+Any
 )
+-
+>
+Text
 :
         
 return
@@ -232,6 +286,12 @@ obj
 _json_dump_local_kwargs
 )
 _ujson_dump_dist_kwargs
+:
+Dict
+[
+str
+Any
+]
 =
 {
     
@@ -254,6 +314,12 @@ reject_bytes
 True
 }
 _json_dump_dist_kwargs
+:
+Dict
+[
+str
+Any
+]
 =
 {
     
@@ -308,7 +374,12 @@ def
 _ujson_fixup
 (
 s
+:
+str
 )
+-
+>
+str
 :
             
 return
@@ -353,7 +424,12 @@ def
 _ujson_fixup
 (
 s
+:
+str
 )
+-
+>
+str
 :
             
 return
@@ -387,8 +463,18 @@ def
 dump_dist
 (
 obj
+:
+Any
 fp
+:
+IO
+[
+str
+]
 )
+-
+>
+None
 :
         
 fp
@@ -413,7 +499,12 @@ def
 dumps_dist
 (
 obj
+:
+Any
 )
+-
+>
+Text
 :
         
 return
@@ -436,8 +527,18 @@ def
 dump_dist
 (
 obj
+:
+Any
 fp
+:
+IO
+[
+str
+]
 )
+-
+>
+None
 :
         
 json
@@ -455,7 +556,12 @@ def
 dumps_dist
 (
 obj
+:
+Any
 )
+-
+>
+Text
 :
         
 return

@@ -9,95 +9,39 @@ collections
 import
 deque
 from
+fnmatch
+import
+fnmatch
+from
 io
 import
 BytesIO
+from
+typing
+import
+(
+Any
+BinaryIO
+Callable
+Deque
+Dict
+Iterable
+List
+Optional
+Pattern
+                    
+Set
+Text
+Tuple
+Union
+cast
+)
 from
 urllib
 .
 parse
 import
 urljoin
-from
-fnmatch
-import
-fnmatch
-MYPY
-=
-False
-if
-MYPY
-:
-    
-from
-typing
-import
-Any
-    
-from
-typing
-import
-BinaryIO
-    
-from
-typing
-import
-Callable
-    
-from
-typing
-import
-Deque
-    
-from
-typing
-import
-Dict
-    
-from
-typing
-import
-Iterable
-    
-from
-typing
-import
-List
-    
-from
-typing
-import
-Optional
-    
-from
-typing
-import
-Pattern
-    
-from
-typing
-import
-Set
-    
-from
-typing
-import
-Text
-    
-from
-typing
-import
-Tuple
-    
-from
-typing
-import
-Union
-    
-from
-typing
-import
-cast
 try
 :
     
@@ -262,6 +206,8 @@ _
 '
 )
 space_chars
+:
+Text
 =
 "
 "
@@ -278,9 +224,18 @@ def
 replace_end
 (
 s
+:
+Text
 old
+:
+Text
 new
+:
+Text
 )
+-
+>
+Text
 :
     
 "
@@ -333,8 +288,25 @@ def
 read_script_metadata
 (
 f
+:
+BinaryIO
 regexp
+:
+Pattern
+[
+bytes
+]
 )
+-
+>
+Iterable
+[
+Tuple
+[
+Text
+Text
+]
+]
 :
     
 "
@@ -449,6 +421,16 @@ utf8
 )
 )
 _any_variants
+:
+Dict
+[
+Text
+Dict
+[
+Text
+Any
+]
+]
 =
 {
     
@@ -612,7 +594,15 @@ def
 get_any_variants
 (
 item
+:
+Text
 )
+-
+>
+Set
+[
+Text
+]
 :
     
 "
@@ -683,6 +673,12 @@ def
 get_default_any_variants
 (
 )
+-
+>
+Set
+[
+Text
+]
 :
     
 "
@@ -725,7 +721,15 @@ def
 parse_variants
 (
 value
+:
+Text
 )
+-
+>
+Set
+[
+Text
+]
 :
     
 "
@@ -814,7 +818,19 @@ def
 global_suffixes
 (
 value
+:
+Text
 )
+-
+>
+Set
+[
+Tuple
+[
+Text
+bool
+]
+]
 :
     
 "
@@ -940,8 +956,15 @@ def
 global_variant_url
 (
 url
+:
+Text
 suffix
+:
+Text
 )
+-
+>
+Text
 :
     
 "
@@ -1072,7 +1095,14 @@ def
 _parse_html
 (
 f
+:
+BinaryIO
 )
+-
+>
+ElementTree
+.
+Element
 :
     
 doc
@@ -1092,10 +1122,6 @@ useChardet
 False
 )
     
-if
-MYPY
-:
-        
 return
 cast
 (
@@ -1104,17 +1130,18 @@ ElementTree
 Element
 doc
 )
-    
-else
-:
-        
-return
-doc
 def
 _parse_xml
 (
 f
+:
+BinaryIO
 )
+-
+>
+ElementTree
+.
+Element
 :
     
 try
@@ -1169,6 +1196,20 @@ SourceFile
 :
     
 parsers
+:
+Dict
+[
+Text
+Callable
+[
+[
+BinaryIO
+]
+ElementTree
+.
+Element
+]
+]
 =
 {
 "
@@ -1215,6 +1256,17 @@ tools
 }
     
 dir_path_non_test
+:
+Set
+[
+Tuple
+[
+Text
+.
+.
+.
+]
+]
 =
 {
 (
@@ -1225,7 +1277,7 @@ css21
 archive
 "
 )
-                         
+                                                
 (
 "
 css
@@ -1237,7 +1289,7 @@ CSS2
 archive
 "
 )
-                         
+                                                
 (
 "
 css
@@ -1253,15 +1305,38 @@ __init__
 (
 self
 tests_root
+:
+Text
+                 
 rel_path
+:
+Text
+                 
 url_base
+:
+Text
+                 
 hash
+:
+Optional
+[
+Text
+]
 =
 None
+                 
 contents
+:
+Optional
+[
+bytes
+]
 =
 None
 )
+-
+>
+None
 :
         
 "
@@ -1451,48 +1526,77 @@ split
 self
 .
 tests_root
+:
+Text
 =
 tests_root
         
 self
 .
 rel_path
+:
+Text
 =
 rel_path
         
 self
 .
 dir_path
+:
+Text
 =
 dir_path
         
 self
 .
 filename
+:
+Text
 =
 filename
         
 self
 .
 name
+:
+Text
 =
 name
         
 self
 .
 ext
+:
+Text
 =
 ext
         
 self
 .
 type_flag
+:
+Optional
+[
+Text
+]
 =
 type_flag
         
 self
 .
 meta_flags
+:
+Union
+[
+List
+[
+bytes
+]
+List
+[
+Text
+]
+]
 =
 meta_flags
         
@@ -1511,6 +1615,18 @@ contents
 self
 .
 items_cache
+:
+Optional
+[
+Tuple
+[
+Text
+List
+[
+ManifestItem
+]
+]
+]
 =
 None
         
@@ -1525,6 +1641,13 @@ __getstate__
 (
 self
 )
+-
+>
+Dict
+[
+str
+Any
+]
 :
         
 rv
@@ -1592,7 +1715,12 @@ name_prefix
 (
 self
 prefix
+:
+Text
 )
+-
+>
+bool
 :
         
 "
@@ -1635,6 +1763,9 @@ is_dir
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -1681,6 +1812,9 @@ open
 (
 self
 )
+-
+>
+BinaryIO
 :
         
 "
@@ -1727,6 +1861,8 @@ None
 :
             
 file_obj
+:
+BinaryIO
 =
 BytesIO
 (
@@ -1760,6 +1896,15 @@ rel_path_parts
 (
 self
 )
+-
+>
+Tuple
+[
+Text
+.
+.
+.
+]
 :
         
 return
@@ -1786,6 +1931,9 @@ path
 (
 self
 )
+-
+>
+Text
 :
         
 return
@@ -1810,6 +1958,9 @@ rel_url
 (
 self
 )
+-
+>
+Text
 :
         
 assert
@@ -1850,6 +2001,9 @@ url
 (
 self
 )
+-
+>
+Text
 :
         
 return
@@ -1870,6 +2024,9 @@ hash
 (
 self
 )
+-
+>
+Text
 :
         
 if
@@ -1957,6 +2114,9 @@ in_non_test_dir
 (
 self
 )
+-
+>
+bool
 :
         
 if
@@ -2038,6 +2198,9 @@ in_conformance_checker_dir
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -2062,6 +2225,9 @@ name_is_non_test
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -2173,6 +2339,9 @@ name_is_conformance
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -2209,6 +2378,9 @@ name_is_conformance_support
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -2225,6 +2397,9 @@ name_is_manual
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -2269,6 +2444,9 @@ name_is_visual
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -2313,6 +2491,9 @@ name_is_multi_global
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -2369,6 +2550,9 @@ name_is_worker
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -2423,6 +2607,9 @@ name_is_window
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -2477,6 +2664,9 @@ name_is_webdriver
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -2597,6 +2787,9 @@ name_is_reference
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -2658,6 +2851,9 @@ name_is_crashtest
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -2706,6 +2902,9 @@ name_is_tentative
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -2793,6 +2992,9 @@ name_is_print_reftest
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -2841,6 +3043,12 @@ markup_type
 (
 self
 )
+-
+>
+Optional
+[
+Text
+]
 :
         
 "
@@ -2970,6 +3178,14 @@ root
 (
 self
 )
+-
+>
+Optional
+[
+ElementTree
+.
+Element
+]
 :
         
 "
@@ -3059,6 +3275,14 @@ timeout_nodes
 (
 self
 )
+-
+>
+List
+[
+ElementTree
+.
+Element
+]
 :
         
 "
@@ -3134,6 +3358,14 @@ pac_nodes
 (
 self
 )
+-
+>
+List
+[
+ElementTree
+.
+Element
+]
 :
         
 "
@@ -3215,6 +3447,19 @@ script_metadata
 (
 self
 )
+-
+>
+Optional
+[
+List
+[
+Tuple
+[
+Text
+Text
+]
+]
+]
 :
         
 if
@@ -3278,6 +3523,12 @@ timeout
 (
 self
 )
+-
+>
+Optional
+[
+Text
+]
 :
         
 "
@@ -3362,6 +3613,11 @@ timeout_nodes
 :
             
 timeout_str
+:
+Optional
+[
+Text
+]
 =
 self
 .
@@ -3410,6 +3666,12 @@ pac
 (
 self
 )
+-
+>
+Optional
+[
+Text
+]
 :
         
 "
@@ -3510,6 +3772,14 @@ viewport_nodes
 (
 self
 )
+-
+>
+List
+[
+ElementTree
+.
+Element
+]
 :
         
 "
@@ -3588,6 +3858,12 @@ viewport_size
 (
 self
 )
+-
+>
+Optional
+[
+Text
+]
 :
         
 "
@@ -3652,6 +3928,14 @@ dpi_nodes
 (
 self
 )
+-
+>
+List
+[
+ElementTree
+.
+Element
+]
 :
         
 "
@@ -3733,6 +4017,12 @@ dpi
 (
 self
 )
+-
+>
+Optional
+[
+Text
+]
 :
         
 "
@@ -3796,10 +4086,31 @@ parse_ref_keyed_meta
 (
 self
 node
+:
+ElementTree
+.
+Element
 )
+-
+>
+Tuple
+[
+Optional
+[
+Tuple
+[
+Text
+Text
+Text
+]
+]
+Text
+]
 :
         
 item
+:
+Text
 =
 node
 .
@@ -3837,6 +4148,16 @@ parts
 :
             
 key
+:
+Optional
+[
+Tuple
+[
+Text
+Text
+Text
+]
+]
 =
 None
             
@@ -3957,6 +4278,14 @@ fuzzy_nodes
 (
 self
 )
+-
+>
+List
+[
+ElementTree
+.
+Element
+]
 :
         
 "
@@ -4033,9 +4362,50 @@ fuzzy
 (
 self
 )
+-
+>
+Dict
+[
+Optional
+[
+Tuple
+[
+Text
+Text
+Text
+]
+]
+List
+[
+List
+[
+int
+]
+]
+]
 :
         
 rv
+:
+Dict
+[
+Optional
+[
+Tuple
+[
+Text
+Text
+Text
+]
+]
+List
+[
+List
+[
+int
+]
+]
+]
 =
 {
 }
@@ -4126,11 +4496,28 @@ value
 )
             
 arg_values
+:
+Dict
+[
+Text
+List
+[
+int
+]
+]
 =
 {
 }
             
 positional_args
+:
+Deque
+[
+List
+[
+int
+]
+]
 =
 deque
 (
@@ -4143,6 +4530,11 @@ ranges
 :
                 
 name
+:
+Optional
+[
+Text
+]
 =
 None
                 
@@ -4408,6 +4800,14 @@ page_ranges_nodes
 (
 self
 )
+-
+>
+List
+[
+ElementTree
+.
+Element
+]
 :
         
 "
@@ -4487,6 +4887,22 @@ page_ranges
 (
 self
 )
+-
+>
+Dict
+[
+Text
+List
+[
+List
+[
+Optional
+[
+int
+]
+]
+]
+]
 :
         
 "
@@ -4515,6 +4931,21 @@ ranges
 "
         
 rv
+:
+Dict
+[
+Text
+List
+[
+List
+[
+Optional
+[
+int
+]
+]
+]
+]
 =
 {
 }
@@ -4759,6 +5190,14 @@ testharness_nodes
 (
 self
 )
+-
+>
+List
+[
+ElementTree
+.
+Element
+]
 :
         
 "
@@ -4839,6 +5278,12 @@ content_is_testharness
 (
 self
 )
+-
+>
+Optional
+[
+bool
+]
 :
         
 "
@@ -4887,6 +5332,14 @@ variant_nodes
 (
 self
 )
+-
+>
+List
+[
+ElementTree
+.
+Element
+]
 :
         
 "
@@ -4960,9 +5413,20 @@ test_variants
 (
 self
 )
+-
+>
+List
+[
+Text
+]
 :
         
 rv
+:
+List
+[
+Text
+]
 =
 [
 ]
@@ -5038,6 +5502,8 @@ attrib
 :
                     
 variant
+:
+Text
 =
 element
 .
@@ -5186,6 +5652,14 @@ testdriver_nodes
 (
 self
 )
+-
+>
+List
+[
+ElementTree
+.
+Element
+]
 :
         
 "
@@ -5266,6 +5740,12 @@ has_testdriver
 (
 self
 )
+-
+>
+Optional
+[
+bool
+]
 :
         
 "
@@ -5314,6 +5794,14 @@ reftest_nodes
 (
 self
 )
+-
+>
+List
+[
+ElementTree
+.
+Element
+]
 :
         
 "
@@ -5439,6 +5927,16 @@ references
 (
 self
 )
+-
+>
+List
+[
+Tuple
+[
+Text
+Text
+]
+]
 :
         
 "
@@ -5465,6 +5963,15 @@ file
 "
         
 rv
+:
+List
+[
+Tuple
+[
+Text
+Text
+]
+]
 =
 [
 ]
@@ -5564,6 +6071,9 @@ content_is_ref_node
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -5622,6 +6132,14 @@ css_flag_nodes
 (
 self
 )
+-
+>
+List
+[
+ElementTree
+.
+Element
+]
 :
         
 "
@@ -5701,6 +6219,12 @@ css_flags
 (
 self
 )
+-
+>
+Set
+[
+Text
+]
 :
         
 "
@@ -5718,6 +6242,11 @@ file
 "
         
 rv
+:
+Set
+[
+Text
+]
 =
 set
 (
@@ -5775,6 +6304,12 @@ content_is_css_manual
 (
 self
 )
+-
+>
+Optional
+[
+bool
+]
 :
         
 "
@@ -5849,6 +6384,14 @@ spec_link_nodes
 (
 self
 )
+-
+>
+List
+[
+ElementTree
+.
+Element
+]
 :
         
 "
@@ -5935,6 +6478,12 @@ spec_links
 (
 self
 )
+-
+>
+Set
+[
+Text
+]
 :
         
 "
@@ -5953,6 +6502,11 @@ file
 "
         
 rv
+:
+Set
+[
+Text
+]
 =
 set
 (
@@ -6005,6 +6559,12 @@ content_is_css_visual
 (
 self
 )
+-
+>
+Optional
+[
+bool
+]
 :
         
 "
@@ -6087,6 +6647,9 @@ type
 (
 self
 )
+-
+>
+Text
 :
         
 possible_types
@@ -6131,6 +6694,12 @@ possible_types
 (
 self
 )
+-
+>
+Set
+[
+Text
+]
 :
         
 "
@@ -6374,6 +6943,16 @@ manifest_items
 (
 self
 )
+-
+>
+Tuple
+[
+Text
+List
+[
+ManifestItem
+]
+]
 :
         
 "
@@ -6448,7 +7027,17 @@ name_is_non_test
 :
             
 rv
+:
+Tuple
+[
+Text
+List
+[
+ManifestItem
+]
+]
 =
+(
 "
 support
 "
@@ -6467,6 +7056,7 @@ rel_path
                 
 )
 ]
+)
         
 elif
 self
@@ -6823,6 +7413,11 @@ value
 break
             
 tests
+:
+List
+[
+ManifestItem
+]
 =
 [
                 

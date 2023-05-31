@@ -1258,12 +1258,23 @@ BrowserSetup
 :
     
 name
-=
-None
+:
+ClassVar
+[
+str
+]
     
 browser_cls
-=
-None
+:
+ClassVar
+[
+Type
+[
+browser
+.
+Browser
+]
+]
     
 def
 __init__
@@ -2547,12 +2558,33 @@ chrome
 "
     
 browser_cls
+:
+ClassVar
+[
+Type
+[
+browser
+.
+ChromeChromiumBase
+]
+]
 =
 browser
 .
 Chrome
     
 experimental_channels
+:
+ClassVar
+[
+Tuple
+[
+str
+.
+.
+.
+]
+]
 =
 (
 "
@@ -3310,6 +3342,16 @@ chromium
 "
     
 browser_cls
+:
+ClassVar
+[
+Type
+[
+browser
+.
+ChromeChromiumBase
+]
+]
 =
 browser
 .

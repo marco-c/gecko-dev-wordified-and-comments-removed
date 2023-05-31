@@ -19,6 +19,14 @@ Step
 :
     
 provides
+:
+ClassVar
+[
+List
+[
+str
+]
+]
 =
 [
 ]
@@ -304,6 +312,17 @@ StepRunner
 :
     
 steps
+:
+ClassVar
+[
+List
+[
+Type
+[
+Step
+]
+]
+]
 =
 [
 ]

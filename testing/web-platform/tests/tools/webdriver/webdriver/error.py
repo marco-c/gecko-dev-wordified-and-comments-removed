@@ -16,12 +16,18 @@ Exception
 :
     
 http_status
-=
-None
+:
+ClassVar
+[
+int
+]
     
 status_code
-=
-None
+:
+ClassVar
+[
+str
+]
     
 def
 __init__
@@ -998,6 +1004,11 @@ item
 =
 =
 type
+and
+item
+!
+=
+WebDriverException
 and
 issubclass
 (

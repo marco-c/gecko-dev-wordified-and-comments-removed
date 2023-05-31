@@ -1,10 +1,3 @@
-MYPY
-=
-False
-if
-MYPY
-:
-    
 from
 typing
 import
@@ -112,7 +105,12 @@ __init__
 (
 self
 path
+:
+Text
 )
+-
+>
+None
 :
         
 self
@@ -126,7 +124,12 @@ output
 (
 self
 line
+:
+Text
 )
+-
+>
+None
 :
         
 with
@@ -168,7 +171,18 @@ def
 get_gh_checks_outputter
 (
 filepath
+:
+Optional
+[
+Text
+]
 )
+-
+>
+Optional
+[
+GitHubChecksOutputter
+]
 :
     
 "
