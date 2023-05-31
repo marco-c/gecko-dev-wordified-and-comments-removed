@@ -958,6 +958,14 @@ holder
 new
 StructuredCloneHolder
 (
+"
+GeckoView
+:
+WebExtension
+:
+PortMessageFromApp
+"
+null
 aData
 .
 message

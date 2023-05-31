@@ -5190,6 +5190,12 @@ return
 new
 StructuredCloneHolder
 (
+"
+SchemaAPIManager
+/
+initModuleJSON
+"
+null
 {
 modules
 :

@@ -626,6 +626,16 @@ portId
 new
 StructuredCloneHolder
 (
+NativeMessaging
+/
+onConnect
+/
+{
+this
+.
+name
+}
+null
 message
 )
 )

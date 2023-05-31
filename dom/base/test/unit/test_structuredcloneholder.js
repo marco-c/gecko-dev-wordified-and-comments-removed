@@ -79,6 +79,10 @@ holder
 new
 StructuredCloneHolder
 (
+"
+"
+"
+"
 obj
 )
 ;
@@ -155,6 +159,10 @@ equal
 new
 StructuredCloneHolder
 (
+"
+"
+"
+"
 "
 foo
 "
@@ -566,6 +574,10 @@ holder
 new
 StructuredCloneHolder
 (
+"
+"
+"
+"
 val
 sandbox1
 )

@@ -3803,6 +3803,14 @@ message
 new
 StructuredCloneHolder
 (
+SpecialPowers
+/
+receiveMessage
+/
+{
+name
+}
+null
 message
 )
 .

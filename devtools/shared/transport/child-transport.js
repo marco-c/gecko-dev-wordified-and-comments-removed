@@ -196,6 +196,12 @@ holder
 new
 StructuredCloneHolder
 (
+"
+ChildDebuggerTransport
+.
+_canBeSerialized
+"
+null
 object
 )
 ;

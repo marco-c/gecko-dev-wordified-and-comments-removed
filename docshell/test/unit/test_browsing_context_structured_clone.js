@@ -84,6 +84,17 @@ sch
 new
 StructuredCloneHolder
 (
+"
+debug
+name
+"
+"
+<
+anonymized
+>
+debug
+name
+"
 {
 browsingContext
 }

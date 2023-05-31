@@ -8781,6 +8781,10 @@ holder
 new
 StructuredCloneHolder
 (
+"
+"
+"
+"
 new
 ClonedErrorHolder
 (

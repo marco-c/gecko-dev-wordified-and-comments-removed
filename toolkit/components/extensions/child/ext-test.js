@@ -1093,6 +1093,12 @@ v
 new
 StructuredCloneHolder
 (
+"
+test
+.
+assertEq
+"
+null
 v
 globalThis
 )
