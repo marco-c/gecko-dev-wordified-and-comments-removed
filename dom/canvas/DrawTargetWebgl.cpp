@@ -1426,6 +1426,17 @@ mTex
 )
 ;
 }
+mSharedContext
+-
+>
+mWebgl
+-
+>
+Flush
+(
+false
+)
+;
 }
 }
 DrawTargetWebgl
