@@ -230,15 +230,6 @@ aValue
 final
 ;
 NS_IMETHOD
-GetHelp
-(
-nsAString
-&
-aHelp
-)
-final
-;
-NS_IMETHOD
 GetAccessKey
 (
 nsAString
