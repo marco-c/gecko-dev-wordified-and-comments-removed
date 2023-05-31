@@ -1743,9 +1743,7 @@ mRawGroupID
 if
 (
 !
-DeviceInformationCanBeExposed
-(
-)
+mCanExposeMicrophoneInfo
 &
 &
 !
@@ -1776,9 +1774,7 @@ continue
 if
 (
 !
-DeviceInformationCanBeExposed
-(
-)
+mCanExposeCameraInfo
 &
 &
 !
