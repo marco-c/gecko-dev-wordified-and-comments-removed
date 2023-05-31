@@ -496,6 +496,10 @@ sysroot
 {
 MACOS_SYSROOT
 }
+-
+Qunused
+-
+arguments
 "
 export
 CFLAGS_
@@ -572,6 +576,10 @@ stdlib
 libc
 +
 +
+-
+Qunused
+-
+arguments
 "
 export
 CXXFLAGS_
