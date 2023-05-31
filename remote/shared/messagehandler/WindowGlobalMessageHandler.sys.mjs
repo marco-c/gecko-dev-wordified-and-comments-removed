@@ -758,7 +758,7 @@ this
 .
 moduleCache
 .
-hasModule
+hasModuleClass
 (
 moduleName
 destination
