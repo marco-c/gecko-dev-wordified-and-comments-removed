@@ -8282,6 +8282,7 @@ openedFrom
 window
 .
 gBrowser
+?
 .
 selectedTab
 .
