@@ -806,9 +806,7 @@ en_US
 icons
 :
 {
-"
 16
-"
 :
 "
 __MSG_extensionIcon__

@@ -947,9 +947,7 @@ Updates
 icons
 :
 {
-"
 48
-"
 :
 "
 an

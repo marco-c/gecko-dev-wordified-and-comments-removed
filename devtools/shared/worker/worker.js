@@ -140,6 +140,7 @@ workerify
 ;
 }
 }
+)
 .
 call
 (
@@ -792,6 +793,5 @@ toString
 ;
 }
 }
-)
 )
 ;

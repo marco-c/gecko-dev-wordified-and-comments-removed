@@ -126,9 +126,7 @@ const
 obj
 =
 {
-"
 0
-"
 :
 new
 EnumerationAvecDonnees
@@ -136,9 +134,7 @@ EnumerationAvecDonnees
 Zero
 (
 )
-"
 1
-"
 :
 new
 EnumerationAvecDonnees
@@ -147,9 +143,7 @@ Un
 (
 1
 )
-"
 2
-"
 :
 new
 EnumerationAvecDonnees

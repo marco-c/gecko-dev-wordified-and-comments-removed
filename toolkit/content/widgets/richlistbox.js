@@ -4096,9 +4096,11 @@ MozRichlistitem
 class
 MozRichlistitem
 extends
+(
 MozElements
 .
 BaseText
+)
 {
 constructor
 (

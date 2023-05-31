@@ -376,9 +376,7 @@ createStore
 mockClient
 (
 {
-"
 5
-"
 :
 [
 1
@@ -625,9 +623,7 @@ createStore
 mockClient
 (
 {
-"
 5
-"
 :
 [
 0
@@ -838,9 +834,7 @@ createStore
 mockClient
 (
 {
-"
 5
-"
 :
 [
 0
@@ -978,9 +972,7 @@ createStore
 mockClient
 (
 {
-"
 5
-"
 :
 [
 0
@@ -1225,9 +1217,7 @@ createStore
 mockClient
 (
 {
-"
 5
-"
 :
 [
 0
@@ -1411,9 +1401,7 @@ createStore
 mockClient
 (
 {
-"
 5
-"
 :
 [
 0
@@ -1587,9 +1575,7 @@ createStore
 mockClient
 (
 {
-"
 5
-"
 :
 [
 0
@@ -1792,9 +1778,7 @@ createStore
 mockClient
 (
 {
-"
 5
-"
 :
 [
 0
@@ -1863,9 +1847,7 @@ createStore
 mockClient
 (
 {
-"
 5
-"
 :
 [
 1
@@ -2015,9 +1997,7 @@ createStore
 mockClient
 (
 {
-"
 5
-"
 :
 [
 0
@@ -2175,9 +2155,7 @@ createStore
 mockClient
 (
 {
-"
 5
-"
 :
 [
 2
@@ -2436,9 +2414,7 @@ createStore
 mockClient
 (
 {
-"
 5
-"
 :
 [
 2
@@ -2609,9 +2585,7 @@ createStore
 mockClient
 (
 {
-"
 5
-"
 :
 [
 2
@@ -2853,9 +2827,7 @@ createStore
 mockClient
 (
 {
-"
 5
-"
 :
 [
 2

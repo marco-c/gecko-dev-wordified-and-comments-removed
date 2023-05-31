@@ -576,9 +576,7 @@ https
 icons
 :
 {
-"
 64
-"
 :
 "
 foo

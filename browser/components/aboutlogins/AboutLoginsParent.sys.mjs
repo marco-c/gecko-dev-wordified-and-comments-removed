@@ -783,6 +783,7 @@ CreateLogin
 "
 :
 {
+await
 this
 .
 #
@@ -1088,6 +1089,7 @@ embedderElement
 ownerGlobal
 ;
 }
+async
 #
 createLogin
 (
@@ -1268,11 +1270,12 @@ newLogin
 ;
 try
 {
+await
 Services
 .
 logins
 .
-addLogin
+addLoginAsync
 (
 newLogin
 )

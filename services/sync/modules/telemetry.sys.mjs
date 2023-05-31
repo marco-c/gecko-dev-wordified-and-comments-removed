@@ -1993,9 +1993,7 @@ static
 WindowsErrorSubstitutions
 =
 {
-"
 2
-"
 :
 this
 .
@@ -2003,9 +2001,7 @@ E_NO_FILE_OR_DIR
 /
 /
 ERROR_FILE_NOT_FOUND
-"
 3
-"
 :
 this
 .
@@ -2013,9 +2009,7 @@ E_NO_FILE_OR_DIR
 /
 /
 ERROR_PATH_NOT_FOUND
-"
 5
-"
 :
 this
 .
@@ -2023,9 +2017,7 @@ E_PERMISSION_DENIED
 /
 /
 ERROR_ACCESS_DENIED
-"
 8
-"
 :
 this
 .
@@ -2033,9 +2025,7 @@ E_NO_MEM
 /
 /
 ERROR_NOT_ENOUGH_MEMORY
-"
 112
-"
 :
 this
 .
@@ -2049,9 +2039,7 @@ static
 UnixErrorSubstitutions
 =
 {
-"
 2
-"
 :
 this
 .
@@ -2059,9 +2047,7 @@ E_NO_FILE_OR_DIR
 /
 /
 ENOENT
-"
 12
-"
 :
 this
 .
@@ -2069,9 +2055,7 @@ E_NO_MEM
 /
 /
 ENOMEM
-"
 13
-"
 :
 this
 .
@@ -2079,9 +2063,7 @@ E_PERMISSION_DENIED
 /
 /
 EACCESS
-"
 28
-"
 :
 this
 .

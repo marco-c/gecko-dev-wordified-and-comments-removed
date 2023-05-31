@@ -290,9 +290,7 @@ addon_url
 icons
 :
 {
-"
 32
-"
 :
 icon32_url
 }
@@ -369,14 +367,10 @@ addon_url
 icons
 :
 {
-"
 32
-"
 :
 icon32_url
-"
 64
-"
 :
 icon64_url
 }

@@ -204,10 +204,10 @@ Trace
 )
 ;
 }
+)
 .
 call
 (
 this
-)
 )
 ;

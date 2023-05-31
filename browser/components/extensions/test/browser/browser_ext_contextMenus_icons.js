@@ -166,9 +166,7 @@ contextMenus
 icons
 :
 {
-"
 18
-"
 :
 "
 extension
@@ -673,9 +671,7 @@ contextMenus
 icons
 :
 {
-"
 18
-"
 :
 "
 black_icon
@@ -1813,9 +1809,7 @@ contextMenus
 icons
 :
 {
-"
 18
-"
 :
 "
 black_icon

@@ -268,9 +268,7 @@ code
 Slash
 "
 }
-"
 0
-"
 :
 {
 code
@@ -279,9 +277,7 @@ code
 Digit0
 "
 }
-"
 1
-"
 :
 {
 code
@@ -290,9 +286,7 @@ code
 Digit1
 "
 }
-"
 2
-"
 :
 {
 code
@@ -301,9 +295,7 @@ code
 Digit2
 "
 }
-"
 3
-"
 :
 {
 code
@@ -312,9 +304,7 @@ code
 Digit3
 "
 }
-"
 4
-"
 :
 {
 code
@@ -323,9 +313,7 @@ code
 Digit4
 "
 }
-"
 5
-"
 :
 {
 code
@@ -334,9 +322,7 @@ code
 Digit5
 "
 }
-"
 6
-"
 :
 {
 code
@@ -345,9 +331,7 @@ code
 Digit6
 "
 }
-"
 7
-"
 :
 {
 code
@@ -356,9 +340,7 @@ code
 Digit7
 "
 }
-"
 8
-"
 :
 {
 code
@@ -367,9 +349,7 @@ code
 Digit8
 "
 }
-"
 9
-"
 :
 {
 code

@@ -8291,6 +8291,7 @@ editor
 )
 ;
 }
+)
 .
 bind
 (
@@ -8304,7 +8305,6 @@ catch
 console
 .
 error
-)
 )
 ;
 }

@@ -3496,9 +3496,7 @@ html
 icons
 :
 {
-"
 32
-"
 :
 "
 icon

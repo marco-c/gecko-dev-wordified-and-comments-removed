@@ -290,7 +290,9 @@ MozAutocompleteProfileListitem
 class
 MozAutocompleteProfileListitem
 extends
+(
 MozAutocompleteProfileListitemBase
+)
 {
 static
 get

@@ -349,9 +349,7 @@ org
 icons
 :
 {
-"
 32
-"
 :
 "
 https
@@ -378,9 +376,7 @@ modified
 =
 4a64e2bc
 "
-"
 64
-"
 :
 "
 https
@@ -406,10 +402,8 @@ png
 modified
 =
 4a64e2bc
-"
 "
 128
-"
 :
 "
 https
@@ -600,9 +594,7 @@ org
 icons
 :
 {
-"
 32
-"
 :
 "
 https
@@ -629,9 +621,7 @@ modified
 =
 4a64e2bc
 "
-"
 64
-"
 :
 "
 https
@@ -657,10 +647,8 @@ png
 modified
 =
 4a64e2bc
-"
 "
 128
-"
 :
 "
 https
@@ -827,9 +815,7 @@ partner
 icons
 :
 {
-"
 32
-"
 :
 "
 https
@@ -856,9 +842,7 @@ modified
 =
 4a64e2bc
 "
-"
 64
-"
 :
 "
 https
@@ -884,10 +868,8 @@ png
 modified
 =
 4a64e2bc
-"
 "
 128
-"
 :
 "
 https
@@ -1041,9 +1023,7 @@ partner
 icons
 :
 {
-"
 32
-"
 :
 "
 https
@@ -1070,9 +1050,7 @@ modified
 =
 4a64e2bc
 "
-"
 64
-"
 :
 "
 https
@@ -1098,10 +1076,8 @@ png
 modified
 =
 4a64e2bc
-"
 "
 128
-"
 :
 "
 https
@@ -1271,9 +1247,7 @@ org
 icons
 :
 {
-"
 32
-"
 :
 "
 https
@@ -1300,9 +1274,7 @@ modified
 =
 4a64e2bc
 "
-"
 64
-"
 :
 "
 https
@@ -1328,10 +1300,8 @@ png
 modified
 =
 4a64e2bc
-"
 "
 128
-"
 :
 "
 https
@@ -1498,9 +1468,7 @@ partner
 icons
 :
 {
-"
 32
-"
 :
 "
 https
@@ -1527,9 +1495,7 @@ modified
 =
 4a64e2bc
 "
-"
 64
-"
 :
 "
 https
@@ -1555,10 +1521,8 @@ png
 modified
 =
 4a64e2bc
-"
 "
 128
-"
 :
 "
 https
@@ -1712,9 +1676,7 @@ partner
 icons
 :
 {
-"
 32
-"
 :
 "
 https
@@ -1741,9 +1703,7 @@ modified
 =
 4a64e2bc
 "
-"
 64
-"
 :
 "
 https
@@ -1769,10 +1729,8 @@ png
 modified
 =
 4a64e2bc
-"
 "
 128
-"
 :
 "
 https
