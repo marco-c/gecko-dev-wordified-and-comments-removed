@@ -724,8 +724,6 @@ translations
 -
 panel
 -
-default
--
 translate
 -
 button

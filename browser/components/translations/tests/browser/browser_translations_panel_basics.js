@@ -154,8 +154,6 @@ translations
 -
 panel
 -
-default
--
 translate
 -
 button
@@ -357,8 +355,6 @@ getByL10nId
 translations
 -
 panel
--
-revisit
 -
 restore
 -
