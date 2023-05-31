@@ -110,11 +110,6 @@ PlatformChild
 .
 cpp
 "
-"
-RemoteAccessible
-.
-cpp
-"
 ]
 if
 CONFIG
