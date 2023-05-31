@@ -241,6 +241,9 @@ is
 based
 on
 .
+const
+INVALID_NAME_CHARS
+=
 /
 /
 eslint
@@ -255,9 +258,6 @@ no
 control
 -
 regex
-const
-INVALID_NAME_CHARS
-=
 /
 [
 \
