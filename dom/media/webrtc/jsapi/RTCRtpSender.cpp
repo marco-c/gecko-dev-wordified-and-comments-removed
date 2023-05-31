@@ -3330,6 +3330,11 @@ isSome
 )
 )
 ;
+bool
+pendingRidChangeFromCompatMode
+=
+false
+;
 if
 (
 paramsCopy
@@ -3415,7 +3420,7 @@ forget
 )
 ;
 }
-mPendingRidChangeFromCompatMode
+pendingRidChangeFromCompatMode
 =
 true
 ;
@@ -4095,6 +4100,10 @@ Construct
 }
 }
 }
+mPendingRidChangeFromCompatMode
+=
+pendingRidChangeFromCompatMode
+;
 mPendingParameters
 =
 Some
