@@ -66,7 +66,7 @@ vector
 >
 #
 if
-PROFILER_ENABLED
+JXL_PROFILER_ENABLED
 #
 include
 <
@@ -2747,7 +2747,7 @@ valb
 static
 const
 double
-xmuli
+xmul_scalar
 =
 33
 .
@@ -2756,7 +2756,7 @@ xmuli
 static
 const
 double
-ymuli
+ymul_scalar
 =
 14
 .
@@ -2765,7 +2765,7 @@ ymuli
 static
 const
 double
-bmuli
+bmul_scalar
 =
 49
 .
@@ -2774,7 +2774,7 @@ bmuli
 static
 const
 double
-y_to_b_muli
+y_to_b_mul_scalar
 =
 -
 0
@@ -2788,7 +2788,7 @@ xmul
 Set
 (
 d
-xmuli
+xmul_scalar
 )
 ;
 const
@@ -2798,7 +2798,7 @@ ymul
 Set
 (
 d
-ymuli
+ymul_scalar
 )
 ;
 const
@@ -2808,7 +2808,7 @@ bmul
 Set
 (
 d
-bmuli
+bmul_scalar
 )
 ;
 const
@@ -2818,7 +2818,7 @@ y_to_b_mul
 Set
 (
 d
-y_to_b_muli
+y_to_b_mul_scalar
 )
 ;
 const
@@ -14614,7 +14614,7 @@ diffvalue
 {
 #
 if
-PROFILER_ENABLED
+JXL_PROFILER_ENABLED
 auto
 trace_start
 =
@@ -14651,7 +14651,7 @@ false
 }
 #
 if
-PROFILER_ENABLED
+JXL_PROFILER_ENABLED
 auto
 trace_end
 =

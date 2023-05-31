@@ -6,13 +6,13 @@ define
 LIB_JXL_EXIF_H_
 #
 include
-"
+<
 jxl
 /
 codestream_header
 .
 h
-"
+>
 #
 include
 "

@@ -13,7 +13,7 @@ h
 "
 #
 if
-PROFILER_ENABLED
+JXL_PROFILER_ENABLED
 #
 include
 <
@@ -78,7 +78,9 @@ HWY_TARGET_INCLUDE
 "
 lib
 /
-profiler
+jxl
+/
+base
 /
 profiler
 .
@@ -106,6 +108,9 @@ HWY_BEFORE_NAMESPACE
 (
 )
 ;
+namespace
+jxl
+{
 namespace
 profiler
 {
@@ -279,6 +284,7 @@ endif
 }
 }
 }
+}
 HWY_AFTER_NAMESPACE
 (
 )
@@ -286,6 +292,9 @@ HWY_AFTER_NAMESPACE
 #
 if
 HWY_ONCE
+namespace
+jxl
+{
 namespace
 profiler
 {
@@ -2755,6 +2764,7 @@ Reset
 (
 )
 ;
+}
 }
 }
 }

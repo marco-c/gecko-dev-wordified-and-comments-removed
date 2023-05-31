@@ -308,13 +308,13 @@ const
 ColorHints
 &
 color_hints
-const
-SizeConstraints
-&
-constraints
 PackedPixelFile
 *
 ppf
+const
+SizeConstraints
+*
+constraints
 )
 {
 InMemoryIStream

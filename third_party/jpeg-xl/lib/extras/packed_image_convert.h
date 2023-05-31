@@ -6,13 +6,13 @@ define
 LIB_EXTRAS_PACKED_IMAGE_CONVERT_H_
 #
 include
-"
+<
 jxl
 /
 types
 .
 h
-"
+>
 #
 include
 "

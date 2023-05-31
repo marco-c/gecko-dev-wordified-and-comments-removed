@@ -304,6 +304,13 @@ h
 namespace
 jxl
 {
+static
+constexpr
+size_t
+kPatchFrameReferenceId
+=
+3
+;
 void
 PatchDictionaryEncoder
 :
@@ -5409,7 +5416,7 @@ ref_pos
 .
 ref
 =
-0
+kPatchFrameReferenceId
 ;
 for
 (
@@ -5626,7 +5633,7 @@ RoundtripPatchFrame
 &
 reference_frame
 state
-0
+kPatchFrameReferenceId
 cparams
 cms
 pool

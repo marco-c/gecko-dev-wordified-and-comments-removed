@@ -1,9 +1,9 @@
 #
 ifndef
-LIB_PROFILER_TSC_TIMER_H_
+LIB_JXL_BASE_TSC_TIMER_H_
 #
 define
-LIB_PROFILER_TSC_TIMER_H_
+LIB_JXL_BASE_TSC_TIMER_H_
 #
 include
 <
@@ -130,6 +130,9 @@ cache_control
 .
 h
 >
+namespace
+jxl
+{
 namespace
 profiler
 {
@@ -544,6 +547,7 @@ endif
 return
 t
 ;
+}
 }
 }
 #

@@ -150,6 +150,9 @@ h
 namespace
 jxl
 {
+struct
+SizeConstraints
+;
 Status
 SetFromBytes
 (
@@ -172,6 +175,12 @@ io
 ThreadPool
 *
 pool
+=
+nullptr
+const
+SizeConstraints
+*
+constraints
 =
 nullptr
 extras
@@ -203,6 +212,12 @@ ThreadPool
 pool
 =
 nullptr
+const
+SizeConstraints
+*
+constraints
+=
+nullptr
 extras
 :
 :
@@ -225,6 +240,7 @@ ColorHints
 )
 io
 pool
+constraints
 orig_codec
 )
 ;
@@ -252,6 +268,12 @@ io
 ThreadPool
 *
 pool
+=
+nullptr
+const
+SizeConstraints
+*
+constraints
 =
 nullptr
 extras

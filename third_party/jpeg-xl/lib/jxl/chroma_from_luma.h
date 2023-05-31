@@ -80,17 +80,6 @@ lib
 /
 jxl
 /
-dec_ans
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 dec_bit_reader
 .
 h

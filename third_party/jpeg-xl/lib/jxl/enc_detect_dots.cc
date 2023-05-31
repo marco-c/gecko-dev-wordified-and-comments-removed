@@ -151,17 +151,6 @@ lib
 /
 jxl
 /
-codec_in_out
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 common
 .
 h

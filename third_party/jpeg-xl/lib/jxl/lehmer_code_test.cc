@@ -84,9 +84,7 @@ lib
 /
 jxl
 /
-base
-/
-thread_pool_internal
+test_utils
 .
 h
 "
@@ -545,7 +543,10 @@ LehmerCodeTest
 TestRoundtrips
 )
 {
-ThreadPoolInternal
+test
+:
+:
+ThreadPoolForTests
 pool
 (
 8

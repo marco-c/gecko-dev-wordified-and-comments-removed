@@ -594,7 +594,11 @@ const
 size_t
 len_in
 =
+(
 len_out
++
+1
+)
 >
 >
 1

@@ -62,6 +62,13 @@ YCbCrChromaSubsampling
 kHShift
 [
 ]
+=
+{
+0
+1
+1
+0
+}
 ;
 constexpr
 uint8_t
@@ -71,6 +78,13 @@ YCbCrChromaSubsampling
 kVShift
 [
 ]
+=
+{
+0
+1
+0
+1
+}
 ;
 static
 Status

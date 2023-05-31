@@ -13,13 +13,13 @@ h
 "
 #
 include
-"
+<
 jxl
 /
 encode_cxx
 .
 h
-"
+>
 #
 include
 "

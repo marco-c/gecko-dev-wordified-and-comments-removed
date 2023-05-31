@@ -90,17 +90,6 @@ lib
 /
 jxl
 /
-codec_in_out
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 enc_color_management
 .
 h

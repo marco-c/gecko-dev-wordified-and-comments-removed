@@ -49,7 +49,7 @@ lib
 /
 jxl
 /
-enc_cache
+image
 .
 h
 "
@@ -58,6 +58,9 @@ jxl
 {
 struct
 AuxOut
+;
+struct
+PassesEncoderState
 ;
 void
 ComputeCoefficients

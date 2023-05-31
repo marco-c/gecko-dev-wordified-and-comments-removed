@@ -99,6 +99,11 @@ progressive_level
 =
 2
 ;
+bool
+optimize_coding
+=
+true
+;
 std
 :
 :

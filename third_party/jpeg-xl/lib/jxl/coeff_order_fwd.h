@@ -21,6 +21,10 @@ h
 #
 include
 "
+lib
+/
+jxl
+/
 base
 /
 compiler_specific

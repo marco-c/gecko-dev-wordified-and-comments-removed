@@ -135,9 +135,6 @@ c_str
 ColorHints
 (
 )
-SizeConstraints
-(
-)
 &
 ppf
 )
@@ -474,9 +471,6 @@ c_str
 )
 )
 ColorHints
-(
-)
-SizeConstraints
 (
 )
 &

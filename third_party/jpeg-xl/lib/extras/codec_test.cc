@@ -131,19 +131,6 @@ lib
 /
 jxl
 /
-base
-/
-thread_pool_internal
-.
-h
-"
-#
-include
-"
-lib
-/
-jxl
-/
 color_management
 .
 h
@@ -228,6 +215,12 @@ h
 namespace
 jxl
 {
+using
+test
+:
+:
+ThreadPoolForTests
+;
 namespace
 extras
 {
@@ -2130,9 +2123,6 @@ bitstreams
 ]
 )
 color_hints
-SizeConstraints
-(
-)
 &
 ppf_out
 )
@@ -2469,7 +2459,7 @@ CodecTest
 TestRoundTrip
 )
 {
-ThreadPoolInternal
+ThreadPoolForTests
 pool
 (
 12
@@ -2637,7 +2627,7 @@ CodecTest
 LosslessPNMRoundtrip
 )
 {
-ThreadPoolInternal
+ThreadPoolForTests
 pool
 (
 12
@@ -2870,9 +2860,6 @@ size
 )
 )
 color_hints
-SizeConstraints
-(
-)
 &
 ppf
 )
@@ -3035,7 +3022,6 @@ color_hints
 &
 io
 pool
-nullptr
 )
 )
 ;
@@ -3109,7 +3095,6 @@ color_hints
 &
 io2
 pool
-nullptr
 )
 )
 ;
@@ -3350,7 +3335,7 @@ CodecTest
 TestMetadataSRGB
 )
 {
-ThreadPoolInternal
+ThreadPoolForTests
 pool
 (
 12
@@ -3624,7 +3609,7 @@ CodecTest
 TestMetadataLinear
 )
 {
-ThreadPoolInternal
+ThreadPoolForTests
 pool
 (
 12
@@ -3920,7 +3905,7 @@ CodecTest
 TestMetadataICC
 )
 {
-ThreadPoolInternal
+ThreadPoolForTests
 pool
 (
 12
@@ -4151,7 +4136,7 @@ Testexternal
 pngsuite
 )
 {
-ThreadPoolInternal
+ThreadPoolForTests
 pool
 (
 12
@@ -4502,7 +4487,7 @@ CodecTest
 TestWideGamut
 )
 {
-ThreadPoolInternal
+ThreadPoolForTests
 pool
 (
 12
@@ -4750,9 +4735,6 @@ original_png
 ColorHints
 (
 )
-SizeConstraints
-(
-)
 &
 ppf
 )
@@ -4887,9 +4869,6 @@ front
 )
 )
 ColorHints
-(
-)
-SizeConstraints
 (
 )
 &

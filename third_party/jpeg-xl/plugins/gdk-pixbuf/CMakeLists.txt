@@ -61,6 +61,10 @@ pixbuf
 .
 36
 )
+include
+(
+GNUInstallDirs
+)
 if
 (
 NOT
@@ -177,9 +181,7 @@ pixbufloader
 jxl
 jxl
 jxl_threads
-skcms
--
-interface
+lcms2
 PkgConfig
 :
 :
@@ -275,10 +277,14 @@ jxl
 .
 thumbnailer
 DESTINATION
-share
+"
+{
+CMAKE_INSTALL_DATADIR
+}
 /
 thumbnailers
 /
+"
 )
 if
 (
