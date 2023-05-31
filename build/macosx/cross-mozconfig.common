@@ -163,16 +163,6 @@ UPLOAD_PATH
 }
 "
 export
-DSYMUTIL
-=
-MOZ_FETCHES_DIR
-/
-clang
-/
-bin
-/
-dsymutil
-export
 MKFSHFS
 =
 MOZ_FETCHES_DIR
