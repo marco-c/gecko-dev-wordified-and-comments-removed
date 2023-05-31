@@ -1418,6 +1418,17 @@ com
 "
 :
 {
+videoWrapperScriptPath
+:
+"
+video
+-
+wrappers
+/
+udemy
+.
+js
+"
 policy
 :
 TOGGLE_POLICIES
