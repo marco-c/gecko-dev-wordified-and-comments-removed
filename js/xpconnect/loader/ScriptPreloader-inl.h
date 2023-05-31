@@ -630,6 +630,7 @@ Elem
 &
 other
 )
+const
 {
 return
 done_

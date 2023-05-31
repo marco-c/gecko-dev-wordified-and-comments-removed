@@ -315,6 +315,7 @@ operator
 bool
 (
 )
+const
 {
 return
 ptr_
@@ -330,6 +331,7 @@ operator
 size_t
 offset
 )
+const
 {
 return
 SharedMem
@@ -349,6 +351,7 @@ operator
 size_t
 offset
 )
+const
 {
 return
 SharedMem

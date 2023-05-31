@@ -91,6 +91,7 @@ operator
 TypedIndex
 other
 )
+const
 {
 return
 index
@@ -108,6 +109,7 @@ operator
 TypedIndex
 other
 )
+const
 {
 return
 index
@@ -125,6 +127,7 @@ operator
 TypedIndex
 other
 )
+const
 {
 return
 index
@@ -142,6 +145,7 @@ operator
 TypedIndex
 other
 )
+const
 {
 return
 index

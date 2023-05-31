@@ -709,6 +709,7 @@ BytecodeLocationOffset
 &
 offset
 )
+const
 {
 return
 BytecodeLocation

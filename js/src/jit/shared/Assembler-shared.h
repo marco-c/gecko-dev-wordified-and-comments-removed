@@ -2307,6 +2307,7 @@ CodeLocationLabel
 &
 other
 )
+const
 {
 return
 raw_
