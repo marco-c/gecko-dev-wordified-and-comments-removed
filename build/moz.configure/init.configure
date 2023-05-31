@@ -4602,6 +4602,15 @@ TARGET_OS
 "
 target
 .
+os
+)
+set_config
+(
+"
+TARGET_RAW_OS
+"
+target
+.
 raw_os
 )
 set_config

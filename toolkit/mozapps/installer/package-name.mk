@@ -125,7 +125,7 @@ MOZ_PKG_PLATFORM
 :
 =
 (
-TARGET_OS
+TARGET_RAW_OS
 )
 -
 (
@@ -150,7 +150,7 @@ TARGET_CPU
 )
 endif
 #
-TARGET_OS
+TARGET_RAW_OS
 /
 TARGET_CPU
 may
@@ -217,7 +217,7 @@ endif
 ifeq
 (
 (
-TARGET_OS
+TARGET_RAW_OS
 )
 linux
 -
