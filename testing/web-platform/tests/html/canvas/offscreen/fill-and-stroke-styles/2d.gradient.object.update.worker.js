@@ -139,6 +139,16 @@ fillStyle
 =
 g
 ;
+ctx
+.
+fillRect
+(
+0
+0
+100
+50
+)
+;
 g
 .
 addColorStop
