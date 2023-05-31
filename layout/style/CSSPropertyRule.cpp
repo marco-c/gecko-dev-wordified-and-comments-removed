@@ -61,7 +61,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedPropertyRule
+StylePropertyRule
 >
 aRaw
 )

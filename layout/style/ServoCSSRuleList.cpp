@@ -581,7 +581,7 @@ CASE_RULE
 Page
 Page
 )
-CASE_RULE
+CASE_RULE_WITH_PREFIX
 (
 Property
 Property
@@ -1488,7 +1488,7 @@ CASE_FOR
 Page
 Page
 )
-CASE_FOR
+CASE_FOR_WITH_PREFIX
 (
 Property
 Property

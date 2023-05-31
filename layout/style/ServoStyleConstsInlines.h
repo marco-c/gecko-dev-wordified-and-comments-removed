@@ -201,7 +201,7 @@ template
 struct
 StyleStrong
 <
-StyleLockedPropertyRule
+StylePropertyRule
 >
 ;
 template

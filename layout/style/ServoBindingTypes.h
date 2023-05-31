@@ -112,6 +112,9 @@ struct
 StyleAnimationValue
 ;
 struct
+StylePropertyRule
+;
+struct
 StyleStylesheetContents
 ;
 struct
@@ -320,6 +323,10 @@ ServoLockedArcTypeList
 .
 h
 "
+SERVO_ARC_TYPE_WITH_PREFIX
+(
+PropertyRule
+)
 SERVO_ARC_TYPE
 (
 AnimationValue
