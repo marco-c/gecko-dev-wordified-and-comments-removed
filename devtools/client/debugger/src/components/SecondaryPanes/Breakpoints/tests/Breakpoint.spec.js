@@ -526,6 +526,14 @@ blackboxedRangesForSource
 :
 [
 ]
+checkSourceOnIgnoreList
+:
+(
+)
+=
+>
+{
+}
 source
 breakpoint
 selectedSource

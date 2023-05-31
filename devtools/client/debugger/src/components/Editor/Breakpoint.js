@@ -305,6 +305,13 @@ blackboxedRangesForSelectedSource
 PropTypes
 .
 array
+isSelectedSourceOnIgnoreList
+:
+PropTypes
+.
+bool
+.
+isRequired
 }
 ;
 }
@@ -577,6 +584,7 @@ breakpoint
 selectedSource
 breakpointActions
 blackboxedRangesForSelectedSource
+isSelectedSourceOnIgnoreList
 }
 =
 this
@@ -614,6 +622,7 @@ breakpoint
 selectedLocation
 breakpointActions
 blackboxedRangesForSelectedSource
+isSelectedSourceOnIgnoreList
 )
 )
 ;
