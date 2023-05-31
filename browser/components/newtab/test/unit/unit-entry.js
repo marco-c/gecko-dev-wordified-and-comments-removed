@@ -505,6 +505,16 @@ listener
 {
 }
 }
+AboutWelcomeTelemetry
+:
+class
+{
+submitGleanPingForPing
+(
+)
+{
+}
+}
 AddonManager
 :
 {
