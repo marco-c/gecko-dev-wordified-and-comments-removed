@@ -1803,11 +1803,6 @@ mStartTime
 VsyncId
 mStartId
 ;
-bool
-mFrameNeedsRender
-=
-false
-;
 }
 ;
 struct
