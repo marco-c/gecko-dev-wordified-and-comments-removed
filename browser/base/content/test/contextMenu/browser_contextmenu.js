@@ -5068,9 +5068,10 @@ search
 .
 wrappedJSObject
 .
-_initialized
-=
+forceInitializedForTests
+(
 false
+)
 ;
 await
 test_contextmenu
@@ -5168,9 +5169,10 @@ search
 .
 wrappedJSObject
 .
-_initialized
-=
+forceInitializedForTests
+(
 true
+)
 ;
 }
 )
