@@ -1253,6 +1253,17 @@ mDefaultPreventedOnContent
 ;
 }
 void
+UpdateDefaultPreventedOnContent
+(
+dom
+:
+:
+EventTarget
+*
+aTarget
+)
+;
+void
 InitDropEffectForTests
 (
 )
