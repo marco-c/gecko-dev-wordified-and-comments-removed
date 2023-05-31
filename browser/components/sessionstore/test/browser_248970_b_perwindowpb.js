@@ -706,7 +706,7 @@ count
 =
 ss
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 aWin
 )
@@ -742,7 +742,7 @@ count
 =
 max_tabs_undo
 "
-getClosedTabCount
+getClosedTabCountForWindow
 should
 return
 zero
@@ -878,14 +878,14 @@ ok
 (
 ss
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 aWin
 )
 >
 count
 "
-getClosedTabCount
+getClosedTabCountForWindow
 has
 increased
 after

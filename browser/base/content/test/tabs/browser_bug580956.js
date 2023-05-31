@@ -6,7 +6,7 @@ numClosedTabs
 return
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 window
 )

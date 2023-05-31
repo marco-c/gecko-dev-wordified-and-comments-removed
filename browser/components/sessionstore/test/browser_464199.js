@@ -721,7 +721,7 @@ closedTabs
 =
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 newWin
 )
@@ -827,7 +827,7 @@ closedTabs
 =
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 newWin
 )

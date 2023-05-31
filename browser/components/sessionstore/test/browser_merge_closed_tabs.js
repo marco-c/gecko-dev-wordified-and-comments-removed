@@ -238,7 +238,7 @@ is
 (
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 win
 )
@@ -290,7 +290,7 @@ cData
 =
 SessionStore
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 win
 )

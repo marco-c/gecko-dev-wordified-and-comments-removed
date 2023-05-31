@@ -320,7 +320,7 @@ undoItems
 =
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )

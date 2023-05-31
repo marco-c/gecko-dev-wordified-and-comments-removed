@@ -755,7 +755,7 @@ lazy
 .
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 window
 )

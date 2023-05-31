@@ -152,7 +152,7 @@ tabData
 =
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )

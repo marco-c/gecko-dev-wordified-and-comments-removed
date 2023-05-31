@@ -258,7 +258,7 @@ state
 =
 SessionStore
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )

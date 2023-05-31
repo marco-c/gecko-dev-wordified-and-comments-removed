@@ -161,7 +161,7 @@ closedTabData
 =
 SessionStore
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )
@@ -676,7 +676,7 @@ closedTabData
 =
 SessionStore
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )
@@ -907,7 +907,7 @@ closedTabData
 =
 SessionStore
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )

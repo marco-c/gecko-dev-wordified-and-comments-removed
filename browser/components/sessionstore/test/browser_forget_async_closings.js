@@ -65,7 +65,7 @@ is
 (
 ss
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 window
 )
@@ -135,7 +135,7 @@ is
 (
 ss
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 window
 )
@@ -157,7 +157,7 @@ is
 (
 ss
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 window
 )

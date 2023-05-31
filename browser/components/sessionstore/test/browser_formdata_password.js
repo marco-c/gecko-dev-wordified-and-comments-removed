@@ -266,7 +266,7 @@ formdata
 =
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )

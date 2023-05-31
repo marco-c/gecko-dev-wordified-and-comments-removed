@@ -564,7 +564,7 @@ closedTabData
 =
 SessionStore
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 winData
 .

@@ -107,7 +107,7 @@ stringify
 (
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )

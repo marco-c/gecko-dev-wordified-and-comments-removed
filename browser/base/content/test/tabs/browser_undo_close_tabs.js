@@ -336,7 +336,7 @@ window
 )
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 window
 )

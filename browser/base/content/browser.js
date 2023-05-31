@@ -28222,7 +28222,7 @@ disabled
 =
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 window
 )
@@ -35578,7 +35578,7 @@ if
 (
 SessionStore
 .
-getClosedTabCount
+getClosedTabCountForWindow
 (
 window
 )

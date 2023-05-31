@@ -102,7 +102,7 @@ storage
 =
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )
@@ -230,7 +230,7 @@ storage
 =
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )
@@ -633,7 +633,7 @@ storage
 =
 ss
 .
-getClosedTabData
+getClosedTabDataForWindow
 (
 window
 )
