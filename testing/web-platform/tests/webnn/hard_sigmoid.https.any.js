@@ -1,0 +1,13 @@
+'
+use
+strict
+'
+;
+testWebNNOperation
+(
+'
+hardSigmoid
+'
+buildOperationWithSingleInput
+)
+;
