@@ -1682,13 +1682,6 @@ platform
 tests
 "
                           
-run_test_kwargs
-[
-"
-processes
-"
-]
-                          
 test_source_cls
                           
 test_source_kwargs
@@ -2486,26 +2479,6 @@ test_groups
 *
 *
 kwargs
-)
-        
-logger
-.
-info
-(
-"
-Using
-%
-i
-client
-processes
-"
-%
-kwargs
-[
-"
-processes
-"
-]
 )
         
 test_status

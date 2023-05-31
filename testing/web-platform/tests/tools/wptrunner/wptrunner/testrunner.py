@@ -5975,6 +5975,7 @@ test_source_kwargs
 :
     
 queue
+num_of_workers
 =
 test_source_cls
 .
@@ -6005,6 +6006,7 @@ empty
     
 return
 queue
+num_of_workers
 class
 ManagerGroup
 :
@@ -6031,7 +6033,6 @@ __init__
 (
 self
 suite_name
-size
 test_source_cls
 test_source_kwargs
                  
@@ -6076,12 +6077,6 @@ self
 suite_name
 =
 suite_name
-        
-self
-.
-size
-=
-size
         
 self
 .
@@ -6231,25 +6226,8 @@ group
 "
 "
         
-self
-.
-logger
-.
-debug
-(
-"
-Using
-%
-i
-processes
-"
-%
-self
-.
-size
-)
-        
 test_queue
+size
 =
 make_test_queue
 (
@@ -6264,13 +6242,28 @@ self
 test_source_kwargs
 )
         
+self
+.
+logger
+.
+info
+(
+"
+Using
+%
+i
+child
+processes
+"
+%
+size
+)
+        
 for
 idx
 in
 range
 (
-self
-.
 size
 )
 :
