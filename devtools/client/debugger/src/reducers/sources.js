@@ -418,17 +418,6 @@ state
 }
 case
 "
-NAVIGATE
-"
-:
-return
-initialSourcesState
-(
-state
-)
-;
-case
-"
 REMOVE_THREAD
 "
 :
