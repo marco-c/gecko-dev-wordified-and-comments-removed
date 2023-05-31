@@ -315,7 +315,6 @@ IsKeyboardSelect
 Visual
 Extend
 ForceEditableRegion
-AllowContentInDifferentNativeAnonymousSubtreeRoot
 }
 ;
 using
