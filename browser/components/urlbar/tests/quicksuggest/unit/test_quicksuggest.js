@@ -4427,7 +4427,7 @@ ok
 !
 QuickSuggestRemoteSettings
 .
-_test_rs
+rs
 "
 Settings
 client
@@ -4460,7 +4460,7 @@ ok
 (
 QuickSuggestRemoteSettings
 .
-_test_rs
+rs
 "
 Settings
 client
@@ -4499,7 +4499,7 @@ ok
 !
 QuickSuggestRemoteSettings
 .
-_test_rs
+rs
 "
 Settings
 client
@@ -4535,7 +4535,7 @@ ok
 (
 QuickSuggestRemoteSettings
 .
-_test_rs
+rs
 "
 Settings
 client
@@ -4573,7 +4573,7 @@ ok
 (
 QuickSuggestRemoteSettings
 .
-_test_rs
+rs
 "
 Settings
 client
@@ -4611,7 +4611,7 @@ ok
 (
 QuickSuggestRemoteSettings
 .
-_test_rs
+rs
 "
 Settings
 client
@@ -4650,7 +4650,7 @@ ok
 !
 QuickSuggestRemoteSettings
 .
-_test_rs
+rs
 "
 Settings
 client
@@ -4686,7 +4686,7 @@ ok
 (
 QuickSuggestRemoteSettings
 .
-_test_rs
+rs
 "
 Settings
 client
@@ -4723,7 +4723,7 @@ ok
 !
 QuickSuggestRemoteSettings
 .
-_test_rs
+rs
 "
 Settings
 client
@@ -4782,7 +4782,7 @@ ok
 !
 QuickSuggestRemoteSettings
 .
-_test_rs
+rs
 "
 Settings
 client
