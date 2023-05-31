@@ -784,13 +784,6 @@ third_party
 /
 python
 /
-pytoml
-vendored
-:
-third_party
-/
-python
-/
 PyYAML
 /
 lib3
