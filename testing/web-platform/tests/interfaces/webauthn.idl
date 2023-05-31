@@ -838,6 +838,11 @@ nfc
 ble
 "
 "
+smart
+-
+card
+"
+"
 hybrid
 "
 "

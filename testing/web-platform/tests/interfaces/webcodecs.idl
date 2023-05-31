@@ -666,6 +666,9 @@ long
 long
 bitrate
 ;
+BitrateMode
+bitrateMode
+;
 }
 ;
 dictionary

@@ -69,18 +69,6 @@ refresh
 }
 ;
 enum
-TokenType
-{
-"
-private
--
-state
--
-token
-"
-}
-;
-enum
 TokenVersion
 {
 "
@@ -113,10 +101,6 @@ redemption
 dictionary
 PrivateToken
 {
-required
-TokenType
-type
-;
 required
 TokenVersion
 version
@@ -161,8 +145,6 @@ hasPrivateTokens
 (
 USVString
 issuer
-USVString
-type
 )
 ;
 Promise
@@ -173,8 +155,6 @@ hasRedemptionRecord
 (
 USVString
 issuer
-USVString
-type
 )
 ;
 }

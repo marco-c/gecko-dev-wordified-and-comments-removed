@@ -402,6 +402,16 @@ framesAssembledFromMultiplePackets
 double
 totalAssemblyTime
 ;
+unsigned
+long
+long
+retransmittedPacketsReceived
+;
+unsigned
+long
+long
+retransmittedBytesReceived
+;
 }
 ;
 dictionary

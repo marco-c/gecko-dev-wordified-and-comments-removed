@@ -198,6 +198,13 @@ audioBitrateMode
 variable
 "
 ;
+DOMHighResTimeStamp
+videoKeyFrameIntervalDuration
+;
+unsigned
+long
+videoKeyFrameIntervalCount
+;
 }
 ;
 enum

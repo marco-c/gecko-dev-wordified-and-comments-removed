@@ -134,6 +134,11 @@ requestStart
 readonly
 attribute
 DOMHighResTimeStamp
+firstInterimResponseStart
+;
+readonly
+attribute
+DOMHighResTimeStamp
 responseStart
 ;
 readonly
