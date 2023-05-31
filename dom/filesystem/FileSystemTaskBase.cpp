@@ -829,9 +829,9 @@ MOZ_ASSERT
 mRequestParent
 )
 ;
-Unused
-<
-<
+(
+void
+)
 mRequestParent
 -
 >

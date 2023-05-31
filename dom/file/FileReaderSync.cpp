@@ -517,12 +517,9 @@ NS_ERROR_OUT_OF_MEMORY
 return
 ;
 }
-mozilla
-:
-:
-Unused
-<
-<
+(
+void
+)
 bufferData
 .
 release
