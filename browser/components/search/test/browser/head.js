@@ -1867,7 +1867,6 @@ num
 Should
 have
 received
-an
 {
 num
 }

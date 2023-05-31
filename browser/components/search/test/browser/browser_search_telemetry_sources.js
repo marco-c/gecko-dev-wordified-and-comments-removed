@@ -103,7 +103,7 @@ https
 /
 example
 .
-com
+org
 \
 /
 browser
@@ -131,8 +131,6 @@ searchTelemetry
 Ad
 )
 ?
-.
-html
 /
 queryParamName
 :
@@ -230,7 +228,7 @@ https
 /
 example
 .
-com
+org
 /
 browser
 /
@@ -528,7 +526,7 @@ https
 /
 example
 .
-com
+org
 /
 browser
 /
@@ -613,11 +611,7 @@ canRecordExtended
 =
 oldCanRecord
 ;
-Services
-.
-telemetry
-.
-clearScalars
+resetTelemetry
 (
 )
 ;

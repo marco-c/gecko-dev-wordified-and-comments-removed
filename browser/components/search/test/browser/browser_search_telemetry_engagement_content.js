@@ -1510,7 +1510,7 @@ partner_code
 source
 :
 "
-unknown
+opened_in_new_tab
 "
 is_shopping_page
 :
@@ -1806,7 +1806,7 @@ partner_code
 source
 :
 "
-unknown
+opened_in_new_tab
 "
 is_shopping_page
 :
