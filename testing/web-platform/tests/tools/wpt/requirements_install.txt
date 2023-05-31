@@ -6,3 +6,9 @@ mozinstall
 0
 .
 1
+packaging
+=
+=
+23
+.
+1

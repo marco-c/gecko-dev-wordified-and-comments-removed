@@ -7,11 +7,9 @@ sys
 import
 logging
 from
-distutils
-.
-spawn
+shutil
 import
-find_executable
+which
 try
 :
     
@@ -99,7 +97,7 @@ self
 .
 virtualenv
 =
-find_executable
+which
 (
 "
 virtualenv
@@ -329,11 +327,13 @@ self
         
 path
 =
-find_executable
+which
 (
 "
 pip3
 "
+path
+=
 self
 .
 bin_path

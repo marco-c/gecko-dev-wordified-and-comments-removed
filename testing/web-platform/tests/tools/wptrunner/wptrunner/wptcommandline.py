@@ -9,11 +9,9 @@ collections
 import
 OrderedDict
 from
-distutils
-.
-spawn
+shutil
 import
-find_executable
+which
 from
 datetime
 import
@@ -6191,7 +6189,7 @@ return
     
 path
 =
-find_executable
+which
 (
 name
 )

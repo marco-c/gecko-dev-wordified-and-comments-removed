@@ -7,11 +7,9 @@ platform
 import
 sys
 from
-distutils
-.
-spawn
+shutil
 import
-find_executable
+which
 from
 typing
 import
@@ -705,7 +703,7 @@ openssl
         
 if
 not
-find_executable
+which
 (
 kwargs
 [

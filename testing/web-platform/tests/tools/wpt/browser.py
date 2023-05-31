@@ -24,11 +24,9 @@ datetime
 timedelta
 timezone
 from
-distutils
-.
-spawn
+shutil
 import
-find_executable
+which
 from
 urllib
 .
@@ -2000,11 +1998,13 @@ linux
             
 binary
 =
-find_executable
+which
 (
 "
 firefox
 "
+path
+=
 os
 .
 path
@@ -2068,11 +2068,14 @@ macos
             
 binary
 =
-find_executable
+which
 (
 "
 firefox
 "
+                           
+path
+=
 os
 .
 path
@@ -2080,6 +2083,7 @@ path
 join
 (
 path
+                                             
 self
 .
 application_name
@@ -2094,7 +2098,7 @@ Nightly
 app
 "
 )
-                                                             
+                                             
 "
 Contents
 "
@@ -2353,11 +2357,13 @@ MacOS
 ]
             
 return
-find_executable
+which
 (
 "
 firefox
 "
+path
+=
 os
 .
 pathsep
@@ -2375,7 +2381,7 @@ None
 :
             
 return
-find_executable
+which
 (
 "
 firefox
@@ -2394,7 +2400,7 @@ self
         
 path
 =
-find_executable
+which
 (
 "
 certutil
@@ -2477,7 +2483,7 @@ None
 :
         
 return
-find_executable
+which
 (
 "
 geckodriver
@@ -3627,19 +3633,14 @@ dest
             
 path
 =
-find_executable
+which
 (
-os
-.
-path
-.
-join
-(
-dest
 "
 geckodriver
 "
-)
+path
+=
+dest
 )
         
 assert
@@ -4883,11 +4884,13 @@ environment
         
 existing_chromedriver_path
 =
-find_executable
+which
 (
 "
 chromedriver
 "
+path
+=
 path
 )
         
@@ -5232,7 +5235,7 @@ product
 )
         
 return
-find_executable
+which
 (
 "
 chromedriver
@@ -5687,11 +5690,13 @@ _chromedriver_platform_string
         
 chromedriver_path
 =
-find_executable
+which
 (
 "
 chromedriver
 "
+path
+=
 chromedriver_dir
 )
         
@@ -5717,11 +5722,13 @@ chromedriver_dir
         
 chromedriver_path
 =
-find_executable
+which
 (
 "
 chromedriver
 "
+path
+=
 dest
 )
         
@@ -6278,11 +6285,13 @@ Darwin
 :
             
 return
-find_executable
+which
 (
 "
 Chromium
 "
+path
+=
 os
 .
 path
@@ -6290,21 +6299,21 @@ path
 join
 (
 directory
-                                                            
+                                                       
 self
 .
 _chromium_package_name
-                                                            
+                                                       
 "
 Chromium
 .
 app
 "
-                                                            
+                                                       
 "
 Contents
 "
-                                                            
+                                                       
 "
 MacOS
 "
@@ -6312,11 +6321,13 @@ MacOS
 )
         
 return
-find_executable
+which
 (
 "
 chrome
 "
+path
+=
 os
 .
 path
@@ -7523,7 +7534,7 @@ unstable
 "
             
 return
-find_executable
+which
 (
 name
 )
@@ -8221,7 +8232,7 @@ Darwin
 :
             
 return
-find_executable
+which
 (
 "
 Content
@@ -8239,7 +8250,7 @@ Shell
 )
         
 return
-find_executable
+which
 (
 "
 content_shell
@@ -8447,7 +8458,7 @@ None
 :
         
 return
-find_executable
+which
 (
 "
 chromedriver
@@ -9530,7 +9541,7 @@ None
 :
         
 return
-find_executable
+which
 (
 "
 operadriver
@@ -9698,7 +9709,7 @@ operadriver_dir
         
 path
 =
-find_executable
+which
 (
 "
 operadriver
@@ -10068,7 +10079,7 @@ dev
 "
             
 return
-find_executable
+which
 (
 name
 )
@@ -10225,9 +10236,11 @@ Application
 ]
                 
 return
-find_executable
+which
 (
 binaryname
+path
+=
 os
 .
 pathsep
@@ -10305,9 +10318,11 @@ Application
 ]
                 
 return
-find_executable
+which
 (
 binaryname
+path
+=
 os
 .
 pathsep
@@ -10385,9 +10400,11 @@ Application
 ]
                 
 return
-find_executable
+which
 (
 binaryname
+path
+=
 os
 .
 pathsep
@@ -10457,9 +10474,11 @@ Application
 ]
                 
 return
-find_executable
+which
 (
 binaryname
+path
+=
 os
 .
 pathsep
@@ -10504,7 +10523,7 @@ None
 :
         
 return
-find_executable
+which
 (
 "
 msedgedriver
@@ -10950,11 +10969,13 @@ edgedriver_path
 )
         
 return
-find_executable
+which
 (
 self
 .
 edgedriver_name
+path
+=
 dest
 )
     
@@ -11603,7 +11624,7 @@ None
 :
         
 return
-find_executable
+which
 (
 "
 MicrosoftWebDriver
@@ -11816,7 +11837,7 @@ None
 :
         
 return
-find_executable
+which
 (
 "
 IEDriverServer
@@ -13393,11 +13414,13 @@ MacOS
 "
         
 return
-find_executable
+which
 (
 "
 safaridriver
 "
+path
+=
 path
 )
     
@@ -13974,11 +13997,13 @@ dest
         
 path
 =
-find_executable
+which
 (
 "
 servo
 "
+path
+=
 os
 .
 path
@@ -14033,11 +14058,13 @@ None
         
 path
 =
-find_executable
+which
 (
 "
 servo
 "
+path
+=
 os
 .
 path
@@ -14059,7 +14086,7 @@ None
             
 path
 =
-find_executable
+which
 (
 "
 servo
@@ -15171,11 +15198,13 @@ channel
 )
         
 return
-find_executable
+which
 (
 "
 WebKitTestRunner
 "
+path
+=
 os
 .
 path
@@ -16106,9 +16135,11 @@ install_ok_file
 :
                 
 return
-find_executable
+which
 (
 binary
+path
+=
 bundle_dir
 )
         
@@ -16177,7 +16208,7 @@ gnu
         
 gcc
 =
-find_executable
+which
 (
 "
 gcc
@@ -16238,11 +16269,13 @@ triplet
 )
         
 return
-find_executable
+which
 (
 "
 MiniBrowser
 "
+path
+=
 os
 .
 pathsep
@@ -16286,7 +16319,7 @@ webdriver_path
             
 webdriver_path
 =
-find_executable
+which
 (
 "
 WebKitWebDriver
@@ -16483,7 +16516,7 @@ None
 :
         
 return
-find_executable
+which
 (
 "
 epiphany
@@ -16504,7 +16537,7 @@ None
 :
         
 return
-find_executable
+which
 (
 "
 WebKitWebDriver

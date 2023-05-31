@@ -3096,15 +3096,29 @@ patch
 '
 os
 .
+access
+'
+return_value
+=
+True
+)
+mock
+.
+patch
+(
+'
+os
+.
 path
 .
-isfile
+exists
 '
 )
 def
 test_webkitgtk_minibrowser_find_binary
 (
-mocked_os_path_isfile
+mocked_os_path_exists
+_mocked_os_access
 )
 :
     
@@ -3117,7 +3131,7 @@ WebKitGTKMiniBrowser
 logger
 )
     
-mocked_os_path_isfile
+mocked_os_path_exists
 .
 side_effect
 =
@@ -3160,7 +3174,7 @@ webkit2gtk
 MiniBrowser
 '
     
-mocked_os_path_isfile
+mocked_os_path_exists
 .
 side_effect
 =
@@ -3205,7 +3219,7 @@ webkit2gtk
 MiniBrowser
 '
     
-mocked_os_path_isfile
+mocked_os_path_exists
 .
 side_effect
 =
@@ -3250,7 +3264,7 @@ webkit2gtk
 MiniBrowser
 '
     
-mocked_os_path_isfile
+mocked_os_path_exists
 .
 side_effect
 =
@@ -3334,7 +3348,7 @@ webkit2gtk
 MiniBrowser
 '
         
-mocked_os_path_isfile
+mocked_os_path_exists
 .
 side_effect
 =
