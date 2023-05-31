@@ -5255,9 +5255,13 @@ goto
 loser
 ;
 }
-sprintf
+snprintf
 (
 cgiChalVar
+sizeof
+(
+cgiChalVar
+)
 "
 chal
 %

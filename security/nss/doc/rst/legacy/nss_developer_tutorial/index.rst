@@ -79,11 +79,6 @@ __
 -
 -
 -
-.
-.
-container
-:
-:
 Formatting
 <
 #
@@ -218,8 +213,6 @@ allowed
 code
 :
 :
-brush
-:
 if
 (
 condition
@@ -243,8 +236,6 @@ Or
 .
 code
 :
-:
-brush
 :
 if
 (
@@ -321,8 +312,6 @@ fine
 code
 :
 :
-brush
-:
 if
 (
 condition
@@ -339,8 +328,6 @@ Or
 .
 code
 :
-:
-brush
 :
 if
 (
@@ -379,8 +366,6 @@ follows
 code
 :
 :
-brush
-:
 /
 *
 *
@@ -394,8 +379,6 @@ or
 .
 code
 :
-:
-brush
 :
 /
 *
@@ -426,8 +409,6 @@ space
 code
 :
 :
-brush
-:
 /
 *
 Line1
@@ -440,8 +421,6 @@ or
 .
 code
 :
-:
-brush
 :
 /
 *
@@ -456,8 +435,6 @@ or
 .
 code
 :
-:
-brush
 :
 /
 *
@@ -614,8 +591,7 @@ as
 code
 :
 :
-brush
-:
+c
 unsigned
 char
 *
@@ -1127,11 +1103,6 @@ __
 -
 -
 -
-.
-.
-container
-:
-:
 Functions
 <
 #
@@ -1275,11 +1246,6 @@ __
 -
 -
 -
-.
-.
-container
-:
-:
 Structs
 <
 #

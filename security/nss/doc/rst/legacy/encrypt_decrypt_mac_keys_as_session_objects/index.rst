@@ -239,8 +239,7 @@ objects
 code
 :
 :
-brush
-:
+c
 /
 *
 This

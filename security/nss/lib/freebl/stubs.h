@@ -112,6 +112,10 @@ NSS_SecureMemcmpZero
 NSS_SecureMemcmpZero_stub
 #
 define
+NSS_SecureSelect
+NSS_SecureSelect_stub
+#
+define
 PR_Assert
 PR_Assert_stub
 #

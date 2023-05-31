@@ -234,8 +234,7 @@ container
 code
 :
 :
-brush
-:
+c
 /
 *
 This
@@ -901,8 +900,7 @@ container
 code
 :
 :
-brush
-:
+c
 /
 *
 This

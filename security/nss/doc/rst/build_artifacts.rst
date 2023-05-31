@@ -850,8 +850,6 @@ PKCS
 11
 modules
 .
-.
-.
 -
 libswfci
 .
@@ -882,8 +880,6 @@ linked
 with
 directly
 :
-.
-.
 -
 libfort
 .

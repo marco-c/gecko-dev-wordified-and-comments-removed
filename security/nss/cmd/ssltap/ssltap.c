@@ -4615,9 +4615,13 @@ break
 ;
 default
 :
-sprintf
+snprintf
 (
 buf
+sizeof
+(
+buf
+)
 "
 %
 d

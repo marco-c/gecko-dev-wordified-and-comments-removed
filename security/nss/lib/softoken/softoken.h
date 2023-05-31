@@ -125,7 +125,8 @@ extern
 CK_RV
 sftk_FIPSEntryOK
 (
-void
+PRBool
+rerun
 )
 ;
 unsigned

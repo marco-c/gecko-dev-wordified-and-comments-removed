@@ -224,8 +224,7 @@ storing
 code
 :
 :
-brush
-:
+c
 /
 *
 This

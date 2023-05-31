@@ -7008,7 +7008,7 @@ StartConnect
 (
 )
 ;
-PR_ASSERT
+ASSERT_TRUE
 (
 SSL_OptionSet
 (
@@ -7098,7 +7098,7 @@ inequal
 }
 }
 }
-PR_ASSERT
+ASSERT_TRUE
 (
 inequal
 >

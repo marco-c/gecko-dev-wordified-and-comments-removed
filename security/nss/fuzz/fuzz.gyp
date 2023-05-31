@@ -448,7 +448,7 @@ all_dependent_settings
 :
 {
 '
-ldflags
+libraries
 '
 :
 [

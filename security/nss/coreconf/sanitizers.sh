@@ -369,14 +369,10 @@ ubsan
 else
 ubsan
 =
-bool
-signed
+undefined
+local
 -
-integer
--
-overflow
-shift
-vptr
+bounds
 fi
 enable_sanitizer
 ubsan

@@ -147,7 +147,7 @@ via
 code
 :
 :
-bz_comment_text
+sh
 hg
 clone
 https

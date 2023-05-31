@@ -1038,10 +1038,13 @@ buf
 0
 )
 {
-sprintf
+snprintf
 (
 outpath
 +
+len
+PATH_MAX
+-
 len
 "
 %

@@ -130,6 +130,14 @@ clang
 -
 15
 \
+libclang
+-
+rt
+-
+15
+-
+dev
+\
 llvm
 -
 15

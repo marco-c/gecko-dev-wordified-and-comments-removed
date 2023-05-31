@@ -444,9 +444,13 @@ reldir
 return
 0
 ;
-sprintf
+snprintf
 (
 fullname
+sizeof
+(
+fullname
+)
 "
 %
 s

@@ -87,11 +87,6 @@ __
 -
 .
 .
-container
-:
-:
-.
-.
 _results_link
 :
 Results

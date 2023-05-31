@@ -352,9 +352,7 @@ commands
 code
 :
 :
-language
--
-html
+sh
 hg
 clone
 https

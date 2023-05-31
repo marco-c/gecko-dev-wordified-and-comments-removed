@@ -251,8 +251,7 @@ container
 code
 :
 :
-brush
-:
+c
 /
 *
 NSPR

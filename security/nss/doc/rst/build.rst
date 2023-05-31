@@ -1522,7 +1522,6 @@ using
 environment
 variables
 .
-|
 The
 scripts
 will

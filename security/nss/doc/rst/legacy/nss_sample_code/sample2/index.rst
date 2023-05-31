@@ -26,8 +26,7 @@ summary
 code
 :
 :
-brush
-:
+c
 /
 *
 This

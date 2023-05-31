@@ -38,8 +38,7 @@ file
 code
 :
 :
-brush
-:
+c
 /
 *
 NSPR
