@@ -319,17 +319,6 @@ settings
 docs
 /
 -
-services
-/
-sync
-/
-locales
-/
-en
--
-US
-/
--
 taskcluster
 /
 docs

@@ -17,14 +17,6 @@ Firefox
 Sync
 "
 )
-DIRS
-+
-=
-[
-"
-locales
-"
-]
 XPCSHELL_TESTS_MANIFESTS
 +
 =
