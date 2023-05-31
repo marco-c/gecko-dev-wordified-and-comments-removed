@@ -2299,7 +2299,7 @@ aTRRDomain
 )
 ;
 }
-void
+nsresult
 ChildDNSService
 :
 :
@@ -2318,6 +2318,9 @@ TRRService
 ProviderKey
 (
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

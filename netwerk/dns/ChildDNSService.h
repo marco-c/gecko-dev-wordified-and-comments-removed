@@ -119,14 +119,6 @@ aTRRDomain
 )
 ;
 void
-GetTRRDomainKey
-(
-nsACString
-&
-aTRRDomain
-)
-;
-void
 SetTRRModeInChild
 (
 nsIDNSService
