@@ -142,7 +142,7 @@ Start
 (
 Callback
 *
-callback
+aCallback
 )
 override
 ;
@@ -157,7 +157,7 @@ GetSourceList
 (
 SourceList
 *
-sources
+aSources
 )
 override
 ;
@@ -183,7 +183,7 @@ webrtc
 :
 DesktopVector
 &
-pos
+aPos
 )
 override
 ;

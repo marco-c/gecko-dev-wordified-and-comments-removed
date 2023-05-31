@@ -518,7 +518,7 @@ DesktopCapturer
 :
 SourceList
 *
-sources
+aSources
 )
 {
 MOZ_LOG
@@ -537,7 +537,7 @@ result
 %
 zu
 "
-sources
+aSources
 -
 >
 size
@@ -608,7 +608,7 @@ DesktopCapturer
 :
 Callback
 *
-callback
+aCallback
 )
 {
 RTC_DCHECK_RUN_ON
@@ -625,7 +625,7 @@ mCallback
 ;
 RTC_DCHECK
 (
-callback
+aCallback
 )
 ;
 MOZ_LOG
@@ -651,7 +651,7 @@ mBrowserId
 ;
 mCallback
 =
-callback
+aCallback
 ;
 mCallbackWorker
 =
@@ -1132,7 +1132,7 @@ webrtc
 :
 DesktopVector
 &
-pos
+aPos
 )
 {
 return
