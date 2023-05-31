@@ -1442,6 +1442,17 @@ notifyPass
 ;
 add_task
 (
+{
+skip_if
+:
+(
+)
+=
+>
+mozinfo
+.
+ccov
+}
 async
 function
 extreme_urlFilter_patterns
