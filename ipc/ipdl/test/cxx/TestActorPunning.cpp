@@ -123,6 +123,7 @@ char
 *
 aErrorMsg
 )
+const
 {
 if
 (

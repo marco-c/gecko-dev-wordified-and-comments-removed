@@ -860,6 +860,7 @@ char
 *
 aMsg
 )
+const
 {
 dom
 :

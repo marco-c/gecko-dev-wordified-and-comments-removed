@@ -288,6 +288,7 @@ char
 *
 aMsg
 )
+const
 override
 ;
 bool

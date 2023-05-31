@@ -4535,6 +4535,7 @@ char
 *
 aMsg
 )
+const
 {
 dom
 :

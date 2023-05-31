@@ -222,6 +222,7 @@ char
 *
 aErrorMsg
 )
+const
 override
 ;
 }

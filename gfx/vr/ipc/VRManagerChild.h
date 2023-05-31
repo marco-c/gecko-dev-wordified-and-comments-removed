@@ -542,6 +542,7 @@ char
 *
 aMsg
 )
+const
 override
 ;
 void

@@ -79,6 +79,7 @@ char
 *
 aErrorMsg
 )
+const
 {
 if
 (
