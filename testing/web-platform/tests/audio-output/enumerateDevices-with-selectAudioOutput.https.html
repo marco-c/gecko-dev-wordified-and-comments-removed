@@ -459,12 +459,11 @@ undefined
 )
 ;
 const
+[
 info
+]
 =
 outputDevices
-[
-0
-]
 ;
 assert_equals
 (
@@ -474,6 +473,10 @@ deviceId
 selected
 .
 deviceId
+"
+deviceId
+exposed
+"
 )
 ;
 assert_equals
@@ -484,6 +487,10 @@ groupId
 selected
 .
 groupId
+"
+groupId
+exposed
+"
 )
 ;
 assert_equals
@@ -494,6 +501,10 @@ label
 selected
 .
 label
+"
+label
+exposed
+"
 )
 ;
 }
