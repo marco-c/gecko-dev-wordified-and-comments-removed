@@ -615,10 +615,15 @@ extern
 bool
 enablePrivateClassMethods
 ;
+#
+ifdef
+ENABLE_CHANGE_ARRAY_BY_COPY
 extern
 bool
 enableChangeArrayByCopy
 ;
+#
+endif
 #
 ifdef
 ENABLE_NEW_SET_METHODS
