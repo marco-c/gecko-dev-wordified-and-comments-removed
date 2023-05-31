@@ -1645,6 +1645,15 @@ allocKind
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+IsForegroundFinalized
+(
+allocKind
+)
+)
+;
 if
 (
 nDynamicSlots

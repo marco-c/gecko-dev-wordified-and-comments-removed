@@ -130,7 +130,7 @@ Object
 JSObject
 JSObject_Slots0
 false
-false
+true
 true
 )
 \
@@ -152,7 +152,7 @@ Object
 JSObject
 JSObject_Slots2
 false
-false
+true
 true
 )
 \
@@ -185,7 +185,7 @@ Object
 JSObject
 JSObject_Slots4
 false
-false
+true
 true
 )
 \
@@ -218,7 +218,7 @@ Object
 JSObject
 JSObject_Slots8
 false
-false
+true
 true
 )
 \
@@ -251,7 +251,7 @@ Object
 JSObject
 JSObject_Slots12
 false
-false
+true
 true
 )
 \
@@ -284,7 +284,7 @@ Object
 JSObject
 JSObject_Slots16
 false
-false
+true
 true
 )
 \
