@@ -4170,6 +4170,17 @@ wantUntrusted
 :
 true
 }
+"
+MigrationWizard
+:
+SelectSafariPasswordFile
+"
+:
+{
+wantUntrusted
+:
+true
+}
 }
 }
 includeChrome
