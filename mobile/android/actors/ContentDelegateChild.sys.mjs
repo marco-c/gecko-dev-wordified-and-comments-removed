@@ -589,6 +589,14 @@ elementSrc
 |
 |
 null
+textContent
+:
+node
+.
+textContent
+|
+|
+null
 }
 ;
 this
