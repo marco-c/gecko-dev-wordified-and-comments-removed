@@ -511,6 +511,13 @@ enabled
 "
 extensions
 .
+quarantinedDomains
+.
+enabled
+"
+"
+extensions
+.
 InstallTrigger
 .
 enabled
