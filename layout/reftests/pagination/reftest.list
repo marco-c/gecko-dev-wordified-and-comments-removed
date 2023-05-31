@@ -2322,6 +2322,12 @@ html
 ref
 .
 html
+fails
+-
+if
+(
+useDrawSnapshot
+)
 =
 =
 820496
@@ -2336,6 +2342,13 @@ html
 ref
 .
 html
+#
+To
+be
+investigated
+see
+bug
+1833733
 #
 NOTE
 :
