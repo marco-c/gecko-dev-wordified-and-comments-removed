@@ -2404,12 +2404,6 @@ Self
 )
 >
 {
-use
-std
-:
-:
-f64
-;
 let
 (
 this_weight

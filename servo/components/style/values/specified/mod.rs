@@ -178,12 +178,6 @@ use
 std
 :
 :
-f32
-;
-use
-std
-:
-:
 fmt
 :
 :

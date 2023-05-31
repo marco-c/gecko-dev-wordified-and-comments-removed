@@ -752,12 +752,6 @@ Self
 )
 >
 {
-use
-std
-:
-:
-f32
-;
 let
 ret
 =
@@ -840,12 +834,6 @@ Self
 )
 >
 {
-use
-std
-:
-:
-f64
-;
 let
 (
 self_weight

@@ -855,9 +855,6 @@ Self
 None
 =
 >
-std
-:
-:
 f32
 :
 :
@@ -2255,12 +2252,6 @@ TransformOperation
 :
 *
 ;
-use
-std
-:
-:
-f64
-;
 let
 reference_width
 =
@@ -2517,9 +2508,6 @@ PerspectiveFunction
 None
 =
 >
-std
-:
-:
 f32
 :
 :
