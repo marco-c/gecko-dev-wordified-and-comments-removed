@@ -131,6 +131,15 @@ return
 true
 ;
 }
+if
+candidate
+.
+considered_relative_selector
+{
+return
+false
+;
+}
 let
 parent_data
 =

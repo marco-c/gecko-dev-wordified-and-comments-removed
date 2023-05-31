@@ -334,6 +334,10 @@ Option
 <
 OpaqueElement
 >
+pub
+considered_relative_selector
+:
+bool
 quirks_mode
 :
 QuirksMode
@@ -503,6 +507,9 @@ default
 current_relative_selector_anchor
 :
 None
+considered_relative_selector
+:
+false
 _impl
 :
 :
@@ -1079,6 +1086,12 @@ self
 current_relative_selector_anchor
 =
 original_relative_selector_anchor
+;
+self
+.
+considered_relative_selector
+=
+true
 ;
 result
 }

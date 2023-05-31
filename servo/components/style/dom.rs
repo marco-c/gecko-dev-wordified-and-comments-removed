@@ -3643,6 +3643,16 @@ Au
 >
 >
 ;
+fn
+anchors_relative_selector
+(
+&
+self
+)
+-
+>
+bool
+;
 }
 #
 [
