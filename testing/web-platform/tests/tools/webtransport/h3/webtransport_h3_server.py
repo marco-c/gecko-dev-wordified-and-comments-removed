@@ -62,6 +62,7 @@ H3_ALPN
 FrameType
 H3Connection
 ProtocolError
+SettingsError
 from
 aioquic
 .
@@ -342,15 +343,6 @@ int
 None
 :
         
-super
-(
-)
-.
-_validate_settings
-(
-settings
-)
-        
 if
 settings
 .
@@ -394,6 +386,25 @@ _datagram_setting
 H3DatagramSetting
 .
 DRAFT04
+        
+if
+self
+.
+_datagram_setting
+is
+None
+:
+            
+raise
+SettingsError
+(
+"
+HTTP
+Datagrams
+support
+required
+"
+)
     
 def
 _get_local_settings
