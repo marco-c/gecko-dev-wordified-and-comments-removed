@@ -234,6 +234,7 @@ pkg
 -
 config
 "
+\
 "
 END_PKGCONFIG_WRAPPER
 chmod
