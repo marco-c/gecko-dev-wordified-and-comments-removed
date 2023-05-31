@@ -670,7 +670,8 @@ contentPage
 .
 spawn
 (
-null
+[
+]
 (
 )
 =
@@ -784,7 +785,8 @@ contentPage
 .
 spawn
 (
-null
+[
+]
 async
 (
 )
@@ -1325,7 +1327,8 @@ contentPage
 .
 spawn
 (
-null
+[
+]
 async
 (
 )

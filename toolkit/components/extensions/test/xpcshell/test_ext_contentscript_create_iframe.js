@@ -661,7 +661,7 @@ unloaded
 await
 contentPage
 .
-spawn
+legacySpawn
 (
 null
 (
@@ -759,7 +759,7 @@ unloaded
 await
 contentPage
 .
-spawn
+legacySpawn
 (
 null
 (

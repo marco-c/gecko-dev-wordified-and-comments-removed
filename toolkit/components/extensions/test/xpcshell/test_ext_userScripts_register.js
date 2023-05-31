@@ -602,7 +602,8 @@ contentPage
 .
 spawn
 (
-null
+[
+]
 (
 )
 =
@@ -611,8 +612,6 @@ null
 let
 textContent
 =
-this
-.
 content
 .
 document
