@@ -307,6 +307,10 @@ nsRefPtrDeque
 CaptureFrameRequest
 >
 mRequests
+RTC_GUARDED_BY
+(
+mCallbackChecker
+)
 ;
 }
 ;
