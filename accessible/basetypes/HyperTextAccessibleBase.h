@@ -407,7 +407,6 @@ Accessible
 aLink
 )
 ;
-virtual
 int32_t
 LinkIndexAtOffset
 (
