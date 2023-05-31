@@ -186,6 +186,14 @@ NonTSPseudoClass
 is_enabled_in
 (
 )
+#
+[
+derive
+(
+Copy
+Clone
+)
+]
 struct
 NonTSPseudoClassFlag
 :

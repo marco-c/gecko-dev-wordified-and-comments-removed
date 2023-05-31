@@ -531,6 +531,14 @@ other
 /
 units
 .
+#
+[
+derive
+(
+Clone
+Copy
+)
+]
 struct
 CalcUnits
 :

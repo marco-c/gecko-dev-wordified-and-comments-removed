@@ -81,6 +81,16 @@ repr
 C
 )
 ]
+#
+[
+derive
+(
+Clone
+Copy
+Eq
+PartialEq
+)
+]
 pub
 struct
 ComputedValueFlags

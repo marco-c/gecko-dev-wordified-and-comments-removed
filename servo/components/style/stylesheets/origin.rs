@@ -207,6 +207,9 @@ OriginFlags
 [
 derive
 (
+Clone
+Copy
+PartialEq
 MallocSizeOf
 )
 ]
@@ -376,7 +379,7 @@ Self
 Self
 :
 :
-from_bits_truncate
+from_bits_retain
 (
 origin
 as
