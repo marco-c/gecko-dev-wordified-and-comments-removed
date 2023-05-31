@@ -9377,9 +9377,6 @@ TypedArrayAt
 1
 0
 )
-#
-ifdef
-ENABLE_CHANGE_ARRAY_BY_COPY
 JS_SELF_HOSTED_FN
 (
 "
@@ -9413,8 +9410,6 @@ TypedArrayWith
 2
 0
 )
-#
-endif
 JS_FS_END
 }
 ;
