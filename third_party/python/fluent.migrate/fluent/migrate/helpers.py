@@ -1,7 +1,3 @@
-#
-coding
-=
-utf8
 "
 "
 "
@@ -68,14 +64,6 @@ MigrationContext
 "
 "
 "
-from
-__future__
-import
-unicode_literals
-from
-__future__
-import
-absolute_import
 from
 fluent
 .

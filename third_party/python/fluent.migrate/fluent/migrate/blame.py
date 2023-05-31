@@ -1,15 +1,3 @@
-#
-coding
-=
-utf8
-from
-__future__
-import
-unicode_literals
-from
-__future__
-import
-absolute_import
 import
 argparse
 import
@@ -46,9 +34,6 @@ b
 cmdbuilder
 class
 Blame
-(
-object
-)
 :
     
 def
@@ -305,23 +290,20 @@ key_vals
 [
                     
 (
+f
 '
 {
-}
-.
-{
-}
-'
-.
-format
-(
 e
 .
 key
+}
+.
+{
 attr
 .
 key
-)
+}
+'
 attr
 .
 val_span

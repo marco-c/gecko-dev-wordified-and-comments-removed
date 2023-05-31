@@ -83,14 +83,6 @@ implementation
 '
 '
 '
-from
-__future__
-import
-absolute_import
-from
-__future__
-import
-unicode_literals
 class
 KeyedTuple
 (
@@ -109,8 +101,6 @@ iterable
 return
 super
 (
-KeyedTuple
-cls
 )
 .
 __new__
@@ -194,8 +184,6 @@ pass
 return
 super
 (
-KeyedTuple
-self
 )
 .
 __contains__
@@ -235,8 +223,6 @@ pass
 return
 super
 (
-KeyedTuple
-self
 )
 .
 __getitem__

@@ -97,8 +97,10 @@ from
 codecs
 import
 encode
+from
+functools
 import
-six
+reduce
 from
 compare_locales
 import
@@ -157,21 +159,18 @@ raise
 MergeNotSupportedError
 (
             
+f
 '
 Unsupported
 file
 format
 (
 {
+name
 }
 )
 .
 '
-.
-format
-(
-name
-)
 )
     
 entities
@@ -407,10 +406,6 @@ entity
     
 entities
 =
-six
-.
-moves
-.
 reduce
 (
         
@@ -658,10 +653,6 @@ acc
     
 pruned
 =
-six
-.
-moves
-.
 reduce
 (
 prune
@@ -765,7 +756,6 @@ return
 .
 join
 (
-(
 entity
 .
 all
@@ -773,5 +763,4 @@ for
 entity
 in
 entities
-)
 )

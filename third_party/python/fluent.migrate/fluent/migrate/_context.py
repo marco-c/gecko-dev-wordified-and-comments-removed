@@ -1,15 +1,3 @@
-#
-coding
-=
-utf8
-from
-__future__
-import
-unicode_literals
-from
-__future__
-import
-absolute_import
 import
 os
 import
@@ -21,9 +9,7 @@ partial
 import
 logging
 from
-six
-.
-moves
+itertools
 import
 zip_longest
 import
@@ -82,9 +68,6 @@ UnreadableReferenceError
 )
 class
 InternalContext
-(
-object
-)
 :
     
 "
@@ -334,23 +317,20 @@ logger
 .
 warning
 (
+f
 '
 Unable
 to
 read
 file
 {
+path
 }
 :
 {
+err
 }
 '
-.
-format
-(
-path
-err
-)
 )
             
 raise
@@ -441,22 +421,19 @@ logger
 .
 warning
 (
+f
 '
 Syntax
 error
 in
 {
+path
 }
 :
 {
+msg
 }
 '
-.
-format
-(
-path
-msg
-)
 )
         
 return
@@ -594,24 +571,21 @@ fullpath
 )
         
 except
-IOError
+OSError
 :
             
 error_message
 =
+f
 '
 Missing
 reference
 file
 :
 {
+fullpath
 }
 '
-.
-format
-(
-fullpath
-)
             
 logging
 .
@@ -641,22 +615,19 @@ err
             
 error_message
 =
+f
 '
 Error
 reading
 file
 {
+fullpath
 }
 :
 {
+err
 }
 '
-.
-format
-(
-fullpath
-err
-)
             
 logging
 .
@@ -751,7 +722,7 @@ fullpath
 )
         
 except
-IOError
+OSError
 :
             
 logger
@@ -969,7 +940,7 @@ fullpath
 )
         
 except
-IOError
+OSError
 :
             
 logger
@@ -987,19 +958,16 @@ logger
 .
 warning
 (
+f
 '
 Missing
 localization
 file
 :
 {
+path
 }
 '
-.
-format
-(
-path
-)
 )
         
 else

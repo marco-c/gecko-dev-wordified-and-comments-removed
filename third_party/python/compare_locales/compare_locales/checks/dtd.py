@@ -1,19 +1,13 @@
 from
-__future__
+io
 import
-absolute_import
-from
-__future__
-import
-unicode_literals
+BytesIO
 import
 re
 from
 xml
 import
 sax
-import
-six
 from
 compare_locales
 .
@@ -190,9 +184,7 @@ elem
     
 xmllist
 =
-set
-(
-(
+{
 '
 amp
 '
@@ -208,8 +200,7 @@ apos
 '
 quot
 '
-)
-)
+}
     
 def
 __init__
@@ -224,8 +215,6 @@ None
         
 super
 (
-DTDChecker
-self
 )
 .
 __init__
@@ -364,15 +353,13 @@ value
         
 reflist
 =
-set
-(
+{
 m
 .
 group
 (
 1
 )
-                      
 for
 m
 in
@@ -384,7 +371,7 @@ finditer
 (
 value
 )
-)
+}
         
 reflist
 -
@@ -574,15 +561,10 @@ entities
 "
 "
         
-for
-encoding_trouble
-in
+yield
+from
 super
 (
-            
-DTDChecker
-self
-        
 )
 .
 check
@@ -590,10 +572,6 @@ check
 refEnt
 l10nEnt
 )
-:
-            
-yield
-encoding_trouble
         
 refValue
 l10nValue
@@ -688,15 +666,13 @@ parser
 parse
 (
                 
-six
-.
 BytesIO
 (
 self
 .
 tmpl
 %
-                            
+                        
 (
 entities
 .
@@ -708,7 +684,7 @@ utf
 8
 '
 )
-                             
+                         
 refValue
 .
 encode
@@ -728,15 +704,13 @@ parser
 parse
 (
                 
-six
-.
 BytesIO
 (
 self
 .
 tmpl
 %
-                            
+                        
 (
 (
 refEnt
@@ -754,7 +728,7 @@ utf
 8
 '
 )
-                             
+                         
 b
 '
 &
@@ -891,8 +865,6 @@ parser
 .
 parse
 (
-six
-.
 BytesIO
 (
 self
@@ -939,15 +911,13 @@ parser
 parse
 (
                 
-six
-.
 BytesIO
 (
 self
 .
 tmpl
 %
-                            
+                        
 (
 (
 l10nEnt
@@ -965,7 +935,7 @@ utf
 8
 '
 )
-                             
+                         
 b
 '
 &
@@ -1120,7 +1090,6 @@ xmlparse
         
 warntmpl
 =
-u
 '
 Referencing
 unknown
@@ -1299,17 +1268,18 @@ warning
                        
 '
 Entity
-%
-s
+{
+}
 referenced
 but
-%
-s
+{
+}
 used
 in
 context
 '
-%
+.
+format
 (
                            
 key
@@ -1408,9 +1378,8 @@ css
 '
 )
         
-for
-t
-in
+yield
+from
 self
 .
 maybe_style
@@ -1418,10 +1387,6 @@ maybe_style
 refValue
 l10nValue
 )
-:
-            
-yield
-t
         
 if
 self
@@ -1442,9 +1407,8 @@ self
 extra_tests
 :
             
-for
-t
-in
+yield
+from
 self
 .
 processAndroidContent
@@ -1455,10 +1419,6 @@ texthandler
 .
 textcontent
 )
-:
-                
-yield
-t
     
 quoted
 =

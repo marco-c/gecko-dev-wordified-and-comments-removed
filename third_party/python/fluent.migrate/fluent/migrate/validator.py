@@ -1,21 +1,9 @@
-#
-coding
-=
-utf8
-from
-__future__
-import
-absolute_import
 import
 argparse
 import
 ast
-import
-six
 from
-six
-.
-moves
+itertools
 import
 zip_longest
 from
@@ -183,9 +171,6 @@ id
 val
 class
 Validator
-(
-object
-)
 :
     
 "
@@ -474,19 +459,16 @@ module
                         
 dotted
 =
+f
 '
 {
-}
-.
-{
-}
-'
-.
-format
-(
 module
+}
+.
+{
 dotted
-)
+}
+'
                     
 global_assigns
 [
@@ -739,9 +721,9 @@ leafs
 )
 PATH_TYPES
 =
-six
-.
-string_types
+(
+str
+)
 +
 (
 ast
@@ -768,8 +750,6 @@ global_assigns
         
 super
 (
-MigrateAnalyzer
-self
 )
 .
 __init__
@@ -826,8 +806,6 @@ depth
         
 super
 (
-MigrateAnalyzer
-self
 )
 .
 generic_visit
@@ -1321,9 +1299,7 @@ not
 isinstance
 (
 in_reference
-six
-.
-string_types
+str
 )
 :
             
@@ -1447,8 +1423,10 @@ return
         
 bad_args
 =
+f
 '
 {
+called
 }
 takes
 path
@@ -1459,11 +1437,6 @@ first
 two
 params
 '
-.
-format
-(
-called
-)
         
 if
 not
@@ -2069,8 +2042,6 @@ self
         
 super
 (
-TransformsInspector
-self
 )
 .
 __init__
@@ -2127,10 +2098,12 @@ issues
 append
 (
                     
+f
 '
 Source
 "
 {
+src
 }
 "
 needs
@@ -2140,18 +2113,11 @@ a
 normalized
 path
 '
-.
-format
-(
-src
-)
                 
 )
         
 super
 (
-TransformsInspector
-self
 )
 .
 generic_visit

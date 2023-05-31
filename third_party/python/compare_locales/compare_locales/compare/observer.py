@@ -6,19 +6,9 @@ locales
 tool
 '
 from
-__future__
-import
-absolute_import
-from
-__future__
-import
-print_function
-from
 collections
 import
 defaultdict
-import
-six
 from
 .
 utils
@@ -26,9 +16,6 @@ import
 Tree
 class
 Observer
-(
-object
-)
 :
     
 def
@@ -211,11 +198,10 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 d
+.
+items
+(
 )
 :
             
@@ -312,11 +298,10 @@ for
 category
 value
 in
-six
-.
-iteritems
-(
 stats
+.
+items
+(
 )
 :
             
@@ -672,8 +657,6 @@ quiet
         
 super
 (
-ObserverList
-self
 )
 .
 __init__
@@ -760,8 +743,7 @@ stat_observers
         
 rvs
 =
-set
-(
+{
             
 observer
 .
@@ -779,7 +761,7 @@ self
 .
 observers
             
-)
+}
         
 if
 all
@@ -804,8 +786,6 @@ ignore
         
 super
 (
-ObserverList
-self
 )
 .
 notify
@@ -906,8 +886,6 @@ stats
         
 super
 (
-ObserverList
-self
 )
 .
 updateStats
@@ -1325,17 +1303,14 @@ leads
 =
 [
             
+f
 '
 {
+k
 :
 12
 }
 '
-.
-format
-(
-k
-)
 for
 k
 in
@@ -1354,11 +1329,10 @@ summaries
 in
 sorted
 (
-six
-.
-iteritems
-(
 summaries
+.
+items
+(
 )
 )
 :
@@ -1464,7 +1438,6 @@ total
 =
 sum
 (
-[
 summaries
 [
 -
@@ -1476,7 +1449,7 @@ get
 k
 0
 )
-                         
+                        
 for
 k
 in
@@ -1494,8 +1467,7 @@ report
 missing
 '
 ]
-                         
-]
+                        
 )
             
 rate

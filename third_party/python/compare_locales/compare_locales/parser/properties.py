@@ -1,11 +1,3 @@
-from
-__future__
-import
-absolute_import
-from
-__future__
-import
-unicode_literals
 import
 re
 from
@@ -20,15 +12,8 @@ Whitespace
     
 Parser
 )
-from
-six
-import
-unichr
 class
 PropertiesEntityMixin
-(
-object
-)
 :
     
 escape
@@ -169,7 +154,7 @@ uni
 :
                 
 return
-unichr
+chr
 (
 int
 (

@@ -1,11 +1,3 @@
-from
-__future__
-import
-absolute_import
-from
-__future__
-import
-unicode_literals
 import
 re
 from
@@ -111,8 +103,6 @@ return
         
 super
 (
-WordCounter
-self
 )
 .
 generic_visit
@@ -862,8 +852,6 @@ entry
         
 super
 (
-FluentComment
-self
 )
 .
 __init__
@@ -899,8 +887,6 @@ self
         
 super
 (
-FluentParser
-self
 )
 .
 __init__

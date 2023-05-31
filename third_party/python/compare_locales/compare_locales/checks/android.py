@@ -1,11 +1,3 @@
-from
-__future__
-import
-absolute_import
-from
-__future__
-import
-unicode_literals
 import
 re
 from
@@ -128,15 +120,10 @@ report
 '
 '
         
-for
-encoding_trouble
-in
+yield
+from
 super
 (
-            
-AndroidChecker
-self
-        
 )
 .
 check
@@ -144,10 +131,6 @@ check
 refEnt
 l10nEnt
 )
-:
-            
-yield
-encoding_trouble
         
 refNode
 =
@@ -219,9 +202,8 @@ android
             
 return
         
-for
-report_tuple
-in
+yield
+from
 self
 .
 check_string
@@ -231,10 +213,6 @@ refNode
 ]
 l10nEnt
 )
-:
-            
-yield
-report_tuple
     
 def
 check_string
@@ -430,19 +408,14 @@ android
             
 return
         
-for
-report_tuple
-in
+yield
+from
 check_apostrophes
 (
 l10nEnt
 .
 val
 )
-:
-            
-yield
-report_tuple
         
 params
 errors
@@ -480,9 +453,8 @@ if
 params
 :
             
-for
-report_tuple
-in
+yield
+from
 check_params
 (
 params
@@ -490,10 +462,6 @@ l10nEnt
 .
 val
 )
-:
-                
-yield
-report_tuple
     
 def
 not_translatable

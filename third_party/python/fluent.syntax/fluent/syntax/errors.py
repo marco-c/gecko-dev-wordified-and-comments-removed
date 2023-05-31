@@ -1,7 +1,8 @@
 from
-__future__
+typing
 import
-unicode_literals
+Tuple
+Union
 class
 ParseError
 (
@@ -14,8 +15,16 @@ __init__
 (
 self
 code
+:
+str
 *
 args
+:
+Union
+[
+str
+None
+]
 )
 :
         
@@ -44,8 +53,25 @@ def
 get_error_message
 (
 code
+:
+str
 args
+:
+Tuple
+[
+Union
+[
+str
+None
+]
+.
+.
+.
+]
 )
+-
+>
+str
 :
     
 if

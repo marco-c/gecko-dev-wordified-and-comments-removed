@@ -71,9 +71,9 @@ compare
 locales
 =
 =
-8
+9
 .
-2
+0
 .
 1
 cookies
@@ -119,7 +119,9 @@ migrate
 =
 0
 .
-11
+12
+.
+0
 fluent
 .
 syntax
@@ -127,9 +129,9 @@ syntax
 =
 0
 .
-18
+19
 .
-1
+0
 glean_parser
 =
 =

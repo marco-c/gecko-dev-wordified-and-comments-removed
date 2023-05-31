@@ -1,7 +1,3 @@
-#
-coding
-=
-utf8
 import
 os
 import
@@ -18,8 +14,6 @@ import
 sys
 import
 hglib
-import
-six
 from
 fluent
 .
@@ -80,9 +74,6 @@ dont_write_bytecode
 _dont_write_bytecode
 class
 Migrator
-(
-object
-)
 :
     
 def
@@ -477,11 +468,10 @@ for
 path
 content
 in
-six
-.
-iteritems
-(
 snapshot
+.
+items
+(
 )
 :
             
@@ -501,17 +491,14 @@ path
             
 print
 (
+f
 '
 Writing
 to
 {
+fullpath
 }
 '
-.
-format
-(
-fullpath
-)
 )
             
 if
@@ -614,18 +601,15 @@ author
         
 print
 (
+f
 '
 Committing
 changeset
 :
 {
+message
 }
 '
-.
-format
-(
-message
-)
 )
         
 if
@@ -677,6 +661,7 @@ err
             
 print
 (
+f
 '
 WARNING
 :
@@ -685,14 +670,10 @@ commit
 failed
 (
 {
+err
 }
 )
 '
-.
-format
-(
-err
-)
 )
 def
 main

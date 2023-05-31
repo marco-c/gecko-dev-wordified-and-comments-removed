@@ -1,11 +1,3 @@
-from
-__future__
-import
-absolute_import
-from
-__future__
-import
-unicode_literals
 import
 re
 from
@@ -446,8 +438,6 @@ return
         
 super
 (
-ReferenceMessageVisitor
-self
 )
 .
 generic_visit
@@ -480,8 +470,6 @@ True
         
 super
 (
-ReferenceMessageVisitor
-self
 )
 .
 generic_visit
@@ -537,8 +525,6 @@ name
         
 super
 (
-ReferenceMessageVisitor
-self
 )
 .
 generic_visit
@@ -711,9 +697,6 @@ ref
 '
 class
 GenericL10nChecks
-(
-object
-)
 :
     
 '
@@ -1153,8 +1136,7 @@ other
             
 given_plurals
 =
-set
-(
+{
 serialize_variant_key
 (
 v
@@ -1165,7 +1147,7 @@ for
 v
 in
 variants
-)
+}
             
 if
 given_plurals
@@ -1255,8 +1237,6 @@ reference
         
 super
 (
-L10nMessageVisitor
-self
 )
 .
 __init__
@@ -1338,8 +1318,6 @@ node
         
 super
 (
-L10nMessageVisitor
-self
 )
 .
 visit_Message
@@ -1590,8 +1568,6 @@ name
         
 super
 (
-L10nMessageVisitor
-self
 )
 .
 visit_Attribute
@@ -1700,8 +1676,6 @@ node
         
 super
 (
-L10nMessageVisitor
-self
 )
 .
 visit_SelectExpression
@@ -1900,8 +1874,6 @@ locale
         
 super
 (
-TermVisitor
-self
 )
 .
 __init__
@@ -1954,8 +1926,6 @@ return
         
 super
 (
-TermVisitor
-self
 )
 .
 generic_visit
@@ -2001,8 +1971,6 @@ node
         
 super
 (
-TermVisitor
-self
 )
 .
 generic_visit
@@ -2020,8 +1988,6 @@ node
         
 super
 (
-TermVisitor
-self
 )
 .
 generic_visit
@@ -2259,15 +2225,10 @@ l10nEnt
 )
 :
         
-for
-encoding_trouble
-in
+yield
+from
 super
 (
-            
-FluentChecker
-self
-        
 )
 .
 check
@@ -2275,10 +2236,6 @@ check
 refEnt
 l10nEnt
 )
-:
-            
-yield
-encoding_trouble
         
 l10n_entry
 =

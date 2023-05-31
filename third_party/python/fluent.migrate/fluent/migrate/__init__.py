@@ -1,7 +1,3 @@
-#
-coding
-=
-utf8
 from
 .
 transforms

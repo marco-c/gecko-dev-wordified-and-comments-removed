@@ -1,7 +1,3 @@
-from
-__future__
-import
-absolute_import
 import
 re
 from
@@ -13,8 +9,6 @@ from
 matcher
 import
 Matcher
-import
-six
 class
 ExcludeError
 (
@@ -25,9 +19,6 @@ ValueError
 pass
 class
 ProjectConfig
-(
-object
-)
 :
     
 '
@@ -901,16 +892,11 @@ self
 children
 :
             
-for
-config
-in
+yield
+from
 child
 .
 configs
-:
-                
-yield
-config
     
 property
     
@@ -1118,9 +1104,6 @@ rv
     
 class
 FilterCache
-(
-object
-)
 :
         
 def
@@ -1347,8 +1330,7 @@ return
         
 actions
 =
-set
-(
+{
             
 child
 .
@@ -1366,7 +1348,7 @@ in
 self
 .
 children
-)
+}
         
 if
 '
@@ -1616,19 +1598,14 @@ self
 root
 )
                 
-for
-__rule
-in
+yield
+from
 self
 .
 _compile_rule
 (
 _rule
 )
-:
-                    
-yield
-__rule
             
 return
         
@@ -1641,9 +1618,7 @@ rule
 path
 '
 ]
-six
-.
-string_types
+str
 )
 :
             
@@ -1700,9 +1675,7 @@ rule
 key
 '
 ]
-six
-.
-string_types
+str
 )
 :
             
@@ -1734,19 +1707,14 @@ key
 =
 key
                 
-for
-__rule
-in
+yield
+from
 self
 .
 _compile_rule
 (
 _rule
 )
-:
-                    
-yield
-__rule
             
 return
         

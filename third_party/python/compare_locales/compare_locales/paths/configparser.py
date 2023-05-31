@@ -1,7 +1,3 @@
-from
-__future__
-import
-absolute_import
 import
 errno
 import
@@ -21,11 +17,7 @@ matcher
 import
 expand
 import
-pytoml
-as
 toml
-import
-six
 class
 ConfigNotFound
 (
@@ -43,8 +35,6 @@ path
         
 super
 (
-ConfigNotFound
-self
 )
 .
 __init__
@@ -65,9 +55,6 @@ path
 )
 class
 ParseContext
-(
-object
-)
 :
     
 def
@@ -114,9 +101,6 @@ path
 )
 class
 TOMLParser
-(
-object
-)
 :
     
 def
@@ -266,7 +250,7 @@ ctx
 .
 path
 '
-rb
+rt
 '
 )
 as
@@ -288,8 +272,8 @@ except
 (
 toml
 .
-TomlError
-IOError
+TomlDecodeError
+OSError
 )
 :
             
@@ -602,9 +586,7 @@ if
 isinstance
 (
 paths
-six
-.
-string_types
+str
 )
 :
                 

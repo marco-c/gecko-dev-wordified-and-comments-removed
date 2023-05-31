@@ -1,15 +1,5 @@
-from
-__future__
-import
-absolute_import
-from
-__future__
-import
-unicode_literals
 import
 re
-import
-six
 class
 EntityPos
 (
@@ -31,9 +21,6 @@ ufffd
 )
 class
 Checker
-(
-object
-)
 :
     
 '
@@ -222,21 +209,18 @@ start
 )
 )
                 
+f
 "
 \
 ufffd
 in
 :
 {
-}
-"
-.
-format
-(
 l10nEnt
 .
 key
-)
+}
+"
                 
 "
 encodings
@@ -283,9 +267,6 @@ reference
 reference
 class
 CSSCheckMixin
-(
-object
-)
 :
     
 def
@@ -324,9 +305,8 @@ parse_css_spec
 l10n_value
 )
         
-for
-t
-in
+yield
+from
 self
 .
 check_style
@@ -335,10 +315,6 @@ ref_map
 l10n_map
 errors
 )
-:
-            
-yield
-t
     
 def
 check_style
@@ -495,11 +471,10 @@ ref_unit
 for
 prop
 in
-six
-.
-iterkeys
-(
 ref_map
+.
+keys
+(
 )
 :
             

@@ -5,14 +5,6 @@ compare
 locales
 tool
 '
-from
-__future__
-import
-absolute_import
-from
-__future__
-import
-print_function
 import
 codecs
 import
@@ -1420,7 +1412,6 @@ notify
 tp
 l10n
                             
-u
 "
 %
 s

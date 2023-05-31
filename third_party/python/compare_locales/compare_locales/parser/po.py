@@ -17,14 +17,6 @@ files
 "
 "
 "
-from
-__future__
-import
-absolute_import
-from
-__future__
-import
-unicode_literals
 import
 re
 from
@@ -43,9 +35,6 @@ Parser
 )
 class
 PoEntityMixin
-(
-object
-)
 :
     
 property
@@ -363,8 +352,6 @@ self
         
 super
 (
-PoParser
-self
 )
 .
 __init__

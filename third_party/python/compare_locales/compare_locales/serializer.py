@@ -157,8 +157,10 @@ from
 codecs
 import
 encode
+from
+functools
 import
-six
+reduce
 from
 compare_locales
 .
@@ -301,21 +303,18 @@ raise
 SerializationNotSupportedError
 (
             
+f
 '
 Unsupported
 file
 format
 (
 {
+filename
 }
 )
 .
 '
-.
-format
-(
-filename
-)
 )
     
 placeholders
@@ -388,11 +387,10 @@ for
 key
 new_raw_val
 in
-six
-.
-iteritems
-(
 new_data
+.
+items
+(
 )
 :
         
@@ -731,10 +729,6 @@ return
 acc
     
 return
-six
-.
-moves
-.
 reduce
 (
 prune_whitespace

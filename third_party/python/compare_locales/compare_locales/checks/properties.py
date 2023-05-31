@@ -1,29 +1,9 @@
-from
-__future__
-import
-absolute_import
-from
-__future__
-import
-unicode_literals
 import
 re
 from
 difflib
 import
 SequenceMatcher
-from
-six
-.
-moves
-import
-range
-from
-six
-.
-moves
-import
-zip
 from
 compare_locales
 .
@@ -242,15 +222,10 @@ formats
 '
 '
         
-for
-encoding_trouble
-in
+yield
+from
 super
 (
-            
-PropertiesChecker
-self
-        
 )
 .
 check
@@ -258,10 +233,6 @@ check
 refEnt
 l10nEnt
 )
-:
-            
-yield
-encoding_trouble
         
 refValue
 l10nValue
@@ -321,9 +292,8 @@ refValue
 )
 :
             
-for
-msg_tuple
-in
+yield
+from
 self
 .
 check_plural
@@ -331,10 +301,6 @@ check_plural
 refValue
 l10nValue
 )
-:
-                
-yield
-msg_tuple
             
 return
         
@@ -442,9 +408,8 @@ if
 refSpecs
 :
             
-for
-t
-in
+yield
+from
 self
 .
 checkPrintf
@@ -452,10 +417,6 @@ checkPrintf
 refSpecs
 l10nValue
 )
-:
-                
-yield
-t
             
 return
     
@@ -586,8 +547,7 @@ plural
         
 pats
 =
-set
-(
+{
 int
 (
 m
@@ -615,10 +575,9 @@ finditer
 +
 )
 '
-                                                        
 refValue
 )
-)
+}
         
 if
 len
@@ -634,8 +593,7 @@ return
         
 lpats
 =
-set
-(
+{
 int
 (
 m
@@ -663,10 +621,9 @@ finditer
 +
 )
 '
-                                                         
 l10nValue
 )
-)
+}
         
 if
 pats
