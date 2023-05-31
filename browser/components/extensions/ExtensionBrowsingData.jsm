@@ -116,15 +116,6 @@ sys
 .
 mjs
 "
-}
-)
-;
-XPCOMUtils
-.
-defineLazyModuleGetters
-(
-lazy
-{
 Sanitizer
 :
 "
@@ -137,7 +128,9 @@ modules
 /
 Sanitizer
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

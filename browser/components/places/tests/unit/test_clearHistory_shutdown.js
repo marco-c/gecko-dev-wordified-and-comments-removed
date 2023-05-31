@@ -73,7 +73,7 @@ Sanitizer
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -85,7 +85,9 @@ modules
 /
 Sanitizer
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
