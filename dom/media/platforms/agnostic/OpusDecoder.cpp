@@ -618,7 +618,10 @@ in
 extradata
 :
 %
-ldus
+"
+PRId64
+"
+us
 "
 opusCodecSpecificData
 .
@@ -2050,8 +2053,8 @@ so
 far
 :
 %
-ld
 "
+PRId64
 mTotalFrames
 )
 ;
