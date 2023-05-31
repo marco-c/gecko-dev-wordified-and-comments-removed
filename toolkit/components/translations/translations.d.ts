@@ -428,6 +428,9 @@ languageModelFiles
 LanguageTranslationModelFiles
 [
 ]
+isMocked
+:
+boolean
 }
 interface
 LanguageIdEnginePayload
