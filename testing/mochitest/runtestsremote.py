@@ -2216,6 +2216,10 @@ False
 crashAsPass
 =
 False
+        
+currentManifest
+=
+None
     
 )
 :
@@ -2465,6 +2469,18 @@ startTime
         
 )
         
+lastTestSeen
+=
+currentManifest
+or
+"
+Main
+app
+process
+exited
+normally
+"
+        
 crashed
 =
 self
@@ -2472,9 +2488,7 @@ self
 check_for_crashes
 (
 symbolsPath
-rpm
-.
-last_test_seen
+lastTestSeen
 )
         
 if
@@ -2529,9 +2543,7 @@ todo
         
 return
 status
-rpm
-.
-last_test_seen
+lastTestSeen
     
 def
 check_for_crashes

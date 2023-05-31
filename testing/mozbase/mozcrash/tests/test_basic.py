@@ -247,7 +247,6 @@ assert
 u
 "
 |
-|
 "
 in
 out
