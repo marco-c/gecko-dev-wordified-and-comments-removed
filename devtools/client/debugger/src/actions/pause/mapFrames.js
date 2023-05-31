@@ -1,6 +1,5 @@
 import
 {
-getSource
 getFrames
 getBlackBoxRanges
 getSelectedFrame
@@ -69,8 +68,8 @@ maps
 ;
 import
 {
-createLocation
 debuggerToSourceMapLocation
+sourceMapToDebuggerLocation
 }
 from
 "
@@ -516,18 +515,7 @@ originalFrame
 displayName
 location
 :
-createLocation
-(
-{
-.
-.
-.
-originalFrame
-.
-location
-source
-:
-getSource
+sourceMapToDebuggerLocation
 (
 getState
 (
@@ -535,10 +523,6 @@ getState
 originalFrame
 .
 location
-.
-sourceId
-)
-}
 )
 index
 :
