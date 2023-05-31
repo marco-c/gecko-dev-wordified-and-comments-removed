@@ -495,6 +495,16 @@ mfma
 '
 ]
     
+if
+not
+CONFIG
+[
+"
+MOZ_CODE_COVERAGE
+"
+]
+:
+      
 SOURCES
 [
 '
