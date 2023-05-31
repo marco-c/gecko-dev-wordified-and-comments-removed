@@ -73,7 +73,7 @@ std
 collections
 :
 :
-HashMap
+BTreeMap
 ;
 use
 std
@@ -920,7 +920,7 @@ Jogfile
 {
 metrics
 :
-HashMap
+BTreeMap
 <
 String
 Vec
@@ -1098,7 +1098,6 @@ f
 )
 ;
 let
-mut
 j
 :
 Jogfile
@@ -1184,7 +1183,7 @@ j
 .
 metrics
 .
-drain
+into_iter
 (
 )
 {
