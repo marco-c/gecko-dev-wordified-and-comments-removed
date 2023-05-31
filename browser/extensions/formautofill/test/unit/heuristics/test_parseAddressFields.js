@@ -277,7 +277,7 @@ body
 html
 >
 ;
-add_heuristic_tests
+runHeuristicsTest
 (
 [
 {
