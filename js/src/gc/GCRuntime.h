@@ -3312,10 +3312,6 @@ JSContext
 cx
 size_t
 thingSize
-const
-JSClass
-*
-clasp
 AllocSite
 *
 site
