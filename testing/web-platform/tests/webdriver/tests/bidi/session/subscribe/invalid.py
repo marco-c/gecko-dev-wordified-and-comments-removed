@@ -833,8 +833,6 @@ NoSuchFrameException
 )
 :
         
-response
-=
 await
 send_blocking_command
 (
@@ -846,6 +844,7 @@ subscribe
 "
             
 {
+                
 "
 events
 "
@@ -857,6 +856,7 @@ log
 entryAdded
 "
 ]
+                
 "
 contexts
 "
@@ -869,6 +869,7 @@ context
 "
 ]
 ]
+            
 }
         
 )
