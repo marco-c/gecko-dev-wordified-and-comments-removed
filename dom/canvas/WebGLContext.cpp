@@ -5000,12 +5000,7 @@ UNKNOWN
 ;
 if
 (
-StaticPrefs
-:
-:
-gfx_color_management_native_srgb
-(
-)
+true
 )
 {
 ret
