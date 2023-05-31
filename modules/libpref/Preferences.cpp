@@ -631,13 +631,6 @@ h
 #
 include
 "
-plstr
-.
-h
-"
-#
-include
-"
 prdtoa
 .
 h
@@ -27859,6 +27852,7 @@ ALWAYS_DATAMUTEX_PREF
 undef
 ONCE_PREF
 }
+MOZ_NO_THREAD_SAFETY_ANALYSIS
 static
 void
 InitStaticPrefsFromShared
