@@ -5740,7 +5740,7 @@ Linux
 DeviceFamily
 :
 :
-All
+AtiAll
 nsIGfxInfo
 :
 :
