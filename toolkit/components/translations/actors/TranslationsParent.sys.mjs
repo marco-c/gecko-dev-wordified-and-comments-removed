@@ -2853,7 +2853,7 @@ toLanguage
 :
 data
 .
-appLangTag
+userLangTag
 }
 ;
 }
@@ -8974,8 +8974,6 @@ returns
 {
 Promise
 <
-null
-|
 LangTags
 >
 }
