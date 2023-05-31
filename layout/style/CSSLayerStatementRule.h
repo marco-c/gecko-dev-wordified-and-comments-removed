@@ -46,7 +46,7 @@ CSSLayerStatementRule
 (
 RefPtr
 <
-StyleLockedLayerStatementRule
+StyleLayerStatementRule
 >
 aRawRule
 StyleSheet
@@ -105,7 +105,7 @@ final
 ;
 #
 endif
-StyleLockedLayerStatementRule
+StyleLayerStatementRule
 *
 Raw
 (
@@ -121,7 +121,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedLayerStatementRule
+StyleLayerStatementRule
 >
 )
 ;
@@ -189,7 +189,7 @@ default
 ;
 RefPtr
 <
-StyleLockedLayerStatementRule
+StyleLayerStatementRule
 >
 mRawRule
 ;

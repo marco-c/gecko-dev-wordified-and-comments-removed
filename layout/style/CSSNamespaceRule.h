@@ -40,8 +40,8 @@ nsAtom
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -60,7 +60,7 @@ CSSNamespaceRule
 (
 already_AddRefed
 <
-StyleLockedNamespaceRule
+StyleNamespaceRule
 >
 aRule
 StyleSheet
@@ -171,7 +171,7 @@ const
 final
 ;
 const
-StyleLockedNamespaceRule
+StyleNamespaceRule
 *
 Raw
 (
@@ -191,7 +191,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedNamespaceRule
+StyleNamespaceRule
 >
 )
 ;
@@ -280,13 +280,12 @@ CSSNamespaceRule
 ;
 RefPtr
 <
-StyleLockedNamespaceRule
+StyleNamespaceRule
 >
 mRawRule
 ;
 }
 ;
-}
 }
 #
 endif

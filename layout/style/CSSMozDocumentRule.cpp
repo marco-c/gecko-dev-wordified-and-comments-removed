@@ -519,7 +519,7 @@ CSSMozDocumentRule
 (
 RefPtr
 <
-StyleLockedDocumentRule
+StyleDocumentRule
 >
 aRawRule
 StyleSheet
@@ -673,7 +673,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedDocumentRule
+StyleDocumentRule
 >
 aRaw
 )

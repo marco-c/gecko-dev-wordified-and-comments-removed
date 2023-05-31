@@ -46,7 +46,7 @@ CSSLayerBlockRule
 (
 RefPtr
 <
-StyleLockedLayerBlockRule
+StyleLayerBlockRule
 >
 aRawRule
 StyleSheet
@@ -86,7 +86,7 @@ final
 ;
 #
 endif
-StyleLockedLayerBlockRule
+StyleLayerBlockRule
 *
 Raw
 (
@@ -102,7 +102,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedLayerBlockRule
+StyleLayerBlockRule
 >
 )
 ;
@@ -167,7 +167,7 @@ default
 ;
 RefPtr
 <
-StyleLockedLayerBlockRule
+StyleLayerBlockRule
 >
 mRawRule
 ;

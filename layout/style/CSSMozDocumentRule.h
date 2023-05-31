@@ -57,7 +57,7 @@ CSSMozDocumentRule
 (
 RefPtr
 <
-StyleLockedDocumentRule
+StyleDocumentRule
 >
 aRawRule
 StyleSheet
@@ -121,7 +121,7 @@ final
 ;
 #
 endif
-StyleLockedDocumentRule
+StyleDocumentRule
 *
 Raw
 (
@@ -137,7 +137,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedDocumentRule
+StyleDocumentRule
 >
 )
 ;
@@ -205,7 +205,7 @@ default
 ;
 RefPtr
 <
-StyleLockedDocumentRule
+StyleDocumentRule
 >
 mRawRule
 ;

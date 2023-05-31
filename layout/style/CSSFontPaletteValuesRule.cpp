@@ -148,7 +148,7 @@ SetRawAfterClone
 (
 RefPtr
 <
-StyleLockedFontPaletteValuesRule
+StyleFontPaletteValuesRule
 >
 aRaw
 )
