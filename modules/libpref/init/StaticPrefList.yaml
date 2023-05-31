@@ -47003,7 +47003,8 @@ mirror
 :
 always
 #
-Support
+Experimental
+support
 Array
 .
 fromAsync
@@ -47022,7 +47023,7 @@ type
 bool
 value
 :
-true
+false
 mirror
 :
 always
