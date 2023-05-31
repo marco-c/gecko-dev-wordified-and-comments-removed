@@ -14050,7 +14050,7 @@ checked
 {
 FirefoxRelay
 .
-markAsEnabled
+markAsAvailable
 (
 )
 ;
@@ -14116,7 +14116,13 @@ checked
 =
 FirefoxRelay
 .
-isEnabled
+isAvailable
+&
+&
+!
+FirefoxRelay
+.
+isDisabled
 ;
 }
 _initRelayIntegrationUI
