@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-runHeuristicsTest
+add_heuristic_tests
 (
 [
 {
