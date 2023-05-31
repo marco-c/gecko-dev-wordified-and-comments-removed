@@ -507,6 +507,15 @@ sys
 .
 mjs
 "
+}
+)
+;
+XPCOMUtils
+.
+defineLazyModuleGetters
+(
+lazy
+{
 NetUtil
 :
 "
@@ -520,9 +529,7 @@ modules
 /
 NetUtil
 .
-sys
-.
-mjs
+jsm
 "
 }
 )
