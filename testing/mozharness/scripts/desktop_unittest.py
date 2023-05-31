@@ -227,6 +227,9 @@ mochitest
 "
 reftest
 "
+"
+xpcshell
+"
 ]
 class
 DesktopUnittest

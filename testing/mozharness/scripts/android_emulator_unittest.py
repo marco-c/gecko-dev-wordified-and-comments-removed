@@ -152,6 +152,9 @@ mochitest
 "
 reftest
 "
+"
+xpcshell
+"
 ]
 class
 AndroidEmulatorTest

@@ -966,6 +966,13 @@ reftest
 in
 task_name
         
+or
+"
+xpcshell
+"
+in
+task_name
+        
 and
 "
 jsreftest
@@ -1172,7 +1179,7 @@ failure_group_suffix
 =
 "
 -
-id
+d
 "
             
 repeat_args
@@ -1205,7 +1212,7 @@ failure_group_suffix
 =
 "
 -
-it
+t
 "
             
 repeat_args
@@ -1216,7 +1223,7 @@ repeat_args
 -
 repeat
 =
-19
+9
 "
 ]
 if
