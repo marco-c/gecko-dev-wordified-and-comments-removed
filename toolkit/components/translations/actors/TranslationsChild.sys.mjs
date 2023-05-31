@@ -4767,6 +4767,17 @@ href
 ;
 this
 .
+sendAsyncMessage
+(
+"
+Translations
+:
+EngineIsReady
+"
+)
+;
+this
+.
 translatedDoc
 .
 addRootElement
