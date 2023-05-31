@@ -25,7 +25,6 @@ multiline
 source
 sticky
 unicode
-unicodeSets
 "
 +
 "
