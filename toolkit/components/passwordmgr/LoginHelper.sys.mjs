@@ -5882,6 +5882,14 @@ passwordField
 ;
 newLogin
 .
+unknownFields
+=
+aNewLoginData
+.
+unknownFields
+;
+newLogin
+.
 QueryInterface
 (
 Ci
@@ -6097,6 +6105,11 @@ usernameField
 case
 "
 passwordField
+"
+:
+case
+"
+unknownFields
 "
 :
 /
