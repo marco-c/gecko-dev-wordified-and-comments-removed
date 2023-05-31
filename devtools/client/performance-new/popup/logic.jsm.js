@@ -53,7 +53,7 @@ PanelMultiView
 >
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -65,7 +65,9 @@ modules
 /
 PanelMultiView
 .
-jsm
+sys
+.
+mjs
 "
 )
 Background
