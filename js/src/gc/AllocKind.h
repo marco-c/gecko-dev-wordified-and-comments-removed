@@ -747,7 +747,11 @@ InitialHeap
 uint8_t
 {
 DefaultHeap
+=
+0
 TenuredHeap
+=
+1
 }
 ;
 inline
