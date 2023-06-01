@@ -59,15 +59,6 @@ include
 "
 js
 /
-Stack
-.
-h
-"
-#
-include
-"
-js
-/
 UniquePtr
 .
 h
@@ -131,11 +122,6 @@ cx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 CompilationInput
 &
 input
