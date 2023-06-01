@@ -36,6 +36,9 @@ extensions
 '
 css
 '
+'
+scss
+'
 ]
 support
 -
@@ -55,7 +58,7 @@ json
 .
 stylelintrc
 .
-json
+js
 '
 -
 '
