@@ -1180,11 +1180,6 @@ nsIGlobalObject
 aGlobalObject
 RFPTarget
 aTarget
-=
-RFPTarget
-:
-:
-Unknown
 )
 ;
 static
@@ -1204,11 +1199,6 @@ nsIGlobalObject
 aGlobalObject
 RFPTarget
 aTarget
-=
-RFPTarget
-:
-:
-Unknown
 )
 ;
 static

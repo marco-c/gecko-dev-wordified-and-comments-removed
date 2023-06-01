@@ -384,6 +384,10 @@ ShouldResistFingerprinting
 (
 aCallerType
 global
+RFPTarget
+:
+:
+StreamTrackLabel
 )
 )
 {
