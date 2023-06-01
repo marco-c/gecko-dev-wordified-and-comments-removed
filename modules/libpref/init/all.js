@@ -34219,6 +34219,16 @@ enabled
 true
 )
 ;
+pref
+(
+"
+devtools
+.
+f12_enabled
+"
+true
+)
+;
 #
 if
 defined
