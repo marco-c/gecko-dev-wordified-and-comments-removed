@@ -45,6 +45,15 @@ include
 "
 mozilla
 /
+CompactPair
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EnumSet
 .
 h
@@ -2016,7 +2025,12 @@ SelectionType
 )
 ]
 ;
-nsTHashMap
+nsTArray
+<
+mozilla
+:
+:
+CompactPair
 <
 RefPtr
 <
@@ -2032,6 +2046,7 @@ dom
 :
 :
 Selection
+>
 >
 >
 mHighlightSelections
