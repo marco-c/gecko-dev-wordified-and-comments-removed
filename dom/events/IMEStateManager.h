@@ -690,6 +690,16 @@ GetActiveContentObserver
 (
 )
 ;
+static
+dom
+:
+:
+Element
+*
+GetFocusedElement
+(
+)
+;
 protected
 :
 MOZ_CAN_RUN_SCRIPT

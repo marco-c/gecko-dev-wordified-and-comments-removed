@@ -132,6 +132,9 @@ class
 ErrorResult
 ;
 class
+IMEContentObserver
+;
+class
 TextEditor
 ;
 class
@@ -601,11 +604,6 @@ nsAString
 aValue
 )
 const
-;
-bool
-HasNonEmptyValue
-(
-)
 ;
 void
 EmptyValue
@@ -1382,7 +1380,7 @@ SetValueWithTextEditor
 (
 AutoTextControlHandlingState
 &
-aHandlingState
+aHandlingSetValue
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -1391,8 +1389,15 @@ SetValueWithoutTextEditor
 (
 AutoTextControlHandlingState
 &
-aHandlingState
+aHandlingSetValue
 )
+;
+IMEContentObserver
+*
+GetIMEContentObserver
+(
+)
+const
 ;
 AutoTextControlHandlingState
 *

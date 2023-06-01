@@ -922,6 +922,16 @@ aMaxLength
 UINT32_MAX
 )
 ;
+static
+uint32_t
+GetNativeTextLength
+(
+const
+nsAString
+&
+aText
+)
+;
 protected
 :
 static
