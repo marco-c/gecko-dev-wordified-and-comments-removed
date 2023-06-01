@@ -117,6 +117,10 @@ setShouldResistFingerprinting
 (
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+IsAlwaysEnabledForPrecompute
 )
 )
 ;
