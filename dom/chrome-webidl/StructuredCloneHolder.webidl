@@ -124,10 +124,7 @@ global
 ChromeOnly
 Exposed
 =
-(
-Window
-Worker
-)
+*
 ]
 interface
 StructuredCloneHolder

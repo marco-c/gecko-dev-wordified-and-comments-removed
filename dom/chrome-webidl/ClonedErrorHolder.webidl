@@ -135,7 +135,10 @@ fixed
 ChromeOnly
 Exposed
 =
+(
 Window
+Worker
+)
 ]
 interface
 ClonedErrorHolder
