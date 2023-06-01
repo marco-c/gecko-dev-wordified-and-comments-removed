@@ -62,7 +62,7 @@ ExtensionScriptingStore
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -75,9 +75,7 @@ modules
 /
 ExtensionScriptingStore
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

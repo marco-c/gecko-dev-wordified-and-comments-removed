@@ -26,6 +26,15 @@ sys
 .
 mjs
 "
+}
+)
+;
+XPCOMUtils
+.
+defineLazyModuleGetters
+(
+this
+{
 extensionStorageSync
 :
 "
@@ -39,9 +48,7 @@ modules
 /
 ExtensionStorageSync
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

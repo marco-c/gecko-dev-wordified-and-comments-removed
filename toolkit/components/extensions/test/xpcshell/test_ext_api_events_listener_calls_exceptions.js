@@ -10,7 +10,7 @@ ExtensionStorageIDB
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -23,9 +23,7 @@ modules
 /
 ExtensionStorageIDB
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

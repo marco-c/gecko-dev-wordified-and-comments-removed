@@ -53,7 +53,7 @@ BrowserActionBase
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -66,9 +66,7 @@ modules
 /
 ExtensionActions
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

@@ -36,7 +36,7 @@ NativeManifests
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -49,9 +49,7 @@ modules
 /
 NativeManifests
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -88,7 +86,7 @@ Schemas
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -101,9 +99,7 @@ modules
 /
 Schemas
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -140,7 +136,7 @@ NativeApp
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -153,9 +149,7 @@ modules
 /
 NativeMessaging
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

@@ -333,7 +333,7 @@ ExtensionContent
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -346,9 +346,7 @@ modules
 /
 ExtensionContent
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -850,7 +848,7 @@ ExtensionContent
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -863,9 +861,7 @@ modules
 /
 ExtensionContent
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -1028,7 +1024,7 @@ ExtensionContent
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -1041,9 +1037,7 @@ modules
 /
 ExtensionContent
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
@@ -1649,7 +1643,7 @@ ExtensionContent
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -1662,9 +1656,7 @@ modules
 /
 ExtensionContent
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

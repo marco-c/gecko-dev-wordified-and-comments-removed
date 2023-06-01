@@ -951,7 +951,7 @@ Management
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -964,9 +964,7 @@ modules
 /
 Extension
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

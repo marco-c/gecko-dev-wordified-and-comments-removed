@@ -36,7 +36,7 @@ ExtensionPermissions
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -49,9 +49,7 @@ modules
 /
 ExtensionPermissions
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

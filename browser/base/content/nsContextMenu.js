@@ -11860,6 +11860,15 @@ sys
 .
 mjs
 "
+}
+)
+;
+XPCOMUtils
+.
+defineLazyModuleGetters
+(
+nsContextMenu
+{
 WebNavigationFrames
 :
 "
@@ -11873,9 +11882,7 @@ modules
 /
 WebNavigationFrames
 .
-sys
-.
-mjs
+jsm
 "
 }
 )

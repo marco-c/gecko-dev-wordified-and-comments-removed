@@ -40,7 +40,7 @@ makeDataURI
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -53,9 +53,7 @@ modules
 /
 ExtensionUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

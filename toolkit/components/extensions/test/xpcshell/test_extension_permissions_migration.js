@@ -13,7 +13,7 @@ RKV_DIRNAME
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -26,9 +26,7 @@ modules
 /
 ExtensionPermissions
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

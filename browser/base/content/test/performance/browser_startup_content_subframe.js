@@ -157,9 +157,7 @@ modules
 /
 ExtensionProcessScript
 .
-sys
-.
-mjs
+jsm
 "
 "
 resource
@@ -172,9 +170,7 @@ modules
 /
 ExtensionUtils
 .
-sys
-.
-mjs
+jsm
 "
 ]
 )

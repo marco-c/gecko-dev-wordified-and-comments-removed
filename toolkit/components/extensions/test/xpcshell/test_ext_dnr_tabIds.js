@@ -113,7 +113,7 @@ WebRequest
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -126,9 +126,7 @@ modules
 /
 WebRequest
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

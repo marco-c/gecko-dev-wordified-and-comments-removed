@@ -32,7 +32,7 @@ ExtensionPreferencesManager
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -45,9 +45,7 @@ modules
 /
 ExtensionPreferencesManager
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

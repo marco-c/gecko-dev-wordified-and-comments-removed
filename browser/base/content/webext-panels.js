@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineESModuleGetters
+defineModuleGetter
 (
 this
-{
+"
 ExtensionParent
-:
+"
 "
 resource
 :
@@ -17,11 +17,8 @@ modules
 /
 ExtensionParent
 .
-sys
-.
-mjs
+jsm
 "
-}
 )
 ;
 const
@@ -31,7 +28,7 @@ ExtensionUtils
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -44,9 +41,7 @@ modules
 /
 ExtensionUtils
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

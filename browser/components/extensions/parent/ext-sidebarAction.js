@@ -10,7 +10,7 @@ ExtensionParent
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -23,9 +23,7 @@ modules
 /
 ExtensionParent
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;

@@ -14,7 +14,7 @@ VERSION_VALUE
 =
 ChromeUtils
 .
-importESModule
+import
 (
 "
 resource
@@ -27,9 +27,7 @@ modules
 /
 ExtensionPermissions
 .
-sys
-.
-mjs
+jsm
 "
 )
 ;
