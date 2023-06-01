@@ -330,7 +330,7 @@ opresult
 )
 ;
 bool
-IsGlobalInExposureSet
+IsNonExposedGlobal
 (
 JSContext
 *
@@ -339,7 +339,7 @@ JSObject
 *
 aGlobal
 uint32_t
-aGlobalSet
+aNonExposedGlobals
 )
 ;
 struct
@@ -491,7 +491,7 @@ if
 nonExposedGlobals
 &
 &
-IsGlobalInExposureSet
+IsNonExposedGlobal
 (
 cx
 JS
