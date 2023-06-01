@@ -935,6 +935,7 @@ StyleBorderStyle
 :
 Inset
 )
+{
 ruleStyle
 =
 StyleBorderStyle
@@ -942,6 +943,7 @@ StyleBorderStyle
 :
 Ridge
 ;
+}
 else
 if
 (
@@ -956,6 +958,7 @@ StyleBorderStyle
 :
 Outset
 )
+{
 ruleStyle
 =
 StyleBorderStyle
@@ -963,7 +966,9 @@ StyleBorderStyle
 :
 Groove
 ;
+}
 else
+{
 ruleStyle
 =
 colStyle
@@ -971,6 +976,7 @@ colStyle
 >
 mColumnRuleStyle
 ;
+}
 nscoord
 ruleWidth
 =
@@ -986,8 +992,10 @@ if
 !
 ruleWidth
 )
+{
 return
 ;
+}
 aBorderRenderers
 .
 Clear
@@ -1008,7 +1016,7 @@ mColumnRuleColor
 ;
 nsPresContext
 *
-presContext
+pc
 =
 PresContext
 (
@@ -1018,7 +1026,7 @@ nsStyleBorder
 border
 (
 *
-presContext
+pc
 -
 >
 Document
@@ -1040,6 +1048,12 @@ SetBorderWidth
 (
 eSideTop
 ruleWidth
+pc
+-
+>
+AppUnitsPerDevPixel
+(
+)
 )
 ;
 border
@@ -1093,6 +1107,12 @@ SetBorderWidth
 (
 eSideLeft
 ruleWidth
+pc
+-
+>
+AppUnitsPerDevPixel
+(
+)
 )
 ;
 border
@@ -1204,7 +1224,7 @@ nsCSSRendering
 :
 CreateBorderRendererWithStyleBorder
 (
-presContext
+pc
 dt
 this
 aDirtyRect

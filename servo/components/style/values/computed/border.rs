@@ -186,6 +186,12 @@ BorderImageRepeat
 ;
 pub
 type
+BorderSideWidth
+=
+Au
+;
+pub
+type
 BorderImageWidth
 =
 Rect

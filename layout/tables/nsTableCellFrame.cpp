@@ -4956,6 +4956,19 @@ StyleBorder
 )
 )
 ;
+const
+auto
+a2d
+=
+PresContext
+(
+)
+-
+>
+AppUnitsPerDevPixel
+(
+)
+;
 for
 (
 const
@@ -4981,6 +4994,7 @@ Side
 (
 side
 )
+a2d
 )
 ;
 }
