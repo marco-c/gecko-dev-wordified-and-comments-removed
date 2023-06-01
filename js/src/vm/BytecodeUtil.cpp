@@ -15420,7 +15420,12 @@ endObject
 )
 ;
 return
-true
+!
+sp
+.
+hadOutOfMemory
+(
+)
 ;
 }
 JSString
