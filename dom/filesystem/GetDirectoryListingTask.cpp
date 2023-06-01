@@ -1593,7 +1593,6 @@ break
 ;
 }
 bool
-isLink
 isSpecial
 isFile
 ;
@@ -1606,19 +1605,6 @@ NS_FAILED
 currFile
 -
 >
-IsSymlink
-(
-&
-isLink
-)
-)
-|
-|
-NS_FAILED
-(
-currFile
--
->
 IsSpecial
 (
 &
@@ -1626,9 +1612,6 @@ isSpecial
 )
 )
 )
-|
-|
-isLink
 |
 |
 isSpecial
