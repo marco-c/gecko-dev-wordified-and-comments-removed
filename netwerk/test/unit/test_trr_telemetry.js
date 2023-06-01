@@ -58,6 +58,10 @@ trr_test_setup
 (
 )
 ;
+runningODoHTests
+=
+false
+;
 }
 let
 TRR_OK
