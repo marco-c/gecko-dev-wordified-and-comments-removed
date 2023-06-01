@@ -1237,11 +1237,6 @@ maybeCx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 js
 :
 :
@@ -1291,7 +1286,12 @@ TrySmoosh
 (
 maybeCx
 fc
+fc
+-
+>
 stackLimit
+(
+)
 input
 srcBuf
 extensibleStencil
@@ -1588,7 +1588,12 @@ Unit
 compiler
 (
 fc
+fc
+-
+>
 stackLimit
+(
+)
 parserAllocScope
 input
 srcBuf
@@ -2030,11 +2035,6 @@ maybeCx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 js
 :
 :
@@ -2085,7 +2085,6 @@ CompileGlobalScriptToStencilAndMaybeInstantiate
 (
 maybeCx
 fc
-stackLimit
 tempLifoAlloc
 input
 scopeCache
@@ -2129,11 +2128,6 @@ cx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 js
 :
 :
@@ -2164,7 +2158,6 @@ CompileGlobalScriptToStencilImpl
 (
 cx
 fc
-stackLimit
 tempLifoAlloc
 input
 scopeCache
@@ -2188,11 +2181,6 @@ cx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 js
 :
 :
@@ -2223,7 +2211,6 @@ CompileGlobalScriptToStencilImpl
 (
 cx
 fc
-stackLimit
 tempLifoAlloc
 input
 scopeCache
@@ -2250,11 +2237,6 @@ maybeCx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 CompilationInput
 &
 input
@@ -2299,7 +2281,6 @@ CompileGlobalScriptToStencilAndMaybeInstantiate
 (
 maybeCx
 fc
-stackLimit
 maybeCx
 -
 >
@@ -2350,11 +2331,6 @@ maybeCx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 CompilationInput
 &
 input
@@ -2379,7 +2355,6 @@ CompileGlobalScriptToExtensibleStencilImpl
 (
 maybeCx
 fc
-stackLimit
 input
 scopeCache
 srcBuf
@@ -2402,11 +2377,6 @@ cx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 CompilationInput
 &
 input
@@ -2431,7 +2401,6 @@ CompileGlobalScriptToExtensibleStencilImpl
 (
 cx
 fc
-stackLimit
 input
 scopeCache
 srcBuf
@@ -2649,11 +2618,6 @@ cx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 const
 JS
 :
@@ -2716,7 +2680,6 @@ CompileGlobalScriptToStencilAndMaybeInstantiate
 (
 cx
 fc
-stackLimit
 cx
 -
 >
@@ -2763,11 +2726,6 @@ cx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 const
 JS
 :
@@ -2793,7 +2751,6 @@ CompileGlobalScriptImpl
 (
 cx
 fc
-stackLimit
 options
 srcBuf
 scopeKind
@@ -2813,11 +2770,6 @@ cx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 const
 JS
 :
@@ -2843,7 +2795,6 @@ CompileGlobalScriptImpl
 (
 cx
 fc
-stackLimit
 options
 srcBuf
 scopeKind

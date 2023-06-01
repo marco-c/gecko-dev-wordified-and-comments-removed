@@ -28635,12 +28635,6 @@ fc
 cx
 -
 >
-stackLimitForCurrentPrincipal
-(
-)
-cx
--
->
 tempLifoAlloc
 (
 )

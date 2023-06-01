@@ -29695,12 +29695,6 @@ CompileGlobalScriptToExtensibleStencil
 cx
 &
 fc
-cx
--
->
-stackLimitForCurrentPrincipal
-(
-)
 input
 .
 get
