@@ -867,6 +867,11 @@ isPrivileged
 extension
 .
 isPrivileged
+ignoreQuarantine
+:
+extension
+.
+ignoreQuarantine
 temporarilyInstalled
 :
 extension
