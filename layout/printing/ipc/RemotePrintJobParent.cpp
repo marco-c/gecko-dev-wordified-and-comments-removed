@@ -545,14 +545,6 @@ RemotePrintJobParent
 :
 RecvProcessPage
 (
-const
-int32_t
-&
-aWidthInPoints
-const
-int32_t
-&
-aHeightInPoints
 nsTArray
 <
 uint64_t
@@ -594,16 +586,6 @@ Seek
 PR_SEEK_SET
 )
 ;
-gfx
-:
-:
-IntSize
-pageSizeInPoints
-(
-aWidthInPoints
-aHeightInPoints
-)
-;
 if
 (
 aDeps
@@ -615,7 +597,6 @@ IsEmpty
 {
 FinishProcessingPage
 (
-pageSizeInPoints
 )
 ;
 return
@@ -677,7 +658,6 @@ RefPtr
 {
 this
 }
-pageSizeInPoints
 ]
 (
 gfx
@@ -697,7 +677,6 @@ self
 >
 FinishProcessingPage
 (
-pageSizeInPoints
 &
 aFragments
 )
@@ -710,7 +689,6 @@ RefPtr
 {
 this
 }
-pageSizeInPoints
 ]
 (
 const
@@ -724,7 +702,6 @@ self
 >
 FinishProcessingPage
 (
-pageSizeInPoints
 )
 ;
 }
@@ -742,13 +719,6 @@ RemotePrintJobParent
 :
 FinishProcessingPage
 (
-const
-gfx
-:
-:
-IntSize
-&
-aSizeInPoints
 gfx
 :
 :
@@ -765,7 +735,6 @@ rv
 =
 PrintPage
 (
-aSizeInPoints
 mCurrentPageStream
 aFragments
 )
@@ -788,13 +757,6 @@ RemotePrintJobParent
 :
 PrintPage
 (
-const
-gfx
-:
-:
-IntSize
-&
-aSizeInPoints
 PRFileDescStream
 &
 aRecording
@@ -822,7 +784,6 @@ mPrintDeviceContext
 >
 BeginPage
 (
-aSizeInPoints
 )
 ;
 if

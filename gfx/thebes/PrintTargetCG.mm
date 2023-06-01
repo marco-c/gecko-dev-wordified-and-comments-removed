@@ -992,10 +992,6 @@ PrintTargetCG
 :
 BeginPage
 (
-const
-IntSize
-&
-aSizeInPoints
 )
 {
 NS_OBJC_BEGIN_TRY_BLOCK_RETURN
@@ -1152,7 +1148,6 @@ PrintTarget
 :
 BeginPage
 (
-aSizeInPoints
 )
 ;
 NS_OBJC_END_TRY_BLOCK_RETURN

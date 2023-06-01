@@ -268,10 +268,6 @@ RemotePrintJobChild
 :
 ProcessPage
 (
-const
-IntSize
-&
-aSizeInPoints
 nsTArray
 <
 uint64_t
@@ -304,12 +300,6 @@ Unused
 <
 SendProcessPage
 (
-aSizeInPoints
-.
-width
-aSizeInPoints
-.
-height
 std
 :
 :
