@@ -2093,6 +2093,10 @@ ShouldResistFingerprinting
 GetDocShell
 (
 )
+RFPTarget
+:
+:
+NavigatorOscpu
 )
 )
 {
@@ -2417,6 +2421,10 @@ ShouldResistFingerprinting
 GetDocShell
 (
 )
+RFPTarget
+:
+:
+Unknown
 )
 ;
 }
@@ -2764,6 +2772,10 @@ ShouldResistFingerprinting
 GetDocShell
 (
 )
+RFPTarget
+:
+:
+NavigatorBuildID
 )
 )
 {
@@ -3169,7 +3181,7 @@ ShouldResistFingerprinting
 RFPTarget
 :
 :
-Unknown
+NavigatorHWConcurrency
 )
 )
 ;
@@ -9569,7 +9581,7 @@ aCallerDoc
 RFPTarget
 :
 :
-Unknown
+NavigatorPlatform
 )
 )
 {
@@ -9750,7 +9762,7 @@ aCallerDoc
 RFPTarget
 :
 :
-Unknown
+NavigatorAppVersion
 )
 )
 {
@@ -9940,7 +9952,7 @@ aCallerDoc
 RFPTarget
 :
 :
-Unknown
+NavigatorAppName
 )
 )
 {
@@ -10071,7 +10083,7 @@ aCallerDoc
 RFPTarget
 :
 :
-Unknown
+NavigatorUserAgent
 )
 ;
 if
