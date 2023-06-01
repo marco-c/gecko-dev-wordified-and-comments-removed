@@ -96,7 +96,7 @@ h
 endif
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 #
 include
 "
@@ -341,7 +341,7 @@ h
 endif
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 typedef
 int
 VAStatus
@@ -415,7 +415,7 @@ mozilla
 {
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 nsTArray
 <
 AVCodecID
@@ -705,7 +705,7 @@ AV_PIX_FMT_NONE
 }
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 static
 AVPixelFormat
 ChooseVAAPIPixelFormat
@@ -1954,7 +1954,7 @@ INT64_MIN
 }
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 void
 FFmpegVideoDecoder
 <
@@ -2237,7 +2237,7 @@ mMimeType
 )
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 mVAAPIDeviceContext
 (
 nullptr
@@ -2347,7 +2347,7 @@ mExtraData
 ;
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 InitHWDecodingPrefs
 (
 )
@@ -2413,7 +2413,7 @@ rv
 ;
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 if
 (
 mEnableHardwareDecoding
@@ -4521,7 +4521,7 @@ endif
 }
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 void
 FFmpegVideoDecoder
 <
@@ -5284,7 +5284,7 @@ __func__
 }
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 if
 (
 mVideoFramePool
@@ -5423,7 +5423,7 @@ rv
 ;
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 if
 (
 IsHardwareAccelerated
@@ -7629,7 +7629,7 @@ NS_OK
 }
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 bool
 FFmpegVideoDecoder
 <
@@ -8277,7 +8277,7 @@ IsOnCurrentThread
 ;
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 mVideoFramePool
 =
 nullptr
@@ -8329,7 +8329,7 @@ const
 {
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 return
 !
 !
@@ -8345,7 +8345,7 @@ endif
 }
 #
 ifdef
-MOZ_WAYLAND_USE_VAAPI
+MOZ_WAYLAND_USE_HWDECODE
 bool
 FFmpegVideoDecoder
 <

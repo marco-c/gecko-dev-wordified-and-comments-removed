@@ -3838,7 +3838,7 @@ false
 ;
 #
 ifdef
-MOZ_WAYLAND
+MOZ_ENABLE_VAAPI
 char
 *
 vaapiData
