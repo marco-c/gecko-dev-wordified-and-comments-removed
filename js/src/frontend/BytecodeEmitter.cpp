@@ -425,15 +425,6 @@ h
 #
 include
 "
-js
-/
-Stack
-.
-h
-"
-#
-include
-"
 util
 /
 StringBuffer
@@ -878,11 +869,6 @@ parent
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 SharedContext
 *
 sc
@@ -904,10 +890,6 @@ sc
 fc
 (
 fc
-)
-stackLimit
-(
-stackLimit
 )
 parent
 (
@@ -962,18 +944,6 @@ emitterMode
 MOZ_ASSERT_IF
 (
 parent
-stackLimit
-=
-=
-parent
--
->
-stackLimit
-)
-;
-MOZ_ASSERT_IF
-(
-parent
 fc
 =
 =
@@ -1004,10 +974,6 @@ parent
 -
 >
 fc
-parent
--
->
-stackLimit
 sc
 parent
 -
@@ -1032,11 +998,6 @@ BytecodeEmitter
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 const
 EitherParser
 &
@@ -1055,7 +1016,6 @@ BytecodeEmitter
 (
 nullptr
 fc
-stackLimit
 sc
 parser
 .
@@ -4551,7 +4511,6 @@ recursion
 check
 (
 fc
-stackLimit
 )
 )
 {
@@ -12811,7 +12770,6 @@ if
 NameFunctions
 (
 fc
-stackLimit
 parserAtoms
 (
 )
@@ -13241,7 +13199,6 @@ if
 NameFunctions
 (
 fc
-stackLimit
 parserAtoms
 (
 )
@@ -34801,7 +34758,6 @@ recursion
 check
 (
 fc
-stackLimit
 )
 )
 {
@@ -38098,7 +38054,6 @@ recursion
 check
 (
 fc
-stackLimit
 )
 )
 {
@@ -51136,7 +51091,6 @@ recursion
 check
 (
 fc
-stackLimit
 )
 )
 {

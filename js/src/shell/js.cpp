@@ -29373,12 +29373,6 @@ parser
 (
 &
 fc
-cx
--
->
-stackLimitForCurrentPrincipal
-(
-)
 options
 units
 length
@@ -31616,12 +31610,6 @@ parser
 (
 &
 fc
-cx
--
->
-stackLimitForCurrentPrincipal
-(
-)
 options
 chars
 length

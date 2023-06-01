@@ -64,15 +64,6 @@ h
 #
 include
 "
-js
-/
-Stack
-.
-h
-"
-#
-include
-"
 util
 /
 Poison
@@ -2420,11 +2411,6 @@ NameResolver
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 ParserAtomsTable
 &
 parserAtoms
@@ -2433,7 +2419,6 @@ parserAtoms
 ParseNodeVisitor
 (
 fc
-stackLimit
 )
 fc_
 (
@@ -2580,11 +2565,6 @@ NameFunctions
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 ParserAtomsTable
 &
 parserAtoms
@@ -2597,7 +2577,6 @@ NameResolver
 nr
 (
 fc
-stackLimit
 parserAtoms
 )
 ;

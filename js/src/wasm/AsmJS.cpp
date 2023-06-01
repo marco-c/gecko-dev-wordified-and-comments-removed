@@ -26224,7 +26224,7 @@ checkDontReport
 (
 f
 .
-stackLimit
+fc
 (
 )
 )
@@ -28308,7 +28308,7 @@ checkDontReport
 (
 f
 .
-stackLimit
+fc
 (
 )
 )
@@ -30815,7 +30815,7 @@ checkDontReport
 (
 f
 .
-stackLimit
+fc
 (
 )
 )
@@ -34455,7 +34455,7 @@ checkDontReport
 (
 f
 .
-stackLimit
+fc
 (
 )
 )

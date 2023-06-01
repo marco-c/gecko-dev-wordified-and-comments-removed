@@ -9,15 +9,6 @@ include
 "
 js
 /
-Stack
-.
-h
-"
-#
-include
-"
-js
-/
 TypeDecls
 .
 h
@@ -48,11 +39,6 @@ NameFunctions
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 ParserAtomsTable
 &
 parserAtoms

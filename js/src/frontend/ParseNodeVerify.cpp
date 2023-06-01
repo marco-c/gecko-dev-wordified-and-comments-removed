@@ -16,15 +16,6 @@ ParseNodeVisitor
 .
 h
 "
-#
-include
-"
-js
-/
-Stack
-.
-h
-"
 using
 namespace
 js
@@ -67,11 +58,6 @@ ParseNodeVerifier
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 const
 LifoAlloc
 &
@@ -81,7 +67,6 @@ alloc
 Base
 (
 fc
-stackLimit
 )
 alloc_
 (
@@ -203,11 +188,6 @@ CheckParseTree
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 const
 LifoAlloc
 &
@@ -221,7 +201,6 @@ ParseNodeVerifier
 verifier
 (
 fc
-stackLimit
 alloc
 )
 ;
