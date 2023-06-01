@@ -236,11 +236,6 @@ OriginAttributes
 aOriginAttributes
 )
 ;
-bool
-mODoHActivated
-=
-false
-;
 nsClassHashtable
 <
 nsCStringHashKey
