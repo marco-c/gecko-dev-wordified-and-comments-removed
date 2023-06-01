@@ -653,16 +653,6 @@ always_ask_before_handling_new_types
 "
 true
 ]
-[
-"
-browser
-.
-download
-.
-improvements_to_download_panel
-"
-false
-]
 ]
 }
 )

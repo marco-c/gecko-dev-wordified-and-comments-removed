@@ -2472,12 +2472,6 @@ _migrateDownloadsImprovementsIfNeeded
 Migrate
 if
 the
-preference
-is
-enabled
-AND
-if
-the
 migration
 has
 never
@@ -2511,6 +2505,7 @@ download
 .
 improvements_to_download_panel
 "
+true
 )
 &
 &
@@ -2701,12 +2696,6 @@ _migrateSVGXMLIfNeeded
 Migrate
 if
 the
-preference
-is
-enabled
-AND
-if
-the
 migration
 has
 never
@@ -2742,6 +2731,7 @@ download
 .
 improvements_to_download_panel
 "
+true
 )
 &
 &
@@ -3307,6 +3297,7 @@ download
 .
 improvements_to_download_panel
 "
+true
 )
 )
 )

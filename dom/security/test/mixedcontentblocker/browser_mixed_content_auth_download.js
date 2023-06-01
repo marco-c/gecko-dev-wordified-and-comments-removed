@@ -714,16 +714,6 @@ set
 [
 [
 "
-browser
-.
-download
-.
-improvements_to_download_panel
-"
-true
-]
-[
-"
 dom
 .
 block_download_insecure

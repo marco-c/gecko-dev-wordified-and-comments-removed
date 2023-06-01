@@ -460,16 +460,6 @@ https_first
 "
 true
 ]
-[
-"
-browser
-.
-download
-.
-improvements_to_download_panel
-"
-true
-]
 ]
 }
 )

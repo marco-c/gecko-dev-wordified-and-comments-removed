@@ -60,16 +60,6 @@ browser
 .
 download
 .
-improvements_to_download_panel
-"
-true
-]
-[
-"
-browser
-.
-download
-.
 alwaysOpenPanel
 "
 true
