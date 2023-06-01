@@ -16,7 +16,7 @@ openNewForegroundTab
 (
 gBrowser
 "
-http
+https
 :
 /
 /
@@ -97,7 +97,7 @@ tab1
 linkedBrowser
 false
 "
-http
+https
 :
 /
 /
@@ -127,7 +127,7 @@ restored
 tab
 to
 load
-http
+https
 :
 /
 /
@@ -150,7 +150,7 @@ currentURI
 .
 spec
 "
-http
+https
 :
 /
 /
