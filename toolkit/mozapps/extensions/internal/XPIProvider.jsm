@@ -1858,6 +1858,9 @@ lastModifiedTime
 path
 "
 "
+recommendationState
+"
+"
 rootURI
 "
 "
@@ -2224,6 +2227,11 @@ path
 this
 .
 relativePath
+recommendationState
+:
+this
+.
+recommendationState
 rootURI
 :
 this
@@ -2613,6 +2621,14 @@ rootURI
 aDBAddon
 .
 rootURI
+;
+this
+.
+recommendationState
+=
+aDBAddon
+.
+recommendationState
 ;
 if
 (
