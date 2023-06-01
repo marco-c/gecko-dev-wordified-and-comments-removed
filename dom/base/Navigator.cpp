@@ -3166,6 +3166,10 @@ mWindow
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Unknown
 )
 )
 ;
@@ -7775,6 +7779,8 @@ const
 Document
 *
 aDoc
+RFPTarget
+aTarget
 )
 {
 return
@@ -7785,6 +7791,7 @@ aDoc
 >
 ShouldResistFingerprinting
 (
+aTarget
 )
 :
 nsContentUtils
@@ -7795,6 +7802,7 @@ ShouldResistFingerprinting
 "
 Fallback
 "
+aTarget
 )
 ;
 }
@@ -9558,6 +9566,10 @@ if
 ShouldResistFingerprinting
 (
 aCallerDoc
+RFPTarget
+:
+:
+Unknown
 )
 )
 {
@@ -9735,6 +9747,10 @@ if
 ShouldResistFingerprinting
 (
 aCallerDoc
+RFPTarget
+:
+:
+Unknown
 )
 )
 {
@@ -9921,6 +9937,10 @@ if
 ShouldResistFingerprinting
 (
 aCallerDoc
+RFPTarget
+:
+:
+Unknown
 )
 )
 {
@@ -10048,6 +10068,10 @@ value
 ShouldResistFingerprinting
 (
 aCallerDoc
+RFPTarget
+:
+:
+Unknown
 )
 ;
 if

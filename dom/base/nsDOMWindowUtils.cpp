@@ -14259,6 +14259,10 @@ doc
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Unknown
 )
 :
 nsContentUtils
@@ -14269,6 +14273,10 @@ ShouldResistFingerprinting
 "
 Fallback
 "
+RFPTarget
+:
+:
+Unknown
 )
 )
 ;

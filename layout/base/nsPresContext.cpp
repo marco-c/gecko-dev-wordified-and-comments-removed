@@ -3662,6 +3662,10 @@ mDocument
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Unknown
 )
 )
 {

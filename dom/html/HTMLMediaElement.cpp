@@ -29517,6 +29517,8 @@ HTMLMediaElement
 :
 ShouldResistFingerprinting
 (
+RFPTarget
+aTarget
 )
 const
 {
@@ -29528,6 +29530,7 @@ OwnerDoc
 >
 ShouldResistFingerprinting
 (
+aTarget
 )
 ;
 }

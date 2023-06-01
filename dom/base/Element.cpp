@@ -1922,6 +1922,10 @@ OwnerDoc
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Unknown
 )
 &
 &
@@ -2078,6 +2082,10 @@ OwnerDoc
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Unknown
 )
 &
 &
