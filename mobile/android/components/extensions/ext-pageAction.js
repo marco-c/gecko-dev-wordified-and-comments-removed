@@ -53,7 +53,7 @@ PageActionBase
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -66,7 +66,9 @@ modules
 /
 ExtensionActions
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

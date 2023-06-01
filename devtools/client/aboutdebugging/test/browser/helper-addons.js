@@ -230,7 +230,7 @@ Management
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -243,7 +243,9 @@ modules
 /
 Extension
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -373,7 +375,7 @@ ExtensionTestCommon
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -386,7 +388,9 @@ common
 /
 ExtensionTestCommon
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -939,7 +943,7 @@ Management
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -952,7 +956,9 @@ modules
 /
 Extension
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

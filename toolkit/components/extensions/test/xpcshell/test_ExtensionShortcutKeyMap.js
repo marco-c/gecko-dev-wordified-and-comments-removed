@@ -10,7 +10,7 @@ ExtensionShortcutKeyMap
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 ExtensionShortcuts
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

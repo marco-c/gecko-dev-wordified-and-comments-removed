@@ -141,9 +141,9 @@ nsIProtocolProxyService
 "
 )
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -160,7 +160,9 @@ modules
 /
 ExtensionPreferencesManager
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

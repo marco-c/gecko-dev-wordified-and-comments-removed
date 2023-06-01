@@ -500,7 +500,7 @@ ExtensionContent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -513,7 +513,9 @@ modules
 /
 ExtensionContent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

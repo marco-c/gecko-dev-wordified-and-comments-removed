@@ -10,7 +10,7 @@ MessageManagerProxy
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 MessageManagerProxy
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

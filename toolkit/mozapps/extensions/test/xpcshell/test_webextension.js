@@ -318,7 +318,7 @@ GlobalManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -331,7 +331,9 @@ modules
 /
 ExtensionParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

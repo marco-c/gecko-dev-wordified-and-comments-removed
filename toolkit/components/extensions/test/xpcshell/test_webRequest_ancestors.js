@@ -10,7 +10,7 @@ WebRequest
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -23,7 +23,9 @@ modules
 /
 WebRequest
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -60,7 +62,7 @@ ExtensionParent
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -73,7 +75,9 @@ modules
 /
 ExtensionParent
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

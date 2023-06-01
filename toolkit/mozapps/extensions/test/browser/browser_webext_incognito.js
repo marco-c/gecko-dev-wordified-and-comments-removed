@@ -34,7 +34,7 @@ ExtensionPermissions
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -47,7 +47,9 @@ modules
 /
 ExtensionPermissions
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -58,7 +60,7 @@ Management
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -71,7 +73,9 @@ modules
 /
 Extension
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

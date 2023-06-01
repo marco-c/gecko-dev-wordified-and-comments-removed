@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 OriginControls
-"
+:
 "
 resource
 :
@@ -17,8 +17,11 @@ modules
 /
 ExtensionPermissions
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 customElements

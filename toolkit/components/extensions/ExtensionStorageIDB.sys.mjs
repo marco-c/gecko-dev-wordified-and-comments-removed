@@ -108,9 +108,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -127,7 +127,9 @@ modules
 /
 ExtensionStorage
 .
-jsm
+sys
+.
+mjs
 "
 ExtensionUtils
 :
@@ -142,7 +144,9 @@ modules
 /
 ExtensionUtils
 .
-jsm
+sys
+.
+mjs
 "
 getTrimmedString
 :
@@ -157,7 +161,9 @@ modules
 /
 ExtensionTelemetry
 .
-jsm
+sys
+.
+mjs
 "
 }
 )
