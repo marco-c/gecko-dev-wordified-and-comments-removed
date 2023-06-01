@@ -117,17 +117,6 @@ ForFrontendContext
 )
 )
 ;
-JS
-:
-:
-NativeStackLimit
-stackLimit
-=
-JS
-:
-:
-NativeStackLimitMax
-;
 {
 const
 char
@@ -199,7 +188,6 @@ CompileGlobalScriptToStencil
 (
 fc
 options
-stackLimit
 srcBuf
 compileStorage
 )
@@ -297,7 +285,6 @@ CompileGlobalScriptToStencil
 (
 fc
 options
-stackLimit
 srcBuf
 compileStorage
 )

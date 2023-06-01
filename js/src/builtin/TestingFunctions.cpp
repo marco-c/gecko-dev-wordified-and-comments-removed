@@ -40854,12 +40854,6 @@ CompileModuleScriptToStencil
 &
 fc
 options
-cx
--
->
-stackLimitForCurrentPrincipal
-(
-)
 srcBuf
 compileStorage
 )
@@ -40877,12 +40871,6 @@ CompileGlobalScriptToStencil
 &
 fc
 options
-cx
--
->
-stackLimitForCurrentPrincipal
-(
-)
 srcBuf
 compileStorage
 )
