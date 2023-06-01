@@ -104,7 +104,9 @@ lib
 /
 PanelTestProvider
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import
@@ -138,7 +140,9 @@ lib
 /
 SnippetsTestMessageProvider
 .
-jsm
+sys
+.
+mjs
 "
 ;
 const

@@ -37,7 +37,7 @@ PanelTestProvider
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -52,7 +52,9 @@ lib
 /
 PanelTestProvider
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -87,7 +89,7 @@ RemoteL10n
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -102,7 +104,9 @@ lib
 /
 RemoteL10n
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

@@ -107,7 +107,9 @@ lib
 /
 SnippetsTestMessageProvider
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import

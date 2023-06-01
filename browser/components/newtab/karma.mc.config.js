@@ -525,7 +525,9 @@ lib
 /
 UTEventReporting
 .
-jsm
+sys
+.
+mjs
 "
 :
 {
@@ -1488,7 +1490,9 @@ lib
 /
 CFRMessageProvider
 .
-jsm
+sys
+.
+mjs
 "
 )
 path

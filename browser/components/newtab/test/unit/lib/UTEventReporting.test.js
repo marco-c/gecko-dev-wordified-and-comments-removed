@@ -35,7 +35,9 @@ lib
 /
 UTEventReporting
 .
-jsm
+sys
+.
+mjs
 "
 ;
 const

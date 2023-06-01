@@ -10,7 +10,7 @@ ASRouterNewTabHook
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -25,7 +25,9 @@ lib
 /
 ASRouterNewTabHook
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

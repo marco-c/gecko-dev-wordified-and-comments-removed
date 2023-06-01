@@ -88,7 +88,9 @@ lib
 /
 SnippetsTestMessageProvider
 .
-jsm
+sys
+.
+mjs
 "
 ;
 describe

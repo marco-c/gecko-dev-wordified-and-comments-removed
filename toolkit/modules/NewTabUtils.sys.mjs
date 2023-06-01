@@ -137,7 +137,7 @@ searchShortcuts
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -152,7 +152,9 @@ lib
 /
 SearchShortcuts
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

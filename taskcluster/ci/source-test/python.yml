@@ -2692,7 +2692,9 @@ lib
 /
 CFRMessageProvider
 .
-jsm
+sys
+.
+mjs
 '
 -
 '
@@ -2720,7 +2722,9 @@ lib
 /
 PanelTestProvider
 .
-jsm
+sys
+.
+mjs
 '
 condprof
 :

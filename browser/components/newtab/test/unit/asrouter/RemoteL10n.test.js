@@ -9,7 +9,9 @@ lib
 /
 RemoteL10n
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import

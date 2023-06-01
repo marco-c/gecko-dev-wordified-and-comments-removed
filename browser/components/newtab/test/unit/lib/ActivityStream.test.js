@@ -50,7 +50,9 @@ lib
 /
 DefaultSites
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import
@@ -245,7 +247,9 @@ lib
 /
 LinksCache
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import
@@ -258,7 +262,9 @@ lib
 /
 PersistentCache
 .
-jsm
+sys
+.
+mjs
 "
 ;
 import

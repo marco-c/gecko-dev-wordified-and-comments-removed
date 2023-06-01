@@ -89,7 +89,9 @@ lib
 /
 SnippetsTestMessageProvider
 .
-jsm
+sys
+.
+mjs
 "
 ;
 async

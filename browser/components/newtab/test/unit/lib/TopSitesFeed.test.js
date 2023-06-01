@@ -104,7 +104,9 @@ lib
 /
 LinksCache
 .
-jsm
+sys
+.
+mjs
 "
 ;
 const
@@ -851,7 +853,9 @@ lib
 /
 TippyTopProvider
 .
-jsm
+sys
+.
+mjs
 "
 :
 {
