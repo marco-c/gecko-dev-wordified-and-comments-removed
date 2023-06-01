@@ -17,6 +17,16 @@ settings
 .
 js
 "
+"
+constants
+.
+js
+"
+"
+helpers
+.
+js
+"
 )
 with
 Files
