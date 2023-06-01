@@ -369,7 +369,7 @@ browserActionFor
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -382,7 +382,9 @@ modules
 /
 Extension
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;

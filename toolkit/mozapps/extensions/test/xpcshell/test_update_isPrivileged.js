@@ -1,11 +1,11 @@
 ChromeUtils
 .
-defineModuleGetter
+defineESModuleGetters
 (
 this
-"
+{
 ExtensionParent
-"
+:
 "
 resource
 :
@@ -17,8 +17,11 @@ modules
 /
 ExtensionParent
 .
-jsm
+sys
+.
+mjs
 "
+}
 )
 ;
 AddonTestUtils

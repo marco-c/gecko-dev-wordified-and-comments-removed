@@ -8096,7 +8096,9 @@ endsWith
 "
 ExtensionContent
 .
-jsm
+sys
+.
+mjs
 "
 )
 )
