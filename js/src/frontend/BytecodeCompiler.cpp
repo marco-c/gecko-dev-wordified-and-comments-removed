@@ -6133,11 +6133,6 @@ cx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 CompilationInput
 &
 input
@@ -6319,7 +6314,12 @@ Unit
 parser
 (
 fc
+fc
+-
+>
 stackLimit
+(
+)
 input
 .
 options
@@ -6391,7 +6391,12 @@ BytecodeEmitter
 bce
 (
 fc
+fc
+-
+>
 stackLimit
+(
+)
 &
 parser
 pn
@@ -6964,11 +6969,6 @@ cx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 ScopeBindingCache
 *
 scopeCache
@@ -7249,7 +7249,6 @@ CompileLazyFunctionToStencilMaybeInstantiate
 (
 cx
 fc
-stackLimit
 input
 .
 get
@@ -7278,11 +7277,6 @@ cx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 HandleFunction
 fun
 )
@@ -7379,7 +7373,6 @@ Utf8Unit
 (
 cx
 fc
-stackLimit
 scopeCache
 fun
 lazy
@@ -7408,7 +7401,6 @@ char16_t
 (
 cx
 fc
-stackLimit
 scopeCache
 fun
 lazy
@@ -7434,11 +7426,6 @@ cx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 ScopeBindingCache
 *
 scopeCache
@@ -7751,7 +7738,6 @@ CompileLazyFunctionToStencilMaybeInstantiate
 (
 cx
 fc
-stackLimit
 input
 .
 get
@@ -7802,11 +7788,6 @@ cx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 ScopeBindingCache
 *
 scopeCache
@@ -7877,7 +7858,6 @@ Utf8Unit
 (
 cx
 fc
-stackLimit
 scopeCache
 context
 scriptIndex
@@ -7905,7 +7885,6 @@ char16_t
 (
 cx
 fc
-stackLimit
 scopeCache
 context
 scriptIndex
