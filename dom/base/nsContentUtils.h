@@ -1220,11 +1220,6 @@ nsIDocShell
 aDocShell
 RFPTarget
 aTarget
-=
-RFPTarget
-:
-:
-Unknown
 )
 ;
 static
