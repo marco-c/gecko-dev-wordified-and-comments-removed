@@ -4184,6 +4184,10 @@ area
 :
 header
 ;
+display
+:
+flex
+;
 }
 .
 urlbarView
