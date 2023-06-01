@@ -2666,13 +2666,7 @@ AssertedCast
 int64_t
 >
 (
-std
-:
-:
-round
-(
 approx
-)
 )
 aTargetBase
 )
