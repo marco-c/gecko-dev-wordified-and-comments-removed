@@ -263,6 +263,9 @@ tag
 "
 span
 "
+overflowable
+:
+true
 children
 :
 [
