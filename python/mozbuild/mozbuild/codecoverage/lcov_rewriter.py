@@ -2,6 +2,8 @@ import
 json
 import
 os
+import
+sys
 from
 argparse
 import
@@ -4118,9 +4120,17 @@ in
 unknowns
 :
                     
-print
+sys
+.
+stdout
+.
+buffer
+.
+write
 (
                         
+(
+                            
 "
 Error
 :
@@ -4140,11 +4150,27 @@ s
 removing
 record
 "
-                        
+                            
 %
 (
 e
 url
+)
+                        
+)
+.
+encode
+(
+sys
+.
+stdout
+.
+encoding
+errors
+=
+"
+replace
+"
 )
                     
 )
