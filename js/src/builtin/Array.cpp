@@ -26326,7 +26326,7 @@ sharedShape
 gc
 :
 :
-InitialHeap
+Heap
 heap
 =
 GetInitialHeap

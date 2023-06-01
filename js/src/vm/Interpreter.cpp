@@ -30311,7 +30311,7 @@ shape
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 =
 site
@@ -30359,7 +30359,7 @@ allocKind
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 )
 {
@@ -30531,7 +30531,10 @@ initialHeap
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 ?
 TenuredObject
 :

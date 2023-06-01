@@ -319,7 +319,7 @@ isProfilerInstrumentationEnabled
 gc
 :
 :
-InitialHeap
+Heap
 initialStringHeap
 (
 )
@@ -337,7 +337,7 @@ initialStringHeap
 gc
 :
 :
-InitialHeap
+Heap
 initialBigIntHeap
 (
 )

@@ -4413,7 +4413,10 @@ js
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 ;
 if
@@ -10054,7 +10057,10 @@ js
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 ;
 if

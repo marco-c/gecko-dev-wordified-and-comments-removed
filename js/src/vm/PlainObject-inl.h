@@ -182,7 +182,7 @@ class_
 gc
 :
 :
-InitialHeap
+Heap
 heap
 =
 GetInitialHeap

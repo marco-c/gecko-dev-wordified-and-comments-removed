@@ -413,7 +413,7 @@ enclosing
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -627,7 +627,7 @@ enclosing
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -650,7 +650,7 @@ enclosing
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -1404,7 +1404,7 @@ enclosing
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -1590,7 +1590,7 @@ enclosing
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -1752,7 +1752,7 @@ enclosing
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -1842,7 +1842,7 @@ enclosing
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;

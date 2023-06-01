@@ -578,7 +578,7 @@ get
 gc
 :
 :
-InitialHeap
+Heap
 heap
 ;
 if
@@ -618,7 +618,10 @@ heap
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 ;
 }
 else
@@ -628,7 +631,10 @@ heap
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 ;
 }
 debugCheckNewObject

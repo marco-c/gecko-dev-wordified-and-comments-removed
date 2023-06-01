@@ -4403,7 +4403,10 @@ NoGC
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 )
 ;
 }

@@ -1591,7 +1591,7 @@ allocKind
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 )
 {
@@ -1608,7 +1608,10 @@ initialHeap
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 ;
 }
 void
@@ -2318,7 +2321,7 @@ nDynamicSlots
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Label
 *
@@ -2362,7 +2365,10 @@ initialHeap
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 ;
 return
@@ -2417,7 +2423,7 @@ templateObj
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Label
 *
@@ -2528,7 +2534,7 @@ allocKind
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Label
 *
@@ -2725,7 +2731,7 @@ allocKind
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Label
 *
@@ -3774,7 +3780,7 @@ allocKind
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Label
 *
@@ -3829,7 +3835,10 @@ initialHeap
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 ;
 return
@@ -3864,7 +3873,7 @@ temp
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Label
 *
@@ -3903,7 +3912,7 @@ temp
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Label
 *
@@ -3942,7 +3951,7 @@ temp
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Label
 *
@@ -3977,7 +3986,10 @@ initialHeap
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 ;
 return
@@ -9696,7 +9708,7 @@ temp
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Label
 *

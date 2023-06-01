@@ -14299,7 +14299,10 @@ typeDefData
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 )
 ;
 }
@@ -14339,7 +14342,10 @@ typeDefData
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 numElements
 )
 ;

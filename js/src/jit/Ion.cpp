@@ -2019,7 +2019,10 @@ initialStringHeap
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 )
 {
 }

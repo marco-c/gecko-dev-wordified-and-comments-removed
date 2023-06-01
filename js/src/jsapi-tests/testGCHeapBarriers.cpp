@@ -621,10 +621,10 @@ cx
 gc
 :
 :
-InitialHeap
+Heap
 :
 :
-TenuredHeap
+Tenured
 )
 ;
 MOZ_ASSERT

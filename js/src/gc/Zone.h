@@ -674,7 +674,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 >
 minObjectHeapToTenure_
 ;
@@ -689,7 +689,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 >
 minStringHeapToTenure_
 ;
@@ -704,7 +704,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 >
 minBigintHeapToTenure_
 ;
@@ -2200,7 +2200,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 minHeapToTenure
 (
 JS

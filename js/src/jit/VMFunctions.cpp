@@ -12794,7 +12794,10 @@ js
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 ;
 }
@@ -12826,7 +12829,10 @@ js
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 ;
 }
@@ -12887,7 +12893,10 @@ js
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 )
 ;
 }
@@ -13107,7 +13116,10 @@ kind
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 &
 ArrayObject
 :

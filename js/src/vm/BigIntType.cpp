@@ -415,7 +415,7 @@ isNegative
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -837,7 +837,7 @@ cx
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -8166,7 +8166,7 @@ haveParseError
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -8546,7 +8546,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -9618,7 +9618,7 @@ x
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -19204,13 +19204,16 @@ constexpr
 gc
 :
 :
-InitialHeap
+Heap
 heap
 =
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 ;
 bool
 parseError

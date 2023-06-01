@@ -138,7 +138,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -332,7 +332,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 =
 js
@@ -341,7 +341,10 @@ js
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 {
 size_t
@@ -503,7 +506,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -1002,7 +1005,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -1208,7 +1211,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -1569,7 +1572,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -1655,7 +1658,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -2074,7 +2077,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -2133,7 +2136,7 @@ js
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -2945,7 +2948,10 @@ js
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 ;
 }

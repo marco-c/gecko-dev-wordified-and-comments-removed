@@ -7304,7 +7304,10 @@ templateObject
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 &
 fail
 )
@@ -7403,7 +7406,10 @@ templateObject
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 &
 fail
 )

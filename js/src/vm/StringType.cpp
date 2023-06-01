@@ -5401,7 +5401,7 @@ right
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -5838,7 +5838,7 @@ right
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -5869,7 +5869,7 @@ right
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -8755,7 +8755,7 @@ length
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -8985,13 +8985,16 @@ chars
 gc
 :
 :
-InitialHeap
+Heap
 heap
 =
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 )
 {
 size_t
@@ -9091,7 +9094,7 @@ n
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -9455,7 +9458,7 @@ length
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -9565,7 +9568,7 @@ length
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -9590,7 +9593,7 @@ length
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -9615,7 +9618,7 @@ length
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -9640,7 +9643,7 @@ length
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -9677,7 +9680,7 @@ length
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -9765,7 +9768,7 @@ length
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -9790,7 +9793,7 @@ length
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -9815,7 +9818,7 @@ length
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -9840,7 +9843,7 @@ length
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -9870,7 +9873,7 @@ n
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -10006,7 +10009,7 @@ n
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -10030,7 +10033,7 @@ n
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -10057,7 +10060,7 @@ n
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -10132,7 +10135,7 @@ n
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -10156,7 +10159,7 @@ n
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -10180,7 +10183,7 @@ n
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -10204,7 +10207,7 @@ n
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -10220,7 +10223,7 @@ chars
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -10295,7 +10298,7 @@ n
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -10368,7 +10371,7 @@ n
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -10392,7 +10395,7 @@ n
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -10416,7 +10419,7 @@ n
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -10440,7 +10443,7 @@ n
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 ;
@@ -10750,7 +10753,7 @@ utf8
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -11155,7 +11158,7 @@ allocatedExternal
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -11559,7 +11562,7 @@ check
 gc
 :
 :
-InitialHeap
+Heap
 heap
 )
 {
@@ -12515,10 +12518,10 @@ CheckTwoByte
 gc
 :
 :
-InitialHeap
+Heap
 :
 :
-TenuredHeap
+Tenured
 )
 )
 {
@@ -12553,10 +12556,10 @@ CheckLatin1
 gc
 :
 :
-InitialHeap
+Heap
 :
 :
-TenuredHeap
+Tenured
 )
 )
 {
@@ -12591,10 +12594,10 @@ CheckTwoByte
 gc
 :
 :
-InitialHeap
+Heap
 :
 :
-DefaultHeap
+Default
 )
 )
 {
@@ -12629,10 +12632,10 @@ CheckLatin1
 gc
 :
 :
-InitialHeap
+Heap
 :
 :
-DefaultHeap
+Default
 )
 )
 {

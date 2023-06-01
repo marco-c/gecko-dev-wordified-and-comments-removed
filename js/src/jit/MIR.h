@@ -9628,7 +9628,7 @@ length_
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap_
 ;
 bool
@@ -9644,7 +9644,7 @@ templateConst
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 bool
 vmCall
@@ -9675,7 +9675,7 @@ templateConst
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 )
 {
@@ -9730,7 +9730,7 @@ toObjectOrNull
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 (
 )
@@ -9814,7 +9814,7 @@ Data
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap_
 ;
 MNewTypedArray
@@ -9825,7 +9825,7 @@ templateConst
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 )
 :
@@ -9890,7 +9890,7 @@ TypedArrayObject
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 (
 )
@@ -9970,7 +9970,7 @@ private
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap_
 ;
 Mode
@@ -9987,7 +9987,7 @@ templateConst
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Mode
 mode
@@ -10101,7 +10101,7 @@ templateConst
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 Mode
 mode
@@ -10158,7 +10158,7 @@ toObjectOrNull
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 (
 )
@@ -10239,7 +10239,7 @@ allocKind_
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap_
 ;
 MNewPlainObject
@@ -10259,7 +10259,7 @@ allocKind
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 )
 :
@@ -10390,7 +10390,7 @@ allocKind_
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 (
 )
@@ -10463,7 +10463,7 @@ length_
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap_
 ;
 MNewArrayObject
@@ -10479,7 +10479,7 @@ length
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 )
 :
@@ -10557,7 +10557,7 @@ length
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 )
 {
@@ -10629,7 +10629,7 @@ length_
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 (
 )
@@ -16096,7 +16096,7 @@ templateObj_
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap_
 ;
 MInlineArgumentsSlice
@@ -16107,7 +16107,7 @@ templateObj
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 )
 :
@@ -16169,7 +16169,7 @@ templateObj
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 )
 ;
@@ -16198,7 +16198,7 @@ templateObj_
 gc
 :
 :
-InitialHeap
+Heap
 initialHeap
 (
 )

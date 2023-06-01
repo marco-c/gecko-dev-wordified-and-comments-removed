@@ -151,7 +151,7 @@ allocKind
 gc
 :
 :
-InitialHeap
+Heap
 heap
 AllocSite
 *
@@ -207,7 +207,7 @@ cx
 gc
 :
 :
-InitialHeap
+Heap
 heap
 Args
 &
@@ -321,7 +321,7 @@ NewBigInt
 JSContext
 *
 cx
-InitialHeap
+Heap
 heap
 )
 {
@@ -401,7 +401,7 @@ kind
 gc
 :
 :
-InitialHeap
+Heap
 heap
 const
 JSClass
@@ -433,7 +433,10 @@ heap
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 &
 &
 clasp

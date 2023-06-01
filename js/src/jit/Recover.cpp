@@ -9800,7 +9800,7 @@ MOZ_ASSERT
 gc
 :
 :
-InitialHeap
+Heap
 (
 uint8_t
 (
@@ -9866,7 +9866,7 @@ initialHeap_
 gc
 :
 :
-InitialHeap
+Heap
 (
 reader
 .
@@ -9883,7 +9883,10 @@ initialHeap_
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 |
 |
 initialHeap_
@@ -9892,7 +9895,10 @@ initialHeap_
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 )
 ;
 }
@@ -10023,7 +10029,7 @@ MOZ_ASSERT
 gc
 :
 :
-InitialHeap
+Heap
 (
 uint8_t
 (
@@ -10072,7 +10078,7 @@ initialHeap_
 gc
 :
 :
-InitialHeap
+Heap
 (
 reader
 .
@@ -10089,7 +10095,10 @@ initialHeap_
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 |
 |
 initialHeap_
@@ -10098,7 +10107,10 @@ initialHeap_
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 )
 ;
 }
@@ -10132,7 +10144,10 @@ initialHeap_
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 ?
 TenuredObject
 :

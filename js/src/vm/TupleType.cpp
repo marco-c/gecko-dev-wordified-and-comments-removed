@@ -1714,7 +1714,10 @@ allocKind
 gc
 :
 :
-DefaultHeap
+Heap
+:
+:
+Default
 &
 TupleType
 :

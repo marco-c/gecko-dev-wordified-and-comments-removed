@@ -876,7 +876,10 @@ length
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 )
 ;
 }
@@ -899,7 +902,10 @@ length
 gc
 :
 :
-TenuredHeap
+Heap
+:
+:
+Tenured
 )
 ;
 }
