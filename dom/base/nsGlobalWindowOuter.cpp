@@ -9656,6 +9656,10 @@ aDocument
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+IsAlwaysEnabledForPrecompute
 )
 )
 ;
@@ -16053,6 +16057,10 @@ nsIGlobalObject
 ShouldResistFingerprinting
 (
 aCallerType
+RFPTarget
+:
+:
+Unknown
 )
 )
 {
@@ -16520,6 +16528,10 @@ nsIGlobalObject
 ShouldResistFingerprinting
 (
 aCallerType
+RFPTarget
+:
+:
+Unknown
 )
 )
 {
@@ -16962,6 +16974,10 @@ nsIGlobalObject
 ShouldResistFingerprinting
 (
 aCallerType
+RFPTarget
+:
+:
+Unknown
 )
 )
 {
@@ -17008,6 +17024,10 @@ nsIGlobalObject
 ShouldResistFingerprinting
 (
 aCallerType
+RFPTarget
+:
+:
+Unknown
 )
 )
 {

@@ -16788,6 +16788,10 @@ nsIGlobalObject
 ShouldResistFingerprinting
 (
 aCallerType
+RFPTarget
+:
+:
+Unknown
 )
 )
 {
@@ -34195,6 +34199,10 @@ nsIGlobalObject
 ShouldResistFingerprinting
 (
 aCallerType
+RFPTarget
+:
+:
+ScreenOrientation
 )
 )
 {

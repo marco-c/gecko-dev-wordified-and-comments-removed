@@ -2011,6 +2011,10 @@ if
 (
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Unknown
 )
 )
 {

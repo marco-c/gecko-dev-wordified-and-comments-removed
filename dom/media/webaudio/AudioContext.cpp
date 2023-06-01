@@ -930,6 +930,10 @@ AsGlobal
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Unknown
 )
 )
 )
@@ -970,6 +974,10 @@ AsGlobal
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Unknown
 )
 )
 mIsOffline

@@ -797,11 +797,6 @@ ShouldResistFingerprinting
 (
 RFPTarget
 aTarget
-=
-RFPTarget
-:
-:
-Unknown
 )
 const
 =
@@ -820,11 +815,6 @@ CallerType
 aCallerType
 RFPTarget
 aTarget
-=
-RFPTarget
-:
-:
-Unknown
 )
 const
 ;

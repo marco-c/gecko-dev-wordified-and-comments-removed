@@ -17439,6 +17439,10 @@ AsGlobal
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Unknown
 )
 aSampleRate
 aOutputDeviceID
@@ -17683,6 +17687,10 @@ AsGlobal
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Unknown
 )
 aSampleRate
 aOutputDeviceID

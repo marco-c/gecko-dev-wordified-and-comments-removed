@@ -550,6 +550,10 @@ aGlobal
 >
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Unknown
 )
 )
 {
