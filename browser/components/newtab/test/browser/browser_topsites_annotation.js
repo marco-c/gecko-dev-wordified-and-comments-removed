@@ -1293,7 +1293,7 @@ test_label
 url
 :
 "
-http
+https
 :
 /
 /
@@ -1311,7 +1311,7 @@ sponsored_tile_id
 sponsored_impression_url
 :
 "
-http
+https
 :
 /
 /
@@ -1325,7 +1325,7 @@ com
 sponsored_click_url
 :
 "
-http
+https
 :
 /
 /
@@ -1350,7 +1350,7 @@ test_label
 url
 :
 "
-http
+https
 :
 /
 /
@@ -1382,7 +1382,7 @@ io
 newURI
 (
 "
-http
+https
 :
 /
 /
@@ -2372,7 +2372,7 @@ const
 redirectTo
 =
 "
-http
+https
 :
 /
 /
@@ -2394,7 +2394,7 @@ test_label
 url
 :
 "
-http
+https
 :
 /
 /
@@ -2429,7 +2429,7 @@ sponsored_tile_id
 sponsored_impression_url
 :
 "
-http
+https
 :
 /
 /
@@ -2443,7 +2443,7 @@ com
 sponsored_click_url
 :
 "
-http
+https
 :
 /
 /
@@ -2767,7 +2767,7 @@ sponsored_tile_id
 sponsored_impression_url
 :
 "
-http
+https
 :
 /
 /
@@ -2781,7 +2781,7 @@ com
 sponsored_click_url
 :
 "
-http
+https
 :
 /
 /
@@ -3590,7 +3590,7 @@ sponsored_tile_id
 sponsored_impression_url
 :
 "
-http
+https
 :
 /
 /
@@ -3604,7 +3604,7 @@ com
 sponsored_click_url
 :
 "
-http
+https
 :
 /
 /
@@ -3987,7 +3987,7 @@ const
 destinationURL
 =
 "
-http
+https
 :
 /
 /
@@ -4011,7 +4011,7 @@ test
 url
 :
 "
-http
+https
 :
 /
 /
@@ -4030,7 +4030,7 @@ sponsored_tile_id
 sponsored_impression_url
 :
 "
-http
+https
 :
 /
 /
@@ -4044,7 +4044,7 @@ com
 sponsored_click_url
 :
 "
-http
+https
 :
 /
 /
@@ -4229,7 +4229,7 @@ const
 dummyTriggeringSponsoredURL
 =
 "
-http
+https
 :
 /
 /
@@ -4244,7 +4244,7 @@ const
 targetURL
 =
 "
-http
+https
 :
 /
 /
