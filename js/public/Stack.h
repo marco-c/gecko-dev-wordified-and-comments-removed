@@ -126,6 +126,17 @@ NativeStackLimitMax
 ;
 #
 endif
+#
+ifdef
+__wasi__
+constexpr
+NativeStackLimit
+WASINativeStackLimit
+=
+1024
+;
+#
+endif
 inline
 NativeStackLimit
 GetNativeStackLimit

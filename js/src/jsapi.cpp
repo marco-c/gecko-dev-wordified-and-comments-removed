@@ -7589,7 +7589,10 @@ nativeStackLimit
 kind
 ]
 =
-1024
+JS
+:
+:
+WASINativeStackLimit
 ;
 #
 else
