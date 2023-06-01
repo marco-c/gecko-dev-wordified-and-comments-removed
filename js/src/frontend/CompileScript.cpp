@@ -596,12 +596,6 @@ ParseModuleToStencil
 (
 nullptr
 fc
-fc
--
->
-stackLimit
-(
-)
 tempLifoAlloc
 compilationStorage
 .

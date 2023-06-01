@@ -4680,11 +4680,6 @@ maybeCx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 js
 :
 :
@@ -4753,7 +4748,12 @@ Unit
 compiler
 (
 fc
+fc
+-
+>
 stackLimit
+(
+)
 parserAllocScope
 input
 srcBuf
@@ -5085,11 +5085,6 @@ maybeCx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 js
 :
 :
@@ -5135,7 +5130,6 @@ ParseModuleToStencilAndMaybeInstantiate
 (
 maybeCx
 fc
-stackLimit
 tempLifoAlloc
 input
 scopeCache
@@ -5178,11 +5172,6 @@ maybeCx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 js
 :
 :
@@ -5208,7 +5197,6 @@ ParseModuleToStencilImpl
 (
 maybeCx
 fc
-stackLimit
 tempLifoAlloc
 input
 scopeCache
@@ -5231,11 +5219,6 @@ maybeCx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 js
 :
 :
@@ -5261,7 +5244,6 @@ ParseModuleToStencilImpl
 (
 maybeCx
 fc
-stackLimit
 tempLifoAlloc
 input
 scopeCache
@@ -5286,11 +5268,6 @@ cx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 js
 :
 :
@@ -5336,7 +5313,6 @@ ParseModuleToStencilAndMaybeInstantiate
 (
 cx
 fc
-stackLimit
 tempLifoAlloc
 input
 scopeCache
@@ -5381,11 +5357,6 @@ cx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 js
 :
 :
@@ -5411,7 +5382,6 @@ ParseModuleToExtensibleStencilImpl
 (
 cx
 fc
-stackLimit
 tempLifoAlloc
 input
 scopeCache
@@ -5434,11 +5404,6 @@ cx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 js
 :
 :
@@ -5464,7 +5429,6 @@ ParseModuleToExtensibleStencilImpl
 (
 cx
 fc
-stackLimit
 tempLifoAlloc
 input
 scopeCache
@@ -5488,11 +5452,6 @@ cx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 const
 JS
 :
@@ -5570,7 +5529,6 @@ ParseModuleToStencilAndMaybeInstantiate
 (
 cx
 fc
-stackLimit
 cx
 -
 >
@@ -5622,11 +5580,6 @@ cx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 const
 JS
 :
@@ -5647,7 +5600,6 @@ CompileModuleImpl
 (
 cx
 fc
-stackLimit
 options
 srcBuf
 )
@@ -5666,11 +5618,6 @@ cx
 FrontendContext
 *
 fc
-JS
-:
-:
-NativeStackLimit
-stackLimit
 const
 JS
 :
@@ -5691,7 +5638,6 @@ CompileModuleImpl
 (
 cx
 fc
-stackLimit
 options
 srcBuf
 )
