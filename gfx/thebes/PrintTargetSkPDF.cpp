@@ -237,10 +237,6 @@ PrintTargetSkPDF
 :
 BeginPage
 (
-const
-IntSize
-&
-aSizeInPoints
 )
 {
 mPageCanvas
@@ -269,7 +265,6 @@ PrintTarget
 :
 BeginPage
 (
-aSizeInPoints
 )
 ;
 }

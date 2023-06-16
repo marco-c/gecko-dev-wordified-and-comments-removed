@@ -562,10 +562,6 @@ nsDeviceContextSpecProxy
 :
 BeginPage
 (
-const
-IntSize
-&
-aSizeInPoints
 )
 {
 if
@@ -602,10 +598,6 @@ GetNextPageFD
 (
 )
 )
-;
-mCurrentPageSizeInPoints
-=
-aSizeInPoints
 ;
 return
 NS_OK
@@ -653,7 +645,6 @@ mRemotePrintJob
 >
 ProcessPage
 (
-mCurrentPageSizeInPoints
 std
 :
 :

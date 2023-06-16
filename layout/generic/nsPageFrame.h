@@ -229,15 +229,6 @@ aContentPageSize
 )
 const
 ;
-double
-GetPageOrientationRotation
-(
-nsSharedPageData
-*
-aPD
-)
-const
-;
 nsIFrame
 *
 FirstContinuation

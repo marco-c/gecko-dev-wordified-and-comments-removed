@@ -117,10 +117,6 @@ virtual
 nsresult
 BeginPage
 (
-const
-IntSize
-&
-aSizeInPoints
 )
 {
 #

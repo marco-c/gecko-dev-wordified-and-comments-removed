@@ -57,16 +57,6 @@ aSizeInPoints
 )
 ;
 nsresult
-BeginPage
-(
-const
-IntSize
-&
-aSizeInPoints
-)
-override
-;
-nsresult
 EndPage
 (
 )
