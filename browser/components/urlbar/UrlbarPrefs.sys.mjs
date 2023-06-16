@@ -3795,6 +3795,11 @@ addonsKeywordsMinimumLength
 addonsKeywordsMinimumLengthCap
 :
 0
+addonsUITreatment
+:
+"
+a
+"
 experimentType
 :
 "
