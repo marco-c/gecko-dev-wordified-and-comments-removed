@@ -598,6 +598,9 @@ canvasType
 '
 OffscreenCanvas
 '
+'
+Worker
+'
 ]
 code
 :

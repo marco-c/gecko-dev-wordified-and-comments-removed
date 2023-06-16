@@ -2897,6 +2897,9 @@ canvasType
 '
 OffscreenCanvas
 '
+'
+Worker
+'
 ]
 code
 :
@@ -3021,6 +3024,9 @@ canvasType
 [
 '
 OffscreenCanvas
+'
+'
+Worker
 '
 ]
 code
@@ -3577,6 +3583,9 @@ canvasType
 [
 '
 OffscreenCanvas
+'
+'
+Worker
 '
 ]
 code
@@ -4499,6 +4508,9 @@ canvasType
 '
 OffscreenCanvas
 '
+'
+Worker
+'
 ]
 code
 :
@@ -5030,6 +5042,9 @@ canvasType
 [
 '
 OffscreenCanvas
+'
+'
+Worker
 '
 ]
 code

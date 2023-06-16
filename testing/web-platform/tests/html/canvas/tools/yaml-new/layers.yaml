@@ -2473,6 +2473,9 @@ canvasType
 '
 OffscreenCanvas
 '
+'
+Worker
+'
 ]
 flush_canvas
 :
@@ -2704,6 +2707,9 @@ canvasType
 [
 '
 OffscreenCanvas
+'
+'
+Worker
 '
 ]
 code
