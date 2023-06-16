@@ -5617,7 +5617,7 @@ false
 nsCSSUnit
 cssUnit
 =
-SVGGeometryProperty
+SVGLength
 :
 :
 SpecifiedUnitTypeToCSSUnit
