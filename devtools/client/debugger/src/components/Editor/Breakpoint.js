@@ -525,8 +525,6 @@ continueToHere
 (
 cx
 selectedLocation
-.
-line
 )
 ;
 return
