@@ -321,11 +321,6 @@ new
 FormAutoCompleteResult
 (
 searchString
-Ci
-.
-nsIAutoCompleteResult
-.
-RESULT_SUCCESS
 0
 "
 "
