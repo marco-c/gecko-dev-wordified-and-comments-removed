@@ -928,10 +928,6 @@ undefined
 sourceActor
 :
 null
-sourceUrl
-:
-"
-"
 }
 )
 ;
