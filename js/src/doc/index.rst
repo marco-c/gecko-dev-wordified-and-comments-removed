@@ -159,6 +159,7 @@ maxdepth
 1
 build
 test
+hacking_tips
 Debugger
 /
 index
