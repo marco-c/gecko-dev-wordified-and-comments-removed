@@ -911,7 +911,7 @@ FileSystemMoveEntryResponse
 {
 nsresult
 ;
-void_t
+EntryId
 ;
 }
 ;

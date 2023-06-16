@@ -300,7 +300,7 @@ aHandle
 virtual
 Result
 <
-bool
+EntryId
 QMResult
 >
 RenameEntry
@@ -320,7 +320,7 @@ aNewName
 virtual
 Result
 <
-bool
+EntryId
 QMResult
 >
 MoveEntry

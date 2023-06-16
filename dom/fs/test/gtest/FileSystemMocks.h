@@ -506,9 +506,9 @@ aManager
 FileSystemHandle
 *
 aHandle
-const
 FileSystemEntryMetadata
-&
+*
+const
 aEntry
 const
 FileSystemChildMetadata
@@ -542,9 +542,9 @@ aManager
 FileSystemHandle
 *
 aHandle
-const
 FileSystemEntryMetadata
-&
+*
+const
 aEntry
 const
 Name
