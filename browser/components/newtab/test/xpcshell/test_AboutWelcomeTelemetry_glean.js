@@ -268,6 +268,11 @@ invalidNestedDataKey
 .
 testGetValue
 (
+"
+messaging
+-
+system
+"
 )
 1
 "
