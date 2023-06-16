@@ -553,10 +553,10 @@ desktop_capturer
 .
 cc
 index
-128e86bda8
+4baa93cab9
 .
 .
-3b9044f85b
+7df6becb4e
 100644
 -
 -
@@ -649,10 +649,10 @@ LogDesktopCapturerFullscreenDetectorUsage
 )
 {
 -
-83
+84
 6
 +
-87
+88
 30
 std
 :

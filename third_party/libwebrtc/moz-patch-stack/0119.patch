@@ -162,10 +162,10 @@ desktop_capturer
 .
 cc
 index
-401cf4790c
+1af19a1fd2
 .
 .
-9e2a183c91
+7f601821fc
 100644
 -
 -
@@ -192,10 +192,10 @@ desktop_capturer
 .
 cc
 -
-127
+128
 17
 +
-127
+128
 6
 std
 :
