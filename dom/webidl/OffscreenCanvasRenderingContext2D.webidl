@@ -185,6 +185,10 @@ CanvasShadowStyles
 ;
 OffscreenCanvasRenderingContext2D
 includes
+CanvasFilters
+;
+OffscreenCanvasRenderingContext2D
+includes
 CanvasRect
 ;
 OffscreenCanvasRenderingContext2D
