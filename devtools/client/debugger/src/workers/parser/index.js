@@ -178,14 +178,14 @@ mapExpression
 "
 )
 ;
-clear
+clearSources
 =
 this
 .
 task
 (
 "
-clearState
+clearSources
 "
 )
 ;
