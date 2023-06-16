@@ -41,7 +41,7 @@ requires
 Rust
 1
 .
-45
+56
 or
 later
 .

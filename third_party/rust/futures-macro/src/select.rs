@@ -295,10 +295,12 @@ else
 let
 pat
 =
-input
-.
-parse
+Pat
+:
+:
+parse_multi_with_leading_vert
 (
+input
 )
 ?
 ;
