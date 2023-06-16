@@ -49,10 +49,6 @@ trr_test_setup
 (
 )
 ;
-runningODoHTests
-=
-false
-;
 SetParentalControlEnabled
 (
 false
