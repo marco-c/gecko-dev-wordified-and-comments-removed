@@ -251,6 +251,13 @@ mp4parse_capi
 -
 toolkit
 /
+crashreporter
+/
+mozannotation_client
+/
+-
+toolkit
+/
 components
 /
 kvstore

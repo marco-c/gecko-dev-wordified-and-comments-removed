@@ -328,6 +328,9 @@ DIRS
 "
 client
 "
+"
+mozannotation_client
+"
 ]
 if
 CONFIG
