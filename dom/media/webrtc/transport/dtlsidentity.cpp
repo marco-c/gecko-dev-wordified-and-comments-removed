@@ -1154,7 +1154,7 @@ nullptr
 ;
 }
 UniqueCERTCertificate
-certificate
+tbsCertificate
 (
 CERT_CreateCertificate
 (
@@ -1180,7 +1180,7 @@ get
 if
 (
 !
-certificate
+tbsCertificate
 )
 {
 return
@@ -1191,7 +1191,7 @@ PLArenaPool
 *
 arena
 =
-certificate
+tbsCertificate
 -
 >
 arena
@@ -1202,7 +1202,7 @@ SECOID_SetAlgorithmID
 (
 arena
 &
-certificate
+tbsCertificate
 -
 >
 signature
@@ -1222,7 +1222,7 @@ nullptr
 ;
 *
 (
-certificate
+tbsCertificate
 -
 >
 version
@@ -1232,7 +1232,7 @@ data
 =
 SEC_CERTIFICATE_VERSION_3
 ;
-certificate
+tbsCertificate
 -
 >
 version
@@ -1264,7 +1264,7 @@ SEC_ASN1EncodeItem
 arena
 &
 innerDER
-certificate
+tbsCertificate
 .
 get
 (
@@ -1282,7 +1282,7 @@ nullptr
 }
 SECItem
 *
-signedCert
+certDer
 =
 PORT_ArenaZNew
 (
@@ -1293,7 +1293,7 @@ SECItem
 if
 (
 !
-signedCert
+certDer
 )
 {
 return
@@ -1305,7 +1305,7 @@ rv
 SEC_DerSignData
 (
 arena
-signedCert
+certDer
 innerDER
 .
 data
@@ -1332,13 +1332,20 @@ return
 nullptr
 ;
 }
+UniqueCERTCertificate
 certificate
--
->
-derCert
-=
-*
-signedCert
+(
+CERT_NewTempCertificate
+(
+CERT_GetDefaultCertDB
+(
+)
+certDer
+nullptr
+false
+true
+)
+)
 ;
 return
 new
