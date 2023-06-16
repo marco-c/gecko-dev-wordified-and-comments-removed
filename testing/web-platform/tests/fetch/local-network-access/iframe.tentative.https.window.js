@@ -44,7 +44,7 @@ HTTPS_LOCAL
 }
 expected
 :
-FrameTestResult
+IframeTestResult
 .
 SUCCESS
 }
@@ -90,7 +90,7 @@ HTTPS_PRIVATE
 }
 expected
 :
-FrameTestResult
+IframeTestResult
 .
 SUCCESS
 }
@@ -136,7 +136,7 @@ HTTPS_PUBLIC
 }
 expected
 :
-FrameTestResult
+IframeTestResult
 .
 SUCCESS
 }
@@ -219,7 +219,7 @@ failure
 }
 expected
 :
-FrameTestResult
+IframeTestResult
 .
 FAILURE
 }
@@ -266,7 +266,7 @@ token
 }
 expected
 :
-FrameTestResult
+IframeTestResult
 .
 FAILURE
 }
@@ -314,7 +314,7 @@ token
 }
 expected
 :
-FrameTestResult
+IframeTestResult
 .
 FAILURE
 }
@@ -362,7 +362,7 @@ token
 }
 expected
 :
-FrameTestResult
+IframeTestResult
 .
 SUCCESS
 }
@@ -431,7 +431,7 @@ HTTPS_PRIVATE
 }
 expected
 :
-FrameTestResult
+IframeTestResult
 .
 SUCCESS
 }
@@ -477,7 +477,7 @@ HTTPS_PUBLIC
 }
 expected
 :
-FrameTestResult
+IframeTestResult
 .
 SUCCESS
 }
@@ -575,7 +575,7 @@ HTTPS_PUBLIC
 }
 expected
 :
-FrameTestResult
+IframeTestResult
 .
 SUCCESS
 }
@@ -659,7 +659,7 @@ HTTPS_LOCAL
 }
 expected
 :
-FrameTestResult
+IframeTestResult
 .
 SUCCESS
 }
@@ -754,7 +754,7 @@ HTTPS_PUBLIC
 }
 expected
 :
-FrameTestResult
+IframeTestResult
 .
 SUCCESS
 }
@@ -823,7 +823,7 @@ token
 }
 expected
 :
-FrameTestResult
+IframeTestResult
 .
 SUCCESS
 }
@@ -886,7 +886,7 @@ OTHER_HTTPS_LOCAL
 }
 expected
 :
-FrameTestResult
+IframeTestResult
 .
 SUCCESS
 }
@@ -939,7 +939,7 @@ HTTPS_LOCAL
 }
 expected
 :
-FrameTestResult
+IframeTestResult
 .
 SUCCESS
 }
@@ -1010,7 +1010,7 @@ failure
 }
 expected
 :
-FrameTestResult
+IframeTestResult
 .
 FAILURE
 }
@@ -1084,7 +1084,7 @@ token
 }
 expected
 :
-FrameTestResult
+IframeTestResult
 .
 SUCCESS
 }
