@@ -430,6 +430,16 @@ height_
 )
 )
 ;
+struct
+spa_fraction
+default_frame_rate
+=
+SPA_FRACTION
+(
+60
+1
+)
+;
 params
 .
 push_back
@@ -443,6 +453,8 @@ SPA_VIDEO_FORMAT_BGRx
 }
 &
 resolution
+&
+default_frame_rate
 )
 )
 ;

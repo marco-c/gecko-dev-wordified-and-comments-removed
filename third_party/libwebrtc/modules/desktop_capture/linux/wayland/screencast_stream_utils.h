@@ -39,6 +39,9 @@ spa_pod_builder
 struct
 spa_rectangle
 ;
+struct
+spa_fraction
+;
 namespace
 webrtc
 {
@@ -121,6 +124,11 @@ struct
 spa_rectangle
 *
 resolution
+const
+struct
+spa_fraction
+*
+frame_rate
 )
 ;
 }
