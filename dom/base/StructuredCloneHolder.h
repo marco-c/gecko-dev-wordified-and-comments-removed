@@ -1239,6 +1239,8 @@ JSStructuredCloneReader
 aReader
 uint32_t
 aTag
+bool
+aIsForIndexedDB
 )
 ;
 static
