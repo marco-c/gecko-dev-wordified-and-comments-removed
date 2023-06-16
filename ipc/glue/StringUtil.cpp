@@ -66,7 +66,7 @@ typename
 ToType
 >
 ToType
-GhettoStringConvert
+HackyStringConvert
 (
 const
 FromType
@@ -218,7 +218,7 @@ wide
 )
 {
 return
-GhettoStringConvert
+HackyStringConvert
 <
 std
 :
@@ -263,7 +263,7 @@ utf8
 )
 {
 return
-GhettoStringConvert
+HackyStringConvert
 <
 StringPiece
 std
