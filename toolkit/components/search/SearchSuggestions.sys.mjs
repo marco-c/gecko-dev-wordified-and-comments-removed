@@ -70,7 +70,7 @@ gre
 /
 modules
 /
-nsFormAutoCompleteResult
+FormAutoCompleteResult
 .
 sys
 .

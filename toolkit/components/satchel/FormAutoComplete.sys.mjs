@@ -174,7 +174,7 @@ gre
 /
 modules
 /
-nsFormAutoCompleteResult
+FormAutoCompleteResult
 .
 sys
 .
@@ -2374,7 +2374,7 @@ FormAutoCompleteResult
 as
 defined
 in
-nsFormAutoCompleteResult
+FormAutoCompleteResult
 .
 jsm
 with
