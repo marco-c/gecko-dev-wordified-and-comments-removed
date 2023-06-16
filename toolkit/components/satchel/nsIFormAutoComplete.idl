@@ -127,8 +127,8 @@ in
 nsIAutoCompleteResult
 aPreviousResult
 in
-nsIAutoCompleteResult
-aDatalistResult
+bool
+aAddDatalist
 in
 nsIFormAutoCompleteObserver
 aListener
