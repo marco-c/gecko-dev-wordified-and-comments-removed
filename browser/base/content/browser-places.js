@@ -4650,8 +4650,10 @@ id
 "
 PersonalToolbar
 "
-&
-&
+)
+{
+if
+(
 !
 toolbar
 .
@@ -4675,6 +4677,7 @@ true
 "
 )
 ;
+}
 BookmarkingUI
 .
 updateEmptyToolbarMessage
