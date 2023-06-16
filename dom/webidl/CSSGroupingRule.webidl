@@ -147,6 +147,7 @@ SameObject
 readonly
 attribute
 CSSRuleList
+?
 cssRules
 ;
 [

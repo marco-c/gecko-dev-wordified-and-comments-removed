@@ -11,7 +11,7 @@ mozilla
 /
 css
 /
-GroupRule
+Rule
 .
 h
 "
@@ -212,7 +212,7 @@ public
 css
 :
 :
-GroupRule
+Rule
 public
 SupportsWeakPtr
 {
@@ -247,7 +247,7 @@ CSSStyleRule
 css
 :
 :
-GroupRule
+Rule
 )
 bool
 IsCCLeaf
@@ -374,15 +374,6 @@ RefPtr
 StyleLockedStyleRule
 >
 )
-;
-already_AddRefed
-<
-StyleLockedCssRules
->
-GetOrCreateRawRules
-(
-)
-final
 ;
 size_t
 SizeOfIncludingThis

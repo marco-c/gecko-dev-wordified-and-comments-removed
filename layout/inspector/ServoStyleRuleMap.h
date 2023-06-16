@@ -213,9 +213,7 @@ StyleSheet
 &
 )
 ;
-using
-Hashtable
-=
+typedef
 nsTHashMap
 <
 nsPtrHashKey
@@ -231,6 +229,7 @@ dom
 CSSStyleRule
 >
 >
+Hashtable
 ;
 Hashtable
 mTable

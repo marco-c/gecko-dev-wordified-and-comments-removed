@@ -37,8 +37,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 class
@@ -141,15 +141,6 @@ StyleDocumentRule
 >
 )
 ;
-already_AddRefed
-<
-StyleLockedCssRules
->
-GetOrCreateRawRules
-(
-)
-final
-;
 StyleCssRuleType
 Type
 (
@@ -220,6 +211,7 @@ mRawRule
 ;
 }
 ;
+}
 }
 #
 endif
