@@ -627,13 +627,6 @@ aIFrame
 )
 ;
 void
-SendIsUnderHiddenEmbedderElement
-(
-bool
-aIsUnderHiddenEmbedderElement
-)
-;
-void
 PropagateIsUnderHiddenEmbedderElement
 (
 bool

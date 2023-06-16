@@ -2538,13 +2538,6 @@ aRemoteDocumentRect
 )
 ;
 async
-SetIsUnderHiddenEmbedderElement
-(
-bool
-aIsUnderHiddenEmbedderElement
-)
-;
-async
 UpdateRemoteStyle
 (
 StyleImageRendering

@@ -1725,6 +1725,15 @@ GetForceDesktopViewport
 ;
 txn
 .
+SetIsUnderHiddenEmbedderElement
+(
+GetIsUnderHiddenEmbedderElement
+(
+)
+)
+;
+txn
+.
 SetDefaultLoadFlags
 (
 GetDefaultLoadFlags
