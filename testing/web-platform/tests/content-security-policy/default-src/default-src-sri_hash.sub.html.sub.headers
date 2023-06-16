@@ -49,7 +49,7 @@ Security
 -
 Policy
 :
-script
+default
 -
 src
 {
@@ -95,4 +95,13 @@ UZNObWtEiWGok
 vDN8BMoEQi41s0znSes6E1Q2aag3Lw3u2J1w2rqH7uF2ws6FpQhfSOA
 =
 =
+'
+;
+style
+-
+src
+'
+unsafe
+-
+inline
 '
