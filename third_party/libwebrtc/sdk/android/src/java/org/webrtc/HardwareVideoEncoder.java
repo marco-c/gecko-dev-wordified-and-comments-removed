@@ -2217,12 +2217,6 @@ getScalingSettings
 (
 )
 {
-encodeThreadChecker
-.
-checkIsOnValidThread
-(
-)
-;
 if
 (
 automaticResizeOn
