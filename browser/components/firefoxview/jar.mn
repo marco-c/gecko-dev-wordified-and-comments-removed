@@ -143,6 +143,17 @@ browser
 /
 firefoxview
 /
+view
+-
+opentabs
+.
+css
+content
+/
+browser
+/
+firefoxview
+/
 overview
 .
 mjs
