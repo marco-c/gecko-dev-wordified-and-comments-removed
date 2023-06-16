@@ -2573,9 +2573,6 @@ MozPaintStatusReset
 contextmenu
 :
 {
-capture
-:
-true
 }
 }
 }

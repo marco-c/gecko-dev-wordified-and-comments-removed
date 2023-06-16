@@ -253,6 +253,16 @@ contextmenu
 "
 :
 {
+if
+(
+aEvent
+.
+defaultPrevented
+)
+{
+return
+;
+}
 function
 nearestParentAttribute
 (
