@@ -588,11 +588,8 @@ MessagePortIdentifierRunnable
 WorkerPrivate
 *
 aWorkerPrivate
-RefPtr
-<
 RemoteWorkerChild
->
-&
+*
 aActor
 const
 MessagePortIdentifier
@@ -606,13 +603,7 @@ aWorkerPrivate
 )
 mActor
 (
-std
-:
-:
-move
-(
 aActor
-)
 )
 mPortIdentifier
 (
