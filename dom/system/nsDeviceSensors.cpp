@@ -3249,10 +3249,6 @@ window
 >
 ShouldResistFingerprinting
 (
-RFPTarget
-:
-:
-Unknown
 )
 ;
 }
