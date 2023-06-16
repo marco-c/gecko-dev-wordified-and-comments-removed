@@ -224,6 +224,10 @@ const
 int
 block_size_log2_
 ;
+const
+bool
+penalize_high_delays_initial_phase_
+;
 std
 :
 :
@@ -250,6 +254,11 @@ histogram_data_index_
 ;
 int
 pre_echo_candidate_
+=
+0
+;
+int
+number_updates_
 =
 0
 ;
