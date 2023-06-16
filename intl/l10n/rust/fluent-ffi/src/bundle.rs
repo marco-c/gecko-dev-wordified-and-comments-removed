@@ -1817,7 +1817,8 @@ mut
 FluentBundleRc
 r
 :
-&
+*
+const
 FluentResource
 allow_overrides
 :
