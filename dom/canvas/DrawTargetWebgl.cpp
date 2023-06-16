@@ -19018,6 +19018,11 @@ vertexBytes
 true
 )
 ;
+mPathVertexOffset
++
+=
+vertexBytes
+;
 if
 (
 wgrVB
@@ -19170,11 +19175,6 @@ vertexRange
 )
 ;
 }
-mPathVertexOffset
-+
-=
-vertexBytes
-;
 mCurrentTarget
 -
 >
