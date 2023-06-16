@@ -3161,7 +3161,7 @@ shared_frame_id_
 +
 ;
 size_t
-stream_index
+simulcast_index
 =
 0
 ;
@@ -3199,11 +3199,11 @@ kVideoCodecGeneric
 )
 )
 {
-stream_index
+simulcast_index
 =
 encoded_image
 .
-SpatialIndex
+SimulcastIndex
 (
 )
 .
@@ -3215,7 +3215,7 @@ value_or
 }
 RTC_DCHECK_LT
 (
-stream_index
+simulcast_index
 rtp_streams_
 .
 size
@@ -3234,7 +3234,7 @@ Timestamp
 +
 rtp_streams_
 [
-stream_index
+simulcast_index
 ]
 .
 rtp_rtcp
@@ -3249,7 +3249,7 @@ if
 !
 rtp_streams_
 [
-stream_index
+simulcast_index
 ]
 .
 rtp_rtcp
@@ -3312,7 +3312,7 @@ expected_retransmission_time_ms
 =
 rtp_streams_
 [
-stream_index
+simulcast_index
 ]
 .
 rtp_rtcp
@@ -3339,7 +3339,7 @@ sender_video
 *
 rtp_streams_
 [
-stream_index
+simulcast_index
 ]
 .
 sender_video
@@ -3382,7 +3382,7 @@ structure
 =
 params_
 [
-stream_index
+simulcast_index
 ]
 .
 GenericStructure
@@ -3417,7 +3417,7 @@ send_result
 =
 rtp_streams_
 [
-stream_index
+simulcast_index
 ]
 .
 sender_video
@@ -3433,7 +3433,7 @@ rtp_timestamp
 encoded_image
 params_
 [
-stream_index
+simulcast_index
 ]
 .
 GetRtpVideoHeader
@@ -3456,7 +3456,7 @@ counts
 =
 frame_counts_
 [
-stream_index
+simulcast_index
 ]
 ;
 if
@@ -3526,7 +3526,7 @@ rtp_config_
 .
 ssrcs
 [
-stream_index
+simulcast_index
 ]
 )
 ;

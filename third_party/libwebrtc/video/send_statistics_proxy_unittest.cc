@@ -2857,7 +2857,7 @@ scalability_mode
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 0
 )
@@ -2919,7 +2919,7 @@ scalability_mode
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 1
 )
@@ -3425,7 +3425,7 @@ kInterframeDelayMs
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 0
 )
@@ -3442,7 +3442,7 @@ codec_info
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 1
 )
@@ -3580,7 +3580,7 @@ kInterframeDelayMs
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 0
 )
@@ -3714,7 +3714,7 @@ kInterframeDelayMs
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 0
 )
@@ -3731,7 +3731,7 @@ codec_info
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 1
 )
@@ -11949,7 +11949,7 @@ i
 {
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 0
 )
@@ -11972,7 +11972,7 @@ codec_info
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 1
 )
@@ -12185,7 +12185,7 @@ i
 {
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 0
 )
@@ -12262,7 +12262,7 @@ kQpIdx0
 TEST_F
 (
 SendStatisticsProxyTest
-VerifyQpHistogramStats_Vp9
+VerifyQpHistogramStats_Vp9Svc
 )
 {
 EncodedImage
@@ -12660,7 +12660,7 @@ i
 {
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 0
 )
@@ -12683,7 +12683,7 @@ codec_info
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 1
 )
@@ -13526,7 +13526,7 @@ encoded_image
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 0
 )
@@ -13622,7 +13622,7 @@ encoded_image
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 0
 )
@@ -13768,7 +13768,7 @@ encoded_image
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 0
 )
@@ -14471,7 +14471,7 @@ kEncodedHeight
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 0
 )
@@ -14497,7 +14497,7 @@ codec_info
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 1
 )
@@ -14855,7 +14855,7 @@ kEncodedHeight
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 0
 )
@@ -14881,7 +14881,7 @@ codec_info
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 1
 )
@@ -18410,7 +18410,7 @@ kHeight
 ;
 encoded_image_
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 0
 )
@@ -18963,7 +18963,7 @@ StatsNotUpdatedForSimulcast
 {
 encoded_image_
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 1
 )

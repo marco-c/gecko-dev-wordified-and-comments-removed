@@ -6839,7 +6839,7 @@ encoded_images_
 encoder_idx
 ]
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 stream_idx
 )

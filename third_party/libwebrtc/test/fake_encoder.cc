@@ -775,7 +775,7 @@ qp
 ;
 encoded
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 i
 )

@@ -2278,7 +2278,7 @@ last_encoded_image_simulcast_index_
 =
 encoded_image
 .
-SpatialIndex
+SimulcastIndex
 (
 )
 .

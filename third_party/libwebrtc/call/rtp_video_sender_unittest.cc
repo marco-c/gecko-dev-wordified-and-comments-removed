@@ -1570,7 +1570,7 @@ encoded_image_1
 ;
 encoded_image_2
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 1
 )
@@ -1722,7 +1722,7 @@ encoded_image_1
 ;
 encoded_image_2
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 1
 )
@@ -1870,7 +1870,7 @@ error
 TEST
 (
 RtpVideoSenderTest
-DiscardsHigherSpatialVideoFramesAfterLayerDisabledInVideoLayersAllocation
+DiscardsHigherSimulcastFramesAfterLayerDisabledInVideoLayersAllocation
 )
 {
 constexpr
@@ -1929,7 +1929,7 @@ encoded_image_1
 ;
 encoded_image_2
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 1
 )
@@ -3883,7 +3883,7 @@ kPayload
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 0
 )
@@ -4036,7 +4036,7 @@ frame2_transport_sequence_number
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 1
 )

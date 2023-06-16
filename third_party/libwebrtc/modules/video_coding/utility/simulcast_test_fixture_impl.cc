@@ -450,7 +450,7 @@ if
 (
 encoded_image
 .
-SpatialIndex
+SimulcastIndex
 (
 )
 .
@@ -543,7 +543,7 @@ layer_sync_
 [
 encoded_image
 .
-SpatialIndex
+SimulcastIndex
 (
 )
 .
@@ -566,7 +566,7 @@ temporal_layer_
 [
 encoded_image
 .
-SpatialIndex
+SimulcastIndex
 (
 )
 .
@@ -596,7 +596,7 @@ layer_sync_
 [
 encoded_image
 .
-SpatialIndex
+SimulcastIndex
 (
 )
 .
@@ -619,7 +619,7 @@ temporal_layer_
 [
 encoded_image
 .
-SpatialIndex
+SimulcastIndex
 (
 )
 .
@@ -6257,7 +6257,7 @@ index
 =
 encoded_image
 .
-SpatialIndex
+SimulcastIndex
 (
 )
 .

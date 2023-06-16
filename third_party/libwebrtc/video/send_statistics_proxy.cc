@@ -5847,7 +5847,7 @@ kVideoCodecGeneric
 ?
 encoded_image
 .
-SpatialIndex
+SimulcastIndex
 (
 )
 .
@@ -6291,7 +6291,7 @@ kVideoCodecVP9
 )
 {
 int
-spatial_idx
+stream_idx
 =
 encoded_image
 .
@@ -6301,8 +6301,17 @@ SpatialIndex
 .
 value_or
 (
+encoded_image
+.
+SimulcastIndex
+(
+)
+.
+value_or
+(
 -
 1
+)
 )
 ;
 uma_container_
@@ -6310,7 +6319,7 @@ uma_container_
 >
 qp_counters_
 [
-spatial_idx
+stream_idx
 ]
 .
 vp9

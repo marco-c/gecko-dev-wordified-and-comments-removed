@@ -3371,7 +3371,7 @@ encoded_images_
 i
 ]
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 configurations_
 [

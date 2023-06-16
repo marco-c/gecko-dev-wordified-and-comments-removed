@@ -399,7 +399,7 @@ SCREENSHARE
 ;
 encoded_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 1
 )

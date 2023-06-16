@@ -3518,7 +3518,7 @@ codecSpecificInfo
 ;
 stream_image
 .
-SetSpatialIndex
+SetSimulcastIndex
 (
 stream_idx
 )
