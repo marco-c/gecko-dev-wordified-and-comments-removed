@@ -436,6 +436,12 @@ esr102
 "
             
 "
+mozilla
+-
+esr115
+"
+            
+"
 comm
 -
 beta
@@ -654,6 +660,12 @@ release
 mozilla
 -
 esr102
+"
+            
+"
+mozilla
+-
+esr115
 "
             
 "
@@ -1114,6 +1126,24 @@ esr102
 }
     
 ]
+    
+[
+        
+"
+esr115
+"
+        
+{
+            
+"
+mozilla
+-
+esr115
+"
+        
+}
+    
+]
 ]
 "
 "
@@ -1185,6 +1215,18 @@ release
     
 "
 esr102
+"
+:
+"
+balrog
+:
+server
+:
+esr
+"
+    
+"
+esr115
 "
 :
 "

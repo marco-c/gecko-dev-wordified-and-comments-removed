@@ -840,6 +840,10 @@ mozilla
 -
 esr102
 -
+mozilla
+-
+esr115
+-
 elm
 #
 For
@@ -1298,6 +1302,10 @@ release
 mozilla
 -
 esr102
+-
+mozilla
+-
+esr115
 when
 :
 by
@@ -1396,6 +1404,12 @@ minute
 :
 0
 }
+mozilla
+-
+esr115
+:
+[
+]
 -
 name
 :
@@ -1443,6 +1457,10 @@ release
 mozilla
 -
 esr102
+-
+mozilla
+-
+esr115
 when
 :
 -

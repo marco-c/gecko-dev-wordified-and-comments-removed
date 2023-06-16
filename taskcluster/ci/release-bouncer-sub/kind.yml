@@ -359,7 +359,9 @@ pkg
 langpack
 '
 ]
-esr102
+esr
+.
+*
 :
 [
 '
