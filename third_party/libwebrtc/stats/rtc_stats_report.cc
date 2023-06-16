@@ -303,7 +303,13 @@ RTCStatsReport
 new
 RTCStatsReport
 (
+Timestamp
+:
+:
+Micros
+(
 timestamp_us
+)
 )
 )
 ;
