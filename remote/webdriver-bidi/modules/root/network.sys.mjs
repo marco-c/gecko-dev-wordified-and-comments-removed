@@ -303,7 +303,7 @@ property
 {
 number
 }
-originTime
+timeOrigin
 *
 property
 {

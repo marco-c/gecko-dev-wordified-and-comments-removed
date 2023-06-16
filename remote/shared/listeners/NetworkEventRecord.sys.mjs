@@ -1856,7 +1856,7 @@ API
 s
 /
 /
-originTime
+timeOrigin
 for
 the
 global
@@ -1884,13 +1884,13 @@ use
 0
 .
 const
-originTime
+timeOrigin
 =
 0
 ;
 return
 {
-originTime
+timeOrigin
 requestTime
 :
 this
@@ -1899,7 +1899,7 @@ this
 convertTimestamp
 (
 channelCreationTime
-originTime
+timeOrigin
 )
 redirectStart
 :
@@ -1909,7 +1909,7 @@ this
 convertTimestamp
 (
 redirectStartTime
-originTime
+timeOrigin
 )
 redirectEnd
 :
@@ -1919,7 +1919,7 @@ this
 convertTimestamp
 (
 redirectEndTime
-originTime
+timeOrigin
 )
 fetchStart
 :
@@ -1929,7 +1929,7 @@ this
 convertTimestamp
 (
 fetchStartTime
-originTime
+timeOrigin
 )
 dnsStart
 :
@@ -1939,7 +1939,7 @@ this
 convertTimestamp
 (
 domainLookupStartTime
-originTime
+timeOrigin
 )
 dnsEnd
 :
@@ -1949,7 +1949,7 @@ this
 convertTimestamp
 (
 domainLookupEndTime
-originTime
+timeOrigin
 )
 connectStart
 :
@@ -1959,7 +1959,7 @@ this
 convertTimestamp
 (
 connectStartTime
-originTime
+timeOrigin
 )
 connectEnd
 :
@@ -1969,7 +1969,7 @@ this
 convertTimestamp
 (
 connectEndTime
-originTime
+timeOrigin
 )
 tlsStart
 :
@@ -1979,7 +1979,7 @@ this
 convertTimestamp
 (
 secureConnectionStartTime
-originTime
+timeOrigin
 )
 tlsEnd
 :
@@ -1989,7 +1989,7 @@ this
 convertTimestamp
 (
 connectEndTime
-originTime
+timeOrigin
 )
 requestStart
 :
@@ -1999,7 +1999,7 @@ this
 convertTimestamp
 (
 requestStartTime
-originTime
+timeOrigin
 )
 responseStart
 :
@@ -2009,7 +2009,7 @@ this
 convertTimestamp
 (
 responseStartTime
-originTime
+timeOrigin
 )
 responseEnd
 :
@@ -2019,7 +2019,7 @@ this
 convertTimestamp
 (
 responseEndTime
-originTime
+timeOrigin
 )
 }
 ;
