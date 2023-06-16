@@ -494,8 +494,6 @@ logins
 wrappedJSObject
 .
 _storage
-.
-wrappedJSObject
 ;
 const
 dismissedBreachAlertsByLoginGUID
@@ -890,8 +888,6 @@ logins
 wrappedJSObject
 .
 _storage
-.
-wrappedJSObject
 ;
 for
 (
@@ -949,8 +945,6 @@ logins
 wrappedJSObject
 .
 _storage
-.
-wrappedJSObject
 ;
 storageJSON
 .
