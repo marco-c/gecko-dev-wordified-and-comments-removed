@@ -14,6 +14,14 @@ deny
 trivial_bounds
 )
 ]
+#
+!
+[
+allow
+(
+dead_code
+)
+]
 use
 std
 :

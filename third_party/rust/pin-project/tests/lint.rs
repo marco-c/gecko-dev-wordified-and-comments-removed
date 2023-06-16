@@ -34,6 +34,7 @@ warn
 box_pointers
 deprecated_in_future
 fuzzy_provenance_casts
+let_underscore_drop
 lossy_provenance_casts
 macro_use_extern_crate
 meta_variable_misuse

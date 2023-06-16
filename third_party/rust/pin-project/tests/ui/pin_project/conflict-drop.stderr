@@ -7,9 +7,6 @@ conflicting
 implementations
 of
 trait
-_
-:
-:
 FooMustNotImplDrop
 for
 type
@@ -122,12 +119,6 @@ conflicting
 implementations
 of
 trait
-std
-:
-:
-ops
-:
-:
 Drop
 for
 type

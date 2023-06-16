@@ -1,7 +1,7 @@
 error
 :
 unexpected
-token
+argument
 :
 foo
 -
@@ -35,7 +35,7 @@ foo
 ~
 ERROR
 unexpected
-token
+argument
 |
 ^
 ^

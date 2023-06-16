@@ -4,6 +4,7 @@
 allow
 (
 private_in_public
+dead_code
 )
 ]
 pub

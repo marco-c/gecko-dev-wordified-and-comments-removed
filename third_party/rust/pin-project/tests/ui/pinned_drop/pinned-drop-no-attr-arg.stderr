@@ -7,15 +7,6 @@ conflicting
 implementations
 of
 trait
-_
-:
-:
-_pin_project
-:
-:
-__private
-:
-:
 PinnedDrop
 for
 type

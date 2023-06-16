@@ -109,7 +109,7 @@ version
 "
 1
 .
-37
+56
 "
 name
 =
@@ -123,9 +123,9 @@ version
 "
 1
 .
-0
+1
 .
-12
+0
 "
 exclude
 =
@@ -249,6 +249,16 @@ gnu
 "
 ]
 [
+lib
+]
+doc
+-
+scrape
+-
+examples
+=
+false
+[
 dependencies
 .
 pin
@@ -263,9 +273,9 @@ version
 =
 1
 .
-0
+1
 .
-12
+0
 "
 [
 dev
@@ -321,5 +331,5 @@ version
 .
 0
 .
-49
+67
 "

@@ -73,10 +73,6 @@ clippy
 :
 :
 too_many_lines
-clippy
-:
-:
-unnested_or_patterns
 )
 ]
 #

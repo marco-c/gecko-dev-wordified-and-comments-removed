@@ -71,6 +71,10 @@ std_instead_of_core
 clippy
 :
 :
+as_ptr_cast_mut
+clippy
+:
+:
 default_union_representation
 clippy
 :

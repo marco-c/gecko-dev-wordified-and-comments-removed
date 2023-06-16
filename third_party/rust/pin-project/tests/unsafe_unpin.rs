@@ -259,7 +259,7 @@ UnsafeUnpin
 ]
 pub
 struct
-NotImplementUnsafUnpin
+NotImplementUnsafeUnpin
 {
 #
 [
@@ -272,7 +272,7 @@ PhantomPinned
 assert_not_unpin
 !
 (
-NotImplementUnsafUnpin
+NotImplementUnsafeUnpin
 )
 ;
 }

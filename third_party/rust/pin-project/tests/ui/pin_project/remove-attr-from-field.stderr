@@ -77,8 +77,12 @@ E0308
 ^
 ^
 expected
-struct
 Pin
+<
+&
+mut
+PhantomPinned
+>
 found
 &
 mut
@@ -187,8 +191,12 @@ E0308
 ^
 ^
 expected
-struct
 Pin
+<
+&
+mut
+PhantomPinned
+>
 found
 &
 mut

@@ -4073,6 +4073,16 @@ Send
 }
 #
 [
+allow
+(
+clippy
+:
+:
+trailing_empty_array
+)
+]
+#
+[
 test
 ]
 fn

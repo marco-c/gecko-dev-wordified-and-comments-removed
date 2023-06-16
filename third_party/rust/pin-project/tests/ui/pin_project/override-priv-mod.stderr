@@ -7,9 +7,6 @@ conflicting
 implementations
 of
 trait
-_
-:
-:
 SMustNotImplDrop
 for
 type

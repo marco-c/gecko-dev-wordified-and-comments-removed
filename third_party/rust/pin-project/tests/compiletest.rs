@@ -12,6 +12,17 @@ miri
 #
 !
 [
+cfg
+(
+not
+(
+careful
+)
+)
+]
+#
+!
+[
 warn
 (
 rust_2018_idioms

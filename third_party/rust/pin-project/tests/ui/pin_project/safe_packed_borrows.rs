@@ -15,14 +15,6 @@ safe_packed_borrows
 )
 ]
 #
-!
-[
-allow
-(
-unaligned_references
-)
-]
-#
 [
 repr
 (

@@ -1,12 +1,4 @@
 #
-!
-[
-forbid
-(
-unaligned_references
-)
-]
-#
 [
 repr
 (
