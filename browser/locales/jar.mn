@@ -179,6 +179,9 @@ firefoxSuggest
 .
 ftl
 )
+#
+ifdef
+NIGHTLY_BUILD
 preview
 /
 shopping
@@ -198,6 +201,8 @@ shopping
 .
 ftl
 )
+#
+endif
 preview
 /
 stripOnShare
