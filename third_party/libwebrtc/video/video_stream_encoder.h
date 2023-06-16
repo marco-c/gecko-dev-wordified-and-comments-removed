@@ -1938,6 +1938,16 @@ int
 >
 vp9_low_tier_core_threshold_
 ;
+const
+absl
+:
+:
+optional
+<
+int
+>
+experimental_encoder_thread_limit_
+;
 absl
 :
 :
