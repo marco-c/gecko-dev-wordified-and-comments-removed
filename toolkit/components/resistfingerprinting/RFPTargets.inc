@@ -192,6 +192,14 @@ Gamepad
 )
 ITEM_VALUE
 (
+HttpUserAgent
+1u
+<
+<
+24
+)
+ITEM_VALUE
+(
 IsAlwaysEnabledForPrecompute
 0
 )

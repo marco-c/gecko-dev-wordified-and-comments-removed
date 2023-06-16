@@ -2152,6 +2152,10 @@ nsContentUtils
 ShouldResistFingerprinting
 (
 aChannel
+RFPTarget
+:
+:
+IsAlwaysEnabledForPrecompute
 )
 ;
 if

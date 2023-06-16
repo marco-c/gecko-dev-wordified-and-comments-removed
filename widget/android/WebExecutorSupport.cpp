@@ -2070,6 +2070,10 @@ nsContentUtils
 ShouldResistFingerprinting
 (
 channel
+RFPTarget
+:
+:
+IsAlwaysEnabledForPrecompute
 )
 ;
 nsCOMPtr
