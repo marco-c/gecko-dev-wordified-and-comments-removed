@@ -249,6 +249,12 @@ RunCancelDialogSteps
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+void
+FocusDialog
+(
+)
+;
 nsString
 mReturnValue
 ;
@@ -257,12 +263,6 @@ protected
 virtual
 ~
 HTMLDialogElement
-(
-)
-;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-void
-FocusDialog
 (
 )
 ;
