@@ -13,7 +13,7 @@ Parser
 ]
 #
 [
-clap
+command
 (
 name
 =
@@ -24,7 +24,7 @@ MyApp
 ]
 #
 [
-clap
+command
 (
 author
 =
@@ -43,7 +43,7 @@ com
 ]
 #
 [
-clap
+command
 (
 version
 =
@@ -56,7 +56,7 @@ version
 ]
 #
 [
-clap
+command
 (
 about
 =
@@ -75,7 +75,7 @@ Cli
 {
 #
 [
-clap
+arg
 (
 long
 )
@@ -85,7 +85,7 @@ two
 String
 #
 [
-clap
+arg
 (
 long
 )

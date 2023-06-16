@@ -14,7 +14,7 @@ Debug
 ]
 #
 [
-clap
+command
 (
 author
 version
@@ -29,7 +29,7 @@ Args
 {
 #
 [
-clap
+arg
 (
 short
 long
@@ -40,7 +40,7 @@ name
 String
 #
 [
-clap
+arg
 (
 short
 long

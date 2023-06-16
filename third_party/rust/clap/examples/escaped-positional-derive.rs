@@ -13,7 +13,7 @@ Parser
 ]
 #
 [
-clap
+command
 (
 author
 version
@@ -28,7 +28,7 @@ Cli
 {
 #
 [
-clap
+arg
 (
 short
 =
@@ -42,7 +42,7 @@ eff
 bool
 #
 [
-clap
+arg
 (
 short
 =
@@ -64,7 +64,7 @@ String
 >
 #
 [
-clap
+arg
 (
 last
 =

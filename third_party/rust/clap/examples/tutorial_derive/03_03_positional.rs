@@ -13,7 +13,7 @@ Parser
 ]
 #
 [
-clap
+command
 (
 author
 version
