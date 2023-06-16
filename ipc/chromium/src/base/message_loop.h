@@ -60,7 +60,7 @@ h
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 include
@@ -447,7 +447,7 @@ restore
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 void
 set_os_modal_loop
@@ -526,7 +526,7 @@ quit_received
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 base
 :
@@ -771,7 +771,7 @@ DelayedTaskQueue
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 base
 :
@@ -1009,7 +1009,7 @@ shutting_down_
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 bool
 os_modal_loop_
@@ -1144,7 +1144,7 @@ loop
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 typedef
 base
@@ -1326,7 +1326,7 @@ loop
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 typedef
 base

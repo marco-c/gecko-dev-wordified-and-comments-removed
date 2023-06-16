@@ -457,7 +457,7 @@ mapped_file_
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 bool
 external_section_

@@ -182,7 +182,7 @@ listener_
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 channel_
 -

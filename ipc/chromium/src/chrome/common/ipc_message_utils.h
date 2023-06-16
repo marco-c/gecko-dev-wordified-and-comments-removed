@@ -138,7 +138,7 @@ h
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 include
@@ -4636,7 +4636,7 @@ P
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 template
 <

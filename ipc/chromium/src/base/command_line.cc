@@ -11,7 +11,7 @@ h
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 include
@@ -92,7 +92,7 @@ NULL
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 const
 wchar_t
@@ -192,7 +192,7 @@ endif
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 static
 void
@@ -236,7 +236,7 @@ endif
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 void
 CommandLine
@@ -917,7 +917,7 @@ equals_position
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 Lowercase
 (
@@ -978,7 +978,7 @@ NULL
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 current_process_commandline_
 =
@@ -1068,7 +1068,7 @@ switch_string
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 Lowercase
 (
@@ -1129,7 +1129,7 @@ switch_string
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 Lowercase
 (
@@ -1189,7 +1189,7 @@ else
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 return
 result
@@ -1216,7 +1216,7 @@ endif
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 std
 :
@@ -1476,7 +1476,7 @@ c_str
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 void
 CommandLine

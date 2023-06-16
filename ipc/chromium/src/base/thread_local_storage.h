@@ -116,7 +116,7 @@ initialized_
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 int
 slot_
@@ -143,7 +143,7 @@ Slot
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 static
 void

@@ -81,7 +81,7 @@ h
 "
 #
 ifdef
-OS_WIN
+XP_WIN
 #
 include
 <
@@ -112,7 +112,7 @@ public
 :
 #
 ifdef
-OS_WIN
+XP_WIN
 typedef
 std
 :
@@ -374,7 +374,7 @@ endif
 elif
 defined
 (
-OS_WIN
+XP_WIN
 )
 void
 StartAcceptingHandles

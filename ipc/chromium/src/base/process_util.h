@@ -17,7 +17,7 @@ h
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 include
@@ -434,7 +434,7 @@ false
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 bool
 start_hidden
@@ -561,7 +561,7 @@ endif
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 Result
 <
@@ -851,7 +851,7 @@ len
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 std
 :
@@ -917,7 +917,7 @@ endif
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 undef

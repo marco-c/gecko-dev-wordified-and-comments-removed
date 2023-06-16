@@ -58,7 +58,7 @@ public
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 void
 ParseFromString
@@ -219,7 +219,7 @@ const
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 const
 std
@@ -360,7 +360,7 @@ value
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 void
 AppendLooseValue
@@ -444,7 +444,7 @@ current_process_commandline_
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 std
 :

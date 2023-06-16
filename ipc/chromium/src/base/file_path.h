@@ -31,7 +31,7 @@ h
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 define
@@ -63,7 +63,7 @@ StringType
 elif
 defined
 (
-OS_WIN
+XP_WIN
 )
 typedef
 std
@@ -147,7 +147,7 @@ path
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 explicit
 FilePath
@@ -438,7 +438,7 @@ x
 elif
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 define

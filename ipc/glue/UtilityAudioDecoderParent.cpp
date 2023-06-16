@@ -435,7 +435,7 @@ MOZ_SANDBOX
 &
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 if

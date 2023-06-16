@@ -264,7 +264,7 @@ tls_ptr
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 static
 int
@@ -987,7 +987,7 @@ false
 )
 #
 ifdef
-OS_WIN
+XP_WIN
 os_modal_loop_
 (
 false
@@ -1125,7 +1125,7 @@ return
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 |
 |
@@ -1193,7 +1193,7 @@ break
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 if
 (
@@ -1567,7 +1567,7 @@ RunHandler
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 if
 (
@@ -2858,7 +2858,7 @@ false
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 dispatcher
 =
@@ -2962,7 +2962,7 @@ mEventTarget
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 void
 MessageLoopForUI
@@ -3107,7 +3107,7 @@ endif
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 void
 MessageLoopForIO

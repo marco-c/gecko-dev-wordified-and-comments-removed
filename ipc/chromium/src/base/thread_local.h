@@ -17,7 +17,7 @@ h
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 include
@@ -51,7 +51,7 @@ ThreadLocalPlatform
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 typedef
 DWORD

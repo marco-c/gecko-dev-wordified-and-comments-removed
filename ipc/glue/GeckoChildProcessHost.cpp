@@ -2858,7 +2858,7 @@ Self
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 wchar_t
 exePathBuf
@@ -3012,7 +3012,7 @@ gGREBinPath
 ;
 #
 ifdef
-OS_WIN
+XP_WIN
 exePath
 =
 FilePath
@@ -3136,7 +3136,7 @@ empty
 {
 #
 ifdef
-OS_WIN
+XP_WIN
 exePath
 =
 FilePath

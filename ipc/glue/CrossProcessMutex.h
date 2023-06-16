@@ -26,7 +26,7 @@ h
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 include
@@ -44,7 +44,7 @@ if
 !
 defined
 (
-OS_WIN
+XP_WIN
 )
 &
 &
@@ -108,7 +108,7 @@ mozilla
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 typedef
 mozilla
@@ -230,7 +230,7 @@ CrossProcessMutex
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 HANDLE
 mMutex

@@ -63,7 +63,7 @@ h
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 include
@@ -1192,7 +1192,7 @@ Nothing
 endif
 #
 ifdef
-OS_WIN
+XP_WIN
 struct
 MOZ_STACK_CLASS
 SyncStackFrame
@@ -2713,7 +2713,7 @@ mPendingResponses
 ;
 #
 ifdef
-OS_WIN
+XP_WIN
 HANDLE
 mEvent
 ;

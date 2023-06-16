@@ -226,7 +226,7 @@ I64x
 elif
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 define

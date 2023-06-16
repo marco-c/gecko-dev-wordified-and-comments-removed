@@ -630,7 +630,7 @@ endptr
 {
 #
 ifdef
-OS_WIN
+XP_WIN
 return
 _strtoi64
 (
@@ -727,7 +727,7 @@ endptr
 {
 #
 ifdef
-OS_WIN
+XP_WIN
 return
 _wcstoi64
 (
@@ -1797,7 +1797,7 @@ if
 !
 defined
 (
-OS_WIN
+XP_WIN
 )
 errno
 =
@@ -1883,7 +1883,7 @@ if
 !
 defined
 (
-OS_WIN
+XP_WIN
 )
 if
 (

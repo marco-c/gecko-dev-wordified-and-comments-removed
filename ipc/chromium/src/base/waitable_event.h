@@ -17,7 +17,7 @@ h
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 include
@@ -145,7 +145,7 @@ max_time
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 HANDLE
 handle
@@ -210,7 +210,7 @@ WaitableEventWatcher
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 HANDLE
 handle_

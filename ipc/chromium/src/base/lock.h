@@ -134,7 +134,7 @@ PriorityInheritanceAvailable
 elif
 defined
 (
-OS_WIN
+XP_WIN
 )
 return
 true
@@ -158,7 +158,7 @@ XP_UNIX
 |
 defined
 (
-OS_WIN
+XP_WIN
 )
 friend
 class

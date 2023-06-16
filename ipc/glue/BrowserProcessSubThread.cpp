@@ -24,7 +24,7 @@ h
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 #
 include
@@ -185,7 +185,7 @@ Init
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 CoInitialize
 (
@@ -239,7 +239,7 @@ CleanUp
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 CoUninitialize
 (
