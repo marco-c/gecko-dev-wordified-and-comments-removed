@@ -1231,6 +1231,12 @@ CanScrollDownwards
 )
 const
 ;
+bool
+CanOverscrollUpwards
+(
+)
+const
+;
 OuterCSSCoord
 ConvertScrollbarPoint
 (

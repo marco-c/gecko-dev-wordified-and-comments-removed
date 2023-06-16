@@ -146,6 +146,10 @@ const
 AsyncPanZoomController
 *
 aTarget
+bool
+aPopulateDirectionsForUnhandled
+=
+false
 )
 ;
 APZHandledResult
