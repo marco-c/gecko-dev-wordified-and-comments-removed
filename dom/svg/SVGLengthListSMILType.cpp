@@ -1122,7 +1122,7 @@ from
 i
 ]
 .
-GetValueInUserUnits
+GetValueInPixels
 (
 from
 .
@@ -1144,7 +1144,7 @@ to
 i
 ]
 .
-GetValueInUserUnits
+GetValueInPixels
 (
 to
 .
@@ -1197,7 +1197,7 @@ from
 i
 ]
 .
-GetValueInUserUnits
+GetValueInPixels
 (
 from
 .
@@ -1243,7 +1243,7 @@ to
 i
 ]
 .
-GetValueInUserUnits
+GetValueInPixels
 (
 to
 .
