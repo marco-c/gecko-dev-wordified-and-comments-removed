@@ -339,6 +339,11 @@ const
 wchar_t
 *
 aFilePath
+bool
+*
+aHasNestedMicrosoftSignature
+=
+nullptr
 AuthenticodeFlags
 aFlags
 =
@@ -362,6 +367,11 @@ const
 wchar_t
 *
 aFilePath
+bool
+*
+aHasNestedMicrosoftSignature
+=
+nullptr
 AuthenticodeFlags
 aFlags
 =
@@ -391,6 +401,7 @@ mAuthenticode
 GetBinaryOrgName
 (
 aFilePath
+aHasNestedMicrosoftSignature
 aFlags
 )
 ;
@@ -864,6 +875,11 @@ const
 wchar_t
 *
 aFilePath
+bool
+*
+aHasNestedMicrosoftSignature
+=
+nullptr
 AuthenticodeFlags
 aFlags
 =
@@ -892,6 +908,7 @@ DllServicesBase
 GetBinaryOrgName
 (
 aFilePath
+aHasNestedMicrosoftSignature
 aFlags
 )
 ;
