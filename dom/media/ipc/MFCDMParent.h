@@ -138,6 +138,9 @@ ipc
 IPCResult
 RecvGetCapabilities
 (
+const
+bool
+aIsHWSecured
 GetCapabilitiesResolver
 &
 &

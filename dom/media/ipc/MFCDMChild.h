@@ -81,6 +81,8 @@ CapabilitiesPromise
 >
 GetCapabilities
 (
+bool
+aIsHWSecured
 )
 ;
 template

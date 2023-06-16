@@ -586,6 +586,8 @@ MFCDMChild
 :
 GetCapabilities
 (
+bool
+aIsHWSecured
 )
 {
 MOZ_ASSERT
@@ -658,6 +660,7 @@ RefPtr
 {
 this
 }
+aIsHWSecured
 this
 ]
 (
@@ -665,6 +668,7 @@ this
 {
 SendGetCapabilities
 (
+aIsHWSecured
 )
 -
 >

@@ -445,6 +445,8 @@ parent
 async
 GetCapabilities
 (
+bool
+isHwSecured
 )
 returns
 (
