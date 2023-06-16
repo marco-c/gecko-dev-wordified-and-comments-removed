@@ -187,9 +187,9 @@ _log
 ;
 Svc
 .
-Prefs
+PrefBranch
 .
-set
+setIntPref
 (
 "
 lastPing

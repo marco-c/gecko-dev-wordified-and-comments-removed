@@ -467,9 +467,9 @@ async
 ;
 Svc
 .
-Prefs
+PrefBranch
 .
-set
+setCharPref
 (
 "
 client
@@ -566,9 +566,9 @@ mobile
 ;
 Svc
 .
-Prefs
+PrefBranch
 .
-set
+setCharPref
 (
 "
 client

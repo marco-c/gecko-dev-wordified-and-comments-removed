@@ -231,9 +231,9 @@ promiseStartupManager
 ;
 Svc
 .
-Prefs
+PrefBranch
 .
-set
+setBoolPref
 (
 "
 engine
