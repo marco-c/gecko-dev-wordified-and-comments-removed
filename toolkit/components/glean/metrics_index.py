@@ -145,18 +145,6 @@ yaml
 "
     
 "
-toolkit
-/
-components
-/
-translations
-/
-metrics
-.
-yaml
-"
-    
-"
 xpcom
 /
 metrics
@@ -196,18 +184,6 @@ browser
 components
 /
 search
-/
-metrics
-.
-yaml
-"
-    
-"
-browser
-/
-components
-/
-translations
 /
 metrics
 .
