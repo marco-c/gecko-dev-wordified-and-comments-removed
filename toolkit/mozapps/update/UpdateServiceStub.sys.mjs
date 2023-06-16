@@ -528,6 +528,7 @@ getDir
 KEY_UPDROOT
 [
 ]
+false
 )
 ;
 }
@@ -1086,6 +1087,7 @@ getDir
 KEY_OLD_UPDROOT
 [
 ]
+false
 )
 ;
 let
@@ -1098,6 +1100,7 @@ getDir
 KEY_UPDROOT
 [
 ]
+false
 )
 ;
 let
