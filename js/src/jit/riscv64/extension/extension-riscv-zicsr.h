@@ -131,6 +131,13 @@ imm5
 )
 ;
 void
+illegal_trap
+(
+uint8_t
+code
+)
+;
+void
 rdinstret
 (
 Register

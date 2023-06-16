@@ -5503,6 +5503,11 @@ registerState
 (
 )
 ;
+void
+HandleWasmTrap
+(
+)
+;
 bool
 MOZ_ALWAYS_INLINE
 handleWasmSegFault

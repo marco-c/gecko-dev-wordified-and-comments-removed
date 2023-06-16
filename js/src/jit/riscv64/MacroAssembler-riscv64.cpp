@@ -10965,9 +10965,13 @@ this
 2
 )
 ;
-break_
+illegal_trap
 (
 kWasmTrapCode
+)
+;
+ebreak
+(
 )
 ;
 return
