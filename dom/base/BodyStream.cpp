@@ -2393,7 +2393,7 @@ window
 )
 )
 {
-Close
+CloseInputAndReleaseObjects
 (
 )
 ;
