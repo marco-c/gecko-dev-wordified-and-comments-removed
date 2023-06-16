@@ -902,7 +902,7 @@ Localization
 (
 [
 "
-browser
+preview
 /
 identityCredentialNotification
 .
@@ -2008,7 +2008,7 @@ Localization
 (
 [
 "
-browser
+preview
 /
 identityCredentialNotification
 .
@@ -2871,7 +2871,7 @@ Localization
 (
 [
 "
-browser
+preview
 /
 identityCredentialNotification
 .
