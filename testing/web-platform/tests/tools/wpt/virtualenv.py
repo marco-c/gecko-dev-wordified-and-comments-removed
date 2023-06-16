@@ -721,7 +721,7 @@ else
 scheme
 =
 "
-nt_user
+nt
 "
 if
 os
