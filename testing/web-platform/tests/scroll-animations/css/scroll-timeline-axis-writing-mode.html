@@ -684,6 +684,20 @@ div
 <
 script
 >
+async
+function
+setScrollPositions
+(
+)
+{
+return
+runAndWaitForFrameUpdate
+(
+(
+)
+=
+>
+{
 /
 /
 Animations
@@ -756,6 +770,10 @@ scrollLeft
 =
 25
 ;
+}
+)
+;
+}
 promise_test
 (
 async
@@ -766,7 +784,7 @@ t
 >
 {
 await
-waitForNextFrame
+setScrollPositions
 (
 )
 ;
@@ -800,7 +818,7 @@ t
 >
 {
 await
-waitForNextFrame
+setScrollPositions
 (
 )
 ;
@@ -834,7 +852,7 @@ t
 >
 {
 await
-waitForNextFrame
+setScrollPositions
 (
 )
 ;
@@ -868,7 +886,7 @@ t
 >
 {
 await
-waitForNextFrame
+setScrollPositions
 (
 )
 ;
@@ -907,7 +925,7 @@ t
 >
 {
 await
-waitForNextFrame
+setScrollPositions
 (
 )
 ;
@@ -946,7 +964,7 @@ t
 >
 {
 await
-waitForNextFrame
+setScrollPositions
 (
 )
 ;
@@ -1000,7 +1018,7 @@ t
 >
 {
 await
-waitForNextFrame
+setScrollPositions
 (
 )
 ;
