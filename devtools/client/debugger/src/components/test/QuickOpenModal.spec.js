@@ -1888,10 +1888,6 @@ undefined
 sourceActor
 :
 null
-sourceUrl
-:
-"
-"
 }
 )
 ;
@@ -2023,10 +2019,6 @@ undefined
 sourceActor
 :
 null
-sourceUrl
-:
-"
-"
 }
 )
 ;
@@ -2703,10 +2695,6 @@ undefined
 sourceActor
 :
 null
-sourceUrl
-:
-"
-"
 }
 )
 ;
@@ -2880,10 +2868,6 @@ undefined
 sourceActor
 :
 null
-sourceUrl
-:
-"
-"
 }
 )
 ;
@@ -3059,10 +3043,6 @@ undefined
 sourceActor
 :
 null
-sourceUrl
-:
-"
-"
 }
 )
 ;
