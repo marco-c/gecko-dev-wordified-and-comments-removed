@@ -53,7 +53,9 @@ getOriginalRanges
 (
 location
 .
-sourceId
+source
+.
+id
 )
 ;
 const

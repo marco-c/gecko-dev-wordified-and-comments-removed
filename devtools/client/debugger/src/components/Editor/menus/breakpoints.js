@@ -1228,7 +1228,9 @@ removeBreakpointsAtLine
 cx
 location
 .
-sourceId
+source
+.
+id
 location
 .
 line
@@ -1317,7 +1319,9 @@ enableBreakpointsAtLine
 cx
 location
 .
-sourceId
+source
+.
+id
 location
 .
 line
@@ -1397,7 +1401,9 @@ disableBreakpointsAtLine
 cx
 location
 .
-sourceId
+source
+.
+id
 location
 .
 line
