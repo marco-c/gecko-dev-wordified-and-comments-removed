@@ -3114,10 +3114,10 @@ acm_receiver
 .
 h
 index
-18b662aed0
+25105ec1ca
 .
 .
-a61247627f
+fa728e705c
 100644
 -
 -
@@ -3195,10 +3195,10 @@ array_view
 h
 "
 -
-215
+235
 12
 +
-216
+236
 15
 class
 AcmReceiver
@@ -3325,8 +3325,7 @@ lock
 needed
 .
 Clock
-*
-const
+&
 clock_
 ;
 -
