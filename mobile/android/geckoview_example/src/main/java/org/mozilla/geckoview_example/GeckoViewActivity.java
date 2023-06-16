@@ -7262,7 +7262,7 @@ session
 {
 session
 .
-printPageContent
+didPrintPageContent
 (
 )
 ;
