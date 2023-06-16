@@ -298,6 +298,9 @@ OS_LIBS
 "
 bcrypt
 "
+"
+ntdll
+"
 ]
 if
 CONFIG
