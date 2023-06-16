@@ -300,11 +300,6 @@ AbuseReporter
 jsm
 "
 "
-addonManager
-.
-js
-"
-"
 AddonManager
 .
 jsm
@@ -318,6 +313,13 @@ jsm
 amInstallTrigger
 .
 jsm
+"
+"
+amManager
+.
+sys
+.
+mjs
 "
 "
 amWebAPI
