@@ -49250,6 +49250,13 @@ ZoomBehaviour
 :
 :
 Mobile
+nsViewportInfo
+:
+:
+AutoScaleFlag
+:
+:
+AutoScale
 )
 ;
 }
