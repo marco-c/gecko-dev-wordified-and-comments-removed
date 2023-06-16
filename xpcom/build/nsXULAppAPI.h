@@ -323,9 +323,6 @@ mIpcFd
 int
 mCrashFd
 ;
-int
-mCrashAnnotationFd
-;
 }
 ;
 void

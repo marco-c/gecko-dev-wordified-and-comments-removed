@@ -215,9 +215,6 @@ ipcPfd
 in
 ParcelFileDescriptor
 crashReporterPfd
-in
-ParcelFileDescriptor
-crashAnnotationPfd
 )
 ;
 void

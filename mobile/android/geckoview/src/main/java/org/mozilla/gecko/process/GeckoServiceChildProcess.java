@@ -387,9 +387,6 @@ ipcPfd
 final
 ParcelFileDescriptor
 crashReporterPfd
-final
-ParcelFileDescriptor
-crashAnnotationPfd
 )
 {
 final
@@ -420,11 +417,6 @@ ipcPfd
 crashReporter
 (
 crashReporterPfd
-)
-.
-crashAnnotation
-(
-crashAnnotationPfd
 )
 .
 build

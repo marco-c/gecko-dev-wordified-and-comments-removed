@@ -44691,11 +44691,6 @@ mozilla
 SA_NPEAX
 Z
 ?
-RegisterChildCrashAnnotationFileDescriptor
-CrashReporter
-YAXKPEAUPRFileDesc
-Z
-?
 CreateAdditionalChildMinidump
 CrashReporter
 YA_NPEAXKPEAVnsIFile

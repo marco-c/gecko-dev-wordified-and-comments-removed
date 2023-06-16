@@ -64368,11 +64368,6 @@ mozilla
 SA_NPAX
 Z
 ?
-RegisterChildCrashAnnotationFileDescriptor
-CrashReporter
-YAXKPAUPRFileDesc
-Z
-?
 CreateAdditionalChildMinidump
 CrashReporter
 YA_NPAXKPAVnsIFile
