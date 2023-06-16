@@ -16,6 +16,14 @@ fedora
 SHA256SUMS
 .
 zip
+314df333a939ca32bb03ae15a8b3f533513c1af6230908643228aff461e39ecf
+firefox
+-
+flatpak
+/
+SHA256SUMS
+.
+zip
 00e3e54788b2d7867535eb25bc9ce41541dc6299dca0a8ce8d0d4e5b49839ac3
 mint
 /

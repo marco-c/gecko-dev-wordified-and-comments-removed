@@ -494,6 +494,9 @@ worker
 /
 artifacts
 /
+|
+|
+true
 popd
 if
 [
