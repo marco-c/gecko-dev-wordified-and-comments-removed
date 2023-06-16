@@ -1,3 +1,11 @@
+#
+!
+[
+allow
+(
+warnings
+)
+]
 use
 extend
 :
