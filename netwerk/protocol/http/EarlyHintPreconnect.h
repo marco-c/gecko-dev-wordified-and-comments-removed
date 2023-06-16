@@ -34,9 +34,10 @@ aHeader
 nsIURI
 *
 aBaseURI
-nsIPrincipal
-*
-aPrincipal
+OriginAttributes
+&
+&
+aOriginAttributes
 )
 ;
 EarlyHintPreconnect
