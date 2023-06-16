@@ -2732,16 +2732,6 @@ autostart
 "
 :
 False
-        
-"
-browser
-.
-tabs
-.
-disableBackgroundZombification
-"
-:
-True
     
 }
     
