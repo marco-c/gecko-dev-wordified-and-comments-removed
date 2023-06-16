@@ -482,7 +482,7 @@ bool
 URLMainThread
 :
 :
-IsValidURL
+IsValidObjectURL
 (
 const
 GlobalObject

@@ -2386,7 +2386,7 @@ blob
 return
 URL
 .
-isValidURL
+isValidObjectURL
 (
 aURL
 )

@@ -487,7 +487,7 @@ isBlob
 !
 URL
 .
-isValidURL
+isValidObjectURL
 (
 elementSrc
 )

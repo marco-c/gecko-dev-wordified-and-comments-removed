@@ -321,7 +321,7 @@ Throws
 ]
 static
 boolean
-isValidURL
+isValidObjectURL
 (
 DOMString
 url

@@ -633,7 +633,7 @@ bool
 URLWorker
 :
 :
-IsValidURL
+IsValidObjectURL
 (
 const
 GlobalObject
