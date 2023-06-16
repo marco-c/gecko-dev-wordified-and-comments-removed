@@ -1769,9 +1769,11 @@ filter_
 callback_context_
 )
 )
+{
 return
 false
 ;
+}
 bool
 signal_trusted
 =
