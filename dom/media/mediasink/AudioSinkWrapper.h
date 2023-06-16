@@ -410,6 +410,11 @@ IsCurrentThreadIn
 )
 ;
 }
+bool
+NeedAudioSink
+(
+)
+;
 enum
 class
 AudioSinkStartPolicy
