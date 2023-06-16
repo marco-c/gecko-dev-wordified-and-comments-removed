@@ -7424,9 +7424,9 @@ Weave
 .
 Svc
 .
-Prefs
+PrefBranch
 .
-get
+getCharPref
 (
 "
 firstSync
