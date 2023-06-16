@@ -2321,7 +2321,7 @@ partner_code
 source
 :
 "
-unknown
+follow_on_from_refine_on_SERP
 "
 is_shopping_page
 :

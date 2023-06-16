@@ -82,7 +82,7 @@ test
 browser
 \
 /
-searchTelemetryAd_components_
+searchTelemetryAd
 /
 queryParamName
 :
@@ -193,11 +193,11 @@ selector
 :
 "
 .
-moz
+refined
 -
-rich
+search
 -
-suggestions
+buttons
 "
 }
 children
@@ -207,12 +207,6 @@ children
 selector
 :
 "
-.
-moz
--
-rich
--
-suggestion
 a
 "
 }
@@ -1644,7 +1638,7 @@ url
 getSERPUrl
 (
 "
-searchTelemetryAd_components_refined_search_button
+searchTelemetryAd_searchbox_with_content
 .
 html
 "
