@@ -1755,7 +1755,7 @@ url
 test
 .
 trackingUrl
-hasShoppingTab
+shoppingTabDisplayed
 :
 false
 }

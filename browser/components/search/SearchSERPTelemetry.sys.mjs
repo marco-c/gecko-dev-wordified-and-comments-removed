@@ -7929,7 +7929,7 @@ shopping_tab_displayed
 :
 info
 .
-hasShoppingTab
+shoppingTabDisplayed
 is_shopping_page
 :
 impressionInfo
@@ -7953,11 +7953,11 @@ impressionId
 .
 .
 impressionInfo
-hasShopping
+shoppingTabDisplayed
 :
 info
 .
-hasShoppingTab
+shoppingTabDisplayed
 }
 )
 ;

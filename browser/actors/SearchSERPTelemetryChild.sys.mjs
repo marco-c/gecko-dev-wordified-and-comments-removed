@@ -5934,7 +5934,7 @@ now
 )
 ;
 let
-hasShoppingTab
+shoppingTabDisplayed
 =
 searchAdImpression
 .
@@ -5975,7 +5975,7 @@ PageImpression
 "
 {
 url
-hasShoppingTab
+shoppingTabDisplayed
 }
 )
 ;
