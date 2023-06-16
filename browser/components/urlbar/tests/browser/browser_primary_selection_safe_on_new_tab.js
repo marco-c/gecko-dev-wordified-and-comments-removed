@@ -80,8 +80,6 @@ equal
 (
 gURLBar
 .
-inputField
-.
 selectionStart
 0
 )
@@ -92,12 +90,8 @@ equal
 (
 gURLBar
 .
-inputField
-.
 selectionEnd
 gURLBar
-.
-inputField
 .
 value
 .

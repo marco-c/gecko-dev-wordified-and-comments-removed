@@ -23825,8 +23825,6 @@ oldValue
 =
 this
 .
-inputField
-.
 value
 ;
 let
@@ -24249,8 +24247,6 @@ startQuery
 searchString
 :
 this
-.
-inputField
 .
 value
 allowAutofill
