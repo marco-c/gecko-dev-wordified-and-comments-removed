@@ -4230,6 +4230,11 @@ headerDescription
 =
 state
 .
+displayName
+|
+|
+state
+.
 email
 ;
 mainWindowEl
@@ -4284,6 +4289,11 @@ setup
 ;
 headerDescription
 =
+state
+.
+displayName
+|
+|
 state
 .
 email
@@ -4476,6 +4486,11 @@ account
 ;
 headerDescription
 =
+state
+.
+displayName
+|
+|
 state
 .
 email
@@ -4766,6 +4781,7 @@ updatePanelPopup
 (
 {
 email
+displayName
 status
 }
 )
@@ -5117,6 +5133,9 @@ appMenuHeaderDescription
 .
 value
 =
+displayName
+|
+|
 email
 ;
 appMenuLabel
@@ -5302,6 +5321,9 @@ appMenuHeaderDescription
 .
 value
 =
+displayName
+|
+|
 email
 ;
 appMenuStatus
@@ -5323,6 +5345,9 @@ setAttribute
 "
 label
 "
+displayName
+|
+|
 email
 )
 ;
