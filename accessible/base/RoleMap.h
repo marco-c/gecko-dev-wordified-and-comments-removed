@@ -939,7 +939,7 @@ graphic
 nsGkAtoms
 :
 :
-img
+image
 ATK_ROLE_IMAGE
 NSAccessibilityImageRole
 NSAccessibilityUnknownSubrole
