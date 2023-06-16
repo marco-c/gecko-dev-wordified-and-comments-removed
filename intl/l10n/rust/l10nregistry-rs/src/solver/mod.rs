@@ -5,10 +5,6 @@ mod
 serial
 ;
 pub
-mod
-testing
-;
-pub
 use
 parallel
 :

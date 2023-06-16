@@ -1,5 +1,0 @@
-missing
--
-one
-=
-zaginiony

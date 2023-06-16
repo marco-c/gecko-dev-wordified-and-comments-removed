@@ -202,6 +202,16 @@ rust
 l10nregistry
 -
 rs
+-
+intl
+/
+l10n
+/
+rust
+/
+l10nregistry
+-
+tests
 #
 tests
 -
