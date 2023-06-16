@@ -37953,7 +37953,7 @@ IsStorageInitialized
 (
 )
 )
-NS_ERROR_FAILURE
+NS_ERROR_NOT_INITIALIZED
 )
 ;
 QM_TRY
@@ -38246,7 +38246,7 @@ IsStorageInitialized
 (
 )
 )
-NS_ERROR_FAILURE
+NS_ERROR_NOT_INITIALIZED
 )
 ;
 QM_TRY_UNWRAP
@@ -38431,7 +38431,7 @@ IsStorageInitialized
 (
 )
 )
-NS_ERROR_FAILURE
+NS_ERROR_NOT_INITIALIZED
 )
 ;
 QM_TRY
@@ -38444,7 +38444,7 @@ IsTemporaryStorageInitialized
 (
 )
 )
-NS_ERROR_FAILURE
+NS_ERROR_NOT_INITIALIZED
 )
 ;
 QM_TRY_UNWRAP
