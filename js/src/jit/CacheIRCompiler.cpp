@@ -8472,13 +8472,11 @@ kind
 engine
 makesGCCalls
 stubDataOffset
-codeStart
 writer
 .
 codeLength
 (
 )
-fieldTypes
 )
 ;
 }
