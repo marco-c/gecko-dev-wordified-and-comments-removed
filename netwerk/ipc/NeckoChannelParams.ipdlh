@@ -576,6 +576,9 @@ needForCheckingAntiTrackingHeuristic
 nsString
 cspNonce
 ;
+nsString
+integrityMetadata
+;
 bool
 skipContentSniffing
 ;
