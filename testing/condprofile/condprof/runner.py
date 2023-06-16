@@ -563,18 +563,6 @@ exist_ok
 True
 )
         
-logger
-.
-info
-(
-"
-Verifying
-Geckodriver
-binary
-presence
-"
-)
-        
 if
 shutil
 .
