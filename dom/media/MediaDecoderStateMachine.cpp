@@ -17769,12 +17769,10 @@ OnTaskQueue
 )
 )
 ;
-UniquePtr
-<
 AudioSink
->
+*
 audioSink
-{
+=
 new
 AudioSink
 (
@@ -17787,7 +17785,6 @@ Info
 mAudio
 mShouldResistFingerprinting
 )
-}
 ;
 mAudibleListener
 .
@@ -17826,13 +17823,7 @@ AudioSinkWrapper
 (
 mTaskQueue
 mAudioQueue
-std
-:
-:
-move
-(
 audioSinkCreator
-)
 mVolume
 mPlaybackRate
 mPreservesPitch
