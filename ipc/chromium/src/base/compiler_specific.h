@@ -17,7 +17,7 @@ h
 if
 defined
 (
-COMPILER_MSVC
+_MSC_VER
 )
 #
 define
@@ -178,7 +178,7 @@ WARN_UNUSED_RESULT
 if
 defined
 (
-COMPILER_GCC
+__GNUC__
 )
 |
 |

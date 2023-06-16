@@ -22,7 +22,7 @@ h
 "
 #
 ifdef
-COMPILER_MSVC
+_MSC_VER
 #
 define
 GG_LONGLONG
@@ -157,7 +157,7 @@ base
 if
 defined
 (
-COMPILER_GCC
+__GNUC__
 )
 #
 define
@@ -177,7 +177,7 @@ _b
 elif
 defined
 (
-COMPILER_MSVC
+_MSC_VER
 )
 #
 define
