@@ -83,7 +83,7 @@ chromium_revision
 '
 :
 '
-513ae2fffc33ddcf90429acbb86acfb440f71eee
+b49d6c9ec13cda7a8d4a8d8ff877179c737209b1
 '
 #
 Fetch
@@ -392,7 +392,7 @@ chromium
 src
 /
 base
-5156eb889ba4237ed97ddae21aee74880356f7fd
+987b55e37c9656986d1e19ff25599c1e4d85cf98
 '
 '
 src
@@ -536,7 +536,7 @@ chromium
 src
 /
 ios
-a5010c85e171e1a1c24f4c01962862bcc8f407c7
+4b4e61e03b94696034f34c37d2e3d1f54eda21f0
 '
 '
 condition
@@ -568,7 +568,7 @@ chromium
 src
 /
 testing
-9c8dc598e1cd1743a3a4b4372878f18c495cf3e3
+5ab3bb2eef50d180eacc1802ad47364e66754d1d
 '
 '
 src
@@ -592,7 +592,7 @@ chromium
 src
 /
 third_party
-0c83a0d592dda905c0280471b7bd1fef587d32b5
+b1395e4f52f3c1379d251d7f949381c4081b1c79
 '
 '
 src
@@ -1521,7 +1521,7 @@ tools
 depot_tools
 .
 git
-2ec2918216c61bdb2f4ab48bb0e761d0e2fc48fb
+cd2395991f80b66fb3549730c92de7b9fe11e649
 '
 '
 src
@@ -1710,7 +1710,7 @@ third_party
 freetype2
 .
 git
-27b2cd4101dfcf7d03904204e078b2de84cce8c4
+4c3916e901ac88243321b7518c023dc8c51a7586
 '
 '
 src
@@ -2964,7 +2964,7 @@ chromium
 src
 /
 tools
-76adb287ba17524deb7693cc83bf44b60c67afdf
+ce86aaefb9960e106bc610d6218123a8dd4493af
 '
 '
 src
@@ -3973,7 +3973,7 @@ version
 '
 git_revision
 :
-a8b84fba102daff5bf5e65975dcc0887da7ab62a
+f6b5518e872364f59bb17dd5a967270b38331b84
 '
 }
 {
@@ -4003,7 +4003,7 @@ version
 '
 git_revision
 :
-a8b84fba102daff5bf5e65975dcc0887da7ab62a
+f6b5518e872364f59bb17dd5a967270b38331b84
 '
 }
 ]
