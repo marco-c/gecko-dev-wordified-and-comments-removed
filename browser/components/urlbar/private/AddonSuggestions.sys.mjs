@@ -1143,6 +1143,10 @@ amo
 }
 ;
 return
+Object
+.
+assign
+(
 new
 lazy
 .
@@ -1176,6 +1180,12 @@ queryContext
 tokens
 payload
 )
+)
+{
+showFeedbackMenu
+:
+true
+}
 )
 ;
 }
