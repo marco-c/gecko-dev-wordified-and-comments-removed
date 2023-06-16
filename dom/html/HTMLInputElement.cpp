@@ -26705,12 +26705,16 @@ aKnownValue
 {
 if
 (
+!
 IsSingleLineTextControl
 (
 true
 )
 )
 {
+return
+;
+}
 nsAutoString
 value
 ;
@@ -26720,7 +26724,7 @@ if
 aKnownValue
 )
 {
-GetValue
+GetValueInternal
 (
 value
 CallerType
@@ -26743,7 +26747,6 @@ aKnownValue
 aNotify
 )
 ;
-}
 }
 NS_IMETHODIMP
 HTMLInputElement
