@@ -841,7 +841,7 @@ GetDevice
 )
 -
 >
-GenerateError
+GenerateValidationError
 (
 nsLiteralCString
 (

@@ -379,7 +379,7 @@ CleanupUnregisteredInParent
 )
 ;
 void
-GenerateError
+GenerateValidationError
 (
 const
 nsCString
