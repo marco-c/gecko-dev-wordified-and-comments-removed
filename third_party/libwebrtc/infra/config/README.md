@@ -232,7 +232,7 @@ all
 files
 in
 the
-master
+main
 branch
 .
 Initial
@@ -429,7 +429,7 @@ go
 /
 +
 /
-master
+main
 /
 lucicfg
 /
