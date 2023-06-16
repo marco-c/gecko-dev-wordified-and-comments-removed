@@ -97,11 +97,7 @@ changes
 )
 ;
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 typedef
 std
 :

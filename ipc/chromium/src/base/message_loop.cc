@@ -1275,11 +1275,7 @@ MessagePumpForUI
 ;
 }
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 if
 (
 type_
@@ -3199,11 +3195,7 @@ filter
 ;
 }
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 bool
 MessageLoopForIO
 :

@@ -27,11 +27,7 @@ windows
 h
 >
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 #
 include
 <
@@ -58,11 +54,7 @@ DWORD
 SlotType
 ;
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 typedef
 pthread_key_t
 SlotType

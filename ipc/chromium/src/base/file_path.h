@@ -60,11 +60,7 @@ string
 StringType
 ;
 #
-elif
-defined
-(
-XP_WIN
-)
+else
 typedef
 std
 :
@@ -435,11 +431,7 @@ x
 )
 x
 #
-elif
-defined
-(
-XP_WIN
-)
+else
 #
 define
 FILE_PATH_LITERAL

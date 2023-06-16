@@ -362,11 +362,7 @@ mode
 #
 endif
 #
-elif
-defined
-(
-XP_WIN
-)
+else
 void
 StartAcceptingHandles
 (

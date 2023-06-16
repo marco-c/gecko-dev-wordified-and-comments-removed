@@ -121,11 +121,7 @@ const
 srwlock_
 ;
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 pthread_cond_t
 condition_
 ;

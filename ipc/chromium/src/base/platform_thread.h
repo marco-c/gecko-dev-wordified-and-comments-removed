@@ -36,11 +36,7 @@ void
 PlatformThreadHandle
 ;
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 #
 include
 <

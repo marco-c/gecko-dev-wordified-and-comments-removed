@@ -44,11 +44,7 @@ kInvalidPlatformFileValue
 INVALID_HANDLE_VALUE
 ;
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 typedef
 int
 PlatformFile

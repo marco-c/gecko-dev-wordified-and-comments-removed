@@ -587,11 +587,7 @@ process_handle
 )
 ;
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 Result
 <
 Ok

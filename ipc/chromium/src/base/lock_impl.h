@@ -27,11 +27,7 @@ windows
 h
 >
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 #
 include
 <
@@ -64,11 +60,7 @@ NativeHandle
 SRWLOCK
 ;
 #
-elif
-defined
-(
-XP_UNIX
-)
+else
 using
 NativeHandle
 =
