@@ -11,8 +11,6 @@ path
 as
 mozpath
 import
-six
-import
 toml
 def
 _get_crate_name
@@ -170,6 +168,7 @@ subprocess
 .
 Popen
 (
+        
 args
 env
 =
@@ -184,6 +183,10 @@ stderr
 subprocess
 .
 PIPE
+text
+=
+True
+    
 )
     
 stdout
@@ -193,24 +196,6 @@ p
 .
 communicate
 (
-)
-    
-stdout
-=
-six
-.
-ensure_text
-(
-stdout
-)
-    
-stderr
-=
-six
-.
-ensure_text
-(
-stderr
 )
     
 if
