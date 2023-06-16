@@ -4951,7 +4951,6 @@ aValue
 )
 ;
 }
-else
 if
 (
 aAttribute

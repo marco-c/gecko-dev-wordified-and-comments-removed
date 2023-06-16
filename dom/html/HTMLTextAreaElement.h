@@ -616,12 +616,6 @@ aHaveNotified
 )
 override
 ;
-bool
-IsDoneAddingChildren
-(
-)
-override
-;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 Clone

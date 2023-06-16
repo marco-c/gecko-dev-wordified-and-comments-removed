@@ -2647,9 +2647,10 @@ Principal
 {
 mIsAllContentHere
 =
-mContent
--
->
+Select
+(
+)
+.
 IsDoneAddingChildren
 (
 )
@@ -3219,9 +3220,10 @@ mIsAllContentHere
 {
 mIsAllContentHere
 =
-mContent
--
->
+Select
+(
+)
+.
 IsDoneAddingChildren
 (
 )

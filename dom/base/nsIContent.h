@@ -1060,16 +1060,6 @@ aHaveNotified
 )
 {
 }
-virtual
-bool
-IsDoneAddingChildren
-(
-)
-{
-return
-true
-;
-}
 static
 inline
 bool
