@@ -366,7 +366,9 @@ modules
 /
 Blocklist
 .
-jsm
+sys
+.
+mjs
 "
 "
 resource
