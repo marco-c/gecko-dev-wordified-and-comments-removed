@@ -453,6 +453,10 @@ NS_ERROR_NOT_IMPLEMENTED
 *
 *
 Returns
+a
+promise
+resolving
+to
 an
 array
 of
@@ -474,9 +478,9 @@ nsILoginInfo
 }
 *
 /
-async
 getAllLoginsAsync
 (
+includeDeleted
 )
 {
 return
@@ -486,6 +490,7 @@ _getLoginsAsync
 (
 {
 }
+includeDeleted
 )
 ;
 }
@@ -493,6 +498,7 @@ async
 searchLoginsAsync
 (
 matchData
+includeDeleted
 )
 {
 this
@@ -520,6 +526,7 @@ this
 _getLoginsAsync
 (
 matchData
+includeDeleted
 )
 ;
 }
@@ -643,6 +650,7 @@ async
 _getLoginsAsync
 (
 matchData
+includeDeleted
 )
 {
 let
@@ -927,6 +935,7 @@ this
 _searchLogins
 (
 realMatchData
+includeDeleted
 options
 candidateLogins
 .

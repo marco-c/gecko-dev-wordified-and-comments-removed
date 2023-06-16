@@ -434,6 +434,12 @@ passwordField
 unknownFields
 "
 "
+everSynced
+"
+"
+syncCounter
+"
+"
 init
 "
 "
