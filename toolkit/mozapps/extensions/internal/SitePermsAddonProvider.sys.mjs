@@ -164,9 +164,9 @@ lazy
 {
 }
 ;
-XPCOMUtils
+ChromeUtils
 .
-defineLazyModuleGetters
+defineESModuleGetters
 (
 lazy
 {
@@ -183,7 +183,9 @@ modules
 /
 AddonManager
 .
-jsm
+sys
+.
+mjs
 "
 AddonManagerPrivate
 :
@@ -198,7 +200,9 @@ modules
 /
 AddonManager
 .
-jsm
+sys
+.
+mjs
 "
 }
 )

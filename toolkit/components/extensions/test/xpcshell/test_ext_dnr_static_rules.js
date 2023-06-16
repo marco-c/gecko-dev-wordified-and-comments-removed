@@ -1259,7 +1259,7 @@ AddonManager
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1272,7 +1272,9 @@ modules
 /
 AddonManager
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
