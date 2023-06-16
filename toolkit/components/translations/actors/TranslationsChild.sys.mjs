@@ -1456,7 +1456,7 @@ lazy
 .
 console
 .
-error
+log
 (
 The
 engine
@@ -3379,7 +3379,7 @@ lazy
 .
 console
 .
-error
+log
 (
 error
 )
@@ -5078,7 +5078,7 @@ lazy
 .
 console
 .
-error
+log
 (
 "
 Failed
@@ -5105,7 +5105,7 @@ lazy
 .
 console
 .
-error
+log
 (
 "
 Failed

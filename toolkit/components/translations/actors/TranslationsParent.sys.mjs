@@ -8650,7 +8650,7 @@ lazy
 .
 console
 .
-error
+log
 (
 error
 .
