@@ -6100,7 +6100,7 @@ nsJARChannel
 :
 RetargetDeliveryTo
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 )
@@ -6149,7 +6149,7 @@ nsJARChannel
 :
 GetDeliveryTarget
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 *
 aEventTarget

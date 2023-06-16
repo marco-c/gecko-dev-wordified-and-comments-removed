@@ -103,7 +103,7 @@ bool
 aIncludePath
 uint32_t
 aExtraHeapSize
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 )
@@ -204,7 +204,7 @@ bool
 aIncludePath
 uint32_t
 aExtraHeapSize
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 )
@@ -402,7 +402,7 @@ mTimer
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mMainThreadEventTarget
 ;
@@ -450,7 +450,7 @@ bool
 aIncludePath
 uint32_t
 aExtraHeapSize
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 )

@@ -64,10 +64,10 @@ nsIRequest
 idl
 "
 interface
-nsIEventTarget
+nsIInputStream
 ;
 interface
-nsIInputStream
+nsISerialEventTarget
 ;
 interface
 nsIStreamListener
@@ -416,7 +416,7 @@ aCloseWhenDone
 optional
 ]
 in
-nsIEventTarget
+nsISerialEventTarget
 aMainThreadTarget
 )
 ;

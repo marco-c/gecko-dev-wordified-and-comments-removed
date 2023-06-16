@@ -476,13 +476,6 @@ h
 #
 include
 "
-plstr
-.
-h
-"
-#
-include
-"
 nsINestedURI
 .
 h
@@ -4197,7 +4190,7 @@ uint32_t
 aSegcount
 bool
 aCloseWhenDone
-nsIEventTarget
+nsISerialEventTarget
 *
 aMainThreadTarget
 )

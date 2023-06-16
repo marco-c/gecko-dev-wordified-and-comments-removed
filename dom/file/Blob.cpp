@@ -1510,7 +1510,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mainThreadEventTarget
 ;

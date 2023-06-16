@@ -1327,7 +1327,7 @@ CleanupBackgroundChannel
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mODATarget
 MOZ_GUARDED_BY

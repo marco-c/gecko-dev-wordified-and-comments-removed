@@ -1079,7 +1079,7 @@ rv
 }
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =

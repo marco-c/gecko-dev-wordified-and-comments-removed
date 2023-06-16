@@ -1960,7 +1960,7 @@ return
 mWorkerScriptExecutedSuccessfully
 ;
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 MainThreadEventTargetForMessaging
 (
@@ -1992,7 +1992,7 @@ aFlags
 NS_DISPATCH_NORMAL
 )
 ;
-nsIEventTarget
+nsISerialEventTarget
 *
 MainThreadEventTarget
 (

@@ -384,7 +384,7 @@ const
 ;
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 GetTargetThread
 (
@@ -490,7 +490,7 @@ DataMutex
 <
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 >
 mTargetThread

@@ -663,7 +663,7 @@ nsIObserver
 public
 nsIRequest
 public
-nsIEventTarget
+nsISerialEventTarget
 public
 nsIWebSocketImpl
 {
@@ -1130,7 +1130,7 @@ mLoadingPrincipal
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mMainThreadEventTarget
 ;
@@ -1262,6 +1262,7 @@ nsIWebSocketListener
 nsIObserver
 nsIRequest
 nsIEventTarget
+nsISerialEventTarget
 nsIWebSocketImpl
 )
 class

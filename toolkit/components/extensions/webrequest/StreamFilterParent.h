@@ -453,7 +453,7 @@ ActorThread
 )
 ;
 inline
-nsIEventTarget
+nsISerialEventTarget
 *
 IOThread
 (
@@ -590,13 +590,13 @@ mOrigListener
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mMainThread
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mIOThread
 ;

@@ -3231,7 +3231,7 @@ IMAGE_SVG_XML
 {
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =

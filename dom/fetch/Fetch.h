@@ -731,7 +731,7 @@ mBodyUsed
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mMainThreadEventTarget
 ;

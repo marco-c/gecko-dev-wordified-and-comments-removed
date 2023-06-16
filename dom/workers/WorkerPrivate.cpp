@@ -15140,7 +15140,7 @@ GetEffectiveEventLoopRecursionDepth
 )
 ;
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 WorkerPrivate
 :
@@ -15218,7 +15218,7 @@ aFlags
 )
 ;
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 WorkerPrivate
 :

@@ -1031,7 +1031,7 @@ HttpTransactionParent
 :
 GetDeliveryTarget
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 *
 aEventTarget
@@ -1045,7 +1045,7 @@ mEventTargetMutex
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =
@@ -1075,7 +1075,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 HttpTransactionParent
 :
@@ -1086,7 +1086,7 @@ GetODATarget
 {
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 ;
@@ -1133,7 +1133,7 @@ HttpTransactionParent
 :
 RetargetDeliveryTo
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 )

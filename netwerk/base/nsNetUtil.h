@@ -230,6 +230,9 @@ class
 nsIRequestObserver
 ;
 class
+nsISerialEventTarget
+;
+class
 nsIStreamListener
 ;
 class
@@ -1425,7 +1428,7 @@ bool
 aCloseWhenDone
 =
 false
-nsIEventTarget
+nsISerialEventTarget
 *
 aMainThreadTarget
 =

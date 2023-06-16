@@ -4152,7 +4152,7 @@ rv
 }
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 listenerTarget
 =

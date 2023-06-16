@@ -157,7 +157,7 @@ aURI
 ;
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 GetIOEventTarget
 (

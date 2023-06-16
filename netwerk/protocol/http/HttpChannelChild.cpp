@@ -13003,7 +13003,7 @@ HttpChannelChild
 :
 RetargetDeliveryTo
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aNewTarget
 )
@@ -13231,7 +13231,7 @@ HttpChannelChild
 :
 GetDeliveryTarget
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 *
 aEventTarget
@@ -13245,7 +13245,7 @@ mEventTargetMutex
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =

@@ -97,7 +97,7 @@ Create
 nsIGlobalObject
 *
 aGlobal
-nsIEventTarget
+nsISerialEventTarget
 *
 aMainThreadEventTarget
 nsIInputStream
@@ -228,7 +228,7 @@ private
 :
 BodyConsumer
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aMainThreadEventTarget
 nsIGlobalObject
@@ -294,7 +294,7 @@ mTargetThread
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mMainThreadEventTarget
 ;
