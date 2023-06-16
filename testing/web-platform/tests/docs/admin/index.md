@@ -617,11 +617,6 @@ bocoup
 .
 com
 -
-simon
-bocoup
-.
-com
--
 [
 GitHub
 ]
@@ -654,11 +649,6 @@ bocoup
 com
 -
 mike
-bocoup
-.
-com
--
-simon
 bocoup
 .
 com
