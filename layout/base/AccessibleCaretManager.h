@@ -502,6 +502,7 @@ const
 bool
 IsPhoneNumber
 (
+const
 nsAString
 &
 aCandidate
