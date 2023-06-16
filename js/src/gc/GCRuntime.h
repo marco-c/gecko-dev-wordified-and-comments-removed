@@ -3679,6 +3679,7 @@ AutoLockGC
 lock
 )
 ;
+static
 void
 gcIfNeededAtAllocation
 (

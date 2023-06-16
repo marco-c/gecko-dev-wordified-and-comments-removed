@@ -2152,7 +2152,6 @@ JSRuntime
 *
 runtime_
 ;
-const
 Nursery
 &
 nursery_
@@ -2190,7 +2189,6 @@ StoreBuffer
 JSRuntime
 *
 rt
-const
 Nursery
 &
 nursery
