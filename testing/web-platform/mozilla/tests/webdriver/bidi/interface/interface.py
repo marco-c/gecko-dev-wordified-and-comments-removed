@@ -89,6 +89,16 @@ server_host
 server_port
 }
 "
+requested_capabilities
+=
+{
+"
+alwaysMatch
+"
+:
+{
+}
+}
     
 )
 as
