@@ -88,6 +88,9 @@ namespace
 dom
 {
 class
+CustomElementFormValue
+;
+class
 HTMLFormElement
 ;
 class
@@ -697,6 +700,11 @@ get
 )
 ;
 }
+CustomElementFormValue
+ConvertToCustomElementFormValue
+(
+)
+;
 private
 :
 nsCOMPtr
