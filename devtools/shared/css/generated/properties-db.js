@@ -1410,7 +1410,7 @@ inline
 -
 end
 -
-color
+width
 "
 "
 border
@@ -1428,7 +1428,7 @@ inline
 -
 end
 -
-width
+color
 "
 ]
 "
@@ -2092,7 +2092,7 @@ inline
 -
 start
 -
-color
+width
 "
 "
 border
@@ -2110,7 +2110,7 @@ inline
 -
 start
 -
-width
+color
 "
 ]
 "
@@ -17369,7 +17369,7 @@ border
 -
 top
 -
-color
+width
 "
 "
 border
@@ -17383,14 +17383,14 @@ border
 -
 top
 -
-width
+color
 "
 "
 border
 -
 right
 -
-color
+width
 "
 "
 border
@@ -17404,14 +17404,14 @@ border
 -
 right
 -
-width
+color
 "
 "
 border
 -
 bottom
 -
-color
+width
 "
 "
 border
@@ -17425,14 +17425,14 @@ border
 -
 bottom
 -
-width
+color
 "
 "
 border
 -
 left
 -
-color
+width
 "
 "
 border
@@ -17446,7 +17446,7 @@ border
 -
 left
 -
-width
+color
 "
 "
 border
@@ -17929,7 +17929,7 @@ block
 -
 end
 -
-color
+width
 "
 "
 border
@@ -17947,7 +17947,7 @@ block
 -
 end
 -
-width
+color
 "
 ]
 "
@@ -18361,7 +18361,7 @@ block
 -
 start
 -
-color
+width
 "
 "
 border
@@ -18379,7 +18379,7 @@ block
 -
 start
 -
-width
+color
 "
 ]
 "
@@ -18964,7 +18964,7 @@ border
 -
 bottom
 -
-color
+width
 "
 "
 border
@@ -18978,7 +18978,7 @@ border
 -
 bottom
 -
-width
+color
 "
 ]
 "
@@ -20797,7 +20797,7 @@ inline
 -
 end
 -
-color
+width
 "
 "
 border
@@ -20815,7 +20815,7 @@ inline
 -
 end
 -
-width
+color
 "
 ]
 "
@@ -21229,7 +21229,7 @@ inline
 -
 start
 -
-color
+width
 "
 "
 border
@@ -21247,7 +21247,7 @@ inline
 -
 start
 -
-width
+color
 "
 ]
 "
@@ -21832,7 +21832,7 @@ border
 -
 left
 -
-color
+width
 "
 "
 border
@@ -21846,7 +21846,7 @@ border
 -
 left
 -
-width
+color
 "
 ]
 "
@@ -22328,7 +22328,7 @@ border
 -
 right
 -
-color
+width
 "
 "
 border
@@ -22342,7 +22342,7 @@ border
 -
 right
 -
-width
+color
 "
 ]
 "
@@ -23021,7 +23021,7 @@ border
 -
 top
 -
-color
+width
 "
 "
 border
@@ -23035,7 +23035,7 @@ border
 -
 top
 -
-width
+color
 "
 ]
 "
