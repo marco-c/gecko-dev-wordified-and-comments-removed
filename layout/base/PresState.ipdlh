@@ -68,9 +68,6 @@ BlobImpl
 h
 "
 ;
-include
-CustomElementTypes
-;
 namespace
 mozilla
 {
@@ -132,8 +129,6 @@ CheckedContentData
 FileContentData
 [
 ]
-;
-CustomElementTuple
 ;
 }
 ;
