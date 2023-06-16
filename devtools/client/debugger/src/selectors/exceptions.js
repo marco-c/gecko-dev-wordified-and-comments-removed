@@ -10,6 +10,7 @@ reselect
 import
 {
 shallowEqual
+arrayShallowEqual
 }
 from
 "
@@ -109,12 +110,16 @@ sourceExceptions
 ;
 }
 {
+memoizeOptions
+:
+{
 equalityCheck
 :
 shallowEqual
 resultEqualityCheck
 :
-shallowEqual
+arrayShallowEqual
+}
 }
 )
 ;
