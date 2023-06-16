@@ -803,6 +803,7 @@ motion
 :
 {
 OffsetPath
+OffsetPosition
 OffsetRotate
 }
 ;
