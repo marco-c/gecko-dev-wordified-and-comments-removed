@@ -355,6 +355,11 @@ set_timestamp_rtp
 rtp_timestamp_
 )
 .
+set_capture_time_identifier
+(
+capture_time_identifier_
+)
+.
 build
 (
 )
