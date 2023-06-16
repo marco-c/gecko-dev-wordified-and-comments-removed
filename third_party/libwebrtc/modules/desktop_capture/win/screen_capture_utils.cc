@@ -660,6 +660,9 @@ HMONITOR
 monitor
 )
 {
+#
+if
+0
 UINT
 dpi_x
 dpi_y
@@ -758,6 +761,8 @@ return
 dpi
 ;
 }
+#
+endif
 return
 {
 96
