@@ -3687,23 +3687,6 @@ stack
 "
         
 if
-options
-.
-topsrcdir
-:
-            
-browserEnv
-[
-"
-MOZ_DEVELOPER_REPO_DIR
-"
-]
-=
-options
-.
-topsrcdir
-        
-if
 hasattr
 (
 options
