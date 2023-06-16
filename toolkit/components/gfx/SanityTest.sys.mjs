@@ -1418,10 +1418,10 @@ Services
 .
 prefs
 .
-getBoolPref
+getIntPref
 (
 MEDIA_ENGINE_PREF
-false
+0
 )
 )
 {
@@ -1429,10 +1429,10 @@ Services
 .
 prefs
 .
-setBoolPref
+setIntPref
 (
 MEDIA_ENGINE_PREF
-false
+0
 )
 ;
 this
