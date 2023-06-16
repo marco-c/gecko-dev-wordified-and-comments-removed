@@ -3180,6 +3180,8 @@ readFunc
 BufferReader
 *
 )
+=
+nullptr
 ;
 switch
 (
@@ -3263,6 +3265,9 @@ i
 =
 0
 ;
+readFunc
+&
+&
 i
 <
 vbriSeekOffsetsTableSize
