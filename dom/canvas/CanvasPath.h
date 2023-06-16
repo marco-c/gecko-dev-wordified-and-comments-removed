@@ -89,10 +89,8 @@ NS_DECL_CYCLE_COLLECTION_NATIVE_WRAPPERCACHE_CLASS
 (
 CanvasPath
 )
-nsCOMPtr
-<
 nsISupports
->
+*
 GetParentObject
 (
 )
