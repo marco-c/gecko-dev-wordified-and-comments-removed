@@ -697,7 +697,7 @@ ANDROID
 &
 defined
 (
-ARCH_CPU_ARM64
+__aarch64__
 )
 std
 :
