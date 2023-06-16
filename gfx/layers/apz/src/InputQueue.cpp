@@ -4634,6 +4634,12 @@ block
 SetDragMetrics
 (
 aDragMetrics
+aTargetApzc
+-
+>
+GetScrollableRect
+(
+)
 )
 ;
 success
