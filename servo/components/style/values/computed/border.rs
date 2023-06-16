@@ -186,6 +186,12 @@ BorderImageRepeat
 ;
 pub
 type
+LineWidth
+=
+Au
+;
+pub
+type
 BorderSideWidth
 =
 Au
