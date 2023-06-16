@@ -1043,6 +1043,12 @@ GetStorageManager
 )
 override
 ;
+bool
+IsEligibleForMessaging
+(
+)
+override
+;
 void
 TraceGlobalJSObject
 (

@@ -919,6 +919,17 @@ return
 nullptr
 ;
 }
+virtual
+bool
+IsEligibleForMessaging
+(
+)
+{
+return
+false
+;
+}
+;
 protected
 :
 virtual

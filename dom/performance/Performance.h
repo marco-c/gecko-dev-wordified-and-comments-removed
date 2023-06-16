@@ -105,7 +105,7 @@ class
 PerformanceEventTiming
 ;
 class
-WorkerPrivate
+WorkerGlobalScope
 ;
 class
 EventCounts
@@ -164,9 +164,9 @@ Performance
 >
 CreateForWorker
 (
-WorkerPrivate
+WorkerGlobalScope
 *
-aWorkerPrivate
+aGlobalScope
 )
 ;
 static
