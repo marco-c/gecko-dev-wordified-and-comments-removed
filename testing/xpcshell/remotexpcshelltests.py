@@ -1875,24 +1875,6 @@ js
         
 self
 .
-httpdJSPath
-=
-posixpath
-.
-join
-(
-self
-.
-remoteComponentsDir
-"
-httpd
-.
-js
-"
-)
-        
-self
-.
 testingModulesDir
 =
 self
