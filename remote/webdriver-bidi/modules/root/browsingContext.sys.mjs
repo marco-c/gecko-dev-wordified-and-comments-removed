@@ -1603,6 +1603,11 @@ browser
 browsingContext
 .
 webProgress
+{
+unloadTimeout
+:
+5000
+}
 )
 ;
 return

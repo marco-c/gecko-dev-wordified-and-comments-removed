@@ -15773,6 +15773,11 @@ contentBrowser
 browsingContext
 .
 webProgress
+{
+unloadTimeout
+:
+5000
+}
 )
 ;
 const
