@@ -497,9 +497,10 @@ win
 )
 ;
 await
-assertSawClickEventOnly
+assertSawMouseEvents
 (
 browser
+false
 )
 ;
 await
