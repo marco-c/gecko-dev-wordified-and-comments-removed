@@ -61,7 +61,7 @@ src
 /
 images
 /
-green
+lcp
 -
 {
 size
@@ -151,7 +151,7 @@ url
 /
 images
 /
-green
+lcp
 -
 {
 size
