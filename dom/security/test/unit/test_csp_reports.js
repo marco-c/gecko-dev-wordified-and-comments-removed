@@ -799,6 +799,7 @@ nsIContentPolicy
 .
 TYPE_SCRIPT
 null
+null
 NetUtil
 .
 newURI
@@ -819,8 +820,6 @@ js
 )
 null
 true
-null
-false
 )
 ;
 }
@@ -1027,6 +1026,7 @@ nsIContentPolicy
 .
 TYPE_IMAGE
 null
+null
 NetUtil
 .
 newURI
@@ -1045,8 +1045,6 @@ base64data
 )
 null
 true
-null
-false
 )
 ;
 }
@@ -1082,6 +1080,7 @@ nsIContentPolicy
 .
 TYPE_SUBDOCUMENT
 null
+null
 NetUtil
 .
 newURI
@@ -1116,8 +1115,6 @@ sll
 )
 null
 true
-null
-false
 )
 ;
 }
@@ -1173,6 +1170,7 @@ nsIContentPolicy
 .
 TYPE_SCRIPT
 null
+null
 NetUtil
 .
 newURI
@@ -1186,8 +1184,6 @@ bar
 )
 null
 true
-null
-false
 )
 ;
 }
