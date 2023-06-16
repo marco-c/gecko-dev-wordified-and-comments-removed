@@ -765,7 +765,6 @@ bailing
 out
 :
 "
-+
 result
 )
 )

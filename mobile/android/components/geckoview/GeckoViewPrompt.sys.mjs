@@ -1998,7 +1998,6 @@ manager
 failed
 :
 "
-+
 e
 )
 ;

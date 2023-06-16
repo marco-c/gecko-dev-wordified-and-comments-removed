@@ -2161,7 +2161,6 @@ SearchSuggestionController
 rejection
 :
 "
-+
 reason
 )
 ;
@@ -3900,7 +3899,6 @@ string
 value
 :
 "
-+
 resultData
 )
 ;

@@ -495,9 +495,7 @@ userDataPathSuffix
 os_crypt
 key
 :
-{
 ex
-}
 )
 ;
 /

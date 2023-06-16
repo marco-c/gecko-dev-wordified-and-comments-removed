@@ -1150,7 +1150,6 @@ showing
 nsIHelperAppLauncherDialog
 :
 "
-+
 ex
 )
 ;

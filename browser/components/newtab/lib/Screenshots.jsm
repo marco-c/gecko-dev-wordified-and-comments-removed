@@ -257,9 +257,7 @@ url
 )
 failed
 :
-{
 err
-}
 )
 ;
 }

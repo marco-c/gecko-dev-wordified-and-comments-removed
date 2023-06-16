@@ -519,11 +519,9 @@ this
 _filename
 }
 :
-{
 error
 .
 message
-}
 )
 ;
 }

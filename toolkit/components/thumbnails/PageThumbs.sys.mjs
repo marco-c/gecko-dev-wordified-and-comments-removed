@@ -2522,12 +2522,8 @@ during
 thumbnail
 capture
 :
-'
 "
 ex
-"
-'
-"
 )
 ;
 }

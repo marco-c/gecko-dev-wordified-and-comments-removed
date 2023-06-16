@@ -14122,10 +14122,7 @@ fixup
 searchString
 }
 "
-:
-{
 ex
-}
 )
 ;
 }
@@ -17373,10 +17370,7 @@ fixup
 value
 }
 "
-:
-{
 ex
-}
 )
 ;
 }

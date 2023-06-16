@@ -893,9 +893,7 @@ about
 :
 config
 .
-{
 e
-}
 )
 ;
 }
@@ -2306,11 +2304,9 @@ fetch
 endpoint
 }
 :
-{
 error
 .
 message
-}
 )
 ;
 }
@@ -4058,9 +4054,7 @@ feed
 url
 }
 :
-{
 error
-}
 )
 ;
 }
@@ -7385,6 +7379,7 @@ console
 .
 error
 (
+"
 Error
 trying
 to
@@ -7392,9 +7387,8 @@ load
 spocs
 feeds
 :
-{
+"
 error
-}
 )
 )
 ;
@@ -7432,6 +7426,7 @@ console
 .
 error
 (
+"
 Error
 trying
 to
@@ -7439,9 +7434,8 @@ load
 component
 feeds
 :
-{
+"
 error
-}
 )
 )
 ;

@@ -38,8 +38,6 @@ crashed
 while
 on
 "
-+
-(
 uri
 ?
 uri
@@ -50,12 +48,6 @@ spec
 <
 unknown
 >
-"
-)
-+
-"
-\
-n
 "
 )
 ;

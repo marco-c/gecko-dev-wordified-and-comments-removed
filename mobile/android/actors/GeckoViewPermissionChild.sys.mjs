@@ -518,7 +518,6 @@ Permission
 error
 :
 "
-+
 error
 )
 ;

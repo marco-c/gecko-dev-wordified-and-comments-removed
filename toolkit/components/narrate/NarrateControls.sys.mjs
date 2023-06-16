@@ -2024,13 +2024,12 @@ console
 .
 error
 (
+"
 Narrate
 failed
 :
-{
+"
 err
-}
-.
 )
 ;
 }

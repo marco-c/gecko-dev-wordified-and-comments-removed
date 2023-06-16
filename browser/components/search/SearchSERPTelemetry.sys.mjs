@@ -1548,15 +1548,15 @@ console
 .
 error
 (
+"
 Received
 unexpected
 event
 type
-{
+"
 event
 .
 type
-}
 )
 ;
 return

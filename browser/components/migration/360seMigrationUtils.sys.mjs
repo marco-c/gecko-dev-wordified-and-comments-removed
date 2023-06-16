@@ -544,9 +544,7 @@ because
 of
 exception
 :
-{
 ex
-}
 )
 ;
 continue

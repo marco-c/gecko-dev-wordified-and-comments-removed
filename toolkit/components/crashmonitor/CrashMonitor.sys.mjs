@@ -777,6 +777,7 @@ console
 .
 error
 (
+"
 Error
 while
 loading
@@ -784,11 +785,10 @@ crash
 monitor
 data
 :
-{
+"
 ex
 .
 message
-}
 )
 ;
 }

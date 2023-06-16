@@ -2183,6 +2183,7 @@ console
 .
 error
 (
+"
 DownloadsCommon
 :
 error
@@ -2190,11 +2191,10 @@ recording
 telemetry
 event
 .
-{
+"
 ex
 .
 message
-}
 )
 ;
 }

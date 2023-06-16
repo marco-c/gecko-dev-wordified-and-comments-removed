@@ -797,7 +797,6 @@ bailing
 out
 :
 "
-+
 status
 )
 )
@@ -2019,10 +2018,7 @@ history
 failed
 :
 "
-+
 error
-.
-message
 )
 )
 ;

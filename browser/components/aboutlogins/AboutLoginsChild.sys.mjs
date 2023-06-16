@@ -210,10 +210,7 @@ telemetry
 event
 :
 "
-+
 ex
-.
-message
 )
 ;
 }
