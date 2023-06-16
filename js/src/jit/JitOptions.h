@@ -368,6 +368,9 @@ bool
 spectreJitToCxxCalls
 ;
 bool
+writeProtectCode
+;
+bool
 supportsUnalignedAccesses
 ;
 BaseRegForAddress
@@ -448,6 +451,13 @@ val
 void
 setFastWarmUp
 (
+)
+;
+void
+maybeSetWriteProtectCode
+(
+bool
+val
 )
 ;
 bool
