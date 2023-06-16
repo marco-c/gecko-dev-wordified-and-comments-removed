@@ -1579,8 +1579,6 @@ UniquePtr
 ClientSource
 >
 aClientSource
-bool
-aShouldResistFingerprinting
 )
 :
 mWorkerPrivate
@@ -1605,10 +1603,6 @@ aWorkerPrivate
 HybridEventTarget
 (
 )
-)
-mShouldResistFingerprinting
-(
-aShouldResistFingerprinting
 )
 {
 LOG
@@ -1776,13 +1770,10 @@ AssertIsOnWorkerThread
 )
 ;
 return
-mShouldResistFingerprinting
-&
-&
-nsRFPService
-:
-:
-IsRFPEnabledFor
+mWorkerPrivate
+-
+>
+ShouldResistFingerprinting
 (
 aTarget
 )
@@ -4727,8 +4718,6 @@ const
 nsString
 &
 aName
-bool
-aShouldResistFingerprinting
 )
 :
 WorkerGlobalScope
@@ -4747,7 +4736,6 @@ move
 (
 aClientSource
 )
-aShouldResistFingerprinting
 )
 NamedWorkerGlobalScopeMixin
 (
@@ -5537,8 +5525,6 @@ const
 nsString
 &
 aName
-bool
-aShouldResistFingerprinting
 )
 :
 WorkerGlobalScope
@@ -5557,7 +5543,6 @@ move
 (
 aClientSource
 )
-aShouldResistFingerprinting
 )
 NamedWorkerGlobalScopeMixin
 (
@@ -5703,8 +5688,6 @@ const
 ServiceWorkerRegistrationDescriptor
 &
 aRegistrationDescriptor
-bool
-aShouldResistFingerprinting
 )
 :
 WorkerGlobalScope
@@ -5723,7 +5706,6 @@ move
 (
 aClientSource
 )
-aShouldResistFingerprinting
 )
 mScope
 (
