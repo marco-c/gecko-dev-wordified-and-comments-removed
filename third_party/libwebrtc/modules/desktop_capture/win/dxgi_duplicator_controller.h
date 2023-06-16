@@ -257,7 +257,7 @@ monitor_id
 )
 ;
 DesktopVector
-dpi
+system_dpi
 (
 )
 ;
@@ -577,7 +577,7 @@ mutex_
 )
 ;
 DesktopVector
-dpi_
+system_dpi_
 RTC_GUARDED_BY
 (
 mutex_

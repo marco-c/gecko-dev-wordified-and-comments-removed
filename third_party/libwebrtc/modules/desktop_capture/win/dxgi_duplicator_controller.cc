@@ -607,7 +607,7 @@ DesktopVector
 DxgiDuplicatorController
 :
 :
-dpi
+system_dpi
 (
 )
 {
@@ -626,7 +626,7 @@ Initialize
 )
 {
 return
-dpi_
+system_dpi_
 ;
 }
 return
@@ -748,6 +748,10 @@ display_configuration_monitor_
 .
 IsChanged
 (
+frame
+-
+>
+source_id_
 )
 )
 {
@@ -1326,7 +1330,7 @@ if
 hdc
 )
 {
-dpi_
+system_dpi_
 .
 set
 (
@@ -1632,7 +1636,7 @@ target
 >
 set_dpi
 (
-dpi_
+system_dpi_
 )
 ;
 return

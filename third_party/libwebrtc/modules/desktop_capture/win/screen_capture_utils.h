@@ -134,6 +134,13 @@ HMONITOR
 monitor
 )
 ;
+DesktopVector
+GetDpiForMonitor
+(
+HMONITOR
+monitor
+)
+;
 bool
 IsScreenValid
 (
