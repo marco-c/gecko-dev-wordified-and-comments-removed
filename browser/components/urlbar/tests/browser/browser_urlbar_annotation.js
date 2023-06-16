@@ -530,7 +530,7 @@ payload
 url
 :
 "
-http
+https
 :
 /
 /
@@ -574,7 +574,7 @@ payload
 url
 :
 "
-http
+https
 :
 /
 /
@@ -604,7 +604,7 @@ io
 newURI
 (
 "
-http
+https
 :
 /
 /
@@ -655,7 +655,7 @@ payload
 url
 :
 "
-http
+https
 :
 /
 /
@@ -688,7 +688,7 @@ io
 newURI
 (
 "
-http
+https
 :
 /
 /
@@ -737,7 +737,7 @@ payload
 url
 :
 "
-http
+https
 :
 /
 /
@@ -927,7 +927,7 @@ const
 redirectTo
 =
 "
-http
+https
 :
 /
 /
@@ -944,7 +944,7 @@ payload
 url
 :
 "
-http
+https
 :
 /
 /
@@ -1441,7 +1441,7 @@ payload
 url
 :
 "
-http
+https
 :
 /
 /
