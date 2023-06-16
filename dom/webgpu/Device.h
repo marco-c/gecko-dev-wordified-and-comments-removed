@@ -363,7 +363,7 @@ gfx
 :
 :
 IntSize
-aDefaultSize
+aCanvasSize
 )
 ;
 bool
