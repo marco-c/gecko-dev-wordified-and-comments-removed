@@ -44,10 +44,7 @@ sourceId
 =
 context
 .
-source
-?
-.
-id
+sourceId
 |
 |
 context

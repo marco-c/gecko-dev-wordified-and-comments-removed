@@ -27,13 +27,11 @@ location
 )
 {
 const
+{
 sourceId
+}
 =
 location
-.
-source
-.
-id
 ;
 let
 parsedScopes

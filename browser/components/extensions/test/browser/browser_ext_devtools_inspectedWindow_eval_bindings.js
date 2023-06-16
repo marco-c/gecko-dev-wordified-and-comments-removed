@@ -783,9 +783,7 @@ return
 (
 selectedLocation
 .
-source
-.
-id
+sourceId
 .
 includes
 (

@@ -481,9 +481,7 @@ isOriginalSource
 !
 selectedLocation
 .
-source
-.
-id
+sourceId
 .
 includes
 (
@@ -503,9 +501,7 @@ return
 (
 selectedLocation
 .
-source
-.
-id
+sourceId
 .
 includes
 (
