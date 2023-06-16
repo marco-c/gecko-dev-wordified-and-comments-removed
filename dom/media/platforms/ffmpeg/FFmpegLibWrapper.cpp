@@ -752,6 +752,15 @@ AV_FUNC_AVCODEC_ALL
 )
 AV_FUNC
 (
+avcodec_find_decoder_by_name
+AV_FUNC_58
+|
+AV_FUNC_59
+|
+AV_FUNC_60
+)
+AV_FUNC
+(
 avcodec_flush_buffers
 AV_FUNC_AVCODEC_ALL
 )
