@@ -466,6 +466,13 @@ Nothing
 )
 const
 ;
+bool
+IsEmpty
+(
+)
+const
+override
+;
 private
 :
 friend
