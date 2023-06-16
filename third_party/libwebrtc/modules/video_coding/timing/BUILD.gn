@@ -101,7 +101,7 @@ gni
 rtc_library
 (
 "
-codec_timer
+decode_time_percentile_filter
 "
 )
 {
@@ -109,12 +109,12 @@ sources
 =
 [
 "
-codec_timer
+decode_time_percentile_filter
 .
 cc
 "
 "
-codec_timer
+decode_time_percentile_filter
 .
 h
 "
@@ -757,7 +757,7 @@ deps
 [
 "
 :
-codec_timer
+decode_time_percentile_filter
 "
 "
 :
