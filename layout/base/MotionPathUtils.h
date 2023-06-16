@@ -845,6 +845,10 @@ StylePositionOrAuto
 *
 aAnchor
 const
+StyleOffsetPosition
+*
+aPosition
+const
 Maybe
 <
 layers

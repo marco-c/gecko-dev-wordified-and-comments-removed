@@ -2142,6 +2142,10 @@ StylePositionOrAuto
 *
 aAnchor
 const
+StyleOffsetPosition
+*
+aPosition
+const
 Maybe
 <
 layers
@@ -2256,6 +2260,11 @@ aAnchor
 aAnchor
 :
 autoOffsetAnchor
+aPosition
+?
+*
+aPosition
+:
 autoOffsetPosition
 aMotionPathData
 -

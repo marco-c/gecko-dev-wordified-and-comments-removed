@@ -2138,6 +2138,11 @@ offset
 anchor
 "
 "
+offset
+-
+position
+"
+"
 opacity
 "
 "
@@ -2219,6 +2224,13 @@ case
 offset
 -
 anchor
+"
+:
+case
+"
+offset
+-
+position
 "
 :
 case

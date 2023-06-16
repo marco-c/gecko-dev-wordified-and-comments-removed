@@ -1295,6 +1295,9 @@ eCSSProperty_offset_rotate
 case
 eCSSProperty_offset_anchor
 :
+case
+eCSSProperty_offset_position
+:
 {
 MOZ_ASSERT
 (
