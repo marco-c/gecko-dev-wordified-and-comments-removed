@@ -1,5 +1,0 @@
-from
-.
-android
-import
-WebExtensionAndroid
