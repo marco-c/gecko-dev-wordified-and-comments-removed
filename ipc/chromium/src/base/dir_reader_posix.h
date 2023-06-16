@@ -20,7 +20,7 @@ h
 if
 defined
 (
-OS_LINUX
+XP_LINUX
 )
 #
 include
@@ -73,7 +73,7 @@ base
 if
 defined
 (
-OS_LINUX
+XP_LINUX
 )
 typedef
 DirReaderLinux

@@ -48,7 +48,7 @@ h
 elif
 defined
 (
-OS_LINUX
+XP_LINUX
 )
 |
 |
@@ -500,7 +500,7 @@ endif
 if
 defined
 (
-OS_LINUX
+XP_LINUX
 )
 struct
 ForkDelegate

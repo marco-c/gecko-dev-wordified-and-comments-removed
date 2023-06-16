@@ -6029,7 +6029,7 @@ path
 if
 defined
 (
-OS_LINUX
+XP_LINUX
 )
 |
 |
@@ -6498,7 +6498,7 @@ IsDummy
 if
 defined
 (
-OS_LINUX
+XP_LINUX
 )
 |
 |

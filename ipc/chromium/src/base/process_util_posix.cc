@@ -512,7 +512,7 @@ fd
 elif
 defined
 (
-OS_LINUX
+XP_LINUX
 )
 |
 |

@@ -532,7 +532,7 @@ stderr
 ;
 #
 ifdef
-OS_LINUX
+XP_LINUX
 pid_t
 pid
 =
@@ -1410,7 +1410,7 @@ GCOV_CHILD_PREFIX
 endif
 #
 ifdef
-OS_LINUX
+XP_LINUX
 pid_t
 pid
 =

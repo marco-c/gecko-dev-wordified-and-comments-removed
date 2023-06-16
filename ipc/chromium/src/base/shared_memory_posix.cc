@@ -62,7 +62,7 @@ h
 endif
 #
 ifdef
-OS_LINUX
+XP_LINUX
 #
 include
 "
@@ -617,7 +617,7 @@ HAVE_MEMFD_CREATE
 &
 defined
 (
-OS_LINUX
+XP_LINUX
 )
 &
 &
