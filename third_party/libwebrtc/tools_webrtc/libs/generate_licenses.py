@@ -707,6 +707,20 @@ LICENSE
 ]
     
 '
+kotlin_stdlib
+'
+:
+[
+'
+third_party
+/
+kotlin_stdlib
+/
+LICENSE
+'
+]
+    
+'
 android_deps
 '
 :
