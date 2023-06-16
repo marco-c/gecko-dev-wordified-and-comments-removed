@@ -88,17 +88,6 @@ doTest
 )
 {
 await
-BrowserTestUtils
-.
-withNewTab
-(
-{
-gBrowser
-}
-openProtectionsPanel
-)
-;
-await
 TrackingDBService
 .
 clearAll
