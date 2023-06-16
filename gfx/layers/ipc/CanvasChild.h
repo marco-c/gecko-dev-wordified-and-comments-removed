@@ -51,6 +51,15 @@ h
 #
 include
 "
+mozilla
+/
+WeakPtr
+.
+h
+"
+#
+include
+"
 nsRefPtrHashtable
 .
 h
@@ -84,6 +93,8 @@ final
 :
 public
 PCanvasChild
+public
+SupportsWeakPtr
 {
 public
 :
