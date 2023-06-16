@@ -3,8 +3,8 @@ clap
 :
 :
 {
-ArgEnum
 Parser
+ValueEnum
 }
 ;
 #
@@ -16,7 +16,7 @@ Parser
 ]
 #
 [
-clap
+command
 (
 author
 version
@@ -31,9 +31,9 @@ Cli
 {
 #
 [
-clap
+arg
 (
-arg_enum
+value_enum
 )
 ]
 mode
@@ -50,7 +50,7 @@ PartialEq
 Eq
 PartialOrd
 Ord
-ArgEnum
+ValueEnum
 )
 ]
 enum

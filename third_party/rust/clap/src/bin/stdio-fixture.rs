@@ -91,6 +91,17 @@ log
 "
 )
 .
+action
+(
+clap
+:
+:
+ArgAction
+:
+:
+SetTrue
+)
+.
 long_help
 (
 "

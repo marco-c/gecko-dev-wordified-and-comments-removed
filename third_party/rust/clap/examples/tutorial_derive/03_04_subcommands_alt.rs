@@ -17,7 +17,7 @@ Parser
 ]
 #
 [
-clap
+command
 (
 author
 version
@@ -29,7 +29,7 @@ None
 ]
 #
 [
-clap
+command
 (
 propagate_version
 =
@@ -41,7 +41,7 @@ Cli
 {
 #
 [
-clap
+command
 (
 subcommand
 )
@@ -62,7 +62,7 @@ Commands
 {
 Add
 (
-Add
+AddArgs
 )
 }
 #
@@ -73,7 +73,7 @@ Args
 )
 ]
 struct
-Add
+AddArgs
 {
 name
 :
