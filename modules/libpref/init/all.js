@@ -13292,16 +13292,6 @@ delta_multiplier_z
 pref
 (
 "
-profile
-.
-manage_only_at_launch
-"
-false
-)
-;
-pref
-(
-"
 layout
 .
 scrollbar
