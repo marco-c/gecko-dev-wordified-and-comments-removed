@@ -1665,15 +1665,6 @@ New_HyperText
 )
 MARKUPMAP
 (
-s
-New_HyperText
-roles
-:
-:
-CONTENT_DELETION
-)
-MARKUPMAP
-(
 section
 [
 ]
