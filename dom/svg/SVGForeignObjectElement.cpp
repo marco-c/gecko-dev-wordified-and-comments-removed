@@ -488,14 +488,7 @@ SVGT
 Height
 >
 (
-const_cast
-<
-SVGForeignObjectElement
-*
->
-(
 this
-)
 &
 width
 &

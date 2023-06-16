@@ -217,9 +217,11 @@ public
 explicit
 SVGElementMetrics
 (
+const
 SVGElement
 *
 aSVGElement
+const
 SVGViewportElement
 *
 aCtx
@@ -258,11 +260,13 @@ EnsureCtx
 )
 const
 ;
+const
 SVGElement
 *
 mSVGElement
 ;
 mutable
+const
 SVGViewportElement
 *
 mCtx
@@ -511,6 +515,7 @@ const
 float
 GetBaseValue
 (
+const
 SVGElement
 *
 aSVGElement
@@ -530,6 +535,7 @@ mSpecifiedUnitType
 float
 GetAnimValue
 (
+const
 SVGElement
 *
 aSVGElement
@@ -568,6 +574,7 @@ mSpecifiedUnitType
 float
 GetAnimValue
 (
+const
 SVGViewportElement
 *
 aCtx
@@ -666,6 +673,7 @@ mBaseVal
 float
 GetBaseValue
 (
+const
 SVGViewportElement
 *
 aCtx
@@ -793,6 +801,7 @@ const
 float
 GetPixelsPerUnit
 (
+const
 SVGElement
 *
 aSVGElement
@@ -804,6 +813,7 @@ const
 float
 GetPixelsPerUnit
 (
+const
 SVGViewportElement
 *
 aCtx

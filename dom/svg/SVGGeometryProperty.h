@@ -461,6 +461,7 @@ CTD
 float
 ResolvePureLengthPercentage
 (
+const
 SVGElement
 *
 aElement
@@ -509,6 +510,7 @@ ComputedStyle
 const
 &
 aStyle
+const
 SVGElement
 *
 aElement
@@ -562,6 +564,7 @@ ComputedStyle
 const
 &
 aStyle
+const
 SVGElement
 *
 aElement
@@ -977,6 +980,7 @@ ComputedStyle
 const
 &
 aStyle
+const
 SVGElement
 *
 aElement
@@ -1165,14 +1169,7 @@ Tag
 >
 (
 aStyle
-const_cast
-<
-SVGElement
-*
->
-(
 aElement
-)
 typename
 Tag
 :

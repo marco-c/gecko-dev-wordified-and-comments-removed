@@ -275,6 +275,7 @@ GetLength
 uint8_t
 aCtxType
 )
+const
 ;
 bool
 HasViewBox
