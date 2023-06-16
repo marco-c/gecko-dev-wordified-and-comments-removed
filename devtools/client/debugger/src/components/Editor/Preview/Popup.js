@@ -670,6 +670,11 @@ autoExpandDepth
 {
 0
 }
+autoReleaseObjectActors
+=
+{
+false
+}
 mode
 =
 {

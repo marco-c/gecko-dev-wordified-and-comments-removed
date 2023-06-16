@@ -265,6 +265,11 @@ autoExpandDepth
 {
 0
 }
+autoReleaseObjectActors
+=
+{
+true
+}
 closeObjectInspector
 =
 {
@@ -803,6 +808,11 @@ autoExpandDepth
 =
 {
 0
+}
+autoReleaseObjectActors
+=
+{
+true
 }
 closeObjectInspector
 =
@@ -1347,6 +1357,11 @@ autoExpandDepth
 =
 {
 0
+}
+autoReleaseObjectActors
+=
+{
+true
 }
 closeObjectInspector
 =

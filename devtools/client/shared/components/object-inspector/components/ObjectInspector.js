@@ -273,6 +273,12 @@ Component
 {
 static
 defaultProps
+=
+{
+autoReleaseObjectActors
+:
+true
+}
 ;
 constructor
 (
@@ -813,6 +819,15 @@ componentWillUnmount
 (
 )
 {
+if
+(
+this
+.
+props
+.
+autoReleaseObjectActors
+)
+{
 this
 .
 props
@@ -826,6 +841,7 @@ props
 roots
 )
 ;
+}
 }
 getItemChildren
 (
