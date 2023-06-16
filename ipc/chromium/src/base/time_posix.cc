@@ -710,7 +710,7 @@ denom
 elif
 defined
 (
-OS_OPENBSD
+XP_OPENBSD
 )
 |
 |

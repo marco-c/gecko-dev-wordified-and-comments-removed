@@ -206,7 +206,7 @@ offset_
 ;
 #
 ifdef
-OS_DRAGONFLY
+__DragonFly__
 offset_
 +
 =

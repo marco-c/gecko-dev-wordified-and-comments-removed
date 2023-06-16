@@ -95,7 +95,7 @@ XP_DARWIN
 |
 defined
 (
-OS_NETBSD
+XP_NETBSD
 )
 #
 include
@@ -3359,7 +3359,7 @@ XP_DARWIN
 |
 defined
 (
-OS_NETBSD
+XP_NETBSD
 )
 case
 EMSGSIZE
