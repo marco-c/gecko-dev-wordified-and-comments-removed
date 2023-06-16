@@ -67,13 +67,6 @@ True
 genTestUtils_union
 (
 '
-templates
--
-new
-.
-yaml
-'
-'
 name2dir
 .
 yaml

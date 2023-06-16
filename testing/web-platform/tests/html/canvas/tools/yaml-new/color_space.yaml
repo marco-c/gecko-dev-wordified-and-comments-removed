@@ -29,7 +29,7 @@ uint8
 canvas
 attributes
 :
-|
+'
 {
 colorSpace
 :
@@ -39,6 +39,7 @@ display
 p3
 "
 }
+'
 code
 :
 |
@@ -231,7 +232,7 @@ uint8
 canvas
 attributes
 :
-|
+'
 {
 colorSpace
 :
@@ -241,6 +242,7 @@ display
 p3
 "
 }
+'
 code
 :
 |
@@ -408,7 +410,7 @@ space
 canvas
 attributes
 :
-|
+'
 {
 colorSpace
 :
@@ -418,6 +420,7 @@ display
 p3
 "
 }
+'
 canvasType
 :
 [
@@ -732,7 +735,7 @@ color
 space
 attributes
 :
-|
+'
 {
 colorSpace
 :
@@ -742,6 +745,7 @@ display
 p3
 "
 }
+'
 canvasType
 :
 [
@@ -1034,7 +1038,7 @@ color
 space
 attributes
 :
-|
+'
 {
 colorSpace
 :
@@ -1044,6 +1048,7 @@ display
 p3
 "
 }
+'
 canvasType
 :
 [
@@ -1337,7 +1342,7 @@ same
 data
 attributes
 :
-|
+'
 {
 colorSpace
 :
@@ -1347,6 +1352,7 @@ display
 p3
 "
 }
+'
 canvasType
 :
 [
@@ -1756,7 +1762,7 @@ same
 data
 attributes
 :
-|
+'
 {
 colorSpace
 :
@@ -1766,6 +1772,7 @@ display
 p3
 "
 }
+'
 canvasType
 :
 [
@@ -2136,7 +2143,7 @@ p3
 color
 attributes
 :
-|
+'
 {
 colorSpace
 :
@@ -2146,6 +2153,7 @@ display
 p3
 "
 }
+'
 canvasType
 :
 [
@@ -2449,7 +2457,7 @@ p3
 color
 attributes
 :
-|
+'
 {
 colorSpace
 :
@@ -2459,6 +2467,7 @@ display
 p3
 "
 }
+'
 canvasType
 :
 [
@@ -2770,7 +2779,7 @@ shadow
 color
 attributes
 :
-|
+'
 {
 colorSpace
 :
@@ -2780,6 +2789,7 @@ display
 p3
 "
 }
+'
 canvasType
 :
 [
