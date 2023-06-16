@@ -10377,6 +10377,13 @@ SwipeFinished
 )
 {
 mSwipeTracker
+-
+>
+Destroy
+(
+)
+;
+mSwipeTracker
 =
 nullptr
 ;
