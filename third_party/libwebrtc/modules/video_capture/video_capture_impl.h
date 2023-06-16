@@ -104,6 +104,17 @@ mutex
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -114,6 +125,7 @@ namespace
 videocapturemodule
 {
 class
+RTC_EXPORT
 VideoCaptureImpl
 :
 public

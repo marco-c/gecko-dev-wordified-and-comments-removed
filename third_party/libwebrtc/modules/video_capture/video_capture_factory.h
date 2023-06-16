@@ -35,6 +35,17 @@ video_capture_defines
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+rtc_export
+.
+h
+"
 namespace
 webrtc
 {
@@ -42,6 +53,7 @@ class
 VideoCaptureOptions
 ;
 class
+RTC_EXPORT
 VideoCaptureFactory
 {
 public
