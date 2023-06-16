@@ -112,6 +112,13 @@ cricket
 :
 FakeVoiceMediaChannel
 (
+MediaChannel
+:
+:
+Role
+:
+:
+kBoth
 nullptr
 cricket
 :
@@ -315,6 +322,13 @@ cricket
 :
 FakeVideoMediaChannel
 (
+MediaChannel
+:
+:
+Role
+:
+:
+kBoth
 nullptr
 cricket
 :

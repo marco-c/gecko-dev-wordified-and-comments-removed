@@ -223,6 +223,11 @@ FakeVoiceMediaChannel
 :
 FakeVoiceMediaChannel
 (
+MediaChannel
+:
+:
+Role
+role
 FakeVoiceEngine
 *
 engine
@@ -240,6 +245,7 @@ RtpHelper
 VoiceMediaChannel
 >
 (
+role
 network_thread
 )
 engine_
@@ -1466,6 +1472,11 @@ FakeVideoMediaChannel
 :
 FakeVideoMediaChannel
 (
+MediaChannel
+:
+:
+Role
+role
 FakeVideoEngine
 *
 engine
@@ -1483,6 +1494,7 @@ RtpHelper
 VideoMediaChannel
 >
 (
+role
 network_thread
 )
 engine_
@@ -2601,6 +2613,11 @@ FakeVoiceEngine
 :
 CreateMediaChannel
 (
+MediaChannel
+:
+:
+Role
+role
 webrtc
 :
 :
@@ -2640,6 +2657,7 @@ ch
 new
 FakeVoiceMediaChannel
 (
+role
 this
 options
 call
@@ -3021,6 +3039,11 @@ FakeVideoEngine
 :
 CreateMediaChannel
 (
+MediaChannel
+:
+:
+Role
+role
 webrtc
 :
 :
@@ -3066,6 +3089,7 @@ ch
 new
 FakeVideoMediaChannel
 (
+role
 this
 options
 call
