@@ -909,14 +909,6 @@ nsRFPService
 =
 default
 ;
-nsCString
-mInitialTZValue
-;
-void
-UpdateRFPPref
-(
-)
-;
 void
 UpdateFPPOverrideList
 (
