@@ -82,14 +82,14 @@ MAX_LIST_LENGTH
 :
 usize
 =
-20
+100
 ;
 const
 MAX_STRING_LENGTH
 :
 usize
 =
-50
+100
 ;
 #
 [

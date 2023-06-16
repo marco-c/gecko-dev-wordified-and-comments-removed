@@ -794,7 +794,7 @@ test_string
 [
 .
 .
-50
+100
 ]
 .
 to_string
@@ -867,7 +867,7 @@ test_string
 [
 .
 .
-50
+100
 ]
 .
 to_string
@@ -1178,7 +1178,7 @@ in
 1
 .
 .
-21
+101
 {
 metric
 .
@@ -1206,7 +1206,7 @@ test_string
 .
 repeat
 (
-20
+100
 )
 .
 split_whitespace
@@ -1317,7 +1317,7 @@ test_string
 .
 repeat
 (
-21
+101
 )
 .
 split_whitespace
