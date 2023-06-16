@@ -683,6 +683,13 @@ UseWebRenderDCompSwVideoOverlayWin
 bool
 false
 )
+\
+_
+(
+AllowSoftwareWebRenderOGL
+bool
+false
+)
 class
 gfxVars
 final
