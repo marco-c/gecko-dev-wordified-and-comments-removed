@@ -264,12 +264,12 @@ nonce
 '
 }
 ]
+}
 mediation
 :
 '
 required
 '
-}
 }
 ;
 }
@@ -342,12 +342,12 @@ nonce
 '
 }
 ]
+}
 mediation
 :
 '
 required
 '
-}
 }
 ;
 }
@@ -382,8 +382,6 @@ clientId
 '
 ;
 options
-.
-identity
 .
 mediation
 =
