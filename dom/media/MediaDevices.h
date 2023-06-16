@@ -522,12 +522,6 @@ aDevices
 )
 const
 ;
-bool
-DeviceInformationCanBeExposed
-(
-)
-const
-;
 nsTHashSet
 <
 nsString
