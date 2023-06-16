@@ -427,6 +427,11 @@ TimeUnit
 aStartTime
 )
 ;
+void
+ShutDownAudioSink
+(
+)
+;
 nsresult
 SyncCreateAudioSink
 (
