@@ -513,6 +513,17 @@ this
 hideHeader
 )
 }
+?
+withViewAll
+=
+{
+ifDefined
+(
+this
+.
+viewAllPage
+)
+}
 >
 <
 span
