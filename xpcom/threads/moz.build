@@ -255,11 +255,6 @@ Mutex
 h
 "
 "
-PerformanceCounter
-.
-h
-"
-"
 Queue
 .
 h
@@ -461,11 +456,6 @@ cpp
 "
 "
 nsTimerImpl
-.
-cpp
-"
-"
-PerformanceCounter
 .
 cpp
 "
