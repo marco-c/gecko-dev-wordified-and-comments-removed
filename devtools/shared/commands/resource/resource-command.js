@@ -67,6 +67,12 @@ targetCommand
 ;
 this
 .
+throttlingDisabled
+=
+false
+;
+this
+.
 _onTargetAvailable
 =
 this
@@ -2183,6 +2189,11 @@ service_worker
 "
 )
 )
+|
+|
+this
+.
+throttlingDisabled
 )
 {
 this

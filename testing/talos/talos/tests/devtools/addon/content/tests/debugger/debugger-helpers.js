@@ -1139,7 +1139,7 @@ selectSource
 selectSource
 ;
 function
-evalInContent
+evalInFrame
 (
 tab
 testFunction
@@ -1211,11 +1211,11 @@ win
 .
 eval
 (
-"
+\
 {
 testFunction
 }
-"
+\
 )
 ;
 }
@@ -1230,6 +1230,12 @@ true
 )
 ;
 }
+exports
+.
+evalInFrame
+=
+evalInFrame
+;
 async
 function
 openDebuggerAndLog
@@ -1635,7 +1641,7 @@ dbg
 )
 ;
 await
-evalInContent
+evalInFrame
 (
 tab
 testFunction
