@@ -415,6 +415,18 @@ NeedAudioSink
 (
 )
 ;
+void
+StartAudioSink
+(
+const
+media
+:
+:
+TimeUnit
+&
+aStartTime
+)
+;
 enum
 class
 AudioSinkStartPolicy
@@ -424,7 +436,7 @@ ASYNC
 }
 ;
 nsresult
-StartAudioSink
+CreateAudioSink
 (
 const
 media
