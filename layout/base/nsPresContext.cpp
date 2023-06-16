@@ -3602,7 +3602,12 @@ mFontVisibility
 ;
 if
 (
-IsChrome
+Document
+(
+)
+-
+>
+ChromeRulesEnabled
 (
 )
 )
