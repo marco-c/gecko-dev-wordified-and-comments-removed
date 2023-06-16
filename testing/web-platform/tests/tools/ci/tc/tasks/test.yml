@@ -31,7 +31,7 @@ wpt
 :
 0
 .
-53
+54
 maxRunTime
 :
 7200
@@ -498,6 +498,12 @@ python3
 7
 -
 dev
+-
+python3
+.
+7
+-
+venv
 tox
 -
 python3_10
@@ -530,6 +536,12 @@ python3
 10
 -
 dev
+-
+python3
+.
+10
+-
+venv
 tests
 -
 affected

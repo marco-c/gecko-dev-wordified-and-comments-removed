@@ -138,6 +138,10 @@ python3
 -
 pip
 \
+python3
+-
+venv
+\
 software
 -
 properties
@@ -290,10 +294,6 @@ install
 -
 upgrade
 pip
-RUN
-pip
-install
-virtualenv
 ENV
 TZ
 "
