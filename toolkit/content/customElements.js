@@ -3556,6 +3556,13 @@ then
 >
 null
 )
+.
+catch
+(
+console
+.
+error
+)
 ;
 }
 ;
