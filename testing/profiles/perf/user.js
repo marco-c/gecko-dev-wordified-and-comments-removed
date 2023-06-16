@@ -1422,3 +1422,17 @@ systemTriggeredAboutBlankAnywhere
 true
 )
 ;
+user_pref
+(
+"
+media
+.
+webspeech
+.
+synth
+.
+dont_notify_on_error
+"
+true
+)
+;
