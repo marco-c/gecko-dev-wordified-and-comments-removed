@@ -44625,6 +44625,9 @@ padding
 box
 "
 "
+path
+"
+"
 polygon
 "
 "

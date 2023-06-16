@@ -2405,12 +2405,6 @@ ClipPathType
 :
 Box
 :
-case
-ClipPathType
-:
-:
-Path
-:
 aUsage
 .
 shouldApplyBasicShapeOrPath

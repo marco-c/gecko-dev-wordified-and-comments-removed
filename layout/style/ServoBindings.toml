@@ -795,12 +795,6 @@ StyleVisibility
 mozilla
 :
 :
-StyleBasicShapeType
-"
-"
-mozilla
-:
-:
 StyleMathStyle
 "
 "
@@ -1913,9 +1907,6 @@ StaticRefPtr
 "
 "
 StyleAnimation
-"
-"
-StyleBasicShapeType
 "
 "
 StyleGeometryBox
