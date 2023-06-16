@@ -1768,11 +1768,23 @@ logger
 .
 critical
 (
+                    
 "
 Main
 thread
 got
 signal
+;
+"
+                    
+"
+waiting
+for
+TestRunnerManager
+threads
+to
+exit
+.
 "
 )
                 
@@ -1780,6 +1792,15 @@ manager_group
 .
 stop
 (
+)
+                
+manager_group
+.
+wait
+(
+timeout
+=
+10
 )
                 
 raise
