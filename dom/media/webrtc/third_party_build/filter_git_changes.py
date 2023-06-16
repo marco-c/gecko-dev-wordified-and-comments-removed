@@ -377,6 +377,7 @@ parser
 .
 add_argument
 (
+        
 "
 -
 -
@@ -384,6 +385,7 @@ diff
 -
 filter
 "
+        
 choices
 =
 (
@@ -397,6 +399,27 @@ D
 R
 "
 )
+        
+help
+=
+"
+filter
+for
+adds
+(
+A
+)
+deletes
+(
+D
+)
+or
+renames
+(
+R
+)
+"
+    
 )
     
 args
