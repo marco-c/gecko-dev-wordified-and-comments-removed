@@ -356,7 +356,7 @@ current_rate_control_parameters_
 rates
 ;
 size_t
-active_tls_
+active_tls
 [
 kMaxSpatialLayers
 ]
@@ -380,7 +380,7 @@ kMaxSpatialLayers
 si
 )
 {
-active_tls_
+active_tls
 [
 si
 ]
@@ -443,7 +443,7 @@ ti
 {
 +
 +
-active_tls_
+active_tls
 [
 si
 ]
@@ -623,7 +623,7 @@ kDefaultUtilizationFactor
 else
 if
 (
-active_tls_
+active_tls
 [
 si
 ]
@@ -665,7 +665,7 @@ media_utilization_factor
 else
 if
 (
-active_tls_
+active_tls
 [
 si
 ]
@@ -772,7 +772,7 @@ ti
 ;
 ti
 <
-active_tls_
+active_tls
 [
 si
 ]
@@ -1315,7 +1315,7 @@ utilization_factor
 }
 if
 (
-active_tls_
+active_tls
 [
 si
 ]
