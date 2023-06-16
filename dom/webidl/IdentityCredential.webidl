@@ -288,6 +288,9 @@ IdentityProviderIcon
 >
 icons
 ;
+USVString
+name
+;
 }
 ;
 /
