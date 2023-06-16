@@ -169,9 +169,11 @@ setEmptyPrefWatchlist
 (
 )
 ;
-Preferences
+Services
 .
-set
+prefs
+.
+setBoolPref
 (
 TelemetryUtils
 .
@@ -212,9 +214,11 @@ PingServer
 port
 )
 ;
-Preferences
+Services
 .
-set
+prefs
+.
+setStringPref
 (
 TelemetryUtils
 .
