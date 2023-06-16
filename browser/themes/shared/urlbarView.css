@@ -1638,6 +1638,9 @@ urlbarView
 -
 row
 :
+where
+(
+:
 not
 (
 [
@@ -1645,6 +1648,7 @@ rich
 -
 suggestion
 ]
+)
 )
 >
 .
