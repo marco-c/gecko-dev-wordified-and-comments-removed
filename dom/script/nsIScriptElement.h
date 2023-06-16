@@ -103,6 +103,9 @@ nsIPrincipal
 h
 "
 class
+nsIContent
+;
+class
 nsIParser
 ;
 class
@@ -799,6 +802,15 @@ MaybeProcessScript
 virtual
 bool
 GetAsyncState
+(
+)
+=
+0
+;
+virtual
+nsIContent
+*
+GetAsContent
 (
 )
 =

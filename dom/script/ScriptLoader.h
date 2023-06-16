@@ -546,6 +546,10 @@ ProcessScriptElement
 nsIScriptElement
 *
 aElement
+const
+nsAutoString
+&
+aTypeAttr
 )
 ;
 nsIScriptElement

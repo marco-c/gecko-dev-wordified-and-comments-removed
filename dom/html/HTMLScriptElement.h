@@ -779,6 +779,17 @@ aGivenProto
 )
 override
 ;
+nsIContent
+*
+GetAsContent
+(
+)
+override
+{
+return
+this
+;
+}
 virtual
 bool
 HasScriptContent
