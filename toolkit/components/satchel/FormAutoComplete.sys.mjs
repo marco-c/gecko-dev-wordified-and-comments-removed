@@ -2953,8 +2953,6 @@ DataListAutoCompleteResult
 (
 aUntrimmedSearchString
 defaultIndex
-"
-"
 items
 null
 )
@@ -3348,8 +3346,6 @@ datalistResult
 .
 searchString
 0
-"
-"
 finalItems
 historyResult
 )
