@@ -151,6 +151,7 @@ ScopedLogExtraInfo
 &
 aOther
 )
+noexcept
 :
 mTag
 (
@@ -212,13 +213,6 @@ map
 ;
 if
 (
-XRE_IsParentProcess
-(
-)
-)
-{
-if
-(
 sQueryValue
 .
 get
@@ -260,7 +254,6 @@ get
 )
 )
 ;
-}
 }
 return
 map

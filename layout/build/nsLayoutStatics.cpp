@@ -1637,6 +1637,10 @@ Initialize
 (
 )
 ;
+InitializeScopedLogExtraInfo
+(
+)
+;
 if
 (
 XRE_IsParentProcess

@@ -34,6 +34,11 @@ InitializeQuotaManager
 (
 )
 ;
+void
+InitializeScopedLogExtraInfo
+(
+)
+;
 PQuotaParent
 *
 AllocPQuotaParent
