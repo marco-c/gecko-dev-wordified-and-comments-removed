@@ -5782,6 +5782,10 @@ VP8BlockCopy
 VP8Copy16x8
 ;
 extern
+VP8CPUInfo
+VP8GetCPUInfo
+;
+extern
 void
 VP8EncDspInitSSE2
 (

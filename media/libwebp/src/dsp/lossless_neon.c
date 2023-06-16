@@ -3791,10 +3791,7 @@ __APPLE__
 )
 &
 &
-defined
-(
-__aarch64__
-)
+WEBP_AARCH64
 &
 &
 \

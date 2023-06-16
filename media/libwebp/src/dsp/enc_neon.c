@@ -5241,10 +5241,7 @@ sum
 {
 #
 if
-defined
-(
-__aarch64__
-)
+WEBP_AARCH64
 return
 (
 int
@@ -6031,10 +6028,7 @@ __APPLE__
 )
 &
 &
-defined
-(
-__aarch64__
-)
+WEBP_AARCH64
 &
 &
 \

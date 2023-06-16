@@ -1505,6 +1505,11 @@ cooccurrence
 )
 )
 {
+WebPSafeFree
+(
+cooccurrence
+)
+;
 return
 0
 ;

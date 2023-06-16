@@ -7240,6 +7240,10 @@ VP8LPredictorsSub_C
 ]
 ;
 extern
+VP8CPUInfo
+VP8GetCPUInfo
+;
+extern
 void
 VP8LEncDspInitSSE2
 (

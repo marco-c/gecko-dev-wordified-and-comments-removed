@@ -159,8 +159,8 @@ position
 )
 ;
 #
-ifdef
-__aarch64__
+if
+WEBP_AARCH64
 res
 -
 >

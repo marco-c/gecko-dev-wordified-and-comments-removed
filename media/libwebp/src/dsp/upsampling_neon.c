@@ -678,10 +678,11 @@ while
 )
 #
 if
-!
-defined
 (
 WEBP_SWAP_16BIT_CSP
+=
+=
+0
 )
 #
 define

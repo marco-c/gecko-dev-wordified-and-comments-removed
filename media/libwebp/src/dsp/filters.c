@@ -1249,6 +1249,10 @@ WEBP_FILTER_LAST
 ]
 ;
 extern
+VP8CPUInfo
+VP8GetCPUInfo
+;
+extern
 void
 VP8FiltersInitMIPSdspR2
 (

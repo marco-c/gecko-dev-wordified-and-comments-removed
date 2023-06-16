@@ -500,6 +500,10 @@ bit_depth
 )
 ;
 extern
+VP8CPUInfo
+SharpYuvGetCPUInfo
+;
+extern
 void
 InitSharpYuvSSE2
 (

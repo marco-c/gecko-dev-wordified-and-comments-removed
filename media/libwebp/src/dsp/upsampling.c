@@ -1530,6 +1530,10 @@ MODE_LAST
 ]
 ;
 extern
+VP8CPUInfo
+VP8GetCPUInfo
+;
+extern
 void
 WebPInitYUV444ConvertersMIPSdspR2
 (

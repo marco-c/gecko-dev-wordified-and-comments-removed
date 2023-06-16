@@ -510,6 +510,10 @@ InitGammaTables
 void
 )
 ;
+extern
+VP8CPUInfo
+VP8GetCPUInfo
+;
 WEBP_DSP_INIT_FUNC
 (
 InitGammaTables

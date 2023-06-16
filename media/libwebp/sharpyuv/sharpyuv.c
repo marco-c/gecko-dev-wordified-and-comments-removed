@@ -3063,6 +3063,10 @@ UNLOCK_ACCESS_AND_RETURN
 return
 #
 endif
+extern
+VP8CPUInfo
+SharpYuvGetCPUInfo
+;
 SHARPYUV_EXTERN
 void
 SharpYuvInit

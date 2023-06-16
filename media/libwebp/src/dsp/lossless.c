@@ -3828,6 +3828,10 @@ VP8LMapAlphaFunc
 VP8LMapColor8b
 ;
 extern
+VP8CPUInfo
+VP8GetCPUInfo
+;
+extern
 void
 VP8LDspInitSSE2
 (

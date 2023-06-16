@@ -83,7 +83,7 @@ v1
 .
 3
 .
-0
+1
 WebP
 codec
 is

@@ -35,6 +35,10 @@ C
 {
 extern
 VP8CPUInfo
+VP8GetCPUInfo
+;
+extern
+VP8CPUInfo
 SharpYuvGetCPUInfo
 ;
 }

@@ -76,10 +76,7 @@ a
 {
 #
 if
-defined
-(
-__aarch64__
-)
+WEBP_AARCH64
 return
 vaddvq_u32
 (

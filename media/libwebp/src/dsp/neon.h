@@ -44,10 +44,7 @@ LOCAL_GCC_PREREQ
 )
 |
 |
-defined
-(
-__aarch64__
-)
+WEBP_AARCH64
 #
 define
 WEBP_USE_INTRINSICS
@@ -212,10 +209,7 @@ LOCAL_GCC_PREREQ
 )
 |
 |
-defined
-(
-__aarch64__
-)
+WEBP_AARCH64
 )
 #
 define
