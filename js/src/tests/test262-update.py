@@ -300,17 +300,7 @@ RELEASE_OR_BETA
 =
 set
 (
-    
 [
-        
-"
-Intl
-.
-NumberFormat
--
-v3
-"
-    
 ]
 )
 SHELL_OPTIONS
