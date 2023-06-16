@@ -26,7 +26,7 @@ rtp_rtcp
 /
 source
 /
-rtp_descriptor_authentication
+frame_object
 .
 h
 "
@@ -35,9 +35,11 @@ include
 "
 modules
 /
-video_coding
+rtp_rtcp
 /
-frame_object
+source
+/
+rtp_descriptor_authentication
 .
 h
 "
