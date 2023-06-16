@@ -45,6 +45,11 @@ TEST_WEBIDL_FILES
 =
 [
 "
+TestCallback
+.
+webidl
+"
+"
 TestDictionary
 .
 webidl

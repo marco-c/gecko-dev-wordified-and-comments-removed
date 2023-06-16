@@ -7753,7 +7753,7 @@ declareIncludes
 def
 addHeadersForType
 (
-typeAndPossibleDictionary
+typeAndPossibleOriginType
 )
 :
             
@@ -7771,7 +7771,9 @@ type
 .
 We
 use
-dictionary
+its
+origin
+type
 if
             
 passed
@@ -7790,12 +7792,52 @@ types
 "
             
 t
-dictionary
+originType
 =
-typeAndPossibleDictionary
+typeAndPossibleOriginType
+            
+isFromDictionary
+=
+originType
+and
+originType
+.
+isDictionary
+(
+)
+            
+isFromCallback
+=
+originType
+and
+originType
+.
+isCallback
+(
+)
             
 if
-dictionary
+isFromDictionary
+:
+                
+headerSet
+=
+declareIncludes
+            
+elif
+isFromCallback
+and
+t
+.
+nullable
+(
+)
+and
+t
+.
+isUnion
+(
+)
 :
                 
 headerSet
@@ -8264,7 +8306,7 @@ isRecord
 :
                 
 if
-dictionary
+isFromDictionary
 or
 jsImplementedDescriptors
 :
@@ -8308,7 +8350,11 @@ addHeadersForType
 t
 .
 inner
-dictionary
+originType
+if
+isFromDictionary
+else
+None
 )
 )
         

@@ -6378,7 +6378,7 @@ callback
 yield
 (
 t
-None
+callback
 )
 def
 iteratorNativeType
