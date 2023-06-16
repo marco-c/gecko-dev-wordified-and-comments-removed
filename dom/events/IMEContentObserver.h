@@ -490,7 +490,7 @@ CancelEditAction
 )
 ;
 void
-OnTextControlValueChangedDuringNoFrame
+OnTextControlValueChangedWhileNotObservable
 (
 const
 nsAString

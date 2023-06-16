@@ -5004,7 +5004,7 @@ void
 IMEContentObserver
 :
 :
-OnTextControlValueChangedDuringNoFrame
+OnTextControlValueChangedWhileNotObservable
 (
 const
 nsAString

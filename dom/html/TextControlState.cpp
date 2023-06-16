@@ -12259,7 +12259,6 @@ true
 )
 ;
 }
-else
 if
 (
 IMEContentObserver
@@ -12274,7 +12273,7 @@ GetIMEContentObserver
 observer
 -
 >
-OnTextControlValueChangedDuringNoFrame
+OnTextControlValueChangedWhileNotObservable
 (
 mValue
 )
