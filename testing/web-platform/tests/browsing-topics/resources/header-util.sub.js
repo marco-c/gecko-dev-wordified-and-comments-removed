@@ -1,3 +1,16 @@
+const
+EMPTY_TOPICS_HEADER
+=
+'
+t
+=
+(
+)
+p
+=
+P000000000000000000000000000
+'
+;
 function
 test_topics_iframe_navigation_header
 (
@@ -204,8 +217,7 @@ assert_equals
 data
 .
 topicsHeader
-'
-'
+EMPTY_TOPICS_HEADER
 )
 ;
 }
