@@ -746,11 +746,6 @@ BodyConsumer
 h
 "
 "
-BodyStream
-.
-h
-"
-"
 BodyUtil
 .
 h
@@ -1542,11 +1537,6 @@ cpp
 "
 "
 BodyConsumer
-.
-cpp
-"
-"
-BodyStream
 .
 cpp
 "

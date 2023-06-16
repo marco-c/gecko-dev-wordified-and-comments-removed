@@ -5,17 +5,6 @@ mozilla
 /
 dom
 /
-BodyStream
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ByteStreamHelpers
 .
 h
