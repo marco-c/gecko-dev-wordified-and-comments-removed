@@ -1789,6 +1789,15 @@ type
 "
 creditCard
 "
+"
+cc
+-
+csc
+"
+:
+"
+creditCard
+"
 }
 _collators
 :
