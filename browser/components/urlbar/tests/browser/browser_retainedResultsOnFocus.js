@@ -1403,7 +1403,7 @@ win
 gURLBar
 .
 selectionStart
-0
+3
 )
 ;
 Assert
