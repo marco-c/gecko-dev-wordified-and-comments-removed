@@ -266,6 +266,16 @@ approved_clients
 789
 "
 ]
+   
+"
+login_hints
+"
+:
+[
+"
+john_doe
+"
+]
   
 }
 ]
