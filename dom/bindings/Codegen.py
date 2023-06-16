@@ -7362,12 +7362,16 @@ extension
 define
 =
 "
-mozilla_dom_
+DOM_
 %
-s_h
+s_H_
 "
 %
 prefix
+.
+upper
+(
+)
         
 CGWrapper
 .
