@@ -928,9 +928,6 @@ verify
 ]
 ;
 }
-#
-if
-0
 -
 (
 void
@@ -1499,8 +1496,6 @@ UIDeviceOrientationLandscapeRight
 ]
 ;
 }
-#
-endif
 -
 (
 void
@@ -1584,9 +1579,6 @@ kCMAttachmentMode_ShouldPropagate
 )
 ;
 }
-#
-if
-0
 -
 (
 void
@@ -1848,8 +1840,6 @@ sampleBuffer
 #
 endif
 }
-#
-endif
 -
 (
 void
