@@ -444,6 +444,16 @@ aEntryId
 )
 const
 ;
+virtual
+nsresult
+RemoveFileId
+(
+const
+FileId
+&
+aFileId
+)
+;
 nsresult
 SetUsageTracking
 (
