@@ -160,7 +160,7 @@ browsing
 context
 to
 a
-TabManager
+Navigable
 id
 .
 payload
