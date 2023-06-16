@@ -65,15 +65,6 @@ provider
 js
 "
 "
-har
--
-metadata
--
-collector
-.
-js
-"
-"
 index
 .
 js
