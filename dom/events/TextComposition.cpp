@@ -4018,7 +4018,7 @@ CompositionEventDispatcher
 (
 TextComposition
 *
-aComposition
+aTextComposition
 nsINode
 *
 aEventTarget
@@ -4043,7 +4043,7 @@ CompositionEventDispatcher
 )
 mTextComposition
 (
-aComposition
+aTextComposition
 )
 mEventTarget
 (

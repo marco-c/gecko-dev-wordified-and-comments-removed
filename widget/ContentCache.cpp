@@ -1113,14 +1113,14 @@ status
 nsEventStatus_eIgnore
 ;
 WidgetQueryContentEvent
-queryCaretRectEvet
+queryCaretRectEvent
 (
 true
 eQueryCaretRect
 aWidget
 )
 ;
-queryCaretRectEvet
+queryCaretRectEvent
 .
 InitForQueryCaretRect
 (
@@ -1133,7 +1133,7 @@ aWidget
 DispatchEvent
 (
 &
-queryCaretRectEvet
+queryCaretRectEvent
 status
 )
 ;
@@ -1141,7 +1141,7 @@ if
 (
 NS_WARN_IF
 (
-queryCaretRectEvet
+queryCaretRectEvent
 .
 Failed
 (
@@ -1194,7 +1194,7 @@ mCaret
 emplace
 (
 offset
-queryCaretRectEvet
+queryCaretRectEvent
 .
 mReply
 -
@@ -8416,7 +8416,7 @@ OnCompositionEvent
 const
 WidgetCompositionEvent
 &
-aEvent
+aCompositionEvent
 )
 {
 MOZ_LOG
@@ -8433,7 +8433,7 @@ Info
 p
 OnCompositionEvent
 (
-aEvent
+aCompositionEvent
 =
 {
 "
@@ -8506,13 +8506,13 @@ p
 this
 ToChar
 (
-aEvent
+aCompositionEvent
 .
 mMessage
 )
 PrintStringDetail
 (
-aEvent
+aCompositionEvent
 .
 mData
 PrintStringDetail
@@ -8524,11 +8524,11 @@ kMaxLengthForCompositionString
 get
 (
 )
-aEvent
+aCompositionEvent
 .
 mRanges
 ?
-aEvent
+aCompositionEvent
 .
 mRanges
 -
@@ -8573,7 +8573,7 @@ mDispatchedEventMessages
 .
 AppendElement
 (
-aEvent
+aCompositionEvent
 .
 mMessage
 )
@@ -8633,7 +8633,7 @@ StartOffset
 }
 MOZ_ASSERT
 (
-aEvent
+aCompositionEvent
 .
 mMessage
 =
@@ -8647,7 +8647,7 @@ AppendElement
 (
 HandlingCompositionData
 (
-aEvent
+aCompositionEvent
 .
 mCompositionId
 )
@@ -8662,7 +8662,7 @@ LastElement
 .
 mSentCommitEvent
 =
-aEvent
+aCompositionEvent
 .
 CausesDOMCompositionEndEvent
 (
@@ -8679,7 +8679,7 @@ LastElement
 mCompositionId
 =
 =
-aEvent
+aCompositionEvent
 .
 mCompositionId
 )
@@ -8706,7 +8706,7 @@ Length
 {
 mPendingCommitLength
 =
-aEvent
+aCompositionEvent
 .
 mData
 .
@@ -8726,7 +8726,7 @@ HasPendingCommit
 else
 if
 (
-aEvent
+aCompositionEvent
 .
 mMessage
 !
@@ -8742,7 +8742,7 @@ LastElement
 .
 mCompositionString
 =
-aEvent
+aCompositionEvent
 .
 mData
 ;
@@ -8754,7 +8754,7 @@ mCommitStringByRequest
 {
 if
 (
-aEvent
+aCompositionEvent
 .
 mMessage
 =
@@ -8778,7 +8778,7 @@ else
 {
 MOZ_ASSERT
 (
-aEvent
+aCompositionEvent
 .
 mMessage
 =
@@ -8786,7 +8786,7 @@ mMessage
 eCompositionChange
 |
 |
-aEvent
+aCompositionEvent
 .
 mMessage
 =
@@ -8797,7 +8797,7 @@ eCompositionCommit
 *
 mCommitStringByRequest
 =
-aEvent
+aCompositionEvent
 .
 mData
 ;
