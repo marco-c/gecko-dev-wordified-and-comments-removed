@@ -3067,6 +3067,7 @@ js
 :
 StackUses
 (
+op
 pc
 )
 ;

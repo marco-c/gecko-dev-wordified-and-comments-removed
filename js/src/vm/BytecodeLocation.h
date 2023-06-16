@@ -1066,7 +1066,9 @@ MOZ_ASSERT
 (
 StackDefs
 (
-rawBytecode_
+getOp
+(
+)
 )
 =
 =
