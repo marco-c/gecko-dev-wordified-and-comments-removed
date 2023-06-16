@@ -579,10 +579,8 @@ aCompositionEvent
 )
 ;
 static
-already_AddRefed
-<
 TextComposition
->
+*
 GetTextCompositionFor
 (
 nsIWidget
@@ -591,10 +589,8 @@ aWidget
 )
 ;
 static
-already_AddRefed
-<
 TextComposition
->
+*
 GetTextCompositionFor
 (
 const
@@ -604,10 +600,8 @@ aCompositionEvent
 )
 ;
 static
-already_AddRefed
-<
 TextComposition
->
+*
 GetTextCompositionFor
 (
 nsPresContext
