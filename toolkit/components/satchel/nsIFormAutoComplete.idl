@@ -132,12 +132,6 @@ aDatalistResult
 in
 nsIFormAutoCompleteObserver
 aListener
-[
-optional
-]
-in
-nsIPropertyBag2
-options
 )
 ;
 /

@@ -3874,7 +3874,6 @@ nsIAutoCompleteObserver
 (
 this
 )
-nullptr
 )
 ;
 if
