@@ -346,6 +346,9 @@ wininet
 "
 ws2_32
 "
+"
+ntdll
+"
 ]
 DEFINES
 [
