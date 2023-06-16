@@ -155,7 +155,7 @@ Frames
 ;
 const
 {
-annotateFrames
+annotateFramesWithLibrary
 }
 =
 require
@@ -1007,8 +1007,6 @@ state
 const
 frames
 =
-annotateFrames
-(
 stacktrace
 .
 map
@@ -1149,6 +1147,10 @@ generatedLocation
 ;
 }
 )
+;
+annotateFramesWithLibrary
+(
+frames
 )
 ;
 return

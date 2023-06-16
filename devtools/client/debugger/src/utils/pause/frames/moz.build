@@ -84,11 +84,6 @@ displayName
 js
 "
 "
-getFrameUrl
-.
-js
-"
-"
 getLibraryFromUrl
 .
 js
