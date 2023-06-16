@@ -758,7 +758,7 @@ h
 "
 #
 ifdef
-OS_WIN
+XP_WIN
 #
 include
 "
@@ -1586,7 +1586,7 @@ Initialize
 ;
 #
 ifdef
-OS_WIN
+XP_WIN
 mozilla
 :
 :

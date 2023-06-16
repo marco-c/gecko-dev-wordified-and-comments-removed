@@ -60,7 +60,7 @@ h
 if
 defined
 (
-OS_ANDROID
+ANDROID
 )
 &
 &

@@ -71,7 +71,7 @@ h
 "
 #
 ifdef
-OS_WIN
+XP_WIN
 #
 include
 "
@@ -123,7 +123,7 @@ AssertIsOnBackgroundThread
 ;
 #
 ifdef
-OS_WIN
+XP_WIN
 if
 (
 WinWebAuthnManager
@@ -267,7 +267,7 @@ AssertIsOnBackgroundThread
 ;
 #
 ifdef
-OS_WIN
+XP_WIN
 if
 (
 WinWebAuthnManager
@@ -410,7 +410,7 @@ AssertIsOnBackgroundThread
 ;
 #
 ifdef
-OS_WIN
+XP_WIN
 if
 (
 WinWebAuthnManager
@@ -587,7 +587,7 @@ AssertIsOnBackgroundThread
 ;
 #
 ifdef
-OS_WIN
+XP_WIN
 if
 (
 WinWebAuthnManager

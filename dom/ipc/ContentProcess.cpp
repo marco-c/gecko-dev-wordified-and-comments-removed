@@ -168,7 +168,7 @@ rv
 ;
 #
 ifdef
-OS_MACOSX
+XP_DARWIN
 const
 int
 depth
@@ -239,7 +239,7 @@ NS_ERROR_UNEXPECTED
 }
 #
 ifdef
-OS_MACOSX
+XP_DARWIN
 rv
 =
 current

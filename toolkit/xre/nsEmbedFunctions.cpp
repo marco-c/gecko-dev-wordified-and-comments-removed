@@ -1278,7 +1278,7 @@ pause
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 pause
 *
@@ -1294,7 +1294,7 @@ pause
 }
 #
 ifdef
-OS_POSIX
+XP_UNIX
 return
 30
 ;
@@ -1302,7 +1302,7 @@ return
 elif
 defined
 (
-OS_WIN
+XP_WIN
 )
 return
 10000
@@ -2039,7 +2039,7 @@ aArgv
 endif
 #
 ifdef
-OS_POSIX
+XP_UNIX
 if
 (
 PR_GetEnv
@@ -2151,7 +2151,7 @@ GetDebugChildPauseTime
 elif
 defined
 (
-OS_WIN
+XP_WIN
 )
 if
 (

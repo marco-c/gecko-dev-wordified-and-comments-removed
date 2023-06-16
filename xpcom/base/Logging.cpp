@@ -866,7 +866,7 @@ temp
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 HANDLE
 hFile
@@ -978,7 +978,7 @@ ab
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 int
 fd
@@ -1197,7 +1197,7 @@ false
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 if
 (
@@ -1246,7 +1246,7 @@ false
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 if
 (

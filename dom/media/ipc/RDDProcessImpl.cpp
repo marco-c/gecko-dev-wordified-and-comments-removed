@@ -29,7 +29,7 @@ h
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 &
 &
@@ -118,7 +118,7 @@ MOZ_SANDBOX
 &
 defined
 (
-OS_WIN
+XP_WIN
 )
 LoadLibraryW
 (

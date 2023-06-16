@@ -4750,7 +4750,7 @@ name
 {
 #
 ifdef
-OS_POSIX
+XP_UNIX
 printf_stderr
 (
 "
@@ -4788,7 +4788,7 @@ sleep
 elif
 defined
 (
-OS_WIN
+XP_WIN
 )
 NS_DebugBreak
 (
@@ -9317,7 +9317,7 @@ XP_LINUX
 !
 defined
 (
-OS_ANDROID
+ANDROID
 )
 CrashReporter
 :

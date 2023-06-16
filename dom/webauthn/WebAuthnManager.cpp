@@ -168,7 +168,7 @@ h
 "
 #
 ifdef
-OS_WIN
+XP_WIN
 #
 include
 "
@@ -2073,7 +2073,7 @@ Id
 ;
 #
 ifdef
-OS_WIN
+XP_WIN
 if
 (
 !
@@ -3017,7 +3017,7 @@ Id
 ;
 #
 ifdef
-OS_WIN
+XP_WIN
 if
 (
 !

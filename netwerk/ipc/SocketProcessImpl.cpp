@@ -85,7 +85,7 @@ h
 if
 defined
 (
-OS_WIN
+XP_WIN
 )
 &
 &
@@ -134,7 +134,7 @@ h
 endif
 #
 ifdef
-OS_POSIX
+XP_UNIX
 #
 include
 <
@@ -194,7 +194,7 @@ aArgv
 {
 #
 ifdef
-OS_POSIX
+XP_UNIX
 if
 (
 PR_GetEnv
@@ -249,7 +249,7 @@ MOZ_SANDBOX
 &
 defined
 (
-OS_WIN
+XP_WIN
 )
 LoadLibraryW
 (
