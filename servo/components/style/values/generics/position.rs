@@ -195,6 +195,7 @@ PartialEq
 Serialize
 SpecifiedValueInfo
 ToAnimatedZero
+ToAnimatedValue
 ToComputedValue
 ToCss
 ToResolvedValue

@@ -27,6 +27,7 @@ computed
 Image
 LengthPercentage
 NonNegativeLengthPercentage
+Position
 }
 ;
 use
@@ -61,12 +62,12 @@ FillRule
 ;
 pub
 type
-ClippingShape
+ClipPath
 =
 generic
 :
 :
-ClippingShape
+GenericClipPath
 <
 BasicShape
 ComputedUrl
@@ -74,12 +75,12 @@ ComputedUrl
 ;
 pub
 type
-FloatAreaShape
+ShapeOutside
 =
 generic
 :
 :
-FloatAreaShape
+GenericShapeOutside
 <
 BasicShape
 Image
@@ -94,8 +95,7 @@ generic
 :
 GenericBasicShape
 <
-LengthPercentage
-LengthPercentage
+Position
 LengthPercentage
 NonNegativeLengthPercentage
 >
@@ -122,8 +122,7 @@ generic
 :
 Circle
 <
-LengthPercentage
-LengthPercentage
+Position
 NonNegativeLengthPercentage
 >
 ;
@@ -136,8 +135,7 @@ generic
 :
 Ellipse
 <
-LengthPercentage
-LengthPercentage
+Position
 NonNegativeLengthPercentage
 >
 ;
