@@ -1462,7 +1462,10 @@ gecko
 animation_value_type
 =
 "
-ComputedValue
+motion
+:
+:
+OffsetPath
 "
 gecko_pref
 =

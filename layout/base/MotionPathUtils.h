@@ -869,16 +869,6 @@ aCachedMotionPath
 )
 ;
 static
-StyleSVGPathData
-NormalizeSVGPathData
-(
-const
-StyleSVGPathData
-&
-aPath
-)
-;
-static
 already_AddRefed
 <
 gfx
