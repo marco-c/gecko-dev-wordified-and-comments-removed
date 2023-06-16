@@ -938,11 +938,7 @@ getSectionByElement
 (
 targetFieldDetail
 .
-elementWeakRef
-.
-get
-(
-)
+element
 )
 ;
 section
@@ -1748,11 +1744,7 @@ element
 =
 fieldDetail
 .
-elementWeakRef
-.
-get
-(
-)
+element
 ;
 if
 (

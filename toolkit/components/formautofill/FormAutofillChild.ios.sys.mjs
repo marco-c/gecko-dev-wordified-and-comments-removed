@@ -249,11 +249,7 @@ field
 >
 field
 .
-elementWeakRef
-.
-get
-(
-)
+element
 =
 =
 =
@@ -289,11 +285,7 @@ fieldName
 :
 field
 .
-elementWeakRef
-.
-get
-(
-)
+element
 .
 value
 }
