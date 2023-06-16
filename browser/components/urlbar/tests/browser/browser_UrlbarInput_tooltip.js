@@ -473,6 +473,8 @@ is
 (
 gURLBar
 .
+inputField
+.
 value
 longURL
 .

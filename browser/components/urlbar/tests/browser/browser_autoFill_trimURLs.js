@@ -247,6 +247,8 @@ equal
 (
 gURLBar
 .
+inputField
+.
 value
 test
 .
@@ -886,6 +888,8 @@ equal
 (
 gURLBar
 .
+inputField
+.
 value
 "
 http
@@ -943,6 +947,8 @@ Assert
 equal
 (
 gURLBar
+.
+inputField
 .
 value
 "

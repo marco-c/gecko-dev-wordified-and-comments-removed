@@ -186,6 +186,8 @@ equal
 (
 gURLBar
 .
+inputField
+.
 value
 "
 ug1105244
@@ -206,6 +208,8 @@ Assert
 equal
 (
 gURLBar
+.
+inputField
 .
 value
 "
