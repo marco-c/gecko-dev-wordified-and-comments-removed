@@ -3263,7 +3263,7 @@ valueStr
 =
 branch
 .
-get
+getCharPref
 (
 pref
 null
@@ -3774,7 +3774,7 @@ wrong
 }
 branch
 .
-set
+setCharPref
 (
 pref
 "
