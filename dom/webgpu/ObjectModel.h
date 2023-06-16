@@ -78,11 +78,6 @@ ObjectBase
 public
 nsWrapperCache
 {
-private
-:
-nsString
-mLabel
-;
 protected
 :
 virtual
@@ -141,6 +136,11 @@ mLabel
 )
 ;
 }
+protected
+:
+nsString
+mLabel
+;
 }
 ;
 }
