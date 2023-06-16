@@ -3611,6 +3611,7 @@ layout_accessiblecaret_hide_carets_for_mouse_input
 )
 &
 &
+(
 mLastInputSource
 =
 =
@@ -3618,6 +3619,16 @@ MouseEvent_Binding
 :
 :
 MOZ_SOURCE_MOUSE
+|
+|
+mLastInputSource
+=
+=
+MouseEvent_Binding
+:
+:
+MOZ_SOURCE_KEYBOARD
+)
 )
 {
 AC_LOG
