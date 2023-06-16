@@ -108,13 +108,6 @@ h
 #
 include
 "
-TableAccessible
-.
-h
-"
-#
-include
-"
 mozilla
 /
 a11y
