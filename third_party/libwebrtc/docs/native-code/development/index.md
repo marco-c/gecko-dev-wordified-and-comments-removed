@@ -1820,7 +1820,7 @@ gn
 /
 +
 /
-master
+main
 /
 docs
 /
@@ -1855,7 +1855,7 @@ gn
 /
 +
 /
-master
+main
 /
 README
 .
@@ -1880,7 +1880,7 @@ gn
 /
 +
 /
-master
+main
 /
 docs
 /
