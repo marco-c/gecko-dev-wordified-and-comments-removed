@@ -809,6 +809,13 @@ aURI
 nsIPrincipal
 *
 aPrincipal
+Maybe
+<
+OriginAttributes
+>
+&
+&
+aOriginAttributes
 nsIInterfaceRequestor
 *
 aCallbacks

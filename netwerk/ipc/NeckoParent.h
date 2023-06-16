@@ -617,6 +617,13 @@ aURI
 nsIPrincipal
 *
 aPrincipal
+Maybe
+<
+OriginAttributes
+>
+&
+&
+aOriginAttributes
 const
 bool
 &
