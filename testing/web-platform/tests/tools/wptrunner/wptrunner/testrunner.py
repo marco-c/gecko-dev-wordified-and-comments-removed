@@ -4617,6 +4617,24 @@ not
 in
 known_intermittent
         
+is_pass_or_expected
+=
+status
+in
+[
+"
+OK
+"
+"
+PASS
+"
+]
+or
+(
+not
+is_unexpected
+)
+        
 if
 is_unexpected
 or
@@ -4644,16 +4662,7 @@ subtest_unexpected
 )
 and
                               
-status
-in
-[
-"
-OK
-"
-"
-PASS
-"
-]
+is_pass_or_expected
 and
 subtest_all_pass_or_expected
 )
