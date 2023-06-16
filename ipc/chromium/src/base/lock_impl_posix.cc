@@ -49,12 +49,6 @@ internal
 if
 defined
 (
-OS_NACL
-)
-|
-|
-defined
-(
 ANDROID
 )
 #
