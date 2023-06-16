@@ -43,7 +43,6 @@ expected
 (
 )
 found
-struct
 S
 |
 |
@@ -156,7 +155,6 @@ expected
 (
 )
 found
-enum
 E
 |
 |

@@ -43,17 +43,6 @@ expected
 lifetime
 parameter
 |
-=
-note
-:
-assuming
-a
-'
-static
-lifetime
-.
-.
-.
 help
 :
 indicate
@@ -82,7 +71,6 @@ error
 E0107
 ]
 :
-this
 trait
 takes
 0
