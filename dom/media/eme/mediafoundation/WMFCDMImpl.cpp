@@ -955,6 +955,12 @@ Requirement
 Optional
 aParams
 .
+mAudioCapabilities
+aParams
+.
+mVideoCapabilities
+aParams
+.
 mHWSecure
 aParams
 .

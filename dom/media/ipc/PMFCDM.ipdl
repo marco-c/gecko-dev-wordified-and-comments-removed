@@ -383,6 +383,16 @@ distinctiveID
 Requirement
 persistentState
 ;
+MFCDMMediaCapability
+[
+]
+audioCapabilities
+;
+MFCDMMediaCapability
+[
+]
+videoCapabilities
+;
 bool
 hwSecure
 ;
