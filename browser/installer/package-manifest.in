@@ -495,6 +495,12 @@ MOZ_CHILD_PROCESS_NAME
 .
 app
 /
+BINPATH
+/
+MOZ_EME_PROCESS_NAME
+.
+app
+/
 #
 else
 BINPATH
