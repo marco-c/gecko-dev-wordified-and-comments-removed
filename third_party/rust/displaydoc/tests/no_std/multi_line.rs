@@ -178,9 +178,8 @@ static_assertions
 assert_impl_all
 !
 (
-label
-;
 TestType
+:
 core
 :
 :
