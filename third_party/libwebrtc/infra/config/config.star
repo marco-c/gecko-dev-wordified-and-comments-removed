@@ -5550,9 +5550,6 @@ linux_try_job
 "
 linux_coverage
 "
-cq
-=
-None
 )
 linux_builder
 (
