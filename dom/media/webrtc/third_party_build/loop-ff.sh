@@ -450,6 +450,13 @@ forward
 libwebrtc
 .
 sh
+RESUME_FILE
+=
+STATE_DIR
+/
+fast_forward
+.
+resume
 RESUME
 =
 "
@@ -458,9 +465,7 @@ if
 [
 -
 f
-STATE_DIR
-/
-resume_state
+RESUME_FILE
 ]
 ;
 then
@@ -469,9 +474,7 @@ RESUME
 tail
 -
 1
-STATE_DIR
-/
-resume_state
+RESUME_FILE
 fi
 #
 check
