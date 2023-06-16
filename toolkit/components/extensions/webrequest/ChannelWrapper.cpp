@@ -4681,6 +4681,12 @@ ExtContentPolicy
 :
 TYPE_SAVEAS_DOWNLOAD
 :
+case
+ExtContentPolicy
+:
+:
+TYPE_WEB_TRANSPORT
+:
 break
 ;
 }
