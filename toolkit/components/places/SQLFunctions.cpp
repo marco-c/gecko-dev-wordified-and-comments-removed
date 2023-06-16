@@ -3971,7 +3971,6 @@ ln
 (
 "
 "
-(
 sum
 (
 score
@@ -3983,15 +3982,6 @@ MAX
 (
 visit_count
 samples_count
-)
-)
-*
-"
-"
-exp
-(
--
-lambda
 )
 "
 "
