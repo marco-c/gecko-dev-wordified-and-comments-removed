@@ -152,6 +152,13 @@ public
 :
 virtual
 void
+OnFrameCaptureStart
+(
+)
+{
+}
+virtual
+void
 OnCaptureResult
 (
 Result

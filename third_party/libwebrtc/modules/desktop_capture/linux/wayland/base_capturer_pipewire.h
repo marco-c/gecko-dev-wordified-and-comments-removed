@@ -303,6 +303,13 @@ GetSessionDetails
 (
 )
 ;
+void
+SendFramesImmediately
+(
+bool
+send_frames_immediately
+)
+;
 private
 :
 ScreenCastPortal
@@ -322,6 +329,11 @@ Callback
 callback_
 =
 nullptr
+;
+bool
+send_frames_immediately_
+=
+false
 ;
 bool
 capturer_failed_

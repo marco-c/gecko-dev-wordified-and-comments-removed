@@ -343,6 +343,12 @@ mouse_monitor
 )
 ;
 void
+OnFrameCaptureStart
+(
+)
+override
+;
+void
 OnCaptureResult
 (
 DesktopCapturer
