@@ -550,7 +550,7 @@ input
 DOMString
 name
 MLOperandDescriptor
-desc
+descriptor
 )
 ;
 /
@@ -567,7 +567,7 @@ MLOperand
 constant
 (
 MLOperandDescriptor
-desc
+descriptor
 MLBufferView
 bufferView
 )

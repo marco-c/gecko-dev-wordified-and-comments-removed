@@ -178,6 +178,11 @@ attribute
 RenderBlockingStatusType
 renderBlockingStatus
 ;
+readonly
+attribute
+DOMString
+contentType
+;
 [
 Default
 ]

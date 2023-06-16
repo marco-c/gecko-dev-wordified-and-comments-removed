@@ -132,12 +132,6 @@ FencedFrameConfig
 {
 readonly
 attribute
-FencedFrameConfigURL
-?
-url
-;
-readonly
-attribute
 FencedFrameConfigSize
 ?
 containerWidth

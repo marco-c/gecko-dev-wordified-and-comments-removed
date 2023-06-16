@@ -188,6 +188,7 @@ renotify
 readonly
 attribute
 boolean
+?
 silent
 ;
 readonly
@@ -270,9 +271,10 @@ renotify
 false
 ;
 boolean
+?
 silent
 =
-false
+null
 ;
 boolean
 requireInteraction
