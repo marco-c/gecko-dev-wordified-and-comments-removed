@@ -71,6 +71,10 @@ line
 =
 0
 column
+sourceUrl
+=
+"
+"
 }
 )
 {
@@ -78,6 +82,11 @@ return
 {
 source
 sourceActor
+sourceId
+:
+source
+.
+id
 sourceActorId
 :
 sourceActor
@@ -86,6 +95,7 @@ sourceActor
 id
 line
 column
+sourceUrl
 }
 ;
 }
@@ -115,6 +125,11 @@ column
 location
 .
 column
+sourceUrl
+:
+location
+.
+sourceUrl
 }
 ;
 }
@@ -350,6 +365,11 @@ createLocation
 .
 location
 source
+sourceUrl
+:
+source
+.
+url
 }
 )
 ;

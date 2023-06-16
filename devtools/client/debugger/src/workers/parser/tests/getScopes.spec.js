@@ -76,7 +76,11 @@ scopes
 getScopes
 (
 {
+sourceId
+:
 source
+.
+id
 line
 column
 }

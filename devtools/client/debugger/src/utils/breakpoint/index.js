@@ -55,7 +55,7 @@ location
 {
 const
 {
-source
+sourceId
 line
 column
 }
@@ -73,9 +73,7 @@ column
 ;
 return
 {
-source
-.
-id
+sourceId
 }
 :
 {

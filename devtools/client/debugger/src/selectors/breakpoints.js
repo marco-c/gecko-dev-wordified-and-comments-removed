@@ -241,9 +241,7 @@ line
 return
 location
 .
-source
-.
-id
+sourceId
 =
 =
 =
@@ -256,9 +254,7 @@ isOnLineOrWithinRange
 return
 location
 .
-source
-.
-id
+sourceId
 =
 =
 =

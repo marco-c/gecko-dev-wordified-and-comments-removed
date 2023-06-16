@@ -481,9 +481,7 @@ isOriginalId
 (
 location
 .
-source
-.
-id
+sourceId
 )
 )
 {
@@ -512,9 +510,7 @@ isOriginalId
 (
 location
 .
-source
-.
-id
+sourceId
 )
 ;
 }

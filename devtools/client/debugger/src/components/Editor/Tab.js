@@ -482,9 +482,7 @@ selectedLocation
 !
 selectedLocation
 .
-source
-.
-id
+sourceId
 )
 {
 return
@@ -695,9 +693,7 @@ disabled
 :
 selectedLocation
 .
-source
-.
-id
+sourceId
 !
 =
 =
@@ -729,9 +725,7 @@ disabled
 !
 selectedLocation
 .
-source
-.
-url
+sourceUrl
 click
 :
 (
@@ -764,9 +758,7 @@ disabled
 !
 selectedLocation
 .
-source
-.
-url
+sourceUrl
 click
 :
 (
@@ -937,9 +929,7 @@ sourceId
 =
 selectedLocation
 .
-source
-.
-id
+sourceId
 &
 &
 !

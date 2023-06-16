@@ -916,6 +916,11 @@ toEqual
 (
 {
 source
+sourceId
+:
+source
+.
+id
 line
 :
 7
@@ -928,6 +933,10 @@ undefined
 sourceActor
 :
 null
+sourceUrl
+:
+"
+"
 }
 )
 ;

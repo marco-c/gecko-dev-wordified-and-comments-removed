@@ -1043,9 +1043,7 @@ line
 &
 location
 .
-source
-.
-id
+sourceId
 =
 =
 originalToGeneratedId
