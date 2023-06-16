@@ -158,6 +158,16 @@ Migrator
 "
 ;
 }
+static
+get
+sourceID
+(
+)
+{
+return
+1
+;
+}
 getSourceProfiles
 (
 )
