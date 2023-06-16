@@ -3139,6 +3139,12 @@ IsDOMRemoteProxyObject
 (
 wobj
 )
+|
+|
+IsDeadProxyObject
+(
+wobj
+)
 )
 ;
 return
