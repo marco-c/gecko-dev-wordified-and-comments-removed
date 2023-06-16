@@ -2543,10 +2543,7 @@ result
 #
 endif
 {
-Maybe
-<
-IOInterposerInit
->
+AutoIOInterposer
 ioInterposerGuard
 ;
 MessageLoop
@@ -2589,7 +2586,7 @@ GeckoProcessType_Content
 :
 ioInterposerGuard
 .
-emplace
+Init
 (
 )
 ;
@@ -2722,7 +2719,7 @@ GeckoProcessType_Socket
 :
 ioInterposerGuard
 .
-emplace
+Init
 (
 )
 ;

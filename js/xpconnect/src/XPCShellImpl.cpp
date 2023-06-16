@@ -5745,8 +5745,14 @@ argv
 mozilla
 :
 :
-IOInterposerInit
+AutoIOInterposer
 ioInterposerGuard
+;
+ioInterposerGuard
+.
+Init
+(
+)
 ;
 XRE_InitCommandLine
 (
