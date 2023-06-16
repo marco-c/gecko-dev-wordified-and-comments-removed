@@ -966,7 +966,7 @@ NetUtil
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -979,7 +979,9 @@ modules
 /
 NetUtil
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
@@ -1164,7 +1166,7 @@ NetUtil
 =
 ChromeUtils
 .
-import
+importESModule
 (
 "
 resource
@@ -1177,7 +1179,9 @@ modules
 /
 NetUtil
 .
-jsm
+sys
+.
+mjs
 "
 )
 ;
