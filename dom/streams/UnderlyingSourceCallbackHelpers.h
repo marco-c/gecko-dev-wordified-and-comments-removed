@@ -902,6 +902,9 @@ aLength
 uint32_t
 *
 aByteWritten
+ErrorResult
+&
+aRv
 )
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
