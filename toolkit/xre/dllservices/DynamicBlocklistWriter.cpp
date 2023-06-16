@@ -334,10 +334,7 @@ i
 .
 mFlags
 =
-DllBlockInfo
-:
-:
-Flags
+DllBlockInfoFlags
 :
 :
 FLAGS_DEFAULT

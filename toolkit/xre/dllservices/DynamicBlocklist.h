@@ -293,7 +293,7 @@ testEntry
 >
 mFlags
 =
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 FLAGS_DEFAULT

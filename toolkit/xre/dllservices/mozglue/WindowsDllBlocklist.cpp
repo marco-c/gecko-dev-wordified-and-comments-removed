@@ -1637,7 +1637,7 @@ info
 .
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 REDIRECT_TO_NOOP_ENTRYPOINT
@@ -1667,7 +1667,7 @@ info
 .
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 BLOCK_WIN8_AND_OLDER
@@ -1690,7 +1690,7 @@ info
 .
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 BLOCK_WIN7_AND_OLDER
@@ -1713,7 +1713,7 @@ info
 .
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 CHILD_PROCESSES_ONLY
@@ -1739,7 +1739,7 @@ info
 .
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 UTILITY_PROCESSES_ONLY
@@ -1765,7 +1765,7 @@ info
 .
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 SOCKET_PROCESSES_ONLY
@@ -1791,7 +1791,7 @@ info
 .
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 GPU_PROCESSES_ONLY
@@ -1817,7 +1817,7 @@ info
 .
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 BROWSER_PROCESS_ONLY
@@ -1842,7 +1842,7 @@ info
 .
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 GMPLUGIN_PROCESSES_ONLY
@@ -1960,7 +1960,7 @@ info
 .
 mFlags
 &
-DllBlockInfo
+DllBlockInfoFlags
 :
 :
 USE_TIMESTAMP
