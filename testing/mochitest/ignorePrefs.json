@@ -120,6 +120,11 @@ doneFirstRun
 "
 extensions
 .
+databaseSchema
+"
+"
+extensions
+.
 dnr
 .
 lastStoreUpdateTag
