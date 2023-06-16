@@ -1416,7 +1416,7 @@ component
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 return
 Append
@@ -1447,7 +1447,7 @@ path_
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 FilePath
 FilePath

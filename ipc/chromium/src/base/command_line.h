@@ -76,7 +76,7 @@ command_line
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 CommandLine
 (
@@ -240,7 +240,7 @@ command_line_string_
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 const
 std
@@ -469,7 +469,7 @@ StringType
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 std
 :

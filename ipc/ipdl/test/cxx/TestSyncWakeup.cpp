@@ -2,7 +2,7 @@
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 #
 include
@@ -158,7 +158,7 @@ Note1
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 puts
 (
@@ -223,7 +223,7 @@ Note2
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 sleep
 (

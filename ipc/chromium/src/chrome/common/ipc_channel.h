@@ -329,7 +329,7 @@ const
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 void
 GetClientFileDescriptorMapping

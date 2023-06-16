@@ -50,7 +50,7 @@ public
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 typedef
 std
@@ -425,7 +425,7 @@ path_
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 #
 define

@@ -114,7 +114,7 @@ HandlesMultipleThreadPriorities
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 return
 base
@@ -152,7 +152,7 @@ endif
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 |
 |

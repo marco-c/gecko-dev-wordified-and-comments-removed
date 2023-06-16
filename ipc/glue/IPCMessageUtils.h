@@ -100,7 +100,7 @@ if
 !
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 namespace
 base
@@ -430,7 +430,7 @@ if
 !
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 template
 <

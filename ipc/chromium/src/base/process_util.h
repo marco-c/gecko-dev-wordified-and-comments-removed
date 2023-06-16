@@ -336,7 +336,7 @@ process
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 void
 CloseSuperfluousFds
@@ -464,7 +464,7 @@ endif
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 environment_map
 env_map
@@ -590,7 +590,7 @@ process_handle
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 Result
 <
@@ -767,7 +767,7 @@ exit_code
 ;
 #
 ifdef
-OS_POSIX
+XP_UNIX
 bool
 IsProcessDead
 (

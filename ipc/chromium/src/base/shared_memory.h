@@ -17,7 +17,7 @@ h
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 #
 include
@@ -349,7 +349,7 @@ size
 ;
 #
 ifdef
-OS_POSIX
+XP_UNIX
 static
 bool
 AppendPosixShmPrefix
@@ -388,7 +388,7 @@ MappingDeleter
 {
 #
 ifdef
-OS_POSIX
+XP_UNIX
 size_t
 mapped_size_
 =
@@ -468,7 +468,7 @@ false
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 &
 &

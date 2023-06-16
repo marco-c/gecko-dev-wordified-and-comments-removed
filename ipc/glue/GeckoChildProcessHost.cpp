@@ -1563,7 +1563,7 @@ ProcessLauncher
 endif
 #
 ifdef
-OS_POSIX
+XP_UNIX
 class
 PosixProcessLauncher
 :
@@ -2905,7 +2905,7 @@ exePathBuf
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 exePath
 =
@@ -5961,7 +5961,7 @@ Ok
 endif
 #
 ifdef
-OS_POSIX
+XP_UNIX
 Result
 <
 Ok
@@ -6798,7 +6798,7 @@ fds_to_remap
 endif
 #
 ifdef
-OS_POSIX
+XP_UNIX
 RefPtr
 <
 ProcessHandlePromise

@@ -145,7 +145,7 @@ L
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 const
 char
@@ -539,7 +539,7 @@ L
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 CommandLine
 :
@@ -1001,7 +1001,7 @@ GetCommandLineW
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 current_process_commandline_
 =
@@ -2070,7 +2070,7 @@ command_line_string_
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 void
 CommandLine

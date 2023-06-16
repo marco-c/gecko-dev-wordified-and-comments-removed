@@ -126,7 +126,7 @@ endif
 if
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 #
 include
@@ -1259,7 +1259,7 @@ MessagePumpForUI
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 if
 (
@@ -3164,7 +3164,7 @@ filter
 elif
 defined
 (
-OS_POSIX
+XP_UNIX
 )
 bool
 MessageLoopForIO
