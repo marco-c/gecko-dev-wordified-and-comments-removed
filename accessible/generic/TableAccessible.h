@@ -145,13 +145,6 @@ aColIdx
 override
 ;
 virtual
-bool
-IsProbablyLayoutTable
-(
-)
-override
-;
-virtual
 LocalAccessible
 *
 AsAccessible
