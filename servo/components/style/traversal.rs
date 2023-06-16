@@ -164,6 +164,7 @@ ComputedValues
 derive
 (
 Clone
+Copy
 Debug
 )
 ]
