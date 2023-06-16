@@ -510,6 +510,11 @@ testResolveRecursion
 cpp
 "
 "
+testResult
+.
+cpp
+"
+"
 tests
 .
 cpp
