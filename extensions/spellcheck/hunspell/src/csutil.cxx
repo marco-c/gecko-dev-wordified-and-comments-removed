@@ -169,6 +169,9 @@ utf_tbl_count
 =
 0
 ;
+#
+ifndef
+MOZILLA_CLIENT
 void
 myopen
 (
@@ -319,6 +322,8 @@ mode
 )
 ;
 }
+#
+endif
 std
 :
 :
