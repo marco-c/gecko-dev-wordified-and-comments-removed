@@ -659,7 +659,6 @@ Favicon
 Cache
 "
 ]
-false
 )
 .
 path
@@ -1808,7 +1807,6 @@ Favicon
 Cache
 "
 ]
-false
 )
 .
 path
@@ -2341,7 +2339,6 @@ History
 db
 "
 ]
-false
 )
 .
 path
@@ -3309,7 +3306,6 @@ ULibDir
 Safari
 "
 ]
-false
 )
 ;
 if
@@ -3548,7 +3544,6 @@ ULibDir
 Safari
 "
 ]
-false
 )
 ;
 const
@@ -3687,7 +3682,6 @@ Bookmarks
 plist
 "
 ]
-false
 )
 ;
 let
@@ -3714,7 +3708,6 @@ favicons
 db
 "
 ]
-false
 )
 ;
 try
@@ -3921,7 +3914,6 @@ ULibDir
 "
 "
 ]
-false
 )
 ;
 /
@@ -4056,7 +4048,6 @@ UsrPrfs
 "
 [
 ]
-false
 )
 ;
 if

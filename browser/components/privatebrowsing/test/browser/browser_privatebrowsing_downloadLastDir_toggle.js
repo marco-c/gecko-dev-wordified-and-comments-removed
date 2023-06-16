@@ -18,7 +18,6 @@ TmpD
 "
 [
 ]
-true
 )
 ;
 let
