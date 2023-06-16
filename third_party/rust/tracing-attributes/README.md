@@ -502,7 +502,7 @@ requires
 rustc
 1
 .
-49
+56
 +
 ]
 [
@@ -654,7 +654,7 @@ version
 is
 1
 .
-49
+56
 .
 The
 current
@@ -720,7 +720,7 @@ version
 is
 1
 .
-45
+69
 the
 minimum
 supported
@@ -732,7 +732,7 @@ increased
 past
 1
 .
-42
+66
 three
 minor
 versions

@@ -92,9 +92,10 @@ instrument
 (
 level
 =
-"
-debug
-"
+Level
+:
+:
+DEBUG
 target
 =
 "
