@@ -1030,6 +1030,22 @@ matches
 ]
 )
     
+log
+.
+debug
+(
+f
+"
+Running
+with
+args
+:
+{
+args
+}
+"
+)
+    
 output
 =
 run_process

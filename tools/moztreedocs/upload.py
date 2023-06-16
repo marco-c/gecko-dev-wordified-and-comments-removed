@@ -1,10 +1,4 @@
 import
-concurrent
-.
-futures
-as
-futures
-import
 io
 import
 mimetypes
@@ -12,6 +6,10 @@ import
 os
 import
 sys
+from
+concurrent
+import
+futures
 from
 pprint
 import
