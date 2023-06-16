@@ -7620,6 +7620,7 @@ VideoCodecMode
 kScreensharing
 )
 ;
+const
 VideoEncoder
 :
 :
@@ -10260,6 +10261,7 @@ TraceFrameDropEnd
 (
 )
 ;
+const
 VideoEncoder
 :
 :
