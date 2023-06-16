@@ -29156,9 +29156,10 @@ get
 )
 )
 ;
-if
+QM_TRY
 (
-!
+OkIf
+(
 quotaObject
 -
 >
@@ -29168,11 +29169,9 @@ newUsage
 true
 )
 )
-{
-return
 NS_ERROR_FILE_NO_DEVICE_SPACE
+)
 ;
-}
 auto
 autoUpdateSize
 =
