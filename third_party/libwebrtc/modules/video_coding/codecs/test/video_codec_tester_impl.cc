@@ -871,6 +871,18 @@ Decode
 frame
 [
 this
+spatial_idx
+=
+frame
+.
+SpatialIndex
+(
+)
+.
+value_or
+(
+0
+)
 ]
 (
 const
@@ -888,7 +900,7 @@ analyzer_
 FinishDecode
 (
 decoded_frame
-0
+spatial_idx
 )
 ;
 }
@@ -1238,7 +1250,7 @@ std
 :
 unique_ptr
 <
-VideoCodecTestStats
+VideoCodecStats
 >
 VideoCodecTesterImpl
 :
@@ -1378,7 +1390,7 @@ std
 :
 unique_ptr
 <
-VideoCodecTestStats
+VideoCodecStats
 >
 VideoCodecTesterImpl
 :
@@ -1530,7 +1542,7 @@ std
 :
 unique_ptr
 <
-VideoCodecTestStats
+VideoCodecStats
 >
 VideoCodecTesterImpl
 :
