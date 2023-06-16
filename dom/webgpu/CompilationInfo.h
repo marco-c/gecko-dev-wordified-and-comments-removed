@@ -43,7 +43,7 @@ nsWrapperCache
 public
 ChildOf
 <
-ShaderModule
+Device
 >
 {
 public
@@ -59,7 +59,7 @@ CompilationInfo
 explicit
 CompilationInfo
 (
-ShaderModule
+Device
 *
 const
 aParent

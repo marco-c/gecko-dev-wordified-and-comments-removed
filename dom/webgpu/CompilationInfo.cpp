@@ -51,7 +51,7 @@ CompilationInfo
 :
 CompilationInfo
 (
-ShaderModule
+Device
 *
 const
 aParent
@@ -107,7 +107,7 @@ webgpu
 CompilationMessage
 >
 (
-this
+mParent
 msg
 .
 lineNum

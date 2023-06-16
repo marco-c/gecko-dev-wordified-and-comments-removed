@@ -43,7 +43,7 @@ CompilationMessage
 :
 CompilationMessage
 (
-CompilationInfo
+Device
 *
 const
 aParent
