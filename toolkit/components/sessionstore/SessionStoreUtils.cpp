@@ -3345,7 +3345,7 @@ list
 "
 )
 ;
-HTMLTextAreaElement
+auto
 *
 textArea
 =
@@ -5932,7 +5932,10 @@ aElement
 )
 )
 {
+MOZ_KnownLive
+(
 textArea
+)
 -
 >
 SetValue
