@@ -286,6 +286,14 @@ EqualsLiteral
 (
 AUDIO_AAC
 )
+|
+|
+aContentType
+.
+EqualsLiteral
+(
+AUDIO_AACP
+)
 )
 {
 return
