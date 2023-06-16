@@ -41,6 +41,7 @@ super
 :
 :
 {
+CowRcStr
 ParseError
 Parser
 ToCss
@@ -144,8 +145,9 @@ none
 [
 inline
 ]
+pub
 fn
-serialize_alpha
+serialize_color_alpha
 (
 dest
 :
@@ -776,7 +778,7 @@ dest
 )
 ?
 ;
-serialize_alpha
+serialize_color_alpha
 (
 dest
 Some
@@ -1912,7 +1914,7 @@ b
 )
 ?
 ;
-serialize_alpha
+serialize_color_alpha
 (
 dest
 self
@@ -2364,7 +2366,7 @@ hue
 )
 ?
 ;
-serialize_alpha
+serialize_color_alpha
 (
 dest
 self
@@ -2922,7 +2924,7 @@ c3
 )
 ?
 ;
-serialize_alpha
+serialize_color_alpha
 (
 dest
 self
@@ -4607,7 +4609,6 @@ arguments
 parse_color_function
 (
 color_parser
-&
 name
 arguments
 )
@@ -6989,8 +6990,11 @@ color_parser
 P
 name
 :
-&
-str
+CowRcStr
+<
+'
+i
+>
 arguments
 :
 &
@@ -7036,6 +7040,7 @@ color
 match_ignore_ascii_case
 !
 {
+&
 name
 "
 rgb
@@ -7329,14 +7334,6 @@ Token
 Ident
 (
 name
-.
-to_owned
-(
-)
-.
-into
-(
-)
 )
 )
 )
