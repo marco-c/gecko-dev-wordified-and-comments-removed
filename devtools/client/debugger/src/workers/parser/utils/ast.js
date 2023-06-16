@@ -118,6 +118,9 @@ privateIn
 "
 nullishCoalescingOperator
 "
+"
+regexpUnicodeSets
+"
 ]
 }
 original
@@ -191,6 +194,9 @@ dynamicImport
 react
 -
 jsx
+"
+"
+regexpUnicodeSets
 "
 ]
 }
@@ -434,6 +440,9 @@ nullishCoalescingOperator
 "
 "
 optionalChaining
+"
+"
+regexpUnicodeSets
 "
 ]
 .
