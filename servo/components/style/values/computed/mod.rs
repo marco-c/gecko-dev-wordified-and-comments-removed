@@ -182,7 +182,6 @@ properties
 :
 {
 ComputedValues
-LonghandId
 StyleBuilder
 }
 ;
@@ -1313,10 +1312,7 @@ ContainerInfo
 pub
 for_non_inherited_property
 :
-Option
-<
-LonghandId
->
+bool
 pub
 rule_cache_conditions
 :
@@ -1462,7 +1458,7 @@ container_info
 None
 for_non_inherited_property
 :
-None
+false
 rule_cache_conditions
 :
 RefCell
@@ -1651,7 +1647,7 @@ false
 container_info
 for_non_inherited_property
 :
-None
+false
 rule_cache_conditions
 :
 RefCell
@@ -1734,7 +1730,7 @@ for_smil_animation
 false
 for_non_inherited_property
 :
-None
+false
 rule_cache_conditions
 :
 RefCell
@@ -1810,7 +1806,7 @@ None
 for_smil_animation
 for_non_inherited_property
 :
-None
+false
 rule_cache_conditions
 :
 RefCell
@@ -1873,10 +1869,6 @@ if
 self
 .
 for_non_inherited_property
-.
-is_some
-(
-)
 {
 self
 .
