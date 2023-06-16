@@ -4643,6 +4643,10 @@ nsContentUtils
 :
 ShouldResistFingerprinting
 (
+RFPTarget
+:
+:
+Unknown
 )
 )
 {
