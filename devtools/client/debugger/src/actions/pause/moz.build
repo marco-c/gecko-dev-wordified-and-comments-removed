@@ -99,11 +99,6 @@ fetchScopes
 js
 "
 "
-highlightCalls
-.
-js
-"
-"
 index
 .
 js
