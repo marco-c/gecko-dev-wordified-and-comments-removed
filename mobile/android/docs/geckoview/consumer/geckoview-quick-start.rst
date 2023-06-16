@@ -345,7 +345,7 @@ maven2
 3
 .
 Java
-11
+17
 required
 support
 *
@@ -355,7 +355,7 @@ GeckoView
 uses
 some
 Java
-11
+17
 APIs
 it
 requires
@@ -376,11 +376,11 @@ compileOptions
 sourceCompatibility
 JavaVersion
 .
-VERSION_11
+VERSION_17
 targetCompatibility
 JavaVersion
 .
-VERSION_11
+VERSION_17
 }
 *
 *

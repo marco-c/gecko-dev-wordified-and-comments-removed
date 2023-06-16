@@ -983,11 +983,11 @@ compileOptions
 sourceCompatibility
 JavaVersion
 .
-VERSION_11
+VERSION_17
 targetCompatibility
 JavaVersion
 .
-VERSION_11
+VERSION_17
 }
 lintOptions
 {
@@ -1694,7 +1694,7 @@ jvmTarget
 =
 JavaVersion
 .
-VERSION_11
+VERSION_17
 }
 doFirst
 {

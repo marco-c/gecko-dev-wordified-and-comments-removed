@@ -115,9 +115,9 @@ sourceCompatibility
 =
 JavaVersion
 .
-VERSION_11
+VERSION_17
 targetCompatibility
 =
 JavaVersion
 .
-VERSION_11
+VERSION_17
