@@ -321,7 +321,6 @@ new
 FormAutoCompleteResult
 (
 searchString
-0
 results
 .
 map
