@@ -64,6 +64,9 @@ nsIChannel
 class
 nsIURI
 ;
+class
+nsIInterfaceRequestor
+;
 namespace
 mozilla
 :
@@ -111,6 +114,9 @@ const
 nsACString
 &
 aCSPHeader
+nsIInterfaceRequestor
+*
+aCallbacks
 )
 ;
 void
