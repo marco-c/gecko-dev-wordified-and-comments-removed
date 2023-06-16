@@ -1334,7 +1334,7 @@ getTranslationsActor
 (
 )
 .
-getLangTagsForTranslation
+getDetectedLanguages
 (
 )
 ;
@@ -3609,6 +3609,7 @@ elements
 toMenuList
 .
 value
+false
 )
 ;
 }
