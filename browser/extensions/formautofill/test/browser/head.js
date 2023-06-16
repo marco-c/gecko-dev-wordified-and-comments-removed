@@ -4509,6 +4509,9 @@ expected
 ;
 [
 "
+identifier
+"
+"
 autofill
 "
 "

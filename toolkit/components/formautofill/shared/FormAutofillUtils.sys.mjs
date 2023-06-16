@@ -1834,6 +1834,8 @@ return
 this
 .
 _fieldNameInfo
+?
+.
 [
 fieldName
 ]
